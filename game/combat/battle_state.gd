@@ -196,8 +196,23 @@ func _execute_action(action: Dictionary) -> void:
 			_damage_target(actor, action, PARTY_ATTACK_DAMAGE if side == "party" else ENEMY_ATTACK_DAMAGE, "attacks")
 
 func _damage_target(actor: Dictionary, action: Dictionary, base_damage: int, verb: String) -> void:
-	var target_array: Array = party if str(action["target_side"]) == "party" else enemies
-	var target := _target(target_array, int(action["target_index"]))
+	var target_side := str(action["target_side"])
+	var target_array: Array = party if target_side == "party" else enemies
+	var original_index := int(action["target_index"])
+	var resolved_index := original_index
+
+	if str(action["side"]) == "party" and target_side == "enemy":
+		resolved_index = _next_living_target_index(target_array, original_index)
+		if resolved_index == -1:
+			log.append("%s's action has no living target." % str(actor["name"]))
+			return
+		if resolved_index != original_index:
+			var original_name := "defeated target"
+			if original_index >= 0 and original_index < target_array.size():
+				original_name = str(target_array[original_index]["name"])
+			log.append("%s retargets from %s to %s." % [str(actor["name"]), original_name, str(target_array[resolved_index]["name"])])
+
+	var target := _target(target_array, resolved_index)
 	if target.is_empty() or int(target["hp"]) <= 0:
 		log.append("%s's action has no living target." % str(actor["name"]))
 		return
@@ -208,6 +223,17 @@ func _damage_target(actor: Dictionary, action: Dictionary, base_damage: int, ver
 	log.append("%s %s %s for %d damage." % [str(actor["name"]), verb, str(target["name"]), damage])
 	if int(target["hp"]) == 0:
 		log.append("%s is KO." % str(target["name"]))
+
+func _next_living_target_index(units: Array, original_index: int) -> int:
+	if units.is_empty():
+		return -1
+	if original_index >= 0 and original_index < units.size() and int(units[original_index]["hp"]) > 0:
+		return original_index
+	for offset in range(1, units.size() + 1):
+		var index := (original_index + offset) % units.size()
+		if index >= 0 and int(units[index]["hp"]) > 0:
+			return index
+	return -1
 
 func _target(units: Array, index: int) -> Dictionary:
 	if index < 0 or index >= units.size():
