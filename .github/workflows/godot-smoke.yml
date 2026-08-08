@@ -30,14 +30,9 @@ jobs:
       - name: Capture rendered field proof
         run: godot --path . --script tests/visual/capture_field_proof.gd
 
-      - name: Capture rendered dialogue proof
-        run: godot --path . --script tests/visual/capture_dialogue_proof.gd
-
-      - name: Upload rendered proof screenshots
+      - name: Upload rendered field proof
         uses: actions/upload-artifact@v4
         with:
-          name: diyse-7b5c-visual-proofs
-          path: |
-            artifacts/field_proof.png
-            artifacts/dialogue_proof.png
+          name: diyse-7b5c-field-proof
+          path: artifacts/field_proof.png
           if-no-files-found: error
