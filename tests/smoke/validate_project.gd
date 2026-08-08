@@ -29,13 +29,23 @@ func _initialize() -> void:
 		failures.append("Cyanis is missing follow Camera3D")
 	if field.get_node_or_null("Cyanis/CollisionShape3D") == null:
 		failures.append("Cyanis is missing collision shape")
+	if field.get_node_or_null("HUD/TouchDPad") == null:
+		failures.append("Field proof is missing temporary touch D-pad")
+	if field.get_node_or_null("HUD/TouchDPad/Up") == null:
+		failures.append("Touch D-pad is missing Up button")
+	if field.get_node_or_null("HUD/TouchDPad/Down") == null:
+		failures.append("Touch D-pad is missing Down button")
+	if field.get_node_or_null("HUD/TouchDPad/Left") == null:
+		failures.append("Touch D-pad is missing Left button")
+	if field.get_node_or_null("HUD/TouchDPad/Right") == null:
+		failures.append("Touch D-pad is missing Right button")
 
 	field.queue_free()
 	_finish(failures)
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Diyse 7B.5A smoke validation passed.")
+		print("Diyse 7B.5B smoke validation passed.")
 		quit(0)
 		return
 
