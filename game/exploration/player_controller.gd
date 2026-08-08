@@ -7,23 +7,33 @@ extends CharacterBody3D
 @onready var sprite: Sprite3D = $Sprite3D
 
 var _touch_input := Vector2.ZERO
+var _movement_enabled := true
 
 func set_touch_input(value: Vector2) -> void:
 	_touch_input = value.limit_length(1.0)
 
+func set_movement_enabled(value: bool) -> void:
+	_movement_enabled = value
+	if not value:
+		_touch_input = Vector2.ZERO
+
 func _physics_process(delta: float) -> void:
 	var keyboard_input := Vector2.ZERO
 
-	if Input.is_key_pressed(KEY_A) or Input.is_key_pressed(KEY_LEFT):
-		keyboard_input.x -= 1.0
-	if Input.is_key_pressed(KEY_D) or Input.is_key_pressed(KEY_RIGHT):
-		keyboard_input.x += 1.0
-	if Input.is_key_pressed(KEY_W) or Input.is_key_pressed(KEY_UP):
-		keyboard_input.y -= 1.0
-	if Input.is_key_pressed(KEY_S) or Input.is_key_pressed(KEY_DOWN):
-		keyboard_input.y += 1.0
+	if _movement_enabled:
+		if Input.is_key_pressed(KEY_A) or Input.is_key_pressed(KEY_LEFT):
+			keyboard_input.x -= 1.0
+		if Input.is_key_pressed(KEY_D) or Input.is_key_pressed(KEY_RIGHT):
+			keyboard_input.x += 1.0
+		if Input.is_key_pressed(KEY_W) or Input.is_key_pressed(KEY_UP):
+			keyboard_input.y -= 1.0
+		if Input.is_key_pressed(KEY_S) or Input.is_key_pressed(KEY_DOWN):
+			keyboard_input.y += 1.0
 
-	var input_vector := (keyboard_input + _touch_input).limit_length(1.0)
+	var input_vector := Vector2.ZERO
+	if _movement_enabled:
+		input_vector = (keyboard_input + _touch_input).limit_length(1.0)
+
 	var desired_velocity := Vector3(input_vector.x, 0.0, input_vector.y) * move_speed
 
 	velocity.x = move_toward(velocity.x, desired_velocity.x, acceleration * delta)
