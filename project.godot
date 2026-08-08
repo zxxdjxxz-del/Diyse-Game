@@ -1,12 +1,12 @@
 ; Engine configuration file.
-; Edit through Godot where possible.
-; Diyse Step 7B.5 clean technical-proof baseline.
+; Diyse Step 7B.5A first executable field proof.
 
 config_version=5
 
 [application]
 
 config/name="Diyse"
+run/main_scene="res://game/exploration/field_proof.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
 [display]
