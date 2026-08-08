@@ -46,7 +46,7 @@ func _process(_delta: float) -> void:
 	GameState.current_area = AREA_ID
 	GameState.field_position = player.global_position
 
-	var dialogue_active := dialogue_runner.is_running()
+	var dialogue_active: bool = bool(dialogue_runner.is_running())
 	save_button.disabled = dialogue_active
 	load_button.disabled = dialogue_active
 	if dialogue_active:
