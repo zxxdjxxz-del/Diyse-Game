@@ -1,8 +1,11 @@
-[gd_scene load_steps=12 format=3]
+[gd_scene load_steps=16 format=3]
 
 [ext_resource type="Script" path="res://game/exploration/player_controller.gd" id="1_player"]
 [ext_resource type="Texture2D" path="res://game/characters/placeholders/cyanis_placeholder.svg" id="2_cyanis"]
 [ext_resource type="Script" path="res://game/exploration/touch_dpad.gd" id="3_touch"]
+[ext_resource type="Script" path="res://game/exploration/field_proof.gd" id="4_field"]
+[ext_resource type="Texture2D" path="res://game/characters/placeholders/torren_placeholder.svg" id="5_torren"]
+[ext_resource type="Script" path="res://game/dialogue/dialogue_runner.gd" id="6_dialogue"]
 
 [sub_resource type="StandardMaterial3D" id="GroundMaterial"]
 albedo_color = Color(0.18, 0.22, 0.19, 1)
@@ -37,6 +40,7 @@ size = Vector3(20.5, 3, 0.5)
 size = Vector3(0.5, 3, 20.5)
 
 [node name="FieldProof" type="Node3D"]
+script = ExtResource("4_field")
 
 [node name="Sun" type="DirectionalLight3D" parent="."]
 rotation_degrees = Vector3(-55, -30, 0)
@@ -79,6 +83,17 @@ mesh = SubResource("ObstacleMesh")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Obstacle"]
 shape = SubResource("ObstacleShape")
 
+[node name="Torren" type="StaticBody3D" parent="."]
+position = Vector3(-2.5, 0.9, 0.5)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Torren"]
+shape = SubResource("PlayerShape")
+
+[node name="Sprite3D" type="Sprite3D" parent="Torren"]
+texture = ExtResource("5_torren")
+pixel_size = 0.0034
+billboard = 1
+
 [node name="Cyanis" type="CharacterBody3D" parent="."]
 position = Vector3(0, 0.9, 4)
 script = ExtResource("1_player")
@@ -102,14 +117,14 @@ fov = 60.0
 [node name="Instructions" type="Label" parent="HUD"]
 offset_left = 24.0
 offset_top = 24.0
-offset_right = 850.0
+offset_right = 980.0
 offset_bottom = 118.0
 theme_override_colors/font_color = Color(0.95, 0.95, 0.95, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.85)
 theme_override_constants/shadow_offset_x = 2
 theme_override_constants/shadow_offset_y = 2
 theme_override_font_sizes/font_size = 24
-text = "Diyse 7B.5B — Touch + Android Proof\nMove: touch D-pad, WASD, or Arrow Keys"
+text = "Diyse 7B.5C — Authored Dialogue Proof\nMove near Torren, tap TALK, then advance the authored exchange"
 
 [node name="TouchDPad" type="Control" parent="HUD"]
 layout_mode = 3
@@ -163,3 +178,86 @@ offset_bottom = 292.0
 focus_mode = 0
 theme_override_font_sizes/font_size = 38
 text = "▼"
+
+[node name="TalkButton" type="Button" parent="HUD"]
+visible = false
+offset_left = 1640.0
+offset_top = 850.0
+offset_right = 1870.0
+offset_bottom = 970.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 34
+text = "TALK"
+
+[node name="DialogueRunner" type="Control" parent="HUD"]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("6_dialogue")
+
+[node name="Panel" type="Panel" parent="HUD/DialogueRunner"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 560.0
+offset_right = 1880.0
+offset_bottom = 1040.0
+
+[node name="LeftPortrait" type="TextureRect" parent="HUD/DialogueRunner/Panel"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 350.0
+offset_bottom = 450.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="RightPortrait" type="TextureRect" parent="HUD/DialogueRunner/Panel"]
+layout_mode = 0
+offset_left = 1490.0
+offset_top = 20.0
+offset_right = 1820.0
+offset_bottom = 450.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Speaker" type="Label" parent="HUD/DialogueRunner/Panel"]
+layout_mode = 0
+offset_left = 390.0
+offset_top = 38.0
+offset_right = 1450.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 34
+text = "Speaker"
+
+[node name="Body" type="Label" parent="HUD/DialogueRunner/Panel"]
+layout_mode = 0
+offset_left = 390.0
+offset_top = 105.0
+offset_right = 1450.0
+offset_bottom = 325.0
+theme_override_font_sizes/font_size = 30
+text = "Dialogue"
+autowrap_mode = 3
+
+[node name="BeatHint" type="Label" parent="HUD/DialogueRunner/Panel"]
+layout_mode = 0
+offset_left = 390.0
+offset_top = 325.0
+offset_right = 1080.0
+offset_bottom = 375.0
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 20
+
+[node name="Continue" type="Button" parent="HUD/DialogueRunner/Panel"]
+layout_mode = 0
+offset_left = 1120.0
+offset_top = 350.0
+offset_right = 1450.0
+offset_bottom = 435.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 30
+text = "NEXT"
