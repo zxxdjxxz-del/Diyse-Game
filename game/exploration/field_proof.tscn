@@ -1,7 +1,8 @@
-[gd_scene load_steps=9 format=3]
+[gd_scene load_steps=10 format=3]
 
 [ext_resource type="Script" path="res://game/exploration/player_controller.gd" id="1_player"]
 [ext_resource type="Texture2D" path="res://game/characters/placeholders/cyanis_placeholder.svg" id="2_cyanis"]
+[ext_resource type="Script" path="res://game/exploration/touch_dpad.gd" id="3_touch"]
 
 [sub_resource type="StandardMaterial3D" id="GroundMaterial"]
 albedo_color = Color(0.18, 0.22, 0.19, 1)
@@ -77,11 +78,64 @@ fov = 60.0
 [node name="Instructions" type="Label" parent="HUD"]
 offset_left = 24.0
 offset_top = 24.0
-offset_right = 770.0
+offset_right = 850.0
 offset_bottom = 118.0
 theme_override_colors/font_color = Color(0.95, 0.95, 0.95, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.85)
 theme_override_constants/shadow_offset_x = 2
 theme_override_constants/shadow_offset_y = 2
 theme_override_font_sizes/font_size = 24
-text = "Diyse 7B.5A — First 2.5D Field Proof\nMove: WASD or Arrow Keys | Test collision against the stone block"
+text = "Diyse 7B.5B — Touch + Android Proof\nMove: touch D-pad, WASD, or Arrow Keys"
+
+[node name="TouchDPad" type="Control" parent="HUD"]
+layout_mode = 3
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 28.0
+offset_top = -322.0
+offset_right = 328.0
+offset_bottom = -22.0
+grow_vertical = 0
+script = ExtResource("3_touch")
+player_path = NodePath("../../Cyanis")
+
+[node name="Up" type="Button" parent="HUD/TouchDPad"]
+layout_mode = 0
+offset_left = 108.0
+offset_top = 8.0
+offset_right = 192.0
+offset_bottom = 92.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 38
+text = "▲"
+
+[node name="Left" type="Button" parent="HUD/TouchDPad"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 108.0
+offset_right = 96.0
+offset_bottom = 192.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 38
+text = "◀"
+
+[node name="Right" type="Button" parent="HUD/TouchDPad"]
+layout_mode = 0
+offset_left = 204.0
+offset_top = 108.0
+offset_right = 288.0
+offset_bottom = 192.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 38
+text = "▶"
+
+[node name="Down" type="Button" parent="HUD/TouchDPad"]
+layout_mode = 0
+offset_left = 108.0
+offset_top = 208.0
+offset_right = 192.0
+offset_bottom = 292.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 38
+text = "▼"
