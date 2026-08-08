@@ -1,0 +1,87 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://game/exploration/player_controller.gd" id="1_player"]
+[ext_resource type="Texture2D" path="res://game/characters/placeholders/cyanis_placeholder.svg" id="2_cyanis"]
+
+[sub_resource type="StandardMaterial3D" id="GroundMaterial"]
+albedo_color = Color(0.18, 0.22, 0.19, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="GroundMesh"]
+material = SubResource("GroundMaterial")
+size = Vector3(20, 0.2, 20)
+
+[sub_resource type="BoxShape3D" id="GroundShape"]
+size = Vector3(20, 0.2, 20)
+
+[sub_resource type="StandardMaterial3D" id="ObstacleMaterial"]
+albedo_color = Color(0.31, 0.29, 0.27, 1)
+roughness = 0.85
+
+[sub_resource type="BoxMesh" id="ObstacleMesh"]
+material = SubResource("ObstacleMaterial")
+size = Vector3(2, 1.5, 2)
+
+[sub_resource type="BoxShape3D" id="ObstacleShape"]
+size = Vector3(2, 1.5, 2)
+
+[sub_resource type="CapsuleShape3D" id="PlayerShape"]
+radius = 0.35
+height = 1.8
+
+[node name="FieldProof" type="Node3D"]
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-55, -30, 0)
+light_energy = 1.15
+shadow_enabled = true
+
+[node name="Ground" type="StaticBody3D" parent="."]
+position = Vector3(0, -0.1, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Ground"]
+mesh = SubResource("GroundMesh")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground"]
+shape = SubResource("GroundShape")
+
+[node name="Obstacle" type="StaticBody3D" parent="."]
+position = Vector3(2.5, 0.75, -2.5)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstacle"]
+mesh = SubResource("ObstacleMesh")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstacle"]
+shape = SubResource("ObstacleShape")
+
+[node name="Cyanis" type="CharacterBody3D" parent="."]
+position = Vector3(0, 0.9, 4)
+script = ExtResource("1_player")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cyanis"]
+shape = SubResource("PlayerShape")
+
+[node name="Sprite3D" type="Sprite3D" parent="Cyanis"]
+texture = ExtResource("2_cyanis")
+pixel_size = 0.0034
+billboard = 1
+
+[node name="Camera3D" type="Camera3D" parent="Cyanis"]
+position = Vector3(0, 5.5, 7.5)
+rotation_degrees = Vector3(-25, 0, 0)
+current = true
+fov = 60.0
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Instructions" type="Label" parent="HUD"]
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 770.0
+offset_bottom = 118.0
+theme_override_colors/font_color = Color(0.95, 0.95, 0.95, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.85)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 24
+text = "Diyse 7B.5A — First 2.5D Field Proof\nMove: WASD or Arrow Keys | Test collision against the stone block"
