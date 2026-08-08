@@ -14,9 +14,16 @@ func _initialize() -> void:
 
 func _run_validation() -> void:
 	var failures: Array[String] = []
-	GameState.reset_defaults()
-	var packed_scene := load(FIELD_SCENE) as PackedScene
+	var game_state: Node = get_root().get_node_or_null("GameState")
+	var save_manager: Node = get_root().get_node_or_null("SaveManager")
+	if game_state == null:
+		failures.append("GameState autoload is unavailable")
+	else:
+		game_state.call("reset_defaults")
+	if save_manager == null:
+		failures.append("SaveManager autoload is unavailable")
 
+	var packed_scene := load(FIELD_SCENE) as PackedScene
 	if packed_scene == null:
 		failures.append("Could not load %s" % FIELD_SCENE)
 		_finish(failures)
@@ -129,7 +136,8 @@ func _run_validation() -> void:
 
 	field.queue_free()
 	await process_frame
-	GameState.reset_defaults()
+	if game_state != null:
+		game_state.call("reset_defaults")
 
 	var combat_packed := load(COMBAT_SCENE) as PackedScene
 	if combat_packed == null:
