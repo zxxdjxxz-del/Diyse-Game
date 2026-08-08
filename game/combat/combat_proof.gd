@@ -17,6 +17,7 @@ var command_buttons: Dictionary = {}
 var _current_actor_index := -1
 var _pending_command := ""
 var _pending_content_id := ""
+var _pending_prime_command_id := ""
 
 func _ready() -> void:
 	_build_ui()
@@ -33,7 +34,7 @@ func _build_ui() -> void:
 	add_child(background)
 
 	var title := Label.new()
-	title.text = "Diyse 7B.5E — Standard Card Integration Proof"
+	title.text = "Diyse 7B.5F — Prime Direct-Control Proof"
 	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	title.add_theme_font_size_override("font_size", 34)
 	_place(title, 0.12, 0.025, 0.88, 0.085)
@@ -42,22 +43,22 @@ func _build_ui() -> void:
 	party_status = RichTextLabel.new()
 	party_status.bbcode_enabled = true
 	party_status.fit_content = false
-	party_status.add_theme_font_size_override("normal_font_size", 24)
-	_place(party_status, 0.035, 0.10, 0.47, 0.32)
+	party_status.add_theme_font_size_override("normal_font_size", 23)
+	_place(party_status, 0.025, 0.10, 0.485, 0.32)
 	add_child(party_status)
 
 	enemy_status = RichTextLabel.new()
 	enemy_status.bbcode_enabled = true
 	enemy_status.fit_content = false
-	enemy_status.add_theme_font_size_override("normal_font_size", 24)
-	_place(enemy_status, 0.53, 0.10, 0.965, 0.32)
+	enemy_status.add_theme_font_size_override("normal_font_size", 23)
+	_place(enemy_status, 0.515, 0.10, 0.975, 0.32)
 	add_child(enemy_status)
 
 	prompt = Label.new()
 	prompt.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	prompt.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
-	prompt.add_theme_font_size_override("font_size", 28)
-	_place(prompt, 0.06, 0.32, 0.94, 0.385)
+	prompt.add_theme_font_size_override("font_size", 27)
+	_place(prompt, 0.04, 0.32, 0.96, 0.385)
 	add_child(prompt)
 
 	command_box = HBoxContainer.new()
@@ -78,8 +79,8 @@ func _build_ui() -> void:
 
 	target_box = HBoxContainer.new()
 	target_box.alignment = BoxContainer.ALIGNMENT_CENTER
-	target_box.add_theme_constant_override("separation", 12)
-	_place(target_box, 0.04, 0.485, 0.96, 0.565)
+	target_box.add_theme_constant_override("separation", 10)
+	_place(target_box, 0.025, 0.485, 0.975, 0.575)
 	add_child(target_box)
 
 	confirm_button = Button.new()
@@ -87,7 +88,7 @@ func _build_ui() -> void:
 	confirm_button.focus_mode = Control.FOCUS_NONE
 	confirm_button.add_theme_font_size_override("font_size", 28)
 	confirm_button.pressed.connect(_on_confirm_round)
-	_place(confirm_button, 0.38, 0.575, 0.62, 0.645)
+	_place(confirm_button, 0.38, 0.585, 0.62, 0.655)
 	add_child(confirm_button)
 
 	next_round_button = Button.new()
@@ -95,7 +96,7 @@ func _build_ui() -> void:
 	next_round_button.focus_mode = Control.FOCUS_NONE
 	next_round_button.add_theme_font_size_override("font_size", 28)
 	next_round_button.pressed.connect(_on_next_round)
-	_place(next_round_button, 0.38, 0.575, 0.62, 0.645)
+	_place(next_round_button, 0.38, 0.585, 0.62, 0.655)
 	add_child(next_round_button)
 
 	return_button = Button.new()
@@ -103,14 +104,14 @@ func _build_ui() -> void:
 	return_button.focus_mode = Control.FOCUS_NONE
 	return_button.add_theme_font_size_override("font_size", 28)
 	return_button.pressed.connect(_return_to_field)
-	_place(return_button, 0.38, 0.575, 0.62, 0.645)
+	_place(return_button, 0.38, 0.585, 0.62, 0.655)
 	add_child(return_button)
 
 	log_view = RichTextLabel.new()
 	log_view.bbcode_enabled = true
 	log_view.scroll_active = true
-	log_view.add_theme_font_size_override("normal_font_size", 22)
-	_place(log_view, 0.055, 0.665, 0.945, 0.965)
+	log_view.add_theme_font_size_override("normal_font_size", 21)
+	_place(log_view, 0.045, 0.67, 0.955, 0.965)
 	add_child(log_view)
 
 func _place(control: Control, left: float, top: float, right: float, bottom: float) -> void:
@@ -128,20 +129,33 @@ func _refresh_all() -> void:
 	_refresh_status()
 	_refresh_log()
 	confirm_button.visible = battle.phase == "selecting" and battle.all_living_party_have_actions()
-	next_round_button.visible = battle.phase == "round_complete"
+	next_round_button.visible = battle.phase in ["round_complete", "prime_returned"]
 	return_button.visible = battle.phase in ["victory", "defeat"]
 	command_box.visible = battle.phase == "selecting" and not battle.all_living_party_have_actions()
-	if battle.phase != "selecting":
+	if battle.phase == "prime_selecting":
+		_show_prime_command_choices()
+	elif battle.phase != "selecting":
 		_clear_targets()
 
 func _refresh_status() -> void:
 	var party_text := "[b]PARTY[/b]\n"
 	for unit in battle.party:
+		var suffix := ""
+		if battle.party_suspended:
+			suffix = "  [SUSPENDED]"
+		elif bool(unit["defending"]):
+			suffix = "  [DEFENDING]"
+		if int(unit.get("return_defense_bonus", 0)) > 0:
+			suffix += "  [RETURN +%d DEF]" % int(unit["return_defense_bonus"])
 		party_text += "%s  HP %d/%d  MP %d/%d  SPD %d%s\n" % [
-			str(unit["name"]), int(unit["hp"]), int(unit["max_hp"]), int(unit["mp"]), int(unit["max_mp"]), int(unit["speed"]),
-			"  [DEFENDING]" if bool(unit["defending"]) else ""
+			str(unit["name"]), int(unit["hp"]), int(unit["max_hp"]), int(unit["mp"]), int(unit["max_mp"]), int(unit["speed"]), suffix
 		]
-	party_text += "Potions: %d  |  Standard Cards: %d (unlimited use)" % [int(battle.inventory.get("Potion", 0)), battle.available_standard_cards().size()]
+	if battle.party_suspended and not battle.active_prime.is_empty():
+		party_text += "\n[b]ACTIVE PRIME[/b]\n%s  HP %d/%d  SPD %d  Rounds %d" % [
+			str(battle.active_prime["name"]), int(battle.active_prime["hp"]), int(battle.active_prime["max_hp"]), int(battle.active_prime["speed"]), int(battle.active_prime["rounds_remaining"])
+		]
+	else:
+		party_text += "\nPotions: %d  |  First Champion uses: %d" % [int(battle.inventory.get("Potion", 0)), battle.prime_use_remaining("first_champion")]
 	party_status.text = party_text
 
 	var enemy_text := "[b]ENEMIES[/b]\n"
@@ -152,7 +166,7 @@ func _refresh_status() -> void:
 	enemy_status.text = enemy_text
 
 func _refresh_log() -> void:
-	var start := maxi(0, battle.log.size() - 12)
+	var start := maxi(0, battle.log.size() - 13)
 	var lines: Array[String] = []
 	for i in range(start, battle.log.size()):
 		lines.append(battle.log[i])
@@ -180,10 +194,11 @@ func _select_next_actor() -> void:
 	prompt.text = "Select %s's action" % str(actor["name"])
 	_pending_command = ""
 	_pending_content_id = ""
+	_pending_prime_command_id = ""
 	_clear_targets()
 	command_buttons["Ability"].disabled = int(actor["mp"]) < BattleState.PARTY_ABILITY_MP_COST
 	command_buttons["Item"].disabled = int(battle.inventory.get("Potion", 0)) <= 0
-	command_buttons["Card"].disabled = battle.available_standard_cards().is_empty()
+	command_buttons["Card"].disabled = battle.available_standard_cards().is_empty() and battle.available_prime_cards_for_actor(_current_actor_index).is_empty()
 	_refresh_all()
 
 func _on_command_pressed(command: String) -> void:
@@ -199,7 +214,7 @@ func _on_command_pressed(command: String) -> void:
 		prompt.text = "%s: choose an enemy target" % command
 		_show_targets("enemy")
 	elif command == "Card":
-		prompt.text = "Choose a Standard Card"
+		prompt.text = "Choose a Card"
 		_show_card_choices()
 	elif command == "Item":
 		prompt.text = "Potion: choose a living party target"
@@ -209,17 +224,29 @@ func _show_card_choices() -> void:
 	_clear_targets()
 	for card in battle.available_standard_cards():
 		var button := Button.new()
-		button.text = "%s [%s]\n%s — Power %d" % [str(card.display_name), str(card.face), str(card.description), int(card.power)]
-		button.custom_minimum_size = Vector2(520, 84)
+		button.text = "%s [Standard]\n%s — Power %d" % [str(card.display_name), str(card.face), int(card.power)]
+		button.custom_minimum_size = Vector2(360, 82)
 		button.focus_mode = Control.FOCUS_NONE
-		button.add_theme_font_size_override("font_size", 20)
-		button.pressed.connect(_on_card_selected.bind(str(card.card_id), str(card.target_side), str(card.display_name)))
+		button.add_theme_font_size_override("font_size", 19)
+		button.pressed.connect(_on_standard_card_selected.bind(str(card.card_id), str(card.target_side), str(card.display_name)))
 		target_box.add_child(button)
+	for prime in battle.available_prime_cards_for_actor(_current_actor_index):
+		var prime_button := Button.new()
+		prime_button.text = "%s [Prime]\n%s — Recovered — 1 use/battle" % [str(prime.display_name), str(prime.face)]
+		prime_button.custom_minimum_size = Vector2(390, 82)
+		prime_button.focus_mode = Control.FOCUS_NONE
+		prime_button.add_theme_font_size_override("font_size", 19)
+		prime_button.pressed.connect(_on_prime_card_selected.bind(str(prime.prime_id)))
+		target_box.add_child(prime_button)
 
-func _on_card_selected(card_id: String, target_side: String, card_name: String) -> void:
+func _on_standard_card_selected(card_id: String, target_side: String, card_name: String) -> void:
 	_pending_content_id = card_id
 	prompt.text = "%s: choose a %s target" % [card_name, target_side]
 	_show_targets(target_side)
+
+func _on_prime_card_selected(prime_id: String) -> void:
+	if battle.queue_party_action(_current_actor_index, "Card", -1, prime_id):
+		_select_next_actor()
 
 func _show_targets(side: String) -> void:
 	_clear_targets()
@@ -229,11 +256,72 @@ func _show_targets(side: String) -> void:
 			continue
 		var button := Button.new()
 		button.text = "%s\nHP %d/%d" % [str(units[i]["name"]), int(units[i]["hp"]), int(units[i]["max_hp"])]
-		button.custom_minimum_size = Vector2(230, 76)
+		button.custom_minimum_size = Vector2(220, 74)
 		button.focus_mode = Control.FOCUS_NONE
-		button.add_theme_font_size_override("font_size", 21)
+		button.add_theme_font_size_override("font_size", 20)
 		button.pressed.connect(_on_target_pressed.bind(i))
 		target_box.add_child(button)
+
+func _show_prime_command_choices() -> void:
+	_clear_targets()
+	_pending_prime_command_id = ""
+	prompt.text = "%s: select exactly one Prime command" % str(battle.active_prime.get("name", "Prime"))
+	for command in battle.available_prime_commands():
+		var button := Button.new()
+		button.text = "%s\n%s" % [str(command.get("display_name", "Prime Command")), _prime_command_summary(command)]
+		button.custom_minimum_size = Vector2(330, 82)
+		button.focus_mode = Control.FOCUS_NONE
+		button.add_theme_font_size_override("font_size", 18)
+		button.pressed.connect(_on_prime_command_selected.bind(str(command.get("command_id", "")), str(command.get("target_mode", "one"))))
+		target_box.add_child(button)
+
+func _prime_command_summary(command: Dictionary) -> String:
+	match str(command.get("command_id", "")):
+		"champion_edge":
+			return "One enemy — 22 proof damage"
+		"shieldbreak_arc":
+			return "All enemies — 15 proof damage each"
+		"stand_between":
+			return "Self protection + return DEF marker"
+	return str(command.get("description", ""))
+
+func _on_prime_command_selected(command_id: String, target_mode: String) -> void:
+	_pending_prime_command_id = command_id
+	if target_mode == "one":
+		prompt.text = "Choose an enemy target for the Prime command"
+		_show_prime_targets()
+	else:
+		_resolve_prime_command(command_id, -1)
+
+func _show_prime_targets() -> void:
+	_clear_targets()
+	for i in range(battle.enemies.size()):
+		if int(battle.enemies[i]["hp"]) <= 0:
+			continue
+		var enemy: Dictionary = battle.enemies[i]
+		var button := Button.new()
+		button.text = "%s\nHP %d/%d" % [str(enemy["name"]), int(enemy["hp"]), int(enemy["max_hp"])]
+		button.custom_minimum_size = Vector2(220, 74)
+		button.focus_mode = Control.FOCUS_NONE
+		button.add_theme_font_size_override("font_size", 20)
+		button.pressed.connect(_on_prime_target_pressed.bind(i))
+		target_box.add_child(button)
+
+func _on_prime_target_pressed(target_index: int) -> void:
+	if not _pending_prime_command_id.is_empty():
+		_resolve_prime_command(_pending_prime_command_id, target_index)
+
+func _resolve_prime_command(command_id: String, target_index: int) -> void:
+	if not battle.resolve_prime_command(command_id, target_index):
+		return
+	_pending_prime_command_id = ""
+	if battle.phase == "prime_selecting":
+		prompt.text = "Prime round resolved. Select the next direct-control command."
+	elif battle.phase == "prime_returned":
+		prompt.text = "First Champion completed its two Recovered Prime rounds. Party returned."
+	elif battle.phase == "victory":
+		prompt.text = "Victory — 30 XP and 42 gold awarded."
+	_refresh_all()
 
 func _clear_targets() -> void:
 	for child in target_box.get_children():
@@ -252,6 +340,8 @@ func _on_confirm_round() -> void:
 		prompt.text = "Victory — 30 XP and 42 gold awarded."
 	elif battle.phase == "defeat":
 		prompt.text = "Defeat — return to the field to restart the proof."
+	elif battle.phase == "prime_selecting":
+		prompt.text = "Activation round complete. Party suspended; First Champion entered."
 	else:
 		prompt.text = "Round resolved. Review the log, then continue."
 	_refresh_all()
