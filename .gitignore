@@ -1,0 +1,32 @@
+# Godot generated data
+.godot/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment / secrets
+.env
+.env.*
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+
+# Local build/export outputs
+build/
+dist/
+exports/
+*.apk
+*.aab
+
+# Temporary files
+*.tmp
+*.bak
+*~
