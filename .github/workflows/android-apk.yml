@@ -71,12 +71,12 @@ jobs:
         shell: bash
         run: |
           mkdir -p build
-          godot --headless --path . --export-debug "Android" build/diyse-7b5c-debug.apk
-          test -s build/diyse-7b5c-debug.apk
+          godot --headless --path . --export-debug "Android" build/diyse-7b5d-debug.apk
+          test -s build/diyse-7b5d-debug.apk
 
       - name: Upload Android debug APK
         uses: actions/upload-artifact@v4
         with:
-          name: diyse-7b5c-debug-apk
-          path: build/diyse-7b5c-debug.apk
+          name: diyse-7b5d-debug-apk
+          path: build/diyse-7b5d-debug.apk
           if-no-files-found: error
