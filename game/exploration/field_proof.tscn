@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3]
+[gd_scene load_steps=17 format=3]
 
 [ext_resource type="Script" path="res://game/exploration/player_controller.gd" id="1_player"]
 [ext_resource type="Texture2D" path="res://game/characters/placeholders/cyanis_placeholder.svg" id="2_cyanis"]
@@ -38,6 +38,9 @@ size = Vector3(20.5, 3, 0.5)
 
 [sub_resource type="BoxShape3D" id="BoundaryVerticalShape"]
 size = Vector3(0.5, 3, 20.5)
+
+[sub_resource type="SphereShape3D" id="InteractionShape"]
+radius = 2.8
 
 [node name="FieldProof" type="Node3D"]
 script = ExtResource("4_field")
@@ -93,6 +96,14 @@ shape = SubResource("PlayerShape")
 texture = ExtResource("5_torren")
 pixel_size = 0.0034
 billboard = 1
+
+[node name="InteractionArea" type="Area3D" parent="Torren"]
+collision_layer = 0
+monitoring = true
+monitorable = false
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Torren/InteractionArea"]
+shape = SubResource("InteractionShape")
 
 [node name="Cyanis" type="CharacterBody3D" parent="."]
 position = Vector3(0, 0.9, 4)
@@ -181,10 +192,18 @@ text = "▼"
 
 [node name="TalkButton" type="Button" parent="HUD"]
 visible = false
-offset_left = 1640.0
-offset_top = 850.0
-offset_right = 1870.0
-offset_bottom = 970.0
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -270.0
+offset_top = -170.0
+offset_right = -40.0
+offset_bottom = -50.0
+grow_horizontal = 0
+grow_vertical = 0
 focus_mode = 0
 theme_override_font_sizes/font_size = 34
 text = "TALK"
@@ -200,64 +219,66 @@ grow_vertical = 2
 script = ExtResource("6_dialogue")
 
 [node name="Panel" type="Panel" parent="HUD/DialogueRunner"]
-layout_mode = 0
-offset_left = 40.0
-offset_top = 560.0
-offset_right = 1880.0
-offset_bottom = 1040.0
+layout_mode = 1
+anchor_left = 0.02
+anchor_top = 0.52
+anchor_right = 0.98
+anchor_bottom = 0.96
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="LeftPortrait" type="TextureRect" parent="HUD/DialogueRunner/Panel"]
-layout_mode = 0
-offset_left = 20.0
-offset_top = 20.0
-offset_right = 350.0
-offset_bottom = 450.0
+layout_mode = 1
+anchor_left = 0.01
+anchor_top = 0.04
+anchor_right = 0.20
+anchor_bottom = 0.96
 expand_mode = 1
 stretch_mode = 5
 
 [node name="RightPortrait" type="TextureRect" parent="HUD/DialogueRunner/Panel"]
-layout_mode = 0
-offset_left = 1490.0
-offset_top = 20.0
-offset_right = 1820.0
-offset_bottom = 450.0
+layout_mode = 1
+anchor_left = 0.80
+anchor_top = 0.04
+anchor_right = 0.99
+anchor_bottom = 0.96
 expand_mode = 1
 stretch_mode = 5
 
 [node name="Speaker" type="Label" parent="HUD/DialogueRunner/Panel"]
-layout_mode = 0
-offset_left = 390.0
-offset_top = 38.0
-offset_right = 1450.0
-offset_bottom = 90.0
+layout_mode = 1
+anchor_left = 0.22
+anchor_top = 0.08
+anchor_right = 0.78
+anchor_bottom = 0.20
 theme_override_font_sizes/font_size = 34
 text = "Speaker"
 
 [node name="Body" type="Label" parent="HUD/DialogueRunner/Panel"]
-layout_mode = 0
-offset_left = 390.0
-offset_top = 105.0
-offset_right = 1450.0
-offset_bottom = 325.0
+layout_mode = 1
+anchor_left = 0.22
+anchor_top = 0.22
+anchor_right = 0.78
+anchor_bottom = 0.70
 theme_override_font_sizes/font_size = 30
 text = "Dialogue"
 autowrap_mode = 3
 
 [node name="BeatHint" type="Label" parent="HUD/DialogueRunner/Panel"]
-layout_mode = 0
-offset_left = 390.0
-offset_top = 325.0
-offset_right = 1080.0
-offset_bottom = 375.0
+layout_mode = 1
+anchor_left = 0.22
+anchor_top = 0.70
+anchor_right = 0.58
+anchor_bottom = 0.84
 theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
 theme_override_font_sizes/font_size = 20
 
 [node name="Continue" type="Button" parent="HUD/DialogueRunner/Panel"]
-layout_mode = 0
-offset_left = 1120.0
-offset_top = 350.0
-offset_right = 1450.0
-offset_bottom = 435.0
+layout_mode = 1
+anchor_left = 0.60
+anchor_top = 0.74
+anchor_right = 0.78
+anchor_bottom = 0.94
 focus_mode = 0
 theme_override_font_sizes/font_size = 30
 text = "NEXT"
