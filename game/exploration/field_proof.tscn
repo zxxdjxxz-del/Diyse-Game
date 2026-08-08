@@ -128,14 +128,14 @@ fov = 60.0
 [node name="Instructions" type="Label" parent="HUD"]
 offset_left = 24.0
 offset_top = 24.0
-offset_right = 980.0
+offset_right = 1120.0
 offset_bottom = 118.0
 theme_override_colors/font_color = Color(0.95, 0.95, 0.95, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.85)
 theme_override_constants/shadow_offset_x = 2
 theme_override_constants/shadow_offset_y = 2
 theme_override_font_sizes/font_size = 24
-text = "Diyse 7B.5C — Authored Dialogue Proof\nMove near Torren, tap TALK, then advance the authored exchange"
+text = "Diyse 7B.5D — Exploration + Dialogue + Combat Proof\nUse COMBAT TEST for the four-character round resolver"
 
 [node name="TouchDPad" type="Control" parent="HUD"]
 layout_mode = 3
@@ -189,6 +189,20 @@ offset_bottom = 292.0
 focus_mode = 0
 theme_override_font_sizes/font_size = 38
 text = "▼"
+
+[node name="CombatTestButton" type="Button" parent="HUD"]
+layout_mode = 3
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -330.0
+offset_top = 34.0
+offset_right = -36.0
+offset_bottom = 126.0
+grow_horizontal = 0
+focus_mode = 0
+theme_override_font_sizes/font_size = 28
+text = "COMBAT TEST"
 
 [node name="TalkButton" type="Button" parent="HUD"]
 visible = false

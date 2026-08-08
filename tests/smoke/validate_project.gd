@@ -1,6 +1,7 @@
 extends SceneTree
 
 const FIELD_SCENE := "res://game/exploration/field_proof.tscn"
+const COMBAT_SCENE := "res://game/combat/combat_proof.tscn"
 const PORTRAIT_PATHS := [
 	"res://game/characters/placeholders/portraits/cyanis_neutral.svg",
 	"res://game/characters/placeholders/portraits/cyanis_amused.svg",
@@ -70,6 +71,12 @@ func _run_validation() -> void:
 	if field.get_node_or_null("HUD/TouchDPad/Right") == null:
 		failures.append("Touch D-pad is missing Right button")
 
+	var combat_button := field.get_node_or_null("HUD/CombatTestButton") as Button
+	if combat_button == null:
+		failures.append("7B.5D field is missing COMBAT TEST entry button")
+	elif combat_button.anchor_left < 0.99:
+		failures.append("COMBAT TEST button is not anchored to the right side of the viewport")
+
 	var talk_button := field.get_node_or_null("HUD/TalkButton") as Button
 	if talk_button == null:
 		failures.append("Dialogue proof is missing proximity TALK button")
@@ -114,11 +121,37 @@ func _run_validation() -> void:
 			failures.append("Could not load dialogue portrait: %s" % portrait_path)
 
 	field.queue_free()
+	await process_frame
+
+	var combat_packed := load(COMBAT_SCENE) as PackedScene
+	if combat_packed == null:
+		failures.append("Could not load %s" % COMBAT_SCENE)
+	else:
+		var combat := combat_packed.instantiate()
+		get_root().add_child(combat)
+		await process_frame
+		var battle_state = combat.get("battle")
+		if battle_state == null:
+			failures.append("Combat proof did not initialize its battle state")
+		else:
+			if battle_state.party.size() != 4:
+				failures.append("Combat proof must initialize exactly four active party members")
+			if battle_state.enemies.size() != 3:
+				failures.append("Combat proof must initialize three test enemies")
+			if battle_state.phase != "selecting":
+				failures.append("Combat proof must begin in command-selection phase")
+		var commands = combat.get("command_buttons")
+		if not (commands is Dictionary) or commands.size() != 4:
+			failures.append("Combat proof must expose exactly Attack, Ability, Item, and Defend for this gate")
+		if combat.get("confirm_button") == null:
+			failures.append("Combat proof is missing CONFIRM ROUND control")
+		combat.queue_free()
+
 	_finish(failures)
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Diyse 7B.5C functional dialogue interaction validation passed.")
+		print("Diyse 7B.5D integrated exploration/dialogue/combat smoke validation passed.")
 		quit(0)
 		return
 
