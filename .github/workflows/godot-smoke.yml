@@ -24,11 +24,14 @@ jobs:
       - name: Import project headlessly
         run: godot --headless --path . --editor --quit
 
-      - name: Run exploration, dialogue, combat, Card, and Prime smoke validation
+      - name: Run exploration, dialogue, combat, Card, Prime, and persistence smoke validation
         run: godot --headless --path . --script tests/smoke/validate_project.gd
 
-      - name: Run 7B.5F deterministic combat and Prime validation
+      - name: Run accepted combat, Card, retarget, and Prime validation
         run: godot --headless --path . --script tests/combat/validate_round_combat.gd
+
+      - name: Run 7B.5G versioned save/load persistence validation
+        run: godot --headless --path . --script tests/save/validate_save_load.gd
 
       - name: Capture rendered field proof
         run: godot --path . --script tests/visual/capture_field_proof.gd
@@ -36,6 +39,6 @@ jobs:
       - name: Upload rendered field proof
         uses: actions/upload-artifact@v4
         with:
-          name: diyse-7b5f-field-proof
+          name: diyse-7b5g-field-proof
           path: artifacts/field_proof.png
           if-no-files-found: error
