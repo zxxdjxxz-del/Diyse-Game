@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3]
+[gd_scene load_steps=12 format=3]
 
 [ext_resource type="Script" path="res://game/exploration/player_controller.gd" id="1_player"]
 [ext_resource type="Texture2D" path="res://game/characters/placeholders/cyanis_placeholder.svg" id="2_cyanis"]
@@ -30,6 +30,12 @@ size = Vector3(2, 1.5, 2)
 radius = 0.35
 height = 1.8
 
+[sub_resource type="BoxShape3D" id="BoundaryHorizontalShape"]
+size = Vector3(20.5, 3, 0.5)
+
+[sub_resource type="BoxShape3D" id="BoundaryVerticalShape"]
+size = Vector3(0.5, 3, 20.5)
+
 [node name="FieldProof" type="Node3D"]
 
 [node name="Sun" type="DirectionalLight3D" parent="."]
@@ -45,6 +51,24 @@ mesh = SubResource("GroundMesh")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Ground"]
 shape = SubResource("GroundShape")
+
+[node name="FieldBoundary" type="StaticBody3D" parent="."]
+
+[node name="North" type="CollisionShape3D" parent="FieldBoundary"]
+position = Vector3(0, 1.5, -10)
+shape = SubResource("BoundaryHorizontalShape")
+
+[node name="South" type="CollisionShape3D" parent="FieldBoundary"]
+position = Vector3(0, 1.5, 10)
+shape = SubResource("BoundaryHorizontalShape")
+
+[node name="West" type="CollisionShape3D" parent="FieldBoundary"]
+position = Vector3(-10, 1.5, 0)
+shape = SubResource("BoundaryVerticalShape")
+
+[node name="East" type="CollisionShape3D" parent="FieldBoundary"]
+position = Vector3(10, 1.5, 0)
+shape = SubResource("BoundaryVerticalShape")
 
 [node name="Obstacle" type="StaticBody3D" parent="."]
 position = Vector3(2.5, 0.75, -2.5)
