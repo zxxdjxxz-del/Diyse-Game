@@ -1,5 +1,6 @@
 ; Engine configuration file.
 ; Diyse Step 7B.5C authored dialogue presentation proof.
+; Android interaction prompt fix: anchored TALK UI + Area3D proximity trigger.
 
 config_version=5
 
