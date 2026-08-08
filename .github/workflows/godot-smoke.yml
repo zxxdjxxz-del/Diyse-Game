@@ -24,15 +24,20 @@ jobs:
       - name: Import project headlessly
         run: godot --headless --path . --editor --quit
 
-      - name: Run 7B.5A smoke validation
+      - name: Run 7B.5C smoke validation
         run: godot --headless --path . --script tests/smoke/validate_project.gd
 
       - name: Capture rendered field proof
         run: godot --path . --script tests/visual/capture_field_proof.gd
 
-      - name: Upload rendered field proof
+      - name: Capture rendered dialogue proof
+        run: godot --path . --script tests/visual/capture_dialogue_proof.gd
+
+      - name: Upload rendered proof screenshots
         uses: actions/upload-artifact@v4
         with:
-          name: diyse-7b5a-field-proof
-          path: artifacts/field_proof.png
+          name: diyse-7b5c-visual-proofs
+          path: |
+            artifacts/field_proof.png
+            artifacts/dialogue_proof.png
           if-no-files-found: error
