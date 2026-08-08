@@ -19,6 +19,16 @@ func _initialize() -> void:
 
 	if field.get_node_or_null("Ground") == null:
 		failures.append("Field proof is missing Ground")
+	if field.get_node_or_null("FieldBoundary") == null:
+		failures.append("Field proof is missing perimeter collision body")
+	if field.get_node_or_null("FieldBoundary/North") == null:
+		failures.append("Field perimeter is missing North collision")
+	if field.get_node_or_null("FieldBoundary/South") == null:
+		failures.append("Field perimeter is missing South collision")
+	if field.get_node_or_null("FieldBoundary/West") == null:
+		failures.append("Field perimeter is missing West collision")
+	if field.get_node_or_null("FieldBoundary/East") == null:
+		failures.append("Field perimeter is missing East collision")
 	if field.get_node_or_null("Obstacle") == null:
 		failures.append("Field proof is missing collision Obstacle")
 	if field.get_node_or_null("Cyanis") == null:
@@ -29,13 +39,23 @@ func _initialize() -> void:
 		failures.append("Cyanis is missing follow Camera3D")
 	if field.get_node_or_null("Cyanis/CollisionShape3D") == null:
 		failures.append("Cyanis is missing collision shape")
+	if field.get_node_or_null("HUD/TouchDPad") == null:
+		failures.append("Field proof is missing temporary touch D-pad")
+	if field.get_node_or_null("HUD/TouchDPad/Up") == null:
+		failures.append("Touch D-pad is missing Up button")
+	if field.get_node_or_null("HUD/TouchDPad/Down") == null:
+		failures.append("Touch D-pad is missing Down button")
+	if field.get_node_or_null("HUD/TouchDPad/Left") == null:
+		failures.append("Touch D-pad is missing Left button")
+	if field.get_node_or_null("HUD/TouchDPad/Right") == null:
+		failures.append("Touch D-pad is missing Right button")
 
 	field.queue_free()
 	_finish(failures)
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Diyse 7B.5A smoke validation passed.")
+		print("Diyse 7B.5B smoke validation passed.")
 		quit(0)
 		return
 

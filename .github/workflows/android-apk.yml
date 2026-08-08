@@ -1,0 +1,82 @@
+name: Android APK Proof
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  android-debug-apk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v4
+
+      - name: Install Godot 4.7 Android SDK requirements
+        shell: bash
+        run: |
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager --sdk_root="$ANDROID_SDK_ROOT" \
+            "platform-tools" \
+            "build-tools;35.0.1" \
+            "platforms;android-35" \
+            "cmdline-tools;latest" \
+            "cmake;3.10.2.4988404" \
+            "ndk;28.1.13356709"
+
+      - name: Set up Godot 4.7.1 with export templates
+        uses: lihop/setup-godot@v3
+        with:
+          version: 4.7.1-stable
+          export-templates: true
+
+      - name: Configure Godot Android editor paths
+        shell: bash
+        run: |
+          mkdir -p "$HOME/.config/godot"
+          cat > "$HOME/.config/godot/editor_settings-4.tres" <<EOF
+          [gd_resource type="EditorSettings" format=3]
+
+          [resource]
+          export/android/android_sdk_path = "$ANDROID_SDK_ROOT"
+          export/android/java_sdk_path = "$JAVA_HOME"
+          EOF
+
+      - name: Create ephemeral debug keystore
+        shell: bash
+        run: |
+          keytool -keyalg RSA -genkeypair \
+            -alias androiddebugkey \
+            -keypass android \
+            -keystore "$RUNNER_TEMP/diyse-debug.keystore" \
+            -storepass android \
+            -dname "CN=Android Debug,O=Diyse,C=US" \
+            -validity 10000
+          echo "GODOT_ANDROID_KEYSTORE_DEBUG_PATH=$RUNNER_TEMP/diyse-debug.keystore" >> "$GITHUB_ENV"
+          echo "GODOT_ANDROID_KEYSTORE_DEBUG_USER=androiddebugkey" >> "$GITHUB_ENV"
+          echo "GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD=android" >> "$GITHUB_ENV"
+
+      - name: Import project
+        run: godot --headless --path . --editor --quit
+
+      - name: Export Android debug APK
+        shell: bash
+        run: |
+          mkdir -p build
+          godot --headless --path . --export-debug "Android" build/diyse-7b5b-debug.apk
+          test -s build/diyse-7b5b-debug.apk
+
+      - name: Upload Android debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: diyse-7b5b-debug-apk
+          path: build/diyse-7b5b-debug.apk
+          if-no-files-found: error
