@@ -1,6 +1,8 @@
 extends Node3D
 
+const AREA_ID := "field_proof"
 const TALK_DISTANCE_FALLBACK := 3.0
+const CHEST_DISTANCE := 2.35
 const COMBAT_SCENE := "res://game/combat/combat_proof.tscn"
 
 const CYANIS_NEUTRAL := "res://game/characters/placeholders/portraits/cyanis_neutral.svg"
@@ -10,10 +12,18 @@ const TORREN_DRY := "res://game/characters/placeholders/portraits/torren_dry.svg
 
 @onready var player = $Cyanis
 @onready var torren = $Torren
+@onready var torren_sprite: Sprite3D = $Torren/Sprite3D
 @onready var interaction_area: Area3D = $Torren/InteractionArea
+@onready var chest: StaticBody3D = $ProofChest
+@onready var chest_mesh: MeshInstance3D = $ProofChest/MeshInstance3D
 @onready var touch_dpad: Control = $HUD/TouchDPad
 @onready var talk_button: Button = $HUD/TalkButton
 @onready var combat_button: Button = $HUD/CombatTestButton
+@onready var save_button: Button = $HUD/SaveButton
+@onready var load_button: Button = $HUD/LoadButton
+@onready var chest_button: Button = $HUD/ChestButton
+@onready var torren_state_button: Button = $HUD/TorrenStateButton
+@onready var persistence_status: Label = $HUD/PersistenceStatus
 @onready var dialogue_runner: Control = $HUD/DialogueRunner
 
 var _player_in_talk_range := false
@@ -21,22 +31,39 @@ var _player_in_talk_range := false
 func _ready() -> void:
 	talk_button.pressed.connect(_start_dialogue)
 	combat_button.pressed.connect(_start_combat)
+	save_button.pressed.connect(_save_game)
+	load_button.pressed.connect(_load_game)
+	chest_button.pressed.connect(_open_proof_chest)
+	torren_state_button.pressed.connect(_toggle_torren_state)
 	dialogue_runner.conversation_finished.connect(_on_dialogue_finished)
 	interaction_area.body_entered.connect(_on_interaction_body_entered)
 	interaction_area.body_exited.connect(_on_interaction_body_exited)
+	_apply_game_state_to_field()
 	call_deferred("_refresh_interaction_state")
+	_refresh_persistence_visuals("Ready. SAVE writes to Android user storage; LOAD restores it.")
 
 func _process(_delta: float) -> void:
-	if dialogue_runner.is_running():
+	GameState.current_area = AREA_ID
+	GameState.field_position = player.global_position
+
+	var dialogue_active := dialogue_runner.is_running()
+	save_button.disabled = dialogue_active
+	load_button.disabled = dialogue_active
+	if dialogue_active:
 		talk_button.visible = false
 		combat_button.visible = false
+		chest_button.visible = false
+		torren_state_button.visible = false
 		return
 
 	combat_button.visible = true
-	var nearby := _is_player_in_talk_range()
-	talk_button.visible = nearby
+	var near_torren := _is_player_in_talk_range()
+	talk_button.visible = near_torren
+	torren_state_button.visible = near_torren
+	chest_button.visible = _is_player_near_chest()
+	_update_context_button_text()
 
-	if nearby and Input.is_key_pressed(KEY_ENTER):
+	if near_torren and Input.is_key_pressed(KEY_ENTER):
 		_start_dialogue()
 
 func _on_interaction_body_entered(body: Node3D) -> void:
@@ -44,12 +71,14 @@ func _on_interaction_body_entered(body: Node3D) -> void:
 		_player_in_talk_range = true
 		if not dialogue_runner.is_running():
 			talk_button.visible = true
+			torren_state_button.visible = true
 
 func _on_interaction_body_exited(body: Node3D) -> void:
 	if body == player:
 		_player_in_talk_range = false
 		if not dialogue_runner.is_running():
 			talk_button.visible = false
+			torren_state_button.visible = false
 
 func _refresh_interaction_state() -> void:
 	_player_in_talk_range = interaction_area.get_overlapping_bodies().has(player)
@@ -57,7 +86,10 @@ func _refresh_interaction_state() -> void:
 		_player_in_talk_range = player.global_position.distance_to(torren.global_position) <= TALK_DISTANCE_FALLBACK
 	if not dialogue_runner.is_running():
 		talk_button.visible = _player_in_talk_range
+		torren_state_button.visible = _player_in_talk_range
+		chest_button.visible = _is_player_near_chest()
 		combat_button.visible = true
+	_update_context_button_text()
 
 func _is_player_in_talk_range() -> bool:
 	if _player_in_talk_range:
@@ -66,16 +98,18 @@ func _is_player_in_talk_range() -> bool:
 		return true
 	return player.global_position.distance_to(torren.global_position) <= TALK_DISTANCE_FALLBACK
 
-func _start_dialogue() -> void:
-	if dialogue_runner.is_running():
-		return
-	if not _is_player_in_talk_range():
-		return
+func _is_player_near_chest() -> bool:
+	return player.global_position.distance_to(chest.global_position) <= CHEST_DISTANCE
 
+func _start_dialogue() -> void:
+	if dialogue_runner.is_running() or not _is_player_in_talk_range():
+		return
 	player.set_movement_enabled(false)
 	touch_dpad.visible = false
 	talk_button.visible = false
 	combat_button.visible = false
+	chest_button.visible = false
+	torren_state_button.visible = false
 	dialogue_runner.start_conversation(_proof_beats())
 
 func _on_dialogue_finished() -> void:
@@ -87,7 +121,85 @@ func _on_dialogue_finished() -> void:
 func _start_combat() -> void:
 	if dialogue_runner.is_running():
 		return
+	GameState.current_area = AREA_ID
+	GameState.field_position = player.global_position
 	get_tree().change_scene_to_file(COMBAT_SCENE)
+
+func _save_game() -> void:
+	GameState.current_area = AREA_ID
+	GameState.field_position = player.global_position
+	var result: Dictionary = SaveManager.save_state(GameState)
+	_refresh_persistence_visuals(str(result.get("message", "Save failed.")))
+
+func _load_game() -> void:
+	var result: Dictionary = SaveManager.load_state(GameState)
+	if bool(result.get("ok", false)):
+		_apply_game_state_to_field()
+		call_deferred("_refresh_interaction_state")
+	_refresh_persistence_visuals(str(result.get("message", "Load failed.")))
+
+func _apply_game_state_to_field() -> void:
+	if GameState.current_area == AREA_ID:
+		player.global_position = GameState.field_position
+	_apply_chest_visual()
+	_apply_torren_visual()
+
+func _open_proof_chest() -> void:
+	if not _is_player_near_chest():
+		return
+	if bool(GameState.flags.get("proof_chest_opened", false)):
+		_refresh_persistence_visuals("Proof chest is already open.")
+		return
+	GameState.flags["proof_chest_opened"] = true
+	GameState.flags["proof_story_flag"] = true
+	GameState.rewards["gold"] = int(GameState.rewards.get("gold", 0)) + 25
+	GameState.rewards["xp"] = int(GameState.rewards.get("xp", 0)) + 10
+	_apply_chest_visual()
+	_refresh_persistence_visuals("Proof chest opened: +25 gold, +10 XP; story flag set.")
+
+func _toggle_torren_state() -> void:
+	if not _is_player_in_talk_range():
+		return
+	var current := str(GameState.flags.get("torren_state", "normal"))
+	GameState.flags["torren_state"] = "prepared" if current == "normal" else "normal"
+	_apply_torren_visual()
+	_update_context_button_text()
+	_refresh_persistence_visuals("Torren proof state changed to %s." % str(GameState.flags["torren_state"]))
+
+func _apply_chest_visual() -> void:
+	var opened := bool(GameState.flags.get("proof_chest_opened", false))
+	var material := StandardMaterial3D.new()
+	material.roughness = 0.72
+	material.albedo_color = Color(0.62, 0.48, 0.16, 1.0) if opened else Color(0.38, 0.23, 0.10, 1.0)
+	chest_mesh.material_override = material
+	chest_mesh.scale = Vector3(1.0, 0.58, 1.0) if opened else Vector3.ONE
+
+func _apply_torren_visual() -> void:
+	var prepared := str(GameState.flags.get("torren_state", "normal")) == "prepared"
+	torren_sprite.modulate = Color(1.0, 0.88, 0.68, 1.0) if prepared else Color.WHITE
+
+func _update_context_button_text() -> void:
+	chest_button.text = "CHEST OPEN" if bool(GameState.flags.get("proof_chest_opened", false)) else "OPEN CHEST"
+	chest_button.disabled = bool(GameState.flags.get("proof_chest_opened", false))
+	var torren_state := str(GameState.flags.get("torren_state", "normal"))
+	torren_state_button.text = "TORREN: %s" % torren_state.to_upper()
+
+func _refresh_persistence_visuals(message: String = "") -> void:
+	_apply_chest_visual()
+	_apply_torren_visual()
+	_update_context_button_text()
+	var chest_state := "OPEN" if bool(GameState.flags.get("proof_chest_opened", false)) else "CLOSED"
+	var story_state := "SET" if bool(GameState.flags.get("proof_story_flag", false)) else "UNSET"
+	var save_state := "FOUND" if SaveManager.has_save() else "NONE"
+	persistence_status.text = "%s\nSave: %s | Chest: %s | Torren: %s | Story flag: %s | XP: %d | Gold: %d" % [
+		message,
+		save_state,
+		chest_state,
+		str(GameState.flags.get("torren_state", "normal")),
+		story_state,
+		int(GameState.rewards.get("xp", 0)),
+		int(GameState.rewards.get("gold", 0))
+	]
 
 func _proof_beats() -> Array:
 	return [
