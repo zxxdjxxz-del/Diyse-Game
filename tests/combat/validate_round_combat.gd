@@ -14,6 +14,8 @@ func _initialize() -> void:
 	_test_enemy_actions_lock_before_player_commands()
 	_test_one_party_action_per_actor()
 	_test_defend_applies_before_enemy_attack()
+	_test_hostile_action_retargets_after_enemy_ko()
+	_test_hostile_retarget_wraps_to_first_living_enemy()
 	_finish()
 
 func _action(name: String, command: String, side: String, speed: int, tie_order: int = 0, stable_order: int = 0) -> Dictionary:
@@ -103,9 +105,38 @@ func _test_defend_applies_before_enemy_attack() -> void:
 	_expect(int(battle.party[0]["hp"]) == cyanis_start - 5, "Defend must resolve before Raider A's faster ordinary attack and halve 9 damage to 5")
 	_expect(battle.phase == "round_complete", "Non-terminal resolved round must end in round_complete phase")
 
+func _test_hostile_action_retargets_after_enemy_ko() -> void:
+	var battle = BattleState.new()
+	battle.setup_demo()
+	battle.enemies[0]["hp"] = 12
+	battle.queue_party_action(0, "Attack", 0)
+	battle.queue_party_action(1, "Attack", 0)
+	battle.queue_party_action(2, "Defend", 2)
+	battle.queue_party_action(3, "Defend", 3)
+	_expect(battle.confirm_round(), "Retarget test round must confirm")
+	_expect(int(battle.enemies[0]["hp"]) == 0, "Cyanis should defeat the originally targeted Raider A")
+	_expect(int(battle.enemies[1]["hp"]) == 22, "Ilyra's queued attack on defeated Raider A must retarget to next living Raider B")
+	var saw_retarget := false
+	for line in battle.log:
+		if "Ilyra retargets from Raider A to Raider B." in line:
+			saw_retarget = true
+	_expect(saw_retarget, "Combat log must expose automatic retargeting")
+
+func _test_hostile_retarget_wraps_to_first_living_enemy() -> void:
+	var battle = BattleState.new()
+	battle.setup_demo()
+	battle.enemies[2]["hp"] = 12
+	battle.queue_party_action(0, "Attack", 2)
+	battle.queue_party_action(1, "Attack", 2)
+	battle.queue_party_action(2, "Defend", 2)
+	battle.queue_party_action(3, "Defend", 3)
+	_expect(battle.confirm_round(), "Wraparound retarget test round must confirm")
+	_expect(int(battle.enemies[2]["hp"]) == 0, "Cyanis should defeat the originally targeted Raider C")
+	_expect(int(battle.enemies[0]["hp"]) == 22, "Ilyra's queued attack on defeated Raider C must wrap to first living Raider A")
+
 func _finish() -> void:
 	if failures.is_empty():
-		print("Diyse 7B.5D deterministic round combat validation passed.")
+		print("Diyse deterministic round combat validation passed.")
 		quit(0)
 		return
 	for failure in failures:
