@@ -26,3 +26,13 @@ jobs:
 
       - name: Run 7B.5A smoke validation
         run: godot --headless --path . --script tests/smoke/validate_project.gd
+
+      - name: Capture rendered field proof
+        run: godot --path . --script tests/visual/capture_field_proof.gd
+
+      - name: Upload rendered field proof
+        uses: actions/upload-artifact@v4
+        with:
+          name: diyse-7b5a-field-proof
+          path: artifacts/field_proof.png
+          if-no-files-found: error
