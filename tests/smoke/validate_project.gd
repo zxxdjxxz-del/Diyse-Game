@@ -80,9 +80,8 @@ func _run_validation() -> void:
 	var talk_button := field.get_node_or_null("HUD/TalkButton") as Button
 	if talk_button == null:
 		failures.append("Dialogue proof is missing proximity TALK button")
-	else:
-		if talk_button.anchor_left < 0.99 or talk_button.anchor_top < 0.99:
-			failures.append("TALK button is not viewport-anchored to bottom-right")
+	elif talk_button.anchor_left < 0.99 or talk_button.anchor_top < 0.99:
+		failures.append("TALK button is not viewport-anchored to bottom-right")
 
 	var dialogue_runner := field.get_node_or_null("HUD/DialogueRunner")
 	if dialogue_runner == null:
@@ -105,7 +104,6 @@ func _run_validation() -> void:
 	var torren := field.get_node_or_null("Torren")
 	if player != null and not player.has_method("set_movement_enabled"):
 		failures.append("Cyanis controller cannot pause/resume movement for dialogue")
-
 	if player != null and torren != null and talk_button != null:
 		player.global_position = torren.global_position + Vector3(0.0, 0.0, 1.5)
 		field.call("_refresh_interaction_state")
@@ -141,7 +139,11 @@ func _run_validation() -> void:
 			if battle_state.phase != "selecting":
 				failures.append("Combat proof must begin in command-selection phase")
 			if battle_state.available_standard_cards().size() != 1:
-				failures.append("7B.5E combat proof must initialize exactly one placeholder Standard Card")
+				failures.append("7B.5F must preserve exactly one placeholder Standard Card")
+			if battle_state.available_prime_cards_for_actor(0).size() != 1:
+				failures.append("Cyanis must initialize with bearer-locked First Champion available")
+			if not battle_state.available_prime_cards_for_actor(1).is_empty():
+				failures.append("First Champion must not appear for a non-bearer")
 		var commands = combat.get("command_buttons")
 		var required_commands := ["Attack", "Ability", "Card", "Item", "Defend"]
 		if not (commands is Dictionary) or commands.size() != 5:
@@ -158,10 +160,9 @@ func _run_validation() -> void:
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Diyse 7B.5E integrated exploration/dialogue/combat/Card smoke validation passed.")
+		print("Diyse 7B.5F integrated exploration/dialogue/combat/Card/Prime smoke validation passed.")
 		quit(0)
 		return
-
 	for failure in failures:
 		push_error(failure)
 	quit(1)
