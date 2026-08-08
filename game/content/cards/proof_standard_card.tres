@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="DiyseStandardCardDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/content/cards/standard_card_definition.gd" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+card_id = "proof_might_strike"
+display_name = "Proof Strike"
+face = "Might"
+target_side = "enemy"
+effect_kind = "damage"
+power = 15
+description = "Technical-proof Standard Card. Unlimited use. Not canon content."
