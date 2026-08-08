@@ -1,0 +1,28 @@
+name: Godot Smoke Validation
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Godot 4.7.1
+        uses: lihop/setup-godot@v3
+        with:
+          version: 4.7.1-stable
+
+      - name: Print Godot version
+        run: godot --version
+
+      - name: Import project headlessly
+        run: godot --headless --path . --editor --quit
+
+      - name: Run 7B.5A smoke validation
+        run: godot --headless --path . --script tests/smoke/validate_project.gd
