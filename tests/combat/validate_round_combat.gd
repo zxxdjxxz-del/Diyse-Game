@@ -79,7 +79,7 @@ func _test_enemy_actions_lock_before_player_commands() -> void:
 	_expect(battle.phase == "selecting", "Demo battle must begin in selecting phase")
 	_expect(battle.enemy_actions.size() == 3, "All three living enemies must lock actions at round start")
 	_expect(battle.party_actions.is_empty(), "Enemy actions must be locked before any player action exists")
-	var locked_before := battle.enemy_actions.duplicate(true)
+	var locked_before: Array = battle.enemy_actions.duplicate(true)
 	battle.queue_party_action(0, "Attack", 0)
 	_expect(battle.enemy_actions == locked_before, "Enemy locks must not change after seeing a player command")
 
