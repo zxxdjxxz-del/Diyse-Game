@@ -6,19 +6,24 @@ extends CharacterBody3D
 
 @onready var sprite: Sprite3D = $Sprite3D
 
+var _touch_input := Vector2.ZERO
+
+func set_touch_input(value: Vector2) -> void:
+	_touch_input = value.limit_length(1.0)
+
 func _physics_process(delta: float) -> void:
-	var input_vector := Vector2.ZERO
+	var keyboard_input := Vector2.ZERO
 
 	if Input.is_key_pressed(KEY_A) or Input.is_key_pressed(KEY_LEFT):
-		input_vector.x -= 1.0
+		keyboard_input.x -= 1.0
 	if Input.is_key_pressed(KEY_D) or Input.is_key_pressed(KEY_RIGHT):
-		input_vector.x += 1.0
+		keyboard_input.x += 1.0
 	if Input.is_key_pressed(KEY_W) or Input.is_key_pressed(KEY_UP):
-		input_vector.y -= 1.0
+		keyboard_input.y -= 1.0
 	if Input.is_key_pressed(KEY_S) or Input.is_key_pressed(KEY_DOWN):
-		input_vector.y += 1.0
+		keyboard_input.y += 1.0
 
-	input_vector = input_vector.normalized()
+	var input_vector := (keyboard_input + _touch_input).limit_length(1.0)
 	var desired_velocity := Vector3(input_vector.x, 0.0, input_vector.y) * move_speed
 
 	velocity.x = move_toward(velocity.x, desired_velocity.x, acceleration * delta)
