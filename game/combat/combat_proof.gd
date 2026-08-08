@@ -16,6 +16,7 @@ var log_view: RichTextLabel
 var command_buttons: Dictionary = {}
 var _current_actor_index := -1
 var _pending_command := ""
+var _pending_content_id := ""
 
 func _ready() -> void:
 	_build_ui()
@@ -32,7 +33,7 @@ func _build_ui() -> void:
 	add_child(background)
 
 	var title := Label.new()
-	title.text = "Diyse 7B.5D — Round-Based Combat Proof"
+	title.text = "Diyse 7B.5E — Standard Card Integration Proof"
 	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	title.add_theme_font_size_override("font_size", 34)
 	_place(title, 0.12, 0.025, 0.88, 0.085)
@@ -56,19 +57,19 @@ func _build_ui() -> void:
 	prompt.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	prompt.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 	prompt.add_theme_font_size_override("font_size", 28)
-	_place(prompt, 0.08, 0.32, 0.92, 0.385)
+	_place(prompt, 0.06, 0.32, 0.94, 0.385)
 	add_child(prompt)
 
 	command_box = HBoxContainer.new()
 	command_box.alignment = BoxContainer.ALIGNMENT_CENTER
-	command_box.add_theme_constant_override("separation", 18)
-	_place(command_box, 0.13, 0.39, 0.87, 0.47)
+	command_box.add_theme_constant_override("separation", 14)
+	_place(command_box, 0.06, 0.39, 0.94, 0.47)
 	add_child(command_box)
 
-	for command in ["Attack", "Ability", "Item", "Defend"]:
+	for command in ["Attack", "Ability", "Card", "Item", "Defend"]:
 		var button := Button.new()
 		button.text = command
-		button.custom_minimum_size = Vector2(220, 72)
+		button.custom_minimum_size = Vector2(205, 72)
 		button.focus_mode = Control.FOCUS_NONE
 		button.add_theme_font_size_override("font_size", 27)
 		button.pressed.connect(_on_command_pressed.bind(command))
@@ -78,7 +79,7 @@ func _build_ui() -> void:
 	target_box = HBoxContainer.new()
 	target_box.alignment = BoxContainer.ALIGNMENT_CENTER
 	target_box.add_theme_constant_override("separation", 12)
-	_place(target_box, 0.07, 0.485, 0.93, 0.565)
+	_place(target_box, 0.04, 0.485, 0.96, 0.565)
 	add_child(target_box)
 
 	confirm_button = Button.new()
@@ -140,7 +141,7 @@ func _refresh_status() -> void:
 			str(unit["name"]), int(unit["hp"]), int(unit["max_hp"]), int(unit["mp"]), int(unit["max_mp"]), int(unit["speed"]),
 			"  [DEFENDING]" if bool(unit["defending"]) else ""
 		]
-	party_text += "Potions: %d" % int(battle.inventory.get("Potion", 0))
+	party_text += "Potions: %d  |  Standard Cards: %d (unlimited use)" % [int(battle.inventory.get("Potion", 0)), battle.available_standard_cards().size()]
 	party_status.text = party_text
 
 	var enemy_text := "[b]ENEMIES[/b]\n"
@@ -178,15 +179,18 @@ func _select_next_actor() -> void:
 	var actor: Dictionary = battle.party[_current_actor_index]
 	prompt.text = "Select %s's action" % str(actor["name"])
 	_pending_command = ""
+	_pending_content_id = ""
 	_clear_targets()
 	command_buttons["Ability"].disabled = int(actor["mp"]) < BattleState.PARTY_ABILITY_MP_COST
 	command_buttons["Item"].disabled = int(battle.inventory.get("Potion", 0)) <= 0
+	command_buttons["Card"].disabled = battle.available_standard_cards().is_empty()
 	_refresh_all()
 
 func _on_command_pressed(command: String) -> void:
 	if battle.phase != "selecting" or _current_actor_index < 0:
 		return
 	_pending_command = command
+	_pending_content_id = ""
 	if command == "Defend":
 		if battle.queue_party_action(_current_actor_index, command, _current_actor_index):
 			_select_next_actor()
@@ -194,9 +198,28 @@ func _on_command_pressed(command: String) -> void:
 	if command in ["Attack", "Ability"]:
 		prompt.text = "%s: choose an enemy target" % command
 		_show_targets("enemy")
+	elif command == "Card":
+		prompt.text = "Choose a Standard Card"
+		_show_card_choices()
 	elif command == "Item":
 		prompt.text = "Potion: choose a living party target"
 		_show_targets("party")
+
+func _show_card_choices() -> void:
+	_clear_targets()
+	for card in battle.available_standard_cards():
+		var button := Button.new()
+		button.text = "%s [%s]\n%s — Power %d" % [str(card.display_name), str(card.face), str(card.description), int(card.power)]
+		button.custom_minimum_size = Vector2(520, 84)
+		button.focus_mode = Control.FOCUS_NONE
+		button.add_theme_font_size_override("font_size", 20)
+		button.pressed.connect(_on_card_selected.bind(str(card.card_id), str(card.target_side), str(card.display_name)))
+		target_box.add_child(button)
+
+func _on_card_selected(card_id: String, target_side: String, card_name: String) -> void:
+	_pending_content_id = card_id
+	prompt.text = "%s: choose a %s target" % [card_name, target_side]
+	_show_targets(target_side)
 
 func _show_targets(side: String) -> void:
 	_clear_targets()
@@ -219,7 +242,7 @@ func _clear_targets() -> void:
 func _on_target_pressed(target_index: int) -> void:
 	if _pending_command.is_empty() or _current_actor_index < 0:
 		return
-	if battle.queue_party_action(_current_actor_index, _pending_command, target_index):
+	if battle.queue_party_action(_current_actor_index, _pending_command, target_index, _pending_content_id):
 		_select_next_actor()
 
 func _on_confirm_round() -> void:

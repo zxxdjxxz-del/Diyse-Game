@@ -73,7 +73,7 @@ func _run_validation() -> void:
 
 	var combat_button := field.get_node_or_null("HUD/CombatTestButton") as Button
 	if combat_button == null:
-		failures.append("7B.5D field is missing COMBAT TEST entry button")
+		failures.append("Field is missing COMBAT TEST entry button")
 	elif combat_button.anchor_left < 0.99:
 		failures.append("COMBAT TEST button is not anchored to the right side of the viewport")
 
@@ -140,9 +140,16 @@ func _run_validation() -> void:
 				failures.append("Combat proof must initialize three test enemies")
 			if battle_state.phase != "selecting":
 				failures.append("Combat proof must begin in command-selection phase")
+			if battle_state.available_standard_cards().size() != 1:
+				failures.append("7B.5E combat proof must initialize exactly one placeholder Standard Card")
 		var commands = combat.get("command_buttons")
-		if not (commands is Dictionary) or commands.size() != 4:
-			failures.append("Combat proof must expose exactly Attack, Ability, Item, and Defend for this gate")
+		var required_commands := ["Attack", "Ability", "Card", "Item", "Defend"]
+		if not (commands is Dictionary) or commands.size() != 5:
+			failures.append("Combat proof must expose exactly five permanent commands")
+		else:
+			for command in required_commands:
+				if not commands.has(command):
+					failures.append("Combat proof is missing command: %s" % command)
 		if combat.get("confirm_button") == null:
 			failures.append("Combat proof is missing CONFIRM ROUND control")
 		combat.queue_free()
@@ -151,7 +158,7 @@ func _run_validation() -> void:
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Diyse 7B.5D integrated exploration/dialogue/combat smoke validation passed.")
+		print("Diyse 7B.5E integrated exploration/dialogue/combat/Card smoke validation passed.")
 		quit(0)
 		return
 

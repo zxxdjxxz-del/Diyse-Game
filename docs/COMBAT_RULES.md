@@ -21,6 +21,19 @@ At the start of a round:
 
 Speed determines order only. Speed never grants extra ordinary actions.
 
+## Automatic hostile retargeting
+
+If a queued party hostile action targets an enemy that is defeated before that action resolves in the same round, the action is not wasted.
+
+- Retarget to the next living enemy in encounter-slot order after the original target.
+- If no later slot is living, wrap to the first living enemy.
+- If no enemies remain living, there is no legal target and the battle should already resolve victory as appropriate.
+- This rule applies to Attack, damaging Abilities, and hostile Standard Card effects unless an individual authored effect explicitly establishes different legal targeting behavior.
+- Retargeting changes only the target; it does not change the action, cost, priority tier, Speed, or actor.
+- The presentation/combat log should expose the retarget so the player can understand what happened.
+
+Example: Cyanis and Ilyra both target Enemy A. Cyanis defeats Enemy A before Ilyra acts. If Enemy B is living, Ilyra's already-queued hostile action automatically resolves against Enemy B.
+
 ## Permanent command list
 
 Exactly:
@@ -78,6 +91,7 @@ At minimum, tests should cover:
 - tied party player-selected order;
 - stable tied-enemy order;
 - enemy action locking before player confirmation;
-- one ordinary selected action maximum per legal unit per round unless a separately legal effect explicitly changes that outcome.
+- one ordinary selected action maximum per legal unit per round unless a separately legal effect explicitly changes that outcome;
+- queued hostile party actions automatically retargeting from a defeated enemy to the next living enemy, including wraparound.
 
 Presentation and animation should consume resolver results rather than define combat legality.
