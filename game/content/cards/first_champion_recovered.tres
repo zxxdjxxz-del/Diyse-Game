@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="DiysePrimeCardDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/combat/prime_card_definition.gd" id="1_prime"]
+
+[resource]
+script = ExtResource("1_prime")
+prime_id = "first_champion"
+display_name = "First Champion"
+face = "Might"
+bearer_name = "Cyanis"
+progression_state = "Recovered"
+duration_rounds = 2
+defense_multiplier = 1.15
+spirit_multiplier = 1.0
+speed_multiplier = 1.0
+description = "Recovered Might story Prime. Direct-control replacement proof."
+commands = [{
+"command_id": "champion_edge",
+"display_name": "Champion Edge",
+"target_side": "enemy",
+"target_mode": "one",
+"proof_damage": 22,
+"description": "220 Physical Power; 25% Defense penetration in production authority."
+}, {
+"command_id": "shieldbreak_arc",
+"display_name": "Shieldbreak Arc",
+"target_side": "enemy",
+"target_mode": "all",
+"proof_damage": 15,
+"description": "150 Physical Power to all enemies; production status effect deferred from proof."
+}, {
+"command_id": "stand_between",
+"display_name": "Stand Between",
+"target_side": "self",
+"target_mode": "self",
+"proof_damage": 0,
+"description": "45% damage reduction until First Champion's next action; prepares +25 Total Defense return marker."
+}]
