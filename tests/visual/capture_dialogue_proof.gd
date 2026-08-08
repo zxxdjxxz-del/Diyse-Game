@@ -23,9 +23,13 @@ func _capture() -> void:
 	player.global_position = torren.global_position + Vector3(0.0, 0.0, 1.5)
 	field.call("_start_dialogue")
 
+	# Allow several normal frames for UI layout and SVG portrait rendering.
+	# Do not await RenderingServer.frame_post_draw here: it can stall on CI
+	# after the first graphical proof has already consumed that signal.
 	await process_frame
 	await process_frame
-	await RenderingServer.frame_post_draw
+	await process_frame
+	await process_frame
 
 	var dialogue_runner := field.get_node("HUD/DialogueRunner") as Control
 	if not dialogue_runner.visible:
