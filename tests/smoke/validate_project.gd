@@ -14,6 +14,7 @@ func _initialize() -> void:
 
 func _run_validation() -> void:
 	var failures: Array[String] = []
+	GameState.reset_defaults()
 	var packed_scene := load(FIELD_SCENE) as PackedScene
 
 	if packed_scene == null:
@@ -34,16 +35,15 @@ func _run_validation() -> void:
 		failures.append("Field proof is missing Ground")
 	if field.get_node_or_null("FieldBoundary") == null:
 		failures.append("Field proof is missing perimeter collision body")
-	if field.get_node_or_null("FieldBoundary/North") == null:
-		failures.append("Field perimeter is missing North collision")
-	if field.get_node_or_null("FieldBoundary/South") == null:
-		failures.append("Field perimeter is missing South collision")
-	if field.get_node_or_null("FieldBoundary/West") == null:
-		failures.append("Field perimeter is missing West collision")
-	if field.get_node_or_null("FieldBoundary/East") == null:
-		failures.append("Field perimeter is missing East collision")
+	for side in ["North", "South", "West", "East"]:
+		if field.get_node_or_null("FieldBoundary/%s" % side) == null:
+			failures.append("Field perimeter is missing %s collision" % side)
 	if field.get_node_or_null("Obstacle") == null:
 		failures.append("Field proof is missing collision Obstacle")
+	if field.get_node_or_null("ProofChest") == null:
+		failures.append("Persistence proof is missing ProofChest interactable")
+	if field.get_node_or_null("ProofChest/MeshInstance3D") == null:
+		failures.append("ProofChest is missing visible mesh state")
 	if field.get_node_or_null("Torren") == null:
 		failures.append("Field proof is missing Torren dialogue-test NPC")
 	if field.get_node_or_null("Torren/Sprite3D") == null:
@@ -62,20 +62,28 @@ func _run_validation() -> void:
 		failures.append("Cyanis is missing collision shape")
 	if field.get_node_or_null("HUD/TouchDPad") == null:
 		failures.append("Field proof is missing temporary touch D-pad")
-	if field.get_node_or_null("HUD/TouchDPad/Up") == null:
-		failures.append("Touch D-pad is missing Up button")
-	if field.get_node_or_null("HUD/TouchDPad/Down") == null:
-		failures.append("Touch D-pad is missing Down button")
-	if field.get_node_or_null("HUD/TouchDPad/Left") == null:
-		failures.append("Touch D-pad is missing Left button")
-	if field.get_node_or_null("HUD/TouchDPad/Right") == null:
-		failures.append("Touch D-pad is missing Right button")
+	for direction in ["Up", "Down", "Left", "Right"]:
+		if field.get_node_or_null("HUD/TouchDPad/%s" % direction) == null:
+			failures.append("Touch D-pad is missing %s button" % direction)
 
 	var combat_button := field.get_node_or_null("HUD/CombatTestButton") as Button
 	if combat_button == null:
 		failures.append("Field is missing COMBAT TEST entry button")
 	elif combat_button.anchor_left < 0.99:
 		failures.append("COMBAT TEST button is not anchored to the right side of the viewport")
+
+	var save_button := field.get_node_or_null("HUD/SaveButton") as Button
+	var load_button := field.get_node_or_null("HUD/LoadButton") as Button
+	var chest_button := field.get_node_or_null("HUD/ChestButton") as Button
+	var torren_state_button := field.get_node_or_null("HUD/TorrenStateButton") as Button
+	if save_button == null or load_button == null:
+		failures.append("Persistence proof must expose SAVE and LOAD controls")
+	if chest_button == null:
+		failures.append("Persistence proof is missing chest interaction control")
+	if torren_state_button == null:
+		failures.append("Persistence proof is missing Torren state control")
+	if field.get_node_or_null("HUD/PersistenceStatus") == null:
+		failures.append("Persistence proof is missing visible status feedback")
 
 	var talk_button := field.get_node_or_null("HUD/TalkButton") as Button
 	if talk_button == null:
@@ -89,19 +97,13 @@ func _run_validation() -> void:
 	else:
 		if not dialogue_runner.has_method("start_conversation"):
 			failures.append("DialogueRunner cannot start authored conversations")
-		if dialogue_runner.get_node_or_null("Panel/LeftPortrait") == null:
-			failures.append("DialogueRunner is missing left portrait slot")
-		if dialogue_runner.get_node_or_null("Panel/RightPortrait") == null:
-			failures.append("DialogueRunner is missing right portrait slot")
-		if dialogue_runner.get_node_or_null("Panel/Speaker") == null:
-			failures.append("DialogueRunner is missing speaker label")
-		if dialogue_runner.get_node_or_null("Panel/Body") == null:
-			failures.append("DialogueRunner is missing body text")
-		if dialogue_runner.get_node_or_null("Panel/Continue") == null:
-			failures.append("DialogueRunner is missing authored NEXT control")
+		for child_name in ["LeftPortrait", "RightPortrait", "Speaker", "Body", "Continue"]:
+			if dialogue_runner.get_node_or_null("Panel/%s" % child_name) == null:
+				failures.append("DialogueRunner is missing %s" % child_name)
 
 	var player := field.get_node_or_null("Cyanis")
 	var torren := field.get_node_or_null("Torren")
+	var chest := field.get_node_or_null("ProofChest")
 	if player != null and not player.has_method("set_movement_enabled"):
 		failures.append("Cyanis controller cannot pause/resume movement for dialogue")
 	if player != null and torren != null and talk_button != null:
@@ -109,10 +111,17 @@ func _run_validation() -> void:
 		field.call("_refresh_interaction_state")
 		if not talk_button.visible:
 			failures.append("TALK button does not become visible when Cyanis is in Torren interaction range")
+		if torren_state_button != null and not torren_state_button.visible:
+			failures.append("Torren state control does not become visible in NPC interaction range")
 		player.global_position = torren.global_position + Vector3(0.0, 0.0, 6.0)
 		field.call("_refresh_interaction_state")
 		if talk_button.visible:
 			failures.append("TALK button remains visible when Cyanis leaves Torren interaction range")
+	if player != null and chest != null and chest_button != null:
+		player.global_position = chest.global_position + Vector3(0.0, 0.5, 1.0)
+		field.call("_refresh_interaction_state")
+		if not chest_button.visible:
+			failures.append("Chest interaction control does not appear near ProofChest")
 
 	for portrait_path in PORTRAIT_PATHS:
 		if load(portrait_path) == null:
@@ -120,6 +129,7 @@ func _run_validation() -> void:
 
 	field.queue_free()
 	await process_frame
+	GameState.reset_defaults()
 
 	var combat_packed := load(COMBAT_SCENE) as PackedScene
 	if combat_packed == null:
@@ -139,7 +149,7 @@ func _run_validation() -> void:
 			if battle_state.phase != "selecting":
 				failures.append("Combat proof must begin in command-selection phase")
 			if battle_state.available_standard_cards().size() != 1:
-				failures.append("7B.5F must preserve exactly one placeholder Standard Card")
+				failures.append("7B.5G must preserve exactly one placeholder Standard Card")
 			if battle_state.available_prime_cards_for_actor(0).size() != 1:
 				failures.append("Cyanis must initialize with bearer-locked First Champion available")
 			if not battle_state.available_prime_cards_for_actor(1).is_empty():
@@ -160,7 +170,7 @@ func _run_validation() -> void:
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Diyse 7B.5F integrated exploration/dialogue/combat/Card/Prime smoke validation passed.")
+		print("Diyse 7B.5G integrated exploration/dialogue/combat/Card/Prime/persistence smoke validation passed.")
 		quit(0)
 		return
 	for failure in failures:
