@@ -11,18 +11,34 @@ The intended visual language combines:
 - stylized 2D/2.5D characters in-world;
 - illustrated dialogue portraits for expressive acting where appropriate.
 
-## Technical-proof priorities
+## Step 7B.5 validation status
 
-The proof must specifically test:
+The foundational presentation architecture is **PROVEN / PASS on Android**.
+
+Step 7B.5 demonstrated that:
+
+- a world-space 2D/2.5D character can occupy a real 3D environment coherently;
+- floor contact, camera, collision, boundaries and depth presentation work together on Android;
+- touch exploration can share the same movement architecture used for desktop development;
+- proximity interaction and portrait dialogue can transition into and out of exploration without state loss;
+- combat and Prime presentation can coexist with the same overall 2.5D application architecture;
+- placeholder art can be replaced without redefining core gameplay systems.
+
+This PASS validates the architecture, **not** the final camera language, character rendering technique, art quality or temporary proof assets.
+
+## Production presentation requirements
+
+Future production work should preserve and improve:
 
 - world-space placement of 2D/2.5D characters;
-- floor contact;
+- convincing floor contact;
 - camera readability;
 - depth sorting/occlusion;
 - foreground obstruction handling;
 - scale/depth behavior;
-- transitions between exploration, dialogue, and battle;
-- Android readability and performance.
+- transitions between exploration, dialogue and battle;
+- Android readability and performance;
+- replaceability of temporary assets.
 
 ## Portrait philosophy
 
@@ -37,17 +53,15 @@ Portraits are not decorative duplicates of dialogue text. They carry performance
 - eye-direction or attention changes where supported;
 - silent reactions.
 
-The dialogue system must support reaction beats without forcing every emotional change into spoken text.
+The accepted dialogue architecture supports reaction beats without forcing every emotional change into spoken text.
 
-## Do not lock too early
+## Do not over-freeze proof fixtures
 
-Step 7B.5 is allowed to compare implementation techniques for 2.5D character rendering, occlusion, camera behavior, and portrait staging.
+The 7B.5 placeholder sprite/billboard, temporary camera values, graybox field and proof dialogue layout are not final art direction merely because they passed technically.
 
-Do not treat a placeholder technical method as final art direction merely because it works once.
+Any production method must remain compatible with:
 
-Any chosen production method must remain compatible with:
-
-- final authored character identities;
+- final authored character visual identities;
 - multiple character poses/expressions;
 - battle presentation;
 - mobile performance;
@@ -55,4 +69,4 @@ Any chosen production method must remain compatible with:
 
 ## Historical-prototype exclusion
 
-The old libGDX pre-rendered/fixed-camera field approach is not the default architecture for this repository. It may be studied only if explicitly requested as a comparison.
+The old libGDX pre-rendered/fixed-camera field approach is not the default architecture for this repository. It may be studied only if explicitly requested as a comparison. The accepted `Diyse-Game` Godot line is the active implementation baseline.
