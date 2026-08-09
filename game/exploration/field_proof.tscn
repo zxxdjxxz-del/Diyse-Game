@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3]
+[gd_scene load_steps=20 format=3]
 
 [ext_resource type="Script" path="res://game/exploration/player_controller.gd" id="1_player"]
 [ext_resource type="Texture2D" path="res://game/characters/placeholders/cyanis_placeholder.svg" id="2_cyanis"]
@@ -28,6 +28,17 @@ size = Vector3(2, 1.5, 2)
 
 [sub_resource type="BoxShape3D" id="ObstacleShape"]
 size = Vector3(2, 1.5, 2)
+
+[sub_resource type="StandardMaterial3D" id="ChestMaterial"]
+albedo_color = Color(0.38, 0.23, 0.10, 1)
+roughness = 0.72
+
+[sub_resource type="BoxMesh" id="ChestMesh"]
+material = SubResource("ChestMaterial")
+size = Vector3(1.2, 0.8, 0.9)
+
+[sub_resource type="BoxShape3D" id="ChestShape"]
+size = Vector3(1.2, 0.8, 0.9)
 
 [sub_resource type="CapsuleShape3D" id="PlayerShape"]
 radius = 0.35
@@ -86,6 +97,15 @@ mesh = SubResource("ObstacleMesh")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Obstacle"]
 shape = SubResource("ObstacleShape")
 
+[node name="ProofChest" type="StaticBody3D" parent="."]
+position = Vector3(4.5, 0.4, 1.5)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ProofChest"]
+mesh = SubResource("ChestMesh")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ProofChest"]
+shape = SubResource("ChestShape")
+
 [node name="Torren" type="StaticBody3D" parent="."]
 position = Vector3(-2.5, 0.9, 0.5)
 
@@ -135,7 +155,19 @@ theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.85)
 theme_override_constants/shadow_offset_x = 2
 theme_override_constants/shadow_offset_y = 2
 theme_override_font_sizes/font_size = 24
-text = "Diyse 7B.5D — Exploration + Dialogue + Combat Proof\nUse COMBAT TEST for the four-character round resolver"
+text = "Diyse 7B.5G — Save/Load Persistence Proof\nMove, open the proof chest, change Torren state, SAVE, then LOAD"
+
+[node name="PersistenceStatus" type="Label" parent="HUD"]
+offset_left = 24.0
+offset_top = 120.0
+offset_right = 850.0
+offset_bottom = 260.0
+theme_override_colors/font_color = Color(0.92, 0.92, 0.92, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.8)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 21
+autowrap_mode = 3
 
 [node name="TouchDPad" type="Control" parent="HUD"]
 layout_mode = 3
@@ -203,6 +235,70 @@ grow_horizontal = 0
 focus_mode = 0
 theme_override_font_sizes/font_size = 28
 text = "COMBAT TEST"
+
+[node name="SaveButton" type="Button" parent="HUD"]
+layout_mode = 3
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -330.0
+offset_top = 138.0
+offset_right = -190.0
+offset_bottom = 214.0
+grow_horizontal = 0
+focus_mode = 0
+theme_override_font_sizes/font_size = 26
+text = "SAVE"
+
+[node name="LoadButton" type="Button" parent="HUD"]
+layout_mode = 3
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -176.0
+offset_top = 138.0
+offset_right = -36.0
+offset_bottom = 214.0
+grow_horizontal = 0
+focus_mode = 0
+theme_override_font_sizes/font_size = 26
+text = "LOAD"
+
+[node name="ChestButton" type="Button" parent="HUD"]
+visible = false
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -560.0
+offset_top = -170.0
+offset_right = -290.0
+offset_bottom = -50.0
+grow_horizontal = 0
+grow_vertical = 0
+focus_mode = 0
+theme_override_font_sizes/font_size = 28
+text = "OPEN CHEST"
+
+[node name="TorrenStateButton" type="Button" parent="HUD"]
+visible = false
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -560.0
+offset_top = -170.0
+offset_right = -290.0
+offset_bottom = -50.0
+grow_horizontal = 0
+grow_vertical = 0
+focus_mode = 0
+theme_override_font_sizes/font_size = 24
+text = "CHANGE TORREN STATE"
 
 [node name="TalkButton" type="Button" parent="HUD"]
 visible = false

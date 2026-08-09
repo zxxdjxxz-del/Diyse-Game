@@ -1,6 +1,5 @@
 ; Engine configuration file.
-; Diyse Step 7B.5C authored dialogue presentation proof.
-; Android interaction prompt fix: anchored TALK UI + Area3D proximity trigger.
+; Diyse Step 7B.5G save/load persistence proof.
 
 config_version=5
 
@@ -9,6 +8,11 @@ config_version=5
 config/name="Diyse"
 run/main_scene="res://game/exploration/field_proof.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[autoload]
+
+GameState="*res://game/core/state/game_state.gd"
+SaveManager="*res://game/core/save/save_manager.gd"
 
 [display]
 
