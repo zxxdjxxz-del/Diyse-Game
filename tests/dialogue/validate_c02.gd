@@ -46,7 +46,7 @@ func _run_validation() -> void:
 	if scene.location_id != "LOC_BORDERLANDS_FIELD_TRIAGE_CAMP": failures.append("C02 location changed")
 	if scene.trigger_id != "trigger.chapter_00.c02.after_s006": failures.append("C02 must remain available after S006")
 	if scene.completion_flag != "scene.c02.complete": failures.append("C02 completion flag changed")
-	if scene.participants != Array[String](["cyanis", "ilyra"]): failures.append("C02 participants must remain Cyanis and Ilyra only")
+	if scene.participants.size() != 2 or scene.participants[0] != "cyanis" or scene.participants[1] != "ilyra": failures.append("C02 participants must remain Cyanis and Ilyra only")
 	if scene.beats.size() != EXPECTED_BEAT_COUNT:
 		failures.append("C02 beat count changed: expected %d, got %d" % [EXPECTED_BEAT_COUNT, scene.beats.size()])
 
