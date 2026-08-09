@@ -4,20 +4,22 @@ This file is an implementation-facing summary. It does **not** replace the autho
 
 ## Current written authority
 
-- **Whole-project root:** Diyse: 2.5D JRPG Clean Active Master Canon v1.34 — Technical Feasibility Proof and Production Handoff Integration Revision.
-- **Technical annex:** Diyse Active Technical Annex v1.34 — current numerical and proven implementation authority.
-- **Dialogue annex:** Diyse Active Dialogue Development Annex v1.1 — completed study and Step 7C craft authority.
-- **Implementation evidence:** Diyse Step 7B.5 Technical Feasibility & Android Proof Report v1.0.
-- **Recovery checkpoint:** v1.34 / Audit46.
-- v1.33 / Audit45 and earlier are frozen recovery/history only.
+- **Whole-project root:** Diyse: 2.5D JRPG Clean Active Master Canon v1.35 — Production Dialogue Authoring Contract and Step 7C Handoff Lock Revision.
+- **Technical annex:** Diyse Active Technical Annex v1.35 — current numerical, proven implementation, and production authoring-interface authority.
+- **Dialogue annex:** Diyse Active Dialogue Development Annex v1.2 — completed study and locked Step 7C authoring-contract authority.
+- **Implementation evidence:** Diyse Step 7B.5 Technical Feasibility & Android Proof Report v1.0 and Diyse Step 7B.6 Production Handoff Lock Report v1.0.
+- **Recovery checkpoint:** v1.35 / Audit47.
+- v1.34 / Audit46 and earlier are frozen recovery/history only.
 
 ## Workflow state
 
 - Dialogue study: **COMPLETE**.
 - Step 7B.5 technical feasibility: **PASS — real Android device**.
+- Step 7B.6 production dialogue handoff: **COMPLETE / PASS**.
 - Step 7C Dialogue-First Scene Writing: **ON HOLD until explicit user authorization**.
 - Active implementation repository: `zxxdjxxz-del/Diyse-Game`.
-- Accepted pre-documentation gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`.
+- Accepted 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`.
+- Accepted 7B.6 implementation merge: `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.
 
 ## Project foundation
 
@@ -54,7 +56,19 @@ Diyse has **no player dialogue choices**.
 
 Cyanis is a defined authored protagonist. Do not implement response wheels, tone menus, affinity dialogue, branching player-spoken responses, persuasion trees, good/evil dialogue, or romance dialogue choices.
 
-The dialogue study is complete. The generic dialogue runner architecture has been proven to support authored conversation, portrait/expression changes, silent reactions, proximity/world triggering, movement lock and clean return to exploration. Disposable technical-proof lines and placeholder portraits are not canon.
+The dialogue study is complete. The generic dialogue runner architecture supports authored conversation, portrait/expression changes, silent reactions, proximity/world triggering, movement lock and clean return to exploration.
+
+Step 7B.6 locks the production authoring interface:
+
+- production scene records use `DiyseDialogueSceneDefinition` Resources;
+- scene, beat, character/NPC, expression, trigger and completion identifiers are stable semantic IDs;
+- beat IDs use `<SCENE_ID>_B###`;
+- portrait file paths are resolved through `DiyseDialoguePortraitRegistry`, not embedded in authored production scenes;
+- camera/staging/movement/implementation information travels as cue metadata separate from spoken text;
+- the generic `DialogueRunner` consumes validated Resource-backed scenes through `start_scene(scene_definition, registry)`;
+- known choice/response/branch fields are rejected by schema validation.
+
+See `DIALOGUE_AUTHORING_SCHEMA.md` and `STEP_7C_AUTHORING_TEMPLATE.md` before authoring or integrating production dialogue. Disposable technical-proof lines, `PROOF_SCHEMA`, proof cues and placeholder portraits are not canon.
 
 ## Combat implementation authority
 
@@ -120,7 +134,7 @@ Maevra is a temporary playable/recurring major ally, not a permanent progression
 
 ## Proof-content exclusion
 
-Do not mistake technical fixtures for canon. Non-canon proof material includes graybox geometry, placeholder Cyanis/Torren sprites/portraits, proof dialogue, Raider enemies/stats, `Proof Strike`, temporary flat damage/rewards, proof chest/state flags and debug UI.
+Do not mistake technical fixtures for canon. Non-canon proof material includes graybox geometry, placeholder Cyanis/Torren sprites/portraits, proof dialogue, `PROOF_SCHEMA`, proof registry/cues, Raider enemies/stats, `Proof Strike`, temporary flat damage/rewards, proof chest/state flags and debug UI.
 
 ## Historical repository rule
 

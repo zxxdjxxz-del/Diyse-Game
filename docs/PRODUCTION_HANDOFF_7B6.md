@@ -1,13 +1,15 @@
 # Step 7B.6 — Production Handoff Lock
 
 **Status:** COMPLETE / PASS  
-**Parent authority:** v1.34 / Audit46  
+**Current authority checkpoint:** v1.35 / Audit47  
+**Original parent at implementation start:** v1.34 / Audit46  
 **Starting `main` commit:** `ae3bcf120cfb6d956f5159519025734f1eb26912`  
+**Accepted implementation merge:** `96c6bdc77f39c988f2185634b4e51546f2a0d76b`  
 **Step 7C:** ON HOLD until explicit user authorization
 
 ## Purpose
 
-Step 7B.6 closes the final interface gap between completed dialogue craft and the proven Godot implementation. It does not write any canon scene. It defines the format in which Step 7C scenes can later be authored and consumed without putting story text into engine code.
+Step 7B.6 closed the final interface gap between completed dialogue craft and the proven Godot implementation. It did not write any canon scene. It defined the format in which Step 7C scenes can later be authored and consumed without putting story text into engine code.
 
 ## Locked handoff decisions
 
@@ -51,6 +53,10 @@ CI proved:
 - Android debug APK export remains green.
 
 No separate phone acceptance was required because 7B.6 does not change touch controls, layout, rendering, persistence behavior or platform lifecycle. Android CI remained a packaging regression check.
+
+## Authority promotion
+
+The accepted handoff was formally promoted into Clean Active Master v1.35, Technical Annex v1.35, Dialogue Development Annex v1.2, and Audit47. v1.34/Audit46 is now frozen recovery history.
 
 ## Production boundary after acceptance
 

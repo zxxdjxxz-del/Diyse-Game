@@ -1,11 +1,12 @@
 # Diyse — Current Implementation Status
 
-**Authority checkpoint:** v1.34 / Audit46  
+**Authority checkpoint:** v1.35 / Audit47  
 **Step 7B.5:** COMPLETE / PASS on real Android hardware  
 **Step 7B.6:** COMPLETE / PASS — production dialogue authoring handoff locked  
 **Step 7C:** ON HOLD pending explicit user authorization  
 **Active repository:** `zxxdjxxz-del/Diyse-Game`  
-**Accepted pre-documentation gameplay baseline:** `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`
+**Accepted 7B.5 gameplay baseline:** `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`  
+**Accepted 7B.6 implementation merge:** `96c6bdc77f39c988f2185634b4e51546f2a0d76b`
 
 ## Proven technical chain
 
@@ -30,7 +31,7 @@ The active Godot line supports real 3D fields/depth/lighting/collision with styl
 
 Generic authored dialogue can be world-triggered, display portraits/expressions, present silent reaction beats, lock exploration input and return control cleanly. No player response architecture exists or should be introduced.
 
-Production dialogue now has an accepted handoff contract:
+Production dialogue has an accepted handoff contract:
 
 - scene content is stored as `DiyseDialogueSceneDefinition` Resources;
 - scene/beat/character/expression/trigger/completion IDs are stable semantic handles;

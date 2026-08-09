@@ -16,13 +16,15 @@ If a task conflicts with these files or with a newer explicit user instruction, 
 
 ## Current authority state
 
-- Whole-project written authority: **Clean Active Master Canon v1.34**.
-- Technical authority: **Active Technical Annex v1.34**.
-- Dialogue craft authority: **Dialogue Development Annex v1.1**; the dialogue study is complete.
+- Whole-project written authority: **Clean Active Master Canon v1.35**.
+- Technical authority: **Active Technical Annex v1.35**.
+- Dialogue craft/authoring authority: **Dialogue Development Annex v1.2**; the dialogue study is complete.
+- Recovery checkpoint: **v1.35 / Audit47**.
 - Step 7B.5 technical feasibility: **COMPLETE / PASS on real Android hardware**.
 - Step 7B.6 production authoring handoff: **COMPLETE / PASS**.
 - Step 7C full scene writing: **ON HOLD until explicit user authorization**.
-- Accepted pre-documentation gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`.
+- Accepted 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`.
+- Accepted 7B.6 production-handoff implementation merge: `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.
 
 ## Hard rules
 
@@ -63,4 +65,4 @@ Steps 7B.5 and 7B.6 are closed. Their accepted automated tests and real-device/p
 
 Do not regress the proven exploration/dialogue/combat/Card/Prime/persistence architecture or the production dialogue Resource contract merely because later content is more complex. If a newer approved design genuinely requires changing an accepted behavior, update the controlling authority and tests deliberately rather than silently bypassing them.
 
-Temporary proof fixtures are **not** protected content: graybox geometry, placeholder portraits/sprites, disposable dialogue, `PROOF_SCHEMA`, proof enemies, `Proof Strike`, temporary flat damage/rewards, proof flags, and debug UI should be replaced during production without rewriting the proven subsystem boundaries.
+Temporary proof fixtures are **not** protected content: graybox geometry, placeholder portraits/sprites, disposable dialogue, `PROOF_SCHEMA`, proof enemies, `Proof Strike`, temporary flat damage/rewards, proof flags/cues, and debug UI should be replaced during production without rewriting the proven subsystem boundaries.

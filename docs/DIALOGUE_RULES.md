@@ -19,7 +19,7 @@ Cyanis and the rest of the cast use authored dialogue.
 
 ## Current production state
 
-The dialogue study is **COMPLETE**. Diyse Active Dialogue Development Annex v1.1 is the finished craft basis for production dialogue unless the user explicitly revises it.
+The dialogue study is **COMPLETE**. Diyse Active Dialogue Development Annex v1.2 is the finished craft and locked Step 7C authoring-contract authority unless the user explicitly revises it.
 
 Step 7B.5C **PASSED on Android** and proved that the generic dialogue architecture can support:
 
@@ -43,6 +43,8 @@ Step 7B.6 **PASSED** and locks the production authoring handoff:
 - staging/camera/movement instructions travel as cue metadata separate from spoken text;
 - the generic `DialogueRunner` consumes Resource-backed scenes through `start_scene(...)`;
 - choice/response/branch fields are forbidden and schema-validated.
+
+The accepted 7B.6 implementation merge is `96c6bdc77f39c988f2185634b4e51546f2a0d76b`. Current recovery checkpoint is v1.35 / Audit47.
 
 See `docs/DIALOGUE_AUTHORING_SCHEMA.md` and `docs/STEP_7C_AUTHORING_TEMPLATE.md` before authoring or integrating a production scene.
 
@@ -85,7 +87,7 @@ Engineering should not force every line into the same cinematic presentation. Th
 
 ## Character-sheet protection
 
-The final script must obey protected character voice/relationship authorities and the completed Dialogue Development Annex v1.1. Engineering must not bake character-specific assumptions into generic dialogue UI code.
+The final script must obey protected character voice/relationship authorities and the completed Dialogue Development Annex v1.2. Engineering must not bake character-specific assumptions into generic dialogue UI code.
 
 The dialogue runner presents authored data; it does not decide what Cyanis, Ilyra, Torren, Nimera, Vaelira, Seyrik, or any NPC would say.
 
