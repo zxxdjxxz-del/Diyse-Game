@@ -16,7 +16,8 @@ This file is an implementation-facing summary. It does **not** replace the autho
 - Dialogue study: **COMPLETE**.
 - Step 7B.5 technical feasibility: **PASS — real Android device**.
 - Step 7B.6 production dialogue handoff: **COMPLETE / PASS**.
-- Step 7C Dialogue-First Scene Writing: **ON HOLD until explicit user authorization**.
+- Step 7C Dialogue-First Scene Writing: **ACTIVE / AUTHORIZED August 8, 2026**.
+- Current production order: **Chapter 0 S001–S006, then C01 and C02**, unless explicitly changed.
 - Active implementation repository: `zxxdjxxz-del/Diyse-Game`.
 - Accepted 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`.
 - Accepted 7B.6 implementation merge: `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.
@@ -67,6 +68,8 @@ Step 7B.6 locks the production authoring interface:
 - camera/staging/movement/implementation information travels as cue metadata separate from spoken text;
 - the generic `DialogueRunner` consumes validated Resource-backed scenes through `start_scene(scene_definition, registry)`;
 - known choice/response/branch fields are rejected by schema validation.
+
+Step 7C is now active. Authorization permits exact dialogue and staging work; it does **not** permit silent changes to story outcomes, chapter order, combat, Cards/Primes, relationships, Vaelkor/fragment authority, or final-act locks. Each draft remains provisional until canon/voice review and structural validation are complete.
 
 See `DIALOGUE_AUTHORING_SCHEMA.md` and `STEP_7C_AUTHORING_TEMPLATE.md` before authoring or integrating production dialogue. Disposable technical-proof lines, `PROOF_SCHEMA`, proof cues and placeholder portraits are not canon.
 
