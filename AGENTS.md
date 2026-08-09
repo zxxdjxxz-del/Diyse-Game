@@ -7,10 +7,20 @@ This file governs AI-assisted engineering work in this repository.
 Before changing gameplay code, read:
 
 1. `docs/ACTIVE_CANON.md`
-2. `docs/TECHNICAL_PROOF.md`
+2. `docs/IMPLEMENTATION_STATUS.md`
 3. the subsystem document relevant to the task
+4. `docs/TECHNICAL_PROOF.md` when the task touches architecture proven in Step 7B.5
 
 If a task conflicts with these files or with a newer explicit user instruction, stop and flag the conflict. Do not silently reinterpret canon.
+
+## Current authority state
+
+- Whole-project written authority: **Clean Active Master Canon v1.34**.
+- Technical authority: **Active Technical Annex v1.34**.
+- Dialogue craft authority: **Dialogue Development Annex v1.1**; the dialogue study is complete.
+- Step 7B.5 technical feasibility: **COMPLETE / PASS on real Android hardware**.
+- Step 7C full scene writing: **ON HOLD until explicit user authorization**.
+- Accepted pre-documentation gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`.
 
 ## Hard rules
 
@@ -23,9 +33,13 @@ If a task conflicts with these files or with a newer explicit user instruction, 
 - Maximum active permanent battle party is four.
 - Permanent battle commands are Attack / Ability / Card / Item / Defend.
 - MP is the universal ordinary Ability resource. Do not invent character-specific gauges/resources.
+- Standard Cards are unlimited-use and data-driven.
+- Preserve the accepted automatic hostile retarget rule in `docs/COMBAT_RULES.md`.
+- Prime Manifestations use the accepted directly controlled replacement/suspension architecture; do not collapse them into ordinary summons or cinematic one-shots.
+- Persistent game state must remain separate from scene nodes and serialize as versioned plain data.
 - Do not invent mechanics, terminology, characters, Cards, classes, resources, or story outcomes to fill gaps.
 - Keep systems and authored content separate. Prefer data-driven definitions where practical.
-- Do not hard-code content records into engine logic merely because the current proof uses placeholders.
+- Do not hard-code content records into engine logic merely because the technical proof used placeholders.
 - Do not optimize around placeholder assets in a way that prevents final assets from replacing them.
 - Do not change canon/specification documents as a side effect of implementing code.
 
@@ -38,10 +52,12 @@ If a task conflicts with these files or with a newer explicit user instruction, 
 - Treat Android as a first-class target, not a later port.
 - Prefer simple, readable GDScript over clever abstractions.
 - Avoid large god objects. Keep exploration, dialogue, combat, save/state, UI, and content loading separable.
-- Any temporary shortcut must be clearly marked and must not masquerade as production architecture.
+- Any temporary shortcut must be clearly marked and must not masquerade as production architecture or canon content.
 
-## Step 7B.5 rule
+## Accepted-proof regression rule
 
-The current repository phase is a technical proof. The goal is not to make a content-rich demo; it is to prove the architecture that the full game would depend on.
+Step 7B.5 is closed. Its accepted automated tests and real-device behaviors are now the implementation regression baseline.
 
-A feature is not considered proven merely because code exists. It must satisfy the acceptance criteria in `docs/TECHNICAL_PROOF.md`, including Android-device validation where required.
+Do not regress the proven exploration/dialogue/combat/Card/Prime/persistence architecture merely because later content is more complex. If a newer approved design genuinely requires changing an accepted behavior, update the controlling authority and tests deliberately rather than silently bypassing them.
+
+Temporary proof fixtures are **not** protected content: graybox geometry, placeholder portraits/sprites, disposable dialogue, proof enemies, `Proof Strike`, temporary flat damage/rewards, proof flags, and debug UI should be replaced during production without rewriting the proven subsystem boundaries.
