@@ -1,8 +1,8 @@
 # Diyse — Combat Engineering Rules
 
-This is the implementation-facing combat baseline aligned with Clean Active Master v1.34 and Active Technical Annex v1.34. It does not replace the full combat authority.
+This is the implementation-facing combat baseline aligned with **Clean Active Master v1.36** and **Active Technical Annex v1.36**. It does not replace the full combat authority.
 
-**Step 7B.5 combat, Standard Card, retarget and Prime gates are COMPLETE / PASS on Android.** The rules below are now accepted regression behavior rather than provisional proof targets.
+**Step 7B.5 combat, Standard Card, retarget and Prime gates are COMPLETE / PASS on Android.** The rules below are accepted regression behavior rather than provisional proof targets. Chapter 0 Step 7C production dialogue was merged without changing these combat rules and passed the complete combat regression stack.
 
 ## Core round structure
 
@@ -34,7 +34,7 @@ If a queued player hostile action targets an enemy that is defeated before that 
 - Retargeting changes only the target; it does not change the action, cost, priority tier, Speed, or actor.
 - The presentation/combat log should expose the retarget so the player can understand what happened.
 
-This rule was explicitly accepted during 7B.5E and is current combat authority.
+This rule was explicitly accepted during 7B.5E and remains current combat authority.
 
 ## Permanent command list
 
@@ -50,9 +50,7 @@ Do not add universal Swap, Reserve, Assist, Row, Move, Wait, Timeline, or person
 
 ## Active party
 
-Maximum four permanent characters can be active in battle.
-
-Reserve members do not participate mid-battle and cannot be swapped in through a universal command.
+Maximum four permanent characters can be active in battle. Reserve members do not participate mid-battle and cannot be swapped in through a universal command.
 
 ## Ability economy
 
@@ -90,36 +88,19 @@ Current Prime authority controls Prime behavior.
 - Suspended permanent characters retain frozen HP, MP, statuses, buffs, debuffs, cooldowns, equipment state, and once-per-battle state. They cannot be targeted and receive no beginning/end-of-round ticks while suspended.
 - Allied temporary entities are archived and frozen during Prime replacement and return after normal exit if still legal.
 - On normal duration expiry or an approved final command, the Prime exits at end of round and the archived party returns before the next beginning-of-round effects.
-- Prime defeat/Banishment is not a normal return and uses the current Resonance Backlash rules.
+- Prime defeat/Banishment is not a normal return and uses current Resonance Backlash rules.
 - Prime Manifestations and ordinary summons are separate systems. Never infer ordinary-summon AI or recovery rules from Prime direct control.
 
 ### Accepted 7B.5F validation
 
-Recovered First Champion was the representative Prime because it is the current Might story Prime borne by Cyanis. The proof successfully validated bearer locking, activation timing, pending state, party suspension, direct control, Prime-only commands, hostile targeting of the Prime, finite duration, normal return and same-battle use consumption.
+Recovered First Champion was the representative Prime because it is the current Might story Prime borne by Cyanis. The proof validated bearer locking, activation timing, pending state, party suspension, direct control, Prime-only commands, hostile targeting of the Prime, finite duration, normal return and same-battle use consumption.
 
-The temporary flat damage values used in that proof are not canon. Production Power/Defense/Spirit and authored command effects remain controlled by the active technical authority.
+Temporary flat damage values used in that proof are not canon. Production Power/Defense/Spirit and authored command effects remain controlled by the active technical authority.
 
 ## Determinism and testing
 
 Pure round resolution must remain testable without relying on animation timing.
 
-The accepted regression baseline covers at minimum:
-
-- Item priority over faster ordinary actions;
-- Defend priority after Items;
-- Speed ordering within a priority tier;
-- exact party-versus-enemy Speed tie;
-- tied party player-selected order;
-- stable tied-enemy order;
-- enemy action locking before player confirmation;
-- one ordinary selected action maximum per legal unit per round unless a separately legal effect explicitly changes that outcome;
-- queued hostile party actions automatically retargeting from a defeated enemy to the next living enemy, including wraparound;
-- unlimited Standard Card reuse without obsolete use-state mechanics;
-- Prime bearer locking and one-use spend timing;
-- activation-round completion before suspension;
-- Prime HP/Speed snapshot at entry where applicable;
-- one directly selected Prime command per Prime round;
-- frozen party state during replacement;
-- correct duration and normal return.
+The accepted regression baseline covers Item priority; Defend priority; Speed ordering/ties; enemy action locking; one ordinary selected action per legal unit; automatic hostile retargeting including wraparound; unlimited Standard Card reuse; Prime bearer locking/use timing; activation-round completion; Prime snapshot/command/duration/return behavior; and frozen party state during replacement.
 
 Presentation and animation should consume resolver/state results rather than define combat legality. Future production changes must keep these tests green unless a newer approved authority deliberately changes the rule under test.
