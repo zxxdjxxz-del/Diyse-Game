@@ -1,0 +1,457 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "S002"
+chapter_id = "chapter_00"
+scene_kind = "mandatory"
+location_id = "LOC_BORDERLANDS_WRECK_FIELD"
+trigger_id = "trigger.chapter_00.s002"
+completion_flag = "scene.s002.complete"
+participants = Array[String](["cyanis", "convoy_superior_officer", "wounded_convoy_escort", "civilian_traveler"])
+authoring_notes = "Step 7C S002 draft. Wreck Field exploration after S001 combat: Cyanis reads survivor routes, unstable wreckage, enemy pressure, civilian positions, and evidence that the clean northern withdrawal line may be bait through ordinary battlefield awareness. He gives survivors practical roles based on what they can still do. The actual pursuit-order refusal remains S003; Ilyra arrival and the damaged Card response remain S004. No proof portrait asset is promoted into canon."
+beats = [{
+"beat_id": "S002_B001",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 520, "staging": "Return from S001's opening combat into the damaged east side of the convoy. Smoke, broken wagon parts, wounded escorts, and displaced travelers establish the Wreck Field without a triumphant victory beat.", "camera": "Readable wide of the east-side wreckage, then settle near Cyanis.", "movement": "Cyanis lowers his shield only after checking the immediate approach.", "interrupt": false, "implementation_flags": ["RESUME_AFTER_S001_COMBAT", "CINEMATIC_WORLD_BEAT"]}
+}, {
+"beat_id": "S002_B002",
+"speaker_id": "wounded_convoy_escort",
+"text": "Dovaren.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "A wounded escort calls from beside the road, one hand braced against a broken wheel.", "camera": "Medium in-world framing.", "movement": "Cyanis turns immediately.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B003",
+"speaker_id": "cyanis",
+"text": "Where?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "He asks for locations, not a condition report he can see for himself.", "camera": "Hold.", "movement": "Cyanis closes the distance while scanning beyond the escort.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B004",
+"speaker_id": "wounded_convoy_escort",
+"text": "Two by the axle. One under the canvas.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 50, "staging": "The escort points rather than explaining injuries they cannot assess.", "camera": "Pan only enough to establish the two survivor positions.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CIVILIAN_POSITION_READ"]}
+}, {
+"beat_id": "S002_B005",
+"speaker_id": "cyanis",
+"text": "Can you stand?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Cyanis checks the escort's usable capacity instead of ordering them as if unwounded.", "camera": "Hold two-shot.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B006",
+"speaker_id": "wounded_convoy_escort",
+"text": "If I have to.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "The answer is strained but credible.", "camera": "Hold.", "movement": "The escort tests their weight before committing.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B007",
+"speaker_id": "cyanis",
+"text": "You do. Get the two by the axle behind the stone line. Don't lift anyone you can't.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 60, "staging": "A useful task sized to what the wounded escort can still do; Cyanis does not turn them into a porter beyond their condition.", "camera": "Show the stone-line route he means.", "movement": "Escort begins toward the two survivors.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "SURVIVOR_ROLE_ASSIGNMENT", "SURVIVOR_ROUTE_READ"]}
+}, {
+"beat_id": "S002_B008",
+"speaker_id": "wounded_convoy_escort",
+"text": "What about the one under the canvas?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "The escort checks the remaining casualty rather than assuming Cyanis missed them.", "camera": "Hold.", "movement": "Escort pauses only long enough for the answer.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B009",
+"speaker_id": "cyanis",
+"text": "Mine.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 90, "staging": "Conclusion first. Cyanis immediately moves toward the trapped survivor.", "camera": "Follow Cyanis into the field.", "movement": "Escort continues to the stone line; Cyanis moves toward the damaged wagon.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B010",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 120, "staging": "Release the player into the first authored Wreck Field traversal segment. Survivor-route markers, unstable wreckage, and visible threat directions should be legible through environment/staging rather than a tutorial narration dump.", "camera": "Return to exploration camera.", "movement": "Player control resumes with the trapped-survivor interaction as the immediate nearby objective.", "interrupt": false, "implementation_flags": ["PLAYABLE_WRECK_FIELD_EXPLORATION", "HANDOFF_TO_EXPLORATION"]}
+}, {
+"beat_id": "S002_B011",
+"speaker_id": "civilian_traveler",
+"text": "Sir—my brother's under there.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "At the damaged wagon, a traveler is crouched near a sagging frame and trying to find a way underneath.", "camera": "Medium on traveler, trapped survivor location, and unstable frame in one readable composition.", "movement": "Cyanis steps between the traveler and the unsafe opening.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "UNSTABLE_WRECKAGE_READ"]}
+}, {
+"beat_id": "S002_B012",
+"speaker_id": "cyanis",
+"text": "Don't crawl under the frame.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Immediate safety instruction; he does not soften it until the traveler is out of the danger line.", "camera": "Hold the unstable load in frame.", "movement": "Cyanis gestures the traveler back half a step.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B013",
+"speaker_id": "civilian_traveler",
+"text": "He's right there.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Fear makes the traveler answer the urgency rather than the instruction.", "camera": "Brief trapped-survivor insert, then back.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B014",
+"speaker_id": "cyanis",
+"text": "I know. Can you pull?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Cyanis redirects the traveler from panic into a concrete job.", "camera": "Two-shot.", "movement": "Cyanis checks the wagon's loaded side and an available rope/line.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "SURVIVOR_ROLE_ASSIGNMENT"]}
+}, {
+"beat_id": "S002_B015",
+"speaker_id": "civilian_traveler",
+"text": "Yes.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "The traveler focuses on the task.", "camera": "Hold.", "movement": "Traveler takes the line Cyanis indicates.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B016",
+"speaker_id": "cyanis",
+"text": "Good. Rope around that spoke. When I lift, pull him toward you. Not up. Toward you.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 50, "staging": "Short instructions matched to the physical problem. No miracle strength or magical solution.", "camera": "Keep hand placement and extraction direction readable.", "movement": "Cyanis braces at the safe side of the frame while the traveler takes position.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "UNSTABLE_WRECKAGE_READ"]}
+}, {
+"beat_id": "S002_B017",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 420, "staging": "Cyanis lifts only enough to relieve the pin while the traveler pulls the trapped survivor clear. The damaged wagon shifts after extraction, confirming the danger he read.", "camera": "Close functional action, then widen as the frame settles lower.", "movement": "Survivor is moved to clear ground; Cyanis releases the load safely rather than holding it theatrically.", "interrupt": false, "implementation_flags": ["CINEMATIC_WORLD_BEAT", "WRECK_RESCUE_COMPLETED"]}
+}, {
+"beat_id": "S002_B018",
+"speaker_id": "civilian_traveler",
+"text": "He's breathing.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Relief without turning the rescue into a victory speech.", "camera": "Traveler with survivor.", "movement": "Traveler stays beside the survivor.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B019",
+"speaker_id": "cyanis",
+"text": "Keep him on his side. If he stops answering, shout.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "Basic field instruction only; Cyanis does not perform expert medical diagnosis outside his authority.", "camera": "Hold.", "movement": "Cyanis rises and looks back across the field.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B020",
+"speaker_id": "civilian_traveler",
+"text": "You're leaving?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "The question is practical fear, not an emotional test.", "camera": "Two-shot.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B021",
+"speaker_id": "cyanis",
+"text": "Twenty steps. Shout if he changes.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 100, "staging": "He answers with distance and responsibility rather than reassurance he cannot guarantee.", "camera": "Follow his sight line toward the next part of the wreck field.", "movement": "Cyanis moves on; traveler remains with the survivor.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "SURVIVOR_ROUTE_READ"]}
+}, {
+"beat_id": "S002_B022",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 120, "staging": "Resume short playable traversal. The direct center road is visibly compromised by a rear wagon resting on a failed axle; the lower stone line remains the safer survivor route. Movement remains visible along the hostile ridge beyond the wreckage.", "camera": "Exploration camera with ridge and center-road hazards readable when approached.", "movement": "Player may move between the rescued travelers and the next escort position.", "interrupt": false, "implementation_flags": ["PLAYABLE_WRECK_FIELD_EXPLORATION", "SURVIVOR_ROUTE_READ", "UNSTABLE_WRECKAGE_READ", "ENEMY_PRESSURE_READ"]}
+}, {
+"beat_id": "S002_B023",
+"speaker_id": "cyanis",
+"text": "Nobody uses the middle road. Rear wagon's sitting on one axle.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Cyanis reaches the wounded escort again as survivors begin moving along the lower stone line.", "camera": "Keep failed axle visible behind them.", "movement": "Cyanis indicates the blocked center route.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "UNSTABLE_WRECKAGE_READ"]}
+}, {
+"beat_id": "S002_B024",
+"speaker_id": "wounded_convoy_escort",
+"text": "That's the shortest way back.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "The escort raises the obvious practical objection.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B025",
+"speaker_id": "cyanis",
+"text": "It'll get shorter when the wagon lands on somebody.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 70, "staging": "Dry practical absurdity under pressure; the line ends the argument rather than turning into banter.", "camera": "Small creak/settle from the damaged wagon can underline the point without slapstick.", "movement": "Cyanis redirects the survivor flow toward the stone line.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B026",
+"speaker_id": "wounded_convoy_escort",
+"text": "Right. Stone line.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 60, "staging": "The escort accepts the correction immediately.", "camera": "Widen toward moving survivors.", "movement": "Escort waves two travelers onto the safer route.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B027",
+"speaker_id": "cyanis",
+"text": "Stone line.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 100, "staging": "Simple confirmation while Cyanis's attention shifts toward a new sound near the ditch.", "camera": "Begin turning toward the ditch line.", "movement": "Cyanis stops.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B028",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 260, "staging": "A dragged chain mark and disturbed ditch grass cut across the survivor route. Cyanis reads the sign as an immediate animal threat, not supernatural information.", "camera": "Ground-level evidence insert, then the ditch line.", "movement": "Nearby survivors continue until Cyanis signals them back.", "interrupt": false, "implementation_flags": ["ENEMY_PRESSURE_READ", "CONVOY_RIFT_HOUND_EVIDENCE"]}
+}, {
+"beat_id": "S002_B029",
+"speaker_id": "wounded_convoy_escort",
+"text": "Movement by the ditch.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "The escort sees the movement too; Cyanis is not uniquely perceptive in a magical sense.", "camera": "Hold the shared threat direction.", "movement": "Escort turns toward the survivors.", "interrupt": true, "implementation_flags": ["IN_WORLD_DIALOGUE", "ENEMY_PRESSURE_READ"]}
+}, {
+"beat_id": "S002_B030",
+"speaker_id": "cyanis",
+"text": "Back.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "One-word command; Cyanis steps into the route between the ditch and the survivors.", "camera": "Medium on Cyanis with ditch beyond.", "movement": "Escort moves survivors back behind the wagon line.", "interrupt": true, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B031",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 180, "staging": "The Convoy Rift Hound bursts from the ditch line with its restraint chain trailing. Do not add a new creature form or alter the controlling encounter sheet.", "camera": "Readable threat reveal; avoid horror flourish that obscures its route to Cyanis.", "movement": "Cyanis raises shield; survivors clear the immediate lane.", "interrupt": true, "implementation_flags": ["CINEMATIC_WORLD_BEAT", "CONVOY_RIFT_HOUND_REVEAL"]}
+}, {
+"beat_id": "S002_B032",
+"speaker_id": "cyanis",
+"text": "Hound.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 20, "staging": "Identification, not explanation.", "camera": "Hold defensive line.", "movement": "Cyanis draws the creature away from the survivor route.", "interrupt": true, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B033",
+"speaker_id": "cyanis",
+"text": "Everyone behind the wagon. Now.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 90, "staging": "The command finishes the civilian movement before combat begins.", "camera": "Transition toward authored encounter framing.", "movement": "Cyanis holds the hound's approach while survivors move out of lane.", "interrupt": true, "implementation_flags": ["IN_WORLD_DIALOGUE", "HANDOFF_TO_CONVOY_RIFT_HOUND_ENCOUNTER", "COMMIT_S002_ONLY_AFTER_REQUIRED_GAMEPLAY_HANDOFF"]}
+}, {
+"beat_id": "S002_B034",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 260, "staging": "Resume the authored scene only after the controlling Convoy Rift Hound encounter resolves. The field is quieter, not safe; survivors continue moving and hostile pressure remains visible beyond the ridge.", "camera": "Return from combat to a readable Wreck Field wide.", "movement": "Cyanis checks the survivor lane before looking toward the north cut.", "interrupt": false, "implementation_flags": ["RESUME_AFTER_WRECK_FIELD_COMBAT", "CINEMATIC_WORLD_BEAT"]}
+}, {
+"beat_id": "S002_B035",
+"speaker_id": "convoy_superior_officer",
+"text": "Dovaren!",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "The officer calls from a newly visible breach across the wreck line; they remain with the wider convoy command problem.", "camera": "Establish officer and Cyanis across the damaged field.", "movement": "Cyanis turns toward the call.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B036",
+"speaker_id": "cyanis",
+"text": "Here.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Functional answer over distance.", "camera": "Hold geography.", "movement": "Cyanis moves to a position where the north cut and officer are both visible.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B037",
+"speaker_id": "convoy_superior_officer",
+"text": "North side's pulling back.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "The officer reports the observable withdrawal without yet issuing S003's decision-driving order.", "camera": "Brief north-cut insert showing retreat movement at distance.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ENEMY_PRESSURE_READ"]}
+}, {
+"beat_id": "S002_B038",
+"speaker_id": "cyanis",
+"text": "I see it.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Cyanis watches the route rather than the retreating figures alone.", "camera": "Cyanis sight line to north cut.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B039",
+"speaker_id": "convoy_superior_officer",
+"text": "Looks like they're breaking.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "Reasonable field interpretation, not foolishness.", "camera": "Hold officer/Cyanis spatial relationship.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B040",
+"speaker_id": "cyanis",
+"text": "Look at the cut.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "He asks the officer to inspect the same evidence rather than declaring himself correct.", "camera": "Shift to the north cut.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "BAIT_PATTERN_EVIDENCE"]}
+}, {
+"beat_id": "S002_B041",
+"speaker_id": "convoy_superior_officer",
+"text": "What about it?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "The officer asks for the specific read.", "camera": "Hold on route geometry.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B042",
+"speaker_id": "cyanis",
+"text": "Every other route is blocked. That one isn't.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 50, "staging": "Observable geometry only: collapsed wagons and debris choke alternate lines while the north cut remains unnaturally clean.", "camera": "Compare blocked lanes to the clean north cut in quick readable inserts.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "BAIT_PATTERN_EVIDENCE"]}
+}, {
+"beat_id": "S002_B043",
+"speaker_id": "convoy_superior_officer",
+"text": "They cleared it.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "The officer offers one plausible explanation.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B044",
+"speaker_id": "cyanis",
+"text": "Or left it.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 80, "staging": "Cyanis keeps the conclusion provisional.", "camera": "Return to Cyanis, then north cut.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "BAIT_PATTERN_EVIDENCE"]}
+}, {
+"beat_id": "S002_B045",
+"speaker_id": "convoy_superior_officer",
+"text": "You think it's bait.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "The officer names the tactical possibility; no order or refusal occurs here.", "camera": "Two-point field composition.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B046",
+"speaker_id": "cyanis",
+"text": "I think they want us looking north.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 70, "staging": "He states a hypothesis, not certainty. The camera may briefly include wounded/civilians/cargo behind him to make the divided-attention problem visually legible without resolving it yet.", "camera": "Cyanis foreground with north cut one direction and damaged convoy field another.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "BAIT_PATTERN_EVIDENCE"]}
+}, {
+"beat_id": "S002_B047",
+"speaker_id": "convoy_superior_officer",
+"text": "Relay. Bring me that and a field count.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "The officer directs Cyanis toward the Evacuation Relay to report. The actual contested action/order belongs to S003 and is not issued here.", "camera": "Indicate relay route beyond the wreck field.", "movement": "Officer turns back toward wider convoy coordination.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "SETUP_S003_EVACUATION_RELAY"]}
+}, {
+"beat_id": "S002_B048",
+"speaker_id": "cyanis",
+"text": "On my way.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 70, "staging": "No argument yet. Cyanis turns toward the relay route after one final scan of the field.", "camera": "Follow turn toward relay.", "movement": "Cyanis begins moving out of the Wreck Field.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S002_B049",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 160, "staging": "Return control for the short authored transition toward the Evacuation Relay. Preserve visible survivor movement along the safer stone line, the unstable center wreckage, and the suspiciously clean north cut as the field state Cyanis carries into S003.", "camera": "Exploration transition toward the relay route.", "movement": "Player regains control / authored traversal begins toward S003 trigger.", "interrupt": false, "implementation_flags": ["HANDOFF_TO_S003_EVACUATION_RELAY", "HANDOFF_TO_EXPLORATION", "COMMIT_S002_ONLY_AFTER_REQUIRED_GAMEPLAY_HANDOFF"]}
+}]
