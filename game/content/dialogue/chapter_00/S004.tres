@@ -1,0 +1,529 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "S004"
+chapter_id = "chapter_00"
+scene_kind = "mandatory"
+location_id = "LOC_BORDERLANDS_FIELD_TRIAGE_CAMP"
+trigger_id = "trigger.chapter_00.s004"
+completion_flag = "scene.s004.complete"
+participants = Array[String](["cyanis", "ilyra", "convoy_superior_officer", "wounded_convoy_escort", "civilian_traveler"])
+authoring_notes = "Step 7C S004 draft. Ilyra enters as an independent Blue Warden authority at the Field Triage Camp; Cyanis and Ilyra establish mutual tactical/medical jurisdiction through work. The damaged sealed Card responds incompletely with fragmentary green-and-gold protective geometry, creating evacuation time and the one-time Broken Champion's Ward state for S005 without revealing First Champion/Prime identity or triggering First Mercy. Ilyra stabilizes Cyanis's dangerous physical/magical response and challenges his minimization. S005 owns the actual final Chapter 0 confrontation; S006 owns formal permanent recruitment/aftermath closure. No proof portrait is promoted into canon."
+beats = [{
+"beat_id": "S004_B001",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 500, "staging": "Transition from S003 into the Field Triage Camp forming around the relay-side stonework and recovered convoy positions. Wounded escorts and civilians arrive along the safer route. The sealed damaged Card remains protected cargo near the recovery wagon; it is visually present but inert.", "camera": "Wide readable camp geography: treatment lane, stone protection, recovery wagon, north/east threat approaches.", "movement": "Cyanis enters with the survivor flow while a newly arrived Blue Warden medical group is already taking positions.", "interrupt": false, "implementation_flags": ["ENTER_FIELD_TRIAGE_CAMP", "S004_REVELATION_SEQUENCE_BEGIN"]}
+}, {
+"beat_id": "S004_B002",
+"speaker_id": "ilyra",
+"text": "Walking wounded to the blue cloth. If you can answer clearly, help the person beside you. Nobody moves the woman by the axle.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Ilyra's first spoken line is already work. She classifies by need and gives capable survivors bounded tasks rather than performing for the room.", "camera": "Introduce Ilyra in motion within the triage lane, not with a glamour reveal.", "movement": "Medical group and walking wounded respond immediately.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_FIRST_ENTRY", "ILYRA_INDEPENDENT_MEDICAL_AUTHORITY", "TRIAGE_CLASSIFICATION", "SURVIVOR_ROLE_ASSIGNMENT"]}
+}, {
+"beat_id": "S004_B003",
+"speaker_id": "civilian_traveler",
+"text": "I can help. What do I do?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "A frightened but functional traveler asks for a concrete task.", "camera": "Keep Ilyra, traveler, and a breathing casualty in one composition.", "movement": "Traveler steps toward Ilyra without entering the treatment lane.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S004_B004",
+"speaker_id": "ilyra",
+"text": "Count his breaths to thirty. If the rhythm changes, tell me. Don't guess.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "Ilyra turns fear into a useful observation task with clear limits.", "camera": "Brief insert on casualty breathing, then back.", "movement": "Traveler kneels where directed.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "SURVIVOR_ROLE_ASSIGNMENT", "ILYRA_PATIENT_CENTERED_CARE"]}
+}, {
+"beat_id": "S004_B005",
+"speaker_id": "cyanis",
+"text": "We need this lane clear for the next group.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Cyanis reaches the triage lane and identifies a legitimate movement/security problem.", "camera": "Two-shot with the immobile patient still visible.", "movement": "Cyanis indicates the cluttered access lane rather than touching the patient.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_TACTICAL_JURISDICTION"]}
+}, {
+"beat_id": "S004_B006",
+"speaker_id": "ilyra",
+"text": "Then move the crates. She doesn't move.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "Ilyra does not defer medical safety to battlefield convenience.", "camera": "Hold steady; no dominance framing.", "movement": "Ilyra keeps one hand stabilizing the patient's shoulder and breathing position.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_MEDICAL_JURISDICTION", "PATIENT_MOVEMENT_REFUSED"]}
+}, {
+"beat_id": "S004_B007",
+"speaker_id": "cyanis",
+"text": "Reason?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Cyanis asks for the field fact he needs rather than challenging her authority reflexively.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S004_B008",
+"speaker_id": "ilyra",
+"text": "Her breathing worsens when we shift her. Give me three minutes and a stable surface.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "Medical reason and operational need, stated without apology.", "camera": "Patient remains visible.", "movement": "Ilyra gestures toward a nearby flat section that can be cleared.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "TRIAGE_CANNOT_MOVE_PATIENT"]}
+}, {
+"beat_id": "S004_B009",
+"speaker_id": "cyanis",
+"text": "You have it.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 60, "staging": "Cyanis accepts specialist authority immediately once the constraint is clear.", "camera": "Widen to show the lane solution.", "movement": "Cyanis redirects two able survivors to shift crates instead of the patient.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "MUTUAL_JURISDICTION_ESTABLISHED"]}
+}, {
+"beat_id": "S004_B010",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 180, "staging": "Short work montage: crates move, the lane opens, Ilyra's medical group sorts patients, Cyanis checks sight lines and survivor approach routes. Neither character becomes the other's assistant.", "camera": "Functional cross-cuts between security and triage work.", "movement": "Continuous camp activity.", "interrupt": false, "implementation_flags": ["CINEMATIC_WORLD_BEAT", "MUTUAL_JURISDICTION_VISIBLE"]}
+}, {
+"beat_id": "S004_B011",
+"speaker_id": "cyanis",
+"text": "North watch is holding. East side's thin.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Security update delivered to the person whose treatment layout depends on it.", "camera": "Show east-side exposure beyond the camp.", "movement": "Cyanis returns to the edge of Ilyra's lane without entering it.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_TACTICAL_JURISDICTION"]}
+}, {
+"beat_id": "S004_B012",
+"speaker_id": "ilyra",
+"text": "How much clear space can you keep behind that wagon?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Ilyra translates the tactical constraint into a medical-space requirement.", "camera": "Indicate the protected rear side of the wagon.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S004_B013",
+"speaker_id": "cyanis",
+"text": "Six paces.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Immediate estimate.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S004_B014",
+"speaker_id": "ilyra",
+"text": "I need eight.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "No apology or subordinate phrasing.", "camera": "Hold.", "movement": "Ilyra marks the needed treatment width with her hand.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_MEDICAL_JURISDICTION"]}
+}, {
+"beat_id": "S004_B015",
+"speaker_id": "cyanis",
+"text": "Seven without exposing the west corner.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Cyanis gives the security cost rather than simply refusing.", "camera": "Show west corner line of sight.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S004_B016",
+"speaker_id": "ilyra",
+"text": "Then seven. Keep the west corner.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 70, "staging": "Mutual adjustment; neither discipline automatically wins outside its actual constraint.", "camera": "Return to camp-wide working rhythm.", "movement": "Ilyra shifts one treatment mat inward to fit the revised space.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "MUTUAL_JURISDICTION_ESTABLISHED"]}
+}, {
+"beat_id": "S004_B017",
+"speaker_id": "ilyra",
+"text": "Your left arm is shaking.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Ilyra notices Cyanis's condition while continuing to work; concern is clinical, not romantic.", "camera": "Subtle insert on Cyanis's shield-side hand.", "movement": "Ilyra does not abandon the current patient to inspect him.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_NOTICES_CYANIS_OVEREXTENSION"]}
+}, {
+"beat_id": "S004_B018",
+"speaker_id": "cyanis",
+"text": "It still works.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Cyanis minimizes by function rather than claiming to feel well.", "camera": "Hold.", "movement": "He flexes the hand once and returns attention east.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_SELF_NEGLECT_EARLY"]}
+}, {
+"beat_id": "S004_B019",
+"speaker_id": "ilyra",
+"text": "You're walking, oriented, and not losing blood quickly. You can wait. Don't mistake that for fine.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 55, "staging": "Ilyra triages him accurately without making him the center of the camp.", "camera": "Return focus to patient line as she speaks.", "movement": "She moves to the next casualty.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_TRIAGES_CYANIS_WITHOUT_PRIVILEGE"]}
+}, {
+"beat_id": "S004_B020",
+"speaker_id": "cyanis",
+"text": "Wasn't planning to.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 70, "staging": "A dry answer, but he does not argue the medical assessment.", "camera": "Hold just long enough for Ilyra to hear it without turning the exchange into banter.", "movement": "Cyanis checks the east approach again.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S004_B021",
+"speaker_id": "convoy_superior_officer",
+"text": "East ridge! Sorcerer moving up!",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 10, "staging": "Renewed hostile pressure interrupts the working rhythm before either character can continue the personal exchange.", "camera": "Snap to east ridge threat lane.", "movement": "Escorts turn outward; civilians instinctively compress toward treatment space.", "interrupt": true, "implementation_flags": ["IN_WORLD_DIALOGUE", "RENEWED_ENEMY_PRESSURE"]}
+}, {
+"beat_id": "S004_B022",
+"speaker_id": "cyanis",
+"text": "Move everyone behind the relay wall.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 20, "staging": "Immediate security instruction based on incoming threat.", "camera": "Show relay wall as safer line.", "movement": "Cyanis turns toward the camp and begins opening the route.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_TACTICAL_JURISDICTION"]}
+}, {
+"beat_id": "S004_B023",
+"speaker_id": "ilyra",
+"text": "Not everyone. Two stay.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 20, "staging": "Ilyra overrides only the medically unsafe portion of the movement order.", "camera": "Cut to the two unstable patients.", "movement": "She signals medical staff not to lift them.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_MEDICAL_JURISDICTION", "PATIENT_MOVEMENT_REFUSED"]}
+}, {
+"beat_id": "S004_B024",
+"speaker_id": "cyanis",
+"text": "That wall is about to become the safer side.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 20, "staging": "He states the tactical urgency plainly.", "camera": "Keep threat and patients in the same spatial logic.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S004_B025",
+"speaker_id": "ilyra",
+"text": "If I move them now, they may stop breathing before they reach it.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "The medical cost is immediate and concrete.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "TRIAGE_CANNOT_MOVE_PATIENT"]}
+}, {
+"beat_id": "S004_B026",
+"speaker_id": "cyanis",
+"text": "What do you need?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Cyanis switches from arguing the constraint to asking for the executable requirement.", "camera": "Two-shot across the patient line.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "MUTUAL_JURISDICTION_ESTABLISHED"]}
+}, {
+"beat_id": "S004_B027",
+"speaker_id": "ilyra",
+"text": "Thirty seconds and something between us and that ridge.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Medical need becomes a tactical problem Cyanis can actually solve.", "camera": "Sight line from treatment space to east ridge.", "movement": "Ilyra begins the fastest safe stabilization needed for movement.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S004_B028",
+"speaker_id": "cyanis",
+"text": "Done.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 20, "staging": "Conclusion first; he acts immediately.", "camera": "Follow Cyanis stepping into the exposed lane.", "movement": "Cyanis raises shield and directs available escorts into a temporary protective line.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_PROTECTS_TRIAGE_TIME"]}
+}, {
+"beat_id": "S004_B029",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 380, "staging": "A distant War-Sorcerer strike hits near the temporary line. The damaged recovery wagon jolts. The sealed Card's casing emits its first irregular green-and-gold light. The effect is fragmented, asymmetrical, and visibly incomplete.", "camera": "Intercut impact, Cyanis bracing, then the sealed casing. Avoid heroic chosen-one framing.", "movement": "Cyanis absorbs the immediate shock behind his shield; Ilyra keeps working rather than turning to stare.", "interrupt": false, "implementation_flags": ["CINEMATIC_WORLD_BEAT", "INCOMPLETE_CARD_RESPONSE_BEGINS", "NO_COMPLETE_MANIFESTATION"]}
+}, {
+"beat_id": "S004_B030",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 520, "staging": "Fragmentary green-and-gold protective geometry runs from the damaged casing through nearby weak points: cracked stone edges, wagon braces, shield lines, and temporary cover. It briefly stabilizes positions that were about to fail and makes safe/unsafe routes slightly easier for Cyanis to parse. It does not strike the enemy, heal casualties, or make anyone invulnerable.", "camera": "Readable geometry across the camp; briefly favor Cyanis's practical view of routes and weak points rather than mystical spectacle.", "movement": "Survivors flinch but remain movable; escorts regain footing behind stabilized cover.", "interrupt": false, "implementation_flags": ["CINEMATIC_WORLD_BEAT", "FRAGMENTARY_GREEN_GOLD_GEOMETRY", "WEAK_POSITIONS_STABILIZED", "EVACUATION_TIME_CREATED", "SLIGHT_FIELD_INFORMATION_EXPANSION", "NO_ENEMY_DAMAGE_FROM_RESPONSE", "NO_INVULNERABILITY"]}
+}, {
+"beat_id": "S004_B031",
+"speaker_id": "convoy_superior_officer",
+"text": "Dovaren—what did you do?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "The officer reacts to correlation, not knowledge of the cause.", "camera": "Officer beyond the stabilized line, Cyanis foreground.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S004_B032",
+"speaker_id": "cyanis",
+"text": "Nothing.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Literal answer; Cyanis did not intentionally trigger the response.", "camera": "Hold on Cyanis noticing the geometry continue without understanding it.", "movement": "His shield hand trembles harder.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S004_B033",
+"speaker_id": "ilyra",
+"text": "Whatever it is, it's running through you.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Ilyra identifies an observable patient condition, not the phenomenon's identity.", "camera": "Ilyra finally looks directly at Cyanis after completing the immediate patient stabilization.", "movement": "She starts toward him only after handing her current patient to another medic.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_RECOGNIZES_UNSTABLE_CONDITION"]}
+}, {
+"beat_id": "S004_B034",
+"speaker_id": "cyanis",
+"text": "The line is holding. Move the wounded now.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Protected canonical reaction. Cyanis prioritizes the practical opportunity rather than explaining the impossible event.", "camera": "Wide enough to show the stabilized evacuation route opening behind him.", "movement": "Cyanis points the route clear while remaining at the forward edge.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "PROTECTED_CANONICAL_LINE", "EVACUATION_WINDOW_USED"]}
+}, {
+"beat_id": "S004_B035",
+"speaker_id": "ilyra",
+"text": "Red bands first. You two carry—don't drag. Keep their heads lower than the wall.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 20, "staging": "Ilyra immediately converts the created time into medical movement order.", "camera": "Follow patient movement through the stabilized route.", "movement": "Medical group and assigned survivors begin moving the two unstable patients safely.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_TRIAGE_COMMAND", "PATIENTS_MOVE_DURING_EVACUATION_WINDOW"]}
+}, {
+"beat_id": "S004_B036",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 300, "staging": "The last critical patient clears the exposed treatment position. The geometry remains present but unstable. Cyanis takes one step after the movement and visibly loses balance for a fraction of a second.", "camera": "Finish patient movement, then catch Cyanis's instability without melodrama.", "movement": "Ilyra intercepts him before he falls into the treatment lane.", "interrupt": false, "implementation_flags": ["CINEMATIC_WORLD_BEAT", "CYANIS_UNSTABLE_AFTER_RESPONSE"]}
+}, {
+"beat_id": "S004_B037",
+"speaker_id": "ilyra",
+"text": "Don't move.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 20, "staging": "Medical command, not emotional plea.", "camera": "Close functional framing on Ilyra supporting his forearm at a safe professional angle.", "movement": "Cyanis stops rather than fighting her physically.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_MEDICAL_JURISDICTION"]}
+}, {
+"beat_id": "S004_B038",
+"speaker_id": "cyanis",
+"text": "They're still coming.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "His attention remains on the security problem.", "camera": "East threat remains visible over his shoulder.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S004_B039",
+"speaker_id": "ilyra",
+"text": "And you're about to fall into my treatment lane. Hand.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Dry practical correction. She requests the hand she needs to assess/stabilize rather than assuming personal access.", "camera": "Hands and forearm readable; no romantic framing.", "movement": "Cyanis gives her his shield-side hand.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "PROFESSIONAL_TOUCH_WITH_CLEAR_PURPOSE"]}
+}, {
+"beat_id": "S004_B040",
+"speaker_id": "ilyra",
+"text": "Your pulse is wrong. Your magic is spiking with whatever that is.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "She reports observable condition and uncertainty. No Prime identification.", "camera": "Subtle Blue Warden assessment light against the irregular green-gold response.", "movement": "Ilyra braces his wrist/forearm and prepares a stabilizing ward.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_RECOGNIZES_UNSTABLE_PHYSICAL_MAGICAL_CONDITION"]}
+}, {
+"beat_id": "S004_B041",
+"speaker_id": "cyanis",
+"text": "Can you stop it?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Cyanis asks for capability, not explanation.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S004_B042",
+"speaker_id": "ilyra",
+"text": "I can keep it from getting worse. I can't tell you what it is.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "Ilyra states both competence and limit clearly.", "camera": "Hold on her attention to the work rather than his face.", "movement": "A controlled pale-blue ward layers around Cyanis's forearm/upper body without replacing the green-gold geometry.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_STABILIZES_INCOMPLETE_CONNECTION", "NO_PHENOMENON_IDENTIFICATION"]}
+}, {
+"beat_id": "S004_B043",
+"speaker_id": "cyanis",
+"text": "Good enough.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Cyanis tries to reduce the question to operational sufficiency.", "camera": "Hold.", "movement": "His hand steadies slightly.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_MINIMIZES_CONDITION"]}
+}, {
+"beat_id": "S004_B044",
+"speaker_id": "ilyra",
+"text": "Useful enough. Different standard.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 55, "staging": "Ilyra refuses to equate temporary function with health, without turning the moment into therapy.", "camera": "Brief two-shot, then back to work.", "movement": "She finishes the stabilizing ward and releases his hand.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_CHALLENGES_CYANIS_SELF_NEGLECT"]}
+}, {
+"beat_id": "S004_B045",
+"speaker_id": "ilyra",
+"text": "If your vision narrows, your hand goes numb, or you stop hearing me clearly, you say it immediately.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "Specific monitoring instructions, not empty reassurance.", "camera": "Hold.", "movement": "Ilyra checks the response once more, then looks toward the east threat.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_MEDICAL_LIMITS_STATED"]}
+}, {
+"beat_id": "S004_B046",
+"speaker_id": "cyanis",
+"text": "I will.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "He agrees without joke or resistance because the field still needs both of them functional.", "camera": "Hold.", "movement": "Cyanis resets his shield grip.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S004_B047",
+"speaker_id": "convoy_superior_officer",
+"text": "War-Sorcerer at the east cut. One soldier with him.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 15, "staging": "S005 encounter participants are identified exactly without beginning combat yet.", "camera": "East cut: Convoy War-Sorcerer advancing with an injured Iron Cohort Soldier.", "movement": "Remaining escorts brace the camp perimeter.", "interrupt": true, "implementation_flags": ["IN_WORLD_DIALOGUE", "S005_ENCOUNTER_THREAT_IDENTIFIED"]}
+}, {
+"beat_id": "S004_B048",
+"speaker_id": "cyanis",
+"text": "The two you kept here—can they move now?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Cyanis checks medical reality before choosing the defense point.", "camera": "Back to Ilyra and the last two patients.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "MUTUAL_JURISDICTION_ESTABLISHED"]}
+}, {
+"beat_id": "S004_B049",
+"speaker_id": "ilyra",
+"text": "One can. One can't.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Exact medical constraint.", "camera": "Hold.", "movement": "Medical group begins moving the one safe patient and protects the one who must remain.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "TRIAGE_CANNOT_MOVE_PATIENT"]}
+}, {
+"beat_id": "S004_B050",
+"speaker_id": "cyanis",
+"text": "Then we don't give them the camp.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "The tactical decision follows the medical constraint rather than overruling it.", "camera": "Cyanis turns toward the east cut.", "movement": "He takes the forward position at the camp edge.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "S005_DEFENSE_STAKES_SET"]}
+}, {
+"beat_id": "S004_B051",
+"speaker_id": "cyanis",
+"text": "I can hold the front.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Early Cyanis defaults toward personally carrying the danger.", "camera": "Hold two-shot with Ilyra behind the treatment line.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_SELF_ERASURE_PATTERN"]}
+}, {
+"beat_id": "S004_B052",
+"speaker_id": "ilyra",
+"text": "Not alone.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "This is not devotion to Cyanis; it is a professional judgment about protecting treatment space.", "camera": "Ilyra checks the patient handoff before stepping out of the lane.", "movement": "She takes her staff and moves to a position that protects both Cyanis and the camp.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_INDEPENDENT_FIELD_DECISION"]}
+}, {
+"beat_id": "S004_B053",
+"speaker_id": "cyanis",
+"text": "You have patients.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "He names her existing responsibility rather than ordering her back.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S004_B054",
+"speaker_id": "ilyra",
+"text": "And they need the treatment space to remain ours.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Her reason for entering the coming fight is her own medical/protective authority.", "camera": "Keep remaining patient and approaching enemy threat in the same composition.", "movement": "Ilyra settles into a combat-ready Blue Warden position.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_INDEPENDENT_MEDICAL_AUTHORITY", "ILYRA_S005_COMBAT_PARTICIPANT"]}
+}, {
+"beat_id": "S004_B055",
+"speaker_id": "cyanis",
+"text": "Your call.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Cyanis explicitly recognizes her jurisdiction rather than recruiting or commanding her.", "camera": "Two-shot from camp side toward the east cut.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "MUTUAL_JURISDICTION_ESTABLISHED"]}
+}, {
+"beat_id": "S004_B056",
+"speaker_id": "ilyra",
+"text": "Yes.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 80, "staging": "Simple confirmation. No romantic or destiny framing.", "camera": "Hold just long enough to establish professional alignment.", "movement": "Both turn toward the incoming threat.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S004_B057",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 420, "staging": "The incomplete green-and-gold geometry settles into a fragile protective pattern around Cyanis, Ilyra, and the defended camp edge. The pattern is visibly temporary and incomplete. This establishes the one-time Broken Champion's Ward story state for the next encounter: three rounds of authored protection only. It is not a complete Prime activation, selectable Card command, Prime use, summon, or identity reveal.", "camera": "Wide confrontation setup: Cyanis and Ilyra foreground, treatment camp protected behind them, War-Sorcerer and injured Soldier approaching from east cut.", "movement": "Lock positions for the S005 confrontation handoff.", "interrupt": false, "implementation_flags": ["ESTABLISH_BROKEN_CHAMPIONS_WARD", "BROKEN_CHAMPIONS_WARD_THREE_ROUNDS", "NOT_COMPLETE_PRIME_ACTIVATION", "NOT_SELECTABLE_CARD_COMMAND", "NOT_PRIME_USE", "NO_IDENTITY_REVEAL", "ILYRA_NOT_YET_PERMANENT_ROSTER_COMMIT", "HANDOFF_TO_S005_CONFRONTATION", "COMMIT_S004_ONLY_AFTER_S005_HANDOFF_READY"]}
+}]
