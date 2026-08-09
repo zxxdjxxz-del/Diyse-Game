@@ -1,0 +1,268 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "S001"
+chapter_id = "chapter_00"
+scene_kind = "mandatory"
+location_id = "LOC_BORDERLANDS_CONVOY_ROAD"
+trigger_id = "trigger.chapter_00.s001"
+completion_flag = "scene.s001.complete"
+participants = Array[String](["cyanis", "convoy_superior_officer"])
+authoring_notes = "Step 7C S001 draft. Convoy Road opening only: establish Cyanis, sealed recovery cargo, ordinary field awareness, Black Host ambush, separation, and combat handoff. Ilyra arrival, pursuit refusal, and incomplete Prime response are explicitly reserved for later Chapter 0 sequences. Presented primarily through in-world/cinematic staging; no proof portrait asset is promoted into canon."
+beats = [{
+"beat_id": "S001_B001",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 900, "staging": "Convoy advances along the Borderlands road. The sealed recovery wagon remains protected near the center while civilian travelers share the route under escort.", "camera": "Wide establishing view; settle toward Cyanis working the east side of the column.", "movement": "Convoy and travelers continue at walking pace.", "interrupt": false, "implementation_flags": ["CINEMATIC_WORLD_BEAT"]}
+}, {
+"beat_id": "S001_B002",
+"speaker_id": "convoy_superior_officer",
+"text": "Dovaren. East side. Keep the travelers clear of the recovery wagon.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 80, "staging": "The officer approaches without stopping the column.", "camera": "Medium two-shot in world.", "movement": "Cyanis continues checking spacing along the road shoulder.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B003",
+"speaker_id": "cyanis",
+"text": "Already moved them to the low shoulder. More room for the wagon, less chance somebody loses a foot.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 80, "staging": "Cyanis indicates the safer walking line without making a ceremony of it.", "camera": "Hold medium.", "movement": "Travelers continue along the adjusted line.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B004",
+"speaker_id": "convoy_superior_officer",
+"text": "I hadn't finished.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 120, "staging": "The officer gives Cyanis a brief look.", "camera": "Officer reaction insert if available.", "movement": "Continue walking.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B005",
+"speaker_id": "cyanis",
+"text": "Then I apologize for the efficiency.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 80, "staging": "Cyanis keeps his attention on the road rather than playing the line outward.", "camera": "Return to two-shot.", "movement": "Continue walking.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B006",
+"speaker_id": "convoy_superior_officer",
+"text": "You don't.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 100, "staging": "Dry, familiar professional irritation rather than real anger.", "camera": "Hold.", "movement": "Continue walking.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B007",
+"speaker_id": "cyanis",
+"text": "No.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 220, "staging": "A small acknowledgment; the exchange ends without another joke.", "camera": "Ease back toward convoy movement.", "movement": "Cyanis checks the recovery wagon as he passes.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B008",
+"speaker_id": "convoy_superior_officer",
+"text": "Recovery team says the casing shifted again.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 80, "staging": "The officer lowers their voice slightly as the sealed case passes in view.", "camera": "Brief composition including the sealed recovery wagon; do not glamorize the case as chosen-one imagery.", "movement": "Convoy continues.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B009",
+"speaker_id": "cyanis",
+"text": "Seal?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "Immediate practical question.", "camera": "Cyanis glance toward the case.", "movement": "Continue walking.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B010",
+"speaker_id": "convoy_superior_officer",
+"text": "Holding.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 60, "staging": "No exposition beyond the answer Cyanis needs.", "camera": "Hold.", "movement": "Continue walking.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B011",
+"speaker_id": "cyanis",
+"text": "Then it can keep being mysterious until Caelora.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 100, "staging": "Cyanis treats the object as protected cargo, not as a personal calling.", "camera": "Case falls out of frame as Cyanis looks back to the road.", "movement": "Continue walking.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B012",
+"speaker_id": "convoy_superior_officer",
+"text": "That's the idea.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 260, "staging": "Conversation appears finished.", "camera": "Begin widening with the column.", "movement": "Officer starts to move back toward the center of the convoy.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B013",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 700, "staging": "Cyanis slows. His attention fixes on the road ahead; the ordinary return traffic expected on the route is absent.", "camera": "Shift from Cyanis to the empty bend ahead, then back.", "movement": "Cyanis stops; nearby escorts notice and slow.", "interrupt": false, "implementation_flags": ["CINEMATIC_WORLD_BEAT"]}
+}, {
+"beat_id": "S001_B014",
+"speaker_id": "cyanis",
+"text": "Hold the column.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "His tone changes cleanly from conversational to command-ready.", "camera": "Medium on Cyanis, attention still forward.", "movement": "Nearby movement begins to stop.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B015",
+"speaker_id": "convoy_superior_officer",
+"text": "What do you see?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 50, "staging": "The officer takes the warning seriously and asks for the observation, not a speech.", "camera": "Two-shot with road beyond them.", "movement": "Convoy continues slowing.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B016",
+"speaker_id": "cyanis",
+"text": "No carts. No riders. Nobody coming back around that bend.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 80, "staging": "Cyanis lists only observable field facts.", "camera": "Cut briefly to the empty road as each absence registers.", "movement": "Column nearly stopped.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B017",
+"speaker_id": "convoy_superior_officer",
+"text": "Could be nothing.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 70, "staging": "Not dismissive; a professional possibility check.", "camera": "Officer checks the same ground.", "movement": "Column held at near-stop.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B018",
+"speaker_id": "cyanis",
+"text": "Could be. Hold anyway.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 80, "staging": "Cyanis does not pretend certainty he does not have.", "camera": "Close enough to read the shift in his focus, not a heroic pose.", "movement": "Cyanis moves one step toward the roadward side of the civilians.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B019",
+"speaker_id": "convoy_superior_officer",
+"text": "Column, halt!",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 180, "staging": "The ranking officer gives the formal order; Cyanis does not usurp command.", "camera": "Widen as the order travels down the convoy.", "movement": "Convoy stops.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B020",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 300, "staging": "The halt has barely settled when the ambush begins. A projectile slams into a wagon rail from the ridge line; hidden Black Host positions open fire.", "camera": "Snap from the impact toward the concealed attack line; keep geography readable.", "movement": "Travelers duck and escorts move to shields/cover.", "interrupt": true, "implementation_flags": ["CINEMATIC_WORLD_BEAT", "AMBUSH_BEGINS"]}
+}, {
+"beat_id": "S001_B021",
+"speaker_id": "convoy_superior_officer",
+"text": "Black Host! Shields! Protect the recovery wagon!",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Immediate command under attack.", "camera": "Track the officer turning the center of the convoy toward defense.", "movement": "Escorts form around the recovery wagon.", "interrupt": true, "implementation_flags": ["IN_WORLD_DIALOGUE", "COMBAT_ESCALATION"]}
+}, {
+"beat_id": "S001_B022",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 420, "staging": "Black Host war-sorcery strikes the road between Cyanis and the convoy center. Debris and a damaged wagon break the direct path, separating his side from the main formation without involving any Card response.", "camera": "Show the separation in one readable wide shot before cutting back to Cyanis.", "movement": "Cyanis is forced toward the east shoulder with nearby civilians; the main convoy is cut off beyond the obstruction.", "interrupt": true, "implementation_flags": ["CINEMATIC_WORLD_BEAT", "SEPARATE_CYANIS_FROM_MAIN_CONVOY"]}
+}, {
+"beat_id": "S001_B023",
+"speaker_id": "convoy_superior_officer",
+"text": "Dovaren! East side! Get them behind cover!",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "The officer shouts across the obstruction; this remains a protection order, not the later pursuit order.", "camera": "Longer lens across the broken road, then cut to Cyanis.", "movement": "Officer remains with the main convoy.", "interrupt": true, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B024",
+"speaker_id": "cyanis",
+"text": "Stone line! Stay low. Move!",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Cyanis points civilians toward the nearest defensible roadside cover and checks that movement begins before turning away.", "camera": "Follow the indicated route briefly, preserving spatial clarity.", "movement": "Civilians move to cover; Cyanis remains between them and the attackers.", "interrupt": true, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B025",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 240, "staging": "Cyanis pulls a wounded escort clear of the exposed road, verifies the civilian movement, then rises as Iron Cohort soldiers advance through the broken wagon line.", "camera": "Low-to-medium action framing; prioritize readable threat direction over spectacle.", "movement": "Cyanis shifts into a defensive position on the east side.", "interrupt": false, "implementation_flags": ["CINEMATIC_WORLD_BEAT"]}
+}, {
+"beat_id": "S001_B026",
+"speaker_id": "convoy_superior_officer",
+"text": "They're through the wagons!",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Warning carries over the noise of the ambush.", "camera": "Brief threat insert: attackers closing Cyanis's side.", "movement": "Enemy advance continues.", "interrupt": true, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B027",
+"speaker_id": "cyanis",
+"text": "Then they stop here.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 160, "staging": "Plain statement, not a speech. Cyanis draws sword and brings his shield up.", "camera": "Settle behind/alongside Cyanis with the approaching enemies readable ahead.", "movement": "Cyanis takes the forward defensive position.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S001_B028",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 180, "staging": "End cinematic control cleanly on the established defensive line. Do not show the sealed Card reacting.", "camera": "Transition to the authored opening combat presentation without changing established positions.", "movement": "Cinematic movement ends; combat handoff begins.", "interrupt": false, "implementation_flags": ["CINEMATIC_WORLD_BEAT", "HANDOFF_TO_COMBAT", "COMMIT_S001_ONLY_AFTER_REQUIRED_GAMEPLAY_HANDOFF"]}
+}]
