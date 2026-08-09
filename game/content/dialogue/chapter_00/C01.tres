@@ -1,0 +1,376 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "C01"
+chapter_id = "chapter_00"
+scene_kind = "character_life"
+location_id = "LOC_BORDERLANDS_FIELD_TRIAGE_CAMP"
+trigger_id = "trigger.chapter_00.c01.after_s006"
+completion_flag = "scene.c01.complete"
+participants = Array[String](["cyanis", "ilyra"])
+authoring_notes = "Step 7C C01 provisional Character-Life draft on the Chapter 0 completion branch. Available after S006 and fully skippable. Purpose is early Cyanis/Ilyra playful irritation and ordinary reciprocal care through a mundane campfire disagreement. No essential plot delivery, Card/Prime information, quest solution, recruitment decision, romance progression, or combat/system mutation. No player dialogue choices."
+beats = [{
+"beat_id": "C01_B001",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 220, "staging": "Late evening after S006. A small practical campfire burns inside the safe edge of the Field Triage Camp. Most work has quieted. Ilyra sits on a low stone close to the fire with her damp gloves laid across her knees.", "camera": "Medium-wide two-person camp composition; no cinematic romance framing.", "movement": "Cyanis enters carrying a small bundle of split wood and notices Ilyra's distance from the flames.", "interrupt": false, "implementation_flags": ["C01_CHARACTER_LIFE_BEGIN", "OPTIONAL_SKIPPABLE_SCENE", "NO_ESSENTIAL_PLOT_DELIVERY"]}
+}, {
+"beat_id": "C01_B002",
+"speaker_id": "cyanis",
+"text": "You're too close to the fire.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Cyanis states this like a practical observation rather than an opening gambit.", "camera": "Keep both and fire visible.", "movement": "He sets the wood down.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "EARLY_PLAYFUL_IRRITATION"]}
+}, {
+"beat_id": "C01_B003",
+"speaker_id": "ilyra",
+"text": "I'm cold.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Plain answer. She does not move.", "camera": "Hold.", "movement": "Ilyra turns one glove over on her knee.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "C01_B004",
+"speaker_id": "cyanis",
+"text": "Those can both be true.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 55, "staging": "Dry correction without escalating.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_DRY_HUMOR"]}
+}, {
+"beat_id": "C01_B005",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 150, "staging": "Ilyra deliberately ignores him and extends her hands toward the heat.", "camera": "Small hand/fire insert, then back to two-shot.", "movement": "Cyanis looks from her hands to the low stone she is sitting on.", "interrupt": false, "implementation_flags": ["SILENT_REACTION_BEAT"]}
+}, {
+"beat_id": "C01_B006",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 100, "staging": "With the side of his boot, Cyanis nudges the low sitting stone a few inches farther from the fire while Ilyra is still seated on it.", "camera": "Keep the movement readable and small, not slapstick.", "movement": "Stone shifts back several inches.", "interrupt": false, "implementation_flags": ["ORDINARY_CARE_ACTION", "PLAYFUL_PHYSICAL_BEAT"]}
+}, {
+"beat_id": "C01_B007",
+"speaker_id": "ilyra",
+"text": "Did you just move my seat?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Ilyra looks down at the stone, then up at him.", "camera": "Two-shot.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "EARLY_PLAYFUL_IRRITATION"]}
+}, {
+"beat_id": "C01_B008",
+"speaker_id": "cyanis",
+"text": "No.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Completely unconvincing.", "camera": "Do not cut dramatically.", "movement": "Cyanis begins arranging the new wood beside the fire.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_PLAYFUL"]}
+}, {
+"beat_id": "C01_B009",
+"speaker_id": "ilyra",
+"text": "Cyanis.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "First-name correction; mildly irritated, not intimate emphasis.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "C01_B010",
+"speaker_id": "cyanis",
+"text": "The ground shifted.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "Cyanis continues the obviously false explanation while checking the firewood.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_PLAYFUL"]}
+}, {
+"beat_id": "C01_B011",
+"speaker_id": "ilyra",
+"text": "Under your boot.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Immediate factual correction.", "camera": "Hold.", "movement": "Ilyra glances pointedly at his boot.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_DRY_HUMOR"]}
+}, {
+"beat_id": "C01_B012",
+"speaker_id": "cyanis",
+"text": "Very localized ground.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 65, "staging": "He commits to the joke exactly one beat too long.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_PLAYFUL"]}
+}, {
+"beat_id": "C01_B013",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 110, "staging": "Without breaking eye contact, Ilyra plants both heels and drags the stone forward almost exactly to its original position.", "camera": "Keep action and Cyanis's reaction in frame.", "movement": "Seat returns forward.", "interrupt": false, "implementation_flags": ["PLAYFUL_PHYSICAL_BEAT"]}
+}, {
+"beat_id": "C01_B014",
+"speaker_id": "cyanis",
+"text": "You're doing that on purpose.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "He is aware of the hypocrisy of objecting.", "camera": "Two-shot.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "C01_B015",
+"speaker_id": "ilyra",
+"text": "Yes.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 90, "staging": "No embellishment.", "camera": "Hold the beat.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_PLAYFUL"]}
+}, {
+"beat_id": "C01_B016",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 160, "staging": "Cyanis gives up on the stone for the moment. He notices faint steam lifting from Ilyra's damp gloves.", "camera": "Brief glove insert.", "movement": "He crouches near the firewood rather than looming over her.", "interrupt": false, "implementation_flags": ["ORDINARY_CARE_OBSERVATION"]}
+}, {
+"beat_id": "C01_B017",
+"speaker_id": "cyanis",
+"text": "How long have those been wet?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Practical question about the gloves, not a health interrogation.", "camera": "Hold.", "movement": "Cyanis indicates the gloves.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ORDINARY_CARE"]}
+}, {
+"beat_id": "C01_B018",
+"speaker_id": "ilyra",
+"text": "Long enough to become unpleasant.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "She flexes cold fingers once.", "camera": "Keep casual scale.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "C01_B019",
+"speaker_id": "cyanis",
+"text": "Put them on the drying rack.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "He points to a simple branch rack set safely beside the fire.", "camera": "Include rack.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "C01_B020",
+"speaker_id": "ilyra",
+"text": "They won't be dry by morning.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Matter-of-fact objection.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "C01_B021",
+"speaker_id": "cyanis",
+"text": "They'll be drier than if they're on fire.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 50, "staging": "Practical absurdity stated seriously.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_DRY_HUMOR"]}
+}, {
+"beat_id": "C01_B022",
+"speaker_id": "ilyra",
+"text": "You have very strong opinions about fire.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Ilyra finally moves the gloves to the rack while making the complaint.", "camera": "Two-shot.", "movement": "Gloves placed on rack.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_PLAYFUL"]}
+}, {
+"beat_id": "C01_B023",
+"speaker_id": "cyanis",
+"text": "I've met it.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 70, "staging": "Dry answer. No war-story follow-up; the topic remains mundane.", "camera": "Hold.", "movement": "Cyanis reaches toward the edge of the fire with a stick to reposition one log.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "NO_LORE_EXPANSION"]}
+}, {
+"beat_id": "C01_B024",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 130, "staging": "Cyanis takes a small cloth-wrapped warming stone from the outer edge of the fire and tests it against his palm before offering it to Ilyra.", "camera": "Hands and object visible, still practical.", "movement": "He holds the wrapped stone out.", "interrupt": false, "implementation_flags": ["ORDINARY_CARE_ACTION"]}
+}, {
+"beat_id": "C01_B025",
+"speaker_id": "cyanis",
+"text": "Here.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "No speech about caring; the action carries it.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ORDINARY_CARE"]}
+}, {
+"beat_id": "C01_B026",
+"speaker_id": "ilyra",
+"text": "If this burns me, I will be difficult about it.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "She accepts the stone despite the warning.", "camera": "Hold.", "movement": "Ilyra takes the wrapped stone in both hands.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_DRY_HUMOR"]}
+}, {
+"beat_id": "C01_B027",
+"speaker_id": "cyanis",
+"text": "You've been difficult without the burn.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "The teasing is light and earned by the seat argument, not romantic escalation.", "camera": "Two-shot.", "movement": "Cyanis sits on another stone at a safer distance.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_PLAYFUL"]}
+}, {
+"beat_id": "C01_B028",
+"speaker_id": "ilyra",
+"text": "You moved my chair while I was sitting in it.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "She refuses his framing on factual grounds.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "C01_B029",
+"speaker_id": "cyanis",
+"text": "Stone.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Unhelpful correction.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "C01_B030",
+"speaker_id": "ilyra",
+"text": "That is the part you object to?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 70, "staging": "Ilyra looks at him over the warming stone.", "camera": "Hold long enough for the exchange to land.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "EARLY_PLAYFUL_IRRITATION"]}
+}, {
+"beat_id": "C01_B031",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 180, "staging": "A quiet beat. Then Ilyra's attention shifts past Cyanis to one of his gloves, which he left much too close to the fire while arranging wood.", "camera": "Reveal the glove edge beginning to smoke.", "movement": "Ilyra straightens slightly.", "interrupt": false, "implementation_flags": ["COMEDIC_REVERSAL_SETUP"]}
+}, {
+"beat_id": "C01_B032",
+"speaker_id": "ilyra",
+"text": "Your glove is smoking.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 15, "staging": "Perfectly calm medical-style observation.", "camera": "Quick readable insert on glove.", "movement": "Ilyra points with one finger.", "interrupt": true, "implementation_flags": ["IN_WORLD_DIALOGUE", "ORDINARY_RECIPROCAL_CARE"]}
+}, {
+"beat_id": "C01_B033",
+"speaker_id": "cyanis",
+"text": "What?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 10, "staging": "Cyanis turns, sees it, and immediately snatches the glove away from the heat.", "camera": "Keep action readable rather than exaggerated.", "movement": "He smothers the tiny ember against the dirt.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "COMEDIC_REVERSAL"]}
+}, {
+"beat_id": "C01_B034",
+"speaker_id": "ilyra",
+"text": "You were saying?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "No smile is required; a tiny one is permitted.", "camera": "Two-shot with damaged glove visible.", "movement": "Ilyra settles back with the warming stone.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_PLAYFUL"]}
+}, {
+"beat_id": "C01_B035",
+"speaker_id": "cyanis",
+"text": "This proves nothing.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Cyanis examines the singed glove with wounded dignity.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_PLAYFUL"]}
+}, {
+"beat_id": "C01_B036",
+"speaker_id": "ilyra",
+"text": "It proves something.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 55, "staging": "She does not explain further.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "C01_B037",
+"speaker_id": "cyanis",
+"text": "I preferred you when you were busy.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "Obviously false complaint; he is relaxed enough to tease.", "camera": "Shared fire composition.", "movement": "He puts the glove on the drying rack beside hers.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_RELAXED_PLAYFULNESS"]}
+}, {
+"beat_id": "C01_B038",
+"speaker_id": "ilyra",
+"text": "No, you didn't.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 55, "staging": "Confident, lightly amused answer based only on the evening they have just shared.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "EARLY_QUIET_FAMILIARITY"]}
+}, {
+"beat_id": "C01_B039",
+"speaker_id": "cyanis",
+"text": "No.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 130, "staging": "Simple admission. Do not romanticize it; it is early ease after a terrible day.", "camera": "Medium-wide campfire composition.", "movement": "Cyanis settles back on his own stone.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "EARLY_QUIET_FAMILIARITY"]}
+}, {
+"beat_id": "C01_B040",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 260, "staging": "They sit quietly for a short time. Ilyra keeps the warming stone. Both gloves now dry at the safe rack distance. Nothing important is discussed and no new story fact is revealed.", "camera": "Wide optional-scene closing shot; camp continues quietly in background.", "movement": "No dramatic gesture. End on ordinary shared stillness.", "interrupt": false, "implementation_flags": ["C01_CHARACTER_LIFE_END", "ORDINARY_CARE", "NO_ESSENTIAL_PLOT_DELIVERY", "NO_ROMANCE_PROGRESSION", "NO_CARD_OR_PRIME_INFORMATION", "HANDOFF_C02_REMAINS_AVAILABLE"]}
+}]
