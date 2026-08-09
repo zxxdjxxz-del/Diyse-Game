@@ -1,6 +1,6 @@
 # Step 7B.6 — Production Handoff Lock
 
-**Status:** IMPLEMENTED; pending CI acceptance on this branch  
+**Status:** COMPLETE / PASS  
 **Parent authority:** v1.34 / Audit46  
 **Starting `main` commit:** `ae3bcf120cfb6d956f5159519025734f1eb26912`  
 **Step 7C:** ON HOLD until explicit user authorization
@@ -36,9 +36,9 @@ The beat signal allows later camera/staging/movement systems to consume authored
 
 `PROOF_SCHEMA` exists only to prove the production interface. Its dialogue, portrait assets and cue values are disposable and are not S001, Character-Life content or any other canon scene.
 
-## Acceptance criteria
+## Accepted validation
 
-7B.6 is complete when CI proves:
+CI proved:
 
 - the Resource schema and registry load;
 - valid stable IDs adapt into existing runner beats;
@@ -46,12 +46,12 @@ The beat signal allows later camera/staging/movement systems to consume authored
 - portrait IDs resolve through registry indirection;
 - forbidden player-choice keys are rejected;
 - duplicate beat IDs and unknown expressions are rejected;
-- a valid Resource actually runs through the accepted `DialogueRunner` UI lifecycle;
+- a valid Resource runs through the accepted `DialogueRunner` UI lifecycle from start through completion;
 - every existing exploration/dialogue/combat/Card/Prime/save regression remains green;
-- Android export remains green.
+- Android debug APK export remains green.
 
-No separate phone acceptance is required because 7B.6 does not change touch controls, layout, rendering, persistence behavior or platform lifecycle. Android CI is retained as a packaging regression check.
+No separate phone acceptance was required because 7B.6 does not change touch controls, layout, rendering, persistence behavior or platform lifecycle. Android CI remained a packaging regression check.
 
 ## Production boundary after acceptance
 
-After 7B.6 passes, no technical or authoring-format prerequisite remains before Step 7C. Full scene writing nevertheless remains procedurally locked until the user explicitly authorizes Step 7C.
+No technical-feasibility or dialogue-authoring-format prerequisite remains before Step 7C. Full scene writing nevertheless remains procedurally locked until the user explicitly authorizes Step 7C.
