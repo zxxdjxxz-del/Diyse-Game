@@ -45,6 +45,9 @@ jobs:
       - name: Run Step 7C S002 Wreck Field validation
         run: godot --headless --path . --script tests/dialogue/validate_s002.gd
 
+      - name: Run Step 7C S003 Evacuation Relay decision validation
+        run: godot --headless --path . --script tests/dialogue/validate_s003.gd
+
       - name: Capture rendered field proof
         run: godot --path . --script tests/visual/capture_field_proof.gd
 
