@@ -12,4 +12,12 @@ entries = [{
 "character_id": "convoy_superior_officer",
 "display_name": "Convoy Officer",
 "portraits": {}
+}, {
+"character_id": "wounded_convoy_escort",
+"display_name": "Wounded Escort",
+"portraits": {}
+}, {
+"character_id": "civilian_traveler",
+"display_name": "Civilian Traveler",
+"portraits": {}
 }]
