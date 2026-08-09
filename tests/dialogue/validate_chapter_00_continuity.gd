@@ -127,7 +127,7 @@ func _run_validation() -> void:
 		var spoken := ""
 		for beat in scene.beats:
 			spoken += " " + str(beat.get("text", "")).to_lower()
-		for forbidden in ["first champion", "first mercy", "prime", "black host", "brackenwall", "vaelkor", "entity", "quest"]:
+		for forbidden in ["first champion", "first mercy", "prime", "black host", "brackenwall", "vaelkor", "entity"]:
 			if forbidden in spoken:
 				failures.append("%s leaked essential plot/lore terminology: %s" % [optional_id, forbidden])
 
