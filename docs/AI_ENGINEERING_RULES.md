@@ -21,7 +21,7 @@ Step 7B.5 technical feasibility is **COMPLETE / PASS**. The accepted 7B.5 tests 
 
 Step 7B.6 production handoff is **COMPLETE / PASS**. Production dialogue must use the accepted stable-ID Resource contract and portrait-registry indirection rather than embedding final scene text/assets into generic UI code.
 
-Step 7C full Dialogue-First Scene Writing remains **ON HOLD until explicit user authorization**. Completion of prerequisites is not authorization to begin canon scene scripting.
+Step 7C Dialogue-First Scene Writing is **ACTIVE / AUTHORIZED as of August 8, 2026**. Begin with Chapter 0 S001–S006, then C01 and C02 unless the user explicitly changes the order. Authorization opens scene writing but does not pre-approve draft wording or permit silent canon changes.
 
 ## No invention policy
 
@@ -60,6 +60,8 @@ For each task:
 - add or update tests for deterministic logic;
 - report temporary shortcuts explicitly;
 - distinguish production content from test fixtures.
+
+For Step 7C, keep each scene draft bounded. A draft becomes approved production dialogue only after canon/voice review and structural validation.
 
 ## Architecture direction
 
