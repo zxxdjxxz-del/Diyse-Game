@@ -10,7 +10,7 @@ Authority baseline: v1.35 / Audit47 until the chapter-level authority checkpoint
 - [x] S005 — Confrontation — user approved August 8, 2026
 
 ## Pending
-- [ ] S006 — Aftermath
+- [ ] S006 — Aftermath — drafting
 - [ ] C01 — Fire Is Too Close
 - [ ] C02 — Food After Triage
 - [ ] Whole-Chapter-0 continuity / repetition / voice / runtime pass
