@@ -12,7 +12,7 @@ location_id = "LOC_BORDERLANDS_FIELD_TRIAGE_CAMP"
 trigger_id = "trigger.chapter_00.c02.after_s006"
 completion_flag = "scene.c02.complete"
 participants = Array[String](["cyanis", "ilyra"])
-authoring_notes = "Step 7C C02 provisional Character-Life draft on the Chapter 0 completion branch. Available after S006 and fully skippable. Purpose is mutual self-neglect, food, and Cyanis/Ilyra's first quiet ease together. No essential plot delivery, Card/Prime information, quest solution, romance progression, recruitment decision, combat/system mutation, or player dialogue choices."
+authoring_notes = "Step 7C C02 approved Character-Life scene on the Chapter 0 completion branch. Available after S006 and fully skippable. Purpose is mutual self-neglect, food, and Cyanis/Ilyra's first quiet ease together. No essential plot delivery, Card/Prime information, quest solution, romance progression, recruitment decision, combat/system mutation, or player dialogue choices."
 beats = [{
 "beat_id": "C02_B001",
 "speaker_id": "",
@@ -403,7 +403,7 @@ beats = [{
 }, {
 "beat_id": "C02_B044",
 "speaker_id": "cyanis",
-"text": "You have very strong opinions about ownership tonight.",
+"text": "You care a lot about half a loaf.",
 "left": {},
 "right": {},
 "active_side": "left",
