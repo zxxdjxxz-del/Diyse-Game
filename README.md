@@ -16,7 +16,7 @@ This repository is the active implementation line. The older `zxxdjxxz-del/Diyse
 
 **Step 7B.6 is COMPLETE and PASSED.** Production dialogue now has a stable-ID Resource contract, portrait-registry indirection, schema validation, a generic Resource-to-DialogueRunner adapter, and a Step 7C authoring template. The accepted 7B.6 implementation merge is `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.
 
-**Step 7C remains ON HOLD.** Do not begin full Dialogue-First Scene Writing until the user explicitly authorizes it.
+**Step 7C is ACTIVE / AUTHORIZED as of August 8, 2026.** Dialogue-First Scene Writing begins chronologically with Chapter 0 S001–S006, then C01 and C02 unless the user changes the order. Individual scene drafts remain subject to canon/voice review and schema validation before they are treated as approved production dialogue.
 
 The accepted pre-documentation 7B.5 gameplay baseline is commit `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`. Later documentation/authority commits propagate current status and do not by themselves redefine accepted gameplay behavior.
 
