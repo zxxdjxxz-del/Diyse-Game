@@ -1,198 +1,178 @@
 # Step 7B.5 — Technical Feasibility & Vertical Slice Proof
 
-## Purpose
+## Status
 
-Prove that the intended Diyse architecture can grow into the full game **before** full Step 7C dialogue-first scene writing begins.
+**COMPLETE — PASS on real Android hardware.**
 
-This is not a content demo. Placeholder assets and temporary data are acceptable. The architecture, transitions, rules, and Android behavior are what matter.
+Step 7B.5 has finished. Its purpose was to prove that the intended Diyse architecture can grow into the full game before full Step 7C dialogue-first scene writing begins. Every major gate below passed automated validation and real-device acceptance.
 
-## Gate A — 2.5D exploration proof
+This document is now an implementation acceptance record, not an open prototype checklist. See the v1.34 Clean Active Master, Active Technical Annex v1.34, and the Step 7B.5 Technical Feasibility & Android Proof Report v1.0 for controlling authority and the proof/non-canon distinction.
 
-Build one small graybox area containing:
+**Accepted pre-documentation gameplay baseline:** `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`
 
-- real 3D ground/architecture;
-- real depth and elevation;
-- at least one occluder that can pass in front of the character;
-- a stylized 2D/2.5D Cyanis placeholder that occupies the 3D world convincingly;
+## 7B.5A — clean 2.5D exploration baseline — PASS
+
+Proven:
+
+- clean Godot/GDScript implementation independent of the old prototype;
+- real 3D ground/space, lighting and depth;
+- world-space stylized 2D/2.5D character representation;
+- camera and collision;
+- obstacle/depth presentation;
+- reusable field architecture.
+
+The graybox field and placeholder character art are non-canon fixtures.
+
+## 7B.5B — touch + Android field proof — PASS
+
+Proven on Android:
+
+- landscape launch;
+- touch movement including diagonals;
+- shared desktop/mobile movement path;
 - collision;
-- camera behavior suitable for the chosen 2.5D presentation;
-- keyboard/gamepad-friendly desktop controls for development;
-- touch movement/interaction controls for Android;
-- one NPC;
-- one interactable object;
-- one area/room transition;
-- at least one basic ambient effect.
+- map-edge containment;
+- camera behavior;
+- readable proof controls;
+- repeatable ARM64 debug APK export/install/run.
 
-### Gate A passes when
+The temporary D-pad/button presentation is not final UI authority.
 
-- movement, depth, occlusion, floor contact, camera readability, and touch control all work coherently;
-- the character does not visibly float, clip, or sort incorrectly in ordinary traversal;
-- the prototype demonstrates a credible path to final 2.5D presentation rather than relying on an unrelated fallback technique;
-- the same area runs acceptably on an Android device.
+## 7B.5C — authored dialogue presentation — PASS
 
-## Gate B — authored dialogue presentation proof
+Proven:
 
-Implement one disposable authored conversation with no player response choices.
-
-It must prove:
-
-- speaker name and dialogue text;
-- illustrated portrait display;
-- multiple expression states for at least two speakers;
-- left/right or otherwise clearly staged speaker presentation;
-- manual advance;
-- configurable text speed;
-- authored pauses/timing hooks;
-- portrait-only reaction beats with no spoken line;
-- an interruption or expression change inside the exchange;
-- clean return to exploration control;
-- ability to trigger from world state rather than hard-coded scene startup.
-
-### Gate B passes when
-
-- the system supports authored cinematic dialogue without requiring branching response architecture;
-- portrait/expression timing does not require emotional information to be redundantly written into text;
-- the system can be driven by data or authored scene records rather than bespoke UI code for each conversation.
-
-## Gate C — real Diyse combat architecture proof
-
-Use a placeholder encounter with four party members and multiple enemies.
-
-Required commands:
-
-- Attack
-- Ability
-- Card
-- Item
-- Defend
-
-Required rules:
-
-1. Beginning-of-round effects/state checks resolve.
-2. Enemies lock one legal action each from the legitimate beginning-of-round state without inspecting unconfirmed player commands.
-3. The player selects one action for every conscious active party member before confirmation.
-4. Item actions resolve first, ordered by current effective Speed.
-5. Defend actions resolve second, ordered by current effective Speed.
-6. All remaining party/enemy actions resolve from highest to lowest current effective Speed.
-7. Party members win exact Speed ties against enemies.
-8. Tied party members use player-selected order.
-9. Tied enemies/entities use stable deterministic order.
-10. Speed determines order only and never grants an extra ordinary action.
-
-Also prove:
-
-- HP;
-- MP;
-- KO;
-- targeting;
-- at least one status effect;
-- victory and defeat;
-- encounter rewards;
+- world/proximity-triggered conversation;
+- speaker and text presentation;
+- portrait/expression switching;
+- left/right speaker staging;
+- authored manual progression;
+- silent visual reaction beat with no spoken line;
+- movement/input lock while dialogue owns control;
+- no player dialogue choices;
 - clean return to exploration.
 
-### Gate C passes when
+The proof Cyanis/Torren lines and placeholder portraits are disposable and non-canon.
 
-The resolver follows the actual round architecture and is not secretly implemented as a timeline/ATB system with round-like presentation.
+## 7B.5D — real Diyse round combat foundation — PASS
 
-## Standard Card proof
+Proven with four active party members and multiple enemies:
 
-Implement exactly one placeholder Standard Card sufficient to prove:
+- Attack / Ability / Item / Defend command paths before Card integration;
+- enemy action locking before player confirmation;
+- one selected action for each conscious active party member before round confirmation;
+- Item priority first;
+- Defend priority second;
+- remaining actions by current effective Speed;
+- party-over-enemy exact Speed ties;
+- player-selected tied-party order;
+- stable deterministic tied-enemy order;
+- HP, MP, targeting and KO;
+- victory/rewards proof flow;
+- clean return to exploration.
 
-- Card command/menu integration;
-- legal targeting/effect execution;
-- unlimited-use architecture;
-- compatibility with the ordinary round resolver;
-- no charge, Essence, rank, or per-battle use-counter architecture.
+Proof enemies/stats and temporary rewards are non-canon.
 
-Do not implement all 24 Standard Cards during 7B.5.
+## 7B.5E — Standard Card + automatic hostile retargeting — PASS
 
-## Prime proof
+Proven:
 
-Implement one placeholder Prime manifestation sufficient to prove:
+- Card becomes the fifth permanent command, yielding Attack / Ability / Card / Item / Defend;
+- Standard Card definitions can be data-driven;
+- Standard Cards use the ordinary Speed-ordered resolver;
+- unlimited reuse works without charges, Essence, ranks, refresh counters or use counters;
+- hostile actions automatically retarget when their original enemy target was defeated earlier in the same round.
 
-- Prime activation path;
-- manifestation entry;
-- direct player control of Prime actions where required by current Prime rules;
-- separate Prime action presentation;
-- legal exit/cleanup;
-- correct return to the ordinary battle state.
+### Accepted retarget rule
 
-Do not implement final First Champion content/art during 7B.5.
+If a queued player hostile action's original enemy target is defeated before that action resolves:
 
-## Save/load proof
+1. Seek the next living enemy in encounter-slot order after the original target.
+2. If no later slot is living, wrap to the first living enemy.
+3. Change only the target. Do not change actor, action identity, cost, priority tier or Speed.
+4. Apply the behavior to Attack, hostile/damaging Abilities, hostile Standard Cards, and equivalent directly controlled Prime hostile commands unless an authored effect explicitly overrides targeting.
+5. Expose the retarget in combat presentation/logging.
 
-Persist and restore at least:
+`Proof Strike` is a non-canon placeholder Card identity.
 
-- current area;
-- Cyanis/player position or an authored safe resume point;
-- party state;
-- character stats needed by the proof;
-- inventory proof data;
-- Card proof data;
-- one equipment placeholder;
-- one story/quest flag;
-- one opened/changed interactable;
-- one NPC state change.
+## 7B.5F — direct-control Prime Manifestation — PASS
 
-Close the application completely, reload the save, and verify persistence.
+Recovered First Champion was used as the representative proof because it is Cyanis's current story Prime.
 
-## Android gate
+Proven:
 
-A desktop run is not enough.
+- bearer lock;
+- Prime selection through the bearer Card action;
+- use is spent on successful manifestation rather than merely opening/queueing the option;
+- activation resolves within the ordinary round and establishes the approved pending state;
+- already locked ordinary actions finish before party replacement;
+- active party suspension occurs at the correct end-of-round boundary;
+- Prime becomes the directly controlled active player combatant;
+- enemies target the Prime while the party is suspended;
+- only the Prime's printed command set is presented, not universal party commands;
+- one selected Prime command per Prime round;
+- Recovered duration of two Prime action rounds;
+- frozen party HP/MP state during suspension;
+- normal Prime exit and party restoration;
+- same-battle use consumption.
 
-The proof must eventually produce an installable Android build and validate:
+Temporary flat damage used by the proof is non-canon. The production Prime formulas/effects remain controlled by the active technical authority.
 
-- landscape layout;
-- touch controls;
-- text readability;
-- portrait readability;
-- battle command sizing;
-- menu navigation;
-- exploration/dialogue/combat transitions;
-- save/load;
-- suspend/resume behavior where feasible;
-- load time;
-- frame pacing/performance on a real device.
+## 7B.5G — versioned save/load persistence — PASS
 
-## Explicitly out of scope for 7B.5
+Proven:
 
-Do not build the whole game.
+- persistent game/session state is separate from scene nodes;
+- versioned plain-data JSON serialization under Godot `user://`;
+- representative area and Cyanis position persistence;
+- representative party HP/MP records;
+- inventory;
+- Standard Card acquisition;
+- Prime ownership/progression baseline;
+- equipment placeholders;
+- story/world/NPC/interactable flags;
+- XP/gold proof data;
+- immediate LOAD restoration in the running app;
+- full Android app close/relaunch followed by disk LOAD restoration;
+- safe handling of missing saves;
+- safe handling of malformed JSON;
+- safe rejection of unsupported future schema versions.
 
-Not required yet:
+Mid-round combat/active-Prime serialization was explicitly out of scope and is not implied as a current requirement.
 
-- final Chapter 0 content;
-- all six final playable implementations;
-- finished maps;
-- final art/portraits/animation;
-- all 24 Standard Cards;
-- all 12 Primes;
-- all classes/Abilities/equipment;
-- final enemy catalog;
-- final UI;
-- final audio;
-- full script;
-- final cinematics.
+## Regression baseline
 
-## Final 7B.5 acceptance flow
+The automated tests accumulated through 7B.5 are now the accepted implementation regression baseline. Future production work should extend the architecture while keeping these tests green unless a newer approved authority intentionally changes the tested behavior.
 
-The technical proof is considered successful only when a user can:
+## Explicit non-canon proof fixtures
 
-1. launch the Android build;
-2. load or start the proof state;
-3. move Cyanis through the 2.5D area;
-4. encounter ambient/world interaction;
-5. enter an authored portrait conversation;
-6. return to exploration;
-7. enter a four-character round-based battle;
-8. use an Ability;
-9. use the Standard Card proof;
-10. invoke the Prime proof;
-11. win;
-12. return to exploration;
-13. change persistent world state;
-14. save;
-15. close the game;
-16. reopen and reload;
-17. verify the saved state remains correct.
+Passing the technical proof does not canonize:
 
-Passing 7B.5 means the architecture is credible enough to resume full narrative production and expand the game deliberately.
+- graybox field geometry and temporary obstacle/chest presentation;
+- placeholder Cyanis/Torren world sprites or portraits;
+- disposable technical-proof dialogue;
+- Raider proof enemies and temporary stats;
+- `Proof Strike`;
+- temporary flat damage values;
+- temporary 30 XP / 42 gold combat rewards or proof chest XP/gold;
+- temporary debug/button UI.
+
+## Remaining normal production scope
+
+Not required to pass 7B.5 and still to be built/polished as production proceeds:
+
+- final maps, character/world art, animation and complete portrait sets;
+- final UI/audio/cinematics and performance optimization;
+- full production combat formulas/content data;
+- all authored Abilities/equipment/enemies/encounters;
+- all 24 Standard Cards and all 12 Prime implementations;
+- complete Chapter 0–12 content and Character-Life scenes;
+- broader Android device/performance/lifecycle stress testing;
+- release signing/build hardening/store packaging;
+- mid-combat save serialization only if later required.
+
+## Production handoff
+
+Step 7B.5 no longer blocks production on feasibility grounds. The dialogue study is also complete.
+
+**Step 7C remains procedurally ON HOLD until the user explicitly authorizes full Dialogue-First Scene Writing.** A technical PASS does not itself constitute that authorization.
