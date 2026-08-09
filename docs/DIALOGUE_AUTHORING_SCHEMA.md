@@ -2,9 +2,9 @@
 
 **Schema version:** 1  
 **Established by:** Step 7B.6 Production Handoff Lock  
-**Step 7C status:** ON HOLD until explicit user authorization
+**Step 7C status:** ACTIVE / AUTHORIZED August 8, 2026
 
-This document defines how future authored dialogue is represented for the Godot production line. It does not authorize or contain Step 7C canon scene writing.
+This document defines how authored Step 7C dialogue is represented for the Godot production line.
 
 ## Core rule
 
@@ -181,4 +181,4 @@ Before a scene is implementation-ready it must pass schema validation for:
 - valid cue dictionary;
 - absence of player-choice/branch fields.
 
-Schema validation proves structural correctness only. Canon, voice, pacing and dramatic quality remain governed by the Clean Active Master and Dialogue Development Annex.
+Schema validation proves structural correctness only. Canon, voice, pacing and dramatic quality remain governed by the Clean Active Master and Dialogue Development Annex. Step 7C authorization opens production authoring; it does not turn an unreviewed draft into approved canon.
