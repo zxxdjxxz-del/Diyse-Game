@@ -19,19 +19,25 @@ Cyanis and the rest of the cast use authored dialogue.
 
 ## Current production state
 
-Full Step 7C dialogue-first scene writing is not the purpose of Step 7B.5. The technical proof should use disposable authored lines only.
+The dialogue study is **COMPLETE**. Diyse Active Dialogue Development Annex v1.1 is the finished craft basis for production dialogue unless the user explicitly revises it.
 
-The dialogue system must prove that final authored scenes can later support:
+Step 7B.5C has also **PASSED on Android** and proved that the generic dialogue architecture can support:
 
-- speaker names;
+- speaker names and authored text;
 - portrait/expression changes;
-- pauses and timing hooks;
-- silent reaction beats;
-- interruptions;
-- character entry/exit staging hooks where needed;
-- return to exploration without awkward state loss;
-- triggering from story/world state;
-- optional dialogue that does not require gameplay reward.
+- staged speaker presentation;
+- manual authored progression;
+- silent reaction beats with no spoken line;
+- movement/input lock during conversation;
+- world/proximity triggering;
+- clean return to exploration;
+- authored conversations without response-menu architecture.
+
+The technical-proof Cyanis/Torren dialogue and placeholder portraits were disposable fixtures and are not script or visual canon.
+
+**Step 7C — Dialogue-First Scene Writing remains ON HOLD until explicit user authorization.** Do not infer authorization from completion of the study or technical proof.
+
+When Step 7C is explicitly authorized, the standing production order begins with Chapter 0 S001–S006, then C01 and C02, unless the user changes the order.
 
 ## Writing/presentation philosophy
 
@@ -60,9 +66,14 @@ Engineering should not force every line into the same cinematic presentation. Th
 - Dialogue data should not require romance meters, affinity values, or alignment scores.
 - Conversation progression may depend on ordinary story/world flags when canon requires it, but not on player-selected personality responses.
 - The UI must remain readable on Android in landscape orientation.
+- Generic dialogue code must remain character-agnostic; authored records decide what a character says and how a scene is staged.
 
 ## Character-sheet protection
 
-The final script must obey protected character voice/relationship authorities. Engineering should therefore avoid baking character-specific assumptions into generic dialogue UI code.
+The final script must obey protected character voice/relationship authorities and the completed Dialogue Development Annex v1.1. Engineering must not bake character-specific assumptions into generic dialogue UI code.
 
-The dialogue runner should present authored data; it should not decide what Cyanis, Ilyra, Torren, Nimera, Vaelira, Seyrik, or any NPC would say.
+The dialogue runner presents authored data; it does not decide what Cyanis, Ilyra, Torren, Nimera, Vaelira, Seyrik, or any NPC would say.
+
+## Step 7C boundary
+
+When authorized, Step 7C may add exact voiced dialogue, staging, portrait/performance notes, camera intent, contextual line banks, interruptions, pauses and implementation flags. It may not silently reopen story outcomes, class architecture, combat rules, Card/Prime identities, relationship canon, Vaelkor/fragment authority or final-act hard locks.

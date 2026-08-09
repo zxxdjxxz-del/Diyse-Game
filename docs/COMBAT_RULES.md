@@ -1,6 +1,8 @@
 # Diyse — Combat Engineering Rules
 
-This is the implementation-facing combat baseline for Step 7B.5. It does not replace the full combat authority.
+This is the implementation-facing combat baseline aligned with Clean Active Master v1.34 and Active Technical Annex v1.34. It does not replace the full combat authority.
+
+**Step 7B.5 combat, Standard Card, retarget and Prime gates are COMPLETE / PASS on Android.** The rules below are now accepted regression behavior rather than provisional proof targets.
 
 ## Core round structure
 
@@ -23,14 +25,16 @@ Speed determines order only. Speed never grants extra ordinary actions.
 
 ## Automatic hostile retargeting
 
-If a queued party hostile action targets an enemy that is defeated before that action resolves in the same round, the action is not wasted.
+If a queued player hostile action targets an enemy that is defeated before that action resolves in the same round, the action is not wasted.
 
 - Retarget to the next living enemy in encounter-slot order after the original target.
 - If no later slot is living, wrap to the first living enemy.
 - If no enemies remain living, there is no legal target and the battle should already resolve victory as appropriate.
-- This rule applies to Attack, damaging Abilities, hostile Standard Cards, and equivalent directly controlled Prime hostile commands unless an authored effect explicitly establishes different targeting behavior.
+- This rule applies to Attack, hostile/damaging Abilities, hostile Standard Cards, and equivalent directly controlled Prime hostile commands unless an authored effect explicitly establishes different targeting behavior.
 - Retargeting changes only the target; it does not change the action, cost, priority tier, Speed, or actor.
 - The presentation/combat log should expose the retarget so the player can understand what happened.
+
+This rule was explicitly accepted during 7B.5E and is current combat authority.
 
 ## Permanent command list
 
@@ -54,7 +58,7 @@ Reserve members do not participate mid-battle and cannot be swapped in through a
 
 - MP is the universal ordinary Ability resource.
 - Do not create character-specific combat gauges/resources.
-- The proof may use temporary Ability records, but the engine must not hard-code them into character scripts.
+- Content records must remain separable from actor engine code wherever practical.
 
 ## Standard Card guardrails
 
@@ -63,10 +67,13 @@ Current collection architecture is 24 Standard Cards + 12 Prime Cards.
 - Standard Cards are unlimited-use and have no per-battle charges, Essence, ranks, refresh counters, or use counters.
 - Standard Cards never summon or create independent entities.
 - Card content must remain data-driven.
+- Standard Cards integrate into the ordinary resolver rather than using a separate timing game.
+
+`Proof Strike` was used only to validate the architecture and is not a canonical Standard Card identity.
 
 ## Prime Card / Prime Manifestation framework
 
-Current Section 88 authority controls Prime behavior.
+Current Prime authority controls Prime behavior.
 
 - Every collectible Prime Card summons one directly controlled Prime Manifestation.
 - A Prime is not a one-shot attack, heal, buff, cinematic-only effect, or ordinary summon.
@@ -86,15 +93,17 @@ Current Section 88 authority controls Prime behavior.
 - Prime defeat/Banishment is not a normal return and uses the current Resonance Backlash rules.
 - Prime Manifestations and ordinary summons are separate systems. Never infer ordinary-summon AI or recovery rules from Prime direct control.
 
-### 7B.5F proof scope
+### Accepted 7B.5F validation
 
-Recovered First Champion is the proof Prime because it is the current Might story Prime borne by Cyanis. The proof exposes its first three current commands: Champion Edge, Shieldbreak Arc, and Stand Between. Current production Power formulas are not yet implemented in the slice, so temporary flat proof damage may stand in for output while command identity, targeting, activation timing, suspension, duration, control and return semantics remain exact.
+Recovered First Champion was the representative Prime because it is the current Might story Prime borne by Cyanis. The proof successfully validated bearer locking, activation timing, pending state, party suspension, direct control, Prime-only commands, hostile targeting of the Prime, finite duration, normal return and same-battle use consumption.
+
+The temporary flat damage values used in that proof are not canon. Production Power/Defense/Spirit and authored command effects remain controlled by the active technical authority.
 
 ## Determinism and testing
 
-Pure round resolution should be testable without relying on animation timing.
+Pure round resolution must remain testable without relying on animation timing.
 
-At minimum, tests should cover:
+The accepted regression baseline covers at minimum:
 
 - Item priority over faster ordinary actions;
 - Defend priority after Items;
@@ -105,11 +114,12 @@ At minimum, tests should cover:
 - enemy action locking before player confirmation;
 - one ordinary selected action maximum per legal unit per round unless a separately legal effect explicitly changes that outcome;
 - queued hostile party actions automatically retargeting from a defeated enemy to the next living enemy, including wraparound;
+- unlimited Standard Card reuse without obsolete use-state mechanics;
 - Prime bearer locking and one-use spend timing;
 - activation-round completion before suspension;
-- Prime HP/Speed snapshot at entry;
+- Prime HP/Speed snapshot at entry where applicable;
 - one directly selected Prime command per Prime round;
 - frozen party state during replacement;
 - correct duration and normal return.
 
-Presentation and animation should consume resolver/state results rather than define combat legality.
+Presentation and animation should consume resolver/state results rather than define combat legality. Future production changes must keep these tests green unless a newer approved authority deliberately changes the rule under test.
