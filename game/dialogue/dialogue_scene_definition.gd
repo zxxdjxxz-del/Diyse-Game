@@ -33,10 +33,6 @@ func validate_schema(registry: DiyseDialoguePortraitRegistry = null) -> Array[St
 	if beats.is_empty():
 		failures.append("At least one beat is required")
 
-	for forbidden in FORBIDDEN_BRANCH_KEYS:
-		if get(forbidden) != null:
-			failures.append("Dialogue-choice field is forbidden: %s" % forbidden)
-
 	var seen_beats: Dictionary = {}
 	for i in range(beats.size()):
 		var beat: Dictionary = beats[i]
@@ -73,8 +69,12 @@ func validate_schema(registry: DiyseDialoguePortraitRegistry = null) -> Array[St
 func to_runner_beats(registry: DiyseDialoguePortraitRegistry) -> Array[Dictionary]:
 	var result: Array[Dictionary] = []
 	for beat in beats:
-		var left: Dictionary = beat.get("left", {}) if beat.get("left", {}) is Dictionary else {}
-		var right: Dictionary = beat.get("right", {}) if beat.get("right", {}) is Dictionary else {}
+		var left_value = beat.get("left", {})
+		var right_value = beat.get("right", {})
+		var cues_value = beat.get("cues", {})
+		var left: Dictionary = left_value if left_value is Dictionary else {}
+		var right: Dictionary = right_value if right_value is Dictionary else {}
+		var cues: Dictionary = cues_value if cues_value is Dictionary else {}
 		var speaker_id := str(beat.get("speaker_id", ""))
 		result.append({
 			"scene_id": scene_id,
@@ -86,7 +86,7 @@ func to_runner_beats(registry: DiyseDialoguePortraitRegistry) -> Array[Dictionar
 			"right_portrait": registry.resolve_portrait(str(right.get("character_id", "")), str(right.get("expression_id", ""))) if registry != null else "",
 			"active_side": str(beat.get("active_side", "none")),
 			"advance_mode": str(beat.get("advance_mode", "manual")),
-			"cues": (beat.get("cues", {}) as Dictionary).duplicate(true) if beat.get("cues", {}) is Dictionary else {}
+			"cues": cues.duplicate(true)
 		})
 	return result
 
