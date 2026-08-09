@@ -51,6 +51,21 @@ jobs:
       - name: Run Step 7C S004 Field Triage Camp revelation validation
         run: godot --headless --path . --script tests/dialogue/validate_s004.gd
 
+      - name: Run Step 7C S005 confrontation validation
+        run: godot --headless --path . --script tests/dialogue/validate_s005.gd
+
+      - name: Run Step 7C S006 aftermath validation
+        run: godot --headless --path . --script tests/dialogue/validate_s006.gd
+
+      - name: Run Step 7C C01 Character-Life validation
+        run: godot --headless --path . --script tests/dialogue/validate_c01.gd
+
+      - name: Run Step 7C C02 Character-Life validation
+        run: godot --headless --path . --script tests/dialogue/validate_c02.gd
+
+      - name: Run Step 7C Chapter 0 continuity validation
+        run: godot --headless --path . --script tests/dialogue/validate_chapter_00_continuity.gd
+
       - name: Capture rendered field proof
         run: godot --path . --script tests/visual/capture_field_proof.gd
 
