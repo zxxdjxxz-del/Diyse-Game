@@ -12,7 +12,7 @@ location_id = "LOC_BORDERLANDS_FIELD_TRIAGE_CAMP"
 trigger_id = "trigger.chapter_00.s006"
 completion_flag = "scene.s006.complete"
 participants = Array[String](["cyanis", "ilyra", "convoy_superior_officer", "wounded_convoy_escort"])
-authoring_notes = "Step 7C S006 provisional aftermath draft on the Chapter 0 completion branch. Resolves Chapter 0 consequences without identifying the damaged Card. Ilyra independently remains because survivor recovery is unfinished, the Card presents unanswered risk, Cyanis's condition remains unresolved, and her expertise materially changes the recovery effort. The scene commits permanent party state Cyanis + Ilyra, completes the six mandatory Chapter 0 sequences, unlocks Brackenwall as the next main-story route, and makes C01 The Fire Is Too Close and C02 Food After Triage available after S006 without auto-skipping them. No romance/destiny recruitment framing, no First Mercy response, no Prime/First Champion identification, no player dialogue choices."
+authoring_notes = "Step 7C S006 approved Chapter 0 aftermath scene. Resolves Chapter 0 consequences without identifying the damaged Card. Ilyra independently remains because survivor recovery is unfinished, the Card presents unanswered risk, Cyanis's condition remains unresolved, and her expertise materially changes the recovery effort. The scene commits permanent party state Cyanis + Ilyra, completes the six mandatory Chapter 0 sequences, unlocks Brackenwall as the next main-story route, and makes C01 The Fire Is Too Close and C02 Food After Triage available after S006 without auto-skipping them. No romance/destiny recruitment framing, no First Mercy response, no Prime/First Champion identification, no player dialogue choices."
 beats = [{
 "beat_id": "S006_B001",
 "speaker_id": "",
@@ -187,12 +187,12 @@ beats = [{
 }, {
 "beat_id": "S006_B020",
 "speaker_id": "cyanis",
-"text": "Wasn't planning to.",
+"text": "No argument there.",
 "left": {},
 "right": {},
 "active_side": "none",
 "advance_mode": "manual",
-"cues": {"pause_ms": 35, "staging": "Cyanis has no curiosity-over-safety compulsion.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+"cues": {"pause_ms": 35, "staging": "Cyanis agrees immediately; he has no curiosity-over-safety compulsion.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
 }, {
 "beat_id": "S006_B021",
 "speaker_id": "convoy_superior_officer",
@@ -538,12 +538,12 @@ beats = [{
 }, {
 "beat_id": "S006_B059",
 "speaker_id": "cyanis",
-"text": "Fair.",
+"text": "All right.",
 "left": {},
 "right": {},
 "active_side": "none",
 "advance_mode": "manual",
-"cues": {"pause_ms": 80, "staging": "He accepts her stated limit rather than policing it further.", "camera": "Widen.", "movement": "They turn south together.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+"cues": {"pause_ms": 80, "staging": "He accepts her stated limit rather than policing it further; the wording avoids overusing the same acknowledgment from earlier Chapter 0 scenes.", "camera": "Widen.", "movement": "They turn south together.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
 }, {
 "beat_id": "S006_B060",
 "speaker_id": "",
