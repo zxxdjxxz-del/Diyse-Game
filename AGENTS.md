@@ -16,16 +16,30 @@ If a task conflicts with these files or with a newer explicit user instruction, 
 
 ## Current authority state
 
-- Whole-project written authority: **Clean Active Master Canon v1.35**.
-- Technical authority: **Active Technical Annex v1.35**.
-- Dialogue craft/authoring authority: **Dialogue Development Annex v1.2**; the dialogue study is complete.
-- Recovery checkpoint: **v1.35 / Audit47**.
+- Whole-project written authority: **Clean Active Master Canon v1.36**.
+- Technical authority: **Active Technical Annex v1.36**.
+- Dialogue craft/authoring authority: **Dialogue Development Annex v1.3**; the dialogue study is complete.
+- Recovery checkpoint: **v1.36 / Audit48**.
+- **v1.35 / Audit47 and earlier are frozen recovery/history only.**
 - Step 7B.5 technical feasibility: **COMPLETE / PASS on real Android hardware**.
 - Step 7B.6 production authoring handoff: **COMPLETE / PASS**.
-- Step 7C full scene writing: **ACTIVE / AUTHORIZED August 8, 2026**.
-- Current Step 7C production order: Chapter 0 S001–S006, then C01 and C02 unless explicitly changed.
+- Step 7C full scene writing: **ACTIVE / AUTHORIZED**.
+- Step 7C Chapter 0: **COMPLETE / MERGED** — S001–S006 plus C01/C02 are approved production dialogue.
+- Chapter 0 production merge: `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`.
+- Next mandatory Step 7C production block: **Chapter 1 S007–S011**.
 - Accepted 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`.
 - Accepted 7B.6 production-handoff implementation merge: `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.
+
+## Step 7C workflow
+
+Use the chapter-level workflow proven by Chapter 0:
+
+- one production branch/PR per chapter or comparable substantial narrative block;
+- review and checkpoint each scene before advancing;
+- one chapter tracker rather than a new issue/PR for every scene;
+- scene-specific validation plus a whole-chapter continuity/repetition/voice/runtime pass;
+- full Godot and Android regression at the chapter checkpoint, or earlier only when engine/schema/platform behavior changes;
+- one authority/archive checkpoint after the chapter/substantial milestone is complete.
 
 ## Hard rules
 
@@ -63,8 +77,8 @@ If a task conflicts with these files or with a newer explicit user instruction, 
 
 ## Accepted-proof regression rule
 
-Steps 7B.5 and 7B.6 are closed. Their accepted automated tests and real-device/platform behaviors are now part of the implementation regression baseline.
+Steps 7B.5 and 7B.6 are closed. Their accepted automated tests and real-device/platform behaviors are part of the implementation regression baseline. Chapter 0's complete Step 7C dialogue/resource/continuity gate is also an accepted production regression baseline.
 
-Do not regress the proven exploration/dialogue/combat/Card/Prime/persistence architecture or the production dialogue Resource contract merely because later content is more complex. If a newer approved design genuinely requires changing an accepted behavior, update the controlling authority and tests deliberately rather than silently bypassing them.
+Do not regress the proven exploration/dialogue/combat/Card/Prime/persistence architecture, production dialogue Resource contract, or approved Chapter 0 scene integration merely because later content is more complex. If a newer approved design genuinely requires changing an accepted behavior, update the controlling authority and tests deliberately rather than silently bypassing them.
 
 Temporary proof fixtures are **not** protected content: graybox geometry, placeholder portraits/sprites, disposable dialogue, `PROOF_SCHEMA`, proof enemies, `Proof Strike`, temporary flat damage/rewards, proof flags/cues, and debug UI should be replaced during production without rewriting the proven subsystem boundaries.

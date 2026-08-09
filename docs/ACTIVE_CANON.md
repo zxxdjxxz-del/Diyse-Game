@@ -4,23 +4,27 @@ This file is an implementation-facing summary. It does **not** replace the autho
 
 ## Current written authority
 
-- **Whole-project root:** Diyse: 2.5D JRPG Clean Active Master Canon v1.35 — Production Dialogue Authoring Contract and Step 7C Handoff Lock Revision.
-- **Technical annex:** Diyse Active Technical Annex v1.35 — current numerical, proven implementation, and production authoring-interface authority.
-- **Dialogue annex:** Diyse Active Dialogue Development Annex v1.2 — completed study and locked Step 7C authoring-contract authority.
-- **Implementation evidence:** Diyse Step 7B.5 Technical Feasibility & Android Proof Report v1.0 and Diyse Step 7B.6 Production Handoff Lock Report v1.0.
-- **Recovery checkpoint:** v1.35 / Audit47.
-- v1.34 / Audit46 and earlier are frozen recovery/history only.
+- **Whole-project root:** Diyse: 2.5D JRPG Clean Active Master Canon v1.36 — Chapter 0 Production Dialogue Canonization and Step 7C First-Chapter Completion Revision.
+- **Technical annex:** Diyse Active Technical Annex v1.36 — current numerical, proven implementation, production authoring-interface, and Chapter 0 validation authority.
+- **Dialogue annex:** Diyse Active Dialogue Development Annex v1.3 — completed study, locked authoring contract, and approved Chapter 0 production-dialogue authority.
+- **Implementation evidence:** Diyse Step 7B.5 Technical Feasibility & Android Proof Report v1.0; Diyse Step 7B.6 Production Handoff Lock Report v1.0; Diyse Step 7C Chapter 0 Production Dialogue Completion & Validation Report v1.0.
+- **Recovery checkpoint:** v1.36 / Audit48.
+- v1.35 / Audit47 and earlier are frozen recovery/history only.
 
 ## Workflow state
 
 - Dialogue study: **COMPLETE**.
 - Step 7B.5 technical feasibility: **PASS — real Android device**.
 - Step 7B.6 production dialogue handoff: **COMPLETE / PASS**.
-- Step 7C Dialogue-First Scene Writing: **ACTIVE / AUTHORIZED August 8, 2026**.
-- Current production order: **Chapter 0 S001–S006, then C01 and C02**, unless explicitly changed.
+- Step 7C Dialogue-First Scene Writing: **ACTIVE**.
+- Chapter 0 S001–S006 + C01/C02: **COMPLETE / APPROVED / MERGED**.
+- Chapter 0 merge: `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`.
+- Next mandatory production block: **Chapter 1 S007–S011**.
 - Active implementation repository: `zxxdjxxz-del/Diyse-Game`.
 - Accepted 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`.
 - Accepted 7B.6 implementation merge: `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.
+
+The default Step 7C workflow is chapter-level: one branch/PR per chapter or comparable substantial narrative block; scene-by-scene review/checkpointing; one chapter tracker; whole-chapter continuity/repetition/voice/runtime review; full Godot + Android regression at the chapter checkpoint unless engine/schema/platform changes require earlier gating; one authority/archive checkpoint after completion.
 
 ## Project foundation
 
@@ -42,51 +46,29 @@ This file is an implementation-facing summary. It does **not** replace the autho
 
 Diyse is a **2.5D** game. This supersedes older implementation text that described the shipped game as fully 3D.
 
-The target combines:
-
-- 3D environments and real world depth;
-- 3D lighting, scale, traversal, architecture, battle spaces, bosses, Black Host spaces, and Prime spectacle;
-- stylized 2D/2.5D character presentation;
-- expressive illustrated dialogue portraits where appropriate.
-
-Step 7B.5 proved that a world-space 2D/2.5D character can coexist with a real 3D field, camera, collision, occlusion/depth, touch movement and Android presentation. The exact graybox method/art used for the proof is not final visual canon.
+The target combines 3D environments/depth/lighting/traversal with stylized 2D/2.5D character presentation and expressive illustrated dialogue portraits where appropriate. Step 7B.5 proved the architectural coexistence on Android; its graybox method/art remains non-canon.
 
 ## Dialogue authority
 
-Diyse has **no player dialogue choices**.
+Diyse has **no player dialogue choices**. Cyanis is a defined authored protagonist. Do not implement response wheels, tone menus, affinity dialogue, branching player-spoken responses, persuasion trees, good/evil dialogue, or romance dialogue choices.
 
-Cyanis is a defined authored protagonist. Do not implement response wheels, tone menus, affinity dialogue, branching player-spoken responses, persuasion trees, good/evil dialogue, or romance dialogue choices.
-
-The dialogue study is complete. The generic dialogue runner architecture supports authored conversation, portrait/expression changes, silent reactions, proximity/world triggering, movement lock and clean return to exploration.
-
-Step 7B.6 locks the production authoring interface:
+The dialogue study is complete. Step 7B.6 locks the production authoring interface:
 
 - production scene records use `DiyseDialogueSceneDefinition` Resources;
 - scene, beat, character/NPC, expression, trigger and completion identifiers are stable semantic IDs;
 - beat IDs use `<SCENE_ID>_B###`;
-- portrait file paths are resolved through `DiyseDialoguePortraitRegistry`, not embedded in authored production scenes;
+- portrait file paths resolve through `DiyseDialoguePortraitRegistry`, not authored scene data;
 - camera/staging/movement/implementation information travels as cue metadata separate from spoken text;
-- the generic `DialogueRunner` consumes validated Resource-backed scenes through `start_scene(scene_definition, registry)`;
+- `DialogueRunner` consumes validated Resource-backed scenes through `start_scene(scene_definition, registry)`;
 - known choice/response/branch fields are rejected by schema validation.
 
-Step 7C is now active. Authorization permits exact dialogue and staging work; it does **not** permit silent changes to story outcomes, chapter order, combat, Cards/Primes, relationships, Vaelkor/fragment authority, or final-act locks. Each draft remains provisional until canon/voice review and structural validation are complete.
+Chapter 0 is the first complete production exercise of that contract. S001–S006, C01 and C02 are approved production dialogue, validated individually and as a cross-scene chapter set. Authorization permits further exact dialogue/staging work but does **not** permit silent changes to story outcomes, chapter order, combat, Cards/Primes, relationships, Vaelkor/fragment authority, or final-act locks.
 
 See `DIALOGUE_AUTHORING_SCHEMA.md` and `STEP_7C_AUTHORING_TEMPLATE.md` before authoring or integrating production dialogue. Disposable technical-proof lines, `PROOF_SCHEMA`, proof cues and placeholder portraits are not canon.
 
 ## Combat implementation authority
 
-The accepted round architecture includes:
-
-1. beginning-of-round state processing;
-2. enemies lock one legal action from the legitimate beginning-of-round state before inspecting any unconfirmed player commands;
-3. the player selects one action for every conscious active party member before confirmation;
-4. Item actions resolve first by Speed;
-5. Defend actions resolve second by Speed;
-6. remaining actions resolve by current effective Speed;
-7. party wins exact party/enemy Speed ties;
-8. tied party members use player-selected order;
-9. tied enemies/entities use stable deterministic order;
-10. Speed determines order only and never grants an extra ordinary action.
+The accepted round architecture uses beginning-of-round processing, enemy action locking before unconfirmed player commands, one selected action per conscious active party member, Item priority, Defend priority, then current effective Speed ordering with deterministic tie rules. Speed determines order only and never grants extra ordinary actions.
 
 ### Automatic hostile retargeting
 
@@ -96,24 +78,20 @@ If a queued player hostile action's original enemy target is defeated before tha
 - wrap to the first living enemy when needed;
 - change only the target — actor, action identity, cost, priority and Speed remain unchanged;
 - apply this to Attack, hostile/damaging Abilities, hostile Standard Cards, and equivalent directly controlled Prime hostile commands unless an authored effect explicitly overrides targeting;
-- expose the retarget in presentation/logging so the player understands what happened.
+- expose the retarget in presentation/logging.
 
 ## Card and Prime implementation authority
 
-- Standard Cards remain unlimited-use and should be data-driven; no charges, Essence, Card ranks, refresh counters, or per-battle Standard-use counters.
+- Standard Cards remain unlimited-use and data-driven; no charges, Essence, Card ranks, refresh counters, or per-battle Standard-use counters.
 - Every collectible Prime Card summons one directly controlled Prime Manifestation under current Prime authority.
-- Prime activation consumes the bearer's selected Card action, establishes the approved pending/replacement flow, suspends the active party at the correct boundary, exposes Prime-specific commands, and later restores the frozen party according to current Prime rules.
+- Prime activation consumes the bearer's selected Card action, establishes the approved pending/replacement flow, suspends the active party at the correct boundary, exposes Prime-specific commands, and restores the frozen party according to current Prime rules.
 - Prime Manifestations are separate from ordinary summons.
 
-Step 7B.5 proved these architectures with representative content. `Proof Strike`, temporary flat Prime/Card damage and other proof numbers are not canon content values.
+`Proof Strike`, temporary flat Prime/Card damage and other proof numbers are not canon content values.
 
 ## Persistence authority
 
-The accepted persistence architecture separates plain game/session state from scene nodes and serializes versioned data to Godot `user://` storage.
-
-Step 7B.5 proved representative persistence of area/position, party HP/MP records, inventory, Card/Prime ownership/progression baseline, equipment placeholders, world/story/NPC/interactable flags and rewards/currency across a full Android app close/relaunch.
-
-Mid-round combat or active-Prime serialization was not required by this proof and is not silently implied as a production rule.
+Persistent game/session state remains separate from scene nodes and serializes as versioned plain data under Godot `user://`. Step 7B.5 proved representative persistence across full Android app close/relaunch. Mid-round combat or active-Prime serialization was outside that proof and is not silently implied.
 
 ## Permanent character/class/story-Prime identities
 
@@ -141,4 +119,4 @@ Do not mistake technical fixtures for canon. Non-canon proof material includes g
 
 ## Historical repository rule
 
-The older `zxxdjxxz-del/Diyse` repository is **historical prototype material only**. Its libGDX architecture, fixed/pre-rendered field experiments, old branches, temporary formulas, assets, and prototype mechanics are not implementation authority for `Diyse-Game`.
+The older `zxxdjxxz-del/Diyse` repository is **historical prototype material only**. Its libGDX architecture, old field experiments, temporary formulas, assets, and prototype mechanics are not implementation authority for `Diyse-Game`.
