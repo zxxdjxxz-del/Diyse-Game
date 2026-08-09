@@ -20,4 +20,8 @@ entries = [{
 "character_id": "civilian_traveler",
 "display_name": "Civilian Traveler",
 "portraits": {}
+}, {
+"character_id": "ilyra",
+"display_name": "Ilyra",
+"portraits": {}
 }]
