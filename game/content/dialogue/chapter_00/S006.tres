@@ -1,0 +1,556 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "S006"
+chapter_id = "chapter_00"
+scene_kind = "mandatory"
+location_id = "LOC_BORDERLANDS_FIELD_TRIAGE_CAMP"
+trigger_id = "trigger.chapter_00.s006"
+completion_flag = "scene.s006.complete"
+participants = Array[String](["cyanis", "ilyra", "convoy_superior_officer", "wounded_convoy_escort"])
+authoring_notes = "Step 7C S006 provisional aftermath draft on the Chapter 0 completion branch. Resolves Chapter 0 consequences without identifying the damaged Card. Ilyra independently remains because survivor recovery is unfinished, the Card presents unanswered risk, Cyanis's condition remains unresolved, and her expertise materially changes the recovery effort. The scene commits permanent party state Cyanis + Ilyra, completes the six mandatory Chapter 0 sequences, unlocks Brackenwall as the next main-story route, and makes C01 The Fire Is Too Close and C02 Food After Triage available after S006 without auto-skipping them. No romance/destiny recruitment framing, no First Mercy response, no Prime/First Champion identification, no player dialogue choices."
+beats = [{
+"beat_id": "S006_B001",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 280, "staging": "Continue after S005. The east pressure is gone. The camp remains crowded, damaged, and active. The unexplained green-and-gold geometry has faded. No victory pose or celebration.", "camera": "Wide aftermath geography: treatment lane, recovery wagon, defenders, south wreck route.", "movement": "Cyanis is seated where Ilyra put him; Ilyra is still working between patients.", "interrupt": false, "implementation_flags": ["S006_AFTERMATH_BEGIN", "NO_VICTORY_CELEBRATION", "INCOMPLETE_RESPONSE_ENDED"]}
+}, {
+"beat_id": "S006_B002",
+"speaker_id": "convoy_superior_officer",
+"text": "Dovaren. Amarin. Field count.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "The officer returns to ordinary command work immediately after the confrontation.", "camera": "Three-shot with camp activity behind them.", "movement": "Officer checks a damaged field ledger.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "AFTERMATH_FIELD_COUNT"]}
+}, {
+"beat_id": "S006_B003",
+"speaker_id": "cyanis",
+"text": "East cut is clear. No one followed the retreat.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Cyanis reports security state and preserves the no-pursuit decision.", "camera": "Brief look toward the quiet east cut.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "NO_PURSUIT_FINALIZED"]}
+}, {
+"beat_id": "S006_B004",
+"speaker_id": "ilyra",
+"text": "Triage is stable. Walking wounded can move. Two patients can't.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Ilyra gives a medical status, not reassurance.", "camera": "Keep the two immobile patients visible in background.", "movement": "She finishes securing a bandage while speaking.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_MEDICAL_JURISDICTION", "TRIAGE_POST_BATTLE_STABLE"]}
+}, {
+"beat_id": "S006_B005",
+"speaker_id": "convoy_superior_officer",
+"text": "Missing?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "The unresolved consequence becomes the next operational problem.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S006_B006",
+"speaker_id": "wounded_convoy_escort",
+"text": "Rear wagon roll is short. Some ran south when the first blast hit.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "A wounded escort reports incomplete survivor accounting without inventing a false exact number.", "camera": "Show south wreck route beyond camp.", "movement": "Escort indicates the rear-wagon direction.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "SURVIVORS_STILL_MISSING"]}
+}, {
+"beat_id": "S006_B007",
+"speaker_id": "cyanis",
+"text": "How many?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Cyanis asks for precision rather than assuming.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S006_B008",
+"speaker_id": "wounded_convoy_escort",
+"text": "Don't know. We lost the roster sheet with the wagon.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "Uncertainty remains legitimate; the scene does not manufacture a clean count.", "camera": "Damaged rear-wagon remains visible beyond camp.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "SURVIVOR_COUNT_UNCERTAIN"]}
+}, {
+"beat_id": "S006_B009",
+"speaker_id": "ilyra",
+"text": "Then we search by people, not numbers.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 55, "staging": "Ilyra rejects bookkeeping uncertainty as a reason to stop recovery; practical, not sentimental.", "camera": "Return to Ilyra and officer.", "movement": "Ilyra closes her medical bag enough to move.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_SURVIVOR_RECOVERY_COMMITMENT"]}
+}, {
+"beat_id": "S006_B010",
+"speaker_id": "cyanis",
+"text": "South ditch and wagon line first.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Cyanis turns the missing-person problem into a bounded search plan.", "camera": "Indicate the two search zones.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "SURVIVOR_SEARCH_ROUTE_SET"]}
+}, {
+"beat_id": "S006_B011",
+"speaker_id": "convoy_superior_officer",
+"text": "Brackenwall can send a fresh detail at first light.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "The officer proposes a reasonable lower-risk alternative rather than caricatured indifference.", "camera": "Hold on tired defenders and remaining wounded.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "OFFICER_CREDIBLE_RESOURCE_CONSTRAINT"]}
+}, {
+"beat_id": "S006_B012",
+"speaker_id": "cyanis",
+"text": "If someone's pinned, first light is late.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Concrete survival timing, not a moral speech.", "camera": "Hold.", "movement": "Cyanis starts to rise, then waits for Ilyra's reaction.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_SURVIVOR_RECOVERY_COMMITMENT"]}
+}, {
+"beat_id": "S006_B013",
+"speaker_id": "ilyra",
+"text": "If someone's bleeding, it's later.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 60, "staging": "Ilyra supports the same conclusion from her own jurisdiction.", "camera": "Three-shot; agreement comes from different expertise.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "MUTUAL_JURISDICTION_CONTINUES"]}
+}, {
+"beat_id": "S006_B014",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 120, "staging": "The officer weighs the remaining manpower, darkening light, and the two specialists' argument.", "camera": "Brief field geography rather than reaction close-up.", "movement": "None.", "interrupt": false, "implementation_flags": ["CINEMATIC_WORLD_BEAT"]}
+}, {
+"beat_id": "S006_B015",
+"speaker_id": "convoy_superior_officer",
+"text": "One sweep. No chase beyond the wreck markers.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Formal bounded authority authorizes recovery while preserving the no-pursuit rule.", "camera": "Show wreck markers as hard search boundary.", "movement": "Officer closes the field ledger.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "SURVIVOR_SWEEP_AUTHORIZED", "NO_PURSUIT_FINALIZED"]}
+}, {
+"beat_id": "S006_B016",
+"speaker_id": "cyanis",
+"text": "Understood.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Cyanis accepts the legitimate boundary immediately.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S006_B017",
+"speaker_id": "ilyra",
+"text": "Agreed.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 65, "staging": "Ilyra independently accepts the same operating limit.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S006_B018",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 90, "staging": "The officer looks toward the sealed recovery wagon. The damaged Card is inert again.", "camera": "Insert on closed casing only; no glow, title, Face icon, or Prime terminology.", "movement": "None.", "interrupt": false, "implementation_flags": ["DAMAGED_CARD_INERT", "CARD_REMAINS_UNIDENTIFIED"]}
+}, {
+"beat_id": "S006_B019",
+"speaker_id": "convoy_superior_officer",
+"text": "And nobody opens that casing.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Post-crisis artifact protocol is conservative and reasonable.", "camera": "Keep sealed casing in frame.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CARD_STAYS_SEALED"]}
+}, {
+"beat_id": "S006_B020",
+"speaker_id": "cyanis",
+"text": "Wasn't planning to.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Cyanis has no curiosity-over-safety compulsion.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S006_B021",
+"speaker_id": "convoy_superior_officer",
+"text": "It goes to Brackenwall sealed. Their artifact protocol can decide what happens next.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "Establish Brackenwall as the next main-story operational stop without previewing the later confiscation failure.", "camera": "Show surviving wagon and road direction out of camp.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ROUTE_BRACKENWALL_ESTABLISHED", "CARD_TRANSFER_PROTOCOL_PENDING"]}
+}, {
+"beat_id": "S006_B022",
+"speaker_id": "ilyra",
+"text": "Not alone.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Ilyra identifies the medical consequence of moving the unexplained object.", "camera": "Return to her.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S006_B023",
+"speaker_id": "convoy_superior_officer",
+"text": "Meaning?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Officer asks for the operational reason.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S006_B024",
+"speaker_id": "ilyra",
+"text": "Whatever happened ran through Dovaren. I can keep him stable if it happens again. I can't do that from another wagon.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 50, "staging": "Ilyra states expertise and unresolved risk. No mystical interpretation and no romantic entitlement.", "camera": "Cyanis and sealed wagon both remain visible.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "DAMAGED_CARD_UNANSWERED_RISK", "ILYRA_EXPERTISE_MATERIALLY_CHANGES_RECOVERY"]}
+}, {
+"beat_id": "S006_B025",
+"speaker_id": "cyanis",
+"text": "Comforting.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Small dry reaction to being described as a medical variable.", "camera": "Do not isolate as romantic banter.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_DRY_HUMOR"]}
+}, {
+"beat_id": "S006_B026",
+"speaker_id": "ilyra",
+"text": "It wasn't meant to be.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 60, "staging": "Dry precision from Ilyra; immediate return to practical stakes.", "camera": "Hold shared work frame.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_DRY_HUMOR"]}
+}, {
+"beat_id": "S006_B027",
+"speaker_id": "convoy_superior_officer",
+"text": "Your medical group takes the first wounded column to Brackenwall.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "The larger medical group has an independent duty to move casualties onward.", "camera": "Show medical group preparing transport.", "movement": "Walking wounded begin organizing for later departure.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "MEDICAL_GROUP_TO_BRACKENWALL"]}
+}, {
+"beat_id": "S006_B028",
+"speaker_id": "ilyra",
+"text": "They should.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Ilyra agrees with the medical logistics rather than treating her group as followers.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S006_B029",
+"speaker_id": "convoy_superior_officer",
+"text": "And you?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "The decision is explicitly Ilyra's.", "camera": "No dramatic recruitment framing.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_AGENCY_CHECKPOINT"]}
+}, {
+"beat_id": "S006_B030",
+"speaker_id": "ilyra",
+"text": "I'm staying with the recovery.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "Ilyra states her own continued mission. This is the narrative recruitment decision without gamey join-party language.", "camera": "Keep Cyanis out of dominant foreground; this is her decision.", "movement": "Ilyra secures her field kit for movement.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_PERMANENT_RECRUITMENT_DECISION"]}
+}, {
+"beat_id": "S006_B031",
+"speaker_id": "convoy_superior_officer",
+"text": "Your assignment was convoy medical support.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "The officer asks her to define how that duty continues now that the convoy is broken.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S006_B032",
+"speaker_id": "ilyra",
+"text": "The convoy still has missing people.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 55, "staging": "Her answer is duty to living people, not attachment to the supernatural event.", "camera": "South wreck route remains visible beyond her.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "SURVIVOR_RECOVERY_UNFINISHED"]}
+}, {
+"beat_id": "S006_B033",
+"speaker_id": "ilyra",
+"text": "The Card is an unanswered risk. Dovaren's condition is unresolved. And there may still be patients who don't know this camp exists.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 55, "staging": "Ilyra states the three practical reasons her expertise is still required.", "camera": "Move between sealed wagon, Cyanis, and south search route.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "DAMAGED_CARD_UNANSWERED_RISK", "CYANIS_CONDITION_UNRESOLVED", "POSSIBLE_MISSING_PATIENTS"]}
+}, {
+"beat_id": "S006_B034",
+"speaker_id": "convoy_superior_officer",
+"text": "So you're extending your own assignment.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "He names the professional reality without converting it into permission from Cyanis.", "camera": "Hold on Ilyra.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S006_B035",
+"speaker_id": "ilyra",
+"text": "Yes.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 65, "staging": "Simple ownership of the decision.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_AGENCY_CONFIRMED"]}
+}, {
+"beat_id": "S006_B036",
+"speaker_id": "cyanis",
+"text": "You don't owe me that.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Cyanis refuses to treat medical care or shared danger as a personal debt.", "camera": "Two-shot, no romantic framing.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "NO_CARE_DEBT"]}
+}, {
+"beat_id": "S006_B037",
+"speaker_id": "ilyra",
+"text": "I'm not doing it for you.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 65, "staging": "Direct boundary: her recruitment is not devotion to Cyanis.", "camera": "Keep the camp and missing-person route in frame.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "NO_ROMANCE_RECRUITMENT", "NO_DESTINY_RECRUITMENT"]}
+}, {
+"beat_id": "S006_B038",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 100, "staging": "A beat. Cyanis accepts the correction instead of making her decision about him.", "camera": "Neutral work-focused composition.", "movement": "None.", "interrupt": false, "implementation_flags": ["CINEMATIC_WORLD_BEAT"]}
+}, {
+"beat_id": "S006_B039",
+"speaker_id": "ilyra",
+"text": "There are still people missing.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 60, "staging": "Protected shared-commitment idea stated plainly.", "camera": "South wreck route.", "movement": "Ilyra shoulders her medical kit.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "SHARED_COMMITMENT_WORK_NOT_FINISHED"]}
+}, {
+"beat_id": "S006_B040",
+"speaker_id": "cyanis",
+"text": "Then we find them.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 75, "staging": "Cyanis answers the work, not a romantic overture.", "camera": "Two-shot becomes shared movement orientation toward south route.", "movement": "Cyanis prepares to stand.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_ILYRA_RECOVERY_TEAM_FORMED"]}
+}, {
+"beat_id": "S006_B041",
+"speaker_id": "convoy_superior_officer",
+"text": "Fine. Finish the sweep together. Brackenwall afterward. The Card stays sealed.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "Formal operational handoff: bounded recovery now, Brackenwall next, conservative artifact protocol unchanged.", "camera": "Show both search route and Brackenwall road marker in geography.", "movement": "Officer turns back toward transport preparation.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "SURVIVOR_RECOVERY_CONTINUES", "ROUTE_BRACKENWALL_UNLOCK_PENDING_SCENE_END", "CARD_STAYS_SEALED"]}
+}, {
+"beat_id": "S006_B042",
+"speaker_id": "cyanis",
+"text": "Yes, sir.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Cyanis preserves legitimate command hierarchy.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S006_B043",
+"speaker_id": "ilyra",
+"text": "Understood.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 75, "staging": "Ilyra accepts the operational handoff without becoming subordinate to Cyanis.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S006_B044",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 80, "staging": "As Cyanis stands, he notices blood across the side of Ilyra's glove from a small untreated cut acquired during the fighting.", "camera": "Subtle hand insert; do not glamorize injury.", "movement": "Ilyra is already reaching for search supplies instead of treating herself.", "interrupt": false, "implementation_flags": ["ILYRA_SELF_NEGLECT_EARLY", "CYANIS_NOTICES_ILYRA_CONDITION"]}
+}, {
+"beat_id": "S006_B045",
+"speaker_id": "cyanis",
+"text": "Your hand.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "He notices the same pattern she noticed in him.", "camera": "Return to two-shot.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S006_B046",
+"speaker_id": "ilyra",
+"text": "Superficial.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Ilyra minimizes her own injury in exactly the functional language her arc warns about.", "camera": "Hold.", "movement": "She closes the glove over it.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_SELF_NEGLECT_EARLY"]}
+}, {
+"beat_id": "S006_B047",
+"speaker_id": "cyanis",
+"text": "You can wait. Don't mistake that for fine.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "Cyanis returns her earlier clinical phrasing without turning it into flirtation. Mutual recognition begins.", "camera": "Hold neutral; camp continues around them.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_RECOGNIZES_ILYRA_SELF_NEGLECT"]}
+}, {
+"beat_id": "S006_B048",
+"speaker_id": "ilyra",
+"text": "That was my line.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Dry irritation rather than romance.", "camera": "No reaction glamour shot.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_DRY_HUMOR"]}
+}, {
+"beat_id": "S006_B049",
+"speaker_id": "cyanis",
+"text": "Still true.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 70, "staging": "Simple answer; neither resolves the other's pattern here.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S006_B050",
+"speaker_id": "convoy_superior_officer",
+"text": "If you're both finished diagnosing each other—",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 15, "staging": "Officer cuts into the developing exchange with tired practical humor.", "camera": "Three-shot; no romance framing.", "movement": "Officer points toward south route.", "interrupt": true, "implementation_flags": ["IN_WORLD_DIALOGUE", "OFFICER_DRY_HUMOR"]}
+}, {
+"beat_id": "S006_B051",
+"speaker_id": "ilyra",
+"text": "We aren't.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 20, "staging": "Ilyra answers literally and immediately.", "camera": "Hold.", "movement": "She checks one last item in her kit.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S006_B052",
+"speaker_id": "cyanis",
+"text": "Apparently.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 65, "staging": "Brief release of pressure before work resumes.", "camera": "Widen back into camp.", "movement": "Cyanis gets fully to his feet.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_DRY_HUMOR"]}
+}, {
+"beat_id": "S006_B053",
+"speaker_id": "wounded_convoy_escort",
+"text": "Dovaren! Tracks south of the wagon line!",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 10, "staging": "The unresolved survivor search calls them back to work before the scene can become reflective exposition.", "camera": "Snap toward south route.", "movement": "Escort signals from edge of camp.", "interrupt": true, "implementation_flags": ["IN_WORLD_DIALOGUE", "SURVIVOR_SEARCH_LEAD_FOUND"]}
+}, {
+"beat_id": "S006_B054",
+"speaker_id": "ilyra",
+"text": "Slowly.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 20, "staging": "Ilyra catches Cyanis trying to move too quickly after his unstable condition.", "camera": "Keep both in frame.", "movement": "Cyanis visibly slows rather than arguing.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_CHALLENGES_CYANIS_SELF_NEGLECT"]}
+}, {
+"beat_id": "S006_B055",
+"speaker_id": "cyanis",
+"text": "You good to move?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Cyanis returns the condition check rather than treating her as inexhaustible support.", "camera": "Two-shot oriented toward route.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "RECIPROCAL_CONDITION_AWARENESS"]}
+}, {
+"beat_id": "S006_B056",
+"speaker_id": "ilyra",
+"text": "I can move.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "She answers functionally, revealing the same flaw from the other side.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_SELF_NEGLECT_EARLY"]}
+}, {
+"beat_id": "S006_B057",
+"speaker_id": "cyanis",
+"text": "Not what I asked.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "He recognizes her exact functional-minimization pattern.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_RECOGNIZES_ILYRA_SELF_NEGLECT"]}
+}, {
+"beat_id": "S006_B058",
+"speaker_id": "ilyra",
+"text": "I'll manage the sweep. Then I sit.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "Early Ilyra negotiates a limit imperfectly but visibly; she is not cured of the pattern.", "camera": "Hold.", "movement": "She adjusts the medical kit to the uninjured hand.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_EARLY_LIMIT_NEGOTIATION"]}
+}, {
+"beat_id": "S006_B059",
+"speaker_id": "cyanis",
+"text": "Fair.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 80, "staging": "He accepts her stated limit rather than policing it further.", "camera": "Widen.", "movement": "They turn south together.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S006_B060",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 220, "staging": "Cyanis and Ilyra leave the treatment lane for the bounded survivor sweep. The officer returns to transport preparation. The sealed Card remains under guard. This closes the six mandatory Chapter 0 sequences while leaving the post-S006 Character-Life scenes available before departure.", "camera": "Track them toward the south wreck route, then settle on active camp rather than heroic silhouette.", "movement": "Cyanis and Ilyra depart side by side for recovery work.", "interrupt": false, "implementation_flags": ["S006_MANDATORY_SEQUENCE_COMPLETE", "ROSTER_ADD_ILYRA_PERMANENT", "PARTY_STATE_CYANIS_ILYRA", "STORY_CHAPTER_00_COMPLETE", "ROUTE_BRACKENWALL_UNLOCKED", "CARD_REMAINS_UNIDENTIFIED", "FIRST_MERCY_NO_RESPONSE_CH00", "UNLOCK_C01_THE_FIRE_IS_TOO_CLOSE", "UNLOCK_C02_FOOD_AFTER_TRIAGE", "DO_NOT_AUTO_SKIP_CHARACTER_LIFE_SCENES", "CHAPTER_01_BRACKENWALL_AND_WAYFINDER_AVAILABLE_AFTER_POST_S006_FLOW"]}
+}]
