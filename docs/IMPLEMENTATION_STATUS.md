@@ -3,7 +3,8 @@
 **Authority checkpoint:** v1.35 / Audit47  
 **Step 7B.5:** COMPLETE / PASS on real Android hardware  
 **Step 7B.6:** COMPLETE / PASS — production dialogue authoring handoff locked  
-**Step 7C:** ON HOLD pending explicit user authorization  
+**Step 7C:** ACTIVE / AUTHORIZED August 8, 2026  
+**Current Step 7C milestone:** Chapter 0 S001 — Opening  
 **Active repository:** `zxxdjxxz-del/Diyse-Game`  
 **Accepted 7B.5 gameplay baseline:** `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`  
 **Accepted 7B.6 implementation merge:** `96c6bdc77f39c988f2185634b4e51546f2a0d76b`
@@ -83,8 +84,8 @@ The automated tests accepted through Steps 7B.5 and 7B.6 are the project regress
 
 The technical and handoff PASS does not mean the game is content-complete. Normal production still includes final visual/audio/UI work, final formulas, complete character kits/equipment/enemies/encounters, all 24 Standard Cards, all 12 Prime implementations, Chapters 0–12, Character-Life scenes, broader device/performance QA and release hardening.
 
-## Narrative handoff
+## Narrative production
 
-The dialogue study is complete, technical feasibility is proven, and the production scene-data contract is locked. **No technical or authoring-format prerequisite remains before Step 7C.**
+The dialogue study is complete, technical feasibility is proven, and the production scene-data contract is locked. **Step 7C was explicitly authorized by the user on August 8, 2026 and is now active.**
 
-Nevertheless, **do not start Step 7C** until the user explicitly authorizes full Dialogue-First Scene Writing.
+Work begins chronologically with Chapter 0 S001–S006, followed by C01 and C02 unless the user changes the order. A draft scene is not canon merely because it exists in a branch: each scene must pass canon/voice review and structural validation before approval/integration.

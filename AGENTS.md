@@ -22,18 +22,20 @@ If a task conflicts with these files or with a newer explicit user instruction, 
 - Recovery checkpoint: **v1.35 / Audit47**.
 - Step 7B.5 technical feasibility: **COMPLETE / PASS on real Android hardware**.
 - Step 7B.6 production authoring handoff: **COMPLETE / PASS**.
-- Step 7C full scene writing: **ON HOLD until explicit user authorization**.
+- Step 7C full scene writing: **ACTIVE / AUTHORIZED August 8, 2026**.
+- Current Step 7C production order: Chapter 0 S001–S006, then C01 and C02 unless explicitly changed.
 - Accepted 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`.
 - Accepted 7B.6 production-handoff implementation merge: `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.
 
 ## Hard rules
 
 - This is a fresh Godot/GDScript implementation.
-- Do **not** copy, port, import, or mechanically translate code from the older `zxxdjxxz-del/Diyse` repository unless the task explicitly authorizes a named piece of code.
+- Do **not** copy, port, import, or mechanically translate code from the older `zxxdjxxz-del/Diyse` repository unless the task explicitly authorizes a named reuse.
 - Historical prototypes may be consulted only for lessons or evidence when specifically requested.
 - Diyse is 2.5D: real 3D environments/depth/lighting/traversal combined with stylized 2D/2.5D character presentation.
 - Diyse has no player dialogue-choice system. Do not create dialogue wheels, response menus, affinity dialogue, tone selections, persuasion trees, or branching player-spoken responses.
 - Production dialogue must use the accepted stable-ID Resource schema rather than embedding canon scene text or raw portrait asset paths into generic engine code.
+- Step 7C authorization permits scene writing; it does not permit silent changes to story/system/relationship/final-act canon.
 - Combat is discrete round-based command combat, not real-time or timeline combat.
 - Maximum active permanent battle party is four.
 - Permanent battle commands are Attack / Ability / Card / Item / Defend.
