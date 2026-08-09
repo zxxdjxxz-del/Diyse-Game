@@ -12,7 +12,7 @@ location_id = "LOC_BORDERLANDS_FIELD_TRIAGE_CAMP"
 trigger_id = "trigger.chapter_00.s005"
 completion_flag = "scene.s005.complete"
 participants = Array[String](["cyanis", "ilyra", "convoy_superior_officer"])
-authoring_notes = "Step 7C S005 provisional draft on the Chapter 0 completion branch. This scene frames and hands off the fixed final Broken Convoy encounter: Cyanis + Ilyra versus the Level 4 Convoy War-Sorcerer at 70% HP and Level 3 injured Iron Cohort Soldier at 50% HP. War-Sorcerer Rift Lance Preparation remains prohibited before Round 2. The internal one-time Broken Champion's Ward state carries for its approved three rounds (+20 Total Defense; first eligible hostile direct action received by each party member deals 20% less eligible damage). The internal label is never player-facing and is not a full Prime activation, selectable Card command, Prime use, or refresh source. Defeating the War-Sorcerer ends the encounter; the injured Soldier withdraws if still active. S006 owns aftermath, roster closure, and next-route consequences. No dialogue choice architecture."
+authoring_notes = "Step 7C S005 approved Chapter 0 confrontation scene. This scene frames and hands off the fixed final Broken Convoy encounter: Cyanis + Ilyra versus the Level 4 Convoy War-Sorcerer at 70% HP and Level 3 injured Iron Cohort Soldier at 50% HP. War-Sorcerer Rift Lance Preparation remains prohibited before Round 2. The internal one-time Broken Champion's Ward state carries for its approved three rounds (+20 Total Defense; first eligible hostile direct action received by each party member deals 20% less eligible damage). The internal label is never player-facing and is not a full Prime activation, selectable Card command, Prime use, or refresh source. Defeating the War-Sorcerer ends the encounter; the injured Soldier withdraws if still active. S006 owns aftermath, roster closure, and next-route consequences. No dialogue choice architecture."
 beats = [{
 "beat_id": "S005_B001",
 "speaker_id": "",
@@ -151,12 +151,12 @@ beats = [{
 }, {
 "beat_id": "S005_B016",
 "speaker_id": "cyanis",
-"text": "Fair.",
+"text": "I'll say it.",
 "left": {},
 "right": {},
 "active_side": "none",
 "advance_mode": "manual",
-"cues": {"pause_ms": 65, "staging": "He accepts the correction without argument.", "camera": "Threat closes; dialogue ends.", "movement": "Cyanis raises shield; Ilyra brings staff into combat stance.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+"cues": {"pause_ms": 65, "staging": "He accepts the correction and gives the concrete acknowledgment she asked for.", "camera": "Threat closes; dialogue ends.", "movement": "Cyanis raises shield; Ilyra brings staff into combat stance.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
 }, {
 "beat_id": "S005_B017",
 "speaker_id": "",
