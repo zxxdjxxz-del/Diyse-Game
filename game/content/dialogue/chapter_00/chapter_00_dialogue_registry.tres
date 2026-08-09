@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="DiyseDialoguePortraitRegistry" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_portrait_registry.gd" id="1_registry"]
+
+[resource]
+script = ExtResource("1_registry")
+entries = [{
+"character_id": "cyanis",
+"display_name": "Cyanis",
+"portraits": {}
+}, {
+"character_id": "convoy_superior_officer",
+"display_name": "Convoy Officer",
+"portraits": {}
+}]
