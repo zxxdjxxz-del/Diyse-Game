@@ -1,8 +1,8 @@
 # Diyse — Step 7C Scene Authoring Template
 
-**Status:** PREPARED BY 7B.6; Step 7C remains ON HOLD until explicit user authorization.
+**Status:** ACTIVE / AUTHORIZED August 8, 2026. Prepared by 7B.6 and now controlling implementation-ready Step 7C scene drafts.
 
-This is the required working template once full Dialogue-First Scene Writing is authorized. It contains no canon scene dialogue.
+This is the required working template for full Dialogue-First Scene Writing.
 
 ## Scene header
 
@@ -90,7 +90,7 @@ Do not narrate an expression in text merely because the portrait/staging can sho
 - Trigger/completion flags are explicit data.
 - Cue metadata is a dictionary and does not secretly implement a new gameplay mechanic.
 - Schema validator passes.
-- Existing 7B.5 regression suite remains green after integration.
+- Existing 7B.5/7B.6 regression suite remains green after integration.
 
 ## Definition of scene complete
 
@@ -103,3 +103,5 @@ A Step 7C scene is complete only when:
 5. the scene introduces no player dialogue-choice architecture;
 6. implementation notes distinguish current supported cues from later presentation polish;
 7. completion is recorded without silently rewriting controlling authority.
+
+Authorization to begin Step 7C does not itself approve an individual draft. Keep scene branches/drafts provisional until their review and validation are complete.
