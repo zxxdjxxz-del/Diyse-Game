@@ -1,0 +1,43 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "PROOF_SCHEMA"
+chapter_id = "shared"
+scene_kind = "proof"
+location_id = "field_proof"
+trigger_id = "trigger.proof.schema"
+completion_flag = "scene.proof_schema.complete"
+participants = Array[String](["cyanis", "torren"])
+authoring_notes = "Disposable 7B.6 schema fixture. This is not canon dialogue and must never be promoted into S001 or another authored production scene."
+beats = [{
+"beat_id": "PROOF_SCHEMA_B001",
+"speaker_id": "torren",
+"text": "Schema test. Nothing here is canon.",
+"left": {"character_id": "cyanis", "expression_id": "neutral"},
+"right": {"character_id": "torren", "expression_id": "dry"},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {"pause_ms": 0, "staging": "proof_hold", "camera": "dialogue_default", "movement": "locked", "interrupt": false, "implementation_flags": ["NON_CANON_PROOF"]}
+}, {
+"beat_id": "PROOF_SCHEMA_B002",
+"speaker_id": "cyanis",
+"text": "Good. The engine reads IDs, not final asset paths.",
+"left": {"character_id": "cyanis", "expression_id": "amused"},
+"right": {"character_id": "torren", "expression_id": "neutral"},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {"pause_ms": 150, "staging": "proof_hold", "camera": "dialogue_default", "movement": "locked", "interrupt": false, "implementation_flags": ["NON_CANON_PROOF"]}
+}, {
+"beat_id": "PROOF_SCHEMA_B003",
+"speaker_id": "",
+"text": "",
+"left": {"character_id": "cyanis", "expression_id": "amused"},
+"right": {"character_id": "torren", "expression_id": "dry"},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {"pause_ms": 300, "staging": "silent_reaction", "camera": "dialogue_default", "movement": "locked", "interrupt": false, "implementation_flags": ["SILENT_REACTION", "NON_CANON_PROOF"]}
+}]
