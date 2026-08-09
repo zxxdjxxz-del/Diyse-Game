@@ -50,9 +50,7 @@ See `docs/DIALOGUE_AUTHORING_SCHEMA.md` and `docs/STEP_7C_AUTHORING_TEMPLATE.md`
 
 The technical-proof Cyanis/Torren dialogue, `PROOF_SCHEMA`, and placeholder portraits are disposable fixtures and are not script or visual canon.
 
-**Step 7C — Dialogue-First Scene Writing remains ON HOLD until explicit user authorization.** Do not infer authorization from completion of the study, technical proof, or production handoff.
-
-When Step 7C is explicitly authorized, the standing production order begins with Chapter 0 S001–S006, then C01 and C02, unless the user changes the order.
+**Step 7C — Dialogue-First Scene Writing is ACTIVE / AUTHORIZED as of August 8, 2026.** The standing production order begins with Chapter 0 S001–S006, then C01 and C02, unless the user changes the order. Scene drafts require canon/voice approval and structural validation before they become approved production dialogue.
 
 ## Writing/presentation philosophy
 
@@ -93,6 +91,6 @@ The dialogue runner presents authored data; it does not decide what Cyanis, Ilyr
 
 ## Step 7C boundary
 
-When authorized, Step 7C may add exact voiced dialogue, staging, portrait/performance notes, camera intent, contextual line banks, interruptions, pauses and implementation flags. It may not silently reopen story outcomes, class architecture, combat rules, Card/Prime identities, relationship canon, Vaelkor/fragment authority or final-act hard locks.
+Step 7C may add exact voiced dialogue, staging, portrait/performance notes, camera intent, contextual line banks, interruptions, pauses and implementation flags. It may not silently reopen story outcomes, class architecture, combat rules, Card/Prime identities, relationship canon, Vaelkor/fragment authority or final-act hard locks.
 
 Every implementation-ready Step 7C scene must follow the stable-ID Resource schema and pass structural validation in addition to narrative/canon review.
