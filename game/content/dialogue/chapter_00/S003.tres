@@ -1,0 +1,331 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "S003"
+chapter_id = "chapter_00"
+scene_kind = "mandatory"
+location_id = "LOC_BORDERLANDS_EVACUATION_RELAY"
+trigger_id = "trigger.chapter_00.s003"
+completion_flag = "scene.s003.complete"
+participants = Array[String](["cyanis", "convoy_superior_officer"])
+authoring_notes = "Step 7C S003 draft. Evacuation Relay authority test: the convoy officer proposes/orders a tactically understandable pursuit; Cyanis explicitly refuses because wounded soldiers/civilians remain exposed, pursuit would split damaged defenders, and abandoning wreckage/recovery cargo would surrender control of the field. His argument is grounded in S002 evidence, especially the deliberately clean northern cut. The officer remains credible and redirects the force after evaluating the evidence. Ilyra arrival and damaged Card response remain S004. No proof portrait asset is promoted into canon."
+beats = [{
+"beat_id": "S003_B001",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 450, "staging": "Cyanis reaches the Evacuation Relay after S002. The structure is damaged but usable as a protected casualty collection point. Survivors move toward it along the stone-line route established in S002; the recovery wagon and broken convoy remain visible farther back.", "camera": "Readable wide linking relay, survivor route, wreck field, and northern cut.", "movement": "Cyanis enters the relay perimeter and checks the incoming survivor line.", "interrupt": false, "implementation_flags": ["RESUME_AFTER_S002", "CINEMATIC_WORLD_BEAT"]}
+}, {
+"beat_id": "S003_B002",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 260, "staging": "Cyanis counts visible survivors, able escorts, and the distance between relay, wreckage, and recovery wagon. He does not receive supernatural information; all assessment is line-of-sight and prior field knowledge.", "camera": "Short observational inserts: survivors entering relay perimeter, damaged escort line, recovery wagon, northern cut.", "movement": "None.", "interrupt": false, "implementation_flags": ["CINEMATIC_WORLD_BEAT", "FIELD_COUNT", "NATURAL_BATTLEFIELD_AWARENESS"]}
+}, {
+"beat_id": "S003_B003",
+"speaker_id": "convoy_superior_officer",
+"text": "Report.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "The officer arrives from the wreck field while still tracking the northern withdrawal.", "camera": "Medium two-shot.", "movement": "Officer stops beside Cyanis, not in front of him theatrically.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S003_B004",
+"speaker_id": "cyanis",
+"text": "Seventeen moving. Five need carrying. Two escorts can still fight cleanly. Three more can hold a fixed line.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 55, "staging": "Cyanis gives only the field count he can support from observation and the work already done in S002.", "camera": "Hold two-shot with survivor movement in background.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "FIELD_COUNT"]}
+}, {
+"beat_id": "S003_B005",
+"speaker_id": "convoy_superior_officer",
+"text": "Recovery wagon?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Immediate operational question.", "camera": "Brief sightline toward the convoy center.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S003_B006",
+"speaker_id": "cyanis",
+"text": "Still ours. East approach is open. Center road isn't safe for the wounded.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "He separates cargo control from casualty movement rather than collapsing both into one problem.", "camera": "Keep wreckage and survivor route geographically legible.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "FIELD_CONTROL_READ"]}
+}, {
+"beat_id": "S003_B007",
+"speaker_id": "convoy_superior_officer",
+"text": "North side is still withdrawing.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "The officer watches the opportunity rather than dismissing the casualty picture.", "camera": "Over-shoulder toward the northern cut.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S003_B008",
+"speaker_id": "cyanis",
+"text": "I know.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "No argument yet. Cyanis keeps watching the same ground.", "camera": "Hold shared sightline.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S003_B009",
+"speaker_id": "convoy_superior_officer",
+"text": "If they reach the ridge intact, they regroup and hit us again.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "The pursuit rationale is legitimate: a retreating hostile force may re-form and renew the attack.", "camera": "Officer remains focused on the north route, not framed as reckless or cruel.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "PURSUIT_RATIONALE"]}
+}, {
+"beat_id": "S003_B010",
+"speaker_id": "convoy_superior_officer",
+"text": "Take everyone who can still move fast. Drive them north before they settle.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 70, "staging": "A direct pursuit order based on the apparent retreat. The officer believes speed may prevent another attack.", "camera": "Medium two-shot; no villain framing.", "movement": "Officer starts to indicate the northern cut.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "PURSUIT_ORDER_GIVEN"]}
+}, {
+"beat_id": "S003_B011",
+"speaker_id": "cyanis",
+"text": "No, sir. We don't have the line for it.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 120, "staging": "The refusal is quiet, formal, and immediate. Cyanis does not raise his voice or turn the moment into a challenge of status.", "camera": "Hold on Cyanis without heroic push-in.", "movement": "Cyanis remains facing the field.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "AUTHORED_PURSUIT_REFUSAL"]}
+}, {
+"beat_id": "S003_B012",
+"speaker_id": "convoy_superior_officer",
+"text": "Dovaren.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 80, "staging": "A warning and request for clarity, not theatrical outrage.", "camera": "Return to two-shot.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S003_B013",
+"speaker_id": "cyanis",
+"text": "The wounded and civilians are still exposed. Five people cannot move without help.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 50, "staging": "First required tactical reason: exposed wounded and civilians. Cyanis points toward the survivor line only if needed; he does not sentimentalize the fact.", "camera": "Include survivors crossing into the relay perimeter.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "REFUSAL_REASON_EXPOSED_SURVIVORS"]}
+}, {
+"beat_id": "S003_B014",
+"speaker_id": "convoy_superior_officer",
+"text": "We leave a guard here.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "The officer tests whether a reduced holding force solves the problem.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S003_B015",
+"speaker_id": "cyanis",
+"text": "Then we split damaged defenders between two fights.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "Second required tactical reason: pursuit divides the already damaged defense.", "camera": "Brief composition linking relay defenders and northern cut.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "REFUSAL_REASON_SPLIT_DEFENDERS"]}
+}, {
+"beat_id": "S003_B016",
+"speaker_id": "convoy_superior_officer",
+"text": "If they are running, there isn't a second fight.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 55, "staging": "The officer presses the key uncertainty rather than conceding immediately.", "camera": "Shared look toward the retreat.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S003_B017",
+"speaker_id": "cyanis",
+"text": "If they're running, we lose nothing by holding ten minutes. If they're baiting us, we lose the field by chasing now.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 70, "staging": "Cyanis frames the uncertainty as asymmetric risk rather than pretending he knows the enemy intent.", "camera": "Keep northern cut and wreck field in the same geographic logic.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "BAIT_RISK_ARGUMENT"]}
+}, {
+"beat_id": "S003_B018",
+"speaker_id": "convoy_superior_officer",
+"text": "You're basing that on the cut.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "The officer identifies Cyanis's evidence from S002.", "camera": "North cut insert.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S003_B019",
+"speaker_id": "cyanis",
+"text": "The cut, the blocked center, and where they left pressure. They opened one direction for us and closed the rest.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 55, "staging": "He cites observable S002 evidence, not intuition dressed as certainty.", "camera": "Three quick readable field inserts matching each observation.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "S002_EVIDENCE_RECALLED", "NATURAL_BATTLEFIELD_AWARENESS"]}
+}, {
+"beat_id": "S003_B020",
+"speaker_id": "convoy_superior_officer",
+"text": "And the recovery wagon?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "The officer asks what holding means for the mission cargo.", "camera": "Sightline toward the recovery wagon.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S003_B021",
+"speaker_id": "cyanis",
+"text": "We leave the wreckage and recovery wagon behind a pursuit, we surrender control of the whole field. They only have to turn around before we do.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 75, "staging": "Third required tactical reason: abandoning wreckage and cargo gives up field control. Cyanis keeps the logic operational rather than mystical or artifact-reverent.", "camera": "Hold geographic line from relay through wreckage to recovery wagon.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "REFUSAL_REASON_FIELD_AND_CARGO_CONTROL"]}
+}, {
+"beat_id": "S003_B022",
+"speaker_id": "convoy_superior_officer",
+"text": "So your recommendation is to let them walk.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "The officer states the cost plainly; this is not a trick question.", "camera": "Two-shot.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S003_B023",
+"speaker_id": "cyanis",
+"text": "My recommendation is that we keep what we still have.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 55, "staging": "Cyanis refuses the framing that inaction equals surrender; he centers surviving force, people, cargo, and ground.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S003_B024",
+"speaker_id": "convoy_superior_officer",
+"text": "Spell it out.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "The officer asks for the executable alternative, showing willingness to evaluate rather than demand obedience for its own sake.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S003_B025",
+"speaker_id": "cyanis",
+"text": "Move every casualty to the relay. Re-form the escorts around the wreck and recovery wagon. Watch north, but don't feed anyone into that cut.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 65, "staging": "The alternative is concrete and immediately actionable.", "camera": "Show relay, wreck line, wagon, then north watch direction as each part is named.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "PROTECTIVE_TACTICAL_COURSE"]}
+}, {
+"beat_id": "S003_B026",
+"speaker_id": "convoy_superior_officer",
+"text": "And if they reform anyway?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "Final pressure test of Cyanis's plan.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S003_B027",
+"speaker_id": "cyanis",
+"text": "Then they come back to a line instead of finding our backs.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 100, "staging": "Short conclusion. No claim that the plan is risk-free.", "camera": "Hold two-shot, survivor movement continuing behind them.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S003_B028",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 420, "staging": "The officer looks north, then back across the actual field: exposed casualty movement, damaged defenders, unstable wreckage, and the recovery wagon. The decision turns on evidence already visible to both people.", "camera": "Slow practical survey, ending on officer.", "movement": "None.", "interrupt": false, "implementation_flags": ["CINEMATIC_WORLD_BEAT", "OFFICER_EVALUATES_EVIDENCE"]}
+}, {
+"beat_id": "S003_B029",
+"speaker_id": "convoy_superior_officer",
+"text": "All right. Relay first. Pull the south survivors in and reform on the wagon. Two eyes north at all times.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 55, "staging": "The ranking officer issues the revised formal order after accepting the tactical argument. Cyanis does not seize command authority.", "camera": "Widen as the order becomes field action.", "movement": "Nearby escorts begin redirecting toward relay and wagon positions.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "PURSUIT_ORDER_REVISED", "PROTECTIVE_TACTICAL_COURSE"]}
+}, {
+"beat_id": "S003_B030",
+"speaker_id": "cyanis",
+"text": "Yes, sir.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 80, "staging": "Immediate acknowledgment once the order matches the field reality.", "camera": "Medium on Cyanis.", "movement": "Cyanis turns toward the incoming casualty route.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S003_B031",
+"speaker_id": "convoy_superior_officer",
+"text": "Dovaren.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "Cyanis pauses before moving.", "camera": "Two-shot.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S003_B032",
+"speaker_id": "convoy_superior_officer",
+"text": "Next time, give me the field before the refusal.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 65, "staging": "The officer preserves hierarchy and process without retracting the revised decision.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "AUTHORITY_PROCESS_NOTE"]}
+}, {
+"beat_id": "S003_B033",
+"speaker_id": "cyanis",
+"text": "Fair.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 110, "staging": "Cyanis accepts the procedural correction without defensiveness. This is not a victory lap.", "camera": "Hold briefly, then release the exchange.", "movement": "Officer turns back toward the wreck line; Cyanis turns toward the casualty route.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S003_B034",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 260, "staging": "The field begins reorganizing under the revised order. Survivors move into the relay perimeter; escorts reform around the wreck and recovery wagon; north remains watched rather than pursued. No Card response occurs in S003.", "camera": "Wide operational view showing the protective course taking effect.", "movement": "Cyanis moves with the casualty line toward the relay interior and next triage staging area.", "interrupt": false, "implementation_flags": ["CINEMATIC_WORLD_BEAT", "S003_DECISION_EXECUTING"]}
+}, {
+"beat_id": "S003_B035",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 160, "staging": "Return control for the short move from the Evacuation Relay toward the Field Triage Camp transition. Preserve Cyanis as the sole permanent controllable party member; Ilyra has not entered yet.", "camera": "Return to exploration camera.", "movement": "Player control resumes toward the authored S004 trigger.", "interrupt": false, "implementation_flags": ["HANDOFF_TO_EXPLORATION", "HANDOFF_TO_S004_FIELD_TRIAGE_CAMP", "COMMIT_S003_ONLY_AFTER_DECISION_EXECUTION"]}
+}]
