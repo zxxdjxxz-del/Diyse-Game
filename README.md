@@ -6,17 +6,19 @@ This repository is the active implementation line. The older `zxxdjxxz-del/Diyse
 
 ## Current authority and phase
 
-- Written whole-project authority: **Diyse: 2.5D JRPG Clean Active Master Canon v1.35 — Production Dialogue Authoring Contract and Step 7C Handoff Lock Revision**.
-- Technical authority: **Diyse Active Technical Annex v1.35**.
-- Dialogue craft/authoring authority: **Diyse Active Dialogue Development Annex v1.2 — Completed Study and Locked Step 7C Authoring Contract Authority**.
-- Implementation evidence: **Diyse Step 7B.5 Technical Feasibility & Android Proof Report v1.0** and **Diyse Step 7B.6 Production Handoff Lock Report v1.0**.
-- Recovery checkpoint: **v1.35 / Audit47**.
+- Written whole-project authority: **Diyse: 2.5D JRPG Clean Active Master Canon v1.36 — Chapter 0 Production Dialogue Canonization and Step 7C First-Chapter Completion Revision**.
+- Technical authority: **Diyse Active Technical Annex v1.36**.
+- Dialogue craft/authoring authority: **Diyse Active Dialogue Development Annex v1.3 — Completed Study, Locked Authoring Contract, and Approved Chapter 0 Production Dialogue Authority**.
+- Implementation evidence: **Diyse Step 7B.5 Technical Feasibility & Android Proof Report v1.0**, **Diyse Step 7B.6 Production Handoff Lock Report v1.0**, and **Diyse Step 7C Chapter 0 Production Dialogue Completion & Validation Report v1.0**.
+- Recovery checkpoint: **v1.36 / Audit48**. v1.35 / Audit47 and earlier are frozen predecessor/history only.
 
 **Step 7B.5 is COMPLETE and PASSED on a real Android device.** The clean Godot architecture has proven 2.5D exploration, authored portrait dialogue, Diyse round combat, unlimited data-driven Standard Cards, direct-control Prime replacement, deterministic hostile retargeting, and versioned save/load persistence across app close/relaunch.
 
-**Step 7B.6 is COMPLETE and PASSED.** Production dialogue now has a stable-ID Resource contract, portrait-registry indirection, schema validation, a generic Resource-to-DialogueRunner adapter, and a Step 7C authoring template. The accepted 7B.6 implementation merge is `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.
+**Step 7B.6 is COMPLETE and PASSED.** Production dialogue has a stable-ID Resource contract, portrait-registry indirection, schema validation, a generic Resource-to-DialogueRunner adapter, and a Step 7C authoring template. The accepted 7B.6 implementation merge is `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.
 
-**Step 7C is ACTIVE / AUTHORIZED as of August 8, 2026.** Dialogue-First Scene Writing begins chronologically with Chapter 0 S001–S006, then C01 and C02 unless the user changes the order. Individual scene drafts remain subject to canon/voice review and schema validation before they are treated as approved production dialogue.
+**Step 7C is ACTIVE. Chapter 0 is COMPLETE / MERGED.** S001–S006 plus C01 and C02 are approved production dialogue and were merged at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5` after whole-chapter continuity review, full Godot regression, rendered-field proof, and Android APK export. The next mandatory production block is **Chapter 1 S007–S011**.
+
+The default Step 7C workflow is now chapter-level: one branch/PR per chapter, scene-by-scene review/checkpointing, whole-chapter continuity/repetition/voice/runtime review, then full Godot + Android gating at the chapter checkpoint unless engine/schema/platform behavior changes sooner.
 
 The accepted pre-documentation 7B.5 gameplay baseline is commit `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`. Later documentation/authority commits propagate current status and do not by themselves redefine accepted gameplay behavior.
 
