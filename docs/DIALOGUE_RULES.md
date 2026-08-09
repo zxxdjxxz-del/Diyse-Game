@@ -21,7 +21,7 @@ Cyanis and the rest of the cast use authored dialogue.
 
 The dialogue study is **COMPLETE**. Diyse Active Dialogue Development Annex v1.1 is the finished craft basis for production dialogue unless the user explicitly revises it.
 
-Step 7B.5C has also **PASSED on Android** and proved that the generic dialogue architecture can support:
+Step 7B.5C **PASSED on Android** and proved that the generic dialogue architecture can support:
 
 - speaker names and authored text;
 - portrait/expression changes;
@@ -33,9 +33,22 @@ Step 7B.5C has also **PASSED on Android** and proved that the generic dialogue a
 - clean return to exploration;
 - authored conversations without response-menu architecture.
 
-The technical-proof Cyanis/Torren dialogue and placeholder portraits were disposable fixtures and are not script or visual canon.
+Step 7B.6 **PASSED** and locks the production authoring handoff:
 
-**Step 7C — Dialogue-First Scene Writing remains ON HOLD until explicit user authorization.** Do not infer authorization from completion of the study or technical proof.
+- production scenes use `DiyseDialogueSceneDefinition` Resources;
+- scenes use stable semantic IDs, not embedded portrait file paths;
+- portrait assets resolve through `DiyseDialoguePortraitRegistry`;
+- beat IDs follow `<SCENE_ID>_B###`;
+- trigger and completion IDs are explicit content data;
+- staging/camera/movement instructions travel as cue metadata separate from spoken text;
+- the generic `DialogueRunner` consumes Resource-backed scenes through `start_scene(...)`;
+- choice/response/branch fields are forbidden and schema-validated.
+
+See `docs/DIALOGUE_AUTHORING_SCHEMA.md` and `docs/STEP_7C_AUTHORING_TEMPLATE.md` before authoring or integrating a production scene.
+
+The technical-proof Cyanis/Torren dialogue, `PROOF_SCHEMA`, and placeholder portraits are disposable fixtures and are not script or visual canon.
+
+**Step 7C — Dialogue-First Scene Writing remains ON HOLD until explicit user authorization.** Do not infer authorization from completion of the study, technical proof, or production handoff.
 
 When Step 7C is explicitly authorized, the standing production order begins with Chapter 0 S001–S006, then C01 and C02, unless the user changes the order.
 
@@ -67,6 +80,8 @@ Engineering should not force every line into the same cinematic presentation. Th
 - Conversation progression may depend on ordinary story/world flags when canon requires it, but not on player-selected personality responses.
 - The UI must remain readable on Android in landscape orientation.
 - Generic dialogue code must remain character-agnostic; authored records decide what a character says and how a scene is staged.
+- Production scene Resources must use registered character/expression IDs rather than raw portrait asset paths.
+- Cue metadata must not be used to smuggle in unapproved gameplay mechanics or branching player responses.
 
 ## Character-sheet protection
 
@@ -77,3 +92,5 @@ The dialogue runner presents authored data; it does not decide what Cyanis, Ilyr
 ## Step 7C boundary
 
 When authorized, Step 7C may add exact voiced dialogue, staging, portrait/performance notes, camera intent, contextual line banks, interruptions, pauses and implementation flags. It may not silently reopen story outcomes, class architecture, combat rules, Card/Prime identities, relationship canon, Vaelkor/fragment authority or final-act hard locks.
+
+Every implementation-ready Step 7C scene must follow the stable-ID Resource schema and pass structural validation in addition to narrative/canon review.

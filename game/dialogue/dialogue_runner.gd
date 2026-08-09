@@ -1,6 +1,8 @@
 extends Control
 
 signal conversation_finished
+signal scene_finished(scene_id: String)
+signal beat_presented(scene_id: String, beat_id: String, cues: Dictionary)
 
 @onready var left_portrait: TextureRect = $Panel/LeftPortrait
 @onready var right_portrait: TextureRect = $Panel/RightPortrait
@@ -12,6 +14,7 @@ signal conversation_finished
 var _beats: Array = []
 var _index := -1
 var _running := false
+var _scene_id := ""
 
 func _ready() -> void:
 	visible = false
@@ -19,6 +22,21 @@ func _ready() -> void:
 
 func is_running() -> bool:
 	return _running
+
+func start_scene(scene_definition: DiyseDialogueSceneDefinition, registry: DiyseDialoguePortraitRegistry) -> bool:
+	if scene_definition == null or registry == null:
+		return false
+	var failures := scene_definition.validate_schema(registry)
+	if not failures.is_empty():
+		for failure in failures:
+			push_error("Dialogue scene validation failed: %s" % failure)
+		return false
+	var runner_beats := scene_definition.to_runner_beats(registry)
+	if runner_beats.is_empty():
+		return false
+	_scene_id = scene_definition.scene_id
+	start_conversation(runner_beats)
+	return true
 
 func start_conversation(beats: Array) -> void:
 	if beats.is_empty():
@@ -46,6 +64,9 @@ func _apply_beat(beat: Dictionary) -> void:
 	var left_path := str(beat.get("left_portrait", ""))
 	var right_path := str(beat.get("right_portrait", ""))
 	var active_side := str(beat.get("active_side", "none"))
+	var beat_id := str(beat.get("beat_id", ""))
+	var cues_value = beat.get("cues", {})
+	var cues: Dictionary = cues_value.duplicate(true) if cues_value is Dictionary else {}
 
 	speaker_label.text = speaker
 	body_label.text = text
@@ -56,6 +77,7 @@ func _apply_beat(beat: Dictionary) -> void:
 
 	left_portrait.modulate.a = 1.0 if active_side == "left" or active_side == "none" else 0.55
 	right_portrait.modulate.a = 1.0 if active_side == "right" or active_side == "none" else 0.55
+	beat_presented.emit(_scene_id, beat_id, cues)
 
 func _set_portrait(target: TextureRect, resource_path: String) -> void:
 	if resource_path.is_empty():
@@ -68,8 +90,12 @@ func _set_portrait(target: TextureRect, resource_path: String) -> void:
 	target.visible = loaded != null
 
 func _finish() -> void:
+	var finished_scene_id := _scene_id
 	_running = false
 	visible = false
 	_beats.clear()
 	_index = -1
+	_scene_id = ""
+	if not finished_scene_id.is_empty():
+		scene_finished.emit(finished_scene_id)
 	conversation_finished.emit()
