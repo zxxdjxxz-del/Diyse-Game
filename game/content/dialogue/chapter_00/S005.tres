@@ -1,0 +1,295 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "S005"
+chapter_id = "chapter_00"
+scene_kind = "mandatory"
+location_id = "LOC_BORDERLANDS_FIELD_TRIAGE_CAMP"
+trigger_id = "trigger.chapter_00.s005"
+completion_flag = "scene.s005.complete"
+participants = Array[String](["cyanis", "ilyra", "convoy_superior_officer"])
+authoring_notes = "Step 7C S005 provisional draft on the Chapter 0 completion branch. This scene frames and hands off the fixed final Broken Convoy encounter: Cyanis + Ilyra versus the Level 4 Convoy War-Sorcerer at 70% HP and Level 3 injured Iron Cohort Soldier at 50% HP. War-Sorcerer Rift Lance Preparation remains prohibited before Round 2. The internal one-time Broken Champion's Ward state carries for its approved three rounds (+20 Total Defense; first eligible hostile direct action received by each party member deals 20% less eligible damage). The internal label is never player-facing and is not a full Prime activation, selectable Card command, Prime use, or refresh source. Defeating the War-Sorcerer ends the encounter; the injured Soldier withdraws if still active. S006 owns aftermath, roster closure, and next-route consequences. No dialogue choice architecture."
+beats = [{
+"beat_id": "S005_B001",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 220, "staging": "Continue directly from S004. The fractured green-and-gold protection remains visible along the defended camp edge. The Convoy War-Sorcerer advances through the east cut with an injured Iron Cohort Soldier supporting him.", "camera": "Wide geography showing camp behind Cyanis/Ilyra and both incoming hostiles ahead.", "movement": "Cyanis and Ilyra take the forward edge without leaving the defended treatment perimeter.", "interrupt": false, "implementation_flags": ["S005_CONFRONTATION_BEGIN", "INTERNAL_WARD_STATE_ACTIVE", "ENCOUNTER_CH00_FINAL_VISIBLE"]}
+}, {
+"beat_id": "S005_B002",
+"speaker_id": "convoy_superior_officer",
+"text": "They're through the east cut.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "The officer reports the immediate breach without taking over Cyanis and Ilyra's local coordination.", "camera": "Keep enemies visible beyond him.", "movement": "Officer moves back toward the inner defensive line after reporting.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S005_B003",
+"speaker_id": "cyanis",
+"text": "Keep everyone behind stone. Nobody follows us out.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Cyanis protects the camp from turning the confrontation into another pursuit.", "camera": "Show wounded/civilians remaining behind cover.", "movement": "Escorts tighten the inner line instead of advancing.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "NO_PURSUIT_REAFFIRMED"]}
+}, {
+"beat_id": "S005_B004",
+"speaker_id": "ilyra",
+"text": "I need the lane behind me clear.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Ilyra states the medical requirement created by joining the defense.", "camera": "Show treatment lane behind her.", "movement": "She shifts her stance so she can still see the nearest critical patient.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_MEDICAL_JURISDICTION"]}
+}, {
+"beat_id": "S005_B005",
+"speaker_id": "cyanis",
+"text": "You'll have it.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "Immediate acknowledgment of her requirement.", "camera": "Two-shot, functional rather than intimate.", "movement": "Cyanis shifts half a pace left to preserve the lane.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "MUTUAL_JURISDICTION_CONTINUES"]}
+}, {
+"beat_id": "S005_B006",
+"speaker_id": "ilyra",
+"text": "You said you could hold the front.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Ilyra checks the division of labor, not his courage.", "camera": "Hold both facing forward.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S005_B007",
+"speaker_id": "cyanis",
+"text": "I did.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 20, "staging": "Plain answer.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S005_B008",
+"speaker_id": "ilyra",
+"text": "Good. Hold the left half.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "She claims the other half of the defensive problem for herself rather than becoming support behind him.", "camera": "Split composition along the approach.", "movement": "Ilyra takes the right half with staff ready.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_INDEPENDENT_COMBAT_AUTHORITY"]}
+}, {
+"beat_id": "S005_B009",
+"speaker_id": "cyanis",
+"text": "Generous.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Brief dry humor under pressure; no romantic beat.", "camera": "Do not cut to reaction close-up; keep threat visible.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_DRY_HUMOR"]}
+}, {
+"beat_id": "S005_B010",
+"speaker_id": "ilyra",
+"text": "I need the other half.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "Dry practical answer; this is coordination, not flirtation.", "camera": "Hold the shared line.", "movement": "Ilyra settles into position.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_DRY_HUMOR"]}
+}, {
+"beat_id": "S005_B011",
+"speaker_id": "convoy_superior_officer",
+"text": "Sorcerer's taking position.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 15, "staging": "Threat report only. Do not depict Rift Lance Preparation before Round 2.", "camera": "War-Sorcerer reaches encounter start position; no preparation VFX yet.", "movement": "Injured Soldier takes the supporting approach at reduced readiness.", "interrupt": true, "implementation_flags": ["IN_WORLD_DIALOGUE", "RIFT_LANCE_PREPARATION_NOT_BEFORE_ROUND_2"]}
+}, {
+"beat_id": "S005_B012",
+"speaker_id": "cyanis",
+"text": "Sorcerer's the threat. Don't let the soldier pull us off the line.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Cyanis identifies the encounter's central threat without hard-locking player target selection.", "camera": "Show both enemies and defended line in the same geography.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "NO_TARGET_LOCK_FROM_DIALOGUE"]}
+}, {
+"beat_id": "S005_B013",
+"speaker_id": "ilyra",
+"text": "If that light changes around you, say it.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Ilyra monitors the unexplained condition without naming or understanding it.", "camera": "Subtle fractured geometry remains visible around the line.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "INCOMPLETE_RESPONSE_REMAINS_UNIDENTIFIED"]}
+}, {
+"beat_id": "S005_B014",
+"speaker_id": "cyanis",
+"text": "You'll know.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Cyanis still defaults toward functional reporting rather than self-monitoring.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_SELF_NEGLECT_EARLY"]}
+}, {
+"beat_id": "S005_B015",
+"speaker_id": "ilyra",
+"text": "I would prefer to know before you fall over.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 35, "staging": "Clinical correction with dry edge; she does not stop the imminent battle to therapize him.", "camera": "Keep both facing threat.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_CHALLENGES_MINIMIZATION"]}
+}, {
+"beat_id": "S005_B016",
+"speaker_id": "cyanis",
+"text": "Fair.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 65, "staging": "He accepts the correction without argument.", "camera": "Threat closes; dialogue ends.", "movement": "Cyanis raises shield; Ilyra brings staff into combat stance.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S005_B017",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 120, "staging": "Hard handoff into the controlling final Broken Convoy encounter. Dialogue must not alter statistics, action sheets, target legality, victory conditions, rewards, or temporary ward mechanics.", "camera": "Transition to combat presentation.", "movement": "Lock narrative staging and initialize encounter state.", "interrupt": false, "implementation_flags": ["COMBAT_HANDOFF", "ENCOUNTER_CH00_CONVOY_WAR_SORCERER", "PARTY_CYANIS_ILYRA", "WAR_SORCERER_START_HP_70_PERCENT", "INJURED_SOLDIER_START_HP_50_PERCENT", "RIFT_LANCE_PREPARATION_NOT_BEFORE_ROUND_2", "INTERNAL_WARD_THREE_ROUNDS", "INTERNAL_WARD_PLUS_20_TOTAL_DEFENSE", "INTERNAL_WARD_FIRST_ELIGIBLE_DIRECT_HIT_MINUS_20_PERCENT_PER_PARTY_MEMBER", "INTERNAL_WARD_NOT_PRIME_USE"]}
+}, {
+"beat_id": "S005_B018",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 250, "staging": "Return only after controlling encounter victory. The War-Sorcerer is defeated. If the injured Soldier remains active, he withdraws through the east cut exactly as encounter authority requires.", "camera": "Return to defended camp edge; prioritize state of treatment area over victory posing.", "movement": "Cyanis and Ilyra remain on the line long enough to confirm the threat has broken.", "interrupt": false, "implementation_flags": ["RETURN_FROM_COMBAT_AFTER_VICTORY", "WAR_SORCERER_DEFEATED", "INJURED_SOLDIER_WITHDRAWS_IF_STILL_ACTIVE"]}
+}, {
+"beat_id": "S005_B019",
+"speaker_id": "convoy_superior_officer",
+"text": "Soldier's pulling back.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Only present if the injured Soldier survived the encounter; otherwise skip this beat cleanly.", "camera": "Show withdrawal route without encouraging chase.", "movement": "No allied pursuit.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CONDITIONAL_IF_INJURED_SOLDIER_ACTIVE"]}
+}, {
+"beat_id": "S005_B020",
+"speaker_id": "cyanis",
+"text": "Let him.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 55, "staging": "Cyanis preserves the decision made in S003; no post-victory chase.", "camera": "Cyanis turns away from retreat toward the camp.", "movement": "None pursue.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "NO_PURSUIT_REAFFIRMED", "CONDITIONAL_IF_INJURED_SOLDIER_ACTIVE"]}
+}, {
+"beat_id": "S005_B021",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 160, "staging": "The fractured green-and-gold geometry loses coherence after the confrontation. It fades rather than transforming into a complete manifestation. No identity is revealed.", "camera": "Brief environmental insert on cracked protection lines fading from stone and wagon supports.", "movement": "Camp remains intact but damaged.", "interrupt": false, "implementation_flags": ["INCOMPLETE_RESPONSE_FADES", "NO_COMPLETE_MANIFESTATION", "NO_IDENTITY_REVEAL"]}
+}, {
+"beat_id": "S005_B022",
+"speaker_id": "ilyra",
+"text": "Still hearing me clearly?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "Ilyra returns immediately to the unresolved medical consequence rather than celebrating.", "camera": "Functional two-shot; camp activity continues behind them.", "movement": "She visually checks Cyanis without touching him yet.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_MEDICAL_FOLLOWUP"]}
+}, {
+"beat_id": "S005_B023",
+"speaker_id": "cyanis",
+"text": "Clearly enough.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 25, "staging": "He reports function rather than claiming recovery.", "camera": "Hold.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S005_B024",
+"speaker_id": "ilyra",
+"text": "I'll take enough for the next thirty seconds.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 45, "staging": "Dry medical practicality; she has not decided he is fine.", "camera": "She turns her attention toward the treatment lane while keeping him in peripheral view.", "movement": "Ilyra starts back toward patients.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_DRY_HUMOR"]}
+}, {
+"beat_id": "S005_B025",
+"speaker_id": "cyanis",
+"text": "Patients?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 20, "staging": "His first post-battle question is the camp condition.", "camera": "Shift focus back to triage activity.", "movement": "Cyanis follows at a slower pace.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"]}
+}, {
+"beat_id": "S005_B026",
+"speaker_id": "ilyra",
+"text": "Still alive. One worse, one better. I don't trust the one who's better yet.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 55, "staging": "Ilyra gives an honest medical status instead of false reassurance.", "camera": "Show both critical patients still receiving care.", "movement": "She resumes triage immediately.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_NO_FALSE_REASSURANCE"]}
+}, {
+"beat_id": "S005_B027",
+"speaker_id": "cyanis",
+"text": "What do you need?",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "Cyanis asks within Ilyra's medical jurisdiction rather than assuming what help means.", "camera": "Return to the work space they established in S004.", "movement": "None.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "MUTUAL_JURISDICTION_CONTINUES"]}
+}, {
+"beat_id": "S005_B028",
+"speaker_id": "ilyra",
+"text": "Two carriers, clean water, and for you to sit down when I tell you.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 40, "staging": "Concrete needs first; Cyanis is included as a patient without becoming the center of her work.", "camera": "Keep nearby survivors responding to the first two requests.", "movement": "Ilyra points two able survivors toward carrying and water tasks.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "SURVIVOR_ROLE_ASSIGNMENT", "ILYRA_INCLUDES_CYANIS_IN_CARE"]}
+}, {
+"beat_id": "S005_B029",
+"speaker_id": "cyanis",
+"text": "That last one sounded less like a request.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 30, "staging": "A small release of pressure after victory; no romantic framing.", "camera": "Do not isolate them from the camp.", "movement": "Cyanis nevertheless moves toward the indicated seat/stone.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "CYANIS_DRY_HUMOR"]}
+}, {
+"beat_id": "S005_B030",
+"speaker_id": "ilyra",
+"text": "It wasn't.",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 75, "staging": "Ilyra's authority remains medical and matter-of-fact.", "camera": "End on the camp returning to work, not on a romantic reaction beat.", "movement": "Cyanis complies; Ilyra turns fully back to the patients.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_MEDICAL_JURISDICTION"]}
+}, {
+"beat_id": "S005_B031",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"pause_ms": 250, "staging": "S005 closes with the confrontation over and immediate treatment/security work continuing. Do not resolve permanent recruitment, final survivor accounting, institutional consequences, chapter rewards, or the route to Chapter 1 here; S006 owns those aftermath functions.", "camera": "Wide field-triage camp settling into post-combat emergency work.", "movement": "Return to authored transition toward S006 aftermath.", "interrupt": false, "implementation_flags": ["S005_COMPLETE", "HANDOFF_TO_S006", "NO_PERMANENT_RECRUITMENT_YET", "NO_CHAPTER_ROUTE_UNLOCK_YET"]}
+}]
