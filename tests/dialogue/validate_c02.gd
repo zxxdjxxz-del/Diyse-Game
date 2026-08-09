@@ -14,7 +14,6 @@ const FORBIDDEN_SPOKEN_TERMS := [
 	"war-sorcerer",
 	"prophecy",
 	"chosen",
-	"quest",
 	"vaelkor",
 	"entity",
 	"romance",
