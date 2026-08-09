@@ -10,6 +10,7 @@ Before changing gameplay code, read:
 2. `docs/IMPLEMENTATION_STATUS.md`
 3. the subsystem document relevant to the task
 4. `docs/TECHNICAL_PROOF.md` when the task touches architecture proven in Step 7B.5
+5. `docs/DIALOGUE_AUTHORING_SCHEMA.md` and `docs/STEP_7C_AUTHORING_TEMPLATE.md` before authoring or integrating production dialogue
 
 If a task conflicts with these files or with a newer explicit user instruction, stop and flag the conflict. Do not silently reinterpret canon.
 
@@ -19,6 +20,7 @@ If a task conflicts with these files or with a newer explicit user instruction, 
 - Technical authority: **Active Technical Annex v1.34**.
 - Dialogue craft authority: **Dialogue Development Annex v1.1**; the dialogue study is complete.
 - Step 7B.5 technical feasibility: **COMPLETE / PASS on real Android hardware**.
+- Step 7B.6 production authoring handoff: **COMPLETE / PASS**.
 - Step 7C full scene writing: **ON HOLD until explicit user authorization**.
 - Accepted pre-documentation gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`.
 
@@ -29,6 +31,7 @@ If a task conflicts with these files or with a newer explicit user instruction, 
 - Historical prototypes may be consulted only for lessons or evidence when specifically requested.
 - Diyse is 2.5D: real 3D environments/depth/lighting/traversal combined with stylized 2D/2.5D character presentation.
 - Diyse has no player dialogue-choice system. Do not create dialogue wheels, response menus, affinity dialogue, tone selections, persuasion trees, or branching player-spoken responses.
+- Production dialogue must use the accepted stable-ID Resource schema rather than embedding canon scene text or raw portrait asset paths into generic engine code.
 - Combat is discrete round-based command combat, not real-time or timeline combat.
 - Maximum active permanent battle party is four.
 - Permanent battle commands are Attack / Ability / Card / Item / Defend.
@@ -56,8 +59,8 @@ If a task conflicts with these files or with a newer explicit user instruction, 
 
 ## Accepted-proof regression rule
 
-Step 7B.5 is closed. Its accepted automated tests and real-device behaviors are now the implementation regression baseline.
+Steps 7B.5 and 7B.6 are closed. Their accepted automated tests and real-device/platform behaviors are now part of the implementation regression baseline.
 
-Do not regress the proven exploration/dialogue/combat/Card/Prime/persistence architecture merely because later content is more complex. If a newer approved design genuinely requires changing an accepted behavior, update the controlling authority and tests deliberately rather than silently bypassing them.
+Do not regress the proven exploration/dialogue/combat/Card/Prime/persistence architecture or the production dialogue Resource contract merely because later content is more complex. If a newer approved design genuinely requires changing an accepted behavior, update the controlling authority and tests deliberately rather than silently bypassing them.
 
-Temporary proof fixtures are **not** protected content: graybox geometry, placeholder portraits/sprites, disposable dialogue, proof enemies, `Proof Strike`, temporary flat damage/rewards, proof flags, and debug UI should be replaced during production without rewriting the proven subsystem boundaries.
+Temporary proof fixtures are **not** protected content: graybox geometry, placeholder portraits/sprites, disposable dialogue, `PROOF_SCHEMA`, proof enemies, `Proof Strike`, temporary flat damage/rewards, proof flags, and debug UI should be replaced during production without rewriting the proven subsystem boundaries.
