@@ -2,6 +2,7 @@
 
 **Authority checkpoint:** v1.34 / Audit46  
 **Step 7B.5:** COMPLETE / PASS on real Android hardware  
+**Step 7B.6:** COMPLETE / PASS — production dialogue authoring handoff locked  
 **Step 7C:** ON HOLD pending explicit user authorization  
 **Active repository:** `zxxdjxxz-del/Diyse-Game`  
 **Accepted pre-documentation gameplay baseline:** `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`
@@ -17,6 +18,7 @@
 | 7B.5E | PASS | Unlimited data-driven Standard Card path and automatic hostile retargeting |
 | 7B.5F | PASS | Bearer-locked direct-control Prime replacement/suspension/return architecture |
 | 7B.5G | PASS | Versioned plain-data save/load and persistence across full Android app close/relaunch |
+| 7B.6 | PASS | Stable-ID dialogue scene Resources, portrait registry, authoring template, schema validation and Resource-to-runner integration |
 
 ## Accepted implementation behaviors
 
@@ -27,6 +29,17 @@ The active Godot line supports real 3D fields/depth/lighting/collision with styl
 ### Dialogue
 
 Generic authored dialogue can be world-triggered, display portraits/expressions, present silent reaction beats, lock exploration input and return control cleanly. No player response architecture exists or should be introduced.
+
+Production dialogue now has an accepted handoff contract:
+
+- scene content is stored as `DiyseDialogueSceneDefinition` Resources;
+- scene/beat/character/expression/trigger/completion IDs are stable semantic handles;
+- portrait asset paths resolve through `DiyseDialoguePortraitRegistry` rather than living inside authored scenes;
+- cue metadata is kept separate from spoken text and emitted for later staging/camera/movement consumers;
+- the generic runner consumes Resource-backed scenes without character-specific script logic;
+- forbidden choice/response/branch keys fail validation.
+
+See `DIALOGUE_AUTHORING_SCHEMA.md`, `STEP_7C_AUTHORING_TEMPLATE.md` and `PRODUCTION_HANDOFF_7B6.md`.
 
 ### Combat
 
@@ -53,6 +66,7 @@ Do not preserve these as authored game content merely because they exist in the 
 - graybox map/obstacle/chest geometry;
 - placeholder Cyanis/Torren world sprites and portraits;
 - disposable proof dialogue;
+- `PROOF_SCHEMA` and its proof registry/cues;
 - Raider proof enemies/stats;
 - `Proof Strike`;
 - temporary flat damage values;
@@ -62,12 +76,14 @@ Do not preserve these as authored game content merely because they exist in the 
 
 ## Regression expectation
 
-The automated tests accepted through Step 7B.5 are now the project regression baseline. Production work should extend them rather than bypass or weaken them.
+The automated tests accepted through Steps 7B.5 and 7B.6 are the project regression baseline. Production work should extend them rather than bypass or weaken them.
 
 ## Remaining production scope
 
-The technical PASS does not mean the game is content-complete. Normal production still includes final visual/audio/UI work, final formulas, complete character kits/equipment/enemies/encounters, all 24 Standard Cards, all 12 Prime implementations, Chapters 0–12, Character-Life scenes, broader device/performance QA and release hardening.
+The technical and handoff PASS does not mean the game is content-complete. Normal production still includes final visual/audio/UI work, final formulas, complete character kits/equipment/enemies/encounters, all 24 Standard Cards, all 12 Prime implementations, Chapters 0–12, Character-Life scenes, broader device/performance QA and release hardening.
 
 ## Narrative handoff
 
-The dialogue study is complete and the engine no longer blocks full narrative implementation on feasibility grounds. Nevertheless, **do not start Step 7C** until the user explicitly authorizes full Dialogue-First Scene Writing.
+The dialogue study is complete, technical feasibility is proven, and the production scene-data contract is locked. **No technical or authoring-format prerequisite remains before Step 7C.**
+
+Nevertheless, **do not start Step 7C** until the user explicitly authorizes full Dialogue-First Scene Writing.
