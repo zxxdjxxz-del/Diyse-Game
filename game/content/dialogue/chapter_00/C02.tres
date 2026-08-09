@@ -1,0 +1,565 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "C02"
+chapter_id = "chapter_00"
+scene_kind = "character_life"
+location_id = "LOC_BORDERLANDS_FIELD_TRIAGE_CAMP"
+trigger_id = "trigger.chapter_00.c02.after_s006"
+completion_flag = "scene.c02.complete"
+participants = Array[String](["cyanis", "ilyra"])
+authoring_notes = "Step 7C C02 approved Character-Life scene on the Chapter 0 completion branch. Available after S006 and fully skippable. Purpose is mutual self-neglect, food, and Cyanis/Ilyra's first quiet ease together. No essential plot delivery, Card/Prime information, quest solution, romance progression, recruitment decision, combat/system mutation, or player dialogue choices."
+beats = [{
+"beat_id": "C02_B001",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"staging": "Late evening at the Field Triage Camp. Ilyra sits at a makeshift table cleaning the last instruments and finishing patient labels. Most of the camp has settled."}
+}, {
+"beat_id": "C02_B002",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"staging": "Cyanis approaches carrying two bowls of camp stew and two pieces of coarse bread."}
+}, {
+"beat_id": "C02_B003",
+"speaker_id": "cyanis",
+"text": "Move that.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {"staging": "He nods toward the stack of clean cloth beside Ilyra's elbow."}
+}, {
+"beat_id": "C02_B004",
+"speaker_id": "ilyra",
+"text": "Why?",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B005",
+"speaker_id": "cyanis",
+"text": "Because that's where your dinner is going.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B006",
+"speaker_id": "ilyra",
+"text": "I'm almost finished.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B007",
+"speaker_id": "cyanis",
+"text": "Good. You can almost finish after you eat.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B008",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"staging": "Ilyra looks at him, then at the two bowls."}
+}, {
+"beat_id": "C02_B009",
+"speaker_id": "ilyra",
+"text": "When did you eat?",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B010",
+"speaker_id": "cyanis",
+"text": "I brought two bowls.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B011",
+"speaker_id": "ilyra",
+"text": "That was not the question.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B012",
+"speaker_id": "cyanis",
+"text": "I noticed.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B013",
+"speaker_id": "ilyra",
+"text": "Cyanis.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B014",
+"speaker_id": "cyanis",
+"text": "Not since before the attack.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B015",
+"speaker_id": "ilyra",
+"text": "And you're standing here telling me to eat.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B016",
+"speaker_id": "cyanis",
+"text": "I brought two bowls.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B017",
+"speaker_id": "ilyra",
+"text": "You seem very proud of that.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B018",
+"speaker_id": "cyanis",
+"text": "It was good planning.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B019",
+"speaker_id": "ilyra",
+"text": "Sit down.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B020",
+"speaker_id": "cyanis",
+"text": "I brought you food, not an arrest warrant.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B021",
+"speaker_id": "ilyra",
+"text": "Sit.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B022",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"staging": "Cyanis sits opposite her. He puts one bowl in front of Ilyra and keeps the other."}
+}, {
+"beat_id": "C02_B023",
+"speaker_id": "ilyra",
+"text": "There. Much better.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B024",
+"speaker_id": "cyanis",
+"text": "You haven't eaten yet.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B025",
+"speaker_id": "ilyra",
+"text": "Neither have you.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B026",
+"speaker_id": "cyanis",
+"text": "We're making excellent progress.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B027",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"staging": "They both take the first bite."}
+}, {
+"beat_id": "C02_B028",
+"speaker_id": "ilyra",
+"text": "Oh.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B029",
+"speaker_id": "cyanis",
+"text": "Bad?",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B030",
+"speaker_id": "ilyra",
+"text": "No. I just remembered I was hungry.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B031",
+"speaker_id": "cyanis",
+"text": "Same.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B032",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"staging": "They eat for a while without speaking. The silence is not awkward."}
+}, {
+"beat_id": "C02_B033",
+"speaker_id": "ilyra",
+"text": "Who made this?",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B034",
+"speaker_id": "cyanis",
+"text": "No idea.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B035",
+"speaker_id": "ilyra",
+"text": "It's mostly potatoes.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B036",
+"speaker_id": "cyanis",
+"text": "There are at least three other things in mine.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B037",
+"speaker_id": "ilyra",
+"text": "Can you identify them?",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B038",
+"speaker_id": "cyanis",
+"text": "No.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B039",
+"speaker_id": "ilyra",
+"text": "Then we have potatoes.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B040",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"staging": "Cyanis breaks his bread in half and slides one piece toward Ilyra."}
+}, {
+"beat_id": "C02_B041",
+"speaker_id": "ilyra",
+"text": "No.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B042",
+"speaker_id": "cyanis",
+"text": "It's bread.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B043",
+"speaker_id": "ilyra",
+"text": "It's your bread.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B044",
+"speaker_id": "cyanis",
+"text": "You care a lot about half a loaf.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B045",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"staging": "Ilyra takes her own piece of bread, breaks it in half, and slides half toward Cyanis. The two half-pieces cross on the table."}
+}, {
+"beat_id": "C02_B046",
+"speaker_id": "ilyra",
+"text": "Apparently so do you.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B047",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"staging": "They look at the crossed pieces of bread."}
+}, {
+"beat_id": "C02_B048",
+"speaker_id": "cyanis",
+"text": "This is stupid.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B049",
+"speaker_id": "ilyra",
+"text": "Very.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B050",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"staging": "Each takes the half the other offered. They keep eating."}
+}, {
+"beat_id": "C02_B051",
+"speaker_id": "ilyra",
+"text": "You don't have to watch me finish it.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B052",
+"speaker_id": "cyanis",
+"text": "I'm eating.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B053",
+"speaker_id": "ilyra",
+"text": "So am I.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B054",
+"speaker_id": "cyanis",
+"text": "Then we're both trapped.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B055",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"staging": "Ilyra gives him the faintest tired smile. Neither of them speaks for a while."}
+}, {
+"beat_id": "C02_B056",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"staging": "The bowls empty slowly. Around them the camp remains quiet. For the first time all day, neither Cyanis nor Ilyra is doing anything useful for anyone else."}
+}, {
+"beat_id": "C02_B057",
+"speaker_id": "ilyra",
+"text": "Tomorrow, if you bring food, eat yours before it gets cold.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B058",
+"speaker_id": "cyanis",
+"text": "Same rule for you.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B059",
+"speaker_id": "ilyra",
+"text": "That seems unnecessarily symmetrical.",
+"left": {},
+"right": {},
+"active_side": "right",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B060",
+"speaker_id": "cyanis",
+"text": "I can live with it.",
+"left": {},
+"right": {},
+"active_side": "left",
+"advance_mode": "manual",
+"cues": {}
+}, {
+"beat_id": "C02_B061",
+"speaker_id": "",
+"text": "",
+"left": {},
+"right": {},
+"active_side": "none",
+"advance_mode": "manual",
+"cues": {"staging": "They remain at the table a little longer after the food is gone. Nothing needs to be said."}
+}]
