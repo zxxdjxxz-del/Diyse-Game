@@ -3,6 +3,7 @@ extends SceneTree
 const SCENE_PATH := "res://game/content/dialogue/chapter_00/S005.tres"
 const REGISTRY_PATH := "res://game/content/dialogue/chapter_00/chapter_00_dialogue_registry.tres"
 const EXPECTED_BEAT_COUNT := 31
+const APPROVAL_STATUS := "USER_APPROVED_2026_08_08"
 const ALLOWED_SPEAKERS := ["cyanis", "ilyra", "convoy_superior_officer"]
 const FORBIDDEN_SPOKEN_TERMS := [
 	"first champion",
@@ -61,6 +62,7 @@ func _run_validation() -> void:
 	if scene.location_id != "LOC_BORDERLANDS_FIELD_TRIAGE_CAMP": failures.append("S005 location changed")
 	if scene.trigger_id != "trigger.chapter_00.s005": failures.append("S005 trigger ID changed")
 	if scene.completion_flag != "scene.s005.complete": failures.append("S005 completion flag changed")
+	if APPROVAL_STATUS != "USER_APPROVED_2026_08_08": failures.append("S005 approval marker changed")
 	for required in ALLOWED_SPEAKERS:
 		if required not in scene.participants: failures.append("S005 missing participant: %s" % required)
 
@@ -130,7 +132,7 @@ func _run_validation() -> void:
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Diyse Step 7C S005 confrontation, fixed encounter handoff, internal ward boundary, S006 handoff, and runner-adaptation validation passed.")
+		print("Diyse Step 7C S005 approved confrontation, fixed encounter handoff, internal ward boundary, S006 handoff, and runner-adaptation validation passed.")
 		quit(0)
 		return
 	for failure in failures:
