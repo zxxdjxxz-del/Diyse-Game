@@ -4,12 +4,12 @@ This file is an implementation-facing summary. It does **not** replace the autho
 
 ## Current written authority
 
-- **Whole-project root:** Diyse: 2.5D JRPG Clean Active Master Canon v1.36 — Chapter 0 Production Dialogue Canonization and Step 7C First-Chapter Completion Revision.
-- **Technical annex:** Diyse Active Technical Annex v1.36 — current numerical, proven implementation, production authoring-interface, and Chapter 0 validation authority.
-- **Dialogue annex:** Diyse Active Dialogue Development Annex v1.3 — completed study, locked authoring contract, and approved Chapter 0 production-dialogue authority.
-- **Implementation evidence:** Diyse Step 7B.5 Technical Feasibility & Android Proof Report v1.0; Diyse Step 7B.6 Production Handoff Lock Report v1.0; Diyse Step 7C Chapter 0 Production Dialogue Completion & Validation Report v1.0.
-- **Recovery checkpoint:** v1.36 / Audit48.
-- v1.35 / Audit47 and earlier are frozen recovery/history only.
+- **Controlling whole-project authority:** Diyse Clean Active Master Canon **v1.40 Chapter 0 Rebuild Change-Control Overlay**, inheriting all compatible v1.39 authority.
+- **Immediate predecessor/root baseline:** Clean Active Master Canon v1.39 — Chapter 1 Production Dialogue Canonization and Step 7C Second-Chapter Completion Revision.
+- **Technical baseline inherited:** Active Technical Annex v1.39 plus the v1.40 Chapter 0 implementation/change-control overlay.
+- **Chapter 1 canon wording:** `Diyse_Chapter_1_Production_Dialogue_S007-S011_v1.0_2026-08-09.docx` remains unchanged and controlling.
+- **Chapter 0 change-control record:** `docs/authority/CHAPTER_0_REBUILD_V1_40_CHANGE_CONTROL_2026-08-09.md`.
+- **Recovery checkpoint target:** v1.40 / Audit55. v1.39 / Audit54 becomes the frozen predecessor when the Audit55 package is issued.
 
 ## Workflow state
 
@@ -17,25 +17,32 @@ This file is an implementation-facing summary. It does **not** replace the autho
 - Step 7B.5 technical feasibility: **PASS — real Android device**.
 - Step 7B.6 production dialogue handoff: **COMPLETE / PASS**.
 - Step 7C Dialogue-First Scene Writing: **ACTIVE**.
-- Chapter 0 S001–S006 + C01/C02: **COMPLETE / APPROVED / MERGED**.
-- Chapter 0 merge: `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`.
-- Next mandatory production block: **Chapter 1 S007–S011**.
+- Rebuilt Chapter 0 S001-S006: **COMPLETE / USER-APPROVED / ACTIVE CANON**.
+- Chapter 0 runtime Resource replacement and revalidation: **PENDING**.
+- C01 `The Fire Is Too Close` and C02 `Food After Triage`: **retained optional Chapter 0 Character-Life canon**.
+- Chapter 1 S007-S011 prose: **CANON / PRESERVED**.
+- Chapter 1 Resource conversion and implementation validation remain a separate pending gate.
 - Active implementation repository: `zxxdjxxz-del/Diyse-Game`.
-- Accepted 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`.
-- Accepted 7B.6 implementation merge: `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.
 
-The default Step 7C workflow is chapter-level: one branch/PR per chapter or comparable substantial narrative block; scene-by-scene review/checkpointing; one chapter tracker; whole-chapter continuity/repetition/voice/runtime review; full Godot + Android regression at the chapter checkpoint unless engine/schema/platform changes require earlier gating; one authority/archive checkpoint after completion.
+## Chapter 0 supersession rule
+
+The previous Chapter 0 production merge `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5` remains valid historical proof of the dialogue Resource/validator/Android pipeline, but its mandatory scene Resources S001-S006 are **not current content authority after v1.40**.
+
+Until exact v1.40 replacement Resources are serialized and revalidated:
+
+- do not copy dialogue or staging from the old S001-S006 Resources into new content;
+- do not report the old Chapter 0 Godot/Android PASS as validation of the rebuilt scenes;
+- do not delete the old Resources until their exact replacements and validators are ready on the same branch;
+- do not modify C01/C02 merely because mandatory Chapter 0 was reopened; they remain current unless a compatibility change is actually required.
 
 ## Project foundation
 
 - Diyse is a mature-fantasy 2.5D JRPG with an approximately 20-hour critical path.
 - Permanent roster: exactly six — Cyanis Dovaren, Ilyra Amarin, Torren Harth, Nimera Pellan, Vaelira Serren, Seyrik Rell.
-- Maximum active permanent battle party: four.
+- Maximum active battle party: four.
 - Character level cap: 50.
-- Each permanent character has exactly one Base Class and one Subclass.
-- Combat is command-driven and turn-based using discrete rounds.
-- MP is the universal ordinary Ability resource.
-- There are no character-specific combat gauges/resources.
+- Combat is command-driven traditional discrete rounds.
+- MP is the universal ordinary Ability resource; there are no character-specific combat gauges/resources.
 - Permanent battle commands: Attack / Ability / Card / Item / Defend.
 - Current Card collection: 24 Standard Cards + 12 Prime Cards.
 - Standard Cards are unlimited-use.
@@ -44,79 +51,95 @@ The default Step 7C workflow is chapter-level: one branch/PR per chapter or comp
 
 ## Presentation authority
 
-Diyse is a **2.5D** game. This supersedes older implementation text that described the shipped game as fully 3D.
-
-The target combines 3D environments/depth/lighting/traversal with stylized 2D/2.5D character presentation and expressive illustrated dialogue portraits where appropriate. Step 7B.5 proved the architectural coexistence on Android; its graybox method/art remains non-canon.
+Diyse is a **2.5D** game: real 3D environments/depth/lighting/traversal and cinematic battle spaces combined with stylized 2D/2.5D character presentation and expressive illustrated dialogue portraits where appropriate.
 
 ## Dialogue authority
 
 Diyse has **no player dialogue choices**. Cyanis is a defined authored protagonist. Do not implement response wheels, tone menus, affinity dialogue, branching player-spoken responses, persuasion trees, good/evil dialogue, or romance dialogue choices.
 
-The dialogue study is complete. Step 7B.6 locks the production authoring interface:
+Production dialogue uses the locked stable-ID interface:
 
-- production scene records use `DiyseDialogueSceneDefinition` Resources;
-- scene, beat, character/NPC, expression, trigger and completion identifiers are stable semantic IDs;
+- `DiyseDialogueSceneDefinition` Resources;
+- stable semantic scene, beat, character/NPC, expression, trigger, and completion IDs;
 - beat IDs use `<SCENE_ID>_B###`;
-- portrait file paths resolve through `DiyseDialoguePortraitRegistry`, not authored scene data;
-- camera/staging/movement/implementation information travels as cue metadata separate from spoken text;
-- `DialogueRunner` consumes validated Resource-backed scenes through `start_scene(scene_definition, registry)`;
-- known choice/response/branch fields are rejected by schema validation.
+- portrait assets resolve through `DiyseDialoguePortraitRegistry` rather than raw paths in scene data;
+- camera/staging/movement/implementation information remains cue metadata separate from spoken text;
+- known choice/response/branch fields are rejected by validation.
 
-Chapter 0 is the first complete production exercise of that contract. S001–S006, C01 and C02 are approved production dialogue, validated individually and as a cross-scene chapter set. Authorization permits further exact dialogue/staging work but does **not** permit silent changes to story outcomes, chapter order, combat, Cards/Primes, relationships, Vaelkor/fragment authority, or final-act locks.
+### Rebuilt Chapter 0 dialogue locks
 
-See `DIALOGUE_AUTHORING_SCHEMA.md` and `STEP_7C_AUTHORING_TEMPLATE.md` before authoring or integrating production dialogue. Disposable technical-proof lines, `PROOF_SCHEMA`, proof cues and placeholder portraits are not canon.
+- S001: Cyanis ordinary convoy work/observation first; Ilyra absent; no supernatural response; clean Raider-to-Round-1 handoff with no free attack.
+- S002: survivor/wreck exploration plus four authored tutorial battles; no pursuit decision.
+- S003: credible pursuit refusal; Handler/Hound and Pursuer separated by player-controlled stabilization; Pursuer intent is already locked before command confirmation; Ilyra not clearly shown/heard.
+- S004: Ilyra first clearly appears through independent triage authority; incomplete green-and-gold response occurs here; First Mercy does not respond.
+- S005: Cyanis + Ilyra vs Riftmaw + two Handlers; one HP bar; Restrained -> Unbound between completed rounds; optional Cornered behavior; no Card rescue.
+- S006: incomplete survivor count, bounded playable sweep, one survivor recovered, one confirmed dead, at least three unresolved; Ilyra independently remains; Brackenwall next.
+
+Protected S006 recruitment center:
+
+> I'm not doing it for you.  
+> There are still people missing.  
+> Then we find them.
 
 ## Combat implementation authority
 
-The accepted round architecture uses beginning-of-round processing, enemy action locking before unconfirmed player commands, one selected action per conscious active party member, Item priority, Defend priority, then current effective Speed ordering with deterministic tie rules. Speed determines order only and never grants extra ordinary actions.
+The accepted round architecture is mandatory:
 
-### Automatic hostile retargeting
+1. beginning-of-round state is established;
+2. each conscious enemy locks one legal action from that state before inspecting any unconfirmed player command;
+3. the player selects one action for every conscious active party member before confirmation;
+4. Item actions resolve first;
+5. Defend actions resolve second;
+6. all remaining actions resolve by current effective Speed;
+7. Speed determines order only and never grants an extra ordinary action.
 
-If a queued player hostile action's original enemy target is defeated before that action resolves:
+Do not introduce overwatch, interrupts, reaction commands, real-time interception, hidden bonus turns, Speed-based extra actions, or enemy retargeting after reading unconfirmed commands.
 
-- seek the next living enemy in encounter-slot order;
-- wrap to the first living enemy when needed;
-- change only the target — actor, action identity, cost, priority and Speed remain unchanged;
-- apply this to Attack, hostile/damaging Abilities, hostile Standard Cards, and equivalent directly controlled Prime hostile commands unless an authored effect explicitly overrides targeting;
-- expose the retarget in presentation/logging.
+Visible intent represents an already-locked enemy action and is information for round planning, not a reaction window.
 
-## Card and Prime implementation authority
+### Chapter 0 combat learning progression
+
+1. Raider — basic round grammar.
+2. Raider + Crossbowman — differentiated threats; no free pre-battle shot.
+3. Shieldbearer + Raider — target-value/defender role; no spontaneous intercept reaction.
+4. Rift Hound + Raider — Speed/order pressure only.
+5. Handler + Hound — complementary legal enemy actions.
+6. Ruin Vanguard Pursuer — visible locked intent/objective planning.
+7. Riftmaw + two Handlers — first major Cyanis + Ilyra whole-party planning encounter.
+
+Riftmaw uses one continuous HP bar. Restrained -> Unbound is processed between completed rounds without refill or free action. Cornered changes later round-start weighting only. Any surviving Handler after Riftmaw defeat exits through a legal scripted withdrawal/neutralization classification without a revenge action.
+
+## Chapter 0 / Chapter 1 information firewall
+
+Through Chapter 0:
+
+- the damaged Card/object remains unidentified;
+- First Champion is not identified;
+- no Prime/bearer framework is explained;
+- First Mercy does not respond;
+- the Card does not solve Riftmaw.
+
+Chapter 1 S007-S011 remains v1.39 canon. S007 opens Cyanis + Ilyra at Brackenwall beside the sealed artifact wagon; Maevra becomes temporarily playable by the end of S007; Torren becomes permanent by the end of S009; S010 is the first sustained four-commandable-character leg; S011 leads to Dunmere while First Champion remains unidentified.
+
+## Cards / Primes / persistence
 
 - Standard Cards remain unlimited-use and data-driven; no charges, Essence, Card ranks, refresh counters, or per-battle Standard-use counters.
-- Every collectible Prime Card summons one directly controlled Prime Manifestation under current Prime authority.
-- Prime activation consumes the bearer's selected Card action, establishes the approved pending/replacement flow, suspends the active party at the correct boundary, exposes Prime-specific commands, and restores the frozen party according to current Prime rules.
-- Prime Manifestations are separate from ordinary summons.
-
-`Proof Strike`, temporary flat Prime/Card damage and other proof numbers are not canon content values.
-
-## Persistence authority
-
-Persistent game/session state remains separate from scene nodes and serializes as versioned plain data under Godot `user://`. Step 7B.5 proved representative persistence across full Android app close/relaunch. Mid-round combat or active-Prime serialization was outside that proof and is not silently implied.
-
-## Permanent character/class/story-Prime identities
-
-- Cyanis — Crest Knight / Crest Magus — Might / First Champion
-- Ilyra — Blue Warden / Vowblade — Grace / First Mercy
-- Torren — War Archer / Diysean Marksman — Resource / First Sovereign
-- Nimera — Cardweaver / Sixfold Knight — Change / First Change
-- Vaelira — Green Arcanist / Prism Archer — Elements / First Element
-- Seyrik — Ruin Vanguard / Ruin Reclaimer — Ruin / First Reckoning
-
-Maevra is a temporary playable/recurring major ally, not a permanent progression character. Kessara is a nonplayable recurring technical ally.
+- Prime Manifestations remain directly controlled and distinct from ordinary summons under the established replacement/suspension architecture.
+- Persistent game/session state remains separate from scene nodes and serializes as versioned plain data under Godot `user://`.
 
 ## Relationship/story guardrails relevant to engineering
 
 - No romance system, affection meter, jealousy system, triangle, triad, or route.
 - Authored relationships can exist without gameplay meters.
-- Cyanis and Ilyra have an authored mutual love relationship.
-- Torren and Maevra have an authored adult intimate relationship.
+- Maevra is temporary playable/recurring major ally, never a seventh permanent roster member.
+- Kessara remains nonplayable.
 - All six permanent characters survive the canonical ending.
-- Vaelkor does not knowingly ally with the surviving fragment. The fragment covertly influences him and extends his life for nearly 300 years; the influence is subtle and does not remove his agency or responsibility.
+- Vaelkor does not knowingly ally with the surviving fragment; covert influence does not remove his human agency or responsibility.
 
 ## Proof-content exclusion
 
-Do not mistake technical fixtures for canon. Non-canon proof material includes graybox geometry, placeholder Cyanis/Torren sprites/portraits, proof dialogue, `PROOF_SCHEMA`, proof registry/cues, Raider enemies/stats, `Proof Strike`, temporary flat damage/rewards, proof chest/state flags and debug UI.
+Do not mistake technical fixtures or superseded content for canon. Graybox geometry, placeholder assets, proof dialogue, `PROOF_SCHEMA`, proof enemies/stats, `Proof Strike`, temporary flat damage/rewards, proof flags/cues, debug UI, and the superseded pre-v1.40 S001-S006 scene text are not current production content authority.
 
 ## Historical repository rule
 
-The older `zxxdjxxz-del/Diyse` repository is **historical prototype material only**. Its libGDX architecture, old field experiments, temporary formulas, assets, and prototype mechanics are not implementation authority for `Diyse-Game`.
+The older `zxxdjxxz-del/Diyse` repository is historical prototype material only. Its libGDX architecture and prototype mechanics are not implementation authority for `Diyse-Game`.
