@@ -22,10 +22,10 @@ const REQUIRED_FLAGS := [
 	"WAR_SORCERER_START_HP_70_PERCENT",
 	"INJURED_SOLDIER_START_HP_50_PERCENT",
 	"RIFT_LANCE_PREPARATION_NOT_BEFORE_ROUND_2",
-	"INTERNAL_WARD_THREE_ROUNDS",
-	"INTERNAL_WARD_PLUS_20_TOTAL_DEFENSE",
-	"INTERNAL_WARD_FIRST_ELIGIBLE_DIRECT_HIT_MINUS_20_PERCENT_PER_PARTY_MEMBER",
-	"INTERNAL_WARD_NOT_PRIME_USE",
+	"PROTECTIVE_RESPONSE_THREE_ROUNDS",
+	"PROTECTIVE_RESPONSE_PLUS_20_TOTAL_DEFENSE",
+	"PROTECTIVE_RESPONSE_FIRST_ELIGIBLE_DIRECT_HIT_MINUS_20_PERCENT_PER_PARTY_MEMBER",
+	"PROTECTIVE_RESPONSE_NOT_CARD_USE",
 	"WAR_SORCERER_DEFEATED",
 	"INJURED_SOLDIER_WITHDRAWS_IF_STILL_ACTIVE",
 	"NO_PURSUIT_REAFFIRMED",
@@ -132,7 +132,7 @@ func _run_validation() -> void:
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Diyse Step 7C S005 approved confrontation, fixed encounter handoff, internal ward boundary, S006 handoff, and runner-adaptation validation passed.")
+		print("Diyse Step 7C S005 approved confrontation, fixed encounter handoff, protective-response boundary, S006 handoff, and runner-adaptation validation passed.")
 		quit(0)
 		return
 	for failure in failures:
