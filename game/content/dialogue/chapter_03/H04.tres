@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "H04"
+chapter_id = "chapter_03"
+scene_kind = "character_life"
+location_id = "LOC_CRESTHAVEN_COMMON"
+trigger_id = "trigger.chapter_03.h04.after_s021"
+completion_flag = "scene.h04.complete"
+participants = Array[String](["cyanis", "ilyra", "torren", "nimera", "maevra"])
+authoring_notes = "Audit75 CLOSED-AUTHORITY IMPLEMENTATION SHELL for H04 Last Sentinel Is Not Invited. Full former line payload is not serialized. Preserve static Ruby Card-in-case dinner problem, chair gag, Cyanis accidentally treating the Card as 'he', Nimera self-correcting possessive/intent language, Ilyra moving the Card because someone needs the chair, and the controlling final Nimera line. No manifestation, autonomous motion, voice, glow behavior, personality, or test activation."
+beats = [{"beat_id":"H04_B001","cues":{"staging":"After S021 only. Ordinary Cresthaven dinner setup. Last Sentinel remains physically present inside its protected case as a static Ruby object. It does not move, speak, react, glow autonomously, choose, want, or manifest."}},
+{"beat_id":"H04_B002","cues":{"staging":"The practical problem is seating/table placement, not Prime lore. Someone has used a chair/table position for the protected case."}},
+{"beat_id":"H04_B003","speaker_id":"torren","text":"Last Sentinel is not invited to dinner."},
+{"beat_id":"H04_B004","cues":{"staging":"The group agrees through short ordinary reactions. Keep the joke on the inconvenience of the object occupying social space, not on the Card having a personality."}},
+{"beat_id":"H04_B005","cues":{"staging":"Cyanis accidentally uses 'he' while talking about where the Card/case is being put. Do not invent a new exact line for the shell; preserve the grammatical slip as the beat."}},
+{"beat_id":"H04_B006","cues":{"staging":"Nimera catches the anthropomorphism, then later catches herself using language that implies the Card can 'want' something. She self-corrects. No autonomous behavior is shown or implied as fact."}},
+{"beat_id":"H04_B007","cues":{"staging":"Ilyra physically relocates the protected case for the simplest reason: somebody needs the chair. Use one generic prop handoff/move and portraits; no bespoke Prime animation."}},
+{"beat_id":"H04_B008","cues":{"staging":"Maevra may be present only if her post-S021 logistics make sense. She remains a guest/recurring ally, never a permanent party member."}},
+{"beat_id":"H04_B009","speaker_id":"nimera","text":"He's sleeping in the fucking Archive."},
+{"beat_id":"H04_B010","cues":{"staging":"Cyanis immediately catches that Nimera just did the same anthropomorphizing she was policing. End on the joke. Last Sentinel remains Ruby, inert, and unmanifested."}}]
