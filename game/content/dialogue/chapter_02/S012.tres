@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "S012"
+chapter_id = "chapter_02"
+scene_kind = "mandatory"
+location_id = "LOC_DUNMERE_POISONED_WATERWORKS"
+trigger_id = "trigger.chapter_02.s012"
+completion_flag = "scene.s012.complete"
+participants = Array[String](["cyanis", "ilyra", "torren", "maevra", "waterworks_keeper"])
+authoring_notes = "Audit75 CLOSED-AUTHORITY IMPLEMENTATION SHELL. S012 is already approved/closed. The exact prior line-by-line transcript was produced in an earlier dialogue session but was never serialized to a recoverable repository/library artifact; this Resource therefore carries only controlling closed canon, staging, encounter boundaries, and non-negotiable knowledge limits. It must not be treated as replacement dialogue or used to reopen S012 writing."
+beats = [{"beat_id":"S012_B001","cues":{"staging":"Dunmere is a functioning community under pressure, not a ruined quest set. Show water distribution, maintenance work, worried residents, and local personnel already trying to diagnose the problem. GREEN dialogue pockets suppress random encounters while evidence/civilians are being read."}},
+{"beat_id":"S012_B002","cues":{"staging":"The party establishes that the unsafe condition is deliberate contamination/diversion rather than ordinary neglect. Ilyra owns medical/public-safety interpretation; Torren owns route/physical-flow evidence; Maevra owns operational authority; Cyanis converts specialist findings into executable decisions without becoming the universal expert."}},
+{"beat_id":"S012_B003","cues":{"staging":"Shut the unsafe lower feed. Do not declare Dunmere's water safe merely because one feed is isolated. The distinction between stopping further exposure and proving safety must remain explicit in performance/staging."}},
+{"beat_id":"S012_B004","cues":{"staging":"Waterworks hostile leg begins only after the investigation pocket. Use approximately 2-3 ordinary encounters where fiction supports them; do not interrupt mandatory evidence dialogue with random combat.","implementation_flags":["PLAYER_CONTROL","WATERWORKS_HOSTILE_LEG"]}},
+{"beat_id":"S012_B005","cues":{"staging":"Recovered evidence and altered flow point from the modern Waterworks into older Diysean infrastructure. The surprise is preserved function and current interference, not the existence of ancient underground sites."}},
+{"beat_id":"S012_B006","cues":{"staging":"End S012 by handing the investigation into the older flooded infrastructure without resolving the contamination source, declaring the water safe, or introducing Chapter-3 Prime/Last-Sentinel knowledge.","implementation_flags":["HANDOFF_TO_S013","NO_FALSE_WATER_SAFE_DECLARATION"]}}]
