@@ -66,6 +66,9 @@ jobs:
       - name: Run Step 7C Chapter 0 continuity validation
         run: godot --headless --path . --script tests/dialogue/validate_chapter_00_continuity.gd
 
+      - name: Run Chapters 0-3 dialogue Resource synchronization validation
+        run: godot --headless --path . --script tests/dialogue/validate_chapters_00_03_resource_sync.gd
+
       - name: Capture rendered field proof
         run: godot --path . --script tests/visual/capture_field_proof.gd
 
