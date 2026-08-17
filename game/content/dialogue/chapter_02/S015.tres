@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "S015"
+chapter_id = "chapter_02"
+scene_kind = "mandatory"
+location_id = "LOC_DUNMERE_RED_TRANSFER_BASTION"
+trigger_id = "trigger.chapter_02.s015"
+completion_flag = "scene.s015.complete"
+participants = Array[String](["cyanis", "ilyra", "torren", "maevra", "rhazek"])
+authoring_notes = "Audit75 CLOSED-AUTHORITY IMPLEMENTATION SHELL. S015 is approved/closed. Exact prior full transcript is not recoverable as a serialized artifact. Preserve Rhazek's competence/accountability, the Bastion as a working modern Black Host system exploiting ancient substrate, finite support ecology, one HP bar with later Ruin/armor escalation, and Sunder the Gate as a pre-existing ancient Standard Card recovered through access/victory rather than created by Rhazek. Do not reconstruct missing dialogue."
+beats = [{"beat_id":"S015_B001","cues":{"staging":"Red Transfer Bastion should be frightening because it works: organized modern Black Host transfer machinery, finite support personnel/devices, clear logistics, and contemporary systems exploiting older Diysean substrate."}},
+{"beat_id":"S015_B002","cues":{"staging":"Commander Rhazek is competent, ideologically intact, human, responsible, and not possessed. He owns his choices. Do not turn his confrontation into a corruption-excuse reveal."}},
+{"beat_id":"S015_B003","cues":{"staging":"Hostile Bastion leg uses finite support ecology rather than endless reinforcements. Preserve recovery space before the boss runway and keep dialogue short under RED pressure.","implementation_flags":["PLAYER_CONTROL","BASTION_HOSTILE_LEG"]}},
+{"beat_id":"S015_B004","cues":{"staging":"BOSS: COMMANDER RHAZEK / BASTION MASTER. One HP bar. Later authored threshold escalates Ruin/armor behavior without refilling HP or creating a separate full-health form.","implementation_flags":["BOSS_HANDOFF","ONE_HP_BAR"]}},
+{"beat_id":"S015_B005","cues":{"staging":"Victory/access exposes Bastion holdings containing the pre-existing ancient Standard Card Sunder the Gate. The boss does not create, transform into, or drop-create the Card.","implementation_flags":["STANDARD_CARD_RECOVERY","SUNDER_THE_GATE"]}},
+{"beat_id":"S015_B006","cues":{"staging":"Rhazek's defeat changes the Bastion state but does not complete evacuation. Hand off immediately to the Extraction Causeway consequences rather than treating the boss as the chapter's emotional endpoint.","implementation_flags":["HANDOFF_TO_S016"]}}]
