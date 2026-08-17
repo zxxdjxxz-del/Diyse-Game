@@ -4,18 +4,18 @@
 **Step 7B.5:** COMPLETE / PASS on real Android hardware  
 **Step 7B.6:** COMPLETE / PASS — production dialogue authoring handoff locked  
 **Story/dialogue production authority:** Chapters 0–3 COMPLETE/CLOSED  
-**Runtime Resource implementation:** Chapter 0 complete/merged; Chapters 1–3 conversion/validation pending  
+**Runtime Resource synchronization branch:** `agent/ch0-3-dialogue-resource-sync-audit75`  
 **Next exact scene-authoring frontier:** Chapter 4 — The Seventh Reaction  
 **Active repository:** `zxxdjxxz-del/Diyse-Game`
 
 ## The important distinction
 
-The repository now has two different completion states and they must not be conflated:
+The repository has separate authoring/canon and runtime-serialization states; they must not be conflated.
 
-1. **Authoring/canon closure:** Chapters 0, 1, 2, and 3 are complete at story, dialogue, continuity, relationship, knowledge-firewall, and affordable-2.5D production-authority level under v1.60 / Audit75.
-2. **Runtime Resource integration:** only Chapter 0 currently has the full approved scene set implemented as validated `DiyseDialogueSceneDefinition` `.tres` Resources in the live game tree.
+1. **Authoring/canon closure:** Chapters 0, 1, 2, and 3 are complete at story, dialogue, continuity, relationship, knowledge-firewall, and affordable-2.5D production-authority level under v1.60 / Audit75. They are not open drafting material.
+2. **Runtime Resource serialization:** Chapter 0 already had the approved line-complete Resource set and is now rebased to current neutral protective-response terminology on the Audit75 sync branch. Chapter 1 now has a complete line-for-line S007–S011 conversion from the recoverable approved production-dialogue source plus C03–C05. Chapter 2 and Chapter 3 now have schema-valid closed-authority Resource shells carrying protected wording, staging, encounter/party/geography/knowledge locks, because their older full line transcripts were produced in prior conversation sessions but were never serialized to a recoverable repository/library artifact.
 
-Chapters 1–3 therefore need **translation/integration**, not re-writing. Their controlling packages are in `docs/chapters/`.
+Therefore Chapters 2–3 **must not be rewritten merely because the old exact transcript bytes are unavailable**. The Resource shells are implementation safeguards, not substitute claims that every former line has been recovered.
 
 ## Proven technical chain
 
@@ -31,15 +31,18 @@ Chapters 1–3 therefore need **translation/integration**, not re-writing. Their
 | 7B.6 | PASS | Stable-ID dialogue Resources, portrait registry, authoring template, schema validation and Resource-to-runner integration |
 | Step 7C Chapter 0 | PASS / MERGED | S001–S006 + C01/C02 approved and integrated; chapter continuity + Godot + Android gate passed |
 | Chapters 1–3 authoring | CLOSED | Approved scene/protected-line/pairing/knowledge/staging authority consolidated in Audit75 |
-| Chapters 1–3 Resource conversion | PENDING | Must preserve closed authority; implementation/validation work only |
+| Chapter 0 Audit75 Resource rebase | ON SYNC BRANCH | S004/S005 historical Champion-named internal state replaced by neutral incomplete protective-response terminology; mechanics unchanged |
+| Chapter 1 Resource conversion | ON SYNC BRANCH | Recoverable approved S007–S011 source converted one-for-one: 611 mandatory beats; C03–C05 added |
+| Chapters 2–3 Resource safeguards | ON SYNC BRANCH | Closed-authority `.tres` shells + registries + protected-line/geography/Prime/relationship locks; no fabricated replacement transcript |
+| Chapters 0–3 sync validation | ON SYNC BRANCH | Dedicated Godot validation added to CI; merge remains gated on green checks |
 
 Accepted pre-documentation 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`.  
 Accepted 7B.6 implementation merge: `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.  
 Accepted Chapter 0 production merge: `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`.
 
-## Chapter 0 runtime checkpoint
+## Chapter 0 runtime checkpoint and Audit75 rebase
 
-Live Resource set:
+Live accepted Resource set remains:
 - S001 Opening
 - S002 Wreck Field exploration
 - S003 Evacuation Relay decision
@@ -49,41 +52,65 @@ Live Resource set:
 - C01 The Fire Is Too Close
 - C02 Food After Triage
 
-Final historical Chapter 0 validation:
+Historical Chapter 0 validation:
 - Godot Smoke Validation run `31296623423`: success.
 - Android APK Proof run `31296623417`: success.
 - Final accepted PR head `87157f9dae359f0b72a6ec9f5a1956d2056671cb`.
 - Merge `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`.
 - Android artifact ID `9033158865`.
 
-### Chapter 0 later-canon compatibility cleanup
-
-Audit75 preserves the exact dialogue/cue Resource set where compatible, but the live S004/S005 Resource metadata/validator still contains the historical internal label **`Broken Champion's Ward`** and related older Champion/Prime-negative flags.
-
-Current canon interpretation:
-- incomplete green/gold **protective Card response**;
+Audit75 bounded compatibility patch on the current sync branch:
+- old internal `Broken Champion's Ward` / Champion-named implementation terminology is removed from S004/S005 and matching validators;
+- current interpretation is an incomplete green/gold **protective Card response**;
 - not Prime activation;
 - no bearer/Last Sentinel confirmation;
 - no voice/warrior/manifestation;
-- old internal Champion naming is not player-facing canon.
+- exact temporary mechanics remain unchanged: three rounds, +20 Total Defense, and the approved first eligible hostile direct-hit reduction per party member.
 
-This does **not** invalidate the Chapter 0 merge. A future bounded implementation patch should neutralize those internal names in the Resource + matching validators together while preserving the already-approved temporary S004→S005 protection behavior unless balance authority separately revises it.
+## Chapter 1 Resource conversion
 
-## Chapters 1–3 closed authoring packages
+Closed set: **S007–S011 + C03–C05**.
 
-### Chapter 1 — Brackenwall and the Wayfinder
-Closed set: **S007–S011 + C03–C05**.  
-Runtime task: convert approved closed dialogue/staging into chapter_01 Resources, register required IDs/portraits, validate party-state changes (Maevra guest; Torren permanent in S009), safe-dialogue encounter suppression, no Prime reveal, and the C03–C05 optional scene gates.
+The approved line-complete source `Diyse_Chapter_1_Production_Dialogue_S007-S011_v1.0_2026-08-09(1).docx` was recoverable and has been translated into the stable Resource schema without story rewriting.
 
-### Chapter 2 — The Drowned Oath
-Closed set: **S012–S016 + C06/C07**.  
-Runtime task: convert closed dialogue/staging, preserve random/safe pockets and authored encounter handoffs, 31-transfers meaning, one S016 mandatory Hold the Junction encounter, Rhazek same-bar Chapter 2 state limit, and order-independent C06/C07.
+Mandatory beat preservation:
+- S007: 104 beats
+- S008: 81 beats
+- S009: 150 beats
+- S010: 154 beats
+- S011: 122 beats
+- total mandatory S007–S011: **611 beats**
 
-### Chapter 3 — The Old City and Last Sentinel
-Closed set: **S017–S021 + H01–H04**.  
-Runtime task: convert closed dialogue/staging, preserve nonlethal authority encounters, Nimera permanent recruitment + choose-four, Warden one-bar/two-state logic, Last Sentinel knowledge firewall, separate Cresthaven geography, and H01–H04 availability.
+C03–C05 are also represented as Character-Life Resources under the closed Audit75 authority. C04 preserves the protected first unmistakable Cyanis/Torren profanity-friendship beat: Cyanis “Whore.” → Torren “Bitch.” → Cyanis bursts into laughter before the handwriting clarification, followed by the approved escalation and later map/charcoal callbacks.
 
-Hard geography: **Caelora → Old City / Suppressed Archives → separate Cresthaven**.
+## Chapter 2 Resource safeguards
+
+Closed set: **S012–S016 + C06/C07**.
+
+The exact older line-complete transcript was produced in prior conversation work but no serialized file/repository artifact containing the full final wording is recoverable. The current `.tres` files are therefore explicitly labeled **CLOSED-AUTHORITY IMPLEMENTATION SHELLS** rather than being padded with newly invented dialogue.
+
+They preserve the implementation-critical authority:
+- S012: functioning Dunmere, deliberate contamination/diversion, unsafe lower feed shut, no false declaration that the water is safe;
+- S013: completed-action Memory Scribe behavior; conditional “It copied me.” kept as a non-unconditional cue; Archive Leviathan same HP bar; exact “thirty-one transfers” meaning;
+- S014: differentiated prisoner agency/consent/safe pocket; sealed future Hunt branch; protected Maevra “Torren!” → “Harth.” breach with no commentary;
+- S015: competent/accountable Rhazek; working Bastion; one HP bar with authored escalation; Sunder the Gate is pre-existing ancient Card recovery, not boss creation;
+- S016: exactly one mandatory Hold the Junction encounter; no combat after final extraction; Rhazek survives/withdraws; evacuee-centered safe image; post-chapter transfer Hunt branch opening;
+- C06/C07: protected mundane Character-Life beats, boundaries, silence, and cheap reusable 2.5D staging.
+
+## Chapter 3 Resource safeguards
+
+Closed set: **S017–S021 + H01–H04**.
+
+Hard geography remains:
+**Caelora → Old City / Suppressed Archives → separate Cresthaven**.
+
+The current Resources preserve:
+- S017: containment is not arrest; competent Crown procedure; missing initiating declaration; no Prime/Might/Ruby/Last Sentinel identification;
+- S018: exactly two authored nonlethal lawful-authority confrontations; contradiction proven rather than Crown personnel villainized; Torren remains “Solmar,” not first-name address;
+- S019: Old City/Suppressed Archives; Nimera permanent recruitment; choose-four threshold; Living Index Tablet manifests airborne spear; no giant Crest/integrated Network reveal; exact denied Hunt-branch exchange;
+- S020: sophisticated command machinery; Glassform Rupture from protected repository rather than Warden; First Command Warden one HP/two states; completed eligible ordinary-action copy only; exact `/PREVIOUS ERROR/` and `/LAST SENTINEL CONFIRMED/`; stable Ruby only after Warden; no Prime manifestation and no Might identification here;
+- S021: **separate Cresthaven**; four bounded conclusions Prime / Might / Last Sentinel / meaning unknown; Last Sentinel becomes usable without manifesting; first actual later battle use remains first verified modern Prime activation; immediate Ch3 hub services only;
+- H01–H04: mundane relationship scenes; first deliberate Torren “Maevra” in H02; Ilyra/Nimera language-theft beat in H03; H04 keeps Last Sentinel physically inert and ends on the protected Nimera anthropomorphizing joke.
 
 ## Accepted implementation behaviors
 
@@ -116,12 +143,12 @@ Persistent state remains separate from scene nodes and serializes as versioned p
 ## Production workflow from here
 
 For a **closed chapter Resource conversion**:
-1. read the relevant `docs/chapters/CHAPTER_XX_COMPLETE.md`;
-2. translate the approved scene into the existing stable-ID Resource schema without inventing missing story/dialogue;
+1. use the recoverable exact approved transcript when one exists;
+2. where exact transcript bytes are unavailable, preserve closed/protected authority without inventing replacement dialogue and keep that limitation explicit in the Resource;
 3. add/validate required registry/state IDs;
-4. preserve encounter/recovery/party-state handoffs;
+4. preserve encounter/recovery/party-state/geography handoffs;
 5. run scene validation and whole-chapter continuity validation;
-6. run full Godot + Android gate at the chapter implementation checkpoint.
+6. run full Godot + Android gate at the implementation checkpoint.
 
 For **new authoring**, begin at Chapter 4, not Chapter 3.
 
