@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "S019"
+chapter_id = "chapter_03"
+scene_kind = "mandatory"
+location_id = "LOC_OLD_CITY_SUPPRESSED_ARCHIVES"
+trigger_id = "trigger.chapter_03.s019"
+completion_flag = "scene.s019.complete"
+participants = Array[String](["cyanis", "ilyra", "torren", "maevra", "nimera"])
+authoring_notes = "Audit75 CLOSED-AUTHORITY IMPLEMENTATION SHELL. S019 is closed canon; exact former full transcript was not serialized to a recoverable artifact. Preserve Old City/Suppressed Archives geography, bounded archaeology knowledge, Nimera's permanent recruitment and choose-four threshold, Conduit behavior, hostile Archive ecology, safe authenticated alcoves, and the exact denied Hunt-branch exchange. Do not reconstruct missing dialogue."
+beats = [{"beat_id":"S019_B001","cues":{"staging":"Location is the Old City / Suppressed Archives, not Cresthaven. The party already knows Ancient Diyseans had underground sites. The escalation is scale, preservation, and several sophisticated systems functioning together."}},
+{"beat_id":"S019_B002","cues":{"staging":"Nimera enters through real archaeology/Card/provenance expertise. Cyanis contributes only modern Crest-Knight recognition when Crest-like geometry appears. Do not reveal the giant Crest or the integrated Underground Crest Network."}},
+{"beat_id":"S019_B003","cues":{"staging":"Nimera joins permanently during this sequence. Maevra remains a guest. After Nimera joins, choose-four becomes immediately meaningful; dialogue/staging must never assume which legal character the player placed in reserve.","implementation_flags":["NIMERA_PERMANENT_JOIN","CHOOSE_FOUR_THRESHOLD"]}},
+{"beat_id":"S019_B004","cues":{"staging":"Nimera's Living Index Tablet is a Conduit. For ordinary Attack it manifests an airborne spear-form that attacks independently; Nimera does not grip/wield the spear. Cards remain a separate system from Conduits.","implementation_flags":["LIVING_INDEX_TABLET_CONDUIT"]}},
+{"beat_id":"S019_B005","cues":{"staging":"Hostile Archive traversal allows ordinary Archive ecology. Authenticated-record alcoves are GREEN/safe dialogue pockets where technical interpretation can breathe without random interruption.","implementation_flags":["PLAYER_CONTROL","ARCHIVE_RANDOM_ECOLOGY"]}},
+{"beat_id":"S019_B006","cues":{"staging":"At a major split, a distinct adjudication/judgment branch is visibly fitted into the Archive but denies access. It is future Hunt #3 foreshadowing only; no quest marker, boss tease, or 'come back later' line."}},
+{"beat_id":"S019_B007","speaker_id":"nimera","text":"That's another section."},
+{"beat_id":"S019_B008","speaker_id":"torren","text":"Can we get through?"},
+{"beat_id":"S019_B009","speaker_id":"nimera","text":"Not unless one of you has secretly become authorized by a dead civilization."},
+{"beat_id":"S019_B010","speaker_id":"cyanis","text":"Not this week."},
+{"beat_id":"S019_B011","speaker_id":"nimera","text":"Then no."},
+{"beat_id":"S019_B012","cues":{"staging":"Continue deeper by the viable request/record path. Preserve Nimera's voice as engaged, self-correcting, technically precise, and naturally profane rather than generic formal scholar. Keep Torren/Nimera early friction practical and adult; do not infantilize her."}},
+{"beat_id":"S019_B013","cues":{"staging":"End at the threshold where Archive preservation gives way to clearly more intact command-station architecture. S020 owns route/gate claim assessment and the Warden exam.","implementation_flags":["HANDOFF_TO_S020"]}}]
