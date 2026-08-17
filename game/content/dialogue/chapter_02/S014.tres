@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "S014"
+chapter_id = "chapter_02"
+scene_kind = "mandatory"
+location_id = "LOC_DUNMERE_PRISONER_GALLERIES"
+trigger_id = "trigger.chapter_02.s014"
+completion_flag = "scene.s014.complete"
+participants = Array[String](["cyanis", "ilyra", "torren", "maevra", "prisoner"])
+authoring_notes = "Audit75 CLOSED-AUTHORITY IMPLEMENTATION SHELL. S014 is approved/closed. Exact prior full transcript is not recoverable as a serialized artifact. Preserve prisoner agency/consent, the defensible safe pocket, transfer-infrastructure state, the Bastion assault's evacuation purpose, the sealed future Hunt branch, and the protected Maevra address breach. Do not reconstruct missing dialogue."
+beats = [{"beat_id":"S014_B001","cues":{"staging":"Enter Prisoner Galleries built as contemporary Black Host prison/cage retrofits over older Diysean architecture. Do not imply the cages are the original ancient purpose unless later evidence proves it."}},
+{"beat_id":"S014_B002","cues":{"staging":"Prisoners are differentiated people with agency, mobility limits, consent, immediate care needs, and opinions about their own movement. Establish a concrete defensible safe pocket; rescued people are not inventory/evidence."}},
+{"beat_id":"S014_B003","cues":{"staging":"A visibly separate heavy transfer/security branch exists off the prisoner route but remains sealed/nonviable while prisoners are trapped, the Bastion is active, and extraction is the priority. Preserve the split-point conversation only as blocked-route recognition; do not advertise a Hunt or say 'come back later'.","implementation_flags":["REGIONAL_HUNT_BRANCH_VISIBLE_BUT_DENIED"]}},
+{"beat_id":"S014_B004","cues":{"staging":"Authored rescue/nonlethal pressure may occur around prisoner extraction, but do not turn rescue corridors into grind halls. The prisoners retain control of their safe-pocket door/state after the party moves on."}},
+{"beat_id":"S014_B005","cues":{"staging":"During a genuine crisis involving Torren, Maevra involuntarily breaks formal address once. Do not frame it as a romantic reveal, do not repeat it, and do not jump to later T/Mae shorthand."}},
+{"beat_id":"S014_B006","speaker_id":"maevra","text":"Torren!"},
+{"beat_id":"S014_B007","speaker_id":"maevra","text":"Harth."},
+{"beat_id":"S014_B008","cues":{"staging":"Nobody comments on the correction. The scene immediately returns to the operational problem."}},
+{"beat_id":"S014_B009","cues":{"staging":"Evidence shows the Red Transfer Bastion is part of making prisoner escape viable, not a detour from rescue. End by converting the rescue problem into the Bastion objective without erasing the prisoners' ongoing agency.","implementation_flags":["HANDOFF_TO_S015"]}}]
