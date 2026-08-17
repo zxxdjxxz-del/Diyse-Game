@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "H03"
+chapter_id = "chapter_03"
+scene_kind = "character_life"
+location_id = "LOC_CRESTHAVEN_MEDICAL"
+trigger_id = "trigger.chapter_03.h03.after_s019"
+completion_flag = "scene.h03.complete"
+participants = Array[String](["ilyra", "nimera"])
+authoring_notes = "Audit75 CLOSED-AUTHORITY IMPLEMENTATION SHELL for H03 Ilyra and Nimera. Full former line payload is not serialized. Preserve minor-injury treatment, Ilyra care without therapy, Nimera's adult/profane engagement, the protected language-theft exchange, respect for refusal, terrible-bread mundanity, and cheap 2.5D medical-table staging. No Prime-history payload or forced emotional disclosure."
+beats = [{"beat_id":"H03_B001","cues":{"staging":"Cresthaven medical/work table after S019. Nimera has a shallow hand/forearm cut and a bad improvised wrap. Ilyra treats the small injury while both remain capable adults. One table, wrap/poultice, bread, reusable seated/standing poses, portraits, pauses."}},
+{"beat_id":"H03_B002","cues":{"staging":"Nimera reacts to a minor practical discovery/assessment with her normal language."}},
+{"beat_id":"H03_B003","speaker_id":"nimera","text":"Well. Fuck."},
+{"beat_id":"H03_B004","speaker_id":"ilyra","text":"Good fuck or bad fuck?"},
+{"beat_id":"H03_B005","speaker_id":"nimera","text":"Don't steal my language."},
+{"beat_id":"H03_B006","speaker_id":"ilyra","text":"You brought a lot of it."},
+{"beat_id":"H03_B007","cues":{"staging":"The joke establishes that Ilyra is less scandalized by Nimera than Nimera expects. Do not turn Ilyra into a therapist or Nimera into a child."}},
+{"beat_id":"H03_B008","cues":{"staging":"If Nimera refuses a question or does not want to discuss the underlying pressure, Ilyra respects the no and returns to the surface task. No confession is earned merely because treatment is happening."}},
+{"beat_id":"H03_B009","cues":{"staging":"Let the conversation drift to terrible bread/food or another ordinary subject. Preserve the small thanks/acknowledgment without making it an emotional speech."}},
+{"beat_id":"H03_B010","cues":{"staging":"End with the wrap fixed and the conversation allowed to remain incomplete. No mandatory evidence, plot decision, Prime material, or reward."}}]
