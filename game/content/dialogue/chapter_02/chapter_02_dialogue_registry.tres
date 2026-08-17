@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="DiyseDialoguePortraitRegistry" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_portrait_registry.gd" id="1_registry"]
+
+[resource]
+script = ExtResource("1_registry")
+entries = [{"character_id":"cyanis","display_name":"Cyanis","portraits":{}},{"character_id":"ilyra","display_name":"Ilyra","portraits":{}},{"character_id":"torren","display_name":"Torren","portraits":{}},{"character_id":"maevra","display_name":"Maevra","portraits":{}},{"character_id":"rhazek","display_name":"Commander Rhazek","portraits":{}},{"character_id":"waterworks_keeper","display_name":"Waterworks Keeper","portraits":{}},{"character_id":"prisoner","display_name":"Prisoner","portraits":{}},{"character_id":"evacuee","display_name":"Evacuee","portraits":{}}]
