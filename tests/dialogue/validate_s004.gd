@@ -31,11 +31,11 @@ const REQUIRED_FLAGS := [
 	"ILYRA_RECOGNIZES_UNSTABLE_PHYSICAL_MAGICAL_CONDITION",
 	"ILYRA_STABILIZES_INCOMPLETE_CONNECTION",
 	"ILYRA_CHALLENGES_CYANIS_SELF_NEGLECT",
-	"ESTABLISH_BROKEN_CHAMPIONS_WARD",
-	"BROKEN_CHAMPIONS_WARD_THREE_ROUNDS",
-	"NOT_COMPLETE_PRIME_ACTIVATION",
-	"NOT_SELECTABLE_CARD_COMMAND",
-	"NOT_PRIME_USE",
+	"ESTABLISH_INCOMPLETE_PROTECTIVE_RESPONSE",
+	"INCOMPLETE_PROTECTIVE_RESPONSE_THREE_ROUNDS",
+	"NO_SELECTABLE_CARD_COMMAND",
+	"PROTECTIVE_RESPONSE_NOT_CARD_USE",
+	"NO_COMPLETE_MANIFESTATION",
 	"NO_IDENTITY_REVEAL",
 	"ILYRA_NOT_YET_PERMANENT_ROSTER_COMMIT",
 	"HANDOFF_TO_S005_CONFRONTATION",
@@ -169,8 +169,8 @@ func _run_validation() -> void:
 		var final_flags = final_cues.get("implementation_flags", [])
 		if not (final_flags is Array) or "HANDOFF_TO_S005_CONFRONTATION" not in final_flags:
 			failures.append("S004 must end by handing off to S005 confrontation")
-		if not (final_flags is Array) or "ESTABLISH_BROKEN_CHAMPIONS_WARD" not in final_flags:
-			failures.append("S004 must establish Broken Champion's Ward before S005")
+		if not (final_flags is Array) or "ESTABLISH_INCOMPLETE_PROTECTIVE_RESPONSE" not in final_flags:
+			failures.append("S004 must establish the incomplete protective response before S005")
 		if not (final_flags is Array) or "ILYRA_NOT_YET_PERMANENT_ROSTER_COMMIT" not in final_flags:
 			failures.append("S004 must not consume S006 permanent recruitment closure")
 
@@ -186,7 +186,7 @@ func _run_validation() -> void:
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Diyse Step 7C S004 Field Triage Camp revelation, Ilyra authority, incomplete-response, S005-handoff, and runner-adaptation validation passed.")
+		print("Diyse Step 7C S004 Field Triage Camp revelation, Ilyra authority, incomplete protective response, S005 handoff, and runner-adaptation validation passed.")
 		quit(0)
 		return
 	for failure in failures:
