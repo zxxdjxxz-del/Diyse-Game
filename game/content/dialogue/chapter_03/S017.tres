@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "S017"
+chapter_id = "chapter_03"
+scene_kind = "mandatory"
+location_id = "LOC_CAELORA_CONTAINMENT"
+trigger_id = "trigger.chapter_03.s017"
+completion_flag = "scene.s017.complete"
+participants = Array[String](["cyanis", "ilyra", "torren", "maevra", "mirena", "crown_officer"])
+authoring_notes = "Audit75 CLOSED-AUTHORITY IMPLEMENTATION SHELL. S017 is closed canon; exact former full line payload was not serialized to a recoverable artifact. This Resource promotes only protected wording/speaker assignments recovered from prior drafts plus the controlling v1.60 scene contract. Do not use it as permission to rewrite S017. Card remains sealed/unidentified/recovered: no Prime, Might, Ruby, or Last Sentinel identification."
+beats = [{"beat_id":"S017_B001","cues":{"staging":"Caelora is a functioning civic/royal space. No random combat. Pressure comes from procedure, movement restrictions, papers, seals, guards, and portrait performance rather than spectacle."}},
+{"beat_id":"S017_B002","speaker_id":"torren","text":"They knew which line to put us in."},
+{"beat_id":"S017_B003","cues":{"staging":"Containment is explicitly not arrest. Crown personnel remain competent; the problem sits inside an otherwise legitimate process."}},
+{"beat_id":"S017_B004","speaker_id":"maevra","text":"Under whose authority?"},
+{"beat_id":"S017_B005","speaker_id":"crown_officer","text":"No, Commander. It wasn't."},
+{"beat_id":"S017_B006","cues":{"staging":"Maevra verifies the chain instead of declaring conspiracy. She owns lawful-order verification/refusal."}},
+{"beat_id":"S017_B007","speaker_id":"maevra","text":"There should be something before this."},
+{"beat_id":"S017_B008","speaker_id":"torren","text":"There isn't one here."},
+{"beat_id":"S017_B009","cues":{"staging":"The missing/bypassed initiating declaration becomes the concrete defect. Do not identify the sealed Card beyond recovered/unidentified Card-family artifact."}},
+{"beat_id":"S017_B010","speaker_id":"maevra","text":"If the process is compromised—"},
+{"beat_id":"S017_B011","speaker_id":"cyanis","text":"Then we find out."},
+{"beat_id":"S017_B012","cues":{"staging":"Mirena enters substantially as political-accountability authority. She constrains abuse and keeps the investigation lawful without simply erasing every valid custody obligation. Do not spend the later Torren/Maevra deliberate first-name beat here."}},
+{"beat_id":"S017_B013","speaker_id":"torren","text":"Food before constitutional crisis."},
+{"beat_id":"S017_B014","cues":{"staging":"Use the ordinary-human pressure release briefly, then transition into the Judicial Causeway investigation. No random encounters and no Prime/Last-Sentinel reveal.","implementation_flags":["HANDOFF_TO_S018"]}}]
