@@ -12,7 +12,7 @@ location_id = "LOC_BORDERLANDS_FIELD_TRIAGE_CAMP"
 trigger_id = "trigger.chapter_00.s004"
 completion_flag = "scene.s004.complete"
 participants = Array[String](["cyanis", "ilyra", "convoy_superior_officer", "wounded_convoy_escort", "civilian_traveler"])
-authoring_notes = "Step 7C S004 draft. Ilyra enters as an independent Blue Warden authority at the Field Triage Camp; Cyanis and Ilyra establish mutual tactical/medical jurisdiction through work. The damaged sealed Card responds incompletely with fragmentary green-and-gold protective geometry, creating evacuation time and the one-time Broken Champion's Ward state for S005 without revealing First Champion/Prime identity or triggering First Mercy. Ilyra stabilizes Cyanis's dangerous physical/magical response and challenges his minimization. S005 owns the actual final Chapter 0 confrontation; S006 owns formal permanent recruitment/aftermath closure. No proof portrait is promoted into canon."
+authoring_notes = "Step 7C S004 production scene. Ilyra enters as an independent Blue Warden authority at the Field Triage Camp; Cyanis and Ilyra establish mutual tactical/medical jurisdiction through work. The damaged sealed Card responds incompletely with fragmentary green-and-gold protective geometry, creating evacuation time and a one-time incomplete protective-response state for S005 without revealing the Card's identity or unlocking a selectable Card command. Ilyra stabilizes Cyanis's dangerous physical/magical response and challenges his minimization. S005 owns the actual final Chapter 0 confrontation; S006 owns formal permanent recruitment/aftermath closure. No proof portrait is promoted into canon."
 beats = [{
 "beat_id": "S004_B001",
 "speaker_id": "",
@@ -372,7 +372,7 @@ beats = [{
 "right": {},
 "active_side": "none",
 "advance_mode": "manual",
-"cues": {"pause_ms": 40, "staging": "She reports observable condition and uncertainty. No Prime identification.", "camera": "Subtle Blue Warden assessment light against the irregular green-gold response.", "movement": "Ilyra braces his wrist/forearm and prepares a stabilizing ward.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_RECOGNIZES_UNSTABLE_PHYSICAL_MAGICAL_CONDITION"]}
+"cues": {"pause_ms": 40, "staging": "She reports observable condition and uncertainty. No identity claim.", "camera": "Subtle Blue Warden assessment light against the irregular green-gold response.", "movement": "Ilyra braces his wrist/forearm and prepares a stabilizing ward.", "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE", "ILYRA_RECOGNIZES_UNSTABLE_PHYSICAL_MAGICAL_CONDITION"]}
 }, {
 "beat_id": "S004_B041",
 "speaker_id": "cyanis",
@@ -525,5 +525,5 @@ beats = [{
 "right": {},
 "active_side": "none",
 "advance_mode": "manual",
-"cues": {"pause_ms": 420, "staging": "The incomplete green-and-gold geometry settles into a fragile protective pattern around Cyanis, Ilyra, and the defended camp edge. The pattern is visibly temporary and incomplete. This establishes the one-time Broken Champion's Ward story state for the next encounter: three rounds of authored protection only. It is not a complete Prime activation, selectable Card command, Prime use, summon, or identity reveal.", "camera": "Wide confrontation setup: Cyanis and Ilyra foreground, treatment camp protected behind them, War-Sorcerer and injured Soldier approaching from east cut.", "movement": "Lock positions for the S005 confrontation handoff.", "interrupt": false, "implementation_flags": ["ESTABLISH_BROKEN_CHAMPIONS_WARD", "BROKEN_CHAMPIONS_WARD_THREE_ROUNDS", "NOT_COMPLETE_PRIME_ACTIVATION", "NOT_SELECTABLE_CARD_COMMAND", "NOT_PRIME_USE", "NO_IDENTITY_REVEAL", "ILYRA_NOT_YET_PERMANENT_ROSTER_COMMIT", "HANDOFF_TO_S005_CONFRONTATION", "COMMIT_S004_ONLY_AFTER_S005_HANDOFF_READY"]}
+"cues": {"pause_ms": 420, "staging": "The incomplete green-and-gold geometry settles into a fragile protective pattern around Cyanis, Ilyra, and the defended camp edge. The pattern is visibly temporary and incomplete. This establishes the one-time incomplete protective-response state for the next encounter: three rounds of authored protection only. It does not identify the Card, unlock a selectable Card command, create a summon, or become a complete manifestation.", "camera": "Wide confrontation setup: Cyanis and Ilyra foreground, treatment camp protected behind them, War-Sorcerer and injured Soldier approaching from east cut.", "movement": "Lock positions for the S005 confrontation handoff.", "interrupt": false, "implementation_flags": ["ESTABLISH_INCOMPLETE_PROTECTIVE_RESPONSE", "INCOMPLETE_PROTECTIVE_RESPONSE_THREE_ROUNDS", "NO_SELECTABLE_CARD_COMMAND", "PROTECTIVE_RESPONSE_NOT_CARD_USE", "NO_COMPLETE_MANIFESTATION", "NO_IDENTITY_REVEAL", "ILYRA_NOT_YET_PERMANENT_ROSTER_COMMIT", "HANDOFF_TO_S005_CONFRONTATION", "COMMIT_S004_ONLY_AFTER_S005_HANDOFF_READY"]}
 }]
