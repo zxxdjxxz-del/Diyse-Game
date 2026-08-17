@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "C06"
+chapter_id = "chapter_02"
+scene_kind = "character_life"
+location_id = "LOC_DUNMERE_POST_EXTRACTION_CAMP"
+trigger_id = "trigger.chapter_02.c06.after_s016"
+completion_flag = "scene.c06.complete"
+participants = Array[String](["cyanis", "ilyra", "torren"])
+authoring_notes = "Audit75 closed-authority conversion of C06 Three People Who Know Each Other Now. Exact full archival transcript is not serialized; only recovered protected wording and controlling mundane beat structure are promoted. No plot payload, no trauma processing, no Card/Prime material, no reward. Cheap 2.5D uses gloves, rope/cord, a saved seat, a missing knife, reusable sit/stand/hand-prop states, portraits, and silence."
+beats = [{"beat_id":"C06_B001","cues":{"staging":"Post-S016 decompression. Cyanis, Ilyra, and Torren occupy a small safe camp/work area with ordinary gear. The scene should feel like three people who now know one another well enough to waste time together."}},
+{"beat_id":"C06_B002","cues":{"staging":"A missing-glove problem creates the first mundane exchange. Torren corrects Cyanis when he reaches/checks the wrong side."}},
+{"beat_id":"C06_B003","speaker_id":"torren","text":"Your other left."},
+{"beat_id":"C06_B004","cues":{"staging":"The glove problem resolves without symbolic weight. Conversation drifts into Cyanis calling a length of rope/cord the wrong thing; Torren insists on the practical distinction. Let the argument be stupid and specific."}},
+{"beat_id":"C06_B005","cues":{"staging":"A seat has been left open for the third person without anyone announcing that it was saved. Use framing and movement rather than a belonging speech."}},
+{"beat_id":"C06_B006","cues":{"staging":"A small missing-knife question produces simultaneous refusal/denial from the others. Preserve the rhythm without turning it into plot evidence."}},
+{"beat_id":"C06_B007","cues":{"staging":"The rope/cord argument returns once as an evolved callback, not as repeated setup."}},
+{"beat_id":"C06_B008","speaker_id":"torren","text":"Still rope."},
+{"beat_id":"C06_B009","cues":{"staging":"One of them notices another continuing to work when the practical task is already finished and quietly stops it. No one therapizes anyone; care is a mundane interruption."}},
+{"beat_id":"C06_B010","cues":{"staging":"End with all three remaining in the same space after there is no longer any task requiring it. Comfortable silence is the final beat. No revelation, quest flag, romance milestone, or gameplay reward."}}]
