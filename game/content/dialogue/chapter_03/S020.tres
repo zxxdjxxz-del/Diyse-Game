@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "S020"
+chapter_id = "chapter_03"
+scene_kind = "mandatory"
+location_id = "LOC_OLD_CITY_COMMAND_STATION"
+trigger_id = "trigger.chapter_03.s020"
+completion_flag = "scene.s020.complete"
+participants = Array[String](["cyanis", "ilyra", "torren", "maevra", "nimera"])
+authoring_notes = "Audit75 CLOSED-AUTHORITY IMPLEMENTATION SHELL. S020 is closed canon; exact former full transcript was not serialized to a recoverable artifact. Preserve sophisticated command machinery, claim/route assessment, Glassform Rupture provenance, First Command Warden one-HP/two-state mechanics, exact Ancient output, post-Warden first stable Ruby response, and strict no-manifestation/no-Might-identification boundary. Do not reconstruct missing dialogue."
+beats = [{"beat_id":"S020_B001","cues":{"staging":"Command-station architecture becomes visibly more intact/coordinated than the Suppressed Archives. Gates and routes assess claims and redirect movement through authored before/after level states. This is sophisticated machinery, not enchanted statuary and not evidence of broad conscious AI."}},
+{"beat_id":"S020_B002","cues":{"staging":"A protected Ancient repository/cache opens through access state before the Warden. Recover the pre-existing Standard Card Glassform Rupture here. It is not created, generated, or dropped by the Warden.","implementation_flags":["RECOVER_GLASSFORM_RUPTURE","NOT_BOSS_DROP"]}},
+{"beat_id":"S020_B003","cues":{"staging":"Late command-route encounters preview target-specific authority pressure without deleting menu categories. Choose-four remains player-controlled; Maevra's guest presence must not be mechanically mandatory."}},
+{"beat_id":"S020_B004","cues":{"staging":"BOSS: FIRST COMMAND WARDEN. Integrated Ancient machine; one HP bar, two behavior states, no HP refill. State A uses target-specific Command Seals and a temporarily targetable Command Ring. State B shifts toward durable mixed offense/protection after authority is challenged.","implementation_flags":["BOSS_HANDOFF","FIRST_COMMAND_WARDEN","ONE_HP_BAR","TWO_BEHAVIOR_STATES"]}},
+{"beat_id":"S020_B005","cues":{"staging":"The Warden may reproduce weaker functional equivalents of completed eligible ordinary actions only. It cannot copy Cards, Primes, Ultimates, or unique character-only commands. It uses its own mechanical strike/emitter rather than reproducing a character's body animation.","implementation_flags":["COPY_COMPLETED_ELIGIBLE_ORDINARY_ACTIONS_ONLY"]}},
+{"beat_id":"S020_B006","cues":{"staging":"There is NO pre-Warden Ruby flicker. The recovered Card remains in its prior unresolved state throughout the boss fight.","implementation_flags":["NO_PRE_WARDEN_RUBY"]}},
+{"beat_id":"S020_B007","cues":{"staging":"After Warden defeat, command/UI state clears and the Ancient output resolves exactly as two lines. This is the first Last Sentinel phrase in-story."}},
+{"beat_id":"S020_B008","cues":{"staging":"/PREVIOUS ERROR/"}},
+{"beat_id":"S020_B009","cues":{"staging":"/LAST SENTINEL CONFIRMED/"}},
+{"beat_id":"S020_B010","cues":{"staging":"Only after the Warden is defeated does the recovered Card produce its first unmistakable stable Ruby response. Do not ask or answer 'Might?' in S020; S021 owns identification."}},
+{"beat_id":"S020_B011","cues":{"staging":"No Prime figure, warrior silhouette, voice, autonomous motion, summon, or manifestation appears. The Ruby response remains an object-state response only.","implementation_flags":["STABLE_RUBY_RESPONSE","NO_PRIME_MANIFESTATION"]}},
+{"beat_id":"S020_B012","cues":{"staging":"The command-state change can alter earlier Archive authorization states, including the denied judgment branch, but do not turn around and run the Hunt now. S021 and the separate Cresthaven return own the chapter resolution/home beat.","implementation_flags":["HANDOFF_TO_S021"]}}]
