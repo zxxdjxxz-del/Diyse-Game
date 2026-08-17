@@ -12,7 +12,7 @@ location_id = "LOC_BORDERLANDS_FIELD_TRIAGE_CAMP"
 trigger_id = "trigger.chapter_00.s005"
 completion_flag = "scene.s005.complete"
 participants = Array[String](["cyanis", "ilyra", "convoy_superior_officer"])
-authoring_notes = "Step 7C S005 approved Chapter 0 confrontation scene. This scene frames and hands off the fixed final Broken Convoy encounter: Cyanis + Ilyra versus the Level 4 Convoy War-Sorcerer at 70% HP and Level 3 injured Iron Cohort Soldier at 50% HP. War-Sorcerer Rift Lance Preparation remains prohibited before Round 2. The internal one-time Broken Champion's Ward state carries for its approved three rounds (+20 Total Defense; first eligible hostile direct action received by each party member deals 20% less eligible damage). The internal label is never player-facing and is not a full Prime activation, selectable Card command, Prime use, or refresh source. Defeating the War-Sorcerer ends the encounter; the injured Soldier withdraws if still active. S006 owns aftermath, roster closure, and next-route consequences. No dialogue choice architecture."
+authoring_notes = "Step 7C S005 approved Chapter 0 confrontation scene. This scene frames and hands off the fixed final Broken Convoy encounter: Cyanis + Ilyra versus the Level 4 Convoy War-Sorcerer at 70% HP and Level 3 injured Iron Cohort Soldier at 50% HP. War-Sorcerer Rift Lance Preparation remains prohibited before Round 2. The one-time incomplete protective-response state carries for its approved three rounds (+20 Total Defense; first eligible hostile direct action received by each party member deals 20% less eligible damage). This state is not player-facing, does not identify the Card, does not unlock a selectable Card command, and does not refresh. Defeating the War-Sorcerer ends the encounter; the injured Soldier withdraws if still active. S006 owns aftermath, roster closure, and next-route consequences. No dialogue choice architecture."
 beats = [{
 "beat_id": "S005_B001",
 "speaker_id": "",
@@ -21,7 +21,7 @@ beats = [{
 "right": {},
 "active_side": "none",
 "advance_mode": "manual",
-"cues": {"pause_ms": 220, "staging": "Continue directly from S004. The fractured green-and-gold protection remains visible along the defended camp edge. The Convoy War-Sorcerer advances through the east cut with an injured Iron Cohort Soldier supporting him.", "camera": "Wide geography showing camp behind Cyanis/Ilyra and both incoming hostiles ahead.", "movement": "Cyanis and Ilyra take the forward edge without leaving the defended treatment perimeter.", "interrupt": false, "implementation_flags": ["S005_CONFRONTATION_BEGIN", "INTERNAL_WARD_STATE_ACTIVE", "ENCOUNTER_CH00_FINAL_VISIBLE"]}
+"cues": {"pause_ms": 220, "staging": "Continue directly from S004. The fractured green-and-gold protection remains visible along the defended camp edge. The Convoy War-Sorcerer advances through the east cut with an injured Iron Cohort Soldier supporting him.", "camera": "Wide geography showing camp behind Cyanis/Ilyra and both incoming hostiles ahead.", "movement": "Cyanis and Ilyra take the forward edge without leaving the defended treatment perimeter.", "interrupt": false, "implementation_flags": ["S005_CONFRONTATION_BEGIN", "INCOMPLETE_PROTECTIVE_RESPONSE_ACTIVE", "ENCOUNTER_CH00_FINAL_VISIBLE"]}
 }, {
 "beat_id": "S005_B002",
 "speaker_id": "convoy_superior_officer",
@@ -165,7 +165,7 @@ beats = [{
 "right": {},
 "active_side": "none",
 "advance_mode": "manual",
-"cues": {"pause_ms": 120, "staging": "Hard handoff into the controlling final Broken Convoy encounter. Dialogue must not alter statistics, action sheets, target legality, victory conditions, rewards, or temporary ward mechanics.", "camera": "Transition to combat presentation.", "movement": "Lock narrative staging and initialize encounter state.", "interrupt": false, "implementation_flags": ["COMBAT_HANDOFF", "ENCOUNTER_CH00_CONVOY_WAR_SORCERER", "PARTY_CYANIS_ILYRA", "WAR_SORCERER_START_HP_70_PERCENT", "INJURED_SOLDIER_START_HP_50_PERCENT", "RIFT_LANCE_PREPARATION_NOT_BEFORE_ROUND_2", "INTERNAL_WARD_THREE_ROUNDS", "INTERNAL_WARD_PLUS_20_TOTAL_DEFENSE", "INTERNAL_WARD_FIRST_ELIGIBLE_DIRECT_HIT_MINUS_20_PERCENT_PER_PARTY_MEMBER", "INTERNAL_WARD_NOT_PRIME_USE"]}
+"cues": {"pause_ms": 120, "staging": "Hard handoff into the controlling final Broken Convoy encounter. Dialogue must not alter statistics, action sheets, target legality, victory conditions, rewards, or the temporary protective-response mechanics.", "camera": "Transition to combat presentation.", "movement": "Lock narrative staging and initialize encounter state.", "interrupt": false, "implementation_flags": ["COMBAT_HANDOFF", "ENCOUNTER_CH00_CONVOY_WAR_SORCERER", "PARTY_CYANIS_ILYRA", "WAR_SORCERER_START_HP_70_PERCENT", "INJURED_SOLDIER_START_HP_50_PERCENT", "RIFT_LANCE_PREPARATION_NOT_BEFORE_ROUND_2", "PROTECTIVE_RESPONSE_THREE_ROUNDS", "PROTECTIVE_RESPONSE_PLUS_20_TOTAL_DEFENSE", "PROTECTIVE_RESPONSE_FIRST_ELIGIBLE_DIRECT_HIT_MINUS_20_PERCENT_PER_PARTY_MEMBER", "PROTECTIVE_RESPONSE_NOT_CARD_USE"]}
 }, {
 "beat_id": "S005_B018",
 "speaker_id": "",
@@ -201,7 +201,7 @@ beats = [{
 "right": {},
 "active_side": "none",
 "advance_mode": "manual",
-"cues": {"pause_ms": 160, "staging": "The fractured green-and-gold geometry loses coherence after the confrontation. It fades rather than transforming into a complete manifestation. No identity is revealed.", "camera": "Brief environmental insert on cracked protection lines fading from stone and wagon supports.", "movement": "Camp remains intact but damaged.", "interrupt": false, "implementation_flags": ["INCOMPLETE_RESPONSE_FADES", "NO_COMPLETE_MANIFESTATION", "NO_IDENTITY_REVEAL"]}
+"cues": {"pause_ms": 160, "staging": "The fractured green-and-gold geometry loses coherence after the confrontation. It fades rather than becoming a complete manifestation. No identity is revealed.", "camera": "Brief environmental insert on cracked protection lines fading from stone and wagon supports.", "movement": "Camp remains intact but damaged.", "interrupt": false, "implementation_flags": ["INCOMPLETE_RESPONSE_FADES", "NO_COMPLETE_MANIFESTATION", "NO_IDENTITY_REVEAL"]}
 }, {
 "beat_id": "S005_B022",
 "speaker_id": "ilyra",
