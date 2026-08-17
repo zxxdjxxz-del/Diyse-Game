@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "S016"
+chapter_id = "chapter_02"
+scene_kind = "mandatory"
+location_id = "LOC_DUNMERE_EXTRACTION_CAUSEWAY"
+trigger_id = "trigger.chapter_02.s016"
+completion_flag = "scene.s016.complete"
+participants = Array[String](["cyanis", "ilyra", "torren", "maevra", "prisoner", "evacuee"])
+authoring_notes = "Audit75 CLOSED-AUTHORITY IMPLEMENTATION SHELL. S016 is approved/closed. Exact prior full transcript is not recoverable as a serialized artifact. Preserve exactly one mandatory authored encounter (Hold the Junction), evacuation as the success condition, no combat after the final extraction threshold, Rhazek surviving/withdrawing, and the final safe image prioritizing evacuees over protagonists. Do not reconstruct missing dialogue."
+beats = [{"beat_id":"S016_B001","cues":{"staging":"Post-Rhazek extraction begins under pressure. The scene is about moving living people out, not celebrating the boss victory. Keep evacuee movement and route readability in the foreground."}},
+{"beat_id":"S016_B002","cues":{"staging":"Exactly one mandatory authored combat occurs in S016: Hold the Junction. Do not add a second rearguard, pursuit boss, or random battle after the extraction threshold.","implementation_flags":["AUTHORED_ENCOUNTER_HANDOFF","HOLD_THE_JUNCTION","EXACTLY_ONE_MANDATORY_ENCOUNTER"]}},
+{"beat_id":"S016_B003","cues":{"staging":"The party's actions buy evacuation time. Prisoners/evacuees remain people making and following concrete movement choices; do not reduce them to a progress meter in dialogue."}},
+{"beat_id":"S016_B004","cues":{"staging":"Once the final extraction threshold is reached, encounter pressure ends. No random or authored combat occurs after this point.","implementation_flags":["FINAL_EXTRACTION_THRESHOLD","NO_COMBAT_AFTER_THRESHOLD"]}},
+{"beat_id":"S016_B005","cues":{"staging":"Rhazek survives and withdraws according to later-story authority. Do not kill him in aftermath text or imply possession absolves him."}},
+{"beat_id":"S016_B006","cues":{"staging":"The transfer branch first seen in S014 becomes accessible only after the Bastion is defeated and extraction is secured. This creates the later Regional-Hunt return route; do not force the party back into it now.","implementation_flags":["TRANSFER_HUNT_BRANCH_POST_CHAPTER_OPEN"]}},
+{"beat_id":"S016_B007","cues":{"staging":"Safe-area final composition centers evacuees receiving care, food, blankets, names, and route information. The missing-brother evacuee thread remains unresolved; do not manufacture a tidy answer solely to close the chapter."}},
+{"beat_id":"S016_B008","cues":{"staging":"Chapter 2 closes into decompression. C06 and C07 become available after S016 and are order-independent. No mandatory ancient-history exposition interrupts extraction consequence.","implementation_flags":["CHAPTER_02_COMPLETE","UNLOCK_C06","UNLOCK_C07"]}}]
