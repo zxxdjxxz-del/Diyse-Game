@@ -1,0 +1,42 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "C03"
+chapter_id = "chapter_01"
+scene_kind = "character_life"
+location_id = "LOC_BRD_BRACKENWALL"
+trigger_id = "trigger.chapter_01.c03.after_s011"
+completion_flag = "scene.c03.complete"
+participants = Array[String](["cyanis", "ilyra", "torren"])
+authoring_notes = "Audit75 conversion of the closed C03 Torren's Version of Dinner Character-Life scene. Ordinary social unit only: no lore, quest, Hunt, Card, romance milestone, mandatory revelation, reward, or system mutation. Cheap 2.5D uses a sheltered camp, pot, bowls, bread, ladle, and reusable sit/eat/stir/stand states. Protected dialogue and approved scene rhythm are preserved."
+beats = [{"beat_id":"C03_B001","cues":{"staging":"Evening after S011. Torren has a small pot over the fire. Three bowls, rough bread, and a ladle are the only required props. Cyanis looks into the pot."}},
+{"beat_id":"C03_B002","speaker_id":"cyanis","text":"What is that?"},
+{"beat_id":"C03_B003","speaker_id":"torren","text":"Dinner."},
+{"beat_id":"C03_B004","speaker_id":"cyanis","text":"I understood the category."},
+{"beat_id":"C03_B005","cues":{"staging":"Ilyra accepts a bowl before Cyanis finishes evaluating it. Cyanis accepts one too."}},
+{"beat_id":"C03_B006","speaker_id":"torren","text":"Road food has four jobs."},
+{"beat_id":"C03_B007","speaker_id":"torren","text":"Hot. Enough. Safe. Cheap."},
+{"beat_id":"C03_B008","speaker_id":"cyanis","text":"Taste?"},
+{"beat_id":"C03_B009","speaker_id":"torren","text":"Bonus."},
+{"beat_id":"C03_B010","cues":{"staging":"Cyanis keeps criticizing the food while eating efficiently enough to finish his first bowl."}},
+{"beat_id":"C03_B011","speaker_id":"ilyra","text":"You seem committed to the complaint."},
+{"beat_id":"C03_B012","cues":{"staging":"Cyanis takes a second bowl. Torren notices and says nothing until Cyanis tries the bread."}},
+{"beat_id":"C03_B013","speaker_id":"cyanis","text":"The bread is terrible."},
+{"beat_id":"C03_B014","speaker_id":"torren","text":"Didn't make the bread."},
+{"beat_id":"C03_B015","speaker_id":"cyanis","text":"Then I withdraw that part."},
+{"beat_id":"C03_B016","cues":{"staging":"The conversation drifts to whether Torren always cooks this way on the road."}},
+{"beat_id":"C03_B017","speaker_id":"torren","text":"Used to cook better."},
+{"beat_id":"C03_B018","speaker_id":"cyanis","text":"What happened?"},
+{"beat_id":"C03_B019","speaker_id":"torren","text":"Started traveling alone."},
+{"beat_id":"C03_B020","cues":{"staging":"Torren stirs the pot once. No bespoke cooking animation is required."}},
+{"beat_id":"C03_B021","speaker_id":"torren","text":"When you're cooking for six, you make a meal. Cooking for one, you make enough not to do it again tomorrow."},
+{"beat_id":"C03_B022","cues":{"staging":"Nobody turns that into a confession. Ilyra keeps eating. The practical reason to remain at the fire has ended, but all three stay. Let the quiet sit."}},
+{"beat_id":"C03_B023","cues":{"staging":"After a comfortable stretch of silence, Torren takes Cyanis's empty bowl."}},
+{"beat_id":"C03_B024","speaker_id":"torren","text":"Tomorrow night, you cook."},
+{"beat_id":"C03_B025","speaker_id":"cyanis","text":"I withdraw my complaint."},
+{"beat_id":"C03_B026","speaker_id":"ilyra","text":"Too late."},
+{"beat_id":"C03_B027","cues":{"staging":"End on the three of them still eating around the fire. No revelation, reward, or relationship speech."}}]
