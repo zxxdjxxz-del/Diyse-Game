@@ -1,122 +1,202 @@
 # Diyse — Active Engineering Canon Guardrails
 
-This file is an implementation-facing summary. It does **not** replace the authoritative Diyse master canon, active annexes, protected character source files, or newer explicit user approvals. If this summary conflicts with a newer controlling project authority, the newer authority wins and this file must be updated deliberately.
+This is an implementation-facing summary. It does **not** replace the authoritative Complete Master Canon or newer explicit user corrections. If this summary conflicts with newer authority, the newer authority wins and this file must be updated deliberately.
 
 ## Current written authority
 
-- **Whole-project root:** Diyse: 2.5D JRPG Clean Active Master Canon v1.36 — Chapter 0 Production Dialogue Canonization and Step 7C First-Chapter Completion Revision.
-- **Technical annex:** Diyse Active Technical Annex v1.36 — current numerical, proven implementation, production authoring-interface, and Chapter 0 validation authority.
-- **Dialogue annex:** Diyse Active Dialogue Development Annex v1.3 — completed study, locked authoring contract, and approved Chapter 0 production-dialogue authority.
-- **Implementation evidence:** Diyse Step 7B.5 Technical Feasibility & Android Proof Report v1.0; Diyse Step 7B.6 Production Handoff Lock Report v1.0; Diyse Step 7C Chapter 0 Production Dialogue Completion & Validation Report v1.0.
-- **Recovery checkpoint:** v1.36 / Audit48.
-- v1.35 / Audit47 and earlier are frozen recovery/history only.
-
-## Workflow state
-
-- Dialogue study: **COMPLETE**.
-- Step 7B.5 technical feasibility: **PASS — real Android device**.
-- Step 7B.6 production dialogue handoff: **COMPLETE / PASS**.
-- Step 7C Dialogue-First Scene Writing: **ACTIVE**.
-- Chapter 0 S001–S006 + C01/C02: **COMPLETE / APPROVED / MERGED**.
-- Chapter 0 merge: `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`.
-- Next mandatory production block: **Chapter 1 S007–S011**.
-- Active implementation repository: `zxxdjxxz-del/Diyse-Game`.
-- Accepted 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`.
-- Accepted 7B.6 implementation merge: `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.
-
-The default Step 7C workflow is chapter-level: one branch/PR per chapter or comparable substantial narrative block; scene-by-scene review/checkpointing; one chapter tracker; whole-chapter continuity/repetition/voice/runtime review; full Godot + Android regression at the chapter checkpoint unless engine/schema/platform changes require earlier gating; one authority/archive checkpoint after completion.
+- **Whole-project root:** Diyse Clean Active Complete Master Canon **v1.60 / Audit75** — Completed Dialogue Canonization, Chapter 3 Closure, and Production-Authority Consolidation.
+- **Date:** August 17, 2026.
+- Chapters **0–3 are COMPLETE/CLOSED** at story/dialogue/continuity/relationship/affordable-2.5D production-authority level.
+- Chapter 4 — **The Seventh Reaction** — is the next exact scene-level authoring frontier.
+- Completed early-chapter repository packages: `docs/chapters/`.
+- Chapter 0 exact line/cue authority remains the merged Godot Resource set at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5` where compatible with later canon.
+- Chapters 1–3 still require Resource conversion/implementation validation; that does not reopen their approved dialogue.
 
 ## Project foundation
 
-- Diyse is a mature-fantasy 2.5D JRPG with an approximately 20-hour critical path.
-- Permanent roster: exactly six — Cyanis Dovaren, Ilyra Amarin, Torren Harth, Nimera Pellan, Vaelira Serren, Seyrik Rell.
-- Maximum active permanent battle party: four.
-- Character level cap: 50.
-- Each permanent character has exactly one Base Class and one Subclass.
-- Combat is command-driven and turn-based using discrete rounds.
+- Game: DIYSE — mature-fantasy 2.5D party-command JRPG.
+- Target platform: Android / APK.
+- Target runtime: approximately **25 hours**, with final timing validation still implementation work.
+- Critical story: Chapters 0–12 exactly, plus Sixfold Accord interlude and cleared-save `WORLD_AFTER` free roam.
+- Permanent roster: exactly six.
+- Maximum active battle party: four; two reserve when roster-complete.
+- Absolute character level cap: **60**.
+- Chapters 0–10 broadly occupy progression through Level 50; Chapters 11–12 extend through the 50s toward 60.
+- No Level 61+, prestige levels, separate postgame progression campaign, or new equipment tier above Legacy.
+- Worldframe Depths remains a specifically **Level-50 optional-major challenge**, not the absolute character-level cap.
+- Dialogue: one authored continuity; no response wheel, morality route, affinity response, selectable protagonist personality, or romance route/system.
+- Cleared-save aftermath exists; no hidden true-ending route.
+
+## World geography
+
+The Three Realms of modern Yahtrea are:
+
+- **Edgelands** — west.
+- **Diysereach** — north. “The Highlands” may be descriptive terrain language, not the formal Realm name.
+- **Southhold** — south/east and includes Caelora.
+
+The Black Mountains lie west outside Yahtrea and are Black Host territory.
+
+`Heartlands`, `Crown Heartlands`, and `Crown Region` are not active formal Realm names.
+
+Broad campaign movement: **Edgelands → Southhold → Diysereach → Southhold → Black Mountains → Ancient subterranean Diyse**.
+
+### Chapter 3 geography hard lock
+
+**Caelora → Old City / Suppressed Archives → separate Cresthaven.**
+
+Caelora is the national capital/seat of the Crown within Southhold. Cresthaven is a separate hub/site and is not a room, district, wing, or chamber inside Caelora's Old City.
+
+## Chapter spine
+
+| State | Title | Current status |
+|---|---|---|
+| Ch0 | The Broken Convoy | COMPLETE/CLOSED; exact Resources merged, later compatibility overlays apply |
+| Ch1 | Brackenwall and the Wayfinder | COMPLETE/CLOSED authoring authority; Resource conversion pending |
+| Ch2 | The Drowned Oath | COMPLETE/CLOSED authoring authority; Resource conversion pending |
+| Ch3 | The Old City and Last Sentinel | COMPLETE/CLOSED authoring authority; Resource conversion pending |
+| Ch4 | The Seventh Reaction | next exact scene-production frontier |
+| Ch5 | The Mountain Engine | inherited architecture |
+| Ch6 | Broken Sky and Crimson Work | inherited architecture |
+| Accord | Sixfold Accord | locked interlude architecture |
+| Ch7 | The Prison of Names | inherited architecture |
+| Ch8 | Westreach and the Marshal | inherited architecture |
+| Ch9 | Equal Mercy and Continuity | inherited architecture |
+| Ch10 | Crown Engine and Sixfold Truth | inherited architecture |
+| Ch11 | The Reforged March | Black Mountains; progression beyond 50 begins |
+| Ch12 | The Last Command | Ancient subterranean Diyse; progression culminates at 60 |
+| After | WORLD_AFTER — Cresthaven Reconstruction | cleared-save free roam / aftermath |
+
+## Permanent cast / class / Face / Story Prime
+
+| Character | Age | Base → Subclass | Face | Story Prime |
+|---|---:|---|---|---|
+| Cyanis Dovaren | 29 | Crest Knight → Crest Magus | Might / Ruby | Last Sentinel |
+| Ilyra Amarin | 28 | Blue Warden → Vowblade | Grace / Blue | Last Sanctuary |
+| Torren Harth | 42 | War Archer → Routeweaver | Resource / Gold | Last Measure |
+| Nimera Pellan | 23 | Cardweaver → Sixfold Knight | Change / Fuchsia | Last Scribe |
+| Vaelira Serren | 27 | Green Arcanist → Prism Archer | Elements / Emerald | Last Convergence |
+| Seyrik Rell | 29 | Ruin Vanguard → Ruin Reclaimer | Ruin / Purple | Last Erasure |
+
+All Subclasses are first learned at the Sixfold Accord. No permanent character has meaningful pre-Accord Subclass training.
+
+Maevra Solmar is a recurring temporary/guest playable ally, not a seventh permanent. Kessara Durnan is a recurring technical ally, not permanent.
+
+## Combat architecture
+
+- Discrete round-based command combat.
+- Permanent commands: Attack / Ability / Card / Item / Defend.
+- Speed determines action order only; it does not grant extra ordinary actions.
 - MP is the universal ordinary Ability resource.
-- There are no character-specific combat gauges/resources.
-- Permanent battle commands: Attack / Ability / Card / Item / Defend.
-- Current Card collection: 24 Standard Cards + 12 Prime Cards.
-- Standard Cards are unlimited-use.
-- Current Faces: Might, Elements, Grace, Resource, Change, Ruin.
-- After-story free roam exists; no exclusive post-ending progression or hidden true ending.
+- No grid, lanes, facing system, real-time meter, stagger gauge, overwatch, or character-specific combat resource.
+- Maximum four active.
+- Traditional random battles are the ordinary hostile-exploration layer where fiction supports them. Authored safe/story pockets suppress encounter triggering while preserving local pressure rather than resetting it.
+- Automatic hostile retargeting remains the accepted implementation behavior when an original hostile target dies before resolution, unless an authored effect explicitly overrides it.
 
-## Presentation authority
+## Class EXP / Focus
 
-Diyse is a **2.5D** game. This supersedes older implementation text that described the shipped game as fully 3D.
+Class/Subclass EXP goes **only to the selected class**:
 
-The target combines 3D environments/depth/lighting/traversal with stylized 2D/2.5D character presentation and expressive illustrated dialogue portraits where appropriate. Step 7B.5 proved the architectural coexistence on Android; its graybox method/art remains non-canon.
+- Base Focus → selected Base Class receives all CEXP; Subclass receives 0.
+- Subclass Focus → selected Subclass receives all CEXP; Base receives 0.
+- No passive split, donor share, catch-up share, or “base always gains” exception.
 
-## Dialogue authority
+Open equipment/persistent ability authority remains: once an equipment/ability access is legally unlocked, changing Focus does not hide or revoke it. Focus controls the selected class stat package/Trait and class-only behavior.
 
-Diyse has **no player dialogue choices**. Cyanis is a defined authored protagonist. Do not implement response wheels, tone menus, affinity dialogue, branching player-spoken responses, persuasion trees, good/evil dialogue, or romance dialogue choices.
+## Cards
 
-The dialogue study is complete. Step 7B.6 locks the production authoring interface:
+- **42 Cards total:** 30 Standard + 12 Prime.
+- 30 Standard = five per Face.
+- 12 Prime = six Story Primes + six optional-major Primes.
+- Standard Cards are unlimited-use, data-driven; no charges, Essence, Card ranks, refresh counters, or duplicate farming.
+- Cards and Conduits are separate systems.
+- Bosses/constructs do not create Cards; victory/access may gate recovery of pre-existing Ancient Cards.
 
-- production scene records use `DiyseDialogueSceneDefinition` Resources;
-- scene, beat, character/NPC, expression, trigger and completion identifiers are stable semantic IDs;
-- beat IDs use `<SCENE_ID>_B###`;
-- portrait file paths resolve through `DiyseDialoguePortraitRegistry`, not authored scene data;
-- camera/staging/movement/implementation information travels as cue metadata separate from spoken text;
-- `DialogueRunner` consumes validated Resource-backed scenes through `start_scene(scene_definition, registry)`;
-- known choice/response/branch fields are rejected by schema validation.
+## Conduits
 
-Chapter 0 is the first complete production exercise of that contract. S001–S006, C01 and C02 are approved production dialogue, validated individually and as a cross-scene chapter set. Authorization permits further exact dialogue/staging work but does **not** permit silent changes to story outcomes, chapter order, combat, Cards/Primes, relationships, Vaelkor/fragment authority, or final-act locks.
+Conduit is the equipment category used by Nimera's Cardweaver tradition and later by Torren's inherited Routeweaver access. A Conduit can be a tome, talisman, seal, codex, charm, crystal, medallion, token, or relic. The object does not become a melee weapon: it manifests an airborne weapon-form for ordinary Attack while the bearer uses reusable casting/command presentation.
 
-See `DIALOGUE_AUTHORING_SCHEMA.md` and `STEP_7C_AUTHORING_TEMPLATE.md` before authoring or integrating production dialogue. Disposable technical-proof lines, `PROOF_SCHEMA`, proof cues and placeholder portraits are not canon.
+## Prime fiction / implementation separation
 
-## Combat implementation authority
+- Story Prime acquisition order: Last Sentinel (Ch3), Last Measure (Ch5), Last Convergence (Ch6), Last Scribe (Ch7), Last Sanctuary (Ch9), Last Erasure (Ch10).
+- Prime activation uses the bearer's selected Card action and the accepted directly controlled replacement/suspension architecture.
+- No living modern person has witnessed a verified Prime Manifestation before the first successful post-S021 battle use of Last Sentinel.
+- S021 identifies/unlocks Last Sentinel **without manifesting it**. The player's first later real-battle use is the first verified modern Prime activation/sighting.
+- Gameplay UI can explain technical battle rules after unlock. Characters do not acquire those empirical formulas/durations as in-world knowledge merely because the UI exists.
 
-The accepted round architecture uses beginning-of-round processing, enemy action locking before unconfirmed player commands, one selected action per conscious active party member, Item priority, Defend priority, then current effective Speed ordering with deterministic tie rules. Speed determines order only and never grants extra ordinary actions.
+## Modern knowledge / Ancient Diysean firewall
 
-### Automatic hostile retargeting
+Modern people broadly know:
 
-If a queued player hostile action's original enemy target is defeated before that action resolves:
+- Ancient Diyseans were advanced humans.
+- Their civilization ended in a great catastrophe.
+- Ancient ruins/subterranean sites exist.
+- Cards come from Ancient Diyse.
+- Some fragments of names/history survive.
 
-- seek the next living enemy in encounter-slot order;
-- wrap to the first living enemy when needed;
-- change only the target — actor, action identity, cost, priority and Speed remain unchanged;
-- apply this to Attack, hostile/damaging Abilities, hostile Standard Cards, and equivalent directly controlled Prime hostile commands unless an authored effect explicitly overrides targeting;
-- expose the retarget in presentation/logging.
+Modern people do **not** begin with the full truth of:
 
-## Card and Prime implementation authority
+- the Entity;
+- the true Ancient War / Last Weapon operation;
+- the unified physical Underground Crest Network;
+- the enormous buried Crest beneath Yahtrea and beyond;
+- the six original Story-Prime sacrifice warriors and final inheritance purpose.
 
-- Standard Cards remain unlimited-use and data-driven; no charges, Essence, Card ranks, refresh counters, or per-battle Standard-use counters.
-- Every collectible Prime Card summons one directly controlled Prime Manifestation under current Prime authority.
-- Prime activation consumes the bearer's selected Card action, establishes the approved pending/replacement flow, suspends the active party at the correct boundary, exposes Prime-specific commands, and restores the frozen party according to current Prime rules.
-- Prime Manifestations are separate from ordinary summons.
+Ancient machinery may recognize signatures/Cards/Faces, follow instructions, assess claims, redirect routes, and change tactics. Do not infer broad conscious AI from those behaviors.
 
-`Proof Strike`, temporary flat Prime/Card damage and other proof numbers are not canon content values.
+## Underground Crest Network
 
-## Persistence authority
+Later-story authority: the Network is a physical underground civilization of bunkers, stockpiles, transit, cities, defenses, and reactor infrastructure built as catastrophe-survival architecture. It is not a consciousness network or one-person-anchor system. Multiple reactors inject magic into one enormous regional buried Crest; the land/Crest is the medium. This truth is not an early-chapter exposition shortcut.
 
-Persistent game/session state remains separate from scene nodes and serializes as versioned plain data under Godot `user://`. Step 7B.5 proved representative persistence across full Android app close/relaunch. Mid-round combat or active-Prime serialization was outside that proof and is not silently implied.
+## Cresthaven
 
-## Permanent character/class/story-Prime identities
+Cresthaven is one connected master hub with Command, Common, Archive, Medical, Workshop, Lodging, Training, Overlook, and Departure Court sublocations. Chapter 3 establishes only the immediate safe loop: Rest/Save, Formation, Archive/Records, Medical/Recovery, Departure. Later services unlock through later hub phases.
 
-- Cyanis — Crest Knight / Crest Magus — Might / First Champion
-- Ilyra — Blue Warden / Vowblade — Grace / First Mercy
-- Torren — War Archer / Diysean Marksman — Resource / First Sovereign
-- Nimera — Cardweaver / Sixfold Knight — Change / First Change
-- Vaelira — Green Arcanist / Prism Archer — Elements / First Element
-- Seyrik — Ruin Vanguard / Ruin Reclaimer — Ruin / First Reckoning
+Preferred optional-content rhythm: **chapter exploration → home/Cresthaven → optional revisit/Hunt → home → onward**.
 
-Maevra is a temporary playable/recurring major ally, not a permanent progression character. Kessara is a nonplayable recurring technical ally.
+## Regional Hunt return grammar
 
-## Relationship/story guardrails relevant to engineering
+Eligible chapter-dungeon Regional Hunts use a visible but unavailable first-pass branch. The chapter climax changes local state so the branch opens afterward and generally remains available. Return through a shortcut/cleared route rather than replaying the full dungeon.
 
-- No romance system, affection meter, jealousy system, triangle, triad, or route.
-- Authored relationships can exist without gameplay meters.
-- Cyanis and Ilyra have an authored mutual love relationship.
-- Torren and Maevra have an authored adult intimate relationship.
-- All six permanent characters survive the canonical ending.
-- Vaelkor does not knowingly ally with the surviving fragment. The fragment covertly influences him and extends his life for nearly 300 years; the influence is subtle and does not remove his agency or responsibility.
+Early locks:
+- Hunt #1 Cistern Devourer: post-S011 route spur toward Dunmere; standalone route exception, not fake dungeon replay.
+- Hunt #2 Transfer Executioner: Bastion/prisoner transfer branch opens after Rhazek defeat + secured S016 extraction.
+- Hunt #3 Archive Judgment Engine: S019 judgment branch denied first pass; S020/S021 authorization-state change opens it after the Cresthaven return; return to Old City/Archive separately.
 
-## Proof-content exclusion
+## Optional-major unlock windows
 
-Do not mistake technical fixtures for canon. Non-canon proof material includes graybox geometry, placeholder Cyanis/Torren sprites/portraits, proof dialogue, `PROOF_SCHEMA`, proof registry/cues, Raider enemies/stats, `Proof Strike`, temporary flat damage/rewards, proof chest/state flags and debug UI.
+1. After Ch3 — Ashfrost Expanse / Ashen Whitehorn → Dawn Shepherd.
+2. After Ch5 — Crownfall Redoubt / Crownless Siege Marshal → Oathbound Colossus.
+3. After Sixfold Accord — Concordance Vault / Concordance Guardian → Living Revision.
+4. After Ch8 — Worldscar Basin / Worldscar Leviathan → Prismatic Leviathan.
+5. After Ch10 — Final Archive / Final Archive Arbiter → Sheltering Host.
+6. After Final Archive first clear — Worldframe Depths / The Unfinished World → Starfall Engine.
+
+## Dialogue / characterization guardrails
+
+Dialogue has one authored continuity. Natural conversation may use contractions, interruptions, false starts, repetition, partial answers, topic shifts, failed jokes, profanity, boredom, misunderstanding, and silence. Do not write party roll-call dialogue.
+
+Core early voices:
+- Cyanis: social/playful/practical wit; not stoic; self-neglect shows when attention turns to him.
+- Ilyra: warm/dry, excellent listener not therapist; precise/formal anger.
+- Torren: practical/social, talkative about roads/terrain/weather/bows; not permanent terse quips.
+- Nimera: engages, challenges wording, self-revises, swears frequently/cleverly; true fury becomes formal and stops swearing.
+- Maevra: energetic/social/decisive/argumentative/mischievous/warm; stress can push Commander Solmar mode.
+- Mirena: witty/observant/mischievous/politically impatient; public cleaner, private warmer/more profane.
+- Lysara: patient/observant/dry funny/affectionate/stubborn/practical; continuity without stagnation and restraint of sovereign ownership.
+
+Protected relationship progression is recorded in `docs/chapters/CHAPTER_01_COMPLETE.md` through `CHAPTER_03_COMPLETE.md`.
+
+## Affordable 2.5D production baseline
+
+3D owns world scale, spatial continuity, towns, ruins, elevation, traversal, lighting, weather, machinery, crowds, arenas, destruction states, and spatial reveals. 2D/2.5D character presentation and portraits own close performance.
+
+Use reusable poses/portraits/props/camera inserts and authored environment states. Destruction = before/after + VFX, not physics simulation. Water = authored state, not fluid simulation. Crowds = layered groups, not crowd AI. “Checks/tests/aligns/examines” normally use a reusable interaction pose + insert. Warden copied actions use its own mechanical strike/emitter. Character-Life scenes favor tables/maps/food/bandages/reports/cups/chairs/tools/lighting/silence over bespoke animation.
+
+## Finale outcome guardrails
+
+The final antagonist sequence remains Reconstituted Entity → Last Command. Final Severance is the modern six-person solution; all six survive. The Entity and every surviving Entity trace are permanently destroyed. No party member becomes infrastructure or a permanent living anchor. The giant Crest survives damaged/low/stable. Story Primes survive. Vaelkor remains responsible for his own choices and is not retroactively reduced to possession.
 
 ## Historical repository rule
 
-The older `zxxdjxxz-del/Diyse` repository is **historical prototype material only**. Its libGDX architecture, old field experiments, temporary formulas, assets, and prototype mechanics are not implementation authority for `Diyse-Game`.
+The older `zxxdjxxz-del/Diyse` repository is historical prototype material only. Do not use its code or obsolete story/system assumptions as implementation authority.
