@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "S021"
+chapter_id = "chapter_03"
+scene_kind = "mandatory"
+location_id = "LOC_CRESTHAVEN_COMMAND_ESTABLISHMENT"
+trigger_id = "trigger.chapter_03.s021"
+completion_flag = "scene.s021.complete"
+participants = Array[String](["cyanis", "ilyra", "torren", "maevra", "nimera", "mirena", "lysara"])
+authoring_notes = "Audit75 CLOSED-AUTHORITY IMPLEMENTATION SHELL. S021 is closed canon; exact former full transcript was not serialized to a recoverable artifact. Location is SEPARATE CRESTHAVEN after the Old City/Suppressed Archives/Warden sequence. Preserve exactly four bounded conclusions: Prime, Might, Last Sentinel, meaning unknown; first modern usable/unlock state without manifestation; Mirena/Lysara authority consequences; immediate Ch3 hub services only; Ruby-and-still final image. Do not reconstruct missing dialogue."
+beats = [{"beat_id":"S021_B001","cues":{"staging":"Geographic transition is explicit: leave the Old City / Suppressed Archives sequence and arrive at separate Cresthaven. Never stage Cresthaven as the Warden chamber, an adjacent Old City room, or a renamed Archive section."}},
+{"beat_id":"S021_B002","cues":{"staging":"No combat. Use a cheap 2.5D command/archive workroom state: table, copied records, protected Card case, Glassform comparison sample handled by Nimera, reusable sit/stand/point states, portraits, and pauses. Cyanis does not become an archaeologist examining Glassform."}},
+{"beat_id":"S021_B003","cues":{"staging":"FIRST BOUNDED ANSWER: surviving notation identifies the recovered Card as a Prime classification. Modern scholarship may know Primes as a rare ancient category without any living person having verified a modern activation."}},
+{"beat_id":"S021_B004","cues":{"staging":"SECOND BOUNDED ANSWER: stable Ruby response and recovered records identify the Face as Might."}},
+{"beat_id":"S021_B005","cues":{"staging":"THIRD BOUNDED ANSWER: the identity is Last Sentinel, matching the exact S020 command output."}},
+{"beat_id":"S021_B006","cues":{"staging":"FOURTH BOUNDED ANSWER: what Last Sentinel ultimately means, its complete original purpose, and the meaning of PREVIOUS ERROR remain unknown. Do not replace the unknown with theory just to close the scene."}},
+{"beat_id":"S021_B007","cues":{"staging":"Last Sentinel reaches its first modern unlock/usable state here but does NOT manifest. Player/system UI may mark it Recovered and explain technical mechanics; characters do not suddenly know HP formulas, action-round counts, command tables, or manifestation durations.","implementation_flags":["LAST_SENTINEL_RECOVERED","PRIME_SLOT_1_UNLOCK","NO_MANIFESTATION"]}},
+{"beat_id":"S021_B008","cues":{"staging":"No hub test activation. The first actual post-S021 battle use, whenever the player chooses it, is the first verified modern Prime activation and first living-modern sighting of a Prime Manifestation.","implementation_flags":["FIRST_ACTUAL_PRIME_USE_DEFERRED_TO_PLAYER_BATTLE"]}},
+{"beat_id":"S021_B009","cues":{"staging":"Mirena and Lysara remain substantial Chapter-3 authority actors. The false-order crisis receives institutional consequences while lawful personnel remain people who acted on authenticated records; do not turn the whole Crown into villains or pretend every cause is understood."}},
+{"beat_id":"S021_B010","cues":{"staging":"Cresthaven Ch3 Establishment exposes only the immediate safe loop: Rest/Save, Formation, Archive/Records, Medical/Recovery, and Departure. Workshop/Training/later habitation expansions remain later states.","implementation_flags":["CRESTHAVEN_CH3_ESTABLISHMENT"]}},
+{"beat_id":"S021_B011","cues":{"staging":"Post-S021 Archive status information can report that the earlier judgment branch is now accessible, enabling the optional Archive Judgment Engine return after the home beat. Do not force the player to leave immediately.","implementation_flags":["ARCHIVE_JUDGMENT_BRANCH_NOW_AVAILABLE"]}},
+{"beat_id":"S021_B012","cues":{"staging":"Final image: protected Last Sentinel Card, Ruby and still. No voice, movement, figure, autonomous glow behavior, or activation. Chapter 3 closes and points toward Chapter 4 / Ivorybridge-Sixfold Annex.","implementation_flags":["CHAPTER_03_COMPLETE","RUBY_AND_STILL"]}}]
