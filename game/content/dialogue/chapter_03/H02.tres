@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "H02"
+chapter_id = "chapter_03"
+scene_kind = "character_life"
+location_id = "LOC_CRESTHAVEN_COMMAND_WORKSPACE"
+trigger_id = "trigger.chapter_03.h02.after_s018"
+completion_flag = "scene.h02.complete"
+participants = Array[String](["torren", "maevra"])
+authoring_notes = "Audit75 CLOSED-AUTHORITY IMPLEMENTATION SHELL for H02 Torren and Maevra, Unsupervised. Full former line payload is not serialized. Preserve Maevra's authority-crisis pressure, Torren's first deliberate use of 'Maevra', old-weather/report shorthand, shoulder/left-arm callback, and protected ending. No T/Mae shorthand yet; no plot decision or Prime payload."
+beats = [{"beat_id":"H02_B001","cues":{"staging":"Private/quiet Cresthaven command-workspace scene after S018; still valid after S019. Maevra is rereading/rechecking the impossible order configuration rather than making a new plot decision. Cheap 2.5D: table, papers, gear, cup, reusable sit/stand/repair/report states."}},
+{"beat_id":"H02_B002","cues":{"staging":"Torren notices how many times Maevra has reread the same material and recognizes Commander Solmar mode. Their old professional shorthand can surface through a past weather report whose useful content was simply 'wet', a moved-river analogy, and a practical left-arm/shoulder callback. Do not turn the history into flashback exposition."}},
+{"beat_id":"H02_B003","cues":{"staging":"At the point where Maevra retreats hardest into rank/procedure, Torren deliberately uses her first name for the first time in the present-day progression. This is not T/Mae and not a declaration."}},
+{"beat_id":"H02_B004","speaker_id":"torren","text":"Maevra."},
+{"beat_id":"H02_B005","cues":{"staging":"The name reaches the person without solving the institutional problem for her. Keep the response restrained and adult."}},
+{"beat_id":"H02_B006","speaker_id":"maevra","text":"Don't disappear before morning."},
+{"beat_id":"H02_B007","speaker_id":"torren","text":"Wasn't planning to."},
+{"beat_id":"H02_B008","speaker_id":"maevra","text":"That isn't the same thing."},
+{"beat_id":"H02_B009","speaker_id":"torren","text":"I'll be here."},
+{"beat_id":"H02_B010","cues":{"staging":"End there. No kiss, confession, T/Mae nickname, or statement that the relationship is repaired. The scene's work is the deliberate first-name step and the promise to remain through morning."}}]
