@@ -174,7 +174,8 @@ func _validate_ch2(registry) -> void:
 	var s012 = scenes["S012"]
 	_expect("Do not declare Dunmere's water safe" in _staging(s012), "S012 must preserve the no-false-water-safe boundary")
 	var s013 = scenes["S013"]
-	_expect(_speaker_at(s013, "S013_B004") == "ilyra" and _text_at(s013, "S013_B004") == "It copied me.", "S013 conditional Ilyra copy line changed")
+	_expect("It copied me." in _staging(s013), "S013 must preserve the protected Ilyra copied-actor line as conditional staging authority")
+	_expect("CONDITIONAL_COPIED_ACTOR_LINE_NOT_SERIALIZED" in _all_flags(s013), "S013 must not serialize a copied-actor line unconditionally")
 	_expect("thirty-one transfers" in _staging(s013).to_lower(), "S013 must preserve exact thirty-one transfers discovery wording")
 	var s014 = scenes["S014"]
 	_expect(_text_at(s014, "S014_B006") == "Torren!" and _text_at(s014, "S014_B007") == "Harth.", "S014 protected Maevra address breach changed")
