@@ -10,10 +10,10 @@ This directory is the repository-facing implementation/recovery index for the co
 |---|---|---|---|
 | 0 | The Broken Convoy | S001–S006 + C01/C02 | Exact dialogue Resources already merged/validated; later canon overlays control where they supersede old internal terminology. |
 | 1 | Brackenwall and the Wayfinder | S007–S011 + C03–C05 | **Line-complete canon source + production `.tres` Resource set present; exact source-parity and whole-chapter continuity validated.** |
-| 2 | The Drowned Oath | S012–S016 + C06/C07 | **Line-complete canon source present in `dialogue/chapter_02/`;** Resource conversion/validation pending. |
+| 2 | The Drowned Oath | S012–S016 + C06/C07 | **Line-complete canon source + production `.tres` Resource set present; exact source-parity and whole-chapter continuity validated.** |
 | 3 | The Old City and Last Sentinel | S017–S021 + H01–H04 | **Line-complete corrected canon source present in `dialogue/chapter_03/`;** Resource conversion/validation pending. |
 
-Chapter 1 has crossed the authoring→Resource checkpoint. Chapters 2–3 remain line-complete authoring authority and must still be translated into the accepted `DiyseDialogueSceneDefinition` schema without re-authoring them.
+Chapters 1 and 2 have crossed the authoring→Resource checkpoint. Chapter 3 remains line-complete authoring authority and must still be translated into the accepted `DiyseDialogueSceneDefinition` schema without re-authoring it.
 
 ## Exact dialogue source
 
@@ -21,7 +21,9 @@ Use [`dialogue/README.md`](dialogue/README.md) as the scene-level index.
 
 For Chapters 1–3, the scene Markdown files under `docs/chapters/dialogue/` control exact approved wording and detailed production staging. The `CHAPTER_0X_COMPLETE.md` documents remain implementation-facing lock/index files and should not be used to reconstruct dialogue from summaries when the exact scene file exists.
 
-For Chapter 1, `game/content/dialogue/chapter_01/` now contains the production Resource translation of those exact sources. `tests/dialogue/validate_chapter_01_resources.gd` enforces exact spoken source parity; `tests/dialogue/validate_chapter_01_continuity.gd` enforces chapter-level continuity/final-version locks.
+For Chapter 1, `game/content/dialogue/chapter_01/` contains the production Resource translation. `tests/dialogue/validate_chapter_01_resources.gd` enforces exact spoken source parity; `tests/dialogue/validate_chapter_01_continuity.gd` enforces chapter-level continuity/final-version locks.
+
+For Chapter 2, `game/content/dialogue/chapter_02/` contains the production Resource translation. `tests/dialogue/validate_chapter_02_resources.gd` enforces exact spoken source parity, including the offscreen prisoner and simultaneous Ilyra/Torren source forms; `tests/dialogue/validate_chapter_02_continuity.gd` enforces the Chapter 2 continuity, encounter-count, prisoner-agency, Rhazek-limit, relationship, knowledge-firewall, Character-Life, and durable-handoff locks.
 
 ## Authority order
 
@@ -50,7 +52,7 @@ Completed Chapters 0–3 passed the current feasibility baseline with no RED sce
 
 ## Next implementation / authoring frontiers
 
-- **Closed-chapter Resource conversion:** Chapter 2 — The Drowned Oath.
+- **Closed-chapter Resource conversion:** Chapter 3 — The Old City and Last Sentinel.
 - **New exact scene authoring:** Chapter 4 — The Seventh Reaction.
 
 Resource conversion is implementation work on closed material, not a reason to rewrite those chapters.

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="DiyseDialoguePortraitRegistry" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_portrait_registry.gd" id="1_registry"]
+
+[resource]
+script = ExtResource("1_registry")
+entries = [
+{"character_id": "watermaster", "display_name": "Watermaster", "portraits": {}},
+{"character_id": "maevra", "display_name": "Maevra", "portraits": {}},
+{"character_id": "ilyra", "display_name": "Ilyra", "portraits": {}},
+{"character_id": "torren", "display_name": "Torren", "portraits": {}},
+{"character_id": "cyanis", "display_name": "Cyanis", "portraits": {}},
+{"character_id": "worker", "display_name": "Worker", "portraits": {}},
+{"character_id": "party_actor", "display_name": "Party Actor", "portraits": {}},
+{"character_id": "prisoner_woman", "display_name": "Prisoner Woman", "portraits": {}},
+{"character_id": "injured_man", "display_name": "Injured Man", "portraits": {}},
+{"character_id": "prisoner", "display_name": "Prisoner", "portraits": {}},
+{"character_id": "second_prisoner", "display_name": "Second Prisoner", "portraits": {}},
+{"character_id": "older_prisoner", "display_name": "Older Prisoner", "portraits": {}},
+{"character_id": "officer", "display_name": "Officer", "portraits": {}},
+{"character_id": "rhazek", "display_name": "Rhazek", "portraits": {}},
+{"character_id": "second_officer", "display_name": "Second Officer", "portraits": {}},
+{"character_id": "evacuee", "display_name": "Evacuee", "portraits": {}},
+{"character_id": "ilyra_torren", "display_name": "Ilyra / Torren", "portraits": {}}
+]

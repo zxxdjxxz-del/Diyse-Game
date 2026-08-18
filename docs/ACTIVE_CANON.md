@@ -11,8 +11,9 @@ This is an implementation-facing summary. It does **not** replace the authoritat
 - Completed early-chapter repository packages: `docs/chapters/`.
 - Chapters 1–3 exact line-complete repository source: `docs/chapters/dialogue/`.
 - Chapter 0 exact line/cue authority remains the merged Godot Resource set at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5` where compatible with later canon.
-- **Chapter 1 S007–S011 + C03–C05 are now converted into production `.tres` dialogue Resources and validated for exact source parity plus whole-chapter continuity.**
-- Chapters 2–3 still require Resource conversion/implementation validation; that does not reopen their approved dialogue.
+- **Chapter 1 S007–S011 + C03–C05 are converted into production `.tres` dialogue Resources and validated for exact source parity plus whole-chapter continuity.**
+- **Chapter 2 S012–S016 + C06/C07 are converted into production `.tres` dialogue Resources and validated against the exact Audit78 source plus whole-chapter continuity.**
+- Chapter 3 still requires Resource conversion/implementation validation; that does not reopen its approved dialogue.
 
 ## Project foundation
 
@@ -57,7 +58,7 @@ The controlling S020→S021 transition is explicit: after the First Command Ward
 |---|---|---|
 | Ch0 | The Broken Convoy | COMPLETE/CLOSED; exact Resources merged, later compatibility overlays apply |
 | Ch1 | Brackenwall and the Wayfinder | COMPLETE/CLOSED; **production dialogue Resources converted; exact source-parity + continuity validated** |
-| Ch2 | The Drowned Oath | COMPLETE/CLOSED; line-complete repo source; Resource conversion pending |
+| Ch2 | The Drowned Oath | COMPLETE/CLOSED; **production dialogue Resources converted; exact Audit78 source-parity + continuity validated** |
 | Ch3 | The Old City and Last Sentinel | COMPLETE/CLOSED; line-complete corrected repo source; Resource conversion pending |
 | Ch4 | The Seventh Reaction | next exact scene-production frontier |
 | Ch5 | The Mountain Engine | inherited architecture |
@@ -191,7 +192,7 @@ Core early voices:
 - Mirena: witty/observant/mischievous/politically impatient; public cleaner, private warmer/more profane.
 - Lysara: patient/observant/dry funny/affectionate/stubborn/practical; continuity without stagnation and restraint of sovereign ownership.
 
-Protected relationship progression and exact early-chapter wording are recorded in the line-complete scene files under `docs/chapters/dialogue/`, with implementation-facing locks in `CHAPTER_01_COMPLETE.md` through `CHAPTER_03_COMPLETE.md`. Chapter 1 Resource text is additionally protected by exact source-parity validation.
+Protected relationship progression and exact early-chapter wording are recorded in the line-complete scene files under `docs/chapters/dialogue/`, with implementation-facing locks in `CHAPTER_01_COMPLETE.md` through `CHAPTER_03_COMPLETE.md`. Chapters 1 and 2 Resource text are additionally protected by exact source-parity validation.
 
 ## Affordable 2.5D production baseline
 
