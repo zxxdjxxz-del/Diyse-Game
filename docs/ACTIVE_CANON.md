@@ -11,7 +11,8 @@ This is an implementation-facing summary. It does **not** replace the authoritat
 - Completed early-chapter repository packages: `docs/chapters/`.
 - Chapters 1–3 exact line-complete repository source: `docs/chapters/dialogue/`.
 - Chapter 0 exact line/cue authority remains the merged Godot Resource set at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5` where compatible with later canon.
-- Chapters 1–3 still require Resource conversion/implementation validation; that does not reopen their approved dialogue.
+- **Chapter 1 S007–S011 + C03–C05 are now converted into production `.tres` dialogue Resources and validated for exact source parity plus whole-chapter continuity.**
+- Chapters 2–3 still require Resource conversion/implementation validation; that does not reopen their approved dialogue.
 
 ## Project foundation
 
@@ -48,14 +49,14 @@ Broad campaign movement: **Edgelands → Southhold → Diysereach → Southhold 
 
 Caelora is the national capital/seat of the Crown within Southhold. Cresthaven is a separate hub/site and is not a room, district, wing, or chamber inside Caelora's Old City.
 
-The controlling S020→S021 transition is now explicit: after the First Command Warden, the cleared command state opens a command-record room that proves the false order was assembled from separate authentic judicial/custody inputs; Torren recognizes and copies a map-like routing display; the party returns to Mirena; Mirena identifies the destination as **Cresthaven, an abandoned Crown outpost in Southhold**. The party stops for the night. S021 begins the next morning with Mirena already at Cresthaven with workers, records staff, medical support, supplies, and security establishing it as the party's working headquarters while the investigation continues.
+The controlling S020→S021 transition is explicit: after the First Command Warden, the cleared command state opens a command-record room that proves the false order was assembled from separate authentic judicial/custody inputs; Torren recognizes and copies a map-like routing display; the party returns to Mirena; Mirena identifies the destination as **Cresthaven, an abandoned Crown outpost in Southhold**. The party stops for the night. S021 begins the next morning with Mirena already at Cresthaven with workers, records staff, medical support, supplies, and security establishing it as the party's working headquarters while the investigation continues.
 
 ## Chapter spine
 
 | State | Title | Current status |
 |---|---|---|
 | Ch0 | The Broken Convoy | COMPLETE/CLOSED; exact Resources merged, later compatibility overlays apply |
-| Ch1 | Brackenwall and the Wayfinder | COMPLETE/CLOSED; line-complete repo source; Resource conversion pending |
+| Ch1 | Brackenwall and the Wayfinder | COMPLETE/CLOSED; **production dialogue Resources converted; exact source-parity + continuity validated** |
 | Ch2 | The Drowned Oath | COMPLETE/CLOSED; line-complete repo source; Resource conversion pending |
 | Ch3 | The Old City and Last Sentinel | COMPLETE/CLOSED; line-complete corrected repo source; Resource conversion pending |
 | Ch4 | The Seventh Reaction | next exact scene-production frontier |
@@ -190,7 +191,7 @@ Core early voices:
 - Mirena: witty/observant/mischievous/politically impatient; public cleaner, private warmer/more profane.
 - Lysara: patient/observant/dry funny/affectionate/stubborn/practical; continuity without stagnation and restraint of sovereign ownership.
 
-Protected relationship progression and exact early-chapter wording are recorded in the line-complete scene files under `docs/chapters/dialogue/`, with implementation-facing locks in `CHAPTER_01_COMPLETE.md` through `CHAPTER_03_COMPLETE.md`.
+Protected relationship progression and exact early-chapter wording are recorded in the line-complete scene files under `docs/chapters/dialogue/`, with implementation-facing locks in `CHAPTER_01_COMPLETE.md` through `CHAPTER_03_COMPLETE.md`. Chapter 1 Resource text is additionally protected by exact source-parity validation.
 
 ## Affordable 2.5D production baseline
 

@@ -8,8 +8,9 @@ This repository is the active implementation line. The older `zxxdjxxz-del/Diyse
 
 - Written whole-project authority: **Diyse Clean Active Complete Master Canon v1.64 / Audit79** (August 18, 2026).
 - Chapters **0–3 are COMPLETE/CLOSED** at story, dialogue, continuity, relationship, and affordable-2.5D production-authority level.
-- Chapter 0 is also complete/merged as validated Godot production Resources at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`, subject to later canon compatibility overlays.
-- Chapters 1–3 now have **line-complete approved repository dialogue sources** under `docs/chapters/dialogue/`, but still require Resource conversion/implementation validation. That work must translate the approved chapters without re-authoring them.
+- Chapter 0 is complete/merged as validated Godot production Resources at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`, subject to later canon compatibility overlays.
+- **Chapter 1 now has its full S007–S011 + C03–C05 production dialogue set converted into `DiyseDialogueSceneDefinition` Resources with exact source-parity and whole-chapter continuity validation.**
+- Chapters 2–3 have line-complete approved repository dialogue sources under `docs/chapters/dialogue/` and remain pending Resource conversion/implementation validation.
 - Chapter 4 — **The Seventh Reaction** — is the next exact scene-level authoring frontier.
 - Completed Chapter 0–3 repository authority packages live in `docs/chapters/`; exact Chapters 1–3 scene wording lives in `docs/chapters/dialogue/`.
 
@@ -24,7 +25,7 @@ Accepted pre-documentation 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a
 | Chapter | Authoring/canon | Godot Resource integration |
 |---|---|---|
 | Ch0 — The Broken Convoy | CLOSED | COMPLETE / MERGED / historically validated |
-| Ch1 — Brackenwall and the Wayfinder | CLOSED / line-complete repo source | pending conversion/validation |
+| Ch1 — Brackenwall and the Wayfinder | CLOSED / line-complete repo source | **COMPLETE / exact source-parity + continuity validated in PR #45** |
 | Ch2 — The Drowned Oath | CLOSED / line-complete repo source | pending conversion/validation |
 | Ch3 — The Old City and Last Sentinel | CLOSED / line-complete corrected repo source | pending conversion/validation |
 | Ch4 — The Seventh Reaction | next authoring frontier | future |
@@ -57,7 +58,7 @@ The live S004/S005 Resources still contain the historical internal implementatio
 
 ## Production workflow
 
-For Chapters 1–3, start from the relevant `docs/chapters/CHAPTER_0X_COMPLETE.md` implementation lock/index and the exact scene file under `docs/chapters/dialogue/`. Convert the closed material into the existing dialogue Resource schema. Resource implementation can make bounded technical/staging fixes, but it must preserve exact approved wording, protected beats, pair progression, knowledge firewalls, party-state changes, geography, and scene outcomes.
+Chapter 1 Resource work now starts from the validated `.tres` set under `game/content/dialogue/chapter_01/`; its exact Markdown source remains under `docs/chapters/dialogue/chapter_01/` for parity checking. For Chapters 2–3, start from the relevant `docs/chapters/CHAPTER_0X_COMPLETE.md` implementation lock/index and exact scene file under `docs/chapters/dialogue/`, then convert the closed material into the existing dialogue Resource schema without rewriting it.
 
 For new dialogue authoring, begin with Chapter 4 rather than repeating Chapters 1–3.
 
