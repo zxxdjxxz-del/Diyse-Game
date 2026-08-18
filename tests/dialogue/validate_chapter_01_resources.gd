@@ -67,7 +67,7 @@ func _validate_scene(spec: Dictionary, registry: DiyseDialoguePortraitRegistry) 
 
 	var source_spoken := _parse_source_spoken(str(spec["source"]), scene_id)
 	_expect(source_spoken.size() == resource_spoken.size(), "%s source/Resource spoken-line counts differ: source %d, Resource %d" % [scene_id, source_spoken.size(), resource_spoken.size()])
-	var compare_count := min(source_spoken.size(), resource_spoken.size())
+	var compare_count: int = min(source_spoken.size(), resource_spoken.size())
 	for i in range(compare_count):
 		var expected: Dictionary = source_spoken[i]
 		var actual: Dictionary = resource_spoken[i]
