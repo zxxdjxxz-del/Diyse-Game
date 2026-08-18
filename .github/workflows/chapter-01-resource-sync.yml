@@ -19,7 +19,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 0
 
-      - name: Normalize compiler to repository source format
+      - name: Normalize compiler and validator to repository source format
         run: |
           python - <<'PY'
           from pathlib import Path
@@ -44,6 +44,7 @@ jobs:
           new = "\t\tvar source_name := line.substr(2, separator - 2)\n\t\tif source_name != source_name.to_upper():\n\t\t\tcontinue\n\t\tif not SOURCE_SPEAKER_IDS.has(source_name):\n"
           if old in text:
               text = text.replace(old, new, 1)
+          text = text.replace("\tvar compare_count := min(source_spoken.size(), resource_spoken.size())\n", "\tvar compare_count: int = min(source_spoken.size(), resource_spoken.size())\n", 1)
           validator.write_text(text, encoding="utf-8")
           PY
 
