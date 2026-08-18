@@ -46,6 +46,8 @@ A bounded implementation correction may update IDs, Resource metadata, internal 
 
 Chapter 0 has one known later-canon compatibility issue: the live validated S004/S005 Resources still contain the historical internal label `Broken Champion's Ward` and related old Champion/Prime-negative implementation wording. Current canon treats that phenomenon only as an incomplete green/gold protective response from the sealed Card. The old label is not player-facing canon. Any cleanup must preserve the already-approved S004→S005 temporary protection behavior unless a separate balance change revises it.
 
+Some older stable implementation IDs also preserve retired historical geography strings such as `BORDERLANDS`. Stable IDs are technical handles, not player-facing geography authority. Current formal geography is **Edgelands / Diysereach / Southhold**; do not infer an active “Borderlands,” “Heartlands,” or formal “Highlands” Realm from a legacy ID, and do not rename stable IDs casually without auditing every consumer.
+
 ## Critical Chapter 3 geography and Cresthaven handoff
 
 Chapter 3 travel is:
