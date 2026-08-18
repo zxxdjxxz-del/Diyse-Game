@@ -3,9 +3,9 @@
 **Whole-project authority:** Diyse Clean Active Complete Master Canon **v1.64 / Audit79**  
 **Chapter line-complete checkpoint:** **Audit78**, inherited into v1.64  
 **Closed set:** S012–S016 + C06–C07  
-**Runtime status:** Story/dialogue/continuity/relationship/affordable-2.5D authority CLOSED; Godot Resource conversion/validation still pending.
+**Runtime dialogue Resource status:** **IMPLEMENTED / source-parity and chapter-continuity validation locked**.
 
-The exact approved Chapter 2 dialogue now lives in `docs/chapters/dialogue/chapter_02/`. Do not reconstruct it from older summary notes when the line-complete scene source exists.
+The exact approved Chapter 2 dialogue lives in `docs/chapters/dialogue/chapter_02/`. The production translation lives in `game/content/dialogue/chapter_02/`. Do not reconstruct it from older summary notes or rewrite it during follow-on implementation.
 
 ## Controlling scene files
 
@@ -16,6 +16,23 @@ The exact approved Chapter 2 dialogue now lives in `docs/chapters/dialogue/chapt
 - [S016 — Extraction Causeway](dialogue/chapter_02/S016.md)
 - [C06 — Three People Who Know Each Other Now](dialogue/chapter_02/C06.md)
 - [C07 — Bad Dreams, No Questions](dialogue/chapter_02/C07.md)
+
+## Production Resource set
+
+- `game/content/dialogue/chapter_02/S012.tres`
+- `game/content/dialogue/chapter_02/S013.tres`
+- `game/content/dialogue/chapter_02/S014.tres`
+- `game/content/dialogue/chapter_02/S015.tres`
+- `game/content/dialogue/chapter_02/S016.tres`
+- `game/content/dialogue/chapter_02/C06.tres`
+- `game/content/dialogue/chapter_02/C07.tres`
+- `game/content/dialogue/chapter_02/chapter_02_dialogue_registry.tres`
+
+Deterministic translation/validation authority:
+- `tools/dialogue/compile_chapter_02.py` reproduces the `.tres` translation from the locked Markdown source without rewriting spoken text.
+- `tests/dialogue/validate_chapter_02_resources.gd` enforces exact source-to-Resource speaker/text order and schema/metadata validity.
+- `tests/dialogue/validate_chapter_02_continuity.gd` enforces the Chapter 2 continuity, prisoner-agency, Rhazek-limit, encounter-count, relationship, knowledge-firewall, Character-Life, and durable-handoff locks below.
+- The unusual source forms remain explicit implementation metadata rather than rewritten prose: `PRISONER WOMAN — THROUGH DOOR` remains an offscreen/through-door delivery, and C06's `ILYRA / TORREN: No.` remains a simultaneous two-speaker line.
 
 ## Hard continuity / implementation locks
 
@@ -44,6 +61,6 @@ C06 and C07 unlock after S016 and are order-independent.
 - Bosses/constructs do not create Cards; victory/access may gate recovery of pre-existing Ancient Cards.
 - Use authored water states rather than fluid simulation, prepared machinery/gate changes rather than physics destruction, layered/limited evacuee sprites rather than crowd AI, and reusable treatment/escort/interaction poses.
 
-## Runtime conversion rule
+## Follow-on implementation rule
 
-Convert the closed scenes into the existing stable-ID `DiyseDialogueSceneDefinition` Resource schema. Implementation may normalize IDs/cues/portrait references and make bounded technical staging adjustments, but must preserve exact approved dialogue, prisoner agency, encounter counts/handoffs, Rhazek's same-bar limit, the relationship-address firewall, and C06/C07 availability.
+Treat the validated Chapter 2 Resource set as the dialogue baseline. Follow-on work may wire world triggers, encounter consumers, state changes, portraits, animation/pose cues, maps, and other production systems, but it may not rewrite approved dialogue, alter prisoner agency, change encounter counts/handoffs, advance Rhazek beyond his Chapter 2 same-bar limit, move the Torren/Maevra address milestone, or change C06/C07 availability.
