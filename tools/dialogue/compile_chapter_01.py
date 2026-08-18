@@ -118,16 +118,20 @@ def parse_scene(scene_id: str, source: str):
             })
 
     for line in lines:
-        if line.startswith("## "):
-            continue
         if line.startswith("### "):
             flush_pending()
             current_section = line[4:].strip()
             section_had_spoken = False
             last_beat = None
             continue
+        if line.startswith("## "):
+            flush_pending()
+            current_section = line[3:].strip()
+            section_had_spoken = False
+            last_beat = None
+            continue
 
-        match = DIALOGUE_RE.match(line)
+        match = DIALOGUE_RE.match(line) if current_section else None
         if match:
             staging = "\n".join(pending).strip()
             pending = []

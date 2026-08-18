@@ -95,6 +95,8 @@ func _parse_source_spoken(path: String, scene_id: String) -> Array[Dictionary]:
 		if separator < 0:
 			continue
 		var source_name := line.substr(2, separator - 2)
+		if source_name != source_name.to_upper():
+			continue
 		if not SOURCE_SPEAKER_IDS.has(source_name):
 			failures.append("%s source contains unmapped dialogue speaker: %s" % [scene_id, source_name])
 			continue
