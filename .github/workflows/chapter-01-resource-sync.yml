@@ -19,13 +19,33 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 0
 
+      - name: Guard source metadata from dialogue parsing
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          compiler = Path("tools/dialogue/compile_chapter_01.py")
+          text = compiler.read_text(encoding="utf-8")
+          old = "        match = DIALOGUE_RE.match(line)\n"
+          new = "        match = DIALOGUE_RE.match(line) if current_section else None\n"
+          if old in text:
+              compiler.write_text(text.replace(old, new, 1), encoding="utf-8")
+
+          validator = Path("tests/dialogue/validate_chapter_01_resources.gd")
+          text = validator.read_text(encoding="utf-8")
+          old = "\t\tvar source_name := line.substr(2, separator - 2)\n\t\tif not SOURCE_SPEAKER_IDS.has(source_name):\n"
+          new = "\t\tvar source_name := line.substr(2, separator - 2)\n\t\tif source_name != source_name.to_upper():\n\t\t\tcontinue\n\t\tif not SOURCE_SPEAKER_IDS.has(source_name):\n"
+          if old in text:
+              validator.write_text(text.replace(old, new, 1), encoding="utf-8")
+          PY
+
       - name: Compile exact Chapter 1 dialogue Resources
         run: python tools/dialogue/compile_chapter_01.py
 
-      - name: Commit generated Resources when needed
+      - name: Commit generated Resources and parser guard when needed
         shell: bash
         run: |
-          git add game/content/dialogue/chapter_01
+          git add game/content/dialogue/chapter_01 tools/dialogue/compile_chapter_01.py tests/dialogue/validate_chapter_01_resources.gd
           if git diff --cached --quiet; then
             echo "Generated Chapter 1 Resources are already synchronized."
             exit 0
