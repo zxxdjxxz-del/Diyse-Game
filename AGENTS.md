@@ -8,7 +8,7 @@ Before changing gameplay code or production content, read:
 
 1. `docs/ACTIVE_CANON.md`
 2. `docs/IMPLEMENTATION_STATUS.md`
-3. `docs/chapters/README.md` and the completed chapter file relevant to the task
+3. `docs/chapters/README.md`, the relevant completed-chapter lock file, and for Chapters 1–3 the exact scene source under `docs/chapters/dialogue/`
 4. the subsystem document relevant to the task
 5. `docs/TECHNICAL_PROOF.md` when the task touches architecture proven in Step 7B.5
 6. `docs/DIALOGUE_AUTHORING_SCHEMA.md` and `docs/STEP_7C_AUTHORING_TEMPLATE.md` before dialogue Resource work
@@ -17,11 +17,11 @@ If a task conflicts with these files or with a newer explicit user instruction, 
 
 ## Current authority state
 
-- Whole-project written authority: **Diyse Clean Active Complete Master Canon v1.60 / Audit75**.
-- Date: August 17, 2026.
+- Whole-project written authority: **Diyse Clean Active Complete Master Canon v1.64 / Audit79**.
+- Date: **August 18, 2026**.
 - Chapters **0, 1, 2, and 3 are COMPLETE/CLOSED** at story, dialogue, continuity, relationship, and affordable-2.5D production-authority level.
 - Chapter 0 exact Resource/cue wording remains the merged Resource set at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5` where compatible with later canon.
-- Chapters 1–3 are closed authoring authority but are **not yet fully converted/validated as production `.tres` Resources in this repository**. Translating them into the accepted schema is implementation work, not a dialogue rewrite.
+- Chapters 1–3 now have line-complete approved repository scene sources under `docs/chapters/dialogue/`, but are **not yet fully converted/validated as production `.tres` Resources in this repository**. Translating them into the accepted schema is implementation work, not a dialogue rewrite.
 - Chapter 4 — **The Seventh Reaction** — is the next exact scene-level authoring frontier.
 - Step 7B.5 technical feasibility: COMPLETE / PASS on real Android hardware.
 - Step 7B.6 production authoring handoff: COMPLETE / PASS.
@@ -30,19 +30,34 @@ If a task conflicts with these files or with a newer explicit user instruction, 
 
 ## Completed early-chapter rule
 
-Do **not** repeatedly recover, re-author, or re-audit Chapters 0–3 as if their dialogue were missing. Use the closed authority packages in `docs/chapters/`.
+Do **not** repeatedly recover, re-author, or re-audit Chapters 0–3 as if their dialogue were missing.
 
-A bounded implementation correction may update IDs, Resource metadata, internal labels, cue support, or staging feasibility without reopening the approved scene purpose, protected lines/beats, pair progression, geography, or knowledge firewall.
+- Chapter 0: use the validated Resource set plus later compatibility overlays.
+- Chapters 1–3: use the exact line-complete scene files under `docs/chapters/dialogue/`, with the `CHAPTER_0X_COMPLETE.md` files as implementation lock/index documents.
+
+A bounded implementation correction may update IDs, Resource metadata, internal labels, cue support, or staging feasibility without reopening approved wording, scene purpose, protected beats, pair progression, geography, knowledge firewall, party-state changes, or outcomes.
 
 Chapter 0 has one known later-canon compatibility issue: the live validated S004/S005 Resources still contain the historical internal label `Broken Champion's Ward` and related old Champion/Prime-negative implementation wording. Current canon treats that phenomenon only as an incomplete green/gold protective response from the sealed Card. The old label is not player-facing canon. Any cleanup must preserve the already-approved S004→S005 temporary protection behavior unless a separate balance change revises it.
 
-## Critical Chapter 3 geography
+## Critical Chapter 3 geography and Cresthaven handoff
 
 Chapter 3 travel is:
 
 **Caelora → Old City / Suppressed Archives → separate Cresthaven**
 
-Cresthaven is not a room, wing, chamber, or district inside the Old City. S021 and H04 occur at the separate Cresthaven site.
+Cresthaven is not a room, wing, chamber, district, or renamed section inside the Old City.
+
+The controlling S020→S021 ending is explicit:
+
+- after the First Command Warden, the cleared command state unlocks a command-record room;
+- the room preserves the authentic judicial and custody inputs plus the false output assembled from them, proving how the false order was assembled;
+- Torren recognizes a routing display as map-like and copies it;
+- the party returns to Mirena in Caelora;
+- Mirena identifies the mapped destination as **Cresthaven, an abandoned Crown outpost in Southhold**;
+- the party stops for the night;
+- S021 begins the next morning with Mirena already at Cresthaven with workers, records staff, medical support, supplies, and security establishing it as the party's working headquarters while the investigation continues.
+
+Do not restore the discarded transition where the party already knew Cresthaven or followed an unexplained old-site reference.
 
 ## Step 7C / dialogue workflow
 
@@ -55,7 +70,7 @@ Use the chapter-level workflow proven by Chapter 0:
 - full Godot and Android regression at the chapter checkpoint, or earlier only when engine/schema/platform behavior changes;
 - one authority/archive checkpoint after the chapter/substantial milestone is implemented.
 
-For Chapters 1–3, **do not seek new prose approval merely because Resource conversion is pending**. Preserve the closed chapter packages.
+For Chapters 1–3, **do not seek new prose approval merely because Resource conversion is pending**. Translate the line-complete closed source.
 
 ## Hard rules
 
