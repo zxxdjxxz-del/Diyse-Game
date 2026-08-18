@@ -54,15 +54,41 @@ The ledger distinguishes:
 
 **Supersedes:** Any working Chapter 4 opening that places the three-map comparison in Ivorybridge or assumes the party already knows Ivorybridge is the destination before studying the three maps.
 
+### CH4-A002 — S022_B001–B011 exact opening and Vaelira introduction
+
+**Date:** 2026-08-18  
+**Status:** LOCKED  
+**Acceptance type:** Explicit user acceptance — “I accept it”
+
+**Accepted exact source:** `docs/chapters/dialogue/chapter_04/S022.md`, S022_B001 through S022_B011.
+
+**Locked scope:**
+
+- Ivorybridge arrival and settlement presentation.
+- Torren/Nimera/Ilyra/Cyanis opening road-and-liquor banter.
+- The technician sends the party to **Vaelira Serren**.
+- Vaelira is introduced **working competently**, not posing as an exposition device.
+- The three maps are laid out for Vaelira in the already-locked A001 order/context.
+- Torren reads terrain; Nimera reads constructed geometry; Vaelira recognizes why the maps connect.
+- Vaelira identifies the maps as independent maps using the same positional grammar rather than fragments of one sheet.
+- The Sixfold Annex transcription establishes a related Ancient regulation system.
+- Vaelira's contained demonstration succeeds exactly as predicted and establishes genuine expertise.
+- Exact central exchange is locked:
+  - `CYANIS: Who checks your model?`
+  - Vaelira answers herself / Annex staff.
+  - `CYANIS: Who checks theirs?`
+  - Cyanis ultimately distinguishes checking the answer from checking the question.
+- The anomaly is re-read from boundary marker to possible **transfer point**.
+- Vaelira explicitly says she does not know what is being transferred rather than bluffing.
+- S022_B011 ends with the decision to go to the **Sixfold Annex**, followed by Ilyra asking about food and Torren immediately agreeing.
+
+**Exact-wording rule:** The accepted wording/staging in `S022.md` B001–B011 is controlling and must not be rewritten unless explicitly reopened by the user.
+
 ---
 
 ## WORKING / NOT YET ACCEPTED
 
-### S022 — *Brilliant Answer* opening / Vaelira introduction
-
-**Status:** WORKING / NOT YET ACCEPTED
-
-The most recent drafted S022 material — Ivorybridge arrival, Vaelira's technical demonstration, Cyanis asking "Who checks your model?", and the proposed Sixfold Annex lead — is **not yet line-locked by this ledger**. It remains available for review/revision and must not be serialized as accepted Chapter 4 dialogue until the user accepts it.
+No additional Chapter 4 material is currently accepted beyond CH4-A001 and CH4-A002. The next drafted continuation after S022_B011 remains working until the user accepts it.
 
 ---
 
@@ -74,4 +100,4 @@ The most recent drafted S022 material — Ivorybridge arrival, Vaelira's technic
 
 ## Next acceptance number
 
-**CH4-A002**
+**CH4-A003**
