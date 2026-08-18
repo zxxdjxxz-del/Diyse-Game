@@ -132,8 +132,8 @@ func _validate_c04_final_version() -> void:
 		"Bitch.",
 		"You called me an old whore.",
 		"Then learn to fucking read.",
-		"Touch the map and I'll break your fucking fingers.",
-		"See, now we're friends.",
+		"Touch the map and I’ll break your fucking fingers.",
+		"See, now we’re friends.",
 		"Good night, Torren.",
 		"Fuck off, Cyanis."
 	]:
