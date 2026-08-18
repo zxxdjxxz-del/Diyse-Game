@@ -4,9 +4,9 @@
 
 **COMPLETE — PASS on real Android hardware.**
 
-Step 7B.5 has finished. Its purpose was to prove that the intended Diyse architecture can grow into the full game before full production dialogue/content work. Every major gate below passed automated validation and real-device acceptance.
+Step 7B.5 is a historical implementation-acceptance record proving that the Diyse architecture can support the intended production game. It is **not** current whole-project canon and does not override later story/system corrections.
 
-This document is an implementation acceptance record, not an open prototype checklist. See the **v1.36 Clean Active Master**, **Active Technical Annex v1.36**, and the Step 7B.5 Technical Feasibility & Android Proof Report v1.0 for current controlling authority and the proof/non-canon distinction.
+Current written authority is **Diyse Clean Active Complete Master Canon v1.64 / Audit79** plus newer explicit user corrections. Current implementation-facing guardrails are `AGENTS.md`, `docs/ACTIVE_CANON.md`, and `docs/IMPLEMENTATION_STATUS.md`. This proof document controls only what was technically demonstrated by the accepted 7B.5/7B.6 implementation baseline.
 
 **Accepted pre-documentation gameplay baseline:** `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`
 
@@ -38,9 +38,11 @@ If a queued player hostile action's original enemy target is defeated before tha
 
 ## 7B.5F — direct-control Prime Manifestation — PASS
 
-Recovered First Champion was the representative proof because it is Cyanis's current story Prime. The proof validated bearer lock, Card-action selection, successful-use spending, pending state, completion of already-locked ordinary actions before replacement, party suspension, direct Prime control, Prime-only commands, hostile targeting of the Prime, one selected command per Prime round, two-round Recovered duration, frozen party state, normal return and same-battle use consumption.
+The technical proof used an earlier representative Cyanis Prime fixture whose internal/historical label included **First Champion**. That label is **not current canon**. Current canon identifies Cyanis's Story Prime as **Last Sentinel**.
 
-Temporary flat proof damage is non-canon. Production Prime formulas/effects remain controlled by current technical authority.
+What 7B.5F actually proved was the architecture: bearer lock, Card-action selection, successful-use spending, pending state, completion of already-locked ordinary actions before replacement, party suspension, direct Prime control, Prime-only commands, hostile targeting of the Prime, one selected command per Prime round, frozen party state, normal return, and same-battle use consumption.
+
+The historical proof's exact manifestation duration and temporary flat damage/effects were proof fixtures. They do **not** set current Prime fine-grain canon, which remains controlled by v1.64/Audit79 and its OPEN/DEFERRED register.
 
 ## 7B.5G — versioned save/load persistence — PASS
 
@@ -54,7 +56,7 @@ The production authoring handoff subsequently proved stable-ID `DiyseDialogueSce
 
 ## Chapter 0 production exercise — PASS / MERGED
 
-Step 7C is now active and Chapter 0 has exercised the accepted architecture as real production dialogue. S001–S006 plus C01/C02 were approved, continuity-reviewed, validated, and merged at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`.
+Chapter 0 exercised the accepted architecture as real production dialogue. S001–S006 plus C01/C02 were approved, continuity-reviewed, validated, and merged at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`.
 
 Final Chapter 0 exact-head gates:
 - Godot Smoke Validation run `31296623423`: success.
@@ -63,18 +65,30 @@ Final Chapter 0 exact-head gates:
 
 The Chapter 0 merge did not replace or weaken the accepted Step 7B.5 architecture; the full technical regression suite remained green.
 
+## Chapters 1–3 production-dialogue follow-on — PASS / MERGED
+
+The production dialogue architecture has now been exercised through all completed early chapters:
+
+- Chapter 1 — S007–S011 + C03–C05: exact source-parity + whole-chapter continuity validated and merged.
+- Chapter 2 — S012–S016 + C06/C07: exact source-parity + whole-chapter continuity validated and merged.
+- Chapter 3 — S017–S021 + H01–H04: exact source-parity + whole-chapter continuity/Cresthaven validation passed and merged in PR #47 at `5bda1b4641f7762ab07f6e0d98faff953daf5c2e`.
+
+These later chapter checkpoints extend the production-content regression baseline; they do not change what 7B.5 originally proved.
+
 ## Regression baseline
 
-The automated tests accumulated through 7B.5 and 7B.6, together with the accepted Chapter 0 production-dialogue/resource/continuity validation, are project regression baselines. Future production should extend rather than bypass them unless a newer approved authority intentionally changes tested behavior.
+The automated tests accumulated through 7B.5 and 7B.6, together with the accepted Chapter 0–3 production-dialogue/resource/continuity validation, are project regression baselines. Future production should extend rather than bypass them unless newer approved authority intentionally changes tested behavior.
 
 ## Explicit non-canon proof fixtures
 
-Passing the technical proof does not canonize graybox geometry, temporary obstacle/chest presentation, placeholder world sprites/portraits, disposable technical-proof dialogue, Raider proof enemies/stats, `Proof Strike`, temporary flat damage/rewards, proof chest XP/gold, temporary debug/button UI, or other proof-only fixtures.
+Passing the technical proof does not canonize graybox geometry, temporary obstacle/chest presentation, placeholder world sprites/portraits, disposable technical-proof dialogue, Raider proof enemies/stats, `Proof Strike`, old internal First Champion naming, historical proof-only Prime duration/effect values, temporary flat damage/rewards, proof chest XP/gold, temporary debug/button UI, or other proof-only fixtures.
 
 ## Remaining normal production scope
 
-Normal production continues with final maps/art/animation/portraits, final UI/audio/cinematics/performance, full authored production content and implementations, Chapters 1–12 and remaining Character-Life/Hub scenes, broader Android device/performance/lifecycle testing, release signing/build hardening/store packaging, and mid-combat serialization only if later required.
+Normal production still includes final maps/art/animation/portraits, final UI/audio/cinematics/performance, world triggers, encounter consumers, Cresthaven services, broader Android device/performance/lifecycle testing, release signing/build hardening/store packaging, and mid-combat serialization only if later required.
+
+Chapters 0–3 have no remaining dialogue-Resource conversion backlog. New exact scene authoring proceeds at **Chapter 4 — The Seventh Reaction** under v1.64 / Audit79 unless explicitly reopened.
 
 ## Production handoff
 
-Step 7B.5 and Step 7B.6 no longer block production. **Step 7C is ACTIVE; Chapter 0 is COMPLETE / MERGED. The next mandatory production block is Chapter 1 S007–S011.**
+Steps 7B.5 and 7B.6 are closed technical baselines. Chapters 0–3 are closed dialogue/canon production blocks with validated Resource implementations. **The next exact scene-level authoring frontier is Chapter 4 — The Seventh Reaction.**

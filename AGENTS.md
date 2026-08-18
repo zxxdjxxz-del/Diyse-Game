@@ -32,6 +32,7 @@ If a task conflicts with these files or with a newer explicit user instruction, 
 - Accepted 7B.6 production-handoff implementation merge: `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.
 - Accepted Chapter 1 dialogue Resource merge: `f1cd2cd9152e4b7ca7e63bea6469c5b326494120`.
 - Accepted Chapter 2 dialogue Resource merge: `29e7ced1e92d32e2a6a235a6efab2b8a320a36f6`.
+- Accepted Chapter 3 dialogue Resource merge: `5bda1b4641f7762ab07f6e0d98faff953daf5c2e`.
 
 ## Completed early-chapter rule
 
@@ -45,6 +46,8 @@ Do **not** repeatedly recover, re-author, or re-audit Chapters 0–3 as if their
 A bounded implementation correction may update IDs, Resource metadata, internal labels, cue support, or staging feasibility without reopening approved wording, scene purpose, protected beats, pair progression, geography, knowledge firewall, party-state changes, or outcomes.
 
 Chapter 0 has one known later-canon compatibility issue: the live validated S004/S005 Resources still contain the historical internal label `Broken Champion's Ward` and related old Champion/Prime-negative implementation wording. Current canon treats that phenomenon only as an incomplete green/gold protective response from the sealed Card. The old label is not player-facing canon. Any cleanup must preserve the already-approved S004→S005 temporary protection behavior unless a separate balance change revises it.
+
+Some older stable implementation IDs also preserve retired historical geography strings such as `BORDERLANDS`. Stable IDs are technical handles, not player-facing geography authority. Current formal geography is **Edgelands / Diysereach / Southhold**; do not infer an active “Borderlands,” “Heartlands,” or formal “Highlands” Realm from a legacy ID, and do not rename stable IDs casually without auditing every consumer.
 
 ## Critical Chapter 3 geography and Cresthaven handoff
 

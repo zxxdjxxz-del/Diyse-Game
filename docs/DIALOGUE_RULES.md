@@ -10,17 +10,17 @@ Do not implement response wheels, tone choices, affinity responses, persuasion t
 
 The dialogue study is COMPLETE and its compatible craft findings remain active.
 
-Current story/dialogue authority is **Complete Master Canon v1.60 / Audit75**.
+Current whole-project story/dialogue authority is **Complete Master Canon v1.64 / Audit79**, plus any newer explicit user correction.
 
 - Chapters **0–3 are COMPLETE/CLOSED** at story/dialogue/continuity/relationship/affordable-2.5D production-authority level.
-- Chapter 0 S001–S006 + C01/C02 is already COMPLETE / APPROVED / MERGED as live Resources at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`, with later canon overlays controlling conflicts.
-- Chapter 1 closed set: S007–S011 + C03–C05.
-- Chapter 2 closed set: S012–S016 + C06/C07.
-- Chapter 3 closed set: S017–S021 + H01–H04.
-- Chapters 1–3 still need conversion/validation as production Resources. **Do not re-author them because the `.tres` files are not present yet.**
-- Chapter 4 — The Seventh Reaction — is the next exact scene-authoring frontier.
+- Chapter 0 S001–S006 + C01/C02 is COMPLETE / APPROVED / MERGED as live Resources at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`, with later canon overlays controlling conflicts.
+- Chapter 1 S007–S011 + C03–C05 is converted/validated as production Resources with exact source parity and whole-chapter continuity/final-version checks.
+- Chapter 2 S012–S016 + C06/C07 is converted/validated as production Resources with exact source parity and whole-chapter continuity checks.
+- Chapter 3 S017–S021 + H01–H04 is converted/validated as production Resources with exact source parity, corrected Cresthaven geography/handoff, Warden/Last Sentinel timing, and optional-scene checks.
+- There is **no remaining Chapters 0–3 dialogue-Resource conversion backlog**.
+- Chapter 4 — **The Seventh Reaction** — is the next exact scene-authoring frontier.
 
-Use `docs/chapters/` for the closed scene/pairing/knowledge/staging authority.
+Use `docs/chapters/` for closed scene/pairing/knowledge/staging authority and `docs/chapters/dialogue/` for exact line-complete Chapter 1–3 wording.
 
 ## Proven dialogue architecture
 
@@ -39,18 +39,15 @@ Step 7B.6 passed and locks the production handoff:
 
 Accepted 7B.6 merge: `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.
 
-## Closed-chapter Resource conversion
+## Validated closed-chapter baseline
 
-For Chapters 1–3, Resource work is implementation of already-approved material:
+For Chapters 0–3, Resource work is no longer a pending authoring task.
 
-1. read the relevant `docs/chapters/CHAPTER_0X_COMPLETE.md`;
-2. preserve scene purpose, protected lines/beats, pair progression, knowledge firewall, geography, roster changes and encounter handoffs;
-3. encode the scene in the accepted stable-ID schema;
-4. register required portrait/expression/state IDs without inventing new canon;
-5. run scene validation and whole-chapter continuity validation;
-6. run the chapter checkpoint Godot + Android gate.
-
-A bounded technical/staging adjustment may simplify presentation. It may not silently rewrite dialogue or story.
+- Treat the validated `.tres` Resources as runtime translations of closed material.
+- For Chapters 1–3, exact approved wording remains protected by source-parity validators against `docs/chapters/dialogue/`.
+- Preserve scene purpose, protected lines/beats, pair progression, knowledge firewall, geography, roster changes and encounter handoffs.
+- Bounded technical/staging adjustments may simplify presentation or change internal IDs/cues where necessary, but they may not silently rewrite dialogue or story.
+- Follow-on work may wire triggers, portraits, maps, encounter consumers, hub services and presentation executors without reopening the script.
 
 ## Writing/presentation philosophy
 
@@ -74,28 +71,36 @@ Silence is participation. Do not make every present character comment on every r
 
 ## Protected relationship progression through Chapter 3
 
-- **Cyanis + Torren:** professional respect becomes close friendship with increasingly profane, vulgar, mutually understood insults. C04 is the first unmistakable profane-friendship turn. Danger shuts the comedy off.
-- **Torren + Maevra:** Chapter 1 = Harth/Solmar; Chapter 2 contains one involuntary “Torren!” crisis breach followed immediately by Harth; Chapter 3 H02 owns the first deliberate “Maevra.” T/Mae are later progression.
+- **Cyanis + Torren:** professional respect becomes close friendship with increasingly profane, vulgar, mutually understood insults. C04 is the first unmistakable profane-friendship turn; Audit79 controls the final **“Old whore.” / “Bitch.”** version. Danger shuts the comedy off.
+- **Torren + Maevra:** Chapter 1 = Harth/Solmar; Chapter 2 contains one involuntary `Torren!` crisis breach followed immediately by Harth; Chapter 3 H02 owns the first deliberate `Maevra.` T/Mae are later progression. Edda may call Maevra `Mae` because that is Edda's relationship, not Torren's progression.
 - **Ilyra + Maevra:** independent adult professional friendship through dry humor, reality checks, gossip, care and reciprocal self-neglect. Neither is the other's therapist or manager.
 - **Ilyra + Nimera:** warmth, humor and curiosity; care without scandalization. H03 is treatment, not therapy.
 - **Cyanis + Ilyra:** early mutual competence/care grows gradually; no romance-choice architecture and no need to over-romanticize early scenes.
 
-Exact protected Chapter 0–3 beats are stored in the chapter authority files.
+Exact protected Chapter 0–3 beats are stored in the chapter authority files and validated Resources.
 
 ## Knowledge discipline
 
 Characters speak only from evidence they can plausibly have at that scene.
 
 Especially through Chapter 3:
-- do not leak the giant buried Crest or integrated Underground Crest Network early;
-- S020 can produce the first stable Ruby response and the phrase `LAST SENTINEL CONFIRMED` without identifying Prime/Might in dialogue;
-- S021 owns the bounded conclusions Prime → Might → Last Sentinel → ultimate meaning unknown;
+
+- do not leak the giant buried Crest or integrated Underground Crest civilization early;
+- the Six Faces are common Yahtrean knowledge by Chapter 1;
+- S020 can produce the first stable Ruby response and exact machine output `/PREVIOUS ERROR/` → `/LAST SENTINEL CONFIRMED/` without identifying Prime/Might in dialogue;
+- S021 owns the bounded conclusions **Prime → Might → Last Sentinel → ultimate meaning unknown**;
 - S021 unlocks Last Sentinel without manifestation;
 - no modern person has a verified Prime activation/sighting until the player's first later real-battle use.
 
 ## Geography discipline
 
+Current formal Realms are **Edgelands / Diysereach / Southhold**.
+
 Chapter 3 is **Caelora → Old City / Suppressed Archives → separate Cresthaven**. Dialogue/staging must never imply that Cresthaven is the Warden chamber or part of the Old City.
+
+The corrected handoff is fixed: post-Warden room proves false-order assembly; Torren copies the map-like route; party returns to Mirena; Mirena identifies Cresthaven as an abandoned Crown outpost; party stops overnight; S021 begins next morning with Mirena already establishing the working headquarters.
+
+Legacy stable IDs containing old geography names such as `BORDERLANDS` are technical handles only and do not restore retired player-facing geography.
 
 ## Affordable 2.5D dialogue presentation
 
@@ -129,6 +134,6 @@ The old internal S004/S005 implementation label `Broken Champion's Ward` is supe
 
 ## Step 7C boundary
 
-New Step 7C authoring may add exact dialogue, staging, portrait/performance notes, camera intent, interruptions, pauses and implementation flags for open chapters. It may not silently reopen story outcomes, class architecture, combat rules, Card/Prime identities, relationship canon, or final-act locks.
+For Chapters 0–3, story/dialogue approval and Resource conversion are closed. Do not re-author them absent explicit change control.
 
-For Chapters 0–3, story/dialogue approval is already closed. Resource integration must preserve it.
+New exact Step 7C scene authoring begins at **Chapter 4 — The Seventh Reaction**. It may add exact dialogue, staging, portrait/performance notes, camera intent, interruptions, pauses and implementation flags while respecting current whole-project story/system authority. It may not silently reopen class architecture, combat rules, Card/Prime identities, relationship canon, geography, or final-act locks.

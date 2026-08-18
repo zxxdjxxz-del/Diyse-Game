@@ -1,6 +1,6 @@
 # Chapter 0 Step 7C Production Status
 
-**Current written authority:** v1.60 / Audit75  
+**Current written authority:** v1.64 / Audit79  
 **Original implementation checkpoint:** v1.36 / Audit48  
 **Runtime status:** COMPLETE / APPROVED / MERGED; later canon compatibility overlays apply.
 
@@ -29,7 +29,7 @@
 - [x] Final Chapter 0 merge: `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`.
 - [x] Android artifact ID: `9033158865`.
 
-## Audit75 compatibility overlay
+## v1.64 compatibility overlay
 
 The exact merged Resource/cue wording remains controlling **where compatible with later canon**. Chapter 0 has since received an important interpretation/terminology correction:
 
@@ -38,11 +38,18 @@ The exact merged Resource/cue wording remains controlling **where compatible wit
 - The historical internal label **`Broken Champion's Ward`** is superseded as canon terminology.
 - Existing S004/S005 `.tres` metadata and matching validators still contain that legacy internal handle. It may remain temporarily as a non-player-facing implementation artifact until a bounded Resource/test rename is performed.
 - That cleanup must not rewrite the approved dialogue or silently remove the existing temporary S004→S005 protection behavior unless a separate combat/balance authority explicitly changes it.
+- Legacy stable IDs containing retired geography strings such as `BORDERLANDS` are technical handles only. Chapter 0's formal Realm is **Edgelands** under v1.64; a legacy ID does not restore an obsolete player-facing region name.
 
 See `docs/chapters/CHAPTER_00_COMPLETE.md` for the current scene-level authority.
 
 ## Current result
 
-**Chapter 0 remains COMPLETE / APPROVED / MERGED.** It is not reopened as a dialogue chapter by the Audit75 correction.
+**Chapter 0 remains COMPLETE / APPROVED / MERGED.** It is not reopened as a dialogue chapter by later compatibility corrections.
 
-The current early-game authoring state is broader now: **Chapters 0–3 are all CLOSED at story/dialogue/2.5D authority level.** Chapter 4 is the next exact scene-authoring frontier. Chapters 1–3 still need closed-material Resource conversion/validation before they can be described as runtime-integrated in the same sense as Chapter 0.
+The broader early-game state is now also closed at the dialogue-Resource layer:
+
+- Chapter 1 S007–S011 + C03–C05 — converted/validated/merged.
+- Chapter 2 S012–S016 + C06/C07 — converted/validated/merged.
+- Chapter 3 S017–S021 + H01–H04 — converted/validated/merged with the corrected Cresthaven handoff.
+
+There is **no remaining Chapters 0–3 dialogue-Resource conversion backlog**. Chapter 4 — **The Seventh Reaction** — is the next exact scene-authoring frontier.

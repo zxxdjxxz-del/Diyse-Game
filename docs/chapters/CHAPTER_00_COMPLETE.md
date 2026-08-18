@@ -1,14 +1,15 @@
 # Chapter 0 — The Broken Convoy — COMPLETE
 
-**Authority:** Complete Master Canon v1.60 / Audit75  
+**Whole-project authority:** Diyse Clean Active Complete Master Canon **v1.64 / Audit79**  
+**Chapter exact Resource/cue checkpoint:** `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`, inherited where compatible with later canon  
 **Closed set:** S001–S006 + C01 `The Fire Is Too Close` + C02 `Food After Triage`  
-**Runtime status:** COMPLETE / MERGED / previously validated in the live Godot Resource set.
+**Runtime status:** COMPLETE / MERGED / validated in the live Godot Resource set.
 
 ## Controlling implementation relationship
 
-The exact approved line/cue data remains the Chapter 0 `.tres` Resource set merged at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`, except where later canon explicitly supersedes an interpretation or internal label.
+The exact approved line/cue data remains the Chapter 0 `.tres` Resource set merged at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`, except where v1.64 / Audit79 or a newer explicit user correction supersedes an interpretation or internal label.
 
-### Audit75 Chapter 0 correction
+### Current Chapter 0 compatibility correction
 
 The early green/gold phenomenon is an **incomplete protective response from the sealed ancient Card**. It is not a Prime activation, bearer confirmation, Last Sentinel activation, summoned warrior, voice, prophecy, or complete identity reveal.
 

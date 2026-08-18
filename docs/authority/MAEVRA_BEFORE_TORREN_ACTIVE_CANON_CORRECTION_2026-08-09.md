@@ -1,35 +1,36 @@
-# Diyse Active Canon Correction — Maevra Before Torren
+# Diyse — Maevra Before Torren — Historical Change Record
 
-**Approval date:** August 9, 2026  
-**Status:** ACTIVE CANON CORRECTION  
-**Applies over:** Clean Active Master Canon v1.36 / Active Technical Annex v1.36 wherever the clauses below conflict  
-**Tracking issue:** #39
+**Original approval date:** August 9, 2026  
+**Current status:** HISTORICAL CHANGE RECORD — compatible decision inherited into **v1.64 / Audit79**  
+**Originally applied over:** Clean Active Master Canon v1.36 / Active Technical Annex v1.36  
+**Original tracking issue:** #39
 
-## 1. Approved change
+This document preserves the change-control history that moved Maevra's temporary playable entry ahead of Torren's permanent recruitment. It no longer functions as a standalone current authority above the Complete Master. Current implementation and exact dialogue are controlled by v1.64 / Audit79, the Audit79 Chapter 1 source, and the validated Chapter 1 Resources.
+
+## 1. Compatible decision that remains active
 
 Maevra becomes **temporarily playable during Chapter 1 before Torren's permanent recruitment**.
 
-The early playable order is now:
+Current early playable order:
 
 1. Cyanis — permanent protagonist.
 2. Ilyra — permanent, Chapter 0.
-3. Maevra — temporary playable guest, Chapter 1, before Torren.
-4. Torren — permanent, later Chapter 1.
+3. Maevra — temporary playable guest, Chapter 1 S007.
+4. Torren — permanent, Chapter 1 S009 after the Greenhollow local problem is resolved.
 
-This is a playable-order change, not a permanent-roster expansion.
+This is a playable-order decision, not a permanent-roster expansion.
 
-## 2. Explicit supersessions
+## 2. Superseded older claims
 
-The following prior rules are superseded:
+The following remain retired:
 
 - Maevra first becomes temporarily playable in Chapter 3.
 - Maevra's temporary span begins only after the Chapter 3 containment-order refusal.
-- Chapter 1 party progression goes directly from `Cyanis + Ilyra` to `Cyanis + Ilyra + Torren` with no Maevra guest span.
-- Maevra's old Chapter 3 entry value of guest Level 9 is **not** valid as her new Chapter 1 entry value.
+- Chapter 1 progresses directly from Cyanis + Ilyra to Cyanis + Ilyra + Torren with no Maevra guest span.
+- Maevra's old Chapter 3 guest Level 9 is automatically reused as her Chapter 1 entry value.
+- Chapter 3 is the present-day Torren/Maevra reunion.
 
-Any source preserving one of those claims is historical for that clause.
-
-## 3. Preserved permanent-roster authority
+## 3. Permanent-roster boundary
 
 The permanent roster remains exactly:
 
@@ -40,96 +41,72 @@ The permanent roster remains exactly:
 - Vaelira
 - Seyrik
 
-Maevra remains temporary only. She does not receive:
+Maevra remains temporary/recurring and is never a seventh permanent member. The four-character active battle maximum remains unchanged.
 
-- permanent-party save state;
-- reserve progression;
-- ordinary Character EXP / Class EXP / Mastery progression;
-- a permanent Subclass;
-- a story Prime;
-- permanent equipment ownership;
-- a seventh permanent-roster slot.
-
-The four-character active battle maximum remains unchanged.
+Permanent-party Character EXP / Class EXP / Mastery, permanent Subclass/Prime ownership, permanent inventory ownership, and reserve progression rules do not become Maevra systems merely because she is playable as a guest.
 
 ## 4. Chapter 0 boundary
 
-Chapter 0 remains unchanged by this correction.
+Chapter 0 remains unchanged by this historical correction:
 
 - Cyanis begins alone.
 - Ilyra joins permanently in Chapter 0.
 - Chapter 0 ends with Cyanis + Ilyra as the permanent party.
-- Maevra does not enter the opening merely to foreshadow the new order.
+- Maevra does not enter Chapter 0 merely to foreshadow Chapter 1.
 
-The current Chapter 0 gameplay-integration study/pass remains the active production focus before Chapter 1 dialogue resumes.
+## 5. Current Chapter 1 party progression
 
-## 5. Chapter 1 rebase
+Current Audit79 authority resolves the once-open production details:
 
-When Chapter 1 production resumes, its party progression must be authored as:
+- S007 opening: Cyanis + Ilyra.
+- During S007: Maevra enters through legitimate institutional duty and becomes temporarily playable.
+- S008: Cyanis + Ilyra + Maevra guest.
+- S009: Torren is introduced as the route/terrain specialist; he accompanies the Greenhollow rescue non-commandably, then joins permanently after the local problem is resolved.
+- S010: first sustained four-commandable-character hostile field.
+- S011: Torren permanent, Maevra still guest.
 
-- **Opening Chapter 1:** Cyanis + Ilyra.
-- **Early Chapter 1:** Maevra enters under legitimate Royal/military duty and becomes temporarily playable.
-- **Later Chapter 1:** Torren joins permanently while Maevra is already traveling/fighting with Cyanis and Ilyra.
+The old statements that S007–S011 were paused, unapproved, or awaiting future re-authoring are **SUPERSEDED**. Chapter 1 is now complete, locked, Resource-converted, and validated.
 
-Maevra must not join because Cyanis recruits her into rebellion, because she rejects Yahtrea, or because of romance/destiny framing. Her early guest status must arise from legitimate responsibility for the convoy/Card/Borderlands investigation and from her own institutional duty.
+## 6. Specialist-authority consequence
 
-## 6. Torren first-meeting and specialist-authority consequence
-
-Torren's first meaningful party interaction must now account for four distinct legitimate specialties:
+The four legitimate early specialties remain compatible:
 
 - Cyanis — battlefield coordination / Crest Knight field judgment.
 - Ilyra — medical safety and patient/civilian physical limits.
-- Maevra — Royal military/institutional authority and command procedure.
+- Maevra — Crown military/institutional authority and command procedure.
 - Torren — local route, terrain, tracking, and wayfinding expertise.
 
-Torren remains a genuine specialist rather than a route oracle.
-
-His skepticism toward distant military authority should become live dramatic friction with Maevra rather than retrospective exposition. Maevra must remain intelligent and credible; she is allowed to begin from official information and revise when stronger field evidence disproves it.
-
-Protected Torren/Cyanis authority remains:
-
-> What does the map have wrong?
-
-Ilyra continues to evaluate routes by what they do to injured people and civilians rather than whether a healthy soldier can technically cross them.
-
-The governing party principle remains:
+Governing principle:
 
 **Expertise creates authority. It does not create ownership of every decision.**
 
-## 7. Maevra temporary-span consequence
+Torren is a genuine specialist rather than a route oracle. Maevra remains intelligent and credible; official information can be wrong without making her incompetent, and stronger field evidence can legitimately change her answer.
 
-Unless separately revised later, Maevra remains temporarily selectable after her new Chapter 1 entry and her established later departure to organize lawful military protection remains preserved.
+## 7. Torren / Maevra continuity
 
-Chapter 3 must therefore no longer present "Maevra becomes playable" as a new event. Its former entry beat must be rewritten as a deepening, escalation, or recontextualization of an already-existing guest relationship.
+Their present-day reunion is **S009 Greenhollow**, not Chapter 3. They already have personal and military history and are not written as strangers or bitter enemies.
 
-Her Chapter 4 departure purpose remains compatible with this correction unless a later approved story pass changes it.
+Chapter 1 remains **Harth / Solmar**. H02 in Chapter 3 later owns Torren's first deliberate **Maevra**. T/Mae are later progression.
 
-## 8. Numerical and implementation rebase required
+Edda Harth may call Maevra **Mae** because that is Edda's established relationship and does not advance Torren's address progression.
 
-No new Chapter 1 guest level is invented by this correction.
+## 8. Geography terminology correction
 
-Before Maevra is implemented as an early guest, production must rebase:
+This historical record originally used **Borderlands** wording. Current formal geography under v1.64 / Audit79 is **Edgelands / Diysereach / Southhold**. Chapter 1 occurs in the **Edgelands**.
 
-- guest Character Level;
-- fixed guest combat statistics;
-- fixed guest equipment appropriate to the Chapter 1 economy;
-- any scripted guest promotion points;
-- encounter balance with a third and then fourth usable party member;
-- guest initialization/save flags;
-- tutorial sequencing and party-menu exposure;
-- four-slot party selection once Torren joins;
-- Chapter 3/4 continuity that formerly assumed Maevra entered at Level 9.
+Old stable implementation IDs that contain `BORDERLANDS` are technical handles only and do not restore the retired region name.
 
-Until that numerical pass is approved, the old Chapter 3 guest Level 9 entry value is **superseded, not migrated forward**.
+## 9. Numerical / implementation boundary
 
-## 9. Production status
+The old Chapter 3 guest Level-9 assumption remains superseded for Maevra's Chapter 1 entry. Current final economy/progression/balance numbers are governed by the active master and Phase 30 boundaries.
 
-Chapter 1 S007–S011 remains paused while the Chapter 0 gameplay-loop/integration study is completed.
+This historical file does not independently assign a new guest level, fixed stats, or economy package.
 
-No previously drafted S007 review text is canon or committed production dialogue.
+## 10. Current authority handling
 
-When Chapter 1 resumes, every mandatory sequence must explicitly integrate gameplay handoffs—CUTSCENE / PLAYER CONTROL / EXPLORATION / INTERACTION / COMBAT / REWARD-CHECKPOINT / RETURN TO STORY as applicable—and must use the new Maevra-before-Torren order.
+Use this file only to understand **why** Maevra precedes Torren in the playable order. For current exact story, staging, dialogue, encounter, and party-state implementation, use:
 
-## 10. Authority handling
-
-This correction is active immediately for the affected clauses. It should be folded into the next full master/technical authority revision and recovery checkpoint rather than requiring a new large archive solely for this one correction.
+1. newer explicit user corrections;
+2. Complete Master Canon v1.64 / Audit79;
+3. the exact Audit79 Chapter 1 scene sources;
+4. the validated Chapter 1 production Resources and continuity/source-parity validators.
