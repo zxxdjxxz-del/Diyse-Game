@@ -17,7 +17,7 @@ This repository is the active implementation line. The older `zxxdjxxz-del/Diyse
 
 **Step 7B.6 is COMPLETE / PASS.** Production dialogue uses a stable-ID Resource contract, portrait-registry indirection, schema validation, generic Resource-to-DialogueRunner integration, and the Step 7C authoring template. Accepted 7B.6 implementation merge: `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.
 
-Accepted pre-documentation 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1b4d877c22`.
+Accepted pre-documentation 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`.
 
 ## Current chapter implementation state
 
