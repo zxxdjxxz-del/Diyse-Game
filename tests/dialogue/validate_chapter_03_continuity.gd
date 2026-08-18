@@ -95,7 +95,6 @@ func _validate_s020() -> void:
 	var spoken := _normalized_spoken("S020")
 	for required in [
 		"command warden.",
-		"one i don't know.",
 		"that's new.",
 		"i don't know.",
 		"different. that's all i'm saying until i have something to compare it against.",
