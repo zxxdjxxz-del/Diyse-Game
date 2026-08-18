@@ -2,15 +2,16 @@
 
 **Whole-project authority:** Diyse Clean Active Complete Master Canon **v1.64 / Audit79** — August 18, 2026.
 
-This directory is the controlling repository-facing **line-complete production-authoring source** for Chapters 1–3. These files exist so the approved dialogue can be converted into `DiyseDialogueSceneDefinition` Resources without recovering, paraphrasing, or re-authoring the scenes again.
+This directory is the controlling repository-facing **line-complete production-authoring source** for Chapters 1–3. These files exist so approved dialogue can be validated, implemented, and maintained without recovering, paraphrasing, or re-authoring closed scenes.
 
 ## Authority hierarchy
 
 1. Newer explicit user correction.
 2. Complete Master Canon **v1.64 / Audit79**.
 3. The line-complete scene files in this directory.
-4. The implementation-facing chapter lock/index files in `docs/chapters/`.
-5. Compatible earlier approved material only where it does not conflict with the above.
+4. Validated production Resources where the conversion is complete and compatible with the exact source.
+5. The implementation-facing chapter lock/index files in `docs/chapters/`.
+6. Compatible earlier approved material only where it does not conflict with the above.
 
 Chapter-specific transcript checkpoints inherited into v1.64:
 
@@ -20,12 +21,14 @@ Chapter-specific transcript checkpoints inherited into v1.64:
 
 ## Runtime status
 
-These Markdown files are **canon/production-authoring source**, not proof that Chapters 1–3 have already been integrated into the live Godot runtime.
+These Markdown files remain the **canon/production-authoring source**. Their corresponding production `.tres` Resources have now also been converted and validated:
 
-- Chapter 0: exact production dialogue Resources are already merged/validated, subject to later compatibility overlays.
-- Chapters 1–3: exact authoring is closed and line-complete here; `.tres` Resource conversion/validation is still pending.
+- Chapter 0: exact production dialogue Resources already merged/validated, subject to later compatibility overlays.
+- Chapter 1: S007–S011 + C03–C05 converted and validated for exact source parity + whole-chapter continuity.
+- Chapter 2: S012–S016 + C06/C07 converted and validated for exact source parity + whole-chapter continuity.
+- Chapter 3: S017–S021 + H01–H04 converted and validated for exact source parity + whole-chapter continuity/Cresthaven locks.
 
-Resource conversion may normalize stable IDs, cue metadata, portrait-registry references, and other implementation-only fields. It may **not** rewrite approved dialogue, scene outcomes, knowledge firewalls, relationship progression, party-state changes, geography, or encounter/boss rules.
+There is **no remaining Chapter 0–3 dialogue-Resource conversion backlog**. Resource implementation may normalize stable IDs, cue metadata, portrait-registry references, and other implementation-only fields, but may not rewrite approved dialogue, scene outcomes, knowledge firewalls, relationship progression, party-state changes, geography, or encounter/boss rules.
 
 ## Chapter 1 — Brackenwall and the Wayfinder
 
@@ -43,6 +46,8 @@ Optional Character-Life:
 
 Important final-version note: Audit79 C04 uses the approved **“Old whore.” / “Bitch.”** misunderstanding. The older recovered `Whore/Shore` reconstruction is superseded.
 
+Validated Resources: `game/content/dialogue/chapter_01/`.
+
 ## Chapter 2 — The Drowned Oath
 
 Mandatory:
@@ -57,6 +62,8 @@ Optional Character-Life:
 - [C07 — Bad Dreams, No Questions](chapter_02/C07.md)
 
 Important final-version note: Audit78 C07 Rewrite Draft 2 controls. The earlier protected C07 line set is retired. **Wet sleeves** is the approved callback; Torren lights his blunt from existing coals, not a modern lighter, and the scene does not frame his weed use as impairment or vice.
+
+Validated Resources: `game/content/dialogue/chapter_02/`.
 
 ## Chapter 3 — The Old City and Last Sentinel
 
@@ -73,9 +80,11 @@ Optional hub / Character-Life:
 - [H03 — Ilyra and Nimera](chapter_03/H03.md)
 - [H04 — Last Sentinel Is Not Invited](chapter_03/H04.md)
 
+Validated Resources: `game/content/dialogue/chapter_03/`.
+
 ### Corrected S020→S021 handoff
 
-The final bounded correction is part of the controlling text in the linked S020/S021 files:
+The final bounded correction is part of the controlling text in the linked S020/S021 files and the validated Resource translation:
 
 1. Defeating the First Command Warden clears the command state and unlocks a command-record room.
 2. The room preserves separate authentic judicial/custody inputs and the third false order assembled from them, proving **how** the order was falsely assembled.
@@ -90,3 +99,5 @@ Hard geography remains:
 **Caelora → Old City / Suppressed Archives → separate Cresthaven.**
 
 Cresthaven is never the Warden chamber, a Suppressed Archive room, or a Caeloran district.
+
+H01/H02/H03 retain their approved earlier story-eligibility points but require actual Cresthaven access before playback. H04 remains post-S021 only.
