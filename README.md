@@ -10,8 +10,9 @@ This repository is the active implementation line. The older `zxxdjxxz-del/Diyse
 - Chapters **0–3 are COMPLETE/CLOSED** at story, dialogue, continuity, relationship, and affordable-2.5D production-authority level.
 - Chapter 0 is complete/merged as validated Godot production Resources at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`, subject to later canon compatibility overlays.
 - **Chapter 1 has its full S007–S011 + C03–C05 production dialogue set converted into `DiyseDialogueSceneDefinition` Resources with exact source-parity and whole-chapter continuity validation.**
-- **Chapter 2 now has its full S012–S016 + C06/C07 production dialogue set converted from the exact Audit78 source with exact source-parity and whole-chapter continuity validation.**
-- Chapter 3 has line-complete corrected repository dialogue source under `docs/chapters/dialogue/chapter_03/` and remains the next closed-chapter Resource conversion.
+- **Chapter 2 has its full S012–S016 + C06/C07 production dialogue set converted from the exact Audit78 source with exact source-parity and whole-chapter continuity validation.**
+- **Chapter 3 has its full corrected S017–S021 + H01–H04 production dialogue set converted from the exact Audit77/v1.64 source with exact source-parity and whole-chapter continuity/Cresthaven validation.**
+- There is no remaining closed Chapter 0–3 dialogue-Resource conversion backlog.
 - Chapter 4 — **The Seventh Reaction** — is the next exact scene-level authoring frontier.
 - Completed Chapter 0–3 repository authority packages live in `docs/chapters/`; exact Chapters 1–3 scene wording lives in `docs/chapters/dialogue/`.
 
@@ -28,10 +29,12 @@ Accepted pre-documentation 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a
 | Ch0 — The Broken Convoy | CLOSED | COMPLETE / MERGED / historically validated |
 | Ch1 — Brackenwall and the Wayfinder | CLOSED / line-complete repo source | **COMPLETE / exact source-parity + continuity validated in PR #45** |
 | Ch2 — The Drowned Oath | CLOSED / line-complete repo source | **COMPLETE / exact source-parity + continuity validated in PR #46** |
-| Ch3 — The Old City and Last Sentinel | CLOSED / line-complete corrected repo source | pending conversion/validation |
+| Ch3 — The Old City and Last Sentinel | CLOSED / line-complete corrected repo source | **COMPLETE / exact source-parity + continuity/Cresthaven validation in PR #47** |
 | Ch4 — The Seventh Reaction | next authoring frontier | future |
 
 Chapter 3 geography is a hard lock: **Caelora → Old City / Suppressed Archives → separate Cresthaven**. The corrected S020→S021 handoff proves the false order's assembly in the post-Warden command room, has Torren copy a routing map, returns the party to Mirena, identifies Cresthaven as an abandoned Crown outpost in Southhold, and begins S021 the next morning with Mirena already establishing the site as the party's working headquarters.
+
+The Chapter 3 Resource triggers preserve H01/H02/H03's earlier story eligibility while also requiring actual Cresthaven access before those Cresthaven-staged scenes can play. H04 remains post-S021 only.
 
 ## Chapter 0 compatibility note
 
@@ -59,7 +62,7 @@ The live S004/S005 Resources still contain the historical internal implementatio
 
 ## Production workflow
 
-Chapter 1–2 dialogue work now starts from the validated `.tres` sets under `game/content/dialogue/chapter_01/` and `game/content/dialogue/chapter_02/`; their exact Markdown sources remain under `docs/chapters/dialogue/` for parity checking. For Chapter 3, start from `docs/chapters/CHAPTER_03_COMPLETE.md` and the exact scene files under `docs/chapters/dialogue/chapter_03/`, then convert the closed material into the existing dialogue Resource schema without rewriting it.
+Chapters 1–3 dialogue implementation now starts from the validated `.tres` sets under `game/content/dialogue/chapter_01/`, `game/content/dialogue/chapter_02/`, and `game/content/dialogue/chapter_03/`; their exact Markdown sources remain under `docs/chapters/dialogue/` for parity checking. Follow-on implementation should wire world triggers, presentation assets, encounter transitions, hub access, and other consumers without changing exact approved wording.
 
 For new dialogue authoring, begin with Chapter 4 rather than repeating Chapters 0–3.
 
