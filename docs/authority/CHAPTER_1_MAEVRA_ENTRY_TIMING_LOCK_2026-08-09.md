@@ -1,65 +1,64 @@
-# Diyse Chapter 1 Maevra Entry Timing Lock
+# Diyse Chapter 1 Maevra Entry Timing Lock — Historical Change Record
 
-**Approval date:** August 9, 2026  
-**Status:** ACTIVE CANON CLARIFICATION  
-**Parent correction:** `MAEVRA_BEFORE_TORREN_ACTIVE_CANON_CORRECTION_2026-08-09.md`
+**Original approval date:** August 9, 2026  
+**Current status:** HISTORICAL CHANGE RECORD — compatible core timing inherited into **v1.64 / Audit79**  
+**Original parent correction:** `MAEVRA_BEFORE_TORREN_ACTIVE_CANON_CORRECTION_2026-08-09.md`
 
-## Exact entry timing
+This file records the August 9 change that moved Maevra's temporary playable entry into Chapter 1 before Torren. It is **not a standalone current authority above v1.64 / Audit79**. Where this historical record contains old production-status, geography, numerical, or “to be re-authored” language, the current complete master and Audit79 Chapter 1 transcript control.
 
-Maevra becomes temporarily playable **during S007 at Brackenwall**, before the party departs for Hollow Watch.
+## Core timing that remains active
 
-Chapter 1 therefore begins with Cyanis + Ilyra and transitions during S007 to Cyanis + Ilyra + Maevra (temporary guest).
+- Chapter 1 opens with **Cyanis + Ilyra**.
+- Maevra becomes temporarily playable **during S007 at Brackenwall**, before the Hollow Watch leg.
+- Maevra is an active temporary guest for S008 and remains present through the Chapter 1 travel block.
+- Torren appears in S009 Greenhollow as a route/terrain specialist, accompanies the local rescue as a **non-commandable specialist**, then joins permanently **after the local problem is resolved**.
+- S010 is the first sustained four-commandable-character Chapter 1 hostile field: Cyanis + Ilyra + Maevra guest + Torren permanent.
+- S011 retains Maevra as guest and Torren as permanent.
+- Maximum active battle party remains four.
 
-Maevra is already an active playable guest for S008 Hollow Watch and S009 Greenhollow.
-
-Torren joins permanently later in Chapter 1, with Maevra already established as a traveling/fighting guest. The exact Torren join beat remains attached to the later Chapter 1 recruitment sequence and will be re-authored after the gameplay-loop study is integrated.
+The exact current implementation and wording are controlled by the Audit79 line-complete Chapter 1 source and validated Resources, not by the older “future re-authoring” language from this memo.
 
 ## Why Maevra joins
 
-Maevra's guest status is an extension of legitimate Royal/military duty arising from the destroyed convoy, the damaged sealed Card, Black Host activity, and the widening Borderlands investigation.
+Maevra's guest status arises from legitimate Crown/military responsibility surrounding the destroyed convoy, sealed Card, Black Host activity, and widening investigation. She does not join because of rebellion, destiny, romance, or personal loyalty to Cyanis.
 
-She is not recruited into rebellion, does not renounce Yahtrea, and does not join because of romance, destiny, or personal loyalty to Cyanis.
+Her role provides institutional/military authority alongside Cyanis's field judgment, Ilyra's medical authority, and later Torren's local route/terrain expertise.
 
-Her presence establishes an institutional military perspective alongside Cyanis's battlefield judgment and Ilyra's independent medical authority.
+## Current S007 consequence
 
-## S007 consequence
+Audit79 now owns the exact S007 implementation. Its governing function remains compatible with this change record: Maevra enters in an official capacity during the Brackenwall protocol crisis and becomes the temporary guest before departure toward Hollow Watch.
 
-S007 must now accomplish both of these functions without becoming a dialogue-heavy recruitment cutscene:
+The old statement that Chapter 1 dialogue/gameplay authoring was paused is **SUPERSEDED**. Chapter 1 is complete, approved, locked, Resource-converted, and validated.
 
-1. Brackenwall artifact-custody/confiscation crisis begins under legitimate procedure and becomes unsafe/coercive when evidence shows forced separation is harmful.
-2. Maevra enters in an official capacity, evaluates the same evidence, and assumes a temporary field role before the Hollow Watch deployment.
+## Torren / Maevra consequence
 
-Maevra's decision to accompany the operation should feel like a professional command decision: the incident has crossed from local artifact intake into an active military/security investigation involving Black Host activity and civilian risk.
+Torren and Maevra are not strangers. Their present-day reunion is S009 Greenhollow and remains **Harth / Solmar** through Chapter 1.
 
-## S008-S011 party state
+Current exact authority preserves:
 
-- S007 opening: Cyanis + Ilyra.
-- S007 post-entry / departure: Cyanis + Ilyra + Maevra (temporary).
-- S008 Hollow Watch: Cyanis + Ilyra + Maevra.
-- S009 Greenhollow: Cyanis + Ilyra + Maevra.
-- S010 Briar Passage: Maevra is already present when Torren's route/terrain authority becomes central; Torren becomes playable/permanent according to the re-authored recruitment handoff.
-- S011 Wayfinder Junction: Cyanis + Ilyra + Torren permanent, with Maevra still temporary; active battle composition remains capped at four.
+- existing personal/military history;
+- no bitter-ex or resentment framing;
+- route/terrain evidence can challenge official maps without making Maevra foolish;
+- Maevra revises when stronger field evidence warrants it;
+- Edda Harth may naturally call Maevra **Mae** because that belongs to Edda's relationship, not Torren's address progression.
 
-## Torren/Maevra consequence
+Protected current Chapter 1 reunion begins:
 
-Torren and Maevra already have personal and military history. Their Chapter 1 reunion must therefore not be written as strangers meeting for the first time. They trained together, later served together regionally, were formerly lovers/soldiers, have met since separating, retain deep care without resentment, and can fall immediately into familiar strategic friction and old-married-couple rhythm.
+- **MAEVRA:** Harth.
+- **TORREN:** Solmar.
 
-This history does not erase their professional disagreement. Torren's local route/terrain evidence can directly challenge Maevra's official maps or military assumptions. Maevra remains intelligent and credible, and must revise when field evidence is stronger.
+## Geography terminology correction
 
-Protected Cyanis response to Torren remains:
+The older memo used **Borderlands** language. That terminology is historical. Under v1.64 / Audit79 the formal Realm for Chapter 1 is **Edgelands**.
 
-> What does the map have wrong?
-
-## Chapter 3 recontextualization
-
-Chapter 3 no longer introduces Maevra as playable. The former containment-order refusal remains important, but its function changes: it becomes a major escalation/test of an already-established guest relationship and of Maevra's limits on lawful command.
-
-It should deepen why Maevra continues with the party rather than initiate her guest status.
+Legacy stable implementation IDs containing `BORDERLANDS` may remain technical handles until an audited migration, but they are not current player-facing geography authority.
 
 ## Numerical boundary
 
-This timing lock does not assign Maevra a Chapter 1 guest level. Her old Chapter 3 Level 9 entry is superseded. Level, statistics, fixed guest equipment, encounter balance, and any scripted promotion remain pending the gameplay/progression rebase.
+This historical memo intentionally did not invent Maevra's Chapter 1 guest level or final balance package. Final progression/economy/balance work remains governed by the current master’s Phase 30 boundaries, not by the old Chapter 3 Level-9 assumption.
 
-## Production pause
+The old Chapter 3 guest Level-9 entry value remains superseded as a Chapter 1 entry authority.
 
-Chapter 1 dialogue/gameplay authoring remains paused until the Chapter 0 gameplay-loop/integration study is brought back into this workflow. This clarification only fixes story/party timing so later implementation cannot drift.
+## Current production result
+
+Chapter 1 S007–S011 + C03–C05 is COMPLETE / APPROVED / LOCKED and converted into validated production Resources. This file now serves only as the historical audit trail for the Maevra-before-Torren timing decision.
