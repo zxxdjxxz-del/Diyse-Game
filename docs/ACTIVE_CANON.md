@@ -4,11 +4,12 @@ This is an implementation-facing summary. It does **not** replace the authoritat
 
 ## Current written authority
 
-- **Whole-project root:** Diyse Clean Active Complete Master Canon **v1.60 / Audit75** — Completed Dialogue Canonization, Chapter 3 Closure, and Production-Authority Consolidation.
-- **Date:** August 17, 2026.
+- **Whole-project root:** Diyse Clean Active Complete Master Canon **v1.64 / Audit79** — Chapter 1 Full Production Dialogue Lock, inheriting the Chapter 2 Audit78 line-complete lock and corrected Chapter 3 Audit77 line-complete lock.
+- **Date:** August 18, 2026.
 - Chapters **0–3 are COMPLETE/CLOSED** at story/dialogue/continuity/relationship/affordable-2.5D production-authority level.
 - Chapter 4 — **The Seventh Reaction** — is the next exact scene-level authoring frontier.
 - Completed early-chapter repository packages: `docs/chapters/`.
+- Chapters 1–3 exact line-complete repository source: `docs/chapters/dialogue/`.
 - Chapter 0 exact line/cue authority remains the merged Godot Resource set at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5` where compatible with later canon.
 - Chapters 1–3 still require Resource conversion/implementation validation; that does not reopen their approved dialogue.
 
@@ -47,14 +48,16 @@ Broad campaign movement: **Edgelands → Southhold → Diysereach → Southhold 
 
 Caelora is the national capital/seat of the Crown within Southhold. Cresthaven is a separate hub/site and is not a room, district, wing, or chamber inside Caelora's Old City.
 
+The controlling S020→S021 transition is now explicit: after the First Command Warden, the cleared command state opens a command-record room that proves the false order was assembled from separate authentic judicial/custody inputs; Torren recognizes and copies a map-like routing display; the party returns to Mirena; Mirena identifies the destination as **Cresthaven, an abandoned Crown outpost in Southhold**. The party stops for the night. S021 begins the next morning with Mirena already at Cresthaven with workers, records staff, medical support, supplies, and security establishing it as the party's working headquarters while the investigation continues.
+
 ## Chapter spine
 
 | State | Title | Current status |
 |---|---|---|
 | Ch0 | The Broken Convoy | COMPLETE/CLOSED; exact Resources merged, later compatibility overlays apply |
-| Ch1 | Brackenwall and the Wayfinder | COMPLETE/CLOSED authoring authority; Resource conversion pending |
-| Ch2 | The Drowned Oath | COMPLETE/CLOSED authoring authority; Resource conversion pending |
-| Ch3 | The Old City and Last Sentinel | COMPLETE/CLOSED authoring authority; Resource conversion pending |
+| Ch1 | Brackenwall and the Wayfinder | COMPLETE/CLOSED; line-complete repo source; Resource conversion pending |
+| Ch2 | The Drowned Oath | COMPLETE/CLOSED; line-complete repo source; Resource conversion pending |
+| Ch3 | The Old City and Last Sentinel | COMPLETE/CLOSED; line-complete corrected repo source; Resource conversion pending |
 | Ch4 | The Seventh Reaction | next exact scene-production frontier |
 | Ch5 | The Mountain Engine | inherited architecture |
 | Ch6 | Broken Sky and Crimson Work | inherited architecture |
@@ -150,7 +153,9 @@ Later-story authority: the Network is a physical underground civilization of bun
 
 ## Cresthaven
 
-Cresthaven is one connected master hub with Command, Common, Archive, Medical, Workshop, Lodging, Training, Overlook, and Departure Court sublocations. Chapter 3 establishes only the immediate safe loop: Rest/Save, Formation, Archive/Records, Medical/Recovery, Departure. Later services unlock through later hub phases.
+Cresthaven is an abandoned Crown outpost in Southhold that Mirena recognizes from Torren's copied post-Warden routing map. By the time the party arrives the next morning in S021, Mirena has already begun reactivating it with Crown workers/staff so it can serve as a **working headquarters while the party investigates what is going on**.
+
+Cresthaven becomes one connected master hub with Command, Common, Archive, Medical, Workshop, Lodging, Training, Overlook, and Departure Court sublocations. Chapter 3 establishes only the immediate safe loop: Rest/Save, Formation, Archive/Records, Medical/Recovery, Departure. Later services unlock through later hub phases.
 
 Preferred optional-content rhythm: **chapter exploration → home/Cresthaven → optional revisit/Hunt → home → onward**.
 
@@ -161,7 +166,7 @@ Eligible chapter-dungeon Regional Hunts use a visible but unavailable first-pass
 Early locks:
 - Hunt #1 Cistern Devourer: post-S011 route spur toward Dunmere; standalone route exception, not fake dungeon replay.
 - Hunt #2 Transfer Executioner: Bastion/prisoner transfer branch opens after Rhazek defeat + secured S016 extraction.
-- Hunt #3 Archive Judgment Engine: S019 judgment branch denied first pass; S020/S021 authorization-state change opens it after the Cresthaven return; return to Old City/Archive separately.
+- Hunt #3 Archive Judgment Engine: S019 judgment branch denied first pass; S020/S021 authorization-state change opens it after Cresthaven establishment; return to Old City/Archive separately.
 
 ## Optional-major unlock windows
 
@@ -185,7 +190,7 @@ Core early voices:
 - Mirena: witty/observant/mischievous/politically impatient; public cleaner, private warmer/more profane.
 - Lysara: patient/observant/dry funny/affectionate/stubborn/practical; continuity without stagnation and restraint of sovereign ownership.
 
-Protected relationship progression is recorded in `docs/chapters/CHAPTER_01_COMPLETE.md` through `CHAPTER_03_COMPLETE.md`.
+Protected relationship progression and exact early-chapter wording are recorded in the line-complete scene files under `docs/chapters/dialogue/`, with implementation-facing locks in `CHAPTER_01_COMPLETE.md` through `CHAPTER_03_COMPLETE.md`.
 
 ## Affordable 2.5D production baseline
 

@@ -1,88 +1,49 @@
 # Chapter 2 — The Drowned Oath — COMPLETE
 
-**Authority:** Complete Master Canon v1.60 / Audit75  
-**Closed set:** S012–S016 + C06/C07  
-**Runtime status:** Story/dialogue/continuity/2.5D authority CLOSED; Godot Resource conversion and validation still pending.
+**Whole-project authority:** Diyse Clean Active Complete Master Canon **v1.64 / Audit79**  
+**Chapter line-complete checkpoint:** **Audit78**, inherited into v1.64  
+**Closed set:** S012–S016 + C06–C07  
+**Runtime status:** Story/dialogue/continuity/relationship/affordable-2.5D authority CLOSED; Godot Resource conversion/validation still pending.
 
-## Chapter progression
+The exact approved Chapter 2 dialogue now lives in `docs/chapters/dialogue/chapter_02/`. Do not reconstruct it from older summary notes when the line-complete scene source exists.
 
-The escalation is practical rather than encyclopedic: a functioning community suffers the consequence → older infrastructure reveals the mechanism → the mechanism contains transferred people → a competent commander deliberately runs the coercive system → victory matters only if people can actually leave.
+## Controlling scene files
 
-### S012 — Dunmere / Poisoned Waterworks
-- Dunmere is a functioning community under pressure, not a quest-terminal town.
-- The party identifies deliberate contamination/diversion.
-- They shut the unsafe lower feed without falsely declaring the whole water system safe.
-- The problem leads into older Diysean infrastructure.
-- Random encounters are allowed where hostile traversal supports them; safe investigation/dialogue pockets suppress interruption.
+- [S012 — Dunmere / Poisoned Waterworks](dialogue/chapter_02/S012.md)
+- [S013 — Sunken Archive / Archive Leviathan](dialogue/chapter_02/S013.md)
+- [S014 — Prisoner Galleries](dialogue/chapter_02/S014.md)
+- [S015 — Red Transfer Bastion / Commander Rhazek](dialogue/chapter_02/S015.md)
+- [S016 — Extraction Causeway](dialogue/chapter_02/S016.md)
+- [C06 — Three People Who Know Each Other Now](dialogue/chapter_02/C06.md)
+- [C07 — Bad Dreams, No Questions](dialogue/chapter_02/C07.md)
 
-### S013 — Sunken Archive / Archive Leviathan
-- Flooded Archive attrition and preservation gradient: damaged outer systems, more functional protected systems deeper inside.
-- Memory Scribe copies a **completed eligible action**, not the actor's body/choreography.
-- If Ilyra is actually the copied actor, **“It copied me.”** is legal. Otherwise use the actual copied actor or generic **“It copied that.”**
-- Archive Leviathan uses one HP bar with authored state progression.
-- **“Same one?” / “Yes.”** is legal only when the active Recorded Pattern actually persists across the threshold.
-- Exact discovery is **“thirty-one transfers.”** This means transfer records, not thirty-one prisoners standing in a room.
-- Modern Black Host annotations may exist inside ancient infrastructure; ancient location does not make every record ancient.
+## Hard continuity / implementation locks
 
-### S014 — Prisoner Galleries
-- Prisoners are differentiated people with agency, not inventory/evidence.
-- Immediate care, consent, mobility limits, a concrete defensible safe pocket, broken transfer infrastructure, and a viable forward-route problem shape the scene.
-- Prisoners retain control of their own protective door/state while the party opens the route needed for extraction.
-- Bastion assault is part of making escape possible, not a detour from rescue.
-- Protected relationship breach: under crisis Maevra involuntarily says **“Torren!”** and immediately returns to **“Harth.”** Do not highlight, explain, repeat, or convert this into later T/Mae shorthand.
-- A heavy transfer/security side branch may be visible but is not taken while prisoners are trapped and the Bastion remains active. This becomes the post-chapter Regional Hunt return route.
+- Dunmere remains a functioning community under pressure. S012 establishes deliberate contamination and shuts only the unsafe lower feed without falsely declaring all remaining water safe.
+- S013's **thirty-one transfers** are transfer records, not a prisoner headcount. Do not equate the number with the people later found in the galleries.
+- Memory Scribe behavior keys off an **eligible action after it actually completes**. It does not read unexecuted menu selections or copy actor body choreography.
+- Archive Leviathan uses one HP bar with its authored same-bar state change. The `Same one? / Yes.` exchange is conditional on a Recorded Pattern actually persisting through that transition.
+- Prisoners in S014 are differentiated adults with agency. Ilyra asks before care; people may accept or refuse. The prisoners themselves retain control of the defensible safe-room bar.
+- The only Chapter 2 Torren/Maevra address breach is Maevra's involuntary **“Torren!”**, immediately corrected to **“Harth.”** Nobody comments on it. The first deliberate `Maevra` remains Chapter 3 H02.
+- Commander Rhazek is competent, accountable, non-possessed, ideologically intact, and owns the transfer operation and his choices.
+- Rhazek's Chapter 2 boss state is **Bastion Master**, one HP bar with finite support and a same-bar Ruin/armor escalation. He survives and withdraws. Later Rhazek forms are not imported backward.
+- S016 contains exactly **one mandatory authored combat encounter: Hold the Junction**. There is no second mandatory rearguard battle and no combat after the final extraction threshold.
+- The missing-brother thread remains unresolved.
+- Hunt #2 — **Transfer Executioner** becomes accessible after the Bastion/branch state change and remains optional/returnable.
 
-### S015 — Red Transfer Bastion / Commander Rhazek
-- The Bastion is frightening because it works.
-- Rhazek is competent, accountable, non-possessed, and ideologically intact. He owns the transfer system and his choices; “just following orders” is not his defense.
-- Proper treatment of Black Host wounded does not morally purchase coercive custody.
-- Chapter 2 Rhazek combat is **Bastion Master** with finite support and a deliberate same-HP-bar Ruin/armor escalation only.
-- Later Reforged Commander / Bastion Devourer / catastrophically damaged states are not spent here.
-- Sunder the Gate is an existing Ancient Standard Card recovered through victory/access to Bastion holdings; Rhazek does not create it.
+## Character-Life locks
 
-### S016 — Extraction Causeway
-- Exactly one mandatory authored encounter: **Hold the Junction**.
-- Do not restore the discarded second rearguard fight as mandatory content.
-- No combat after the final extraction threshold.
-- Victory is measured by evacuation work rather than boss celebration.
-- Rhazek survives and withdraws.
-- The safe-area final image prioritizes evacuees over protagonists.
-- The missing-brother evacuee thread remains unresolved; do not manufacture a tidy answer solely to close the chapter.
-- After extraction is secured, the dormant Bastion transfer branch can become accessible through the approved return shortcut for Regional Hunt #2.
+C06 and C07 unlock after S016 and are order-independent.
 
-## Character-Life closure
+- **C06:** saved seat, ordinary gear repair, shorthand, teasing, mutual work-stopping care, and comfortable silence. No lore/Prime payload or relationship speech.
+- **C07:** Audit78 Rewrite Draft 2 controls. The earlier protected C07 line set is retired. The approved callback is **wet sleeves**. Torren sometimes smokes weed late at night to relax/focus; the scene does not frame this as impairment or vice. He lights the blunt from existing low coals—**no modern lighter**. No dream visualization, confession, forced disclosure, or therapy conversation.
 
-### C06 — Three People Who Know Each Other Now
-Participants: Cyanis, Ilyra, Torren. Available after S016 and order-independent from C07.
+## Knowledge / production locks
 
-Mundane props, teasing, shorthand, a saved seat, work-stopping care, and comfortable silence show that the three now form an ordinary social unit. There is no mandatory lore/Prime payload and no need to announce that they are a family.
+- No Chapter 3 Prime, Last Sentinel, Nimera-party, Old City/Suppressed Archive, Sixfold Accord, giant buried Crest, integrated Underground Crest Network, or later relationship knowledge leaks backward into Chapter 2.
+- Bosses/constructs do not create Cards; victory/access may gate recovery of pre-existing Ancient Cards.
+- Use authored water states rather than fluid simulation, prepared machinery/gate changes rather than physics destruction, layered/limited evacuee sprites rather than crowd AI, and reusable treatment/escort/interaction poses.
 
-### C07 — Bad Dreams, No Questions
-Available after S016 and order-independent from C06.
+## Runtime conversion rule
 
-- No dream flashback.
-- No forced disclosure.
-- Care is expressed through mundane presence and respecting boundaries.
-- Intimacy does not create entitlement to another person's pain.
-
-## Relationship progression
-
-- **Torren + Maevra:** Chapter 2 contains the single involuntary **“Torren!”** crisis breach, immediately back to Harth. The first deliberate “Maevra” remains later.
-- **Cyanis + Torren:** friendship is now easier and more shorthand-capable than Chapter 1, but danger still erases comedy.
-- **Cyanis + Ilyra:** practical trust and care deepen without turning early chapters into overt romance-route staging.
-- **Ilyra + Torren:** professional respect and comfortable low-verbal-density interaction are legitimate; do not force banter into every shared scene.
-
-## Knowledge / provenance firewall
-
-- Ancient Diysean underground sites and advanced infrastructure are broadly known facts; the surprise is how much can survive/reactivate/function now.
-- Do not reveal the giant buried Crest or integrated Underground Crest Network in Chapter 2.
-- Black Host cages/prison systems read as contemporary retrofit/exploitation unless evidence explicitly proves an Ancient equivalent.
-- Bosses never create Cards.
-
-## Affordable 2.5D lock
-
-Use authored water levels rather than fluid simulation; before/after machinery states rather than systemic destruction; layered prisoner/evacuee groups rather than crowd AI; reusable treatment, escort, sit/stand, door, interaction, and combat poses; environment depth and lighting for scale. Character-Life scenes rely on props, portraits, ordinary tasks, small spatial shifts, and silence rather than bespoke cinematics.
-
-## Chapter-end state
-
-Prisoner extraction is secured; the party has evidence of an organized Black Host transfer system; Rhazek has withdrawn rather than being narratively erased; C06/C07 are available; the Bastion return branch can later support Hunt #2 without requiring a full dungeon replay.
+Convert the closed scenes into the existing stable-ID `DiyseDialogueSceneDefinition` Resource schema. Implementation may normalize IDs/cues/portrait references and make bounded technical staging adjustments, but must preserve exact approved dialogue, prisoner agency, encounter counts/handoffs, Rhazek's same-bar limit, the relationship-address firewall, and C06/C07 availability.
