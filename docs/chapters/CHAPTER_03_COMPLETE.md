@@ -3,9 +3,9 @@
 **Whole-project authority:** Diyse Clean Active Complete Master Canon **v1.64 / Audit79**  
 **Chapter line-complete checkpoint:** **Audit77**, plus the bounded S020→S021 Cresthaven correction inherited into v1.64  
 **Closed set:** S017–S021 + H01–H04  
-**Runtime status:** Story/dialogue/continuity/relationship/affordable-2.5D authority CLOSED; Godot Resource conversion/validation still pending.
+**Runtime status:** Story/dialogue/continuity/relationship/affordable-2.5D authority CLOSED; production Godot dialogue Resource conversion and validation COMPLETE.
 
-The exact approved Chapter 3 dialogue now lives in `docs/chapters/dialogue/chapter_03/`. Use those line-complete files, not older summaries or the discarded pre-correction S020/S021 transition.
+The exact approved Chapter 3 dialogue lives in `docs/chapters/dialogue/chapter_03/`. The validated production translation lives in `game/content/dialogue/chapter_03/`. Use those sources, not older summaries or the discarded pre-correction S020/S021 transition.
 
 ## Controlling scene files
 
@@ -18,6 +18,26 @@ The exact approved Chapter 3 dialogue now lives in `docs/chapters/dialogue/chapt
 - [H02 — Torren and Maevra, Unsupervised](dialogue/chapter_03/H02.md)
 - [H03 — Ilyra and Nimera](dialogue/chapter_03/H03.md)
 - [H04 — Last Sentinel Is Not Invited](dialogue/chapter_03/H04.md)
+
+## Production Resource checkpoint
+
+Production Resources:
+- `game/content/dialogue/chapter_03/S017.tres`
+- `S018.tres`
+- `S019.tres`
+- `S020.tres`
+- `S021.tres`
+- `H01.tres`
+- `H02.tres`
+- `H03.tres`
+- `H04.tres`
+- `chapter_03_dialogue_registry.tres`
+
+Permanent validators:
+- `tests/dialogue/validate_chapter_03_resources.gd` — exact Markdown→Resource speaker/text parity, schema, metadata, locations, triggers, and participants.
+- `tests/dialogue/validate_chapter_03_continuity.gd` — authority encounters, Nimera/choose-four handoff, Warden limits, Last Sentinel timing, corrected Cresthaven handoff, geography, optional-scene access, and durable end-state locks.
+
+H01/H02/H03 retain their approved earlier **story-eligibility** points but require actual **Cresthaven location access** before playback, because their approved staging is at Cresthaven. H04 remains post-S021 only. This is runtime gating, not a story rewrite.
 
 ## Geography hard lock
 
@@ -67,6 +87,6 @@ After the Cresthaven/home beat, the previously denied Archive judgment branch ma
 
 Use reusable portraits/poses, papers/seals/tables, authored gates/route states, ordinary interaction poses, camera inserts, machine emitters, lighting, and layered background activity. Do not introduce systemic facility simulation, crowd AI, actor-body mimicry, or physics spectacle to implement closed prose.
 
-## Runtime conversion rule
+## Follow-on implementation rule
 
-Translate the line-complete scene files into the accepted stable-ID `DiyseDialogueSceneDefinition` Resource schema. Implementation may normalize IDs/cues/portrait references and make bounded technical staging adjustments, but may not restore discarded geography, alter exact approved dialogue, move relationship milestones, leak future knowledge, change party state, or undo the corrected S020→S021 Cresthaven establishment sequence.
+The line-complete scene files and validated production Resources are now the Chapter 3 dialogue baseline. Follow-on work may wire world triggers, location access, hub services, encounter consumers, presentation assets, portraits, and other runtime systems, but may not restore discarded geography, alter exact approved dialogue, move relationship milestones, leak future knowledge, change party state, or undo the corrected S020→S021 Cresthaven establishment sequence.

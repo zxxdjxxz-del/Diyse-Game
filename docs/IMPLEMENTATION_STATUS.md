@@ -5,8 +5,8 @@
 **Step 7B.6:** COMPLETE / PASS — production dialogue authoring handoff locked  
 **Story/dialogue production authority:** Chapters 0–3 COMPLETE/CLOSED  
 **Repository authoring source:** Chapters 1–3 line-complete under `docs/chapters/dialogue/`  
-**Runtime Resource implementation:** Chapters 0–2 complete/validated; Chapter 3 conversion/validation pending  
-**Next closed-chapter Resource frontier:** Chapter 3 — The Old City and Last Sentinel  
+**Runtime Resource implementation:** Chapters 0–3 complete/validated  
+**Closed-chapter dialogue Resource frontier:** NONE for Chapters 0–3  
 **Next exact scene-authoring frontier:** Chapter 4 — The Seventh Reaction  
 **Active repository:** `zxxdjxxz-del/Diyse-Game`
 
@@ -16,9 +16,9 @@ The repository has distinct completion states and they must not be conflated:
 
 1. **Authoring/canon closure:** Chapters 0, 1, 2, and 3 are complete at story, dialogue, continuity, relationship, knowledge-firewall, and affordable-2.5D production-authority level under v1.64 / Audit79.
 2. **Repository line-complete source:** Chapters 1–3 have exact approved scene-level Markdown sources under `docs/chapters/dialogue/`.
-3. **Runtime dialogue Resource integration:** Chapters 0, 1, and 2 now have full approved scene sets implemented as validated `DiyseDialogueSceneDefinition` `.tres` Resources. Chapter 3 remains pending conversion.
+3. **Runtime dialogue Resource integration:** Chapters 0, 1, 2, and 3 now have full approved scene sets implemented as validated `DiyseDialogueSceneDefinition` `.tres` Resources.
 
-Chapters 1 and 2 were translated from their exact locked Markdown sources without re-authoring. Their permanent validators enforce exact spoken source parity and whole-chapter continuity/final-version locks.
+Chapters 1–3 were translated from their exact locked Markdown sources without re-authoring. Their permanent validators enforce exact spoken source parity and whole-chapter continuity/final-version locks.
 
 ## Proven technical chain
 
@@ -34,14 +34,14 @@ Chapters 1 and 2 were translated from their exact locked Markdown sources withou
 | 7B.6 | PASS | Stable-ID dialogue Resources, portrait registry, authoring template, schema validation and Resource-to-runner integration |
 | Step 7C Chapter 0 | PASS / MERGED | S001–S006 + C01/C02 approved and integrated; chapter continuity + Godot + Android gate passed |
 | Step 7C Chapter 1 dialogue Resource checkpoint | PASS / MERGED | S007–S011 + C03–C05 compiled from exact Audit79 source; schema/source-parity + chapter continuity gate passed |
-| Step 7C Chapter 2 dialogue Resource checkpoint | PASS | S012–S016 + C06/C07 compiled from exact Audit78 source; exact source-parity + chapter continuity validators locked |
-| Chapter 3 authoring | CLOSED / LINE-COMPLETE | Exact scene sources present in `docs/chapters/dialogue/chapter_03/`; v1.64/Audit79 controls |
-| Chapter 3 Resource conversion | PENDING | Must preserve closed authority; implementation/validation work only |
+| Step 7C Chapter 2 dialogue Resource checkpoint | PASS / MERGED | S012–S016 + C06/C07 compiled from exact Audit78 source; exact source-parity + chapter continuity gate passed |
+| Step 7C Chapter 3 dialogue Resource checkpoint | PASS | S017–S021 + H01–H04 compiled from corrected Audit77/v1.64 source; exact source-parity + Chapter 3 continuity/Cresthaven gate passed |
 
 Accepted pre-documentation 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`.  
 Accepted 7B.6 implementation merge: `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.  
 Accepted Chapter 0 production merge: `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`.  
-Accepted Chapter 1 dialogue Resource merge: `f1cd2cd9152e4b7ca7e63bea6469c5b326494120`.
+Accepted Chapter 1 dialogue Resource merge: `f1cd2cd9152e4b7ca7e63bea6469c5b326494120`.  
+Accepted Chapter 2 dialogue Resource merge: `29e7ced1e92d32e2a6a235a6efab2b8a320a36f6`.
 
 ## Chapter 0 runtime checkpoint
 
@@ -81,11 +81,6 @@ Closed set: **S007–S011 + C03–C05**.
 Exact source: `docs/chapters/dialogue/chapter_01/`.  
 Production Resources: `game/content/dialogue/chapter_01/`.
 
-The Resource set contains:
-- S007, S008, S009, S010, S011
-- C03, C04, C05
-- Chapter 1 dialogue registry
-
 Deterministic generation/validation:
 - `tools/dialogue/compile_chapter_01.py` reproduces the Resource translation from the controlling Markdown.
 - `tests/dialogue/validate_chapter_01_resources.gd` validates schema/metadata and every spoken speaker/text pair against source in exact order.
@@ -94,18 +89,11 @@ Deterministic generation/validation:
 
 Audit79 exact C04 remains controlling: **“Old whore.” / “Bitch.”** The older `Whore/Shore` recovery reconstruction is superseded.
 
-This checkpoint validates **dialogue Resource translation and continuity**, not the completion of every Chapter 1 exploration map, boss encounter, trigger consumer, or final portrait asset. Those remain separate implementation work where not already present.
-
 ## Chapter 2 dialogue Resource checkpoint
 
 Closed set: **S012–S016 + C06/C07**.  
 Exact source: `docs/chapters/dialogue/chapter_02/`.  
 Production Resources: `game/content/dialogue/chapter_02/`.
-
-The Resource set contains:
-- S012, S013, S014, S015, S016
-- C06, C07
-- Chapter 2 dialogue registry
 
 Deterministic generation/validation:
 - `tools/dialogue/compile_chapter_02.py` reproduces the Resource translation from the controlling Audit78 Markdown.
@@ -115,14 +103,22 @@ Deterministic generation/validation:
 
 Audit78 C07 Rewrite Draft 2 remains controlling: **wet sleeves**, no dream disclosure, Torren's late-night weed use treated as ordinary/non-impairing, lit from existing coals, **no modern lighter**.
 
-This checkpoint validates **dialogue Resource translation and continuity**, not every Chapter 2 exploration map, encounter consumer, world trigger, final portrait asset, or presentation executor.
+## Chapter 3 dialogue Resource checkpoint
 
-## Chapter 3 line-complete authoring package
-
-### Chapter 3 — The Old City and Last Sentinel
 Closed set: **S017–S021 + H01–H04**.  
 Exact source: `docs/chapters/dialogue/chapter_03/`.  
-Runtime task: convert closed dialogue/staging, preserve nonlethal authority encounters, Nimera permanent recruitment + choose-four, Warden one-bar/two-state logic, Last Sentinel knowledge firewall, separate Cresthaven geography, corrected S020→S021 handoff, and H01–H04 availability.
+Production Resources: `game/content/dialogue/chapter_03/`.
+
+The Resource set contains:
+- S017, S018, S019, S020, S021
+- H01, H02, H03, H04
+- Chapter 3 dialogue registry
+
+Deterministic generation/validation:
+- `tools/dialogue/compile_chapter_03.py` reproduces the Resource translation from the controlling corrected Audit77/v1.64 Markdown.
+- `tests/dialogue/validate_chapter_03_resources.gd` validates schema/metadata and every spoken speaker/text pair against source in exact order.
+- `tests/dialogue/validate_chapter_03_continuity.gd` validates containment/order-chain logic, exactly two S018 nonlethal authority encounters, Nimera permanent recruitment + choose-four, Warden one-bar/two-state behavior, exact Last Sentinel output, no S020 Prime/Might identification, the corrected S020→S021 Cresthaven sequence, Last Sentinel recovery without manifestation, H01–H04 relationship/availability locks, and separate geography.
+- Both validators are part of permanent Godot Smoke Validation.
 
 Hard geography: **Caelora → Old City / Suppressed Archives → separate Cresthaven**.
 
@@ -133,6 +129,12 @@ Corrected end-state implementation sequence:
 - Mirena identifies **Cresthaven as an abandoned Crown outpost in Southhold** and dispatches staff/support;
 - the party stops for the night;
 - S021 starts the next morning with Mirena already at Cresthaven establishing it as the party's working headquarters while the investigation continues.
+
+H01/H02/H03 preserve their approved earlier **eligibility** states but require actual Cresthaven access before playback. H04 remains post-S021 only.
+
+S021 unlocks Last Sentinel as Recovered/usable but does not manifest it. The first later real-battle use remains the first verified modern Prime manifestation.
+
+These dialogue Resource checkpoints do **not** mean every exploration map, encounter consumer, world trigger, final portrait asset, hub service, or presentation executor for Chapters 1–3 is complete. Those remain separate implementation work where not already present.
 
 ## Accepted implementation behaviors
 
@@ -164,18 +166,9 @@ Persistent state remains separate from scene nodes and serializes as versioned p
 
 ## Production workflow from here
 
-For **Chapter 1–2 follow-on implementation**, treat the validated Resource sets as the dialogue baseline; wire world triggers, presentation assets, encounter transitions, and other consumers without changing exact wording.
+For **Chapters 1–3 follow-on implementation**, treat the validated Resource sets as the dialogue baseline; wire world triggers, presentation assets, encounter transitions, Cresthaven access/services, and other consumers without changing exact wording.
 
-For the **closed Chapter 3 Resource conversion**:
-1. read `docs/chapters/CHAPTER_03_COMPLETE.md`;
-2. read the exact scene file under `docs/chapters/dialogue/chapter_03/`;
-3. translate the approved scene into the existing stable-ID Resource schema without rewriting or inventing dialogue;
-4. add/validate required registry/state IDs;
-5. preserve encounter/recovery/party-state/geography handoffs;
-6. run exact source-parity validation and whole-chapter continuity validation;
-7. run the full Godot + Android gate at the Chapter 3 dialogue Resource checkpoint.
-
-For **new authoring**, begin at Chapter 4, not Chapters 0–3.
+For **new exact scene authoring**, begin at Chapter 4 — The Seventh Reaction, not Chapters 0–3.
 
 ## Non-canon technical fixtures
 

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="DiyseDialoguePortraitRegistry" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_portrait_registry.gd" id="1_registry"]
+
+[resource]
+script = ExtResource("1_registry")
+entries = [
+{"character_id": "torren", "display_name": "Torren", "portraits": {}},
+{"character_id": "cyanis", "display_name": "Cyanis", "portraits": {}},
+{"character_id": "ilyra", "display_name": "Ilyra", "portraits": {}},
+{"character_id": "crown_officer", "display_name": "Crown Officer", "portraits": {}},
+{"character_id": "maevra", "display_name": "Maevra", "portraits": {}},
+{"character_id": "clerk", "display_name": "Clerk", "portraits": {}},
+{"character_id": "mirena", "display_name": "Mirena", "portraits": {}},
+{"character_id": "order_clerk", "display_name": "Order Clerk", "portraits": {}},
+{"character_id": "ivory_officer", "display_name": "Ivory Officer", "portraits": {}},
+{"character_id": "ivory_adjudicator", "display_name": "Ivory Adjudicator", "portraits": {}},
+{"character_id": "womans_voice", "display_name": "Woman'S Voice", "portraits": {}},
+{"character_id": "nimera", "display_name": "Nimera", "portraits": {}},
+{"character_id": "lysara", "display_name": "Lysara", "portraits": {}}
+]

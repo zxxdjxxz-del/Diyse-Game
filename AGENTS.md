@@ -23,13 +23,15 @@ If a task conflicts with these files or with a newer explicit user instruction, 
 - Chapter 0 exact Resource/cue wording remains the merged Resource set at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5` where compatible with later canon.
 - **Chapter 1 has been converted into production `DiyseDialogueSceneDefinition` Resources under `game/content/dialogue/chapter_01/` and validated against the exact Audit79 Markdown source plus whole-chapter continuity/final-version locks.**
 - **Chapter 2 has been converted into production `DiyseDialogueSceneDefinition` Resources under `game/content/dialogue/chapter_02/` and validated against the exact Audit78 Markdown source plus whole-chapter continuity locks.**
-- Chapter 3 has line-complete corrected repository scene sources under `docs/chapters/dialogue/chapter_03/` but is not yet converted/validated as production `.tres` Resources. Translating it into the accepted schema is implementation work, not a dialogue rewrite.
+- **Chapter 3 has been converted into production `DiyseDialogueSceneDefinition` Resources under `game/content/dialogue/chapter_03/` and validated against the corrected Audit77/v1.64 Markdown source plus whole-chapter continuity, Cresthaven geography, Last Sentinel, and optional-scene locks.**
+- There is no remaining Chapters 0–3 dialogue-Resource conversion backlog.
 - Chapter 4 — **The Seventh Reaction** — is the next exact scene-level authoring frontier.
 - Step 7B.5 technical feasibility: COMPLETE / PASS on real Android hardware.
 - Step 7B.6 production authoring handoff: COMPLETE / PASS.
 - Accepted 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`.
 - Accepted 7B.6 production-handoff implementation merge: `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.
 - Accepted Chapter 1 dialogue Resource merge: `f1cd2cd9152e4b7ca7e63bea6469c5b326494120`.
+- Accepted Chapter 2 dialogue Resource merge: `29e7ced1e92d32e2a6a235a6efab2b8a320a36f6`.
 
 ## Completed early-chapter rule
 
@@ -38,7 +40,7 @@ Do **not** repeatedly recover, re-author, or re-audit Chapters 0–3 as if their
 - Chapter 0: use the validated Resource set plus later compatibility overlays.
 - Chapter 1: use the validated production Resource set under `game/content/dialogue/chapter_01/` together with the exact source under `docs/chapters/dialogue/chapter_01/`; the source-parity validator protects wording.
 - Chapter 2: use the validated production Resource set under `game/content/dialogue/chapter_02/` together with the exact Audit78 source under `docs/chapters/dialogue/chapter_02/`; the source-parity validator protects wording and the continuity validator protects encounter-count, prisoner-agency, Rhazek, relationship, knowledge-firewall, and Character-Life locks.
-- Chapter 3: use the exact line-complete corrected scene files under `docs/chapters/dialogue/chapter_03/`, with `CHAPTER_03_COMPLETE.md` as the implementation lock/index until Resource conversion is complete.
+- Chapter 3: use the validated production Resource set under `game/content/dialogue/chapter_03/` together with the exact corrected Audit77/v1.64 source under `docs/chapters/dialogue/chapter_03/`; the validators protect exact wording, separate-Cresthaven geography, the corrected S020→S021 handoff, Warden limits, Last Sentinel knowledge timing, and H01–H04 locks.
 
 A bounded implementation correction may update IDs, Resource metadata, internal labels, cue support, or staging feasibility without reopening approved wording, scene purpose, protected beats, pair progression, geography, knowledge firewall, party-state changes, or outcomes.
 
@@ -64,9 +66,11 @@ The controlling S020→S021 ending is explicit:
 
 Do not restore the discarded transition where the party already knew Cresthaven or followed an unexplained old-site reference.
 
+H01/H02/H03 may become story-eligible at their approved earlier flags, but because their approved staging is at Cresthaven they cannot actually play until Cresthaven location access exists. H04 remains post-S021 only.
+
 ## Step 7C / dialogue workflow
 
-Use the chapter-level workflow proven by Chapters 0–2:
+Use the chapter-level workflow proven by Chapters 0–3:
 
 - one production branch/PR per chapter or comparable substantial narrative block;
 - review/checkpoint implementation against the already-approved scene authority;
@@ -76,7 +80,7 @@ Use the chapter-level workflow proven by Chapters 0–2:
 - full Godot and Android regression at the chapter checkpoint, or earlier only when engine/schema/platform behavior changes;
 - one authority/archive checkpoint after the chapter/substantial milestone is implemented.
 
-For Chapter 3, **do not seek new prose approval merely because Resource conversion is pending**. Translate the line-complete closed source. For Chapters 1–2, do not regenerate or rewrite the validated Resource text except through an explicit canon revision.
+For Chapters 1–3, do not regenerate or rewrite validated Resource text except through an explicit canon revision. For new exact dialogue authoring, proceed to Chapter 4.
 
 ## Hard rules
 
@@ -122,6 +126,6 @@ If a scene requires unique animation only because prose describes many micro-act
 
 ## Accepted-proof regression rule
 
-Steps 7B.5 and 7B.6 are closed. Chapter 0's complete Resource/continuity gate remains an accepted production regression baseline. Chapters 1 and 2 add exact source-parity + whole-chapter dialogue Resource gates as accepted content regression baselines. Do not regress the proven exploration/dialogue/combat/Card/Prime/persistence architecture or production dialogue Resource contract merely because later chapters are more complex.
+Steps 7B.5 and 7B.6 are closed. Chapter 0's complete Resource/continuity gate remains an accepted production regression baseline. Chapters 1–3 add exact source-parity + whole-chapter dialogue Resource gates as accepted content regression baselines. Do not regress the proven exploration/dialogue/combat/Card/Prime/persistence architecture or production dialogue Resource contract merely because later chapters are more complex.
 
 Temporary proof fixtures remain replaceable and non-canon.
