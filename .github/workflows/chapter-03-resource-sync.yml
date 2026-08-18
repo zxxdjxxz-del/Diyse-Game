@@ -1,0 +1,50 @@
+name: Chapter 3 Dialogue Resource Sync
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  compile-and-validate:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+
+      - name: Compile exact Chapter 3 dialogue Resources
+        run: python tools/dialogue/compile_chapter_03.py
+
+      - name: Commit generated Resources when needed
+        shell: bash
+        run: |
+          git add game/content/dialogue/chapter_03
+          if git diff --cached --quiet; then
+            echo "Generated Chapter 3 Resources are already synchronized."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "impl: compile Chapter 3 dialogue Resources"
+          git push origin "HEAD:${{ github.event.pull_request.head.ref }}"
+
+      - name: Set up Godot 4.7.1
+        uses: lihop/setup-godot@v3
+        with:
+          version: 4.7.1-stable
+
+      - name: Import project headlessly
+        run: godot --headless --path . --editor --quit
+
+      - name: Validate Chapter 3 exact Resource/source parity
+        run: godot --headless --path . --script tests/dialogue/validate_chapter_03_resources.gd
+
+      - name: Validate Chapter 3 continuity locks
+        run: godot --headless --path . --script tests/dialogue/validate_chapter_03_continuity.gd
