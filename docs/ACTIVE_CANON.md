@@ -13,7 +13,8 @@ This is an implementation-facing summary. It does **not** replace the authoritat
 - Chapter 0 exact line/cue authority remains the merged Godot Resource set at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5` where compatible with later canon.
 - **Chapter 1 S007–S011 + C03–C05 are converted into production `.tres` dialogue Resources and validated for exact source parity plus whole-chapter continuity.**
 - **Chapter 2 S012–S016 + C06/C07 are converted into production `.tres` dialogue Resources and validated against the exact Audit78 source plus whole-chapter continuity.**
-- Chapter 3 still requires Resource conversion/implementation validation; that does not reopen its approved dialogue.
+- **Chapter 3 S017–S021 + H01–H04 are converted into production `.tres` dialogue Resources and validated against the corrected Audit77/v1.64 source plus whole-chapter continuity, Cresthaven geography, Last Sentinel, and optional-scene locks.**
+- Chapters 0–3 have no remaining dialogue-Resource conversion backlog.
 
 ## Project foundation
 
@@ -52,6 +53,8 @@ Caelora is the national capital/seat of the Crown within Southhold. Cresthaven i
 
 The controlling S020→S021 transition is explicit: after the First Command Warden, the cleared command state opens a command-record room that proves the false order was assembled from separate authentic judicial/custody inputs; Torren recognizes and copies a map-like routing display; the party returns to Mirena; Mirena identifies the destination as **Cresthaven, an abandoned Crown outpost in Southhold**. The party stops for the night. S021 begins the next morning with Mirena already at Cresthaven with workers, records staff, medical support, supplies, and security establishing it as the party's working headquarters while the investigation continues.
 
+The validated Chapter 3 Resource triggers preserve H01/H02/H03's approved earlier story eligibility but also require actual Cresthaven access before those Cresthaven-staged scenes can play. H04 remains post-S021 only.
+
 ## Chapter spine
 
 | State | Title | Current status |
@@ -59,7 +62,7 @@ The controlling S020→S021 transition is explicit: after the First Command Ward
 | Ch0 | The Broken Convoy | COMPLETE/CLOSED; exact Resources merged, later compatibility overlays apply |
 | Ch1 | Brackenwall and the Wayfinder | COMPLETE/CLOSED; **production dialogue Resources converted; exact source-parity + continuity validated** |
 | Ch2 | The Drowned Oath | COMPLETE/CLOSED; **production dialogue Resources converted; exact Audit78 source-parity + continuity validated** |
-| Ch3 | The Old City and Last Sentinel | COMPLETE/CLOSED; line-complete corrected repo source; Resource conversion pending |
+| Ch3 | The Old City and Last Sentinel | COMPLETE/CLOSED; **production dialogue Resources converted; corrected Audit77/v1.64 source-parity + continuity/Cresthaven validation passed** |
 | Ch4 | The Seventh Reaction | next exact scene-production frontier |
 | Ch5 | The Mountain Engine | inherited architecture |
 | Ch6 | Broken Sky and Crimson Work | inherited architecture |
@@ -192,7 +195,7 @@ Core early voices:
 - Mirena: witty/observant/mischievous/politically impatient; public cleaner, private warmer/more profane.
 - Lysara: patient/observant/dry funny/affectionate/stubborn/practical; continuity without stagnation and restraint of sovereign ownership.
 
-Protected relationship progression and exact early-chapter wording are recorded in the line-complete scene files under `docs/chapters/dialogue/`, with implementation-facing locks in `CHAPTER_01_COMPLETE.md` through `CHAPTER_03_COMPLETE.md`. Chapters 1 and 2 Resource text are additionally protected by exact source-parity validation.
+Protected relationship progression and exact early-chapter wording are recorded in the line-complete scene files under `docs/chapters/dialogue/`, with implementation-facing locks in `CHAPTER_01_COMPLETE.md` through `CHAPTER_03_COMPLETE.md`. Chapters 1–3 Resource text are additionally protected by exact source-parity validation.
 
 ## Affordable 2.5D production baseline
 
