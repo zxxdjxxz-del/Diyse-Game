@@ -11,9 +11,9 @@ This directory is the repository-facing implementation/recovery index for the co
 | 0 | The Broken Convoy | S001–S006 + C01/C02 | Exact dialogue Resources already merged/validated; later canon overlays control where they supersede old internal terminology. |
 | 1 | Brackenwall and the Wayfinder | S007–S011 + C03–C05 | **Line-complete canon source + production `.tres` Resource set present; exact source-parity and whole-chapter continuity validated.** |
 | 2 | The Drowned Oath | S012–S016 + C06/C07 | **Line-complete canon source + production `.tres` Resource set present; exact source-parity and whole-chapter continuity validated.** |
-| 3 | The Old City and Last Sentinel | S017–S021 + H01–H04 | **Line-complete corrected canon source present in `dialogue/chapter_03/`;** Resource conversion/validation pending. |
+| 3 | The Old City and Last Sentinel | S017–S021 + H01–H04 | **Line-complete corrected canon source + production `.tres` Resource set present; exact source-parity and whole-chapter continuity/Cresthaven validation passed.** |
 
-Chapters 1 and 2 have crossed the authoring→Resource checkpoint. Chapter 3 remains line-complete authoring authority and must still be translated into the accepted `DiyseDialogueSceneDefinition` schema without re-authoring it.
+Chapters 1–3 have all crossed the authoring→Resource checkpoint. There is no remaining closed Chapter 0–3 dialogue-Resource conversion backlog.
 
 ## Exact dialogue source
 
@@ -24,6 +24,8 @@ For Chapters 1–3, the scene Markdown files under `docs/chapters/dialogue/` con
 For Chapter 1, `game/content/dialogue/chapter_01/` contains the production Resource translation. `tests/dialogue/validate_chapter_01_resources.gd` enforces exact spoken source parity; `tests/dialogue/validate_chapter_01_continuity.gd` enforces chapter-level continuity/final-version locks.
 
 For Chapter 2, `game/content/dialogue/chapter_02/` contains the production Resource translation. `tests/dialogue/validate_chapter_02_resources.gd` enforces exact spoken source parity, including the offscreen prisoner and simultaneous Ilyra/Torren source forms; `tests/dialogue/validate_chapter_02_continuity.gd` enforces the Chapter 2 continuity, encounter-count, prisoner-agency, Rhazek-limit, relationship, knowledge-firewall, Character-Life, and durable-handoff locks.
+
+For Chapter 3, `game/content/dialogue/chapter_03/` contains the production Resource translation. `tests/dialogue/validate_chapter_03_resources.gd` enforces exact spoken source parity; `tests/dialogue/validate_chapter_03_continuity.gd` enforces the two S018 authority encounters, Nimera/choose-four handoff, Warden one-bar/two-state limit, Last Sentinel knowledge firewall, corrected S020→S021 Cresthaven sequence, and H01–H04 locks.
 
 ## Authority order
 
@@ -42,9 +44,11 @@ Chapter 3 travels:
 
 **Caelora → Old City / Suppressed Archives → separate Cresthaven**
 
-The final S020→S021 handoff is explicit in the line-complete source: the post-Warden command-record room proves how the false order was assembled; Torren copies a map-like routing display; the party returns to Mirena; Mirena identifies the destination as **Cresthaven, an abandoned Crown outpost in Southhold**; and the next morning she is already there with workers/staff establishing it as a working headquarters while the investigation continues.
+The final S020→S021 handoff is explicit in both the line-complete source and validated Resource translation: the post-Warden command-record room proves how the false order was assembled; Torren copies a map-like routing display; the party returns to Mirena; Mirena identifies the destination as **Cresthaven, an abandoned Crown outpost in Southhold**; the party stops for the night; and the next morning Mirena is already there with workers/staff establishing it as a working headquarters while the investigation continues.
 
 Cresthaven is never the Warden chamber, a Suppressed Archive room, or a district inside Caelora.
+
+H01/H02/H03 retain their approved earlier story-eligibility points, but their runtime triggers also require actual Cresthaven access because their approved staging is at Cresthaven. H04 remains after S021 only.
 
 ## Affordable 2.5D baseline
 
@@ -52,7 +56,8 @@ Completed Chapters 0–3 passed the current feasibility baseline with no RED sce
 
 ## Next implementation / authoring frontiers
 
-- **Closed-chapter Resource conversion:** Chapter 3 — The Old City and Last Sentinel.
+- **Closed-chapter dialogue Resource conversion:** none for Chapters 0–3.
+- **Follow-on implementation:** world triggers, maps, presentation assets, encounter consumers, Cresthaven hub functionality, and other runtime consumers can now use the validated early-chapter Resource baseline.
 - **New exact scene authoring:** Chapter 4 — The Seventh Reaction.
 
-Resource conversion is implementation work on closed material, not a reason to rewrite those chapters.
+Validated Resource conversion is not permission to rewrite closed dialogue.
