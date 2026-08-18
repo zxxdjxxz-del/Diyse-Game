@@ -21,7 +21,8 @@ If a task conflicts with these files or with a newer explicit user instruction, 
 - Date: **August 18, 2026**.
 - Chapters **0, 1, 2, and 3 are COMPLETE/CLOSED** at story, dialogue, continuity, relationship, and affordable-2.5D production-authority level.
 - Chapter 0 exact Resource/cue wording remains the merged Resource set at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5` where compatible with later canon.
-- Chapters 1–3 now have line-complete approved repository scene sources under `docs/chapters/dialogue/`, but are **not yet fully converted/validated as production `.tres` Resources in this repository**. Translating them into the accepted schema is implementation work, not a dialogue rewrite.
+- **Chapter 1 has been converted into production `DiyseDialogueSceneDefinition` Resources under `game/content/dialogue/chapter_01/` and validated against the exact Audit79 Markdown source plus whole-chapter continuity/final-version locks.**
+- Chapters 2–3 have line-complete approved repository scene sources under `docs/chapters/dialogue/` but are not yet converted/validated as production `.tres` Resources. Translating them into the accepted schema is implementation work, not a dialogue rewrite.
 - Chapter 4 — **The Seventh Reaction** — is the next exact scene-level authoring frontier.
 - Step 7B.5 technical feasibility: COMPLETE / PASS on real Android hardware.
 - Step 7B.6 production authoring handoff: COMPLETE / PASS.
@@ -33,7 +34,8 @@ If a task conflicts with these files or with a newer explicit user instruction, 
 Do **not** repeatedly recover, re-author, or re-audit Chapters 0–3 as if their dialogue were missing.
 
 - Chapter 0: use the validated Resource set plus later compatibility overlays.
-- Chapters 1–3: use the exact line-complete scene files under `docs/chapters/dialogue/`, with the `CHAPTER_0X_COMPLETE.md` files as implementation lock/index documents.
+- Chapter 1: use the validated production Resource set under `game/content/dialogue/chapter_01/` together with the exact source under `docs/chapters/dialogue/chapter_01/`; the source-parity validator protects wording.
+- Chapters 2–3: use the exact line-complete scene files under `docs/chapters/dialogue/`, with the `CHAPTER_0X_COMPLETE.md` files as implementation lock/index documents until Resource conversion is complete.
 
 A bounded implementation correction may update IDs, Resource metadata, internal labels, cue support, or staging feasibility without reopening approved wording, scene purpose, protected beats, pair progression, geography, knowledge firewall, party-state changes, or outcomes.
 
@@ -61,16 +63,17 @@ Do not restore the discarded transition where the party already knew Cresthaven 
 
 ## Step 7C / dialogue workflow
 
-Use the chapter-level workflow proven by Chapter 0:
+Use the chapter-level workflow proven by Chapters 0–1:
 
 - one production branch/PR per chapter or comparable substantial narrative block;
 - review/checkpoint implementation against the already-approved scene authority;
 - one chapter tracker rather than a new issue/PR for every scene;
+- exact source-to-Resource parity where line-complete source exists;
 - scene-specific validation plus a whole-chapter continuity/repetition/voice/runtime pass;
 - full Godot and Android regression at the chapter checkpoint, or earlier only when engine/schema/platform behavior changes;
 - one authority/archive checkpoint after the chapter/substantial milestone is implemented.
 
-For Chapters 1–3, **do not seek new prose approval merely because Resource conversion is pending**. Translate the line-complete closed source.
+For Chapters 2–3, **do not seek new prose approval merely because Resource conversion is pending**. Translate the line-complete closed source. For Chapter 1, do not regenerate or rewrite the validated Resource text except through an explicit canon revision.
 
 ## Hard rules
 
@@ -116,6 +119,6 @@ If a scene requires unique animation only because prose describes many micro-act
 
 ## Accepted-proof regression rule
 
-Steps 7B.5 and 7B.6 are closed. Chapter 0's complete Resource/continuity gate is an accepted production regression baseline. Do not regress the proven exploration/dialogue/combat/Card/Prime/persistence architecture or production dialogue Resource contract merely because later chapters are more complex.
+Steps 7B.5 and 7B.6 are closed. Chapter 0's complete Resource/continuity gate remains an accepted production regression baseline. Chapter 1's exact source-parity + whole-chapter dialogue Resource gate is now an additional accepted content regression baseline. Do not regress the proven exploration/dialogue/combat/Card/Prime/persistence architecture or production dialogue Resource contract merely because later chapters are more complex.
 
 Temporary proof fixtures remain replaceable and non-canon.
