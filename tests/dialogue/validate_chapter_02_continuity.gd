@@ -60,15 +60,15 @@ func _validate_s013_archive() -> void:
 	var spoken := _spoken_text("S013")
 	for required in [
 		"Fair assumption.",
-		"I’m functional.",
-		"That wasn’t the question.",
+		"I'm functional.",
+		"That wasn't the question.",
 		"It was the answer I had.",
 		"These are transfers.",
 		"Thirty-one.",
 		"Thirty-one what?",
 		"People.",
 		"Recorded.",
-		"Meaning that’s what this record accounts for.",
+		"Meaning that's what this record accounts for.",
 		"Not everyone who came through.",
 		"Harth.",
 		"I know."
@@ -84,9 +84,9 @@ func _validate_s013_archive() -> void:
 func _validate_s014_prisoner_agency_and_address_breach() -> void:
 	var spoken := _spoken_text("S014")
 	for required in [
-		"I’m not touching anyone who doesn’t want me to.",
+		"I'm not touching anyone who doesn't want me to.",
 		"Can I look?",
-		"Don’t fucking twist it.",
+		"Don't fucking twist it.",
 		"May I?",
 		"Then later.",
 		"All right.",
@@ -97,7 +97,7 @@ func _validate_s014_prisoner_agency_and_address_breach() -> void:
 		"Dovaren.",
 		"Just Dovaren?",
 		"Currently.",
-		"Don’t open that gate and assume we’re ready.",
+		"Don't open that gate and assume we're ready.",
 		"We come back first."
 	]:
 		_expect(required in spoken, "S014 lost prisoner-agency/door-control line: %s" % required)
@@ -118,12 +118,12 @@ func _validate_s015_rhazek_limit() -> void:
 	var spoken := _spoken_text("S015")
 	for required in [
 		"I authorized it.",
-		"Wasn’t what I asked.",
+		"Wasn't what I asked.",
 		"Yes.",
 		"Then we have finished talking.",
-		"That’s deliberate.",
+		"That's deliberate.",
 		"You won access to it.",
-		"You don’t want to.",
+		"You don't want to.",
 		"Open it.",
 		"Gallery route opening.",
 		"Move."
@@ -227,7 +227,7 @@ func _validate_c07() -> void:
 	var cues := _all_cues_text("C07").to_lower()
 	_expect("uses one of the remaining coals to light it" in cues, "C07 blunt must be lit from existing coals")
 	_expect("no modern lighter" in cues, "C07 must retain explicit no-modern-lighter production lock")
-	_expect("no dream visualization" in cues, "C07 must not visualize dreams")
+	_expect("no dream flashback" in cues, "C07 must not visualize dreams")
 	_expect("nobody asks what another person dreamed about" in cues, "C07 must not force dream disclosure")
 
 func _validate_knowledge_and_relationship_firewalls() -> void:
