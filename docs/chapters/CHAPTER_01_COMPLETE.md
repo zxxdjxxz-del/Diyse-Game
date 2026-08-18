@@ -3,9 +3,9 @@
 **Whole-project authority:** Diyse Clean Active Complete Master Canon **v1.64 / Audit79**  
 **Chapter line-complete checkpoint:** **Audit79**  
 **Closed set:** S007–S011 + C03–C05  
-**Runtime status:** Story/dialogue/continuity/relationship/affordable-2.5D authority CLOSED; Godot Resource conversion/validation still pending.
+**Runtime status:** Story/dialogue/continuity/relationship/affordable-2.5D authority CLOSED; **production dialogue Resource conversion is COMPLETE and exact source-parity + whole-chapter continuity validated.**
 
-The exact approved Chapter 1 dialogue now lives in `docs/chapters/dialogue/chapter_01/`. Do not reconstruct the chapter from older summaries or recovered fragments when the line-complete scene source exists.
+The exact approved Chapter 1 dialogue lives in `docs/chapters/dialogue/chapter_01/`. Its production `DiyseDialogueSceneDefinition` Resource set lives in `game/content/dialogue/chapter_01/`. Do not reconstruct or rewrite the chapter from older summaries or recovered fragments.
 
 ## Controlling scene files
 
@@ -17,6 +17,24 @@ The exact approved Chapter 1 dialogue now lives in `docs/chapters/dialogue/chapt
 - [C03 — Torren's Version of Dinner](dialogue/chapter_01/C03.md)
 - [C04 — What the Map Says](dialogue/chapter_01/C04.md)
 - [C05 — Two Professionals Complaining About Cyanis](dialogue/chapter_01/C05.md)
+
+## Production Resource checkpoint
+
+Live Chapter 1 Resource set:
+- `game/content/dialogue/chapter_01/S007.tres`
+- `S008.tres`
+- `S009.tres`
+- `S010.tres`
+- `S011.tres`
+- `C03.tres`
+- `C04.tres`
+- `C05.tres`
+- `chapter_01_dialogue_registry.tres`
+
+Validation authority:
+- `tests/dialogue/validate_chapter_01_resources.gd` checks schema, metadata, expected beat counts, and **every spoken speaker/text pair against the controlling Markdown source in exact order**.
+- `tests/dialogue/validate_chapter_01_continuity.gd` checks party handoffs, optional-scene gates, knowledge firewall, C04 Audit79 final wording, C03 smoke/fire staging, and Torren/Maevra address progression.
+- These gates are part of the permanent Godot Smoke workflow.
 
 ## Hard continuity / implementation locks
 
@@ -45,6 +63,6 @@ C03, C04, and C05 unlock after S011 and are independently available.
 - Traversal spaces are moderate in size and support several likely random encounters where appropriate, with safe authored pockets suppressing interruption.
 - Prefer reusable environment kits, portraits, poses, prop states, lighting, simple route/door changes, and short authored buffers over bespoke cinematic animation.
 
-## Runtime conversion rule
+## Runtime rule going forward
 
-Convert these closed scenes into the existing stable-ID `DiyseDialogueSceneDefinition` Resource schema. Implementation may normalize IDs/cues/portrait references and make bounded technical staging adjustments, but it may not rewrite approved dialogue, move relationship milestones, leak future knowledge, change party-state transitions, or alter scene outcomes.
+The Chapter 1 Resource conversion is now an accepted implementation baseline. Future work may wire approved portrait assets, trigger/world-state consumers, encounter handoffs, and presentation executors, but it may not rewrite approved dialogue, move relationship milestones, leak future knowledge, change party-state transitions, or alter scene outcomes. Exact wording remains protected by the source-parity validator.
