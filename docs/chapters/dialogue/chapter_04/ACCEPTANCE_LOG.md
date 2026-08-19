@@ -329,20 +329,51 @@ All three are physically available for the Chapter 4 comparison. The first **two
 ### CH4-A020 — Torren smokes after dinner during the Chapter 4 Ivorybridge night
 
 **Date:** 2026-08-18  
-**Status:** LOCKED CHARACTER-LIFE / STAGING REQUIREMENT  
+**Status:** PLACEMENT SUPERSEDED BY CH4-A022  
 **Acceptance type:** Direct user correction
 
 **Controlling user wording:**
 
 > Torren should be smoking at some point after dinner
 
+**Historical interpretation:**
+
+- This entry correctly captured the required **after-dinner Torren smoking beat**, but incorrectly placed it in the Ivorybridge overnight state.
+- CH4-A022 supersedes that placement and moves the beat into the Chapter 4 camp scene.
+
+### CH4-A021 — S026 A Place Where Being Wrong Is Survivable accepted
+
+**Date:** 2026-08-18  
+**Status:** LOCKED / ACCEPTED SCENE  
+**Acceptance type:** Continuation acceptance — user replied “Let's continue” after the completed S026 pass
+
+**Accepted scope:**
+
+- S026 — **A Place Where Being Wrong Is Survivable** is accepted as presented.
+- The scene closes the mandatory Chapter 4 story in safe-state Ivorybridge/Cresthaven aftermath rather than adding another combat leg.
+- Vaelira is shown living with correction without humiliation: wrong material remains visible beside corrected work, she accepts uncertainty, and the party normalizes challenging one another without reducing competence to perfection.
+- Vaelira's permanent-party commitment remains intact.
+- H05 becomes eligible after S026; Chapter 4 still requires its optional-scene completion pass before the chapter is fully complete.
+- Exact accepted wording/staging from the presented S026 transcript controls and must be preserved in the source file before implementation.
+
+### CH4-A022 — Torren's after-dinner smoking beat belongs in the Chapter 4 camp scene
+
+**Date:** 2026-08-18  
+**Status:** LOCKED CHARACTER-LIFE / STAGING CORRECTION  
+**Acceptance type:** Direct user correction
+
+**Controlling user wording:**
+
+> No in the camp scene
+
 **Locked interpretation:**
 
-- Chapter 4 must include a visible Torren smoking beat **after dinner** during the Ivorybridge overnight period between S025 and the next-morning S026 material.
-- This is a normal established Torren habit, not a new plot point, mystery, or required emotional confession.
-- The smoking beat should fit naturally into the safe evening/free-roam or Character-Life staging and does **not** need to dominate a conversation merely because it is visible.
-- Preserve the existing no-modern-lighter presentation rule when staging how the blunt is lit; use a setting-appropriate existing flame/ember source rather than inventing a lighter.
-- Exact dialogue, exact Ivorybridge location, and whether the beat overlaps an optional-scene window remain working until the scene pass is finalized.
+- The required Torren smoking beat happens **in the Chapter 4 camp scene**, after dinner, not in the Ivorybridge overnight sequence between S025 and S026.
+- This supersedes only the incorrect location/timing context assigned in CH4-A020; the requirement that Torren visibly smoke after dinner remains active.
+- Stage it as an ordinary established habit rather than a plot point or emotional centerpiece.
+- Preserve the established no-modern-lighter rule. In camp staging, Torren should light the blunt from the existing fire/coals/ember source rather than use a lighter.
+- The smoking action may sit naturally in the background of conversation and does not need to be discussed merely because it is visible.
+- Exact dialogue around the beat remains working until the camp scene itself is drafted and accepted.
 
 ---
 
@@ -370,9 +401,9 @@ The assistant incorrectly promoted material that the user never accepted.
 
 ## WORKING / NOT YET ACCEPTED
 
-S026 — **A Place Where Being Wrong Is Survivable** is the current working scene frontier, with CH4-A020 requiring the Torren post-dinner smoking beat in the preceding Ivorybridge overnight state.
+Chapter 4 mandatory S022–S026 is accepted through CH4-A016–A019 and CH4-A021. The optional-scene completion pass is now the active frontier.
 
-S022, S023, S024, and S025 are accepted under CH4-A016–A019, subject to their later whole-chapter integration audit and any future explicit user corrections. Their exact accepted transcript wording/staging must be consolidated into their repository scene sources before Resource conversion.
+The Chapter 4 camp scene is the next relevant optional scene to draft, and CH4-A022 requires Torren's after-dinner smoking beat there. Other optional Chapter 4 scenes remain to be reviewed/accepted before whole-chapter integration and Resource conversion.
 
 ---
 
@@ -386,7 +417,8 @@ S022, S023, S024, and S025 are accepted under CH4-A016–A019, subject to their 
 | CH4-A004 | RETRACTED / INVALID PROMOTION | — |
 | CH4-A008 rough 2–3 random-encounter target | SUPERSEDED | CH4-A015 |
 | CH4-A013 open guarantee method | RESOLVED / FURTHER SPECIFIED | CH4-A014 |
+| CH4-A020 Ivorybridge-night placement | SUPERSEDED | CH4-A022 |
 
 ## Next acceptance number
 
-**CH4-A021**
+**CH4-A023**
