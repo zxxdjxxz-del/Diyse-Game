@@ -15,6 +15,14 @@ const FORBIDDEN_BRANCH_KEYS := ["choices", "responses", "branches", "dialogue_ch
 @export var trigger_id: String = ""
 @export var completion_flag: String = ""
 @export var participants: Array[String] = []
+
+# Audit88 presentation metadata is deliberately optional/backward-compatible.
+# It describes how a closed scene should be staged without changing its dialogue.
+@export var cutscene_tier: String = "C0"
+@export var vfx_tier: String = "V1"
+@export var presentation_tags: Array[String] = []
+@export var battle_background_family: String = ""
+
 @export_multiline var authoring_notes: String = ""
 @export var beats: Array[Dictionary] = []
 
@@ -30,6 +38,10 @@ func validate_schema(registry: DiyseDialoguePortraitRegistry = null) -> Array[St
 		failures.append("Unsupported scene_kind: %s" % scene_kind)
 	if completion_flag.is_empty():
 		failures.append("completion_flag is required")
+	if not DiyseHd2dRuntime.is_valid_cutscene_tier(cutscene_tier):
+		failures.append("Unsupported cutscene_tier: %s" % cutscene_tier)
+	if not DiyseHd2dRuntime.is_valid_vfx_tier(vfx_tier):
+		failures.append("Unsupported vfx_tier: %s" % vfx_tier)
 	if beats.is_empty():
 		failures.append("At least one beat is required")
 
@@ -65,6 +77,17 @@ func validate_schema(registry: DiyseDialoguePortraitRegistry = null) -> Array[St
 		if not (cues is Dictionary):
 			failures.append("%s cues must be a Dictionary" % prefix)
 	return failures
+
+func presentation_metadata() -> Dictionary:
+	return {
+		"scene_id": scene_id,
+		"chapter_id": chapter_id,
+		"location_id": location_id,
+		"cutscene_tier": cutscene_tier,
+		"vfx_tier": vfx_tier,
+		"presentation_tags": presentation_tags.duplicate(),
+		"battle_background_family": battle_background_family,
+	}
 
 func to_runner_beats(registry: DiyseDialoguePortraitRegistry) -> Array[Dictionary]:
 	var result: Array[Dictionary] = []
