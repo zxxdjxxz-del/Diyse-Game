@@ -16,17 +16,19 @@ The ledger distinguishes:
 - **LOCKED / ACCEPTED** — approved controlling material.
 - **SUPERSEDED** — previously accepted material replaced by a later explicit correction.
 - **WORKING / NOT YET ACCEPTED** — drafted material that must not be treated as canon merely because it exists.
+- **RETRACTED / INVALID PROMOTION** — material the assistant incorrectly promoted without actual user acceptance.
 
 ## Recording rules
 
 1. A direct user correction is immediately controlling and must be recorded as a LOCKED entry.
 2. An explicit acceptance is recorded as a LOCKED entry.
-3. When continuation clearly follows approval of the immediately preceding proposed block, record the accepted scope conservatively; do not silently promote unrelated material.
+3. When continuation clearly follows approval of the immediately preceding proposed scene, record the accepted scope conservatively; do not silently promote unrelated material.
 4. Exact dialogue wording must be copied verbatim when wording itself is accepted.
 5. Do not rewrite an accepted entry in place to hide history. Add a new entry and mark the old one SUPERSEDED when a later correction changes it.
 6. Working drafts remain non-canon until accepted.
-7. Before drafting the next Chapter 4 block, check this ledger and the current whole-project authority.
-8. **Before every dialogue pass/block, re-check the participating characters' current personality/voice anchors and relationship state/progression, plus the current scene's knowledge/state context.** Do not draft from generic archetypes or from remembered shorthand alone. Preserve the project's adult-natural dialogue standard and expressive 2D/2.5D JRPG/anime reaction language.
+7. Before drafting the next Chapter 4 scene, check this ledger and the current whole-project authority.
+8. **Before each scene, briefly re-check the participating characters' personalities/voice anchors and the relationship state relevant to that scene so the writing stays in character.** This is a scene-level guardrail, not a requirement to break scenes into tiny dialogue blocks.
+9. Preserve the established adult-natural dialogue style and expressive 2D/2.5D JRPG/anime reaction language without turning either into a rigid per-line checklist.
 
 ---
 
@@ -85,7 +87,7 @@ The ledger distinguishes:
 
 **Exact-wording rule:** The accepted wording/staging in `S022.md` B001–B011 is controlling and must not be rewritten unless explicitly reopened by the user.
 
-### CH4-A003 — Mandatory pre-pass personality / relationship / performance check
+### CH4-A005 — Scene-level personality/relationship check
 
 **Date:** 2026-08-18  
 **Status:** LOCKED  
@@ -93,51 +95,47 @@ The ledger distinguishes:
 
 **Controlling user wording:**
 
-> Male sure you check thier personalities, relationships before each pass too
+> I think I said that wrong I just meant before each scene we should check to make sure we are sticking we the characters personalities a little more. We can do it scene by scene to we don't have to do such small blocks
 
 **Locked workflow requirement:**
 
-Before **every** new Chapter 4 dialogue pass or review block:
+- Before drafting each **scene**, briefly review the personalities/voice anchors of the characters participating in that scene.
+- Check the relationship state that matters to those interactions so nobody jumps ahead in familiarity, intimacy, hostility, or trust.
+- Then draft the scene at a normal useful size. There is **no requirement** to split a scene into tiny blocks merely to perform this check.
+- Continue using the established adult-natural dialogue and expressive 2D/2.5D JRPG/anime reaction style.
+- Scene-level review is a consistency guardrail, not a rigid visible checklist that has to appear in the dialogue itself.
 
-- check the current personality/voice anchors for every participating character;
-- check the current relationship state and progression between the characters who interact in that block;
-- check what each character can plausibly know at that exact story point;
-- check the scene's emotional/danger state so humor does not continue through genuine danger incorrectly;
-- preserve adult, natural conversation rather than archetypal/expository dialogue;
-- preserve expressive anime/JRPG-style reactions through affordable 2D/2.5D portrait, pose, timing, camera, prop and silence language;
-- do not let a new character flatten or overwrite established pair dynamics simply to give them dialogue.
+**Supersedes:** CH4-A003's overly strict “before every pass/block” interpretation.
 
-Current repository dialogue authority explicitly supports this standard: `docs/DIALOGUE_RULES.md` defines grounded character-specific speech, expressive 2D/2.5D reaction energy, silence as participation, current voice anchors, and protected relationship progression through Chapter 3.
+---
 
-### CH4-A004 — S022_B012–B014 exact post-lunch / Annex-road continuation
+## SUPERSEDED / RETRACTED
 
-**Date:** 2026-08-18  
-**Status:** LOCKED  
-**Acceptance type:** Continuation acceptance — user said “Let's continue” after the B012–B014 review block and after confirming the mandatory pre-pass personality/relationship check.
+### CH4-A003 — Mandatory pre-pass personality / relationship / performance check
 
-**Accepted exact source:** `docs/chapters/dialogue/chapter_04/S022.md`, S022_B012 through S022_B014.
+**Status:** SUPERSEDED by CH4-A005.
 
-**Locked scope:**
+The earlier interpretation required a re-check before every small dialogue pass/block. The user clarified that the intended rule is **once per scene**, allowing normal-sized scene drafts.
 
-- Short post-lunch time cut; lunch itself does not become another full mandatory scene.
-- Vaelira joins the group at the route out of Ivorybridge with field bag, staff, and notes.
-- Vaelira/Torren/Nimera banter remains adult and immediate without pretending pre-existing intimacy.
-- Torren's road/terrain fixation remains active characterization.
-- Ilyra and Cyanis react as established companions rather than being forced into equal dialogue participation.
-- At the first old regulation marker, Vaelira shifts from playful conversation into focused field authority.
-- The party responds immediately to the danger-state change; humor pauses while the phenomenon occurs.
-- Vaelira predicts the six-count discharge correctly.
-- After the danger passes, ordinary banter resumes naturally.
-- Vaelira gives the precise cycle figure: **ten minutes, fifty-six seconds on average**.
-- Nimera/Torren's established friction and growing functional familiarity remain intact.
+### CH4-A004 — S022_B012–B014 promotion
 
-**Exact-wording rule:** The accepted wording/staging in `S022.md` B012–B014 is controlling and must not be rewritten unless explicitly reopened by the user.
+**Status:** RETRACTED / INVALID PROMOTION.
+
+The assistant incorrectly treated a prior “Let's continue” as acceptance of S022_B012–B014 even though that continuation request occurred **before** those beats were drafted. The user never accepted B012–B014.
+
+Consequences:
+
+- S022_B012–B014 are **not canon** and are not accepted Chapter 4 source.
+- `S022.md` has been restored to the actual accepted boundary: **S022_B001–B011 only**.
+- Future continuation resumes after B011 and may be drafted at normal scene-sized scope under CH4-A005.
 
 ---
 
 ## WORKING / NOT YET ACCEPTED
 
-No additional Chapter 4 material is currently accepted beyond CH4-A001 through CH4-A004. The next drafted continuation after S022_B014 remains working until the user accepts, corrects, or replaces it.
+No additional Chapter 4 material is currently accepted beyond CH4-A001, CH4-A002, and CH4-A005.
+
+The next Chapter 4 scene/continuation after S022_B011 remains working until the user accepts, corrects, or replaces it.
 
 ---
 
@@ -145,8 +143,9 @@ No additional Chapter 4 material is currently accepted beyond CH4-A001 through C
 
 | Entry | Status | Replaced by |
 |---|---|---|
-| None yet | — | — |
+| CH4-A003 | SUPERSEDED | CH4-A005 |
+| CH4-A004 | RETRACTED / INVALID PROMOTION | — |
 
 ## Next acceptance number
 
-**CH4-A005**
+**CH4-A006**
