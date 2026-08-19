@@ -184,6 +184,23 @@ All three are physically available for the Chapter 4 comparison. The first **two
 
 **Still OPEN for scene drafting/review:** exact den location on the Cresthaven grounds, exact Elder Briarhide move list/tuning, whether it is killed or driven away, exact mandatory Last Sentinel tutorial scripting, and exact post-manifestation dialogue/reactions.
 
+### CH4-A012 — Last Sentinel exact locked visual controls the S022 first manifestation
+
+**Date:** 2026-08-18  
+**Status:** LOCKED VISUAL / PRESENTATION REQUIREMENT  
+**Acceptance type:** Direct user correction
+
+**Controlling user wording:**
+
+> And now last sentinel has a locked visual
+
+**Locked interpretation:**
+
+- The first Last Sentinel manifestation during the Elder Briarhide encounter must use the **current exact locked Last Sentinel visual authority**.
+- S022 may author camera framing, timing, VFX support, party reaction shots, and affordable 2.5D staging around that visual, but it may **not redesign, approximate, simplify into a different creature/figure, recolor, substitute, or otherwise reinterpret Last Sentinel's approved appearance**.
+- The locked visual is now a production dependency for this authored battle and must be consulted when the scene is implemented.
+- The story knowledge boundary does not change: the party witnesses the manifestation here, but seeing its appearance does not grant them unrevealed Ancient/Prime lore beyond what the scene can legitimately establish.
+
 ---
 
 ## SUPERSEDED / RETRACTED
@@ -212,7 +229,7 @@ The assistant incorrectly promoted material that the user never accepted.
 
 S022 is currently **REOPENED / WORKING FROM SCRATCH**. No replacement S022 dialogue is accepted yet.
 
-The exact Elder Briarhide encounter mechanics, den location, outcome, Last Sentinel tutorial details, and aftermath dialogue remain working until approved.
+The exact Elder Briarhide encounter mechanics, den location, outcome, Last Sentinel tutorial details, and aftermath dialogue remain working until approved. The Last Sentinel appearance itself is **not** open and must use its locked visual authority.
 
 ---
 
@@ -227,4 +244,4 @@ The exact Elder Briarhide encounter mechanics, den location, outcome, Last Senti
 
 ## Next acceptance number
 
-**CH4-A012**
+**CH4-A013**
