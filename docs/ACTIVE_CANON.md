@@ -4,9 +4,10 @@ This is an implementation-facing summary. It does **not** replace the authoritat
 
 ## Current written authority
 
-- **Whole-project root:** Diyse Clean Active Complete Master Canon **v1.69 / Audit84** — Chapter 11 Forward Hub and Final Cleanup Window Authority Lock.
-- **Immediate inherited chain:** v1.68 / Audit83 — Major Hunt #1 Ashen Whitehorn Full Production Authority Lock; v1.67 / Audit82 — Regional Hunts #1–#3 Full Production Authority and Prime-Chronology Lock; v1.66 / Audit81 — Chapter 4 Full Production Dialogue, Character-Life, Crown Prototype Hunt, and Roster-State Lock.
+- **Whole-project root:** Diyse Clean Active Complete Master Canon **v1.70 / Audit85** — Yahtrea Exact World Map Visual and Spatial Authority Lock.
+- **Immediate inherited chain:** v1.69 / Audit84 — Chapter 11 Forward Hub and Final Cleanup Window Authority Lock; v1.68 / Audit83 — Major Hunt #1 Ashen Whitehorn Full Production Authority Lock; v1.67 / Audit82 — Regional Hunts #1–#3 Full Production Authority and Prime-Chronology Lock; v1.66 / Audit81 — Chapter 4 Full Production Dialogue, Character-Life, Crown Prototype Hunt, and Roster-State Lock.
 - **Date:** August 19, 2026.
+- **Exact Yahtrea world-map visual master:** user-approved `1000009900.png`, 1536 × 1151, SHA-256 `ce83951a238d9553eca5d7bab3a64ae5ed7224ddf5669169d1e1cf74281c6b75`. The image controls surface-world geography, marker placement, roads, rivers, terrain, labels, coastlines, relative spatial relationships, compass orientation, and map composition.
 - Chapters **0–4 are COMPLETE/CLOSED** at story/dialogue/continuity/relationship/affordable-2.5D production-authority level where exact production dialogue has been authored.
 - Chapter 5 — **The Mountain Engine** — is the next exact scene-level authoring frontier.
 - Completed early-chapter repository packages: `docs/chapters/`.
@@ -46,6 +47,18 @@ The Black Mountains lie west outside Yahtrea and are Black Host territory.
 `Heartlands`, `Crown Heartlands`, and `Crown Region` are not active formal Realm names.
 
 Broad campaign movement: **Edgelands → Southhold → Diysereach → Southhold → Black Mountains → Ancient subterranean Diyse**.
+
+### Exact world-map visual master
+
+The exact user-approved Yahtrea map supplied August 19, 2026 is the controlling **surface-world visual and spatial master**.
+
+- Exact source fingerprint: `1000009900.png`, **1536 × 1151**, SHA-256 `ce83951a238d9553eca5d7bab3a64ae5ed7224ddf5669169d1e1cf74281c6b75`.
+- Authority index: `docs/authority/YAHTREA_WORLD_MAP_EXACT_VISUAL_MASTER.md`.
+- Audit promotion: `docs/canon/AUDIT85_YAHTREA_EXACT_WORLD_MAP_VISUAL_AND_SPATIAL_AUTHORITY_LOCK.md`.
+- Preserve every visible region shape, mountain mass, coastline, river/watercourse, road, terrain transition, named marker position, label placement, relative spatial relationship, compass direction, legend symbol, and overall clean 3D-rendered composition exactly as shown unless the user explicitly approves a later change.
+- The image itself controls. Text descriptions are secondary indexing aids only.
+- Any older text-only coordinate, placement, relative-position, road-network, river-network, terrain-shape, or geography description that conflicts with the exact approved image is superseded by Audit85.
+- Do not regenerate, reinterpret, simplify, move, relabel, add, remove, or reconnect surface-map geography during unrelated work.
 
 ### Chapter 3 geography hard lock
 
