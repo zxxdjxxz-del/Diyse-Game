@@ -36,7 +36,7 @@ The ledger distinguishes:
 ### CH4-A001 — Three-map order and Ivorybridge destination
 
 **Date:** 2026-08-18  
-**Status:** LOCKED  
+**Status:** LOCKED, with map-1 provenance clarified by CH4-A009  
 **Acceptance type:** Direct user correction
 
 **Controlling user wording:**
@@ -48,9 +48,9 @@ The ledger distinguishes:
 - The party does **not** begin Chapter 4 already knowing that Ivorybridge is the next destination.
 - The three-map comparison happens **before** the decision to travel to Ivorybridge.
 - In the three-map comparison set:
-  - **Map 2** is the map found at the **Wayfinder** in Chapter 1.
+  - **Map 1** is a Chapter 1 map; CH4-A009 identifies it specifically as the **Hollow Watch rubbing**.
+  - **Map 2** is the map/copy from the **Wayfinder** in Chapter 1.
   - **Map 3** is the map from the **post-Warden room** in Chapter 3, preserved through Torren's quick field copy/sketch.
-- The Wayfinder map was the **first map the party found chronologically**; this entry does not redefine the provenance of Map 1 in the three-map comparison set.
 - Only after studying all three maps together does the party identify **Ivorybridge** as the next stop.
 - Therefore the Chapter 4 travel lead comes from the party's own three-map investigation rather than from arriving in Ivorybridge first and solving the relationship afterward.
 
@@ -123,6 +123,31 @@ Before drafting each Chapter 4 scene, also verify story/continuity, knowledge fi
 - The known Chapter 4 pacing authority remains relevant: Ivorybridge proper is safe from random encounters; the Sixfold Annex approach supports roughly 2–3 ordinary random encounters; Vaelira's competence/model must be demonstrated before its limits are exposed.
 - No replacement S022 wording becomes canon until the user accepts it.
 
+### CH4-A009 — First map is the Hollow Watch rubbing from Chapter 1
+
+**Date:** 2026-08-18  
+**Status:** LOCKED  
+**Acceptance type:** Direct user correction, verified against locked Chapter 1 source
+
+**Controlling user wording:**
+
+> The first map was in chapter 1
+
+**Verified Chapter 1 provenance:**
+
+- In locked **S011 — Wayfinder Junction / Six Ways Through**, Maevra removes **the rubbing recovered from Hollow Watch** and places it beside the exposed Wayfinder map. The Hollow Watch route geometry continues cleanly into the Wayfinder.
+- Later in S011 the party makes practical physical copies of the Wayfinder's recognizable geography, southeast route, Face-notation sections, broken edge, and old water/cistern branch, and those copies explicitly persist for later use.
+
+**Therefore the controlling three-map set entering Chapter 4 is:**
+
+1. **Map 1 — Hollow Watch rubbing**, recovered in Chapter 1 before/at the Wayfinder comparison.
+2. **Map 2 — Wayfinder map/copy**, documented in Chapter 1 at Wayfinder Junction.
+3. **Map 3 — post-Warden routing map**, copied/sketched by Torren in Chapter 3.
+
+All three are physically available for the Chapter 4 comparison. The first **two** originate in Chapter 1; the third originates in Chapter 3.
+
+**Correction to CH4-A001:** The earlier sentence implying the Wayfinder map was the first map found chronologically is invalid and is superseded by this entry. The rest of CH4-A001 remains active.
+
 ---
 
 ## SUPERSEDED / RETRACTED
@@ -157,10 +182,11 @@ S022 is currently **REOPENED / WORKING FROM SCRATCH**. No replacement S022 dialo
 
 | Entry | Status | Replaced by |
 |---|---|---|
+| CH4-A001 sentence: “Wayfinder map was the first map found chronologically” | SUPERSEDED | CH4-A009 |
 | CH4-A002 | SUPERSEDED | CH4-A008 |
 | CH4-A003 | SUPERSEDED | CH4-A005 |
 | CH4-A004 | RETRACTED / INVALID PROMOTION | — |
 
 ## Next acceptance number
 
-**CH4-A009**
+**CH4-A010**
