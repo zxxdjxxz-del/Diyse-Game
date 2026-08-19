@@ -4,15 +4,17 @@
 
 **COMPLETE — PASS on real Android hardware.**
 
-Step 7B.5 is a historical implementation-acceptance record proving that the Diyse architecture can support the intended production game. It is **not** current whole-project canon and does not override later story/system corrections.
+Step 7B.5 is a historical implementation-acceptance record proving that the Diyse architecture can support the intended production game. It is **not** current whole-project canon and does not override later story/system/presentation corrections.
 
-Current written authority is **Diyse Clean Active Complete Master Canon v1.64 / Audit79** plus newer explicit user corrections. Current implementation-facing guardrails are `AGENTS.md`, `docs/ACTIVE_CANON.md`, and `docs/IMPLEMENTATION_STATUS.md`. This proof document controls only what was technically demonstrated by the accepted 7B.5/7B.6 implementation baseline.
+Current written authority is **Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.73 / Audit88** plus newer explicit user corrections. Current implementation-facing guardrails are `AGENTS.md`, `docs/ACTIVE_CANON.md`, `docs/PRESENTATION_RULES.md`, and `docs/IMPLEMENTATION_STATUS.md`. This proof document controls only what was technically demonstrated by the accepted 7B.5/7B.6 implementation baseline.
+
+**Critical presentation interpretation:** the proof's historical 2.5D/real-3D field configuration is evidence that the engine/runtime could support exploration, collision, camera, depth, Android input, dialogue/combat transitions and replaceable assets. It is **not** active art direction. Audit87/Audit88 supersede those dimensional presentation assumptions with the current HD-2D production grammar.
 
 **Accepted pre-documentation gameplay baseline:** `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`
 
-## 7B.5A — clean 2.5D exploration baseline — PASS
+## 7B.5A — historical exploration baseline — PASS
 
-Proven: clean Godot/GDScript implementation independent of the old prototype; real 3D ground/space, lighting and depth; world-space stylized 2D/2.5D character representation; camera/collision; obstacle/depth presentation; reusable field architecture. Graybox field and placeholder character art are non-canon fixtures.
+Proven: clean Godot/GDScript implementation independent of the old prototype; world-space exploration, camera/collision, obstacle/depth handling, reusable field architecture and replaceable placeholder assets. The historical proof used real 3D ground/space and world-space stylized 2D/2.5D character representation; those specific visual choices are superseded by Audit87/Audit88 HD-2D authority and must not be treated as current final presentation requirements.
 
 ## 7B.5B — touch + Android field proof — PASS
 
@@ -42,7 +44,7 @@ The technical proof used an earlier representative Cyanis Prime fixture whose in
 
 What 7B.5F actually proved was the architecture: bearer lock, Card-action selection, successful-use spending, pending state, completion of already-locked ordinary actions before replacement, party suspension, direct Prime control, Prime-only commands, hostile targeting of the Prime, one selected command per Prime round, frozen party state, normal return, and same-battle use consumption.
 
-The historical proof's exact manifestation duration and temporary flat damage/effects were proof fixtures. They do **not** set current Prime fine-grain canon, which remains controlled by v1.64/Audit79 and its OPEN/DEFERRED register.
+The historical proof's exact manifestation duration and temporary flat damage/effects were proof fixtures. They do **not** set current Prime fine-grain canon. Audit88 now additionally controls the presentation pipeline: command accepted → authored battlefield camera/light yield → exact Prime manifestation → legal action → impact → dismissal → return to normal battle presentation.
 
 ## 7B.5G — versioned save/load persistence — PASS
 
@@ -67,7 +69,7 @@ The Chapter 0 merge did not replace or weaken the accepted Step 7B.5 architectur
 
 ## Chapters 1–3 production-dialogue follow-on — PASS / MERGED
 
-The production dialogue architecture has now been exercised through all completed early chapters:
+The production dialogue architecture has been exercised through the validated early chapter Resource conversions:
 
 - Chapter 1 — S007–S011 + C03–C05: exact source-parity + whole-chapter continuity validated and merged.
 - Chapter 2 — S012–S016 + C06/C07: exact source-parity + whole-chapter continuity validated and merged.
@@ -75,20 +77,30 @@ The production dialogue architecture has now been exercised through all complete
 
 These later chapter checkpoints extend the production-content regression baseline; they do not change what 7B.5 originally proved.
 
+## Chapter 4 and Audit88 authority context
+
+Chapter 4 is now COMPLETE/CLOSED in story/dialogue/gameplay authority under the inherited Audit81+ chain, with exact scene source under `docs/chapters/dialogue/chapter_04/` and production conversion/static validation present where currently implemented. Runtime smoke/in-engine completion remains separate implementation QA.
+
+Audit87 completed the HD-2D Production Grammar. Audit88 completed the Chapters 0–4 HD-2D Conversion Audit Pass 1 and cross-chapter consistency/cost-consolidation pass. These newer authority layers control **how** the proven runtime architecture should now present completed content.
+
+Detailed authority: `docs/production/HD2D_CHAPTERS_00_04_CONVERSION_AUDIT_PASS_1.md`.
+
 ## Regression baseline
 
-The automated tests accumulated through 7B.5 and 7B.6, together with the accepted Chapter 0–3 production-dialogue/resource/continuity validation, are project regression baselines. Future production should extend rather than bypass them unless newer approved authority intentionally changes tested behavior.
+The automated tests accumulated through 7B.5 and 7B.6, together with accepted Chapter 0–3 production-dialogue/resource/continuity validation, remain project regression baselines. Future production should extend rather than bypass them unless newer approved authority intentionally changes tested behavior.
 
 ## Explicit non-canon proof fixtures
 
 Passing the technical proof does not canonize graybox geometry, temporary obstacle/chest presentation, placeholder world sprites/portraits, disposable technical-proof dialogue, Raider proof enemies/stats, `Proof Strike`, old internal First Champion naming, historical proof-only Prime duration/effect values, temporary flat damage/rewards, proof chest XP/gold, temporary debug/button UI, or other proof-only fixtures.
 
+It also does not canonize the historical proof's old 2.5D/real-3D visual target.
+
 ## Remaining normal production scope
 
-Normal production still includes final maps/art/animation/portraits, final UI/audio/cinematics/performance, world triggers, encounter consumers, Cresthaven services, broader Android device/performance/lifecycle testing, release signing/build hardening/store packaging, and mid-combat serialization only if later required.
+Normal production still includes final HD-2D maps/environment art, ~80 px field animation, ~200 px battle animation, final portraits, battle backgrounds, VFX, final UI/audio/cinematics/performance, world triggers, encounter consumers, Cresthaven services/states, broader Android device/performance/lifecycle testing, release signing/build hardening/store packaging, and mid-combat serialization only if later required.
 
-Chapters 0–3 have no remaining dialogue-Resource conversion backlog. New exact scene authoring proceeds at **Chapter 4 — The Seventh Reaction** under v1.64 / Audit79 unless explicitly reopened.
+Chapters 0–4 have no remaining story/dialogue authoring backlog. Their HD-2D conversion authority is closed under Audit88.
 
 ## Production handoff
 
-Steps 7B.5 and 7B.6 are closed technical baselines. Chapters 0–3 are closed dialogue/canon production blocks with validated Resource implementations. **The next exact scene-level authoring frontier is Chapter 4 — The Seventh Reaction.**
+Steps 7B.5 and 7B.6 are closed technical baselines. Chapters 0–4 are closed story/dialogue/gameplay blocks, and Audit88 controls their HD-2D presentation implementation. **The next inherited exact scene-production / HD-2D production-audit frontier is Chapter 5 — The Mountain Engine**, unless the user explicitly redirects work.
