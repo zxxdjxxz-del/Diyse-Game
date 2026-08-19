@@ -88,6 +88,10 @@ Traditional random encounters remain Diyse's ordinary hostile-exploration layer 
 
 - Build **real traversal space between dialogue beats** when the route/location is hostile or unsecured.
 - Random-battle areas should be long enough to breathe and support exploration/combat, but should not become huge empty zones merely to add encounter time.
+- **Do not pre-author a fixed or approximate number of random battles for an area.** Encounter quantity must emerge from the actual playable space and the player's movement through it.
+- Determine encounter density from the finalized/working area size, traversable route length, optional branches and reward pockets, exploration and backtracking opportunities, safe/story pockets, encounter-trigger/rate implementation, and player route choice.
+- A player who explores more ground may naturally see more encounters than a player who takes a direct route. The scene script should describe where encounters are enabled/suppressed and how much playable space exists, not promise a number such as “roughly 2–3 battles.”
+- If testing or balancing later needs an expected encounter range, derive it from the implemented traversal geometry and encounter rate rather than choosing the range first and stretching/shrinking the area to meet it.
 - Use chapter-appropriate enemy variety and avoid making every encounter group identical.
 - Safe settlements, secured hubs, immediate story pockets, delicate NPC sequences, and other authored safe states may suppress random encounters.
 - A safe/story pocket suppresses encounter triggering locally; it does not require pretending the surrounding hostile area has become safe.
