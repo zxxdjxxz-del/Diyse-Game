@@ -26,6 +26,7 @@ The ledger distinguishes:
 5. Do not rewrite an accepted entry in place to hide history. Add a new entry and mark the old one SUPERSEDED when a later correction changes it.
 6. Working drafts remain non-canon until accepted.
 7. Before drafting the next Chapter 4 block, check this ledger and the current whole-project authority.
+8. **Before every dialogue pass/block, re-check the participating characters' current personality/voice anchors and relationship state/progression, plus the current scene's knowledge/state context.** Do not draft from generic archetypes or from remembered shorthand alone. Preserve the project's adult-natural dialogue standard and expressive 2D/2.5D JRPG/anime reaction language.
 
 ---
 
@@ -84,11 +85,35 @@ The ledger distinguishes:
 
 **Exact-wording rule:** The accepted wording/staging in `S022.md` B001–B011 is controlling and must not be rewritten unless explicitly reopened by the user.
 
+### CH4-A003 — Mandatory pre-pass personality / relationship / performance check
+
+**Date:** 2026-08-18  
+**Status:** LOCKED  
+**Acceptance type:** Direct user workflow correction
+
+**Controlling user wording:**
+
+> Male sure you check thier personalities, relationships before each pass too
+
+**Locked workflow requirement:**
+
+Before **every** new Chapter 4 dialogue pass or review block:
+
+- check the current personality/voice anchors for every participating character;
+- check the current relationship state and progression between the characters who interact in that block;
+- check what each character can plausibly know at that exact story point;
+- check the scene's emotional/danger state so humor does not continue through genuine danger incorrectly;
+- preserve adult, natural conversation rather than archetypal/expository dialogue;
+- preserve expressive anime/JRPG-style reactions through affordable 2D/2.5D portrait, pose, timing, camera, prop and silence language;
+- do not let a new character flatten or overwrite established pair dynamics simply to give them dialogue.
+
+Current repository dialogue authority explicitly supports this standard: `docs/DIALOGUE_RULES.md` defines grounded character-specific speech, expressive 2D/2.5D reaction energy, silence as participation, current voice anchors, and protected relationship progression through Chapter 3.
+
 ---
 
 ## WORKING / NOT YET ACCEPTED
 
-No additional Chapter 4 material is currently accepted beyond CH4-A001 and CH4-A002. The next drafted continuation after S022_B011 remains working until the user accepts it.
+No additional Chapter 4 material is currently accepted beyond CH4-A001 through CH4-A003. The drafted S022_B012–B014 continuation remains **WORKING / NOT YET ACCEPTED** until the user accepts, corrects, or replaces it.
 
 ---
 
@@ -100,4 +125,4 @@ No additional Chapter 4 material is currently accepted beyond CH4-A001 and CH4-A
 
 ## Next acceptance number
 
-**CH4-A003**
+**CH4-A004**
