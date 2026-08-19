@@ -4,6 +4,14 @@
 
 This is the required working template for full Dialogue-First Scene Writing.
 
+## Whole-game scene-authoring gate
+
+Before drafting any new scene, read and apply `docs/SCENE_AUTHORING_STANDARD.md`.
+
+That standard is mandatory for all remaining game authoring from Chapter 4 forward. It requires a scene-level check of story/continuity, knowledge firewall, personalities/voices, relationship state, adult-natural dialogue, expressive JRPG/anime reaction language, affordable 2.5D staging, gameplay breathing room, random-battle spacing where fiction supports it, encounter/Hunt/boss constraints where relevant, and the scene's handoff into the next playable state.
+
+The check is **scene-level**. Draft/review scenes at a normal useful size; do not fragment scenes into tiny blocks merely to perform the check.
+
 ## Scene header
 
 - **Scene ID:** `<authoritative ID>`
@@ -63,6 +71,15 @@ Do not narrate an expression in text merely because the portrait/staging can sho
 - Is important eloquence earned rather than constant?
 - Does wartime pressure remain present without making every conversation about the war?
 
+### Gameplay spacing
+
+- Does the player regain control between major dialogue beats when the fiction supports it?
+- Is there enough traversal/exploration room that the game does not become back-to-back conversations?
+- Are random battles enabled in hostile/unsecured traversal spaces where appropriate, with safe/story pockets suppressing encounters only where authored?
+- Are random-battle areas long enough to breathe without becoming oversized empty zones?
+- Is encounter variety appropriate to the chapter/location?
+- Are authored encounters, bosses, Hunts, and random battles kept distinct?
+
 ### Portrait/performance
 
 - Does each portrait/expression ID exist in the active registry?
@@ -70,6 +87,12 @@ Do not narrate an expression in text merely because the portrait/staging can sho
 - Are silent reaction beats genuinely silent?
 - Are active-side changes intentional?
 - Are camera/staging cues instructions rather than prose pretending to be dialogue?
+
+### Affordable 2.5D
+
+- Can the scene be staged with reusable poses, portraits, props, camera inserts, lighting/VFX, small sprite shifts, and authored environment states?
+- Can destruction/water/crowds/machinery be communicated through prepared states rather than physics, fluid simulation, crowd AI, or bespoke cinematic animation?
+- Are micro-actions simplified when the same meaning can be carried by portrait/performance timing or an interaction pose?
 
 ### No-choice continuity
 
@@ -97,11 +120,12 @@ Do not narrate an expression in text merely because the portrait/staging can sho
 A Step 7C scene is complete only when:
 
 1. dialogue and performance are approved for canon/voice;
-2. Resource data passes schema validation;
-3. every referenced ID/expression/flag is valid or explicitly registered as a known production dependency;
-4. generic engine code required no character-specific dialogue hack;
-5. the scene introduces no player dialogue-choice architecture;
-6. implementation notes distinguish current supported cues from later presentation polish;
-7. completion is recorded without silently rewriting controlling authority.
+2. the scene passes the whole-game scene-authoring standard, including gameplay spacing/random-battle/2.5D checks where relevant;
+3. Resource data passes schema validation;
+4. every referenced ID/expression/flag is valid or explicitly registered as a known production dependency;
+5. generic engine code required no character-specific dialogue hack;
+6. the scene introduces no player dialogue-choice architecture;
+7. implementation notes distinguish current supported cues from later presentation polish;
+8. completion is recorded without silently rewriting controlling authority.
 
 Authorization to begin Step 7C does not itself approve an individual draft. Keep scene branches/drafts provisional until their review and validation are complete.
