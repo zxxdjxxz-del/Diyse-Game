@@ -263,6 +263,52 @@ All three are physically available for the Chapter 4 comparison. The first **two
 - This supersedes the former CH4-A008 clause assigning the Sixfold Annex approach a rough **2–3 encounter** target and supersedes any working S022 wording that repeats that approximation.
 - This clarification is also added to the permanent whole-game `docs/SCENE_AUTHORING_STANDARD.md`; it applies to future chapters and any earlier scene explicitly reopened under the standard. It does not by itself reopen completed Chapters 0–3.
 
+### CH4-A016 — Replacement S022 accepted after area-driven traversal correction
+
+**Date:** 2026-08-18  
+**Status:** LOCKED / ACCEPTED SCENE  
+**Acceptance type:** Continuation acceptance — user replied “Let's continue” after the completed corrected S022 pass
+
+**Accepted scope:**
+
+- S022 — **Brilliant Answer** is accepted in its latest corrected form as presented in the Chapter 4 authoring conversation.
+- The accepted scene includes the three-map Cresthaven opening, the Elder Briarhide territorial return, the four-round Last Sentinel onboarding structure from CH4-A014, the post-battle first-Prime reactions, Ivorybridge arrival, Vaelira introduction and demonstrated competence, permanent join, and the area-driven Sixfold Annex approach ending with an out-of-loop response.
+- Any earlier S022 wording that conflicts with CH4-A009–A015 remains superseded and is not revived by this acceptance.
+- Encounter quantity on the Sixfold Annex approach remains emergent from implemented area geometry/exploration under CH4-A015.
+- Exact accepted scene wording/staging from the latest corrected transcript is controlling and must be consolidated into `S022.md` before Resource conversion.
+
+### CH4-A017 — S023 Cost Outside Equation accepted
+
+**Date:** 2026-08-18  
+**Status:** LOCKED / ACCEPTED SCENE  
+**Acceptance type:** Continuation acceptance — user replied “Let's continue” after the completed S023 pass
+
+**Accepted scope:**
+
+- S023 — **Cost Outside Equation** is accepted as presented.
+- It preserves Vaelira's competence: the six-channel model remains correct inside what it measures, while return variance reveals transferred cost outside the model boundary.
+- The lower experimental galleries are real encounter-enabled exploration space; academy staff are not random disposable enemies; encounter quantity remains area/exploration driven.
+- The mandatory **Elemental Hexarch** encounter is a one-HP-bar, nonlethal stabilization of a harmed researcher, followed by medical handoff and the realization that individually safe exposures were dangerous in combination.
+- The scene ends with the party descending toward the Regulation Core without yet naming or fully solving the Seventh Reaction.
+- Exact accepted wording/staging from the presented S023 transcript controls and must be preserved in the source file before implementation.
+
+### CH4-A018 — S024 Seventh Reaction accepted
+
+**Date:** 2026-08-18  
+**Status:** LOCKED / ACCEPTED SCENE  
+**Acceptance type:** Continuation acceptance — user replied “Let's continue” after the completed S024 pass
+
+**Accepted scope:**
+
+- S024 — **Seventh Reaction** is accepted as presented.
+- The term **Seventh Reaction** is earned here and means an emergent whole-system consequence of the balanced six-element regulation system; it is **not a seventh element**.
+- Vaelira's model remains genuinely predictive within its chosen boundary; successful regulation repeatedly transferred unmeasured cost outside that boundary.
+- Regulation Core exploration uses actual area geometry and optional routes to determine random-battle exposure rather than a preset battle count.
+- The mandatory **Sixfold Crucible** uses a genuine two-form boss architecture: Divided Sixfold Crucible first, then a fresh-health Unified Elemental Body whose inherited traits depend on which Form-I chambers survived.
+- No boss-form transition refreshes Prime availability.
+- The post-boss dialogue establishes responsibility without reducing the situation to “Vaelira was stupid,” and hands off directly into S025's accountability work.
+- Exact accepted wording/staging from the presented S024 transcript controls and must be preserved in the source file before implementation.
+
 ---
 
 ## SUPERSEDED / RETRACTED
@@ -289,9 +335,9 @@ The assistant incorrectly promoted material that the user never accepted.
 
 ## WORKING / NOT YET ACCEPTED
 
-S022 is currently **REOPENED / WORKING FROM SCRATCH**. No replacement S022 dialogue is accepted yet.
+S025 — **Responsibility Without Humiliation** is the current working scene frontier.
 
-The Elder Briarhide species/territorial premise, one-HP-bar/no-transformation structure, exact Last Sentinel visual, four-round onboarding flow, and area-driven random-encounter rule are locked. Exact Elder Briarhide stats/move tuning, exact round-four UI presentation, den placement, post-battle dialogue, Sixfold Annex approach map size/layout, and final encounter density remain working until approved/implemented at the appropriate pass.
+S022, S023, and S024 are accepted under CH4-A016–A018, subject to their later whole-chapter integration audit and any future explicit user corrections. Their exact accepted transcript wording/staging must be consolidated into their repository scene sources before Resource conversion.
 
 ---
 
@@ -308,4 +354,4 @@ The Elder Briarhide species/territorial premise, one-HP-bar/no-transformation st
 
 ## Next acceptance number
 
-**CH4-A016**
+**CH4-A019**
