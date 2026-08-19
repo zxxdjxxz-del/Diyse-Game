@@ -201,6 +201,27 @@ All three are physically available for the Chapter 4 comparison. The first **two
 - The locked visual is now a production dependency for this authored battle and must be consulted when the scene is implemented.
 - The story knowledge boundary does not change: the party witnesses the manifestation here, but seeing its appearance does not grant them unrevealed Ancient/Prime lore beyond what the scene can legitimately establish.
 
+### CH4-A013 — Elder Briarhide fight must use Diyse's normal battle loop
+
+**Date:** 2026-08-18  
+**Status:** LOCKED COMBAT-PRESENTATION CORRECTION  
+**Acceptance type:** Direct user correction
+
+**Controlling user wording:**
+
+> I like it but that's not how battles work in this game
+
+**Locked correction:**
+
+- The prior working S022 draft's scripted mid-battle threshold, cinematic enemy charge setup, dialogue interruption, Card-command highlight, and story-forced Prime finisher are **not** the correct battle grammar for Diyse and are discarded.
+- The Elder Briarhide encounter must run through Diyse's established **traditional discrete-round combat system** from start to finish: enemy action locks from the legitimate beginning-of-round state; the player selects one action for every conscious active party member; then actions resolve through the normal Item/Defend/Speed ordering.
+- Cyanis activates Last Sentinel only through the normal **Card** command as his selected action. Recovered Last Sentinel performs **one strong Prime action in that ordinary round and dismisses in the same round**. Already-selected actions by the other party members and the Elder Briarhide are not erased merely because the Prime manifests.
+- Do not pause at an authored HP threshold to inject story dialogue or change command legality. Do not make the Prime automatically end the battle. After the Recovered Prime action resolves, the encounter continues under the normal battle loop until its legitimate encounter-end condition is reached.
+- The Elder Briarhide remains one HP bar / no transformation unless later changed.
+- If the story outcome is that the Elder Briarhide survives and retreats, that outcome should be attached to the legitimate end-of-battle result rather than achieved by replacing the combat resolver with a cinematic interruption.
+- The exact method used to **guarantee** the first Last Sentinel manifestation for story continuity is still OPEN and must itself respect the normal battle loop; no solution is approved merely because it guarantees the cutscene.
+- The rest of the replacement S022 pass remains WORKING. The user's “I like it” is not treated as blanket acceptance of all exact dialogue/staging while this combat correction is unresolved.
+
 ---
 
 ## SUPERSEDED / RETRACTED
@@ -229,7 +250,7 @@ The assistant incorrectly promoted material that the user never accepted.
 
 S022 is currently **REOPENED / WORKING FROM SCRATCH**. No replacement S022 dialogue is accepted yet.
 
-The exact Elder Briarhide encounter mechanics, den location, outcome, Last Sentinel tutorial details, and aftermath dialogue remain working until approved. The Last Sentinel appearance itself is **not** open and must use its locked visual authority.
+The exact Elder Briarhide encounter mechanics, den location, outcome, battle-valid Last Sentinel onboarding/guarantee, and aftermath dialogue remain working until approved. The Last Sentinel appearance itself is **not** open and must use its locked visual authority.
 
 ---
 
@@ -244,4 +265,4 @@ The exact Elder Briarhide encounter mechanics, den location, outcome, Last Senti
 
 ## Next acceptance number
 
-**CH4-A013**
+**CH4-A014**
