@@ -309,6 +309,23 @@ All three are physically available for the Chapter 4 comparison. The first **two
 - The post-boss dialogue establishes responsibility without reducing the situation to “Vaelira was stupid,” and hands off directly into S025's accountability work.
 - Exact accepted wording/staging from the presented S024 transcript controls and must be preserved in the source file before implementation.
 
+### CH4-A019 — S025 Responsibility Without Humiliation accepted
+
+**Date:** 2026-08-18  
+**Status:** LOCKED / ACCEPTED SCENE  
+**Acceptance type:** Continuation acceptance — user replied “Let's continue” after the completed S025 pass
+
+**Accepted scope:**
+
+- S025 — **Responsibility Without Humiliation** is accepted as presented.
+- Vaelira explicitly owns her boundary-design error without accepting blame for every institutional decision that followed from it.
+- Annex leadership and researchers identify their own approval, logging, classification, exposure-scheduling, and procedural responsibilities rather than using Vaelira as a single scapegoat.
+- Concrete safeguards change: exposure work pauses, multi-channel interactions must be checked, spill galleries remain controlled, return variance becomes a primary measurement, and model review cannot rely only on the same boundary assumptions.
+- The harmed researcher retains agency and dignity; recovery comes before reports/interviews and they are not reduced to evidence for Vaelira's growth.
+- Cyanis does not absolve Vaelira or give a speech; he recognizes that she named what was hers and did not take what was not.
+- The Annex remains safe while the route outside can retain its normal encounter state according to area fiction and CH4-A015.
+- Exact accepted wording/staging from the presented S025 transcript controls and must be preserved in the source file before implementation.
+
 ---
 
 ## SUPERSEDED / RETRACTED
@@ -335,9 +352,9 @@ The assistant incorrectly promoted material that the user never accepted.
 
 ## WORKING / NOT YET ACCEPTED
 
-S025 — **Responsibility Without Humiliation** is the current working scene frontier.
+S026 — **A Place Where Being Wrong Is Survivable** is the current working scene frontier.
 
-S022, S023, and S024 are accepted under CH4-A016–A018, subject to their later whole-chapter integration audit and any future explicit user corrections. Their exact accepted transcript wording/staging must be consolidated into their repository scene sources before Resource conversion.
+S022, S023, S024, and S025 are accepted under CH4-A016–A019, subject to their later whole-chapter integration audit and any future explicit user corrections. Their exact accepted transcript wording/staging must be consolidated into their repository scene sources before Resource conversion.
 
 ---
 
@@ -354,4 +371,4 @@ S022, S023, and S024 are accepted under CH4-A016–A018, subject to their later 
 
 ## Next acceptance number
 
-**CH4-A019**
+**CH4-A020**
