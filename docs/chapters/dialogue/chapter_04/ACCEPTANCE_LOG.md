@@ -109,11 +109,35 @@ Before **every** new Chapter 4 dialogue pass or review block:
 
 Current repository dialogue authority explicitly supports this standard: `docs/DIALOGUE_RULES.md` defines grounded character-specific speech, expressive 2D/2.5D reaction energy, silence as participation, current voice anchors, and protected relationship progression through Chapter 3.
 
+### CH4-A004 — S022_B012–B014 exact post-lunch / Annex-road continuation
+
+**Date:** 2026-08-18  
+**Status:** LOCKED  
+**Acceptance type:** Continuation acceptance — user said “Let's continue” after the B012–B014 review block and after confirming the mandatory pre-pass personality/relationship check.
+
+**Accepted exact source:** `docs/chapters/dialogue/chapter_04/S022.md`, S022_B012 through S022_B014.
+
+**Locked scope:**
+
+- Short post-lunch time cut; lunch itself does not become another full mandatory scene.
+- Vaelira joins the group at the route out of Ivorybridge with field bag, staff, and notes.
+- Vaelira/Torren/Nimera banter remains adult and immediate without pretending pre-existing intimacy.
+- Torren's road/terrain fixation remains active characterization.
+- Ilyra and Cyanis react as established companions rather than being forced into equal dialogue participation.
+- At the first old regulation marker, Vaelira shifts from playful conversation into focused field authority.
+- The party responds immediately to the danger-state change; humor pauses while the phenomenon occurs.
+- Vaelira predicts the six-count discharge correctly.
+- After the danger passes, ordinary banter resumes naturally.
+- Vaelira gives the precise cycle figure: **ten minutes, fifty-six seconds on average**.
+- Nimera/Torren's established friction and growing functional familiarity remain intact.
+
+**Exact-wording rule:** The accepted wording/staging in `S022.md` B012–B014 is controlling and must not be rewritten unless explicitly reopened by the user.
+
 ---
 
 ## WORKING / NOT YET ACCEPTED
 
-No additional Chapter 4 material is currently accepted beyond CH4-A001 through CH4-A003. The drafted S022_B012–B014 continuation remains **WORKING / NOT YET ACCEPTED** until the user accepts, corrects, or replaces it.
+No additional Chapter 4 material is currently accepted beyond CH4-A001 through CH4-A004. The next drafted continuation after S022_B014 remains working until the user accepts, corrects, or replaces it.
 
 ---
 
@@ -125,4 +149,4 @@ No additional Chapter 4 material is currently accepted beyond CH4-A001 through C
 
 ## Next acceptance number
 
-**CH4-A004**
+**CH4-A005**
