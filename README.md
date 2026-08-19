@@ -1,53 +1,126 @@
 # Diyse-Game
 
-Clean Godot production repository for **Diyse**, a 2.5D, party-based, command-driven turn-based JRPG targeting Android.
+Clean Godot production repository for **Diyse**, an **HD-2D**, party-based, command-driven turn-based JRPG targeting Android.
 
-This repository is the active implementation line. The older `zxxdjxxz-del/Diyse` repository is historical prototype reference only and is not a code source unless an explicit task authorizes a named reuse.
+This repository is the active implementation line. The older `zxxdjxxz-del/Diyse` repository is historical prototype reference only and is not a code source unless an explicit task authorizes named reuse.
 
 ## Current authority and phase
 
-- Written whole-project authority: **Diyse Clean Active Complete Master Canon v1.64 / Audit79** (August 18, 2026).
-- Chapters **0–3 are COMPLETE/CLOSED** at story, dialogue, continuity, relationship, and affordable-2.5D production-authority level.
-- Chapter 0 is complete/merged as validated Godot production Resources at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`, subject to later canon compatibility overlays.
-- **Chapter 1 has its full S007–S011 + C03–C05 production dialogue set converted into `DiyseDialogueSceneDefinition` Resources with exact source-parity and whole-chapter continuity validation.**
-- **Chapter 2 has its full S012–S016 + C06/C07 production dialogue set converted from the exact Audit78 source with exact source-parity and whole-chapter continuity validation.**
-- **Chapter 3 has its full corrected S017–S021 + H01–H04 production dialogue set converted from the exact Audit77/v1.64 source with exact source-parity and whole-chapter continuity/Cresthaven validation.**
-- There is no remaining closed Chapter 0–3 dialogue-Resource conversion backlog.
-- Chapter 4 — **The Seventh Reaction** — is the next exact scene-level authoring frontier.
-- Completed Chapter 0–3 repository authority packages live in `docs/chapters/`; exact Chapters 1–3 scene wording lives in `docs/chapters/dialogue/`.
+- Written whole-project authority: **Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.73 / Audit88** (August 19, 2026).
+- Audit88: **Chapters 0–4 HD-2D Conversion and Cost-Consolidation Closure**.
+- Audit87 makes **HD-2D** the sole active presentation target; older active `2.5D` and `3D` presentation language is superseded.
+- Chapters **0–4 are COMPLETE/CLOSED** at story/dialogue/gameplay authority level and have passed HD-2D Conversion Audit Pass 1 plus cross-chapter consistency/cost consolidation.
+- Chapter 5 — **The Mountain Engine** — is the next inherited exact scene-production / HD-2D production-audit frontier unless the user explicitly redirects work.
+- Exact visual masters remain controlling over derivative HD-2D sprites/portraits/cut-ins.
+- The exact approved Yahtrea world map remains spatially authoritative and may not be reinterpreted by presentation conversion.
 
-**Step 7B.5 is COMPLETE / PASS on real Android hardware.** The clean Godot architecture proved 2.5D exploration, authored portrait dialogue, discrete-round combat, unlimited data-driven Standard Cards, direct-control Prime replacement, deterministic hostile retargeting, and versioned save/load persistence across app close/relaunch.
+Controlling repository authority:
 
-**Step 7B.6 is COMPLETE / PASS.** Production dialogue uses a stable-ID Resource contract, portrait-registry indirection, schema validation, generic Resource-to-DialogueRunner integration, and the Step 7C authoring template. Accepted 7B.6 implementation merge: `96c6bdc77f39c988f2185634b4e51546f2a0d76b`.
+- `docs/ACTIVE_CANON.md`
+- `docs/PRESENTATION_RULES.md`
+- `docs/canon/AUDIT88_CHAPTERS_00_04_HD2D_CONVERSION_AND_COST_CONSOLIDATION_CLOSURE.md`
+- `docs/production/HD2D_CHAPTERS_00_04_CONVERSION_AUDIT_PASS_1.md`
+- `docs/IMPLEMENTATION_STATUS.md`
 
-Accepted pre-documentation 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`.
+## Current HD-2D production baseline
 
-## Current chapter implementation state
+- Field characters: approximately **80 px**.
+- Battle characters: approximately **200 px**.
+- Dialogue: large high-resolution portraits.
+- Battle composition: up to four active party members staggered on the **left**, enemies on the **right**, open center action/VFX lane.
+- Normal field staging: authored layered environments, bounded camera language, foreground/background/parallax depth and selective geometry.
+- Random encounters remain the ordinary hostile-exploration layer where approved.
+- Chapter 0 is the explicit tutorial exception: seven authored encounters, no normal random-encounter table.
+- Android/APK remains the target.
+- Target runtime: approximately **25 hours**.
+- Absolute character level cap: **60**.
+- Permanent commands: **Attack / Ability / Card / Item / Defend**.
 
-| Chapter | Authoring/canon | Godot Resource integration |
-|---|---|---|
-| Ch0 — The Broken Convoy | CLOSED | COMPLETE / MERGED / historically validated |
-| Ch1 — Brackenwall and the Wayfinder | CLOSED / line-complete repo source | **COMPLETE / exact source-parity + continuity validated in PR #45** |
-| Ch2 — The Drowned Oath | CLOSED / line-complete repo source | **COMPLETE / exact source-parity + continuity validated in PR #46** |
-| Ch3 — The Old City and Last Sentinel | CLOSED / line-complete corrected repo source | **COMPLETE / exact source-parity + continuity/Cresthaven validation in PR #47** |
-| Ch4 — The Seventh Reaction | next authoring frontier | future |
+## Production tier vocabulary
 
-Chapter 3 geography is a hard lock: **Caelora → Old City / Suppressed Archives → separate Cresthaven**. The corrected S020→S021 handoff proves the false order's assembly in the post-Warden command room, has Torren copy a routing map, returns the party to Mirena, identifies Cresthaven as an abandoned Crown outpost in Southhold, and begins S021 the next morning with Mirena already establishing the site as the party's working headquarters.
+- C0 — Conversational
+- C1 — Staged
+- C2 — Dramatic
+- C3 — Spectacle
+- V1 — Common
+- V2 — Face/class identity
+- V3 — Named signature
+- V4 — Prime/boss spectacle
 
-The Chapter 3 Resource triggers preserve H01/H02/H03's earlier story eligibility while also requiring actual Cresthaven access before those Cresthaven-staged scenes can play. H04 remains post-S021 only.
+In the completed early game, S022's first Last Sentinel manifestation is the first approved V4 event.
 
-## Chapter 0 compatibility note
+## Current chapter authority state
 
-The live S004/S005 Resources still contain the historical internal implementation label `Broken Champion's Ward`. Current canon treats the same early phenomenon only as an **incomplete green/gold protective response from the sealed Card**, not a Prime/Last Sentinel activation or bearer confirmation. The old label is not player-facing canon. A later bounded Resource+validator cleanup may neutralize those internal names without rewriting Chapter 0 dialogue or silently changing the approved temporary protection behavior.
+| Chapter | Authoring/canon | HD-2D conversion | Runtime dialogue status |
+|---|---|---|---|
+| Ch0 — The Broken Convoy | CLOSED | PASS / approved | COMPLETE / MERGED / historically validated |
+| Ch1 — Brackenwall and the Wayfinder | CLOSED / line-complete repo source | PASS / approved | COMPLETE / exact source-parity + continuity validated |
+| Ch2 — The Drowned Oath | CLOSED / line-complete repo source | PASS / approved | COMPLETE / exact source-parity + continuity validated |
+| Ch3 — The Old City and Last Sentinel | CLOSED / line-complete corrected repo source | PASS / approved | COMPLETE / exact source-parity + continuity/Cresthaven validation |
+| Ch4 — The Seventh Reaction | CLOSED / exact production source | PASS / approved | production conversion/static validation present where implemented; in-engine smoke remains separate QA |
+| Ch5 — The Mountain Engine | next inherited production frontier | pending whole-game/Ch5+ audit | future implementation |
+
+Chapter 3 geography remains a hard lock:
+
+**Caelora → Old City / Suppressed Archives → separate Cresthaven**.
+
+S021 identifies/unlocks Last Sentinel without manifesting it. S022's Elder Briarhide encounter is the first verified modern Prime manifestation.
+
+## Proven technical chain
+
+**Step 7B.5 remains COMPLETE / PASS as historical technical evidence on real Android hardware**, and **Step 7B.6 remains COMPLETE / PASS** for the production dialogue Resource handoff.
+
+Those proofs continue to protect accepted gameplay/runtime behavior where compatible with current authority, including:
+
+- authored portrait dialogue with no player dialogue choices;
+- discrete-round combat;
+- maximum four active characters;
+- unlimited data-driven Standard Cards;
+- direct-control Prime replacement/suspension/return architecture;
+- deterministic hostile retargeting;
+- versioned save/load persistence;
+- Android build/deployment viability.
+
+Their old active 2.5D/real-3D art-direction statements are superseded by Audit87/Audit88 and must not be treated as current presentation authority.
+
+Historical accepted checkpoints:
+
+- pre-documentation 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`
+- 7B.6 implementation merge: `96c6bdc77f39c988f2185634b4e51546f2a0d76b`
+- Chapter 0 production merge: `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`
+- Chapter 1 dialogue Resource merge: `f1cd2cd9152e4b7ca7e63bea6469c5b326494120`
+- Chapter 2 dialogue Resource merge: `29e7ced1e92d32e2a6a235a6efab2b8a320a36f6`
+- Chapter 3 dialogue Resource merge: `5bda1b4641f7762ab07f6e0d98faff953daf5c2e`
+
+## Completed Chapters 0–4 HD-2D conversion
+
+The approved production record is:
+
+`docs/production/HD2D_CHAPTERS_00_04_CONVERSION_AUDIT_PASS_1.md`
+
+It locks:
+
+- regional reusable environment families rather than chapter-specific one-use megamaps;
+- a common field/battle transition architecture;
+- small battle-background families derived from field geography;
+- one permanent party-left/enemy-right combat frame;
+- reusable nonlethal battle-resolution presentation;
+- modular Face/Card/Prime VFX;
+- modular six-element VFX/environment technology;
+- a reusable Prime manifestation pipeline;
+- one evolving Cresthaven master hub;
+- Android-conscious cost scaling;
+- same-body vs genuine-new-form vs Prime-scale boss implementation categories.
+
+The conversion is presentation/implementation authority only. It does not rewrite approved scenes.
 
 ## Baseline rules
 
-- Engine line: Godot 4.7.x stable; accepted proof target Godot 4.7.1.
-- Language: GDScript.
-- Platform target: Android, landscape.
-- Presentation: 2.5D — 3D environments/depth/lighting/traversal with stylized 2D/2.5D character presentation and illustrated portraits where appropriate.
+- Engine: Godot 4.x production line / GDScript.
+- Platform: Android, landscape.
+- Presentation: **HD-2D**.
 - Dialogue: fully authored; no player dialogue choices.
-- Production dialogue: stable-ID `DiyseDialogueSceneDefinition` Resources with `DiyseDialoguePortraitRegistry` asset indirection.
+- Production dialogue: stable-ID `DiyseDialogueSceneDefinition` Resources with `DiyseDialoguePortraitRegistry` indirection.
 - Combat: discrete round-based command combat.
 - Maximum active party: four.
 - Permanent commands: Attack / Ability / Card / Item / Defend.
@@ -62,12 +135,18 @@ The live S004/S005 Resources still contain the historical internal implementatio
 
 ## Production workflow
 
-Chapters 1–3 dialogue implementation now starts from the validated `.tres` sets under `game/content/dialogue/chapter_01/`, `game/content/dialogue/chapter_02/`, and `game/content/dialogue/chapter_03/`; their exact Markdown sources remain under `docs/chapters/dialogue/` for parity checking. Follow-on implementation should wire world triggers, presentation assets, encounter transitions, hub access, and other consumers without changing exact approved wording.
+For Chapters 0–4 follow-on implementation:
 
-For new dialogue authoring, begin with Chapter 4 rather than repeating Chapters 0–3.
+1. read the current chapter source/lock;
+2. read the Audit88 HD-2D conversion record;
+3. preserve exact approved wording/story/gameplay;
+4. implement maps, presentation assets, battle backgrounds, world triggers, VFX, encounter transitions and hub states according to the approved HD-2D grammar;
+5. run the relevant content/regression gates.
+
+For new story/scene production, move to Chapter 5 rather than re-authoring completed Chapters 0–4 unless the user explicitly reopens them.
 
 ## Proof-content warning
 
-Passing technical proof validates architecture and accepted behavior, **not** temporary prototype content. Graybox geometry, placeholder sprites/portraits, proof dialogue, `PROOF_SCHEMA`, proof enemies, `Proof Strike`, flat proof damage/rewards, proof flags/cues, and debug UI remain non-canon replaceable fixtures.
+Passing technical proof validates architecture and accepted behavior, **not** temporary prototype content. Graybox geometry, placeholder sprites/portraits, proof dialogue, `PROOF_SCHEMA`, proof enemies, `Proof Strike`, flat proof damage/rewards, proof flags/cues and debug UI remain non-canon replaceable fixtures.
 
-Read `AGENTS.md`, `docs/ACTIVE_CANON.md`, `docs/IMPLEMENTATION_STATUS.md`, `docs/chapters/README.md`, `docs/chapters/dialogue/README.md`, `docs/DIALOGUE_AUTHORING_SCHEMA.md`, `docs/STEP_7C_AUTHORING_TEMPLATE.md`, and the relevant subsystem rules before implementation.
+Read `AGENTS.md`, `docs/ACTIVE_CANON.md`, `docs/IMPLEMENTATION_STATUS.md`, `docs/PRESENTATION_RULES.md`, `docs/chapters/README.md`, `docs/chapters/dialogue/README.md` and the relevant subsystem rules before implementation.
