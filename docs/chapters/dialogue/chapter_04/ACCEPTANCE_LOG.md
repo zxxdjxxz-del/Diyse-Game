@@ -204,7 +204,7 @@ All three are physically available for the Chapter 4 comparison. The first **two
 ### CH4-A013 — Elder Briarhide fight must use Diyse's normal battle loop
 
 **Date:** 2026-08-18  
-**Status:** LOCKED COMBAT-PRESENTATION CORRECTION  
+**Status:** LOCKED COMBAT-PRESENTATION CORRECTION, further specified by CH4-A014  
 **Acceptance type:** Direct user correction
 
 **Controlling user wording:**
@@ -214,13 +214,32 @@ All three are physically available for the Chapter 4 comparison. The first **two
 **Locked correction:**
 
 - The prior working S022 draft's scripted mid-battle threshold, cinematic enemy charge setup, dialogue interruption, Card-command highlight, and story-forced Prime finisher are **not** the correct battle grammar for Diyse and are discarded.
-- The Elder Briarhide encounter must run through Diyse's established **traditional discrete-round combat system** from start to finish: enemy action locks from the legitimate beginning-of-round state; the player selects one action for every conscious active party member; then actions resolve through the normal Item/Defend/Speed ordering.
-- Cyanis activates Last Sentinel only through the normal **Card** command as his selected action. Recovered Last Sentinel performs **one strong Prime action in that ordinary round and dismisses in the same round**. Already-selected actions by the other party members and the Elder Briarhide are not erased merely because the Prime manifests.
-- Do not pause at an authored HP threshold to inject story dialogue or change command legality. Do not make the Prime automatically end the battle. After the Recovered Prime action resolves, the encounter continues under the normal battle loop until its legitimate encounter-end condition is reached.
+- The Elder Briarhide encounter must run through Diyse's established **traditional discrete-round combat system** rather than becoming an action cutscene or QTE.
+- Cyanis activates Last Sentinel through the **Card** system. Recovered Last Sentinel performs **one strong Prime action in that ordinary round and dismisses in the same round**.
 - The Elder Briarhide remains one HP bar / no transformation unless later changed.
-- If the story outcome is that the Elder Briarhide survives and retreats, that outcome should be attached to the legitimate end-of-battle result rather than achieved by replacing the combat resolver with a cinematic interruption.
-- The exact method used to **guarantee** the first Last Sentinel manifestation for story continuity is still OPEN and must itself respect the normal battle loop; no solution is approved merely because it guarantees the cutscene.
-- The rest of the replacement S022 pass remains WORKING. The user's “I like it” is not treated as blanket acceptance of all exact dialogue/staging while this combat correction is unresolved.
+- CH4-A014 now supplies the exact authored-round onboarding structure for this encounter.
+- The rest of the replacement S022 pass remains WORKING. The user's “I like it” is not treated as blanket acceptance of all exact dialogue/staging while the combat correction is being integrated.
+
+### CH4-A014 — Three normal rounds, forced Last Sentinel on round four, then retreat
+
+**Date:** 2026-08-18  
+**Status:** LOCKED / ACCEPTED COMBAT STRUCTURE  
+**Acceptance type:** Direct user specification
+
+**Controlling user wording:**
+
+> 3 normal rounds and the party has hardly done any damage then on the next round the only selectable action is last sentinel and after the round the enemy retreats
+
+**Locked encounter structure:**
+
+- **Rounds 1–3 are fully normal Diyse combat rounds.** The player uses the ordinary command system and selects legal actions normally for the active party.
+- The Elder Briarhide's tuning is authored so that after those three rounds the party has done **very little damage**. This should communicate the elder animal's exceptional durability without adding a second HP bar, transformation, phase change, or fake invulnerability cutscene.
+- At the beginning of **Round 4**, this encounter enters its one-time authored Prime-onboarding state. The **only selectable player action is Last Sentinel**. No alternate Attack / Ability / Standard Card / Item / Defend choice is offered for that round.
+- The player still actively confirms **Last Sentinel** rather than merely watching an automatic cutscene.
+- Last Sentinel uses the current **Recovered** rule: its one strong Prime action resolves in that round and the manifestation dismisses in the same round, using the exact locked Last Sentinel visual authority.
+- After Round 4 finishes resolving, the **Elder Briarhide retreats**. It is not killed, does not transform, and does not enter another combat phase.
+- The battle then ends and the party's first-verifiable-Prime reaction dialogue occurs **after combat**, not as an interruption inside Rounds 1–3.
+- This four-round structure is an authored onboarding encounter for the first modern Prime manifestation. It does not redefine the normal command structure for ordinary battles elsewhere in the game.
 
 ---
 
@@ -250,7 +269,7 @@ The assistant incorrectly promoted material that the user never accepted.
 
 S022 is currently **REOPENED / WORKING FROM SCRATCH**. No replacement S022 dialogue is accepted yet.
 
-The exact Elder Briarhide encounter mechanics, den location, outcome, battle-valid Last Sentinel onboarding/guarantee, and aftermath dialogue remain working until approved. The Last Sentinel appearance itself is **not** open and must use its locked visual authority.
+The Elder Briarhide species/territorial premise, one-HP-bar/no-transformation structure, exact Last Sentinel visual, and four-round onboarding flow are locked. Exact Elder Briarhide stats/move tuning, exact round-four UI presentation, den placement, and post-battle dialogue remain working until approved in the scene pass.
 
 ---
 
@@ -262,7 +281,8 @@ The exact Elder Briarhide encounter mechanics, den location, outcome, battle-val
 | CH4-A002 | SUPERSEDED | CH4-A008 |
 | CH4-A003 | SUPERSEDED | CH4-A005 |
 | CH4-A004 | RETRACTED / INVALID PROMOTION | — |
+| CH4-A013 open guarantee method | RESOLVED / FURTHER SPECIFIED | CH4-A014 |
 
 ## Next acceptance number
 
-**CH4-A014**
+**CH4-A015**
