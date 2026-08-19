@@ -375,6 +375,103 @@ All three are physically available for the Chapter 4 comparison. The first **two
 - The smoking action may sit naturally in the background of conversation and does not need to be discussed merely because it is visible.
 - Exact dialogue around the beat remains working until the camp scene itself is drafted and accepted.
 
+### CH4-A023 — C08 Vaelira Learns Camp accepted with unfamiliar-campsite correction
+
+**Date:** 2026-08-18  
+**Status:** LOCKED / ACCEPTED CHARACTER-LIFE SCENE  
+**Acceptance type:** Continuation acceptance after direct user correction
+
+**Controlling correction:**
+
+> They wouldn't know the camp this well it's just a place they stopped to rest
+
+**Accepted scope:**
+
+- C08 — **Vaelira Learns Camp** uses an ordinary temporary roadside/field stop, not an established or familiar campsite.
+- The party knows **how to camp together**; they do not possess special knowledge of this specific site.
+- Torren may evaluate immediate visible terrain through experience, but he does not already know local water paths, sleeping spots, dew behavior, or other site-specific facts.
+- Vaelira learns the group's informal travel/camp rhythm rather than a fixed campsite routine.
+- Torren visibly smokes after dinner as an ordinary background habit and lights the blunt from the existing fire/coals/ember source; no modern lighter exists and the smoking is not made into a plot point.
+- The corrected C08 transcript presented after this user correction is accepted by the user's subsequent “Let's continue.”
+
+### CH4-A024 — C09 Nimera and Vaelira at 2 A.M. accepted
+
+**Date:** 2026-08-18  
+**Status:** LOCKED / ACCEPTED CHARACTER-LIFE SCENE  
+**Acceptance type:** Continuation acceptance — user replied “Let's continue” after the completed C09 pass
+
+**Accepted scope:**
+
+- C09 — **Nimera and Vaelira at 2 A.M.** is accepted as presented.
+- It is available after S024 and fits cleanly in the Ivorybridge overnight after S025 and before S026's morning opening.
+- The scene develops early Nimera/Vaelira intellectual-peer chemistry through wording disputes, provisional terminology, note-taking habits, correction, and humor.
+- They do not read as preexisting best friends or as therapist/client; intimacy does not jump ahead.
+- “Relationship marks” remains provisional party language rather than a canonized Ancient technical term.
+- No reward, quest progress, or new lore conclusion is introduced.
+
+### CH4-A025 — H05 The Apology Vaelira Does Not Need accepted
+
+**Date:** 2026-08-18  
+**Status:** LOCKED / ACCEPTED HUB SCENE  
+**Acceptance type:** Continuation acceptance — user replied “Let's continue” after the completed H05 pass
+
+**Accepted scope:**
+
+- H05 — **The Apology Vaelira Does Not Need** is accepted as presented and is available after S026 at Cresthaven.
+- Vaelira attempts a blanket apology for the Annex; Cyanis refuses the blanket framing without absolving her actual boundary-design responsibility.
+- Cyanis does not forgive on behalf of the harmed researcher and does not tell Vaelira that nothing was her fault.
+- The scene reinforces S025's responsibility allocation and S026's correction-without-humiliation principle without undoing either scene.
+- Vaelira remains an ordinary permanent member of the party; the scene is not a ceremonial acceptance ritual.
+- No reward, quest progression, Prime information, or new lore is introduced.
+
+### CH4-A026 — C08 chronology integrated into the return from Ivorybridge
+
+**Date:** 2026-08-18  
+**Status:** LOCKED CHAPTER-INTEGRATION PLACEMENT  
+**Acceptance type:** Continuation acceptance of the corrected integration pass
+
+**Locked placement:**
+
+- C08 remains an optional Chapter 4 camp scene using an unfamiliar temporary stop.
+- The clean Chapter 4 chronology places C08 during the return travel from Ivorybridge toward Cresthaven after S026's departure beat and before the Cresthaven arrival/post-chapter hub state.
+- The stop does not create a new mandatory hostile field leg and does not reopen accepted S026 dialogue; it is an optional overnight world-travel beat.
+- This placement keeps C09 in the Ivorybridge overnight after S025 and before S026 morning, while H05 remains post-S026 at Cresthaven.
+
+### CH4-A027 — Crown Prototype restored as Chapter 4 Regional Hunt authority
+
+**Date:** 2026-08-18  
+**Status:** LOCKED / DIRECT CANON CORRECTION  
+**Acceptance type:** Direct user correction
+
+**Controlling user wording:**
+
+> There should be a hunt, crown prototype
+
+**Locked interpretation:**
+
+- Chapter 4 has Regional Hunt #4: **Crown Prototype**.
+- Canon placement is **post-Chapter 4 / Annex prototype**.
+- Protected deterministic first-clear reward is **Relentless Flurry**.
+- Relentless Flurry remains a pre-existing Might Standard Card; the Hunt does not create the Card when defeated.
+- The prior integration-audit statement that Chapter 4 had no defined Hunt is invalid.
+
+### CH4-A028 — Crown Prototype full Hunt integration accepted
+
+**Date:** 2026-08-18  
+**Status:** LOCKED / ACCEPTED HUNT ARCHITECTURE  
+**Acceptance type:** Continuation acceptance — user replied “Let's continue” after the completed Crown Prototype Hunt pass
+
+**Accepted scope:**
+
+- Crown Prototype is integrated as a post-Chapter-4 optional Regional Hunt in the Sixfold Annex prototype branch.
+- During mandatory Chapter 4, a prototype-testing branch can be visible but safety-locked through non-dialogue environmental staging; the party does not encounter the Hunt during the main story.
+- After Chapter 4, access is restored through a short Annex return route rather than replaying the full dungeon.
+- The Hunt is one enemy, one HP bar, no transformation, no mandatory party member, no Prime requirement, and no scripted-round gimmick.
+- Accepted combat identity centers on repeated target correction: **Calibration Strike**, **Target Acquisition**, **Relentless Sequence**, **Corrective Step**, and **Breakline**, with a same-bar low-HP Accelerated Test Cycle rather than a second form.
+- The retained technical baseline may use Lv. 11 / 1,505 HP / 280 EXP / 50 CEXP / 120 Auren as balance evidence, with final tuning still implementation-driven.
+- First clear releases the pre-existing **Relentless Flurry** Might Standard Card from the prototype branch; the enemy does not manufacture or transform into the Card.
+- The branch remains optional and returnable, uses existing Annex production language, and does not add Black Host, Ancient, Entity, or second-plot revelations.
+
 ---
 
 ## SUPERSEDED / RETRACTED
@@ -401,9 +498,9 @@ The assistant incorrectly promoted material that the user never accepted.
 
 ## WORKING / NOT YET ACCEPTED
 
-Chapter 4 mandatory S022–S026 is accepted through CH4-A016–A019 and CH4-A021. The optional-scene completion pass is now the active frontier.
+Chapter 4 mandatory S022–S026, C08, C09, H05, and Crown Prototype Hunt architecture are accepted through CH4-A028.
 
-The Chapter 4 camp scene is the next relevant optional scene to draft, and CH4-A022 requires Torren's after-dinner smoking beat there. Other optional Chapter 4 scenes remain to be reviewed/accepted before whole-chapter integration and Resource conversion.
+The active frontier is now the **final whole-chapter integration/closure pass plus repository source consolidation**. The accepted transcripts still need to be consolidated into `S022.md`, new `S023.md`–`S026.md`, the optional-scene sources, and the Crown Prototype Hunt source before Resource conversion/validation.
 
 ---
 
@@ -418,7 +515,8 @@ The Chapter 4 camp scene is the next relevant optional scene to draft, and CH4-A
 | CH4-A008 rough 2–3 random-encounter target | SUPERSEDED | CH4-A015 |
 | CH4-A013 open guarantee method | RESOLVED / FURTHER SPECIFIED | CH4-A014 |
 | CH4-A020 Ivorybridge-night placement | SUPERSEDED | CH4-A022 |
+| Integration-audit statement “Chapter 4 has no defined Hunt” | INVALID / CORRECTED | CH4-A027 |
 
 ## Next acceptance number
 
-**CH4-A023**
+**CH4-A029**
