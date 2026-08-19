@@ -1,6 +1,7 @@
 extends Control
 
 signal conversation_finished
+signal scene_started(scene_id: String, presentation: Dictionary)
 signal scene_finished(scene_id: String)
 signal beat_presented(scene_id: String, beat_id: String, cues: Dictionary)
 
@@ -15,6 +16,7 @@ var _beats: Array = []
 var _index := -1
 var _running := false
 var _scene_id := ""
+var _scene_presentation: Dictionary = {}
 
 func _ready() -> void:
 	visible = false
@@ -22,6 +24,9 @@ func _ready() -> void:
 
 func is_running() -> bool:
 	return _running
+
+func current_scene_presentation() -> Dictionary:
+	return _scene_presentation.duplicate(true)
 
 func start_scene(scene_definition: DiyseDialogueSceneDefinition, registry: DiyseDialoguePortraitRegistry) -> bool:
 	if scene_definition == null or registry == null:
@@ -35,6 +40,8 @@ func start_scene(scene_definition: DiyseDialogueSceneDefinition, registry: Diyse
 	if runner_beats.is_empty():
 		return false
 	_scene_id = scene_definition.scene_id
+	_scene_presentation = scene_definition.presentation_metadata()
+	scene_started.emit(_scene_id, _scene_presentation.duplicate(true))
 	start_conversation(runner_beats)
 	return true
 
@@ -96,6 +103,7 @@ func _finish() -> void:
 	_beats.clear()
 	_index = -1
 	_scene_id = ""
+	_scene_presentation.clear()
 	if not finished_scene_id.is_empty():
 		scene_finished.emit(finished_scene_id)
 	conversation_finished.emit()
