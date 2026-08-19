@@ -24,6 +24,9 @@ jobs:
       - name: Import project headlessly
         run: godot --headless --path . --editor --quit
 
+      - name: Run Audit88 HD-2D runtime contract validation
+        run: godot --headless --path . --script tests/presentation/validate_hd2d_runtime.gd
+
       - name: Run exploration, dialogue, combat, Card, Prime, and persistence smoke validation
         run: godot --headless --path . --script tests/smoke/validate_project.gd
 
