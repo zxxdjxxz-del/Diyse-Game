@@ -4,17 +4,19 @@ This is an implementation-facing summary. It does **not** replace the authoritat
 
 ## Current written authority
 
-- **Whole-project root:** Diyse Clean Active Complete Master Canon **v1.64 / Audit79** — Chapter 1 Full Production Dialogue Lock, inheriting the Chapter 2 Audit78 line-complete lock and corrected Chapter 3 Audit77 line-complete lock.
-- **Date:** August 18, 2026.
-- Chapters **0–3 are COMPLETE/CLOSED** at story/dialogue/continuity/relationship/affordable-2.5D production-authority level.
-- Chapter 4 — **The Seventh Reaction** — is the next exact scene-level authoring frontier.
+- **Whole-project root:** Diyse Clean Active Complete Master Canon **v1.69 / Audit84** — Chapter 11 Forward Hub and Final Cleanup Window Authority Lock.
+- **Immediate inherited chain:** v1.68 / Audit83 — Major Hunt #1 Ashen Whitehorn Full Production Authority Lock; v1.67 / Audit82 — Regional Hunts #1–#3 Full Production Authority and Prime-Chronology Lock; v1.66 / Audit81 — Chapter 4 Full Production Dialogue, Character-Life, Crown Prototype Hunt, and Roster-State Lock.
+- **Date:** August 19, 2026.
+- Chapters **0–4 are COMPLETE/CLOSED** at story/dialogue/continuity/relationship/affordable-2.5D production-authority level where exact production dialogue has been authored.
+- Chapter 5 — **The Mountain Engine** — is the next exact scene-level authoring frontier.
 - Completed early-chapter repository packages: `docs/chapters/`.
-- Chapters 1–3 exact line-complete repository source: `docs/chapters/dialogue/`.
+- Chapters 1–4 exact production-dialogue repository source: `docs/chapters/dialogue/`.
 - Chapter 0 exact line/cue authority remains the merged Godot Resource set at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5` where compatible with later canon.
 - **Chapter 1 S007–S011 + C03–C05 are converted into production `.tres` dialogue Resources and validated for exact source parity plus whole-chapter continuity.**
 - **Chapter 2 S012–S016 + C06/C07 are converted into production `.tres` dialogue Resources and validated against the exact Audit78 source plus whole-chapter continuity.**
 - **Chapter 3 S017–S021 + H01–H04 are converted into production `.tres` dialogue Resources and validated against the corrected Audit77/v1.64 source plus whole-chapter continuity, Cresthaven geography, Last Sentinel, and optional-scene locks.**
-- Chapters 0–3 have no remaining dialogue-Resource conversion backlog.
+- **Chapter 4 S022–S026 + C08/C09/H05 + Crown Prototype are converted into production `.tres` dialogue Resources; the Chapter 4 portrait registry is also present. Static schema/source-parity validation is complete; in-engine runtime smoke testing remains implementation QA rather than an authoring dependency.**
+- Regional Hunts #1–#4 are full-production locked. Major Hunt #1 — Ashen Whitehorn — is full-production locked.
 
 ## Project foundation
 
@@ -60,18 +62,18 @@ The validated Chapter 3 Resource triggers preserve H01/H02/H03's approved earlie
 | State | Title | Current status |
 |---|---|---|
 | Ch0 | The Broken Convoy | COMPLETE/CLOSED; exact Resources merged, later compatibility overlays apply |
-| Ch1 | Brackenwall and the Wayfinder | COMPLETE/CLOSED; **production dialogue Resources converted; exact source-parity + continuity validated** |
-| Ch2 | The Drowned Oath | COMPLETE/CLOSED; **production dialogue Resources converted; exact Audit78 source-parity + continuity validated** |
-| Ch3 | The Old City and Last Sentinel | COMPLETE/CLOSED; **production dialogue Resources converted; corrected Audit77/v1.64 source-parity + continuity/Cresthaven validation passed** |
-| Ch4 | The Seventh Reaction | next exact scene-production frontier |
-| Ch5 | The Mountain Engine | inherited architecture |
+| Ch1 | Brackenwall and the Wayfinder | COMPLETE/CLOSED; production dialogue Resources converted; exact source-parity + continuity validated |
+| Ch2 | The Drowned Oath | COMPLETE/CLOSED; production dialogue Resources converted; exact Audit78 source-parity + continuity validated |
+| Ch3 | The Old City and Last Sentinel | COMPLETE/CLOSED; production dialogue Resources converted; corrected Audit77/v1.64 source-parity + continuity/Cresthaven validation passed |
+| Ch4 | The Seventh Reaction | COMPLETE/CLOSED; S022–S026 + C08/C09/H05 + Crown Prototype exact production authority locked under Audit81 |
+| Ch5 | The Mountain Engine | **next exact scene-production frontier** |
 | Ch6 | Broken Sky and Crimson Work | inherited architecture |
 | Accord | Sixfold Accord | locked interlude architecture |
 | Ch7 | The Prison of Names | inherited architecture |
 | Ch8 | Westreach and the Marshal | inherited architecture |
 | Ch9 | Equal Mercy and Continuity | inherited architecture |
 | Ch10 | Crown Engine and Sixfold Truth | inherited architecture |
-| Ch11 | The Reforged March | Black Mountains; progression beyond 50 begins |
+| Ch11 | The Reforged March | Black Mountains; dedicated Forward Hub; Cresthaven ↔ Forward Hub travel after security; post-Vaelkor cleanup/preparation window; deliberate Chapter 12 launch is true final point of no return |
 | Ch12 | The Last Command | Ancient subterranean Diyse; progression culminates at 60 |
 | After | WORLD_AFTER — Cresthaven Reconstruction | cleared-save free roam / aftermath |
 
@@ -88,7 +90,7 @@ The validated Chapter 3 Resource triggers preserve H01/H02/H03's approved earlie
 
 All Subclasses are first learned at the Sixfold Accord. No permanent character has meaningful pre-Accord Subclass training.
 
-Maevra Solmar is a recurring temporary/guest playable ally, not a seventh permanent. Kessara Durnan is a recurring technical ally, not permanent.
+Maevra Solmar is a recurring temporary/guest playable ally, not a seventh permanent. In Chapter 4 specifically, the starting traveling permanent party is Cyanis / Ilyra / Torren / Nimera; Maevra is not in the default Chapter 4 party and appears only where specifically authored. Vaelira joins permanently during S022, taking the traveling permanent roster from four to five. Kessara Durnan is a recurring technical ally, not permanent.
 
 ## Combat architecture
 
@@ -128,8 +130,10 @@ Conduit is the equipment category used by Nimera's Cardweaver tradition and late
 
 - Story Prime acquisition order: Last Sentinel (Ch3), Last Measure (Ch5), Last Convergence (Ch6), Last Scribe (Ch7), Last Sanctuary (Ch9), Last Erasure (Ch10).
 - Prime activation uses the bearer's selected Card action and the accepted directly controlled replacement/suspension architecture.
-- No living modern person has witnessed a verified Prime Manifestation before the first successful post-S021 battle use of Last Sentinel.
-- S021 identifies/unlocks Last Sentinel **without manifesting it**. The player's first later real-battle use is the first verified modern Prime activation/sighting.
+- No living modern person has witnessed a verified Prime Manifestation before S022.
+- S021 identifies/unlocks Last Sentinel **without manifesting it**.
+- **S022's Elder Briarhide encounter is the first verified modern Prime manifestation/sighting:** Rounds 1–3 use normal Diyse combat; on Round 4 Last Sentinel is the only selectable action; the player confirms; Last Sentinel manifests, performs one Recovered Prime action, dismisses in the same round, and Elder Briarhide retreats alive.
+- Optional content may not create a Prime manifestation before S022. Archive Judgment Engine combat and the final Ashen Whitehorn confrontation are therefore combat-accessible only after S022, while their relevant destination/branch state may be inspectable earlier as separately locked.
 - Gameplay UI can explain technical battle rules after unlock. Characters do not acquire those empirical formulas/durations as in-world knowledge merely because the UI exists.
 
 ## Modern knowledge / Ancient Diysean firewall
@@ -164,18 +168,41 @@ Cresthaven becomes one connected master hub with Command, Common, Archive, Medic
 
 Preferred optional-content rhythm: **chapter exploration → home/Cresthaven → optional revisit/Hunt → home → onward**.
 
+### Chapter 11 Forward Hub
+
+Chapter 11 establishes a dedicated temporary **Forward Hub** in captured Black Host territory. Once secured, it unlocks permanent two-way fast travel with Cresthaven for the remainder of Chapter 11.
+
+- **Cresthaven remains the primary full-service headquarters.**
+- The Forward Hub is a military staging base with only essential field functionality.
+- Cresthaven ↔ Forward Hub travel does not require replaying earlier Chapter 11 approach zones.
+- After Emperor Vaelkor's defeat, the link remains active throughout the final Chapter 11 cleanup/preparation window.
+- Chapter 12 starts only when the player deliberately launches the final operation; that launch is the true final point of no return.
+
 ## Regional Hunt return grammar
 
-Eligible chapter-dungeon Regional Hunts use a visible but unavailable first-pass branch. The chapter climax changes local state so the branch opens afterward and generally remains available. Return through a shortcut/cleared route rather than replaying the full dungeon.
+Eligible chapter-dungeon Regional Hunts use a visible but unavailable first-pass branch where appropriate. The chapter climax/state change opens the later Hunt route, and return uses a shortcut/cleared route rather than replaying the full mandatory dungeon.
 
-Early locks:
-- Hunt #1 Cistern Devourer: post-S011 route spur toward Dunmere; standalone route exception, not fake dungeon replay.
-- Hunt #2 Transfer Executioner: Bastion/prisoner transfer branch opens after Rhazek defeat + secured S016 extraction.
-- Hunt #3 Archive Judgment Engine: S019 judgment branch denied first pass; S020/S021 authorization-state change opens it after Cresthaven establishment; return to Old City/Archive separately.
+Full-production locks:
+- **Hunt #1 — Cistern Devourer:** post-S011. S010 remains unchanged. S011 B008 — The Old Cut is the route-knowledge unlock. Return: modern Dunmere road → overgrown old cut → short cistern approach → Hunt arena. Combat identity: pressure → stagger → feed. Same-bar low-HP state: Hungered Frenzy. No protected unique Card reward.
+- **Hunt #2 — Transfer Executioner:** post-S016. West transfer branch becomes accessible after Bastion controls drop the lock. Return: Dunmere → cleared Bastion shortcut → former prisoner safe pocket → Extraction Causeway → opened west branch → short Transfer Spine → Hunt chamber. Combat identity: mark → restrain → punish. Same-bar low-HP state: Final Disposition. Missing-brother thread remains unresolved. No protected unique Card reward.
+- **Hunt #3 — Archive Judgment Engine:** judgment branch changes state after S021 and becomes inspectable; actual combat becomes available after S022 to preserve first-Prime chronology. Return: Old City shortcut → Suppressed Archive safe entrance → authenticated-record area → reopened judgment branch → short adjudication corridor → Hunt chamber. Combat identity: evaluate → alter the terms → punish reliance on a favorable state. Protected first-clear reward: **Reversal Engine — Change Standard Card**, pre-existing and not created by the Engine.
+- **Hunt #4 — Crown Prototype:** post-Chapter 4 Sixfold Annex prototype branch. One enemy / one HP bar / no transformation. Protected first-clear reward: **Relentless Flurry — Might Standard Card**, pre-existing and not created by the Prototype.
+
+Shared Regional-Hunt grammar:
+- optional and returnable;
+- short chapter-state-aware return route;
+- no full mandatory-dungeon replay;
+- random-battle exposure comes from actual implemented geometry/exploration rather than a preset approximate count;
+- normal Diyse combat rules remain controlling;
+- one principal elite encounter is the production centerpiece;
+- no mandatory party member unless explicitly locked;
+- defeated modern enemies do not silently create Cards;
+- same-bar low-HP escalation is preferred over unnecessary extra forms;
+- cheap 2.5D reuse is mandatory.
 
 ## Optional-major unlock windows
 
-1. After Ch3 — Ashfrost Expanse / Ashen Whitehorn → Dawn Shepherd.
+1. **After Ch3 — Ashfrost Expanse / Ashen Whitehorn → Dawn Shepherd + March of Blades.** Ashfrost Expanse unlocks on the world map after Chapter 3 and most of the expedition may be explored immediately; the final Whitehorn trail/confrontation becomes combat-accessible only after S022. Ashen Whitehorn is a massive natural Edgelands beast, not Black Host/Ancient/corrupted/biomechanical. First-clear rewards are deterministic, pre-existing, nonfarmable artifacts: **Dawn Shepherd — Grace Optional Prime** and **March of Blades — Might Standard Card**. March of Blades is all-enemy physical damage plus temporary enemy Speed reduction.
 2. After Ch5 — Crownfall Redoubt / Crownless Siege Marshal → Oathbound Colossus.
 3. After Sixfold Accord — Concordance Vault / Concordance Guardian → Living Revision.
 4. After Ch8 — Worldscar Basin / Worldscar Leviathan → Prismatic Leviathan.
@@ -195,7 +222,7 @@ Core early voices:
 - Mirena: witty/observant/mischievous/politically impatient; public cleaner, private warmer/more profane.
 - Lysara: patient/observant/dry funny/affectionate/stubborn/practical; continuity without stagnation and restraint of sovereign ownership.
 
-Protected relationship progression and exact early-chapter wording are recorded in the line-complete scene files under `docs/chapters/dialogue/`, with implementation-facing locks in `CHAPTER_01_COMPLETE.md` through `CHAPTER_03_COMPLETE.md`. Chapters 1–3 Resource text are additionally protected by exact source-parity validation.
+Protected relationship progression and exact early-chapter wording are recorded in the line-complete scene files under `docs/chapters/dialogue/`, with implementation-facing locks in `CHAPTER_01_COMPLETE.md` through `CHAPTER_03_COMPLETE.md` and the Chapter 4 accepted source/ledger under `docs/chapters/dialogue/chapter_04/`. Chapters 1–4 Resource text is additionally protected by source-parity/static validation appropriate to each completed conversion pass.
 
 ## Affordable 2.5D production baseline
 
@@ -206,6 +233,8 @@ Use reusable poses/portraits/props/camera inserts and authored environment state
 ## Finale outcome guardrails
 
 The final antagonist sequence remains Reconstituted Entity → Last Command. Final Severance is the modern six-person solution; all six survive. The Entity and every surviving Entity trace are permanently destroyed. No party member becomes infrastructure or a permanent living anchor. The giant Crest survives damaged/low/stable. Story Primes survive. Vaelkor remains responsible for his own choices and is not retroactively reduced to possession.
+
+Chapter 11's post-Vaelkor cleanup window does not alter the final antagonist sequence. It controls only when the player commits from Chapter 11 into Chapter 12.
 
 ## Historical repository rule
 
