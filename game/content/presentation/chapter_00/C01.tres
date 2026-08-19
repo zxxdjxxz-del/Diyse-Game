@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DiyseScenePresentationDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/presentation/scene_presentation_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+scene_id = "C01"
+chapter_id = "chapter_00"
+environment_family = "CH00_TRIAGE_SAFE_CAMP"
+battle_background_family = ""
+cutscene_tier = "C0"
+vfx_tier = "V1"
+encounter_mode = "none"
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CHARACTER_LIFE", "PORTRAIT_LED"])
