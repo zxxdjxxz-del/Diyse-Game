@@ -1,16 +1,18 @@
 # Diyse — Step 7C Scene Authoring Template
 
-**Status:** ACTIVE / AUTHORIZED August 8, 2026. Prepared by 7B.6 and now controlling implementation-ready Step 7C scene drafts.
+**Status:** ACTIVE / AUTHORIZED  
+**Current authority:** v1.73 / Audit88  
+**Presentation target:** HD-2D
 
-This is the required working template for full Dialogue-First Scene Writing.
+This is the required working template for implementation-ready Dialogue-First Scene Writing where Step 7C-style production authoring applies.
 
 ## Whole-game scene-authoring gate
 
 Before drafting any new scene, read and apply `docs/SCENE_AUTHORING_STANDARD.md`.
 
-That standard is mandatory for all remaining game authoring from Chapter 4 forward. It requires a scene-level check of story/continuity, knowledge firewall, personalities/voices, relationship state, adult-natural dialogue, expressive JRPG/anime reaction language, affordable 2.5D staging, gameplay breathing room, random-battle spacing where fiction supports it, encounter/Hunt/boss constraints where relevant, and the scene's handoff into the next playable state.
+That standard is mandatory for remaining new game authoring from **Chapter 5 forward** unless the user explicitly reopens earlier material. It requires scene-level checks of story/continuity, knowledge firewall, personalities/voices, relationship state, adult-natural dialogue, expressive HD-2D/JRPG performance, affordable HD-2D staging, gameplay breathing room, random-battle spacing, encounter/Hunt/boss constraints and scene handoff.
 
-The check is **scene-level**. Draft/review scenes at a normal useful size; do not fragment scenes into tiny blocks merely to perform the check.
+Do **not** use this template to re-author completed Chapters 0–4. Their exact source is already closed, and presentation implementation is controlled by Audit88.
 
 ## Scene header
 
@@ -22,8 +24,10 @@ The check is **scene-level**. Draft/review scenes at a normal useful size; do no
 - **Completion flag:** `scene.<scene_id_lowercase>.complete` unless controlling state authority requires otherwise
 - **Participants:** `<stable character/NPC IDs>`
 - **Controlling story authority:** `<master/source section>`
-- **Protected character authorities consulted:** `<applicable Steps 1–5 / relationship authorities>`
-- **Implementation dependencies:** `<known world flags, portrait expressions, camera/staging requirements>`
+- **Protected character authorities consulted:** `<applicable character/relationship authorities>`
+- **Implementation dependencies:** `<world flags, portrait expressions, camera/staging requirements>`
+- **Cutscene tier:** `C0 / C1 / C2 / C3`
+- **VFX tier:** `V1 / V2 / V3 / V4`
 
 ## Beat template
 
@@ -50,49 +54,76 @@ Do not narrate an expression in text merely because the portrait/staging can sho
 
 ### Canon
 
-- Does the scene preserve every controlling story outcome and final-act hard lock?
-- Does it avoid silently changing classes, combat, Cards/Primes, Legacy access, relationships, Vaelkor/fragment authority or world-state facts?
-- Are participants present at a time/location where they are actually available?
-- Are any lore/exposition statements owned by the correct character or source?
+- Preserve every controlling story outcome and final-act hard lock.
+- Do not silently change classes, combat, Cards/Primes, Legacy access, relationships, Vaelkor/fragment authority or world-state facts.
+- Participants must be present at a time/location where they are actually available.
+- Lore/exposition must be owned by the correct character/source.
 
 ### Voice
 
-- Does each speaker sound like the approved character rather than a generic witty RPG voice?
-- Is profanity frequency/style correct for that character and emotional state?
-- Is humor relationship-specific rather than assigned to a designated comic role?
-- Does emotional exposure simplify language where the character authority says it should?
-- Is nobody speaking merely because they are present?
+- Each speaker sounds like the approved character rather than a generic witty RPG voice.
+- Profanity frequency/style matches that character and emotional state.
+- Humor is relationship-specific rather than assigned to one comic role.
+- Emotional exposure simplifies language where appropriate.
+- Nobody speaks merely because they are present.
 
 ### Natural conversation
 
-- Do characters react to one another's exact wording rather than deliver alternating monologues?
-- Are interruptions, incomplete thoughts, ordinary observations and silence used where natural?
-- Can the conversation spend time on mundane material when the scene permits it?
-- Is important eloquence earned rather than constant?
-- Does wartime pressure remain present without making every conversation about the war?
+- Characters react to each other's exact wording rather than alternate monologues.
+- Interruptions, incomplete thoughts, ordinary observations and silence appear where natural.
+- Mundane material is allowed where scene purpose permits it.
+- Important eloquence is earned rather than constant.
+- Wartime pressure remains present without making every conversation about the war.
 
 ### Gameplay spacing
 
-- Does the player regain control between major dialogue beats when the fiction supports it?
-- Is there enough traversal/exploration room that the game does not become back-to-back conversations?
-- Are random battles enabled in hostile/unsecured traversal spaces where appropriate, with safe/story pockets suppressing encounters only where authored?
-- Are random-battle areas long enough to breathe without becoming oversized empty zones?
-- Is encounter variety appropriate to the chapter/location?
-- Are authored encounters, bosses, Hunts, and random battles kept distinct?
+- Player control returns between major dialogue beats where fiction supports it.
+- Traversal/exploration space prevents the game becoming back-to-back conversation.
+- Random battles remain enabled in approved hostile/unsecured traversal and suppressed in authored safe/story pockets.
+- Do **not** pre-author fixed or approximate random-battle counts; derive expected counts later from implemented geometry/rates.
+- Encounter variety matches chapter/location.
+- Authored encounters, bosses, Hunts and random battles remain distinct.
 
-### Portrait/performance
+### Portrait / performance
 
-- Does each portrait/expression ID exist in the active registry?
-- Is emotional information carried by portrait, staging, pause or silence when speech is unnecessary?
-- Are silent reaction beats genuinely silent?
-- Are active-side changes intentional?
-- Are camera/staging cues instructions rather than prose pretending to be dialogue?
+- Every portrait/expression ID exists or is an explicit production dependency.
+- Emotional information is carried by portrait, staging, pause or silence when speech is unnecessary.
+- Silent reaction beats remain genuinely silent.
+- Active-side changes are intentional.
+- Camera/staging cues are instructions rather than prose pretending to be dialogue.
 
-### Affordable 2.5D
+### Affordable HD-2D
 
-- Can the scene be staged with reusable poses, portraits, props, camera inserts, lighting/VFX, small sprite shifts, and authored environment states?
-- Can destruction/water/crowds/machinery be communicated through prepared states rather than physics, fluid simulation, crowd AI, or bespoke cinematic animation?
-- Are micro-actions simplified when the same meaning can be carried by portrait/performance timing or an interaction pose?
+Can the scene be staged with:
+
+- reusable ~80 px field poses;
+- large portraits;
+- ordinary props;
+- bounded camera framing/pans/inserts;
+- lighting/VFX;
+- small sprite shifts/turns;
+- authored environment states;
+- layered background loops;
+- small reusable battle-background families where combat occurs?
+
+Can destruction, water, crowds, machinery, chains, weather and scale be communicated through authored states/layers/audio rather than simulation?
+
+Are micro-actions simplified when portrait/performance timing or a reusable interaction pose carries the same meaning?
+
+### Production tier
+
+Use:
+
+- C0 Conversational
+- C1 Staged
+- C2 Dramatic
+- C3 Spectacle
+- V1 Common
+- V2 Face/class identity
+- V3 Named signature
+- V4 Prime/boss spectacle
+
+Most scenes should remain C0–C1. C3/V4 are rare and must preserve late-game escalation room.
 
 ### No-choice continuity
 
@@ -113,19 +144,20 @@ Do not narrate an expression in text merely because the portrait/staging can sho
 - Trigger/completion flags are explicit data.
 - Cue metadata is a dictionary and does not secretly implement a new gameplay mechanic.
 - Schema validator passes.
-- Existing 7B.5/7B.6 regression suite remains green after integration.
+- Existing compatible 7B.5/7B.6 regression behavior remains green after integration.
+- Presentation implementation follows Audit87/Audit88 rather than retired 2.5D proof art direction.
 
 ## Definition of scene complete
 
-A Step 7C scene is complete only when:
+A Step 7C-style scene is complete only when:
 
 1. dialogue and performance are approved for canon/voice;
-2. the scene passes the whole-game scene-authoring standard, including gameplay spacing/random-battle/2.5D checks where relevant;
+2. the scene passes the whole-game scene-authoring standard, including gameplay spacing/random-battle/HD-2D affordability checks;
 3. Resource data passes schema validation;
 4. every referenced ID/expression/flag is valid or explicitly registered as a known production dependency;
 5. generic engine code required no character-specific dialogue hack;
 6. the scene introduces no player dialogue-choice architecture;
-7. implementation notes distinguish current supported cues from later presentation polish;
+7. implementation notes distinguish currently supported cues from later presentation polish;
 8. completion is recorded without silently rewriting controlling authority.
 
-Authorization to begin Step 7C does not itself approve an individual draft. Keep scene branches/drafts provisional until their review and validation are complete.
+Authorization to begin a chapter does not itself approve an individual draft. Keep drafts provisional until reviewed and validated.

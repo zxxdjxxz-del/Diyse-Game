@@ -1,63 +1,85 @@
-# Diyse — Completed Chapters 0–3 Authority Index
+# Diyse — Completed Chapters 0–4 Authority Index
 
-**Current whole-project authority:** Diyse Clean Active Complete Master Canon **v1.64 / Audit79** (August 18, 2026).
+**Current whole-project authority:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.73 / Audit88** (August 19, 2026).
 
-This directory is the repository-facing implementation/recovery index for the completed early-game chapters. It exists so implementation work can use already-approved scenes without reopening story, dialogue, characterization, relationship progression, knowledge firewalls, or affordable-2.5D staging decisions.
+This directory is the repository-facing implementation/recovery index for the completed early-game chapters. It exists so implementation work can use already-approved scenes without reopening story, dialogue, characterization, relationship progression, knowledge firewalls, gameplay outcomes or HD-2D conversion decisions.
 
 ## Closure state
 
-| Chapter | Title | Closed scene set | Repository implementation state |
+| Chapter | Title | Closed scene set | Repository state |
 |---|---|---|---|
-| 0 | The Broken Convoy | S001–S006 + C01/C02 | Exact dialogue Resources already merged/validated; later canon overlays control where they supersede old internal terminology. |
-| 1 | Brackenwall and the Wayfinder | S007–S011 + C03–C05 | **Line-complete canon source + production `.tres` Resource set present; exact source-parity and whole-chapter continuity validated.** |
-| 2 | The Drowned Oath | S012–S016 + C06/C07 | **Line-complete canon source + production `.tres` Resource set present; exact source-parity and whole-chapter continuity validated.** |
-| 3 | The Old City and Last Sentinel | S017–S021 + H01–H04 | **Line-complete corrected canon source + production `.tres` Resource set present; exact source-parity and whole-chapter continuity/Cresthaven validation passed.** |
+| 0 | The Broken Convoy | S001–S006 + C01/C02 | Exact dialogue Resources merged/validated; later canon overlays control incompatible historical internal terminology. |
+| 1 | Brackenwall and the Wayfinder | S007–S011 + C03–C05 | Line-complete source + production `.tres` Resources; exact source-parity and whole-chapter continuity validated. |
+| 2 | The Drowned Oath | S012–S016 + C06/C07 | Line-complete source + production `.tres` Resources; exact source-parity and whole-chapter continuity validated. |
+| 3 | The Old City and Last Sentinel | S017–S021 + H01–H04 | Line-complete corrected source + production `.tres` Resources; exact source-parity and whole-chapter continuity/Cresthaven validation passed. |
+| 4 | The Seventh Reaction | S022–S026 + C08/C09/H05 + Crown Prototype | Exact production dialogue source closed; `.tres` conversion/static validation present where currently implemented; runtime smoke/in-engine completion remains separate implementation QA. |
 
-Chapters 1–3 have all crossed the authoring→Resource checkpoint. There is no remaining closed Chapter 0–3 dialogue-Resource conversion backlog.
+There is no Chapters 0–4 story/dialogue authoring backlog.
+
+## HD-2D conversion closure
+
+All completed Chapters 0–4 have now passed **HD-2D Conversion Audit, Pass 1** plus a cross-chapter consistency/cost-consolidation pass.
+
+Controlling production record:
+
+`docs/production/HD2D_CHAPTERS_00_04_CONVERSION_AUDIT_PASS_1.md`
+
+Key global consequences:
+
+- HD-2D is the sole active presentation target.
+- Field characters ~80 px.
+- Battle characters ~200 px.
+- Large high-resolution dialogue portraits.
+- Four active party members left / enemies right / open center battle lane.
+- Layered authored environments, restrained cameras and selective geometry.
+- Small reusable battle-background families derived from field geography.
+- Chapter 0 retains seven authored tutorial encounters; normal random-encounter grammar begins in Chapter 1.
+- Exact visual masters and exact Yahtrea world-map geography remain controlling.
+- Older affordable-`2.5D` notes are reinterpreted as economical HD-2D staging rather than active presentation authority.
 
 ## Exact dialogue source
 
-Use [`dialogue/README.md`](dialogue/README.md) as the scene-level index.
+Use `dialogue/README.md` as the scene-level source index.
 
-For Chapters 1–3, the scene Markdown files under `docs/chapters/dialogue/` control exact approved wording and detailed production staging. The `CHAPTER_0X_COMPLETE.md` documents remain implementation-facing lock/index files and should not be used to reconstruct dialogue from summaries when the exact scene file exists.
+Chapters 1–4 have exact scene-level Markdown under `docs/chapters/dialogue/`. Chapter lock/index documents are implementation guardrails and should not be used to reconstruct exact wording when line-complete source exists.
 
-For Chapter 1, `game/content/dialogue/chapter_01/` contains the production Resource translation. `tests/dialogue/validate_chapter_01_resources.gd` enforces exact spoken source parity; `tests/dialogue/validate_chapter_01_continuity.gd` enforces chapter-level continuity/final-version locks.
-
-For Chapter 2, `game/content/dialogue/chapter_02/` contains the production Resource translation. `tests/dialogue/validate_chapter_02_resources.gd` enforces exact spoken source parity, including the offscreen prisoner and simultaneous Ilyra/Torren source forms; `tests/dialogue/validate_chapter_02_continuity.gd` enforces the Chapter 2 continuity, encounter-count, prisoner-agency, Rhazek-limit, relationship, knowledge-firewall, Character-Life, and durable-handoff locks.
-
-For Chapter 3, `game/content/dialogue/chapter_03/` contains the production Resource translation. `tests/dialogue/validate_chapter_03_resources.gd` enforces exact spoken source parity; `tests/dialogue/validate_chapter_03_continuity.gd` enforces the two S018 authority encounters, Nimera/choose-four handoff, Warden one-bar/two-state limit, Last Sentinel knowledge firewall, corrected S020→S021 Cresthaven sequence, and H01–H04 locks.
+Chapter 0 exact line/cue data remains the merged Resource set at commit `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5` where compatible with later canon.
 
 ## Authority order
 
 1. Newer explicit user correction.
-2. Complete Master Canon **v1.64 / Audit79**.
-3. Line-complete scene files in `docs/chapters/dialogue/`.
-4. Validated production Resources where a chapter conversion is complete and compatible with the exact source.
-5. Chapter lock/index files in this directory.
-6. Compatible earlier approved material only where it does not conflict with the above.
+2. Complete Master Canon **v1.73 / Audit88**.
+3. Audit88 HD-2D conversion record.
+4. Line-complete scene files under `docs/chapters/dialogue/`.
+5. Validated production Resources where compatible with exact source.
+6. Chapter lock/index files in this directory.
+7. Compatible earlier approved material only where it does not conflict with the above.
 
-Chapter 0 exact line/cue data remains the merged Resource set at commit `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5` where compatible with later canon. Older internal `Broken Champion's Ward` / `First Champion` interpretation remains superseded by the neutral incomplete Card-protection interpretation documented in `CHAPTER_00_COMPLETE.md`.
-
-## Chapter 3 geography / Cresthaven correction
+## Chapter 3 geography / Prime chronology lock
 
 Chapter 3 travels:
 
 **Caelora → Old City / Suppressed Archives → separate Cresthaven**
 
-The final S020→S021 handoff is explicit in both the line-complete source and validated Resource translation: the post-Warden command-record room proves how the false order was assembled; Torren copies a map-like routing display; the party returns to Mirena; Mirena identifies the destination as **Cresthaven, an abandoned Crown outpost in Southhold**; the party stops for the night; and the next morning Mirena is already there with workers/staff establishing it as a working headquarters while the investigation continues.
+The final S020→S021 handoff proves the false order's assembly, has Torren copy a routing display, returns the party to Mirena, identifies Cresthaven as an abandoned Crown outpost in Southhold and begins S021 the next morning with Mirena already establishing the headquarters.
 
-Cresthaven is never the Warden chamber, a Suppressed Archive room, or a district inside Caelora.
+S021 identifies/unlocks Last Sentinel but does not manifest it. First verified modern Prime manifestation occurs in S022's Elder Briarhide encounter.
 
-H01/H02/H03 retain their approved earlier story-eligibility points, but their runtime triggers also require actual Cresthaven access because their approved staging is at Cresthaven. H04 remains after S021 only.
+## Chapter 4 roster / Prime lock
 
-## Affordable 2.5D baseline
+Chapter 4 starts with permanent travelers Cyanis / Ilyra / Torren / Nimera. Maevra is not the default traveling member. Vaelira joins permanently during S022, taking the permanent roster to five while battle formation remains choose-four.
 
-Completed Chapters 0–3 passed the current feasibility baseline with no RED scene. Implement them with reusable portraits/poses, prop states, authored before/after environment states, prepared gates/routes, camera inserts, layered crowds, VFX, and silence. Do not create bespoke animation chains, physics destruction, fluid simulation, crowd AI, or actor-body copying merely because prose describes a physical action in detail.
+S022's Last Sentinel use establishes the first approved C3/V4 early-game event and the reusable Prime presentation pipeline.
 
-## Next implementation / authoring frontiers
+## Implementation boundary
 
-- **Closed-chapter dialogue Resource conversion:** none for Chapters 0–3.
-- **Follow-on implementation:** world triggers, maps, presentation assets, encounter consumers, Cresthaven hub functionality, and other runtime consumers can now use the validated early-chapter Resource baseline.
-- **New exact scene authoring:** Chapter 4 — The Seventh Reaction.
+A bounded implementation correction may update stable IDs, Resource metadata, internal labels, cue support, triggers, maps, presentation assets, battle-background consumers or other runtime plumbing without reopening approved wording, scene purpose, protected beats, relationships, geography, knowledge firewall, party-state changes or outcomes.
 
-Validated Resource conversion is not permission to rewrite closed dialogue.
+Historical internal names such as `Broken Champion's Ward` remain non-player-facing legacy handles and do not override current canon.
+
+## Next frontier
+
+- **Closed-chapter story/dialogue authoring:** none for Chapters 0–4.
+- **Completed-chapter HD-2D conversion audit:** COMPLETE / PASS / GREEN.
+- **Follow-on runtime implementation:** may now implement Chapters 0–4 against Audit88 without rewriting them.
+- **Next inherited scene-production/audit frontier:** Chapter 5 — **The Mountain Engine**, unless the user explicitly chooses another task.
