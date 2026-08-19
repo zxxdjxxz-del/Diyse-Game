@@ -326,6 +326,24 @@ All three are physically available for the Chapter 4 comparison. The first **two
 - The Annex remains safe while the route outside can retain its normal encounter state according to area fiction and CH4-A015.
 - Exact accepted wording/staging from the presented S025 transcript controls and must be preserved in the source file before implementation.
 
+### CH4-A020 — Torren smokes after dinner during the Chapter 4 Ivorybridge night
+
+**Date:** 2026-08-18  
+**Status:** LOCKED CHARACTER-LIFE / STAGING REQUIREMENT  
+**Acceptance type:** Direct user correction
+
+**Controlling user wording:**
+
+> Torren should be smoking at some point after dinner
+
+**Locked interpretation:**
+
+- Chapter 4 must include a visible Torren smoking beat **after dinner** during the Ivorybridge overnight period between S025 and the next-morning S026 material.
+- This is a normal established Torren habit, not a new plot point, mystery, or required emotional confession.
+- The smoking beat should fit naturally into the safe evening/free-roam or Character-Life staging and does **not** need to dominate a conversation merely because it is visible.
+- Preserve the existing no-modern-lighter presentation rule when staging how the blunt is lit; use a setting-appropriate existing flame/ember source rather than inventing a lighter.
+- Exact dialogue, exact Ivorybridge location, and whether the beat overlaps an optional-scene window remain working until the scene pass is finalized.
+
 ---
 
 ## SUPERSEDED / RETRACTED
@@ -352,7 +370,7 @@ The assistant incorrectly promoted material that the user never accepted.
 
 ## WORKING / NOT YET ACCEPTED
 
-S026 — **A Place Where Being Wrong Is Survivable** is the current working scene frontier.
+S026 — **A Place Where Being Wrong Is Survivable** is the current working scene frontier, with CH4-A020 requiring the Torren post-dinner smoking beat in the preceding Ivorybridge overnight state.
 
 S022, S023, S024, and S025 are accepted under CH4-A016–A019, subject to their later whole-chapter integration audit and any future explicit user corrections. Their exact accepted transcript wording/staging must be consolidated into their repository scene sources before Resource conversion.
 
@@ -371,4 +389,4 @@ S022, S023, S024, and S025 are accepted under CH4-A016–A019, subject to their 
 
 ## Next acceptance number
 
-**CH4-A020**
+**CH4-A021**
