@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="DiyseDialoguePortraitRegistry" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_portrait_registry.gd" id="1_registry"]
+
+[resource]
+script = ExtResource("1_registry")
+entries = [
+{"character_id": "nimera", "display_name": "Nimera", "portraits": {}},
+{"character_id": "torren", "display_name": "Torren", "portraits": {}},
+{"character_id": "cyanis", "display_name": "Cyanis", "portraits": {}},
+{"character_id": "ilyra", "display_name": "Ilyra", "portraits": {}},
+{"character_id": "worker", "display_name": "Worker", "portraits": {}},
+{"character_id": "technician", "display_name": "Technician", "portraits": {}},
+{"character_id": "vaelira", "display_name": "Vaelira", "portraits": {}},
+{"character_id": "junior_researcher", "display_name": "Junior Researcher", "portraits": {}},
+{"character_id": "annex_researcher", "display_name": "Annex Researcher", "portraits": {}},
+{"character_id": "medic", "display_name": "Medic", "portraits": {}},
+{"character_id": "senior_researcher", "display_name": "Senior Researcher", "portraits": {}},
+{"character_id": "researcher", "display_name": "Researcher", "portraits": {}},
+{"character_id": "annex_director", "display_name": "Annex Director", "portraits": {}},
+{"character_id": "researcher_2", "display_name": "Researcher 2", "portraits": {}}
+]
