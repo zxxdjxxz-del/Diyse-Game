@@ -136,6 +136,28 @@ Before drafting each Chapter 4 scene, do the same broader integration check used
 
 This requirement follows the existing project baseline in `docs/ACTIVE_CANON.md`: random battles are the ordinary hostile-exploration layer, safe/story pockets suppress triggering, and affordable 2.5D relies on reusable poses/portraits/props/camera inserts and authored environment states.
 
+### CH4-A007 — Promote the scene-authoring method to a permanent whole-game rule
+
+**Date:** 2026-08-18  
+**Status:** LOCKED / WHOLE-GAME WORKFLOW AUTHORITY  
+**Acceptance type:** Direct user instruction
+
+**Controlling user wording:**
+
+> This should be the rule going forward for the rest of the game it needs to be always remembered
+
+**Locked interpretation:**
+
+- CH4-A005 and CH4-A006 are no longer merely Chapter 4 habits; their combined scene-authoring method is the default workflow for **all remaining DIYSE scene development**.
+- The durable whole-game authority is now `docs/SCENE_AUTHORING_STANDARD.md`.
+- `docs/STEP_7C_AUTHORING_TEMPLATE.md` now requires that standard before new scene drafting.
+- The rule applies to Chapters 4–12, the Sixfold Accord, optional Character-Life/hub scenes, Hunt-linked authored scenes, battle-linked authored scenes, and `WORLD_AFTER` aftermath content, plus any earlier scene explicitly reopened later.
+- Before each scene: check story/continuity, knowledge, party state, personalities/voices, relationship progression, adult-natural dialogue, expressive JRPG/anime reactions, affordable 2.5D staging, gameplay breathing room, random-battle spacing where appropriate, encounter/boss/Hunt constraints where relevant, and the handoff into the next playable state.
+- Scene drafts may be normal useful size; this requirement does **not** force tiny-block authoring.
+- Dialogue must not crowd out exploration/combat. Hostile routes should contain real traversal/random-battle space between authored dialogue beats where fiction supports it; safe/story pockets remain encounter-suppressed.
+- Chapter completion still requires mandatory scenes plus that chapter's associated optional Character-Life/hub scenes, followed by a whole-chapter integration pass.
+- This whole-game rule remains active unless the user explicitly revises or supersedes it later.
+
 ---
 
 ## SUPERSEDED / RETRACTED
@@ -156,13 +178,13 @@ Consequences:
 
 - S022_B012–B014 are **not canon** and are not accepted Chapter 4 source.
 - `S022.md` has been restored to the actual accepted boundary: **S022_B001–B011 only**.
-- Future continuation resumes after B011 and may be drafted at normal scene-sized scope under CH4-A005 and CH4-A006.
+- Future continuation resumes after B011 and may be drafted at normal scene-sized scope under the whole-game standard promoted by CH4-A007.
 
 ---
 
 ## WORKING / NOT YET ACCEPTED
 
-No additional Chapter 4 material is currently accepted beyond CH4-A001, CH4-A002, CH4-A005 and CH4-A006.
+No additional Chapter 4 material is currently accepted beyond CH4-A001, CH4-A002, CH4-A005, CH4-A006 and CH4-A007.
 
 The next Chapter 4 scene/continuation after S022_B011 remains working until the user accepts, corrects, or replaces it.
 
@@ -177,4 +199,4 @@ The next Chapter 4 scene/continuation after S022_B011 remains working until the 
 
 ## Next acceptance number
 
-**CH4-A007**
+**CH4-A008**
