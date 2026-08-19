@@ -5,90 +5,200 @@
 ## Authority order for implementation work
 
 1. New explicit user instruction for the current task.
-2. **Diyse Clean Active Complete Master Canon v1.64 / Audit79** and any newer controlling project authority.
-3. `docs/ACTIVE_CANON.md`, `docs/IMPLEMENTATION_STATUS.md`, and the relevant closed chapter package under `docs/chapters/`.
-4. Compatible accepted technical annex/proof authority for exact system behavior, only where it does not conflict with v1.64 / Audit79 or newer corrections.
-5. Compatible completed dialogue-study craft authority and exact production source material.
-6. Relevant subsystem specification under `docs/`, including `DIALOGUE_AUTHORING_SCHEMA.md` for production dialogue.
-7. Existing production code and accepted regression tests, interpreted through current authority.
-8. Historical prototype/recovery material only when explicitly requested or when a current authority explicitly inherits a compatible clause.
+2. **Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.73 / Audit88** and newer controlling project authority.
+3. `docs/ACTIVE_CANON.md`, `docs/PRESENTATION_RULES.md`, `docs/IMPLEMENTATION_STATUS.md` and the relevant completed-chapter package under `docs/chapters/`.
+4. `docs/production/HD2D_CHAPTERS_00_04_CONVERSION_AUDIT_PASS_1.md` when touching Chapters 0–4 presentation/runtime implementation.
+5. Compatible accepted technical annex/proof authority for exact system behavior only where it does not conflict with Audit88.
+6. Compatible completed dialogue-study craft authority and exact production source material.
+7. Relevant subsystem specification under `docs/`.
+8. Existing production code and accepted regression tests interpreted through current authority.
+9. Historical prototype/recovery material only when explicitly requested or explicitly inherited.
 
-Do not use an older implementation, proof fixture, stale document, legacy identifier, or superseded numeric table to override a newer design rule.
+Do not use an older implementation, proof fixture, stale document, legacy identifier or superseded numeric table to override newer authority.
 
 ## Current phase rule
 
-Step 7B.5 technical feasibility is COMPLETE / PASS. Its accepted tests and real-device behavior are a technical regression baseline, not current whole-project canon and not an open experiment queue.
+- Step 7B.5 technical feasibility remains COMPLETE / PASS as historical Android engineering evidence where compatible with current authority.
+- Step 7B.6 production handoff remains COMPLETE / PASS.
+- Chapters 0–4 are COMPLETE/CLOSED in story/dialogue/gameplay authority.
+- Chapters 0–4 HD-2D Conversion Audit Pass 1 is COMPLETE / APPROVED.
+- Cross-chapter HD-2D consistency/cost consolidation is PASS / GREEN.
+- Chapter 5 — **The Mountain Engine** — is the next inherited exact scene-production / HD-2D production-audit frontier unless the user explicitly redirects work.
 
-Step 7B.6 production handoff is COMPLETE / PASS. Dialogue uses stable-ID Resources and portrait-registry indirection rather than embedding final text/assets into generic UI code.
+## HD-2D authority
 
-**Chapters 0–3 are COMPLETE/CLOSED authoring authority and their dialogue Resource conversions are complete/validated.**
+Diyse's active presentation target is **HD-2D**.
 
-- Chapter 0 is complete/merged as validated Resources at `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`, subject to later canon compatibility overlays.
-- Chapter 1 S007–S011 + C03–C05 is converted/validated with exact source parity and chapter continuity.
-- Chapter 2 S012–S016 + C06/C07 is converted/validated with exact source parity and chapter continuity.
-- Chapter 3 S017–S021 + H01–H04 is converted/validated with exact source parity, corrected Cresthaven geography/handoff, Warden limits, Last Sentinel timing, and optional-scene locks.
-- There is **no remaining Chapters 0–3 dialogue-Resource conversion backlog**.
-- Chapter 4 — **The Seventh Reaction** — is the next exact scene-authoring frontier.
+Older active `2.5D` and `3D` language is superseded. Historical proof documents may remain unchanged where they serve as provenance, but engineering must not reintroduce their retired presentation assumptions.
 
-## Closed-chapter implementation workflow
+Current production targets:
 
-For follow-on implementation in Chapters 0–3:
+- ~80 px field characters;
+- ~200 px battle characters;
+- large high-resolution dialogue portraits;
+- authored layered field environments;
+- bounded cameras and restrained parallax;
+- selective geometry for traversal/collision/occlusion only;
+- four active party members staggered left / enemies right / open center battle lane;
+- small reusable battle-background families derived from field geography;
+- exact visual masters control derivatives;
+- exact Yahtrea world-map geography remains controlling.
 
-- start from the relevant `docs/chapters/CHAPTER_0X_COMPLETE.md` and exact source/validated Resource set;
-- preserve approved scene purpose, protected lines/beats, pair progression, knowledge firewalls, geography, roster changes, combat handoffs, and affordable-2.5D staging;
-- wire world triggers, presentation consumers, encounter transitions, hub services, and final assets without changing approved wording;
-- update stable IDs or internal handles only through bounded, consumer-audited technical changes;
-- run the relevant chapter continuity/source-parity validators and broader regression after meaningful changes.
+## Completed-chapter implementation workflow
 
-A missing world map, trigger consumer, portrait asset, or presentation executor is **not evidence that the dialogue or canon is missing**.
+For follow-on implementation in Chapters 0–4:
+
+- start from the relevant chapter exact source/lock and current validated Resource set where one exists;
+- read the Audit88 HD-2D conversion record;
+- preserve approved scene purpose, protected lines/beats, pair progression, knowledge firewalls, geography, roster changes, combat handoffs and outcomes;
+- implement maps, presentation consumers, encounter transitions, hub states, final assets and VFX according to Audit88;
+- update stable IDs/internal handles only through bounded consumer-audited changes;
+- run relevant chapter source-parity/continuity validators and broader regression after meaningful changes.
+
+A missing world map, trigger consumer, portrait asset, battle background or presentation executor is **not evidence that dialogue/canon is missing**.
 
 ## New-authoring workflow
 
-For Chapter 4+ new scene work, use the chapter-level process proven earlier: one branch/PR per chapter or substantial narrative block, scene-level review/checkpointing, chapter continuity/voice/runtime review, then exact-head Godot + Android gating and one authority/archive checkpoint.
+For Chapter 5+ new scene work, use the chapter-level process in `docs/SCENE_AUTHORING_STANDARD.md`: one branch/PR per chapter or substantial narrative block, scene-level review/checkpointing, whole-chapter continuity/voice/pacing review, then appropriate Godot/Android gating and authority/archive checkpoint.
 
 ## No invention policy
 
-When a required implementation detail is missing, use a clearly labeled placeholder only when the milestone permits it, isolate it in data/configuration, document the assumption, and do not present it as canon. Never invent permanent mechanics, dialogue, lore, characters, relationships, Card identities, Prime rules, or story outcomes merely to unblock coding.
+When required implementation detail is missing, use a clearly labeled placeholder only when the milestone permits it, isolate it in data/configuration, document the assumption and do not present it as canon.
+
+Never invent permanent mechanics, dialogue, lore, characters, relationships, Card identities, Prime rules, story outcomes or presentation lore merely to unblock coding.
 
 ## Proven-architecture protection
 
-Do not casually replace or bypass accepted architecture:
+Do not casually replace accepted behavior:
 
-- 2.5D world-space exploration on real 3D fields;
 - authored dialogue with no player response system;
-- stable-ID Resource-backed production dialogue with portrait registry indirection and structural validation;
+- stable-ID Resource-backed dialogue with portrait registry indirection and structural validation;
 - discrete-round combat with enemy action locking and Item / Defend / Speed resolution;
 - deterministic automatic hostile retargeting;
 - unlimited data-driven Standard Cards;
-- directly controlled Prime replacement/suspension/return architecture where compatible with current Prime-state rules;
+- directly controlled Prime replacement/suspension/return architecture where compatible with current Prime rules;
 - versioned plain-data persistence separate from scene nodes;
 - Android as a first-class build/test target.
 
-Chapter 0's complete dialogue/Resource/continuity validation and Chapters 1–3 exact source-parity/continuity gates remain accepted regression baselines. If newer authority changes an accepted behavior, update code, documentation, and tests deliberately together.
+Do **not** protect retired presentation assumptions merely because they existed in the old proof. Current art/presentation must follow Audit87/Audit88 HD-2D grammar.
+
+## HD-2D cost discipline
+
+Prefer reusable authored composition over simulation.
+
+Use:
+
+- regional environment kits;
+- small battle-background families;
+- reusable body animation families;
+- portrait acting;
+- prop/environment state swaps;
+- selective background loops;
+- audio to imply offscreen scale;
+- modular Face/Card/Prime and elemental VFX;
+- one evolving Cresthaven master hub;
+- one common transition architecture;
+- one reusable nonlethal battle-resolution path.
+
+Avoid by default:
+
+- fully modeled cities;
+- seamless giant dungeons only to imply scale;
+- free-camera field navigation;
+- fluid/crowd/destruction/chain/cloth/hair simulation;
+- one bespoke battle arena per formation;
+- one bespoke actor animation per Ability;
+- six complete independent pipelines for six elements;
+- new full boss bodies for same-body/same-HP threshold changes.
+
+## Production tier discipline
+
+Use:
+
+- C0 Conversational
+- C1 Staged
+- C2 Dramatic
+- C3 Spectacle
+- V1 Common
+- V2 Face/class identity
+- V3 Named signature
+- V4 Prime/boss spectacle
+
+Most scenes are C0–C1. C3/V4 are rare. Preserve late-game escalation room.
+
+## Random encounters
+
+Random encounters remain the ordinary hostile-exploration layer where canon supports them.
+
+- Chapter 0 remains the seven-authored-tutorial-encounter exception.
+- Chapter 1 onward uses the campaign-standard fast random encounter transition in approved hostile areas.
+- Safe/story pockets suppress triggering.
+- Do not replace random encounters with roaming visible enemies without explicit canon revision.
+- Do not hardcode expected encounter counts in scene authority; derive testing expectations from actual geometry and rates.
+
+## Nonlethal presentation
+
+Where authored outcomes are restraint, retreat, stabilization or lawful de-escalation, use the reusable nonlethal resolution grammar rather than generic death/loot/victory presentation.
+
+Examples in completed Chapters 0–4 include Briarhide outcomes, Caelora authority encounters, Elder Briarhide and Elemental Hexarch.
+
+## Boss/form classification
+
+Before implementing a threshold, identify the canon category:
+
+1. **Same-body / same-HP escalation** — state/component/overlay/lighting/idle changes only.
+2. **Genuine new form** — fresh body/HP only where canon defines a genuinely new combat problem, as with Sixfold Crucible Form II.
+3. **Prime-scale entity** — use the reusable Prime manifestation pipeline.
+
+Never add an HP bar, transform, threshold action or Prime refresh that canon does not define.
+
+## Prime chronology / presentation
+
+- S021 identifies/unlocks Last Sentinel without manifestation.
+- S022 Elder Briarhide is the first verified modern Prime manifestation.
+- Optional content may not create an earlier manifestation.
+
+Technical presentation:
+
+command accepted → authored light/camera yield → exact Prime manifestation → one legal action → impact → dismissal → normal battle frame returns.
+
+Do not turn Prime use into a detached cinematic that bypasses legal combat resolution.
 
 ## Chapter 0 compatibility boundary
 
-The live S004/S005 Resource/test set still contains the old internal label `Broken Champion's Ward`. **v1.64 / Audit79** supersedes that as canon terminology: the phenomenon is only an incomplete green/gold protective response from the sealed Card, not a Prime/Last Sentinel activation or bearer confirmation.
+The live S004/S005 Resource/test set may still contain the old internal label `Broken Champion's Ward`. Current canon treats the event only as an incomplete green/gold protective Card response, not Prime/Last Sentinel activation or bearer confirmation.
 
-Do not blindly rename just the Resource or just the validator. A bounded cleanup must change matched internal handles together and preserve the approved temporary S004→S005 protection behavior unless a separate balance decision changes it.
+A bounded cleanup must update matched internal handles together and preserve approved behavior unless a separate balance decision changes it.
 
-Some old stable IDs also retain retired historical geography strings such as `BORDERLANDS`. Stable IDs are implementation handles, not formal Realm authority. Current geography is **Edgelands / Diysereach / Southhold**. Renaming a stable ID requires an audited consumer migration; leaving the legacy string in an internal ID does not restore the retired geography term to canon.
+Legacy stable IDs may retain retired historical geography strings. Stable IDs are implementation handles, not player-facing geography authority. Current formal geography is **Edgelands / Diysereach / Southhold**.
 
 ## Critical geography boundary
 
-Chapter 3 is **Caelora → Old City / Suppressed Archives → separate Cresthaven**. Never collapse Cresthaven into the Old City during implementation.
+Chapter 3 is:
 
-The post-Warden sequence is fixed: command-record room proves false-order assembly; Torren copies map-like routing geometry; party returns to Mirena; Mirena identifies Cresthaven as an abandoned Crown outpost; party stops overnight; S021 begins next morning with Mirena already establishing the headquarters.
+**Caelora → Old City / Suppressed Archives → separate Cresthaven**.
 
-## Current numerical/system corrections that override old technical material
+Never collapse Cresthaven into the Old City.
 
-- Absolute character level cap: **60**; Worldframe Depths remains specifically Level 50.
+The post-Warden sequence is fixed: command-record room proves false-order assembly; Torren copies routing geometry; party returns to Mirena; Mirena identifies Cresthaven; overnight stop; S021 next morning with Mirena already establishing headquarters.
+
+## Current numerical/system corrections
+
+- Absolute character level cap: **60**; Worldframe Depths remains Level 50.
 - Cards: **30 Standard + 12 Prime = 42 total**.
-- Standard Cards are unlimited-use; four Standard slots per permanent character.
+- Standard Cards are unlimited-use.
+- Permanent commands: Attack / Ability / Card / Item / Defend.
 - Current Story Primes: Last Sentinel / Last Measure / Last Convergence / Last Scribe / Last Sanctuary / Last Erasure.
-- Current Prime states are controlled by v1.64 / Audit79; old two-round Recovered, old First Champion naming, old 70/80/90 HP rules, and boss-form refresh rules are superseded.
-- Current exact once-per-battle Prime scope and the other items explicitly listed OPEN in v1.64 must remain OPEN rather than being filled from old proof documents.
+- Faces/colors: Might Ruby; Elements Emerald; Grace Blue; Resource Gold; Change Fuchsia; Ruin Purple.
 
 ## Scope discipline
 
-For each task identify the exact subsystem being changed, avoid unrelated refactors, preserve public interfaces unless intentionally changing them, add/update deterministic tests where practical, report temporary shortcuts, and distinguish production content from fixtures.
+For each task:
+
+- identify the exact subsystem being changed;
+- avoid unrelated refactors;
+- preserve public interfaces unless intentionally changing them;
+- add/update deterministic tests where practical;
+- report temporary shortcuts;
+- distinguish production content from fixtures;
+- distinguish canon closure, HD-2D conversion authority and runtime implementation status.
