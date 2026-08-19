@@ -148,6 +148,25 @@ All three are physically available for the Chapter 4 comparison. The first **two
 
 **Correction to CH4-A001:** The earlier sentence implying the Wayfinder map was the first map found chronologically is invalid and is superseded by this entry. The rest of CH4-A001 remains active.
 
+### CH4-A010 — Cresthaven territorial creature returns before Ivorybridge
+
+**Date:** 2026-08-18  
+**Status:** LOCKED STORY-ARCHITECTURE CORRECTION  
+**Acceptance type:** Direct user instruction
+
+**Controlling user wording:**
+
+> It can be some kind of creature that had been living on the cresthaven grounds before they arrived and it has returned and is pissed
+
+**Locked interpretation:**
+
+- Before the party leaves Cresthaven for Ivorybridge, a **territorial creature that had been living on the abandoned Cresthaven grounds** returns.
+- The creature's hostility is ecological/territorial: Crown workers and the party have occupied and disturbed what had effectively become its den/territory while the outpost was abandoned.
+- The creature is not a Black Host agent, Ancient construct, or story conspiracy delivery mechanism unless later explicitly changed.
+- This return provides the mandatory real-combat opportunity in which **Last Sentinel can be manifested in front of the party**, so the first verified modern Prime manifestation is witnessed in authored story rather than being left to an optional/random encounter.
+- Exact creature species/name, visual design, den location on the grounds, battle mechanics, whether it is killed or driven off, and exact Last Sentinel tutorial scripting remain WORKING until separately approved.
+- The encounter should use existing Cresthaven/perimeter production space where possible and follow the affordable-2.5D / authored-encounter rules.
+
 ---
 
 ## SUPERSEDED / RETRACTED
@@ -176,6 +195,8 @@ The assistant incorrectly promoted material that the user never accepted.
 
 S022 is currently **REOPENED / WORKING FROM SCRATCH**. No replacement S022 dialogue is accepted yet.
 
+The exact Cresthaven territorial creature design and battle implementation introduced by CH4-A010 remain working until approved.
+
 ---
 
 ## Supersession index
@@ -189,4 +210,4 @@ S022 is currently **REOPENED / WORKING FROM SCRATCH**. No replacement S022 dialo
 
 ## Next acceptance number
 
-**CH4-A010**
+**CH4-A011**
