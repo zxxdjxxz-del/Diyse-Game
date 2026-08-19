@@ -29,6 +29,7 @@ The ledger distinguishes:
 7. Before drafting the next Chapter 4 scene, check this ledger and the current whole-project authority.
 8. **Before each scene, briefly re-check the participating characters' personalities/voice anchors and the relationship state relevant to that scene so the writing stays in character.** This is a scene-level guardrail, not a requirement to break scenes into tiny dialogue blocks.
 9. Preserve the established adult-natural dialogue style and expressive 2D/2.5D JRPG/anime reaction language without turning either into a rigid per-line checklist.
+10. **Before each scene, also check the broader production/gameplay requirements:** continuity and knowledge firewall, current party state, scene purpose, affordable 2.5D staging, exploration/combat rhythm, random-battle eligibility, encounter spacing, and any relevant Hunt/optional-content or chapter-transition state. Do not turn a chapter route into uninterrupted dialogue; allow traversal and random-battle spaces between authored conversations where the fiction supports hostile exploration.
 
 ---
 
@@ -107,6 +108,34 @@ The ledger distinguishes:
 
 **Supersedes:** CH4-A003's overly strict “before every pass/block” interpretation.
 
+### CH4-A006 — Scene-level full production/gameplay check and dialogue spacing
+
+**Date:** 2026-08-18  
+**Status:** LOCKED  
+**Acceptance type:** Direct user workflow correction
+
+**Controlling user wording:**
+
+> Also doing the other checks and cheap 2.5d, random battles with spaces in-between dialogue like we did on the other chapters
+
+**Locked workflow requirement:**
+
+Before drafting each Chapter 4 scene, do the same broader integration check used on the completed chapters, not only the personality/relationship check:
+
+- confirm the scene's story purpose, continuity, chronology, geography and current party state;
+- preserve the modern-knowledge / Ancient-Diysean knowledge firewall and avoid future-lore leakage;
+- check character personalities and current relationships as required by CH4-A005;
+- stage the scene for **affordable 2.5D production** using reusable portraits, expression/pose swaps, camera inserts, props, authored environment states, lighting/VFX and small sprite movement rather than expensive bespoke cinematic animation, physics simulation or systemic crowd behavior;
+- preserve the established adult-natural dialogue plus expressive JRPG/anime reaction performance;
+- treat **traditional random battles as the normal hostile-exploration layer where fiction supports them**;
+- suppress random encounters in authored safe/story pockets, towns, conversations, boss staging and other deliberately controlled moments;
+- leave real **exploration/traversal space between dialogue scenes and dialogue clusters** so the chapter does not become an uninterrupted conversation corridor;
+- use appropriately sized random-battle stretches rather than giant empty zones or a fixed forced battle after every conversation;
+- when a route or dungeon continues across multiple story beats, let gameplay breathe between them with movement, exploration, environmental observation and encounter pressure before the next authored dialogue trigger;
+- check relevant encounter/boss/Hunt/optional-scene rules and chapter-transition consequences before locking the scene.
+
+This requirement follows the existing project baseline in `docs/ACTIVE_CANON.md`: random battles are the ordinary hostile-exploration layer, safe/story pockets suppress triggering, and affordable 2.5D relies on reusable poses/portraits/props/camera inserts and authored environment states.
+
 ---
 
 ## SUPERSEDED / RETRACTED
@@ -127,13 +156,13 @@ Consequences:
 
 - S022_B012–B014 are **not canon** and are not accepted Chapter 4 source.
 - `S022.md` has been restored to the actual accepted boundary: **S022_B001–B011 only**.
-- Future continuation resumes after B011 and may be drafted at normal scene-sized scope under CH4-A005.
+- Future continuation resumes after B011 and may be drafted at normal scene-sized scope under CH4-A005 and CH4-A006.
 
 ---
 
 ## WORKING / NOT YET ACCEPTED
 
-No additional Chapter 4 material is currently accepted beyond CH4-A001, CH4-A002, and CH4-A005.
+No additional Chapter 4 material is currently accepted beyond CH4-A001, CH4-A002, CH4-A005 and CH4-A006.
 
 The next Chapter 4 scene/continuation after S022_B011 remains working until the user accepts, corrects, or replaces it.
 
@@ -148,4 +177,4 @@ The next Chapter 4 scene/continuation after S022_B011 remains working until the 
 
 ## Next acceptance number
 
-**CH4-A006**
+**CH4-A007**
