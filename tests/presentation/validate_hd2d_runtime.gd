@@ -1,6 +1,7 @@
 extends SceneTree
 
 const Hd2dRuntime = preload("res://game/presentation/hd2d_runtime.gd")
+const BattlePresentationController = preload("res://game/presentation/battle_presentation_controller.gd")
 const EnvironmentStateDefinition = preload("res://game/presentation/environment_state_definition.gd")
 const EncounterPresentationDefinition = preload("res://game/presentation/encounter_presentation_definition.gd")
 const DialogueSceneDefinition = preload("res://game/dialogue/dialogue_scene_definition.gd")
@@ -10,6 +11,7 @@ var failures: Array[String] = []
 func _initialize() -> void:
 	_test_reference_targets()
 	_test_battle_layout()
+	_test_battle_layout_controller()
 	_test_quality_scaling()
 	_test_environment_states()
 	_test_encounter_presentation_without_enemy_placement()
@@ -34,6 +36,40 @@ func _test_battle_layout() -> void:
 		_expect(anchor.x > lane.end.x, "Enemy slot %d must remain right of the action lane" % i)
 	_expect(Hd2dRuntime.party_anchor(-1) == Vector2(-1.0, -1.0), "Invalid party slots must not silently map onto a legal anchor")
 	_expect(Hd2dRuntime.enemy_anchor(999) == Vector2(-1.0, -1.0), "Invalid enemy slots must not silently map onto a legal anchor")
+
+func _test_battle_layout_controller() -> void:
+	var controller = BattlePresentationController.new()
+	var party_nodes: Array[Node2D] = []
+	var enemy_nodes: Array[Node2D] = []
+	for _i in range(4):
+		party_nodes.append(Node2D.new())
+	for _i in range(3):
+		enemy_nodes.append(Node2D.new())
+	controller.bind_and_layout(party_nodes, enemy_nodes, Hd2dRuntime.REFERENCE_SIZE)
+
+	for i in range(party_nodes.size()):
+		_expect(party_nodes[i].position == Hd2dRuntime.party_anchor(i), "Battle controller must place party slot %d at the permanent Audit88 anchor" % i)
+	for i in range(enemy_nodes.size()):
+		_expect(enemy_nodes[i].position == Hd2dRuntime.enemy_anchor(i), "Battle controller must place enemy slot %d on the enemy side" % i)
+
+	var prime := Node2D.new()
+	prime.visible = false
+	_expect(controller.begin_prime_presentation("last_sentinel", prime), "Prime presentation must begin with a valid Prime ID and node")
+	for node in party_nodes:
+		_expect(not node.visible, "Prime presentation must temporarily suspend normal party visuals")
+	_expect(prime.visible, "Prime presentation must make the Prime visual active")
+	_expect(controller.active_prime_id() == "last_sentinel", "Prime presentation must expose its active Prime ID")
+	_expect(controller.finish_prime_presentation(), "Prime presentation must return successfully")
+	for node in party_nodes:
+		_expect(node.visible, "Party visuals must return after Prime dismissal")
+	_expect(not prime.visible, "Prime visual must dismiss at the end of the presentation")
+
+	for node in party_nodes:
+		node.free()
+	for node in enemy_nodes:
+		node.free()
+	prime.free()
+	controller.free()
 
 func _test_quality_scaling() -> void:
 	var low := Hd2dRuntime.decorative_quality_profile(0)
