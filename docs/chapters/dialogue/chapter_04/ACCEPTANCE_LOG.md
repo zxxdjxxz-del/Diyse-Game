@@ -106,7 +106,7 @@ Before drafting each Chapter 4 scene, also verify story/continuity, knowledge fi
 ### CH4-A008 — Reopen and restart S022 under the new whole-game rules
 
 **Date:** 2026-08-18  
-**Status:** LOCKED CHANGE-CONTROL INSTRUCTION  
+**Status:** LOCKED CHANGE-CONTROL INSTRUCTION; fixed encounter-count clause superseded by CH4-A015  
 **Acceptance type:** Direct user instruction
 
 **Controlling user wording:**
@@ -120,7 +120,8 @@ Before drafting each Chapter 4 scene, also verify story/continuity, knowledge fi
 - CH4-A001's three-map continuity correction remains controlling because the user did not reopen or reverse it.
 - The replacement S022 must be authored from scratch under `docs/SCENE_AUTHORING_STANDARD.md`.
 - The new pass must include scene-level checks for character voice/relationships, continuity/knowledge, affordable 2.5D staging, gameplay breathing room, and random-battle spacing where appropriate.
-- The known Chapter 4 pacing authority remains relevant: Ivorybridge proper is safe from random encounters; the Sixfold Annex approach supports roughly 2–3 ordinary random encounters; Vaelira's competence/model must be demonstrated before its limits are exposed.
+- Ivorybridge proper remains safe from random encounters, and Vaelira's competence/model must be demonstrated before its limits are exposed.
+- The former clause assigning the Sixfold Annex approach a rough **2–3 ordinary random encounter** target is superseded by CH4-A015; encounter quantity is area/exploration driven instead.
 - No replacement S022 wording becomes canon until the user accepts it.
 
 ### CH4-A009 — First map is the Hollow Watch rubbing from Chapter 1
@@ -241,6 +242,27 @@ All three are physically available for the Chapter 4 comparison. The first **two
 - The battle then ends and the party's first-verifiable-Prime reaction dialogue occurs **after combat**, not as an interruption inside Rounds 1–3.
 - This four-round structure is an authored onboarding encounter for the first modern Prime manifestation. It does not redefine the normal command structure for ordinary battles elsewhere in the game.
 
+### CH4-A015 — Random encounter quantity is determined by area size and exploration, not a preset approximate count
+
+**Date:** 2026-08-18  
+**Status:** LOCKED / WHOLE-GAME WORKFLOW CORRECTION  
+**Acceptance type:** Direct user correction
+
+**Controlling user wording:**
+
+> You are still using the approximate number of battles it should be determined by the size of the area and exploration ect..
+
+**Locked interpretation:**
+
+- Do **not** assign a fixed or approximate random-battle count to a traversal area during scene authoring simply to hit a target number of fights.
+- The amount of random combat a player experiences must emerge from the **actual size and shape of the playable area**, traversable distance, branching paths, optional reward pockets, exploration choices, backtracking, safe/story pockets, encounter-rate/trigger implementation, and the route the player chooses.
+- A player taking the direct route may naturally see fewer battles than a player who explores side paths or covers more ground.
+- Scene and chapter scripts should define **where random encounters are enabled or suppressed**, the character of the playable space, and the exploration opportunities. They should not state an authored promise such as “roughly 2–3 random battles.”
+- If testing/balancing later needs an expected encounter range, that range must be **derived from the implemented area geometry and encounter rate**, not chosen first and used to dictate the area's size.
+- For S022 specifically, the **Sixfold Annex approach remains a hostile/random-encounter-enabled traversal area**, with safe authored pockets where appropriate, but its number of random battles is not predetermined. It depends on the final size of the approach and how much the player explores.
+- This supersedes the former CH4-A008 clause assigning the Sixfold Annex approach a rough **2–3 encounter** target and supersedes any working S022 wording that repeats that approximation.
+- This clarification is also added to the permanent whole-game `docs/SCENE_AUTHORING_STANDARD.md`; it applies to future chapters and any earlier scene explicitly reopened under the standard. It does not by itself reopen completed Chapters 0–3.
+
 ---
 
 ## SUPERSEDED / RETRACTED
@@ -269,7 +291,7 @@ The assistant incorrectly promoted material that the user never accepted.
 
 S022 is currently **REOPENED / WORKING FROM SCRATCH**. No replacement S022 dialogue is accepted yet.
 
-The Elder Briarhide species/territorial premise, one-HP-bar/no-transformation structure, exact Last Sentinel visual, and four-round onboarding flow are locked. Exact Elder Briarhide stats/move tuning, exact round-four UI presentation, den placement, and post-battle dialogue remain working until approved in the scene pass.
+The Elder Briarhide species/territorial premise, one-HP-bar/no-transformation structure, exact Last Sentinel visual, four-round onboarding flow, and area-driven random-encounter rule are locked. Exact Elder Briarhide stats/move tuning, exact round-four UI presentation, den placement, post-battle dialogue, Sixfold Annex approach map size/layout, and final encounter density remain working until approved/implemented at the appropriate pass.
 
 ---
 
@@ -281,8 +303,9 @@ The Elder Briarhide species/territorial premise, one-HP-bar/no-transformation st
 | CH4-A002 | SUPERSEDED | CH4-A008 |
 | CH4-A003 | SUPERSEDED | CH4-A005 |
 | CH4-A004 | RETRACTED / INVALID PROMOTION | — |
+| CH4-A008 rough 2–3 random-encounter target | SUPERSEDED | CH4-A015 |
 | CH4-A013 open guarantee method | RESOLVED / FURTHER SPECIFIED | CH4-A014 |
 
 ## Next acceptance number
 
-**CH4-A015**
+**CH4-A016**
