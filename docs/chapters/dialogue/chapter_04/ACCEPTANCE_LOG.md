@@ -472,6 +472,24 @@ All three are physically available for the Chapter 4 comparison. The first **two
 - First clear releases the pre-existing **Relentless Flurry** Might Standard Card from the prototype branch; the enemy does not manufacture or transform into the Card.
 - The branch remains optional and returnable, uses existing Annex production language, and does not add Black Host, Ancient, Entity, or second-plot revelations.
 
+### CH4-A029 — Maevra is no longer a party member at the start of Chapter 4
+
+**Date:** 2026-08-18  
+**Status:** LOCKED / DIRECT ROSTER CORRECTION  
+**Acceptance type:** Direct user correction
+
+**Controlling user wording:**
+
+> Only other thing is that Maevra is no longer a party member at the start of chapter 4. She still shows up at cresthaven for scenes sometimes and whenever else she's needed
+
+**Locked interpretation:**
+
+- Chapter 4 begins with **Cyanis, Ilyra, Torren, and Nimera** as the active traveling permanent party.
+- **Maevra is not a party member at the start of Chapter 4** and is not part of default formation selection, normal field travel, random battles, camp-party assumptions, or Sixfold Annex gameplay unless a later scene explicitly requires her presence.
+- Maevra remains a **recurring ally / supporting character**. She may appear at Cresthaven for scenes, planning, conversations, or other story business, and may appear elsewhere whenever the story specifically needs her.
+- Vaelira still joins permanently during S022, taking the active permanent traveling roster from **four to five**.
+- This correction does not reopen S022–S026, C08, C09, or H05. Their accepted staging is compatible with the corrected roster; S022 already opens with Cyanis, Ilyra, Torren, and Nimera only.
+
 ---
 
 ## SUPERSEDED / RETRACTED
@@ -498,9 +516,11 @@ The assistant incorrectly promoted material that the user never accepted.
 
 ## WORKING / NOT YET ACCEPTED
 
-Chapter 4 mandatory S022–S026, C08, C09, H05, and Crown Prototype Hunt architecture are accepted through CH4-A028.
+Chapter 4 mandatory S022–S026, C08, C09, H05, Crown Prototype Hunt architecture, and the corrected Chapter 4 roster state are accepted through CH4-A029.
 
-The active frontier is now the **final whole-chapter integration/closure pass plus repository source consolidation**. The accepted transcripts still need to be consolidated into `S022.md`, new `S023.md`–`S026.md`, the optional-scene sources, and the Crown Prototype Hunt source before Resource conversion/validation.
+The accepted Markdown authoring sources have now been consolidated on `author/chapter-04-dialogue` as `S022.md`–`S026.md`, `C08.md`, `C09.md`, `H05.md`, and `HUNT_04_CROWN_PROTOTYPE.md`.
+
+The active frontier is now **final source validation / Chapter 4 closure**, followed later by production Resource conversion/validation when that implementation pass begins.
 
 ---
 
@@ -519,4 +539,4 @@ The active frontier is now the **final whole-chapter integration/closure pass pl
 
 ## Next acceptance number
 
-**CH4-A029**
+**CH4-A030**
