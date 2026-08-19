@@ -164,8 +164,25 @@ All three are physically available for the Chapter 4 comparison. The first **two
 - The creature's hostility is ecological/territorial: Crown workers and the party have occupied and disturbed what had effectively become its den/territory while the outpost was abandoned.
 - The creature is not a Black Host agent, Ancient construct, or story conspiracy delivery mechanism unless later explicitly changed.
 - This return provides the mandatory real-combat opportunity in which **Last Sentinel can be manifested in front of the party**, so the first verified modern Prime manifestation is witnessed in authored story rather than being left to an optional/random encounter.
-- Exact creature species/name, visual design, den location on the grounds, battle mechanics, whether it is killed or driven off, and exact Last Sentinel tutorial scripting remain WORKING until separately approved.
 - The encounter should use existing Cresthaven/perimeter production space where possible and follow the affordable-2.5D / authored-encounter rules.
+
+### CH4-A011 — Elder Briarhide selected for the Cresthaven return encounter
+
+**Date:** 2026-08-18  
+**Status:** LOCKED / ACCEPTED  
+**Acceptance type:** Explicit acceptance — “Yes I like it”
+
+**Accepted encounter choice:**
+
+- The returning territorial creature is an **Elder Briarhide**: a larger, older individual of the already-established Briarhide species rather than a wholly new monster.
+- It is **not** the same Briarhide individual fought in Chapter 1.
+- It had claimed the abandoned Cresthaven grounds as territory/den space before Mirena's crews and the party reoccupied the outpost.
+- It returns to find its territory disturbed and reacts as an enraged territorial animal, not as a corrupted, controlled, Black Host, Ancient, or plot-delivery creature.
+- Production should reuse the existing Briarhide creature language/rig where possible, with scale/proportion/scar/wear adjustments appropriate to an elder specimen rather than commissioning a completely unrelated enemy.
+- The encounter can beef up the existing Briarhide combat identity into a stronger authored elite: heavier durability and physical pressure, while remaining one creature with **one HP bar and no transformation** unless later explicitly revised.
+- The encounter remains the intended authored opportunity for Cyanis's **first Last Sentinel manifestation in front of the party** before departure for Ivorybridge.
+
+**Still OPEN for scene drafting/review:** exact den location on the Cresthaven grounds, exact Elder Briarhide move list/tuning, whether it is killed or driven away, exact mandatory Last Sentinel tutorial scripting, and exact post-manifestation dialogue/reactions.
 
 ---
 
@@ -195,7 +212,7 @@ The assistant incorrectly promoted material that the user never accepted.
 
 S022 is currently **REOPENED / WORKING FROM SCRATCH**. No replacement S022 dialogue is accepted yet.
 
-The exact Cresthaven territorial creature design and battle implementation introduced by CH4-A010 remain working until approved.
+The exact Elder Briarhide encounter mechanics, den location, outcome, Last Sentinel tutorial details, and aftermath dialogue remain working until approved.
 
 ---
 
@@ -210,4 +227,4 @@ The exact Cresthaven territorial creature design and battle implementation intro
 
 ## Next acceptance number
 
-**CH4-A011**
+**CH4-A012**
