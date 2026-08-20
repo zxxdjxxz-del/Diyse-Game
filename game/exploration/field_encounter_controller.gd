@@ -4,6 +4,16 @@ class_name DiyseFieldEncounterController
 signal battle_requested(payload: Dictionary)
 
 const Pressure = preload("res://game/exploration/encounter_pressure.gd")
+
+const TRANSITION_SAME_ECOLOGY := "same_ecology"
+const TRANSITION_NEW_ECOLOGY := "new_ecology"
+const TRANSITION_SAFE_RESET := "safe_reset"
+const ALLOWED_TRANSITION_MODES := [
+	TRANSITION_SAME_ECOLOGY,
+	TRANSITION_NEW_ECOLOGY,
+	TRANSITION_SAFE_RESET,
+]
+
 const Selector = preload("res://game/exploration/encounter_selector.gd")
 
 var pressure
@@ -17,23 +27,76 @@ var authored_paused := false
 var battle_active := false
 var last_formation_id := ""
 var pending_battle: Dictionary = {}
+var context_configured := false
+var transition_mode_on_entry := TRANSITION_SAME_ECOLOGY
 
 func _init(seed_value: int = 0) -> void:
 	pressure = Pressure.new(seed_value)
 	var selector_seed := 0 if seed_value == 0 else seed_value + 1
 	selector = Selector.new(selector_seed)
 
-func configure_context(new_chapter: int, new_area_id: String, new_world_units_per_s: float) -> bool:
+func configure_context(
+	new_chapter: int,
+	new_area_id: String,
+	new_world_units_per_s: float,
+	transition_mode: String = TRANSITION_SAME_ECOLOGY
+) -> bool:
 	if battle_active:
+		return false
+	if transition_mode not in ALLOWED_TRANSITION_MODES:
 		return false
 	if new_world_units_per_s <= 0.0:
 		return false
 	if not selector.supports_context(new_chapter, new_area_id):
 		return false
+
+	var context_changed := context_configured and (
+		chapter != new_chapter or area_id != new_area_id
+	)
+	if context_configured:
+		if transition_mode == TRANSITION_SAFE_RESET:
+			pressure.reset_for_safe_room()
+			last_formation_id = ""
+		elif transition_mode == TRANSITION_NEW_ECOLOGY and context_changed:
+			pressure.apply_transition_grace()
+
 	chapter = new_chapter
 	area_id = new_area_id
 	world_units_per_s = new_world_units_per_s
+	transition_mode_on_entry = transition_mode
+	context_configured = true
 	enabled = true
+	_apply_pause_state()
+	return true
+
+func configure_tuning(tuning) -> bool:
+	if tuning == null or not tuning.has_method("validate_schema"):
+		return false
+	var failures: Array = tuning.validate_schema()
+	if not failures.is_empty():
+		return false
+
+	var transition_mode := str(tuning.get("transition_mode_on_entry"))
+	var tuning_enabled := bool(tuning.get("random_encounters_enabled"))
+	if tuning_enabled:
+		return configure_context(
+			int(tuning.get("chapter")),
+			str(tuning.get("random_area_id")),
+			float(tuning.get("world_units_per_s")),
+			transition_mode
+		)
+
+	if battle_active:
+		return false
+	if transition_mode == TRANSITION_SAFE_RESET:
+		pressure.reset_for_safe_room()
+		last_formation_id = ""
+		chapter = 0
+		area_id = ""
+		world_units_per_s = 0.0
+		context_configured = false
+	transition_mode_on_entry = transition_mode
+	enabled = false
 	_apply_pause_state()
 	return true
 
@@ -141,6 +204,9 @@ func reset_for_safe_room() -> bool:
 
 func pressure_fraction_s() -> float:
 	return float(pressure.distance_s)
+
+func transition_grace_fraction_s() -> float:
+	return float(pressure.grace_remaining_s)
 
 func has_pending_battle() -> bool:
 	return battle_active and not pending_battle.is_empty()
