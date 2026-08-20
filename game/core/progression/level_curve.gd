@@ -6,6 +6,7 @@ const MAX_LEVEL := 60
 const RAMP_START_LEVEL := 17
 const RAMP_END_LEVEL := 59
 const RAMP_GAIN := 0.35
+const ROUND_EPSILON := 0.000001
 
 static func level_up_cost(current_level: int) -> int:
 	if current_level < MIN_LEVEL or current_level >= MAX_LEVEL:
@@ -14,7 +15,7 @@ static func level_up_cost(current_level: int) -> int:
 	if current_level < RAMP_START_LEVEL:
 		return base_cost
 	var multiplier := 1.0 + RAMP_GAIN * float(current_level - RAMP_START_LEVEL) / float(RAMP_END_LEVEL - RAMP_START_LEVEL)
-	return int(round(float(base_cost) * multiplier / 100.0)) * 100
+	return _round_to_nearest_hundred_half_even(float(base_cost) * multiplier)
 
 static func cumulative_exp_for_level(level: int) -> int:
 	var clamped_level := clampi(level, MIN_LEVEL, MAX_LEVEL)
@@ -37,3 +38,18 @@ static func exp_to_next_level(exp_total: int) -> int:
 	if level >= MAX_LEVEL:
 		return 0
 	return maxi(cumulative_exp_for_level(level + 1) - maxi(exp_total, 0), 0)
+
+# Audit98 publishes exact cumulative milestones. Godot's built-in round() uses a
+# different .5 tie rule than the validation model that produced those locked
+# milestones, so make the tie behavior explicit and platform-independent.
+static func _round_to_nearest_hundred_half_even(value: float) -> int:
+	var scaled := value / 100.0
+	var lower := floori(scaled)
+	var fraction := scaled - float(lower)
+	if fraction < 0.5 - ROUND_EPSILON:
+		return lower * 100
+	if fraction > 0.5 + ROUND_EPSILON:
+		return (lower + 1) * 100
+	if lower % 2 == 0:
+		return lower * 100
+	return (lower + 1) * 100
