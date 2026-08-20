@@ -54,6 +54,9 @@ jobs:
       - name: Run Audit98 generated random-encounter battle-state validation
         run: godot --headless --path . --script tests/combat/validate_generated_encounter_battle_state.gd
 
+      - name: Run Audit98 transient field-combat-field loop validation
+        run: godot --headless --path . --script tests/encounters/validate_transient_random_encounter_loop.gd
+
       - name: Run exploration, dialogue, combat, Card, Prime, and persistence smoke validation
         run: godot --headless --path . --script tests/smoke/validate_project.gd
 
