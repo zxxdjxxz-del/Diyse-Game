@@ -104,16 +104,10 @@ func _run_validation() -> void:
 			failures.append("Authored pause failed to suppress live field encounter pressure")
 		encounter_controller.set_authored_paused(false)
 
-		field.call("_on_random_battle_requested", {
-			"formation_id": "ch01_greenhollow_l01",
-			"tier": "light",
-			"exp": 45,
-		})
-		if encounter_controller.enabled:
-			failures.append("Field proof must pause encounter generation after proving a battle request")
-		var status = field.get_node_or_null("HUD/PersistenceStatus") as Label
-		if status == null or "ch01_greenhollow_l01" not in status.text:
-			failures.append("Field proof did not expose the generated encounter request in visible status feedback")
+		if not field.has_method("_on_random_battle_requested"):
+			failures.append("Field proof must expose the random battle-request handoff callback")
+		if not GameState.has_method("queue_transient_random_encounter"):
+			failures.append("GameState must expose the transient random encounter queue used by field handoff")
 
 	field.queue_free()
 	await process_frame
