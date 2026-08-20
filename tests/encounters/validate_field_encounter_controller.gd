@@ -57,6 +57,10 @@ func _validate_trigger_and_payload(controller, failures: Array[String]) -> void:
 		failures.append("Battle request signal must emit exactly once for one pressure trigger")
 	if not controller.has_pending_battle():
 		failures.append("Controller must remain battle-active after emitting a request")
+	if controller.configure_context(1, "ch01_brackenwall", 10.0):
+		failures.append("Controller allowed area context to change while a battle was active")
+	if controller.area_id != "ch01_greenhollow":
+		failures.append("Rejected in-battle context change still mutated the active area")
 
 	var pressure_before_block := controller.pressure_fraction_s()
 	if not controller.advance_eligible_distance(20.0, [0.0], 0.0, 0.0).is_empty():
