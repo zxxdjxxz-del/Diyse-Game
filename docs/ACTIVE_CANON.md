@@ -4,9 +4,10 @@ This is an implementation-facing summary. It does **not** replace the authoritat
 
 ## Current written authority
 
-- **Whole-project root:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.76 / Audit91 — Seyrik Pre-Reveal, Black Host Advancement, and Chapter 5 Beat-Rewrite Gate Lock**.
+- **Whole-project root:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.77 / Audit92 — Chapter 9 Crownfall Invasion, Rhazek Climax, and Larkspire Hunt Lock**.
 - **Date:** August 20, 2026.
 - **Immediate inherited chain:**
+  - v1.76 / Audit91 — Seyrik Pre-Reveal, Black Host Advancement, and Chapter 5 Beat-Rewrite Gate Lock;
   - v1.75 / Audit90 — Chapters 0–7 Enemy Production and Terminology Lock;
   - v1.74 / Audit89 — Chapters 11–12 Macro Story Structure and Final-Act Causality Lock;
   - v1.73 / Audit88 — Chapters 0–4 HD-2D Conversion and Cost-Consolidation Closure;
@@ -17,6 +18,7 @@ This is an implementation-facing summary. It does **not** replace the authoritat
   - v1.68 / Audit83 — Major Hunt #1 Ashen Whitehorn Full Production Authority Lock;
   - v1.67 / Audit82 — Regional Hunts #1–#3 Full Production Authority and Prime-Chronology Lock;
   - v1.66 / Audit81 — Chapter 4 Full Production Dialogue, Character-Life, Crown Prototype Hunt and Roster-State Lock.
+- Audit92 promotion: `docs/canon/AUDIT92_CHAPTER_9_CROWNFALL_INVASION_RHAZEK_CLIMAX_AND_LARKSPIRE_HUNT_LOCK.md`.
 - Audit91 promotion: `docs/canon/AUDIT91_SEYRIK_PRE_REVEAL_BLACK_HOST_ADVANCEMENT_AND_CHAPTER_5_BEAT_REWRITE_GATE_LOCK.md`.
 - Audit90 promotion: `docs/canon/AUDIT90_CHAPTERS_00_07_ENEMY_PRODUCTION_AND_TERMINOLOGY_LOCK.md`.
 - Audit89 promotion: `docs/canon/AUDIT89_CHAPTERS_11_12_MACRO_STORY_STRUCTURE_AND_FINAL_ACT_CAUSALITY_LOCK.md`.
@@ -26,6 +28,7 @@ This is an implementation-facing summary. It does **not** replace the authoritat
 - Audit90 controls Chapters 0–7 enemy-production families, encounter-roster handling, carryovers, party-only `Sixfold` terminology, and the Chapter 4 Reaction Annex terminology corrections.
 - Audit89 remains the **macro-story production authority** for Chapters 11–12. It does not claim line-complete dialogue or runtime implementation for those chapters.
 - Audit91 locks Seyrik's Chapter 2 pre-reveal identity, Chapter 5 Seyrik/Rhazek architecture, Chapter 6 cumulative break motivation, and a mandatory **beat rewrite before Chapter 5 dialogue**.
+- Audit92 locks Chapter 9's Larkspire → Equal Mercy → Crownfall invasion route, Rhazek/Bastion Devourer climax, Crownfall reoccupation/defensive role, and post-Chapter-9 Larkspire Regional Hunt #9 — Mercyfallen Behemoth.
 - Chapter 5 — **The Mountain Engine** — remains the next inherited exact scene-production / HD-2D production-audit frontier unless the user explicitly chooses another task.
 
 ## Presentation authority
@@ -129,7 +132,7 @@ The same principle applies to every other exact approved character, antagonist, 
 | Accord | Sixfold Accord | locked interlude architecture |
 | Ch7 | The Prison of Names | inherited architecture |
 | Ch8 | Westreach and the Marshal | inherited architecture |
-| Ch9 | Equal Mercy and Continuity | inherited architecture; Rhazek final-confrontation destination remains around Ch9, exact placement/architecture still open |
+| Ch9 | Equal Mercy and Continuity | **Audit92 macro-locked:** S047 Equal Mercy → S048 Last Sanctuary → S049 Crownfall invasion → S050 Mercy Is Not Surrender; Rhazek/Bastion Devourer climax at Crownfall; Regional Hunt #9 Mercyfallen Behemoth at Larkspire; exact S049 title and Ch9→Ch10 hook remain open |
 | Ch10 | Crown Engine and Sixfold Truth | Custodian/Last Weapon truth feeds directly into Lysara's final-offensive decision; detailed inherited architecture |
 | Ch11 | The Reforged March | Audit89 macro-locked: final Black Mountains campaign; Varkesh capture precedes Forward Hub; Elite/Hunt separated; Vaelkor two-form climax; post-Vaelkor cleanup; deliberate Ch12 launch |
 | Ch12 | The Last Command | Audit89 macro-locked: no Regional Hunt; Devourer Elite; Last Weapon Archive fragment reveal; Last Weapon Archon; Reconstituted Entity → Last Command; modern Final Severance |
@@ -148,6 +151,29 @@ The same principle applies to every other exact approved character, antagonist, 
 - By Chapter 6, Seyrik's break is cumulative: he has witnessed Rhazek's prisoner treatment, already understands what Varkesh is capable of, and has now seen the consequences of Zevraya's actions. Rising through the ranks has shown him what Black Host upper command actually is and what continued advancement would make him become.
 - Core Seyrik sentiment: **“I know what comes next if I stay.”** Treat this as a thematic lock, not necessarily final verbatim dialogue.
 - Seyrik's turn remains restrained and unsentimental; no sudden redemption speech, no implication that Zevraya alone causes the break, and no absolution of prior complicity.
+
+## Chapter 9 Crownfall / Rhazek / Larkspire Hunt — Audit92
+
+- S047–S048 remain the Larkspire / Equal Mercy / Last Sanctuary half centered on Ilyra and Grace.
+- S049 shifts west to **Crownfall Redoubt**, not Caelora. Yahtrea has only recently reoccupied and hastily restored Crownfall’s usable upper/outer works; the old deep ruins remain distinct.
+- Maevra is the senior Yahtrean field commander at Crownfall. The Army is already fighting when the permanent party arrives.
+- Rhazek’s main western assault partly fixes Crownfall’s defenders in place while he enters with a smaller elite infiltration force through an old lower/internal route.
+- Rhazek’s strategic objective is to permanently disable Crownfall’s inner barrier/gate machinery so the route out of the Black Mountains cannot be properly resealed without major reconstruction.
+- S050 **Mercy Is Not Surrender** begins immediately after that reveal. Maevra remains with the main defense while the permanent six pursue Rhazek.
+- Rhazek Phase 1 is his disciplined commander expression. The party stops the demolition, causing the military operation to fail.
+- Rhazek then voluntarily couples himself to a specialized fortification-breaking siege apparatus, becoming **Bastion Devourer**. This is a genuine story-grounded physical escalation into a living siege weapon, not an arbitrary mutation.
+- Bastion Devourer is destructive/breaching-focused. Its external material and Rhazek’s armor progressively break away, ending in a short exposed/unarmored Rhazek segment without another fresh full HP bar.
+- Ilyra’s controlling Chapter 9 thesis is that mercy does not require permitting a fully aware aggressor to continue harming others.
+- Rhazek is defeated; Crownfall’s inner barrier survives; the main Black Host force withdraws; Crownfall remains damaged but viable.
+- The existing post-Chapter-5 **Crownless Siege Marshal → Oathbound Colossus** Major Hunt remains deeper in old Crownfall and is not replaced by the Chapter 9 story path.
+- Regional Hunt #9 is now the post-Chapter-9 Larkspire return against **Mercyfallen Behemoth**, replacing Palace Emergency Marshal.
+- Hunt route: **Larkspire Lower Hospice → Abandoned Quarantine Walk → Recovery Reservoir → Mercyfallen Behemoth arena**.
+- Mercyfallen Behemoth is an ancient therapeutic/recovery organism whose regenerative function catastrophically overgrew; it is a dangerous organism/monster, not a human/patient nonlethal target.
+- Hunt mechanics center on regeneration, adaptive/reallocated defenses, magical/damage-pattern absorption or adaptation, and vulnerable nodes exposed while power is redirected into recovery. One sustained HP bar; no fresh second bar.
+- Protected first-clear reward remains **Prismatic Reserve — Resource Standard Card**: party elemental protection plus a short Spirit increase; the Card is pre-existing and not created by the Behemoth.
+- **OPEN:** exact final S049 title and exact Chapter 9 → Chapter 10 hook into Caelora / Crown Engine.
+- **OPEN / FUTURE PRODUCTION:** Chapter 9 ordinary-enemy and Elite roster reconciliation under the new Larkspire + Crownfall route. The older Caelora-dependent Chapter 9 enemy proposal does not control where it conflicts with Audit92.
+- Chapter 9 development remains **beats only** unless the user explicitly requests dialogue.
 
 ## Permanent cast / class / Face / Story Prime
 
@@ -295,6 +321,7 @@ Full-production locks:
 - **Hunt #2 — Transfer Executioner:** post-S016. Return: Dunmere → cleared Bastion shortcut → former prisoner safe pocket → Extraction Causeway → opened west branch → short Transfer Spine → Hunt chamber. Same-bar low-HP state: Final Disposition. Missing-brother thread remains unresolved. No protected unique Card reward.
 - **Hunt #3 — Archive Judgment Engine:** judgment branch changes state after S021 and becomes inspectable; actual combat becomes available after S022 to preserve first-Prime chronology. Return uses Old City/Suppressed Archive shortcut. Protected first-clear reward: **Reversal Engine — Change Standard Card**, pre-existing and not created by the Engine.
 - **Hunt #4 — Crown Prototype:** post-Chapter-4 Annex branch. One enemy / one HP bar / no transformation. Protected first-clear reward: **Relentless Flurry — Might Standard Card**, pre-existing and not created by the Prototype.
+- **Hunt #9 — Mercyfallen Behemoth:** post-Chapter-9 Larkspire return. Route: Larkspire Lower Hospice → Abandoned Quarantine Walk → Recovery Reservoir → Mercyfallen Behemoth arena. Ancient therapeutic/recovery organism with catastrophic regenerative overgrowth; one sustained HP bar; adaptive/reallocated defenses and exposed recovery nodes. Protected first-clear reward: **Prismatic Reserve — Resource Standard Card**, pre-existing and not created by the Behemoth. Palace Emergency Marshal is retired from this slot.
 - **Hunt #11 — Throne of Emperor Vaelkor:** Chapter 11 deeper post-Varkesh campaign; optional; secretly corrupted ancient Diysean construct appropriated/modified by Black Host; preserve **Sealed Throne → Walking Throne**; if unfinished, remains available through the post-Vaelkor cleanup window; deliberate Chapter 12 launch closes access. Detailed production remains open beyond the Audit89 macro locks.
 - **Chapter 12 has no Regional Hunt.** Current established Regional Hunt count is therefore **11** unless a later explicit revision assigns another pre-finale Regional Hunt. Six Major Hunts remain separate.
 
@@ -333,7 +360,7 @@ Core early voices:
 - Mirena: witty/observant/mischievous/politically impatient; public cleaner, private warmer/more profane.
 - Lysara: patient/observant/dry funny/affectionate/stubborn/practical; continuity without stagnation and restraint of sovereign ownership.
 
-Protected early dialogue/relationship progression is recorded in the line-complete source under `docs/chapters/dialogue/` and chapter lock files. Audit88 changes presentation/implementation, not wording. Audit89 does not pre-author Chapter 11–12 line-complete dialogue. Audit91 likewise does not line-write Chapter 5; it requires the Chapter 5 beat rewrite first.
+Protected early dialogue/relationship progression is recorded in the line-complete source under `docs/chapters/dialogue/` and chapter lock files. Audit88 changes presentation/implementation, not wording. Audit89 does not pre-author Chapter 11–12 line-complete dialogue. Audit91 likewise does not line-write Chapter 5; it requires the Chapter 5 beat rewrite first. Audit92 likewise does not line-write Chapter 9; current Chapter 9 development remains beat-level until explicitly reopened for dialogue.
 
 ## Audit89 Chapter 11 macro story authority
 
@@ -465,7 +492,7 @@ The approved early-game implementation should be treated as a small set of durab
 2. **Genuine new form** — substantial new art only when the encounter truly becomes a new body/combat problem, as with Regulation Crucible Form II.
 3. **Prime-scale entity** — use the Prime pipeline rather than ordinary boss-state logic.
 
-Audit89 explicitly classifies Vaelkor's Form I → Sovereign Panoply Unbound and Reconstituted Entity → The Last Command as genuine authored multi-form boss progressions; do not collapse them into same-bar states.
+Audit89 explicitly classifies Vaelkor's Form I → Sovereign Panoply Unbound and Reconstituted Entity → The Last Command as genuine authored multi-form boss progressions; do not collapse them into same-bar states. Audit92 likewise treats Rhazek’s commander state → Bastion Devourer as a genuine physical/narrative siege escalation, followed by a short exposed same-encounter finish rather than a third fresh full-health form.
 
 ### Android scaling
 
@@ -494,6 +521,8 @@ Audit89 similarly does **not** claim Chapter 11–12 line-complete scene authori
 Audit90 is an enemy-production/terminology authority and does not claim that its approved rosters are already fully implemented.
 
 Audit91 is a story-continuity/workflow authority. It does not line-write Chapter 5; it requires the beat-level rewrite/reconciliation to occur before Chapter 5 dialogue production begins.
+
+Audit92 is a Chapter 9 macro-story / boss / Hunt authority. It does not line-write Chapter 9, and it intentionally leaves the exact S049 title, exact Chapter 9 → Chapter 10 hook, and the ordinary-enemy/Elite production-roster re-audit open.
 
 Historical 7B.5/7B.6 proofs remain regression evidence for accepted system behavior where compatible. Placeholder/graybox proof assets remain non-canon.
 
