@@ -1,9 +1,17 @@
 extends Node3D
 
+const FieldEncounterController = preload("res://game/exploration/field_encounter_controller.gd")
+
 const AREA_ID := "field_proof"
 const TALK_DISTANCE_FALLBACK := 3.0
 const CHEST_DISTANCE := 2.35
 const COMBAT_SCENE := "res://game/combat/combat_proof.tscn"
+
+# Engineering proof tuning only. This is not production map calibration or canon.
+const ENCOUNTER_PROOF_CHAPTER := 1
+const ENCOUNTER_PROOF_AREA_ID := "ch01_greenhollow"
+const ENCOUNTER_PROOF_WORLD_UNITS_PER_S := 20.0
+const ENCOUNTER_PROOF_SEED := 9801
 
 const CYANIS_NEUTRAL := "res://game/characters/placeholders/portraits/cyanis_neutral.svg"
 const CYANIS_AMUSED := "res://game/characters/placeholders/portraits/cyanis_amused.svg"
@@ -26,7 +34,9 @@ const TORREN_DRY := "res://game/characters/placeholders/portraits/torren_dry.svg
 @onready var persistence_status: Label = $HUD/PersistenceStatus
 @onready var dialogue_runner: Control = $HUD/DialogueRunner
 
+var encounter_controller
 var _player_in_talk_range := false
+var _encounter_proof_message := "Encounter proof armed: resolved movement feeds Audit98 pressure."
 
 func _ready() -> void:
 	talk_button.pressed.connect(_start_dialogue)
@@ -38,15 +48,32 @@ func _ready() -> void:
 	dialogue_runner.conversation_finished.connect(_on_dialogue_finished)
 	interaction_area.body_entered.connect(_on_interaction_body_entered)
 	interaction_area.body_exited.connect(_on_interaction_body_exited)
+	_setup_encounter_proof()
 	_apply_game_state_to_field()
 	call_deferred("_refresh_interaction_state")
 	_refresh_persistence_visuals("Ready. SAVE writes to Android user storage; LOAD restores it.")
+
+func _setup_encounter_proof() -> void:
+	encounter_controller = FieldEncounterController.new(ENCOUNTER_PROOF_SEED)
+	encounter_controller.name = "EncounterProofController"
+	add_child(encounter_controller)
+	if not encounter_controller.configure_context(
+		ENCOUNTER_PROOF_CHAPTER,
+		ENCOUNTER_PROOF_AREA_ID,
+		ENCOUNTER_PROOF_WORLD_UNITS_PER_S
+	):
+		_encounter_proof_message = "Encounter proof unavailable: invalid test context."
+		return
+	player.eligible_distance_moved.connect(_on_player_eligible_distance_moved)
+	encounter_controller.battle_requested.connect(_on_random_battle_requested)
 
 func _process(_delta: float) -> void:
 	GameState.current_area = AREA_ID
 	GameState.field_position = player.global_position
 
 	var dialogue_active: bool = bool(dialogue_runner.is_running())
+	if encounter_controller != null:
+		encounter_controller.set_authored_paused(dialogue_active)
 	save_button.disabled = dialogue_active
 	load_button.disabled = dialogue_active
 	if dialogue_active:
@@ -65,6 +92,22 @@ func _process(_delta: float) -> void:
 
 	if near_torren and Input.is_key_pressed(KEY_ENTER):
 		_start_dialogue()
+
+func _on_player_eligible_distance_moved(distance: float) -> void:
+	if encounter_controller == null:
+		return
+	encounter_controller.advance_eligible_distance(distance)
+
+func _on_random_battle_requested(payload: Dictionary) -> void:
+	# This pass proves live traversal -> encounter request only. Combat payload
+	# handoff is deliberately deferred until generic formation setup exists.
+	encounter_controller.set_enabled(false)
+	_encounter_proof_message = "Random request proof: %s | %s | %d EXP. Controller paused before combat handoff." % [
+		str(payload.get("formation_id", "unknown")),
+		str(payload.get("tier", "unknown")).to_upper(),
+		int(payload.get("exp", 0))
+	]
+	_refresh_persistence_visuals(_encounter_proof_message)
 
 func _on_interaction_body_entered(body: Node3D) -> void:
 	if body == player:
@@ -104,6 +147,8 @@ func _is_player_near_chest() -> bool:
 func _start_dialogue() -> void:
 	if dialogue_runner.is_running() or not _is_player_in_talk_range():
 		return
+	if encounter_controller != null:
+		encounter_controller.set_authored_paused(true)
 	player.set_movement_enabled(false)
 	touch_dpad.visible = false
 	talk_button.visible = false
@@ -113,6 +158,8 @@ func _start_dialogue() -> void:
 	dialogue_runner.start_conversation(_proof_beats())
 
 func _on_dialogue_finished() -> void:
+	if encounter_controller != null:
+		encounter_controller.set_authored_paused(false)
 	player.set_movement_enabled(true)
 	touch_dpad.visible = true
 	combat_button.visible = true
@@ -121,6 +168,8 @@ func _on_dialogue_finished() -> void:
 func _start_combat() -> void:
 	if dialogue_runner.is_running():
 		return
+	if encounter_controller != null:
+		encounter_controller.set_authored_paused(true)
 	GameState.current_area = AREA_ID
 	GameState.field_position = player.global_position
 	get_tree().change_scene_to_file(COMBAT_SCENE)
@@ -191,14 +240,18 @@ func _refresh_persistence_visuals(message: String = "") -> void:
 	var chest_state := "OPEN" if bool(GameState.flags.get("proof_chest_opened", false)) else "CLOSED"
 	var story_state := "SET" if bool(GameState.flags.get("proof_story_flag", false)) else "UNSET"
 	var save_state := "FOUND" if SaveManager.has_save() else "NONE"
-	persistence_status.text = "%s\nSave: %s | Chest: %s | Torren: %s | Story flag: %s | XP: %d | Gold: %d" % [
+	var pressure_text := "OFF"
+	if encounter_controller != null:
+		pressure_text = "%.3fS" % encounter_controller.pressure_fraction_s()
+	persistence_status.text = "%s\nSave: %s | Chest: %s | Torren: %s | Story flag: %s | XP: %d | Gold: %d\nEncounter proof pressure: %s" % [
 		message,
 		save_state,
 		chest_state,
 		str(GameState.flags.get("torren_state", "normal")),
 		story_state,
 		int(GameState.rewards.get("xp", 0)),
-		int(GameState.rewards.get("gold", 0))
+		int(GameState.rewards.get("gold", 0)),
+		pressure_text
 	]
 
 func _proof_beats() -> Array:
