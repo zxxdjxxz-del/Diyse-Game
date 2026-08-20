@@ -30,7 +30,7 @@ func _validate_configuration(controller, failures: Array[String]) -> void:
 
 func _validate_trigger_and_payload(controller, failures: Array[String]) -> void:
 	emitted_payloads.clear()
-	var before := controller.advance_eligible_distance(3.4, [0.0], 0.0, 0.0)
+	var before: Dictionary = controller.advance_eligible_distance(3.4, [0.0], 0.0, 0.0)
 	if not before.is_empty():
 		failures.append("Field controller triggered before 0.35S")
 	if absf(controller.pressure_fraction_s() - 0.34) > 0.0001:
@@ -62,7 +62,7 @@ func _validate_trigger_and_payload(controller, failures: Array[String]) -> void:
 	if controller.area_id != "ch01_greenhollow":
 		failures.append("Rejected in-battle context change still mutated the active area")
 
-	var pressure_before_block := controller.pressure_fraction_s()
+	var pressure_before_block: float = controller.pressure_fraction_s()
 	if not controller.advance_eligible_distance(20.0, [0.0], 0.0, 0.0).is_empty():
 		failures.append("Eligible movement must not spawn another encounter while battle is active")
 	if absf(controller.pressure_fraction_s() - pressure_before_block) > 0.0001:
@@ -108,14 +108,14 @@ func _validate_battle_return_states(controller, failures: Array[String]) -> void
 		failures.append("Cancelled battle request left controller latched in battle state")
 
 func _validate_pause_transition_and_safe_room(controller, failures: Array[String]) -> void:
-	var before_pause := controller.pressure_fraction_s()
+	var before_pause: float = controller.pressure_fraction_s()
 	controller.set_authored_paused(true)
 	controller.advance_eligible_distance(50.0, [0.0], 0.0, 0.0)
 	if absf(controller.pressure_fraction_s() - before_pause) > 0.0001:
 		failures.append("Authored pause allowed encounter pressure to advance")
 	controller.set_authored_paused(false)
 
-	var before_transition := controller.pressure_fraction_s()
+	var before_transition: float = controller.pressure_fraction_s()
 	if not controller.configure_context(1, "ch01_brackenwall", 10.0):
 		failures.append("Controller rejected a valid same-chapter area transition")
 	if absf(controller.pressure_fraction_s() - before_transition) > 0.0001:
