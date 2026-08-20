@@ -30,6 +30,9 @@ jobs:
       - name: Run Audit88 Chapter 0 HD-2D presentation resource validation
         run: godot --headless --path . --script tests/presentation/validate_chapter_00_hd2d.gd
 
+      - name: Run Audit88 Chapter 1 HD-2D presentation resource validation
+        run: godot --headless --path . --script tests/presentation/validate_chapter_01_hd2d.gd
+
       - name: Run exploration, dialogue, combat, Card, Prime, and persistence smoke validation
         run: godot --headless --path . --script tests/smoke/validate_project.gd
 

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DiyseScenePresentationDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/presentation/scene_presentation_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+scene_id = "S008"
+chapter_id = "chapter_01"
+environment_family = "CH01_HOLLOW_WATCH"
+battle_background_family = "CH01_HOLLOW_WATCH"
+cutscene_tier = "C2"
+vfx_tier = "V2"
+encounter_mode = "mixed"
+presentation_tags = Array[String](["HD2D", "RANDOM_ALLOWED", "CASTELLAN_SAME_BODY_SAME_HP", "AUTHORED_BREAK_FREE", "SECURED_RETURN_NO_RANDOM"])
