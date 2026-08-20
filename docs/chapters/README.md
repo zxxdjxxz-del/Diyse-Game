@@ -1,10 +1,10 @@
-# Diyse — Completed Chapters 0–4 Authority Index
+# Diyse — Chapter Authority Index
 
-**Current whole-project authority:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.73 / Audit88** (August 19, 2026).
+**Current whole-project authority:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.74 / Audit89** (August 20, 2026).
 
-This directory is the repository-facing implementation/recovery index for the completed early-game chapters. It exists so implementation work can use already-approved scenes without reopening story, dialogue, characterization, relationship progression, knowledge firewalls, gameplay outcomes or HD-2D conversion decisions.
+This directory is the repository-facing implementation/recovery index for completed early-game chapters and later chapter-specific macro locks. It exists so implementation work can use already-approved material without reopening story, dialogue, characterization, relationship progression, knowledge firewalls, gameplay outcomes or HD-2D conversion decisions.
 
-## Closure state
+## Closure state — Chapters 0–4
 
 | Chapter | Title | Closed scene set | Repository state |
 |---|---|---|---|
@@ -16,9 +16,29 @@ This directory is the repository-facing implementation/recovery index for the co
 
 There is no Chapters 0–4 story/dialogue authoring backlog.
 
+## Later chapter macro locks
+
+Audit89 adds repository-facing macro-story authority for Chapters 11–12 without claiming line-complete scene production:
+
+- `chapter_11/CHAPTER_11_FORWARD_HUB_AND_FINAL_CLEANUP_WINDOW_LOCK.md`
+  - Varkesh defeat/capture now precedes Forward Hub establishment;
+  - post-Vaelkor cleanup and deliberate Chapter 12 launch remain locked.
+- `chapter_11/ACCEPTANCE_LOG.md`
+  - CH11-A002 records the Audit89 Chapter 11 campaign/Elite/Hunt/Vaelkor alignment.
+- `chapter_12/CHAPTER_12_MACRO_STORY_STRUCTURE_LOCK.md`
+  - locks the Chapter 12 physical progression, fragment reveal, Last Weapon Archon, Reconstituted Entity → Last Command, Final Severance and aftermath.
+- `chapter_12/ACCEPTANCE_LOG.md`
+  - CH12-A001 records the Audit89 final-operation authority.
+
+Whole-project controlling promotion:
+
+`docs/canon/AUDIT89_CHAPTERS_11_12_MACRO_STORY_STRUCTURE_AND_FINAL_ACT_CAUSALITY_LOCK.md`
+
+These later chapter files are macro structure, **not** line-complete dialogue.
+
 ## HD-2D conversion closure
 
-All completed Chapters 0–4 have now passed **HD-2D Conversion Audit, Pass 1** plus a cross-chapter consistency/cost-consolidation pass.
+All completed Chapters 0–4 have passed **HD-2D Conversion Audit, Pass 1** plus a cross-chapter consistency/cost-consolidation pass.
 
 Controlling production record:
 
@@ -45,15 +65,18 @@ Chapters 1–4 have exact scene-level Markdown under `docs/chapters/dialogue/`. 
 
 Chapter 0 exact line/cue data remains the merged Resource set at commit `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5` where compatible with later canon.
 
+Chapters 11–12 do **not** yet have line-complete dialogue under Audit89; future scene work must be derived from the macro locks rather than invented from obsolete material.
+
 ## Authority order
 
 1. Newer explicit user correction.
-2. Complete Master Canon **v1.73 / Audit88**.
-3. Audit88 HD-2D conversion record.
-4. Line-complete scene files under `docs/chapters/dialogue/`.
-5. Validated production Resources where compatible with exact source.
-6. Chapter lock/index files in this directory.
-7. Compatible earlier approved material only where it does not conflict with the above.
+2. Complete Master Canon **v1.74 / Audit89**.
+3. Audit89 Chapters 11–12 macro-story/final-act causality lock where applicable.
+4. Audit88 HD-2D conversion record for Chapters 0–4.
+5. Line-complete scene files under `docs/chapters/dialogue/` where they exist.
+6. Validated production Resources where compatible with exact source.
+7. Chapter lock/index files in this directory.
+8. Compatible earlier approved material only where it does not conflict with the above.
 
 ## Chapter 3 geography / Prime chronology lock
 
@@ -77,9 +100,12 @@ A bounded implementation correction may update stable IDs, Resource metadata, in
 
 Historical internal names such as `Broken Champion's Ward` remain non-player-facing legacy handles and do not override current canon.
 
+Audit89 similarly does not authorize silent changes to Chapter 11–12 knowledge/reveal order, Varkesh→Forward Hub timing, Elite/Hunt categories, Vaelkor forms, Last Weapon survival mechanism, final-boss forms, Final Severance functions or aftermath outcome.
+
 ## Next frontier
 
 - **Closed-chapter story/dialogue authoring:** none for Chapters 0–4.
 - **Completed-chapter HD-2D conversion audit:** COMPLETE / PASS / GREEN.
-- **Follow-on runtime implementation:** may now implement Chapters 0–4 against Audit88 without rewriting them.
+- **Follow-on runtime implementation:** may implement Chapters 0–4 against Audit88 without rewriting them.
+- **Chapters 11–12:** macro story locked under Audit89; detailed scene production remains future work.
 - **Next inherited scene-production/audit frontier:** Chapter 5 — **The Mountain Engine**, unless the user explicitly chooses another task.

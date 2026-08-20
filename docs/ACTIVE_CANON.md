@@ -4,9 +4,10 @@ This is an implementation-facing summary. It does **not** replace the authoritat
 
 ## Current written authority
 
-- **Whole-project root:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.73 / Audit88 — Chapters 0–4 HD-2D Conversion and Cost-Consolidation Closure**.
-- **Date:** August 19, 2026.
+- **Whole-project root:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.74 / Audit89 — Chapters 11–12 Macro Story Structure and Final-Act Causality Lock**.
+- **Date:** August 20, 2026.
 - **Immediate inherited chain:**
+  - v1.73 / Audit88 — Chapters 0–4 HD-2D Conversion and Cost-Consolidation Closure;
   - v1.72 / Audit87 — HD-2D Production Grammar and Legacy Presentation Language Closure;
   - v1.71 / Audit86 — Cyanis Exact Visual Authority Lock;
   - v1.70 / Audit85 — Yahtrea Exact World Map Visual and Spatial Authority Lock;
@@ -14,10 +15,12 @@ This is an implementation-facing summary. It does **not** replace the authoritat
   - v1.68 / Audit83 — Major Hunt #1 Ashen Whitehorn Full Production Authority Lock;
   - v1.67 / Audit82 — Regional Hunts #1–#3 Full Production Authority and Prime-Chronology Lock;
   - v1.66 / Audit81 — Chapter 4 Full Production Dialogue, Character-Life, Crown Prototype Hunt and Roster-State Lock.
+- Audit89 promotion: `docs/canon/AUDIT89_CHAPTERS_11_12_MACRO_STORY_STRUCTURE_AND_FINAL_ACT_CAUSALITY_LOCK.md`.
 - Audit88 promotion: `docs/canon/AUDIT88_CHAPTERS_00_04_HD2D_CONVERSION_AND_COST_CONSOLIDATION_CLOSURE.md`.
 - Detailed completed-chapter production record: `docs/production/HD2D_CHAPTERS_00_04_CONVERSION_AUDIT_PASS_1.md`.
-- Chapters **0–4 are COMPLETE/CLOSED** in story/dialogue/gameplay terms and have now also passed HD-2D Conversion Audit Pass 1 plus cross-chapter consistency/cost consolidation.
-- Chapter 5 — **The Mountain Engine** — is the next inherited exact scene-production / HD-2D production-audit frontier unless the user explicitly chooses another task.
+- Chapters **0–4 are COMPLETE/CLOSED** in story/dialogue/gameplay terms and have passed HD-2D Conversion Audit Pass 1 plus cross-chapter consistency/cost consolidation.
+- Audit89 is a **macro-story production authority** for Chapters 11–12. It does not claim line-complete dialogue or runtime implementation for those chapters.
+- Chapter 5 — **The Mountain Engine** — remains the next inherited exact scene-production / HD-2D production-audit frontier unless the user explicitly chooses another task.
 
 ## Presentation authority
 
@@ -121,10 +124,10 @@ The same principle applies to every other exact approved character, antagonist, 
 | Ch7 | The Prison of Names | inherited architecture |
 | Ch8 | Westreach and the Marshal | inherited architecture |
 | Ch9 | Equal Mercy and Continuity | inherited architecture |
-| Ch10 | Crown Engine and Sixfold Truth | inherited architecture |
-| Ch11 | The Reforged March | Black Mountains; dedicated Forward Hub; Cresthaven ↔ Forward Hub travel after security; post-Vaelkor cleanup/preparation window; deliberate Chapter 12 launch is true final point of no return |
-| Ch12 | The Last Command | Ancient subterranean Diyse; progression culminates at 60 |
-| After | WORLD_AFTER — Cresthaven Reconstruction | cleared-save free roam / aftermath |
+| Ch10 | Crown Engine and Sixfold Truth | Custodian/Last Weapon truth feeds directly into Lysara's final-offensive decision; detailed inherited architecture |
+| Ch11 | The Reforged March | Audit89 macro-locked: final Black Mountains campaign; Varkesh capture precedes Forward Hub; Elite/Hunt separated; Vaelkor two-form climax; post-Vaelkor cleanup; deliberate Ch12 launch |
+| Ch12 | The Last Command | Audit89 macro-locked: no Regional Hunt; Devourer Elite; Last Weapon Archive fragment reveal; Last Weapon Archon; Reconstituted Entity → Last Command; modern Final Severance |
+| After | WORLD_AFTER — Cresthaven Reconstruction | cleared-save free roam / aftermath; no separate postgame progression campaign |
 
 ## Permanent cast / class / Face / Story Prime
 
@@ -214,9 +217,20 @@ Modern people do **not** begin with the full truth of:
 
 Ancient machinery may recognize signatures/Cards/Faces, follow instructions, assess claims, redirect routes and change tactics. Do not infer broad conscious AI from those behaviors.
 
+### Late-game knowledge progression — Audit89
+
+- The Custodian can reveal the ancient Entity/War/Last Weapon history and the **convergence → compression → discharge** method but **does not know a fragment survived** and believes the Entity was destroyed/neutralized.
+- The party enters Chapter 11 without knowing a surviving Entity continuity exists.
+- In Chapter 11, Vaelkor's impossible longevity and corrupted Crest/Ruin systems lead the party to the incomplete theory that the **Underground Crest system itself has been keeping him alive**.
+- The party and Crown still do not know a fragment survived at the final Chapter 12 launch briefing.
+- **Last Weapon Archive in Chapter 12 is the first controlling reveal** that exactly one mangled Entity portion sheared away before the ancient killing discharge and survived.
+- The Archive establishes that ancient convergence itself created the survival opportunity. Final Severance is not ancient knowledge and is invented later by the modern six during The Last Command fight.
+
 ## Underground Crest Network
 
 Later-story authority: the Network is a physical underground civilization of bunkers, stockpiles, transit, cities, defenses and reactor infrastructure built as catastrophe-survival architecture. It is not a consciousness network or one-person-anchor system. Multiple reactors inject magic into one enormous regional buried Crest; the land/Crest is the medium. This truth is not an early-chapter exposition shortcut.
+
+The ancient Last Weapon temporarily weaponized this reactor-supported giant Crest through **convergence → compression → discharge**. The Last Weapon fired in the ancient era, **thousands of years before the present**, not roughly 500 years ago. The ~500-year figure belongs to later Card rediscovery/unlocking chronology, not the Last Weapon firing.
 
 ## Cresthaven
 
@@ -235,13 +249,21 @@ Preferred optional-content rhythm: **chapter exploration → home/Cresthaven →
 
 ### Chapter 11 Forward Hub
 
-Chapter 11 establishes a dedicated temporary **Forward Hub** in captured Black Host territory. Once secured, it unlocks permanent two-way fast travel with Cresthaven for the rest of Chapter 11.
+Chapter 11 establishes a dedicated temporary **Forward Hub** in captured Black Host territory, but Audit89 fixes the exact timing:
+
+- Varkesh first controls the defensive withdrawal;
+- the party dismantles his fallback/escape network;
+- Varkesh is defeated and **captured alive**;
+- **only then** is his secured former position converted into the Forward Hub.
+
+At that point, permanent two-way fast travel opens between **Cresthaven ↔ Chapter 11 Forward Hub** for the rest of Chapter 11.
 
 - Cresthaven remains the primary full-service headquarters.
 - The Forward Hub is a military staging base with essential field functionality only.
 - Travel between them does not require replaying earlier Chapter 11 approach zones.
 - After Emperor Vaelkor's defeat, the link remains active through the final cleanup/preparation window.
 - Chapter 12 starts only when the player deliberately launches the final operation; that launch is the true final point of no return.
+- The final launch briefing occurs at Cresthaven with **Queen Lysara and Crown Princess Mirena physically present**.
 
 ## Regional Hunt return grammar
 
@@ -253,17 +275,19 @@ Full-production locks:
 - **Hunt #2 — Transfer Executioner:** post-S016. Return: Dunmere → cleared Bastion shortcut → former prisoner safe pocket → Extraction Causeway → opened west branch → short Transfer Spine → Hunt chamber. Same-bar low-HP state: Final Disposition. Missing-brother thread remains unresolved. No protected unique Card reward.
 - **Hunt #3 — Archive Judgment Engine:** judgment branch changes state after S021 and becomes inspectable; actual combat becomes available after S022 to preserve first-Prime chronology. Return uses Old City/Suppressed Archive shortcut. Protected first-clear reward: **Reversal Engine — Change Standard Card**, pre-existing and not created by the Engine.
 - **Hunt #4 — Crown Prototype:** post-Chapter-4 Annex branch. One enemy / one HP bar / no transformation. Protected first-clear reward: **Relentless Flurry — Might Standard Card**, pre-existing and not created by the Prototype.
+- **Hunt #11 — Throne of Emperor Vaelkor:** Chapter 11 deeper post-Varkesh campaign; optional; secretly corrupted ancient Diysean construct appropriated/modified by Black Host; preserve **Sealed Throne → Walking Throne**; if unfinished, remains available through the post-Vaelkor cleanup window; deliberate Chapter 12 launch closes access. Detailed production remains open beyond the Audit89 macro locks.
+- **Chapter 12 has no Regional Hunt.** Current established Regional Hunt count is therefore **11** unless a later explicit revision assigns another pre-finale Regional Hunt. Six Major Hunts remain separate.
 
 Shared grammar:
 
-- optional and returnable;
+- optional and returnable where the chapter state permits;
 - short chapter-state-aware return route;
 - no full mandatory-dungeon replay;
 - random-battle exposure comes from actual implemented geometry/exploration rather than preset counts;
 - one principal elite encounter is the production centerpiece;
 - no mandatory party member unless explicitly locked;
 - defeated modern enemies do not create Cards;
-- same-bar low-HP escalation is preferred over unnecessary extra forms;
+- same-bar low-HP escalation is preferred over unnecessary extra forms unless a genuine multi-form Hunt is explicitly locked, as with Throne of Emperor Vaelkor;
 - HD-2D reuse and cost discipline are mandatory.
 
 ## Optional-major unlock windows
@@ -289,7 +313,106 @@ Core early voices:
 - Mirena: witty/observant/mischievous/politically impatient; public cleaner, private warmer/more profane.
 - Lysara: patient/observant/dry funny/affectionate/stubborn/practical; continuity without stagnation and restraint of sovereign ownership.
 
-Protected early dialogue/relationship progression is recorded in the line-complete source under `docs/chapters/dialogue/` and chapter lock files. Audit88 changes presentation/implementation, not wording.
+Protected early dialogue/relationship progression is recorded in the line-complete source under `docs/chapters/dialogue/` and chapter lock files. Audit88 changes presentation/implementation, not wording. Audit89 does not pre-author Chapter 11–12 line-complete dialogue.
+
+## Audit89 Chapter 11 macro story authority
+
+The final offensive into the Black Mountains is causally triggered in major part by **Queen Lysara's fear that the Black Host may discover/exploit the ancient Last Weapon or surviving giant-Crest infrastructure** after the Custodian revelation. Mirena translates that sovereign decision into operations.
+
+Chapter 11 then follows this macro causal spine:
+
+**final offensive → distinguish civilians from imperial war machine → dismantle Black Host supply/defensive structure → Varkesh defensive withdrawal/fallback network → Varkesh defeated/captured alive → Forward Hub established → deeper ancient excavation/experimentation evidence → separate conventional Elite + Throne Hunt → Vaelkor inner territory/impossible longevity → surrender offered/refused → Emperor of the Reforged Host → Sovereign Panoply Unbound → Vaelkor falls but deeper activity continues → war ends → cleanup/preparation window → final Cresthaven briefing → deliberate Chapter 12 launch.**
+
+### Chapter 11 Elite / Hunt / boss distinctions
+
+- Chapter 11 conventional Elite is a high-ranking Black Host commander and remains separate from Hunts and mandatory bosses.
+- “Sovereign's First Warlord” is retired as the Elite title.
+- “Lord-Marshal Kharvek” is a **working name only**, not final proper-name authority.
+- **Regional Hunt #11 = Throne of Emperor Vaelkor**, secretly a corrupted ancient Diysean construct appropriated/modified by Black Host, with **Sealed Throne → Walking Throne**.
+- Vaelkor remains a mandatory two-form story boss: **Emperor of the Reforged Host → Sovereign Panoply Unbound**.
+- Sovereign Panoply Unbound visually fuses Black Host biomechanical armor, Ruin-purple power, corrupted Crest geometry/sigils and unstable corrupted magic.
+- Vaelkor remains consciously himself and responsible; no Entity possession and no third Vaelkor form.
+
+## Audit89 Chapter 12 macro story / final-act authority
+
+### Encounter roles
+
+- **No Regional Hunt.**
+- **Elite:** Devourer of Names.
+- Calamity Memory remains part of the enemy/special-enemy ecosystem rather than the Elite.
+- Mandatory ancient guardian: **Last Weapon Archon**, superseding “Blind-Branch Severance Archon”; one HP bar; physical ancient Diysean guardian; not Entity intelligence/fragment.
+
+### Locked physical progression
+
+**The Deepest City → Deep City → Last Weapon Archive → Last Weapon Archon → Last Shelter → Reactor Galleries → Reactor–Crest Interface → Crest Integration / The Last Command → Final Severance → aftermath/ascent/return.**
+
+- Last Shelter is the final substantial recovery/loadout/quiet point.
+- Reactor–Crest Interface is the final battlefield.
+- Crest Integration is a transformation/integration state, not a separate location.
+
+### Last Weapon Archive reveal
+
+The Archive reveals that during the ancient Last Weapon's final convergence, **exactly one mangled Entity portion sheared away immediately before the killing discharge**. The main concentration was annihilated; the sheared portion survived.
+
+This is the modern party's **first discovery that the Entity survived**.
+
+The Custodian's history was incomplete, not deceptive.
+
+The survival was not a backup/copy/second Entity/intentional escape. It was the flaw created by the convergence method itself. Therefore the ancient Last Weapon cannot simply be repeated safely.
+
+### Vaelkor recontextualization
+
+The Chapter 11 theory becomes a partial truth: the Crest itself was not simply preserving Vaelkor. The surviving Entity continuity was the deeper mechanism operating through/interfacing with Crest systems.
+
+Vaelkor was never possessed and never knowingly allied with it. This does not excuse or rewrite his choices.
+
+### Final boss / Crest Integration
+
+The sole fragment has spent thousands of years stabilizing/reconstituting itself. The **Reconstituted Entity is the same sole surviving continuity**, not a copy/child/second fragment.
+
+Final boss is exactly two genuine full-health forms:
+
+1. **Reconstituted Entity**
+2. **The Last Command**
+
+After Form I is defeated, the Entity deliberately forces corrupted magic into the energized giant Crest. That is **Crest Integration**, and it rebuilds as The Last Command with a fresh full health bar.
+
+The Last Command attempts to imprint enough structure, memory and reconstructive continuity into the Crest that destroying the visible body alone may cease to be permanent.
+
+### Final Severance
+
+**Final Severance is invented by the modern six during The Last Command fight at an authored threshold.** It is not an ancient instruction, Archive procedure or pre-briefing plan.
+
+Core principle:
+
+**Do not converge the Entity. Identify every surviving trace where it already exists, stop escape/replenishment, protect what must survive, then erase all Entity traces simultaneously.**
+
+Fixed Prime functions:
+
+- **Cyanis / Might / Last Sentinel:** holds identified traces in place; prevents retreat/shedding/escape without gathering them.
+- **Torren / Resource / Last Measure:** preserves essential system loads while denying Entity replenishment/reconstruction power.
+- **Vaelira / Elements / Last Convergence:** harmonizes native Crest magic so foreign/corrupted traces are exposed; despite the title, it does **not** repeat ancient convergence.
+- **Nimera / Change / Last Scribe:** creates/rewrites containment boundaries around exposed traces in place, isolating them from one another.
+- **Ilyra / Grace / Last Sanctuary:** protects living party members, viable Crest structure, functioning reactor support and everything that must survive.
+- **Seyrik / Ruin / Last Erasure:** simultaneously erases every isolated Entity trace, visible body, surviving continuity, Crest-deposited reconstruction pattern and rebuild pathway.
+
+Final Severance permanently ends the Entity. There is no hidden copy, branch, escape fragment, second continuity or third boss form.
+
+The giant Crest and viable reactors survive damaged/stable. The six do not become anchors/operators/infrastructure components. All six survive. Story Primes remain Cards; only their extraordinary one-time civilization-scale access is relinquished.
+
+### Aftermath
+
+Exit from the deepest system is short/story-driven, not another full dungeon.
+
+First major surface contact is the **Forward Hub**, now transitioning into relief/recovery/prisoner-processing/withdrawal/security functions. The party then returns to Cresthaven.
+
+Lysara and Mirena receive the full debrief. Crown response to the underground Diysean civilization is **secure, stabilize, document, understand**, not immediate exploitation or Last Weapon reconstruction.
+
+Black Host population survives while the imperial war structure is dismantled. Varkesh remains alive in custody.
+
+The epilogue first shows Yahtrea rebuilding, then resolves the principal cast. Final emotional destination returns to Cresthaven and the permanent six: **the ancient Diyseans sacrificed everything to give the future another chance; the modern six finish what they could not and get to live afterward.**
+
+No separate post-game campaign and no required sequel stinger are introduced by Audit89.
 
 ## HD-2D production consolidation — Chapters 0–4
 
@@ -322,6 +445,8 @@ The approved early-game implementation should be treated as a small set of durab
 2. **Genuine new form** — substantial new art only when the encounter truly becomes a new body/combat problem, as with Sixfold Crucible Form II.
 3. **Prime-scale entity** — use the Prime pipeline rather than ordinary boss-state logic.
 
+Audit89 explicitly classifies Vaelkor's Form I → Sovereign Panoply Unbound and Reconstituted Entity → The Last Command as genuine authored multi-form boss progressions; do not collapse them into same-bar states.
+
 ### Android scaling
 
 Quality settings may reduce decorative particles, distortion, reflection resolution, weather density, secondary background animation, decorative parallax and noncritical dynamic lights.
@@ -330,15 +455,21 @@ Never reduce playable-space readability, critical target clarity, exact characte
 
 ## Finale outcome guardrails
 
-The final antagonist sequence remains Reconstituted Entity → Last Command. Final Severance is the modern six-person solution; all six survive. The Entity and every surviving Entity trace are permanently destroyed. No party member becomes infrastructure or a permanent living anchor. The giant Crest survives damaged/low/stable. Story Primes survive. Vaelkor remains responsible for his own choices and is not retroactively reduced to possession.
+Audit89 controls the final sequence:
 
-Chapter 11's post-Vaelkor cleanup window does not alter the final antagonist sequence. It controls only when the player commits from Chapter 11 into Chapter 12.
+**Reconstituted Entity → Crest Integration → The Last Command → modern six invent Final Severance → permanent Entity destruction.**
+
+Final Severance is the modern six-person solution; all six survive. The Entity and every surviving Entity trace/rebuild pathway are permanently destroyed. No party member becomes infrastructure or a permanent living anchor. The giant Crest survives damaged/stable. Story Primes survive as Cards. Vaelkor remains responsible for his own choices and is not retroactively reduced to possession.
+
+Chapter 11's post-Vaelkor cleanup window controls when the player commits into Chapter 12; it does not alter the final antagonist sequence.
 
 ## Repository / implementation status distinction
 
 Canon/authoring closure, HD-2D production-audit closure and runtime implementation are separate completion states.
 
 Audit88 does **not** claim that all final maps, sprites, portraits, battle backgrounds, VFX, triggers or presentation executors for Chapters 0–4 are already implemented in Godot. It defines how those completed chapters must be implemented without rewriting them.
+
+Audit89 similarly does **not** claim Chapter 11–12 line-complete scene authoring or runtime implementation. It locks macro story causality, knowledge/reveal order, encounter category assignments noted above, boss-form relationships, Final Severance logic and aftermath structure for later detailed production.
 
 Historical 7B.5/7B.6 proofs remain regression evidence for accepted system behavior where compatible. Placeholder/graybox proof assets remain non-canon.
 

@@ -11,21 +11,23 @@ Before changing gameplay code or production content, read:
 3. `docs/PRESENTATION_RULES.md`
 4. `docs/production/HD2D_CHAPTERS_00_04_CONVERSION_AUDIT_PASS_1.md` when touching Chapters 0–4 presentation/runtime implementation
 5. `docs/chapters/README.md`, the relevant completed-chapter lock file and exact scene source under `docs/chapters/dialogue/`
-6. the subsystem document relevant to the task
-7. `docs/TECHNICAL_PROOF.md` only as compatible historical engineering evidence
-8. `docs/DIALOGUE_AUTHORING_SCHEMA.md` and `docs/STEP_7C_AUTHORING_TEMPLATE.md` before dialogue Resource work
+6. `docs/canon/AUDIT89_CHAPTERS_11_12_MACRO_STORY_STRUCTURE_AND_FINAL_ACT_CAUSALITY_LOCK.md` when touching Chapters 10–12 causality, Chapter 11 campaign structure, or the finale
+7. the subsystem document relevant to the task
+8. `docs/TECHNICAL_PROOF.md` only as compatible historical engineering evidence
+9. `docs/DIALOGUE_AUTHORING_SCHEMA.md` and `docs/STEP_7C_AUTHORING_TEMPLATE.md` before dialogue Resource work
 
 If a task conflicts with these files or a newer explicit user instruction, stop and flag the conflict. Do not silently reinterpret canon.
 
 ## Current authority state
 
-- Whole-project written authority: **Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.73 / Audit88**.
-- Date: **August 19, 2026**.
+- Whole-project written authority: **Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.74 / Audit89 — Chapters 11–12 Macro Story Structure and Final-Act Causality Lock**.
+- Date: **August 20, 2026**.
+- Audit89 inherits all compatible v1.73 / Audit88 and earlier authority and adds controlling late-game macro-story causality/revelation structure. It is **not** line-complete Chapter 11–12 dialogue.
 - Audit87 makes **HD-2D** the sole active presentation target; old active `2.5D`/`3D` presentation language is superseded.
 - Chapters **0–4 are COMPLETE/CLOSED** at story/dialogue/gameplay authority level.
 - Chapters **0–4 HD-2D Conversion Audit Pass 1 is COMPLETE / APPROVED**.
 - Cross-chapter HD-2D consistency/cost consolidation is **PASS / GREEN**.
-- Chapter 5 — **The Mountain Engine** — is the next inherited exact scene-production / HD-2D production-audit frontier unless explicitly redirected.
+- Chapter 5 — **The Mountain Engine** — remains the next inherited exact scene-production / HD-2D production-audit frontier unless explicitly redirected.
 - Step 7B.5 remains an accepted historical Android technical regression baseline where compatible with current HD-2D authority.
 - Step 7B.6 production authoring handoff remains COMPLETE / PASS.
 
@@ -178,7 +180,7 @@ S021 identifies/unlocks Last Sentinel but does not manifest it. First verified m
 
 - Start traveling permanents: Cyanis / Ilyra / Torren / Nimera.
 - Maevra is not the default Chapter 4 traveling party member.
-- Vaelira joins permanently during S022; roster reaches five; choose-four remains active.
+- Vaelira joins permanently during S022; roster reaches five; choose-four remains active after roster reaches five.
 - Elder Briarhide is a natural territorial animal, not corrupted/Ancient/Black Host.
 - Elemental Hexarch is a living harmed researcher and resolves nonlethally.
 - Seventh Reaction is not a seventh element.
@@ -186,11 +188,51 @@ S021 identifies/unlocks Last Sentinel but does not manifest it. First verified m
 - Crown Prototype is one body / one HP bar / no transformation.
 - Annex random encounter quantity is area-driven; do not hardcode a promised approximate count.
 
+## Chapters 11–12 macro-story hard boundaries — Audit89
+
+Audit89 is controlling whenever late-game detailed production reaches Chapters 11–12.
+
+### Chapter 10 → 11 knowledge / war trigger
+
+- The Custodian knows the ancient Last Weapon history/method but **does not know that any Entity fragment survived** and believes the weapon destroyed/neutralized the Entity.
+- Ancient Last Weapon method remains **convergence → compression → discharge** through the reactor-supported giant Crest.
+- Queen Lysara's fear that the Black Host may discover/exploit the Last Weapon or surviving giant-Crest infrastructure is a principal reason for the final Black Mountains offensive; Mirena translates the sovereign decision into operations.
+
+### Chapter 11
+
+- Varkesh controls the defensive withdrawal; the party dismantles his escape network and **captures him alive**.
+- The Forward Hub is established **only after Varkesh's defeat/capture**, using his secured position; Cresthaven ↔ Forward Hub travel begins then and persists through the post-Vaelkor cleanup window.
+- Chapter 11 conventional Elite is separate from Hunts; “Sovereign's First Warlord” is retired. “Lord-Marshal Kharvek” is working-only, not a final proper name.
+- **Regional Hunt #11 = Throne of Emperor Vaelkor**, secretly a corrupted ancient Diysean construct appropriated/modified by Black Host; preserve **Sealed Throne → Walking Throne**.
+- Party's working theory is that the Underground Crest system has been keeping Vaelkor alive.
+- Vaelkor boss is exactly **Emperor of the Reforged Host → Sovereign Panoply Unbound**. Unbound fuses Black Host + Ruin + corrupted Crest/magic. Vaelkor remains consciously himself; no possession and no third Vaelkor form.
+- After Vaelkor, deeper activity continues; a cleanup/preparation window opens. Chapter 12 begins only by deliberate launch.
+- Final launch briefing is at Cresthaven with **Queen Lysara and Crown Princess Mirena physically present**.
+
+### Chapter 12
+
+- **No Regional Hunt.**
+- **Devourer of Names = Elite**; Calamity Memory remains an enemy/special-enemy ecosystem identity.
+- Mandatory guardian is **Last Weapon Archon**, one HP bar, physical ancient Diysean guardian; “Blind-Branch Severance Archon” is superseded.
+- Locked progression: **The Deepest City → Deep City → Last Weapon Archive → Last Weapon Archon → Last Shelter → Reactor Galleries → Reactor–Crest Interface → Crest Integration / The Last Command → Final Severance → aftermath**.
+- Last Weapon Archive is where the modern party first discovers the sole fragment survival: exactly one mangled portion sheared away immediately before the ancient killing discharge. The Custodian's record was incomplete, not deceptive.
+- Final Severance is **not** an ancient procedure and is not found in the Archive.
+- Reconstituted Entity is the same sole surviving continuity, not a copy/child/second fragment.
+- Final boss is exactly two genuine full-health forms: **Reconstituted Entity → The Last Command**. No third form.
+- Crest Integration is the Entity's deliberate transformation after Form I defeat, forcing corrupted magic into the energized giant Crest.
+- Final Severance is invented by the modern six during The Last Command fight. Do not pre-author it as an ancient instruction or pre-briefing plan.
+- Fixed modern Prime functions: Cyanis/Might holds traces without convergence; Torren/Resource preserves essential loads while denying replenishment; Vaelira/Elements exposes foreign traces by harmonizing native Crest magic; Nimera/Change isolates traces in place; Ilyra/Grace protects living/viable systems; Seyrik/Ruin erases every isolated trace/rebuild pathway simultaneously.
+- Entity ends permanently; no hidden copy/branch/escape fragment/third form. Giant Crest/viable reactors survive damaged/stable. All six permanents survive. Story Primes remain Cards.
+
+Detailed source: `docs/canon/AUDIT89_CHAPTERS_11_12_MACRO_STORY_STRUCTURE_AND_FINAL_ACT_CAUSALITY_LOCK.md`.
+
 ## Scene authoring workflow
 
 Use `docs/SCENE_AUTHORING_STANDARD.md`.
 
 For new exact scene work, begin with Chapter 5 unless the user explicitly redirects the task. Do not regenerate or rewrite validated/closed Chapter 0–4 text except through explicit canon revision.
+
+When Chapters 11–12 eventually reach detailed production, derive exact scenes/dialogue/staging from Audit89 rather than re-inventing its causal/revelation structure.
 
 ## Hard system rules
 
