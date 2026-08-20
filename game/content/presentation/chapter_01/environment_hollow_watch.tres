@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="DiyseEnvironmentStateDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/presentation/environment_state_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+environment_id = "CH01_HOLLOW_WATCH"
+initial_state = "ACTIVE"
+available_states = Array[String](["BASE", "ACTIVE", "OPEN", "POST_BOSS", "CLEARED"])
+persistent_flag_prefix = "environment.chapter_01.hollow_watch"
