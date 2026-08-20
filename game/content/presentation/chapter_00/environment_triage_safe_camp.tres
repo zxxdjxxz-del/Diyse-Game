@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="DiyseEnvironmentStateDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/presentation/environment_state_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+environment_id = "CH00_TRIAGE_SAFE_CAMP"
+initial_state = "ACTIVE"
+available_states = Array[String](["BASE", "ACTIVE", "POST_STORY"])
+persistent_flag_prefix = "environment.chapter_00.triage_safe_camp"

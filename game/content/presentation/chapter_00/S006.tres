@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DiyseScenePresentationDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/presentation/scene_presentation_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+scene_id = "S006"
+chapter_id = "chapter_00"
+environment_family = "CH00_RECOVERY_LINE"
+battle_background_family = ""
+cutscene_tier = "C1"
+vfx_tier = "V1"
+encounter_mode = "none"
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "POST_BOSS", "PLAYER_CONTROLLED_SURVIVOR_SWEEP"])
