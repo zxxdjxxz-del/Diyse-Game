@@ -4,6 +4,8 @@
 **Date:** August 19, 2026  
 **Immediate predecessor:** v1.68 / Audit83 — Major Hunt #1 Ashen Whitehorn Full Production Authority Lock
 
+> **Later overlay:** v1.74 / Audit89 fixes the Forward Hub's exact timing: it is established only **after Varkesh is defeated/captured**, using the secured post-Varkesh position. Audit89 also expands the Chapter 11–12 macro story/final-act causality while preserving Audit84's cleanup-window and deliberate-point-of-no-return rules. See `docs/canon/AUDIT89_CHAPTERS_11_12_MACRO_STORY_STRUCTURE_AND_FINAL_ACT_CAUSALITY_LOCK.md`.
+
 Audit84 inherits all compatible v1.68 / Audit83 and earlier authority and promotes `CH11-A001` into controlling canon.
 
 ## Promoted authority
@@ -34,6 +36,8 @@ Audit84 also does not convert the Black Mountains campaign or the Chapter 12 fin
 
 Any older text implying that defeating Vaelkor immediately forces Chapter 12, that Chapter 11 lacks a secured Forward Hub / Cresthaven return link, or that the final point of no return occurs before the deliberate Chapter 12 launch is superseded by Audit84.
 
+Audit89 later supersedes only Audit84's **unspecified hub timing** by fixing the hub after Varkesh's defeat/capture; Audit84's remaining compatible rules continue to be inherited.
+
 ## Change-control
 
-v1.69 / Audit84 is controlling for the Chapter 11 progression/hub changes promoted here. All compatible v1.68 / Audit83 and earlier authority remains inherited.
+v1.69 / Audit84 remains historical authority for the bounded progression/hub promotion, subject to the later v1.74 / Audit89 timing/campaign overlay described above.
