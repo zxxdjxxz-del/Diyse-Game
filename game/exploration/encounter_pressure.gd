@@ -5,6 +5,7 @@ const MIN_TRIGGER_S := 0.35
 const CHECK_INTERVAL_S := 0.10
 const FLEE_GRACE_S := 0.20
 const FLEE_RESUME_S := 0.65
+const ECOLOGY_TRANSITION_GRACE_S := 0.10
 const EPSILON := 0.00001
 
 const TRIGGER_CURVE := [
@@ -76,6 +77,11 @@ func advance(normalized_distance: float, forced_rolls: Array = []) -> bool:
 			encounter_pending = true
 			return true
 	return false
+
+func apply_transition_grace(grace_s: float = ECOLOGY_TRANSITION_GRACE_S) -> void:
+	if grace_s <= 0.0:
+		return
+	grace_remaining_s = maxf(grace_remaining_s, grace_s)
 
 func reset_after_victory() -> void:
 	distance_s = 0.0
