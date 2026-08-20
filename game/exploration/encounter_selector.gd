@@ -12,6 +12,9 @@ func _init(seed_value: int = 0) -> void:
 	else:
 		_rng.seed = seed_value
 
+func supports_context(chapter: int, area_id: String) -> bool:
+	return Catalog.chapter_for_area(area_id) == chapter
+
 func choose(chapter: int, area_id: String, previous_formation_id: String = "") -> Dictionary:
 	return choose_with_rolls(chapter, area_id, _rng.randf(), _rng.randf(), previous_formation_id)
 
@@ -22,7 +25,7 @@ func choose_with_rolls(
 	formation_roll: float,
 	previous_formation_id: String = ""
 ) -> Dictionary:
-	if Catalog.chapter_for_area(area_id) != chapter:
+	if not supports_context(chapter, area_id):
 		return {}
 	var tier := Balance.tier_for_roll(chapter, tier_roll)
 	if tier.is_empty():
