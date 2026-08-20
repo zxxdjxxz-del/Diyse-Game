@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DiyseScenePresentationDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/presentation/scene_presentation_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+scene_id = "S019"
+chapter_id = "chapter_03"
+environment_family = "CH03_OLD_CITY_SUPPRESSED_ARCHIVES"
+battle_background_family = "CH03_SUPPRESSED_ARCHIVE"
+cutscene_tier = "C2"
+vfx_tier = "V2"
+encounter_mode = "mixed"
+presentation_tags = Array[String](["HD2D", "RANDOM_ALLOWED", "ARCHIVE_LAYERED_DEPTH", "NIMERA_RECRUITMENT", "CHOOSE_FOUR_UNLOCK", "NO_RUBY_PRIME_NETWORK_LEAK", "DENIED_HUNT_BRANCH_NO_TEASE"])
