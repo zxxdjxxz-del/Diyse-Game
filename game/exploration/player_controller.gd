@@ -1,5 +1,7 @@
 extends CharacterBody3D
 
+signal eligible_distance_moved(distance: float)
+
 @export var move_speed: float = 5.0
 @export var acceleration: float = 20.0
 @export var gravity: float = 24.0
@@ -16,6 +18,9 @@ func set_movement_enabled(value: bool) -> void:
 	_movement_enabled = value
 	if not value:
 		_touch_input = Vector2.ZERO
+
+func movement_enabled() -> bool:
+	return _movement_enabled
 
 func _physics_process(delta: float) -> void:
 	var keyboard_input := Vector2.ZERO
@@ -48,4 +53,18 @@ func _physics_process(delta: float) -> void:
 	if absf(input_vector.x) > 0.01:
 		sprite.flip_h = input_vector.x < 0.0
 
+	var before_position := global_position
 	move_and_slide()
+	_emit_resolved_eligible_distance(before_position, global_position)
+
+func _emit_resolved_eligible_distance(before_position: Vector3, after_position: Vector3) -> float:
+	if not _movement_enabled:
+		return 0.0
+	var horizontal_delta := Vector2(
+		after_position.x - before_position.x,
+		after_position.z - before_position.z
+	)
+	var distance := horizontal_delta.length()
+	if distance > 0.00001:
+		eligible_distance_moved.emit(distance)
+	return distance

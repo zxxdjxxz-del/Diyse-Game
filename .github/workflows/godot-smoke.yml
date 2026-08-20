@@ -48,6 +48,9 @@ jobs:
       - name: Run Audit98 reusable field encounter controller validation
         run: godot --headless --path . --script tests/encounters/validate_field_encounter_controller.gd
 
+      - name: Run Audit98 live resolved-movement encounter proof validation
+        run: godot --headless --path . --script tests/encounters/validate_live_movement_encounter_proof.gd
+
       - name: Run exploration, dialogue, combat, Card, Prime, and persistence smoke validation
         run: godot --headless --path . --script tests/smoke/validate_project.gd
 
