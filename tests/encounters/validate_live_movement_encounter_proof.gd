@@ -1,6 +1,7 @@
 extends SceneTree
 
 const FIELD_SCENE := "res://game/exploration/field_proof.tscn"
+const GameStateScript = preload("res://game/core/state/game_state.gd")
 
 var moved_distances: Array[float] = []
 
@@ -106,7 +107,8 @@ func _run_validation() -> void:
 
 		if not field.has_method("_on_random_battle_requested"):
 			failures.append("Field proof must expose the random battle-request handoff callback")
-		if not GameState.has_method("queue_transient_random_encounter"):
+		var transient_state = GameStateScript.new()
+		if not transient_state.has_method("queue_transient_random_encounter"):
 			failures.append("GameState must expose the transient random encounter queue used by field handoff")
 
 	field.queue_free()
