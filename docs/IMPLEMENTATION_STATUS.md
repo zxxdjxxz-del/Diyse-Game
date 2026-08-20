@@ -7,6 +7,10 @@
 **Story/dialogue production authority:** Chapters 0–4 COMPLETE/CLOSED  
 **HD-2D Conversion Audit Pass 1:** Chapters 0–4 COMPLETE / APPROVED  
 **Cross-chapter HD-2D consistency/cost consolidation:** COMPLETE / PASS / GREEN  
+**HD-2D runtime foundation:** IMPLEMENTED  
+**Chapters 0–4 HD-2D presentation sidecars/environment-state hookup:** IMPLEMENTED at code/resource layer  
+**Final HD-2D visual asset/map replacement:** NOT YET IMPLEMENTED  
+**Ordinary enemy roster and Elite placement:** OPEN / intentionally not encoded by this pass  
 **Next inherited production-audit / scene-production frontier:** Chapter 5 — The Mountain Engine  
 **Active repository:** `zxxdjxxz-del/Diyse-Game`
 
@@ -15,12 +19,85 @@
 The repository uses distinct completion states. Do not conflate them.
 
 1. **Authoring/canon closure:** Chapters 0–4 have approved story, dialogue, continuity, relationship, gameplay and production authority.
-2. **HD-2D conversion closure:** Audit88 defines how completed Chapters 0–4 are staged/implemented in the active HD-2D grammar without rewriting them.
-3. **Repository line-complete source:** Chapters 1–4 have exact approved scene-level Markdown under `docs/chapters/dialogue/`.
-4. **Runtime dialogue Resource integration:** Chapters 0–3 have validated production `.tres` scene sets. Chapter 4 has production conversion/static validation present where currently implemented; in-engine runtime smoke completion remains separate QA.
-5. **Final presentation implementation:** maps, final field/battle sprites, portraits, battle backgrounds, VFX, encounter consumers, world triggers and hub services remain runtime production work where not already present.
+2. **HD-2D conversion authority closure:** Audit88 defines how completed Chapters 0–4 are staged/implemented in the active HD-2D grammar without rewriting them.
+3. **HD-2D runtime foundation:** reusable reference composition, party/enemy battle anchors, field/battle scale helpers, authored environment-state Resources, presentation sidecars, Prime visual suspension/return hooks, Android decorative quality scaling and presentation validation are implemented.
+4. **Chapter presentation hookup:** Chapters 0–4 have HD-2D scene-presentation sidecars and authored environment-state Resources at the code/resource layer. These sidecars do not contain final art and do not replace the closed dialogue Resources.
+5. **Repository line-complete source:** Chapters 1–4 have exact approved scene-level Markdown under `docs/chapters/dialogue/`.
+6. **Runtime dialogue Resource integration:** Chapters 0–3 have validated production `.tres` scene sets. Chapter 4 has exact production dialogue Resources/static validation present; its presentation sidecars are a separate layer.
+7. **Final visual implementation:** final maps/environment art, ~80 px field sprites, ~200 px battle sprites, final portraits, final battle backgrounds, final VFX, final world/encounter consumers and final hub visuals remain production work where not already present.
+8. **Enemy/Elite placement:** final ordinary-enemy roster/compositions and Elite placement remain open. This HD-2D runtime pass deliberately does not assign them.
 
-A missing final asset or consumer is not evidence that approved dialogue/canon is missing.
+A missing final visual asset or consumer is not evidence that approved dialogue/canon is missing. Likewise, a presentation sidecar describing `random_allowed`, `fixed_authored` or `mixed` encounter **mode** is not a final ordinary-enemy or Elite assignment.
+
+## Runtime-conversion implementation checkpoint
+
+The actual code-side HD-2D conversion has begun and is no longer documentation-only.
+
+### Shared runtime foundation
+
+Implemented under `game/presentation/`:
+
+- `hd2d_runtime.gd`
+  - 1920×1080 reference composition;
+  - approximately 80 px field-character target helper;
+  - approximately 200 px battle-character target helper;
+  - permanent four-slot staggered party-left anchors;
+  - generic enemy-right anchors;
+  - protected center action lane;
+  - C0–C3 / V1–V4 validation;
+  - Android decorative quality profiles.
+- `battle_presentation_controller.gd`
+  - binds placeholder or final party/enemy `Node2D` visuals to the permanent battle anchors;
+  - supports temporary Prime visual suspension/return without changing combat legality.
+- `environment_state_definition.gd`
+  - authored persistent environment states such as BASE / DAMAGED / CLEARED / OPEN / CLOSED / ACTIVE / INACTIVE / POST_BOSS / POST_STORY plus location-specific authored states.
+- `encounter_presentation_definition.gd`
+  - generic presentation categories and nonlethal/form-mode hooks;
+  - intentionally does **not** own enemy IDs, Elite IDs, chapter placement, location placement, encounter tables, final stats or final visuals.
+- `scene_presentation_definition.gd`
+  - sidecar metadata for environment family, battle-background family, C/V tier, encounter mode and presentation tags;
+  - intentionally does **not** own ordinary-enemy or Elite placement.
+- `elemental_presentation_runtime.gd`
+  - exactly six reusable element payload families: Fire / Ice / Lightning / Wind / Earth / Water;
+  - explicitly rejects Seventh Reaction as an element.
+
+Dialogue Resources gained backward-compatible optional presentation metadata and the DialogueRunner can emit scene-presentation metadata to consumers. Approved dialogue text was not rewritten by this runtime conversion.
+
+### Runtime promotion history
+
+- Shared HD-2D runtime foundation merged to `main`: `2f28894eb9d113f7a5c28f39973627c64d8891c7`.
+- Chapter 0 presentation hookup merged to `main`: `e4a46ddb25b4a11e6d414d07223f8e17fe3bfdcd`.
+- Chapter 1 presentation hookup merged to `main`: `e907ecdee8572b21585ffff5aa338536b0cd9b50`.
+- Chapter 2 presentation hookup merged to `main`: `c6e01693a02e018fd1d90924a20e426b3e8d7434`.
+- Chapter 3 presentation hookup merged to `main`: `17ee07cecd93879b3f6f7b935ca1c8a7e605b9db`.
+- Chapter 4 presentation hookup is the current bounded runtime promotion; once merged, this document describes the resulting complete Chapters 0–4 code/resource-layer hookup.
+
+Every runtime promotion must pass both the repository Godot Smoke Validation and Android APK Proof on its exact head before merge.
+
+## Enemy / Elite / Hunt boundary
+
+This distinction is a hard implementation guardrail for the current pass.
+
+### Ordinary enemies
+
+Still open unless a specific authored encounter is already protected by chapter canon. The runtime sidecars may say where random encounters are allowed/suppressed, but they do not select the final ordinary enemies, formations, stats or visuals.
+
+### Elites
+
+**Placement remains open.**
+
+- No Chapter 0–4 presentation sidecar has an Elite ID or Elite placement field.
+- Presentation validators reject Elite-bearing scene tags.
+- No dialogue was changed to place or acknowledge a new Elite.
+- Generic runtime capability may support an `elite` presentation category later, but that capability does not assign an Elite to any chapter, map, scene or encounter table.
+
+### Hunts
+
+Hunts remain a separate already-authored category. An already-canon Hunt may have presentation metadata without becoming an Elite. Chapter 4's Crown Prototype sidecar therefore identifies its already-locked **Hunt** status while explicitly remaining separate from Elite placement.
+
+### Mandatory bosses/authored encounters
+
+Existing canon-locked bosses and authored encounters may carry presentation metadata because their story placement is already protected. The runtime pass does not use them to infer or freeze the rest of the enemy roster.
 
 ## Active HD-2D authority
 
@@ -64,9 +141,15 @@ The technical chain remains accepted as engineering evidence where compatible wi
 | Chapter 1 dialogue Resource checkpoint | PASS / MERGED | S007–S011 + C03–C05 exact source-parity + continuity validated |
 | Chapter 2 dialogue Resource checkpoint | PASS / MERGED | S012–S016 + C06/C07 exact source-parity + continuity validated |
 | Chapter 3 dialogue Resource checkpoint | PASS / MERGED | S017–S021 + H01–H04 corrected source-parity + continuity/Cresthaven validation passed |
-| Chapter 4 authoring/static conversion checkpoint | AUTHORING CLOSED | S022–S026 + C08/C09/H05 + Crown Prototype exact source locked; static Resource/source validation present where implemented; runtime smoke remains QA |
+| Chapter 4 authoring/static conversion checkpoint | AUTHORING CLOSED | S022–S026 + C08/C09/H05 + Crown Prototype exact source locked; production dialogue Resources/static validation present |
 | Audit87 Step 1 | PASS | HD-2D Production Grammar and legacy presentation closure |
 | Audit88 Step 2 | PASS / GREEN | Chapters 0–4 HD-2D Conversion Audit Pass 1 + cross-chapter consistency/cost consolidation |
+| HD-2D runtime foundation | IMPLEMENTED | Shared presentation contracts, battle layout, state Resources, Prime hooks and validation implemented |
+| Ch0 HD-2D presentation hookup | IMPLEMENTED / MERGED | Scene sidecars + environment states; no enemy/Elite placement |
+| Ch1 HD-2D presentation hookup | IMPLEMENTED / MERGED | Scene sidecars + environment states + random-encounter boundary; no enemy/Elite placement |
+| Ch2 HD-2D presentation hookup | IMPLEMENTED / MERGED | Scene sidecars + environment states + approved random/fixed boundaries; no enemy/Elite placement |
+| Ch3 HD-2D presentation hookup | IMPLEMENTED / MERGED | Scene sidecars + environment states + Last Sentinel non-manifestation firewall; no enemy/Elite placement |
+| Ch4 HD-2D presentation hookup | IMPLEMENTED | Scene sidecars + environment states + six-element runtime + first-Prime/Crucible/Hunt presentation constraints; no Elite placement |
 
 Accepted historical implementation checkpoints:
 
@@ -90,11 +173,11 @@ Closed set:
 - C01 The Fire Is Too Close
 - C02 Food After Triage
 
-Historical validated merge remains accepted.
+Historical validated dialogue merge remains accepted.
 
 ### Chapter 0 compatibility cleanup
 
-The live S004/S005 Resource metadata/validator still contains the historical internal label `Broken Champion's Ward` and older Champion/Prime-negative flags.
+The live S004/S005 dialogue Resource metadata/validator still contains the historical internal label `Broken Champion's Ward` and older Champion/Prime-negative flags.
 
 Current canon interpretation:
 
@@ -106,16 +189,19 @@ Current canon interpretation:
 
 A future bounded Resource+validator cleanup may neutralize matched internal names while preserving the approved S004→S005 temporary protection behavior unless a separate balance authority revises it.
 
-### Chapter 0 HD-2D conversion
+### Chapter 0 HD-2D runtime hookup
 
-Audit88 locks:
+Implemented:
 
-- Convoy Road / Wreck Field / Recovery Line / Triage-Safe Camp families;
-- three principal battle-background families;
-- seven authored tutorial encounters and **no normal random-encounter table**;
-- S004 C2/V2 incomplete response;
-- Riftmaw same-HP authored state escalation;
-- no realtime destruction or chain simulation.
+- Convoy Road / Wreck Field / Recovery Line / Triage-Safe Camp presentation families;
+- authored environment-state Resources;
+- Chapter 0 fixed-authored encounter-mode sidecars;
+- explicit **NO_RANDOM** protection across all eight closed Chapter 0 scenes;
+- S004 C2/V2 incomplete response metadata;
+- Riftmaw same-body/same-HP presentation constraint;
+- no realtime destruction or chain-simulation assumption.
+
+Final art assets remain pending.
 
 ## Chapter 1 checkpoint
 
@@ -127,15 +213,19 @@ Deterministic generation/validation remains the accepted source-parity and conti
 
 Audit79 exact C04 remains controlling: **“Old whore.” / “Bitch.”**
 
-### Chapter 1 HD-2D conversion
+### Chapter 1 HD-2D runtime hookup
 
-Audit88 locks:
+Implemented:
 
-- Edgelands Settlement / Wooded Route / Hollow Watch / Ancient Route-Wayfinder families;
-- campaign-standard fast random-battle transition beginning after Brackenwall's east gate;
-- Torren absent from battle presentation before recruitment;
-- Castellan as layered same-HP state escalation;
-- Wayfinder as bespoke environmental peak and reusable Ancient cartographic master source.
+- Edgelands Settlement / Wooded Route / Hollow Watch / Ancient Route-Wayfinder sidecars and environment states;
+- campaign-standard random-encounter boundary beginning after Brackenwall's east gate;
+- mixed random/authored encounter modes where canon requires them;
+- Torren absent-from-battle-pre-recruit presentation constraint;
+- Castellan same-body/same-HP constraint;
+- Wayfinder environmental/cartographic presentation lock;
+- validator rejection of Elite-bearing sidecar tags.
+
+Final enemy roster, Elite placement and final art remain pending/open.
 
 ## Chapter 2 checkpoint
 
@@ -145,16 +235,19 @@ Production Resources: `game/content/dialogue/chapter_02/`.
 
 Audit78 C07 Rewrite Draft 2 remains controlling: **wet sleeves**, no dream disclosure, Torren's late-night weed use treated as ordinary/non-impairing, lit from existing coals, **no modern lighter**.
 
-### Chapter 2 HD-2D conversion
+### Chapter 2 HD-2D runtime hookup
 
-Audit88 locks:
+Implemented:
 
-- Dunmere Waterworks / Sunken Archive / Prisoner-Transfer Service / Red Transfer Bastion / Extraction Causeway families;
-- reusable water/wet library instead of fluid simulation;
-- oversized layered Archive Leviathan using water occlusion to sell scale;
-- reusable Black Host environment grammar;
-- evacuation scale through limited sprites/silhouettes/audio/state changes;
-- Rhazek exact Chapter-2 visual state and same-bar Ruin/armor escalation.
+- Dunmere Waterworks / Sunken Archive / Prisoner-Transfer Service / Red Transfer Bastion / Extraction Causeway sidecars and environment states;
+- S012 investigation/no-random boundary;
+- S013–S015 mixed traversal/authored combat modes;
+- S016 fixed-authored Hold-the-Junction-only / no-random boundary;
+- water-layer reuse and non-simulation presentation tags;
+- Rhazek Chapter-2 exact-state / same-body escalation constraint;
+- validator rejection of Elite-bearing sidecar tags.
+
+Final enemy roster, Elite placement and final art remain pending/open.
 
 ## Chapter 3 checkpoint
 
@@ -170,15 +263,19 @@ Corrected end-state sequence remains exact: post-Warden command-record room prov
 
 S021 unlocks Last Sentinel without manifesting it.
 
-### Chapter 3 HD-2D conversion
+### Chapter 3 HD-2D runtime hookup
 
-Audit88 locks:
+Implemented:
 
-- Caelora Civic-Judicial / Old City-Suppressed Archive / Deep Command Station / Cresthaven Establishment State 1 families;
-- old “large 3D Warden chamber” wording replaced by layered HD-2D hero composition;
-- choose-four visual/runtime distinction after Nimera joins;
-- Warden copies function rather than character body choreography;
-- Cresthaven built as one evolving reusable hub.
+- Caelora Civic-Judicial / Old City-Suppressed Archive / Deep Command Station / Cresthaven Establishment State 1 sidecars and environment states;
+- S018 exactly-two nonlethal authority-encounter presentation constraint;
+- S019 choose-four / no-Ruby-Prime-network-leak firewall;
+- First Command Warden one-HP/two-state and copy-function-not-choreography constraints;
+- S021 Last Sentinel identified/unlocked but **NO manifestation**;
+- H04 Last Sentinel case inert/no-Ruby-change lock;
+- validator rejection of Elite-bearing sidecar tags.
+
+Final enemy roster, Elite placement and final art remain pending/open.
 
 ## Chapter 4 checkpoint
 
@@ -196,17 +293,22 @@ Hard locks include:
 - Crown Prototype remains one body / one HP bar / no transformation and reveals pre-existing Relentless Flurry after first clear.
 - Random-encounter quantity in Annex/Regulation traversal is area-driven, not a promised approximate count.
 
-### Chapter 4 HD-2D conversion
+### Chapter 4 HD-2D runtime hookup
 
-Audit88 locks:
+Implemented at code/resource layer:
 
-- Cresthaven Lower Grounds / Ivorybridge / Annex Approach-Regulation Terraces / Sixfold Annex / Regulation Core families;
-- first Last Sentinel manifestation as **C3/V4** and reusable Prime presentation pipeline;
-- full permanent Vaelira HD-2D production package at recruitment;
-- modular six-element effect/environment library;
-- Hexarch one living-human base + elemental overlays;
-- genuine Crucible Form II body using one base + six independent inherited-trait modules;
-- Crown Prototype reuse through Annex assets.
+- Cresthaven Lower Grounds / Ivorybridge / Annex-Regulation / Sixfold Annex / Regulation Core / Southhold roadside presentation families and environment states;
+- S022 first Last Sentinel manifestation tagged **C3/V4**, Round-4-only and routed through the reusable Prime presentation pipeline;
+- Vaelira recruitment/choose-four presentation state;
+- modular six-element presentation runtime with exactly Fire / Ice / Lightning / Wind / Earth / Water;
+- explicit rejection of Seventh Reaction as an element;
+- Hexarch living-researcher/nonlethal presentation constraint;
+- Sixfold Crucible genuine Form-I→Form-II constraint with fresh Form-II HP/MP and no Prime refresh;
+- Crown Prototype as its already-canon **Hunt** category, one body/one HP/no transformation, separate from Elites;
+- H05 reuse of Chapter 3 Cresthaven State 1;
+- validator rejection of Elite-bearing sidecar tags.
+
+Final field/battle art, final Vaelira sprites/portraits, final elemental effects, final Prime art/effects, final enemy roster and Elite placement remain pending/open.
 
 ## Cross-chapter HD-2D production architecture
 
@@ -249,7 +351,7 @@ Current production implementation should satisfy Audit87/Audit88 HD-2D staging:
 - state swaps and reusable effect systems;
 - Android performance discipline.
 
-Historical proof architecture remains useful only where it supports current behavior without forcing the retired visual target.
+The runtime contracts and sidecars now exist, but placeholder/proof visuals do **not** count as the final visual conversion.
 
 ## Combat / Cards / Prime / persistence accepted behaviors
 
@@ -274,7 +376,9 @@ Persistent state remains separate from scene nodes and serializes as versioned p
 
 ## Production workflow from here
 
-For **Chapters 0–4 follow-on implementation**, start from their exact approved source/validated Resources and the Audit88 HD-2D conversion record. Wire maps, world triggers, battle-background consumers, presentation assets, encounter transitions, Cresthaven states and other runtime systems without changing approved wording/story/gameplay.
+For **Chapters 0–4 follow-on implementation**, the presentation contracts and sidecars now provide the code/resource skeleton. Continue with actual map/environment consumers, authored camera/parallax layers, final battle-background consumers, final ~80 px field sprites, final ~200 px battle sprites, portraits, VFX, encounter transitions and hub visuals without changing approved wording/story/gameplay.
+
+Do not fill final ordinary-enemy or Elite placement during unrelated visual/runtime implementation. Run that as its own enemy/Elite placement pass when explicitly approved.
 
 For **new scene/production work**, the inherited next frontier is Chapter 5 — The Mountain Engine, unless the user explicitly redirects the task.
 
