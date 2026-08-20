@@ -24,6 +24,8 @@ func _init(seed_value: int = 0) -> void:
 	selector = Selector.new(selector_seed)
 
 func configure_context(new_chapter: int, new_area_id: String, new_world_units_per_s: float) -> bool:
+	if battle_active:
+		return false
 	if new_world_units_per_s <= 0.0:
 		return false
 	if not selector.supports_context(new_chapter, new_area_id):
