@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="DiyseAreaEncounterTuning" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/exploration/area_encounter_tuning.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+tuning_id = "proof_field_greenhollow"
+chapter = 1
+random_area_id = "ch01_greenhollow"
+world_units_per_s = 20.0
+random_encounters_enabled = true
+transition_mode_on_entry = "same_ecology"
+calibration_state = "engineering_only"

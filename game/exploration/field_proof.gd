@@ -1,16 +1,12 @@
 extends Node3D
 
 const FieldEncounterController = preload("res://game/exploration/field_encounter_controller.gd")
+const ENCOUNTER_PROOF_TUNING = preload("res://game/content/encounters/tuning/proof_field_greenhollow.tres")
 
 const AREA_ID := "field_proof"
 const TALK_DISTANCE_FALLBACK := 3.0
 const CHEST_DISTANCE := 2.35
 const COMBAT_SCENE := "res://game/combat/combat_proof.tscn"
-
-# Engineering proof tuning only. This is not production map calibration or canon.
-const ENCOUNTER_PROOF_CHAPTER := 1
-const ENCOUNTER_PROOF_AREA_ID := "ch01_greenhollow"
-const ENCOUNTER_PROOF_WORLD_UNITS_PER_S := 20.0
 const ENCOUNTER_PROOF_SEED := 9801
 
 const CYANIS_NEUTRAL := "res://game/characters/placeholders/portraits/cyanis_neutral.svg"
@@ -58,12 +54,8 @@ func _setup_encounter_proof() -> void:
 	encounter_controller = FieldEncounterController.new(ENCOUNTER_PROOF_SEED)
 	encounter_controller.name = "EncounterProofController"
 	add_child(encounter_controller)
-	if not encounter_controller.configure_context(
-		ENCOUNTER_PROOF_CHAPTER,
-		ENCOUNTER_PROOF_AREA_ID,
-		ENCOUNTER_PROOF_WORLD_UNITS_PER_S
-	):
-		_encounter_proof_message = "Encounter proof unavailable: invalid test context."
+	if not encounter_controller.configure_tuning(ENCOUNTER_PROOF_TUNING):
+		_encounter_proof_message = "Encounter proof unavailable: invalid test tuning."
 		return
 	player.eligible_distance_moved.connect(_on_player_eligible_distance_moved)
 	encounter_controller.battle_requested.connect(_on_random_battle_requested)
