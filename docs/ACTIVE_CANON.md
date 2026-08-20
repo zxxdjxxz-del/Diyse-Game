@@ -4,9 +4,10 @@ This is an implementation-facing summary. It does **not** replace the authoritat
 
 ## Current written authority
 
-- **Whole-project root:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.82 / Audit97 — Campaign EXP Economy, Optional Progression and Battle-Pacing Closure**.
+- **Whole-project root:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.83 / Audit98 — Random-Encounter Pressure, Revised EXP Curve and Hunt-Economy Reconciliation**.
 - **Date:** August 20, 2026.
 - Immediate inherited chain:
+  - v1.82 / Audit97 — Campaign EXP Economy, Optional Progression and Battle-Pacing Closure;
   - v1.81 / Audit96 — Level Progression, Hunt Difficulty and Encounter Strength Closure;
   - v1.80 / Audit95 — Major Hunt Architecture and Unlock Closure;
   - v1.79 / Audit94 — Enemy Asset Reuse and Palette-Swap Production Efficiency Lock;
@@ -21,6 +22,7 @@ This is an implementation-facing summary. It does **not** replace the authoritat
   - v1.70 / Audit85 — Yahtrea Exact World Map Visual and Spatial Authority Lock.
 
 Current canon files include:
+- `docs/canon/AUDIT98_RANDOM_ENCOUNTER_EXP_AND_HUNT_ECONOMY_RECONCILIATION.md`
 - `docs/canon/AUDIT97_CAMPAIGN_EXP_ECONOMY_OPTIONAL_PROGRESSION_AND_BATTLE_PACING_CLOSURE.md`
 - `docs/canon/AUDIT96_LEVEL_PROGRESSION_HUNT_DIFFICULTY_AND_ENCOUNTER_STRENGTH_CLOSURE.md`
 - `docs/canon/AUDIT95_MAJOR_HUNT_ARCHITECTURE_AND_UNLOCK_CLOSURE.md`
@@ -43,167 +45,229 @@ Current canon files include:
 - Absolute player level cap: **60**. No Level 61+, prestige leveling, or separate postgame leveling campaign.
 - Cleared-save `WORLD_AFTER` free roam exists; no separate postgame progression campaign.
 
-## Audit97 progression model — controlling
+## Audit98 progression model — controlling
 
-Diyse uses two distinct level references:
+Diyse distinguishes:
 
 - **Campaign-only level:** produced by mandatory story content plus normal campaign-route random encounters, with no Hunts or other optional/backtracking combat.
-- **Recommended / optional-content level:** readiness target after substantial optional engagement.
+- **Recommended / optional-content level:** a descriptive readiness reference for players who engage substantially with optional content.
 
 Mandatory story content must remain beatable on the campaign-only curve. Optional progression can legitimately make mandatory encounters easier.
 
 ### Campaign-only progression
 
 - Ch0: **no levels / no EXP progression**.
-- Ch1: 1→5.
-- Ch2: 5→9.
-- Ch3: 9→13.
-- Ch4: 13→17.
-- Ch5: 17→22.
-- Ch6: 22→27.
-- Ch7: 27→32.
-- Ch8: 32→37.
-- Ch9: 37→42.
-- Ch10: 42→47.
-- Ch11: 47→**52**.
-- **Campaign-only Chapter 12 entry = Level 52.**
+- Ch1: 1→~5.
+- Ch2: ~5→~9.
+- Ch3: ~9→~13.
+- Ch4: ~13→~17.
+- Ch5: ~17→~22.
+- Ch6: ~22→~27.
+- Ch7: ~27→~32.
+- Ch8: ~32→~37.
+- Ch9: ~37→~42.
+- Ch10: ~42→**~47**.
+- Ch11: ~47→**~53**.
+- **Campaign-only Chapter 12 launch = around Level 53.**
 - Ch12 campaign-only completion ≈ **Level 55**.
 
-### Recommended / optional-content readiness
+### Descriptive optional/readiness progression
 
-- Ch1 start 1; Ch2 5; Ch3 9; Ch4 13; Ch5 17; Ch6 23; Ch7/post-Accord 29; Ch8 35; Ch9 41; Ch10 47; Ch11 ~54.
-- **Recommended Chapter 12 launch = Level 59.**
-- **Worldframe readiness = Level 60.**
+Late-game reference:
+- End Ch10 campaign-only ~47; most optional **~50–51**.
+- End Ch11 / Ch12 launch campaign-only ~53; most optional **~56–57**.
+- End Ch12 campaign-only ~55; most optional **~59–60**.
+- A 100% player may already be **Level 60 before Chapter 12**.
+- Worldframe readiness remains **Level 60** and Worldframe is not required to reach Level 60.
 
-Audit96's phrase “Chapter 12 begins at Level 59” is superseded as a campaign-guaranteed statement; it now means recommended launch readiness. Audit96's ~54 Chapter 11 start is likewise a recommended optional-content target, not the campaign-only start.
+Recommended values are **not hard gates or exact arithmetic obligations**.
 
-## EXP formula — controlling
+## EXP curve — controlling
 
-Character-level cumulative EXP:
+Levels 1–17 retain:
 
-**Cumulative EXP for Level L = 100 × (L − 1)^2**
+**Cumulative EXP(L) = 100 × (L − 1)^2**
 
-Key totals:
-- Level 52 = **260,100 EXP**;
-- Level 55 = **291,600 EXP**;
-- Level 59 = **336,400 EXP**;
-- Level 60 = **348,100 EXP**.
+From the L17→18 level-up onward:
 
-EXP at Level 60 does not create Level 61+ progression.
+- base increment = `100 × (2L − 1)`;
+- multiplier = `1 + 0.35 × (L − 17) / 42` for L≥17;
+- round the final level-up cost to the nearest 100 EXP.
+
+The multiplier rises from 1.00× at L17 to 1.35× at L59.
+
+Key cumulative totals:
+- L17 = **25,600**;
+- L22 = **44,400**;
+- L27 = **69,300**;
+- L32 = **100,600**;
+- L37 = **138,800**;
+- L42 = **184,300**;
+- L47 = **237,600**;
+- L50 = **273,500**;
+- L53 = **312,400**;
+- L55 = **340,000**;
+- L56 = **354,400**;
+- L59 = **399,600**;
+- L60 = **415,400**.
+
+EXP at Level 60 creates no Level 61+ progression.
 
 ## Campaign battle pacing — controlling
 
-The mandatory-story route targets **165 ordinary random battles across Chapters 1–12**, including ordinary battles while traveling between mandatory destinations.
+The mandatory-story route targets approximately **210 ordinary random encounters across Chapters 1–12**.
 
-Campaign ordinary-battle targets:
-- Ch1 10; Ch2 11; Ch3 11; Ch4 12; Ch5 14; Ch6 15; Ch7 16; Ch8 16; Ch9 16; Ch10 17; Ch11 17; Ch12 10.
-- Total = **165**.
-- Practical normal-route tuning tolerance: approximately **165 ± 8**.
+Chapter centers:
+- Ch1 18; Ch2 19; Ch3 19; Ch4 19; Ch5 20; Ch6 19; Ch7 19; Ch8 18; Ch9 16; Ch10 17; Ch11 18; Ch12 8.
+- Total = **210 expected**, not guaranteed.
 
-The 165 excludes Hunt-route combat, Major-Hunt destination combat, other optional/backtracking combat, Elites, named encounters, bosses, Hunts, and Chapter 0 authored tutorial encounters.
+The 210 excludes Hunt-route combat, Major-Hunt destination combat, other optional/backtracking combat, Elites, named encounters, bosses, Hunts, and Chapter 0 authored tutorial encounters.
 
-## Campaign EXP budget — controlling
+There is no hidden chapter quota and no forced exit catch-up battle.
 
-Through Chapter 11:
-- **260,100 total campaign EXP** → campaign-only Level 52 entering Chapter 12.
-- **169,000 EXP** from 155 campaign ordinary battles.
-- **91,100 EXP** from mandatory named/story encounters.
+## Random encounter pressure — controlling
 
-Chapter 12 adds **31,500 mandatory EXP**:
-- 10 ordinary battles = 19,000;
-- Devourer of Names = 2,400;
-- Last Weapon Archon = 3,400;
-- Reconstituted Entity → The Last Command = 6,700, awarded only after The Last Command is defeated.
+Random encounters remain random, using hidden **eligible-movement-distance pressure**.
 
-Campaign-only completion therefore lands around Level 55.
+- no pressure while standing still;
+- menus/cutscenes/dialogue pause pressure;
+- sprinting cannot reduce encounters per unit distance;
+- victory resets pressure and grants grace;
+- immediate back-to-back encounters are suppressed;
+- long droughts become increasingly unlikely;
+- exploration/backtracking naturally creates more encounters.
+
+No battle can trigger before ~0.35 normalized spacing S. Trigger chance rises at ~0.10S checks from 3% at 0.35S through 80% at 1.65S+, targeting mean spacing near 1.00S with no hard forced encounter.
+
+Successful flee gives short grace without a full pressure reset; failed flee does not reset. Same-ecology transitions preserve pressure. Safe rooms may reset. Authored and random battle modes must not stack.
+
+Encounter selection:
+
+**pressure trigger → area → Light/Standard/Heavy roll → weighted local formation pool**
+
+Avoid exact consecutive formation repeats when alternatives exist.
+
+## Active-enemy cap — controlling
+
+Maximum **8 simultaneously active enemies**.
+
+True summons/adds count toward 8; VFX-only entities do not. Reinforcements may enter after space opens, so total participants over a whole battle may exceed 8 while simultaneous active enemies may not.
+
+Typical progression:
+- Ch1 2–3, max 4;
+- Ch2 3–4, max 4;
+- Ch3 3–4, max 5;
+- Ch4 4–5, max 6;
+- Ch5 5–6, max 7;
+- Ch6 5–7, max 8;
+- Ch7–11 generally 6–8, max 8;
+- Ch12 generally 5–8, max 8.
+
+## Campaign EXP budgets — controlling
+
+Chapter totals:
+- Ch1 1,600;
+- Ch2 4,800;
+- Ch3 8,000;
+- Ch4 11,200;
+- Ch5 18,800;
+- Ch6 24,900;
+- Ch7 31,300;
+- Ch8 38,200;
+- Ch9 45,500;
+- Ch10 **53,300**;
+- Ch11 **74,800**;
+- Ch12 **34,800**.
+
+Cumulative:
+- end Ch10 = **237,600**;
+- end Ch11 / Ch12 launch = **312,400**;
+- expected end Ch12 = **~347,200**, around mid-Level 55.
+
+### Ordinary formation anchors
+
+Whole-formation Light / Standard / Heavy anchors:
+- Ch1 45 / 55 / 70;
+- Ch2 130 / 165 / 200;
+- Ch3 215 / 280 / 315;
+- Ch4 315 / 375 / 460;
+- Ch5 460 / 610 / 710;
+- Ch6 650 / 850 / 995;
+- Ch7 830 / 1,050 / 1,250;
+- Ch8 1,070 / 1,360 / 1,600;
+- Ch9 1,480 / 1,825 / 2,265;
+- Ch10 1,835 / 2,300 / 2,640;
+- Ch11 2,075 / 2,600 / 3,100;
+- Ch12 2,080 / 2,600 / 3,120.
+
+Chapter-wide L/S/H weights:
+- Ch1 25/55/20;
+- Ch2 25/55/20;
+- Ch3 22/55/23;
+- Ch4 20/55/25;
+- Ch5 18/55/27;
+- Ch6 18/55/27;
+- Ch7 17/55/28;
+- Ch8 17/55/28;
+- Ch9 22/55/23;
+- Ch10 19/55/26;
+- Ch11 22/55/23;
+- Ch12 22.5/55/22.5.
+
+Individual formations may vary modestly around anchors if the weighted expectation remains on budget.
 
 ## Optional EXP economy — controlling
 
-Pre-Chapter-12 optional combat pool = **105,000 EXP**:
-- 11 Regional Hunts + Hunt-specific route combat = **42,000**;
-- Major Hunts #1–#5 + destination combat = **43,000**;
+Pre-Chapter-12 optional leveling pool = **107,100 EXP**:
+- 11 Regional Hunts + Hunt-route combat = **46,700**;
+- Major Hunts #1–#5 + destination/route combat = **40,400**;
 - other optional/backtracking combat = **20,000**.
 
-From campaign-only Level 52:
-- Level 59 requires **76,300 optional EXP** (~73% of the pool);
-- Level 60 requires **88,000 optional EXP** (~84% of the pool).
-
-This intentionally makes substantial optional play necessary for the recommended finale level and **most** meaningful optional combat necessary to cap before the finale. Worldframe is excluded from the EXP needed to reach Level 60.
+Worldframe is excluded from the EXP needed to reach Level 60.
 
 ### Regional Hunt EXP packages
 
-1. Cistern Devourer — 1,000
-2. Transfer Executioner — 1,500
-3. Archive Judgment Engine — 1,900
-4. Crown Prototype — 2,400
-5. Whitehorn Ravager — 3,000
-6. Winterglass Titan — 3,700
-7. Rift Gate Colossus — 4,300
-8. Rift Siege Beast — 5,000
-9. Mercyfallen Behemoth — 5,700
-10. Authority Remnant — 6,400
-11. Throne of Emperor Vaelkor — 7,100
+1. Cistern Devourer — **1,000**
+2. Transfer Executioner — **1,500**
+3. Archive Judgment Engine — **1,900**
+4. Crown Prototype — **2,200**
+5. Whitehorn Ravager — **2,700**
+6. Winterglass Titan — **3,400**
+7. Rift Gate Colossus — **4,500**
+8. Rift Siege Beast — **6,000**
+9. Mercyfallen Behemoth — **6,800**
+10. Authority Remnant — **7,900**
+11. Throne of Emperor Vaelkor — **8,800**
 
-Total = **42,000**. Packages include the boss plus Hunt-specific route combat; exact route-vs-boss splits remain implementation data unless separately locked.
+Total = **46,700**.
+
+Route planning means:
+- Regional #1–#3 about 2 expected route encounters;
+- Regional #4–#11 generally 1–2, planning mean ~1.5;
+- actual route battles remain random and geometry-driven.
 
 ### Major Hunt EXP packages before Worldframe
 
-1. Ashen Whitehorn — 4,200
-2. Crownless Siege Marshal → Crownless War Engine — 5,600
-3. Concordance Guardian — 7,200
-4. Worldscar Leviathan — 10,000
-5. Final Archive Arbiter — 16,000
+1. Ashen Whitehorn — **4,200**
+2. Crownless Siege Marshal → Crownless War Engine — **5,000**
+3. Concordance Guardian — **5,900**
+4. Worldscar Leviathan — **12,300**
+5. Final Archive Arbiter — **13,000**
 
-Total = **43,000**. Major Hunt #6 / Worldframe remains a Level-60 challenge and is excluded from the EXP needed to reach Level 60.
+Total = **40,400**.
+
+Working route centers are approximately 3 / 3 / 3 / 4 / 3 for Major Hunts #1–#5.
+
+Major Hunt #6 / Worldframe is a Level-60 challenge and is excluded from reach-Level-60 math.
 
 ### Other optional/backtracking pool
 
-- Budget = **20,000 EXP across approximately 18 optional ordinary battles**.
-- Exact encounter identities/routes are open and must attach to real optional spaces rather than being invented solely to satisfy the math.
+- **20,000 EXP across approximately 18 optional ordinary battles**.
+- Exact encounter identities/routes must attach to real optional spaces rather than being invented solely to satisfy math.
 
-## Encounter-strength grammar — controlling after Audit97
+## Hunt recommended player levels — inherited Audit96
 
-Enemies should generally feel stronger than a campaign-only party. There is **no dynamic level scaling**.
-
-For mandatory campaign roles, the balance reference is the campaign-only expected party at the authored placement:
-- ordinary enemy ≈ +1 equivalent;
-- strong ordinary / formation anchor ≈ +2;
-- named miniboss ≈ +2 to +3;
-- Elite ≈ +3;
-- mandatory story boss ≈ +4 to +5.
-
-Audit96's Ch5–Ch12 ordinary-enemy and Elite numeric tables are superseded wherever they assumed the recommended/optional-content curve as the mandatory campaign reference. Exact fixed per-Elite values may be data-authored later while preserving the +3 rule.
-
-Mandatory story-boss climax equivalents now use campaign-only progression:
-- Ch1 5→9; Ch2 9→13–14; Ch3 13→17; Ch4 17→21–22; Ch5 22→26–27; Ch6 27→31–32; Ch7 32→36–37; Ch8 37→41–42; Ch9 42→46–47; Ch10 47→51–52; Ch11 52→56–57; Ch12 campaign-only 52→~55 with final-sequence pressure around 58–60+ equivalent.
-
-Optional challenge rules remain:
-- Regional Hunt ≈ recommended level +4;
-- Major Hunt ≈ +5 early / +6 late;
-- Worldframe ≈ **67-equivalent** against a Level-60 party.
-
-Optional-content players can legitimately overlevel mandatory ordinary enemies, Elites, and bosses. That is an intended reward for optional engagement.
-
-## Ordinary formation EXP bands — controlling
-
-Formation totals, not per-enemy values:
-- Ch1 80 / 100 / 120
-- Ch2 210 / 280 / 350
-- Ch3 350 / 470 / 590
-- Ch4 460 / 610 / 760
-- Ch5 640 / 860 / 1,070
-- Ch6 760 / 1,020 / 1,280
-- Ch7 870 / 1,160 / 1,440
-- Ch8 1,020 / 1,360 / 1,700
-- Ch9 1,170 / 1,560 / 1,950
-- Ch10 1,250 / 1,660 / 2,080
-- Ch11 1,390 / 1,850 / 2,320
-- Ch12 1,420 / 1,900 / 2,380
-
-Columns are light / standard / heavy. Normal campaign mix target ≈ **25% / 55% / 20%**.
-
-## Regional Hunt recommended player levels — inherited Audit96
-
+Regional:
 1. Cistern Devourer — 7
 2. Transfer Executioner — 11
 3. Archive Judgment Engine — 15
@@ -216,8 +280,7 @@ Columns are light / standard / heavy. Normal campaign mix target ≈ **25% / 55%
 10. Authority Remnant — 57
 11. Throne of Emperor Vaelkor — 60
 
-## Major Hunt recommended player levels — inherited Audit96/Audit95
-
+Major:
 1. Ashen Whitehorn — 21
 2. Crownless Siege Marshal → Crownless War Engine — 27
 3. Concordance Guardian — 34
@@ -225,7 +288,31 @@ Columns are light / standard / heavy. Normal campaign mix target ≈ **25% / 55%
 5. Final Archive Arbiter — 58
 6. The Unfinished World → Worldheart — 60
 
+Recommended levels are readiness references, not access gates.
+
+## Hunt access versus natural clear — Audit98 clarification
+
+Unlock timing and natural clear timing are distinct. Fixed authored difficulty means a Hunt may unlock before a campaign-only player is near its recommended level; later return is expected behavior, not a failure.
+
 Audit95 unlocks, locations, Prime rewards, boss architecture, and Worldframe dual-gate logic remain unchanged.
+
+## Encounter-strength grammar
+
+There is **no dynamic level scaling**.
+
+Mandatory combat uses the Audit98 campaign-only party curve:
+- ordinary enemy ≈ +1 equivalent;
+- strong ordinary / formation anchor ≈ +2;
+- named miniboss ≈ +2 to +3;
+- Elite ≈ +3;
+- mandatory story boss ≈ +4 to +5.
+
+Audit97 fixed late-game strength numbers that specifically assumed Level-52 Chapter-12 entry are superseded where necessary; author exact fixed values against the revised ~Level-53 launch reference.
+
+Optional challenge grammar remains:
+- Regional Hunt ≈ recommended level +4;
+- Major Hunt ≈ +5 early / +6 late;
+- Worldframe ≈ **67-equivalent** against a Level-60 party.
 
 ## Enemy / Elite / Hunt role closure — inherited Audit93
 
@@ -246,8 +333,8 @@ Audit95 unlocks, locations, Prime rewards, boss architecture, and Worldframe dua
 - Exactly **6 Major Hunts**.
 - Exactly **17 Hunt-class optional encounters = 11 Regional + 6 Major**.
 - Major Hunts are optional and not required to launch Chapter 12.
-- Worldframe Depths is inside Final Archives and opens only when both Final Archive Arbiter has been cleared **and** Vaelkor has been defeated.
-- The six Major-Hunt bosses sit outside Audit93's 160 chapter-production combat-identity basis; all-in distinct combat-encounter identity count is 166.
+- Worldframe Depths opens only after both Final Archive Arbiter clear and Vaelkor defeat.
+- Six Major-Hunt bosses remain outside Audit93's 160 chapter-production combat-identity basis; all-in combat-encounter identity count remains 166.
 
 ## Enemy asset reuse — inherited Audit94
 
@@ -255,7 +342,6 @@ Production targets for the Audit93 160-identity chapter roster:
 - roughly 40–45 true/near palette-material swaps;
 - roughly 60% / about 96 identities avoid a completely new base sprite/rig through reuse;
 - only roughly 20–25 identities should read to players as obvious palette swaps;
-- most reuse should be disguised through low-cost gear, material, VFX, animation, pose, or silhouette differentiation;
 - shared assets never imply shared lore identity.
 
 ## World / map authority
@@ -273,30 +359,32 @@ The Black Mountains lie west outside Yahtrea and are Black Host territory.
 
 - Chapters **0–4 are COMPLETE/CLOSED** in story/dialogue/gameplay authority and have passed HD-2D Conversion Audit Pass 1 plus cross-chapter consistency/cost consolidation.
 - Chapter 2 S015/B003 unnamed masked SECOND OFFICER is Seyrik Rell; dialogue remains unchanged and identity remains unrevealed in-scene.
-- Chapter 5 — **The Mountain Engine** — remains the next inherited exact scene-production / HD-2D production-audit frontier, but Audit91 requires a beat-level rewrite/reconciliation before line-complete dialogue.
+- Chapter 5 — **The Mountain Engine** — remains the next inherited exact scene-production / HD-2D production-audit frontier, subject to Audit91's beat-level rewrite/reconciliation gate.
 - Chapter 9 route is Larkspire / Equal Mercy → Last Sanctuary → Crownfall invasion → Mercy Is Not Surrender; Rhazek/Bastion Devourer is the mandatory Crownfall climax; Mercyfallen Behemoth is Hunt #9.
-- Chapter 11 macro structure remains Audit89-locked: Varkesh capture precedes Forward Hub; Vaelkor two-form climax; post-Vaelkor cleanup; deliberate Chapter 12 launch.
+- Chapter 11 remains Audit89-locked: Varkesh capture precedes Forward Hub; Vaelkor two-form climax; post-Vaelkor cleanup; deliberate Chapter 12 launch.
 - Chapter 12 remains Audit89-locked: no Regional Hunt; Devourer of Names Elite; Last Weapon Archon mandatory guardian; Reconstituted Entity → The Last Command; modern Final Severance; no third form.
 
-## Implementation boundary after Audit97
+## Implementation boundary after Audit98
 
-Audit97 now locks:
-- the EXP formula;
-- campaign ordinary-battle baseline;
-- campaign-only progression and Chapter 12 entry at 52;
-- recommended Chapter 12 launch at 59;
-- campaign and optional EXP pools;
-- Hunt EXP packages;
-- Chapter 12 EXP package;
-- ordinary formation reward bands;
-- campaign-only relative-strength reference for mandatory combat.
+Audit98 now locks:
+- ~210 expected campaign random encounters;
+- hidden distance-based encounter pressure;
+- 8 simultaneously active enemy maximum;
+- Chapter-5-onward EXP acceleration;
+- revised campaign-only progression and Chapter-12 launch around Level 53;
+- chapter EXP budgets and current formation anchors;
+- descriptive optional progression bands;
+- normalized Hunt EXP packages and 107,100 pre-Ch12 optional pool;
+- completionist pre-Ch12 Level-60 allowance;
+- Worldframe exclusion from reach-Level-60 math.
 
-Still open for implementation/playtest:
-- per-enemy EXP weights that sum into formation totals;
-- exact Hunt route-vs-boss EXP splits where not separately locked;
+Still implementation/playtest territory:
+- exact per-area S calibration from real route distance;
+- exact formation membership and local weights where not already authored;
+- individual formation reward variation around chapter anchors;
 - raw final HP/Attack/Defense/Magic/Spirit/Speed constants;
-- exact area-specific RNG/formation distributions;
-- exact placement/identity of the 20,000-EXP optional non-Hunt pool;
-- micro-adjustments that preserve the locked cumulative targets.
+- exact optional-route geometry where not separately locked;
+- final per-Hunt route-vs-boss EXP splits consistent with package totals;
+- performance validation of 4-party + 8-enemy VFX-heavy late-game battles on target Android hardware.
 
 Omission from this implementation-facing summary does not erase compatible older canon. Exact approved visual masters and newer explicit user corrections always control conflicts.
