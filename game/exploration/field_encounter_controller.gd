@@ -113,6 +113,24 @@ func cancel_battle_request_without_reset() -> bool:
 	_apply_pause_state()
 	return true
 
+func restore_after_scene_return(outcome: String, formation_id: String) -> bool:
+	if battle_active:
+		return false
+	if not formation_id.is_empty():
+		last_formation_id = formation_id
+	match outcome:
+		"victory":
+			pressure.reset_after_victory()
+		"successful_flee":
+			pressure.resume_after_successful_flee()
+		"defeat":
+			# Engineering proof return only. Production defeat flow is still separate.
+			pressure.reset_after_victory()
+		_:
+			return false
+	_apply_pause_state()
+	return true
+
 func reset_for_safe_room() -> bool:
 	if battle_active:
 		return false
