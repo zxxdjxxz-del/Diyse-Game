@@ -4,9 +4,11 @@ This is an implementation-facing summary. It does **not** replace the authoritat
 
 ## Current written authority
 
-- **Whole-project root:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.74 / Audit89 — Chapters 11–12 Macro Story Structure and Final-Act Causality Lock**.
+- **Whole-project root:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.76 / Audit91 — Seyrik Pre-Reveal, Black Host Advancement, and Chapter 5 Beat-Rewrite Gate Lock**.
 - **Date:** August 20, 2026.
 - **Immediate inherited chain:**
+  - v1.75 / Audit90 — Chapters 0–7 Enemy Production and Terminology Lock;
+  - v1.74 / Audit89 — Chapters 11–12 Macro Story Structure and Final-Act Causality Lock;
   - v1.73 / Audit88 — Chapters 0–4 HD-2D Conversion and Cost-Consolidation Closure;
   - v1.72 / Audit87 — HD-2D Production Grammar and Legacy Presentation Language Closure;
   - v1.71 / Audit86 — Cyanis Exact Visual Authority Lock;
@@ -15,11 +17,15 @@ This is an implementation-facing summary. It does **not** replace the authoritat
   - v1.68 / Audit83 — Major Hunt #1 Ashen Whitehorn Full Production Authority Lock;
   - v1.67 / Audit82 — Regional Hunts #1–#3 Full Production Authority and Prime-Chronology Lock;
   - v1.66 / Audit81 — Chapter 4 Full Production Dialogue, Character-Life, Crown Prototype Hunt and Roster-State Lock.
+- Audit91 promotion: `docs/canon/AUDIT91_SEYRIK_PRE_REVEAL_BLACK_HOST_ADVANCEMENT_AND_CHAPTER_5_BEAT_REWRITE_GATE_LOCK.md`.
+- Audit90 promotion: `docs/canon/AUDIT90_CHAPTERS_00_07_ENEMY_PRODUCTION_AND_TERMINOLOGY_LOCK.md`.
 - Audit89 promotion: `docs/canon/AUDIT89_CHAPTERS_11_12_MACRO_STORY_STRUCTURE_AND_FINAL_ACT_CAUSALITY_LOCK.md`.
 - Audit88 promotion: `docs/canon/AUDIT88_CHAPTERS_00_04_HD2D_CONVERSION_AND_COST_CONSOLIDATION_CLOSURE.md`.
 - Detailed completed-chapter production record: `docs/production/HD2D_CHAPTERS_00_04_CONVERSION_AUDIT_PASS_1.md`.
 - Chapters **0–4 are COMPLETE/CLOSED** in story/dialogue/gameplay terms and have passed HD-2D Conversion Audit Pass 1 plus cross-chapter consistency/cost consolidation.
-- Audit89 is a **macro-story production authority** for Chapters 11–12. It does not claim line-complete dialogue or runtime implementation for those chapters.
+- Audit90 controls Chapters 0–7 enemy-production families, encounter-roster handling, carryovers, party-only `Sixfold` terminology, and the Chapter 4 Reaction Annex terminology corrections.
+- Audit89 remains the **macro-story production authority** for Chapters 11–12. It does not claim line-complete dialogue or runtime implementation for those chapters.
+- Audit91 locks Seyrik's Chapter 2 pre-reveal identity, Chapter 5 Seyrik/Rhazek architecture, Chapter 6 cumulative break motivation, and a mandatory **beat rewrite before Chapter 5 dialogue**.
 - Chapter 5 — **The Mountain Engine** — remains the next inherited exact scene-production / HD-2D production-audit frontier unless the user explicitly chooses another task.
 
 ## Presentation authority
@@ -115,19 +121,33 @@ The same principle applies to every other exact approved character, antagonist, 
 |---|---|---|
 | Ch0 | The Broken Convoy | COMPLETE/CLOSED; dialogue Resources merged; HD-2D Conversion Pass 1 approved |
 | Ch1 | Brackenwall and the Wayfinder | COMPLETE/CLOSED; exact source-parity + continuity validated; HD-2D Conversion Pass 1 approved |
-| Ch2 | The Drowned Oath | COMPLETE/CLOSED; exact source-parity + continuity validated; HD-2D Conversion Pass 1 approved |
+| Ch2 | The Drowned Oath | COMPLETE/CLOSED; exact source-parity + continuity validated; HD-2D Conversion Pass 1 approved; Audit91 retroactively identifies S015/B003 unnamed SECOND OFFICER as masked Seyrik without changing dialogue |
 | Ch3 | The Old City and Last Sentinel | COMPLETE/CLOSED; corrected source-parity/Cresthaven validation passed; HD-2D Conversion Pass 1 approved |
 | Ch4 | The Seventh Reaction | COMPLETE/CLOSED; S022–S026 + C08/C09/H05 + Crown Prototype authority locked; HD-2D Conversion Pass 1 approved |
-| Ch5 | The Mountain Engine | **next inherited exact scene-production / HD-2D production-audit frontier** |
-| Ch6 | Broken Sky and Crimson Work | inherited architecture |
+| Ch5 | The Mountain Engine | **next inherited exact scene-production / HD-2D production-audit frontier; Audit91 requires beat-level rewrite/reconciliation before dialogue** |
+| Ch6 | Broken Sky and Crimson Work | inherited architecture; Audit91 locks Seyrik's cumulative Black Host break/recruitment motivation |
 | Accord | Sixfold Accord | locked interlude architecture |
 | Ch7 | The Prison of Names | inherited architecture |
 | Ch8 | Westreach and the Marshal | inherited architecture |
-| Ch9 | Equal Mercy and Continuity | inherited architecture |
+| Ch9 | Equal Mercy and Continuity | inherited architecture; Rhazek final-confrontation destination remains around Ch9, exact placement/architecture still open |
 | Ch10 | Crown Engine and Sixfold Truth | Custodian/Last Weapon truth feeds directly into Lysara's final-offensive decision; detailed inherited architecture |
 | Ch11 | The Reforged March | Audit89 macro-locked: final Black Mountains campaign; Varkesh capture precedes Forward Hub; Elite/Hunt separated; Vaelkor two-form climax; post-Vaelkor cleanup; deliberate Ch12 launch |
 | Ch12 | The Last Command | Audit89 macro-locked: no Regional Hunt; Devourer Elite; Last Weapon Archive fragment reveal; Last Weapon Archon; Reconstituted Entity → Last Command; modern Final Severance |
 | After | WORLD_AFTER — Cresthaven Reconstruction | cleared-save free roam / aftermath; no separate postgame progression campaign |
+
+## Seyrik pre-reveal / Chapter 5 beat gate — Audit91
+
+- **Chapter 2:** in S015/B003, the existing unnamed masked SECOND OFFICER speaking with Rhazek before Rhazek turns to the arriving party is **Seyrik Rell**. Preserve the existing dialogue exactly; keep him masked, unnamed, generically labeled, and without special reveal emphasis.
+- **Chapter 5:** before any line-complete dialogue is written, run a beat-level rewrite/reconciliation pass that integrates Seyrik and Rhazek into the chapter architecture.
+- Seyrik's Chapter 5 appearance remains masked and unnamed, but he directly recognizes the party as the same group from the Red Transfer Bastion. Preserve the recognition sentiment **“The same group from the Red Transfer Bastion.”** Exact wording remains open until dialogue.
+- Later in Chapter 5, include a short **non-boss Rhazek command/interlude** in which Seyrik reports to him. Rhazek recognizes Seyrik's competence, gives him greater responsibility/effectively advances him, and assigns him into the operational chain that puts him closer to Matron Zevraya in Chapter 6.
+- Seyrik accepts the advancement professionally without celebration.
+- Dramatic irony is locked: Rhazek believes he is cultivating a promising officer, while the access created by Seyrik's advancement exposes him to the upper command behavior that helps convince him to defect.
+- Exact Chapter 5 scene numbers, exact placement, exact staging, and exact dialogue remain open until the required beat rewrite is completed and approved.
+- Do not add a Rhazek rematch in Chapters 5–6.
+- By Chapter 6, Seyrik's break is cumulative: he has witnessed Rhazek's prisoner treatment, already understands what Varkesh is capable of, and has now seen the consequences of Zevraya's actions. Rising through the ranks has shown him what Black Host upper command actually is and what continued advancement would make him become.
+- Core Seyrik sentiment: **“I know what comes next if I stay.”** Treat this as a thematic lock, not necessarily final verbatim dialogue.
+- Seyrik's turn remains restrained and unsentimental; no sudden redemption speech, no implication that Zevraya alone causes the break, and no absolution of prior complicity.
 
 ## Permanent cast / class / Face / Story Prime
 
@@ -313,7 +333,7 @@ Core early voices:
 - Mirena: witty/observant/mischievous/politically impatient; public cleaner, private warmer/more profane.
 - Lysara: patient/observant/dry funny/affectionate/stubborn/practical; continuity without stagnation and restraint of sovereign ownership.
 
-Protected early dialogue/relationship progression is recorded in the line-complete source under `docs/chapters/dialogue/` and chapter lock files. Audit88 changes presentation/implementation, not wording. Audit89 does not pre-author Chapter 11–12 line-complete dialogue.
+Protected early dialogue/relationship progression is recorded in the line-complete source under `docs/chapters/dialogue/` and chapter lock files. Audit88 changes presentation/implementation, not wording. Audit89 does not pre-author Chapter 11–12 line-complete dialogue. Audit91 likewise does not line-write Chapter 5; it requires the Chapter 5 beat rewrite first.
 
 ## Audit89 Chapter 11 macro story authority
 
@@ -442,7 +462,7 @@ The approved early-game implementation should be treated as a small set of durab
 ### Boss implementation categories
 
 1. **Same-body / same-HP escalation** — use components, overlays, idle/lighting/behavior changes; do not manufacture a second body.
-2. **Genuine new form** — substantial new art only when the encounter truly becomes a new body/combat problem, as with Sixfold Crucible Form II.
+2. **Genuine new form** — substantial new art only when the encounter truly becomes a new body/combat problem, as with Regulation Crucible Form II.
 3. **Prime-scale entity** — use the Prime pipeline rather than ordinary boss-state logic.
 
 Audit89 explicitly classifies Vaelkor's Form I → Sovereign Panoply Unbound and Reconstituted Entity → The Last Command as genuine authored multi-form boss progressions; do not collapse them into same-bar states.
@@ -470,6 +490,10 @@ Canon/authoring closure, HD-2D production-audit closure and runtime implementati
 Audit88 does **not** claim that all final maps, sprites, portraits, battle backgrounds, VFX, triggers or presentation executors for Chapters 0–4 are already implemented in Godot. It defines how those completed chapters must be implemented without rewriting them.
 
 Audit89 similarly does **not** claim Chapter 11–12 line-complete scene authoring or runtime implementation. It locks macro story causality, knowledge/reveal order, encounter category assignments noted above, boss-form relationships, Final Severance logic and aftermath structure for later detailed production.
+
+Audit90 is an enemy-production/terminology authority and does not claim that its approved rosters are already fully implemented.
+
+Audit91 is a story-continuity/workflow authority. It does not line-write Chapter 5; it requires the beat-level rewrite/reconciliation to occur before Chapter 5 dialogue production begins.
 
 Historical 7B.5/7B.6 proofs remain regression evidence for accepted system behavior where compatible. Placeholder/graybox proof assets remain non-canon.
 
