@@ -1,16 +1,17 @@
 # Diyse — Current Implementation Status
 
-**Written authority checkpoint:** v1.73 / Audit88  
+**Written authority checkpoint:** v1.74 / Audit89  
 **Presentation target:** HD-2D  
 **Step 7B.5:** COMPLETE / historical technical PASS on real Android hardware, interpreted through current HD-2D authority  
 **Step 7B.6:** COMPLETE / PASS — production dialogue authoring handoff locked  
 **Story/dialogue production authority:** Chapters 0–4 COMPLETE/CLOSED  
 **HD-2D Conversion Audit Pass 1:** Chapters 0–4 COMPLETE / APPROVED  
 **Cross-chapter HD-2D consistency/cost consolidation:** COMPLETE / PASS / GREEN  
+**Audit89 Chapters 11–12 macro-story authority:** ACCEPTED / LOCKED; not line-complete dialogue/runtime implementation  
 **HD-2D runtime foundation:** IMPLEMENTED  
 **Chapters 0–4 HD-2D presentation sidecars/environment-state hookup:** IMPLEMENTED at code/resource layer  
 **Final HD-2D visual asset/map replacement:** NOT YET IMPLEMENTED  
-**Ordinary enemy roster and Elite placement:** OPEN / intentionally not encoded by this pass  
+**Ordinary enemy roster / Elite placement:** Chapters 0–4 still OPEN; Audit89 separately fixes specific late-game role/category assignments noted below  
 **Next inherited production-audit / scene-production frontier:** Chapter 5 — The Mountain Engine  
 **Active repository:** `zxxdjxxz-del/Diyse-Game`
 
@@ -20,12 +21,13 @@ The repository uses distinct completion states. Do not conflate them.
 
 1. **Authoring/canon closure:** Chapters 0–4 have approved story, dialogue, continuity, relationship, gameplay and production authority.
 2. **HD-2D conversion authority closure:** Audit88 defines how completed Chapters 0–4 are staged/implemented in the active HD-2D grammar without rewriting them.
-3. **HD-2D runtime foundation:** reusable reference composition, party/enemy battle anchors, field/battle scale helpers, authored environment-state Resources, presentation sidecars, Prime visual suspension/return hooks, Android decorative quality scaling and presentation validation are implemented.
-4. **Chapter presentation hookup:** Chapters 0–4 have HD-2D scene-presentation sidecars and authored environment-state Resources at the code/resource layer. These sidecars do not contain final art and do not replace the closed dialogue Resources.
-5. **Repository line-complete source:** Chapters 1–4 have exact approved scene-level Markdown under `docs/chapters/dialogue/`.
-6. **Runtime dialogue Resource integration:** Chapters 0–3 have validated production `.tres` scene sets. Chapter 4 has exact production dialogue Resources/static validation present; its presentation sidecars are a separate layer.
-7. **Final visual implementation:** final maps/environment art, ~80 px field sprites, ~200 px battle sprites, final portraits, final battle backgrounds, final VFX, final world/encounter consumers and final hub visuals remain production work where not already present.
-8. **Enemy/Elite placement:** final ordinary-enemy roster/compositions and Elite placement remain open. This HD-2D runtime pass deliberately does not assign them.
+3. **Late-game macro-story authority:** Audit89 fixes Chapter 10→11 causality, Chapter 11 campaign/Elite/Hunt/Vaelkor structure, Chapter 12 knowledge/revelation order, final-boss causality, Final Severance and aftermath. It does **not** mean Chapters 11–12 are line-complete or implemented.
+4. **HD-2D runtime foundation:** reusable reference composition, party/enemy battle anchors, field/battle scale helpers, authored environment-state Resources, presentation sidecars, Prime visual suspension/return hooks, Android decorative quality scaling and presentation validation are implemented.
+5. **Chapter presentation hookup:** Chapters 0–4 have HD-2D scene-presentation sidecars and authored environment-state Resources at the code/resource layer. These sidecars do not contain final art and do not replace the closed dialogue Resources.
+6. **Repository line-complete source:** Chapters 1–4 have exact approved scene-level Markdown under `docs/chapters/dialogue/`.
+7. **Runtime dialogue Resource integration:** Chapters 0–3 have validated production `.tres` scene sets. Chapter 4 has exact production dialogue Resources/static validation present; its presentation sidecars are a separate layer.
+8. **Final visual implementation:** final maps/environment art, ~80 px field sprites, ~200 px battle sprites, final portraits, final battle backgrounds, final VFX, final world/encounter consumers and final hub visuals remain production work where not already present.
+9. **Enemy/Elite placement:** Chapters 0–4 final ordinary-enemy roster/compositions and Elite placement remain open. Audit89 separately locks Chapter 11's Elite **role/category** (proper name still working-only), Chapter 12's Elite identity, Chapter 11 Hunt #11, and Chapter 12's no-Hunt rule.
 
 A missing final visual asset or consumer is not evidence that approved dialogue/canon is missing. Likewise, a presentation sidecar describing `random_allowed`, `fixed_authored` or `mixed` encounter **mode** is not a final ordinary-enemy or Elite assignment.
 
@@ -70,44 +72,62 @@ Dialogue Resources gained backward-compatible optional presentation metadata and
 - Chapter 1 presentation hookup merged to `main`: `e907ecdee8572b21585ffff5aa338536b0cd9b50`.
 - Chapter 2 presentation hookup merged to `main`: `c6e01693a02e018fd1d90924a20e426b3e8d7434`.
 - Chapter 3 presentation hookup merged to `main`: `17ee07cecd93879b3f6f7b935ca1c8a7e605b9db`.
-- Chapter 4 presentation hookup is the current bounded runtime promotion; once merged, this document describes the resulting complete Chapters 0–4 code/resource-layer hookup.
+- Chapter 4 presentation hookup is present on the current main line represented by the Audit88-era implementation checkpoint.
 
-Every runtime promotion must pass both the repository Godot Smoke Validation and Android APK Proof on its exact head before merge.
+Runtime promotions must pass both the repository Godot Smoke Validation and Android APK Proof on their exact head before merge.
 
 ## Enemy / Elite / Hunt boundary
 
-This distinction is a hard implementation guardrail for the current pass.
+This distinction is a hard implementation guardrail.
 
 ### Ordinary enemies
 
-Still open unless a specific authored encounter is already protected by chapter canon. The runtime sidecars may say where random encounters are allowed/suppressed, but they do not select the final ordinary enemies, formations, stats or visuals.
+For Chapters 0–4, still open unless a specific authored encounter is already protected by chapter canon. Runtime sidecars may say where random encounters are allowed/suppressed, but they do not select final ordinary enemies, formations, stats or visuals.
+
+Audit89 does not attempt a whole-game ordinary-enemy roster pass. Chapter 12's **Calamity Memory** remains an enemy/special-enemy ecosystem identity rather than the chapter Elite, but exact placement/stats remain later production work.
 
 ### Elites
 
-**Placement remains open.**
+Elites remain separate from Hunts and mandatory bosses.
 
-- No Chapter 0–4 presentation sidecar has an Elite ID or Elite placement field.
-- Presentation validators reject Elite-bearing scene tags.
-- No dialogue was changed to place or acknowledge a new Elite.
-- Generic runtime capability may support an `elite` presentation category later, but that capability does not assign an Elite to any chapter, map, scene or encounter table.
+- Chapters 0–4: Elite placement remains open; no presentation sidecar has an Elite ID or placement field, and presentation validators reject Elite-bearing scene tags.
+- Chapter 11: Audit89 fixes a **dedicated conventional Black Host Elite role**. “Sovereign's First Warlord” is retired. “Lord-Marshal Kharvek” is a **working name only** and may be replaced later without reopening the role/category.
+- Chapter 12: **Devourer of Names = Chapter 12 Elite**.
+
+These story/category locks do not mean runtime encounters, stats, visuals or scene-sidecar integration already exist.
 
 ### Hunts
 
-Hunts remain a separate already-authored category. An already-canon Hunt may have presentation metadata without becoming an Elite. Chapter 4's Crown Prototype sidecar therefore identifies its already-locked **Hunt** status while explicitly remaining separate from Elite placement.
+Hunts remain a separate authored category.
+
+- Chapter 4 Crown Prototype remains an already-locked Hunt and is not an Elite.
+- **Chapter 11 Regional Hunt #11 = Throne of Emperor Vaelkor**, secretly a corrupted ancient Diysean construct appropriated/modified by the Black Host; preserve **Sealed Throne → Walking Throne**.
+- **Chapter 12 has no Regional Hunt.** Current established Regional Hunt count is therefore 11 unless later explicitly revised; six Major Hunts remain separate.
 
 ### Mandatory bosses/authored encounters
 
-Existing canon-locked bosses and authored encounters may carry presentation metadata because their story placement is already protected. The runtime pass does not use them to infer or freeze the rest of the enemy roster.
+Existing canon-locked bosses and authored encounters may carry presentation metadata because their story placement is already protected.
 
-## Active HD-2D authority
+Audit89 late-game mandatory locks include:
 
-Controlling files:
+- Vaelkor: **Emperor of the Reforged Host → Sovereign Panoply Unbound**, two genuine forms; no possession/third Vaelkor form.
+- Chapter 12 ancient guardian: **Last Weapon Archon**, one HP bar, physical ancient Diysean guardian; not Entity intelligence/fragment.
+- Final boss: exactly **Reconstituted Entity → The Last Command**, two genuine full-health forms; no third form.
+
+No runtime implementation claim is implied by those authoring locks.
+
+## Active HD-2D / canon authority
+
+Controlling files include:
 
 - `docs/ACTIVE_CANON.md`
 - `docs/PRESENTATION_RULES.md`
 - `docs/canon/AUDIT87_HD2D_PRODUCTION_GRAMMAR_AND_LEGACY_PRESENTATION_CLOSURE.md`
 - `docs/canon/AUDIT88_CHAPTERS_00_04_HD2D_CONVERSION_AND_COST_CONSOLIDATION_CLOSURE.md`
 - `docs/production/HD2D_CHAPTERS_00_04_CONVERSION_AUDIT_PASS_1.md`
+- `docs/canon/AUDIT89_CHAPTERS_11_12_MACRO_STORY_STRUCTURE_AND_FINAL_ACT_CAUSALITY_LOCK.md`
+- `docs/chapters/chapter_11/CHAPTER_11_FORWARD_HUB_AND_FINAL_CLEANUP_WINDOW_LOCK.md`
+- `docs/chapters/chapter_12/CHAPTER_12_MACRO_STORY_STRUCTURE_LOCK.md`
 
 Core production targets:
 
@@ -144,6 +164,7 @@ The technical chain remains accepted as engineering evidence where compatible wi
 | Chapter 4 authoring/static conversion checkpoint | AUTHORING CLOSED | S022–S026 + C08/C09/H05 + Crown Prototype exact source locked; production dialogue Resources/static validation present |
 | Audit87 Step 1 | PASS | HD-2D Production Grammar and legacy presentation closure |
 | Audit88 Step 2 | PASS / GREEN | Chapters 0–4 HD-2D Conversion Audit Pass 1 + cross-chapter consistency/cost consolidation |
+| Audit89 macro story | ACCEPTED / LOCKED | Chapters 11–12 causal/revelation/finale structure fixed for later detailed production; no runtime-completion claim |
 | HD-2D runtime foundation | IMPLEMENTED | Shared presentation contracts, battle layout, state Resources, Prime hooks and validation implemented |
 | Ch0 HD-2D presentation hookup | IMPLEMENTED / MERGED | Scene sidecars + environment states; no enemy/Elite placement |
 | Ch1 HD-2D presentation hookup | IMPLEMENTED / MERGED | Scene sidecars + environment states + random-encounter boundary; no enemy/Elite placement |
@@ -310,6 +331,27 @@ Implemented at code/resource layer:
 
 Final field/battle art, final Vaelira sprites/portraits, final elemental effects, final Prime art/effects, final enemy roster and Elite placement remain pending/open.
 
+## Chapters 11–12 Audit89 macro-story checkpoint
+
+**Authoring state:** MACRO STORY ACCEPTED / LOCKED.  
+**Line-complete dialogue:** NOT YET AUTHORED.  
+**Runtime implementation:** NOT YET IMPLEMENTED as a Chapter 11–12 production pass.
+
+Key repository-facing locks:
+
+- Custodian does **not** know a fragment survived; Queen Lysara's fear that Black Host may discover/exploit the Last Weapon is a principal trigger for the final offensive.
+- Varkesh is captured alive **before** the Forward Hub is established.
+- Forward Hub remains Cresthaven-linked through the post-Vaelkor cleanup window.
+- Ch11 Elite/Hunt/boss categories are separate; Hunt #11 is Throne of Emperor Vaelkor; Ch12 has no Regional Hunt.
+- Vaelkor remains **Emperor of the Reforged Host → Sovereign Panoply Unbound**, no possession/third form.
+- Ch12 physical order is fixed by Audit89.
+- Last Weapon Archive is the first surviving-fragment reveal.
+- Final boss remains exactly **Reconstituted Entity → The Last Command**.
+- Final Severance is invented by the modern six during The Last Command fight and permanently destroys all Entity continuity while preserving the giant Crest/viable reactors and all six party members.
+
+Detailed authority:
+`docs/canon/AUDIT89_CHAPTERS_11_12_MACRO_STORY_STRUCTURE_AND_FINAL_ACT_CAUSALITY_LOCK.md`.
+
 ## Cross-chapter HD-2D production architecture
 
 Durable shared systems/families:
@@ -376,11 +418,13 @@ Persistent state remains separate from scene nodes and serializes as versioned p
 
 ## Production workflow from here
 
-For **Chapters 0–4 follow-on implementation**, the presentation contracts and sidecars now provide the code/resource skeleton. Continue with actual map/environment consumers, authored camera/parallax layers, final battle-background consumers, final ~80 px field sprites, final ~200 px battle sprites, portraits, VFX, encounter transitions and hub visuals without changing approved wording/story/gameplay.
+For **Chapters 0–4 follow-on implementation**, the presentation contracts and sidecars provide the code/resource skeleton. Continue with actual map/environment consumers, authored camera/parallax layers, final battle-background consumers, final ~80 px field sprites, final ~200 px battle sprites, portraits, VFX, encounter transitions and hub visuals without changing approved wording/story/gameplay.
 
-Do not fill final ordinary-enemy or Elite placement during unrelated visual/runtime implementation. Run that as its own enemy/Elite placement pass when explicitly approved.
+Do not fill Chapters 0–4 final ordinary-enemy or Elite placement during unrelated visual/runtime implementation. Run that as its own enemy/Elite placement pass when explicitly approved.
 
-For **new scene/production work**, the inherited next frontier is Chapter 5 — The Mountain Engine, unless the user explicitly redirects the task.
+For **new exact scene/production work**, the inherited next frontier remains Chapter 5 — The Mountain Engine, unless the user explicitly redirects the task.
+
+When detailed production eventually reaches Chapters 11–12, derive exact scenes, gameplay beats, optional-content timing, HD-2D staging and dialogue from Audit89 without changing its locked causal, knowledge, reveal, survival and finale relationships unless the user explicitly revises them.
 
 ## Non-canon technical fixtures
 
