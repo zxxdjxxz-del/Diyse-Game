@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DiyseScenePresentationDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/presentation/scene_presentation_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+scene_id = "S012"
+chapter_id = "chapter_02"
+environment_family = "CH02_DUNMERE_WATERWORKS"
+battle_background_family = ""
+cutscene_tier = "C2"
+vfx_tier = "V1"
+encounter_mode = "none"
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "DUNMERE_INVESTIGATION", "LOWER_FEED_STATE_CHANGE", "SUNKEN_ARCHIVE_REVEAL"])
