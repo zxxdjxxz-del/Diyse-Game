@@ -94,3 +94,6 @@ func resume_after_successful_flee() -> void:
 
 func resume_after_failed_flee() -> void:
 	encounter_pending = false
+
+func cancel_pending_encounter() -> void:
+	encounter_pending = false
