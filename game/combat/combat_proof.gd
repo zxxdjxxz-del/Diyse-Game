@@ -1,9 +1,12 @@
 extends Control
 
 const BattleState = preload("res://game/combat/battle_state.gd")
+const GeneratedBattleState = preload("res://game/combat/generated_encounter_battle_state.gd")
+const ProofEnemyCombatData = preload("res://game/content/encounters/proof_enemy_combat_data.gd")
 const FIELD_SCENE := "res://game/exploration/field_proof.tscn"
 
 var battle
+var title_label: Label
 var party_status: RichTextLabel
 var enemy_status: RichTextLabel
 var prompt: Label
@@ -12,19 +15,45 @@ var target_box: HBoxContainer
 var confirm_button: Button
 var next_round_button: Button
 var return_button: Button
+var flee_button: Button
 var log_view: RichTextLabel
 var command_buttons: Dictionary = {}
 var _current_actor_index := -1
 var _pending_command := ""
 var _pending_content_id := ""
 var _pending_prime_command_id := ""
+var _generated_random_encounter := false
+var _generated_reward_applied := false
 
 func _ready() -> void:
 	_build_ui()
-	battle = BattleState.new()
-	battle.setup_demo()
+	if not _setup_transient_random_battle():
+		battle = BattleState.new()
+		battle.setup_demo()
+	_refresh_title()
 	_refresh_all()
 	_select_next_actor()
+
+func _setup_transient_random_battle() -> bool:
+	if not GameState.has_transient_random_encounter():
+		return false
+	var payload: Dictionary = GameState.transient_random_encounter_payload()
+	var enemy_definitions: Array[Dictionary] = ProofEnemyCombatData.build_units(payload.get("enemies", []))
+	if enemy_definitions.is_empty():
+		GameState.clear_transient_encounter_state()
+		return false
+	var generated = GeneratedBattleState.new()
+	if not generated.setup_generated_formation(
+		enemy_definitions,
+		int(payload.get("exp", 0)),
+		0,
+		str(payload.get("formation_id", ""))
+	):
+		GameState.clear_transient_encounter_state()
+		return false
+	battle = generated
+	_generated_random_encounter = true
+	return true
 
 func _build_ui() -> void:
 	var background := ColorRect.new()
@@ -33,12 +62,12 @@ func _build_ui() -> void:
 	_place(background, 0.0, 0.0, 1.0, 1.0)
 	add_child(background)
 
-	var title := Label.new()
-	title.text = "Diyse 7B.5F — Prime Direct-Control Proof"
-	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	title.add_theme_font_size_override("font_size", 34)
-	_place(title, 0.12, 0.025, 0.88, 0.085)
-	add_child(title)
+	title_label = Label.new()
+	title_label.text = "Diyse 7B.5F — Prime Direct-Control Proof"
+	title_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	title_label.add_theme_font_size_override("font_size", 34)
+	_place(title_label, 0.08, 0.025, 0.92, 0.085)
+	add_child(title_label)
 
 	party_status = RichTextLabel.new()
 	party_status.bbcode_enabled = true
@@ -107,12 +136,26 @@ func _build_ui() -> void:
 	_place(return_button, 0.38, 0.585, 0.62, 0.655)
 	add_child(return_button)
 
+	flee_button = Button.new()
+	flee_button.text = "PROOF FLEE SUCCESS"
+	flee_button.focus_mode = Control.FOCUS_NONE
+	flee_button.add_theme_font_size_override("font_size", 22)
+	flee_button.pressed.connect(_on_proof_flee_success)
+	_place(flee_button, 0.66, 0.585, 0.86, 0.655)
+	add_child(flee_button)
+
 	log_view = RichTextLabel.new()
 	log_view.bbcode_enabled = true
 	log_view.scroll_active = true
 	log_view.add_theme_font_size_override("normal_font_size", 21)
 	_place(log_view, 0.045, 0.67, 0.955, 0.965)
 	add_child(log_view)
+
+func _refresh_title() -> void:
+	if _generated_random_encounter:
+		title_label.text = "Diyse Audit98 — Generated Random Encounter Proof"
+	else:
+		title_label.text = "Diyse 7B.5F — Prime Direct-Control Proof"
 
 func _place(control: Control, left: float, top: float, right: float, bottom: float) -> void:
 	control.set_anchors_preset(Control.PRESET_FULL_RECT)
@@ -131,6 +174,7 @@ func _refresh_all() -> void:
 	confirm_button.visible = battle.phase == "selecting" and battle.all_living_party_have_actions()
 	next_round_button.visible = battle.phase in ["round_complete", "prime_returned"]
 	return_button.visible = battle.phase in ["victory", "defeat"]
+	flee_button.visible = _generated_random_encounter and battle.phase == "selecting"
 	command_box.visible = battle.phase == "selecting" and not battle.all_living_party_have_actions()
 	if battle.phase == "prime_selecting":
 		_show_prime_command_choices()
@@ -285,6 +329,16 @@ func _prime_command_summary(command: Dictionary) -> String:
 			return "Self protection + return DEF marker"
 	return str(command.get("description", ""))
 
+func _on_prime_command_selected(prime_id: String) -> void:
+	if battle.queue_party_action(_current_actor_index, "Card", -1, prime_id):
+		_select_next_actor()
+
+func _on_prime_command_selected_unused() -> void:
+	pass
+
+func _on_prime_card_selected_unused() -> void:
+	pass
+
 func _on_prime_command_selected(command_id: String, target_mode: String) -> void:
 	_pending_prime_command_id = command_id
 	if target_mode == "one":
@@ -320,7 +374,8 @@ func _resolve_prime_command(command_id: String, target_index: int) -> void:
 	elif battle.phase == "prime_returned":
 		prompt.text = "First Champion completed its two Recovered Prime rounds. Party returned."
 	elif battle.phase == "victory":
-		prompt.text = "Victory — 30 XP and 42 gold awarded."
+		_finalize_generated_victory_once()
+		prompt.text = _victory_prompt()
 	_refresh_all()
 
 func _clear_targets() -> void:
@@ -337,7 +392,8 @@ func _on_confirm_round() -> void:
 	if not battle.confirm_round():
 		return
 	if battle.phase == "victory":
-		prompt.text = "Victory — 30 XP and 42 gold awarded."
+		_finalize_generated_victory_once()
+		prompt.text = _victory_prompt()
 	elif battle.phase == "defeat":
 		prompt.text = "Defeat — return to the field to restart the proof."
 	elif battle.phase == "prime_selecting":
@@ -346,10 +402,36 @@ func _on_confirm_round() -> void:
 		prompt.text = "Round resolved. Review the log, then continue."
 	_refresh_all()
 
+func _victory_prompt() -> String:
+	return "Victory — %d XP and %d gold awarded." % [int(battle.rewards.get("xp", 0)), int(battle.rewards.get("gold", 0))]
+
+func _finalize_generated_victory_once() -> void:
+	if not _generated_random_encounter or _generated_reward_applied or battle.phase != "victory":
+		return
+	var reward_payload: Dictionary = battle.rewards.duplicate(true)
+	GameState.rewards["xp"] = int(GameState.rewards.get("xp", 0)) + int(reward_payload.get("xp", 0))
+	GameState.rewards["gold"] = int(GameState.rewards.get("gold", 0)) + int(reward_payload.get("gold", 0))
+	if GameState.complete_transient_random_encounter("victory", reward_payload):
+		_generated_reward_applied = true
+
+func _on_proof_flee_success() -> void:
+	# Engineering-only control. This proves the scene-return pressure contract;
+	# it is not the final flee-success formula or player-facing UI.
+	if not _generated_random_encounter or battle.phase != "selecting":
+		return
+	if not GameState.complete_transient_random_encounter("successful_flee"):
+		return
+	get_tree().change_scene_to_file(FIELD_SCENE)
+
 func _on_next_round() -> void:
 	battle.begin_round()
 	_refresh_all()
 	_select_next_actor()
 
 func _return_to_field() -> void:
+	if _generated_random_encounter:
+		if battle.phase == "victory":
+			_finalize_generated_victory_once()
+		elif battle.phase == "defeat" and GameState.has_transient_random_encounter():
+			GameState.complete_transient_random_encounter("defeat")
 	get_tree().change_scene_to_file(FIELD_SCENE)
