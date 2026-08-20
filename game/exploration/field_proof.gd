@@ -50,8 +50,9 @@ func _ready() -> void:
 	interaction_area.body_exited.connect(_on_interaction_body_exited)
 	_setup_encounter_proof()
 	_apply_game_state_to_field()
+	_consume_transient_encounter_return()
 	call_deferred("_refresh_interaction_state")
-	_refresh_persistence_visuals("Ready. SAVE writes to Android user storage; LOAD restores it.")
+	_refresh_persistence_visuals(_encounter_proof_message)
 
 func _setup_encounter_proof() -> void:
 	encounter_controller = FieldEncounterController.new(ENCOUNTER_PROOF_SEED)
@@ -66,6 +67,23 @@ func _setup_encounter_proof() -> void:
 		return
 	player.eligible_distance_moved.connect(_on_player_eligible_distance_moved)
 	encounter_controller.battle_requested.connect(_on_random_battle_requested)
+
+func _consume_transient_encounter_return() -> void:
+	var result: Dictionary = GameState.consume_transient_encounter_return()
+	if result.is_empty() or encounter_controller == null:
+		return
+	var outcome := str(result.get("outcome", ""))
+	var formation_id := str(result.get("formation_id", ""))
+	if not encounter_controller.restore_after_scene_return(outcome, formation_id):
+		_encounter_proof_message = "Random encounter return could not restore pressure state."
+		return
+	match outcome:
+		"victory":
+			_encounter_proof_message = "Random victory return: %s. Pressure reset; anti-repeat retained." % formation_id
+		"successful_flee":
+			_encounter_proof_message = "Random flee return: %s. Pressure resumed near 0.65S with 0.20S grace." % formation_id
+		"defeat":
+			_encounter_proof_message = "Random defeat proof return: %s. Pressure reset for engineering restart." % formation_id
 
 func _process(_delta: float) -> void:
 	GameState.current_area = AREA_ID
@@ -99,15 +117,20 @@ func _on_player_eligible_distance_moved(distance: float) -> void:
 	encounter_controller.advance_eligible_distance(distance)
 
 func _on_random_battle_requested(payload: Dictionary) -> void:
-	# This pass proves live traversal -> encounter request only. Combat payload
-	# handoff is deliberately deferred until generic formation setup exists.
-	encounter_controller.set_enabled(false)
-	_encounter_proof_message = "Random request proof: %s | %s | %d EXP. Controller paused before combat handoff." % [
+	if not GameState.queue_transient_random_encounter(payload):
+		encounter_controller.cancel_battle_request_without_reset()
+		_encounter_proof_message = "Random encounter handoff rejected an invalid payload."
+		_refresh_persistence_visuals(_encounter_proof_message)
+		return
+	encounter_controller.set_authored_paused(true)
+	GameState.current_area = AREA_ID
+	GameState.field_position = player.global_position
+	_encounter_proof_message = "Random battle handoff: %s | %s | %d EXP." % [
 		str(payload.get("formation_id", "unknown")),
 		str(payload.get("tier", "unknown")).to_upper(),
 		int(payload.get("exp", 0))
 	]
-	_refresh_persistence_visuals(_encounter_proof_message)
+	get_tree().change_scene_to_file(COMBAT_SCENE)
 
 func _on_interaction_body_entered(body: Node3D) -> void:
 	if body == player:
@@ -170,6 +193,7 @@ func _start_combat() -> void:
 		return
 	if encounter_controller != null:
 		encounter_controller.set_authored_paused(true)
+	GameState.clear_transient_encounter_state()
 	GameState.current_area = AREA_ID
 	GameState.field_position = player.global_position
 	get_tree().change_scene_to_file(COMBAT_SCENE)
@@ -183,6 +207,8 @@ func _save_game() -> void:
 func _load_game() -> void:
 	var result: Dictionary = SaveManager.load_state(GameState)
 	if bool(result.get("ok", false)):
+		if encounter_controller != null:
+			encounter_controller.reset_for_safe_room()
 		_apply_game_state_to_field()
 		call_deferred("_refresh_interaction_state")
 	_refresh_persistence_visuals(str(result.get("message", "Load failed.")))

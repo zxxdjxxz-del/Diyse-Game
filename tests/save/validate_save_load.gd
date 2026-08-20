@@ -48,13 +48,30 @@ func _test_full_state_round_trip() -> void:
 	source.flags["proof_chest_opened"] = true
 	source.flags["torren_state"] = "prepared"
 	source.rewards = {"xp": 123, "gold": 456}
+	_expect(source.queue_transient_random_encounter({
+		"kind": "random",
+		"chapter": 1,
+		"area_id": "ch01_greenhollow",
+		"formation_id": "save_exclusion_test",
+		"tier": "light",
+		"enemies": ["Greenhollow Stalker"],
+		"exp": 45
+	}), "Transient random encounter should queue for save-exclusion test")
 
 	var save_result: Dictionary = manager.save_state(source, TEST_PATH)
 	_expect(bool(save_result.get("ok", false)), "Versioned save must write successfully")
 	_expect(FileAccess.file_exists(TEST_PATH), "Save manager must create the user:// JSON file")
+	var raw_saved: Dictionary = manager.read_save_data(TEST_PATH).get("data", {})
+	_expect(not raw_saved.has("transient_encounter"), "Runtime random encounter payload must not be serialized")
+	_expect(not raw_saved.has("transient_encounter_return"), "Runtime encounter return state must not be serialized")
 
 	var fresh_manager = SaveManagerScript.new()
 	var restored = GameStateScript.new()
+	_expect(restored.queue_transient_random_encounter({
+		"kind": "random",
+		"formation_id": "stale_before_load",
+		"enemies": ["Greenhollow Stalker"]
+	}), "Restored-state stale transient setup should succeed before load")
 	var load_result: Dictionary = fresh_manager.load_state(restored, TEST_PATH)
 	_expect(bool(load_result.get("ok", false)), "A fresh save-manager instance must reload the saved file")
 	_expect(restored.current_area == source.current_area, "Current area must round-trip")
@@ -69,6 +86,8 @@ func _test_full_state_round_trip() -> void:
 	_expect(bool(restored.flags.get("proof_chest_opened", false)), "Opened interactable flag must round-trip")
 	_expect(str(restored.flags.get("torren_state", "")) == "prepared", "NPC state must round-trip")
 	_expect(int(restored.rewards.get("xp", -1)) == 123 and int(restored.rewards.get("gold", -1)) == 456, "Rewards/currency must round-trip")
+	_expect(not restored.has_transient_random_encounter(), "Loading a disk save must clear stale transient encounter state")
+	_expect(restored.transient_encounter_return.is_empty(), "Loading a disk save must clear stale transient encounter-return state")
 	var data: Dictionary = load_result.get("data", {})
 	_expect(int(data.get("schema_version", -1)) == SaveManagerScript.SCHEMA_VERSION, "Save data must carry the current schema version")
 
