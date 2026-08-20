@@ -329,16 +329,6 @@ func _prime_command_summary(command: Dictionary) -> String:
 			return "Self protection + return DEF marker"
 	return str(command.get("description", ""))
 
-func _on_prime_command_selected(prime_id: String) -> void:
-	if battle.queue_party_action(_current_actor_index, "Card", -1, prime_id):
-		_select_next_actor()
-
-func _on_prime_command_selected_unused() -> void:
-	pass
-
-func _on_prime_card_selected_unused() -> void:
-	pass
-
 func _on_prime_command_selected(command_id: String, target_mode: String) -> void:
 	_pending_prime_command_id = command_id
 	if target_mode == "one":
