@@ -1,6 +1,6 @@
 # Diyse — Seyrik ← Ilyra Subclass Working Spec
 
-**Status:** APPROVED CLASS-REWORK PACKAGE — MECHANICS, NAMING, LOADOUT, AND PRESENTATION LOCKED  
+**Status:** APPROVED CLASS-REWORK PACKAGE — MECHANICS, NAMING, LOADOUT, PRESENTATION, AND CROSS-BALANCE NORMALIZATION LOCKED  
 **Parent trackers:** `docs/CLASS_REWORK_MASTER_TRACKER.md`, `docs/CLASS_CEXP_WORKING_MODEL.md`, `docs/CLASS_MASTERY_WORKING_MODEL.md`  
 **Authority boundary:** v1.84 / Audit99 plus newer explicit class-rework decisions. The user clarified that class-rework material advanced under repeated “Let’s continue” responses is approved, with later refinements superseding earlier drafts. This file records the approved Seyrik ← Ilyra package under the final subclass name **Ruin Warden**.
 
@@ -47,12 +47,15 @@ Direct healing from Ruin Warden abilities additionally grants the recipient **+1
 ## 5. Five normal abilities
 
 ### CL1 — Siphon Rune
-**8 MP; one enemy; 165 Hybrid Power.**
+**8 MP; one enemy; 165 Hybrid Power; one authored hit; 60% Attack / 40% Magic.**
 
+- Resolves as Hybrid damage using the applicable **Defense / Spirit contributions** before the Hybrid result is combined.
 - Drain attack.
 - Restores Seyrik for **35% of eligible HP damage dealt**.
 - Recovery is capped at **20% of Seyrik's Max HP**.
 - Interacts with **Ruin's Mercy**.
+
+The 60% Attack / 40% Magic split deliberately echoes Seyrik's native Ruin Vanguard hybrid language while allowing the rest of Ruin Warden's offensive-healing package to remain more Magic/Spirit-facing.
 
 ### CL4 — Stolen Grace
 **10 MP; one enemy; 170 Colorless Magical Power.**
@@ -64,7 +67,7 @@ After damage, a chosen conscious ally recovers HP equal to **30% of eligible HP 
 
 - Restores **18% Max HP + 0.90 × Seyrik's Spirit**.
 - Removes **1 ordinary harmful status**.
-- Grants **+10 Total Defense through the following round** under the inherited authored version.
+- Grants **+10 Total Defense through the end of the following round**.
 
 ### CL9 — Withering Mercy
 **18 MP; all enemies; 150 Colorless Magical Power; 2-round cooldown.**
@@ -152,7 +155,13 @@ Production should reuse common Sword, Wardrod-cast, ward/seal, and party-recover
 **CL13:** Mercy Through Ruin  
 **Mastery:** Deeper Siphon / Shared Grace / Purifying Ward / Equipment Mastery
 
-## 12. Remaining work
+## 12. Cross-balance status
+
+The August 21 six-Subclass cross-balance pass made no raw Power/stat changes to Ruin Warden. Its support-heavy late progression is intentional: Reclaimed Breath fills the CL11 slot with weaker-than-Ilyra revival, while Mercy Through Ruin remains a damage-to-recovery Ultimate rather than a second Blue Warden emergency-revival Ultimate.
+
+Percentage direct-damage-reduction stacking is not introduced by this Subclass; Total Defense effects remain a separate established concept.
+
+## 13. Remaining work
 
 - Design the Ilyra/Seyrik Synthesis interaction after the six Subclass packages are stable.
-- Reconcile any exact inherited timing wording that is still implementation-facing rather than player-facing during the global consistency pass.
+- Reconcile any remaining implementation-facing timing wording during the global consistency pass.
