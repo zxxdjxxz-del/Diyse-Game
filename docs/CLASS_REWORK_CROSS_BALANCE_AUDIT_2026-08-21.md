@@ -25,13 +25,13 @@ The six Subclasses occupy different tactical spaces and no current package is ju
 | Subclass | Primary tactical identity | Late-game payoff |
 |---|---|---|
 | **Crest Arcanist** | high-cost magical Crest control, penetration, Fields/seals | AoE Colorless control + Dominion Crest Field |
-| **Axiomblade** | flexible martial/caster translation by weapon loadout | AoE chosen-element attack + party Elemental Guard |
+| **Axiomblade** | flexible martial/caster formula translation with equipment-flavored presentation | AoE chosen-element attack + party Elemental Guard |
 | **Vowblade** | offensive sustain / hybrid pressure / mercy-through-damage | very high single-target Hybrid strike + party stabilization |
 | **Ruin Warden** | conversion healing, drain sharing, cleansing, revival | AoE damage converted into party recovery/protection |
 | **Routeweaver** | hybrid route control, Fields, Card sequencing, utility | non-damaging major party Route Field |
-| **Truthshot** | accurate Great-Bow quarry exploitation / hard-target pressure | high-penetration single-target finisher |
+| **Truthshot** | accurate War Archer-form quarry exploitation / hard-target pressure | high-penetration single-target finisher |
 
-This asymmetry is intentional. Equal CL does not require equal Power values because MP cost, targeting, penetration, healing, Field control, Prepared effects, weapon opportunity cost, and conditional requirements differ substantially.
+This asymmetry is intentional. Equal CL does not require equal Power values because MP cost, targeting, penetration, healing, Field control, Prepared effects, equipment opportunity cost, and conditional requirements differ substantially.
 
 ---
 
@@ -70,7 +70,7 @@ Crest Arcanist's larger opening number is paid for by substantially higher MP co
 
 The CL11 set also passes without raw-number changes:
 - Elemental Convergence — elemental magical penetration / self Guard
-- Equivalent Form — loadout-sensitive flexible attack
+- Equivalent Form — flexible Martial/Arcane attack with optional equipment-flavored branches
 - Vow of Severance — 250 Hybrid / 30% penetration / Defense + Spirit Down
 - Reclaimed Breath — revival rather than damage
 - Forced Passage — 260 Hybrid / 30% penetration / hostile-Field removal
@@ -92,22 +92,31 @@ The Ultimate set is intentionally split rather than normalized to one damage tem
 
 ---
 
-## 4. Weapon-gating / persistent-ability audit
+## 4. Universal Ability weapon-independence rule
 
-The open-equipment/open-ability system does **not** require every Ability to work with every weapon. Weapon requirements are legal when the ability itself explicitly establishes them.
+**No Ability or Ultimate requires a particular equipped weapon.** Once learned, a command remains usable with any otherwise-legal equipment loadout.
+
+This is now a global class-system rule and supersedes all older weapon-gating language, including the former Truthshot Great-Bow gate and the former Axiomblade Sword/Arcane-Staff requirement.
 
 Approved matrix:
 
 | Subclass | Weapon rule |
 |---|---|
-| **Crest Arcanist** | **weapon-independent once learned**; Crest spells do not require an Arcane Staff |
-| **Axiomblade** | damaging techniques require a legal **Sword or Arcane Staff** expression where authored; Equivalent Form has explicit loadout branches |
-| **Vowblade** | **weapon-independent across Wardrod / Two-Handed Sword expressions** |
-| **Ruin Warden** | **weapon-independent across Two-Handed Sword / Wardrod expressions** |
-| **Routeweaver** | **weapon-independent across Great Bow / Conduit expressions** |
-| **Truthshot** | **Great-Bow-gated**; its damaging techniques are actual War Archer bow arts and require a Great Bow equipped |
+| **Crest Arcanist** | weapon-independent; Crest spells adapt presentation to the loadout |
+| **Axiomblade** | weapon-independent; player chooses Martial or Arcane formula expression, while Shield/Focus/second-Sword options may provide optional branches |
+| **Vowblade** | weapon-independent; Wardrod / Two-Handed Sword / manifested-edge presentation adapts without changing legality |
+| **Ruin Warden** | weapon-independent; Sword / Wardrod / projected Rune presentation adapts without changing legality |
+| **Routeweaver** | weapon-independent; Great Bow / Conduit / projected route-strike presentation adapts without changing legality |
+| **Truthshot** | weapon-independent; literal Great Bow when equipped, otherwise manifested/projected War Archer-form bow presentation |
 
-Truthshot's Great-Bow gate is intentionally stricter than Routeweaver/Vowblade/Ruin Warden because the subclass's combat grammar is literal archery: prepared shots, pinning shots, multishot pressure, and a final bow finisher. Open abilities persist as learned permissions, but an unavailable weapon requirement can still make the command temporarily unusable under the current loadout.
+Equipment still matters through:
+- equipment stats;
+- ordinary Attack behavior;
+- Weapon + Secondary slot geometry;
+- Relic / Legacy eligibility;
+- optional authored loadout branches that improve or alter an already-legal Ability expression.
+
+Equipment does **not** disable learned Abilities.
 
 Abilities never inherit the equipped weapon's ordinary Attack hit pattern unless explicitly authored.
 
@@ -215,12 +224,12 @@ No additional cross-pair synergy is added in this pass. **Synthesis** is the cor
 
 PASS.
 
-The existing presentation plans remain viable:
+The no-weapon-requirement rule does not require six separate animation libraries. Presentation adapts using reusable body motion plus equipment/manifested-weapon VFX:
 - Vowblade and Ruin Warden deliberately invert blue-white Grace / violet Ruin dominance.
-- Routeweaver reuses Great Bow, Conduit, line, Field, and Card-junction assets.
-- Axiomblade's Sword/Staff expression can share core body-animation families with weapon-specific strike/cast variants.
+- Routeweaver reuses Great Bow, Conduit, line, Field, and Card-junction assets; a projected route projectile covers non-bow/non-Conduit presentation if needed.
+- Axiomblade uses shared Martial/Arcane animation families; Sword/Staff are visual expressions rather than command prerequisites.
 - Crest Arcanist relies primarily on spell/Field/seal VFX rather than bespoke weapon animation.
-- Truthshot should reuse Torren's Great-Bow animation grammar with Nimera-specific analytical timing/VFX rather than requiring a second full bow-animation library.
+- Truthshot reuses Torren's Great-Bow timing and projectile grammar when a Great Bow is equipped, while non-bow loadouts manifest a compact spectral/projected War Archer-form bow rather than disabling the command.
 
 No cross-balance change requires a new expensive presentation system.
 
