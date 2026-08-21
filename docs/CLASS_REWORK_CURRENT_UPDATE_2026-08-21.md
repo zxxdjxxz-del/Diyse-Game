@@ -25,6 +25,7 @@ Detailed files:
 - `docs/SEYRIK_ILYRA_SUBCLASS_WORKING_SPEC.md`
 - `docs/TORREN_NIMERA_SUBCLASS_WORKING_SPEC.md`
 - `docs/NIMERA_TORREN_SUBCLASS_WORKING_SPEC.md`
+- `docs/CLASS_REWORK_CROSS_BALANCE_AUDIT_2026-08-21.md`
 
 ---
 
@@ -141,6 +142,8 @@ A donor passes the donor Base tradition's **complete legal ordinary equipment pa
 
 **Stats:** MP +10% / Magic +10% / Spirit +6% / Attack -6%.
 
+**Weapon rule:** Crest Arcanist spells are **weapon-independent once learned**; Arcane Staff is not a hidden requirement.
+
 **Progression:**
 - Trait **Crest Resonance**
 - CL1 **Arcane Lance** + **Crest Attunement**
@@ -202,7 +205,7 @@ Detailed authority: `docs/ILYRA_SEYRIK_SUBCLASS_WORKING_SPEC.md`.
 
 **Progression:**
 - Trait **Ruin's Mercy**
-- CL1 **Siphon Rune** — 165 Hybrid / 8 MP; 35% Drain recovery, 20% Max-HP cap
+- CL1 **Siphon Rune** — 165 Hybrid / 8 MP / one hit / **60% Attack + 40% Magic**; 35% Drain recovery, 20% Max-HP cap
 - CL4 **Stolen Grace** — 170 Colorless Magical / 10 MP; damage-to-ally recovery
 - CL7 **Restoring Ward** — heal + cleanse + Total Defense
 - CL9 **Withering Mercy** — 150 Colorless Magical AoE / 18 MP / 2-round cooldown; damage-derived party recovery
@@ -232,13 +235,13 @@ Detailed authority: `docs/SEYRIK_ILYRA_SUBCLASS_WORKING_SPEC.md`.
 - CL1 **Throughline** — 160 Hybrid / 7 MP; +10 Base Hit vs Hunter's Measure
 - CL4 **Clear Route** — remove 1 ordinary harmful status from one ally; +10 Speed for 2 rounds
 - CL7 **Crossroads** — 3-round Route Field; choose Forward Route (+10 Base Hit/+10 Speed) or Covered Route (+15 Total Defense); one Torren Route Field at a time; max 5 rounds after extensions
-- CL9 **Covered Crossing** — party 15% direct-damage reduction through following round; extend active Route Field +1 round up to 5
+- CL9 **Covered Crossing** — party 15% direct-damage reduction through the end of the following round; extend active Route Field +1 round up to 5
 - CL11 **Forced Passage** — 260 Hybrid / 18 MP / 30% applicable-defense penetration; +15 Base Hit vs Hunter's Measure; remove 1 removable hostile Field after damage
 - CL13 **Open the Way** — 3-round Route Field: party +15 Speed, +10 Base Hit, -10% direct damage taken; Torren Standard Cards +10 Base Hit/application reliability; no direct damage; max 5 rounds after extensions
 
 **Mastery:**
 - **True Bearing** — Throughline +20 Power; Measure accuracy +10→+15
-- **Cleared Ground** — Clear Route also grants +10 Total Defense through following round
+- **Cleared Ground** — Clear Route also grants +10 Total Defense through the end of the following round
 - **Secured Passage** — Forward Route Base Hit +10→+15; Covered Route Total Defense +15→+20; Covered Crossing DR 15%→20%
 - **Equipment Mastery** — Cardweaver donor Relic
 
@@ -251,6 +254,8 @@ Detailed authority: `docs/TORREN_NIMERA_SUBCLASS_WORKING_SPEC.md`.
 **Stats:** Attack +8% / Accuracy +8% / Speed +6% / Defense -6%.
 
 **Equipment:** Great Bows CL1; War Archer armor CL3; no fake CL5 Secondary; War Archer donor Relic via Equipment Mastery CL10.
+
+**Weapon rule:** Truthshot's damaging abilities and Ultimate are **Great-Bow-gated**. Learned commands persist, but are temporarily unavailable when Nimera is not carrying a Great Bow.
 
 **Progression:**
 - Trait **Applied Evidence**
@@ -271,7 +276,32 @@ Detailed authority: `docs/NIMERA_TORREN_SUBCLASS_WORKING_SPEC.md`.
 
 ---
 
-## 5. Base class snapshot
+## 5. Approved six-Subclass cross-balance audit
+
+**PASS — no broad raw-number rebalance required.**
+
+Approved audit conclusions:
+- the six selected-Subclass stat packages remain unchanged; do not equalize them by simple arithmetic sum;
+- CL1 / CL11 / CL13 Power values remain intentionally asymmetric because cost, targeting, healing, penetration, Fields, Prepared behavior, weapon opportunity cost, and conditional setup differ;
+- all six four-node Subclass Mastery boards remain structurally compatible, with **Equipment Mastery at CL10** across the board;
+- no Subclass creates a prohibited personal gauge, extra ordinary action economy, extra Card slots, or duplicate Appraisal/Measure state;
+- percentage direct-damage-reduction effects keep their authored values, but **do not establish additive stacking**; final overlap behavior follows the later normalized global combat-modifier rule;
+- implementation wording `through following round` / `through end following round` is normalized to **through the end of the following round** unless a specific ability explicitly establishes another boundary;
+- no additional pair synergy is added before Synthesis; Synthesis is the correct place for the final reciprocal payoff.
+
+Weapon-gating matrix after audit:
+- Crest Arcanist — weapon-independent once learned;
+- Axiomblade — Sword/Arcane-Staff expressions as authored;
+- Vowblade — Wardrod or Two-Handed Sword, weapon-independent within legal loadouts;
+- Ruin Warden — Two-Handed Sword or Wardrod, weapon-independent within legal loadouts;
+- Routeweaver — Great Bow or Conduit, weapon-independent within legal loadouts;
+- Truthshot — Great Bow required for damaging Truthshot techniques and Final Annotation.
+
+Detailed audit authority: `docs/CLASS_REWORK_CROSS_BALANCE_AUDIT_2026-08-21.md`.
+
+---
+
+## 6. Base class snapshot
 
 - **Cyanis — Crest Knight:** Crest Strike / Guardian Sigil / Harmonizing Ward / Resolute Counter / Crest Rush / Crest Rend / Crest of Companions.
 - **Ilyra — Blue Warden:** Mend / Clear Warding / Renewal / Warden's Valor / Revive / Lifeline / Dawn Without End.
@@ -282,10 +312,11 @@ Detailed authority: `docs/NIMERA_TORREN_SUBCLASS_WORKING_SPEC.md`.
 
 ---
 
-## 6. Immediate open work
+## 7. Immediate open work
 
-- Record/finalize remaining **HD-2D presentation and weapon-expression passes** where not yet captured in detail.
-- Reconcile **Core Mastery** effect text after all six Subclass packages stabilize.
-- Finalize **Synthesis / Legacy** character-resolution requirements and reciprocal-pair interactions.
+- Begin the three reciprocal **Synthesis** designs: Cyanis⇄Vaelira, Ilyra⇄Seyrik, Torren⇄Nimera.
+- Reconcile **Core Mastery** effect text and exact Synthesis eligibility / character-resolution requirements.
+- Finalize the global direct-damage-reduction stacking rule and universal Ultimate cost convention without reopening approved Subclass identities.
 - Perform the deliberate global terminology sweep from stale `Sixfold Accord` wording to **Sixfold Volition**.
-- Promote the completed class-rework package into a new master-canon audit only after the final cross-class balance/consistency audit.
+- Run final implementation/data regression review.
+- Promote the completed class-rework package into a new master-canon audit after Synthesis / Legacy and final normalization are stable.
