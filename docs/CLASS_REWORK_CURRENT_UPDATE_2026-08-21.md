@@ -42,6 +42,8 @@ Detailed files:
 - Reciprocal pairs: **Cyanis ⇄ Vaelira**, **Ilyra ⇄ Seyrik**, **Torren ⇄ Nimera**.
 - Equipment and unlocked abilities remain persistently usable under the open-equipment/open-ability rules; Subclass selection controls stat package, Trait, and Subclass-only abilities.
 - Equipment slots remain **Weapon / Secondary / Armor**.
+- **No Ability or Ultimate requires a particular equipped weapon.** Once learned, every Ability remains usable with any otherwise-legal equipment loadout. Equipment changes stats, ordinary Attack, slot geometry, and presentation—not Ability legality.
+- If an Ability's traditional animation assumes a weapon the character is not currently carrying, presentation adapts with a manifested/projected weapon or equivalent effect without changing the command's mechanics.
 
 ### Terminology
 
@@ -135,6 +137,8 @@ A donor passes the donor Base tradition's **complete legal ordinary equipment pa
 | Torren ← Nimera | one-slot Conduits → Cardweaver armor → two-handed Conduits + Focus where legal |
 | Nimera ← Torren | Great Bows → War Archer armor; no fabricated CL5 Secondary |
 
+Equipment unlocks remain meaningful even though Abilities are weapon-independent: they change ordinary Attack, statistics, defenses, Secondary availability, Relic/Legacy access, and optional authored expression bonuses.
+
 ### Approved Synthesis gate
 
 A character may purchase Synthesis only when all of the following are true:
@@ -151,7 +155,7 @@ Purchasing it grants:
 1. one permanent character-specific **Base/Subclass integration effect**; and
 2. **paired Legacy eligibility** under the final pair-specific Legacy mapping.
 
-Synthesis does **not** create a third class, combine both stat packages, activate both Traits, add an equipment slot, add a Card slot, add a new gauge, or grant extra ordinary actions.
+Synthesis does **not** create a third class, combine both stat packages, activate both Traits, add an equipment slot, add a Card slot, add a new gauge, grant extra ordinary actions, or introduce/restore an Ability weapon requirement.
 
 Detailed authority: `docs/CLASS_SYNTHESIS_WORKING_MODEL.md`.
 
@@ -163,7 +167,7 @@ Detailed authority: `docs/CLASS_SYNTHESIS_WORKING_MODEL.md`.
 
 **Stats:** MP +10% / Magic +10% / Spirit +6% / Attack -6%.
 
-**Weapon rule:** Crest Arcanist spells are **weapon-independent once learned**; Arcane Staff is not a hidden requirement.
+**Weapon rule:** weapon-independent once learned.
 
 **Progression:**
 - Trait **Crest Resonance**
@@ -184,6 +188,8 @@ Detailed authority: `docs/CYANIS_VAELIRA_SUBCLASS_WORKING_SPEC.md`.
 
 **Stats:** HP +6% / Attack +6% / Magic +6% / Defense +8% / Speed -6%.
 
+**Weapon rule:** weapon-independent. Damaging Axiomblade techniques choose **Martial** (Physical/Defense) or **Arcane** (Magical/Spirit) expression at command time. Sword/Staff are presentation/loadout expressions rather than prerequisites. Equivalent Form always has a legal 200-Power baseline, with Shield/Focus/second-Sword optional branches when equipped.
+
 **Progression:**
 - Trait **Formal Equivalence**
 - CL1 **First Principle**
@@ -195,13 +201,15 @@ Detailed authority: `docs/CYANIS_VAELIRA_SUBCLASS_WORKING_SPEC.md`.
 
 **Mastery:** Foundational Proof / Proven Position / Exact Rebuttal / Equipment Mastery.
 
-Key identity: Cyanis-derived martial Crest discipline adapted to Sword and Arcane Staff configurations, including Staff + Focus and Staff + Shield, without ally-intercept duplication.
+Key identity: Cyanis-derived martial Crest discipline translated into player-selected Martial/Arcane expressions without ally-intercept duplication or weapon-gated commands.
 
 Detailed authority: `docs/VAELIRA_CYANIS_SUBCLASS_WORKING_SPEC.md`.
 
 ### Ilyra ← Seyrik — Vowblade
 
 **Stats:** HP +8% / Attack +10% / Spirit +8% / Defense -6%.
+
+**Weapon rule:** weapon-independent once learned; Wardrod/Two-Handed Sword changes build and presentation, not command legality.
 
 **Progression:**
 - Trait **Mercy in Steel**
@@ -214,7 +222,7 @@ Detailed authority: `docs/VAELIRA_CYANIS_SUBCLASS_WORKING_SPEC.md`.
 
 **Mastery:** Steeled Mercy / Mercy Carried / Unbroken Covenant / Equipment Mastery.
 
-Damaging Vowblade abilities use authored 50% Attack / 50% Spirit Hybrid scaling and work with Wardrods or learned Two-Handed Swords. Ruin is a technique/presentation influence, not a seventh damage element.
+Damaging Vowblade abilities use authored 50% Attack / 50% Spirit Hybrid scaling. Ruin is a technique/presentation influence, not a seventh damage element.
 
 Detailed authority: `docs/ILYRA_SEYRIK_SUBCLASS_WORKING_SPEC.md`.
 
@@ -223,6 +231,8 @@ Detailed authority: `docs/ILYRA_SEYRIK_SUBCLASS_WORKING_SPEC.md`.
 **Ruin Warden supersedes Ruin Reclaimer and retired Ruin Healer.**
 
 **Stats:** HP +6% / MP +8% / Magic +6% / Spirit +6% / Speed -4%.
+
+**Weapon rule:** weapon-independent once learned; Sword/Wardrod changes build and presentation, not command legality.
 
 **Progression:**
 - Trait **Ruin's Mercy**
@@ -245,7 +255,7 @@ Detailed authority: `docs/SEYRIK_ILYRA_SUBCLASS_WORKING_SPEC.md`.
 
 **Equipment:** one-slot Conduits at CL1; Cardweaver armor CL3; two-handed Conduits + Focus where legal CL5; Cardweaver donor Relic through Equipment Mastery CL10.
 
-**Weapon rule:** Routeweaver abilities remain usable with Great Bows or Conduits. Damaging Routeweaver actions use authored one-hit **50% Attack / 50% Magic Hybrid** formulas; equipment stats create the loadout difference rather than hidden ability bonuses.
+**Weapon rule:** weapon-independent once learned. Damaging Routeweaver actions use authored one-hit **50% Attack / 50% Magic Hybrid** formulas; Great Bow/Conduit/manifested-route visuals adapt to the loadout.
 
 **Trait — Field Weaving:**
 - Rank I: after Torren uses a Standard Card, his next damaging Routeweaver ability before end following round gains +10% Power.
@@ -276,7 +286,7 @@ Detailed authority: `docs/TORREN_NIMERA_SUBCLASS_WORKING_SPEC.md`.
 
 **Equipment:** Great Bows CL1; War Archer armor CL3; no fake CL5 Secondary; War Archer donor Relic via Equipment Mastery CL10.
 
-**Weapon rule:** Truthshot's damaging abilities and Ultimate are **Great-Bow-gated**. Learned commands persist, but are temporarily unavailable when Nimera is not carrying a Great Bow.
+**Weapon rule:** weapon-independent. With a Great Bow, Truthshot uses literal bow arts; with a Conduit or another legal loadout, Nimera manifests/projects the War Archer-form bow/shot. The Power, hit count, targeting, and effects are unchanged by this presentation substitution.
 
 **Progression:**
 - Trait **Applied Evidence**
@@ -308,15 +318,16 @@ Approved audit conclusions:
 - no Subclass creates a prohibited personal gauge, extra ordinary action economy, extra Card slots, or duplicate Appraisal/Measure state;
 - percentage direct-damage-reduction effects keep their authored values, but **do not establish additive stacking**; final overlap behavior follows the later normalized global combat-modifier rule;
 - implementation wording `through following round` / `through end following round` is normalized to **through the end of the following round** unless a specific ability explicitly establishes another boundary;
-- no additional pair synergy is added before Synthesis; Synthesis is the correct place for the final reciprocal payoff.
+- no additional pair synergy is added before Synthesis; Synthesis is the correct place for the final reciprocal payoff;
+- **all six Subclasses are weapon-independent at the Ability-command level**.
 
-Weapon-gating matrix after audit:
-- Crest Arcanist — weapon-independent once learned;
-- Axiomblade — Sword/Arcane-Staff expressions as authored;
-- Vowblade — Wardrod or Two-Handed Sword, weapon-independent within legal loadouts;
-- Ruin Warden — Two-Handed Sword or Wardrod, weapon-independent within legal loadouts;
-- Routeweaver — Great Bow or Conduit, weapon-independent within legal loadouts;
-- Truthshot — Great Bow required for damaging Truthshot techniques and Final Annotation.
+Weapon-expression matrix after the correction:
+- Crest Arcanist — weapon-independent spell presentation;
+- Axiomblade — weapon-independent Martial/Arcane formula choice; optional equipment-flavored branches only;
+- Vowblade — weapon-independent with loadout-adapted strike presentation;
+- Ruin Warden — weapon-independent with loadout-adapted Rune/Warden presentation;
+- Routeweaver — weapon-independent with loadout-adapted routed-projectile presentation;
+- Truthshot — weapon-independent; non-Great-Bow loadouts use manifested/projected War Archer-form bow presentation.
 
 Detailed audit authority: `docs/CLASS_REWORK_CROSS_BALANCE_AUDIT_2026-08-21.md`.
 
@@ -334,7 +345,7 @@ The ninth Mastery node is now structurally defined.
 - one character-specific Base/Subclass integration passive;
 - paired Legacy eligibility for the reciprocal partner's Legacy tier.
 
-**Boundaries:** Synthesis does not create a third class, merge both stat packages, activate both Traits, grant extra actions/slots/Card slots, create a personal gauge, or extend equipment permission beyond the reciprocal partner.
+**Boundaries:** Synthesis does not create a third class, merge both stat packages, activate both Traits, grant extra actions/slots/Card slots, create a personal gauge, extend equipment permission beyond the reciprocal partner, or introduce weapon-gated Abilities.
 
 Legacy permission and physical item acquisition remain separate: Synthesis makes the character legally eligible; the Legacy item still has to be obtained through its authored source.
 
