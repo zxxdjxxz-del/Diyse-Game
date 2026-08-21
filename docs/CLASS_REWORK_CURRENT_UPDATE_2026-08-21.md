@@ -26,6 +26,7 @@ Detailed files:
 - `docs/TORREN_NIMERA_SUBCLASS_WORKING_SPEC.md`
 - `docs/NIMERA_TORREN_SUBCLASS_WORKING_SPEC.md`
 - `docs/CLASS_REWORK_CROSS_BALANCE_AUDIT_2026-08-21.md`
+- `docs/CLASS_SYNTHESIS_WORKING_MODEL.md`
 
 ---
 
@@ -133,6 +134,26 @@ A donor passes the donor Base tradition's **complete legal ordinary equipment pa
 | Ilyra ← Seyrik | Two-Handed Swords → Ruin armor; no fake CL5 family |
 | Torren ← Nimera | one-slot Conduits → Cardweaver armor → two-handed Conduits + Focus where legal |
 | Nimera ← Torren | Great Bows → War Archer armor; no fabricated CL5 Secondary |
+
+### Approved Synthesis gate
+
+A character may purchase Synthesis only when all of the following are true:
+- **Base CL13**;
+- **Subclass CL13**;
+- all four Core Mastery nodes purchased;
+- all four Subclass Mastery nodes purchased;
+- authored character **resolution / integration story requirement** complete;
+- **1 MP available**.
+
+Synthesis is purchased **individually** even when a reciprocal pair shares the same resolution scene.
+
+Purchasing it grants:
+1. one permanent character-specific **Base/Subclass integration effect**; and
+2. **paired Legacy eligibility** under the final pair-specific Legacy mapping.
+
+Synthesis does **not** create a third class, combine both stat packages, activate both Traits, add an equipment slot, add a Card slot, add a new gauge, or grant extra ordinary actions.
+
+Detailed authority: `docs/CLASS_SYNTHESIS_WORKING_MODEL.md`.
 
 ---
 
@@ -301,7 +322,27 @@ Detailed audit authority: `docs/CLASS_REWORK_CROSS_BALANCE_AUDIT_2026-08-21.md`.
 
 ---
 
-## 6. Base class snapshot
+## 6. Approved universal Synthesis architecture
+
+The ninth Mastery node is now structurally defined.
+
+**Eligibility:** Base CL13 + Subclass CL13 + all four Core Masteries + all four Subclass Masteries + authored character-resolution/integration requirement + 1 available MP.
+
+**Purchase:** individual, 1 MP. A shared reciprocal-pair resolution scene may satisfy both characters' narrative prerequisite, but each character purchases Synthesis separately.
+
+**Persistent result:**
+- one character-specific Base/Subclass integration passive;
+- paired Legacy eligibility for the reciprocal partner's Legacy tier.
+
+**Boundaries:** Synthesis does not create a third class, merge both stat packages, activate both Traits, grant extra actions/slots/Card slots, create a personal gauge, or extend equipment permission beyond the reciprocal partner.
+
+Legacy permission and physical item acquisition remain separate: Synthesis makes the character legally eligible; the Legacy item still has to be obtained through its authored source.
+
+Detailed authority: `docs/CLASS_SYNTHESIS_WORKING_MODEL.md` and `docs/CLASS_MASTERY_WORKING_MODEL.md`.
+
+---
+
+## 7. Base class snapshot
 
 - **Cyanis — Crest Knight:** Crest Strike / Guardian Sigil / Harmonizing Ward / Resolute Counter / Crest Rush / Crest Rend / Crest of Companions.
 - **Ilyra — Blue Warden:** Mend / Clear Warding / Renewal / Warden's Valor / Revive / Lifeline / Dawn Without End.
@@ -312,10 +353,12 @@ Detailed audit authority: `docs/CLASS_REWORK_CROSS_BALANCE_AUDIT_2026-08-21.md`.
 
 ---
 
-## 7. Immediate open work
+## 8. Immediate open work
 
-- Begin the three reciprocal **Synthesis** designs: Cyanis⇄Vaelira, Ilyra⇄Seyrik, Torren⇄Nimera.
-- Reconcile **Core Mastery** effect text and exact Synthesis eligibility / character-resolution requirements.
+- Design the six **character-specific Synthesis effects**, beginning with the reciprocal pair Cyanis⇄Vaelira.
+- Design the three pair **resolution/integration story beats** that satisfy the narrative Synthesis gate.
+- Finalize pair-specific **Legacy mapping / naming / acquisition presentation**.
+- Reconcile **Core Mastery** effect text.
 - Finalize the global direct-damage-reduction stacking rule and universal Ultimate cost convention without reopening approved Subclass identities.
 - Perform the deliberate global terminology sweep from stale `Sixfold Accord` wording to **Sixfold Volition**.
 - Run final implementation/data regression review.
