@@ -1,15 +1,15 @@
 # Diyse — Seyrik ← Ilyra Subclass Working Spec
 
-**Status:** APPROVED CLASS-REWORK PACKAGE — CLASS NAME LOCKED; OTHER NAMING POLISH STILL OPEN  
+**Status:** APPROVED CLASS-REWORK PACKAGE — NAMING PASS LOCKED  
 **Parent trackers:** `docs/CLASS_REWORK_MASTER_TRACKER.md`, `docs/CLASS_CEXP_WORKING_MODEL.md`, `docs/CLASS_MASTERY_WORKING_MODEL.md`  
-**Authority boundary:** v1.84 / Audit99 plus newer explicit class-rework decisions. The user clarified that the class-rework material advanced under repeated “Let’s continue” responses is approved, with later refinements superseding earlier drafts. This file records the approved Seyrik ← Ilyra mechanics and the later explicit class-name correction to **Ruin Warden**.
+**Authority boundary:** v1.84 / Audit99 plus newer explicit class-rework decisions. The user clarified that class-rework material advanced under repeated “Let’s continue” responses is approved, with later refinements superseding earlier drafts. This file records the approved Seyrik ← Ilyra mechanics and naming under the final subclass name **Ruin Warden**.
 
 ## 1. Approved identity
 
 - **Subclass: Ruin Warden.**
 - **Character/class pairing:** **Seyrik — Ruin Vanguard / Ruin Warden**.
 - **Ruin Warden explicitly supersedes the prior `Ruin Reclaimer` subclass name.** Do not restore `Ruin Reclaimer` or the retired `Ruin Healer` framing unless the user explicitly reopens them.
-- Ruin Warden is Seyrik learning Ilyra's Blue Warden preservation discipline and expressing it through his existing Ruin logic: drain, transfer, reclamation, cleansing, protection, and eventually revival.
+- Ruin Warden is Seyrik learning Ilyra's Blue Warden preservation discipline and expressing it through his existing Ruin logic: drain, transfer, cleansing, protection, recovery, and eventually revival.
 
 ## 2. Approved donor-equipment progression
 
@@ -33,7 +33,7 @@ Seyrik's native Two-Handed Sword permissions remain persistent under the open-eq
 
 This keeps Ruin Warden sturdier and more magically sustainable than Ruin Vanguard without turning it into a second Blue Warden.
 
-## 4. Approved Trait — Reclaimer's Mercy
+## 4. Approved Trait — Ruin's Mercy
 
 ### Rank I — CL1
 When Seyrik receives eligible HP recovery from a **Drain** effect, a portion equal to **15% of that recovery** is also restored to the conscious other ally with the lowest HP%.
@@ -52,14 +52,14 @@ Direct healing from Ruin Warden abilities additionally grants the recipient **+1
 - Drain attack.
 - Restores Seyrik for **35% of eligible HP damage dealt**.
 - Recovery is capped at **20% of Seyrik's Max HP**.
-- Interacts with Reclaimer's Mercy.
+- Interacts with **Ruin's Mercy**.
 
 ### CL4 — Stolen Grace
 **10 MP; one enemy; 170 Colorless Magical Power.**
 
 After damage, a chosen conscious ally recovers HP equal to **30% of eligible HP damage dealt + 0.35 × Seyrik's Spirit**, capped at **25% of that ally's Max HP**.
 
-### CL7 — Blue Reclamation
+### CL7 — Restoring Ward
 **10 MP; one conscious ally.**
 
 - Restores **18% Max HP + 0.90 × Seyrik's Spirit**.
@@ -87,7 +87,7 @@ After total eligible damage is resolved, healing equal to **12% of that total el
 - All conscious allies recover **25% Max HP + 1.00 × Seyrik's Spirit**.
 - Removes **1 ordinary harmful status** from each eligible conscious ally.
 - Grants **+20 Total Defense for 2 rounds**.
-- No revive is added to the Ultimate; Reclaimed Breath owns the subclass revival function.
+- No revive is added to the Ultimate; **Reclaimed Breath** owns the subclass revival function.
 
 The Ultimate remains the subclass thesis: Seyrik converts overwhelming destructive force into party-wide recovery and protection.
 
@@ -97,7 +97,7 @@ The Ultimate remains the subclass thesis: Seyrik converts overwhelming destructi
 |---:|---:|---|
 | **Subclass 1 — Deeper Siphon** | CL3 | Siphon Rune recovery increases **35% → 40%** of eligible damage dealt. |
 | **Subclass 2 — Shared Grace** | CL5 | Stolen Grace's Spirit coefficient increases **0.35 → 0.45**. |
-| **Subclass 3 — Pure Reclamation** | CL7 | Blue Reclamation removes **1 additional ordinary harmful status**. |
+| **Subclass 3 — Purifying Ward** | CL7 | Restoring Ward removes **1 additional ordinary harmful status**. |
 | **Subclass 4 — Equipment Mastery** | **CL10** | Unlocks legal use of the Blue Warden donor Relic. |
 
 Each costs 1 MP under the inherited nine-point Mastery economy.
@@ -110,33 +110,27 @@ Each costs 1 MP under the inherited nine-point Mastery economy.
 - No new personal gauge, seventh damage element, or bespoke revival status is introduced.
 - Ability formulas are authored per ability and do not automatically inherit the equipped weapon's normal Attack hit pattern.
 
-## 9. Naming status
+## 9. Approved naming
 
-**APPROVED / LOCKED:**
-- Subclass: **Ruin Warden**
+**Subclass:** Ruin Warden  
+**Trait:** Ruin's Mercy  
+**CL1:** Siphon Rune  
+**CL4:** Stolen Grace  
+**CL7:** Restoring Ward  
+**CL9:** Withering Mercy  
+**CL11:** Reclaimed Breath  
+**CL13:** Mercy Through Ruin  
+**Mastery:** Deeper Siphon / Shared Grace / Purifying Ward / Equipment Mastery
 
-**Superseded subclass names:**
+Superseded labels include:
 - Ruin Reclaimer
 - Ruin Healer
-
-The mechanics above are approved. The current ability, Trait, and Mastery names remain active labels for continuity, but a dedicated naming-polish pass is still allowed without reopening mechanics or the approved **Ruin Warden** class name.
-
-Current labels:
 - Reclaimer's Mercy
-- Siphon Rune
-- Stolen Grace
 - Blue Reclamation
-- Withering Mercy
-- Reclaimed Breath
-- Mercy Through Ruin
-- Deeper Siphon
-- Shared Grace
 - Pure Reclamation
-- Equipment Mastery
 
 ## 10. Remaining work
 
-- Complete the ability/Trait/Mastery naming-polish pass without reopening **Ruin Warden**.
-- Audit weapon/loadout expression and HD-2D presentation after final names settle.
+- Audit weapon/loadout expression and HD-2D presentation.
 - Reconcile any exact inherited timing wording that is still implementation-facing rather than player-facing.
 - Design the Ilyra/Seyrik Synthesis interaction only after both Vowblade and Ruin Warden are fully stable.
