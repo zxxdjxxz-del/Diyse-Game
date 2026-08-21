@@ -1,8 +1,8 @@
 # Diyse — Class Synthesis Working Model
 
-**Status:** APPROVED UNIVERSAL SYNTHESIS ARCHITECTURE — CYANIS/VAELIRA EFFECTS APPROVED; TWO PAIRS PENDING  
+**Status:** APPROVED UNIVERSAL SYNTHESIS ARCHITECTURE — TWO RECIPROCAL PAIRS APPROVED; TORREN/NIMERA PENDING  
 **Parent authority:** v1.84 / Audit99 plus newer approved class-rework decisions.  
-**Related files:** `docs/CLASS_MASTERY_WORKING_MODEL.md`, `docs/CLASS_REWORK_CROSS_BALANCE_AUDIT_2026-08-21.md`, `docs/CLASS_REWORK_CURRENT_UPDATE_2026-08-21.md`, `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`
+**Related files:** `docs/CLASS_MASTERY_WORKING_MODEL.md`, `docs/CLASS_REWORK_CROSS_BALANCE_AUDIT_2026-08-21.md`, `docs/CLASS_REWORK_CURRENT_UPDATE_2026-08-21.md`, `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`, `docs/ILYRA_SEYRIK_SYNTHESIS_WORKING_SPEC.md`
 
 ## 1. Purpose
 
@@ -157,7 +157,39 @@ These two effects are approved as the first reciprocal Synthesis pair.
 
 ---
 
-## 8. Timing target
+## 8. Approved Ilyra ⇄ Seyrik Synthesis effects
+
+Detailed authority: `docs/ILYRA_SEYRIK_SYNTHESIS_WORKING_SPEC.md`.
+
+### Ilyra — Mercy Unbroken
+
+**Blue Warden → Vowblade:** once per round, after Ilyra resolves a **non-Ultimate Blue Warden Ability** that restores HP to another ally or removes at least one ordinary harmful status from another ally, her next **damaging non-Ultimate Vowblade Ability** before the end of the following round gains **+10% Power**.
+
+**Vowblade → Blue Warden:** once per round, when a **Vowblade Ability or Ultimate** restores HP to at least one conscious ally other than Ilyra, her next **non-Ultimate Blue Warden Ability** before the end of the following round costs **3 less MP**, minimum 1 MP.
+
+Boundaries:
+- self-only recovery does not qualify;
+- one qualifying action arms one one-use effect;
+- bonuses/discounts do not stack with themselves;
+- no healing amount, revival value, target rule, Hybrid formula, or weapon legality is altered.
+
+### Seyrik — Tempered Ruin
+
+**Ruin Vanguard → Ruin Warden:** once per round, after Seyrik resolves a **damaging non-Ultimate Ruin Vanguard Ability**, his next **non-Ultimate Ruin Warden Ability** before the end of the following round costs **3 less MP**, minimum 1 MP.
+
+**Ruin Warden → Ruin Vanguard:** once per round, when a **Ruin Warden Ability or Ultimate** restores HP to at least one ally other than Seyrik, his next **damaging non-Ultimate Ruin Vanguard Ability** before the end of the following round gains **+10% Power**.
+
+Boundaries:
+- Siphon Rune's self-recovery alone does not qualify;
+- an action restoring multiple allies still arms only one bonus;
+- Reclaimed Breath may qualify because revival returns another ally with restored HP;
+- no damage type, self-drawback clause, cooldown, MP cost of the empowered attack, healing amount, revival value, or weapon legality is altered.
+
+The pair is deliberately cadence-oriented rather than raw-healing-oriented: Ilyra moves **preservation → offense → efficient preservation**, while Seyrik moves **Ruin offense → efficient preservation → disciplined Ruin offense**.
+
+---
+
+## 9. Timing target
 
 Because eligibility requires **both Base CL13 and Subclass CL13**, Synthesis is an endgame completion reward rather than a midgame system.
 
@@ -170,7 +202,7 @@ This timing is intentional:
 
 ---
 
-## 9. Approved non-effects
+## 10. Approved non-effects
 
 Purchasing Synthesis does **not** by itself:
 - raise the class cap beyond CL13;
@@ -189,12 +221,11 @@ The distinction is explicit: equipment can still occupy Weapon + Secondary or ha
 
 ---
 
-## 10. Remaining Synthesis work
+## 11. Remaining Synthesis work
 
-1. Design **Ilyra Synthesis** and **Seyrik Synthesis**.
-2. Design **Torren Synthesis** and **Nimera Synthesis**.
-3. Define the exact shared character-resolution story beat for each reciprocal pair, beginning with Cyanis/Vaelira.
-4. Finalize pair-specific Legacy item mapping/naming and acquisition presentation.
-5. Normalize Core Mastery text and final global combat-modifier / Ultimate-cost rules.
-6. Run a final six-Synthesis balance pass after all six character-specific effects are complete.
-7. Promote the completed class-rework package through a new master-canon audit.
+1. Design **Torren Synthesis** and **Nimera Synthesis**.
+2. Define the exact shared character-resolution story beat for each reciprocal pair.
+3. Finalize pair-specific Legacy item mapping/naming and acquisition presentation.
+4. Normalize Core Mastery text and final global combat-modifier / Ultimate-cost rules.
+5. Run a final six-Synthesis balance pass after all six character-specific effects are complete.
+6. Promote the completed class-rework package through a new master-canon audit.
