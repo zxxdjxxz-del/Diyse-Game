@@ -4,6 +4,24 @@
 **Parent whole-project authority:** v1.84 / Audit99 plus newer explicit class-rework decisions.  
 **Purpose:** one current handoff/update file collecting the active class-rework architecture, explicit approvals, working proposals, unresolved items, and the current state of all six Base/Subclass paths.
 
+## Approval sweep — August 21, 2026
+
+The user explicitly clarified that the class-rework proposals advanced under their repeated **“Let’s continue”** responses in this sequence are approved. Those responses are therefore no longer to be treated as mere continuation without approval.
+
+**Conflict rule:** when a later “Let’s continue” pass refined or replaced an earlier version, the **latest refinement controls** and the older contradictory draft is superseded.
+
+This approval sweep promotes the current packages for:
+- **Cyanis — Crest Knight / Crest Arcanist**;
+- **Vaelira — Green Arcanist / Axiomblade**;
+- **Ilyra — Blue Warden / Vowblade**.
+
+Detailed approved files:
+- `docs/CYANIS_VAELIRA_SUBCLASS_WORKING_SPEC.md`
+- `docs/VAELIRA_CYANIS_SUBCLASS_WORKING_SPEC.md`
+- `docs/ILYRA_SEYRIK_SUBCLASS_WORKING_SPEC.md`
+
+These are approved within the class-rework project but have **not yet been promoted into a new whole-project master-canon audit**.
+
 ---
 
 ## 1. Current architecture
@@ -205,109 +223,125 @@ Relics remain separate at Equipment Mastery CL10; Legacies remain later.
 | Vaelira | Green Arcanist | Arcane Staffs | Focus |
 | Seyrik | Ruin Vanguard | Two-Handed Swords | occupies Weapon + Secondary |
 
-Important: donor equipment is not cherry-picked. The recipient learns the donor Base tradition's complete legal ordinary equipment package and native advanced permission, staged by Subclass CL.
-
 ---
 
 ## 7. Current Subclass pair status
 
-### Cyanis ← Vaelira
+### Cyanis ← Vaelira — APPROVED Crest Arcanist
 
-**APPROVED subclass name: CREST ARCANIST.**  
 **Pairing:** **Cyanis — Crest Knight / Crest Arcanist**.
 
-This replaces the prior **Crest Magus** working name. The subclass remains preserve-first mechanically: Cyanis learns Vaelira's magical/elemental discipline and expresses it through Crest spellcraft, battlefield control, seals, and anti-magic structure rather than becoming a copy of Green Arcanist.
+Approved selected stat package:
+- MP +10%
+- Magic +10%
+- Spirit +6%
+- Attack -6%
 
-Current preserve-first mechanical spine remains:
-- prior `Geometric Lance` CL1 concept — 220 Colorless Magical / 25% Spirit penetration plus a temporary sequencing rider;
-- prior `Crest Lattice` CL4 concept — Crest Field with specialized resistance and tagged direct-damage reduction;
-- **Nullifying Seal** CL7 — dispel / anti-structure / conditional ordinary-summon Banish;
-- prior `Pattern Collapse` CL9 — Colorless AoE + hostile Field removal + Minor Magic Down;
-- CL11 elemental Crest attack proposal — chosen standard element, Magical / Spirit-facing, focused self Elemental Guard, no Imprint/Field/Composite copying;
-- prior `Perfect Geometry` CL13 concept — Colorless AoE + hostile Field removal/suppression + perfected Crest Field.
+Approved naming / progression:
+- Trait **Crest Resonance**;
+- CL1 **Arcane Lance** + rider **Crest Attunement**;
+- CL4 **Warding Crest**;
+- CL7 **Nullifying Seal**;
+- CL9 **Arcane Rupture**;
+- CL11 **Elemental Convergence**;
+- CL13 **Crest Dominion**.
 
-The old geometry-heavy ability/trait names are **not locked** and should be renamed under the Crest Arcanist direction. The preferred naming language is arcane Crestcraft, sigils, wards, seals, resonance, convergence, dominion, and elemental/arcane fantasy vocabulary rather than mathematics/geometry terms.
+Approved Mastery:
+- CL3 **Arcane Force**;
+- CL5 **Warded Ground**;
+- CL7 **Sealbreaker**;
+- CL10 **Equipment Mastery** → Green Arcanist donor Relic.
 
-Dedicated working detail file: `docs/CYANIS_VAELIRA_SUBCLASS_WORKING_SPEC.md`.
+Key approved mechanics:
+- Crest Resonance I reduces the first MP-costing Spell-tagged Crest ability each round by 2 MP;
+- Rank II grants damaging Colorless Magical Crest abilities +15% Spirit penetration;
+- Rank III extends Cyanis-authored Crest Fields/Seals by +1 round up to their approved maximum;
+- Arcane Lance = 220 Colorless Magical / 25% Spirit penetration;
+- Warding Crest = 3-round specialized resistance/15% tagged direct-damage reduction Field;
+- Nullifying Seal = dispel/anti-structure/conditional ordinary-summon Banish;
+- Arcane Rupture = 205 Colorless Magical AoE + hostile Field removal + Minor Magic Down;
+- Elemental Convergence = 230 Magical chosen standard element / 25% Spirit penetration + matching self Elemental Guard;
+- Crest Dominion = 330 Colorless Magical AoE / 35% base Spirit penetration + hostile Field removal/suppression + 3-round Dominion Crest Field; selected Trait II raises effective penetration to 50%, Trait III extends the Field to 4 rounds.
 
-### Vaelira ← Cyanis
+Detailed authority: `docs/CYANIS_VAELIRA_SUBCLASS_WORKING_SPEC.md`.
 
-**APPROVED subclass name: AXIOMBLADE.**  
+### Vaelira ← Cyanis — APPROVED Axiomblade
+
 **Pairing:** **Vaelira — Green Arcanist / Axiomblade**.
 
-Explicitly approved architecture:
-- no ordinary ally intercept;
-- CL4 normal ability is an **attack**;
-- subclass remains offensive/martial rather than turning Vaelira into a second Cyanis;
-- her advanced subclass attack must work with her native **Arcane Staff** as well as learned Swords;
-- **Staff + Focus** and **Staff + Shield** are required supported advanced-loadout expressions;
-- exact Power, MP, durations, penetration values, and other balance numbers remain provisional unless separately approved.
+Approved selected stat package:
+- HP +6%
+- Attack +6%
+- Magic +6%
+- Defense +8%
+- Speed -6%
 
-Current working Axiomblade spine:
+Approved naming / progression:
+- Trait **Formal Equivalence**;
+- CL1 **First Principle**;
+- CL4 **Proven Advance**;
+- CL7 **Counterproof**;
+- CL9 **Axiom Rend**;
+- CL11 **Equivalent Form**;
+- CL13 **Final Axiom**.
 
-**Trait — Prismatic Discipline** *(working name)*
-- Rank I: recent standard-element damage can elementalize the next damaging Axiomblade ability through the following round; no new gauge.
-- Rank II: current proposal rewards Crested Advance / Refracted Counter momentum.
-- Rank III: current proposal grants penetration when an elementalized attack hits a matching existing Imprint.
+Approved Mastery:
+- CL3 **Foundational Proof**;
+- CL5 **Proven Position**;
+- CL7 **Exact Rebuttal**;
+- CL10 **Equipment Mastery** → Crest Knight donor Relic.
 
-**CL1 — Prism Edge** *(working)*
-- basic Sword attack that may inherit the recent standard element.
+Key approved architecture:
+- Sword expressions are Physical/Defense-facing; Staff expressions are Magical/Spirit-facing;
+- Formal Equivalence stores the latest standard-element expression through the following round and the next damaging Axiomblade ability consumes it; compatible Prism Cycle takes precedence;
+- Proven Advance is an attack and grants Minor Defense Up + Minor Spirit Up, with the old Elemental Guard rider removed;
+- Counterproof is the one Prepared self-counter;
+- Axiom Rend uses 30% relevant-defense penetration and rewards a matching existing Imprint;
+- Equivalent Form supports Sword, Sword + Shield, dual Swords, Staff, Staff + Focus, and Staff + Shield;
+- Final Axiom is 320 AoE with player-chosen standard element, 25% relevant-defense penetration, and matching party Elemental Guard for 2 rounds.
 
-**CL4 — Crested Advance** *(role approved; exact values provisional)*
-- direct attack, not guard/intercept;
-- current proposal adds self Defense/Spirit reinforcement and optional matching Elemental Guard after the hit.
+Detailed authority: `docs/VAELIRA_CYANIS_SUBCLASS_WORKING_SPEC.md`.
 
-**CL7 — Refracted Counter** *(working)*
-- one true prepared self-counter technique;
-- lower raw counter Power than Cyanis, but can elementalize.
+### Ilyra ← Seyrik — APPROVED Vowblade
 
-**CL9 — Prismatic Rend** *(working)*
-- heavy penetration attack;
-- current proposal gains extra payoff against a matching existing Imprint.
+**Pairing:** **Ilyra — Blue Warden / Vowblade**.
 
-**CL11 — Crest Form** *(loadout architecture approved; numbers provisional)*
-Must support all of:
-- Sword;
-- Sword + Shield;
-- dual Swords;
-- Arcane Staff;
-- Arcane Staff + Focus;
-- Arcane Staff + Shield.
+Approved selected stat package:
+- HP +8%
+- Attack +10%
+- Spirit +8%
+- Defense -6%
 
-Current working expressions:
-- Sword: neutral Physical form;
-- Sword + Shield: lower Power + self damage reduction;
-- dual Swords: two-hit Physical form;
-- Staff: neutral Magical form;
-- Staff + Focus: Magical form with Spirit penetration;
-- Staff + Shield: lower Magical Power + self damage reduction.
+Approved naming / progression:
+- Trait **Mercy in Steel**;
+- CL1 **Vital Edge**;
+- CL4 **Mercy Returned**;
+- CL7 **Living Covenant**;
+- CL9 **Vowkeeper's Reprisal**;
+- CL11 **Vow of Severance**;
+- CL13 **Mercy's Final Edge**.
 
-**CL13 — Prism Bastion** *(working proposal, not approved lock)*
-- choose one standard element;
-- Sword expression = Physical AoE;
-- Staff expression = Magical AoE;
-- current proposal includes relevant-defense penetration and matching party Elemental Guard;
-- does not duplicate Arcanum Ascendant's Imprint/Field package or Cyanis's broad cleanse/Defense/Spirit package.
+Approved Mastery:
+- CL3 **Steeled Mercy**;
+- CL5 **Mercy Carried**;
+- CL7 **Unbroken Covenant**;
+- CL10 **Equipment Mastery** → Ruin Vanguard donor Relic.
 
-Current working Axiomblade Mastery proposals:
-- CL3 Tempered Spectrum;
-- CL5 Forward Geometry;
-- CL7 Return Angle;
-- CL10 Equipment Mastery → Crest Knight donor Relic.
+Key approved architecture:
+- damaging Vowblade abilities use authored **50% Attack / 50% Spirit Hybrid** scaling;
+- Vowblade abilities work with either Wardrods or learned Two-Handed Swords; donor weapon use is not mandatory and gives no hidden ability-Power bonus;
+- Vowblade does not create a seventh/Ruin damage element;
+- Mercy in Steel provides controlled damage-derived sustain and a below-50%-HP damage bonus, with only its own Rank-I overflow eligible for Rank-III transfer;
+- Vital Edge = 185 Hybrid / 8 MP + 15% authored damage-based self-heal;
+- Mercy Returned = 215 Hybrid / 10 MP + lowest-HP ally healing;
+- Living Covenant = 3-round stance +10% additional damage-derived healing and Major interruption resistance;
+- Vowkeeper's Reprisal = 235 Hybrid / 12 MP with +20% final damage if the target hurt another ally last round plus ally recovery;
+- Vow of Severance = 250 Hybrid / 15 MP / 30% penetration + Minor Defense Down and Minor Spirit Down for 2 rounds;
+- Mercy's Final Edge = 520 Hybrid / 40% penetration + authored self-heal, party heal, and 15% party direct-damage reduction through the following round.
 
-### Ilyra ← Seyrik
+Approved presentation direction uses reusable Driving Strike / Committed Strike / Invocation families plus one premium Ultimate sequence. Grace remains blue-white; Seyrik's influence appears as restrained violet Ruin fractures without Black Host corruption language.
 
-**Preserve-first working identity: Vowblade.**
-
-Existing spine:
-- Vital Edge
-- Mercy Returned
-- Living Covenant
-- Vowguard Reprisal
-- Trait: Living Edge
-- Ultimate: Mercy's Final Edge
-
-Needs Ability 5 and final CL13 rebalance. Ilyra learns Seyrik's two-handed Sword / Ruin equipment tradition through donor progression while retaining her own unlocked Wardrod / Focus / Shield permissions under open equipment.
+Detailed authority: `docs/ILYRA_SEYRIK_SUBCLASS_WORKING_SPEC.md`.
 
 ### Seyrik ← Ilyra
 
@@ -386,22 +420,21 @@ CL1 Ruin Cleave / Rift Lance / Ember Brand; CL3 Fracturing Brand; CL5 unresolved
 
 ## 9. Current approved / strong working class pair names
 
-- **Cyanis — Crest Knight / Crest Arcanist** *(Crest Arcanist approved)*
-- **Ilyra — Blue Warden / Vowblade** *(preserve-first working identity)*
-- **Torren — War Archer / Routeweaver** *(preserve-first working identity)*
-- **Nimera — Cardweaver / Truthshot** *(Truthshot leading working name, NOT final lock)*
-- **Vaelira — Green Arcanist / Axiomblade** *(Axiomblade approved)*
-- **Seyrik — Ruin Vanguard / Ruin Reclaimer** *(preserve-first working identity)*
+- **Cyanis — Crest Knight / Crest Arcanist** — **APPROVED**
+- **Ilyra — Blue Warden / Vowblade** — **APPROVED**
+- **Torren — War Archer / Routeweaver** — preserve-first working identity
+- **Nimera — Cardweaver / Truthshot** — leading working name, not yet final lock
+- **Vaelira — Green Arcanist / Axiomblade** — **APPROVED**
+- **Seyrik — Ruin Vanguard / Ruin Reclaimer** — preserve-first working identity
 
 ---
 
 ## 10. Immediate open work
 
-- Finish the **Crest Arcanist** ability/trait naming pass away from geometry-heavy vocabulary.
-- Resolve the Crest Arcanist CL11 elemental Crest ability and final CL13 interaction checks.
-- Continue finalizing **Axiomblade** mechanics, names, stat package, and Synthesis interaction.
-- Expand Vowblade, Routeweaver, and Ruin Reclaimer to five normal abilities and CL13.
-- Finalize Truthshot name/stat package and remaining balance.
+- Move next to **Seyrik ← Ilyra / Ruin Reclaimer**: recover exact preserve-first mechanics, add Ability 5, rebase Trait/Ultimate to CL13, then naming/stat/mastery/presentation audit.
+- Continue **Torren ← Nimera / Routeweaver** after Ruin Reclaimer.
+- Finalize Truthshot name/stat package only when explicitly approved; its current working mechanics remain non-final.
 - Reconcile Core/Subclass Mastery effect text after all six kits stabilize.
 - Finalize Synthesis / Legacy character-resolution requirements.
-- Synchronize remaining stale `Sixfold Accord` wording to **Sixfold Volition** once the global terminology sweep is intentionally performed.
+- Synchronize remaining stale `Sixfold Accord` wording to **Sixfold Volition** in the deliberate global terminology sweep.
+- Promote the complete class-rework package into a new master-canon audit only after all six reciprocal subclasses are stable.
