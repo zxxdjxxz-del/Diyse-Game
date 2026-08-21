@@ -1,6 +1,6 @@
 # Diyse — Torren ← Nimera Subclass Working Spec
 
-**Status:** APPROVED CLASS-REWORK PACKAGE — CL13 MECHANICAL REBASE COMPLETE  
+**Status:** APPROVED CLASS-REWORK PACKAGE — CL13 MECHANICS AND PRESENTATION COMPLETE  
 **Parent trackers:** `docs/CLASS_REWORK_MASTER_TRACKER.md`, `docs/CLASS_CEXP_WORKING_MODEL.md`, `docs/CLASS_MASTERY_WORKING_MODEL.md`  
 **Authority boundary:** v1.84 / Audit99 plus newer explicit class-rework decisions. The user clarified that class-rework material advanced under repeated “Let’s continue” responses is approved, with later refinements superseding earlier drafts. This file records the approved Torren ← Nimera package under the final Routeweaver identity.
 
@@ -148,15 +148,43 @@ Hunter's Measure remains shared between Torren and Nimera.
 
 The pair therefore has two reciprocal languages without collapsing them together: **Measure** for quarry precision, and **Fields/Cards** for route control.
 
-## 10. Approved role boundary
+## 10. Approved HD-2D presentation identity
+
+Routeweaver should look like **Torren's practical battlefield sense translated through Cardweaver structure**, not like Nimera's full visual language pasted onto him.
+
+### Palette / effect hierarchy
+- Torren's **Resource-gold / amber** route lines remain dominant.
+- Nimera-derived **Change-fuchsia** appears only at junctions, Card-linked nodes, and Conduit routing points.
+- Effects stay dry, legible, and tactical rather than becoming large occult glyph storms.
+
+### Reusable animation families
+1. **Routed Projectile / Strike** — reused by **Throughline** and **Forced Passage**.
+   - Great Bow: Torren fires through a briefly drawn gold route line; fuchsia nodes flash only where the line bends or intersects a Field.
+   - Conduit: the Conduit manifests a projectile/arc along the same route; body animation remains compact.
+2. **Field Command Gesture** — reused by **Clear Route**, **Crossroads**, and **Covered Crossing**.
+   - Torren marks a direction with one hand or the weapon; route lines appear on the battlefield floor/air rather than requiring a bespoke full-body cast.
+3. **Open the Way Ultimate** — one premium field sequence.
+   - A network of restrained gold routes spreads from Torren across the party formation.
+   - Small fuchsia junctions pulse where Cardweaver logic is being used.
+   - The effect ends in a stable tactical overlay rather than a large explosion.
+
+### Ability-specific readability
+- **Clear Route:** one obstructing effect visually breaks away from the ally, followed by a short gold forward-line pulse.
+- **Crossroads:** the field visibly forks. Forward Route emphasizes a clean forward branch; Covered Route uses overlapping protective route segments rather than a shield dome.
+- **Covered Crossing:** brief gold lines connect party positions while a low, restrained barrier sweep passes across them.
+- **Forced Passage:** the route line punches through the target and then visibly tears through one hostile Field layer if removal occurs.
+- **Open the Way:** the party appears connected by a navigable network, making the Speed/Hit/DR package readable without filling the screen with particles.
+
+Production should reuse existing Great Bow, Conduit, battlefield-Line/Field, and Card-glyph assets wherever possible.
+
+## 11. Approved role boundary
 
 - Routeweaver is a hybrid controller/support attacker, not a healer and not a second Cardweaver.
 - Standard Card support remains selective and reliability-focused rather than granting extra Card slots, extra Card actions, or a separate draw/deck system.
 - Crossroads/Open the Way use the existing Field concept rather than a new battlefield-resource system.
 - All abilities obey the existing one-action-per-round and Prepared-effect rules.
 
-## 11. Remaining work
+## 12. Remaining work
 
-- Audit Routeweaver HD-2D presentation and animation reuse.
 - Design Torren/Nimera Synthesis only after the six subclass packages are fully stable.
 - Reconcile global Core Mastery / Synthesis / Legacy wording after the class-package pass.
