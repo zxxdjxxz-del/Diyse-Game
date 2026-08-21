@@ -2,25 +2,27 @@
 
 **Status:** ACTIVE CLASS-REWORK CONSOLIDATION — APPROVED ITEMS BELOW ARE NOT YET PROMOTED INTO A NEW WHOLE-PROJECT MASTER-CANON AUDIT  
 **Parent whole-project authority:** v1.84 / Audit99 plus newer explicit class-rework decisions.  
-**Purpose:** one current handoff/update file collecting the active class-rework architecture, explicit approvals, unresolved items, and the current state of all six Base/Subclass paths.
+**Purpose:** one current handoff/update file collecting the active class-rework architecture, explicit approvals, unresolved items, and the current state of all six reciprocal Subclass paths.
 
 ## Approval sweep — August 21, 2026
 
-The user explicitly clarified that the class-rework proposals advanced under their repeated **“Let’s continue”** responses in this sequence are approved. Those responses are therefore approvals, not merely permission to keep brainstorming.
+The user explicitly clarified that the class-rework proposals advanced under repeated **“Let’s continue”** responses in this sequence are approvals, not merely permission to keep brainstorming.
 
-**Conflict rule:** when a later “Let’s continue” pass refined or replaced an earlier version, the **latest refinement controls** and the older contradictory draft is superseded.
+**Conflict rule:** when a later pass refined or replaced an earlier version, the **latest refinement controls** and the older contradictory draft is superseded.
 
 The approval sweep currently covers the material actually designed for:
-- **Cyanis — Crest Knight / Crest Arcanist**;
-- **Vaelira — Green Arcanist / Axiomblade**;
-- **Ilyra — Blue Warden / Vowblade**;
-- **Torren — War Archer / Routeweaver** — approved preserve-first identity/equipment/spine; the still-undesigned CL11/final rebase remains open rather than invented;
+- **Cyanis — Crest Knight / Crest Arcanist** — approved full current package;
+- **Vaelira — Green Arcanist / Axiomblade** — approved full current package;
+- **Ilyra — Blue Warden / Vowblade** — approved full current package;
+- **Seyrik — Ruin Vanguard / Ruin Reclaimer** — approved mechanical CL13 package; naming polish remains open;
+- **Torren — War Archer / Routeweaver** — approved preserve-first identity/equipment/spine; CL11/final numerical rebase remains open rather than invented;
 - **Nimera — Cardweaver / Truthshot** — approved full current package.
 
 Detailed files:
 - `docs/CYANIS_VAELIRA_SUBCLASS_WORKING_SPEC.md`
 - `docs/VAELIRA_CYANIS_SUBCLASS_WORKING_SPEC.md`
 - `docs/ILYRA_SEYRIK_SUBCLASS_WORKING_SPEC.md`
+- `docs/SEYRIK_ILYRA_SUBCLASS_WORKING_SPEC.md`
 - `docs/TORREN_NIMERA_SUBCLASS_WORKING_SPEC.md`
 - `docs/NIMERA_TORREN_SUBCLASS_WORKING_SPEC.md`
 
@@ -140,8 +142,7 @@ A donor passes the donor Base tradition's **complete legal ordinary equipment pa
 
 ### Cyanis ← Vaelira — APPROVED Crest Arcanist
 
-**Pairing:** **Cyanis — Crest Knight / Crest Arcanist**.
-
+**Pairing:** **Cyanis — Crest Knight / Crest Arcanist**.  
 Approved stats: **MP +10% / Magic +10% / Spirit +6% / Attack -6%**.
 
 Approved progression:
@@ -161,8 +162,7 @@ Detailed authority: `docs/CYANIS_VAELIRA_SUBCLASS_WORKING_SPEC.md`.
 
 ### Vaelira ← Cyanis — APPROVED Axiomblade
 
-**Pairing:** **Vaelira — Green Arcanist / Axiomblade**.
-
+**Pairing:** **Vaelira — Green Arcanist / Axiomblade**.  
 Approved stats: **HP +6% / Attack +6% / Magic +6% / Defense +8% / Speed -6%**.
 
 Approved progression:
@@ -182,8 +182,7 @@ Detailed authority: `docs/VAELIRA_CYANIS_SUBCLASS_WORKING_SPEC.md`.
 
 ### Ilyra ← Seyrik — APPROVED Vowblade
 
-**Pairing:** **Ilyra — Blue Warden / Vowblade**.
-
+**Pairing:** **Ilyra — Blue Warden / Vowblade**.  
 Approved stats: **HP +8% / Attack +10% / Spirit +8% / Defense -6%**.
 
 Approved progression:
@@ -200,6 +199,32 @@ Approved Mastery: **Steeled Mercy / Mercy Carried / Unbroken Covenant / Equipmen
 Damaging Vowblade abilities use authored **50% Attack / 50% Spirit Hybrid** scaling and work with Wardrods or learned Two-Handed Swords. Vowblade uses Ruin-influenced technique/presentation but does not create a seventh Ruin damage element.
 
 Detailed authority: `docs/ILYRA_SEYRIK_SUBCLASS_WORKING_SPEC.md`.
+
+### Seyrik ← Ilyra — APPROVED Ruin Reclaimer mechanical package
+
+**Pairing:** **Seyrik — Ruin Vanguard / Ruin Reclaimer**. Do not restore `Ruin Healer`.  
+Approved stats: **HP +6% / MP +8% / Magic +6% / Spirit +6% / Speed -4%**.
+
+Approved equipment:
+- CL1 Wardrods;
+- CL3 Warding / Blue Warden armor;
+- CL5 Shield + legal Focus access;
+- CL10 Equipment Mastery → Blue Warden donor Relic.
+
+Approved current progression/mechanics:
+- Trait **Reclaimer's Mercy** — Drain recovery sharing starts at 15%, rises to 25% at Rank II, and Rank III adds +10 Total Defense to direct Ruin Reclaimer healing recipients under inherited timing;
+- CL1 **Siphon Rune** — 165 Hybrid / 8 MP; 35% Drain recovery capped at 20% Max HP;
+- CL4 **Stolen Grace** — 170 Colorless Magical / 10 MP; chosen ally heals from 30% of eligible damage + 0.35× Spirit, capped at 25% Max HP;
+- CL7 **Blue Reclamation** — 10 MP; 18% Max HP + 0.90× Spirit heal, remove 1 ordinary harmful status, +10 Total Defense through following round;
+- CL9 **Withering Mercy** — 150 Colorless Magical AoE / 18 MP / 2-round cooldown; distributes healing equal to 12% of total eligible damage, capped at 15% Max HP per ally;
+- CL11 **Reclaimed Breath** — 24 MP; revive one incapacitated permanent ally at 25% Max HP; no summons/devices/Prime Manifestations;
+- CL13 **Mercy Through Ruin** — 320 Colorless Magical AoE; all conscious allies heal 25% Max HP + 1.00× Spirit, remove 1 ordinary harmful status, and gain +20 Total Defense for 2 rounds.
+
+Approved Mastery: **Deeper Siphon** (35%→40% Siphon recovery) / **Shared Grace** (0.35→0.45 Spirit coefficient) / **Pure Reclamation** (Blue Reclamation removes one additional ordinary harmful status) / **Equipment Mastery**.
+
+The mechanics are approved. A naming-polish pass remains open and may reduce repeated `Reclaimer / Reclamation / Reclaimed / Mercy` language without reopening the kit.
+
+Detailed authority: `docs/SEYRIK_ILYRA_SUBCLASS_WORKING_SPEC.md`.
 
 ### Torren ← Nimera — APPROVED Routeweaver preserve-first package
 
@@ -222,14 +247,13 @@ Approved preserve-first spine:
 - Trait **Field Weaving**;
 - Ultimate **Open the Way**.
 
-The required CL11 fifth normal ability and final CL13 numerical rebase had **not yet been designed** during the approved sequence. Those remain open; approval does not fabricate missing content.
+The required CL11 fifth normal ability and final CL13 numerical rebase remain open; approval does not fabricate missing content.
 
 Detailed authority: `docs/TORREN_NIMERA_SUBCLASS_WORKING_SPEC.md`.
 
 ### Nimera ← Torren — APPROVED Truthshot
 
-**Pairing:** **Nimera — Cardweaver / Truthshot**. The old Sixfold Knight direction is superseded.
-
+**Pairing:** **Nimera — Cardweaver / Truthshot**. The old Sixfold Knight direction is superseded.  
 Approved stats: **Attack +8% / Accuracy +8% / Speed +6% / Defense -6%**.
 
 Approved equipment:
@@ -257,25 +281,7 @@ Detailed authority: `docs/NIMERA_TORREN_SUBCLASS_WORKING_SPEC.md`.
 
 ---
 
-## 5. Remaining reciprocal subclass
-
-### Seyrik ← Ilyra — Ruin Reclaimer
-
-Preserve-first inherited identity remains **Ruin Reclaimer**; do not restore the retired `Ruin Healer` framing.
-
-Existing spine:
-- Siphon Rune
-- Stolen Grace
-- Blue Reclamation
-- Withering Mercy
-- Trait **Reclaimer's Mercy**
-- Ultimate **Mercy Through Ruin**
-
-This direction still needs its fifth normal ability and final CL13 reconciliation before it receives the same completed approval treatment as the finished packages above.
-
----
-
-## 6. Base class snapshot
+## 5. Base class snapshot
 
 - **Cyanis — Crest Knight:** Crest Strike / Guardian Sigil / Harmonizing Ward / Resolute Counter / Crest Rush / Crest Rend / Crest of Companions.
 - **Ilyra — Blue Warden:** Mend / Clear Warding / Renewal / Warden's Valor / Revive / Lifeline / Dawn Without End.
@@ -286,9 +292,9 @@ This direction still needs its fifth normal ability and final CL13 reconciliatio
 
 ---
 
-## 7. Immediate open work
+## 6. Immediate open work
 
-- Complete **Seyrik ← Ilyra / Ruin Reclaimer**: recover exact preserve-first mechanics, add Ability 5, rebase Trait/Ultimate to CL13, then naming/stat/mastery/presentation audit.
+- Complete the **Ruin Reclaimer naming-polish pass**, then weapon/loadout and HD-2D presentation audit without reopening its approved mechanics.
 - Complete the still-missing **Routeweaver CL11 fifth ability** and final CL13 numerical reconciliation without reopening its approved identity/equipment/spine.
 - Reconcile Core/Subclass Mastery effect text after all six kits stabilize.
 - Finalize Synthesis / Legacy character-resolution requirements.
