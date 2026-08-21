@@ -1,15 +1,15 @@
 # Diyse — Seyrik ← Ilyra Subclass Working Spec
 
-**Status:** APPROVED CLASS-REWORK PACKAGE — NAMING PASS LOCKED  
+**Status:** APPROVED CLASS-REWORK PACKAGE — MECHANICS, NAMING, LOADOUT, AND PRESENTATION LOCKED  
 **Parent trackers:** `docs/CLASS_REWORK_MASTER_TRACKER.md`, `docs/CLASS_CEXP_WORKING_MODEL.md`, `docs/CLASS_MASTERY_WORKING_MODEL.md`  
-**Authority boundary:** v1.84 / Audit99 plus newer explicit class-rework decisions. The user clarified that class-rework material advanced under repeated “Let’s continue” responses is approved, with later refinements superseding earlier drafts. This file records the approved Seyrik ← Ilyra mechanics and naming under the final subclass name **Ruin Warden**.
+**Authority boundary:** v1.84 / Audit99 plus newer explicit class-rework decisions. The user clarified that class-rework material advanced under repeated “Let’s continue” responses is approved, with later refinements superseding earlier drafts. This file records the approved Seyrik ← Ilyra package under the final subclass name **Ruin Warden**.
 
 ## 1. Approved identity
 
 - **Subclass: Ruin Warden.**
 - **Character/class pairing:** **Seyrik — Ruin Vanguard / Ruin Warden**.
-- **Ruin Warden explicitly supersedes the prior `Ruin Reclaimer` subclass name.** Do not restore `Ruin Reclaimer` or the retired `Ruin Healer` framing unless the user explicitly reopens them.
-- Ruin Warden is Seyrik learning Ilyra's Blue Warden preservation discipline and expressing it through his existing Ruin logic: drain, transfer, cleansing, protection, recovery, and eventually revival.
+- **Ruin Warden explicitly supersedes the prior `Ruin Reclaimer` subclass name.** Do not restore `Ruin Reclaimer` or the retired `Ruin Healer` framing unless explicitly reopened.
+- Ruin Warden is Seyrik learning Ilyra's Blue Warden preservation discipline and expressing it through Ruin logic: drain, transfer, cleansing, protection, recovery, and eventually revival.
 
 ## 2. Approved donor-equipment progression
 
@@ -102,7 +102,37 @@ The Ultimate remains the subclass thesis: Seyrik converts overwhelming destructi
 
 Each costs 1 MP under the inherited nine-point Mastery economy.
 
-## 8. Approved role boundary
+## 8. Approved weapon/loadout expression
+
+Ruin Warden abilities are **not gated by weapon choice** once learned.
+
+Supported expressions:
+- **Two-Handed Sword** — aggressive conversion build; highest natural Attack emphasis and no Secondary.
+- **Wardrod + Shield** — defensive Warden expression.
+- **Wardrod + Focus** — magical/support expression emphasizing Magic/Spirit-facing recovery.
+- **Wardrod alone** — legal neutral configuration.
+
+No hidden Sword damage bonus or Wardrod healing bonus is written into the abilities. Equipment statistics create those tradeoffs naturally.
+
+Ability-specific presentation:
+- **Siphon Rune** works with Sword or Wardrod; Sword uses a physical cleave with returning violet energy, Wardrod projects or thrusts the Rune and siphons it back.
+- **Stolen Grace** is mechanically weapon-independent; Sword presentation tears vitality loose and redirects it, while Wardrod presentation is more deliberate and Warden-like.
+- **Restoring Ward** and **Reclaimed Breath** require no weapon-specific condition.
+- **Withering Mercy** and **Mercy Through Ruin** are spell-like Ruin Warden techniques and remain legal with all approved loadouts.
+
+## 9. Approved HD-2D presentation identity
+
+The reciprocal visual contrast with Vowblade is intentional:
+- **Vowblade:** blue-white Grace is dominant, with restrained violet Ruin inside it.
+- **Ruin Warden:** controlled violet Ruin is dominant, with blue-white Warden structures containing and redirecting it.
+
+Ruin Warden effects must not resemble uncontrolled Black Host corruption. The blue-white Warden language appears as rings, ward-lines, seals, and containment geometry that catches and redirects violet force.
+
+**Mercy Through Ruin** is the premium expression: a violent violet discharge passes through the enemy formation; blue-white Warden structures catch the returning energy and route it through the party as healing and protection.
+
+Production should reuse common Sword, Wardrod-cast, ward/seal, and party-recovery animation families where possible rather than creating bespoke full-body animation for every loadout.
+
+## 10. Approved role boundary
 
 - Ruin Warden does not become `Ruin Healer` or simply copy Ilyra's Base kit.
 - Seyrik remains more conversion-oriented than Ilyra: damage becomes recovery, Drain becomes shared recovery, and protection emerges from Ruin logic.
@@ -110,7 +140,7 @@ Each costs 1 MP under the inherited nine-point Mastery economy.
 - No new personal gauge, seventh damage element, or bespoke revival status is introduced.
 - Ability formulas are authored per ability and do not automatically inherit the equipped weapon's normal Attack hit pattern.
 
-## 9. Approved naming
+## 11. Approved naming
 
 **Subclass:** Ruin Warden  
 **Trait:** Ruin's Mercy  
@@ -122,15 +152,7 @@ Each costs 1 MP under the inherited nine-point Mastery economy.
 **CL13:** Mercy Through Ruin  
 **Mastery:** Deeper Siphon / Shared Grace / Purifying Ward / Equipment Mastery
 
-Superseded labels include:
-- Ruin Reclaimer
-- Ruin Healer
-- Reclaimer's Mercy
-- Blue Reclamation
-- Pure Reclamation
+## 12. Remaining work
 
-## 10. Remaining work
-
-- Audit weapon/loadout expression and HD-2D presentation.
-- Reconcile any exact inherited timing wording that is still implementation-facing rather than player-facing.
-- Design the Ilyra/Seyrik Synthesis interaction only after both Vowblade and Ruin Warden are fully stable.
+- Design the Ilyra/Seyrik Synthesis interaction after the six Subclass packages are stable.
+- Reconcile any exact inherited timing wording that is still implementation-facing rather than player-facing during the global consistency pass.
