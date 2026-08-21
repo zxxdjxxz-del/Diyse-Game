@@ -11,8 +11,8 @@
 - Vaelira learns Cyanis's Crest Knight martial discipline without becoming a second Cyanis.
 - No ordinary ally-intercept role.
 - The CL4 normal ability is an **attack**.
-- Damaging Axiomblade techniques support both learned **Swords** and Vaelira's native **Arcane Staffs**.
-- **Staff + Focus** and **Staff + Shield** are supported advanced expressions.
+- Axiomblade techniques may visually express through learned **Swords**, Vaelira's native **Arcane Staffs**, or a manifested Crest/arcane weapon expression when another legal loadout is equipped.
+- **Staff + Focus** and **Staff + Shield** remain supported advanced loadout expressions, but they are not Ability prerequisites.
 - The subclass uses no new personal gauge, bespoke resource, or invented mark.
 
 The core reciprocal contrast is intentional: Cyanis learns Vaelira's overt magical/elemental discipline through Crest Arcanist, while Vaelira learns Cyanis's disciplined martial Crest logic through Axiomblade.
@@ -40,19 +40,25 @@ Vaelira's native Arcane Staff and Focus permissions remain legal under open equi
 - **Speed -6%**
 - Spirit neutral
 
-Intent: Axiomblade is genuinely martial and tougher than Green Arcanist while remaining fully compatible with Staff-based magical expressions. The old `HP +8 / Attack +8 / Defense +8 / Magic -6` draft is superseded.
+Intent: Axiomblade is genuinely martial and tougher than Green Arcanist while remaining fully compatible with magical expressions. The old `HP +8 / Attack +8 / Defense +8 / Magic -6` draft is superseded.
 
-## 4. Approved weapon-expression rule
+## 4. Approved expression rule — no weapon gating
 
-For every damaging Axiomblade technique unless the ability explicitly establishes a special loadout branch:
+**No Axiomblade Ability or Ultimate requires a particular weapon.** Once learned, every Axiomblade command remains legal with any otherwise-legal Vaelira equipment loadout.
 
-- **Sword expression:** Physical damage against **Defense**.
-- **Arcane Staff expression:** Magical damage against **Spirit**.
-- Damage element is a separate property from Physical/Magical formula.
-- With no elemental bridge active, Sword expressions remain neutral Physical and Staff expressions remain Colorless Magical.
-- Shield, Focus, and second-Sword choices modify an ability only where that ability explicitly contains a loadout branch.
+For each damaging Axiomblade technique, Vaelira chooses one expression when issuing the command unless the ability explicitly says otherwise:
 
-The ability does not inherit the equipped weapon's ordinary Attack hit pattern unless explicitly authored to do so.
+- **Martial expression:** Physical damage using the ability's authored Power against **Defense**.
+- **Arcane expression:** Magical damage using the ability's authored Power against **Spirit**.
+
+Damage element remains a separate property from Physical/Magical formula.
+
+- With no elemental bridge active, Martial expression is neutral Physical and Arcane expression is Colorless Magical.
+- Sword / Staff / manifested-weapon presentation follows the current loadout but never controls whether the Ability is legal.
+- Shield, Focus, and second-Sword equipment may provide optional authored branches where stated, but there is always a legal baseline expression even when none of those items is equipped.
+- Abilities do not inherit the equipped weapon's ordinary Attack hit pattern unless explicitly authored to do so.
+
+This supersedes the earlier rule that tied Physical expression to Sword and Magical expression to Arcane Staff, and it supersedes the former Equivalent Form requirement for a Sword or Arcane Staff in Weapon.
 
 ## 5. Approved Trait — Formal Equivalence
 
@@ -64,7 +70,7 @@ Her next damaging Axiomblade ability during that window uses that element and co
 - This is internal state, not a personal gauge; the UI may show a small elemental indicator.
 - It does not create an Imprint by itself.
 - It does not trigger a Composite Reaction by itself.
-- Weapon formula remains Sword = Physical / Staff = Magical.
+- Martial/Arcane formula choice remains independent of weapon.
 - **Prism Cycle precedence:** when Prism Cycle is active and compatible, Prism Cycle determines the element first. Formal Equivalence fills in only when Prism Cycle does not already determine the action's element.
 
 ### Rank II — CL6
@@ -72,8 +78,8 @@ After **Proven Advance resolves** or **Counterproof triggers**, Vaelira's next d
 
 ### Rank III — CL12
 When an Axiomblade attack is elementalized through Formal Equivalence and hits a target carrying the matching existing Imprint, it gains **15% relevant-defense penetration**:
-- Sword expression → Defense penetration;
-- Staff expression → Spirit penetration.
+- Martial expression → Defense penetration;
+- Arcane expression → Spirit penetration.
 
 The Imprint is not consumed.
 
@@ -82,20 +88,22 @@ The Imprint is not consumed.
 ### CL1 — First Principle
 **6 MP · one enemy · 150 Power**
 
-- Sword: **150 Physical**.
-- Staff: **150 Magical**.
-- May consume Formal Equivalence's current expression.
-- No Imprint, buff, penetration, or extra status rider.
+Choose:
+- **Martial:** 150 Physical.
+- **Arcane:** 150 Magical.
+
+May consume Formal Equivalence's current expression. No Imprint, buff, penetration, or extra status rider.
 
 ### CL4 — Proven Advance
 **8 MP · one enemy · 165 Power**
 
-- Sword: **165 Physical**.
-- Staff: **165 Magical**.
-- May consume Formal Equivalence's current expression.
-- After damage resolves, Vaelira gains **Minor Defense Up + Minor Spirit Up for 2 rounds**.
-- No Elemental Guard rider.
-- No redirect, ally intercept, or Prepared effect.
+Choose:
+- **Martial:** 165 Physical.
+- **Arcane:** 165 Magical.
+
+May consume Formal Equivalence's current expression. After damage resolves, Vaelira gains **Minor Defense Up + Minor Spirit Up for 2 rounds**.
+
+No Elemental Guard rider, redirect, ally intercept, or Prepared effect.
 
 This supersedes the older `Crested Advance` version that added a matching Elemental Guard.
 
@@ -104,44 +112,50 @@ This supersedes the older `Crested Advance` version that added a matching Elemen
 
 - Arms one response against the next eligible single-target hostile action that resolves against Vaelira.
 - After that hostile action resolves, Vaelira counters the attacker.
-- Sword: **145 Physical**.
-- Staff: **145 Magical**.
-- The counter may consume Formal Equivalence's current expression.
+- When arming the counter, choose **Martial** (145 Physical) or **Arcane** (145 Magical); that chosen expression is retained for the counter.
+- The counter may consume Formal Equivalence's current expression when it resolves.
 - No incoming-damage reduction, self-buff, ally intercept, or AoE trigger.
 - Obeys the global one-armed Prepared-effect limit.
 
 ### CL9 — Axiom Rend
 **13 MP · one enemy · 225 Power · 30% relevant-defense penetration**
 
-- Sword: **225 Physical**, 30% Defense penetration.
-- Staff: **225 Magical**, 30% Spirit penetration.
-- May consume Formal Equivalence's current expression.
-- If elementalized and the target carries the matching existing Imprint, gains **+10% final damage**.
-- Does not consume the Imprint.
+Choose:
+- **Martial:** 225 Physical, 30% Defense penetration.
+- **Arcane:** 225 Magical, 30% Spirit penetration.
+
+May consume Formal Equivalence's current expression. If elementalized and the target carries the matching existing Imprint, gains **+10% final damage**. Does not consume the Imprint.
 
 ### CL11 — Equivalent Form
-**16 MP · one enemy · requires a legal Sword or Arcane Staff in Weapon**
+**16 MP · one enemy · always legal with any otherwise-legal equipment loadout**
 
-| Loadout | Approved expression |
+Baseline choice when no optional loadout branch is used:
+- **Martial Form:** **200 Physical Power**.
+- **Arcane Form:** **200 Magical Power**.
+
+Optional equipment branches:
+
+| Equipped option | Approved optional expression |
 |---|---|
-| **Sword only** | **200 Physical Power**. |
-| **Sword + Shield** | **190 Physical Power**; after resolving, **15% direct-damage reduction through the end of the following round**. |
-| **Dual Swords** | **2 × 110 Physical Power = 220 total**. |
-| **Arcane Staff only** | **200 Magical Power**. |
-| **Arcane Staff + Focus** | **205 Magical Power**; **20% Spirit penetration**. |
-| **Arcane Staff + Shield** | **190 Magical Power**; after resolving, **15% direct-damage reduction through the end of the following round**. |
+| **Shield equipped** | **190 Power** in the chosen Martial or Arcane expression; after resolving, **15% direct-damage reduction through the end of the following round**. |
+| **Second Sword equipped** | **2 × 110 Physical Power = 220 total** as the optional Martial dual-strike expression. |
+| **Focus equipped** | **205 Magical Power** with **20% Spirit penetration** as the optional Arcane focused expression. |
 
-Formal Equivalence may elementalize any legal expression. With no current expression, Sword branches remain neutral Physical and Staff branches remain Colorless Magical.
+If none of those optional branches is available or selected, the 200-Power Martial/Arcane baseline remains legal.
 
-Equivalent Form adds no extra Imprint, Elemental Guard, Field, counter, or secondary status beyond its authored loadout branch.
+Formal Equivalence may elementalize any legal expression. Equivalent Form adds no extra Imprint, Elemental Guard, Field, counter, or secondary status beyond its chosen authored branch.
 
 ## 7. Approved Ultimate — Final Axiom
 
 **All enemies · 320 Power · player chooses one of the six standard elements**
 
-- Sword equipped: **320 Physical** of the chosen element + **25% Defense penetration**.
-- Arcane Staff equipped: **320 Magical** of the chosen element + **25% Spirit penetration**.
-- All conscious permanent allies gain the matching established **Elemental Guard for 2 rounds**.
+Also choose one formula expression:
+- **Martial:** 320 Physical of the chosen element + **25% Defense penetration**.
+- **Arcane:** 320 Magical of the chosen element + **25% Spirit penetration**.
+
+All conscious permanent allies gain the matching established **Elemental Guard for 2 rounds**.
+
+- Formula choice does not depend on the equipped weapon.
 - The chosen element is direct and does **not** depend on or consume Formal Equivalence's stored current expression.
 - Shield, Focus, and second-Sword choices do not create additional Ultimate branches.
 - No Imprint, Elemental Field, cleanse, broad Defense/Spirit buff package, ally intercept, or Composite Reaction is added.
