@@ -43,33 +43,89 @@ The training relationship is reciprocal rather than a one-way donor ring.
 
 ## 3. Base-class CL13 structure
 
-Existing Base kits have **six normal Base abilities** and should remain six-ability kits unless a separate kit audit explicitly changes an individual class.
+Existing Base kits have **six normal Base abilities** and remain six-ability kits unless a separate kit audit explicitly changes an individual class.
 
-Current working progression skeleton:
+The inherited Base learning schedule already started each Base class with three defining abilities at CL1, then added Ability 4 at CL3, Ability 5 with Trait II at CL6, and Ability 6 at CL9. The current working CL13 rework preserves that successful pacing and inserts the new native-equipment breakthrough at CL5, while moving the Base Ultimate from old CL12 to CL13.
+
+### Working universal Base schedule
 
 | Base CL | Major unlock |
 |---|---|
-| **CL1** | Trait Rank I + early Base abilities / starting equipment |
+| **CL1** | **Trait Rank I + Base Abilities 1–3 + starting equipment permissions** |
 | **CL2** | normal class growth |
-| **CL3** | normal class growth / ability timing to be reconciled per existing kit |
-| **CL4** | normal class growth / ability timing to be reconciled per existing kit |
-| **CL5** | **native advanced equipment permission** |
-| **CL6** | Trait Rank II |
-| **CL7** | later Base ability progression |
+| **CL3** | **Base Ability 4** |
+| **CL4** | normal class growth |
+| **CL5** | **native advanced equipment permission, where the tradition has one** |
+| **CL6** | **Base Ability 5 + Trait Rank II** |
+| **CL7** | normal class growth |
 | **CL8** | normal class growth |
-| **CL9** | later Base ability progression |
-| **CL10** | later Base ability progression |
-| **CL11** | late Base ability progression if needed by kit reconciliation |
-| **CL12** | Trait Rank III |
-| **CL13** | Base Ultimate |
+| **CL9** | **Base Ability 6** |
+| **CL10** | normal class growth |
+| **CL11** | normal class growth |
+| **CL12** | **Trait Rank III** |
+| **CL13** | **Base Ultimate** |
 
-Exact placement of all six Base abilities still needs a six-class reconciliation pass. Do not delete an existing Base ability merely to force a generic level table.
+This is deliberately a minimal rebase of the old Base schedule rather than a needless reshuffle of six already-authored kits.
+
+### Exact current ability placement by character
+
+#### Cyanis — Crest Knight
+- **CL1:** Crest Strike; Guardian Sigil; Harmonizing Ward; Harmonized Crest Rank I.
+- **CL3:** Resolute Counter.
+- **CL5:** native advanced equipment permission — **second Sword in Secondary / dual-Sword loadout**.
+- **CL6:** Crest Rush + Harmonized Crest Rank II.
+- **CL9:** Crest Rend.
+- **CL12:** Harmonized Crest Rank III.
+- **CL13:** **Crest of Companions**.
+
+#### Ilyra — Blue Warden
+- **CL1:** Mend; Clear Warding; Renewal; Gentle Continuance Rank I.
+- **CL3:** Warden's Valor.
+- **CL5:** native advanced equipment permission — **Shield access**; Wardrod remains Primary and Focus remains the non-Shield Secondary option.
+- **CL6:** Revive + Gentle Continuance Rank II.
+- **CL9:** Lifeline.
+- **CL12:** Gentle Continuance Rank III.
+- **CL13:** **Dawn Without End**.
+
+#### Torren — War Archer
+- **CL1:** Driving Strike; Quarry Appraisal; Watchful Aim; Veteran's Measure Rank I.
+- **CL3:** Pinning Strike.
+- **CL5:** **OPEN** — do not invent a fake Secondary or duplicate two-hand permission; Great Bows already occupy Weapon + Secondary.
+- **CL6:** Colossus Draw + Veteran's Measure Rank II.
+- **CL9:** Relentless Barrage.
+- **CL12:** Veteran's Measure Rank III.
+- **CL13:** **The Great Beast Falls**.
+
+#### Nimera — Cardweaver
+- **CL1:** Diysean Appraisal; Weave Guard; Prepared Thread; Living Archive Rank I.
+- **CL3:** Ancient Override.
+- **CL5:** native advanced equipment permission — **two-handed Conduits**.
+- **CL6:** Face Concordance + Living Archive Rank II.
+- **CL9:** Sovereign Index.
+- **CL12:** Living Archive Rank III.
+- **CL13:** **Grand Reweaving**.
+
+#### Vaelira — Green Arcanist
+- **CL1:** Core Element Array; Shaping Element Array; Prism Cycle; Sixfold Flow Rank I.
+- **CL3:** Composite Surge.
+- **CL5:** **Focus access is the leading candidate, not yet final**.
+- **CL6:** Elemental Field + Sixfold Flow Rank II.
+- **CL9:** Sixfold Ray.
+- **CL12:** Sixfold Flow Rank III.
+- **CL13:** **Arcanum Ascendant**.
+
+#### Seyrik — Ruin Vanguard
+- **CL1:** Ruin Cleave; Rift Lance; Ember Brand; Severed Command Rank I.
+- **CL3:** Fracturing Brand.
+- **CL5:** **OPEN** — do not invent a fake Secondary or duplicate two-hand permission; Two-Handed Swords already occupy Weapon + Secondary.
+- **CL6:** Unmaking Blow + Severed Command Rank II.
+- **CL9:** Call Shardfang.
+- **CL12:** Severed Command Rank III.
+- **CL13:** **Controlled Apocalypse**.
 
 ### Base CL5 rule
 
-**CL5 is a native equipment breakthrough inside the character's own Base tradition.**
-
-It should change legal equipment use/configuration rather than be a generic stat bump whenever the tradition has a meaningful equipment breakthrough available.
+**CL5 is the preferred native equipment breakthrough inside the character's own Base tradition when that tradition has a real equipment permission to unlock.** It should not force an artificial equipment family merely for symmetry.
 
 Current approved/working examples:
 
@@ -79,6 +135,8 @@ Current approved/working examples:
 - **Vaelira / Green Arcanist:** **Focus access** is the leading CL5 candidate; Vaelira joins after this milestone and would arrive with it already learned if retained.
 - **Torren / War Archer:** CL5 native breakthrough remains unresolved. Torren's Base weapon family is specifically **Great Bows**, and Great Bows already require both Weapon + Secondary; do not invent a generic Secondary for him.
 - **Seyrik / Ruin Vanguard:** CL5 native breakthrough remains unresolved. His Base weapon family is **Two-Handed Swords**, which already occupy Weapon + Secondary; do not invent a generic Secondary for him.
+
+If a Base tradition has no honest CL5 equipment expansion, CL5 may instead be assigned another native class-development reward after the six-class equipment audit. The system should prefer coherence over forced symmetry.
 
 ### Recruitment and Base CL
 
@@ -305,8 +363,8 @@ Do not silently carry old CL12 gates forward.
 
 ## 11. Immediate next work
 
-1. Resolve **Torren Base CL5** native equipment breakthrough without contradicting Great Bow two-slot canon.
-2. Resolve **Seyrik Base CL5** native equipment breakthrough without inventing a fake Secondary.
+1. Resolve **Torren Base CL5** only if a genuine native equipment/class-development breakthrough exists; do not force one.
+2. Resolve **Seyrik Base CL5** only if a genuine native equipment/class-development breakthrough exists; do not force one.
 3. Confirm or revise **Vaelira Base CL5 = Focus access**.
 4. Set recruitment starting Base CLs after the new CEXP curve is modeled.
 5. Finish Nimera's Archer numbers and final fifth-ability behavior.
