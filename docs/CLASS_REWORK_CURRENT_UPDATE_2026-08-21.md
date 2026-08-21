@@ -19,6 +19,7 @@ The user explicitly clarified that class-rework material advanced under repeated
 - `docs/CLASS_REWORK_CROSS_BALANCE_AUDIT_2026-08-21.md`
 - `docs/CLASS_SYNTHESIS_WORKING_MODEL.md`
 - `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`
+- `docs/ILYRA_SEYRIK_SYNTHESIS_WORKING_SPEC.md`
 
 ---
 
@@ -307,7 +308,31 @@ The Cyanis/Vaelira Synthesis pair is approved.
 
 ---
 
-## 8. Base class snapshot
+## 8. Approved Ilyra ⇄ Seyrik Synthesis pair
+
+Detailed authority: `docs/ILYRA_SEYRIK_SYNTHESIS_WORKING_SPEC.md`.
+
+### Ilyra — Mercy Unbroken
+
+**Once per round**, after Ilyra resolves a **non-Ultimate Blue Warden Ability** that heals another ally or removes at least one ordinary harmful status from another ally, her next **damaging non-Ultimate Vowblade Ability** before the end of the following round gains **+10% Power**.
+
+**Once per round**, when a **Vowblade Ability or Ultimate** restores HP to at least one conscious ally other than Ilyra, her next **non-Ultimate Blue Warden Ability** before the end of the following round costs **3 less MP**, minimum 1 MP.
+
+The effects are one-use and non-stacking. Self-only recovery does not qualify. The Synthesis adds no raw healing percentage, new revival rule, extra action, or weapon requirement.
+
+### Seyrik — Tempered Ruin
+
+**Once per round**, after Seyrik resolves a **damaging non-Ultimate Ruin Vanguard Ability**, his next **non-Ultimate Ruin Warden Ability** before the end of the following round costs **3 less MP**, minimum 1 MP.
+
+**Once per round**, when a **Ruin Warden Ability or Ultimate** restores HP to at least one ally other than Seyrik, his next **damaging non-Ultimate Ruin Vanguard Ability** before the end of the following round gains **+10% Power**.
+
+Siphon Rune's self-recovery alone does not qualify. Reclaimed Breath may qualify because revival restores HP to another ally. The effects are one-use and non-stacking and do not alter damage type, healing amount, revival value, self-drawback clauses, or weapon legality.
+
+The Ilyra/Seyrik Synthesis pair is approved as a cadence loop rather than a raw-healing upgrade.
+
+---
+
+## 9. Base class snapshot
 
 - **Cyanis — Crest Knight:** Crest Strike / Guardian Sigil / Harmonizing Ward / Resolute Counter / Crest Rush / Crest Rend / Crest of Companions.
 - **Ilyra — Blue Warden:** Mend / Clear Warding / Renewal / Warden's Valor / Revive / Lifeline / Dawn Without End.
@@ -318,14 +343,13 @@ The Cyanis/Vaelira Synthesis pair is approved.
 
 ---
 
-## 9. Immediate open work
+## 10. Immediate open work
 
-1. Design the **Ilyra ⇄ Seyrik Synthesis effects**.
-2. Design the **Torren ⇄ Nimera Synthesis effects**.
-3. Author the three pair **resolution/integration story beats**, beginning with Cyanis/Vaelira.
-4. Finalize pair-specific **Legacy mapping / naming / acquisition presentation**.
-5. Reconcile **Core Mastery** effect text.
-6. Finalize the global direct-damage-reduction stacking rule and universal Ultimate cost convention.
-7. Perform the global stale-terminology sweep from `Sixfold Accord` to **Sixfold Volition**.
-8. Run final implementation/data regression review.
-9. Promote the completed class-rework package into a new master-canon audit after Synthesis/Legacy/final normalization are stable.
+1. Design the **Torren ⇄ Nimera Synthesis effects**.
+2. Author the three pair **resolution/integration story beats**, beginning with Cyanis/Vaelira.
+3. Finalize pair-specific **Legacy mapping / naming / acquisition presentation**.
+4. Reconcile **Core Mastery** effect text.
+5. Finalize the global direct-damage-reduction stacking rule and universal Ultimate cost convention.
+6. Perform the global stale-terminology sweep from `Sixfold Accord` to **Sixfold Volition**.
+7. Run final implementation/data regression review.
+8. Promote the completed class-rework package into a new master-canon audit after Synthesis/Legacy/final normalization are stable.
