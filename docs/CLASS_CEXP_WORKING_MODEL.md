@@ -62,9 +62,12 @@ Base CL5 remains class-specific: Cyanis second Sword, Ilyra Shield, Nimera two-h
 | 6 | Trait II | 1,350 |
 | 7 | Ability 3 | 1,800 |
 | 9 | Ability 4 | 2,850 |
+| **10** | **Equipment Mastery gate — Subclass Mastery Node 4 becomes available; acquiring it unlocks donor Relic access** | **3,450** |
 | 11 | Ability 5 | 4,150 |
 | 12 | Trait III | 4,950 |
 | 13 | Subclass Ultimate | 6,000 |
+
+**Equipment Mastery is a CL10 milestone.** It remains the fourth Subclass Mastery node rather than becoming an automatic ordinary class ability. Reaching Subclass CL10 opens that node; once the node is acquired through the Mastery system, the character gains the donor tradition's Relic access.
 
 ## 5. Recruitment starting Base CL values
 
@@ -165,7 +168,7 @@ Assume a fresh Subclass begins at CL1 at the start of Ch7 and the character keep
 | Ch7 | 978 | **978** | **CL5** — donor advanced-equipment milestone reached |
 | Ch8 | 1,000 | **1,978** | **CL7** — Ability 3 online |
 | Ch9 | 968 | **2,946** | **CL9** — Ability 4 online |
-| Ch10 | 1,104 | **4,050** | CL10, just short of Ability 5 |
+| Ch10 | 1,104 | **4,050** | **CL10** — Equipment Mastery becomes available |
 | Ch11 | 1,258 | **5,308** | **CL12** — Trait III online |
 | Ch12 | 700 | **6,008** | **CL13** — Subclass Ultimate |
 
@@ -173,7 +176,8 @@ This is the strongest current proof that **CL13 is enough to last to approximate
 - the donor equipment package becomes usable during Ch7 rather than instantly;
 - Ability 3 arrives in Ch8;
 - Ability 4 arrives in Ch9;
-- Ability 5 arrives early in Ch11 rather than too soon;
+- **Equipment Mastery / donor Relic access becomes available at CL10 around the end of Ch10**;
+- Ability 5 arrives early in Ch11;
 - Trait III arrives by late Ch11;
 - the Subclass Ultimate lands naturally in Ch12 around the campaign-only Level ~55 finish.
 
@@ -234,17 +238,24 @@ Design reasons:
 
 This does **not** make both class lines advance together. A reserve character still trains only the class currently selected for that character.
 
-## 14. Mastery interaction — not yet reconciled
+## 14. Mastery / Relic interaction — current working decision
 
-This CEXP model does not move Equipment Mastery onto ordinary class levels. Mastery Points and the four Core / four Subclass / one Synthesis architecture remain a separate system until explicitly revised.
+**Equipment Mastery is gated at Subclass CL10.**
 
-The old Synthesis prerequisite of both classes at CL12 must be reconsidered for the new CL13 cap. Do not automatically convert that requirement without a dedicated mastery pass.
+- Equipment Mastery remains **Subclass Mastery Node 4**.
+- Reaching **Subclass CL10** makes Equipment Mastery available on that character's Mastery board.
+- The character must still acquire the node through the Mastery system; CL10 itself does not silently grant the node for free.
+- Once Equipment Mastery is acquired, the character gains access to the **donor Base tradition's Relic equipment**.
+- Ordinary donor equipment remains the earlier CL1–5 progression and is not delayed to CL10.
+- Legacy access remains later and separate from Equipment Mastery.
 
-## 15. Next numerical pass
+The old Synthesis prerequisite of both classes at CL12 must still be reconsidered for the new CL13 cap. Do not automatically convert that requirement without the dedicated Synthesis/Legacy pass.
+
+## 15. Next numerical / mastery pass
 
 1. inspect final Light / Standard / Heavy formation weights and turn the chapter averages into exact tier rewards;
 2. assign exact CEXP to mandatory authored battles while preserving each chapter budget;
 3. assign Regional Hunt and Major Hunt CEXP;
 4. simulate Base-focused, Subclass-focused, 50/50, and optional-heavy paths with exact encounter data;
-5. reconcile the Mastery / Relic / Legacy progression against CL13;
+5. reconcile the remaining Mastery-node gates plus Synthesis / Legacy progression against CL13;
 6. only then promote the CEXP model into master canon.
