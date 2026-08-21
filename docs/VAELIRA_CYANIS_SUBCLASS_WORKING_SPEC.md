@@ -6,7 +6,7 @@
 
 ## 1. Design identity
 
-Vaelira learns Cyanis's actual Crest Knight discipline rather than receiving another ranged or generic spellblade kit. The subclass should feel like a Green Arcanist who has learned how Cyanis turns restraint, protection, counterpressure, and precise martial commitment into a complete fighting style.
+Vaelira learns Cyanis's actual Crest Knight discipline rather than receiving another ranged or generic spellblade kit. The subclass should feel like a Green Arcanist who has learned how Cyanis turns restraint, self-protection, counterpressure, and precise martial commitment into a complete fighting style.
 
 The reciprocal contrast is intentional:
 - Cyanis learns Vaelira's overt magical geometry in his preserve-first magical subclass;
@@ -16,12 +16,14 @@ The subclass should remain recognizably Vaelira. Her elemental knowledge is not 
 
 Core Cyanis-derived language to preserve:
 - sword-based martial offense;
-- ally protection / interception;
+- disciplined self-protection rather than ally interception;
 - prepared counterpressure;
 - flexible offense/defense;
 - penetration against defended targets;
 - equipment choice between Shield and second Sword;
 - broad party protection at the Ultimate tier.
+
+**Explicit current correction:** Vaelira should not receive a normal ally-intercept role from Cyanis. She learns his defensive discipline as self-guarding, timing, and counterpressure rather than becoming a substitute party protector.
 
 ## 2. Equipment progression
 
@@ -59,7 +61,7 @@ When Vaelira has dealt damage with one of the six standard elements, her **next 
 - The game may track the most recent eligible element internally; it is not a player-facing gauge.
 
 ### Rank II — CL6
-After Vaelira successfully resolves an authored **intercept or prepared counter** from this subclass, her next damaging subclass ability gains **+10% Power**.
+After **Refraction Guard successfully reduces an eligible hit** or **Refracted Counter resolves**, Vaelira's next damaging subclass ability gains **+10% Power**.
 
 ### Rank III — CL12
 When a damaging subclass ability is using a standard element through Rank I and hits a target carrying the **matching existing Imprint**, that ability gains **15% Defense penetration**.
@@ -78,15 +80,17 @@ The matching Imprint is not consumed.
 
 Purpose: establishes that Vaelira is genuinely learning to fight with a Sword rather than casting a spell that happens to look like one.
 
-### CL4 — Crestguard *(working name)*
-**Working numbers:** 8 MP; prepared ally protection.
+### CL4 — Refraction Guard *(working name)*
+**Working numbers:** 8 MP; prepared self-defense.
 
-- Choose one conscious ally.
-- Prepares Vaelira to intercept the first eligible single-target hostile direct-damage action aimed at that ally.
-- Vaelira becomes the target and takes **20% less final direct damage** from the intercepted action.
-- If Vaelira has a qualifying recent standard element when the intercept resolves, she additionally gains the matching established **Elemental Guard** through the end of the following round.
+- Targets **Vaelira only**.
+- Arms a defensive response through the end of the following round.
+- The first eligible single-target hostile direct-damage action that resolves against Vaelira deals **25% less final direct damage**, then Refraction Guard is consumed.
+- If Vaelira has a qualifying recent standard element when Refraction Guard triggers, she additionally gains the matching established **Elemental Guard** through the end of the following round.
+- Refraction Guard never redirects an action away from an ally and never makes Vaelira an intercept target.
+- Obeys the global one-armed Prepared-effect limit.
 
-Purpose: Guardian Sigil translated through Vaelira's elemental defensive instincts.
+Purpose: Vaelira learns Cyanis's defensive timing as a disciplined personal guard rather than copying Guardian Sigil's ally-interception role.
 
 ### CL7 — Refracted Counter *(working name)*
 **Working numbers:** 165 Physical Power; 9 MP; prepared self-response; +10 Base Hit.
@@ -131,7 +135,7 @@ Purpose: Cyanis's flexible Crest Rush philosophy becomes Vaelira's mastery of ch
 - Does **not** automatically apply Imprints.
 - Does **not** create an Elemental Field.
 
-Purpose: this must not duplicate Arcanum Ascendant. Vaelira's Base Ultimate is her full offensive elemental authority; this Ultimate is the lesson she learned from Cyanis — use power to hold the entire formation together while still striking back.
+Purpose: this must not duplicate Arcanum Ascendant. Vaelira's Base Ultimate is her full offensive elemental authority; this Ultimate is the lesson she learned from Cyanis — use disciplined power to reinforce the entire formation while still striking back. This broad party protection is an Ultimate-scale effect and does not make ordinary ally interception part of her subclass identity.
 
 ## 7. Subclass Mastery nodes — working redesign
 
@@ -140,7 +144,7 @@ These replace the old Prism Archer Subclass Mastery effects for Vaelira.
 | Node | Eligibility | Working effect |
 |---:|---:|---|
 | **Subclass 1 — Tempered Spectrum** | CL3 | Prism Edge gains +15 Power; when elementalized through Prismatic Discipline, it also gains +5 Base Hit. |
-| **Subclass 2 — Guarded Geometry** | CL5 | Crestguard's intercepted-damage reduction improves from 20% to **25%**. |
+| **Subclass 2 — Guarded Geometry** | CL5 | Refraction Guard's direct-damage reduction improves from 25% to **30%**. |
 | **Subclass 3 — Return Angle** | CL7 | Refracted Counter gains +20 Power; Prismatic Rend gains +10 Base Hit when attacking a target with a matching Imprint. |
 | **Subclass 4 — Equipment Mastery** | **CL10** | Unlocks legal use of the Crest Knight donor Relic. |
 
@@ -164,12 +168,13 @@ No final subclass name is locked.
 
 Avoid treating the retired `Prism Archer` name as a constraint. The final name should communicate Vaelira's personality and the fact that she has integrated disciplined Sword/Crest fighting into her own precise elemental worldview.
 
-Working mechanic labels such as `Prism Edge`, `Crestguard`, `Refracted Counter`, `Prismatic Rend`, `Crest Form`, `Prismatic Discipline`, and `Prism Bastion` are also provisional and may be renamed independently of the mechanics.
+Working mechanic labels such as `Prism Edge`, `Refraction Guard`, `Refracted Counter`, `Prismatic Rend`, `Crest Form`, `Prismatic Discipline`, and `Prism Bastion` are also provisional and may be renamed independently of the mechanics.
 
 ## 10. Open balance checks before promotion
 
 - Compare all Power / MP values directly against Cyanis's final Crest Knight numbers so Vaelira learns the discipline without eclipsing him at his own role.
 - Confirm whether Trait Rank I's internal “recent standard element” window should be current round + following round or a simpler last-damaging-element memory.
+- Confirm whether Refraction Guard's 25% / 30% self-only reduction is the right defensive strength relative to Refracted Counter's offensive payoff.
 - Confirm Crest Form's three equipment branches after the final open-equipment audit; do not allow an unintended Focus branch if final slot rules make it illegal.
 - Confirm Major Defense Up / Major Spirit Up and Elemental Guard stacking rules for Prism Bastion.
 - Finalize the subclass name only after the mechanic package is approved.
