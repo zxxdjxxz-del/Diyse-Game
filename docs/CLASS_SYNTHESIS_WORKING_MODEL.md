@@ -102,7 +102,8 @@ However:
 - current class selection still controls the selected class's **stat package**;
 - current class selection still controls the selected class's **Trait**;
 - Synthesis does not make both Traits active at once;
-- an individual Synthesis effect may reference Base or Subclass abilities, states, Fields, equipment, Cards, or established statuses, but it must obey their ordinary legality and timing.
+- an individual Synthesis effect may reference Base or Subclass abilities, states, Fields, equipment, Cards, or established statuses, but it must obey their ordinary legality and timing;
+- **no Synthesis effect may introduce a weapon requirement for an Ability or Ultimate**, because learned Abilities are globally weapon-independent.
 
 This preserves the value of class selection while allowing true late-game integration.
 
@@ -152,9 +153,11 @@ Purchasing Synthesis does **not** by itself:
 - unlock a new weapon family outside the reciprocal partner's established tradition;
 - unlock the partner's Base Trait;
 - unlock the partner's Base Ultimate as a copied command;
-- remove existing weapon requirements such as Truthshot's Great-Bow gate;
-- bypass two-slot weapon geometry;
+- add or restore any Ability/Ultimate weapon gate;
+- bypass two-slot weapon geometry for equipment itself;
 - bypass the one-armed Prepared-effect limit.
+
+The distinction is explicit: equipment can still occupy Weapon + Secondary or have its own legality rules, but **Abilities themselves are never disabled because a particular weapon is not equipped**.
 
 ---
 
