@@ -1,6 +1,6 @@
 # Diyse — Nimera ← Torren Subclass Working Spec
 
-**Status:** APPROVED CLASS-REWORK DESIGN — NOT YET MASTER-CANON PROMOTED  
+**Status:** APPROVED CLASS-REWORK DESIGN — CROSS-BALANCE NORMALIZATION LOCKED — NOT YET MASTER-CANON PROMOTED  
 **Parent trackers:** `docs/CLASS_REWORK_MASTER_TRACKER.md`, `docs/CLASS_CEXP_WORKING_MODEL.md`, `docs/CLASS_MASTERY_WORKING_MODEL.md`  
 **Authority boundary:** v1.84 / Audit99 plus newer explicit class-rework decisions. On August 21, 2026 the user clarified that the class-rework proposals advanced under their repeated “Let’s continue” responses are approved. This file therefore records the latest refined Nimera ← Torren package as approved within the class-rework project. Later explicit revisions still supersede it.
 
@@ -33,7 +33,25 @@ Do not create an `Appraised` status. Diysean Appraisal remains an information-re
 | **CL10** | Equipment Mastery becomes eligible. Buying Subclass Mastery Node 4 grants access to the War Archer donor **Relic**. |
 | Synthesis | Later paired Legacy access under the final Synthesis rule. |
 
-## 3. Approved selected-Subclass stat package
+## 3. Approved weapon requirement
+
+Truthshot's damaging techniques are **actual Great-Bow War Archer arts** and require a legal **Great Bow equipped** when used.
+
+This weapon gate applies to:
+- Measured Shot;
+- Held Argument;
+- Pin the Variable;
+- Structural Failure;
+- Corroboration;
+- Final Annotation.
+
+If Nimera has learned the ability but is currently using a Conduit or another non-Great-Bow loadout, the bow-gated Truthshot command remains learned but is temporarily unavailable until a Great Bow is equipped.
+
+This is compatible with persistent unlocked abilities: learning persists, while authored equipment requirements still govern whether a specific command is legal under the current loadout.
+
+Truthshot Abilities use their own authored hit packages and do **not** inherit the Great Bow's ordinary Attack hit pattern.
+
+## 4. Approved selected-Subclass stat package
 
 - Attack +8%
 - Accuracy +8%
@@ -42,7 +60,7 @@ Do not create an `Appraised` status. Diysean Appraisal remains an information-re
 
 This keeps Nimera clearly more martial and accurate than Cardweaver without trying to out-stat Torren at his own tradition.
 
-## 4. Approved five normal abilities
+## 5. Approved five normal abilities
 
 ### CL1 — Measured Shot
 **120 Physical Power; 6 MP; single target.**
@@ -80,7 +98,7 @@ This keeps Nimera clearly more martial and accurate than Cardweaver without tryi
 - Against Hunter's Measure, each hit after the first gains a cumulative **+5 Base Hit** and **+5% Critical Chance** relative to the prior hit.
 - Automatic hostile retargeting follows the global combat rule if the original target is defeated before resolution; once the Ability begins resolving, its authored multihit package remains one coherent action.
 
-## 5. Approved Trait — Applied Evidence
+## 6. Approved Trait — Applied Evidence
 
 ### Rank I — CL1
 Subclass attacks gain **+10 Base Hit** against enemies with Hunter's Measure.
@@ -93,9 +111,9 @@ Subclass attacks additionally gain **15% Defense penetration** against enemies w
 
 The Trait creates no personal resource, no new mark, and no Face-counting loop.
 
-## 6. Approved Ultimate — Final Annotation
+## 7. Approved Ultimate — Final Annotation
 
-**CL13; 360 Physical Power; single target.** Ultimate cost follows the final global Ultimate convention.
+**CL13; 360 Physical Power; single target; Great Bow required.** Ultimate cost follows the final global Ultimate convention.
 
 - **+20 Base Hit**.
 - **50% Defense penetration**.
@@ -103,7 +121,7 @@ The Trait creates no personal resource, no new mark, and no Face-counting loop.
 - Gains **+15% final damage** against large enemies, Hunts, targetable components, devices, wards, constructs, and equivalent hard-point targets.
 - Does **not** consume Hunter's Measure.
 
-## 7. Approved Subclass Mastery nodes
+## 8. Approved Subclass Mastery nodes
 
 | Node | Eligibility | Effect |
 |---:|---:|---|
@@ -114,7 +132,7 @@ The Trait creates no personal resource, no new mark, and no Face-counting loop.
 
 Each costs 1 MP under the inherited nine-point Mastery economy.
 
-## 8. Approved Torren/Nimera shared interaction
+## 9. Approved Torren/Nimera shared interaction
 
 Hunter's Measure is intentionally party-shared between the pair:
 - Torren can exploit Measure applied by Nimera;
@@ -124,7 +142,15 @@ Hunter's Measure is intentionally party-shared between the pair:
 
 Nimera's Base information mechanics remain useful without becoming mandatory. Diysean Appraisal can improve Measured Shot accuracy by revealing permitted target data, but Truthshot is fully functional without creating or tracking an Appraisal status.
 
-## 9. Remaining implementation checks, not design reversals
+## 10. Cross-balance status
+
+The August 21 six-Subclass cross-balance pass made **no raw Power/stat changes** to Truthshot.
+
+Its lower early Power is intentional because Measured Shot establishes Hunter's Measure and the rest of the kit compounds accuracy, interruption, penetration, critical chance, and hard-target pressure around that state.
+
+Final Annotation remains comparable to the other single-target capstones through conditional multiplication rather than raw base Power: Measure and hard-target bonuses can raise its effective damage substantially while its 50% Defense penetration and Applied Evidence scaling preserve the precision-finisher identity.
+
+## 11. Remaining implementation checks, not design reversals
 
 These do not reopen the approved package; they are implementation/balance normalization work:
 - normalize global interrupt-chance terminology;
