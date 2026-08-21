@@ -21,7 +21,7 @@ Core Cyanis-derived language to preserve:
 - flexible offense/defense;
 - penetration against defended targets;
 - equipment expression through Shield, Focus, or second Sword where legal;
-- broad party protection at the Ultimate tier.
+- formation-minded protection at the Ultimate tier without copying Cyanis's full support package.
 
 **Explicit current corrections:**
 - Vaelira should not receive a normal ally-intercept role from Cyanis.
@@ -139,16 +139,27 @@ Purpose: Cyanis's flexible Crest Rush philosophy becomes Vaelira choosing the ri
 
 ## 6. Ultimate — Prism Bastion *(working name)*
 
-**CL13. Working numbers:** 300 Power to all enemies; allied protection package; Ultimate cost follows the final global Ultimate convention.
+**CL13. Revised working proposal:** **320 Power to all enemies**; Vaelira chooses one of the six standard elements; Ultimate cost follows the final global Ultimate convention.
 
-- Vaelira chooses one of the six standard elements when activating the Ultimate.
-- Deals **300 damage of the chosen standard element** to all enemies.
-- All conscious permanent allies gain **Major Defense Up and Major Spirit Up for 2 rounds**.
-- Allies also gain the matching established **Elemental Guard for 2 rounds**.
-- Does **not** automatically apply Imprints.
-- Does **not** create an Elemental Field.
+Weapon expression follows the same broad integration principle as Crest Form without reproducing all six of its loadout branches:
+- with a legal **Sword** equipped, Prism Bastion resolves as **320 Physical Power** of the chosen standard element;
+- with a legal **Arcane Staff** equipped, Prism Bastion resolves as **320 Magical Power** of the chosen standard element.
 
-Purpose: this must not duplicate Arcanum Ascendant. Vaelira's Base Ultimate is her full offensive elemental authority; this Ultimate is the lesson she learned from Cyanis — use disciplined power to reinforce the entire formation while still striking back. This broad party protection is an Ultimate-scale effect and does not make ordinary ally interception part of her subclass identity.
+Additional effects:
+- gains **20% penetration against the relevant defense**: Defense for the Sword expression, Spirit for the Staff expression;
+- all conscious permanent allies gain the matching established **Elemental Guard for 2 rounds**;
+- does **not** grant Major Defense Up or Major Spirit Up;
+- does **not** cleanse harmful effects;
+- does **not** automatically apply Imprints;
+- does **not** create an Elemental Field;
+- Shield, Focus, and second-Sword choices do not add further Ultimate branches. Those equipment-expression differences already belong to Crest Form.
+
+Purpose: Prism Bastion should not be a merger of Cyanis's **Crest of Companions** and Vaelira's **Arcanum Ascendant**. It represents Vaelira's own conclusion from Cyanis's lesson: strike through the enemy formation with disciplined force, then leave the party protected against the same element she has just brought under control.
+
+This keeps the three Ultimates mechanically distinct:
+- **Arcanum Ascendant:** Vaelira's Base elemental-dominance capstone — stronger elemental offense, Imprint application, and Elemental Field setup;
+- **Crest of Companions:** Cyanis's Base formation-support capstone — Colorless offense plus cleansing and broad Defense/Spirit reinforcement;
+- **Prism Bastion:** Vaelira's Cyanis-derived subclass capstone — weapon-form elemental offense, relevant-defense penetration, and one focused party Elemental Guard.
 
 ## 7. Subclass Mastery nodes — working redesign
 
@@ -190,6 +201,6 @@ Working mechanic labels such as `Prism Edge`, `Crested Advance`, `Refracted Coun
 - Confirm whether Trait Rank I's internal “recent standard element” window should be current round + following round or a simpler last-damaging-element memory.
 - Confirm whether Crested Advance's 165 Power plus Minor Defense/Spirit Up and optional Elemental Guard is the right CL4 strength.
 - Balance Crest Form's six legal loadout expressions against one another and against Cyanis's Crest Rush after final weapon stats are known; the **loadout support itself is not open**: Sword, Sword + Shield, dual Sword, Staff, Staff + Focus, and Staff + Shield are all supported.
-- Confirm Major Defense Up / Major Spirit Up and Elemental Guard stacking rules for Prism Bastion.
+- Balance Prism Bastion's **320 AoE Power / 20% relevant-defense penetration / party Elemental Guard** against Arcanum Ascendant and Crest of Companions; the current revised version is a working proposal, not an explicit user lock.
 - Finalize the subclass name only after the mechanic package is approved.
 - Design Vaelira's Synthesis passive only after both directions of the Cyanis ⇄ Vaelira pair are stable.
