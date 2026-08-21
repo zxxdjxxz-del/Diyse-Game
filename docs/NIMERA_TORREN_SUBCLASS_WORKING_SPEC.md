@@ -10,7 +10,7 @@
 - **Character/class pairing:** **Nimera — Cardweaver / Truthshot**.
 - The old Cyanis-derived **Sixfold Knight** direction is superseded.
 
-Nimera genuinely learns Torren's War Archer discipline rather than receiving a Face-heavy pseudo-knight kit. Her subclass uses real Great Bows and translates Torren's practical quarry logic into Nimera's analytical style.
+Nimera genuinely learns Torren's War Archer discipline rather than receiving a Face-heavy pseudo-knight kit. Her subclass learns real Great Bow equipment, while the learned Truthshot techniques themselves remain usable with any otherwise-legal equipment loadout under the global no-weapon-requirement rule.
 
 Approved inherited War Archer language:
 - target assessment;
@@ -33,23 +33,20 @@ Do not create an `Appraised` status. Diysean Appraisal remains an information-re
 | **CL10** | Equipment Mastery becomes eligible. Buying Subclass Mastery Node 4 grants access to the War Archer donor **Relic**. |
 | Synthesis | Later paired Legacy access under the final Synthesis rule. |
 
-## 3. Approved weapon requirement
+## 3. Approved Ability weapon-independence rule
 
-Truthshot's damaging techniques are **actual Great-Bow War Archer arts** and require a legal **Great Bow equipped** when used.
+**No Truthshot Ability or Ultimate requires a Great Bow or any other specific weapon.** Once learned, every Truthshot command remains usable with any otherwise-legal Nimera equipment loadout.
 
-This weapon gate applies to:
-- Measured Shot;
-- Held Argument;
-- Pin the Variable;
-- Structural Failure;
-- Corroboration;
-- Final Annotation.
+Presentation adapts to the loadout:
+- with a Great Bow, Nimera performs the technique as a literal War Archer bow art;
+- with a Conduit or another legal loadout, the Conduit/manifold manifests a spectral or projected bow, arrow, bolt-path, or equivalent War Archer-form expression for the technique;
+- the mechanical Power, hit count, targeting, status effects, and costs do not change merely because a different weapon is equipped.
 
-If Nimera has learned the ability but is currently using a Conduit or another non-Great-Bow loadout, the bow-gated Truthshot command remains learned but is temporarily unavailable until a Great Bow is equipped.
+Truthshot Abilities use their own authored hit packages and do **not** inherit the equipped weapon's ordinary Attack hit pattern.
 
-This is compatible with persistent unlocked abilities: learning persists, while authored equipment requirements still govern whether a specific command is legal under the current loadout.
+Great Bows remain valuable because of their equipment stats, slot geometry, Relic/Legacy progression, and ordinary Attack—not because Truthshot commands are disabled without one.
 
-Truthshot Abilities use their own authored hit packages and do **not** inherit the Great Bow's ordinary Attack hit pattern.
+This section supersedes the prior Great-Bow-gated version of Truthshot.
 
 ## 4. Approved selected-Subclass stat package
 
@@ -65,7 +62,7 @@ This keeps Nimera clearly more martial and accurate than Cardweaver without tryi
 ### CL1 — Measured Shot
 **120 Physical Power; 6 MP; single target.**
 
-- Great Bow technique.
+- War Archer-derived precision technique; presentation uses a literal Great Bow when equipped or a manifested/projection bow expression otherwise.
 - Applies **Hunter's Measure for 2 rounds** on hit.
 - Hunter's Measure is the same shared War Archer state Torren uses; there is no Nimera-only mark.
 - If Diysean Appraisal has already revealed the target's permitted combat data, Measured Shot gains **+10 Base Hit**. This is a direct information check, not an `Appraised` status.
@@ -73,7 +70,7 @@ This keeps Nimera clearly more martial and accurate than Cardweaver without tryi
 ### CL4 — Held Argument
 **150 Physical Power; 8 MP; prepared single-target response.**
 
-- Arms one prepared bow response against the selected enemy.
+- Arms one prepared War Archer-form response against the selected enemy.
 - Fires automatically when that target begins an eligible **Interruptible** action.
 - Uses the existing one-armed Prepared-effect limit shared by Abilities and Standard Cards.
 - Against Hunter's Measure, gains **+10 Base Hit** and **+15 percentage points to its authored interrupt chance**.
@@ -113,13 +110,14 @@ The Trait creates no personal resource, no new mark, and no Face-counting loop.
 
 ## 7. Approved Ultimate — Final Annotation
 
-**CL13; 360 Physical Power; single target; Great Bow required.** Ultimate cost follows the final global Ultimate convention.
+**CL13; 360 Physical Power; single target.** Ultimate cost follows the final global Ultimate convention.
 
 - **+20 Base Hit**.
 - **50% Defense penetration**.
 - Gains **+20% final damage** if the target has Hunter's Measure.
 - Gains **+15% final damage** against large enemies, Hunts, targetable components, devices, wards, constructs, and equivalent hard-point targets.
 - Does **not** consume Hunter's Measure.
+- Remains legal with any otherwise-legal equipment loadout; presentation adapts under the same manifested War Archer-form rule as the normal Truthshot techniques.
 
 ## 8. Approved Subclass Mastery nodes
 
@@ -149,6 +147,8 @@ The August 21 six-Subclass cross-balance pass made **no raw Power/stat changes**
 Its lower early Power is intentional because Measured Shot establishes Hunter's Measure and the rest of the kit compounds accuracy, interruption, penetration, critical chance, and hard-target pressure around that state.
 
 Final Annotation remains comparable to the other single-target capstones through conditional multiplication rather than raw base Power: Measure and hard-target bonuses can raise its effective damage substantially while its 50% Defense penetration and Applied Evidence scaling preserve the precision-finisher identity.
+
+The later global weapon-independence correction removes the Great-Bow legality gate without changing these Power values.
 
 ## 11. Remaining implementation checks, not design reversals
 
