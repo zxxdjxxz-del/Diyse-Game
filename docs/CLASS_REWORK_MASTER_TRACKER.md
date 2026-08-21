@@ -140,18 +140,22 @@ If a Base tradition has no honest CL5 equipment expansion, CL5 may instead be as
 
 ### Recruitment and Base CL
 
-Late recruits do **not** begin Base CL1 by default. Their starting Base CL should reflect their established training and campaign timing.
+Late recruits do **not** begin Base CL1 by default. Their starting Base CL reflects established training and campaign timing.
 
-Current recruitment chronology to respect:
+Current recruitment chronology and working starting Base CLs:
 
-- Cyanis — Chapter 0
-- Ilyra — Chapter 0
-- Torren — Chapter 1
-- Nimera — Chapter 3
-- Vaelira — Chapter 4
-- Seyrik — Chapter 6
+| Character | Recruitment | Starting Base CL |
+|---|---|---:|
+| Cyanis | Chapter 0 | **CL1** |
+| Ilyra | Chapter 0 | **CL1** |
+| Torren | Chapter 1 | **CL4** *(working)* |
+| Nimera | Chapter 3 | **CL4** *(working)* |
+| Vaelira | Chapter 4 | **CL7** *(working)* |
+| Seyrik | Chapter 6 | **CL8** |
 
-Vaelira and Seyrik are expected to join **above Base CL5**. Their CL5 native breakthroughs are therefore pre-recruitment mastery rather than player-witnessed unlocks. Nimera may join around the CL5 neighborhood; exact starting CLs wait for the new CEXP curve.
+**Seyrik joins at Base CL8.** This is a current explicit design decision. He therefore arrives above the CL5 milestone and with Unmaking Blow plus Severed Command Rank II already learned, but he does **not** yet have the CL9 Base Ability **Call Shardfang**. The player earns that shortly after recruitment through normal Base-class growth.
+
+Vaelira and Seyrik join above Base CL5, so any native CL5 breakthrough they possess is pre-recruitment mastery rather than a player-witnessed unlock. Nimera's exact relationship to CL5 remains part of the CEXP/recruitment-tuning pass.
 
 ---
 
@@ -366,7 +370,7 @@ Do not silently carry old CL12 gates forward.
 1. Resolve **Torren Base CL5** only if a genuine native equipment/class-development breakthrough exists; do not force one.
 2. Resolve **Seyrik Base CL5** only if a genuine native equipment/class-development breakthrough exists; do not force one.
 3. Confirm or revise **Vaelira Base CL5 = Focus access**.
-4. Set recruitment starting Base CLs after the new CEXP curve is modeled.
+4. Model the new CEXP curve around the current recruitment Base CLs, with **Seyrik fixed at CL8 on Chapter 6 recruitment**.
 5. Finish Nimera's Archer numbers and final fifth-ability behavior.
 6. Design Vaelira ← Cyanis from Cyanis's actual Base Crest Knight kit.
 7. Expand/reconcile the four preserve-first Subclasses to five normal abilities and CL13.
