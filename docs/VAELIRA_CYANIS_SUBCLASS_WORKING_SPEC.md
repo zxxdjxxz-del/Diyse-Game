@@ -17,7 +17,7 @@ The subclass should remain recognizably Vaelira. Her elemental knowledge is not 
 Core Cyanis-derived language to preserve:
 - sword-based martial offense;
 - disciplined self-protection expressed through offensive momentum rather than ally interception;
-- prepared counterpressure;
+- one prepared counter technique rather than a defensive subclass identity;
 - flexible offense/defense;
 - penetration against defended targets;
 - equipment choice between Shield and second Sword;
@@ -97,14 +97,15 @@ Purpose: establishes that Vaelira is genuinely learning to fight with a Sword ra
 Purpose: Vaelira translates Cyanis's defensive discipline into forward pressure. She reinforces her own position by attacking cleanly and settling into a stronger guard after the strike rather than spending a turn on a passive defensive action.
 
 ### CL7 — Refracted Counter *(working name)*
-**Working numbers:** 165 Physical Power; 9 MP; prepared self-response; +10 Base Hit.
+**Working numbers:** 150 Physical Power; 9 MP; prepared self-response; **+15 Base Hit**.
 
 - Prepares one counter against the next eligible single-target hostile action that resolves against Vaelira.
 - After that hostile action resolves, Vaelira counters the attacker.
 - The counter may adopt the most recent eligible standard element through Prismatic Discipline Rank I.
+- Does not reduce the incoming damage and grants no defensive status by itself.
 - Obeys the global one-armed Prepared-effect limit.
 
-Purpose: Resolute Counter interpreted by a precise caster learning to trust martial timing.
+Purpose: this is the one true reactive technique in the normal subclass kit. Vaelira learns Cyanis's Resolute Counter timing, but her lower raw Power keeps Cyanis the stronger native counterfighter while her elementalization gives the technique a Vaelira-specific expression.
 
 ### CL9 — Prismatic Rend *(working name)*
 **Working numbers:** 235 Physical Power; 14 MP; single target; **30% Defense penetration**.
@@ -116,17 +117,19 @@ Purpose: Resolute Counter interpreted by a precise caster learning to trust mart
 Purpose: direct descendant of Crest Rend, with Vaelira using elemental knowledge to choose the exact line through an already-understood defense.
 
 ### CL11 — Crest Form *(working name)*
-**Working numbers:** 16 MP; single target; behavior changes modestly with the equipped Secondary.
+**Working numbers:** 16 MP; single target; **requires a Sword in the Weapon slot**. Behavior changes with the Crest Knight loadout actually equipped.
 
-This is one Ability with three legal equipment expressions rather than three separate abilities:
+This remains one attack rather than several separate abilities:
 
-- **Shield equipped:** 195 Physical Power; after resolving, Vaelira gains **15% direct-damage reduction through end of round**.
-- **Second Sword equipped:** two hits × 110 Physical Power = **220 total Power**.
-- **Focus equipped / Secondary otherwise legally free:** 190 Power; resolves as Magical using Vaelira's most recent eligible standard element if one exists, otherwise Colorless Magical; gains **20% Spirit penetration**.
+- **One Sword / no Shield or second Sword:** **200 Physical Power**. This is the neutral form.
+- **Sword + Shield:** **190 Physical Power**; after resolving, Vaelira gains **15% direct-damage reduction through the end of the following round**.
+- **Dual Swords:** two hits × **110 Physical Power** = **220 total Power**.
 
-If some later legal loadout does not match one of the three authored expressions, use the neutral one-Sword form at **200 Physical Power** unless a later equipment audit defines a better branch.
+All three forms may adopt Vaelira's most recent eligible standard element through Prismatic Discipline Rank I. The chosen element applies to the complete authored action package.
 
-Purpose: Cyanis's flexible Crest Rush philosophy becomes Vaelira's mastery of choosing the right fighting form for the equipment she actually brought.
+There is **no Focus-specific Crest Form branch**. Focus access is not required for this ability and the subclass does not turn its advanced martial technique into a separate spellcasting mode. If Vaelira later has a legal Sword + Focus loadout through persistent equipment permissions, Crest Form uses the neutral one-Sword expression unless a later approved equipment audit explicitly changes that rule.
+
+Purpose: Cyanis's flexible Crest Rush philosophy becomes Vaelira choosing how to commit the Sword discipline she learned: balanced with one Sword, guarded with Shield, or aggressive with two Swords. The equipment changes the attack's expression without making Vaelira a better version of Cyanis or introducing an unrelated magic branch.
 
 ## 6. Ultimate — Prism Bastion *(working name)*
 
@@ -179,7 +182,7 @@ Working mechanic labels such as `Prism Edge`, `Crested Advance`, `Refracted Coun
 - Compare all Power / MP values directly against Cyanis's final Crest Knight numbers so Vaelira learns the discipline without eclipsing him at his own role.
 - Confirm whether Trait Rank I's internal “recent standard element” window should be current round + following round or a simpler last-damaging-element memory.
 - Confirm whether Crested Advance's 165 Power plus Minor Defense/Spirit Up and optional Elemental Guard is the right CL4 strength.
-- Confirm Crest Form's three equipment branches after the final open-equipment audit; do not allow an unintended Focus branch if final slot rules make it illegal.
+- Confirm Crest Form's 200 neutral / 190 Shield / 220 dual-Sword spread against Cyanis's Crest Rush and final equipment values.
 - Confirm Major Defense Up / Major Spirit Up and Elemental Guard stacking rules for Prism Bastion.
 - Finalize the subclass name only after the mechanic package is approved.
 - Design Vaelira's Synthesis passive only after both directions of the Cyanis ⇄ Vaelira pair are stable.
