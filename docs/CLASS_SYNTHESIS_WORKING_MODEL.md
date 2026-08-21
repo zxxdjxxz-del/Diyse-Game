@@ -1,8 +1,8 @@
 # Diyse — Class Synthesis Working Model
 
-**Status:** APPROVED UNIVERSAL SYNTHESIS ARCHITECTURE — PAIR-SPECIFIC EFFECTS PENDING  
+**Status:** APPROVED UNIVERSAL SYNTHESIS ARCHITECTURE — CYANIS/VAELIRA EFFECTS APPROVED; TWO PAIRS PENDING  
 **Parent authority:** v1.84 / Audit99 plus newer approved class-rework decisions.  
-**Related files:** `docs/CLASS_MASTERY_WORKING_MODEL.md`, `docs/CLASS_REWORK_CROSS_BALANCE_AUDIT_2026-08-21.md`, `docs/CLASS_REWORK_CURRENT_UPDATE_2026-08-21.md`
+**Related files:** `docs/CLASS_MASTERY_WORKING_MODEL.md`, `docs/CLASS_REWORK_CROSS_BALANCE_AUDIT_2026-08-21.md`, `docs/CLASS_REWORK_CURRENT_UPDATE_2026-08-21.md`, `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`
 
 ## 1. Purpose
 
@@ -61,8 +61,6 @@ Each character's Synthesis node grants two things:
 ### A. Character-specific Synthesis effect
 
 A permanent passive integration rule that bridges the character's Base and Subclass combat identities.
-
-The six exact effects are designed separately after the cross-balance pass.
 
 Universal boundaries for those effects:
 - no new personal gauge;
@@ -129,7 +127,37 @@ Synthesis is where the reciprocal training relationship receives its final expli
 
 ---
 
-## 7. Timing target
+## 7. Approved Cyanis ⇄ Vaelira Synthesis effects
+
+Detailed authority: `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`.
+
+### Cyanis — Unified Crest
+
+**Base → Subclass:** once per round, after Cyanis deliberately selects and resolves a **Crest Knight Ability**, if Crest Attunement is not already active, he gains **Crest Attunement**.
+
+**Subclass → Base:** when Cyanis consumes Crest Attunement with a legal Crest Field or Crest Seal, his next **damaging Crest Knight Ability** before the end of the following round gains **+15% Power**.
+
+Boundaries:
+- Crest Attunement does not stack or refresh itself while already active;
+- one consumption arms one one-use +15% Power bonus;
+- no extra action, second Trait, stat-package merge, or weapon requirement is created.
+
+### Vaelira — Unified Spectrum
+
+When Vaelira uses a **damaging Axiomblade Ability** against an enemy carrying one or more existing Imprints, she may choose one of those Imprint elements as the Ability's element. The Imprint is not consumed.
+
+**Once per round**, when a damaging Axiomblade Ability hits using an element matching an existing Imprint on that target, extend that matching Imprint by **+1 round**, up to its authored maximum duration.
+
+Boundaries:
+- Prism Cycle retains precedence when it already determines the Ability's element;
+- Formal Equivalence remains active/useful when Axiomblade is selected and is not replaced by Synthesis;
+- no automatic Composite Reaction, new Imprint, extra action, or weapon requirement is created.
+
+These two effects are approved as the first reciprocal Synthesis pair.
+
+---
+
+## 8. Timing target
 
 Because eligibility requires **both Base CL13 and Subclass CL13**, Synthesis is an endgame completion reward rather than a midgame system.
 
@@ -142,7 +170,7 @@ This timing is intentional:
 
 ---
 
-## 8. Approved non-effects
+## 9. Approved non-effects
 
 Purchasing Synthesis does **not** by itself:
 - raise the class cap beyond CL13;
@@ -161,12 +189,12 @@ The distinction is explicit: equipment can still occupy Weapon + Secondary or ha
 
 ---
 
-## 9. Remaining Synthesis work
+## 10. Remaining Synthesis work
 
-1. Design **Cyanis Synthesis** and **Vaelira Synthesis**.
-2. Design **Ilyra Synthesis** and **Seyrik Synthesis**.
-3. Design **Torren Synthesis** and **Nimera Synthesis**.
-4. Define the exact shared character-resolution story beat for each reciprocal pair.
-5. Finalize pair-specific Legacy item mapping/naming and acquisition presentation.
-6. Normalize Core Mastery text and final global combat-modifier / Ultimate-cost rules.
+1. Design **Ilyra Synthesis** and **Seyrik Synthesis**.
+2. Design **Torren Synthesis** and **Nimera Synthesis**.
+3. Define the exact shared character-resolution story beat for each reciprocal pair, beginning with Cyanis/Vaelira.
+4. Finalize pair-specific Legacy item mapping/naming and acquisition presentation.
+5. Normalize Core Mastery text and final global combat-modifier / Ultimate-cost rules.
+6. Run a final six-Synthesis balance pass after all six character-specific effects are complete.
 7. Promote the completed class-rework package through a new master-canon audit.
