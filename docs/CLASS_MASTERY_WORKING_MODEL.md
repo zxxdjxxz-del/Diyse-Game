@@ -1,6 +1,6 @@
 # Diyse — CL13 Mastery / Relic / Legacy Working Model
 
-**Status:** ACTIVE WORKING DESIGN — NOT MASTER CANON  
+**Status:** ACTIVE WORKING DESIGN — UNIVERSAL SYNTHESIS ARCHITECTURE APPROVED — NOT MASTER CANON  
 **Parent trackers:** `docs/CLASS_REWORK_MASTER_TRACKER.md`, `docs/CLASS_CEXP_WORKING_MODEL.md`  
 **Parent whole-project authority:** v1.84 / Audit99 plus newer explicit class-rework decisions.
 
@@ -24,7 +24,7 @@ The current inherited MP grant schedule remains the working basis unless separat
 - Level 15: +1 MP;
 - Level 20: +1 MP;
 - Level 27: +1 MP;
-- Sixfold Accord: +1 MP;
+- **Sixfold Volition:** +1 MP;
 - Level 34: +1 MP;
 - Level 42: +1 MP;
 - Level 50: +1 MP.
@@ -35,14 +35,14 @@ Unspent MP may be banked until an eligible node becomes available.
 
 ## 3. Core Mastery gate schedule — working proposal
 
-The four Core nodes remain improvements to the character's Base-class identity and are intended to come online during the pre-Accord campaign.
+The four Core nodes remain improvements to the character's Base-class identity and are intended to come online during the pre-Volition campaign.
 
 | Core node | Base-Class eligibility gate | Intent |
 |---:|---:|---|
 | Core 1 | **Base CL3** | first meaningful Base specialization after the starting kit |
 | Core 2 | **Base CL5** | develops alongside the native equipment breakthrough / mid-Base expansion |
 | Core 3 | **Base CL7** | mature Base technique refinement |
-| Core 4 | **Base CL9** | late Base mastery before the Accord |
+| Core 4 | **Base CL9** | late Base mastery before the Volition |
 
 Each still costs 1 MP.
 
@@ -83,15 +83,15 @@ Under the current 6,000-CEXP CL13 model, a mostly Subclass-focused campaign path
 - CL12 by late Chapter 11;
 - CL13 in Chapter 12.
 
-This places donor Relics before the final two chapters without handing them out immediately after the Accord.
+This places donor Relics before the final two chapters without handing them out immediately after the Volition.
 
 ## 6. Mastery Point availability proof
 
-Assuming the four Core nodes are purchased before/around the Accord, four MPs are spent on Core mastery.
+Assuming the four Core nodes are purchased before/around the Volition, four MPs are spent on Core mastery.
 
 The remaining five MP sources are:
 - Level 27 MP;
-- Sixfold Accord MP;
+- Sixfold Volition MP;
 - Level 34 MP;
 - Level 42 MP;
 - Level 50 MP.
@@ -107,39 +107,69 @@ Banking is expected and legal. A player may possess an unspent MP before the rel
 
 The current timing is especially clean for Equipment Mastery: by the time a Subclass-focused character approaches CL10 around Chapter 10, enough post-Core MPs can exist to purchase Subclass Node 4 immediately if Nodes 1–3 were already bought.
 
-## 7. Synthesis / Legacy — working proposal
+## 7. Synthesis / Legacy — approved universal architecture
 
-The ninth node remains **Synthesis**.
+The ninth node is **Synthesis**.
 
-Current leading eligibility rule:
+### Approved Synthesis eligibility
+
+A character may purchase Synthesis only when all of the following are true:
 - **Base Class CL13**;
 - **Subclass CL13**;
 - all four Core Mastery nodes purchased;
 - all four Subclass Mastery nodes purchased;
-- any character-specific resolution/story requirement completed;
-- 1 MP available to purchase Synthesis.
+- that character's authored **resolution / integration story requirement** completed;
+- **1 MP available**.
 
-Synthesis should therefore represent true completion of both class identities rather than merely reaching the old CL12 cap.
+Purchasing Synthesis costs exactly **1 MP**.
+
+A reciprocal pair may satisfy its narrative requirement in a shared scene, but Synthesis purchase remains **individual**. One party member buying Synthesis does not automatically buy the partner's node.
+
+The story requirement is authored mandatory continuity, not a missable dialogue-choice route.
+
+### Mechanical meaning
+
+Each character's Synthesis node grants:
+1. one **character-specific permanent Synthesis passive/integration rule** connecting Base and Subclass identities; and
+2. **paired Legacy eligibility** for the reciprocal partner's Legacy tier under the final pair-specific mapping.
+
+Synthesis is not:
+- a third class;
+- a fusion-class stat package;
+- a second simultaneously active Trait;
+- a new command;
+- a new personal gauge;
+- an extra equipment slot;
+- an extra Standard Card slot;
+- a donor-chain permission beyond the reciprocal partner.
+
+Once purchased, Synthesis remains a permanent Mastery unlock when switching between Base Class and Subclass, but selected class still controls that class's stat package and Trait. Synthesis does not make both Traits active at once.
+
+Exact character-specific Synthesis effects are designed separately.
 
 ### Legacy equipment
-
-Shared/donor Legacy equipment remains downstream of Synthesis and any associated character-resolution gate.
 
 Ordinary donor equipment, Relics, and Legacy equipment remain three separate tiers:
 1. **Subclass CL1–5:** ordinary donor equipment tradition;
 2. **Subclass CL10 + Equipment Mastery:** donor Relic access;
-3. **both classes CL13 + full Mastery + resolution + Synthesis:** Legacy access.
+3. **both classes CL13 + all eight prior Masteries + resolution + Synthesis:** paired Legacy eligibility.
+
+Synthesis grants legal **permission / eligibility**, not automatic physical item creation. A Legacy item still must be obtained through its authored acquisition source before it can be equipped.
+
+Full Legacy bonuses apply to any legal wearer under the inherited open-equipment rule once the item is both acquired and legally unlocked.
+
+Detailed universal Synthesis authority: `docs/CLASS_SYNTHESIS_WORKING_MODEL.md`.
 
 ## 8. Current unresolved items
 
 Before canon promotion, still resolve:
 1. whether Core 1/2/3/4 gates at Base CL3/5/7/9 are accepted unchanged;
 2. whether Subclass 1/2/3 gates at CL3/5/7 are accepted unchanged;
-3. final Synthesis story-resolution condition per character;
-4. exact Legacy wording for each reciprocal pair;
-5. revised Mastery effects for Nimera and Vaelira because their donor relationships changed;
-6. whether any preserve-first Mastery node effects need small mechanical updates for CL13 pacing;
-7. synchronization of all old CL12 Mastery/Synthesis references.
+3. exact **character-specific Synthesis effects** for all six characters;
+4. final shared resolution/integration story beat for each reciprocal pair;
+5. exact pair-specific Legacy item mapping / naming / acquisition presentation;
+6. normalization of global percentage direct-damage-reduction stacking and universal Ultimate-cost rules;
+7. synchronization of stale CL12 and `Sixfold Accord` references elsewhere in the repository.
 
 ## 9. Current hard working decisions from the class rework
 
@@ -149,4 +179,7 @@ Before canon promotion, still resolve:
 - **Equipment Mastery eligibility = Subclass CL10.**
 - Equipment Mastery grants donor Relic access.
 - Ordinary donor equipment is learned earlier through the Subclass progression.
-- Legacy access remains later than Relic access and is tied to full completion / Synthesis rather than Equipment Mastery alone.
+- **Synthesis requires Base CL13 + Subclass CL13 + all eight prior Mastery nodes + authored resolution + 1 MP.**
+- Synthesis is individually purchased and persistent.
+- Synthesis grants one character-specific integration effect plus paired Legacy eligibility.
+- Legacy access remains later than Relic access and tied to full completion / Synthesis.
