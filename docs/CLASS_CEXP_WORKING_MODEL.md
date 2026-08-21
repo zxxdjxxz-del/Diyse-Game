@@ -214,15 +214,25 @@ Because only the selected class receives CEXP, the model intentionally creates d
 
 Class completion is therefore a player-priority result rather than an automatic consequence of character level.
 
-## 13. Reserve-party CEXP — still to lock
+## 13. Reserve-party CEXP — current working decision
 
-The current model assumes the character participates in the game's full-roster progression economy, but the exact reserve-party Class EXP rule still needs an explicit lock.
+**All recruited permanent party members receive 100% of awarded CEXP for their own currently selected class, whether active or in reserve.**
 
-The preferred balance direction should be tested before canon promotion:
-- active and reserve permanent members may need equal selected-class CEXP to prevent benching from permanently damaging class progression;
-- if reserves receive reduced CEXP instead, the reduction must be small enough that late-game party rotation remains viable.
+This rule is separate from which class receives the CEXP:
+- the character's **selected Base or Subclass Focus** receives the full CEXP reward;
+- the unselected class receives **0 CEXP**;
+- being one of the four active combatants is **not** required for CEXP;
+- being benched does not reduce the reward;
+- unrecruited characters do not accumulate CEXP offscreen and instead join at their authored starting Base CL / threshold;
+- temporary/guest allies do not enter the permanent class-progression economy unless separately authored.
 
-Do not lock this from assumption alone.
+Design reasons:
+- the permanent roster has six characters but only four active battle slots;
+- reduced reserve CEXP would punish normal rotation and encourage keeping the same four characters active merely to protect class progression;
+- reciprocal training is meant to create build choice, not a benching tax;
+- full reserve CEXP keeps the meaningful decision on **which class each character is training**, rather than whether the character happened to be active for a specific battle.
+
+This does **not** make both class lines advance together. A reserve character still trains only the class currently selected for that character.
 
 ## 14. Mastery interaction — not yet reconciled
 
@@ -235,6 +245,6 @@ The old Synthesis prerequisite of both classes at CL12 must be reconsidered for 
 1. inspect final Light / Standard / Heavy formation weights and turn the chapter averages into exact tier rewards;
 2. assign exact CEXP to mandatory authored battles while preserving each chapter budget;
 3. assign Regional Hunt and Major Hunt CEXP;
-4. lock reserve-party CEXP treatment;
-5. simulate Base-focused, Subclass-focused, 50/50, and optional-heavy paths with exact encounter data;
+4. simulate Base-focused, Subclass-focused, 50/50, and optional-heavy paths with exact encounter data;
+5. reconcile the Mastery / Relic / Legacy progression against CL13;
 6. only then promote the CEXP model into master canon.
