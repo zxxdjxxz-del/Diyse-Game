@@ -10,6 +10,8 @@ This file models Class EXP pacing for the proposed **Base CL1–13 / Subclass CL
 
 Class EXP remains separate from Character EXP. The currently selected class receives CEXP; the unselected class receives none. Before the Sixfold Accord only Base Focus exists.
 
+The chapter encounter counts used below are the current Audit98/Audit99 expected mandatory-route random-encounter references. They are **not fixed quotas**. The model uses them only to prove pacing mathematically.
+
 ## 2. Proposed shared CL13 threshold curve
 
 Use the same cumulative threshold curve for Base and Subclass unless later testing demonstrates a need to separate them.
@@ -34,7 +36,6 @@ Design reasons:
 - 6,000 is long enough to spread a fresh Subclass across the post-Accord campaign.
 - Early levels are deliberately less compressed than the retired 4,800-CEXP CL12 implementation table, so donor equipment learned by CL5 does not all arrive after only a handful of fights.
 - Late levels deliberately lengthen so Trait III and the Ultimate remain meaningful late-campaign goals.
-- Exact encounter CEXP rewards are not yet locked and must be calibrated against Audit99's actual encounter counts.
 
 ## 3. Base learning schedule paired to the curve
 
@@ -80,50 +81,160 @@ When a character joins above CL1, begin them exactly at the threshold for their 
 
 Seyrik CL8 is an explicit current design decision. He therefore reaches CL9 / Call Shardfang through player-controlled growth after recruitment rather than arriving with it.
 
-## 6. Target natural progression windows
+## 6. Ordinary random-encounter CEXP target by chapter
 
-These are pacing targets, not hard character-level gates.
+The following values are **expected average CEXP per ordinary random-encounter victory** for a character whose currently selected class receives CEXP.
 
-### Base line before/around the Accord
+They are not intended to make every Light / Standard / Heavy formation award exactly the same number. Implementation may split each chapter target into Light / Standard / Heavy rewards, provided the weighted average stays close to the chapter target.
 
-For Cyanis/Ilyra and other characters with substantial pre-Accord availability, target roughly:
-- early Ch1: CL1;
-- Ch2: CL3–4 neighborhood;
-- Ch3: CL5–6 neighborhood;
-- Ch4: CL7–8 neighborhood;
-- Ch5: CL9–10 neighborhood;
-- Ch6 / approach to Accord: CL10–12 neighborhood;
-- Base CL13: normally earned during Ch7–8 if the player continues Base Focus after Subclasses unlock.
+| Chapter | Expected ordinary random encounters | Target average CEXP / victory | Expected ordinary CEXP |
+|---:|---:|---:|---:|
+| Ch1 | 18 | 20 | 360 |
+| Ch2 | 19 | 24 | 456 |
+| Ch3 | 19 | 28 | 532 |
+| Ch4 | 19 | 32 | 608 |
+| Ch5 | 20 | 36 | 720 |
+| Ch6 | 19 | 40 | 760 |
+| Ch7 | 19 | 42 | 798 |
+| Ch8 | 18 | 45 | 810 |
+| Ch9 | 16 | 48 | 768 |
+| Ch10 | 17 | 52 | 884 |
+| Ch11 | 18 | 56 | 1,008 |
+| Ch12 | 8 | 60 | 480 |
 
-This intentionally prevents the Sixfold Accord from automatically meaning “Base class finished.”
+Expected ordinary-random totals under the current encounter-count reference:
+- **Ch1–6:** 3,436 CEXP;
+- **Ch7–12:** 4,748 CEXP;
+- **Ch1–12:** 8,184 CEXP.
 
-### Fresh Subclass after the Accord
+This is intentionally not enough by itself to take a fresh post-Accord Subclass from CL1 to CL13. Significant authored combat supplies the remaining campaign CEXP, so bosses and major story battles matter to class growth without ordinary encounters becoming trivial.
 
-A character who selects and mostly maintains Subclass Focus should target roughly:
-- Ch7: foundational CL1–5 development, including donor equipment package by CL5;
-- Ch8: around CL6–7;
-- Ch9: around CL7–8;
-- Ch10: around CL9–10;
-- Ch11: around CL10–12;
-- Ch12 / campaign-only Level ~55 finish: CL13 Ultimate.
+## 7. Mandatory authored-combat CEXP budget by chapter
 
-Optional/Hunt-heavy play may reach milestones earlier. Frequent Base/Subclass switching delays the selected line naturally. Levels 56–60 remain useful completion space for players finishing both class lines.
+For pacing proof, use the following **chapter-level authored-combat budgets**. These are not one mandatory lump-sum reward and are not a hard count of bosses. The chapter's actual Elites, minibosses, story bosses, and other authored victories should divide the budget among themselves.
 
-## 7. Required CEXP reward calibration
+| Chapter | Authored-combat CEXP budget |
+|---:|---:|
+| Ch1 | 90 |
+| Ch2 | 100 |
+| Ch3 | 110 |
+| Ch4 | 120 |
+| Ch5 | 140 |
+| Ch6 | 160 |
+| Ch7 | 180 |
+| Ch8 | 190 |
+| Ch9 | 200 |
+| Ch10 | 220 |
+| Ch11 | 250 |
+| Ch12 | 220 |
 
-Do not copy Character EXP values into CEXP. CEXP should use compact authored rewards appropriate to class progression.
+Suggested per-victory hierarchy inside a chapter budget:
+- authored tough battle / named formation: lowest share;
+- Elite / miniboss: medium share;
+- story boss: high share;
+- chapter climax / major mandatory boss: highest share.
 
-Next numerical pass must derive:
-1. ordinary random-encounter CEXP bands by campaign stage;
-2. Elite/miniboss CEXP multipliers;
-3. story-boss CEXP values;
-4. Hunt and Major Hunt CEXP values;
-5. whether reserves receive the same selected-class CEXP as active members under the current full-roster progression rule;
-6. simulations for a Base-focused, Subclass-focused, 50/50 split, and optional-heavy player;
-7. proof that Subclass CL13 lands near the Level ~55 campaign finish for a predominantly Subclass-focused character rather than far earlier.
+Exact individual fight values wait for the chapter-by-chapter combat audit. The chapter total is what matters for this pacing model.
 
-## 8. Mastery interaction — not yet reconciled
+## 8. Base-line pacing proof for an early recruit
+
+Assume an early recruit begins Base CL1 and keeps Base Focus throughout Chapters 1–6. Combining expected ordinary random CEXP with the authored-combat budget gives:
+
+| End of chapter | Chapter CEXP | Cumulative Base CEXP | Resulting neighborhood |
+|---:|---:|---:|---|
+| Ch1 | 450 | 450 | CL3 |
+| Ch2 | 556 | 1,006 | CL5 |
+| Ch3 | 642 | 1,648 | CL6 |
+| Ch4 | 728 | 2,376 | CL8 |
+| Ch5 | 860 | 3,236 | CL9 |
+| Ch6 | 920 | **4,156** | **CL11** |
+
+This is the intended pre-Accord result: an early recruit is highly developed but **not finished** when Subclasses arrive.
+
+If that character ignores the new Subclass and continues Base Focus:
+- Ch7 expected gain = 978 → total 5,134 → CL12;
+- only 866 more CEXP is needed for Base CL13;
+- Base Ultimate therefore lands naturally during Ch8 rather than before the Accord.
+
+## 9. Fresh post-Accord Subclass pacing proof
+
+Assume a fresh Subclass begins at CL1 at the start of Ch7 and the character keeps Subclass Focus for essentially all mandatory-route combat.
+
+| End of chapter | Chapter CEXP | Cumulative Subclass CEXP | Resulting class level / milestone |
+|---:|---:|---:|---|
+| Ch7 | 978 | **978** | **CL5** — donor advanced-equipment milestone reached |
+| Ch8 | 1,000 | **1,978** | **CL7** — Ability 3 online |
+| Ch9 | 968 | **2,946** | **CL9** — Ability 4 online |
+| Ch10 | 1,104 | **4,050** | CL10, just short of Ability 5 |
+| Ch11 | 1,258 | **5,308** | **CL12** — Trait III online |
+| Ch12 | 700 | **6,008** | **CL13** — Subclass Ultimate |
+
+This is the strongest current proof that **CL13 is enough to last to approximately character Level 55**:
+- the donor equipment package becomes usable during Ch7 rather than instantly;
+- Ability 3 arrives in Ch8;
+- Ability 4 arrives in Ch9;
+- Ability 5 arrives early in Ch11 rather than too soon;
+- Trait III arrives by late Ch11;
+- the Subclass Ultimate lands naturally in Ch12 around the campaign-only Level ~55 finish.
+
+The 8-CEXP overrun is intentional rounding noise and does not justify changing the 6,000 threshold.
+
+## 10. Light / Standard / Heavy implementation rule — provisional
+
+Do **not** hardcode the chapter target in Section 6 as the reward for every formation.
+
+Preferred implementation principle:
+- Light formations award below the chapter target;
+- Standard formations sit near the chapter target;
+- Heavy formations award above the chapter target;
+- the actual local formation weights should be normalized so expected CEXP per random victory remains close to the chapter target.
+
+Exact Light / Standard / Heavy values should be derived only after the final formation weights are inspected. This avoids accidentally inflating CEXP because a chapter happens to use more Heavy formations.
+
+## 11. Elite / boss / Hunt reward bands — provisional direction
+
+Individual authored rewards should remain compact. Do not copy Character EXP values into CEXP.
+
+Working qualitative hierarchy:
+- named/tough authored encounter < Elite/miniboss < story boss < chapter climax;
+- Regional Hunt should be a meaningful optional CEXP injection but should not trivialize several Class Levels by itself;
+- Major Hunt should award more than a Regional Hunt and can accelerate completion for optional-heavy players;
+- optional route combat to a Hunt also contributes normal selected-class CEXP.
+
+Exact numeric Hunt and boss tables remain pending because they should be fit to the actual number of authored fights and optional battle routes rather than invented in isolation.
+
+## 12. Split-Focus behavior
+
+Because only the selected class receives CEXP, the model intentionally creates different outcomes:
+
+- **Base-focused after Accord:** finishes Base CL13 during Ch8, then can begin Subclass afterward.
+- **Subclass-focused after Accord:** reaches Subclass CL13 around the Ch12 / Level ~55 campaign finish.
+- **50/50 Base/Subclass split:** neither line is expected to finish as early; optional combat and Levels 56–60 become useful completion space.
+- **Optional/Hunt-heavy:** may complete one line earlier and has enough additional combat to make finishing both lines realistic without requiring a separate postgame leveling campaign.
+
+Class completion is therefore a player-priority result rather than an automatic consequence of character level.
+
+## 13. Reserve-party CEXP — still to lock
+
+The current model assumes the character participates in the game's full-roster progression economy, but the exact reserve-party Class EXP rule still needs an explicit lock.
+
+The preferred balance direction should be tested before canon promotion:
+- active and reserve permanent members may need equal selected-class CEXP to prevent benching from permanently damaging class progression;
+- if reserves receive reduced CEXP instead, the reduction must be small enough that late-game party rotation remains viable.
+
+Do not lock this from assumption alone.
+
+## 14. Mastery interaction — not yet reconciled
 
 This CEXP model does not move Equipment Mastery onto ordinary class levels. Mastery Points and the four Core / four Subclass / one Synthesis architecture remain a separate system until explicitly revised.
 
 The old Synthesis prerequisite of both classes at CL12 must be reconsidered for the new CL13 cap. Do not automatically convert that requirement without a dedicated mastery pass.
+
+## 15. Next numerical pass
+
+1. inspect final Light / Standard / Heavy formation weights and turn the chapter averages into exact tier rewards;
+2. assign exact CEXP to mandatory authored battles while preserving each chapter budget;
+3. assign Regional Hunt and Major Hunt CEXP;
+4. lock reserve-party CEXP treatment;
+5. simulate Base-focused, Subclass-focused, 50/50, and optional-heavy paths with exact encounter data;
+6. only then promote the CEXP model into master canon.
