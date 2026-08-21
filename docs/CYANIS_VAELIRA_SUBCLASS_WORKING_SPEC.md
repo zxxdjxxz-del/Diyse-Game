@@ -23,7 +23,16 @@
 | **CL10** | Equipment Mastery becomes eligible; purchasing it unlocks the Green Arcanist donor **Relic**. |
 | Synthesis | Later paired Legacy access under the final Synthesis rule. |
 
-## 3. Approved selected-Subclass stat package
+## 3. Approved weapon / ability legality
+
+Crest Arcanist abilities are **weapon-independent once learned** unless an individual ability explicitly says otherwise.
+
+- **Arcane Staff is not required** to use Crest Arcanist spells.
+- Legal Sword, Sword + Shield, dual-Sword, Arcane Staff, and Arcane Staff + Focus configurations do not alter an ability's authored formula unless the ability explicitly establishes a loadout branch.
+- Crest Arcanist abilities do not inherit the equipped weapon's ordinary Attack hit pattern.
+- Donor equipment therefore expands Cyanis's build options without turning Arcane Staff into a hidden key for using the Subclass kit.
+
+## 4. Approved selected-Subclass stat package
 
 - **MP +10%**
 - **Magic +10%**
@@ -32,7 +41,7 @@
 
 Crest Arcanist is a deliberate magical specialization rather than a neutral upgrade to Crest Knight.
 
-## 4. Approved Trait — Crest Resonance
+## 5. Approved Trait — Crest Resonance
 
 ### Rank I — CL1
 The first MP-costing **Spell-tagged Crest ability** Cyanis uses each round costs **2 less MP**, minimum 1 MP.
@@ -45,7 +54,7 @@ Cyanis-authored Crest Fields and Seals with durations last **+1 round**, up to t
 
 For **Crest Dominion**, the perfected Crest Field has a base duration of 3 rounds and an approved maximum of 4 rounds, so Rank III extends it to 4 rounds while Crest Arcanist is selected.
 
-## 5. Approved five normal abilities
+## 6. Approved five normal abilities
 
 ### CL1 — Arcane Lance
 **16 MP · one enemy · 220 Colorless Magical Power · 25% Spirit penetration**
@@ -92,7 +101,7 @@ After damage:
 - Does not copy Core Element Array / Shaping Element Array status riders.
 - Because the attack is elemental rather than Colorless, Crest Resonance Rank II does not add its extra 15% Spirit penetration.
 
-## 6. Approved Ultimate — Crest Dominion
+## 7. Approved Ultimate — Crest Dominion
 
 **All enemies · 330 Colorless Magical Power · 35% Spirit penetration**
 
@@ -111,7 +120,7 @@ Approved Trait interactions while Crest Arcanist is selected:
 
 Crest Dominion does not add a generic cleanse, broad Defense/Spirit Up package, Imprint, or Elemental Field.
 
-## 7. Approved Subclass Mastery nodes
+## 8. Approved Subclass Mastery nodes
 
 Each costs 1 MP under the inherited nine-point Mastery economy.
 
@@ -124,7 +133,7 @@ Each costs 1 MP under the inherited nine-point Mastery economy.
 
 The Mastery board does not add another duration increase because Crest Resonance Rank III already owns Field/Seal duration extension.
 
-## 8. Approved naming set
+## 9. Approved naming set
 
 - Trait: **Crest Resonance**
 - CL1: **Arcane Lance**
@@ -141,7 +150,13 @@ The Mastery board does not add another duration increase because Crest Resonance
 
 Superseded geometry-heavy labels include `Geometric Authority`, `Geometric Lance`, `Reinforced Preparation`, `Crest Lattice`, `Pattern Collapse`, `Sixfold Refraction`, `Prismatic Theorem`, and `Perfect Geometry`.
 
-## 9. Remaining open work
+## 10. Cross-balance status
+
+The August 21 six-Subclass cross-balance pass made **no raw Power/stat changes** to Crest Arcanist. Arcane Lance's unusually high CL1 Power remains intentional because it also carries the highest ordinary CL1 MP cost among the six current Subclasses and establishes Cyanis as the overt magical-specialist recipient.
+
+Percentage direct-damage reduction in Warding Crest / Dominion Crest Field does not establish additive stacking with unrelated DR effects; final stacking follows the later normalized global combat-modifier rule.
+
+## 11. Remaining open work
 
 The Crest Arcanist package above is approved at the class-rework level. Remaining work is downstream implementation/promotion work:
 - final runtime data implementation and regression tests;
