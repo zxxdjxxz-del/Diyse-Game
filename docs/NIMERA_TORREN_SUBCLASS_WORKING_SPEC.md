@@ -136,11 +136,11 @@ Nimera's Base information mechanics remain useful without becoming mandatory. Di
 
 ## 9. Name status
 
-No final Subclass name is locked.
+No final Subclass name is master-canon locked yet.
 
-**Leading working name:** `Proof Archer`.
+**Leading working name: `Truthshot`.**
 
-Other prior placeholders such as `Pattern Archer` and `Threadshot` remain non-canon. Final naming should happen after the mechanic package is approved.
+The name is intended to read as Nimera-specific rather than as a generic precision-archer label: she gathers information, rejects bad assumptions, identifies what is actually true about the target, and turns that conclusion into the shot. `Trueshot`, `Proof Archer`, `Pattern Archer`, and `Threadshot` remain earlier non-canon alternatives unless explicitly restored.
 
 ## 10. Open balance checks before promotion
 
