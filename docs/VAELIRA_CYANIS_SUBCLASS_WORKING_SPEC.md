@@ -191,9 +191,13 @@ Examples:
 
 No final subclass name is locked.
 
-Avoid treating the retired `Prism Archer` name as a constraint. The final name should communicate Vaelira's personality and the fact that she has integrated disciplined Crest fighting into her own precise elemental worldview.
+**Leading working name: `Theoryblade`.**
 
-Working mechanic labels such as `Prism Edge`, `Crested Advance`, `Refracted Counter`, `Prismatic Rend`, `Crest Form`, `Prismatic Discipline`, and `Prism Bastion` are also provisional and may be renamed independently of the mechanics.
+Theoryblade fits Vaelira's identity especially well because it frames the subclass as her taking a disciplined martial tradition and treating it the way she treats elemental magic: as a structure to understand, test, refine, and then apply precisely in combat. `Blade` preserves the unmistakable Cyanis-derived martial influence without implying that Sword use replaces her native Arcane Staff identity.
+
+Prior candidates such as `Prismblade` and `Facetblade` remain non-canon alternatives only.
+
+Working mechanic labels such as `Prism Edge`, `Crested Advance`, `Refracted Counter`, `Prismatic Rend`, `Crest Form`, `Prismatic Discipline`, and `Prism Bastion` are also provisional and may be renamed independently of the subclass.
 
 ## 10. Open balance checks before promotion
 
