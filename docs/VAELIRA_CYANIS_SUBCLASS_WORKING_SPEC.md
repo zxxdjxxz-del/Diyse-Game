@@ -1,209 +1,189 @@
 # Diyse — Vaelira ← Cyanis Subclass Working Spec
 
-**Status:** ACTIVE WORKING DESIGN — NOT MASTER CANON  
+**Status:** APPROVED CLASS-REWORK DESIGN — NOT YET MASTER CANON  
 **Parent trackers:** `docs/CLASS_REWORK_MASTER_TRACKER.md`, `docs/CLASS_CEXP_WORKING_MODEL.md`, `docs/CLASS_MASTERY_WORKING_MODEL.md`  
-**Authority boundary:** v1.84 / Audit99 plus newer explicit class-rework decisions. This file replaces the old Torren-derived Prism Archer direction for Vaelira as the active working redesign. Explicitly approved decisions are marked separately from provisional numbers/effects so working proposals are not accidentally promoted as settled canon.
+**Authority boundary:** v1.84 / Audit99 plus newer explicit class-rework decisions. On August 21, 2026 the user explicitly approved the class-rework proposals that had previously been advanced under “Let’s continue.” Where an older provisional draft conflicts with a later refinement, the latest refinement below controls.
 
-## 1. Design identity
+## 1. Approved identity
 
-Vaelira learns Cyanis's actual Crest Knight discipline rather than receiving another ranged or generic spellblade kit. The subclass should feel like a Green Arcanist who has learned how Cyanis turns restraint, self-protection, counterpressure, and precise martial commitment into a complete fighting style.
+- **Subclass name: Axiomblade.**
+- **Character/class pairing:** **Vaelira — Green Arcanist / Axiomblade**.
+- Vaelira learns Cyanis's Crest Knight martial discipline without becoming a second Cyanis.
+- No ordinary ally-intercept role.
+- The CL4 normal ability is an **attack**.
+- Damaging Axiomblade techniques support both learned **Swords** and Vaelira's native **Arcane Staffs**.
+- **Staff + Focus** and **Staff + Shield** are supported advanced expressions.
+- The subclass uses no new personal gauge, bespoke resource, or invented mark.
 
-The reciprocal contrast is intentional:
-- Cyanis learns Vaelira's overt magical geometry in his preserve-first magical subclass;
-- Vaelira learns Cyanis's martial Crest discipline here.
+The core reciprocal contrast is intentional: Cyanis learns Vaelira's overt magical/elemental discipline through Crest Arcanist, while Vaelira learns Cyanis's disciplined martial Crest logic through Axiomblade.
 
-The subclass should remain recognizably Vaelira. Her elemental knowledge is not erased; instead, her existing standard-element actions can feed the martial subclass through established element and Imprint rules. No new personal gauge, meter, or bespoke mark is introduced.
+## 2. Approved equipment progression
 
-Core Cyanis-derived language to preserve:
-- weapon-based martial offense built around both her native Arcane Staffs and learned Swords;
-- disciplined self-protection expressed through offensive momentum rather than ally interception;
-- one prepared counter technique rather than a defensive subclass identity;
-- flexible offense/defense;
-- penetration against defended targets;
-- equipment expression through Shield, Focus, or second Sword where legal;
-- formation-minded protection at the Ultimate tier without copying Cyanis's full support package.
-
-### Explicitly approved decisions
-
-The following are current explicit design approvals and should not be reopened as ordinary working proposals unless the user asks to revise them:
-
-- **Subclass name: Axiomblade.** This replaces the Theoryblade / Prismblade / Facetblade placeholders.
-- Vaelira should **not** receive a normal ally-intercept role from Cyanis.
-- Her **CL4 normal ability is an attack**, not a guard or other purely defensive action.
-- Her advanced subclass attack must continue to work with her native **Arcane Staff** loadouts rather than forcing her into a Sword-only endpoint.
-- **Staff + Focus** and **Staff + Shield** are supported advanced-loadout expressions.
-- These approvals establish role/loadout architecture only; exact Power, MP costs, durations, penetration values, and secondary effects remain working balance values unless separately approved.
-
-## 2. Equipment progression
-
-A donor passes the donor Base tradition's complete legal ordinary equipment package. Staging is by Subclass CL, not cherry-picking.
+A donor passes the donor Base tradition's complete legal ordinary equipment package, staged by Subclass CL.
 
 | Subclass CL | Equipment result |
 |---:|---|
 | **CL1** | Gain legal use of Cyanis's **Sword** family. |
 | **CL3** | Gain legal use of **Crest Knight armor**. |
-| **CL5** | Gain the full legal Crest Knight Secondary package: **Shield access** plus Cyanis's native advanced permission to equip a **second Sword in Secondary**. |
-| **CL10** | Equipment Mastery becomes eligible. Buying Subclass Mastery Node 4 grants access to the Crest Knight donor **Relic**. |
+| **CL5** | Gain the complete legal Crest Knight Secondary package: **Shield** plus Cyanis's advanced permission to equip a **second Sword in Secondary**. |
+| **CL10** | Equipment Mastery becomes eligible; purchasing it unlocks the Crest Knight donor **Relic**. |
 | Synthesis | Later paired Legacy access under the final Synthesis rule. |
 
-Once learned, these equipment permissions persist under the game's open-equipment rule. Vaelira's native Arcane Staff and Focus permissions also remain available; cross-training expands her legal loadouts rather than replacing her Base equipment identity.
+Vaelira's native Arcane Staff and Focus permissions remain legal under open equipment.
 
-## 3. Working selected-Subclass stat package
+## 3. Approved selected-Subclass stat package
 
-**PROVISIONAL — not yet explicitly approved:**
-- HP +8%
-- Attack +8%
-- Defense +8%
-- Magic -6%
+- **HP +6%**
+- **Attack +6%**
+- **Magic +6%**
+- **Defense +8%**
+- **Speed -6%**
+- Spirit neutral
 
-Intent: Vaelira becomes materially tougher and more martial while selected into Axiomblade, but her Base Green Arcanist magic remains available under persistent-ability rules. The Magic tradeoff prevents the subclass from simply being “Green Arcanist plus heavy armor.”
+Intent: Axiomblade is genuinely martial and tougher than Green Arcanist while remaining fully compatible with Staff-based magical expressions. The old `HP +8 / Attack +8 / Defense +8 / Magic -6` draft is superseded.
 
-## 4. Trait — Prismatic Discipline *(working name)*
+## 4. Approved weapon-expression rule
 
-**MECHANICS PROVISIONAL unless separately marked approved.**
+For every damaging Axiomblade technique unless the ability explicitly establishes a special loadout branch:
 
-The Trait bridges Vaelira's established elemental knowledge into Cyanis-derived martial discipline without creating a new combat resource.
+- **Sword expression:** Physical damage against **Defense**.
+- **Arcane Staff expression:** Magical damage against **Spirit**.
+- Damage element is a separate property from Physical/Magical formula.
+- With no elemental bridge active, Sword expressions remain neutral Physical and Staff expressions remain Colorless Magical.
+- Shield, Focus, and second-Sword choices modify an ability only where that ability explicitly contains a loadout branch.
+
+The ability does not inherit the equipped weapon's ordinary Attack hit pattern unless explicitly authored to do so.
+
+## 5. Approved Trait — Formal Equivalence
 
 ### Rank I — CL1
-When Vaelira has dealt damage with one of the six standard elements, her **next damaging ability from this subclass before the end of the following round may use that same element instead of Physical**. If there is no qualifying recent standard element, a Sword-based subclass ability remains Physical; authored Staff expressions may retain their stated Magical basis.
+When Vaelira deals damage with one of the six standard elements, that element becomes her **current expression** through the end of the following round.
 
-- This does not create an Imprint by itself unless the ability separately says so.
-- It does not count as Prism Cycle and does not bypass normal element restrictions.
-- The game may track the most recent eligible element internally; it is not a player-facing gauge.
+Her next damaging Axiomblade ability during that window uses that element and consumes the current expression. A newer qualifying standard-element hit replaces the older stored expression.
+
+- This is internal state, not a personal gauge; the UI may show a small elemental indicator.
+- It does not create an Imprint by itself.
+- It does not trigger a Composite Reaction by itself.
+- Weapon formula remains Sword = Physical / Staff = Magical.
+- **Prism Cycle precedence:** when Prism Cycle is active and compatible, Prism Cycle determines the element first. Formal Equivalence fills in only when Prism Cycle does not already determine the action's element.
 
 ### Rank II — CL6
-After **Crested Advance resolves** or **Refracted Counter resolves**, Vaelira's next damaging subclass ability gains **+10% Power**.
+After **Proven Advance resolves** or **Counterproof triggers**, Vaelira's next damaging Axiomblade ability before the end of the following round gains **+10% Power**.
 
 ### Rank III — CL12
-When a damaging subclass ability is using a standard element through Rank I and hits a target carrying the **matching existing Imprint**, that ability gains **15% Defense penetration**.
+When an Axiomblade attack is elementalized through Formal Equivalence and hits a target carrying the matching existing Imprint, it gains **15% relevant-defense penetration**:
+- Sword expression → Defense penetration;
+- Staff expression → Spirit penetration.
 
-The matching Imprint is not consumed.
+The Imprint is not consumed.
 
-## 5. Five normal abilities
+## 6. Approved five normal abilities
 
-### CL1 — Prism Edge *(working name)*
-**Working numbers:** 150 Physical Power; 6 MP; single target.
+### CL1 — First Principle
+**6 MP · one enemy · 150 Power**
 
-- Sword technique.
-- Uses Physical damage by default.
-- May adopt Vaelira's most recent eligible standard element through Prismatic Discipline Rank I.
-- Does not itself apply an Imprint.
+- Sword: **150 Physical**.
+- Staff: **150 Magical**.
+- May consume Formal Equivalence's current expression.
+- No Imprint, buff, penetration, or extra status rider.
 
-Purpose: establishes that Vaelira is genuinely learning to fight with a Sword rather than casting a spell that happens to look like one.
+### CL4 — Proven Advance
+**8 MP · one enemy · 165 Power**
 
-### CL4 — Crested Advance *(working name)*
+- Sword: **165 Physical**.
+- Staff: **165 Magical**.
+- May consume Formal Equivalence's current expression.
+- After damage resolves, Vaelira gains **Minor Defense Up + Minor Spirit Up for 2 rounds**.
+- No Elemental Guard rider.
+- No redirect, ally intercept, or Prepared effect.
 
-**APPROVED ROLE:** CL4 is a direct attack.  
-**Working numbers/effects:** 165 Physical Power; 8 MP; single target.
+This supersedes the older `Crested Advance` version that added a matching Elemental Guard.
 
-- Direct Sword attack.
-- May adopt Vaelira's most recent eligible standard element through Prismatic Discipline Rank I.
-- After damage resolves, Vaelira gains **Minor Defense Up and Minor Spirit Up for 2 rounds**.
-- If the attack is elementalized through Prismatic Discipline, Vaelira additionally gains the matching established **Elemental Guard through the end of the following round**.
-- Does not redirect enemy actions, intercept for allies, or arm a Prepared effect.
+### CL7 — Counterproof
+**9 MP · one enemy · 145 Power · +15 Base Hit · Prepared self-counter**
 
-Purpose: Vaelira translates Cyanis's defensive discipline into forward pressure. She reinforces her own position by attacking cleanly and settling into a stronger guard after the strike rather than spending a turn on a passive defensive action.
-
-### CL7 — Refracted Counter *(working name)*
-**Working numbers:** 150 Physical Power; 9 MP; prepared self-response; **+15 Base Hit**.
-
-- Prepares one counter against the next eligible single-target hostile action that resolves against Vaelira.
+- Arms one response against the next eligible single-target hostile action that resolves against Vaelira.
 - After that hostile action resolves, Vaelira counters the attacker.
-- The counter may adopt the most recent eligible standard element through Prismatic Discipline Rank I.
-- Does not reduce the incoming damage and grants no defensive status by itself.
+- Sword: **145 Physical**.
+- Staff: **145 Magical**.
+- The counter may consume Formal Equivalence's current expression.
+- No incoming-damage reduction, self-buff, ally intercept, or AoE trigger.
 - Obeys the global one-armed Prepared-effect limit.
 
-Purpose: this is the one true reactive technique in the normal subclass kit. Vaelira learns Cyanis's Resolute Counter timing, but her lower raw Power keeps Cyanis the stronger native counterfighter while her elementalization gives the technique a Vaelira-specific expression.
+### CL9 — Axiom Rend
+**13 MP · one enemy · 225 Power · 30% relevant-defense penetration**
 
-### CL9 — Prismatic Rend *(working name)*
-**Working numbers:** 235 Physical Power; 14 MP; single target; **30% Defense penetration**.
-
-- May adopt the most recent eligible standard element through Prismatic Discipline Rank I.
-- If it is elementalized and the target has the matching Imprint, gains an additional **+10% final damage**.
+- Sword: **225 Physical**, 30% Defense penetration.
+- Staff: **225 Magical**, 30% Spirit penetration.
+- May consume Formal Equivalence's current expression.
+- If elementalized and the target carries the matching existing Imprint, gains **+10% final damage**.
 - Does not consume the Imprint.
 
-Purpose: direct descendant of Crest Rend, with Vaelira using elemental knowledge to choose the exact line through an already-understood defense.
+### CL11 — Equivalent Form
+**16 MP · one enemy · requires a legal Sword or Arcane Staff in Weapon**
 
-### CL11 — Crest Form *(working name)*
-**Working numbers:** 16 MP; single target; requires either a legal **Sword** or **Arcane Staff** in the Weapon slot. Behavior changes with the actual Weapon + Secondary loadout.
-
-**APPROVED LOADOUT ARCHITECTURE:** Crest Form must support Vaelira's native Staff expressions, including **Staff + Focus** and **Staff + Shield**, as well as the learned Sword expressions. Exact numbers below remain provisional.
-
-| Loadout | Working Crest Form expression |
+| Loadout | Approved expression |
 |---|---|
-| **Sword only** | **200 Physical Power**; neutral balanced form. |
-| **Sword + Shield** | **190 Physical Power**; after resolving, Vaelira gains **15% direct-damage reduction through the end of the following round**. |
-| **Dual Swords** | Two hits × **110 Physical Power** = **220 total Power**. |
-| **Arcane Staff only** | **200 Magical Power**; neutral Staff form. Uses Vaelira's most recent eligible standard element if one exists, otherwise Colorless Magical. |
-| **Arcane Staff + Focus** | **205 Magical Power**; gains **20% Spirit penetration**. Uses Vaelira's most recent eligible standard element if one exists, otherwise Colorless Magical. |
-| **Arcane Staff + Shield** | **190 Magical Power**; after resolving, Vaelira gains **15% direct-damage reduction through the end of the following round**. Uses Vaelira's most recent eligible standard element if one exists, otherwise Colorless Magical. |
+| **Sword only** | **200 Physical Power**. |
+| **Sword + Shield** | **190 Physical Power**; after resolving, **15% direct-damage reduction through the end of the following round**. |
+| **Dual Swords** | **2 × 110 Physical Power = 220 total**. |
+| **Arcane Staff only** | **200 Magical Power**. |
+| **Arcane Staff + Focus** | **205 Magical Power**; **20% Spirit penetration**. |
+| **Arcane Staff + Shield** | **190 Magical Power**; after resolving, **15% direct-damage reduction through the end of the following round**. |
 
-Sword expressions may adopt Vaelira's most recent eligible standard element through Prismatic Discipline Rank I. Staff expressions already resolve as Magical and use the same recent-element bridge when available. The selected element applies to the complete authored action package.
+Formal Equivalence may elementalize any legal expression. With no current expression, Sword branches remain neutral Physical and Staff branches remain Colorless Magical.
 
-Purpose: Cyanis's flexible Crest Rush philosophy becomes Vaelira choosing the right fighting form for her real equipment. Sword loadouts emphasize learned martial technique; Staff loadouts show that she has integrated the same discipline into her native Green Arcanist weapon language. Shield favors resilience, second Sword favors repeated physical pressure, and Focus favors magical penetration.
+Equivalent Form adds no extra Imprint, Elemental Guard, Field, counter, or secondary status beyond its authored loadout branch.
 
-## 6. Ultimate — Prism Bastion *(working name)*
+## 7. Approved Ultimate — Final Axiom
 
-**PROVISIONAL WORKING PROPOSAL:** **320 Power to all enemies**; Vaelira chooses one of the six standard elements; Ultimate cost follows the final global Ultimate convention.
+**All enemies · 320 Power · player chooses one of the six standard elements**
 
-Weapon expression follows the same broad integration principle as Crest Form without reproducing all six of its loadout branches:
-- with a legal **Sword** equipped, Prism Bastion resolves as **320 Physical Power** of the chosen standard element;
-- with a legal **Arcane Staff** equipped, Prism Bastion resolves as **320 Magical Power** of the chosen standard element.
+- Sword equipped: **320 Physical** of the chosen element + **25% Defense penetration**.
+- Arcane Staff equipped: **320 Magical** of the chosen element + **25% Spirit penetration**.
+- All conscious permanent allies gain the matching established **Elemental Guard for 2 rounds**.
+- The chosen element is direct and does **not** depend on or consume Formal Equivalence's stored current expression.
+- Shield, Focus, and second-Sword choices do not create additional Ultimate branches.
+- No Imprint, Elemental Field, cleanse, broad Defense/Spirit buff package, ally intercept, or Composite Reaction is added.
 
-Additional working effects:
-- gains **20% penetration against the relevant defense**: Defense for the Sword expression, Spirit for the Staff expression;
-- all conscious permanent allies gain the matching established **Elemental Guard for 2 rounds**;
-- does **not** grant Major Defense Up or Major Spirit Up;
-- does **not** cleanse harmful effects;
-- does **not** automatically apply Imprints;
-- does **not** create an Elemental Field;
-- Shield, Focus, and second-Sword choices do not add further Ultimate branches. Those equipment-expression differences already belong to Crest Form.
-
-Purpose: Prism Bastion should not be a merger of Cyanis's **Crest of Companions** and Vaelira's **Arcanum Ascendant**. It represents Vaelira's own conclusion from Cyanis's lesson: strike through the enemy formation with disciplined force, then leave the party protected against the same element she has just brought under control.
-
-## 7. Subclass Mastery nodes — working redesign
-
-**PROVISIONAL except Equipment Mastery CL10, which is inherited from the explicit global Mastery decision.**
-
-| Node | Eligibility | Working effect |
-|---:|---:|---|
-| **Subclass 1 — Tempered Spectrum** | CL3 | Prism Edge gains +15 Power; when elementalized through Prismatic Discipline, it also gains +5 Base Hit. |
-| **Subclass 2 — Forward Geometry** | CL5 | Crested Advance gains +20 Power; when it grants Elemental Guard, that Guard lasts **1 additional round**. |
-| **Subclass 3 — Return Angle** | CL7 | Refracted Counter gains +20 Power; Prismatic Rend gains +10 Base Hit when attacking a target with a matching Imprint. |
-| **Subclass 4 — Equipment Mastery** | **CL10** | Unlocks legal use of the Crest Knight donor Relic. |
+## 8. Approved Subclass Mastery nodes
 
 Each costs 1 MP under the inherited nine-point Mastery economy.
 
-## 8. Interaction with Green Arcanist Base abilities
+| Node | Eligibility | Approved effect |
+|---:|---:|---|
+| **Subclass 1 — Foundational Proof** | CL3 | **First Principle +15 Power**; if it consumes Formal Equivalence's current expression, **+5 Base Hit**. |
+| **Subclass 2 — Proven Position** | CL5 | **Proven Advance +15 Power**; its Minor Defense Up and Minor Spirit Up last **+1 round**. |
+| **Subclass 3 — Exact Rebuttal** | CL7 | **Counterproof +20 Power**; **Axiom Rend +10 Base Hit** against a target carrying the matching existing Imprint. |
+| **Subclass 4 — Equipment Mastery** | **CL10** | Unlocks legal use of the Crest Knight donor **Relic**. |
 
-Because unlocked abilities persist across Focus selection, this subclass is designed to interact with Vaelira's established Base actions without copying them.
+## 9. Interaction with Green Arcanist Base abilities
 
-Examples:
-- Core Element Array / Shaping Element Array can establish the recent standard element used by Prismatic Discipline.
-- Existing Imprints can improve Prismatic Rend and Trait Rank III.
-- Prism Cycle remains its own Base ability and is not duplicated by this subclass.
-- Composite Surge remains the Base payoff for opposite-family elemental reactions; the subclass does not create a second Composite system.
-- Elemental Field remains Vaelira's Base battlefield-control tool.
-- Arcanum Ascendant remains her Base elemental-dominance Ultimate and is mechanically distinct from Prism Bastion.
-- Crest Form explicitly supports both her learned Sword configurations and her native Arcane Staff configurations, including Staff + Focus and Staff + Shield.
+- Core Element Array / Shaping Element Array can establish Formal Equivalence's current expression.
+- Prism Cycle has explicit precedence when it is active and compatible.
+- Existing Imprints can improve Axiom Rend and Formal Equivalence Rank III.
+- Composite Surge remains the Base payoff for opposite-family reactions; Axiomblade does not create a second Composite system.
+- Elemental Field remains a Green Arcanist Base battlefield-control tool.
+- Arcanum Ascendant remains Vaelira's Base elemental-dominance Ultimate and is distinct from Final Axiom.
 
-## 9. Subclass name — APPROVED
+## 10. Superseded working names
 
-**Axiomblade** is the chosen Vaelira ← Cyanis subclass name.
+The following older working labels are superseded by the approved names above:
+- Prismatic Discipline → **Formal Equivalence**
+- Prism Edge → **First Principle**
+- Crested Advance → **Proven Advance**
+- Refracted Counter → **Counterproof**
+- Prismatic Rend → **Axiom Rend**
+- Crest Form → **Equivalent Form**
+- Prism Bastion → **Final Axiom**
+- Tempered Spectrum → **Foundational Proof**
+- Forward Geometry → **Proven Position**
+- Return Angle → **Exact Rebuttal**
 
-**Character/class pairing:** **Vaelira — Green Arcanist / Axiomblade**.
+## 11. Remaining open work
 
-The name reflects Vaelira's tendency to understand underlying principles and then apply them precisely. She does not merely imitate Cyanis's techniques; she identifies the governing logic of Crest Knight discipline and expresses that logic through her own elemental knowledge and legal weapon forms.
-
-`Theoryblade`, `Prismblade`, and `Facetblade` are superseded naming candidates and should not be treated as active alternatives unless explicitly reopened.
-
-Working mechanic labels such as `Prism Edge`, `Crested Advance`, `Refracted Counter`, `Prismatic Rend`, `Crest Form`, `Prismatic Discipline`, and `Prism Bastion` remain provisional and may be renamed independently of the approved subclass name.
-
-## 10. Open balance checks before promotion
-
-- Compare all provisional Power / MP values directly against Cyanis's final Crest Knight numbers so Vaelira learns the discipline without eclipsing him at his own role.
-- Confirm whether Trait Rank I's internal “recent standard element” window should be current round + following round or a simpler last-damaging-element memory.
-- Confirm whether Crested Advance's provisional 165 Power plus Minor Defense/Spirit Up and optional Elemental Guard is the right CL4 strength; its role as an **attack is approved**.
-- Balance Crest Form's six loadout expressions against one another and against Cyanis's Crest Rush after final weapon stats are known; **Staff, Staff + Focus, and Staff + Shield support are approved architecture**.
-- Balance Prism Bastion's provisional **320 AoE Power / 20% relevant-defense penetration / party Elemental Guard** against Arcanum Ascendant and Crest of Companions.
-- Design Vaelira's Synthesis passive only after both directions of the Cyanis ⇄ Vaelira pair are stable.
+The Axiomblade class package above is approved at the class-rework level. Remaining work is downstream implementation/promotion work rather than ordinary redesign:
+- final runtime data implementation and regression tests;
+- equipment-stat balance against final production weapon values;
+- Cyanis/Vaelira Synthesis and paired Legacy resolution;
+- later promotion into the appropriate master-canon audit when the whole class-rework package is ready.
