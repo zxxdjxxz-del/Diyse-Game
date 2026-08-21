@@ -1,15 +1,15 @@
 # Diyse — Seyrik ← Ilyra Subclass Working Spec
 
-**Status:** APPROVED CLASS-REWORK PACKAGE — NAMING POLISH STILL OPEN  
+**Status:** APPROVED CLASS-REWORK PACKAGE — CLASS NAME LOCKED; OTHER NAMING POLISH STILL OPEN  
 **Parent trackers:** `docs/CLASS_REWORK_MASTER_TRACKER.md`, `docs/CLASS_CEXP_WORKING_MODEL.md`, `docs/CLASS_MASTERY_WORKING_MODEL.md`  
-**Authority boundary:** v1.84 / Audit99 plus newer explicit class-rework decisions. The user clarified that the class-rework material advanced under repeated “Let’s continue” responses is approved, with later refinements superseding earlier drafts. This file records the approved Ruin Reclaimer mechanics actually designed so far. Naming may still be polished without reopening the approved mechanical package.
+**Authority boundary:** v1.84 / Audit99 plus newer explicit class-rework decisions. The user clarified that the class-rework material advanced under repeated “Let’s continue” responses is approved, with later refinements superseding earlier drafts. This file records the approved Seyrik ← Ilyra mechanics and the later explicit class-name correction to **Ruin Warden**.
 
 ## 1. Approved identity
 
-- **Subclass:** Ruin Reclaimer.
-- **Character/class pairing:** **Seyrik — Ruin Vanguard / Ruin Reclaimer**.
-- Do not restore the retired `Ruin Healer` framing.
-- Ruin Reclaimer is Seyrik learning Ilyra's Blue Warden preservation discipline and expressing it through his existing Ruin logic: drain, transfer, reclamation, cleansing, protection, and eventually revival.
+- **Subclass: Ruin Warden.**
+- **Character/class pairing:** **Seyrik — Ruin Vanguard / Ruin Warden**.
+- **Ruin Warden explicitly supersedes the prior `Ruin Reclaimer` subclass name.** Do not restore `Ruin Reclaimer` or the retired `Ruin Healer` framing unless the user explicitly reopens them.
+- Ruin Warden is Seyrik learning Ilyra's Blue Warden preservation discipline and expressing it through his existing Ruin logic: drain, transfer, reclamation, cleansing, protection, and eventually revival.
 
 ## 2. Approved donor-equipment progression
 
@@ -31,7 +31,7 @@ Seyrik's native Two-Handed Sword permissions remain persistent under the open-eq
 - Spirit +6%
 - Speed -4%
 
-This keeps Ruin Reclaimer sturdier and more magically sustainable than Ruin Vanguard without turning it into a second Blue Warden.
+This keeps Ruin Warden sturdier and more magically sustainable than Ruin Vanguard without turning it into a second Blue Warden.
 
 ## 4. Approved Trait — Reclaimer's Mercy
 
@@ -42,7 +42,7 @@ When Seyrik receives eligible HP recovery from a **Drain** effect, a portion equ
 The shared portion increases from **15% → 25%**.
 
 ### Rank III — CL12
-Direct healing from Ruin Reclaimer abilities additionally grants the recipient **+10 Total Defense** under the inherited authored effect timing. This rank does not create a barrier or a new resource.
+Direct healing from Ruin Warden abilities additionally grants the recipient **+10 Total Defense** under the inherited authored effect timing. This rank does not create a barrier or a new resource.
 
 ## 5. Five normal abilities
 
@@ -89,7 +89,7 @@ After total eligible damage is resolved, healing equal to **12% of that total el
 - Grants **+20 Total Defense for 2 rounds**.
 - No revive is added to the Ultimate; Reclaimed Breath owns the subclass revival function.
 
-The Ultimate remains the subclass thesis: Seyrik converts overwhelming destructive force into party-wide reclamation and protection.
+The Ultimate remains the subclass thesis: Seyrik converts overwhelming destructive force into party-wide recovery and protection.
 
 ## 7. Approved Subclass Mastery
 
@@ -104,18 +104,24 @@ Each costs 1 MP under the inherited nine-point Mastery economy.
 
 ## 8. Approved role boundary
 
-- Ruin Reclaimer does not become `Ruin Healer` or simply copy Ilyra's Base kit.
-- Seyrik remains more conversion-oriented than Ilyra: damage becomes recovery, Drain becomes shared recovery, and reclamation/protection emerge from Ruin logic.
+- Ruin Warden does not become `Ruin Healer` or simply copy Ilyra's Base kit.
+- Seyrik remains more conversion-oriented than Ilyra: damage becomes recovery, Drain becomes shared recovery, and protection emerges from Ruin logic.
 - Ilyra remains the superior native pure healer/reviver; Reclaimed Breath returns at 25% Max HP versus Ilyra's stronger native revival value.
 - No new personal gauge, seventh damage element, or bespoke revival status is introduced.
 - Ability formulas are authored per ability and do not automatically inherit the equipped weapon's normal Attack hit pattern.
 
 ## 9. Naming status
 
-The mechanics above are approved. The current names are retained as active labels for continuity, but a dedicated naming-polish pass is still allowed without reopening mechanics. In particular, repeated `Reclaimer / Reclamation / Reclaimed / Mercy` language may be reduced if a stronger final vocabulary is chosen.
+**APPROVED / LOCKED:**
+- Subclass: **Ruin Warden**
+
+**Superseded subclass names:**
+- Ruin Reclaimer
+- Ruin Healer
+
+The mechanics above are approved. The current ability, Trait, and Mastery names remain active labels for continuity, but a dedicated naming-polish pass is still allowed without reopening mechanics or the approved **Ruin Warden** class name.
 
 Current labels:
-- Ruin Reclaimer
 - Reclaimer's Mercy
 - Siphon Rune
 - Stolen Grace
@@ -130,7 +136,7 @@ Current labels:
 
 ## 10. Remaining work
 
-- Complete the naming-polish pass.
+- Complete the ability/Trait/Mastery naming-polish pass without reopening **Ruin Warden**.
 - Audit weapon/loadout expression and HD-2D presentation after final names settle.
 - Reconcile any exact inherited timing wording that is still implementation-facing rather than player-facing.
-- Design the Ilyra/Seyrik Synthesis interaction only after both Vowblade and Ruin Reclaimer are fully stable.
+- Design the Ilyra/Seyrik Synthesis interaction only after both Vowblade and Ruin Warden are fully stable.
