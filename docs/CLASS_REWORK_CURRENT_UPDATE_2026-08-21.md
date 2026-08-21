@@ -14,7 +14,7 @@ The approval sweep currently covers the material actually designed for:
 - **Cyanis — Crest Knight / Crest Arcanist** — approved full current package;
 - **Vaelira — Green Arcanist / Axiomblade** — approved full current package;
 - **Ilyra — Blue Warden / Vowblade** — approved full current package;
-- **Seyrik — Ruin Vanguard / Ruin Warden** — approved mechanical CL13 package and explicitly locked subclass name; ability/Trait/Mastery naming polish remains open;
+- **Seyrik — Ruin Vanguard / Ruin Warden** — approved CL13 mechanical and naming package;
 - **Torren — War Archer / Routeweaver** — approved preserve-first identity/equipment/spine; CL11/final numerical rebase remains open rather than invented;
 - **Nimera — Cardweaver / Truthshot** — approved full current package.
 
@@ -200,7 +200,7 @@ Damaging Vowblade abilities use authored **50% Attack / 50% Spirit Hybrid** scal
 
 Detailed authority: `docs/ILYRA_SEYRIK_SUBCLASS_WORKING_SPEC.md`.
 
-### Seyrik ← Ilyra — APPROVED Ruin Warden mechanical package
+### Seyrik ← Ilyra — APPROVED Ruin Warden
 
 **Pairing:** **Seyrik — Ruin Vanguard / Ruin Warden**.  
 **Ruin Warden supersedes the prior Ruin Reclaimer name and the retired Ruin Healer framing.**  
@@ -212,18 +212,16 @@ Approved equipment:
 - CL5 Shield + legal Focus access;
 - CL10 Equipment Mastery → Blue Warden donor Relic.
 
-Approved current progression/mechanics:
-- Trait **Reclaimer's Mercy** *(current label; naming polish still open)* — Drain recovery sharing starts at 15%, rises to 25% at Rank II, and Rank III adds +10 Total Defense to direct Ruin Warden healing recipients under inherited timing;
+Approved progression/mechanics:
+- Trait **Ruin's Mercy** — Drain recovery sharing starts at 15%, rises to 25% at Rank II, and Rank III adds +10 Total Defense to direct Ruin Warden healing recipients under inherited timing;
 - CL1 **Siphon Rune** — 165 Hybrid / 8 MP; 35% Drain recovery capped at 20% Max HP;
 - CL4 **Stolen Grace** — 170 Colorless Magical / 10 MP; chosen ally heals from 30% of eligible damage + 0.35× Spirit, capped at 25% Max HP;
-- CL7 **Blue Reclamation** — 10 MP; 18% Max HP + 0.90× Spirit heal, remove 1 ordinary harmful status, +10 Total Defense through following round;
+- CL7 **Restoring Ward** — 10 MP; 18% Max HP + 0.90× Spirit heal, remove 1 ordinary harmful status, +10 Total Defense through following round;
 - CL9 **Withering Mercy** — 150 Colorless Magical AoE / 18 MP / 2-round cooldown; distributes healing equal to 12% of total eligible damage, capped at 15% Max HP per ally;
 - CL11 **Reclaimed Breath** — 24 MP; revive one incapacitated permanent ally at 25% Max HP; no summons/devices/Prime Manifestations;
 - CL13 **Mercy Through Ruin** — 320 Colorless Magical AoE; all conscious allies heal 25% Max HP + 1.00× Spirit, remove 1 ordinary harmful status, and gain +20 Total Defense for 2 rounds.
 
-Approved Mastery: **Deeper Siphon** (35%→40% Siphon recovery) / **Shared Grace** (0.35→0.45 Spirit coefficient) / **Pure Reclamation** (Blue Reclamation removes one additional ordinary harmful status) / **Equipment Mastery**.
-
-The **Ruin Warden** subclass name is approved and locked. Ability, Trait, and Mastery naming polish may still reduce repeated `Reclaimer / Reclamation / Reclaimed / Mercy` language without reopening the subclass name or mechanics.
+Approved Mastery: **Deeper Siphon** (35%→40% Siphon recovery) / **Shared Grace** (0.35→0.45 Spirit coefficient) / **Purifying Ward** (Restoring Ward removes one additional ordinary harmful status) / **Equipment Mastery**.
 
 Detailed authority: `docs/SEYRIK_ILYRA_SUBCLASS_WORKING_SPEC.md`.
 
@@ -295,7 +293,7 @@ Detailed authority: `docs/NIMERA_TORREN_SUBCLASS_WORKING_SPEC.md`.
 
 ## 6. Immediate open work
 
-- Complete the **Ruin Warden ability/Trait/Mastery naming-polish pass**, then weapon/loadout and HD-2D presentation audit without reopening its approved subclass name or mechanics.
+- Audit **Ruin Warden weapon/loadout expression and HD-2D presentation** without reopening its approved mechanics or naming.
 - Complete the still-missing **Routeweaver CL11 fifth ability** and final CL13 numerical reconciliation without reopening its approved identity/equipment/spine.
 - Reconcile Core/Subclass Mastery effect text after all six kits stabilize.
 - Finalize Synthesis / Legacy character-resolution requirements.
