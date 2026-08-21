@@ -136,12 +136,18 @@ Do **not** import the historical proof's exact First Champion commands, old two-
 
 S021 identifies and unlocks Last Sentinel without manifestation. The first actual later battle activation of Last Sentinel is the first verified modern Prime manifestation/sighting in story canon. Gameplay UI may teach legal mechanics after unlock without retroactively granting characters in-world empirical knowledge they have not earned.
 
-## Prepared effects and universal Attack
+## Prepared effects, universal Attack, and Ability weapon independence
 
 - Attack comes from the currently equipped Weapon. A Conduit Attack is equipment functionality, not a class Ability.
+- **No learned Ability or Ultimate requires a particular equipped weapon in order to be legal.** Once learned, an Ability remains usable with any otherwise-legal equipment loadout.
+- Weapon choice may change equipment stats, ordinary Attack behavior, and authored presentation/expression, but it does not disable an Ability command.
+- If an Ability has martial, magical, or loadout-flavored expressions, the implementation must provide a legal expression for every loadout rather than making the Ability unavailable.
+- Presentation may use a manifested/spectral weapon, projected strike, Conduit construct, or equivalent visual when the currently equipped weapon does not physically match the technique's traditional form.
 - Abilities do not automatically inherit the equipped weapon's ordinary Attack hit pattern unless an Ability explicitly says so.
 - The one-armed Prepared-effect limit across Abilities and Standard Cards remains active.
 - Presentation cannot invent illegal combat actions merely because a cinematic would look dramatic.
+
+This weapon-independence rule supersedes any older class-spec wording that gated an Ability or Ultimate behind Great Bow, Sword, Arcane Staff, Wardrod, Two-Handed Sword, Conduit, or any other specific weapon family.
 
 ## Determinism and testing
 
