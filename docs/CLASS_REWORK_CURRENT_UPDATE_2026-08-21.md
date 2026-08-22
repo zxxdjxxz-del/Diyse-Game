@@ -1,6 +1,6 @@
 # Diyse — Class Rework Current Update — 2026-08-21
 
-**Status:** ACTIVE CLASS-REWORK CONSOLIDATION — ALL SIX SUBCLASSES + ALL SIX SYNTHESIS EFFECTS + ALL THREE PAIR RESOLUTION BEATS APPROVED; FIRST TWO LEGACY PAIRS APPROVED; NOT YET MASTER-CANON PROMOTED  
+**Status:** ACTIVE CLASS-REWORK CONSOLIDATION — ALL SIX SUBCLASSES + ALL SIX SYNTHESIS EFFECTS + ALL THREE PAIR RESOLUTION BEATS + ALL THREE LEGACY PAIRS APPROVED; NOT YET MASTER-CANON PROMOTED  
 **Parent whole-project authority:** v1.84 / Audit99 plus newer explicit class-rework decisions.  
 **Purpose:** current handoff/approval ledger for the CL13 class rework, reciprocal Subclasses, Mastery/Synthesis, equipment inheritance, pair-resolution beats, Legacy mapping, and remaining normalization work.
 
@@ -29,6 +29,7 @@ Cross-class / Synthesis:
 Legacy:
 - `docs/CYANIS_VAELIRA_LEGACY_WORKING_SPEC.md`
 - `docs/ILYRA_SEYRIK_LEGACY_WORKING_SPEC.md`
+- `docs/TORREN_NIMERA_LEGACY_WORKING_SPEC.md`
 
 ---
 
@@ -208,74 +209,36 @@ Relative-power conclusions:
 
 **APPROVED.** Detailed authority is inside `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`.
 
-Placement / structure:
-- late Chapter 11, during the mandatory preparation/return window before Chapter 12's point of no return;
-- preferred location **Cresthaven** using an existing safe-hub environment;
-- exact final scene number remains for script integration;
-- mandatory authored continuity, not a romance/affection choice or missable camp event;
-- completion satisfies the individual Synthesis story prerequisite for **both Cyanis and Vaelira**, but does not purchase either Synthesis node.
-
-Story thesis:
-- Cyanis first tries a fixed practice Crest that fails when Vaelira changes the elemental condition: **structure without adaptation**;
-- Vaelira then makes a fully adaptive pattern that loses a stable center: **adaptation without an anchor**;
-- together they rebuild it so Cyanis anchors only what must remain fixed while Vaelira lets the surrounding channels change with the element;
-- Cyanis learns that holding something does not require freezing its whole shape;
+- late Chapter 11 at Cresthaven;
+- fixed Crest fails under changing elemental conditions, fully adaptive pattern loses its anchor;
+- together they hold only what must remain fixed while allowing the surrounding expression to change;
+- Cyanis learns that protection need not freeze the whole shape;
 - Vaelira learns that adaptation does not require refusing commitment;
-- neither worldview defeats the other; each becomes more exact.
-
-Closing image: a Crest with a stable core and changing elemental expression around it. No new lore artifact, combat reward, or bespoke gameplay system is introduced. Exact dialogue remains deferred.
+- closing image: stable Crest core with living elemental variation around it.
 
 ### Ilyra ⇄ Seyrik — Keep Them Alive
 
 **APPROVED.** Detailed authority is inside `docs/ILYRA_SEYRIK_SYNTHESIS_WORKING_SPEC.md`.
 
-Placement / structure:
-- late Chapter 11 at the **Forward Hub** in captured Black Host territory, after an already-authored field operation;
-- use the existing treatment/recovery staging rather than a bespoke location;
-- exact final scene number remains for script integration;
-- mandatory authored continuity, not a romance scene, player-choice reward, or missable camp event;
-- completion satisfies the individual Synthesis story prerequisite for **both Ilyra and Seyrik**, but does not purchase either Synthesis node.
-
-Story thesis:
-- an unnamed wounded Black Host captive needs immediate treatment;
-- Ilyra and Seyrik do not argue over whether the captive deserves to live; the conflict is what mercy is allowed to require;
+- late Chapter 11 at the Forward Hub treatment/recovery area;
+- wounded Black Host captive requires a hard but necessary intervention;
 - Ilyra defines what must be protected and Seyrik applies controlled Ruin only inside that boundary;
-- Ilyra later chooses the hard intervention herself;
-- Seyrik demonstrates control by stopping exactly when necessary damage ends;
-- mercy is not forgiveness, restraint is not passivity, and violence is not automatically decisiveness.
-
-Closing image: Ilyra checks the dressing; Seyrik checks the restraint and quietly leaves water within safe reach. Neither comments on it. Exact dialogue remains deferred.
+- Ilyra later chooses the hard action herself; Seyrik demonstrates control by stopping exactly where the necessary damage ends;
+- mercy is not forgiveness, restraint is not passivity, and violence is not automatically decisiveness;
+- closing image: captive treated and restrained; Seyrik quietly leaves water within safe reach.
 
 ### Torren ⇄ Nimera — Enough to Move
 
 **APPROVED.** Detailed authority is inside `docs/TORREN_NIMERA_SYNTHESIS_WORKING_SPEC.md`.
 
-Placement / structure:
-- late Chapter 11 at the **Forward Hub** operations/map table;
-- use an ordinary background resupply/courier routing problem through recently contested territory;
-- no player choice, branching mission, new quest, or bespoke location is introduced;
-- exact final scene number remains for script integration;
-- completion satisfies the individual Synthesis story prerequisite for **both Torren and Nimera**, but does not purchase either Synthesis node.
+- late Chapter 11 at the Forward Hub operations/map table;
+- Torren's sound judgment initially cannot be transferred because too much reasoning stays in his head;
+- Nimera's complete analysis initially preserves too many branches to close on action;
+- together they produce one primary route, one fallback, and the observable condition that determines when to switch;
+- Torren learns to make experience legible; Nimera learns that uncertainty does not invalidate a decision;
+- closing image: a runner reads the route sheet correctly and leaves; the map works without them.
 
-Story thesis:
-- Torren can choose a sound route quickly from incomplete signs, but his first version leaves too much of the reasoning inside his own head: **judgment that cannot be transferred**;
-- Nimera can document every fact and uncertainty, but her first version preserves too many branches to be useful under time pressure: **knowledge that never closes**;
-- Torren learns to externalize the observations and implications behind his judgment;
-- Nimera learns to distinguish real uncertainty from uncertainty that would actually change the decision;
-- together they produce one primary route, one fallback, and the observable condition that tells another person when to switch;
-- experience becomes more useful when it can be explained, and rigor becomes more useful when it resolves action.
-
-Reciprocal integration:
-- Nimera makes one route call first using Torren's field logic without waiting for every source to agree, then explains the decisive evidence briefly;
-- Torren adds one explanatory note to a judgment he would previously have left implicit;
-- Nimera does not bury that note under unnecessary qualifications.
-
-Closing image:
-- a runner studies the finished route sheet, correctly explains the fallback condition, and leaves with it;
-- Torren and Nimera do not correct the runner;
-- the map works **without them**.
-
-Exact dialogue remains deferred to the later dialogue/script pass.
+All three beats are mandatory authored continuity, not romance/affection choices or missable camp rewards. Completing a pair beat satisfies each character's narrative Synthesis prerequisite but does not itself purchase Synthesis.
 
 ---
 
@@ -284,26 +247,14 @@ Exact dialogue remains deferred to the later dialogue/script pass.
 Detailed authority: `docs/CYANIS_VAELIRA_LEGACY_WORKING_SPEC.md`.
 
 ### Crest Knight Legacy — Stillpoint Aegis
-- equipment family: **Shield**;
-- native tradition: Crest Knight;
-- Vaelira gains reciprocal Legacy eligibility after purchasing her Synthesis node / **Unified Spectrum**;
-- visual identity: compact ivory / stone-ceramic and dark-gunmetal Crest shield with restrained antique-gold channels and a ruby-centered fixed-point motif.
+- **Shield**;
+- Vaelira gains reciprocal eligibility after purchasing **Unified Spectrum / Synthesis**;
+- compact ivory / stone-ceramic and dark-gunmetal Crest shield with restrained antique-gold channels and a ruby fixed-point motif.
 
 ### Green Arcanist Legacy — Living Prism
-- equipment family: **Focus**;
-- native tradition: Green Arcanist;
-- Cyanis gains reciprocal Legacy eligibility after purchasing his Synthesis node / **Unified Crest**;
-- visual identity: emerald-dominant crystalline Focus with ivory / antique-gold structure and restrained multi-element refraction.
-
-### Acquisition presentation
-- both are deterministic physical equipment pickups in **Cresthaven during the Chapter 12 pre-point-of-no-return preparation window**;
-- reuse an existing secured-equipment / armory staging area;
-- no Hunt, boss, crafting recipe, currency, material grind, random drop, or new dungeon;
-- acquisition remains separate from Synthesis eligibility: a collected Legacy may remain locked in inventory until reciprocal Synthesis legality is satisfied;
-- the late-Chapter-11 **What Holds, What Changes** scene remains item-reward-free;
-- exact numerical item stats, passive text if any, item IDs, prices/sell values, and final lore descriptions remain for the production item/equipment audit.
-
-The Secondary-slot mapping is intentional: the pair receives a Legacy Shield and Focus rather than mandatory capstone weapons, preserving open build choice and the global rule that Abilities/Ultimates never require particular equipment.
+- **Focus**;
+- Cyanis gains reciprocal eligibility after purchasing **Unified Crest / Synthesis**;
+- emerald crystalline Focus with ivory / antique-gold structure and restrained multi-element refraction.
 
 ---
 
@@ -312,37 +263,57 @@ The Secondary-slot mapping is intentional: the pair receives a Legacy Shield and
 Detailed authority: `docs/ILYRA_SEYRIK_LEGACY_WORKING_SPEC.md`.
 
 ### Blue Warden Legacy — Mercy's Boundary
-- equipment family: **Shield**;
-- native tradition: Blue Warden;
-- Seyrik gains reciprocal Legacy eligibility after purchasing his Synthesis node / **Tempered Ruin**;
-- visual identity: refined ivory/silver Blue Warden shield with antique-gold framing, light-blue inlay, and blue-white boundary geometry;
-- explicitly avoids Black Host chains, ember-red glow, biomechanical ribbing, and corruption motifs.
+- **Shield**;
+- Seyrik gains reciprocal eligibility after purchasing **Tempered Ruin / Synthesis**;
+- refined ivory/silver Blue Warden shield with antique-gold framing, light-blue inlay, and blue-white boundary geometry;
+- explicitly avoids Black Host corruption language.
 
 ### Ruin Vanguard Legacy — Purposebound
-- equipment family: **Two-Handed Sword**;
-- native tradition: Ruin Vanguard;
-- Ilyra gains reciprocal Legacy eligibility after purchasing her Synthesis node / **Mercy Unbroken**;
-- visual identity: disciplined dark-gunmetal / ash-steel two-handed blade with a functional bright edge, strong guard geometry, and one restrained violet Ruin channel;
-- explicitly reads as controlled Ruin Vanguard equipment rather than a corrupted Black Host artifact.
-
-### Acquisition presentation
-- both join the deterministic **Cresthaven secured-equipment release during the Chapter 12 pre-point-of-no-return preparation window** already established for the Cyanis/Vaelira pair;
-- reuse the same armory / secured-equipment staging rather than creating another endgame location;
-- no Hunt, boss, crafting recipe, currency, material grind, random drop, side quest, or new dungeon;
-- acquisition remains separate from reciprocal Synthesis eligibility;
-- the late-Chapter-11 **Keep Them Alive** scene remains item-reward-free;
-- exact numerical stats, passive text if any, item IDs, prices/sell values, and final lore descriptions remain for the production item/equipment audit.
-
-The pair's slot asymmetry is intentional: **Mercy's Boundary** occupies Secondary while **Purposebound** occupies Weapon + Secondary. One represents preservation as a defended boundary; the other represents force constrained by purpose. Neither item changes Ability legality.
+- **Two-Handed Sword** occupying Weapon + Secondary;
+- Ilyra gains reciprocal eligibility after purchasing **Mercy Unbroken / Synthesis**;
+- disciplined dark-gunmetal / ash-steel blade with a bright functional edge and one restrained violet Ruin channel;
+- controlled Ruin Vanguard equipment, not a Black Host artifact.
 
 ---
 
-## 11. Immediate open work
+## 11. Approved Torren ⇄ Nimera Legacy pair
 
-1. Finalize pair-specific **Legacy mapping / naming / acquisition presentation** for **Torren ⇄ Nimera**.
-2. Reconcile **Core Mastery** effect text.
-3. Finalize the global direct-damage-reduction stacking rule and universal Ultimate cost convention.
+Detailed authority: `docs/TORREN_NIMERA_LEGACY_WORKING_SPEC.md`.
+
+### War Archer Legacy — Known Ground
+- **Great Bow** occupying Weapon + Secondary;
+- Nimera gains reciprocal eligibility after purchasing **Living Proof / Synthesis**;
+- long practical field bow with dark seasoned/composite limbs, muted reinforcement, restrained route/measure markings, and clear sightline emphasis;
+- does not automatically apply Hunter's Measure or gate Truthshot abilities.
+
+### Cardweaver Legacy — Decisive Record
+- **One-slot Conduit**, leaving Secondary available for otherwise-legal equipment;
+- Torren gains reciprocal eligibility after purchasing **Measured Passage / Synthesis**;
+- compact codex / field-record Conduit with aged ivory surfaces, dark practical framing, restrained antique gold, Resource-gold route lines, and small Change-fuchsia decisive junction marks;
+- does not add Card slots/actions, Fields, route resources, or a new recorded-state system.
+
+### Shared Legacy acquisition presentation
+
+All six approved Legacy items are deterministic physical equipment pickups through the same **Cresthaven secured-equipment release during the Chapter 12 pre-point-of-no-return preparation window**.
+
+Rules:
+- reuse one established armory / secured-equipment staging area;
+- no Hunt, boss, dungeon, side quest, crafting recipe, currency, grind, or random drop;
+- the Chapter 11 pair-resolution scenes remain item-reward-free;
+- physical acquisition is separate from reciprocal Synthesis eligibility;
+- an acquired Legacy may remain unequippable for the reciprocal partner until that character purchases Synthesis;
+- exact numerical stats, passives if any, item IDs, sell values, and final lore descriptions remain for the production item/equipment audit.
+
+The three pair mappings deliberately preserve different slot geometries rather than forcing every Legacy into the same reward shape. None changes Ability or Ultimate legality.
+
+---
+
+## 12. Immediate open work
+
+1. Reconcile **Core Mastery** effect text and confirm the CL3 / CL5 / CL7 / CL9 Core gates.
+2. Finalize the global **percentage direct-damage-reduction stacking rule**.
+3. Finalize the universal **Ultimate cost convention**.
 4. Perform the deliberate global stale-terminology sweep from `Sixfold Accord` to **Sixfold Volition**.
 5. Integrate the three approved resolution beats into final Chapter 11 script numbering/dialogue without changing their approved function.
-6. Run final implementation/data regression review.
-7. Promote the completed class-rework package into a new master-canon audit after Legacy/final normalization are stable.
+6. Run final implementation/data regression review across class, equipment, Mastery, Synthesis, and Legacy data.
+7. Promote the completed class-rework package into a new master-canon audit after final normalization is stable.
