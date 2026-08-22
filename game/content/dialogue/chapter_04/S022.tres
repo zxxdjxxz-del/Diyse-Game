@@ -14,7 +14,7 @@ completion_flag = "scene.s022.complete"
 participants = Array[String](["nimera","torren","cyanis","ilyra","worker","technician","vaelira","junior_researcher"])
 authoring_notes = "Exact Chapter 4 Resource conversion from docs/chapters/dialogue/chapter_04/S022.md; accepted through CH4-A029. Spoken sequence is exact; staging is carried in cues where present. Maevra is not an active Chapter 4 party member unless explicitly authored. SHA-256: 46b7cf24bcc3d94751bd08ec1917a29b4638a5da60e91b57c06b2fc62f000bc4."
 beats = [
-{"beat_id":"S022_B001","speaker_id":"nimera","text":"Why?","cues":{"staging":"**CRESTHAVEN — ARCHIVE / WORKROOM — MORNING** Cresthaven is noisy with workers. Inside the temporary Archive, Cyanis, Ilyra, Torren, and Nimera have taken over a large table. On the table: - Hollow Watch rubbing; - surviving Wayfinder copies; - Torren's post-Warden routing sketch; - current Crown map of Southhold. Torren moves his sketch slightly left. Nimera moves it back. Torren moves it left again."}},
+{"beat_id":"S022_B001","speaker_id":"nimera","text":"Why?","cues":{"staging":"**CRESTHAVEN — ARCHIVE / WORKROOM — MORNING** Cresthaven is noisy with workers. Inside the temporary Archive, Cyanis, Ilyra, Torren, and Nimera have taken over a large table. On the table: - Hollow Watch rubbing; - surviving Wayfinder copies; - Torren's post-Warden routing sketch; - current Crown map of the Crownhold. Torren moves his sketch slightly left. Nimera moves it back. Torren moves it left again."}},
 {"beat_id":"S022_B002","speaker_id":"torren","text":"River."},
 {"beat_id":"S022_B003","speaker_id":"nimera","text":"That's not an answer."},
 {"beat_id":"S022_B004","speaker_id":"torren","text":"River used to be here.","cues":{"staging":"Torren points at the Wayfinder copy."}},
