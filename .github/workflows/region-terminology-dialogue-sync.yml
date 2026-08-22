@@ -1,0 +1,48 @@
+name: Region Terminology Dialogue Sync
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/region-terminology-dialogue-sync.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Regenerate Chapter 3 exact dialogue resources
+        run: python3 tools/dialogue/compile_chapter_03.py
+
+      - name: Apply Chapter 4 terminology-only runtime correction
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          path = Path('game/content/dialogue/chapter_04/S022.tres')
+          text = path.read_text(encoding='utf-8')
+          old = 'current Crown map of Southhold.'
+          new = 'current Crown map of the Crownhold.'
+          if old in text:
+              text = text.replace(old, new)
+              path.write_text(text, encoding='utf-8')
+          elif new not in text:
+              raise SystemExit('Expected S022 regional staging text was not found')
+          PY
+
+      - name: Commit synchronized runtime resources
+        run: |
+          git config user.name "Diyse Canon Sync"
+          git config user.email "actions@users.noreply.github.com"
+          git add game/content/dialogue/chapter_03 game/content/dialogue/chapter_04/S022.tres
+          if git diff --cached --quiet; then
+            echo "No runtime sync changes needed."
+            exit 0
+          fi
+          git commit -m "Sync locked dialogue region terminology"
+          git push
