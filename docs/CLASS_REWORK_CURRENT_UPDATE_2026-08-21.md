@@ -1,15 +1,24 @@
 # Diyse — Class Rework Current Update — 2026-08-21
 
-**Status:** MASTER-CANON PROMOTION COMPLETE FOR SETTLED PACKAGE — PROMOTED BY **v1.85 / Audit100**; REMAINING CORE-MASTERY / GLOBAL-NORMALIZATION WORK CONTINUES  
-**Parent whole-project authority:** **v1.85 / Audit100 — Reciprocal Class, Synthesis, and Legacy Architecture Lock**.  
-**Purpose:** implementation/handoff ledger for the CL13 class rework, reciprocal Subclasses, Mastery/Synthesis, equipment inheritance, pair-resolution beats, Legacy mapping, and remaining normalization work.
+**Status:** APPROVED POST-AUDIT103 CLASS-REWORK PACKAGE — PENDING VALID MASTER-CANON PROMOTION  
+**Parent whole-project authority:** **v1.88 / Audit103 — Quest Architecture, Character Quest and Ordinary Side-Quest Closure**  
+**Next valid promotion slot:** **v1.89 / Audit104**  
+**Purpose:** implementation/handoff ledger for the CL13 class rework, reciprocal Subclasses, Mastery/Synthesis, equipment inheritance, pair-resolution beats, Legacy mapping, and remaining reconciliation/normalization work.
 
-## Audit100 promotion
+## Numbering correction
 
-Master-canon authority:
-- `docs/canon/AUDIT100_RECIPROCAL_CLASS_SYNTHESIS_AND_LEGACY_ARCHITECTURE_LOCK.md`
+The class-rework package must **not** be labeled v1.85 / Audit100.
 
-Audit100 promotes the settled material in this ledger and the incorporated detailed specs. Older headers inside detailed working documents that still say **NOT YET MASTER-CANON PROMOTED** are status-stale; Audit100 controls.
+Correct inherited sequence:
+- v1.84 / Audit99 — Random-Encounter Runtime Implementation and Production-Readiness Closure.
+- v1.85 / Audit100 — Enemy Asset Reuse and Palette-Swap Production Efficiency Lock.
+- v1.86 / Audit101 — Major Hunt Architecture and Unlock Closure.
+- v1.87 / Audit102 — Major Hunt Difficulty and Progression Balance Closure.
+- v1.88 / Audit103 — Quest Architecture, Character Quest and Ordinary Side-Quest Closure.
+
+Therefore the class-rework canon promotion, once reconciliation is complete, belongs at **v1.89 / Audit104**.
+
+The erroneous repository Audit100 class-promotion file has been removed.
 
 ## Approval rule
 
@@ -40,7 +49,7 @@ Legacy:
 
 ---
 
-## 1. Current architecture
+## 1. Current class architecture — approved
 
 - Base Class cap: **CL13**.
 - Subclass cap: **CL13**.
@@ -59,54 +68,59 @@ Legacy:
 
 Equipment still matters for ordinary Attack, stats/defenses, Weapon/Secondary slot geometry, Relic/Legacy legality, and presentation. If an Ability visually implies a weapon not carried, presentation adapts through manifested/projected weapon expression rather than disabling the command.
 
-### Terminology
+### Whole-project level-cap correction
 
-The current event/system name is **Sixfold Volition**. Remaining `Sixfold Accord` wording is stale terminology and awaits the deliberate global sweep.
+The current whole-project player level cap inherited from v1.88 / Audit103 is **70**. Earlier class-rework notes that called 60 the hard player-level cap are stale and must not be promoted.
+
+The CL13 class system and its 6,000-CEXP thresholds are separate from the player-level cap. Exact final player EXP / late-game progression rebalance under Level 70 remains outside this class-rework ledger.
 
 ---
 
-## 2. CEXP / CL13 progression
-
-Character-level pacing target:
-- Ch0 no EXP
-- Ch1 1→5
-- Ch2 5→9
-- Ch3 9→13
-- Ch4 13→17
-- Ch5 17→22
-- Ch6 22→27
-- Ch7 27→32
-- Ch8 32→37
-- Ch9 37→42
-- Ch10 42→47
-- Ch11 47→53
-- Ch12 launch ~53; campaign finish ~55; hard cap 60
-
-Recruitment / starting Base CL:
-- Cyanis Ch0 CL1
-- Ilyra Ch0 CL1
-- Torren Ch1 CL4 *(working; not promoted by Audit100 as final)*
-- Nimera Ch3 CL4 *(working; not promoted by Audit100 as final)*
-- Vaelira Ch4 S022 CL7 *(working; not promoted by Audit100 as final)*
-- Seyrik Ch6 **CL8 approved**
+## 2. CEXP / CL13 progression — approved
 
 Class thresholds:
-CL1 0; CL2 150; CL3 350; CL4 600; CL5 950; CL6 1350; CL7 1800; CL8 2300; CL9 2850; CL10 3450; CL11 4150; CL12 4950; CL13 6000.
+- CL1 0
+- CL2 150
+- CL3 350
+- CL4 600
+- CL5 950
+- CL6 1350
+- CL7 1800
+- CL8 2300
+- CL9 2850
+- CL10 3450
+- CL11 4150
+- CL12 4950
+- CL13 6000
 
-Fresh Subclass pacing after Volition:
-- Ch7 978 → CL5
-- Ch8 1978 → CL7
-- Ch9 2946 → CL9
-- Ch10 4050 → CL10
-- Ch11 5308 → CL12
-- Ch12 6008 → CL13
+The retired **4,800-CEXP CL12** table must not return.
+
+Fresh Subclass begins at **CL1 with 0 CEXP toward CL2**.
 
 Universal Subclass schedule:
-CL1 donor basic Primary + Trait I + Ability1; CL3 donor Armor; CL4 Ability2; CL5 honest donor advanced equipment/Secondary where real; CL6 TraitII; CL7 Ability3; CL9 Ability4; CL10 Equipment Mastery eligibility; CL11 Ability5; CL12 TraitIII; CL13 Ultimate.
+- CL1 donor basic Primary + Trait I + Ability1
+- CL3 donor Armor
+- CL4 Ability2
+- CL5 honest donor advanced equipment/Secondary where real
+- CL6 TraitII
+- CL7 Ability3
+- CL9 Ability4
+- CL10 Equipment Mastery eligibility
+- CL11 Ability5
+- CL12 TraitIII
+- CL13 Ultimate
+
+Current recruitment/Base-CL notes that remain working rather than final whole-project promotion:
+- Cyanis Ch0 CL1
+- Ilyra Ch0 CL1
+- Torren Ch1 CL4 *(working)*
+- Nimera Ch3 CL4 *(working)*
+- Vaelira Ch4 S022 CL7 *(working)*
+- Seyrik Ch6 CL8 *(approved earlier)*
 
 ---
 
-## 3. Equipment inheritance / Mastery
+## 3. Equipment inheritance / Mastery — approved where settled
 
 Donor ordinary equipment progression:
 - Vaelira ← Cyanis: Swords → Crest armor → Shield + second-Sword permission
@@ -118,10 +132,12 @@ Donor ordinary equipment progression:
 
 Nine-point Mastery architecture remains **4 Core + 4 Subclass + 1 Synthesis**, each costing 1 MP. Banking is legal.
 
-Working Core gates: CL3 / CL5 / CL7 / CL9. These remain to be reconciled/finalized.  
-Early Subclass Mastery gates/effects remain subject to the remaining Mastery reconciliation except the hard lock below.
+**Equipment Mastery = Subclass Node 4 at CL10** and grants donor Relic access. Ordinary donor equipment arrives earlier through CL1–5. Legacy is downstream of Synthesis.
 
-**Equipment Mastery = Subclass Node 4 at CL10** and grants donor Relic access. Ordinary donor equipment arrives at CL1–5. Legacy is downstream of Synthesis.
+Still open:
+- final Core Mastery effect text;
+- final Core gate schedule;
+- any still-unresolved early Subclass Mastery-node effect/gate text other than Equipment Mastery at CL10.
 
 ---
 
@@ -156,7 +172,7 @@ Eligibility requires:
 
 Each Synthesis grants:
 1. one permanent character-specific Base/Subclass integration passive;
-2. paired Legacy eligibility under the final Legacy mapping.
+2. paired Legacy eligibility under the final reciprocal mapping.
 
 Synthesis does not create a third class, merge stat packages, activate both Traits, add actions/slots/Card slots, add a gauge, copy a partner's whole kit, or create a weapon requirement.
 
@@ -164,7 +180,7 @@ A learned Ability retains its **source-class identity** for Synthesis triggers r
 
 ---
 
-## 6. Approved six character-specific Synthesis effects
+## 6. Approved six Synthesis effects
 
 ### Cyanis — Unified Crest
 A selected/resolved Crest Knight Ability can establish Crest Attunement when absent. Consuming Attunement with a Crest Field/Seal arms **+15% Power** for the next damaging Crest Knight Ability before the end of the following round.
@@ -184,146 +200,71 @@ A damaging non-Ultimate War Archer Ability resolving against Hunter's Measure ar
 ### Nimera — Living Proof
 Known-target condition = Diysean Appraisal already revealed permitted combat data **and** Hunter's Measure currently present. Once per round, first damaging non-Ultimate Truthshot against that target gains **+10% Power**. A qualifying Truthshot/Final Annotation hit arms **+10 Base Hit/application reliability** for the next hostile Standard Card against that same enemy where relevant.
 
----
-
-## 7. Approved final six-Synthesis cross-balance audit
-
-Detailed authority: `docs/CLASS_SYNTHESIS_CROSS_BALANCE_AUDIT_2026-08-21.md`.
-
-**PASS — mechanical Synthesis design is closed. No raw-number changes required.**
-
-Normalized rules:
-- one Ability action can satisfy a given Synthesis trigger only once regardless of multihit/AoE/multi-heal/multi-cleanse resolution;
-- each directional clause can hold at most one armed copy; opposite directional clauses may coexist when legally armed;
-- current Synthesis Power bonuses and MP discounts do **not** apply to Ultimates;
-- Ultimates may arm a later Synthesis effect only where explicitly authored;
-- merely arming a Prepared effect never counts as a damaging trigger; only an actually resolving response may qualify where explicitly legal;
-- all Synthesis mechanics remain weapon-independent;
-- no new state/resource family was introduced.
-
-Relative-power conclusions:
-- Cyanis's +15% is justified by the longest setup chain;
-- Vaelira's flexibility/Imprint extension needs no flat damage increase;
-- Ilyra/Seyrik's -3 MP cadence is acceptable because healing/revival values do not increase;
-- Torren's -2 MP is intentionally smaller because it couples Hunter's Measure and multi-round Route Fields;
-- Nimera's Appraisal + Measure setup justifies her two-part Truthshot/Card payoff.
+Synthesis cross-balance result: **PASS**. No raw-number rebalance required.
 
 ---
 
-## 8. Approved pair-resolution story beats
+## 7. Approved pair-resolution beats
 
 ### Cyanis ⇄ Vaelira — What Holds, What Changes
-
-**APPROVED.** Detailed authority is inside `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`.
-
-- late Chapter 11 at Cresthaven;
-- fixed Crest fails under changing elemental conditions, fully adaptive pattern loses its anchor;
-- together they hold only what must remain fixed while allowing the surrounding expression to change;
-- Cyanis learns that protection need not freeze the whole shape;
-- Vaelira learns that adaptation does not require refusing commitment;
-- closing image: stable Crest core with living elemental variation around it.
+Late Chapter 11 at Cresthaven. Structure without adaptation fails; adaptation without an anchor also fails. They build a solution where only what must hold is fixed and the surrounding expression can change.
 
 ### Ilyra ⇄ Seyrik — Keep Them Alive
-
-**APPROVED.** Detailed authority is inside `docs/ILYRA_SEYRIK_SYNTHESIS_WORKING_SPEC.md`.
-
-- late Chapter 11 at the Forward Hub treatment/recovery area;
-- wounded Black Host captive requires a hard but necessary intervention;
-- Ilyra defines what must be protected and Seyrik applies controlled Ruin only inside that boundary;
-- Ilyra later chooses the hard action herself; Seyrik demonstrates control by stopping exactly where the necessary damage ends;
-- mercy is not forgiveness, restraint is not passivity, and violence is not automatically decisiveness;
-- closing image: captive treated and restrained; Seyrik quietly leaves water within safe reach.
+Late Chapter 11 at the Forward Hub treatment/recovery area. Ilyra defines what must be protected; Seyrik uses controlled Ruin only inside that boundary. Mercy is not forgiveness; restraint is not passivity; violence is not automatically decisiveness.
 
 ### Torren ⇄ Nimera — Enough to Move
+Late Chapter 11 at the Forward Hub operations/map table. Torren externalizes veteran judgment; Nimera strips analysis to decisive unknowns. They produce a route another competent person can execute without either of them present.
 
-**APPROVED.** Detailed authority is inside `docs/TORREN_NIMERA_SYNTHESIS_WORKING_SPEC.md`.
-
-- late Chapter 11 at the Forward Hub operations/map table;
-- Torren's sound judgment initially cannot be transferred because too much reasoning stays in his head;
-- Nimera's complete analysis initially preserves too many branches to close on action;
-- together they produce one primary route, one fallback, and the observable condition that determines when to switch;
-- Torren learns to make experience legible; Nimera learns that uncertainty does not invalidate a decision;
-- closing image: a runner reads the route sheet correctly and leaves; the map works without them.
-
-All three beats are mandatory authored continuity, not romance/affection choices or missable camp rewards. Completing a pair beat satisfies each character's narrative Synthesis prerequisite but does not itself purchase Synthesis.
+All three beats are mandatory authored continuity, not romance/affection/player-choice scenes. Each shared beat satisfies both characters' narrative Synthesis prerequisite but does not purchase Synthesis.
 
 ---
 
-## 9. Approved Cyanis ⇄ Vaelira Legacy pair
+## 8. Approved Legacy identities and reciprocal mappings
 
-Detailed authority: `docs/CYANIS_VAELIRA_LEGACY_WORKING_SPEC.md`.
+### Cyanis ⇄ Vaelira
+- Crest Knight Legacy — **Stillpoint Aegis** — Shield — reciprocal wearer Vaelira after Synthesis.
+- Green Arcanist Legacy — **Living Prism** — Focus — reciprocal wearer Cyanis after Synthesis.
 
-### Crest Knight Legacy — Stillpoint Aegis
-- **Shield**;
-- Vaelira gains reciprocal eligibility after purchasing **Unified Spectrum / Synthesis**;
-- compact ivory / stone-ceramic and dark-gunmetal Crest shield with restrained antique-gold channels and a ruby fixed-point motif.
+### Ilyra ⇄ Seyrik
+- Blue Warden Legacy — **Mercy's Boundary** — Shield — reciprocal wearer Seyrik after Synthesis.
+- Ruin Vanguard Legacy — **Purposebound** — Two-Handed Sword — reciprocal wearer Ilyra after Synthesis.
 
-### Green Arcanist Legacy — Living Prism
-- **Focus**;
-- Cyanis gains reciprocal eligibility after purchasing **Unified Crest / Synthesis**;
-- emerald crystalline Focus with ivory / antique-gold structure and restrained multi-element refraction.
+### Torren ⇄ Nimera
+- War Archer Legacy — **Known Ground** — Great Bow — reciprocal wearer Nimera after Synthesis.
+- Cardweaver Legacy — **Decisive Record** — one-slot Conduit — reciprocal wearer Torren after Synthesis.
 
----
+Normal slot geometry still applies. None of these items changes Ability or Ultimate legality.
 
-## 10. Approved Ilyra ⇄ Seyrik Legacy pair
-
-Detailed authority: `docs/ILYRA_SEYRIK_LEGACY_WORKING_SPEC.md`.
-
-### Blue Warden Legacy — Mercy's Boundary
-- **Shield**;
-- Seyrik gains reciprocal eligibility after purchasing **Tempered Ruin / Synthesis**;
-- refined ivory/silver Blue Warden shield with antique-gold framing, light-blue inlay, and blue-white boundary geometry;
-- explicitly avoids Black Host corruption language.
-
-### Ruin Vanguard Legacy — Purposebound
-- **Two-Handed Sword** occupying Weapon + Secondary;
-- Ilyra gains reciprocal eligibility after purchasing **Mercy Unbroken / Synthesis**;
-- disciplined dark-gunmetal / ash-steel blade with a bright functional edge and one restrained violet Ruin channel;
-- controlled Ruin Vanguard equipment, not a Black Host artifact.
+Exact final Legacy numerical stats/passives and item metadata remain deferred to the production item/equipment audit.
 
 ---
 
-## 11. Approved Torren ⇄ Nimera Legacy pair
+## 9. Audit103 Legacy-Component reconciliation — REQUIRED BEFORE AUDIT104
 
-Detailed authority: `docs/TORREN_NIMERA_LEGACY_WORKING_SPEC.md`.
+Audit103 already locks the following:
+- exactly six Character Quests;
+- each Character Quest grants that character's **Legacy Component** as its principal mechanical reward.
 
-### War Archer Legacy — Known Ground
-- **Great Bow** occupying Weapon + Secondary;
-- Nimera gains reciprocal eligibility after purchasing **Living Proof / Synthesis**;
-- long practical field bow with dark seasoned/composite limbs, muted reinforcement, restrained route/measure markings, and clear sightline emphasis;
-- does not automatically apply Hunter's Measure or gate Truthshot abilities.
+The newer class-rework sequence approved a shared **Cresthaven Chapter-12 physical Legacy release** presentation for the six named Legacy items.
 
-### Cardweaver Legacy — Decisive Record
-- **One-slot Conduit**, leaving Secondary available for otherwise-legal equipment;
-- Torren gains reciprocal eligibility after purchasing **Measured Passage / Synthesis**;
-- compact codex / field-record Conduit with aged ivory surfaces, dark practical framing, restrained antique gold, Resource-gold route lines, and small Change-fuchsia decisive junction marks;
-- does not add Card slots/actions, Fields, route resources, or a new recorded-state system.
+These two approved layers have not yet been explicitly connected. Before v1.89 / Audit104 canon promotion, we must define the relationship so the Audit103 Legacy Components are not orphaned or silently superseded.
 
-### Shared Legacy acquisition presentation
-
-All six approved Legacy items are deterministic physical equipment pickups through the same **Cresthaven secured-equipment release during the Chapter 12 pre-point-of-no-return preparation window**.
-
-Rules:
-- reuse one established armory / secured-equipment staging area;
-- no Hunt, boss, dungeon, side quest, crafting recipe, currency, grind, or random drop;
-- the Chapter 11 pair-resolution scenes remain item-reward-free;
-- physical acquisition is separate from reciprocal Synthesis eligibility;
-- an acquired Legacy may remain unequippable for the reciprocal partner until that character purchases Synthesis;
-- exact numerical stats, passives if any, item IDs, sell values, and final lore descriptions remain for the production item/equipment audit.
-
-The three pair mappings deliberately preserve different slot geometries rather than forcing every Legacy into the same reward shape. None changes Ability or Ultimate legality.
+Until that reconciliation is approved:
+- the six Legacy names, equipment families, reciprocal Synthesis eligibility mappings, and slot geometries remain approved;
+- the exact final acquisition chain connecting Character Quest Legacy Components to the Cresthaven physical release remains pending integration.
 
 ---
 
-## 12. Remaining work after Audit100 promotion
+## 10. Immediate open work
 
-1. Reconcile **Core Mastery** effect text and confirm/finalize the Core gate schedule.
-2. Reconcile any still-open early Subclass Mastery-node gate/effect text; **Equipment Mastery at CL10 is already locked**.
-3. Finalize the global **percentage direct-damage-reduction stacking rule**.
-4. Finalize the universal **Ultimate cost convention**.
-5. Perform the deliberate global stale-terminology sweep from `Sixfold Accord` to **Sixfold Volition**.
-6. Integrate the three approved resolution beats into final Chapter 11 script numbering/dialogue without changing their approved function.
-7. Run final implementation/data regression review across class, equipment, Mastery, Synthesis, and Legacy data.
-8. Finalize Legacy numerical production stats/passives and item metadata in the dedicated item/equipment audit.
+1. **Reconcile Audit103 Character-Quest Legacy Components with the six named Legacy items / Cresthaven release.**
+2. Promote the settled compatible package in the next valid slot: **v1.89 / Audit104**.
+3. Reconcile Core Mastery effect text and final Core gates.
+4. Reconcile any still-open early Subclass Mastery-node text.
+5. Finalize global percentage direct-damage-reduction stacking.
+6. Finalize the universal Ultimate MP-cost convention.
+7. Perform the repository-wide `Sixfold Accord` → **Sixfold Volition** terminology sweep.
+8. Integrate the three resolution beats into final Chapter 11 scene numbering/dialogue.
+9. Run implementation/data regression across class, equipment, Mastery, Synthesis, and Legacy data.
 
-The settled reciprocal class/Synthesis/Legacy package is already master canon under **v1.85 / Audit100**; remaining work should be promoted by later audits only when those still-open domains are finalized.
+Do not reuse v1.85 / Audit100 for this package; that number is already occupied by earlier canon.
