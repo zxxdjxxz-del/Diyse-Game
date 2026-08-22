@@ -21,7 +21,7 @@ beats = [{
 "right": {},
 "active_side": "none",
 "advance_mode": "manual",
-"cues": {"pause_ms": 900, "staging": "Convoy advances along the Borderlands road. The sealed recovery wagon remains protected near the center while civilian travelers share the route under escort.", "camera": "Wide establishing view; settle toward Cyanis working the east side of the column.", "movement": "Convoy and travelers continue at walking pace.", "interrupt": false, "implementation_flags": ["CINEMATIC_WORLD_BEAT"]}
+"cues": {"pause_ms": 900, "staging": "Convoy advances along the Westways road. The sealed recovery wagon remains protected near the center while civilian travelers share the route under escort.", "camera": "Wide establishing view; settle toward Cyanis working the east side of the column.", "movement": "Convoy and travelers continue at walking pace.", "interrupt": false, "implementation_flags": ["CINEMATIC_WORLD_BEAT"]}
 }, {
 "beat_id": "S001_B002",
 "speaker_id": "convoy_superior_officer",
