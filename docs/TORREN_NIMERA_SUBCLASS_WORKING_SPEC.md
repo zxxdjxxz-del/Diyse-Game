@@ -153,8 +153,8 @@ The pair therefore has two reciprocal languages without collapsing them together
 Routeweaver should look like **Torren's practical battlefield sense translated through Cardweaver structure**, not like Nimera's full visual language pasted onto him.
 
 ### Palette / effect hierarchy
-- Torren's **Resource-gold / amber** route lines remain dominant.
-- Nimera-derived **Change-fuchsia** appears only at junctions, Card-linked nodes, and Conduit routing points.
+- Torren's personal **gold / amber** route lines remain dominant; this is character presentation language and does **not** assign Routeweaver to Acuity or the retired Resource Face.
+- Nimera-derived **Change-fuchsia** appears at junctions, Card-linked nodes, and Conduit routing points, preserving Routeweaver's **Change Face** identity.
 - Effects stay dry, legible, and tactical rather than becoming large occult glyph storms.
 
 ### Reusable animation families
