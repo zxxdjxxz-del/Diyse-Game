@@ -128,16 +128,25 @@ func _validate_c04_final_version() -> void:
 	for required in [
 		"Evidence ruins everything.",
 		"Fuck no.",
-		"Old whore.",
+		"Old slut.",
 		"Bitch.",
-		"You called me an old whore.",
+		"That says “old cut.”",
+		"That says “old slut.”",
+		"It’s a C.",
+		"It’s an S.",
+		"It’s a fucking C.",
+		"Then write a fucking C.",
+		"You called me an old slut.",
+		"You read “old cut” as “old slut.”",
+		"Because that’s what you wrote.",
 		"Then learn to fucking read.",
 		"Touch the map and I’ll break your fucking fingers.",
 		"See, now we’re friends.",
 		"Good night, Torren.",
 		"Fuck off, Cyanis."
 	]:
-		_expect(required in c04, "C04 lost Audit79 final-version line: %s" % required)
+		_expect(required in c04, "C04 lost current final-version line: %s" % required)
+	_expect("old whore" not in c04.to_lower(), "C04 must not regress to the superseded old-whore version")
 	_expect("\nShore.\n" not in "\n" + c04 + "\n", "C04 must not regress to the superseded Shore reconstruction")
 
 func _validate_torren_maevra_progression() -> void:
