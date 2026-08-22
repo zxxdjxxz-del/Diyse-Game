@@ -199,7 +199,8 @@ def render_scene(scene_id: str, beats: list[dict]) -> str:
     digest = hashlib.sha256("\n".join(spoken_fingerprint).encode("utf-8")).hexdigest()
     notes = (
         f"Chapter 1 exact Resource conversion from docs/chapters/dialogue/chapter_01/{scene_id}.md "
-        "under Complete Master Canon v1.64 / Audit79. Spoken text is line-complete and must not be rewritten. "
+        "under Complete Master Canon v1.90 / Audit105, preserving the Audit79 line-complete checkpoint and approved bounded Acuity correction. "
+        "Spoken text is line-complete and must not be rewritten except where later canon explicitly supersedes it. "
         "Source production/staging prose is preserved in beat cue metadata; source subsection names are carried in cues.source_section. "
         "Portrait slots remain empty until approved registry expressions/assets are wired. "
         f"Spoken-sequence SHA-256: {digest}."
