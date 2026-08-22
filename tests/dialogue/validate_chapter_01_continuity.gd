@@ -76,8 +76,9 @@ func _validate_knowledge_firewall() -> void:
 		_expect(forbidden not in mandatory_spoken, "Chapter 1 leaked later-story knowledge into spoken dialogue: %s" % forbidden)
 
 	var s011 := _spoken_text("S011")
-	for required in ["Grace.", "Might.", "Resource here.", "Ruin."]:
+	for required in ["Grace.", "Might.", "Acuity here.", "Ruin."]:
 		_expect(required in s011, "S011 lost operational Face-language beat: %s" % required)
+	_expect("Resource here." not in s011, "S011 must not regress to the retired Resource Face terminology")
 	_expect("Why are Faces on a route map?" in s011, "S011 lost the Wayfinder technical-cartography question")
 	_expect("Same Face." in s011 and "Not the same pattern." in s011, "S011 lost bounded sealed-Card/Wayfinder comparison")
 	_expect("Last Sentinel" not in s011 and "Prime" not in s011, "S011 must not identify the sealed Card as Prime/Last Sentinel")
