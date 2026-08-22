@@ -1,8 +1,8 @@
 # Diyse — Class Rework Current Update — 2026-08-21
 
-**Status:** ACTIVE CLASS-REWORK CONSOLIDATION — ALL SIX SUBCLASSES + ALL SIX SYNTHESIS EFFECTS MECHANICALLY CLOSED; NOT YET MASTER-CANON PROMOTED  
+**Status:** ACTIVE CLASS-REWORK CONSOLIDATION — ALL SIX SUBCLASSES + ALL SIX SYNTHESIS EFFECTS MECHANICALLY CLOSED; FIRST PAIR RESOLUTION BEAT APPROVED; NOT YET MASTER-CANON PROMOTED  
 **Parent whole-project authority:** v1.84 / Audit99 plus newer explicit class-rework decisions.  
-**Purpose:** current handoff/approval ledger for the CL13 class rework, reciprocal Subclasses, Mastery/Synthesis, equipment inheritance, and remaining story/Legacy/normalization work.
+**Purpose:** current handoff/approval ledger for the CL13 class rework, reciprocal Subclasses, Mastery/Synthesis, equipment inheritance, pair-resolution beats, and remaining Legacy/normalization work.
 
 ## Approval rule
 
@@ -198,9 +198,34 @@ Relative-power conclusions:
 
 ---
 
-## 8. Immediate open work
+## 8. Approved pair-resolution story beats
 
-1. Author the three reciprocal-pair **resolution / integration story beats** that satisfy the Synthesis narrative gate.
+### Cyanis ⇄ Vaelira — What Holds, What Changes
+
+**APPROVED.** Detailed authority is now inside `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`.
+
+Placement / structure:
+- late Chapter 11, during the mandatory preparation/return window before Chapter 12's point of no return;
+- preferred location **Cresthaven** using an existing safe-hub environment;
+- exact final scene number remains for script integration;
+- mandatory authored continuity, not a romance/affection choice or missable camp event;
+- completion satisfies the individual Synthesis story prerequisite for **both Cyanis and Vaelira**, but does not purchase either Synthesis node.
+
+Story thesis:
+- Cyanis first tries a fixed practice Crest that fails when Vaelira changes the elemental condition: **structure without adaptation**;
+- Vaelira then makes a fully adaptive pattern that loses a stable center: **adaptation without an anchor**;
+- together they rebuild it so Cyanis anchors only what must remain fixed while Vaelira lets the surrounding channels change with the element;
+- Cyanis learns that holding something does not require freezing its whole shape;
+- Vaelira learns that adaptation does not require refusing commitment;
+- neither worldview defeats the other; each becomes more exact.
+
+The closing image is a Crest with a stable core and changing elemental expression around it. No new lore artifact, combat reward, or bespoke gameplay system is introduced. Exact dialogue remains deferred to the later dialogue/script pass.
+
+---
+
+## 9. Immediate open work
+
+1. Author the remaining two reciprocal-pair resolution beats: **Ilyra ⇄ Seyrik** and **Torren ⇄ Nimera**.
 2. Finalize pair-specific **Legacy mapping / naming / acquisition presentation**.
 3. Reconcile **Core Mastery** effect text.
 4. Finalize the global direct-damage-reduction stacking rule and universal Ultimate cost convention.
