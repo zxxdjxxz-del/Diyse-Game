@@ -2,21 +2,28 @@
 
 This is an implementation-facing summary. It does **not** replace the authoritative Complete Master Canon or newer explicit user corrections. If this summary conflicts with a later canon artifact, the later authority wins.
 
-## Current whole-project authority — CORRECTED
+## Current whole-project authority
 
-**Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.88 / Audit103 — Quest Architecture, Character Quest and Ordinary Side-Quest Closure**  
-**Date:** August 21, 2026
+**Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.89 / Audit104 — Reciprocal Class, Synthesis, Legacy, and Legacy-Component Integration Lock**  
+**Date:** August 22, 2026
 
-The corrected forward authority sequence is:
+Immediate forward chain:
 - **v1.84 / Audit99** — Random-Encounter Runtime Implementation and Production-Readiness Closure.
 - **v1.85 / Audit100** — Enemy Asset Reuse and Palette-Swap Production Efficiency Lock.
 - **v1.86 / Audit101** — Major Hunt Architecture and Unlock Closure.
 - **v1.87 / Audit102** — Major Hunt Difficulty and Progression Balance Closure.
 - **v1.88 / Audit103** — Quest Architecture, Character Quest and Ordinary Side-Quest Closure.
+- **v1.89 / Audit104** — Reciprocal Class, Synthesis, Legacy, and Legacy-Component Integration Lock.
 
-The recent class-rework work occurs **after Audit103**. It is approved design but is **not yet assigned a valid master-canon audit number** in this file. The next available promotion slot is **v1.89 / Audit104**, subject to reconciliation with inherited Audit103 quest/Legacy-Component authority.
+Current class/Legacy canon file:
+- `docs/canon/AUDIT104_RECIPROCAL_CLASS_SYNTHESIS_LEGACY_AND_LEGACY_COMPONENT_INTEGRATION_LOCK.md`
 
-The mistakenly created `AUDIT100_RECIPROCAL_CLASS_SYNTHESIS_AND_LEGACY_ARCHITECTURE_LOCK.md` was invalid because Audit100 was already occupied by the Enemy Asset Reuse closure. It has been removed.
+Reconciliation authority:
+- `docs/LEGACY_COMPONENT_AND_SECURED_RELEASE_RECONCILIATION_2026-08-22.md`
+
+The erroneously created class-rework Audit100 file was removed because Audit100 was already occupied by earlier canon.
+
+---
 
 ## Project foundation
 
@@ -26,104 +33,84 @@ The mistakenly created `AUDIT100_RECIPROCAL_CLASS_SYNTHESIS_AND_LEGACY_ARCHITECT
 - Target runtime: approximately **25 hours**.
 - Permanent roster: exactly six; maximum active battle party: four.
 - Dialogue is one authored continuity; no dialogue wheel, morality route, affinity-response system, romance route/system, or selectable protagonist personality.
-- **Current player level cap: 70.** Any older repository summary still stating an absolute Level-60 cap is superseded by the later authority inherited by Audit103.
-- Exact quest EXP and the final Level-70 progression rebalance remain deferred; Audit103 explicitly leaves those numbers open.
+- **Current player level cap: 70.**
+- CL13 is the Base/Subclass class-level cap and does not replace the player-level cap.
 
-## Audit103 quest architecture — controlling
+---
 
-- Exactly **6 standalone Character Quests**, one for each permanent party member.
+## Audit103 quest architecture — inherited and controlling where Audit104 does not supersede
+
+- Exactly **6 standalone Character Quests**, one per permanent party member.
 - Character Quests target approximately **30 minutes each**.
 - Exactly **3 Character Quest bosses**: Elemental Forecast Construct, Crest Load Warden, Revision Custodian.
 - Seyrik, Ilyra, and Torren use authored non-boss Character-Quest climaxes.
-- Exactly **10 ordinary non-story/non-Hunt side quests**; the older working target of 12 is retired.
-- Each Character Quest grants that character's **Legacy Component** as its primary mechanical reward.
-- Character Quests are optional and may not gate mandatory Story Primes, mandatory lore, required abilities, or main-plot comprehension.
-- Once unlocked, Character Quests and ordinary side quests remain available until the Chapter 12 point of no return unless explicitly superseded later.
-- **Sixfold Volition** is the formal current term; `Sixfold Accord` is deprecated.
+- Exactly **10 ordinary non-story/non-Hunt side quests**.
+- Each Character Quest grants that character's **Legacy Component** as its principal mechanical reward.
+- Character Quests remain optional and may not gate mandatory Story Primes, required main-story lore, mandatory abilities, or the ending.
+- Character Quests and ordinary side quests remain available until the Chapter 12 point of no return unless explicitly superseded later.
 
 Character Quests:
-1. Vaelira — **The Sky No One Chose** — after Sixfold Volition — boss: Elemental Forecast Construct.
-2. Cyanis — **The Weight of the Crest** — after Chapter 7 — boss: Crest Load Warden.
-3. Nimera — **The Archive That Remembers** — after Chapter 8 — boss: Revision Custodian.
-4. Seyrik — **The Name That Remains** — after Chapter 8 — no full boss.
-5. Ilyra — **Mercy Has a Voice** — after Chapter 9 once optional travel resumes — no full boss.
-6. Torren — **The Road That Returns** — after Chapter 10 — no full boss.
+1. Vaelira — **The Sky No One Chose**.
+2. Cyanis — **The Weight of the Crest**.
+3. Nimera — **The Archive That Remembers**.
+4. Seyrik — **The Name That Remains**.
+5. Ilyra — **Mercy Has a Voice**.
+6. Torren — **The Road That Returns**.
 
-Ordinary side quests:
-1. Edda Harth — **The Marks We Leave**.
-2. Dunmere neighborhood waterkeeper — **The Water Between Houses**.
-3. Crown Princess Mirena — **A Measure of Bread**.
-4. Ivorybridge bridgekeeper / lampwright — **The Dark Span**.
-5. Stonewake forge steward — **One Fire Burning**.
-6. Crown Princess Mirena — **The Crown's Debt**.
-7. Talia Rell — **The Third Caravan**.
-8. Talia Rell — **The Living List**.
-9. Edda Harth — **When the Roads Open**.
-10. Crown Princess Mirena — **What We Build After**.
+---
 
-## Audit99 random-encounter/runtime authority — inherited where compatible
+## Audit104 reciprocal class architecture — controlling
 
-Audit103 does not erase the tested Audit99 random-encounter implementation. Compatible Audit99 engineering rules remain active, including:
-- random encounters use hidden eligible-movement-distance pressure;
-- pressure is fed by actual resolved horizontal displacement after collision resolution;
-- standing still, wall-pushing with zero displacement, vertical-only displacement, and movement-disabled displacement do not count;
-- menus/cutscenes/dialogue/authored pauses suspend pressure;
-- maximum **8 simultaneously active enemies**;
-- exact immediate formation repeats are suppressed when alternatives exist;
-- transient random-encounter handoff is not serialized into saves;
-- area tuning retains same-ecology / new-ecology / safe-reset semantics;
-- Greenhollow's old proof conversion remains engineering-only rather than production canon.
+### Sixfold Volition
+- Formal term: **The Sixfold Volition**.
+- `Sixfold Accord` is deprecated.
+- No Subclass exists before the Volition.
+- All six Subclasses unlock at the Volition.
+- Reciprocal pairs: **Cyanis ⇄ Vaelira**, **Ilyra ⇄ Seyrik**, **Torren ⇄ Nimera**.
 
-Any Audit98/Audit99 player-level progression values that depended on a Level-60 cap are subordinate to the later **Level-70** authority and the still-pending final progression rebalance.
-
-## World / map authority
-
-The exact approved Yahtrea map remains the controlling surface-world visual/spatial master. Do not move, regenerate, reinterpret, simplify, add, remove, or reconnect geography unless explicitly approved.
-
-Formal modern Realms:
-- **The Westways** — west; supersedes Edgelands as the regional name.
-- **The Greyspires** — north / northern mountain region; supersedes Diysereach as the regional name.
-- **The Crownhold** — capital/royal-core region; supersedes Southhold as the regional name.
-
-All existing settlement and landmark names remain unchanged by the regional terminology correction.
-
-## Post-Audit103 class-rework package — APPROVED, PENDING VALID CANON PROMOTION
-
-The following are approved design decisions developed after Audit103. They must be preserved for the next valid canon promotion, but this summary does not misnumber them as Audit100.
-
-### CL13 class architecture
+### CL13 architecture
 - Base Class cap = **CL13**.
 - Subclass cap = **CL13**.
 - Base/Subclass CEXP are separate and go only to the selected class.
 - Recruited permanent characters receive full selected-class CEXP whether active or reserve.
-- Cumulative CEXP thresholds: CL1 0; CL2 150; CL3 350; CL4 600; CL5 950; CL6 1350; CL7 1800; CL8 2300; CL9 2850; CL10 3450; CL11 4150; CL12 4950; CL13 6000.
-- Retired 4,800-CEXP CL12 model must not return.
+- CEXP thresholds: CL1 0; CL2 150; CL3 350; CL4 600; CL5 950; CL6 1350; CL7 1800; CL8 2300; CL9 2850; CL10 3450; CL11 4150; CL12 4950; CL13 6000.
+- The retired **4,800-CEXP CL12** model must not return.
 
 ### Global Ability weapon rule
-**No Ability or Ultimate requires a particular equipped weapon.** Once learned, Abilities remain usable under any otherwise-legal loadout. Equipment still controls ordinary Attack, stats, slot geometry, Relic/Legacy legality, and presentation. If a technique visually implies a weapon not equipped, it uses an authored manifested/projected expression instead of disabling the command.
+**No Ability or Ultimate requires a particular equipped weapon.** Once learned, an Ability remains usable with any otherwise-legal equipment loadout. Equipment still controls ordinary Attack, stats, slot geometry, Relic/Legacy legality, and presentation. Manifested/projected weapon expression is used when a technique visually implies a weapon that is not equipped.
 
-### Final reciprocal Subclasses
-- **Cyanis — Crest Knight / Crest Arcanist**
-- **Vaelira — Green Arcanist / Axiomblade**
-- **Ilyra — Blue Warden / Vowblade**
-- **Seyrik — Ruin Vanguard / Ruin Warden**
-- **Torren — War Archer / Routeweaver**
-- **Nimera — Cardweaver / Truthshot**
+### Final Base/Subclass identities
+- Cyanis — **Crest Knight / Crest Arcanist**
+- Vaelira — **Green Arcanist / Axiomblade**
+- Ilyra — **Blue Warden / Vowblade**
+- Seyrik — **Ruin Vanguard / Ruin Warden**
+- Torren — **War Archer / Routeweaver**
+- Nimera — **Cardweaver / Truthshot**
 
-Key formula/state locks:
+Key locks:
 - Vowblade damaging Abilities = **50% Attack / 50% Spirit Hybrid**.
 - Ruin Warden Siphon Rune = one hit, **60% Attack / 40% Magic Hybrid**.
 - Routeweaver damaging Abilities = **50% Attack / 50% Magic Hybrid**.
 - Hunter's Measure is shared between Torren and Nimera.
-- Diysean Appraisal remains information reveal only; there is no `Appraised` status.
+- Diysean Appraisal is information reveal only; there is no `Appraised` status.
 - Indexed remains separate.
 
-### Mastery / Synthesis
-- Mastery architecture = **4 Core + 4 Subclass + 1 Synthesis**, each costing 1 MP; banking is legal.
-- **Equipment Mastery = Subclass Mastery Node 4 at Subclass CL10** and grants donor Relic access.
-- Exact Core Mastery effects/final Core gate reconciliation remain open.
-- Synthesis requires Base CL13 + Subclass CL13 + all eight prior Masteries + authored resolution requirement + 1 unspent MP.
-- Synthesis purchase is individual and persistent; it does not create a third class, merge stat packages, activate both Traits, add actions/slots/Card slots/gauges, or create weapon requirements.
+---
+
+## Audit104 Mastery / Synthesis authority
+
+Mastery architecture = **4 Core + 4 Subclass + 1 Synthesis**, each costing 1 MP; banking is legal.
+
+Locked:
+- **Equipment Mastery = Subclass Mastery Node 4 at Subclass CL10**;
+- Equipment Mastery grants donor Relic access;
+- ordinary donor equipment is learned earlier through Subclass progression;
+- Legacy comes later through the Synthesis/Legacy chain.
+
+Synthesis eligibility:
+**Base CL13 + Subclass CL13 + all four Core Masteries + all four Subclass Masteries + authored resolution/integration requirement + 1 unspent MP**.
+
+Synthesis is individually purchased and persistent. It does not create a third class, merge stat packages, activate both Traits, add actions/slots/Card slots/gauges, bypass two-slot geometry, or create weapon requirements.
 
 Final Synthesis names:
 - Cyanis — **Unified Crest**
@@ -133,38 +120,103 @@ Final Synthesis names:
 - Torren — **Measured Passage**
 - Nimera — **Living Proof**
 
-### Mandatory late-Chapter-11 Synthesis-resolution beats
-- Cyanis ⇄ Vaelira — **What Holds, What Changes** — Cresthaven staging.
-- Ilyra ⇄ Seyrik — **Keep Them Alive** — Forward Hub treatment/recovery staging.
-- Torren ⇄ Nimera — **Enough to Move** — Forward Hub operations/map-table staging.
+Exact effects are controlled by Audit104 and its incorporated pair-specific Synthesis specs.
 
-These are mandatory authored continuity, not romance/affinity/player-choice scenes. Exact final dialogue and scene numbering remain for later script integration.
+---
 
-### Approved Legacy identities / reciprocal eligibility
-- Crest Knight — **Stillpoint Aegis** — Shield.
-- Green Arcanist — **Living Prism** — Focus.
-- Blue Warden — **Mercy's Boundary** — Shield.
-- Ruin Vanguard — **Purposebound** — Two-Handed Sword.
-- War Archer — **Known Ground** — Great Bow.
-- Cardweaver — **Decisive Record** — one-slot Conduit.
+## Mandatory late-Chapter-11 Synthesis-resolution beats
 
-The reciprocal Synthesis eligibility mapping remains approved in the pair-specific Legacy specs.
+- Cyanis ⇄ Vaelira — **What Holds, What Changes** — Cresthaven.
+- Ilyra ⇄ Seyrik — **Keep Them Alive** — Forward Hub treatment/recovery area.
+- Torren ⇄ Nimera — **Enough to Move** — Forward Hub operations/map table.
 
-### Legacy reconciliation gate before canon promotion
-Audit103 already locks **six character-specific Legacy Components as Character-Quest rewards**. The newer class-rework work also approves a shared Cresthaven physical-Legacy pickup presentation. These two approved layers must be reconciled explicitly before the Legacy **acquisition presentation** is promoted into v1.89 / Audit104 so no Character-Quest reward is orphaned or silently superseded.
+All three are mandatory authored continuity, not romance/affinity/player-choice scenes. They satisfy the narrative Synthesis prerequisite for both characters in the pair but do not themselves purchase Synthesis.
 
-Until that reconciliation is approved:
-- Legacy names, families, reciprocal Synthesis eligibility, and slot geometry remain approved design;
-- the exact final relationship between each Character Quest Legacy Component and the Chapter-12 Cresthaven physical Legacy release remains the one unresolved integration point in the Legacy acquisition chain.
+---
 
-## Immediate next canon work
+## Final Legacy identities / reciprocal mappings
 
-1. Reconcile **Audit103 Legacy Components** with the newly approved six Legacy items / Cresthaven release.
-2. Then issue the class-rework promotion in the next valid slot: **v1.89 / Audit104**, not v1.85 / Audit100.
-3. Reconcile Core Mastery effect text and final Core gates.
-4. Finalize global direct-damage-reduction stacking.
-5. Finalize the universal Ultimate MP-cost convention.
-6. Perform the deliberate repository-wide `Sixfold Accord` → **Sixfold Volition** terminology sweep.
-7. Run class/equipment/Mastery/Synthesis/Legacy implementation-data regression after the valid canon promotion.
+- Crest Knight — **Stillpoint Aegis** — Shield — reciprocal wearer Vaelira after Unified Spectrum.
+- Green Arcanist — **Living Prism** — Focus — reciprocal wearer Cyanis after Unified Crest.
+- Blue Warden — **Mercy's Boundary** — Shield — reciprocal wearer Seyrik after Tempered Ruin.
+- Ruin Vanguard — **Purposebound** — Two-Handed Sword — reciprocal wearer Ilyra after Mercy Unbroken.
+- War Archer — **Known Ground** — Great Bow — reciprocal wearer Nimera after Living Proof.
+- Cardweaver — **Decisive Record** — one-slot Conduit — reciprocal wearer Torren after Measured Passage.
 
-Omission from this implementation-facing summary does not erase compatible older canon. Exact approved visual masters, v1.88 / Audit103 quest authority, compatible Audit99 engineering authority, and newer explicit user corrections control conflicts.
+Normal slot geometry always applies. No Legacy changes Ability/Ultimate legality.
+
+Exact final item stats/passives remain for the production item/equipment audit.
+
+---
+
+## Character Quest Legacy Component → Cresthaven Legacy release — controlling
+
+Audit104 reconciles Audit103's six Legacy Components with the six final Legacy items.
+
+Mapping:
+- Vaelira / **The Sky No One Chose** → component for **Living Prism**.
+- Cyanis / **The Weight of the Crest** → component for **Stillpoint Aegis**.
+- Nimera / **The Archive That Remembers** → component for **Decisive Record**.
+- Seyrik / **The Name That Remains** → component for **Purposebound**.
+- Ilyra / **Mercy Has a Voice** → component for **Mercy's Boundary**.
+- Torren / **The Road That Returns** → component for **Known Ground**.
+
+The Character Quest Component is not the final item. The physical masterwork already exists in secured Cresthaven inventory. The Character Quest supplies the unique missing keyed/core component required to complete/restore that item.
+
+During the **Chapter 12 pre-point-of-no-return Cresthaven preparation window**:
+1. complete the corresponding Character Quest and earn its Legacy Component;
+2. return to the secured-equipment release;
+3. integrate/register the Component in the matching Legacy through a short fixed authored interaction;
+4. the Component leaves Key Items and the completed Legacy enters normal inventory;
+5. the native owner may equip it under normal legality;
+6. reciprocal use additionally requires that reciprocal character's Synthesis.
+
+If the Character Quest is incomplete, that Legacy remains secured/incomplete rather than entering inventory as a dead shell. The player may finish the quest and return before the point of no return.
+
+This fixed one-to-one completion is **not a crafting system**. No recipes, upgrade tiers, material lists, currency fees, random outcomes, or repeatable component economy are introduced.
+
+Because Character Quests are optional, the six Legacy items are also optional endgame equipment and may not be required for mandatory Chapter-12 story completion, Story Primes, Final Severance, or the ending.
+
+---
+
+## Audit99 random-encounter/runtime authority — inherited where compatible
+
+Compatible Audit99 engineering rules remain active, including:
+- random encounters use hidden eligible-movement-distance pressure;
+- pressure is fed by actual resolved horizontal displacement after collision resolution;
+- standing still, wall-pushing with zero displacement, vertical-only displacement, and movement-disabled displacement do not count;
+- menus/cutscenes/dialogue/authored pauses suspend pressure;
+- maximum **8 simultaneously active enemies**;
+- exact immediate formation repeats are suppressed where alternatives exist;
+- transient random-encounter handoff is not serialized into saves;
+- area tuning retains same-ecology / new-ecology / safe-reset semantics.
+
+Any old player-level progression references based on an absolute Level-60 cap are superseded by the later Level-70 authority inherited by Audit104.
+
+---
+
+## World / map authority
+
+The exact approved Yahtrea map remains the controlling surface-world visual/spatial master. Do not move, regenerate, reinterpret, simplify, add, remove, or reconnect geography unless explicitly approved.
+
+Formal modern Realms:
+- **The Westways** — west; supersedes Edgelands as the regional name.
+- **The Greyspires** — northern mountain region; supersedes Diysereach.
+- **The Crownhold** — capital/royal-core region; supersedes Southhold.
+
+Settlement and landmark names remain unchanged by those regional terminology corrections.
+
+---
+
+## Immediate open work after Audit104
+
+1. Finalize **Core Mastery** effect text and Core gate schedule.
+2. Reconcile any still-open earlier Subclass Mastery-node effect/gate text other than Equipment Mastery at CL10.
+3. Finalize the global **percentage direct-damage-reduction stacking rule**.
+4. Finalize the universal **Ultimate MP-cost convention**.
+5. Finalize Legacy numerical stats/passives and item metadata in the production item/equipment audit.
+6. Integrate the three Synthesis-resolution beats into final Chapter-11 scene numbering/dialogue.
+7. Perform the repository-wide `Sixfold Accord` → **Sixfold Volition** stale-terminology sweep.
+8. Run implementation/data regression across class, equipment, Mastery, Synthesis, and Legacy data.
+
+Omission from this summary does not erase compatible older canon. Audit104, Audit103, compatible prior canon, exact visual authorities, and newer explicit user corrections control conflicts.
