@@ -1,8 +1,8 @@
 # Diyse — Class Synthesis Working Model
 
-**Status:** APPROVED UNIVERSAL SYNTHESIS ARCHITECTURE — ALL THREE RECIPROCAL PAIRS APPROVED  
+**Status:** APPROVED UNIVERSAL SYNTHESIS ARCHITECTURE — ALL THREE RECIPROCAL PAIRS APPROVED — FINAL CROSS-BALANCE PASS COMPLETE  
 **Parent authority:** v1.84 / Audit99 plus newer approved class-rework decisions.  
-**Related files:** `docs/CLASS_MASTERY_WORKING_MODEL.md`, `docs/CLASS_REWORK_CROSS_BALANCE_AUDIT_2026-08-21.md`, `docs/CLASS_REWORK_CURRENT_UPDATE_2026-08-21.md`, `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`, `docs/ILYRA_SEYRIK_SYNTHESIS_WORKING_SPEC.md`, `docs/TORREN_NIMERA_SYNTHESIS_WORKING_SPEC.md`
+**Related files:** `docs/CLASS_MASTERY_WORKING_MODEL.md`, `docs/CLASS_REWORK_CROSS_BALANCE_AUDIT_2026-08-21.md`, `docs/CLASS_REWORK_CURRENT_UPDATE_2026-08-21.md`, `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`, `docs/ILYRA_SEYRIK_SYNTHESIS_WORKING_SPEC.md`, `docs/TORREN_NIMERA_SYNTHESIS_WORKING_SPEC.md`, `docs/CLASS_SYNTHESIS_CROSS_BALANCE_AUDIT_2026-08-21.md`
 
 ## 1. Purpose
 
@@ -101,7 +101,8 @@ However:
 - current class selection still controls the selected class's **Trait**;
 - Synthesis does not make both Traits active at once;
 - an individual Synthesis effect may reference Base or Subclass abilities, states, Fields, equipment, Cards, or established statuses, but it must obey their ordinary legality and timing;
-- **no Synthesis effect may introduce a weapon requirement for an Ability or Ultimate**, because learned Abilities are globally weapon-independent.
+- **no Synthesis effect may introduce a weapon requirement for an Ability or Ultimate**, because learned Abilities are globally weapon-independent;
+- a learned Ability retains its **source-class identity** for Synthesis triggers regardless of the class currently selected.
 
 ---
 
@@ -210,7 +211,7 @@ Boundaries:
 - if the Card has no Hit/application roll, no replacement benefit is created;
 - no weapon requirement is created.
 
-All six character-specific Synthesis effects are now mechanically defined.
+All six character-specific Synthesis effects are mechanically defined.
 
 ---
 
@@ -246,10 +247,35 @@ Equipment can still have its own legality and slot rules, but **Abilities themse
 
 ---
 
-## 12. Remaining Synthesis work
+## 12. Approved final six-Synthesis cross-balance pass
 
-1. Run the **final six-Synthesis cross-balance / consistency pass**.
-2. Define the exact shared character-resolution story beat for each reciprocal pair.
-3. Finalize pair-specific Legacy item mapping/naming and acquisition presentation.
-4. Normalize Core Mastery text and final global combat-modifier / Ultimate-cost rules.
-5. Promote the completed class-rework package through a new master-canon audit after the remaining normalization and Legacy/story gates are stable.
+Detailed authority: `docs/CLASS_SYNTHESIS_CROSS_BALANCE_AUDIT_2026-08-21.md`.
+
+**PASS — no raw-number rebalance required.**
+
+Approved normalization from the pass:
+- learned Ability source-class identity controls Synthesis trigger classification even when the other class is selected;
+- one Ability action can satisfy a given Synthesis trigger only once, regardless of multihit, AoE, multi-heal, or multi-cleanse resolution;
+- each directional Synthesis clause can hold at most one armed copy of its own future bonus/discount; the opposite directional clause may be armed independently when legal;
+- current Synthesis Power bonuses and MP discounts do **not** apply to Ultimates;
+- an Ultimate may arm a later Synthesis effect only where the character-specific spec explicitly allows it;
+- merely arming a Prepared effect never counts as a damaging trigger; only an actually resolving response may qualify where explicitly legal;
+- all six remain weapon-independent and create no new resource/state family.
+
+Relative-power conclusion:
+- Cyanis's +15% Power remains justified by its longer Attunement → Field/Seal → Base-attack setup;
+- Vaelira's state flexibility/Imprint extension requires no flat numeric addition;
+- Ilyra/Seyrik's -3 MP cadence is appropriate because it does not increase healing/revival values;
+- Torren's -2 MP remains intentionally smaller because it couples two existing high-value systems, Hunter's Measure and multi-round Route Fields;
+- Nimera's Appraisal + Measure requirement justifies her two-part Truthshot/Card reliability payoff.
+
+Mechanical Synthesis design is therefore closed unless later explicitly reopened.
+
+---
+
+## 13. Remaining Synthesis / downstream work
+
+1. Define the exact shared **resolution / integration story beat** for each reciprocal pair.
+2. Finalize pair-specific **Legacy item mapping, naming, and acquisition presentation**.
+3. Normalize Core Mastery text and final global combat-modifier / Ultimate-cost rules.
+4. Promote the completed class-rework package through a new master-canon audit after the remaining normalization and Legacy/story gates are stable.
