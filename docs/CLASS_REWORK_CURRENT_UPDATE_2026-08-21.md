@@ -1,6 +1,6 @@
 # Diyse — Class Rework Current Update — 2026-08-21
 
-**Status:** ACTIVE CLASS-REWORK CONSOLIDATION — ALL SIX SUBCLASSES + ALL SIX SYNTHESIS EFFECTS MECHANICALLY CLOSED; FIRST PAIR RESOLUTION BEAT APPROVED; NOT YET MASTER-CANON PROMOTED  
+**Status:** ACTIVE CLASS-REWORK CONSOLIDATION — ALL SIX SUBCLASSES + ALL SIX SYNTHESIS EFFECTS MECHANICALLY CLOSED; FIRST TWO PAIR RESOLUTION BEATS APPROVED; NOT YET MASTER-CANON PROMOTED  
 **Parent whole-project authority:** v1.84 / Audit99 plus newer explicit class-rework decisions.  
 **Purpose:** current handoff/approval ledger for the CL13 class rework, reciprocal Subclasses, Mastery/Synthesis, equipment inheritance, pair-resolution beats, and remaining Legacy/normalization work.
 
@@ -202,7 +202,7 @@ Relative-power conclusions:
 
 ### Cyanis ⇄ Vaelira — What Holds, What Changes
 
-**APPROVED.** Detailed authority is now inside `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`.
+**APPROVED.** Detailed authority is inside `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`.
 
 Placement / structure:
 - late Chapter 11, during the mandatory preparation/return window before Chapter 12's point of no return;
@@ -221,11 +221,44 @@ Story thesis:
 
 The closing image is a Crest with a stable core and changing elemental expression around it. No new lore artifact, combat reward, or bespoke gameplay system is introduced. Exact dialogue remains deferred to the later dialogue/script pass.
 
+### Ilyra ⇄ Seyrik — Keep Them Alive
+
+**APPROVED.** Detailed authority is inside `docs/ILYRA_SEYRIK_SYNTHESIS_WORKING_SPEC.md`.
+
+Placement / structure:
+- late Chapter 11 at the **Forward Hub** in captured Black Host territory, after an already-authored field operation;
+- use the existing treatment/recovery staging rather than a bespoke location;
+- exact final scene number remains for script integration;
+- mandatory authored continuity, not a romance scene, player-choice reward, or missable camp event;
+- completion satisfies the individual Synthesis story prerequisite for **both Ilyra and Seyrik**, but does not purchase either Synthesis node.
+
+Story setup / thesis:
+- an unnamed wounded Black Host captive is taken alive, disarmed, restrained, and needs immediate treatment;
+- Ilyra treats the captive while Seyrik assists because his Black Host knowledge is practically useful;
+- there is deliberately **no false argument** where Ilyra wants mercy and Seyrik wants the captive dead;
+- damaged armor obstructing the wound has to be decisively severed; Ilyra defines what must be protected and Seyrik applies controlled Ruin only inside that limit;
+- on the second necessary intervention Ilyra chooses the hard action herself rather than waiting for Seyrik to name it;
+- Seyrik follows her boundary exactly and stops when the necessary damage is complete.
+
+Character resolution:
+- Ilyra learns that mercy cannot be measured only by minimizing the pain she personally chooses to cause; inaction can be the crueler choice when preservation requires a hard act;
+- Seyrik learns that control means knowing what destruction is for and stopping when its purpose is achieved, not merely reducing damage in the abstract;
+- **mercy is not forgiveness**, **restraint is not passivity**, and **violence is not automatically decisiveness**;
+- the captive surviving does not create blanket absolution for the Black Host or a new redemption arc.
+
+Closing image:
+- the captive remains alive, bandaged, and securely restrained;
+- Ilyra checks the dressing;
+- Seyrik checks the restraint, then leaves water where the captive can reach it after waking without compromising security;
+- Ilyra notices and says nothing; Seyrik does not explain it.
+
+No combat encounter, boss, item reward, recurring NPC, new lore artifact, or new system is introduced. Exact dialogue remains deferred to the later dialogue/script pass.
+
 ---
 
 ## 9. Immediate open work
 
-1. Author the remaining two reciprocal-pair resolution beats: **Ilyra ⇄ Seyrik** and **Torren ⇄ Nimera**.
+1. Author the final reciprocal-pair resolution beat: **Torren ⇄ Nimera**.
 2. Finalize pair-specific **Legacy mapping / naming / acquisition presentation**.
 3. Reconcile **Core Mastery** effect text.
 4. Finalize the global direct-damage-reduction stacking rule and universal Ultimate cost convention.
