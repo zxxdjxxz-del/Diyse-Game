@@ -1,8 +1,8 @@
 # Diyse — Class Rework Current Update — 2026-08-21
 
-**Status:** ACTIVE CLASS-REWORK CONSOLIDATION — ALL SIX SUBCLASSES + ALL SIX SYNTHESIS EFFECTS + ALL THREE PAIR RESOLUTION BEATS APPROVED; NOT YET MASTER-CANON PROMOTED  
+**Status:** ACTIVE CLASS-REWORK CONSOLIDATION — ALL SIX SUBCLASSES + ALL SIX SYNTHESIS EFFECTS + ALL THREE PAIR RESOLUTION BEATS APPROVED; CYANIS/VAELIRA LEGACY PAIR APPROVED; NOT YET MASTER-CANON PROMOTED  
 **Parent whole-project authority:** v1.84 / Audit99 plus newer explicit class-rework decisions.  
-**Purpose:** current handoff/approval ledger for the CL13 class rework, reciprocal Subclasses, Mastery/Synthesis, equipment inheritance, pair-resolution beats, and remaining Legacy/normalization work.
+**Purpose:** current handoff/approval ledger for the CL13 class rework, reciprocal Subclasses, Mastery/Synthesis, equipment inheritance, pair-resolution beats, Legacy mapping, and remaining normalization work.
 
 ## Approval rule
 
@@ -25,6 +25,9 @@ Cross-class / Synthesis:
 - `docs/ILYRA_SEYRIK_SYNTHESIS_WORKING_SPEC.md`
 - `docs/TORREN_NIMERA_SYNTHESIS_WORKING_SPEC.md`
 - `docs/CLASS_SYNTHESIS_CROSS_BALANCE_AUDIT_2026-08-21.md`
+
+Legacy:
+- `docs/CYANIS_VAELIRA_LEGACY_WORKING_SPEC.md`
 
 ---
 
@@ -275,9 +278,37 @@ Exact dialogue remains deferred to the later dialogue/script pass.
 
 ---
 
-## 9. Immediate open work
+## 9. Approved Cyanis ⇄ Vaelira Legacy pair
 
-1. Finalize pair-specific **Legacy mapping / naming / acquisition presentation** for all three reciprocal pairs.
+Detailed authority: `docs/CYANIS_VAELIRA_LEGACY_WORKING_SPEC.md`.
+
+### Crest Knight Legacy — Stillpoint Aegis
+- equipment family: **Shield**;
+- native tradition: Crest Knight;
+- Vaelira gains reciprocal Legacy eligibility after purchasing her Synthesis node / **Unified Spectrum**;
+- visual identity: compact ivory / stone-ceramic and dark-gunmetal Crest shield with restrained antique-gold channels and a ruby-centered fixed-point motif.
+
+### Green Arcanist Legacy — Living Prism
+- equipment family: **Focus**;
+- native tradition: Green Arcanist;
+- Cyanis gains reciprocal Legacy eligibility after purchasing his Synthesis node / **Unified Crest**;
+- visual identity: emerald-dominant crystalline Focus with ivory / antique-gold structure and restrained multi-element refraction.
+
+### Acquisition presentation
+- both are deterministic physical equipment pickups in **Cresthaven during the Chapter 12 pre-point-of-no-return preparation window**;
+- reuse an existing secured-equipment / armory staging area;
+- no Hunt, boss, crafting recipe, currency, material grind, random drop, or new dungeon;
+- acquisition remains separate from Synthesis eligibility: a collected Legacy may remain locked in inventory until reciprocal Synthesis legality is satisfied;
+- the late-Chapter-11 **What Holds, What Changes** scene remains item-reward-free;
+- exact numerical item stats, passive text if any, item IDs, prices/sell values, and final lore descriptions remain for the production item/equipment audit.
+
+The Secondary-slot mapping is intentional: the pair receives a Legacy Shield and Focus rather than mandatory capstone weapons, preserving open build choice and the global rule that Abilities/Ultimates never require particular equipment.
+
+---
+
+## 10. Immediate open work
+
+1. Finalize pair-specific **Legacy mapping / naming / acquisition presentation** for **Ilyra ⇄ Seyrik** and **Torren ⇄ Nimera**.
 2. Reconcile **Core Mastery** effect text.
 3. Finalize the global direct-damage-reduction stacking rule and universal Ultimate cost convention.
 4. Perform the deliberate global stale-terminology sweep from `Sixfold Accord` to **Sixfold Volition**.
