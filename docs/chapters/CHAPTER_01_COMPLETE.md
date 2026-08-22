@@ -33,7 +33,7 @@ Live Chapter 1 Resource set:
 
 Validation authority:
 - `tests/dialogue/validate_chapter_01_resources.gd` checks schema, metadata, expected beat counts, and **every spoken speaker/text pair against the controlling Markdown source in exact order**.
-- `tests/dialogue/validate_chapter_01_continuity.gd` checks party handoffs, optional-scene gates, knowledge firewall, C04 Audit79 final wording, C03 smoke/fire staging, and Torren/Maevra address progression.
+- `tests/dialogue/validate_chapter_01_continuity.gd` checks party handoffs, optional-scene gates, knowledge firewall, C04 current final wording, C03 smoke/fire staging, and Torren/Maevra address progression.
 - These gates are part of the permanent Godot Smoke workflow.
 
 ## Hard continuity / implementation locks
@@ -53,7 +53,7 @@ Validation authority:
 C03, C04, and C05 unlock after S011 and are independently available.
 
 - **C03:** ordinary dinner; terrible bread is not Torren's; Cyanis eats two bowls; Torren's `Hot / Enough / Safe / Cheap` road-food logic; comfortable silence; Torren may smoke from existing coals as ordinary background behavior.
-- **C04:** Audit79's line-complete version is controlling. The misunderstanding is **Cyanis: “Old whore.” / Torren: “Bitch.”** The older `Whore/Shore` recovery reconstruction is superseded and must not be restored.
+- **C04:** The current explicit wording override is controlling. Torren's handwritten map note actually says **“old cut.”** Cyanis misreads it aloud as **“Old slut.”** Torren immediately answers **“Bitch.”** The argument then centers on whether Torren wrote a **C** or an **S**; Torren still insists it says “old cut,” Cyanis insists the handwriting says “old slut,” and Torren deliberately repeats **“Old slut.”** later to make Cyanis break down laughing again. The superseded **“Old whore”** version and the still-older `Whore/Shore` reconstruction must not be restored.
 - **C05:** Ilyra/Maevra friendship grows through reciprocal self-neglect, dry humor, and work. Cyanis catches their hypocrisy; all three ultimately stop working and go eat.
 
 ## Combat / affordable-2.5D locks
