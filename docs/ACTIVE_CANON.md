@@ -4,9 +4,10 @@ This is an implementation-facing summary. It does **not** replace the authoritat
 
 ## Current written authority
 
-- **Whole-project root:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.84 / Audit99 — Random-Encounter Runtime Implementation and Production-Readiness Closure**.
-- **Date:** August 20, 2026.
+- **Whole-project root:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.85 / Audit100 — Reciprocal Class, Synthesis, and Legacy Architecture Lock**.
+- **Date:** August 22, 2026.
 - Immediate inherited chain:
+  - v1.84 / Audit99 — Random-Encounter Runtime Implementation and Production-Readiness Closure;
   - v1.83 / Audit98 — Random-Encounter Pressure, Revised EXP Curve and Hunt-Economy Reconciliation;
   - v1.82 / Audit97 — Campaign EXP Economy, Optional Progression and Battle-Pacing Closure;
   - v1.81 / Audit96 — Level Progression, Hunt Difficulty and Encounter Strength Closure;
@@ -23,6 +24,7 @@ This is an implementation-facing summary. It does **not** replace the authoritat
   - v1.70 / Audit85 — Yahtrea Exact World Map Visual and Spatial Authority Lock.
 
 Current canon files include:
+- `docs/canon/AUDIT100_RECIPROCAL_CLASS_SYNTHESIS_AND_LEGACY_ARCHITECTURE_LOCK.md`
 - `docs/canon/AUDIT99_RANDOM_ENCOUNTER_RUNTIME_IMPLEMENTATION_AND_PRODUCTION_READINESS_CLOSURE.md`
 - `docs/canon/AUDIT98_RANDOM_ENCOUNTER_EXP_AND_HUNT_ECONOMY_RECONCILIATION.md`
 - `docs/canon/AUDIT97_CAMPAIGN_EXP_ECONOMY_OPTIONAL_PROGRESSION_AND_BATTLE_PACING_CLOSURE.md`
@@ -48,9 +50,82 @@ Current canon files include:
 - Absolute player level cap: **60**. No Level 61+, prestige leveling, or separate postgame leveling campaign.
 - Cleared-save `WORLD_AFTER` free roam exists; no separate postgame progression campaign.
 
+## Audit100 reciprocal class / Synthesis / Legacy authority — controlling
+
+Detailed authority: `docs/canon/AUDIT100_RECIPROCAL_CLASS_SYNTHESIS_AND_LEGACY_ARCHITECTURE_LOCK.md`.
+
+### Sixfold Volition
+- Formal name: **The Sixfold Volition**; `Sixfold Accord` is stale terminology.
+- No Subclass exists before the Volition.
+- All six Subclasses unlock at the Volition.
+- Reciprocal pairs: **Cyanis ⇄ Vaelira**, **Ilyra ⇄ Seyrik**, **Torren ⇄ Nimera**.
+
+### CL13 class architecture
+- Base Class cap = **CL13**.
+- Subclass cap = **CL13**.
+- Base/Subclass CEXP are separate and go only to the selected class.
+- Recruited permanent characters receive full selected-class CEXP whether active or reserve.
+- Cumulative CEXP thresholds: CL1 0; CL2 150; CL3 350; CL4 600; CL5 950; CL6 1350; CL7 1800; CL8 2300; CL9 2850; CL10 3450; CL11 4150; CL12 4950; CL13 6000.
+- Retired 4,800-CEXP CL12 model must not return.
+
+### Global Ability weapon rule
+**No Ability or Ultimate requires a particular equipped weapon.** Once learned, Abilities remain usable under any otherwise-legal loadout. Equipment still controls ordinary Attack, stats, slot geometry, Relic/Legacy legality, and presentation. If a technique visually implies a weapon not equipped, it uses an authored manifested/projected expression instead of disabling the command.
+
+### Final Base/Subclass identities
+- **Cyanis — Crest Knight / Crest Arcanist**
+- **Vaelira — Green Arcanist / Axiomblade**
+- **Ilyra — Blue Warden / Vowblade**
+- **Seyrik — Ruin Vanguard / Ruin Warden**
+- **Torren — War Archer / Routeweaver**
+- **Nimera — Cardweaver / Truthshot**
+
+Ruin Warden supersedes Ruin Reclaimer/Ruin Healer. Truthshot supersedes Nimera's retired Sixfold Knight direction.
+
+### Important formula/state locks
+- Vowblade damaging Abilities = **50% Attack / 50% Spirit Hybrid**.
+- Ruin Warden Siphon Rune = one hit, **60% Attack / 40% Magic Hybrid**.
+- Routeweaver damaging Abilities = **50% Attack / 50% Magic Hybrid**.
+- Hunter's Measure is shared between Torren and Nimera.
+- Diysean Appraisal remains information reveal only; there is no `Appraised` status.
+- Indexed remains a separate Card-specific state.
+
+### Mastery / Relic / Synthesis
+- Mastery architecture = **4 Core + 4 Subclass + 1 Synthesis**, each costing 1 MP; banking is legal.
+- **Equipment Mastery = Subclass Mastery Node 4 at Subclass CL10** and grants donor Relic access.
+- Exact Core Mastery effects/final Core gate reconciliation remain open.
+- Synthesis requires Base CL13 + Subclass CL13 + all eight prior Masteries + authored resolution requirement + 1 unspent MP.
+- Synthesis purchase is individual and persistent; it does not create a third class, merge stat packages, activate both Traits, add actions/slots/Card slots/gauges, or create weapon requirements.
+
+### Final Synthesis effects
+- Cyanis — **Unified Crest**
+- Vaelira — **Unified Spectrum**
+- Ilyra — **Mercy Unbroken**
+- Seyrik — **Tempered Ruin**
+- Torren — **Measured Passage**
+- Nimera — **Living Proof**
+
+Exact mechanics are canonized through the Audit100 incorporated detailed specs and six-Synthesis cross-balance audit.
+
+### Mandatory late-Chapter-11 resolution beats
+- Cyanis ⇄ Vaelira — **What Holds, What Changes** — preferred Cresthaven staging.
+- Ilyra ⇄ Seyrik — **Keep Them Alive** — Forward Hub treatment/recovery staging.
+- Torren ⇄ Nimera — **Enough to Move** — Forward Hub operations/map-table staging.
+
+These are mandatory authored continuity, not romance/affinity/player-choice scenes. Each shared scene satisfies the story prerequisite for both characters but does not automatically purchase Synthesis. Exact final dialogue and scene numbering remain for script integration.
+
+### Final six Legacy items
+- Crest Knight — **Stillpoint Aegis** — Shield — reciprocal Vaelira eligibility after Synthesis.
+- Green Arcanist — **Living Prism** — Focus — reciprocal Cyanis eligibility after Synthesis.
+- Blue Warden — **Mercy's Boundary** — Shield — reciprocal Seyrik eligibility after Synthesis.
+- Ruin Vanguard — **Purposebound** — Two-Handed Sword — reciprocal Ilyra eligibility after Synthesis.
+- War Archer — **Known Ground** — Great Bow — reciprocal Nimera eligibility after Synthesis.
+- Cardweaver — **Decisive Record** — one-slot Conduit — reciprocal Torren eligibility after Synthesis.
+
+All six are deterministic physical pickups in one shared **Cresthaven secured-equipment release during the Chapter 12 pre-point-of-no-return preparation window**. Acquisition is separate from Synthesis eligibility. Exact final Legacy stats/passives remain for the production item/equipment audit.
+
 ## Audit98 progression/economy model — inherited and controlling
 
-Audit99 does not change Audit98's progression math.
+Audit100 does not change Audit98's progression math.
 
 Campaign-only progression reference:
 - Ch0: no levels / no EXP progression;
@@ -305,29 +380,31 @@ For the Audit93 160-identity chapter roster:
 - only roughly 20–25 should read to players as obvious palette swaps;
 - shared assets never imply shared lore identity.
 
-## Item/equipment production boundary — Audit99
+## Item/equipment production boundary — Audit99 inherited with Audit100 Legacy overlay
 
-Audit99 does not invent a new item catalog.
+Audit99 did not invent a new item catalog, and Audit100 still does not silently lock the broader production item economy.
 
 Compatible earlier equipment-system rules remain inherited, including:
 - open equipment and persistent unlocked abilities;
 - Subclass selection controlling its stat package, Trait, and Subclass-only abilities;
-- donor / Legacy architecture;
+- donor / Relic / Legacy architecture;
 - Legacy equipment bonuses applying to any legal wearer;
 - Nimera's Conduit concept;
 - Torren Routeweaver's inherited access to the relevant Nimera Base equipment concept;
 - Cards remaining separate from normal inventory/equipment.
 
-The **production item catalog/economy remains open** unless an individual item is separately locked elsewhere.
+Audit100 now additionally locks the **six named Legacy identities, equipment families, reciprocal Synthesis mappings, slot geometry, and shared deterministic Chapter-12 Cresthaven acquisition presentation** summarized above.
 
-The next dedicated item audit must resolve:
+The **production item catalog/economy remains open** beyond specifically locked items and rules.
+
+The dedicated item audit must resolve:
 - item taxonomy and practical total count;
 - consumables;
 - weapon progression;
 - armor;
-- accessories;
+- accessories if retained by current item authority;
 - Conduits;
-- Legacy production stats where open;
+- Legacy production stats/passives where open;
 - materials/drop economy;
 - shops and prices;
 - treasure/chest distribution;
@@ -356,8 +433,8 @@ All existing settlement and landmark names remain unchanged by this terminology 
 - Chapter 2 S015/B003 unnamed masked SECOND OFFICER is Seyrik Rell; dialogue remains unchanged and identity remains unrevealed in-scene.
 - Chapter 5 — **The Mountain Engine** — remains the next inherited exact scene-production / HD-2D production-audit frontier, subject to Audit91's beat-level rewrite/reconciliation gate.
 - Chapter 9 route remains Larkspire / Equal Mercy → Last Sanctuary → Crownfall invasion → Mercy Is Not Surrender; Rhazek/Bastion Devourer is the mandatory Crownfall climax; Mercyfallen Behemoth is Hunt #9.
-- Chapter 11 remains Audit89-locked: Varkesh capture precedes Forward Hub; Vaelkor two-form climax; post-Vaelkor cleanup; deliberate Chapter 12 launch.
-- Chapter 12 remains Audit89-locked: no Regional Hunt; Devourer of Names Elite; Last Weapon Archon mandatory guardian; Reconstituted Entity → The Last Command; modern Final Severance; no third form.
+- Chapter 11 remains Audit89-locked: Varkesh capture precedes Forward Hub; Vaelkor two-form climax; post-Vaelkor cleanup; deliberate Chapter 12 launch. Audit100 additionally locks the three mandatory late-Chapter-11 Synthesis-resolution beats within the preparation/operations continuity.
+- Chapter 12 remains Audit89-locked: no Regional Hunt; Devourer of Names Elite; Last Weapon Archon mandatory guardian; Reconstituted Entity → The Last Command; modern Final Severance; no third form. Audit100 additionally locks the shared Cresthaven Legacy secured-equipment release during the pre-point-of-no-return preparation window.
 
 ## Current production readiness / next frontier
 
@@ -370,10 +447,16 @@ Therefore still open:
 - Chapters 1–4 final ordinary-enemy combat data;
 - Chapters 5–12 local formation catalogs;
 - Elite/Hunt/boss executable production packages;
-- full item/equipment catalog and economy audit;
+- full item/equipment catalog and economy audit, including final Legacy stats/passives;
+- final Core Mastery reconciliation;
+- global direct-damage-reduction stacking rule;
+- universal Ultimate MP-cost convention;
+- final Chapter-11 numbering/dialogue integration for the three Synthesis-resolution beats;
+- deliberate repository-wide `Sixfold Accord` → **Sixfold Volition** terminology sweep;
+- class-system implementation/data regression against Audit100;
 - encounter-pressure save persistence if later desired;
 - final flee-success/player-facing UI;
 - final defeat/game-over behavior;
 - target-Android high-density battle performance pass.
 
-Omission from this implementation-facing summary does not erase compatible older canon. Exact approved visual masters and newer explicit user corrections always control conflicts.
+Omission from this implementation-facing summary does not erase compatible older canon. Exact approved visual masters, Audit100's incorporated class specifications, and newer explicit user corrections always control conflicts.
