@@ -1,147 +1,102 @@
 # Diyse — Torren ⇄ Nimera Legacy Working Spec
 
-**Status:** APPROVED PAIR-SPECIFIC LEGACY MAPPING / NAMING / ACQUISITION PRESENTATION — NOT YET MASTER-CANON PROMOTED  
-**Parent authority:** v1.84 / Audit99 plus newer approved class-rework and Synthesis decisions.  
-**Related files:** `docs/TORREN_NIMERA_SYNTHESIS_WORKING_SPEC.md`, `docs/CLASS_SYNTHESIS_WORKING_MODEL.md`, `docs/CLASS_MASTERY_WORKING_MODEL.md`, `docs/CLASS_REWORK_CURRENT_UPDATE_2026-08-21.md`
-
-The standing class-rework approval rule applies: material advanced under the current “Let's continue” sequence is approved, with later explicit refinements superseding earlier conflicting drafts.
+**Status:** MASTER-CANON SUBORDINATE AUTHORITY UNDER **v1.89 / Audit104**  
+**Parent authority:** v1.89 / Audit104 plus incorporated approved class-rework/Synthesis rules.  
+**Related files:** `docs/TORREN_NIMERA_SYNTHESIS_WORKING_SPEC.md`, `docs/LEGACY_COMPONENT_AND_SECURED_RELEASE_RECONCILIATION_2026-08-22.md`, `docs/canon/AUDIT104_RECIPROCAL_CLASS_SYNTHESIS_LEGACY_AND_LEGACY_COMPONENT_INTEGRATION_LOCK.md`
 
 ---
 
 ## 1. Pair Legacy rule
 
-Torren and Nimera receive **two physical Legacy-tier equipment items**, one belonging to each native Base tradition.
-
-Synthesis does not create these items. It grants the reciprocal partner the legal Legacy-tier permission established by the universal Synthesis architecture.
-
-The pair mapping is:
-
 | Native tradition | Legacy item | Equipment family | Reciprocal Synthesis wearer |
 |---|---|---|---|
-| War Archer | **Known Ground** | Great Bow | **Nimera** after purchasing Living Proof / Synthesis |
-| Cardweaver | **Decisive Record** | One-slot Conduit | **Torren** after purchasing Measured Passage / Synthesis |
+| War Archer | **Known Ground** | Great Bow | **Nimera** after Living Proof / Synthesis |
+| Cardweaver | **Decisive Record** | one-slot Conduit | **Torren** after Measured Passage / Synthesis |
 
-The native owner remains naturally compatible with the item's equipment family under the native tradition. The reciprocal partner's cross-tradition Legacy legality requires that character's purchased Synthesis node.
-
-Legacy permission does not bypass normal Weapon / Secondary geometry. **Known Ground** occupies Weapon + Secondary as a Great Bow. **Decisive Record** occupies Weapon as a one-slot Conduit and leaves Secondary available for any otherwise-legal option.
-
-No Ability, Ultimate, Standard Card, or Hunter's Measure interaction gains a weapon / Conduit requirement from either Legacy item.
+Known Ground occupies Weapon + Secondary. Decisive Record occupies Weapon only and leaves Secondary available for otherwise-legal options. No Legacy changes Ability/Ultimate/Card legality or creates a weapon/Conduit requirement.
 
 ---
 
-## 2. War Archer Legacy — Known Ground
+## 2. Known Ground — War Archer Legacy Great Bow
 
-**Known Ground** is the War Archer Legacy-tier Great Bow.
+Identity: ground becomes known when the signs that matter are clear enough to support a decision that can be explained to someone else.
 
-### Identity
+Visual direction:
+- long practical Great Bow silhouette with field-use credibility;
+- dark seasoned wood/composite limbs with muted reinforcement;
+- restrained gold route/measure markings;
+- subtle etched field graduations/distance notes rather than magical runes;
+- clear central grip/sightline emphasis;
+- no glowing reticle, floating scope UI, firearm silhouette, or new mark language.
 
-The name expresses Torren's completed lesson without turning veteran judgment into mysticism: ground becomes “known” when the signs that matter have been read clearly enough to make a decision and explain that decision to someone else.
+Truthshot remains usable without Known Ground. The bow does not automatically create Hunter's Measure, Appraisal knowledge, Indexed, Prepared actions, bonus attacks, or guaranteed Criticals.
 
-It is a true Great Bow and keeps the War Archer tradition's two-slot commitment. Its value is not that it makes War Archer abilities legal; those abilities remain weapon-independent under the global rule.
-
-The weapon is especially legible in Nimera's hands after Synthesis because Truthshot / Living Proof teach her to move from evidence to action without requiring every uncertainty to disappear first.
-
-### Visual direction
-
-- long, practical Great Bow silhouette with strong field-use credibility rather than ceremonial ornament;
-- dark seasoned wood / composite limbs with muted metal reinforcement and restrained gold route / measure markings;
-- subtle etched reference marks along the limbs that resemble field graduations or distance notes rather than magical runes;
-- a clean central grip and sightline emphasis so the bow reads as precise, used, and understood;
-- no glowing target reticle, no floating scope UI, no firearm silhouette, and no new personal-mark visual language.
-
-When Nimera equips it, Truthshot presentation may use the physical bow naturally, but all Truthshot abilities remain usable without it. The weapon does not create Hunter's Measure, Appraisal knowledge, or Indexed automatically.
-
-### Mechanical-stat boundary
-
-This pass locks **item identity, family, name, eligibility mapping, slot geometry, and acquisition presentation only**.
-
-Exact Attack / Accuracy / other numerical stats and any final item passive remain for the dedicated production item/equipment audit.
-
-Do not give Known Ground automatic Hunter's Measure, free Prepared actions, bonus attacks, guaranteed Criticals, or Ability-gating effects merely to make the Legacy feel special.
+Exact final Attack/Accuracy/stat values and any passive remain for the production item/equipment audit.
 
 ---
 
-## 3. Cardweaver Legacy — Decisive Record
+## 3. Decisive Record — Cardweaver Legacy one-slot Conduit
 
-**Decisive Record** is the Cardweaver Legacy-tier **one-slot Conduit**.
+Identity: a record becomes decisive by preserving the facts that actually change action rather than every possible branch.
 
-### Identity
+Visual direction:
+- compact codex/field-record Conduit;
+- aged ivory pages/layered plates inside a dark practical frame with restrained antique-gold structure;
+- Resource-gold route lines and small Change-fuchsia decisive junction marks;
+- a few clear routes, crossed-out dead branches, and one resolved line rather than symbol overload;
+- no giant occult glyph array, new Card-face UI, Black Host language, or familiar behavior.
 
-The name expresses Nimera's completed lesson: a record is useful not because it contains every possible fact forever, but because it preserves the information that actually changes a decision.
+When Torren equips it, ordinary Attack follows established Conduit manifestation rules. Routeweaver Abilities remain weapon-independent.
 
-It is a Cardweaver masterwork and remains part of the established Conduit equipment family. It does not become a separate deck, grimoire command, Card slot, or new resource.
+Do not add automatic Standard Card use, extra Card reliability outside authored systems, free Fields, extra Route duration, or a new recorded-route state.
 
-Making it a one-slot Conduit is intentional. Torren can equip it after Synthesis while retaining a legal Secondary option, letting the Legacy expand his Routeweaver / hybrid-build space instead of simply replacing his Great Bow with another two-slot commitment.
-
-### Visual direction
-
-- compact codex / field-record Conduit form that can hover or remain visibly bound at the user's side under the established Conduit presentation language;
-- aged ivory pages or layered plates held inside a dark practical frame with restrained antique-gold structure;
-- Resource-gold route lines and small Change-fuchsia junction marks appear only at decisive intersections / annotated nodes;
-- markings should look edited and purposeful: a few clear routes, crossed-out dead branches, and one resolved line rather than a wall of symbols;
-- no giant occult glyph array, no new Card-face UI, no Black Host visual language, and no autonomous familiar behavior.
-
-When Torren equips it, ordinary Attack follows the established Conduit manifestation rules. Routeweaver abilities remain weapon-independent, and the Conduit does not grant extra Standard Card slots or turns.
-
-### Mechanical-stat boundary
-
-Exact Attack / Magic / Accuracy / utility statistics and any final item passive remain for the production item/equipment audit.
-
-Do not give Decisive Record automatic Standard Card use, extra Card reliability beyond already-authored systems, free Fields, additional Route Field duration, or a new “recorded route” state.
+Exact final Attack/Magic/Accuracy/utility values and any passive remain for the production item/equipment audit.
 
 ---
 
-## 4. Acquisition presentation — shared Cresthaven secured-equipment release
+## 4. Audit103 Character-Quest Component mapping — locked
 
-**Known Ground** and **Decisive Record** join the same deterministic **Cresthaven secured-equipment release during the Chapter 12 pre-point-of-no-return preparation window** established for the other two Legacy pairs.
+- Torren's Character Quest **The Road That Returns** grants the unique Legacy Component that completes **Known Ground**.
+- Nimera's Character Quest **The Archive That Remembers** grants the unique Legacy Component that completes **Decisive Record**.
 
-Production rules:
-- reuse the same Cresthaven armory / secured-equipment staging rather than creating another endgame location;
-- no new dungeon, Hunt, boss, crafting recipe, currency, material grind, random drop, side quest, or courier reward chain;
-- both are physical equipment that already exists in the world; Synthesis does not conjure them;
-- exact historical provenance remains for the later item/lore-description pass rather than inventing unsupported history here;
-- the late-Chapter-11 **Enough to Move** resolution scene remains item-reward-free and is not rewritten into an equipment handoff.
+The Legacy Component is not the final equipment item. The physical masterwork already exists in secured Cresthaven inventory; the Character Quest supplies the unique missing keyed/core component required to complete/restore it for use.
 
-### Player-facing sequence
-
-1. The late-Chapter-11 Torren/Nimera resolution has already occurred as mandatory continuity.
-2. During the Chapter 12 Cresthaven preparation window, **Known Ground** and **Decisive Record** become available alongside the other approved Legacy equipment in the deterministic secured-equipment release.
-3. The player may physically collect either item even if the reciprocal character has not yet purchased Synthesis.
-4. If reciprocal Legacy eligibility is incomplete, the equipment UI shows the relevant Synthesis / Legacy requirement rather than hiding or deleting the item.
-5. Once the character purchases Synthesis and otherwise satisfies equipment legality, the reciprocal Legacy becomes equippable immediately.
-
-This preserves the universal separation between **physical acquisition** and **character eligibility**.
+This is fixed authored completion, not crafting.
 
 ---
 
-## 5. Why this pair uses a two-slot Great Bow and one-slot Conduit
+## 5. Chapter-12 Cresthaven secured release — final flow
 
-The slot asymmetry is deliberate and useful.
+During the Chapter 12 pre-point-of-no-return Cresthaven preparation window:
 
-- **Known Ground** preserves the defining War Archer commitment: a Great Bow consumes both Weapon and Secondary.
-- **Decisive Record** uses the other valid Cardweaver geometry: a one-slot Conduit that leaves Secondary open.
-- Nimera therefore receives a real heavy physical commitment when she chooses the War Archer Legacy.
-- Torren receives a real hybrid / utility alternative when he chooses the Cardweaver Legacy, including legal Secondary build options already learned through Routeweaver progression.
-- Neither item determines whether an Ability can be used.
-- Neither item adds a new mark, gauge, Card system, or route resource.
+1. the native owner's Character Quest must be complete and its Legacy Component earned;
+2. the matching secured Legacy becomes ready for completion/release;
+3. the component is integrated/registered in a short authored interaction;
+4. the component leaves Key Items and the completed Legacy enters inventory;
+5. the native owner may equip under normal family/slot legality;
+6. the reciprocal partner may equip only after the relevant Synthesis is purchased and normal legality is satisfied.
 
-The pair's Legacies therefore make the equipment choice itself express their reciprocal lesson: **commit when the evidence is sufficient, but keep flexibility where the structure genuinely allows it.**
+If the Character Quest is incomplete, the item remains secured/incomplete rather than entering inventory as a dead shell. The player may complete the quest and return before the point of no return.
+
+**Enough to Move** remains item-reward-free.
+
+No new dungeon, Hunt, boss, recipe, material grind, currency fee, random drop, courier reward chain, or general crafting system is introduced.
 
 ---
 
-## 6. Remaining pair Legacy work
+## 6. Slot asymmetry / build boundary
 
-The following are intentionally deferred to the production item/equipment audit:
+- Known Ground preserves the War Archer two-slot commitment.
+- Decisive Record gives Torren a one-slot hybrid/utility route with Secondary still available where otherwise legal.
+- Neither item adds a mark, gauge, Card subsystem, route resource, or Ability requirement.
+
+---
+
+## 7. Deferred production item work
+
+Still deferred:
 - final numerical stat blocks;
-- final sell value / sorting / item IDs;
-- exact passive text, if either item receives a passive at all;
-- exact item-description lore prose;
-- icon production and final HD-2D inventory presentation.
-
-The following are **closed by this pass**:
-- War Archer Legacy = **Known Ground / Great Bow**;
-- Cardweaver Legacy = **Decisive Record / one-slot Conduit**;
-- Nimera's Synthesis grants reciprocal eligibility for Known Ground;
-- Torren's Synthesis grants reciprocal eligibility for Decisive Record;
-- deterministic Chapter 12 Cresthaven secured-equipment acquisition presentation shared with the other Legacy pairs;
-- no new quest, crafting system, Hunt, boss, Card subsystem, route resource, or weapon requirement is introduced.
+- final passive text, if any;
+- sell value / sorting / item IDs;
+- final lore-description prose;
+- icons and final HD-2D inventory presentation.
