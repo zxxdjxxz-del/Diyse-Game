@@ -34,6 +34,7 @@ Current canon files include:
 - `docs/canon/AUDIT91_SEYRIK_PRE_REVEAL_BLACK_HOST_ADVANCEMENT_AND_CHAPTER_5_BEAT_REWRITE_GATE_LOCK.md`
 - `docs/canon/AUDIT90_CHAPTERS_00_07_ENEMY_PRODUCTION_AND_TERMINOLOGY_LOCK.md`
 - `docs/canon/AUDIT89_CHAPTERS_11_12_MACRO_STORY_STRUCTURE_AND_FINAL_ACT_CAUSALITY_LOCK.md`
+- `docs/canon/REGION_TERMINOLOGY_LOCK_2026-08-22.md`
 
 ## Presentation and project foundation
 
@@ -340,14 +341,14 @@ No large genre-conventional item count or crafting system is canon by assumption
 
 ## World / map authority
 
-The exact user-approved Yahtrea map from August 19, 2026 remains the controlling surface-world visual/spatial master. Do not move, regenerate, reinterpret, simplify, relabel, add, remove, or reconnect geography unless explicitly approved.
+The exact user-approved Yahtrea map from August 19, 2026 remains the controlling surface-world visual/spatial master. Do not move, regenerate, reinterpret, simplify, add, remove, or reconnect geography unless explicitly approved. The August 22, 2026 region terminology lock changes regional labels only.
 
 Formal modern Realms:
-- **Edgelands** — west;
-- **Diysereach** — north;
-- **Southhold** — south/east and includes Caelora.
+- **The Westways** — west; replaces the former regional label **Edgelands**.
+- **The Greyspires** — north / northern mountain region; replaces the former regional label **Diysereach**.
+- **The Crownhold** — south/east capital and royal-core region and includes Caelora; replaces the former regional label **Southhold**.
 
-The Black Mountains lie west outside Yahtrea and are Black Host territory.
+All existing settlement and landmark names remain unchanged by this terminology correction. The Black Mountains lie west outside Yahtrea and are Black Host territory.
 
 ## Chapter status / production frontier
 
