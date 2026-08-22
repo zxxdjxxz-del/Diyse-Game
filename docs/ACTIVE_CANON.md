@@ -21,6 +21,9 @@ Current class/Legacy canon file:
 Reconciliation authority:
 - `docs/LEGACY_COMPONENT_AND_SECURED_RELEASE_RECONCILIATION_2026-08-22.md`
 
+Quest terminology clarification:
+- `docs/canon/REGIONAL_SIDE_QUEST_TERMINOLOGY_CLARIFICATION_2026-08-22.md`
+
 The erroneously created class-rework Audit100 file was removed because Audit100 was already occupied by earlier canon.
 
 ---
@@ -45,9 +48,10 @@ The erroneously created class-rework Audit100 file was removed because Audit100 
 - Exactly **3 Character Quest bosses**: Elemental Forecast Construct, Crest Load Warden, Revision Custodian.
 - Seyrik, Ilyra, and Torren use authored non-boss Character-Quest climaxes.
 - Exactly **10 ordinary non-story/non-Hunt side quests**.
+- Those existing 10 ordinary side quests are the game's **regional side-quest layer**. “Regional quest” is shorthand for these same quests, not a separate third quest category or additional quest count.
 - Each Character Quest grants that character's **Legacy Component** as its principal mechanical reward.
 - Character Quests remain optional and may not gate mandatory Story Primes, required main-story lore, mandatory abilities, or the ending.
-- Character Quests and ordinary side quests remain available until the Chapter 12 point of no return unless explicitly superseded later.
+- Character Quests and regional/ordinary side quests remain available until the Chapter 12 point of no return unless explicitly superseded later.
 
 Character Quests:
 1. Vaelira — **The Sky No One Chose**.
@@ -56,6 +60,20 @@ Character Quests:
 4. Seyrik — **The Name That Remains**.
 5. Ilyra — **Mercy Has a Voice**.
 6. Torren — **The Road That Returns**.
+
+Regional side quests / ordinary side quests:
+1. Edda Harth — **The Marks We Leave**.
+2. Dunmere neighborhood waterkeeper — **The Water Between Houses**.
+3. Crown Princess Mirena — **A Measure of Bread**.
+4. Ivorybridge bridgekeeper / lampwright — **The Dark Span**.
+5. Stonewake forge steward — **One Fire Burning**.
+6. Crown Princess Mirena — **The Crown's Debt**.
+7. Talia Rell — **The Third Caravan**.
+8. Talia Rell — **The Living List**.
+9. Edda Harth — **When the Roads Open**.
+10. Crown Princess Mirena — **What We Build After**.
+
+Hunts remain a separate combat-oriented optional-content structure and are not counted among these ten regional side quests.
 
 ---
 
