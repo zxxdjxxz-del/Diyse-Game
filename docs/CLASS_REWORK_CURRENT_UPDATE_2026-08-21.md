@@ -1,6 +1,6 @@
 # Diyse — Class Rework Current Update — 2026-08-21
 
-**Status:** ACTIVE CLASS-REWORK CONSOLIDATION — ALL SIX SUBCLASSES + ALL SIX SYNTHESIS EFFECTS MECHANICALLY CLOSED; FIRST TWO PAIR RESOLUTION BEATS APPROVED; NOT YET MASTER-CANON PROMOTED  
+**Status:** ACTIVE CLASS-REWORK CONSOLIDATION — ALL SIX SUBCLASSES + ALL SIX SYNTHESIS EFFECTS + ALL THREE PAIR RESOLUTION BEATS APPROVED; NOT YET MASTER-CANON PROMOTED  
 **Parent whole-project authority:** v1.84 / Audit99 plus newer explicit class-rework decisions.  
 **Purpose:** current handoff/approval ledger for the CL13 class rework, reciprocal Subclasses, Mastery/Synthesis, equipment inheritance, pair-resolution beats, and remaining Legacy/normalization work.
 
@@ -219,7 +219,7 @@ Story thesis:
 - Vaelira learns that adaptation does not require refusing commitment;
 - neither worldview defeats the other; each becomes more exact.
 
-The closing image is a Crest with a stable core and changing elemental expression around it. No new lore artifact, combat reward, or bespoke gameplay system is introduced. Exact dialogue remains deferred to the later dialogue/script pass.
+Closing image: a Crest with a stable core and changing elemental expression around it. No new lore artifact, combat reward, or bespoke gameplay system is introduced. Exact dialogue remains deferred.
 
 ### Ilyra ⇄ Seyrik — Keep Them Alive
 
@@ -232,36 +232,55 @@ Placement / structure:
 - mandatory authored continuity, not a romance scene, player-choice reward, or missable camp event;
 - completion satisfies the individual Synthesis story prerequisite for **both Ilyra and Seyrik**, but does not purchase either Synthesis node.
 
-Story setup / thesis:
-- an unnamed wounded Black Host captive is taken alive, disarmed, restrained, and needs immediate treatment;
-- Ilyra treats the captive while Seyrik assists because his Black Host knowledge is practically useful;
-- there is deliberately **no false argument** where Ilyra wants mercy and Seyrik wants the captive dead;
-- damaged armor obstructing the wound has to be decisively severed; Ilyra defines what must be protected and Seyrik applies controlled Ruin only inside that limit;
-- on the second necessary intervention Ilyra chooses the hard action herself rather than waiting for Seyrik to name it;
-- Seyrik follows her boundary exactly and stops when the necessary damage is complete.
+Story thesis:
+- an unnamed wounded Black Host captive needs immediate treatment;
+- Ilyra and Seyrik do not argue over whether the captive deserves to live; the conflict is what mercy is allowed to require;
+- Ilyra defines what must be protected and Seyrik applies controlled Ruin only inside that boundary;
+- Ilyra later chooses the hard intervention herself;
+- Seyrik demonstrates control by stopping exactly when necessary damage ends;
+- mercy is not forgiveness, restraint is not passivity, and violence is not automatically decisiveness.
 
-Character resolution:
-- Ilyra learns that mercy cannot be measured only by minimizing the pain she personally chooses to cause; inaction can be the crueler choice when preservation requires a hard act;
-- Seyrik learns that control means knowing what destruction is for and stopping when its purpose is achieved, not merely reducing damage in the abstract;
-- **mercy is not forgiveness**, **restraint is not passivity**, and **violence is not automatically decisiveness**;
-- the captive surviving does not create blanket absolution for the Black Host or a new redemption arc.
+Closing image: Ilyra checks the dressing; Seyrik checks the restraint and quietly leaves water within safe reach. Neither comments on it. Exact dialogue remains deferred.
+
+### Torren ⇄ Nimera — Enough to Move
+
+**APPROVED.** Detailed authority is inside `docs/TORREN_NIMERA_SYNTHESIS_WORKING_SPEC.md`.
+
+Placement / structure:
+- late Chapter 11 at the **Forward Hub** operations/map table;
+- use an ordinary background resupply/courier routing problem through recently contested territory;
+- no player choice, branching mission, new quest, or bespoke location is introduced;
+- exact final scene number remains for script integration;
+- completion satisfies the individual Synthesis story prerequisite for **both Torren and Nimera**, but does not purchase either Synthesis node.
+
+Story thesis:
+- Torren can choose a sound route quickly from incomplete signs, but his first version leaves too much of the reasoning inside his own head: **judgment that cannot be transferred**;
+- Nimera can document every fact and uncertainty, but her first version preserves too many branches to be useful under time pressure: **knowledge that never closes**;
+- Torren learns to externalize the observations and implications behind his judgment;
+- Nimera learns to distinguish real uncertainty from uncertainty that would actually change the decision;
+- together they produce one primary route, one fallback, and the observable condition that tells another person when to switch;
+- experience becomes more useful when it can be explained, and rigor becomes more useful when it resolves action.
+
+Reciprocal integration:
+- Nimera makes one route call first using Torren's field logic without waiting for every source to agree, then explains the decisive evidence briefly;
+- Torren adds one explanatory note to a judgment he would previously have left implicit;
+- Nimera does not bury that note under unnecessary qualifications.
 
 Closing image:
-- the captive remains alive, bandaged, and securely restrained;
-- Ilyra checks the dressing;
-- Seyrik checks the restraint, then leaves water where the captive can reach it after waking without compromising security;
-- Ilyra notices and says nothing; Seyrik does not explain it.
+- a runner studies the finished route sheet, correctly explains the fallback condition, and leaves with it;
+- Torren and Nimera do not correct the runner;
+- the map works **without them**.
 
-No combat encounter, boss, item reward, recurring NPC, new lore artifact, or new system is introduced. Exact dialogue remains deferred to the later dialogue/script pass.
+Exact dialogue remains deferred to the later dialogue/script pass.
 
 ---
 
 ## 9. Immediate open work
 
-1. Author the final reciprocal-pair resolution beat: **Torren ⇄ Nimera**.
-2. Finalize pair-specific **Legacy mapping / naming / acquisition presentation**.
-3. Reconcile **Core Mastery** effect text.
-4. Finalize the global direct-damage-reduction stacking rule and universal Ultimate cost convention.
-5. Perform the deliberate global stale-terminology sweep from `Sixfold Accord` to **Sixfold Volition**.
+1. Finalize pair-specific **Legacy mapping / naming / acquisition presentation** for all three reciprocal pairs.
+2. Reconcile **Core Mastery** effect text.
+3. Finalize the global direct-damage-reduction stacking rule and universal Ultimate cost convention.
+4. Perform the deliberate global stale-terminology sweep from `Sixfold Accord` to **Sixfold Volition**.
+5. Integrate the three approved resolution beats into final Chapter 11 script numbering/dialogue without changing their approved function.
 6. Run final implementation/data regression review.
-7. Promote the completed class-rework package into a new master-canon audit after story/Legacy/final normalization are stable.
+7. Promote the completed class-rework package into a new master-canon audit after Legacy/final normalization are stable.
