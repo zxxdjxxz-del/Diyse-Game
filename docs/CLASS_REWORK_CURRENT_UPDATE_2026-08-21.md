@@ -20,6 +20,7 @@ The user explicitly clarified that class-rework material advanced under repeated
 - `docs/CLASS_SYNTHESIS_WORKING_MODEL.md`
 - `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`
 - `docs/ILYRA_SEYRIK_SYNTHESIS_WORKING_SPEC.md`
+- `docs/TORREN_NIMERA_SYNTHESIS_WORKING_SPEC.md`
 
 ---
 
@@ -40,15 +41,7 @@ The user explicitly clarified that class-rework material advanced under repeated
 
 **No Ability or Ultimate requires a particular equipped weapon.** Once learned, every Ability remains usable with any otherwise-legal equipment loadout.
 
-Equipment still matters for:
-- ordinary Attack;
-- equipment statistics and defenses;
-- Weapon/Secondary slot geometry;
-- Relic/Legacy legality;
-- visual/animation expression;
-- optional authored equipment-expression bonuses where a legal baseline Ability version always remains available.
-
-If an Ability traditionally implies a weapon the character is not carrying, presentation adapts with a manifested/projected weapon or equivalent effect. Ability Power, hit pattern, targets, cost, and legality do not change merely because the loadout differs unless the Ability itself has an approved non-gating expression branch.
+Equipment still matters for ordinary Attack, equipment statistics/defenses, slot geometry, Relic/Legacy legality, and presentation. If an Ability traditionally implies a weapon the character is not carrying, presentation adapts with a manifested/projected weapon or equivalent effect rather than disabling the command.
 
 ### Terminology
 
@@ -91,8 +84,6 @@ The current event/system name is **Sixfold Volition**. Remaining `Sixfold Accord
 
 CL1 0; CL2 150; CL3 350; CL4 600; CL5 950; CL6 1350; CL7 1800; CL8 2300; CL9 2850; CL10 3450; CL11 4150; CL12 4950; CL13 6000.
 
-The retired 4,800-CEXP CL12 table must not return.
-
 Fresh Subclass pacing after the Volition:
 - Ch7: 978 → CL5
 - Ch8: 1978 → CL7
@@ -134,15 +125,9 @@ A donor passes the donor Base tradition's **complete legal ordinary equipment pa
 | Torren ← Nimera | one-slot Conduits → Cardweaver armor → two-handed Conduits + Focus where legal |
 | Nimera ← Torren | Great Bows → War Archer armor; no fabricated CL5 Secondary |
 
-Nine-point Mastery architecture remains:
-- 4 Core nodes;
-- 4 Subclass nodes;
-- 1 Synthesis node;
-- each costs 1 MP;
-- banking MP is legal.
+Nine-point Mastery architecture remains **4 Core + 4 Subclass + 1 Synthesis**, each costing 1 MP. Banking MP is legal.
 
-Working Core gates: CL3 / CL5 / CL7 / CL9.
-
+Working Core gates: CL3 / CL5 / CL7 / CL9.  
 Subclass gates: CL3 / CL5 / CL7 / **CL10**.
 
 **Equipment Mastery is approved as Subclass Node 4 at CL10** and grants donor Relic access. Ordinary donor equipment arrives earlier at CL1–5. Legacy remains downstream of Synthesis.
@@ -152,96 +137,46 @@ Subclass gates: CL3 / CL5 / CL7 / **CL10**.
 ## 4. Approved reciprocal Subclasses
 
 ### Cyanis — Crest Knight / Crest Arcanist
-
-Stats: **MP +10% / Magic +10% / Spirit +6% / Attack -6%**.
-
-Trait: **Crest Resonance**.
-
-Progression: **Arcane Lance + Crest Attunement → Warding Crest → Nullifying Seal → Arcane Rupture → Elemental Convergence → Crest Dominion**.
-
+Stats: **MP +10% / Magic +10% / Spirit +6% / Attack -6%**.  
+Trait: **Crest Resonance**.  
+Progression: **Arcane Lance + Crest Attunement → Warding Crest → Nullifying Seal → Arcane Rupture → Elemental Convergence → Crest Dominion**.  
 Mastery: **Arcane Force / Warded Ground / Sealbreaker / Equipment Mastery**.
 
-Identity: magical Crest control, Colorless penetration, Fields/seals, anti-structure utility, selective elemental understanding. Weapon-independent.
-
 ### Vaelira — Green Arcanist / Axiomblade
-
-Stats: **HP +6% / Attack +6% / Magic +6% / Defense +8% / Speed -6%**.
-
-Trait: **Formal Equivalence**.
-
-Progression: **First Principle → Proven Advance → Counterproof → Axiom Rend → Equivalent Form → Final Axiom**.
-
-Mastery: **Foundational Proof / Proven Position / Exact Rebuttal / Equipment Mastery**.
-
-Axiomblade is weapon-independent. Damaging techniques use player-selected **Martial** (Physical vs Defense) or **Arcane** (Magical vs Spirit) expression. Sword/Staff/Shield/Focus/dual-Sword loadouts affect equipment and presentation, not command legality. Equivalent Form always has a legal 200-Power baseline and may gain optional approved equipment branches.
+Stats: **HP +6% / Attack +6% / Magic +6% / Defense +8% / Speed -6%**.  
+Trait: **Formal Equivalence**.  
+Progression: **First Principle → Proven Advance → Counterproof → Axiom Rend → Equivalent Form → Final Axiom**.  
+Mastery: **Foundational Proof / Proven Position / Exact Rebuttal / Equipment Mastery**.  
+Axiomblade is weapon-independent; damaging techniques use player-selected **Martial** or **Arcane** expression.
 
 ### Ilyra — Blue Warden / Vowblade
-
-Stats: **HP +8% / Attack +10% / Spirit +8% / Defense -6%**.
-
-Trait: **Mercy in Steel**.
-
-Progression: **Vital Edge → Mercy Returned → Living Covenant → Vowkeeper's Reprisal → Vow of Severance → Mercy's Final Edge**.
-
-Mastery: **Steeled Mercy / Mercy Carried / Unbroken Covenant / Equipment Mastery**.
-
-Damaging Vowblade abilities use **50% Attack / 50% Spirit Hybrid** scaling. Weapon-independent; Wardrod/Two-Handed Sword changes build and presentation only. Ruin is technique/presentation influence, not a seventh damage element.
+Stats: **HP +8% / Attack +10% / Spirit +8% / Defense -6%**.  
+Trait: **Mercy in Steel**.  
+Progression: **Vital Edge → Mercy Returned → Living Covenant → Vowkeeper's Reprisal → Vow of Severance → Mercy's Final Edge**.  
+Mastery: **Steeled Mercy / Mercy Carried / Unbroken Covenant / Equipment Mastery**.  
+Damaging Vowblade abilities use **50% Attack / 50% Spirit Hybrid** scaling and are weapon-independent.
 
 ### Seyrik — Ruin Vanguard / Ruin Warden
-
-**Ruin Warden supersedes Ruin Reclaimer and retired Ruin Healer.**
-
-Stats: **HP +6% / MP +8% / Magic +6% / Spirit +6% / Speed -4%**.
-
-Trait: **Ruin's Mercy**.
-
-Progression: **Siphon Rune → Stolen Grace → Restoring Ward → Withering Mercy → Reclaimed Breath → Mercy Through Ruin**.
-
-- Siphon Rune: 165 Hybrid / 8 MP / one hit / **60% Attack + 40% Magic**, 35% Drain recovery, 20% Max-HP recovery cap.
-- Reclaimed Breath: revive one permanent ally at 25% Max HP.
-- Mercy Through Ruin: 320 Colorless Magical AoE + party recovery/cleanse/Total Defense.
-
-Mastery: **Deeper Siphon / Shared Grace / Purifying Ward / Equipment Mastery**.
-
-Weapon-independent; Sword/Wardrod changes build and presentation only.
+**Ruin Warden supersedes Ruin Reclaimer and retired Ruin Healer.**  
+Stats: **HP +6% / MP +8% / Magic +6% / Spirit +6% / Speed -4%**.  
+Trait: **Ruin's Mercy**.  
+Progression: **Siphon Rune → Stolen Grace → Restoring Ward → Withering Mercy → Reclaimed Breath → Mercy Through Ruin**.  
+Mastery: **Deeper Siphon / Shared Grace / Purifying Ward / Equipment Mastery**.  
+Siphon Rune is one-hit **60% Attack / 40% Magic Hybrid**. Weapon-independent.
 
 ### Torren — War Archer / Routeweaver
-
-Stats: **MP +8% / Attack +6% / Magic +6% / Accuracy +6% / Defense -6%**.
-
-Trait: **Field Weaving**.
-
-Progression:
-- **Throughline** — 160 Hybrid / 7 MP; Measure accuracy interaction
-- **Clear Route** — cleanse 1 ordinary harmful status + Speed
-- **Crossroads** — Forward or Covered Route Field
-- **Covered Crossing** — party direct-damage reduction + Route Field extension
-- **Forced Passage** — 260 Hybrid / 18 MP / 30% penetration + hostile-Field removal
-- **Open the Way** — major non-damaging Route Field
-
-Damaging Routeweaver abilities use **50% Attack / 50% Magic Hybrid** scaling. Weapon-independent. Great Bow/Conduit/manifested-route presentation adapts to loadout.
-
-Mastery: **True Bearing / Cleared Ground / Secured Passage / Equipment Mastery**.
-
-Hunter's Measure is shared with Nimera.
+Stats: **MP +8% / Attack +6% / Magic +6% / Accuracy +6% / Defense -6%**.  
+Trait: **Field Weaving**.  
+Progression: **Throughline → Clear Route → Crossroads → Covered Crossing → Forced Passage → Open the Way**.  
+Mastery: **True Bearing / Cleared Ground / Secured Passage / Equipment Mastery**.  
+Damaging Routeweaver abilities use **50% Attack / 50% Magic Hybrid** scaling and are weapon-independent.
 
 ### Nimera — Cardweaver / Truthshot
-
-Stats: **Attack +8% / Accuracy +8% / Speed +6% / Defense -6%**.
-
-Trait: **Applied Evidence**.
-
-Progression:
-- **Measured Shot** — 120 Physical / 6 MP; applies Hunter's Measure
-- **Held Argument** — 150 Physical / 8 MP Prepared interrupt
-- **Pin the Variable** — 145 Physical / 9 MP; Speed Down
-- **Structural Failure** — 210 Physical / 12 MP; 35% Defense penetration + structural bonus
-- **Corroboration** — 4 × 60 = 240 Physical / 14 MP; Measure Hit/Crit scaling
-- **Final Annotation** — 360 Physical; +20 Base Hit; 50% Defense penetration; Measure/hard-target bonuses
-
-Mastery: **Exact Measure / Prepared Proof / Hard Evidence / Equipment Mastery**.
-
-Truthshot is **not Great-Bow-gated**. With Great Bow equipped, Nimera performs literal bow arts; with another legal loadout, she manifests/projects the War Archer-form bow/shot. Mechanics remain unchanged. Hunter's Measure remains shared with Torren. Diysean Appraisal is information reveal only; there is no `Appraised` status. Indexed remains separate.
+Stats: **Attack +8% / Accuracy +8% / Speed +6% / Defense -6%**.  
+Trait: **Applied Evidence**.  
+Progression: **Measured Shot → Held Argument → Pin the Variable → Structural Failure → Corroboration → Final Annotation**.  
+Mastery: **Exact Measure / Prepared Proof / Hard Evidence / Equipment Mastery**.  
+Truthshot is weapon-independent. Hunter's Measure is shared with Torren. Diysean Appraisal is information reveal only; there is no `Appraised` status. Indexed remains separate.
 
 ---
 
@@ -251,14 +186,12 @@ Truthshot is **not Great-Bow-gated**. With Great Bow equipped, Nimera performs l
 
 Approved conclusions:
 - keep all six selected-Subclass stat packages;
-- keep intentional CL1/CL11/CL13 Power asymmetry because MP cost, targets, healing, penetration, Field control, Prepared behavior, and setup differ;
+- keep intentional CL1/CL11/CL13 Power asymmetry;
 - keep all six four-node Subclass Mastery boards with Equipment Mastery at CL10;
 - no Subclass creates a personal gauge, extra ordinary action, extra Card slot, duplicate Appraisal state, or duplicate Measure state;
-- percentage direct-damage-reduction values remain authored but do not imply additive stacking; final overlap follows the later global combat-modifier rule;
+- percentage direct-damage-reduction values remain authored but do not imply additive stacking;
 - normalize `through following round` variants to **through the end of the following round** unless a specific effect says otherwise;
-- no extra pair synergy is added before Synthesis.
-
-Current Ability weapon rule after the user's correction: **all six Subclasses are weapon-independent at the Ability/Ultimate legality layer**.
+- all six Subclasses are weapon-independent at the Ability/Ultimate legality layer.
 
 ---
 
@@ -266,15 +199,7 @@ Current Ability weapon rule after the user's correction: **all six Subclasses ar
 
 Synthesis is the ninth and final Mastery node.
 
-Eligibility requires:
-- **Base CL13**;
-- **Subclass CL13**;
-- all four Core Masteries;
-- all four Subclass Masteries;
-- authored character resolution/integration story condition;
-- 1 available MP.
-
-Purchase is individual even if a reciprocal pair shares a resolution scene.
+Eligibility requires **Base CL13 + Subclass CL13 + all four Core Masteries + all four Subclass Masteries + authored character resolution/integration condition + 1 available MP**.
 
 Each Synthesis grants:
 1. one permanent character-specific Base/Subclass integration passive;
@@ -289,22 +214,10 @@ Synthesis does not create a third class, merge stat packages, activate both Trai
 Detailed authority: `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`.
 
 ### Cyanis — Unified Crest
-
-**Once per round**, after Cyanis deliberately selects and resolves a **Crest Knight Ability**, if Crest Attunement is not already active, he gains **Crest Attunement**.
-
-When Cyanis then **consumes Crest Attunement** with a legal Crest Field or Crest Seal, his next **damaging Crest Knight Ability** before the end of the following round gains **+15% Power**.
-
-The bonus is one-use and does not stack. This creates a Base → Subclass → Base integration loop without activating both Traits.
+Once per round, a selected/resolved Crest Knight Ability can grant **Crest Attunement** if it is not already active. Consuming Crest Attunement with a Crest Field/Seal arms **+15% Power** for the next damaging Crest Knight Ability before the end of the following round.
 
 ### Vaelira — Unified Spectrum
-
-When Vaelira uses a **damaging Axiomblade Ability** against an enemy carrying one or more existing Imprints, she may choose one of those Imprint elements as the Ability's element. The Imprint is not consumed.
-
-**Once per round**, when a damaging Axiomblade Ability hits using an element matching an existing Imprint on that target, extend that matching Imprint by **+1 round**, up to its authored maximum.
-
-Prism Cycle retains precedence when it already determines the Ability element. Formal Equivalence remains useful and is not replaced. No automatic Composite Reaction is created.
-
-The Cyanis/Vaelira Synthesis pair is approved.
+A damaging Axiomblade Ability may use an existing target Imprint's element without consuming it. Once per round, hitting with a matching element extends that Imprint by **+1 round** up to its authored maximum. Prism Cycle retains precedence and no automatic Composite Reaction is created.
 
 ---
 
@@ -313,26 +226,36 @@ The Cyanis/Vaelira Synthesis pair is approved.
 Detailed authority: `docs/ILYRA_SEYRIK_SYNTHESIS_WORKING_SPEC.md`.
 
 ### Ilyra — Mercy Unbroken
-
-**Once per round**, after Ilyra resolves a **non-Ultimate Blue Warden Ability** that heals another ally or removes at least one ordinary harmful status from another ally, her next **damaging non-Ultimate Vowblade Ability** before the end of the following round gains **+10% Power**.
-
-**Once per round**, when a **Vowblade Ability or Ultimate** restores HP to at least one conscious ally other than Ilyra, her next **non-Ultimate Blue Warden Ability** before the end of the following round costs **3 less MP**, minimum 1 MP.
-
-The effects are one-use and non-stacking. Self-only recovery does not qualify. The Synthesis adds no raw healing percentage, new revival rule, extra action, or weapon requirement.
+A qualifying Blue Warden heal/cleanse on another ally arms **+10% Power** for Ilyra's next damaging non-Ultimate Vowblade Ability. A Vowblade Ability/Ultimate that restores another ally arms **-3 MP** on her next non-Ultimate Blue Warden Ability, minimum 1. Effects are once-per-round, one-use, non-stacking.
 
 ### Seyrik — Tempered Ruin
-
-**Once per round**, after Seyrik resolves a **damaging non-Ultimate Ruin Vanguard Ability**, his next **non-Ultimate Ruin Warden Ability** before the end of the following round costs **3 less MP**, minimum 1 MP.
-
-**Once per round**, when a **Ruin Warden Ability or Ultimate** restores HP to at least one ally other than Seyrik, his next **damaging non-Ultimate Ruin Vanguard Ability** before the end of the following round gains **+10% Power**.
-
-Siphon Rune's self-recovery alone does not qualify. Reclaimed Breath may qualify because revival restores HP to another ally. The effects are one-use and non-stacking and do not alter damage type, healing amount, revival value, self-drawback clauses, or weapon legality.
-
-The Ilyra/Seyrik Synthesis pair is approved as a cadence loop rather than a raw-healing upgrade.
+A damaging non-Ultimate Ruin Vanguard Ability arms **-3 MP** on Seyrik's next non-Ultimate Ruin Warden Ability, minimum 1. A Ruin Warden Ability/Ultimate that restores another ally arms **+10% Power** for his next damaging non-Ultimate Ruin Vanguard Ability. Effects are once-per-round, one-use, non-stacking.
 
 ---
 
-## 9. Base class snapshot
+## 9. Approved Torren ⇄ Nimera Synthesis pair
+
+Detailed authority: `docs/TORREN_NIMERA_SYNTHESIS_WORKING_SPEC.md`.
+
+### Torren — Measured Passage
+**War Archer → Routeweaver:** once per round, when a damaging non-Ultimate War Archer Ability resolves against **Hunter's Measure**, Torren's next non-Ultimate Routeweaver Ability before the end of the following round costs **2 less MP**, minimum 1.
+
+**Routeweaver → War Archer:** once per round, when a Routeweaver Ability or Ultimate establishes or legally extends one of Torren's Route Fields, his next damaging non-Ultimate War Archer Ability against Hunter's Measure before the end of the following round gains **+10% Power**.
+
+The effects are one-use/non-stacking. Hunter's Measure may come from Torren or Nimera. Covered Crossing qualifies only when it actually extends a Route Field.
+
+### Nimera — Living Proof
+A target satisfies Living Proof only when **Diysean Appraisal has already revealed its permitted combat data** and it currently has **Hunter's Measure**. This is a condition check, not a new `Appraised`/`Verified` status.
+
+Once per round, Nimera's first damaging non-Ultimate Truthshot Ability against such a target gains **+10% Power**.
+
+When a Truthshot Ability or Final Annotation damages such a target, her next hostile Standard Card against that same enemy before the end of the following round gains **+10 Base Hit / application reliability** where relevant. The Card bonus is one-use, same-target, non-stacking, and does not substitute for Indexed/Sovereign Index.
+
+All six character-specific Synthesis effects are now mechanically complete.
+
+---
+
+## 10. Base class snapshot
 
 - **Cyanis — Crest Knight:** Crest Strike / Guardian Sigil / Harmonizing Ward / Resolute Counter / Crest Rush / Crest Rend / Crest of Companions.
 - **Ilyra — Blue Warden:** Mend / Clear Warding / Renewal / Warden's Valor / Revive / Lifeline / Dawn Without End.
@@ -343,10 +266,10 @@ The Ilyra/Seyrik Synthesis pair is approved as a cadence loop rather than a raw-
 
 ---
 
-## 10. Immediate open work
+## 11. Immediate open work
 
-1. Design the **Torren ⇄ Nimera Synthesis effects**.
-2. Author the three pair **resolution/integration story beats**, beginning with Cyanis/Vaelira.
+1. Run the **final six-Synthesis cross-balance / consistency pass**.
+2. Author the three pair **resolution/integration story beats**.
 3. Finalize pair-specific **Legacy mapping / naming / acquisition presentation**.
 4. Reconcile **Core Mastery** effect text.
 5. Finalize the global direct-damage-reduction stacking rule and universal Ultimate cost convention.
