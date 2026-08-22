@@ -1,11 +1,13 @@
 # Chapter 1 — Brackenwall and the Wayfinder — COMPLETE
 
-**Whole-project authority:** Diyse Clean Active Complete Master Canon **v1.64 / Audit79**  
+**Whole-project authority:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.90 / Audit105**  
 **Chapter line-complete checkpoint:** **Audit79**  
 **Closed set:** S007–S011 + C03–C05  
 **Runtime status:** Story/dialogue/continuity/relationship/affordable-2.5D authority CLOSED; **production dialogue Resource conversion is COMPLETE and exact source-parity + whole-chapter continuity validated.**
 
 The exact approved Chapter 1 dialogue lives in `docs/chapters/dialogue/chapter_01/`. Its production `DiyseDialogueSceneDefinition` Resource set lives in `game/content/dialogue/chapter_01/`. Do not reconstruct or rewrite the chapter from older summaries or recovered fragments.
+
+**Audit105 bounded correction:** the Hollow Watch Castellan first-clear Card is **Faultline Sight** rather than Bastion Reserve; S011 uses **Acuity** rather than Resource as the fourth Face and uses neutral **Face markings / Face notation** wording rather than assuming a dedicated Face-symbol system. All other approved Chapter 1 wording/staging remains inherited unless separately superseded.
 
 ## Controlling scene files
 
@@ -43,7 +45,7 @@ Validation authority:
 - Torren/Maevra remain **Harth / Solmar** throughout Chapter 1. Edda may naturally call Maevra **Mae**; this does not advance Torren/Maevra address progression.
 - S010 preserves Cyanis's authored refusal to destroy the civilian flood crossing. Maevra records the refusal and the group owns the harder tactical problem together.
 - Wayfinder Junction is an **outdoor physical Ancient Diysean cartographic monument/crossroads**, not a station, terminal, hidden Network interface, or control building.
-- The Six Faces are common Yahtrean knowledge. Chapter 1 reveals only that Ancient Diyseans used familiar Face symbols inside a technical cartographic grammar the party does not yet understand.
+- The Six Faces are common Yahtrean knowledge. Chapter 1 reveals only that Ancient Diyseans used familiar Face markings inside a technical cartographic grammar the party does not yet understand.
 - The party leaves S011 with practical physical copies/rubbings of the Wayfinder material. Those copies persist for later comparison.
 - The mystery Card remains unidentified as a Prime. No Last Sentinel, Ruby-response, giant buried Crest, or integrated Underground Crest Network reveal occurs here.
 - Hunt #1 — **Cistern Devourer** becomes accessible from knowledge of the old cistern branch after S011 and remains optional/returnable.
