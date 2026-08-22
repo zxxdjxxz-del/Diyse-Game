@@ -1,6 +1,6 @@
 # Diyse — Class Rework Current Update — 2026-08-21
 
-**Status:** ACTIVE CLASS-REWORK CONSOLIDATION — ALL SIX SUBCLASSES + ALL SIX SYNTHESIS EFFECTS + ALL THREE PAIR RESOLUTION BEATS APPROVED; CYANIS/VAELIRA LEGACY PAIR APPROVED; NOT YET MASTER-CANON PROMOTED  
+**Status:** ACTIVE CLASS-REWORK CONSOLIDATION — ALL SIX SUBCLASSES + ALL SIX SYNTHESIS EFFECTS + ALL THREE PAIR RESOLUTION BEATS APPROVED; FIRST TWO LEGACY PAIRS APPROVED; NOT YET MASTER-CANON PROMOTED  
 **Parent whole-project authority:** v1.84 / Audit99 plus newer explicit class-rework decisions.  
 **Purpose:** current handoff/approval ledger for the CL13 class rework, reciprocal Subclasses, Mastery/Synthesis, equipment inheritance, pair-resolution beats, Legacy mapping, and remaining normalization work.
 
@@ -28,6 +28,7 @@ Cross-class / Synthesis:
 
 Legacy:
 - `docs/CYANIS_VAELIRA_LEGACY_WORKING_SPEC.md`
+- `docs/ILYRA_SEYRIK_LEGACY_WORKING_SPEC.md`
 
 ---
 
@@ -306,9 +307,39 @@ The Secondary-slot mapping is intentional: the pair receives a Legacy Shield and
 
 ---
 
-## 10. Immediate open work
+## 10. Approved Ilyra ⇄ Seyrik Legacy pair
 
-1. Finalize pair-specific **Legacy mapping / naming / acquisition presentation** for **Ilyra ⇄ Seyrik** and **Torren ⇄ Nimera**.
+Detailed authority: `docs/ILYRA_SEYRIK_LEGACY_WORKING_SPEC.md`.
+
+### Blue Warden Legacy — Mercy's Boundary
+- equipment family: **Shield**;
+- native tradition: Blue Warden;
+- Seyrik gains reciprocal Legacy eligibility after purchasing his Synthesis node / **Tempered Ruin**;
+- visual identity: refined ivory/silver Blue Warden shield with antique-gold framing, light-blue inlay, and blue-white boundary geometry;
+- explicitly avoids Black Host chains, ember-red glow, biomechanical ribbing, and corruption motifs.
+
+### Ruin Vanguard Legacy — Purposebound
+- equipment family: **Two-Handed Sword**;
+- native tradition: Ruin Vanguard;
+- Ilyra gains reciprocal Legacy eligibility after purchasing her Synthesis node / **Mercy Unbroken**;
+- visual identity: disciplined dark-gunmetal / ash-steel two-handed blade with a functional bright edge, strong guard geometry, and one restrained violet Ruin channel;
+- explicitly reads as controlled Ruin Vanguard equipment rather than a corrupted Black Host artifact.
+
+### Acquisition presentation
+- both join the deterministic **Cresthaven secured-equipment release during the Chapter 12 pre-point-of-no-return preparation window** already established for the Cyanis/Vaelira pair;
+- reuse the same armory / secured-equipment staging rather than creating another endgame location;
+- no Hunt, boss, crafting recipe, currency, material grind, random drop, side quest, or new dungeon;
+- acquisition remains separate from reciprocal Synthesis eligibility;
+- the late-Chapter-11 **Keep Them Alive** scene remains item-reward-free;
+- exact numerical stats, passive text if any, item IDs, prices/sell values, and final lore descriptions remain for the production item/equipment audit.
+
+The pair's slot asymmetry is intentional: **Mercy's Boundary** occupies Secondary while **Purposebound** occupies Weapon + Secondary. One represents preservation as a defended boundary; the other represents force constrained by purpose. Neither item changes Ability legality.
+
+---
+
+## 11. Immediate open work
+
+1. Finalize pair-specific **Legacy mapping / naming / acquisition presentation** for **Torren ⇄ Nimera**.
 2. Reconcile **Core Mastery** effect text.
 3. Finalize the global direct-damage-reduction stacking rule and universal Ultimate cost convention.
 4. Perform the deliberate global stale-terminology sweep from `Sixfold Accord` to **Sixfold Volition**.
