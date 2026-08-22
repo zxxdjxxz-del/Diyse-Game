@@ -1,64 +1,95 @@
 # Diyse — Active Engineering Canon Guardrails
 
-This is an implementation-facing summary. It does **not** replace the authoritative Complete Master Canon or newer explicit user corrections. If this summary conflicts with newer authority, the newer authority wins.
+This is an implementation-facing summary. It does **not** replace the authoritative Complete Master Canon or newer explicit user corrections. If this summary conflicts with a later canon artifact, the later authority wins.
 
-## Current written authority
+## Current whole-project authority — CORRECTED
 
-- **Whole-project root:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.85 / Audit100 — Reciprocal Class, Synthesis, and Legacy Architecture Lock**.
-- **Date:** August 22, 2026.
-- Immediate inherited chain:
-  - v1.84 / Audit99 — Random-Encounter Runtime Implementation and Production-Readiness Closure;
-  - v1.83 / Audit98 — Random-Encounter Pressure, Revised EXP Curve and Hunt-Economy Reconciliation;
-  - v1.82 / Audit97 — Campaign EXP Economy, Optional Progression and Battle-Pacing Closure;
-  - v1.81 / Audit96 — Level Progression, Hunt Difficulty and Encounter Strength Closure;
-  - v1.80 / Audit95 — Major Hunt Architecture and Unlock Closure;
-  - v1.79 / Audit94 — Enemy Asset Reuse and Palette-Swap Production Efficiency Lock;
-  - v1.78 / Audit93 — Whole-Game Enemy Production and Encounter Architecture Closure;
-  - v1.77 / Audit92 — Chapter 9 Crownfall Invasion, Rhazek Climax, and Larkspire Hunt Lock;
-  - v1.76 / Audit91 — Seyrik Pre-Reveal, Black Host Advancement, and Chapter 5 Beat-Rewrite Gate Lock;
-  - v1.75 / Audit90 — Chapters 0–7 Enemy Production and Terminology Lock;
-  - v1.74 / Audit89 — Chapters 11–12 Macro Story Structure and Final-Act Causality Lock;
-  - v1.73 / Audit88 — Chapters 0–4 HD-2D Conversion and Cost-Consolidation Closure;
-  - v1.72 / Audit87 — HD-2D Production Grammar and Legacy Presentation Language Closure;
-  - v1.71 / Audit86 — Cyanis Exact Visual Authority Lock;
-  - v1.70 / Audit85 — Yahtrea Exact World Map Visual and Spatial Authority Lock.
+**Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.88 / Audit103 — Quest Architecture, Character Quest and Ordinary Side-Quest Closure**  
+**Date:** August 21, 2026
 
-Current canon files include:
-- `docs/canon/AUDIT100_RECIPROCAL_CLASS_SYNTHESIS_AND_LEGACY_ARCHITECTURE_LOCK.md`
-- `docs/canon/AUDIT99_RANDOM_ENCOUNTER_RUNTIME_IMPLEMENTATION_AND_PRODUCTION_READINESS_CLOSURE.md`
-- `docs/canon/AUDIT98_RANDOM_ENCOUNTER_EXP_AND_HUNT_ECONOMY_RECONCILIATION.md`
-- `docs/canon/AUDIT97_CAMPAIGN_EXP_ECONOMY_OPTIONAL_PROGRESSION_AND_BATTLE_PACING_CLOSURE.md`
-- `docs/canon/AUDIT96_LEVEL_PROGRESSION_HUNT_DIFFICULTY_AND_ENCOUNTER_STRENGTH_CLOSURE.md`
-- `docs/canon/AUDIT95_MAJOR_HUNT_ARCHITECTURE_AND_UNLOCK_CLOSURE.md`
-- `docs/canon/AUDIT94_ENEMY_ASSET_REUSE_AND_PALETTE_SWAP_PRODUCTION_EFFICIENCY_LOCK.md`
-- `docs/canon/AUDIT93_WHOLE_GAME_ENEMY_PRODUCTION_AND_ENCOUNTER_ARCHITECTURE_CLOSURE.md`
-- `docs/canon/AUDIT92_CHAPTER_9_CROWNFALL_INVASION_RHAZEK_CLIMAX_AND_LARKSPIRE_HUNT_LOCK.md`
-- `docs/canon/AUDIT91_SEYRIK_PRE_REVEAL_BLACK_HOST_ADVANCEMENT_AND_CHAPTER_5_BEAT_REWRITE_GATE_LOCK.md`
-- `docs/canon/AUDIT90_CHAPTERS_00_07_ENEMY_PRODUCTION_AND_TERMINOLOGY_LOCK.md`
-- `docs/canon/AUDIT89_CHAPTERS_11_12_MACRO_STORY_STRUCTURE_AND_FINAL_ACT_CAUSALITY_LOCK.md`
-- `docs/canon/REGION_TERMINOLOGY_LOCK_2026-08-22.md`
+The corrected forward authority sequence is:
+- **v1.84 / Audit99** — Random-Encounter Runtime Implementation and Production-Readiness Closure.
+- **v1.85 / Audit100** — Enemy Asset Reuse and Palette-Swap Production Efficiency Lock.
+- **v1.86 / Audit101** — Major Hunt Architecture and Unlock Closure.
+- **v1.87 / Audit102** — Major Hunt Difficulty and Progression Balance Closure.
+- **v1.88 / Audit103** — Quest Architecture, Character Quest and Ordinary Side-Quest Closure.
 
-## Presentation and project foundation
+The recent class-rework work occurs **after Audit103**. It is approved design but is **not yet assigned a valid master-canon audit number** in this file. The next available promotion slot is **v1.89 / Audit104**, subject to reconciliation with inherited Audit103 quest/Legacy-Component authority.
+
+The mistakenly created `AUDIT100_RECIPROCAL_CLASS_SYNTHESIS_AND_LEGACY_ARCHITECTURE_LOCK.md` was invalid because Audit100 was already occupied by the Enemy Asset Reuse closure. It has been removed.
+
+## Project foundation
 
 - Diyse is an **HD-2D JRPG**.
-- Field characters target approximately **80 px**; battle characters approximately **200 px**; dialogue uses large high-resolution portraits.
+- Field sprites target approximately **80 px**; battle sprites approximately **200–220 px**; dialogue uses large high-resolution portraits.
 - Standard combat frame: up to four active party members staggered left, enemies right, open center action/VFX lane.
 - Target runtime: approximately **25 hours**.
-- Platform target: Android / APK, landscape.
 - Permanent roster: exactly six; maximum active battle party: four.
 - Dialogue is one authored continuity; no dialogue wheel, morality route, affinity-response system, romance route/system, or selectable protagonist personality.
-- Absolute player level cap: **60**. No Level 61+, prestige leveling, or separate postgame leveling campaign.
-- Cleared-save `WORLD_AFTER` free roam exists; no separate postgame progression campaign.
+- **Current player level cap: 70.** Any older repository summary still stating an absolute Level-60 cap is superseded by the later authority inherited by Audit103.
+- Exact quest EXP and the final Level-70 progression rebalance remain deferred; Audit103 explicitly leaves those numbers open.
 
-## Audit100 reciprocal class / Synthesis / Legacy authority — controlling
+## Audit103 quest architecture — controlling
 
-Detailed authority: `docs/canon/AUDIT100_RECIPROCAL_CLASS_SYNTHESIS_AND_LEGACY_ARCHITECTURE_LOCK.md`.
+- Exactly **6 standalone Character Quests**, one for each permanent party member.
+- Character Quests target approximately **30 minutes each**.
+- Exactly **3 Character Quest bosses**: Elemental Forecast Construct, Crest Load Warden, Revision Custodian.
+- Seyrik, Ilyra, and Torren use authored non-boss Character-Quest climaxes.
+- Exactly **10 ordinary non-story/non-Hunt side quests**; the older working target of 12 is retired.
+- Each Character Quest grants that character's **Legacy Component** as its primary mechanical reward.
+- Character Quests are optional and may not gate mandatory Story Primes, mandatory lore, required abilities, or main-plot comprehension.
+- Once unlocked, Character Quests and ordinary side quests remain available until the Chapter 12 point of no return unless explicitly superseded later.
+- **Sixfold Volition** is the formal current term; `Sixfold Accord` is deprecated.
 
-### Sixfold Volition
-- Formal name: **The Sixfold Volition**; `Sixfold Accord` is stale terminology.
-- No Subclass exists before the Volition.
-- All six Subclasses unlock at the Volition.
-- Reciprocal pairs: **Cyanis ⇄ Vaelira**, **Ilyra ⇄ Seyrik**, **Torren ⇄ Nimera**.
+Character Quests:
+1. Vaelira — **The Sky No One Chose** — after Sixfold Volition — boss: Elemental Forecast Construct.
+2. Cyanis — **The Weight of the Crest** — after Chapter 7 — boss: Crest Load Warden.
+3. Nimera — **The Archive That Remembers** — after Chapter 8 — boss: Revision Custodian.
+4. Seyrik — **The Name That Remains** — after Chapter 8 — no full boss.
+5. Ilyra — **Mercy Has a Voice** — after Chapter 9 once optional travel resumes — no full boss.
+6. Torren — **The Road That Returns** — after Chapter 10 — no full boss.
+
+Ordinary side quests:
+1. Edda Harth — **The Marks We Leave**.
+2. Dunmere neighborhood waterkeeper — **The Water Between Houses**.
+3. Crown Princess Mirena — **A Measure of Bread**.
+4. Ivorybridge bridgekeeper / lampwright — **The Dark Span**.
+5. Stonewake forge steward — **One Fire Burning**.
+6. Crown Princess Mirena — **The Crown's Debt**.
+7. Talia Rell — **The Third Caravan**.
+8. Talia Rell — **The Living List**.
+9. Edda Harth — **When the Roads Open**.
+10. Crown Princess Mirena — **What We Build After**.
+
+## Audit99 random-encounter/runtime authority — inherited where compatible
+
+Audit103 does not erase the tested Audit99 random-encounter implementation. Compatible Audit99 engineering rules remain active, including:
+- random encounters use hidden eligible-movement-distance pressure;
+- pressure is fed by actual resolved horizontal displacement after collision resolution;
+- standing still, wall-pushing with zero displacement, vertical-only displacement, and movement-disabled displacement do not count;
+- menus/cutscenes/dialogue/authored pauses suspend pressure;
+- maximum **8 simultaneously active enemies**;
+- exact immediate formation repeats are suppressed when alternatives exist;
+- transient random-encounter handoff is not serialized into saves;
+- area tuning retains same-ecology / new-ecology / safe-reset semantics;
+- Greenhollow's old proof conversion remains engineering-only rather than production canon.
+
+Any Audit98/Audit99 player-level progression values that depended on a Level-60 cap are subordinate to the later **Level-70** authority and the still-pending final progression rebalance.
+
+## World / map authority
+
+The exact approved Yahtrea map remains the controlling surface-world visual/spatial master. Do not move, regenerate, reinterpret, simplify, add, remove, or reconnect geography unless explicitly approved.
+
+Formal modern Realms:
+- **The Westways** — west; supersedes Edgelands as the regional name.
+- **The Greyspires** — north / northern mountain region; supersedes Diysereach as the regional name.
+- **The Crownhold** — capital/royal-core region; supersedes Southhold as the regional name.
+
+All existing settlement and landmark names remain unchanged by the regional terminology correction.
+
+## Post-Audit103 class-rework package — APPROVED, PENDING VALID CANON PROMOTION
+
+The following are approved design decisions developed after Audit103. They must be preserved for the next valid canon promotion, but this summary does not misnumber them as Audit100.
 
 ### CL13 class architecture
 - Base Class cap = **CL13**.
@@ -71,7 +102,7 @@ Detailed authority: `docs/canon/AUDIT100_RECIPROCAL_CLASS_SYNTHESIS_AND_LEGACY_A
 ### Global Ability weapon rule
 **No Ability or Ultimate requires a particular equipped weapon.** Once learned, Abilities remain usable under any otherwise-legal loadout. Equipment still controls ordinary Attack, stats, slot geometry, Relic/Legacy legality, and presentation. If a technique visually implies a weapon not equipped, it uses an authored manifested/projected expression instead of disabling the command.
 
-### Final Base/Subclass identities
+### Final reciprocal Subclasses
 - **Cyanis — Crest Knight / Crest Arcanist**
 - **Vaelira — Green Arcanist / Axiomblade**
 - **Ilyra — Blue Warden / Vowblade**
@@ -79,24 +110,22 @@ Detailed authority: `docs/canon/AUDIT100_RECIPROCAL_CLASS_SYNTHESIS_AND_LEGACY_A
 - **Torren — War Archer / Routeweaver**
 - **Nimera — Cardweaver / Truthshot**
 
-Ruin Warden supersedes Ruin Reclaimer/Ruin Healer. Truthshot supersedes Nimera's retired Sixfold Knight direction.
-
-### Important formula/state locks
+Key formula/state locks:
 - Vowblade damaging Abilities = **50% Attack / 50% Spirit Hybrid**.
 - Ruin Warden Siphon Rune = one hit, **60% Attack / 40% Magic Hybrid**.
 - Routeweaver damaging Abilities = **50% Attack / 50% Magic Hybrid**.
 - Hunter's Measure is shared between Torren and Nimera.
 - Diysean Appraisal remains information reveal only; there is no `Appraised` status.
-- Indexed remains a separate Card-specific state.
+- Indexed remains separate.
 
-### Mastery / Relic / Synthesis
+### Mastery / Synthesis
 - Mastery architecture = **4 Core + 4 Subclass + 1 Synthesis**, each costing 1 MP; banking is legal.
 - **Equipment Mastery = Subclass Mastery Node 4 at Subclass CL10** and grants donor Relic access.
 - Exact Core Mastery effects/final Core gate reconciliation remain open.
 - Synthesis requires Base CL13 + Subclass CL13 + all eight prior Masteries + authored resolution requirement + 1 unspent MP.
 - Synthesis purchase is individual and persistent; it does not create a third class, merge stat packages, activate both Traits, add actions/slots/Card slots/gauges, or create weapon requirements.
 
-### Final Synthesis effects
+Final Synthesis names:
 - Cyanis — **Unified Crest**
 - Vaelira — **Unified Spectrum**
 - Ilyra — **Mercy Unbroken**
@@ -104,359 +133,38 @@ Ruin Warden supersedes Ruin Reclaimer/Ruin Healer. Truthshot supersedes Nimera's
 - Torren — **Measured Passage**
 - Nimera — **Living Proof**
 
-Exact mechanics are canonized through the Audit100 incorporated detailed specs and six-Synthesis cross-balance audit.
-
-### Mandatory late-Chapter-11 resolution beats
-- Cyanis ⇄ Vaelira — **What Holds, What Changes** — preferred Cresthaven staging.
+### Mandatory late-Chapter-11 Synthesis-resolution beats
+- Cyanis ⇄ Vaelira — **What Holds, What Changes** — Cresthaven staging.
 - Ilyra ⇄ Seyrik — **Keep Them Alive** — Forward Hub treatment/recovery staging.
 - Torren ⇄ Nimera — **Enough to Move** — Forward Hub operations/map-table staging.
 
-These are mandatory authored continuity, not romance/affinity/player-choice scenes. Each shared scene satisfies the story prerequisite for both characters but does not automatically purchase Synthesis. Exact final dialogue and scene numbering remain for script integration.
-
-### Final six Legacy items
-- Crest Knight — **Stillpoint Aegis** — Shield — reciprocal Vaelira eligibility after Synthesis.
-- Green Arcanist — **Living Prism** — Focus — reciprocal Cyanis eligibility after Synthesis.
-- Blue Warden — **Mercy's Boundary** — Shield — reciprocal Seyrik eligibility after Synthesis.
-- Ruin Vanguard — **Purposebound** — Two-Handed Sword — reciprocal Ilyra eligibility after Synthesis.
-- War Archer — **Known Ground** — Great Bow — reciprocal Nimera eligibility after Synthesis.
-- Cardweaver — **Decisive Record** — one-slot Conduit — reciprocal Torren eligibility after Synthesis.
-
-All six are deterministic physical pickups in one shared **Cresthaven secured-equipment release during the Chapter 12 pre-point-of-no-return preparation window**. Acquisition is separate from Synthesis eligibility. Exact final Legacy stats/passives remain for the production item/equipment audit.
-
-## Audit98 progression/economy model — inherited and controlling
-
-Audit100 does not change Audit98's progression math.
-
-Campaign-only progression reference:
-- Ch0: no levels / no EXP progression;
-- Ch1 ~1→5;
-- Ch2 ~5→9;
-- Ch3 ~9→13;
-- Ch4 ~13→17;
-- Ch5 ~17→22;
-- Ch6 ~22→27;
-- Ch7 ~27→32;
-- Ch8 ~32→37;
-- Ch9 ~37→42;
-- Ch10 ~42→**47**;
-- Ch11 ~47→**53**;
-- Ch12 launch around **53**;
-- Ch12 campaign-only completion around **55**.
-
-Descriptive optional/readiness reference:
-- End Ch10 most-optional roughly **50–51**;
-- Ch12 launch most-optional roughly **56–57**;
-- End Ch12 most-optional roughly **59–60**;
-- a 100% player may already be **Level 60 before Chapter 12**;
-- Worldframe is not required to reach Level 60.
-
-Recommended levels are descriptive readiness references, not hard gates.
-
-## EXP curve — inherited Audit98
-
-Levels 1–17 retain:
-
-**Cumulative EXP(L) = 100 × (L − 1)^2**
-
-From L17→18 onward:
-- base increment = `100 × (2L − 1)`;
-- multiplier = `1 + 0.35 × (L − 17) / 42` for L≥17;
-- implementation rounds the final level-up cost **half-to-even to the nearest 100 EXP** so the locked milestone table is reproduced exactly.
-
-Key totals:
-- L17 25,600;
-- L22 44,400;
-- L27 69,300;
-- L32 100,600;
-- L37 138,800;
-- L42 184,300;
-- L47 237,600;
-- L50 273,500;
-- L53 312,400;
-- L54 326,000;
-- L55 340,000;
-- L56 354,400;
-- L59 399,600;
-- L60 415,400.
-
-## Campaign random-battle pacing — inherited Audit98
-
-Expected mandatory-route ordinary random encounters:
-- Ch1 18; Ch2 19; Ch3 19; Ch4 19; Ch5 20; Ch6 19; Ch7 19; Ch8 18; Ch9 16; Ch10 17; Ch11 18; Ch12 8.
-- Total = **approximately 210 expected**, never a fixed quota.
-
-The 210 excludes Hunt-route combat, Major-Hunt destination combat, other optional/backtracking combat, Elites, named encounters, bosses, Hunts, and Chapter 0 authored tutorial encounters.
-
-There is no hidden exit catch-up quota.
-
-## Random encounter pressure — design and implementation controlling
-
-Random encounters remain random and use hidden **eligible-movement-distance pressure**.
-
-- pressure comes from actual resolved horizontal displacement after collision resolution;
-- standing still does not count;
-- wall-pushing with zero displacement does not count;
-- vertical-only displacement does not count;
-- movement-disabled displacement does not count;
-- menus/cutscenes/dialogue/authored pauses suspend pressure;
-- sprinting cannot reduce encounters per unit distance;
-- no encounter can trigger before approximately 0.35S;
-- trigger chance rises in 0.10S checks to 80% at 1.65S+;
-- there is no hard forced encounter;
-- victory resets pressure;
-- successful flee resumes near 0.65S with 0.20S grace;
-- failed flee does not reset accumulated pressure;
-- exact consecutive formation repeats are suppressed when alternatives exist.
-
-Selection flow:
-
-**pressure trigger → area → Light/Standard/Heavy → weighted local formation pool**
-
-## Active-enemy cap — controlling
-
-Maximum **8 simultaneously active enemies**.
-
-True summons/adds count toward 8; VFX-only entities do not. Reinforcements may enter after space opens, so total participants over the whole fight may exceed 8 while simultaneous active enemies may not.
-
-Typical chapter formation grammar remains:
-- Ch1 2–3, max 4;
-- Ch2 3–4, max 4;
-- Ch3 3–4, max 5;
-- Ch4 4–5, max 6;
-- Ch5 5–6, max 7;
-- Ch6 5–7, max 8;
-- Ch7–11 generally 6–8, max 8;
-- Ch12 generally 5–8, max 8.
-
-## Optional EXP economy — inherited Audit98
-
-Pre-Chapter-12 optional leveling pool = **107,100 EXP**:
-- 11 Regional Hunts + Hunt-route combat = **46,700**;
-- Major Hunts #1–#5 + route/destination combat = **40,400**;
-- other optional/backtracking combat = **20,000**.
-
-Worldframe is excluded from the EXP needed to prove Level-60 reachability.
-
-Regional Hunt packages:
-1. Cistern Devourer — 1,000
-2. Transfer Executioner — 1,500
-3. Archive Judgment Engine — 1,900
-4. Crown Prototype — 2,200
-5. Whitehorn Ravager — 2,700
-6. Winterglass Titan — 3,400
-7. Rift Gate Colossus — 4,500
-8. Rift Siege Beast — 6,000
-9. Mercyfallen Behemoth — 6,800
-10. Authority Remnant — 7,900
-11. Throne of Emperor Vaelkor — 8,800
-
-Major Hunt packages before Worldframe:
-1. Ashen Whitehorn — 4,200
-2. Crownless Siege Marshal → Crownless War Engine — 5,000
-3. Concordance Guardian — 5,900
-4. Worldscar Leviathan — 12,300
-5. Final Archive Arbiter — 13,000
-
-## Hunt totals / fixed-difficulty rules — inherited
-
-- Exactly **11 Regional Hunts**.
-- Exactly **6 Major Hunts**.
-- Exactly **17 Hunt-class optional encounters**.
-- No dynamic level scaling.
-- Hunt recommended levels are readiness references, not access gates.
-- Worldframe Depths opens only after both Final Archive Arbiter clear and Vaelkor defeat.
-- Chapter 12 has no Regional Hunt.
-
-Regional recommended levels: 7 / 11 / 15 / 20 / 26 / 32 / 38 / 44 / 50 / 57 / 60.
-
-Major recommended levels: 21 / 27 / 34 / 46 / 58 / 60.
-
-## Audit99 runtime implementation closure — controlling
-
-The tested runtime chain now exists through:
-
-**resolved player movement**
-→ eligible horizontal distance
-→ area S conversion
-→ Audit98 pressure
-→ L/S/H tier
-→ weighted legal formation
-→ anti-repeat
-→ transient encounter payload
-→ generated 1–8-enemy battle state
-→ victory/engineering flee
-→ field return with pressure restoration.
-
-The following are implemented and no longer considered pending:
-- Audit98 balance/runtime helper layer;
-- reusable field encounter controller;
-- actual post-collision eligible-distance feed;
-- generated random-formation battle-state adapter;
-- transient field → combat → field random-encounter handoff;
-- reusable area encounter-tuning Resource;
-- area ecology transition behavior.
-
-## Area encounter-tuning contract — controlling
-
-Area tuning contains:
-- tuning ID;
-- chapter;
-- random-area ID;
-- `world_units_per_s`;
-- enabled/disabled state;
-- entry transition mode;
-- calibration state.
-
-Calibration states:
-- `engineering_only`;
-- `awaiting_geometry`;
-- `production_calibrated`.
-
-An enabled area may not remain `awaiting_geometry`.
-
-Transition modes:
-- **same ecology:** preserve pressure; no extra grace;
-- **new ecology:** preserve pressure and add **0.10S** ecology-transition grace;
-- **safe reset:** clear pressure, grace, and immediate anti-repeat history.
-
-The current Greenhollow proof value **20 world units = 1S** is engineering-only and non-canon.
-
-## Transient encounter/save boundary — controlling
-
-Current generated random encounters use runtime-only transient encounter state across scene transitions.
-
-- transient encounter request/return state is not serialized;
-- loading a save clears stale transient encounter state;
-- encounter-pressure persistence itself remains a future dedicated save-schema decision.
-
-## Chapter 1–4 random formation implementation status
-
-Current executable local random-formation catalogs exist for exactly these 10 areas:
-
-Chapter 1:
-- `ch01_brackenwall`
-- `ch01_greenhollow`
-- `ch01_hollow_watch`
-
-Chapter 2:
-- `ch02_dunmere_waterworks`
-- `ch02_sunken_archive`
-- `ch02_red_transfer_bastion`
-
-Chapter 3:
-- `ch03_way_fort`
-- `ch03_suppressed_archives`
-- `ch03_command_station`
-
-Chapter 4:
-- `ch04_reaction_annex`
-
-These use approved ordinary/carryover enemy identities, exclude authored non-random categories, obey active-enemy caps, and use Audit98 formation EXP anchors.
-
-## Enemy production boundary — controlling status
-
-Enemy architecture/identity planning is substantially closed by Audits 90/93/94/95/96/98.
-
-Still open unless separately locked at narrower scope:
-- final ordinary-enemy HP/Attack/Defense/Magic/Spirit/Speed;
-- final ordinary-enemy move kits;
-- final AI priorities/reactions;
-- final elemental/status weakness/resistance tables;
-- final drops/materials/gold;
-- Chapters 5–12 random-formation catalogs;
-- final Elite executable packages;
-- final Regional/Major Hunt executable packages;
-- final mandatory-boss executable packages;
-- final enemy sprites/animations/hit/death/VFX hookup;
-- 4-party + 8-enemy target-Android performance tuning.
-
-Current Greenhollow proof enemy stats are **engineering-only, non-canon, and not final balance**.
-
-## Enemy asset reuse — inherited Audit94
-
-For the Audit93 160-identity chapter roster:
-- roughly 40–45 true/near palette-material swaps;
-- roughly 60% / about 96 identities should avoid a completely new base sprite/rig through reuse;
-- only roughly 20–25 should read to players as obvious palette swaps;
-- shared assets never imply shared lore identity.
-
-## Item/equipment production boundary — Audit99 inherited with Audit100 Legacy overlay
-
-Audit99 did not invent a new item catalog, and Audit100 still does not silently lock the broader production item economy.
-
-Compatible earlier equipment-system rules remain inherited, including:
-- open equipment and persistent unlocked abilities;
-- Subclass selection controlling its stat package, Trait, and Subclass-only abilities;
-- donor / Relic / Legacy architecture;
-- Legacy equipment bonuses applying to any legal wearer;
-- Nimera's Conduit concept;
-- Torren Routeweaver's inherited access to the relevant Nimera Base equipment concept;
-- Cards remaining separate from normal inventory/equipment.
-
-Audit100 now additionally locks the **six named Legacy identities, equipment families, reciprocal Synthesis mappings, slot geometry, and shared deterministic Chapter-12 Cresthaven acquisition presentation** summarized above.
-
-The **production item catalog/economy remains open** beyond specifically locked items and rules.
-
-The dedicated item audit must resolve:
-- item taxonomy and practical total count;
-- consumables;
-- weapon progression;
-- armor;
-- accessories if retained by current item authority;
-- Conduits;
-- Legacy production stats/passives where open;
-- materials/drop economy;
-- shops and prices;
-- treasure/chest distribution;
-- sell values;
-- status cures/use restrictions;
-- Hunt/boss non-EXP item rewards;
-- crafting/upgrade rules only if retained after audit;
-- item IDs/icons/descriptions/sorting/runtime/save representation.
-
-No large genre-conventional item count or crafting system is canon by assumption.
-
-## World / map authority
-
-The exact user-approved Yahtrea map from August 19, 2026 remains the controlling surface-world visual/spatial master. Do not move, regenerate, reinterpret, simplify, add, remove, or reconnect geography unless explicitly approved. The August 22, 2026 region terminology lock changes regional labels only.
-
-Formal modern Realms:
-- **The Westways** — west; replaces the former regional label **Edgelands**.
-- **The Greyspires** — north / northern mountain region; replaces the former regional label **Diysereach**.
-- **The Crownhold** — south/east capital and royal-core region and includes Caelora; replaces the former regional label **Southhold**.
-
-All existing settlement and landmark names remain unchanged by this terminology correction. The Black Mountains lie west outside Yahtrea and are Black Host territory.
-
-## Chapter status / production frontier
-
-- Chapters **0–4 are COMPLETE/CLOSED** in story/dialogue/gameplay authority and have passed HD-2D Conversion Audit Pass 1 plus cross-chapter consistency/cost consolidation.
-- Chapter 2 S015/B003 unnamed masked SECOND OFFICER is Seyrik Rell; dialogue remains unchanged and identity remains unrevealed in-scene.
-- Chapter 5 — **The Mountain Engine** — remains the next inherited exact scene-production / HD-2D production-audit frontier, subject to Audit91's beat-level rewrite/reconciliation gate.
-- Chapter 9 route remains Larkspire / Equal Mercy → Last Sanctuary → Crownfall invasion → Mercy Is Not Surrender; Rhazek/Bastion Devourer is the mandatory Crownfall climax; Mercyfallen Behemoth is Hunt #9.
-- Chapter 11 remains Audit89-locked: Varkesh capture precedes Forward Hub; Vaelkor two-form climax; post-Vaelkor cleanup; deliberate Chapter 12 launch. Audit100 additionally locks the three mandatory late-Chapter-11 Synthesis-resolution beats within the preparation/operations continuity.
-- Chapter 12 remains Audit89-locked: no Regional Hunt; Devourer of Names Elite; Last Weapon Archon mandatory guardian; Reconstituted Entity → The Last Command; modern Final Severance; no third form. Audit100 additionally locks the shared Cresthaven Legacy secured-equipment release during the pre-point-of-no-return preparation window.
-
-## Current production readiness / next frontier
-
-The repository does **not** yet contain Chapter 1–4 final production traversal `.tscn` maps with real authored geometry suitable for production S calibration.
-
-Therefore still open:
-- first reusable production traversal-scene shell;
-- first production map geometry and real `world_units_per_s` calibration;
-- production enemy combat-data schema/final-stat methodology;
-- Chapters 1–4 final ordinary-enemy combat data;
-- Chapters 5–12 local formation catalogs;
-- Elite/Hunt/boss executable production packages;
-- full item/equipment catalog and economy audit, including final Legacy stats/passives;
-- final Core Mastery reconciliation;
-- global direct-damage-reduction stacking rule;
-- universal Ultimate MP-cost convention;
-- final Chapter-11 numbering/dialogue integration for the three Synthesis-resolution beats;
-- deliberate repository-wide `Sixfold Accord` → **Sixfold Volition** terminology sweep;
-- class-system implementation/data regression against Audit100;
-- encounter-pressure save persistence if later desired;
-- final flee-success/player-facing UI;
-- final defeat/game-over behavior;
-- target-Android high-density battle performance pass.
-
-Omission from this implementation-facing summary does not erase compatible older canon. Exact approved visual masters, Audit100's incorporated class specifications, and newer explicit user corrections always control conflicts.
+These are mandatory authored continuity, not romance/affinity/player-choice scenes. Exact final dialogue and scene numbering remain for later script integration.
+
+### Approved Legacy identities / reciprocal eligibility
+- Crest Knight — **Stillpoint Aegis** — Shield.
+- Green Arcanist — **Living Prism** — Focus.
+- Blue Warden — **Mercy's Boundary** — Shield.
+- Ruin Vanguard — **Purposebound** — Two-Handed Sword.
+- War Archer — **Known Ground** — Great Bow.
+- Cardweaver — **Decisive Record** — one-slot Conduit.
+
+The reciprocal Synthesis eligibility mapping remains approved in the pair-specific Legacy specs.
+
+### Legacy reconciliation gate before canon promotion
+Audit103 already locks **six character-specific Legacy Components as Character-Quest rewards**. The newer class-rework work also approves a shared Cresthaven physical-Legacy pickup presentation. These two approved layers must be reconciled explicitly before the Legacy **acquisition presentation** is promoted into v1.89 / Audit104 so no Character-Quest reward is orphaned or silently superseded.
+
+Until that reconciliation is approved:
+- Legacy names, families, reciprocal Synthesis eligibility, and slot geometry remain approved design;
+- the exact final relationship between each Character Quest Legacy Component and the Chapter-12 Cresthaven physical Legacy release remains the one unresolved integration point in the Legacy acquisition chain.
+
+## Immediate next canon work
+
+1. Reconcile **Audit103 Legacy Components** with the newly approved six Legacy items / Cresthaven release.
+2. Then issue the class-rework promotion in the next valid slot: **v1.89 / Audit104**, not v1.85 / Audit100.
+3. Reconcile Core Mastery effect text and final Core gates.
+4. Finalize global direct-damage-reduction stacking.
+5. Finalize the universal Ultimate MP-cost convention.
+6. Perform the deliberate repository-wide `Sixfold Accord` → **Sixfold Volition** terminology sweep.
+7. Run class/equipment/Mastery/Synthesis/Legacy implementation-data regression after the valid canon promotion.
+
+Omission from this implementation-facing summary does not erase compatible older canon. Exact approved visual masters, v1.88 / Audit103 quest authority, compatible Audit99 engineering authority, and newer explicit user corrections control conflicts.
