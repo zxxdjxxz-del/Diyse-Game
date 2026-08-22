@@ -1,8 +1,8 @@
 # Diyse — Class Synthesis Working Model
 
-**Status:** APPROVED UNIVERSAL SYNTHESIS ARCHITECTURE — TWO RECIPROCAL PAIRS APPROVED; TORREN/NIMERA PENDING  
+**Status:** APPROVED UNIVERSAL SYNTHESIS ARCHITECTURE — ALL THREE RECIPROCAL PAIRS APPROVED  
 **Parent authority:** v1.84 / Audit99 plus newer approved class-rework decisions.  
-**Related files:** `docs/CLASS_MASTERY_WORKING_MODEL.md`, `docs/CLASS_REWORK_CROSS_BALANCE_AUDIT_2026-08-21.md`, `docs/CLASS_REWORK_CURRENT_UPDATE_2026-08-21.md`, `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`, `docs/ILYRA_SEYRIK_SYNTHESIS_WORKING_SPEC.md`
+**Related files:** `docs/CLASS_MASTERY_WORKING_MODEL.md`, `docs/CLASS_REWORK_CROSS_BALANCE_AUDIT_2026-08-21.md`, `docs/CLASS_REWORK_CURRENT_UPDATE_2026-08-21.md`, `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`, `docs/ILYRA_SEYRIK_SYNTHESIS_WORKING_SPEC.md`, `docs/TORREN_NIMERA_SYNTHESIS_WORKING_SPEC.md`
 
 ## 1. Purpose
 
@@ -73,7 +73,7 @@ Universal boundaries for those effects:
 - no donor-chain permission beyond the reciprocal partner;
 - no automatic copying of the partner's entire ability kit.
 
-Synthesis should reward using the character's already-earned Base/Subclass tools together rather than creating a third standalone kit.
+Synthesis rewards using already-earned Base/Subclass tools together rather than creating a third standalone kit.
 
 ### B. Paired Legacy eligibility
 
@@ -103,8 +103,6 @@ However:
 - an individual Synthesis effect may reference Base or Subclass abilities, states, Fields, equipment, Cards, or established statuses, but it must obey their ordinary legality and timing;
 - **no Synthesis effect may introduce a weapon requirement for an Ability or Ultimate**, because learned Abilities are globally weapon-independent.
 
-This preserves the value of class selection while allowing true late-game integration.
-
 ---
 
 ## 6. Reciprocal-pair design rule
@@ -116,14 +114,12 @@ The three reciprocal pairs are:
 
 Each pair receives **two character-specific Synthesis effects**, one for each member.
 
-The two effects should rhyme mechanically and thematically but do not need to be mirrors or identical bonuses.
+The two effects rhyme mechanically and thematically but need not be mirrors.
 
-Design target:
+Design targets:
 - Cyanis/Vaelira — Crest discipline ⇄ elemental/arcanist expression;
 - Ilyra/Seyrik — mercy/preservation ⇄ Ruin/survival conversion;
 - Torren/Nimera — route/field judgment ⇄ Measure/evidence precision.
-
-Synthesis is where the reciprocal training relationship receives its final explicit mechanical payoff. Do not force extra pre-Synthesis pair bonuses merely for symmetry.
 
 ---
 
@@ -150,10 +146,8 @@ When Vaelira uses a **damaging Axiomblade Ability** against an enemy carrying on
 
 Boundaries:
 - Prism Cycle retains precedence when it already determines the Ability's element;
-- Formal Equivalence remains active/useful when Axiomblade is selected and is not replaced by Synthesis;
+- Formal Equivalence remains useful and is not replaced;
 - no automatic Composite Reaction, new Imprint, extra action, or weapon requirement is created.
-
-These two effects are approved as the first reciprocal Synthesis pair.
 
 ---
 
@@ -167,11 +161,7 @@ Detailed authority: `docs/ILYRA_SEYRIK_SYNTHESIS_WORKING_SPEC.md`.
 
 **Vowblade → Blue Warden:** once per round, when a **Vowblade Ability or Ultimate** restores HP to at least one conscious ally other than Ilyra, her next **non-Ultimate Blue Warden Ability** before the end of the following round costs **3 less MP**, minimum 1 MP.
 
-Boundaries:
-- self-only recovery does not qualify;
-- one qualifying action arms one one-use effect;
-- bonuses/discounts do not stack with themselves;
-- no healing amount, revival value, target rule, Hybrid formula, or weapon legality is altered.
+The effects are one-use and non-stacking. Self-only recovery does not qualify. No healing amount, revival value, target rule, Hybrid formula, or weapon legality is altered.
 
 ### Seyrik — Tempered Ruin
 
@@ -179,17 +169,52 @@ Boundaries:
 
 **Ruin Warden → Ruin Vanguard:** once per round, when a **Ruin Warden Ability or Ultimate** restores HP to at least one ally other than Seyrik, his next **damaging non-Ultimate Ruin Vanguard Ability** before the end of the following round gains **+10% Power**.
 
-Boundaries:
-- Siphon Rune's self-recovery alone does not qualify;
-- an action restoring multiple allies still arms only one bonus;
-- Reclaimed Breath may qualify because revival returns another ally with restored HP;
-- no damage type, self-drawback clause, cooldown, MP cost of the empowered attack, healing amount, revival value, or weapon legality is altered.
-
-The pair is deliberately cadence-oriented rather than raw-healing-oriented: Ilyra moves **preservation → offense → efficient preservation**, while Seyrik moves **Ruin offense → efficient preservation → disciplined Ruin offense**.
+Siphon Rune's self-recovery alone does not qualify. Reclaimed Breath may qualify because revival returns another ally with restored HP. The effects are one-use and non-stacking.
 
 ---
 
-## 9. Timing target
+## 9. Approved Torren ⇄ Nimera Synthesis effects
+
+Detailed authority: `docs/TORREN_NIMERA_SYNTHESIS_WORKING_SPEC.md`.
+
+### Torren — Measured Passage
+
+**War Archer → Routeweaver:** once per round, when a **damaging non-Ultimate War Archer Ability** resolves against an enemy with **Hunter's Measure**, Torren's next **non-Ultimate Routeweaver Ability** before the end of the following round costs **2 less MP**, minimum 1 MP.
+
+**Routeweaver → War Archer:** once per round, when a **Routeweaver Ability or Ultimate** establishes or legally extends one of Torren's **Route Fields**, his next **damaging non-Ultimate War Archer Ability** against an enemy with Hunter's Measure before the end of the following round gains **+10% Power**.
+
+Boundaries:
+- the discount and Power bonus are one-use and non-stacking;
+- Hunter's Measure may have been applied by Torren or Nimera;
+- a Prepared War Archer response may qualify only when its damaging response actually resolves;
+- Covered Crossing arms the return bonus only if it actually extends an active Route Field;
+- no Field duration, Measure duration, hit pattern, target rule, or weapon legality is altered by the Synthesis itself.
+
+### Nimera — Living Proof
+
+An enemy satisfies **Living Proof's known-target condition** when both are true:
+1. Nimera has already revealed that enemy's permitted combat data through **Diysean Appraisal**; and
+2. that enemy currently has **Hunter's Measure**.
+
+This is a condition check only and creates no `Appraised`, `Verified`, `Proven`, or other new status.
+
+**Cardweaver knowledge → Truthshot:** once per round, Nimera's first **damaging non-Ultimate Truthshot Ability** against a target satisfying the known-target condition gains **+10% Power**.
+
+**Truthshot → Cardweaver:** once per round, when a **Truthshot Ability or Final Annotation** damages a target satisfying the known-target condition, Nimera's next **hostile Standard Card targeting that same enemy** before the end of the following round gains **+10 Base Hit / application reliability** where relevant.
+
+Boundaries:
+- Hunter's Measure may have been applied by Nimera or Torren;
+- Final Annotation may arm the Card reliability bonus but does not receive the +10% Power clause;
+- the Card bonus is one-use, same-target, and non-stacking;
+- it does not create extra Card slots/actions or substitute for **Indexed** / Sovereign Index;
+- if the Card has no Hit/application roll, no replacement benefit is created;
+- no weapon requirement is created.
+
+All six character-specific Synthesis effects are now mechanically defined.
+
+---
+
+## 10. Timing target
 
 Because eligibility requires **both Base CL13 and Subclass CL13**, Synthesis is an endgame completion reward rather than a midgame system.
 
@@ -202,7 +227,7 @@ This timing is intentional:
 
 ---
 
-## 10. Approved non-effects
+## 11. Approved non-effects
 
 Purchasing Synthesis does **not** by itself:
 - raise the class cap beyond CL13;
@@ -217,15 +242,14 @@ Purchasing Synthesis does **not** by itself:
 - bypass two-slot weapon geometry for equipment itself;
 - bypass the one-armed Prepared-effect limit.
 
-The distinction is explicit: equipment can still occupy Weapon + Secondary or have its own legality rules, but **Abilities themselves are never disabled because a particular weapon is not equipped**.
+Equipment can still have its own legality and slot rules, but **Abilities themselves are never disabled because a particular weapon is not equipped**.
 
 ---
 
-## 11. Remaining Synthesis work
+## 12. Remaining Synthesis work
 
-1. Design **Torren Synthesis** and **Nimera Synthesis**.
+1. Run the **final six-Synthesis cross-balance / consistency pass**.
 2. Define the exact shared character-resolution story beat for each reciprocal pair.
 3. Finalize pair-specific Legacy item mapping/naming and acquisition presentation.
 4. Normalize Core Mastery text and final global combat-modifier / Ultimate-cost rules.
-5. Run a final six-Synthesis balance pass after all six character-specific effects are complete.
-6. Promote the completed class-rework package through a new master-canon audit.
+5. Promote the completed class-rework package through a new master-canon audit after the remaining normalization and Legacy/story gates are stable.
