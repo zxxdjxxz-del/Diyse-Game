@@ -1,6 +1,6 @@
 # Diyse — Cyanis ⇄ Vaelira Synthesis Working Spec
 
-**Status:** APPROVED PAIR-SPECIFIC SYNTHESIS DESIGN — NOT YET MASTER-CANON PROMOTED  
+**Status:** APPROVED PAIR-SPECIFIC SYNTHESIS DESIGN + RESOLUTION BEAT — NOT YET MASTER-CANON PROMOTED  
 **Parent authority:** v1.84 / Audit99 plus newer approved class-rework decisions.  
 **Related files:** `docs/CLASS_SYNTHESIS_WORKING_MODEL.md`, `docs/CYANIS_VAELIRA_SUBCLASS_WORKING_SPEC.md`, `docs/VAELIRA_CYANIS_SUBCLASS_WORKING_SPEC.md`
 
@@ -94,8 +94,89 @@ The Synthesis rewards mastery of both halves of her kit without granting automat
 - Vaelira's Imprint extension is capped at once per round and at the Imprint's authored maximum duration.
 - No additional reciprocal-pair bonus is granted merely for fielding Cyanis and Vaelira together.
 
-## 5. Remaining pair work
+## 5. Approved resolution / integration story beat — What Holds, What Changes
 
-- Author the shared Cyanis/Vaelira **resolution / integration story beat** that satisfies their individual Synthesis narrative prerequisite.
-- Finalize the pair-specific **Legacy mapping, names, and acquisition presentation**.
-- Run the final six-Synthesis balance pass after Ilyra/Seyrik and Torren/Nimera Synthesis effects are complete.
+### Placement
+
+- **Late Chapter 11**, during the authored preparation/return window before Chapter 12's point of no return.
+- Use **Cresthaven** as the preferred location so the beat can reuse an established safe-hub environment rather than invent a bespoke space.
+- The exact scene number remains for later script integration; the narrative beat itself is approved.
+- The scene is **mandatory authored continuity**, not an optional affection scene, dialogue-choice reward, or missable camp event.
+- Completing it satisfies the **character-resolution / integration prerequisite for both Cyanis and Vaelira**. It does not automatically buy Synthesis; each still needs the full mechanical gate and 1 MP.
+
+### Setup
+
+Cyanis is working through a simple practice Crest. Vaelira changes the elemental input during the exercise and the pattern destabilizes. Cyanis resets it to the original geometry. It fails again when the elemental condition changes.
+
+Vaelira's objection is practical rather than mystical: Cyanis keeps repairing the same answer even though the conditions are no longer the same. Cyanis's objection to her method is equally practical: Vaelira can keep adapting forever, but at some point someone has to decide what the structure is actually meant to preserve.
+
+The scene should begin with mild irritation and technical banter, not a solemn confession.
+
+### First failed solution — structure without adaptation
+
+Cyanis establishes a clean, fixed Crest pattern and asks Vaelira to push a standard elemental current through it.
+
+- The Crest holds under the first condition.
+- Vaelira changes the element or pressure.
+- The pattern strains or breaks because Cyanis is asking every line to remain exactly where it began.
+
+This is not framed as Cyanis being wrong about protection. The flaw is that he has treated **holding** and **remaining unchanged** as the same thing.
+
+### Second failed solution — adaptation without an anchor
+
+Vaelira rebuilds the exercise around a more fluid elemental pattern.
+
+- The current adapts easily when conditions shift.
+- The pattern does not fail, but it diffuses or loses a stable center because nothing is required to remain fixed.
+
+This is not framed as Vaelira being wrong about change. The flaw is that she has treated **adaptability** as sufficient without first deciding what cannot be surrendered.
+
+### Integrated solution
+
+They rebuild the exercise together.
+
+- Cyanis anchors only the few lines that define the Crest's purpose.
+- Vaelira leaves the surrounding channels free to alter with the elemental input.
+- The center holds while the outer expression changes.
+- They then reverse the lesson once: Vaelira establishes the elemental condition first, and Cyanis shapes a Crest around what is already present instead of forcing the element into a preselected form.
+
+The finished pattern should visually read as **stable structure with living variation**, foreshadowing Unified Crest and Unified Spectrum without pretending that the Synthesis node has already been purchased.
+
+### Character resolution
+
+The scene resolves two reciprocal assumptions.
+
+**Cyanis learns:** protection does not always mean restoring something to the shape it had before. Sometimes the responsible choice is to decide what absolutely must remain, then allow everything around that core to change so the whole survives.
+
+**Vaelira learns:** adaptation is not the same thing as refusing commitment. A boundary or fixed point can make change more useful because it gives change a purpose instead of merely preserving options.
+
+Neither character becomes subordinate to the other's worldview. Each leaves with a more exact version of their own.
+
+### Tone / dialogue boundary
+
+- Keep the exchange adult, practical, and a little dry.
+- Do not turn it into an inspirational speech about friendship.
+- Do not add romance framing.
+- Final exact dialogue remains deferred to the later dialogue/script pass.
+- Dialogue intent may include the contrast **“holding is not the same as refusing to move”** and **“changing is not the same as refusing to choose,”** but these are thematic instructions, not locked final lines.
+
+### Closing image
+
+The practice Crest remains active after the conversation. One part of the geometry stays visibly fixed while the elemental expression around it changes without breaking the whole.
+
+Cyanis does not immediately correct the changing portion. Vaelira does not immediately alter the anchor.
+
+They leave it working.
+
+### Production / implementation boundaries
+
+- Reuse Cresthaven exterior/interior staging already available for character-life scenes.
+- Reuse Cyanis Crest VFX and Vaelira standard-element VFX; no new environment system or unique cinematic asset is required.
+- No combat, boss, item reward, or new lore artifact is introduced.
+- The only system result is marking the **Cyanis Synthesis story prerequisite complete** and the **Vaelira Synthesis story prerequisite complete**.
+- If the player has not yet met the remaining Synthesis gates, the Mastery interface may show the narrative prerequisite as completed while the node remains unavailable.
+
+## 6. Remaining pair work
+
+- Finalize the Cyanis/Vaelira **Legacy mapping, names, and acquisition presentation**.
+- Integrate **What Holds, What Changes** into the final Chapter 11 script numbering and dialogue pass without changing its approved story function.
