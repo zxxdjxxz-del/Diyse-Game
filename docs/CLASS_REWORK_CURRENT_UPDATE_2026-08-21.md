@@ -1,8 +1,15 @@
 # Diyse — Class Rework Current Update — 2026-08-21
 
-**Status:** ACTIVE CLASS-REWORK CONSOLIDATION — ALL SIX SUBCLASSES + ALL SIX SYNTHESIS EFFECTS + ALL THREE PAIR RESOLUTION BEATS + ALL THREE LEGACY PAIRS APPROVED; NOT YET MASTER-CANON PROMOTED  
-**Parent whole-project authority:** v1.84 / Audit99 plus newer explicit class-rework decisions.  
-**Purpose:** current handoff/approval ledger for the CL13 class rework, reciprocal Subclasses, Mastery/Synthesis, equipment inheritance, pair-resolution beats, Legacy mapping, and remaining normalization work.
+**Status:** MASTER-CANON PROMOTION COMPLETE FOR SETTLED PACKAGE — PROMOTED BY **v1.85 / Audit100**; REMAINING CORE-MASTERY / GLOBAL-NORMALIZATION WORK CONTINUES  
+**Parent whole-project authority:** **v1.85 / Audit100 — Reciprocal Class, Synthesis, and Legacy Architecture Lock**.  
+**Purpose:** implementation/handoff ledger for the CL13 class rework, reciprocal Subclasses, Mastery/Synthesis, equipment inheritance, pair-resolution beats, Legacy mapping, and remaining normalization work.
+
+## Audit100 promotion
+
+Master-canon authority:
+- `docs/canon/AUDIT100_RECIPROCAL_CLASS_SYNTHESIS_AND_LEGACY_ARCHITECTURE_LOCK.md`
+
+Audit100 promotes the settled material in this ledger and the incorporated detailed specs. Older headers inside detailed working documents that still say **NOT YET MASTER-CANON PROMOTED** are status-stale; Audit100 controls.
 
 ## Approval rule
 
@@ -78,9 +85,9 @@ Character-level pacing target:
 Recruitment / starting Base CL:
 - Cyanis Ch0 CL1
 - Ilyra Ch0 CL1
-- Torren Ch1 CL4 *(working)*
-- Nimera Ch3 CL4 *(working)*
-- Vaelira Ch4 S022 CL7 *(working)*
+- Torren Ch1 CL4 *(working; not promoted by Audit100 as final)*
+- Nimera Ch3 CL4 *(working; not promoted by Audit100 as final)*
+- Vaelira Ch4 S022 CL7 *(working; not promoted by Audit100 as final)*
 - Seyrik Ch6 **CL8 approved**
 
 Class thresholds:
@@ -111,8 +118,8 @@ Donor ordinary equipment progression:
 
 Nine-point Mastery architecture remains **4 Core + 4 Subclass + 1 Synthesis**, each costing 1 MP. Banking is legal.
 
-Working Core gates: CL3 / CL5 / CL7 / CL9.  
-Subclass gates: CL3 / CL5 / CL7 / **CL10**.
+Working Core gates: CL3 / CL5 / CL7 / CL9. These remain to be reconciled/finalized.  
+Early Subclass Mastery gates/effects remain subject to the remaining Mastery reconciliation except the hard lock below.
 
 **Equipment Mastery = Subclass Node 4 at CL10** and grants donor Relic access. Ordinary donor equipment arrives at CL1–5. Legacy is downstream of Synthesis.
 
@@ -308,12 +315,15 @@ The three pair mappings deliberately preserve different slot geometries rather t
 
 ---
 
-## 12. Immediate open work
+## 12. Remaining work after Audit100 promotion
 
-1. Reconcile **Core Mastery** effect text and confirm the CL3 / CL5 / CL7 / CL9 Core gates.
-2. Finalize the global **percentage direct-damage-reduction stacking rule**.
-3. Finalize the universal **Ultimate cost convention**.
-4. Perform the deliberate global stale-terminology sweep from `Sixfold Accord` to **Sixfold Volition**.
-5. Integrate the three approved resolution beats into final Chapter 11 script numbering/dialogue without changing their approved function.
-6. Run final implementation/data regression review across class, equipment, Mastery, Synthesis, and Legacy data.
-7. Promote the completed class-rework package into a new master-canon audit after final normalization is stable.
+1. Reconcile **Core Mastery** effect text and confirm/finalize the Core gate schedule.
+2. Reconcile any still-open early Subclass Mastery-node gate/effect text; **Equipment Mastery at CL10 is already locked**.
+3. Finalize the global **percentage direct-damage-reduction stacking rule**.
+4. Finalize the universal **Ultimate cost convention**.
+5. Perform the deliberate global stale-terminology sweep from `Sixfold Accord` to **Sixfold Volition**.
+6. Integrate the three approved resolution beats into final Chapter 11 script numbering/dialogue without changing their approved function.
+7. Run final implementation/data regression review across class, equipment, Mastery, Synthesis, and Legacy data.
+8. Finalize Legacy numerical production stats/passives and item metadata in the dedicated item/equipment audit.
+
+The settled reciprocal class/Synthesis/Legacy package is already master canon under **v1.85 / Audit100**; remaining work should be promoted by later audits only when those still-open domains are finalized.
