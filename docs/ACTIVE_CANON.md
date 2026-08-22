@@ -4,7 +4,7 @@ This is an implementation-facing summary. It does **not** replace the authoritat
 
 ## Current whole-project authority
 
-**Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.89 / Audit104 — Reciprocal Class, Synthesis, Legacy, and Legacy-Component Integration Lock**  
+**Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.90 / Audit105 — Acuity Face, Story Prime, and Resource Reconciliation Lock**  
 **Date:** August 22, 2026
 
 Immediate forward chain:
@@ -14,6 +14,10 @@ Immediate forward chain:
 - **v1.87 / Audit102** — Major Hunt Difficulty and Progression Balance Closure.
 - **v1.88 / Audit103** — Quest Architecture, Character Quest and Ordinary Side-Quest Closure.
 - **v1.89 / Audit104** — Reciprocal Class, Synthesis, Legacy, and Legacy-Component Integration Lock.
+- **v1.90 / Audit105** — Acuity Face, Story Prime, and Resource Reconciliation Lock.
+
+Current Acuity/reconciliation canon file:
+- `docs/canon/AUDIT105_ACUITY_FACE_STORY_PRIME_AND_RESOURCE_RECONCILIATION_LOCK.md`
 
 Current class/Legacy canon file:
 - `docs/canon/AUDIT104_RECIPROCAL_CLASS_SYNTHESIS_LEGACY_AND_LEGACY_COMPONENT_INTEGRATION_LOCK.md`
@@ -41,7 +45,109 @@ The erroneously created class-rework Audit100 file was removed because Audit100 
 
 ---
 
-## Audit103 quest architecture — inherited and controlling where Audit104 does not supersede
+## Audit105 Acuity authority — controlling
+
+### Six Faces
+The formal Six Faces are:
+- **Might**
+- **Elements**
+- **Grace**
+- **Acuity**
+- **Change**
+- **Ruin**
+
+**Acuity** supersedes the former **Resource** Face and the provisional **Finesse** name. Acuity retains **Gold** as its Face color unless separately revised.
+
+Acuity centers on **perception, judgment, precision, situational awareness, timing, anticipation, route/position assessment, rapid decision-making, and efficient execution**. Speed is a supporting consequence of correct perception/judgment rather than the Face's sole meaning.
+
+Core shorthand:
+- **Acuity turns uncertainty into a path.**
+- **See → Decide → Place → Act.**
+
+There is currently **no dedicated Face symbol/icon system**; use neutral wording such as Face markings / Face notation where needed.
+
+### Torren face/class boundary
+- Torren's Base class **War Archer** is the Acuity-aligned class.
+- Torren's Subclass **Routeweaver** remains a **Change Face** class and must not be reinterpreted as Acuity.
+- Existing approved War Archer mechanics remain compatible and are not reopened merely because Resource became Acuity.
+- **Hunter's Measure** remains valid class terminology; its word “Measure” is not the retired Story Prime title.
+
+### Story Primes
+Current mandatory Story Prime mapping:
+- Might — **Last Sentinel**
+- Elements — **Last Convergence**
+- Grace — **Last Sanctuary**
+- Acuity — **Last Cartographer**
+- Change — **Last Scribe**
+- Ruin — **Last Erasure**
+
+**Last Cartographer** supersedes **Last Measure**. It perceives/maps the field of possibility, identifies the decisive viable path, and turns uncertainty into actionable direction. Locked distinction: **Last Cartographer sees/maps the route; Last Scribe changes/rewrites the route.**
+
+Last Cartographer's exact visual design remains intentionally open/deferred.
+
+### Acuity Standard Cards
+The four locked Acuity Standard Cards are:
+1. **Faultline Sight** — perception; reveal currently knowable weaknesses/resistances, readable upcoming action when applicable, and a tactically relevant exploitable condition/opening without exposing intentionally hidden scripted mechanics.
+2. **Chosen Course** — judgment; target 1 ally + 1 enemy and, if both still have unused pending actions in the round, move that ally immediately before that enemy; no extra/repeated turn and no indefinite turn-order abuse.
+3. **Predicted Impact** — precision/anticipation; next targeted offensive action cannot miss through ordinary accuracy/evasion, partially bypasses appropriate avoidance defenses, and gains increased Break/Stagger contribution when correctly exploiting a known vulnerability.
+4. **Decisive Interval** — timing/speed; creates an opening until the enemy's next action; the first allied offensive action in the window gains significantly increased Break/Stagger contribution and may slightly delay ordinary enemies; bosses may resist only the delay portion.
+
+Locked acquisition sources:
+- **Faultline Sight** — Hollow Watch Castellan first clear.
+- **Chosen Course** — Deepforge Colossus first clear.
+- **Predicted Impact** — Regional Hunt #9, Mercyfallen Behemoth first clear.
+- **Decisive Interval** — Major Hunt #5, Final Archive Arbiter first clear.
+
+The former Resource cards **Bastion Reserve, Stormglass Relay, Prismatic Reserve, Lifeward Transfer** are superseded.
+
+### Acuity optional Prime
+**Parallax Host** supersedes **Sheltering Host**.
+
+Core process: **Observe → Compare → Resolve → Strike.** It is a coordinated Ancient Diysean manifestation using multiple simultaneous viewpoints to eliminate uncertainty, determine exact position/intent, and respond with precision.
+
+Combat identity: high Speed/Accuracy, anti-Evasion, interruption, precision against exposed/readable targets, coordinated multi-angle attacks, and lower durability than dedicated defensive optional Primes.
+
+Locked commands:
+- **Split Horizon**
+- **Intersecting Lines**
+- **Counterposition**
+- **Resolved Position**
+- **Vanishing Point**
+
+Current optional Prime lineup:
+- Might — **Oathbound Colossus**
+- Elements — **Prismatic Leviathan**
+- Grace — **Dawn Shepherd**
+- Acuity — **Parallax Host**
+- Change — **Living Revision**
+- Ruin — **Starfall Engine**
+
+### Final Severance
+Locked six-Prime order:
+1. **Last Sentinel / Might — HOLD**
+2. **Last Convergence / Elements — DISTINGUISH**
+3. **Last Cartographer / Acuity — MAP**
+4. **Last Sanctuary / Grace — PRESERVE**
+5. **Last Scribe / Change — CONTAIN**
+6. **Last Erasure / Ruin — END**
+
+Causal shorthand: **Hold it → Reveal it → Map it → Protect everything else → Isolate it → Erase it.**
+
+The former Resource-era order and Last Measure reactor-allocation role are superseded.
+
+### Bounded downstream corrections
+- **Chapter 1 S008:** Hollow Watch Castellan first-clear Card is **Faultline Sight**.
+- **Chapter 1 S011:** Resource → **Acuity**; use Face markings/notation rather than assuming formal symbols.
+- **Chapter 5:** Deepforge Colossus first-clear Card is **Chosen Course**; Torren's Story Prime is **Last Cartographer — Acuity**. Preserve Deepforge Colossus architecture and Kessara's engineering competence; retire the old Resource maintenance-stewardship interpretation.
+- **The Road That Returns:** may deepen **Acuity / Last Cartographer** themes but does not gate Prime acquisition, Awakening, or mandatory progression.
+- **Regional Hunt #9 Mercyfallen Behemoth:** first-clear Card is **Predicted Impact**.
+- **Major Hunt #5 Final Archive Arbiter:** Face is **Acuity**; optional Prime reward is **Parallax Host**; additional first-clear Card is **Decisive Interval**. Preserve its approved unlock/location/one-bar Closed Custody → Open Custody → Final Adjudication encounter structure.
+
+Ordinary lowercase uses of “resource/resources” that are not Face terminology are unaffected; do not blanket-replace them.
+
+---
+
+## Audit103 quest architecture — inherited and controlling where Audit104/Audit105 do not supersede
 
 - Exactly **6 standalone Character Quests**, one per permanent party member.
 - Character Quests target approximately **30 minutes each**.
@@ -77,7 +183,7 @@ Hunts remain a separate combat-oriented optional-content structure and are not c
 
 ---
 
-## Audit104 reciprocal class architecture — controlling
+## Audit104 reciprocal class architecture — controlling where Audit105 does not supersede
 
 ### Sixfold Volition
 - Formal term: **The Sixfold Volition**.
@@ -209,7 +315,7 @@ Compatible Audit99 engineering rules remain active, including:
 - transient random-encounter handoff is not serialized into saves;
 - area tuning retains same-ecology / new-ecology / safe-reset semantics.
 
-Any old player-level progression references based on an absolute Level-60 cap are superseded by the later Level-70 authority inherited by Audit104.
+Any old player-level progression references based on an absolute Level-60 cap are superseded by the later Level-70 authority inherited by Audit104/Audit105.
 
 ---
 
@@ -226,7 +332,7 @@ Settlement and landmark names remain unchanged by those regional terminology cor
 
 ---
 
-## Immediate open work after Audit104
+## Immediate open work after Audit105
 
 1. Finalize **Core Mastery** effect text and Core gate schedule.
 2. Reconcile any still-open earlier Subclass Mastery-node effect/gate text other than Equipment Mastery at CL10.
@@ -235,6 +341,9 @@ Settlement and landmark names remain unchanged by those regional terminology cor
 5. Finalize Legacy numerical stats/passives and item metadata in the production item/equipment audit.
 6. Integrate the three Synthesis-resolution beats into final Chapter-11 scene numbering/dialogue.
 7. Perform the repository-wide `Sixfold Accord` → **Sixfold Volition** stale-terminology sweep.
-8. Run implementation/data regression across class, equipment, Mastery, Synthesis, and Legacy data.
+8. Perform the repository-wide **Resource → Acuity** stale-system-terminology sweep, including **Last Measure**, old Resource Standard Cards, and **Sheltering Host**, while preserving ordinary lowercase English uses of resource/resources.
+9. Apply the bounded Chapter 1 / Chapter 5 / Torren Character Quest scene-script corrections required by Audit105.
+10. Run implementation/data regression across class, equipment, Mastery, Synthesis, Legacy, Card, Prime, Hunt, and reward data.
+11. Design **Last Cartographer's exact visual authority** when that visual pass is intentionally opened.
 
-Omission from this summary does not erase compatible older canon. Audit104, Audit103, compatible prior canon, exact visual authorities, and newer explicit user corrections control conflicts.
+Omission from this summary does not erase compatible older canon. **Audit105, Audit104, Audit103, compatible prior canon, exact visual authorities, and newer explicit user corrections control conflicts.**
