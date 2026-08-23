@@ -1,55 +1,32 @@
-# DIYSE Chapter 11 Acceptance Log
+# DIYSE Chapter 11 Acceptance / Authority Log
 
-## CH11-A001 — Forward Hub / cleanup window / Chapter 12 launch lock
+## CH11-CURRENT — Crown Engine / Calder / Custodian scope after Chapter-10 insertion
 
-**Status:** ACCEPTED / LOCKED  
-**Acceptance type:** continuation acceptance following the user's Chapter 11 progression changes.
+**Status:** CURRENT-FACING / MACRO-LOCKED  
+**Current authority:** Audit107 / Audit109 / Audit112 / Audit113.
 
-### Locked result
+### Current result
 
-- Chapter 11 includes a dedicated temporary Forward Hub established in captured Black Host territory.
-- Securing the Forward Hub permanently unlocks two-way fast travel between the Forward Hub and Cresthaven for the remainder of Chapter 11.
-- Cresthaven remains the primary full-service headquarters.
-- The Forward Hub is a military staging base with only essential field functionality.
-- Cresthaven ↔ Forward Hub travel avoids replaying earlier Chapter 11 approach zones.
-- Defeating Emperor Vaelkor does not automatically start Chapter 12.
-- Vaelkor's defeat opens a final cleanup/preparation window.
-- During that window, Cresthaven ↔ Forward Hub fast travel remains active.
-- The player may finish still-available Hunts, optional bosses, Character-Life scenes, eligible exploration, equipment collection, Card collection, upgrades, and other unfinished optional content.
-- Chapter 12 begins only when the player deliberately launches the final operation.
-- The deliberate Chapter 12 launch is the true final point of no return.
+- Current Chapter 11 is the former Chapter-10 **Crown Engine / Calder / Custodian / Truth** chapter.
+- Chapter 10 — The Last Blank now occurs immediately before it.
+- Chapter 10 completes the physical map mystery and verifies Calder's early-game provenance; Chapter 11 owns the direct Calder/Crown Engine confrontation and deeper Ancient truth material.
+- Caelora is the surface anchor; Crown Engine is beneath Caelora and is not a separate world-map node.
+- The old Forward Hub / Varkesh / Vaelkor campaign is **not Chapter 11 anymore**. It is current **Chapter 12 — The Reforged March**.
+- The old final-domain / Last Command chapter is current **Chapter 13**.
 
-Exact source:
-`docs/chapters/chapter_11/CHAPTER_11_FORWARD_HUB_AND_FINAL_CLEANUP_WINDOW_LOCK.md`
+Current chapter scope source:
+`docs/chapters/chapter_11/CHAPTER_11_CURRENT_SCOPE.md`
 
----
+Current Chapter-12 campaign source:
+`docs/chapters/chapter_12/CHAPTER_12_REFORGED_MARCH_FORWARD_HUB_AND_CLEANUP_LOCK.md`
 
-## CH11-A002 — Audit89 macro-story / Varkesh-hub / Elite-Hunt / Vaelkor causality lock
+Current Chapter-13 final-domain source:
+`docs/chapters/chapter_13/CHAPTER_13_MACRO_STORY_STRUCTURE_LOCK.md`
 
-**Status:** ACCEPTED / LOCKED  
-**Acceptance type:** macro-story authority expansion and correction under v1.74 / Audit89.
+### Historical acceptance provenance
 
-### Locked result
+The former entries `CH11-A001` and `CH11-A002` concerned the Forward Hub/Varkesh/Vaelkor campaign under the pre-insertion numbering. Their content remains accepted but has been reindexed into current Chapter 12 under Audit113.
 
-- Queen Lysara's fear that the Black Host may discover/exploit the ancient Last Weapon or surviving giant-Crest infrastructure is a principal reason for authorizing the final Black Mountains offensive after the Custodian revelation.
-- The Custodian does **not** know that an Entity fragment survived and believes the Last Weapon destroyed/neutralized the Entity.
-- Varkesh controls the Chapter 11 defensive withdrawal; the party dismantles his fallback/escape network, defeats him, and **captures him alive**.
-- The Forward Hub is established **only after Varkesh is defeated/captured**, using his secured former position. This timing supersedes earlier generic “once secured” wording that could be read as pre-Varkesh.
-- Chapter 11 Elite and Regional Hunt remain separate categories.
-- The Chapter 11 conventional Elite is a high-ranking Black Host commander. “Sovereign's First Warlord” is retired. “Lord-Marshal Kharvek” is a **working name only** and may later be replaced without reopening the role.
-- **Regional Hunt #11 = Throne of Emperor Vaelkor**, secretly a corrupted ancient Diysean construct appropriated/modified by the Black Host; preserve **Sealed Throne → Walking Throne**.
-- The party's Chapter 11 working theory is that the Underground Crest system has been keeping Vaelkor alive.
-- Vaelkor receives a genuine surrender opportunity and refuses.
-- Vaelkor boss progression remains **Emperor of the Reforged Host → Sovereign Panoply Unbound**. The Unbound state fuses Black Host + Ruin + corrupted Crest/magic aesthetics while Vaelkor remains consciously himself and morally responsible.
-- After Vaelkor falls, directly tied corruption fails but deeper activity continues, proving he was not the deepest cause.
-- Vaelkor's defeat opens the already-locked cleanup/preparation window; unfinished Chapter 11 Elite/Hunt content may remain available through that window.
-- The final Chapter 12 launch briefing occurs at Cresthaven with **Queen Lysara and Crown Princess Mirena both physically present**.
-- Chapter 12 begins only through deliberate final-operation launch and remains the true point of no return.
+They must not be read as current Chapter-11 implementation instructions.
 
-Controlling macro authority:
-`docs/canon/AUDIT89_CHAPTERS_11_12_MACRO_STORY_STRUCTURE_AND_FINAL_ACT_CAUSALITY_LOCK.md`
-
-Bounded Chapter 11 hub authority:
-`docs/chapters/chapter_11/CHAPTER_11_FORWARD_HUB_AND_FINAL_CLEANUP_WINDOW_LOCK.md`
-
-Next acceptance number: `CH11-A003`
+Detailed current Chapter-11 scene acceptance numbering may begin when Crown Engine enters explicit scene production.
