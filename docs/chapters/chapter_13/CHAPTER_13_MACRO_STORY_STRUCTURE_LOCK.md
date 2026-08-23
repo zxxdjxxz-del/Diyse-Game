@@ -3,7 +3,7 @@
 **Status:** ACCEPTED / LOCKED  
 **Scope:** current Chapter-13 final-domain progression, knowledge/revelation order, Last Shelter point of no return, final-boss causality, Final Severance, aftermath  
 **Original pre-insertion authority:** v1.74 / Audit89 as former Chapter 12  
-**Current reconciliation:** Audit105 / Audit107 / Audit109 / Audit111 / Audit113
+**Current reconciliation:** Audit105 / Audit107 / Audit109 / Audit111 / Audit113 plus `POST_INSERTION_SCENE_ID_REINDEX_CORRECTION_2026-08-23.md`
 
 This file is the current-facing projection of the final Ancient-domain material formerly labeled Chapter 12 before insertion of Chapter 10 — The Last Blank.
 
@@ -59,7 +59,21 @@ Interpretation locks:
 - Last Shelter is the final substantial recovery/loadout/quiet/return point.
 - Reactor–Crest Interface is the final battlefield.
 
-## 5. Deepest City / Deep City
+## 5. Current scene-ID skeleton
+
+Inserted Chapter 10 occupies **S051–S061**, so the retained former-Chapter-12 four-scene skeleton shifts forward by +11:
+
+- **S070 — The Deepest City** — formerly S059; supersedes older title `The Ancient Blind Region`.
+- **S071 — The Reconstituted Entity** — formerly S060.
+- **S072 — No One Is Last Command** — formerly S061.
+- **S073 — Last Command** — formerly S062.
+
+These are current macro story-scene IDs, not line-complete dialogue locks. Internal beats such as Last Weapon Archive, Last Weapon Archon, Last Shelter, Reactor Galleries, Crest Integration, Final Severance, aftermath, and debrief remain governed by the macro progression below and may be staged within these retained anchors unless later explicit scene-production change control subdivides them.
+
+Controlling scene-number overlay:
+`docs/canon/POST_INSERTION_SCENE_ID_REINDEX_CORRECTION_2026-08-23.md`
+
+## 6. Deepest City / Deep City
 
 These spaces physically confirm the scale of the underground Diysean civilization described by the Custodian.
 
@@ -69,7 +83,7 @@ The party encounters both:
 
 This contradiction drives the party toward the Last Weapon Archive.
 
-## 6. Last Weapon Archive — fragment-survival reveal
+## 7. Last Weapon Archive — fragment-survival reveal
 
 The Last Weapon Archive preserves raw operational evidence from the ancient Last Weapon firing that the Custodian did not possess.
 
@@ -95,7 +109,7 @@ The Archive also proves that simply repeating ancient convergence is unsafe.
 
 **Final Severance is not an Ancient procedure and is not found in the Archive.**
 
-## 7. Vaelkor recontextualization
+## 8. Vaelkor recontextualization
 
 After the Archive reveal, the party understands that its Chapter-12 interpretation was only partially correct.
 
@@ -106,7 +120,7 @@ Vaelkor was:
 - never knowingly allied with the surviving fragment;
 - never absolved of his wars, cruelty, ambition, or imperial choices.
 
-## 8. Last Weapon Archon / Last Shelter
+## 9. Last Weapon Archon / Last Shelter
 
 After the Archive reveal, the party defeats **Last Weapon Archon** and reaches **Last Shelter**.
 
@@ -120,7 +134,7 @@ The six process the fragment-survival revelation there but still do not possess 
 
 Crossing from Last Shelter into Reactor Galleries is the explicit irreversible commitment.
 
-## 9. Reactor Galleries / reconstitution realization
+## 10. Reactor Galleries / reconstitution realization
 
 The Reactor Galleries reveal surviving reactor infrastructure feeding magic directly into the enormous buried Crest.
 
@@ -130,13 +144,13 @@ The party realizes the one ancient surviving fragment has spent thousands of yea
 
 The Reconstituted Entity is the **same sole surviving continuity** as the ancient Entity, not a copy, child, successor, or second fragment.
 
-## 10. Final boss Form I — Reconstituted Entity
+## 11. Final boss Form I — Reconstituted Entity
 
 At the Reactor–Crest Interface, the party confronts **Reconstituted Entity** as the first genuine full-health final-boss form.
 
 When defeated, the Entity recognizes that a centralized body can be destroyed and deliberately opens itself, forcing corrupted magic into the energized giant Crest.
 
-## 11. Crest Integration / Form II — The Last Command
+## 12. Crest Integration / Form II — The Last Command
 
 The Entity's deliberate action is **Crest Integration**.
 
@@ -150,7 +164,7 @@ The Last Command begins with a fresh full HP bar and is the second and final gen
 
 There is **no third form**.
 
-## 12. Final Severance — modern six-person solution
+## 13. Final Severance — modern six-person solution
 
 Final Severance is invented by the modern six during The Last Command fight at an authored threshold.
 
@@ -180,7 +194,7 @@ Current Story Prime roles use Audit105 Acuity authority:
 
 `Resource / Last Measure` is superseded and must not return in current Chapter-13 material.
 
-## 13. Final outcome hard lock
+## 14. Final outcome hard lock
 
 Final Severance permanently ends the Entity.
 
@@ -197,7 +211,7 @@ All six permanent party members survive and do not become anchors, permanent ope
 
 The six Story Primes remain Cards. Only the extraordinary one-time civilization-scale access used for Final Severance is relinquished.
 
-## 14. Aftermath / return
+## 15. Aftermath / return
 
 The exit from the deepest system is short and story-driven rather than another full dungeon.
 
@@ -207,7 +221,7 @@ The first major outside-world contact is **Vhalmarch**, the current Chapter-12 F
 
 The party then returns to **Cresthaven**.
 
-## 15. Final debrief / Crown response
+## 16. Final debrief / Crown response
 
 Lysara and Mirena receive the final debrief and learn:
 - the ancient Last Weapon did not completely destroy the Entity;
@@ -223,7 +237,7 @@ The Crown's immediate response to the underground Diysean civilization is:
 
 It is not immediate exploitation and not an attempt to reconstruct the Last Weapon.
 
-## 16. Epilogue destination
+## 17. Epilogue destination
 
 The Black Host population survives while its imperial war structure is dismantled. Varkesh remains alive in custody.
 
@@ -237,9 +251,9 @@ Core ending idea remains:
 
 No post-game campaign and no required sequel stinger are introduced.
 
-## 17. Production boundary
+## 18. Production boundary
 
-When Chapter 13 enters detailed production, derive exact scene IDs, dialogue, encounter placement, HD-2D staging, camera language, and gameplay beats from current authority.
+When Chapter 13 enters detailed production, derive exact dialogue, encounter placement, HD-2D staging, camera language, and gameplay beats from current authority while preserving **S070–S073** as the current retained macro-scene sequence unless later explicit scene-structure revision changes it.
 
 Do not silently replace:
 - the Archive survival reveal;
@@ -248,3 +262,5 @@ Do not silently replace:
 - the modern invention of Final Severance;
 - current Acuity / Last Cartographer role;
 - ending survival rules.
+
+Any future insertion of a new standalone mandatory `S###` scene before S073 requires explicit downstream scene-ID reindexing so the global sequence remains unique and chronological.
