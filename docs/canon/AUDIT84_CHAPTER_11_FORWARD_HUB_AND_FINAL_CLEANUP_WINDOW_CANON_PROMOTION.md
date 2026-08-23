@@ -1,43 +1,66 @@
 # AUDIT84 — Chapter 11 Forward Hub and Final Cleanup Window Canon Promotion
 
-**Whole-project authority target:** v1.69 / Audit84  
+**Whole-project authority target at original promotion:** v1.69 / Audit84  
 **Date:** August 19, 2026  
+**Historical status:** retained for provenance; current numbering is controlled by Audit113.
+
+> ## CURRENT REINDEX / SUPERSESSION OVERLAY — Audit113
+>
+> Audit84 was authored before insertion of Chapter 10 — The Last Blank. Its story decisions remain inherited where compatible, but its late-game chapter numbers are historical.
+>
+> Current interpretation:
+> - every Audit84 `Chapter 11` Forward-Hub / Varkesh / Vaelkor-cleanup reference = **current Chapter 12 — The Reforged March**;
+> - every Audit84 `Chapter 12` final-operation reference = **current Chapter 13 — The Last Command**;
+> - the Forward Hub's current proper name is **Vhalmarch**;
+> - current two-way hub travel is **Cresthaven ↔ Vhalmarch**;
+> - Audit84's claim that deliberate final-chapter launch is the true point of no return is **superseded by Audit109**;
+> - the true irreversible threshold is **Last Shelter → Reactor Galleries** in current Chapter 13.
+>
+> Current operational campaign source:
+> `docs/chapters/chapter_12/CHAPTER_12_REFORGED_MARCH_FORWARD_HUB_AND_CLEANUP_LOCK.md`
+>
+> Current final-domain source:
+> `docs/chapters/chapter_13/CHAPTER_13_MACRO_STORY_STRUCTURE_LOCK.md`
+>
+> Do not use Audit84's historical chapter numbers as current implementation instructions.
+
+---
+
+## Original Audit84 decision record
+
 **Immediate predecessor:** v1.68 / Audit83 — Major Hunt #1 Ashen Whitehorn Full Production Authority Lock
 
-> **Later overlay:** v1.74 / Audit89 fixes the Forward Hub's exact timing: it is established only **after Varkesh is defeated/captured**, using the secured post-Varkesh position. Audit89 also expands the Chapter 11–12 macro story/final-act causality while preserving Audit84's cleanup-window and deliberate-point-of-no-return rules. See `docs/canon/AUDIT89_CHAPTERS_11_12_MACRO_STORY_STRUCTURE_AND_FINAL_ACT_CAUSALITY_LOCK.md`.
+At original promotion, Audit84 inherited all compatible v1.68 / Audit83 and earlier authority and promoted `CH11-A001` into controlling canon under the chapter numbering then in force.
 
-Audit84 inherits all compatible v1.68 / Audit83 and earlier authority and promotes `CH11-A001` into controlling canon.
+### Promoted authority at the time
 
-## Promoted authority
+- The then-Chapter-11 campaign included a dedicated temporary **Forward Hub** established in captured Black Host territory.
+- Securing the Forward Hub unlocked permanent two-way fast travel between **Cresthaven ↔ Forward Hub** for the remainder of that campaign chapter.
+- **Cresthaven remained the primary full-service headquarters.**
+- The Forward Hub remained a military staging base with only essential field functionality.
+- The player could use Cresthaven ↔ Forward Hub travel without replaying earlier approach zones.
+- Defeating **Emperor Vaelkor Draeven** did not automatically begin the then-final chapter.
+- Vaelkor's defeat opened a cleanup/preparation window.
+- During that window the player could finish still-available optional content.
+- The final operation began only when the player deliberately chose to launch it.
 
-- Chapter 11 includes a dedicated temporary **Forward Hub** established in captured Black Host territory.
-- Securing the Forward Hub unlocks permanent two-way fast travel between **Cresthaven ↔ Chapter 11 Forward Hub** for the remainder of Chapter 11.
-- **Cresthaven remains the primary full-service headquarters.**
-- The Chapter 11 Forward Hub remains a military staging base with only essential field functionality.
-- The player may use Cresthaven ↔ Forward Hub travel without replaying earlier Chapter 11 approach zones.
-- Defeating **Emperor Vaelkor Draeven** does **not** automatically begin Chapter 12.
-- Vaelkor's defeat opens a final Chapter 11 cleanup/preparation window.
-- During that window, Cresthaven ↔ Forward Hub travel remains active and the player may finish still-available Hunts, optional bosses, Character-Life scenes, eligible exploration, equipment collection, Card collection, upgrades, and other unfinished optional content.
-- Chapter 12 begins only when the player deliberately chooses to **launch the final operation**.
-- The deliberate Chapter 12 launch is the **true final point of no return**.
+### Later overlays
 
-## Preserved inherited authority
+Audit89 fixed the Forward Hub's exact timing: it is established only **after Varkesh is defeated/captured**, using the secured post-Varkesh position.
 
-Audit84 does not rewrite unrelated Chapter 11 or Chapter 12 content. Compatible inherited authority remains controlling, including Varkesh's Chapter 11 capture, Throne of Emperor Vaelkor, Vaelkor's responsible-human antagonist status/final escalation, and the Chapter 12 final Entity operation.
+Audit107 inserted Chapter 10 and shifted this campaign to current **Chapter 12** and the former final chapter to **Chapter 13**.
 
-Audit84 also does not convert the Black Mountains campaign or the Chapter 12 final domain into ordinary WORLD_AFTER free-roam/tourist destinations.
+Audit109 later superseded the old launch-as-point-of-no-return rule by fixing **Last Shelter → Reactor Galleries** as the true irreversible threshold.
 
-## Exact source authority
+Audit111 supplied current region/location terminology, and Audit113 completed the repository-facing reindex.
 
-- `docs/chapters/chapter_11/CHAPTER_11_FORWARD_HUB_AND_FINAL_CLEANUP_WINDOW_LOCK.md`
-- `docs/chapters/chapter_11/ACCEPTANCE_LOG.md`
+## Current preservation rule
 
-## Supersession
+Audit84 remains historical evidence for the original bounded Forward-Hub / cleanup decision. It does not override:
+- current chapter numbering;
+- current Vhalmarch naming;
+- current Black Host Territory / Westguard / Blackspine terminology;
+- Audit109 point-of-no-return timing;
+- any later explicit user correction.
 
-Any older text implying that defeating Vaelkor immediately forces Chapter 12, that Chapter 11 lacks a secured Forward Hub / Cresthaven return link, or that the final point of no return occurs before the deliberate Chapter 12 launch is superseded by Audit84.
-
-Audit89 later supersedes only Audit84's **unspecified hub timing** by fixing the hub after Varkesh's defeat/capture; Audit84's remaining compatible rules continue to be inherited.
-
-## Change-control
-
-v1.69 / Audit84 remains historical authority for the bounded progression/hub promotion, subject to the later v1.74 / Audit89 timing/campaign overlay described above.
+**END HISTORICAL AUDIT84 WITH CURRENT REINDEX OVERLAY**
