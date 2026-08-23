@@ -40,11 +40,11 @@ The following are locked exactly as depicted in the approved image:
 - the absence of a compass rose, mileage scale, and decorative `YAHTREA — THE KNOWN LANDS` title card on this exact map;
 - the exact overall 3D-rendered presentation direction.
 
-The image itself outranks prose descriptions if a minor wording mismatch remains in older files.
+The image itself outranks prose descriptions for spatial/visual relationships if a minor wording mismatch remains in older files. Proper-name corrections explicitly approved after the image lock supersede only the affected label text, not the underlying geography.
 
 ---
 
-## 3. Current exact proper-name / placement locks visible on the image
+## 3. Current exact proper-name / placement locks
 
 The map visually locks the current placements of:
 
@@ -60,7 +60,7 @@ The map visually locks the current placements of:
 - Ashfrost Expanse
 - Stonewake
 - Worldscar Basin
-- **Yahtrens Stand**
+- **Westguard**
 - Hollow Watch
 - Brackenwall
 - Veycross
@@ -78,13 +78,15 @@ The map visually locks the current placements of:
 - Cerythvale
 - Final Archive
 
-### Yahtrens Stand — supersession
+### Westguard — supersession
 
-**Yahtrens Stand** is the controlling proper name for the location previously called **Westreach**.
+**Westguard** is the controlling proper name for the location previously called **Westreach**, and it supersedes the short-lived interim name **Yahtrens Stand**.
 
-Use the exact spelling **Yahtrens Stand** unless the user later explicitly changes it.
+Use the exact spelling **Westguard** unless the user later explicitly changes it.
 
-All older `Westreach` references should be interpreted as Yahtrens Stand where they refer to this same world-map location, pending downstream terminology cleanup.
+All older `Westreach` and `Yahtrens Stand` references should be interpreted as **Westguard** where they refer to this same world-map location, pending downstream terminology cleanup.
+
+The currently approved image still contains the outdated printed label `Yahtrens Stand`; this is a **text-only known correction**. The geography, town position, roads, terrain, and all surrounding spatial relationships remain exactly locked. A future local cleanup should change only that printed label to `Westguard`.
 
 ---
 
@@ -101,7 +103,7 @@ This exact image incorporates and visually closes the following approved correct
 - The Blackspine is materially darker than the rest of the northern Yahtrean mountain system.
 - The northern Yahtrean mountain belt outside The Blackspine reads as grey mountain terrain.
 - The road from Caelora to Cerythvale is present.
-- The road from Yahtrens Stand to Crownfall Redoubt is present and visually connected.
+- The road from **Westguard** to Crownfall Redoubt is present and visually connected.
 - The Blackstone-side road terminates at the approved northern endpoint rather than continuing beyond it.
 - Concordance Vault remains on its own road and is not road-connected directly to Eastern Wayfinder.
 - Eastern Wayfinder remains a small forest monument.
@@ -116,15 +118,15 @@ Audit109 remains controlling for chapter-by-chapter travel logic, Last Shelter p
 
 Audit110 closes Audit109's pending requirement to approve a revised visual master map.
 
-Where Audit109 referred to **Westreach**, the same location is now **Yahtrens Stand**.
+Where Audit109 referred to **Westreach**, the same location is now **Westguard**. The interim name **Yahtrens Stand** is retired.
 
 The previously approved late-game route therefore reads:
 
-**Yahtrens Stand → Blackspine crossing → Draevensreach → Vhalmarch → Vorathen**
+**Westguard → Blackspine crossing → Draevensreach → Vhalmarch → Vorathen**
 
 The Crownfall logistics relationship is now:
 
-**Yahtrens Stand ↔ Crownfall Redoubt**
+**Westguard ↔ Crownfall Redoubt**
 
 No new location is created by this rename.
 
