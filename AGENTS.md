@@ -8,269 +8,298 @@ Before changing gameplay code or production content, read:
 
 1. `docs/ACTIVE_CANON.md`
 2. `docs/IMPLEMENTATION_STATUS.md`
-3. `docs/PRESENTATION_RULES.md`
-4. `docs/production/HD2D_CHAPTERS_00_04_CONVERSION_AUDIT_PASS_1.md` when touching Chapters 0–4 presentation/runtime implementation
-5. `docs/chapters/README.md`, the relevant completed-chapter lock file and exact scene source under `docs/chapters/dialogue/`
-6. `docs/canon/AUDIT89_CHAPTERS_11_12_MACRO_STORY_STRUCTURE_AND_FINAL_ACT_CAUSALITY_LOCK.md` when touching Chapters 10–12 causality, Chapter 11 campaign structure, or the finale
-7. the subsystem document relevant to the task
-8. `docs/TECHNICAL_PROOF.md` only as compatible historical engineering evidence
-9. `docs/DIALOGUE_AUTHORING_SCHEMA.md` and `docs/STEP_7C_AUTHORING_TEMPLATE.md` before dialogue Resource work
+3. `docs/chapters/README.md`
+4. the relevant current chapter file under `docs/chapters/`
+5. the latest controlling canon audit for the subject
+6. `docs/PRESENTATION_RULES.md`
+7. the relevant subsystem document
+8. `docs/DIALOGUE_AUTHORING_SCHEMA.md` and `docs/STEP_7C_AUTHORING_TEMPLATE.md` before dialogue Resource work
+9. `docs/TECHNICAL_PROOF.md` only as compatible historical engineering evidence
 
-If a task conflicts with these files or a newer explicit user instruction, stop and flag the conflict. Do not silently reinterpret canon.
+If a task conflicts with these files or a newer explicit user instruction, stop and surface the conflict. Do not silently reinterpret canon.
 
 ## Current authority state
 
-- Whole-project written authority: **Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.74 / Audit89 — Chapters 11–12 Macro Story Structure and Final-Act Causality Lock**.
-- Date: **August 20, 2026**.
-- Audit89 inherits all compatible v1.73 / Audit88 and earlier authority and adds controlling late-game macro-story causality/revelation structure. It is **not** line-complete Chapter 11–12 dialogue.
-- Audit87 makes **HD-2D** the sole active presentation target; old active `2.5D`/`3D` presentation language is superseded.
-- Chapters **0–4 are COMPLETE/CLOSED** at story/dialogue/gameplay authority level.
-- Chapters **0–4 HD-2D Conversion Audit Pass 1 is COMPLETE / APPROVED**.
-- Cross-chapter HD-2D consistency/cost consolidation is **PASS / GREEN**.
-- Chapter 5 — **The Mountain Engine** — remains the next inherited exact scene-production / HD-2D production-audit frontier unless explicitly redirected.
-- Step 7B.5 remains an accepted historical Android technical regression baseline where compatible with current HD-2D authority.
-- Step 7B.6 production authoring handoff remains COMPLETE / PASS.
+- Whole-project written authority: **Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.98 / Audit113**.
+- Current chapter-number reconciliation: `docs/canon/AUDIT113_POST_INSERTION_CHAPTER_REINDEX_AND_LATE_GAME_OPERATIONAL_FILE_RECONCILIATION_LOCK.md`.
+- Current Chapter-10 story authority: `docs/canon/AUDIT112_CHAPTER_10_THE_LAST_BLANK_MIRENA_EASTERN_WAYFINDER_CALDER_AND_BURIED_REGISTRY_CLOSURE.md`.
+- Current world-map / region authority: `docs/canon/AUDIT111_FINAL_WORLD_MAP_REGION_TERMINOLOGY_AND_VISUAL_AUTHORITY_CLOSURE.md`.
+- Current travel / point-of-no-return authority: `docs/canon/AUDIT109_WORLD_MAP_ROAD_TRAVEL_AND_LAST_SHELTER_POINT_OF_NO_RETURN_CLOSURE.md`.
+- Current Acuity / Story Prime authority: `docs/canon/AUDIT105_ACUITY_FACE_STORY_PRIME_AND_RESOURCE_RECONCILIATION_LOCK.md`.
+- Current class / Synthesis / Legacy mechanics: Audit104 plus the current post-insertion timing overlay.
+- Chapters 0–4 remain COMPLETE/CLOSED at story/dialogue authority level.
+- HD-2D is the sole active presentation target.
 
-Historical accepted implementation checkpoints:
+Historical audit filenames and acceptance IDs remain provenance. Current chapter folders and later overlays control implementation.
 
-- 7B.5 gameplay baseline: `f68e0f7300f3f9a2463e75d0eb8a1a8b4d877c22`
-- 7B.6 production-handoff merge: `96c6bdc77f39c988f2185634b4e51546f2a0d76b`
-- Chapter 0 production merge: `ce21b5dc4f9e4ea7c8fb8d74f812587437b48dd5`
-- Chapter 1 dialogue Resource merge: `f1cd2cd9152e4b7ca7e63bea6469c5b326494120`
-- Chapter 2 dialogue Resource merge: `29e7ced1e92d32e2a6a235a6efab2b8a320a36f6`
-- Chapter 3 dialogue Resource merge: `5bda1b4641f7762ab07f6e0d98faff953daf5c2e`
+## Post-insertion chapter-number firewall
 
-## Completed Chapters 0–4 rule
+Chapter 10 — The Last Blank was inserted after Chapter 9.
 
-Do **not** recover, re-author or re-audit Chapters 0–4 as though their story/dialogue were missing.
+Current late-game numbering:
 
-- Chapter 0: use validated Resource set plus later compatibility overlays.
-- Chapter 1: use exact source under `docs/chapters/dialogue/chapter_01/` plus validated Resource set.
-- Chapter 2: use exact source under `docs/chapters/dialogue/chapter_02/` plus validated Resource set.
-- Chapter 3: use corrected exact source under `docs/chapters/dialogue/chapter_03/` plus validated Resource set.
-- Chapter 4: use exact source under `docs/chapters/dialogue/chapter_04/`; runtime conversion/static validation status is recorded in `docs/IMPLEMENTATION_STATUS.md`.
+- **Chapter 10 — The Last Blank** — Mirena records lead / Cerythvale / eastern forest / discovery of Eastern Wayfinder / physical-map completion / old Crown excavation / Calder provenance / Registry Warden / Buried Registry.
+- **Chapter 11** — Crown Engine / Othmar Calder / Custodian / Truth.
+- **Chapter 12 — The Reforged March** — final Black Host campaign / Varkesh / Vhalmarch Forward Hub / Vorathen / Vaelkor / cleanup.
+- **Chapter 13 — The Last Command** — final Ancient domain / Last Weapon Archive / Last Shelter / Reconstituted Entity / Final Severance / ending.
 
-For presentation/runtime implementation, use Audit88's conversion record. A bounded implementation correction may update IDs, Resource metadata, internal labels, cue support, triggers, maps, presentation consumers or staging feasibility without reopening approved wording, scene purpose, protected beats, pair progression, geography, knowledge firewall, party-state changes or outcomes.
+Historical translation:
+- old Ch10 → current Ch11;
+- old Ch11 → current Ch12;
+- old Ch12 → current Ch13.
+
+Never implement the old `chapter_11 = Forward Hub/Vaelkor` or `chapter_12 = final domain` arrangement.
+
+Current operational sources:
+- `docs/chapters/chapter_10/CHAPTER_10_THE_LAST_BLANK_STORY_STRUCTURE_LOCK.md`
+- `docs/chapters/chapter_11/CHAPTER_11_CURRENT_SCOPE.md`
+- `docs/chapters/chapter_12/CHAPTER_12_REFORGED_MARCH_FORWARD_HUB_AND_CLEANUP_LOCK.md`
+- `docs/chapters/chapter_13/CHAPTER_13_MACRO_STORY_STRUCTURE_LOCK.md`
+
+## Current point of no return
+
+Starting Chapter 13 is deliberate but **not** itself irreversible.
+
+The true irreversible threshold is:
+
+**Last Shelter → Reactor Galleries**
+
+Before that threshold, the runtime must preserve a supported way to return to eligible unfinished world content.
+
+Do not implement any old rule that disables all world access at Chapter-13 launch.
+
+## Current world terminology
+
+Use current names in authored prose/UI/codex/implementation-facing docs:
+
+- **BLACK HOST TERRITORY / Black Host Territory**
+- **THE WESTWAYS / The Westways**
+- **THE GREYSPIRES / The Greyspires**
+- **YAHTRENHOLD / Yahtrenhold** — never `The Yahtrenhold`
+- **The Blackspine**
+- **Westguard**
+- **Vhalmarch**
+- **Vorathen**
+- **The Veiled Citadel**
+
+Retired current-facing names include:
+- Blackstone as the formal region label;
+- The Crownhold / Southhold;
+- Black Mountains;
+- Westreach / Yahtrens Stand.
+
+Legacy stable technical IDs may retain retired strings until a reference-safe engineering cleanup. Stable IDs are not authored geography authority.
+
+## Chapter 10 knowledge firewall
+
+For Chapter 10 — The Last Blank:
+
+- Mirena has been reviewing strange Crown orders since Chapter 3.
+- She finds an old eastern research authorization plus a later `research completed` notation, with the meaningful middle absent.
+- Mirena and the party do **not** know Eastern Wayfinder exists at chapter start.
+- The party discovers Eastern Wayfinder while investigating the old research area beyond Cerythvale.
+- Eastern Wayfinder completes the physical Ancient map before the excavation/boss sequence.
+- Calder's Prime research predates the game and predates any successful Prime activation.
+- Calder's lawful standing recovery directive is why the recovered Card was transported to Caelora and therefore why Cyanis's Chapter-0 convoy existed.
+- Calder did not choose Cyanis, cause the ambush, or know the Card would activate.
+- Mirena's final provenance verification establishes Calder as the source behind the Chapter-3 composite seizure architecture.
+- Registry Warden = one HP bar, no adds, no transformation, no boss-only subsystem.
+- Buried Registry links geography with custody/authority/jurisdiction/responsibility/transfer but does not reveal the full Underground Crest Network / Crown Engine / Custodian / Entity truth.
+
+Target first-clear runtime is approximately 55–65 minutes.
+
+Do not invent Chapter-10 item/EXP/CEXP/Card rewards in story implementation; those are deferred to the item/progression pass.
+
+## Current Chapter 12 campaign hard boundaries
+
+- Current Chapter 12 = **The Reforged March**.
+- Varkesh controls the defensive withdrawal and is defeated/captured alive before Vhalmarch becomes the Forward Hub.
+- Once Vhalmarch is secured, **Cresthaven ↔ Vhalmarch** two-way travel remains available through the rest of Chapter 12 and the post-Vaelkor cleanup state.
+- Cresthaven is the primary full-service HQ; Vhalmarch is essential-services field staging.
+- Chapter-12 conventional Elite remains separate from Hunts.
+- **Regional Hunt #11 — Throne of Emperor Vaelkor** belongs to current Chapter 12 and remains separate from the Elite.
+- Vaelkor boss remains **Emperor of the Reforged Host → Sovereign Panoply Unbound**. He remains consciously himself and morally responsible; no possession and no third Vaelkor form.
+- Vaelkor's defeat opens cleanup/preparation and does not automatically start Chapter 13.
+- Late Synthesis-resolution beats occur in **late Chapter 12**, not late Chapter 11.
+
+## Current Chapter 13 final-act hard boundaries
+
+- Chapter 13 = **The Last Command**.
+- Surface access uses the Vorathen / Veiled Citadel excavation route; Final Archive is not the mandatory finale entrance.
+- Regional Hunt: none.
+- Elite: **Devourer of Names**.
+- Calamity Memory remains enemy/special-enemy ecosystem material, not the Elite.
+- Mandatory guardian: **Last Weapon Archon**, one HP bar, physical Ancient Diysean guardian.
+- Locked macro progression: **Deepest City → Deep City → Last Weapon Archive → Last Weapon Archon → Last Shelter → Reactor Galleries → Reactor–Crest Interface → Reconstituted Entity → Crest Integration → The Last Command → Final Severance → ending**.
+- Last Weapon Archive is where the modern party first discovers exactly one mangled Entity portion survived the ancient convergence/compression/discharge firing.
+- Custodian's record was incomplete, not deceptive.
+- Final Severance is not an Ancient procedure and is invented by the modern six during The Last Command.
+- Reconstituted Entity is the same sole surviving continuity, not a copy/child/second fragment.
+- Final boss has exactly two genuine full-health forms: **Reconstituted Entity → The Last Command**. No third form.
+- Entity ends permanently; no hidden copy/branch/escape fragment.
+- Giant Crest/viable reactors survive damaged/stable.
+- All six permanent party members survive.
+
+## Current Faces / Story Primes
+
+Faces:
+- Might
+- Elements
+- Grace
+- **Acuity**
+- Change
+- Ruin
+
+Story Primes:
+- Might — Last Sentinel
+- Elements — Last Convergence
+- Grace — Last Sanctuary
+- Acuity — **Last Cartographer**
+- Change — Last Scribe
+- Ruin — Last Erasure
+
+No Prime had ever been successfully activated before the modern story.
+
+Do not restore `Resource / Last Measure` as current final-act terminology.
+
+Current Final Severance order:
+1. Last Sentinel / Might — HOLD
+2. Last Convergence / Elements — DISTINGUISH
+3. Last Cartographer / Acuity — MAP
+4. Last Sanctuary / Grace — PRESERVE
+5. Last Scribe / Change — CONTAIN
+6. Last Erasure / Ruin — END
+
+## Current system baselines
+
+- Player level cap: **70**.
+- Base class cap: **CL13**.
+- Subclass cap: **CL13**.
+- Maximum active party: four.
+- Maximum simultaneously active enemies: eight.
+- Permanent battle commands: **Attack / Ability / Card / Item / Defend**.
+- MP is the universal ordinary Ability resource; no character-specific combat gauges.
+- No Ability or Ultimate requires a specific equipped weapon once learned.
+- Exactly **24 Standard Cards** and **12 Prime Cards**.
+- Standard Cards are unlimited-use and data-driven.
+- Cards remain outside ordinary inventory.
+- Persistent game state remains versioned plain data separate from scene nodes.
+- Random encounters remain normal hostile-exploration grammar where approved; do not replace them with visible roaming enemies without explicit canon revision.
+
+Current Base/Subclass identities:
+- Cyanis — Crest Knight / Crest Arcanist
+- Vaelira — Green Arcanist / Axiomblade
+- Ilyra — Blue Warden / Vowblade
+- Seyrik — Ruin Vanguard / Ruin Warden
+- Torren — War Archer / Routeweaver
+- Nimera — Cardweaver / Truthshot
+
+## Sixfold Volition
+
+Formal term: **The Sixfold Volition**. `Sixfold Accord` is deprecated.
+
+- Chapter 6 ends with Seyrik's conditional permanent recruitment.
+- Chapter 7 — The Prison of Names — is the first full-six integration chapter.
+- Sixfold Volition occurs at the end of Chapter 7 / Cresthaven return.
+- No permanent character uses a Subclass before the Volition.
+- All six Subclasses unlock there.
+- Chapter 8 is the first full mandatory post-Volition Subclass chapter.
+
+Reciprocal pairs:
+- Cyanis ⇄ Vaelira
+- Ilyra ⇄ Seyrik
+- Torren ⇄ Nimera
+
+## Legacy / Synthesis timing
+
+- Mandatory pair-resolution scenes occur in **late Chapter 12**.
+- Character Quests remain optional while world return remains available.
+- Secured Legacy completion/release at Cresthaven remains available through the **Chapter-13 pre-Last-Shelter returnable period**.
+- Final cutoff is the Last Shelter → Reactor Galleries commitment.
+- The Legacy interaction remains authored restoration/completion, not crafting.
+
+Exact post-insertion CEXP timing is pending the dedicated progression/item pass. Do not preserve old 12-chapter CEXP milestones by assumption.
 
 ## Critical presentation rule
 
 Diyse is **HD-2D**.
 
-Do not implement a retired “real 3D fields + 2D/2.5D characters” art direction merely because historical proof code/docs mention it.
-
 Current production targets:
-
-- field characters ~80 px;
-- battle characters ~200 px;
+- field characters approximately 80 px;
+- battle characters approximately 200–220 px;
 - large high-resolution dialogue portraits;
-- authored layered environments with background/midground/playable/foreground/atmosphere depth;
+- authored layered environments;
 - bounded authored cameras and restrained parallax;
-- selective geometry only where traversal/collision/occlusion needs it;
 - party left / enemies right / open center combat frame;
-- small reusable battle-background families derived from field geography;
-- exact visual masters control all derivatives;
-- exact Yahtrea world-map geography remains unchanged.
+- reusable battle-background families derived from field geography;
+- exact visual masters control derivatives.
 
-Official production tiers:
-
-- C0 Conversational
-- C1 Staged
-- C2 Dramatic
-- C3 Spectacle
-- V1 Common
-- V2 Face/class identity
-- V3 Named signature
-- V4 Prime/boss spectacle
+Do not revive retired 2.5D/3D presentation direction from historical proof documents.
 
 ## Affordable HD-2D behavior
 
-If prose describes many micro-actions, simplify physical staging while preserving meaning.
+Prefer reusable animation and staging families, portrait/expression swaps, bounded camera work, state-swapped props/environments, layered background loops, modular Face/Card/Prime/elemental VFX, and reusable battle-background families.
 
-Prefer:
-
-- reusable stand/sit/walk/interact/cast/attack families;
-- portrait/expression swaps;
-- authored sprite turns/shifts;
-- camera framing/pans/inserts/holds;
-- ordinary reusable props;
-- state-swapped doors, bridges, maps, machinery, damage and rooms;
-- layered background NPC loops;
-- audio to imply offscreen scale;
-- modular Face/Card/Prime/elemental VFX;
-- small reusable location battle-background families.
-
-Avoid by default:
-
-- physics destruction;
-- fluid simulation;
-- crowd AI/simulation;
-- free-camera exploration;
-- chain/cloth/hair simulation;
-- bespoke body animation for every Ability;
-- one unique arena per formation;
-- six full environment/body pipelines for six elements;
-- full-body second forms when a same-body state change is the actual mechanic.
-
-## Battle presentation hard rules
-
-- Discrete round-based combat, not realtime/timeline combat.
-- Maximum active party: four.
-- Permanent commands: **Attack / Ability / Card / Item / Defend**.
-- Standard formation: legal active members staggered left; enemies right; center reserved for action/VFX.
-- Undersized early parties are not recentered.
-- Reserve characters are absent from the normal battle frame.
-- Random encounters remain random encounters; do not replace them with visible roaming enemies without explicit canon revision.
-- Chapter 0 remains the seven-authored-tutorial-encounter exception.
-- Fixed encounters/bosses may use authored entrances but still resolve into the same core battle grammar.
+Avoid by default: physics destruction, fluid simulation, crowd simulation, free-camera exploration, chain/cloth/hair simulation, bespoke body animation for every Ability, or one unique arena per formation.
 
 ## Boss/form implementation categories
 
 Classify encounter transitions correctly:
 
-1. **Same-body / same-HP escalation:** components/overlays/idle/lighting/behavior change; no unnecessary new body.
-2. **Genuine new form:** new body/full HP only where canon actually defines a new combat problem, e.g. Sixfold Crucible Form II.
+1. **Same-body / same-HP escalation:** presentation/behavior changes without unnecessary new body/HP reset.
+2. **Genuine new form:** new combat state/body with fresh HP only where canon explicitly defines it.
 3. **Prime-scale entity:** use the reusable Prime presentation pipeline.
 
-Do not add health bars, transformations, threshold attacks or Prime refreshes not present in canon.
+Do not add health bars, transformations, threshold attacks, or Prime refreshes not present in canon.
 
 ## Prime presentation
 
-S021 identifies/unlocks Last Sentinel without manifesting it. S022's Elder Briarhide fight is the first verified modern manifestation.
+S021 identifies/unlocks Last Sentinel without manifesting it. S022's Elder Briarhide fight remains the first verified modern Prime manifestation under compatible early-game authority.
 
-The reusable Prime presentation pipeline is:
+Reusable Prime presentation remains:
 
-command accepted → battlefield temporarily yields through authored camera/light → exact Prime manifestation → one legal action → impact → dismissal → normal battle presentation returns.
+command accepted → battlefield yields through authored camera/light → exact Prime manifestation → one legal action → impact → dismissal → normal battle presentation returns.
 
-Do not convert Prime use into a detached prerendered movie that bypasses combat rules.
+Do not convert Prime use into a detached movie that bypasses combat rules.
 
-## Exact visual authority
+## Completed Chapters 0–4 rule
 
-Exact approved visual masters override incompatible prose or placeholder assets. Derivatives may simplify for output scale but must not redesign face, apparent age, silhouette, body proportions, weapon identity, palette or approved costume/armor language.
+Do not recover, re-author, or re-audit Chapters 0–4 as though their approved story/dialogue were missing.
 
-Audit86 specifically locks the current exact Cyanis visual master. The same exact-master principle applies project-wide.
+Use exact source and validated Resources listed by `docs/chapters/README.md` and `docs/IMPLEMENTATION_STATUS.md`.
 
-## Chapter 0 compatibility boundary
-
-The live S004/S005 Resource/test set still contains the old internal label `Broken Champion's Ward`. Current canon treats the phenomenon only as an incomplete green/gold protective response from the sealed Card, not Prime/Last Sentinel activation or bearer confirmation.
-
-Do not rename only the Resource or only the validator. Any bounded cleanup must update matched internal handles together and preserve the approved temporary S004→S005 protection behavior unless separately revised.
-
-Legacy stable IDs may retain retired geography strings such as `BORDERLANDS`. Stable IDs are implementation handles, not player-facing geography authority. Current formal geography is **Edgelands / Diysereach / Southhold**. Do not casually rename stable IDs without auditing all consumers.
-
-## Chapter 3 geography and Prime chronology
-
-Chapter 3 travel is:
-
-**Caelora → Old City / Suppressed Archives → separate Cresthaven**
-
-Cresthaven is not a room, wing, chamber, district or renamed section inside the Old City.
-
-The controlling S020→S021 sequence:
-
-- post-Warden command-record room proves false-order assembly;
-- Torren copies routing geometry;
-- party returns to Mirena;
-- Mirena identifies Cresthaven as an abandoned Crown outpost in Southhold;
-- party stops overnight;
-- S021 begins next morning with Mirena already establishing headquarters.
-
-S021 identifies/unlocks Last Sentinel but does not manifest it. First verified modern Prime manifestation is S022.
-
-## Chapter 4 hard production boundaries
-
-- Start traveling permanents: Cyanis / Ilyra / Torren / Nimera.
-- Maevra is not the default Chapter 4 traveling party member.
-- Vaelira joins permanently during S022; roster reaches five; choose-four remains active after roster reaches five.
-- Elder Briarhide is a natural territorial animal, not corrupted/Ancient/Black Host.
-- Elemental Hexarch is a living harmed researcher and resolves nonlethally.
-- Seventh Reaction is not a seventh element.
-- Sixfold Crucible Form I → Form II is a genuine two-form transition; Form II has fresh authored HP/MP; Prime availability does not refresh.
-- Crown Prototype is one body / one HP bar / no transformation.
-- Annex random encounter quantity is area-driven; do not hardcode a promised approximate count.
-
-## Chapters 11–12 macro-story hard boundaries — Audit89
-
-Audit89 is controlling whenever late-game detailed production reaches Chapters 11–12.
-
-### Chapter 10 → 11 knowledge / war trigger
-
-- The Custodian knows the ancient Last Weapon history/method but **does not know that any Entity fragment survived** and believes the weapon destroyed/neutralized the Entity.
-- Ancient Last Weapon method remains **convergence → compression → discharge** through the reactor-supported giant Crest.
-- Queen Lysara's fear that the Black Host may discover/exploit the Last Weapon or surviving giant-Crest infrastructure is a principal reason for the final Black Mountains offensive; Mirena translates the sovereign decision into operations.
-
-### Chapter 11
-
-- Varkesh controls the defensive withdrawal; the party dismantles his escape network and **captures him alive**.
-- The Forward Hub is established **only after Varkesh's defeat/capture**, using his secured position; Cresthaven ↔ Forward Hub travel begins then and persists through the post-Vaelkor cleanup window.
-- Chapter 11 conventional Elite is separate from Hunts; “Sovereign's First Warlord” is retired. “Lord-Marshal Kharvek” is working-only, not a final proper name.
-- **Regional Hunt #11 = Throne of Emperor Vaelkor**, secretly a corrupted ancient Diysean construct appropriated/modified by Black Host; preserve **Sealed Throne → Walking Throne**.
-- Party's working theory is that the Underground Crest system has been keeping Vaelkor alive.
-- Vaelkor boss is exactly **Emperor of the Reforged Host → Sovereign Panoply Unbound**. Unbound fuses Black Host + Ruin + corrupted Crest/magic. Vaelkor remains consciously himself; no possession and no third Vaelkor form.
-- After Vaelkor, deeper activity continues; a cleanup/preparation window opens. Chapter 12 begins only by deliberate launch.
-- Final launch briefing is at Cresthaven with **Queen Lysara and Crown Princess Mirena physically present**.
-
-### Chapter 12
-
-- **No Regional Hunt.**
-- **Devourer of Names = Elite**; Calamity Memory remains an enemy/special-enemy ecosystem identity.
-- Mandatory guardian is **Last Weapon Archon**, one HP bar, physical ancient Diysean guardian; “Blind-Branch Severance Archon” is superseded.
-- Locked progression: **The Deepest City → Deep City → Last Weapon Archive → Last Weapon Archon → Last Shelter → Reactor Galleries → Reactor–Crest Interface → Crest Integration / The Last Command → Final Severance → aftermath**.
-- Last Weapon Archive is where the modern party first discovers the sole fragment survival: exactly one mangled portion sheared away immediately before the ancient killing discharge. The Custodian's record was incomplete, not deceptive.
-- Final Severance is **not** an ancient procedure and is not found in the Archive.
-- Reconstituted Entity is the same sole surviving continuity, not a copy/child/second fragment.
-- Final boss is exactly two genuine full-health forms: **Reconstituted Entity → The Last Command**. No third form.
-- Crest Integration is the Entity's deliberate transformation after Form I defeat, forcing corrupted magic into the energized giant Crest.
-- Final Severance is invented by the modern six during The Last Command fight. Do not pre-author it as an ancient instruction or pre-briefing plan.
-- Fixed modern Prime functions: Cyanis/Might holds traces without convergence; Torren/Resource preserves essential loads while denying replenishment; Vaelira/Elements exposes foreign traces by harmonizing native Crest magic; Nimera/Change isolates traces in place; Ilyra/Grace protects living/viable systems; Seyrik/Ruin erases every isolated trace/rebuild pathway simultaneously.
-- Entity ends permanently; no hidden copy/branch/escape fragment/third form. Giant Crest/viable reactors survive damaged/stable. All six permanents survive. Story Primes remain Cards.
-
-Detailed source: `docs/canon/AUDIT89_CHAPTERS_11_12_MACRO_STORY_STRUCTURE_AND_FINAL_ACT_CAUSALITY_LOCK.md`.
-
-## Scene authoring workflow
-
-Use `docs/SCENE_AUTHORING_STANDARD.md`.
-
-For new exact scene work, begin with Chapter 5 unless the user explicitly redirects the task. Do not regenerate or rewrite validated/closed Chapter 0–4 text except through explicit canon revision.
-
-When Chapters 11–12 eventually reach detailed production, derive exact scenes/dialogue/staging from Audit89 rather than re-inventing its causal/revelation structure.
-
-## Hard system rules
-
-- Fresh Godot/GDScript implementation; do not copy/port code from historical `zxxdjxxz-del/Diyse` unless explicitly authorized for named reuse.
-- Dialogue is one authored continuity; no response wheels, tone selection, morality/affinity responses, persuasion trees or romance routes.
-- Production dialogue uses stable-ID `DiyseDialogueSceneDefinition` Resources; never embed canon scene text or final portrait paths into generic engine code.
-- Combat is discrete round based.
-- Maximum active party four.
-- Permanent commands Attack / Ability / Card / Item / Defend.
-- MP is universal ordinary Ability resource; do not invent character-specific gauges.
-- Standard Cards are unlimited-use and data-driven.
-- Persistent game state remains versioned plain data separate from scene nodes.
-- Do not invent mechanics, terminology, characters, Cards, classes, resources, story outcomes or missing dialogue to fill gaps.
-- Keep systems and authored content separate; prefer data-driven definitions.
-- Do not optimize around placeholders in a way that blocks final exact assets.
-- Do not change canon/specification documents as accidental side effects of code work.
-
-## Current foundation corrections
-
-- Absolute character level cap: **60**; Chapters 11–12 carry progression beyond 50; no Level 61+, prestige tier or postgame progression campaign.
-- Worldframe Depths remains a **Level-50 optional-major challenge**.
-- Cards: **30 Standard + 12 Prime = 42 total**.
-- Permanent class pairs: Cyanis Crest Knight → Crest Magus; Ilyra Blue Warden → Vowblade; Torren War Archer → Routeweaver; Nimera Cardweaver → Sixfold Knight; Vaelira Green Arcanist → Prism Archer; Seyrik Ruin Vanguard → Ruin Reclaimer.
-- Story Primes: Last Sentinel / Last Measure / Last Convergence / Last Scribe / Last Sanctuary / Last Erasure.
-- Faces/colors: Might Ruby; Elements Emerald; Grace Blue; Resource Gold; Change Fuchsia; Ruin Purple.
+Later terminology/canon overlays may require bounded reference-safe updates without reopening dialogue voice or scene logic.
 
 ## Engineering behavior
 
+- Fresh Godot/GDScript implementation; do not copy/port code from historical `zxxdjxxz-del/Diyse` unless explicitly authorized for named reuse.
+- Dialogue is one authored continuity; no response wheels, tone selection, morality/affinity responses, persuasion trees, or romance routes.
+- Production dialogue uses stable-ID `DiyseDialogueSceneDefinition` Resources; never embed canon scene text or final portrait paths in generic engine code.
 - Implement one bounded milestone at a time.
 - Preserve deterministic behavior where combat rules require it.
 - Add deterministic validation for pure logic/content contracts where practical.
-- Keep platform-specific code isolated and Android first-class.
+- Keep exploration, dialogue, combat, save/state, UI, and content loading separable.
 - Prefer simple readable GDScript over clever abstractions.
-- Keep exploration, dialogue, combat, save/state, UI and content loading separable.
-- Mark temporary shortcuts clearly; they are not canon.
+- Keep authored content data-driven where practical.
+- Do not invent mechanics, terminology, characters, Cards, classes, resources, story outcomes, or missing dialogue merely to fill gaps.
+- Do not optimize around placeholders in a way that blocks final exact assets.
+- Do not change canon/specification documents as accidental side effects of code work.
 
-## Accepted-proof regression rule
+## Progression/reward reindex boundary
 
-Steps 7B.5 and 7B.6 remain closed technical baselines. Chapters 0–3 exact dialogue Resource/continuity gates remain accepted; Chapter 4 exact authoring/static conversion authority remains closed where currently documented. Do not regress accepted exploration/dialogue/combat/Card/Prime/persistence behavior merely because later production is more complex.
+The added Chapter 10 requires a dedicated balance pass. Historical exact late-game EXP/CEXP/economy timing written for the 12-chapter spine is non-controlling where it depends on that old timing.
 
-Temporary proof fixtures remain replaceable and non-canon.
+Use:
+`docs/canon/POST_INSERTION_PROGRESSION_TIMING_HOLD_2026-08-23.md`
+
+Do not silently invent replacement progression numbers during unrelated implementation work.
+
+## Historical audit interpretation
+
+Historical Audit84/Audit89 remain useful decision provenance but do not carry current chapter numbers.
+
+Use:
+- `docs/canon/AUDIT89_CURRENT_REINDEX_AND_TERMINOLOGY_OVERLAY_2026-08-23.md`
+- `docs/canon/AUDIT113_POST_INSERTION_CHAPTER_REINDEX_AND_LATE_GAME_OPERATIONAL_FILE_RECONCILIATION_LOCK.md`
+
+Current operational chapter files always outrank historical folder/number assumptions.
