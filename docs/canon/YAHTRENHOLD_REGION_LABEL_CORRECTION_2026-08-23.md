@@ -1,9 +1,9 @@
 # Yahtrenhold / Region Label Correction
 
 **Date:** August 23, 2026  
-**Status:** **LOCKED / CONTROLLING bounded correction** to Audit110 for regional terminology and the next exact-map text-label pass.
+**Status:** **LOCKED / HISTORICAL BOUNDED CORRECTION**, now reconciled by **v1.96 / Audit111**.
 
-This correction preserves the exact Audit110 world-map geography. It changes only the approved region terminology and authorizes the corresponding non-spatial map-label additions.
+This file records the transition from the Audit110 map state into the final Audit111 region-label state. Where this file conflicts with Audit111, **Audit111 controls**.
 
 ## Yahtrenhold — LOCKED
 
@@ -11,29 +11,34 @@ This correction preserves the exact Audit110 world-map geography. It changes onl
 
 - Use the exact proper name **Yahtrenhold**.
 - Do not use `The Yahtrenhold` as the formal map label.
-- Older `Crownhold` / `The Crownhold` references should be interpreted as **Yahtrenhold** where they refer to this same region, pending downstream terminology cleanup.
+- Older `Crownhold` / `The Crownhold` references should be interpreted as **Yahtrenhold** where they refer to this same region.
 - Caelora remains the capital; Yahtrenhold is the broader historic royal/core region around it.
 
-## Region-label map pass — LOCKED
+## Final region-label state — LOCKED UNDER AUDIT111
 
-The next surgical map-label revision is authorized to add these large, subdued atlas-style region labels:
+The approved map now uses:
 
+- **BLACK HOST TERRITORY**
 - **THE WESTWAYS**
 - **THE GREYSPIRES**
 - **YAHTRENHOLD**
 
-Existing **BLACKSTONE** remains the Black Host-side regional label.
+`BLACKSTONE` is superseded by **BLACK HOST TERRITORY** as the Black Host-controlled region/place designation.
 
-**The Blackspine** remains a named mountain range/frontier barrier, not a region.
+**The Blackspine** remains the canonical mountain-range/frontier name, but its name is intentionally omitted from the final map artwork.
 
-Do not add hard regional borders, boundary lines, colored political fills, or any new geography as part of this label pass. Region identity should continue to read through terrain transitions and the existing exact map geography.
+Do not add hard regional borders, boundary lines, colored political fills, or new geography. Region identity continues to read through terrain transitions.
 
-## Westguard text cleanup — REAFFIRMED
+## Westguard — LOCKED
 
-The same surgical text pass may replace the outdated printed map label **Yahtrens Stand** with **Westguard** at the exact same location and without changing the settlement icon, road network, terrain, or surrounding geography.
+**Westguard** is the final proper name for the location previously called **Westreach** and briefly **Yahtrens Stand**.
+
+The final map displays **Westguard** at the same locked position. No settlement icon, road, terrain, or surrounding geography changes are implied by the rename.
 
 ## Exact-map preservation
 
-No settlement, road, river, forest, mountain, coastline, ruin, monument, or other visual geography may move or be redrawn as part of this terminology/label correction.
+No settlement, road, river, forest, mountain, coastline, ruin, monument, or other visual geography may move or be redrawn as part of these terminology changes.
+
+The final exact image identity and hash are controlled by **Audit111**.
 
 **END LOCK**
