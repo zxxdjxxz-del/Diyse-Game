@@ -60,6 +60,22 @@ Until a revised map image containing the changes above is generated and explicit
 
 ## 2. Chapter-by-chapter travel audit — LOCKED
 
+### Chapter 0 — The Broken Convoy
+
+The full Chapter 0 incident is located on the **Westways approach west/northwest of Brackenwall**.
+
+Controlling local progression:
+
+**Convoy Road → Wreck Field → Evacuation / Recovery Line → Field Triage Camp → Chapter 0 aftermath → Brackenwall**
+
+- These are parts of one damaged road/battlefield corridor, not separate permanent world-map nodes.
+- The broader Black Host ambush force withdraws **north/northwest** through the ridge/cut away from the Brackenwall approach.
+- The Chapter 0 **Ruin Vanguard Pursuer** is Seyrik under concealed identity. At **5% HP** he staggers, says nothing, and retreats north/northwest to rejoin the withdrawing Black Host force rather than dying.
+- The local **east cut** used by renewed hostile pressure is battlefield-scale geography and does not require a separate world-map road or marker.
+- No new permanent road, settlement, fortress, or master-map label is required for Chapter 0.
+
+The detailed Seyrik identity/retreat seed is controlled by `CHAPTER_00_SEYRIK_RUIN_VANGUARD_PURSUER_SEED_LOCK_2026-08-23.md`.
+
 ### Chapter 1 — Brackenwall and the Wayfinder
 
 Controlling travel geography:
