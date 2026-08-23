@@ -4,7 +4,7 @@ This is an implementation-facing summary. It does **not** replace the authoritat
 
 ## Current whole-project authority
 
-**Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.91 / Audit106 — Item, Equipment, Catalog, Economy, and Audit104/105 Reconciliation Lock**  
+**Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.92 / Audit107 — Sixfold Volition, Cartographic Mystery, Calder Archive, and Chapter-Structure Reconciliation Lock**  
 **Date:** August 22, 2026
 
 Immediate forward chain:
@@ -16,6 +16,10 @@ Immediate forward chain:
 - **v1.89 / Audit104** — Reciprocal Class, Synthesis, Legacy, and Legacy-Component Integration Lock.
 - **v1.90 / Audit105** — Acuity Face, Story Prime, and Resource Reconciliation Lock.
 - **v1.91 / Audit106** — Item, Equipment, Catalog, Economy, and Audit104/105 Reconciliation Lock.
+- **v1.92 / Audit107** — Sixfold Volition, Cartographic Mystery, Calder Archive, and Chapter-Structure Reconciliation Lock.
+
+Current story/chapter/cartographic reconciliation canon file:
+- `docs/canon/AUDIT107_SIXFOLD_VOLITION_CARTOGRAPHIC_MYSTERY_CALDER_ARCHIVE_AND_CHAPTER_STRUCTURE_RECONCILIATION_LOCK.md`
 
 Current item/equipment/economy canon file:
 - `docs/canon/AUDIT106_ITEM_EQUIPMENT_CATALOG_ECONOMY_AND_AUDIT104_105_RECONCILIATION_LOCK.md`
@@ -34,12 +38,71 @@ Quest terminology clarification:
 
 ---
 
+## Audit107 story / chapter / cartographic authority — controlling
+
+### Sixfold Volition placement
+- Chapter 6 ends with **Seyrik's conditional permanent recruitment**.
+- Chapter 7 — **The Prison of Names** — is the first full-six integration chapter.
+- **The Sixfold Volition occurs at the end of Chapter 7 / Cresthaven return.**
+- No permanent character has or uses a Subclass before the Volition.
+- All six Subclasses unlock at the Volition under Audit104.
+- Chapter 8 is the first full mandatory chapter built around sustained post-Volition Subclass use.
+- The Volition is an act of six independent wills choosing to entrust/train across traditions; it is not forced by prophecy, a mind-link, or an Ancient mechanism.
+
+### Revised mandatory spine after Chapter 9
+- Ch9 remains the existing Larkspire / Crownfall / Rhazek chapter.
+- **Ch10 is a new mandatory eastern-cartography / Calder-investigation chapter.**
+- Former Ch10 Crown Engine / Calder / Custodian / Truth material becomes **Ch11**.
+- Former Ch11 final Black Host / Vaelkor material becomes **Ch12**.
+- Former Ch12 final-domain / Last Command material becomes **Ch13**.
+- Older `Chapter-12 point of no return` references become **Chapter 13** unless a later audit explicitly changes the availability window itself.
+
+### Long-form map mystery
+Accumulated physical/cartographic sources now progress through:
+1. Ch1 Hollow Watch rubbing.
+2. Ch1 Wayfinder material/copies.
+3. Ch3 Torren post-Warden routing sketch.
+4. Ch4 Vaelira / **Reaction Annex** related transcription or chart.
+5. Ch5 Deepforge works survey, found after the Deepforge Colossus / deeper sovereign-maintenance sequence.
+6. Ch8 Westreach related survey/map.
+7. Ch10 final missing eastern survey/map, presently tied to a second/eastern Wayfinder-type dungeon.
+
+These are **not** magical jigsaw pieces and are not numerically tied to the six Faces. They are physical maps/surveys/charts made for different Ancient purposes but using related positional/relational grammar.
+
+Chapter 5 proves that the earlier route did not terminate at Ivorybridge: it passed through Ivorybridge and continued north toward Deepforge. This pays off Vaelira's Chapter 4 boundary lesson. The route also happened to lead the party through the place where they met Vaelira; this is not destiny or prophecy.
+
+Deepforge does **not** point directly to Westreach. Westreach lies near the original Wayfinder geography. The Ch8 Westreach material overlaps the early western evidence and leaves the party with **most of Ancient Yahtrea mapped except the east**.
+
+New Ch10 fills that eastern blind spot. The exact eastern Wayfinder location, surface route, proper name, dungeon topology, and boss remain open pending world-map reconciliation and later encounter design.
+
+### Calder / Chapter 3 payoff
+Chapter 3 remains unchanged in what the party knows at the time: the false order is made from genuine but unrelated authorities, and Ch3 proves **how** it was assembled while leaving **who and why** unresolved.
+
+Late-game payoff:
+- the initiating responsibility traces to **Chancellor Othmar Calder**;
+- Calder did not simply forge all source records;
+- some source authorities are genuine older Crown records, with exact age span still pending chronology work;
+- Calder spent years researching old Crown and Diysean archives, suppressed/obsolete records, decrees, custody precedents, surveys, and maps;
+- he deliberately brought authentic but unrelated authorities together to produce or justify new lawful-seeming directives;
+- his archival pursuit predates Cyanis finding the Card.
+
+Present this through physical/institutional evidence—ledgers, requisitions, archive slips, seals, marginal notes, old orders, maps, tablets/translations—not computer/network/database language.
+
+### Ch10 → Caelora causality / knowledge firewall
+New Ch10 completes the physical/geographic picture and uncovers evidence tying Calder to the old-order mystery. The completed picture points the investigation toward **Caelora / the Crownhold**.
+
+The party takes the evidence to **Crown Princess Mirena**; the scale of the implication brings in **Queen Lysara**; this becomes the direct bridge into Ch11 Crown Engine.
+
+The party still does **not** understand the true Underground Crest Network, its full civilization-scale purpose, or the later Custodian/Entity implications until the Crown Engine / Custodian truth reveal.
+
+---
+
 ## Project foundation
 
 - Diyse is an **HD-2D JRPG**.
 - Field sprites target approximately **80 px**; battle sprites approximately **200–220 px**; dialogue uses large high-resolution portraits.
 - Standard combat frame: up to four active party members staggered left, enemies right, open center action/VFX lane.
-- Target runtime: approximately **25 hours**.
+- Target runtime: approximately **25 hours**; Audit107's added mandatory chapter requires revalidation but does not itself replace this target.
 - Permanent roster: exactly six; maximum active battle party: four.
 - Dialogue is one authored continuity; no dialogue wheel, morality route, affinity-response system, romance route/system, or selectable protagonist personality.
 - **Current player level cap: 70.**
@@ -47,7 +110,7 @@ Quest terminology clarification:
 
 ---
 
-## Audit106 item / equipment authority — controlling
+## Audit106 item / equipment authority — controlling where Audit107 does not alter chapter labels
 
 ### Catalog counts
 - Consumables: **20**.
@@ -248,7 +311,7 @@ Do not expand that into a broad grind system.
 ### Standard Cards — 24 / chapter pacing
 Exactly four Standard Cards per Face, 24 total.
 
-Current chapter acquisition curve:
+Current chapter acquisition curve after Audit107 reindex:
 - Ch1: **2** — Faultline Sight; Iron Testament.
 - Ch2: **2** — Restoration; Sunder the Gate.
 - Ch3: **3** — Glassform Rupture; Reversal Engine; Merciful Reprisal.
@@ -258,10 +321,11 @@ Current chapter acquisition curve:
 - Ch7: **1** — Spatial Guillotine.
 - Ch8: **1** — Confluence Sigil.
 - Ch9: **2** — Wellspring; Predicted Impact.
-- Ch10: **3** — Devouring Singularity; Worldsplitter; Decisive Interval.
-- Ch11: **1** — Zero Hour.
+- Ch10: **0 newly locked sources under Audit107** — added chapter reward allocation remains open.
+- Ch11: **3** — Devouring Singularity; Worldsplitter; Decisive Interval. These are former Ch10 assignments.
+- Ch12: **1** — Zero Hour. This is the former Ch11 assignment.
 
-Audit105 remains controlling for the four Acuity Cards and their exact sources.
+Audit105 remains controlling for the four Acuity Cards and their exact sources. Audit107 changes late chapter labels only and does not invent a new Standard Card source.
 
 Full exact item names, roles, source details, economy ratios, production data schema, and reconciliation notes are in Audit106.
 
@@ -328,13 +392,13 @@ Current optional Prime lineup:
 
 ---
 
-## Audit103 quest architecture — inherited
+## Audit103 quest architecture — inherited with Audit107 chapter reindex
 
 - Exactly 6 standalone Character Quests, one per permanent party member.
 - Exactly 3 Character Quest bosses: Elemental Forecast Construct, Crest Load Warden, Revision Custodian.
 - Exactly 10 ordinary non-story/non-Hunt side quests; these are the regional side-quest layer, not a separate quest category.
 - Each Character Quest grants that character's Legacy Component as principal mechanical reward.
-- Character Quests remain optional and available until the Chapter-12 point of no return unless later canon says otherwise.
+- Character Quests remain optional and available until the **Chapter-13 point of no return** unless later canon says otherwise.
 
 Character Quests:
 1. Vaelira — The Sky No One Chose.
@@ -348,10 +412,18 @@ Hunts remain separate combat-oriented optional content.
 
 ---
 
-## Audit104 reciprocal class / Synthesis authority — inherited
+## Audit104 reciprocal class / Synthesis authority — inherited with Audit107 story placement
 
 ### Sixfold Volition
 Formal term: **The Sixfold Volition**. `Sixfold Accord` is deprecated.
+
+Story placement under Audit107:
+- no Subclass before the Volition;
+- Seyrik joins at the end of Ch6;
+- Ch7 is the first full-six integration chapter;
+- the Volition occurs at the end of Ch7 / Cresthaven return;
+- all six Subclasses unlock there;
+- Ch8 is the first full mandatory post-Volition Subclass chapter.
 
 Reciprocal pairs:
 - Cyanis ⇄ Vaelira
@@ -408,12 +480,12 @@ Synthesis names:
 - Torren — Measured Passage
 - Nimera — Living Proof
 
-Mandatory late-Ch11 Synthesis-resolution beats:
+Mandatory late-Ch12 Synthesis-resolution beats after Audit107 reindex:
 - Cyanis ⇄ Vaelira — What Holds, What Changes — Cresthaven.
 - Ilyra ⇄ Seyrik — Keep Them Alive — Forward Hub recovery area.
 - Torren ⇄ Nimera — Enough to Move — Forward Hub operations/map table.
 
-The six Character Quest Legacy Components and Chapter-12 secured-release flow remain controlled by Audit104; Audit106 changes only player-facing Legacy titles and item/economy reconciliation where explicitly stated.
+The six Character Quest Legacy Components and **Chapter-13 secured-release flow** remain controlled by Audit104 in underlying function; Audit107 reindexes the former Chapter-12 label, and Audit106 changes only player-facing Legacy titles and item/economy reconciliation where explicitly stated.
 
 ---
 
@@ -444,22 +516,33 @@ Formal modern Realms:
 
 Settlement and landmark names remain unchanged by those regional terminology corrections.
 
+Audit107 establishes the **story function** of a second/eastern Wayfinder-type site but does **not** yet place it on the controlling world map. Exact placement waits for the user's next world-map pass.
+
 ---
 
-## Immediate open work after Audit106
+## Immediate open work after Audit107
 
-1. Rebalance / verify the **Level-70 EXP curve** and chapter-end expected levels.
-2. Revalidate natural character stat growth at Level 70 progression.
-3. Revalidate enemy/boss stat curves.
-4. Lock final ordinary-equipment raw-stat baselines.
-5. Normalize all 64 Relics, including 11 Capstone Relics, against those baselines.
-6. Lock final numerical stats/passives for the six Legacies.
-7. Reconcile exact acquisition homes for the 11 Capstone Relics.
-8. Reconcile Kessara Forge-Component pickup/use counts after removal of generic Legacy Gate A/B uses.
-9. Run the full **118-piece equipment power-curve audit** across Chapters 1–12.
-10. Finalize Core Mastery effect text / gate schedule and other still-open class-system constants from Audit104.
-11. Continue Audit105 downstream Acuity implementation where runtime data remains unfinished.
-12. Integrate Synthesis-resolution beats into final Chapter-11 scene numbering/dialogue.
-13. Run implementation/data regression across class, equipment, Mastery, Synthesis, Legacy, Card, Prime, Hunt, reward, and save data.
+1. Reconcile the **world-map placement, route, and final proper name** of the new eastern Wayfinder-type site.
+2. Design the new Chapter 10 dungeon topology, mandatory boss, scene list, title, and runtime.
+3. Lock the exact physical Chapter 5 Deepforge survey scene and Chapter 8 Westreach survey scene.
+4. Lock the chronology / age span of the older source decrees, custody precedents, and orders Calder exploited.
+5. Define the exact physical archival evidence that proves Calder's long-running involvement while preserving the Chapter 3 knowledge firewall.
+6. Rewrite/place the exact **Sixfold Volition** scene at the end of Chapter 7 / Cresthaven return.
+7. Run a stale-numbering sweep for former Chapters 10–12, including Audit84/Audit89 references, point-of-no-return labels, Forward Hub references, and late-game scene numbering.
+8. Rebalance / verify the **Level-70 EXP curve** and chapter-end expected levels for the new 13-chapter structure.
+9. Revalidate natural character stat growth at Level 70 progression.
+10. Revalidate enemy/boss stat curves and encounter budgets, especially new Ch10 and reindexed Ch11–13.
+11. Lock final ordinary-equipment raw-stat baselines.
+12. Normalize all 64 Relics, including 11 Capstone Relics, against those baselines.
+13. Lock final numerical stats/passives for the six Legacies.
+14. Reconcile exact acquisition homes for the 11 Capstone Relics.
+15. Reconcile Kessara Forge-Component pickup/use counts after removal of generic Legacy Gate A/B uses.
+16. Run the full **118-piece equipment power-curve audit** across Chapters 1–13.
+17. Finalize Core Mastery effect text / gate schedule and other still-open class-system constants from Audit104.
+18. Continue Audit105 downstream Acuity implementation where runtime data remains unfinished.
+19. Integrate Synthesis-resolution beats into final **Chapter-12** scene numbering/dialogue after Audit107 reindex.
+20. Revalidate Standard Card / reward spacing; new Ch10 currently has no newly locked Standard Card source.
+21. Revalidate the ~25-hour runtime target against the added mandatory chapter rather than silently compressing the new material.
+22. Run implementation/data regression across class, equipment, Mastery, Synthesis, Legacy, Card, Prime, Hunt, reward, chapter-gating, and save data.
 
-Omission from this summary does not erase compatible older canon. **Audit106, Audit105, Audit104, Audit103, compatible prior canon, exact visual authorities, and newer explicit user corrections control conflicts.**
+Omission from this summary does not erase compatible older canon. **Audit107, Audit106, Audit105, Audit104, Audit103, compatible prior canon, exact visual authorities, and newer explicit user corrections control conflicts.**
