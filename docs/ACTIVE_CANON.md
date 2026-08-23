@@ -4,8 +4,8 @@ This is an implementation-facing summary. It does **not** replace the authoritat
 
 ## Current whole-project authority
 
-**Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.92 / Audit107 — Sixfold Volition, Cartographic Mystery, Calder Archive, and Chapter-Structure Reconciliation Lock**  
-**Date:** August 22, 2026
+**Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.93 / Audit108 — Exact World Map, Location Geography, Cerythvale, and The Last Blank Closure**  
+**Date:** August 23, 2026
 
 Immediate forward chain:
 - **v1.84 / Audit99** — Random-Encounter Runtime Implementation and Production-Readiness Closure.
@@ -17,8 +17,12 @@ Immediate forward chain:
 - **v1.90 / Audit105** — Acuity Face, Story Prime, and Resource Reconciliation Lock.
 - **v1.91 / Audit106** — Item, Equipment, Catalog, Economy, and Audit104/105 Reconciliation Lock.
 - **v1.92 / Audit107** — Sixfold Volition, Cartographic Mystery, Calder Archive, and Chapter-Structure Reconciliation Lock.
+- **v1.93 / Audit108** — Exact World Map, Location Geography, Cerythvale, and The Last Blank Closure.
 
-Current story/chapter/cartographic reconciliation canon file:
+Current exact-map/location/Chapter-10 canon file:
+- `docs/canon/AUDIT108_EXACT_WORLD_MAP_LOCATION_GEOGRAPHY_CERYTHVALE_AND_THE_LAST_BLANK_CLOSURE.md`
+
+Prior story/chapter/cartographic reconciliation foundation:
 - `docs/canon/AUDIT107_SIXFOLD_VOLITION_CARTOGRAPHIC_MYSTERY_CALDER_ARCHIVE_AND_CHAPTER_STRUCTURE_RECONCILIATION_LOCK.md`
 
 Current item/equipment/economy canon file:
@@ -38,7 +42,60 @@ Quest terminology clarification:
 
 ---
 
-## Audit107 story / chapter / cartographic authority — controlling
+## Audit108 exact map / location / The Last Blank authority — controlling
+
+### Exact master-map lock
+- The latest user-approved Yahtrea/Blackstone authority image is **1536 × 1229 px** with SHA-256 **`cd55d5312c9f303cad44664a7a7328fc81919e54fe80fd52e54104b5a99399e2`**.
+- Treat that image as the exact visual/spatial master unless the user explicitly changes something from it.
+- Do not move, resize, reconnect, reinterpret, or simplify any existing marker, road, river, coastline, mountain belt, canyon/scar, or relative placement shown there.
+- Earlier map images and coordinate sets are superseded where they conflict with the Audit108 authority image.
+
+### Regions / terrain terminology
+- **Blackstone** = Black Host-side region.
+- **The Blackspine** = mountain range/frontier barrier; `Black Mountains` is deprecated.
+- **The Greyspires** = northern mountain region; supersedes Diysereach/Highlands regional terminology.
+- **The Westways** = western Yahtrea; supersedes Edgelands.
+- **The Crownhold** = central/southern royal-core region; supersedes Southhold.
+- `The Hostlands` is not the formal region label.
+- Ashfrost Expanse and Crownfall Redoubt remain **Westways** locations despite mountainous terrain.
+
+### Hub count / Cerythvale
+- Ordinary persistent Yahtrean hubs = **13**, not 12.
+- Original 12 remain unchanged: Brackenwall, Greenhollow, Dunmere, Stonewake, Frostmere, Caelora, Cresthaven, Ivorybridge, Ashford, Veycross, Westreach, Larkspire.
+- **Cerythvale** is the 13th persistent Yahtrean hub, in The Crownhold, first used mandatorily in Chapter 10 and later serving as the parent hub for Skyglass Observatory, Palimpsest Archive, and Crestline Relay.
+
+### Chapter 10 / Wayfinder correction
+- **Chapter 10 — The Last Blank** is the formal title.
+- Mandatory geographic route: **Cerythvale → eastern route → Eastern Wayfinder**.
+- **Eastern Wayfinder** is the proper final eastern cartographic destination and is exactly placed on the Audit108 map.
+- There is no separate Waystone category in this map-mystery design. `Old Waystone`, `East Waystone`, and other separate Waystone references are deprecated unless explicitly restored later.
+- The two controlling Wayfinder locations are **Wayfinder Junction** and **Eastern Wayfinder**.
+- The Last Blank ends the major physical/geographic cartographic mystery while preserving the Audit107 knowledge firewall around Crown Engine / Underground Crest Network / Custodian / Entity truth.
+
+### New/clarified location hierarchy
+- **Draevensreach** — Blackstone frontier town.
+- **Vhalmarch** — proper name of the captured Chapter-12 Forward Hub.
+- **Vorathen** — Imperial Capital of the Black Host.
+- **The Veiled Citadel** — Vaelkor's inner palace/stronghold inside Vorathen; not another overworld node.
+- **Skyglass Observatory** — Vaelira CQ site; Cerythvale local destination.
+- **Crestline Relay** — Cyanis CQ site; Cerythvale local destination.
+- **Palimpsest Archive** — Nimera CQ site; Cerythvale local destination.
+- **Vaelkor Youth Intake Facility** — Seyrik CQ site west/northwest of Draevensreach on the Blackstone-interior side.
+- **The Quiet Ward** — Ilyra CQ precinct inside Brackenwall.
+- **Westline** — proper relay/site name on Torren's Westways route; `Waystone Cut` is replaced by **Ridgecut**.
+- **Alderwick** — minor reoccupied hamlet south/southeast of Ashford; no permanent master-map pin.
+
+### Chapter-local placement locks
+- Weather Crown — east/northeast of Frostmere; Crimson Relay / Crimson Work — west/southwest of Frostmere.
+- Prison of Names — west/northwest of Veycross on the Yahtrean side of The Blackspine.
+- Horizon Vault — Blackspine foothills immediately west/northwest of Westreach.
+- Equal Mercy — major sanctuary complex/district within Larkspire.
+- Crown Engine — beneath Caelora; no separate surface node.
+- Final Archive remains the surface anchor for Worldframe Depths.
+
+---
+
+## Audit107 story / chapter / cartographic authority — controlling where Audit108 does not supersede location details
 
 ### Sixfold Volition placement
 - Chapter 6 ends with **Seyrik's conditional permanent recruitment**.
@@ -51,7 +108,7 @@ Quest terminology clarification:
 
 ### Revised mandatory spine after Chapter 9
 - Ch9 remains the existing Larkspire / Crownfall / Rhazek chapter.
-- **Ch10 is a new mandatory eastern-cartography / Calder-investigation chapter.**
+- **Ch10 — The Last Blank** is the new mandatory eastern-cartography / Calder-investigation chapter.
 - Former Ch10 Crown Engine / Calder / Custodian / Truth material becomes **Ch11**.
 - Former Ch11 final Black Host / Vaelkor material becomes **Ch12**.
 - Former Ch12 final-domain / Last Command material becomes **Ch13**.
@@ -60,12 +117,12 @@ Quest terminology clarification:
 ### Long-form map mystery
 Accumulated physical/cartographic sources now progress through:
 1. Ch1 Hollow Watch rubbing.
-2. Ch1 Wayfinder material/copies.
+2. Ch1 **Wayfinder Junction** material/copies.
 3. Ch3 Torren post-Warden routing sketch.
 4. Ch4 Vaelira / **Reaction Annex** related transcription or chart.
 5. Ch5 Deepforge works survey, found after the Deepforge Colossus / deeper sovereign-maintenance sequence.
 6. Ch8 Westreach related survey/map.
-7. Ch10 final missing eastern survey/map, presently tied to a second/eastern Wayfinder-type dungeon.
+7. Ch10 **Eastern Wayfinder** / final missing eastern survey-map evidence.
 
 These are **not** magical jigsaw pieces and are not numerically tied to the six Faces. They are physical maps/surveys/charts made for different Ancient purposes but using related positional/relational grammar.
 
@@ -73,7 +130,7 @@ Chapter 5 proves that the earlier route did not terminate at Ivorybridge: it pas
 
 Deepforge does **not** point directly to Westreach. Westreach lies near the original Wayfinder geography. The Ch8 Westreach material overlaps the early western evidence and leaves the party with **most of Ancient Yahtrea mapped except the east**.
 
-New Ch10 fills that eastern blind spot. The exact eastern Wayfinder location, surface route, proper name, dungeon topology, and boss remain open pending world-map reconciliation and later encounter design.
+Chapter 10 fills that eastern blind spot. Audit108 closes the eastern site's world-map placement, surface route, and proper name as **Cerythvale → Eastern Wayfinder**. Exact Eastern Wayfinder interior topology and mandatory boss remain open pending later encounter/scene design.
 
 ### Calder / Chapter 3 payoff
 Chapter 3 remains unchanged in what the party knows at the time: the false order is made from genuine but unrelated authorities, and Ch3 proves **how** it was assembled while leaving **who and why** unresolved.
@@ -102,7 +159,7 @@ The party still does **not** understand the true Underground Crest Network, its 
 - Diyse is an **HD-2D JRPG**.
 - Field sprites target approximately **80 px**; battle sprites approximately **200–220 px**; dialogue uses large high-resolution portraits.
 - Standard combat frame: up to four active party members staggered left, enemies right, open center action/VFX lane.
-- Target runtime: approximately **25 hours**; Audit107's added mandatory chapter requires revalidation but does not itself replace this target.
+- Target runtime: approximately **25 hours**; the added mandatory Chapter 10 requires revalidation but does not itself replace this target.
 - Permanent roster: exactly six; maximum active battle party: four.
 - Dialogue is one authored continuity; no dialogue wheel, morality route, affinity-response system, romance route/system, or selectable protagonist personality.
 - **Current player level cap: 70.**
@@ -110,7 +167,7 @@ The party still does **not** understand the true Underground Crest Network, its 
 
 ---
 
-## Audit106 item / equipment authority — controlling where Audit107 does not alter chapter labels
+## Audit106 item / equipment authority — controlling where Audit108/Audit107 do not alter chapter labels or geography
 
 ### Catalog counts
 - Consumables: **20**.
@@ -321,11 +378,11 @@ Current chapter acquisition curve after Audit107 reindex:
 - Ch7: **1** — Spatial Guillotine.
 - Ch8: **1** — Confluence Sigil.
 - Ch9: **2** — Wellspring; Predicted Impact.
-- Ch10: **0 newly locked sources under Audit107** — added chapter reward allocation remains open.
+- Ch10: **0 newly locked sources under Audit107/Audit108** — added chapter reward allocation remains open.
 - Ch11: **3** — Devouring Singularity; Worldsplitter; Decisive Interval. These are former Ch10 assignments.
 - Ch12: **1** — Zero Hour. This is the former Ch11 assignment.
 
-Audit105 remains controlling for the four Acuity Cards and their exact sources. Audit107 changes late chapter labels only and does not invent a new Standard Card source.
+Audit105 remains controlling for the four Acuity Cards. Audit107/Audit108 change late chapter labels/geography only and do not invent a new Standard Card source.
 
 Full exact item names, roles, source details, economy ratios, production data schema, and reconciliation notes are in Audit106.
 
@@ -392,7 +449,7 @@ Current optional Prime lineup:
 
 ---
 
-## Audit103 quest architecture — inherited with Audit107 chapter reindex
+## Audit103 quest architecture — inherited with Audit107 chapter reindex and Audit108 geography
 
 - Exactly 6 standalone Character Quests, one per permanent party member.
 - Exactly 3 Character Quest bosses: Elemental Forecast Construct, Crest Load Warden, Revision Custodian.
@@ -407,6 +464,8 @@ Character Quests:
 4. Seyrik — The Name That Remains.
 5. Ilyra — Mercy Has a Voice.
 6. Torren — The Road That Returns.
+
+Geographic parents / proper sites are controlled by Audit108.
 
 Hunts remain separate combat-oriented optional content.
 
@@ -507,42 +566,55 @@ Any older absolute Level-60 progression references are superseded by Level 70.
 
 ## World / map authority
 
-The exact approved Yahtrea map remains the controlling surface-world visual/spatial master. Do not move, regenerate, reinterpret, simplify, add, remove, or reconnect geography unless explicitly approved.
+Audit108 controls the exact surface-world map.
 
-Formal modern Realms:
+Authority-image manifest:
+- **1536 × 1229 px**;
+- SHA-256 **`cd55d5312c9f303cad44664a7a7328fc81919e54fe80fd52e54104b5a99399e2`**.
+
+Do not move, regenerate, reinterpret, simplify, add, remove, or reconnect existing geography shown on that map unless explicitly approved.
+
+Formal regions:
+- **Blackstone** — Black Host-side region.
 - **The Westways** — west; supersedes Edgelands.
 - **The Greyspires** — northern mountain region; supersedes Diysereach/Highlands as current region terminology.
 - **The Crownhold** — capital/royal-core region; supersedes Southhold.
 
-Settlement and landmark names remain unchanged by those regional terminology corrections.
+Natural feature:
+- **The Blackspine** — mountain range/frontier barrier; `Black Mountains` is deprecated.
 
-Audit107 establishes the **story function** of a second/eastern Wayfinder-type site but does **not** yet place it on the controlling world map. Exact placement waits for the user's next world-map pass.
+Ordinary persistent Yahtrean hubs = **13**, with **Cerythvale** added to the inherited 12.
+
+Exact-map permanent-node names and all local/sub-map geography rules are detailed in Audit108.
 
 ---
 
-## Immediate open work after Audit107
+## Immediate open work after Audit108
 
-1. Reconcile the **world-map placement, route, and final proper name** of the new eastern Wayfinder-type site.
-2. Design the new Chapter 10 dungeon topology, mandatory boss, scene list, title, and runtime.
-3. Lock the exact physical Chapter 5 Deepforge survey scene and Chapter 8 Westreach survey scene.
-4. Lock the chronology / age span of the older source decrees, custody precedents, and orders Calder exploited.
-5. Define the exact physical archival evidence that proves Calder's long-running involvement while preserving the Chapter 3 knowledge firewall.
-6. Rewrite/place the exact **Sixfold Volition** scene at the end of Chapter 7 / Cresthaven return.
-7. Run a stale-numbering sweep for former Chapters 10–12, including Audit84/Audit89 references, point-of-no-return labels, Forward Hub references, and late-game scene numbering.
-8. Rebalance / verify the **Level-70 EXP curve** and chapter-end expected levels for the new 13-chapter structure.
-9. Revalidate natural character stat growth at Level 70 progression.
-10. Revalidate enemy/boss stat curves and encounter budgets, especially new Ch10 and reindexed Ch11–13.
-11. Lock final ordinary-equipment raw-stat baselines.
-12. Normalize all 64 Relics, including 11 Capstone Relics, against those baselines.
-13. Lock final numerical stats/passives for the six Legacies.
-14. Reconcile exact acquisition homes for the 11 Capstone Relics.
-15. Reconcile Kessara Forge-Component pickup/use counts after removal of generic Legacy Gate A/B uses.
-16. Run the full **118-piece equipment power-curve audit** across Chapters 1–13.
-17. Finalize Core Mastery effect text / gate schedule and other still-open class-system constants from Audit104.
-18. Continue Audit105 downstream Acuity implementation where runtime data remains unfinished.
-19. Integrate Synthesis-resolution beats into final **Chapter-12** scene numbering/dialogue after Audit107 reindex.
-20. Revalidate Standard Card / reward spacing; new Ch10 currently has no newly locked Standard Card source.
-21. Revalidate the ~25-hour runtime target against the added mandatory chapter rather than silently compressing the new material.
-22. Run implementation/data regression across class, equipment, Mastery, Synthesis, Legacy, Card, Prime, Hunt, reward, chapter-gating, and save data.
+1. Perform the **road and travel-connection audit** against the exact map and mandatory chapter routes.
+2. Add **THE GREYSPIRES / THE WESTWAYS / THE CROWNHOLD** as non-spatial regional label overlays in a future map-art revision if desired; do not move geography or add hard borders.
+3. Finalize **Chapter 10 — The Last Blank** interior topology, mandatory boss, scene list, and runtime while keeping Cerythvale → Eastern Wayfinder fixed.
+4. Lock the exact physical Chapter 5 Deepforge survey scene and Chapter 8 Westreach survey scene.
+5. Lock the exact physical form/name of the final eastern survey record recovered at Eastern Wayfinder.
+6. Lock the chronology / age span of the older source decrees, custody precedents, and orders Calder exploited.
+7. Define the exact physical archival evidence that proves Calder's long-running involvement while preserving the Chapter 3 knowledge firewall.
+8. Rewrite/place the exact **Sixfold Volition** scene at the end of Chapter 7 / Cresthaven return.
+9. Run a stale-numbering sweep for former Chapters 10–12, including Audit84/Audit89 references, point-of-no-return labels, Forward Hub references, and late-game scene numbering.
+10. Rebalance / verify the **Level-70 EXP curve** and chapter-end expected levels for the new 13-chapter structure in a separate progression pass.
+11. Revalidate natural character stat growth at Level 70 progression.
+12. Revalidate enemy/boss stat curves and encounter budgets, especially new Ch10 and reindexed Ch11–13.
+13. Lock final ordinary-equipment raw-stat baselines.
+14. Normalize all 64 Relics, including 11 Capstone Relics, against those baselines.
+15. Lock final numerical stats/passives for the six Legacies.
+16. Reconcile exact acquisition homes for the 11 Capstone Relics.
+17. Reconcile Kessara Forge-Component pickup/use counts after removal of generic Legacy Gate A/B uses.
+18. Run the full **118-piece equipment power-curve audit** across Chapters 1–13.
+19. Finalize Core Mastery effect text / gate schedule and other still-open class-system constants from Audit104.
+20. Continue Audit105 downstream Acuity implementation where runtime data remains unfinished.
+21. Integrate Synthesis-resolution beats into final **Chapter-12** scene numbering/dialogue after Audit107 reindex.
+22. Revalidate Standard Card / reward spacing; new Ch10 currently has no newly locked Standard Card source.
+23. Revalidate the ~25-hour runtime target against the added mandatory chapter rather than silently compressing the new material.
+24. Add a repository-hosted binary copy of the SHA-identified exact map when the repository workflow has a suitable binary-upload path.
+25. Run implementation/data regression across class, equipment, Mastery, Synthesis, Legacy, Card, Prime, Hunt, reward, chapter-gating, and save data.
 
-Omission from this summary does not erase compatible older canon. **Audit107, Audit106, Audit105, Audit104, Audit103, compatible prior canon, exact visual authorities, and newer explicit user corrections control conflicts.**
+Omission from this summary does not erase compatible older canon. **Audit108, Audit107, Audit106, Audit105, Audit104, Audit103, compatible prior canon, exact visual authorities, and newer explicit user corrections control conflicts.**
