@@ -1,50 +1,73 @@
-# Diyse — Yahtrea Region Terminology Lock
+# Diyse — Current Region Terminology Lock
 
-**Date:** August 22, 2026
+**Original lock date:** August 22, 2026  
+**Current reconciliation:** August 23, 2026 — Audit111 / Audit112
 
-This file records a newer explicit canon correction to Yahtrea's three modern regional names. It supersedes the prior regional labels wherever they appear in compatible older canon, without changing the underlying geography, settlements, landmarks, roads, regional identities, story routing, or map placement.
+This file now reflects the current final macro-region terminology. It supersedes its earlier `The Crownhold` / `Blackstone` wording while preserving all compatible geography, settlements, landmarks, roads, regional identities, story routing, and exact map placement.
 
-## Locked modern regional names
+## Locked current macro-region names
 
-- **The Greyspires** — northern mountain region. Replaces **Diysereach**.
-- **The Westways** — western region. Replaces **Edgelands**.
-- **The Crownhold** — capital / royal-core region, including Caelora. Replaces **Southhold**.
+- **THE GREYSPIRES / The Greyspires** — northern Yahtrean mountain region. Replaces **Diysereach** and older Highlands regional usage.
+- **THE WESTWAYS / The Westways** — western Yahtrea. Replaces **Edgelands**.
+- **YAHTRENHOLD / Yahtrenhold** — central/southern royal and historic core region, including Caelora and Cerythvale. Replaces **The Crownhold / Crownhold** and earlier **Southhold**.
+- **BLACK HOST TERRITORY / Black Host Territory** — Black Host-controlled homeland/territory beyond The Blackspine. Replaces **Blackstone** as the region/place designation.
+
+## The Blackspine
+
+**The Blackspine** is the canonical mountain-range/frontier-barrier name between Yahtrea and Black Host Territory.
+
+- `Black Mountains` is deprecated as the formal mountain-range name.
+- Audit111 intentionally omits a printed Blackspine label from the final map artwork; that is a presentation choice only and does not remove the name from canon.
 
 ## Preservation rule
 
-This is a terminology-only regional correction unless a later explicit canon decision states otherwise.
+These terminology corrections do not move or otherwise rewrite geography unless a separate later audit explicitly says so.
 
-- Existing settlement names remain unchanged.
-- Existing landmark names remain unchanged.
+- Existing settlement and landmark positions remain unchanged.
 - Existing roads and connections remain unchanged.
-- Existing geography and exact approved map placement remain unchanged.
-- Existing regional cultural, musical, traversal, environmental, and story identities remain inherited.
-- The Black Mountains remain west outside Yahtrea in Black Host territory.
+- Existing rivers, coastlines, mountains, forests, and exact approved map placement remain unchanged.
+- Existing regional cultural, musical, traversal, environmental, and story identities remain inherited where compatible.
+- Audit111's exact final world-map image remains the visual/spatial authority.
 
 ## Usage rule
 
-Use **The Greyspires**, **The Westways**, and **The Crownhold** as the authoritative current regional names in new canon, scripts, dialogue, quest text, UI, codex text, map labels, and implementation-facing documentation.
+Use **The Greyspires**, **The Westways**, **Yahtrenhold**, and **Black Host Territory** as the current authoritative region names in new canon, scripts, dialogue, quest text, UI, codex text, map labels, and implementation-facing documentation.
 
-When older canon uses **Diysereach**, **Edgelands**, or **Southhold** as regional names, interpret those references respectively as **The Greyspires**, **The Westways**, and **The Crownhold** unless the text is explicitly discussing historical/deprecated terminology.
+Interpret older regional references as follows when they refer to the same places:
 
-## Chapters 0–4 locked-dialogue propagation
+- `Diysereach` / regional `Highlands` → **The Greyspires**.
+- `Edgelands` / `Borderlands` as the old western-region name → **The Westways**.
+- `Southhold` / `The Crownhold` / `Crownhold` → **Yahtrenhold**.
+- `Blackstone` as the Black Host homeland/region → **Black Host Territory**.
 
-A complete terminology audit was performed across the locked Chapter 0–4 authored dialogue sources, including mandatory scenes, optional character/life scenes, Hunt dialogue, and the corresponding runtime dialogue resources where applicable.
+Do not use **The Yahtrenhold** as the formal region name. The correct prose form is **Yahtrenhold**.
 
-The dialogue locks remain fully intact. Only obsolete regional proper nouns and directly attached staging/reference wording were changed; no character voice, scene beat, delivery, narrative logic, quest logic, combat logic, or unrelated staging was reopened.
+## Westguard location-name reconciliation
 
-Exact changes:
+**Westguard** is the current proper name of the western settlement/location formerly called **Westreach** and briefly **Yahtrens Stand**.
 
-- **Chapter 0 — S001 staging:** `Borderlands road` → `Westways road`.
-- **Chapter 3 — S019_B016 spoken dialogue:** `Edgelands reports` → `Westways reports`.
-- **Chapter 3 — S020_B044 spoken dialogue:** `Old Crown outpost in Southhold.` → `Old Crown outpost in the Crownhold.`
-- **Chapter 3 — S021_B001 staging:** `abandoned Southhold outpost` → `abandoned Crownhold outpost`.
-- **Chapter 4 — S022_B001 staging/reference:** `current Crown map of Southhold` → `current Crown map of the Crownhold`.
+This is a location rename, not a new settlement. Preserve its locked map position, terrain, roads, and Crownfall relationship.
 
-No locked Chapter 1 or Chapter 2 dialogue required a regional-name change. No additional stale regional labels were found in the audited Chapter 3 or Chapter 4 optional/Hunt dialogue.
+Older `Westreach` / `Yahtrens Stand` references should be interpreted as **Westguard** when they refer to this same location until a reference-safe stale-term cleanup is completed.
 
-Chapter 3 runtime Resources were regenerated from their controlling locked Markdown sources so exact source/Resource dialogue parity remains valid. The Chapter 4 S022 runtime staging was synchronized to the same terminology correction.
+## Chapters 0–4 dialogue terminology status
+
+The earlier August-22 terminology pass changed several old regional words while preserving locked dialogue voice and scene logic. Audit111 now supersedes the intermediate `Crownhold` wording with **Yahtrenhold**.
+
+Final intended authored terminology for the previously affected beats is therefore:
+
+- **Chapter 0 — S001 staging:** `Westways road` remains correct.
+- **Chapter 3 — S019_B016 spoken dialogue:** `Westways reports` remains correct.
+- **Chapter 3 — S020_B044 spoken dialogue:** current region term should be **Yahtrenhold**, not `Southhold` or `the Crownhold`.
+- **Chapter 3 — S021_B001 staging:** current region term should be **Yahtrenhold**, not `Southhold` or `Crownhold`.
+- **Chapter 4 — S022_B001 staging/reference:** current region term should be **Yahtrenhold**, not `Southhold` or `the Crownhold`.
+
+The terminology correction does not reopen character voice, scene beats, delivery, narrative logic, quest logic, combat logic, or unrelated staging. Source/runtime text propagation should be performed through a reference-safe dialogue/implementation cleanup if those files still contain the superseded intermediate terms.
 
 ### Technical-identifier boundary
 
-Legacy implementation identifiers and filenames are not authored regional prose and are **not** to be blindly renamed as part of this terminology correction. Examples include `LOC_BORDERLANDS_*` identifiers and legacy environment-resource filenames containing deprecated regional words. These may be migrated only through a dedicated reference-safe engineering cleanup if needed; their internal names do not restore or preserve the deprecated terms as current canon.
+Legacy implementation identifiers and filenames are not authored regional prose and must not be blindly renamed merely because they contain deprecated terms. Migrate technical identifiers only through a dedicated reference-safe engineering cleanup.
+
+Current controlling higher authority:
+- Audit111 — final surface map / region terminology.
+- Audit112 — Chapter-10 story / Eastern Wayfinder discovery logic.
