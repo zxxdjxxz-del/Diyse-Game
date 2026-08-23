@@ -4,6 +4,9 @@
 
 This directory is the repository-facing implementation/recovery index for chapter authority. Current chapter numbers must follow Audit113; historical pre-insertion chapter numbers are provenance only.
 
+Current late-game scene-number correction:
+`docs/canon/POST_INSERTION_SCENE_ID_REINDEX_CORRECTION_2026-08-23.md`
+
 ## Current mandatory chapter spine
 
 | Chapter | Current identity / title | Repository authority state |
@@ -36,6 +39,35 @@ Do not implement old late-game chapter numbers merely because an historical audi
 
 Controlling reconciliation:
 `docs/canon/AUDIT113_POST_INSERTION_CHAPTER_REINDEX_AND_LATE_GAME_OPERATIONAL_FILE_RECONCILIATION_LOCK.md`
+
+## Post-insertion mandatory scene-ID firewall
+
+Chapter 9 ends at **S050**. Audit112 inserts eleven new mandatory-story scenes in Chapter 10, so the former post-S050 late-game scene skeleton shifts forward by **+11**.
+
+Current late-game ranges:
+- **Chapter 9:** S047–S050
+- **Chapter 10 — The Last Blank:** **S051–S061**
+- **Chapter 11 — Crown Engine / Calder / Custodian / Truth:** **S062–S065**
+- **Chapter 12 — The Reforged March:** **S066–S069**
+- **Chapter 13 — The Last Command:** **S070–S073**
+
+Current retained downstream scene mapping:
+- S062 — The Living Anchor
+- S063 — The Custodian
+- S064 — The Truth Beneath the Empire
+- S065 — First Reckoning
+- S066 — Into the Imperial Heartland
+- S067 — The March That Refuses Empire Logic
+- S068 — Varkesh Taken Alive
+- S069 — Emperor Vaelkor Draeven
+- S070 — The Deepest City
+- S071 — The Reconstituted Entity
+- S072 — No One Is Last Command
+- S073 — Last Command
+
+Historical old post-S050 scene numbers are provenance only. Do not reuse S051–S061 for former Chapter-10/11/12 material because those IDs now belong to The Last Blank.
+
+The three mandatory late-Chapter-12 Synthesis-resolution beats do not yet have standalone S### IDs and are not silently assigned new ones by the reindex.
 
 ## Current late-game operational sources
 
@@ -124,6 +156,6 @@ Current presentation consequences remain:
 
 A bounded implementation correction may update stable IDs, Resource metadata, internal labels, cue support, triggers, maps, presentation assets, battle-background consumers, or other runtime plumbing without reopening approved wording, scene purpose, relationships, geography, knowledge firewalls, party-state changes, or outcomes.
 
-Historical audit version numbers and old acceptance IDs remain useful provenance, but **current chapter folders and current chapter numbers control implementation**.
+Historical audit version numbers and old acceptance IDs remain useful provenance, but **current chapter folders, current chapter numbers, and current scene IDs control implementation**.
 
-For late-game work, never use the pre-insertion `chapter_11 = Forward Hub/Vaelkor` or `chapter_12 = final domain` arrangement.
+For late-game work, never use the pre-insertion `chapter_11 = Forward Hub/Vaelkor`, `chapter_12 = final domain`, or pre-insertion post-S050 scene-number arrangement as current authority.
