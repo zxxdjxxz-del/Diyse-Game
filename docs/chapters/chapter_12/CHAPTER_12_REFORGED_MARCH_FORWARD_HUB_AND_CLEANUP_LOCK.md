@@ -3,7 +3,7 @@
 **Status:** ACCEPTED / LOCKED  
 **Scope:** current Chapter-12 Black Host campaign, Vhalmarch Forward Hub, Vaelkor aftermath, cleanup window  
 **Original pre-insertion acceptance:** CH11-A001 / CH11-A002 under Audit84/Audit89  
-**Current reconciliation:** Audit107 / Audit109 / Audit111 / Audit113
+**Current reconciliation:** Audit107 / Audit109 / Audit111 / Audit113 plus `POST_INSERTION_SCENE_ID_REINDEX_CORRECTION_2026-08-23.md`
 
 This file is the current-facing projection of the former Chapter-11 campaign material after insertion of Chapter 10 — The Last Blank.
 
@@ -129,7 +129,21 @@ Current rule:
 
 Do not restore old wording that calls the deliberate Chapter-12/13 launch the true final PONR.
 
-## 9. Late Synthesis timing
+## 9. Current scene-ID skeleton
+
+Chapter 9 ends at **S050** and inserted Chapter 10 occupies **S051–S061**. The retained former-Chapter-11 macro scenes therefore shift forward by +11:
+
+- **S066 — Into the Imperial Heartland** — formerly S055; supersedes older title `Into the Heartland`.
+- **S067 — The March That Refuses Empire Logic** — formerly S056.
+- **S068 — Varkesh Taken Alive** — formerly S057.
+- **S069 — Emperor Vaelkor Draeven** — formerly S058.
+
+These are the current macro story-scene IDs for the inherited four-scene Chapter-12 skeleton. Exact dialogue and internal subdivision remain later production work.
+
+Controlling scene-number overlay:
+`docs/canon/POST_INSERTION_SCENE_ID_REINDEX_CORRECTION_2026-08-23.md`
+
+## 10. Late Synthesis timing
 
 The three mandatory reciprocal-pair resolution beats now occur in **late Chapter 12**:
 
@@ -139,13 +153,16 @@ The three mandatory reciprocal-pair resolution beats now occur in **late Chapter
 
 They remain item-reward-free authored story gates for Synthesis.
 
-## 10. Production boundary
+They were not previously assigned standalone `S###` IDs. This file does not fabricate separate scene numbers for them. Until detailed production explicitly promotes any of them into separate mandatory scene records, they remain authored late-Chapter-12 beats within the existing structure and do not shift S066–S069 or Chapter-13 numbering.
+
+## 11. Production boundary
 
 This lock reindexes and reconciles accepted campaign structure. It does not freeze:
-- exact scene IDs/dialogue;
+- line-complete dialogue;
 - final Elite proper name;
 - exact enemy stats/formations;
 - item/EXP/CEXP/economy rewards;
-- final HD-2D staging.
+- final HD-2D staging;
+- whether later detailed production subdivides a macro scene into additional authored records through explicit change control.
 
-Those remain later production work under current canon.
+The current retained macro scene IDs **S066–S069** are controlling unless later explicitly revised. Any later insertion of a new standalone mandatory `S###` scene must also reindex every downstream current scene ID so the global sequence remains unique and chronological.
