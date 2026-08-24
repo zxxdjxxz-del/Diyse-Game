@@ -4,8 +4,8 @@ This is an implementation-facing summary. It does **not** replace the authoritat
 
 ## Current whole-project authority
 
-**Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.98 / Audit113 — Post-Insertion Chapter Reindex and Late-Game Operational File Reconciliation Lock**  
-**Date:** August 23, 2026
+**Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.99 / Audit114 — Prime, Combat Element / Status, and Base-Class Normalization Lock**  
+**Date:** August 24, 2026
 
 Immediate forward chain:
 - **v1.84 / Audit99** — Random-Encounter Runtime Implementation and Production-Readiness Closure.
@@ -23,6 +23,10 @@ Immediate forward chain:
 - **v1.96 / Audit111** — Final World Map, Region Terminology, and Visual Authority Closure.
 - **v1.97 / Audit112** — Chapter 10: The Last Blank — Mirena, Eastern Wayfinder, Calder, and Buried Registry Closure.
 - **v1.98 / Audit113** — Post-Insertion Chapter Reindex and Late-Game Operational File Reconciliation Lock.
+- **v1.99 / Audit114** — Prime, Combat Element / Status, and Base-Class Normalization Lock.
+
+Current combat / Prime / element / status authority:
+`docs/canon/AUDIT114_PRIME_COMBAT_ELEMENT_STATUS_AND_BASE_CLASS_NORMALIZATION_LOCK.md`
 
 Current reindex authority:
 `docs/canon/AUDIT113_POST_INSERTION_CHAPTER_REINDEX_AND_LATE_GAME_OPERATIONAL_FILE_RECONCILIATION_LOCK.md`
@@ -35,6 +39,205 @@ Current final surface-map / region authority:
 
 Current travel / point-of-no-return authority:
 `docs/canon/AUDIT109_WORLD_MAP_ROAD_TRAVEL_AND_LAST_SHELTER_POINT_OF_NO_RETURN_CLOSURE.md`
+
+---
+
+# Audit114 combat / Prime firewall — controlling
+
+## Prime progression
+
+Exactly **12 Prime Cards** remain: 6 Story Primes + 6 Major-Hunt Primes.
+
+Prime progression is exactly:
+
+> **Recovered → Awakened**
+
+**Awakened is final. Concordant is removed entirely.**
+
+- Recovered: one strong manifestation action in the current ordinary round, then the manifestation ends.
+- Awakened: direct control for exactly **3 Prime rounds**.
+- After a Prime ends: **3 full normal-round cooldown** for that Prime identity.
+- Each Prime identity may be used once per battle **per genuine boss form**.
+- A genuine fresh-HP boss form refreshes Prime use/cooldown state.
+- Story Primes are acquired Recovered and later Awaken through mandatory story milestones.
+- Major-Hunt Primes are obtained already Awakened.
+- No Prime XP, levels, duplicates, upgrade materials, third state, Concordant harmonization, or Concordant duration/HP model remains.
+- Old Concordant-gated commands remain in the final Awakened kit where otherwise compatible.
+
+Story Prime progression:
+- Last Sentinel / Might / Cyanis — acquired Ch4; Awakens Ch5 Deepforge sovereign chamber.
+- Last Cartographer / Acuity / Torren — acquired Ch5; Awakens Ch8 Horizon Vault / western-survey culmination.
+- Last Convergence / Elements / Vaelira — acquired Ch6; Awakens end Ch7 Sixfold Volition culmination.
+- Last Scribe / Change / Nimera — acquired Ch7; Awakens current Ch11 Custodian / truth archive.
+- Last Erasure / Ruin / Seyrik — acquired Ch8; Awakens current Ch12 Reforged March.
+- Last Sanctuary / Grace / Ilyra — acquired Ch9; Awakens Ch9 Mercy Is Not Surrender.
+
+Major-Hunt Prime rewards:
+- Ashen Whitehorn → Dawn Shepherd / Grace.
+- Crownless Siege Marshal → Crownless War Engine → Oathbound Colossus / Might.
+- Concordance Guardian → Living Revision / Change.
+- Worldscar Leviathan → Prismatic Leviathan / Elements.
+- Final Archive Arbiter → Parallax Host / Acuity.
+- The Unfinished World / Worldheart → Starfall Engine / Ruin.
+
+## Fixed damage type
+
+Every damaging Ability is authored as exactly one of **Physical / Magical / Hybrid**.
+
+- Do not give ordinary Abilities selectable Physical/Magical expressions.
+- Equipment does not decide an Ability's damage formula.
+- Hybrid is only for deliberately authored dual-axis actions.
+- Element is separate from damage type.
+- Weapon-independent Ability legality remains intact.
+
+## Elements
+
+Exactly four standard elements:
+- **Fire**
+- **Ice**
+- **Lightning**
+- **Earth**
+
+Water and Wind are removed from the current standard element system.
+
+Linked harmful statuses:
+- Fire → Burn
+- Ice → Freeze
+- Lightning → Stun
+- Earth → Staggered
+
+An elemental attack does not automatically inflict its linked status; the action must explicitly carry the rider.
+
+Bleed is non-elemental. Regen is a positive recurring-heal effect.
+
+Exact Weak/Resist damage multipliers, Absorb existence, and standard enemy affinity-profile counts remain open.
+
+## Current universal harmful statuses
+
+Exactly:
+- **Burn**
+- **Freeze**
+- **Stun**
+- **Staggered**
+- **Bleed**
+
+Removed as universal current statuses/systems include Poison, Confusion, Taunt, Sleep, Silence, Blind, Charm, Fear, separate Shock, Banishment, Instant Defeat, Disable, Jam, Overload, and Corrosion.
+
+There is **no global Break/Stagger meter/system**. `Staggered` means only the Earth-linked harmful status. Older Break/Stagger-contribution language is stale and must be replaced in the relevant later Card/Prime/Ability/equipment pass without recreating the meter under another name.
+
+### Burn
+- 3 rounds.
+- Ordinary: 3% target Max HP at end of each affected round.
+- Reapplication refreshes to 3 rounds.
+- No crit; ignores Defense/Spirit; can KO; normal cleanse removes it.
+
+### Freeze
+- Target cannot act while Frozen.
+- First 2 rounds guaranteed.
+- 80% chance to persist into round 3; 80% chance to persist into round 4; max 4 rounds.
+- First successful direct Physical hit removes Freeze after that hit.
+- Magical/non-Physical damage does not break it merely by dealing damage.
+- Cannot refresh while active.
+
+### Stun
+- 3 affected turns.
+- 40% chance to lose the action on each affected turn.
+- Failed roll acts normally.
+- Cannot refresh while active.
+
+### Staggered
+- 3 rounds.
+- Speed −20%.
+- Accuracy/Base Hit −20%.
+- Evasion −20%.
+- Target still acts.
+- Reapplication refreshes; does not stack.
+
+### Bleed
+- Ordinary: 2% target Max HP when the affected unit successfully takes an action.
+- Max one Bleed proc per round.
+- Freeze/Stun-lost actions do not trigger Bleed.
+- Any successful HP heal of at least 1 removes Bleed after the heal resolves.
+- Regen restoring at least 1 HP removes Bleed.
+- No stack; no crit; ignores Defense/Spirit; can KO.
+
+### Regen / lifecycle
+- Regen potency/duration are source-specific.
+- KO clears Burn / Freeze / Stun / Staggered / Bleed / Regen.
+- Battle end clears ordinary temporary combat statuses/effects.
+- A genuine fresh-HP boss form clears ordinary temporary statuses unless explicit carryover is authored.
+
+## Status application
+
+Base authored bands:
+- 10% minor rider
+- 20% standard rider
+- 35% dedicated status/control
+- 50% premium/setup-dependent
+- above 50% uncommon and explicitly justified
+
+Matching element/status affinity modifier:
+- Weak: +10 percentage points
+- Neutral: 0
+- Resist: −10 percentage points
+- Immune: linked status cannot apply from that elemental hit
+
+Vaelira herself receives +5 percentage points on qualifying Ability applications when her Ability element matches the linked status. This does not automatically apply to Cards, Primes, Items, other characters, or mismatched pairs.
+
+Status Resistance scale:
+- Normal 0
+- Resistant 5
+- Highly Resistant 10
+- Exceptional 15
+- Immune explicit
+
+Ordinary chance formula:
+
+> Base + element modifier + Vaelira bonus − Status Resistance
+
+Clamp legal ordinary chance applications to 5%–95% except explicit immunity/guarantee/script.
+
+High-rank effect conversion:
+- Ordinary: full.
+- Elite: full by default absent explicit thematic immunity.
+- Regional Hunt: Freeze max 2 rounds; Stun 25% action-loss chance; Staggered full where legal; Burn/Bleed at 75% ordinary damage.
+- Major Hunt / mandatory boss: Freeze max 1 round; Stun 20% action-loss chance; Staggered full where legal; Burn/Bleed at 50% ordinary damage.
+
+High-rank effect scaling is separate from application chance; do not blanket-immune bosses just to reduce status power.
+
+Remedy grouping:
+- Injury group = Burn + Bleed.
+- Control group = Freeze + Stun + Staggered.
+- final display names remain open.
+- remedies do not remove stat changes, Fields, Guard/Barrier, Hunter's Measure, Imprints, Prepared, or protected/scripted states.
+
+---
+
+# Cyanis / Ilyra Base normalization — controlling
+
+## Cyanis — Crest Knight
+
+Current Base Ability map for the formula / element / status pass:
+- CL1 **Crest Strike** — Physical / Neutral / one enemy / no status.
+- CL1 **Crest Reprisal** — replaces Guardian Sigil; self-Prepared automatic intercept of the next eligible single-target hostile attack aimed at another active party member, then powerful Physical / Neutral counter; no ally target selection; no status.
+- CL1 **Resonant Pulse** — replaces Harmonizing Ward; Magical / Colorless / one enemy / no status.
+- CL3 **Sweeping Edge** — replaces Resolute Counter; Physical / Neutral / all enemies / **10% Bleed per target**.
+- CL6 **Twin Advance** — replaces Crest Rush; Physical / Neutral / one enemy / exactly 2 hits / no status; no defensive rider or alternate magical route.
+- CL9 **Crest Rend** — Hybrid / Neutral / one enemy / **35% Bleed**; old Vulnerability rider removed; exact Hybrid weighting / penetration resolution deferred.
+- CL13 **Crest of Companions** — Magical / Colorless enemy damage / no harmful-status rider; preserve compatible established party cleanse/support component.
+
+**Harmonized Crest Trait is not redesigned by Audit114.**
+
+## Ilyra — Blue Warden
+
+- **Mend** — healing only; no element; healing uses Magic, not Spirit.
+- **Clear Warding** — no element; removes one eligible ordinary harmful status; current cleanse set Burn / Freeze / Stun / Staggered / Bleed; Status Resistance Up remains a stat change.
+- **Renewal** — party healing; no element; healing uses Magic; no automatic Regen added.
+- **Warden's Valor** — supersedes the old ally basic-Attack two-strike modification; now Magical / Colorless / one enemy / Magic-scaled / no heal rider / no status rider.
+- **Revive** — no element; redundant explicit Bleed-clear text removed because KO already clears temporary ordinary statuses.
+- **Lifeline** — Prepared survival effect; no element; recovery uses Magic; Prepared is not an ordinary status ailment.
+- **Gentle Continuance** — excess-healing Regen is now **4% Max HP per round for 4 rounds**; compatible established other Trait behavior remains.
+- **Dawn Without End** — Magical / Colorless enemy damage; healing uses Magic; cleanses all eligible ordinary harmful statuses; Poison wording removed; applies **5% Max HP Regen for 3 rounds**; preserve compatible established revive/heal/AoE structure.
 
 ---
 
@@ -242,7 +445,7 @@ The interaction remains authored restoration/completion, not crafting.
 
 # Equipment / item architecture
 
-Audit106 remains controlling where later audits do not alter chapter labels.
+Audit106 remains controlling where later audits do not alter chapter labels or Audit114 status/remedy rules.
 
 Current practical counts:
 - Consumables: **20**
@@ -276,16 +479,24 @@ Target full-game runtime remains approximately **25 hours**, subject to revalida
 
 ---
 
-# Open work after Audit113
+# Open work after Audit114
 
-1. Detailed Chapter-11 Crown Engine scene production when explicitly resumed.
-2. Exact Chapter-10 dialogue / final scene IDs if moving from macro structure into line production.
-3. Separate item/progression pass for Chapter-10 rewards, late-game EXP/CEXP, Level-70 curve, enemy stats, equipment stats, and economy.
-4. Reference-safe runtime/dialogue stale-term cleanup where implementation identifiers or authored text still use retired geography terms.
-5. Exact Chapter-5 Deepforge survey scene and Chapter-8 Westguard survey scene where not yet physically staged.
-6. Exact chronology/age span of Calder's older source decrees/custody precedents where still open.
-7. Exact Sixfold Volition dialogue scene at end of Chapter 7 if not yet line-produced.
-8. Late-game detailed scene numbering and HD-2D production for Chapters 11–13.
-9. Full implementation/data regression after the post-insertion chapter-path reindex.
+1. Continue the Base-class formula / element / status pass with **Torren → Nimera → Vaelira → Seyrik**.
+2. Run the same normalization across all six Subclasses.
+3. Normalize all **24 Standard Cards** against the four-element / current-status / no-global-Break model.
+4. Normalize all **12 Prime Cards** against the same element/status model and Recovered→Awakened progression.
+5. Reconcile enemy, Regional Hunt, Major Hunt, and mandatory-boss Ability/status references.
+6. Lock exact elemental Weak/Resist damage multipliers and decide whether Absorb exists.
+7. Lock enemy affinity-profile construction rules.
+8. Complete exact Ability MP/Power, Hybrid weighting/defense resolution, Level-70 curve placement, enemy stats, equipment stats, and economy/drop work in their dedicated passes.
+9. Sweep implementation-facing combat/class/Card/Prime files and tests for Audit114-invalid terminology/assumptions.
+10. Detailed Chapter-11 Crown Engine scene production when explicitly resumed.
+11. Exact Chapter-10 dialogue / final scene IDs if moving from macro structure into line production.
+12. Reference-safe runtime/dialogue stale-term cleanup where implementation identifiers or authored text still use retired geography terms.
+13. Exact Chapter-5 Deepforge survey scene and Chapter-8 Westguard survey scene where not yet physically staged.
+14. Exact chronology/age span of Calder's older source decrees/custody precedents where still open.
+15. Exact Sixfold Volition dialogue scene at end of Chapter 7 if not yet line-produced.
+16. Late-game detailed scene numbering and HD-2D production for Chapters 11–13.
+17. Full implementation/data regression after the post-insertion chapter-path reindex and Audit114 combat cleanup.
 
-Omission from this summary does not erase compatible older canon. **Audit113, Audit112, Audit111, Audit109, Audit107, Audit106, Audit105, Audit104, Audit103, compatible prior canon, exact visual authorities, and newer explicit user corrections control conflicts.**
+Omission from this summary does not erase compatible older canon. **Audit114, Audit113, Audit112, Audit111, Audit109, Audit107, Audit106, Audit105, Audit104, Audit103, compatible prior canon, exact visual authorities, and newer explicit user corrections control conflicts.**
