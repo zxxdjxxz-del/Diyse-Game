@@ -20,14 +20,15 @@ If a task conflicts with these files or a newer explicit user instruction, stop 
 
 ## Current authority state
 
-- Whole-project written authority: **Diyse v2.06 / Audit121**.
+- Whole-project written authority: **Diyse v2.07 / Audit122**.
+- Current Base Hit/Evasion + Bleed runtime authority: `docs/canon/AUDIT122_BASE_HIT_EVASION_AND_BLEED_RUNTIME_LOCK.md`.
 - Current systems/item/equipment/progression reconciliation: `docs/canon/AUDIT121_CURRENT_SYSTEMS_ITEM_EQUIPMENT_AND_PROGRESSION_RECONCILIATION_LOCK.md`.
-- Current Critical/direct-damage authority: `docs/canon/AUDIT120_CRITICAL_HIT_AND_DIRECT_DAMAGE_FORMULA_LOCK.md` where compatible with Audit121.
+- Current Critical/direct-damage authority: `docs/canon/AUDIT120_CRITICAL_HIT_AND_DIRECT_DAMAGE_FORMULA_LOCK.md` where compatible with Audit121/Audit122.
 - Compatible combat/resource/Prime/progression authority: `docs/canon/AUDIT119_POST_AUDIT116_COMBAT_RESOURCE_PRIME_AND_PROGRESSION_RECONCILIATION_LOCK.md`.
 - Exact ordinary/compatible Relic/Forge numerical catalog: `docs/canon/AUDIT118_COMPLETE_EQUIPMENT_TRACKER_DELTA_PROMOTION_AND_NUMERICAL_CATALOG_LOCK.md`.
 - Equipment/Legacy/class-access structure: `docs/canon/AUDIT117_ITEM_EQUIPMENT_LEGACY_AND_CLASS_PROGRESSION_RECONCILIATION_LOCK.md` where compatible.
 - Compatible Card/Prime command authority: `docs/canon/AUDIT116_STANDARD_CARD_PRIME_RESOURCE_AND_COMMAND_RECONCILIATION_LOCK.md`.
-- Compatible status/element/Ruin/class-Ability authority: `docs/canon/AUDIT115_COMBAT_RUIN_STATUS_AND_FULL_CLASS_ABILITY_NORMALIZATION_LOCK.md`.
+- Compatible status/element/Ruin/class-Ability authority: `docs/canon/AUDIT115_COMBAT_RUIN_STATUS_AND_FULL_CLASS_ABILITY_NORMALIZATION_LOCK.md` where compatible with Audit122 Bleed.
 - Current chapter-number reconciliation: `docs/canon/AUDIT113_POST_INSERTION_CHAPTER_REINDEX_AND_LATE_GAME_OPERATIONAL_FILE_RECONCILIATION_LOCK.md`.
 - Current world-map / region authority remains the compatible Audit111 chain plus Audit121 place-name corrections.
 - Chapters 0–4 remain COMPLETE/CLOSED at story/dialogue authority level; Audit121 controls the Chapter-4 four-element mechanical reconciliation.
@@ -37,7 +38,7 @@ Historical audit filenames and trackers remain provenance, not automatic current
 
 ---
 
-## Current combat firewall — Audit121 / Audit120
+## Current combat firewall — Audit122 / Audit121 / Audit120
 
 ### Direct damage / Critical Hits
 
@@ -85,6 +86,22 @@ Use **Base Hit**, never `Accuracy`, as the current hit-stat term.
 - There is **no global Break/Stagger meter**.
 - **Staggered** is only an ordinary harmful status where authored.
 - **Guard** remains valid.
+
+### Base Hit / Evasion — Audit122
+
+There is no natural Accuracy stat.
+
+> **AdjustedBaseHit = round(ActionBaseHit × BaseHitPercentModifiers) + FlatBaseHitModifiers**
+
+> **EffectiveEvasion = round(BaseEvasion × EvasionPercentModifiers) + FlatEvasionModifiers**
+
+> **FinalHitChance = clamp(AdjustedBaseHit - EffectiveEvasion, 5, 100)**
+
+Normal authoring: ~100 standard, 90–95 heavy, 105–115 precision, exceptional up to ~120. Hit/Evasion, Critical, and harmful-status application are separate.
+
+### Bleed — Audit122
+
+Bleed damages each round and again when the affected character acts. The old one-proc-per-round rule is superseded. Bleed clears only on full-HP restoration, an eligible harmful-status clear, or an eligible item. Partial healing/Regen does not clear it unless full HP is reached or a valid status clear is explicitly included.
 
 ### Standard Cards
 
