@@ -1,8 +1,7 @@
-# Diyse — CL13 Mastery / Relic / Legacy Working Model
+# Diyse — CL13 Mastery / Relic / Legacy Model
 
-**Status:** ACTIVE WORKING DESIGN — 8-NODE ARCHITECTURE LOCKED / EXACT POINT TIMING OPEN  
-**Current whole-project authority:** **v2.07 / Audit122**  
-**Progression direction:** **Audit121**
+**Status:** **CURRENT MODEL — 8-NODE ARCHITECTURE AND POINT TIMING LOCKED UNDER AUDIT123**  
+**Current whole-project authority:** **v2.08 / Audit123**
 
 ---
 
@@ -15,48 +14,34 @@ Each permanent character has exactly:
 
 Synthesis is removed.
 
-Each purchased node costs **1 Mastery Point** unless a later audit explicitly changes the economy.
+Each purchased node costs **1 Mastery Point**.
 
 Mastery eligibility and Mastery Point ownership are separate. Reaching a Class Level makes a node eligible; the player must still spend a point to purchase it.
 
 ---
 
-# 2. Mastery Point economy
+# 2. Exact Mastery Point economy
 
-The old 9-point schedule existed for:
-- 4 Core nodes
-- 4 Subclass nodes
-- 1 Synthesis node
+Exactly **8 automatic Mastery Points** are awarded:
 
-Synthesis is gone.
+1. **Player Lv5**
+2. **Player Lv10**
+3. **Player Lv15**
+4. **Player Lv20**
+5. **Sixfold Volition**
+6. **Player Lv40**
+7. **Player Lv50**
+8. **Player Lv60**
 
-Current hard direction:
+No ninth point. No Lv70 surplus point. No Synthesis point.
 
-> **Exactly 8 total Mastery Points should fund exactly 8 active Mastery nodes.**
+Unspent points may be banked.
 
-Do not preserve or invent a ninth mandatory point simply to mirror the retired architecture.
-
-The **exact grant schedule remains OPEN** and must close inside the CEXP/player-progression redo.
-
-Current simulation-only candidate:
-- Lv5
-- Lv10
-- Lv15
-- Lv20
-- Sixfold Volition
-- Lv40
-- Lv50
-- Lv60
-
-This table is **not final implementation canon**.
-
-Current pacing target: the final Mastery Point should arrive shortly before the normal full-class-completion window around **player Lv62**.
+The Lv60 point does **not** define CL13 completion. Class Levels are intended to finish earlier, during Chapter 12. The Lv60 point completes the final Mastery-board layer around Last Shelter.
 
 ---
 
 # 3. Core Mastery eligibility
-
-Current Core gates:
 
 | Core node | Base-Class eligibility gate |
 |---:|---:|
@@ -69,13 +54,11 @@ Each costs 1 Mastery Point.
 
 A character's native Legacy project requires all four Core Masteries under current Legacy canon.
 
-The old CL3 / CL5 / CL7 / CL9 Core-gate table is superseded.
-
 ---
 
 # 4. Subclass Mastery eligibility
 
-| Subclass node | Eligibility | Current function |
+| Subclass node | Eligibility | Function |
 |---:|---:|---|
 | Subclass 1 | **Subclass CL3** | first donor-derived refinement |
 | Subclass 2 | **Subclass CL5** | second refinement |
@@ -84,7 +67,7 @@ The old CL3 / CL5 / CL7 / CL9 Core-gate table is superseded.
 
 Each costs 1 Mastery Point.
 
-Reaching CL7 or CL11 does **not** itself grant the donor permission; the relevant node must be purchased.
+Reaching CL7 or CL11 does not itself grant donor permission; the relevant node must be purchased.
 
 ---
 
@@ -113,7 +96,7 @@ A character's own native Legacy:
 - does not require donor Legacy Mastery;
 - does not require Subclass CL13 merely because donor access uses Subclass Masteries.
 
-Current native completion retains its established Base CL13 / four Core Masteries / Character Quest / unique Legacy Component / precursor / Gate A / Gate B / Kessara project requirements unless separately revised.
+Current native completion retains its established Base CL13 / four Core Masteries / Character Quest / Legacy Component / precursor / Gate A / Gate B / Kessara project requirements unless separately revised.
 
 Subclass Mastery 3 and 4 govern **cross-character donor equipment permission only**.
 
@@ -135,29 +118,29 @@ Subclass Mastery 3 and 4 govern **cross-character donor equipment permission onl
 
 ---
 
-# 8. Remaining open work
+# 8. Progression relationship
 
-1. exact 8-point grant schedule;
-2. full CEXP timing for Base/Subclass CL milestones;
-3. donor Relic/Legacy access timing under a normal route;
-4. final synchronization with player-level progression targeting class completion around Lv62;
-5. UI naming/presentation for Mastery 3/4 if display labels are later revised.
+Current intended late-game sequence:
+- full Base + Subclass Class-Level completion during Ch12 / roughly Lv53–57;
+- final Mastery Point at **Lv60**, around Last Shelter;
+- normal campaign ending around **Lv62**;
+- Lv62–70 remains optional/completionist headroom.
 
-The current Ability MP check is also open but does not change the eight-node architecture by itself.
+A player may bank points and purchase eligible nodes in a different order. The grant schedule controls total point supply; Class-Level gates control node eligibility.
 
 ---
 
-# 9. Current hard decisions
+# 9. Closed decisions
 
 - Base cap = CL13.
 - Subclass cap = CL13.
-- Active Mastery count = **8**.
+- active Mastery count = 8.
 - 4 Core + 4 Subclass.
 - no Synthesis node.
-- Core gates = **CL3 / 6 / 9 / 12**.
-- Subclass gates = **CL3 / 5 / 7 / 11**.
+- Core gates = CL3 / 6 / 9 / 12.
+- Subclass gates = CL3 / 5 / 7 / 11.
+- exact automatic point grants = Lv5 / 10 / 15 / 20 / Volition / 40 / 50 / 60.
 - Subclass Mastery 3 purchase grants donor Relic access.
 - Subclass Mastery 4 purchase grants donor Legacy access.
-- donor access equips an already-obtained original item.
+- donor access equips the original obtained item.
 - native Legacy completion is separate from donor-access Masteries.
-- exact point-grant timing remains open until the CEXP/progression redo.
