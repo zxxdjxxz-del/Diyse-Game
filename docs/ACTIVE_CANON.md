@@ -4,7 +4,7 @@ This file is an implementation-facing authority index and compact guardrail summ
 
 ## Current whole-project authority
 
-**Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.02 / Audit117 — Item, Equipment, Legacy, and Class-Progression Reconciliation Lock**  
+**Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.03 / Audit118 — Complete Equipment-Tracker Delta Promotion and Numerical Catalog Lock**  
 **Date:** August 26, 2026
 
 Current newest authority chain:
@@ -21,10 +21,12 @@ Current newest authority chain:
 - **v2.00 / Audit115** — Combat, Ruin, Status, and Full Class Ability Normalization Lock.
 - **v2.01 / Audit116** — Standard Card, Prime Resource, and Prime Command Reconciliation Lock.
 - **v2.02 / Audit117** — Item, Equipment, Legacy, and Class-Progression Reconciliation Lock.
+- **v2.03 / Audit118** — Complete Equipment-Tracker Delta Promotion and Numerical Catalog Lock.
 
 Current domain pointers:
 
-- **Current item/equipment/Relic/Legacy/Forge/Subclass-access authority:** `docs/canon/AUDIT117_ITEM_EQUIPMENT_LEGACY_AND_CLASS_PROGRESSION_RECONCILIATION_LOCK.md`
+- **Exact ordinary-equipment / Relic / Legacy-Trait / Forge-source authority:** `docs/canon/AUDIT118_COMPLETE_EQUIPMENT_TRACKER_DELTA_PROMOTION_AND_NUMERICAL_CATALOG_LOCK.md`
+- Compatible structural equipment / Synthesis-removal / donor-access authority: `docs/canon/AUDIT117_ITEM_EQUIPMENT_LEGACY_AND_CLASS_PROGRESSION_RECONCILIATION_LOCK.md`
 - Card / Prime economy + command authority: `docs/canon/AUDIT116_STANDARD_CARD_PRIME_RESOURCE_AND_COMMAND_RECONCILIATION_LOCK.md`
 - Global combat / Ruin / status / full class Ability authority: `docs/canon/AUDIT115_COMBAT_RUIN_STATUS_AND_FULL_CLASS_ABILITY_NORMALIZATION_LOCK.md`
 - Compatible Prime acquisition/progression/timing baseline: `docs/canon/AUDIT114_PRIME_COMBAT_ELEMENT_STATUS_AND_BASE_CLASS_NORMALIZATION_LOCK.md`
@@ -32,18 +34,18 @@ Current domain pointers:
 - Chapter 10 story authority: `docs/canon/AUDIT112_CHAPTER_10_THE_LAST_BLANK_MIRENA_EASTERN_WAYFINDER_CALDER_AND_BURIED_REGISTRY_CLOSURE.md`
 - Final surface-map / region authority: `docs/canon/AUDIT111_FINAL_WORLD_MAP_REGION_TERMINOLOGY_AND_VISUAL_AUTHORITY_CLOSURE.md`
 - Travel / point-of-no-return authority: `docs/canon/AUDIT109_WORLD_MAP_ROAD_TRAVEL_AND_LAST_SHELTER_POINT_OF_NO_RETURN_CLOSURE.md`
-- Compatible older item/equipment/economy baseline: `docs/canon/AUDIT106_ITEM_EQUIPMENT_CATALOG_ECONOMY_AND_AUDIT104_105_RECONCILIATION_LOCK.md`
 
 ---
 
 # Conflict order for current work
 
-1. **Audit117** controls equipment, Relics, Legacies, Forge components, donor equipment access, and the Subclass milestones explicitly changed there.
-2. **Audit116** controls Standard-Card distribution/effects/MP, Prime Invocation MP, and promoted Prime command packages.
-3. **Audit115** controls global damage/status/element/Ruin/class-Ability rules.
-4. **Audit114** controls compatible Prime acquisition/progression/timing not changed by Audit116.
-5. **Audit113** controls current chapter labels after the Chapter-10 insertion.
-6. Compatible older domain locks remain active.
+1. **Audit118** controls the exact ordinary-equipment catalog/stats/sources, ordinary relative backfill values, surviving Relic catalog/stats/Traits/placements, settled Legacy Traits/projects, and Forge role/source matrix explicitly promoted there.
+2. **Audit117** controls compatible equipment counts, Synthesis removal, donor equipment access, CL13 class structure, and Legacy/Forge architecture not replaced by Audit118.
+3. **Audit116** controls Standard-Card distribution/effects/MP, Prime Invocation MP, and promoted Prime command packages.
+4. **Audit115** controls global damage/status/element/Ruin/class-Ability rules.
+5. **Audit114** controls compatible Prime acquisition/progression/timing not changed by Audit116.
+6. **Audit113** controls current chapter labels after the Chapter-10 insertion.
+7. Compatible older domain locks remain active.
 
 The historical cumulative item/equipment/Card tracker is design history, not authority by itself.
 
@@ -248,7 +250,7 @@ Prime commands are a separate command class. Audit116's individually authored Pr
 
 ---
 
-# Current classes / equipment identity guardrail — Audit117
+# Current classes / equipment identity guardrail — Audit117/118
 
 Permanent six:
 
@@ -268,10 +270,10 @@ Current Subclass milestones:
 - CL4 — new Subclass ability
 - CL5 — Subclass Mastery 2 eligibility + donor Secondary where applicable
 - CL6 — Trait II
-- CL7 — Subclass Mastery 3 eligibility + new ability + **donor Relic access**
+- CL7 — new ability + **Subclass Mastery 3 / donor Relic permission when purchased**
 - CL9 — new ability
 - CL10 — **new ability**
-- CL11 — **Subclass Mastery 4 eligibility + donor Legacy access**
+- CL11 — **Subclass Mastery 4 / donor Legacy permission when purchased**
 - CL12 — Trait III
 - CL13 — Subclass Ultimate + cap
 
@@ -289,7 +291,7 @@ Important slot rules:
 
 ---
 
-# Current equipment / Relic / Legacy guardrail — Audit117
+# Current equipment / Relic / Legacy guardrail — Audit118 exact delta
 
 Current active equipment count is **91**:
 
@@ -297,12 +299,23 @@ Current active equipment count is **91**:
 - **36 Relics**
 - **17 native Legacies**
 
+Audit118 is the exact catalog authority for:
+
+- all **38 ordinary raw-stat lines**;
+- ordinary Ch2–8 first-acquisition/source map, including High Warden Mail's guaranteed Ch5 Deepforge Warden reserve source;
+- Cresthaven ordinary backfill registration rules and Field-Salve-relative purchase/replacement values;
+- all **36 surviving Relic raw-stat packages**;
+- all **36 surviving Relic Trait definitions**;
+- all **36 Relic Ch6–12 first-acquisition placements**;
+- all current native-Legacy Trait definitions, including Nimera's corrected **New Plan** branch;
+- the exact **30 Forge Component role/source matrix**.
+
 All 12 Subclass Relics are removed. The six separate shared-Legacy artifacts are removed.
 
 Linked donor access uses the **existing obtained item**, not a duplicate shared artifact:
 
-- Subclass CL7 → linked donor's obtained Relics
-- Subclass CL11 → linked donor's obtained native Legacies
+- purchased Subclass Mastery 3 at CL7 → linked donor's obtained Relics
+- purchased Subclass Mastery 4 at CL11 → linked donor's obtained native Legacies
 
 Native owners never need donor permission for their own equipment.
 
@@ -325,21 +338,25 @@ Forge economy:
 - 2 Legacy-gate-specific per Face / 12 total
 - 3 Relic-copy-specific per Face / 18 total
 - Legacy-gate and Relic-copy variants are non-interchangeable
+- mandatory Gate materials do not require Hunts or sidequests
 
 Relic-copy forging:
 
 - original Relic must already be obtained;
 - one matching-Face copy component creates one identical extra copy;
 - max quantity per Relic = 2;
+- max three duplicated Relics per Face across the finite copy-material pool;
 - Legacies remain unique.
 
 Equipment power hierarchy:
 
 > **Ordinary < Relic < Legacy**
 
-Legacies should generally sit modestly above Relics in broad raw power and may carry explicit capstone perks such as **Max HP, Max MP, Accuracy, and Evasion**. Exact 17-piece Legacy numerical values/perk assignments remain pending approval and are not yet master-canon numbers.
+Legacies should generally sit modestly above Relics in broad raw power and may carry explicit capstone perks such as **Max HP, Max MP, Accuracy, and Evasion**.
 
-Final Relic / Legacy / Legacy-Component names remain deferred until dialogue is substantially more complete.
+**The exact v600 17-piece Legacy raw-stat/perk table remains pending user approval and is not master-canon numerical authority.**
+
+Final Relic / Legacy / Legacy-Component / Forge-variant names remain deferred until dialogue is substantially more complete.
 
 ---
 
@@ -380,18 +397,19 @@ Surface macro geography is closed unless explicitly reopened.
 
 ---
 
-# Open production / balance frontier after Audit117
+# Open production / balance frontier after Audit118
 
 Immediate unresolved / deferred items include:
 
-1. Approve or revise the exact **17-Legacy raw-stat + HP/MP/Accuracy/Evasion perk package**; Audit117 promotes only the tier direction, not the pending numbers.
+1. Approve or revise the exact **17-Legacy raw-stat + HP/MP/Accuracy/Evasion perk package** from working v600.
 2. Resolve the global **Accuracy vs Evasion** hit-resolution formula.
 3. Resolve the universal **Critical-hit multiplier / resolution order** where still open.
-4. Revalidate the **Level-70 EXP / expected chapter-level scaffold**, natural character growth, enemy/boss progression, and current Ch1–13 encounter calibration in the dedicated progression pass.
-5. Resolve exact Prismatic Deluge Power / Prime resistance values and the four still-open Standard-Card acquisition homes under Audit116 where applicable.
-6. Finalize remaining Forge-component / Legacy-precursor presentation details and Kessara Relic-copy service implementation/economy details.
-7. Complete remaining Consumable/shop/economy reconciliation and final currency denomination.
-8. Keep final Relic / Legacy / Legacy-Component naming deferred until dialogue is substantially more complete.
-9. Implement and regression-test promoted Card/Prime/equipment/progression data.
+4. Reconcile the **Mastery Point grant total** now that Synthesis removal leaves 8 active Mastery nodes rather than 9.
+5. Revalidate the **Level-70 EXP / expected chapter-level scaffold**, natural character growth, enemy/boss progression, and current Ch1–13 encounter calibration in the dedicated progression pass.
+6. Resolve exact Prismatic Deluge Power / Prime resistance values and the four still-open Standard-Card acquisition homes under Audit116 where applicable.
+7. Finalize remaining Forge-component / Legacy-precursor **physical presentation** details and Kessara Relic-copy service implementation/economy details; Audit118 already fixes their closed source roles/timing.
+8. Complete remaining Consumable/shop/economy reconciliation and final currency denomination. The v580 liquid-income bands remain provisional.
+9. Keep final Relic / Legacy / Legacy-Component / Forge-variant naming deferred until dialogue is substantially more complete.
+10. Implement and regression-test promoted Card/Prime/equipment/progression data.
 
-Omission from this summary does not erase compatible older canon. **Audit117, Audit116, Audit115, Audit114, Audit113, Audit112, Audit111, Audit109, Audit107, Audit106, Audit105, Audit104, Audit103, compatible prior canon, exact visual authorities, and newer explicit user-approved corrections control conflicts.**
+Omission from this summary does not erase compatible older canon. **Audit118, Audit117, Audit116, Audit115, Audit114, Audit113, Audit112, Audit111, Audit109, Audit107, compatible prior canon, exact visual authorities, and newer explicit user-approved corrections control conflicts.**
