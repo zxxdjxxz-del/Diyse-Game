@@ -4,11 +4,12 @@ This file is the implementation-facing authority index and compact guardrail sum
 
 ## Current whole-project authority
 
-**Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.06 / Audit121 — Current Systems, Item/Equipment, and Progression Reconciliation Lock**  
+**Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.07 / Audit122 — Base Hit, Evasion, and Bleed Runtime Lock**  
 **Date:** August 27, 2026
 
 Current newest authority chain:
 
+- **v2.07 / Audit122** — controlling Base Hit/Evasion resolver and current Bleed timing/clearing.
 - **v2.06 / Audit121** — current system removals, classes/Faces, final Legacy set, Relic stale-mechanic cleanup, 20-consumable economy/placement, commerce/location terminology, Chapter-4 four-element rework, Prime numeric sync, Lv62 class-completion direction, and current OPEN progression/Ability-MP work.
 - **v2.05 / Audit120** — compatible Physical/Magical/Hybrid direct-damage formula and Critical Hit system.
 - **v2.04 / Audit119** — compatible Card/Prime MP, named resistance, Prime status/scaling, and progression architecture not changed by Audit121.
@@ -20,6 +21,7 @@ Current newest authority chain:
 - compatible older audits remain active where not superseded.
 
 Current domain pointers:
+- `docs/canon/AUDIT122_BASE_HIT_EVASION_AND_BLEED_RUNTIME_LOCK.md`
 - `docs/canon/AUDIT121_CURRENT_SYSTEMS_ITEM_EQUIPMENT_AND_PROGRESSION_RECONCILIATION_LOCK.md`
 - `docs/canon/AUDIT120_CRITICAL_HIT_AND_DIRECT_DAMAGE_FORMULA_LOCK.md`
 - `docs/canon/AUDIT119_POST_AUDIT116_COMBAT_RESOURCE_PRIME_AND_PROGRESSION_RECONCILIATION_LOCK.md`
@@ -33,15 +35,16 @@ Current domain pointers:
 
 # Conflict order for current work
 
-1. **Audit121** controls the domains it explicitly changes.
-2. **Audit120** controls compatible direct-damage and Critical rules.
-3. **Audit119** controls compatible Card/Prime resource/scaling/resistance/progression rules.
-4. **Audit118** controls the compatible exact 38/38 ordinary-equipment catalog and Forge/source data.
-5. **Audit117** controls compatible equipment/Legacy/class-access structure.
-6. **Audit116** controls compatible Card/Prime command identities/effects.
-7. **Audit115** controls compatible status/element/Ruin/class-Ability definitions.
-8. **Audit113** controls current chapter labels.
-9. Compatible older domain locks remain active.
+1. **Audit122** controls Base Hit/Evasion and Bleed runtime.
+2. **Audit121** controls the domains it explicitly changes.
+3. **Audit120** controls compatible direct-damage and Critical rules.
+4. **Audit119** controls compatible Card/Prime resource/scaling/resistance/progression rules.
+5. **Audit118** controls the compatible exact 38/38 ordinary-equipment catalog and Forge/source data.
+6. **Audit117** controls compatible equipment/Legacy/class-access structure.
+7. **Audit116** controls compatible Card/Prime command identities/effects.
+8. **Audit115** controls compatible status/element/Ruin/class-Ability definitions.
+9. **Audit113** controls current chapter labels.
+10. Compatible older domain locks remain active.
 
 Historical cumulative trackers are design history, not authority by themselves.
 
@@ -71,6 +74,20 @@ Hybrid hits resolve authored Physical and Magical components independently, then
 - same-axis penetration cap = **75%**.
 - Basic Attack = 100 Power / Physical / Neutral unless equipment explicitly changes affinity.
 - no universal random damage variance.
+
+## Base Hit / Evasion — Audit122
+
+There is no natural Accuracy stat. For ordinary hit checks:
+
+> **AdjustedBaseHit = round(ActionBaseHit × BaseHitPercentModifiers) + FlatBaseHitModifiers**
+
+> **EffectiveEvasion = round(BaseEvasion × EvasionPercentModifiers) + FlatEvasionModifiers**
+
+> **FinalHitChance = clamp(AdjustedBaseHit - EffectiveEvasion, 5, 100)**
+
+Normal authoring bands: standard ~100 Base Hit; heavy 90–95; precision 105–115; exceptional precision may reach ~120.
+
+Hit/Evasion, Critical Chance, and harmful-status application remain separate resolution layers.
 
 ## Critical Hits
 
@@ -112,6 +129,17 @@ Universal harmful statuses:
 - Bleed
 
 Ruin is a special affinity/school, not a fifth standard element.
+
+## Bleed — Audit122
+
+Bleed deals its authored damage **each round and again when the affected character acts**. The old one-proc-per-round restriction is superseded.
+
+Bleed clears only when:
+- the affected unit is restored to **full HP**;
+- an eligible harmful-status clear removes it;
+- an eligible item removes it.
+
+Partial healing and ordinary Regen do not remove Bleed unless the restoration reaches full HP or the effect explicitly includes a valid status clear.
 
 Named-combat elemental multipliers remain:
 - Weak 125%
