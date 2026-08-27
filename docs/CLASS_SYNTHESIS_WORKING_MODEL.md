@@ -1,281 +1,48 @@
 # Diyse — Class Synthesis Working Model
 
-**Status:** APPROVED UNIVERSAL SYNTHESIS ARCHITECTURE — ALL THREE RECIPROCAL PAIRS APPROVED — FINAL CROSS-BALANCE PASS COMPLETE  
-**Parent authority:** v1.84 / Audit99 plus newer approved class-rework decisions.  
-**Related files:** `docs/CLASS_MASTERY_WORKING_MODEL.md`, `docs/CLASS_REWORK_CROSS_BALANCE_AUDIT_2026-08-21.md`, `docs/CLASS_REWORK_CURRENT_UPDATE_2026-08-21.md`, `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`, `docs/ILYRA_SEYRIK_SYNTHESIS_WORKING_SPEC.md`, `docs/TORREN_NIMERA_SYNTHESIS_WORKING_SPEC.md`, `docs/CLASS_SYNTHESIS_CROSS_BALANCE_AUDIT_2026-08-21.md`
+**Status:** **RETIRED / SUPERSEDED BY v2.02 / Audit117**  
+**Current authority:** `docs/canon/AUDIT117_ITEM_EQUIPMENT_LEGACY_AND_CLASS_PROGRESSION_RECONCILIATION_LOCK.md`  
+**Date retired:** August 26, 2026
 
-## 1. Purpose
+The Synthesis system described by earlier versions of this file is no longer active canon.
 
-Synthesis is the ninth and final Mastery node for each permanent character. It represents full integration of that character's own Base tradition with the reciprocal partner's learned Subclass tradition.
+Audit117 removes:
 
-Synthesis is **not** a third class, a fusion-class selection, a second equipped Trait, a new resource, or a new universal command.
+- the ninth Synthesis Mastery node;
+- Synthesis Mastery Point cost;
+- Base CL13 + Subclass CL13 Synthesis eligibility;
+- character-specific Synthesis passives/integration effects;
+- Synthesis as the gate for donor Legacy equipment;
+- separate shared-Legacy artifact assumptions tied to Synthesis.
 
-Each permanent character has exactly **one** Synthesis node.
+Current active Mastery structure is:
 
----
+- **4 Core Mastery nodes**
+- **4 Subclass Mastery nodes**
+- **8 active Mastery nodes total**
 
-## 2. Approved eligibility rule
+Current donor exceptional-equipment access is handled directly through Subclass Mastery:
 
-A character may purchase Synthesis only when all of the following are true:
+- **Subclass Mastery 3 becomes eligible at CL7; purchasing it grants donor Relic access.**
+- **Subclass Mastery 4 becomes eligible at CL11; purchasing it grants donor Legacy access.**
 
-1. **Base Class CL13** reached;
-2. **Subclass CL13** reached;
-3. all **four Core Mastery nodes** purchased;
-4. all **four Subclass Mastery nodes** purchased;
-5. that character's required authored **resolution / integration story condition** completed;
-6. **1 unspent Mastery Point** available.
+The receiver equips the linked donor's **already-obtained item**. No separate shared Relic or shared Legacy artifact is created.
 
-Purchasing Synthesis costs exactly **1 MP**.
+A character's own native Legacy completion is separate and requires the Audit117 native project path:
 
-This uses the ninth point in the approved nine-point Mastery economy:
-- 4 Core nodes;
-- 4 Subclass nodes;
-- 1 Synthesis node.
+- Base CL13;
+- all 4 Core Masteries;
+- Character Quest / resolution;
+- unique Character Quest Legacy Component;
+- unique Legacy precursor;
+- Legacy Gate A material;
+- Legacy Gate B material;
+- Kessara project availability.
 
-Banking MP remains legal.
+The old Synthesis design remains historical provenance only. Do not implement it or use it to fill current mechanics.
 
----
+For current class progression use:
 
-## 3. Story-gate rule
-
-The Synthesis story requirement is authored, mandatory-continuity character development — **not a player dialogue choice** and not a romance route.
-
-A reciprocal pair may satisfy its story gate in a shared scene or sequence, but Synthesis eligibility remains **individual**:
-- Cyanis purchases Cyanis's Synthesis node;
-- Vaelira purchases Vaelira's Synthesis node;
-- Ilyra purchases Ilyra's Synthesis node;
-- Seyrik purchases Seyrik's Synthesis node;
-- Torren purchases Torren's Synthesis node;
-- Nimera purchases Nimera's Synthesis node.
-
-Completing a shared pair-resolution scene may satisfy the narrative prerequisite for both characters, but one character purchasing Synthesis does **not** automatically purchase it for the partner.
-
-No Synthesis story gate may be permanently missable because the player picked a wrong dialogue response; Diyse's authored continuity remains intact.
-
----
-
-## 4. Approved mechanical meaning of Synthesis
-
-Each character's Synthesis node grants two things:
-
-### A. Character-specific Synthesis effect
-
-A permanent passive integration rule that bridges the character's Base and Subclass combat identities.
-
-Universal boundaries for those effects:
-- no new personal gauge;
-- no extra ordinary action;
-- no extra equipment slot;
-- no extra Standard Card slot;
-- no automatic second Trait;
-- no simultaneous Base + Subclass stat packages;
-- no universal command-menu expansion;
-- no donor-chain permission beyond the reciprocal partner;
-- no automatic copying of the partner's entire ability kit.
-
-Synthesis rewards using already-earned Base/Subclass tools together rather than creating a third standalone kit.
-
-### B. Paired Legacy eligibility
-
-Purchasing Synthesis unlocks the character's **legal eligibility for the reciprocal partner's Legacy tier** under the final pair-specific Legacy mapping.
-
-Important separation:
-- Synthesis grants **permission / eligibility**;
-- it does not automatically conjure or duplicate a physical Legacy item that has not been acquired through its authored source;
-- final Legacy item acquisition/location remains an equipment/content concern;
-- full Legacy bonuses apply to any legal wearer under the inherited open-equipment rules once the item is both obtained and legally unlocked.
-
-Ordinary donor equipment, Relic access, and Legacy access therefore remain three distinct tiers:
-1. **Subclass CL1–5:** donor ordinary equipment;
-2. **Subclass CL10 + Equipment Mastery:** donor Relic access;
-3. **both classes CL13 + all eight prior Masteries + resolution + Synthesis:** paired Legacy eligibility.
-
----
-
-## 5. Persistence / class-selection rule
-
-Once purchased, Synthesis is a **permanent Mastery unlock** and is not unequipped when the player switches between Base Class and Subclass.
-
-However:
-- current class selection still controls the selected class's **stat package**;
-- current class selection still controls the selected class's **Trait**;
-- Synthesis does not make both Traits active at once;
-- an individual Synthesis effect may reference Base or Subclass abilities, states, Fields, equipment, Cards, or established statuses, but it must obey their ordinary legality and timing;
-- **no Synthesis effect may introduce a weapon requirement for an Ability or Ultimate**, because learned Abilities are globally weapon-independent;
-- a learned Ability retains its **source-class identity** for Synthesis triggers regardless of the class currently selected.
-
----
-
-## 6. Reciprocal-pair design rule
-
-The three reciprocal pairs are:
-- **Cyanis ⇄ Vaelira**
-- **Ilyra ⇄ Seyrik**
-- **Torren ⇄ Nimera**
-
-Each pair receives **two character-specific Synthesis effects**, one for each member.
-
-The two effects rhyme mechanically and thematically but need not be mirrors.
-
-Design targets:
-- Cyanis/Vaelira — Crest discipline ⇄ elemental/arcanist expression;
-- Ilyra/Seyrik — mercy/preservation ⇄ Ruin/survival conversion;
-- Torren/Nimera — route/field judgment ⇄ Measure/evidence precision.
-
----
-
-## 7. Approved Cyanis ⇄ Vaelira Synthesis effects
-
-Detailed authority: `docs/CYANIS_VAELIRA_SYNTHESIS_WORKING_SPEC.md`.
-
-### Cyanis — Unified Crest
-
-**Base → Subclass:** once per round, after Cyanis deliberately selects and resolves a **Crest Knight Ability**, if Crest Attunement is not already active, he gains **Crest Attunement**.
-
-**Subclass → Base:** when Cyanis consumes Crest Attunement with a legal Crest Field or Crest Seal, his next **damaging Crest Knight Ability** before the end of the following round gains **+15% Power**.
-
-Boundaries:
-- Crest Attunement does not stack or refresh itself while already active;
-- one consumption arms one one-use +15% Power bonus;
-- no extra action, second Trait, stat-package merge, or weapon requirement is created.
-
-### Vaelira — Unified Spectrum
-
-When Vaelira uses a **damaging Axiomblade Ability** against an enemy carrying one or more existing Imprints, she may choose one of those Imprint elements as the Ability's element. The Imprint is not consumed.
-
-**Once per round**, when a damaging Axiomblade Ability hits using an element matching an existing Imprint on that target, extend that matching Imprint by **+1 round**, up to its authored maximum duration.
-
-Boundaries:
-- Prism Cycle retains precedence when it already determines the Ability's element;
-- Formal Equivalence remains useful and is not replaced;
-- no automatic Composite Reaction, new Imprint, extra action, or weapon requirement is created.
-
----
-
-## 8. Approved Ilyra ⇄ Seyrik Synthesis effects
-
-Detailed authority: `docs/ILYRA_SEYRIK_SYNTHESIS_WORKING_SPEC.md`.
-
-### Ilyra — Mercy Unbroken
-
-**Blue Warden → Vowblade:** once per round, after Ilyra resolves a **non-Ultimate Blue Warden Ability** that restores HP to another ally or removes at least one ordinary harmful status from another ally, her next **damaging non-Ultimate Vowblade Ability** before the end of the following round gains **+10% Power**.
-
-**Vowblade → Blue Warden:** once per round, when a **Vowblade Ability or Ultimate** restores HP to at least one conscious ally other than Ilyra, her next **non-Ultimate Blue Warden Ability** before the end of the following round costs **3 less MP**, minimum 1 MP.
-
-The effects are one-use and non-stacking. Self-only recovery does not qualify. No healing amount, revival value, target rule, Hybrid formula, or weapon legality is altered.
-
-### Seyrik — Tempered Ruin
-
-**Ruin Vanguard → Ruin Warden:** once per round, after Seyrik resolves a **damaging non-Ultimate Ruin Vanguard Ability**, his next **non-Ultimate Ruin Warden Ability** before the end of the following round costs **3 less MP**, minimum 1 MP.
-
-**Ruin Warden → Ruin Vanguard:** once per round, when a **Ruin Warden Ability or Ultimate** restores HP to at least one ally other than Seyrik, his next **damaging non-Ultimate Ruin Vanguard Ability** before the end of the following round gains **+10% Power**.
-
-Siphon Rune's self-recovery alone does not qualify. Reclaimed Breath may qualify because revival returns another ally with restored HP. The effects are one-use and non-stacking.
-
----
-
-## 9. Approved Torren ⇄ Nimera Synthesis effects
-
-Detailed authority: `docs/TORREN_NIMERA_SYNTHESIS_WORKING_SPEC.md`.
-
-### Torren — Measured Passage
-
-**War Archer → Routeweaver:** once per round, when a **damaging non-Ultimate War Archer Ability** resolves against an enemy with **Hunter's Measure**, Torren's next **non-Ultimate Routeweaver Ability** before the end of the following round costs **2 less MP**, minimum 1 MP.
-
-**Routeweaver → War Archer:** once per round, when a **Routeweaver Ability or Ultimate** establishes or legally extends one of Torren's **Route Fields**, his next **damaging non-Ultimate War Archer Ability** against an enemy with Hunter's Measure before the end of the following round gains **+10% Power**.
-
-Boundaries:
-- the discount and Power bonus are one-use and non-stacking;
-- Hunter's Measure may have been applied by Torren or Nimera;
-- a Prepared War Archer response may qualify only when its damaging response actually resolves;
-- Covered Crossing arms the return bonus only if it actually extends an active Route Field;
-- no Field duration, Measure duration, hit pattern, target rule, or weapon legality is altered by the Synthesis itself.
-
-### Nimera — Living Proof
-
-An enemy satisfies **Living Proof's known-target condition** when both are true:
-1. Nimera has already revealed that enemy's permitted combat data through **Diysean Appraisal**; and
-2. that enemy currently has **Hunter's Measure**.
-
-This is a condition check only and creates no `Appraised`, `Verified`, `Proven`, or other new status.
-
-**Cardweaver knowledge → Truthshot:** once per round, Nimera's first **damaging non-Ultimate Truthshot Ability** against a target satisfying the known-target condition gains **+10% Power**.
-
-**Truthshot → Cardweaver:** once per round, when a **Truthshot Ability or Final Annotation** damages a target satisfying the known-target condition, Nimera's next **hostile Standard Card targeting that same enemy** before the end of the following round gains **+10 Base Hit / application reliability** where relevant.
-
-Boundaries:
-- Hunter's Measure may have been applied by Nimera or Torren;
-- Final Annotation may arm the Card reliability bonus but does not receive the +10% Power clause;
-- the Card bonus is one-use, same-target, and non-stacking;
-- it does not create extra Card slots/actions or substitute for **Indexed** / Sovereign Index;
-- if the Card has no Hit/application roll, no replacement benefit is created;
-- no weapon requirement is created.
-
-All six character-specific Synthesis effects are mechanically defined.
-
----
-
-## 10. Timing target
-
-Because eligibility requires **both Base CL13 and Subclass CL13**, Synthesis is an endgame completion reward rather than a midgame system.
-
-Under the current CEXP model, a Subclass-focused route reaches Subclass CL13 during Chapter 12 around the intended final-level band. Base CL13 must also have been completed separately.
-
-This timing is intentional:
-- ordinary donor equipment matters throughout the post-Volition game;
-- Relics matter before the final chapters;
-- Synthesis / Legacy represent true completion near the campaign end.
-
----
-
-## 11. Approved non-effects
-
-Purchasing Synthesis does **not** by itself:
-- raise the class cap beyond CL13;
-- grant character levels;
-- award another MP;
-- refresh Prime usage;
-- grant another Standard Card or Prime slot;
-- unlock a new weapon family outside the reciprocal partner's established tradition;
-- unlock the partner's Base Trait;
-- unlock the partner's Base Ultimate as a copied command;
-- add or restore any Ability/Ultimate weapon gate;
-- bypass two-slot weapon geometry for equipment itself;
-- bypass the one-armed Prepared-effect limit.
-
-Equipment can still have its own legality and slot rules, but **Abilities themselves are never disabled because a particular weapon is not equipped**.
-
----
-
-## 12. Approved final six-Synthesis cross-balance pass
-
-Detailed authority: `docs/CLASS_SYNTHESIS_CROSS_BALANCE_AUDIT_2026-08-21.md`.
-
-**PASS — no raw-number rebalance required.**
-
-Approved normalization from the pass:
-- learned Ability source-class identity controls Synthesis trigger classification even when the other class is selected;
-- one Ability action can satisfy a given Synthesis trigger only once, regardless of multihit, AoE, multi-heal, or multi-cleanse resolution;
-- each directional Synthesis clause can hold at most one armed copy of its own future bonus/discount; the opposite directional clause may be armed independently when legal;
-- current Synthesis Power bonuses and MP discounts do **not** apply to Ultimates;
-- an Ultimate may arm a later Synthesis effect only where the character-specific spec explicitly allows it;
-- merely arming a Prepared effect never counts as a damaging trigger; only an actually resolving response may qualify where explicitly legal;
-- all six remain weapon-independent and create no new resource/state family.
-
-Relative-power conclusion:
-- Cyanis's +15% Power remains justified by its longer Attunement → Field/Seal → Base-attack setup;
-- Vaelira's state flexibility/Imprint extension requires no flat numeric addition;
-- Ilyra/Seyrik's -3 MP cadence is appropriate because it does not increase healing/revival values;
-- Torren's -2 MP remains intentionally smaller because it couples two existing high-value systems, Hunter's Measure and multi-round Route Fields;
-- Nimera's Appraisal + Measure requirement justifies her two-part Truthshot/Card reliability payoff.
-
-Mechanical Synthesis design is therefore closed unless later explicitly reopened.
-
----
-
-## 13. Remaining Synthesis / downstream work
-
-1. Define the exact shared **resolution / integration story beat** for each reciprocal pair.
-2. Finalize pair-specific **Legacy item mapping, naming, and acquisition presentation**.
-3. Normalize Core Mastery text and final global combat-modifier / Ultimate-cost rules.
-4. Promote the completed class-rework package through a new master-canon audit after the remaining normalization and Legacy/story gates are stable.
+- `docs/CLASS_MASTERY_WORKING_MODEL.md`
+- `docs/CLASS_CEXP_WORKING_MODEL.md`
+- `docs/canon/AUDIT117_ITEM_EQUIPMENT_LEGACY_AND_CLASS_PROGRESSION_RECONCILIATION_LOCK.md`
