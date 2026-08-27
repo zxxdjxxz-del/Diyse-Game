@@ -1,7 +1,7 @@
 # Diyse — CL13 Class EXP Working Model
 
 **Status:** ACTIVE WORKING DESIGN — POST-INSERTION NUMERICAL TIMING ON HOLD  
-**Current whole-project authority:** v1.98 / Audit113  
+**Current whole-project authority:** **v2.02 / Audit117**  
 **Current fixed caps:** Base CL13 / Subclass CL13  
 **Timing hold:** `docs/canon/POST_INSERTION_PROGRESSION_TIMING_HOLD_2026-08-23.md`
 
@@ -13,7 +13,7 @@ Do not recover or reuse the old Ch1–12 CEXP tables as current implementation n
 
 ## 1. Current fixed class-level curve
 
-Audit104 remains controlling for the shared cumulative threshold curve unless later explicitly revised:
+Audit104's shared cumulative threshold curve remains the working numerical basis unless later explicitly revised:
 
 | Class Level | Cumulative CEXP | CEXP to next |
 |---:|---:|---:|
@@ -51,23 +51,31 @@ Do not fabricate class-symmetry permissions that are not separately authored.
 
 ---
 
-## 3. Current Subclass learning schedule
+## 3. Current Subclass learning schedule — Audit117
 
 | Subclass CL | Major class result | Cumulative CEXP |
 |---:|---|---:|
 | 1 | donor Primary + Trait I + Ability 1 | 0 |
-| 3 | donor Armor | 350 |
+| 3 | Subclass Mastery 1 eligibility + donor Armor | 350 |
 | 4 | Ability 2 | 600 |
-| 5 | donor advanced equipment / Secondary package where applicable | 950 |
+| 5 | Subclass Mastery 2 eligibility + donor Secondary where applicable | 950 |
 | 6 | Trait II | 1,350 |
-| 7 | Ability 3 | 1,800 |
+| 7 | Ability 3 + Subclass Mastery 3 eligibility + **donor Relic access** | 1,800 |
 | 9 | Ability 4 | 2,850 |
-| **10** | **Equipment Mastery becomes available as Subclass Mastery Node 4; purchasing it unlocks donor Relic access** | **3,450** |
-| 11 | Ability 5 | 4,150 |
+| **10** | **Ability 5** | **3,450** |
+| **11** | **Subclass Mastery 4 eligibility + donor Legacy access** | **4,150** |
 | 12 | Trait III | 4,950 |
 | 13 | Subclass Ultimate | 6,000 |
 
-Equipment Mastery remains a purchased Mastery node; reaching CL10 does not grant it automatically.
+Important supersessions:
+
+- donor Relic access is **CL7**, not CL10;
+- Ability 5 is **CL10**, not CL11;
+- Subclass Mastery 4 is **CL11**, not CL10;
+- donor Legacy access is **CL11**;
+- **Synthesis is removed**.
+
+Donor Relic/Legacy access is permission to equip the linked character's already-obtained item. It does not create another artifact.
 
 ---
 
@@ -83,7 +91,7 @@ Current story timing:
 - All six Subclasses unlock at the Volition at their approved starting state.
 - Chapter 8 is the first full mandatory chapter built around sustained post-Volition Subclass use.
 
-Any old CEXP proof that assumed a fresh Subclass begins at the **start** of Chapter 7 is therefore retired.
+Any old CEXP proof that assumed a fresh Subclass begins at the **start** of Chapter 7 is retired.
 
 ---
 
@@ -148,7 +156,7 @@ The dedicated progression/item pass must rebuild:
 4. Regional Hunt / Major Hunt CEXP awards;
 5. Base-focused, Subclass-focused, split-focus, and optional-heavy simulations;
 6. exact timing of Base CL13 and Subclass CL13 under the current Volition placement;
-7. late Chapter-12 Synthesis eligibility pacing;
+7. interaction with current donor Relic CL7 / donor Legacy CL11 timing;
 8. interaction with the current **Level-70** character EXP curve;
 9. the approximately **55–65 minute** mandatory Chapter 10 contribution;
 10. late-game enemy/reward/economy pacing that depends on the extra chapter.
@@ -157,21 +165,22 @@ Do not silently compress Chapter 10 out of the curve and do not simply graft an 
 
 ---
 
-## 9. Synthesis timing boundary
+## 9. Native Legacy boundary — Audit117
 
-Synthesis remains an endgame completion system under Audit104.
+A character's own native Legacy completion is **not** a Subclass CEXP capstone and does not require Subclass CL13.
 
-Fixed eligibility still requires:
+Current native requirements are controlled by Audit117 and include:
 - Base CL13;
-- Subclass CL13;
 - all four Core Masteries;
-- all four Subclass Masteries;
-- the authored resolution/integration requirement;
-- 1 unspent MP.
+- Character Quest / resolution;
+- unique Character Quest Legacy Component;
+- unique Legacy precursor;
+- Legacy Gate A and Gate B materials;
+- Kessara project availability.
 
-The three mandatory pair-resolution scenes occur in **late Chapter 12**.
+Subclass CL11 governs only the linked receiver's permission to equip the donor's already-obtained Legacy equipment.
 
-Exact numerical proof of when each character can satisfy both CL13 requirements is pending the progression pass and must not be inferred from the retired 12-chapter model.
+There is **no Synthesis system**.
 
 ---
 
@@ -184,7 +193,10 @@ The following are explicitly retired:
 - `Sixfold Accord` terminology;
 - Subclass unlock at the start of Chapter 7;
 - a complete Ch1–12 CEXP budget as current authority;
-- Subclass CL13 proof based on the old Chapter-12 campaign ending;
+- donor Relic access at CL10;
+- Equipment Mastery at CL10;
+- Subclass Ability 5 at CL11;
+- Synthesis eligibility/pacing;
 - any exact Ch10/Ch11/Ch12 CEXP value inherited solely from the pre-insertion spine.
 
 Current player level cap is **70**.
@@ -193,6 +205,6 @@ Current player level cap is **70**.
 
 ## 11. Conflict rule
 
-Where this working file conflicts with Audit104 mechanics, Audit107 Volition placement, Audit113 chapter numbering, or the post-insertion progression timing hold, the later authority wins.
+Where this working file conflicts with Audit117 mechanics, Audit107 Volition placement, Audit113 chapter numbering, or the post-insertion progression timing hold, the later authority wins.
 
-No new exact CEXP numbers are canonized by this cleanup.
+No new exact CEXP pacing numbers are canonized by this cleanup.
