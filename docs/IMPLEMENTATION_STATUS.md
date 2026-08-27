@@ -1,6 +1,6 @@
 # Diyse — Current Implementation Status
 
-**Written authority checkpoint:** **v2.05 / Audit120**  
+**Written authority checkpoint:** **v2.07 / Audit122**  
 **Presentation target:** HD-2D  
 **Active repository:** `zxxdjxxz-del/Diyse-Game`
 
@@ -8,334 +8,237 @@
 
 - Chapters **0–4** remain COMPLETE/CLOSED at story/dialogue authority level.
 - Chapters 0–4 HD-2D Conversion Audit Pass 1: COMPLETE / APPROVED.
-- Cross-chapter HD-2D consistency/cost consolidation for Chapters 0–4: COMPLETE / PASS / GREEN.
 - Shared HD-2D runtime foundation: IMPLEMENTED.
-- Chapters 0–4 HD-2D presentation sidecars/environment-state hookup: IMPLEMENTED where previously recorded.
-- Final visual asset replacement remains production work where not already implemented.
-- Detailed late-game scene/runtime implementation remains pending.
-- Exact **ordinary-equipment and surviving-Relic stats/source data** are closed under Audit118 and may be implemented directly.
-- Audit119 supplies current **Standard-Card MP, Prime Invocation MP/scaling/control, named resistance hierarchy, MP-restorative ladder, and high-level progression directives**.
-- Audit120 supplies the controlling **Physical/Magical/Hybrid direct-damage equations and full Critical Hit system**.
-- Exact 17-piece Legacy raw-stat/capstone-perk values remain pending approval and must not be implemented from working v600 yet.
-- Exact current Base/Subclass Ability MP values after the latest class-kit identities remain open; preserve the higher-cost direction but do not implement stale old tables as final.
+- Detailed later-chapter scene/runtime implementation remains pending where not separately completed.
+- **Audit122** supplies the exact Base Hit/Evasion resolver and current Bleed runtime.
+- **Audit121** supplies current system removals, class/Face names, final 17/17 Legacy mechanics, Relic cleanup deltas, 20-consumable economy/placement, Chapter-4 four-element reconciliation, commerce/location corrections, Prime numeric sync, and the Lv62 class-completion target.
+- **Audit120** supplies compatible Physical/Magical/Hybrid direct-damage and Critical rules.
+- **Audit118** remains the implementation source for the closed 38/38 ordinary-equipment catalog and compatible Relic/Forge data.
+- The **class Ability MP check/certification remains OPEN**.
+- The **CEXP / Mastery / player-level progression redo remains OPEN**.
 
 ---
 
-## Current numerical implementation guardrails
+# Combat implementation guardrails
 
-### Direct damage / Critical Hits
-
-Use Audit120.
-
-Physical:
+## Direct damage
 
 > **BasePhysicalDamage = [Attack² / (Attack + EffectiveDefense)] × (Power / 100)**
 
 > **EffectiveDefense = CurrentDefense × (1 - EffectiveDefensePenetration)**
 
-Magical:
-
 > **BaseMagicalDamage = [Magic² / (Magic + EffectiveSpirit)] × (Power / 100)**
 
 > **EffectiveSpirit = CurrentSpirit × (1 - EffectiveSpiritPenetration)**
 
-Physical = Attack vs Defense. Magical = Magic vs Spirit. Same-axis penetration caps at **75%**.
+- Physical = Attack vs Defense.
+- Magical = Magic vs Spirit.
+- Spirit is the magical-defense stat.
+- same-axis penetration cap = 75%.
+- no universal random damage variance.
 
-Do **not** implement the superseded Audit119 `Offense × 1.50 × 150/(150+Defense)` resolver.
+## Base Hit / Evasion — CLOSED
 
-Critical rules:
-- base Critical Chance = **5%**;
-- Critical Chance modifiers add flat percentage points;
-- ordinary random Critical Chance cap = **50%**;
-- eligible Critical damage = **1.5×** resolved direct damage;
-- Base Hit/Evasion check occurs before the Critical roll;
-- misses do not roll Critical;
-- multihit actions roll Crit independently per authored direct hit by default;
-- one authored Hybrid hit uses one Critical roll on the combined eligible direct-damage result;
-- eligible Magical direct hits use the same 1.5× multiplier;
-- Crit does not bypass Defense/Spirit;
-- Crit does not automatically improve status application;
-- Burn/Bleed and other explicitly excluded indirect damage cannot Crit.
+> **AdjustedBaseHit = round(ActionBaseHit × BaseHitPercentModifiers) + FlatBaseHitModifiers**
 
-No hidden AoE penalty or universal random damage variance. Round at the normal final-damage step.
+> **EffectiveEvasion = round(BaseEvasion × EvasionPercentModifiers) + FlatEvasionModifiers**
 
-Use **Base Hit**, not `Accuracy`, as the canonical hit-stat term.
+> **FinalHitChance = clamp(AdjustedBaseHit - EffectiveEvasion, 5, 100)**
 
-The global Base Hit-vs-Evasion hit-resolution formula remains open.
+Do not implement a natural Accuracy stat.
 
-### Standard Cards
-- exactly 24
-- maximum 3 equipped per character
-- reusable and MP-consuming
-- current MP range **18–48**, not the old Audit116 12–36 range
+Normal authoring bands:
+- standard ~100 Base Hit
+- heavy 90–95
+- precision 105–115
+- exceptional precision up to ~120
 
-### Prime Invocation
-Current costs:
-- Recovered Story — **50 MP**
-- Awakened Story — **80 MP**
-- Awakened Major Hunt — **90 MP**
-- Prime commands after manifestation — 0 additional MP
+## Critical
+- base chance 5%
+- flat percentage-point bonuses
+- ordinary random cap 50%
+- eligible multiplier 1.5×
+- hit/evasion resolves first
+- no Critical roll on a miss
+- Crit does not bypass Defense/Spirit or automatically improve status application.
 
-`Reactive` is retired; use **Recovered → Awakened**.
+## Removed systems
+- Barrier does not exist.
+- Brace does not exist.
+- no global Break/Stagger meter.
+- Staggered is an ordinary harmful status only.
+- Guard remains valid.
 
-Prime status/scaling implementation must follow Audit119, including default 80% status susceptibility and one-command Freeze/Stun hard-control ceiling per manifestation.
-
-### Consumables
-Current Consumable count = **21**.
-
-MP ladder:
-- Flow Tonic 50
-- Deepflow Tonic 80
-- Highflow Tonic 120
-- Reservoir Tonic 75% Max MP
-- Emergency Kit 60% Max MP as its MP component
-
-Exact HP-restorative numbers remain open.
+## Bleed
+- damages each round and again when the affected character acts;
+- old one-proc-per-round restriction is retired;
+- clears only on full-HP restoration, eligible harmful-status clear, or eligible item;
+- partial healing/Regen does not clear it unless full HP is reached or an explicit valid status clear is included.
 
 ---
 
-## Current late-game chapter structure
+# Standard Cards / Primes
 
-Chapter 10 — The Last Blank was inserted after Chapter 9.
+Standard Cards:
+- exactly 24
+- maximum 3 equipped
+- reusable and MP-consuming
+- current MP range 18–48
+- Acuity quartet = Faultline Sight / Measured Response / Predicted Impact / Decisive Interval
+- Predicted Impact = Magical/Colorless, P180, BH110, 28 MP, 30% Stun.
 
-Current operational interpretation:
-- **Chapter 10 — The Last Blank** — story architecture locked under Audit112; detailed line-complete/runtime implementation pending.
-- **Chapter 11 — Crown Engine** — Calder / Custodian / Truth; detailed scene production pending.
-- **Chapter 12 — The Reforged March** — final Black Host campaign / Varkesh / Vhalmarch / Vorathen / Vaelkor / cleanup.
-- **Chapter 13 — The Last Command** — final Ancient domain / Last Weapon / Entity / Final Severance / ending.
+Prime Invocation:
+- Recovered Story — 50 MP
+- Awakened Story — 80 MP
+- Awakened Major Hunt — 90 MP
+- manifested commands — 0 additional MP
 
-Pre-insertion mapping:
+Prime progression = **Recovered → Awakened**.
+
+Current numeric sync:
+- Prismatic Deluge = 90 × 4 = 360 listed Power per target
+- Regulator Fang = 250 Power / 25% Spirit penetration
+
+---
+
+# Current class / Mastery implementation state
+
+| Character | Base | Subclass | Face |
+|---|---|---|---|
+| Cyanis | Crest Knight | Crest Arcanist | Might |
+| Ilyra | Blue Warden | Vowblade | Grace |
+| Torren | War Archer | Routeweaver | Acuity |
+| Nimera | Cardweaver | Proofhunter | Change |
+| Vaelira | Green Arcanist | Axiomblade | Elements |
+| Seyrik | Ruin Vanguard | Ruin Warden | Ruin |
+
+Base/Subclass cap = **CL13**.
+
+No permanent Subclass use before Sixfold Volition at end-Ch7.
+
+Synthesis is removed.
+
+Exactly 8 active Masteries:
+- 4 Core
+- 4 Subclass
+
+Eligibility:
+- Core — Base CL3 / CL6 / CL9 / CL12
+- Subclass — CL3 / CL5 / CL7 / CL11
+- Subclass Mastery 3 purchase → donor Relic access
+- Subclass Mastery 4 / Legacy Mastery purchase → donor Legacy access
+
+Donor pairs:
+- Cyanis ⇄ Vaelira
+- Ilyra ⇄ Seyrik
+- Torren ⇄ Nimera
+
+Donor access equips the existing obtained item. No duplicate shared artifact.
+
+Exact 8-point Mastery grant timing is OPEN and must close with the CEXP redo.
+
+---
+
+# Equipment implementation state
+
+Current catalog:
+- 38 ordinary
+- 36 Relics
+- 17 native Legacies
+- **91 total**
+
+The 38/38 ordinary source/stat/shop architecture is closed.
+
+All **17/17 Legacy raw stats/perks/Traits are final under Audit121**.
+
+Current equipment must not depend on Barrier, Brace, or a global Break/Stagger meter.
+
+Hierarchy:
+
+> **Ordinary < Relic < Legacy**
+
+Remaining item/equipment work is implementation/naming polish unless explicitly reopened.
+
+---
+
+# Consumable / economy implementation state
+
+Current count = **20**.
+
+Currency = **Auren**; 1 economy unit = 20 Auren.
+
+Fixed Salves:
+- Field 250 HP / 20 Auren
+- Restorative 750 HP / 50 Auren
+- Vital 1,500 HP / 120 Auren
+- Grand 2,250 HP / 240 Auren
+
+Company Salve = 30% Max HP to all conscious active-party members / 200 Auren.
+
+MP:
+- Flow 50 / 80 Auren
+- Deepflow 80 / 200 Auren
+- Highflow 120 / 360 Auren
+- Reservoir 75% Max MP / reward-only / 640 Auren equivalent
+
+Revive:
+- Rousing Salts = 25% Max HP / 60 Auren
+- Greater Rousing Salts = 50% Max HP + 25% Max MP / 160 Auren
+
+Emergency Kit and Emergency Rally are reward-only with their Audit121 values and placements.
+
+---
+
+# Chapter 4 implementation state
+
+Exactly four standard elements are used in the Chapter-4 regulation/research system:
+- Fire
+- Ice
+- Lightning
+- Earth
+
+Wind and Water are removed and their old functions are not reassigned.
+
+The Seventh Reaction is emergent four-element behavior, not a seventh element or player combat system.
+
+Reaction Conduit replaces Elemental Hexarch.
+
+Regulation Crucible uses the Audit121 four-chamber/two-active architecture.
+
+---
+
+# Current progression / enemy numerical status
+
+Current hard direction:
+- player level cap 70
+- Chapter 0 grants no character levels
+- slower player progression through Ch1–7
+- faster growth after Ch7
+- normal full class completion target ≈ **player Lv62**
+- Lv62–70 should provide meaningful full-build play.
+
+Still OPEN:
+1. class Ability MP check/certification;
+2. full CEXP/class-progression redo;
+3. exact 8-point Mastery schedule;
+4. Ch1–13 player/enemy level bands;
+5. encounter counts / formation EXP / diminishing returns;
+6. progression-dependent named-enemy/boss recertification.
+
+Do not implement old exact progression tables or the simulation-only Lv5/10/15/20/Volition/40/50/60 Mastery schedule as final.
+
+---
+
+# Current late-game chapter structure
+
+- Chapter 10 — The Last Blank
+- Chapter 11 — Crown Engine
+- Chapter 12 — The Reforged March
+- Chapter 13 — The Last Command
+
+Historical mapping:
 - old Ch10 → current Ch11
 - old Ch11 → current Ch12
 - old Ch12 → current Ch13
 
-Do not wire runtime content against the old late-game numbering.
-
----
-
-## Current point of no return
-
-Audit109 controls:
-
-> **Last Shelter → Reactor Galleries = true irreversible threshold**
-
-Launching Chapter 13 is deliberate but not itself irreversible. Do not disable all world return at Chapter-13 start.
-
----
-
-## Current class / Mastery implementation state
-
-Current Base/Subclass identities:
-- Cyanis — Crest Knight / Crest Magus
-- Ilyra — Blue Warden / Vowblade
-- Torren — War Archer / Routeweaver
-- Nimera — Cardweaver / Sixfold Knight
-- Vaelira — Prism Archer / Green Arcanist
-- Seyrik — Ruin Vanguard / Ruin Healer
-
-Base/Subclass cap = **CL13**.
-
-Subclass donor access:
-- CL1 donor Primary
-- CL3 donor Armor
-- CL5 donor Secondary
-- CL7 Mastery 3 / Equipment Mastery purchase → donor Relic access
-- CL11 Mastery 4 / Legacy Mastery purchase → donor Legacy access
-
-**Synthesis is removed.** Do not implement a Synthesis node, Synthesis MP cost, Synthesis passive, or old Base-CL13/Subclass-CL13 eligibility gate.
-
-The old Mastery Point schedule was built for nine nodes. Only eight active Mastery nodes remain; exact grant schedule is still open.
-
----
-
-## Equipment / Relic / Legacy implementation state
-
-Current active catalog:
-- **38 ordinary**
-- **36 Relics**
-- **17 native Legacies**
-- **91 total**
-
-Audit118 is the exact implementation source for:
-- all 38 ordinary raw-stat lines;
-- ordinary first-acquisition/source map;
-- Cresthaven ordinary backfill/relative values;
-- all 36 surviving Relic stat/Trait packages;
-- all 36 Relic placements;
-- settled Legacy Traits;
-- exact 30-slot Forge Component role/source matrix.
-
-Slot rules:
-- Ilyra — Wardrod Primary; Shield or Focus Secondary.
-- Torren Great Bow — Weapon + Secondary.
-- Vaelira Arcane Staff — one-slot Primary; Focus legal.
-- Seyrik Two-Handed Sword — Weapon + Secondary.
-- Nimera ordinary/surviving Relic Conduits — one-slot.
-- Nimera native Legacy Conduit — Weapon + Secondary.
-
-All 12 Subclass Relics are removed. Six separate shared-Legacy artifacts are removed.
-
-Native Legacy completion requires Base CL13 + 4 Core Masteries + Character Quest/resolution + unique Legacy Component + precursor + Gate A + Gate B + Kessara availability.
-
-Gate A releases the weapon. Gate B releases remaining package pieces.
-
-Forge economy:
-- 30 components total
-- 12 Legacy-gate-specific
-- 18 Relic-copy-specific
-- categories non-interchangeable
-
-Relic copy: one identical extra copy maximum per already-obtained Relic; max quantity 2. Legacies remain unique.
-
-Equipment power hierarchy: **Ordinary < Relic < Legacy**.
-
-Exact 17-Legacy raw stats and Max-HP/Max-MP/**Base-Hit**/Evasion perk assignments are pending.
-
----
-
-## Progression / enemy numerical status
-
-Current high-level locks:
-- player level cap 70
-- Chapter 0 grants no character levels
-- Chapters 1–7 deliberately lower than a near-linear curve
-- faster progression begins after Chapter 7
-- expected Chapter-12 campaign-only clear target = **Lv60**
-- distribute added late EXP backward through Chapter 9 onward
-- enemy strength and kill EXP rise within a chapter from start to end
-- weak/old enemies award substantially reduced kill EXP to overlevelled parties
-
-The exact old v494–v503 chapter-level/enemy/encounter tables are **not current implementation authority**.
-
-Detailed current Ch1–13 player bands, enemy bands, encounter counts, per-formation EXP, and diminishing-return percentages remain pending the dedicated progression pass.
-
-Named-combat resistance should follow Audit119's 125/100/80/60/0 elemental framework and 100/80/60/0 status-susceptibility framework. Exact Major-Hunt static profiles are in Audit119.
-
-Retained late-Hunt raw-stat anchors:
-- Final Archive Arbiter — 43,100 HP / 229 ATK / 244 MAG / 194 DEF / 198 Spirit / 50 SPD
-- The Unfinished World — 78,000 HP / 304 ATK / 318 MAG / 226 DEF / 232 Spirit / 61 SPD
-
-Other named-enemy raw arrays should be re-certified against the current progression pass before final implementation if they depend on the reopened level curve.
-
----
-
-## Current ordinary Side-Quest status
-
-Do not use the stale v480–v493 cumulative-tracker reduction branch.
-
-Current retained ordinary quests include:
-- Edda Harth — **The Marks We Leave** — after Torren joins in Ch1 / Greenhollow / low-zero required combat.
-- Edda Harth — **When the Roads Open** — post-Vaelkor cleanup / current Ch12.
-- Talia Rell — **The Third Caravan** — after Ch8 / Greenhollow → Ashford.
-- Talia Rell — **The Living List** — after Ch10 / Ashford anchor.
-
-Dialogue and exact final reward packages remain later work.
-
----
-
-## Late-game encounter-role mapping
-
-### Chapter 12
-- dedicated conventional Black Host Elite remains separate from Hunts;
-- Regional Hunt #11 — Throne of Emperor Vaelkor belongs to current Chapter 12;
-- Vaelkor mandatory climax remains **Emperor of the Reforged Host → Sovereign Panoply Unbound**;
-- Vaelkor defeat opens cleanup and does not automatically start Chapter 13.
-
-### Chapter 13
-- Regional Hunt: none;
-- Elite: Devourer of Names;
-- Calamity Memory: enemy/special-enemy ecosystem role, not Elite;
-- mandatory guardian: Last Weapon Archon;
-- final boss: exactly **Reconstituted Entity → The Last Command**, two genuine full-health forms, no third form.
-
-No runtime implementation claim is implied merely by these story/category locks.
-
----
-
-## Current Story Prime / final-act terminology
-
-Use:
-- Last Sentinel / Might
-- Last Convergence / Elements
-- Last Sanctuary / Grace
-- Last Cartographer / Acuity
-- Last Scribe / Change
-- Last Erasure / Ruin
-
-Do not restore Resource / Last Measure.
-
----
-
-## Current world terminology
-
-Use:
-- Yahtrenhold
-- Black Host Territory
-- The Westways
-- The Greyspires
-- The Blackspine
-- Westguard
-- Vhalmarch
-- Vorathen
-- The Veiled Citadel
-
-Do not restore Blackstone as formal region label, Westreach, Black Mountains, or The Crownhold in current-facing content.
-
----
-
-## HD-2D runtime foundation
-
-Accepted shared foundation remains under `game/presentation/`, including:
-- 1920×1080 reference composition support;
-- ~80 px field-character helper targets;
-- ~200–220 px battle-character targets;
-- party-left / enemy-right / protected center action lane;
-- authored environment-state definitions;
-- encounter/scene presentation metadata;
-- Prime visual suspension/return hooks;
-- Android decorative quality profiles;
-- reusable element/Card/Prime presentation families.
-
-Exact final art remains separate from proven runtime architecture.
-
----
-
-## Chapter 0–4 dialogue / production status
-
-- Chapter 0 — historical validated runtime set retained where compatible.
-- Chapter 1 — line-complete source + production Resources.
-- Chapter 2 — line-complete source + production Resources.
-- Chapter 3 — corrected line-complete source + production Resources.
-- Chapter 4 — exact production source closed; runtime/static conversion present where implemented.
-
-A presentation sidecar does not by itself lock final ordinary-enemy or Elite placement.
-
----
-
-## Current production boundaries
-
-Do not silently invent:
-- late-game exact dialogue before explicit scene production;
-- final Legacy numbers while v600 remains pending;
-- final Base/Subclass Ability MP values before the current-kit cost pass;
-- the global Base Hit/Evasion formula;
-- exact HP-consumable values while open;
-- final Level-70 Ch1–13 EXP/enemy/encounter tables;
-- final currency denomination;
-- final Relic/Legacy personal names before the deferred naming/dialogue phase.
-
----
-
-## Current authoritative documents
-
-- `docs/ACTIVE_CANON.md`
-- `docs/canon/AUDIT120_CRITICAL_HIT_AND_DIRECT_DAMAGE_FORMULA_LOCK.md`
-- `docs/canon/AUDIT119_POST_AUDIT116_COMBAT_RESOURCE_PRIME_AND_PROGRESSION_RECONCILIATION_LOCK.md`
-- `docs/canon/AUDIT118_COMPLETE_EQUIPMENT_TRACKER_DELTA_PROMOTION_AND_NUMERICAL_CATALOG_LOCK.md`
-- `docs/canon/AUDIT117_ITEM_EQUIPMENT_LEGACY_AND_CLASS_PROGRESSION_RECONCILIATION_LOCK.md`
-- `docs/canon/AUDIT116_STANDARD_CARD_PRIME_RESOURCE_AND_COMMAND_RECONCILIATION_LOCK.md`
-- `docs/canon/AUDIT115_COMBAT_RUIN_STATUS_AND_FULL_CLASS_ABILITY_NORMALIZATION_LOCK.md`
-- `docs/canon/AUDIT113_POST_INSERTION_CHAPTER_REINDEX_AND_LATE_GAME_OPERATIONAL_FILE_RECONCILIATION_LOCK.md`
-- current operational chapter files
-
-Implementation should prefer the newest domain audit and current operational chapter files over historical cumulative-tracker text.
+Do not wire runtime content against the old numbering.
