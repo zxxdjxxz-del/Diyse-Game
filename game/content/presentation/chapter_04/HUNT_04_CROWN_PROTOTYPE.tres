@@ -11,4 +11,4 @@ battle_background_family = "CH04_ANNEX_PROTOTYPE_BRANCH"
 cutscene_tier = "C1"
 vfx_tier = "V2"
 encounter_mode = "fixed_authored"
-presentation_tags = Array[String](["HD2D", "HUNT", "POST_CHAPTER_RETURN", "ONE_BODY_ONE_HP", "NO_TRANSFORMATION", "POWERS_DOWN", "PRE_EXISTING_RELENTLESS_FLURRY"])
+presentation_tags = Array[String](["HD2D", "HUNT", "POST_CHAPTER_RETURN", "REACTION_ANNEX_PROTOTYPE_BRANCH", "ONE_BODY_ONE_HP", "NO_TRANSFORMATION", "POWERS_DOWN", "PRE_EXISTING_RELENTLESS_FLURRY", "LEGACY_ENVIRONMENT_ID_ONLY"])
