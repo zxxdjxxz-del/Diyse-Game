@@ -4,23 +4,23 @@ This file is the implementation-facing authority index and compact guardrail sum
 
 ## Current whole-project authority
 
-**Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.07 / Audit122 — Base Hit, Evasion, and Bleed Runtime Lock**  
+**Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.08 / Audit123 — Class MP, CEXP, Mastery, and Late-Game Progression Lock**  
 **Date:** August 27, 2026
 
 Current newest authority chain:
-
-- **v2.07 / Audit122** — controlling Base Hit/Evasion resolver and current Bleed timing/clearing.
-- **v2.06 / Audit121** — current system removals, classes/Faces, final Legacy set, Relic stale-mechanic cleanup, 20-consumable economy/placement, commerce/location terminology, Chapter-4 four-element rework, Prime numeric sync, Lv62 class-completion direction, and current OPEN progression/Ability-MP work.
-- **v2.05 / Audit120** — compatible Physical/Magical/Hybrid direct-damage formula and Critical Hit system.
-- **v2.04 / Audit119** — compatible Card/Prime MP, named resistance, Prime status/scaling, and progression architecture not changed by Audit121.
-- **v2.03 / Audit118** — exact 38/38 ordinary-equipment source/numeric catalog and compatible Relic/Forge data not superseded by Audit121.
+- **v2.08 / Audit123** — current class Ability MP costs, 6,000-CEXP CL13 curve, chapter CEXP envelopes, exact 8-point Mastery schedule, restored late-game player-level spine, late mandatory EXP budgets, and late enemy bands.
+- **v2.07 / Audit122** — Base Hit/Evasion resolver and current Bleed lifecycle.
+- **v2.06 / Audit121** — system removals, current classes/Faces, final Legacy set, Relic stale-mechanic cleanup, 20-consumable economy/placement, commerce/location terminology, Chapter-4 four-element rework, and Prime numeric sync.
+- **v2.05 / Audit120** — compatible direct-damage and Critical Hit rules.
+- **v2.04 / Audit119** — compatible Card/Prime MP, named resistance, Prime status/scaling, and other progression architecture not superseded later.
+- **v2.03 / Audit118** — exact 38/38 ordinary-equipment source/numeric catalog and compatible Relic/Forge data.
 - **v2.02 / Audit117** — compatible equipment/Legacy/class-access structure and Synthesis removal.
 - **v2.01 / Audit116** — compatible Standard-Card and Prime command definitions.
-- **v2.00 / Audit115** — compatible global status/element/Ruin/class-Ability definitions.
+- **v2.00 / Audit115** — compatible status/element/Ruin/class-Ability definitions.
 - **v1.98 / Audit113** — current 13-chapter reindex.
-- compatible older audits remain active where not superseded.
 
-Current domain pointers:
+Primary domain files:
+- `docs/canon/AUDIT123_CLASS_MP_CEXP_MASTERY_AND_LATE_GAME_PROGRESSION_LOCK.md`
 - `docs/canon/AUDIT122_BASE_HIT_EVASION_AND_BLEED_RUNTIME_LOCK.md`
 - `docs/canon/AUDIT121_CURRENT_SYSTEMS_ITEM_EQUIPMENT_AND_PROGRESSION_RECONCILIATION_LOCK.md`
 - `docs/canon/AUDIT120_CRITICAL_HIT_AND_DIRECT_DAMAGE_FORMULA_LOCK.md`
@@ -31,343 +31,215 @@ Current domain pointers:
 - `docs/canon/AUDIT115_COMBAT_RUIN_STATUS_AND_FULL_CLASS_ABILITY_NORMALIZATION_LOCK.md`
 - `docs/canon/AUDIT113_POST_INSERTION_CHAPTER_REINDEX_AND_LATE_GAME_OPERATIONAL_FILE_RECONCILIATION_LOCK.md`
 
----
-
-# Conflict order for current work
-
-1. **Audit122** controls Base Hit/Evasion and Bleed runtime.
-2. **Audit121** controls the domains it explicitly changes.
-3. **Audit120** controls compatible direct-damage and Critical rules.
-4. **Audit119** controls compatible Card/Prime resource/scaling/resistance/progression rules.
-5. **Audit118** controls the compatible exact 38/38 ordinary-equipment catalog and Forge/source data.
-6. **Audit117** controls compatible equipment/Legacy/class-access structure.
-7. **Audit116** controls compatible Card/Prime command identities/effects.
-8. **Audit115** controls compatible status/element/Ruin/class-Ability definitions.
-9. **Audit113** controls current chapter labels.
-10. Compatible older domain locks remain active.
-
 Historical cumulative trackers are design history, not authority by themselves.
 
 ---
 
 # Universal combat firewall
 
-## Direct damage
+Physical direct damage:
+> `BasePhysicalDamage = [Attack² / (Attack + EffectiveDefense)] × (Power / 100)`
 
-Physical:
+Magical direct damage:
+> `BaseMagicalDamage = [Magic² / (Magic + EffectiveSpirit)] × (Power / 100)`
 
-> **BasePhysicalDamage = [Attack² / (Attack + EffectiveDefense)] × (Power / 100)**
+Hybrid actions resolve authored Physical and Magical components independently. Same-axis penetration caps at 75%. Spirit is the canonical magical-defense stat.
 
-> **EffectiveDefense = CurrentDefense × (1 - EffectiveDefensePenetration)**
+## Base Hit / Evasion
+There is no natural Accuracy stat.
 
-Magical:
+> `AdjustedBaseHit = round(ActionBaseHit × BaseHitPercentModifiers) + FlatBaseHitModifiers`
 
-> **BaseMagicalDamage = [Magic² / (Magic + EffectiveSpirit)] × (Power / 100)**
+> `EffectiveEvasion = round(BaseEvasion × EvasionPercentModifiers) + FlatEvasionModifiers`
 
-> **EffectiveSpirit = CurrentSpirit × (1 - EffectiveSpiritPenetration)**
+> `FinalHitChance = clamp(AdjustedBaseHit - EffectiveEvasion, 5, 100)`
 
-Hybrid hits resolve authored Physical and Magical components independently, then combine them.
-
-- Physical = Attack vs Defense.
-- Magical = Magic vs Spirit.
-- Spirit is the canonical magical-defense stat.
-- same-axis penetration cap = **75%**.
-- Basic Attack = 100 Power / Physical / Neutral unless equipment explicitly changes affinity.
-- no universal random damage variance.
-
-## Base Hit / Evasion — Audit122
-
-There is no natural Accuracy stat. For ordinary hit checks:
-
-> **AdjustedBaseHit = round(ActionBaseHit × BaseHitPercentModifiers) + FlatBaseHitModifiers**
-
-> **EffectiveEvasion = round(BaseEvasion × EvasionPercentModifiers) + FlatEvasionModifiers**
-
-> **FinalHitChance = clamp(AdjustedBaseHit - EffectiveEvasion, 5, 100)**
-
-Normal authoring bands: standard ~100 Base Hit; heavy 90–95; precision 105–115; exceptional precision may reach ~120.
-
-Hit/Evasion, Critical Chance, and harmful-status application remain separate resolution layers.
+Standard authoring: ~100 Base Hit; heavy 90–95; precision 105–115; exceptional precision may reach ~120.
 
 ## Critical Hits
-
-- base Critical Chance = **5%**;
-- bonuses are flat percentage-point additions;
-- ordinary random Critical Chance cap = **50%**;
-- eligible Critical multiplier = **1.5×**;
-- resolve Base Hit/Evasion before Critical Chance;
-- eligible multihit direct hits roll independently by default;
-- eligible Magical direct hits use the same 1.5× multiplier;
-- Crit does not bypass Defense/Spirit;
-- Burn, Bleed, explicitly no-Crit copied/echo damage, indirect Max-HP damage unless explicitly authored otherwise, and healing cannot Crit.
-
-Use **Base Hit**, never `Accuracy`, as the canonical hit-stat term.
+- base Crit Chance 5%;
+- flat percentage-point bonuses;
+- ordinary random Crit cap 50%;
+- eligible Crit multiplier 1.5×;
+- Crit does not bypass Defense/Spirit.
 
 ## Removed systems
-
-- **Barrier does not exist.** Remove it from combat/damage-order/equipment/Ability/enemy/Card/Prime wording.
+- **Barrier does not exist.**
 - **Brace does not exist.**
-- There is **no global Break/Stagger meter**.
-- **Staggered** is an ordinary harmful status only where explicitly authored.
-- **Guard** remains valid.
+- no global Break/Stagger meter.
+- Staggered is an ordinary harmful status only.
+- Guard remains valid.
+
+## Bleed
+Bleed damages each round and again when the affected character acts. It clears only on full-HP restoration, an eligible harmful-status clear, or an eligible item. Partial healing/Regen does not remove it unless full HP is reached or a valid status clear is included.
 
 ---
 
-# Elements / harmful statuses
-
-Standard elements:
-- Fire
-- Ice
-- Lightning
-- Earth
-
-Universal harmful statuses:
-- Burn
-- Freeze
-- Stun
-- Staggered
-- Bleed
-
-Ruin is a special affinity/school, not a fifth standard element.
-
-## Bleed — Audit122
-
-Bleed deals its authored damage **each round and again when the affected character acts**. The old one-proc-per-round restriction is superseded.
-
-Bleed clears only when:
-- the affected unit is restored to **full HP**;
-- an eligible harmful-status clear removes it;
-- an eligible item removes it.
-
-Partial healing and ordinary Regen do not remove Bleed unless the restoration reaches full HP or the effect explicitly includes a valid status clear.
-
-Named-combat elemental multipliers remain:
-- Weak 125%
-- Neutral 100%
-- Resistant 80%
-- Strongly Resistant 60%
-- Immune 0%
-
-Named-combat harmful-status susceptibility remains:
-- Normal 100%
-- Resistant 80%
-- Strongly Resistant 60%
-- Immune 0%
-
----
-
-# Current permanent classes / Faces
+# Current classes / Faces
 
 | Character | Base | Subclass | Face |
 |---|---|---|---|
-| Cyanis | Crest Knight | **Crest Arcanist** | Might |
+| Cyanis | Crest Knight | Crest Arcanist | Might |
 | Ilyra | Blue Warden | Vowblade | Grace |
-| Torren | War Archer | Routeweaver | **Acuity** |
-| Nimera | Cardweaver | **Proofhunter** | Change |
-| Vaelira | **Green Arcanist** | **Axiomblade** | Elements |
-| Seyrik | Ruin Vanguard | **Ruin Warden** | Ruin |
+| Torren | War Archer | Routeweaver | Acuity |
+| Nimera | Cardweaver | Proofhunter | Change |
+| Vaelira | Green Arcanist | Axiomblade | Elements |
+| Seyrik | Ruin Vanguard | Ruin Warden | Ruin |
 
-Base and Subclass caps remain **CL13**.
+Base and Subclass caps are CL13. No Subclass before Sixfold Volition at end Ch7.
 
-No permanent character uses a Subclass before **Sixfold Volition at the end of Chapter 7**.
+## Class Ability MP
+Audit123 closes the 12/12 MP certification with no new base-cost changes. Current certified tables in Audit123 are implementation authority.
+
+General bands:
+- routine class actions ~10–24 MP;
+- premium non-Ultimates ~26–40 MP;
+- class Ultimates 52–64 MP;
+- Standard Cards 18–48 MP;
+- Prime Invocation 50 / 80 / 90 MP.
 
 ---
 
-# Mastery / donor-access firewall
+# CEXP / Mastery / player progression — Audit123
 
-**Synthesis is removed.** Never implement a Synthesis node, cost, passive, Base+Subclass cap gate, or duplicate shared artifact.
+## CEXP
+Base and Subclass CEXP are separate. Selected class gets 100% of awarded CEXP; unselected class gets 0. CEXP sent to an already capped class is lost.
+
+CL13 cumulative threshold = **6,000 CEXP**.
+
+Pre-Volition Ch1–7 campaign CEXP = **4,950**.
+
+Post-Volition normal CEXP:
+- Ch8 1,300
+- Ch9 1,450
+- Ch10 1,200
+- Ch11 1,800
+- Ch12 2,750
+- Ch8–12 total 8,500
+- Ch13 catch-up/overflow 1,500
+
+Normal full Base + Subclass Class-Level completion occurs during Ch12. Seyrik remains the limiting case around end Ch12.
+
+## Mastery
+Synthesis is removed.
 
 Exactly:
-- 4 Core Masteries
-- 4 Subclass Masteries
-- **8 active nodes total**
+- 4 Core Masteries;
+- 4 Subclass Masteries;
+- 8 active nodes;
+- 8 automatic Mastery Points.
 
-Core eligibility: Base CL3 / 6 / 9 / 12.
+Core eligibility = Base CL3 / 6 / 9 / 12.
+Subclass eligibility = CL3 / 5 / 7 / 11.
 
-Subclass eligibility: CL3 / 5 / 7 / 11.
+Exact automatic point grants:
+1. Lv5
+2. Lv10
+3. Lv15
+4. Lv20
+5. Sixfold Volition
+6. Lv40
+7. Lv50
+8. Lv60
 
-- purchase Subclass Mastery 3 at CL7 → linked donor Relic access;
-- purchase Subclass Mastery 4 / Legacy Mastery at CL11 → linked donor Legacy access.
+No ninth point. No Lv70 surplus point.
 
-Donor pairs:
-- Cyanis ⇄ Vaelira
-- Ilyra ⇄ Seyrik
-- Torren ⇄ Nimera
+Subclass Mastery 3 purchase grants donor Relic access; Subclass Mastery 4 purchase grants donor Legacy access. The actual donor item must already have been obtained. No duplicate artifact and no universal off-owner nerf.
 
-Linked access uses the donor's actual obtained item. Trait travels with the item. No duplicate artifact and no universal off-owner nerf.
+## Player-level spine
+Player level cap = 70. Chapter 0 grants no levels.
 
-A character's own native Legacy does **not** require Synthesis or donor Legacy Mastery.
+Mandatory-route anchors:
+- End Ch1 Lv5
+- End Ch2 Lv9
+- End Ch3 Lv13
+- End Ch4 Lv17
+- End Ch5 Lv22
+- End Ch6 Lv27
+- End Ch7 / Volition Lv32
+- End Ch8 Lv37
+- End Ch9 Lv42
+- End Ch10 Lv47
+- End Ch11 Lv52
+- End Ch12 Lv57
+- **Last Shelter Lv60**
+- **End Ch13 Lv62**
 
-Exact 8-point MP grant timing remains **OPEN** and must be finalized with the CEXP redo.
+Desired late sequence:
+1. class levels complete during Ch12 / roughly Lv53–57;
+2. final Mastery-board point arrives around Last Shelter / Lv60;
+3. normal campaign ends around Lv62;
+4. Lv62–70 remains optional/completionist headroom.
 
----
+Key cumulative player EXP:
+- Lv32 100,600
+- Lv37 138,800
+- Lv42 184,300
+- Lv47 237,600
+- Lv52 299,100
+- Lv57 369,100
+- Lv60 415,400
+- Lv62 448,100
+- Lv70 594,100
 
-# Progression firewall
+Late mandatory EXP:
+- Ch8 38,200
+- Ch9 45,500
+- Ch10 53,300
+- Ch11 61,500
+- Ch12 70,000
+- Ch13 pre-Last-Shelter 46,300
+- Ch13 post-Last-Shelter 32,700
 
-- Player level cap = **70**.
-- Chapter 0 grants **no character levels**.
-- Chapters 1–7 stay somewhat below a near-linear player-level curve.
-- Faster level growth begins after Chapter 7.
-- Current class-completion pacing target: **about player Lv62** for normal full class completion.
-- Lv62–70 should provide meaningful full-build play.
+Late ordinary enemy bands:
+- Ch8 Lv32–37
+- Ch9 Lv37–42
+- Ch10 Lv42–47
+- Ch11 Lv47–52
+- Ch12 Lv52–57
+- Ch13 pre-Shelter Lv57–60
+- Ch13 post-Shelter Lv60–62
 
-Still OPEN:
-- full CEXP/class-progression redo;
-- exact 8-point Mastery Point schedule;
-- final class Ability MP check/certification;
-- detailed Ch1–13 EXP/enemy/encounter calibration;
-- progression-dependent named-enemy/boss raw-stat recertification.
+Expected ordinary random-encounter planning center remains 225 total; Chapter 4 remains 19. These are planning centers, not quotas.
 
-The simulation-only MP candidate Lv5/10/15/20/Volition/40/50/60 is **not final implementation canon**.
-
----
-
-# Standard Cards
-
-Exactly **24 Standard Cards**, maximum **3 equipped** per character.
-
-Cards are reusable and MP-consuming. No draw/deck/discard/charge/duplicate/rank system.
-
-Current exact MP costs remain the Audit119 table except where later explicitly revised.
-
-Current Acuity quartet:
-- Faultline Sight — 18 MP
-- Measured Response — 24 MP
-- Predicted Impact — 28 MP
-- Decisive Interval — 36 MP
-
-### Predicted Impact
-- one enemy
-- Magical / Colorless
-- Power 180
-- Base Hit 110
-- 30% Stun on successful damaging hit
-- no Break/Stagger-meter contribution
-
-Previously open early acquisition homes are closed:
-- Iron Testament — Ch1 Hollow Watch / Ancient-route protected cache
-- Restoration — Ch2 Sunken Archive protected recovery/triage cache
-- Sunder the Gate — Ch2 Red Transfer Bastion protected siege/access-control cache
-- Cinder Judgment — Ch4 Reaction Annex/regulation-system protected cache
-
----
-
-# Primes
-
-Exactly **12 Primes**: 6 Story + 6 Major Hunt.
-
-Progression:
-
-> **Recovered → Awakened**
-
-Current Invocation MP:
-- Recovered Story — 50 MP
-- Awakened Story — 80 MP
-- Awakened Major Hunt — 90 MP
-- manifested commands — 0 additional MP
-
-Awakened Primes:
-- suspend/replace the ordinary party;
-- last exactly 3 Prime rounds;
-- trigger a shared 3-full-normal-round cooldown after dismissal;
-- once per identity per battle unless a genuine fresh-HP boss form refreshes availability.
-
-No Prime XP, Prime levels, duplicates, or upgrade-material progression.
-
-### Prismatic Deluge
-All enemies; Magical elemental sequence:
-- Fire 90
-- Ice 90
-- Lightning 90
-- Earth 90
-- **360 total listed Power per target**
-- 15% linked status check per wave; maximum 1 new harmful status per target.
-
-### Regulator Fang
-- one enemy
-- Magical
-- choose Fire/Ice/Lightning/Earth
-- **Power 250**
-- **25% Spirit penetration**
-- no harmful-status rider.
+Still open:
+- optional player EXP source-by-source re-certification;
+- Light/Standard/Heavy formation EXP;
+- exact formation CEXP allocation;
+- named/story EXP and CEXP package placement;
+- progression-dependent raw-stat recertification.
 
 ---
 
-# Equipment / Relic / Legacy firewall
+# Equipment / items
 
-Current active equipment:
-- **38 ordinary**
-- **36 Relics**
-- **17 native Legacies**
-- **91 total**
+Current active equipment catalog:
+- 38 ordinary equipment
+- 36 Relics
+- 17 native Legacies
+- **91 total equipment pieces**
 
-Hierarchy:
+Hierarchy: Ordinary < Relic < Legacy.
 
-> **Ordinary < Relic < Legacy**
+All 17 native Legacies are mechanically final under Audit121. Linked donor use shares the donor's actual item.
 
-Audit118 remains controlling for the current 38/38 ordinary-equipment catalog and compatible Relic/Forge data. Audit121 controls the finalized 17 Legacy stats/perks/Traits and the listed Relic stale-mechanic corrections.
-
-Slot rules remain:
-- Ilyra — Wardrod Primary; Shield or Focus Secondary.
-- Torren Great Bow — Weapon + Secondary.
-- Vaelira Arcane Staff — one-slot Primary; Focus legal.
-- Seyrik 2H Sword — Weapon + Secondary.
-- Nimera ordinary/surviving Relic Conduits — one-slot.
-- Nimera native Legacy Conduit — Weapon + Secondary.
-
-Native Legacy completion retains its established Base-class/Character Quest/component/precursor/gate requirements. Native Legacy does not require Synthesis.
-
-All 17 native Legacies are mechanically final under Audit121. All current Legacies are unique; linked donor use shares the original item.
-
-No current equipment Trait may depend on Barrier, Brace, or a global Break/Stagger meter.
-
----
-
-# Consumables / economy — Audit121
-
-Current Consumable count = **20**.
-
-Currency = **Auren**.
-
-> **1 economy unit = 20 Auren**
+Current consumables = **20**. Currency = **Auren**. `1 economy unit = 20 Auren`.
 
 Fixed Salves:
-- Field Salve — 250 HP — 20 Auren
-- Restorative Salve — 750 HP — 50 Auren
-- Vital Salve — 1,500 HP — 120 Auren
-- Grand Salve — 2,250 HP — 240 Auren
+- Field 250 HP / 20 Auren
+- Restorative 750 HP / 50 Auren
+- Vital 1,500 HP / 120 Auren
+- Grand 2,250 HP / 240 Auren
 
-Party HP:
-- Company Salve — 30% Max HP to all conscious active-party members — 200 Auren
+Company Salve = 30% Max HP party-wide.
 
-MP:
-- Flow Tonic — 50 MP — 80 Auren
-- Deepflow Tonic — 80 MP — 200 Auren
-- Highflow Tonic — 120 MP — 360 Auren
-- Reservoir Tonic — 75% Max MP — reward-only, 640 Auren equivalent
+MP restoratives:
+- Flow 50 MP
+- Deepflow 80 MP
+- Highflow 120 MP
+- Reservoir 75% Max MP, reward-only.
 
-Revival:
-- Rousing Salts — revive at 25% Max HP — 60 Auren
-- Greater Rousing Salts — revive at 50% Max HP + 25% Max MP — 160 Auren
-
-Remedies/tactical:
-- Trauma Remedy — Burn/Bleed — 15 Auren
-- Stability Remedy — Freeze/Stun/Staggered — 15 Auren
-- General Remedy — one eligible ordinary harmful status — 50 Auren
-- Full Remedy — all eligible ordinary harmful statuses — 140 Auren
-- Blinding Mist — guaranteed escape from eligible ordinary random encounter — 10 Auren
-- Null Seal — remove one eligible enemy positive effect — 70 Auren
-- Balance Seal — restore eligible ordinary negative stat changes toward normal — 60 Auren
-
-Reward-only emergency:
-- Emergency Kit — 75% Max HP + 60% Max MP + established eligible cleanse/stat restoration; no revive — 300 Auren equivalent
-- Emergency Rally — revive all unconscious active-party members at 60% Max HP + 35% Max MP; no cleanse/stat restoration — 500 Auren equivalent
-
-Reward-only first guaranteed placements are locked in Audit121.
-
----
-
-# Commerce / current place names
+Emergency Kit and Emergency Rally remain reward-only under Audit121.
 
 Regional Markets:
 - Brackenwall
@@ -376,21 +248,48 @@ Regional Markets:
 - Ivorybridge
 - Stonewake
 - Frostmere
-- **Westguard**
+- Westguard
 - Larkspire
 - Cerythvale
 
-**Westguard** replaces Westreach and the intermediate Yahtrens Stand label.
-
-Greenhollow, Ashford, Veycross, Deepforge, and Emberforge are not Regional Markets.
-
-Cresthaven Quartermaster = full normal-stock consolidation/requisition endpoint.
-
-Vhalmarch = forward supply/requisition after capture/stabilization, not a civilian Regional Market. Cresthaven remains the full ordinary-equipment catalog endpoint.
+Cresthaven Quartermaster remains the full normal-stock consolidation endpoint. Vhalmarch is forward supply/requisition after capture, not a civilian Regional Market.
 
 ---
 
-# Chapter 4 elemental firewall
+# Standard Cards / Primes
+
+Exactly 24 Standard Cards; maximum 3 equipped per character. Cards are reusable and MP-consuming.
+
+Current Acuity quartet:
+- Faultline Sight
+- Measured Response
+- Predicted Impact
+- Decisive Interval
+
+Predicted Impact:
+- one enemy
+- Magical / Colorless
+- Power 180
+- Base Hit 110
+- 28 MP
+- 30% Stun
+
+Exactly 12 Primes: 6 Story + 6 Major Hunt.
+
+Prime progression = **Recovered → Awakened** only.
+
+Invocation MP:
+- Recovered Story 50
+- Awakened Story 80
+- Awakened Major Hunt 90
+- manifested commands 0 additional MP.
+
+Prismatic Deluge = 90×4 / 360 total listed Power per target.
+Regulator Fang = 250 Power / 25% Spirit penetration.
+
+---
+
+# Chapter 4 four-element firewall
 
 Chapter 4 uses exactly:
 - Fire
@@ -398,56 +297,14 @@ Chapter 4 uses exactly:
 - Lightning
 - Earth
 
-Wind and Water are removed from the Chapter-4 research/regulation framework and their old functions are not reassigned.
+Wind and Water are removed from the research/regulation framework. The Seventh Reaction is emergent four-element system behavior, not a seventh element.
 
-The **Seventh Reaction** is emergent four-element system behavior, not a seventh element, Omni, Prismatic, Colorless, Wind/Water, or a reusable player system.
+Reaction Conduit replaces Elemental Hexarch. Regulation Crucible uses four chambers with exactly two active/targetable at once.
 
-No global Composite Reaction table. No Imprint system.
-
-**Reaction Conduit** replaces Elemental Hexarch and has four elemental expressions only.
-
-Regulation Crucible:
-- Fire/Ice/Lightning/Earth chambers;
-- exactly 2 active/targetable at once;
-- core always targetable;
-- dormant chambers untargetable;
-- destroyed chambers stay destroyed;
-- rotation Fire/Ice → Lightning/Earth → Fire/Lightning → Ice/Earth;
-- former Wind speed inheritance removed;
-- former Water Barrier/restoration/stabilization inheritance removed;
-- Form II is a fresh-HP/MP body and refreshes Prime availability under the global fresh-form rule.
-
-Cinder Judgment's Chapter-4 source is the Reaction Annex/regulation-system protected cache.
+The live S022–S026 Markdown scripts and matching dialogue `.tres` resources are synchronized to the four-element rework. Historical `SIXFOLD` runtime IDs may remain only as legacy technical compatibility keys and are not player-facing canon.
 
 ---
 
-# Post-insertion chapter-number firewall
+# Implementation rule
 
-The game has Chapter 0 plus Chapters **1–13**.
-
-Current late-game numbering:
-- Chapter 10 — The Last Blank
-- Chapter 11 — Crown Engine
-- Chapter 12 — The Reforged March
-- Chapter 13 — The Last Command
-
-Historical translation:
-- old Ch10 → current Ch11
-- old Ch11 → current Ch12
-- old Ch12 → current Ch13
-
----
-
-# Current work frontier
-
-Mechanically/content-architecture complete at current canon level:
-- 20/20 consumables
-- 38/38 ordinary equipment
-- 36/36 Relics
-- 17/17 Legacies
-
-Next substantive balance passes:
-1. **Class Ability MP check/certification**
-2. **CEXP + Mastery + player-level progression redo**, targeting full class completion around Lv62
-
-Do not reopen completed item/equipment architecture unless a later explicit decision does so.
+When a live implementation file conflicts with Audit123/Audit122/Audit121 in their respective domains, update the implementation file. Do not revive stale Synthesis, Barrier, Brace, six-element Chapter-4, retired class names, old Resource-face, old Bleed-clearing, or Lv62-at-end-Ch12 assumptions from historical trackers.
