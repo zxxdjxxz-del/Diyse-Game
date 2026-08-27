@@ -20,13 +20,14 @@ If a task conflicts with these files or a newer explicit user instruction, stop 
 
 ## Current authority state
 
-- Whole-project written authority: **Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.98 / Audit113**.
+- Whole-project written authority: **Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.02 / Audit117**.
+- Current item/equipment/Relic/Legacy/Forge/Subclass-access authority: `docs/canon/AUDIT117_ITEM_EQUIPMENT_LEGACY_AND_CLASS_PROGRESSION_RECONCILIATION_LOCK.md`.
+- Current Card / Prime resource + command authority: `docs/canon/AUDIT116_STANDARD_CARD_PRIME_RESOURCE_AND_COMMAND_RECONCILIATION_LOCK.md`.
+- Current global combat / Ruin / status / class-Ability authority: `docs/canon/AUDIT115_COMBAT_RUIN_STATUS_AND_FULL_CLASS_ABILITY_NORMALIZATION_LOCK.md`.
 - Current chapter-number reconciliation: `docs/canon/AUDIT113_POST_INSERTION_CHAPTER_REINDEX_AND_LATE_GAME_OPERATIONAL_FILE_RECONCILIATION_LOCK.md`.
 - Current Chapter-10 story authority: `docs/canon/AUDIT112_CHAPTER_10_THE_LAST_BLANK_MIRENA_EASTERN_WAYFINDER_CALDER_AND_BURIED_REGISTRY_CLOSURE.md`.
 - Current world-map / region authority: `docs/canon/AUDIT111_FINAL_WORLD_MAP_REGION_TERMINOLOGY_AND_VISUAL_AUTHORITY_CLOSURE.md`.
 - Current travel / point-of-no-return authority: `docs/canon/AUDIT109_WORLD_MAP_ROAD_TRAVEL_AND_LAST_SHELTER_POINT_OF_NO_RETURN_CLOSURE.md`.
-- Current Acuity / Story Prime authority: `docs/canon/AUDIT105_ACUITY_FACE_STORY_PRIME_AND_RESOURCE_RECONCILIATION_LOCK.md`.
-- Current class / Synthesis / Legacy mechanics: Audit104 plus the current post-insertion timing overlay.
 - Chapters 0–4 remain COMPLETE/CLOSED at story/dialogue authority level.
 - HD-2D is the sole active presentation target.
 
@@ -120,7 +121,7 @@ Do not invent Chapter-10 item/EXP/CEXP/Card rewards in story implementation; tho
 - **Regional Hunt #11 — Throne of Emperor Vaelkor** belongs to current Chapter 12 and remains separate from the Elite.
 - Vaelkor boss remains **Emperor of the Reforged Host → Sovereign Panoply Unbound**. He remains consciously himself and morally responsible; no possession and no third Vaelkor form.
 - Vaelkor's defeat opens cleanup/preparation and does not automatically start Chapter 13.
-- Late Synthesis-resolution beats occur in **late Chapter 12**, not late Chapter 11.
+- Native Legacy completion may occur during the late-Ch12 / early-Ch13 returnable window when its individual requirements are satisfied. There is **no mandatory Synthesis-resolution scene gate**.
 
 ## Current Chapter 13 final-act hard boundaries
 
@@ -181,18 +182,17 @@ Current Final Severance order:
 - MP is the universal ordinary Ability resource; no character-specific combat gauges.
 - No Ability or Ultimate requires a specific equipped weapon once learned.
 - Exactly **24 Standard Cards** and **12 Prime Cards**.
-- Standard Cards are unlimited-use and data-driven.
-- Cards remain outside ordinary inventory.
+- Standard Cards are reusable and MP-consuming; they are data-driven and remain outside ordinary inventory.
 - Persistent game state remains versioned plain data separate from scene nodes.
 - Random encounters remain normal hostile-exploration grammar where approved; do not replace them with visible roaming enemies without explicit canon revision.
 
 Current Base/Subclass identities:
-- Cyanis — Crest Knight / Crest Arcanist
-- Vaelira — Green Arcanist / Axiomblade
-- Ilyra — Blue Warden / Vowblade
-- Seyrik — Ruin Vanguard / Ruin Warden
-- Torren — War Archer / Routeweaver
-- Nimera — Cardweaver / Truthshot
+- Cyanis — **Crest Knight / Crest Magus**
+- Ilyra — **Blue Warden / Vowblade**
+- Torren — **War Archer / Routeweaver**
+- Nimera — **Cardweaver / Sixfold Knight**
+- Vaelira — **Prism Archer / Green Arcanist**
+- Seyrik — **Ruin Vanguard / Ruin Healer**
 
 ## Sixfold Volition
 
@@ -210,15 +210,74 @@ Reciprocal pairs:
 - Ilyra ⇄ Seyrik
 - Torren ⇄ Nimera
 
-## Legacy / Synthesis timing
+## Subclass donor equipment access — Audit117
 
-- Mandatory pair-resolution scenes occur in **late Chapter 12**.
-- Character Quests remain optional while world return remains available.
-- Secured Legacy completion/release at Cresthaven remains available through the **Chapter-13 pre-Last-Shelter returnable period**.
-- Final cutoff is the Last Shelter → Reactor Galleries commitment.
-- The Legacy interaction remains authored restoration/completion, not crafting.
+Current progression milestones:
 
-Exact post-insertion CEXP timing is pending the dedicated progression/item pass. Do not preserve old 12-chapter CEXP milestones by assumption.
+- **CL1** — linked donor Primary access
+- **CL3** — linked donor Armor access
+- **CL5** — linked donor Secondary access where applicable
+- **CL7** — linked donor Relic access
+- **CL11** — linked donor Legacy access
+
+The receiver equips the donor's **existing obtained item**. No separate shared Relic/Legacy artifact is created.
+
+**Synthesis is removed.** Never implement a Synthesis Mastery node, Synthesis MP cost, Synthesis passive, or Base-CL13/Subclass-CL13 Synthesis gate.
+
+## Legacy project / Kessara baseline — Audit117
+
+There are exactly **17 native Legacy equipment pieces** and **no separate shared-Legacy artifact catalog**.
+
+Native Legacy completion requires:
+- Base CL13;
+- all four Core Masteries;
+- that character's Character Quest / resolution;
+- the Character Quest's unique Legacy Component;
+- the character's unique Legacy precursor;
+- dedicated Legacy Gate A and Gate B materials;
+- Kessara project availability.
+
+Gate A releases the Legacy weapon. Gate B releases all remaining pieces in that native package.
+
+Forge economy:
+- 5 Face components per Face / 30 total;
+- 2 Legacy-gate-specific per Face;
+- 3 Relic-copy-specific per Face;
+- Legacy-gate and Relic-copy materials are not interchangeable.
+
+Relic-copy forging may create one identical extra copy of an already-obtained Relic. Max quantity per Relic = 2. Legacies remain unique.
+
+Character Quests remain optional while world return remains available, but a character's own Legacy cannot be completed until that character's Character Quest and unique Legacy Component are complete/registered.
+
+Secured Legacy completion remains available through the **Chapter-13 pre-Last-Shelter returnable period**. Final cutoff is the Last Shelter → Reactor Galleries commitment.
+
+Exact post-insertion CEXP timing remains pending the dedicated progression pass. Do not preserve old 12-chapter CEXP milestones by assumption.
+
+## Equipment-count / slot firewall — Audit117
+
+Current active catalog:
+- **38 ordinary equipment pieces**
+- **36 Relics**
+- **17 Legacies**
+- **91 total**
+
+All 12 Subclass Relics are removed.
+
+Slot rules that must not regress:
+- Ilyra — Wardrod Primary; Shield or Focus Secondary.
+- Torren Great Bow — Weapon + Secondary.
+- Vaelira Arcane Staff — one-slot Primary; Focus legal.
+- Seyrik Two-Handed Sword — Weapon + Secondary.
+- Nimera ordinary / surviving Relic Conduits — one-slot.
+- Nimera native Legacy Conduit — **Weapon + Secondary**.
+
+Equipment tier identity:
+
+> **Ordinary < Relic < Legacy**
+
+Legacies may carry capstone Max HP / Max MP / Accuracy / Evasion perks. Exact 17-piece Legacy stat/perk numbers remain pending approval; do not implement the working v600 numbers as canon yet.
+
+Final Relic / Legacy / Legacy-Component names remain deferred until dialogue is substantially more complete.
 
 ## Critical presentation rule
 
