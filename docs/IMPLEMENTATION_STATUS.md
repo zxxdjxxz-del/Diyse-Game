@@ -1,6 +1,6 @@
 # Diyse — Current Implementation Status
 
-**Written authority checkpoint:** **v2.04 / Audit119**  
+**Written authority checkpoint:** **v2.05 / Audit120**  
 **Presentation target:** HD-2D  
 **Active repository:** `zxxdjxxz-del/Diyse-Game`
 
@@ -14,7 +14,8 @@
 - Final visual asset replacement remains production work where not already implemented.
 - Detailed late-game scene/runtime implementation remains pending.
 - Exact **ordinary-equipment and surviving-Relic stats/source data** are closed under Audit118 and may be implemented directly.
-- Audit119 now supplies current **universal direct-damage math, Standard-Card MP, Prime Invocation MP/scaling/control, named resistance hierarchy, and MP-restorative ladder**.
+- Audit119 supplies current **Standard-Card MP, Prime Invocation MP/scaling/control, named resistance hierarchy, MP-restorative ladder, and high-level progression directives**.
+- Audit120 supplies the controlling **Physical/Magical/Hybrid direct-damage equations and full Critical Hit system**.
 - Exact 17-piece Legacy raw-stat/capstone-perk values remain pending approval and must not be implemented from working v600 yet.
 - Exact current Base/Subclass Ability MP values after the latest class-kit identities remain open; preserve the higher-cost direction but do not implement stale old tables as final.
 
@@ -22,14 +23,45 @@
 
 ## Current numerical implementation guardrails
 
-### Direct damage
-Use Audit119:
+### Direct damage / Critical Hits
 
-> **Component Damage = Weight × (Power / 100) × Offense × 1.50 × [150 / (150 + Effective Defensive Stat)]**
+Use Audit120.
 
-Physical = Attack vs Defense. Magical = Magic vs Spirit. Same-axis penetration caps at 75%. No hidden AoE penalty or universal random damage variance.
+Physical:
 
-Universal Critical payout/order remains open.
+> **BasePhysicalDamage = [Attack² / (Attack + EffectiveDefense)] × (Power / 100)**
+
+> **EffectiveDefense = CurrentDefense × (1 - EffectiveDefensePenetration)**
+
+Magical:
+
+> **BaseMagicalDamage = [Magic² / (Magic + EffectiveSpirit)] × (Power / 100)**
+
+> **EffectiveSpirit = CurrentSpirit × (1 - EffectiveSpiritPenetration)**
+
+Physical = Attack vs Defense. Magical = Magic vs Spirit. Same-axis penetration caps at **75%**.
+
+Do **not** implement the superseded Audit119 `Offense × 1.50 × 150/(150+Defense)` resolver.
+
+Critical rules:
+- base Critical Chance = **5%**;
+- Critical Chance modifiers add flat percentage points;
+- ordinary random Critical Chance cap = **50%**;
+- eligible Critical damage = **1.5×** resolved direct damage;
+- Base Hit/Evasion check occurs before the Critical roll;
+- misses do not roll Critical;
+- multihit actions roll Crit independently per authored direct hit by default;
+- one authored Hybrid hit uses one Critical roll on the combined eligible direct-damage result;
+- eligible Magical direct hits use the same 1.5× multiplier;
+- Crit does not bypass Defense/Spirit;
+- Crit does not automatically improve status application;
+- Burn/Bleed and other explicitly excluded indirect damage cannot Crit.
+
+No hidden AoE penalty or universal random damage variance. Round at the normal final-damage step.
+
+Use **Base Hit**, not `Accuracy`, as the canonical hit-stat term.
+
+The global Base Hit-vs-Evasion hit-resolution formula remains open.
 
 ### Standard Cards
 - exactly 24
@@ -157,7 +189,7 @@ Relic copy: one identical extra copy maximum per already-obtained Relic; max qua
 
 Equipment power hierarchy: **Ordinary < Relic < Legacy**.
 
-Exact 17-Legacy raw stats and Max-HP/Max-MP/Accuracy/Evasion perk assignments are pending. Legacy elemental/status/perk/passive treatment also remains an explicit open design question.
+Exact 17-Legacy raw stats and Max-HP/Max-MP/**Base-Hit**/Evasion perk assignments are pending.
 
 ---
 
@@ -286,7 +318,7 @@ Do not silently invent:
 - late-game exact dialogue before explicit scene production;
 - final Legacy numbers while v600 remains pending;
 - final Base/Subclass Ability MP values before the current-kit cost pass;
-- the global Accuracy/Evasion or Critical formula;
+- the global Base Hit/Evasion formula;
 - exact HP-consumable values while open;
 - final Level-70 Ch1–13 EXP/enemy/encounter tables;
 - final currency denomination;
@@ -297,6 +329,7 @@ Do not silently invent:
 ## Current authoritative documents
 
 - `docs/ACTIVE_CANON.md`
+- `docs/canon/AUDIT120_CRITICAL_HIT_AND_DIRECT_DAMAGE_FORMULA_LOCK.md`
 - `docs/canon/AUDIT119_POST_AUDIT116_COMBAT_RESOURCE_PRIME_AND_PROGRESSION_RECONCILIATION_LOCK.md`
 - `docs/canon/AUDIT118_COMPLETE_EQUIPMENT_TRACKER_DELTA_PROMOTION_AND_NUMERICAL_CATALOG_LOCK.md`
 - `docs/canon/AUDIT117_ITEM_EQUIPMENT_LEGACY_AND_CLASS_PROGRESSION_RECONCILIATION_LOCK.md`
