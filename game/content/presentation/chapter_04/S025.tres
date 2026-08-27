@@ -11,4 +11,4 @@ battle_background_family = ""
 cutscene_tier = "C1"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "POSTCRISIS_SAFE", "PROCEDURAL_SAFEGUARD_STATE_CHANGES", "PORTRAIT_PAPERWORK_LED"])
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "POSTCRISIS_SAFE", "PROCEDURAL_SAFEGUARD_STATE_CHANGES", "PORTRAIT_PAPERWORK_LED", "REACTION_ANNEX", "LEGACY_ENVIRONMENT_ID_ONLY"])
