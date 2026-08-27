@@ -60,20 +60,22 @@ Do not fabricate class-symmetry permissions that are not separately authored.
 | 4 | Ability 2 | 600 |
 | 5 | Subclass Mastery 2 eligibility + donor Secondary where applicable | 950 |
 | 6 | Trait II | 1,350 |
-| 7 | Ability 3 + Subclass Mastery 3 eligibility + **donor Relic access** | 1,800 |
+| 7 | Ability 3 + **Subclass Mastery 3 / Equipment Mastery eligibility** | 1,800 |
 | 9 | Ability 4 | 2,850 |
 | **10** | **Ability 5** | **3,450** |
-| **11** | **Subclass Mastery 4 eligibility + donor Legacy access** | **4,150** |
+| **11** | **Subclass Mastery 4 / Legacy Mastery eligibility** | **4,150** |
 | 12 | Trait III | 4,950 |
 | 13 | Subclass Ultimate | 6,000 |
 
 Important supersessions:
 
-- donor Relic access is **CL7**, not CL10;
+- purchasing **Subclass Mastery 3 at CL7** grants donor Relic access;
 - Ability 5 is **CL10**, not CL11;
 - Subclass Mastery 4 is **CL11**, not CL10;
-- donor Legacy access is **CL11**;
+- purchasing **Subclass Mastery 4 at CL11** grants donor Legacy access;
 - **Synthesis is removed**.
+
+Reaching CL7 or CL11 only makes the corresponding Mastery node eligible. Donor Relic/Legacy permission is granted when the node is purchased under the Mastery Point rules.
 
 Donor Relic/Legacy access is permission to equip the linked character's already-obtained item. It does not create another artifact.
 
@@ -156,10 +158,11 @@ The dedicated progression/item pass must rebuild:
 4. Regional Hunt / Major Hunt CEXP awards;
 5. Base-focused, Subclass-focused, split-focus, and optional-heavy simulations;
 6. exact timing of Base CL13 and Subclass CL13 under the current Volition placement;
-7. interaction with current donor Relic CL7 / donor Legacy CL11 timing;
+7. exact timing of Subclass Mastery 3 purchase / donor Relic access and Subclass Mastery 4 purchase / donor Legacy access;
 8. interaction with the current **Level-70** character EXP curve;
 9. the approximately **55–65 minute** mandatory Chapter 10 contribution;
-10. late-game enemy/reward/economy pacing that depends on the extra chapter.
+10. late-game enemy/reward/economy pacing that depends on the extra chapter;
+11. the Mastery Point grant total now that Synthesis has been removed and only 8 Mastery nodes remain.
 
 Do not silently compress Chapter 10 out of the curve and do not simply graft an old full-chapter CEXP budget onto it without balance testing.
 
@@ -178,7 +181,7 @@ Current native requirements are controlled by Audit117 and include:
 - Legacy Gate A and Gate B materials;
 - Kessara project availability.
 
-Subclass CL11 governs only the linked receiver's permission to equip the donor's already-obtained Legacy equipment.
+Subclass Mastery 4 governs only the linked receiver's permission to equip the donor's already-obtained Legacy equipment.
 
 There is **no Synthesis system**.
 
