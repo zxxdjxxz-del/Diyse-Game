@@ -1,66 +1,27 @@
 # Diyse — Class Synthesis and Legacy Post-Insertion Timing Overlay — 2026-08-23
 
-**Status:** CURRENT / CONTROLLING TIMING OVERLAY  
-**Authority:** Audit113  
-**Applies to:** `AUDIT104_RECIPROCAL_CLASS_SYNTHESIS_LEGACY_AND_LEGACY_COMPONENT_INTEGRATION_LOCK.md`, `CLASS_SYNTHESIS_WORKING_MODEL.md`, pair Synthesis working specs, Legacy working specs, and the Legacy Component secured-release reconciliation where they retain pre-insertion late-game chapter labels.
+**Status:** **RETIRED / SUPERSEDED BY v2.02 / Audit117**  
+**Current authority:** `docs/canon/AUDIT117_ITEM_EQUIPMENT_LEGACY_AND_CLASS_PROGRESSION_RECONCILIATION_LOCK.md`  
+**Historical authority:** Audit113 chapter reindex
 
-This overlay changes **chapter timing labels only**. It does not redesign Synthesis mechanics, pair effects, Legacy identities, equipment legality, Character Quest rewards, or class progression.
+This file previously translated the old Synthesis-resolution / Legacy-release timing into the current 13-chapter spine.
 
-## 1. Synthesis resolution scenes
+Audit117 removes Synthesis entirely, so the former mandatory pair-resolution scenes are **not** current Synthesis prerequisites and this file is no longer a controlling Synthesis overlay.
 
-All old references to the three mandatory pair-resolution beats occurring in `late Chapter 11` now mean **late Chapter 12**.
+Current Legacy timing rules instead are:
 
-Current placements:
-- Cyanis ⇄ Vaelira — **What Holds, What Changes** — Cresthaven — late Chapter 12.
-- Ilyra ⇄ Seyrik — **Keep Them Alive** — Vhalmarch / Forward-Hub recovery area — late Chapter 12.
-- Torren ⇄ Nimera — **Enough to Move** — Vhalmarch / Forward-Hub operations/map area — late Chapter 12.
+- a character's Character Quest supplies the unique Legacy Component and satisfies that character's resolution requirement;
+- native Legacy completion requires Base CL13, all four Core Masteries, the Character Quest Legacy Component, the unique Legacy precursor, Gate A and Gate B materials, and Kessara project availability;
+- Character Quest and precursor may be completed/obtained in either order;
+- donor Legacy permission is handled by **Subclass Mastery 4 at CL11**, not Synthesis;
+- secured native Legacy completion remains available during the late-Ch12 / early-Ch13 returnable period when the individual requirements are met;
+- entering Chapter 13 does not itself close access;
+- the final optional-content / Legacy-project cutoff remains **Last Shelter → Reactor Galleries** under Audit109.
 
-The scenes remain mandatory authored continuity, item-reward-free, and Synthesis narrative prerequisites.
+Historical pair-scene material may remain useful as story-development provenance, but it is not an active Synthesis gate unless separately re-authored under later canon.
 
-## 2. Secured Legacy release
+For current progression use:
 
-All old references to a `Chapter-12 Cresthaven secured Legacy release` now mean the **Chapter-13 pre-Last-Shelter returnable period**.
-
-Current rule:
-- Character Quest supplies the unique Legacy Component.
-- Cresthaven contains the secured Legacy masterwork.
-- Eligible Legacy completion/release remains available while world return remains available.
-- Entering Chapter 13 does not itself close access.
-- The final cutoff is **Last Shelter → Reactor Galleries**, the true irreversible threshold under Audit109.
-
-## 3. Character Quest availability
-
-Any older phrase `available until the Chapter-12 point of no return` is superseded.
-
-Current interpretation:
-- Character Quests remain available through the Chapter-12 cleanup state and into the returnable early Chapter-13 period;
-- the final cutoff is the explicit Last-Shelter irreversible commitment.
-
-## 4. Final-chapter references
-
-Any old subsystem wording using `mandatory Chapter 12 completion` for the final Ancient-domain chapter now means **mandatory Chapter 13 completion**.
-
-## 5. CEXP timing caution
-
-The working Synthesis model's pre-insertion claim that a Subclass-focused route reaches CL13 at a particular old chapter point is **not a current exact progression lock** after insertion of The Last Blank.
-
-Do not silently move or recalculate that numerical timing here.
-
-Exact Base/Subclass CEXP timing across the 13-chapter structure remains for the separate progression/item pass.
-
-Fixed rules remain:
-- Base cap = CL13;
-- Subclass cap = CL13;
-- Synthesis eligibility still requires both CL13, all eight prior Masteries, authored resolution, and 1 unspent MP.
-
-## 6. Conflict rule
-
-Where an older incorporated working file still prints:
-- late Chapter 11 Synthesis resolution;
-- Chapter 12 secured Legacy release;
-- Chapter 12 point of no return;
-- final Chapter 12 completion;
-
-this overlay and Audit113 control.
-
-Underlying mechanics remain exactly inherited unless separately revised.
+- `docs/canon/AUDIT117_ITEM_EQUIPMENT_LEGACY_AND_CLASS_PROGRESSION_RECONCILIATION_LOCK.md`
+- `docs/CLASS_MASTERY_WORKING_MODEL.md`
+- `docs/CLASS_CEXP_WORKING_MODEL.md`
