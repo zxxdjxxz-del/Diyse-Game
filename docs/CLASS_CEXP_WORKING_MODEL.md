@@ -1,19 +1,12 @@
-# Diyse — CL13 Class EXP Working Model
+# Diyse — CL13 Class EXP Model
 
-**Status:** ACTIVE WORKING DESIGN — FULL CEXP REDO REQUIRED  
-**Current whole-project authority:** **v2.07 / Audit122**  
-**Progression direction:** **Audit121**  
-**Current fixed class caps:** Base CL13 / Subclass CL13
-
-This file is a working input to the dedicated progression pass. It is **not** a closed chapter-by-chapter CEXP budget.
-
-The old 12-chapter CEXP proof and older Level-60-era timing are retired as current implementation numbers.
+**Status:** **CURRENT STRUCTURAL MODEL — CLOSED UNDER AUDIT123**  
+**Current whole-project authority:** **v2.08 / Audit123**  
+**Class caps:** Base CL13 / Subclass CL13
 
 ---
 
-# 1. Working class-level threshold curve
-
-The inherited CL13 threshold curve remains a **starting model to re-certify**, not a newly locked final curve:
+# 1. Class-level threshold curve
 
 | Class Level | Cumulative CEXP | CEXP to next |
 |---:|---:|---:|
@@ -31,63 +24,25 @@ The inherited CL13 threshold curve remains a **starting model to re-certify**, n
 | CL12 | 4,950 | 1,050 |
 | CL13 | **6,000** | — |
 
-The dedicated CEXP redo must confirm or revise this threshold curve if needed to hit the current pacing target.
-
-Base and Subclass CEXP remain separate.
+Base and Subclass CEXP are separate.
 
 ---
 
-# 2. Current class-growth architecture
+# 2. CEXP assignment
 
-Base/Subclass cap = **CL13**.
+All recruited permanent characters receive 100% of awarded CEXP for their own currently selected class whether active or reserve.
 
-No permanent character uses a Subclass before **Sixfold Volition at the end of Chapter 7**.
-
-Chapter 8 is the first full mandatory chapter built around sustained post-Volition Subclass use.
-
-Synthesis is removed.
-
-Exactly **8 active Mastery nodes** remain:
-- 4 Core
-- 4 Subclass
-
-Subclass milestone architecture remains:
-- CL1 — donor Primary + Trait I + Ability 1
-- CL3 — Mastery 1 eligibility + donor Armor
-- CL4 — Ability 2
-- CL5 — Mastery 2 eligibility + donor Secondary where applicable
-- CL6 — Trait II
-- CL7 — Ability 3 + Mastery 3 / Equipment Mastery eligibility
-- CL9 — Ability 4
-- CL10 — Ability 5
-- CL11 — Mastery 4 / Legacy Mastery eligibility
-- CL12 — Trait III
-- CL13 — Subclass Ultimate / cap
-
-Purchase of Subclass Mastery 3 grants donor Relic access. Purchase of Subclass Mastery 4 grants donor Legacy access.
-
----
-
-# 3. Current CEXP assignment rule
-
-All recruited permanent characters receive 100% of awarded CEXP for **their own currently selected class**, whether active or reserve.
-
-Boundaries:
 - selected Base or Subclass receives the reward;
 - unselected class receives 0 CEXP;
 - reserve status does not reduce CEXP;
 - unrecruited characters do not accumulate offscreen CEXP;
-- temporary/guest allies are outside the permanent class-progression economy unless separately authored.
-
-The meaningful training choice is **which class the character develops**, not whether they occupy one of four active battle slots.
+- CEXP assigned to an already-capped class is lost and does not spill into the other class.
 
 ---
 
-# 4. Recruitment inputs — working only
+# 3. Recruitment inputs
 
-These inherited starting Base-Class values remain usable simulation inputs until the redo tests them:
-
-| Character | Recruitment | Working starting Base CL | Working cumulative CEXP |
+| Character | Recruitment | Starting Base CL | Starting Base CEXP |
 |---|---|---:|---:|
 | Cyanis | Ch0 | CL1 | 0 |
 | Ilyra | Ch0 | CL1 | 0 |
@@ -96,102 +51,94 @@ These inherited starting Base-Class values remain usable simulation inputs until
 | Vaelira | Ch4 | CL7 | 1,800 |
 | Seyrik | Ch6 | CL8 | 2,300 |
 
-They are not protected from adjustment if the current progression simulation shows a problem.
+---
+
+# 4. Pre-Volition Base CEXP
+
+| Chapter | Campaign CEXP |
+|---:|---:|
+| Ch1 | 350 |
+| Ch2 | 450 |
+| Ch3 | 550 |
+| Ch4 | 650 |
+| Ch5 | 800 |
+| Ch6 | 950 |
+| Ch7 | 1,200 |
+| **Total** | **4,950** |
+
+Earliest recruits therefore reach approximately Base CL12 at the end-Ch7 Sixfold Volition rather than automatically capping Base CL13 beforehand.
 
 ---
 
-# 5. Controlling pacing target
+# 5. Post-Volition CEXP
 
-Player level cap = **70**.
+Subclasses unlock at the end of Chapter 7 through Sixfold Volition.
 
-Chapter 0 grants **no character levels**.
+| Chapter | Campaign CEXP |
+|---:|---:|
+| Ch8 | **1,300** |
+| Ch9 | **1,450** |
+| Ch10 — The Last Blank | **1,200** |
+| Ch11 | **1,800** |
+| Ch12 | **2,750** |
+| **Ch8–12 total** | **8,500** |
+| Ch13 catch-up / overflow | **1,500** |
 
-Player-level pacing:
-- Chapters 1–7 remain somewhat below a near-linear curve;
-- faster player-level gains begin after Chapter 7.
+Normal full Base + Subclass Class-Level completion occurs during Chapter 12:
+- Torren — early Ch12
+- Vaelira — early/mid Ch12
+- Cyanis — mid Ch12
+- Ilyra — mid Ch12
+- Nimera — mid/late Ch12
+- Seyrik — approximately end Ch12
 
-Class-progression target:
+This is intentional. Class Levels complete before the final Mastery-board point and before the campaign ending.
 
-> **A normal-route character should be about to max their full class progression around player Level 62.**
-
-Lv62–70 should provide meaningful full-build play.
-
-The CEXP curve must therefore not complete all meaningful class growth around Lv50.
-
----
-
-# 6. Required CEXP redo
-
-The dedicated progression pass must produce and test:
-
-1. whether the 0→6,000 CL13 threshold curve remains appropriate;
-2. Ch1–7 Base-class CEXP budgets;
-3. end-Ch7 Base-class state for all six;
-4. Chapter 8–13 Base/Subclass training opportunities;
-5. exact normal-route Base CL13 / Subclass CL13 timing;
-6. class completion against the **~Lv62** player target;
-7. Seyrik's late-recruit catch-up;
-8. normal route vs completionist timing;
-9. Character Quest, Regional Hunt, and Major Hunt acceleration;
-10. exact 8-point Mastery Point grant cadence;
-11. donor Relic access timing at Mastery 3;
-12. donor Legacy access timing at Mastery 4;
-13. interaction with current encounter counts and player EXP;
-14. the current 13-chapter structure including Chapter 10 — The Last Blank.
-
-Do not simply transplant a pre-insertion full-chapter budget into the new chapter spine.
+Optional pre-threshold CEXP planning envelope remains approximately **1,800 maximum** pending exact source-by-source placement.
 
 ---
 
-# 7. Mastery Point coupling
+# 6. Subclass milestone timing under pure Subclass focus
 
-The final Mastery Point economy must award exactly **8 total points per character**, matching the 8 active Mastery nodes.
+| Milestone | CEXP | Approximate timing |
+|---|---:|---|
+| CL3 / Mastery 1 eligible | 350 | Ch8 |
+| CL5 / Mastery 2 eligible | 950 | Ch8 |
+| CL7 / Equipment Mastery eligible | 1,800 | Ch9 |
+| CL9 | 2,850 | Ch10 |
+| CL10 | 3,450 | Ch10 |
+| CL11 / Legacy Mastery eligible | 4,150 | Ch11 |
+| CL12 | 4,950 | Ch11 |
+| CL13 / Ultimate | 6,000 | early Ch12 on pure focus |
 
-Current simulation-only candidate:
-- Lv5
-- Lv10
-- Lv15
-- Lv20
-- Sixfold Volition
-- Lv40
-- Lv50
-- Lv60
-
-This exact schedule is **not locked**.
-
-The final point should land shortly before the expected ~Lv62 full-class-completion window.
+Donor Relic/Legacy use still requires the relevant purchased Mastery and the donor's actual obtained item.
 
 ---
 
-# 8. Class Ability MP coupling
+# 7. Player-level relationship
 
-The class Ability MP check remains a separate but related open pass.
+Current campaign anchors under Audit123:
+- End Ch12 ≈ **Lv57**
+- Last Shelter ≈ **Lv60**
+- End Ch13 ≈ **Lv62**
 
-Do not use the CEXP redo as permission to redesign established Ability functions.
+Desired progression sequence:
+1. Base + Subclass Class Levels complete during Ch12 / roughly Lv53–57;
+2. final automatic Mastery Point arrives at Lv60 around Last Shelter;
+3. normal campaign ends around Lv62.
 
-The MP check must validate the current working costs against:
-- expected Max MP at acquisition;
-- action Power/healing/targeting/status/penetration;
-- Mastery MP reduction;
-- MP recovery/equipment;
-- Standard Card costs;
-- Prime Invocation costs;
-- expected encounter endurance.
-
----
-
-# 9. Native Legacy boundary
-
-Native Legacy completion is not a Subclass CEXP capstone.
-
-A character's own native Legacy does not require Synthesis or donor Legacy Mastery.
-
-Current native Legacy requirements remain controlled by the equipment/Legacy canon and include the established Base-class, Core-Mastery, Character Quest, component, precursor, Gate A/Gate B, and Kessara requirements.
+Class Level completion is therefore intentionally earlier than full Mastery-board completion.
 
 ---
 
-# 10. Current verdict
+# 8. Remaining CEXP implementation work
 
-**CEXP REDO remains OPEN and REQUIRED.**
+Structural CEXP is closed.
 
-Do not treat older exact CEXP/chapter timing tables as implementation authority.
+Still needed:
+- exact Light / Standard / Heavy formation CEXP;
+- named/story CEXP package placement;
+- optional-source CEXP placement inside the ~1,800 envelope;
+- encounter-by-encounter implementation validation.
+
+Do not reopen the 0→6,000 curve or chapter-level CEXP envelopes merely to solve a later raw-stat issue unless integrated testing shows a concrete pacing failure.
