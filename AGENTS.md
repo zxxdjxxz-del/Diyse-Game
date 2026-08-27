@@ -20,8 +20,9 @@ If a task conflicts with these files or a newer explicit user instruction, stop 
 
 ## Current authority state
 
-- Whole-project written authority: **Diyse v2.04 / Audit119**.
-- Current combat/resource/Prime/progression reconciliation: `docs/canon/AUDIT119_POST_AUDIT116_COMBAT_RESOURCE_PRIME_AND_PROGRESSION_RECONCILIATION_LOCK.md`.
+- Whole-project written authority: **Diyse v2.05 / Audit120**.
+- Current Critical/direct-damage authority: `docs/canon/AUDIT120_CRITICAL_HIT_AND_DIRECT_DAMAGE_FORMULA_LOCK.md`.
+- Compatible combat/resource/Prime/progression reconciliation: `docs/canon/AUDIT119_POST_AUDIT116_COMBAT_RESOURCE_PRIME_AND_PROGRESSION_RECONCILIATION_LOCK.md`.
 - Exact ordinary/Relic/Legacy-Trait/Forge numerical catalog: `docs/canon/AUDIT118_COMPLETE_EQUIPMENT_TRACKER_DELTA_PROMOTION_AND_NUMERICAL_CATALOG_LOCK.md`.
 - Equipment/Legacy/class-access structure: `docs/canon/AUDIT117_ITEM_EQUIPMENT_LEGACY_AND_CLASS_PROGRESSION_RECONCILIATION_LOCK.md`.
 - Compatible Card/Prime command authority: `docs/canon/AUDIT116_STANDARD_CARD_PRIME_RESOURCE_AND_COMMAND_RECONCILIATION_LOCK.md`.
@@ -37,23 +38,48 @@ Historical audit filenames and trackers remain provenance, not automatic current
 
 ---
 
-## Current system firewall — Audit119
+## Current system firewall — Audit120 / Audit119
 
-### Direct damage
+### Direct damage / Critical Hits
 
-Use:
+Physical direct damage:
 
-> **Component Damage = Weight × (Power / 100) × Offense × 1.50 × [150 / (150 + Effective Defensive Stat)]**
+> **BasePhysicalDamage = [Attack² / (Attack + EffectiveDefense)] × (Power / 100)**
+
+> **EffectiveDefense = CurrentDefense × (1 - EffectiveDefensePenetration)**
+
+Magical direct damage:
+
+> **BaseMagicalDamage = [Magic² / (Magic + EffectiveSpirit)] × (Power / 100)**
+
+> **EffectiveSpirit = CurrentSpirit × (1 - EffectiveSpiritPenetration)**
 
 - Physical = Attack vs Defense.
 - Magical = Magic vs Spirit.
-- Character-Ability Ruin = 75% Attack / 25% Magic.
-- Same-axis penetration adds in percentage points and caps at 75%.
+- Character-Ability Ruin remains 75% Attack / 25% Magic where Audit115 applies.
+- Same-axis penetration adds in percentage points and caps at **75%**.
 - No cross-axis penetration transfer.
 - No hidden universal AoE penalty.
 - No universal random damage variance.
 - Basic Attack = 100 Power / Physical / Neutral unless equipment explicitly changes affinity.
-- Universal Critical payout/order remains unresolved; do not invent it.
+
+Critical rules:
+- base Critical Chance = **5%**;
+- Critical bonuses are flat percentage-point additions;
+- ordinary random Critical Chance cap = **50%**;
+- eligible Critical multiplier = **1.5×**;
+- resolve Base Hit/Evasion before Critical Chance;
+- a miss gets no Critical roll;
+- each authored direct hit in a multihit action rolls independently by default;
+- one authored Hybrid hit uses one Critical roll on its combined eligible direct damage;
+- eligible Magical direct hits use the same 1.5× multiplier;
+- Critical does not bypass Defense/Spirit;
+- Critical does not automatically improve harmful-status application;
+- Burn, Bleed, explicitly no-Crit copied/echo damage, indirect Max-HP damage unless explicitly authored otherwise, and healing cannot Crit.
+
+Do not implement the superseded Audit119 `Offense × 1.50 × 150/(150+Defense)` resolver.
+
+Use **Base Hit**, never `Accuracy`, as the current hit-stat term.
 
 ### Standard Cards
 
@@ -186,9 +212,7 @@ Equipment hierarchy:
 
 > **Ordinary < Relic < Legacy**
 
-Exact Legacy raw stats / HP-MP-Accuracy-Evasion assignments remain pending approval. Do not implement the working v600 numbers as canon yet.
-
-Legacy elemental/status/perk/passive treatment is still an open design point; do not silently discard the earlier requirement or invent a resolution.
+Exact Legacy raw stats / HP-MP-Base-Hit-Evasion assignments remain pending approval. Do not implement the working v600 numbers as canon yet.
 
 Final Relic / Legacy / Legacy-Component / Forge-variant names remain deferred.
 
@@ -370,4 +394,4 @@ Later terminology/canon overlays may require bounded reference-safe updates with
 - Do not optimize around placeholders in a way that blocks final exact assets.
 - Do not change canon/specification documents as accidental side effects of code work.
 
-The active working tracker is being consolidated. Do not treat the frozen 165,000-line cumulative tracker as an implementation authority; use master audits and the compact current tracker instead.
+The active working tracker is consolidated. Do not treat the frozen 165,000-line cumulative tracker as an implementation authority; use master audits and the compact current tracker instead.
