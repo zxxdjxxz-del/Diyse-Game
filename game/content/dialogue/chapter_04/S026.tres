@@ -12,11 +12,11 @@ location_id = "LOC_IVORYBRIDGE"
 trigger_id = "trigger.chapter_04.s026"
 completion_flag = "scene.s026.complete"
 participants = Array[String](["junior_researcher","vaelira","nimera","torren","cyanis","ilyra"])
-authoring_notes = "Exact Chapter 4 Resource conversion from docs/chapters/dialogue/chapter_04/S026.md; accepted through CH4-A029. Spoken sequence is exact; staging is carried in cues where present. Maevra is not an active Chapter 4 party member unless explicitly authored. SHA-256: 65180d98b2980f3d4862b04e347adf7bd2fa4b8a65ba16850f64d57dbd0d11ca."
+authoring_notes = "Runtime synchronized 2026-08-27 to the approved four-element S026 / Audit121. Spoken sequence and staging follow docs/chapters/dialogue/chapter_04/S026.md."
 beats = [
 {"beat_id":"S026_B001","speaker_id":"","text":"","cues":{"staging":"**IVORYBRIDGE — MORNING** Party stayed overnight because it was late and they had fought through the Annex; no forced emotional-processing framing."}},
 {"beat_id":"S026_B002","speaker_id":"","text":"","cues":{"staging":"Safe settlement. No random encounters. Shops/recovery/save/equipment/formation available. Vaelira near municipal research board. Objective: Speak with Vaelira when ready."}},
-{"beat_id":"S026_B003","speaker_id":"junior_researcher","text":"I changed the third return table.","cues":{"staging":"Vaelira stands before a public technical board. Yesterday's six-channel model is still posted, with new sheets around it: - RETURN VARIANCE - MULTI-CHANNEL EXPOSURE - BOUNDARY ASSUMPTIONS - SEVENTH REACTION — PROVISIONAL A junior researcher pins up a correction."}},
+{"beat_id":"S026_B003","speaker_id":"junior_researcher","text":"I changed the third return table.","cues":{"staging":"Vaelira stands before a public technical board. Yesterday's four-element / six-pair model is still posted, with new sheets around it: - RETURN VARIANCE - MULTI-ELEMENT EXPOSURE - BOUNDARY ASSUMPTIONS - SEVENTH REACTION — PROVISIONAL. A junior researcher pins up a correction."}},
 {"beat_id":"S026_B004","speaker_id":"vaelira","text":"Why?"},
 {"beat_id":"S026_B005","speaker_id":"junior_researcher","text":"The baseline was wrong."},
 {"beat_id":"S026_B006","speaker_id":"vaelira","text":"Yes.","cues":{"staging":"Vaelira reads it."}},
@@ -43,7 +43,7 @@ beats = [
 {"beat_id":"S026_B027","speaker_id":"vaelira","text":"Some of them."},
 {"beat_id":"S026_B028","speaker_id":"nimera","text":"That's optimistic."},
 {"beat_id":"S026_B029","speaker_id":"vaelira","text":"It wasn't meant to be."},
-{"beat_id":"S026_B030","speaker_id":"nimera","text":"Still haven't closed it.","cues":{"staging":"Nimera laughs. Vaelira opens notebook. Larger six-channel diagram, boundary still unfinished."}},
+{"beat_id":"S026_B030","speaker_id":"nimera","text":"Still haven't closed it.","cues":{"staging":"Nimera laughs. Vaelira opens her notebook. Inside is a larger four-element / six-pair interaction diagram, its outer boundary still unfinished."}},
 {"beat_id":"S026_B031","speaker_id":"vaelira","text":"I don't know where it belongs."},
 {"beat_id":"S026_B032","speaker_id":"nimera","text":"Yesterday that would've bothered you more."},
 {"beat_id":"S026_B033","speaker_id":"vaelira","text":"Yesterday I would have drawn one.","cues":{"staging":"Vaelira thinks."}},
