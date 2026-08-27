@@ -12,7 +12,7 @@ location_id = "LOC_SIXFOLD_ANNEX"
 trigger_id = "trigger.chapter_04.s025"
 completion_flag = "scene.s025.complete"
 participants = Array[String](["ilyra","medic","vaelira","senior_researcher","researcher","annex_director","nimera","cyanis","researcher_2","torren"])
-authoring_notes = "Exact Chapter 4 Resource conversion from docs/chapters/dialogue/chapter_04/S025.md; accepted through CH4-A029. Spoken sequence is exact; staging is carried in cues where present. Maevra is not an active Chapter 4 party member unless explicitly authored. SHA-256: bc0db9f0b542e25107f7d988126ba7fff70ee7d9754c0872a8dbba7d527efd76."
+authoring_notes = "Runtime synchronized 2026-08-27 to the approved four-element S025 / Audit121. Spoken sequence and staging follow docs/chapters/dialogue/chapter_04/S025.md; legacy internal location_id retained pending environment-ID migration."
 beats = [
 {"beat_id":"S025_B001","speaker_id":"ilyra","text":"Exposure researcher?","cues":{"staging":"**REGULATION CORE — AFTERMATH** Player can finish exploring/recover before heading back. Annex medical/technical crews appear farther up. Ilyra stops a medic."}},
 {"beat_id":"S025_B002","speaker_id":"medic","text":"Stable."},
@@ -23,16 +23,16 @@ beats = [
 {"beat_id":"S025_B007","speaker_id":"medic","text":"Too early."},
 {"beat_id":"S025_B008","speaker_id":"vaelira","text":"Thank you.","cues":{"staging":"Vaelira nods."}},
 {"beat_id":"S025_B009","speaker_id":"","text":"","cues":{"staging":"Nimera looks at Vaelira and says nothing."}},
-{"beat_id":"S025_B010","speaker_id":"","text":"","cues":{"staging":"Safe main floor. Warning placards, closed lower access, workers moving instruments, old readings being argued over. Trigger meeting at main regulator room."}},
+{"beat_id":"S025_B010","speaker_id":"","text":"","cues":{"staging":"PLAYER CONTROL — REACTION ANNEX. Safe main floor. Warning placards, closed lower access, workers moving instruments, old readings being argued over. Trigger meeting at main regulator room."}},
 {"beat_id":"S025_B011","speaker_id":"senior_researcher","text":"We heard what happened.","cues":{"staging":"Senior Annex staff around main table. Vaelira enters; conversation stops."}},
 {"beat_id":"S025_B012","speaker_id":"vaelira","text":"Which part?"},
 {"beat_id":"S025_B013","speaker_id":"senior_researcher","text":"The Crucible."},
 {"beat_id":"S025_B014","speaker_id":"vaelira","text":"Then you haven't heard enough.","cues":{"staging":"Vaelira puts return records on table."}},
-{"beat_id":"S025_B015","speaker_id":"vaelira","text":"The six-channel predictions were correct."},
+{"beat_id":"S025_B015","speaker_id":"vaelira","text":"The six pairwise predictions were correct."},
 {"beat_id":"S025_B016","speaker_id":"researcher","text":"We know."},
 {"beat_id":"S025_B017","speaker_id":"vaelira","text":"That's the problem."},
-{"beat_id":"S025_B018","speaker_id":"vaelira","text":"We defined success as stability inside these six channels.","cues":{"staging":"She points to outer-return figures."}},
-{"beat_id":"S025_B019","speaker_id":"vaelira","text":"We treated everything outside them as secondary variance.","cues":{"staging":"Then spill readings."}},
+{"beat_id":"S025_B018","speaker_id":"vaelira","text":"We defined success as accurate prediction across these six relationships.","cues":{"staging":"She points to the six paired-return figures."}},
+{"beat_id":"S025_B019","speaker_id":"vaelira","text":"We treated everything outside that model as secondary variance.","cues":{"staging":"Then spill readings."}},
 {"beat_id":"S025_B020","speaker_id":"senior_researcher","text":"Your model defined the boundary."},
 {"beat_id":"S025_B021","speaker_id":"vaelira","text":"Yes.","cues":{"staging":"Vaelira looks at them."}},
 {"beat_id":"S025_B022","speaker_id":"vaelira","text":"I chose that boundary."},
@@ -47,7 +47,7 @@ beats = [
 {"beat_id":"S025_B031","speaker_id":"researcher","text":"Then what are you saying?"},
 {"beat_id":"S025_B032","speaker_id":"vaelira","text":"That the model boundary was wrong."},
 {"beat_id":"S025_B033","speaker_id":"vaelira","text":"Mine.","cues":{"staging":"She points at herself."}},
-{"beat_id":"S025_B034","speaker_id":"vaelira","text":"That abnormal returns were repeatedly accepted because the six primary readings looked good.","cues":{"staging":"Then records."}},
+{"beat_id":"S025_B034","speaker_id":"vaelira","text":"That abnormal returns were repeatedly accepted because the six pairwise readings looked good.","cues":{"staging":"Then records."}},
 {"beat_id":"S025_B035","speaker_id":"vaelira","text":"Ours.","cues":{"staging":"Points toward staff."}},
 {"beat_id":"S025_B036","speaker_id":"vaelira","text":"That exposure thresholds were evaluated one element at a time when the researcher was receiving alternating exposure.","cues":{"staging":"Then sealed lower level."}},
 {"beat_id":"S025_B037","speaker_id":"vaelira","text":"Also ours.","cues":{"staging":"Ilyra hardens."}},
@@ -72,8 +72,8 @@ beats = [
 {"beat_id":"S025_B056","speaker_id":"annex_director","text":"Then we change the question.","cues":{"staging":"Director looks at model."}},
 {"beat_id":"S025_B057","speaker_id":"vaelira","text":"Exposure work stops.","cues":{"staging":"Concrete decisions, not vague “do better.”"}},
 {"beat_id":"S025_B058","speaker_id":"annex_director","text":"Agreed."},
-{"beat_id":"S025_B059","speaker_id":"vaelira","text":"All six-element alternating exposure."},
-{"beat_id":"S025_B060","speaker_id":"ilyra","text":"All exposure involving more than one channel until you've checked interaction."},
+{"beat_id":"S025_B059","speaker_id":"vaelira","text":"All multi-element exposure."},
+{"beat_id":"S025_B060","speaker_id":"ilyra","text":"All exposure involving more than one element until you've checked the interaction."},
 {"beat_id":"S025_B061","speaker_id":"vaelira","text":"Better.","cues":{"staging":"Vaelira considers."}},
 {"beat_id":"S025_B062","speaker_id":"vaelira","text":"Lower spill galleries stay closed except medical and stabilization crews.","cues":{"staging":"She writes it."}},
 {"beat_id":"S025_B063","speaker_id":"annex_director","text":"Yes."},
@@ -114,10 +114,10 @@ beats = [
 {"beat_id":"S025_B098","speaker_id":"annex_director","text":"Agreed."},
 {"beat_id":"S025_B099","speaker_id":"","text":"","cues":{"staging":"Vaelira closes exposure schedule."}},
 {"beat_id":"S025_B100","speaker_id":"","text":"","cues":{"staging":"Safe. Exposure wing closed, return measurements added to primary board, staff collecting records, medical wing active. Optional NPCs, no mandatory “everyone tells Vaelira the lesson.”"}},
-{"beat_id":"S025_B101","speaker_id":"nimera","text":"Keeping it?","cues":{"staging":"Vaelira takes six-channel diagram down. Nimera joins."}},
+{"beat_id":"S025_B101","speaker_id":"nimera","text":"Keeping it?","cues":{"staging":"Vaelira takes the six-pair interaction diagram down. Nimera joins."}},
 {"beat_id":"S025_B102","speaker_id":"vaelira","text":"Obviously."},
 {"beat_id":"S025_B103","speaker_id":"nimera","text":"Good."},
-{"beat_id":"S025_B104","speaker_id":"nimera","text":"What's that?","cues":{"staging":"Vaelira draws a larger boundary around six-channel system but leaves one side open."}},
+{"beat_id":"S025_B104","speaker_id":"nimera","text":"What's that?","cues":{"staging":"Vaelira draws a larger boundary around the diagram but leaves one side open."}},
 {"beat_id":"S025_B105","speaker_id":"vaelira","text":"I don't know yet."},
 {"beat_id":"S025_B106","speaker_id":"nimera","text":"That's becoming a habit."},
 {"beat_id":"S025_B107","speaker_id":"vaelira","text":"You say that like it's bad."},
@@ -142,7 +142,7 @@ beats = [
 {"beat_id":"S025_B126","speaker_id":"cyanis","text":"Be specific.","cues":{"staging":"Vaelira looks at him."}},
 {"beat_id":"S025_B127","speaker_id":"vaelira","text":"You're irritating.","cues":{"staging":"Vaelira almost smiles."}},
 {"beat_id":"S025_B128","speaker_id":"cyanis","text":"I've been told."},
-{"beat_id":"S025_B129","speaker_id":"ilyra","text":"Coming?","cues":{"staging":"Party exits Annex. Approach remains ordinary exploration with area-driven encounters. Ivorybridge is safe on arrival. Vaelira stops on bridge and looks back toward Annex."}},
+{"beat_id":"S025_B129","speaker_id":"ilyra","text":"Coming?","cues":{"staging":"Party exits the Reaction Annex. Approach remains ordinary exploration with area-driven encounters. Ivorybridge is safe on arrival. Vaelira stops on bridge and looks back toward Annex."}},
 {"beat_id":"S025_B130","speaker_id":"vaelira","text":"Yeah."},
 {"beat_id":"S025_B131","speaker_id":"","text":"","cues":{"staging":"She turns away and goes with them. **END S025 — RESPONSIBILITY WITHOUT HUMILIATION**"}}
 ]
