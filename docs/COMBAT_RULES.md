@@ -1,22 +1,15 @@
 # Diyse — Combat Engineering Rules
 
-This is the implementation-facing combat baseline under **Diyse Clean Active Complete Master Canon v2.01 / Audit116**.
+**Current written authority:** **v2.07 / Audit122**  
+**Compatible parent authorities:** Audit121 / Audit120 / Audit119 / Audit116 / Audit115 where not superseded.
 
-Controlling authorities:
-
-- Card / Prime economy + command packages: `docs/canon/AUDIT116_STANDARD_CARD_PRIME_RESOURCE_AND_COMMAND_RECONCILIATION_LOCK.md`
-- Global combat / Ruin / status / class Abilities: `docs/canon/AUDIT115_COMBAT_RUIN_STATUS_AND_FULL_CLASS_ABILITY_NORMALIZATION_LOCK.md`
-- Compatible Prime acquisition/progression/timing: `docs/canon/AUDIT114_PRIME_COMBAT_ELEMENT_STATUS_AND_BASE_CLASS_NORMALIZATION_LOCK.md`
-
-Older combat proofs remain useful only where compatible with these authorities.
+This is the implementation-facing combat baseline. Historical proofs remain useful only where compatible with the current authority chain.
 
 ---
 
-## Core round structure
+# Core round structure
 
 Diyse uses traditional discrete rounds.
-
-Accepted compatible resolver behavior:
 
 1. Resolve beginning-of-round effects and immediate battle-state checks.
 2. Each enemy locks one legal action from the legitimate beginning-of-round state without inspecting unconfirmed player commands.
@@ -27,428 +20,330 @@ Accepted compatible resolver behavior:
 7. Party members win exact Speed ties against enemies.
 8. Tied party members use player-selected order.
 9. Tied enemies/entities use stable deterministic order.
-10. Resolve complete action/reaction/state-change packages, then end-of-round processing according to the controlling combat specification.
+10. Resolve complete action/reaction/state-change packages, then end-of-round processing.
 
 Speed determines order only. Speed never grants extra ordinary actions.
 
 ---
 
-## Automatic hostile retargeting
+# Automatic hostile retargeting
 
 If a queued player hostile action targets an enemy defeated before that action resolves in the same round:
-
 - retarget to the next living enemy in encounter-slot order after the original target;
 - if no later slot is living, wrap to the first living enemy;
-- if no enemies remain living, there is no legal target and battle resolution proceeds normally;
-- this applies to Attack, hostile/damaging Abilities, hostile Standard Cards, and equivalent directly controlled Prime hostile commands unless an authored effect explicitly says otherwise;
+- if no enemies remain living, battle resolution proceeds normally;
 - retargeting changes only the target, not the action, cost, priority, Speed, or actor.
+
+Applies to Attack, hostile/damaging Abilities, hostile Standard Cards, and equivalent directly controlled Prime hostile commands unless specifically overridden.
 
 ---
 
-## Permanent command list
+# Permanent command list
 
 Exactly:
-
 - Attack
 - Ability
 - Card
 - Item
 - Defend
 
-Do not add universal Swap, Reserve, Assist, Row, Move, Wait, Timeline, or personal-resource commands without explicit later change control.
+Do not add universal Swap, Reserve, Assist, Row, Move, Wait, Timeline, or personal-resource commands without explicit change control.
 
-Maximum active permanent party size remains **4**. Reserve members are inert under the normal combat rules.
-
----
-
-## Ability economy
-
-- MP is the universal ordinary Ability resource.
-- Do not create character-specific combat gauges/resources.
-- Learned Abilities remain weapon-independent once learned unless an individual later authority explicitly says otherwise.
-- Equipment does not choose an Ability's Physical/Magical/Hybrid formula.
-- Full current class Ability packages are controlled by Audit115.
+Maximum active permanent party size = **4**.
 
 ---
 
-# Standard Cards — Audit116
+# Direct-damage formulas
 
-Current Card collection architecture remains **24 Standard Cards + 12 Prime Cards = 36 total Cards**.
+## Physical
 
-There are exactly **24 Standard Cards**, distributed unevenly by Face:
+> **BasePhysicalDamage = [Attack² / (Attack + EffectiveDefense)] × (Power / 100)**
 
-- Might — **5**
-- Elements — **5**
-- Grace — **4**
-- Acuity — **4**
-- Change — **3**
-- Ruin — **3**
+> **EffectiveDefense = CurrentDefense × (1 - EffectiveDefensePenetration)**
 
-Audit106's four-per-Face matrix is superseded.
+## Magical
 
-Each permanent character may equip a maximum of:
+> **BaseMagicalDamage = [Magic² / (Magic + EffectiveSpirit)] × (Power / 100)**
 
-> **3 Standard Cards**
+> **EffectiveSpirit = CurrentSpirit × (1 - EffectiveSpiritPenetration)**
 
-Standard Card rules:
+## Hybrid
 
-- consume the user's normal selected action;
-- are reusable after acquisition;
-- cost the user's MP;
-- currently span **12–36 MP**;
-- require enough MP to pay the listed cost;
-- are Card commands, not Abilities;
-- Ability-only MP reductions do not apply unless an effect explicitly includes Cards/all MP costs;
-- no deck/hand/draw/discard, charge, duplicate, rank, Essence, or refresh-counter system exists;
-- Standard Cards do not summon independent beings.
+Resolve authored Physical and Magical weighted components independently against Defense and Spirit, apply legal same-axis penetration separately, then combine.
 
-Current Standard Card lineups:
+Character-Ability Ruin remains 75% Attack / 25% Magic where the compatible Audit115 rule applies. Prime commands use their explicitly authored formulas.
 
-### Might
-- Iron Testament
-- Sunder the Gate
-- Relentless Flurry
-- March of Blades
-- Sanguine Alloy
+Same-axis penetration adds in percentage points and caps at **75%**.
 
-### Elements
-- Cinder Judgment
-- Winterglass Spear
-- Thunder Chain
-- Confluence Sigil
-- Worldsplitter
-
-### Grace
-- Restoration
-- Merciful Reprisal
-- Wellspring
-- Dawn Recall
-
-### Acuity
-- Faultline Sight
-- Measured Response
-- Predicted Impact
-- Decisive Interval
-
-### Change
-- Burden Shift
-- Reversal Engine
-- Split Moment
-
-### Ruin Face
-- Calamity Lance
-- Devouring Singularity
-- Zero Hour
-
-Current exact command formulas/effects are in Audit116.
-
-Important implementation supersessions:
-
-- Chosen Course → **Measured Response**.
-- Glassform Rupture → **Burden Shift**.
-- Spatial Guillotine → **Split Moment**.
-- Sanguine Alloy is **Might**.
-- Worldsplitter is **Elements / Earth**.
-- `unlimited-use Standard Card` means no charge limit, **not** zero MP.
-
-### Split Moment firewall
-
-Split Moment grants at most **two independently selected actions** on the target's next normal turn, paying each action's full normal costs.
-
-- Extra-action effects do not stack to three or more selected actions.
-- Split Moment cannot grant extra Prime rounds/commands or bypass Prime use restrictions.
-- If Prime Invocation / party replacement begins in one Split Moment slot, any unresolved ordinary second slot is forfeited.
-- Audit115 Bleed remains capped at **one proc per round**, even if two actions are successfully taken.
+There is no universal random damage variance or hidden universal AoE penalty.
 
 ---
 
-# Prime Card / manifestation framework — Audit116 + compatible Audit114
+# Base Hit / Evasion — Audit122
 
-There are exactly **12 Prime Cards**:
+There is no natural Accuracy stat.
 
-- six Story Primes;
-- six Major-Hunt Primes.
+For ordinary hit checks:
 
-Current Story Primes:
+> **AdjustedBaseHit = round(ActionBaseHit × BaseHitPercentModifiers) + FlatBaseHitModifiers**
 
-- Might — **Last Sentinel**
-- Acuity — **Last Cartographer**
-- Elements — **Last Convergence**
-- Change — **Last Scribe**
-- Grace — **Last Sanctuary**
-- Ruin — **Last Erasure**
+> **EffectiveEvasion = round(BaseEvasion × EvasionPercentModifiers) + FlatEvasionModifiers**
 
-Current Major-Hunt Primes:
+> **FinalHitChance = clamp(AdjustedBaseHit - EffectiveEvasion, 5, 100)**
 
-- Grace — **Dawn Shepherd**
-- Might — **Oathbound Colossus**
-- Change — **Living Revision**
-- Elements — **Prismatic Leviathan**
-- Acuity — **Parallax Host**
-- Ruin — **Starfall Engine**
+Authoring targets:
+- standard ~100 Base Hit
+- heavy 90–95
+- precision 105–115
+- exceptional precision up to ~120
 
-`Last Measure` and `Sheltering Host` are superseded.
+Exact authored Base Hit controls.
 
-## Prime states
-
-Prime progression is exactly:
-
-> **Recovered → Awakened**
-
-There is no Concordant state.
-
-Recovered Story Prime:
-- one strong manifestation action resolves in the current ordinary round;
-- the manifestation then ends.
-
-Awakened Prime:
-- final state;
-- replaces/suspends the active party;
-- exactly **3 directly controlled Prime rounds**;
-- one selected Prime command per Prime round.
-
-Removed:
-
-- Prime XP/levels;
-- duplicates as progression;
-- Prime upgrade materials;
-- Concordant harmonization;
-- third-stage progression.
-
-Legacy commands formerly labeled Concordant remain in the Awakened kit where explicitly retained.
-
-## Prime use / form boundaries
-
-- Prime activation uses the Card action.
-- After the Prime ends, that Prime identity has a **3-full-normal-round cooldown**.
-- Each Prime identity may be used once per battle per genuine fresh-HP boss form.
-- A genuine fresh-HP boss form refreshes that identity's use/cooldown state.
-- Story Primes are acquired Recovered and later Awaken through mandatory story milestones.
-- Major-Hunt Primes are obtained already Awakened.
-- Frozen party state does not tick or become targetable during active Awakened Prime rounds unless an authored return/handoff effect explicitly resolves at dismissal.
-
-## Prime Invocation MP
-
-Current canonical Invocation costs:
-
-- Recovered Story Prime — **60 MP**
-- Awakened Story Prime — **75 MP**
-- Awakened Major-Hunt Prime — **75 MP**
-
-Once manifested:
-
-> **Prime commands cost 0 additional MP**
-
-Prime Invocation must remain a **severe MP commitment**. Old 0-MP Invocation and intermediate 40/48-MP rules are superseded.
-
-The exact numbers may only move through an explicit later global MP balance pass; such a pass must preserve the severe-cost hierarchy unless separately approved.
-
-## Prime command packages
-
-Exact current Story-Prime and Major-Hunt-Prime command tables are controlled by Audit116.
-
-Important Major-Hunt implementation notes:
-
-- none of the current six requires a standalone passive;
-- Living Revision Continuance has no healing;
-- Prismatic Leviathan has no Adaptive Scales passive, no heal command, and no Colorless offense;
-- Prismatic Mantle is the current defensive-rider attack;
-- Prismatic Deluge replaces Sixfold Deluge;
-- overlap between related Prime commands is explicitly acceptable and is not a reason to rewrite them;
-- Prismatic Deluge's exact damage Power remains open for the final numerical pass.
+Hit/Evasion is separate from harmful-status application.
 
 ---
 
-# Damage type, element, and Ruin scope
+# Critical Hits — Audit120
 
-Every damaging **character Ability** is authored as Physical / Magical / Hybrid.
+- base Critical Chance = 5%
+- bonuses add flat percentage points
+- ordinary random Critical Chance cap = 50%
+- eligible Critical multiplier = 1.5×
+- Base Hit/Evasion resolves before the Critical roll
+- miss → no Critical roll
+- multihit direct actions roll independently per authored hit by default
+- one authored Hybrid hit uses one Critical roll on its combined eligible direct damage
+- eligible Magical direct hits use the same multiplier
+- Crit does not bypass Defense/Spirit
+- Crit does not automatically improve harmful-status application
+- Burn, Bleed, explicitly no-Crit copied/echo damage, indirect Max-HP damage unless explicitly authored otherwise, and healing cannot Crit.
+
+---
+
+# Damage type / elements / Ruin
+
+Every damaging character Ability is authored Physical / Magical / Hybrid.
 
 Exactly four standard elements:
-
 - Fire
 - Ice
 - Lightning
 - Earth
 
-Linked status pairs:
-
+Linked status pairs where explicitly authored:
 - Fire → Burn
 - Ice → Freeze
 - Lightning → Stun
 - Earth → Staggered
 
-An elemental hit does not automatically inflict its linked status; the action must explicitly carry the rider.
+An elemental hit does not automatically inflict its linked status.
 
 Ruin is a special affinity/school, not a fifth standard element.
 
-Audit115 character-Ability Ruin formula:
-
-> **Hybrid / Ruin — 75% Attack / 25% Magic**
-
-This 75/25 formula applies to **character Abilities** dealing Ruin.
-
-Prime commands are a separate command class. Last Erasure and Starfall Engine use the explicit Prime-authored Physical/Magical/Hybrid Ruin formulas listed in Audit116. Do not silently normalize Prime commands to the character-Ability 75/25 formula.
-
-Ruin-Face Standard Cards Calamity Lance, Devouring Singularity, and Zero Hour are explicitly **Magical / Colorless**, not Ruin-affinity attacks.
-
 ---
 
-# Universal harmful statuses — Audit115
+# Universal harmful statuses
 
 Exactly:
-
 - Burn
 - Freeze
 - Stun
 - Staggered
 - Bleed
 
-## Burn
-- 3 rounds.
-- Ordinary damage: 3% target Max HP at end of each affected round.
-- Reapplication refreshes duration.
-- No crit; ignores Defense/Spirit; can KO.
+Compatible Audit115 timing/duration rules remain active except where later audits explicitly supersede them.
 
-## Freeze
-- Target cannot act.
-- First 2 rounds guaranteed.
-- 80% persistence check into round 3 and separately into round 4.
-- Maximum 4 rounds.
-- First successful direct Physical hit removes Freeze after the hit.
-- Cannot refresh while active.
+## Bleed — Audit122 controlling
 
-## Stun
-- 3 affected turns.
-- 40% action-loss chance on each affected turn.
-- Cannot refresh while active.
+Bleed:
+- damages each round;
+- damages again when the affected character acts;
+- is indirect status damage and cannot Crit;
+- ignores Defense/Spirit;
+- may KO unless a specific encounter rule overrides.
+
+The old one-proc-per-round limit is removed.
+
+Bleed clears only when:
+1. the affected unit is restored to full HP;
+2. an eligible harmful-status clear removes it;
+3. an eligible item removes it.
+
+Partial healing and ordinary Regen do not remove Bleed unless full HP is reached or a valid status clear is explicitly included.
 
 ## Staggered
-- 3 rounds.
-- Speed −20%.
-- Base Hit / Accuracy −20%.
-- Evasion −20%.
-- Reapplication refreshes; does not stack.
 
-## Bleed
-- 2% Max HP when the affected unit successfully acts.
-- Maximum one Bleed proc per round.
-- Lost actions do not proc Bleed.
-- **Any successful HP heal restoring at least 1 HP removes Bleed after the heal.**
-- Regen restoring at least 1 HP removes Bleed.
-- No stack; no crit; ignores Defense/Spirit; can KO.
+Staggered is an ordinary harmful status only, not a Break/Stagger meter.
 
-## Lifecycle
-
-- KO clears Burn / Freeze / Stun / Staggered / Bleed / Regen.
-- Battle end clears ordinary temporary combat statuses/effects.
-- A genuine fresh-HP boss form clears ordinary temporary statuses unless explicit carryover is authored.
+Where older status wording says `Accuracy` penalty, interpret it as the corresponding **Base Hit percentage modifier**.
 
 ---
 
-# Status application / resistance
-
-Default authored chance bands:
-
-- 10% minor
-- 20% standard
-- 35% dedicated
-- 50% premium/setup-dependent
-- above 50% uncommon and explicitly justified
-
-Standard element/status affinity modifier:
-
-- Weak: +10 percentage points
-- Neutral: 0
-- Resist: −10 percentage points
-- Immune: linked application blocked
-
-Vaelira's qualifying +5 percentage-point specialist bonus applies to **her character Abilities**, not automatically to Cards or Primes.
-
-Status Resistance:
-
-- Normal 0
-- Resistant 5
-- Highly Resistant 10
-- Exceptional 15
-- Immune explicit
-
-Ordinary application:
-
-> Base + affinity modifier + Vaelira bonus − Status Resistance
-
-Clamp ordinary legal chances to 5%–95% except explicit immunity, guarantee, or script.
-
-High-rank effect conversion:
-
-- Ordinary: full.
-- Elite: full by default absent thematic exception.
-- Regional Hunt: Freeze max 2 rounds; Stun 25% action-loss; Staggered full where legal; Burn/Bleed 75% ordinary damage.
-- Major Hunt / mandatory boss: Freeze max 1 round; Stun 20% action-loss; Staggered full where legal; Burn/Bleed 50% ordinary damage.
-
-Effect conversion is separate from application chance.
-
----
-
-# Removed systems / non-status states
+# Removed systems / ordinary states
 
 Do not recreate under renamed equivalents:
-
+- Barrier
+- Brace
+- global Break/Stagger meter
 - Card Seals
-- global Rune-effect state/system
+- global Rune-effect system
 - Imprints
-- Break/Stagger meter
 
-The following are not universal harmful statuses:
+Guard remains a valid non-status defensive state.
 
-- ordinary stat Up/Down effects;
-- Fields;
-- Guard / Barrier;
-- Hunter's Measure;
-- Prepared effects;
-- class-internal setup states;
-- protected/scripted encounter states;
-- Audit116 tactical states such as Decisive Opening, Reversal, Perfect Route, Advancing Dawn, Held Sanctuary, Oathbound Momentum.
-
-Ordinary harmful-status remedies do not remove these unless an effect explicitly says otherwise.
+Ordinary stat Up/Down effects, Fields, Hunter's Measure, Prepared effects, class setup states, and protected/scripted encounter states are not universal harmful statuses merely because they alter combat state.
 
 ---
 
-# Basic Attack / weapon independence
+# Ability economy
 
-- Attack comes from the currently equipped Weapon.
-- Universal Attack does not inflict a harmful status unless current equipment explicitly grants that rider.
-- Learned Abilities remain legal with any otherwise-legal equipment loadout unless an individual Ability explicitly says otherwise.
-- Equipment does not change an Ability's fixed Physical/Magical/Hybrid formula.
-- Presentation may manifest/project a traditional weapon visual when the current equipped weapon differs.
+MP is the universal ordinary Ability resource.
+
+Do not create character-specific combat gauges/resources.
+
+Learned Abilities remain weapon-independent once learned unless an individual current authority explicitly says otherwise.
+
+Equipment does not choose an Ability's authored Physical/Magical/Hybrid formula.
+
+**The final class Ability MP check/certification is still OPEN.** Existing working costs are starting data, not permission to ignore the planned cross-kit MP audit.
 
 ---
 
-# Determinism and regression expectations
+# Standard Cards
+
+Current collection architecture:
+- 24 Standard Cards
+- 12 Prime Cards
+- 36 total Cards
+
+Standard distribution:
+- Might 5
+- Elements 5
+- Grace 4
+- Acuity 4
+- Change 3
+- Ruin 3
+
+Maximum equipped Standard Cards per character = **3**.
+
+Standard Cards:
+- consume the user's selected action;
+- are reusable;
+- consume MP;
+- require enough MP to pay their listed cost;
+- are Card commands, not Abilities;
+- do not use deck/hand/draw/discard, charges, duplicates, ranks, Essence, or refresh counters.
+
+Current MP range = **18–48 MP**.
+
+Current Acuity quartet:
+- Faultline Sight
+- Measured Response
+- Predicted Impact
+- Decisive Interval
+
+Predicted Impact:
+- one enemy
+- Magical / Colorless
+- Power 180
+- Base Hit 110
+- 28 MP
+- 30% Stun on successful damaging hit
+- no Break/Stagger-meter contribution.
+
+Split Moment retains its explicit two-selected-action ceiling and Prime firewall under compatible Card authority.
+
+---
+
+# Prime framework
+
+There are exactly 12 Primes: 6 Story + 6 Major Hunt.
+
+Progression:
+
+> **Recovered → Awakened**
+
+No Concordant, Prime XP, Prime levels, duplicate progression, or upgrade-material system.
+
+Current Invocation MP:
+- Recovered Story — **50 MP**
+- Awakened Story — **80 MP**
+- Awakened Major Hunt — **90 MP**
+- manifested commands — 0 additional MP
+
+Awakened Prime:
+- replaces/suspends the active party;
+- exactly 3 directly controlled Prime rounds;
+- one selected Prime command per Prime round;
+- shared 3-full-normal-round cooldown after dismissal;
+- once per identity per battle unless a genuine fresh-HP boss form refreshes availability.
+
+Prime-local statuses vanish on dismissal under the compatible current Prime rules.
+
+Current numeric sync:
+
+### Prismatic Deluge
+- all enemies
+- Magical
+- Fire 90 / Ice 90 / Lightning 90 / Earth 90
+- 360 total listed Power per target
+- 15% linked status check per wave
+- maximum 1 newly inflicted harmful status per target for the command.
+
+### Regulator Fang
+- one enemy
+- Magical
+- choose Fire/Ice/Lightning/Earth
+- Power 250
+- 25% Spirit penetration
+- no harmful-status rider.
+
+---
+
+# Chapter 4 combat firewall
+
+Chapter 4 uses exactly Fire / Ice / Lightning / Earth in its research/regulation framework.
+
+Wind and Water are removed and their old functions are not reassigned.
+
+The Seventh Reaction is emergent four-element behavior, not a seventh element or reusable player system.
+
+Reaction Conduit replaces Elemental Hexarch and uses only the four standard elements.
+
+Regulation Crucible uses four chambers, exactly two active/targetable at once, with rotation:
+
+> Fire/Ice → Lightning/Earth → Fire/Lightning → Ice/Earth
+
+Former Wind speed/cadence inheritance and Water Barrier/restoration/stabilization inheritance are removed.
+
+---
+
+# Determinism / regression expectations
 
 Pure combat resolution must remain testable without animation timing.
 
 Regression coverage should include:
-
 - Item priority;
 - Defend priority;
 - Speed order/ties;
 - enemy action locking;
-- one ordinary selected action per legal unit except explicit Split Moment;
-- Split Moment two-action cap and Prime firewall;
-- Bleed maximum one proc per round, including Split Moment turns;
 - automatic hostile retargeting;
+- Base Hit/Evasion formula and clamp;
+- hit-before-Crit ordering;
+- current Critical rules;
+- Bleed round + action damage cadence;
+- Bleed current clearing rules;
+- no Barrier/Brace/global Break meter;
 - Standard Card 3-slot limit and MP payment;
 - current 5/5/4/4/3/3 Standard-Card distribution;
-- Prime 60/75 Invocation payment;
-- Recovered one-action Prime behavior;
-- Awakened three-round direct control;
-- Prime 3-normal-round cooldown;
+- Prime 50/80/90 Invocation payment;
+- Recovered/Awakened state behavior;
+- Awakened three-round control;
+- shared Prime cooldown;
 - genuine fresh-HP boss-form refresh;
-- frozen off-field party behavior during Prime replacement;
-- current Audit115 status timing/application/lifecycle;
-- Audit115 character-Ability 75/25 Ruin formula;
-- Audit116 Prime-specific Ruin formula exception/scope.
+- current four-element/status architecture;
+- Character-Ability 75/25 Ruin scope and explicit Prime exceptions.
 
-Tests encoding superseded facts such as Resource Face, four Standard Cards per Face, zero-MP Standard Cards, zero-MP Prime Invocation, Concordant, Water/Wind standard elements, Poison, Card Seals, Imprints, global Break/Stagger, or universal 75/25 Ruin formulas for Prime commands must be deliberately updated.
+Tests encoding superseded facts must be deliberately updated rather than preserved as compatibility behavior.
 
 Presentation and animation consume resolver/state results; they do not define combat legality.
