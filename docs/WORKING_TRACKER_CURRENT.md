@@ -1,7 +1,7 @@
 # Diyse — Current Working Tracker (Consolidated)
 
 **Date:** August 26, 2026  
-**Working revision:** **v1**  
+**Working revision:** **v4**  
 **Status:** **ACTIVE WORKING TRACKER — NOT MASTER CANON**
 
 This file replaces the cumulative 165,000-line item/equipment tracker as the active working tracker.
@@ -14,10 +14,11 @@ The cumulative v603 tracker is frozen historical design evidence. Do not append 
 
 Current whole-project authority:
 
-> **v2.04 / Audit119**
+> **v2.05 / Audit120**
 
 Newest relevant chain:
-- Audit119 — combat/resource/Prime/progression reconciliation
+- Audit120 — Critical Hit + controlling direct-damage formula
+- Audit119 — compatible Card/Prime MP, resistance, Prime scaling/control, progression
 - Audit118 — exact ordinary/Relic/Legacy-Trait/Forge numerical catalog
 - Audit117 — equipment/Legacy/class-access structure and Synthesis removal
 - Audit116 — compatible Standard-Card/Prime command definitions
@@ -67,22 +68,44 @@ Exact current Base/Subclass Ability MP costs remain open after the latest class-
 
 ---
 
-# 4. Universal direct-damage formula
+# 4. Direct damage / Critical Hits — Audit120
 
-> **Component Damage = Weight × (Power / 100) × Offense × 1.50 × [150 / (150 + Effective Defensive Stat)]**
+Physical:
 
-- Physical = Attack vs Defense.
-- Magical = Magic vs Spirit.
-- Ruin character Ability = 75% Attack / 25% Magic.
-- same-axis penetration adds and caps at 75%.
-- no cross-axis penetration transfer.
-- Basic Attack = 100 Power / Physical / Neutral unless equipment says otherwise.
-- no universal AoE penalty.
-- no universal random damage variance.
+> **BasePhysicalDamage = [Attack² / (Attack + EffectiveDefense)] × (Power / 100)**
+
+> **EffectiveDefense = CurrentDefense × (1 - EffectiveDefensePenetration)**
+
+Magical:
+
+> **BaseMagicalDamage = [Magic² / (Magic + EffectiveSpirit)] × (Power / 100)**
+
+> **EffectiveSpirit = CurrentSpirit × (1 - EffectiveSpiritPenetration)**
+
+Same-axis penetration adds and caps at **75%**.
+
+Hybrid direct hits resolve their authored Physical and Magical weighted components independently, then combine them. Character Ability Ruin remains 75% Attack / 25% Magic where Audit115 applies.
+
+Critical rules:
+- base Critical Chance = **5%**
+- modifiers add flat percentage points
+- ordinary random Crit cap = **50%**
+- eligible Critical damage = **1.5×**
+- Base Hit/Evasion check occurs before Crit
+- miss = no Crit roll
+- multihit actions roll Crit independently per authored direct hit by default
+- one authored Hybrid hit uses one Crit roll on its combined eligible direct-damage result
+- eligible Magical direct hits use the same 1.5× multiplier
+- Critical does not bypass Defense/Spirit
+- Critical does not automatically improve status application
+- Burn/Bleed and other explicitly excluded indirect damage cannot Crit
+
+No hidden universal AoE penalty. No universal random damage variance. Round at the normal final-damage step.
+
+Use **Base Hit**, not `Accuracy`, as the canonical hit-stat term.
 
 Open:
-- Accuracy vs Evasion formula
-- universal Critical payout/order
+- global **Base Hit vs Evasion** formula
 
 ---
 
@@ -194,44 +217,39 @@ Tier hierarchy:
 
 > **Ordinary < Relic < Legacy**
 
-Approved Legacy capstone-stat axes:
+Approved capstone-stat axes:
 - Max HP
 - Max MP
-- Accuracy
+- **Base Hit**
 - Evasion
 
-## Pending approval — exact v600 package
+`Accuracy` is retired wording for this stat axis.
 
-- Cyanis Sword — +74 ATK / +55 MAG / Accuracy +8
+Legacies do **not** require a universal elemental identity. Do not force elemental damage/resistance/riders merely because an item is a Legacy. Status interaction may remain where an individual Trait naturally uses it.
+
+## Pending approval — exact v600 package, terminology corrected
+
+- Cyanis Sword — +74 ATK / +55 MAG / Base Hit +8
 - Cyanis Shield — +30 DEF / +28 Spirit / Max HP +8%
 - Cyanis Heavy Armor — +50 DEF / +42 Spirit / Max HP +12%
 - Ilyra Wardrod — +58 ATK / +63 MAG / Max MP +8%
 - Ilyra Shield — +28 DEF / +30 Spirit / Max HP +8%
 - Ilyra Focus — +22 MAG / +28 Spirit / Max MP +12%
 - Ilyra Warding Armor — +34 DEF / +44 Spirit / Max HP +10%
-- Torren Great Bow — +95 ATK / Accuracy +10
+- Torren Great Bow — +95 ATK / Base Hit +10
 - Torren Medium Armor — +42 DEF / +33 Spirit / +3 SPD / Evasion +10
 - Nimera 2H Conduit — +60 ATK / +82 MAG / Max MP +10%
 - Nimera Focus — +22 MAG / +22 Spirit / +8 SPD / Max MP +12%
 - Nimera Light Ritual Armor — +32 DEF / +42 Spirit / Evasion +10
-- Vaelira Arcane Staff — +12 ATK / +83 MAG / Accuracy +8
+- Vaelira Arcane Staff — +12 ATK / +83 MAG / Base Hit +8
 - Vaelira Focus — +24 MAG / +24 Spirit / +5 SPD / Max MP +12%
 - Vaelira Light Caster Armor — +29 DEF / +50 Spirit / +4 SPD / Evasion +8
-- Seyrik 2H Sword — +105 ATK / +7 MAG / Accuracy +8
+- Seyrik 2H Sword — +105 ATK / +7 MAG / Base Hit +8
 - Seyrik Battle Heavy Armor — +56 DEF / +34 Spirit / Max HP +15%
 
 These exact values are **not master canon yet**.
 
-## Open Legacy identity question
-
-An earlier explicit working requirement said Relics and Legacies should include elemental/harmful-status perks and that Legacies should combine stats + perks + passive(s).
-
-Relics have now been fully reconciled. For Legacies, explicitly decide whether:
-- every Legacy piece still requires elemental/status interaction;
-- only selected Legacy pieces receive it where character identity supports it;
-- the newer HP/MP/Accuracy/Evasion capstone-stat layer partly replaces the earlier universal expectation.
-
-Do not silently treat this requirement as closed.
+Legacy Trait wording has been normalized in the local consolidated tracker to use Base Hit, Defense, Spirit, Status Resistance, explicit duration, and percentage-point terminology without intentionally redesigning the underlying Trait identities.
 
 ---
 
@@ -287,37 +305,37 @@ Dialogue and exact final rewards remain deferred.
 1. exact v600 17-Legacy raw stats + capstone perks
 
 ## Open — system/numerical
-2. Legacy elemental/status/perk/passive requirement vs newer capstone-stat identity
-3. exact current Base/Subclass Ability MP table
-4. Accuracy vs Evasion formula
-5. universal Crit payout/order
-6. Mastery Point schedule for 8 active nodes
-7. Prismatic Deluge exact Power if still unresolved
-8. HP consumables / Emergency Rally
-9. detailed Ch1–13 EXP/enemy/encounter/diminishing-return rebalance
-10. progression-dependent named-enemy raw-stat re-certification
+2. exact current Base/Subclass Ability MP table
+3. Base Hit vs Evasion formula
+4. Mastery Point schedule for 8 active nodes
+5. Prismatic Deluge exact Power if still unresolved
+6. HP consumables / Emergency Rally
+7. detailed Ch1–13 EXP/enemy/encounter/diminishing-return rebalance
+8. progression-dependent named-enemy raw-stat re-certification
 
 ## Open — content/economy/implementation
-11. four Standard-Card acquisition homes
-12. Consumable stock timing/prices/final currency
-13. Kessara Relic-copy service fee/UI
-14. exact presentation for some Forge Component pickups
-15. exact presentation for some Legacy precursors
+9. four Standard-Card acquisition homes
+10. Consumable stock timing/prices/final currency
+11. Kessara Relic-copy service fee/UI
+12. exact presentation for some Forge Component pickups
+13. exact presentation for some Legacy precursors
 
 ## Deferred
-16. final Relic names
-17. final Legacy names
-18. final Character Quest Legacy Component names
-19. final Forge-variant names
-20. ordinary Side-Quest dialogue
-21. exact Side-Quest final rewards
-22. new Caelora Civic Ward proper name
+14. final Relic names
+15. final Legacy names
+16. final Character Quest Legacy Component names
+17. final Forge-variant names
+18. ordinary Side-Quest dialogue
+19. exact Side-Quest final rewards
+20. new Caelora Civic Ward proper name
 
 ---
 
 # 13. Stale / retired branch quarantine
 
 Do not reactivate by accident:
+- Audit119 `Offense × 1.50 × 150/(150+Defense)` direct-damage resolver
+- unresolved/alternative Critical multipliers
 - Synthesis architecture / ninth node
 - six separate shared-Legacy artifacts
 - 12 Subclass Relics
@@ -332,13 +350,13 @@ Do not reactivate by accident:
 - old low-MP class Ability tables as final values
 - old class names that conflict with the current six
 - rejected personal-equipment naming attempts
+- `Accuracy` as the active hit-stat term; use **Base Hit**
 
 ---
 
 # 14. Next recommended workflow
 
-1. resolve the Legacy elemental/status/perk/passive structure;
-2. approve/revise the v600 exact 17-Legacy stat/perk table;
-3. promote approved final Legacy numbers to master canon;
-4. reconcile the 8-node Mastery Point schedule;
-5. then proceed to Accuracy/Evasion + Crit, current class Ability MP, the dedicated EXP/enemy rebalance, or remaining Consumable/economy work.
+1. approve/revise the v600 exact 17-Legacy stat/perk table under the current Base-Hit terminology and non-elemental Legacy direction;
+2. promote approved final Legacy numbers to master canon;
+3. reconcile the 8-node Mastery Point schedule;
+4. then proceed to Base Hit/Evasion, current class Ability MP, the dedicated EXP/enemy rebalance, or remaining Consumable/economy work.
