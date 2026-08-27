@@ -1,7 +1,7 @@
 # Diyse — Current Working Tracker
 
 **Date:** August 27, 2026  
-**Working revision:** **v46**  
+**Working revision:** **v47**  
 **Master-canon baseline:** **v2.07 / Audit122**  
 **Status:** **ACTIVE WORKING TRACKER — MASTER CANON OUTRANKS THIS FILE**
 
@@ -102,6 +102,25 @@ Exactly four elements:
 
 Wind/Water removed from the regulation/research framework. Seventh Reaction is emergent four-element behavior, not a seventh element. Reaction Conduit replaces Elemental Hexarch. Regulation Crucible uses the four-chamber/two-active architecture locked in Audit121.
 
+### Script/runtime synchronization — COMPLETE
+The approved four-element conversion is now applied to the live Chapter-4 production files:
+- canonical Markdown S022–S026;
+- matching dialogue `.tres` S022–S026;
+- S023/S024/S025 presentation corrections;
+- Crown Prototype presentation label normalized to Reaction Annex Prototype Branch.
+
+Chapter-local reconciliation authority:
+- `docs/chapters/dialogue/chapter_04/FOUR_ELEMENT_REWORK_2026-08-27.md`
+
+The Ch1–4 ordinary formation catalog was checked and already uses the correct current Chapter-4 roster:
+- Reaction Node
+- Composite Elemental
+- Reaction Hound
+- Element Mirror
+- Annex Crucible Guard
+
+Historical internal keys such as `LOC_SIXFOLD_ANNEX`, `LOC_SIXFOLD_REGULATION_CORE`, and `CH04_SIXFOLD_ANNEX` may remain temporarily for technical compatibility. They are not current display/canon names and must not drive mechanics. Any future rename must migrate all references/persistence keys together.
+
 ---
 
 # Current progression direction
@@ -181,3 +200,4 @@ Still open:
 - Predicted Impact stale-system cleanup
 - Prismatic Deluge / Regulator Fang exact numeric values
 - Chapter-4 four-element framework
+- Chapter-4 S022–S026 four-element script/dialogue-runtime synchronization
