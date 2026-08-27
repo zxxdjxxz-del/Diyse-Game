@@ -20,11 +20,12 @@ If a task conflicts with these files or a newer explicit user instruction, stop 
 
 ## Current authority state
 
-- Whole-project written authority: **Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.03 / Audit118**.
-- Current exact ordinary-equipment / Relic / Legacy-Trait / Forge-source authority: `docs/canon/AUDIT118_COMPLETE_EQUIPMENT_TRACKER_DELTA_PROMOTION_AND_NUMERICAL_CATALOG_LOCK.md`.
-- Compatible equipment structure / Synthesis-removal / donor-access authority: `docs/canon/AUDIT117_ITEM_EQUIPMENT_LEGACY_AND_CLASS_PROGRESSION_RECONCILIATION_LOCK.md`.
-- Current Card / Prime resource + command authority: `docs/canon/AUDIT116_STANDARD_CARD_PRIME_RESOURCE_AND_COMMAND_RECONCILIATION_LOCK.md`.
-- Current global combat / Ruin / status / class-Ability authority: `docs/canon/AUDIT115_COMBAT_RUIN_STATUS_AND_FULL_CLASS_ABILITY_NORMALIZATION_LOCK.md`.
+- Whole-project written authority: **Diyse v2.04 / Audit119**.
+- Current combat/resource/Prime/progression reconciliation: `docs/canon/AUDIT119_POST_AUDIT116_COMBAT_RESOURCE_PRIME_AND_PROGRESSION_RECONCILIATION_LOCK.md`.
+- Exact ordinary/Relic/Legacy-Trait/Forge numerical catalog: `docs/canon/AUDIT118_COMPLETE_EQUIPMENT_TRACKER_DELTA_PROMOTION_AND_NUMERICAL_CATALOG_LOCK.md`.
+- Equipment/Legacy/class-access structure: `docs/canon/AUDIT117_ITEM_EQUIPMENT_LEGACY_AND_CLASS_PROGRESSION_RECONCILIATION_LOCK.md`.
+- Compatible Card/Prime command authority: `docs/canon/AUDIT116_STANDARD_CARD_PRIME_RESOURCE_AND_COMMAND_RECONCILIATION_LOCK.md`.
+- Compatible global status/element/Ruin/class-Ability authority: `docs/canon/AUDIT115_COMBAT_RUIN_STATUS_AND_FULL_CLASS_ABILITY_NORMALIZATION_LOCK.md`.
 - Current chapter-number reconciliation: `docs/canon/AUDIT113_POST_INSERTION_CHAPTER_REINDEX_AND_LATE_GAME_OPERATIONAL_FILE_RECONCILIATION_LOCK.md`.
 - Current Chapter-10 story authority: `docs/canon/AUDIT112_CHAPTER_10_THE_LAST_BLANK_MIRENA_EASTERN_WAYFINDER_CALDER_AND_BURIED_REGISTRY_CLOSURE.md`.
 - Current world-map / region authority: `docs/canon/AUDIT111_FINAL_WORLD_MAP_REGION_TERMINOLOGY_AND_VISUAL_AUTHORITY_CLOSURE.md`.
@@ -32,162 +33,76 @@ If a task conflicts with these files or a newer explicit user instruction, stop 
 - Chapters 0–4 remain COMPLETE/CLOSED at story/dialogue authority level.
 - HD-2D is the sole active presentation target.
 
-Historical audit filenames and acceptance IDs remain provenance. Current chapter folders and later overlays control implementation.
+Historical audit filenames and trackers remain provenance, not automatic current authority.
 
-## Post-insertion chapter-number firewall
+---
 
-Chapter 10 — The Last Blank was inserted after Chapter 9.
+## Current system firewall — Audit119
 
-Current late-game numbering:
+### Direct damage
 
-- **Chapter 10 — The Last Blank** — Mirena records lead / Cerythvale / eastern forest / discovery of Eastern Wayfinder / physical-map completion / old Crown excavation / Calder provenance / Registry Warden / Buried Registry.
-- **Chapter 11** — Crown Engine / Othmar Calder / Custodian / Truth.
-- **Chapter 12 — The Reforged March** — final Black Host campaign / Varkesh / Vhalmarch Forward Hub / Vorathen / Vaelkor / cleanup.
-- **Chapter 13 — The Last Command** — final Ancient domain / Last Weapon Archive / Last Shelter / Reconstituted Entity / Final Severance / ending.
+Use:
 
-Historical translation:
-- old Ch10 → current Ch11;
-- old Ch11 → current Ch12;
-- old Ch12 → current Ch13.
+> **Component Damage = Weight × (Power / 100) × Offense × 1.50 × [150 / (150 + Effective Defensive Stat)]**
 
-Never implement the old `chapter_11 = Forward Hub/Vaelkor` or `chapter_12 = final domain` arrangement.
+- Physical = Attack vs Defense.
+- Magical = Magic vs Spirit.
+- Character-Ability Ruin = 75% Attack / 25% Magic.
+- Same-axis penetration adds in percentage points and caps at 75%.
+- No cross-axis penetration transfer.
+- No hidden universal AoE penalty.
+- No universal random damage variance.
+- Basic Attack = 100 Power / Physical / Neutral unless equipment explicitly changes affinity.
+- Universal Critical payout/order remains unresolved; do not invent it.
 
-Current operational sources:
-- `docs/chapters/chapter_10/CHAPTER_10_THE_LAST_BLANK_STORY_STRUCTURE_LOCK.md`
-- `docs/chapters/chapter_11/CHAPTER_11_CURRENT_SCOPE.md`
-- `docs/chapters/chapter_12/CHAPTER_12_REFORGED_MARCH_FORWARD_HUB_AND_CLEANUP_LOCK.md`
-- `docs/chapters/chapter_13/CHAPTER_13_MACRO_STORY_STRUCTURE_LOCK.md`
+### Standard Cards
 
-## Current point of no return
+Exactly 24 Standard Cards, maximum 3 equipped per character.
 
-Starting Chapter 13 is deliberate but **not** itself irreversible.
+Current Card MP range is **18–48 MP**, not Audit116's older 12–36 range. Exact current costs are in Audit119 / ACTIVE_CANON.
 
-The true irreversible threshold is:
+Cards are reusable and MP-consuming. Do not implement a charge/deck/draw/discard/duplicate/rank system.
 
-**Last Shelter → Reactor Galleries**
+### Primes
 
-Before that threshold, the runtime must preserve a supported way to return to eligible unfinished world content.
+Current progression:
 
-Do not implement any old rule that disables all world access at Chapter-13 launch.
+> **Recovered → Awakened**
 
-## Current world terminology
+Do not implement the temporary tracker label `Reactive`.
 
-Use current names in authored prose/UI/codex/implementation-facing docs:
+Current Invocation MP:
+- Recovered Story — **50 MP**
+- Awakened Story — **80 MP**
+- Awakened Major Hunt — **90 MP**
+- manifested commands — 0 additional MP
 
-- **BLACK HOST TERRITORY / Black Host Territory**
-- **THE WESTWAYS / The Westways**
-- **THE GREYSPIRES / The Greyspires**
-- **YAHTRENHOLD / Yahtrenhold** — never `The Yahtrenhold`
-- **The Blackspine**
-- **Westguard**
-- **Vhalmarch**
-- **Vorathen**
-- **The Veiled Citadel**
+Do not use Audit116's old 60/75/75 ladder.
 
-Retired current-facing names include:
-- Blackstone as the formal region label;
-- The Crownhold / Southhold;
-- Black Mountains;
-- Westreach / Yahtrens Stand.
+Awakened Primes replace/suspend the party for exactly 3 Prime rounds, then trigger the shared 3-full-normal-round cooldown. Prime use remains once per identity per battle / genuine fresh-HP form.
 
-Legacy stable technical IDs may retain retired strings until a reference-safe engineering cleanup. Stable IDs are not authored geography authority.
+Default Prime harmful-status susceptibility = 80%. Freeze/Stun together may deny at most one selected Prime command per manifestation; after that the Prime is Freeze/Stun immune for the remainder of that manifestation.
 
-## Chapter 10 knowledge firewall
+Prime manifestation uses the Audit119 Reference-Level scaling architecture. Do not invent Prime levels or Prime XP.
 
-For Chapter 10 — The Last Blank:
+### Consumables
 
-- Mirena has been reviewing strange Crown orders since Chapter 3.
-- She finds an old eastern research authorization plus a later `research completed` notation, with the meaningful middle absent.
-- Mirena and the party do **not** know Eastern Wayfinder exists at chapter start.
-- The party discovers Eastern Wayfinder while investigating the old research area beyond Cerythvale.
-- Eastern Wayfinder completes the physical Ancient map before the excavation/boss sequence.
-- Calder's Prime research predates the game and predates any successful Prime activation.
-- Calder's lawful standing recovery directive is why the recovered Card was transported to Caelora and therefore why Cyanis's Chapter-0 convoy existed.
-- Calder did not choose Cyanis, cause the ambush, or know the Card would activate.
-- Mirena's final provenance verification establishes Calder as the source behind the Chapter-3 composite seizure architecture.
-- Registry Warden = one HP bar, no adds, no transformation, no boss-only subsystem.
-- Buried Registry links geography with custody/authority/jurisdiction/responsibility/transfer but does not reveal the full Underground Crest Network / Crown Engine / Custodian / Entity truth.
+Current Consumable count = **21**.
 
-Target first-clear runtime is approximately 55–65 minutes.
+MP recovery:
+- Flow Tonic 50 MP
+- Deepflow Tonic 80 MP
+- Highflow Tonic 120 MP
+- Reservoir Tonic 75% Max MP
+- Emergency Kit 60% Max MP as its MP component
 
-Do not invent Chapter-10 item/EXP/CEXP/Card rewards in story implementation; those are deferred to the item/progression pass.
+Do not use the old 20-consumable count. Exact HP-restorative values remain open.
 
-## Current Chapter 12 campaign hard boundaries
+---
 
-- Current Chapter 12 = **The Reforged March**.
-- Varkesh controls the defensive withdrawal and is defeated/captured alive before Vhalmarch becomes the Forward Hub.
-- Once Vhalmarch is secured, **Cresthaven ↔ Vhalmarch** two-way travel remains available through the rest of Chapter 12 and the post-Vaelkor cleanup state.
-- Cresthaven is the primary full-service HQ; Vhalmarch is essential-services field staging.
-- Chapter-12 conventional Elite remains separate from Hunts.
-- **Regional Hunt #11 — Throne of Emperor Vaelkor** belongs to current Chapter 12 and remains separate from the Elite.
-- Vaelkor boss remains **Emperor of the Reforged Host → Sovereign Panoply Unbound**. He remains consciously himself and morally responsible; no possession and no third Vaelkor form.
-- Vaelkor's defeat opens cleanup/preparation and does not automatically start Chapter 13.
-- Native Legacy completion may occur during the late-Ch12 / early-Ch13 returnable window when its individual requirements are satisfied. There is **no mandatory Synthesis-resolution scene gate**.
+## Current class / Mastery architecture
 
-## Current Chapter 13 final-act hard boundaries
-
-- Chapter 13 = **The Last Command**.
-- Surface access uses the Vorathen / Veiled Citadel excavation route; Final Archive is not the mandatory finale entrance.
-- Regional Hunt: none.
-- Elite: **Devourer of Names**.
-- Calamity Memory remains enemy/special-enemy ecosystem material, not the Elite.
-- Mandatory guardian: **Last Weapon Archon**, one HP bar, physical Ancient Diysean guardian.
-- Locked macro progression: **Deepest City → Deep City → Last Weapon Archive → Last Weapon Archon → Last Shelter → Reactor Galleries → Reactor–Crest Interface → Reconstituted Entity → Crest Integration → The Last Command → Final Severance → ending**.
-- Last Weapon Archive is where the modern party first discovers exactly one mangled Entity portion survived the ancient convergence/compression/discharge firing.
-- Custodian's record was incomplete, not deceptive.
-- Final Severance is not an Ancient procedure and is invented by the modern six during The Last Command.
-- Reconstituted Entity is the same sole surviving continuity, not a copy/child/second fragment.
-- Final boss has exactly two genuine full-health forms: **Reconstituted Entity → The Last Command**. No third form.
-- Entity ends permanently; no hidden copy/branch/escape fragment.
-- Giant Crest/viable reactors survive damaged/stable.
-- All six permanent party members survive.
-
-## Current Faces / Story Primes
-
-Faces:
-- Might
-- Elements
-- Grace
-- **Acuity**
-- Change
-- Ruin
-
-Story Primes:
-- Might — Last Sentinel
-- Elements — Last Convergence
-- Grace — Last Sanctuary
-- Acuity — **Last Cartographer**
-- Change — Last Scribe
-- Ruin — Last Erasure
-
-No Prime had ever been successfully activated before the modern story.
-
-Do not restore `Resource / Last Measure` as current final-act terminology.
-
-Current Final Severance order:
-1. Last Sentinel / Might — HOLD
-2. Last Convergence / Elements — DISTINGUISH
-3. Last Cartographer / Acuity — MAP
-4. Last Sanctuary / Grace — PRESERVE
-5. Last Scribe / Change — CONTAIN
-6. Last Erasure / Ruin — END
-
-## Current system baselines
-
-- Player level cap: **70**.
-- Base class cap: **CL13**.
-- Subclass cap: **CL13**.
-- Maximum active party: four.
-- Maximum simultaneously active enemies: eight.
-- Permanent battle commands: **Attack / Ability / Card / Item / Defend**.
-- MP is the universal ordinary Ability resource; no character-specific combat gauges.
-- No Ability or Ultimate requires a specific equipped weapon once learned.
-- Exactly **24 Standard Cards** and **12 Prime Cards**.
-- Standard Cards are reusable and MP-consuming; they are data-driven and remain outside ordinary inventory.
-- Persistent game state remains versioned plain data separate from scene nodes.
-- Random encounters remain normal hostile-exploration grammar where approved; do not replace them with visible roaming enemies without explicit canon revision.
-
-Current Base/Subclass identities:
+Permanent six:
 - Cyanis — **Crest Knight / Crest Magus**
 - Ilyra — **Blue Warden / Vowblade**
 - Torren — **War Archer / Routeweaver**
@@ -195,156 +110,256 @@ Current Base/Subclass identities:
 - Vaelira — **Prism Archer / Green Arcanist**
 - Seyrik — **Ruin Vanguard / Ruin Healer**
 
-## Sixfold Volition
+Base and Subclass caps are both **CL13**.
 
-Formal term: **The Sixfold Volition**. `Sixfold Accord` is deprecated.
+No permanent character uses a Subclass before the Sixfold Volition at the end of Chapter 7.
 
-- Chapter 6 ends with Seyrik's conditional permanent recruitment.
-- Chapter 7 — The Prison of Names — is the first full-six integration chapter.
-- Sixfold Volition occurs at the end of Chapter 7 / Cresthaven return.
-- No permanent character uses a Subclass before the Volition.
-- All six Subclasses unlock there.
-- Chapter 8 is the first full mandatory post-Volition Subclass chapter.
+Current Subclass equipment progression:
+- CL1 — donor Primary
+- CL3 — donor Armor + Mastery 1 eligible
+- CL5 — donor Secondary + Mastery 2 eligible
+- CL7 — Mastery 3 / Equipment Mastery eligible; **purchase grants donor Relic access**
+- CL11 — Mastery 4 / Legacy Mastery eligible; **purchase grants donor Legacy access**
 
-Reciprocal pairs:
-- Cyanis ⇄ Vaelira
-- Ilyra ⇄ Seyrik
-- Torren ⇄ Nimera
+Do not grant donor Relic/Legacy permission merely for reaching CL7/CL11 if the relevant Mastery purchase has not occurred.
 
-## Subclass donor equipment access — Audit117/118
+**Synthesis is removed.** Never implement:
+- Synthesis Mastery node;
+- Synthesis MP cost;
+- Synthesis passive/integration effect;
+- Base-CL13 + Subclass-CL13 Synthesis gate;
+- separate shared-Legacy items.
 
-Current progression milestones:
+Only eight active Mastery nodes remain. The exact Mastery Point grant schedule must be reconciled; do not invent a ninth node merely to consume the old ninth point.
 
-- **CL1** — linked donor Primary access
-- **CL3** — linked donor Armor access
-- **CL5** — linked donor Secondary access where applicable
-- **CL7** — Subclass Mastery 3 becomes eligible; purchasing it grants linked donor Relic access
-- **CL11** — Subclass Mastery 4 becomes eligible; purchasing it grants linked donor Legacy access
+Current exact Base/Subclass Ability MP costs after the latest class-kit changes are still open. Preserve the higher-MP direction and modest Subclass premium, but do not treat retired-name tracker tables or older low Audit115 costs as final implementation values.
 
-The receiver equips the donor's **existing obtained item**. No separate shared Relic/Legacy artifact is created.
+---
 
-**Synthesis is removed.** Never implement a Synthesis Mastery node, Synthesis MP cost, Synthesis passive, or Base-CL13/Subclass-CL13 Synthesis gate.
-
-## Legacy project / Kessara baseline — Audit117/118
-
-There are exactly **17 native Legacy equipment pieces** and **no separate shared-Legacy artifact catalog**.
-
-Native Legacy completion requires:
-- Base CL13;
-- all four Core Masteries;
-- that character's Character Quest / resolution;
-- the Character Quest's unique Legacy Component;
-- the character's unique Legacy precursor;
-- dedicated Legacy Gate A and Gate B materials;
-- Kessara project availability.
-
-Gate A releases the Legacy weapon. Gate B releases all remaining pieces in that native package.
-
-Forge economy:
-- 5 Face components per Face / 30 total;
-- 2 Legacy-gate-specific per Face;
-- 3 Relic-copy-specific per Face;
-- Legacy-gate and Relic-copy materials are not interchangeable;
-- mandatory Gate materials do not require Hunts or sidequests;
-- Audit118 contains the exact 30-slot chapter/source-role matrix.
-
-Relic-copy forging may create one identical extra copy of an already-obtained Relic. Max quantity per Relic = 2; the finite pool allows at most three duplicated Relics per Face. Legacies remain unique.
-
-Character Quests remain optional while world return remains available, but a character's own Legacy cannot be completed until that character's Character Quest and unique Legacy Component are complete/registered.
-
-Secured Legacy completion remains available through the **Chapter-13 pre-Last-Shelter returnable period**. Final cutoff is the Last Shelter → Reactor Galleries commitment.
-
-Exact post-insertion CEXP timing remains pending the dedicated progression pass. Do not preserve old 12-chapter CEXP milestones by assumption.
-
-## Equipment-count / slot firewall — Audit118
+## Equipment / Relic / Legacy firewall
 
 Current active catalog:
-- **38 ordinary equipment pieces**
-- **36 Relics**
-- **17 Legacies**
+- 38 ordinary
+- 36 Relics
+- 17 native Legacies
 - **91 total**
 
 All 12 Subclass Relics are removed.
 
-Slot rules that must not regress:
+Exact ordinary/Relic data is in Audit118 and is implementation-ready unless a newer audit changes it.
+
+Slot rules:
 - Ilyra — Wardrod Primary; Shield or Focus Secondary.
 - Torren Great Bow — Weapon + Secondary.
 - Vaelira Arcane Staff — one-slot Primary; Focus legal.
 - Seyrik Two-Handed Sword — Weapon + Secondary.
 - Nimera ordinary / surviving Relic Conduits — one-slot.
-- Nimera native Legacy Conduit — **Weapon + Secondary**.
+- Nimera native Legacy Conduit — Weapon + Secondary.
 
-Audit118 is the exact implementation authority for:
-- all 38 ordinary raw-stat lines and Ch2–8 source map;
-- all 36 surviving Relic raw-stat/Trait packages;
-- all 36 current Relic Ch6–12 first-acquisition homes;
-- current native Legacy Trait definitions;
-- Cresthaven ordinary relative-value/backfill rules;
-- the exact 30 Forge Component source-role matrix.
+Native Legacy completion requires:
+- Base CL13;
+- four Core Masteries;
+- Character Quest / resolution;
+- unique Character Quest Legacy Component;
+- unique Legacy precursor;
+- Gate A material;
+- Gate B material;
+- Kessara project availability.
 
-Equipment tier identity:
+Gate A releases the Legacy weapon. Gate B releases the rest of the package.
+
+Linked donor access uses the donor's **existing obtained item**. No separate shared Relic/Legacy artifact is created.
+
+Forge economy:
+- 30 components total;
+- 2 Legacy-gate-specific per Face;
+- 3 Relic-copy-specific per Face;
+- categories are non-interchangeable.
+
+Relic copies:
+- original must already be obtained;
+- one matching-Face copy material;
+- maximum one forged duplicate / max quantity 2;
+- Legacies remain unique.
+
+Equipment hierarchy:
 
 > **Ordinary < Relic < Legacy**
 
-Legacies may carry capstone Max HP / Max MP / Accuracy / Evasion perks. **Exact 17-piece Legacy raw-stat/perk numbers remain pending approval; do not implement the working v600 numbers as canon yet.**
+Exact Legacy raw stats / HP-MP-Accuracy-Evasion assignments remain pending approval. Do not implement the working v600 numbers as canon yet.
 
-Final Relic / Legacy / Legacy-Component / Forge-variant names remain deferred until dialogue is substantially more complete.
+Legacy elemental/status/perk/passive treatment is still an open design point; do not silently discard the earlier requirement or invent a resolution.
 
-## Critical presentation rule
+Final Relic / Legacy / Legacy-Component / Forge-variant names remain deferred.
+
+---
+
+## Progression / enemy balance firewall
+
+- Player level cap = 70.
+- Chapter 0 grants no character levels.
+- Chapters 1–7 intentionally sit somewhat below a near-linear curve.
+- Faster level gain begins after Chapter 7.
+- Expected Chapter-12 campaign-only clear target = **Lv60**.
+- Spread the needed late EXP backward through Chapter 9 onward.
+- Enemy strength and kill EXP should rise within a chapter from start to end.
+- Old/weak enemies should award much less kill EXP to overlevelled parties.
+
+Do **not** implement the old v494–v503 exact chapter-level/enemy/encounter tables. Detailed current Ch1–13 player bands, enemy bands, encounter counts, formation EXP, and diminishing-return percentages remain deferred to the dedicated progression pass.
+
+Boss/Hunt/Elite resistance should be higher than ordinary-enemy resistance without blanket immunity. Use Audit119's 125/100/80/60/0 elemental framework and 100/80/60/0 status-susceptibility framework.
+
+---
+
+## Post-insertion chapter-number firewall
+
+The game has Chapter 0 plus Chapters 1–13.
+
+Current late-game numbering:
+- Chapter 10 — **The Last Blank**
+- Chapter 11 — **Crown Engine**
+- Chapter 12 — **The Reforged March**
+- Chapter 13 — **The Last Command**
+
+Historical translation:
+- old Ch10 → current Ch11
+- old Ch11 → current Ch12
+- old Ch12 → current Ch13
+
+Never implement the old `chapter_11 = Forward Hub/Vaelkor` or `chapter_12 = final domain` arrangement.
+
+Current operational chapter files:
+- `docs/chapters/chapter_10/CHAPTER_10_THE_LAST_BLANK_STORY_STRUCTURE_LOCK.md`
+- `docs/chapters/chapter_11/CHAPTER_11_CURRENT_SCOPE.md`
+- `docs/chapters/chapter_12/CHAPTER_12_REFORGED_MARCH_FORWARD_HUB_AND_CLEANUP_LOCK.md`
+- `docs/chapters/chapter_13/CHAPTER_13_MACRO_STORY_STRUCTURE_LOCK.md`
+
+---
+
+## Current point of no return
+
+Starting Chapter 13 is deliberate but not itself irreversible.
+
+True irreversible threshold:
+
+> **Last Shelter → Reactor Galleries**
+
+Before that threshold, preserve supported return to eligible unfinished world content.
+
+---
+
+## Current ordinary Side-Quest correction
+
+Do not use the stale v480–v493 cumulative-tracker reduction branch as current roster authority.
+
+Current retained ordinary quests include:
+- Edda Harth — **The Marks We Leave** — Ch1 after Torren joins / Greenhollow / low-zero required combat.
+- Edda Harth — **When the Roads Open** — post-Vaelkor cleanup / current Ch12.
+- Talia Rell — **The Third Caravan** — after Ch8 / Greenhollow → Ashford.
+- Talia Rell — **The Living List** — after Ch10 / Ashford anchor.
+
+Dialogue and exact final rewards remain deferred.
+
+---
+
+## Current world terminology
+
+Use current-facing terminology:
+- BLACK HOST TERRITORY / Black Host Territory
+- THE WESTWAYS / The Westways
+- THE GREYSPIRES / The Greyspires
+- YAHTRENHOLD / Yahtrenhold
+- The Blackspine
+- Westguard
+- Vhalmarch
+- Vorathen
+- The Veiled Citadel
+
+Do not restore retired current-facing labels such as Blackstone, Westreach, Black Mountains, or The Crownhold.
+
+Legacy stable technical IDs may retain old strings until a reference-safe cleanup; technical IDs are not authored geography authority.
+
+---
+
+## Chapter 10 knowledge firewall
+
+For Chapter 10 — The Last Blank:
+- Mirena begins from the old eastern research-authorization gap, not prior knowledge of Eastern Wayfinder.
+- Eastern Wayfinder is discovered during the investigation and completes the physical Ancient map.
+- Calder's Prime research predates any successful Prime activation.
+- Calder's lawful recovery directive explains why the recovered Card travelled to Caelora; he did not choose Cyanis or cause the ambush.
+- Registry Warden has one HP bar, no adds, no transformation, no boss-only subsystem.
+- Buried Registry does not reveal the full Crown Engine/Custodian/Entity truth.
+
+Do not invent Chapter-10 reward allocation during story implementation.
+
+---
+
+## Chapter 12 / 13 hard boundaries
+
+Chapter 12:
+- Varkesh controls the defensive withdrawal and is defeated/captured before Vhalmarch becomes the Forward Hub.
+- Cresthaven ↔ Vhalmarch two-way travel remains through Chapter 12 and post-Vaelkor cleanup.
+- Regional Hunt #11 remains separate from the conventional Elite.
+- Vaelkor remains **Emperor of the Reforged Host → Sovereign Panoply Unbound**, consciously himself, no third form.
+- Vaelkor defeat opens cleanup and does not auto-start Chapter 13.
+
+Chapter 13:
+- Surface entry uses the Vorathen / Veiled Citadel excavation route.
+- Regional Hunt: none.
+- Elite: Devourer of Names.
+- mandatory guardian: Last Weapon Archon.
+- final boss: exactly **Reconstituted Entity → The Last Command**, two genuine full-health forms.
+- no third form / hidden copy / escape fragment.
+- all six permanent party members survive.
+
+---
+
+## HD-2D presentation contract
 
 Diyse is **HD-2D**.
 
 Current production targets:
 - field characters approximately 80 px;
 - battle characters approximately 200–220 px;
-- large high-resolution dialogue portraits;
+- large dialogue portraits;
 - authored layered environments;
-- bounded authored cameras and restrained parallax;
+- bounded cameras and restrained parallax;
 - party left / enemies right / open center combat frame;
-- reusable battle-background families derived from field geography;
+- reusable battle-background families derived from geography;
 - exact visual masters control derivatives.
 
-Do not revive retired 2.5D/3D presentation direction from historical proof documents.
+Prefer reusable animation/staging families, portrait swaps, bounded camera work, state-swapped props/environments, layered loops, modular Face/Card/Prime/element VFX, and reusable battle backgrounds.
 
-## Affordable HD-2D behavior
+Avoid by default: physics destruction, fluid simulation, crowd simulation, free-camera exploration, chain/cloth/hair simulation, bespoke body animation for every Ability, or a unique arena for every formation.
 
-Prefer reusable animation and staging families, portrait/expression swaps, bounded camera work, state-swapped props/environments, layered background loops, modular Face/Card/Prime/elemental VFX, and reusable battle-background families.
-
-Avoid by default: physics destruction, fluid simulation, crowd simulation, free-camera exploration, chain/cloth/hair simulation, bespoke body animation for every Ability, or one unique arena per formation.
+---
 
 ## Boss/form implementation categories
 
-Classify encounter transitions correctly:
-
-1. **Same-body / same-HP escalation:** presentation/behavior changes without unnecessary new body/HP reset.
-2. **Genuine new form:** new combat state/body with fresh HP only where canon explicitly defines it.
-3. **Prime-scale entity:** use the reusable Prime presentation pipeline.
+1. Same-body / same-HP escalation — behavior/presentation changes without unnecessary HP reset.
+2. Genuine new form — fresh HP only where canon explicitly defines it.
+3. Prime-scale entity — use the reusable Prime presentation pipeline.
 
 Do not add health bars, transformations, threshold attacks, or Prime refreshes not present in canon.
 
-## Prime presentation
-
-S021 identifies/unlocks Last Sentinel without manifesting it. S022's Elder Briarhide fight remains the first verified modern Prime manifestation under compatible early-game authority.
-
-Reusable Prime presentation remains:
-
-command accepted → battlefield yields through authored camera/light → exact Prime manifestation → one legal action → impact → dismissal → normal battle presentation returns.
-
-Do not convert Prime use into a detached movie that bypasses combat rules.
+---
 
 ## Completed Chapters 0–4 rule
 
-Do not recover, re-author, or re-audit Chapters 0–4 as though their approved story/dialogue were missing.
+Do not recover, re-author, or re-audit Chapters 0–4 as though approved story/dialogue were missing.
 
-Use exact source and validated Resources listed by `docs/chapters/README.md` and `docs/IMPLEMENTATION_STATUS.md`.
+Use exact source/validated Resources listed by `docs/chapters/README.md` and `docs/IMPLEMENTATION_STATUS.md`.
 
-Later terminology/canon overlays may require bounded reference-safe updates without reopening dialogue voice or scene logic.
+Later terminology/canon overlays may require bounded reference-safe updates without reopening scene logic or dialogue voice.
+
+---
 
 ## Engineering behavior
 
-- Fresh Godot/GDScript implementation; do not copy/port code from historical `zxxdjxxz-del/Diyse` unless explicitly authorized for named reuse.
-- Dialogue is one authored continuity; no response wheels, tone selection, morality/affinity responses, persuasion trees, or romance routes.
-- Production dialogue uses stable-ID `DiyseDialogueSceneDefinition` Resources; never embed canon scene text or final portrait paths in generic engine code.
+- Fresh Godot/GDScript implementation; do not copy/port code from historical `zxxdjxxz-del/Diyse` unless explicitly authorized.
+- Dialogue is one authored continuity; no response wheels, morality routes, affinity routes, persuasion trees, or romance branches.
+- Production dialogue uses stable-ID `DiyseDialogueSceneDefinition` Resources; do not embed final canon dialogue in generic engine code.
 - Implement one bounded milestone at a time.
 - Preserve deterministic behavior where combat rules require it.
 - Add deterministic validation for pure logic/content contracts where practical.
@@ -355,21 +370,4 @@ Later terminology/canon overlays may require bounded reference-safe updates with
 - Do not optimize around placeholders in a way that blocks final exact assets.
 - Do not change canon/specification documents as accidental side effects of code work.
 
-## Progression/reward reindex boundary
-
-The added Chapter 10 requires a dedicated balance pass. Historical exact late-game EXP/CEXP/economy timing written for the 12-chapter spine is non-controlling where it depends on that old timing.
-
-Use:
-`docs/canon/POST_INSERTION_PROGRESSION_TIMING_HOLD_2026-08-23.md`
-
-Do not silently invent replacement progression numbers during unrelated implementation work.
-
-## Historical audit interpretation
-
-Historical Audit84/Audit89 remain useful decision provenance but do not carry current chapter numbers.
-
-Use:
-- `docs/canon/AUDIT89_CURRENT_REINDEX_AND_TERMINOLOGY_OVERLAY_2026-08-23.md`
-- `docs/canon/AUDIT113_POST_INSERTION_CHAPTER_REINDEX_AND_LATE_GAME_OPERATIONAL_FILE_RECONCILIATION_LOCK.md`
-
-Current operational chapter files always outrank historical folder/number assumptions.
+The active working tracker is being consolidated. Do not treat the frozen 165,000-line cumulative tracker as an implementation authority; use master audits and the compact current tracker instead.
