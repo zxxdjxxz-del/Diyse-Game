@@ -58,22 +58,22 @@ The controlling Subclass equipment / mastery rhythm is:
 | **CL4** | new Subclass ability |
 | **CL5** | Subclass Mastery 2 eligibility + linked donor Secondary access where applicable |
 | **CL6** | Trait Rank II |
-| **CL7** | new Subclass ability + Subclass Mastery 3 eligibility + **linked donor Relic access** |
+| **CL7** | new Subclass ability + **Subclass Mastery 3 / Equipment Mastery eligibility** |
 | **CL9** | new Subclass ability |
 | **CL10** | **new Subclass ability** |
-| **CL11** | **Subclass Mastery 4 eligibility + linked donor Legacy access** |
+| **CL11** | **Subclass Mastery 4 / Legacy Mastery eligibility** |
 | **CL12** | Trait Rank III |
 | **CL13** | Subclass Ultimate + Subclass cap |
 
 Important corrections:
 
-- donor Relic access is **CL7**, not CL10;
+- **purchasing Subclass Mastery 3 at CL7 grants linked donor Relic access**;
 - the former CL11 ability moves to **CL10**;
 - Subclass Mastery 4 moves to **CL11**;
-- donor Legacy access is **CL11**;
+- **purchasing Subclass Mastery 4 at CL11 grants linked donor Legacy access**;
 - **Synthesis is removed**.
 
-Reaching the relevant Class Level makes a Mastery node eligible where a Mastery gate is specified; the Mastery node still follows the current Mastery Point purchase rules unless separately revised.
+Reaching CL7 or CL11 makes the corresponding Mastery node eligible. Donor Relic/Legacy permission is granted by purchasing that node, not merely by touching the Class Level.
 
 ---
 
@@ -94,9 +94,9 @@ The directional equipment-access map remains:
 - Vaelira ← Cyanis
 - Seyrik ← Ilyra
 
-At Subclass CL7, the receiver may equip the linked donor's **already-obtained Relic equipment**.
+After purchasing **Subclass Mastery 3 / Equipment Mastery** at CL7, the receiver may equip the linked donor's **already-obtained Relic equipment**.
 
-At Subclass CL11, the receiver may equip the linked donor's **already-obtained native Legacy equipment**.
+After purchasing **Subclass Mastery 4 / Legacy Mastery** at CL11, the receiver may equip the linked donor's **already-obtained native Legacy equipment**.
 
 These permissions:
 
@@ -188,7 +188,7 @@ Package counts:
 
 No separate shared-Legacy item catalog exists.
 
-A character's own native Legacy access never requires Subclass CL11. CL11 is only the linked receiver's donor-equipment permission.
+A character's own native Legacy access never requires Subclass Mastery 4. The CL11 node is only the linked receiver's donor-equipment permission.
 
 Final Legacy display names are **deferred until dialogue is substantially more complete**. Current names remain working identifiers.
 
@@ -206,7 +206,7 @@ It therefore cannot be paired with a Focus while equipped.
 
 Nimera's ordinary Conduits and surviving Base Relic Conduits remain one-slot unless separately revised.
 
-Any linked donor wearer at Subclass CL11 inherits the same two-slot requirement.
+Any linked donor wearer with Subclass Mastery 4 inherits the same two-slot requirement.
 
 ---
 
@@ -296,7 +296,7 @@ No third Forge Component gate exists.
 
 Package-size differences do not create extra material cost; extra pieces such as Ilyra's Shield/Focus are alternate legal equipment choices, not additional simultaneous slots.
 
-Donor CL11 access respects partial completion: if only Gate A is complete, only the obtained Legacy weapon is available to the linked receiver.
+Donor Legacy access respects partial completion: if only Gate A is complete, only the obtained Legacy weapon is available to a linked receiver who has purchased Subclass Mastery 4.
 
 ---
 
@@ -370,7 +370,7 @@ Legacy identity also includes capstone stat perks that ordinary/Relic equipment 
 - **Accuracy Up**
 - **Evasion Up**
 
-These perks travel with the item when legally worn through donor CL11 access.
+These perks travel with the item when legally worn through donor Legacy access.
 
 **Important:** the exact 17-piece Legacy raw-stat values and exact perk assignments are still **pending approval** and are **not promoted by Audit117**. The working v600 proposal remains non-canon until explicitly approved or revised.
 
@@ -391,7 +391,25 @@ Do not treat working tracker names as final merely because mechanics are locked.
 
 ---
 
-# 18. Explicitly retired systems / assumptions
+# 18. Mastery Point economy after Synthesis removal
+
+The old Mastery architecture had 9 nodes:
+
+- 4 Core
+- 4 Subclass
+- 1 Synthesis
+
+Audit117 leaves only:
+
+> **8 active Mastery nodes**
+
+Therefore an inherited 9-point Mastery Point grant schedule is not automatically final merely because it matched the retired nine-node architecture.
+
+The exact total Mastery Point grant schedule must be reconciled in the dedicated progression pass. Do not invent a ninth required node to consume the old point.
+
+---
+
+# 19. Explicitly retired systems / assumptions
 
 Do not restore the following under renamed equivalents:
 
@@ -410,11 +428,12 @@ Do not restore the following under renamed equivalents:
 
 ---
 
-# 19. Open items not promoted by this audit
+# 20. Open items not promoted by this audit
 
 The following remain open / deferred and are not silently canonized here:
 
 - exact 17-Legacy raw stats and exact HP/MP/Accuracy/Evasion perk assignments;
+- exact Mastery Point grant total after Synthesis removal;
 - global Accuracy/Evasion hit-resolution formula;
 - universal Critical-hit damage multiplier / resolution order;
 - exact final Prism Lance Power if still unresolved by later Ability authority;
@@ -426,7 +445,7 @@ The following remain open / deferred and are not silently canonized here:
 
 ---
 
-# 20. Conflict firewall
+# 21. Conflict firewall
 
 For current implementation:
 
