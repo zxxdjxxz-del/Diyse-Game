@@ -1,6 +1,6 @@
 # Diyse — Current Implementation Status
 
-**Written authority checkpoint:** **v1.98 / Audit113**  
+**Written authority checkpoint:** **v2.03 / Audit118**  
 **Presentation target:** HD-2D  
 **Active repository:** `zxxdjxxz-del/Diyse-Game`
 
@@ -13,6 +13,8 @@
 - Chapters 0–4 HD-2D presentation sidecars/environment-state hookup: IMPLEMENTED at code/resource layer where previously recorded.
 - Final visual asset replacement remains production work where not already implemented.
 - Detailed late-game scene/runtime implementation remains pending; current macro authority is chapter-correct under Audit113.
+- Exact ordinary-equipment and surviving-Relic numerical/source authority is now closed under **Audit118**; runtime/data implementation may use those values directly.
+- Exact 17-piece Legacy raw-stat/capstone-perk values remain pending approval and must not be implemented from working v600 yet.
 
 ## Current late-game chapter structure
 
@@ -22,7 +24,7 @@ Current operational interpretation:
 
 - **Chapter 10 — The Last Blank** — story architecture locked under Audit112; detailed line-complete/runtime implementation pending.
 - **Chapter 11** — Crown Engine / Calder / Custodian / Truth; current macro scope, detailed scene production pending.
-- **Chapter 12 — The Reforged March** — final Black Host campaign / Varkesh / Vhalmarch Forward Hub / Vaelkor / cleanup.
+- **Chapter 12 — The Reforged March** — final Black Host campaign / Varkesh / Vhalmarch Forward Hub / Vorathen / Vaelkor / cleanup.
 - **Chapter 13 — The Last Command** — final Ancient domain / Last Weapon / Entity / Final Severance / ending.
 
 Pre-insertion mapping:
@@ -93,11 +95,46 @@ Do not restore `The Crownhold`, `Blackstone` as the formal region label, `Westre
 - Base/Subclass class cap: **CL13**.
 - Active battle party: maximum four.
 - Simultaneously active enemies: maximum eight.
-- Standard Cards: **24**, unlimited-use.
+- Standard Cards: **24**, reusable and MP-consuming.
 - Prime Cards: **12**.
 - No Ability or Ultimate requires a specific equipped weapon once learned.
 - MP remains the universal ordinary Ability resource; no personal combat gauges.
 - Random encounters remain core campaign grammar where approved.
+- **Synthesis is removed.** Do not implement a Synthesis node, Synthesis MP, or Synthesis-based Legacy gate.
+
+## Current equipment implementation baseline — Audit117/118
+
+Current active equipment catalog:
+- **38 ordinary**
+- **36 Relics**
+- **17 native Legacies**
+- **91 total**
+
+Audit118 is the current exact data authority for:
+- all 38 ordinary stat lines;
+- current ordinary Ch2–8 first-acquisition sources;
+- Cresthaven ordinary backfill/relative-value rules;
+- all 36 surviving Relic stat/Trait packages;
+- all 36 Relic Ch6–12 first-acquisition homes;
+- current native Legacy Traits;
+- exact 30 Forge Component source-role assignments.
+
+Audit117 remains compatible authority for:
+- Synthesis removal;
+- CL7 Subclass Mastery 3 donor-Relic permission;
+- CL11 Subclass Mastery 4 donor-Legacy permission;
+- native Legacy completion architecture;
+- 17-Legacy package count/slot structure.
+
+Slot rules that must not regress:
+- Ilyra: Wardrod Primary; Shield or Focus Secondary.
+- Torren Great Bow: Weapon + Secondary.
+- Vaelira Arcane Staff: one-slot Primary; Focus legal.
+- Seyrik Two-Handed Sword: Weapon + Secondary.
+- Nimera ordinary/surviving Relic Conduits: one-slot.
+- Nimera native Legacy Conduit: **Weapon + Secondary**.
+
+The exact working-v600 Legacy raw-stat and Max-HP/Max-MP/Accuracy/Evasion assignments are **not yet canon**.
 
 ## HD-2D runtime foundation
 
@@ -140,17 +177,21 @@ A presentation sidecar does not by itself lock final ordinary-enemy or Elite pla
 
 Do not silently invent:
 - late-game exact scene IDs/dialogue before those chapters enter explicit scene production;
-- Chapter-10 reward/card allocation;
+- Chapter-10 reward/card allocation not already explicitly locked by later authority;
 - final Level-70 EXP/CEXP curve;
-- final equipment stats;
+- **pending Legacy raw-stat/capstone-perk numbers**;
 - late-game enemy/boss numerical tuning;
 - return-path implementation details before their production pass.
 
-Those remain later work under current canon.
+Do **not** treat ordinary-equipment or surviving-Relic stats as open anymore; Audit118 is controlling for those exact values.
 
 ## Current authoritative documents
 
 - `docs/ACTIVE_CANON.md`
+- `docs/canon/AUDIT118_COMPLETE_EQUIPMENT_TRACKER_DELTA_PROMOTION_AND_NUMERICAL_CATALOG_LOCK.md`
+- `docs/canon/AUDIT117_ITEM_EQUIPMENT_LEGACY_AND_CLASS_PROGRESSION_RECONCILIATION_LOCK.md`
+- `docs/canon/AUDIT116_STANDARD_CARD_PRIME_RESOURCE_AND_COMMAND_RECONCILIATION_LOCK.md`
+- `docs/canon/AUDIT115_COMBAT_RUIN_STATUS_AND_FULL_CLASS_ABILITY_NORMALIZATION_LOCK.md`
 - `docs/canon/AUDIT113_POST_INSERTION_CHAPTER_REINDEX_AND_LATE_GAME_OPERATIONAL_FILE_RECONCILIATION_LOCK.md`
 - `docs/canon/AUDIT112_CHAPTER_10_THE_LAST_BLANK_MIRENA_EASTERN_WAYFINDER_CALDER_AND_BURIED_REGISTRY_CLOSURE.md`
 - `docs/canon/AUDIT111_FINAL_WORLD_MAP_REGION_TERMINOLOGY_AND_VISUAL_AUTHORITY_CLOSURE.md`
