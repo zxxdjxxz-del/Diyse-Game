@@ -1,13 +1,15 @@
 # Diyse — Current Working Tracker
 
 **Date:** August 27, 2026  
-**Working revision:** **v47**  
+**Working revision:** **v48**  
 **Master-canon baseline:** **v2.07 / Audit122**  
 **Status:** **ACTIVE WORKING TRACKER — MASTER CANON OUTRANKS THIS FILE**
 
 Primary authority:
 - `docs/canon/AUDIT122_BASE_HIT_EVASION_AND_BLEED_RUNTIME_LOCK.md`
 - `docs/canon/AUDIT121_CURRENT_SYSTEMS_ITEM_EQUIPMENT_AND_PROGRESSION_RECONCILIATION_LOCK.md`
+- `docs/canon/AUDIT119_POST_AUDIT116_COMBAT_RESOURCE_PRIME_AND_PROGRESSION_RECONCILIATION_LOCK.md`
+- `docs/canon/AUDIT115_COMBAT_RUIN_STATUS_AND_FULL_CLASS_ABILITY_NORMALIZATION_LOCK.md`
 - `docs/ACTIVE_CANON.md`
 - `AGENTS.md`
 
@@ -39,6 +41,50 @@ Historical cumulative trackers remain provenance only.
 - Nimera — Cardweaver / Proofhunter — Change
 - Vaelira — Green Arcanist / Axiomblade — Elements
 - Seyrik — Ruin Vanguard / Ruin Warden — Ruin
+
+## Class Ability MP certification — CLOSED / 12 OF 12 PASS
+The v467 Base-class and v469 Subclass working MP rebases have now completed the Audit121-required certification pass against:
+- Audit115-normalized Ability functions;
+- Power / healing / targeting / status / penetration packages;
+- current Mastery/Trait MP reductions;
+- Standard Card MP costs;
+- Prime Invocation costs;
+- MP recovery consumables;
+- representative working Max-MP packages;
+- late-game Legacy MP support.
+
+Result:
+# **NO AUTHORED BASE MP COST CHANGES REQUIRED**
+
+Certified Base bands:
+- routine floor: **10–16 MP** by class;
+- premium non-Ultimate: **30–40 MP** by class;
+- Ultimate: **52–60 MP**.
+
+Certified Subclass bands:
+- routine floor: **14–18 MP listed**;
+- premium non-Ultimate: **34–38 MP**;
+- Ultimate: **60–64 MP**.
+
+Current certified Mastery/Trait reductions remain:
+- Crest Knight / Clear Channel: Resonant Pulse **12 → 11 MP**;
+- War Archer / Patient Aim: Watchful Aim **20 → 18 MP**;
+- Cardweaver / Tight Weave: Weave Guard **18 → 16 MP**;
+- Green Arcanist / Efficient Spectrum: first eligible elemental Base Ability each ordinary round **−2 MP**;
+- Ruin Vanguard / Controlled Unmaking: Unmaking Blow **30 → 28 MP**;
+- Crest Arcanist / Crest Resonance Rank I: all MP-costing Crest Arcanist Abilities **−2 MP**.
+
+No separate MP cost is created for Gentle Continuance.
+
+Resource hierarchy remains coherent:
+- Standard Cards: **18–48 MP**;
+- Recovered Story Prime: **50 MP**;
+- Awakened Story Prime: **80 MP**;
+- Awakened Major Hunt Prime: **90 MP**.
+
+Late Legacy MP recovery/discount effects are treated as intentional capstone exceptions and do not cause wholesale class-cost inflation.
+
+Exact percentage-cost-modifier rounding/order remains a separate runtime arithmetic detail unless already established by a more specific implementation authority.
 
 ## Mastery architecture
 - Synthesis removed.
@@ -147,21 +193,7 @@ This exact cadence is **not final**.
 
 # ACTIVE FRONTIER
 
-## 1. Class Ability MP check / certification
-Still required across all 6 Base and 6 Subclass kits.
-
-Validate current working costs against:
-- current Max-MP progression;
-- action Power/healing/targeting/status/penetration;
-- Mastery cost reductions;
-- MP recovery and Max-MP equipment;
-- Standard Card costs;
-- Prime Invocation costs;
-- expected encounter endurance.
-
-Do not redesign Ability functions without an actual balance problem.
-
-## 2. CEXP + class-progression redo
+## 1. CEXP + class-progression redo
 Still required against:
 - Chapter 0 + Chapters 1–13;
 - Subclasses unlocking at end-Ch7 Sixfold Volition;
@@ -174,10 +206,10 @@ Still required against:
 - optional-content acceleration;
 - donor Relic/Legacy timing.
 
-## 3. Exact 8-point Mastery Point schedule
-Finalize inside the CEXP/progression pass.
+## 2. Exact 8-point Mastery Point schedule
+Finalize inside the CEXP/progression pass rather than independently.
 
-## 4. Detailed campaign EXP/enemy calibration
+## 3. Detailed campaign EXP/enemy calibration
 Still open:
 - Ch1–13 player-level bands;
 - enemy-level bands;
@@ -201,3 +233,5 @@ Still open:
 - Prismatic Deluge / Regulator Fang exact numeric values
 - Chapter-4 four-element framework
 - Chapter-4 S022–S026 four-element script/dialogue-runtime synchronization
+- certified v467 Base-class Ability MP costs
+- certified v469 Subclass Ability MP costs
