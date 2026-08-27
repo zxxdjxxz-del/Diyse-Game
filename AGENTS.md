@@ -20,8 +20,9 @@ If a task conflicts with these files or a newer explicit user instruction, stop 
 
 ## Current authority state
 
-- Whole-project written authority: **Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.02 / Audit117**.
-- Current item/equipment/Relic/Legacy/Forge/Subclass-access authority: `docs/canon/AUDIT117_ITEM_EQUIPMENT_LEGACY_AND_CLASS_PROGRESSION_RECONCILIATION_LOCK.md`.
+- Whole-project written authority: **Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.03 / Audit118**.
+- Current exact ordinary-equipment / Relic / Legacy-Trait / Forge-source authority: `docs/canon/AUDIT118_COMPLETE_EQUIPMENT_TRACKER_DELTA_PROMOTION_AND_NUMERICAL_CATALOG_LOCK.md`.
+- Compatible equipment structure / Synthesis-removal / donor-access authority: `docs/canon/AUDIT117_ITEM_EQUIPMENT_LEGACY_AND_CLASS_PROGRESSION_RECONCILIATION_LOCK.md`.
 - Current Card / Prime resource + command authority: `docs/canon/AUDIT116_STANDARD_CARD_PRIME_RESOURCE_AND_COMMAND_RECONCILIATION_LOCK.md`.
 - Current global combat / Ruin / status / class-Ability authority: `docs/canon/AUDIT115_COMBAT_RUIN_STATUS_AND_FULL_CLASS_ABILITY_NORMALIZATION_LOCK.md`.
 - Current chapter-number reconciliation: `docs/canon/AUDIT113_POST_INSERTION_CHAPTER_REINDEX_AND_LATE_GAME_OPERATIONAL_FILE_RECONCILIATION_LOCK.md`.
@@ -210,21 +211,21 @@ Reciprocal pairs:
 - Ilyra ⇄ Seyrik
 - Torren ⇄ Nimera
 
-## Subclass donor equipment access — Audit117
+## Subclass donor equipment access — Audit117/118
 
 Current progression milestones:
 
 - **CL1** — linked donor Primary access
 - **CL3** — linked donor Armor access
 - **CL5** — linked donor Secondary access where applicable
-- **CL7** — linked donor Relic access
-- **CL11** — linked donor Legacy access
+- **CL7** — Subclass Mastery 3 becomes eligible; purchasing it grants linked donor Relic access
+- **CL11** — Subclass Mastery 4 becomes eligible; purchasing it grants linked donor Legacy access
 
 The receiver equips the donor's **existing obtained item**. No separate shared Relic/Legacy artifact is created.
 
 **Synthesis is removed.** Never implement a Synthesis Mastery node, Synthesis MP cost, Synthesis passive, or Base-CL13/Subclass-CL13 Synthesis gate.
 
-## Legacy project / Kessara baseline — Audit117
+## Legacy project / Kessara baseline — Audit117/118
 
 There are exactly **17 native Legacy equipment pieces** and **no separate shared-Legacy artifact catalog**.
 
@@ -243,9 +244,11 @@ Forge economy:
 - 5 Face components per Face / 30 total;
 - 2 Legacy-gate-specific per Face;
 - 3 Relic-copy-specific per Face;
-- Legacy-gate and Relic-copy materials are not interchangeable.
+- Legacy-gate and Relic-copy materials are not interchangeable;
+- mandatory Gate materials do not require Hunts or sidequests;
+- Audit118 contains the exact 30-slot chapter/source-role matrix.
 
-Relic-copy forging may create one identical extra copy of an already-obtained Relic. Max quantity per Relic = 2. Legacies remain unique.
+Relic-copy forging may create one identical extra copy of an already-obtained Relic. Max quantity per Relic = 2; the finite pool allows at most three duplicated Relics per Face. Legacies remain unique.
 
 Character Quests remain optional while world return remains available, but a character's own Legacy cannot be completed until that character's Character Quest and unique Legacy Component are complete/registered.
 
@@ -253,7 +256,7 @@ Secured Legacy completion remains available through the **Chapter-13 pre-Last-Sh
 
 Exact post-insertion CEXP timing remains pending the dedicated progression pass. Do not preserve old 12-chapter CEXP milestones by assumption.
 
-## Equipment-count / slot firewall — Audit117
+## Equipment-count / slot firewall — Audit118
 
 Current active catalog:
 - **38 ordinary equipment pieces**
@@ -271,13 +274,21 @@ Slot rules that must not regress:
 - Nimera ordinary / surviving Relic Conduits — one-slot.
 - Nimera native Legacy Conduit — **Weapon + Secondary**.
 
+Audit118 is the exact implementation authority for:
+- all 38 ordinary raw-stat lines and Ch2–8 source map;
+- all 36 surviving Relic raw-stat/Trait packages;
+- all 36 current Relic Ch6–12 first-acquisition homes;
+- current native Legacy Trait definitions;
+- Cresthaven ordinary relative-value/backfill rules;
+- the exact 30 Forge Component source-role matrix.
+
 Equipment tier identity:
 
 > **Ordinary < Relic < Legacy**
 
-Legacies may carry capstone Max HP / Max MP / Accuracy / Evasion perks. Exact 17-piece Legacy stat/perk numbers remain pending approval; do not implement the working v600 numbers as canon yet.
+Legacies may carry capstone Max HP / Max MP / Accuracy / Evasion perks. **Exact 17-piece Legacy raw-stat/perk numbers remain pending approval; do not implement the working v600 numbers as canon yet.**
 
-Final Relic / Legacy / Legacy-Component names remain deferred until dialogue is substantially more complete.
+Final Relic / Legacy / Legacy-Component / Forge-variant names remain deferred until dialogue is substantially more complete.
 
 ## Critical presentation rule
 
