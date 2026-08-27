@@ -4,12 +4,13 @@ This file is an implementation-facing authority index and compact guardrail summ
 
 ## Current whole-project authority
 
-**Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.04 / Audit119 — Post-Audit116 Combat, Resource, Prime, and Progression Reconciliation Lock**  
+**Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.05 / Audit120 — Critical Hit and Direct-Damage Formula Lock**  
 **Date:** August 26, 2026
 
 Current newest authority chain:
 
-- **v2.04 / Audit119** — post-Audit116 combat resolver, Card/Prime MP, MP-restorative ladder, named-combat resistance, Prime status/scaling, progression directives, side-quest tracker reconciliation.
+- **v2.05 / Audit120** — controlling Physical/Magical/Hybrid direct-damage formula and Critical Hit system.
+- **v2.04 / Audit119** — compatible Card/Prime MP, MP-restorative ladder, named-combat resistance, Prime status/scaling, progression directives, side-quest tracker reconciliation.
 - **v2.03 / Audit118** — exact ordinary-equipment and Relic numerical/source catalog, settled Legacy Traits, Forge source matrix.
 - **v2.02 / Audit117** — equipment/Relic/Legacy structure, Synthesis removal, donor-access/class-progression reconciliation.
 - **v2.01 / Audit116** — compatible Standard-Card and Prime command definitions.
@@ -19,7 +20,8 @@ Current newest authority chain:
 
 Current domain pointers:
 
-- **Current combat/resource/Prime/progression reconciliation:** `docs/canon/AUDIT119_POST_AUDIT116_COMBAT_RESOURCE_PRIME_AND_PROGRESSION_RECONCILIATION_LOCK.md`
+- **Current Critical/direct-damage authority:** `docs/canon/AUDIT120_CRITICAL_HIT_AND_DIRECT_DAMAGE_FORMULA_LOCK.md`
+- **Compatible combat/resource/Prime/progression reconciliation:** `docs/canon/AUDIT119_POST_AUDIT116_COMBAT_RESOURCE_PRIME_AND_PROGRESSION_RECONCILIATION_LOCK.md`
 - **Exact ordinary/Relic/Legacy-Trait/Forge numerical catalog:** `docs/canon/AUDIT118_COMPLETE_EQUIPMENT_TRACKER_DELTA_PROMOTION_AND_NUMERICAL_CATALOG_LOCK.md`
 - **Equipment/Legacy/class-access structure:** `docs/canon/AUDIT117_ITEM_EQUIPMENT_LEGACY_AND_CLASS_PROGRESSION_RECONCILIATION_LOCK.md`
 - Compatible Card/Prime command authority: `docs/canon/AUDIT116_STANDARD_CARD_PRIME_RESOURCE_AND_COMMAND_RECONCILIATION_LOCK.md`
@@ -33,36 +35,59 @@ Current domain pointers:
 
 # Conflict order for current work
 
-1. **Audit119** controls the universal direct-damage resolver, current Standard-Card/Prime MP values, 21-consumable MP ladder, named resistance hierarchy, Prime status/scaling rules, and progression/side-quest corrections explicitly promoted there.
-2. **Audit118** controls exact ordinary/Relic stats, Relic Traits/placements, settled Legacy Traits, and the exact Forge source matrix.
-3. **Audit117** controls compatible equipment/Legacy/class-access structure and Synthesis removal.
-4. **Audit116** controls compatible Card/Prime command identities/effects not changed by Audit119.
-5. **Audit115** controls compatible status/element/Ruin/class-Ability effects.
-6. **Audit113** controls current chapter labels.
-7. Compatible older domain locks remain active.
+1. **Audit120** controls the direct-damage equation and Critical Hit rules.
+2. **Audit119** controls compatible Standard-Card/Prime MP values, 21-consumable MP ladder, named resistance hierarchy, Prime status/scaling rules, and progression/side-quest corrections.
+3. **Audit118** controls exact ordinary/Relic stats, Relic Traits/placements, settled Legacy Traits, and the exact Forge source matrix.
+4. **Audit117** controls compatible equipment/Legacy/class-access structure and Synthesis removal.
+5. **Audit116** controls compatible Card/Prime command identities/effects not changed by later audits.
+6. **Audit115** controls compatible status/element/Ruin/class-Ability effects.
+7. **Audit113** controls current chapter labels.
+8. Compatible older domain locks remain active.
 
 The historical cumulative tracker is design history, not authority by itself.
 
 ---
 
-# Universal direct-damage resolver — Audit119
+# Universal direct-damage / Critical system — Audit120
 
-For one Physical or Magical component:
+## Physical
 
-> **Component Damage = Weight × (Power / 100) × Offense × 1.50 × [150 / (150 + Effective Defensive Stat)]**
+> **BasePhysicalDamage = [Attack² / (Attack + EffectiveDefense)] × (Power / 100)**
 
-- Physical: Attack vs Defense.
-- Magical: Magic vs Spirit.
-- Pure-axis Weight = 1.00.
-- Character-Ability Ruin = 75% Attack / 25% Magic.
-- Other Hybrids use explicitly authored weights.
-- Same-axis penetration adds in percentage points and caps at **75%**.
-- Hybrid components resolve independently before being combined.
-- Basic Attack = **100 Power / Physical / Neutral** unless equipment explicitly changes affinity.
-- No hidden universal AoE penalty.
-- No universal random ±damage variance.
-- Round final HP damage once.
-- Universal Critical payout/resolution order remains open.
+> **EffectiveDefense = CurrentDefense × (1 - EffectiveDefensePenetration)**
+
+## Magical
+
+> **BaseMagicalDamage = [Magic² / (Magic + EffectiveSpirit)] × (Power / 100)**
+
+> **EffectiveSpirit = CurrentSpirit × (1 - EffectiveSpiritPenetration)**
+
+Same-axis penetration adds in percentage points and remains capped at **75%**.
+
+## Hybrid
+
+Resolve authored Physical and Magical weighted components independently, then combine them. Character-Ability Ruin remains **75% Attack / 25% Magic** where Audit115 applies.
+
+## Critical Hits
+
+- base Critical Chance = **5%**;
+- Critical Chance modifiers are flat **percentage-point additions**;
+- ordinary random Critical Chance cap = **50%**;
+- eligible Critical damage multiplier = **1.5×**;
+- Base Hit/Evasion check resolves before the Critical roll;
+- a miss receives no Critical roll;
+- each authored direct hit in a multihit action rolls Crit independently by default;
+- one single authored Hybrid hit uses one Critical roll on the combined eligible direct-damage result;
+- eligible Magical direct hits use the same 1.5× multiplier;
+- Crit does not bypass Defense/Spirit;
+- Crit does not automatically improve harmful-status application;
+- Burn, Bleed, explicitly no-Crit copied/echo damage, indirect Max-HP damage unless explicitly authored otherwise, and healing cannot Crit.
+
+After normal formula/penetration resolution, a Critical multiplies eligible resolved direct damage by **1.5**, then remaining later-stage affinity/final-damage/target-side/Guard/Barrier/interception modifiers resolve under the normal global order. Round at the normal final-damage step.
+
+There is no universal random ±damage variance.
+
+Use **Base Hit**, not `Accuracy`, as the canonical hit-stat term.
 
 ---
 
@@ -293,9 +318,7 @@ Equipment hierarchy:
 
 > **Ordinary < Relic < Legacy**
 
-Legacies may carry capstone Max HP / Max MP / Accuracy / Evasion perks. Exact 17-piece Legacy raw-stat/perk numbers remain pending approval.
-
-An earlier tracker requirement also expected Legacy perks/passives and elemental/status interaction. Exact current Legacy treatment of that requirement remains open and must be resolved rather than silently discarded.
+Legacies may carry capstone Max HP / Max MP / **Base Hit** / Evasion perks. Exact 17-piece Legacy raw-stat/perk numbers remain pending approval.
 
 Final Relic / Legacy / Legacy-Component / Forge-variant names remain deferred until dialogue is substantially more complete.
 
@@ -370,22 +393,20 @@ Surface macro geography is closed unless explicitly reopened.
 
 ---
 
-# Current open / deferred frontier after Audit119
+# Current open / deferred frontier after Audit120
 
 Immediate unresolved items include:
 
-1. approve/revise exact **17-Legacy raw stats + Max-HP/Max-MP/Accuracy/Evasion assignments**;
-2. resolve how the older **Legacy elemental/status/perk/passive requirement** coexists with the newer capstone-stat identity;
-3. finalize exact current **Base/Subclass Ability MP costs** after the latest class-kit identities;
-4. resolve global **Accuracy vs Evasion** hit formula;
-5. resolve universal **Critical** payout/order;
-6. reconcile the **Mastery Point schedule for 8 active nodes**;
-7. finalize HP consumables / Emergency Rally;
-8. resolve exact Prismatic Deluge Power if still open;
-9. resolve the four open Standard-Card acquisition homes;
-10. complete the detailed current Ch1–13 EXP/enemy/encounter rebalance and progression-dependent named-enemy re-certification;
-11. finish Consumable shop timing/pricing/final currency denomination;
-12. finish Kessara Relic-copy service UI/fee and exact pickup presentation where still open;
-13. keep final Relic/Legacy/Legacy-Component/Forge-variant naming deferred until dialogue is sufficiently complete.
+1. approve/revise exact **17-Legacy raw stats + Max-HP/Max-MP/Base-Hit/Evasion assignments**;
+2. finalize exact current **Base/Subclass Ability MP costs** after the latest class-kit identities;
+3. resolve global **Base Hit vs Evasion** hit formula;
+4. reconcile the **Mastery Point schedule for 8 active nodes**;
+5. finalize HP consumables / Emergency Rally;
+6. resolve exact Prismatic Deluge Power if still open;
+7. resolve the four open Standard-Card acquisition homes;
+8. complete the detailed current Ch1–13 EXP/enemy/encounter rebalance and progression-dependent named-enemy re-certification;
+9. finish Consumable shop timing/pricing/final currency denomination;
+10. finish Kessara Relic-copy service UI/fee and exact pickup presentation where still open;
+11. keep final Relic/Legacy/Legacy-Component/Forge-variant naming deferred until dialogue is sufficiently complete.
 
-Omission from this compact file does not erase compatible older canon. Audit119, Audit118, Audit117, Audit116, Audit115, Audit113, compatible prior canon, exact visual authorities, and newer explicit user-approved corrections control conflicts.
+Omission from this compact file does not erase compatible older canon. Audit120, Audit119, Audit118, Audit117, Audit116, Audit115, Audit113, compatible prior canon, exact visual authorities, and newer explicit user-approved corrections control conflicts.
