@@ -1,11 +1,12 @@
 # Diyse — Current Working Tracker
 
 **Date:** August 27, 2026  
-**Working revision:** **v45**  
-**Master-canon baseline:** **v2.06 / Audit121**  
+**Working revision:** **v46**  
+**Master-canon baseline:** **v2.07 / Audit122**  
 **Status:** **ACTIVE WORKING TRACKER — MASTER CANON OUTRANKS THIS FILE**
 
 Primary authority:
+- `docs/canon/AUDIT122_BASE_HIT_EVASION_AND_BLEED_RUNTIME_LOCK.md`
 - `docs/canon/AUDIT121_CURRENT_SYSTEMS_ITEM_EQUIPMENT_AND_PROGRESSION_RECONCILIATION_LOCK.md`
 - `docs/ACTIVE_CANON.md`
 - `AGENTS.md`
@@ -22,7 +23,13 @@ Historical cumulative trackers remain provenance only.
 - No global Break/Stagger meter.
 - Staggered is an ordinary harmful status only.
 - Guard remains valid.
-- Base Hit/Evasion terminology is current; no natural Accuracy stat.
+- no natural Accuracy stat.
+- Base Hit/Evasion formula is closed under Audit122:
+  - `AdjustedBaseHit = round(ActionBaseHit × BaseHitPercentModifiers) + FlatBaseHitModifiers`
+  - `EffectiveEvasion = round(BaseEvasion × EvasionPercentModifiers) + FlatEvasionModifiers`
+  - `FinalHitChance = clamp(AdjustedBaseHit - EffectiveEvasion, 5, 100)`
+- Bleed damages each round and again when the affected character acts.
+- Bleed clears only on full-HP restoration, eligible harmful-status clear, or eligible item.
 - Audit120 direct-damage/Critical formulas remain compatible and active.
 
 ## Classes / Faces
@@ -36,6 +43,8 @@ Historical cumulative trackers remain provenance only.
 ## Mastery architecture
 - Synthesis removed.
 - 4 Core + 4 Subclass Masteries = 8 active nodes.
+- Core eligibility = Base CL3 / 6 / 9 / 12.
+- Subclass eligibility = CL3 / 5 / 7 / 11.
 - donor pairs: Cyanis↔Vaelira, Ilyra↔Seyrik, Torren↔Nimera.
 - donor Relic access = purchase Subclass Mastery 3.
 - donor Legacy access = purchase Subclass Mastery 4 / Legacy Mastery.
@@ -162,6 +171,8 @@ Still open:
 
 # Do not reopen without explicit instruction
 
+- Base Hit/Evasion resolver
+- current Bleed lifecycle
 - 38/38 ordinary equipment source/shop architecture
 - 20-item consumable architecture
 - 17/17 Legacy mechanical design
