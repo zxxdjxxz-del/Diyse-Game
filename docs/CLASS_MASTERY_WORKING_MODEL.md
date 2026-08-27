@@ -1,199 +1,163 @@
 # Diyse — CL13 Mastery / Relic / Legacy Working Model
 
-**Status:** ACTIVE WORKING DESIGN — AUDIT117-ALIGNED  
-**Current whole-project authority:** **v2.02 / Audit117**  
-**Parent trackers:** `docs/CLASS_REWORK_MASTER_TRACKER.md`, `docs/CLASS_CEXP_WORKING_MODEL.md`
-
-## 1. Purpose
-
-This file reconciles the Mastery architecture against the current Base CL13 / Subclass CL13 class structure after Audit117.
-
-The active Mastery architecture is now:
-
-- **4 Core Mastery nodes**
-- **4 Subclass Mastery nodes**
-- **no Synthesis node**
-
-Each purchased Mastery node costs 1 Mastery Point unless separately revised.
-
-Mastery remains separate from ordinary Class Level rewards. Reaching the required Class Level makes a Mastery node eligible; the node is not acquired until the player spends the required Mastery Point.
+**Status:** ACTIVE WORKING DESIGN — 8-NODE ARCHITECTURE LOCKED / EXACT POINT TIMING OPEN  
+**Current whole-project authority:** **v2.07 / Audit122**  
+**Progression direction:** **Audit121**
 
 ---
 
-## 2. Mastery Point economy — now requires reconciliation
+# 1. Active Mastery architecture
 
-The inherited grant schedule previously supplied exactly 9 Mastery Points because the old architecture contained:
+Each permanent character has exactly:
+- **4 Core Mastery nodes**
+- **4 Subclass Mastery nodes**
+- **8 active Mastery nodes total**
 
+Synthesis is removed.
+
+Each purchased node costs **1 Mastery Point** unless a later audit explicitly changes the economy.
+
+Mastery eligibility and Mastery Point ownership are separate. Reaching a Class Level makes a node eligible; the player must still spend a point to purchase it.
+
+---
+
+# 2. Mastery Point economy
+
+The old 9-point schedule existed for:
 - 4 Core nodes
 - 4 Subclass nodes
 - 1 Synthesis node
 
-Audit117 removes Synthesis, leaving only **8 active Mastery nodes**.
+Synthesis is gone.
 
-Therefore the old 9-point grant schedule is **not automatically final current canon**.
+Current hard direction:
 
-Do not silently preserve a ninth mandatory point solely because the retired Synthesis architecture used one.
+> **Exactly 8 total Mastery Points should fund exactly 8 active Mastery nodes.**
 
-The dedicated progression pass must decide whether to:
+Do not preserve or invent a ninth mandatory point simply to mirror the retired architecture.
 
-- remove one inherited Mastery Point grant;
-- keep one optional/unspent surplus point;
-- or repurpose the point through a separately approved system.
+The **exact grant schedule remains OPEN** and must close inside the CEXP/player-progression redo.
 
-Until that decision is made, the exact total Mastery Point economy remains **OPEN**.
+Current simulation-only candidate:
+- Lv5
+- Lv10
+- Lv15
+- Lv20
+- Sixfold Volition
+- Lv40
+- Lv50
+- Lv60
+
+This table is **not final implementation canon**.
+
+Current pacing target: the final Mastery Point should arrive shortly before the normal full-class-completion window around **player Lv62**.
 
 ---
 
-## 3. Core Mastery gate schedule
+# 3. Core Mastery eligibility
 
-The current working Core gates remain:
+Current Core gates:
 
-| Core node | Base-Class eligibility gate | Intent |
-|---:|---:|---|
-| Core 1 | **Base CL3** | first meaningful Base specialization |
-| Core 2 | **Base CL5** | mid-Base refinement |
-| Core 3 | **Base CL7** | mature Base technique refinement |
-| Core 4 | **Base CL9** | late Base mastery |
+| Core node | Base-Class eligibility gate |
+|---:|---:|
+| Core 1 | **Base CL3** |
+| Core 2 | **Base CL6** |
+| Core 3 | **Base CL9** |
+| Core 4 | **Base CL12** |
 
 Each costs 1 Mastery Point.
 
-A character's own native Legacy project ultimately requires all four Core Masteries under Audit117.
+A character's native Legacy project requires all four Core Masteries under current Legacy canon.
+
+The old CL3 / CL5 / CL7 / CL9 Core-gate table is superseded.
 
 ---
 
-## 4. Subclass Mastery gate schedule — Audit117
+# 4. Subclass Mastery eligibility
 
-| Subclass node | Eligibility gate | Current function |
+| Subclass node | Eligibility | Current function |
 |---:|---:|---|
-| Subclass 1 | **Subclass CL3** | first donor-derived refinement; donor Armor access is online at this tier |
-| Subclass 2 | **Subclass CL5** | second refinement; donor Secondary access is online where applicable |
-| Subclass 3 | **Subclass CL7** | **Equipment Mastery — donor Relic access** |
-| Subclass 4 | **Subclass CL11** | **Legacy Mastery — donor Legacy access** |
+| Subclass 1 | **Subclass CL3** | first donor-derived refinement |
+| Subclass 2 | **Subclass CL5** | second refinement |
+| Subclass 3 | **Subclass CL7** | Equipment Mastery; donor Relic access when purchased |
+| Subclass 4 | **Subclass CL11** | Legacy Mastery; donor Legacy access when purchased |
 
 Each costs 1 Mastery Point.
 
-### Subclass Mastery 3 — Equipment Mastery
-
-At Subclass CL7, Node 3 becomes eligible.
-
-Purchasing it grants permission to equip the linked donor character's **already-obtained Relic equipment**.
-
-It does not:
-- create another Relic;
-- grant a Relic automatically;
-- change the Relic's slot architecture.
-
-### Subclass Mastery 4 — Legacy Mastery
-
-At Subclass CL11, Node 4 becomes eligible.
-
-Purchasing it grants permission to equip the linked donor character's **already-obtained native Legacy equipment**.
-
-It does not:
-- complete the donor's Legacy project;
-- create another Legacy item;
-- alter the donor's slot architecture;
-- gate the native owner's use of their own Legacy equipment.
-
-This replaces the retired Synthesis gate.
+Reaching CL7 or CL11 does **not** itself grant the donor permission; the relevant node must be purchased.
 
 ---
 
-## 5. Current Subclass progression rhythm
+# 5. Donor / receiver architecture
 
-The controlling late progression is:
-
-- CL1 — Ability 1 + Trait I + donor Primary access
-- CL3 — Subclass Mastery 1 eligibility + donor Armor access
-- CL4 — Ability 2
-- CL5 — Subclass Mastery 2 eligibility + donor Secondary access
-- CL6 — Trait II
-- CL7 — Ability 3 + Subclass Mastery 3 / Equipment Mastery eligibility
-- CL9 — Ability 4
-- CL10 — **Ability 5**
-- CL11 — **Subclass Mastery 4 / Legacy Mastery eligibility**
-- CL12 — Trait III
-- CL13 — Subclass Ultimate + cap
-
-Important supersessions:
-
-- Equipment Mastery is no longer CL10.
-- Donor Relic access is no longer late-CL10 progression.
-- Ability 5 is CL10 rather than CL11.
-- Subclass Mastery 4 is CL11 rather than CL10.
-- Donor Legacy access is handled directly by Subclass Mastery 4 at CL11.
-- **Synthesis is removed.**
-
----
-
-## 6. Donor / receiver map
-
-Reciprocal pair structure:
-
+Reciprocal pairs:
 - Cyanis ⇄ Vaelira
 - Ilyra ⇄ Seyrik
 - Torren ⇄ Nimera
 
-Directional linked-equipment access:
+Linked donor access uses the donor's **actual obtained item**.
 
-- Cyanis ← Vaelira
-- Ilyra ← Seyrik
-- Torren ← Nimera
-- Nimera ← Torren
-- Vaelira ← Cyanis
-- Seyrik ← Ilyra
+No:
+- duplicate shared Relic;
+- duplicate shared Legacy;
+- universal off-owner nerf.
 
-The linked receiver accesses the donor's existing obtained item. No separate shared Relic or shared Legacy artifact is created.
+The item's Trait travels with it.
 
 ---
 
-## 7. Native Legacy completion is separate from Subclass Mastery
+# 6. Native Legacy boundary
 
-A character's own native Legacy completion is controlled by Audit117.
+A character's own native Legacy:
+- does not require Synthesis;
+- does not require donor Legacy Mastery;
+- does not require Subclass CL13 merely because donor access uses Subclass Masteries.
 
-It requires:
-- Base CL13;
-- all 4 Core Masteries;
-- Character Quest / resolution;
-- unique Character Quest Legacy Component;
-- unique Legacy precursor;
-- Legacy Gate A material;
-- Legacy Gate B material;
-- Kessara project availability.
+Current native completion retains its established Base CL13 / four Core Masteries / Character Quest / unique Legacy Component / precursor / Gate A / Gate B / Kessara project requirements unless separately revised.
 
-It does **not** require:
-- Subclass CL13;
-- all 4 Subclass Masteries;
-- Equipment Mastery;
-- Legacy Mastery;
-- Synthesis.
-
-Subclass Masteries 3 and 4 control only cross-character donor equipment permission.
+Subclass Mastery 3 and 4 govern **cross-character donor equipment permission only**.
 
 ---
 
-## 8. Current unresolved items
+# 7. Current Subclass progression rhythm
 
-The following remain open:
-
-1. exact post-insertion CEXP timing for CL7 / CL11 / CL13;
-2. exact Mastery Point grant schedule now that only 8 nodes exist;
-3. whether any inherited Level-based MP grant should be removed or become optional surplus;
-4. final implementation UI labels for Subclass Mastery 3 / 4 if `Equipment Mastery` / `Legacy Mastery` are not final display names;
-5. synchronization of older repository files that still describe Synthesis as active.
+- CL1 — Ability 1 + Trait I + donor Primary
+- CL3 — Mastery 1 eligibility + donor Armor
+- CL4 — Ability 2
+- CL5 — Mastery 2 eligibility + donor Secondary where applicable
+- CL6 — Trait II
+- CL7 — Ability 3 + Mastery 3 / Equipment Mastery eligibility
+- CL9 — Ability 4
+- CL10 — Ability 5
+- CL11 — Mastery 4 / Legacy Mastery eligibility
+- CL12 — Trait III
+- CL13 — Subclass Ultimate + cap
 
 ---
 
-## 9. Current hard decisions
+# 8. Remaining open work
 
-- Base cap = **CL13**.
-- Subclass cap = **CL13**.
-- Active Mastery count = **8**: 4 Core + 4 Subclass.
-- **No Synthesis node exists.**
-- Subclass Mastery 3 eligibility = **CL7** and grants donor Relic access when purchased.
-- Subclass Ability 5 = **CL10**.
-- Subclass Mastery 4 eligibility = **CL11** and grants donor Legacy access when purchased.
-- Native Legacy completion does not require Subclass progression.
-- Linked donor access grants permission to equip an already-obtained item, not a duplicate artifact.
+1. exact 8-point grant schedule;
+2. full CEXP timing for Base/Subclass CL milestones;
+3. donor Relic/Legacy access timing under a normal route;
+4. final synchronization with player-level progression targeting class completion around Lv62;
+5. UI naming/presentation for Mastery 3/4 if display labels are later revised.
 
-Where this file conflicts with Audit117, Audit117 controls.
+The current Ability MP check is also open but does not change the eight-node architecture by itself.
+
+---
+
+# 9. Current hard decisions
+
+- Base cap = CL13.
+- Subclass cap = CL13.
+- Active Mastery count = **8**.
+- 4 Core + 4 Subclass.
+- no Synthesis node.
+- Core gates = **CL3 / 6 / 9 / 12**.
+- Subclass gates = **CL3 / 5 / 7 / 11**.
+- Subclass Mastery 3 purchase grants donor Relic access.
+- Subclass Mastery 4 purchase grants donor Legacy access.
+- donor access equips an already-obtained original item.
+- native Legacy completion is separate from donor-access Masteries.
+- exact point-grant timing remains open until the CEXP/progression redo.
