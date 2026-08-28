@@ -1,6 +1,6 @@
 # Diyse — Current Implementation Status
 
-**Written authority checkpoint:** **v2.09 / Audit124**  
+**Written authority checkpoint:** **v2.10 / Audit125**  
 **Presentation target:** HD-2D  
 **Active repository:** `zxxdjxxz-del/Diyse-Game`
 
@@ -9,14 +9,11 @@
 - Chapters 0–4 remain COMPLETE/CLOSED at story/dialogue authority level.
 - Chapter 4 four-element S022–S026 script/dialogue-runtime synchronization is complete.
 - Shared HD-2D runtime foundation: IMPLEMENTED.
+- **Audit125** closes mandatory ordinary-vs-authored player-EXP allocation, Ch9–13 formation EXP anchors, formation CEXP bands, and chapter named/story CEXP remainder envelopes.
 - **Audit124** closes optional player EXP source-by-source certification and the Level-70 pre-Last-Shelter completionist cap proof.
 - **Audit123** closes class Ability MP certification, the 6,000-CEXP CL13 curve, chapter-level CEXP structure, exact 8-point Mastery schedule, restored late-game player-level anchors, and exact Ch8–13 mandatory EXP budgets.
 - **Audit122** supplies exact Base Hit/Evasion and current Bleed runtime.
 - **Audit121** supplies current system removals, class/Face names, 17/17 Legacy mechanics, Relic cleanup, 20-consumable economy/placement, Chapter-4 four-element reconciliation, commerce/location corrections, and Prime numeric sync.
-- **Audit120** supplies compatible direct-damage and Critical rules.
-- **Audit118** remains the implementation source for the closed 38/38 ordinary-equipment catalog and compatible Relic/Forge data.
-
-The previous statements that class Ability MP, the CEXP redo, Mastery timing, or optional player EXP certification were still open are superseded.
 
 ---
 
@@ -37,16 +34,6 @@ Base Hit / Evasion:
 
 > `FinalHitChance = clamp(AdjustedBaseHit - EffectiveEvasion, 5, 100)`
 
-Do not implement a natural Accuracy stat.
-
-Critical:
-- base 5%
-- flat percentage-point bonuses
-- ordinary random cap 50%
-- eligible multiplier 1.5×
-- hit/evasion resolves first
-- Crit does not bypass Defense/Spirit.
-
 Removed systems:
 - Barrier does not exist.
 - Brace does not exist.
@@ -54,9 +41,7 @@ Removed systems:
 - Staggered is an ordinary harmful status only.
 - Guard remains valid.
 
-Bleed:
-- damages each round and again when the affected character acts;
-- clears only on full-HP restoration, eligible harmful-status clear, or eligible item.
+Bleed damages each round and again when the affected character acts; it clears only on full-HP restoration, eligible harmful-status clear, or eligible item.
 
 ---
 
@@ -74,12 +59,7 @@ Bleed:
 Base/Subclass cap = CL13. No permanent Subclass use before Sixfold Volition at end Ch7.
 
 ## Ability MP — CLOSED
-Current exact Base/Subclass MP tables are in Audit123 and require no further base-cost rebase.
-
-General bands:
-- routine 10–24 MP;
-- premium non-Ultimate 26–40 MP;
-- Ultimate 52–64 MP.
+Audit123's exact Base/Subclass MP tables are implementation authority. General bands: routine 10–24; premium non-Ultimate 26–40; Ultimate 52–64 MP.
 
 ---
 
@@ -100,17 +80,9 @@ Post-Volition normal CEXP:
 
 Normal full Base + Subclass Class-Level completion occurs during Ch12, with Seyrik around end Ch12.
 
-Synthesis is removed.
+Synthesis is removed. Exactly 8 active Masteries: 4 Core + 4 Subclass.
 
-Exactly 8 active Masteries:
-- 4 Core
-- 4 Subclass
-
-Eligibility:
-- Core — Base CL3 / 6 / 9 / 12
-- Subclass — CL3 / 5 / 7 / 11
-
-Exact automatic Mastery Point grants:
+Automatic Mastery Points:
 - Lv5
 - Lv10
 - Lv15
@@ -121,8 +93,6 @@ Exact automatic Mastery Point grants:
 - Lv60
 
 No ninth point and no Lv70 surplus point.
-
-Subclass Mastery 3 purchase → donor Relic access. Subclass Mastery 4 purchase → donor Legacy access. The actual obtained donor item is used; no duplicate shared artifact.
 
 ---
 
@@ -155,91 +125,122 @@ Late mandatory EXP budgets:
 - Ch13 pre-Shelter 46,300
 - Ch13 post-Shelter 32,700
 
-Late ordinary enemy bands:
-- Ch8 Lv32–37
-- Ch9 Lv37–42
-- Ch10 Lv42–47
-- Ch11 Lv47–52
-- Ch12 Lv52–57
-- Ch13 pre-Shelter Lv57–60
-- Ch13 post-Shelter Lv60–62
+---
 
-Expected ordinary encounter planning centers remain 225 total; Chapter 4 remains 19. These are planning centers, not quotas.
+# Optional player EXP — CLOSED / Audit124
+
+Fixed authored pre-Last-Shelter cap-proof pool = **195,000 EXP**:
+- Side Quests 20,000
+- Character Quests 55,000
+- Regional Hunts 70,000
+- Major Hunts #1–5 50,000
+
+MH6 = 24,000 outside cap proof.
+
+At Last Shelter:
+- normal route = 415,400 / Lv60
+- Lv70 = 594,100
+- completionist proof = 610,400
+- buffer = 16,300.
+
+Fixed authored packages are exempt from lower-level enemy EXP diminishing returns.
 
 ---
 
-# Optional player EXP — CLOSED
+# Formation EXP/CEXP — CLOSED / Audit125
 
-Audit124 fixes the authored pre-Last-Shelter cap-proof pool at **195,000 EXP**:
-- 5 ordinary Side Quests = 20,000
-- 6 Character Quests = 55,000
-- 11 Regional Hunts = 70,000
-- Major Hunts #1–5 = 50,000
+Expected ordinary encounter center = **225 total**; Chapter 4 remains 19. These are planning centers, not quotas.
 
-Major Hunt #6 / The Unfinished World = **24,000 EXP**, excluded from cap proof.
+Mandatory player-EXP allocation:
 
-Cap proof:
-- Last Shelter normal-route EXP = **415,400 / Lv60**
-- Level 70 threshold = **594,100**
-- needed gap = **178,700**
-- completionist total = **610,400**
-- buffer = **16,300 EXP**
+| Ch | Ordinary | Named/story | Total |
+|---:|---:|---:|---:|
+| 1 | 855 | 745 | 1,600 |
+| 2 | 2,288 | 2,512 | 4,800 |
+| 3 | 3,480 | 4,520 | 8,000 |
+| 4 | 5,262 | 5,938 | 11,200 |
+| 5 | 8,978 | 9,822 | 18,800 |
+| 6 | 10,600 | 14,300 | 24,900 |
+| 7 | 14,120 | 17,180 | 31,300 |
+| 8 | 18,962 | 19,238 | 38,200 |
+| 9 | 25,000 | 20,500 | 45,500 |
+| 10 | 31,800 | 21,500 | 53,300 |
+| 11 | ~45,300 | ~16,200 | 61,500 |
+| 12 | ~47,100 | ~22,900 | 70,000 |
+| 13 | ~29,800 | ~49,200 | 79,000 |
 
-Therefore a broad completionist can reach **Lv70 before Last Shelter** without repetitive grinding or requiring Major Hunt #6.
+Late player-EXP formation anchors:
+- Ch9 — 1,245 / 1,540 / 1,920
+- Ch10 — 1,700 / 2,100 / 2,500
+- Ch11 — 2,100 / 2,650 / 3,100
+- Ch12 — **2,100 / 2,600 / 3,150**
+- Ch13 — 3,000 / 3,700 / 4,500
 
-Lower-level enemy diminishing returns apply to ordinary/repeatable enemy-kill EXP only. Fixed authored completion/first-clear packages are exempt.
+Ch12's player-EXP formation anchors are rebased from the obsolete 83,000-EXP Ch12 model to preserve the intended ordinary-vs-authored reward share under the current 70,000 chapter budget.
 
-Regional Hunt packages are activity budgets: implementation may split them among route combat, Hunt kill EXP, and deterministic first-clear remainder, but route RNG may not lower the authored package total.
+Formation CEXP bands:
+- Ch1 8 / 10 / 12
+- Ch2 10 / 12 / 15
+- Ch3 12 / 15 / 18
+- Ch4 14 / 18 / 22
+- Ch5 17 / 21 / 26
+- Ch6 20 / 25 / 31
+- Ch7 23 / 29 / 36
+- Ch8 26 / 33 / 41
+- Ch9 30 / 38 / 47
+- Ch10 32 / 40 / 50
+- Ch11 36 / 45 / 56
+- Ch12 42 / 53 / 66
+- Ch13 46 / 58 / 72
+
+Named/story CEXP remainder centers:
+- Ch1 ~172
+- Ch2 ~220
+- Ch3 ~264
+- Ch4 ~304
+- Ch5 ~367
+- Ch6 ~461
+- Ch7 ~631
+- Ch8 ~687
+- Ch9 ~837
+- Ch10 ~586
+- Ch11 ~1,015
+- Ch12 **~1,786**
+- Ch13 ~1,032
+
+No CEXP diminishing-return system is created.
 
 ---
 
 # Cards / Primes
 
-Standard Cards:
-- exactly 24
-- maximum 3 equipped
-- reusable and MP-consuming
-- current MP range 18–48
-- Acuity quartet = Faultline Sight / Measured Response / Predicted Impact / Decisive Interval
-- Predicted Impact = Magical/Colorless, P180, BH110, 28 MP, 30% Stun.
+Standard Cards: exactly 24, max 3 equipped, reusable and MP-consuming. Predicted Impact = P180, Magical/Colorless, BH110, 28 MP, 30% Stun.
 
-Prime Invocation:
-- Recovered Story 50 MP
-- Awakened Story 80 MP
-- Awakened Major Hunt 90 MP
-- manifested commands 0 additional MP
-
-Prismatic Deluge = 90×4 = 360 listed Power per target.  
-Regulator Fang = 250 Power / 25% Spirit penetration.
+Prime Invocation = 50 / 80 / 90 MP. Prismatic Deluge = 90×4 = 360. Regulator Fang = 250 Power / 25% Spirit penetration.
 
 ---
 
 # Equipment / items
 
-Current equipment:
-- 38 ordinary
-- 36 Relics
-- 17 native Legacies
-- 91 total
+Current equipment = 38 ordinary + 36 Relics + 17 native Legacies = 91 total. Current consumables = 20.
 
-Current consumables = 20.
-
-The ordinary-equipment architecture, Legacy mechanical set, and consumable architecture are closed. Remaining item/equipment work is naming/presentation/implementation polish unless explicitly reopened.
+Ordinary equipment architecture, Legacy mechanics, Relic cleanup, consumable architecture, pricing and current placement are closed.
 
 ---
 
 # Chapter 4
 
-Current Chapter 4 uses exactly Fire / Ice / Lightning / Earth.
+Current Chapter 4 uses exactly Fire / Ice / Lightning / Earth. Reaction Conduit replaces Elemental Hexarch. Regulation Crucible uses four chambers with two active at once. S022–S026 Markdown and matching dialogue `.tres` resources are synchronized.
 
-Reaction Conduit replaces Elemental Hexarch. Regulation Crucible uses four chambers with two active at once. S022–S026 Markdown and matching dialogue `.tres` resources are synchronized.
+Protected progression allocation:
+- 19 expected ordinary encounters
+- ordinary EXP 5,262
+- total mandatory EXP 11,200.
 
 ---
 
 # Remaining implementation-progress work
 
-1. Light / Standard / Heavy formation EXP tables;
-2. exact formation CEXP allocations;
-3. chapter-by-chapter ordinary EXP and CEXP shares;
-4. named/story EXP and CEXP package placement;
-5. progression-dependent named-enemy/boss raw-stat recertification.
+1. exact named/story player-EXP package placement by encounter/milestone;
+2. exact named/story CEXP package placement by encounter/milestone;
+3. progression-dependent named-enemy/boss raw-stat recertification.
