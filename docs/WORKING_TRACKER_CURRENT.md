@@ -1,11 +1,13 @@
 # Diyse — Current Working Tracker
 
 **Date:** August 27, 2026  
-**Working revision:** **v53**  
-**Master-canon baseline:** **v2.08 / Audit123**  
+**Working revision:** **v54**  
+**Master-canon baseline:** **v2.10 / Audit125**  
 **Status:** **ACTIVE WORKING TRACKER — MASTER CANON OUTRANKS THIS FILE**
 
 Primary authority:
+- `docs/canon/AUDIT125_MANDATORY_FORMATION_EXP_CEXP_ALLOCATION_LOCK.md`
+- `docs/canon/AUDIT124_OPTIONAL_EXP_AND_LEVEL_70_COMPLETIONIST_CAP_LOCK.md`
 - `docs/canon/AUDIT123_CLASS_MP_CEXP_MASTERY_AND_LATE_GAME_PROGRESSION_LOCK.md`
 - `docs/canon/AUDIT122_BASE_HIT_EVASION_AND_BLEED_RUNTIME_LOCK.md`
 - `docs/canon/AUDIT121_CURRENT_SYSTEMS_ITEM_EQUIPMENT_AND_PROGRESSION_RECONCILIATION_LOCK.md`
@@ -39,7 +41,7 @@ Historical cumulative trackers remain provenance only.
 ## Class Ability MP — CLOSED / 12 OF 12 PASS
 Audit123 promotes the certified current Base/Subclass MP tables with no authored base-cost changes required.
 
-Resource bands:
+General resource bands:
 - routine class actions roughly 10–24 MP;
 - premium non-Ultimates roughly 26–40 MP;
 - Ultimates 52–64 MP;
@@ -70,7 +72,7 @@ No ninth point and no Lv70 surplus point.
 ## CEXP
 Base and Subclass cap = CL13.
 
-Threshold curve:
+Cumulative thresholds:
 - CL1 0
 - CL2 150
 - CL3 350
@@ -151,18 +153,7 @@ Late mandatory EXP budgets:
 - Ch13 post-Last-Shelter 32,700
 - Ch13 total 79,000
 
-Late ordinary enemy bands:
-- Ch8 Lv32–37
-- Ch9 Lv37–42
-- Ch10 Lv42–47
-- Ch11 Lv47–52
-- Ch12 Lv52–57
-- Ch13 pre-Shelter Lv57–60
-- Ch13 post-Shelter Lv60–62
-
-## Optional player EXP — CLOSED / RE-CERTIFIED
-The later post-side-quest-cut package model remains valid.
-
+## Optional player EXP — CLOSED / Audit124
 Fixed authored pre-Last-Shelter pool:
 - 5 ordinary Side Quests = **20,000 EXP**
 - 6 Character Quests = **55,000 EXP**
@@ -170,59 +161,21 @@ Fixed authored pre-Last-Shelter pool:
 - Major Hunts #1–5 = **50,000 EXP**
 - total = **195,000 EXP**
 
-Major Hunt #6 / The Unfinished World:
-- **24,000 EXP**
-- excluded from Level-70 reachability proof.
+Major Hunt #6 / The Unfinished World = **24,000 EXP**, excluded from cap proof.
 
 At Last Shelter:
-- normal route = **415,400 EXP / Lv60**
-- Lv70 threshold = **594,100**
-- needed gap = **178,700**
-- completionist proof = 415,400 + 195,000 = **610,400**
-- Level 70 is reached before Last Shelter with **16,300 EXP buffer**.
+- normal route = 415,400 EXP / Lv60
+- Lv70 threshold = 594,100
+- completionist proof = 610,400
+- buffer = **16,300 EXP**.
 
-Fixed completion / first-clear packages are exempt from lower-level enemy EXP diminishing returns. Repeatable or ordinary enemy-kill EXP is not exempt.
+Fixed authored completion/first-clear packages are exempt from lower-level enemy EXP diminishing returns.
 
-### Ordinary Side Quests — 20,000
-- The Marks We Leave — 500
-- A Measure of Bread — 1,500
-- The Crown's Debt — 3,500
-- The Third Caravan — 5,000
-- What We Build After — 9,500
+---
 
-### Character Quests — 55,000
-- Vaelira — The Sky No One Chose — 7,000
-- Cyanis — The Weight of the Crest — 7,000
-- Nimera — The Archive That Remembers — 8,000
-- Seyrik — The Name That Remains — 8,000
-- Ilyra — Mercy Has a Voice — 10,000
-- Torren — The Road That Returns — 15,000
+# Mandatory formation EXP/CEXP — CLOSED / Audit125
 
-### Regional Hunts — 70,000
-- Cistern Devourer — 1,000
-- Transfer Executioner — 1,500
-- Archive Judgment Engine — 2,200
-- Crown Prototype — 3,000
-- Whitehorn Ravager — 4,000
-- Winterglass Titan — 5,200
-- Rift Gate Colossus — 6,800
-- Rift Siege Beast — 8,500
-- Mercyfallen Behemoth — 11,000
-- Authority Remnant — 13,000
-- Throne of Emperor Vaelkor — 13,800
-
-Regional Hunt values are activity budgets. Route/boss/first-clear implementation may split them, but the authored total must remain intact; first-clear remainder should absorb route-RNG shortfall rather than requiring grind.
-
-### Major Hunts — 50,000 cap-proof subtotal
-- Ashen Whitehorn — 4,500
-- Crownless Siege Marshal / Crownless War Engine — 6,000
-- Concordance Guardian — 8,000
-- Worldscar Leviathan — 13,000
-- Final Archive Arbiter — 18,500
-- The Unfinished World — 24,000 outside cap proof
-
-## Encounter planning
-Expected ordinary encounter centers:
+Expected ordinary encounter centers remain:
 - Ch1 18
 - Ch2 19
 - Ch3 19
@@ -238,7 +191,83 @@ Expected ordinary encounter centers:
 - Ch13 8
 - total **225**
 
-These are planning centers, not quotas.
+These are stochastic planning centers, not quotas.
+
+## Mandatory player-EXP allocation
+
+| Ch | Ordinary EXP | Named/story EXP | Total |
+|---:|---:|---:|---:|
+| 1 | 855 | 745 | 1,600 |
+| 2 | 2,288 | 2,512 | 4,800 |
+| 3 | 3,480 | 4,520 | 8,000 |
+| 4 | 5,262 | 5,938 | 11,200 |
+| 5 | 8,978 | 9,822 | 18,800 |
+| 6 | 10,600 | 14,300 | 24,900 |
+| 7 | 14,120 | 17,180 | 31,300 |
+| 8 | 18,962 | 19,238 | 38,200 |
+| 9 | 25,000 | 20,500 | 45,500 |
+| 10 | 31,800 | 21,500 | 53,300 |
+| 11 | ~45,300 | ~16,200 | 61,500 |
+| 12 | ~47,100 | ~22,900 | 70,000 |
+| 13 | ~29,800 | ~49,200 | 79,000 |
+| **Total** | **~243,545** | **~204,555** | **448,100** |
+
+Full mandatory planning split ≈ **54.3% ordinary / 45.7% authored**.
+
+### Chapter 4 protected allocation
+- 19 encounters
+- 6/6/7 phase center
+- phase averages 202.4 → 256.2 → 358.6
+- ordinary EXP 5,262
+- total EXP 11,200
+
+### Later player-EXP tier anchors
+- Ch9 — **1,245 / 1,540 / 1,920**
+- Ch10 — **1,700 / 2,100 / 2,500**
+- Ch11 — **2,100 / 2,650 / 3,100**
+- Ch12 — **2,100 / 2,600 / 3,150**
+- Ch13 — **3,000 / 3,700 / 4,500**
+
+Ch12 is intentionally rebased from the recovered obsolete 2,500 / 3,100 / 3,700 table because that older table assumed an 83,000-EXP chapter budget rather than the current 70,000.
+
+### CEXP formation tiers
+
+| Ch | Light | Standard | Heavy | Expected ordinary CEXP |
+|---:|---:|---:|---:|---:|
+| 1 | 8 | 10 | 12 | ~178 |
+| 2 | 10 | 12 | 15 | ~230 |
+| 3 | 12 | 15 | 18 | ~286 |
+| 4 | 14 | 18 | 22 | ~346 |
+| 5 | 17 | 21 | 26 | ~433 |
+| 6 | 20 | 25 | 31 | ~489 |
+| 7 | 23 | 29 | 36 | ~569 |
+| 8 | 26 | 33 | 41 | ~613 |
+| 9 | 30 | 38 | 47 | ~613 |
+| 10 | 32 | 40 | 50 | ~614 |
+| 11 | 36 | 45 | 56 | ~785 |
+| 12 | 42 | 53 | 66 | ~964 |
+| 13 | 46 | 58 | 72 | ~468 |
+
+### Current named/story CEXP remainders
+- Ch1 ~172
+- Ch2 ~220
+- Ch3 ~264
+- Ch4 ~304
+- Ch5 ~367
+- Ch6 ~461
+- Ch7 ~631
+- Ch8 ~687
+- Ch9 ~837
+- Ch10 ~586
+- Ch11 ~1,015
+- Ch12 **~1,786**
+- Ch13 ~1,032
+
+The older Ch12 ~2,286 remainder is stale; it assumed a larger obsolete Ch12 CEXP envelope.
+
+No separate CEXP diminishing-return system is added.
+
+---
 
 ## Equipment / items
 - 38 ordinary equipment
@@ -248,7 +277,7 @@ These are planning centers, not quotas.
 - 20 consumables
 - ordinary equipment architecture closed
 - Legacy 17/17 mechanical design closed
-- Relic Barrier/Brace/Break cleanup closed
+- Relic stale-mechanic cleanup closed
 - Auren economy and current consumable placement closed
 
 ## Cards / Primes
@@ -272,18 +301,21 @@ Reaction Conduit replaces Elemental Hexarch. Regulation Crucible uses four chamb
 
 # ACTIVE FRONTIER
 
-## 1. Formation EXP / CEXP allocation
-Still needed:
-- Light / Standard / Heavy ordinary formation EXP tables;
-- exact CEXP per formation tier;
-- chapter-by-chapter ordinary EXP share against mandatory EXP budgets;
-- chapter-by-chapter ordinary CEXP share against the CEXP envelopes;
-- named/story EXP remainder;
-- named/story CEXP remainder;
-- preserve Chapter 4's approved 19-random-encounter / 11,200-EXP structure.
+## 1. Exact named/story EXP package placement
+Distribute each chapter's authored player-EXP remainder across:
+- mandatory named encounters;
+- minibosses;
+- bosses;
+- deterministic campaign milestones;
+- chapter/story completion packages.
 
-## 2. Progression-dependent raw stats
-Named-enemy/boss raw-stat recertification remains after the EXP/CEXP allocation pass.
+Preserve midpoint progression; do not dump almost all deterministic EXP on the final boss.
+
+## 2. Exact named/story CEXP package placement
+Distribute the current CEXP remainder envelopes across the same authored progression spine while preserving Class-Level timing.
+
+## 3. Progression-dependent raw stats
+After reward placement, recertify named-enemy/boss raw stats and recommended levels where progression-dependent.
 
 ---
 
@@ -302,4 +334,5 @@ Named-enemy/boss raw-stat recertification remains after the EXP/CEXP allocation 
 - Last Shelter ~Lv60
 - normal ending ~Lv62
 - 195,000 pre-Last-Shelter authored optional EXP pool
+- Audit125 formation EXP/CEXP allocation
 - Chapter-4 four-element script/runtime conversion
