@@ -1,6 +1,8 @@
 extends Node
 
 const DEFAULT_AREA := "field_proof"
+const EQUIPMENT_FACES := ["Might", "Elements", "Grace", "Acuity", "Change", "Ruin"]
+const MAX_RELIC_COPY_COMPONENTS_PER_FACE := 3
 
 var current_area: String
 var field_position: Vector3
@@ -9,6 +11,8 @@ var inventory: Dictionary
 var standard_cards: Array[String]
 var primes: Dictionary
 var equipment: Dictionary
+var relic_inventory: Dictionary
+var forge_components: Dictionary
 var flags: Dictionary
 var rewards: Dictionary
 
@@ -45,6 +49,13 @@ func reset_defaults() -> void:
 		"Torren": {"weapon": "Proof Bow", "armor": "Proof Field Armor"},
 		"Nimera": {"weapon": "Proof Cardweaver Implement", "armor": "Proof Archive Coat"}
 	}
+	# Exceptional-equipment ownership is stored by stable Relic ID. A forged
+	# copy increments quantity on the same Relic identity; it does not create a
+	# second item definition with altered stats or Trait data.
+	relic_inventory = {}
+	# Forge Components live outside the ordinary sellable inventory. Relic-copy
+	# components are unique authored records and remain bounded to three per Face.
+	forge_components = {}
 	flags = {
 		"proof_story_flag": false,
 		"proof_chest_opened": false,
@@ -52,6 +63,131 @@ func reset_defaults() -> void:
 	}
 	rewards = {"xp": 0, "gold": 0}
 	clear_transient_encounter_state()
+
+func register_relic_original(relic_id: String, face: String) -> bool:
+	var normalized_id := relic_id.strip_edges()
+	var canonical_face := _canonical_equipment_face(face)
+	if normalized_id.is_empty() or canonical_face.is_empty():
+		return false
+	# The Relic registration path must never be used to smuggle a Legacy into
+	# Kessara's copy system. Future catalog code may use WPN_/ARM_/SEC_ IDs, so
+	# no narrower Relic prefix is required here.
+	if normalized_id.to_upper().begins_with("LEGACY_"):
+		return false
+	if relic_inventory.has(normalized_id):
+		return false
+	relic_inventory[normalized_id] = {
+		"face": canonical_face,
+		"original_obtained": true,
+		"forged_copy": false
+	}
+	return true
+
+func has_relic_original(relic_id: String) -> bool:
+	var record = relic_inventory.get(relic_id.strip_edges(), {})
+	return record is Dictionary and bool(record.get("original_obtained", false))
+
+func has_forged_relic_copy(relic_id: String) -> bool:
+	var record = relic_inventory.get(relic_id.strip_edges(), {})
+	return record is Dictionary and bool(record.get("forged_copy", false))
+
+func relic_face(relic_id: String) -> String:
+	var record = relic_inventory.get(relic_id.strip_edges(), {})
+	if not (record is Dictionary):
+		return ""
+	return _canonical_equipment_face(str(record.get("face", "")))
+
+func relic_quantity(relic_id: String) -> int:
+	var record = relic_inventory.get(relic_id.strip_edges(), {})
+	if not (record is Dictionary):
+		return 0
+	var quantity := 0
+	if bool(record.get("original_obtained", false)):
+		quantity += 1
+	if bool(record.get("forged_copy", false)):
+		quantity += 1
+	return quantity
+
+func register_relic_copy_component(component_id: String, face: String) -> bool:
+	var normalized_id := component_id.strip_edges()
+	var canonical_face := _canonical_equipment_face(face)
+	if normalized_id.is_empty() or canonical_face.is_empty():
+		return false
+	if forge_components.has(normalized_id):
+		return false
+	if _registered_relic_copy_component_count(canonical_face) >= MAX_RELIC_COPY_COMPONENTS_PER_FACE:
+		return false
+	forge_components[normalized_id] = {
+		"face": canonical_face,
+		"purpose": "relic_copy",
+		"consumed": false
+	}
+	return true
+
+func available_relic_copy_component_for_face(face: String) -> String:
+	var canonical_face := _canonical_equipment_face(face)
+	if canonical_face.is_empty():
+		return ""
+	var component_ids: Array = forge_components.keys()
+	component_ids.sort()
+	for raw_id in component_ids:
+		var component_id := str(raw_id)
+		var record = forge_components.get(component_id, {})
+		if not (record is Dictionary):
+			continue
+		if str(record.get("purpose", "")) != "relic_copy":
+			continue
+		if _canonical_equipment_face(str(record.get("face", ""))) != canonical_face:
+			continue
+		if bool(record.get("consumed", false)):
+			continue
+		return component_id
+	return ""
+
+func forged_relic_count_for_face(face: String) -> int:
+	var canonical_face := _canonical_equipment_face(face)
+	if canonical_face.is_empty():
+		return 0
+	var count := 0
+	for raw_id in relic_inventory.keys():
+		var record = relic_inventory.get(raw_id, {})
+		if not (record is Dictionary):
+			continue
+		if _canonical_equipment_face(str(record.get("face", ""))) != canonical_face:
+			continue
+		if bool(record.get("forged_copy", false)):
+			count += 1
+	return count
+
+func commit_relic_copy(relic_id: String, component_id: String) -> bool:
+	var normalized_relic_id := relic_id.strip_edges()
+	var normalized_component_id := component_id.strip_edges()
+	if not has_relic_original(normalized_relic_id):
+		return false
+	if has_forged_relic_copy(normalized_relic_id) or relic_quantity(normalized_relic_id) >= 2:
+		return false
+	var face := relic_face(normalized_relic_id)
+	if face.is_empty() or forged_relic_count_for_face(face) >= MAX_RELIC_COPY_COMPONENTS_PER_FACE:
+		return false
+
+	var component = forge_components.get(normalized_component_id, {})
+	if not (component is Dictionary):
+		return false
+	if str(component.get("purpose", "")) != "relic_copy":
+		return false
+	if _canonical_equipment_face(str(component.get("face", ""))) != face:
+		return false
+	if bool(component.get("consumed", false)):
+		return false
+
+	var relic_record = relic_inventory.get(normalized_relic_id, {})
+	if not (relic_record is Dictionary):
+		return false
+	relic_record["forged_copy"] = true
+	relic_inventory[normalized_relic_id] = relic_record
+	component["consumed"] = true
+	forge_components[normalized_component_id] = component
+	return true
 
 func queue_transient_random_encounter(payload: Dictionary) -> bool:
 	if str(payload.get("kind", "")) != "random":
@@ -107,6 +243,8 @@ func to_save_dict(schema_version: int) -> Dictionary:
 		"standard_cards": standard_cards.duplicate(),
 		"primes": primes.duplicate(true),
 		"equipment": equipment.duplicate(true),
+		"relic_inventory": relic_inventory.duplicate(true),
+		"forge_components": forge_components.duplicate(true),
 		"flags": flags.duplicate(true),
 		"rewards": rewards.duplicate(true)
 	}
@@ -132,12 +270,39 @@ func apply_save_dict(data: Dictionary) -> bool:
 	standard_cards = _string_array(data.get("standard_cards", []))
 	primes = _dictionary_or_empty(data.get("primes", {}))
 	equipment = _dictionary_or_empty(data.get("equipment", {}))
+	# These keys are optional under schema v1 so saves written before the
+	# Kessara service existed remain loadable and simply begin with no registered
+	# Relics/components in the new ownership layer.
+	relic_inventory = _dictionary_or_empty(data.get("relic_inventory", {}))
+	forge_components = _dictionary_or_empty(data.get("forge_components", {}))
 	flags = _dictionary_or_empty(data.get("flags", {}))
 	rewards = _dictionary_or_empty(data.get("rewards", {}))
 	# Loading a disk save must never resurrect a stale scene-to-scene random
 	# encounter request or battle return result.
 	clear_transient_encounter_state()
 	return true
+
+func _registered_relic_copy_component_count(face: String) -> int:
+	var canonical_face := _canonical_equipment_face(face)
+	if canonical_face.is_empty():
+		return 0
+	var count := 0
+	for raw_id in forge_components.keys():
+		var record = forge_components.get(raw_id, {})
+		if not (record is Dictionary):
+			continue
+		if str(record.get("purpose", "")) != "relic_copy":
+			continue
+		if _canonical_equipment_face(str(record.get("face", ""))) == canonical_face:
+			count += 1
+	return count
+
+func _canonical_equipment_face(face: String) -> String:
+	var normalized := face.strip_edges().to_lower()
+	for candidate in EQUIPMENT_FACES:
+		if str(candidate).to_lower() == normalized:
+			return str(candidate)
+	return ""
 
 func _dictionary_array(value: Variant) -> Array[Dictionary]:
 	var result: Array[Dictionary] = []
