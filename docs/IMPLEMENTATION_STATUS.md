@@ -1,6 +1,6 @@
 # Diyse — Current Implementation Status
 
-**Written authority checkpoint:** **v2.19 / Audit134**  
+**Written authority checkpoint:** **v2.20 / Audit135**  
 **Presentation target:** HD-2D  
 **Active repository:** `zxxdjxxz-del/Diyse-Game`
 
@@ -9,6 +9,7 @@
 - Chapters 0–4 remain COMPLETE/CLOSED at story/dialogue authority level.
 - Chapter 4 four-element S022–S026 script/dialogue-runtime synchronization is complete.
 - Shared HD-2D runtime foundation remains implemented.
+- **Audit135** closes all 6 Major-Hunt recommended levels and raw body stats; Crownless Siege Marshal → Crownless War Engine is a genuine fresh-body fight, and The Unfinished World remains one continuous 78,000-HP superboss bar.
 - **Audit134** closes all 11 Regional-Hunt recommended levels and raw body stats; Throne of Emperor Vaelkor is recertified as Sealed Throne → fresh Walking Throne, total 26,000 body HP.
 - **Audit133** closes numbered-chapter optional Elite raw stats: 12 current Elites, no approved Ch10 optional Elite.
 - **Audit132** closes Chapters 9–13 mandatory named/special raw combat stats and completes the mandatory-story raw-stat layer for all 13 chapters.
@@ -113,8 +114,21 @@ Regional Hunt raw stats are CLOSED under Audit134:
   - no Attendant HP pools invented;
   - no third form.
 
+Major Hunt raw stats are CLOSED under Audit135:
+- Ashen Whitehorn — Lv22, **11,270 HP**, 96 ATK / 78 MAG / 73 DEF / 68 Spirit / 38 SPD / EVA10 / SR10;
+- Crownless Siege Marshal — Lv28, **9,360 HP**, 124 ATK / 92 MAG / 90 DEF / 78 Spirit / 35 SPD / EVA5 / SR10;
+- Crownless War Engine — Lv29, fresh **11,650 HP**, 139 ATK / 102 MAG / 99 DEF / 86 Spirit / 33 SPD / EVA0 / SR10; combined **21,010 HP** and fresh-form Prime refresh;
+- Concordance Guardian — Lv35, **18,180 HP**, 146 ATK / 151 MAG / 115 DEF / 118 Spirit / 40 SPD / EVA5 / SR15;
+- Worldscar Leviathan — Lv47, **30,200 HP**, 187 ATK / 207 MAG / 148 DEF / 156 Spirit / 44 SPD / EVA0 / SR10;
+- Final Archive Arbiter — Lv58, **43,100 HP**, 229 ATK / 244 MAG / 194 DEF / 198 Spirit / 50 SPD / EVA5 / SR15;
+- The Unfinished World — Lv70, **78,000 HP**, 304 ATK / 318 MAG / 226 DEF / 232 Spirit / 61 SPD / EVA0 / SR15;
+- The Unfinished World remains one continuous WORLDFRAME → WORLDHEART EXPOSED → FINAL CONSTRUCTION bar with no Prime refresh between those states;
+- only Earth/Staggered, Ice/Freeze, Lightning/Stun, Fire/Burn remain in its world-state matrix.
+
 Current challenge hierarchy:
 > **Ordinary < Elite < mandatory story boss < Regional Hunt < Major Hunt**
+
+Progression-dependent named/boss raw-stat recertification is now CLOSED across all audited encounter layers.
 
 ---
 
@@ -133,6 +147,19 @@ Current challenge hierarchy:
 
 # Active implementation frontier
 
-## **6 Major Hunt raw-stat recertification**
+## **Kessara Relic-copy service implementation**
 
-Preserve current Major-Hunt identities, unlocks, Prime rewards, form architecture and fixed authored tuning. Major Hunts remain above Regional Hunts in total challenge and mechanic density. Do not add dynamic scaling or retired systems.
+Closed copy rule:
+- Relic must already be obtained;
+- one matching copy component is required;
+- maximum one forged duplicate per Relic;
+- maximum quantity = 2;
+- copy is mechanically identical;
+- Legacies cannot be copied.
+
+Remaining implementation work may determine:
+- exact service/menu unlock timing;
+- whether an Auren service fee exists and its value;
+- original-vs-copy quantity/UI presentation.
+
+Do not reopen closed combat, MP, CEXP, Mastery, mandatory raw-stat, Elite, Regional-Hunt, or Major-Hunt layers unless later authority explicitly requires it.
