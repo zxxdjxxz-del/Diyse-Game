@@ -82,17 +82,21 @@ func _validate_prime_and_crucible_rules() -> void:
 	_expect(s022.has_tag("LAST_SENTINEL_ROUND4_ONLY") and s022.has_tag("PRIME_PIPELINE"), "S022 must route Last Sentinel through the approved Round-4 Prime pipeline")
 	_expect(str(s022.vfx_tier) == "V4", "S022 Last Sentinel manifestation must remain the first early-game V4 event")
 	_expect(s022.has_tag("ELDER_BRIARHIDE_RETREATS_ALIVE"), "Elder Briarhide must retreat alive after the first manifestation")
-	_expect(s023.has_tag("HEXARCH_LIVING_RESEARCHER") and s023.has_tag("HEXARCH_NONLETHAL_STABILIZATION"), "Hexarch must remain a living researcher resolved nonlethally")
+	_expect(s023.has_tag("REACTION_CONDUIT_LIVING_RESEARCHER") and s023.has_tag("REACTION_CONDUIT_NONLETHAL_STABILIZATION"), "Reaction Conduit must remain a living researcher resolved nonlethally")
 	_expect(s023.has_tag("NO_SEVENTH_ELEMENT"), "S023 must not present the out-of-loop reaction as a seventh element")
 	_expect(s024.has_tag("SEVENTH_REACTION_NOT_ELEMENT"), "S024 must preserve Seventh Reaction as a system consequence")
-	_expect(s024.has_tag("CRUCIBLE_GENUINE_TWO_FORM") and s024.has_tag("FORM2_FRESH_HP_MP"), "Sixfold Crucible must remain a genuine fresh-HP/MP Form-II transition")
-	_expect(s024.has_tag("NO_PRIME_REFRESH"), "Sixfold Crucible transformation must not refresh Prime availability")
+	_expect(s024.has_tag("REGULATION_CRUCIBLE_GENUINE_TWO_FORM") and s024.has_tag("FORM2_FRESH_HP_MP"), "Regulation Crucible must remain a genuine fresh-HP/MP Form-II transition")
+	_expect(s024.has_tag("PRIME_REFRESH_FRESH_HP_FORM"), "Regulation Crucible genuine fresh-HP Form II must refresh Prime availability")
 
 func _validate_elemental_runtime() -> void:
-	_expect(ElementalRuntime.ELEMENTS.size() == 6, "Elemental presentation runtime must expose exactly six elements")
-	for element_id in ["fire", "ice", "lightning", "wind", "earth", "water"]:
+	_expect(ElementalRuntime.ELEMENTS.size() == 4, "Elemental presentation runtime must expose exactly four elements")
+	for element_id in ["fire", "ice", "lightning", "earth"]:
 		_expect(ElementalRuntime.is_element(element_id), "Expected element missing from modular presentation runtime: %s" % element_id)
 		_expect(not ElementalRuntime.payload_keys(element_id).is_empty(), "Element payload module list must exist for %s" % element_id)
+	for retired_element_id in ["wind", "water"]:
+		_expect(not ElementalRuntime.is_element(retired_element_id), "Retired element must not remain active in presentation runtime: %s" % retired_element_id)
+		_expect(ElementalRuntime.payload_keys(retired_element_id).is_empty(), "Retired element must not expose payload modules: %s" % retired_element_id)
+		_expect(not ElementalRuntime.validate_element_ids([retired_element_id]).is_empty(), "Element validation must reject retired element: %s" % retired_element_id)
 	_expect(not ElementalRuntime.is_element("seventh_reaction"), "Seventh Reaction must never validate as an element")
 	_expect(not ElementalRuntime.validate_element_ids(["seventh_reaction"]).is_empty(), "Element validation must reject Seventh Reaction")
 
