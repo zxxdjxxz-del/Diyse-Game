@@ -4,10 +4,11 @@ This file is the implementation-facing authority index and compact guardrail sum
 
 ## Current whole-project authority
 
-**Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.08 / Audit123 — Class MP, CEXP, Mastery, and Late-Game Progression Lock**  
+**Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.09 / Audit124 — Optional EXP and Level-70 Completionist Cap Lock**  
 **Date:** August 27, 2026
 
 Current newest authority chain:
+- **v2.09 / Audit124** — fixed authored optional-player-EXP packages, 195,000 pre-Last-Shelter cap-proof pool, Level-70 completionist proof, and fixed-package/diminishing-return firewall.
 - **v2.08 / Audit123** — current class Ability MP costs, 6,000-CEXP CL13 curve, chapter CEXP envelopes, exact 8-point Mastery schedule, restored late-game player-level spine, late mandatory EXP budgets, and late enemy bands.
 - **v2.07 / Audit122** — Base Hit/Evasion resolver and current Bleed lifecycle.
 - **v2.06 / Audit121** — system removals, current classes/Faces, final Legacy set, Relic stale-mechanic cleanup, 20-consumable economy/placement, commerce/location terminology, Chapter-4 four-element rework, and Prime numeric sync.
@@ -20,6 +21,7 @@ Current newest authority chain:
 - **v1.98 / Audit113** — current 13-chapter reindex.
 
 Primary domain files:
+- `docs/canon/AUDIT124_OPTIONAL_EXP_AND_LEVEL_70_COMPLETIONIST_CAP_LOCK.md`
 - `docs/canon/AUDIT123_CLASS_MP_CEXP_MASTERY_AND_LATE_GAME_PROGRESSION_LOCK.md`
 - `docs/canon/AUDIT122_BASE_HIT_EVASION_AND_BLEED_RUNTIME_LOCK.md`
 - `docs/canon/AUDIT121_CURRENT_SYSTEMS_ITEM_EQUIPMENT_AND_PROGRESSION_RECONCILIATION_LOCK.md`
@@ -129,7 +131,7 @@ Exactly:
 - 8 active nodes;
 - 8 automatic Mastery Points.
 
-Core eligibility = Base CL3 / 6 / 9 / 12.
+Core eligibility = Base CL3 / 6 / 9 / 12.  
 Subclass eligibility = CL3 / 5 / 7 / 11.
 
 Exact automatic point grants:
@@ -202,11 +204,40 @@ Late ordinary enemy bands:
 
 Expected ordinary random-encounter planning center remains 225 total; Chapter 4 remains 19. These are planning centers, not quotas.
 
+---
+
+# Optional player EXP — Audit124
+
+Current fixed authored pre-Last-Shelter optional EXP pool:
+- 5 ordinary Side Quests — **20,000 EXP**
+- 6 Character Quests — **55,000 EXP**
+- 11 Regional Hunts — **70,000 EXP**
+- Major Hunts #1–5 — **50,000 EXP**
+- **Total — 195,000 EXP**
+
+Major Hunt #6 / The Unfinished World:
+- **24,000 EXP**
+- excluded from Level-70 reachability proof.
+
+At Last Shelter:
+- normal route = **415,400 EXP / Lv60**
+- Lv70 threshold = **594,100 EXP**
+- required gap = **178,700 EXP**
+- completionist proof = `415,400 + 195,000 = 610,400`
+- cap buffer = **16,300 EXP**
+
+Therefore a broad completionist route can reach **Lv70 before Last Shelter** without Major Hunt #6 or repetitive grinding.
+
+Lower-level enemy EXP diminishing returns apply to repeatable/ordinary enemy-kill EXP only. Fixed authored completion/first-clear packages are exempt.
+
+> **WEAK ENEMIES DIMINISH — AUTHORED CONTENT DOES NOT**
+
+Regional-Hunt authored packages may be split between route combat, boss EXP, and deterministic first-clear remainder. Route-RNG shortfall must be restored by the first-clear remainder rather than requiring extra battles.
+
 Still open:
-- optional player EXP source-by-source re-certification;
-- Light/Standard/Heavy formation EXP;
+- Light/Standard/Heavy ordinary formation EXP;
 - exact formation CEXP allocation;
-- named/story EXP and CEXP package placement;
+- chapter ordinary EXP/CEXP shares and named/story remainders;
 - progression-dependent raw-stat recertification.
 
 ---
@@ -284,7 +315,7 @@ Invocation MP:
 - Awakened Major Hunt 90
 - manifested commands 0 additional MP.
 
-Prismatic Deluge = 90×4 / 360 total listed Power per target.
+Prismatic Deluge = 90×4 / 360 total listed Power per target.  
 Regulator Fang = 250 Power / 25% Spirit penetration.
 
 ---
@@ -307,4 +338,4 @@ The live S022–S026 Markdown scripts and matching dialogue `.tres` resources ar
 
 # Implementation rule
 
-When a live implementation file conflicts with Audit123/Audit122/Audit121 in their respective domains, update the implementation file. Do not revive stale Synthesis, Barrier, Brace, six-element Chapter-4, retired class names, old Resource-face, old Bleed-clearing, or Lv62-at-end-Ch12 assumptions from historical trackers.
+When a live implementation file conflicts with Audit124/Audit123/Audit122/Audit121 in their respective domains, update the implementation file. Do not revive stale Synthesis, Barrier, Brace, six-element Chapter-4, retired class names, old Resource-face, old Bleed-clearing, Lv62-at-end-Ch12, or pre-cut optional-EXP assumptions from historical trackers.
