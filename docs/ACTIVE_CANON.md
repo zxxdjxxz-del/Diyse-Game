@@ -4,13 +4,14 @@ This file is the implementation-facing authority index. It does not replace the 
 
 ## Current whole-project authority
 
-**Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.18 / Audit133 — Optional Elite Raw-Stat Recertification Lock**  
+**Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.19 / Audit134 — Regional Hunt Raw-Stat Recertification Lock**  
 **Date:** August 27, 2026
 
 Newest authority chain:
+- **v2.19 / Audit134** — all 11 Regional-Hunt raw stats and recommended levels; Throne of Emperor Vaelkor current two-form raw split.
 - **v2.18 / Audit133** — numbered-chapter optional Elite raw stats; 12 current Elites; no current Ch10 optional Elite.
 - **v2.17 / Audit132** — Ch9–13 mandatory named/special raw combat stats; completes mandatory-story raw-stat recertification.
-- **v2.16 / Audit131** — Ch5–8 mandatory named/special raw combat stats; Deepforge Colossus current two-form fresh-health conversion.
+- **v2.16 / Audit131** — Ch5–8 mandatory named/special raw combat stats; Deepforge Colossus current two-form conversion.
 - **v2.15 / Audit130** — Regulation Crucible Form-I HP = **2,400**; Ch4 climax body total = **5,300**.
 - **v2.14 / Audit129** — compatible Ch1–4 mandatory named/special raw combat stats.
 - **v2.13 / Audit128** — exact mandatory named/story EXP+CEXP placement Ch9–13.
@@ -24,6 +25,7 @@ Newest authority chain:
 - compatible Audit120–Audit113 remain active where not superseded.
 
 Primary newest files:
+- `docs/canon/AUDIT134_REGIONAL_HUNT_RAW_STAT_RECERTIFICATION_LOCK.md`
 - `docs/canon/AUDIT133_OPTIONAL_ELITE_RAW_STAT_RECERTIFICATION_LOCK.md`
 - `docs/canon/AUDIT132_CHAPTERS_9_13_MANDATORY_NAMED_RAW_STAT_RECERTIFICATION_LOCK.md`
 - `docs/canon/AUDIT131_CHAPTERS_5_8_MANDATORY_NAMED_RAW_STAT_RECERTIFICATION_LOCK.md`
@@ -73,7 +75,7 @@ Removed systems:
 - Staggered is an ordinary harmful status only.
 - Guard remains valid.
 
-Bleed damages each round and again whenever the affected character acts; it clears only by full-HP restoration, eligible harmful-status clear, or eligible item.
+Bleed damages each round and whenever the affected character acts; it clears only by full-HP restoration, eligible harmful-status clear, or eligible item.
 
 Genuine fresh-HP boss transformations refresh Prime availability. Same-bar state changes do not.
 
@@ -90,21 +92,11 @@ Genuine fresh-HP boss transformations refresh Prime availability. Same-bar state
 | Vaelira | Green Arcanist | Axiomblade | Elements |
 | Seyrik | Ruin Vanguard | Ruin Warden | Ruin |
 
-Base/Subclass cap = CL13. No Subclass use before end-Ch7 Sixfold Volition. Synthesis is removed.
-
-Class Ability MP certification is **CLOSED** under Audit123; current authored base costs pass without another rebase.
+Base/Subclass cap = CL13. No Subclass use before end-Ch7 Sixfold Volition. Synthesis is removed. Class Ability MP certification is **CLOSED** under Audit123.
 
 CL13 cumulative CEXP = **6,000**. Base/Subclass CEXP are separate; selected class receives 100%, unselected receives 0, and CEXP sent to a capped selected class is lost.
 
-Exactly 8 automatic Mastery Points:
-1. Lv5
-2. Lv10
-3. Lv15
-4. Lv20
-5. Sixfold Volition
-6. Lv40
-7. Lv50
-8. Lv60
+Exactly 8 automatic Mastery Points: Lv5, Lv10, Lv15, Lv20, Sixfold Volition, Lv40, Lv50, Lv60.
 
 Player cap = 70. Chapter 0 grants no levels.
 
@@ -134,10 +126,7 @@ Audit124 fixed authored pre-Last-Shelter optional pool = **195,000 EXP**. Major 
 
 Audit125 expected ordinary encounter center = **225**, planning centers not quotas. Chapter 4 remains 19 expected random encounters / 5,262 ordinary EXP / 11,200 total mandatory EXP.
 
-Exact mandatory named/story placement is closed:
-- Ch1–4 Audit126
-- Ch5–8 Audit127
-- Ch9–13 Audit128
+Exact mandatory named/story placement is closed under Audits126–128.
 
 Optional Elites/Hunts/quests do not consume mandatory chapter pools. Same-bar changes pay once. Fresh-HP multi-form bosses pay one combined reward after final-form clear. Fixed authored packages are exempt from ordinary lower-level enemy EXP diminishing returns. No separate CEXP diminishing-return system exists.
 
@@ -154,7 +143,7 @@ Controlling chain:
 
 All 13 chapters' mandatory named/special raw body stats are recertified for Level, HP, Attack, Magic, Defense, Spirit, Speed, Evasion, and Status Resistance.
 
-Key current endurance totals:
+Key endurance totals:
 - Ch4 Regulation Crucible → Seventh Reaction = **5,300**
 - Ch5 Deepforge Colossus = **7,400**
 - Ch6 Zevraya → Perfected War Mother = **11,445**
@@ -172,27 +161,45 @@ Do not fabricate unresolved chamber/assembly/support-object HP merely to complet
 
 There are **12 current numbered-chapter optional Elites**. **Current Chapter 10 has no approved optional Elite.** Chapter 0's Ruin Vanguard Pursuer remains structural/tutorial and is outside this table.
 
-| Ch | Elite | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | Watch Captain Frame | 6 | 820 | 38 | 29 | 27 | 26 | 25 | 0 | 10 |
-| 2 | Archive Duplicant | 9 | 1,000 | 43 | 46 | 32 | 33 | 27 | 5 | 10 |
-| 3 | Grand Inquisitor Frame | 14 | 1,450 | 58 | 62 | 44 | 45 | 29 | 0 | 10 |
-| 4 | Annex Duelist | 18 | 1,700 | 72 | 72 | 50 | 49 | 34 | 10 | 5 |
-| 5 | Ruin Forgemaster | 23 | 2,250 | 88 | 62 | 64 | 57 | 31 | 0 | 5 |
-| 6 | Crimson Progenitor | 28 | 2,700 | 92 | 104 | 69 | 72 | 38 | 5 | 10 |
-| 7 | First Registrar's Shade | 33 | 2,950 | 104 | 116 | 76 | 82 | 44 | 10 | 10 |
-| 8 | Conqueror Legate | 38 | 3,650 | 138 | 102 | 97 | 88 | 43 | 5 | 10 |
-| 9 | Ruin Breach Captain | 44 | 4,350 | 160 | 120 | 108 | 99 | 46 | 5 | 10 |
-| 11 | Perfect Administrator | 55 | 5,800 | 180 | 198 | 137 | 141 | 52 | 5 | 10 |
-| 12 | Lord-Marshal Kharvek | 61 | 6,750 | 224 | 166 | 152 | 142 | 56 | 5 | 10 |
-| 13 | Devourer of Names | 63 | 7,000 | 216 | 230 | 151 | 159 | 57 | 10 | 10 |
+Typical optional-Elite duration = **2–4 serious party rounds**. A materially overlevelled party should be able to dismantle an old Elite quickly.
 
-Typical optional-Elite duration = **2–4 serious party rounds**. A materially overlevelled player should be able to dismantle an older Elite quickly.
-
-Audit133 does not restore old 60%/80% per-status tables as a second generic resistance resolver. Explicit identity-specific immunities remain only where separately authored and compatible. Elemental affinity/resistance remains separate from general Status Resistance.
+Audit133 retains recovered Elite HP/ATK/MAG/DEF/Spirit/SPD values and adds current EVA/SR. It does not restore older 60%/80% per-status tables as a second generic resistance resolver.
 
 Tier principle:
 > **Ordinary < Elite << Regional Hunt**
+
+---
+
+# Regional Hunt raw-stat firewall — Audit134
+
+Regional Hunt recommended levels are **preparedness targets, not access gates**. Fixed tuning remains active; returning later is intentional.
+
+| # | Hunt | Rec. Lv | HP / architecture |
+|---:|---|---:|---|
+| 1 | Cistern Devourer | 7 | **2,706** one bar |
+| 2 | Transfer Executioner | 11 | **3,760** one bar |
+| 3 | Archive Judgment Engine | 15 | **4,928** one bar |
+| 4 | Crown Prototype | 20 | **6,503** one bar |
+| 5 | Whitehorn Ravager | 26 | **8,678** one bar |
+| 6 | Winterglass Titan | 32 | **10,879** one bar |
+| 7 | Rift Gate Colossus | 38 | **13,276** one bar |
+| 8 | Rift Siege Beast | 44 | **15,875** one bar |
+| 9 | Mercyfallen Behemoth | 50 | **18,882** one bar |
+| 10 | Authority Remnant | 56 | **21,913** one bar |
+| 11 | Throne of Emperor Vaelkor | 61–62 | **11,800 Sealed + fresh 14,200 Walking = 26,000** |
+
+Hunts #1–10 retain recovered HP/ATK/MAG/DEF/Spirit/SPD values under Audit134 and receive current EVA/SR authoring.
+
+Throne of Emperor Vaelkor:
+- Sealed Throne — Lv61, 11,800 HP, 228 ATK, 234 MAG, 172 DEF, 168 Spirit, 50 SPD, EVA0, SR10;
+- Walking Throne — Lv62, 14,200 HP, 240 ATK, 221 MAG, 166 DEF, 159 Spirit, 58 SPD, EVA0, SR10;
+- genuine fresh-HP transition refreshes Prime availability;
+- Authority/Renewal Attendant functions remain current;
+- no Attendant HP is invented by Audit134;
+- no third form.
+
+Current tier principle:
+> **Ordinary < Elite < mandatory story boss < Regional Hunt < Major Hunt**
 
 ---
 
@@ -208,7 +215,6 @@ Chapter 4 uses exactly Fire / Ice / Lightning / Earth. Wind and Water are not re
 
 # Active frontier
 
-1. **11 Regional Hunt raw-stat recertification.**
-2. **6 Major Hunt raw-stat recertification.**
+## **6 Major Hunt raw-stat recertification**
 
-Preserve Hunt identities, unlocks, form architecture, fixed authored tuning, and no dynamic scaling.
+Preserve Major-Hunt identities, unlocks, Prime rewards, form architecture, fixed authored tuning, and no dynamic scaling. Major Hunts remain above Regional Hunts in total challenge and mechanic density.
