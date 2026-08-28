@@ -66,6 +66,9 @@ jobs:
       - name: Run accepted combat, Card, retarget, and Prime validation
         run: godot --headless --path . --script tests/combat/validate_round_combat.gd
 
+      - name: Run Kessara Relic-copy service validation
+        run: godot --headless --path . --script tests/equipment/validate_kessara_relic_copy_service.gd
+
       - name: Run versioned save/load persistence validation
         run: godot --headless --path . --script tests/save/validate_save_load.gd
 
