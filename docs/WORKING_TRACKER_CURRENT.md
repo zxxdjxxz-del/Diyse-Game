@@ -1,11 +1,12 @@
 # Diyse — Current Working Tracker
 
 **Date:** August 27, 2026  
-**Working revision:** **v56**  
-**Master-canon baseline:** **v2.12 / Audit127**  
+**Working revision:** **v57**  
+**Master-canon baseline:** **v2.13 / Audit128**  
 **Status:** **ACTIVE WORKING TRACKER — MASTER CANON OUTRANKS THIS FILE**
 
 Primary authority:
+- `docs/canon/AUDIT128_CHAPTERS_9_13_NAMED_STORY_EXP_CEXP_PLACEMENT_LOCK.md`
 - `docs/canon/AUDIT127_CHAPTERS_5_8_NAMED_STORY_EXP_CEXP_PLACEMENT_LOCK.md`
 - `docs/canon/AUDIT126_CHAPTERS_1_4_NAMED_STORY_EXP_CEXP_PLACEMENT_LOCK.md`
 - `docs/canon/AUDIT125_MANDATORY_FORMATION_EXP_CEXP_ALLOCATION_LOCK.md`
@@ -20,9 +21,9 @@ Historical cumulative trackers remain provenance only.
 
 ---
 
-# Current closed progression state
+# Current progression closure
 
-## Player levels
+## Player spine
 - Ch0 grants no levels.
 - Level cap = 70.
 - End Ch1 Lv5
@@ -39,56 +40,16 @@ Historical cumulative trackers remain provenance only.
 - End Ch12 Lv57
 - **Last Shelter Lv60**
 - **End Ch13 Lv62**
-- Lv62–70 = optional/completionist headroom.
 
-Key cumulative EXP:
-- Lv32 100,600
-- Lv37 138,800
-- Lv42 184,300
-- Lv47 237,600
-- Lv52 299,100
-- Lv57 369,100
-- Lv60 415,400
-- Lv62 448,100
-- Lv70 594,100
-
-Late mandatory EXP budgets:
-- Ch8 38,200
-- Ch9 45,500
-- Ch10 53,300
-- Ch11 61,500
-- Ch12 70,000
-- Ch13 pre-Last-Shelter 46,300
-- Ch13 post-Last-Shelter 32,700
-- Ch13 total 79,000
-
-## CEXP
-Base/Subclass cap = CL13. Cumulative CL13 threshold = **6,000 CEXP**.
-
-Base and Subclass CEXP are separate. Selected class receives 100%; unselected class receives 0. CEXP assigned to a capped selected class is lost.
-
-Pre-Volition Ch1–7 CEXP = **4,950**.
-
-Post-Volition:
-- Ch8 1,300
-- Ch9 1,450
-- Ch10 1,200
-- Ch11 1,800
-- Ch12 2,750
-- Ch8–12 total 8,500
-- Ch13 catch-up/overflow 1,500
-
-Full Base + Subclass Class-Level completion occurs during Ch12:
-- Torren early
-- Vaelira early/mid
-- Cyanis/Ilyra mid
-- Nimera mid/late
-- Seyrik around end Ch12
+## CEXP / Class Levels
+- Base/Subclass cap = CL13.
+- CL13 cumulative CEXP = 6,000.
+- Ch1–7 Base CEXP = 4,950.
+- post-Volition: Ch8 1,300; Ch9 1,450; Ch10 1,200; Ch11 1,800; Ch12 2,750; Ch13 1,500 catch-up/overflow.
+- normal full Base + Subclass Class-Level completion occurs during Ch12, with Seyrik around end Ch12.
 
 ## Mastery
-Synthesis removed. Exactly 4 Core + 4 Subclass nodes.
-
-Automatic Mastery Points:
+Exactly 8 automatic points:
 1. Lv5
 2. Lv10
 3. Lv15
@@ -98,188 +59,150 @@ Automatic Mastery Points:
 7. Lv50
 8. Lv60
 
-Desired progression layering:
-1. Class Levels complete around Ch12 / roughly Lv53–57.
-2. Final Mastery point arrives around Last Shelter / Lv60.
-3. Campaign ends around Lv62.
+Synthesis is removed.
 
 ## Class Ability MP
-Closed / 12 of 12 PASS under Audit123. No authored base-cost changes required.
+12/12 class kits certified; no base-cost changes required.
 
 ---
 
-# Optional player EXP — CLOSED / Audit124
+# Optional progression
 
-Pre-Last-Shelter authored optional pool = **195,000 EXP**:
-- 5 ordinary Side Quests 20,000
-- 6 Character Quests 55,000
-- 11 Regional Hunts 70,000
+Audit124 pre-Last-Shelter authored pool = **195,000 EXP**:
+- Side Quests 20,000
+- Character Quests 55,000
+- Regional Hunts 70,000
 - Major Hunts #1–5 50,000
 
-Major Hunt #6 = 24,000, excluded from cap proof.
+Major Hunt #6 = 24,000 and is excluded from the cap proof.
 
-Last-Shelter completionist proof:
-- normal route 415,400
-- +195,000 = 610,400
-- Lv70 threshold 594,100
-- buffer **16,300**
+At Last Shelter normal route = 415,400 / Lv60. Broad completionist = 610,400, above the Lv70 threshold 594,100 by 16,300.
 
-Fixed authored completion/first-clear packages are exempt from lower-level ordinary-enemy EXP diminishing returns.
+Fixed authored packages are exempt from ordinary lower-level enemy EXP diminishing returns.
 
 ---
 
-# Mandatory formation allocation — CLOSED / Audit125
+# Mandatory formation progression
 
-Expected ordinary encounter planning centers total **225** and remain stochastic expectations, not quotas.
+Audit125 closed the 225 ordinary-encounter planning center, chapter ordinary-vs-authored player EXP, and formation CEXP bands.
 
-Named/story player-EXP remainders:
-- Ch1 745
-- Ch2 2,512
-- Ch3 4,520
-- Ch4 5,938
-- Ch5 9,822
-- Ch6 14,300
-- Ch7 17,180
-- Ch8 19,238
-- Ch9 20,500
-- Ch10 21,500
-- Ch11 ~16,200
-- Ch12 ~22,900
-- Ch13 ~49,200
+Counts are planning centers, not quotas.
 
-Named/story CEXP remainders:
-- Ch1 ~172
-- Ch2 ~220
-- Ch3 ~264
-- Ch4 ~304
-- Ch5 ~367
-- Ch6 ~461
-- Ch7 ~631
-- Ch8 ~687
-- Ch9 ~837
-- Ch10 ~586
-- Ch11 ~1,015
-- Ch12 ~1,786
-- Ch13 ~1,032
+Chapter 4 remains protected at:
+- 19 expected random encounters
+- 5,262 ordinary EXP
+- 11,200 total mandatory EXP
 
-Late Light / Standard / Heavy player-EXP anchors:
+Late player-EXP tier anchors:
 - Ch9 1,245 / 1,540 / 1,920
 - Ch10 1,700 / 2,100 / 2,500
 - Ch11 2,100 / 2,650 / 3,100
 - Ch12 2,100 / 2,600 / 3,150
 - Ch13 3,000 / 3,700 / 4,500
 
-Chapter 4 protected: 19 expected encounters, 5,262 ordinary EXP, 11,200 total EXP.
+No separate CEXP diminishing-return system exists.
 
 ---
 
-# Exact mandatory named/story reward placement
+# Exact mandatory named/story reward placement — COMPLETE 13/13
 
-## Chapters 1–4 — CLOSED / Audit126
+- Ch1–4 = Audit126
+- Ch5–8 = Audit127
+- Ch9–13 = Audit128
 
-### Ch1 — 745 EXP / 172 CEXP
-- Hollow Watch Castellan 300 / 65
-- Briarhide Stalker nonlethal stabilization 120 / 28
-- Greenhollow civilians secured + Torren permanent recruitment 75 / 19
-- Wayfinder Junction documented / clear 250 / 60
+Optional Elites/Hunts/Character Quests/Side Quests never consume mandatory chapter reward pools.
 
-### Ch2 — 2,512 / 220
-- Archive Leviathan 700 / 55
-- Prisoner Galleries safe-room state 250 / 20
-- Commander Rhazek — Bastion Master 900 / 75
-- Hold the Junction 350 / 30
-- extraction / clear 312 / 40
+Same-bar state changes pay once. Fresh-HP multi-form bosses also pay one combined encounter package after final-form clear.
 
-### Ch3 — 4,520 / 264
-- lawful-authority confrontation I 400 / 24
-- confrontation II 500 / 30
-- Nimera permanent recruitment 500 / 30
-- First Command Warden 1,800 / 90
-- Last Sentinel confirmed 600 / 40
-- Cresthaven established / clear 720 / 50
+## Ch9 — 20,500 EXP / 837 CEXP
+- Equal Mercy stabilization 1,500/60
+- Equal Mercy Arbiter 4,500/170
+- Last Sanctuary resolution 1,500/60
+- Crownfall defense/infiltration milestone 2,500/100
+- Rhazek → Bastion Devourer full encounter 7,500/300
+- Crownfall preserved/chapter clear 3,000/147
 
-### Ch4 — 5,938 / 304
-- Elder Briarhide 500 / 28
-- Vaelira permanent recruitment 450 / 30
-- Reaction Conduit 850 / 42
-- Regulation Crucible → Seventh Reaction full clear 2,800 / 120
-- Annex crisis resolved / clear 1,338 / 84
+## Ch10 — 21,500 / 586
+- eastern survey 2,000/50
+- Calder/Lower Archive 3,000/75
+- Buried Registry access 3,500/85
+- Registry Warden 8,000/200
+- Sixfold Unsealing / Last Blank 3,500/110
+- Chapter-11 handoff 1,500/66
 
-## Chapters 5–8 — CLOSED / Audit127
+## Ch11 — 16,200 / 1,015
+- Living Anchor/Crown Engine 4,000/230
+- Custodian domain 2,500/140
+- Truth Beneath Empire 4,000/240
+- First Reckoning/Sixfold Reconciliation 4,000/250
+- chapter clear 1,700/155
 
-### Ch5 — 9,822 / 367
-- Furnace Tyrant 2,100 / 70
-- Repair Galleries / maintenance route stabilized 1,000 / 40
-- Deepforge Colossus full two-form clear 4,500 / 150
-- First Sovereign response 1,300 / 50
-- Deepforge handoff / clear 922 / 57
+Current Chapter 11 is Crown Engine material. Do not place Varkesh, Vhalmarch or Vaelkor here.
 
-### Ch6 — 14,300 / 461
-- Crownstorm Roc 2,800 / 80
-- Weather Crown stabilized / First Element 1,300 / 45
-- Matron Zevraya full transformed encounter 4,500 / 130
-- Masked Ruin Vanguard / Seyrik nonlethal clear 3,000 / 100
-- Seyrik permanent recruitment / clear 2,700 / 106
+## Ch12 — 22,900 / 1,786
+Current route: **Westguard → Blackspine → Draevensreach → Vhalmarch → Vorathen → Veiled Citadel**.
+- campaign breakthrough 3,000/200
+- Varkesh defeat/live capture 6,000/450
+- Vhalmarch Forward Hub secured 2,500/200
+- Vorathen/Veiled Citadel breach 3,000/250
+- Vaelkor two-form full clear 7,000/550
+- post-Vaelkor cleanup state/chapter clear 1,400/136
 
-### Ch7 — 17,180 / 631
-- Chainworks Behemoth 3,200 / 100
-- Ashford/Chainworks control dismantled 1,200 / 45
-- Veycross transit controls secured 2,000 / 70
-- Prison records / Seyrik provenance secured 2,200 / 80
-- Warden of the Nameless / Revision Arbiter 5,500 / 190
-- First Change / Prison resolution / Sixfold Volition chapter-clear handoff 3,080 / 146
+Vaelkor defeat opens cleanup and does not automatically launch Ch13.
 
-### Ch8 — 19,238 / 687
-- Horizon Vault severance/intelligence breakthrough 1,500 / 50
-- Western Rift Engine 5,000 / 165
-- Western line / Westreach operational control 2,200 / 70
-- Marshal Varkesh — Rift Conqueror full two-form clear 7,000 / 230
-- coalition consolidation / clear 3,538 / 172
+## Ch13 — 49,200 named/story EXP / 1,032 named/story CEXP
+Hard order:
+**Deepest City → Last Weapon Archive → Last Weapon Archon → Last Shelter → Reactor Galleries → Reactor–Crest Interface → Reconstituted Entity → Crest Integration/The Last Command → Final Severance → aftermath**.
 
-Rules:
-- optional Elites/Hunts receive 0 from mandatory pools;
-- same-bar transitions pay once;
-- fresh-HP transformations pay one combined reward after final-form clear;
-- authored nonlethal clears receive full progression where specified.
+True PONR = **Last Shelter → Reactor Galleries**.
+
+8 ordinary-encounter planning center splits 5 pre-Shelter / 3 post-PONR.
+
+### Before Last Shelter
+- ordinary ≈ 18,600
+- fixed = 27,700 EXP / 600 CEXP
+- segment total = 46,300 → ~Lv60
+
+Fixed:
+- Deepest City/Archive reached 4,000/90
+- Archive truth 5,000/110
+- Last Weapon Archon 12,000/280
+- Last Shelter reached 6,700/120
+
+### After PONR
+- ordinary ≈ 11,200
+- fixed = 21,500 EXP / 432 CEXP
+- segment total = 32,700 → ending ~Lv62
+
+Fixed:
+- Reactor Galleries realization 3,500/70
+- Reactor–Crest Interface 2,500/50
+- Reconstituted Entity → The Last Command two-form full clear 13,500/270
+- aftermath/ending 2,000/42
+
+Final boss has exactly two genuine full-HP forms. Crest Integration pays 0 at transition. No third form.
 
 ---
 
-# Other major closed state
+# Other closed state
 
+- combat formulas / Base Hit / Evasion / Crit / Bleed remain under Audits120–122.
 - Barrier does not exist.
 - Brace does not exist.
 - no global Break/Stagger meter.
-- Spirit = magical-defense stat.
-- Base Hit/Evasion and Bleed lifecycle closed under Audit122.
-- current classes: Crest Knight/Crest Arcanist; Blue Warden/Vowblade; War Archer/Routeweaver; Cardweaver/Proofhunter; Green Arcanist/Axiomblade; Ruin Vanguard/Ruin Warden.
+- Staggered is ordinary harmful status.
 - 38 ordinary equipment + 36 Relics + 17 Legacies = 91 equipment pieces.
 - 20 consumables.
 - 24 Standard Cards.
-- 12 Primes, Recovered → Awakened.
-- Chapter 4 uses exactly Fire / Ice / Lightning / Earth and its live S022–S026 scripts/runtime are synchronized.
+- 12 Primes, Recovered → Awakened only.
+- Chapter 4 four-element script/runtime conversion is complete: Fire/Ice/Lightning/Earth only.
 
 ---
 
 # ACTIVE FRONTIER
 
-## 1. Exact named/story EXP + CEXP placement — Chapters 9–13
-Use the already-locked chapter remainder envelopes. Do not change chapter totals unless integrated simulation exposes a real contradiction.
+## Progression-dependent named-enemy / boss raw-stat recertification
 
-## 2. Progression-dependent named-enemy/boss raw-stat recertification
-Begin only after Chapters 9–13 reward placement closes.
+Recover current HP / ATK / MAG / DEF / Spirit / SPD / Evasion / Status Resistance for mandatory named enemies and bosses and compare them against the now-final chapter player-level bands.
 
----
-
-# Do not reopen without explicit instruction
-- class Ability MP certified tables
-- 6,000-CEXP CL13 curve
-- 8-point Mastery schedule
-- Ch12 class-level completion direction
-- Last Shelter ~Lv60
-- normal ending ~Lv62
-- 195,000 authored optional EXP pool
-- Audit125 formation EXP/CEXP allocation
-- Audit126 Ch1–4 reward placement
-- Audit127 Ch5–8 reward placement
-- equipment/consumable architecture
-- Chapter-4 four-element conversion
+Preserve encounter mechanics, status/element packages and HP-bar/form architecture. Do not add Barrier, Brace, global Break/Stagger, natural Accuracy, Synthesis, or other retired systems.
