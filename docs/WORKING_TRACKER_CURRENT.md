@@ -1,11 +1,12 @@
 # Diyse — Current Working Tracker
 
 **Date:** August 27, 2026  
-**Working revision:** **v60**  
-**Master-canon baseline:** **v2.16 / Audit131**  
+**Working revision:** **v61**  
+**Master-canon baseline:** **v2.17 / Audit132**  
 **Status:** **ACTIVE WORKING TRACKER — MASTER CANON OUTRANKS THIS FILE**
 
 Primary authority:
+- `docs/canon/AUDIT132_CHAPTERS_9_13_MANDATORY_NAMED_RAW_STAT_RECERTIFICATION_LOCK.md`
 - `docs/canon/AUDIT131_CHAPTERS_5_8_MANDATORY_NAMED_RAW_STAT_RECERTIFICATION_LOCK.md`
 - `docs/canon/AUDIT130_REGULATION_CRUCIBLE_FORM_I_HP_CORRECTION_LOCK.md`
 - `docs/canon/AUDIT129_CHAPTERS_1_4_MANDATORY_NAMED_RAW_STAT_RECERTIFICATION_LOCK.md`
@@ -50,20 +51,9 @@ Historical cumulative trackers remain provenance only.
 - normal full Base + Subclass Class-Level completion occurs during Ch12, with Seyrik around end Ch12.
 
 ## Mastery
-Exactly 8 automatic points:
-1. Lv5
-2. Lv10
-3. Lv15
-4. Lv20
-5. Sixfold Volition
-6. Lv40
-7. Lv50
-8. Lv60
+Exactly 8 automatic points: Lv5, Lv10, Lv15, Lv20, Sixfold Volition, Lv40, Lv50, Lv60.
 
-Synthesis is removed.
-
-## Class Ability MP
-12/12 class kits certified; no base-cost changes required.
+Synthesis is removed. Class Ability MP is closed.
 
 ---
 
@@ -87,68 +77,104 @@ True PONR = **Last Shelter → Reactor Galleries**. Normal route reaches ~Lv60 a
 
 ---
 
-# Chapters 1–4 mandatory named raw-stat recertification
+# Mandatory named raw-stat closure — Chapters 1–4
 
 Audit129 remains the broad Ch1–4 authority; Audit130 narrowly supersedes Regulation Crucible Form-I HP.
 
-| Ch | Mandatory named body | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Result |
-|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| 1 | Briarhide Stalker | 4 | 850 | 34 | 18 | 22 | 20 | 29 | 10 | 0 | NEW |
-| 1 | Hollow Watch Castellan | 6 | 1,758 | 36 | 27 | 27 | 24 | 25 | 0 | 5 | PASS |
-| 2 | Archive Leviathan | 9 | 2,592 | 34 | 45 | 31 | 33 | 25 | 0 | 5 | PASS |
-| 2 | Rhazek — Bastion Master | 10 | 2,700 | 49 | 31 | 36 | 32 | 26 | 5 | 5 | PASS |
-| 3 | First Command Warden | 14 | 3,723 | 57 | 57 | 43 | 43 | 29 | 0 | 10 | PASS |
-| 4 | Elder Briarhide | 14 | 2,100 | 64 | 28 | 44 | 39 | 36 | 10 | 5 | NEW |
-| 4 | Reaction Conduit | 17 | 3,100 | 50 | 72 | 47 | 52 | 32 | 5 | 5 | NEW |
-| 4 | Regulation Crucible Form I | 18 | **2,400** | 54 | 73 | 51 | 53 | 28 | 0 | 10 | AUDIT130 CORRECTION |
-| 4 | The Seventh Reaction Form II | 19 | 2,900 | 60 | 80 | 55 | 57 | 30 | 0 | 10 | FRESH BODY |
+| Ch | Mandatory named body | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | Briarhide Stalker | 4 | 850 | 34 | 18 | 22 | 20 | 29 | 10 | 0 |
+| 1 | Hollow Watch Castellan | 6 | 1,758 | 36 | 27 | 27 | 24 | 25 | 0 | 5 |
+| 2 | Archive Leviathan | 9 | 2,592 | 34 | 45 | 31 | 33 | 25 | 0 | 5 |
+| 2 | Rhazek — Bastion Master | 10 | 2,700 | 49 | 31 | 36 | 32 | 26 | 5 | 5 |
+| 3 | First Command Warden | 14 | 3,723 | 57 | 57 | 43 | 43 | 29 | 0 | 10 |
+| 4 | Elder Briarhide | 14 | 2,100 | 64 | 28 | 44 | 39 | 36 | 10 | 5 |
+| 4 | Reaction Conduit | 17 | 3,100 | 50 | 72 | 47 | 52 | 32 | 5 | 5 |
+| 4 | Regulation Crucible Form I | 18 | **2,400** | 54 | 73 | 51 | 53 | 28 | 0 | 10 |
+| 4 | The Seventh Reaction Form II | 19 | 2,900 | 60 | 80 | 55 | 57 | 30 | 0 | 10 |
 
-Current Ch4 climax minimum body HP = **5,300**, split 2,400 Form I + fresh 2,900 Form II.
-
-Hold the Junction remains a formation event, not a singular body. Ch3 S018 lawful-authority confrontations remain group/nonlethal events. Audit129/130 do not invent chamber HP pools. Elder Briarhide's Last Sentinel resolution remains scripted nonlethal.
+Current Ch4 climax minimum body HP = **5,300**. Hold the Junction and Ch3 S018 lawful-authority confrontations remain formation/group events. No chamber HP pools are invented.
 
 ---
 
-# Audit131 — Chapters 5–8 mandatory named raw-stat recertification
+# Mandatory named raw-stat closure — Chapters 5–8
 
-Recovered midgame raw lines remain compatible with the finalized level spine except for the structural Deepforge fresh-form conversion.
+| Ch | Mandatory body | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 5 | Furnace Tyrant | 23 | 3,801 | 87 | 51 | 61 | 50 | 30 | 0 | 5 |
+| 5 | Deepforge — Assembly Frame | 24 | **3,400** | 93 | 51 | 70 | 55 | 26 | 0 | 10 |
+| 5 | Deepforge — Worldsmith Body | 25 | **4,000** | 101 | 62 | 73 | 60 | 29 | 0 | 10 |
+| 6 | Crownstorm Roc | 26 | 5,921 | 88 | 95 | 55 | 61 | 41 | 10 | 10 |
+| 6 | Masked Ruin Vanguard — Seyrik | 27 | 5,302 | 104 | 79 | 63 | 59 | 38 | 5 | 10 |
+| 6 | Blood Matron | 28 | 5,283 | 74 | 104 | 65 | 74 | 38 | 5 | 10 |
+| 6 | Perfected War Mother | 29 | 6,162 | 90 | 113 | 69 | 77 | 39 | 5 | 10 |
+| 7 | Chainworks Behemoth | 29 | 5,135 | 109 | 57 | 77 | 59 | 32 | 0 | 5 |
+| 7 | Warden of the Nameless / Revision Arbiter | 34 | 8,913 | 112 | 120 | 84 | 89 | 40 | 5 | 10 |
+| 8 | Western Rift Engine | 36 | 9,775 | 86 | 133 | 97 | 89 | 33 | 0 | 10 |
+| 8 | Marshal Varkesh | 38 | 7,326 | 140 | 93 | 93 | 85 | 44 | 5 | 10 |
+| 8 | Rift Conqueror | 39 | 8,485 | 151 | 107 | 97 | 91 | 45 | 5 | 10 |
+
+Deepforge total = **7,400**. Zevraya total = **11,445**. Ch8 Varkesh total = **15,811**. Do not inflate one-bar mechanical encounters solely for monotonic HP.
+
+---
+
+# Audit132 — Chapters 9–13 mandatory named raw-stat recertification
+
+Recovered late-game HP/ATK/MAG/DEF/Spirit/SPD lines all PASS against the final player-level spine. Audit132 adds current Evasion/Status Resistance and correct current form/Prime-refresh interpretation.
 
 | Ch | Mandatory body | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Result |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| 5 | Furnace Tyrant | 23 | 3,801 | 87 | 51 | 61 | 50 | 30 | 0 | 5 | PASS |
-| 5 | Deepforge — Assembly Frame | 24 | **3,400** | 93 | 51 | 70 | 55 | 26 | 0 | 10 | RECERTIFIED |
-| 5 | Deepforge — Worldsmith Body | 25 | **4,000** | 101 | 62 | 73 | 60 | 29 | 0 | 10 | CURRENT FRESH BODY |
-| 6 | Crownstorm Roc | 26 | 5,921 | 88 | 95 | 55 | 61 | 41 | 10 | 10 | PASS |
-| 6 | Masked Ruin Vanguard — Seyrik | 27 | 5,302 | 104 | 79 | 63 | 59 | 38 | 5 | 10 | PASS |
-| 6 | Blood Matron | 28 | 5,283 | 74 | 104 | 65 | 74 | 38 | 5 | 10 | PASS |
-| 6 | Perfected War Mother | 29 | 6,162 | 90 | 113 | 69 | 77 | 39 | 5 | 10 | PASS |
-| 7 | Chainworks Behemoth | 29 | 5,135 | 109 | 57 | 77 | 59 | 32 | 0 | 5 | PASS |
-| 7 | Warden of the Nameless / Revision Arbiter | 34 | 8,913 | 112 | 120 | 84 | 89 | 40 | 5 | 10 | PASS |
-| 8 | Western Rift Engine | 36 | 9,775 | 86 | 133 | 97 | 89 | 33 | 0 | 10 | PASS |
-| 8 | Marshal Varkesh | 38 | 7,326 | 140 | 93 | 93 | 85 | 44 | 5 | 10 | PASS |
-| 8 | Rift Conqueror | 39 | 8,485 | 151 | 107 | 97 | 91 | 45 | 5 | 10 | PASS |
+| 9 | Equal Mercy Arbiter | 40 | 10,025 | 105 | 140 | 89 | 107 | 43 | 0 | 10 | PASS |
+| 9 | Commander Rhazek — Reforged Commander | 43 | 8,431 | 163 | 100 | 111 | 96 | 44 | 5 | 10 | PASS |
+| 9 | Bastion Devourer | 44 | 10,462 | 175 | 131 | 107 | 104 | 46 | 0 | 10 | PASS |
+| 10 | Registry Warden | 49 | 13,514 | 157 | 172 | 124 | 126 | 46 | 0 | 10 | PASS |
+| 11 | Othmar Calder — Protector of Continuity | 54 | 10,133 | 137 | 193 | 118 | 134 | 50 | 5 | 10 | PASS |
+| 11 | Crown-Bound Living Anchor | 55 | 13,662 | 181 | 204 | 139 | 139 | 47 | 0 | 10 | PASS |
+| 11 | The Custodian | 55 | 16,017 | 177 | 190 | 144 | 146 | 48 | 0 | 10 | PASS |
+| 12 | Marshal Varkesh — Final Capture | 58 | 17,106 | 226 | 148 | 144 | 131 | 55 | 5 | 10 | PASS |
+| 12 | Emperor Vaelkor — Emperor of the Reforged Host | 60 | 13,648 | 223 | 209 | 155 | 150 | 54 | 5 | 10 | PASS |
+| 12 | Sovereign Panoply Unbound | 61 | 16,615 | 238 | 224 | 163 | 157 | 55 | 0 | 10 | PASS |
+| 13 | Last Weapon Archon | 63 | 18,424 | 236 | 220 | 160 | 160 | 56 | 0 | 15 | PASS |
+| 13 | Reconstituted Entity | 63 | 15,074 | 224 | 228 | 158 | 163 | 55 | 5 | 15 | PASS |
+| 13 | The Last Command | 64 | 19,367 | 247 | 247 | 168 | 168 | 58 | 5 | 15 | PASS |
 
-## Deepforge structural correction
-- obsolete historical one-body HP = 6,602
-- Assembly Frame = **3,400 HP**
-- Worldsmith Body = **4,000 HP** fresh
-- minimum body total = **7,400 HP**
-- Guard Press / Repair Arm / Command Loom remain targetable Form-I functions;
-- no assembly HP pools are fabricated in Audit131;
-- destroyed functions stay destroyed and only surviving matching functions may carry to Form II;
-- Worldsmith receives the current genuine fresh-form Prime refresh;
-- no third form.
+## Current late endurance centers
+- Rhazek → Bastion Devourer = **18,893**
+- Registry Warden = **13,514** one bar
+- Calder → Crown-Bound Living Anchor = **23,795**
+- Custodian = **16,017** one bar plus mandatory contribution/floor mechanics
+- Varkesh Final Capture = **17,106** one bar plus beacon/capture mechanics
+- Vaelkor → Sovereign Panoply = **30,263**
+- Last Weapon Archon = **18,424** one bar
+- Reconstituted Entity → Last Command = **34,441**
 
-## Other retained endurance centers
-- Crownstorm Roc = 5,921 one-bar
-- Seyrik = 5,302 one-bar nonlethal
-- Zevraya two-form total = **11,445**; Crimson Brood is same-bar Form-I state
-- Chainworks Behemoth = 5,135 one-bar
-- Revision Arbiter = 8,913 one-bar plus mandatory Assert-the-Self action tax
-- Western Rift Engine = 9,775 one-bar
-- Varkesh two-form total = **15,811**
+## Architecture guardrails
+- Equal Mercy Arbiter: one bar; Mercy-Proof/Open-Sanctuary state is same-bar.
+- Rhazek: Reforged Commander → Bastion Devourer fresh; exposed/unarmored state remains Form-II same-bar; no third bar.
+- Registry Warden: technical boss; raw stats closed, exact current move kit remains a separate authoring/recovery issue.
+- Calder: Protector of Continuity → Crown-Bound Living Anchor genuine fresh machine body; Expendable Authority same-bar; Calder survives disconnect.
+- Custodian: one continuous bar; visible 55% floor until all six register; reconciliation at 0 HP.
+- Varkesh Final Capture: one bar; 20% floor while either Retreat Beacon survives, 15% capture threshold after both are destroyed; live capture.
+- Vaelkor: Emperor of Reforged Host → Sovereign Panoply Unbound genuine fresh body; no possession or third form.
+- Last Weapon Archon: one bar; not Entity shell; world access remains after clear.
+- final boss: Reconstituted Entity → The Last Command exactly two genuine fresh-health forms; Final Severance closes it; no third form.
 
-Do not inflate a one-bar mechanical boss merely to maintain a monotonic HP spreadsheet.
+All genuine fresh-health transitions use the current Prime-refresh rule. Same-bar states do not.
+
+---
+
+# Mandatory story raw-stat result
+
+# **COMPLETE — ALL 13 CHAPTERS**
+
+Controlling chain:
+- Ch1–4 — Audit129 + Audit130
+- Ch5–8 — Audit131
+- Ch9–13 — Audit132
+
+Controlled fields: Level / HP / Attack / Magic / Defense / Spirit / Speed / Evasion / Status Resistance.
+
+Unresolved component/subtarget HP is not fabricated solely to make tables complete.
 
 ---
 
@@ -160,6 +186,7 @@ Do not inflate a one-bar mechanical boss merely to maintain a monotonic HP sprea
 - no global Break/Stagger meter.
 - Staggered is ordinary harmful status.
 - no natural Accuracy stat.
+- genuine fresh-HP boss forms refresh Prime availability.
 - 38 ordinary equipment + 36 Relics + 17 Legacies = 91 equipment pieces.
 - 20 consumables.
 - 24 Standard Cards.
@@ -170,16 +197,8 @@ Do not inflate a one-bar mechanical boss merely to maintain a monotonic HP sprea
 
 # ACTIVE FRONTIER
 
-## Mandatory named-enemy / boss raw-stat recertification — Chapters 9–13
+## Optional Elite / Regional Hunt / Major Hunt raw-stat recertification
 
-Recover the historical late-game raw-stat spine and reindex it through current chapter numbering before applying it.
+Mandatory story raw-stat recertification is closed. Recover optional Elite/Hunt raw lines and check them against current unlock/readiness levels and the current fixed-tuning hierarchy.
 
-Current progression anchors:
-- Ch9 end Lv42
-- Ch10 end Lv47
-- Ch11 end Lv52
-- Ch12 end Lv57
-- Last Shelter Lv60
-- End Ch13 Lv62
-
-Preserve encounter mechanics, status/element packages and HP-bar/form architecture. Change only raw stats that fail the finalized player-level and boss-duration targets. Do not add Barrier, Brace, global Break/Stagger, natural Accuracy, Synthesis, or other retired systems.
+Preserve encounter identities and form architecture. Major Hunts remain stronger than player readiness. Do not add Barrier, Brace, global Break/Stagger, natural Accuracy, Synthesis, or other retired systems.
