@@ -3,7 +3,7 @@
 **Status:** APPROVED / LOCKED.  
 **Acceptance authority:** CH4-A027 and CH4-A028 in `ACCEPTANCE_LOG.md`.  
 **Window:** Post-Chapter 4.  
-**Placement:** Sixfold Annex — Prototype Branch.  
+**Placement:** Reaction Annex — Prototype Branch.  
 **Type:** Regional Hunt / optional elite.  
 **Protected first-clear reward:** **Relentless Flurry**.  
 **Current whole-project authority:** Complete Master Canon v1.65 / Audit80 and later compatible corrections.
@@ -95,7 +95,7 @@ The player may:
 
 # 3. RETURN ROUTE
 
-## SIXFOLD ANNEX — POST-CHAPTER
+## REACTION ANNEX — POST-CHAPTER
 
 Use the post-S025/S026 safe state.
 
@@ -122,7 +122,7 @@ The prototype branch itself is short enough that the Hunt is the gameplay event 
 
 # 4. PROTOTYPE BRANCH
 
-**SIXFOLD ANNEX — PROTOTYPE TESTING**
+**REACTION ANNEX — PROTOTYPE TESTING**
 
 Older test architecture with newer Annex observation equipment built around it.
 
