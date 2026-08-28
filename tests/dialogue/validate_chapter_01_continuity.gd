@@ -140,7 +140,7 @@ func _validate_c04_final_version() -> void:
 		"You called me an old slut.",
 		"You read “old cut” as “old slut.”",
 		"Because that’s what you wrote.",
-		"Then learn to fucking read.",
+		"Learn to fucking read.",
 		"Touch the map and I’ll break your fucking fingers.",
 		"See, now we’re friends.",
 		"Good night, Torren.",
