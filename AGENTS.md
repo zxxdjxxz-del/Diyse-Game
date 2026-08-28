@@ -24,9 +24,10 @@ Historical audits and cumulative trackers are provenance, not automatic current 
 
 Whole-project written authority:
 
-> **Diyse v2.16 / Audit131**
+> **Diyse v2.17 / Audit132**
 
 Newest chain:
+- `docs/canon/AUDIT132_CHAPTERS_9_13_MANDATORY_NAMED_RAW_STAT_RECERTIFICATION_LOCK.md` — Ch9–13 mandatory named/special raw stats; completes mandatory story raw-stat recertification.
 - `docs/canon/AUDIT131_CHAPTERS_5_8_MANDATORY_NAMED_RAW_STAT_RECERTIFICATION_LOCK.md` — Ch5–8 mandatory named/special raw stats.
 - `docs/canon/AUDIT130_REGULATION_CRUCIBLE_FORM_I_HP_CORRECTION_LOCK.md` — Regulation Crucible Form-I HP = 2,400.
 - `docs/canon/AUDIT129_CHAPTERS_1_4_MANDATORY_NAMED_RAW_STAT_RECERTIFICATION_LOCK.md` — Ch1–4 raw stats except Audit130 correction.
@@ -85,6 +86,8 @@ Removed systems:
 - Guard remains valid.
 
 Bleed damages each round and again when the affected character acts. It clears only on full-HP restoration, eligible harmful-status clear, or eligible item.
+
+Genuine fresh-HP boss transformations refresh Prime availability. Same-bar state changes do not.
 
 ---
 
@@ -175,7 +178,7 @@ True final PONR = **Last Shelter → Reactor Galleries**. Normal ending ~Lv62.
 | 4 | Regulation Crucible Form I | 18 | **2,400** | 54 | 73 | 51 | 53 | 28 | 0 | 10 |
 | 4 | The Seventh Reaction Form II | 19 | 2,900 | 60 | 80 | 55 | 57 | 30 | 0 | 10 |
 
-Regulation Crucible current minimum body total = **5,300**. Audit130 supersedes only Audit129's old 2,200 Form-I HP. Hold the Junction and Ch3 S018 confrontations are group/formation events; do not create fake singular bodies. Audit129/130 do not invent chamber HP pools.
+Regulation Crucible current minimum body total = **5,300**. Hold the Junction and Ch3 S018 confrontations are group/formation events; do not create fake singular bodies. Audit129/130 do not invent chamber HP pools.
 
 ## Ch5–8 — Audit131
 
@@ -194,9 +197,35 @@ Regulation Crucible current minimum body total = **5,300**. Audit130 supersedes 
 | 8 | Marshal Varkesh | 38 | 7,326 | 140 | 93 | 93 | 85 | 44 | 5 | 10 |
 | 8 | Rift Conqueror | 39 | 8,485 | 151 | 107 | 97 | 91 | 45 | 5 | 10 |
 
-Deepforge Colossus = **7,400 minimum body HP** across Assembly Frame → Worldsmith Body. Do not duplicate obsolete 6,602 HP into each form. Guard Press / Repair Arm / Command Loom remain targetable Form-I functions with no HP pools invented by Audit131. Worldsmith is genuine fresh HP and receives current fresh-form Prime refresh.
+Deepforge Colossus = **7,400 minimum body HP**. Zevraya two-form total = **11,445**. Varkesh two-form total = **15,811**.
 
-Crownstorm Roc is same-bar. Zevraya two-form total = **11,445**; Crimson Brood is same-bar within Form I. Revision Arbiter remains one-bar with existing action-tax mechanics. Western Rift Engine remains same-bar. Varkesh two-form total = **15,811** and receives fresh-form Prime refresh.
+## Ch9–13 — Audit132
+
+| Ch | Body | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 9 | Equal Mercy Arbiter | 40 | 10,025 | 105 | 140 | 89 | 107 | 43 | 0 | 10 |
+| 9 | Commander Rhazek — Reforged Commander | 43 | 8,431 | 163 | 100 | 111 | 96 | 44 | 5 | 10 |
+| 9 | Bastion Devourer | 44 | 10,462 | 175 | 131 | 107 | 104 | 46 | 0 | 10 |
+| 10 | Registry Warden | 49 | 13,514 | 157 | 172 | 124 | 126 | 46 | 0 | 10 |
+| 11 | Othmar Calder — Protector of Continuity | 54 | 10,133 | 137 | 193 | 118 | 134 | 50 | 5 | 10 |
+| 11 | Crown-Bound Living Anchor | 55 | 13,662 | 181 | 204 | 139 | 139 | 47 | 0 | 10 |
+| 11 | The Custodian | 55 | 16,017 | 177 | 190 | 144 | 146 | 48 | 0 | 10 |
+| 12 | Marshal Varkesh — Final Capture | 58 | 17,106 | 226 | 148 | 144 | 131 | 55 | 5 | 10 |
+| 12 | Emperor Vaelkor — Emperor of the Reforged Host | 60 | 13,648 | 223 | 209 | 155 | 150 | 54 | 5 | 10 |
+| 12 | Sovereign Panoply Unbound | 61 | 16,615 | 238 | 224 | 163 | 157 | 55 | 0 | 10 |
+| 13 | Last Weapon Archon | 63 | 18,424 | 236 | 220 | 160 | 160 | 56 | 0 | 15 |
+| 13 | Reconstituted Entity | 63 | 15,074 | 224 | 228 | 158 | 163 | 55 | 5 | 15 |
+| 13 | The Last Command | 64 | 19,367 | 247 | 247 | 168 | 168 | 58 | 5 | 15 |
+
+Key totals:
+- Ch9 Rhazek = **18,893**
+- Ch11 Calder/Crown Engine = **23,795**
+- Ch12 Vaelkor = **30,263**
+- Ch13 final Entity encounter = **34,441**
+
+Equal Mercy Arbiter and Custodian remain mechanic/action-tax one-bar encounters. Registry Warden raw stats are closed but its exact action kit remains a separate recovery/authoring issue. Varkesh Final Capture remains one bar with beacon/capture logic. Last Weapon Archon remains one bar. Do not force monotonic HP across mechanically different encounters.
+
+All genuine fresh-HP transitions use current Prime refresh. Same-bar states do not.
 
 ---
 
@@ -210,10 +239,10 @@ Chapter 4 uses exactly Fire / Ice / Lightning / Earth. Wind and Water are remove
 
 # Current open implementation work
 
-After Audit131, the active progression implementation pass is:
+Mandatory story raw-stat recertification is now **COMPLETE for Chapters 1–13**.
 
-1. **Chapters 9–13 mandatory named-enemy / boss raw-stat recertification.**
+The next balance pass is:
 
-Reindex historical late-game tables through the current 13-chapter structure before applying them. Preserve encounter mechanics and HP-bar/form architecture.
+1. **Optional Elite / Regional Hunt / Major Hunt raw-stat recertification.**
 
-Do **not** reopen class Ability MP, the 6,000-CEXP curve, the eight-point Mastery schedule, Ch12 Class-Level completion, Last Shelter Lv60, ending Lv62, the 195,000 optional EXP pool, Audit125 formation allocation, Audits126–128 reward placement, Audit130's 2,400 Crucible HP correction, or Audit131 Ch5–8 raw stats without explicit later authority or demonstrated failure.
+Recover existing optional raw-stat lines and compare them against current unlock/readiness levels. Preserve current identities and form architecture. Major Hunts remain stronger than player readiness. Do not add Barrier, Brace, global Break/Stagger, natural Accuracy, Synthesis, or other retired systems.
