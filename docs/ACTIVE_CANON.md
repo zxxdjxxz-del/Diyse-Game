@@ -4,10 +4,11 @@ This file is the implementation-facing authority index. It does not replace the 
 
 ## Current whole-project authority
 
-**Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.19 / Audit134 — Regional Hunt Raw-Stat Recertification Lock**  
+**Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.20 / Audit135 — Major Hunt Raw-Stat Recertification Lock**  
 **Date:** August 27, 2026
 
 Newest authority chain:
+- **v2.20 / Audit135** — all 6 Major-Hunt raw stats/recommended levels; Crownless fresh-form split; The Unfinished World full one-bar superboss budget.
 - **v2.19 / Audit134** — all 11 Regional-Hunt raw stats and recommended levels; Throne of Emperor Vaelkor current two-form raw split.
 - **v2.18 / Audit133** — numbered-chapter optional Elite raw stats; 12 current Elites; no current Ch10 optional Elite.
 - **v2.17 / Audit132** — Ch9–13 mandatory named/special raw combat stats; completes mandatory-story raw-stat recertification.
@@ -25,6 +26,7 @@ Newest authority chain:
 - compatible Audit120–Audit113 remain active where not superseded.
 
 Primary newest files:
+- `docs/canon/AUDIT135_MAJOR_HUNT_RAW_STAT_RECERTIFICATION_LOCK.md`
 - `docs/canon/AUDIT134_REGIONAL_HUNT_RAW_STAT_RECERTIFICATION_LOCK.md`
 - `docs/canon/AUDIT133_OPTIONAL_ELITE_RAW_STAT_RECERTIFICATION_LOCK.md`
 - `docs/canon/AUDIT132_CHAPTERS_9_13_MANDATORY_NAMED_RAW_STAT_RECERTIFICATION_LOCK.md`
@@ -198,8 +200,45 @@ Throne of Emperor Vaelkor:
 - no Attendant HP is invented by Audit134;
 - no third form.
 
+---
+
+# Major Hunt raw-stat firewall — Audit135
+
+Major Hunt recommended levels are preparedness targets, not access gates. Fixed authored tuning remains active; there is no dynamic player-level scaling.
+
+| # | Hunt / form | Rec. Lv | HP / architecture |
+|---:|---|---:|---|
+| 1 | Ashen Whitehorn | 22 | **11,270** one bar |
+| 2A | Crownless Siege Marshal | 28 | **9,360** |
+| 2B | Crownless War Engine | 29 | **fresh 11,650**; combined **21,010** |
+| 3 | Concordance Guardian | 35 | **18,180** one bar |
+| 4 | Worldscar Leviathan | 47 | **30,200** one bar |
+| 5 | Final Archive Arbiter | 58 | **43,100** one bar |
+| 6 | The Unfinished World | 70 | **78,000** one continuous superboss bar |
+
+Current EVA/SR:
+- Ashen Whitehorn — EVA10 / SR10
+- Crownless Siege Marshal — EVA5 / SR10
+- Crownless War Engine — EVA0 / SR10
+- Concordance Guardian — EVA5 / SR15
+- Worldscar Leviathan — EVA0 / SR10
+- Final Archive Arbiter — EVA5 / SR15
+- The Unfinished World — EVA0 / SR15
+
+Prime-refresh architecture:
+- Ashen Last Run — same bar, no refresh
+- Crownless Siege Marshal → Crownless War Engine — genuine fresh body, **Prime refreshes**
+- Concordance Six Faces → Open Concordance — same bar, no refresh
+- Prismatic Confluence — same bar, no refresh
+- Final Archive Arbiter state changes — same bar, no refresh
+- The Unfinished World: WORLDFRAME → WORLDHEART EXPOSED → FINAL CONSTRUCTION — same 78,000-HP bar, no refresh
+
+The Unfinished World keeps the four-element matrix only: Earth/Staggered, Ice/Freeze, Lightning/Stun, Fire/Burn. No Water, Wind, or fifth standard element.
+
 Current tier principle:
 > **Ordinary < Elite < mandatory story boss < Regional Hunt < Major Hunt**
+
+Progression-dependent named/boss raw-stat recertification is now closed across mandatory story encounters, optional Elites, Regional Hunts, and Major Hunts.
 
 ---
 
@@ -215,6 +254,14 @@ Chapter 4 uses exactly Fire / Ice / Lightning / Earth. Wind and Water are not re
 
 # Active frontier
 
-## **6 Major Hunt raw-stat recertification**
+## **Kessara Relic-copy service implementation**
 
-Preserve Major-Hunt identities, unlocks, Prime rewards, form architecture, fixed authored tuning, and no dynamic scaling. Major Hunts remain above Regional Hunts in total challenge and mechanic density.
+Preserve the closed copy rule:
+- Relic must already be obtained;
+- one matching copy component is required;
+- maximum one forged duplicate per Relic;
+- maximum quantity = 2;
+- duplicate is mechanically identical;
+- Legacies cannot be copied.
+
+The remaining implementation pass may decide service fee, menu timing, and original-vs-copy UI presentation without reopening the Relic-copy core rule or any closed combat/progression/raw-stat layer.
