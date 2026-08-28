@@ -21,6 +21,7 @@ const EXPECTED := {
 
 func _initialize() -> void:
 	_validate_scene_sidecars()
+	_validate_legacy_environment_ids()
 	_validate_environment_states()
 	_validate_prime_and_crucible_rules()
 	_validate_elemental_runtime()
@@ -49,6 +50,21 @@ func _validate_scene_sidecars() -> void:
 		_expect(presentation.has_tag("HD2D"), "%s must be marked HD2D" % scene_id)
 		for tag in presentation.presentation_tags:
 			_expect("ELITE" not in str(tag).to_upper(), "%s sidecar must not encode Elite placement through tag: %s" % [scene_id, tag])
+
+func _validate_legacy_environment_ids() -> void:
+	var retained_legacy_ids := {
+		"S023": "CH04_SIXFOLD_ANNEX",
+		"S025": "CH04_SIXFOLD_ANNEX",
+		"C08": "CH04_SOUTHHOLD_ROADSIDE",
+		"HUNT_04_CROWN_PROTOTYPE": "CH04_SIXFOLD_ANNEX",
+	}
+	for scene_id in retained_legacy_ids.keys():
+		var presentation = load(PRESENTATION_DIR + scene_id + ".tres")
+		_expect(presentation != null, "%s legacy-environment sidecar must load" % scene_id)
+		if presentation == null:
+			continue
+		_expect(str(presentation.environment_family) == str(retained_legacy_ids[scene_id]), "%s retained legacy environment key changed unexpectedly" % scene_id)
+		_expect(presentation.has_tag("LEGACY_ENVIRONMENT_ID_ONLY"), "%s retained retired-name environment key must be explicitly marked legacy-only" % scene_id)
 
 func _validate_environment_states() -> void:
 	var expected_states := {
