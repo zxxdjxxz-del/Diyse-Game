@@ -6,11 +6,14 @@ This repository is the active implementation line. The older `zxxdjxxz-del/Diyse
 
 ## Current authority
 
-- Whole-project authority: **Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.98 / Audit113** (August 23, 2026).
+- Whole-project authority: **Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.20 / Audit135** (August 27, 2026).
 - Current implementation-facing summary: `docs/ACTIVE_CANON.md`.
+- Current Major-Hunt raw-stat authority: `docs/canon/AUDIT135_MAJOR_HUNT_RAW_STAT_RECERTIFICATION_LOCK.md`.
+- Current Regional-Hunt raw-stat authority: `docs/canon/AUDIT134_REGIONAL_HUNT_RAW_STAT_RECERTIFICATION_LOCK.md`.
+- Current class/progression authority: `docs/canon/AUDIT123_CLASS_MP_CEXP_MASTERY_AND_LATE_GAME_PROGRESSION_LOCK.md` through Audits124–128.
+- Current mandatory/optional named raw-stat chain: Audits129–135.
 - Current late-game chapter reindex: `docs/canon/AUDIT113_POST_INSERTION_CHAPTER_REINDEX_AND_LATE_GAME_OPERATIONAL_FILE_RECONCILIATION_LOCK.md`.
-- Current Chapter-10 story authority: `docs/canon/AUDIT112_CHAPTER_10_THE_LAST_BLANK_MIRENA_EASTERN_WAYFINDER_CALDER_AND_BURIED_REGISTRY_CLOSURE.md`.
-- Current final map / region authority: `docs/canon/AUDIT111_FINAL_WORLD_MAP_REGION_TERMINOLOGY_AND_VISUAL_AUTHORITY_CLOSURE.md`.
+- Current final map / region authority: `docs/canon/AUDIT111_FINAL_WORLD_MAP_REGION_TERMINOLOGY_AND_VISUAL_AUTHORITY_CLOSURE.md` plus compatible later corrections.
 - Current travel / point-of-no-return authority: `docs/canon/AUDIT109_WORLD_MAP_ROAD_TRAVEL_AND_LAST_SHELTER_POINT_OF_NO_RETURN_CLOSURE.md`.
 
 ## Current production baseline
@@ -22,14 +25,37 @@ This repository is the active implementation line. The older `zxxdjxxz-del/Diyse
 - Battle composition: up to four active party members staggered on the left, enemies on the right, open center action/VFX lane.
 - Dialogue is fully authored; no player dialogue choices.
 - Random encounters remain the ordinary hostile-exploration layer where approved.
-- Chapter 0 remains the fixed-authored tutorial exception.
+- Chapter 0 remains the fixed-authored tutorial exception and grants no player levels.
 - Android/APK remains the target.
-- Target full-game runtime: approximately **25 hours**, subject to revalidation after the added Chapter 10.
+- Target full-game runtime: approximately **25 hours**, subject to revalidation as production matures.
 - Player level cap: **70**.
 - Base/Subclass class cap: **CL13**.
 - Permanent commands: **Attack / Ability / Card / Item / Defend**.
 - Exactly **24 Standard Cards** and **12 Prime Cards**.
-- Standard Cards are unlimited-use.
+- Standard Cards are reusable MP-cost commands.
+
+## Current classes / Faces
+
+| Character | Base | Subclass | Face |
+|---|---|---|---|
+| Cyanis | Crest Knight | Crest Arcanist | Might |
+| Ilyra | Blue Warden | Vowblade | Grace |
+| Torren | War Archer | Routeweaver | Acuity |
+| Nimera | Cardweaver | Proofhunter | Change |
+| Vaelira | Green Arcanist | Axiomblade | Elements |
+| Seyrik | Ruin Vanguard | Ruin Warden | Ruin |
+
+Synthesis is removed. No permanent Subclass use occurs before the end-Ch7 **Sixfold Volition**.
+
+## Current progression spine
+
+Class Ability MP certification is closed under Audit123.
+
+- CL13 cumulative CEXP: **6,000**.
+- Exactly 8 automatic Mastery Points: **Lv5 / 10 / 15 / 20 / Sixfold Volition / 40 / 50 / 60**.
+- Normal-route player anchors: Ch1 5 / Ch2 9 / Ch3 13 / Ch4 17 / Ch5 22 / Ch6 27 / Ch7 32 / Ch8 37 / Ch9 42 / Ch10 47 / Ch11 52 / Ch12 57 / Last Shelter 60 / ending 62.
+- Level cap: **70**.
+- Normal full Base + Subclass Class-Level completion occurs during Ch12; final Mastery-board completion lands around Lv60.
 
 ## Current late-game chapter numbering
 
@@ -75,8 +101,10 @@ Use:
 - **The Blackspine**
 - **Westguard**
 - **Vhalmarch**
+- **Vorathen**
+- **The Veiled Citadel**
 
-Do not restore `Blackstone` as the formal region label, `The Crownhold`, `Westreach`, or `Black Mountains` as current names.
+Do not restore `Blackstone` as the formal region label, `The Crownhold`, `Southhold`, `Westreach`, `Yahtrens Stand`, or `Black Mountains` as current names.
 
 ## Current Faces / Story Primes
 
@@ -100,52 +128,78 @@ No Prime had ever been successfully activated before the modern story.
 
 `Resource / Last Measure` is retired current-facing terminology.
 
-## Current chapter authority state
+## Core combat guardrails
 
-Chapters 0–4 remain closed at story/dialogue authority level and retain the completed HD-2D conversion work where compatible with later canon.
-
-Current late-game macro files are chapter-correct after Audit113. Detailed line-complete dialogue for Chapters 10–13 remains separate production work unless explicitly locked in a later scene pass.
-
-See `docs/chapters/README.md` for the current chapter index.
-
-## Core system guardrails
-
-- Engine: Godot 4.x production line / GDScript.
-- Platform: Android, landscape.
-- Combat: discrete round-based command combat.
-- Maximum active party: four.
-- MP is the universal ordinary Ability resource; no character-specific combat gauges.
-- No Ability or Ultimate requires a specific equipped weapon once learned.
-- Maximum eight simultaneously active enemies.
-- Cards remain outside ordinary inventory.
-- Once equipment/Ability access is legally unlocked, it persists under current open-equipment rules.
-- Keep authored content data-driven where practical and never invent mechanics/canon to make implementation easier.
+- Physical direct damage: `Attack² / (Attack + EffectiveDefense) × Power/100`.
+- Magical direct damage: `Magic² / (Magic + EffectiveSpirit) × Power/100`.
+- **Spirit** is magical defense.
+- There is no natural Accuracy stat; actions use **Base Hit** against target **Evasion**.
+- Status Resistance general bands: **0 / 5 / 10 / 15**; explicit immunity remains separate.
+- **Barrier does not exist.**
+- **Brace does not exist.**
+- There is no global Break/Stagger meter; **Staggered** is an ordinary harmful status only.
+- **Guard** remains valid.
+- Genuine fresh-HP boss forms refresh Prime availability; same-bar state changes do not.
 
 ## Equipment / item counts
 
 Current architecture:
 - Consumables: **20**
-- Ordinary Equipment: **48**
-- Relics: **64**
-- Legacies: **6**
-- Total Equipment: **118**
+- Ordinary Equipment: **38**
+- Relics: **36**
+- Legacies: **17**
+- Total Equipment: **91**
 - Standard Cards: **24**
 - Prime Cards: **12**
 - General Accessories: **0**
 
-Final raw equipment stats and late-game progression tuning remain for the dedicated item/progression pass.
+Current hierarchy:
+
+> **Ordinary < Relic < Legacy**
+
+## Optional challenge raw-stat closure
+
+Progression-dependent raw-stat recertification is closed through Audit135.
+
+- 12 current numbered-chapter optional Elites; no approved Ch10 Elite.
+- 11 Regional Hunts closed under Audit134.
+- 6 Major Hunts closed under Audit135.
+- Fixed authored tuning; no dynamic Hunt scaling.
+- Recommended Hunt level is a preparedness target, not an access gate.
+
+Current tier principle:
+
+> **Ordinary < Elite < mandatory story boss < Regional Hunt < Major Hunt**
+
+The Unfinished World remains the Lv70 apex Major Hunt at **78,000 HP** on one continuous WORLDFRAME → WORLDHEART EXPOSED → FINAL CONSTRUCTION bar.
+
+## Current implementation frontier
+
+Current next concrete content/implementation frontier:
+
+**Kessara Relic-copy service implementation.**
+
+Closed core rule:
+- Relic must already be obtained;
+- one matching copy component is required;
+- maximum one forged duplicate per Relic;
+- maximum quantity = 2;
+- copy is mechanically identical;
+- Legacies cannot be copied.
+
+Remaining design/implementation work may decide service fee, menu timing, and original-vs-copy UI presentation.
 
 ## Production workflow
 
 Before implementation:
 
 1. read `docs/ACTIVE_CANON.md`;
-2. read the relevant current chapter source under `docs/chapters/`;
-3. read the latest controlling canon audit for that subject;
-4. preserve approved wording/story/gameplay and exact map authority;
-5. do not use historical chapter numbers or retired regional names as current-facing authority;
-6. run the relevant content/regression gates.
+2. read `docs/IMPLEMENTATION_STATUS.md`;
+3. read `AGENTS.md` and `docs/AI_ENGINEERING_RULES.md`;
+4. read the relevant current chapter source under `docs/chapters/`;
+5. read the latest controlling canon audit for that subject;
+6. preserve approved wording/story/gameplay and exact map authority;
+7. do not use historical chapter numbers, retired systems, or retired regional names as current-facing authority;
+8. run the relevant content/regression gates.
 
 Historical audits remain useful provenance, but later explicit overlays and current operational files control implementation.
-
-Read `AGENTS.md`, `docs/ACTIVE_CANON.md`, `docs/IMPLEMENTATION_STATUS.md`, `docs/PRESENTATION_RULES.md`, `docs/chapters/README.md`, `docs/chapters/dialogue/README.md`, and the relevant subsystem rules before implementation.
