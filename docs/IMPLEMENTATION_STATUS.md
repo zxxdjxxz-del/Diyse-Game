@@ -1,6 +1,6 @@
 # Diyse — Current Implementation Status
 
-**Written authority checkpoint:** **v2.18 / Audit133**  
+**Written authority checkpoint:** **v2.19 / Audit134**  
 **Presentation target:** HD-2D  
 **Active repository:** `zxxdjxxz-del/Diyse-Game`
 
@@ -9,6 +9,7 @@
 - Chapters 0–4 remain COMPLETE/CLOSED at story/dialogue authority level.
 - Chapter 4 four-element S022–S026 script/dialogue-runtime synchronization is complete.
 - Shared HD-2D runtime foundation remains implemented.
+- **Audit134** closes all 11 Regional-Hunt recommended levels and raw body stats; Throne of Emperor Vaelkor is recertified as Sealed Throne → fresh Walking Throne, total 26,000 body HP.
 - **Audit133** closes numbered-chapter optional Elite raw stats: 12 current Elites, no approved Ch10 optional Elite.
 - **Audit132** closes Chapters 9–13 mandatory named/special raw combat stats and completes the mandatory-story raw-stat layer for all 13 chapters.
 - **Audit131** closes Chapters 5–8 mandatory named/special raw combat stats.
@@ -42,14 +43,9 @@ Base Hit / Evasion:
 
 Status Resistance = 0 Normal / 5 Resistant / 10 Highly Resistant / 15 Exceptional; immunity explicit only. There is no natural Accuracy stat.
 
-Removed systems:
-- Barrier does not exist.
-- Brace does not exist.
-- no global Break/Stagger meter.
-- Staggered is an ordinary harmful status.
-- Guard remains valid.
+Barrier and Brace do not exist. There is no global Break/Stagger meter. Staggered is an ordinary harmful status. Guard remains valid.
 
-Bleed damages each round and again whenever the affected character acts; it clears only on full-HP restoration, eligible harmful-status clear, or eligible item.
+Bleed damages each round and whenever the affected character acts; it clears only on full-HP restoration, eligible harmful-status clear, or eligible item.
 
 Genuine fresh-HP boss forms refresh Prime availability. Same-bar changes do not.
 
@@ -71,21 +67,12 @@ Base/Subclass cap = CL13. No permanent Subclass use before Sixfold Volition at e
 CL13 = **6,000 cumulative CEXP**. Exactly 8 automatic Mastery Points: Lv5, Lv10, Lv15, Lv20, Sixfold Volition, Lv40, Lv50, Lv60.
 
 Player-level anchors:
-- Ch1 Lv5
-- Ch2 Lv9
-- Ch3 Lv13
-- Ch4 Lv17
-- Ch5 Lv22
-- Ch6 Lv27
-- Ch7 Lv32
-- Ch8 Lv37
-- Ch9 Lv42
-- Ch10 Lv47
-- Ch11 Lv52
-- Ch12 Lv57
-- **Last Shelter Lv60**
-- **normal ending Lv62**
-- cap Lv70
+- Ch1 5 / Ch2 9 / Ch3 13 / Ch4 17
+- Ch5 22 / Ch6 27 / Ch7 32 / Ch8 37
+- Ch9 42 / Ch10 47 / Ch11 52 / Ch12 57
+- **Last Shelter 60**
+- **normal ending 62**
+- cap 70
 
 Normal full Base + Subclass Class-Level completion occurs during Ch12, with Seyrik around end Ch12.
 
@@ -99,13 +86,7 @@ Expected ordinary encounter center = **225 total**, planning centers not quotas.
 
 Exact mandatory named/story placement is CLOSED for all chapters under Audits126–128.
 
-Implementation firewall:
-- optional Elites/Hunts/quests do not consume mandatory chapter pools;
-- same-bar changes pay once;
-- fresh-HP multi-form bosses pay one combined package after final form;
-- authored nonlethal clears can receive full progression;
-- fixed authored packages are exempt from ordinary lower-level enemy EXP diminishing returns;
-- no separate CEXP diminishing-return system.
+Optional Elites/Hunts/quests do not consume mandatory chapter pools. Same-bar changes pay once. Fresh-HP multi-form bosses pay one combined package after final form. Fixed authored packages are exempt from ordinary lower-level enemy EXP diminishing returns. No separate CEXP diminishing-return system.
 
 Ch13 true PONR = **Last Shelter → Reactor Galleries**. Final boss = exactly Reconstituted Entity → The Last Command, two genuine full-HP forms, no third form.
 
@@ -113,29 +94,27 @@ Ch13 true PONR = **Last Shelter → Reactor Galleries**. Final boss = exactly Re
 
 # Current raw-stat state
 
-Mandatory named/special raw body stats are CLOSED for all chapters:
-- Ch1–4 — Audit129 + Audit130
-- Ch5–8 — Audit131
-- Ch9–13 — Audit132
-
-Current key endurance totals:
-- Ch4 Crucible → Seventh Reaction = 5,300
-- Ch5 Deepforge = 7,400
-- Ch6 Zevraya = 11,445
-- Ch8 Varkesh = 15,811
-- Ch9 Rhazek = 18,893
-- Ch11 Calder/Crown Engine = 23,795
-- Ch12 Vaelkor = 30,263
-- Ch13 final Entity = 34,441
+Mandatory named/special raw body stats are CLOSED for all chapters under Audits129–132.
 
 Optional Elite raw stats are CLOSED under Audit133:
-- **12 current numbered-chapter optional Elites**
-- **no approved Ch10 optional Elite**
-- recovered HP/ATK/MAG/DEF/Spirit/SPD retained
-- current Evasion/Status Resistance added
-- typical duration ~2–4 serious party rounds
-- tier principle = **Ordinary < Elite << Regional Hunt**
-- old 60%/80% per-status tables are not restored as a second generic resistance system.
+- 12 current numbered-chapter Elites;
+- no approved Ch10 Elite;
+- typical duration ~2–4 serious party rounds.
+
+Regional Hunt raw stats are CLOSED under Audit134:
+- recommended levels = **7 / 11 / 15 / 20 / 26 / 32 / 38 / 44 / 50 / 56 / 61**;
+- recommendations are preparedness targets, not access gates;
+- Hunts #1–10 retain recovered raw lines;
+- Hunt #11 Throne of Emperor Vaelkor:
+  - Sealed Throne — Lv61, **11,800 HP**, 228 ATK / 234 MAG / 172 DEF / 168 Spirit / 50 SPD / EVA0 / SR10;
+  - Walking Throne — Lv62, **14,200 HP**, 240 ATK / 221 MAG / 166 DEF / 159 Spirit / 58 SPD / EVA0 / SR10;
+  - total body HP **26,000**;
+  - genuine fresh-form Prime refresh;
+  - no Attendant HP pools invented;
+  - no third form.
+
+Current challenge hierarchy:
+> **Ordinary < Elite < mandatory story boss < Regional Hunt < Major Hunt**
 
 ---
 
@@ -154,7 +133,6 @@ Optional Elite raw stats are CLOSED under Audit133:
 
 # Active implementation frontier
 
-1. **11 Regional Hunt raw-stat recertification**
-2. **6 Major Hunt raw-stat recertification**
+## **6 Major Hunt raw-stat recertification**
 
-Preserve current Hunt identities, unlocks, form architecture and fixed authored tuning. Do not add dynamic scaling or retired systems.
+Preserve current Major-Hunt identities, unlocks, Prime rewards, form architecture and fixed authored tuning. Major Hunts remain above Regional Hunts in total challenge and mechanic density. Do not add dynamic scaling or retired systems.
