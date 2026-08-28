@@ -1,6 +1,6 @@
 # Diyse — Current Implementation Status
 
-**Written authority checkpoint:** **v2.14 / Audit129**  
+**Written authority checkpoint:** **v2.16 / Audit131**  
 **Presentation target:** HD-2D  
 **Active repository:** `zxxdjxxz-del/Diyse-Game`
 
@@ -9,7 +9,9 @@
 - Chapters 0–4 remain COMPLETE/CLOSED at story/dialogue authority level.
 - Chapter 4 four-element S022–S026 script/dialogue-runtime synchronization is complete.
 - Shared HD-2D runtime foundation remains implemented.
-- **Audit129** closes Chapters 1–4 mandatory named/special raw combat stats.
+- **Audit131** closes Chapters 5–8 mandatory named/special raw combat stats.
+- **Audit130** corrects Regulation Crucible Form-I HP to 2,400.
+- **Audit129** closes compatible Chapters 1–4 mandatory named/special raw combat stats.
 - **Audit128** closes exact mandatory named/story player-EXP + CEXP placement for Chapters 9–13 and completes all 13 chapters.
 - **Audit127** closes exact mandatory named/story placement for Chapters 5–8.
 - **Audit126** closes exact mandatory named/story placement for Chapters 1–4.
@@ -38,7 +40,7 @@ Base Hit / Evasion:
 
 > `FinalHitChance = clamp(AdjustedBaseHit - EffectiveEvasion, 5, 100)`
 
-Status Resistance bands = 0 Normal / 5 Resistant / 10 Highly Resistant / 15 Exceptional; immunity explicit only.
+Status Resistance bands = 0 Normal / 5 Resistant / 10 Highly Resistant / 15 Exceptional; immunity explicit only. There is no natural Accuracy stat.
 
 Removed systems:
 - Barrier does not exist.
@@ -46,7 +48,6 @@ Removed systems:
 - no global Break/Stagger meter.
 - Staggered is an ordinary harmful status only.
 - Guard remains valid.
-- there is no natural Accuracy stat.
 
 Bleed damages each round and again when the affected character acts; it clears only on full-HP restoration, eligible harmful-status clear, or eligible item.
 
@@ -84,6 +85,8 @@ Player-level anchors:
 - **normal ending Lv62**
 - cap Lv70
 
+Normal full Base + Subclass Class-Level completion occurs during Ch12, with Seyrik around end Ch12.
+
 ---
 
 # Reward/progression implementation
@@ -109,9 +112,9 @@ Ch13 true PONR = **Last Shelter → Reactor Galleries**. Final boss = exactly Re
 
 ---
 
-# Audit129 implementation target — Chapters 1–4 raw stats
+# Current mandatory raw-stat targets
 
-Early main-boss target = **6–9 effective combat rounds for the complete encounter**.
+## Chapters 1–4 — Audit129 + Audit130
 
 | Ch | Mandatory body | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -122,16 +125,31 @@ Early main-boss target = **6–9 effective combat rounds for the complete encoun
 | 3 | First Command Warden | 14 | 3,723 | 57 | 57 | 43 | 43 | 29 | 0 | 10 |
 | 4 | Elder Briarhide | 14 | 2,100 | 64 | 28 | 44 | 39 | 36 | 10 | 5 |
 | 4 | Reaction Conduit | 17 | 3,100 | 50 | 72 | 47 | 52 | 32 | 5 | 5 |
-| 4 | Regulation Crucible Form I | 18 | 2,200 | 54 | 73 | 51 | 53 | 28 | 0 | 10 |
+| 4 | Regulation Crucible Form I | 18 | **2,400** | 54 | 73 | 51 | 53 | 28 | 0 | 10 |
 | 4 | The Seventh Reaction Form II | 19 | 2,900 | 60 | 80 | 55 | 57 | 30 | 0 | 10 |
 
-Implementation notes:
-- Hollow Watch Castellan, Archive Leviathan, Rhazek, and First Command Warden retain their historical HP/offense/defense values.
-- Hold the Junction and Ch3 S018 lawful-authority confrontations are group/formation events; do not implement fake singular boss bodies.
-- Current Ch4 climax minimum body HP = **5,100**, split 2,200 Form I + fresh 2,900 Form II.
-- Do not duplicate obsolete 4,901 HP across both current forms.
-- Audit129 does not invent chamber subtarget HP.
-- Elder Briarhide's Recovered Last Sentinel hit remains scripted nonlethal.
+Current Ch4 climax body total = **5,300**. Audit130 supersedes Audit129's old 2,200 Form-I HP. No chamber HP pools are invented.
+
+## Chapters 5–8 — Audit131
+
+| Ch | Mandatory body | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 5 | Furnace Tyrant | 23 | 3,801 | 87 | 51 | 61 | 50 | 30 | 0 | 5 |
+| 5 | Deepforge Colossus — Assembly Frame | 24 | **3,400** | 93 | 51 | 70 | 55 | 26 | 0 | 10 |
+| 5 | Deepforge Colossus — Worldsmith Body | 25 | **4,000** | 101 | 62 | 73 | 60 | 29 | 0 | 10 |
+| 6 | Crownstorm Roc | 26 | 5,921 | 88 | 95 | 55 | 61 | 41 | 10 | 10 |
+| 6 | Masked Ruin Vanguard — Seyrik | 27 | 5,302 | 104 | 79 | 63 | 59 | 38 | 5 | 10 |
+| 6 | Blood Matron | 28 | 5,283 | 74 | 104 | 65 | 74 | 38 | 5 | 10 |
+| 6 | Perfected War Mother | 29 | 6,162 | 90 | 113 | 69 | 77 | 39 | 5 | 10 |
+| 7 | Chainworks Behemoth | 29 | 5,135 | 109 | 57 | 77 | 59 | 32 | 0 | 5 |
+| 7 | Warden of the Nameless / Revision Arbiter | 34 | 8,913 | 112 | 120 | 84 | 89 | 40 | 5 | 10 |
+| 8 | Western Rift Engine | 36 | 9,775 | 86 | 133 | 97 | 89 | 33 | 0 | 10 |
+| 8 | Marshal Varkesh | 38 | 7,326 | 140 | 93 | 93 | 85 | 44 | 5 | 10 |
+| 8 | Rift Conqueror | 39 | 8,485 | 151 | 107 | 97 | 91 | 45 | 5 | 10 |
+
+Deepforge Colossus minimum body HP = **7,400** across Assembly Frame → Worldsmith Body. The obsolete 6,602-HP one-body line is not duplicated. Form-I Guard Press / Repair Arm / Command Loom remain functional targets; their HP pools are not set by Audit131. Worldsmith is genuine fresh HP/MP and follows current fresh-form Prime refresh.
+
+Crownstorm Roc remains one bar. Zevraya remains two genuine forms totaling **11,445 HP** with Crimson Brood same-bar inside Form I. Revision Arbiter remains one bar with its existing action-tax mechanics. Western Rift Engine remains same-bar. Varkesh → Rift Conqueror remains genuine fresh-form total **15,811 HP**.
 
 ---
 
@@ -148,8 +166,8 @@ Implementation notes:
 
 # Active implementation frontier
 
-## Chapters 5–8 mandatory named-enemy / boss raw-stat recertification
+## Chapters 9–13 mandatory named-enemy / boss raw-stat recertification
 
-Recover existing HP / ATK / MAG / DEF / Spirit / SPD / Evasion / Status Resistance for mandatory named combat in Chapters 5–8 and compare against the final player-level and boss-duration bands.
+Recover the historical late-game raw-stat spine, reindex it through the current 13-chapter structure, and compare it against the final Lv42 / 47 / 52 / 57 / Last Shelter 60 / ending 62 progression anchors.
 
 Preserve encounter mechanics, HP-bar/form architecture, fresh-form behavior, current formulas, statuses and elements. Do not reintroduce Barrier, Brace, global Break/Stagger, natural Accuracy, Synthesis or other retired systems.
