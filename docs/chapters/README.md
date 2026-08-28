@@ -1,161 +1,185 @@
 # Diyse — Chapter Authority Index
 
-**Current whole-project authority:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.98 / Audit113** (August 23, 2026).
+**Current whole-project authority:** **v2.20 / Audit135** — August 27, 2026.  
+**Presentation target:** HD-2D.
 
-This directory is the repository-facing implementation/recovery index for chapter authority. Current chapter numbers must follow Audit113; historical pre-insertion chapter numbers are provenance only.
+This directory is the repository-facing chapter authority index. Current chapter numbers, current scene IDs, and later canon overlays control implementation. Historical pre-insertion chapter numbers remain provenance only.
 
-Current late-game scene-number correction:
-`docs/canon/POST_INSERTION_SCENE_ID_REINDEX_CORRECTION_2026-08-23.md`
+---
 
-## Current mandatory chapter spine
+## Current chapter spine
 
-| Chapter | Current identity / title | Repository authority state |
+| Chapter | Current identity / title | Authority state |
 |---|---|---|
-| 0 | The Broken Convoy | CLOSED / early-game exact authority |
-| 1 | Brackenwall and the Wayfinder | CLOSED / line-complete repo source |
-| 2 | The Drowned Oath | CLOSED / line-complete repo source |
-| 3 | The Old City and Last Sentinel | CLOSED / line-complete corrected repo source |
-| 4 | The Seventh Reaction | CLOSED / exact production source |
-| 5 | inherited current Chapter 5 | detailed production frontier remains separate |
-| 6 | inherited current Chapter 6 | macro/story authority inherited |
-| 7 | The Prison of Names | first full-six chapter; Sixfold Volition at end/Cresthaven return |
-| 8 | current Westguard/Varkesh-era predecessor chapter material | inherited current authority |
+| 0 | The Broken Convoy | CLOSED / exact early-game authority |
+| 1 | Brackenwall and the Wayfinder | CLOSED / line-complete source |
+| 2 | The Drowned Oath | CLOSED / line-complete source |
+| 3 | The Old City and Last Sentinel | CLOSED / line-complete corrected source |
+| 4 | The Seventh Reaction | CLOSED / four-element exact production authority |
+| 5 | current Chapter 5 | inherited current authority |
+| 6 | current Chapter 6 | inherited current authority; Seyrik recruited by end |
+| 7 | The Prison of Names | Sixfold Volition at end; first full-six chapter |
+| 8 | current Westguard / Varkesh-era material | inherited current authority |
 | 9 | Larkspire / Crownfall / Rhazek | inherited current authority |
-| 10 | **The Last Blank** | Audit112 story architecture locked; ~55–65 min target |
-| 11 | **Crown Engine / Calder / Custodian / Truth** | current macro authority; detailed scene production pending |
-| 12 | **The Reforged March** | final Black Host campaign; Vhalmarch Forward Hub; Vaelkor; cleanup |
+| 10 | **The Last Blank** | Audit112 story architecture locked |
+| 11 | **Crown Engine / Calder / Custodian / Truth** | current macro authority |
+| 12 | **The Reforged March** | final Black Host campaign / Vhalmarch / Vaelkor / cleanup |
 | 13 | **The Last Command** | final Ancient domain / Entity / Final Severance / ending |
+
+---
 
 ## Post-insertion reindex — hard rule
 
-Chapter 10 — The Last Blank was inserted after Chapter 9.
+Chapter 10 — **The Last Blank** was inserted after Chapter 9.
 
 Therefore:
-- former Chapter 10 → **current Chapter 11**;
-- former Chapter 11 → **current Chapter 12**;
-- former Chapter 12 → **current Chapter 13**.
-
-Do not implement old late-game chapter numbers merely because an historical audit filename still contains them.
+- old Ch10 → current **Ch11**;
+- old Ch11 → current **Ch12**;
+- old Ch12 → current **Ch13**.
 
 Controlling reconciliation:
 `docs/canon/AUDIT113_POST_INSERTION_CHAPTER_REINDEX_AND_LATE_GAME_OPERATIONAL_FILE_RECONCILIATION_LOCK.md`
 
-## Post-insertion mandatory scene-ID firewall
+Current late-game scene ranges:
+- Ch9 — S047–S050
+- Ch10 — S051–S061
+- Ch11 — S062–S065
+- Ch12 — S066–S069
+- Ch13 — S070–S073
 
-Chapter 9 ends at **S050**. Audit112 inserts eleven new mandatory-story scenes in Chapter 10, so the former post-S050 late-game scene skeleton shifts forward by **+11**.
+The three mandatory late-Ch12 **reciprocal-pair resolution beats** do not yet have standalone S### IDs. **Synthesis is removed** and must not be used as their current system/gating label.
 
-Current late-game ranges:
-- **Chapter 9:** S047–S050
-- **Chapter 10 — The Last Blank:** **S051–S061**
-- **Chapter 11 — Crown Engine / Calder / Custodian / Truth:** **S062–S065**
-- **Chapter 12 — The Reforged March:** **S066–S069**
-- **Chapter 13 — The Last Command:** **S070–S073**
+---
 
-Current retained downstream scene mapping:
-- S062 — The Living Anchor
-- S063 — The Custodian
-- S064 — The Truth Beneath the Empire
-- S065 — First Reckoning
-- S066 — Into the Imperial Heartland
-- S067 — The March That Refuses Empire Logic
-- S068 — Varkesh Taken Alive
-- S069 — Emperor Vaelkor Draeven
-- S070 — The Deepest City
-- S071 — The Reconstituted Entity
-- S072 — No One Is Last Command
-- S073 — Last Command
+## Current operational sources
 
-Historical old post-S050 scene numbers are provenance only. Do not reuse S051–S061 for former Chapter-10/11/12 material because those IDs now belong to The Last Blank.
+- Ch10 — `chapter_10/CHAPTER_10_THE_LAST_BLANK_STORY_STRUCTURE_LOCK.md`
+- Ch11 — `chapter_11/CHAPTER_11_CURRENT_SCOPE.md`
+- Ch12 — `chapter_12/CHAPTER_12_REFORGED_MARCH_FORWARD_HUB_AND_CLEANUP_LOCK.md`
+- Ch13 — `chapter_13/CHAPTER_13_MACRO_STORY_STRUCTURE_LOCK.md`
 
-The three mandatory late-Chapter-12 Synthesis-resolution beats do not yet have standalone S### IDs and are not silently assigned new ones by the reindex.
+Current Ch11 is Crown Engine / Calder / Custodian / Truth. It does not contain the Forward Hub/Vaelkor campaign.
 
-## Current late-game operational sources
+Current Ch12 is the final Black Host campaign. **Vhalmarch** is the Forward Hub after Varkesh defeat/capture.
 
-### Chapter 10
-`chapter_10/CHAPTER_10_THE_LAST_BLANK_STORY_STRUCTURE_LOCK.md`
+Current Ch13 is the final Ancient-domain operation.
 
-Full story authority:
-`docs/canon/AUDIT112_CHAPTER_10_THE_LAST_BLANK_MIRENA_EASTERN_WAYFINDER_CALDER_AND_BURIED_REGISTRY_CLOSURE.md`
+---
 
-### Chapter 11
-`chapter_11/CHAPTER_11_CURRENT_SCOPE.md`
+## Point of no return
 
-Current Chapter 11 is **Crown Engine / Calder / Custodian / Truth**. It does **not** contain the Forward Hub/Vaelkor campaign.
+Starting Chapter 13 is not the irreversible lock.
 
-### Chapter 12
-`chapter_12/CHAPTER_12_REFORGED_MARCH_FORWARD_HUB_AND_CLEANUP_LOCK.md`
+> **Last Shelter → Reactor Galleries = true point of no return.**
 
-`chapter_12/ACCEPTANCE_LOG.md`
+The player may enter Chapter 13 and advance through Last Weapon Archive / Last Weapon Archon / Last Shelter while retaining supported return to eligible world content.
 
-Current Chapter 12 is the final Black Host campaign formerly labeled Chapter 11. **Vhalmarch** is the Forward Hub after Varkesh defeat/capture.
+---
 
-### Chapter 13
-`chapter_13/CHAPTER_13_MACRO_STORY_STRUCTURE_LOCK.md`
+## Current terminology
 
-`chapter_13/ACCEPTANCE_LOG.md`
+Use current-facing:
+- Yahtrenhold
+- Black Host Territory
+- The Blackspine
+- Westguard
+- Vhalmarch
+- Vorathen
+- The Veiled Citadel
+- Acuity / Last Cartographer
 
-Current Chapter 13 is the former Chapter-12 final Ancient-domain operation.
+Do not restore current-facing:
+- Southhold / The Crownhold
+- Blackstone
+- Black Mountains
+- Westreach / Yahtrens Stand
+- Resource / Last Measure
 
-## Current point of no return
+---
 
-Starting Chapter 13 is deliberate but is **not** the irreversible lock.
+## Current progression overlay
 
-Audit109 controls:
+Audits123–128 close:
+- class Ability MP certification;
+- CL13 CEXP curve;
+- exact 8-point Mastery schedule;
+- player-level spine;
+- mandatory formation EXP/CEXP allocation;
+- exact mandatory named/story EXP+CEXP placement.
 
-**Last Shelter → Reactor Galleries = true point of no return.**
+Normal-route anchors:
+- Ch1 5
+- Ch2 9
+- Ch3 13
+- Ch4 17
+- Ch5 22
+- Ch6 27
+- Ch7 32
+- Ch8 37
+- Ch9 42
+- Ch10 47
+- Ch11 52
+- Ch12 57
+- Last Shelter 60
+- End Ch13 62
+- cap 70
 
-The player may enter Chapter 13 and advance through the Last Weapon Archive / Last Weapon Archon / Last Shelter while retaining supported return to eligible world content.
+Audits129–135 close progression-dependent raw-stat recertification for:
+- mandatory named/special encounters;
+- 12 numbered-chapter optional Elites;
+- 11 Regional Hunts;
+- 6 Major Hunts.
 
-Any older chapter file saying `Chapter 12 launch` or `Chapter 13 launch` is itself the true PONR is stale.
+Fixed authored Hunt tuning remains active; no dynamic scaling.
 
-## Current late-game terminology
+---
 
-Use:
-- **Yahtrenhold**, not The Crownhold / Southhold;
-- **Black Host Territory**, not Blackstone as region name;
-- **The Blackspine**, not Black Mountains;
-- **Westguard**, not Westreach / Yahtrens Stand;
-- **Vhalmarch** = Chapter-12 Forward Hub;
-- **Acuity / Last Cartographer**, not Resource / Last Measure.
+## Chapters 0–4 closure
 
-## Closure state — Chapters 0–4
-
-| Chapter | Closed scene set | Repository state |
+| Chapter | Closed set | Repository state |
 |---|---|---|
-| 0 | S001–S006 + C01/C02 | Exact dialogue Resources merged/validated; later canon overlays control incompatible historical terminology. |
-| 1 | S007–S011 + C03–C05 | Line-complete source + production Resources; source parity/continuity validated. |
-| 2 | S012–S016 + C06/C07 | Line-complete source + production Resources; source parity/continuity validated. |
-| 3 | S017–S021 + H01–H04 | Line-complete corrected source + production Resources; continuity/Cresthaven validation passed. |
-| 4 | S022–S026 + C08/C09/H05 + Crown Prototype | Exact production dialogue source closed; runtime/static validation present where implemented. |
+| 0 | S001–S006 + C01/C02 | Exact dialogue Resources merged/validated. |
+| 1 | S007–S011 + C03–C05 | Line-complete source + validated Resources. |
+| 2 | S012–S016 + C06/C07 | Line-complete source + validated Resources. |
+| 3 | S017–S021 + H01–H04 | Line-complete corrected source + continuity validation. |
+| 4 | S022–S026 + C08/C09/H05 + Crown Prototype | Exact source closed; current four-element overlay controls stale terminology. |
 
 There is no Chapters 0–4 story/dialogue authoring backlog.
 
-## Exact dialogue source
+Chapter 4 current-facing rules:
+- exactly Fire / Ice / Lightning / Earth;
+- Reaction Annex, not Sixfold Annex;
+- Reaction Conduit, not Elemental Hexarch;
+- Regulation Crucible → fresh **The Seventh Reaction**;
+- exactly four chambers with two active/targetable at once;
+- no Wind/Water regulation states;
+- no Barrier;
+- no third form.
 
-Use `dialogue/README.md` as the scene-level source index.
+Use `dialogue/README.md` as the line-complete scene-source index.
 
-Chapters 1–4 have exact scene-level Markdown under `docs/chapters/dialogue/`. Chapter lock/index documents are implementation guardrails and should not reconstruct exact wording when line-complete source exists.
+---
 
-## HD-2D conversion closure
+## HD-2D closure
 
-Completed Chapters 0–4 passed HD-2D Conversion Audit Pass 1 plus cross-chapter consistency/cost consolidation.
+Completed Chapters 0–4 passed HD-2D Conversion Audit Pass 1 and cross-chapter consistency/cost consolidation.
 
 Controlling production record:
 `docs/production/HD2D_CHAPTERS_00_04_CONVERSION_AUDIT_PASS_1.md`
 
-Current presentation consequences remain:
-- HD-2D is the sole active presentation target;
-- field characters ~80 px;
-- battle characters ~200–220 px;
-- large high-resolution dialogue portraits;
-- four active party members left / enemies right / open center action lane;
+Current consequences:
+- HD-2D only;
+- ~80 px field characters;
+- ~200–220 px battle characters;
+- large dialogue portraits;
+- four active party members left / enemies right / open center lane;
 - layered authored environments and restrained cameras;
 - random encounters begin as normal campaign grammar from Chapter 1.
 
+---
+
 ## Implementation boundary
 
-A bounded implementation correction may update stable IDs, Resource metadata, internal labels, cue support, triggers, maps, presentation assets, battle-background consumers, or other runtime plumbing without reopening approved wording, scene purpose, relationships, geography, knowledge firewalls, party-state changes, or outcomes.
+Bounded implementation corrections may update stable IDs, Resource metadata, internal labels, cues, triggers, maps, presentation assets, battle-background consumers, or other runtime plumbing without reopening approved dialogue, scene purpose, relationships, geography, knowledge state, roster changes, or outcomes.
 
-Historical audit version numbers and old acceptance IDs remain useful provenance, but **current chapter folders, current chapter numbers, and current scene IDs control implementation**.
-
-For late-game work, never use the pre-insertion `chapter_11 = Forward Hub/Vaelkor`, `chapter_12 = final domain`, or pre-insertion post-S050 scene-number arrangement as current authority.
+Historical audits remain useful provenance, but current chapter folders, current scene IDs, and later canon overlays control implementation.
