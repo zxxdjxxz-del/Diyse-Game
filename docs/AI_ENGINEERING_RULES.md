@@ -5,7 +5,7 @@
 ## Authority order for implementation work
 
 1. New explicit user instruction for the current task.
-2. **Diyse: HD-2D JRPG Clean Active Complete Master Canon v1.98 / Audit113** and any later explicit authority.
+2. **Diyse: HD-2D JRPG Clean Active Complete Master Canon v2.20 / Audit135** and any later explicit authority.
 3. `docs/ACTIVE_CANON.md`.
 4. The relevant current chapter operational file under `docs/chapters/`.
 5. The latest controlling canon audit/overlay for the subsystem.
@@ -47,8 +47,9 @@ Current operational files:
 - Chapters 0–4 remain COMPLETE/CLOSED at story/dialogue authority level.
 - Chapters 0–4 HD-2D Conversion Audit Pass 1 remains COMPLETE / APPROVED.
 - Cross-chapter HD-2D consistency/cost consolidation remains PASS / GREEN.
-- Current late-game macro story structure is chapter-correct through Audit113.
+- Current late-game macro story structure is chapter-correct through Audit113 and later overlays.
 - Detailed scene production for Chapters 10–13 remains separate work unless a later scene pass explicitly locks it.
+- Current class MP, CEXP, Mastery, player-level progression, mandatory EXP/CEXP allocation, named/story EXP+CEXP placement, and progression-dependent mandatory/Elite/Regional-Hunt/Major-Hunt raw-stat recertification are all closed under Audits123–135.
 - Do not assume Chapter 5 is the universal “next task”; follow the user's current requested workstream.
 
 ## HD-2D authority
@@ -124,6 +125,14 @@ Never invent permanent mechanics, dialogue, lore, characters, relationships, Car
 - No Prime had ever been successfully activated before the modern story.
 - Sixfold event = **The Sixfold Volition**, not Sixfold Accord.
 - No permanent character uses a Subclass before the Volition.
+- **Synthesis is removed.**
+- Class Ability MP certification is closed under Audit123.
+- CL13 cumulative CEXP = **6,000**.
+- Exactly 8 automatic Mastery Points: Lv5 / 10 / 15 / 20 / Sixfold Volition / 40 / 50 / 60.
+- Normal route reaches approximately Ch12 Lv57 / Last Shelter Lv60 / ending Lv62.
+- Status Resistance uses 0 / 5 / 10 / 15 general bands; explicit immunity remains separate.
+- Barrier and Brace do not exist. No global Break/Stagger meter exists. Guard remains valid; Staggered is an ordinary harmful status.
+- Hunt tuning is fixed authored tuning; recommended level is a preparedness target, not an access gate.
 
 ## Proven-architecture protection
 
@@ -176,8 +185,14 @@ Before implementing a boss transition, classify it as:
 
 Do not add extra forms, health bars, adds, threshold systems, or bespoke meters that canon does not require.
 
-Current late-game hard examples:
+Current hard examples:
 - Registry Warden: one HP bar, no adds, no transformation.
+- Regulation Crucible → The Seventh Reaction: genuine fresh form; no third form.
+- Crownless Siege Marshal → Crownless War Engine: genuine fresh form; Prime refreshes at War Engine.
+- Concordance Guardian: Six Faces → Open Concordance on one continuous HP bar.
+- Worldscar Leviathan: Prismatic Confluence on one continuous HP bar.
+- Final Archive Arbiter: one continuous HP bar.
+- The Unfinished World: WORLDFRAME → WORLDHEART EXPOSED → FINAL CONSTRUCTION on one continuous **78,000 HP** bar.
 - Vaelkor: two genuine forms.
 - Last Weapon Archon: one HP bar.
 - Reconstituted Entity → The Last Command: exactly two genuine full-health final-boss forms, no third form.
@@ -194,31 +209,74 @@ For completed Chapters 0–4:
 
 A missing map, trigger, portrait, battle background, or presentation consumer is not evidence that dialogue/canon is missing.
 
-## Synthesis / Legacy timing after chapter insertion
+## Legacy timing after chapter insertion
+
+Synthesis is removed and must not be used as a gate.
 
 Current timing:
 - mandatory reciprocal-pair resolution beats = **late Chapter 12**;
-- secured Cresthaven Legacy completion/release remains available through the **Chapter-13 pre-Last-Shelter returnable period**;
+- secured Cresthaven native-Legacy completion/release remains available through the **Chapter-13 pre-Last-Shelter returnable period**;
 - final cutoff = **Last Shelter → Reactor Galleries**.
 
-Use:
-- `docs/canon/AUDIT104_POST_INSERTION_TIMING_OVERLAY_2026-08-23.md`
-- `docs/CLASS_SYNTHESIS_AND_LEGACY_POST_INSERTION_TIMING_OVERLAY_2026-08-23.md`
+Historical Synthesis-era timing files are provenance only where they conflict with Audit121+.
 
-## Progression/reward timing hold
+## Progression / reward state — CLOSED NUMERICAL SPINE
 
-The added Chapter 10 requires a real rebalance pass. Do not silently preserve or recalculate late-game numbers authored for the old 12-chapter spine.
+The old post-insertion progression timing hold is superseded by Audits123–128.
 
-Use:
-`docs/canon/POST_INSERTION_PROGRESSION_TIMING_HOLD_2026-08-23.md`
+Current normal-route anchors:
+- Ch1 5
+- Ch2 9
+- Ch3 13
+- Ch4 17
+- Ch5 22
+- Ch6 27
+- Ch7 32
+- Ch8 37
+- Ch9 42
+- Ch10 47
+- Ch11 52
+- Ch12 57
+- Last Shelter 60
+- End Ch13 62
+- cap 70
 
-Pending the dedicated progression/item pass:
-- exact post-Ch9 chapter-end levels;
-- Chapter-10 EXP/CEXP contribution;
-- current Ch11–13 level targets;
-- exact CL13 timing;
-- late-game enemy/boss numerical curve;
-- reward/equipment/economy pacing.
+Current progression authority:
+- Audit123 — Ability MP certification, CL13 CEXP curve, Mastery schedule, player-level spine;
+- Audit124 — optional EXP / Lv70 cap proof;
+- Audit125 — formation EXP/CEXP allocation;
+- Audits126–128 — exact mandatory named/story EXP+CEXP placement.
+
+Do not use the historical `POST_INSERTION_PROGRESSION_TIMING_HOLD_2026-08-23.md` as an active numerical hold.
+
+## Raw-stat state — CLOSED THROUGH MAJOR HUNTS
+
+- mandatory named/story bodies — Audits129–132;
+- numbered-chapter optional Elites — Audit133;
+- 11 Regional Hunts — Audit134;
+- 6 Major Hunts — Audit135.
+
+Current challenge hierarchy:
+
+> **Ordinary < Elite < mandatory story boss < Regional Hunt < Major Hunt**
+
+Do not add dynamic Hunt scaling. Do not fabricate unresolved support-object/component HP to make tables look complete.
+
+## Current implementation frontier
+
+The current concrete implementation/content frontier is:
+
+**Kessara Relic-copy service implementation**
+
+Preserve the closed rule:
+- Relic already obtained;
+- one matching copy component required;
+- maximum one forged duplicate per Relic;
+- maximum quantity = 2;
+- duplicate mechanically identical;
+- Legacies cannot be copied.
+
+Remaining work may determine fee, menu timing, and original-vs-copy UI presentation without reopening the core rule.
 
 ## Engineering behavior
 
