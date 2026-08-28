@@ -14,7 +14,7 @@ completion_flag = "scene.s022.complete"
 participants = Array[String](["nimera","torren","cyanis","ilyra","worker","technician","vaelira","junior_researcher"])
 authoring_notes = "Runtime synchronized 2026-08-27 to the approved four-element S022 / Audit121. Spoken sequence and staging follow docs/chapters/dialogue/chapter_04/S022.md."
 beats = [
-{"beat_id":"S022_B001","speaker_id":"nimera","text":"Why?","cues":{"staging":"**CRESTHAVEN — ARCHIVE / WORKROOM — MORNING** Cresthaven is noisy with workers. Inside the temporary Archive, Cyanis, Ilyra, Torren, and Nimera have taken over a large table. On the table: - Hollow Watch rubbing; - surviving Wayfinder copies; - Torren's post-Warden routing sketch; - current Crown map of the Crownhold. Torren moves his sketch slightly left. Nimera moves it back. Torren moves it left again."}},
+{"beat_id":"S022_B001","speaker_id":"nimera","text":"Why?","cues":{"staging":"**CRESTHAVEN — ARCHIVE / WORKROOM — MORNING** Cresthaven is noisy with workers. Inside the temporary Archive, Cyanis, Ilyra, Torren, and Nimera have taken over a large table. On the table: - Hollow Watch rubbing; - surviving Wayfinder copies; - Torren's post-Warden routing sketch; - current Crown map of Yahtrenhold. Torren moves his sketch slightly left. Nimera moves it back. Torren moves it left again."}},
 {"beat_id":"S022_B002","speaker_id":"torren","text":"River."},
 {"beat_id":"S022_B003","speaker_id":"nimera","text":"That's not an answer."},
 {"beat_id":"S022_B004","speaker_id":"torren","text":"River used to be here.","cues":{"staging":"Torren points at the Wayfinder copy."}},
