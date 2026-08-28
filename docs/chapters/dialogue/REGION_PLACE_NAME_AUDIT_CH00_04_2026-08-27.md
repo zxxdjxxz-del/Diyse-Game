@@ -1,7 +1,7 @@
 # Diyse — Chapters 0–4 Region / Place-Name Dialogue Audit
 
 **Date:** 2026-08-27  
-**Scope:** Chapter 0–4 current-facing dialogue, dialogue staging/narration, optional Character-Life material, and Chapter 4 Crown Prototype Hunt authoring.  
+**Scope:** Chapter 0–4 current-facing dialogue, dialogue staging/narration, optional Character-Life material, and Chapter 4 Crown Prototype Hunt authoring/runtime.  
 **Purpose:** Remove retired geography/place terminology without reopening approved dramatic content.
 
 ---
@@ -123,7 +123,7 @@ S023–S026, C08, C09, and H05 were clean for the retired geography/place-name s
 
 # 2. RUNTIME RESOURCE AUDIT
 
-Current-facing runtime dialogue/staging was also checked where applicable.
+Current-facing runtime dialogue/staging was also checked.
 
 ## Clean runtime material
 
@@ -131,41 +131,40 @@ Current-facing runtime dialogue/staging was also checked where applicable.
 - Chapter 4 S023–S026, C08, C09, H05: clean.
 - Crown Prototype runtime spoken/staging material contains no current-facing `Sixfold Annex` wording.
 
-Chapter 4 still contains internal implementation IDs such as `LOC_SIXFOLD_ANNEX`, `LOC_SIXFOLD_REGULATION_CORE`, and `LOC_SIXFOLD_ANNEX_PROTOTYPE`. Existing Resource notes already identify these as legacy internal location IDs retained pending environment-ID migration. **Do not rename them as a prose cleanup.**
+Chapter 4 still contains internal implementation IDs such as `LOC_SIXFOLD_ANNEX`, `LOC_SIXFOLD_REGULATION_CORE`, and `LOC_SIXFOLD_ANNEX_PROTOTYPE`. Existing Resource notes identify these as legacy internal location IDs retained pending environment-ID migration. **Do not rename them as a prose cleanup.**
 
-## Runtime source-sync still required
+## Runtime source synchronization completed
 
-The following generated/runtime Resources still preserve terminology from before the bounded source correction:
+The three generated/runtime Resources that retained pre-correction current-facing wording have now been synchronized:
 
 1. `game/content/dialogue/chapter_03/S020.tres`
-   - stale current-facing text: `Old Crown outpost in the Crownhold. Abandoned.`
-   - source now correctly uses **Yahtrenhold**.
+   - now reads `Old Crown outpost in Yahtrenhold. Abandoned.`
+   - regenerated from the corrected locked Markdown source through `tools/dialogue/compile_chapter_03.py`.
 
 2. `game/content/dialogue/chapter_03/S021.tres`
-   - stale staging: `The abandoned Crownhold outpost is already active...`
-   - source now correctly uses **Yahtrenhold**.
+   - staging now identifies the abandoned outpost with **Yahtrenhold**, not Crownhold.
+   - regenerated from the corrected locked Markdown source through `tools/dialogue/compile_chapter_03.py`.
 
 3. `game/content/dialogue/chapter_04/S022.tres`
-   - stale staging: `current Crown map of the Crownhold.`
-   - source now correctly uses **Yahtrenhold**.
+   - staging now reads `current Crown map of Yahtrenhold.`
+   - synchronized as a bounded runtime terminology correction without changing unrelated dialogue.
 
-### Intended sync path
-
-- Chapter 3 has `tools/dialogue/compile_chapter_03.py`; regenerating Chapter 3 Resources from the corrected locked Markdown source should synchronize S020/S021 while preserving exact dialogue-source parity.
-- Chapter 4 currently has no equivalent `compile_chapter_04.py` in `tools/dialogue/`; S022 requires a bounded runtime Resource sync unless/until a Chapter 4 compiler is added.
-
-Do not rewrite unrelated dialogue while performing this sync.
+The isolated regeneration diff was limited to these intended source/runtime terminology effects; S020's spoken-sequence checksum changed as expected because Mirena's spoken line changed, while the other dramatic content remained intact.
 
 ---
 
 # 3. CLOSED RESULT
 
-**Authoring/source dialogue and staging for Chapters 0–4 are clean for the audited retired place/region names.**
+**Chapters 0–4 authoring dialogue, current-facing staging/narration, and applicable runtime dialogue Resources are clean for the audited retired place/region names.**
 
 Corrections applied in this sweep:
-- S020: Crownhold → Yahtrenhold
-- S021: Crownhold → Yahtrenhold
-- S022: Crownhold → Yahtrenhold
-- Crown Prototype authoring: Sixfold Annex → Reaction Annex
+- S020: Crownhold → Yahtrenhold in source and runtime.
+- S021: Crownhold → Yahtrenhold in source and runtime staging.
+- S022: Crownhold → Yahtrenhold in source and runtime staging.
+- Crown Prototype authoring: Sixfold Annex → Reaction Annex.
 
-The only remaining work from this bounded audit is **runtime Resource synchronization for S020, S021, and S022**. Legacy technical IDs are intentionally excluded from prose renaming and remain a separate engineering migration concern.
+No additional retired current-facing place/region names were found in the audited Chapter 0–4 dialogue set.
+
+Legacy technical identifiers are intentionally excluded from prose renaming and remain a separate reference-safe engineering migration concern.
+
+**Audit status: CLOSED.**
