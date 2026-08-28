@@ -1,11 +1,12 @@
 # Diyse — Current Working Tracker
 
 **Date:** August 27, 2026  
-**Working revision:** **v62**  
-**Master-canon baseline:** **v2.18 / Audit133**  
+**Working revision:** **v63**  
+**Master-canon baseline:** **v2.19 / Audit134**  
 **Status:** **ACTIVE WORKING TRACKER — MASTER CANON OUTRANKS THIS FILE**
 
 Primary newest authority:
+- `docs/canon/AUDIT134_REGIONAL_HUNT_RAW_STAT_RECERTIFICATION_LOCK.md`
 - `docs/canon/AUDIT133_OPTIONAL_ELITE_RAW_STAT_RECERTIFICATION_LOCK.md`
 - `docs/canon/AUDIT132_CHAPTERS_9_13_MANDATORY_NAMED_RAW_STAT_RECERTIFICATION_LOCK.md`
 - `docs/canon/AUDIT131_CHAPTERS_5_8_MANDATORY_NAMED_RAW_STAT_RECERTIFICATION_LOCK.md`
@@ -19,8 +20,6 @@ Primary newest authority:
 - `docs/canon/AUDIT123_CLASS_MP_CEXP_MASTERY_AND_LATE_GAME_PROGRESSION_LOCK.md`
 - `docs/canon/AUDIT122_BASE_HIT_EVASION_AND_BLEED_RUNTIME_LOCK.md`
 - `docs/canon/AUDIT121_CURRENT_SYSTEMS_ITEM_EQUIPMENT_AND_PROGRESSION_RECONCILIATION_LOCK.md`
-- `docs/ACTIVE_CANON.md`
-- `AGENTS.md`
 
 Historical cumulative trackers remain provenance only.
 
@@ -28,45 +27,13 @@ Historical cumulative trackers remain provenance only.
 
 # Progression closure
 
-## Player spine
-- Ch0 grants no levels
-- cap = Lv70
-- End Ch1 Lv5
-- End Ch2 Lv9
-- End Ch3 Lv13
-- End Ch4 Lv17
-- End Ch5 Lv22
-- End Ch6 Lv27
-- End Ch7 / Sixfold Volition Lv32
-- End Ch8 Lv37
-- End Ch9 Lv42
-- End Ch10 Lv47
-- End Ch11 Lv52
-- End Ch12 Lv57
-- **Last Shelter Lv60**
-- **End Ch13 Lv62**
-
-## CEXP / Class Levels
-- Base/Subclass cap = CL13
-- CL13 cumulative CEXP = 6,000
-- normal full Base+Subclass Class-Level completion occurs during Ch12
-- Seyrik is the limiting normal-route case around end Ch12
-
-## Mastery
-Exactly 8 automatic points:
-1. Lv5
-2. Lv10
-3. Lv15
-4. Lv20
-5. Sixfold Volition
-6. Lv40
-7. Lv50
-8. Lv60
-
-Synthesis is removed.
-
-## Class Ability MP
-12/12 class kits certified; no authored base-cost changes required.
+- Ch0 grants no levels; cap = Lv70.
+- End Ch1 5 / Ch2 9 / Ch3 13 / Ch4 17 / Ch5 22 / Ch6 27 / Ch7 32 / Ch8 37 / Ch9 42 / Ch10 47 / Ch11 52 / Ch12 57 / **Last Shelter 60 / End Ch13 62**.
+- Base/Subclass cap = CL13; CL13 = 6,000 cumulative CEXP.
+- normal full Base+Subclass Class-Level completion occurs during Ch12; Seyrik is limiting around end Ch12.
+- exactly 8 Mastery Points: Lv5, Lv10, Lv15, Lv20, Sixfold Volition, Lv40, Lv50, Lv60.
+- Synthesis removed.
+- class Ability MP certification closed 12/12.
 
 ---
 
@@ -81,8 +48,7 @@ Synthesis is removed.
 - fresh-HP multi-form bosses pay one combined reward after final-form clear.
 - fixed authored packages are exempt from ordinary lower-level enemy EXP diminishing returns.
 - no separate CEXP diminishing-return system.
-
-Ch13 true PONR = **Last Shelter → Reactor Galleries**.
+- Ch13 true PONR = **Last Shelter → Reactor Galleries**.
 
 ---
 
@@ -92,8 +58,6 @@ Current controlling chain:
 - Ch1–4 — Audit129 + Audit130
 - Ch5–8 — Audit131
 - Ch9–13 — Audit132
-
-All mandatory named/special bodies are recertified for Level / HP / ATK / MAG / DEF / Spirit / SPD / EVA / Status Resistance.
 
 Key endurance totals:
 - Ch4 Regulation Crucible → Seventh Reaction = **5,300**
@@ -107,47 +71,79 @@ Key endurance totals:
 
 Regulation Crucible Form I = **2,400 HP**; Seventh Reaction = fresh **2,900 HP**.
 
-Do not invent unresolved chamber/assembly/support-object HP pools merely to make tables complete.
+---
+
+# Audit133 — Optional Elite closure
+
+- 12 current numbered-chapter optional Elites.
+- no approved current Ch10 optional Elite.
+- recovered HP/ATK/MAG/DEF/Spirit/SPD retained; current EVA/SR added.
+- typical duration = **2–4 serious party rounds**.
+- old 60%/80% per-status tables are not restored as a second generic resistance resolver.
+
+Tier principle before Hunts:
+# **ORDINARY < ELITE << REGIONAL HUNT**
 
 ---
 
-# Audit133 — Optional Elite raw-stat closure
+# Audit134 — Regional Hunt raw-stat closure
 
-There are **12 current numbered-chapter optional Elites**.
+Recommended level is a **preparedness target, not an access gate**. A Hunt may unlock earlier than its prepared-attempt level. No dynamic scaling.
 
-**Current Chapter 10 has no approved optional Elite.** Registry Warden remains its mandatory boss. Do not invent an Elite just to restore chapter symmetry.
-
-Chapter 0 Ruin Vanguard Pursuer remains structural/tutorial and is outside this numbered table.
-
-| Ch | Optional Elite | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
+| # | Regional Hunt | Rec. Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | Watch Captain Frame | 6 | 820 | 38 | 29 | 27 | 26 | 25 | 0 | 10 |
-| 2 | Archive Duplicant | 9 | 1,000 | 43 | 46 | 32 | 33 | 27 | 5 | 10 |
-| 3 | Grand Inquisitor Frame | 14 | 1,450 | 58 | 62 | 44 | 45 | 29 | 0 | 10 |
-| 4 | Annex Duelist | 18 | 1,700 | 72 | 72 | 50 | 49 | 34 | 10 | 5 |
-| 5 | Ruin Forgemaster | 23 | 2,250 | 88 | 62 | 64 | 57 | 31 | 0 | 5 |
-| 6 | Crimson Progenitor | 28 | 2,700 | 92 | 104 | 69 | 72 | 38 | 5 | 10 |
-| 7 | First Registrar's Shade | 33 | 2,950 | 104 | 116 | 76 | 82 | 44 | 10 | 10 |
-| 8 | Conqueror Legate | 38 | 3,650 | 138 | 102 | 97 | 88 | 43 | 5 | 10 |
-| 9 | Ruin Breach Captain | 44 | 4,350 | 160 | 120 | 108 | 99 | 46 | 5 | 10 |
-| 11 | Perfect Administrator | 55 | 5,800 | 180 | 198 | 137 | 141 | 52 | 5 | 10 |
-| 12 | Lord-Marshal Kharvek | 61 | 6,750 | 224 | 166 | 152 | 142 | 56 | 5 | 10 |
-| 13 | Devourer of Names | 63 | 7,000 | 216 | 230 | 151 | 159 | 57 | 10 | 10 |
+| 1 | Cistern Devourer | 7 | **2,706** | 43 | 26 | 30 | 27 | 24 | 5 | 5 |
+| 2 | Transfer Executioner | 11 | **3,760** | 54 | 36 | 38 | 35 | 28 | 0 | 10 |
+| 3 | Archive Judgment Engine | 15 | **4,928** | 58 | 67 | 46 | 48 | 28 | 0 | 10 |
+| 4 | Crown Prototype | 20 | **6,503** | 81 | 68 | 57 | 54 | 33 | 5 | 10 |
+| 5 | Whitehorn Ravager | 26 | **8,678** | 104 | 74 | 70 | 64 | 41 | 10 | 5 |
+| 6 | Winterglass Titan | 32 | **10,879** | 101 | 125 | 90 | 94 | 34 | 0 | 10 |
+| 7 | Rift Gate Colossus | 38 | **13,276** | 144 | 127 | 107 | 98 | 36 | 0 | 10 |
+| 8 | Rift Siege Beast | 44 | **15,875** | 173 | 138 | 115 | 105 | 43 | 5 | 10 |
+| 9 | Mercyfallen Behemoth | 50 | **18,882** | 176 | 191 | 128 | 137 | 46 | 5 | 10 |
+| 10 | Authority Remnant | 56 | **21,913** | 200 | 214 | 149 | 154 | 51 | 5 | 10 |
 
-Result:
-# **12 / 12 PASS — NO HP/OFFENSE/DEFENSE REBASE REQUIRED**
+Hunts #1–10 = **PASS; no recovered raw-stat repricing required**.
 
-Typical duration:
-# **2–4 serious party rounds**
+## Regional Hunt #11 — Throne of Emperor Vaelkor
 
-A materially overlevelled party should dismantle an old Elite quickly.
+Historical one-body 24,656-HP line is superseded by current genuine two-form architecture.
 
-Current tier principle:
-# **ORDINARY < ELITE << REGIONAL HUNT**
+### Sealed Throne
+- Rec. Lv61
+- **11,800 HP**
+- 228 ATK / 234 MAG / 172 DEF / 168 Spirit / 50 SPD
+- EVA0 / SR10
 
-Audit133's SR values are the current general raw-stat layer. Old 60%/80% per-status working tables are not restored as a second generic resistance resolver. Explicit identity-specific immunities remain only where separately authored and compatible.
+### Walking Throne
+- Rec. Lv62
+- **14,200 HP**
+- 240 ATK / 221 MAG / 166 DEF / 159 Spirit / 58 SPD
+- EVA0 / SR10
 
-Annex Duelist remains four-element only: Fire / Ice / Lightning / Earth. No Wind/Water state and no replacement Bleed rider.
+Total body HP:
+# **26,000**
+
+Preserve:
+- Authority Attendant Frame;
+- Renewal Attendant Frame;
+- capped Form-I and Form-II recovery;
+- inherited support consequences;
+- current exact Throne action kit;
+- Imperial Machinery Unbound as same-bar state;
+- no third form;
+- no extra ordinary action.
+
+Sealed → Walking is genuine fresh HP and **refreshes Prime availability**. No Attendant HP is invented by Audit134.
+
+Relative late endurance:
+- Authority Remnant 21,913
+- Throne Regional Hunt **26,000**
+- Vaelkor mandatory climax 30,263
+- final Entity 34,441
+
+Current hierarchy:
+# **ORDINARY < ELITE < MANDATORY STORY BOSS < REGIONAL HUNT < MAJOR HUNT**
 
 ---
 
@@ -172,12 +168,6 @@ Annex Duelist remains four-element only: Fire / Ice / Lightning / Earth. No Wind
 
 # ACTIVE FRONTIER
 
-## 1. Regional Hunt raw-stat recertification — 11 Hunts
+## **Major Hunt raw-stat recertification — 6 Hunts**
 
-Recover and recertify exact HP / ATK / MAG / DEF / Spirit / SPD / EVA / Status Resistance while preserving current identities, unlocks, mechanics and form structure.
-
-## 2. Major Hunt raw-stat recertification — 6 Hunts
-
-Major Hunts remain stronger than player readiness. Preserve current Prime rewards and fresh-form architecture.
-
-No dynamic scaling. No retired systems.
+Major Hunts remain stronger than player readiness and above Regional Hunts in total challenge/mechanic density. Preserve current Prime rewards and fresh-form architecture. No dynamic scaling. No retired systems.
