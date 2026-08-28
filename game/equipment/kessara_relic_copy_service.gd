@@ -1,6 +1,8 @@
 extends RefCounted
 class_name DiyseKessaraRelicCopyService
 
+const MAX_RELIC_COPIES_PER_FACE := 3
+
 const RESULT_OK := "ok"
 const RESULT_INVALID_STATE := "invalid_state"
 const RESULT_RELIC_NOT_OBTAINED := "relic_not_obtained"
@@ -30,7 +32,7 @@ func evaluate(state: Node, relic_id: String) -> Dictionary:
 		return _failure(RESULT_ALREADY_COPIED, "An individual Relic may be forged only once.")
 
 	var face := str(state.relic_face(normalized_id))
-	if int(state.forged_relic_count_for_face(face)) >= int(state.MAX_RELIC_COPY_COMPONENTS_PER_FACE):
+	if int(state.forged_relic_count_for_face(face)) >= MAX_RELIC_COPIES_PER_FACE:
 		return _failure(RESULT_FACE_COPY_LIMIT, "All three Relic-copy opportunities for this Face have already been used.")
 
 	var component_id := str(state.available_relic_copy_component_for_face(face))
