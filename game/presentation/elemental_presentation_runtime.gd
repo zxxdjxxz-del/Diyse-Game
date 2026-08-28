@@ -1,15 +1,13 @@
 extends RefCounted
 class_name DiyseElementalPresentationRuntime
 
-const ELEMENTS := ["fire", "ice", "lightning", "wind", "earth", "water"]
+const ELEMENTS := ["fire", "ice", "lightning", "earth"]
 
 const PAYLOAD_KEYS := {
 	"fire": ["heat_distortion", "embers", "scorch_overlay"],
 	"ice": ["frost_mask", "cold_mist"],
 	"lightning": ["electric_arc", "static_overlay"],
-	"wind": ["air_lines", "debris_motion"],
 	"earth": ["crack_overlay", "dust", "material_shift"],
-	"water": ["wetness", "condensation", "flow_overlay"],
 }
 
 static func is_element(element_id: String) -> bool:
@@ -22,9 +20,12 @@ static func payload_keys(element_id: String) -> Array:
 	return PAYLOAD_KEYS[normalized].duplicate()
 
 static func active_module_mask(element_ids: Array[String]) -> Dictionary:
+	var normalized_ids: Array[String] = []
+	for element_id in element_ids:
+		normalized_ids.append(element_id.to_lower())
 	var result := {}
 	for element_id in ELEMENTS:
-		result[element_id] = element_id in element_ids
+		result[element_id] = element_id in normalized_ids
 	return result
 
 static func validate_element_ids(element_ids: Array[String]) -> Array[String]:
