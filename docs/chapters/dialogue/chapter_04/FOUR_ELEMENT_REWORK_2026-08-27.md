@@ -2,12 +2,12 @@
 
 **Date:** 2026-08-27  
 **Status:** **CURRENT CHAPTER-LOCAL RECONCILIATION AUTHORITY**  
-**Whole-project authority:** **v2.07 / Audit122**, with **v2.06 / Audit121** controlling the Chapter 4 four-element conversion.  
+**Whole-project authority:** **v2.20 / Audit135**, with **Audit121** controlling the Chapter 4 four-element conversion and compatible later audits controlling later combat/stat corrections.  
 **Approved working source:** `Diyse_Chapter_4_Four_Element_Rework_FULL_HANDOFF_2026-08-27.md` from the accepted design pass.
 
 This note records the synchronization of the approved Chapter 4 four-element rework into the live S022–S026 production-authoring scripts.
 
-Where older Chapter 4 acceptance-log entries or old script revisions contain six-element / six-channel language, this reconciliation plus Audit121 controls.
+Where older Chapter 4 acceptance-log entries, Audit88 production language, or old script revisions contain six-element / six-channel language, this reconciliation plus Audit121 and compatible later authority controls.
 
 ## Global Chapter 4 elemental rule
 
@@ -64,6 +64,23 @@ The model has exactly six pairwise relationships among the four elements. The **
 - Vaelira's notebook contains a larger four-element / six-pair interaction diagram.
 - ordinary time references such as `six months of work` are unchanged.
 
+## Production supersession
+
+The current implementation-facing HD-2D reconciliation is:
+
+`docs/production/HD2D_CHAPTERS_00_04_CURRENT_RECONCILIATION_2026-08-28.md`
+
+That overlay preserves Audit88 as historical provenance while superseding its retired Chapter 4 production instructions, including:
+
+- six-element presentation/runtime requirements;
+- Wind and Water elemental payload families;
+- Elemental Hexarch / Sixfold Crucible current-facing names;
+- six-chamber / three-active Crucible construction;
+- the obsolete rule that genuine fresh-HP Form II does not refresh Prime availability;
+- retired regional production terminology such as Edgelands and Southhold.
+
+Legacy internal filenames/IDs may retain older strings until a reference-safe engineering migration. They are not current-facing canon or production terminology.
+
 ## Preservation rule
 
 Dialogue/staging not explicitly changed by the accepted four-element handoff remains previously accepted text. This was a surgical conversion, not a general rewrite.
@@ -71,3 +88,5 @@ Dialogue/staging not explicitly changed by the accepted four-element handoff rem
 ## Runtime synchronization
 
 The Markdown files S022–S026 are the current canon/production-authoring sources. Matching Godot dialogue/presentation resources must mirror these revisions; any remaining runtime six-element strings are implementation drift, not canon.
+
+As of the current validated baseline, `game/presentation/elemental_presentation_runtime.gd` exposes exactly Fire/Ice/Lightning/Earth and the Chapter 4 presentation validator enforces the current Reaction Conduit / Regulation Crucible / fresh-HP Prime-refresh rules.
