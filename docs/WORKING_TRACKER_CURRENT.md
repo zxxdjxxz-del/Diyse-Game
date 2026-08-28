@@ -1,11 +1,12 @@
 # Diyse — Current Working Tracker
 
 **Date:** August 27, 2026  
-**Working revision:** **v63**  
-**Master-canon baseline:** **v2.19 / Audit134**  
+**Working revision:** **v64**  
+**Master-canon baseline:** **v2.20 / Audit135**  
 **Status:** **ACTIVE WORKING TRACKER — MASTER CANON OUTRANKS THIS FILE**
 
 Primary newest authority:
+- `docs/canon/AUDIT135_MAJOR_HUNT_RAW_STAT_RECERTIFICATION_LOCK.md`
 - `docs/canon/AUDIT134_REGIONAL_HUNT_RAW_STAT_RECERTIFICATION_LOCK.md`
 - `docs/canon/AUDIT133_OPTIONAL_ELITE_RAW_STAT_RECERTIFICATION_LOCK.md`
 - `docs/canon/AUDIT132_CHAPTERS_9_13_MANDATORY_NAMED_RAW_STAT_RECERTIFICATION_LOCK.md`
@@ -81,9 +82,6 @@ Regulation Crucible Form I = **2,400 HP**; Seventh Reaction = fresh **2,900 HP**
 - typical duration = **2–4 serious party rounds**.
 - old 60%/80% per-status tables are not restored as a second generic resistance resolver.
 
-Tier principle before Hunts:
-# **ORDINARY < ELITE << REGIONAL HUNT**
-
 ---
 
 # Audit134 — Regional Hunt raw-stat closure
@@ -107,8 +105,6 @@ Hunts #1–10 = **PASS; no recovered raw-stat repricing required**.
 
 ## Regional Hunt #11 — Throne of Emperor Vaelkor
 
-Historical one-body 24,656-HP line is superseded by current genuine two-form architecture.
-
 ### Sealed Throne
 - Rec. Lv61
 - **11,800 HP**
@@ -124,26 +120,47 @@ Historical one-body 24,656-HP line is superseded by current genuine two-form arc
 Total body HP:
 # **26,000**
 
-Preserve:
-- Authority Attendant Frame;
-- Renewal Attendant Frame;
-- capped Form-I and Form-II recovery;
-- inherited support consequences;
-- current exact Throne action kit;
-- Imperial Machinery Unbound as same-bar state;
-- no third form;
-- no extra ordinary action.
+Sealed → Walking is genuine fresh HP and **refreshes Prime availability**. No Attendant HP is invented by Audit134. No third form.
 
-Sealed → Walking is genuine fresh HP and **refreshes Prime availability**. No Attendant HP is invented by Audit134.
+---
 
-Relative late endurance:
-- Authority Remnant 21,913
-- Throne Regional Hunt **26,000**
-- Vaelkor mandatory climax 30,263
-- final Entity 34,441
+# Audit135 — Major Hunt raw-stat closure
 
-Current hierarchy:
+Recommended level is a **preparedness target, not an access gate**. Fixed authored tuning remains active; no dynamic scaling.
+
+| # | Major Hunt / Form | Rec. Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
+|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | Ashen Whitehorn | 22 | **11,270** | 96 | 78 | 73 | 68 | 38 | 10 | 10 |
+| 2A | Crownless Siege Marshal | 28 | **9,360** | 124 | 92 | 90 | 78 | 35 | 5 | 10 |
+| 2B | Crownless War Engine | 29 | **11,650** | 139 | 102 | 99 | 86 | 33 | 0 | 10 |
+| 3 | Concordance Guardian | 35 | **18,180** | 146 | 151 | 115 | 118 | 40 | 5 | 15 |
+| 4 | Worldscar Leviathan | 47 | **30,200** | 187 | 207 | 148 | 156 | 44 | 0 | 10 |
+| 5 | Final Archive Arbiter | 58 | **43,100** | 229 | 244 | 194 | 198 | 50 | 5 | 15 |
+| 6 | The Unfinished World | 70 | **78,000** | 304 | 318 | 226 | 232 | 61 | 0 | 15 |
+
+Architecture locks:
+- Ashen Whitehorn — one continuous bar; Last Run same-bar; no Prime refresh.
+- Crownless Siege Marshal → Crownless War Engine — two genuine fresh bodies, **21,010 combined HP**; Prime refreshes at War Engine; no third form.
+- Concordance Guardian — Six Faces → Open Concordance on one continuous bar; no Prime refresh.
+- Worldscar Leviathan — one continuous bar; Prismatic Confluence same-bar; no Prime refresh.
+- Final Archive Arbiter — one continuous bar; no hidden fresh body; no Prime refresh.
+- The Unfinished World — **WORLDFRAME → WORLDHEART EXPOSED → FINAL CONSTRUCTION** on one continuous **78,000 HP** bar; no second/third bar and no Prime refresh between states.
+
+The Unfinished World world-state matrix remains exactly:
+- Earth / Stone → Staggered
+- Ice / Frost → Freeze
+- Lightning / Storm → Stun
+- Fire / Flame → Burn
+
+No Water, Wind, or fifth standard element.
+
+Current challenge hierarchy:
 # **ORDINARY < ELITE < MANDATORY STORY BOSS < REGIONAL HUNT < MAJOR HUNT**
+
+Progression-dependent named/boss raw-stat recertification is now:
+# **CLOSED ACROSS MANDATORY STORY / ELITES / REGIONAL HUNTS / MAJOR HUNTS**
+
+Do not import stale historical Major-Hunt first-clear EXP values; current optional EXP authority remains Audit124.
 
 ---
 
@@ -168,6 +185,19 @@ Current hierarchy:
 
 # ACTIVE FRONTIER
 
-## **Major Hunt raw-stat recertification — 6 Hunts**
+## **Kessara Relic-copy service implementation**
 
-Major Hunts remain stronger than player readiness and above Regional Hunts in total challenge/mechanic density. Preserve current Prime rewards and fresh-form architecture. No dynamic scaling. No retired systems.
+Closed copy rule:
+- Relic must already be obtained;
+- one matching copy component is required;
+- maximum one forged duplicate per Relic;
+- maximum quantity = 2;
+- duplicate is mechanically identical;
+- Legacies cannot be copied.
+
+Remaining implementation/content decisions:
+- exact service/menu unlock timing;
+- whether an Auren service fee exists and its value;
+- original-vs-copy quantity/UI presentation.
+
+Do not reopen already-closed Ability MP, CEXP, Mastery, mandatory progression, Elite, Regional-Hunt, or Major-Hunt balance layers without later explicit authority or a demonstrated contradiction.
