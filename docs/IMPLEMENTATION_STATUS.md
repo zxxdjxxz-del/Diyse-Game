@@ -1,6 +1,6 @@
 # Diyse — Current Implementation Status
 
-**Written authority checkpoint:** **v2.08 / Audit123**  
+**Written authority checkpoint:** **v2.09 / Audit124**  
 **Presentation target:** HD-2D  
 **Active repository:** `zxxdjxxz-del/Diyse-Game`
 
@@ -9,13 +9,14 @@
 - Chapters 0–4 remain COMPLETE/CLOSED at story/dialogue authority level.
 - Chapter 4 four-element S022–S026 script/dialogue-runtime synchronization is complete.
 - Shared HD-2D runtime foundation: IMPLEMENTED.
+- **Audit124** closes optional player EXP source-by-source certification and the Level-70 pre-Last-Shelter completionist cap proof.
 - **Audit123** closes class Ability MP certification, the 6,000-CEXP CL13 curve, chapter-level CEXP structure, exact 8-point Mastery schedule, restored late-game player-level anchors, and exact Ch8–13 mandatory EXP budgets.
 - **Audit122** supplies exact Base Hit/Evasion and current Bleed runtime.
 - **Audit121** supplies current system removals, class/Face names, 17/17 Legacy mechanics, Relic cleanup, 20-consumable economy/placement, Chapter-4 four-element reconciliation, commerce/location corrections, and Prime numeric sync.
 - **Audit120** supplies compatible direct-damage and Critical rules.
 - **Audit118** remains the implementation source for the closed 38/38 ordinary-equipment catalog and compatible Relic/Forge data.
 
-The previous statements that the class Ability MP check, CEXP redo, and Mastery timing were still open are superseded.
+The previous statements that class Ability MP, the CEXP redo, Mastery timing, or optional player EXP certification were still open are superseded.
 
 ---
 
@@ -167,6 +168,31 @@ Expected ordinary encounter planning centers remain 225 total; Chapter 4 remains
 
 ---
 
+# Optional player EXP — CLOSED
+
+Audit124 fixes the authored pre-Last-Shelter cap-proof pool at **195,000 EXP**:
+- 5 ordinary Side Quests = 20,000
+- 6 Character Quests = 55,000
+- 11 Regional Hunts = 70,000
+- Major Hunts #1–5 = 50,000
+
+Major Hunt #6 / The Unfinished World = **24,000 EXP**, excluded from cap proof.
+
+Cap proof:
+- Last Shelter normal-route EXP = **415,400 / Lv60**
+- Level 70 threshold = **594,100**
+- needed gap = **178,700**
+- completionist total = **610,400**
+- buffer = **16,300 EXP**
+
+Therefore a broad completionist can reach **Lv70 before Last Shelter** without repetitive grinding or requiring Major Hunt #6.
+
+Lower-level enemy diminishing returns apply to ordinary/repeatable enemy-kill EXP only. Fixed authored completion/first-clear packages are exempt.
+
+Regional Hunt packages are activity budgets: implementation may split them among route combat, Hunt kill EXP, and deterministic first-clear remainder, but route RNG may not lower the authored package total.
+
+---
+
 # Cards / Primes
 
 Standard Cards:
@@ -183,7 +209,7 @@ Prime Invocation:
 - Awakened Major Hunt 90 MP
 - manifested commands 0 additional MP
 
-Prismatic Deluge = 90×4 = 360 listed Power per target.
+Prismatic Deluge = 90×4 = 360 listed Power per target.  
 Regulator Fang = 250 Power / 25% Spirit penetration.
 
 ---
@@ -212,8 +238,8 @@ Reaction Conduit replaces Elemental Hexarch. Regulation Crucible uses four chamb
 
 # Remaining implementation-progress work
 
-1. optional player EXP source-by-source re-certification;
-2. Light / Standard / Heavy formation EXP;
-3. exact formation CEXP allocations;
+1. Light / Standard / Heavy formation EXP tables;
+2. exact formation CEXP allocations;
+3. chapter-by-chapter ordinary EXP and CEXP shares;
 4. named/story EXP and CEXP package placement;
 5. progression-dependent named-enemy/boss raw-stat recertification.
