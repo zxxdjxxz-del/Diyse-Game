@@ -1,7 +1,7 @@
 # Diyse — CL13 Mastery / Relic / Legacy Model
 
 **Status:** **CURRENT MODEL — 8-NODE ARCHITECTURE AND POINT TIMING LOCKED UNDER AUDIT123**  
-**Current whole-project authority:** **v2.08 / Audit123**
+**Current whole-project authority:** **v2.20 / Audit135**
 
 ---
 
