@@ -1,11 +1,12 @@
 # Diyse — Current Working Tracker
 
 **Date:** August 27, 2026  
-**Working revision:** **v57**  
-**Master-canon baseline:** **v2.13 / Audit128**  
+**Working revision:** **v58**  
+**Master-canon baseline:** **v2.14 / Audit129**  
 **Status:** **ACTIVE WORKING TRACKER — MASTER CANON OUTRANKS THIS FILE**
 
 Primary authority:
+- `docs/canon/AUDIT129_CHAPTERS_1_4_MANDATORY_NAMED_RAW_STAT_RECERTIFICATION_LOCK.md`
 - `docs/canon/AUDIT128_CHAPTERS_9_13_NAMED_STORY_EXP_CEXP_PLACEMENT_LOCK.md`
 - `docs/canon/AUDIT127_CHAPTERS_5_8_NAMED_STORY_EXP_CEXP_PLACEMENT_LOCK.md`
 - `docs/canon/AUDIT126_CHAPTERS_1_4_NAMED_STORY_EXP_CEXP_PLACEMENT_LOCK.md`
@@ -44,8 +45,6 @@ Historical cumulative trackers remain provenance only.
 ## CEXP / Class Levels
 - Base/Subclass cap = CL13.
 - CL13 cumulative CEXP = 6,000.
-- Ch1–7 Base CEXP = 4,950.
-- post-Volition: Ch8 1,300; Ch9 1,450; Ch10 1,200; Ch11 1,800; Ch12 2,750; Ch13 1,500 catch-up/overflow.
 - normal full Base + Subclass Class-Level completion occurs during Ch12, with Seyrik around end Ch12.
 
 ## Mastery
@@ -66,121 +65,67 @@ Synthesis is removed.
 
 ---
 
-# Optional progression
+# Optional / mandatory reward progression
 
-Audit124 pre-Last-Shelter authored pool = **195,000 EXP**:
-- Side Quests 20,000
-- Character Quests 55,000
-- Regional Hunts 70,000
-- Major Hunts #1–5 50,000
+Audit124 pre-Last-Shelter authored optional pool = **195,000 EXP**. Major Hunt #6 = 24,000 outside the cap proof.
 
-Major Hunt #6 = 24,000 and is excluded from the cap proof.
+Audit125 closed the 225 ordinary-encounter planning center, chapter ordinary-vs-authored player EXP, and formation CEXP bands. Counts are planning centers, not quotas.
 
-At Last Shelter normal route = 415,400 / Lv60. Broad completionist = 610,400, above the Lv70 threshold 594,100 by 16,300.
+Exact mandatory named/story reward placement = **COMPLETE 13/13**:
+- Ch1–4 Audit126
+- Ch5–8 Audit127
+- Ch9–13 Audit128
 
-Fixed authored packages are exempt from ordinary lower-level enemy EXP diminishing returns.
+Optional Elites/Hunts/Character Quests/Side Quests never consume mandatory chapter reward pools. Same-bar changes pay once. Fresh-HP multi-form bosses pay one combined encounter package after final-form clear.
 
----
-
-# Mandatory formation progression
-
-Audit125 closed the 225 ordinary-encounter planning center, chapter ordinary-vs-authored player EXP, and formation CEXP bands.
-
-Counts are planning centers, not quotas.
-
-Chapter 4 remains protected at:
-- 19 expected random encounters
-- 5,262 ordinary EXP
-- 11,200 total mandatory EXP
-
-Late player-EXP tier anchors:
-- Ch9 1,245 / 1,540 / 1,920
-- Ch10 1,700 / 2,100 / 2,500
-- Ch11 2,100 / 2,650 / 3,100
-- Ch12 2,100 / 2,600 / 3,150
-- Ch13 3,000 / 3,700 / 4,500
-
-No separate CEXP diminishing-return system exists.
-
----
-
-# Exact mandatory named/story reward placement — COMPLETE 13/13
-
-- Ch1–4 = Audit126
-- Ch5–8 = Audit127
-- Ch9–13 = Audit128
-
-Optional Elites/Hunts/Character Quests/Side Quests never consume mandatory chapter reward pools.
-
-Same-bar state changes pay once. Fresh-HP multi-form bosses also pay one combined encounter package after final-form clear.
-
-## Ch9 — 20,500 EXP / 837 CEXP
-- Equal Mercy stabilization 1,500/60
-- Equal Mercy Arbiter 4,500/170
-- Last Sanctuary resolution 1,500/60
-- Crownfall defense/infiltration milestone 2,500/100
-- Rhazek → Bastion Devourer full encounter 7,500/300
-- Crownfall preserved/chapter clear 3,000/147
-
-## Ch10 — 21,500 / 586
-- eastern survey 2,000/50
-- Calder/Lower Archive 3,000/75
-- Buried Registry access 3,500/85
-- Registry Warden 8,000/200
-- Sixfold Unsealing / Last Blank 3,500/110
-- Chapter-11 handoff 1,500/66
-
-## Ch11 — 16,200 / 1,015
-- Living Anchor/Crown Engine 4,000/230
-- Custodian domain 2,500/140
-- Truth Beneath Empire 4,000/240
-- First Reckoning/Sixfold Reconciliation 4,000/250
-- chapter clear 1,700/155
-
-Current Chapter 11 is Crown Engine material. Do not place Varkesh, Vhalmarch or Vaelkor here.
-
-## Ch12 — 22,900 / 1,786
-Current route: **Westguard → Blackspine → Draevensreach → Vhalmarch → Vorathen → Veiled Citadel**.
-- campaign breakthrough 3,000/200
-- Varkesh defeat/live capture 6,000/450
-- Vhalmarch Forward Hub secured 2,500/200
-- Vorathen/Veiled Citadel breach 3,000/250
-- Vaelkor two-form full clear 7,000/550
-- post-Vaelkor cleanup state/chapter clear 1,400/136
-
-Vaelkor defeat opens cleanup and does not automatically launch Ch13.
-
-## Ch13 — 49,200 named/story EXP / 1,032 named/story CEXP
-Hard order:
+Ch13 hard order remains:
 **Deepest City → Last Weapon Archive → Last Weapon Archon → Last Shelter → Reactor Galleries → Reactor–Crest Interface → Reconstituted Entity → Crest Integration/The Last Command → Final Severance → aftermath**.
 
-True PONR = **Last Shelter → Reactor Galleries**.
+True PONR = **Last Shelter → Reactor Galleries**. Normal route reaches ~Lv60 at Last Shelter and ~Lv62 at ending.
 
-8 ordinary-encounter planning center splits 5 pre-Shelter / 3 post-PONR.
+---
 
-### Before Last Shelter
-- ordinary ≈ 18,600
-- fixed = 27,700 EXP / 600 CEXP
-- segment total = 46,300 → ~Lv60
+# Audit129 — Ch1–4 mandatory named raw-stat recertification
 
-Fixed:
-- Deepest City/Archive reached 4,000/90
-- Archive truth 5,000/110
-- Last Weapon Archon 12,000/280
-- Last Shelter reached 6,700/120
+Early main-boss pacing target:
+# **6–9 effective combat rounds for the complete Ch1–4 main-boss encounter**
 
-### After PONR
-- ordinary ≈ 11,200
-- fixed = 21,500 EXP / 432 CEXP
-- segment total = 32,700 → ending ~Lv62
+Status Resistance bands:
+- 0 Normal
+- 5 Resistant
+- 10 Highly Resistant
+- 15 Exceptional
+- immunity only when explicitly authored.
 
-Fixed:
-- Reactor Galleries realization 3,500/70
-- Reactor–Crest Interface 2,500/50
-- Reconstituted Entity → The Last Command two-form full clear 13,500/270
-- aftermath/ending 2,000/42
+| Ch | Mandatory named body | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Result |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| 1 | Briarhide Stalker | 4 | 850 | 34 | 18 | 22 | 20 | 29 | 10 | 0 | NEW |
+| 1 | Hollow Watch Castellan | 6 | 1,758 | 36 | 27 | 27 | 24 | 25 | 0 | 5 | PASS |
+| 2 | Archive Leviathan | 9 | 2,592 | 34 | 45 | 31 | 33 | 25 | 0 | 5 | PASS |
+| 2 | Rhazek — Bastion Master | 10 | 2,700 | 49 | 31 | 36 | 32 | 26 | 5 | 5 | PASS |
+| 3 | First Command Warden | 14 | 3,723 | 57 | 57 | 43 | 43 | 29 | 0 | 10 | PASS |
+| 4 | Elder Briarhide | 14 | 2,100 | 64 | 28 | 44 | 39 | 36 | 10 | 5 | NEW |
+| 4 | Reaction Conduit | 17 | 3,100 | 50 | 72 | 47 | 52 | 32 | 5 | 5 | NEW |
+| 4 | Regulation Crucible Form I | 18 | 2,200 | 54 | 73 | 51 | 53 | 28 | 0 | 10 | RECERTIFIED HP |
+| 4 | The Seventh Reaction Form II | 19 | 2,900 | 60 | 80 | 55 | 57 | 30 | 0 | 10 | NEW FRESH BODY |
 
-Final boss has exactly two genuine full-HP forms. Crest Integration pays 0 at transition. No third form.
+Key closure:
+- Ch1–3 main-boss raw HP/offense/defense survives the finalized progression curve without inflation.
+- Hold the Junction is a formation event: no standalone body.
+- Ch3 S018 lawful-authority confrontations are group nonlethal events: no standalone bodies.
+- Chapter 4 historical one-bar 4,901-HP Crucible is superseded as a current raw-body implementation target.
+- Current minimum body HP = **2,200 Form I + 2,900 fresh Form II = 5,100**.
+- Audit129 does not invent chamber HP pools.
+- Elder Briarhide's Recovered Last Sentinel hit remains scripted nonlethal.
+
+Preserve current mechanics:
+- Castellan same-bar Fortress → Walking states.
+- Archive Leviathan Bleed/Staggered riders.
+- Rhazek Bleed/Staggered riders and story withdrawal.
+- First Command Warden command-state architecture.
+- Ch4 Fire/Ice/Lightning/Earth only.
+- Reaction Conduit current name and four-element nonlethal stabilization.
+- Regulation Crucible four chambers, exactly 2 active/targetable, genuine fresh The Seventh Reaction, fresh-form Prime refresh, no third form.
 
 ---
 
@@ -191,18 +136,26 @@ Final boss has exactly two genuine full-HP forms. Crest Integration pays 0 at tr
 - Brace does not exist.
 - no global Break/Stagger meter.
 - Staggered is ordinary harmful status.
+- no natural Accuracy stat.
 - 38 ordinary equipment + 36 Relics + 17 Legacies = 91 equipment pieces.
 - 20 consumables.
 - 24 Standard Cards.
 - 12 Primes, Recovered → Awakened only.
-- Chapter 4 four-element script/runtime conversion is complete: Fire/Ice/Lightning/Earth only.
+- Chapter 4 four-element script/runtime conversion is complete.
 
 ---
 
 # ACTIVE FRONTIER
 
-## Progression-dependent named-enemy / boss raw-stat recertification
+## Mandatory named-enemy / boss raw-stat recertification — Chapters 5–8
 
-Recover current HP / ATK / MAG / DEF / Spirit / SPD / Evasion / Status Resistance for mandatory named enemies and bosses and compare them against the now-final chapter player-level bands.
+Recover current raw lines for:
+- Furnace Tyrant
+- Deepforge Colossus
+- Crownstorm Roc
+- Masked Ruin Vanguard — Seyrik
+- Matron Zevraya and current genuine-form architecture
+- Chapter 7 mandatory named combat
+- Chapter 8 mandatory named combat
 
-Preserve encounter mechanics, status/element packages and HP-bar/form architecture. Do not add Barrier, Brace, global Break/Stagger, natural Accuracy, Synthesis, or other retired systems.
+Preserve encounter mechanics, status/element packages and HP-bar/form architecture. Change only raw stats that fail the finalized player-level and boss-duration targets. Do not add Barrier, Brace, global Break/Stagger, natural Accuracy, Synthesis, or other retired systems.
