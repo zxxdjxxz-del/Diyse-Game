@@ -1,7 +1,7 @@
 # Diyse — CL13 Class EXP Model
 
-**Status:** **CURRENT STRUCTURAL MODEL — CLOSED UNDER AUDIT123**  
-**Current whole-project authority:** **v2.08 / Audit123**  
+**Status:** **CURRENT STRUCTURAL MODEL — CLOSED UNDER AUDIT123; MANDATORY ALLOCATION / PLACEMENT CLOSED UNDER AUDITS125–128**  
+**Current whole-project authority:** **v2.20 / Audit135**  
 **Class caps:** Base CL13 / Subclass CL13
 
 ---
@@ -94,7 +94,7 @@ Normal full Base + Subclass Class-Level completion occurs during Chapter 12:
 
 This is intentional. Class Levels complete before the final Mastery-board point and before the campaign ending.
 
-Optional pre-threshold CEXP planning envelope remains approximately **1,800 maximum** pending exact source-by-source placement.
+Optional pre-threshold CEXP planning envelope remains approximately **1,800 maximum**. Exact optional source-by-source CEXP may remain content-placement work where not separately locked; this does not reopen the structural curve or mandatory allocation.
 
 ---
 
@@ -131,14 +131,16 @@ Class Level completion is therefore intentionally earlier than full Mastery-boar
 
 ---
 
-# 8. Remaining CEXP implementation work
+# 8. Current CEXP closure / implementation boundary
 
-Structural CEXP is closed.
+Closed:
+- 0→6,000 CL13 curve — Audit123;
+- chapter-level CEXP envelopes — Audit123;
+- Light / Standard / Heavy mandatory formation CEXP allocation — Audit125;
+- mandatory named/story CEXP package placement Ch1–13 — Audits126–128.
 
-Still needed:
-- exact Light / Standard / Heavy formation CEXP;
-- named/story CEXP package placement;
-- optional-source CEXP placement inside the ~1,800 envelope;
-- encounter-by-encounter implementation validation.
+Still implementation/content work where not separately authored:
+- exact optional quest/Hunt CEXP packages inside the compatible optional envelope;
+- encounter-by-encounter data-entry and runtime validation.
 
-Do not reopen the 0→6,000 curve or chapter-level CEXP envelopes merely to solve a later raw-stat issue unless integrated testing shows a concrete pacing failure.
+Do not reopen the 0→6,000 curve, chapter envelopes, mandatory formation allocation, or mandatory named/story placement merely to solve a later content or raw-stat issue unless integrated testing demonstrates a concrete pacing failure.
