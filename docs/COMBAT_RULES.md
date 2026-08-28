@@ -1,7 +1,7 @@
 # Diyse — Combat Engineering Rules
 
-**Current written authority:** **v2.07 / Audit122**  
-**Compatible parent authorities:** Audit121 / Audit120 / Audit119 / Audit116 / Audit115 where not superseded.
+**Current written authority:** **v2.18 / Audit133**  
+**Compatible parent authorities:** Audit132 / Audit131 / Audit130 / Audit129 / Audit128 / Audit127 / Audit126 / Audit125 / Audit124 / Audit123 / Audit122 / Audit121 / Audit120 / Audit119 / Audit116 / Audit115 where not superseded.
 
 This is the implementation-facing combat baseline. Historical proofs remain useful only where compatible with the current authority chain.
 
@@ -157,7 +157,7 @@ Compatible Audit115 timing/duration rules remain active except where later audit
 
 Bleed:
 - damages each round;
-- damages again when the affected character acts;
+- damages again whenever the affected character acts;
 - is indirect status damage and cannot Crit;
 - ignores Defense/Spirit;
 - may KO unless a specific encounter rule overrides.
@@ -179,6 +179,20 @@ Where older status wording says `Accuracy` penalty, interpret it as the correspo
 
 ---
 
+# Status Resistance
+
+Current general raw stat bands:
+- **0** Normal
+- **5** Resistant
+- **10** Highly Resistant
+- **15** Exceptional
+
+Immunity exists only when explicitly authored.
+
+Audit133 does not restore old optional-Elite 60%/80% per-status working tables as a second generic status-resistance resolver. Identity-specific immunities and elemental affinities remain separate authored properties where compatible.
+
+---
+
 # Removed systems / ordinary states
 
 Do not recreate under renamed equivalents:
@@ -195,7 +209,7 @@ Ordinary stat Up/Down effects, Fields, Hunter's Measure, Prepared effects, class
 
 ---
 
-# Ability economy
+# Ability economy — Audit123 CLOSED
 
 MP is the universal ordinary Ability resource.
 
@@ -205,7 +219,7 @@ Learned Abilities remain weapon-independent once learned unless an individual cu
 
 Equipment does not choose an Ability's authored Physical/Magical/Hybrid formula.
 
-**The final class Ability MP check/certification is still OPEN.** Existing working costs are starting data, not permission to ignore the planned cross-kit MP audit.
+**The final class Ability MP certification is CLOSED under Audit123.** The current authored Base/Subclass MP tables pass cross-kit certification; do not reprice them without an explicit later balance failure or rules revision.
 
 ---
 
@@ -260,7 +274,6 @@ Split Moment retains its explicit two-selected-action ceiling and Prime firewall
 There are exactly 12 Primes: 6 Story + 6 Major Hunt.
 
 Progression:
-
 > **Recovered → Awakened**
 
 No Concordant, Prime XP, Prime levels, duplicate progression, or upgrade-material system.
@@ -278,7 +291,7 @@ Awakened Prime:
 - shared 3-full-normal-round cooldown after dismissal;
 - once per identity per battle unless a genuine fresh-HP boss form refreshes availability.
 
-Prime-local statuses vanish on dismissal under the compatible current Prime rules.
+Prime-local statuses vanish on dismissal under compatible current Prime rules.
 
 Current numeric sync:
 
@@ -300,6 +313,24 @@ Current numeric sync:
 
 ---
 
+# Raw-stat authority
+
+Mandatory named/special raw body stats:
+- Ch1–4 — Audit129 + Audit130
+- Ch5–8 — Audit131
+- Ch9–13 — Audit132
+
+Optional numbered-chapter Elite raw body stats:
+- Audit133
+- 12 current Elites
+- no approved Ch10 optional Elite
+- typical Elite duration ~2–4 serious party rounds
+- tier: **Ordinary < Elite << Regional Hunt**
+
+Do not fabricate unresolved targetable-component HP merely to fill a table.
+
+---
+
 # Chapter 4 combat firewall
 
 Chapter 4 uses exactly Fire / Ice / Lightning / Earth in its research/regulation framework.
@@ -311,10 +342,14 @@ The Seventh Reaction is emergent four-element behavior, not a seventh element or
 Reaction Conduit replaces Elemental Hexarch and uses only the four standard elements.
 
 Regulation Crucible uses four chambers, exactly two active/targetable at once, with rotation:
-
 > Fire/Ice → Lightning/Earth → Fire/Lightning → Ice/Earth
 
 Former Wind speed/cadence inheritance and Water Barrier/restoration/stabilization inheritance are removed.
+
+Current body HP:
+- Regulation Crucible Form I — **2,400**
+- The Seventh Reaction fresh Form II — **2,900**
+- total body HP — **5,300**
 
 ---
 
@@ -333,6 +368,7 @@ Regression coverage should include:
 - current Critical rules;
 - Bleed round + action damage cadence;
 - Bleed current clearing rules;
+- Status Resistance bands;
 - no Barrier/Brace/global Break meter;
 - Standard Card 3-slot limit and MP payment;
 - current 5/5/4/4/3/3 Standard-Card distribution;
