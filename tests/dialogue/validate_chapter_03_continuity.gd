@@ -103,7 +103,7 @@ func _validate_s020() -> void:
 		"made a lie out of two truths.",
 		"it's a map.",
 		"this is cresthaven.",
-		"old crown outpost in southhold. abandoned.",
+		"old crown outpost in yahtrenhold. abandoned.",
 		"cresthaven tomorrow."
 	]:
 		_expect(required in spoken, "S020 lost Warden/Cresthaven correction line: %s" % required)
