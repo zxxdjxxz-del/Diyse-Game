@@ -11,4 +11,4 @@ battle_background_family = ""
 cutscene_tier = "C0"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CHARACTER_LIFE", "UNFAMILIAR_ROADSIDE_STOP", "GENERIC_CAMP_OVERLAY", "NO_MODERN_LIGHTER"])
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CHARACTER_LIFE", "UNFAMILIAR_ROADSIDE_STOP", "GENERIC_CAMP_OVERLAY", "NO_MODERN_LIGHTER", "LEGACY_ENVIRONMENT_ID_ONLY"])
