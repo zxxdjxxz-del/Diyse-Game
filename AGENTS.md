@@ -24,9 +24,10 @@ Historical audits and cumulative trackers are provenance, not automatic current 
 
 Whole-project written authority:
 
-> **Diyse v2.19 / Audit134**
+> **Diyse v2.20 / Audit135**
 
 Newest chain:
+- `docs/canon/AUDIT135_MAJOR_HUNT_RAW_STAT_RECERTIFICATION_LOCK.md` — all 6 Major-Hunt recommended levels/raw stats; Crownless fresh-form split; The Unfinished World one-bar superboss budget.
 - `docs/canon/AUDIT134_REGIONAL_HUNT_RAW_STAT_RECERTIFICATION_LOCK.md` — all 11 Regional-Hunt recommended levels/raw stats; Throne of Emperor Vaelkor current two-form split.
 - `docs/canon/AUDIT133_OPTIONAL_ELITE_RAW_STAT_RECERTIFICATION_LOCK.md` — 12 current numbered-chapter optional Elites; no Ch10 optional Elite.
 - `docs/canon/AUDIT132_CHAPTERS_9_13_MANDATORY_NAMED_RAW_STAT_RECERTIFICATION_LOCK.md` — Ch9–13 mandatory named/special raw stats; completes mandatory-story raw-stat recertification.
@@ -142,8 +143,22 @@ Regional Hunts:
 - Walking Throne receives fresh-form Prime refresh
 - no Attendant HP pools invented
 
+Major Hunts:
+- Audit135 closes all 6 recommended levels and body raw stats
+- fixed tuning; no dynamic scaling
+- Ashen Whitehorn — Lv22, **11,270 HP**, EVA10 / SR10
+- Crownless Siege Marshal — Lv28, **9,360 HP**, EVA5 / SR10
+- Crownless War Engine — Lv29, fresh **11,650 HP**, EVA0 / SR10; combined **21,010 HP** and fresh-form Prime refresh
+- Concordance Guardian — Lv35, **18,180 HP**, EVA5 / SR15, one continuous bar
+- Worldscar Leviathan — Lv47, **30,200 HP**, EVA0 / SR10, one continuous bar
+- Final Archive Arbiter — Lv58, **43,100 HP**, EVA5 / SR15, one continuous bar
+- The Unfinished World — Lv70, **78,000 HP**, EVA0 / SR15, one continuous WORLDFRAME → WORLDHEART EXPOSED → FINAL CONSTRUCTION bar
+- The Unfinished World uses only Earth/Staggered, Ice/Freeze, Lightning/Stun, Fire/Burn; no Water/Wind/fifth element
+
 Tier principle:
 > **Ordinary < Elite < mandatory story boss < Regional Hunt < Major Hunt**
+
+Progression-dependent named/boss raw-stat recertification is closed across mandatory story, optional Elite, Regional Hunt, and Major Hunt layers.
 
 Do not fabricate unresolved component/subtarget HP merely to make a table complete.
 
@@ -161,6 +176,14 @@ Chapter 4 uses exactly Fire / Ice / Lightning / Earth. Wind and Water are remove
 
 # Active implementation frontier
 
-## **6 Major Hunt raw-stat recertification**
+## **Kessara Relic-copy service implementation**
 
-Preserve Hunt identities, unlocks, Prime rewards, form architecture, fixed authored tuning, and no dynamic scaling. Do not reopen closed MP/CEXP/Mastery/mandatory raw-stat/Elite/Regional-Hunt layers without explicit later authority or demonstrated failure.
+Preserve the already-closed copy rule:
+- Relic must already be obtained;
+- one matching copy component is required;
+- maximum one forged duplicate per Relic;
+- maximum quantity = 2;
+- the duplicate is mechanically identical;
+- Legacies cannot be copied.
+
+The remaining implementation pass may determine service fee, menu timing, and original-vs-copy UI presentation. Do not reopen closed MP/CEXP/Mastery/mandatory raw-stat/Elite/Regional-Hunt/Major-Hunt layers without explicit later authority or demonstrated failure.
