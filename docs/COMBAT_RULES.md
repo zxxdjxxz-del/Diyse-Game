@@ -1,7 +1,7 @@
 # Diyse — Combat Engineering Rules
 
-**Current written authority:** **v2.18 / Audit133**  
-**Compatible parent authorities:** Audit132 / Audit131 / Audit130 / Audit129 / Audit128 / Audit127 / Audit126 / Audit125 / Audit124 / Audit123 / Audit122 / Audit121 / Audit120 / Audit119 / Audit116 / Audit115 where not superseded.
+**Current written authority:** **v2.20 / Audit135**  
+**Compatible parent authorities:** Audit134 / Audit133 / Audit132 / Audit131 / Audit130 / Audit129 / Audit128 / Audit127 / Audit126 / Audit125 / Audit124 / Audit123 / Audit122 / Audit121 / Audit120 / Audit119 / Audit116 / Audit115 where not superseded.
 
 This is the implementation-facing combat baseline. Historical proofs remain useful only where compatible with the current authority chain.
 
@@ -189,7 +189,7 @@ Current general raw stat bands:
 
 Immunity exists only when explicitly authored.
 
-Audit133 does not restore old optional-Elite 60%/80% per-status working tables as a second generic status-resistance resolver. Identity-specific immunities and elemental affinities remain separate authored properties where compatible.
+Audits133–135 do not restore old percentage-based per-status working tables as a second generic Status Resistance resolver. Identity-specific immunities, true nonliving-body Bleed exclusions, and elemental affinities remain separate authored properties where compatible.
 
 ---
 
@@ -324,10 +324,37 @@ Optional numbered-chapter Elite raw body stats:
 - Audit133
 - 12 current Elites
 - no approved Ch10 optional Elite
-- typical Elite duration ~2–4 serious party rounds
-- tier: **Ordinary < Elite << Regional Hunt**
+- typical Elite duration ~2–4 serious party rounds.
 
-Do not fabricate unresolved targetable-component HP merely to fill a table.
+Regional Hunt raw body stats:
+- **Audit134**
+- 11 current Regional Hunts
+- fixed authored tuning; no dynamic scaling
+- recommended level = preparedness target, not access gate
+- Throne of Emperor Vaelkor = Sealed Throne 11,800 HP → fresh Walking Throne 14,200 HP, **26,000 combined**
+- the fresh Walking Throne form refreshes Prime availability.
+
+Major Hunt raw body stats:
+- **Audit135**
+- 6 current Major Hunts
+- fixed authored tuning; no dynamic scaling
+- recommended level = preparedness target, not access gate
+- Ashen Whitehorn — Lv22 / 11,270 HP / EVA10 / SR10
+- Crownless Siege Marshal — Lv28 / 9,360 HP / EVA5 / SR10
+- Crownless War Engine — Lv29 / fresh 11,650 HP / EVA0 / SR10; **21,010 combined** and fresh-form Prime refresh
+- Concordance Guardian — Lv35 / 18,180 HP / EVA5 / SR15 / one continuous bar
+- Worldscar Leviathan — Lv47 / 30,200 HP / EVA0 / SR10 / one continuous bar
+- Final Archive Arbiter — Lv58 / 43,100 HP / EVA5 / SR15 / one continuous bar
+- The Unfinished World — Lv70 / **78,000 HP** / EVA0 / SR15 / one continuous WORLDFRAME → WORLDHEART EXPOSED → FINAL CONSTRUCTION bar.
+
+Current challenge hierarchy:
+> **Ordinary < Elite < mandatory story boss < Regional Hunt < Major Hunt**
+
+Do not force monotonic HP across encounters with different architecture. Fresh-body count, action taxes, support objectives, status pressure, recovery, Prime refreshes, and phase mechanics all affect effective challenge.
+
+Do not fabricate unresolved targetable-component/support-object HP merely to fill a table.
+
+Progression-dependent named/boss raw-stat recertification is **CLOSED** across mandatory story encounters, optional Elites, Regional Hunts, and Major Hunts.
 
 ---
 
@@ -377,6 +404,8 @@ Regression coverage should include:
 - Awakened three-round control;
 - shared Prime cooldown;
 - genuine fresh-HP boss-form refresh;
+- fixed Hunt tuning/no dynamic scaling;
+- current optional challenge hierarchy;
 - current four-element/status architecture;
 - Character-Ability 75/25 Ruin scope and explicit Prime exceptions.
 
