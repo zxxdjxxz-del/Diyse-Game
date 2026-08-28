@@ -25,14 +25,17 @@ Historical audits and cumulative trackers are provenance, not automatic current 
 
 Whole-project written authority:
 
-> **Diyse v2.10 / Audit125**
+> **Diyse v2.13 / Audit128**
 
 Current newest chain:
-- `docs/canon/AUDIT125_MANDATORY_FORMATION_EXP_CEXP_ALLOCATION_LOCK.md` — mandatory formation player-EXP/CEXP allocation and named/story remainder envelopes.
+- `docs/canon/AUDIT128_CHAPTERS_9_13_NAMED_STORY_EXP_CEXP_PLACEMENT_LOCK.md` — exact mandatory named/story player-EXP+CEXP placement for Chapters 9–13; full 13-chapter placement closure.
+- `docs/canon/AUDIT127_CHAPTERS_5_8_NAMED_STORY_EXP_CEXP_PLACEMENT_LOCK.md` — exact mandatory placement for Chapters 5–8.
+- `docs/canon/AUDIT126_CHAPTERS_1_4_NAMED_STORY_EXP_CEXP_PLACEMENT_LOCK.md` — exact mandatory placement for Chapters 1–4.
+- `docs/canon/AUDIT125_MANDATORY_FORMATION_EXP_CEXP_ALLOCATION_LOCK.md` — mandatory formation player-EXP/CEXP allocation and chapter named/story envelopes.
 - `docs/canon/AUDIT124_OPTIONAL_EXP_AND_LEVEL_70_COMPLETIONIST_CAP_LOCK.md` — optional player EXP / Level-70 completionist proof.
 - `docs/canon/AUDIT123_CLASS_MP_CEXP_MASTERY_AND_LATE_GAME_PROGRESSION_LOCK.md` — class Ability MP, CEXP, Mastery, player-level spine, late mandatory EXP and enemy bands.
 - `docs/canon/AUDIT122_BASE_HIT_EVASION_AND_BLEED_RUNTIME_LOCK.md` — Base Hit/Evasion and Bleed.
-- `docs/canon/AUDIT121_CURRENT_SYSTEMS_ITEM_EQUIPMENT_AND_PROGRESSION_RECONCILIATION_LOCK.md` — current classes/Faces, removed systems, Legacies, Relic cleanup, 20-consumable economy, Chapter-4 rework and current terminology.
+- `docs/canon/AUDIT121_CURRENT_SYSTEMS_ITEM_EQUIPMENT_AND_PROGRESSION_RECONCILIATION_LOCK.md` — current classes/Faces, removed systems, Legacies, Relic cleanup, 20-consumable economy, Chapter-4 rework and terminology.
 - compatible older Audit120–Audit113 files remain active where not superseded.
 
 Chapters 0–4 remain COMPLETE/CLOSED at story/dialogue authority level. Chapter 4's four-element script/runtime state controls.
@@ -243,22 +246,35 @@ Formation CEXP Light / Standard / Heavy:
 - Ch12 42 / 53 / 66
 - Ch13 46 / 58 / 72
 
-Current named/story CEXP remainder centers:
-- Ch1 ~172
-- Ch2 ~220
-- Ch3 ~264
-- Ch4 ~304
-- Ch5 ~367
-- Ch6 ~461
-- Ch7 ~631
-- Ch8 ~687
-- Ch9 ~837
-- Ch10 ~586
-- Ch11 ~1,015
-- Ch12 **~1,786**
-- Ch13 ~1,032
+No player-EXP lower-level diminishing-return table is automatically applied to CEXP. Audit125 creates no CEXP diminishing-return subsystem.
 
-Do not apply the player-EXP lower-level diminishing-return table automatically to CEXP. Audit125 creates no CEXP diminishing-return subsystem.
+---
+
+# Exact mandatory named/story placement firewall — Audits126–128
+
+All 13 chapters are now CLOSED for exact named/story player-EXP and CEXP placement.
+
+- Ch1–4 — Audit126
+- Ch5–8 — Audit127
+- Ch9–13 — Audit128
+
+Rules:
+- optional Elites/Hunts/quests do not consume mandatory pools;
+- same-bar state changes pay once;
+- fresh-HP multi-form bosses pay one combined package after final-form clear;
+- authored nonlethal resolutions receive full progression where specified;
+- fixed authored packages are exempt from ordinary lower-level enemy EXP diminishing returns.
+
+Current late-chapter identity firewall:
+- **Ch11** = Crown Engine / Calder / Custodian / Truth. Do not place Varkesh, Vhalmarch or Vaelkor here.
+- **Ch12** = The Reforged March: Westguard-side campaign → Blackspine → Draevensreach → Varkesh live capture → Vhalmarch Forward Hub → Vorathen → Veiled Citadel → Vaelkor.
+- **Ch13** = final Ancient domain: Deepest City → Last Weapon Archive → Last Weapon Archon → Last Shelter → Reactor Galleries → Reactor–Crest Interface → Reconstituted Entity → The Last Command → Final Severance.
+
+True final PONR = **Last Shelter → Reactor Galleries**.
+
+Ch13 eight-encounter planning center is internally 5 pre-Shelter / 3 post-PONR. Pre-Shelter mandatory segment = 46,300 EXP to ~Lv60; post-PONR = 32,700 to ~Lv62.
+
+Final boss has exactly two genuine full-health forms: Reconstituted Entity → The Last Command. No third form.
 
 ---
 
@@ -298,9 +314,10 @@ S022–S026 Markdown and matching dialogue `.tres` resources are synchronized. H
 
 # Current open progression implementation work
 
-After Audit125, only these progression layers remain open:
-1. exact named/story player-EXP package placement by encounter/milestone;
-2. exact named/story CEXP package placement by encounter/milestone;
-3. progression-dependent named-enemy/boss raw-stat recertification.
+After Audit128, the remaining progression layer is:
 
-Do **not** reopen class Ability MP, the 6,000-CEXP curve, the eight-point Mastery schedule, Ch12 Class-Level completion, Last Shelter Lv60, ending Lv62, the 195,000 optional EXP pool, or Audit125 formation allocation merely because named/story placement is still pending.
+1. **progression-dependent named-enemy/boss raw-stat recertification.**
+
+Recover current HP / ATK / MAG / DEF / Spirit / SPD / Evasion / Status Resistance and compare against final player-level bands. Preserve encounter mechanics and HP-bar/form architecture.
+
+Do **not** reopen class Ability MP, the 6,000-CEXP curve, the eight-point Mastery schedule, Ch12 Class-Level completion, Last Shelter Lv60, ending Lv62, the 195,000 optional EXP pool, Audit125 formation allocation, or Audits126–128 named/story reward placement without explicit later authority or demonstrated failure.
