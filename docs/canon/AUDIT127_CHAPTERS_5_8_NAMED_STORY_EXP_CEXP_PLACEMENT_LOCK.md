@@ -90,7 +90,7 @@ Named/story remainder:
 |---|---:|---:|
 | Horizon Vault severance / campaign-intelligence breakthrough | **1,500** | **50** |
 | Western Rift Engine — full one-bar first clear | **5,000** | **165** |
-| Western line / Westreach operational control secured | **2,200** | **70** |
+| Western line / Westguard operational control secured | **2,200** | **70** |
 | Marshal Varkesh — Rift Conqueror complete two-form first clear | **7,000** | **230** |
 | Post-Varkesh coalition consolidation / Chapter 8 story clear | **3,538** | **172** |
 | **Total** | **19,238** | **687** |
