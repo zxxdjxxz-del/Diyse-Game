@@ -24,9 +24,10 @@ Historical audits and cumulative trackers are provenance, not automatic current 
 
 Whole-project written authority:
 
-> **Diyse v2.18 / Audit133**
+> **Diyse v2.19 / Audit134**
 
 Newest chain:
+- `docs/canon/AUDIT134_REGIONAL_HUNT_RAW_STAT_RECERTIFICATION_LOCK.md` — all 11 Regional-Hunt recommended levels/raw stats; Throne of Emperor Vaelkor current two-form split.
 - `docs/canon/AUDIT133_OPTIONAL_ELITE_RAW_STAT_RECERTIFICATION_LOCK.md` — 12 current numbered-chapter optional Elites; no Ch10 optional Elite.
 - `docs/canon/AUDIT132_CHAPTERS_9_13_MANDATORY_NAMED_RAW_STAT_RECERTIFICATION_LOCK.md` — Ch9–13 mandatory named/special raw stats; completes mandatory-story raw-stat recertification.
 - `docs/canon/AUDIT131_CHAPTERS_5_8_MANDATORY_NAMED_RAW_STAT_RECERTIFICATION_LOCK.md` — Ch5–8 mandatory named/special raw stats.
@@ -69,15 +70,7 @@ Base Hit / Evasion:
 
 There is no natural Accuracy stat.
 
-Status Resistance bands:
-- 0 Normal
-- 5 Resistant
-- 10 Highly Resistant
-- 15 Exceptional
-- immunity explicit only.
-
-Critical:
-- base 5%; flat pp bonuses; ordinary random cap 50%; multiplier 1.5×; Crit does not bypass Defense/Spirit.
+Status Resistance bands: 0 Normal / 5 Resistant / 10 Highly Resistant / 15 Exceptional; immunity explicit only.
 
 Removed systems:
 - Barrier does not exist.
@@ -107,22 +100,7 @@ CL13 cumulative CEXP = **6,000**. Base/Subclass CEXP are separate. Selected clas
 
 Exactly 8 automatic Mastery Points: Lv5, Lv10, Lv15, Lv20, Sixfold Volition, Lv40, Lv50, Lv60.
 
-Mandatory-route anchors:
-- Ch1 Lv5
-- Ch2 Lv9
-- Ch3 Lv13
-- Ch4 Lv17
-- Ch5 Lv22
-- Ch6 Lv27
-- Ch7 Lv32
-- Ch8 Lv37
-- Ch9 Lv42
-- Ch10 Lv47
-- Ch11 Lv52
-- Ch12 Lv57
-- **Last Shelter Lv60**
-- **End Ch13 Lv62**
-- cap Lv70
+Mandatory-route anchors: Ch1 5 / Ch2 9 / Ch3 13 / Ch4 17 / Ch5 22 / Ch6 27 / Ch7 32 / Ch8 37 / Ch9 42 / Ch10 47 / Ch11 52 / Ch12 57 / **Last Shelter 60** / **End Ch13 62** / cap 70.
 
 Class Levels complete during Ch12; Seyrik is the limiting normal-route case around end Ch12.
 
@@ -152,12 +130,20 @@ Mandatory story:
 Optional Elites:
 - Audit133
 - 12 current numbered-chapter optional Elites
-- **no approved Ch10 optional Elite**
-- Chapter 0 Ruin Vanguard Pursuer remains structural/tutorial, outside the numbered table
-- typical Elite duration ~2–4 serious party rounds
-- tier principle: **Ordinary < Elite << Regional Hunt**
+- no approved Ch10 optional Elite
+- typical duration ~2–4 serious party rounds
 
-Audit133 retains recovered Elite HP/ATK/MAG/DEF/Spirit/SPD values and adds current EVA/SR. It does not restore older 60%/80% per-status tables as a second generic resistance resolver.
+Regional Hunts:
+- Audit134 closes all 11 recommended levels and body raw stats
+- recommended level = preparedness target, not access gate
+- fixed tuning; no dynamic scaling
+- Hunts #1–10 retain recovered raw values
+- Throne of Emperor Vaelkor = Sealed Throne **11,800 HP** → fresh Walking Throne **14,200 HP**, total **26,000**
+- Walking Throne receives fresh-form Prime refresh
+- no Attendant HP pools invented
+
+Tier principle:
+> **Ordinary < Elite < mandatory story boss < Regional Hunt < Major Hunt**
 
 Do not fabricate unresolved component/subtarget HP merely to make a table complete.
 
@@ -175,7 +161,6 @@ Chapter 4 uses exactly Fire / Ice / Lightning / Earth. Wind and Water are remove
 
 # Active implementation frontier
 
-1. **11 Regional Hunt raw-stat recertification.**
-2. **6 Major Hunt raw-stat recertification.**
+## **6 Major Hunt raw-stat recertification**
 
-Preserve Hunt identities, unlocks, form architecture, fixed authored tuning, and no dynamic scaling. Do not reopen closed MP/CEXP/Mastery/mandatory raw-stat/Elite layers without explicit later authority or demonstrated failure.
+Preserve Hunt identities, unlocks, Prime rewards, form architecture, fixed authored tuning, and no dynamic scaling. Do not reopen closed MP/CEXP/Mastery/mandatory raw-stat/Elite/Regional-Hunt layers without explicit later authority or demonstrated failure.
