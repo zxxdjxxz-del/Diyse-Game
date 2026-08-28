@@ -1,34 +1,48 @@
 # Audit88 — Chapters 0–4 HD-2D Conversion and Cost-Consolidation Closure
 
-**Authority:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.73 / Audit88**  
+**Historical authority checkpoint:** Diyse: HD-2D JRPG Clean Active Complete Master Canon **v1.73 / Audit88**  
 **Date:** August 19, 2026  
-**Status:** ACTIVE WHOLE-PROJECT AUTHORITY
+**Status:** **HISTORICAL AUTHORITY — SUPERSEDED IN PART BY LATER CANON**
+
+## Current supersession notice
+
+Audit88 remains the historical closure record for the Chapters 0–4 HD-2D conversion and for compatible HD-2D production grammar. It is **not** the current whole-project authority.
+
+Current whole-project authority is **v2.20 / Audit135**, with later explicit overlays and operational files controlling wherever this historical record conflicts with current canon.
+
+For current Chapters 0–4 production implementation, read:
+
+`docs/production/HD2D_CHAPTERS_00_04_CURRENT_RECONCILIATION_2026-08-28.md`
+
+That overlay specifically supersedes Audit88's retired Chapter 4 six-element model, Wind/Water elemental production requirements, `Elemental Hexarch` / `Sixfold Crucible` current-facing terminology, six-chamber/three-active Crucible construction, obsolete no-Prime-refresh fresh-form rule, and retired regional production terminology such as Edgelands and Southhold.
+
+Historical technical IDs may still contain old strings until a reference-safe migration; those IDs are not current-facing canon.
 
 ## Parent authority
 
-Audit88 inherits all compatible **v1.72 / Audit87** authority and earlier canon unless explicitly superseded here.
+Audit88 inherited all compatible **v1.72 / Audit87** authority and earlier canon unless explicitly superseded at the time it was issued.
 
-Immediate chain:
+Immediate historical chain:
 
 - v1.72 / Audit87 — HD-2D Production Grammar and Legacy Presentation Language Closure
 - v1.71 / Audit86 — Cyanis Exact Visual Authority Lock
 - v1.70 / Audit85 — Yahtrea Exact World Map Visual and Spatial Authority Lock
 
-## What Audit88 closes
+## What Audit88 closed at its checkpoint
 
 The user approved the complete **HD-2D Conversion Audit, Pass 1** for completed Chapters **0, 1, 2, 3 and 4**, followed by the **Chapters 0–4 Cross-Chapter HD-2D Consistency & Cost-Consolidation Pass**.
 
-Those approvals are now canon production authority.
+Those approvals became canon production authority at the Audit88 checkpoint. Later explicit canon now supersedes incompatible portions.
 
-Detailed controlling production record:
+Detailed historical production record:
 
 `docs/production/HD2D_CHAPTERS_00_04_CONVERSION_AUDIT_PASS_1.md`
 
 ## Scope boundary
 
-Audit88 changes **presentation and implementation planning only**.
+Audit88 changed **presentation and implementation planning only**.
 
-It does not rewrite approved:
+It did not rewrite approved:
 
 - story;
 - dialogue;
@@ -43,9 +57,9 @@ It does not rewrite approved:
 - exact visual masters;
 - Card/Prime identities or chronology.
 
-If older staging text conflicts only because it assumes active 2.5D/3D production, Audit88 converts that implementation assumption to the approved HD-2D grammar while preserving the underlying authored scene meaning.
+If older staging text conflicted only because it assumed active 2.5D/3D production, Audit88 converted that implementation assumption to the approved HD-2D grammar while preserving the underlying authored scene meaning.
 
-## Locked Chapters 0–4 production results
+## Locked Chapters 0–4 production results at Audit88
 
 ### Chapter 0
 
@@ -82,7 +96,9 @@ If older staging text conflicts only because it assumes active 2.5D/3D productio
 - S021 identifies/unlocks Last Sentinel but does not manifest it.
 - Cresthaven is built as one evolving reusable master hub rather than chapter-specific replacement maps.
 
-### Chapter 4
+### Chapter 4 — historical Audit88 state
+
+The following bullets record the Audit88-era Chapter 4 production decision and are retained for provenance. **They are superseded where they conflict with the current four-element reconciliation and production overlay.**
 
 - Cresthaven Lower Grounds / Ivorybridge / Annex Approach-Regulation Terraces / Sixfold Annex / Regulation Core families.
 - Last Sentinel's first verified manifestation in S022 is the first approved C3/V4 early-game event and establishes the reusable Prime presentation pipeline.
@@ -91,6 +107,8 @@ If older staging text conflicts only because it assumes active 2.5D/3D productio
 - Elemental Hexarch uses one living-researcher base plus elemental overlays and resolves nonlethally.
 - Sixfold Crucible Form I → Form II remains a genuine two-form boss; Form II uses one base body plus six independent inherited-trait modules to avoid combinatorial sprite multiplication.
 - Crown Prototype reuses Annex assets and remains one body/one HP bar/no transformation.
+
+Current Chapter 4 implementation instead uses exactly Fire / Ice / Lightning / Earth, Reaction Annex, Reaction Conduit, Regulation Crucible with four chambers and two active at once, and a genuine fresh-HP Form II that refreshes Prime availability.
 
 ## Cross-chapter production locks
 
@@ -118,9 +136,9 @@ Earlier conversion-audit shorthand using `S0/S1/S2` is normalized to the C/V voc
 - Party uses the permanent staggered left-side formation; enemies remain right; open center is protected for actions/VFX.
 - Undersized early parties occupy legal positions inside the same formation grammar.
 
-### Environment and asset reuse
+### Environment and asset reuse — historical naming
 
-Approved durable families include:
+Audit88 recorded the following durable families using the terminology current at that checkpoint:
 
 - Edgelands regional environment kit;
 - wet/water library;
@@ -133,6 +151,8 @@ Approved durable families include:
 - prop/environment state system;
 - modular six-element VFX system;
 - modular Face/Card/Prime VFX architecture.
+
+For current implementation, use current regional terminology and the current four-element VFX/runtime rule. Physical wet/water environmental presentation remains valid without constituting a Water element.
 
 ### Nonlethal battle presentation
 
@@ -152,14 +172,16 @@ Do not manufacture new full forms merely to dramatize a threshold.
 
 Decorative particle count, reflections, weather density, secondary background motion, distortion and noncritical dynamic lights may scale down by device quality. Gameplay readability, target clarity, exact character identity, critical story VFX, battle timing and UI clarity may not.
 
-## Step status
+## Historical step status
 
 - **Step 1 — HD-2D Production Grammar:** COMPLETE / APPROVED under Audit87.
 - **Step 2 — HD-2D Conversion Audit of completed Chapters 0–4:** COMPLETE / APPROVED under Audit88.
-- **Step 2 cross-chapter consistency/cost consolidation:** COMPLETE / PASS / GREEN.
+- **Step 2 cross-chapter consistency/cost consolidation:** COMPLETE / PASS / GREEN at the Audit88 checkpoint.
 
-The next production-audit frontier is the inherited **Chapters 5–12 HD-2D / whole-game spectacle-and-cost audit**, beginning with **Chapter 5 — The Mountain Engine**, unless the user explicitly chooses another task first.
+The then-next production-audit frontier was the inherited **Chapters 5–12 HD-2D / whole-game spectacle-and-cost audit**, beginning with **Chapter 5 — The Mountain Engine**, unless the user explicitly chose another task first.
 
-## Supersession rule
+## Current supersession rule
 
-Audit88 is the current whole-project authority. Older 2.5D/3D production wording remains historical evidence only and cannot override the active HD-2D production grammar or the approved Chapters 0–4 conversion decisions.
+Audit88 is a historical authority checkpoint. It cannot override later explicit canon, current chapter reconciliations, current operational files, or current validated runtime.
+
+Compatible HD-2D grammar remains usable. Incompatible six-element Chapter 4 instructions, retired entity/region names, and obsolete Prime-refresh behavior are historical evidence only and must not be restored.
