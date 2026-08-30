@@ -117,15 +117,18 @@ High-rank conversion:
 ## Staggered
 
 Duration:
-# **3 rounds**
+# **5 rounds**
 
 Effects:
 - **Attack −20%**
 - **Magic −20%**
+- **Speed −20%**
 
 Timing:
 - Staggered becomes active immediately when applied;
 - its Attack and Magic penalties apply to later eligible actions in the same round;
+- because normal initiative is fixed at beginning-of-round, a mid-round Staggered application does **not** reorder the current round;
+- if still active at the next beginning-of-round initiative check, its Speed penalty affects that round's ordering;
 - under the standard round-duration rule, the application round counts as round 1.
 
 Rules:
