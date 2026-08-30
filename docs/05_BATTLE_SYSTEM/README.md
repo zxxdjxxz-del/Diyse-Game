@@ -8,6 +8,7 @@ Canonical global battle-system domain.
 - `TARGETING_AND_RETARGETING.md`
 - `DAMAGE_FORMULAS.md`
 - `BASE_HIT_AND_EVASION.md`
+- `APPLICATION_RELIABILITY.md`
 - `CRITICAL_HITS.md`
 - `ELEMENTS.md`
 - `STATUS_EFFECTS.md`
