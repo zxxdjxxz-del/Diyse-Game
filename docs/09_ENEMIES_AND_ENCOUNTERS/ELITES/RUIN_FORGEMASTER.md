@@ -5,7 +5,7 @@
 
 ## Raw body — RETAIN
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 23 | **2,250** | **88** | **62** | **64** | **57** | **31** | 0 | 5 |
 
 ## Actions
@@ -47,7 +47,7 @@
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+15 Total Defense through the end of the following round**
+> **Defense +15% / Spirit +15% through the end of the following round**
 
 2-round repetition lock.
 
