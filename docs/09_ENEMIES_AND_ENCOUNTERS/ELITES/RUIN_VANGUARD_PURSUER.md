@@ -30,7 +30,7 @@ Do not reveal Seyrik's name or identity in Chapter 0.
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+10 Total Defense through the end of the following round**
+> **Defense +10% / Spirit +10% through the end of the following round**
 
 2-round repetition lock.
 
