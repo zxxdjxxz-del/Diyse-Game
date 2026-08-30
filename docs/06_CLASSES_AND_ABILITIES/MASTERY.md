@@ -22,7 +22,7 @@ It has **not yet been formally promoted into the Audit123 master-canon file**, s
 |---|---|---:|---|---|
 | Cyanis | Crest Knight | CL3 | **Guardian Geometry** | When Crest Reprisal successfully intercepts an eligible single-target direct attack, Cyanis takes 10% less final direct damage from that intercepted attack. |
 | Cyanis | Crest Knight | CL6 | **Balanced Assault** | Crest Strike +15 Power; Twin Advance +15 total Power, not +15 per hit. |
-| Cyanis | Crest Knight | CL9 | **Clear Channel** | Resonant Pulse costs 1 less MP: 12 → 11. |
+| Cyanis | Crest Knight | CL9 | **Clear Channel** | Resonant Pulse costs 1 less MP: 10 → 9. |
 | Cyanis | Crest Knight | CL12 | **Penetrating Crest** | Crest Rend gains +10 percentage points of applicable penetration on both its Attack-derived and Magic-derived shares. |
 | Ilyra | Blue Warden | CL3 | **Gentle Hands** | Mend gains +10% healing potency. |
 | Ilyra | Blue Warden | CL6 | **Clear Heart** | Clear Warding additionally removes 1 eligible ordinary stat reduction. |
@@ -43,7 +43,7 @@ It has **not yet been formally promoted into the Audit123 master-canon file**, s
 | Seyrik | Ruin Vanguard | CL3 | **Sharper Ruin** | Ruin Cleave +15 Power; Rift Lance +15 Power. |
 | Seyrik | Ruin Vanguard | CL6 | **Branding Force** | Ember Brand Burn 20% → 30%; Fracturing Brand Bleed 20% → 30% base. |
 | Seyrik | Ruin Vanguard | CL9 | **Bound Fang** | Shardfang Pounce 135 → 145 Power; Rend 100 → 110 Power. |
-| Seyrik | Ruin Vanguard | CL12 | **Controlled Unmaking** | Unmaking Blow costs 2 less MP: 30 → 28; its Bleeding-target final-damage bonus +15% → +20%. |
+| Seyrik | Ruin Vanguard | CL12 | **Controlled Unmaking** | Unmaking Blow costs 2 less MP: 26 → 24; its Bleeding-target final-damage bonus +15% → +20%. |
 
 ## Subclass Masteries
 | Character | Class | Unlock | Mastery | Effect |
@@ -57,7 +57,7 @@ It has **not yet been formally promoted into the Audit123 master-canon file**, s
 | Ilyra | Vowblade | CL7 | **Equipment Mastery** | Donor Ruin Vanguard Relic access eligibility. |
 | Ilyra | Vowblade | CL11 | **Legacy Mastery** | Donor Ruin Vanguard Legacy access eligibility. |
 | Torren | Routeweaver | CL3 | **Long Sight** | Throughline's post-application full-round window increases by **1 full normal round**. |
-| Torren | Routeweaver | CL5 | **Guided Crossing** | Set the Pace **Speed +20% → +30%**; a Covered Crossing ally also gains **+10 Evasion** from Torren's turn completion until the routed action finishes resolving. |
+| Torren | Routeweaver | CL5 | **Guided Crossing** | Set the Pace **Speed +20% → +30%**; a Covered Crossing ally also gains **+10 Evasion** from the moment that routed turn slot begins until the routed action finishes resolving. |
 | Torren | Routeweaver | CL7 | **Equipment Mastery** | Donor Cardweaver Relic access eligibility. |
 | Torren | Routeweaver | CL11 | **Legacy Mastery** | Donor Cardweaver Legacy access eligibility. |
 | Nimera | Proofhunter | CL3 | **Proven Measure** | Measured Shot **140 → 155 Power**; its already-Measured Critical bonus **+15pp → +20pp**. |
