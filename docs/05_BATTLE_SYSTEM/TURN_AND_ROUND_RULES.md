@@ -3,7 +3,6 @@
 **Current domain authority checked:** repository `docs/COMBAT_RULES.md`, current through **v2.20 / Audit135**, plus compatible Audit115, Audit120, Audit122, Audit135 and newer explicit user corrections.  
 **Migration rule:** current explicit user corrections and current organized domain canon outrank stale/open wording inherited by v85.
 
-
 ## Core structure
 
 Diyse uses traditional discrete rounds with **turn-entry command selection**.
@@ -38,6 +37,22 @@ Because normal initiative is fixed at the beginning of the round:
 - a Speed increase or reduction applied after initiative is established does **not** reshuffle the current round;
 - that Speed change still applies immediately to any other authored effect that directly reads current Speed;
 - if the Speed change remains active at the next beginning-of-round initiative check, it affects that next round's ordering normally.
+
+## Authored initiative-slot rerouting
+
+An explicitly authored effect may alter the next round's turn order **during beginning-of-round initiative setup** without granting extra actions.
+
+Current player examples are Routeweaver **Covered Crossing** and **Open the Way**.
+
+For these effects:
+- the routed character's ordinary Speed-derived turn slot is removed and reinserted at the explicitly authored location;
+- the routed character still receives exactly **one** normal turn that round;
+- this is not a Speed increase and does not create an additional action;
+- if Torren is not conscious/eligible for a normal turn when that round's initiative is established, the pending Routeweaver reroute fails and ordinary initiative is used;
+- if Torren was eligible at initiative setup but later loses his action on his turn, his turn opportunity still occurs and the already-routed ally/allies remain immediately after that Torren turn slot;
+- Prime manifestation sequencing is not altered unless an owning Prime rule explicitly says otherwise.
+
+This is a narrow authored exception and does not create a universal Move/Wait/Timeline command.
 
 ## Turn-entry decision rule
 
