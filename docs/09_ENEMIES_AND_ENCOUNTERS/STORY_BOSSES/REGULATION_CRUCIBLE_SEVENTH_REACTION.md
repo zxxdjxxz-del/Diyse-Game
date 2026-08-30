@@ -51,10 +51,10 @@ Last Sentinel is Recovered and may be equipped for this encounter.
 Recovered Sentinel Impact:
 > **340 Power / Physical / Neutral / 40% Defense penetration**
 
-Because Form II is a genuine fresh-HP body:
-> **Prime availability refreshes at the Form-II transition.**
+The Seventh Reaction is a genuine fresh-HP Form II, but:
+> **the transition does not restore a spent Prime identity.**
 
-If Last Sentinel was used in Form I, it can therefore become available again for Form II under the current fresh-body boss rule.
+An unused Prime remains available normally; a Prime spent in Form I remains spent until valid rest or explicit restoration.
 
 No Prime use is mandatory.
 
@@ -175,7 +175,7 @@ If no chamber is active:
 > **Power: N/A — no direct damage**
 
 Core gains:
-> **+10 Total Defense through the end of the following round**
+> **Defense +10% / Spirit +10% through the end of the following round**
 
 2-round repetition lock.
 
@@ -203,7 +203,7 @@ At Form-I core 0 HP:
 - no intermediate EXP payout;
 - the party receives no free transition damage;
 - The Seventh Reaction appears at fresh full HP;
-- Prime availability refreshes.
+- **spent Prime identities remain spent**.
 
 Surviving chamber identities are inherited.
 Destroyed chamber identities remain absent.
@@ -255,7 +255,7 @@ Current Earth actions may inflict:
 > **20% Staggered**
 
 After The Seventh Reaction successfully uses an Earth-affinity damaging action:
-> it gains **+10 Total Defense through the end of the following round.**
+> it gains **Defense +10% / Spirit +10% through the end of the following round.**
 
 This is the Earth defensive-pressure inheritance.
 
@@ -307,7 +307,7 @@ If Colorless:
 > **Power: N/A — no direct damage**
 
 The Seventh Reaction gains:
-> **+10 Spirit and +10 Speed through the end of the following round.**
+> **Spirit +10% and Speed +10% through the end of the following round.**
 
 No extra action is granted.
 
