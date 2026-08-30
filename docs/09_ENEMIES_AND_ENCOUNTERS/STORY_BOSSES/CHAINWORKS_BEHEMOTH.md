@@ -100,13 +100,15 @@ Anchors:
 
 ## Bound-state protection
 
-Each intact Anchor grants:
-> **+5 Total Defense**
+Each intact Anchor independently grants:
+> **Defense +5% / Spirit +5%**
 
-Maximum:
-> **+15 Total Defense**
+With all three intact:
+> **Defense +15% / Spirit +15%**
 
-Destroying an Anchor immediately removes its +5 contribution.
+The three distinct Anchor sources stack additively under the global temporary-stat rule and remain subject to the universal **+40% per-stat cap**.
+
+Destroying an Anchor immediately removes that Anchor's +5% Defense / +5% Spirit contribution.
 
 ## Gate-hazard support
 
