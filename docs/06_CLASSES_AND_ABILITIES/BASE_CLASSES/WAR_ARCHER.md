@@ -20,6 +20,16 @@ When applied:
 - ordinary Status Resistance does not block it;
 - a genuinely separate fresh-HP form does not inherit the previous form's Measure unless explicitly authored.
 
+### Awakened Prime interaction
+Hunter's Measure uses a **normal-round** duration clock.
+
+If an Awakened Prime suspends the ordinary party while Hunter's Measure is active:
+- Prime rounds do **not** consume Hunter's Measure's normal-round duration checkpoints;
+- Hunter's Measure remains attached to the target during the suspension unless the target/body itself is replaced or another explicit effect removes it;
+- the target's **Evasion −10** remains part of that target's current state;
+- the manifested Prime is **not** an ordinary party member, so Hunter's Measure's **+10 percentage points party Critical Chance** does not automatically apply to Prime commands;
+- when normal party-round flow resumes, Hunter's Measure continues with the same remaining normal-round duration.
+
 ## Ability spine
 | Unlock | Ability | MP | Current effect |
 |---:|---|---:|---|
@@ -30,6 +40,13 @@ When applied:
 | CL6 | **Colossus Draw** | 22 | One enemy; Physical / Neutral; **245 Power**; **105 Base Hit**; **25% Defense penetration**; against Hunter's Measure, penetration becomes **35%**. |
 | CL9 | **Relentless Barrage** | 26 | All enemies; Physical / Neutral; **160 Power per target**. Each target with Hunter's Measure also receives one separate **80-Power** follow-up hit; that follow-up may Crit independently under normal direct-hit rules. |
 | CL13 | **The Great Beast Falls** | 44 | Base Ultimate; one enemy; Physical / Neutral; **600 Power**; **115 Base Hit**; **40% Defense penetration**; against Hunter's Measure gains **+15 percentage points Critical Chance**. |
+
+## Trait ranks — Veteran's Measure
+- **Rank I — CL1:** Torren gains **+10 Base Hit** against targets with Hunter's Measure.
+- **Rank II — CL6:** Torren gains **+5 percentage points Critical Chance** against Hunter's Measure.
+- **Rank III — CL12:** damaging War Archer Abilities gain **15% Defense penetration** against Hunter's Measure, subject to the global same-axis penetration cap.
+
+These bonuses are Torren/War-Archer-specific additions to Hunter's Measure's shared target state; they do not rewrite the shared Measure package for other party members.
 
 ## Masteries
 | Unlock | Mastery | Current effect |
