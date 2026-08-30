@@ -19,6 +19,16 @@ Hunter's Measure:
 - refreshes rather than stacks;
 - is an authored tactical state, not a universal harmful status.
 
+### Awakened Prime interaction
+Proofhunter uses War Archer's same Hunter's Measure Prime lifecycle:
+- Prime rounds do **not** consume Hunter's Measure's normal-round duration checkpoints;
+- Hunter's Measure remains attached to the target during suspension unless the target/body is replaced or another explicit effect removes it;
+- the target's **Evasion −10** remains active on that target;
+- the manifested Prime is not an ordinary party member, so the **+10 percentage points party Critical Chance** does not automatically apply to Prime commands;
+- normal-round duration resumes when the ordinary party returns.
+
+**Pin the Variable** Defense/Spirit reductions also use normal-round duration clocks. Prime rounds do not consume their printed 4-round or 3-round duration checkpoints. **Applied Evidence Rank I** is a temporary Magic modifier on Nimera and follows the global suspended-party temporary-stat rule.
+
 ## Ability spine
 | Unlock | Ability | MP | Current effect |
 |---:|---|---:|---|
