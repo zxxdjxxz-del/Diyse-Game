@@ -3,7 +3,6 @@
 **Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections.  
 **Authority treatment:** explicit/newer working corrections are preserved as working overrides when they have not yet been promoted into the audit chain.
 
-
 These multipliers define current selected-class identity.
 They are applied to the neutral pre-equipment natural-stat curve owned by the progression/stat layer.
 
@@ -15,8 +14,8 @@ Use **Spirit / SPR** as the current defensive magic-resistance stat.
 |---|---:|---:|---:|---:|---:|---:|---:|
 | Crest Knight | 1.05 | 0.90 | 1.08 | 0.95 | 1.12 | 1.00 | 0.96 |
 | Blue Warden | 1.00 | 1.12 | 0.88 | 1.10 | 0.98 | 1.10 | 0.98 |
-| War Archer | 0.95 | 0.90 | 1.15 | 0.82 | 0.90 | 0.90 | 1.15 |
-| Cardweaver | 0.90 | 1.12 | 0.90 | 1.10 | 0.88 | 1.02 | 1.10 |
+| War Archer | **1.00** | **0.95** | **1.15** | **0.82** | **0.95** | **0.90** | **1.00** |
+| Cardweaver | **0.88** | **1.15** | **0.85** | **1.08** | **0.86** | **1.00** | **1.18** |
 | Green Arcanist | 0.82 | 1.25 | 0.72 | 1.25 | 0.78 | 1.12 | 1.02 |
 | Ruin Vanguard | 1.20 | 0.76 | 1.22 | 0.85 | 1.18 | 0.85 | 0.88 |
 
@@ -26,10 +25,16 @@ Use **Spirit / SPR** as the current defensive magic-resistance stat.
 |---|---:|---:|---:|---:|---:|---:|---:|
 | Crest Arcanist | 0.90 | 1.15 | 0.85 | 1.15 | 0.92 | 1.05 | 1.00 |
 | Vowblade | 1.00 | 0.92 | 1.10 | 0.78 | 1.00 | 1.12 | 1.02 |
-| Routeweaver | 0.92 | 1.08 | 0.98 | 1.02 | 0.88 | 0.98 | 1.16 |
-| Proofhunter | 0.92 | 0.92 | 1.12 | 0.92 | 0.90 | 0.94 | 1.14 |
+| Routeweaver | **0.98** | **1.08** | **1.02** | **1.02** | **0.94** | **0.98** | **1.05** |
+| Proofhunter | **0.92** | **1.00** | **1.08** | **1.08** | **0.90** | **0.96** | **1.04** |
 | Axiomblade | 1.04 | 0.92 | 1.08 | 1.08 | 1.02 | 0.96 | 1.00 |
 | Ruin Warden | 1.05 | 1.05 | 1.00 | 1.05 | 1.02 | 1.05 | 0.90 |
+
+## Identity notes for the 2026-08-30 Torren/Nimera redesign
+- **War Archer:** high Attack, ordinary Speed, modest veteran durability; precision and Measure replace the old Speed-forward identity.
+- **Cardweaver:** highest Speed emphasis among this four-class set, high MP, respectable Magic, low physical durability; power budget is concentrated in Cards/copying/economy rather than raw spell damage.
+- **Routeweaver:** balanced hybrid support with moderate MP and near-normal Speed; sequencing and route manipulation are the identity rather than raw initiative dominance.
+- **Proofhunter:** balanced Attack/Magic hybrid with moderate Speed and light defenses; its payoff comes from Measure, debuffs, Crit, and penetration.
 
 ## Boundary
 
