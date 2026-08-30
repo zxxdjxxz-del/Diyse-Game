@@ -50,7 +50,7 @@ At the genuine Form-I → Form-II transition:
 - no intermediate EXP/CEXP reward;
 - no free transition attack;
 - party HP/MP do not refresh;
-- **Prime availability refreshes**.
+- **spent Prime identities remain spent**.
 
 At the later Exposed Rhazek state:
 - no HP refill;
@@ -172,7 +172,8 @@ The inherited Audit132 line is retained unchanged.
 > **Power: N/A — no direct damage**
 
 Effects:
-- **+15 Total Defense**
+- **Defense +15%**
+- **Spirit +15%**
 - **Attack +10%**
 
 through the end of the following round.
@@ -189,7 +190,7 @@ At Reforged Commander 0 HP:
 - no free transition hit;
 - no intermediate payout;
 - party resources are not restored;
-- **Prime availability refreshes**.
+- **spent Prime identities remain spent**.
 
 This is not possession.
 
@@ -316,8 +317,9 @@ Transition:
 - Reinforced Advance becomes unavailable.
 
 For the remainder of battle:
-- **Total Defense −20**
-- **Speed +10**
+- **Defense −20%**
+- **Spirit −20%**
+- **Speed +10%**
 
 Rhazek becomes easier to finish but personally more dangerous.
 
@@ -351,9 +353,9 @@ Rhazek becomes easier to finish but personally more dangerous.
 Any legally equipped acquired Prime may be used normally.
 
 Reforged Commander → Bastion Devourer:
-> **refreshes Prime availability**
+> **does not restore a spent Prime identity**
 
-because Bastion Devourer is a genuine fresh body.
+even though Bastion Devourer begins with fresh HP.
 
 Bastion Devourer → Exposed Rhazek:
 > **does not refresh Prime availability**
