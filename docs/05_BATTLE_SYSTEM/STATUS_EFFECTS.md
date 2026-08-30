@@ -98,7 +98,7 @@ High-rank conversion:
 ## Stun
 
 Base behavior:
-- lasts **3 affected turns**;
+- lasts **4 affected turns**;
 - **40%** action-loss chance on each affected turn;
 - cannot refresh while active.
 
@@ -107,8 +107,8 @@ An affected turn is a normal turn opportunity that begins while Stun is active.
 Therefore:
 - Stun applied before the target's current turn can affect that turn;
 - Stun applied after the target has already acted cannot retroactively affect or count that completed turn;
-- whether the action-loss roll succeeds or fails, that turn opportunity counts as one of the 3 affected turns;
-- after the third affected turn is processed, the ordinary Stun duration is complete unless it cleared earlier under an explicit owning rule.
+- whether the action-loss roll succeeds or fails, that turn opportunity counts as one of the 4 affected turns;
+- after the fourth affected turn is processed, the ordinary Stun duration is complete unless it cleared earlier under an explicit owning rule.
 
 High-rank conversion:
 - Regional Hunt — **25%** action-loss chance
