@@ -33,7 +33,8 @@ All four Core Masteries unlock automatically at the listed Class Levels under th
 
 
 ## Global references
-- Damage/penetration: `05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
+- Damage/penetration/direct-damage reduction: `05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
+- Fields: `05_BATTLE_SYSTEM/FIELDS.md`
 - Hit/Evasion: `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
 - Critical: `05_BATTLE_SYSTEM/CRITICAL_HITS.md`
 - Elements/statuses: `05_BATTLE_SYSTEM/ELEMENTS.md` and `STATUS_EFFECTS.md`

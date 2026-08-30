@@ -20,6 +20,7 @@ It owns:
 - universal harmful statuses;
 - Status Resistance;
 - temporary Attack / Magic / Defense / Spirit / Speed Up/Down rules;
+- Fields and their global lifecycle;
 - Guard as a legal defensive state;
 - global boss fresh-body / same-bar distinction;
 - removed-system firewalls.
@@ -54,6 +55,7 @@ It does **not** own:
 - No natural `Accuracy` stat exists.
 - Standard elements: **Fire / Ice / Lightning / Earth**
 - Universal harmful statuses: **Burn / Freeze / Stun / Staggered / Bleed**
+- Fields are battlefield-attached temporary states, not harmful statuses.
 - Ruin is a **special affinity/school**, not a fifth standard element.
 
 ## Current battle execution references
@@ -67,6 +69,7 @@ See:
 - `ELEMENTS.md`
 - `STATUS_EFFECTS.md`
 - `STAT_CHANGES.md`
+- `FIELDS.md`
 - `GUARD.md`
 - `BOSS_FORM_RULES.md`
 - `REMOVED_SYSTEMS_FIREWALL.md`
@@ -82,6 +85,8 @@ Current corrections used in this folder:
 - the old generic percentage-based status-susceptibility table is **not** a second universal status resolver;
 - current general **Status Resistance** uses the 0 / 5 / 10 / 15 raw-stat bands;
 - temporary percentage stat changes use the current `STAT_CHANGES.md` tier and same-axis stacking rules rather than deferred Minor/Major magnitudes;
+- standard Defend establishes 50% direct-damage reduction from its resolution through the end of the current round;
+- Fields use the current `FIELDS.md` lifecycle and do not become harmful statuses merely because they contain harmful effects;
 - **Barrier is removed** globally;
 - **Brace is removed**;
 - the global **Break/Stagger meter is removed**;

@@ -70,6 +70,15 @@ A battle ending, a same-bar phase change, or a genuine fresh-HP boss form does *
 - the ordinary party does not act or become targetable during normal Prime rounds;
 - party Standard Cards/Items do not operate from off-field unless an explicit Prime effect says so.
 
+### Ordinary Field interaction
+Awakened Prime rounds are not normal party rounds.
+
+Therefore, under the global Field lifecycle in `05_BATTLE_SYSTEM/FIELDS.md`:
+- ordinary numbered-round Fields remain recorded while the party is suspended;
+- Prime rounds do not consume normal-round Field duration checkpoints;
+- an ordinary party-authored Field does not automatically treat the manifested Prime body as a normal conscious party member or ally target;
+- a Field affects the Prime only where the Field or Prime effect explicitly says it does.
+
 ## Post-dismissal Prime spacing
 After any Prime manifestation ends, the party must complete:
 > **2 full normal party rounds**

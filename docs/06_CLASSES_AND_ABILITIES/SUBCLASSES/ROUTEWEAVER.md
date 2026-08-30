@@ -36,8 +36,9 @@ The previous third mechanical Subclass Mastery and old fourth-node Equipment-Mas
 - Rank III: Open the Way duration 3 → 4 rounds.
 
 ## Global references
-- Damage/penetration: `05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
+- Damage/penetration/direct-damage reduction: `05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
 - Temporary stats / Total Defense: `05_BATTLE_SYSTEM/STAT_CHANGES.md`
+- Fields: `05_BATTLE_SYSTEM/FIELDS.md`
 - Hit/Evasion: `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
 - Critical: `05_BATTLE_SYSTEM/CRITICAL_HITS.md`
 - Elements/statuses: `05_BATTLE_SYSTEM/ELEMENTS.md` and `STATUS_EFFECTS.md`

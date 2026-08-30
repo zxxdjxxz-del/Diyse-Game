@@ -12,6 +12,7 @@ Canonical global battle-system domain.
 - `ELEMENTS.md`
 - `STATUS_EFFECTS.md`
 - `STAT_CHANGES.md`
+- `FIELDS.md`
 - `GUARD.md`
 - `BOSS_FORM_RULES.md`
 - `REMOVED_SYSTEMS_FIREWALL.md`
