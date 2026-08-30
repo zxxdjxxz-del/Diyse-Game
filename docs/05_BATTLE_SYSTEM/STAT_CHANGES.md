@@ -226,15 +226,18 @@ Eligible stat-restoration effects such as **Balance Seal** and class effects exp
 ## Current class normalization closures
 
 Current ordinary class stat-change durations are normalized to the global magnitude table unless an Ability explicitly owns a special timing window:
-- War Archer — **Pinning Strike:** Speed −20% for **3 rounds**.
+- Cardweaver — **Hastened Weave:** Speed +20% for **3 rounds**.
+- Proofhunter — **Applied Evidence Rank I:** Magic +10% for **4 rounds** after Nimera successfully applies or refreshes Hunter's Measure with a Proofhunter Ability.
+- Proofhunter — **Pin the Variable:** unmeasured target Defense −10% / Spirit −10% for **4 rounds**; Measured target Defense −20% / Spirit −20% for **3 rounds**.
+- Routeweaver — **Set the Pace:** Speed +20% for **3 rounds**; **Guided Crossing** raises the magnitude to **+30%** while retaining the explicitly authored 3-round duration.
 - Ruin Vanguard — **Controlled Apocalypse:** Attack −30% / Magic −30% for **2 rounds**.
 - Crest Arcanist — **Arcane Rupture:** Magic −10% for **4 rounds**.
 - Axiomblade — **Proven Advance:** Defense +10% / Spirit +10% for **4 rounds**.
 - Vowblade — **Vow of Severance:** Defense −10% / Spirit −10% for **4 rounds**.
-- Proofhunter — **Pin the Variable:** Speed −20% for **3 rounds**.
-- Routeweaver — **Clear Route:** Speed +10% for **4 rounds**.
-- Routeweaver — **Crossroads / Forward Route:** Speed +10% for **4 rounds**.
-- Routeweaver — **Crossroads / Covered Route:** Defense +15% / Spirit +15% for **3 rounds**.
-- Routeweaver — **Open the Way:** Speed +15% while the Route Field is active; Field duration remains separately authored.
 
-The owning class sheets should print those exact percentage values and durations.
+Retired closures that must not be restored:
+- War Archer Pinning Strike Speed Down;
+- Proofhunter Pin the Variable Speed Down;
+- Routeweaver Clear Route / Crossroads / Open the Way Speed or Defense/Spirit buff packages.
+
+The owning current class sheets print the exact active percentages and durations.
