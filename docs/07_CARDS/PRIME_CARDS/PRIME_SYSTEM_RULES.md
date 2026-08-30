@@ -80,13 +80,14 @@ Therefore, under the global Field lifecycle in `05_BATTLE_SYSTEM/FIELDS.md`:
 - a Field affects the Prime only where the Field or Prime effect explicitly says it does.
 
 ### Ordinary temporary-stat interaction
-Awakened Prime rounds also do not consume normal-round temporary Attack/Magic/Defense/Spirit/Speed durations on the suspended party.
+Awakened Prime rounds also do not consume normal-round temporary Attack/Magic/Defense/Spirit/Speed durations.
 
 Therefore, under `05_BATTLE_SYSTEM/STAT_CHANGES.md`:
 - ordinary party temporary core-stat modifiers remain recorded while the party is suspended;
 - Prime rounds do not consume those normal-round duration checkpoints;
 - suspended-party stat modifiers do not automatically modify the manifested Prime body;
-- when the party returns, those modifiers resume with the same remaining duration they had when suspension began.
+- ordinary enemy-side temporary core-stat modifiers that are measured in normal rounds likewise do **not** consume normal-round duration checkpoints merely because Prime rounds pass;
+- when ordinary normal-round flow returns, those modifiers resume with the same remaining normal-round duration they had when suspension began.
 
 Prime-local temporary core-stat modifiers use their authored Prime-round/action window and disappear on dismissal unless a command explicitly creates a separate return-to-party effect.
 
@@ -94,6 +95,27 @@ For migrated/current Prime wording, a Prime-local core-stat modifier described o
 > **active immediately through the end of the next Prime round, or until dismissal if dismissal occurs first**
 
 Return-to-party stat effects begin when the ordinary party returns and use normal-round timing under `STAT_CHANGES.md`.
+
+### Ordinary tactical-state interaction
+An authored class/Ability state that explicitly measures its lifetime in **normal rounds** also pauses its duration clock during Awakened Prime rounds unless its owner explicitly says otherwise.
+
+Current examples include:
+- War Archer / Proofhunter **Hunter's Measure**;
+- Routeweaver **Throughline** and **Crossroads**;
+- Cardweaver **Perfect Recall**;
+- Route Weaving Rank I's stored `before the end of the following round` benefit.
+
+These states remain recorded/attached while their normal-round clocks are paused, but Prime manifestation does **not** broaden their subjects or triggers:
+- a bonus written for ordinary party members does not automatically apply to the Prime body;
+- a trigger requiring an allied Ability or Standard Card is not satisfied by a Prime command;
+- a Prime command does not become a copied/recorded ordinary Ability or Standard Card;
+- a state may still end if its own structural condition ends, such as its target being defeated/replaced or a required link ceasing to exist.
+
+A pending effect written for the **next normal round's initiative setup** waits through intervening Prime rounds and attempts to resolve at the first normal-round initiative setup after dismissal. Routeweaver **Covered Crossing** and **Open the Way** use this rule and still perform their normal Torren-eligibility check at that setup.
+
+Turn-window states tied to an ordinary party member's own turn do not advance merely because Prime rounds pass, because the suspended party member receives no ordinary turn during those Prime rounds. Cardweaver **Living Archive** therefore does not clear merely because a Prime round completes; it clears when Nimera actually completes her next ordinary turn under its owner rule.
+
+Harmful-status clocks remain owned separately by `05_BATTLE_SYSTEM/STATUS_EFFECTS.md`; this tactical-state rule does not silently rewrite status timing.
 
 ## Post-dismissal Prime spacing
 After any Prime manifestation ends, the party must complete:
