@@ -61,6 +61,24 @@ An equipped weapon does not silently change a learned Ability between Physical/M
 
 Individual equipment Traits may modify an eligible action only where explicitly authored.
 
+## Max HP / Max MP equipment bonuses
+
+Equipment bonuses to **Max HP** and **Max MP** are persistent flat raw additions.
+
+Use:
+- `Max HP +N`
+- `Max MP +N`
+
+Do not use percentage-based Max HP / Max MP equipment bonuses under the current system.
+
+These flat bonuses:
+- are added after Player-Level natural stat calculation and selected-class HP/MP multiplier resolution;
+- stack additively across legally equipped items;
+- are not temporary stat changes;
+- do not use the temporary core-stat ±40% cap.
+
+Exact current conversions and construction details are owned by `HP_MP_FLAT_BONUS_RULES.md`.
+
 ## Count firewall
 
 Current equipment:
