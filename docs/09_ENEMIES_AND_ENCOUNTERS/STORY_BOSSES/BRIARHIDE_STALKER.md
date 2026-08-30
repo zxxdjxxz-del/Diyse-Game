@@ -73,13 +73,13 @@ This is encounter-specific and creates no universal Capture/Subdual/Mercy mechan
 - **110 Power per target**
 - Base Hit **95**
 - no harmful-status rider
-- 2-round repetition lock
+- 2-round repetition lock.
 
 ### Frightened Guard
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+10 Total Defense through the end of the following round**
+> **Defense +10% / Spirit +10% through the end of the following round**
 
 2-round repetition lock.
 
