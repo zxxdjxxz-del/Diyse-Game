@@ -38,6 +38,21 @@ Because normal initiative is fixed at the beginning of the round:
 - that Speed change still applies immediately to any other authored effect that directly reads current Speed;
 - if the Speed change remains active at the next beginning-of-round initiative check, it affects that next round's ordering normally.
 
+### No separate action-Speed mechanic
+
+`Action Speed`, cast speed, per-action priority, and hidden action-order multipliers are **not active Diyse mechanics**.
+
+A selected Ability, Card, Item, Attack, or Defend command does not move earlier or later inside the already-fixed current-round order merely because an effect describes that individual action as faster or slower.
+
+Current-facing effects must instead use a supported mechanic such as:
+- the actual **Speed** stat, which can affect a later initiative setup if still active;
+- Base Hit / Evasion / application reliability;
+- MP-cost or potency changes;
+- direct-damage reduction or another explicitly owned effect;
+- the narrow authored next-round initiative rerouting described below.
+
+Historical or migrated `action Speed` wording must not be implemented as a second initiative system.
+
 ## Authored initiative-slot rerouting
 
 An explicitly authored effect may alter the next round's turn order **during beginning-of-round initiative setup** without granting extra actions.
