@@ -44,7 +44,7 @@ Add reliable access to:
 - Flow Tonic
 
 ### By Chapter 3
-- Stability Remedy is available before Chapter-4 Freeze pressure.
+- Stability Remedy is available **before the first Chapter-3 Stun pressure** and remains reliably available for the later Chapter-4 Freeze rollout.
 - General Remedy enters the core/regional stock layer.
 
 ### Chapter 4–5
