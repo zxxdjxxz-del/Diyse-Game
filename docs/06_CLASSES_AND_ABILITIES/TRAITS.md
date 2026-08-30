@@ -33,7 +33,7 @@ This file is the controlling current Trait-effect register. It restores the late
 ### Vaelira — Green Arcanist — Prismatic Flow
 - **Rank I — CL1:** the first damaging action each round whose standard element differs from Vaelira's previous damaging action gains **+10% final damage**. Colorless resets the remembered element without receiving the bonus.
 - **Rank II — CL6:** that qualifying different-element action also gains **+10 Base Hit / application reliability**, where relevant.
-- **Rank III — CL12:** that qualifying action additionally gains **+15% Magic Defense penetration** on its Magical-derived portion.
+- **Rank III — CL12:** that qualifying action additionally gains **+15% Spirit penetration** on its Magical-derived portion.
 - Vaelira's separately authored matching-element status-specialist bonuses remain separate.
 
 ### Seyrik — Ruin Vanguard — Severed Command
@@ -45,13 +45,13 @@ This file is the controlling current Trait-effect register. It restores the late
 
 ### Cyanis — Crest Arcanist — Crest Resonance
 - **Rank I — CL1:** all MP-costing Crest Arcanist Abilities cost **2 less MP**, minimum 1 MP.
-- **Rank II — CL6:** damaging **Magical / Colorless** Crest Arcanist Abilities gain **+15% Magic Defense penetration**.
+- **Rank II — CL6:** damaging **Magical / Colorless** Crest Arcanist Abilities gain **+15% Spirit penetration**.
 - **Rank III — CL12:** when **Crest Attunement** is consumed, the empowered Ability additionally deals **+10% final damage**.
 - **Crest Attunement:** Arcane Lance establishes it through the end of the following round; Cyanis's next **different** Crest Arcanist Ability consumes it for **+15 Base Hit / application reliability**. One state maximum; refresh, not stack; Arcane Lance cannot consume the state it just created.
 
 ### Ilyra — Vowblade — Mercy in Steel
 - **Rank I — CL1:** when a Vowblade Ability restores HP to a conscious ally other than Ilyra, she gains **Tempered Mercy** through the end of the following round. Her next damaging Vowblade Ability consumes it for **+10% final damage**.
-- **Rank II — CL6:** the consuming Ability also gains **+10 Base Hit**, **+10% Defense penetration** on Attack-derived portions, and **+10% Magic Defense penetration** on Magic-derived portions.
+- **Rank II — CL6:** the consuming Ability also gains **+10 Base Hit**, **+10% Defense penetration** on Attack-derived portions, and **+10% Spirit penetration** on Magic-derived portions.
 - **Rank III — CL12:** if that empowered Ability hits a target already **Bleeding**, that target takes an additional **+10% final damage**. Evaluate per target for AoE.
 - One Tempered Mercy state maximum; qualifying heals refresh rather than stack.
 
@@ -69,7 +69,7 @@ This file is the controlling current Trait-effect register. It restores the late
 ### Vaelira — Axiomblade — Formal Equivalence
 - **Rank I — CL1:** when Vaelira deals damage with a single-element **Fire / Ice / Lightning / Earth** Ability, that element becomes her current expression through the end of the following round. Her next **Neutral damaging Axiomblade Ability** adopts that stored element and consumes the expression. Authored elemental Axiomblade Abilities are never overwritten; multi-element actions do not establish an expression; one expression maximum.
 - **Rank II — CL6:** a Neutral Axiomblade Ability that consumes the expression gains **+10% final damage**.
-- **Rank III — CL12:** that consuming Ability also gains **+15% Defense penetration** on Physical-derived portions and **+15% Magic Defense penetration** on Magical-derived portions.
+- **Rank III — CL12:** that consuming Ability also gains **+15% Defense penetration** on Physical-derived portions and **+15% Spirit penetration** on Magical-derived portions.
 
 ### Seyrik — Ruin Warden — Ruin's Mercy
 - **Rank I — CL1:** whenever Seyrik actually restores HP to himself from an authored **Drain**, also restore HP equal to **15% of the actual HP restored to Seyrik** to the conscious other ally with the lowest HP%. Cannot revive; ties use stable party-slot order.
