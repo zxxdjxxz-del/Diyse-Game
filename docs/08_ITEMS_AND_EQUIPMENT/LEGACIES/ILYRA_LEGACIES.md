@@ -52,10 +52,12 @@ Capstone:
 - **Max HP +12%**.
 
 When an eligible healing Ability targets a conscious ally at **30% Max HP or lower** when the action begins:
-- action gets **+20% action Speed**;
-- qualifying low-HP target gets **+15% direct-healing potency**.
-For multi-target healing, Speed boost applies if at least one target qualifies; healing bonus is evaluated per target.
-No extra action, revive bonus, Barrier, or turn-order rewrite.
+- that qualifying target gains **+15% direct-healing potency** from the Ability;
+- after the Ability resolves, that qualifying target takes **10% less eligible direct damage through the end of the following round**.
+
+For multi-target healing, both benefits are evaluated separately per target.
+The direct-damage reduction follows the global strongest-active direct-damage-reduction rule; it does not add with a stronger simultaneous reduction.
+No extra action, revive bonus, Barrier, priority, or turn-order rewrite.
 
 
 ## Donor legality
