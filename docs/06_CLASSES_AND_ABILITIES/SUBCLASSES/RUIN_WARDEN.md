@@ -15,10 +15,10 @@
 |---:|---|---:|---|
 | CL1 | **Siphon Rune** | 14 | One enemy; Hybrid / Ruin 75/25; 165 Power; self-heal 35% eligible damage, capped at 20% Max HP; no Bleed; `Rune` is flavor only. |
 | CL4 | **Stolen Grace** | 17 | One enemy; Magical / Colorless; 170 Power; heal other lowest-HP conscious ally for 30% eligible damage + 0.35 × Magic, capped at 25% target Max HP. |
-| CL7 | **Restoring Ward** | 19 | One ally; heal 18% Max HP + 0.90 × Magic; remove 1 harmful status; +10 Total Defense through end next round. |
+| CL7 | **Restoring Ward** | 19 | One ally; heal 18% Max HP + 0.90 × Magic; remove 1 harmful status; **Defense +10% / Spirit +10% through end next round**. |
 | CL9 | **Withering Mercy** | 29 | All enemies; Magical / Earth; 150 Power; 20% Staggered; recovery pool = 12% total eligible HP damage split across conscious party, each capped at 15% Max HP. |
 | CL11 | **Reclaimed Breath** | 32 | Revive one KO ally at 25% Max HP. |
-| CL13 | **Mercy Through Ruin** | 54 | Subclass Ultimate; all enemies; Hybrid / Ruin 75/25; 320 Power; allies heal 25% Max HP + 1.00 × Magic, cleanse 1 harmful status, and gain +20 Total Defense for 2 rounds. |
+| CL13 | **Mercy Through Ruin** | 54 | Subclass Ultimate; all enemies; Hybrid / Ruin 75/25; 320 Power; allies heal 25% Max HP + 1.00 × Magic, cleanse 1 harmful status, and gain **Defense +20% / Spirit +20% for 2 rounds**. |
 
 ## Masteries
 | Unlock | Mastery | Current effect |
@@ -37,7 +37,7 @@ The previous third mechanical Subclass Mastery and old fourth-node Equipment-Mas
 
 ## Global references
 - Damage/penetration: `05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
-- Temporary stats / Total Defense: `05_BATTLE_SYSTEM/STAT_CHANGES.md`
+- Temporary stat changes: `05_BATTLE_SYSTEM/STAT_CHANGES.md`
 - Hit/Evasion: `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
 - Critical: `05_BATTLE_SYSTEM/CRITICAL_HITS.md`
 - Elements/statuses: `05_BATTLE_SYSTEM/ELEMENTS.md` and `STATUS_EFFECTS.md`

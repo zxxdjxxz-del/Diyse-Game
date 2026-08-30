@@ -11,9 +11,9 @@
 ## Command package
 | Command | Target | Formula | Power | Base Hit | Effect |
 |---|---|---|---:|---:|---|
-| **Assault Form** | one enemy | Physical / Neutral | 240 | — | No harmful status. Defensive profile until next action: Defense ×1.15, Spirit ×0.90. |
-| **Arcane Form** | all enemies | Magical / Colorless | 190 each | — | No harmful status. Defensive profile until next action: Defense ×0.90, Spirit ×1.20. |
-| **Continuance Form** | one enemy | Physical / Neutral | 220 | 110 | No harmful status and no healing. Defensive profile until next action: Defense ×1.10, Spirit ×1.10. |
+| **Assault Form** | one enemy | Physical / Neutral | 240 | — | No harmful status. Defensive profile until next action: **Defense +15% / Spirit −10%**. |
+| **Arcane Form** | all enemies | Magical / Colorless | 190 each | — | No harmful status. Defensive profile until next action: **Defense −10% / Spirit +20%**. |
+| **Continuance Form** | one enemy | Physical / Neutral | 220 | 110 | No harmful status and no healing. Defensive profile until next action: **Defense +10% / Spirit +10%**. |
 | **Mirror Revision** | copied legal target | Copied legal formula/typing | 70% of copied action's original Power | copied/legal | Copy last legal ordinary enemy damaging action using Living Revision's own stats/targeting. May retain eligible ordinary Burn/Freeze/Stun/Staggered/Bleed rider. Cannot copy protected boss actions, Prime actions, Items, summons, transformations, scripts, or protected states. |
 | **Legacy/final — Perfect Revision** | final/late command; mode-selected | Assault / Arcane / Continuance modes | 470 ST Physical OR 310 AoE Magical OR 285 AoE Physical | Continuance 110 | Continuance mode has no harmful status; after dismissal, conscious party gains Attack/Magic/Defense/Spirit +15% and Speed +10% for 2 full normal rounds. Living Revision has no healing branch. |
 

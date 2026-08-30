@@ -50,7 +50,8 @@ It does **not** own:
   - Item
   - Defend
 - Speed determines action order; it does **not** grant extra ordinary actions.
-- Temporary percentage stat-change tiers are **Minor 10% / Standard 20% / Major 30%**; explicit numeric values remain explicit exceptions.
+- Temporary Attack / Magic / Defense / Spirit / Speed Up/Down values are **always percentages**; raw `+N`/`−N` shorthand on those five axes means `+N%`/`−N%`.
+- Temporary percentage stat-change tiers are **Minor 10% / Standard 20% / Major 30%**; explicit numeric percentages remain explicit exceptions.
 - MP is the universal ordinary Ability resource.
 - No natural `Accuracy` stat exists.
 - Standard elements: **Fire / Ice / Lightning / Earth**
@@ -84,7 +85,7 @@ Current corrections used in this folder:
 - the **Class Ability MP certification** was superseded by the approved 2026-08-30 15% Ability-MP reduction owned by `06_CLASSES_AND_ABILITIES`;
 - the old generic percentage-based status-susceptibility table is **not** a second universal status resolver;
 - current general **Status Resistance** uses the 0 / 5 / 10 / 15 raw-stat bands;
-- temporary percentage stat changes use the current `STAT_CHANGES.md` tier and same-axis stacking rules rather than deferred Minor/Major magnitudes;
+- temporary Attack / Magic / Defense / Spirit / Speed changes use percentages only; `STAT_CHANGES.md` controls tiers, same-axis stacking, and legacy shorthand conversion;
 - standard Defend establishes 50% direct-damage reduction from its resolution through the end of the current round;
 - Fields use the current `FIELDS.md` lifecycle and do not become harmful statuses merely because they contain harmful effects;
 - **Barrier is removed** globally;

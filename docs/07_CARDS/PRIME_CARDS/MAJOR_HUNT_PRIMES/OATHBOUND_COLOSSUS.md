@@ -11,9 +11,9 @@
 ## Command package
 | Command | Target | Formula | Power | Base Hit | Effect |
 |---|---|---|---:|---:|---|
-| **Siege Ram** | one enemy | Physical / Neutral | 330 | 105 | 40% Defense penetration; 40% Staggered; +10 Total Defense through next-Prime-round window. |
+| **Siege Ram** | one enemy | Physical / Neutral | 330 | 105 | 40% Defense penetration; 40% Staggered; gain **Defense +10% / Spirit +10%** through next-Prime-round window. |
 | **Crownless Barrage** | all enemies | Physical / Neutral | 220 each | 100 | 20% Defense penetration; 25% Staggered per damaged target; self-heal 8% Max HP once. |
-| **Iron Oath** | one enemy | Physical / Neutral | 265 | 110 | 25% Defense penetration; +25 Total Defense next window; Oathbound Momentum makes next damaging command +20% final damage; unavailable Round 3. |
+| **Iron Oath** | one enemy | Physical / Neutral | 265 | 110 | 25% Defense penetration; gain **Defense +25% / Spirit +25%** through next window; Oathbound Momentum makes next damaging command +20% final damage; unavailable Round 3. |
 | **Legacy/final — Citadel Breaker** | Prime Round 3 only; one enemy | Physical / Neutral | 430 | 105 | 55% Defense penetration; 50% Staggered; Oathbound Momentum may boost it. |
 
 

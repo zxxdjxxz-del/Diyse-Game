@@ -13,9 +13,9 @@
 |---|---|---|---:|---:|---|
 | **Recovered — Sentinel Impact** | one enemy | Physical / Neutral | 340 | — | 40% Defense penetration; 25% Bleed and 35% Staggered authored checks. |
 | **Awakened — Sentinel Impact** | one enemy | Physical / Neutral | 285 | — | 35% Defense penetration; 25% Bleed and 30% Staggered. |
-| **Awakened — Unbroken March** | all enemies | Physical / Neutral | 205 each | — | 20% Bleed per successfully damaged target; Last Sentinel +15 Total Defense through authored window. |
-| **Awakened — Hold the Line** | self | Support | — | — | +25 Total Defense; next damaging Last Sentinel command +25% final damage within authored window; unavailable Prime Round 3. |
-| **Legacy/final — Last Bastion** | Prime Round 3 only; all enemies | Physical / Neutral | 255 each | — | 40% Defense penetration; linked check 25% Bleed, otherwise 25% Staggered; max 1 newly applied harmful status per target. On dismissal, returning conscious party gains +20 Total Defense under return window. |
+| **Awakened — Unbroken March** | all enemies | Physical / Neutral | 205 each | — | 20% Bleed per successfully damaged target; Last Sentinel gains **Defense +15% / Spirit +15%** through authored window. |
+| **Awakened — Hold the Line** | self | Support | — | — | **Defense +25% / Spirit +25%**; next damaging Last Sentinel command +25% final damage within authored window; unavailable Prime Round 3. |
+| **Legacy/final — Last Bastion** | Prime Round 3 only; all enemies | Physical / Neutral | 255 each | — | 40% Defense penetration; linked check 25% Bleed, otherwise 25% Staggered; max 1 newly applied harmful status per target. On dismissal, returning conscious party gains **Defense +20% / Spirit +20%** under return window. |
 
 
 

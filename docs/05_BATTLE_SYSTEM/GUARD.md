@@ -64,7 +64,7 @@ Multiple active direct-damage-reduction percentages do **not** add or multiply t
 
 Therefore, for example, standard Guard's 50% reduction supersedes a simultaneous ordinary 10% or 15% direct-damage-reduction effect while Guard remains active. The weaker effect keeps its own duration and resumes if it remains active after Guard ends.
 
-Defense, Spirit, `Total Defense`, and direct-damage reduction are separate layers. Guard does not grant Defense or Spirit unless an effect explicitly says it does.
+Defense/Spirit percentage changes and direct-damage reduction are separate layers. Legacy `Total Defense` wording is only shorthand for equal percentage Defense/Spirit changes under `STAT_CHANGES.md`; it is not its own defensive layer. Guard does not grant Defense or Spirit unless an effect explicitly says it does.
 
 ## Prepared defensive/reaction states
 

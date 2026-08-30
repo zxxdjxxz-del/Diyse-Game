@@ -84,10 +84,9 @@ Direct-damage reduction is a separate layer from:
 - Defense;
 - Spirit;
 - penetration;
-- percentage Defense/Spirit Up/Down;
-- flat `Total Defense`.
+- temporary percentage Defense/Spirit Up/Down.
 
-Those stat layers establish the direct damage first; direct-damage reduction then reduces the eligible resulting direct damage.
+Temporary Defense/Spirit changes resolve through `STAT_CHANGES.md` before penetration and direct-damage reduction are applied. Legacy `Total Defense` wording is not a separate layer; it resolves as equal percentage Defense/Spirit changes under `STAT_CHANGES.md`.
 
 ### Eligible damage
 
@@ -140,5 +139,5 @@ Separately authored indirect/fixed systems remain outside the ordinary direct-da
 - revival.
 
 Critical resolution is defined separately in `CRITICAL_HITS.md`.
-Temporary stat changes and `Total Defense` resolve through `STAT_CHANGES.md`.
+Temporary Attack / Magic / Defense / Spirit / Speed changes resolve through `STAT_CHANGES.md`.
 Standard Guard/Defend resolves through `GUARD.md`.

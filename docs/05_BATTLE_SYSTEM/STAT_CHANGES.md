@@ -1,7 +1,7 @@
 # Diyse — Temporary Stat Changes
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Current authority basis:** compatible Audit115/Audit116 stat-change language plus newer explicit status and turn-entry corrections.  
-**Authority rule:** this file owns the global temporary Attack / Magic / Defense / Spirit / Speed Up/Down framework and the inherited `Total Defense` shorthand. Individual Abilities, Cards, equipment, enemies, and encounters own which changes they apply and for how long.
+**Authority rule:** this file owns the global temporary Attack / Magic / Defense / Spirit / Speed Up/Down framework. Individual Abilities, Cards, equipment, enemies, and encounters own which changes they apply and for how long.
 
 ## Scope
 
@@ -11,12 +11,12 @@ This framework covers temporary combat changes to:
 - Defense
 - Spirit
 - Speed
-- flat `Total Defense` packages
 
 These temporary stat changes are **not universal harmful statuses**. Status Resistance does not automatically resist them, and ordinary harmful-status remedies do not automatically remove them.
 
 This file does **not** redefine:
 - Base Hit / Evasion changes;
+- Status Resistance changes;
 - Critical modifiers;
 - penetration;
 - direct-damage reduction;
@@ -25,6 +25,25 @@ This file does **not** redefine:
 - persistent level, class-selection, Trait, or other non-temporary stat construction.
 
 Those remain under their owning rules.
+
+## All temporary core-stat Up/Down values are percentages
+
+Temporary Attack / Magic / Defense / Spirit / Speed Up/Down effects are **always percentage-based**.
+
+Therefore:
+- `Attack +10` means **Attack +10%**;
+- `Magic −15` means **Magic −15%**;
+- `Defense +20` means **Defense +20%**;
+- `Spirit −10` means **Spirit −10%**;
+- `Speed +15` means **Speed +15%**.
+
+Production-facing current files should print the `%` sign explicitly rather than relying on the shorthand.
+
+There is **no ordinary temporary flat-bonus layer** for Attack, Magic, Defense, Spirit, or Speed.
+
+This rule does **not** convert persistent/raw stat construction into percentages. Equipment raw stats, level/class stat construction, and other persistent stat values remain authored in their normal raw units.
+
+It also does not convert different mechanics that use flat values by design. For example, `Base Hit +10`, `Evasion +5`, `Status Resistance +10`, Power changes, penetration percentage points, and direct-damage reduction keep their own owning units.
 
 ## Percentage tiers
 
@@ -78,59 +97,33 @@ Current examples:
 
 Those reductions therefore do not add to a separate same-axis negative percentage modifier. The strongest active reduction on that stat governs, with independent durations preserved.
 
-## Total Defense — exact meaning
+## Retired `Total Defense` shorthand
 
-`Total Defense +N` is inherited shorthand for one temporary defensive package that grants:
+Older/current migrated files may contain wording such as `+10 Total Defense`, `+15 Total Defense`, `+20 Total Defense`, or `+25 Total Defense`.
 
-> **Defense +N and Spirit +N as flat bonuses for the same authored duration.**
+`Total Defense` is **not a third stat and not a flat defensive layer**.
 
-It is **not**:
-- a third defensive stat;
-- a percentage increase;
-- direct-damage reduction;
-- Guard;
-- Barrier;
-- a replacement for Defense or Spirit.
+Interpret that legacy shorthand as equal percentage increases to the two defensive stats:
+- `+10 Total Defense` = **Defense +10% / Spirit +10%**;
+- `+15 Total Defense` = **Defense +15% / Spirit +15%**;
+- `+20 Total Defense` = **Defense +20% / Spirit +20%**;
+- `+25 Total Defense` = **Defense +25% / Spirit +25%**.
 
-Examples:
-- `+10 Total Defense` = **Defense +10 / Spirit +10**;
-- `+15 Total Defense` = **Defense +15 / Spirit +15**;
-- `+20 Total Defense` = **Defense +20 / Spirit +20**;
-- `+25 Total Defense` = **Defense +25 / Spirit +25**.
+Current production-facing files should prefer the explicit `Defense +N% / Spirit +N%` wording instead of `Total Defense`.
 
-This definition applies wherever current Abilities, Standard Cards, Primes, or encounter effects use the exact `Total Defense` wording.
+Because these are ordinary Defense/Spirit percentage changes, they participate in the normal same-axis strongest-Up / strongest-Down rules above. They do **not** coexist as an additional separate flat layer.
 
-### Total Defense stacking
-
-Multiple active `Total Defense` packages do **not** add together.
-
-Use only the **strongest active Total Defense value**. Every source retains its own duration, so a weaker still-active package resumes after a stronger one expires.
-
-Reapplying the same named source refreshes that source's authored duration unless its owner explicitly says otherwise.
-
-A `Total Defense` package may coexist with percentage Defense/Spirit changes because they are different modifier layers.
-
-## Flat modifiers and resolution order
-
-An explicitly flat temporary modifier such as `+10 Speed` remains flat and is not converted into a percentage tier.
-
-For a legal ordinary stat calculation that contains both temporary percentage and temporary flat modifiers:
-
-1. establish the persistent combat stat from level/class/equipment and other persistent construction;
-2. resolve the active percentage Up/Down result for that stat;
-3. apply the legal temporary flat modifier for that stat, including the governing `Total Defense` value where applicable.
-
-Therefore a target with 100 Defense, Defense +10%, and +15 Total Defense has **125 Defense** while both effects are active.
-
-Persistent equipment raw stats are part of the established persistent combat stat and are not temporary flat modifiers under this rule.
+Example:
+- Defense +20% plus legacy `+15 Total Defense` = **Defense +20%**, not +35%;
+- if no other Spirit Up is active, the same legacy package still supplies **Spirit +15%** for its own remaining duration.
 
 ## Direct-damage reduction remains separate
 
-Direct-damage reduction is not Defense, Spirit, or Total Defense.
+Direct-damage reduction is not Attack, Magic, Defense, Spirit, or Speed.
 
-A legal direct-damage-reduction effect may coexist with Total Defense and percentage Defense/Spirit changes unless its owning rule explicitly prohibits that combination.
+A legal direct-damage-reduction effect may coexist with percentage Defense/Spirit changes unless its owning rule explicitly prohibits that combination.
 
-Its own stacking/resolution behavior remains under the owning damage/defensive-effect rules rather than being converted into Total Defense.
+Its own stacking/resolution behavior remains under `DAMAGE_FORMULAS.md` and `GUARD.md`; it is never converted into a stat percentage merely because both mechanics are defensive.
 
 ## High-rank enemies
 
@@ -149,16 +142,18 @@ Ordinary harmful-status cleanse does not remove ordinary temporary stat changes 
 
 Eligible stat-restoration effects such as **Balance Seal** and class effects explicitly capable of clearing ordinary negative stat changes may restore the affected axis toward normal according to their owning rules.
 
-Positive Total Defense is an ordinary positive temporary effect where the owning purge/removal rule is legally able to remove such effects.
-
 ## Current class normalization closures
 
-The current incomplete class shorthand is resolved as follows:
+The current class shorthand resolves as follows:
 - War Archer — **Pinning Strike:** Speed −20% for 2 rounds.
 - Ruin Vanguard — **Controlled Apocalypse:** Major Attack Down + Major Magic Down = Attack −30% / Magic −30% for 2 rounds.
 - Crest Arcanist — **Arcane Rupture:** Minor Magic Down = Magic −10% for 2 rounds.
 - Axiomblade — **Proven Advance:** Minor Defense Up + Minor Spirit Up = Defense +10% / Spirit +10% for 2 rounds.
 - Vowblade — **Vow of Severance:** Minor Defense Down + Minor Spirit Down = Defense −10% / Spirit −10% for 2 rounds.
 - Proofhunter — **Pin the Variable:** Speed −20% for 2 rounds.
+- Routeweaver — **Clear Route:** Speed +10% for 2 rounds.
+- Routeweaver — **Crossroads / Forward Route:** Speed +10% for 2 rounds.
+- Routeweaver — **Crossroads / Covered Route:** Defense +15% / Spirit +15% for 2 rounds.
+- Routeweaver — **Open the Way:** Speed +15% while the Route Field is active.
 
-The owning class sheets should print those exact values rather than retaining deferred or unqualified shorthand.
+The owning class sheets should print those exact percentage values rather than retaining raw `+N`/`−N` core-stat shorthand.
