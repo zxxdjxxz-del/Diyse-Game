@@ -45,11 +45,17 @@ Standard Cards may be eligible records for Cardweaver **Living Archive** only un
 
 An action whose effect grants additional actual actions or changes the number of normal actions is not copy-eligible. Therefore **Split Moment** itself remains a legal reusable Standard Card but is **not** eligible for Living Archive, Echo Weave, Perfect Recall, or Grand Reweaving.
 
-## Status application
-A direct-damage Card with a status rider:
+## Hit and application
+A direct-damage Card with a status or other hit-attached chance-based rider:
 1. resolves hit/evasion;
 2. resolves damage;
-3. if the hit landed, resolves the status chance separately.
+3. if the hit landed, resolves the rider's application chance separately.
+
+Application reliability uses `../../05_BATTLE_SYSTEM/APPLICATION_RELIABILITY.md`:
+- `+N application reliability` means **+N percentage points** to an eligible chance-based application check;
+- it does not change the Card's Base Hit;
+- it does not invent a rider or bypass immunity/protected/scripted legality;
+- an automatic Card effect remains automatic rather than gaining a new application roll.
 
 Vaelira's personal Green-Arcanist linked-status specialist bonus does **not** automatically apply to Standard Cards.
 
