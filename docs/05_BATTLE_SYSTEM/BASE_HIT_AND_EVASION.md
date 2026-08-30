@@ -1,6 +1,6 @@
 # Diyse — Base Hit and Evasion
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current domain authority checked:** repository `docs/COMBAT_RULES.md`, current through **v2.20 / Audit135**, plus compatible Audit115, Audit120, Audit122, Audit135.  
+**Current domain authority checked:** repository `docs/COMBAT_RULES.md`, current through **v2.20 / Audit135**, plus compatible Audit115, Audit120, Audit122, Audit135 and newer explicit battle-system corrections.  
 **Migration rule:** current master canon outranks stale/open wording inherited by v85.
 
 
@@ -11,6 +11,8 @@ Diyse has no natural character `Accuracy` stat.
 Use:
 - **Base Hit** — authored on the action;
 - **Evasion** — target-side avoidance property.
+
+Application reliability is a separate chance-based secondary/utility-effect modifier owned by `APPLICATION_RELIABILITY.md`; it is not Accuracy and does not modify the hit roll.
 
 ## Resolver
 
@@ -76,21 +78,26 @@ Percentage modifiers apply to the authored/base value first.
 
 Flat point modifiers apply afterward.
 
-## Hit versus status
+## Hit versus application
 
-Hit/Evasion and harmful-status application are separate checks.
+Hit/Evasion and secondary application are separate checks.
 
-For a damaging hit with an attached harmful-status rider:
+For a damaging hit with an attached harmful-status or other hit-attached chance-based rider:
 
 1. resolve Base Hit / Evasion;
 2. a miss deals no direct damage and does not reach that hit's Critical roll;
-3. a miss also prevents that hit-attached rider from applying;
-4. on a hit, resolve the harmful-status application separately.
+3. a miss also prevents that hit-attached rider from attempting application;
+4. on a hit, resolve any eligible chance-based application separately under `APPLICATION_RELIABILITY.md` and the rider's owning rule.
 
-## Staggered terminology
+A modifier written as `+N Base Hit / application reliability where relevant` may affect both stages separately if the action actually uses both; it never combines them into one roll.
 
-Older text saying an `Accuracy −20%` penalty from Staggered is read as:
+## Current Staggered boundary
 
-> **Base Hit −20%**
+Current **Staggered does not modify Base Hit or Evasion**.
 
-Do not recreate an Accuracy stat.
+Its current universal stat package is:
+- Attack −20%;
+- Magic −20%;
+- Speed −20%.
+
+Older text mapping Staggered to `Accuracy −20%`, `Base Hit −20%`, or Evasion penalties is retired and must not be restored.
