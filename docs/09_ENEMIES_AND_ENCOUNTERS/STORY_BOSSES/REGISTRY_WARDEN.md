@@ -172,7 +172,7 @@ Reason:
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+15 Total Defense through the end of the following round**
+> **Defense +15% / Spirit +15% through the end of the following round**
 
 2-round repetition lock.
 
@@ -194,8 +194,9 @@ Transition:
 - Closed Record becomes unavailable.
 
 For the remainder of battle:
-- **Speed +10**
-- **Total Defense −15**
+- **Speed +10%**
+- **Defense −15%**
+- **Spirit −15%**
 
 The Warden becomes:
 > faster, more direct, and easier to damage.
