@@ -44,7 +44,7 @@ Fresh-form rules:
 - party HP/MP do not refresh;
 - no intermediate reward;
 - no free transition attack;
-- **Prime availability refreshes**.
+- **spent Prime identities remain spent**.
 
 The Last Command is the:
 > **second and final combat body**
@@ -163,8 +163,8 @@ Reason:
 > **Power: N/A — no direct damage**
 
 Effects:
-- Defense +10
-- Spirit +15
+- **Defense +10%**
+- **Spirit +15%**
 
 through the end of the following round.
 
@@ -193,9 +193,12 @@ It is:
 |---:|---:|---:|---:|---:|---:|---|
 | 1 | **1,100** | **160** | **172** | 0 | 15 | **N/A** |
 
-While functional:
-- Reconstituted Entity gains **+10 Total Defense**
-- Reconstituted Entity gains **Magic +10%**
+While functional, this distinct support source grants the Reconstituted Entity:
+- **Defense +10%**
+- **Spirit +10%**
+- **Magic +10%**
+
+These modifiers participate in the global temporary-stat stacking cap normally.
 
 Rules:
 - no independent ordinary turn;
@@ -221,8 +224,9 @@ the Reconstituted Entity enters:
 Same bar.
 
 For the rest of Form I:
-- Speed +10
-- Total Defense −10
+- **Speed +10%**
+- **Defense −10%**
+- **Spirit −10%**
 
 No refill.
 No free attack.
@@ -241,7 +245,7 @@ At Form-I 0 HP:
 Then:
 > **The Last Command begins at fresh full HP**
 
-Prime availability refreshes under the global fresh-body rule.
+Spent Prime identities remain spent under the global rest-based Prime-use rule.
 
 This is not:
 - resurrection of a second Entity;
@@ -354,15 +358,17 @@ It is not another fragment.
 |---:|---:|---:|---:|---:|---|
 | **1,050** | **170** | **170** | 5 | 15 | **N/A** |
 
-Each functional Shard grants The Last Command:
-- **+5 Total Defense**
-- Attack +5%
-- Magic +5%
+Each functional Shard is a distinct support source granting The Last Command:
+- **Defense +5%**
+- **Spirit +5%**
+- **Attack +5%**
+- **Magic +5%**
 
 Maximum with two:
-- +10 Total Defense
-- Attack +10%
-- Magic +10%
+- **Defense +10% / Spirit +10%**
+- **Attack +10% / Magic +10%**
+
+The two Shard sources stack additively and remain subject to the global +40% per-stat cap.
 
 Rules:
 - no independent ordinary turns;
@@ -440,8 +446,9 @@ Transition:
 - no Prime refresh.
 
 For the rest of combat:
-- Speed +10
-- Total Defense −15
+- **Speed +10%**
+- **Defense −15%**
+- **Spirit −15%**
 
 Any surviving Unbound Shards remain.
 
@@ -451,8 +458,8 @@ No extra action is created.
 
 Any legally equipped acquired Prime follows normal combat rules.
 
-Because Form II is a genuine fresh body:
-> **Prime availability refreshes at Crest Integration**
+Crest Integration creates a genuine fresh Form-II body, but:
+> **does not restore a spent Prime identity**.
 
 Same-bar events do not refresh:
 - Continuity Hunger;
