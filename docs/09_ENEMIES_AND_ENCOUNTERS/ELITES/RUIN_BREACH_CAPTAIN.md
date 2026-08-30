@@ -38,7 +38,7 @@
 > **Power: N/A — no direct damage**
 - Attack +10%
 - Magic +10%
-- Speed +10
+- Speed +10%
 through end of following round
 - no extra action
 - 2-round repetition lock
