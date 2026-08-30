@@ -1,23 +1,26 @@
 # Diyse — Turn and Round Rules
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current domain authority checked:** repository `docs/COMBAT_RULES.md`, current through **v2.20 / Audit135**, plus compatible Audit115, Audit120, Audit122, Audit135.  
-**Migration rule:** current master canon outranks stale/open wording inherited by v85.
+**Current domain authority checked:** repository `docs/COMBAT_RULES.md`, current through **v2.20 / Audit135**, plus compatible Audit115, Audit120, Audit122, Audit135 and newer explicit user corrections.  
+**Migration rule:** current explicit user corrections and current organized domain canon outrank stale/open wording inherited by v85.
 
 
 ## Core structure
 
-Diyse uses traditional discrete rounds.
+Diyse uses traditional discrete rounds with **turn-entry command selection**.
 
 1. Resolve beginning-of-round effects and immediate battle-state checks.
-2. Each enemy locks one legal action using the legitimate beginning-of-round state and may not inspect unconfirmed player commands.
-3. The player selects one action for every conscious active party member before confirming the round.
-4. Resolve **Item** actions first, ordered by current effective Speed.
-5. Resolve **Defend** actions second, ordered by current effective Speed.
-6. Resolve all remaining party and enemy actions from highest to lowest current effective Speed.
-7. Party members win exact Speed ties against enemies.
-8. Tied party members resolve in player-selected order.
-9. Tied enemies/entities use a stable deterministic order.
-10. Finish complete action/reaction/state-change packages, then resolve end-of-round processing.
+2. At the beginning of the round, establish the normal turn order for all eligible combatants using current effective **Speed** and the established tie rules.
+3. That normal turn order remains fixed for the rest of the round. Speed changes during the round affect later round ordering unless an individual authored effect explicitly says otherwise.
+4. When a player-controlled character's turn arrives, the player selects that character's legal action and target/content using the **current battle state at that turn**.
+5. When an enemy/entity turn arrives, its AI selects one legal action using the **current legitimate battle state at that turn**. It may not inspect future player choices that have not yet been made.
+6. The selected action resolves immediately, including its complete cost / action / reaction / state-change package, before the next normal combatant's turn begins.
+7. **Item** and **Defend** are normal selected commands on the acting character's Speed-ordered turn. They do not receive separate universal start-of-round priority phases.
+8. Party members win exact Speed ties against enemies.
+9. Tied party members resolve in player-selected order.
+10. Tied enemies/entities use a stable deterministic order.
+11. After every eligible combatant has completed or lost its normal turn for that round, resolve end-of-round processing and begin the next round.
+
+There is no normal full-party command queue and no universal **Confirm Round** step.
 
 ## Speed rule
 
@@ -28,6 +31,18 @@ Speed does **not**:
 - create ATB-style extra turns;
 - create a universal initiative gauge;
 - allow a character to act twice merely for being much faster.
+
+A faster combatant normally acts before a slower combatant, but both still receive at most one ordinary turn in that normal round unless an individual authored mechanic explicitly says otherwise.
+
+## Turn-entry decision rule
+
+Ordinary player decisions are made when the relevant character's turn actually arrives.
+
+Therefore:
+- the player may react to actions and state changes that occurred earlier in the same round;
+- a character is not committed at round start to an Ability, Card, Item, Defend, or target;
+- enemy decisions likewise use the legitimate state that exists when that enemy's turn arrives;
+- no actor may use knowledge of future unselected player commands.
 
 ## Command list
 

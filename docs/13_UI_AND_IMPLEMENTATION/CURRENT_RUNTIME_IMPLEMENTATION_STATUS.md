@@ -1,7 +1,7 @@
 # Diyse — Current Runtime Implementation Status
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit v85 working overrides already preserved in the reorganized domains.  
-**Runtime source checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
+**Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit corrections already preserved in the reorganized domains.  
+**Runtime source checkpoint inspected:** `Diyse-Game` commit `68b66e129fa7e34dac69501786d00a1023ad0fd4`.  
 **Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
 
 
@@ -40,18 +40,31 @@ Implemented:
 - schema validation.
 
 ### Combat proof
-Implemented architectural proof for:
-- discrete round selection;
-- one selected action per conscious party member;
+The current runtime implements architectural proof for:
+- discrete rounds;
 - command selection;
 - target selection;
-- round confirmation;
-- Item/Defend/ordinary priority resolution;
-- Speed ordering and tie rules;
+- Speed ordering/tie behavior;
 - hostile retargeting;
 - Standard Card proof;
 - Prime direct-control proof;
 - field return after generated encounter.
+
+However, its **normal round-control implementation is now legacy proof behavior**, specifically:
+- whole-party action selection before resolution;
+- round confirmation;
+- enemy action locking at round start;
+- Item/Defend/ordinary priority sorting.
+
+Current production authority instead uses:
+- discrete rounds with Speed-based normal turn order established at round start;
+- command/target selection when each player character's turn arrives;
+- immediate resolution of that turn before the next normal actor;
+- enemy AI decision when the enemy/entity turn arrives;
+- no universal Item/Defend priority phases;
+- no whole-party queue or Confirm Round requirement.
+
+See `05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md` and `IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md` before production combat implementation.
 
 ### Persistence
 Implemented:

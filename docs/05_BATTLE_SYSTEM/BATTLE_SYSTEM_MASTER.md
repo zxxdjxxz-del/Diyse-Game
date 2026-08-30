@@ -1,7 +1,7 @@
 # Diyse — Battle System Master
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current domain authority checked:** repository `docs/COMBAT_RULES.md`, current through **v2.20 / Audit135**, plus compatible Audit115, Audit120, Audit122, Audit135.  
-**Migration rule:** current master canon outranks stale/open wording inherited by v85.
+**Current domain authority checked:** repository `docs/COMBAT_RULES.md`, current through **v2.20 / Audit135**, plus compatible Audit115, Audit120, Audit122, Audit135 and newer explicit user corrections.  
+**Migration rule:** current explicit user corrections and current organized domain canon outrank stale/open wording inherited by v85.
 
 
 ## Scope
@@ -35,6 +35,12 @@ It does **not** own:
 - Presentation target: **HD-2D**
 - Active permanent party: **4**
 - Maximum simultaneously active enemies: **8**
+- Battle flow uses **discrete rounds**, not ATB.
+- Normal turn order is established at round start from current effective **Speed** and tie rules.
+- A player action is selected **when that character's turn arrives** and then resolves immediately before the next normal turn.
+- Enemy AI likewise selects its action when that enemy/entity turn arrives from the current legitimate battle state.
+- There is **no full-party command queue** and no universal **Confirm Round** step.
+- **Item** and **Defend** do not have separate universal priority phases; they resolve on the acting character's normal Speed-ordered turn.
 - Permanent commands:
   - Attack
   - Ability
@@ -62,19 +68,21 @@ See:
 - `BOSS_FORM_RULES.md`
 - `REMOVED_SYSTEMS_FIREWALL.md`
 
-## Important v85 reconciliation
+## Important reconciliation
 
-Several v85 statements were superseded by later/current master-canon documents even though they remain visible in tracker history.
+Several older tracker/master-canon statements remain visible in project history but are superseded by current organized-domain authority and newer explicit corrections.
 
 Current corrections used in this folder:
-- the **Class Ability MP certification is CLOSED** under Audit123; it is not an open Battle-System item;
+- normal combat remains round-based, but the old whole-party command-lock / Confirm-Round flow is retired;
+- the old Item-first / Defend-second universal action phases are retired;
+- the **Class Ability MP certification** was superseded by the approved 2026-08-30 15% Ability-MP reduction owned by `06_CLASSES_AND_ABILITIES`;
 - the old generic percentage-based status-susceptibility table is **not** a second universal status resolver;
 - current general **Status Resistance** uses the 0 / 5 / 10 / 15 raw-stat bands;
 - **Barrier is removed** globally;
 - **Brace is removed**;
 - the global **Break/Stagger meter is removed**;
 - **Staggered** remains a normal harmful status;
-- current Bleed cadence/clearing follows Audit122, not Audit115's older one-proc/any-heal rules; **v96 uses 3% Max HP per qualifying proc initially, escalating to 4% after the affected unit completes 3 turns without Bleed being removed**.
+- current Bleed cadence/clearing follows the latest active rule: **3% Max HP per qualifying proc initially, escalating to 4% after the affected unit completes 3 turns without Bleed being removed**, with the established round tick + action tick cadence.
 
 ## Cross-domain rule
 

@@ -1,19 +1,19 @@
 # Implementation Notes — Current Code/Canon Divergences
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit corrections already preserved in the reorganized domains.  
-**Runtime source checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
+**Runtime source checkpoint inspected:** `Diyse-Game` commit `68b66e129fa7e34dac69501786d00a1023ad0fd4`.  
 **Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
 
 
-These are known engineering gaps at repository checkpoint `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.
+These are known engineering gaps in the current proof runtime.
 
 ## 1. Mastery Points — HIGH
-Repository docs still state an 8-point Mastery schedule.
+Repository proof/older docs may still contain an 8-point Mastery schedule.
 
-Current v85 authority:
+Current authority:
 > Mastery Points removed.
 
-Required later implementation:
+Required production implementation:
 - delete/avoid point persistence;
 - delete/avoid point counters;
 - derive automatic unlocks from Base/Subclass CL.
@@ -37,7 +37,29 @@ Current production:
 - after a Prime ends, **2 full normal party rounds** must pass before another available Prime may be invoked later in that battle;
 - fresh-HP boss forms do **not** restore spent Prime availability.
 
-## 3. Currency — HIGH
+## 3. Normal battle turn flow — HIGH
+Proof runtime still implements the retired whole-round queue model.
+
+Current proof code currently:
+- locks enemy actions at round start;
+- asks the player to select actions for all conscious party members;
+- requires **Confirm Round** before resolution;
+- sorts **Item** before **Defend** before ordinary commands through `round_resolver.gd`;
+- resolves the queued combined action list afterward.
+
+Current production battle flow:
+- remains **discrete round-based**, not ATB;
+- establishes normal turn order at round start from current effective Speed and tie rules;
+- when a player character's turn arrives, the player selects that character's action and target/content from the current battle state;
+- that action resolves before the next normal combatant acts;
+- enemy/entity AI likewise chooses its legal action when its turn arrives from the then-current legitimate state;
+- **Item** and **Defend** have no separate universal priority phases;
+- there is no whole-party action queue and no universal **Confirm Round** step;
+- Speed changes during the round affect later round ordering unless an explicit authored effect overrides the normal rule.
+
+Do not use the current proof queue/confirm architecture as production battle-flow authority.
+
+## 4. Currency — HIGH
 Proof state:
 - `gold`
 
@@ -46,7 +68,7 @@ Current:
 
 Requires version-safe production state/schema work.
 
-## 4. Proof equipment/content — HIGH
+## 5. Proof equipment/content — HIGH
 GameState defaults still include:
 - Proof Sword;
 - Proof Warden Blade;
@@ -59,12 +81,12 @@ They are fixtures, not current equipment/content authority.
 Ilyra's current weapon is:
 > **Wardrod**
 
-## 5. Save schema completeness — HIGH
+## 6. Save schema completeness — HIGH
 Schema v1 proves persistence but does not yet carry the complete production progression/quest/loadout state.
 
 Do not treat schema v1 proof completeness as production completeness.
 
-## 6. Chapter IDs / scene-number docs — MEDIUM
+## 7. Chapter IDs / scene-number docs — MEDIUM
 Some older authoring documentation still stops at:
 - `chapter_12`
 - S062
@@ -73,23 +95,25 @@ Current:
 - through `chapter_13`
 - through S073
 
-## 7. Dialogue proof panel — LOW/MEDIUM
+## 8. Dialogue proof panel — LOW/MEDIUM
 Current field proof dialogue panel occupies much more vertical space than the general lower-20–25% production target.
 
 Function is proven; final layout remains open.
 
-## 8. Combat proof UI — HIGH
+## 9. Combat proof UI — HIGH
 Current proof:
 - large text tables/log;
 - proof command/target buttons;
+- proof **Confirm Round** button;
 - proof Flee button;
-- proof numeric summaries.
+- proof numeric summaries;
+- stale Prime terminology.
 
-It is not the final battle HUD and still contains stale Prime terminology.
+It is not the final battle HUD and does not represent the current turn-entry command flow.
 
-## 9. Kessara service UI — MEDIUM
+## 10. Kessara service UI — MEDIUM
 Service logic exists.
 No production service menu/fee/timing presentation yet.
 
-## 10. Current-facing naming — ONGOING
+## 11. Current-facing naming — ONGOING
 Legacy technical identifiers may remain internally until safe migration, but player-facing text must use current names.
