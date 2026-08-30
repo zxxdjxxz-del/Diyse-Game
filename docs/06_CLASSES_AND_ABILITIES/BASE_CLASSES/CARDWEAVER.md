@@ -17,14 +17,15 @@ While Cardweaver is selected, Nimera records eligible allied actions performed b
 - When Nimera completes her next turn, the ordinary archive clears and a new recording window begins.
 - **Perfect Recall** may preserve one chosen record beyond the ordinary window.
 - The archive records normal allied Abilities and Standard Cards that can resolve as ordinary immediate actions.
-- It does not record Ultimates, Prime invocation/commands, Items, Basic Attack, Defend, Prepared/reaction actions, Field-creating actions, summons, other copy/replay actions, scripted actions, or source-owned persistent class constructs such as Throughline/Crossroads/Covered Crossing.
+- It does not record Ultimates, Prime invocation/commands, Items, Basic Attack, Defend, Prepared/reaction actions, Field-creating actions, summons, other copy/replay actions, scripted actions, source-owned persistent class constructs such as Throughline/Crossroads/Covered Crossing, or any action whose effect **grants additional actual actions or changes the number of normal actions**.
+- Therefore Standard Card **Split Moment** is not eligible for Living Archive, Echo Weave, Perfect Recall, or Grand Reweaving.
 
 ## Copy resolution rules
 When Echo Weave or Grand Reweaving reproduces an eligible record:
 - Nimera chooses legal targets at resolution;
-- targeting pattern, damage type, element, authored penetration, ordinary status/application chances, cleanses, and other immediate legal effects are retained;
+- targeting pattern, damage type, element, **authored Base Hit**, authored penetration, ordinary Critical eligibility, ordinary status/application chances, cleanses, and other immediate legal effects are retained;
 - Nimera uses her own applicable stats;
-- direct damage, direct healing, and revival recovery are multiplied by the copy's stated potency modifier;
+- direct damage, direct healing, and revival recovery are multiplied by the copy's stated potency modifier after the copied action resolves its ordinary authored calculations;
 - effects with no scalable damage/healing number retain their authored immediate magnitude unless explicitly excluded;
 - copied actions cannot create further archive/copy chains.
 
