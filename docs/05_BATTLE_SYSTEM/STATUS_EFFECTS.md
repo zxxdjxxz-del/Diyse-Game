@@ -133,7 +133,7 @@ Timing:
 
 Rules:
 - reapplication refreshes duration;
-- never stacks;
+- never stacks with itself;
 - this is a normal harmful status;
 - it is **not** the retired Break/Stagger meter.
 
@@ -141,6 +141,13 @@ High-rank duration conversion:
 - Regional Hunt — **4 rounds**;
 - Major Hunt / mandatory boss — **3 rounds**;
 - Staggered keeps its full **Attack −20% / Magic −20% / Speed −20%** magnitude under this conversion unless an encounter explicitly overrides it.
+
+Interaction with separate stat reductions:
+- Staggered's Attack, Magic, and Speed penalties do **not** additively stack with a separate negative stat modifier on the same axis;
+- for each affected stat, apply the **strongest active reduction** on that axis;
+- Staggered and the separate stat-reduction effect keep their own durations independently;
+- when the stronger effect ends, a weaker still-active reduction resumes for its remaining duration;
+- this rule prevents compound same-axis suppression while preserving distinct Staggered and ordinary stat-reduction effects.
 
 ## Bleed
 
