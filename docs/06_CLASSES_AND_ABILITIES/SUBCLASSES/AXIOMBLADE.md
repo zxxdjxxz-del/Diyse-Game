@@ -1,6 +1,6 @@
 # Diyse — Axiomblade
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections, including the approved 2026-08-30 Ability-MP reduction.  
+**Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections, including the approved 2026-08-30 Ability-MP reduction and temporary-stat normalization.  
 **Authority treatment:** explicit/newer working corrections are preserved as working overrides when they have not yet been promoted into the audit chain.
 
 
@@ -14,7 +14,7 @@
 | Unlock | Ability | MP | Current effect |
 |---:|---|---:|---|
 | CL1 | **First Principle** | 12 | One enemy; Hybrid / Neutral; 150 Power; intentional 50% Attack / 50% Magic. |
-| CL4 | **Proven Advance** | 17 | One enemy; Hybrid / Fire; 165 Power; 20% Burn; after damage Defense Up + Spirit Up for 2 rounds. |
+| CL4 | **Proven Advance** | 17 | One enemy; Hybrid / Fire; 165 Power; 20% Burn; after damage gain **Minor Defense Up + Minor Spirit Up = Defense +10% / Spirit +10% for 2 rounds**. |
 | CL7 | **Counterproof** | 20 | One enemy; Hybrid / Lightning; 190 Power; +15 Base Hit; 20% Stun; ordinary selected/non-Prepared. |
 | CL9 | **Axiom Rend** | 26 | One enemy; Hybrid / Neutral; 225 Power; 30% Defense penetration on Attack half and 30% Spirit penetration on Magic half. |
 | CL11 | **Equivalent Form** | 29 | One enemy; Hybrid / Neutral; two authored hits: 120 Physical then 120 Magical. |
@@ -37,6 +37,7 @@ The previous third mechanical Subclass Mastery and old fourth-node Equipment-Mas
 
 ## Global references
 - Damage/penetration: `05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
+- Temporary stat changes: `05_BATTLE_SYSTEM/STAT_CHANGES.md`
 - Hit/Evasion: `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
 - Critical: `05_BATTLE_SYSTEM/CRITICAL_HITS.md`
 - Elements/statuses: `05_BATTLE_SYSTEM/ELEMENTS.md` and `STATUS_EFFECTS.md`

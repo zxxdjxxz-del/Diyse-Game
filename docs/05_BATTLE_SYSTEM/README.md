@@ -11,8 +11,9 @@ Canonical global battle-system domain.
 - `CRITICAL_HITS.md`
 - `ELEMENTS.md`
 - `STATUS_EFFECTS.md`
+- `STAT_CHANGES.md`
 - `GUARD.md`
 - `BOSS_FORM_RULES.md`
 - `REMOVED_SYSTEMS_FIREWALL.md`
 
-This extraction is based on the v85 migration baseline but reconciled against current master-canon repository authority through v2.20 / Audit135.
+This extraction is based on the v85 migration baseline but reconciled against current master-canon repository authority through v2.20 / Audit135 plus newer explicit battle-system corrections.
