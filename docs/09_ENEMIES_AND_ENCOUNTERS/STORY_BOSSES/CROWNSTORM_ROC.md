@@ -126,7 +126,7 @@ It is not Wind damage.
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+10 Total Defense through the end of the following round**
+> **Defense +10% / Spirit +10% through the end of the following round**
 
 2-round repetition lock.
 
@@ -150,9 +150,7 @@ On transition:
 - action priority becomes more aggressive.
 
 Stormbound also gains:
-> **+10 Speed**
-
-for the rest of the battle.
+> **Speed +10% for the rest of the battle**
 
 This modifies ordering only and never grants another action.
 
