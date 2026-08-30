@@ -1,0 +1,91 @@
+name: v98 dialogue path compatibility patch
+
+on:
+  push:
+    branches:
+      - migration/v98-subject-canon
+    paths:
+      - '.github/workflows/v98-dialogue-path-compat.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch-dialogue-source-paths:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout migration branch
+        uses: actions/checkout@v4
+        with:
+          ref: migration/v98-subject-canon
+          fetch-depth: 0
+      - name: Update preserved parity tests for v98 dialogue paths
+        shell: bash
+        run: |
+          set -euo pipefail
+          EXPECTED_HEAD='4f1c07f2c65851f3c3236c2167561311e32a2e3e'
+          EXPECTED_DOCS_TREE='ba3e10d09abba0edfacaa88bc4baa11f19fc79b5'
+          test "$(git rev-parse HEAD)" = "$EXPECTED_HEAD"
+          test "$(git ls-tree HEAD docs | awk '{print $3}')" = "$EXPECTED_DOCS_TREE"
+
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          replacements = {
+              Path('tests/dialogue/validate_chapter_01_resources.gd'): (
+                  'res://docs/chapters/dialogue/chapter_01/',
+                  'res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_01/',
+                  8,
+              ),
+              Path('tests/dialogue/validate_chapter_02_resources.gd'): (
+                  'res://docs/chapters/dialogue/chapter_02/',
+                  'res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_02/',
+                  7,
+              ),
+              Path('tests/dialogue/validate_chapter_03_resources.gd'): (
+                  'res://docs/chapters/dialogue/chapter_03/',
+                  'res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/',
+                  9,
+              ),
+          }
+
+          for path, (old, new, expected_count) in replacements.items():
+              text = path.read_text(encoding='utf-8')
+              actual = text.count(old)
+              if actual != expected_count:
+                  raise SystemExit(f'{path}: expected {expected_count} old source paths, found {actual}')
+              text = text.replace(old, new)
+              path.write_text(text, encoding='utf-8', newline='')
+
+              for source in re.findall(r'"source":\s*"res://([^\"]+)"', text):
+                  if not Path(source).is_file():
+                      raise SystemExit(f'{path}: mapped source does not exist: {source}')
+
+          stale = []
+          for path in Path('tests').rglob('*.gd'):
+              text = path.read_text(encoding='utf-8')
+              if 'res://docs/chapters/dialogue/' in text:
+                  stale.append(str(path))
+          if stale:
+              raise SystemExit('stale pre-v98 dialogue paths remain in tests: ' + ', '.join(stale))
+          PY
+
+          rm -f .github/workflows/v98-dialogue-path-compat.yml
+          git add -A
+
+          root_tree="$(git write-tree)"
+          test "$(git ls-tree "$root_tree" docs | awk '{print $3}')" = "$EXPECTED_DOCS_TREE"
+
+          actual_changed="$(git diff --cached --name-only | sort)"
+          expected_changed="$(printf '%s\n' \
+            '.github/workflows/v98-dialogue-path-compat.yml' \
+            'tests/dialogue/validate_chapter_01_resources.gd' \
+            'tests/dialogue/validate_chapter_02_resources.gd' \
+            'tests/dialogue/validate_chapter_03_resources.gd' | sort)"
+          test "$actual_changed" = "$expected_changed"
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update dialogue parity tests for v98 paths'
+          git push origin HEAD:migration/v98-subject-canon
