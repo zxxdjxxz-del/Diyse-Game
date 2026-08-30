@@ -120,15 +120,12 @@ Duration:
 # **3 rounds**
 
 Effects:
-- **Speed −20%**
-- **Base Hit −20%**
-- **Evasion −20%**
+- **Attack −20%**
+- **Magic −20%**
 
 Timing:
 - Staggered becomes active immediately when applied;
-- its Base Hit and Evasion penalties apply to later eligible checks in the same round;
-- because normal initiative is fixed at beginning-of-round, a mid-round Staggered application does **not** reorder the current round;
-- if still active at the next beginning-of-round initiative check, its Speed penalty affects that round's ordering;
+- its Attack and Magic penalties apply to later eligible actions in the same round;
 - under the standard round-duration rule, the application round counts as round 1.
 
 Rules:
