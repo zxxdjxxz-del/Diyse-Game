@@ -141,7 +141,7 @@ No Reaction Conduit action may inflict more than one canonical harmful status on
 > **Power: N/A — no direct damage**
 
 The researcher gains:
-> **+10 Total Defense through the end of the following round**
+> **Defense +10% / Spirit +10% through the end of the following round**
 
 This is an instinctive defensive response, not Brace and not Barrier.
 
