@@ -31,7 +31,8 @@ True construct: **Bleed Immune**
 - Attack +10%
 - Magic +10%
 - Base Hit +10
-- +10 Total Defense
+- Defense +10%
+- Spirit +10%
 through end following round
 - no extra action
 - 2-round repetition lock
