@@ -39,7 +39,7 @@ True construct:
 > **Power: N/A — no direct damage**
 
 Effect:
-> **Defense +10 / Spirit +15 through the end of the following round**
+> **Defense +10% / Spirit +15% through the end of the following round**
 
 2-round repetition lock.
 
