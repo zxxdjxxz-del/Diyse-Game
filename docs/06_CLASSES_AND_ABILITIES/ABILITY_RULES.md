@@ -12,7 +12,13 @@
 - Damage type is authored by the Ability; equipment does not choose it.
 - Learned Abilities remain weapon-independent once learned unless an individual current rule explicitly says otherwise.
 - Element/affinity is separate from damage type.
-- Global damage, penetration, Base Hit/Evasion, Critical, elements, and harmful-status rules are owned by `05_BATTLE_SYSTEM`.
+- Global damage, penetration, Base Hit/Evasion, application reliability, Critical, elements, and harmful-status rules are owned by `05_BATTLE_SYSTEM`.
+
+## Application reliability
+
+When a class effect grants `+N application reliability`, use `05_BATTLE_SYSTEM/APPLICATION_RELIABILITY.md`.
+
+The bonus is **+N percentage points** to an eligible chance-based application check. It is not Base Hit, does not invent a secondary effect, does not turn an automatic effect into a roll, and does not bypass immunity/protected/scripted legality.
 
 ## Ruin
 For **character Abilities** that actually deal Ruin damage:
