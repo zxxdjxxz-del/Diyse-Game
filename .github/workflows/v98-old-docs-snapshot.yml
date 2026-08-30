@@ -1,0 +1,26 @@
+name: v98 old docs snapshot
+
+on:
+  push:
+    branches:
+      - migration/v98-subject-canon
+
+permissions:
+  contents: read
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out pre-v98 repository
+        uses: actions/checkout@v4
+        with:
+          ref: 3fd07e92eda04f31ba613a654b3b1b28071f44e6
+      - name: Package old docs
+        run: tar -cJf old-docs.tar.xz docs README.md AGENTS.md
+      - name: Upload snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: v98-old-docs-snapshot
+          path: old-docs.tar.xz
+          if-no-files-found: error
