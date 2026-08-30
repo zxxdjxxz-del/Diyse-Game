@@ -134,7 +134,7 @@ Reason:
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+15 Spirit and +10 Defense through the end of the following round**
+> **Spirit +15% / Defense +10% through the end of the following round**
 
 No Barrier is created.
 
@@ -202,9 +202,10 @@ Transition:
 - no Prime refresh;
 - any surviving Rift Echo remains present.
 
-State modifier for the remainder of battle:
-- **Speed +10**
-- **Total Defense −10**
+State modifiers for the remainder of battle:
+- **Speed +10%**
+- **Defense −10%**
+- **Spirit −10%**
 
 The Engine becomes faster and more exposed as its containment geometry fails.
 
