@@ -31,18 +31,18 @@ There is no third form.
 
 ## Current fresh-body correction
 
-Current global boss rule controls:
-> **a genuine fresh-HP body refreshes Prime availability.**
+Current global Prime-use authority controls:
+> **a genuine fresh-HP boss body does not restore a spent Prime identity.**
 
 Therefore the Worldsmith transformation:
 - begins at fresh full HP;
 - takes no Form-I damage spillover;
-- refreshes Prime availability;
+- does **not** restore spent Prime availability;
 - does not restore party HP/MP;
 - does not reset ordinary temporary-effect durations unless their own rule says so;
 - pays no intermediate victory reward.
 
-Historical Deepforge text that said Prime availability did not refresh is superseded.
+Historical Deepforge text that refreshed Prime availability on a fresh body is superseded.
 
 # Route levels
 
@@ -148,7 +148,7 @@ While functional, the Frame may use:
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+15 Total Defense through the end of the following round**
+> **Defense +15% / Spirit +15% through the end of the following round**
 
 2-round repetition lock.
 
@@ -194,7 +194,7 @@ At Assembly Frame 0 HP:
 - destroyed assemblies remain destroyed;
 - surviving functions fold into the new body;
 - Worldsmith Body starts at fresh full HP;
-- Prime availability refreshes;
+- spent Prime identities remain spent;
 - no intermediate EXP/CEXP payout.
 
 # Form II — Worldsmith Body
@@ -245,7 +245,7 @@ The Worldsmith is more direct and mobile than the Assembly Frame.
 - **260 Power**
 - Base Hit **95**
 - **20% Staggered**
-- 2-round repetition lock
+- 2-round repetition lock.
 
 # Inherited Worldsmith functions
 
@@ -256,7 +256,7 @@ Worldsmith retains:
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+15 Total Defense through the end of the following round**
+> **Defense +15% / Spirit +15% through the end of the following round**
 
 2-round repetition lock.
 
@@ -336,15 +336,15 @@ No Barrier mechanic is created.
 
 # Prime interaction
 
-Recovered Last Sentinel may be used normally.
+Recovered Last Sentinel may be used normally if available.
 
 Sentinel Impact:
 > **340 Power / 40% Defense penetration**
 
 Fresh Worldsmith Body:
-> **refreshes Prime availability**
+> **does not restore a spent Prime identity**
 
-No third-body refresh exists because there is no third body.
+No third body exists.
 
 # Duration certification
 
