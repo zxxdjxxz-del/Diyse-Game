@@ -213,8 +213,8 @@ Transition:
 - no Prime refresh.
 
 For the remainder of battle:
-- Arbiter gains **Speed +10**;
-- Arbiter receives **−10 Total Defense**.
+- Arbiter gains **Speed +10%**;
+- Arbiter receives **Defense −10% / Spirit −10%**.
 
 The late fight therefore becomes:
 > faster and more dangerous, but more open to direct resolution.
@@ -272,7 +272,7 @@ Temper Harm becomes unavailable.
 > **Power: N/A — no direct damage**
 
 Effect:
-> Arbiter gains **+15 Spirit** through the end of the following round.
+> Arbiter gains **Spirit +15% through the end of the following round**.
 
 2-round repetition lock.
 
