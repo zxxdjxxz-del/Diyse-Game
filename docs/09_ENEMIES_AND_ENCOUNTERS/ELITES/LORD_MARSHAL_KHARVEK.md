@@ -6,7 +6,7 @@
 
 ## Raw body — RETAIN
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 61 | **6,750** | **224** | **166** | **152** | **142** | **56** | 5 | 10 |
 
 ## Finite support
@@ -62,7 +62,8 @@ Target:
 Effect:
 - Attack +10%
 - Base Hit +10
-- +10 Total Defense
+- Defense +10%
+- Spirit +10%
 
 through the end of the following round.
 
