@@ -31,18 +31,23 @@ If one hit crosses multiple thresholds:
 There is no Wind or Water state.
 
 ## State effects
+
+Each state modifier lasts only while that state is current and ends immediately when the Duelist changes state.
+
 Fire:
 - Attack +10%
 - Magic +10%
 
 Ice:
-- +10 Total Defense
+- Defense +10%
+- Spirit +10%
 
 Lightning:
-- Speed +10
+- Speed +10%
 
 Earth:
-- +15 Total Defense
+- Defense +15%
+- Spirit +15%
 
 Only the current state's effect applies.
 
