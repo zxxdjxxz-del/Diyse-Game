@@ -1,6 +1,6 @@
 # Diyse — Green Arcanist
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections.  
+**Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections, including the approved 2026-08-30 Ability-MP reduction.  
 **Authority treatment:** explicit/newer working corrections are preserved as working overrides when they have not yet been promoted into the audit chain.
 
 
@@ -13,13 +13,13 @@
 ## Ability spine
 | Unlock | Ability | MP | Current effect |
 |---:|---|---:|---|
-| CL1 | **Frost Needle** | 14 | One enemy; Magical / Ice; **150 Power**; 20% base Freeze; Vaelira matching-element specialist bonus applies. |
-| CL1 | **Stonebreak** | 14 | One enemy; Magical / Earth; **150 Power**; 20% base Staggered; specialist bonus applies. |
-| CL1 | **Cinder Bloom** | 22 | All enemies; Magical / Fire; **130 Power per target**; 20% base Burn per target; specialist bonus applies. |
-| CL3 | **Stormburst** | 26 | All enemies; Magical / Lightning; **145 Power per target**; 20% base Stun per target; specialist bonus applies. |
-| CL6 | **Prism Lance** | 24 | One enemy; Magical; choose Fire / Ice / Lightning / Earth; **220 Power**; no status rider. |
-| CL9 | **Spectrum Cascade** | 34 | All enemies; Magical; choose one standard element; **190 Power per target**; no status rider. |
-| CL13 | **Arcanum Ascendant** | 60 | Base Ultimate; four sequential AoE Magical hits Fire → Ice → Lightning → Earth; **90 Power per hit (360 total per target)**; no harmful-status riders. |
+| CL1 | **Frost Needle** | 12 | One enemy; Magical / Ice; **150 Power**; 20% base Freeze; Vaelira matching-element specialist bonus applies. |
+| CL1 | **Stonebreak** | 12 | One enemy; Magical / Earth; **150 Power**; 20% base Staggered; specialist bonus applies. |
+| CL1 | **Cinder Bloom** | 19 | All enemies; Magical / Fire; **130 Power per target**; 20% base Burn per target; specialist bonus applies. |
+| CL3 | **Stormburst** | 22 | All enemies; Magical / Lightning; **145 Power per target**; 20% base Stun per target; specialist bonus applies. |
+| CL6 | **Prism Lance** | 20 | One enemy; Magical; choose Fire / Ice / Lightning / Earth; **220 Power**; no status rider. |
+| CL9 | **Spectrum Cascade** | 29 | All enemies; Magical; choose one standard element; **190 Power per target**; no status rider. |
+| CL13 | **Arcanum Ascendant** | 51 | Base Ultimate; four sequential AoE Magical hits Fire → Ice → Lightning → Earth; **90 Power per hit (360 total per target)**; no harmful-status riders. |
 
 ## Masteries
 | Unlock | Mastery | Current effect |

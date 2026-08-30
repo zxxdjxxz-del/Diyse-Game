@@ -1,7 +1,7 @@
 # Diyse — Prime System Rules
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, and later current v85 working closures.  
-**Current written whole-project authority:** **v2.20 / Audit135**.  
+**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, later current v85 working closures, and newer explicit user corrections.  
+**Current written whole-project authority:** **v2.20 / Audit135** plus newer approved corrections.  
 
 
 ## Count
@@ -39,15 +39,23 @@ It is not:
 - Standard Card play.
 
 ## Invocation MP
-Current exact costs:
-- Recovered Story — **50 MP**
-- Awakened Story — **80 MP**
-- Awakened Major Hunt — **90 MP**
+Prime Invocation costs:
+> **0 MP**
 
-Prime commands after manifestation:
-> **0 additional MP**
+Prime commands after manifestation also cost:
+> **0 MP**
 
-There is no Prime MP stat or per-Prime-round MP drain.
+There is no Prime MP stat, invocation MP charge, or per-Prime-round MP drain.
+
+## Prime use and restoration
+Each Prime identity has:
+> **one use until restored**
+
+Invoking a Prime spends that specific Prime identity. The spent state persists across battle end and into later battles until the Prime is restored by a valid rest or other explicitly authored Prime-restoration effect.
+
+Using one Prime does not spend any other available Prime.
+
+A battle ending, a same-bar phase change, or a genuine fresh-HP boss form does **not** by itself restore a spent Prime.
 
 ## Recovered Story Prime
 - manifests in the current ordinary round;
@@ -62,19 +70,23 @@ There is no Prime MP stat or per-Prime-round MP drain.
 - the ordinary party does not act or become targetable during normal Prime rounds;
 - party Standard Cards/Items do not operate from off-field unless an explicit Prime effect says so.
 
-## Post-dismissal cooldown
-After a Prime ends:
-> **3 full normal party rounds**
+## Post-dismissal Prime spacing
+After any Prime manifestation ends, the party must complete:
+> **2 full normal party rounds**
 
-must pass before another unused equipped Prime may be invoked.
+before another available Prime may be invoked later in that battle.
 
-## Once-per-battle identity rule
-Each Prime identity is usable:
-> **once per battle per genuine fresh-HP boss form**
+The spacing gate does not restore the Prime that was just spent. It only controls when a different still-available Prime may be invoked.
 
-A genuine fresh-HP form refreshes Prime identity availability/cooldown state.
+## No boss-form refresh
+Prime identity availability is not once-per-battle or once-per-fresh-form.
 
-Same-bar phase changes do not.
+A genuine fresh-HP boss form does **not** refresh:
+- a spent Prime identity;
+- Prime restoration state;
+- the requirement that Prime use returns only through a valid rest/restoration effect.
+
+Same-bar phase changes likewise do not restore spent Primes.
 
 Global fresh-form authority is in:
 `05_BATTLE_SYSTEM/BOSS_FORM_RULES.md`.
@@ -91,7 +103,7 @@ It is:
 - not a third boss combat phase.
 
 Therefore:
-> combat once-per-form usage flags do not block the six required Story Prime manifestations in Final Severance.
+> combat spent/availability flags and the two-round Prime-spacing gate do not block the six required Story Prime manifestations in Final Severance.
 
 Combat Prime rules remain unchanged during the actual fight.
 

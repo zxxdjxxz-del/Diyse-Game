@@ -1,6 +1,6 @@
 # Implementation Notes — Current Code/Canon Divergences
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit v85 working overrides already preserved in the reorganized domains.  
+**Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit corrections already preserved in the reorganized domains.  
 **Runtime source checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
 **Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
 
@@ -22,7 +22,8 @@ Required later implementation:
 Proof runtime still uses:
 - `first_champion`;
 - bearer lock;
-- old proof direct-control assumptions.
+- old proof direct-control assumptions;
+- stale Prime timing/state behavior.
 
 Current production:
 - Last Sentinel current name;
@@ -30,7 +31,11 @@ Current production:
 - 2 Prime slots/character after Volition;
 - Recovered = one signature action/same round;
 - Awakened = 3 Prime rounds;
-- post-dismissal 3 normal-round cooldown.
+- Prime Invocation costs **0 MP**;
+- each Prime identity has **one use until restored** by a valid rest or other explicitly authored Prime-restoration effect;
+- a spent Prime remains spent across battle end;
+- after a Prime ends, **2 full normal party rounds** must pass before another available Prime may be invoked later in that battle;
+- fresh-HP boss forms do **not** restore spent Prime availability.
 
 ## 3. Currency — HIGH
 Proof state:

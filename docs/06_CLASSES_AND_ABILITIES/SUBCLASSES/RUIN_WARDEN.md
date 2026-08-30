@@ -1,6 +1,6 @@
 # Diyse — Ruin Warden
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections.  
+**Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections, including the approved 2026-08-30 Ability-MP reduction.  
 **Authority treatment:** explicit/newer working corrections are preserved as working overrides when they have not yet been promoted into the audit chain.
 
 
@@ -13,12 +13,12 @@
 ## Ability spine
 | Unlock | Ability | MP | Current effect |
 |---:|---|---:|---|
-| CL1 | **Siphon Rune** | 16 | One enemy; Hybrid / Ruin 75/25; 165 Power; self-heal 35% eligible damage, capped at 20% Max HP; no Bleed; `Rune` is flavor only. |
-| CL4 | **Stolen Grace** | 20 | One enemy; Magical / Colorless; 170 Power; heal other lowest-HP conscious ally for 30% eligible damage + 0.35 × Magic, capped at 25% target Max HP. |
-| CL7 | **Restoring Ward** | 22 | One ally; heal 18% Max HP + 0.90 × Magic; remove 1 harmful status; +10 Total Defense through end next round. |
-| CL9 | **Withering Mercy** | 34 | All enemies; Magical / Earth; 150 Power; 20% Staggered; recovery pool = 12% total eligible HP damage split across conscious party, each capped at 15% Max HP. |
-| CL11 | **Reclaimed Breath** | 38 | Revive one KO ally at 25% Max HP. |
-| CL13 | **Mercy Through Ruin** | 64 | Subclass Ultimate; all enemies; Hybrid / Ruin 75/25; 320 Power; allies heal 25% Max HP + 1.00 × Magic, cleanse 1 harmful status, and gain +20 Total Defense for 2 rounds. |
+| CL1 | **Siphon Rune** | 14 | One enemy; Hybrid / Ruin 75/25; 165 Power; self-heal 35% eligible damage, capped at 20% Max HP; no Bleed; `Rune` is flavor only. |
+| CL4 | **Stolen Grace** | 17 | One enemy; Magical / Colorless; 170 Power; heal other lowest-HP conscious ally for 30% eligible damage + 0.35 × Magic, capped at 25% target Max HP. |
+| CL7 | **Restoring Ward** | 19 | One ally; heal 18% Max HP + 0.90 × Magic; remove 1 harmful status; +10 Total Defense through end next round. |
+| CL9 | **Withering Mercy** | 29 | All enemies; Magical / Earth; 150 Power; 20% Staggered; recovery pool = 12% total eligible HP damage split across conscious party, each capped at 15% Max HP. |
+| CL11 | **Reclaimed Breath** | 32 | Revive one KO ally at 25% Max HP. |
+| CL13 | **Mercy Through Ruin** | 54 | Subclass Ultimate; all enemies; Hybrid / Ruin 75/25; 320 Power; allies heal 25% Max HP + 1.00 × Magic, cleanse 1 harmful status, and gain +20 Total Defense for 2 rounds. |
 
 ## Masteries
 | Unlock | Mastery | Current effect |

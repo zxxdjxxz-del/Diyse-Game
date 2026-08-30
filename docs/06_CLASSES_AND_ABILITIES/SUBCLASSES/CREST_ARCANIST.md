@@ -1,6 +1,6 @@
 # Diyse — Crest Arcanist
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections.  
+**Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections, including the approved 2026-08-30 Ability-MP reduction.  
 **Authority treatment:** explicit/newer working corrections are preserved as working overrides when they have not yet been promoted into the audit chain.
 
 
@@ -13,12 +13,12 @@
 ## Ability spine
 | Unlock | Ability | MP | Current effect |
 |---:|---|---:|---|
-| CL1 | **Arcane Lance** | 22 | One enemy; Magical / Colorless; 220 Power; 25% Spirit penetration; after damage grants Crest Attunement. |
-| CL4 | **Elemental Crest** | 18 | One enemy; Magical; choose Fire / Ice / Lightning / Earth; 180 Power; no status, Field, or buff. |
-| CL7 | **Nullifying Seal** | 26 | One enemy; Magical / Colorless; 175 Power; if target has a removable positive buff, +25% final damage; after damage remove up to 2 removable buffs. `Seal` is name-only. |
-| CL9 | **Arcane Rupture** | 36 | All enemies; Magical / Colorless; 205 Power; remove 1 removable hostile Field after damage and apply Magic Down for 2 rounds; exact stat-change magnitude remains deferred. |
-| CL11 | **Elemental Convergence** | 32 | One enemy; four sequential Magical hits Fire → Ice → Lightning → Earth; 240 total Power; each hit checks affinity independently; no harmful-status riders. |
-| CL13 | **Crest Dominion** | 64 | Subclass Ultimate; all enemies; Magical / Colorless; 330 Power; 35% Spirit penetration; remove up to 2 removable positive buffs from each affected enemy and 1 removable hostile Field; creates no Field. |
+| CL1 | **Arcane Lance** | 19 | One enemy; Magical / Colorless; 220 Power; 25% Spirit penetration; after damage grants Crest Attunement. |
+| CL4 | **Elemental Crest** | 15 | One enemy; Magical; choose Fire / Ice / Lightning / Earth; 180 Power; no status, Field, or buff. |
+| CL7 | **Nullifying Seal** | 22 | One enemy; Magical / Colorless; 175 Power; if target has a removable positive buff, +25% final damage; after damage remove up to 2 removable buffs. `Seal` is name-only. |
+| CL9 | **Arcane Rupture** | 31 | All enemies; Magical / Colorless; 205 Power; remove 1 removable hostile Field after damage and apply Magic Down for 2 rounds; exact stat-change magnitude remains deferred. |
+| CL11 | **Elemental Convergence** | 27 | One enemy; four sequential Magical hits Fire → Ice → Lightning → Earth; 240 total Power; each hit checks affinity independently; no harmful-status riders. |
+| CL13 | **Crest Dominion** | 54 | Subclass Ultimate; all enemies; Magical / Colorless; 330 Power; 35% Spirit penetration; remove up to 2 removable positive buffs from each affected enemy and 1 removable hostile Field; creates no Field. |
 
 ## Masteries
 | Unlock | Mastery | Current effect |

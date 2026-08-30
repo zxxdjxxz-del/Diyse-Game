@@ -1,7 +1,7 @@
 # Diyse — Card System Master
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, and later current v85 working closures.  
-**Current written whole-project authority:** **v2.20 / Audit135**.  
+**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, later current v85 working closures, and newer explicit user corrections.  
+**Current written whole-project authority:** **v2.20 / Audit135** plus newer approved corrections.  
 
 
 ## Collection size
@@ -50,11 +50,15 @@ Removed:
 - third-stage progression.
 
 Current Invocation MP:
-- Recovered Story Prime — **50 MP**
-- Awakened Story Prime — **80 MP**
-- Awakened Major-Hunt Prime — **90 MP**
+> **0 MP**
 
-Manifested Prime commands cost **0 additional MP**.
+Manifested Prime commands also cost **0 MP**.
+
+Each Prime identity has **one use until restored** by a valid rest or other explicitly authored Prime-restoration effect. A spent Prime remains spent across battle end; using one Prime does not spend other available Primes.
+
+After a Prime manifestation ends, **2 full normal party rounds** must pass before another available Prime may be invoked later in the same battle.
+
+Fresh-HP boss forms do not restore spent Primes.
 
 ## Standard vs Prime loadout
 

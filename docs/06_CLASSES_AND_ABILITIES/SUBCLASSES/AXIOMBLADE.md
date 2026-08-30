@@ -1,6 +1,6 @@
 # Diyse — Axiomblade
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections.  
+**Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections, including the approved 2026-08-30 Ability-MP reduction.  
 **Authority treatment:** explicit/newer working corrections are preserved as working overrides when they have not yet been promoted into the audit chain.
 
 
@@ -13,12 +13,12 @@
 ## Ability spine
 | Unlock | Ability | MP | Current effect |
 |---:|---|---:|---|
-| CL1 | **First Principle** | 14 | One enemy; Hybrid / Neutral; 150 Power; intentional 50% Attack / 50% Magic. |
-| CL4 | **Proven Advance** | 20 | One enemy; Hybrid / Fire; 165 Power; 20% Burn; after damage Defense Up + Spirit Up for 2 rounds. |
-| CL7 | **Counterproof** | 24 | One enemy; Hybrid / Lightning; 190 Power; +15 Base Hit; 20% Stun; ordinary selected/non-Prepared. |
-| CL9 | **Axiom Rend** | 30 | One enemy; Hybrid / Neutral; 225 Power; 30% Defense penetration on Attack half and 30% Spirit penetration on Magic half. |
-| CL11 | **Equivalent Form** | 34 | One enemy; Hybrid / Neutral; two authored hits: 120 Physical then 120 Magical. |
-| CL13 | **Final Axiom** | 60 | Subclass Ultimate; all enemies; Hybrid 50/50; choose one standard element; 320 Power; 25% penetration on both applicable axes. |
+| CL1 | **First Principle** | 12 | One enemy; Hybrid / Neutral; 150 Power; intentional 50% Attack / 50% Magic. |
+| CL4 | **Proven Advance** | 17 | One enemy; Hybrid / Fire; 165 Power; 20% Burn; after damage Defense Up + Spirit Up for 2 rounds. |
+| CL7 | **Counterproof** | 20 | One enemy; Hybrid / Lightning; 190 Power; +15 Base Hit; 20% Stun; ordinary selected/non-Prepared. |
+| CL9 | **Axiom Rend** | 26 | One enemy; Hybrid / Neutral; 225 Power; 30% Defense penetration on Attack half and 30% Spirit penetration on Magic half. |
+| CL11 | **Equivalent Form** | 29 | One enemy; Hybrid / Neutral; two authored hits: 120 Physical then 120 Magical. |
+| CL13 | **Final Axiom** | 51 | Subclass Ultimate; all enemies; Hybrid 50/50; choose one standard element; 320 Power; 25% penetration on both applicable axes. |
 
 ## Masteries
 | Unlock | Mastery | Current effect |
