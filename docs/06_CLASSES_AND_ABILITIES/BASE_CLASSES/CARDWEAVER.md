@@ -22,12 +22,15 @@ While Cardweaver is selected, Nimera records eligible allied actions performed b
 
 ## Copy resolution rules
 When Echo Weave or Grand Reweaving reproduces an eligible record:
-- Nimera chooses legal targets at resolution;
-- targeting pattern, damage type, element, **authored Base Hit**, authored penetration, ordinary Critical eligibility, ordinary status/application chances, cleanses, and other immediate legal effects are retained;
-- Nimera uses her own applicable stats;
-- direct damage, direct healing, and revival recovery are multiplied by the copy's stated potency modifier after the copied action resolves its ordinary authored calculations;
-- effects with no scalable damage/healing number retain their authored immediate magnitude unless explicitly excluded;
-- copied actions cannot create further archive/copy chains.
+- **Echo Weave / Grand Reweaving remains the acting Cardweaver Ability identity.** The copied record supplies a reproducible effect package; Nimera is not treated as literally using the source Ability or Standard Card identity.
+- The reproduction therefore does **not** trigger source-action-specific Traits, Masteries, equipment clauses, Card-use counters, or "after using a Standard Card" effects merely because the recorded source was that action.
+- A general effect that legally checks properties of the resolving reproduction itself — such as its resulting damage type, element, target count, or whether it successfully damages — may still apply if all of that effect's normal requirements are satisfied.
+- Nimera chooses legal targets at resolution.
+- Targeting pattern, damage type, element, **authored Base Hit**, authored penetration, ordinary Critical eligibility, ordinary status/application chances, cleanses, and other immediate legal effects are retained.
+- Nimera uses her own applicable stats.
+- Direct damage, direct healing, and revival recovery are multiplied by the copy's stated potency modifier after the copied action resolves its ordinary authored calculations.
+- Effects with no scalable damage/healing number retain their authored immediate magnitude unless explicitly excluded.
+- Copied actions cannot create further archive/copy chains.
 
 ## Ability spine
 | Unlock | Ability | MP | Current effect |
