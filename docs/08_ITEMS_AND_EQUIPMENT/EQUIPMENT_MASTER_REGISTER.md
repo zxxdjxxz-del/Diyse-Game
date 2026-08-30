@@ -97,8 +97,8 @@ Count proof:
 | Legacy | Great Bow — Weapon + Secondary | **Should've Moved.** | Torren | +95 ATK; +10 Base Hit; Trait: Predicted Line |
 | Legacy | Medium Armor | **Figured You'd Come This Way.** | Torren | +42 DEF / +33 SPR / +3 SPD; Evasion +10; Trait: Prepared Ground |
 | Legacy | Two-Handed Conduit — Weapon + Secondary | **Good Fuck, Definitely. Good Fuck.** | Nimera | +60 ATK / +82 MAG; +10% eligible Conduit final damage; Trait: Better Version |
-| Legacy | Focus | **Hold On. That's Useful.** | Nimera | +22 MAG / +22 SPR / +8 SPD; Standard Card action Speed +10%; Trait: Keep That |
-| Legacy | Light Ritual Armor | **Fuck It. New Plan.** | Nimera | +32 DEF / +42 SPR; +10% action Speed while disrupted; Trait: New Plan |
+| Legacy | Focus | **Hold On. That's Useful.** | Nimera | +22 MAG / +22 SPR / +8 SPD; Standard Cards gain +10 Base Hit / application reliability where relevant; Trait: Keep That |
+| Legacy | Light Ritual Armor | **Fuck It. New Plan.** | Nimera | +32 DEF / +42 SPR; Speed +10% while disrupted; Trait: New Plan |
 | Legacy | Arcane Staff — one-slot Primary | **There's Your Problem.** | Vaelira | +12 ATK / +83 MAG; +10pp Spirit penetration on eligible elemental damaging Staff actions; Trait: Correct Answer |
 | Legacy | Focus | **That Saves Me the Trouble.** | Vaelira | +24 MAG / +24 SPR / +5 SPD; Max MP +15%; Trait: Borrowed Answer |
 | Legacy | Light Caster Armor | **Oh, I Can Use That.** | Vaelira | +29 DEF / +50 SPR / +4 SPD; 10% less eligible direct elemental damage; Trait: Useful Pressure |
