@@ -2,14 +2,14 @@ extends SceneTree
 
 const REGISTRY_PATH := "res://game/content/dialogue/chapter_01/chapter_01_dialogue_registry.tres"
 const SCENE_SPECS := [
-	{"id": "S007", "path": "res://game/content/dialogue/chapter_01/S007.tres", "source": "res://docs/chapters/dialogue/chapter_01/S007.md", "kind": "mandatory", "location": "LOC_BRACKENWALL", "trigger": "trigger.chapter_01.s007", "beats": 101, "spoken": 98},
-	{"id": "S008", "path": "res://game/content/dialogue/chapter_01/S008.tres", "source": "res://docs/chapters/dialogue/chapter_01/S008.md", "kind": "mandatory", "location": "LOC_HOLLOW_WATCH", "trigger": "trigger.chapter_01.s008", "beats": 68, "spoken": 62},
-	{"id": "S009", "path": "res://game/content/dialogue/chapter_01/S009.tres", "source": "res://docs/chapters/dialogue/chapter_01/S009.md", "kind": "mandatory", "location": "LOC_GREENHOLLOW", "trigger": "trigger.chapter_01.s009", "beats": 131, "spoken": 128},
-	{"id": "S010", "path": "res://game/content/dialogue/chapter_01/S010.tres", "source": "res://docs/chapters/dialogue/chapter_01/S010.md", "kind": "mandatory", "location": "LOC_BRIAR_PASSAGE", "trigger": "trigger.chapter_01.s010", "beats": 107, "spoken": 106},
-	{"id": "S011", "path": "res://game/content/dialogue/chapter_01/S011.tres", "source": "res://docs/chapters/dialogue/chapter_01/S011.md", "kind": "mandatory", "location": "LOC_WAYFINDER_JUNCTION", "trigger": "trigger.chapter_01.s011", "beats": 112, "spoken": 110},
-	{"id": "C03", "path": "res://game/content/dialogue/chapter_01/C03.tres", "source": "res://docs/chapters/dialogue/chapter_01/C03.md", "kind": "character_life", "location": "LOC_CHAPTER_01_ROADSIDE_REST", "trigger": "trigger.chapter_01.c03.after_s011", "beats": 89, "spoken": 87},
-	{"id": "C04", "path": "res://game/content/dialogue/chapter_01/C04.tres", "source": "res://docs/chapters/dialogue/chapter_01/C04.md", "kind": "character_life", "location": "LOC_BRACKENWALL_ROUTE_ROOM", "trigger": "trigger.chapter_01.c04.after_s011", "beats": 116, "spoken": 115},
-	{"id": "C05", "path": "res://game/content/dialogue/chapter_01/C05.tres", "source": "res://docs/chapters/dialogue/chapter_01/C05.md", "kind": "character_life", "location": "LOC_BRACKENWALL_SUPPLY_MEDICAL", "trigger": "trigger.chapter_01.c05.after_s011", "beats": 117, "spoken": 116}
+	{"id": "S007", "path": "res://game/content/dialogue/chapter_01/S007.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_01/S007.md", "kind": "mandatory", "location": "LOC_BRACKENWALL", "trigger": "trigger.chapter_01.s007", "beats": 101, "spoken": 98},
+	{"id": "S008", "path": "res://game/content/dialogue/chapter_01/S008.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_01/S008.md", "kind": "mandatory", "location": "LOC_HOLLOW_WATCH", "trigger": "trigger.chapter_01.s008", "beats": 68, "spoken": 62},
+	{"id": "S009", "path": "res://game/content/dialogue/chapter_01/S009.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_01/S009.md", "kind": "mandatory", "location": "LOC_GREENHOLLOW", "trigger": "trigger.chapter_01.s009", "beats": 131, "spoken": 128},
+	{"id": "S010", "path": "res://game/content/dialogue/chapter_01/S010.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_01/S010.md", "kind": "mandatory", "location": "LOC_BRIAR_PASSAGE", "trigger": "trigger.chapter_01.s010", "beats": 107, "spoken": 106},
+	{"id": "S011", "path": "res://game/content/dialogue/chapter_01/S011.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_01/S011.md", "kind": "mandatory", "location": "LOC_WAYFINDER_JUNCTION", "trigger": "trigger.chapter_01.s011", "beats": 112, "spoken": 110},
+	{"id": "C03", "path": "res://game/content/dialogue/chapter_01/C03.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_01/C03.md", "kind": "character_life", "location": "LOC_CHAPTER_01_ROADSIDE_REST", "trigger": "trigger.chapter_01.c03.after_s011", "beats": 89, "spoken": 87},
+	{"id": "C04", "path": "res://game/content/dialogue/chapter_01/C04.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_01/C04.md", "kind": "character_life", "location": "LOC_BRACKENWALL_ROUTE_ROOM", "trigger": "trigger.chapter_01.c04.after_s011", "beats": 116, "spoken": 115},
+	{"id": "C05", "path": "res://game/content/dialogue/chapter_01/C05.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_01/C05.md", "kind": "character_life", "location": "LOC_BRACKENWALL_SUPPLY_MEDICAL", "trigger": "trigger.chapter_01.c05.after_s011", "beats": 117, "spoken": 116}
 ]
 const SOURCE_SPEAKER_IDS := {
 	"CYANIS": "cyanis",

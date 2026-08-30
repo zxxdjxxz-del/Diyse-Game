@@ -2,15 +2,15 @@ extends SceneTree
 
 const REGISTRY_PATH := "res://game/content/dialogue/chapter_03/chapter_03_dialogue_registry.tres"
 const SCENE_SPECS := [
-	{"id": "S017", "path": "res://game/content/dialogue/chapter_03/S017.tres", "source": "res://docs/chapters/dialogue/chapter_03/S017.md", "kind": "mandatory", "location": "LOC_CAELORA_CONTAINMENT", "trigger": "trigger.chapter_03.s017"},
-	{"id": "S018", "path": "res://game/content/dialogue/chapter_03/S018.tres", "source": "res://docs/chapters/dialogue/chapter_03/S018.md", "kind": "mandatory", "location": "LOC_CAELORA_JUDICIAL_CAUSEWAY", "trigger": "trigger.chapter_03.s018"},
-	{"id": "S019", "path": "res://game/content/dialogue/chapter_03/S019.tres", "source": "res://docs/chapters/dialogue/chapter_03/S019.md", "kind": "mandatory", "location": "LOC_OLD_CITY_SUPPRESSED_ARCHIVES", "trigger": "trigger.chapter_03.s019"},
-	{"id": "S020", "path": "res://game/content/dialogue/chapter_03/S020.tres", "source": "res://docs/chapters/dialogue/chapter_03/S020.md", "kind": "mandatory", "location": "LOC_OLD_CITY_COMMAND_STATION", "trigger": "trigger.chapter_03.s020"},
-	{"id": "S021", "path": "res://game/content/dialogue/chapter_03/S021.tres", "source": "res://docs/chapters/dialogue/chapter_03/S021.md", "kind": "mandatory", "location": "LOC_CRESTHAVEN", "trigger": "trigger.chapter_03.s021.next_morning"},
-	{"id": "H01", "path": "res://game/content/dialogue/chapter_03/H01.tres", "source": "res://docs/chapters/dialogue/chapter_03/H01.md", "kind": "character_life", "location": "LOC_CRESTHAVEN_ARCHIVE_COMMON", "trigger": "trigger.chapter_03.h01.after_s019.at_cresthaven"},
-	{"id": "H02", "path": "res://game/content/dialogue/chapter_03/H02.tres", "source": "res://docs/chapters/dialogue/chapter_03/H02.md", "kind": "character_life", "location": "LOC_CRESTHAVEN_RECORDS_ROOM", "trigger": "trigger.chapter_03.h02.after_s018.at_cresthaven"},
-	{"id": "H03", "path": "res://game/content/dialogue/chapter_03/H03.tres", "source": "res://docs/chapters/dialogue/chapter_03/H03.md", "kind": "character_life", "location": "LOC_CRESTHAVEN_MEDICAL", "trigger": "trigger.chapter_03.h03.after_s019.at_cresthaven"},
-	{"id": "H04", "path": "res://game/content/dialogue/chapter_03/H04.tres", "source": "res://docs/chapters/dialogue/chapter_03/H04.md", "kind": "character_life", "location": "LOC_CRESTHAVEN_COMMON", "trigger": "trigger.chapter_03.h04.after_s021"}
+	{"id": "S017", "path": "res://game/content/dialogue/chapter_03/S017.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/S017.md", "kind": "mandatory", "location": "LOC_CAELORA_CONTAINMENT", "trigger": "trigger.chapter_03.s017"},
+	{"id": "S018", "path": "res://game/content/dialogue/chapter_03/S018.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/S018.md", "kind": "mandatory", "location": "LOC_CAELORA_JUDICIAL_CAUSEWAY", "trigger": "trigger.chapter_03.s018"},
+	{"id": "S019", "path": "res://game/content/dialogue/chapter_03/S019.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/S019.md", "kind": "mandatory", "location": "LOC_OLD_CITY_SUPPRESSED_ARCHIVES", "trigger": "trigger.chapter_03.s019"},
+	{"id": "S020", "path": "res://game/content/dialogue/chapter_03/S020.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/S020.md", "kind": "mandatory", "location": "LOC_OLD_CITY_COMMAND_STATION", "trigger": "trigger.chapter_03.s020"},
+	{"id": "S021", "path": "res://game/content/dialogue/chapter_03/S021.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/S021.md", "kind": "mandatory", "location": "LOC_CRESTHAVEN", "trigger": "trigger.chapter_03.s021.next_morning"},
+	{"id": "H01", "path": "res://game/content/dialogue/chapter_03/H01.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/H01.md", "kind": "character_life", "location": "LOC_CRESTHAVEN_ARCHIVE_COMMON", "trigger": "trigger.chapter_03.h01.after_s019.at_cresthaven"},
+	{"id": "H02", "path": "res://game/content/dialogue/chapter_03/H02.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/H02.md", "kind": "character_life", "location": "LOC_CRESTHAVEN_RECORDS_ROOM", "trigger": "trigger.chapter_03.h02.after_s018.at_cresthaven"},
+	{"id": "H03", "path": "res://game/content/dialogue/chapter_03/H03.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/H03.md", "kind": "character_life", "location": "LOC_CRESTHAVEN_MEDICAL", "trigger": "trigger.chapter_03.h03.after_s019.at_cresthaven"},
+	{"id": "H04", "path": "res://game/content/dialogue/chapter_03/H04.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/H04.md", "kind": "character_life", "location": "LOC_CRESTHAVEN_COMMON", "trigger": "trigger.chapter_03.h04.after_s021"}
 ]
 
 var failures: Array[String] = []

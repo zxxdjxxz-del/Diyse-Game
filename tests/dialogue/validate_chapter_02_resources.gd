@@ -2,13 +2,13 @@ extends SceneTree
 
 const REGISTRY_PATH := "res://game/content/dialogue/chapter_02/chapter_02_dialogue_registry.tres"
 const SCENE_SPECS := [
-	{"id": "S012", "path": "res://game/content/dialogue/chapter_02/S012.tres", "source": "res://docs/chapters/dialogue/chapter_02/S012.md", "kind": "mandatory", "location": "LOC_DUNMERE_WATERWORKS", "trigger": "trigger.chapter_02.s012"},
-	{"id": "S013", "path": "res://game/content/dialogue/chapter_02/S013.tres", "source": "res://docs/chapters/dialogue/chapter_02/S013.md", "kind": "mandatory", "location": "LOC_SUNKEN_ARCHIVE", "trigger": "trigger.chapter_02.s013"},
-	{"id": "S014", "path": "res://game/content/dialogue/chapter_02/S014.tres", "source": "res://docs/chapters/dialogue/chapter_02/S014.md", "kind": "mandatory", "location": "LOC_PRISONER_GALLERIES", "trigger": "trigger.chapter_02.s014"},
-	{"id": "S015", "path": "res://game/content/dialogue/chapter_02/S015.tres", "source": "res://docs/chapters/dialogue/chapter_02/S015.md", "kind": "mandatory", "location": "LOC_RED_TRANSFER_BASTION", "trigger": "trigger.chapter_02.s015"},
-	{"id": "S016", "path": "res://game/content/dialogue/chapter_02/S016.tres", "source": "res://docs/chapters/dialogue/chapter_02/S016.md", "kind": "mandatory", "location": "LOC_EXTRACTION_CAUSEWAY", "trigger": "trigger.chapter_02.s016"},
-	{"id": "C06", "path": "res://game/content/dialogue/chapter_02/C06.tres", "source": "res://docs/chapters/dialogue/chapter_02/C06.md", "kind": "character_life", "location": "LOC_DUNMERE_REST_AREA", "trigger": "trigger.chapter_02.c06.after_s016"},
-	{"id": "C07", "path": "res://game/content/dialogue/chapter_02/C07.tres", "source": "res://docs/chapters/dialogue/chapter_02/C07.md", "kind": "character_life", "location": "LOC_DUNMERE_REST_AREA", "trigger": "trigger.chapter_02.c07.after_s016"}
+	{"id": "S012", "path": "res://game/content/dialogue/chapter_02/S012.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_02/S012.md", "kind": "mandatory", "location": "LOC_DUNMERE_WATERWORKS", "trigger": "trigger.chapter_02.s012"},
+	{"id": "S013", "path": "res://game/content/dialogue/chapter_02/S013.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_02/S013.md", "kind": "mandatory", "location": "LOC_SUNKEN_ARCHIVE", "trigger": "trigger.chapter_02.s013"},
+	{"id": "S014", "path": "res://game/content/dialogue/chapter_02/S014.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_02/S014.md", "kind": "mandatory", "location": "LOC_PRISONER_GALLERIES", "trigger": "trigger.chapter_02.s014"},
+	{"id": "S015", "path": "res://game/content/dialogue/chapter_02/S015.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_02/S015.md", "kind": "mandatory", "location": "LOC_RED_TRANSFER_BASTION", "trigger": "trigger.chapter_02.s015"},
+	{"id": "S016", "path": "res://game/content/dialogue/chapter_02/S016.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_02/S016.md", "kind": "mandatory", "location": "LOC_EXTRACTION_CAUSEWAY", "trigger": "trigger.chapter_02.s016"},
+	{"id": "C06", "path": "res://game/content/dialogue/chapter_02/C06.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_02/C06.md", "kind": "character_life", "location": "LOC_DUNMERE_REST_AREA", "trigger": "trigger.chapter_02.c06.after_s016"},
+	{"id": "C07", "path": "res://game/content/dialogue/chapter_02/C07.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_02/C07.md", "kind": "character_life", "location": "LOC_DUNMERE_REST_AREA", "trigger": "trigger.chapter_02.c07.after_s016"}
 ]
 
 const SOURCE_SPEAKER_IDS := {
