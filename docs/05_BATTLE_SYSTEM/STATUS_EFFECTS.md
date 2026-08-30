@@ -18,6 +18,7 @@ These are the universal harmful statuses.
 Regen is beneficial and is **not** a harmful status.
 
 Global round/turn timing is owned by `TURN_AND_ROUND_RULES.md`. The status-specific timing below overrides only where explicitly stated.
+Application reliability is owned by `APPLICATION_RELIABILITY.md`.
 
 ## Status application resolver
 
@@ -37,9 +38,11 @@ General Status Resistance:
 
 For the compatible ordinary application resolver:
 
-> **FinalStatusChance = BaseChance + AffinityModifier + legal specialist bonuses - StatusResistance**
+> **FinalStatusChance = BaseChance + AffinityModifier + legal specialist bonuses + legal application-reliability bonuses - StatusResistance**
 
 Ordinary chance is clamped to **5%–95%**, except explicit immunity, guarantee, or script.
+
+`Application reliability +N` contributes **+N percentage points** to this status-application check. It does not modify Base Hit, does not invent a status rider, and does not bypass explicit immunity or protected/scripted legality.
 
 The old percentage-based `Normal 100% / Resistant 80% / Strongly Resistant 60%` table must **not** be restored as a second generic Status Resistance resolver. Identity-specific immunities and encounter-specific rules remain separate.
 
