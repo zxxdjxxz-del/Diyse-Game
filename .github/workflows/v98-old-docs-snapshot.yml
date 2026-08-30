@@ -1,4 +1,4 @@
-name: v98 old docs snapshot
+name: v98 Chapter 0 dialogue snapshot
 
 on:
   push:
@@ -12,15 +12,15 @@ jobs:
   snapshot:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out pre-v98 repository
+      - name: Check out accepted pre-v98 repository
         uses: actions/checkout@v4
         with:
           ref: 3fd07e92eda04f31ba613a654b3b1b28071f44e6
-      - name: Package old docs
-        run: tar -cJf old-docs.tar.xz docs README.md AGENTS.md
+      - name: Package accepted Chapter 0 dialogue resources
+        run: tar -cJf chapter00-dialogue.tar.xz game/content/dialogue/chapter_00
       - name: Upload snapshot
         uses: actions/upload-artifact@v4
         with:
-          name: v98-old-docs-snapshot
-          path: old-docs.tar.xz
+          name: v98-chapter00-dialogue-snapshot
+          path: chapter00-dialogue.tar.xz
           if-no-files-found: error
