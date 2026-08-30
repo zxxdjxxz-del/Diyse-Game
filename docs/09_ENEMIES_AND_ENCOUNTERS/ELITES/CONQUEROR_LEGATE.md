@@ -45,7 +45,8 @@
 Effects:
 - Attack +10%
 - Magic +10%
-- +10 Total Defense
+- Defense +10%
+- Spirit +10%
 through the end of the following round.
 No extra action.
 2-round repetition lock.
