@@ -89,18 +89,21 @@ Count proof:
 | Relic | Focus | **One Breath Ahead** | Shared/legal by access | +16 MAG / +16 SPR / +9 SPD; Trait: Exact Moment |
 | Legacy | Sword | **Move or I Move You.** | Cyanis | +74 ATK / +55 MAG; +10pp applicable Defense/Spirit penetration; Trait: Forced Opening |
 | Legacy | Shield | **That Was Dumb.** | Cyanis | +30 DEF / +28 SPR; +12 Status Resistance; Trait: Bad Choice |
-| Legacy | Heavy Armor | **That Didn't Do Shit.** | Cyanis | +50 DEF / +42 SPR; Max HP +12%; Trait: Still Standing |
+| Legacy | Heavy Armor | **That Didn't Do Shit.** | Cyanis | +50 DEF / +42 SPR; Max HP +400; Trait: Still Standing |
 | Legacy | Wardrod | **I Said Enough.** | Ilyra | +58 ATK / +63 MAG; +10% direct healing; Trait: Final Warning |
-| Legacy | Shield | **Try Me Instead.** | Ilyra | +28 DEF / +30 SPR; Max HP +8%; Trait: Sanctuary |
-| Legacy | Focus | **No. Stay Here.** | Ilyra | +22 MAG / +28 SPR; Max MP +12%; Trait: Stay With Me |
-| Legacy | Warding Armor | **Get Behind Me.** | Ilyra | +34 DEF / +44 SPR; Max HP +10%; Trait: Immediate Shelter |
+| Legacy | Shield | **Try Me Instead.** | Ilyra | +28 DEF / +30 SPR; Max HP +250; Trait: Sanctuary |
+| Legacy | Focus | **No. Stay Here.** | Ilyra | +22 MAG / +28 SPR; Max MP +40; Trait: Stay With Me |
+| Legacy | Warding Armor | **Get Behind Me.** | Ilyra | +34 DEF / +44 SPR; Max HP +325; Trait: Immediate Shelter |
 | Legacy | Great Bow — Weapon + Secondary | **Should've Moved.** | Torren | +95 ATK; +10 Base Hit; Trait: Predicted Line |
 | Legacy | Medium Armor | **Figured You'd Come This Way.** | Torren | +42 DEF / +33 SPR / +3 SPD; Evasion +10; Trait: Prepared Ground |
 | Legacy | Two-Handed Conduit — Weapon + Secondary | **Good Fuck, Definitely. Good Fuck.** | Nimera | +60 ATK / +82 MAG; +10% eligible Conduit final damage; Trait: Better Version |
 | Legacy | Focus | **Hold On. That's Useful.** | Nimera | +22 MAG / +22 SPR / +8 SPD; Standard Card action Speed +10%; Trait: Keep That |
 | Legacy | Light Ritual Armor | **Fuck It. New Plan.** | Nimera | +32 DEF / +42 SPR; +10% action Speed while disrupted; Trait: New Plan |
 | Legacy | Arcane Staff — one-slot Primary | **There's Your Problem.** | Vaelira | +12 ATK / +83 MAG; +10pp Spirit penetration on eligible elemental damaging Staff actions; Trait: Correct Answer |
-| Legacy | Focus | **That Saves Me the Trouble.** | Vaelira | +24 MAG / +24 SPR / +5 SPD; Max MP +12%; Trait: Borrowed Answer |
+| Legacy | Focus | **That Saves Me the Trouble.** | Vaelira | +24 MAG / +24 SPR / +5 SPD; Max MP +45; Trait: Borrowed Answer |
 | Legacy | Light Caster Armor | **Oh, I Can Use That.** | Vaelira | +29 DEF / +50 SPR / +4 SPD; 10% less eligible direct elemental damage; Trait: Useful Pressure |
 | Legacy | Two-Handed Sword — Weapon + Secondary | **You Are Finished.** | Seyrik | +105 ATK / +7 MAG; +10pp Critical Chance; Trait: End It |
-| Legacy | Battle Heavy Armor | **You Should Have Killed Me.** | Seyrik | +56 DEF / +34 SPR; Max HP +15%; Trait: Still Dangerous |
+| Legacy | Battle Heavy Armor | **You Should Have Killed Me.** | Seyrik | +56 DEF / +34 SPR; Max HP +600; Trait: Still Dangerous |
+
+## Max HP / Max MP equipment rule
+Equipment Max HP and Max MP bonuses are persistent flat raw additions. They stack additively across legally equipped items and are applied after selected-class natural stat construction. See `HP_MP_FLAT_BONUS_RULES.md`.
