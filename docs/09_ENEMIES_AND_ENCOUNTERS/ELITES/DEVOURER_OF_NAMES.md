@@ -6,7 +6,7 @@
 
 ## Raw body — RETAIN
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 63 | **7,000** | **216** | **230** | **151** | **159** | **57** | 10 | 10 |
 
 ## Permanent-state firewall
@@ -58,7 +58,7 @@ No "Name" status exists.
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+15 Total Defense through the end of the following round**
+> **Defense +15% / Spirit +15% through the end of the following round**
 
 2-round repetition lock.
 
@@ -74,9 +74,12 @@ Devourer of Names creates exactly one:
 |---:|---:|---:|---:|---:|---:|---|
 | 1 | **900** | **150** | **158** | 5 | 10 | **N/A** |
 
-While functional:
-- Devourer of Names gains **Magic +10%**
-- Devourer of Names gains **+10 Total Defense**
+While functional, this distinct support source grants Devourer of Names:
+- **Magic +10%**
+- **Defense +10%**
+- **Spirit +10%**
+
+These effects participate normally in the global temporary-stat stacking cap and end immediately if the Echo is destroyed.
 
 Rules:
 - no independent turn;
