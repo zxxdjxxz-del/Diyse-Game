@@ -1,4 +1,4 @@
-name: v98 Chapter 0 dialogue snapshot
+name: v98 exact dialogue migration
 
 on:
   push:
@@ -6,21 +6,27 @@ on:
       - migration/v98-subject-canon
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  snapshot:
+  migrate:
+    if: ${{ github.actor != 'github-actions[bot]' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Check out accepted pre-v98 repository
+      - name: Check out migration branch
         uses: actions/checkout@v4
         with:
-          ref: 3fd07e92eda04f31ba613a654b3b1b28071f44e6
-      - name: Package accepted Chapter 0 dialogue resources
-        run: tar -cJf chapter00-dialogue.tar.xz game/content/dialogue/chapter_00
-      - name: Upload snapshot
-        uses: actions/upload-artifact@v4
-        with:
-          name: v98-chapter00-dialogue-snapshot
-          path: chapter00-dialogue.tar.xz
-          if-no-files-found: error
+          ref: migration/v98-subject-canon
+          fetch-depth: 0
+      - name: Generate and verify 41 exact v98 dialogue transcripts
+        run: python tools/generate_v98_dialogue.py
+      - name: Remove temporary migration tooling
+        run: rm .github/workflows/v98-old-docs-snapshot.yml tools/generate_v98_dialogue.py
+      - name: Commit generated exact dialogue
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/03_DIALOGUE/LINE_COMPLETE .github/workflows/v98-old-docs-snapshot.yml tools/generate_v98_dialogue.py
+          git diff --cached --check
+          git commit -m "Generate exact v98 dialogue transcripts"
+          git push origin HEAD:migration/v98-subject-canon
