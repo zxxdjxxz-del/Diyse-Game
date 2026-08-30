@@ -137,6 +137,11 @@ Rules:
 - this is a normal harmful status;
 - it is **not** the retired Break/Stagger meter.
 
+High-rank duration conversion:
+- Regional Hunt — **4 rounds**;
+- Major Hunt / mandatory boss — **3 rounds**;
+- Staggered keeps its full **Attack −20% / Magic −20% / Speed −20%** magnitude under this conversion unless an encounter explicitly overrides it.
+
 ## Bleed
 
 Initial ordinary magnitude:
