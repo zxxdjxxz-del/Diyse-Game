@@ -179,7 +179,7 @@ Neither takes an independent ordinary turn.
 
 While functional:
 - Custodian gains **+10 Base Hit**
-- Custodian gains **Speed +10**
+- Custodian gains **Speed +10%**
 
 No extra action is granted.
 
@@ -190,7 +190,7 @@ No extra action is granted.
 | **760** | **150** | **145** | 0 | 10 | **N/A** |
 
 While functional:
-- Custodian gains **+10 Total Defense**
+- Custodian gains **Defense +10% / Spirit +10%**
 - direct **Ruin-school** HP damage dealt to the Custodian is reduced by **15% final**
 
 This is not Barrier.
@@ -250,8 +250,8 @@ Their effects end permanently.
 > **Power: N/A — no direct damage**
 
 Effect:
-- Defense +10
-- Spirit +15
+- **Defense +10%**
+- **Spirit +15%**
 
 through the end of the following round.
 
@@ -277,8 +277,9 @@ Transition:
 - Custodial Hold ends and becomes unavailable.
 
 For the rest of battle:
-- **Speed +10**
-- **Total Defense −15**
+- **Speed +10%**
+- **Defense −15%**
+- **Spirit −15%**
 
 The late state is:
 > faster, more direct, and more exposed.
