@@ -61,6 +61,27 @@ An equipped weapon does not silently change a learned Ability between Physical/M
 
 Individual equipment Traits may modify an eligible action only where explicitly authored.
 
+## Action-Speed firewall
+
+**Action Speed is not an active Diyse combat mechanic.**
+
+Equipment may legally provide:
+- persistent raw **SPD**;
+- temporary or conditional **Speed ±N%** that resolves through `05_BATTLE_SYSTEM/STAT_CHANGES.md`;
+- an explicitly supported action-local bonus such as Base Hit, Evasion, application reliability, MP-cost reduction, healing potency, damage, penetration, or direct-damage reduction;
+- a specifically authored initiative-routing effect only where the battle-system owner explicitly supports it.
+
+Equipment may **not** provide:
+- `action Speed`;
+- cast speed;
+- per-action priority;
+- a hidden initiative multiplier;
+- mid-round turn-order reshuffling merely because one selected action is described as faster.
+
+A legal Speed modifier applied after the current round's initiative is fixed does not move that action earlier in the current round. If the Speed modifier remains active at the next normal-round initiative setup, it affects ordering there normally.
+
+Historical/current migrated equipment wording that used `action Speed` is retired and must be normalized to one of the supported mechanics above rather than implemented as a new subsystem.
+
 ## Max HP / Max MP equipment bonuses
 
 Equipment bonuses to **Max HP** and **Max MP** are persistent percentage modifiers.
