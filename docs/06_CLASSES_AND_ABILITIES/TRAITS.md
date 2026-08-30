@@ -19,15 +19,16 @@ This file is the controlling current Trait-effect register. It restores the late
 - **Rank III — CL12:** Ilyra's cleansing Abilities gain **+10% healing potency**.
 
 ### Torren — War Archer — Veteran's Measure
-- **Rank I — CL1:** Torren gains **+10 Base Hit** against enemies whose major defensive data or observed behavior is known.
-- **Rank II — CL6:** the first direct-damage War Archer Ability each round against **Hunter's Measure** gains **+5 percentage points Critical Chance**.
-- **Rank III — CL12:** that Hunter's Measure Critical bonus becomes **+10 percentage points**.
-- Hunter's Measure remains an authored tactical state, not a universal harmful status.
+- **Rank I — CL1:** Torren gains **+10 Base Hit** against targets with **Hunter's Measure**.
+- **Rank II — CL6:** Torren gains **+5 percentage points Critical Chance** against Hunter's Measure.
+- **Rank III — CL12:** damaging War Archer Abilities gain **15% Defense penetration** against Hunter's Measure, subject to the global same-axis penetration cap.
+- Hunter's Measure itself remains a shared authored tactical state: **Evasion −10** and **+10 percentage points party Critical Chance** against the target for the remainder of the current round plus the next 2 full normal rounds.
 
 ### Nimera — Cardweaver — Living Archive
-- **Rank I — CL1:** Nimera's first Standard Card each round gains **+10% eligible primary-action potency**. The interface also exposes only encounter-permitted known Face/effect/targeting/Prime-consequence information; no removed Card-Seal subsystem is restored.
-- **Rank II — CL6:** that first Standard Card each round additionally gains **+10 Base Hit / application reliability**, where relevant.
-- **Rank III — CL12:** after a legal Prime activation begins initial resolution while Nimera is conscious and active, restore **5% Max MP**, at most once per ordinary party round before Prime suspension.
+- **Rank I — CL1:** Nimera's Standard Cards cost **20% less MP**, rounded normally, minimum 1 MP. Between Nimera's turns, Living Archive records the last **2 eligible allied Abilities or Standard Cards** under the Cardweaver copy firewall.
+- **Rank II — CL6:** Living Archive capacity increases **2 → 3 eligible actions** per recording window.
+- **Rank III — CL12:** Nimera's personal Standard-Card MP reduction increases **20% → 30%**.
+- The ordinary archive clears after Nimera completes her next turn and immediately begins a new recording window; **Perfect Recall** is the explicit exception that can preserve one record beyond that window.
 
 ### Vaelira — Green Arcanist — Prismatic Flow
 - **Rank I — CL1:** the first damaging action each round whose standard element differs from Vaelira's previous damaging action gains **+10% final damage**. Colorless resets the remembered element without receiving the bonus.
@@ -55,16 +56,15 @@ This file is the controlling current Trait-effect register. It restores the late
 - One Tempered Mercy state maximum; qualifying heals refresh rather than stack.
 
 ### Torren — Routeweaver — Route Weaving
-- **Rank I — CL1:** after Torren uses a Standard Card, his next damaging Routeweaver Ability before the end of the following round gains **+10% final damage**.
-- **Rank II — CL6:** after Torren uses any Routeweaver Ability, his next Standard Card before the end of the following round gains **+10 Base Hit / application reliability**, where relevant.
-- **Rank III — CL12:** **Open the Way** initial duration increases **3 → 4 rounds**.
-- Stored sequencing benefits refresh rather than stack and never create an extra action.
+- **Rank I — CL1:** after Torren uses **Throughline, Set the Pace, Crossroads, or Covered Crossing**, his next damaging Routeweaver Ability before the end of the following round gains **+10 Base Hit**. One stored benefit maximum; refresh rather than stack.
+- **Rank II — CL6:** when an ally successfully benefits from one of Torren's route effects, Torren restores **4% Max MP**, at most **once per normal round**. Qualifying benefits include consuming Throughline's discount, acting while Set the Pace is active, triggering Crossroads, or taking a rerouted turn from Covered Crossing/Open the Way.
+- **Rank III — CL12:** the first ally each normal round to successfully benefit from one of Torren's route effects gains **+10 Base Hit / application reliability** for that benefiting action where relevant.
+- Route Weaving never creates an extra ordinary action.
 
 ### Nimera — Proofhunter — Applied Evidence
-- **Rank I — CL1:** damaging Proofhunter Abilities gain **+10 Base Hit** against targets with Hunter's Measure.
-- **Rank II — CL6:** those Abilities additionally gain **+10 percentage points Critical Chance** against measured targets.
-- **Rank III — CL12:** those Abilities additionally gain **15% applicable defensive-axis penetration** against measured targets: Defense for Physical, Spirit for Magical, split appropriately for Hybrid.
-- These bonuses stack with explicitly authored same-axis penetration on the Ability.
+- **Rank I — CL1:** whenever Nimera successfully applies or refreshes **Hunter's Measure** with a Proofhunter Ability, she gains **Magic +10% for 4 rounds**. Reapplication refreshes rather than stacks.
+- **Rank II — CL6:** damaging Proofhunter Abilities gain **+10 percentage points Critical Chance** against Hunter's Measure.
+- **Rank III — CL12:** damaging Proofhunter Abilities gain **15% additional applicable defensive-axis penetration** against targets that both have Hunter's Measure and are currently suffering Defense Down or Spirit Down. This stacks with explicitly authored same-axis penetration subject to the global penetration cap.
 
 ### Vaelira — Axiomblade — Formal Equivalence
 - **Rank I — CL1:** when Vaelira deals damage with a single-element **Fire / Ice / Lightning / Earth** Ability, that element becomes her current expression through the end of the following round. Her next **Neutral damaging Axiomblade Ability** adopts that stored element and consumes the expression. Authored elemental Axiomblade Abilities are never overwritten; multi-element actions do not establish an expression; one expression maximum.
