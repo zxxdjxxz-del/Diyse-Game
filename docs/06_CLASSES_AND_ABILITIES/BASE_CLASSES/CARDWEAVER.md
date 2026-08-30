@@ -20,6 +20,13 @@ While Cardweaver is selected, Nimera records eligible allied actions performed b
 - It does not record Ultimates, Prime invocation/commands, Items, Basic Attack, Defend, Prepared/reaction actions, Field-creating actions, summons, other copy/replay actions, scripted actions, source-owned persistent class constructs such as Throughline/Crossroads/Covered Crossing, or any action whose effect **grants additional actual actions or changes the number of normal actions**.
 - Therefore Standard Card **Split Moment** is not eligible for Living Archive, Echo Weave, Perfect Recall, or Grand Reweaving.
 
+## Trait ranks — Living Archive
+- **Rank I — CL1:** Nimera's Standard Cards cost **20% less MP**, rounded normally, minimum 1 MP; Living Archive retains the last **2** eligible allied actions in the current recording window.
+- **Rank II — CL6:** Living Archive capacity increases **2 → 3 eligible actions** per recording window.
+- **Rank III — CL12:** Nimera's personal Standard-Card MP reduction increases **20% → 30%**.
+
+Living Archive's personal Standard-Card reduction uses the global compatible MP-cost-modifier rules in `MP_COST_RULES.md`; it does not reduce Prime actions, which already cost 0 MP.
+
 ## Copy resolution rules
 When Echo Weave or Grand Reweaving reproduces an eligible record:
 - **Echo Weave / Grand Reweaving remains the acting Cardweaver Ability identity.** The copied record supplies a reproducible effect package; Nimera is not treated as literally using the source Ability or Standard Card identity.
@@ -31,6 +38,17 @@ When Echo Weave or Grand Reweaving reproduces an eligible record:
 - Direct damage, direct healing, and revival recovery are multiplied by the copy's stated potency modifier after the copied action resolves its ordinary authored calculations.
 - Effects with no scalable damage/healing number retain their authored immediate magnitude unless explicitly excluded.
 - Copied actions cannot create further archive/copy chains.
+
+## Awakened Prime interaction
+Living Archive and Perfect Recall remain Cardweaver-owned ordinary-party states; they do not become Prime commands or Prime resources.
+
+- Prime Invocation and Prime commands are never eligible Living Archive records.
+- If another party member invokes an Awakened Prime before Nimera completes her next turn, Nimera's current Living Archive recording window remains intact through the Prime suspension. Prime rounds do not count as Nimera turns and do not clear the archive.
+- If **Nimera herself** selects Prime Invocation on her turn, that invocation is still her selected action. When that turn completes, the ordinary Living Archive window clears normally; a separately active Perfect Recall record remains preserved according to its own duration.
+- Perfect Recall's printed round duration is a **normal-round** duration. Awakened Prime rounds do not consume that duration; it resumes when normal party-round flow returns.
+- A Preserved Record cannot be selected or copied by the manifested Prime body.
+- **Ancient Override** follows the global Field pause rule during Awakened Prime rounds.
+- **Hastened Weave** follows the global temporary-stat pause rule while Nimera is suspended.
 
 ## Ability spine
 | Unlock | Ability | MP | Current effect |
