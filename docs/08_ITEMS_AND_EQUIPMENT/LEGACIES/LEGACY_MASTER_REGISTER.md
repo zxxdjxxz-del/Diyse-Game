@@ -23,8 +23,8 @@ Formal master-canon promotion remains a separate step.
 | Torren | Should've Moved. | Great Bow — Weapon + Secondary | +95 ATK | +10 Base Hit | Predicted Line |
 | Torren | Figured You'd Come This Way. | Medium Armor | +42 DEF / +33 SPR / +3 SPD | Evasion +10 | Prepared Ground |
 | Nimera | Good Fuck, Definitely. Good Fuck. | Two-Handed Conduit — Weapon + Secondary | +60 ATK / +82 MAG | +10% eligible Conduit final damage | Better Version |
-| Nimera | Hold On. That's Useful. | Focus | +22 MAG / +22 SPR / +8 SPD | Standard Card action Speed +10% | Keep That |
-| Nimera | Fuck It. New Plan. | Light Ritual Armor | +32 DEF / +42 SPR | +10% action Speed while disrupted | New Plan |
+| Nimera | Hold On. That's Useful. | Focus | +22 MAG / +22 SPR / +8 SPD | Standard Cards gain +10 Base Hit / application reliability where relevant | Keep That |
+| Nimera | Fuck It. New Plan. | Light Ritual Armor | +32 DEF / +42 SPR | Speed +10% while disrupted | New Plan |
 | Vaelira | There's Your Problem. | Arcane Staff — one-slot Primary | +12 ATK / +83 MAG | +10pp Spirit penetration on eligible elemental damaging Staff actions | Correct Answer |
 | Vaelira | That Saves Me the Trouble. | Focus | +24 MAG / +24 SPR / +5 SPD | Max MP +15% | Borrowed Answer |
 | Vaelira | Oh, I Can Use That. | Light Caster Armor | +29 DEF / +50 SPR / +4 SPD | 10% less eligible direct elemental damage | Useful Pressure |
