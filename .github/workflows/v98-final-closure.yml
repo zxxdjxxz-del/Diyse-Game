@@ -1,0 +1,25 @@
+name: v98 final repository closure
+
+on:
+  push:
+    branches:
+      - migration/v98-subject-canon
+    paths:
+      - '.migration/v98-final-closure/**'
+      - '.github/workflows/v98-final-closure.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  finalize-v98-repository:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout migration branch
+        uses: actions/checkout@v4
+        with:
+          ref: migration/v98-subject-canon
+          fetch-depth: 0
+      - name: Install exact v98 closure and validate repository tree
+        shell: bash
+        run: bash .migration/v98-final-closure/install.sh
