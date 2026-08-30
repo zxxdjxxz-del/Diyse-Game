@@ -41,9 +41,9 @@ Perfected War Mother:
 - inherits only Reservoir functions that survived Form I;
 - does not restore party HP/MP;
 - pays no intermediate EXP/CEXP reward;
-- **refreshes Prime availability under the current global fresh-body rule**.
+- **does not restore a spent Prime identity**.
 
-Older Zevraya-specific wording that did not refresh Prime availability is superseded.
+Historical Zevraya wording that refreshed Prime availability on a fresh body is superseded by the current rest-based Prime-use rule.
 
 There is no third full-health form.
 
@@ -199,7 +199,7 @@ While functional, Zevraya may use:
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+15 Total Defense through the end of the following round**
+> **Defense +15% / Spirit +15% through the end of the following round**
 
 2-round repetition lock.
 
@@ -312,7 +312,7 @@ At Blood Matron 0 HP:
 - destroyed Reservoir branches remain absent;
 - Crimson Brood Organism is removed if still present;
 - Perfected War Mother begins at fresh full HP;
-- Prime availability refreshes;
+- spent Prime identities remain spent;
 - no intermediate reward.
 
 ---
@@ -403,7 +403,7 @@ Hard cap:
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+15 Total Defense through the end of the following round**
+> **Defense +15% / Spirit +15% through the end of the following round**
 
 2-round repetition lock.
 
@@ -459,12 +459,12 @@ No Wind/Water damage.
 
 # PRIME INTERACTION
 
-Current fresh-body authority controls:
-> Perfected War Mother **refreshes Prime availability**.
+Perfected War Mother begins with fresh HP but:
+> **does not restore a spent Prime identity**.
 
-This applies even if Last Sentinel was already used during Blood Matron.
+A Prime that remained unused remains available normally; a Prime spent during Blood Matron remains spent until valid rest or explicit restoration.
 
-No third-body refresh exists.
+No third body exists.
 
 ---
 
