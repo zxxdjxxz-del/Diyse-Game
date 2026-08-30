@@ -68,6 +68,12 @@ Rules:
 - Burn damage ignores Defense/Spirit;
 - Burn damage can KO unless a specific encounter says otherwise.
 
+Interaction with separate defensive stat reductions:
+- Burn's Defense and Spirit penalties do **not** additively stack with a separate negative modifier on the same defensive stat;
+- for Defense and Spirit independently, apply the **strongest active reduction** on that axis;
+- Burn and the separate stat-reduction effect keep their own durations independently;
+- when the stronger effect ends, a weaker still-active reduction resumes for its remaining duration.
+
 High-rank damage conversion:
 - Regional Hunt — **75%** ordinary Burn damage = **4.5% Max HP per affected round**, up to **18% Max HP total** across 4 uninterrupted rounds;
 - Major Hunt / mandatory boss — **50%** ordinary Burn damage = **3% Max HP per affected round**, up to **12% Max HP total** across 4 uninterrupted rounds;
