@@ -34,13 +34,13 @@ True construct:
 
 ### Gate Guard
 > **Power: N/A — no direct damage**
-- +15 Total Defense through end following round
+- Defense +15% / Spirit +15% through end following round
 - 2-round repetition lock
 
 ## 50% — Marching Protocol
 At first reaching 50% HP:
-- Speed +10 for the rest of battle;
-- Total Defense −10 for the rest of battle;
+- Speed +10% for the rest of battle;
+- Defense −10% / Spirit −10% for the rest of battle;
 - unlock Marching Crush.
 
 No HP refill.

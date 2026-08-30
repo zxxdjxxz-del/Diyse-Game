@@ -16,7 +16,7 @@ True construct:
 
 ## State A — Frozen Shell
 From 100% HP through above 50% HP:
-> **+15 Total Defense**
+> **Defense +15% / Spirit +15%**
 
 ### Winterglass Fist
 - Physical / Neutral / one target
@@ -38,8 +38,8 @@ From 100% HP through above 50% HP:
 
 ## 50% — Thawed Core
 At first reaching 50% HP:
-- Frozen Shell's +15 Total Defense ends;
-- Speed +10 for the rest of battle;
+- Frozen Shell's Defense +15% / Spirit +15% ends;
+- Speed +10% for the rest of battle;
 - Attack +10% / Magic +10% for the rest of battle;
 - unlock Core Crush and Glassburst.
 

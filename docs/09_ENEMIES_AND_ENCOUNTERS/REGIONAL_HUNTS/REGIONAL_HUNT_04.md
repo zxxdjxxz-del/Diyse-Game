@@ -52,7 +52,7 @@ Only the current state's rider is eligible.
 
 ### Prototype Guard
 > **Power: N/A — no direct damage**
-- +10 Total Defense through end following round
+- Defense +10% / Spirit +10% through end following round
 - 2-round repetition lock
 
 ## Architecture

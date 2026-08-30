@@ -42,7 +42,7 @@ True construct:
 
 ### Record Guard
 > **Power: N/A — no direct damage**
-- Defense +10 / Spirit +10 through end following round
+- Defense +10% / Spirit +10% through end following round
 - 2-round repetition lock
 
 ## Architecture

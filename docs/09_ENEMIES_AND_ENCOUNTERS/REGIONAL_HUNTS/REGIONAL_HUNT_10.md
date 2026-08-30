@@ -38,7 +38,7 @@
 
 ### Procedure Guard
 > **Power: N/A — no direct damage**
-- Defense +10 / Spirit +10 through end following round
+- Defense +10% / Spirit +10% through end following round
 - 2-round repetition lock
 
 ## Finite Echo machinery
@@ -52,12 +52,14 @@ create one:
 Maximum:
 > **2 total**
 
-Each:
+Each functional Echo Node:
 - HP1,050
 - no independent turn
 - Power N/A
-- Magic +5% / +5 Total Defense to Authority Remnant while functional
+- grants Authority Remnant **Magic +5% / Defense +5% / Spirit +5%** while functional
 - no repair/respawn
+
+The two separately created Echo Nodes contribute independently and may coexist. With both functional, they total **Magic +10% / Defense +10% / Spirit +10%** before any other legal modifiers and the global ±40% core-stat cap.
 
 ## Ontology firewall
 Authority Remnant is:

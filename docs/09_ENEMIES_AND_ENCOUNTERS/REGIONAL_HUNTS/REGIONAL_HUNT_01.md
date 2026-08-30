@@ -37,7 +37,7 @@ Cold Undertow does **not** inflict Freeze because this Hunt is available in the 
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+10 Total Defense through the end of the following round**
+> **Defense +10% / Spirit +10% through the end of the following round**
 
 2-round repetition lock.
 

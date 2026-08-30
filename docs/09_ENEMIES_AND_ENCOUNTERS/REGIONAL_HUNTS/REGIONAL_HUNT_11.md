@@ -1,6 +1,6 @@
 # Diyse — Regional Hunt #11: Throne of Emperor Vaelkor
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later accepted active-balance specifications.  
+**Current whole-project written authority:** **v2.20 / Audit135**, plus later accepted active-balance specifications and newer Prime-restoration rules.  
 **Scaling:** fixed authored tuning; no dynamic player-level scaling.
 
 
@@ -41,7 +41,7 @@ Support at battle start:
 
 ### Sealed Guard
 > **Power: N/A — no direct damage**
-- +15 Total Defense through end following round
+- Defense +15% / Spirit +15% through end following round
 - 2-round repetition lock
 
 ## Form transition
@@ -51,7 +51,7 @@ At Sealed Throne 0 HP:
 This is a genuine fresh body.
 
 Rules:
-- Prime availability refreshes;
+- spent/Ready Prime state carries through unchanged; the fresh body does **not** restore a spent Prime;
 - party HP/MP do not refresh;
 - surviving Attendant Frames carry forward;
 - destroyed Attendant Frames remain destroyed;
@@ -94,7 +94,8 @@ Rules:
 > **Power: N/A — no direct damage**
 - Attack +10%
 - Magic +10%
-- +10 Total Defense
+- Defense +10%
+- Spirit +10%
 through end following round
 - no extra action
 - 2-round repetition lock
@@ -129,4 +130,4 @@ No third form.
 - completionist Chapter-12 entry: **Lv63**;
 - completionist mid/late Chapter 12: **Lv64–66**;
 - exact within-Chapter-12 timing relative to Varkesh/Vaelkor remains unresolved;
-- no raw stat, support value, fresh-body rule, or direct-damage Power changed.
+- no raw stat, support value, or direct-damage Power changed.
