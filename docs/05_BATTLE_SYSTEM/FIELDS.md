@@ -29,10 +29,12 @@ Its printed effects become active immediately on all currently legal subjects.
 
 Examples of current player Field authority:
 - Cardweaver **Ancient Override** — Field;
-- Routeweaver **Open the Way** — Route Field.
+- War Archer **Choose the Route / Clear Route** — Field;
+- War Archer **Choose the Route / Covered Route** — Field.
 
 Explicit non-Field examples:
-- Routeweaver **Crossroads** is **not** a Field;
+- Routeweaver **Crossroads** is a linked-enemy route state, **not** a Field;
+- Routeweaver **Open the Way** is a next-round initiative-routing Ultimate, **not** a Field;
 - Crest Arcanist has **no Field-creation Ability** in its current normalized kit.
 
 ## Duration
@@ -49,7 +51,7 @@ A Field's duration does not retroactively alter actions that resolved before the
 
 ## Speed and other Field modifiers
 
-A Field may contain ordinary stat changes, Base Hit modifiers, Status Resistance, direct-damage reduction, Card modifiers, or other explicitly authored effects.
+A Field may contain ordinary stat changes, Base Hit modifiers, Status Resistance, direct-damage reduction, Card modifiers, MP-cost modifiers, or other explicitly authored effects.
 
 Each contained effect resolves through its own global owner.
 
@@ -57,6 +59,7 @@ In particular:
 - a Speed modifier from a Field becomes active immediately but does **not** reshuffle initiative already fixed for the current round;
 - if still active at the next normal round's initiative check, that Speed modifier affects ordering normally;
 - Defense/Spirit/Attack/Magic changes use `STAT_CHANGES.md`;
+- MP-cost changes use `06_CLASSES_AND_ABILITIES/MP_COST_RULES.md` where applicable;
 - direct-damage reduction uses `DAMAGE_FORMULAS.md`;
 - harmful statuses use `STATUS_EFFECTS.md`.
 
@@ -71,8 +74,9 @@ Unless an owning Field explicitly says otherwise:
 
 If an owning class or action establishes a stricter source limit, that stricter limit controls.
 
-Current example:
-- Cardweaver Ancient Override explicitly allows **maximum one Nimera-authored Field** at a time.
+Current examples:
+- Cardweaver **Ancient Override** refreshes its existing Nimera-authored Ancient Override rather than stacking a second copy;
+- War Archer **Choose the Route** allows only one Torren-authored War Archer Route Field at once; choosing Clear Route or Covered Route replaces the other.
 
 ## Different Fields / global slot rule
 
@@ -80,16 +84,17 @@ There is **no universal one-Field battlefield slot**.
 
 Different legal Fields may coexist unless an owning action, class, encounter, or specific Field says otherwise.
 
-Their contained effects still obey the normal same-axis/stat/direct-reduction stacking rules. Coexistence therefore does not imply that every numeric modifier adds together.
+Their contained effects still obey the normal same-axis/stat/direct-reduction/cost-modifier rules. Coexistence therefore does not imply that every numeric modifier adds together.
 
 ## Field removal
 
 Only an effect explicitly capable of removing a Field may do so.
 
 Current player examples include:
-- **Ancient Override** — removes 1 removable hostile Field on creation;
 - **Arcane Rupture** — removes 1 removable hostile Field after damage;
 - **Crest Dominion** — removes 1 removable hostile Field as part of its post-damage package.
+
+**Ancient Override no longer removes a hostile Field on creation.** Its current identity is party MP economy.
 
 If a player-controlled effect can remove exactly one hostile Field and more than one eligible hostile Field exists, the player chooses which eligible Field is removed as part of that action's legal content selection.
 
