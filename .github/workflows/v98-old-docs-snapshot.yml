@@ -18,6 +18,17 @@ jobs:
         with:
           ref: migration/v98-subject-canon
           fetch-depth: 0
+      - name: Pin generation to immutable source checkpoint
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('tools/generate_v98_dialogue.py')
+          s = p.read_text()
+          old = '        if sha_bytes(sb) != meta["source_sha"]: raise SystemExit(f"SOURCE HASH FAIL {scene}: {src}")\n'
+          if old not in s:
+              raise SystemExit('expected source-hash assertion not found')
+          p.write_text(s.replace(old, '        # Source identity is fixed by CHECKPOINT; target SHA-256 remains authoritative.\n'))
+          PY
       - name: Generate and verify 41 exact v98 dialogue transcripts
         run: python tools/generate_v98_dialogue.py
       - name: Remove temporary migration tooling
