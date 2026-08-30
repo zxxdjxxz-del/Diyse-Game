@@ -100,7 +100,7 @@ The existing Lv41/raw-stat recertification was completed under the older fresh-b
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+15 Total Defense through the end of the following round**
+> **Defense +15% / Spirit +15% through the end of the following round**
 
 2-round repetition lock.
 

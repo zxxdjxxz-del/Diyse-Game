@@ -56,7 +56,7 @@ True construct:
 
 ## Custody Protocol
 From battle start:
-> **+10 Total Defense**
+> **Defense +10% / Spirit +10%**
 
 This passive custody bonus is suspended during a Transfer Window.
 
@@ -75,9 +75,10 @@ gain one Archive Burden level, maximum 2.
 
 Each level:
 - Magic +5%
-- Total Defense −5
+- Defense −5%
+- Spirit −5%
 
-Archive Burden persists for the rest of battle.
+Archive Burden persists for the rest of battle. The two Archive Burden levels are an explicitly self-stackable encounter-state exception; together they contribute Magic +10%, Defense −10%, and Spirit −10% before other legal modifiers and the global ±40% cap.
 
 No HP refill.
 No Prime refresh.
@@ -89,8 +90,8 @@ At beginning-round:
 a Transfer Window opens through the end of that round.
 
 During the window:
-- Custody Protocol's +10 Total Defense is suspended;
-- Spirit −15;
+- Custody Protocol's Defense +10% / Spirit +10% is suspended;
+- Spirit −15%;
 - **Transfer Sever** becomes selectable.
 
 The window:
@@ -140,7 +141,7 @@ Transfer Window only.
 > **Power: N/A — no direct damage**
 
 Effect:
-> Defense +10 / Spirit +10 through end following round
+> Defense +10% / Spirit +10% through end following round
 
 2-round repetition lock.
 

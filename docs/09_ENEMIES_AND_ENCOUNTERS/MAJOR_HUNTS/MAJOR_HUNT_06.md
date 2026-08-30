@@ -30,7 +30,7 @@ No state transition refreshes Prime availability.
 
 ## State I — WORLDFRAME
 From 100% HP through above 70% HP:
-> **+15 Total Defense**
+> **Defense +15% / Spirit +15%**
 
 ### Frame Hammer
 - one party member
@@ -66,7 +66,7 @@ Fire→Burn / Ice→Freeze / Lightning→Stun / Earth→Staggered.
 > **Power: N/A — no direct damage**
 
 Effect:
-> Defense +10 / Spirit +10 through end following round
+> Defense +10% / Spirit +10% through end following round
 
 2-round repetition lock.
 
@@ -74,12 +74,13 @@ Effect:
 At first reaching:
 > **70% HP**
 
-WORLDFRAME's +15 Total Defense ends.
+WORLDFRAME's Defense +15% / Spirit +15% ends.
 
 For the remainder of this state:
 - Magic +10%
-- Speed +10
-- Total Defense −10
+- Speed +10%
+- Defense −10%
+- Spirit −10%
 
 No HP refill.
 No Prime refresh.
@@ -124,8 +125,9 @@ At first reaching:
 For the remainder of battle:
 - Attack +15%
 - Magic +15%
-- Speed +10
-- Total Defense −15
+- Speed +10%
+- Defense −15%
+- Spirit −15%
 
 These replace the State-II modifiers rather than stacking with them.
 

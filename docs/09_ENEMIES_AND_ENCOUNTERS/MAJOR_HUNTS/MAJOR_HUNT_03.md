@@ -137,8 +137,9 @@ Six-Face cycling ends.
 For the remainder of battle:
 - Attack +10%
 - Magic +10%
-- Speed +10
-- Total Defense −10
+- Speed +10%
+- Defense −10%
+- Spirit −10%
 
 No HP refill.
 No Prime refresh.
@@ -164,7 +165,7 @@ Unlock:
 > **Power: N/A — no direct damage**
 
 Effect:
-> Defense +10 / Spirit +10 through the end of the following round
+> Defense +10% / Spirit +10% through the end of the following round
 
 2-round repetition lock.
 

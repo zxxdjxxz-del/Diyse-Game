@@ -100,8 +100,9 @@ At first reaching:
 
 Worldscar Leviathan enters Prismatic Confluence:
 - Magic +10%
-- Speed +10
-- Total Defense −10
+- Speed +10%
+- Defense −10%
+- Spirit −10%
 
 No HP refill.
 No Prime refresh.

@@ -77,7 +77,7 @@ The encounter remains a physical-pressure Major Hunt with driven target focus an
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+15 Total Defense through the end of the following round**
+> **Defense +15% / Spirit +15% through the end of the following round**
 
 2-round repetition lock.
 
@@ -87,8 +87,9 @@ At first reaching:
 
 Ashen Whitehorn enters **Last Run** for the remainder of battle:
 - Attack +15%
-- Speed +10
-- Total Defense −10
+- Speed +10%
+- Defense −10%
+- Spirit −10%
 
 No HP refill.
 No Prime refresh.
