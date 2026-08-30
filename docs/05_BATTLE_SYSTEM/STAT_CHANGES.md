@@ -1,7 +1,7 @@
 # Diyse — Temporary Stat Changes
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current authority basis:** compatible Audit115 stat-change language plus newer explicit status and turn-entry corrections.  
-**Authority rule:** this file owns the global temporary Attack / Magic / Defense / Spirit / Speed Up/Down framework. Individual Abilities, Cards, equipment, enemies, and encounters own which changes they apply and for how long.
+**Current authority basis:** compatible Audit115/Audit116 stat-change language plus newer explicit status and turn-entry corrections.  
+**Authority rule:** this file owns the global temporary Attack / Magic / Defense / Spirit / Speed Up/Down framework and the inherited `Total Defense` shorthand. Individual Abilities, Cards, equipment, enemies, and encounters own which changes they apply and for how long.
 
 ## Scope
 
@@ -11,6 +11,7 @@ This framework covers temporary combat changes to:
 - Defense
 - Spirit
 - Speed
+- flat `Total Defense` packages
 
 These temporary stat changes are **not universal harmful statuses**. Status Resistance does not automatically resist them, and ordinary harmful-status remedies do not automatically remove them.
 
@@ -20,9 +21,8 @@ This file does **not** redefine:
 - penetration;
 - direct-damage reduction;
 - Guard;
-- flat `Total Defense` packages;
-- explicit flat stat changes such as `+10 Speed`;
-- persistent level, equipment, class-selection, Trait, or other non-temporary stat construction.
+- persistent equipment raw stats;
+- persistent level, class-selection, Trait, or other non-temporary stat construction.
 
 Those remain under their owning rules.
 
@@ -78,13 +78,59 @@ Current examples:
 
 Those reductions therefore do not add to a separate same-axis negative percentage modifier. The strongest active reduction on that stat governs, with independent durations preserved.
 
-## Flat modifiers are separate
+## Total Defense — exact meaning
 
-An explicitly flat temporary modifier such as `+10 Speed` is not converted into a percentage tier.
+`Total Defense +N` is inherited shorthand for one temporary defensive package that grants:
 
-Flat modifiers and flat `Total Defense` packages remain distinct authored mechanics. This percentage-tier framework does not silently reinterpret them or merge `Total Defense` into Defense/Spirit percentage changes.
+> **Defense +N and Spirit +N as flat bonuses for the same authored duration.**
 
-If an implementation must combine a percentage stat change with a legal flat modifier on the same ordinary stat, establish the persistent combat stat first, apply the active percentage result, then apply the legal flat modifier unless the owning effect explicitly specifies another order.
+It is **not**:
+- a third defensive stat;
+- a percentage increase;
+- direct-damage reduction;
+- Guard;
+- Barrier;
+- a replacement for Defense or Spirit.
+
+Examples:
+- `+10 Total Defense` = **Defense +10 / Spirit +10**;
+- `+15 Total Defense` = **Defense +15 / Spirit +15**;
+- `+20 Total Defense` = **Defense +20 / Spirit +20**;
+- `+25 Total Defense` = **Defense +25 / Spirit +25**.
+
+This definition applies wherever current Abilities, Standard Cards, Primes, or encounter effects use the exact `Total Defense` wording.
+
+### Total Defense stacking
+
+Multiple active `Total Defense` packages do **not** add together.
+
+Use only the **strongest active Total Defense value**. Every source retains its own duration, so a weaker still-active package resumes after a stronger one expires.
+
+Reapplying the same named source refreshes that source's authored duration unless its owner explicitly says otherwise.
+
+A `Total Defense` package may coexist with percentage Defense/Spirit changes because they are different modifier layers.
+
+## Flat modifiers and resolution order
+
+An explicitly flat temporary modifier such as `+10 Speed` remains flat and is not converted into a percentage tier.
+
+For a legal ordinary stat calculation that contains both temporary percentage and temporary flat modifiers:
+
+1. establish the persistent combat stat from level/class/equipment and other persistent construction;
+2. resolve the active percentage Up/Down result for that stat;
+3. apply the legal temporary flat modifier for that stat, including the governing `Total Defense` value where applicable.
+
+Therefore a target with 100 Defense, Defense +10%, and +15 Total Defense has **125 Defense** while both effects are active.
+
+Persistent equipment raw stats are part of the established persistent combat stat and are not temporary flat modifiers under this rule.
+
+## Direct-damage reduction remains separate
+
+Direct-damage reduction is not Defense, Spirit, or Total Defense.
+
+A legal direct-damage-reduction effect may coexist with Total Defense and percentage Defense/Spirit changes unless its owning rule explicitly prohibits that combination.
+
+Its own stacking/resolution behavior remains under the owning damage/defensive-effect rules rather than being converted into Total Defense.
 
 ## High-rank enemies
 
@@ -102,6 +148,8 @@ This is separate from the high-rank conversion rules for the five universal harm
 Ordinary harmful-status cleanse does not remove ordinary temporary stat changes unless explicitly authored to do so.
 
 Eligible stat-restoration effects such as **Balance Seal** and class effects explicitly capable of clearing ordinary negative stat changes may restore the affected axis toward normal according to their owning rules.
+
+Positive Total Defense is an ordinary positive temporary effect where the owning purge/removal rule is legally able to remove such effects.
 
 ## Current class normalization closures
 
