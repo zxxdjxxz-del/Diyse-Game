@@ -89,19 +89,19 @@ Temporary core-stat modifiers **can stack**.
 For each of Attack, Magic, Defense, Spirit, and Speed independently:
 1. every active eligible positive modifier from a **different effect identity** contributes its full percentage;
 2. every active eligible negative modifier from a **different effect identity** contributes its full percentage;
-3. positive contributions are summed up to a maximum of **+50%** on that stat;
-4. negative contributions are summed down to a maximum of **−50%** on that stat;
+3. positive contributions are summed up to a maximum of **+40%** on that stat;
+4. negative contributions are summed down to a maximum of **−40%** on that stat;
 5. the capped positive and negative totals then oppose one another to produce the current net modifier.
 
 Examples:
 - Attack +10% and Attack +20% = **Attack +30%**;
-- Attack +30% and Attack +30% from two different legal effect identities = **Attack +50%**, not +60%;
-- Attack −20% plus Attack −30% = **Attack −50%**;
+- Attack +30% and Attack +30% from two different legal effect identities = **Attack +40%**, not +60%;
+- Attack −20% plus Attack −30% = **Attack −40%**, not −50%;
 - Attack +30% with Attack −20% = **net Attack +10%**;
-- Attack +50% with Attack −50% = **net 0%**, while both sets of effects remain active on their own timers.
+- Attack +40% with Attack −40% = **net 0%**, while both sets of effects remain active on their own timers.
 
 The effective temporary core-stat multiplier is therefore bounded to the range:
-> **50% to 150% of the pre-temporary constructed stat**
+> **60% to 140% of the pre-temporary constructed stat**
 
 unless a specific scripted encounter state explicitly overrides the normal cap.
 
@@ -118,7 +118,7 @@ Reapplication:
 
 Different effect identities may stack normally even when they modify the same stat.
 
-Each active effect keeps its own independent duration. When one expires or is removed, the remaining active effects are immediately re-summed under the same ±50% cap.
+Each active effect keeps its own independent duration. When one expires or is removed, the remaining active effects are immediately re-summed under the same ±40% cap.
 
 ## Status-rider interaction
 
@@ -130,10 +130,10 @@ Current examples:
 
 Status-carried stat changes use the **status's own duration**, not the generic magnitude-duration table above.
 
-Burn and Staggered still do not stack with duplicate copies of themselves because their status rules govern reapplication. Their stat riders **do** stack with different ordinary stat-reduction effects up to the normal −50% per-axis cap.
+Burn and Staggered still do not stack with duplicate copies of themselves because their status rules govern reapplication. Their stat riders **do** stack with different ordinary stat-reduction effects up to the normal −40% per-axis cap.
 
 Example:
-- Staggered Attack −20% plus Controlled Apocalypse Attack −30% = **Attack −50%** while both remain active;
+- Staggered Attack −20% plus Controlled Apocalypse Attack −30% = **Attack −40%** while both remain active;
 - when Controlled Apocalypse expires, Staggered's −20% continues for its remaining status duration.
 
 ## Retired `Total Defense` shorthand
@@ -151,7 +151,7 @@ Interpret that legacy shorthand as equal percentage changes to Defense and Spiri
 
 Current production-facing files should prefer explicit `Defense ±N% / Spirit ±N%` wording.
 
-These contributions stack with different Defense/Spirit modifiers and obey the same ±50% per-axis cap.
+These contributions stack with different Defense/Spirit modifiers and obey the same ±40% per-axis cap.
 
 ## Direct-damage reduction remains separate
 

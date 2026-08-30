@@ -71,7 +71,7 @@ Rules:
 Interaction with separate defensive stat reductions:
 - Burn's Defense −10% and Spirit −10% are normal negative temporary-stat contributions while Burn is active;
 - they **can stack with different Defense/Spirit Down effects** under `STAT_CHANGES.md`;
-- the total negative modifier on each stat is capped at **−50%**;
+- the total negative modifier on each stat is capped at **−40%**;
 - Burn and every separate stat-reduction effect keep their own durations independently.
 
 High-rank damage conversion:
@@ -151,9 +151,9 @@ High-rank duration conversion:
 Interaction with separate stat reductions:
 - Staggered's Attack, Magic, and Speed penalties are normal negative temporary-stat contributions while Staggered is active;
 - they **can stack with different ordinary negative stat modifiers** under `STAT_CHANGES.md`;
-- the total negative modifier on each stat is capped at **−50%**;
+- the total negative modifier on each stat is capped at **−40%**;
 - Staggered and every separate stat-reduction effect keep their own durations independently;
-- example: Staggered Attack −20% plus Controlled Apocalypse Attack −30% reaches the normal **−50% cap** while both remain active.
+- example: Staggered Attack −20% plus Controlled Apocalypse Attack −30% reaches the normal **−40% cap** while both remain active.
 
 ## Bleed
 
