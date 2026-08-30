@@ -68,7 +68,7 @@ S005 fresh-start boundary:
 > Cyanis/Ilyra enter at **full HP / full MP** before battle initialization; not a Card/Prime effect.
 
 Incomplete protective response:
-> +15 Total Defense to Cyanis/Ilyra for Rounds1–3.
+> **Defense +15% / Spirit +15% to Cyanis/Ilyra for Rounds 1–3.**
 
 Rift Lance Preparation:
 > Round2 or later only.

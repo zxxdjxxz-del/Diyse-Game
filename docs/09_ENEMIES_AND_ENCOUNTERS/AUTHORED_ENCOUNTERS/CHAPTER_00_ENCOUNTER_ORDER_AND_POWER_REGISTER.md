@@ -113,7 +113,7 @@ Encounter-start recovery:
 > Cyanis + Ilyra **full HP / full MP** before battle initialization; not a Card/Prime effect.
 
 Protection:
-> Cyanis + Ilyra **+15 Total Defense for Rounds1–3**
+> Cyanis + Ilyra **Defense +15% / Spirit +15% for Rounds 1–3**
 
 Rift Lance Preparation:
 > Round2 or later only.
