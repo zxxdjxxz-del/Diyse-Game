@@ -39,7 +39,7 @@ At the transition:
 - no intermediate EXP/CEXP reward;
 - no free transition attack;
 - party HP/MP do not refresh;
-- **Prime availability refreshes**.
+- **spent Prime identities remain spent**.
 
 There is no third full-health Calder form.
 
@@ -126,13 +126,16 @@ Each:
 |---:|---:|---:|---:|---:|---|
 | **600** | **120** | **145** | 0 | 10 | **N/A** |
 
-Each intact Lens grants Calder:
-- **+5 Total Defense**
+Each intact Lens independently grants Calder:
+- **Defense +5%**
+- **Spirit +5%**
 - **+5 Base Hit** to selected damaging actions
 
 Maximum with both intact:
-- +10 Total Defense
+- **Defense +10% / Spirit +10%**
 - +10 Base Hit
+
+The two Lens stat contributions are distinct support sources and stack additively under the global temporary-stat cap.
 
 The Lenses:
 - take no independent ordinary turn;
@@ -196,8 +199,8 @@ Available only while at least one Authentication Lens remains functional.
 > **Power: N/A — no direct damage**
 
 Effect:
-- **Defense +10**
-- **Spirit +15**
+- **Defense +10%**
+- **Spirit +15%**
 
 through the end of the following round.
 
@@ -216,7 +219,7 @@ At Protector of Continuity 0 HP:
 - no free transition hit;
 - no intermediate reward;
 - party resources do not refresh;
-- **Prime availability refreshes**.
+- **spent Prime identities remain spent**.
 
 This is voluntary system integration, not possession.
 
@@ -243,11 +246,13 @@ Each:
 |---:|---:|---:|---:|---:|---|
 | **720** | **138** | **145** | 0 | 10 | **N/A** |
 
-Each intact Clamp grants the Living Anchor:
-> **+5 Total Defense**
+Each intact Clamp independently grants the Living Anchor:
+> **Defense +5% / Spirit +5%**
 
-Maximum:
-> **+10 Total Defense**
+With both intact:
+> **Defense +10% / Spirit +10%**
+
+The two Clamp stat contributions are distinct support sources and stack additively under the global temporary-stat cap.
 
 Clamps:
 - take no independent ordinary turns;
@@ -363,9 +368,9 @@ This is not a Break meter or Barrier mechanic.
 Any legally equipped acquired Prime may be used under current rules.
 
 Protector of Continuity → Crown-Bound Living Anchor:
-> **refreshes Prime availability**
+> **does not restore a spent Prime identity**
 
-because the Living Anchor is a genuine fresh HP body.
+even though the Living Anchor begins with fresh HP.
 
 Destroying a Lens or Clamp:
 > does not refresh Prime availability.
