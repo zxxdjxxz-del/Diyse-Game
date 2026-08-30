@@ -10,7 +10,7 @@
 | Legacy | Slot | Raw stats | Capstone | Trait |
 |---|---|---|---|---|
 | **There's Your Problem.** | Arcane Staff — one-slot Primary | +12 ATK / +83 MAG | +10pp Spirit penetration on eligible elemental damaging Staff actions | **Correct Answer** |
-| **That Saves Me the Trouble.** | Focus | +24 MAG / +24 SPR / +5 SPD | Max MP +45 | **Borrowed Answer** |
+| **That Saves Me the Trouble.** | Focus | +24 MAG / +24 SPR / +5 SPD | Max MP +15% | **Borrowed Answer** |
 | **Oh, I Can Use That.** | Light Caster Armor | +29 DEF / +50 SPR / +4 SPD | 10% less eligible direct elemental damage | **Useful Pressure** |
 
 
@@ -28,7 +28,7 @@ No bonus against neutral/resisted/immune results.
 
 ## That Saves Me the Trouble. — Borrowed Answer
 Capstone:
-- **Max MP +45**.
+- **Max MP +15%**.
 
 Once per round after wearer takes eligible direct elemental damage >0:
 - store that same element through end of following round.

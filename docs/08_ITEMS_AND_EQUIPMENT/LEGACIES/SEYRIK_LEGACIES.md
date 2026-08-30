@@ -2,7 +2,7 @@
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Primary written equipment authority:** compatible **Audit117 / Audit118 / Audit121**, plus newer accepted v85 tracker-level equipment closures.  
 **Current written whole-project authority:** **v2.20 / Audit135**.  
-**Rule:** where v85 contains a later explicitly accepted equipment decision that has not yet been promoted, preserve it as **tracker-level final / pending formal promotion** rather than rewriting older audit history.
+**Rule:** where v85 contains a later explicitly accepted equipment decision that has not yet been promoted, preserve it as **tracker-level final / pending formal master-canon promotion** rather than rewriting older audit history.
 
 
 **Status:** tracker-level final / pending formal master-canon promotion.
@@ -10,7 +10,7 @@
 | Legacy | Slot | Raw stats | Capstone | Trait |
 |---|---|---|---|---|
 | **You Are Finished.** | Two-Handed Sword — Weapon + Secondary | +105 ATK / +7 MAG | +10pp Critical Chance | **End It** |
-| **You Should Have Killed Me.** | Battle Heavy Armor | +56 DEF / +34 SPR | Max HP +600 | **Still Dangerous** |
+| **You Should Have Killed Me.** | Battle Heavy Armor | +56 DEF / +34 SPR | Max HP +18% | **Still Dangerous** |
 
 
 ## You Are Finished. — End It
@@ -39,7 +39,7 @@ No minimum damage threshold.
 No automatic Bleed, heal, mitigation, counter, free action, or revenge gauge.
 
 Capstone:
-- **Max HP +600**.
+- **Max HP +18%**.
 
 
 ## Donor legality

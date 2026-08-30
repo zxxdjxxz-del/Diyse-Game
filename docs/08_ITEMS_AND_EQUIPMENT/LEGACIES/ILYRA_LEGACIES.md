@@ -10,9 +10,9 @@
 | Legacy | Slot | Raw stats | Capstone | Trait |
 |---|---|---|---|---|
 | **I Said Enough.** | Wardrod | +58 ATK / +63 MAG | +10% direct healing | **Final Warning** |
-| **Try Me Instead.** | Shield | +28 DEF / +30 SPR | Max HP +250 | **Sanctuary** |
-| **No. Stay Here.** | Focus | +22 MAG / +28 SPR | Max MP +40 | **Stay With Me** |
-| **Get Behind Me.** | Warding Armor | +34 DEF / +44 SPR | Max HP +325 | **Immediate Shelter** |
+| **Try Me Instead.** | Shield | +28 DEF / +30 SPR | Max HP +10% | **Sanctuary** |
+| **No. Stay Here.** | Focus | +22 MAG / +28 SPR | Max MP +15% | **Stay With Me** |
+| **Get Behind Me.** | Warding Armor | +34 DEF / +44 SPR | Max HP +12% | **Immediate Shelter** |
 
 
 ## I Said Enough. — Final Warning
@@ -26,7 +26,7 @@ One setup maximum; no free attack.
 
 ## Try Me Instead. — Sanctuary
 Capstone:
-- **Max HP +250**.
+- **Max HP +10%**.
 
 While wearer is conscious:
 - other conscious active-party allies at **50% Max HP or lower** take **8% less eligible direct damage**.
@@ -34,7 +34,7 @@ Does not protect wearer, redirect damage, alter targeting, or create Cover/inter
 
 ## No. Stay Here. — Stay With Me
 Capstone:
-- **Max MP +40**.
+- **Max MP +15%**.
 
 Once per round, after the first eligible **Ability** actually:
 - restores HP to an ally;
@@ -49,7 +49,7 @@ No effect if the support action produced no qualifying real effect.
 
 ## Get Behind Me. — Immediate Shelter
 Capstone:
-- **Max HP +325**.
+- **Max HP +12%**.
 
 When an eligible healing Ability targets a conscious ally at **30% Max HP or lower** when the action begins:
 - action gets **+20% action Speed**;
