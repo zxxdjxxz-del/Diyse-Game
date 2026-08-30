@@ -48,7 +48,7 @@ At the transition:
 - no intermediate EXP/CEXP reward is paid;
 - party HP/MP are not restored;
 - Varkesh does not receive a free transition attack;
-- **Prime availability refreshes under current fresh-body authority**.
+- **spent Prime identities remain spent**.
 
 There is no third form.
 
@@ -170,7 +170,7 @@ At Marshal Varkesh 0 HP:
 - no damage spills into Form II;
 - no free transition attack;
 - no intermediate reward;
-- Prime availability refreshes;
+- spent Prime identities remain spent;
 - party resources are not restored.
 
 The transformation is deliberate, not possession.
@@ -275,10 +275,12 @@ This does not create a universal nonlethal rule.
 
 Any legally equipped acquired Prime may be used under normal rules.
 
-Because Rift Conqueror is a genuine fresh HP body:
-> **Prime availability refreshes at the Form-II transition.**
+Rift Conqueror begins with fresh HP, but:
+> **the Form-II transition does not restore a spent Prime identity.**
 
-No third-body refresh exists.
+An unused Prime remains available normally. A Prime spent during Marshal Varkesh remains spent until valid rest or explicit restoration.
+
+No third body exists.
 
 ---
 
