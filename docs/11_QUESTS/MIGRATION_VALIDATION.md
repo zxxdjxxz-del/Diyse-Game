@@ -1,0 +1,28 @@
+# 11_QUESTS — Migration Validation
+
+- Current Character Quests: **6 / 6** — PASS
+- Current ordinary Side Quests: **5 / 5** — PASS
+- Regional Hunts: **11 / 11** — PASS
+- Major Hunts: **6 / 6** — PASS
+- Total optional activities/routes: **28** — PASS
+- ordinary Side Quest EXP: **20,000** — PASS
+- Character Quest EXP: **55,000** — PASS
+- Regional Hunt EXP: **70,000** — PASS
+- Major Hunt #1–5 cap-proof EXP: **50,000** — PASS
+- authored pre-Last-Shelter proof pool: **195,000** — PASS
+- Major Hunt #6 excluded from required Level-70 proof — PASS
+- true optional-content cutoff = Last Shelter → Reactor Galleries — PASS
+- Chapter-13 launch not treated as cutoff — PASS
+- current CQ boss distribution = 4 boss / 2 no-boss — PASS
+- Nimera Revision Custodian retired — PASS
+- Seyrik Black Host Remnant Captain current — PASS
+- Torren Old Relay Warden current — PASS
+- Ilyra no hostile combat required — PASS
+- Torren unlock = after Chapter 10 — PASS
+- Torren route uses Ridgecut / Westline — PASS
+- Vaelira forecast uses Storm / Blizzard / Heatwave and no Wind/Water damage — PASS
+- five retired Side Quests quarantined — PASS
+- no fake replacement quest quota — PASS
+- no Hunt dynamic scaling restored — PASS
+- six Legacy Components granted at CQ completion — PASS
+- Synthesis not restored — PASS

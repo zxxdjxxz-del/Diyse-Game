@@ -1,0 +1,30 @@
+# 16_BALANCE_AND_TESTING — Migration Validation
+
+- domain files before this validation: **37**
+- current damage/Hit/Crit/status layers treated as closed — PASS
+- Ability MP treated as closed — PASS
+- Mastery Points remain removed — PASS
+- player cap Lv70 / threshold 594,100 — PASS
+- mandatory EXP total 448,100 — PASS
+- ordinary + named mandatory split reconciles — PASS
+- encounter planning center 225 — PASS
+- optional proof pool 195,000 — PASS
+- Last-Shelter completionist buffer 16,300 — PASS
+- mandatory raw stats Ch1–13 certification indexed — PASS
+- optional Elite count 12 / no Ch10 Elite — PASS
+- Regional Hunt count 11 — PASS
+- Major Hunt count 6 — PASS
+- fixed authored Hunt tuning preserved — PASS
+- same-bar vs fresh-form testing separated — PASS
+- current Prime regression matrix uses non-owner-locked access — PASS
+- current five-status regression matrix — PASS
+- weak-enemy EXP diminishing returns vectors included — PASS
+- no CEXP diminishing returns — PASS
+- current runtime-test inventory captured — PASS
+- stale First-Champion/bearer-lock proof test identified — PASS
+- no false claim of fresh Godot test execution — PASS
+- [SUPERSEDED BY v75] v74 restored Lv53–57 as an interim target — historical PASS
+- v75 next-pass CEXP target = **Lv55–60** — PASS
+- exact replacement CEXP values remain un-authored until the queued recalibration — PASS
+- old Lv53–57 projection retained as baseline only; Lv62 target retired — PASS
+- release gates created — PASS

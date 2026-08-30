@@ -1,0 +1,89 @@
+# Archive Duplicant
+
+**Chapter:** 2 — Sunken Archive optional side room  
+**Role:** optional Elite  
+**Status:** **POWER COMPLETE / v78 DIFFICULTY VALIDATED / RAW LINE RETAINED / COPY RULE BOUNDED**
+
+## Raw body — RETAIN
+
+| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 9 | **1,000** | **43** | **46** | **32** | **33** | **27** | 5 | 10 |
+
+True construct:
+> **Bleed Immune**
+
+## Actions
+
+### Duplicate Lance
+- one party member
+- Magical / Colorless
+- **180 Power**
+- Base Hit100
+- no harmful-status rider
+
+### Mirror Burst
+- all conscious party members
+- Magical / Colorless
+- **145 Power per target**
+- Base Hit100
+- no harmful-status rider
+- 2-round repetition lock
+
+### Deep Duplicate
+The Duplicant records the most recent completed eligible direct-damage party action.
+
+Eligibility and timing match the Memory Scribe:
+- only after the action resolves;
+- Attack / direct-damage Ability / direct-damage Standard Card;
+- no menu prediction;
+- no Item / Defend / Prime / summon / counter / support-only action.
+
+On a later selected Duplicant action:
+
+Direct-damage conversion:
+> **Power = clamp(round(source Power × 0.80), 110, 240)**
+
+Also:
+- Base Hit **100**
+- preserve source damage school / element
+- preserve source target shape
+- preserve source physical / magical / hybrid weighting
+- use the Duplicant's own ATK/MAG
+
+For multi-hit actions:
+- convert total source Power first;
+- preserve hit count;
+- divide converted total as evenly as possible.
+
+Deep Duplicate does **not** copy:
+- statuses;
+- penetration;
+- healing/drain;
+- stat/resource effects;
+- extra actions;
+- once-per-battle gates.
+
+This is deliberately stronger than the ordinary Memory Scribe's 65% / 80–180 echo.
+
+### Duplicant Guard
+> **Power: N/A — no direct damage**
+
+Effect:
+> **+15 Total Defense through the end of the following round**
+
+2-round repetition lock.
+
+No Barrier or Brace.
+
+## Fight-length role
+Existing optional-Elite target:
+> **~2–4 serious party rounds**
+
+No mandatory story information is gated behind this fight.
+
+
+## v78 mandatory-vs-completionist validation
+Actual access is ~Lv6 mandatory-route vicinity / ~Lv7 completionist high-side. A serious four-person round including Maevra is ~280 damage before Duplicant Guard, placing the 1,000-HP body at ~3.6 serious rounds.
+
+> **PASS — RETAIN**

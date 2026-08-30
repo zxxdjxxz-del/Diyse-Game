@@ -1,0 +1,30 @@
+# 13_UI_AND_IMPLEMENTATION — Migration Validation
+
+- Markdown files in domain: **35** including this validation file
+- 1920×1080 / 16:9 production reference preserved — PASS
+- Android/APK target preserved — PASS
+- HD-2D presentation preserved — PASS
+- current battle commands Attack/Ability/Card/Item/Defend — PASS
+- active party max 4 — PASS
+- enemy simultaneous cap 8 representable — PASS
+- no natural Accuracy UI — PASS
+- Spirit current label — PASS
+- no Barrier/Brace/Break gauge — PASS
+- Mastery Point UI explicitly removed — PASS
+- automatic Mastery Locked→Unlocked display preserved — PASS
+- Base/Subclass CL13 + CEXP state represented — PASS
+- 3 Standard Card slots represented — PASS
+- 2 Prime slots/character after Volition represented — PASS
+- Story Prime bearer not owner-locking battle use — PASS
+- Recovered vs Awakened Prime UI behavior separated — PASS
+- Auren current currency — PASS
+- 3 equipment slots / no Accessory — PASS
+- two-slot equipment commitments preserved — PASS
+- Kessara copy service logic/status/open UX separated — PASS
+- save schema-v1 proof documented as proof, not final — PASS
+- transient encounter state excluded from disk save — PASS
+- current dialogue no-choice architecture preserved — PASS
+- chapter_13 / S073 current ID range acknowledged — PASS
+- Last Shelter→Reactor Galleries final lock represented — PASS
+- proof runtime divergences explicitly catalogued — PASS
+- open UX questions not invented as canon — PASS

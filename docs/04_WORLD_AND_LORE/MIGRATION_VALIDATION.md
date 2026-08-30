@@ -1,0 +1,28 @@
+# 04_WORLD_AND_LORE — Migration Validation
+
+- Current macro-regions: **4 / 4** — PASS
+- Persistent Yahtrean hubs: **13 / 13** — PASS
+- Final-map named location register: **27** — PASS
+- Character Quest geographic packages: **6 / 6** — PASS
+- Chapter travel rows Ch0–Ch13: **14 / 14** — PASS
+- Black Host core place hierarchy present — PASS
+- Audit111 final map dimensions/hash recorded — PASS
+- Yahtrenhold current / Crownhold retired — PASS
+- Black Host Territory current / Blackstone retired — PASS
+- Westguard current / Westreach + Yahtrens Stand retired — PASS
+- Greyspires current / Diysereach + formal Highlands retired — PASS
+- Westways current / Edgelands retired — PASS
+- Southhold + Heartlands retired — PASS
+- The Blackspine retained — PASS
+- map label omission for The Blackspine retained — PASS
+- current present ≈ **700 AF** — PASS
+- first Card activation ≈ **200 AF** — PASS
+- natural magical births ≈ **220 AF** — PASS
+- magical creatures ≈ **250 AF** — PASS
+- ancient Cards created **after Last Weapon** — PASS
+- one and only one surviving Entity fragment — PASS
+- exact fragment-survival mechanism left **OPEN** — PASS
+- modern knowledge of Entity blocked at story start — PASS
+- Last Shelter → Reactor Galleries true point of no return — PASS
+- Final Archive not used as mandatory finale entrance — PASS
+- no unsupported local-site/map-node promotion — PASS

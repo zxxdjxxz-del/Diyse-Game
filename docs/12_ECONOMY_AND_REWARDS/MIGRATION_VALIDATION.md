@@ -1,0 +1,32 @@
+# 12_ECONOMY_AND_REWARDS — Migration Validation
+
+- currency = **Auren** — PASS
+- second ordinary shop currency absent — PASS
+- 1 economy unit = **20 Auren** — PASS
+- Field Salve = **20 Auren** — PASS
+- Consumables = **20 / 20** — PASS
+- fixed Salve ladder = **250 / 750 / 1,500 / 2,250** — PASS
+- Grand Salve = **240 Auren** — PASS
+- Reservoir Tonic = **640 Auren equivalent / reward-only** — PASS
+- Emergency Kit = **300 equivalent / reward-only** — PASS
+- Emergency Rally = **500 equivalent / reward-only** — PASS
+- reward-only first guaranteed placements = **3 / 3** — PASS
+- ordinary equipment = **38 / 38** — PASS
+- all 38 have Auren purchase/replacement values — PASS
+- 14 shop-origin/duplicate price lines — PASS
+- 24 non-shop replacement lines — PASS
+- ordinary sell formula preserves unit-level round-down — PASS
+- Cresthaven registration/backfill/anti-missability preserved — PASS
+- ordinary gear does not inflate after Subclass access — PASS
+- current working Regional Markets = **9** with formal-sync caveat — PASS
+- Westguard current; Westreach/Yahtrens Stand retired — PASS
+- Cresthaven = Quartermaster, not Regional Market — PASS
+- Vhalmarch = Forward Supply/Requisition, not full superstore — PASS
+- Relics/Legacies excluded from normal vendor ladder — PASS
+- consumable resale left open — PASS
+- Side Quest exact non-EXP rewards left open — PASS
+- Character Quest Auren add-ons left open — PASS
+- Hunt exact Auren payouts not invented — PASS
+- Kessara service fee left open — PASS
+- no universal random enemy drop table invented — PASS
+- old broad payout bands labeled tuning/reference only — PASS
