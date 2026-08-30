@@ -1,0 +1,53 @@
+# Ruin Shieldbearer
+
+**Current certified use:** Chapter 1 limited carryover  
+**Status:** **CH1 POWER COMPLETE / CH1 RAW BODY AUTHORED**
+
+## Chapter-1 body
+| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 3 | 165 | 25 | 18 | 23 | 19 | 17 | 0 | 5 |
+
+## Actions
+
+### Shield Bash
+- one party member
+- Physical / Neutral
+- **115 Power**
+- Base Hit **100**
+- no harmful-status rider
+
+### Ruin-Edged Thrust
+- one party member
+- Hybrid / Ruin
+- **75% ATK / 25% MAG**
+- **135 Power**
+- Base Hit **100**
+- no harmful-status rider
+
+### Guard
+> **Power: N/A — no direct damage**
+
+Effect:
+> **+15 Total Defense through the end of the following round**
+
+Guard is the valid authored defensive state.
+No Brace or Barrier is created.
+
+## Carryover boundary
+Chapter-0 raw use remains pending the Chapter-0 encounter-sheet reconciliation.
+
+## Chapter-0 body
+
+| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 2 | **128** | **23** | 16 | **20** | 17 | 16 | 0 | 5 |
+
+Chapter-0 actions:
+- Shield Bash — **105 Power**, Physical / Neutral, Base Hit100
+- Ruin Thrust — **125 Power**, Hybrid / Ruin75/25, Base Hit100
+- Guard — **Power N/A**, +10 Total Defense through end following round, 2-round repetition lock
+
+No Barrier.
+No Brace.
+No harmful-status rider.
