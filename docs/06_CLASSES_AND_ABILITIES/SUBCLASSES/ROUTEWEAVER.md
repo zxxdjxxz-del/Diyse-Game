@@ -18,6 +18,19 @@ Routeweaver translates Cardweaver's archive/tempo/economy concepts into battlefi
 - If Torren is eligible at initiative setup but later loses his action on his turn, his turn opportunity still occurs; the routed ally/allies remain immediately after that Torren turn slot.
 - Source-owned route/link states are Torren-authored constructs and are not ordinary harmful statuses.
 
+## Awakened Prime and normal-round route clocks
+Routeweaver's authored route states use **normal-party-round** timing unless an effect explicitly says otherwise.
+
+During an Awakened Prime manifestation:
+- Prime rounds do **not** consume the normal-round duration checkpoints of **Throughline**, **Crossroads**, or Route Weaving Rank I's stored next-damaging-Ability window;
+- those states remain attached/recorded through suspension unless their own target/link condition ends, such as a linked enemy being defeated or replaced;
+- Prime commands do not consume Throughline's MP discount because they are not allied MP-costing Abilities or Standard Cards and already cost 0 MP;
+- Prime commands do not trigger Crossroads because they are not qualifying allied Abilities or Standard Cards;
+- Prime commands do not count as an ally benefiting from a Routeweaver route effect for Route Weaving Rank II or III;
+- **Set the Pace** follows the global temporary-stat pause rule while its ordinary-party subject is suspended.
+
+**Covered Crossing** and **Open the Way** are pending next-**normal-round** initiative effects. If Awakened Prime manifestation begins before that initiative setup occurs, the pending routing waits through the Prime rounds and attempts to resolve at the first normal-round initiative setup after the party returns. Torren's normal eligibility check is made at that setup; if he is not eligible then, the routing fails exactly as otherwise authored.
+
 ## Ability spine
 | Unlock | Ability | MP | Current effect |
 |---:|---|---:|---|
