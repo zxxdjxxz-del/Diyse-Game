@@ -1,0 +1,21 @@
+# 01_CHARACTERS — Migration Validation
+
+- Permanent playable files: **6 / 6** — PASS
+- Permanent playable roster: exactly **6** — PASS
+- Supporting-character files: **9** — PASS
+- Major-antagonist files: **6** — PASS
+- Relationship files: **5** — PASS
+- Nimera current age **22** — PASS
+- Maevra current age **41** — PASS
+- Kessara nonplayable / age 22 / height 4'4" — PASS
+- Torren Face **Acuity** / Prime **Last Cartographer** — PASS
+- current six Subclass names used — PASS
+- Sixfold Volition current term — PASS
+- Othmar Step-1–5 completion normalized to v1.51 — PASS
+- Entity Step-1–5 completion normalized to v1.51 — PASS
+- Varkesh visual status normalized to later LOCKED authority — PASS
+- exact Entity-fragment survival mechanism remains OPEN — PASS
+- detailed class mechanics not duplicated from `06` — PASS
+- full Card mechanics not duplicated from `07` — PASS
+- detailed visual specs deferred to `14` — PASS
+- full dialogue scripts deferred to `03` — PASS
