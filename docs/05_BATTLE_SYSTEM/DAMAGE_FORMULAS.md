@@ -1,8 +1,7 @@
 # Diyse — Direct Damage Formulas
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current domain authority checked:** repository `docs/COMBAT_RULES.md`, current through **v2.20 / Audit135**, plus compatible Audit115, Audit120, Audit122, Audit135.  
-**Migration rule:** current master canon outranks stale/open wording inherited by v85.
-
+**Current domain authority checked:** repository `docs/COMBAT_RULES.md`, current through **v2.20 / Audit135**, plus compatible Audit115, Audit120, Audit122, Audit135 and newer explicit defensive-layer corrections.  
+**Migration rule:** current explicit user corrections and current organized domain canon outrank stale/open wording inherited by v85.
 
 ## Physical
 
@@ -54,6 +53,62 @@ Same-axis penetration:
 
 Do not round the penetrated defensive stat early.
 
+## Direct-damage-reduction layer
+
+After the eligible direct-damage package has resolved its normal offensive/defensive calculation, apply the active direct-damage-reduction layer before the final HP-damage rounding step.
+
+For an eligible hit:
+
+> **ReducedDirectDamage = PreReductionDirectDamage × (1 - ActiveDirectDamageReduction)**
+
+where `ActiveDirectDamageReduction` is expressed as a decimal fraction.
+
+### Stacking
+
+If more than one ordinary direct-damage-reduction percentage is active on the target:
+- use only the **strongest active legal reduction**;
+- do not add the percentages together;
+- do not multiply separate reduction percentages together;
+- every source keeps its own duration independently;
+- when the strongest expires, a weaker still-active reduction may resume.
+
+Example:
+- 10% direct-damage reduction + 15% direct-damage reduction = **15%**, not 25% and not 23.5%;
+- standard Guard/Defend at 50% + another 15% effect = **50%** while Guard is active.
+
+An explicitly authored effect may define a special stacking exception, but ordinary effects do not infer one.
+
+### Interaction with defensive stats
+
+Direct-damage reduction is a separate layer from:
+- Defense;
+- Spirit;
+- penetration;
+- percentage Defense/Spirit Up/Down;
+- flat `Total Defense`.
+
+Those stat layers establish the direct damage first; direct-damage reduction then reduces the eligible resulting direct damage.
+
+### Eligible damage
+
+By default this layer applies to ordinary direct:
+- Physical damage;
+- Magical damage;
+- Hybrid damage;
+- eligible Critical direct damage;
+- individual direct hits of a multihit action.
+
+By default it does **not** reduce:
+- Burn;
+- Bleed;
+- other indirect damage;
+- fixed damage;
+- percentage-Max-HP damage;
+- healing;
+- revival.
+
+An explicit owning rule may override eligibility for a specific effect.
+
 ## Global direct-damage rules
 
 There is:
@@ -64,7 +119,7 @@ Authored Power already accounts for target count and action identity.
 
 Multihit actions resolve their authored hit Powers individually.
 
-Round HP damage once at the normal final-damage step after all legal damage layers are resolved.
+Resolve any eligible Critical/final-damage multipliers and the legal direct-damage-reduction layer without early integer rounding, then round HP damage once at the normal final-damage step.
 
 ## Basic Attack
 
@@ -85,3 +140,5 @@ Separately authored indirect/fixed systems remain outside the ordinary direct-da
 - revival.
 
 Critical resolution is defined separately in `CRITICAL_HITS.md`.
+Temporary stat changes and `Total Defense` resolve through `STAT_CHANGES.md`.
+Standard Guard/Defend resolves through `GUARD.md`.
