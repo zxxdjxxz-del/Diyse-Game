@@ -3,7 +3,6 @@
 **Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections.  
 **Authority treatment:** explicit/newer working corrections are preserved as working overrides when they have not yet been promoted into the audit chain.
 
-
 Canonical home for:
 - the 12 current playable classes;
 - class learning structure;
@@ -13,7 +12,8 @@ Canonical home for:
 - Ability MP costs;
 - Core/Subclass Masteries;
 - selected-class stat-package identities;
-- reciprocal donor-class relationships.
+- reciprocal donor-class relationships;
+- shared class-authored combat states used by more than one current class.
 
 This folder references global combat math/status rules from `05_BATTLE_SYSTEM`.
 It does not redefine the global damage, Hit/Evasion, Critical, element, or status resolver.
@@ -40,6 +40,7 @@ Detailed Relic/Legacy item definitions remain destined for `08_ITEMS_AND_EQUIPME
 - `CLASS_EXP_AND_MASTERY_RULES.md`
 - `SELECTED_CLASS_STAT_PACKAGES.md`
 - `ABILITY_MASTER_REGISTER.md`
+- `SHARED_CLASS_STATES.md`
 - `TRAITS.md`
 - `ULTIMATES.md`
 - `MASTERY.md`
