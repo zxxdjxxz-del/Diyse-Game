@@ -3,7 +3,6 @@
 **Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections.  
 **Authority treatment:** explicit/newer working corrections are preserved as working overrides when they have not yet been promoted into the audit chain.
 
-
 # Current active working rule
 **Mastery Points do not exist in the active v85 working branch.**
 
@@ -29,14 +28,14 @@ It has **not yet been formally promoted into the Audit123 master-canon file**, s
 | Ilyra | Blue Warden | CL6 | **Clear Heart** | Clear Warding additionally removes 1 eligible ordinary stat reduction. |
 | Ilyra | Blue Warden | CL9 | **Restored Breath** | Revive recovery 35% → 45% target Max HP. |
 | Ilyra | Blue Warden | CL12 | **Stronger Lifeline** | Lifeline emergency Max-HP heal component 18% → 23%; +0.80 × Magic remains unchanged. |
-| Torren | War Archer | CL3 | **Veteran's Eye** | Hunter's Measure grants an additional +5% Critical Chance. |
-| Torren | War Archer | CL6 | **Heavy Draw** | Colossus Draw gains +20 Power. |
-| Torren | War Archer | CL9 | **Patient Aim** | Watchful Aim costs 2 less MP: 20 → 18. |
-| Torren | War Archer | CL12 | **Relentless Hand** | Relentless Barrage gains +20 total Power, not +20 per hit. |
-| Nimera | Cardweaver | CL3 | **Clear Archive** | Living Archive Rank I first-Standard-Card eligible primary potency +10% → +15%. |
-| Nimera | Cardweaver | CL6 | **Tight Weave** | Weave Guard costs 2 less MP: 18 → 16. |
-| Nimera | Cardweaver | CL9 | **Stable Override** | Ancient Override duration 3 → 4 rounds. |
-| Nimera | Cardweaver | CL12 | **Deep Index** | Sovereign Index's Indexed duration 2 → 3 rounds. |
+| Torren | War Archer | CL3 | **Veteran's Eye** | Sizing Shot **135 → 155 Power**. |
+| Torren | War Archer | CL6 | **Heavy Draw** | Colossus Draw **245 → 265 Power**. |
+| Torren | War Archer | CL9 | **Fieldcraft** | Choose the Route improves Clear Route **+10 → +15 Base Hit** and Covered Route **+10 → +15 Evasion**. |
+| Torren | War Archer | CL12 | **Relentless Hand** | Relentless Barrage AoE portion **160 → 180 Power per target**; measured-target follow-up remains 80 Power. |
+| Nimera | Cardweaver | CL3 | **Quick Study** | Echo Weave copy potency **80% → 90%** for direct damage, direct healing, and revival recovery. |
+| Nimera | Cardweaver | CL6 | **Charged Weave** | Weave Spark Stun **35% → 50%**. |
+| Nimera | Cardweaver | CL9 | **Efficient Override** | Ancient Override party MP reduction **15% → 20%**. |
+| Nimera | Cardweaver | CL12 | **Perfect Reconstruction** | Perfect Recall duration **3 → 4 rounds** and Grand Reweaving copy potency **75% → 85%** for direct damage, direct healing, and revival recovery. |
 | Vaelira | Green Arcanist | CL3 | **Elemental Memory** | Prismatic Flow qualifying final-damage bonus +10% → +15%. |
 | Vaelira | Green Arcanist | CL6 | **Elemental Fluency** | The four early fixed matching-status Abilities increase listed base status chance 20% → 25%; Vaelira's separate +5pp specialist bonus still applies afterward. |
 | Vaelira | Green Arcanist | CL9 | **Efficient Spectrum** | First eligible elemental Green Arcanist Base Ability each ordinary round costs 2 less MP, minimum 1. |
@@ -57,12 +56,12 @@ It has **not yet been formally promoted into the Audit123 master-canon file**, s
 | Ilyra | Vowblade | CL5 | **Life Through Steel** | Mercy Returned other-ally Max-HP healing component 12% → 15%; +0.90 × Magic unchanged. |
 | Ilyra | Vowblade | CL7 | **Equipment Mastery** | Donor Ruin Vanguard Relic access eligibility. |
 | Ilyra | Vowblade | CL11 | **Legacy Mastery** | Donor Ruin Vanguard Legacy access eligibility. |
-| Torren | Routeweaver | CL3 | **Routecraft** | Route Weaving's next-Standard-Card reliability bonus +10 → +15 Base Hit/application reliability. |
-| Torren | Routeweaver | CL5 | **Woven Pressure** | Throughline 160 → 175 Power; Frozen Passage 215 → 235 Power. |
+| Torren | Routeweaver | CL3 | **Long Sight** | Throughline's post-application full-round window increases by **1 full normal round**. |
+| Torren | Routeweaver | CL5 | **Guided Crossing** | Set the Pace **Speed +20% → +30%**; a Covered Crossing ally also gains **+10 Evasion** from Torren's turn completion until the routed action finishes resolving. |
 | Torren | Routeweaver | CL7 | **Equipment Mastery** | Donor Cardweaver Relic access eligibility. |
 | Torren | Routeweaver | CL11 | **Legacy Mastery** | Donor Cardweaver Legacy access eligibility. |
-| Nimera | Proofhunter | CL3 | **Measured Proof** | Measured Shot 120 → 140 Power. No stale Appraisal clause. |
-| Nimera | Proofhunter | CL5 | **Decisive Argument** | Held Argument 150 → 170 Power. |
+| Nimera | Proofhunter | CL3 | **Proven Measure** | Measured Shot **140 → 155 Power**; its already-Measured Critical bonus **+15pp → +20pp**. |
+| Nimera | Proofhunter | CL5 | **Decisive Argument** | Held Argument **175 → 190 Power**; against Hunter's Measure its empowered Power becomes **225** instead of 210. |
 | Nimera | Proofhunter | CL7 | **Equipment Mastery** | Donor War Archer Relic access eligibility. |
 | Nimera | Proofhunter | CL11 | **Legacy Mastery** | Donor War Archer Legacy access eligibility. |
 | Vaelira | Axiomblade | CL3 | **First Corollary** | First Principle 150 → 170 Power. |
