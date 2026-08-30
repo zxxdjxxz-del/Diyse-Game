@@ -3,7 +3,6 @@
 **Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization, later current working corrections, and the approved 2026-08-30 global Ability-MP reduction.  
 **Authority treatment:** explicit/newer user corrections are preserved as current domain authority.
 
-
 Current register contains:
 - **42 Base-Class Ability/Ultimate entries**
 - **36 Subclass Ability/Ultimate entries**
@@ -11,7 +10,7 @@ Current register contains:
 
 Traits and Masteries are registered separately.
 
-The MP column reflects the current authored Base MP prices after the approved **15% reduction**. Exact rounding and modifier rules are owned by `MP_COST_RULES.md`.
+The MP column reflects current authored Base MP prices after the approved **15% reduction**. Exact rounding, dynamic-cost exceptions, and modifier rules are owned by `MP_COST_RULES.md`.
 
 | Character | Class | Line | Unlock | Ability | MP |
 |---|---|---|---:|---|---:|
@@ -30,18 +29,18 @@ The MP column reflects the current authored Base MP prices after the approved **
 | Ilyra | Blue Warden | Base | CL9 | **Lifeline** | 34 |
 | Ilyra | Blue Warden | Base | CL13 | **Dawn Without End** | 51 |
 | Torren | War Archer | Base | CL1 | **Cinder Shot** | 10 |
-| Torren | War Archer | Base | CL1 | **Quarry Appraisal** | 10 |
-| Torren | War Archer | Base | CL1 | **Watchful Aim** | 17 |
+| Torren | War Archer | Base | CL1 | **Sizing Shot** | 10 |
+| Torren | War Archer | Base | CL1 | **Choose the Route** | 17 |
 | Torren | War Archer | Base | CL3 | **Pinning Strike** | 15 |
 | Torren | War Archer | Base | CL6 | **Colossus Draw** | 22 |
 | Torren | War Archer | Base | CL9 | **Relentless Barrage** | 26 |
 | Torren | War Archer | Base | CL13 | **The Great Beast Falls** | 44 |
-| Nimera | Cardweaver | Base | CL1 | **Weave Bolt** | 10 |
-| Nimera | Cardweaver | Base | CL1 | **Weave Guard** | 15 |
+| Nimera | Cardweaver | Base | CL1 | **Echo Weave** | Variable* |
 | Nimera | Cardweaver | Base | CL1 | **Weave Burst** | 19 |
+| Nimera | Cardweaver | Base | CL1 | **Hastened Weave** | 10 |
 | Nimera | Cardweaver | Base | CL3 | **Ancient Override** | 26 |
 | Nimera | Cardweaver | Base | CL6 | **Weave Spark** | 17 |
-| Nimera | Cardweaver | Base | CL9 | **Sovereign Index** | 24 |
+| Nimera | Cardweaver | Base | CL9 | **Perfect Recall** | 24 |
 | Nimera | Cardweaver | Base | CL13 | **Grand Reweaving** | 48 |
 | Vaelira | Green Arcanist | Base | CL1 | **Frost Needle** | 12 |
 | Vaelira | Green Arcanist | Base | CL1 | **Stonebreak** | 12 |
@@ -70,7 +69,7 @@ The MP column reflects the current authored Base MP prices after the approved **
 | Ilyra | Vowblade | Subclass | CL11 | **Vow of Severance** | 32 |
 | Ilyra | Vowblade | Subclass | CL13 | **Mercy's Final Edge** | 54 |
 | Torren | Routeweaver | Subclass | CL1 | **Throughline** | 12 |
-| Torren | Routeweaver | Subclass | CL4 | **Clear Route** | 15 |
+| Torren | Routeweaver | Subclass | CL4 | **Set the Pace** | 15 |
 | Torren | Routeweaver | Subclass | CL7 | **Crossroads** | 24 |
 | Torren | Routeweaver | Subclass | CL9 | **Covered Crossing** | 20 |
 | Torren | Routeweaver | Subclass | CL11 | **Frozen Passage** | 29 |
@@ -94,12 +93,13 @@ The MP column reflects the current authored Base MP prices after the approved **
 | Seyrik | Ruin Warden | Subclass | CL11 | **Reclaimed Breath** | 32 |
 | Seyrik | Ruin Warden | Subclass | CL13 | **Mercy Through Ruin** | 54 |
 
+`*` **Echo Weave** has no fixed authored Base MP. Its pre-modifier cost is **75% of the selected recorded action's authored Base MP**, rounded normally, minimum **8 MP**.
+
 ## Reconciliation
 The register uses the current class-specific normalized Subclass progression:
 **CL1 / CL4 / CL7 / CL9 / CL11 / CL13**.
 
 Do not use the stale generic v85 summary line that places the fifth Subclass Ability at CL10 to overwrite the class-specific normalized kits.
-
 
 ## Power authority
 Exact direct-damage coefficients are indexed in `CLASS_ACTION_POWER_REGISTER.md`.
