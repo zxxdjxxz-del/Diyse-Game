@@ -164,7 +164,7 @@ Reason:
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+15 Total Defense through the end of the following round**
+> **Defense +15% / Spirit +15% through the end of the following round**
 
 2-round repetition lock.
 
@@ -188,8 +188,9 @@ Transition:
 - Archive Seal becomes unavailable.
 
 For the remainder of battle:
-- **Speed +10**
-- **Total Defense −10**
+- **Speed +10%**
+- **Defense −10%**
+- **Spirit −10%**
 
 The Archon becomes:
 > faster and more destructive, but more exposed.
