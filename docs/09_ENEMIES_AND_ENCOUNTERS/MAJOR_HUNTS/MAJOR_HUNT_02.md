@@ -2,8 +2,8 @@
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
 **Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
+**Current whole-project written authority:** **v2.20 / Audit135** plus newer Prime-restoration and turn-entry battle-flow corrections.  
+**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, current Prime-restoration rules, and current turn-entry battle flow supersede stale earlier enemy text.
 
 
 | Ref | Encounter / form | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Architecture |
@@ -15,7 +15,9 @@
 After **Chapter 7**.
 
 ## Architecture
-Crownless Siege Marshal → Crownless War Engine is a genuine fresh-body transformation. Prime refreshes at Form II. No third form.
+Crownless Siege Marshal → Crownless War Engine is a genuine fresh-body transformation. No third form.
+
+Under the current Prime-restoration model, the fresh Form II **does not restore a spent Prime**. Prime availability carries through the transformation exactly as established by `05_BATTLE_SYSTEM/BOSS_FORM_RULES.md` and `07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md`.
 
 ## Scaling
 Fixed authored tuning.
@@ -62,9 +64,10 @@ Recertified raw lines:
 Combined raw body HP:
 > **30,500**
 
-The two-form architecture is preserved. War Engine remains a genuine fresh body, so Prime availability refreshes at Form II.
+The two-form architecture is preserved. War Engine remains a genuine fresh body, but Prime spent/Ready state carries through unchanged.
 
-The higher combined durability accounts for the player receiving a fresh-body Prime refresh while keeping this encounter above Regional Hunt #7 and the Chapter-7 mandatory boss tier.
+### Prime-economy revalidation note
+The existing Lv41/raw-stat recertification was completed under the older fresh-body Prime-refresh assumption. The numbers are retained in this timing/consistency pass, but this encounter requires runtime balance revalidation under the newer rest-based Prime model before final production certification.
 
 ## Power-complete action kit — v74
 **Status:** **POWER COMPLETE**
@@ -106,7 +109,7 @@ At Form-I 0 HP:
 > **Crownless War Engine begins with fresh HP**
 
 Rules:
-- Prime availability refreshes;
+- spent/Ready Prime state carries through unchanged;
 - party HP/MP do not refresh;
 - no transition attack;
 - no third form.
@@ -150,12 +153,14 @@ True construct:
 > **Power: N/A — no direct damage**
 
 Rules:
-- consumes the War Engine's selected action;
-- locks **Overrun** as the next selected action if the War Engine remains able to act;
+- consumes the War Engine's selected action on its current turn;
+- establishes **Overrun** as a pending Prepared follow-up;
+- locks **Overrun** as the War Engine's next selected action on its next eligible normal turn if it remains able to act;
 - cannot be selected while Overrun is already prepared;
 - 3-round repetition lock begins after Overrun resolves;
 - no command prediction;
-- no free action.
+- no free action;
+- Preparation alone does not make Overrun Interruptible; interrupt eligibility must be explicitly authored separately.
 
 ### Overrun
 - all conscious party members

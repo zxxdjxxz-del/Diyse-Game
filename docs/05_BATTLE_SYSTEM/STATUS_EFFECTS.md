@@ -1,7 +1,7 @@
 # Diyse — Universal Harmful Status Effects
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current domain authority checked:** repository `docs/COMBAT_RULES.md`, current through **v2.20 / Audit135**, plus compatible Audit115, Audit120, Audit122, Audit135.  
-**Migration rule:** current master canon outranks stale/open wording inherited by v85.
+**Current domain authority checked:** repository `docs/COMBAT_RULES.md`, current through **v2.20 / Audit135**, plus compatible Audit115, Audit120, Audit122, Audit135 and newer explicit turn-flow corrections.  
+**Migration rule:** current explicit user corrections and current organized domain canon outrank stale/open wording inherited by v85.
 
 
 ## Universal set
@@ -16,6 +16,8 @@ Exactly:
 These are the universal harmful statuses.
 
 Regen is beneficial and is **not** a harmful status.
+
+Global round/turn timing is owned by `TURN_AND_ROUND_RULES.md`. The status-specific timing below overrides only where explicitly stated.
 
 ## Status application resolver
 
@@ -49,8 +51,13 @@ Duration:
 Ordinary damage:
 # **3% target Max HP at the end of each affected round**
 
+Timing:
+- Burn becomes active immediately when applied;
+- if Burn is applied during normal turn resolution and remains active through that round's end, the application round is its first affected round and produces its first end-of-round Burn proc;
+- ordinary 3-round Burn therefore produces at most **3 end-of-round Burn procs** per uninterrupted application;
+- reapplication refreshes the remaining duration under the same round-timing rule.
+
 Rules:
-- reapplication refreshes duration;
 - does not Crit;
 - ignores Defense/Spirit;
 - can KO unless a specific encounter says otherwise.
@@ -63,16 +70,23 @@ High-rank damage conversion:
 
 Base behavior:
 - target cannot act;
-- first **2 rounds** are guaranteed;
-- **80%** persistence check into round 3;
-- separate **80%** persistence check into round 4;
-- maximum **4 rounds**;
+- first **2 affected rounds** are guaranteed;
+- **80%** persistence check into affected round 3;
+- separate **80%** persistence check into affected round 4;
+- maximum **4 affected rounds**;
 - first successful direct Physical hit removes Freeze **after that hit**;
 - cannot refresh while active.
 
+For Freeze, an **affected round** is a round in which Freeze is active when the target's normal turn arrives.
+
+Therefore:
+- if Freeze is applied before the target's turn in the current round, that current turn is blocked and counts as the first affected round;
+- if Freeze is applied after the target already acted, the completed turn is not retroactively lost and the first affected round is the next round in which Freeze is still active when the target's turn arrives;
+- persistence checks occur before the target's normal action on the relevant later affected round; if Freeze fails to persist, it clears and the target may act normally on that turn unless another effect prevents it.
+
 High-rank conversion:
-- Regional Hunt — maximum **2 rounds**
-- Major Hunt / mandatory boss — maximum **1 round**
+- Regional Hunt — maximum **2 affected rounds**
+- Major Hunt / mandatory boss — maximum **1 affected round**
 
 ## Stun
 
@@ -80,6 +94,14 @@ Base behavior:
 - lasts **3 affected turns**;
 - **40%** action-loss chance on each affected turn;
 - cannot refresh while active.
+
+An affected turn is a normal turn opportunity that begins while Stun is active.
+
+Therefore:
+- Stun applied before the target's current turn can affect that turn;
+- Stun applied after the target has already acted cannot retroactively affect or count that completed turn;
+- whether the action-loss roll succeeds or fails, that turn opportunity counts as one of the 3 affected turns;
+- after the third affected turn is processed, the ordinary Stun duration is complete unless it cleared earlier under an explicit owning rule.
 
 High-rank conversion:
 - Regional Hunt — **25%** action-loss chance
@@ -94,6 +116,13 @@ Effects:
 - **Speed −20%**
 - **Base Hit −20%**
 - **Evasion −20%**
+
+Timing:
+- Staggered becomes active immediately when applied;
+- its Base Hit and Evasion penalties apply to later eligible checks in the same round;
+- because normal initiative is fixed at beginning-of-round, a mid-round Staggered application does **not** reorder the current round;
+- if still active at the next beginning-of-round initiative check, its Speed penalty affects that round's ordering;
+- under the standard round-duration rule, the application round counts as round 1.
 
 Rules:
 - reapplication refreshes duration;
@@ -114,9 +143,21 @@ Escalation:
 - Reapplying Bleed while it is already active does **not** reset the three-turn age or remove escalation. If Bleed is fully removed and later applied again, the new Bleed starts at 3% with a fresh turn count.
 
 Current Audit122 cadence:
-- deals its Bleed damage **each round**;
-- deals it **again when the affected character acts**;
+- one round-based Bleed proc resolves during **end-of-round processing** while Bleed remains active;
+- Bleed deals damage **again after each actual action taken by the affected unit**, before the next normal combatant's turn begins;
 - if an effect grants more than one actual action, each qualifying action follows the current Bleed-on-action rule unless explicitly overridden.
+
+Action-proc ordering:
+1. the affected unit's selected action and its complete immediate action package resolve;
+2. if the same Bleed is still active, resolve the Bleed-on-action proc at the current magnitude;
+3. complete that unit's turn and advance Bleed's uncleared-turn age;
+4. if that was the third completed turn with the same Bleed still active, escalation to 4% begins **after** that turn's action proc.
+
+A lost/no-action turn can advance Bleed's uncleared-turn age because the turn opportunity completed, but it does **not** create a Bleed-on-action proc.
+
+If the action itself fully restores HP or otherwise legally removes Bleed before the post-action Bleed check, there is no action-triggered Bleed proc because Bleed is no longer active.
+
+If Bleed is applied during normal turn resolution and remains active at end-of-round, it qualifies for that round's end-of-round Bleed proc.
 
 The old one-proc-per-round restriction is retired.
 

@@ -2,8 +2,8 @@
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
 **Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
+**Current whole-project written authority:** **v2.20 / Audit135** plus newer Prime-restoration and turn-entry battle-flow corrections.  
+**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, current Prime-restoration rules, and current turn-entry battle flow supersede stale earlier enemy text.
 
 
 Exactly:
@@ -28,9 +28,11 @@ Recommended Level is a preparedness target, not an access gate.
 Only Major Hunt #2 has a genuine fresh second body:
 - Crownless Siege Marshal → Crownless War Engine
 - combined raw body HP = **30,500**
-- Prime availability refreshes at War Engine.
+- the fresh body **does not restore spent Prime availability** under the current rest-based Prime model.
 
 All other Major Hunts remain one-bar encounters under their current state architectures.
+
+Prime availability/restoration is owned globally by `05_BATTLE_SYSTEM/BOSS_FORM_RULES.md` and `07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md` rather than by this register.
 
 
 ## Unlock timing
@@ -47,7 +49,7 @@ Recommended Level remains a preparedness target, not an access gate.
 
 ## Recertification progress
 - #1 Ashen Whitehorn — **RECERTIFIED** for the after-Ch6 window at recommended Lv33.
-- #2 Crownless Siege Marshal / Crownless War Engine — **RECERTIFIED** for the after-Ch7 window at encounter recommendation Lv41.
+- #2 Crownless Siege Marshal / Crownless War Engine — raw-stat/level baseline retained at encounter recommendation Lv41; **runtime Prime-economy revalidation required** because the former fresh-body Prime refresh was removed.
 - #3 Concordance Guardian — **RECERTIFIED** for the after-Ch9 window at recommended Lv54.
 - #4 Worldscar Leviathan — **RECERTIFIED** for the after-Ch10 window at recommended Lv60.
 - #5 Final Archive Arbiter — **RECERTIFIED** for the after-Ch11 window at recommended Lv65.
@@ -55,11 +57,11 @@ Recommended Level remains a preparedness target, not an access gate.
 
 
 ## Recertification closure
-Major Hunts #1–#6 are now two-baseline recertified for their current unlock windows; #6 retains a runtime duration/attrition playtest gate.
+Major Hunts #1 and #3–#5 retain their current two-baseline recertification for their current unlock windows. #2 retains its current numeric baseline but requires runtime Prime-economy revalidation under the no-refresh rule. #6 retains its runtime duration/attrition playtest gate.
 
 Current recommendations:
 - #1 Ashen Whitehorn — Lv33
-- #2 Crownless Siege Marshal / Crownless War Engine — encounter Lv41
+- #2 Crownless Siege Marshal / Crownless War Engine — encounter Lv41 retained pending Prime-economy runtime revalidation
 - #3 Concordance Guardian — Lv54
 - #4 Worldscar Leviathan — Lv60
 - #5 Final Archive Arbiter — Lv65
@@ -80,7 +82,7 @@ Status:
 > **MAJOR HUNTS #1–#6 POWER COMPLETE**
 
 Fresh-body rule remains:
-> only #2 Crownless Siege Marshal → Crownless War Engine refreshes Prime availability.
+> only #2 Crownless Siege Marshal → Crownless War Engine has a genuine fresh second body; it does **not** restore spent Prime availability.
 
 The Unfinished World remains:
 > one 78,000-HP bar / WORLDFRAME → WORLDHEART EXPOSED → FINAL CONSTRUCTION

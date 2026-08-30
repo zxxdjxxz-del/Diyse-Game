@@ -1,6 +1,6 @@
 # Diyse — Proofhunter
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections, including the approved 2026-08-30 Ability-MP reduction.  
+**Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections, including the approved 2026-08-30 Ability-MP reduction and turn-entry battle-flow correction.  
 **Authority treatment:** explicit/newer working corrections are preserved as working overrides when they have not yet been promoted into the audit chain.
 
 
@@ -14,7 +14,7 @@
 | Unlock | Ability | MP | Current effect |
 |---:|---|---:|---|
 | CL1 | **Measured Shot** | 12 | One enemy; Physical / Neutral; 120 Power; on hit establish Hunter's Measure for 2 rounds; no Diysean Appraisal dependency. |
-| CL4 | **Held Argument** | 17 | One enemy; Hybrid / Colorless 50/50; 150 Power; ordinary selected/non-Prepared. May interrupt an eligible queued Interruptible action under the current authored interrupt rule; vs Hunter's Measure +10 Base Hit and +15pp interrupt chance. |
+| CL4 | **Held Argument** | 17 | One enemy; Hybrid / Colorless 50/50; 150 Power; ordinary selected/non-Prepared. May interrupt an eligible **pending Prepared action explicitly marked Interruptible** under its owning action/encounter rule; ordinary turn-entry actions that select and resolve immediately are not interrupt targets. Vs Hunter's Measure: +10 Base Hit and +15pp interrupt chance. |
 | CL7 | **Pin the Variable** | 19 | One enemy; Physical / Neutral; 145 Power; Speed Down for 2 rounds +15% Bleed; vs Hunter's Measure gains 10% Defense penetration. |
 | CL9 | **Structural Failure** | 26 | One enemy; Physical / Neutral; 210 Power; 35% Defense penetration; +15% final damage vs authored structural target; vs Measure +10 Base Hit. |
 | CL11 | **Corroboration** | 29 | All enemies; Physical / Fire; 195 Power; 15% Burn; against a measured target +10 Base Hit and +10% Defense penetration. |
@@ -35,7 +35,18 @@ The previous third mechanical Subclass Mastery and old fourth-node Equipment-Mas
 - Rank II: +10% Critical Chance vs Hunter's Measure.
 - Rank III: +15% applicable defensive-axis penetration vs Hunter's Measure.
 
+## Interrupt boundary
+Held Argument does **not** recreate the retired ordinary round action queue.
+
+It can interact only with an action that:
+- was explicitly established by an authored Preparation/delayed-action mechanic;
+- is still pending when Held Argument resolves;
+- is explicitly marked **Interruptible** by its owning current rule.
+
+A visible telegraph or Preparation is not automatically Interruptible.
+
 ## Global references
+- Turn/round and Prepared-action timing: `05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md`
 - Damage/penetration: `05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
 - Hit/Evasion: `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
 - Critical: `05_BATTLE_SYSTEM/CRITICAL_HITS.md`
