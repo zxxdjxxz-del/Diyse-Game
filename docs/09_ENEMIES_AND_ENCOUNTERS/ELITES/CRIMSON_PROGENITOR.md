@@ -7,7 +7,7 @@
 
 ## Raw body — RETAIN
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 28 | **2,700** | **92** | **104** | **69** | **72** | **38** | 5 | 10 |
 
 No second form.
@@ -51,7 +51,8 @@ No infinite brood loop.
 Effects:
 - Attack +10%
 - Magic +10%
-- +10 Total Defense
+- Defense +10%
+- Spirit +10%
 
 through the end of the following round.
 
