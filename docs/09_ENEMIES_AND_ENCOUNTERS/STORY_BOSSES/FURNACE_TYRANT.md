@@ -92,14 +92,14 @@ The Tyrant begins:
 
 ## Controlled
 - Tyrant direct damage: **−10% final damage**
-- Tyrant: **+10 Total Defense**
+- Tyrant: **Defense +10% / Spirit +10% while Controlled**
 
 ## Heated
 > baseline offense and defense
 
 ## Overheated
 - Tyrant direct damage: **+15% final damage**
-- Tyrant: **−15 Total Defense**
+- Tyrant: **Defense −15% / Spirit −15% while Overheated**
 
 The risk/reward is deliberate:
 > more Heat means more danger and a softer defensive body.
@@ -170,7 +170,7 @@ Heat never falls below Controlled.
 
 Effects:
 - lower Heat one state;
-- +10 Total Defense through end of following round.
+- **Defense +10% / Spirit +10% through end of following round**.
 
 The Tyrant cannot select Stabilize Armor during Siege Without Return.
 
