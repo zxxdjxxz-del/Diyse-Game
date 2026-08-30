@@ -45,7 +45,7 @@ At transition:
 - no intermediate EXP/CEXP reward;
 - no free transition attack;
 - party HP/MP do not refresh;
-- **Prime availability refreshes**.
+- **spent Prime identities remain spent**.
 
 There is no third form.
 
@@ -174,11 +174,11 @@ The inherited Audit132 offensive/defensive line is retained, with HP raised mode
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+15 Total Defense through the end of the following round**
+> **Defense +15% / Spirit +15% through the end of the following round**
 
 2-round repetition lock.
 
-This is an authored Guard-style defensive state.
+This is an authored defensive stat package.
 It is not Barrier and does not create Brace.
 
 ---
@@ -192,7 +192,7 @@ At Form-I 0 HP:
 - no free transition attack;
 - no intermediate payout;
 - party resources are not restored;
-- **Prime availability refreshes**.
+- **spent Prime identities remain spent**.
 
 This remains:
 > deliberate human-controlled escalation.
@@ -331,8 +331,9 @@ Transition:
 - no Prime refresh.
 
 For the rest of battle:
-- Speed +10
-- Total Defense −15
+- **Speed +10%**
+- **Defense −15%**
+- **Spirit −15%**
 - Imperial Guard remains unavailable in Form II anyway.
 
 Sovereign Overrun remains legal subject to its lock.
@@ -346,9 +347,9 @@ This state does not add a new action per round.
 Any legally equipped acquired Prime follows current rules.
 
 Form I → Sovereign Panoply Unbound:
-> **refreshes Prime availability**
+> **does not restore a spent Prime identity**
 
-because Form II is a genuine fresh HP body.
+even though Form II begins with fresh HP.
 
 Final Sovereignty:
 > **does not refresh Prime availability**
