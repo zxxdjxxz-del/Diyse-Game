@@ -33,7 +33,9 @@ Global current Bleed rules remain in `05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
 
 ## Staggered
 - 80% susceptibility;
-- full Speed / Base Hit / Evasion penalty.
+- full current Staggered package while active on the Prime body: **Attack −20% / Magic −20% / Speed −20%**;
+- Staggered does **not** reduce Base Hit or Evasion;
+- it remains bounded by the manifestation and disappears on dismissal.
 
 ## Freeze
 - 80% susceptibility;
