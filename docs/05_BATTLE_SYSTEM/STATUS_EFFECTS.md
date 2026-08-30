@@ -46,25 +46,32 @@ The old percentage-based `Normal 100% / Resistant 80% / Strongly Resistant 60%` 
 ## Burn
 
 Duration:
-# **3 rounds**
+# **4 rounds**
 
 Ordinary damage:
-# **3% target Max HP at the end of each affected round**
+# **6% target Max HP at the end of each affected round**
+
+While Burn is active:
+- **Defense −10%**
+- **Spirit −10%**
 
 Timing:
-- Burn becomes active immediately when applied;
+- Burn becomes active immediately when applied, including its Defense/Spirit penalties;
 - if Burn is applied during normal turn resolution and remains active through that round's end, the application round is its first affected round and produces its first end-of-round Burn proc;
-- ordinary 3-round Burn therefore produces at most **3 end-of-round Burn procs** per uninterrupted application;
-- reapplication refreshes the remaining duration under the same round-timing rule.
+- ordinary 4-round Burn therefore produces at most **4 end-of-round Burn procs** per uninterrupted application, for **24% Max HP total** ordinary Burn damage;
+- reapplication refreshes the remaining duration under the same round-timing rule;
+- the Defense/Spirit penalties end when Burn ends or is legally cleared.
 
 Rules:
-- does not Crit;
-- ignores Defense/Spirit;
-- can KO unless a specific encounter says otherwise.
+- Burn's Defense and Spirit penalties do not stack with themselves; reapplication refreshes Burn instead;
+- Burn damage does not Crit;
+- Burn damage ignores Defense/Spirit;
+- Burn damage can KO unless a specific encounter says otherwise.
 
 High-rank damage conversion:
-- Regional Hunt — **75%** ordinary Burn damage
-- Major Hunt / mandatory boss — **50%** ordinary Burn damage
+- Regional Hunt — **75%** ordinary Burn damage = **4.5% Max HP per affected round**, up to **18% Max HP total** across 4 uninterrupted rounds;
+- Major Hunt / mandatory boss — **50%** ordinary Burn damage = **3% Max HP per affected round**, up to **12% Max HP total** across 4 uninterrupted rounds;
+- the high-rank conversion reduces Burn's Max-HP damage only. Burn's **Defense −10% / Spirit −10%** rider remains in force while Burn is active unless an encounter explicitly overrides it.
 
 ## Freeze
 
