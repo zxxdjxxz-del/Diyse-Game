@@ -1,7 +1,7 @@
 # Diyse — Temporary Stat Changes
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Current authority basis:** compatible Audit115/Audit116 stat-change language plus newer explicit status and turn-entry corrections.  
-**Authority rule:** this file owns the global temporary Attack / Magic / Defense / Spirit / Speed Up/Down framework. Individual Abilities, Cards, equipment, enemies, and encounters own which changes they apply and for how long.
+**Authority rule:** this file owns the global temporary Attack / Magic / Defense / Spirit / Speed Up/Down framework. Individual Abilities, Cards, equipment, enemies, and encounters own which changes they apply; this file supplies the default magnitude, duration, stacking, and cap rules unless an owning effect explicitly overrides them.
 
 ## Scope
 
@@ -37,7 +37,7 @@ Therefore:
 - `Spirit −10` means **Spirit −10%**;
 - `Speed +15` means **Speed +15%**.
 
-Production-facing current files should print the `%` sign explicitly rather than relying on the shorthand.
+Production-facing current files should print the `%` sign explicitly rather than relying on shorthand.
 
 There is **no ordinary temporary flat-bonus layer** for Attack, Magic, Defense, Spirit, or Speed.
 
@@ -45,17 +45,25 @@ This rule does **not** convert persistent/raw stat construction into percentages
 
 It also does not convert different mechanics that use flat values by design. For example, `Base Hit +10`, `Evasion +5`, `Status Resistance +10`, Power changes, penetration percentage points, and direct-damage reduction keep their own owning units.
 
-## Percentage tiers
+## Magnitude tiers and default duration
 
-When a temporary stat effect uses a named tier instead of printing its own percentage, use exactly:
+When a temporary core-stat effect uses a named tier instead of printing its own percentage, use exactly:
 
-| Tier | Up | Down |
-|---|---:|---:|
-| **Minor** | **+10%** | **−10%** |
-| **Standard** | **+20%** | **−20%** |
-| **Major** | **+30%** | **−30%** |
+| Tier | Up | Down | Default duration |
+|---|---:|---:|---:|
+| **Minor** | **+10%** | **−10%** | **4 rounds** |
+| **Standard** | **+20%** | **−20%** | **3 rounds** |
+| **Major** | **+30%** | **−30%** | **2 rounds** |
 
-An explicitly authored numeric percentage overrides the tier table. For example, an authored `Speed +15%` remains +15%; it is not rounded or promoted to Standard.
+For exact percentages that are not one of the named tiers, use the following default duration only when the owning effect does not print another duration:
+- **1–10% magnitude:** 4 rounds;
+- **11–20% magnitude:** 3 rounds;
+- **21–30% magnitude:** 2 rounds;
+- **above 30%:** must be explicitly authored and must state its own duration.
+
+An explicitly authored duration overrides this default. Conditional equipment Traits, Fields, Prime handoffs, encounter states, and other bespoke effects may therefore use a different stated window when intentionally authored.
+
+An explicitly authored numeric percentage also overrides the tier table. For example, `Speed +15%` remains +15%; it is not rounded or promoted to Standard.
 
 Unqualified production-facing wording such as `Attack Up`, `Magic Down`, or `Defense Up` should not remain numerically ambiguous. The owning current effect should state either an exact percentage or one of the named tiers.
 
@@ -69,33 +77,64 @@ Therefore:
 - Speed changes become active immediately as stat modifiers, but normal initiative already fixed for the current round is not reshuffled;
 - if a Speed change remains active at the next beginning-of-round initiative check, it affects that round's order normally.
 
-Numbered-round duration follows `TURN_AND_ROUND_RULES.md` unless the owning effect prints another timing boundary.
+Numbered-round duration follows `TURN_AND_ROUND_RULES.md`:
+- the application round counts as round 1 when the change is applied during normal turn resolution;
+- an effect created during end-of-round processing begins counting with the next round;
+- explicit wording such as `through the end of the following round` remains literal and overrides generic duration shorthand.
 
-## Percentage stacking by stat axis
+## Stacking and per-axis cap
 
-For each stat independently:
-1. among active percentage **Up** effects, use only the strongest Up value on that stat;
-2. among active percentage **Down** effects, use only the strongest Down value on that stat;
-3. the strongest Up and strongest Down may coexist and oppose one another;
-4. same-sign percentage effects never add together merely because they come from different sources.
+Temporary core-stat modifiers **can stack**.
 
-Example:
-- Attack +20% and Attack +10% active together = **Attack +20%**, not +30%;
-- if Attack −30% is also active, the active percentage result on that axis is **net −10%** while all three effects remain present on their own timers.
+For each of Attack, Magic, Defense, Spirit, and Speed independently:
+1. every active eligible positive modifier from a **different effect identity** contributes its full percentage;
+2. every active eligible negative modifier from a **different effect identity** contributes its full percentage;
+3. positive contributions are summed up to a maximum of **+50%** on that stat;
+4. negative contributions are summed down to a maximum of **−50%** on that stat;
+5. the capped positive and negative totals then oppose one another to produce the current net modifier.
 
-Each source keeps its own duration independently. When a stronger modifier ends, a weaker still-active modifier can become the governing modifier for the remainder of its own duration.
+Examples:
+- Attack +10% and Attack +20% = **Attack +30%**;
+- Attack +30% and Attack +30% from two different legal effect identities = **Attack +50%**, not +60%;
+- Attack −20% plus Attack −30% = **Attack −50%**;
+- Attack +30% with Attack −20% = **net Attack +10%**;
+- Attack +50% with Attack −50% = **net 0%**, while both sets of effects remain active on their own timers.
 
-Reapplying the same named temporary stat effect refreshes its authored duration unless that effect explicitly says otherwise; it does not create an additive copy.
+The effective temporary core-stat multiplier is therefore bounded to the range:
+> **50% to 150% of the pre-temporary constructed stat**
+
+unless a specific scripted encounter state explicitly overrides the normal cap.
+
+Apply the net temporary percentage to the already-constructed combat stat after natural stat, selected-class multiplier, and persistent/raw equipment additions. Round the final temporarily modified stat to the nearest whole number after the net percentage is applied.
+
+## Same-effect reapplication
+
+The same named/effect-identity modifier on the same target does **not** create another generic stack.
+
+Reapplication:
+- refreshes that effect's duration;
+- replaces its own prior magnitude if the newly applied magnitude is different;
+- does not add a second copy of itself unless the owning effect explicitly says it is self-stackable.
+
+Different effect identities may stack normally even when they modify the same stat.
+
+Each active effect keeps its own independent duration. When one expires or is removed, the remaining active effects are immediately re-summed under the same ±50% cap.
 
 ## Status-rider interaction
 
-A harmful status that carries a stat reduction participates in the same same-axis percentage rule.
+A harmful status that carries a stat reduction participates in the same stacking/cap framework.
 
 Current examples:
-- Burn's Defense −10% / Spirit −10%;
-- Staggered's Attack −20% / Magic −20% / Speed −20%.
+- Burn contributes **Defense −10% / Spirit −10%** while Burn remains active;
+- Staggered contributes **Attack −20% / Magic −20% / Speed −20%** while Staggered remains active.
 
-Those reductions therefore do not add to a separate same-axis negative percentage modifier. The strongest active reduction on that stat governs, with independent durations preserved.
+Status-carried stat changes use the **status's own duration**, not the generic magnitude-duration table above.
+
+Burn and Staggered still do not stack with duplicate copies of themselves because their status rules govern reapplication. Their stat riders **do** stack with different ordinary stat-reduction effects up to the normal −50% per-axis cap.
+
+Example:
+- Staggered Attack −20% plus Controlled Apocalypse Attack −30% = **Attack −50%** while both remain active;
+- when Controlled Apocalypse expires, Staggered's −20% continues for its remaining status duration.
 
 ## Retired `Total Defense` shorthand
 
@@ -103,19 +142,16 @@ Older/current migrated files may contain wording such as `+10 Total Defense`, `+
 
 `Total Defense` is **not a third stat and not a flat defensive layer**.
 
-Interpret that legacy shorthand as equal percentage increases to the two defensive stats:
+Interpret that legacy shorthand as equal percentage changes to Defense and Spirit:
 - `+10 Total Defense` = **Defense +10% / Spirit +10%**;
 - `+15 Total Defense` = **Defense +15% / Spirit +15%**;
 - `+20 Total Defense` = **Defense +20% / Spirit +20%**;
-- `+25 Total Defense` = **Defense +25% / Spirit +25%**.
+- `+25 Total Defense` = **Defense +25% / Spirit +25%**;
+- negative `Total Defense` values reduce both Defense and Spirit by the same percentage.
 
-Current production-facing files should prefer the explicit `Defense +N% / Spirit +N%` wording instead of `Total Defense`.
+Current production-facing files should prefer explicit `Defense ±N% / Spirit ±N%` wording.
 
-Because these are ordinary Defense/Spirit percentage changes, they participate in the normal same-axis strongest-Up / strongest-Down rules above. They do **not** coexist as an additional separate flat layer.
-
-Example:
-- Defense +20% plus legacy `+15 Total Defense` = **Defense +20%**, not +35%;
-- if no other Spirit Up is active, the same legacy package still supplies **Spirit +15%** for its own remaining duration.
+These contributions stack with different Defense/Spirit modifiers and obey the same ±50% per-axis cap.
 
 ## Direct-damage reduction remains separate
 
@@ -129,31 +165,31 @@ Its own stacking/resolution behavior remains under `DAMAGE_FORMULAS.md` and `GUA
 
 Ordinary temporary stat changes do not receive a universal Regional-Hunt / Major-Hunt duration or magnitude conversion merely because the target is high rank.
 
-They remain legal at their authored magnitude/duration unless:
+They remain legal at their authored/default magnitude and duration unless:
 - the owning action gives a specific high-rank rule;
 - the owning encounter gives a specific resistance/immunity/override;
 - another current global rule explicitly supersedes them.
 
-This is separate from the high-rank conversion rules for the five universal harmful statuses.
+This is separate from high-rank conversion rules for the five universal harmful statuses.
 
 ## Removal / restoration
 
 Ordinary harmful-status cleanse does not remove ordinary temporary stat changes unless explicitly authored to do so.
 
-Eligible stat-restoration effects such as **Balance Seal** and class effects explicitly capable of clearing ordinary negative stat changes may restore the affected axis toward normal according to their owning rules.
+Eligible stat-restoration effects such as **Balance Seal** and class effects explicitly capable of clearing ordinary negative stat changes may restore affected axes toward normal according to their owning rules.
 
 ## Current class normalization closures
 
-The current class shorthand resolves as follows:
-- War Archer — **Pinning Strike:** Speed −20% for 2 rounds.
-- Ruin Vanguard — **Controlled Apocalypse:** Major Attack Down + Major Magic Down = Attack −30% / Magic −30% for 2 rounds.
-- Crest Arcanist — **Arcane Rupture:** Minor Magic Down = Magic −10% for 2 rounds.
-- Axiomblade — **Proven Advance:** Minor Defense Up + Minor Spirit Up = Defense +10% / Spirit +10% for 2 rounds.
-- Vowblade — **Vow of Severance:** Minor Defense Down + Minor Spirit Down = Defense −10% / Spirit −10% for 2 rounds.
-- Proofhunter — **Pin the Variable:** Speed −20% for 2 rounds.
-- Routeweaver — **Clear Route:** Speed +10% for 2 rounds.
-- Routeweaver — **Crossroads / Forward Route:** Speed +10% for 2 rounds.
-- Routeweaver — **Crossroads / Covered Route:** Defense +15% / Spirit +15% for 2 rounds.
-- Routeweaver — **Open the Way:** Speed +15% while the Route Field is active.
+Current ordinary class stat-change durations are normalized to the global magnitude table unless an Ability explicitly owns a special timing window:
+- War Archer — **Pinning Strike:** Speed −20% for **3 rounds**.
+- Ruin Vanguard — **Controlled Apocalypse:** Attack −30% / Magic −30% for **2 rounds**.
+- Crest Arcanist — **Arcane Rupture:** Magic −10% for **4 rounds**.
+- Axiomblade — **Proven Advance:** Defense +10% / Spirit +10% for **4 rounds**.
+- Vowblade — **Vow of Severance:** Defense −10% / Spirit −10% for **4 rounds**.
+- Proofhunter — **Pin the Variable:** Speed −20% for **3 rounds**.
+- Routeweaver — **Clear Route:** Speed +10% for **4 rounds**.
+- Routeweaver — **Crossroads / Forward Route:** Speed +10% for **4 rounds**.
+- Routeweaver — **Crossroads / Covered Route:** Defense +15% / Spirit +15% for **3 rounds**.
+- Routeweaver — **Open the Way:** Speed +15% while the Route Field is active; Field duration remains separately authored.
 
-The owning class sheets should print those exact percentage values rather than retaining raw `+N`/`−N` core-stat shorthand.
+The owning class sheets should print those exact percentage values and durations.

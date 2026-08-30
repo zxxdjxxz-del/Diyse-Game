@@ -63,16 +63,16 @@ Timing:
 - the Defense/Spirit penalties end when Burn ends or is legally cleared.
 
 Rules:
-- Burn's Defense and Spirit penalties do not stack with themselves; reapplication refreshes Burn instead;
+- Burn's Defense and Spirit penalties do not stack with another copy of Burn; reapplication refreshes Burn instead;
 - Burn damage does not Crit;
 - Burn damage ignores Defense/Spirit;
 - Burn damage can KO unless a specific encounter says otherwise.
 
 Interaction with separate defensive stat reductions:
-- Burn's Defense and Spirit penalties do **not** additively stack with a separate negative modifier on the same defensive stat;
-- for Defense and Spirit independently, apply the **strongest active reduction** on that axis;
-- Burn and the separate stat-reduction effect keep their own durations independently;
-- when the stronger effect ends, a weaker still-active reduction resumes for its remaining duration.
+- Burn's Defense −10% and Spirit −10% are normal negative temporary-stat contributions while Burn is active;
+- they **can stack with different Defense/Spirit Down effects** under `STAT_CHANGES.md`;
+- the total negative modifier on each stat is capped at **−50%**;
+- Burn and every separate stat-reduction effect keep their own durations independently.
 
 High-rank damage conversion:
 - Regional Hunt — **75%** ordinary Burn damage = **4.5% Max HP per affected round**, up to **18% Max HP total** across 4 uninterrupted rounds;
@@ -139,7 +139,7 @@ Timing:
 
 Rules:
 - reapplication refreshes duration;
-- never stacks with itself;
+- never stacks with another copy of Staggered;
 - this is a normal harmful status;
 - it is **not** the retired Break/Stagger meter.
 
@@ -149,11 +149,11 @@ High-rank duration conversion:
 - Staggered keeps its full **Attack −20% / Magic −20% / Speed −20%** magnitude under this conversion unless an encounter explicitly overrides it.
 
 Interaction with separate stat reductions:
-- Staggered's Attack, Magic, and Speed penalties do **not** additively stack with a separate negative stat modifier on the same axis;
-- for each affected stat, apply the **strongest active reduction** on that axis;
-- Staggered and the separate stat-reduction effect keep their own durations independently;
-- when the stronger effect ends, a weaker still-active reduction resumes for its remaining duration;
-- this rule prevents compound same-axis suppression while preserving distinct Staggered and ordinary stat-reduction effects.
+- Staggered's Attack, Magic, and Speed penalties are normal negative temporary-stat contributions while Staggered is active;
+- they **can stack with different ordinary negative stat modifiers** under `STAT_CHANGES.md`;
+- the total negative modifier on each stat is capped at **−50%**;
+- Staggered and every separate stat-reduction effect keep their own durations independently;
+- example: Staggered Attack −20% plus Controlled Apocalypse Attack −30% reaches the normal **−50% cap** while both remain active.
 
 ## Bleed
 

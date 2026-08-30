@@ -17,7 +17,7 @@
 | CL4 | **Mercy Returned** | 19 | One enemy; Hybrid / Ruin; 215 Power; after damage heal other conscious lowest-HP% ally for 12% Max HP + 0.90 × Ilyra's Magic. |
 | CL7 | **Living Covenant** | 26 | Self stance for 3 full following rounds beginning next round; Vowblade direct damage restores an extra 15% of eligible damage. |
 | CL9 | **Vowkeeper's Reprisal** | 24 | One enemy; Hybrid / Ruin; 235 Power; if enemy damaged at least 2 conscious allies previous round, +20% final damage and heal qualifying lowest-HP ally 10% Max HP + 0.75 × Magic. |
-| CL11 | **Vow of Severance** | 32 | All enemies; Hybrid / Ruin 75/25; 210 Power; 20% Bleed per target; 20% dual-axis penetration; after damage apply **Minor Defense Down + Minor Spirit Down = Defense −10% / Spirit −10% for 2 rounds**. |
+| CL11 | **Vow of Severance** | 32 | All enemies; Hybrid / Ruin 75/25; 210 Power; 20% Bleed per target; 20% dual-axis penetration; after damage apply **Minor Defense Down + Minor Spirit Down = Defense −10% / Spirit −10% for 4 rounds**. |
 | CL13 | **Mercy's Final Edge** | 54 | Subclass Ultimate; one enemy; Hybrid / Ruin 75/25; 520 Power; 40% dual-axis penetration; self restore 30% eligible damage; other allies heal 10% Max HP + 0.75 × Magic; party gains 15% direct-damage reduction through end next round. |
 
 ## Masteries

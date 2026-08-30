@@ -15,7 +15,7 @@
 |---:|---|---:|---|
 | CL1 | **Measured Shot** | 12 | One enemy; Physical / Neutral; 120 Power; on hit establish Hunter's Measure for 2 rounds; no Diysean Appraisal dependency. |
 | CL4 | **Held Argument** | 17 | One enemy; Hybrid / Colorless 50/50; 150 Power; ordinary selected/non-Prepared. May interrupt an eligible **pending Prepared action explicitly marked Interruptible** under its owning action/encounter rule; ordinary turn-entry actions that select and resolve immediately are not interrupt targets. Vs Hunter's Measure: +10 Base Hit and +15pp interrupt chance. |
-| CL7 | **Pin the Variable** | 19 | One enemy; Physical / Neutral; 145 Power; **Speed −20% for 2 rounds** +15% Bleed; vs Hunter's Measure gains 10% Defense penetration. |
+| CL7 | **Pin the Variable** | 19 | One enemy; Physical / Neutral; 145 Power; **Speed −20% for 3 rounds** +15% Bleed; vs Hunter's Measure gains 10% Defense penetration. |
 | CL9 | **Structural Failure** | 26 | One enemy; Physical / Neutral; 210 Power; 35% Defense penetration; +15% final damage vs authored structural target; vs Measure +10 Base Hit. |
 | CL11 | **Corroboration** | 29 | All enemies; Physical / Fire; 195 Power; 15% Burn; against a measured target +10 Base Hit and +10% Defense penetration. |
 | CL13 | **Final Annotation** | 51 | Subclass Ultimate; one enemy; Physical / Neutral; 360 Power; +20 Base Hit; 50% Defense penetration; 20% Bleed; +20% final damage vs Measure; +15% vs authored large/Hunt/structural target; both may stack. |

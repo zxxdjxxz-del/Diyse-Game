@@ -14,7 +14,7 @@
 | Unlock | Ability | MP | Current effect |
 |---:|---|---:|---|
 | CL1 | **First Principle** | 12 | One enemy; Hybrid / Neutral; 150 Power; intentional 50% Attack / 50% Magic. |
-| CL4 | **Proven Advance** | 17 | One enemy; Hybrid / Fire; 165 Power; 20% Burn; after damage gain **Minor Defense Up + Minor Spirit Up = Defense +10% / Spirit +10% for 2 rounds**. |
+| CL4 | **Proven Advance** | 17 | One enemy; Hybrid / Fire; 165 Power; 20% Burn; after damage gain **Minor Defense Up + Minor Spirit Up = Defense +10% / Spirit +10% for 4 rounds**. |
 | CL7 | **Counterproof** | 20 | One enemy; Hybrid / Lightning; 190 Power; +15 Base Hit; 20% Stun; ordinary selected/non-Prepared. |
 | CL9 | **Axiom Rend** | 26 | One enemy; Hybrid / Neutral; 225 Power; 30% Defense penetration on Attack half and 30% Spirit penetration on Magic half. |
 | CL11 | **Equivalent Form** | 29 | One enemy; Hybrid / Neutral; two authored hits: 120 Physical then 120 Magical. |

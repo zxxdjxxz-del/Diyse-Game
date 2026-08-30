@@ -16,7 +16,7 @@
 | CL1 | **Arcane Lance** | 19 | One enemy; Magical / Colorless; 220 Power; 25% Spirit penetration; after damage grants Crest Attunement. |
 | CL4 | **Elemental Crest** | 15 | One enemy; Magical; choose Fire / Ice / Lightning / Earth; 180 Power; no status, Field, or buff. |
 | CL7 | **Nullifying Seal** | 22 | One enemy; Magical / Colorless; 175 Power; if target has a removable positive buff, +25% final damage; after damage remove up to 2 removable buffs. `Seal` is name-only. |
-| CL9 | **Arcane Rupture** | 31 | All enemies; Magical / Colorless; 205 Power; remove 1 removable hostile Field after damage and apply **Minor Magic Down = Magic −10% for 2 rounds**. |
+| CL9 | **Arcane Rupture** | 31 | All enemies; Magical / Colorless; 205 Power; remove 1 removable hostile Field after damage and apply **Minor Magic Down = Magic −10% for 4 rounds**. |
 | CL11 | **Elemental Convergence** | 27 | One enemy; four sequential Magical hits Fire → Ice → Lightning → Earth; 240 total Power; each hit checks affinity independently; no harmful-status riders. |
 | CL13 | **Crest Dominion** | 54 | Subclass Ultimate; all enemies; Magical / Colorless; 330 Power; 35% Spirit penetration; remove up to 2 removable positive buffs from each affected enemy and 1 removable hostile Field; creates no Field. |
 

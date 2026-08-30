@@ -16,7 +16,7 @@
 | CL1 | **Cinder Shot** | 10 | One enemy; Physical / Fire; **155 Power**; 20% Burn. |
 | CL1 | **Quarry Appraisal** | 10 | **Power: N/A — no direct damage.** Establishes Hunter's Measure. |
 | CL1 | **Watchful Aim** | 17 | Prepared Physical / Neutral reaction; triggered shot **140 Power**. |
-| CL3 | **Pinning Strike** | 15 | One enemy; Physical / Neutral; **140 Power**; **Speed −20% for 2 rounds**. |
+| CL3 | **Pinning Strike** | 15 | One enemy; Physical / Neutral; **140 Power**; **Speed −20% for 3 rounds**. |
 | CL6 | **Colossus Draw** | 22 | One enemy; Physical / Neutral; **245 Power**; heavy hard-target attack. |
 | CL9 | **Relentless Barrage** | 26 | One enemy; Physical / Neutral; **3 × 80 Power (240 total)**. |
 | CL13 | **The Great Beast Falls** | 44 | Base Ultimate; one enemy; Physical / Neutral; **600 Power**. |

@@ -1,6 +1,6 @@
 # Diyse — Routeweaver
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections, including the approved 2026-08-30 Ability-MP reduction.  
+**Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections, including the approved 2026-08-30 Ability-MP reduction and temporary-stat normalization.  
 **Authority treatment:** explicit/newer working corrections are preserved as working overrides when they have not yet been promoted into the audit chain.
 
 
@@ -14,8 +14,8 @@
 | Unlock | Ability | MP | Current effect |
 |---:|---|---:|---|
 | CL1 | **Throughline** | 12 | One enemy; Hybrid / Neutral; 160 Power; +10 Base Hit against Hunter's Measure. |
-| CL4 | **Clear Route** | 15 | One ally; remove 1 harmful status; **Speed +10% for 2 rounds**. |
-| CL7 | **Crossroads** | 24 | All conscious allies choose Forward (**+10 Base Hit and Speed +10% for 2 rounds**) or Covered (**Defense +15% / Spirit +15% for 2 rounds**); not a Field. |
+| CL4 | **Clear Route** | 15 | One ally; remove 1 harmful status; **Speed +10% for 4 rounds**. |
+| CL7 | **Crossroads** | 24 | All conscious allies choose Forward (**+10 Base Hit and Speed +10% for 4 rounds**) or Covered (**Defense +15% / Spirit +15% for 3 rounds**); not a Field. |
 | CL9 | **Covered Crossing** | 20 | One ally; 15% direct-damage reduction through next round; next Standard Card before expiry gains +10% eligible primary potency. |
 | CL11 | **Frozen Passage** | 29 | All enemies; Magical / Ice; 215 Power; 20% Freeze. |
 | CL13 | **Open the Way** | 53 | Subclass Ultimate; 3-round Route Field: allies **Speed +15%**, +10 Base Hit, 10% direct-damage reduction; first Standard Card by each ally in the Field gains +10% eligible primary potency once. |
