@@ -136,6 +136,51 @@ Example:
 - Staggered Attack −20% plus Controlled Apocalypse Attack −30% = **Attack −40%** while both remain active;
 - when Controlled Apocalypse expires, Staggered's −20% continues for its remaining status duration.
 
+## Awakened Prime suspension and stat-duration clocks
+
+Awakened Prime rounds are distinct from normal party rounds.
+
+When an Awakened Prime replaces/suspends the active party:
+- an ordinary party member's active normal-round temporary Attack/Magic/Defense/Spirit/Speed modifiers remain recorded;
+- **Prime rounds do not consume their normal-round duration checkpoints**;
+- those suspended-party modifiers do **not** automatically transfer to or modify the Prime body;
+- when the party returns, the modifiers resume with the same remaining normal-round duration they had when suspension began.
+
+Prime-local temporary core-stat modifiers:
+- affect the Prime body only;
+- use an explicitly authored Prime-round/action window where stated;
+- disappear when that Prime dismisses unless the command explicitly creates a separate return-to-party effect.
+
+For current Prime text, the phrases **`authored window`**, **`next window`**, or **`next-Prime-round window`** attached to a Prime-local core-stat modifier are normalized to:
+> **active immediately through the end of the next Prime round, or until dismissal if dismissal occurs first**
+
+A Prime return-to-party stat modifier begins when the party returns. If it says `N full normal rounds`, that wording is literal. If a return stat modifier has no explicit duration, use the normal magnitude-based default duration from this file in normal party rounds.
+
+Current Prime normalization examples:
+- Last Sentinel — Unbroken March Defense +15% / Spirit +15%: through end next Prime round.
+- Last Sentinel — Hold the Line Defense +25% / Spirit +25%: through end next Prime round.
+- Last Sentinel — Last Bastion return Defense +20% / Spirit +20%: **3 normal rounds** by the Standard-duration default unless separately re-authored.
+- Last Sanctuary — Hallowed Wave Defense +15% / Spirit +15%: through end next Prime round.
+- Last Sanctuary — Consecrated Refuge Defense +25% / Spirit +25%: through end next Prime round or dismissal.
+- Dawn Shepherd — Shepherd's Wake Defense +15% / Spirit +15%: through end next Prime round.
+- Oathbound Colossus — Siege Ram Defense +10% / Spirit +10%: through end next Prime round.
+- Oathbound Colossus — Iron Oath Defense +25% / Spirit +25%: through end next Prime round.
+
+## Encounter-state duration override
+
+An encounter state or phase that explicitly says a modifier lasts **for the remainder of that state**, **for the remainder of battle**, or while a named state/window is active uses that state boundary instead of the generic 4/3/2-round duration table.
+
+Examples include:
+- Last Run;
+- Open Concordance;
+- Prismatic Confluence;
+- Archive Burden / Custody Protocol / Transfer Window;
+- WORLDFRAME / WORLDHEART EXPOSED / FINAL CONSTRUCTION.
+
+Those state modifiers still use percentage values, participate in ordinary ±40% stacking unless explicitly protected/overridden, and are removed/replaced when their owning state says so.
+
+A selected Guard/buff action that explicitly says `through the end of the following round` keeps that literal shorter window rather than inheriting a magnitude-based default.
+
 ## Retired `Total Defense` shorthand
 
 Older/current migrated files may contain wording such as `+10 Total Defense`, `+15 Total Defense`, `+20 Total Defense`, or `+25 Total Defense`.

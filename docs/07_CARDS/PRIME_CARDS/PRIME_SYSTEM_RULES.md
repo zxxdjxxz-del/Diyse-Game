@@ -79,6 +79,22 @@ Therefore, under the global Field lifecycle in `05_BATTLE_SYSTEM/FIELDS.md`:
 - an ordinary party-authored Field does not automatically treat the manifested Prime body as a normal conscious party member or ally target;
 - a Field affects the Prime only where the Field or Prime effect explicitly says it does.
 
+### Ordinary temporary-stat interaction
+Awakened Prime rounds also do not consume normal-round temporary Attack/Magic/Defense/Spirit/Speed durations on the suspended party.
+
+Therefore, under `05_BATTLE_SYSTEM/STAT_CHANGES.md`:
+- ordinary party temporary core-stat modifiers remain recorded while the party is suspended;
+- Prime rounds do not consume those normal-round duration checkpoints;
+- suspended-party stat modifiers do not automatically modify the manifested Prime body;
+- when the party returns, those modifiers resume with the same remaining duration they had when suspension began.
+
+Prime-local temporary core-stat modifiers use their authored Prime-round/action window and disappear on dismissal unless a command explicitly creates a separate return-to-party effect.
+
+For migrated/current Prime wording, a Prime-local core-stat modifier described only as lasting through an `authored window`, `next window`, or `next-Prime-round window` means:
+> **active immediately through the end of the next Prime round, or until dismissal if dismissal occurs first**
+
+Return-to-party stat effects begin when the ordinary party returns and use normal-round timing under `STAT_CHANGES.md`.
+
 ## Post-dismissal Prime spacing
 After any Prime manifestation ends, the party must complete:
 > **2 full normal party rounds**
