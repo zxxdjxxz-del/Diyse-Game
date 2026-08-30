@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 from pathlib import Path
-import hashlib, json, re
+import hashlib, json, re, subprocess, sys
 
 OUT = Path("docs/03_DIALOGUE/LINE_COMPLETE")
+CHECKPOINT = "3fd07e92eda04f31ba613a654b3b1b28071f44e6"
 OVERLAY = "> **Current migration overlay:** v2.20/Audit135 + later explicit corrections. Non-dialogue mechanical specifications embedded in this historical authoring source are context only; their live authority is in the system domains.\n\n"
 EXTRACT = "> **Dialogue-domain extraction:** Exact approved spoken lines and relevant narrative staging are retained from the repository source. Combat moveset/stat/Card-effect sections are intentionally omitted because their current authority lives in `09_ENEMIES_AND_ENCOUNTERS` and `07_CARDS`.\n\n"
 HEADER = """# {sid} — {title}
@@ -64,10 +65,10 @@ MAP = {
 }
 
 def sha_bytes(b): return hashlib.sha256(b).hexdigest()
+def source_bytes(path): return subprocess.check_output(["git", "show", f"{CHECKPOINT}:{path}"])
 def unesc(x): return json.loads('"' + x + '"')
 
-def parse_tres(path):
-    s=Path(path).read_text(encoding="utf-8")
+def parse_tres_text(s):
     kind=re.search(r'^scene_kind = "([^"]*)"', s, re.M).group(1)
     pm=re.search(r'^participants = Array\[String\]\(\[(.*?)\]\)', s, re.M)
     parts=re.findall(r'"([^"]+)"', pm.group(1)) if pm else []
@@ -82,9 +83,9 @@ def parse_tres(path):
         beats.append((fld("beat_id"), fld("speaker_id"), fld("text"), fld("staging")))
     return kind, parts, beats
 
-def gen_ch0(src):
+def gen_ch0(src, source_text):
     sid=Path(src).stem
-    kind, parts, beats=parse_tres(src)
+    kind, parts, beats=parse_tres_text(source_text)
     out=HEADER.format(sid=sid,title=TITLES[sid],kind=kind,parts=", ".join(parts))
     for bid, speaker, text, staging in beats:
         text=text.replace("Broken Champion's Ward","incomplete protective response")
@@ -95,8 +96,7 @@ def gen_ch0(src):
         out += "\n"
     return out.rstrip()+"\n"
 
-def gen_md(scene, src):
-    text=Path(src).read_text(encoding="utf-8")
+def gen_md(scene, src, text):
     if scene=="CHAPTER_04/HUNT_04_CROWN_PROTOTYPE_DIALOGUE":
         i7=text.index("# 7. CROWN PROTOTYPE — COMBAT IDENTITY")
         i10=text.index("# 10. DEFEAT")
@@ -118,9 +118,10 @@ def main():
     generated=0
     for scene, meta in MAP.items():
         src=meta["source"]
-        sb=Path(src).read_bytes()
+        sb=source_bytes(src)
         if sha_bytes(sb) != meta["source_sha"]: raise SystemExit(f"SOURCE HASH FAIL {scene}: {src}")
-        text=gen_ch0(src) if scene.startswith("Ch0/") else gen_md(scene,src)
+        source_text=sb.decode("utf-8")
+        text=gen_ch0(src, source_text) if scene.startswith("Ch0/") else gen_md(scene,src,source_text)
         tb=text.encode("utf-8")
         got=sha_bytes(tb)
         if got != meta["target_sha"]: raise SystemExit(f"TARGET HASH FAIL {scene}: {got} != {meta['target_sha']}")
