@@ -70,7 +70,7 @@ This is deliberately stronger than the ordinary Memory Scribe's 65% / 80–180 e
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+15 Total Defense through the end of the following round**
+> **Defense +15% / Spirit +15% through the end of the following round**
 
 2-round repetition lock.
 
