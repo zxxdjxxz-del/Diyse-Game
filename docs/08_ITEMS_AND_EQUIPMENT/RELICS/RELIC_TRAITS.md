@@ -20,7 +20,7 @@ Against 2+ enemies: +8% final damage and +5pp applicable Defense penetration; at
 After direct Physical damage: +10% Defense and 5% less direct Physical damage through next round; if hit was at least 15% Max HP, Defense bonus becomes +12%. Max once/round.
 
 ### Heavy Step
-Above 50% HP: +8% action Speed and +8 Base Hit. After Defend/Guard, retain Speed benefit through following round.
+Above 50% HP: **Speed +8%** and +8 Base Hit. A mid-round HP change does not reshuffle initiative already fixed for the current round. After Defend/Guard, retain the **Speed +8%** benefit through the end of the following round even if HP later falls to 50% or lower.
 
 ### Warded Impact
 After Magical damage of at least 12% Max HP: +10% Spirit and +15 Status Resistance through remainder of current round and next round. Max once/round.
@@ -41,7 +41,7 @@ At 50% HP or lower: 10% less direct Physical damage. After Physical hit worth at
 +15 Status Resistance; 12% resistance to eligible ordinary negative-stat application. After successfully resisting a harmful status/negative stat change, +8% Spirit through next round.
 
 ### Answer Quickly
-Once/round when an ally enters/begins an action at 30% HP or lower, wearer's next healing Ability through next round gains +15% action Speed and +8% healing potency for the qualifying target.
+Once/round when an ally enters/begins an action at 30% HP or lower, wearer's next healing Ability through next round costs **15% less MP** and gains **+8% healing potency** for the qualifying target. This does not alter current-round initiative or grant priority.
 
 ### Clean Shot
 Single-target bow attacks: +10 Base Hit and +5pp Critical Chance. If target has no Evasion bonus, +6% final damage.
@@ -53,7 +53,7 @@ Against 2+ targets: +7% final damage and +10 Base Hit; at 4+ targets Base Hit bo
 Against a target with an already-established/revealed relevant profile: +12 Base Hit and +10pp applicable Defense penetration. If target has eligible Evasion Down/Base-Hit-reducing state, Base Hit bonus becomes +18. Existing harmful-status rider gets +5pp. No hidden information reveal.
 
 ### Good Footing
-If not directly hit this round: +8 Base Hit and +6% action Speed. After successfully hitting an enemy, benefit persists for rest of round.
+If not directly hit this round: **+8 Base Hit and +8 Evasion**. After successfully hitting an enemy, the benefit persists for the rest of that round even if wearer is directly hit later.
 
 ### Correct the Miss
 After missing an eligible attack, next eligible attack gains +15 Base Hit and +5% final damage. One stored correction; expires after following round if unused.
@@ -71,7 +71,7 @@ Eligible Conduit attack may use its better legally supported Magical scaling pro
 Normal Attack may target up to 3 enemies at 75% Power per target. Cards unaffected; no automatic status rider.
 
 ### Rewrite Position
-When target changes between consecutive eligible actions: +8% Magic contribution and +8% action Speed for the newly selected action.
+When target changes between consecutive eligible actions: **+8% Magic contribution** and **+8 Base Hit / application reliability where relevant** for the newly selected action.
 
 ### Hold the Pattern
 Once/battle extend one eligible beneficial temporary effect on wearer by one standard duration step; same specific application can only be extended once; protected/scripted states excluded. Also +10 Status Resistance.
@@ -98,7 +98,7 @@ Against 2+ targets: +8% final damage and +5pp Defense penetration; at 4+ targets
 At 50% HP or lower: 8% less direct Physical damage. After Physical hit worth at least 15% Max HP leaves wearer conscious: +8% Defense through next round. Max once/round.
 
 ### Keep Going
-After defeating an enemy: +8% Attack and +8% action Speed through following round. One stack; retrigger refreshes.
+After defeating an enemy: **Attack +8% / Speed +8%** through the end of the following round. One stack; retrigger refreshes. Current-round initiative is not reshuffled.
 
 ### Hold the Impact
 Once/round after direct Physical hit worth at least 12% Max HP: +10% Defense and 8% less direct Physical damage through next round. Earth damage ×0.80; incoming ordinary Staggered application ×0.80.
@@ -113,4 +113,7 @@ When exploiting established elemental weakness/vulnerability: +8% final damage. 
 Direct-healing Abilities +10% potency; +15% if recipient is at or below 50% HP. Wearer +10 Status Resistance.
 
 ### Exact Moment
-Eligible debuff/dispel/purge/status/control actions: +12 application reliability and +10% action Speed. After one succeeds, store +5% action Speed for next action; one stored maximum.
+Eligible debuff/dispel/purge/status/control actions gain **+12 application reliability** and **+10 Base Hit where the action makes a hit check**. After one succeeds, store **+5 Base Hit / application reliability** for the next eligible action that uses one of those checks. One stored benefit maximum; expires at the end of the following round if unused.
+
+## Action-Speed firewall
+`Action Speed` is not an active Diyse combat mechanic. Relic Traits may use the actual **Speed** stat when a modifier can legally affect a later round's initiative, or another explicitly supported action-local mechanic, but they may not create per-action priority, cast speed, or mid-round initiative reshuffling.
