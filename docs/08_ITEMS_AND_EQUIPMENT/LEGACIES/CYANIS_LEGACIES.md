@@ -11,7 +11,7 @@
 |---|---|---|---|---|
 | **Move or I Move You.** | Sword | +74 ATK / +55 MAG | +10pp applicable Defense/Spirit penetration | **Forced Opening** |
 | **That Was Dumb.** | Shield | +30 DEF / +28 SPR | +12 Status Resistance | **Bad Choice** |
-| **That Didn't Do Shit.** | Heavy Armor | +50 DEF / +42 SPR | Max HP +12% | **Still Standing** |
+| **That Didn't Do Shit.** | Heavy Armor | +50 DEF / +42 SPR | Max HP +400 | **Still Standing** |
 
 
 ## Move or I Move You. — Forced Opening
@@ -27,6 +27,9 @@ One pending setup; refreshes rather than stacks; consumed by the qualifying acti
 No free counterattack.
 
 ## That Didn't Do Shit. — Still Standing
+Capstone:
+- **Max HP +400**.
+
 Always:
 - **8% less eligible direct damage**.
 
