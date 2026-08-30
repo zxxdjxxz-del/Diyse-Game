@@ -112,9 +112,9 @@ Rationale:
 > **Power: N/A — no direct damage**
 
 Elder Briarhide gains:
-> **+15 Total Defense through the end of the following round**
+> **Defense +15% / Spirit +15% through the end of the following round**
 
-This is an intentional defensive state.
+This is an intentional defensive stat package.
 
 Do not call it Brace.
 
