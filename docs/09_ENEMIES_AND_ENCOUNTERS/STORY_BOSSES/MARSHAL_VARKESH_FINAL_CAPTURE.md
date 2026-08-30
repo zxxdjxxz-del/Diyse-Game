@@ -190,7 +190,7 @@ The Black Guard has one ordinary action on its enemy turn.
 > **Power: N/A — no direct damage**
 
 Effect:
-> Varkesh gains +10 Total Defense through the end of the following round.
+> Varkesh gains **Defense +10% / Spirit +10% through the end of the following round**.
 
 2-round repetition lock.
 
@@ -316,8 +316,9 @@ This is:
 - no Prime refresh.
 
 For the remainder of battle:
-- Speed +10
-- Total Defense −10
+- **Speed +10%**
+- **Defense −10%**
+- **Spirit −10%**
 
 The Reforged Command Standard and Black Guard remain functional if not destroyed.
 
