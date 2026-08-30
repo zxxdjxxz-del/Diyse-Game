@@ -44,7 +44,7 @@ The former 2,700 HP / ATK49 / MAG31 line is superseded for the current working b
 
 At the 45% threshold:
 - Rhazek's armor reinforcement activates;
-- Rhazek gains **+6 DEF / +6 Spirit** for the rest of battle;
+- Rhazek gains **Defense +6% / Spirit +6% for the rest of battle**;
 - State-A support does not respawn;
 - action priorities shift toward direct Ruin pressure.
 
@@ -145,7 +145,7 @@ The position does not respawn.
 ### Reinforced Advance
 > **Power: N/A — no direct damage**
 
-Rhazek gains **+10 Speed through the end of the following round**.
+Rhazek gains **Speed +10% through the end of the following round**.
 
 No extra action is granted.
 
