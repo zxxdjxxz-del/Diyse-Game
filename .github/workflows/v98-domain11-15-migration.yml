@@ -1,0 +1,25 @@
+name: v98 Domains 11-15 exact migration
+
+on:
+  push:
+    branches:
+      - migration/v98-subject-canon
+    paths:
+      - '.migration/domain11_15/**'
+      - '.github/workflows/v98-domain11-15-migration.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  install-domains11-15:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout migration branch
+        uses: actions/checkout@v4
+        with:
+          ref: migration/v98-subject-canon
+          fetch-depth: 0
+      - name: Reconstruct and install exact v98 domains 11-15
+        shell: bash
+        run: bash .migration/domain11_15/install.sh
