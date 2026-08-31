@@ -13,11 +13,15 @@
 |---|---|---|---:|---:|---|
 | **Recovered — Sentinel Impact** | one enemy | Physical / Neutral | 340 | — | 40% Defense penetration; 25% Bleed and 35% Staggered authored checks. |
 | **Awakened — Sentinel Impact** | one enemy | Physical / Neutral | 285 | — | 35% Defense penetration; 25% Bleed and 30% Staggered. |
-| **Awakened — Unbroken March** | all enemies | Physical / Neutral | 205 each | — | 20% Bleed per successfully damaged target; Last Sentinel gains **Defense +15% / Spirit +15%** through authored window. |
-| **Awakened — Hold the Line** | self | Support | — | — | **Defense +25% / Spirit +25%**; next damaging Last Sentinel command +25% final damage within authored window; unavailable Prime Round 3. |
-| **Legacy/final — Last Bastion** | Prime Round 3 only; all enemies | Physical / Neutral | 255 each | — | 40% Defense penetration; linked check 25% Bleed, otherwise 25% Staggered; max 1 newly applied harmful status per target. On dismissal, returning conscious party gains **Defense +20% / Spirit +20%** under return window. |
+| **Awakened — Unbroken March** | all enemies | Physical / Neutral | 205 each | — | 20% Bleed per successfully damaged target; Last Sentinel gains **Defense +15% / Spirit +15% through the end of the next Prime round, or until dismissal if dismissal occurs first**. |
+| **Awakened — Hold the Line** | self | Support | — | — | Gain **Defense +25% / Spirit +25% through the end of the next Prime round, or until dismissal if dismissal occurs first**. Also arm one use of **+25% final damage** for Last Sentinel's next damaging command that resolves before that same deadline; the damage bonus is consumed when used. Unavailable Prime Round 3. |
+| **Legacy/final — Last Bastion** | Prime Round 3 only; all enemies | Physical / Neutral | 255 each | — | 40% Defense penetration; linked check 25% Bleed, otherwise 25% Staggered; max 1 newly applied harmful status per target. On dismissal, returning conscious party gains **Defense +20% / Spirit +20% for 3 full normal rounds**. |
 
-
+## Hold the Line setup rule
+- The armed +25% final-damage benefit is a Prime-local one-use setup state.
+- A non-damaging command does not consume it.
+- If no damaging Last Sentinel command uses it before the deadline, it expires unused.
+- Consuming the damage benefit does not end the separate Defense/Spirit modifier early; that modifier keeps its own printed window.
 
 ## Global Prime references
 - `../PRIME_SYSTEM_RULES.md`
