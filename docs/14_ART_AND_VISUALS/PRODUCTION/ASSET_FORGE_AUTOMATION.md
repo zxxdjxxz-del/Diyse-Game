@@ -1,141 +1,172 @@
 # Diyse — Asset Forge Automation
 
-**Status:** ACTIVE AUTOMATION IMPLEMENTATION — v0.1 foundation  
-**Tool:** `../../../tools/asset_forge/forge.py`  
+**Status:** ACTIVE AUTOMATION IMPLEMENTATION — v0.2 atlas/animation foundation  
+**Core tool:** `../../../tools/asset_forge/forge.py`  
+**v0.2 processor:** `../../../tools/asset_forge/pipeline.py`  
 **Style authority:** `../DIYSE_VISUAL_STYLE_CANON.md`  
 **Conversion authority:** `ASSET_STYLE_CONVERSION_PIPELINE.md`  
 **Asset/provenance authority:** `ASSET_LIBRARY/README.md`
 
 ## Purpose
 
-Diyse Asset Forge exists to automate repetitive asset-library conversion work while preserving the separation between:
+Diyse Asset Forge automates repetitive asset-library conversion while preserving the separation between source/reference material, style-pass candidates, deterministic QA/review, and explicitly approved Diyse-final assets.
 
-- source/reference material;
-- style-pass candidates;
-- deterministic QA/review;
-- explicitly approved Diyse-final assets.
-
-The program is an **implementation tool**, not a new visual authority. If its generated output conflicts with the visual canon or the conversion pipeline, the generated output is rejected.
+The Forge is an **implementation tool**, not a visual authority. Output that conflicts with the visual canon or conversion pipeline is rejected.
 
 ## Automated flow
 
-`SOURCE → INVENTORY → CLASSIFY → PLAN → GENERATE/PRESERVE → QA → REVIEW SHEET → APPROVE/REDO → DIYSE-FINAL`
+`SOURCE → INVENTORY → CLASSIFY → PLAN → STYLE/PROPAGATE → QA → DETERMINISTIC REVIEW → APPROVE/REDO → DIYSE-FINAL`
 
-### Inventory
+## v0.1 core
 
-Records:
-- source path;
-- relative path;
-- SHA-256;
-- byte size;
-- dimensions;
-- image mode/alpha;
-- visual category;
-- animation-frame grouping;
-- lighting-state grouping;
-- selected treatment mode.
+`forge.py` currently handles:
+- source scanning;
+- SHA-256 identity;
+- dimensions/mode/alpha inspection;
+- category classification;
+- animation and lighting-family grouping;
+- category-specific Diyse prompts;
+- treatment selection;
+- optional image-generation provider;
+- deterministic QA foundation;
+- deterministic review/contact sheets made from actual outputs.
 
-### Classification recipes
+## v0.2 atlas engine
 
-Current recipes include:
-- stone;
-- foliage;
-- grass/vegetation;
-- water;
-- fire/emissive;
-- wood;
-- cave;
-- ritual/magic;
-- interior;
-- props;
-- generic fallback.
+`atlas_engine.py` adds coordinate-safe large-atlas processing.
 
-### Treatment modes
+Rules:
+- atlases are split into fixed-coordinate overlapping patches;
+- crop coordinates are recorded before processing;
+- a backend is forbidden from changing patch dimensions;
+- overlap regions are feather-blended during reconstruction;
+- original alpha may be restored after RGB treatment;
+- atlas dimensions and registration remain fixed.
 
-The Forge deliberately avoids one universal AI pass.
+The identity regression test reconstructs a synthetic **1700×1300** atlas through 12 overlapping patches with **zero pixel difference**.
 
-**Direct style edit**  
-For isolated assets where full-image generation is reasonably safe.
+This does not claim that arbitrary atlas semantics have been solved. It solves the more fundamental requirement: safe coordinate-preserving processing and reconstruction.
 
-**Atlas structure-preserving**  
-For large/composite atlases where coordinate/tile registration matters. v0.1 does not independently hallucinate a replacement atlas.
+## v0.2 animation engine
 
-**Animation anchor**  
-Only a chosen anchor frame is eligible for direct style treatment by default. Remaining frames are reserved for structure-preserving propagation rather than independent generation.
+`animation_engine.py` prevents the dangerous workflow of independently generating every animation frame.
 
-**Effect structure-preserving**  
-For effects where silhouette, cadence, registration, or transparency consistency matters.
+One approved/generated anchor frame establishes a deterministic style profile containing:
+- channel/palette distribution mapping;
+- selective edge-emphasis behavior.
+
+Later frames receive that profile using each frame's own moving structure. The system does **not** paste spatial details from the anchor onto later frames and does not spend separate image-generation calls on every propagated frame.
+
+For animation sequences:
+- exact frame dimensions are retained;
+- source alpha is retained;
+- the approved anchor is preserved exactly;
+- non-anchor frames inherit consistent palette/edge behavior;
+- random frame-specific AI detail is avoided.
+
+This conservative approach is specifically intended to reduce flicker, shape drift, and alpha instability.
+
+## v0.2 processing pipeline
+
+`pipeline.py` is now the recommended processing path after `forge.py inventory` and `forge.py plan`.
+
+It performs two passes:
+
+1. direct assets, animation anchors, and atlas patches;
+2. deterministic animation propagation after each anchor is available.
+
+Large atlases use coordinate-safe patch generation; animation followers use deterministic propagation. Direct isolated assets may still use full image edits where appropriate.
 
 ## Deterministic review boards
 
-Benchmark/review boards should no longer be requested as giant AI-generated infographics.
+Benchmark/review boards must not be giant AI-generated infographics.
 
-The Forge `sheet` command builds a review PNG directly from the real generated output files and exact metadata. This prevents:
+The Forge `sheet` command builds review PNGs directly from real output files and exact metadata. This prevents:
 - wrong benchmark subjects appearing;
 - invented status labels;
 - fabricated completion percentages;
-- stale prior-benchmark visual carryover;
-- generated typography becoming mistaken for project authority.
+- stale previous-benchmark visual carryover;
+- generated typography becoming mistaken for authority.
 
 The image model creates **asset candidates**. Python creates the **review board**.
 
-## QA foundation
+## Current treatment modes
 
-v0.1 records/checks:
+**Direct style edit** — isolated assets where a full image edit is reasonably safe.
+
+**Atlas structure-preserving** — large/composite atlases handled by fixed-coordinate overlapping patches and exact reconstruction.
+
+**Animation anchor** — one frame receives style treatment; later frames inherit the approved profile rather than being independently generated.
+
+**Effect structure-preserving** — effects where silhouette, cadence, alpha, or registration is critical.
+
+## QA status
+
+Existing deterministic QA checks:
 - output existence;
 - dimensions;
-- image mode;
+- mode;
 - alpha presence;
 - aspect-ratio drift;
-- partial-alpha statistics for transparent assets.
+- partial-alpha statistics.
 
-Future QA should add:
-- atlas seam checks;
+v0.2 regression coverage additionally verifies:
+- pixel-exact identity atlas reconstruction;
+- rejection when a backend changes patch dimensions;
+- exact approved-anchor preservation;
+- alpha preservation across propagated frames;
+- end-to-end generated-anchor → propagated-frames → atlas-processing behavior using a fake provider.
+
+Still needed:
+- actual seam-difference scoring after styled atlas patches;
 - alpha-fringe detection;
-- animation flicker/line-boil metrics;
-- frame registration comparison;
-- gameplay-scale previews;
-- lighting-family consistency;
-- duplicate/near-duplicate detection.
+- full-loop flicker/line-boil metrics;
+- gameplay-scale preview generation;
+- lighting-family consistency tests.
+
+## OpenAI provider note
+
+Current OpenAI image-generation documentation supports edit actions through the Responses API, GPT-Image-2 image generation/edit workflows, transparent PNG output, and a broad range of valid image resolutions. The Forge still normalizes generated candidates to exact source registration where the technical asset requires it.
+
+Model/provider details remain configuration rather than visual authority.
 
 ## Safety and provenance
 
-Asset Forge never overwrites source assets.
+Asset Forge never overwrites sources.
 
-License-unverified extracted source material retains that provenance after processing. An AI repaint or automated transformation does not relabel it as original/CC0.
+License-unverified extracted source material retains that provenance after processing. Restyling does not relabel it as original or CC0.
 
-The local `.asset_forge/` work area is git-ignored. This keeps manifests, private paths, generation candidates, QA data, and temporary review sheets out of repository authority until explicitly promoted.
+The local `.asset_forge/` work area is git-ignored so manifests, private paths, generation candidates, temporary patch data, QA outputs, and review sheets do not become repository authority automatically.
 
 ## Current implementation status
 
-Implemented and locally tested:
-- inventory scanning;
-- SHA-256 recording;
-- alpha/dimension inspection;
-- filename/category classification;
-- animation-anchor planning;
-- large-atlas safe routing;
-- category prompt generation;
-- dry-run planning;
-- optional OpenAI image-edit provider;
-- deterministic QA foundation;
-- deterministic contact/review sheet generation.
+Implemented:
+- inventory and hashing;
+- category recipes;
+- source-safe planning;
+- optional image-edit provider;
+- deterministic review sheets;
+- coordinate-safe overlapping atlas engine;
+- atlas patch manifest generation;
+- animation anchor detection;
+- deterministic animation style-profile learning;
+- non-anchor frame propagation;
+- exact-size normalization;
+- source-alpha preservation for animation sequences;
+- v0.2 orchestrated processing pipeline;
+- regression tests for the above.
 
-Current automated tests cover:
-- category classification;
-- animation anchor vs propagation routing;
-- large-atlas structure-preserving routing;
-- review-sheet creation from actual output files.
+## Next milestone — v0.3
 
-## Next implementation milestone
+The next implementation pass should make full-library runs practical rather than merely safe:
 
-**Asset Forge v0.2** should focus on the pieces required to process the full library economically and reliably:
-
-1. atlas segmentation/repacking with coordinate preservation;
-2. anchor-to-animation style propagation;
-3. base-to-`ra`–`rf` lighting-family handling;
-4. seam, fringe, flicker, and registration QA;
-5. checkpoint/resume and failed-job retry;
-6. category and generation-credit budgeting;
-7. approve/reject/redo metadata;
-8. production export into controlled `STYLE-PASS` and `DIYSE-FINAL` directories.
+1. base + `ra`–`rf` lighting-family propagation;
+2. atlas seam-difference QA after actual styled patches;
+3. alpha-fringe detection;
+4. animation flicker/line-boil metrics;
+5. automatic gameplay-scale previews;
+6. checkpoint/resume and failed-job retry;
+7. generation budget/category caps;
+8. approve/reject/redo metadata;
+9. controlled export into `STYLE-PASS` and `DIYSE-FINAL` destinations;
+10. semantic atlas-region assistance where reliable without changing atlas coordinates.
