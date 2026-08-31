@@ -24,6 +24,14 @@ Across the two intake batches currently recorded:
 
 Do not add these numbers to the historical Master v5 totals unless a future deliberate Master v6+ consolidation pass explicitly does so.
 
+## Parallel-work lock
+
+**B00 character work, visual-style revision, benchmark work, VFX work, and Asset Forge development do not close or supersede this intake track.**
+
+The seven uploaded archives above remain independently tracked source batches until a deliberate consolidation pass explicitly changes their state. A character-art approval must never delete, replace, merge away, or cause the project to forget an uploaded asset batch.
+
+When new archives are uploaded, append them as new batches and preserve the older entries. Do not renumber/reuse an existing batch identity for unrelated files.
+
 ## Intake rule for future uploads
 
 For every new source archive:
