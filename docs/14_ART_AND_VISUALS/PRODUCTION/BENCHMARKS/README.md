@@ -7,9 +7,9 @@ This directory contains execution sheets and result notes for the eleven visual-
 
 | Benchmark | Subject | Status | Execution/result file |
 |---|---|---|---|
-| B01 | Stone / fortified exterior | **STYLE-PASS APPROVED — GAMEPLAY TEST READY** | `B01_STONE_EXECUTION_V1.md`; `B01_STONE_STYLE_PASS_CANDIDATE_V1.md`; `B01_DIYSE_ORIGINAL_STONE_KIT_SPEC_V1.md` |
+| B01 | Stone / fortified exterior | **STYLE-PASS APPROVED — GAMEPLAY TEST READY** | `B01_STONE_EXECUTION_V1.md`; `B01_STONE_STYLE_PASS_CANDIDATE_V1.md`; `B01_DIYSE_ORIGINAL_STONE_KIT_SPEC_V1.md`; `B01_GAMEPLAY_TEST_SCENE_SPEC_V1.md` |
 | B02 | Rustic wood/interior | QUEUED | — |
-| B03 | Tree / foliage silhouette | QUEUED | — |
+| B03 | Tree / foliage silhouette | **SOURCE ANALYSIS COMPLETE — STYLE STUDY READY** | `B03_FOLIAGE_EXECUTION_V1.md` |
 | B04 | Animated vegetation | QUEUED | — |
 | B05 | Water + splash | QUEUED | — |
 | B06 | Fire / light emitter | QUEUED | — |
@@ -28,5 +28,7 @@ No benchmark is **ACCEPTED** until its visual result passes the benchmark author
 Generated-image labels are not authority by themselves. A benchmark only advances when repository text records the approved production state.
 
 B01 has passed user style review and now controls the provisional baseline for Diyse stone rendering. It still requires a representative Diyse-original modular gameplay/integration proof before final `ACCEPTED` promotion.
+
+B03 source analysis is complete from the actual Map084 tree assets and is ready for visual style-study generation. Its critical tests are canopy massing, selective chaotic line weight, clean alpha edges, gameplay-scale silhouette stability, depth simplification, and icon-scale consistency.
 
 The broader asset library must not enter bulk style conversion until the full benchmark set is coherent enough to define Diyse Visual Material Grammar v1.
