@@ -18,12 +18,12 @@
 4. Prison of Names records/identity systems;
 5. Warden of the Nameless / Revision Arbiter;
 6. multiple party members prove/assert continuity of self before direct combat fully opens;
-7. Prison/Change resolution;
+7. Prison/Memory resolution;
 8. return to Cresthaven;
 9. **Sixfold Volition**.
 
 ## Story Prime
-> **Last Scribe — Change — Nimera association** is recovered during Chapter 7.
+> **Last Scribe — Memory — Nimera association** is recovered during Chapter 7.
 
 ## Last Convergence
 > awakens at the end of Chapter 7 through the Sixfold Volition milestone.
