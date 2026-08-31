@@ -2,14 +2,13 @@
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
 **Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
-
+**Current whole-project written authority:** **v2.20 / Audit135** plus newer accepted corrections.  
+**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, temporary-stat percentage rules, and current Prime-restoration rules supersede stale earlier enemy text.
 
 ## Same-bar state change
 Behavior/state changes while retaining the same HP bar:
 - no fresh HP;
-- no automatic Prime refresh.
+- no Prime restoration.
 
 Examples:
 - Hollow Watch Castellan Fortress → Walking
@@ -27,8 +26,10 @@ Examples:
 ## Genuine fresh body
 A separately authored physical/narrative body with fresh HP:
 - starts a new HP body;
-- follows current fresh-form Prime refresh;
+- does **not** restore spent Prime identities;
 - does not imply a third form.
+
+Fresh-body replacement and Prime restoration are separate systems. Only an explicitly authored valid rest/restoration effect can restore a spent Prime.
 
 Current important examples:
 - Regulation Crucible → The Seventh Reaction
@@ -47,7 +48,6 @@ A targetable support object/assembly can exist without this migration inventing 
 
 If exact component HP is not recovered, leave it unresolved rather than deriving it from boss HP.
 
-
 ### Furnace Tyrant current same-bar thresholds
 - one continuous HP bar;
 - visible Heat states: Controlled → Heated → Overheated;
@@ -57,8 +57,7 @@ If exact component HP is not recovered, leave it unresolved rather than deriving
 - Siege Without Return sets Heat floor to Heated;
 - no refill;
 - no extra ordinary action;
-- no Prime refresh.
-
+- no Prime restoration.
 
 ### Deepforge Colossus current fresh-body rule
 Assembly Frame → Worldsmith Body is a genuine fresh-body transition.
@@ -68,12 +67,9 @@ Current global authority:
 - no Form-I damage spillover;
 - destroyed functions stay destroyed;
 - surviving functions carry forward;
-- **Prime availability refreshes**;
+- spent Prime identities remain spent;
 - no intermediate reward;
 - no third form.
-
-Older Deepforge-specific text saying Prime availability does not refresh is retired by the newer global fresh-body rule.
-
 
 ### Crownstorm Roc current same-bar rule
 Perched Sovereign → Stormbound occurs at **50% HP** on one continuous body.
@@ -82,11 +78,10 @@ Transition:
 - no refill;
 - no free attack;
 - no extra action;
-- +10 Speed for remaining battle;
-- no Prime availability refresh.
+- Speed +10% for remaining battle;
+- no Prime restoration.
 
 `Gale` actions are Physical / Neutral presentation, not Wind elemental damage.
-
 
 ### Matron Zevraya current form rule
 - Blood Matron = Form I;
@@ -95,12 +90,9 @@ Transition:
 - no Form-I damage spillover;
 - destroyed Reservoir functions stay destroyed;
 - surviving Reservoir functions carry forward;
-- fresh Perfected War Mother **refreshes Prime availability**;
+- spent Prime identities remain spent across the fresh form;
 - no intermediate reward;
 - no third full-health form.
-
-Older Zevraya-specific wording that retained used Prime flags into Form II is retired by the newer global fresh-body rule.
-
 
 ### Chainworks Behemoth current same-bar rule
 Bound Gate Beast → Freed Behemoth is one continuous HP bar.
@@ -111,18 +103,17 @@ Current release:
 
 Exactly 3 Anchors:
 - 240 HP each;
-- +5 Total Defense each while Bound;
+- Defense +5% / Spirit +5% each while Bound;
 - Power N/A;
 - no repair / respawn.
 
 At release:
 - no refill;
 - no free attack;
-- no Prime refresh;
+- no Prime restoration;
 - no intermediate reward.
 
-Intact Anchors at transition grant the Freed Behemoth +5% Attack each for its first 2 Freed rounds, maximum +15%.
-
+Intact Anchors at transition grant the Freed Behemoth Attack +5% each for its first 2 Freed rounds, maximum +15%.
 
 ### Revision Arbiter current same-bar rule
 Warden of the Nameless → Revision Arbiter → Open Revision is one continuous HP body.
@@ -134,10 +125,9 @@ Warden of the Nameless → Revision Arbiter → Open Revision is one continuous 
 - no HP refill;
 - no free transition attack;
 - no intermediate reward;
-- no Prime refresh.
+- no Prime restoration.
 
 These are authored direct-damage-reduction states, not Barrier or a Break meter.
-
 
 ### Western Rift Engine current same-bar rule
 Engine Core → Rift Incarnate is one continuous HP body.
@@ -145,15 +135,14 @@ Engine Core → Rift Incarnate is one continuous HP body.
 Current state points:
 - one finite Rift Echo deploys at 70% HP;
 - Rift Incarnate begins at 45% HP;
-- Incarnate gains +10 Speed and -10 Total Defense;
+- Incarnate gains Speed +10%, Defense −10%, and Spirit −10%;
 - no HP refill;
 - no free transition attack;
 - no extra ordinary action;
-- no Prime refresh.
+- no Prime restoration.
 
 Rift damage uses legal Neutral / Colorless / Lightning typing.
 No Spatial element exists.
-
 
 ### Marshal Varkesh current fresh-body rule
 Marshal Varkesh → Rift Conqueror is a genuine fresh-body transition.
@@ -161,7 +150,7 @@ Marshal Varkesh → Rift Conqueror is a genuine fresh-body transition.
 - Form-I damage does not spill into Rift Conqueror;
 - no free transition attack;
 - party HP/MP do not refresh;
-- **Prime availability refreshes**;
+- spent Prime identities remain spent;
 - no intermediate reward;
 - no third body.
 
@@ -169,7 +158,6 @@ Rift Conqueror is a deliberate Varkesh escalation, not possession.
 
 At Form-II 0 HP, Varkesh is combat-defeated but successfully withdraws alive.
 The Chapter-12 capture architecture is separate.
-
 
 ### Equal Mercy Arbiter current same-bar rule
 Mercy Protocol → Open Sanctuary is one continuous HP bar.
@@ -183,13 +171,12 @@ Mercy Protocol:
 Open Sanctuary:
 - begins at 45% HP;
 - Sanctuary Restraint ends permanently;
-- +10 Speed / -10 Total Defense;
+- Speed +10%, Defense −10%, Spirit −10%;
 - no refill;
 - no free attack;
-- no Prime refresh.
+- no Prime restoration.
 
 The action tax is encounter-specific and does not create a universal Mercy/Triage system.
-
 
 ### Commander Rhazek current Chapter-9 form rule
 Reforged Commander → Bastion Devourer is a genuine fresh-body transition.
@@ -198,7 +185,7 @@ Reforged Commander → Bastion Devourer is a genuine fresh-body transition.
 - no Form-I spillover;
 - no free transition attack;
 - party resources do not refresh;
-- **Prime availability refreshes**;
+- spent Prime identities remain spent;
 - no intermediate reward.
 
 At 18% Bastion Devourer HP:
@@ -206,33 +193,31 @@ At 18% Bastion Devourer HP:
 
 Exposed Rhazek:
 - no refill;
-- no Prime refresh;
-- -20 Total Defense;
-- +10 Speed;
+- no Prime restoration;
+- Defense −20% / Spirit −20%;
+- Speed +10%;
 - no third full-health body.
 
 Bastion integration remains voluntary agency, not possession.
-
 
 ### Registry Warden current same-bar rule
 Closed Registry → Open Registry is one continuous HP body.
 
 Open Registry:
 - begins at 40% HP;
-- +10 Speed;
-- -15 Total Defense;
+- Speed +10%;
+- Defense −15% / Spirit −15%;
 - no HP refill;
 - no free transition attack;
 - no extra action;
 - no intermediate reward;
-- no Prime refresh.
+- no Prime restoration.
 
 Registry Warden remains status-neutral:
 - no Burn / Freeze / Stun / Staggered / Bleed;
 - no invented Registry status.
 
-Closed Record is temporary Total Defense, not Barrier.
-
+Closed Record uses its explicitly authored Defense/Spirit percentage modifier and is not Barrier.
 
 ### Calder current fresh-body rule
 Protector of Continuity → Crown-Bound Living Anchor is a genuine fresh-body transition.
@@ -248,7 +233,7 @@ Form II:
 - no Form-I damage spillover;
 - no free transition attack;
 - party resources do not refresh;
-- **Prime availability refreshes**;
+- spent Prime identities remain spent;
 - no intermediate reward;
 - no third full-health form.
 
@@ -256,30 +241,28 @@ Continuity Collapse is an interruptible Clamp-linked Preparation, not a Break sy
 
 Calder's integration remains voluntary agency, not possession.
 
-
 ### The Custodian current same-bar rule
 Administrative Closure → Open Reconciliation is one continuous HP body.
 
 State A:
-- one Acuity Node;
+- one Perception Node;
 - one Ruin Containment Seal;
 - both finite optional support targets.
 
 Open Reconciliation:
 - begins at 45% HP;
 - surviving supports disengage;
-- +10 Speed;
-- -15 Total Defense;
+- Speed +10%;
+- Defense −15% / Spirit −15%;
 - no HP refill;
 - no free transition attack;
 - no extra action;
 - no intermediate reward;
-- no Prime refresh.
+- no Prime restoration.
 
 At 0 HP, Custodian enforcement is defeated but the Custodian remains available as the historical-information interface for S063/S064.
 
 No protected HP floor is required.
-
 
 ### Marshal Varkesh Chapter-12 final-capture rule
 Final Capture uses one continuous Varkesh HP bar.
@@ -297,14 +280,13 @@ Capture:
 
 At 50% HP:
 - same-bar late-pressure shift;
-- +10 Speed;
-- -10 Total Defense;
+- Speed +10%;
+- Defense −10% / Spirit −10%;
 - no refill;
 - no free attack;
-- no Prime refresh.
+- no Prime restoration.
 
 There is no Rift Conqueror fresh body in Chapter 12.
-
 
 ### Emperor Vaelkor current form rule
 Emperor of the Reforged Host → Sovereign Panoply Unbound is a genuine fresh-body transition.
@@ -312,7 +294,7 @@ Emperor of the Reforged Host → Sovereign Panoply Unbound is a genuine fresh-bo
 - no Form-I damage spillover;
 - no free transition attack;
 - party HP/MP do not refresh;
-- **Prime availability refreshes**;
+- spent Prime identities remain spent;
 - no intermediate reward;
 - no third Vaelkor form.
 
@@ -321,23 +303,22 @@ Sovereign Panoply Unbound:
 - not possession;
 - Sovereign Overrun is a Protected Preparation below 55% HP;
 - Final Sovereignty begins at 25% Form-II HP on the same bar;
-- Final Sovereignty does not refresh Prime availability.
+- Final Sovereignty does not restore Prime availability.
 
 Vaelkor refuses surrender by his own agency.
-
 
 ### Last Weapon Archon current same-bar rule
 Archive Authority → Weapon Protocol Unsealed is one continuous HP body.
 
 Weapon Protocol Unsealed:
 - begins at 60% HP;
-- +10 Speed;
-- -10 Total Defense;
+- Speed +10%;
+- Defense −10% / Spirit −10%;
 - no HP refill;
 - no free transition attack;
 - no extra action;
 - no intermediate reward;
-- no Prime refresh.
+- no Prime restoration.
 
 The Archon uses one visible convergence → compression → discharge priority sequence after unsealing.
 
@@ -348,7 +329,6 @@ It is:
 - not a surviving fragment.
 
 Its combat sequence does not resolve the OPEN Entity-fragment survival mechanism.
-
 
 ### Final boss current form rule
 Reconstituted Entity → The Last Command is exactly two genuine full-health bodies.
@@ -363,7 +343,7 @@ Crest Integration:
 - no Form-I damage spillover;
 - no free transition attack;
 - party HP/MP do not refresh;
-- **Prime availability refreshes**;
+- spent Prime identities remain spent;
 - no intermediate reward.
 
 Form II:
@@ -371,7 +351,7 @@ Form II:
 - max2 Unbound Shards at 70% / 40%;
 - Final Directive Protected Preparation below55%;
 - Distributed Command at25% same-bar;
-- no Prime refresh for same-bar events.
+- no Prime restoration for same-bar events.
 
 At Form-II 0 HP:
 - combat ends;
