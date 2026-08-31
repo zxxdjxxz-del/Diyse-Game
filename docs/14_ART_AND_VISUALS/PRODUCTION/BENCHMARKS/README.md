@@ -12,7 +12,7 @@ This directory contains execution sheets and result notes for the eleven visual-
 | B03 | Tree / foliage silhouette | **STYLE-PASS APPROVED — GAMEPLAY TEST READY** | `B03_FOLIAGE_EXECUTION_V1.md`; `B03_FOLIAGE_STYLE_STUDY_SPEC_V1.md`; `B03_FOLIAGE_STYLE_PASS_CANDIDATE_V1.md`; `B03_DIYSE_ORIGINAL_FOLIAGE_KIT_SPEC_V1.md`; `B03_GAMEPLAY_TEST_SCENE_SPEC_V1.md` |
 | B04 | Animated vegetation | QUEUED | — |
 | B05 | Water + splash | QUEUED | — |
-| B06 | Fire / light emitter | QUEUED | — |
+| B06 | Fire / light emitter | **SOURCE ANALYSIS COMPLETE — TECHNICAL STYLE PILOT READY** | `B06_CC0_FIRE_LIGHT_EXECUTION_V1.md` |
 | B07 | Cave / subterranean | QUEUED | — |
 | B08 | High-status interior | QUEUED | — |
 | B09 | Ritual / magic surface | QUEUED | — |
@@ -30,6 +30,8 @@ Generated-image labels are not authority by themselves. A benchmark only advance
 B01 has passed user style review and controls the provisional baseline for Diyse stone rendering. It still requires a representative Diyse-original modular gameplay/integration proof before final `ACCEPTED` promotion.
 
 B03 has passed user style review and controls the provisional baseline for Diyse foliage rendering. It still requires a representative Diyse-original tree-family gameplay/integration proof before final `ACCEPTED` promotion. Its runtime gates are clean alpha under movement/scaling, player-vs-tree hierarchy, route readability, foreground/midground/background simplification, and neutral/warm/cool lighting stability.
+
+B06 source analysis is now grounded primarily in the verified-CC0 Brackeys VFX bundle. Asset Forge v0.9 confirms exact split/repack round-trips across the bundle's **28 grid sheets / 1,318 declared frames** when small source padding and palette transparency are preserved, and it detects **92 matched particle color/alpha pairs**. B06 is ready for a bounded Diyse fire/light style pilot but has **not** reached STYLE-PASS CANDIDATE.
 
 B10 v2 has passed user style review. The approved benchmark uses actual Quaternius glTF assets, a material-first shared Furniture + Metal workflow, quieter painterly wood, controlled roughness-aware metal separation, deterministic Furniture normal attenuation when QA requires it, model-space Lantern_Wall emitter data, and actual physical-scale previewing. B10 remains pending final Godot/runtime validation before `ACCEPTED`.
 
