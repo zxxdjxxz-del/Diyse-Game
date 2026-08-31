@@ -2,13 +2,7 @@
 """Deterministic UV-safe material stylization for Diyse Asset Forge.
 
 This backend is intentionally non-generative: it preserves every pixel coordinate and
-is suitable as a zero-drift baseline for shared trim atlases before optional AI edits.
-
-v2 refinement rules:
-- preserve broad authored source planes instead of generating an edge field from every detail;
-- keep only sparse meaningful existing dark strokes for wood;
-- give metal stronger controlled plane/highlight separation without a universal outline;
-- preserve exact UV registration and image dimensions.
+serves as the zero-drift baseline for shared trim atlases before optional AI assistance.
 """
 from __future__ import annotations
 
@@ -19,126 +13,102 @@ import cv2
 import numpy as np
 from PIL import Image
 
-MaterialKind = Literal['wood', 'metal']
+MaterialKind = Literal['wood','metal','prop','cloth']
 
 
-def _palette(lum: np.ndarray, kind: MaterialKind) -> np.ndarray:
-    t = np.clip(lum, 0, 1)[..., None]
-    if kind == 'wood':
-        dark = np.array([55, 35, 25.], np.float32)
-        mid = np.array([116, 72, 43.], np.float32)
-        light = np.array([174, 121, 74.], np.float32)
-        return np.where(
-            t < 0.50,
-            dark + (mid - dark) * (t / 0.50),
-            mid + (light - mid) * ((t - 0.50) / 0.50),
-        )
-
-    dark = np.array([42, 47, 52.], np.float32)
-    mid = np.array([95, 103, 110.], np.float32)
-    light = np.array([184, 190, 192.], np.float32)
-    return np.where(
-        t < 0.58,
-        dark + (mid - dark) * (t / 0.58),
-        mid + (light - mid) * ((t - 0.58) / 0.42),
-    )
-
-
-def _large_components(mask: np.ndarray, min_area: int) -> np.ndarray:
+def _component_mask(mask: np.ndarray, min_area: int) -> np.ndarray:
     count, labels, stats, _ = cv2.connectedComponentsWithStats(mask.astype(np.uint8), 8)
-    out = np.zeros(mask.shape, np.uint8)
-    for index in range(1, count):
-        if stats[index, cv2.CC_STAT_AREA] >= min_area:
-            out[labels == index] = 1
-    return out
+    output=np.zeros_like(mask,dtype=np.uint8)
+    for index in range(1,count):
+        if stats[index,cv2.CC_STAT_AREA] >= min_area:
+            output[labels==index]=255
+    return output
+
+
+def _palette_map(base: np.ndarray, source: np.ndarray, kind: MaterialKind) -> np.ndarray:
+    lum=(0.2126*base[:,:,0]+0.7152*base[:,:,1]+0.0722*base[:,:,2])/255.0
+    t=np.clip(lum,0,1)[...,None]
+    if kind=='wood':
+        dark=np.array([64,41,29.],np.float32)
+        mid=np.array([126,80,47.],np.float32)
+        light=np.array([184,132,79.],np.float32)
+        palette=np.where(t<0.55,dark+(mid-dark)*(t/0.55),mid+(light-mid)*((t-0.55)/0.45))
+        return 0.52*base+0.48*palette
+    if kind=='metal':
+        dark=np.array([34,38,42.],np.float32)
+        mid=np.array([82,89,94.],np.float32)
+        light=np.array([170,174,171.],np.float32)
+        palette=np.where(t<0.60,dark+(mid-dark)*(t/0.60),mid+(light-mid)*((t-0.60)/0.40))
+        warmth=np.clip((source[:,:,0].astype(np.float32)-source[:,:,2].astype(np.float32)-8)/55,0,1)[...,None]
+        rust=np.array([116,67,44.],np.float32)
+        return (0.32*base+0.68*palette)*(1-0.18*warmth)+rust*(0.18*warmth)
+
+    # Props and Cloth preserve source hue families rather than collapsing a mixed trim sheet
+    # into one color identity.
+    hsv=cv2.cvtColor(np.clip(base,0,255).astype(np.uint8),cv2.COLOR_RGB2HSV).astype(np.float32)
+    if kind=='prop':
+        hsv[:,:,1]*=0.86
+        hsv[:,:,2]=np.clip(hsv[:,:,2]*0.98,0,255)
+    else:
+        hsv[:,:,1]*=0.88
+    return cv2.cvtColor(np.clip(hsv,0,255).astype(np.uint8),cv2.COLOR_HSV2RGB).astype(np.float32)
 
 
 def stylize_material_image(image: Image.Image, kind: MaterialKind) -> Image.Image:
-    source = np.array(image.convert('RGB'), dtype=np.uint8)
+    source=np.array(image.convert('RGB'),dtype=np.uint8)
+    sigma=26 if kind in {'wood','cloth'} else 20
+    smoothed=cv2.bilateralFilter(source,d=0,sigmaColor=sigma,sigmaSpace=6)
+    lab=cv2.cvtColor(smoothed,cv2.COLOR_RGB2LAB)
+    lightness=lab[:,:,0].astype(np.float32)/255.0
+    levels={'wood':5,'metal':6,'prop':6,'cloth':5}[kind]
+    bands=np.round(lightness*levels)/levels
+    blend={'wood':0.62,'metal':0.68,'prop':0.52,'cloth':0.46}[kind]
+    lab[:,:,0]=(np.clip(blend*bands+(1-blend)*lightness,0,1)*255).astype(np.uint8)
+    base=cv2.cvtColor(lab,cv2.COLOR_LAB2RGB).astype(np.float32)
+    base=_palette_map(base,source,kind)
+    gray=cv2.cvtColor(smoothed,cv2.COLOR_RGB2GRAY)
 
-    # Broad painterly planes while keeping the source's authored trim layout intact.
-    smooth = cv2.bilateralFilter(
-        source,
-        d=0,
-        sigmaColor=18 if kind == 'wood' else 14,
-        sigmaSpace=4,
-    )
-    gray = cv2.cvtColor(smooth, cv2.COLOR_RGB2GRAY).astype(np.float32) / 255.0
-    broad = cv2.GaussianBlur(gray, (0, 0), 3.0)
-
-    levels = 7 if kind == 'wood' else 8
-    bands = np.round(broad * (levels - 1)) / (levels - 1)
-    grouped = 0.62 * broad + 0.38 * bands
-    palette = _palette(grouped, kind)
-
-    # The Quaternius trims are already stylized; preserve a little source color evidence rather
-    # than replacing the whole atlas with a flat procedural palette.
-    if kind == 'wood':
-        base = 0.18 * smooth.astype(np.float32) + 0.82 * palette
+    if kind in {'wood','metal','prop'}:
+        magnitude=np.abs(cv2.Laplacian(gray,cv2.CV_32F,ksize=3))
+        percentile={'wood':96.5,'metal':94.0,'prop':97.0}[kind]
+        threshold=max(float(np.percentile(magnitude,percentile)),5.0)
+        edge=(magnitude>threshold).astype(np.uint8)*255
+        edge=_component_mask(edge,min_area={'wood':14,'metal':8,'prop':12}[kind])
+        edge=cv2.dilate(edge,np.ones((2,2),np.uint8),iterations=1).astype(np.float32)/255.0
+        ink=edge[...,None]
+        ink_color=np.array({'wood':[43,30,24.],'metal':[22,25,28.],'prop':[45,39,38.]}[kind],np.float32)
+        strength={'wood':0.34,'metal':0.56,'prop':0.25}[kind]
+        base=base*(1-strength*ink)+ink_color*(strength*ink)
     else:
-        base = 0.12 * smooth.astype(np.float32) + 0.88 * palette
+        # Cloth receives broad fold modulation rather than contour/edge ink.
+        low=cv2.GaussianBlur(gray,(0,0),18).astype(np.float32)
+        mid=cv2.GaussianBlur(gray,(0,0),5).astype(np.float32)
+        fold=np.clip((mid-low)/255.0,-0.10,0.10)[...,None]
+        base=np.clip(base+fold*45,0,255)
 
-    # Preserve only meaningful existing dark marks. The earlier pass used a Laplacian edge field,
-    # which made wood look over-inked because every small source groove became a dark stroke.
-    low = cv2.GaussianBlur(gray, (0, 0), 5.0)
-    dark_residual = np.maximum(low - gray, 0)
-    positive = dark_residual[dark_residual > 0]
-    percentile = 96.5 if kind == 'wood' else 94.0
-    threshold = float(np.percentile(positive, percentile)) if positive.size else 0.05
-    mask = (dark_residual > max(threshold, 0.025)).astype(np.uint8)
-    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, np.ones((2, 2), np.uint8))
-    mask = _large_components(mask, min_area=10 if kind == 'wood' else 7)
-    if kind == 'wood':
-        mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, np.ones((1, 3), np.uint8))
-
-    ink = cv2.GaussianBlur(mask.astype(np.float32), (0, 0), 0.55)[..., None]
-    ink_color = np.array([48, 31, 23.] if kind == 'wood' else [27, 31, 34.], np.float32)
-    strength = 0.34 if kind == 'wood' else 0.48
-    base = base * (1 - strength * ink) + ink_color * (strength * ink)
-
-    # Controlled highlights. Wood gets only sparse worn/light-facing accents. Metal retains stronger
-    # authored highlight separation so it stays distinct from wood under neutral gameplay lighting.
-    high_residual = np.maximum(gray - cv2.GaussianBlur(gray, (0, 0), 7.0), 0)
-    high_positive = high_residual[high_residual > 0]
-    high_percentile = 98.5 if kind == 'wood' else 94.0
-    high_threshold = float(np.percentile(high_positive, high_percentile)) if high_positive.size else 0.05
-    high_mask = (high_residual > max(high_threshold, 0.025)).astype(np.uint8)
-    high_mask = _large_components(high_mask, min_area=12 if kind == 'wood' else 6)
-    highlight = cv2.GaussianBlur(high_mask.astype(np.float32), (0, 0), 0.70)[..., None]
-
-    if kind == 'wood':
-        highlight_color = np.array([205, 151, 91.], np.float32)
-        highlight_strength = 0.10
-    else:
-        highlight_color = np.array([218, 222, 218.], np.float32)
-        highlight_strength = 0.24
-
-    base = base * (1 - highlight_strength * highlight) + highlight_color * (highlight_strength * highlight)
-
-    # Restore only low-frequency material variation; high-frequency pore/scratch noise stays suppressed.
-    residual = (gray - cv2.GaussianBlur(gray, (0, 0), 12.0))[..., None]
-    base = np.clip(base + residual * (5 if kind == 'wood' else 3), 0, 255).astype(np.uint8)
-    return Image.fromarray(base, 'RGB')
+    low=cv2.GaussianBlur(gray,(0,0),12 if kind!='cloth' else 16).astype(np.float32)
+    residual=(gray.astype(np.float32)-low)/255.0
+    amplitude={'wood':7,'metal':9,'prop':6,'cloth':4}[kind]
+    base=np.clip(base+residual[...,None]*amplitude,0,255).astype(np.uint8)
+    return Image.fromarray(base,'RGB')
 
 
 def stylize_material_file(source: Path, output: Path, kind: MaterialKind) -> None:
     with Image.open(source) as image:
-        styled = stylize_material_image(image, kind)
-    output.parent.mkdir(parents=True, exist_ok=True)
-    styled.save(output, format='PNG')
+        styled=stylize_material_image(image,kind)
+    output.parent.mkdir(parents=True,exist_ok=True)
+    styled.save(output,format='PNG')
 
 
 def main() -> int:
     import argparse
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument('source', type=Path)
-    parser.add_argument('output', type=Path)
-    parser.add_argument('--kind', choices=['wood', 'metal'], required=True)
-    args = parser.parse_args()
-    stylize_material_file(args.source, args.output, args.kind)
+    parser=argparse.ArgumentParser()
+    parser.add_argument('source',type=Path)
+    parser.add_argument('output',type=Path)
+    parser.add_argument('--kind',choices=['wood','metal','prop','cloth'],required=True)
+    args=parser.parse_args()
+    stylize_material_file(args.source,args.output,args.kind)
     return 0
 
-
-if __name__ == '__main__':
+if __name__=='__main__':
     raise SystemExit(main())
