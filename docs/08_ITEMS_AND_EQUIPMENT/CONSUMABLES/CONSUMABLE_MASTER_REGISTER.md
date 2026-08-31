@@ -27,7 +27,7 @@ Current v85 later tracker closure:
 | C15 | Full Remedy | Remove all eligible ordinary harmful statuses | full treatment |
 | C16 | Blinding Mist | Guaranteed escape from an eligible ordinary random encounter | escape utility |
 | C17 | Null Seal | Remove one eligible positive effect from an enemy | purge utility |
-| C18 | Balance Seal | Restore eligible ordinary negative stat changes toward normal | stat utility |
+| C18 | Balance Seal | One conscious ally; remove all eligible standalone negative temporary stat effects; does not remove harmful statuses or their attached stat riders | stat utility |
 | C19 | Emergency Kit | Restore 75% Max HP + 60% Max MP; remove all eligible negative status effects and all eligible negative temporary stat effects from the recipient; restore every acquired Prime identity to Ready; no revive | exceptional recovery / Prime restoration |
 | C20 | Emergency Rally | Revive all KO active-party members at 60% Max HP + 35% Max MP | exceptional party revival |
 

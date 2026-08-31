@@ -51,6 +51,60 @@ It does not trivialize:
 - mandatory bosses
 - authored no-flee encounters
 
+## Balance Seal — exact package
+Balance Seal is the dedicated ordinary stat-restoration consumable.
+
+Target:
+> **one conscious ally; self legal**
+
+When Balance Seal resolves, remove **every eligible standalone negative temporary stat effect** currently attached to that ally.
+
+Eligible axes include, where an effect actually exists:
+- Attack;
+- Magic;
+- Defense;
+- Spirit;
+- Speed;
+- Base Hit;
+- Evasion;
+- Status Resistance;
+- another explicitly authored removable temporary stat penalty.
+
+Balance Seal removes the underlying eligible negative effect identity, not merely the target's current net numerical deficit.
+
+Therefore, if a target has:
+- Attack +30% from one positive effect; and
+- Attack −20% from a different removable negative effect,
+
+Balance Seal removes the −20% source and leaves the +30% source intact.
+
+If several different eligible negative stat effects are active at once, **one Balance Seal removes all of them**. It is not limited to one axis or one contribution.
+
+### What Balance Seal does not remove
+Balance Seal does **not** remove:
+- Burn;
+- Freeze;
+- Stun;
+- Staggered;
+- Bleed;
+- any stat rider that exists only because one of those harmful statuses remains active;
+- positive stat effects;
+- Fields themselves;
+- Guard;
+- Hunter's Measure or other class tactical/setup states merely because they are not ordinary stat effects;
+- protected encounter states;
+- scripted states;
+- permanent/natural stats;
+- equipment stats.
+
+Status-carried penalties therefore remain tied to their status owner. Examples:
+- Burn's Defense −10% / Spirit −10% remain until Burn ends or is legally removed;
+- Staggered's Attack −20% / Magic −20% / Speed −20% remain until Staggered ends or is legally removed.
+
+Balance Seal is not a harmful-status remedy and does not partially strip those riders away from an otherwise still-active status.
+
+A continuously maintained or protected external source may also be ineligible for Balance Seal under its own rules. Balance Seal does not destroy the external source itself.
+
 ## Emergency Kit — exact package
 Emergency Kit is the exceptional full-recovery / cleanse / Prime-restoration consumable.
 
