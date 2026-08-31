@@ -57,6 +57,21 @@ Using one Prime does not spend any other available Prime.
 
 A battle ending, a same-bar phase change, or a genuine fresh-HP boss form does **not** by itself restore a spent Prime.
 
+### Emergency Kit restoration
+**Emergency Kit** is an explicitly authored valid Prime-restoration effect.
+
+When Emergency Kit legally resolves:
+- every **acquired** Story Prime identity is restored to Ready;
+- every **acquired** Major-Hunt Prime identity is restored to Ready;
+- restoration applies whether or not that Prime is currently equipped/assigned;
+- a Prime spent earlier in the same battle or in an earlier battle may be restored;
+- an unacquired Prime is not granted;
+- Story Prime progression is unchanged: Recovered stays Recovered and Awakened stays Awakened.
+
+Emergency Kit restoration changes **Prime spent/Ready state only**.
+
+It does **not** erase or bypass the separate post-dismissal spacing requirement. If the party is still inside the 2-full-normal-round spacing gate after a Prime dismissal, restored Primes are Ready but cannot be invoked until that spacing gate is complete.
+
 ## Recovered Story Prime
 - manifests in the current ordinary round;
 - performs exactly one strong Recovered signature action;
@@ -124,6 +139,8 @@ After any Prime manifestation ends, the party must complete:
 before another available Prime may be invoked later in that battle.
 
 The spacing gate does not restore the Prime that was just spent. It only controls when a different still-available Prime may be invoked.
+
+An explicit restoration effect such as Emergency Kit may restore spent Prime identities during this spacing window, but it does not shorten or cancel the spacing window itself.
 
 ## No boss-form refresh
 Prime identity availability is not once-per-battle or once-per-fresh-form.

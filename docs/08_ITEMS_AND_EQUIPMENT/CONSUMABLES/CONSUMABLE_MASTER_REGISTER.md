@@ -1,6 +1,6 @@
 # Diyse — Consumable Master Register
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary written equipment authority:** compatible **Audit117 / Audit118 / Audit121**, plus newer accepted v85 tracker-level equipment closures.  
+**Primary written equipment authority:** compatible **Audit117 / Audit118 / Audit121**, plus newer accepted v85 tracker-level equipment closures and newer explicit user corrections.  
 **Current written whole-project authority:** **v2.20 / Audit135**.  
 **Rule:** where v85 contains a later explicitly accepted equipment decision that has not yet been promoted, preserve it as **tracker-level final / pending formal promotion** rather than rewriting older audit history.
 
@@ -28,7 +28,7 @@ Current v85 later tracker closure:
 | C16 | Blinding Mist | Guaranteed escape from an eligible ordinary random encounter | escape utility |
 | C17 | Null Seal | Remove one eligible positive effect from an enemy | purge utility |
 | C18 | Balance Seal | Restore eligible ordinary negative stat changes toward normal | stat utility |
-| C19 | Emergency Kit | Restore 75% Max HP + 60% Max MP plus established eligible cleanse/stat-restoration package; no revive | exceptional recovery |
+| C19 | Emergency Kit | Restore 75% Max HP + 60% Max MP; remove all eligible negative status effects and all eligible negative temporary stat effects from the recipient; restore every acquired Prime identity to Ready; no revive | exceptional recovery / Prime restoration |
 | C20 | Emergency Rally | Revive all KO active-party members at 60% Max HP + 35% Max MP | exceptional party revival |
 
 Prices and shop-stock timing are deliberately not duplicated here.
