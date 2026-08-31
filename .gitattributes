@@ -1,0 +1,5 @@
+# Git LFS routing for redistributable source archives.
+# License-unverified private/reference material is intentionally NOT routed here;
+# it is excluded from this public repository by .gitignore.
+asset_sources/third_party_cc0/*.zip filter=lfs diff=lfs merge=lfs -text
+asset_sources/third_party_cc0/**/*.zip filter=lfs diff=lfs merge=lfs -text
