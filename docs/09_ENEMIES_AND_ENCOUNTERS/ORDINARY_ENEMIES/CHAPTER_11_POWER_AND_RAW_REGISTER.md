@@ -11,10 +11,10 @@
 | Might Bastion | 50 | 2,050 | 184 | 92 | 132 | 104 | 30 | 0 | 10 | 265 /290 /195 AoE |
 | Element Matrix | 50 | 1,520 | 62 | 184 | 88 | 122 | 39 | 5 | 10 | 245 elemental /180 elemental AoE |
 | Grace Curator | 50 | 1,420 | 54 | 176 | 90 | 126 | 36 | 0 | 10 | 220 /160 AoE |
-| Change Schema | 51 | 1,580 | 150 | 178 | 96 | 116 | 42 | 5 | 10 | 240 Hybrid /175 AoE |
+| Memory Schema | 51 | 1,580 | 150 | 178 | 96 | 116 | 42 | 5 | 10 | 240 Hybrid /175 AoE |
 
 ## Face-name firewall
-Might Bastion, Element Matrix, Grace Curator, and Change Schema use thematic Face terminology only.
+Might Bastion, Element Matrix, Grace Curator, and Memory Schema use thematic Face terminology only.
 
 They do **not** use Cards or Prime Invocation.
 
@@ -24,7 +24,7 @@ Element Matrix uses exactly:
 No Wind / Water.
 
 ## Permanent-state firewall
-Administrative / Continuity / Permission / Change terminology cannot permanently rename characters, alter levels/classes, remove equipment, erase Cards/abilities, remove command categories, or alter save data.
+Administrative / Continuity / Permission / Memory terminology cannot permanently rename characters, alter levels/classes, remove equipment, erase Cards/abilities, remove command categories, or alter save data.
 
 ## Crown Engine Technician
 - Lv48 /HP1,260
@@ -51,7 +51,7 @@ One bar. No support wave. No transformation. No permanent command/state erasure.
 Already Power-complete and unchanged:
 - Authentication Lenses
 - Living Anchor Clamps
-- Acuity Node
+- Perception Node
 - Ruin Containment Seal
 - Calder → Crown-Bound Living Anchor
 - The Custodian
