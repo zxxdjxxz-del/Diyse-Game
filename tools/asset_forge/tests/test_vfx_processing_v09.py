@@ -19,7 +19,6 @@ spec.loader.exec_module(mod)
 
 class VfxProcessingTests(unittest.TestCase):
     def test_grid_parse_and_exact_roundtrip_rgba(self):
-        image = Image.new('RGBA', (64, 32))
         arr = np.zeros((32, 64, 4), dtype=np.uint8)
         arr[..., 0] = np.arange(64, dtype=np.uint8)[None, :]
         arr[..., 1] = np.arange(32, dtype=np.uint8)[:, None]
@@ -30,6 +29,20 @@ class VfxProcessingTests(unittest.TestCase):
         self.assertTrue(qa['exact'])
         self.assertEqual(qa['frame_count'], 32)
         self.assertEqual(qa['max_channel_difference'], 0)
+
+    def test_padded_palette_grid_preserves_transparency(self):
+        image = Image.new('P', (64, 21), 0)
+        palette = [0, 0, 0, 255, 90, 20] + [0, 0, 0] * 254
+        image.putpalette(palette[:768])
+        image.info['transparency'] = 0
+        for y in range(20):
+            for x in range(64):
+                if (x + y) % 7 == 0:
+                    image.putpixel((x, y), 1)
+        qa = mod.grid_roundtrip_qa(image, 4, 2)
+        self.assertTrue(qa['exact'])
+        self.assertEqual(qa['padding_bottom'], 1)
+        self.assertEqual(qa['padding_right'], 0)
 
     def test_particle_pairing(self):
         result = mod.pair_particles([
