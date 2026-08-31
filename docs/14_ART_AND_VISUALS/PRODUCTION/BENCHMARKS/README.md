@@ -12,7 +12,7 @@ This directory contains execution sheets and result notes for the eleven visual-
 | B03 | Tree / foliage silhouette | **STYLE-PASS APPROVED — GAMEPLAY TEST READY** | `B03_FOLIAGE_EXECUTION_V1.md`; `B03_FOLIAGE_STYLE_STUDY_SPEC_V1.md`; `B03_FOLIAGE_STYLE_PASS_CANDIDATE_V1.md`; `B03_DIYSE_ORIGINAL_FOLIAGE_KIT_SPEC_V1.md`; `B03_GAMEPLAY_TEST_SCENE_SPEC_V1.md` |
 | B04 | Animated vegetation | QUEUED | — |
 | B05 | Water + splash | QUEUED | — |
-| B06 | Fire / light emitter | **SOURCE ANALYSIS COMPLETE — TECHNICAL STYLE PILOT READY** | `B06_CC0_FIRE_LIGHT_EXECUTION_V1.md` |
+| B06 | Fire / light emitter | **STYLE-PASS CANDIDATE — USER REVIEW PENDING** | `B06_CC0_FIRE_LIGHT_EXECUTION_V1.md`; `B06_FLAME_STYLE_PASS_CANDIDATE_V1.md` |
 | B07 | Cave / subterranean | QUEUED | — |
 | B08 | High-status interior | QUEUED | — |
 | B09 | Ritual / magic surface | QUEUED | — |
@@ -31,7 +31,9 @@ B01 has passed user style review and controls the provisional baseline for Diyse
 
 B03 has passed user style review and controls the provisional baseline for Diyse foliage rendering. It still requires a representative Diyse-original tree-family gameplay/integration proof before final `ACCEPTED` promotion. Its runtime gates are clean alpha under movement/scaling, player-vs-tree hierarchy, route readability, foreground/midground/background simplification, and neutral/warm/cool lighting stability.
 
-B06 source analysis is now grounded primarily in the verified-CC0 Brackeys VFX bundle. Asset Forge v0.9 confirms exact split/repack round-trips across the bundle's **28 grid sheets / 1,318 declared frames** when small source padding and palette transparency are preserved, and it detects **92 matched particle color/alpha pairs**. B06 is ready for a bounded Diyse fire/light style pilot but has **not** reached STYLE-PASS CANDIDATE.
+B06 is now grounded primarily in the verified-CC0 Brackeys VFX bundle. Asset Forge v0.9 confirms exact split/repack round-trips across the bundle's **28 grid sheets / 1,318 declared frames** when small source padding and palette transparency are preserved, and it detects **92 matched particle color/alpha pairs**.
+
+The first real B06 style candidate now exists on `flame_01_16x4`: a deterministic 64-frame treatment that preserves source alpha exactly, keeps the original 16×4 registration, converts the photographic source into broader ember/orange/gold/cream masses, uses selective broken dark accents, and protects bright cores from universal outlining. Real-sheet temporal QA passes with **0.9884485553** luminance-rhythm correlation and **1.2963046945×** peak temporal amplification under the declared 1.35 cap. B06 is therefore at **STYLE-PASS CANDIDATE / USER REVIEW PENDING**, not yet STYLE-PASS.
 
 B10 v2 has passed user style review. The approved benchmark uses actual Quaternius glTF assets, a material-first shared Furniture + Metal workflow, quieter painterly wood, controlled roughness-aware metal separation, deterministic Furniture normal attenuation when QA requires it, model-space Lantern_Wall emitter data, and actual physical-scale previewing. B10 remains pending final Godot/runtime validation before `ACCEPTED`.
 
