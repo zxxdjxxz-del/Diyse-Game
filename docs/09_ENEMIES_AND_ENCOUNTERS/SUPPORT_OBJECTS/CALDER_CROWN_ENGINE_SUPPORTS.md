@@ -14,7 +14,7 @@ Form-I count:
 | 600 | 120 | 145 | 0 | 10 | **N/A** |
 
 Each intact Lens:
-- +5 Total Defense to Calder;
+- Defense +5% / Spirit +5% to Calder;
 - +5 Base Hit to Calder's selected damaging actions.
 
 At least one intact Lens is required for Authenticated Judgment.
@@ -36,7 +36,7 @@ Form-II count:
 | 720 | 138 | 145 | 0 | 10 | **N/A** |
 
 Each intact Clamp:
-- +5 Total Defense to Crown-Bound Living Anchor.
+- Defense +5% / Spirit +5% to Crown-Bound Living Anchor.
 
 Below 60% Form-II HP, one intact Clamp may be loaded for Continuity Collapse.
 
