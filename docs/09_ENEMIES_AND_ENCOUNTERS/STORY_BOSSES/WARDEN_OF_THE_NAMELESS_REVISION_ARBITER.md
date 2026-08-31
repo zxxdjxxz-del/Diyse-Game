@@ -398,6 +398,6 @@ Warden of the Nameless / Revision Arbiter:
 > **5,500 EXP / 190 CEXP**
 
 Current Standard Card reward:
-> **Split Moment — Change**
+> **Split Moment — Memory**
 
-Sixfold Volition remains a later separate story handoff after the Prison/Change resolution.
+Sixfold Volition remains a later separate story handoff after the Prison/Memory resolution.
