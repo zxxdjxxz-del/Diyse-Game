@@ -75,7 +75,19 @@ These extracted map textures are a **parts/reference library for building origin
 
 ## Relationship to current visual canon
 
-This inventory records **available source material and production capability**. It does not override `ART_VISUAL_MASTER.md`, the environment visual-language documents, approved character visual authorities, or newer explicit visual decisions. Source assets must be adapted or replaced as needed to match the current Diyse HD-2D anime direction.
+This inventory records **available source material and production capability**. It does not override exact approved character/location appearance authority or newer explicit visual decisions.
+
+The active rendering authority is:
+
+`../../DIYSE_VISUAL_STYLE_CANON.md`
+
+> **Seinen HD-2D Fantasy with Chaotic Variable Line Weight**
+
+The required production path for adapting/rebuilding these assets into that style is:
+
+`../ASSET_STYLE_CONVERSION_PIPELINE.md`
+
+Source assets must be adapted, replaced, or rebuilt where necessary. Merely enlarging, sharpening, or applying a uniform filter does not satisfy the Diyse style conversion standard.
 
 ## Raw binary storage
 
