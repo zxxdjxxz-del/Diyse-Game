@@ -27,10 +27,31 @@
 | Regional Hunt raw stats | **CLOSED** | `09` |
 | Major Hunt raw stats | **CLOSED** | `09` |
 | Whole-roster mandatory-vs-completionist validation | **PAPER PASS COMPLETE Ch0–13 / v89; representative true-battle follow-up ACTIVE** | `16` + owning `09` files |
-| Representative true-battle suite | **ACTIVE — Hollow Watch PASS v93; Archive Leviathan PASS v97; Regulation Crucible next** | `16/TRUE_BATTLES` + owning `09` files |
+| Representative true-battle suite | **ACTIVE — Hollow Watch PASS v93; Archive Leviathan PASS v97; Regulation Crucible → Seventh Reaction PASS v99; Revision Arbiter next** | `16/TRUE_BATTLES` + owning `09` files |
 | Ordinary equipment/item definitions | **CLOSED where catalog says closed** | `08` |
 | Economy exact unresolved payouts | **OPEN where `12` says open** | `12` |
 | Final production UI/audio balance | **OPEN production validation** | `13` / `15` |
+
+## v99 Regulation Crucible certification
+Regulation Crucible → The Seventh Reaction is now **TRUE-BATTLE CERTIFIED / PASS / RETAIN**.
+
+Strict mandatory Lv15 prepared benchmark:
+- no Prime core-rush: **100% wins / median 18 / mean 17.78 / P90 19** over 5,000 runs;
+- one Recovered Last Sentinel use in Form II: **100% wins / median 14 / mean 14.18 / P90 16**;
+- chamber-control no-Prime line: **100% wins / median 18 / mean 18.34 / P90 20**, with harmful-status load reduced from ~2.54 to ~0.33.
+
+Completionist Lv17 reference:
+- median **13** with Last Sentinel;
+- median **16** without Prime.
+
+Retain:
+- Form-I HP2,400;
+- Form-II HP2,900;
+- all current raw stats and Powers;
+- chamber architecture;
+- current rule that a genuine fresh form does **not** restore a spent Prime identity.
+
+The old paper-only universal ~13–15 mandatory-round expectation is superseded by this current route/preparation-specific result.
 
 ## Meaning of CLOSED
 `CLOSED` means:

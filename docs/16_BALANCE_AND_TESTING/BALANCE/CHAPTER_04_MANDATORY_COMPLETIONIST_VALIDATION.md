@@ -1,6 +1,6 @@
 # Chapter 4 — Mandatory vs Completionist Enemy/Boss Validation
 
-**Version:** v80  
+**Version:** v99 synchronization of v80 paper pass  
 **Status:** **PASS / VALIDATED**  
 **Power-audit status:** **CLOSED — no direct-damage Power changed**
 
@@ -8,6 +8,8 @@
 Validate Chapter 4 at the party state that actually exists at each encounter point rather than treating the chapter as one flat level.
 
 This pass does **not** reopen enemy Power authoring. Existing Power remains authority unless a specific encounter fails its intended difficulty role.
+
+The Regulation Crucible → The Seventh Reaction subsection is synchronized to the later v99 representative true-battle certification. Other Chapter-4 rows retain the existing v80 validation unless separately reopened.
 
 ---
 
@@ -152,18 +154,42 @@ Retain:
 - Lv19;
 - **2,900 fresh HP**;
 - genuine fresh-body transformation;
-- current fresh-HP Prime refresh applies.
+- surviving chamber identities carry into Form II;
+- **the fresh form does not restore a spent Prime identity.**
 
-Existing projected full-encounter timing remains appropriate:
-- mandatory Lv15: **~13–15 rounds** depending on chamber-control route;
-- completionist Lv17: **~10–12 rounds**;
-- high-side ~Lv18: **~9–11 rounds**.
+The old v80 paper-only statement that fresh Form II refreshed Prime availability is retired.
 
-This is the desired relationship: optional progression provides a strong advantage without making the chapter boss dynamically scale or disappear before its mechanics resolve.
+### v99 true-battle certification
+Strict mandatory Lv15 prepared benchmark uses:
+- entry-safe/guaranteed equipment;
+- full HP / full MP boss-isolation start;
+- a 460-Auren normal-stock preparation pack;
+- no Standard Cards in the conservative primary line;
+- Recovered Last Sentinel tested as optional rather than required.
 
-**Verdict: PASS / RETAIN BOTH FORMS.**
+5,000-run results:
+- core rush, **no Prime**: **100% wins / median 18 / mean 17.78 / P90 19**;
+- core rush, Last Sentinel in Form II: **100% wins / median 14 / mean 14.18 / P90 16**;
+- chamber control, **no Prime**: **100% wins / median 18 / mean 18.34 / P90 20**;
+- chamber control + Last Sentinel: **100% wins / median 15 / mean 14.89 / P90 17**.
 
-No raw-stat or Power change.
+Completionist Lv17 comparative reference:
+- with Last Sentinel: **median 13**;
+- without Prime: **median 16**.
+
+Chamber control is tactically meaningful: in the strict no-Prime benchmark it reduces mean harmful-status applications from about **2.54 → 0.33** while preserving the same 18-round median and reducing average Item expenditure.
+
+Therefore the old universal **~13–15 mandatory-round** paper estimate is superseded. Current pacing depends visibly on preparation and Prime use:
+- strict mandatory prepared no-Prime center: **~18 rounds**;
+- strict mandatory prepared with Recovered Last Sentinel: **~14–15 rounds**;
+- completionist reference: **~13 with Prime / ~16 without**.
+
+**Verdict: v99 TRUE-BATTLE PASS / RETAIN BOTH FORMS.**
+
+No HP, raw-stat, chamber-stat, status-chance, or Power change.
+
+Full report:
+`../TRUE_BATTLES/REGULATION_CRUCIBLE_SEVENTH_REACTION_TRUE_BATTLE_v99.md`
 
 ---
 
@@ -196,16 +222,18 @@ Recovered compositions are used as formation authority only. Historical phase-sp
 
 ---
 
-## 8. v80 change ledger
+## 8. Change ledger
 ### Numerical changes
 > **NONE**
 
 ### Power changes
 > **NONE**
 
-### Restored organization data
-- Chapter-4 opening/middle/late formation compositions and weights restored to their owning folder.
-- Chapter-4 party-state boundary made explicit: Maevra is not the default Chapter-4 fifth; Vaelira joins after S022; active battle cap remains four.
+### v99 synchronization
+- Regulation Crucible → The Seventh Reaction true-battle certification added;
+- stale fresh-form Prime-refresh wording retired;
+- old universal 13–15 mandatory-round estimate replaced by route/preparation-specific current results;
+- both boss HP bars and all current Powers retained.
 
 ### Remaining Chapter-4 dependency
 - Elemental Researcher / Annex Battle Mage / Crucible Attendant exact separate battle placement remains unresolved and must not be invented.
@@ -225,5 +253,5 @@ Chapter 4 works at its actual progression points:
 
 The Power audit remains closed.
 
-## Next frontier
-> **Chapter 5 — Lv17 start → Lv22 end**, using exact in-chapter encounter positions and the party roster that exists at each point.
+## Current true-battle frontier
+> **Revision Arbiter — midgame action-tax/control certification.**
