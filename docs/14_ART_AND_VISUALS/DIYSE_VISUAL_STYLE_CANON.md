@@ -4,7 +4,7 @@
 **Locked:** 2026-08-31  
 **Style name:** **Seinen HD-2D Fantasy with Chaotic Variable Line Weight**
 
-This document defines the shared visual language for characters, enemies, environments, textures, props, VFX, UI, portraits, field/battle derivatives, and future asset conversion work.
+This document defines the shared visual language for characters, enemies, environments, textures, props, VFX, UI, portraits, field/battle derivatives, and future asset-conversion work.
 
 It does not replace exact approved character or location appearance authorities. Exact approved visual masters still control identity, clothing/equipment, silhouette, age read, palette, and other locked design details. This document controls **how those designs are rendered and visually unified**.
 
@@ -12,11 +12,11 @@ It does not replace exact approved character or location appearance authorities.
 
 ## 1. Canon Style Statement
 
-> **Diyse uses a mature seinen-inspired HD-2D fantasy art style built around chaotic variable line weight, painterly stylized environments, cinematic atmospheric lighting, and crisp graphic magical effects. The visual identity is dramatic, handcrafted, emotionally grounded, and highly readable rather than glossy, chibi, photorealistic, sterile, or generic.**
+> **Diyse uses a mature seinen-inspired HD-2D fantasy art style built around chaotic variable line weight, graphic anime-stylized rendering, shape-first material readability, cinematic atmospheric lighting, and crisp graphic magical effects. The visual identity is dramatic, handcrafted, emotionally grounded, and highly readable rather than glossy, chibi, photorealistic, soft-brushed, sterile, or generic.**
 
 ### Core formula
 
-**Mature seinen character design + chaotic variable line weight + painterly stylized environments + cinematic HD-2D depth/lighting + graphic high-impact VFX.**
+**Mature seinen character design + chaotic variable line weight + graphic stylized environments/materials + cinematic HD-2D depth/lighting + graphic high-impact VFX.**
 
 ---
 
@@ -30,8 +30,8 @@ Every final visual asset should satisfy these five pillars.
 2. **Chaotic variable line weight**  
    Lines visibly change thickness, taper, break, bunch, scratch, disappear, and reappear. The drawing should feel authored by a hand rather than produced by uniform digital outlining.
 
-3. **Painterly shape-first environments**  
-   Big forms, material masses, and composition read before microtexture. Environments echo the ink language selectively without outlining every edge.
+3. **Graphic shape-first rendering**  
+   Large forms, controlled value masses, clean material separation, and readable silhouettes come before microtexture. Surfaces should feel anime-illustrative and deliberately designed rather than softly brushed or photographically textured.
 
 4. **Cinematic HD-2D atmosphere**  
    Layered depth, foreground/midground/background separation, directional light, atmospheric perspective, restrained bloom, fog, particles, shadows, and selective local glow.
@@ -45,8 +45,7 @@ Every final visual asset should satisfy these five pillars.
 
 “Chaotic” is intentional. It does **not** mean random noise or careless drawing.
 
-### Required qualities
-
+Required qualities:
 - strong thick-to-thin variation;
 - visible tapering within individual strokes;
 - occasional broken contours;
@@ -54,242 +53,128 @@ Every final visual asset should satisfy these five pillars.
 - irregular line density;
 - asymmetry in mark placement;
 - selective disappearance of lines into light;
-- heavier line buildup in deep shadow, overlap, impact, weight, or tension;
+- heavier buildup in deep shadow, overlap, impact, weight, or tension;
 - confident open areas where no line is needed.
 
-### Character hierarchy
+Character hierarchy:
+- **outer silhouette:** strongest line presence;
+- **major overlap/armor/weapon edges:** medium-heavy and irregular;
+- **interior construction/folds:** thinner, broken, selective;
+- **face:** precise variable strokes, never crude or overoutlined;
+- **hair:** bold shape masses with energetic tapered group accents;
+- **shadow accents:** clustered ink/hatch marks only where useful.
 
-**Outer silhouette:** strongest line presence.  
-**Major overlap/armor/weapon edges:** medium-heavy and irregular.  
-**Interior construction/folds:** thinner, broken, selective.  
-**Face:** precise variable strokes; never crude or overoutlined.  
-**Hair:** bold shape masses with energetic tapered strand-group accents.  
-**Shadow accents:** clustered ink or hatch marks may appear selectively.
+Environment hierarchy:
+Use selective line accents on silhouette breaks, masonry damage, timber joints, roots/branches, rock fractures, foliage clumps, focal prop edges, foreground occluders, and important interactables. Do **not** outline every tile, brick, leaf, board, or background edge.
 
-### Environment hierarchy
-
-Environment art uses the same family of marks more selectively.
-
-Use line accents on:
-- architectural silhouette breaks;
-- broken masonry;
-- timber joints;
-- roots/branches;
-- rock fractures;
-- foliage clumps;
-- prop edges near focal zones;
-- foreground occluders;
-- high-contrast damage/wear;
-- important interactable structures.
-
-Do **not** outline every tile, brick, leaf, board, or background edge.
-
-### Scale rule
-
-At smaller field scale, preserve the **rhythm** of the line style rather than every stroke. Large silhouette breaks and a few strategically heavy marks matter more than microscopic detail.
-
-At portrait/key-art scale, the full chaotic variable-line treatment may be visible.
+At smaller field scale, preserve the **rhythm** of the line style rather than every stroke.
 
 ---
 
 ## 4. Character Rendering
 
-### Proportions
-
+### Proportions and faces
 - semi-realistic anime/seinen proportions;
-- adults should visibly read as adults;
+- adults visibly read as adults;
 - no chibi default;
-- no oversized childlike eyes as the universal face language;
-- anatomy may be stylized but must retain believable weight and structure.
-
-### Faces
-
-- expressive but restrained;
-- eyes readable without dominating the face;
-- simplified nose/mouth construction with mature facial planes;
-- age, fatigue, scars, tension, confidence, grief, humor, and history may show through subtle marks;
-- no glossy “perfect doll” finish.
+- no universal oversized childlike eyes;
+- restrained expressions and mature facial planes;
+- no glossy perfect-doll finish.
 
 ### Hair
-
-- designed as large recognizable masses first;
+- large recognizable masses first;
 - tapered energetic sub-shapes second;
-- strand-level rendering only where it improves focal read;
-- chaotic line variation should reinforce movement and silhouette.
+- strand rendering only where it improves focal read.
 
 ### Clothing and armor
-
 - strong silhouette before ornament;
 - clear material separation;
-- folds grouped into meaningful structural shapes;
-- armor highlights may be crisp and graphic;
-- leather/cloth should remain less reflective;
-- worn surfaces should feel authored, not covered in generic grunge.
+- folds grouped into structural shapes;
+- armor highlights crisp and graphic;
+- leather/cloth less reflective than metal;
+- wear authored selectively, never generic speckle/grunge.
 
 ### Shading
-
-Use a hybrid painterly/cel approach:
-- 2–4 dominant value groups;
+Use **graphic cel-informed rendering**:
+- roughly 2–4 dominant value groups;
 - clear directional lighting;
-- selective soft transitions;
-- harder graphic edges where form, material, or drama benefits;
-- no full airbrushed realism;
-- no flat one-band cel shading as the default.
+- hard or semi-hard designed shadow shapes;
+- limited controlled gradients only when needed for form/material separation;
+- crisp highlight geometry on metal and magical surfaces;
+- no airbrushed realism;
+- no soft concept-art wash;
+- no flat one-band low-budget cel shading.
 
 ---
 
 ## 5. Environment Rendering
 
-Diyse environments are **painterly, stylized, atmospheric, and selectively inked**.
+Diyse environments are **graphic, stylized, atmospheric, shape-driven, and selectively inked**.
 
-### Shape hierarchy
-
+Shape hierarchy:
 1. major silhouette / navigational mass;
 2. medium architecture or terrain structure;
 3. material breakup;
 4. selective small detail;
 5. focal ink accents and lighting polish.
 
-### Environment goals
-
+Environment goals:
 - readable routes;
 - strong landmarks;
-- clear foreground/midground/background separation;
+- clear depth separation;
 - materials readable from gameplay distance;
 - lower micro-noise than realistic texture photography;
-- varied brush/ink edge character;
+- deliberate graphic edge character;
 - regional and faction identity visible through shape and palette.
 
-### Environment line rule
-
-Characters carry the strongest line identity. Environments **echo** it.
-
-Foreground and focal structures may use strong line accents. Background layers should become softer, thinner, less contrasted, and more painterly with distance.
+Characters carry the strongest line identity. Environments **echo** it. Background layers simplify by value, shape, atmosphere, and line density rather than becoming soft painted backdrops.
 
 ---
 
-## 6. Texture Language
+## 6. Texture and Material Language
 
 Final Diyse textures must be designed for **material readability, shape language, and field-scale clarity**, not merely high resolution.
 
-### General treatment
-
+General treatment:
 - reduce meaningless high-frequency noise;
 - enlarge important material forms;
 - simplify repetitive microdetail;
 - preserve intentional irregularity;
-- introduce painterly variation;
+- use graphic value grouping and anime-compatible surface breakup;
 - use selective ink-like edge marks where appropriate;
-- avoid obvious photo-source texture behavior;
+- avoid photo-source behavior;
 - avoid uniform procedural perfection;
-- avoid sharpening every edge equally.
+- avoid random dots/speckles as fake detail.
 
-### Stone
-
-- broad block/rock forms;
-- irregular edge rhythm;
-- stylized fractures;
-- sparse ink-dark crack accents;
-- strong light-plane separation;
-- no dense photographic speckle.
-
-### Wood
-
-- broad grain and knot language;
-- tapered dark grain accents;
-- controlled wear at functional edges;
-- irregular plank shapes when architecture permits;
-- avoid microscopic repeating grain.
-
-### Vegetation
-
-- foliage grouped into designed masses;
-- branch/root silhouettes may carry energetic linework;
-- leaves should read as clusters before individuals;
-- color/value variation should create depth without noise.
-
-### Water
-
-- graphic flow and ripple shapes;
-- clear light bands/reflections;
-- hand-authored irregular motion;
-- splashes may use stronger ink/shape accents than calm surfaces;
-- luminous but not plastic.
-
-### Snow / ice
-
-- broad soft planes for snow;
-- graphic fracture and highlight language for ice;
-- selective sparkle/glint, not glitter everywhere;
-- cold atmospheric color separation.
-
-### Fire / lava
-
-- graphic silhouette first;
-- irregular hand-drawn flame/bubble shapes;
-- bright internal value hierarchy;
-- controlled atmospheric glow;
-- dark ink-like edge accents may appear around impact or smoke, not as a full outline.
-
-### Metal
-
-- clear planar design;
-- crisp selective highlights;
-- strong dark-to-light transitions;
-- simplified reflections;
-- no photoreal mirror dependency.
-
-### Cloth
-
-- broad fold groups;
-- soft painterly value transitions;
-- darker line accents at compression/overlap;
-- avoid excessive fabric weave unless seen close.
+Material shorthand:
+- **Stone:** broad planes/forms, stylized fractures, sparse dark crack accents, strong light-plane separation.
+- **Wood:** broad grain/knots, restrained tapered grain accents, controlled functional wear.
+- **Vegetation:** designed foliage masses, clustered leaves, strong silhouettes, grouped light/shadow shapes.
+- **Water:** graphic flow/ripple bands, clear reflections, irregular authored motion, luminous but not plastic.
+- **Snow/Ice:** broad snow planes; graphic ice fracture/highlight geometry; selective glints.
+- **Fire/Lava:** graphic anime silhouettes, designed internal value masses, hand-drawn asymmetry, controlled glow.
+- **Metal:** clear planar design, crisp selective highlights, simplified reflections, strong dark/light separation.
+- **Cloth:** broad fold groups, cel-informed value blocks, dark accents at compression/overlap, no visible weave noise at ordinary scale.
 
 ---
 
 ## 7. Color Philosophy
 
-Diyse uses **rich but controlled color**.
+Diyse uses **rich but controlled color**. Strong saturation is reserved for focal information: characters, important landmarks, Cards/Primes, magic, statuses/VFX, interactables, and narrative focal objects.
 
-### Base rule
+Foreground/focal elements receive the strongest value/chroma separation. Distance progressively reduces contrast unless a deliberate landmark breaks the rule.
 
-The world establishes coherent restrained palettes. Strong saturation is reserved for intentional focal information:
-- characters;
-- important landmarks;
-- Cards/Primes;
-- magic;
-- status/VFX information;
-- interactables;
-- narrative focal objects.
-
-### Contrast hierarchy
-
-Foreground/focal elements receive the strongest value and chroma separation. Distance progressively reduces contrast and saturation unless a deliberate narrative landmark breaks the rule.
-
-### Mood
-
-The baseline is mature, mythic, dramatic, lived-in fantasy—not muddy brown realism and not candy-colored fantasy.
+The baseline is mature, mythic, dramatic, lived-in fantasy—not muddy realism and not candy-colored fantasy.
 
 ---
 
 ## 8. HD-2D Presentation
 
-HD-2D in Diyse is a **presentation system**, not an excuse to make the game retro-pixel-first.
+HD-2D is a **presentation system**, not a retro-pixel-first identity.
 
-Use:
-- layered foreground, play plane, midground, and background;
-- selective parallax;
-- authored camera framing;
-- atmospheric perspective;
-- fog, dust, ash, snow, pollen, sparks, embers, magical motes where appropriate;
-- local light shafts;
-- restrained depth of field where it does not compromise interaction readability;
-- selective bloom;
-- dynamic shadows and light-state swaps where cost-effective;
-- before/after or corrupted/restored environment states.
+Use layered foreground/play-plane/midground/background composition, selective parallax, authored camera framing, atmospheric perspective, fog/dust/ash/snow/pollen/embers/motes where appropriate, local light shafts, restrained depth of field, selective bloom, dynamic shadows, and state swaps.
 
-Characters must visually belong in the lighting of the field without losing their stronger ink identity.
+Characters must belong to scene lighting without losing their stronger ink and graphic-anime identity.
 
 ---
 
@@ -297,70 +182,32 @@ Characters must visually belong in the lighting of the field without losing thei
 
 Combat and magic effects are more graphic, energetic, and saturated than ordinary environment art.
 
-### Preferred motifs
+Preferred motifs: tapered slashes, ink-like impact bursts, arcs, shards, rings, sigils, streaks, waves, particles, elemental fragments, and hand-drawn distortion shapes.
 
-- tapered slashes;
-- ink-like impact bursts;
-- arcs;
-- shards;
-- rings;
-- sigils;
-- streaks;
-- waves;
-- particles;
-- elemental fragments;
-- hand-drawn distortion shapes.
-
-### Rules
-
+Rules:
 - silhouette first;
 - readable anticipation → impact → decay;
 - controlled particle density;
-- element/status/Face identity must read quickly;
-- high-impact moves may temporarily push chaotic line energy further;
+- element/status/Face identity reads quickly;
+- bright cores can remain mostly unoutlined;
+- chaotic line energy increases selectively at impact/overlap;
 - routine actions must not become screen-filling noise.
 
 ---
 
 ## 10. UI Language
 
-UI should feel **serious, elegant, tactile, and graphic** while remaining clearer than the world art.
+UI should feel serious, elegant, tactile, and graphic while remaining clearer than the world art. Use strong hierarchy, crisp typography, restrained ink-like dividers, selective hand-authored accents, controlled ornament, and high contrast for critical battle information.
 
-Use:
-- strong hierarchy;
-- crisp typography;
-- restrained ink-like dividers/frames;
-- selective rough/hand-authored accents;
-- card/sigil/crest motifs where canon supports them;
-- controlled ornament;
-- high contrast for critical battle information.
-
-Avoid:
-- parchment overload;
-- unreadable distressed fonts;
-- excessive scratch texture behind text;
-- glossy mobile-gacha panels;
-- ornamental borders that overpower information.
+Avoid parchment overload, unreadable distressed fonts, scratch noise behind text, glossy mobile-gacha panels, and ornament that overwhelms information.
 
 ---
 
-## 11. Regional and Faction Identity Rule
+## 11. Regional and Faction Identity
 
-All regions/factions share the same rendering language, but they must not share the same design vocabulary.
+All regions/factions share the same rendering language but not the same design vocabulary. Differentiate them through silhouette, architecture, palette, materials, ornament, wear pattern, signage/heraldry, lighting atmosphere, vegetation/terrain, and recurring shape motifs.
 
-Identity should come from:
-- silhouette;
-- architecture;
-- palette;
-- materials;
-- ornament;
-- wear pattern;
-- signage/heraldry;
-- lighting atmosphere;
-- vegetation/terrain;
-- recurring shape motifs.
-
-The chaotic line style unifies the game; region/faction design differentiates it.
+The chaotic line style unifies the game; regional/faction design differentiates it.
 
 ---
 
@@ -368,122 +215,124 @@ The chaotic line style unifies the game; region/faction design differentiates it
 
 An asset is **not upgraded merely because it is larger or sharper**.
 
-A successful Diyse conversion should improve:
+A successful Diyse conversion improves:
 - shape hierarchy;
 - material readability;
+- graphic value grouping;
 - palette cohesion;
-- painterly treatment;
 - line character;
 - gameplay-distance clarity;
 - region/faction identity where relevant;
 - compatibility with cinematic HD-2D lighting.
 
-For license-unverified extracted reference material, direct transformations remain private/reference derivatives. Important final production assets should move toward genuinely new Diyse-native replacements using the source material as functional/structural reference rather than assuming stylization clears provenance.
+For license-unverified extracted reference material, important final assets should become genuinely Diyse-native replacements. Verified CC0 material may be directly transformed after style/runtime validation.
 
-Verified CC0 material may be directly transformed into the Diyse style.
-
-See:
-`PRODUCTION/ASSET_STYLE_CONVERSION_PIPELINE.md`
+See `PRODUCTION/ASSET_STYLE_CONVERSION_PIPELINE.md`.
 
 ---
 
 ## 13. Visual Boundaries — Do Not Drift Into
 
-- chibi as the default character language;
+- chibi as default;
 - generic shonen brightness/exaggeration;
 - glossy mobile-gacha rendering;
 - uniform clean digital outlines;
 - photorealistic fantasy textures;
+- soft-brushed fantasy concept-art rendering;
 - muddy western-grimdark noise;
 - pure retro pixel-art identity;
 - flat low-budget cel shading;
 - excessive environment outlining;
-- indiscriminate bloom;
-- indiscriminate particles;
-- generic AI-smooth surfaces with no authored mark language;
-- random scratch/noise used as a substitute for intentional chaotic linework.
+- indiscriminate bloom or particles;
+- generic AI-smooth surfaces;
+- random scratch/noise/dots used as a substitute for authored detail.
 
 ---
 
 ## 14. Scale-Specific Application
 
 ### High-resolution character masters / portraits
-Full chaotic variable-line language, precise facial marks, painterly/cel hybrid rendering.
+Full chaotic variable-line language, precise facial marks, graphic cel-informed rendering, and clean material separation.
 
 ### Battle characters (~200–220 px target)
-Preserve silhouette, major thick/thin line rhythm, weapon/class identity, strong shadow shapes, and essential costume divisions. Remove tiny line noise that aliases at runtime scale.
+Preserve silhouette, major thick/thin line rhythm, weapon/class identity, strong shadow shapes, and essential costume divisions. Remove micro-line noise that aliases.
 
 ### Field characters (~80 px target)
-Preserve silhouette, palette blocks, face/hair read, iconic equipment, and a few deliberately heavy line accents. Do not attempt to reproduce every portrait stroke.
+Preserve silhouette, palette blocks, face/hair read, iconic equipment, and a few deliberately heavy line accents.
 
 ### Environment backgrounds
-Painterly first, selective ink second. Strongest marks near focal/foreground areas.
+Graphic shape/value design first, selective ink second. Strongest marks near focal/foreground areas.
 
 ### Icons/UI
-Simplify aggressively while retaining the energetic asymmetry and tapering of the master line language.
+Simplify aggressively while retaining energetic asymmetry and tapering.
 
 ---
 
 ## 15. Art Review Rubric
 
-A candidate asset passes only if the relevant answers are **yes**.
+A candidate passes only if the relevant answers are yes.
 
-### Character
-- Does it read as mature/seinen rather than cute/chibi by default?
-- Is line weight visibly variable?
-- Do lines taper, break, or change density intentionally?
-- Is the silhouette readable?
-- Does the face retain the approved character identity?
-- Does it avoid glossy/plastic rendering?
+Character:
+- mature/seinen rather than cute/chibi?
+- visibly variable line weight?
+- intentional taper/break/density changes?
+- readable silhouette?
+- approved face/identity retained?
+- graphic cel-informed values rather than soft brushed shading?
+- no glossy/plastic finish?
 
-### Environment
-- Does the major composition read before microdetail?
-- Are materials readable at gameplay distance?
-- Is linework selective rather than uniformly outlining everything?
-- Does atmospheric depth support the HD-2D presentation?
-- Is visual noise controlled?
+Environment:
+- major composition reads before microdetail?
+- materials readable at gameplay distance?
+- selective rather than universal outlining?
+- atmospheric depth supports HD-2D?
+- noise controlled?
+- graphic/anime-compatible shape/value design?
 
-### Texture / prop
-- Was the asset actually reinterpreted rather than merely sharpened?
-- Are material forms clearer?
-- Is repetitive noise reduced?
-- Does it exhibit painterly/hand-authored irregularity?
-- Does it belong to Diyse’s palette and region/faction language?
+Texture/prop:
+- actually reinterpreted rather than merely sharpened?
+- material forms clearer?
+- repetitive noise reduced?
+- no random speckle/grunge dependency?
+- belongs to Diyse palette and faction/region language?
 
-### VFX
-- Is anticipation/impact/decay readable?
-- Does the effect have a strong graphic silhouette?
-- Is particle density controlled?
-- Does the effect communicate its gameplay identity quickly?
+VFX:
+- anticipation/impact/decay readable?
+- strong graphic silhouette?
+- particle density controlled?
+- gameplay identity communicated quickly?
+- unmistakably anime/seinen rather than photographic?
 
-### Overall
-- Does it feel handcrafted?
-- Does it feel dramatic and atmospheric?
-- Does it look like the same game as the approved character masters?
-- Is it unmistakably closer to **Diyse** than to a generic fantasy asset pack?
+Overall:
+- handcrafted and intentional?
+- dramatic and atmospheric?
+- looks like the same game as the approved party masters?
+- unmistakably closer to Diyse than to a generic fantasy asset pack?
 
 ---
 
 ## 16. Master Prompt Language
 
-Use this as the common style block when generating or repainting visual concepts:
+Common style block:
 
-> **Mature seinen-inspired HD-2D fantasy, chaotic variable line weight, expressive thick-to-thin tapered ink strokes, broken and irregular contours, strong silhouettes, painterly stylized rendering, deliberate hand-authored imperfection, rich controlled color, cinematic atmospheric lighting, graphic high-impact VFX, serious emotionally grounded fantasy tone, highly readable composition; not chibi, not photorealistic, not glossy mobile-gacha, not sterile uniform line art, not generic texture-pack realism.**
+> **Mature seinen-inspired HD-2D fantasy, chaotic variable line weight, expressive thick-to-thin tapered ink strokes, broken and irregular contours, strong silhouettes, graphic anime-stylized rendering, cel-informed value grouping, shape-first material readability, deliberate hand-authored imperfection, rich controlled color, cinematic atmospheric lighting, graphic high-impact VFX, serious emotionally grounded fantasy tone, highly readable composition; not chibi, not photorealistic, not soft-brushed or painterly, not glossy mobile-gacha, not sterile uniform line art, not generic texture-pack realism.**
 
-### Environment addendum
+Environment addendum:
 
-> **Painterly environment first, selective chaotic ink accents second; strongest line energy in foreground/focal structures, softer and less outlined with distance; clear traversal/readability and layered HD-2D depth.**
+> **Graphic shape/value design first, selective chaotic ink accents second; strongest line energy in foreground/focal structures, simplified line/value structure with distance; clear traversal and layered HD-2D depth.**
 
-### Texture conversion addendum
+Texture conversion addendum:
 
-> **Reinterpret rather than merely upscale: simplify noise, strengthen major material forms, repaint surface breakup, introduce intentional irregularity and selective tapered ink accents, unify palette/value structure, preserve gameplay readability, and make the result belong to a cohesive Diyse-native environment library.**
+> **Reinterpret rather than merely upscale: simplify noise, strengthen major material forms, rebuild surface breakup into graphic anime-compatible value/shape groups, introduce intentional irregularity and selective tapered ink accents, preserve gameplay readability, and make the result belong to a cohesive Diyse-native library.**
 
 ---
 
 ## 17. Final Lock
 
-The production shorthand is:
+Production shorthand:
 
-> **DIYSE = SEINEN HD-2D FANTASY + CHAOTIC VARIABLE LINE WEIGHT**
+> **DIYSE = SEINEN HD-2D FANTASY + CHAOTIC VARIABLE LINE WEIGHT + GRAPHIC ANIME-STYLIZED RENDERING**
 
-When a new visual idea conflicts with this style, it requires an explicit newer approval before replacing this authority.
+**“Painterly” is retired from the active Diyse art direction.** Do not use it as a target, prompt term, review criterion, environment/material shorthand, or approval justification unless the user explicitly reintroduces it later.
+
+When a new visual idea conflicts with this style, it requires explicit newer approval before replacing this authority.
