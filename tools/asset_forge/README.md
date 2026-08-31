@@ -1,69 +1,58 @@
 # Diyse Asset Forge
 
-**Status:** v0.3 safe-batch foundation
+**Status:** v0.4 resumable safe-batch foundation
 
-Diyse Asset Forge is the automation layer for converting the current asset library into the locked Diyse visual style without manually processing or documenting thousands of assets.
+Diyse Asset Forge automates conversion of the current asset library into the locked Diyse visual style while preserving source provenance, atlas registration, animation stability, lighting families, and explicit review gates.
 
 ## Components
 
 ### `forge.py` — inventory / plan / provider / base QA / review sheets
 
-Handles:
-- TGA/PNG/JPEG/WebP scanning;
-- SHA-256 source identity;
-- dimensions/mode/alpha;
-- category classification;
-- animation and lighting-family grouping;
-- category-specific Diyse prompts;
-- treatment selection;
-- optional OpenAI image edits;
-- base deterministic QA;
-- review/contact sheets built from actual generated files.
+Handles source scanning, SHA-256 identity, dimensions/mode/alpha, category classification, animation and lighting-family grouping, category-specific Diyse prompts, treatment selection, optional OpenAI image edits, base deterministic QA, and review sheets built from actual generated files.
 
-### `pipeline.py` — v0.2 safe processor
+### `pipeline.py` — v0.4 recommended processor
 
-Recommended processor after inventory/plan. It adds:
-- exact-size output normalization;
+Adds:
+- exact-size generated-output normalization;
 - coordinate-locked atlas patching;
 - overlap feathering/reconstruction;
 - animation-anchor generation;
-- deterministic non-anchor propagation;
+- deterministic non-anchor animation propagation;
 - source-alpha preservation for animation sequences;
-- zero extra image-generation calls for propagated frames.
+- hard image-generation call caps;
+- whole-atlas budget preflight so an atlas is never partially spent when insufficient calls remain;
+- asset-level checkpointing;
+- `--resume` reuse of successful prior outputs when source SHA still matches.
 
 ### `atlas_engine.py`
 
-Large atlases are split into fixed-coordinate overlapping patches. Patch dimensions cannot change; coordinates never move; overlap is feather-blended; source alpha may be restored. An identity pass is regression-tested to reconstruct a 1700×1300 atlas pixel-exactly.
+Large atlases are split into fixed-coordinate overlapping patches. Patch dimensions cannot change, coordinates never move, overlap is feather-blended, and source alpha may be restored. An identity regression test reconstructs a 1700×1300 atlas pixel-exactly.
 
 ### `animation_engine.py`
 
-One approved/generated anchor learns a non-spatial style profile:
-- channel/palette distribution;
-- selective edge emphasis.
+One approved/generated anchor learns a non-spatial style profile containing palette distribution and selective edge emphasis. Later frames receive the same style behavior using their own moving geometry. The anchor is preserved exactly; source alpha remains unchanged; propagated frames require zero additional image-generation calls.
 
-Later frames receive the profile using their own moving geometry. The anchor is preserved exactly and source alpha remains unchanged.
+### `lighting_engine.py`
 
-### `lighting_engine.py` — v0.3
+Transfers each source lighting state's relative RGB change onto an approved styled base. This supports base + `ra`–`rf`-style directional/alternate lighting families without independently restyling every state.
 
-Transfers each source lighting state's relative RGB change onto an approved styled base. This supports base + directional/alternate lighting families without independently restyling every state.
+### `qa_engine.py`
 
-### `qa_engine.py` — v0.3
-
-Adds fast technical regression gates for:
-- new atlas seams introduced at patch boundaries;
+Adds technical regression gates for:
+- new seams introduced at atlas patch boundaries;
 - semi-transparent alpha-edge/fringe diagnostics;
 - animation temporal/flicker regression.
 
-Natural source edges are subtracted from atlas seam scoring so an authored wall edge is not mistaken for a processing seam merely because it intersects a patch boundary.
+Natural source edges are subtracted from atlas seam scoring so an authored object edge on a patch boundary is not automatically treated as a processing seam.
 
-### `budget_engine.py` + `ops.py` — v0.3
+### `budget_engine.py` + `ops.py`
 
-Preflight estimates image-generation calls before processing:
-- direct edit = 1 call;
+Preflight image-generation calls before work begins:
+- direct style edit = 1 call;
 - atlas = 1 call per coordinate patch;
 - propagated animation frame = 0 new calls.
 
-At default 768px patches / 96px overlap, a 2048×2048 atlas requires 9 patch calls.
+At the default 768px patch size / 96px overlap, a 2048×2048 atlas uses 9 patch calls.
 
 `ops.py` also exposes lighting propagation and the v0.3 QA checks.
 
@@ -87,7 +76,7 @@ export DIYSE_FORGE_REASONING_MODEL="gpt-5.6-terra"
 export DIYSE_FORGE_IMAGE_MODEL="gpt-image-2"
 ```
 
-## Recommended batch workflow
+## Recommended workflow
 
 ### 1. Inventory
 
@@ -107,37 +96,52 @@ python tools/asset_forge/forge.py plan .asset_forge/manifest.jsonl
 python tools/asset_forge/ops.py budget .asset_forge/queue.jsonl
 ```
 
-### 4. Dry-run the safe processor
+### 4. Dry-run
 
 ```bash
-python tools/asset_forge/pipeline.py process .asset_forge/queue.jsonl --provider dry-run
+python tools/asset_forge/pipeline.py process .asset_forge/queue.jsonl \
+  --provider dry-run
 ```
 
-### 5. Generate a bounded sample
+### 5. Generate a bounded resumable sample
 
 ```bash
 python tools/asset_forge/pipeline.py process .asset_forge/queue.jsonl \
   --provider openai \
-  --limit 10
+  --max-ai-calls 10 \
+  --limit 20
 ```
 
-Do not begin with the whole library. Approve category behavior first, then expand batches.
+`--max-ai-calls` is a hard cap, not an estimate. If an atlas needs more calls than remain, the atlas is marked `budget_blocked` before its first patch call.
+
+If the run stops or a later batch needs to continue:
+
+```bash
+python tools/asset_forge/pipeline.py process .asset_forge/queue.jsonl \
+  --provider openai \
+  --max-ai-calls 20 \
+  --resume
+```
+
+Successful rows are reused only when their output still exists and, when available, the stored source SHA matches the current queue source SHA. Failed, blocked, or missing outputs remain eligible for retry.
+
+Checkpointing is on by default and writes progress to the `--results` JSONL after completed assets.
 
 ### 6. Base QA
 
 ```bash
-python tools/asset_forge/forge.py qa .asset_forge/results_v02.jsonl
+python tools/asset_forge/forge.py qa .asset_forge/results_v04.jsonl
 ```
 
 ### 7. Deterministic review sheet
 
 ```bash
-python tools/asset_forge/forge.py sheet .asset_forge/results_v02.jsonl \
+python tools/asset_forge/forge.py sheet .asset_forge/results_v04.jsonl \
   --qa .asset_forge/qa.jsonl \
   --output .asset_forge/review_sheet.png
 ```
 
-The image model never invents the board title, benchmark, status, or labels. Python assembles the board from real assets and exact metadata.
+The image model never invents benchmark headings, statuses, or labels. Python assembles the board from real outputs and exact metadata.
 
 ## Atlas tools
 
@@ -148,7 +152,7 @@ python tools/asset_forge/pipeline.py atlas-plan /path/to/atlas.tga \
   --tile 768 --overlap 96
 ```
 
-After processing, score patch-boundary regression:
+Score patch-boundary regression after processing:
 
 ```bash
 python tools/asset_forge/ops.py qa-atlas \
@@ -187,15 +191,13 @@ python tools/asset_forge/ops.py lighting \
   --state rc=/path/to/source_rc.png
 ```
 
-This keeps the approved style base while carrying source lighting direction/color behavior into each state.
-
 ## Alpha diagnostic
 
 ```bash
 python tools/asset_forge/ops.py qa-alpha /path/to/transparent_asset.png
 ```
 
-This is a review metric, not an automatic art rejection, because intentional dark ink at foliage/fire edges can be valid Diyse styling.
+This is a review diagnostic rather than an automatic rejection because intentional dark line treatment at some edges can be valid Diyse art.
 
 ## Treatment modes
 
@@ -208,7 +210,7 @@ This is a review metric, not an automatic art rejection, because intentional dar
 
 The Forge never overwrites source files.
 
-License-unverified Map001–Map116 material stays license-unverified after any Forge treatment. Restyling does not make it original or CC0. Important final assets should still be rebuilt/originalized under the active conversion pipeline.
+License-unverified Map001–Map116 material remains license-unverified after any Forge treatment. Restyling does not make it original or CC0. Important final assets should still be rebuilt/originalized under the active conversion pipeline.
 
 Verified CC0 assets may be directly transformed and promoted after style/runtime review.
 
@@ -231,21 +233,25 @@ Coverage includes:
 - lighting-state propagation;
 - zero seam regression on identity output;
 - flicker regression behavior;
-- generation-call budgeting.
+- generation-call budgeting;
+- hard AI-call cap behavior;
+- zero-call follower propagation after the call budget is exhausted;
+- resume reuse of successful outputs;
+- retry of a previously budget-blocked atlas.
 
-## Next milestone — v0.4
+## Next milestone — v0.5
 
 Still open:
-1. checkpoint/resume and failed-job retry;
-2. hard `--max-ai-calls` enforcement rather than estimation only;
-3. automatic batch partitioning by category/family;
-4. richer alpha-fringe detection using neighboring opaque pixels;
-5. gameplay-scale preview generation;
-6. lighting-family auto-discovery from the manifest;
-7. approval/reject/redo metadata and controlled export;
-8. semantic atlas-region assistance where reliable;
-9. regional/faction originalization recipes;
-10. full-loop QA reports and automatic review-package generation.
+1. automatic batch partitioning by category/family and call budget;
+2. lighting-family auto-discovery from the manifest;
+3. automatic gameplay-scale preview generation;
+4. richer alpha-fringe neighborhood analysis;
+5. approval/reject/redo metadata and controlled export;
+6. semantic atlas-region assistance where reliable;
+7. regional/faction originalization recipes;
+8. full-loop QA reports and automatic review-package generation;
+9. retry/backoff policy for transient provider failures;
+10. optional local/non-OpenAI stylization backends for lower-cost bulk passes.
 
 ## Authority
 
