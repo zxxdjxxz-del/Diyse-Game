@@ -1,10 +1,11 @@
 # Diyse — Asset Forge Automation
 
-**Status:** ACTIVE AUTOMATION IMPLEMENTATION — **v0.7 four-family prop routing checkpoint**  
+**Status:** ACTIVE AUTOMATION IMPLEMENTATION — **v0.8 supplemental ZIP-intake checkpoint**  
 **Core:** `../../../tools/asset_forge/forge.py`  
 **Processor:** `../../../tools/asset_forge/pipeline.py`  
 **Operations:** `../../../tools/asset_forge/ops.py`  
 **Prop-pack pipeline:** `../../../tools/asset_forge/prop_pack_pipeline.py`  
+**ZIP intake:** `../../../tools/asset_forge/zip_intake_engine.py`  
 **Style authority:** `../DIYSE_VISUAL_STYLE_CANON.md`  
 **Conversion authority:** `ASSET_STYLE_CONVERSION_PIPELINE.md`  
 **Asset/provenance authority:** `ASSET_LIBRARY/README.md`
@@ -17,7 +18,38 @@ It is an implementation tool, not visual authority.
 
 ## Current automated flow
 
-`SOURCE → INVENTORY → CLASSIFY → SHARED-MATERIAL ANALYSIS → REAL glTF MATERIAL BINDING → PLAN/BUDGET → STYLE/PROPAGATE → PBR QA/REBALANCE → REAL-ASSET RENDER → GAMEPLAY-SCALE PREVIEW → DETERMINISTIC REVIEW → APPROVE/REDO → EXPORT`
+`SOURCE ARCHIVE → ZIP INTAKE / PROVENANCE RECORD → INVENTORY → CLASSIFY → SHARED-FAMILY ANALYSIS → PLAN/BUDGET → STYLE/PROPAGATE → QA → REAL-ASSET/GAMEPLAY PREVIEW → DETERMINISTIC REVIEW → APPROVE/REDO → EXPORT`
+
+## v0.8 — supplemental ZIP-native intake
+
+`zip_intake_engine.py` allows new user/source texture archives to be inspected **without extracting them into the repository**.
+
+It records:
+- archive SHA-256 and byte size;
+- ZIP member count and uncompressed bytes;
+- member path/size/CRC;
+- optional member SHA-256 through `--hash-members`;
+- image dimensions, mode and alpha;
+- path-aware material family;
+- animation family/frame metadata;
+- duplicate candidate or exact duplicate groups depending on hashing mode.
+
+This is now the required first step for large supplemental texture uploads.
+
+First real v0.8 intake:
+
+`ASSET_LIBRARY/SUPPLEMENTAL_USER_TEXTURE_INTAKE_2026-08-31_BATCH1.md`
+
+Measured:
+- **6** user-supplied ZIP archives;
+- **4,607** file members;
+- **4,606** PNG textures;
+- **4,600** exact-unique members after seven SHA-confirmed duplicate pairs;
+- approximately **1.42 GB** ZIP bytes;
+- major routed families: Metal, Concrete, Brick, terrain/outdoors, Wood, emission/light, Fire, Marble, Glass, ritual/mystic, Water and Foliage;
+- structured animation content: six 19-image Fire families, six 10-image Mystic families, plus a separate 10-image Mystic emission/support sequence.
+
+The intake remains **USER-SUPPLIED / LICENSE NOT YET VERIFIED** and is not merged into Asset Library Master v5.
 
 ## Safe-batch foundation
 
@@ -63,7 +95,7 @@ This correctly handles valid source names such as:
 
 Material names no longer need to contain the family name.
 
-`shared_material_engine.py` now records per-model `material_basecolors` in addition to whole-pack usage.
+`shared_material_engine.py` records per-model `material_basecolors` in addition to whole-pack usage.
 
 ## Deterministic material families
 
@@ -73,34 +105,13 @@ Material names no longer need to contain the family name.
 - `prop` → mixed Props atlas;
 - `cloth` → Cloth.
 
-### Furniture
-Approved B10 behavior:
-- broad painterly wood planes;
-- sparse construction/damage accents;
-- quiet grain;
-- QA-triggered normal attenuation where required.
+Furniture uses broad painterly wood planes, sparse construction/damage accents, quiet grain, and QA-triggered normal attenuation where required.
 
-### Metal
-Approved B10 behavior:
-- controlled cool/neutral planes;
-- stronger material separation than wood;
-- restrained roughness-aware highlights;
-- selective joint/recess accents.
+Metal uses controlled cool/neutral planes, stronger material separation than wood, restrained roughness-aware highlights, and selective joint/recess accents.
 
-### Props
-Mixed-use atlas behavior:
-- preserve authored hue/category separation;
-- simplify values/noise;
-- only sparse structural dark accents;
-- do not recolor the whole sheet to one palette.
+Props preserve authored hue/category separation while simplifying values/noise and keeping dark accents sparse.
 
-### Cloth
-Soft-surface behavior:
-- broad fold/value modulation;
-- source hue retained with restrained saturation;
-- very low texture-space ink pressure;
-- preserve intended graphic insignia/decal regions;
-- highly matte source PBR data retained unless later QA requires change.
+Cloth uses broad fold/value modulation, restrained source hue, very low texture-space ink pressure, and preserves intended graphic insignia/decal regions.
 
 ## PBR handling
 
@@ -110,8 +121,6 @@ Current source QA examples:
 - B10 Furniture normal crosses the strong-normal gate and is attenuated to 0.72 X/Y strength;
 - Props normal XY >0.5 ratio is about 13.1% and does not currently require automatic rebalance;
 - Cloth normal XY >0.5 ratio is about 4.1%; Cloth roughness median is about 1.0 and remains source-authored for the first family pass.
-
-`model_render_engine.py` now resolves source ORM family from the actual styled BaseColor filename, so renamed/exception materials still receive the correct roughness/metalness validation data.
 
 ## Real-model proof state
 
@@ -141,32 +150,28 @@ Current broader validation models:
 Evidence authority:
 `CC0_PROP_CLOTH_FAMILY_VALIDATION_CANDIDATE_V1.md`
 
-The six-model pass validates real glTF routing, neutral/warm/cool rendering, source PBR compatibility and physical-scale readability while still using **0 image-generation calls**.
-
 Props/Cloth remain user-review pending before family-level production approval.
 
 ## Regression coverage
 
-Tests now cover the earlier atlas/animation/lighting/budget/resume foundation plus:
+Tests cover the earlier atlas/animation/lighting/budget/resume foundation plus:
 - four-family material stylization and dimension preservation;
 - actual glTF material-to-BaseColor index resolution;
-- non-obvious material names such as Banner/Props-Vertex routing;
-- hue preservation for Props/Cloth families;
-- shared material discovery;
-- UV usage masks;
+- shared material discovery and UV usage;
 - PBR review/rebalance;
 - real glTF validation rendering;
 - model-space emitter metadata;
-- gameplay-scale previews.
+- gameplay-scale previews;
+- ZIP-native archive inspection, path-aware classification, animation grouping, and exact member-hash duplicate reporting.
 
 ## Next production milestone
 
-1. user-review the Props/Cloth six-model family candidate;
-2. if approved, promote all four major CC0 shared families and switch the 94-model pack to **exception detection / model-specific overrides**;
-3. run B04 real animated-grass anchor/propagation QA;
-4. run a bounded real Map086 atlas edit + seam QA;
-5. run one real base + lighting-state family;
+1. finish provenance/storage routing for Supplemental Batch 1 before treating it as a redistributable library;
+2. add explicit paired BaseColor/emission animation-family matching for the new Fire/Mystic source sets;
+3. user-review the Props/Cloth six-model CC0 family candidate;
+4. run B04 animated vegetation and B06/B09 effect-family tests using the strongest appropriate source families;
+5. run a bounded real Map086 atlas edit + seam QA;
 6. add controlled approval/export metadata and automatic family/category partitioning;
 7. only then widen into category-sized conversion batches.
 
-> Do not submit the full 3,214-file environment library merely because Forge can queue it. Bounded real-output and runtime gates remain authoritative.
+> Do not submit either the full Master v5 environment library or the new 4,607-member supplemental batch merely because Forge can inventory/queue them. Provenance, bounded visual gates, and runtime tests remain authoritative.
