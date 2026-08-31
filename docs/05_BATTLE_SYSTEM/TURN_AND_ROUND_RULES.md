@@ -9,7 +9,7 @@ Diyse uses traditional discrete rounds with **turn-entry command selection**.
 
 1. Resolve beginning-of-round effects and immediate battle-state checks.
 2. At the beginning of the round, establish the normal turn order for all eligible combatants using current effective **Speed** and the established tie rules.
-3. That normal turn order remains fixed for the rest of the round. Speed changes during the round affect later round ordering unless an individual authored effect explicitly says otherwise.
+3. Apply any explicitly authored beginning-of-round initiative-slot rerouting in the order defined below, then lock the resulting normal turn order for the rest of the round.
 4. When a player-controlled character's turn arrives, the player selects that character's legal action and target/content using the **current battle state at that turn**.
 5. When an enemy/entity turn arrives, its AI selects one legal action using the **current legitimate battle state at that turn**. It may not inspect future player choices that have not yet been made.
 6. The selected action resolves immediately, including its complete cost / action / reaction / state-change package, before the next normal combatant's turn begins.
@@ -55,19 +55,56 @@ Historical or migrated `action Speed` wording must not be implemented as a secon
 
 ## Authored initiative-slot rerouting
 
-An explicitly authored effect may alter the next round's turn order **during beginning-of-round initiative setup** without granting extra actions.
+An explicitly authored effect may alter a future round's turn order **during beginning-of-round initiative setup** without granting extra actions.
 
-Current player examples are Routeweaver **Covered Crossing** and **Open the Way**.
+Current examples are:
+- Standard Card **Decisive Interval** — eligible ordinary enemy may move one slot later in the base Speed-derived order;
+- Routeweaver **Covered Crossing** — routed ally is reinserted immediately after Torren;
+- Routeweaver **Open the Way** — up to three routed allies are reinserted immediately after Torren in player-chosen order.
 
-For these effects:
-- the routed character's ordinary Speed-derived turn slot is removed and reinserted at the explicitly authored location;
-- the routed character still receives exactly **one** normal turn that round;
-- this is not a Speed increase and does not create an additional action;
-- if Torren is not conscious/eligible for a normal turn when that round's initiative is established, the pending Routeweaver reroute fails and ordinary initiative is used;
-- if Torren was eligible at initiative setup but later loses his action on his turn, his turn opportunity still occurs and the already-routed ally/allies remain immediately after that Torren turn slot;
+General rules:
+- rerouting never reshuffles an initiative order that has already been fixed for the current round;
+- a routed combatant still receives exactly **one** normal turn that round unless another separate explicit mechanic changes action count;
+- rerouting is not a Speed increase/decrease and does not change the combatant's current Speed value;
+- rerouting does not make an actor choose an action before its turn actually arrives;
+- if an actor later loses its action to a legal effect, its already-authored turn opportunity still exists in the routed slot for turn-counting purposes;
 - Prime manifestation sequencing is not altered unless an owning Prime rule explicitly says otherwise.
 
-This is a narrow authored exception and does not create a universal Move/Wait/Timeline command.
+### Beginning-of-round reroute precedence
+
+When more than one supported reroute could affect the same upcoming normal round, use this deterministic setup order:
+
+1. resolve beginning-of-round state checks that must occur before initiative construction;
+2. build the complete **base Speed-derived order** using current effective Speed and normal tie rules;
+3. resolve eligible **Decisive Interval / Decisive Opening** ordinary-enemy one-slot delays against that base order;
+4. resolve Routeweaver **Covered Crossing / Open the Way** ally reinsertion so `immediately after Torren` remains literal in the final order;
+5. lock the resulting initiative order for the round.
+
+A later-precedence reroute may therefore change a combatant's final absolute list position after an earlier reroute has done its own legal work. This does not cause the earlier effect to resolve twice.
+
+### Decisive Interval enemy delay
+
+The exact Decisive Opening state, damage payoff, ordinary-enemy eligibility, and expiry rules are owned by:
+`../07_CARDS/STANDARD_CARDS/ACUITY.md`.
+
+For initiative only:
+- Decisive Opening may delay an eligible ordinary enemy only if that Opening remains active at a **later** beginning-of-round setup;
+- after the base Speed order is built, move that enemy one position later by swapping its slot with the immediately following eligible normal-turn slot;
+- if the enemy is already last, no movement occurs and that Opening's initiative-delay branch is considered resolved;
+- each Opening may perform this initiative delay at most once;
+- after the order locks, consuming or expiring the Opening later in the round does not undo the already-established slot;
+- the enemy chooses its actual command only when the delayed turn arrives.
+
+This does **not** create an `unused pending action`, current-round queue manipulation, Wait command, or action-speed system.
+
+### Routeweaver reinsertion
+
+For Covered Crossing / Open the Way:
+- the routed ally's ordinary Speed-derived turn slot is removed and reinserted at the explicitly authored location after Torren;
+- if Torren is not conscious/eligible for a normal turn when that round's initiative is established, the pending Routeweaver reroute fails and ordinary initiative is used for that routed ally;
+- if Torren was eligible at initiative setup but later loses his action on his turn, his turn opportunity still occurs and the already-routed ally/allies remain immediately after that Torren turn slot.
+
+These are narrow authored exceptions and do not create a universal Move/Wait/Timeline command.
 
 ## Turn-entry decision rule
 

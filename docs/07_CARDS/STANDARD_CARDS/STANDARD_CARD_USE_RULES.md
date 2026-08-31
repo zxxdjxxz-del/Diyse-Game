@@ -1,7 +1,7 @@
 # Diyse — Standard Card Use Rules
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, and later current v85 working closures.  
-**Current written whole-project authority:** **v2.20 / Audit135** plus newer approved class-cost corrections.  
+**Current written whole-project authority:** **v2.20 / Audit135** plus newer approved class-cost and turn-entry initiative corrections.  
 
 ## Equip
 Each permanent character may equip:
@@ -58,6 +58,15 @@ Application reliability uses `../../05_BATTLE_SYSTEM/APPLICATION_RELIABILITY.md`
 - an automatic Card effect remains automatic rather than gaining a new application roll.
 
 Vaelira's personal Green-Arcanist linked-status specialist bonus does **not** automatically apply to Standard Cards.
+
+## Initiative interaction
+Standard Cards do not normally alter current-round action order.
+
+**Decisive Interval** is the current explicit exception only in the narrow form defined by its owner:
+- it never reshuffles the already-fixed current round;
+- an eligible ordinary-enemy delay may resolve only during a later beginning-of-round initiative setup while Decisive Opening is still active;
+- the exact one-slot delay and its precedence relative to Routeweaver routing are owned by `../../05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md` and `ACUITY.md`;
+- this does not create a pending-action queue, Wait command, action Speed, or extra action.
 
 ## Acquisition fiction
 Cards are pre-existing Ancient Diysean artifacts.
