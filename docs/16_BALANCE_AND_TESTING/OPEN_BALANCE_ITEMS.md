@@ -2,16 +2,30 @@
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit user corrections preserved by the reorganization.  
 **Primary balance chain:** Audits 121–135 where compatible, especially 123–128 progression and 129–135 raw-stat certification.  
-**Runtime test checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
 **Balance ownership rule:** this domain owns cross-system balance acceptance criteria, verification plans, playtest targets, certification status and regression gates. Exact formulas/stats/rewards remain canonically housed in their dedicated system domains.
-
 
 ## Active
 ### Representative true-battle certification
 Status:
-> **ACTIVE NEXT — v91**
+> **ACTIVE — v99 complete; Revision Arbiter next**
 
-Static enemy design is closed and Chapters 0–13 have completed mandatory-vs-completionist paper validation. CEXP is also recalibrated. The remaining targeted certification step before broad runtime QA is to run a representative set of full turn-by-turn battles using reproducible party snapshots.
+Static enemy design is closed and Chapters 0–13 have completed mandatory-vs-completionist paper validation. CEXP is recalibrated. The current targeted certification step is the representative full turn-by-turn battle suite using reproducible party snapshots.
+
+Completed representative anchors:
+- Hollow Watch Castellan — **PASS / RETAIN v93**;
+- Archive Leviathan — **PASS / RETAIN v97**;
+- Regulation Crucible → The Seventh Reaction — **PASS / RETAIN v99**.
+
+Current next anchor:
+> **Warden of the Nameless / Revision Arbiter — Chapter 7 / mandatory Lv30 / completionist Lv34**
+
+Revision Arbiter testing must use:
+- current fixed turn-entry initiative;
+- current Awakened Prime sequencing;
+- current one-use-until-restored Prime economy;
+- fresh/same-bar transitions that do not restore spent Primes;
+- current Perception / Memory Face terminology;
+- current Torren/Nimera class redesigns.
 
 Each tested boss must have:
 - exact story point / Player Level;
@@ -22,7 +36,7 @@ Each tested boss must have:
 - starting HP/MP;
 - full action-by-action resource/status/phase record.
 
-The test should include early, midgame, transformation/fresh-form, late mandatory, final mandatory, and completionist-superboss representatives.
+The full representative suite should include early, midgame, transformation/fresh-form, late mandatory, final mandatory, and completionist-superboss representatives.
 
 ### Enemy static/paper work
 Status:
@@ -38,7 +52,7 @@ Story-owned placement/return triggers and runtime QA remain separate dependencie
 
 ### CEXP timing/allocation
 Status:
-> **CLOSED v91**
+> **CLOSED v92**
 
 - CL13 remains **6,000 cumulative CEXP**;
 - normal mandatory-route full Base + Subclass completion = **~Lv55–60**;
@@ -64,28 +78,16 @@ Status:
 
 A playtest-open question is not permission to silently change a closed value.
 
-
 ## Major Hunt recommended-level recertification — COMPLETE
-The current unlocks moved later:
-- #1 after Ch6
-- #2 after Ch7
-- #3 after Ch9
-- #4 after Ch10
-- #5 after Ch11
+Current unlocks:
+- #1 after Ch6 — Ashen Whitehorn, **Lv33**;
+- #2 after Ch7 — Crownless Siege Marshal / War Engine, **Lv41**;
+- #3 after Ch9 — Concordance Guardian, **Lv54**;
+- #4 after Ch10 — Worldscar Leviathan, **Lv60**;
+- #5 after Ch11 — Final Archive Arbiter, **Lv65**;
+- #6 post-Vaelkor + Arbiter gate — **Lv70**.
 
-Current status:
-- #1 Ashen Whitehorn — recertified at **Lv33** for after Ch6.
-- #2 Crownless Siege Marshal / War Engine — recertified at **Lv41** for after Ch7.
-- #3 Concordance Guardian — recertified at **Lv54** for after Ch9.
-- #4 Worldscar Leviathan — recertified at **Lv60** for after Ch10.
-- #5 Final Archive Arbiter — recertified at **Lv65** for after Ch11.
-- #6 — unchanged at Lv70.
-
-Continue one Hunt at a time so role identity and encounter architecture are preserved rather than applying a blanket level scalar.
-
-
-Major Hunt #1–#5 recertification is now closed. Reopen only if playtesting shows a specific encounter misses its intended difficulty tier.
-
+Major Hunt #1–#5 recommended-level recertification is closed. #2 retains a runtime Prime-economy revalidation dependency under the current no-fresh-form-restoration rule; #6 retains its runtime duration/attrition gate.
 
 ## Hunt action-kit Power closure — COMPLETE
 Regional Hunts #1–#11:
@@ -100,5 +102,3 @@ Reopen only for:
 - implementation mismatch.
 
 Do not reopen merely because a Hunt is optional.
-
-
