@@ -46,9 +46,9 @@ Every class command that deals ordinary direct HP damage has explicit numeric Po
 | Ruin Vanguard | Rift Lance | 175 |
 | Ruin Vanguard | Ember Brand | 150 |
 | Ruin Vanguard | Fracturing Brand | 145 per target |
-| Ruin Vanguard | Call Shardfang | N/A; Pounce 135 / Rend 100 |
+| Ruin Vanguard | Call Shardfang | N/A; Pounce 135 / autonomous Rend 100; Bound Fang 145 / 110 |
 | Ruin Vanguard | Unmaking Blow | 245 |
-| Ruin Vanguard | Controlled Apocalypse | 360 per target |
+| Ruin Vanguard | Controlled Apocalypse | 360 per target; active-Shardfang Empowered Rend 150 (160 with Bound Fang) |
 
 ## Redesigned Subclass index
 | Class | Ability | Direct-damage Power |
