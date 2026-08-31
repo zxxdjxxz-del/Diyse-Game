@@ -2,9 +2,8 @@
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
 **Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
-
+**Current whole-project written authority:** **v2.20 / Audit135** plus newer accepted corrections.  
+**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, current temporary-stat rules, and current Prime-restoration rules supersede stale earlier enemy text.
 
 Current certified mandatory named/form raw lines:
 > **34 rows**
@@ -54,141 +53,46 @@ Do not create standalone raw bodies for:
 
 They resolve through their actual encounter members or authored support-object rules.
 
+## Prime form-transition firewall
+A genuine fresh HP/body transition does **not** restore a spent Prime identity.
+Same-bar state changes likewise do not restore Primes.
+Prime restoration comes only from a valid rest or an explicitly authored Prime-restoration effect.
+
+This rule applies to all fresh-body encounters in this register, including:
+- Regulation Crucible → The Seventh Reaction;
+- Deepforge Colossus → Worldsmith Body;
+- Matron Zevraya → Perfected War Mother;
+- Marshal Varkesh → Rift Conqueror;
+- Rhazek → Bastion Devourer;
+- Calder → Crown-Bound Living Anchor;
+- Vaelkor → Sovereign Panoply Unbound;
+- Reconstituted Entity → The Last Command.
 
 ## Mandatory-vs-completionist route recertification
-- Chapter 1 — Hollow Watch Castellan: **v93 TRUE-BATTLE PASS / RETAIN**
-  - actual S008 central reference ~Lv2; high-side ~Lv3
-  - current working line Lv6 / 450 HP / 42 ATK
-  - aggressive ~4–5 / normal ~6 / safety ~7–8
-- Chapter 2 — Archive Leviathan: **v97 TRUE-BATTLE PASS / RETAIN / POWER COMPLETE**
-  - actual central party ~Lv6; completionist/high-side ~Lv7
-  - HP **1,900** / ATK **50** / MAG **52**
-  - Rend **220** / Vault Crash **140** / Archive Undertow **150**
-  - mandatory normal target ~9–10 rounds; high-side/completionist ~8–9
-- Chapter 2 — Commander Rhazek — Bastion Master: **WORKING PASS / POWER COMPLETE**
-  - mandatory ~Lv7; completionist ~Lv8; high-side ~Lv9
-  - Lv10 / 2,050 HP / 58 ATK / 44 MAG / 36 DEF / 32 Spirit / 27 SPD
-  - direct Powers 180 / 220 / 135 AoE / 165 support / 210 / 250 / 145 AoE
-  - mandatory normal ~10–11; completionist ~8–9
-- Chapter 3 — First Command Warden: **WORKING PASS / POWER COMPLETE**
-  - mandatory Lv11; completionist Lv12 nearly Lv13; high-side ~Lv13
-  - Lv14 / 2,850 HP / 72 ATK / 72 MAG / 43 DEF / 43 Spirit / 30 SPD
-  - Ring260 HP; all direct actions have explicit Power
-  - mandatory normal ~10–11 / completionist ~8–9
-- Chapter 4 — Elder Briarhide: **WORKING PASS / POWER COMPLETE**
-  - mandatory Lv13 / completionist Lv15 / high-side ~Lv16
-  - Lv14 / 2,100 HP / 72 ATK / 60 DEF / 55 Spirit
-  - fixed authored duration: exactly 4 rounds
-  - Rush190 / Maul225 / Sweep125 AoE / Sentinel Impact340
-- Chapter 4 — Reaction Conduit: **WORKING PASS / POWER COMPLETE**
-  - mandatory Lv13 / completionist Lv15 / high-side ~Lv16
-  - Lv17 / 2,400 HP / 58 ATK / 80 MAG / 50 DEF / 55 Spirit / 33 SPD
-  - Pressure180 / Burst120 AoE / Thrash160
-  - mandatory normal ~8–9 / completionist ~6–7
-- Chapter 4 — Regulation Crucible → The Seventh Reaction: **WORKING PASS / POWER COMPLETE**
-  - mandatory Lv15 / completionist Lv17 / high-side ~Lv18
-  - Form I: Lv18 / 2,400 HP / 64 ATK / 90 MAG
-  - Form II: Lv19 / 2,900 HP / 72 ATK / 98 MAG
-  - four 300-HP chambers; fresh Form-II Prime refresh
-  - complete encounter ~13–15 mandatory / ~10–12 completionist
-- Chapter 5 — Furnace Tyrant: **POWER COMPLETE / DIFFICULTY VALIDATED v81**
-  - mandatory Lv18 / completionist Lv20 / high-side ~Lv21
-  - Lv23 / 3,400 HP / 100 ATK / 72 MAG / 66 DEF / 56 Spirit / 32 SPD
-  - visible Controlled → Heated → Overheated Heat loop; same-bar Siege Without Return
-  - mandatory normal ~9–10 / completionist ~7–8
-- Chapter 5 — Deepforge Colossus — Assembly Frame → Worldsmith Body: **POWER COMPLETE / DIFFICULTY VALIDATED v81**
-  - mandatory Lv20 / completionist Lv22 / high-side ~Lv23
-  - Form I HP3,400 / ATK102 / MAG78; assemblies 320/300/280 HP
-  - Form II HP4,000 / ATK112 / MAG90; Forge Collapse300 AoE
-  - genuine fresh Form II refreshes Prime availability
-  - total ~14–16 mandatory / ~11–13 completionist
-- Chapter 6 — Crownstorm Roc: **WORKING PASS / POWER COMPLETE**
-  - mandatory Lv23 / completionist Lv25 / high-side ~Lv26
-  - Lv26 / 4,800 HP / 100 ATK / 112 MAG / 60 DEF / 66 Spirit / 43 SPD
-  - Perched → Stormbound at 50% same-bar; no Prime refresh
-  - mandatory normal ~9–10 / completionist ~7–8
-- Chapter 6 — Matron Zevraya → Perfected War Mother: **WORKING PASS / POWER COMPLETE**
-  - mandatory Lv24 / completionist Lv27 / high-side ~Lv28
-  - Blood Matron HP4,400 / ATK90 / MAG122; Crimson Brood at 45%
-  - four Reservoirs 320/340/300/320 HP
-  - Perfected War Mother HP5,200 / ATK112 / MAG132
-  - fresh Form II refreshes Prime availability
-  - complete ~15–17 mandatory / ~12–14 completionist
-- Chapter 6 — Masked Ruin Vanguard — Seyrik: **WORKING PASS / POWER COMPLETE**
-  - mandatory Lv25 / completionist Lv27 approaching Lv28 / high-side ~Lv28–29
-  - Lv27 / 4,000 HP; inherited 104 ATK / 79 MAG / 63 DEF / 59 Spirit retained
-  - actual Ruin Vanguard Powers 165 / 175 / 150 / 145 AoE / 245
-  - 20% protected disengagement floor; normal ~7–8 mandatory rounds
-- Chapter 7 — Chainworks Behemoth: **WORKING PASS / RAW LINE RETAINED / POWER COMPLETE**
-  - mandatory Lv27 / completionist Lv31 / high-side ~Lv32
-  - retained Lv29 / 5,135 HP / 109 ATK / 77 DEF
-  - 3 Restraint Anchors at 240 HP each; Bound→Freed same-bar
-  - mandatory center ~9 rounds / completionist ~6–7
-- Chapter 7 — Warden of the Nameless / Revision Arbiter: **WORKING PASS / POWER COMPLETE**
-  - mandatory Lv30 / completionist Lv34 / high-side ~Lv35
-  - Lv34 / 7,600 HP / 124 ATK / 138 MAG / 86 DEF / 92 Spirit / 42 SPD
-  - Closed Record assertion gate; Open Revision at 40% same-bar
-  - mandatory normal ~12–13 / completionist ~9–10
-- Chapter 8 — Western Rift Engine: **FORMALLY VALIDATED v84 / RAW LINE RETAINED / POWER COMPLETE**
-  - mandatory Lv33 / completionist Lv39 / high-side ~Lv40
-  - retained Lv36 / 9,775 HP / 86 ATK / 133 MAG / 97 DEF / 89 Spirit
-  - one finite Rift Echo at 70%; Rift Incarnate at 45% same-bar
-  - mandatory normal ~10–11 / completionist ~7–8
-- Chapter 8 — Marshal Varkesh → Rift Conqueror: **FORMALLY VALIDATED v84 / RAW LINES RETAINED / POWER COMPLETE**
-  - mandatory Lv35 / completionist Lv42 / high-side ~Lv43
-  - Marshal Lv38 / HP7,326 retained; Rift Conqueror Lv39 / HP8,485 retained
-  - genuine fresh Form II refreshes Prime availability
-  - combat defeat ends in authored Varkesh withdrawal, not capture
-  - total ~13–15 mandatory / ~10–12 completionist
-- Chapter 9 — Equal Mercy Arbiter: **FORMALLY VALIDATED v85 / RAW LINE RETAINED / POWER COMPLETE**
-  - mandatory Lv37 / completionist Lv45 / high-side ~Lv46
-  - retained Lv40 / HP10,025 / MAG140 / Spirit107
-  - Mercy Protocol 50% round-start restraint tax; Open Sanctuary at 45% same-bar
-  - mandatory normal ~12–13 / completionist ~9–10
-- Chapter 9 — Commander Rhazek — Reforged Commander → Bastion Devourer: **FORMALLY VALIDATED v85 / RAW LINES RETAINED / POWER COMPLETE**
-  - mandatory Lv40 / completionist Lv49 / high-side ~Lv50
-  - Reforged Commander Lv43 / HP8,431 retained
-  - Bastion Devourer Lv44 / HP10,462 retained; fresh-body Prime refresh
-  - Exposed Rhazek begins at 18% Form-II HP on same bar
-  - total ~14–16 mandatory / ~11–13 completionist
-- Chapter 10 — Registry Warden: **FORMALLY VALIDATED v86 / RAW LINE RETAINED / POWER COMPLETE**
-  - mandatory Lv45 / completionist Lv54 / high-side ~Lv55
-  - retained Lv49 / HP13,514 / ATK157 / MAG172 / DEF124 / Spirit126
-  - status-neutral Closed Registry → Open Registry at 40% same-bar
-  - mandatory normal ~10–11 / completionist ~7–8
-- Chapter 11 — Chancellor Othmar Calder — Protector of Continuity → Crown-Bound Living Anchor: **WORKING PASS / RAW LINES RETAINED / POWER COMPLETE**
-  - mandatory Lv49 / completionist Lv59 / high-side ~Lv60
-  - Calder Lv54 / HP10,133 retained; 2 Authentication Lenses
-  - Living Anchor Lv55 / HP13,662 retained; fresh-body Prime refresh; 2 finite Clamps
-  - total ~15–17 mandatory / ~12–14 completionist
-- Chapter 11 — The Custodian: **WORKING PASS / RAW LINE RETAINED / POWER COMPLETE**
-  - mandatory Lv51 / completionist Lv60 / high-side ~Lv61
-  - retained Lv55 / HP16,017 / ATK177 / MAG190 / DEF144 / Spirit146
-  - Acuity Node + Ruin Containment Seal finite supports
-  - Open Reconciliation at 45% same-bar; no Prime refresh
-  - mandatory normal ~11–12 / completionist ~8–9
-- Chapter 12 — Marshal Varkesh — Final Capture: **FORMALLY VALIDATED v88 / RAW LINE RETAINED / POWER COMPLETE**
-  - mandatory Lv54 / completionist Lv64 / high-side ~Lv65
-  - retained Lv58 / HP17,106 / ATK226 / MAG148 / DEF144 / Spirit131
-  - two Retreat Beacons enforce 3,421-HP capture floor until both destroyed
-  - one finite Black Guard + Command Standard
-  - mandatory ~11–13 / completionist ~8–10
-- Chapter 12 — Emperor Vaelkor Draeven → Sovereign Panoply Unbound: **FORMALLY VALIDATED v88 / RAW LINES RETAINED / POWER COMPLETE**
-  - mandatory Lv56 / completionist Lv66 / high-side ~Lv67
-  - Emperor Lv60 / HP16,800; Panoply Lv61 / HP20,200 after v54 duration retune
-  - all non-HP raw stats and action Powers retained
-  - genuine fresh-body Prime refresh
-  - Final Sovereignty at 25% Form-II HP same-bar
-  - total ~18–20 mandatory / ~13–15 completionist
-- Chapter 13 — Last Weapon Archon: **WORKING PASS / RAW LINE RETAINED / POWER COMPLETE**
-  - mandatory Lv58 / broad completionist Lv69 / full completionist Lv70
-  - Lv63 / HP20,800 after v56 pacing adjustment; all non-HP stats retained
-  - Weapon Protocol Unsealed at 60% same-bar; no Prime refresh
-  - mandatory normal ~15–17 / cap route ~9–11
-- Chapter 13 — Reconstituted Entity → The Last Command: **WORKING PASS / HP PACING ADJUSTED / POWER COMPLETE**
-  - mandatory Lv61 / completionist Lv70 cap
-  - Reconstituted Entity Lv63 / HP22,500; Heart Manifestation capped1
-  - The Last Command Lv64 / HP28,500 fresh body; capped2 Unbound Shards
-  - fresh Form II refreshes Prime availability; no third combat body
-  - mandatory ~22–24 / completionist ~18–20
-- mandatory story-boss route recertification: **COMPLETE THROUGH FINAL BOSS**
+- **Ch1 Hollow Watch Castellan — v93 TRUE-BATTLE PASS / RETAIN:** S008 ~Lv2 central / ~Lv3 high-side; Lv6 / 450 HP; normal ~6 rounds.
+- **Ch2 Archive Leviathan — v97 TRUE-BATTLE PASS / RETAIN / POWER COMPLETE:** ~Lv6 mandatory / ~Lv7 high-side; HP1,900 / ATK50 / MAG52; normal ~9–10 mandatory.
+- **Ch2 Commander Rhazek — Bastion Master — WORKING PASS / POWER COMPLETE:** ~Lv7 mandatory / ~Lv8 completionist; Lv10 / HP2,050; ~10–11 mandatory.
+- **Ch3 First Command Warden — WORKING PASS / POWER COMPLETE:** Lv11 mandatory / Lv12–13 completionist; Lv14 / HP2,850; ~10–11 mandatory.
+- **Ch4 Elder Briarhide — WORKING PASS / POWER COMPLETE:** Lv13 mandatory / Lv15 completionist; fixed exactly 4 rounds.
+- **Ch4 Reaction Conduit — WORKING PASS / POWER COMPLETE:** Lv13 mandatory / Lv15 completionist; Lv17 / HP2,400; ~8–9 mandatory.
+- **Ch4 Regulation Crucible → The Seventh Reaction — v99 TRUE-BATTLE PASS / RETAIN / POWER COMPLETE:** mandatory Lv15 / completionist Lv17; HP2,400 → fresh HP2,900; strict prepared no-Prime benchmark 100% wins / median18; one legal Recovered Last Sentinel 100% / median14; fresh Form II does not restore the spent Prime.
+- **Ch5 Furnace Tyrant — VALIDATED v81 / POWER COMPLETE:** Lv18 mandatory / Lv20 completionist; Lv23 / HP3,400; ~9–10 mandatory.
+- **Ch5 Deepforge Colossus → Worldsmith Body — VALIDATED v81 / POWER COMPLETE:** Lv20 mandatory / Lv22 completionist; HP3,400 → fresh HP4,000; ~14–16 mandatory.
+- **Ch6 Crownstorm Roc — WORKING PASS / POWER COMPLETE:** Lv23 mandatory / Lv25 completionist; Lv26 / HP4,800; ~9–10 mandatory.
+- **Ch6 Matron Zevraya → Perfected War Mother — WORKING PASS / POWER COMPLETE:** Lv24 mandatory / Lv27 completionist; HP4,400 → fresh HP5,200; ~15–17 mandatory.
+- **Ch6 Masked Ruin Vanguard — Seyrik — WORKING PASS / POWER COMPLETE:** Lv25 mandatory / Lv27+ completionist; Lv27 / HP4,000; 20% protected disengagement floor.
+- **Ch7 Chainworks Behemoth — WORKING PASS / RAW LINE RETAINED / POWER COMPLETE:** Lv27 mandatory / Lv31 completionist; Lv29 / HP5,135; ~9 mandatory.
+- **Ch7 Warden of the Nameless / Revision Arbiter — POWER COMPLETE / TRUE-BATTLE CERTIFICATION ACTIVE:** Lv30 mandatory / Lv34 completionist; Lv34 / HP7,600 / ATK124 / MAG138; same-bar Open Revision at 40%.
+- **Ch8 Western Rift Engine — VALIDATED v84 / RAW LINE RETAINED / POWER COMPLETE:** Lv33 mandatory / Lv39 completionist; Lv36 / HP9,775; ~10–11 mandatory.
+- **Ch8 Marshal Varkesh → Rift Conqueror — VALIDATED v84 / RAW LINES RETAINED / POWER COMPLETE:** Lv35 mandatory / Lv42 completionist; HP7,326 → fresh HP8,485; ~13–15 mandatory.
+- **Ch9 Equal Mercy Arbiter — VALIDATED v85 / RAW LINE RETAINED / POWER COMPLETE:** Lv37 mandatory / Lv45 completionist; Lv40 / HP10,025; ~12–13 mandatory.
+- **Ch9 Rhazek → Bastion Devourer — VALIDATED v85 / RAW LINES RETAINED / POWER COMPLETE:** Lv40 mandatory / Lv49 completionist; HP8,431 → fresh HP10,462; ~14–16 mandatory.
+- **Ch10 Registry Warden — VALIDATED v86 / RAW LINE RETAINED / POWER COMPLETE:** Lv45 mandatory / Lv54 completionist; Lv49 / HP13,514; ~10–11 mandatory.
+- **Ch11 Calder → Crown-Bound Living Anchor — VALIDATED v87 / RAW LINES RETAINED / POWER COMPLETE:** Lv49 mandatory / Lv59 completionist; HP10,133 → fresh HP13,662; ~15–17 mandatory.
+- **Ch11 The Custodian — VALIDATED v87 / RAW LINE RETAINED / POWER COMPLETE:** Lv51 mandatory / Lv60 completionist; Lv55 / HP16,017; **Perception Node** + Ruin Containment Seal; ~11–12 mandatory.
+- **Ch12 Varkesh — Final Capture — VALIDATED v88 / RAW LINE RETAINED / POWER COMPLETE:** Lv54 mandatory / Lv64 completionist; Lv58 / HP17,106; two-Beacon capture floor.
+- **Ch12 Vaelkor → Sovereign Panoply Unbound — VALIDATED v88 / POWER COMPLETE:** Lv56 mandatory / Lv66 completionist; HP16,800 → fresh HP20,200; ~18–20 mandatory.
+- **Ch13 Last Weapon Archon — POWER COMPLETE:** Lv58 mandatory / Lv69–70 completionist; Lv63 / HP20,800; ~15–17 mandatory.
+- **Ch13 Reconstituted Entity → The Last Command — HP PACING ADJUSTED / POWER COMPLETE:** Lv61 mandatory / Lv70 completionist; HP22,500 → fresh HP28,500; ~22–24 mandatory.
+
+Mandatory story-boss route recertification is complete through the final boss at the paper/validation layer; representative true-battle certification continues under `16_BALANCE_AND_TESTING`.
