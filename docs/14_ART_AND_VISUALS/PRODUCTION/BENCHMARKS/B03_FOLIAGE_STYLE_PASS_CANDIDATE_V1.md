@@ -1,60 +1,98 @@
-# Diyse — B03 Foliage Style-Pass Candidate v1
+# Diyse — B03 Foliage Style-Pass v1
 
 **Benchmark:** B03 — Tree / Foliage Silhouette  
-**Status:** VISUAL STYLE-PASS IN PROGRESS / REVIEW PENDING  
+**Status:** STYLE-PASS APPROVED / GAMEPLAY TEST READY  
+**Approved:** 2026-08-31  
 **Execution authority:** `B03_FOLIAGE_EXECUTION_V1.md`  
 **Style-study authority:** `B03_FOLIAGE_STYLE_STUDY_SPEC_V1.md`  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`
 
-## Candidate target
+## Authority note
 
-The first valid B03 visual candidate must prove a Diyse-original foliage language rather than merely repainting or enlarging Map084.
+The foliage-only benchmark board generated during the 2026-08-31 working session is accepted as the visual-direction reference for B03. Any dates, percentages, checkboxes, or status labels embedded in generated imagery are presentation text only; repository text controls actual production state.
 
-Required candidate characteristics:
-- one strong authored tree silhouette before interior detail;
-- 3–6 major canopy masses;
-- selective asymmetry;
-- deliberately shaped negative spaces rather than many tiny alpha holes;
-- painterly foliage values established before linework;
-- strongest chaotic line weight at deep canopy overlaps, branch forks, damage, and selected silhouette turns;
-- thinner broken marks on light-facing canopy edges and minor bark/branch detail;
-- no uniform black outline;
-- no leaf-by-leaf rendering at standard field scale;
-- stable, clean transparent edges;
-- player-character silhouette remaining more visually dominant than ordinary tree interior detail;
-- coherent simplification from foreground to midground to background;
-- dedicated compact icon-tree interpretation rather than a blind downscale.
+The accepted direction establishes a Diyse-original foliage language rather than permission to reproduce or repaint Map084 directly.
 
-## Required visual evidence
+## Approved foliage grammar
 
-A valid board/result must contain:
-1. neutral-light target tree;
-2. silhouette comparison: too smooth / target / too noisy;
-3. line-density comparison: too clean / target / too heavy;
-4. alpha-edge close-up;
-5. foreground / midground / background density test;
-6. player-scale comparison;
-7. neutral / warm / cool-night lighting examples;
-8. 128px-class icon-tree interpretation;
-9. preview of at least four distinct Diyse-original tree silhouettes.
+The B03 direction is approved with the following permanent rules:
 
-## Automatic rejection conditions
+- the full tree reads as one authored silhouette before internal detail;
+- standard field trees use approximately 3–6 major canopy masses;
+- asymmetry is intentional and concentrated rather than random;
+- negative-space holes are designed as large readable shapes, not peppered alpha noise;
+- painterly foliage masses establish the material before linework is added;
+- strongest chaotic line weight is reserved for deep canopy overlaps, branch forks, damage, contact shadow, and selected silhouette turns;
+- medium line weight marks selected mass overlaps and trunk plane changes;
+- fine, broken, tapered marks appear on light-facing edges and minor bark/branch accents;
+- linework may disappear completely in bright/open areas;
+- ordinary field foliage never receives a uniform black contour;
+- standard gameplay foliage is not rendered leaf-by-leaf;
+- alpha edges must remain clean and stable under scaling and movement;
+- foreground trees may carry the strongest line rhythm, midground trees simplify, and background trees simplify further through mass/value reduction rather than blur alone;
+- nearby player-character silhouettes remain more visually dominant than ordinary tree interior detail;
+- icon/map trees are dedicated compact interpretations, not blind downscales of field trees.
 
-Reject the visual candidate if any of the following occur:
-- masonry, stone-tile, or B01-specific panels dominate the board;
-- full-tree silhouette is surrounded by a uniform dark contour;
-- foliage is rendered leaf-by-leaf;
-- transparent edge contains a visible dark or bright matte fringe;
-- many tiny alpha holes create pixel chatter;
-- internal line density competes with a nearby character;
-- background foliage simply uses blur without structural simplification;
-- icon tree is merely a small copy of the full tree;
-- visual result looks like generic clean JRPG foliage rather than Diyse's painterly seinen line language.
+## Accepted visual hierarchy
 
-## Promotion rule
+### Foreground / focal foliage
+- strongest silhouette accents;
+- full four-value canopy structure;
+- selective visible interior ink rhythm;
+- controlled bark and edge detail;
+- largest intentional negative spaces retained.
 
-Do not promote B03 to `STYLE-PASS` until a valid foliage-only visual candidate has been reviewed against this file and `B03_FOLIAGE_STYLE_STUDY_SPEC_V1.md`.
+### Midground / normal exploration foliage
+- three to four broad values;
+- fewer internal lines;
+- fewer alpha holes;
+- strong silhouette and canopy masses dominate.
+
+### Background foliage
+- two to three value masses;
+- minimal or no interior linework;
+- simplified contour;
+- atmospheric color/value shift;
+- no tiny silhouette chatter.
+
+## Alpha-edge lock
+
+Final foliage assets must reject:
+- dark matte fringe;
+- pale halo;
+- one-pixel spikes that shimmer;
+- many tiny transparency holes;
+- edge breakup that changes character under normal camera scaling.
+
+Organic edge complexity must be clustered into deliberate readable groups.
+
+## Icon-tree lock
+
+The compact icon/map canopy uses:
+- a strong simplified canopy silhouette;
+- roughly 4–7 large lobes;
+- three major value masses;
+- one deep central/recess cluster;
+- one restrained highlight cluster;
+- little or no internal linework;
+- selected irregular contour accents only where needed.
+
+It should feel related to field foliage through palette, mass rhythm, and edge language, not geometry duplication.
+
+## B03 promotion decision
+
+The foliage visual direction has passed user review and is promoted to the provisional Diyse foliage baseline.
 
 Current state:
 
-`SOURCE ANALYSIS → STYLE STUDY SPEC LOCKED → VISUAL STYLE-PASS IN PROGRESS`
+`SOURCE ANALYSIS → STYLE STUDY → STYLE-PASS APPROVED → GAMEPLAY TEST READY`
+
+B03 is **not yet final ACCEPTED**. It still requires a representative Diyse-original foliage family and gameplay/integration proof covering alpha stability, character hierarchy, route visibility, depth simplification, and lighting response.
+
+Next production actions:
+1. build the Diyse-original foliage-family kit specification;
+2. define the compact gameplay test scene;
+3. validate neutral/warm/cool lighting;
+4. validate foreground/midground/background density tiers;
+5. validate field and icon scales;
+6. promote to `ACCEPTED` only if runtime proof holds.
