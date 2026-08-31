@@ -16,7 +16,7 @@ This directory contains execution sheets and result notes for the eleven visual-
 | B07 | Cave / subterranean | QUEUED | — |
 | B08 | High-status interior | QUEUED | — |
 | B09 | Ritual / magic surface | QUEUED | — |
-| B10 | Verified CC0 prop cluster | **VISUAL REFINEMENT CANDIDATE V2 — USER REVIEW PENDING** | `B10_CC0_PROP_CLUSTER_EXECUTION_V1.md`; `B10_CC0_PROP_STYLE_STUDY_SPEC_V1.md`; `B10_DETERMINISTIC_MATERIAL_BASELINE_PILOT_V1.md`; `B10_REAL_PROP_REFINEMENT_CANDIDATE_V2.md` |
+| B10 | Verified CC0 prop cluster | **STYLE-PASS APPROVED — GAMEPLAY/RUNTIME TEST READY** | `B10_CC0_PROP_CLUSTER_EXECUTION_V1.md`; `B10_CC0_PROP_STYLE_STUDY_SPEC_V1.md`; `B10_DETERMINISTIC_MATERIAL_BASELINE_PILOT_V1.md`; `B10_REAL_PROP_REFINEMENT_CANDIDATE_V2.md`; `B10_STYLE_PASS_APPROVAL_V1.md` |
 | B11 | Original Black Host wall/gate | QUEUED | — |
 
 ## Promotion states
@@ -31,8 +31,10 @@ B01 has passed user style review and controls the provisional baseline for Diyse
 
 B03 has passed user style review and controls the provisional baseline for Diyse foliage rendering. It still requires a representative Diyse-original tree-family gameplay/integration proof before final `ACCEPTED` promotion. Its runtime gates are clean alpha under movement/scaling, player-vs-tree hierarchy, route readability, foreground/midground/background simplification, and neutral/warm/cool lighting stability.
 
-B10 has now moved beyond the first technical shared-material pilot into a real visual refinement candidate built from the actual Quaternius glTF assets. Candidate v2 keeps the same shared Furniture + Metal strategy but reduces wood line density, strengthens controlled metal/PBR separation, automatically attenuates Furniture normal relief when QA flags it, exports a real model-space Lantern_Wall emitter anchor, and creates a gameplay-scale workshop preview from the actual glTF extents. The candidate still uses **0 image-generation calls**. B10 is **not** STYLE-PASS until the user approves the v2 real-prop visual treatment.
+B10 v2 has passed user style review. The approved benchmark uses actual Quaternius glTF assets, a material-first shared Furniture + Metal workflow, quieter painterly wood, controlled roughness-aware metal separation, deterministic Furniture normal attenuation when QA requires it, model-space Lantern_Wall emitter data, and actual physical-scale previewing. B10 remains pending final Godot/runtime validation before `ACCEPTED`.
 
-A full dependency scan of all 94 glTF props found major shared BaseColor usage of: Metal **60 models**, Furniture **41**, Props **39**, and Cloth **10**. This strongly supports converting the pack by shared material family before model-specific overrides.
+The resulting shared-material authority is `../DIYSE_CC0_PROP_MATERIAL_GRAMMAR_V1.md`. Furniture and Metal are B10-approved. Props and Cloth are family-level candidates and require a broader real-model validation batch before receiving the same production-ready status.
+
+A full dependency scan of all 94 glTF props found major shared BaseColor usage of: Metal **60 models**, Furniture **41**, Props **39**, and Cloth **10**. This supports converting the pack by shared material family before model-specific overrides.
 
 The broader asset library must not enter bulk style conversion until the full benchmark set is coherent enough to define Diyse Visual Material Grammar v1.
