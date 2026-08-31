@@ -31,6 +31,9 @@ exports/
 *.bak
 *~
 
+# Diyse Asset Forge local manifests, generated candidates, QA and checkpoints
+.asset_forge/
+
 # License-unverified asset source material
 # Diyse-Game is public. Keep extracted/private-reference archives and derived
 # source textures out of Git history unless rights are separately confirmed or
