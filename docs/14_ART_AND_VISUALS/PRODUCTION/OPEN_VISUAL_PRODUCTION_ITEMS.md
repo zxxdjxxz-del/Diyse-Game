@@ -28,6 +28,8 @@ Still open / not to be invented as locked canon:
 18. exact portrait-expression set for supporting cast;
 19. whether any playable character receives a story-specific costume change;
 20. final title-screen/key-art composition;
-21. durable private binary storage for the license-unverified Map001–Map116 source archives, followed by checksum verification against `ASSET_LIBRARY/SOURCE_ARCHIVE_MANIFEST.md`.
+21. durable private binary storage for the license-unverified Map001–Map116 source archives, followed by checksum verification against `ASSET_LIBRARY/SOURCE_ARCHIVE_MANIFEST.md`;
+22. complete and approve `STYLE_BENCHMARK_SET_V1.md` across all eleven benchmark categories before any bulk conversion of the 3,214-file environment library;
+23. derive and lock **Diyse Visual Material Grammar v1** from the accepted benchmark results.
 
 OPEN does not authorize a redesign of already locked appearances.
