@@ -51,14 +51,14 @@ def stylize_fire_rgba(image: Image.Image) -> Image.Image:
         for channel in range(3)
     ], axis=-1).astype(np.float32) / 255.0
     value = np.clip(
-        (smooth[..., 0] * 0.2126 + smooth[..., 1] * 0.7152 + smooth[..., 2] * 0.0722) * 1.18,
+        (smooth[..., 0] * 0.2126 + smooth[..., 1] * 0.7152 + smooth[..., 2] * 0.0722) * 1.14,
         0,
         1,
     )
 
     out = _palette_map(value)
-    quantized = np.round(out * 7.0) / 7.0
-    out = out * 0.45 + quantized * 0.55
+    quantized = np.round(out * 8.0) / 8.0
+    out = out * 0.62 + quantized * 0.38
 
     alpha_u8 = rgba[..., 3]
     eroded = cv2.erode(alpha_u8, np.ones((3, 3), np.uint8), iterations=1)
@@ -68,20 +68,20 @@ def stylize_fire_rgba(image: Image.Image) -> Image.Image:
     gx = cv2.Sobel(value_u8, cv2.CV_32F, 1, 0, ksize=3)
     gy = cv2.Sobel(value_u8, cv2.CV_32F, 0, 1, ksize=3)
     gradient = np.sqrt(gx * gx + gy * gy)
-    internal = (gradient > 80) & (alpha > 0.25) & (value < 0.65)
+    internal = (gradient > 85) & (alpha > 0.25) & (value < 0.62)
 
     yy, xx = np.indices(alpha.shape)
     broken_line_mask = ((xx * 13 + yy * 7) % 11) < 7
     internal &= broken_line_mask
 
     ink_strength = np.zeros_like(value, dtype=np.float32)
-    ink_strength[border & (value < 0.72)] = 0.55
-    ink_strength[internal] = np.maximum(ink_strength[internal], 0.30)
+    ink_strength[border & (value < 0.70)] = 0.50
+    ink_strength[internal] = np.maximum(ink_strength[internal], 0.25)
     ink = np.array([0.10, 0.015, 0.005], dtype=np.float32)
     out = out * (1.0 - ink_strength[..., None]) + ink * ink_strength[..., None]
 
-    core = (value > 0.82) & (alpha > 0.5)
-    core_mix = np.clip((value - 0.82) / 0.18, 0, 1)[..., None]
+    core = (value > 0.84) & (alpha > 0.5)
+    core_mix = np.clip((value - 0.84) / 0.16, 0, 1)[..., None]
     core_color = np.array([1.0, 0.94, 0.72], dtype=np.float32)
     out = np.where(core[..., None], out * (1.0 - core_mix) + core_color * core_mix, out)
 
