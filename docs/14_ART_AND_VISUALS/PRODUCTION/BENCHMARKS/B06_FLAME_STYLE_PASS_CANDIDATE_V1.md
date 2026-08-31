@@ -1,39 +1,36 @@
-# Diyse — B06 Flame Style-Pass Candidate v1
+# Diyse — B06 Flame Technical Preservation Proof v1
 
 **Benchmark:** B06 — Fire / Light Emitter  
-**Status:** **STYLE-PASS CANDIDATE / USER REVIEW PENDING**  
+**Status:** **TECHNICAL PRESERVATION PROOF / VISUAL STYLE REJECTED — INSUFFICIENTLY ANIME/SEINEN**  
 **Source:** verified-CC0 `brackeys_vfx_bundle/flipbooks/flame_01_16x4.tga`  
 **Grid:** 16×4 / 64 frames  
 **Forge treatment:** `../../../../../tools/asset_forge/vfx_style_engine.py`  
 **Source authority:** `../ASSET_LIBRARY/VERIFIED_CC0_VFX_INTAKE_2026-08-31_BATCH2.md`
 
-## 1. What this candidate is
+## 1. Authority correction
 
-This is the first actual Diyse-styled B06 animation treatment. It is not an AI-generated infographic or concept board.
+This file was originally promoted as a B06 STYLE-PASS candidate. That promotion is **retired**.
 
-The treatment is applied directly to the real 2048×1024, 64-frame `flame_01_16x4` source sheet while preserving its canvas, frame order, grid registration and alpha channel.
+User review identified the core visual failure: the deterministic treatment moved the stock flame toward a painterly/material-filter look, but Diyse's locked visual authority is **seinen anime HD-2D fantasy with chaotic variable line weight**. The result therefore does not satisfy the same-game visual gate against the approved anime character masters.
 
-The candidate exists to answer one narrow visual question:
+The result remains valuable only as proof that Asset Forge can transform a real animation while preserving motion structure.
 
-> Can a real production fire animation be pushed toward Diyse's mature painterly/graphic HD-2D language without redrawing its motion or introducing temporal instability?
+> **Do not use this v1 flame treatment as B06 art-direction authority.**
 
-## 2. Candidate treatment
+## 2. What the proof establishes
 
-The v1 transform:
-- reduces photographic/high-frequency color noise with a light bilateral treatment;
-- remaps fire into broad deep-ember → red-orange → orange → gold → cream value families;
-- applies restrained value quantization for painterly/graphic massing;
-- adds selective dark accents only on useful outer folds and darker internal transitions;
-- deliberately breaks internal dark accents instead of outlining every shape;
-- protects bright cores from heavy line pressure;
-- preserves source alpha exactly;
-- does not move, resize, crop or regenerate any frame.
+The treatment was applied directly to the real 2048×1024, 64-frame `flame_01_16x4` source sheet while preserving:
+- canvas size;
+- frame order;
+- 16×4 grid registration;
+- source alpha exactly;
+- temporal motion rhythm within the declared QA bounds.
 
-This is a deterministic treatment. Re-running the same source through the same engine produces the same result.
+This proves the technical pipeline can alter rendering behavior without independently redrawing 64 frames or destabilizing the animation.
 
-## 3. Real-sheet technical QA
+## 3. Technical QA retained
 
-Measured on the actual `flame_01_16x4` source:
+Measured on the actual source:
 
 - source canvas: **2048×1024**;
 - frame grid: **16×4**;
@@ -45,50 +42,59 @@ Measured on the actual `flame_01_16x4` source:
 - peak-delta ratio: **1.2963046945**;
 - temporal gate: **PASS** (`correlation >= 0.95`, `peak ratio <= 1.35`, exact alpha required).
 
-An earlier, more aggressive tuning reached roughly 1.387× peak temporal amplification and was rejected before promotion. The committed v1 candidate uses the softened treatment that passes the declared gate.
+These measurements are technical evidence only. Passing temporal QA does not imply visual approval.
 
-## 4. Session review evidence
+## 4. Why the visual treatment is rejected
 
-The 2026-08-31 working session produced the following review artifacts from the real source and deterministic transform:
+The v1 treatment:
+- reduced photographic noise successfully;
+- preserved alpha and animation timing successfully;
+- but remained too dependent on soft painterly filtering;
+- did not establish a sufficiently hand-drawn/cel-shaped anime flame language;
+- did not carry Diyse's chaotic tapered/broken line character strongly or deliberately enough;
+- could read as a stylized material filter rather than an authored seinen-anime VFX pass.
 
-- `DIYSE_B06_FLAME01_STYLE_CANDIDATE_V1.png` — complete 64-frame styled sheet;
-- `DIYSE_B06_FLAME01_SOURCE_VS_STYLE_V1.gif` — animated source-versus-styled proof;
-- `DIYSE_B06_FLAME01_FRAME_COMPARE_V1.png` — selected real-frame comparison;
-- `DIYSE_B06_FLAME01_QA_V1.json` — measured QA output.
+The rejection is therefore visual, not structural.
 
-These session files are review evidence, not durable repository binary storage. Repository text remains authority for benchmark status.
+## 5. Correct B06 anime/seinen target
 
-## 5. Visual review gate
+The replacement candidate must preserve the technical wins while moving much more clearly toward Diyse's anime identity:
 
-User review should judge:
-- whether the orange/gold/cream hierarchy fits Diyse;
-- whether the dark broken accents feel expressive rather than toon-outlined;
-- whether the fire remains organic enough despite broader value grouping;
-- whether the bright core is appropriately readable without excessive bloom;
-- whether the result feels more authored/seinen and less like a stock realistic flipbook;
-- whether the treatment remains readable at field and battle scale.
+- **3–5 large cel-like flame value/color masses** rather than soft photographic gradients;
+- readable deep ember/red → orange → gold → pale cream core hierarchy;
+- hand-drawn-looking shape breaks and asymmetry;
+- selective chaotic thick-to-thin or broken/tapered dark accents only on useful outer folds, overlap pockets, smoke joins, or impact edges;
+- bright cores mostly or completely unoutlined;
+- no universal black toon shell;
+- controlled emissive spill/bloom added at runtime rather than baked into every edge;
+- sparse embers/sparks used compositionally;
+- source motion silhouette and registration retained;
+- field/battle readability tested against anime character art.
 
-Automatic reject conditions:
-- universal black outline;
-- flat orange recolor;
-- visibly stepped/cheap posterization;
-- bright core becoming a static white block;
-- temporal pulsing that was not present in the source;
-- alpha fringe or registration changes.
+The goal is not cheap flat cel shading. It is **mature seinen anime VFX with HD-2D lighting integration**.
 
-## 6. Promotion decision
+## 6. Session evidence status
 
-Current state:
+The following 2026-08-31 files remain useful only as technical comparison evidence:
 
-`SOURCE ANALYSIS COMPLETE → TECHNICAL STYLE PILOT READY → STYLE-PASS CANDIDATE / USER REVIEW PENDING`
+- `DIYSE_B06_FLAME01_STYLE_CANDIDATE_V1.png`;
+- `DIYSE_B06_FLAME01_SOURCE_VS_STYLE_V1.gif`;
+- `DIYSE_B06_FLAME01_FRAME_COMPARE_V1.png`;
+- `DIYSE_B06_FLAME01_QA_V1.json`.
 
-Do **not** mark B06 STYLE-PASS from this single flame family alone.
+They are **not approved visual references**.
 
-If the visual direction is approved, the same grammar should next be validated on:
-1. `fire_01_8x8` through its RGB additive/emissive path;
+## 7. Current promotion state
+
+Corrected state:
+
+`SOURCE ANALYSIS COMPLETE → TECHNICAL PRESERVATION PROOF COMPLETE → ANIME STYLE PILOT REQUIRED`
+
+B06 has **not** reached STYLE-PASS CANDIDATE.
+
+The next visual pilot must first prove the anime/seinen treatment on the real `flame_01_16x4` family. Only after that visual grammar is approved should it be propagated to:
+1. `fire_01_8x8` through the RGB additive/emissive path;
 2. `fire_ring_6x5`;
 3. `dithered_fire_6x5`;
 4. spark + soft-light/flare primitives;
 5. field-scale and battle-scale compositing.
-
-Only after those related fire/light families remain coherent should B06 advance to STYLE-PASS.
