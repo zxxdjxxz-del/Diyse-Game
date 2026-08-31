@@ -37,6 +37,38 @@ The extracted Map001–Map116 texture material is **license-unverified extracted
 
 The Quaternius Fantasy Props MegaKit and both Universal Animation Libraries are verified **CC0 1.0 Universal / Public Domain Dedication** and may be modified and used directly.
 
+## Public-repository safety lock
+
+`zxxdjxxz-del/Diyse-Game` is currently a **public repository**. Therefore the license-unverified Map001–Map116 source ZIPs and directly extracted source textures must **not** be committed to this repository, including through Git LFS, unless rights are separately confirmed or repository/storage visibility is explicitly changed.
+
+Repository safeguards now enforce this split:
+
+- `asset_sources/private_reference/` is ignored by `.gitignore`;
+- `assets/environment/extracted_private_reference/` is ignored by `.gitignore`;
+- `asset_sources/.gdignore` prevents archival source packages from being scanned/imported by Godot;
+- verified redistributable ZIPs under `asset_sources/third_party_cc0/` are routed through Git LFS by `.gitattributes`.
+
+The source-storage routing and local staging rules are documented in `../../../..//../asset_sources/README.md` conceptually; from the repository root the canonical path is simply:
+
+`asset_sources/README.md`
+
+## Archive verification
+
+Before any source ZIP is accepted into private storage, Git LFS, or another archival destination, verify it against `SOURCE_ARCHIVE_MANIFEST.md`.
+
+Repository verifier:
+
+`python tools/verify_asset_archives.py`
+
+The verifier checks:
+
+- expected byte size;
+- ZIP file-member count, excluding directory entries;
+- SHA-256;
+- duplicate copies of an expected archive in the configured roots.
+
+Use `--present-only` to validate a partial staging set without failing for archives that have not yet been copied into that storage location.
+
 ## Project-use rule
 
 These extracted map textures are a **parts/reference library for building original Diyse maps**, not a target for reconstructing source maps. Diyse layouts, collision, traversal, encounter placement, treasure placement, camera design, landmarks, faction identity, and final environment composition remain original project work.
@@ -47,4 +79,12 @@ This inventory records **available source material and production capability**. 
 
 ## Raw binary storage
 
-The authoritative source ZIP set represented by the manifest is approximately **2.25 GB**. Those binaries are not embedded into this Git repository by this documentation migration. Use the manifest hashes to verify any future Git LFS or controlled external-storage import before treating that binary copy as authoritative.
+The authoritative source ZIP set represented by the manifest is approximately **2.25 GB**.
+
+Current storage policy:
+
+- **public `Diyse-Game` repository:** authoritative inventory, provenance, hashes, verification tooling, and optionally verified-redistributable CC0 source archives through Git LFS;
+- **private storage:** license-unverified extracted Map001–Map116 source archives and directly derived extracted-source material;
+- **acceptance rule:** a binary copy becomes authoritative only after its size/member-count/SHA-256 verification passes against `SOURCE_ARCHIVE_MANIFEST.md`.
+
+Do not treat a public-repository omission of the extracted binaries as loss of authority: the manifest and exact v5 inventory remain the authority records. The remaining preservation requirement is maintaining at least one verified private binary copy of the license-unverified source set.
