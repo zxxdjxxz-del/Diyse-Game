@@ -75,6 +75,20 @@ It controls:
 - conversion grades (`REF`, `PROTO`, `STYLE-PASS`, `DIYSE-FINAL`, `REPLACE`);
 - reusable production prompts.
 
+## Asset Forge automation
+
+The implementation tool for scaling repetitive conversion work is:
+
+`PRODUCTION/ASSET_FORGE_AUTOMATION.md`
+
+Code:
+
+`../../tools/asset_forge/forge.py`
+
+Asset Forge inventories, hashes, classifies, plans, generates/preserves, QA-checks, and builds deterministic review sheets from actual output files. It does **not** override the style canon or conversion authority, and it does not independently redraw atlas/animation frames where doing so would damage seams or frame consistency.
+
+The image model creates asset candidates; the Forge builds exact review boards and tracks technical metadata.
+
 ## Active benchmark gate
 
 Before broad asset conversion begins, the locked style must be proven on the representative benchmark set at:
