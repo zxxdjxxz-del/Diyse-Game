@@ -36,11 +36,18 @@ Healing uses **Magic** as its output stat where a healing coefficient is authore
 
 Do not restore old healing text that scales from Spirit merely because an archived file used that terminology.
 
-## Prepared/setup effects
+## Prepared/setup effects and class states
 Prepared states and class setup states may exist when explicitly authored, but:
 - they are not universal harmful statuses;
 - they do not create extra ordinary actions by default;
 - they do not recreate removed global gauges.
+
+Default lifecycle, KO behavior, battle-end clearing, target/body replacement, refresh/replacement, and class-state category boundaries are owned by:
+> `CLASS_STATE_LIFECYCLE.md`
+
+Individual class sheets still own the exact trigger, subject, duration, payload, consumption rule, and any explicit lifecycle override for their state.
+
+Prepared/delayed-action flow remains additionally subject to `05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md`. Awakened Prime suspension/pause behavior remains owned by `07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md`.
 
 ## Removed class-mechanic firewalls
 Do not restore:

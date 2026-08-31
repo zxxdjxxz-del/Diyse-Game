@@ -4,6 +4,8 @@
 
 This file owns the exact shared definition of a class state when multiple class sheets use the same state. Individual class Abilities own how they apply, refresh, or exploit that state.
 
+General class-state lifecycle defaults — including KO behavior, battle-end clearing, target/body replacement, and same-state refresh/replacement — are owned by `CLASS_STATE_LIFECYCLE.md`. A shared state's explicit rules in this file override those defaults where they are more specific.
+
 ## Hunter's Measure
 
 **Current users:** War Archer and Proofhunter.
@@ -27,7 +29,8 @@ Reapplication:
 ### Resistance / removal boundary
 - Ordinary Status Resistance does **not** resist Hunter's Measure.
 - Ordinary harmful-status cleanse does **not** automatically remove it.
-- It ends when its authored duration expires, battle ends, or an owning explicit effect says it removes the state.
+- It ends when its authored duration expires, battle ends, its target/body is defeated or replaced, or an owning explicit effect says it removes the state.
+- The character who applied or refreshed Hunter's Measure becoming KO does **not** by itself remove the state from the enemy.
 
 ### Form boundary
 A genuinely separate fresh-HP enemy/boss form does **not** inherit Hunter's Measure from the previous form unless that encounter explicitly says otherwise.

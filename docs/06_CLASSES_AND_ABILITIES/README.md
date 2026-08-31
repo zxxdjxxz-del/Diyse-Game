@@ -13,6 +13,7 @@ Canonical home for:
 - Core/Subclass Masteries;
 - selected-class stat-package identities;
 - reciprocal donor-class relationships;
+- general class-authored combat-state lifecycle;
 - shared class-authored combat states used by more than one current class.
 
 This folder references global combat math/status rules from `05_BATTLE_SYSTEM`.
@@ -36,6 +37,7 @@ Detailed Relic/Legacy item definitions remain destined for `08_ITEMS_AND_EQUIPME
 
 - `CLASS_SYSTEM_MASTER.md`
 - `ABILITY_RULES.md`
+- `CLASS_STATE_LIFECYCLE.md`
 - `MP_COST_RULES.md`
 - `CLASS_EXP_AND_MASTERY_RULES.md`
 - `SELECTED_CLASS_STAT_PACKAGES.md`
