@@ -15,7 +15,8 @@ Diyse Asset Forge is the automation layer for converting the existing asset libr
 7. keeps large atlases and non-anchor animation frames structure-preserving by default;
 8. writes outputs to a separate local work area;
 9. runs deterministic QA such as aspect-ratio and alpha reporting;
-10. leaves final promotion to `DIYSE-FINAL` as an explicit review decision.
+10. builds deterministic review sheets from the **actual generated files**, not AI-generated infographics;
+11. leaves final promotion to `DIYSE-FINAL` as an explicit review decision.
 
 ## Why treatment modes matter
 
@@ -67,7 +68,17 @@ Then run deterministic QA:
 python tools/asset_forge/forge.py qa .asset_forge/results.jsonl
 ```
 
-All default work products live under `.asset_forge/`, which should remain local and untracked.
+And build the review board from the real outputs:
+
+```bash
+python tools/asset_forge/forge.py sheet .asset_forge/results.jsonl \
+  --qa .asset_forge/qa.jsonl \
+  --output .asset_forge/review_sheet.png
+```
+
+This solves the benchmark-board failure mode we hit manually: the image model never writes the board labels or decides which benchmark appears. Python places the actual output thumbnails and exact metadata.
+
+All default work products live under `.asset_forge/`, which remains local and untracked.
 
 ## Current category recipes
 
@@ -110,10 +121,22 @@ Those become later Forge backends/modules rather than being faked with independe
 1. `atlas` — tile/region segmentation and repacking while preserving coordinates;
 2. `animation` — structure-preserving style propagation from an approved anchor frame;
 3. `lighting` — base-to-`ra`–`rf` consistency handling;
-4. `contact_sheet` — deterministic review sheets made from actual generated outputs;
-5. `qa` — seam tests, alpha-fringe tests, animation-flicker metrics, and gameplay-scale previews;
-6. `approval` — promote/reject/redo metadata without touching source files;
-7. `resume` — checkpointed processing for the full library.
+4. `qa` — seam tests, alpha-fringe tests, animation-flicker metrics, and gameplay-scale previews;
+5. `approval` — promote/reject/redo metadata without touching source files;
+6. `resume` — checkpointed processing for the full library;
+7. `batch_budget` — limits by category/credits so thousands of assets cannot accidentally be submitted at once.
+
+## Tests
+
+```bash
+python tools/asset_forge/tests/test_forge.py
+```
+
+Current tests cover:
+- category classification;
+- animation-anchor queue behavior;
+- large-atlas structure-preserving routing;
+- deterministic review-sheet generation from real outputs.
 
 ## Authority
 
