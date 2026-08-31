@@ -12,6 +12,7 @@ import argparse
 import hashlib
 import re
 import sys
+import zipfile
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -62,6 +63,12 @@ def sha256_file(path: Path, chunk_size: int = 8 * 1024 * 1024) -> str:
         while chunk := handle.read(chunk_size):
             digest.update(chunk)
     return digest.hexdigest()
+
+
+def zip_member_count(path: Path) -> int:
+    """Return file-member count, excluding explicit directory entries."""
+    with zipfile.ZipFile(path) as archive:
+        return sum(1 for item in archive.infolist() if not item.is_dir())
 
 
 def find_candidates(name: str, roots: tuple[Path, ...]) -> list[Path]:
@@ -148,6 +155,21 @@ def main(argv: list[str] | None = None) -> int:
             print(
                 f"BADSIZE {record.name}: expected {record.size}, got {actual_size} "
                 f"({path})"
+            )
+            continue
+
+        try:
+            actual_members = zip_member_count(path)
+        except (OSError, zipfile.BadZipFile) as exc:
+            failures += 1
+            print(f"BADZIP  {record.name}: {exc} ({path})")
+            continue
+
+        if actual_members != record.member_count:
+            failures += 1
+            print(
+                f"BADCOUNT {record.name}: expected {record.member_count}, "
+                f"got {actual_members} ({path})"
             )
             continue
 
