@@ -84,22 +84,21 @@ Historical/current migrated equipment wording that used `action Speed` is retire
 
 ## Max HP / Max MP equipment bonuses
 
-Equipment bonuses to **Max HP** and **Max MP** are persistent percentage modifiers.
+Equipment bonuses to **Max HP** and **Max MP** are persistent flat raw additions.
 
 Use:
-- `Max HP +N%`
-- `Max MP +N%`
+- `Max HP +N`
+- `Max MP +N`
 
-These percentages:
-- are calculated from the rounded selected-class natural Max HP / Max MP;
-- stack additively across legally equipped items rather than multiplying one another;
-- are capped separately at **+30% equipment-derived Max HP** and **+30% equipment-derived Max MP**;
+Do not use percentage-based Max HP / Max MP equipment bonuses under the current system.
+
+These flat bonuses:
+- are added after Player-Level natural stat calculation and selected-class HP/MP multiplier resolution;
+- stack additively across legally equipped items;
 - are not temporary stat changes;
 - do not use the temporary core-stat ±40% cap.
 
-Changing equipment does not heal HP or restore MP. Increasing a maximum leaves current HP/MP unchanged; decreasing a maximum clamps current HP/MP only when the old current value exceeds the new maximum.
-
-Exact current values, rounding, and construction details are owned by `HP_MP_PERCENT_BONUS_RULES.md`.
+Exact current conversions and construction details are owned by `HP_MP_FLAT_BONUS_RULES.md`.
 
 ## Count firewall
 

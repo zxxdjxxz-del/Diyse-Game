@@ -15,21 +15,21 @@ Formal master-canon promotion remains a separate step.
 |---|---|---|---|---|---|
 | Cyanis | Move or I Move You. | Sword | +74 ATK / +55 MAG | +10pp applicable Defense/Spirit penetration | Forced Opening |
 | Cyanis | That Was Dumb. | Shield | +30 DEF / +28 SPR | +12 Status Resistance | Bad Choice |
-| Cyanis | That Didn't Do Shit. | Heavy Armor | +50 DEF / +42 SPR | Max HP +15% | Still Standing |
+| Cyanis | That Didn't Do Shit. | Heavy Armor | +50 DEF / +42 SPR | Max HP +400 | Still Standing |
 | Ilyra | I Said Enough. | Wardrod | +58 ATK / +63 MAG | +10% direct healing | Final Warning |
-| Ilyra | Try Me Instead. | Shield | +28 DEF / +30 SPR | Max HP +10% | Sanctuary |
-| Ilyra | No. Stay Here. | Focus | +22 MAG / +28 SPR | Max MP +15% | Stay With Me |
-| Ilyra | Get Behind Me. | Warding Armor | +34 DEF / +44 SPR | Max HP +12% | Immediate Shelter |
+| Ilyra | Try Me Instead. | Shield | +28 DEF / +30 SPR | Max HP +250 | Sanctuary |
+| Ilyra | No. Stay Here. | Focus | +22 MAG / +28 SPR | Max MP +40 | Stay With Me |
+| Ilyra | Get Behind Me. | Warding Armor | +34 DEF / +44 SPR | Max HP +325 | Immediate Shelter |
 | Torren | Should've Moved. | Great Bow — Weapon + Secondary | +95 ATK | +10 Base Hit | Predicted Line |
 | Torren | Figured You'd Come This Way. | Medium Armor | +42 DEF / +33 SPR / +3 SPD | Evasion +10 | Prepared Ground |
 | Nimera | Good Fuck, Definitely. Good Fuck. | Two-Handed Conduit — Weapon + Secondary | +60 ATK / +82 MAG | +10% eligible Conduit final damage | Better Version |
 | Nimera | Hold On. That's Useful. | Focus | +22 MAG / +22 SPR / +8 SPD | Standard Cards gain +10 Base Hit / application reliability where relevant | Keep That |
 | Nimera | Fuck It. New Plan. | Light Ritual Armor | +32 DEF / +42 SPR | Speed +10% while disrupted | New Plan |
 | Vaelira | There's Your Problem. | Arcane Staff — one-slot Primary | +12 ATK / +83 MAG | +10pp Spirit penetration on eligible elemental damaging Staff actions | Correct Answer |
-| Vaelira | That Saves Me the Trouble. | Focus | +24 MAG / +24 SPR / +5 SPD | Max MP +15% | Borrowed Answer |
+| Vaelira | That Saves Me the Trouble. | Focus | +24 MAG / +24 SPR / +5 SPD | Max MP +45 | Borrowed Answer |
 | Vaelira | Oh, I Can Use That. | Light Caster Armor | +29 DEF / +50 SPR / +4 SPD | 10% less eligible direct elemental damage | Useful Pressure |
 | Seyrik | You Are Finished. | Two-Handed Sword — Weapon + Secondary | +105 ATK / +7 MAG | +10pp Critical Chance | End It |
-| Seyrik | You Should Have Killed Me. | Battle Heavy Armor | +56 DEF / +34 SPR | Max HP +18% | Still Dangerous |
+| Seyrik | You Should Have Killed Me. | Battle Heavy Armor | +56 DEF / +34 SPR | Max HP +600 | Still Dangerous |
 
 ## Count by character
 - Cyanis — 3
@@ -48,4 +48,4 @@ Formal master-canon promotion remains a separate step.
 Total = **17**
 
 ## Max HP / Max MP equipment rule
-Equipment Max HP and Max MP bonuses are persistent percentage modifiers. Legal equipped percentages stack additively, are calculated from the rounded selected-class natural Max HP / Max MP, and are capped separately at **+30% equipment-derived Max HP** and **+30% equipment-derived Max MP**. See `../HP_MP_PERCENT_BONUS_RULES.md`.
+Equipment Max HP and Max MP bonuses are persistent flat raw additions. See `../HP_MP_FLAT_BONUS_RULES.md`.

@@ -10,7 +10,7 @@
 | Legacy | Slot | Raw stats | Capstone | Trait |
 |---|---|---|---|---|
 | **You Are Finished.** | Two-Handed Sword — Weapon + Secondary | +105 ATK / +7 MAG | +10pp Critical Chance | **End It** |
-| **You Should Have Killed Me.** | Battle Heavy Armor | +56 DEF / +34 SPR | Max HP +18% | **Still Dangerous** |
+| **You Should Have Killed Me.** | Battle Heavy Armor | +56 DEF / +34 SPR | Max HP +600 | **Still Dangerous** |
 
 
 ## You Are Finished. — End It
@@ -39,7 +39,7 @@ No minimum damage threshold.
 No automatic Bleed, heal, mitigation, counter, free action, or revenge gauge.
 
 Capstone:
-- **Max HP +18%**.
+- **Max HP +600**.
 
 
 ## Donor legality
