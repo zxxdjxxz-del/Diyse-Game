@@ -75,6 +75,18 @@ It controls:
 - conversion grades (`REF`, `PROTO`, `STYLE-PASS`, `DIYSE-FINAL`, `REPLACE`);
 - reusable production prompts.
 
+## Active benchmark gate
+
+Before broad asset conversion begins, the locked style must be proven on the representative benchmark set at:
+
+`PRODUCTION/STYLE_BENCHMARK_SET_V1.md`
+
+The benchmark covers stone, rustic wood/interior materials, trees, animated grass, water/splash, fire/fireplace, cave materials, high-status interiors, ritual/magic surfaces, verified-CC0 props, and one fully original Black Host modular architecture piece.
+
+> **Do not bulk-convert the 3,214-file environment library until the benchmark set reads as one coherent game at actual gameplay scale.**
+
+Accepted benchmark results become the basis for a later Diyse Visual Material Grammar controlling broad conversion work.
+
 ## Asset library authority
 The authoritative production inventory and provenance routing live at:
 
