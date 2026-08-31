@@ -48,7 +48,7 @@ Repository safeguards now enforce this split:
 - `asset_sources/.gdignore` prevents archival source packages from being scanned/imported by Godot;
 - verified redistributable ZIPs under `asset_sources/third_party_cc0/` are routed through Git LFS by `.gitattributes`.
 
-The source-storage routing and local staging rules are documented in `../../../..//../asset_sources/README.md` conceptually; from the repository root the canonical path is simply:
+Source-storage routing and local staging rules are documented at repository root in:
 
 `asset_sources/README.md`
 
@@ -86,5 +86,9 @@ Current storage policy:
 - **public `Diyse-Game` repository:** authoritative inventory, provenance, hashes, verification tooling, and optionally verified-redistributable CC0 source archives through Git LFS;
 - **private storage:** license-unverified extracted Map001–Map116 source archives and directly derived extracted-source material;
 - **acceptance rule:** a binary copy becomes authoritative only after its size/member-count/SHA-256 verification passes against `SOURCE_ARCHIVE_MANIFEST.md`.
+
+Current operational preservation state is recorded in:
+
+`BINARY_PRESERVATION_STATUS.md`
 
 Do not treat a public-repository omission of the extracted binaries as loss of authority: the manifest and exact v5 inventory remain the authority records. The remaining preservation requirement is maintaining at least one verified private binary copy of the license-unverified source set.
