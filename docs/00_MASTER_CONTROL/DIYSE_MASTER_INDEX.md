@@ -44,7 +44,7 @@ Auren, prices, shops, ordinary-equipment backfill and reward boundaries.
 Production UI/runtime requirements and current Godot proof divergence.
 
 ### 14_ART_AND_VISUALS
-Exact visual authorities, HD-2D grammar, environment/VFX production rules.
+Exact visual authorities, HD-2D grammar, environment/VFX production rules, and authoritative asset inventory/provenance routing.
 
 ### 15_AUDIO_AND_MUSIC
 OPEN soundtrack authority, sound-design requirements and research archive.
