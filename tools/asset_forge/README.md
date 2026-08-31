@@ -1,8 +1,8 @@
 # Diyse Asset Forge
 
-**Status:** **v0.7 four-family prop routing checkpoint**
+**Status:** **v0.8 supplemental ZIP-intake checkpoint**
 
-Diyse Asset Forge automates conversion of the current asset library into the locked Diyse visual style while preserving source provenance, atlas registration, animation stability, shared-material reuse, lighting families, technical QA, and explicit approval gates.
+Diyse Asset Forge automates conversion of the current asset library into the locked Diyse visual style while preserving source provenance, archive identity, atlas registration, animation stability, shared-material reuse, lighting families, technical QA, and explicit approval gates.
 
 ## Main entry points
 
@@ -10,10 +10,48 @@ Diyse Asset Forge automates conversion of the current asset library into the loc
 - `pipeline.py` — resumable/budget-safe atlas + animation processing.
 - `ops.py` — budget, lighting propagation, atlas/alpha/animation QA.
 - `prop_pack_pipeline.py` — one-command material-first glTF prop-family validation.
+- `zip_intake_engine.py` — inspect supplemental texture ZIPs without extraction; hash archives, classify internal paths, identify animations, and report duplicate groups.
 
 ## Safe-batch foundation
 
 The general pipeline supports SHA-256 source identity, coordinate-locked atlas patching, animation-anchor + zero-call follower propagation, lighting-family propagation, hard AI-call caps, checkpoint/resume, seam/alpha/aspect/flicker QA, and deterministic review boards made from actual outputs.
+
+## v0.8 supplemental ZIP intake
+
+New texture/source batches should be inventoried before extraction or conversion:
+
+```bash
+python tools/asset_forge/zip_intake_engine.py \
+  /path/to/archive1.zip /path/to/archive2.zip \
+  --output .asset_forge/zip_intake.json
+```
+
+For authoritative member-level duplicate/provenance hashing:
+
+```bash
+python tools/asset_forge/zip_intake_engine.py \
+  /path/to/archive1.zip /path/to/archive2.zip \
+  --hash-members \
+  --output .asset_forge/zip_intake_hashed.json
+```
+
+The intake layer records:
+- archive SHA-256 and byte size;
+- ZIP member count and uncompressed bytes;
+- internal member path/size/CRC;
+- optional member SHA-256;
+- image dimensions/mode/alpha;
+- path-aware material family;
+- animation group/frame metadata;
+- duplicate candidate/exact groups depending on hashing mode.
+
+The engine intentionally does **not** treat upload as license approval and does not extract raw source files into repository authority.
+
+First real supplemental intake authority:
+
+`docs/14_ART_AND_VISUALS/PRODUCTION/ASSET_LIBRARY/SUPPLEMENTAL_USER_TEXTURE_INTAKE_2026-08-31_BATCH1.md`
+
+That batch contains six user-supplied archives, **4,607 file members / 4,606 PNGs**, approximately **1.42 GB ZIP size**, and only **7 SHA-confirmed exact duplicate pairs**. It remains pending provenance and is not merged into Asset Library Master v5.
 
 ## v0.7 shared-material prop workflow
 
@@ -144,7 +182,7 @@ Outputs include required source dependencies, styled shared BaseColor trims, QA-
 
 Forge never overwrites source files.
 
-License-unverified Map001–Map116 material remains license-unverified after Forge treatment. Verified CC0 sources may be directly transformed and promoted after style/runtime review.
+License-unverified Map001–Map116 material remains license-unverified after Forge treatment. User-supplied supplemental archives also remain license-unverified until evidence is recorded. Verified CC0 sources may be directly transformed and promoted after style/runtime review.
 
 All work products remain under git-ignored `.asset_forge/` until deliberately promoted.
 
@@ -154,7 +192,7 @@ All work products remain under git-ignored `.asset_forge/` until deliberately pr
 python -m unittest discover -s tools/asset_forge/tests -p "test_*.py"
 ```
 
-Coverage includes the atlas/animation/lighting/budget/resume foundation plus shared-material detection, actual glTF material-to-image routing, four-family material styling, hue preservation for Props/Cloth, UV occupancy, PBR flags/rebalance, emissive anchors, real glTF rendering, and gameplay-scale validation.
+Coverage includes the atlas/animation/lighting/budget/resume foundation plus shared-material detection, actual glTF material-to-image routing, four-family material styling, hue preservation for Props/Cloth, UV occupancy, PBR flags/rebalance, emissive anchors, real glTF rendering, gameplay-scale validation, and ZIP-native supplemental intake/classification/duplicate handling.
 
 ## Current production gates
 
@@ -170,9 +208,13 @@ Props/Cloth shared families:
 Authority:
 `docs/14_ART_AND_VISUALS/PRODUCTION/CC0_PROP_CLOTH_FAMILY_VALIDATION_CANDIDATE_V1.md`
 
-After Props/Cloth approval, the 94-model pack should move to exception detection/model-specific overrides rather than another broad restyle pass.
+Supplemental texture Batch 1:
+> **INVENTORIED — PROVENANCE PENDING — FAMILY ROUTING READY**
 
-Then the benchmark sequence continues with B04 animated grass, bounded Map086 atlas/seam validation, and a real lighting-state family.
+Authority:
+`docs/14_ART_AND_VISUALS/PRODUCTION/ASSET_LIBRARY/SUPPLEMENTAL_USER_TEXTURE_INTAKE_2026-08-31_BATCH1.md`
+
+The new batch materially expands Metal, Concrete, Brick, terrain, Wood, emission/light, Fire, ritual/mystic, Water, Glass, Marble and Foliage source families. It should be processed family-first after provenance/storage decisions, not file-by-file.
 
 ## Authority
 
