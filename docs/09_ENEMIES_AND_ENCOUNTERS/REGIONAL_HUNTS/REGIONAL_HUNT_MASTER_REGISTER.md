@@ -2,9 +2,8 @@
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
 **Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
-
+**Current whole-project written authority:** **v2.20 / Audit135** plus newer accepted corrections.  
+**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and current Prime-restoration rules supersede stale earlier enemy text.
 
 Exactly:
 > **11 Regional Hunts**
@@ -30,21 +29,19 @@ Recommended level is a preparedness target, not an access gate.
 Sealed Throne → Walking Throne:
 - genuine fresh-body transition;
 - total raw body HP **26,000**;
-- Prime availability refreshes at Walking Throne;
+- spent/Ready Prime state carries through unchanged;
+- fresh Walking Throne does **not** restore a spent Prime;
 - no third form.
 
 Support assemblies:
-- Authority Attendant Frame
-- Renewal Attendant Frame
-
-Their exact HP is not invented by this migration.
+- Authority Attendant Frame — HP1,450 / Power N/A;
+- Renewal Attendant Frame — HP1,350 / Power N/A / 450 HP Renewal / max3 successful triggers.
 
 ## Difficulty
 Regional Hunts remain above numbered-chapter Elites and below Major Hunts as a class.
 
-
 ## Power completion — v73
-All 11 Regional Hunts now have:
+All 11 Regional Hunts have:
 - exact direct-damage Power;
 - Base Hit;
 - damage typing;
@@ -56,16 +53,9 @@ All 11 Regional Hunts now have:
 Status:
 > **REGIONAL HUNTS #1–#11 POWER COMPLETE**
 
-Regional Hunt #11 support active-balance values are now:
-- Authority Attendant Frame — HP1,450 / Power N/A
-- Renewal Attendant Frame — HP1,350 / Power N/A / 450 HP Renewal / max3 successful triggers
-
-These are newly authored active-balance values, not recovered migration values.
-
-Only Regional Hunt #11 refreshes Prime availability via a fresh second body.
+No Regional Hunt fresh-body transition restores a spent Prime identity.
 
 Major Hunts remain separate.
-
 
 ## v88 Chapter-12 certification
 Regional Hunt #11 — Throne of Emperor Vaelkor is **FORMALLY VALIDATED v88** at its retained Lv61–62 recommendation. Mandatory Chapter-12 clear is Lv57; completionist Chapter-12 entry is Lv63 and rises through Lv64–66. Exact within-chapter timing remains a story/world-state dependency. No numerical or Power change.
