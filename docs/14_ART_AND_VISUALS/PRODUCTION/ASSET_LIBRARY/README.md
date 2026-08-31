@@ -24,6 +24,7 @@ The exact source-archive names, sizes, member counts, and SHA-256 hashes are rec
 
 ## Current inventory totals
 
+Master v5:
 - **3,214** canonical extracted map/environment TGA records.
 - **2,878** exact-unique extracted TGAs after byte-level deduplication.
 - **107** represented source map families across Maps 001–116.
@@ -31,15 +32,37 @@ The exact source-archive names, sizes, member counts, and SHA-256 hashes are rec
 - **94** verified-CC0 Quaternius Fantasy Props MegaKit models.
 - **86** verified-CC0 Quaternius humanoid animation clips across Universal Animation Library 1 and 2.
 
+### Supplemental user texture intake — pending provenance
+
+A new six-archive user-supplied batch was inventoried on 2026-08-31 but is **not yet merged into Master v5**.
+
+Measured supplemental totals:
+- **6** ZIP archives;
+- **4,607** file members;
+- **4,606** PNG textures;
+- **4,600** exact-unique members after seven SHA-confirmed duplicate pairs;
+- **1,422,620,538** ZIP bytes;
+- **1,428,899,744** uncompressed bytes.
+
+Major routed families include Metal, Concrete, Brick, terrain/outdoors, Wood, emission/light support, Fire, Marble, Glass, ritual/mystic, Water, and Foliage. The set also contains six 19-image Fire families, six 10-image Mystic families, and a separate 10-image Mystic emission/support sequence.
+
+Exact archive checksums, counts, duplicate records, family routing, resolution statistics, animation observations, and provenance gates are recorded in:
+
+`SUPPLEMENTAL_USER_TEXTURE_INTAKE_2026-08-31_BATCH1.md`
+
+Until provenance is established, this supplemental batch is **USER-SUPPLIED / LICENSE NOT YET VERIFIED** and must remain outside public Git binary history.
+
 ## Provenance separation
 
 The extracted Map001–Map116 texture material is **license-unverified extracted source material**. It must not be relabeled as CC0 or freely redistributable material. Keep it segregated from verified-open assets and treat it as private/reference/prototyping material unless rights are separately confirmed.
+
+The new supplemental user texture batch is also **license-unverified until evidence is recorded**. Uploading source material to the project does not itself establish redistribution rights.
 
 The Quaternius Fantasy Props MegaKit and both Universal Animation Libraries are verified **CC0 1.0 Universal / Public Domain Dedication** and may be modified and used directly.
 
 ## Public-repository safety lock
 
-`zxxdjxxz-del/Diyse-Game` is currently a **public repository**. Therefore the license-unverified Map001–Map116 source ZIPs and directly extracted source textures must **not** be committed to this repository, including through Git LFS, unless rights are separately confirmed or repository/storage visibility is explicitly changed.
+`zxxdjxxz-del/Diyse-Game` is currently a **public repository**. Therefore license-unverified source ZIPs and directly extracted source textures must **not** be committed to this repository, including through Git LFS, unless rights are separately confirmed or repository/storage visibility is explicitly changed.
 
 Repository safeguards now enforce this split:
 
@@ -54,24 +77,29 @@ Source-storage routing and local staging rules are documented at repository root
 
 ## Archive verification
 
-Before any source ZIP is accepted into private storage, Git LFS, or another archival destination, verify it against `SOURCE_ARCHIVE_MANIFEST.md`.
+Before any source ZIP is accepted into private storage, Git LFS, or another archival destination, verify it against its controlling checksum manifest.
 
-Repository verifier:
+Master v5 archives use:
+
+`SOURCE_ARCHIVE_MANIFEST.md`
+
+Supplemental Batch 1 archive identities are recorded in:
+
+`SUPPLEMENTAL_USER_TEXTURE_INTAKE_2026-08-31_BATCH1.md`
+
+Repository verifier for the Master v5 archive set:
 
 `python tools/verify_asset_archives.py`
 
-The verifier checks:
+ZIP-native supplemental intake:
 
-- expected byte size;
-- ZIP file-member count, excluding directory entries;
-- SHA-256;
-- duplicate copies of an expected archive in the configured roots.
+`python tools/asset_forge/zip_intake_engine.py /path/to/archive.zip`
 
-Use `--present-only` to validate a partial staging set without failing for archives that have not yet been copied into that storage location.
+The ZIP intake engine scans archive metadata and images without requiring extraction, and can use `--hash-members` for authoritative member-level hashing.
 
 ## Project-use rule
 
-These extracted map textures are a **parts/reference library for building original Diyse maps**, not a target for reconstructing source maps. Diyse layouts, collision, traversal, encounter placement, treasure placement, camera design, landmarks, faction identity, and final environment composition remain original project work.
+These source textures are a **parts/reference library for building original Diyse maps**, not a target for reconstructing source maps. Diyse layouts, collision, traversal, encounter placement, treasure placement, camera design, landmarks, faction identity, and final environment composition remain original project work.
 
 ## Relationship to current visual canon
 
@@ -91,16 +119,16 @@ Source assets must be adapted, replaced, or rebuilt where necessary. Merely enla
 
 ## Raw binary storage
 
-The authoritative source ZIP set represented by the manifest is approximately **2.25 GB**.
+The authoritative Master v5 source ZIP set represented by `SOURCE_ARCHIVE_MANIFEST.md` is approximately **2.25 GB**. Supplemental Batch 1 adds approximately **1.42 GB** of newly uploaded source ZIPs, but those binaries are not yet part of the canonical Master archive set.
 
 Current storage policy:
 
 - **public `Diyse-Game` repository:** authoritative inventory, provenance, hashes, verification tooling, and optionally verified-redistributable CC0 source archives through Git LFS;
-- **private storage:** license-unverified extracted Map001–Map116 source archives and directly derived extracted-source material;
-- **acceptance rule:** a binary copy becomes authoritative only after its size/member-count/SHA-256 verification passes against `SOURCE_ARCHIVE_MANIFEST.md`.
+- **private storage:** license-unverified source archives and directly derived source material;
+- **acceptance rule:** a binary copy becomes authoritative only after its identity is verified against the controlling manifest/intake record.
 
 Current operational preservation state is recorded in:
 
 `BINARY_PRESERVATION_STATUS.md`
 
-Do not treat a public-repository omission of the extracted binaries as loss of authority: the manifest and exact v5 inventory remain the authority records. The remaining preservation requirement is maintaining at least one verified private binary copy of the license-unverified source set.
+Do not treat a public-repository omission of license-unverified binaries as loss of authority: manifest/checksum records preserve source identity. The remaining preservation requirement is maintaining at least one verified private binary copy of every license-unverified authoritative or pending-provenance source batch.
