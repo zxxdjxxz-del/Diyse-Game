@@ -1,8 +1,8 @@
 # Diyse Asset Forge
 
-**Status:** **v0.8 supplemental ZIP-intake checkpoint**
+**Status:** **v0.9 VFX structure-preservation checkpoint**
 
-Diyse Asset Forge automates conversion of the current asset library into the locked Diyse visual style while preserving source provenance, archive identity, atlas registration, animation stability, shared-material reuse, lighting families, technical QA, and explicit approval gates.
+Diyse Asset Forge automates conversion of the current asset library into the locked Diyse visual style while preserving source provenance, archive identity, atlas/grid registration, animation stability, paired masks, shared-material reuse, lighting families, technical QA, and explicit approval gates.
 
 ## Main entry points
 
@@ -10,11 +10,44 @@ Diyse Asset Forge automates conversion of the current asset library into the loc
 - `pipeline.py` — resumable/budget-safe atlas + animation processing.
 - `ops.py` — budget, lighting propagation, atlas/alpha/animation QA.
 - `prop_pack_pipeline.py` — one-command material-first glTF prop-family validation.
-- `zip_intake_engine.py` — inspect supplemental texture ZIPs without extraction; hash archives, classify internal paths, identify animations, and report duplicate groups.
+- `zip_intake_engine.py` — ZIP-native supplemental intake, now including metadata filtering and filename-grid metadata.
+- `vfx_intake_engine.py` — VFX-specific source-role, particle-pair and spritesheet/flipbook intake.
+- `vfx_processing_engine.py` — fixed-grid split/repack, small trailing-padding preservation, palette/transparency preservation and paired-particle validation.
 
-## Safe-batch foundation
+## v0.9 VFX structure preservation
 
-The general pipeline supports SHA-256 source identity, coordinate-locked atlas patching, animation-anchor + zero-call follower propagation, lighting-family propagation, hard AI-call caps, checkpoint/resume, seam/alpha/aspect/flicker QA, and deterministic review boards made from actual outputs.
+The verified CC0 Brackeys VFX bundle exposed source structures that ordinary texture handling must not flatten.
+
+Forge v0.9 therefore preserves:
+- filename-declared spritesheet/flipbook grids;
+- frame order and cell registration;
+- small transparent right/bottom canvas padding outside the declared active grid;
+- palette-mode transparency metadata;
+- particle color + alpha-mask pair registration;
+- RGB fire flipbooks for additive/emissive testing rather than forced alpha invention.
+
+Real-bundle QA:
+- **213** usable VFX images;
+- **28** predrawn/flipbook grid sheets;
+- **1,318** declared frames;
+- **3** padded grid sheets handled without changing frame count;
+- **92** matched particle color/alpha pairs;
+- **0** unmatched color sprites;
+- **1** alpha-only smoke variant;
+- **all 28 grid sheets split/repack with 0 pixel difference**.
+
+Padded source cases:
+- `star_explosion_6x5.png` — 4 transparent bottom rows;
+- `impact_white_6x4.png` — 1 transparent bottom row;
+- `flame_02_15x4.tga` — 8 transparent right columns.
+
+The declared grid remains authoritative; trailing padding remains canvas padding and is not treated as an extra frame.
+
+B06 authority:
+`docs/14_ART_AND_VISUALS/PRODUCTION/BENCHMARKS/B06_CC0_FIRE_LIGHT_EXECUTION_V1.md`
+
+Verified VFX provenance:
+`docs/14_ART_AND_VISUALS/PRODUCTION/ASSET_LIBRARY/VERIFIED_CC0_VFX_INTAKE_2026-08-31_BATCH2.md`
 
 ## v0.8 supplemental ZIP intake
 
@@ -26,7 +59,7 @@ python tools/asset_forge/zip_intake_engine.py \
   --output .asset_forge/zip_intake.json
 ```
 
-For authoritative member-level duplicate/provenance hashing:
+For authoritative member-level hashing:
 
 ```bash
 python tools/asset_forge/zip_intake_engine.py \
@@ -35,25 +68,15 @@ python tools/asset_forge/zip_intake_engine.py \
   --output .asset_forge/zip_intake_hashed.json
 ```
 
-The intake layer records:
-- archive SHA-256 and byte size;
-- ZIP member count and uncompressed bytes;
-- internal member path/size/CRC;
-- optional member SHA-256;
-- image dimensions/mode/alpha;
-- path-aware material family;
-- animation group/frame metadata;
-- duplicate candidate/exact groups depending on hashing mode.
+The intake layer records archive identity, member metadata, image dimensions/mode/alpha, path-aware category, sequence metadata, grid metadata, and duplicate groups without extracting source files into repository authority.
 
-The engine intentionally does **not** treat upload as license approval and does not extract raw source files into repository authority.
+Supplemental Batch 1 remains:
+> **INVENTORIED — PROVENANCE PENDING — FAMILY ROUTING READY**
 
-First real supplemental intake authority:
-
+Authority:
 `docs/14_ART_AND_VISUALS/PRODUCTION/ASSET_LIBRARY/SUPPLEMENTAL_USER_TEXTURE_INTAKE_2026-08-31_BATCH1.md`
 
-That batch contains six user-supplied archives, **4,607 file members / 4,606 PNGs**, approximately **1.42 GB ZIP size**, and only **7 SHA-confirmed exact duplicate pairs**. It remains pending provenance and is not merged into Asset Library Master v5.
-
-## v0.7 shared-material prop workflow
+## Shared-material prop workflow
 
 Across the verified 94-model Quaternius Fantasy Props MegaKit, the main shared BaseColor families are used by:
 - Metal — **60 models**;
@@ -61,73 +84,13 @@ Across the verified 94-model Quaternius Fantasy Props MegaKit, the main shared B
 - Props — **39 models**;
 - Cloth — **10 models**.
 
-B10 proves Furniture + Metal. Props + Cloth now have their own broader real-model candidate pass.
+B10 proves Furniture + Metal. Props + Cloth have a broader real-model candidate pass.
 
-### Data-driven material routing
-
-Forge resolves actual glTF bindings:
+Forge resolves the actual glTF chain:
 
 `MATERIAL → baseColorTexture → TEXTURE → IMAGE URI → SHARED FAMILY`
 
-This correctly handles non-obvious names such as:
-- `MI_Trim_Props_Vertex` → Props;
-- `MI_Banner` → Cloth.
-
-The prop pipeline no longer depends on family words appearing in material names.
-
-### `material_style_engine.py`
-
-Supported deterministic UV-safe kinds:
-- `wood` — Furniture;
-- `metal` — Metal;
-- `prop` — mixed Props atlas with hue/category preservation;
-- `cloth` — soft fold/value treatment with minimal texture-space ink.
-
-All treatments preserve exact texture dimensions and UV registration.
-
-### PBR handling
-
-`pbr_qa_engine.py` evaluates source Normal/ORM data before changes.
-
-Current examples:
-- B10 Furniture normal triggers automatic attenuation;
-- Props source Normal/ORM remains usable for the first family pass;
-- Cloth source Normal is restrained and its roughness is nearly fully matte, so it remains unchanged for the first family pass.
-
-`model_render_engine.py` resolves ORM family from the actual BaseColor texture path, allowing Props/Cloth and renamed/exception materials to receive correct source PBR validation data.
-
-### Real-model validation
-
-B10 approved set:
-- Barrel;
-- Chair_1;
-- Lantern_Wall;
-- Workbench.
-
-Broader Props/Cloth candidate set:
-- Bottle_1;
-- Book_5;
-- Potion_1;
-- Banner_1_Cloth;
-- Bag;
-- Bed_Twin1.
-
-Both flows use real glTF assets, neutral/warm/cool validation, shared physical-scale previews, and deterministic review sheets.
-
-## Install
-
-```bash
-python -m pip install -r tools/asset_forge/requirements.txt
-```
-
-Dependencies:
-- Pillow
-- NumPy
-- OpenCV (headless)
-- trimesh
-- OpenAI Python SDK
-
-Set `OPENAI_API_KEY` only in the environment. Never commit keys.
+`material_style_engine.py` supports UV-safe Furniture/wood, Metal, mixed Props, and Cloth treatments. PBR data is retained or rebalanced only when QA requires it.
 
 ## General image workflow
 
@@ -156,9 +119,15 @@ python tools/asset_forge/pipeline.py process .asset_forge/queue.jsonl \
   --resume
 ```
 
-## One-command prop-family validation
+VFX structural QA:
 
-B10:
+```bash
+python tools/asset_forge/vfx_processing_engine.py \
+  /path/to/brackeys_vfx_bundle.zip \
+  --output .asset_forge/vfx_processing_manifest.json
+```
+
+## One-command prop-family validation
 
 ```bash
 python tools/asset_forge/prop_pack_pipeline.py \
@@ -167,22 +136,11 @@ python tools/asset_forge/prop_pack_pipeline.py \
   --output-root .asset_forge/b10_prop_pilot
 ```
 
-Props/Cloth family candidate:
-
-```bash
-python tools/asset_forge/prop_pack_pipeline.py \
-  "asset_sources/third_party_cc0/Fantasy Props MegaKit[Standard].zip" \
-  --models Bottle_1 Book_5 Potion_1 Banner_1_Cloth Bag Bed_Twin1 \
-  --output-root .asset_forge/props_cloth_family
-```
-
-Outputs include required source dependencies, styled shared BaseColor trims, QA-triggered Normal candidates, PBR diagnostics, emissive metadata where applicable, neutral/warm/cool model renders, a deterministic review sheet, gameplay-scale preview, and manifest.
-
 ## Provenance
 
 Forge never overwrites source files.
 
-License-unverified Map001–Map116 material remains license-unverified after Forge treatment. User-supplied supplemental archives also remain license-unverified until evidence is recorded. Verified CC0 sources may be directly transformed and promoted after style/runtime review.
+License-unverified Map001–Map116 material and Supplemental Batch 1 remain license-unverified. Verified CC0 sources such as Quaternius and the Brackeys VFX bundle may be directly transformed and promoted after Diyse style/runtime review.
 
 All work products remain under git-ignored `.asset_forge/` until deliberately promoted.
 
@@ -192,34 +150,23 @@ All work products remain under git-ignored `.asset_forge/` until deliberately pr
 python -m unittest discover -s tools/asset_forge/tests -p "test_*.py"
 ```
 
-Coverage includes the atlas/animation/lighting/budget/resume foundation plus shared-material detection, actual glTF material-to-image routing, four-family material styling, hue preservation for Props/Cloth, UV occupancy, PBR flags/rebalance, emissive anchors, real glTF rendering, gameplay-scale validation, and ZIP-native supplemental intake/classification/duplicate handling.
+Coverage includes atlas/animation/lighting/budget/resume behavior, shared 3D materials, UV/PBR handling, real glTF rendering, ZIP-native intake, VFX grid parsing, padded-grid reconstruction, palette transparency preservation and particle-pair validation.
 
 ## Current production gates
 
-B10:
-> **STYLE-PASS APPROVED — GAMEPLAY/RUNTIME TEST READY**
+- B01 — **STYLE-PASS APPROVED — GAMEPLAY TEST READY**
+- B03 — **STYLE-PASS APPROVED — GAMEPLAY TEST READY**
+- B06 — **SOURCE ANALYSIS COMPLETE — TECHNICAL STYLE PILOT READY**
+- B10 — **STYLE-PASS APPROVED — GAMEPLAY/RUNTIME TEST READY**
+- Props/Cloth shared families — **REAL-MODEL FAMILY CANDIDATE — USER REVIEW PENDING**
+- Supplemental Texture Batch 1 — **INVENTORIED — PROVENANCE PENDING**
+- Verified CC0 VFX Batch 2 — **INTAKE COMPLETE — STYLE/RUNTIME VALIDATION READY**
 
-Authority:
-`docs/14_ART_AND_VISUALS/PRODUCTION/BENCHMARKS/B10_STYLE_PASS_APPROVAL_V1.md`
-
-Props/Cloth shared families:
-> **REAL-MODEL FAMILY CANDIDATE — USER REVIEW PENDING**
-
-Authority:
-`docs/14_ART_AND_VISUALS/PRODUCTION/CC0_PROP_CLOTH_FAMILY_VALIDATION_CANDIDATE_V1.md`
-
-Supplemental texture Batch 1:
-> **INVENTORIED — PROVENANCE PENDING — FAMILY ROUTING READY**
-
-Authority:
-`docs/14_ART_AND_VISUALS/PRODUCTION/ASSET_LIBRARY/SUPPLEMENTAL_USER_TEXTURE_INTAKE_2026-08-31_BATCH1.md`
-
-The new batch materially expands Metal, Concrete, Brick, terrain, Wood, emission/light, Fire, ritual/mystic, Water, Glass, Marble and Foliage source families. It should be processed family-first after provenance/storage decisions, not file-by-file.
+The next B06 step is a bounded Diyse-style fire/light candidate using one open flame, one full fire body, one ring/ground-fire family, sparks and soft light/flare primitives. It must pass temporal, alpha/emission and runtime-scale tests before STYLE-PASS.
 
 ## Authority
 
 Visual style: `docs/14_ART_AND_VISUALS/DIYSE_VISUAL_STYLE_CANON.md`  
-Shared prop grammar: `docs/14_ART_AND_VISUALS/PRODUCTION/DIYSE_CC0_PROP_MATERIAL_GRAMMAR_V1.md`  
 Conversion rules: `docs/14_ART_AND_VISUALS/PRODUCTION/ASSET_STYLE_CONVERSION_PIPELINE.md`  
 Forge routing: `docs/14_ART_AND_VISUALS/PRODUCTION/ASSET_FORGE_AUTOMATION.md`  
-Asset provenance: `docs/14_ART_AND_VISUALS/PRODUCTION/ASSET_LIBRARY/README.md`
+Asset provenance/index: `docs/14_ART_AND_VISUALS/PRODUCTION/ASSET_LIBRARY/SUPPLEMENTAL_INTAKE_INDEX.md`
