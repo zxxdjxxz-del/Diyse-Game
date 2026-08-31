@@ -45,6 +45,24 @@ class AssetForgeTests(unittest.TestCase):
             planned = forge.plan([rec])[0]
             self.assertEqual(planned["action"], "structure_preserving_pass")
 
+    def test_contact_sheet_uses_actual_outputs(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            out = root / "styled.png"
+            Image.new("RGBA", (64, 32), (30, 100, 40, 200)).save(out)
+            sheet = root / "sheet.png"
+            forge.make_contact_sheet([
+                {
+                    "relative_path": "tree.png",
+                    "category": "foliage",
+                    "status": "generated",
+                    "output_path": str(out),
+                    "qa": {"status": "review"},
+                }
+            ], sheet, columns=1, thumb=64)
+            self.assertTrue(sheet.exists())
+            self.assertGreater(sheet.stat().st_size, 0)
+
 
 if __name__ == "__main__":
     unittest.main()
