@@ -30,18 +30,18 @@ Use current files in `../ORDINARY_ENEMIES/` for enemy raw bodies and `10_PROGRES
 | Formation | Composition | Weight |
 |---|---|---:|
 | Protocol Line | 2 Administrative Sentinel + Permission Scribe + Element Matrix + Grace Curator | 30% |
-| Bastion Filing | Administrative Sentinel + Permission Scribe + Might Bastion + Grace Curator + Change Schema | 45% |
-| Matrix Screen | Administrative Sentinel + Might Bastion + 2 Element Matrix + Permission Scribe + Change Schema | 25% |
+| Bastion Filing | Administrative Sentinel + Permission Scribe + Might Bastion + Grace Curator + Memory Schema | 45% |
+| Matrix Screen | Administrative Sentinel + Might Bastion + 2 Element Matrix + Permission Scribe + Memory Schema | 25% |
 
 ## Late — Custodian domain
 | Formation | Composition | Weight |
 |---|---|---:|
 | Administrative Lock | 2 Administrative Sentinel + Permission Scribe + Might Bastion + Grace Curator | 30% |
-| Sixfold Archive | Administrative Sentinel + Permission Scribe + Might Bastion + Element Matrix + Grace Curator + Change Schema | 45% |
-| Trial Stack | Administrative Sentinel + 2 Might Bastion + Element Matrix + Permission Scribe + Change Schema | 25% |
+| Sixfold Archive | Administrative Sentinel + Permission Scribe + Might Bastion + Element Matrix + Grace Curator + Memory Schema | 45% |
+| Trial Stack | Administrative Sentinel + 2 Might Bastion + Element Matrix + Permission Scribe + Memory Schema | 25% |
 
 ## Guardrails
-- support objects such as Authentication Lens, Living Anchor Clamp, Acuity Node, and Ruin Containment Seal remain boss/support architecture and are not random-formation bodies;
+- support objects such as Authentication Lens, Living Anchor Clamp, Perception Node, and Ruin Containment Seal remain boss/support architecture and are not random-formation bodies;
 - Crown Engine Technician remains authored/protected/nonlethal and does not enter the random pool;
 - Perfect Administrator remains the optional Elite and does not enter the random pool;
 - ordinary actions without explicit current weights use `../ACTION_SELECTION_DEFAULT.md`; explicit weights override the fallback;
