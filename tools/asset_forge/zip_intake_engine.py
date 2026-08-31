@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-"""ZIP-native texture intake for Diyse Asset Forge.
-
-Scans user/source texture archives without extracting them. Records archive SHA-256,
-member metadata, image dimensions/mode, path-aware material classification, animation
-families, and duplicate candidates. Raw archives remain outside Git authority unless
-provenance/storage policy explicitly allows them.
-"""
+"""ZIP-native texture/VFX intake for Diyse Asset Forge v0.9."""
 from __future__ import annotations
 
 import argparse
@@ -22,6 +16,7 @@ from PIL import Image
 
 IMAGE_EXTS = {'.png', '.jpg', '.jpeg', '.webp', '.tga'}
 FRAME_RE = re.compile(r'(?i)(?:^|[_-])frame[_-]?(\d+)|(?:^|[_-])(\d+)$')
+GRID_RE = re.compile(r'_(\d+)x(\d+)(?:\.[^.]+)$', re.IGNORECASE)
 
 CATEGORY_RULES = [
     ('emission', ('emission', 'lumen', 'light_', '/lights/', 'aimpoit', 'flure')),
@@ -48,11 +43,20 @@ def sha256_file(path: Path) -> str:
     return h.hexdigest()
 
 
+def is_metadata_path(name: str) -> bool:
+    norm = name.replace('\\', '/')
+    base = Path(norm).name
+    return norm.startswith('__MACOSX/') or '/__MACOSX/' in norm or base == '.DS_Store' or base.startswith('._')
+
+
+def parse_grid(member: str) -> tuple[int, int] | None:
+    match = GRID_RE.search(Path(member).name)
+    return (int(match.group(1)), int(match.group(2))) if match else None
+
+
 def classify_path(member: str, archive_name: str = '') -> str:
     text = ('/' + archive_name + '/' + member).replace('\\', '/').lower()
     if archive_name.lower().startswith('emission'):
-        # Emission archives can still contain door/metal companion masks, but their
-        # production role is emissive/support data rather than ordinary BaseColor.
         return 'emission'
     for category, tokens in CATEGORY_RULES:
         if any(token in text for token in tokens):
@@ -71,13 +75,12 @@ def animation_group(member: str) -> tuple[str | None, int | None]:
         return None, None
     frame = int(next(group for group in match.groups() if group is not None))
     group_stem = re.sub(r'(?i)(?:[_-]?frame[_-]?\d+|[_-]\d+)$', '', stem)
-    group = str(Path(normalized).with_name(group_stem))
-    return group, frame
+    return str(Path(normalized).with_name(group_stem)), frame
 
 
-def inspect_member(archive: zipfile.ZipFile, info: zipfile.ZipInfo, archive_name: str,
-                   hash_member: bool = False) -> dict:
+def inspect_member(archive: zipfile.ZipFile, info: zipfile.ZipInfo, archive_name: str, hash_member: bool = False) -> dict:
     suffix = Path(info.filename).suffix.lower()
+    grid = parse_grid(info.filename)
     row = {
         'archive': archive_name,
         'member': info.filename,
@@ -85,6 +88,9 @@ def inspect_member(archive: zipfile.ZipFile, info: zipfile.ZipInfo, archive_name
         'crc32': f'{info.CRC:08x}',
         'extension': suffix,
         'category': classify_path(info.filename, archive_name),
+        'grid_cols': grid[0] if grid else None,
+        'grid_rows': grid[1] if grid else None,
+        'grid_frames': grid[0] * grid[1] if grid else None,
     }
     group, frame = animation_group(info.filename)
     row['animation_group'] = group
@@ -107,11 +113,13 @@ def inspect_member(archive: zipfile.ZipFile, info: zipfile.ZipInfo, archive_name
 
 
 def scan_archives(paths: Iterable[Path], hash_members: bool = False) -> dict:
-    archives = []
-    members = []
+    archives, members = [], []
+    ignored_metadata = 0
     for path in paths:
         with zipfile.ZipFile(path) as archive:
-            infos = [info for info in archive.infolist() if not info.is_dir()]
+            all_infos = [info for info in archive.infolist() if not info.is_dir()]
+            ignored_metadata += sum(1 for info in all_infos if is_metadata_path(info.filename))
+            infos = [info for info in all_infos if not is_metadata_path(info.filename)]
             before = len(members)
             for info in infos:
                 members.append(inspect_member(archive, info, path.name, hash_member=hash_members))
@@ -122,36 +130,34 @@ def scan_archives(paths: Iterable[Path], hash_members: bool = False) -> dict:
                 'bytes': path.stat().st_size,
                 'sha256': sha256_file(path),
                 'file_members': len(infos),
+                'ignored_metadata_members': len(all_infos) - len(infos),
                 'uncompressed_bytes': sum(info.file_size for info in infos),
                 'categories': dict(sorted(Counter(row['category'] for row in rows).items())),
-                'dimensions': [
-                    {'size': f'{w}x{h}', 'count': count}
-                    for (w, h), count in Counter(
-                        (row['width'], row['height']) for row in rows if 'width' in row
-                    ).most_common()
-                ],
+                'dimensions': [{'size': f'{w}x{h}', 'count': count} for (w, h), count in Counter((row['width'], row['height']) for row in rows if 'width' in row).most_common()],
             })
 
-    duplicate_key = 'sha256' if hash_members else 'crc_size'
     grouped = defaultdict(list)
     for row in members:
         key = row.get('sha256') if hash_members else (row['bytes'], row['crc32'])
         grouped[key].append({'archive': row['archive'], 'member': row['member']})
     duplicates = [group for group in grouped.values() if len(group) > 1]
-
     animation_counts = Counter(row['animation_group'] for row in members if row.get('animation_group'))
+    grid_sheets = [row for row in members if row.get('grid_frames')]
     return {
         'archives': archives,
         'totals': {
             'archives': len(archives),
             'file_members': len(members),
+            'ignored_metadata_members': ignored_metadata,
             'image_members': sum(1 for row in members if row['extension'] in IMAGE_EXTS),
             'uncompressed_bytes': sum(row['bytes'] for row in members),
             'categories': dict(sorted(Counter(row['category'] for row in members).items())),
             'animation_groups': len(animation_counts),
+            'grid_sheets': len(grid_sheets),
+            'grid_frames': sum(row['grid_frames'] for row in grid_sheets),
         },
         'animation_groups': dict(sorted(animation_counts.items())),
-        'duplicate_basis': duplicate_key,
+        'duplicate_basis': 'sha256' if hash_members else 'crc_size',
         'duplicate_groups': duplicates,
         'members': members,
     }
@@ -160,20 +166,13 @@ def scan_archives(paths: Iterable[Path], hash_members: bool = False) -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser(prog='diyse-zip-intake')
     parser.add_argument('archives', nargs='+', type=Path)
-    parser.add_argument('--hash-members', action='store_true', help='SHA-256 every member; slower but authoritative')
+    parser.add_argument('--hash-members', action='store_true')
     parser.add_argument('--output', type=Path, default=Path('.asset_forge/zip_intake.json'))
     args = parser.parse_args()
     result = scan_archives(args.archives, hash_members=args.hash_members)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2), encoding='utf-8')
-    print(json.dumps({
-        'archives': result['totals']['archives'],
-        'files': result['totals']['file_members'],
-        'images': result['totals']['image_members'],
-        'animation_groups': result['totals']['animation_groups'],
-        'duplicate_groups': len(result['duplicate_groups']),
-        'output': str(args.output),
-    }, indent=2))
+    print(json.dumps({k: result['totals'][k] for k in ('archives','file_members','image_members','ignored_metadata_members','grid_sheets','grid_frames','animation_groups')}, indent=2))
     return 0
 
 
