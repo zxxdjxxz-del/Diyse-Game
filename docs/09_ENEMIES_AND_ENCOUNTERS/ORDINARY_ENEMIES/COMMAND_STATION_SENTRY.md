@@ -31,7 +31,7 @@ True construct:
 > **Power: N/A — no direct damage**
 
 Effect:
-> **Speed +10 through the end of the following round**
+> **Speed +10% through the end of the following round**
 
 No extra action.
 2-round repetition lock.
@@ -44,6 +44,6 @@ No extra action.
 Chapter-10 actions:
 - Command Blade — **220 Power**, Physical / Neutral, Base Hit100
 - Station Pulse — **210 Power**, Magical / Lightning, Base Hit100, **20% Stun**, 2-round repetition lock
-- Reposition Protocol — **Power N/A**, Speed +10 through end following round, no extra action
+- Reposition Protocol — **Power N/A**, Speed +10% through end following round, no extra action
 
 True construct: **Bleed Immune**

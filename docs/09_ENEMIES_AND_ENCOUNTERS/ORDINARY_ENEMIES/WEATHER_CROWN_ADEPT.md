@@ -30,7 +30,7 @@
 > **Power: N/A — no direct damage**
 
 Effect:
-> **Spirit +10 through the end of the following round**
+> **Spirit +10% through the end of the following round**
 
 2-round repetition lock.
 

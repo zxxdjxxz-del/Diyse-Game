@@ -35,7 +35,7 @@ Target:
 Effect:
 - Attack +10%
 - Magic +10%
-- Spirit +10
+- Spirit +10%
 
 through the end of the following round.
 

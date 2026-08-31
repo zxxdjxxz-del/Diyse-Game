@@ -24,5 +24,5 @@ True construct: **Bleed Immune**
 
 ### Guard
 > **Power: N/A — no direct damage**
-- +15 Total Defense through end following round
+- Defense +15% / Spirit +15% through end following round
 - 2-round repetition lock

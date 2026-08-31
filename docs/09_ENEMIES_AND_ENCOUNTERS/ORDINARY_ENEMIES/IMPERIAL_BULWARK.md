@@ -31,7 +31,7 @@ Target:
 > self and one other living allied Black Host military unit if available
 
 Effect:
-> **+10 Total Defense through the end of the following round**
+> **Defense +10% / Spirit +10% through the end of the following round**
 
 No extra action.
 2-round repetition lock.

@@ -35,5 +35,5 @@ True construct:
 ### Chassis Guard
 > **Power: N/A — no direct damage**
 Effect:
-> **+15 Total Defense through the end of the following round**
+> **Defense +15% / Spirit +15% through the end of the following round**
 2-round repetition lock.

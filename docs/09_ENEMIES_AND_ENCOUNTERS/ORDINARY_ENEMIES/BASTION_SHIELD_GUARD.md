@@ -28,7 +28,7 @@
 > **Power: N/A — no direct damage**
 
 Effect:
-> one other living Black Host ally gains **+10 Total Defense through the end of the following round**
+> one other living Black Host ally gains **Defense +10% / Spirit +10% through the end of the following round**
 
 If no other living ally exists:
 > the Guard applies the effect to itself.

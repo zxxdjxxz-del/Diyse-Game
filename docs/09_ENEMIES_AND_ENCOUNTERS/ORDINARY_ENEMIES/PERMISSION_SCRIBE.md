@@ -20,6 +20,6 @@ True construct: **Bleed Immune**
 ### Grant Priority
 > **Power: N/A — no direct damage**
 - one other living allied construct
-- Speed +10 / Base Hit +10 through end following round
+- Speed +10% / Base Hit +10 through end following round
 - no extra action
 - if no legal ally exists, use Permission Ray

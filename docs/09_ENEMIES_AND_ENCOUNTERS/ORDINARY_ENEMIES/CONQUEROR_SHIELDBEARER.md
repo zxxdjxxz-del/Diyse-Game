@@ -27,7 +27,7 @@
 Target:
 > self and one other living allied Black Host unit if available
 Effect:
-> **+10 Total Defense through the end of the following round**
+> **Defense +10% / Spirit +10% through the end of the following round**
 No extra action.
 2-round repetition lock.
 No Barrier. No Brace.
@@ -40,5 +40,5 @@ No Barrier. No Brace.
 Chapter-9 actions:
 - Shield Edge — **215 Power**
 - Conqueror Bash — **245 Power**, **25% Staggered**
-- Hold the Line — **Power N/A**, +10 Total Defense to self and one ally
+- Hold the Line — **Power N/A**, Defense +10% / Spirit +10% to self and one ally through the end of the following round
 No Barrier. No Brace.

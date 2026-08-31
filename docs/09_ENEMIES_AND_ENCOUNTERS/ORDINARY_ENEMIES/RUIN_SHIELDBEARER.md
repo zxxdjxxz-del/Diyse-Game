@@ -29,7 +29,7 @@
 > **Power: N/A — no direct damage**
 
 Effect:
-> **+15 Total Defense through the end of the following round**
+> **Defense +15% / Spirit +15% through the end of the following round**
 
 Guard is the valid authored defensive state.
 No Brace or Barrier is created.
@@ -46,7 +46,7 @@ Chapter-0 raw use remains pending the Chapter-0 encounter-sheet reconciliation.
 Chapter-0 actions:
 - Shield Bash — **105 Power**, Physical / Neutral, Base Hit100
 - Ruin Thrust — **125 Power**, Hybrid / Ruin75/25, Base Hit100
-- Guard — **Power N/A**, +10 Total Defense through end following round, 2-round repetition lock
+- Guard — **Power N/A**, Defense +10% / Spirit +10% through end following round, 2-round repetition lock
 
 No Barrier.
 No Brace.
