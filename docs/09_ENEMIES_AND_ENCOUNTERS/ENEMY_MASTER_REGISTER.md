@@ -2,9 +2,8 @@
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
 **Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
-
+**Current whole-project written authority:** **v2.20 / Audit135** plus newer accepted corrections.  
+**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and current Prime-restoration rules supersede stale earlier enemy text.
 
 This is a **chapter-role register**, so a recurring identity may appear in multiple chapters.
 
@@ -180,15 +179,15 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 11 | Ordinary/carryover | Might Bastion |
 | 11 | Ordinary/carryover | Element Matrix |
 | 11 | Ordinary/carryover | Grace Curator |
-| 11 | Ordinary/carryover | Change Schema |
+| 11 | Ordinary/carryover | Memory Schema |
 | 11 | Support | Authentication Lens |
 | 11 | Support | Living Anchor Clamp |
-| 11 | Support | Acuity Node |
+| 11 | Support | Perception Node |
 | 11 | Support | Ruin Containment Seal |
 | 11 | Authored/protected | Crown Engine Technician — protected authored nonlethal |
 | 11 | Elite | Perfect Administrator |
 | 11 | Mandatory named/boss | Chancellor Othmar Calder — Protector of Continuity → Crown-Bound Living Anchor — genuine fresh body |
-| 11 | Mandatory named/boss | The Custodian — one bar / Administrative Closure → Open Reconciliation at 45%; Acuity Node + Ruin Containment Seal supports |
+| 11 | Mandatory named/boss | The Custodian — one bar / Administrative Closure → Open Reconciliation at 45%; Perception Node + Ruin Containment Seal supports |
 | 11 | Regional Hunt | Regional Hunt #10 — Authority Remnant |
 | 12 | Ordinary/carryover | Reforged Legionary |
 | 12 | Ordinary/carryover | Imperial Bulwark |
@@ -233,7 +232,6 @@ Do not treat the number of rows in this chapter-role ledger as a unique-identity
 Repeated/carryover enemies intentionally appear more than once.
 Support-only roles and fresh forms are also represented separately.
 
-
 ## Chapter-1 Power-pass status
 Chapter-1 ordinary/Elite/authored encounter coverage:
 > **PASS**
@@ -260,7 +258,6 @@ These are additive/current encounter identities, not evidence that Riftmaw is ob
 
 Do not declare Chapter 0 Power-complete until the S005 encounter is correctly placed and specified alongside the retained Riftmaw encounter.
 
-
 ## Chapter-2 Power-pass status
 Chapter-2 ordinary / authored / Elite batch:
 > **PASS**
@@ -279,7 +276,6 @@ Status rollout:
 - Bleed retained
 - no Stun / Freeze
 
-
 ## Chapter-3 Power-pass status
 Current line-complete Chapter-3 combat content:
 > **MAIN BATCH PASS**
@@ -297,7 +293,6 @@ Open:
 It is retained in the roster but not inserted into S018 without evidence.
 
 Regional Hunt #3 remains separate.
-
 
 ## Chapter-4 Power-pass status
 Chapter-4 ordinary / Elite / protected-roster action pass:
@@ -327,7 +322,6 @@ Chapter 4 introduces:
 
 Regional Hunt #4 remains separate.
 
-
 ## Chapter-5 Power-pass status
 Chapter-5 ordinary / Elite / protected action pass:
 > **PASS**
@@ -353,7 +347,6 @@ Already separately complete:
 - their support objects
 
 Regional Hunt #5 remains separate.
-
 
 ## Chapter-6 Power-pass status
 Chapter-6 ordinary / Elite / authored-special action pass:
@@ -391,7 +384,6 @@ No Wind/Water element.
 No Poison/Blood status.
 
 Regional Hunt #6 remains separate.
-
 
 ## Chapter-7 Power-pass status
 Chapter-7 ordinary / Elite / authored-special action pass:
@@ -506,7 +498,7 @@ Registry Warden's existing status-neutral one-bar Power-complete certification i
 Chapter-11 ordinary / Elite / authored-protected action pass: **PASS**
 
 Ordinary complete:
-Crown Engine Sentinel; Continuity Adjudicator; Emergency Executor Frame; Administrative Sentinel; Permission Scribe; Might Bastion; Element Matrix; Grace Curator; Change Schema.
+Crown Engine Sentinel; Continuity Adjudicator; Emergency Executor Frame; Administrative Sentinel; Permission Scribe; Might Bastion; Element Matrix; Grace Curator; Memory Schema.
 
 Authored/protected:
 - Crown Engine Technician — Power-complete / nonlethal / placement bounded
@@ -518,7 +510,6 @@ Calder/Custodian supports and mandatory encounters remain separately complete an
 
 Face terminology does not grant enemy Card use.
 Regional Hunt #10 remains separate.
-
 
 ## Chapter-12 Power-pass status
 Chapter-12 ordinary / Elite / authored-protected action pass:
@@ -552,7 +543,6 @@ Civilian populations remain non-default enemies.
 
 Regional Hunt #11 and its Attendant Frames remain separate.
 
-
 ## Chapter-13 Power-pass status
 Chapter-13 ordinary / Elite / final-support action pass:
 > **PASS**
@@ -581,7 +571,6 @@ Mandatory final bosses remain separately complete and unchanged.
 
 No Regional Hunt in Chapter 13.
 
-
 ## Chapter-0 v72 completion
 Chapter-0 encounter-order / remaining-kit reconciliation:
 > **PASS**
@@ -607,13 +596,12 @@ Ruin Vanguard Pursuer:
 > **Seyrik concealed / protected retreat / Power complete**
 
 S005:
-> War-Sorcerer is victory target; surviving Soldier withdraws; three-round +15 Total Defense authored protection; Rift Lance Preparation Round2+.
+> War-Sorcerer is victory target; surviving Soldier withdraws; three-round **Defense +15% / Spirit +15%** authored protection; Rift Lance Preparation Round2+.
 
 Chapter 0:
 > no harmful party statuses / Player-Level static
 
 All Chapter-0 enemy identities now have exact direct-damage Power.
-
 
 ## Regional Hunt Power closure — v73
 Regional Hunts:
@@ -624,12 +612,11 @@ Support closure:
 - Authority Attendant Frame — HP1,450 / Power N/A
 - Renewal Attendant Frame — HP1,350 / Power N/A
 
-Only Throne of Emperor Vaelkor uses a genuine fresh second body and refreshes Prime availability.
+Only Throne of Emperor Vaelkor uses a genuine fresh second body among Regional Hunts; that fresh body **does not restore spent Prime identities** under current Prime rules.
 
 Winterglass Titan / Rift Gate Colossus remain same-bar state encounters.
 
 Major Hunts remain separate.
-
 
 ## Major Hunt Power closure — v74
 Major Hunts:
