@@ -1,6 +1,6 @@
 # Diyse — Asset Forge Automation
 
-**Status:** ACTIVE AUTOMATION IMPLEMENTATION — v0.5 material-first prop-pack checkpoint  
+**Status:** ACTIVE AUTOMATION IMPLEMENTATION — v0.6 prop-family refinement checkpoint  
 **Core:** `../../../tools/asset_forge/forge.py`  
 **Processor:** `../../../tools/asset_forge/pipeline.py`  
 **Operations:** `../../../tools/asset_forge/ops.py`  
@@ -11,192 +11,156 @@
 
 ## Purpose
 
-Asset Forge automates repetitive asset conversion while keeping source/reference material, generated style-pass candidates, deterministic QA/review, and explicitly approved Diyse-final assets separate.
+Asset Forge automates repetitive asset conversion while keeping source/reference material, generated or deterministic style-pass candidates, technical QA, real-asset review, and explicitly approved Diyse-final assets separate.
 
-It is an implementation tool, not visual authority. Generated output that conflicts with current visual canon or the conversion pipeline is rejected.
+It is an implementation tool, not visual authority. Output that conflicts with current visual canon or the conversion pipeline is rejected.
 
 ## Current automated flow
 
-`SOURCE → INVENTORY → CLASSIFY → SHARED-MATERIAL ANALYSIS → PLAN → BUDGET → STYLE/PROPAGATE → CHECKPOINT → QA → REAL-ASSET RENDER → DETERMINISTIC REVIEW → APPROVE/REDO → DIYSE-FINAL`
+`SOURCE → INVENTORY → CLASSIFY → SHARED-MATERIAL ANALYSIS → PLAN → BUDGET → STYLE/PROPAGATE → PBR QA/REBALANCE → CHECKPOINT → REAL-ASSET RENDER → GAMEPLAY-SCALE PREVIEW → DETERMINISTIC REVIEW → APPROVE/REDO → DIYSE-FINAL`
 
-## Core capabilities
+## Existing safe-batch foundation
 
-### Inventory and planning
+Forge already provides:
+- SHA-256 source identity and treatment routing;
+- coordinate-locked atlas patching and reconstruction;
+- animation-anchor generation plus zero-call follower propagation;
+- base + alternate/directional lighting propagation;
+- seam, alpha, aspect, and temporal/flicker QA;
+- image-generation call estimation and hard `--max-ai-calls` caps;
+- whole-atlas budget blocking;
+- checkpoint/resume reuse when source SHA still matches;
+- deterministic review sheets made from actual outputs rather than generated infographics.
 
-Records and routes SHA-256 source identity, dimensions, alpha, category, animation grouping, lighting-family grouping, treatment mode, action queue, and category-specific Diyse style prompts.
+## v0.5–v0.6 material-first 3D prop workflow
 
-### Coordinate-safe atlases
+The verified Quaternius prop pack showed that model-first conversion would waste work because many models share a small number of trim atlases.
 
-`atlas_engine.py` splits large atlases into fixed-coordinate overlapping patches, forbids patch-size drift, never rearranges atlas coordinates, feather-blends overlaps, can restore source alpha, and reconstructs identity input pixel-exactly in regression tests.
-
-### Animation propagation
-
-`animation_engine.py` directly styles one anchor frame, learns non-spatial palette/edge behavior, propagates that behavior to follower frames using their own moving geometry, preserves source alpha, and spends zero additional image-generation calls on followers.
-
-### Lighting-family propagation
-
-`lighting_engine.py` transfers the source lighting state's relative RGB behavior onto an approved styled base. This supports base + alternate/directional lighting families such as `ra`–`rf` without independently redrawing every state.
-
-### Technical QA
-
-`qa_engine.py` adds atlas seam-regression scoring, alpha-edge/fringe diagnostics, and animation temporal/flicker regression. The original `forge.py qa` still supplies output existence, dimensions, alpha, and aspect checks.
-
-### Budget safety and resume
-
-`budget_engine.py`, `ops.py`, and `pipeline.py` provide generation-call preflight, hard `--max-ai-calls` caps, whole-atlas budget blocking, checkpointing, and `--resume` reuse when source SHA and output files still match.
-
-## v0.5 — material-first 3D prop workflow
-
-The B10 real-source pilot exposed a major production optimization: many 3D props share a small number of trim/material atlases. Forge now treats shared-material libraries **material-first rather than model-first**.
-
-### `shared_material_engine.py`
-
-Reads glTF files directly from source ZIPs and records:
-- model names;
-- material names;
-- image dependencies;
-- external buffer dependencies;
-- BaseColor usage by model;
-- full-pack shared-material counts.
-
-On the verified 94-model Quaternius Fantasy Props MegaKit, the main shared BaseColor families are used by:
+`shared_material_engine.py` analyzes actual glTF dependencies. Across the 94 verified CC0 props, major shared BaseColor families are used by:
 - Metal — **60 models**;
 - Furniture — **41 models**;
 - Props — **39 models**;
 - Cloth — **10 models**.
 
-For B10's four representative props, only Furniture + Metal BaseColor sheets are required.
+For B10's Barrel / Chair_1 / Lantern_Wall / Workbench benchmark, only Furniture + Metal BaseColor families are required.
 
 ### `material_style_engine.py`
 
-Provides a deterministic, UV-safe, zero-generation-call baseline for shared trim sheets.
-
-It preserves exact texture dimensions and coordinates while applying:
-- broad value grouping;
-- painterly palette normalization;
-- selective dark edge/grain accents;
-- reduced micro-noise;
-- separate wood and metal material behavior.
-
-This is intentionally conservative. It is a safe baseline and fallback, not automatic artistic approval.
+The deterministic UV-safe v2 material backend now:
+- preserves exact dimensions and UV registration;
+- builds broad painterly value planes first;
+- preserves sparse meaningful existing dark marks instead of generating a full edge field;
+- filters small isolated line fragments;
+- keeps wood line density quieter than the first technical baseline;
+- gives metal stronger controlled light/dark separation;
+- remains a zero-generation-call baseline/fallback rather than automatic artistic approval.
 
 ### `uv_usage_engine.py`
 
-Rasterizes actual glTF UV triangles into texture-space usage masks, including wrapped UVs.
+Rasterizes actual glTF UV triangles into usage masks so Forge can determine which parts of a shared trim sheet selected models actually sample. B10's Barrel + Chair_1 + Workbench use about **29%** of the Furniture trim sheet.
 
-Uses:
-- determine what percentage of a shared trim sheet selected models actually sample;
-- identify active atlas patches for optional AI-assisted edits;
-- avoid spending generation calls on irrelevant regions;
-- preserve exact UV registration.
+This enables future AI-assisted material work to target active UV regions rather than blindly editing whole 2048 atlases.
 
-For B10's Barrel + Chair_1 + Workbench Furniture material, measured UV coverage is about **29%** of the 2048 trim sheet.
+### `pbr_qa_engine.py` + `normal_rebalance_engine.py`
 
-### `pbr_qa_engine.py`
+PBR QA evaluates Normal/ORM data before modification.
 
-Runs static diagnostics on Normal and ORM maps before modifying them.
+B10 source findings:
+- Furniture roughness is predominantly matte;
+- Metal roughness is moderately rough, not mirror-glossy;
+- Furniture normal intensity crosses the `strong_normal_review` gate;
+- Metal does not require the same correction.
 
-The first B10 scan found:
-- Furniture roughness is already predominantly matte;
-- Metal roughness is moderately rough rather than mirror-glossy;
-- Furniture normal intensity triggers a `strong_normal_review` flag;
-- Metal normal/roughness data does not currently trigger an automatic review flag.
+When flagged, `normal_rebalance_engine.py` attenuates tangent X/Y strength while preserving UV registration.
 
-Forge therefore does not blindly rebuild Normal/ORM maps merely because BaseColor was restyled.
+For the B10 Furniture normal:
+- source XY `> 0.5`: approximately **25.2%**;
+- source XY `> 0.75`: approximately **13.4%**;
+- after 0.72 rebalance, XY `> 0.5`: approximately **16.6%**;
+- after 0.72 rebalance, XY `> 0.75`: **0%**.
+
+ORM remains unchanged in the current pilot because its distributions do not justify an automatic rewrite.
 
 ### `model_render_engine.py`
 
-Provides a deterministic headless software renderer for real glTF review without Blender/OpenGL.
+The headless glTF validation renderer now supports:
+- +Y-up three-quarter camera;
+- shared styled BaseColor sampling;
+- source ORM-aware ambient/roughness/metalness response;
+- restrained painterly specular separation;
+- neutral / warm / cool validation lighting;
+- model-space authored light anchors rather than fixed screen-space glow placement.
 
-Capabilities:
-- glTF +Y-up three-quarter review camera;
-- texture/UV sampling;
-- neutral, warm, and cool validation lighting;
-- deterministic output suitable for CI/review packages;
-- validation-only lantern glow hint until true emissive data is authored.
+It remains a validation renderer, not a replacement for final Godot rendering.
 
-It is a review renderer, not a replacement for final Godot runtime validation.
+### `emissive_anchor_engine.py`
+
+The source Lantern_Wall contains no authored emissive material. Forge therefore exports explicit light-source metadata instead of pretending one exists.
+
+The real B10 pilot derives a lower-cage emitter at approximately:
+- position `(0.000000, 0.486414, 0.810444)` source/model units;
+- core radius `0.081287`;
+- baseline light range `1.136456`;
+- warm baseline color `RGB 255 / 176 / 82`.
+
+This can later drive a Godot local light and/or small emissive overlay.
+
+### `gameplay_preview_engine.py`
+
+Builds a deterministic scale/readability scene from actual glTF extents instead of independently zoomed hero renders.
+
+The B10 preview uses:
+- real model physical extents;
+- consistent pixels-per-unit scaling;
+- a neutral 1.75-unit character measurement silhouette;
+- a simple non-authoritative workshop backdrop.
+
+This catches props that only appear readable because a close-up render enlarged them.
 
 ### `prop_pack_pipeline.py`
 
-Runs the material-first prop workflow as one command:
+The one-command prop pilot now performs:
+1. shared-material dependency analysis;
+2. selective source extraction;
+3. deterministic BaseColor stylization;
+4. PBR QA;
+5. automatic flagged-normal rebalance;
+6. emissive-anchor derivation;
+7. neutral/warm/cool real glTF rendering;
+8. deterministic close-up review-sheet generation;
+9. gameplay-scale integration preview generation;
+10. manifest output recording all material, PBR, emissive, render, and call-count evidence.
 
-1. analyze selected models inside the source ZIP;
-2. extract only required glTF/buffer/image dependencies;
-3. stylize supported shared BaseColor families;
-4. run PBR diagnostics;
-5. render the real selected models under neutral/warm/cool validation lighting;
-6. build a deterministic review sheet from those real renders;
-7. write a manifest with material usage, PBR flags, render paths, and call count.
+The current B10 deterministic refinement still uses **0 image-generation calls**.
 
-The first real B10 run produced:
-- **4 real models**;
-- **2 styled shared materials**;
-- **12 real glTF review renders**;
-- **1 deterministic review sheet**;
-- **0 image-generation calls**.
+## Current B10 status
 
-## Deterministic review sheets
+`BENCHMARKS/B10_REAL_PROP_REFINEMENT_CANDIDATE_V2.md` is the current real-prop candidate authority.
 
-The image model does not create benchmark infographics.
+B10 is now:
+> **VISUAL REFINEMENT CANDIDATE V2 — USER REVIEW PENDING**
 
-Forge review boards are assembled from actual output images and exact metadata, preventing stale benchmark imagery, invented approval labels, fabricated completion percentages, wrong-category carryover, and typography hallucinations.
-
-## Provenance rule
-
-Forge never overwrites source assets.
-
-License-unverified extracted assets remain license-unverified after restyling. Automated transformation does not convert them into original or CC0 assets.
-
-Verified CC0 sources may be directly transformed and promoted after style/runtime review.
-
-All temporary Forge products live under git-ignored `.asset_forge/` until deliberately promoted.
+Do not promote it to STYLE-PASS until the real v2 wood/metal treatment is explicitly approved.
 
 ## Regression coverage
 
-Current tests cover:
-- category classification and work routing;
-- deterministic review-sheet creation;
-- pixel-exact atlas identity reconstruction;
-- rejection of patch dimension drift;
-- exact animation anchor preservation;
-- animation alpha preservation;
-- fake-provider atlas/animation orchestration;
-- lighting-state propagation;
-- seam and flicker regression behavior;
-- generation-call estimation and hard caps;
-- checkpoint/resume reuse;
-- shared BaseColor detection across selected and full model sets;
-- deterministic material stylization and size preservation;
-- +Y-up headless glTF rendering;
+Current tests cover the earlier atlas/animation/lighting/budget/resume foundation plus:
+- shared BaseColor detection;
+- UV-safe material stylization and size preservation;
+- +Y-up glTF review rendering;
 - wrapped-UV occupancy masks;
-- static Normal/ORM review flags.
+- static Normal/ORM review flags;
+- deterministic normal-strength attenuation;
+- model-space lantern emitter derivation.
 
-## Current real-source status
+## Next production milestone
 
-`ASSET_FORGE_PILOT_VALIDATION_V1.md` records the Map084/Map086 routing and budget pilot.
-
-`BENCHMARKS/B10_DETERMINISTIC_MATERIAL_BASELINE_PILOT_V1.md` records the first real CC0 material/model pilot.
-
-B10's **technical material pipeline passes**, but its final visual treatment remains open. Current refinement gates are:
-1. quieter wood line density at gameplay scale;
-2. stronger controlled metal plane/highlight separation;
-3. true Lantern_Wall emissive mask/material authoring;
-4. final Normal/ORM compatibility check in the game renderer;
-5. gameplay-scale workshop/interior integration proof.
-
-## Next implementation/pilot milestone
-
-Before full-library processing:
-
-1. finish B10 material refinement + true emissive handling;
+After B10 visual approval:
+1. promote B10 to STYLE-PASS and define the shared Furniture / Metal / Props / Cloth production material grammar;
 2. run B04 real animated-grass anchor/propagation QA;
-3. run a small real Map086 atlas edit and seam check;
+3. run a bounded real Map086 atlas edit and seam check;
 4. run one real base + lighting-state family;
-5. add automatic family/category batch partitioning;
-6. add gameplay-scale preview generation;
-7. add approve/reject/redo metadata and controlled export;
-8. add provider retry/backoff;
-9. only then consider category-sized or whole-library execution.
+5. add automatic family/category batch partitioning and approve/reject/export metadata;
+6. only then widen into category-sized conversion batches.
 
-> Do not submit the entire 3,214-file environment library to generation merely because Forge can technically queue it. Bounded real-output pilots remain the production gate.
+> Do not submit the entire 3,214-file environment library merely because Forge can queue it. Bounded real-output pilots remain the production gate.
