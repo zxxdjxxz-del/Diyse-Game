@@ -1,10 +1,10 @@
-# The Custodian — Acuity Node / Ruin Containment Seal
+# The Custodian — Perception Node / Ruin Containment Seal
 
 **Chapter:** 11  
 **Encounter:** The Custodian  
 **Status:** **POWER COMPLETE**
 
-## Acuity Node
+## Perception Node
 
 | Count | HP | DEF | Spirit | EVA | SR | Power |
 |---:|---:|---:|---:|---:|---:|---|
@@ -12,7 +12,7 @@
 
 While functional:
 - Custodian Base Hit +10
-- Custodian Speed +10
+- Custodian Speed +10%
 - no additional action
 
 ## Ruin Containment Seal
@@ -22,7 +22,7 @@ While functional:
 | 1 | 760 | 150 | 145 | 0 | 10 | **N/A** |
 
 While functional:
-- Custodian +10 Total Defense
+- Custodian Defense +10% / Spirit +10%
 - direct Ruin-school HP damage taken by Custodian −15% final
 
 This is not Barrier.
@@ -34,7 +34,7 @@ This is not Barrier.
 - no respawn
 - destroyed state persists
 - surviving supports disengage at Open Reconciliation
-- no Prime refresh from support destruction or disengagement
+- no Prime restoration from support destruction or disengagement
 
 Both:
 > **Power: N/A — no independent direct damage**
