@@ -1,90 +1,80 @@
 # Diyse Asset Forge
 
-**Status:** v0.6 prop-family validation checkpoint
+**Status:** **v0.7 four-family prop routing checkpoint**
 
-Diyse Asset Forge automates conversion of the current asset library into the locked Diyse visual style while preserving source provenance, atlas registration, animation stability, shared-material reuse, lighting families, technical QA, and explicit visual approval gates.
+Diyse Asset Forge automates conversion of the current asset library into the locked Diyse visual style while preserving source provenance, atlas registration, animation stability, shared-material reuse, lighting families, technical QA, and explicit approval gates.
 
 ## Main entry points
 
 - `forge.py` — inventory, classify, plan, provider access, base QA, deterministic review sheets.
 - `pipeline.py` — resumable/budget-safe atlas + animation processing.
-- `ops.py` — budget, lighting propagation, atlas/alpha/animation QA operations.
-- `prop_pack_pipeline.py` — one-command material-first glTF prop-family pilot.
+- `ops.py` — budget, lighting propagation, atlas/alpha/animation QA.
+- `prop_pack_pipeline.py` — one-command material-first glTF prop-family validation.
 
 ## Safe-batch foundation
 
-The general image pipeline already supports:
-- SHA-256 source identity;
-- category/treatment routing;
-- coordinate-locked atlas patching and feathered reconstruction;
-- animation anchor + deterministic zero-call follower propagation;
-- base + alternate/directional lighting propagation;
-- hard `--max-ai-calls` limits;
-- whole-atlas budget preflight;
-- checkpoint/resume;
-- seam, alpha, aspect, and flicker diagnostics;
-- deterministic review boards made from actual outputs.
+The general pipeline supports SHA-256 source identity, coordinate-locked atlas patching, animation-anchor + zero-call follower propagation, lighting-family propagation, hard AI-call caps, checkpoint/resume, seam/alpha/aspect/flicker QA, and deterministic review boards made from actual outputs.
 
-## v0.6 material-first prop workflow
+## v0.7 shared-material prop workflow
 
-For 3D prop libraries, Forge analyzes shared material dependencies before doing art work.
+Across the verified 94-model Quaternius Fantasy Props MegaKit, the main shared BaseColor families are used by:
+- Metal — **60 models**;
+- Furniture — **41 models**;
+- Props — **39 models**;
+- Cloth — **10 models**.
 
-The 94-model Quaternius Fantasy Props MegaKit demonstrates why: the main shared BaseColor families are used by Metal **60** models, Furniture **41**, Props **39**, and Cloth **10**. B10's four representative props reduce to only two BaseColor targets: Furniture + Metal.
+B10 proves Furniture + Metal. Props + Cloth now have their own broader real-model candidate pass.
 
-### Components
+### Data-driven material routing
 
-`shared_material_engine.py`
-- scans glTF material/image/buffer dependencies inside ZIPs;
-- reports shared BaseColor usage by model;
-- enables material-first rather than model-first conversion.
+Forge resolves actual glTF bindings:
 
-`material_style_engine.py`
-- UV-safe zero-drift deterministic BaseColor treatment;
-- painterly value grouping;
-- sparse meaningful dark marks rather than universal edge extraction;
-- quieter v2 wood line density;
-- stronger controlled metal highlight/value separation.
+`MATERIAL → baseColorTexture → TEXTURE → IMAGE URI → SHARED FAMILY`
 
-`uv_usage_engine.py`
-- rasterizes actual glTF UV triangles;
-- measures which parts of shared atlases selected models use;
-- supports future occupancy-aware AI patching.
+This correctly handles non-obvious names such as:
+- `MI_Trim_Props_Vertex` → Props;
+- `MI_Banner` → Cloth.
 
-`pbr_qa_engine.py`
-- analyzes Normal/ORM intensity, roughness, metallic, and AO distributions;
-- flags only maps that actually need review.
+The prop pipeline no longer depends on family words appearing in material names.
 
-`normal_rebalance_engine.py`
-- attenuates excessive tangent-normal X/Y strength while preserving dimensions/UV coordinates;
-- B10 Furniture normal falls from about 25.2% of pixels above 0.5 XY strength to about 16.6% after the automatic 0.72 correction, with >0.75 relief reduced to 0%.
+### `material_style_engine.py`
 
-`model_render_engine.py`
-- deterministic headless +Y-up glTF renderer;
-- samples styled BaseColor plus source ORM;
-- neutral/warm/cool lighting;
-- restrained PBR-aware material separation;
-- model-space emissive validation.
+Supported deterministic UV-safe kinds:
+- `wood` — Furniture;
+- `metal` — Metal;
+- `prop` — mixed Props atlas with hue/category preservation;
+- `cloth` — soft fold/value treatment with minimal texture-space ink.
 
-`emissive_anchor_engine.py`
-- derives exportable model-space light metadata for source models that lack authored emissive data;
-- currently used for Lantern_Wall.
+All treatments preserve exact texture dimensions and UV registration.
 
-`gameplay_preview_engine.py`
-- scales props by real glTF extents;
-- compares them beside a 1.75-unit measurement silhouette;
-- prevents hero-close-up framing from hiding gameplay-scale readability problems.
+### PBR handling
 
-`prop_pack_pipeline.py`
-- runs shared-material analysis;
-- extracts only required source files;
-- creates styled BaseColor candidates;
-- runs PBR QA and normal rebalance where flagged;
-- exports emissive anchors;
-- renders real models under three lighting modes;
-- builds close-up review sheets;
-- builds gameplay-scale integration previews;
-- writes a manifest;
-- currently does all of the deterministic B10 refinement with **0 image-generation calls**.
+`pbr_qa_engine.py` evaluates source Normal/ORM data before changes.
+
+Current examples:
+- B10 Furniture normal triggers automatic attenuation;
+- Props source Normal/ORM remains usable for the first family pass;
+- Cloth source Normal is restrained and its roughness is nearly fully matte, so it remains unchanged for the first family pass.
+
+`model_render_engine.py` resolves ORM family from the actual BaseColor texture path, allowing Props/Cloth and renamed/exception materials to receive correct source PBR validation data.
+
+### Real-model validation
+
+B10 approved set:
+- Barrel;
+- Chair_1;
+- Lantern_Wall;
+- Workbench.
+
+Broader Props/Cloth candidate set:
+- Bottle_1;
+- Book_5;
+- Potion_1;
+- Banner_1_Cloth;
+- Bag;
+- Bed_Twin1.
+
+Both flows use real glTF assets, neutral/warm/cool validation, shared physical-scale previews, and deterministic review sheets.
 
 ## Install
 
@@ -128,7 +118,9 @@ python tools/asset_forge/pipeline.py process .asset_forge/queue.jsonl \
   --resume
 ```
 
-## One-command CC0 prop pilot
+## One-command prop-family validation
+
+B10:
 
 ```bash
 python tools/asset_forge/prop_pack_pipeline.py \
@@ -137,61 +129,22 @@ python tools/asset_forge/prop_pack_pipeline.py \
   --output-root .asset_forge/b10_prop_pilot
 ```
 
-Outputs include:
-- extracted required source dependencies;
-- styled shared BaseColor trims;
-- any QA-triggered rebalanced Normal candidates;
-- PBR diagnostics;
-- emissive-anchor metadata;
-- neutral/warm/cool real-model renders;
-- deterministic review sheet;
-- gameplay-scale preview;
-- manifest.
-
-## Atlas / animation / lighting tools
-
-Atlas plan:
+Props/Cloth family candidate:
 
 ```bash
-python tools/asset_forge/pipeline.py atlas-plan /path/to/atlas.tga --tile 768 --overlap 96
+python tools/asset_forge/prop_pack_pipeline.py \
+  "asset_sources/third_party_cc0/Fantasy Props MegaKit[Standard].zip" \
+  --models Bottle_1 Book_5 Potion_1 Banner_1_Cloth Bag Bed_Twin1 \
+  --output-root .asset_forge/props_cloth_family
 ```
 
-Atlas seam QA:
-
-```bash
-python tools/asset_forge/ops.py qa-atlas source.png styled.png .asset_forge/atlas_plan.json
-```
-
-Animation propagation:
-
-```bash
-python tools/asset_forge/pipeline.py animation-propagate \
-  styled_anchor.png frame_0.png frame_1.png frame_2.png --anchor-index 0
-```
-
-Animation temporal QA:
-
-```bash
-python tools/asset_forge/ops.py qa-animation \
-  --source source_0.png source_1.png \
-  --output output_0.png output_1.png
-```
-
-Lighting propagation:
-
-```bash
-python tools/asset_forge/ops.py lighting \
-  source_base.png styled_base.png \
-  --state ra=source_ra.png --state rb=source_rb.png
-```
+Outputs include required source dependencies, styled shared BaseColor trims, QA-triggered Normal candidates, PBR diagnostics, emissive metadata where applicable, neutral/warm/cool model renders, a deterministic review sheet, gameplay-scale preview, and manifest.
 
 ## Provenance
 
 Forge never overwrites source files.
 
-License-unverified Map001–Map116 material remains license-unverified after Forge treatment. Restyling does not make it original or CC0. Important final assets still follow the active source-reference → Diyse-remake pipeline.
-
-Verified CC0 assets may be directly transformed and promoted after style/runtime review.
+License-unverified Map001–Map116 material remains license-unverified after Forge treatment. Verified CC0 sources may be directly transformed and promoted after style/runtime review.
 
 All work products remain under git-ignored `.asset_forge/` until deliberately promoted.
 
@@ -201,43 +154,30 @@ All work products remain under git-ignored `.asset_forge/` until deliberately pr
 python -m unittest discover -s tools/asset_forge/tests -p "test_*.py"
 ```
 
-Coverage includes:
-- classification/planning;
-- deterministic review sheets;
-- pixel-exact atlas identity reconstruction;
-- atlas patch dimension rejection;
-- animation alpha/anchor preservation;
-- fake-provider atlas/animation processing;
-- lighting propagation;
-- seam/flicker QA;
-- budget caps/checkpoint/resume;
-- shared material detection;
-- UV occupancy;
-- material size preservation;
-- PBR flags;
-- normal rebalance;
-- model-space lantern emitter derivation;
-- headless glTF validation rendering.
+Coverage includes the atlas/animation/lighting/budget/resume foundation plus shared-material detection, actual glTF material-to-image routing, four-family material styling, hue preservation for Props/Cloth, UV occupancy, PBR flags/rebalance, emissive anchors, real glTF rendering, and gameplay-scale validation.
 
-## Current production gate
+## Current production gates
 
-B10 is currently:
+B10:
+> **STYLE-PASS APPROVED — GAMEPLAY/RUNTIME TEST READY**
 
-> **VISUAL REFINEMENT CANDIDATE V2 — USER REVIEW PENDING**
+Authority:
+`docs/14_ART_AND_VISUALS/PRODUCTION/BENCHMARKS/B10_STYLE_PASS_APPROVAL_V1.md`
 
-See:
-`docs/14_ART_AND_VISUALS/PRODUCTION/BENCHMARKS/B10_REAL_PROP_REFINEMENT_CANDIDATE_V2.md`
+Props/Cloth shared families:
+> **REAL-MODEL FAMILY CANDIDATE — USER REVIEW PENDING**
 
-After B10 visual approval, the next pilot order is:
-1. B04 real animated grass;
-2. bounded Map086 atlas edit + seam QA;
-3. one real base + lighting-state family;
-4. family/category batch partitioning + approve/reject/export metadata;
-5. then category-sized conversion batches.
+Authority:
+`docs/14_ART_AND_VISUALS/PRODUCTION/CC0_PROP_CLOTH_FAMILY_VALIDATION_CANDIDATE_V1.md`
+
+After Props/Cloth approval, the 94-model pack should move to exception detection/model-specific overrides rather than another broad restyle pass.
+
+Then the benchmark sequence continues with B04 animated grass, bounded Map086 atlas/seam validation, and a real lighting-state family.
 
 ## Authority
 
 Visual style: `docs/14_ART_AND_VISUALS/DIYSE_VISUAL_STYLE_CANON.md`  
+Shared prop grammar: `docs/14_ART_AND_VISUALS/PRODUCTION/DIYSE_CC0_PROP_MATERIAL_GRAMMAR_V1.md`  
 Conversion rules: `docs/14_ART_AND_VISUALS/PRODUCTION/ASSET_STYLE_CONVERSION_PIPELINE.md`  
 Forge routing: `docs/14_ART_AND_VISUALS/PRODUCTION/ASSET_FORGE_AUTOMATION.md`  
 Asset provenance: `docs/14_ART_AND_VISUALS/PRODUCTION/ASSET_LIBRARY/README.md`
