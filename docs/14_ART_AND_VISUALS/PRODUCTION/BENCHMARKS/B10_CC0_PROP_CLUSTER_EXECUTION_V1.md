@@ -1,7 +1,7 @@
 # Diyse — B10 CC0 Prop Cluster Benchmark Execution v1
 
 **Benchmark:** B10 — Verified CC0 Prop Cluster  
-**Status:** SOURCE ANALYSIS COMPLETE / STYLE STUDY READY  
+**Status:** SOURCE ANALYSIS COMPLETE / SHARED-MATERIAL PILOT READY  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`  
 **Benchmark authority:** `../STYLE_BENCHMARK_SET_V1.md`  
 **Conversion pipeline:** `../ASSET_STYLE_CONVERSION_PIPELINE.md`
@@ -18,252 +18,235 @@
 
 The pack provides these assets in FBX, glTF, and OBJ export forms.
 
-### Verified archive paths
+## 2. Verified shared-material architecture
 
-`Barrel`
-- `Exports/FBX/Barrel.fbx`
-- `Exports/glTF/Barrel.gltf`
-- `Exports/glTF/Barrel.bin`
-- `Exports/OBJ/Barrel.obj`
-- `Exports/OBJ/Barrel.mtl`
+The actual glTF files show that the benchmark is materially cheaper and more scalable than a four-prop independent-generation workflow.
 
-`Chair_1`
-- `Exports/FBX/Chair_1.fbx`
-- `Exports/glTF/Chair_1.gltf`
-- `Exports/glTF/Chair_1.bin`
-- `Exports/OBJ/Chair_1.obj`
-- `Exports/OBJ/Chair_1.mtl`
+Per-model BaseColor dependencies:
+- `Barrel` → `T_Trim_Furniture_BaseColor.png` + `T_Trim_Metal_BaseColor.png`;
+- `Chair_1` → `T_Trim_Furniture_BaseColor.png` + `T_Trim_Metal_BaseColor.png`;
+- `Lantern_Wall` → `T_Trim_Metal_BaseColor.png`;
+- `Workbench` → `T_Trim_Furniture_BaseColor.png` + `T_Trim_Metal_BaseColor.png`.
 
-`Lantern_Wall`
-- `Exports/FBX/Lantern_Wall.fbx`
-- `Exports/glTF/Lantern_Wall.gltf`
-- `Exports/glTF/Lantern_Wall.bin`
-- `Exports/OBJ/Lantern_Wall.obj`
-- `Exports/OBJ/Lantern_Wall.mtl`
+Therefore the four-prop benchmark has only **two unique BaseColor style targets**:
+1. `T_Trim_Furniture_BaseColor.png`;
+2. `T_Trim_Metal_BaseColor.png`.
 
-`Workbench`
-- `Exports/FBX/Workbench.fbx`
-- `Exports/glTF/Workbench.gltf`
-- `Exports/glTF/Workbench.bin`
-- `Exports/OBJ/Workbench.obj`
-- `Exports/OBJ/Workbench.mtl`
-
-## 2. Verified technical observations
-
-Approximate triangle counts from the glTF indexed primitives:
-- `Barrel`: **824 triangles**;
-- `Chair_1`: **496 triangles**;
-- `Lantern_Wall`: **2,822 triangles**;
-- `Workbench`: **1,368 triangles**.
-
-Material usage:
-- `Barrel`: furniture + metal trim materials;
-- `Chair_1`: furniture + metal trim materials;
-- `Lantern_Wall`: metal trim material;
-- `Workbench`: furniture + metal trim materials.
-
-Shared texture families visible in the glTF exports include:
-- `T_Trim_Furniture_BaseColor.png`;
+The associated Normal and ORM maps remain structurally reusable during the first style pilot:
 - `T_Trim_Furniture_Normal.png`;
 - `T_Trim_Furniture_ORM.png`;
-- `T_Trim_Metal_BaseColor.png`;
 - `T_Trim_Metal_Normal.png`;
 - `T_Trim_Metal_ORM.png`.
 
-Verified shared texture dimensions:
-- all six listed furniture/metal texture maps: **2048×2048 RGB**.
+This changes the preferred B10 workflow from:
 
-The pack therefore uses shared trim/material atlases rather than unique bespoke texture sets for every prop. This is efficient for production, but it also creates the main B10 challenge: Diyse must impose a stronger unified painterly/ink identity without destroying the useful shared-material workflow.
+`4 props → 4 independent image generations`
 
-## 3. What B10 must prove
+to:
 
-B10 is not primarily a polygon-count benchmark. It tests whether a clean-provenance 3D asset can sit beside Diyse's painterly 2D/HD-2D environment art without reading as an imported low-poly prop pack.
+`2 shared BaseColor trims → apply to 4 actual models → validate all four together`.
+
+The same shared-material strategy can potentially update a substantial portion of the larger 94-prop CC0 library at once.
+
+## 3. B10 goal
+
+B10 must prove that clean-provenance 3D geometry can sit beside Diyse's painterly HD-2D environment language without reading as an imported generic low-poly pack.
 
 The benchmark must prove:
-- geometry can be retained where useful;
-- shared trim textures can be repainted/rebuilt into the Diyse material grammar;
-- variable line-weight influence can be introduced selectively without putting a uniform black outline around the whole model;
-- wood and metal remain instantly readable;
-- scene lighting still behaves correctly;
-- the result stays economical enough to reuse across many props.
+- useful geometry can be retained;
+- shared trim textures can be repainted into the Diyse material grammar;
+- variable line-weight influence can live in material paint and selective edge accents without a universal toon outline;
+- wood and metal remain immediately readable;
+- lighting and emissive behavior remain functional;
+- one shared material treatment can scale across multiple prop geometries.
 
 ## 4. Geometry policy
 
-Because this source is verified CC0, direct geometry modification is allowed.
+Because the source is verified CC0, direct geometry modification is allowed.
 
 Preferred order:
-1. preserve good silhouettes and useful proportions;
-2. remove or simplify geometry that creates noisy tiny features at gameplay distance;
-3. exaggerate only high-value silhouette features needed for readability;
-4. add Diyse-specific geometry only where it meaningfully changes identity or function;
-5. avoid remodelling every acceptable prop from zero merely to claim originality.
+1. preserve useful silhouettes and proportions;
+2. simplify geometry only where tiny features create gameplay-scale noise;
+3. exaggerate high-value silhouette features only when readability needs it;
+4. add Diyse-specific geometry when it changes identity or function;
+5. do not remodel acceptable CC0 props from zero merely to claim originality.
 
-### Prop-specific geometry pressure
+### Representative geometry pressure
 
 **Barrel**
-- preserve strong cylinder/barrel read;
-- ensure hoops and rim remain visible at field scale;
+- preserve cylinder/barrel read;
+- keep hoops and rim visible;
 - avoid excessive stave segmentation.
 
 **Chair_1**
-- preserve readable back/seat/leg silhouette;
-- simplify small trim if it disappears at gameplay scale;
-- use silhouette and wood-plane rhythm rather than micro-carving.
+- preserve back/seat/leg silhouette;
+- simplify tiny trim where necessary;
+- rely on silhouette and material rhythm rather than micro-carving.
 
 **Lantern_Wall**
 - preserve bracket + lamp silhouette;
-- ensure emissive focal area is obvious;
-- avoid overly intricate metal line noise around the light source.
+- keep emissive focal area obvious;
+- prevent metal line noise from surrounding the bright core.
 
 **Workbench**
-- preserve broad work surface, supports, storage/tool function;
+- preserve broad horizontal work plane and support/storage read;
 - control clutter density;
-- make the main horizontal work plane read before small attached detail.
+- make the work surface read before small attached detail.
 
-## 5. Diyse 3D prop rendering grammar — draft lock
+## 5. Diyse shared Furniture trim target
 
-### Silhouette
-- clean, strong readable outer shape;
-- selected asymmetry/wear where appropriate;
-- no universal toon-outline shell around every model.
+`T_Trim_Furniture_BaseColor.png` becomes the first scalable wood/furniture style target.
 
-### Painterly surface
-- broad hand-painted material planes;
-- controlled value grouping;
-- restrained texture noise;
-- wear concentrated at handling/contact/damage zones;
-- no photo-real material breakup.
+Target grammar:
+- painterly broad wood planes;
+- 3–4 value families;
+- grain follows functional direction rather than forming random noise;
+- darker irregular accents at joints/recesses;
+- restrained handling/wear highlights;
+- occasional broken ink-like grain accents;
+- no dense realistic pore field;
+- no uniform black edge baking.
 
-### Chaotic variable line influence
-For 3D props, the line language may come from a combination of texture paint, decals, selective shader treatment, and authored edge accents.
+The Barrel, Chair, and Workbench should share this material family while still reading as different objects because geometry, UV placement, lighting, and local accent distribution differ.
 
-Use strongest dark accents at:
+## 6. Diyse shared Metal trim target
+
+`T_Trim_Metal_BaseColor.png` becomes the scalable metal style target.
+
+Target grammar:
+- clear plane changes;
+- stronger contrast than wood;
+- selective sharp highlights;
+- dark overlap/joint accents;
+- restrained scratches/dings;
+- painterly rather than photoreal reflection;
+- no universal toon outline baked into every UV island.
+
+This single trim must work on barrel hoops, chair fasteners, lantern structure, and workbench hardware.
+
+## 7. Normal / ORM handling for first pilot
+
+For B10 pilot v1:
+- preserve source Normal maps;
+- preserve source ORM maps;
+- replace only the two BaseColor trims first;
+- validate whether the existing geometry response and material roughness remain compatible with the new painterly BaseColor language.
+
+Only after that test should we decide whether Diyse needs:
+- softened/simplified normals;
+- adjusted roughness/metallic ranges;
+- custom shared Normal/ORM replacements.
+
+This isolates visual-style changes from physically-based material changes and prevents unnecessary work.
+
+## 8. Chaotic variable line influence on 3D props
+
+The line identity should come mainly from painted material accents, decals, selected recess darkening, and authored edge treatment.
+
+Strongest accents:
 - deep construction joints;
 - underside overlaps;
-- metal/wood contact points;
-- damaged edges;
+- metal/wood contact;
+- damage;
 - selected silhouette turns;
-- recessed panel lines.
+- recessed panels.
 
-Use lighter/broken marks at:
+Light/broken accents:
 - shallow grain;
 - minor wear;
 - light-facing trim;
-- non-focal surface articulation.
+- non-focal articulation.
 
-Do not:
-- outline every polygon edge;
-- use a constant-width black post-process outline on all props;
-- darken every UV seam;
-- let edge ink overpower material color.
+Reject:
+- every polygon edge outlined;
+- constant-width black post-process outline;
+- every UV seam darkened;
+- ink overpowering the material colors.
 
-## 6. Wood grammar for B10
+## 9. Lantern emissive rule
 
-Wood should use:
-- broad grain direction following form;
-- 3–4 large value families;
-- selective darker grooves at construction joints;
-- restrained worn highlights on handled edges;
-- occasional irregular ink-like grain accents;
-- no dense realistic pore/noise field.
-
-The barrel, chair, and workbench must visibly share the same wood family without becoming identical brown objects.
-
-## 7. Metal grammar for B10
-
-Metal should use:
-- clear plane changes;
-- stronger value contrast than wood;
-- selective sharp highlights;
-- dark joint/overlap accents;
-- restrained scratches/dings;
-- no mirror-realistic reflections;
-- no uniform black outline.
-
-Metal hoops, brackets, fasteners, and lantern structure should read immediately against wood or background materials.
-
-## 8. Lantern emissive rule
-
-`Lantern_Wall` adds an emissive test to B10.
+`Lantern_Wall` remains the emissive validation object.
 
 Requirements:
-- bright core remains mostly free of dark linework;
-- surrounding metal may carry stronger silhouette/joint ink;
-- warm light spill must feel integrated with the HD-2D scene;
+- bright core mostly free of dark linework;
+- surrounding metal may carry stronger silhouette/joint accents;
+- warm spill integrates with scene lighting;
 - bloom remains restrained;
-- the lamp must still read when the scene is bright enough that emissive intensity is reduced.
+- lamp still reads in brighter scenes where emissive contrast is reduced.
 
-## 9. Shared trim-texture strategy
+## 10. Asset Forge implementation
 
-The existing shared furniture and metal atlas approach is worth preserving conceptually.
+Shared material analysis is implemented at:
 
-B10 should test a **Diyse shared material atlas** rather than forcing unique 2K textures for every prop.
+`tools/asset_forge/shared_material_engine.py`
 
-Potential production structure:
-- shared `Diyse_Furniture_BaseColor`;
-- shared `Diyse_Furniture_Normal` or simplified normal treatment where useful;
-- shared `Diyse_Furniture_ORM`;
-- shared `Diyse_Metal_BaseColor`;
-- shared `Diyse_Metal_Normal`;
-- shared `Diyse_Metal_ORM`;
-- optional small prop-specific overlay/decal atlas for wear, symbols, faction treatment, or unique paint.
+It can:
+- inspect actual glTF dependencies in a source ZIP;
+- identify unique BaseColor trim sheets;
+- report which models reuse each trim;
+- extract only the shared BaseColor targets needed for a bounded pilot.
 
-This keeps prop reuse scalable while allowing a strongly authored visual identity.
+For the representative B10 cluster, the expected style-generation count is **2 BaseColor image edits**, not 4 independent prop edits.
 
-## 10. Required B10 style-study outputs
+## 11. Required B10 pilot outputs
 
 Before B10 can become STYLE-PASS, produce:
 
-1. **Four-prop neutral-light lineup** — Barrel, Chair_1, Lantern_Wall, Workbench.
-2. **Source-like vs Diyse target comparison** — prove the imported-pack look has been removed.
-3. **Wood material study** — broad painterly grain + line accents.
-4. **Metal material study** — selective highlights + dark joint accents.
-5. **Outline comparison** — no outline / selective Diyse edge treatment / uniform toon outline (reject).
-6. **Gameplay-scale prop cluster** — props integrated into a small interior/exterior scene.
-7. **Lighting comparison** — neutral day/interior + warm lantern/torch + cool/night.
-8. **Lantern emissive close-up** — verify clean bright core and restrained bloom.
-9. **Reuse proof** — same Diyse shared wood/metal material family applied coherently across all four assets.
+1. Diyse-styled `T_Trim_Furniture_BaseColor`;
+2. Diyse-styled `T_Trim_Metal_BaseColor`;
+3. Barrel rendered with both new shared trims;
+4. Chair_1 rendered with both new shared trims;
+5. Lantern_Wall rendered with new metal trim and emissive validation;
+6. Workbench rendered with both new shared trims;
+7. neutral-light four-prop lineup;
+8. warm-light and cool/night scene checks;
+9. gameplay-scale prop cluster;
+10. deterministic review sheet from the actual outputs.
 
-## 11. Gameplay readability gate
+No AI-generated infographic is accepted as B10 evidence.
+
+## 12. Gameplay readability gate
 
 At normal exploration scale:
 - Barrel reads as barrel;
 - Chair reads as chair;
-- Wall lantern reads as a light source;
-- Workbench reads as a work surface/station;
+- Lantern reads as a light source;
+- Workbench reads as a work station;
 - props do not become black silhouettes;
-- texture marks do not shimmer;
+- trim detail does not shimmer;
 - prop contrast does not compete with the player unless intentionally interactable;
-- material identity survives scene lighting.
+- wood/metal identity survives scene lighting.
 
-## 12. Originalization and direct-use policy
+## 13. Direct-use policy
 
-Unlike Lane B extracted reference assets, these verified CC0 props **may become direct final Diyse production assets after modification and review**.
+These verified CC0 props may become direct Diyse production assets after modification and review.
 
 Possible outcomes:
-- geometry retained + full Diyse material repaint;
-- geometry modified + Diyse material repaint;
-- prop-specific Diyse additions;
-- replacement only when source geometry is insufficient for the required role.
+- geometry retained + shared Diyse material repaint;
+- geometry modified + shared material repaint;
+- optional prop-specific decal/overlay additions;
+- replacement only when source geometry is insufficient.
 
-The objective is efficient authorship, not unnecessary asset replacement.
+The objective is efficient authorship, not unnecessary replacement.
 
-## 13. B10 acceptance checklist
+## 14. Acceptance checklist
 
 B10 passes only when:
 
-- [ ] all four props feel native to the same Diyse scene;
-- [ ] wood family is painterly, readable, and non-photoreal;
-- [ ] metal family is crisp without glossy realism;
+- [ ] the two shared BaseColor trims are clearly Diyse-native;
+- [ ] all four props feel native to the same scene;
+- [ ] wood is painterly, readable, and non-photoreal;
+- [ ] metal is crisp without glossy realism;
 - [ ] chaotic line influence is visible but selective;
 - [ ] no uniform toon outline dominates;
-- [ ] shared material approach remains viable;
+- [ ] existing Normal/ORM behavior remains compatible or a justified adjustment is documented;
 - [ ] Lantern_Wall emissive behavior works in bright and dark scenes;
 - [ ] gameplay-scale silhouettes remain clear;
-- [ ] prop detail stays subordinate to player/readability needs;
-- [ ] provenance remains recorded as verified CC0;
-- [ ] pipeline can scale to the larger 94-prop verified CC0 library.
+- [ ] shared material strategy demonstrably scales beyond the four benchmark props;
+- [ ] provenance remains verified CC0.
 
-## 14. Production decision
+## 15. Production decision
 
-**B10 source analysis is complete and the benchmark is ready for visual style-study generation.**
+**B10 shared-material source analysis is complete.**
+
+The preferred next action is a bounded **two-BaseColor real-output style pilot**, followed by rendering the four actual glTF models with those shared trims.
