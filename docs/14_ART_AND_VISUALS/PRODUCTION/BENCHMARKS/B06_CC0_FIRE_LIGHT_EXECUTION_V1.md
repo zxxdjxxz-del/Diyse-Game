@@ -1,14 +1,14 @@
 # Diyse — B06 Fire / Light Emitter Execution v1
 
 **Benchmark:** B06 — Fire / Light Emitter  
-**Status:** **SOURCE ANALYSIS COMPLETE / TECHNICAL STYLE PILOT READY**  
+**Status:** **SOURCE ANALYSIS COMPLETE / TECHNICAL PRESERVATION PROOF COMPLETE / ANIME STYLE PILOT REQUIRED**  
 **Primary verified-open source:** `../ASSET_LIBRARY/VERIFIED_CC0_VFX_INTAKE_2026-08-31_BATCH2.md`  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`  
 **Forge VFX processor:** `../../../../../tools/asset_forge/vfx_processing_engine.py`
 
 ## 1. Source decision
 
-B06 should now use the verified-CC0 Brackeys VFX bundle as its primary production source pool rather than relying mainly on the license-unverified Map092 fire material.
+B06 should use the verified-CC0 Brackeys VFX bundle as its primary production source pool rather than relying mainly on the license-unverified Map092 fire material.
 
 The bundle supplies reusable fire/flame flipbooks, predrawn fire sheets, sparks, flares, lights, smoke and paired particle masks that may be directly modified after style/runtime review.
 
@@ -33,7 +33,7 @@ The full verified bundle remains available for alternate smoke/explosion/light/e
 
 ## 3. Structural QA completed
 
-Asset Forge v0.9 now treats VFX grids as fixed-registration source structures.
+Asset Forge v0.9 treats VFX grids as fixed-registration source structures.
 
 Full real-bundle QA confirms:
 - **28** predrawn/flipbook grid sheets;
@@ -51,29 +51,58 @@ Forge preserves that padding and processes only the declared active grid rectang
 
 Palette-mode predrawn sheets also retain source palette/transparency metadata during reconstruction.
 
-## 4. B06 style target
+## 4. Locked B06 visual target — anime/seinen first
 
-The final B06 language should read as Diyse-native **seinen HD-2D fantasy fire/light**, not as generic stock particle effects.
+The final B06 language must read as **Diyse-native mature seinen anime VFX integrated into HD-2D lighting**, not as realistic stock fire, a painterly texture filter, or generic mobile-game particles.
+
+Diyse environments may use painterly shape-first rendering, but character and VFX identity must still belong unmistakably to the same anime/seinen visual world.
 
 Required behavior:
-- bold readable flame/fire silhouettes;
+- bold readable anime flame/fire silhouettes;
+- **3–5 large cel-like graphic value/color masses** rather than soft photographic gradients;
+- deep ember/red → orange → gold → pale cream core hierarchy;
+- hand-drawn-looking asymmetry and shape breaks;
 - bright cores with restrained or absent line pressure;
-- painterly/graphic internal massing rather than high-frequency noise;
-- selective chaotic variable line only on useful dark flame folds, smoke overlaps, ember trails or impact edges;
-- warm local spill that integrates into the HD-2D environment;
-- bloom restrained enough that fixture/flame geometry remains visible;
-- sparks/embers used as accents rather than a constant screen-filling particle cloud;
-- field/battle readability maintained at actual runtime scale.
+- selective chaotic variable-line accents on useful dark outer folds, smoke overlaps, ember trails, impact edges or contact pockets;
+- those accents should taper, break, bunch or disappear rather than forming a uniform contour;
+- warm local spill integrated through HD-2D runtime lighting;
+- restrained bloom so flame/fixture geometry remains visible;
+- sparks/embers as intentional accents rather than constant screen-filling noise;
+- strong field/battle readability against the approved anime character presentation.
 
 Reject:
+- realistic/photo-like fire left largely intact;
+- soft painterly filtering presented as the anime style pass;
 - uniform black outline around every flame shape;
+- cheap flat cel shading with no depth or material integration;
 - flat orange recolor of source VFX;
-- generic mobile-game glow overload;
+- generic gacha/mobile glow overload;
 - independently redrawn animation cells that flicker or drift;
 - altered grid registration/frame order;
 - destructive alpha reconstruction where additive RGB fire already works correctly.
 
-## 5. RGB fire rule
+## 5. Technical preservation proof — visual rejection recorded
+
+A first deterministic treatment was run on `flame_01_16x4`.
+
+It successfully proved:
+- 2048×1024 source canvas retained;
+- 16×4 / 64-frame registration retained;
+- source alpha retained **exactly**;
+- frame-luminance rhythm correlation **0.9884485553**;
+- peak temporal amplification **1.2963046945×** under the declared 1.35 cap.
+
+However, user review correctly identified the visual result as **too painterly/material-filter-like and insufficiently anime/seinen**.
+
+That treatment is therefore retained only as a technical preservation proof. Its former STYLE-PASS CANDIDATE promotion is retired.
+
+Authority:
+`B06_FLAME_STYLE_PASS_CANDIDATE_V1.md`
+
+Despite the legacy filename, that file now explicitly records:
+> **TECHNICAL PRESERVATION PROOF / VISUAL STYLE REJECTED — INSUFFICIENTLY ANIME/SEINEN**
+
+## 6. RGB fire rule
 
 The four RGB `fire_0X_8x8` flipbooks contain no alpha channel.
 
@@ -81,30 +110,30 @@ They must first be tested through additive/emissive shader treatment in Godot. D
 
 If runtime additive treatment reads correctly, preserve the original RGB structure and style primarily through color/value/emission behavior.
 
-## 6. Animation treatment rule
+## 7. Animation treatment rule
 
 B06 should use a structure-preserving treatment:
 
-`SOURCE SHEET → DECLARED GRID RESOLUTION → ANCHOR/SHADER STYLE DECISION → WHOLE-FAMILY PROPAGATION → EXACT REPACK → TEMPORAL QA → RUNTIME TEST`
+`SOURCE SHEET → DECLARED GRID RESOLUTION → ANIME STYLE ANCHOR/SHADER DECISION → WHOLE-FAMILY PROPAGATION → EXACT REPACK → TEMPORAL QA → RUNTIME TEST`
 
 Do not send 30–64 cells through unrelated generation calls.
 
-Any AI-assisted restyle should be applied through controlled anchors or family-level transforms while the source motion/registration remains fixed.
+Any AI-assisted restyle, if later used, must operate from a tightly isolated visual anchor and must not receive benchmark/status/dashboard context. Review boards remain deterministic and are built from actual outputs.
 
-## 7. First visual pilot scope
+## 8. Replacement visual pilot scope
 
-The first Diyse B06 style candidate should validate a deliberately small set:
+The next B06 visual candidate must first prove the corrected anime/seinen grammar on:
 1. one looping open flame (`flame_01_16x4`);
-2. one fuller fire body (`fire_01_8x8` additive/emissive path);
-3. one fire-ring effect;
-4. one dithered/ground-fire effect;
+2. **only after that is approved**, one fuller fire body (`fire_01_8x8` additive/emissive path);
+3. fire ring;
+4. dithered/ground fire;
 5. one spark primitive + one soft light/flare primitive;
-6. neutral, warm-environment and cool/night scene contexts;
+6. neutral, warm-environment and cool/night contexts;
 7. field scale and battle scale.
 
-This is enough to define the fire/light grammar before treating the wider VFX library.
+The first item is the immediate visual gate. Do not propagate an unapproved treatment across the wider VFX library.
 
-## 8. Source review evidence
+## 9. Source review evidence
 
 A deterministic technical source board was produced from actual bundle frames during the 2026-08-31 working session:
 
@@ -112,18 +141,20 @@ A deterministic technical source board was produced from actual bundle frames du
 
 The board is source/technical evidence only. It is **not** a style-pass candidate and contains no approval authority.
 
-## 9. Promotion gate
+The previous `flame_01` comparison files are also technical evidence only after the visual rejection.
 
-Current state:
+## 10. Promotion gate
 
-`QUEUED → SOURCE ANALYSIS COMPLETE → TECHNICAL STYLE PILOT READY`
+Current corrected state:
+
+`QUEUED → SOURCE ANALYSIS COMPLETE → TECHNICAL PRESERVATION PROOF COMPLETE → ANIME STYLE PILOT REQUIRED`
 
 B06 may advance to `STYLE-PASS CANDIDATE` only after:
-- a real Diyse-styled fire/light treatment exists;
+- a real anime/seinen Diyse fire/light treatment exists;
+- user visual review accepts that treatment;
 - animation/flicker QA passes;
 - additive/emissive behavior is tested where relevant;
 - alpha fringes are clean;
-- the effect reads correctly at actual field/battle scale;
-- the visual result is explicitly reviewed.
+- the effect reads correctly at actual field/battle scale.
 
-Do not mark B06 STYLE-PASS from source quality alone.
+Do not mark B06 STYLE-PASS from technical QA or source quality alone.
