@@ -16,7 +16,7 @@ All major domains `01` through `16` are migrated.
 - five universal harmful statuses
 - Spirit is the magic-resistance stat
 - 24 Standard Cards + 12 Primes
-- six Faces use Acuity
+- six Faces: **Might / Elements / Grace / Perception / Memory / Ruin**
 - Prime progression Recovered → Awakened
 - 38 ordinary equipment + 36 Relics + 17 Legacies
 - Player Level cap 70
@@ -94,7 +94,7 @@ Current position:
 - First Command Warden — **VALIDATED v79 / POWER COMPLETE**: mandatory Lv11 / completionist Lv12 nearly Lv13; Lv14 / HP2,850 / ATK72 / MAG72
 - Elder Briarhide — **VALIDATED v80 / POWER COMPLETE**: mandatory Lv13 / completionist Lv15; Lv14 / HP2,100 / ATK72 / DEF60 / Spirit55; exactly 4 rounds
 - Reaction Conduit — **VALIDATED v80 / POWER COMPLETE**: mandatory Lv13 / completionist Lv15; Lv17 / HP2,400 / ATK58 / MAG80; ~8–9 mandatory rounds
-- Regulation Crucible → The Seventh Reaction — **VALIDATED v80 / POWER COMPLETE**: mandatory Lv15 / completionist Lv17; Form-I HP2,400 / Form-II HP2,900; ~13–15 mandatory rounds
+- Regulation Crucible → The Seventh Reaction — **v99 TRUE-BATTLE CERTIFIED / PASS / RETAIN / POWER COMPLETE**: mandatory Lv15 / completionist Lv17; Form-I HP2,400 / Form-II HP2,900 retained; strict prepared Lv15 no-Prime benchmark **100% wins / median 18**, with one legal Recovered Last Sentinel **100% wins / median 14**
 - Furnace Tyrant — **VALIDATED v81 / POWER COMPLETE**: mandatory Lv18 / completionist Lv20; Lv23 / HP3,400 / ATK100 / MAG72; ~9–10 mandatory rounds
 - Furnace Servitor direct-damage kit — **POWER COMPLETE**
 - Deepforge Colossus — **VALIDATED v81 / POWER COMPLETE**: mandatory Lv20 / completionist Lv22; Form-I HP3,400 / Form-II HP4,000; ~14–16 mandatory rounds
@@ -105,7 +105,7 @@ Current position:
 - Masked Ruin Vanguard — Seyrik — **VALIDATED v82 / POWER COMPLETE**: mandatory Lv25 / completionist Lv27; Lv27 / HP4,000; 20% protected disengagement floor
 - Chainworks Behemoth — **VALIDATED v83 / RAW LINE RETAINED / POWER COMPLETE**: mandatory Lv27 / completionist Lv31; Lv29 / HP5,135 unchanged; ~9 mandatory rounds
 - Restraint Anchors — **POWER COMPLETE**
-- Warden of the Nameless / Revision Arbiter — **VALIDATED v83 / POWER COMPLETE**: mandatory Lv30 / completionist Lv34; Lv34 / HP7,600 / ATK124 / MAG138; ~12–13 mandatory rounds
+- Warden of the Nameless / Revision Arbiter — **VALIDATED v83 / POWER COMPLETE; current true-battle stress certification ACTIVE**: mandatory Lv30 / completionist Lv34; Lv34 / HP7,600 / ATK124 / MAG138
 - Western Rift Engine — **VALIDATED v84 / RAW LINE RETAINED / POWER COMPLETE**: mandatory Lv33 / completionist Lv39; Lv36 / HP9,775 unchanged; ~10–11 mandatory rounds
 - Rift Echo — **POWER COMPLETE**
 - Marshal Varkesh → Rift Conqueror — **VALIDATED v84 / RAW LINES RETAINED / POWER COMPLETE**: mandatory Lv35 / completionist Lv42; HP7,326 → fresh HP8,485; ~13–15 mandatory rounds
@@ -115,7 +115,7 @@ Current position:
 - Calder → Crown-Bound Living Anchor — **VALIDATED v87 / RAW LINES RETAINED / POWER COMPLETE**: mandatory Lv49 / completionist Lv59; HP10,133 → fresh HP13,662; ~15–17 mandatory rounds
 - Authentication Lenses / Living Anchor Clamps — **POWER COMPLETE**
 - The Custodian — **VALIDATED v87 / RAW LINE RETAINED / POWER COMPLETE**: mandatory Lv51 / completionist Lv60; Lv55 / HP16,017 unchanged; ~11–12 mandatory rounds
-- Acuity Node / Ruin Containment Seal — **POWER COMPLETE**
+- Perception Node / Ruin Containment Seal — **POWER COMPLETE**
 - Marshal Varkesh — Final Capture — **VALIDATED v88 / RAW LINE RETAINED / POWER COMPLETE**: mandatory Lv54 / completionist Lv64; Lv58 / HP17,106 unchanged; two-Beacon capture floor
 - Varkesh final-capture supports — **POWER COMPLETE**
 - Emperor Vaelkor Draeven → Sovereign Panoply Unbound — **VALIDATED v88 / HP DURATION ADJUSTED / POWER COMPLETE**: mandatory Lv56 / completionist Lv66; HP16,800 → fresh HP20,200; **18–20 mandatory rounds**
@@ -153,7 +153,7 @@ Current position:
 - Registry Warden handoff — **verified unchanged / Power-complete / status-neutral**
 - Chapter 11 ordinary enemies / Perfect Administrator — **PASS**
 - Crown Engine Technician — **Power-complete nonlethal / placement bounded**
-- Face-name firewall — **enemy Might/Elements/Grace/Change naming does not grant Card/Prime use**
+- Face-name firewall — **enemy Might/Elements/Grace/Perception/Memory/Ruin naming does not grant Card/Prime use**
 - Chapter 12 ordinary enemies / Lord-Marshal Kharvek — **PASS**
 - Compelled Relay Bearer — **Power-complete nonlethal / never random / compulsion story-owned**
 - civilian firewall — **civilian populations are not default enemies**
@@ -252,7 +252,7 @@ Enemy/boss action sheets have passed this gate across Chapters 0–13 and all Hu
 - Chapter-8 ordinary enemies and rare Conqueror Executioner retain current raw stats/Powers.
 - Conqueror Legate retained at Lv38 / 3,650 HP.
 - Western Rift Engine retained at Lv36 / 9,775 HP; finite Rift Echo and 45% same-bar Incarnate state retained.
-- Marshal Varkesh retained at Lv38 / 7,326 HP → fresh Rift Conqueror Lv39 / 8,485 HP; Prime refresh on fresh Form II retained.
+- Marshal Varkesh retained at Lv38 / 7,326 HP → fresh Rift Conqueror Lv39 / 8,485 HP; the historical fresh-form Prime-refresh assumption is **retired** — fresh Form II does not restore spent Prime identities under current Prime rules.
 - Regional Hunt #8 Rift Siege Beast retained at recommended Lv44 / 15,875 HP.
 - Major Hunt #2 recertification carried forward as a legitimate Chapter-8 completionist progression source.
 - No numerical or direct-damage Power changes.
@@ -268,7 +268,7 @@ Enemy/boss action sheets have passed this gate across Chapters 0–13 and all Hu
 - Mercy Warden and Relay-Fever Patient retain their authored nonlethal/stabilization resolutions and medical-story firewalls.
 - Ruin Breach Captain retained at Lv44 / 4,350 HP.
 - Equal Mercy Arbiter retained at Lv40 / 10,025 HP with 45% same-bar Open Sanctuary transition.
-- Commander Rhazek retained at Lv43 / 8,431 HP → fresh Bastion Devourer Lv44 / 10,462 HP; Prime refresh at the genuine fresh body only.
+- Commander Rhazek retained at Lv43 / 8,431 HP → fresh Bastion Devourer Lv44 / 10,462 HP; the historical fresh-body Prime-refresh assumption is **retired** — fresh bodies do not restore spent Prime identities under current Prime rules.
 - Regional Hunt #9 Mercyfallen Behemoth retained at recommended Lv50 / 18,882 HP.
 - Major Hunt #3 Concordance Guardian retained at post-Ch9 recommended Lv54 / 27,400 HP.
 - Rhazek completionist comparison is robust to unresolved RH9 timing: **Lv48 without RH9 / Lv49 with RH9**.
@@ -329,4 +329,12 @@ Closure bookkeeping synchronized after v93. No combat values changed. Representa
 - No Leviathan HP, raw stat, status chance, or direct-damage Power changed.
 - Recorded Pattern deterministic trigger closed for implementation.
 - Blue Warden Clear Warding migration omission restored: **+5 Status Resistance for 2 rounds** after cleansing.
-- Next representative true-battle anchor: **Regulation Crucible → Seventh Reaction**.
+
+## v99 Regulation Crucible true-battle certification
+- Regulation Crucible → The Seventh Reaction is **PASS / RETAIN** at **2,400 HP core + fresh 2,900 HP Form II**.
+- Strict prepared mandatory Lv15 benchmark with no Prime: **100% wins / median 18**.
+- The same benchmark using the one legal Recovered Last Sentinel use: **100% wins / median 14**.
+- Chamber control remains tactically meaningful by sharply reducing harmful-status pressure rather than merely shortening the fight.
+- Fresh Form II does **not** restore a spent Prime identity.
+- No boss HP, raw stat, status chance, or direct-damage Power changed.
+- Current representative true-battle anchor: **Warden of the Nameless / Revision Arbiter**.
