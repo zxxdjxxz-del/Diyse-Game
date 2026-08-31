@@ -164,14 +164,14 @@ Reason:
 # Custodian-domain support objects
 
 State A begins with:
-1. **Acuity Node**
+1. **Perception Node**
 2. **Ruin Containment Seal**
 
 Both are optional tactical targets.
 
 Neither takes an independent ordinary turn.
 
-## Acuity Node
+## Perception Node
 
 | HP | DEF | Spirit | EVA | SR | Power |
 |---:|---:|---:|---:|---:|---|
@@ -205,7 +205,7 @@ Both supports:
 - deal no direct HP damage.
 
 At Open Reconciliation:
-> any surviving Acuity Node / Ruin Containment Seal is administratively disengaged and removed from combat.
+> any surviving Perception Node / Ruin Containment Seal is administratively disengaged and removed from combat.
 
 Their effects end permanently.
 
@@ -273,7 +273,7 @@ Transition:
 - no refill;
 - no free attack;
 - no Prime refresh;
-- surviving Acuity Node / Ruin Containment Seal disengage;
+- surviving Perception Node / Ruin Containment Seal disengage;
 - Custodial Hold ends and becomes unavailable.
 
 For the rest of battle:
@@ -359,7 +359,7 @@ Administrative Closure → Open Reconciliation:
 
 because this is one continuous HP body.
 
-Destroying the Acuity Node or Ruin Containment Seal also does not refresh Prime availability.
+Destroying the Perception Node or Ruin Containment Seal also does not refresh Prime availability.
 
 ---
 
@@ -405,7 +405,7 @@ Open Reconciliation non-damage:
 - Open Record — **Power N/A**
 
 Support objects:
-- Acuity Node — **Power N/A**
+- Perception Node — **Power N/A**
 - Ruin Containment Seal — **Power N/A**
 
 > **WORKING PASS / RAW LINE RETAINED / POWER COMPLETE**
