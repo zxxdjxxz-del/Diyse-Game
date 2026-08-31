@@ -8,7 +8,8 @@ v2 material-pilot flow:
 - run PBR QA and attenuate flagged normal maps without changing UV registration;
 - derive exportable model-space emissive anchors for lantern-style props;
 - render actual glTF models under neutral/warm/cool validation lighting;
-- build a deterministic review sheet from those real model renders.
+- build a deterministic review sheet from those real model renders;
+- build a gameplay-scale integration preview using the real glTF extents.
 """
 from __future__ import annotations
 
@@ -26,6 +27,7 @@ try:
     from .pbr_qa_engine import analyze_pbr
     from .normal_rebalance_engine import rebalance_normal_file
     from .emissive_anchor_engine import derive_emissive_anchor
+    from .gameplay_preview_engine import compose_preview
 except ImportError:
     from shared_material_engine import analyze_zip_models
     from material_style_engine import stylize_material_file
@@ -33,6 +35,7 @@ except ImportError:
     from pbr_qa_engine import analyze_pbr
     from normal_rebalance_engine import rebalance_normal_file
     from emissive_anchor_engine import derive_emissive_anchor
+    from gameplay_preview_engine import compose_preview
 
 
 def _extract_selected(
@@ -215,6 +218,15 @@ def run_prop_pack(
     sheet = output_root / 'review_sheet.png'
     _build_sheet(render_entries, sheet)
 
+    neutral_renders = {
+        model: renders_dir / f'{model}__neutral.png'
+        for model in models
+        if (renders_dir / f'{model}__neutral.png').exists()
+    }
+    gltfs = {model: source / f'{model}.gltf' for model in models}
+    gameplay_preview = output_root / 'gameplay_scale_preview.png'
+    compose_preview(gltfs, neutral_renders, gameplay_preview)
+
     manifest = {
         'source_zip': str(zip_path.resolve()),
         'models': models,
@@ -225,6 +237,7 @@ def run_prop_pack(
         'emissive_anchors': emissive_anchors,
         'renders': render_entries,
         'review_sheet': str(sheet.resolve()),
+        'gameplay_scale_preview': str(gameplay_preview.resolve()),
         'image_generation_calls': 0,
         'status': 'technical_pilot_v2_ready_for_visual_review',
     }
@@ -251,6 +264,7 @@ def main() -> int:
         'renders': len(result['renders']),
         'image_generation_calls': result['image_generation_calls'],
         'review_sheet': result['review_sheet'],
+        'gameplay_scale_preview': result['gameplay_scale_preview'],
     }, indent=2))
     return 0
 
