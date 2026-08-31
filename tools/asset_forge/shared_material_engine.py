@@ -37,9 +37,11 @@ def analyze_zip_models(zip_path: Path, model_names: Iterable[str], gltf_root: st
             all_images=gltf_image_dependencies(data)
             basecolors=basecolor_dependencies(data)
             materials=[m.get('name','') for m in data.get('materials',[])]
+            buffers=[b.get('uri','') for b in data.get('buffers',[]) if b.get('uri')]
             per_model[model]={
                 'member':member,
                 'materials':materials,
+                'buffers':buffers,
                 'images':all_images,
                 'basecolor_images':basecolors,
             }
