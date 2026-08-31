@@ -107,8 +107,8 @@ Current combined HP:
 | Formation | Composition | Weight |
 |---|---|---:|
 | Protocol Line | 2 Administrative Sentinel + Permission Scribe + Element Matrix + Grace Curator | 30% |
-| Bastion Filing | Administrative Sentinel + Permission Scribe + Might Bastion + Grace Curator + Change Schema | 45% |
-| Matrix Screen | Administrative Sentinel + Might Bastion + 2 Element Matrix + Permission Scribe + Change Schema | 25% |
+| Bastion Filing | Administrative Sentinel + Permission Scribe + Might Bastion + Grace Curator + Memory Schema | 45% |
+| Matrix Screen | Administrative Sentinel + Might Bastion + 2 Element Matrix + Permission Scribe + Memory Schema | 25% |
 
 Current combined HP:
 - Protocol Line — **7,200**;
@@ -119,8 +119,8 @@ Current combined HP:
 | Formation | Composition | Weight |
 |---|---|---:|
 | Administrative Lock | 2 Administrative Sentinel + Permission Scribe + Might Bastion + Grace Curator | 30% |
-| Sixfold Archive | Administrative Sentinel + Permission Scribe + Might Bastion + Element Matrix + Grace Curator + Change Schema | 45% |
-| Trial Stack | Administrative Sentinel + 2 Might Bastion + Element Matrix + Permission Scribe + Change Schema | 25% |
+| Sixfold Archive | Administrative Sentinel + Permission Scribe + Might Bastion + Element Matrix + Grace Curator + Memory Schema | 45% |
+| Trial Stack | Administrative Sentinel + 2 Might Bastion + Element Matrix + Permission Scribe + Memory Schema | 25% |
 
 Current combined HP:
 - Administrative Lock — **7,730**;
@@ -153,7 +153,7 @@ Representative strongest actions:
 - Element Matrix — Matrix Lance: **~12.7%**;
 - Element Matrix — Matrix Wave: **~9.3% per target**;
 - Grace Curator — Curator Ray: **~10.7%**;
-- Change Schema — Schema Cut: **~11.0%**.
+- Memory Schema — Schema Cut: **~11.0%**.
 
 The current Element Matrix four-element rotation remains exactly Fire / Ice / Lightning / Earth. No Wind/Water state is introduced.
 
@@ -168,7 +168,7 @@ At the completionist **Lv57–61** range these percentages fall materially, pres
 A conservative four-character AoE reference using long-established Base-Class AoEs — Sweeping Edge, Weave Burst, Stormburst, and Fracturing Brand — with **no equipment offense added** produces roughly the following same-round per-target throughput at the relevant levels:
 - Permission Scribe: roughly **2.2–2.4 serious AoE rounds**;
 - Grace Curator: roughly **2.7–3.0**;
-- Crown Engine Sentinel / Element Matrix / Administrative Sentinel / Change Schema: roughly **2.8–3.4**;
+- Crown Engine Sentinel / Element Matrix / Administrative Sentinel / Memory Schema: roughly **2.8–3.4**;
 - Continuity Adjudicator: roughly **3.1–3.5**;
 - Emergency Executor Frame: roughly **3.6–4.0**;
 - Might Bastion: roughly **4.0–4.5**.
@@ -256,7 +256,7 @@ Retain Form I:
 
 Retain:
 - 2 Authentication Lenses, **600 HP each**;
-- each Lens +5 Total Defense / +5 Base Hit while intact;
+- each Lens grants **Defense +5% / Spirit +5%** and **+5 Base Hit** while intact;
 - no independent Lens turn.
 
 Retain fresh Form II:
@@ -264,10 +264,10 @@ Retain fresh Form II:
 
 Retain:
 - 2 Living Anchor Clamps, **720 HP each**;
-- each Clamp +5 Total Defense while intact;
+- each Clamp grants **Defense +5% / Spirit +5%** while intact;
 - finite Interruptible-Preparation Continuity Collapse;
 - maximum 2 successful Collapse resolutions;
-- genuine fresh-body Prime availability refresh at the Form-I → Form-II transition.
+- the fresh Form-I → Form-II transition **does not restore spent Prime identities** under current Prime rules.
 
 On the fragile no-equipment Lv49 reference:
 - strongest ordinary Form-I single target is roughly **~17% Max HP**;
@@ -298,13 +298,13 @@ Retain:
 > Lv55 / **16,017 HP** / ATK177 / MAG190 / DEF144 / Spirit146 / SPD48 / EVA0 / SR10
 
 State A support objects remain:
-- Acuity Node — **700 HP**, Power N/A, +10 Base Hit / +10 Speed;
-- Ruin Containment Seal — **760 HP**, Power N/A, +10 Total Defense / −15% final direct Ruin damage taken.
+- Perception Node — **700 HP**, Power N/A, +10 Base Hit / Speed +10%;
+- Ruin Containment Seal — **760 HP**, Power N/A, Defense +10% / Spirit +10% / −15% final direct Ruin damage taken.
 
 Both are finite, non-attacking, non-respawning supports.
 
 Open Reconciliation remains:
-> **45% HP / same bar / no refill / no free attack / no Prime refresh**
+> **45% HP / same bar / no refill / no free attack / no Prime restoration**
 
 At the fragile no-equipment Lv51 reference:
 - State-A strongest direct actions are roughly **~15–17% Max HP**;
@@ -350,7 +350,7 @@ Finite Echo Nodes remain:
 - no repair/respawn;
 - each supplies finite Magic/Defense support while functional.
 
-One continuous HP bar means no Prime availability refresh.
+One continuous HP bar means no Prime restoration.
 
 **Verdict:**
 > **PASS / FORMALLY VALIDATED v87 / RETAIN RECOMMENDED LV56, RAW STATS, POWERS, AND ECHO ARCHITECTURE.**
@@ -372,7 +372,7 @@ First-access relationship:
 
 The Arbiter therefore remains clearly above both the story-clear party and the completionist party at unlock.
 
-Custody Protocols, Archive Burden, and Transfer Windows remain one continuous HP-bar architecture and do not refresh Prime availability.
+Custody Protocols, Archive Burden, and Transfer Windows remain one continuous HP-bar architecture and do not restore Prime availability.
 
 **Verdict:**
 > **PASS / FORMALLY CARRIED FORWARD v87 / NO NUMERICAL CHANGE.**
