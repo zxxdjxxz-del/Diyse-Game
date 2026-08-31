@@ -5,7 +5,6 @@
 **Runtime checkpoint:** `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
 **Visual rule:** the newest explicitly approved visual reference for a character/location controls all derivative field sprites, battle sprites, portraits, cut-ins, model sheets, and promotional derivatives unless that exact visual is later revised.
 
-
 Canonical home for:
 - exact character appearance authority;
 - portrait/sprite derivation rules;
@@ -20,9 +19,16 @@ Canonical home for:
 - open visual-production work.
 
 ## Active visual target
-> **HD-2D**
 
-Older active `2.5D`, `3D`, or pixel-art-first direction is retired as the production target.
+> **Seinen HD-2D Fantasy with Chaotic Variable Line Weight**
+
+Full rendering/style authority:
+
+`DIYSE_VISUAL_STYLE_CANON.md`
+
+This keeps HD-2D as the presentation framework while locking a more specific art identity: mature seinen character language, expressive thick-to-thin/broken/irregular linework, painterly shape-first environments, cinematic atmosphere, and graphic readable VFX.
+
+Older active `2.5D`, `3D`, pixel-art-first, or generic clean-anime direction is retired as the production target.
 
 Diyse may use pixel-scale field/battle sprites as part of HD-2D presentation, but:
 > the game's identity is not a retro pixel-art reinterpretation of the approved character masters.
@@ -50,6 +56,25 @@ They may not casually change:
 - body proportion;
 - established scars/major features.
 
+The new style authority changes **rendering treatment**, not previously approved character identity.
+
+## Asset style-conversion authority
+
+The practical pipeline for turning the current source/reference and CC0 libraries into the locked style is:
+
+`PRODUCTION/ASSET_STYLE_CONVERSION_PIPELINE.md`
+
+It controls:
+- provenance lanes;
+- repaint/rebuild order;
+- chaotic line application;
+- environment/material conversion;
+- HD-2D integration tests;
+- runtime-scale checks;
+- originalization/faction identity;
+- conversion grades (`REF`, `PROTO`, `STYLE-PASS`, `DIYSE-FINAL`, `REPLACE`);
+- reusable production prompts.
+
 ## Asset library authority
 The authoritative production inventory and provenance routing live at:
 
@@ -57,7 +82,7 @@ The authoritative production inventory and provenance routing live at:
 
 The current preserved inventory is **DIYSE Asset Library Master v5**, including the exact source-archive checksum manifest and byte-identical split preservation of the full master inventory.
 
-The asset library records what source material exists, what is verified CC0 versus license-unverified reference material, and what production capabilities the library can support. It does **not** override the active HD-2D visual target, exact character/location visual authority, environment-language rules, or newer explicit visual approvals. Assets must be adapted, replaced, or rebuilt where necessary to satisfy current Diyse art direction.
+The asset library records what source material exists, what is verified CC0 versus license-unverified reference material, and what production capabilities the library can support. It does **not** override the active visual style, exact character/location visual authority, environment-language rules, or newer explicit visual approvals. Assets must be adapted, replaced, or rebuilt where necessary to satisfy current Diyse art direction.
 
 ## Image-file boundary
 This migration records visual authority and production rules.
