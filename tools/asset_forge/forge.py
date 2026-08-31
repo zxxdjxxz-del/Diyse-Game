@@ -435,17 +435,80 @@ def cmd_qa(args: argparse.Namespace) -> None:
     print(json.dumps({"count": len(reviewed), "qa_rejects": rejects}, indent=2))
 
 
+def make_contact_sheet(rows: list[dict], output: Path, columns: int = 4, thumb: int = 256) -> None:
+    """Build a deterministic review sheet from actual outputs; no generated typography."""
+    from PIL import Image, ImageDraw, ImageFont
+
+    usable = [r for r in rows if r.get("output_path") and Path(r["output_path"]).exists()]
+    if not usable:
+        raise RuntimeError("No generated output_path entries found for contact sheet")
+
+    pad = 18
+    label_h = 76
+    cell_w = thumb + pad * 2
+    cell_h = thumb + label_h + pad * 2
+    rows_n = (len(usable) + columns - 1) // columns
+    header_h = 74
+    sheet = Image.new("RGB", (columns * cell_w, header_h + rows_n * cell_h), (24, 24, 24))
+    draw = ImageDraw.Draw(sheet)
+    font = ImageFont.load_default()
+    draw.text((18, 16), "DIYSE ASSET FORGE — ACTUAL OUTPUT REVIEW", fill=(240, 232, 210), font=font)
+    draw.text((18, 38), f"Assets: {len(usable)} | deterministic board from generated files", fill=(190, 190, 190), font=font)
+
+    for i, row in enumerate(usable):
+        col = i % columns
+        rr = i // columns
+        x = col * cell_w
+        y = header_h + rr * cell_h
+        draw.rectangle((x + 5, y + 5, x + cell_w - 5, y + cell_h - 5), outline=(80, 80, 80), width=1)
+        src = Path(row["output_path"])
+        with Image.open(src).convert("RGBA") as im:
+            bg = Image.new("RGBA", im.size, (38, 38, 38, 255))
+            if "A" in im.getbands():
+                bg.alpha_composite(im)
+                im2 = bg.convert("RGB")
+            else:
+                im2 = im.convert("RGB")
+            im2.thumbnail((thumb, thumb), Image.Resampling.LANCZOS)
+            px = x + pad + (thumb - im2.width) // 2
+            py = y + pad + (thumb - im2.height) // 2
+            sheet.paste(im2, (px, py))
+
+        label_y = y + pad + thumb + 8
+        rel = row.get("relative_path", src.name)
+        if len(rel) > 38:
+            rel = "…" + rel[-37:]
+        draw.text((x + pad, label_y), rel, fill=(240, 232, 210), font=font)
+        draw.text((x + pad, label_y + 18), f"{row.get('category','?')} | {row.get('status','?')}", fill=(190, 190, 190), font=font)
+        qa_state = row.get("qa", {}).get("status", "not-run")
+        draw.text((x + pad, label_y + 36), f"QA: {qa_state}", fill=(160, 200, 160) if qa_state != "reject" else (230, 120, 120), font=font)
+
+    output.parent.mkdir(parents=True, exist_ok=True)
+    sheet.save(output, format="PNG")
+
+
+def cmd_sheet(args: argparse.Namespace) -> None:
+    rows = read_jsonl(Path(args.results))
+    if args.qa:
+        rows = read_jsonl(Path(args.qa))
+    make_contact_sheet(rows, Path(args.output), columns=args.columns, thumb=args.thumb)
+    print(json.dumps({"output": str(Path(args.output)), "assets": sum(1 for r in rows if r.get("output_path"))}, indent=2))
+
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="diyse-asset-forge")
     sub = p.add_subparsers(dest="command", required=True)
+
     s = sub.add_parser("inventory", help="Scan images and build provenance-aware manifest")
     s.add_argument("source_root")
     s.add_argument("--output", default=".asset_forge/manifest.jsonl")
     s.set_defaults(func=cmd_inventory)
+
     s = sub.add_parser("plan", help="Build style-conversion work queue")
     s.add_argument("manifest")
     s.add_argument("--output", default=".asset_forge/queue.jsonl")
     s.set_defaults(func=cmd_plan)
+
     s = sub.add_parser("process", help="Run queued work")
     s.add_argument("queue")
     s.add_argument("--provider", choices=["dry-run", "openai"], default="dry-run")
@@ -453,10 +516,20 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--results", default=".asset_forge/results.jsonl")
     s.add_argument("--limit", type=int)
     s.set_defaults(func=cmd_process)
+
     s = sub.add_parser("qa", help="Run deterministic output QA")
     s.add_argument("results")
     s.add_argument("--output", default=".asset_forge/qa.jsonl")
     s.set_defaults(func=cmd_qa)
+
+    s = sub.add_parser("sheet", help="Build deterministic review sheet from actual outputs")
+    s.add_argument("results")
+    s.add_argument("--qa", help="Optional QA JSONL to use instead of raw results")
+    s.add_argument("--output", default=".asset_forge/review_sheet.png")
+    s.add_argument("--columns", type=int, default=4)
+    s.add_argument("--thumb", type=int, default=256)
+    s.set_defaults(func=cmd_sheet)
+
     return p
 
 
