@@ -15,6 +15,7 @@ Canonical home for:
 - VFX presentation tiers;
 - element/Face/Card/Prime visual language;
 - production-scale visual reuse rules;
+- asset inventory and provenance routing;
 - retired visual concepts;
 - open visual-production work.
 
@@ -48,6 +49,15 @@ They may not casually change:
 - iconic equipment/clothing language;
 - body proportion;
 - established scars/major features.
+
+## Asset library authority
+The authoritative production inventory and provenance routing live at:
+
+`PRODUCTION/ASSET_LIBRARY/README.md`
+
+The current preserved inventory is **DIYSE Asset Library Master v5**, including the exact source-archive checksum manifest and byte-identical split preservation of the full master inventory.
+
+The asset library records what source material exists, what is verified CC0 versus license-unverified reference material, and what production capabilities the library can support. It does **not** override the active HD-2D visual target, exact character/location visual authority, environment-language rules, or newer explicit visual approvals. Assets must be adapted, replaced, or rebuilt where necessary to satisfy current Diyse art direction.
 
 ## Image-file boundary
 This migration records visual authority and production rules.
