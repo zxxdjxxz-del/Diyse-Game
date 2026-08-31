@@ -1,1 +1,0 @@
-Transfer in progress. Exact master parts are being verified against the preserved v5 SHA-256.
