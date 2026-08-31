@@ -11,12 +11,13 @@ Closed prerequisites:
 
 Certified representative anchors:
 - Hollow Watch Castellan — **PASS / RETAIN v93**;
-- Archive Leviathan — **PASS / RETAIN v97**.
+- Archive Leviathan — **PASS / RETAIN v97**;
+- Regulation Crucible → The Seventh Reaction — **PASS / RETAIN v99**.
 
 Next anchor:
-> **Regulation Crucible → Seventh Reaction**
+> **Revision Arbiter — midgame action-tax/control test**
 
-Then continue representative coverage through a midgame control/action-tax boss, a late fresh-form/two-form boss, Vaelkor, the final mandatory boss, and The Unfinished World.
+Then continue representative coverage through a late fresh-form/two-form boss, Vaelkor, the final mandatory boss, and The Unfinished World.
 
 All true-battle tests must use the current v96 Bleed escalation rule and exact party state at the fight. Do not reopen Power merely because a test is being run; retune only a specific component if the true battle demonstrates a structural failure.
 
