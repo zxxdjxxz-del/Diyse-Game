@@ -30,3 +30,10 @@ exports/
 *.tmp
 *.bak
 *~
+
+# License-unverified asset source material
+# Diyse-Game is public. Keep extracted/private-reference archives and derived
+# source textures out of Git history unless rights are separately confirmed or
+# repository visibility/storage policy is explicitly changed.
+asset_sources/private_reference/
+assets/environment/extracted_private_reference/
