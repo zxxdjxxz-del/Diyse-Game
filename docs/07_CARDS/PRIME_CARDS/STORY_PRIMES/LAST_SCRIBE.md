@@ -1,10 +1,9 @@
 # Diyse — Prime: Last Scribe
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, and later current v85 working closures.  
-**Current written whole-project authority:** **v2.20 / Audit135**.  
+**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, later current v85 working closures, and newer explicit Face correction.  
+**Current written whole-project authority:** **v2.20 / Audit135** plus newer approved corrections.
 
-
-**Face:** Change  
+**Face:** Memory  
 **Narrative bearer:** Nimera  
 **Progression:** Recovered → Awakened
 
@@ -16,6 +15,8 @@
 | **Awakened — Index Shift** | one enemy | State rewrite | — | — | Temporarily swap that target's eligible **Weak ↔ Resistant** standard-element relationships **through the end of the next Prime round, or until dismissal if dismissal occurs first**. Neutral, Strongly Resistant, and Immune relationships are protected and unchanged. Unavailable Round 3. |
 | **Awakened — Transcribe Affliction** | one enemy | Status rewrite | — | — | Choose one existing eligible canonical harmful status and rewrite it into a **different** legal canonical harmful status. Remove the original instance, then create a fresh instance of the chosen replacement under the target's current ordinary/high-rank status rules. No application or Status-Resistance roll is made; explicit immunity/protection still forbids that replacement. No extra action or copied damage. |
 | **Legacy/final — Final Revision** | Prime Round 3 only; all enemies | Magical / Colorless | 245 each | — | 30% Spirit penetration; eligible positive ordinary temporary stat changes become corresponding negative values under protection rules. |
+
+Last Scribe's Memory identity treats existing recorded conditions as material that can remain relevant, be preserved, or be rewritten into the present. This Face does not create a universal replay/copy command.
 
 ## Index Shift exact resolver
 Index Shift rewrites only the four standard-element affinity relationships that are actually eligible to flip:
@@ -60,6 +61,7 @@ Transcription intentionally **does not preserve or refresh the original status's
 - `../PRIME_SYSTEM_RULES.md`
 - `../PRIME_SCALING.md`
 - `../PRIME_STATUS_CONTROL.md`
+- `../../../05_BATTLE_SYSTEM/PRIME_ROUND_SEQUENCING.md`
 
 ## Ruin formula scope
 If this Prime contains Ruin damage, use the command's explicitly authored Prime formula.

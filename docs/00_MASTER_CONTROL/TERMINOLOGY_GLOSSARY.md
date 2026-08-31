@@ -26,16 +26,26 @@
 
 **Guard** — valid intentional defensive state for appropriate enemies.
 
-**Staggered** — harmful status reducing Speed/Base Hit/Evasion; not a Break meter.
+**Staggered** — harmful status applying **Attack −20% / Magic −20% / Speed −20%** under its current target-rank duration rules; it does not reduce Base Hit/Evasion and is not a Break meter.
 
 **Ruin** — special affinity/school; not a fifth standard element.
 
 ## Cards
-**Acuity** — current Face centered on perception, timing, precision, route assessment and situational judgment.
+**Perception** — current Face governing Accuracy-oriented effects under the existing Base Hit/application-reliability system, Evasion, Critical Hits, and Fields. Represents reading the battlefield, positioning, timing, openings, and controlling/exploiting space.
 
-**Last Cartographer** — Torren-associated Story Prime.
+**Memory** — current Face governing recall, repetition, preservation, and reuse of prior actions/states. Represents what has happened remaining available to influence the present.
+
+**Last Cartographer** — Torren-associated Perception Story Prime.
+
+**Last Scribe** — Nimera-associated Memory Story Prime.
 
 **Sixfold Volition** — end-Ch7 decision/event that unlocks all Subclasses.
+
+Current Face set:
+> **Might / Elements / Grace / Perception / Memory / Ruin**
+
+Retired Face labels:
+> Resource / Acuity / Change
 
 ## Chapter 4 / Ancient regulation
 **Reaction Annex**

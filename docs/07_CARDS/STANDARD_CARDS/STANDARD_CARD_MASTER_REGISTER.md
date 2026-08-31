@@ -1,8 +1,7 @@
 # Diyse — Standard Card Master Register
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, and later current v85 working closures.  
-**Current written whole-project authority:** **v2.20 / Audit135**.  
-
+**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, later current v85 working closures, and newer explicit Face correction.  
+**Current written whole-project authority:** **v2.20 / Audit135** plus newer approved corrections.
 
 Exactly **24 Standard Cards**.
 
@@ -28,19 +27,18 @@ Current MP range:
 | Grace | **Merciful Reprisal** | 28 | Ilyra Character Quest — Mercy Has a Voice |
 | Grace | **Wellspring** | 36 | Chapter 9 — Equal Mercy Arbiter |
 | Grace | **Dawn Recall** | 44 | Regional Hunt #5 — Whitehorn Ravager |
-| Acuity | **Faultline Sight** | 18 | Chapter 1 — Hollow Watch Castellan / S008 |
-| Acuity | **Measured Response** | 24 | Chapter 5 — Deepforge Colossus |
-| Acuity | **Predicted Impact** | 28 | Regional Hunt #9 — Mercyfallen Behemoth |
-| Acuity | **Decisive Interval** | 36 | Major Hunt #5 — Final Archive Arbiter |
-| Change | **Burden Shift** | 26 | Chapter 3 — protected Ancient repository |
-| Change | **Reversal Engine** | 40 | Regional Hunt #3 — Archive Judgment Engine |
-| Change | **Split Moment** | 48 | Chapter 7 — Warden of the Nameless / Revision Arbiter |
+| Perception | **Faultline Sight** | 18 | Chapter 1 — Hollow Watch Castellan / S008 |
+| Perception | **Measured Response** | 24 | Chapter 5 — Deepforge Colossus |
+| Perception | **Predicted Impact** | 28 | Regional Hunt #9 — Mercyfallen Behemoth |
+| Perception | **Decisive Interval** | 36 | Major Hunt #5 — Final Archive Arbiter |
+| Memory | **Burden Shift** | 26 | Chapter 3 — protected Ancient repository |
+| Memory | **Reversal Engine** | 40 | Regional Hunt #3 — Archive Judgment Engine |
+| Memory | **Split Moment** | 48 | Chapter 7 — Warden of the Nameless / Revision Arbiter |
 | Ruin | **Calamity Lance** | 34 | Chapter 6 — Matron Zevraya |
 | Ruin | **Devouring Singularity** | 42 | Chapter 11 — Custodian reconciliation |
 | Ruin | **Zero Hour** | 48 | Major Hunt #6 — The Unfinished World |
 
 ## Source status reconciliation
-
 Audit116 still listed four homes as OPEN:
 - Restoration
 - Cinder Judgment
@@ -58,11 +56,12 @@ This register therefore uses the latest recovered/accepted homes:
 These are treated as current tracker-level source authority pending any future explicit master-canon rewrite.
 
 ## Renamed/reclassified continuity
-
 - `Chosen Course` → **Measured Response**
 - `Glassform Rupture` → **Burden Shift**
 - `Spatial Guillotine` → **Split Moment**
-- Sanguine Alloy: Change → **Might**
+- Sanguine Alloy: former Change-era classification → **Might**
 - Worldsplitter: Ruin → **Elements / Earth**
+- former **Acuity** Face → **Perception**
+- former **Change** Face → **Memory**
 
 Their established source continuity is preserved.

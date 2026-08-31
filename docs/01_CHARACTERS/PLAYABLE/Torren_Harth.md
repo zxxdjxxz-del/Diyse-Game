@@ -4,13 +4,12 @@
 **Character-authority inputs:** compatible character/chronology overlays, current approved dialogue/story evidence, newer Face/Class corrections, and the newest explicit user corrections.  
 **Domain rule:** this folder owns character identity, biography, chronology, personality, relationship logic, and concise voice direction. Exact class mechanics live in `06_CLASSES_AND_ABILITIES`; Card/Prime mechanics in `07_CARDS`; detailed art specifications in `14_ART_AND_VISUALS`; exact dialogue scripts in `03_DIALOGUE`.
 
-
 ## Identity
 - Age: **42**
 - Permanent party: **yes**
 - Join: **Chapter 1**
 - Base / Subclass: **War Archer / Routeweaver**
-- Face: **Acuity**
+- Face: **Perception**
 - Story Prime: **Last Cartographer**
 - Older sister: **Edda Harth**
 
@@ -30,13 +29,15 @@ He may answer:
 
 without the narrative treating uncertainty as incompetence.
 
-## Acuity
-Torren's **War Archer** is the party's Acuity-aligned Base Class.
+## Perception
+Torren's **War Archer** is the party's Perception-aligned Base Class.
 
-Acuity:
-> **turns uncertainty into a path.**
+Perception represents:
+> **reading the battlefield, positioning, timing, openings, and controlling or exploiting space.**
 
-His later Routeweaver Subclass remains **Change-aligned mechanically** and should not be rewritten as "more Acuity."
+For Torren, that is expressed through route assessment, sightlines, enemy measure, Evasion pressure, Critical openings, Base Hit control, and Fields rather than through a natural Accuracy stat.
+
+His later **Routeweaver** Subclass remains **Memory-aligned mechanically** through the reciprocal donor architecture and should not be rewritten as "more Perception." Routeweaver preserves established route/link state and lets prior established battlefield structure continue to shape later actions/turns.
 
 ## Ordinary-life identity
 He performs useful route work quietly and may do it before anyone is awake.

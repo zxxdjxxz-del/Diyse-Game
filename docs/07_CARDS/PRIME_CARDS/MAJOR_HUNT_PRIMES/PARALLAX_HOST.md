@@ -1,10 +1,9 @@
 # Diyse — Prime: Parallax Host
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, and later current v85 working closures.  
-**Current written whole-project authority:** **v2.20 / Audit135**.  
+**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, later current v85 working closures, and newer explicit Face correction.  
+**Current written whole-project authority:** **v2.20 / Audit135** plus newer approved corrections.
 
-
-**Face:** Acuity  
+**Face:** Perception  
 **Source:** Major Hunt #5 — Final Archive Arbiter  
 **Acquisition state:** Awakened
 
@@ -16,12 +15,13 @@
 | **Occluded Sightline** | all enemies | Each target independently uses weaker current defensive axis | 190 per target | 115 | 20% relevant-axis penetration; after successful damage Base Hit −15 for 2 rounds; this is an ordinary stat change. |
 | **Legacy/final — Parallax Collapse** | Prime Round 3 only; all enemies | Physical / Neutral + Magical / Colorless | 150 + 150 = 300 per target | 120 each | 30% Defense penetration on Physical hit; 30% Spirit penetration on Magical hit; surviving target hit by ≥1 component gets Defense −15% and Spirit −15% for 2 full normal party rounds after dismissal. |
 
-
+Parallax Host's Perception identity is battlefield reading and exploitation of defensive openings, sightlines, hit control, and positioning logic. It does not create a natural Accuracy stat.
 
 ## Global Prime references
 - `../PRIME_SYSTEM_RULES.md`
 - `../PRIME_SCALING.md`
 - `../PRIME_STATUS_CONTROL.md`
+- `../../../05_BATTLE_SYSTEM/PRIME_ROUND_SEQUENCING.md`
 
 ## Ruin formula scope
 If this Prime contains Ruin damage, use the command's explicitly authored Prime formula.

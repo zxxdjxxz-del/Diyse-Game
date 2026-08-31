@@ -60,7 +60,16 @@ No natural Accuracy stat.
 
 ## Cards
 Faces:
-> Might / Elements / Grace / Acuity / Change / Ruin
+> **Might / Elements / Grace / Perception / Memory / Ruin**
+
+Perception:
+> Accuracy-oriented effects under current Base Hit rules, Evasion, Critical Hits, and Fields; reading battlefield position, timing and openings.
+
+Memory:
+> recall, repetition, preservation, and reuse of prior actions/states; what has happened remaining available to influence the present.
+
+Retired Face labels:
+> Resource / Acuity / Change
 
 Counts:
 - 24 Standard Cards
@@ -70,11 +79,21 @@ Counts:
 Standard loadout:
 > 3 per character
 
-Prime loadout after Sixfold Volition:
-> 2 per character
+Prime loadout:
+- Chapter 4 Prime access → Sixfold Volition: **1 slot per character**
+- after Sixfold Volition: **2 slots per character**
 
 Prime progression:
 > Recovered → Awakened
+
+Prime resource:
+> 0 MP; each Prime identity one use until valid restoration; fresh boss forms do not restore spent Primes
+
+Post-dismissal spacing:
+> **2 full normal party rounds**
+
+Awakened round sequencing:
+> `05_BATTLE_SYSTEM/PRIME_ROUND_SEQUENCING.md`
 
 No Concordant.
 
@@ -89,6 +108,9 @@ Counts:
 - 36 Relics
 - 17 Legacies
 - 91 total equipment
+
+Equipment Max HP / Max MP:
+> **flat `+N` bonuses**, not percentages
 
 Consumables:
 > 20
@@ -110,7 +132,7 @@ Ordinary encounter planning center:
 > **225**
 
 Current CEXP timing:
-> **v91 RECALIBRATED** — normal-route full Base + Subclass completion ~Player Lv55–60; CL13 = 6,000 CEXP; 7,000 post-Volition mandatory CEXP by end Ch12; 8,500 by Last Shelter; optional pool 1,000 before MH6 / 1,075 including MH6.
+> normal-route full Base + Subclass completion ~Player Lv55–60; CL13 = 6,000 CEXP; 7,000 post-Volition mandatory CEXP by end Ch12; 8,500 by Last Shelter; optional pool 1,000 before MH6 / 1,075 including MH6.
 
 ## Optional content
 - 6 Character Quests
@@ -131,7 +153,6 @@ Final Severance:
 > HOLD → DISTINGUISH → MAP → PRESERVE → CONTAIN → END
 
 All six permanent characters survive.
-
 
 ## Major Hunt unlocks
 - #1 after Ch6

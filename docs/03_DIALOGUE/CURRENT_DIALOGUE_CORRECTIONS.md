@@ -11,15 +11,30 @@
 - Ch4 S022–S026: four-element conversion
 - Ch1 C04: current final wording **old slut**, not stale old-whore README note
 
-## Applied by this migration
+## Applied current corrections
 ### Ch1 S009
 `Sixfold Accord` → **Sixfold Volition** in the production firewall; no spoken line changed.
 
-### Ch3 S019
+### Ch3 S019 — Six Faces
+Earlier migration correction:
 `Might. Elements. Grace. Resource. Change. Ruin.` → `Might. Elements. Grace. Acuity. Change. Ruin.`
+
+That intermediate wording is now superseded.
+
+Current approved spoken line for **S019_B032**:
+> **NIMERA:** Might. Elements. Grace. Perception. Memory. Ruin.
+
+Therefore:
+- `Resource` remains retired;
+- `Acuity` is retired → **Perception**;
+- Face-name `Change` is retired → **Memory**.
+
+Only Face-system use of `Change` is replaced. Ordinary spoken English using the verb/noun `change` remains untouched.
 
 ### Ch0
 Retired internal ward label removed from current-facing transcript staging; spoken text unchanged.
 
 ## Not changed
 Physical structural braces, security barriers, ordinary water and ordinary wind remain normal language rather than removed system terms.
+
+Ordinary English uses of `change`, `memory`, `perception`, `acuity`, or `resource` are not Card-Face terminology unless the scene explicitly identifies them as one of the Six Faces.

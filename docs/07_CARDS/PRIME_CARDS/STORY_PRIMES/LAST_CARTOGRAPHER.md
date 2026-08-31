@@ -1,10 +1,9 @@
 # Diyse — Prime: Last Cartographer
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, and later current v85 working closures.  
-**Current written whole-project authority:** **v2.20 / Audit135**.  
+**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, later current v85 working closures, and newer explicit Face correction.  
+**Current written whole-project authority:** **v2.20 / Audit135** plus newer approved corrections.
 
-
-**Face:** Acuity  
+**Face:** Perception  
 **Narrative bearer:** Torren  
 **Progression:** Recovered → Awakened
 
@@ -17,12 +16,13 @@
 | **Awakened — Closed Route** | one enemy | Physical / Neutral | 220 | 130 | 20% Defense penetration; 50% Stun. |
 | **Legacy/final — Last Horizon** | Prime Round 3 only; all enemies | Physical / Neutral | 240 each | 120 | 30% Defense penetration; 25% Stun per successfully damaged target. After dismissal, conscious party gains Speed +15% and Base Hit +15 for 2 full normal rounds. |
 
-
+Last Cartographer's Perception identity expresses battlefield reading, sightlines, timing, openings, and hit-control. It does not create a natural Accuracy stat.
 
 ## Global Prime references
 - `../PRIME_SYSTEM_RULES.md`
 - `../PRIME_SCALING.md`
 - `../PRIME_STATUS_CONTROL.md`
+- `../../../05_BATTLE_SYSTEM/PRIME_ROUND_SEQUENCING.md`
 
 ## Ruin formula scope
 If this Prime contains Ruin damage, use the command's explicitly authored Prime formula.

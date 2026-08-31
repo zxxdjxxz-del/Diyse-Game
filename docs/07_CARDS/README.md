@@ -1,8 +1,7 @@
 # 07_CARDS
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, and later current v85 working closures.  
-**Current written whole-project authority:** **v2.20 / Audit135**.  
-
+**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, later current v85 working closures, and newer explicit user corrections.  
+**Current written whole-project authority:** **v2.20 / Audit135** plus newer approved corrections.
 
 Canonical home for Diyse's collectible Card system.
 
@@ -15,9 +14,14 @@ Current Faces:
 - Might
 - Elements
 - Grace
+- **Perception**
+- **Memory**
+- Ruin
+
+Retired Face labels:
+- Resource
 - Acuity
 - Change
-- Ruin
 
 This domain owns:
 - Standard Card identities/effects/MP costs;
@@ -29,9 +33,10 @@ This domain owns:
 - Prime loadout/access;
 - Prime manifestation scaling;
 - Prime status/control behavior;
-- Prime command packages.
+- Prime command packages;
+- current Six-Face terminology and thematic roles.
 
-Global damage, Base Hit/Evasion, Critical, element, status, Guard, and fresh-body battle rules remain in `05_BATTLE_SYSTEM`.
+Global damage, Base Hit/Evasion, Critical, element, status, Guard, Field lifecycle, Prime-round sequencing, and fresh-body battle rules remain in `05_BATTLE_SYSTEM`.
 
 ## Folder layout
 - `CARD_SYSTEM_MASTER.md`

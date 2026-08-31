@@ -1,11 +1,9 @@
 # Diyse — Card System Master
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, later current v85 working closures, and newer explicit user corrections.  
-**Current written whole-project authority:** **v2.20 / Audit135** plus newer approved corrections.  
-
+**Current written whole-project authority:** **v2.20 / Audit135** plus newer approved corrections.
 
 ## Collection size
-
 Exactly:
 - **24 Standard Cards**
 - **12 Prime Cards**
@@ -14,7 +12,6 @@ Exactly:
 No additional Card rank, duplicate, Essence, upgrade-material, or generated-card progression exists.
 
 ## Standard Cards
-
 Standard Cards:
 - use one normal selected action;
 - are reusable;
@@ -28,7 +25,6 @@ Standard Cards:
 Standard Cards are Ancient Diysean artifacts. Modern enemies do not create them. A battle or exploration reward may expose, release, recover, or grant access to a pre-existing Card.
 
 ## Prime Cards
-
 Prime Cards are the collectible manifestation layer.
 
 Exactly:
@@ -60,8 +56,9 @@ After a Prime manifestation ends, **2 full normal party rounds** must pass befor
 
 Fresh-HP boss forms do not restore spent Primes.
 
-## Standard vs Prime loadout
+Awakened manifestation turn flow is owned by `../05_BATTLE_SYSTEM/PRIME_ROUND_SEQUENCING.md`.
 
+## Standard vs Prime loadout
 Standard Card slots and Prime slots are separate systems.
 
 Current direct project lock:
@@ -72,23 +69,28 @@ Current direct project lock:
 - Major-Hunt Primes are likewise not owner-locked.
 
 ## Face distribution
+The current six Faces are:
+> **Might / Elements / Grace / Perception / Memory / Ruin**
 
 Standard Cards intentionally use an uneven distribution:
 - Might — 5
 - Elements — 5
 - Grace — 4
-- Acuity — 4
-- Change — 3
+- Perception — 4
+- Memory — 3
 - Ruin — 3
 
 Each Face still has:
 - 1 Story Prime;
 - 1 Major-Hunt Prime.
 
-## Removed Card-system firewalls
+Perception covers Accuracy-oriented effects under the current Base Hit system, Evasion, Critical Hits, and Fields: battlefield reading, positioning, timing, openings, and controlling/exploiting space.
 
+Memory covers recall, repetition, preservation, and reuse of prior actions/states: what has happened remaining available to influence the present.
+
+## Removed Card-system firewalls
 Do not restore:
-- Resource as the current sixth Face;
+- Resource, Acuity, or Change as current Face names;
 - Card Seals;
 - Standard Card summons;
 - Imprints as a global Card dependency;

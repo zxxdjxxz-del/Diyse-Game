@@ -4,13 +4,12 @@
 **Character-authority inputs:** compatible character/chronology overlays, current approved dialogue/story evidence, newer Face/Class corrections, and the newest explicit user corrections.  
 **Domain rule:** this folder owns character identity, biography, chronology, personality, relationship logic, and concise voice direction. Exact class mechanics live in `06_CLASSES_AND_ABILITIES`; Card/Prime mechanics in `07_CARDS`; detailed art specifications in `14_ART_AND_VISUALS`; exact dialogue scripts in `03_DIALOGUE`.
 
-
 ## Identity
 - Age: **22** — newest explicit correction; supersedes older age-23 documents
 - Permanent party: **yes**
 - Join: **Chapter 3**
 - Base / Subclass: **Cardweaver / Proofhunter**
-- Face: **Change**
+- Face: **Memory**
 - Story Prime: **Last Scribe**
 
 ## Character core
@@ -24,6 +23,16 @@ She cares deeply about:
 - evidence;
 - what a record actually proves;
 - the difference between a conclusion and an assumption.
+
+## Memory
+Nimera's **Cardweaver** is the party's Memory-aligned Base Class.
+
+Memory represents:
+> **recall, repetition, preservation, and reuse of prior actions/states — what has happened remaining available to influence the present.**
+
+That identity fits Nimera's existing archive, record-preservation, recall, and legal copy/reuse mechanics without creating a universal replay system.
+
+Her **Proofhunter** Subclass remains **Perception-aligned mechanically** through the reciprocal donor architecture: measured targets, hit control, Evasion pressure, Critical openings, and evidence-based exploitation of battlefield information.
 
 ## Knowledge boundary
 Nimera has meaningful expertise in ancient/Card material.

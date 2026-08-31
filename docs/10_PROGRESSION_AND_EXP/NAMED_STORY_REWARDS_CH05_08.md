@@ -4,7 +4,6 @@
 **Current whole-project written authority:** **v2.20 / Audit135**.  
 **Current working override:** v85 Sections 220–225 remove the **Mastery Point** currency and make Masteries automatic Class-Level unlocks. This newer working lock is preserved as current working authority pending formal promotion.
 
-
 Fixed one-time authored rewards. They are exempt from weak-enemy diminishing returns.
 
 ## Chapter 5
@@ -36,7 +35,7 @@ Subtotal: **17,180 EXP / 631 CEXP**
 | Veycross transit controls | 2,000 | 70 |
 | Prison records authenticated | 2,200 | 80 |
 | Warden of Nameless / Revision Arbiter | 5,500 | 190 |
-| Change/Prison resolution / Volition handoff | 3,080 | 146 |
+| Memory/Prison resolution / Volition handoff | 3,080 | 146 |
 
 ## Chapter 8
 Subtotal: **19,238 EXP / 687 CEXP**
