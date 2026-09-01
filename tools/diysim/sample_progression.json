@@ -1,8 +1,0 @@
-{
-  "start_level": 20,
-  "segments": [
-    {"name": "Mandatory route encounters", "count": 18, "exp_each": 225, "completion_rate": 0.70},
-    {"name": "Named encounter rewards", "flat_exp": 1800},
-    {"name": "Chapter boss", "flat_exp": 2500}
-  ]
-}
