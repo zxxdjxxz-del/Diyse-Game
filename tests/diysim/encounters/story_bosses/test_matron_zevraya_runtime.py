@@ -1,5 +1,7 @@
 import random
 
+import pytest
+
 from tools.diysim.encounters.story_bosses.matron_zevraya import (
     load_zevraya_working_snapshot,
     run_matron_zevraya,
@@ -61,6 +63,7 @@ def test_zevraya_small_simulation_accepts_high_side_and_plus5() -> None:
     assert summary.player_level == 28
     assert summary.power_multiplier == 1.20
     assert summary.effective_stat_level_offset == 5
+    assert summary.reservoir_plan == ("Brood", "Conduction", "Sustenance", "Armor")
     assert summary.win_rate + summary.wipe_rate <= 1.0
     assert 0.0 <= summary.mean_reservoirs_destroyed <= 4.0
 
@@ -77,5 +80,31 @@ def test_zevraya_rush_does_not_ignore_deployed_brood() -> None:
 
     # Rush focuses Zevraya rather than pre-emptively dismantling Reservoirs,
     # but a deployed Brood is a visible finite hostile body and must be answered.
+    assert summary.reservoir_plan == ()
     assert summary.mean_brood_deployments >= 1.5
     assert summary.mean_brood_actions < 5.0
+
+
+def test_zevraya_selective_reservoir_plan_only_targets_requested_functions() -> None:
+    summary = simulate_matron_zevraya(
+        player_level=24,
+        structure_mode="non_diluting",
+        strategy="dismantle",
+        reservoir_plan=("Brood", "Conduction"),
+        overlay=BalanceOverlay(direct_damage_power_multiplier=1.20),
+        runs=3,
+        seed=106,
+    )
+
+    assert summary.reservoir_plan == ("Brood", "Conduction")
+    assert summary.mean_reservoirs_destroyed == 2.0
+    assert summary.mean_brood_deployments == 0.0
+
+
+def test_zevraya_rejects_invalid_or_duplicate_reservoir_plans() -> None:
+    with pytest.raises(ValueError, match="unknown Zevraya Reservoir"):
+        simulate_matron_zevraya(strategy="dismantle", reservoir_plan=("Unknown",), runs=1)
+    with pytest.raises(ValueError, match="duplicate Reservoir"):
+        simulate_matron_zevraya(strategy="dismantle", reservoir_plan=("Brood", "Brood"), runs=1)
+    with pytest.raises(ValueError, match="Rush does not pre-emptively dismantle"):
+        simulate_matron_zevraya(strategy="rush", reservoir_plan=("Brood",), runs=1)
