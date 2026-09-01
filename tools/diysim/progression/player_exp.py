@@ -1,47 +1,53 @@
-"""Player EXP curve and level lookup."""
+"""Player EXP lookup using the repository-owned current EXP table."""
 from __future__ import annotations
+from pathlib import Path
 
-from .stats import LEVEL_CAP
+from ..sources.progression import load_progression_rules
 
 
 def round_nearest_100(value: float) -> int:
+    """General utility retained for analysis; the current EXP curve uses repo table values."""
     return int(round(value / 100.0)) * 100
 
 
-def level_up_cost(current_level: int) -> int:
-    if not 1 <= current_level < LEVEL_CAP:
-        raise ValueError(f"current_level must be between 1 and {LEVEL_CAP - 1}")
-    if current_level < 17:
-        return 100 * (current_level**2 - (current_level - 1) ** 2)
-    base_cost = 100 * (2 * current_level - 1)
-    multiplier = 1 + 0.35 * (current_level - 17) / 42
-    return round_nearest_100(base_cost * multiplier)
+def level_up_cost(current_level: int, *, root: Path | None = None) -> int:
+    rules = load_progression_rules(root=root)
+    if not 1 <= current_level < rules.level_cap:
+        raise ValueError(f"current_level must be between 1 and {rules.level_cap - 1}")
+    return rules.cumulative_exp[current_level + 1] - rules.cumulative_exp[current_level]
 
 
-def cumulative_exp(level: int) -> int:
-    if not 1 <= level <= LEVEL_CAP:
-        raise ValueError(f"level must be between 1 and {LEVEL_CAP}")
-    if level <= 17:
-        return 100 * (level - 1) ** 2
-    total = 100 * 16**2
-    for current_level in range(17, level):
-        total += level_up_cost(current_level)
-    return total
+def cumulative_exp(level: int, *, root: Path | None = None) -> int:
+    rules = load_progression_rules(root=root)
+    if not 1 <= level <= rules.level_cap:
+        raise ValueError(f"level must be between 1 and {rules.level_cap}")
+    return rules.cumulative_exp[level]
 
 
-def level_from_exp(exp: int) -> int:
+def level_from_exp(exp: int, *, root: Path | None = None) -> int:
     if exp < 0:
         raise ValueError("exp cannot be negative")
+    rules = load_progression_rules(root=root)
     level = 1
-    for candidate in range(2, LEVEL_CAP + 1):
-        if exp < cumulative_exp(candidate):
+    for candidate in range(2, rules.level_cap + 1):
+        if exp < rules.cumulative_exp[candidate]:
             break
         level = candidate
     return level
 
 
-def exp_to_next_level(exp: int) -> int:
-    level = level_from_exp(exp)
-    if level == LEVEL_CAP:
+def exp_to_next_level(exp: int, *, root: Path | None = None) -> int:
+    rules = load_progression_rules(root=root)
+    level = level_from_exp(exp, root=root)
+    if level == rules.level_cap:
         return 0
-    return cumulative_exp(level + 1) - exp
+    return rules.cumulative_exp[level + 1] - exp
+
+
+__all__ = [
+    "cumulative_exp",
+    "exp_to_next_level",
+    "level_from_exp",
+    "level_up_cost",
+    "round_nearest_100",
+]
