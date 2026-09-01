@@ -21,6 +21,7 @@ jobs:
       - name: Run enemy-runtime catalog tests
         run: python -m pytest -q tests/diysim/test_enemy_runtime_catalog.py
       - name: Print runtime coverage and exact blockers
+        if: always()
         run: |
           python - <<'PY'
           import json
