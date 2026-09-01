@@ -1,33 +1,56 @@
-# Diyse — Open Economy Items
+# Diyse — Economy Closure / Deferred Dependencies
+
 **Current economy authority:** `12_ECONOMY_AND_REWARDS`
 
-Still open / do not guess:
+## Core economy-design status
+> **CLOSED**
 
-1. story-placement-dependent authored encounter Auren for the special identities still deferred by `09` story-integration boundaries;
-2. exact vendor NPC identity/presentation for several endpoints;
-3. optional additional finite copies of Reservoir Tonic / Emergency Kit / Emergency Rally;
-4. currency icon/symbol/glyph;
-5. runtime shop IDs, stock table schema, save persistence and price UI formatting;
-6. exact Kessara Relic-copy menu timing / original-vs-copy UI presentation.
+There are currently **no independent unresolved numeric reward/economy-design gaps** in `12_ECONOMY_AND_REWARDS`.
 
-## Newly closed
-- full Chapter 1–13 ordinary-formation Auren bands — **LOCKED** in `CAMPAIGN_INCOME_BANDS.md`;
-- exact ordinary-formation Auren payout ledger — **LOCKED** in `ENCOUNTER_AUREN_REWARDS.md`;
-- ordinary encounter income calibration across the 225-encounter planning spine — approximately **13.56k Auren** expected;
-- exact first-clear Auren for all 12 numbered-chapter optional Elites — **LOCKED** in `ELITE_AUREN_REWARDS.md`;
-- full optional-Elite cash budget — **3,890 Auren**; Chapter-0 Ruin Vanguard Pursuer awards **0 Auren**;
-- exact mandatory story-boss / boss-form encounter Auren — **LOCKED** in `STORY_BOSS_AUREN_REWARDS.md`, totaling **8,490 Auren**;
-- mandatory-route Auren envelope — **~27.1k–33.9k**, with **~30.1k** as the 45%-ordinary calibration center;
-- exact chapter budgets and in-world delivery map for mandatory non-battle Auren — **8,080 Auren total**, **LOCKED** in `MANDATORY_NONBATTLE_AUREN_BUDGET.md`;
-- exact mandatory direct-currency/requisition/cache reward map — **CLOSED**; only prop/dialogue/UI scripting presentation remains implementation-dependent;
-- exact non-EXP economic packages for all five ordinary Side Quests — **LOCKED** in `SIDE_QUEST_REWARD_BOUNDARY.md`: **1,800 direct Auren + 2,135 Auren-equivalent normal-stock Consumables**;
-- exact economic add-ons for all six Character Quests — **LOCKED** in `CHARACTER_QUEST_REWARD_BOUNDARY.md`: **2,220 direct Auren + 2,400 Auren-equivalent normal-stock Consumables**, in addition to their six Legacy Components;
-- exact first-clear Auren for all 11 Regional Hunts — **LOCKED** in `REGIONAL_HUNT_REWARD_BOUNDARY.md`, totaling **5,280 Auren**;
-- exact first-clear Auren for all six Major Hunts — **LOCKED** in `MAJOR_HUNT_REWARD_BOUNDARY.md`, totaling **6,200 Auren**, in addition to six already-Awakened Prime rewards and other authored handoffs;
-- normal-stock Consumable resale — **LOCKED** in `CONSUMABLE_SELL_RULE.md`; reward-only Consumables are not sellable;
-- Kessara Relic-copy service fee — **LOCKED at 600 Auren per successful copy** in `KESSARA_RELIC_COPY_ECONOMY.md`;
-- fixed authored non-boss encounter Auren handling — **LOCKED** in `ENEMY_REWARD_HANDOFF.md`; unresolved story-placement-dependent identities remain deferred;
-- random ordinary-enemy Consumable/equipment/material drops — **NONE**;
-- Regional Market spine — **LOCKED at exactly 9** in `COMMERCE_ENDPOINTS.md`; Cresthaven and Vhalmarch remain separate requisition/supply endpoints.
+The remaining items below depend on another owner domain or on presentation/runtime implementation. They do not justify reopening closed economy values by themselves.
 
-An open line does not license restoration of an older retired answer.
+## Deferred cross-domain dependencies
+1. **Story-owned special authored encounters** — exact Auren remains deferred for identities whose mandatory/nonlethal/scene role is still unresolved by `09` + story/dialogue integration.
+2. **Vendor NPC presentation** — exact merchant identity/name, stall/building presentation, and dialogue belong to story/world/dialogue production.
+3. **Currency icon/symbol/glyph** — visual/UI presentation dependency.
+4. **Runtime shop implementation** — shop IDs, stock table schema, save persistence, price UI formatting.
+5. **Kessara presentation/implementation** — copy-menu unlock timing and original-vs-copy UI labeling.
+
+## Closed economy architecture
+- currency = **Auren**;
+- exactly **9 Regional Markets**;
+- Cresthaven = separate long-term requisition/backfill authority;
+- Vhalmarch = separate forward-supply endpoint;
+- 38 ordinary equipment identities with exact purchase/replacement values;
+- ordinary-equipment resale rule locked;
+- 20 Consumables with exact buy/equivalent values;
+- normal-stock Consumable resale locked;
+- reward-only Consumables are finite and non-sellable;
+- exact reward-only supply = **3 Reservoir Tonic / 4 Emergency Kit / 2 Emergency Rally**;
+- ordinary enemies have **no random Consumable/equipment/material/junk drops**;
+- Kessara Relic-copy fee = **600 Auren per successful copy**.
+
+## Closed income/reward architecture
+- ordinary formation Auren ledger: exact;
+- expected ordinary route: approximately **13.56k Auren**;
+- mandatory story-boss Auren: **8,490**;
+- mandatory non-battle Auren map: **8,080**;
+- calibrated mandatory direct-Auren route: approximately **30,127**;
+- optional Elite direct Auren: **3,890**;
+- ordinary Side Quest direct Auren: **1,800** plus exact Consumable packages;
+- Character Quest direct Auren: **2,220** plus exact Consumable add-ons and existing Legacy Components;
+- Regional Hunt direct Auren: **5,280**;
+- Major Hunt direct Auren: **6,200** plus six already-Awakened Primes and established additional handoffs;
+- all current optional direct cash: **19,390**;
+- full direct-cash completionist reference before resale/extra encounters: approximately **49,517 Auren**.
+
+## Mandatory-route rule
+Optional content, resale, and repetitive combat are **not required** for baseline story solvency.
+
+## Reopen rule
+Only reopen a closed economy value if:
+- a current playtest demonstrates a specific affordability/exploit failure;
+- an owner-domain reward/source changes materially;
+- or the user explicitly revises the economy design.
+
+Do not restore an older retired economy answer merely because a presentation/runtime dependency remains open.
