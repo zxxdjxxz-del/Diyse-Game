@@ -3,7 +3,7 @@
 
 Still open / do not guess:
 
-1. exact remaining non-boss named/authored encounter cash rewards where not separately authored;
+1. story-placement-dependent authored encounter Auren for the special identities still deferred by `09` story-integration boundaries;
 2. exact in-world placement/delivery of the mandatory non-battle Auren budgets;
 3. final formal synchronization of the current working **9 Regional Markets** count;
 4. exact vendor NPC identity/presentation for several endpoints;
@@ -28,6 +28,7 @@ Still open / do not guess:
 - exact first-clear Auren for all 11 Regional Hunts — **LOCKED** in `REGIONAL_HUNT_REWARD_BOUNDARY.md`, totaling **5,280 Auren**;
 - exact first-clear Auren for all six Major Hunts — **LOCKED** in `MAJOR_HUNT_REWARD_BOUNDARY.md`, totaling **6,200 Auren**, in addition to six already-Awakened Prime rewards and other authored handoffs;
 - normal-stock Consumable resale — **LOCKED** in `CONSUMABLE_SELL_RULE.md` at approximately 25% of purchase price, rounded down to 5-Auren steps with a 5-Auren floor; reward-only Consumables are not sellable;
-- Kessara Relic-copy service fee — **LOCKED at 600 Auren per successful copy** in `KESSARA_RELIC_COPY_ECONOMY.md`.
+- Kessara Relic-copy service fee — **LOCKED at 600 Auren per successful copy** in `KESSARA_RELIC_COPY_ECONOMY.md`;
+- fixed authored non-boss encounter Auren handling — **LOCKED** in `ENEMY_REWARD_HANDOFF.md`: formation/event-level reward only; Chapter 0, Hold the Junction, and S018 lawful-authority confrontations pay **0 direct Auren**; unresolved story-placement-dependent identities remain deferred.
 
 An open line does not license restoration of an older retired answer.
