@@ -26,7 +26,7 @@ B00 as a full production benchmark is **not yet closed**: after the cohesion pas
 | Cyanis | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Ilyra | **REVISED COHESION MASTER APPROVED / LOCKED** |
 | Torren | **FINAL REVISED HIGH-RES TACTICAL/GHILLIE MASTER APPROVED / LOCKED** |
-| Nimera | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
+| Nimera | **REVISED COHESION MASTER APPROVED / LOCKED** |
 | Vaelira | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Seyrik | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 
@@ -57,7 +57,7 @@ Character-specific contributions:
 - **Cyanis:** mobile royal battle-knight structure, clean silver armor over dark royal blue / black layers.
 - **Ilyra:** light defensive / warding language with white/pale-blue fabric, long blonde hair, **one coherent pale-blue cape**, restrained silver structure and **bold saturated green eyes**.
 - **Torren:** veteran tactical medium-armor scout language: army-green cloth, **golden-bronze metal chest/arm/knee protection**, brown leather field gear, three canisters, hip quiver, back-carried recurved bow, **amber eyes** and a mixed-vegetation ghillie mantle built from grasses, leaves, moss and twigs.
-- **Nimera:** busy braided/updo hair, Cardweaver props, constellation motifs, layered utility hardware and strong white/purple/black separation without artifact-dot dependency.
+- **Nimera:** dark-purple braided/updo hair, white fitted outfit, purple constellation waist-coat, black boots/utility gear, **silver hardware**, dark-green Cardweaver props, and a confident/sassy silhouette without artifact-dot dependency.
 - **Vaelira:** Green Arcanist silhouette, black cloth foundation, emerald outer garments/boots, silver metalwork, Arcane Staff and **electric blue eyes**.
 - **Seyrik:** Black Host-derived skeletal/alien biomechanical plate, polished black shell over crimson understructure, red-dominant long coat, imposing muscular silhouette and oversized two-handed greatsword.
 
@@ -108,6 +108,8 @@ Torren's earlier ranger/druid-like construction has now been fully replaced by t
 
 Ilyra's earlier multi-panel cape-heavy presentation has now been replaced by the approved cohesion master with one coherent pale-blue cape and stronger green-eye read while preserving her exact white/pale-blue/silver identity.
 
+Nimera's earlier cleanup master has now been replaced by the approved cohesion master with organized accessory density, preserved white/purple/black palette, **silver—not gold—hardware**, and dark-green Cardweaver card/book identity.
+
 ## 6. Runtime representation decision
 
 Diyse's primary field and battle character representation is now **rigged 3D character models**.
@@ -153,27 +155,28 @@ Completed:
 2. fingerprint/document all six masters;
 3. complete Torren's final tactical medium-armor / mixed-ghillie cohesion revision and re-lock his exact master;
 4. complete Ilyra's cape/eye cohesion revision and re-lock her exact master;
-5. retire the unnecessary dedicated field/battle sprite gate;
-6. lock the rigged-model runtime validation grammar;
-7. verify the exact v5 Quaternius mannequin/Armature source and member hashes.
+5. complete Nimera's material/detail cohesion revision and re-lock her exact master;
+6. retire the unnecessary dedicated field/battle sprite gate;
+7. lock the rigged-model runtime validation grammar;
+8. verify the exact v5 Quaternius mannequin/Armature source and member hashes.
 
 Next:
-8. continue the **six-character party cohesion pass using the exact masters**;
-9. perform only required cleanup/redraw corrections and re-fingerprint any revised master;
-10. declare the coherent six-character high-res party set ready for runtime translation;
-11. import `UAL1_Standard.glb` into Godot;
-12. validate skeleton hierarchy, embedded animations and skin deformation;
-13. compare `_RM` root-motion behavior;
-14. validate `Mannequin_F.glb` retargeting on the same skeleton contract;
-15. create one B00-faithful model/material/shader pilot;
-16. validate it against the exact approved master in neutral presentation;
-17. validate the same model at field camera distance;
-18. validate the same model at battle camera distance;
-19. test representative B01 stone, B03 foliage and B10 prop environments;
-20. test representative B06 VFX overlap;
-21. propagate the proven model/material/rig grammar across all six characters;
-22. compare all six together for silhouette, palette, scale and animation coherence;
-23. only then declare B00 fully passed.
+9. continue the **six-character party cohesion pass using the exact masters**;
+10. perform only required cleanup/redraw corrections and re-fingerprint any revised master;
+11. declare the coherent six-character high-res party set ready for runtime translation;
+12. import `UAL1_Standard.glb` into Godot;
+13. validate skeleton hierarchy, embedded animations and skin deformation;
+14. compare `_RM` root-motion behavior;
+15. validate `Mannequin_F.glb` retargeting on the same skeleton contract;
+16. create one B00-faithful model/material/shader pilot;
+17. validate it against the exact approved master in neutral presentation;
+18. validate the same model at field camera distance;
+19. validate the same model at battle camera distance;
+20. test representative B01 stone, B03 foliage and B10 prop environments;
+21. test representative B06 VFX overlap;
+22. propagate the proven model/material/rig grammar across all six characters;
+23. compare all six together for silhouette, palette, scale and animation coherence;
+24. only then declare B00 fully passed.
 
 ## 10. Asset Forge / Godot boundary
 
@@ -189,4 +192,4 @@ Earlier material-family work is not automatically invalidated, but it must confo
 
 Current state:
 
-`VISUAL STYLE LOCKED → 6/6 HIGH-RES PARTY MASTERS LOCKED → TORREN + ILYRA COHESION REVISIONS LOCKED → PARTY COHESION PASS ACTIVE → V5 QUATERNIUS RIG VERIFIED → GODOT PILOT AFTER COHESION`
+`VISUAL STYLE LOCKED → 6/6 HIGH-RES PARTY MASTERS LOCKED → TORREN + ILYRA + NIMERA COHESION REVISIONS LOCKED → PARTY COHESION PASS ACTIVE → V5 QUATERNIUS RIG VERIFIED → GODOT PILOT AFTER COHESION`
