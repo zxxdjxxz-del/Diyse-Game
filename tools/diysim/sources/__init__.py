@@ -8,6 +8,7 @@ from .actions import AuthoredActionSource, find_named_action_line, load_named_ac
 from .actors import EnemyRegistryEntry, StatBlockSource, find_enemy_registry_entries, load_enemy_registry, load_stat_row, load_stat_table, parse_stat_row
 from .analogues import FunctionalAnalogueRuleSource, parse_functional_analogue_rule_text
 from .audit import SourceAuditIssue, SourceAuditReport, audit_repo_sources
+from .consumables import ConsumableSource, load_consumable, load_consumable_register
 from .dynamic_hits import DynamicElementHitRuleSource, parse_dynamic_element_hit_rule_text
 from .enemies import EnemySystemRules, MissingWeightSelection, load_enemy_system_rules
 from .entities import EntityRole, EntityStatSource, parse_entity_stat_sources
@@ -37,6 +38,7 @@ __all__ = [
     "AbilitySource",
     "AuthoredActionSource",
     "BoundedReplayRuleSource",
+    "ConsumableSource",
     "DynamicElementHitRuleSource",
     "EnemyRegistryEntry",
     "EnemySystemRules",
@@ -71,6 +73,8 @@ __all__ = [
     "find_repo_root",
     "load_ability_registry",
     "load_ability_source",
+    "load_consumable",
+    "load_consumable_register",
     "load_enemy_registry",
     "load_enemy_system_rules",
     "load_equipment",
