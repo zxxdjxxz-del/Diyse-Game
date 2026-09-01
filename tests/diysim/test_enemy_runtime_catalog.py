@@ -3,7 +3,7 @@ from __future__ import annotations
 import random
 
 from tools.diysim.combat.action_resolution import resolve_effect
-from tools.diysim.combat.derived_stats import effective_base_hit_bonus if False else effective_defense, effective_spirit
+from tools.diysim.combat.derived_stats import effective_defense, effective_spirit
 from tools.diysim.combat.models import CombatUnit
 from tools.diysim.combat.temporary_modifiers import effective_base_hit_bonus
 from tools.diysim.encounters.formation_catalog import load_formation_definitions
