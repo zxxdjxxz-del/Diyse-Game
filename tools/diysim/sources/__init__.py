@@ -8,6 +8,7 @@ from .actions import AuthoredActionSource, find_named_action_line, load_named_ac
 from .actors import EnemyRegistryEntry, StatBlockSource, find_enemy_registry_entries, load_enemy_registry, load_stat_row, load_stat_table, parse_stat_row
 from .audit import SourceAuditIssue, SourceAuditReport, audit_repo_sources
 from .enemies import EnemySystemRules, MissingWeightSelection, load_enemy_system_rules
+from .entities import EntityRole, EntityStatSource, parse_entity_stat_sources
 from .markdown import (
     extract_heading_block,
     extract_markdown_table,
@@ -33,6 +34,8 @@ __all__ = [
     "AuthoredActionSource",
     "EnemyRegistryEntry",
     "EnemySystemRules",
+    "EntityRole",
+    "EntityStatSource",
     "MissingWeightSelection",
     "OWNER_DOMAINS",
     "OwnerFileReadiness",
@@ -68,6 +71,7 @@ __all__ = [
     "load_trait_registry",
     "load_trait_source",
     "parse_authored_action_text",
+    "parse_entity_stat_sources",
     "parse_stat_row",
     "read_repo_text",
 ]
