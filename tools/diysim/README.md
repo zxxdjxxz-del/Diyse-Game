@@ -37,9 +37,11 @@ Phase 2 is intentionally layered beside the simpler Phase 1 battle path while it
 - Direct healing formulas using target Max HP plus caster Magic.
 - Full-heal Bleed removal and basic harmful-status clearing support.
 - Single-target and all-target action scopes.
-- Advanced battle outcomes now track remaining party HP and MP.
+- Advanced Monte Carlo summaries with win/wipe/KO rates, round counts, remaining party HP, and remaining party MP.
+- JSON loading for the richer Phase 2 combat schema.
+- `simulate-advanced` CLI command.
 
-The new Phase 2 regression suite currently covers the canonical affinity table, status application math, MP modifier math, Blue Warden healing formulas, Burn/Staggered high-rank behavior, Bleed cadence/escalation, Freeze/Stun timing, MP spending, and elemental weakness in a live simulated battle.
+The Phase 2 regression suite covers the canonical affinity table, status application math, MP modifier math, Blue Warden healing formulas, Burn/Staggered high-rank behavior, Bleed cadence/escalation, Freeze/Stun timing, MP spending, elemental weakness, and repeatable advanced Monte Carlo runs.
 
 ## Not implemented yet
 
@@ -84,11 +86,14 @@ python -m tools.diysim.cli exp --current-exp 448100
 python -m tools.diysim.cli hit 100 15
 python -m tools.diysim.cli damage physical --attack 150 --defense 120 --power 135
 python -m tools.diysim.cli simulate tools/diysim/sample_scenario.json --runs 10000 --seed 135
+python -m tools.diysim.cli simulate-advanced tools/diysim/sample_advanced_scenario.json --runs 10000 --seed 135
 python -m tools.diysim.cli sweep tools/diysim/sample_scenario.json --hp 0.9,1.0,1.1 --attack 0.95,1.0,1.05 --defense 0.95,1.0,1.05 --runs 2000
 python -m tools.diysim.cli route tools/diysim/sample_progression.json
 python -m tools.diysim.cli solve-exp --start-level 20 --target-level 24 --target-progress 0.5 --encounters 18 --fixed-exp 4300
 ```
 
+`sample_advanced_scenario.json` demonstrates the richer schema with current representable Crest Knight and Blue Warden actions plus an example enemy. Its numeric encounter tuning is illustrative only; it is not a certified balance benchmark.
+
 `completion_rate` in a progression route is an expected-route planning input only. It can model assumptions such as completing 70% of available ordinary encounters without changing authored per-encounter rewards.
 
-The simulator prints JSON for the existing CLI so reports can later feed a UI, CSV exporter, optimizer, or CI regression gate without changing the calculation core. A dedicated Phase 2 scenario loader/CLI is still pending until the richer schema is stable.
+The simulator prints JSON so reports can later feed a UI, CSV exporter, optimizer, or CI regression gate without changing the calculation core.
