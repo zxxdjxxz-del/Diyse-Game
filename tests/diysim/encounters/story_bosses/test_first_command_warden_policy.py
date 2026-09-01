@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from tools.diysim.combat.models import ActiveStatus, CombatUnit
 from tools.diysim.encounters.story_bosses.first_command_warden.policy import (
+    HARMONIZED_STATE_KEY,
     WardenPolicyConfig,
     choose_player_action,
     load_warden_party_actions,
@@ -19,9 +20,11 @@ def _party(level: int = 11) -> list[CombatUnit]:
 def test_warden_policy_actions_match_current_repo_package() -> None:
     actions = load_warden_party_actions()
     assert actions.crest_strike.power == 140
+    assert actions.resonant_pulse.power == 150
+    assert actions.harmonized_crest_multiplier == 1.10
     assert actions.wardens_valor.power == 170
     assert actions.cinder_shot.power == 155
-    assert actions.sizing_shot.power == 135
+    assert actions.sizing_shot.power == 155
     assert actions.colossus_draw.power == 265
     assert actions.colossus_draw.defense_penetration == 0.25
     assert actions.measured_colossus_penetration == 0.35
@@ -36,6 +39,48 @@ def test_warden_policy_actions_match_current_repo_package() -> None:
     assert actions.renewal.target_scope == "all"
     assert actions.renewal.heal_max_hp_percent == 0.10
     assert actions.gentle_continuance_bonus == 0.05
+
+
+def test_cyanis_alternates_harmonized_crest_and_preserves_prime_through_attack() -> None:
+    party = _party()
+    cyanis = next(unit for unit in party if unit.template.name == "Cyanis")
+    actions = load_warden_party_actions()
+
+    category, action, _ = choose_player_action(
+        cyanis,
+        party,
+        actions,
+        sealed_category=None,
+        config=WardenPolicyConfig(),
+    )
+    assert category == "Ability"
+    assert action.name == "Crest Strike"
+    assert action.final_damage_multiplier == 1.0
+    assert cyanis.tactical_states[HARMONIZED_STATE_KEY] == "magical"
+
+    cyanis.mp -= action.mp_cost
+    category, action, _ = choose_player_action(
+        cyanis,
+        party,
+        actions,
+        sealed_category=None,
+        config=WardenPolicyConfig(),
+    )
+    assert category == "Ability"
+    assert action.name == "Resonant Pulse"
+    assert action.final_damage_multiplier == 1.10
+    assert cyanis.tactical_states[HARMONIZED_STATE_KEY] == "physical"
+
+    category, action, _ = choose_player_action(
+        cyanis,
+        party,
+        actions,
+        sealed_category="Ability",
+        config=WardenPolicyConfig(),
+    )
+    assert category == "Attack"
+    assert action.name == "Attack"
+    assert cyanis.tactical_states[HARMONIZED_STATE_KEY] == "physical"
 
 
 def test_torren_establishes_measure_then_uses_measured_colossus() -> None:
@@ -55,6 +100,7 @@ def test_torren_establishes_measure_then_uses_measured_colossus() -> None:
     assert category == "Ability"
     assert target is None
     assert action.name == "Sizing Shot"
+    assert action.power == 155
 
     torren.mp = torren.max_mp
     category, action, target = choose_player_action(
