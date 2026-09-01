@@ -10,6 +10,7 @@ from typing import Iterable, Literal, Sequence
 from ..progression.stats import Stats
 from ..sources.combat import load_combat_rules
 from ..sources.enemies import load_enemy_system_rules
+from ..sources.party import load_party_rules
 from .basic_attack import basic_attack_action
 from .damage import direct_damage
 from .hit_evasion import adjusted_hit_chance
@@ -99,9 +100,10 @@ class BattleScenario:
     max_rounds: int = 100
 
     def __post_init__(self) -> None:
+        max_party = load_party_rules().active_battle_party
         max_enemies = load_enemy_system_rules().max_active_enemies
-        if not 1 <= len(self.party) <= 4:
-            raise ValueError("party must contain 1-4 combatants")
+        if not 1 <= len(self.party) <= max_party:
+            raise ValueError(f"party must contain 1-{max_party} combatants")
         if not 1 <= len(self.enemies) <= max_enemies:
             raise ValueError(f"enemies must contain 1-{max_enemies} combatants")
         if self.max_rounds < 1:
