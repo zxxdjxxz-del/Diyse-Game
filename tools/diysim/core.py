@@ -1,9 +1,7 @@
 """Compatibility facade for the sectioned Diyse simulator.
 
-Historically this module mixed progression, combat math, battle runtime, and
-balance sweeps. New implementation now lives in the owning sections under
-`combat/`, `progression/`, and `overlays/`. This facade preserves existing
-imports while callers migrate to the sectioned APIs.
+Canon data is loaded from repository owner files; this facade exports functions,
+not copied rule tables/constants.
 """
 
 from .common import round_half_up
@@ -31,10 +29,10 @@ from .progression.player_exp import (
     round_nearest_100,
 )
 from .progression.stats import (
-    CLASS_MULTIPLIERS,
-    LEVEL_CAP,
     STAT_KEYS,
     Stats,
+    class_multipliers,
+    level_cap,
     natural_stats,
     neutral_natural_stats,
 )
@@ -45,12 +43,10 @@ __all__ = [
     "BattleOutcome",
     "BattleScenario",
     "BattleUnit",
-    "CLASS_MULTIPLIERS",
     "CRIT_CHANCE_CAP",
     "CRIT_MULTIPLIER",
     "CombatantTemplate",
     "DamageKind",
-    "LEVEL_CAP",
     "MAX_HIT_CHANCE",
     "MIN_HIT_CHANCE",
     "PENETRATION_CAP",
@@ -60,9 +56,11 @@ __all__ = [
     "Stats",
     "TargetPolicy",
     "adjusted_hit_chance",
+    "class_multipliers",
     "cumulative_exp",
     "direct_damage",
     "exp_to_next_level",
+    "level_cap",
     "level_from_exp",
     "level_up_cost",
     "magical_damage",
