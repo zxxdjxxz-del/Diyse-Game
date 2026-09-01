@@ -7,25 +7,27 @@
 ## Active
 ### Representative true-battle certification
 Status:
-> **ACTIVE — v99 complete; Revision Arbiter next**
+> **ACTIVE — v100 complete; Rhazek → Bastion Devourer next**
 
 Static enemy design is closed and Chapters 0–13 have completed mandatory-vs-completionist paper validation. CEXP is recalibrated. The current targeted certification step is the representative full turn-by-turn battle suite using reproducible party snapshots.
 
 Completed representative anchors:
 - Hollow Watch Castellan — **PASS / RETAIN v93**;
 - Archive Leviathan — **PASS / RETAIN v97**;
-- Regulation Crucible → The Seventh Reaction — **PASS / RETAIN v99**.
+- Regulation Crucible → The Seventh Reaction — **PASS / RETAIN v99**;
+- Warden of the Nameless / Revision Arbiter — **PASS / RETAIN v100**.
 
 Current next anchor:
-> **Warden of the Nameless / Revision Arbiter — Chapter 7 / mandatory Lv30 / completionist Lv34**
+> **Commander Rhazek — Reforged Commander → Bastion Devourer — Chapter 9 / mandatory Lv40 / completionist Lv49**
 
-Revision Arbiter testing must use:
+Rhazek → Bastion Devourer testing must use:
 - current fixed turn-entry initiative;
 - current Awakened Prime sequencing;
 - current one-use-until-restored Prime economy;
-- fresh/same-bar transitions that do not restore spent Primes;
-- current Perception / Memory Face terminology;
-- current Torren/Nimera class redesigns.
+- the genuine fresh Bastion Devourer body **not** restoring spent Prime identities;
+- the separate 2-full-normal-round post-dismissal Prime spacing rule;
+- current percentage temporary-stat rules and current status conversions;
+- current class/ability/Card definitions at the exact Chapter-9 story point.
 
 Each tested boss must have:
 - exact story point / Player Level;
