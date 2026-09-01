@@ -38,3 +38,16 @@ jobs:
           from tools.diysim.sources import audit_simulation_readiness
           print(json.dumps(readiness_issue_breakdown(audit_simulation_readiness()), indent=2))
           PY
+
+      - name: Print representative top parser gaps
+        run: |
+          python - <<'PY'
+          import json
+          from tools.diysim.sources import audit_simulation_readiness
+          report = audit_simulation_readiness()
+          wanted = {"damage_identity_unresolved", "stat_role_unresolved", "target_scope_unresolved"}
+          grouped = {}
+          for code in wanted:
+              grouped[code] = [issue.as_dict() for issue in report.parser_gaps if issue.code == code][:12]
+          print(json.dumps(grouped, indent=2))
+          PY
