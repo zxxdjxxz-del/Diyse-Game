@@ -1,6 +1,6 @@
 # Diyse — Economy Master
 
-**Status:** CURRENT ECONOMY DESIGN / CALIBRATION AUTHORITY
+**Status:** CORE ECONOMY DESIGN / CALIBRATION CLOSED
 
 **Domain rule:** `12_ECONOMY_AND_REWARDS` owns Auren denomination, purchase/replacement prices, sell rules, normal-stock progression, commerce endpoint roles, reward-value/scarcity rules, and non-EXP reward handoffs. Item definitions remain in `08`; enemy bodies remain in `09`; EXP/CEXP remain in `10`; quest structure remains in `11`.
 
@@ -25,7 +25,7 @@ Current expected direct Auren:
 Composition:
 - ordinary formations: **~13,560 Auren**;
 - mandatory story bosses / resolved boss encounters: **8,490 Auren**;
-- mandatory non-battle chapter budgets: **8,080 Auren**.
+- mandatory non-battle reward map: **8,080 Auren**.
 
 Ordinary formations therefore contribute approximately:
 > **45%**
@@ -82,6 +82,16 @@ This is an intentional completionist sink; the copy-specific Forge Component rem
 - normal-stock resale is deliberately low, approximately 25% of purchase price;
 - reward-only Reservoir Tonic / Emergency Kit / Emergency Rally are finite and non-sellable.
 
+Exact finite reward-only supply:
+- **Reservoir Tonic ×3**;
+- **Emergency Kit ×4**;
+- **Emergency Rally ×2**.
+
+Total reward-equivalent value of those nine finite items:
+> **4,120 Auren equivalent**
+
+They are non-sellable, so this value does not increase spendable-Auren calibration.
+
 ## Commerce structure
 Exactly:
 > **9 Regional Markets**
@@ -116,6 +126,13 @@ Exceptional equipment is not converted into a normal shop ladder merely because 
 - fresh boss forms do not generate a second Auren payout;
 - story-placement-dependent special encounters remain reward-deferred until their exact role is finalized.
 
+## Mandatory non-battle reward map
+The exact **8,080-Auren** chapter/location/delivery map lives in:
+> `MANDATORY_NONBATTLE_AUREN_BUDGET.md`
+
+Economic placement is closed.
+Exact prop art, NPC handoff line, UI toast, and scene scripting hook remain presentation/implementation details only.
+
 ## No junk-economy requirement
 Do not create a large vendor-trash layer merely to feed money back to the player.
 
@@ -137,18 +154,23 @@ Baseline story affordability must never require:
 
 Optional content should make the player richer and widen build flexibility, not repair an underfunded mandatory route.
 
-## Current remaining economy work
-Still open where not story/implementation-dependent:
-- exact delivery/placement of the **8,080-Auren mandatory non-battle budget**;
-- direct-currency chest/cache reward map;
-- decision/placement of any additional finite reward-only Consumable copies.
+## Independent economy-design status
+> **No independent numeric economy/reward gaps remain open.**
 
-Deferred to story/implementation/presentation dependencies:
-- special authored encounter Auren where exact scene role remains unresolved;
-- vendor NPC presentation;
-- Auren glyph/icon;
-- runtime shop IDs, stock schema, save persistence and price UI;
-- Kessara copy-menu timing / copy-label UI.
+Remaining dependencies belong to other workstreams:
+- special authored encounter Auren where exact scene role remains unresolved → story/dialogue/enemy integration;
+- vendor NPC identity/dialogue/presentation → story/world/dialogue production;
+- Auren glyph/icon → visual/UI;
+- runtime shop IDs, stock schema, save persistence and price UI → implementation;
+- Kessara copy-menu timing / original-vs-copy labeling → implementation/UI.
+
+These do not reopen the closed economy values by themselves.
+
+## Reopen rule
+Reopen a closed economy value only when:
+- a current playtest demonstrates a specific affordability/exploit failure;
+- an owner-domain reward/source changes materially;
+- or the user explicitly revises the economy design.
 
 ## Ownership
 - `08` owns item identity/stats/effects/source identity.
