@@ -15,6 +15,8 @@
 - Discrete Speed-ordered rounds with party priority on exact party-vs-enemy Speed ties.
 - Seeded Monte Carlo direct-battle tests.
 - Enemy HP / Attack / Defense multiplier sweeps.
+- Player-EXP route projection with per-segment level checkpoints.
+- Required-average encounter EXP solver for target level checkpoints.
 
 Phase 1 does **not** claim to be the full production battle engine. It does not yet model MP spending, healing/revival, Items, Defend state selection, harmful statuses, Fields, elemental affinities, target redirection, prepared actions, Primes, Cards, or authored encounter scripting. Add those only from their owning canon/data authorities.
 
@@ -38,6 +40,10 @@ python -m tools.diysim.cli hit 100 15
 python -m tools.diysim.cli damage physical --attack 150 --defense 120 --power 135
 python -m tools.diysim.cli simulate tools/diysim/sample_scenario.json --runs 10000 --seed 135
 python -m tools.diysim.cli sweep tools/diysim/sample_scenario.json --hp 0.9,1.0,1.1 --attack 0.95,1.0,1.05 --defense 0.95,1.0,1.05 --runs 2000
+python -m tools.diysim.cli route tools/diysim/sample_progression.json
+python -m tools.diysim.cli solve-exp --start-level 20 --target-level 24 --target-progress 0.5 --encounters 18 --fixed-exp 4300
 ```
+
+`completion_rate` in a progression route is an expected-route planning input only. It lets the calculator model assumptions such as a player completing 70% of available ordinary encounters without changing any authored per-encounter reward.
 
 The simulator prints JSON so reports can later feed a UI, CSV exporter, optimizer, or CI regression gate without changing the calculation core.
