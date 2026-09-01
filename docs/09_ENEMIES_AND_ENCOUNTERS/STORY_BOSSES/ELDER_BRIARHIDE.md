@@ -135,6 +135,7 @@ Current Recovered command:
 - one enemy
 - Physical / Neutral
 - **340 Power**
+- Base Hit **100**
 - **40% Defense penetration**
 - 25% Bleed check
 - 35% Staggered check
