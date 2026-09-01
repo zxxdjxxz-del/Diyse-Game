@@ -3,19 +3,18 @@
 
 Still open / do not guess:
 
-1. exact Auren payout for every Regional Hunt;
-2. exact Auren payout for every Major Hunt;
-3. exact remaining non-boss named/authored encounter cash rewards where not separately authored;
-4. exact in-world placement/delivery of the mandatory non-battle Auren budgets;
-5. consumable sell values;
-6. Kessara Relic-copy service fee;
-7. final formal synchronization of the current working **9 Regional Markets** count;
-8. exact vendor NPC identity/presentation for several endpoints;
-9. optional additional finite copies of Reservoir Tonic / Emergency Kit / Emergency Rally;
-10. comprehensive random Consumable-drop probabilities, if any;
-11. exact direct-currency chest placement/value map;
-12. currency icon/symbol/glyph;
-13. runtime shop IDs, stock table schema, save persistence and price UI formatting.
+1. exact Auren payout for every Major Hunt;
+2. exact remaining non-boss named/authored encounter cash rewards where not separately authored;
+3. exact in-world placement/delivery of the mandatory non-battle Auren budgets;
+4. consumable sell values;
+5. Kessara Relic-copy service fee;
+6. final formal synchronization of the current working **9 Regional Markets** count;
+7. exact vendor NPC identity/presentation for several endpoints;
+8. optional additional finite copies of Reservoir Tonic / Emergency Kit / Emergency Rally;
+9. comprehensive random Consumable-drop probabilities, if any;
+10. exact direct-currency chest placement/value map;
+11. currency icon/symbol/glyph;
+12. runtime shop IDs, stock table schema, save persistence and price UI formatting.
 
 ## Newly closed
 - full Chapter 1–13 ordinary-formation Auren bands — **LOCKED** in `CAMPAIGN_INCOME_BANDS.md`;
@@ -27,6 +26,7 @@ Still open / do not guess:
 - mandatory-route Auren envelope — **~27.1k–33.9k**, with **~30.1k** as the 45%-ordinary calibration center;
 - exact chapter budgets for mandatory non-battle Auren — **8,080 Auren total**, placement still open;
 - exact non-EXP economic packages for all five ordinary Side Quests — **LOCKED** in `SIDE_QUEST_REWARD_BOUNDARY.md`: **1,800 direct Auren + 2,135 Auren-equivalent normal-stock Consumables**;
-- exact economic add-ons for all six Character Quests — **LOCKED** in `CHARACTER_QUEST_REWARD_BOUNDARY.md`: **2,220 direct Auren + 2,400 Auren-equivalent normal-stock Consumables**, in addition to their six Legacy Components.
+- exact economic add-ons for all six Character Quests — **LOCKED** in `CHARACTER_QUEST_REWARD_BOUNDARY.md`: **2,220 direct Auren + 2,400 Auren-equivalent normal-stock Consumables**, in addition to their six Legacy Components;
+- exact first-clear Auren for all 11 Regional Hunts — **LOCKED** in `REGIONAL_HUNT_REWARD_BOUNDARY.md`, totaling **5,280 Auren**; Whitehorn Ravager, Winterglass Titan, and Rift Siege Beast are discounted because they already supply Relic-copy Forge Components.
 
 An open line does not license restoration of an older retired answer.
