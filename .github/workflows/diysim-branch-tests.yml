@@ -39,6 +39,9 @@ jobs:
           print(json.dumps(readiness_issue_breakdown(audit_simulation_readiness()), indent=2))
           PY
 
+      - name: Print all parser gaps
+        run: python -m tools.diysim.cli audit-readiness --issues-only --severity parser_gap
+
       - name: Print representative top parser gaps
         run: |
           python - <<'PY'
