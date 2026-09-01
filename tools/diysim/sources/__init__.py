@@ -5,6 +5,7 @@ Diyse canon belongs to the repository, never to simulator-owned snapshots.
 
 from .abilities import AbilityRegistryEntry, AbilitySource, load_ability_registry, load_ability_source
 from .actions import AuthoredActionSource, find_named_action_line, load_named_action_source, parse_authored_action_text
+from .audit import SourceAuditIssue, SourceAuditReport, audit_repo_sources
 from .markdown import (
     extract_heading_block,
     extract_markdown_table,
@@ -20,9 +21,12 @@ __all__ = [
     "AbilitySource",
     "AuthoredActionSource",
     "RepoSourceError",
+    "SourceAuditIssue",
+    "SourceAuditReport",
     "SourceGapError",
     "TraitRankSource",
     "TraitSource",
+    "audit_repo_sources",
     "extract_heading_block",
     "extract_markdown_table",
     "extract_markdown_tables",
