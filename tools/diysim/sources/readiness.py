@@ -2,7 +2,7 @@
 
 This module never supplies gameplay fallbacks. It scans current owner files and
 classifies blockers as either:
-- source_gap: the owning text appears to omit information required to simulate;
+- source_gap: the owning action text appears to omit information required to simulate;
 - parser_gap: the text may be complete, but the generic reader cannot yet
   normalize it safely.
 
@@ -16,7 +16,7 @@ import re
 
 from .actors import StatBlockSource, parse_stat_row
 from .markdown import extract_markdown_tables
-from .repo import RepoSourceError, SourceGapError, find_repo_root
+from .repo import SourceGapError, find_repo_root
 
 OWNER_DOMAINS: tuple[tuple[str, str], ...] = (
     ("ordinary_enemies", "docs/09_ENEMIES_AND_ENCOUNTERS/ORDINARY_ENEMIES"),
@@ -111,12 +111,16 @@ class SimulationReadinessReport:
         return len(self.files)
 
     @property
+    def all_issues(self) -> tuple[ReadinessIssue, ...]:
+        return tuple(issue for file in self.files for issue in file.issues)
+
+    @property
     def source_gaps(self) -> tuple[ReadinessIssue, ...]:
-        return tuple(issue for file in self.files for issue in file.issues if issue.severity == "source_gap")
+        return tuple(issue for issue in self.all_issues if issue.severity == "source_gap")
 
     @property
     def parser_gaps(self) -> tuple[ReadinessIssue, ...]:
-        return tuple(issue for file in self.files for issue in file.issues if issue.severity == "parser_gap")
+        return tuple(issue for issue in self.all_issues if issue.severity == "parser_gap")
 
     @property
     def direct_damage_sections(self) -> int:
@@ -152,6 +156,21 @@ class SimulationReadinessReport:
         if include_files:
             payload["files"] = [file.as_dict() for file in self.files]
         return payload
+
+    def issues_dict(self, severity: str = "all") -> dict[str, object]:
+        if severity == "source_gap":
+            issues = self.source_gaps
+        elif severity == "parser_gap":
+            issues = self.parser_gaps
+        elif severity == "all":
+            issues = self.all_issues
+        else:
+            raise ValueError(f"unsupported readiness severity: {severity}")
+        return {
+            "severity": severity,
+            "count": len(issues),
+            "issues": [issue.as_dict() for issue in issues],
+        }
 
 
 def _title(text: str, fallback: str) -> str:
@@ -207,6 +226,7 @@ def _audit_action(domain: str, path: str, heading: str, block: str) -> tuple[Rea
     damage = _DAMAGE_RE.search(block)
     power = _POWER_RE.search(block)
     hit = _BASE_HIT_RE.search(block)
+    resolved_identity = damage is not None
 
     if damage is not None and power is None:
         issues.append(ReadinessIssue(
@@ -220,9 +240,12 @@ def _audit_action(domain: str, path: str, heading: str, block: str) -> tuple[Rea
         ))
 
     if hit is None:
+        severity = "source_gap" if resolved_identity else "parser_gap"
         issues.append(ReadinessIssue(
-            "source_gap", domain, path, heading, "base_hit_missing",
-            "Enemy/support direct-damage section has no explicit Base Hit in its owning action block.",
+            severity, domain, path, heading, "base_hit_missing" if resolved_identity else "base_hit_unresolved",
+            "Enemy/support direct-damage section has no Base Hit in this parseable action block."
+            if resolved_identity
+            else "The generic reader cannot resolve Base Hit from this summarized/indirect action section.",
         ))
 
     if _target_scope(block) is None:
@@ -243,6 +266,10 @@ def _audit_stats(domain: str, path: str, title: str, rows: tuple[StatBlockSource
             "This owner contains direct damage but the generic reader found no HP stat table in the same file; stats may be owned by another referenced file.",
         ),)
 
+    # Multi-entity owner files commonly contain boss bodies plus finite/passive
+    # support rows. Until actions can be associated with an exact row, missing
+    # offensive/turn stats are a parser-role problem, not evidence that canon is
+    # incomplete.
     required = {"hp", "defense", "spirit", "speed", "evasion"}
     if any(re.search(r"\bPhysical\s*/", block, re.I) for block in direct_blocks):
         required.add("attack")
@@ -256,8 +283,8 @@ def _audit_stats(domain: str, path: str, title: str, rows: tuple[StatBlockSource
         missing = sorted(field for field in required if not row.has(field))
         if missing:
             issues.append(ReadinessIssue(
-                "source_gap", domain, path, f"{title} stat row {index}", "required_stats_missing",
-                f"Stat row is missing fields needed by its parsed combat role: {', '.join(missing)}.",
+                "parser_gap", domain, path, f"{title} stat row {index}", "stat_role_unresolved",
+                f"This stat row omits {', '.join(missing)}; the generic reader must first determine whether it is an acting combatant, finite support, or passive target before requiring those fields.",
             ))
     return tuple(issues)
 
