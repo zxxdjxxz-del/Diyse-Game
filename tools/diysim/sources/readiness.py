@@ -16,6 +16,7 @@ import re
 
 from .actions import AuthoredActionSource, parse_authored_action_text
 from .analogues import parse_functional_analogue_rule_text
+from .dynamic_hits import parse_dynamic_element_hit_rule_text
 from .entities import EntityStatSource, parse_entity_stat_sources
 from .replays import parse_bounded_replay_rule_text
 from .repo import find_repo_root
@@ -213,7 +214,17 @@ def _supported_functional_analogue(heading: str, *, system_complete: bool) -> bo
     return system_complete and heading.casefold() in _FUNCTIONAL_ANALOGUE_HEADINGS
 
 
-def _action_candidate(heading: str, block: str, *, functional_analogue_complete: bool = False) -> bool:
+def _supported_dynamic_hit_package(heading: str, block: str, *, context_text: str) -> bool:
+    return parse_dynamic_element_hit_rule_text(heading, block, context_text=context_text).complete
+
+
+def _action_candidate(
+    heading: str,
+    block: str,
+    *,
+    context_text: str,
+    functional_analogue_complete: bool = False,
+) -> bool:
     if _is_structural_heading(heading):
         return False
     if _NO_DAMAGE_RE.search(block):
@@ -221,6 +232,8 @@ def _action_candidate(heading: str, block: str, *, functional_analogue_complete:
     if _supported_bounded_replay(heading, block):
         return True
     if _supported_functional_analogue(heading, system_complete=functional_analogue_complete):
+        return True
+    if _supported_dynamic_hit_package(heading, block, context_text=context_text):
         return True
     source = _parse_section(heading, block)
     return any((
@@ -246,14 +259,17 @@ def _audit_action(
     heading: str,
     block: str,
     *,
+    context_text: str,
     functional_analogue_complete: bool = False,
 ) -> tuple[ReadinessIssue, ...]:
-    # Complete inherited-copy systems intentionally do not own one fixed target
-    # shape or source identity in each local action heading. Their repo-backed
+    # Complete inherited-copy and dynamic-hit systems intentionally do not own
+    # one fixed element identity in each ordinary-action field. Their repo-backed
     # runtime transforms are the authority for that conditional behavior.
     if _supported_bounded_replay(heading, block):
         return ()
     if _supported_functional_analogue(heading, system_complete=functional_analogue_complete):
+        return ()
+    if _supported_dynamic_hit_package(heading, block, context_text=context_text):
         return ()
 
     source = _direct_damage_source(heading, block)
@@ -376,7 +392,12 @@ def audit_owner_file(path: Path, *, domain: str, repo_root: Path) -> OwnerFileRe
     direct_sources: list[AuthoredActionSource] = []
     issues: list[ReadinessIssue] = []
     for heading, block in _heading_blocks(text):
-        if not _action_candidate(heading, block, functional_analogue_complete=functional_analogue_complete):
+        if not _action_candidate(
+            heading,
+            block,
+            context_text=text,
+            functional_analogue_complete=functional_analogue_complete,
+        ):
             continue
         actions.append((heading, block))
         source = _direct_damage_source(heading, block)
@@ -387,6 +408,7 @@ def audit_owner_file(path: Path, *, domain: str, repo_root: Path) -> OwnerFileRe
             relative,
             heading,
             block,
+            context_text=text,
             functional_analogue_complete=functional_analogue_complete,
         ))
 
