@@ -59,8 +59,7 @@ class FormationRuntime:
     def _fallback(self, actor_index: int, action_def: RuntimeActionDefinition) -> CombatAction | None:
         if action_def.fallback_action is None:
             return None
-        runtime = self.enemies[actor_index].runtime
-        return runtime._action_by_name(action_def.fallback_action)
+        return self.enemies[actor_index].runtime._action_by_name(action_def.fallback_action)
 
     def select_action(self, actor_index: int, round_number: int, rng: random.Random) -> FormationActionSelection:
         runtime = self.enemies[actor_index].runtime
@@ -84,8 +83,6 @@ class FormationRuntime:
         if not eligible:
             fallback = self._fallback(actor_index, action_def)
             if fallback is None:
-                # Remove the illegal formation action and select from the
-                # remaining legal pool without inventing a fallback.
                 remaining = tuple(action for action in legal if action.name != chosen.name)
                 if not remaining:
                     raise RuntimeError(
@@ -100,17 +97,14 @@ class FormationRuntime:
                 return FormationActionSelection(actor_index, replacement, (), chosen.name)
             return FormationActionSelection(actor_index, fallback, (), chosen.name)
 
-        if chosen.target_scope == "all":
-            targets = eligible
-        else:
-            targets = (rng.choice(eligible),)
+        targets = eligible if chosen.target_scope == "all" else (rng.choice(eligible),)
         return FormationActionSelection(actor_index, chosen, targets, chosen.name)
 
     def commit_action(self, selection: FormationActionSelection, round_number: int) -> None:
-        runtime = self.enemies[selection.actor_index].runtime
-        source_name = selection.source_action_name or selection.action.name
-        source_action = runtime._action_by_name(source_name)
-        runtime.commit_action(source_action, round_number)
+        # Cooldowns/use caps belong to the action that actually executes. If a
+        # formation-only action falls back, its authored fallback is what the
+        # enemy spent its turn using.
+        self.enemies[selection.actor_index].runtime.commit_action(selection.action, round_number)
 
     def resolve_ally_effect(self, selection: FormationActionSelection) -> tuple[int, ...]:
         if selection.action.action_kind != "effect" or not selection.ally_targets:
