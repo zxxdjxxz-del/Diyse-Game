@@ -5,13 +5,12 @@ Still open / do not guess:
 
 1. story-placement-dependent authored encounter Auren for the special identities still deferred by `09` story-integration boundaries;
 2. exact in-world placement/delivery of the mandatory non-battle Auren budgets;
-3. final formal synchronization of the current working **9 Regional Markets** count;
-4. exact vendor NPC identity/presentation for several endpoints;
-5. optional additional finite copies of Reservoir Tonic / Emergency Kit / Emergency Rally;
-6. exact direct-currency chest placement/value map;
-7. currency icon/symbol/glyph;
-8. runtime shop IDs, stock table schema, save persistence and price UI formatting;
-9. exact Kessara Relic-copy menu timing / original-vs-copy UI presentation.
+3. exact vendor NPC identity/presentation for several endpoints;
+4. optional additional finite copies of Reservoir Tonic / Emergency Kit / Emergency Rally;
+5. exact direct-currency chest placement/value map;
+6. currency icon/symbol/glyph;
+7. runtime shop IDs, stock table schema, save persistence and price UI formatting;
+8. exact Kessara Relic-copy menu timing / original-vs-copy UI presentation.
 
 ## Newly closed
 - full Chapter 1–13 ordinary-formation Auren bands — **LOCKED** in `CAMPAIGN_INCOME_BANDS.md`;
@@ -29,6 +28,7 @@ Still open / do not guess:
 - normal-stock Consumable resale — **LOCKED** in `CONSUMABLE_SELL_RULE.md`; reward-only Consumables are not sellable;
 - Kessara Relic-copy service fee — **LOCKED at 600 Auren per successful copy** in `KESSARA_RELIC_COPY_ECONOMY.md`;
 - fixed authored non-boss encounter Auren handling — **LOCKED** in `ENEMY_REWARD_HANDOFF.md`; unresolved story-placement-dependent identities remain deferred;
-- random ordinary-enemy Consumable/equipment/material drops — **NONE**; ordinary enemy rewards use deterministic Auren plus explicitly authored guaranteed rewards only.
+- random ordinary-enemy Consumable/equipment/material drops — **NONE**;
+- Regional Market spine — **LOCKED at exactly 9** in `COMMERCE_ENDPOINTS.md`; Cresthaven and Vhalmarch remain separate requisition/supply endpoints.
 
 An open line does not license restoration of an older retired answer.
