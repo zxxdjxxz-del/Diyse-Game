@@ -9,6 +9,8 @@ from typing import Iterable, Literal, Sequence
 
 from ..progression.stats import Stats
 from ..sources.combat import load_combat_rules
+from ..sources.enemies import load_enemy_system_rules
+from .basic_attack import basic_attack_action
 from .damage import direct_damage
 from .hit_evasion import adjusted_hit_chance
 from .models import DamageKind, Side
@@ -27,7 +29,7 @@ class ActionProfile:
     spirit_penetration: float = 0.0
     physical_weight: float | None = None
     magical_weight: float | None = None
-    weight: float = 1.0
+    weight: float | None = None
 
 
 @dataclass(frozen=True)
@@ -35,7 +37,7 @@ class CombatantTemplate:
     name: str
     side: Side
     stats: Stats
-    actions: tuple[ActionProfile, ...] = (ActionProfile("Attack"),)
+    actions: tuple[ActionProfile, ...] = ()
     evasion: int = 0
     direct_damage_reduction: float = 0.0
     target_policy: TargetPolicy = "random"
@@ -97,10 +99,11 @@ class BattleScenario:
     max_rounds: int = 100
 
     def __post_init__(self) -> None:
+        max_enemies = load_enemy_system_rules().max_active_enemies
         if not 1 <= len(self.party) <= 4:
             raise ValueError("party must contain 1-4 combatants")
-        if not 1 <= len(self.enemies) <= 8:
-            raise ValueError("enemies must contain 1-8 combatants")
+        if not 1 <= len(self.enemies) <= max_enemies:
+            raise ValueError(f"enemies must contain 1-{max_enemies} combatants")
         if self.max_rounds < 1:
             raise ValueError("max_rounds must be positive")
         if any(unit.side != "party" for unit in self.party):
@@ -109,10 +112,38 @@ class BattleScenario:
             raise ValueError("all enemy templates must have side='enemy'")
 
 
+def _repo_basic_attack_profile() -> ActionProfile:
+    action = basic_attack_action()
+    return ActionProfile(
+        name=action.name,
+        kind=action.damage_kind,
+        power=action.power,
+        base_hit=action.base_hit,
+        crit_chance=action.crit_chance,
+        defense_penetration=action.defense_penetration,
+        spirit_penetration=action.spirit_penetration,
+        physical_weight=action.physical_weight,
+        magical_weight=action.magical_weight,
+        weight=None,
+    )
+
+
 def _choose_action(unit: BattleUnit, rng: random.Random) -> ActionProfile:
     actions = unit.template.actions
-    weights = [max(0.0, action.weight) for action in actions]
-    if not actions or sum(weights) <= 0:
+    if not actions:
+        return _repo_basic_attack_profile()
+
+    weights = tuple(action.weight for action in actions)
+    if all(weight is None for weight in weights):
+        if unit.side == "enemy" and load_enemy_system_rules().missing_weight_selection != "uniform":
+            raise ValueError("unsupported repo enemy-selection rule")
+        return rng.choice(actions)
+    if any(weight is None for weight in weights):
+        raise ValueError(
+            f"{unit.template.name} mixes explicit and missing action weights; "
+            "source/policy authority must resolve selection before simulation"
+        )
+    if sum(max(0.0, weight) for weight in weights) <= 0:
         raise ValueError(f"{unit.template.name} has no selectable actions")
     return rng.choices(actions, weights=weights, k=1)[0]
 
