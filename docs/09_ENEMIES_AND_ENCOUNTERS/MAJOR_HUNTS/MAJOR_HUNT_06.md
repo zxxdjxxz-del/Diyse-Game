@@ -8,7 +8,7 @@
 
 | Ref | Encounter / form | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Architecture |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| — | **The Unfinished World** | 70 | 78,000 | 304 | 318 | 226 | 232 | 61 | — | 15 | one bar / three same-bar states |
+| — | **The Unfinished World** | 70 | 78,000 | 304 | 318 | 226 | 232 | 61 | 0 | 15 | one bar / three same-bar states |
 
 ## Unlock
 After **Final Archive Arbiter is cleared** and **Vaelkor is defeated in Chapter 12**.
@@ -95,9 +95,9 @@ Unlock:
 - Base Hit100
 
 ### Confluence Rupture
-Two-hit Magical command.
-
-Use the current Foundation Storm element and the next element in cycle:
+- one party member
+- two-hit Magical command
+- use the current Foundation Storm element and the next element in cycle
 - hit 1 — **280 Power**
 - hit 2 — **280 Power**
 
