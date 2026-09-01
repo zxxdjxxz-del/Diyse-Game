@@ -70,10 +70,7 @@ class CombatAction:
     clear_harmful_statuses: int | Literal["all"] = 0
     status_riders: tuple[StatusRider, ...] = ()
     temporary_modifiers: tuple[TemporaryModifierSpec, ...] = ()
-    weight: float = 1.0
-
-
-BASIC_ATTACK = CombatAction("Attack")
+    weight: float | None = None
 
 
 @dataclass(frozen=True)
@@ -81,7 +78,7 @@ class Combatant:
     name: str
     side: Side
     stats: Stats
-    actions: tuple[CombatAction, ...] = (BASIC_ATTACK,)
+    actions: tuple[CombatAction, ...] = ()
     evasion: int = 0
     direct_damage_reduction: float = 0.0
     rank: Rank = "ordinary"
