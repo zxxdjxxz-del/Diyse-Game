@@ -1,37 +1,18 @@
-"""Encounter-specific Hollow Watch Castellan battle runtime.
-
-The shared combat package resolves damage, hit/evasion, Crit, healing, status
-application, status timing, and Speed. This module owns only the authored
-Hollow Watch state machine and the documented/reconstructed smart policy.
-"""
+"""Encounter-specific Hollow Watch runtime backed only by repo source data."""
 from __future__ import annotations
 from dataclasses import dataclass, replace
 import math
+from pathlib import Path
 import random
 import statistics
 from typing import Literal
 
 from tools.diysim.combat.action_resolution import resolve_damage, resolve_heal
-from tools.diysim.combat.models import BASIC_ATTACK, CombatAction, CombatUnit
+from tools.diysim.combat.models import BASIC_ATTACK, CombatAction, CombatUnit, TemporaryModifierSpec
 from tools.diysim.combat.status_runtime import complete_turn, end_round, turn_is_blocked
+from tools.diysim.combat.temporary_modifiers import apply_temporary_modifier
 from tools.diysim.combat.turn_order import turn_order
 
-from .data import (
-    BALLISTA,
-    CASTELLAN,
-    CYANIS,
-    FORTRESS_ACTIONS,
-    HEAVY_BOLT,
-    ILYRA,
-    MAEVRA,
-    REPETITION_LOCKED_BOSS_ACTIONS,
-    Ruleset,
-    WALKING_ACTIONS,
-    WALKING_TRIGGER_HP,
-    WATCH_SEAL,
-    WATCH_SEAL_DIRECT_DAMAGE_REDUCTION,
-    action_set,
-)
 from .policy import (
     RoundStartView,
     SmartPolicyConfig,
@@ -40,6 +21,7 @@ from .policy import (
     choose_maevra_action,
     next_harmonized_prime,
 )
+from .repo_loader import HollowWatchRepoData, load_hollow_watch_repo_data
 
 CastellanState = Literal["fortress", "walking"]
 BallistaPhase = Literal["prepare", "fire", "reload"]
@@ -59,7 +41,6 @@ class HollowWatchOutcome:
 
 @dataclass(frozen=True)
 class HollowWatchSummary:
-    ruleset: Ruleset
     runs: int
     win_rate: float
     wipe_rate: float
@@ -75,15 +56,16 @@ class HollowWatchSummary:
 
 
 def _weighted_boss_action(
+    data: HollowWatchRepoData,
     state: CastellanState,
     last_action: str | None,
     rng: random.Random,
 ) -> CombatAction:
-    actions = FORTRESS_ACTIONS if state == "fortress" else WALKING_ACTIONS
+    actions = data.fortress_actions if state == "fortress" else data.walking_actions
     legal = tuple(
         action
         for action in actions
-        if not (action.name == last_action and action.name in REPETITION_LOCKED_BOSS_ACTIONS)
+        if not (action.name == last_action and action.name in data.repetition_locked_actions)
     )
     return rng.choices(legal, weights=[action.weight for action in legal], k=1)[0]
 
@@ -101,7 +83,6 @@ def _resolve_boss_action(
     party: list[CombatUnit],
     rng: random.Random,
 ) -> bool:
-    """Resolve one boss action and return whether Staggered was newly exposed."""
     targets = [unit for unit in party if unit.alive]
     if action.target_scope == "one":
         targets = [_random_conscious(party, rng)]
@@ -114,8 +95,8 @@ def _resolve_boss_action(
     return staggered_exposed
 
 
-def _set_seal_reduction(boss: CombatUnit, active: bool) -> None:
-    reduction = WATCH_SEAL_DIRECT_DAMAGE_REDUCTION if active else 0.0
+def _set_seal_reduction(boss: CombatUnit, data: HollowWatchRepoData, active: bool) -> None:
+    reduction = data.watch_seal_reduction if active else 0.0
     if boss.template.direct_damage_reduction != reduction:
         boss.template = replace(boss.template, direct_damage_reduction=reduction)
 
@@ -124,11 +105,12 @@ def _maybe_transition(
     boss: CombatUnit,
     seal: CombatUnit,
     state: CastellanState,
+    data: HollowWatchRepoData,
 ) -> CastellanState:
-    if state == "fortress" and boss.alive and boss.hp <= WALKING_TRIGGER_HP:
-        _set_seal_reduction(boss, False)
+    if state == "fortress" and boss.alive and boss.hp <= data.walking_trigger_hp:
+        _set_seal_reduction(boss, data, False)
         return "walking"
-    _set_seal_reduction(boss, state == "fortress" and seal.alive)
+    _set_seal_reduction(boss, data, state == "fortress" and seal.alive)
     return state
 
 
@@ -142,39 +124,37 @@ def _any_ko(party: list[CombatUnit], previous: bool) -> bool:
     return previous or any(not unit.alive for unit in party)
 
 
-def _historical_or_current_mend(
+def _mend_with_trait(
     action: CombatAction,
     target: CombatUnit,
+    data: HollowWatchRepoData,
     *,
-    gentle_continuance_available: bool,
+    trait_available: bool,
 ) -> CombatAction:
-    if not gentle_continuance_available:
-        return action
-    if target.hp / target.max_hp < 0.50:
-        return replace(action, heal_max_hp_percent=action.heal_max_hp_percent + 0.05)
+    if trait_available and target.hp / target.max_hp < data.gentle_continuance_threshold:
+        return replace(action, heal_max_hp_percent=action.heal_max_hp_percent + data.gentle_continuance_bonus)
     return action
 
 
 def run_hollow_watch_smart(
     rng: random.Random,
     *,
-    ruleset: Ruleset = "current",
     policy: SmartPolicyConfig = SmartPolicyConfig(),
     max_rounds: int = 30,
+    root: Path | None = None,
 ) -> HollowWatchOutcome:
-    """Run the documented Hollow Watch normal/smart policy.
+    """Run the current repo-authored Hollow Watch normal/smart policy.
 
-    `v93_oracle` changes only MP costs to the pre-global-reduction values used
-    by the historical v93 true-battle certification. All authored damage/status
-    mechanics use the same current shared resolver.
+    Required values are parsed from repo owner files at call time. Missing
+    authority raises SourceGapError before the simulation begins.
     """
-    actions = action_set(ruleset)
-    cyanis = CombatUnit(CYANIS, 0)
-    ilyra = CombatUnit(ILYRA, 1)
-    maevra = CombatUnit(MAEVRA, 2)
-    boss = CombatUnit(CASTELLAN, 3)
-    ballista = CombatUnit(BALLISTA, 4)
-    seal = CombatUnit(WATCH_SEAL, 5)
+    data = load_hollow_watch_repo_data(root=root)
+    cyanis = CombatUnit(data.cyanis, 0)
+    ilyra = CombatUnit(data.ilyra, 1)
+    maevra = CombatUnit(data.maevra, 2)
+    boss = CombatUnit(data.castellan, 3)
+    ballista = CombatUnit(data.ballista, 4)
+    seal = CombatUnit(data.watch_seal, 5)
     party = [cyanis, ilyra, maevra]
 
     state: CastellanState = "fortress"
@@ -186,7 +166,7 @@ def run_hollow_watch_smart(
     ballista_shots = 0
     staggered_exposed = False
 
-    _set_seal_reduction(boss, True)
+    _set_seal_reduction(boss, data, True)
 
     for round_number in range(1, max_rounds + 1):
         round_start = RoundStartView.capture(party)
@@ -196,8 +176,6 @@ def run_hollow_watch_smart(
             actors.append(ballista)
         actors.extend(party)
 
-        # turn_order snapshots Speed at round start, so mid-round Staggered does
-        # not retroactively reorder the current round.
         for actor in turn_order(actors):
             if not actor.alive or not boss.alive:
                 continue
@@ -210,7 +188,7 @@ def run_hollow_watch_smart(
                 continue
 
             if actor is boss:
-                boss_action = _weighted_boss_action(state, last_boss_action, rng)
+                boss_action = _weighted_boss_action(data, state, last_boss_action, rng)
                 last_boss_action = boss_action.name
                 if _resolve_boss_action(boss, boss_action, party, rng):
                     staggered_exposed = True
@@ -223,10 +201,8 @@ def run_hollow_watch_smart(
                     prepared_target = _random_conscious(party, rng)
                     ballista_phase = "fire"
                 elif ballista_phase == "fire":
-                    # Prepared target is fixed. If it is no longer conscious,
-                    # the shot has no legal target rather than retargeting.
                     if prepared_target is not None and prepared_target.alive:
-                        resolve_damage(ballista, HEAVY_BOLT, prepared_target, rng)
+                        resolve_damage(ballista, data.heavy_bolt, prepared_target, rng)
                         ballista_shots += 1
                     prepared_target = None
                     ballista_phase = "reload"
@@ -239,7 +215,7 @@ def run_hollow_watch_smart(
             target = ballista if ballista.alive else boss
 
             if actor is maevra:
-                action = choose_maevra_action(maevra, actions)
+                action = choose_maevra_action(maevra, data)
                 maevra.mp -= action.mp_cost
                 resolve_damage(maevra, action, target, rng)
                 complete_turn(maevra, acted=True)
@@ -247,7 +223,7 @@ def run_hollow_watch_smart(
             elif actor is cyanis:
                 action = choose_cyanis_action(
                     cyanis,
-                    actions,
+                    data,
                     ballista_alive=ballista.alive,
                     harmonized_prime=harmonized_prime,
                 )
@@ -262,29 +238,41 @@ def run_hollow_watch_smart(
                 action, heal_target = choose_ilyra_action(
                     ilyra,
                     party,
-                    actions,
+                    data,
                     round_start,
                     ballista_alive=ballista.alive,
                     config=policy,
                 )
                 ilyra.mp -= action.mp_cost
                 if action.action_kind == "heal" and heal_target is not None:
-                    resolved_action = _historical_or_current_mend(
-                        action,
+                    resolve_heal(
+                        ilyra,
+                        _mend_with_trait(
+                            action,
+                            heal_target,
+                            data,
+                            trait_available=gentle_continuance_available and action.name == data.mend.name,
+                        ),
                         heal_target,
-                        gentle_continuance_available=gentle_continuance_available,
                     )
-                    resolve_heal(ilyra, resolved_action, heal_target)
-                    gentle_continuance_available = False
+                    if action.name == data.mend.name:
+                        gentle_continuance_available = False
+                    if action.name == data.clear_warding.name:
+                        apply_temporary_modifier(
+                            heal_target,
+                            TemporaryModifierSpec(
+                                effect_id="Clear Warding",
+                                duration_rounds=data.clear_warding_sr_rounds,
+                                status_resistance_flat=data.clear_warding_sr_bonus,
+                            ),
+                        )
                 else:
                     resolve_damage(ilyra, BASIC_ATTACK, target, rng)
                 complete_turn(ilyra, acted=True)
 
             any_ko = _any_ko(party, any_ko)
-            state = _maybe_transition(boss, seal, state)
-
+            state = _maybe_transition(boss, seal, state, data)
             if not ballista.alive:
-                # Destruction cancels any pending protected preparation.
                 prepared_target = None
 
         end_round([*party, boss, ballista])
@@ -292,54 +280,40 @@ def run_hollow_watch_smart(
 
         if not boss.alive:
             return HollowWatchOutcome(
-                "party",
-                round_number,
-                any_ko,
+                "party", round_number, any_ko,
                 _party_fraction(party, "hp", "max_hp"),
                 _party_fraction(party, "mp", "max_mp"),
-                ballista_shots,
-                staggered_exposed,
-                state,
+                ballista_shots, staggered_exposed, state,
             )
         if not any(unit.alive for unit in party):
             return HollowWatchOutcome(
-                "enemy",
-                round_number,
-                True,
-                0.0,
+                "enemy", round_number, True, 0.0,
                 _party_fraction(party, "mp", "max_mp"),
-                ballista_shots,
-                staggered_exposed,
-                state,
+                ballista_shots, staggered_exposed, state,
             )
 
     return HollowWatchOutcome(
-        "draw",
-        max_rounds,
-        any_ko,
+        "draw", max_rounds, any_ko,
         _party_fraction(party, "hp", "max_hp"),
         _party_fraction(party, "mp", "max_mp"),
-        ballista_shots,
-        staggered_exposed,
-        state,
+        ballista_shots, staggered_exposed, state,
     )
 
 
 def simulate_hollow_watch_smart(
     *,
-    ruleset: Ruleset = "current",
     policy: SmartPolicyConfig = SmartPolicyConfig(),
     runs: int = 20_000,
     seed: int = 93,
+    root: Path | None = None,
 ) -> HollowWatchSummary:
     if runs < 1:
         raise ValueError("runs must be positive")
+    data = load_hollow_watch_repo_data(root=root)
     master = random.Random(seed)
     outcomes = [
         run_hollow_watch_smart(
-            random.Random(master.getrandbits(64)),
-            ruleset=ruleset,
-            policy=policy,
+            random.Random(master.getrandbits(64)), policy=policy, root=root
         )
         for _ in range(runs)
     ]
@@ -352,7 +326,6 @@ def simulate_hollow_watch_smart(
         return float(rounds[index])
 
     return HollowWatchSummary(
-        ruleset=ruleset,
         runs=runs,
         win_rate=party_wins / runs,
         wipe_rate=enemy_wins / runs,
