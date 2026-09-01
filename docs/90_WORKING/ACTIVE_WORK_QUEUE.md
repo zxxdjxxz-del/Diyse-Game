@@ -120,6 +120,9 @@ Examples include:
 
 These are placement/timing dependencies, not missing enemy combat sheets.
 
+Economy consequence:
+> any exact Auren line for these story-dependent special encounters remains deferred until their owning scene role is finalized. This does **not** reopen the core economy design.
+
 ## 3 — Chapters 5–13 Exact Dialogue
 Chapters 0–4 are line-complete.
 
@@ -130,26 +133,19 @@ Immediate next dialogue work:
 
 Optional Side Quest / Character Quest exact dialogue remains open where not separately completed.
 
-## 4 — Economy / Reward Exact Gaps
-Complete unresolved:
-- Side Quest Auren rewards;
-- Side Quest consumable/material bundles;
-- Character Quest monetary add-ons;
-- unresolved Hunt Auren payouts;
-- consumable resale rules;
-- Kessara Relic-copy service fee, if any.
-
-## 5 — Production Implementation
+## 4 — Production Implementation
 Reconcile current canon with runtime, including:
 - removal of stale Mastery Point assumptions;
 - current Prime behavior and tests;
-- Auren semantics;
+- Auren semantics and the now-closed reward economy;
 - production equipment/item fixtures;
 - versioned save schema;
 - current chapter/scene assumptions;
-- production menus, combat UI, and loadout UI.
+- production menus, combat UI, loadout UI, shop stock/persistence, and Kessara copy UI.
 
-## 6 — Visual Production / Style Certification
+Economy numeric/reward design is closed in `12_ECONOMY_AND_REWARDS`; implementation must consume those values rather than recreate them.
+
+## 5 — Visual Production / Style Certification
 **ACTIVE**
 
 Current immediate gate:
@@ -166,14 +162,35 @@ Environment/material certification B01–B11 also remains open. Do not bulk-conv
 Working pointer:
 `VISUAL_PRODUCTION_WORKING.md`
 
-## 7 — Audio / Music Redevelopment
+## 6 — Audio / Music Redevelopment
 Final soundtrack identity, cue hierarchy, regional language, battle/boss/Hunt/Prime music, leitmotifs, diegetic scope, voice scope, SFX palette, and mix/implementation targets remain open.
 
-## 8 — Whole-Game Playtest / QA
-After targeted representative certification and implementation reconciliation, run campaign-only, light, typical, heavy, and completionist routes plus boss/Hunt/Elite, economy, save/load, exploit, readability, input, and Android performance QA.
+## 7 — Whole-Game Playtest / QA
+After targeted representative certification and implementation reconciliation, run campaign-only, light, typical, heavy, and completionist routes plus boss/Hunt/Elite, **economy**, save/load, exploit, readability, input, and Android performance QA.
 
-## 9 — Intentionally Open Story / Lore Details
+Economy QA should validate the closed owner-domain assumptions rather than treating the numeric economy as still unauthored.
+
+## 8 — Intentionally Open Story / Lore Details
 Keep explicitly open details unresolved until separately approved, including the sole Entity-fragment survival mechanism, Chapter-10 research-trail specifics, final survey prop, and unresolved formal chapter titles.
+
+## Closed stream — Core Economy / Rewards
+The independent economy-design stream is **CLOSED**.
+
+Current owner-domain calibration includes:
+- ~**30,127 Auren** mandatory-route direct-cash center;
+- ~**13.56k** ordinary-formation Auren (~45% of mandatory direct cash);
+- **8,490** mandatory story-boss Auren;
+- **8,080** exact mandatory non-battle Auren delivery map;
+- **19,390** total current optional direct cash;
+- ~**49,517 Auren** full direct-cash completionist reference before resale/extra encounters;
+- exact ordinary/optional/Hunt/quest reward packages;
+- exact Consumable resale;
+- no random ordinary-enemy loot economy;
+- exactly 9 Regional Markets;
+- Kessara fee **600 Auren**;
+- finite reward-only supply **3 Reservoir Tonic / 4 Emergency Kit / 2 Emergency Rally**.
+
+Do not reopen this stream merely for vendor presentation, UI binding, story-placement-dependent special encounters, or later economy QA. Reopen only for a demonstrated balance/exploit failure or explicit design revision.
 
 ## Rule
 Do not use this queue to silently modify a closed owner-domain rule. When a working item is resolved, update the owning numbered domain first, then remove/archive its working tracker.
