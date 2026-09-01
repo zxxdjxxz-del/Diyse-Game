@@ -105,14 +105,14 @@ python -m tools.diysim.cli exp --level 62
 python -m tools.diysim.cli exp --current-exp 448100
 python -m tools.diysim.cli hit 100 15
 python -m tools.diysim.cli damage physical --attack 150 --defense 120 --power 135
-python -m tools.diysim.cli simulate tools/diysim/sample_scenario.json --runs 10000 --seed 135
-python -m tools.diysim.cli simulate-advanced tools/diysim/sample_advanced_scenario.json --runs 10000 --seed 135
-python -m tools.diysim.cli sweep tools/diysim/sample_scenario.json --hp 0.9,1.0,1.1 --attack 0.95,1.0,1.05 --defense 0.95,1.0,1.05 --runs 2000
-python -m tools.diysim.cli route tools/diysim/sample_progression.json
+python -m tools.diysim.cli simulate tools/diysim/scenarios/examples/basic_direct.json --runs 10000 --seed 135
+python -m tools.diysim.cli simulate-advanced tools/diysim/scenarios/examples/advanced_combat.json --runs 10000 --seed 135
+python -m tools.diysim.cli sweep tools/diysim/scenarios/examples/basic_direct.json --hp 0.9,1.0,1.1 --attack 0.95,1.0,1.05 --defense 0.95,1.0,1.05 --runs 2000
+python -m tools.diysim.cli route tools/diysim/progression/examples/sample_route.json
 python -m tools.diysim.cli solve-exp --start-level 20 --target-level 24 --target-progress 0.5 --encounters 18 --fixed-exp 4300
 ```
 
-`sample_advanced_scenario.json` demonstrates the richer schema with current representable Crest Knight and Blue Warden actions plus an example enemy. Its numeric encounter tuning is illustrative only; it is not a certified balance benchmark.
+`scenarios/examples/advanced_combat.json` demonstrates the richer schema with current representable Crest Knight and Blue Warden actions plus an example enemy. Its numeric encounter tuning is illustrative only; it is not a certified balance benchmark.
 
 `completion_rate` in a progression route is an expected-route planning input only. It can model assumptions such as completing 70% of available ordinary encounters without changing authored per-encounter rewards.
 
