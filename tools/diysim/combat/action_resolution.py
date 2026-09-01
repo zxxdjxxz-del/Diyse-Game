@@ -1,4 +1,4 @@
-"""Healing, direct-damage, and status-rider action resolution."""
+"""Healing, direct-damage, effect, and status-rider action resolution."""
 from __future__ import annotations
 import random
 from typing import Literal
@@ -13,7 +13,12 @@ from .hit_evasion import adjusted_hit_chance
 from .models import CombatAction, CombatUnit, StatusRider
 from .status_runtime import clear_bleed_if_full
 from .statuses import apply_status, status_application_chance
-from .temporary_modifiers import apply_temporary_modifier, effective_status_resistance
+from .temporary_modifiers import (
+    apply_temporary_modifier,
+    effective_base_hit_bonus,
+    effective_direct_damage_reduction,
+    effective_status_resistance,
+)
 
 
 def roll_status(action: CombatAction, rider: StatusRider, target: CombatUnit, rng: random.Random) -> bool:
@@ -41,8 +46,27 @@ def clear_statuses(unit: CombatUnit, count: int | Literal["all"]) -> None:
         unit.statuses.pop(status, None)
 
 
+def _apply_action_modifiers(action: CombatAction, target: CombatUnit) -> None:
+    for modifier in action.temporary_modifiers:
+        apply_temporary_modifier(target, modifier)
+
+
+def resolve_effect(actor: CombatUnit, action: CombatAction, target: CombatUnit) -> int:
+    """Resolve a non-damage action and return HP restored, if any."""
+    if action.action_kind != "effect":
+        raise ValueError(f"{action.name!r} is not an effect action")
+    before = target.hp
+    if action.heal_flat:
+        target.hp = min(target.max_hp, target.hp + max(0, action.heal_flat))
+        clear_bleed_if_full(target)
+    if action.clear_harmful_statuses:
+        clear_statuses(target, action.clear_harmful_statuses)
+    _apply_action_modifiers(action, target)
+    return target.hp - before
+
+
 def resolve_heal(actor: CombatUnit, action: CombatAction, target: CombatUnit) -> int:
-    amount = healing_amount(
+    amount = action.heal_flat + healing_amount(
         target.max_hp,
         round_half_up(effective_magic(actor)),
         max_hp_percent=action.heal_max_hp_percent,
@@ -50,18 +74,18 @@ def resolve_heal(actor: CombatUnit, action: CombatAction, target: CombatUnit) ->
         potency_multiplier=action.healing_potency,
     )
     before = target.hp
-    target.hp = min(target.max_hp, target.hp + amount)
+    target.hp = min(target.max_hp, target.hp + max(0, amount))
     clear_bleed_if_full(target)
     if action.clear_harmful_statuses:
         clear_statuses(target, action.clear_harmful_statuses)
-    for modifier in action.temporary_modifiers:
-        apply_temporary_modifier(target, modifier)
+    _apply_action_modifiers(action, target)
     return target.hp - before
 
 
 def resolve_damage(actor: CombatUnit, action: CombatAction, target: CombatUnit, rng: random.Random) -> int:
     rules = load_combat_rules()
     base_hit = rules.default_player_base_hit if action.base_hit is None else action.base_hit
+    base_hit += effective_base_hit_bonus(actor)
     if rng.randint(1, 100) > adjusted_hit_chance(base_hit, target.template.evasion):
         return 0
 
@@ -96,7 +120,7 @@ def resolve_damage(actor: CombatUnit, action: CombatAction, target: CombatUnit, 
         physical_weight=physical_weight,
         magical_weight=magical_weight,
         crit=crit,
-        direct_damage_reduction=target.template.direct_damage_reduction,
+        direct_damage_reduction=effective_direct_damage_reduction(target),
     )
     damage = round_half_up(
         base
@@ -109,6 +133,5 @@ def resolve_damage(actor: CombatUnit, action: CombatAction, target: CombatUnit, 
     if target.alive:
         for rider in action.status_riders:
             roll_status(action, rider, target, rng)
-        for modifier in action.temporary_modifiers:
-            apply_temporary_modifier(target, modifier)
+        _apply_action_modifiers(action, target)
     return damage
