@@ -222,3 +222,56 @@ jobs:
           )
           print(json.dumps(asdict(summary), indent=2, sort_keys=True))
           PY
+
+  zevraya_plan_scan:
+    if: contains(github.event.head_commit.message, '[zevraya-plan-scan]')
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        reservoir_plan:
+          - "Brood"
+          - "Conduction"
+          - "Sustenance"
+          - "Armor"
+          - "Brood,Conduction"
+          - "Brood,Sustenance"
+          - "Brood,Armor"
+          - "Conduction,Sustenance"
+          - "Conduction,Armor"
+          - "Sustenance,Armor"
+          - "Brood,Conduction,Sustenance"
+          - "Brood,Conduction,Armor"
+          - "Brood,Sustenance,Armor"
+          - "Conduction,Sustenance,Armor"
+          - "Brood,Conduction,Sustenance,Armor"
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Lv24 selective Reservoir scan shard
+        run: |
+          python - <<'PY'
+          import json
+          from dataclasses import asdict
+          from tools.diysim.encounters.story_bosses.matron_zevraya import simulate_matron_zevraya
+          from tools.diysim.overlays import BalanceOverlay
+
+          plan = tuple("${{ matrix.reservoir_plan }}".split(","))
+          summary = simulate_matron_zevraya(
+              player_level=24,
+              structure_mode="non_diluting",
+              strategy="dismantle",
+              reservoir_plan=plan,
+              overlay=BalanceOverlay(direct_damage_power_multiplier=1.20),
+              use_prepared_inventory=True,
+              runs=250,
+              seed=107,
+          )
+          print(json.dumps(asdict(summary), indent=2, sort_keys=True))
+          PY
