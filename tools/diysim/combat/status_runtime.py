@@ -27,20 +27,31 @@ def clear_bleed_if_full(unit: CombatUnit) -> None:
         unit.statuses.pop("bleed", None)
 
 
+def _complete_tactical_states(unit: CombatUnit) -> None:
+    """Notify source-owned tactical states that this actor's turn completed."""
+    for state in tuple(unit.tactical_states.values()):
+        callback = getattr(state, "on_turn_complete", None)
+        if callable(callback):
+            callback()
+
+
 def complete_turn(unit: CombatUnit, *, acted: bool) -> None:
-    bleed = unit.statuses.get("bleed")
-    if bleed is None:
-        return
-    if acted and unit.alive:
-        indirect_damage(unit, bleed_rate(unit))
-        if not unit.alive:
-            return
+    try:
         bleed = unit.statuses.get("bleed")
         if bleed is None:
             return
-    bleed.bleed_turn_age += 1
-    if bleed.bleed_turn_age >= load_combat_rules().bleed_escalation_turns:
-        bleed.bleed_escalated = True
+        if acted and unit.alive:
+            indirect_damage(unit, bleed_rate(unit))
+            if not unit.alive:
+                return
+            bleed = unit.statuses.get("bleed")
+            if bleed is None:
+                return
+        bleed.bleed_turn_age += 1
+        if bleed.bleed_turn_age >= load_combat_rules().bleed_escalation_turns:
+            bleed.bleed_escalated = True
+    finally:
+        _complete_tactical_states(unit)
 
 
 def turn_is_blocked(unit: CombatUnit, rng: random.Random) -> bool:
