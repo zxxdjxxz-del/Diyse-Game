@@ -119,6 +119,69 @@ jobs:
           print(json.dumps(results, indent=2, sort_keys=True))
           PY
 
+      - name: Print Matron Zevraya sensitivity matrix
+        run: |
+          python - <<'PY'
+          import json
+          from dataclasses import asdict
+          from tools.diysim.encounters.story_bosses.matron_zevraya import simulate_matron_zevraya
+          from tools.diysim.overlays import BalanceOverlay
+
+          overlays = {
+              "power_x1_20": BalanceOverlay(direct_damage_power_multiplier=1.20),
+              "power_x1_20_boss_plus5": BalanceOverlay(
+                  direct_damage_power_multiplier=1.20,
+                  effective_stat_level_offset=5,
+              ),
+          }
+          matrix = {}
+          for level in (24, 28):
+              for structure in ("owner", "non_diluting"):
+                  for strategy in ("rush", "dismantle"):
+                      for label, overlay in overlays.items():
+                          summary = simulate_matron_zevraya(
+                              player_level=level,
+                              structure_mode=structure,
+                              strategy=strategy,
+                              overlay=overlay,
+                              use_prepared_inventory=True,
+                              runs=100,
+                              seed=106,
+                          )
+                          key = f"lv{level}_{structure}_{strategy}_{label}"
+                          matrix[key] = asdict(summary)
+          print(json.dumps(matrix, indent=2, sort_keys=True))
+          PY
+
+      - name: Targeted Matron Zevraya 2k calibration
+        if: contains(github.event.head_commit.message, '[zevraya-2k]')
+        run: |
+          python - <<'PY'
+          import json
+          from dataclasses import asdict
+          from tools.diysim.encounters.story_bosses.matron_zevraya import simulate_matron_zevraya
+          from tools.diysim.overlays import BalanceOverlay
+
+          overlay = BalanceOverlay(
+              direct_damage_power_multiplier=1.20,
+              effective_stat_level_offset=5,
+          )
+          results = {}
+          for level in (24, 28):
+              for strategy in ("rush", "dismantle"):
+                  summary = simulate_matron_zevraya(
+                      player_level=level,
+                      structure_mode="non_diluting",
+                      strategy=strategy,
+                      overlay=overlay,
+                      use_prepared_inventory=True,
+                      runs=2000,
+                      seed=106,
+                  )
+                  results[f"lv{level}_non_diluting_{strategy}_power_x1_20_boss_plus5_prepared"] = asdict(summary)
+          print(json.dumps(results, indent=2, sort_keys=True))
+          PY
+
       - name: Print simulation readiness summary
         run: python -m tools.diysim.cli audit-readiness --summary-only
 
