@@ -2,16 +2,24 @@
 
 **Status:** ACTIVE RUNTIME CHARACTER READABILITY AUTHORITY  
 **Parent style authority:** `../DIYSE_VISUAL_STYLE_CANON.md`  
-**B00 benchmark:** `BENCHMARKS/B00_PARTY_CHARACTER_STYLE_ANCHOR_V1.md`
+**B00 benchmark:** `BENCHMARKS/B00_PARTY_CHARACTER_STYLE_ANCHOR_V1.md`  
+**Runtime model gate:** `BENCHMARKS/B00_RIGGED_MODEL_RUNTIME_VALIDATION_V1.md`
 
-The six permanent party members must remain visually separable even when rendered at battle and field scale. Exact approved B00 masters control identity; this file controls what must survive simplification.
+The six permanent party members must remain visually separable at actual exploration and battle camera distances. Exact approved B00 masters control identity; this file controls what must survive runtime presentation.
 
-## Runtime targets
+## Runtime representation
 
-- **Battle:** approximately **200–220 px character height**.
-- **Field:** approximately **80 px character height**.
+Primary field and battle presentation uses **rigged 3D character models** when the production rig/model solution passes B00 validation.
 
-These are presentation targets, not permission for blind downscaling. Derivatives must be redrawn/simplified around the approved master silhouette.
+The former fixed sprite targets of approximately 200–220 px for battle and ~80 px for field are retired as required production targets. They may still be useful as rough historical screen-space references, but they no longer require dedicated sprite redraws.
+
+Runtime readability must instead be tested at:
+- actual target display resolution;
+- actual field camera distance/framing;
+- actual battle camera distance/framing;
+- representative motion, lighting, environment and VFX conditions.
+
+Use mesh/material LOD, outline tuning and authored simplification to preserve readability rather than creating separate character identities.
 
 ## Primary reads
 
@@ -34,10 +42,10 @@ Preserve:
 - long blonde hair;
 - pale-blue cape mass;
 - white/pale-blue clothing block;
-- bright green eye/facial read where scale permits;
+- bright green eye/facial read where camera distance permits;
 - restrained silver lower-arm/lower-leg accents.
 
-Her battle derivative may carry the contextual Wardrod, Shield or Focus. Do not introduce a sword identity.
+Her contextual runtime equipment may include Wardrod, Shield or Focus. Do not introduce a sword identity.
 
 ### Torren
 **Green/bronze bow silhouette with irregular ghillie cape.**
@@ -48,9 +56,9 @@ Preserve:
 - dark-green body block;
 - bronze-gold armor accents;
 - full irregular grass/branch cape silhouette;
-- practical canister/field-gear rhythm only where scale permits.
+- practical canister/field-gear rhythm only where screen distance permits.
 
-At small scale the ghillie cape must become several designed organic masses, not hundreds of tiny leaf marks.
+At distance the ghillie cape must resolve into several designed organic masses, not hundreds of shimmering foliage cards.
 
 ### Nimera
 **White foundation + dark-purple braided/updo silhouette + constellation waist mass.**
@@ -63,20 +71,20 @@ Preserve:
 - black boot/utility masses;
 - one strong green Cardweaver prop cue where visible.
 
-Do not attempt to preserve every braid, chain, charm, vial or constellation dot. Simplify them into controlled grouped accents.
+Do not force every braid, chain, charm, vial or constellation mark to remain equally visible at distance. Group or fade secondary detail through LOD/material logic.
 
 ### Vaelira
 **Emerald Arcanist + black foundation + silver accents + Arcane Staff.**
 
 Preserve:
 - crimson/burgundy hair mass;
-- bright blue eyes/facial read where scale permits;
+- bright blue eyes/facial read where camera distance permits;
 - emerald coat/skirt/boot blocks;
 - black bodysuit foundation;
 - silver trim/metal highlights;
 - tall Arcane Staff silhouette and restrained emerald focus.
 
-**Vaelira is not an archer.** Do not introduce bow/quiver/ranger language in any derivative.
+**Vaelira is not an archer.** Do not introduce bow/quiver/ranger language in any runtime model or animation set.
 
 ### Seyrik
 **Massive black/crimson biomechanical heavy-plate silhouette + oversized greatsword.**
@@ -84,13 +92,13 @@ Preserve:
 Preserve:
 - broad muscular proportion;
 - blond swept top / short sides;
-- scarred severe face and blue-eye read where scale permits;
+- scarred severe face and blue-eye read where camera distance permits;
 - red-dominant long coat mass;
 - polished black skeletal/rib-cage armor over crimson understructure;
 - asymmetric sharp Black Host plate rhythm;
 - unmistakably oversized two-handed greatsword.
 
-At small scale, reduce the rib-shell into a few strong dark/light/crimson structural bands rather than tiny filigree.
+At distance, the rib-shell should resolve into a few strong black/crimson structural bands rather than dense specular noise.
 
 ## Avoid clone drift
 
@@ -105,9 +113,9 @@ Do not allow:
 
 Color supports recognition. **Silhouette, weapon, hair mass, outer garment shape and body proportion must still work in grayscale.**
 
-## Simplification hierarchy
+## Screen-space simplification hierarchy
 
-When reducing a master, preserve in this order:
+When the runtime model becomes visually dense at distance, preserve in this order:
 1. overall body/outer-garment silhouette;
 2. weapon or signature prop silhouette;
 3. hair mass and head shape;
@@ -116,4 +124,19 @@ When reducing a master, preserve in this order:
 6. one or two signature secondary accents;
 7. only then small ornament.
 
-If a small detail competes with silhouette or aliases at runtime, remove or merge it rather than preserving it literally.
+If a small detail competes with silhouette, shimmers, aliases, clips or becomes unreadable at runtime, reduce it through LOD/material/outline treatment rather than preserving it literally.
+
+## Camera validation rule
+
+A character model is not approved from a close neutral render alone.
+
+For each party member validate:
+- neutral studio/model-review camera;
+- field exploration camera while idle and moving;
+- battle camera while idle and attacking;
+- representative bright and dark lighting;
+- representative environment contrast;
+- VFX overlap;
+- grayscale silhouette comparison with the other five party members.
+
+B00 runtime approval requires all six to remain distinct under these real presentation conditions.
