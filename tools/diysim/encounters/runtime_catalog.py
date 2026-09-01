@@ -1,14 +1,7 @@
 """Repo-backed runtime coverage for the Diyse enemy roster.
 
-This module intentionally stores no enemy numeric canon. It discovers enemy
-owner sheets in ``docs/09_ENEMIES_AND_ENCOUNTERS`` at runtime, parses the
-shared stat/action grammar already owned by :mod:`tools.diysim.sources`, and
-classifies every owner sheet as either:
-
-* ``generic`` -- executable by the shared ordinary enemy runtime;
-* ``special`` -- handled by an encounter-specific runtime;
-* ``blocked`` -- exact source/parser gaps are reported, never hidden behind
-  simulator defaults.
+No enemy numeric canon lives here. Owner sheets are discovered at runtime and
+classified by whether DiySim can execute their complete combat behavior.
 """
 from __future__ import annotations
 
@@ -24,7 +17,7 @@ from tools.diysim.sources.actors import parse_stat_row
 from tools.diysim.sources.markdown import find_markdown_table
 from tools.diysim.sources.repo import SourceGapError, find_repo_root, read_repo_text
 
-RuntimeKind = Literal["generic", "special", "blocked"]
+RuntimeKind = Literal["generic", "special", "component", "blocked"]
 
 ENEMY_ROOT = Path("docs/09_ENEMIES_AND_ENCOUNTERS")
 OWNER_DIRS: dict[str, str] = {
@@ -37,7 +30,6 @@ OWNER_DIRS: dict[str, str] = {
     "support": "SUPPORT_OBJECTS",
 }
 
-# Routing metadata only; combat numbers remain in repository owner files.
 SPECIAL_RUNTIME_PATHS: dict[str, str] = {
     "docs/09_ENEMIES_AND_ENCOUNTERS/STORY_BOSSES/HOLLOW_WATCH_CASTELLAN.md":
         "tools.diysim.encounters.story_bosses.hollow_watch_castellan",
@@ -49,9 +41,30 @@ SPECIAL_RUNTIME_PATHS: dict[str, str] = {
 
 _NON_OWNER_FILE_TOKENS = (
     "README", "REGISTER", "INDEX", "MIGRATION", "TERMINOLOGY", "RULES",
-    "ARCHITECTURE", "CHECKLIST", "SUMMARY",
+    "ARCHITECTURE", "CHECKLIST", "SUMMARY", "RAW_STATS", "CERTIFICATION",
+    "HANDOFF",
 )
+_NON_OWNER_EXACT = {"CHARACTER_QUEST_BOSSES"}
 _REQUIRED_GENERIC_STATS = ("hp", "attack", "magic", "defense", "spirit", "speed")
+_POWER_AUTHORITY = re.compile(
+    r"(?im)(?:^|\n)\s*(?:[-*]\s*)?(?:\*\*)?Power(?:\*\*)?\s*:?\s*(?:\*\*)?(?:\d+(?:\.\d+)?|N/?A)\b"
+    r"|\b\d+(?:\.\d+)?\s+Power(?:\s+per\s+target)?\b"
+)
+_TRIGGER_ONLY = re.compile(
+    r"\bpassive\b|\bon[- ]defeat\b|\btrigger(?:ed| only)?\b|not an ordinary selected action",
+    re.I,
+)
+_STATEFUL_SHEET = re.compile(
+    r"^##+\s+.*(?:State|Phase|Form)\b|\bfresh HP\b|\bphase transition\b|"
+    r"\btransition(?:s|ed)?\s+(?:at|when|once|into|to)\b|\bonce HP\b|"
+    r"\bwhen HP\b|\bat\s+\d+%\s+(?:Max\s+)?HP\b",
+    re.I | re.M,
+)
+_SEQUENCE_RULE = re.compile(
+    r"\bmust be followed by\b|\bnext action\b|\bfixed sequence\b|\baction cycle\b|"
+    r"\bon the following turn\b|\bthen uses\b",
+    re.I,
+)
 
 
 @dataclass(frozen=True)
@@ -61,6 +74,7 @@ class RuntimeActionDefinition:
     blockers: tuple[str, ...]
     repetition_lock_rounds: int | None
     non_damage: bool
+    triggered: bool = False
 
 
 @dataclass(frozen=True)
@@ -83,13 +97,15 @@ class EnemyRuntimeDefinition:
     def direct_damage_actions(self) -> tuple[CombatAction, ...]:
         return tuple(
             action.action for action in self.actions
-            if action.action is not None and not action.non_damage
+            if action.action is not None and not action.non_damage and not action.triggered
         )
 
 
 @dataclass(frozen=True)
 class RuntimeCoverageSummary:
     total_owner_sheets: int
+    enemy_sheets: int
+    components: int
     generic: int
     special: int
     blocked: int
@@ -102,7 +118,7 @@ class RuntimeCoverageSummary:
 
     @property
     def coverage_rate(self) -> float:
-        return self.executable / self.total_owner_sheets if self.total_owner_sheets else 1.0
+        return self.executable / self.enemy_sheets if self.enemy_sheets else 1.0
 
 
 def _relative(path: Path, root: Path) -> str:
@@ -111,7 +127,7 @@ def _relative(path: Path, root: Path) -> str:
 
 def _is_owner_sheet(path: Path) -> bool:
     upper = path.stem.upper()
-    return not any(token in upper for token in _NON_OWNER_FILE_TOKENS)
+    return upper not in _NON_OWNER_EXACT and not any(token in upper for token in _NON_OWNER_FILE_TOKENS)
 
 
 def discover_enemy_owner_paths(*, root: Path | None = None) -> tuple[tuple[str, str], ...]:
@@ -142,14 +158,14 @@ def _first_stat_row(text: str):
 
 
 def _action_blocks(text: str) -> tuple[tuple[str, str], ...]:
-    """Return H3/H4 blocks with explicit Power authority."""
-    matches = list(re.finditer(r"^(#{3,4})\s+(.+?)\s*$", text, re.M))
+    """Return H2-H5 blocks that contain explicit numeric/N/A Power authority."""
+    matches = list(re.finditer(r"^(#{2,5})\s+(.+?)\s*$", text, re.M))
     result: list[tuple[str, str]] = []
     for index, match in enumerate(matches):
         start = match.end()
         end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
         body = text[start:end].strip()
-        if not re.search(r"\bPower\b", body, re.I):
+        if not _POWER_AUTHORITY.search(body):
             continue
         name = re.sub(r"\*+", "", match.group(2)).strip()
         result.append((name, body))
@@ -162,15 +178,16 @@ def _repetition_lock(raw_text: str) -> int | None:
 
 
 def _non_damage(raw_text: str) -> bool:
-    return bool(re.search(r"Power\s*:\s*N/?A\b|Power\s+N/?A\b|no direct damage", raw_text, re.I))
+    return bool(re.search(r"Power\s*:\s*(?:\*\*)?N/?A\b|no direct damage", raw_text, re.I))
 
 
-def _to_action(source: AuthoredActionSource) -> tuple[CombatAction | None, tuple[str, ...], bool]:
+def _to_action(source: AuthoredActionSource, *, triggered: bool) -> tuple[CombatAction | None, tuple[str, ...], bool]:
     non_damage = _non_damage(source.raw_text)
-    if non_damage:
-        return None, (), True
-
     blockers: list[str] = []
+    if non_damage:
+        blockers.append(f"{source.name}: non-damage effect requires runtime handler")
+        return None, tuple(blockers), True
+
     for field in ("target_scope", "damage_kind", "power", "base_hit"):
         if getattr(source, field) is None:
             blockers.append(f"{source.name}: missing {field}")
@@ -182,6 +199,8 @@ def _to_action(source: AuthoredActionSource) -> tuple[CombatAction | None, tuple
         blockers.append(f"{source.name}: missing fixed element")
     if source.is_multihit:
         blockers.append(f"{source.name}: multihit requires encounter/action-specific runtime")
+    if triggered:
+        blockers.append(f"{source.name}: triggered/passive action requires runtime trigger")
     if blockers:
         return None, tuple(blockers), False
 
@@ -189,7 +208,7 @@ def _to_action(source: AuthoredActionSource) -> tuple[CombatAction | None, tuple
     assert source.damage_kind in {"physical", "magical", "hybrid"}
     assert source.element is not None
     assert source.power is not None and source.base_hit is not None
-    action = CombatAction(
+    return CombatAction(
         source.name,
         target_scope=source.target_scope,
         damage_kind=source.damage_kind,
@@ -200,8 +219,7 @@ def _to_action(source: AuthoredActionSource) -> tuple[CombatAction | None, tuple
         magical_weight=source.magical_weight,
         weight=source.weight,
         status_riders=tuple(StatusRider(status, chance) for status, chance in source.status_chances),
-    )
-    return action, (), False
+    ), (), False
 
 
 def load_enemy_runtime_definition(
@@ -214,13 +232,22 @@ def load_enemy_runtime_definition(
     text = read_repo_text(source_path, root=repo)
     name = _title(text, source_path)
 
-    special = SPECIAL_RUNTIME_PATHS.get(source_path)
-    if special is not None:
+    if category == "support":
         return EnemyRuntimeDefinition(
-            name, category, source_path, "special", None, None, (), (), special
+            name, category, source_path, "component", None, None, (),
+            ("encounter support/component; attach to parent encounter runtime",),
         )
 
+    special = SPECIAL_RUNTIME_PATHS.get(source_path)
+    if special is not None:
+        return EnemyRuntimeDefinition(name, category, source_path, "special", None, None, (), (), special)
+
     blockers: list[str] = []
+    if "→" in name or _STATEFUL_SHEET.search(text):
+        blockers.append("state/phase/form behavior requires encounter-specific runtime")
+    if _SEQUENCE_RULE.search(text):
+        blockers.append("authored action sequence/cycle requires runtime scheduler")
+
     combatant: Combatant | None = None
     displayed_level: int | None = None
     try:
@@ -230,16 +257,16 @@ def load_enemy_runtime_definition(
             blockers.append("missing runtime stats: " + ", ".join(missing_stats))
         if not stat_source.has("level"):
             blockers.append("missing displayed level")
-        if not blockers:
+        if not missing_stats and stat_source.has("level"):
             values = stat_source.values
             displayed_level = values["level"]
             combatant = Combatant(
                 name=name,
                 side="enemy",
                 stats=Stats(
-                    hp=values["hp"], mp=values.get("mp", 0),
-                    attack=values["attack"], magic=values["magic"],
-                    defense=values["defense"], spirit=values["spirit"], speed=values["speed"],
+                    hp=values["hp"], mp=values.get("mp", 0), attack=values["attack"],
+                    magic=values["magic"], defense=values["defense"],
+                    spirit=values["spirit"], speed=values["speed"],
                 ),
                 evasion=values.get("evasion", 0),
                 status_resistance=values.get("status_resistance", 0),
@@ -256,13 +283,17 @@ def load_enemy_runtime_definition(
         blockers.append("no explicit Power-bearing action blocks detected")
     for action_name, raw_text in action_blocks:
         source = parse_authored_action_text(action_name, raw_text)
-        action, action_blockers, non_damage = _to_action(source)
+        triggered = bool(_TRIGGER_ONLY.search(raw_text))
+        action, action_blockers, non_damage = _to_action(source, triggered=triggered)
         action_defs.append(RuntimeActionDefinition(
-            source, action, action_blockers, _repetition_lock(raw_text), non_damage
+            source, action, action_blockers, _repetition_lock(raw_text), non_damage, triggered
         ))
         blockers.extend(action_blockers)
 
-    damaging_actions = tuple(defn.action for defn in action_defs if defn.action is not None)
+    damaging_actions = tuple(
+        defn.action for defn in action_defs
+        if defn.action is not None and not defn.triggered
+    )
     if combatant is not None and damaging_actions:
         combatant = Combatant(
             name=combatant.name, side=combatant.side, stats=combatant.stats,
@@ -270,7 +301,7 @@ def load_enemy_runtime_definition(
             status_resistance=combatant.status_resistance,
         )
     elif combatant is not None and not damaging_actions:
-        blockers.append("no generic direct-damage action is executable")
+        blockers.append("no generic selected direct-damage action is executable")
 
     unique_blockers = tuple(dict.fromkeys(blockers))
     return EnemyRuntimeDefinition(
@@ -291,12 +322,16 @@ def build_enemy_runtime_catalog(*, root: Path | None = None) -> tuple[EnemyRunti
 
 def audit_enemy_runtime_coverage(*, root: Path | None = None) -> RuntimeCoverageSummary:
     definitions = build_enemy_runtime_catalog(root=root)
+    components = sum(definition.kind == "component" for definition in definitions)
     generic = sum(definition.kind == "generic" for definition in definitions)
     special = sum(definition.kind == "special" for definition in definitions)
     blocked = sum(definition.kind == "blocked" for definition in definitions)
+    enemy_sheets = len(definitions) - components
     return RuntimeCoverageSummary(
-        len(definitions), generic, special, blocked,
-        len(definitions) - generic - special - blocked, definitions,
+        total_owner_sheets=len(definitions), enemy_sheets=enemy_sheets, components=components,
+        generic=generic, special=special, blocked=blocked,
+        unclassified=len(definitions) - components - generic - special - blocked,
+        definitions=definitions,
     )
 
 
