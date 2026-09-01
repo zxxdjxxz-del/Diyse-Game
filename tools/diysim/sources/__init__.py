@@ -6,6 +6,7 @@ Diyse canon belongs to the repository, never to simulator-owned snapshots.
 from .abilities import AbilityRegistryEntry, AbilitySource, load_ability_registry, load_ability_source
 from .actions import AuthoredActionSource, find_named_action_line, load_named_action_source, parse_authored_action_text
 from .actors import EnemyRegistryEntry, StatBlockSource, find_enemy_registry_entries, load_enemy_registry, load_stat_row, load_stat_table, parse_stat_row
+from .analogues import FunctionalAnalogueRuleSource, parse_functional_analogue_rule_text
 from .audit import SourceAuditIssue, SourceAuditReport, audit_repo_sources
 from .enemies import EnemySystemRules, MissingWeightSelection, load_enemy_system_rules
 from .entities import EntityRole, EntityStatSource, parse_entity_stat_sources
@@ -38,6 +39,7 @@ __all__ = [
     "EnemySystemRules",
     "EntityRole",
     "EntityStatSource",
+    "FunctionalAnalogueRuleSource",
     "MissingWeightSelection",
     "OWNER_DOMAINS",
     "OwnerFileReadiness",
@@ -75,6 +77,7 @@ __all__ = [
     "parse_authored_action_text",
     "parse_bounded_replay_rule_text",
     "parse_entity_stat_sources",
+    "parse_functional_analogue_rule_text",
     "parse_stat_row",
     "read_repo_text",
 ]
