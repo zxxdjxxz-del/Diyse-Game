@@ -24,18 +24,35 @@ jobs:
       - name: Run DiySim tests
         run: python -m pytest -q tests/diysim
 
-      - name: Print Hollow Watch Lv2/Lv3 regression diagnostic
+      - name: Gate Hollow Watch Lv2/Lv3 regression
         run: |
           python - <<'PY'
           import json
           from dataclasses import asdict
           from tools.diysim.encounters.story_bosses.hollow_watch_castellan import simulate_hollow_watch_v93_snapshot
 
+          lv2 = simulate_hollow_watch_v93_snapshot(2, runs=500, seed=93)
+          lv3 = simulate_hollow_watch_v93_snapshot(3, runs=500, seed=93)
           summaries = {
-              "lv2_mandatory": asdict(simulate_hollow_watch_v93_snapshot(2, runs=2_000, seed=93)),
-              "lv3_high_side": asdict(simulate_hollow_watch_v93_snapshot(3, runs=2_000, seed=93)),
+              "lv2_mandatory": asdict(lv2),
+              "lv3_high_side": asdict(lv3),
           }
           print(json.dumps(summaries, indent=2, sort_keys=True))
+
+          for label, summary in (("Lv2", lv2), ("Lv3", lv3)):
+              assert summary.win_rate >= 0.995, f"{label} win rate regressed: {summary.win_rate}"
+              assert summary.wipe_rate <= 0.001, f"{label} wipe rate regressed: {summary.wipe_rate}"
+              assert summary.any_ko_rate <= 0.01, f"{label} KO rate regressed: {summary.any_ko_rate}"
+              assert summary.mean_ballista_shots == 0.0, f"{label} Ballista began firing: {summary.mean_ballista_shots}"
+              assert 5.7 <= summary.mean_rounds <= 6.3, f"{label} round pace drifted: {summary.mean_rounds}"
+
+          assert lv3.mean_rounds <= lv2.mean_rounds, (
+              f"High-side Lv3 became slower than mandatory Lv2: {lv3.mean_rounds} > {lv2.mean_rounds}"
+          )
+          assert lv3.mean_remaining_party_hp >= lv2.mean_remaining_party_hp, (
+              "High-side Lv3 lost its survivability advantage: "
+              f"{lv3.mean_remaining_party_hp} < {lv2.mean_remaining_party_hp}"
+          )
           PY
 
       - name: Print simulation readiness summary
