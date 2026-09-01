@@ -104,7 +104,7 @@ class CombatUnit:
     mp: int = field(init=False)
     statuses: dict[StatusName, ActiveStatus] = field(default_factory=dict)
     temporary_modifiers: dict[str, ActiveTemporaryModifier] = field(default_factory=dict)
-    tactical_states: dict[str, str] = field(default_factory=dict)
+    tactical_states: dict[str, object] = field(default_factory=dict)
     ko_counted: bool = False
 
     def __post_init__(self) -> None:
