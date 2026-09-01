@@ -1,9 +1,6 @@
-# Diyse — Ordinary Side Quest Reward Boundary
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicitly accepted v85 tracker-level economy closures.  
-**Frozen provenance source:** `Diyse_Item_Equipment_Catalog_Economy_Audit_ARCHIVE_FULL_v603.md` only where later authority does not supersede it.  
-**Domain rule:** `12_ECONOMY_AND_REWARDS` owns Auren denomination, purchase/replacement prices, sell rules, normal-stock progression, commerce endpoint roles, reward-value/scarcity rules, and non-EXP reward handoffs. Item definitions remain in `08`; enemy bodies remain in `09`; EXP/CEXP remain in `10`; quest structure remains in `11`.
+# Diyse — Ordinary Side Quest Rewards
 
+**Status:** EXACT NON-EXP REWARD AUTHORITY
 
 Current ordinary Side Quests:
 - The Marks We Leave
@@ -12,22 +9,51 @@ Current ordinary Side Quests:
 - The Third Caravan
 - What We Build After
 
-Their exact Player EXP is owned by `10`.
-Their content/world-state result is owned by `11`.
+Player EXP remains owned by `10_PROGRESSION_AND_EXP`; quest structure/world-state remains owned by `11_QUESTS`.
 
-## Current non-EXP status
-Exact final:
-- Auren amount;
-- Consumable package;
-- optional minor material package;
+## Reward rules
+- Ordinary Side Quests do not require a permanent combat-system item to feel worthwhile.
+- World-state improvement + EXP where applicable + a sensible Auren/Consumable package is sufficient.
+- No reward-only Reservoir Tonic, Emergency Kit, or Emergency Rally is added here.
+- No new minor-material currency or vendor-trash layer is created for these quests.
+- Consumables respect the normal progression spine at the quest's unlock point.
 
-is:
-> **OPEN / DEFERRED**
+## Exact rewards
+| Side Quest | Unlock | Player EXP context | Auren | Consumable package | Consumable value | Economic value |
+|---|---|---:|---:|---|---:|---:|
+| **The Marks We Leave** | Ch1 after Torren joins | 500 EXP | **100** | 2× Field Salve, 1× Trauma Remedy, 1× Blinding Mist | **65** | **165** |
+| **A Measure of Bread** | after Ch3 | 0 EXP | **220** | 2× Restorative Salve, 1× Flow Tonic, 1× General Remedy | **230** | **450** |
+| **The Crown's Debt** | after Ch7 | 0 EXP | **380** | 1× Deepflow Tonic, 1× Greater Rousing Salts, 1× Full Remedy | **500** | **880** |
+| **The Third Caravan** | after Ch8 | 5,000 EXP | **500** | 2× Vital Salve, 1× Company Salve, 1× Greater Rousing Salts | **600** | **1,100** |
+| **What We Build After** | post-Vaelkor Ch12 cleanup | 14,500 EXP | **600** | 1× Grand Salve, 1× Highflow Tonic, 1× Full Remedy | **740** | **1,340** |
 
-Do not manufacture exact rewards merely to complete the table.
+## Full ordinary-Side-Quest economic budget
+Direct Auren:
+> **1,800 Auren**
 
-## Reward principles
-An ordinary Side Quest does not need to hand out a permanent combat-system item.
-Visible world-state improvement plus EXP and a sensible economic package can be sufficient.
+Normal-stock Consumable market value:
+> **2,135 Auren**
 
-No removed Side Quest contributes a hidden reward budget.
+Total direct economic/recovery value:
+> **3,935 Auren equivalent**
+
+This total excludes Player EXP and persistent world-state payoff.
+
+## Narrative interpretation
+### The Marks We Leave
+Edda's payment is a modest route-maintenance fee plus practical field supplies. It should feel useful in Chapter 1 without becoming an early money exploit.
+
+### A Measure of Bread
+Because this quest grants 0 Player EXP, its reward leans more heavily on provisioning support. The payment represents authorized service/requisition compensation, not taking food from displaced civilians.
+
+### The Crown's Debt
+Because this quest grants 0 Player EXP, its reward is a meaningful Crown field-service package. It is separate from the civilian debt payments being settled; the party is not paid from claimant compensation.
+
+### The Third Caravan
+The reward emphasizes recovery supplies appropriate to a successful caravan/recovery-line stabilization. Optional route combat is not required to justify the package.
+
+### What We Build After
+The quest already carries a large 14,500-EXP reward and major world-state payoff. Its economic package therefore focuses on final-act restocking rather than a permanent equipment reward or inflated cash prize.
+
+## No hidden reward budget
+Removed/retired Side Quests contribute no hidden Auren, material, or Consumable budget.
