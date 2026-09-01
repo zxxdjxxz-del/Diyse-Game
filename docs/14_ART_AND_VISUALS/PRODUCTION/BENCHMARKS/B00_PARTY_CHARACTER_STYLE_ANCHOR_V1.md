@@ -1,7 +1,7 @@
 # Diyse — B00 Party Character Style Anchor v1
 
 **Benchmark:** B00 — Permanent Party / Character Style Anchor  
-**Status:** **IN PROGRESS — CYANIS + ILYRA + TORREN APPROVED / 3 OF 6 PARTY MASTERS LOCKED**  
+**Status:** **IN PROGRESS — CYANIS + ILYRA + TORREN + VAELIRA APPROVED / 4 OF 6 PARTY MASTERS LOCKED**  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`
 
 ## 1. Scope
@@ -19,23 +19,25 @@ The permanent party is Cyanis, Ilyra, Torren, Nimera, Vaelira, and Seyrik. B00 d
 | Cyanis | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Ilyra | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Torren | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
-| Nimera | Pending new-style master |
-| Vaelira | Pending new-style master |
+| Nimera | **CLEANUP / RE-APPROVAL PASS PENDING** |
+| Vaelira | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Seyrik | Pending new-style master |
 
 Current authorities:
-- `CYANIS_CURRENT_VISUAL_LOCK.md`
-- `ILYRA_CURRENT_VISUAL_LOCK.md`
-- `TORREN_CURRENT_VISUAL_LOCK.md`
+- `../CHARACTERS/CYANIS_CURRENT_VISUAL_LOCK.md`
+- `../CHARACTERS/VAELIRA_CURRENT_VISUAL_LOCK.md`
+- approved Ilyra and Torren masters remain controlling from their explicit B00 approvals pending any later documentation consolidation.
+
+Nimera is **not promoted in this benchmark yet** despite earlier design work. Her next clean B00 cleanup/re-approval pass must complete before she is counted as locked.
 
 ## 3. Approved-anchor significance
 
-Cyanis, Ilyra, and Torren are the first three real B00 anchors. Together they establish:
+Cyanis, Ilyra, Torren, and Vaelira are the current real B00 anchors. Together they establish:
 - mature seinen/anime proportions;
 - graphic cel-informed values rather than soft-brushed rendering;
 - strong clean silhouettes;
 - coherent garment/armor construction;
-- clear cloth/leather/metal/foliage material separation;
+- clear cloth/leather/metal/foliage/crystal material separation as applicable;
 - restrained, deliberate ornament;
 - controlled metallic highlight planes;
 - deliberate variable line hierarchy;
@@ -44,7 +46,9 @@ Cyanis, Ilyra, and Torren are the first three real B00 anchors. Together they es
 
 Torren additionally establishes the handling of dense natural camouflage and rugged equipment: his ghillie cape must remain readable as designed foliage masses and hanging branches rather than collapsing into undifferentiated visual noise.
 
-Their exact approved renders are fingerprinted in their character visual-lock files so later work cannot silently drift back to superseded variants.
+Vaelira establishes the current B00 handling of a light-caster / Arcanist silhouette: clean layered garment construction, a matte cloth foundation, emerald outer garments, silver metalwork, a readable Arcane Staff, and restrained crystal focus without reverting to oversized high-fantasy sorceress ornament.
+
+Exact approved renders should be fingerprinted in character visual-lock documentation so later work cannot silently drift back to superseded variants.
 
 ## 4. New-style master requirements
 
@@ -103,4 +107,4 @@ Earlier material-family work is not automatically invalidated, but it must confo
 
 Current state:
 
-`VISUAL STYLE LOCKED → CYANIS + ILYRA + TORREN MASTERS APPROVED → 3 PARTY MASTERS REMAIN → BATTLE/FIELD DERIVATIVES PENDING`
+`VISUAL STYLE LOCKED → CYANIS + ILYRA + TORREN + VAELIRA MASTERS APPROVED → NIMERA CLEANUP + SEYRIK MASTER REMAIN → BATTLE/FIELD DERIVATIVES PENDING`
