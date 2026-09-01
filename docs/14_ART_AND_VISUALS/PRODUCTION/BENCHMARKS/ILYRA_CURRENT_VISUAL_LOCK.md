@@ -1,21 +1,17 @@
 # Diyse — Ilyra Current Visual Lock
 
-**Status:** APPROVED / LOCKED B00 HIGH-RES NEW-STYLE MASTER  
+**Status:** PROVISIONAL B00 DESIGN LOCK / CLEANUP + CLOTHING-CONSTRUCTION REVIEW REQUIRED  
 **Character:** Ilyra Amarin  
 **Benchmark:** B00 — Permanent Party / Character Style Anchor  
-**Approved:** 2026-08-31
+**Review reopened:** 2026-08-31
 
-## Exact approved render fingerprint
+## Current authority state
 
-The approved clean full-body render is the current visual authority for Ilyra's B00 high-resolution master.
+The previously approved Ilyra render is **not final B00 master authority yet**. User review reopened the image for a clean rebuild and clothing-construction check before final lock.
 
-- SHA-256: `a2e4a83ef9148a4c9562ca8ab7ec1d97eba8b8f94e19423e9a5fc171cedabfb7`
-- dimensions: **1023 × 1537**
-- mode: **RGB**
+The current image remains the **design target/reference** for Ilyra while cleanup is performed, but its prior fingerprint must not be treated as a final approved master.
 
-This fingerprint identifies the exact approved render. Earlier Ilyra render attempts and outfit variants are superseded for B00 visual-master purposes.
-
-## Locked identity
+## Identity to preserve
 
 Preserve:
 - youthful adult Ilyra identity;
@@ -25,9 +21,9 @@ Preserve:
 - feminine athletic proportions without chibi/cute exaggeration;
 - clean graphic seinen/anime facial construction.
 
-## Locked outfit / silhouette
+## Provisional outfit target
 
-The approved outfit is now Ilyra's current visual design authority:
+Preserve the approved design direction unless the user explicitly changes it during cleanup:
 - white and pale-blue primary palette;
 - long pale-blue cape with clean gold edging and restrained ornamental corner motifs;
 - fitted white structured upper garment with pale-blue paneling and restrained gold linework;
@@ -39,27 +35,28 @@ The approved outfit is now Ilyra's current visual design authority:
 - dark fingerless gloves;
 - no weapon displayed in the master render.
 
-The design should remain elegant, protective, mobile, and unmistakably Ilyra rather than drifting toward generic ceremonial princess/paladin ornament.
+## Required cleanup gate
 
-## Rendering lock
-
-This master follows the active Diyse character direction:
-- mature seinen-inspired anime rendering;
-- graphic anime-stylized surface treatment;
-- cel-informed value grouping;
+Before Ilyra returns to APPROVED / LOCKED status, the rebuilt render must be reviewed for:
+- clean non-speckled surfaces;
+- coherent garment construction and layering;
+- believable seams, closures, belt placement, cape attachment, and tabard/panel overlap;
+- clean hand/glove anatomy;
+- consistent armor attachment and articulation;
+- graphic cel-informed value grouping;
 - clean material separation;
 - controlled metallic highlights;
 - variable line hierarchy;
 - no painterly/soft-brushed target;
-- no random speckle/grunge texture;
-- no glossy mobile-gacha finish.
+- no random grunge/dot texture;
+- no accidental ornament duplication or malformed trim.
+
+The preferred approach is a **fresh clean remake from the user-supplied reference**, not patching artifacts on top of the previous render.
 
 ## Equipment canon separation
 
-This visual lock does **not** change Ilyra's gameplay equipment canon. Her current equipment rules remain governed by the equipment/class authorities; the master simply depicts her without a weapon in hand.
+This visual review does **not** change Ilyra's gameplay equipment canon. Her equipment rules remain governed by the class/equipment authorities. Do not infer sword use from older Ilyra artwork.
 
-Do not infer sword use from older Ilyra artwork.
+## Promotion rule
 
-## Supersession rule
-
-When future Ilyra art conflicts with this approved B00 master, this file controls visual appearance unless an explicit newer user approval supersedes it.
+Ilyra returns to a locked B00 high-resolution master only after the user explicitly approves the clean rebuilt image. Until then, B00 counts Cyanis as locked and Ilyra as provisional.
