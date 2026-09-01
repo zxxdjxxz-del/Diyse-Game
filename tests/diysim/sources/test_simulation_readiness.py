@@ -46,6 +46,14 @@ def test_current_repo_readiness_scans_all_combat_owner_families() -> None:
         assert report.by_domain[domain]["files"] > 0
 
 
+def test_current_repo_has_no_simulation_readiness_gaps() -> None:
+    report = audit_simulation_readiness()
+
+    assert report.source_gaps == ()
+    assert report.parser_gaps == ()
+    assert report.ready_files == report.files_scanned
+
+
 def test_supported_bounded_replays_do_not_require_a_fixed_target_scope() -> None:
     report = audit_simulation_readiness()
     replay_subjects = {
