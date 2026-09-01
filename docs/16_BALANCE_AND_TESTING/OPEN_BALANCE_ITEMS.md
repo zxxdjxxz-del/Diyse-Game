@@ -7,7 +7,7 @@
 ## Active
 ### Representative true-battle certification
 Status:
-> **ACTIVE — v100 complete; Rhazek → Bastion Devourer next**
+> **ACTIVE — v101 complete; Vaelkor → Sovereign Panoply Unbound next**
 
 Static enemy design is closed and Chapters 0–13 have completed mandatory-vs-completionist paper validation. CEXP is recalibrated. The current targeted certification step is the representative full turn-by-turn battle suite using reproducible party snapshots.
 
@@ -15,19 +15,28 @@ Completed representative anchors:
 - Hollow Watch Castellan — **PASS / RETAIN v93**;
 - Archive Leviathan — **PASS / RETAIN v97**;
 - Regulation Crucible → The Seventh Reaction — **PASS / RETAIN v99**;
-- Warden of the Nameless / Revision Arbiter — **PASS / RETAIN v100**.
+- Warden of the Nameless / Revision Arbiter — **PASS / RETAIN v100**;
+- Commander Rhazek — Reforged Commander → Bastion Devourer — **PASS / RETAIN v101**.
+
+Rhazek v101 key result:
+- mandatory Lv40 no Prime — **100% wins / median 14 / mean 14.48 / P90 17** over 20,000 runs;
+- timed Last Sentinel — **100% wins**, crossing the genuine fresh-body transition in **99.04%** of stress runs with no spent-Prime restoration;
+- legal Last Sentinel → 2 full normal rounds → Last Convergence chain — **100% wins / median 15 total rounds**, improving resource preservation without erasing encounter duration;
+- completionist Lv48–49 no-Prime median — **12 rounds**;
+- all HP/raw stats/Powers, Demolition Breaker, Exposed Rhazek, and Prime persistence rules retained.
 
 Current next anchor:
-> **Commander Rhazek — Reforged Commander → Bastion Devourer — Chapter 9 / mandatory Lv40 / completionist Lv49**
+> **Emperor Vaelkor Draeven — Emperor of the Reforged Host → Sovereign Panoply Unbound — Chapter 12 / mandatory Lv56 / completionist Lv66**
 
-Rhazek → Bastion Devourer testing must use:
+Vaelkor testing must use:
+- exact Chapter-12 party/class state and legal equipment/reward access;
 - current fixed turn-entry initiative;
-- current Awakened Prime sequencing;
-- current one-use-until-restored Prime economy;
-- the genuine fresh Bastion Devourer body **not** restoring spent Prime identities;
-- the separate 2-full-normal-round post-dismissal Prime spacing rule;
-- current percentage temporary-stat rules and current status conversions;
-- current class/ability/Card definitions at the exact Chapter-9 story point.
+- current one-use-until-restored Awakened Prime economy;
+- genuine fresh Sovereign Panoply body **not** restoring spent Prime identities;
+- separate 2-full-normal-round post-dismissal spacing;
+- Sovereign Overrun's protected one-round Preparation;
+- Final Sovereignty's same-bar 25% state;
+- current percentage temporary-stat, status-conversion, Bleed-escalation, Card, summon, and class rules.
 
 Each tested boss must have:
 - exact story point / Player Level;
@@ -38,7 +47,7 @@ Each tested boss must have:
 - starting HP/MP;
 - full action-by-action resource/status/phase record.
 
-The full representative suite should include early, midgame, transformation/fresh-form, late mandatory, final mandatory, and completionist-superboss representatives.
+The remaining representative suite should cover Vaelkor, the final mandatory boss, and The Unfinished World. Calder → Crown-Bound Living Anchor remains a useful optional added representative if the suite needs a dedicated support-object/fresh-body case before Vaelkor.
 
 ### Enemy static/paper work
 Status:
