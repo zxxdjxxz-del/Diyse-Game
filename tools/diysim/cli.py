@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+from dataclasses import asdict
 import json
 
 from .battle import simulate_advanced
@@ -14,6 +15,10 @@ from .core import (
     natural_stats,
     simulate,
     sweep_enemy_stats,
+)
+from .encounters.story_bosses.hollow_watch_castellan import (
+    SmartPolicyConfig,
+    simulate_hollow_watch_smart,
 )
 from .io import load_advanced_scenario, load_progression_route, load_scenario
 from .progression import project_progression, required_average_exp_per_encounter
@@ -69,6 +74,20 @@ def build_parser() -> argparse.ArgumentParser:
     advanced.add_argument("--runs", type=int, default=10_000)
     advanced.add_argument("--seed", type=int, default=1)
 
+    hollow_watch = sub.add_parser(
+        "hollow-watch",
+        help="run the authored Hollow Watch Castellan smart-policy benchmark",
+    )
+    hollow_watch.add_argument("--ruleset", choices=("current", "v93_oracle"), default="current")
+    hollow_watch.add_argument("--runs", type=int, default=20_000)
+    hollow_watch.add_argument("--seed", type=int, default=93)
+    hollow_watch.add_argument(
+        "--heal-trigger",
+        type=float,
+        default=0.55,
+        help="regression-policy HP fraction for Ilyra healing; not combat canon",
+    )
+
     sweep = sub.add_parser("sweep", help="sweep enemy HP/ATK/DEF multipliers")
     sweep.add_argument("scenario")
     sweep.add_argument("--hp", type=_csv_floats, default=[1.0])
@@ -123,6 +142,14 @@ def main(argv: list[str] | None = None) -> int:
     elif args.command == "simulate-advanced":
         summary = simulate_advanced(load_advanced_scenario(args.scenario), runs=args.runs, seed=args.seed)
         print(json.dumps(summary.as_dict(), indent=2))
+    elif args.command == "hollow-watch":
+        summary = simulate_hollow_watch_smart(
+            ruleset=args.ruleset,
+            policy=SmartPolicyConfig(heal_trigger_hp_fraction=args.heal_trigger),
+            runs=args.runs,
+            seed=args.seed,
+        )
+        print(json.dumps(asdict(summary), indent=2))
     elif args.command == "sweep":
         rows = sweep_enemy_stats(
             load_scenario(args.scenario),
