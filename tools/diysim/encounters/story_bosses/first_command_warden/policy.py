@@ -7,7 +7,12 @@ import re
 
 from tools.diysim.combat.basic_attack import basic_attack_action
 from tools.diysim.combat.models import CombatAction, CombatUnit, StatusRider
-from tools.diysim.sources import SourceGapError, load_ability_source, parse_authored_action_text
+from tools.diysim.sources import (
+    SourceGapError,
+    load_ability_source,
+    parse_authored_action_text,
+    read_repo_text,
+)
 
 
 @dataclass(frozen=True)
@@ -72,11 +77,10 @@ def _mend(*, root: Path | None = None) -> CombatAction:
         raise SourceGapError("Blue Warden / Mend lacks fixed MP authority")
     hp = re.search(r"(\d+)% target Max HP", source.owner_effect, re.I)
     magic = re.search(r"([0-9.]+)\s*[×x]\s*Ilyra", source.owner_effect, re.I)
-    if not (hp and magic):
-        raise SourceGapError("Blue Warden / Mend lacks exact healing formula")
-    # Chapter-3 Ilyra is beyond CL3, so current automatic Gentle Hands applies.
-    # The +10% value is owned by BLUE_WARDEN.md and should be generalized if a
-    # later policy needs arbitrary class-level mastery resolution.
+    owner_text = read_repo_text(source.owner_path, root=root)
+    gentle_hands = re.search(r"Gentle Hands[^\n]*Mend gains \+(\d+)% healing potency", owner_text, re.I)
+    if not (hp and magic and gentle_hands):
+        raise SourceGapError("Blue Warden / Mend lacks exact Chapter-3 healing/mastery authority")
     return CombatAction(
         name="Mend",
         action_kind="heal",
@@ -85,7 +89,7 @@ def _mend(*, root: Path | None = None) -> CombatAction:
         target_scope="one",
         heal_max_hp_percent=int(hp.group(1)) / 100.0,
         heal_magic_scaling=float(magic.group(1)),
-        healing_potency=1.10,
+        healing_potency=1.0 + int(gentle_hands.group(1)) / 100.0,
     )
 
 
