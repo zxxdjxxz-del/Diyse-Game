@@ -1,8 +1,8 @@
 """Build Hollow Watch simulation inputs from authoritative repo files.
 
 No Diyse numeric canon is stored here. Encounter-specific parsing is limited to
-Hollow Watch itself; class Abilities and Traits are resolved through shared
-repository source adapters.
+Hollow Watch itself; class Abilities, Traits, and Maevra's recovered guest kit
+are resolved through repository source files.
 """
 from __future__ import annotations
 from dataclasses import dataclass
@@ -18,6 +18,7 @@ from tools.diysim.sources.traits import load_trait_source
 
 BOSS_PATH = "docs/09_ENEMIES_AND_ENCOUNTERS/STORY_BOSSES/HOLLOW_WATCH_CASTELLAN.md"
 TRUE_BATTLE_PATH = "docs/16_BALANCE_AND_TESTING/TRUE_BATTLES/HOLLOW_WATCH_CASTELLAN_TRUE_BATTLE_v93.md"
+MAEVRA_COMBAT_PATH = "docs/16_BALANCE_AND_TESTING/BALANCE/MAEVRA_GUEST_COMBAT_REFERENCE.md"
 
 
 @dataclass(frozen=True)
@@ -77,10 +78,10 @@ def _party_from_true_battle(text: str) -> dict[str, Combatant]:
 
 
 def _power(effect: str, ability: str) -> int:
-    match = re.search(r"\b(\d+)\s+Power\b", effect)
+    match = re.search(r"(?:\bPower\s*(?:\*\*)?(\d+)|\b(\d+)\s+Power\b)", effect, re.I)
     if not match:
         raise SourceGapError(f"Missing explicit Power for {ability}")
-    return int(match.group(1))
+    return int(match.group(1) or match.group(2))
 
 
 def _damage_type_and_element(text: str, label: str) -> tuple[str, str]:
@@ -94,48 +95,82 @@ def _damage_type_and_element(text: str, label: str) -> tuple[str, str]:
     return match.group(1).lower(), match.group(2).lower()
 
 
-def _find_action_line(text: str, name: str) -> str:
+def _find_action_block(text: str, name: str) -> str:
+    """Return a complete action block from current heading or legacy bold forms."""
+    heading = re.search(
+        rf"^(?P<marks>#{{2,6}})\s+(?:\*\*)?{re.escape(name)}(?:\*\*)?\s*$",
+        text,
+        re.I | re.M,
+    )
+    if heading:
+        level = len(heading.group("marks"))
+        later = re.search(rf"^#{{2,{level}}}\s+", text[heading.end():], re.M)
+        end = heading.end() + later.start() if later else len(text)
+        return text[heading.end():end].strip()
+
     patterns = (
-        rf"\*\*{re.escape(name)}\*\*\s*\n-\s*([^\n]+)",
-        rf"-\s*\*\*{re.escape(name)}\*\*\s*[—-]\s*([^\n]+)",
+        rf"\*\*{re.escape(name)}\*\*\s*\n(?P<body>(?:-\s*[^\n]+\n?)+)",
+        rf"-\s*\*\*{re.escape(name)}\*\*\s*[—-]\s*(?P<body>[^\n]+)",
     )
     for pattern in patterns:
-        match = re.search(pattern, text)
+        match = re.search(pattern, text, re.I)
         if match:
-            return match.group(1)
-    raise SourceGapError(f"Missing exact action line for {name}")
+            return match.group("body").strip()
+    raise SourceGapError(f"Missing exact action block for {name}")
 
 
-def _linebreaker_pattern() -> re.Pattern[str]:
-    return re.compile(
-        r"Linebreaker(?: Thrust)?[^\n]{0,220}?Power\s*\*\*(\d+)\*\*[^\n]{0,220}?(\d+)%\s+Defense penetration[^\n]{0,220}?(\d+)\s*MP",
-        re.I,
+def _linebreaker_from_repo(maevra_text: str) -> CombatAction:
+    rows = extract_markdown_table(maevra_text, "Current working ability kit")
+    row = next((candidate for candidate in rows if candidate.get("Ability") == "Linebreaker Thrust"), None)
+    if row is None:
+        raise SourceGapError(f"{MAEVRA_COMBAT_PATH} lacks Linebreaker Thrust")
+
+    effect = row.get("Effect", "")
+    kind, element = _damage_type_and_element(effect, "Linebreaker Thrust")
+    penetration = re.search(r"(\d+)%\s+Defense penetration", effect, re.I)
+    if not penetration:
+        raise SourceGapError("Linebreaker Thrust lacks exact Defense penetration")
+
+    return CombatAction(
+        "Linebreaker Thrust",
+        mp_cost=parse_int(row["MP"]),
+        damage_kind=kind,
+        element=element,
+        power=_power(effect, "Linebreaker Thrust"),
+        defense_penetration=int(penetration.group(1)) / 100.0,
     )
 
 
 def collect_hollow_watch_source_gaps(*, root: Path | None = None) -> tuple[str, ...]:
     """Return every currently detectable authority gap needed by this adapter."""
     boss_text = read_repo_text(BOSS_PATH, root=root)
-    true_text = read_repo_text(TRUE_BATTLE_PATH, root=root)
+    maevra_text = read_repo_text(MAEVRA_COMBAT_PATH, root=root)
     gaps: list[str] = []
 
-    if not _linebreaker_pattern().search(boss_text + "\n" + true_text):
-        gaps.append(
-            "Maevra Linebreaker: exact current Power / Defense penetration / MP owner definition is missing"
-        )
+    try:
+        _linebreaker_from_repo(maevra_text)
+    except SourceGapError as exc:
+        gaps.append(str(exc))
 
-    for action_name in ("Fortress Slam", "Iron Pursuit", "Wall-Shear Sweep"):
+    for action_name in ("Wallbound Strike", "Bastion Sweep", "Fortress Slam", "Iron Pursuit", "Wall-Shear Sweep"):
         try:
-            line = _find_action_line(boss_text, action_name)
+            block = _find_action_block(boss_text, action_name)
+            _damage_type_and_element(block, action_name)
+            _power(block, action_name)
+            if not re.search(r"Base Hit\s*(?:\*\*)?(\d+)", block, re.I):
+                raise SourceGapError(f"Missing Base Hit for {action_name}")
+            if not re.search(r"(?:\*\*)?(\d+) weight(?:\*\*)?", block, re.I):
+                raise SourceGapError(f"Missing selection weight for {action_name}")
         except SourceGapError as exc:
             gaps.append(str(exc))
-            continue
+
+    for heading in ("Fortress Ballista", "Watch Seal"):
         try:
-            _damage_type_and_element(line, action_name)
-        except SourceGapError:
-            gaps.append(
-                f"{action_name}: exact current damage type / element is not stated in its owner action line"
-            )
+            row = extract_markdown_table(boss_text, heading)[0]
+            parse_int(row["EVA"])
+            parse_int(row["SR"])
+        except (IndexError, KeyError, ValueError) as exc:
+            gaps.append(f"{heading}: incomplete EVA/SR target authority ({exc})")
 
     return tuple(gaps)
 
@@ -150,40 +185,28 @@ def _raise_preflight_gaps(*, root: Path | None = None) -> None:
 
 
 def _enemy_action(text: str, name: str) -> CombatAction:
-    line = _find_action_line(text, name)
-    power = re.search(r"Power\s*\*\*(\d+)\*\*", line)
-    hit = re.search(r"Base Hit\s*\*\*(\d+)\*\*", line)
-    weight = re.search(r"\*\*(\d+) weight\*\*", line)
-    if not (power and hit and weight):
+    block = _find_action_block(text, name)
+    hit = re.search(r"Base Hit\s*(?:\*\*)?(\d+)", block, re.I)
+    weight = re.search(r"(?:\*\*)?(\d+) weight(?:\*\*)?", block, re.I)
+    if not (hit and weight):
         raise SourceGapError(f"Incomplete action authority for {name}")
-    kind, element = _damage_type_and_element(line, name)
-    riders: tuple[StatusRider, ...] = ()
-    staggered = re.search(r"\*\*(\d+)% base Staggered\*\*", line)
-    if staggered:
-        riders = (StatusRider("staggered", int(staggered.group(1))),)
+    kind, element = _damage_type_and_element(block, name)
+    riders: list[StatusRider] = []
+    for chance, status in re.findall(
+        r"(?:\*\*)?(\d+)%\s+(?:base\s+)?(Burn|Freeze|Stun|Staggered|Bleed)(?:\*\*)?",
+        block,
+        re.I,
+    ):
+        riders.append(StatusRider(status.lower(), int(chance)))
     return CombatAction(
         name,
-        target_scope="all" if "all conscious" in line else "one",
+        target_scope="all" if re.search(r"all conscious", block, re.I) else "one",
         damage_kind=kind,
         element=element,
-        power=int(power.group(1)),
+        power=_power(block, name),
         base_hit=int(hit.group(1)),
         weight=int(weight.group(1)),
-        status_riders=riders,
-    )
-
-
-def _linebreaker_from_repo(boss_text: str, true_battle_text: str) -> CombatAction:
-    explicit = _linebreaker_pattern().search(boss_text + "\n" + true_battle_text)
-    if not explicit:
-        raise SourceGapError("Maevra Linebreaker owner definition is missing")
-    return CombatAction(
-        "Linebreaker Thrust",
-        mp_cost=int(explicit.group(3)),
-        damage_kind="physical",
-        element="neutral",
-        power=int(explicit.group(1)),
-        defense_penetration=int(explicit.group(2)) / 100.0,
+        status_riders=tuple(riders),
     )
 
 
@@ -206,6 +229,7 @@ def load_hollow_watch_repo_data(*, root: Path | None = None) -> HollowWatchRepoD
 
     boss_text = read_repo_text(BOSS_PATH, root=root)
     true_text = read_repo_text(TRUE_BATTLE_PATH, root=root)
+    maevra_text = read_repo_text(MAEVRA_COMBAT_PATH, root=root)
     party = _party_from_true_battle(true_text)
 
     boss_row = extract_markdown_table(boss_text, "Castellan raw line")[0]
@@ -217,15 +241,23 @@ def load_hollow_watch_repo_data(*, root: Path | None = None) -> HollowWatchRepoD
         status_resistance=parse_int(boss_row["SR"]),
         rank="major_boss",
     )
+
+    ballista_row = extract_markdown_table(boss_text, "Fortress Ballista")[0]
     ballista = Combatant(
         "Fortress Ballista",
         "enemy",
-        _stats_from_row(extract_markdown_table(boss_text, "Fortress Ballista")[0]),
+        _stats_from_row(ballista_row),
+        evasion=parse_int(ballista_row["EVA"]),
+        status_resistance=parse_int(ballista_row["SR"]),
     )
+
+    seal_row = extract_markdown_table(boss_text, "Watch Seal")[0]
     watch_seal = Combatant(
         "Watch Seal",
         "enemy",
-        _stats_from_row(extract_markdown_table(boss_text, "Watch Seal")[0]),
+        _stats_from_row(seal_row),
+        evasion=parse_int(seal_row["EVA"]),
+        status_resistance=parse_int(seal_row["SR"]),
     )
 
     crest_source = load_ability_source("Crest Strike", class_name="Crest Knight", root=root)
@@ -264,21 +296,17 @@ def load_hollow_watch_repo_data(*, root: Path | None = None) -> HollowWatchRepoD
         clear_harmful_statuses=1,
     )
 
-    heavy_section = re.search(r"### Heavy Bolt([\s\S]*?)(?=\n## )", boss_text)
-    if not heavy_section:
-        raise SourceGapError("Missing Heavy Bolt section")
-    heavy_text = heavy_section.group(1)
+    heavy_text = _find_action_block(boss_text, "Heavy Bolt")
     heavy_kind, heavy_element = _damage_type_and_element(heavy_text, "Heavy Bolt")
-    heavy_power = re.search(r"Power \*\*(\d+)\*\*", heavy_text)
-    heavy_hit = re.search(r"Base Hit \*\*(\d+)\*\*", heavy_text)
-    heavy_bleed = re.search(r"\*\*(\d+)% base Bleed\*\*", heavy_text)
-    if not (heavy_power and heavy_hit and heavy_bleed):
+    heavy_hit = re.search(r"Base Hit\s*(?:\*\*)?(\d+)", heavy_text, re.I)
+    heavy_bleed = re.search(r"(?:\*\*)?(\d+)% base Bleed(?:\*\*)?", heavy_text, re.I)
+    if not (heavy_hit and heavy_bleed):
         raise SourceGapError("Incomplete Heavy Bolt authority in repo")
     heavy_bolt = CombatAction(
         "Fire Heavy Bolt",
         damage_kind=heavy_kind,
         element=heavy_element,
-        power=int(heavy_power.group(1)),
+        power=_power(heavy_text, "Heavy Bolt"),
         base_hit=int(heavy_hit.group(1)),
         status_riders=(StatusRider("bleed", int(heavy_bleed.group(1))),),
     )
@@ -310,8 +338,8 @@ def load_hollow_watch_repo_data(*, root: Path | None = None) -> HollowWatchRepoD
     locked = frozenset(
         action.name
         for action in (*fortress, *walking)
-        if "cannot be selected on consecutive" in _find_action_line(boss_text, action.name)
-        or "cannot repeat consecutively" in _find_action_line(boss_text, action.name)
+        if "cannot be selected on consecutive" in _find_action_block(boss_text, action.name)
+        or "cannot repeat consecutively" in _find_action_block(boss_text, action.name)
     )
 
     return HollowWatchRepoData(
@@ -325,7 +353,7 @@ def load_hollow_watch_repo_data(*, root: Path | None = None) -> HollowWatchRepoD
         resonant_pulse=resonant_pulse,
         mend=mend,
         clear_warding=clear_warding,
-        linebreaker_thrust=_linebreaker_from_repo(boss_text, true_text),
+        linebreaker_thrust=_linebreaker_from_repo(maevra_text),
         fortress_actions=fortress,
         walking_actions=walking,
         heavy_bolt=heavy_bolt,
