@@ -120,20 +120,32 @@ def _parse_damage_identity(raw_text: str) -> tuple[str | None, str | None, str |
     if match:
         damage_kind = match.group(1).lower()
         remainder = match.group(2).strip()
+
+        compact_weighted = re.match(
+            r"^(Neutral|Colorless|Fire|Ice|Lightning|Earth|Ruin)(\d{1,3})/(\d{1,3})\b",
+            remainder,
+            re.I,
+        )
+        if compact_weighted:
+            return (
+                damage_kind,
+                compact_weighted.group(1).lower(),
+                "fixed",
+                None,
+                int(compact_weighted.group(2)) / 100.0,
+                int(compact_weighted.group(3)) / 100.0,
+            )
+
         parts = [part.strip() for part in re.split(r"\s*/\s*", remainder) if part.strip()]
         element_token = parts[0].strip().strip("*.,:;—- ") if parts else ""
 
         fixed = re.fullmatch(
-            r"(Neutral|Colorless|Fire|Ice|Lightning|Earth|Ruin)(?:(\d{1,3})/(\d{1,3}))?",
+            r"(Neutral|Colorless|Fire|Ice|Lightning|Earth|Ruin)",
             element_token,
             re.I,
         )
         if fixed:
-            element = fixed.group(1).lower()
-            if fixed.group(2) is not None and fixed.group(3) is not None:
-                physical_weight = int(fixed.group(2)) / 100.0
-                magical_weight = int(fixed.group(3)) / 100.0
-            return damage_kind, element, "fixed", None, physical_weight, magical_weight
+            return damage_kind, fixed.group(1).lower(), "fixed", None, physical_weight, magical_weight
 
         dynamic_source = _normalize_dynamic_element_source(element_token)
         if dynamic_source is not None:
@@ -152,8 +164,6 @@ def _parse_damage_identity(raw_text: str) -> tuple[str | None, str | None, str |
     if damage_kind is not None and dynamic_source is not None:
         return damage_kind, None, "dynamic", dynamic_source, physical_weight, magical_weight
 
-    # The damage axis can still be authored even when the element identity uses
-    # syntax the parser does not understand yet. Never guess the element.
     return damage_kind, None, None, None, physical_weight, magical_weight
 
 
@@ -189,7 +199,6 @@ def _parse_target_scope(raw_text: str) -> str | None:
         return "all"
     if has_one and not has_all:
         return "one"
-    # Both means the owning section describes conditional/variant targeting.
     return None
 
 
