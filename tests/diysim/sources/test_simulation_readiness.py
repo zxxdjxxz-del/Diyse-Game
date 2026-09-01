@@ -62,3 +62,21 @@ def test_supported_bounded_replays_do_not_require_a_fixed_target_scope() -> None
         if issue.subject in replay_subjects and issue.code == "target_scope_unresolved"
     ]
     assert inherited_target_gaps == []
+
+
+def test_complete_functional_analogue_system_resolves_warden_variant_headings() -> None:
+    report = audit_simulation_readiness()
+    analogue_subjects = {
+        "Recorded Physical Analogue",
+        "Recorded Magical Analogue",
+        "Recorded Hybrid Analogue",
+        "Recorded Analogue",
+    }
+
+    analogue_gaps = [
+        issue
+        for issue in report.parser_gaps
+        if issue.subject in analogue_subjects
+        and issue.path.endswith("FIRST_COMMAND_WARDEN.md")
+    ]
+    assert analogue_gaps == []
