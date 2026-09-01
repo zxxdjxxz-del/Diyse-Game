@@ -1,5 +1,7 @@
 """Sectioned combat primitives for the Diyse balance simulator."""
 
+from .criticals import BASE_CRIT_CHANCE, CRIT_CHANCE_CAP, CRIT_MULTIPLIER
+from .damage import PENETRATION_CAP, direct_damage, magical_damage, physical_damage
 from .derived_stats import (
     effective_attack,
     effective_defense,
@@ -15,6 +17,7 @@ from .elements import (
     linked_status_affinity_modifier,
 )
 from .healing import healing_amount
+from .hit_evasion import MAX_HIT_CHANCE, MIN_HIT_CHANCE, adjusted_hit_chance
 from .models import (
     BASIC_ATTACK,
     ActionKind,
@@ -33,6 +36,15 @@ from .models import (
     TargetSide,
 )
 from .mp import resolve_mp_cost
+from .simple_runtime import (
+    ActionProfile,
+    BattleOutcome,
+    BattleScenario,
+    CombatantTemplate,
+    SimulationSummary,
+    run_battle,
+    simulate,
+)
 from .statuses import (
     BLEED_ESCALATED_RATE,
     BLEED_INITIAL_RATE,
@@ -47,29 +59,42 @@ from .statuses import (
 __all__ = [
     "AFFINITY_DAMAGE_MULTIPLIERS",
     "ActionKind",
+    "ActionProfile",
     "ActiveStatus",
     "Affinity",
+    "BASE_CRIT_CHANCE",
     "BASIC_ATTACK",
     "BLEED_ESCALATED_RATE",
     "BLEED_INITIAL_RATE",
     "BURN_RATE",
+    "BattleOutcome",
+    "BattleScenario",
+    "CRIT_CHANCE_CAP",
+    "CRIT_MULTIPLIER",
     "CombatAction",
     "CombatUnit",
     "Combatant",
+    "CombatantTemplate",
     "DamageKind",
     "Element",
     "FREEZE_MAX_AFFECTED_ROUNDS",
     "LINKED_STATUS",
+    "MAX_HIT_CHANCE",
+    "MIN_HIT_CHANCE",
+    "PENETRATION_CAP",
     "Rank",
     "STAGGERED_ROUNDS",
     "STUN_LOSS_CHANCE",
     "Side",
+    "SimulationSummary",
     "StatusName",
     "StatusRider",
     "TargetScope",
     "TargetSide",
+    "adjusted_hit_chance",
     "affinity_damage_multiplier",
     "apply_status",
+    "direct_damage",
     "effective_attack",
     "effective_defense",
     "effective_magic",
@@ -78,6 +103,10 @@ __all__ = [
     "element_affinity",
     "healing_amount",
     "linked_status_affinity_modifier",
+    "magical_damage",
+    "physical_damage",
     "resolve_mp_cost",
+    "run_battle",
+    "simulate",
     "status_application_chance",
 ]
