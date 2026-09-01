@@ -3,7 +3,8 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Literal
 
-from ..core import BASE_CRIT_CHANCE, Stats
+from ..progression.stats import Stats
+from .criticals import BASE_CRIT_CHANCE
 
 Side = Literal["party", "enemy"]
 DamageKind = Literal["physical", "magical", "hybrid"]
