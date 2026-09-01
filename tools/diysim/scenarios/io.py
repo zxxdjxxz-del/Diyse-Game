@@ -1,6 +1,7 @@
 """JSON loaders for synthetic/test battle scenarios.
 
 Real Diyse encounters should use repo-backed encounter adapters, not copied JSON.
+Omitted actions/weights remain omitted; runtime source/policy fallbacks decide them.
 """
 from __future__ import annotations
 
@@ -33,13 +34,13 @@ def _action(data: dict[str, Any]) -> ActionProfile:
         spirit_penetration=float(data.get("spirit_penetration", 0)),
         physical_weight=_optional_float(data, "physical_weight"),
         magical_weight=_optional_float(data, "magical_weight"),
-        weight=float(data.get("weight", 1)),
+        weight=_optional_float(data, "weight"),
     )
 
 
 def _combatant(data: dict[str, Any], side: str) -> CombatantTemplate:
     stats = Stats(**{key: int(data["stats"][key]) for key in ("hp", "mp", "attack", "magic", "defense", "spirit", "speed")})
-    actions = tuple(_action(action) for action in data.get("actions", [{"name": "Attack"}]))
+    actions = tuple(_action(action) for action in data.get("actions", []))
     return CombatantTemplate(
         name=data["name"],
         side=side,
@@ -90,7 +91,7 @@ def _advanced_action(data: dict[str, Any]) -> CombatAction:
         healing_potency=float(data.get("healing_potency", 1)),
         clear_harmful_statuses=data.get("clear_harmful_statuses", 0),
         status_riders=tuple(_status_rider(rider) for rider in data.get("status_riders", [])),
-        weight=float(data.get("weight", 1)),
+        weight=_optional_float(data, "weight"),
     )
 
 
@@ -100,7 +101,7 @@ def _advanced_combatant(data: dict[str, Any], side: str) -> Combatant:
         name=data["name"],
         side=side,
         stats=stats,
-        actions=tuple(_advanced_action(action) for action in data.get("actions", [{"name": "Attack"}])),
+        actions=tuple(_advanced_action(action) for action in data.get("actions", [])),
         evasion=int(data.get("evasion", 0)),
         direct_damage_reduction=float(data.get("direct_damage_reduction", 0)),
         rank=data.get("rank", "ordinary"),
