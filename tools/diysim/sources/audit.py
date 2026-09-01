@@ -8,6 +8,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from .abilities import load_ability_registry, load_ability_source
+from .actors import load_enemy_registry
 from .combat import load_combat_rules
 from .progression import load_progression_rules
 from .repo import RepoSourceError, find_repo_root
@@ -31,6 +32,7 @@ class SourceAuditReport:
     ability_entries: int
     ability_sources_resolved: int
     trait_packages: int
+    enemy_registry_entries: int
     issues: tuple[SourceAuditIssue, ...]
 
     @property
@@ -45,6 +47,7 @@ class SourceAuditReport:
             "ability_entries": self.ability_entries,
             "ability_sources_resolved": self.ability_sources_resolved,
             "trait_packages": self.trait_packages,
+            "enemy_registry_entries": self.enemy_registry_entries,
             "issues": [issue.as_dict() for issue in self.issues],
         }
 
@@ -103,12 +106,19 @@ def audit_repo_sources(*, root: Path | None = None) -> SourceAuditReport:
     except RepoSourceError as exc:
         issues.append(SourceAuditIssue("trait", "register", str(exc)))
 
+    enemy_registry_entries = 0
+    try:
+        enemy_registry_entries = len(load_enemy_registry(root=repo))
+    except RepoSourceError as exc:
+        issues.append(SourceAuditIssue("enemy", "master register", str(exc)))
+
     return SourceAuditReport(
         progression_loaded=progression_loaded,
         combat_loaded=combat_loaded,
         ability_entries=ability_entries,
         ability_sources_resolved=ability_sources_resolved,
         trait_packages=trait_packages,
+        enemy_registry_entries=enemy_registry_entries,
         issues=tuple(issues),
     )
 
