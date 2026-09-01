@@ -5,20 +5,24 @@
 ## Current status
 The core Auren/reward economy is now substantially closed.
 
-### Newly promoted / closed
+### Promoted / closed
 - full Ch1–13 ordinary-formation Auren bands;
 - exact ordinary-formation payout ledger across the current formation spine;
-- mandatory-route Auren envelope and chapter non-battle budgets;
+- mandatory-route Auren envelope;
 - exact mandatory story-boss Auren;
 - exact optional-Elite Auren;
 - exact five ordinary Side Quest economic packages;
 - exact six Character Quest economic add-ons;
 - exact 11 Regional Hunt Auren payouts;
 - exact 6 Major Hunt Auren payouts;
+- exact **8,080-Auren mandatory non-battle delivery map**;
+- exact mandatory direct-currency/requisition/cache chapter placements and values;
 - normal-stock Consumable resale values;
 - reward-only Consumables are non-sellable;
 - Kessara Relic-copy service fee = **600 Auren per successful copy**;
-- fixed authored non-boss event Auren handling / duplicate-body firewall.
+- fixed authored non-boss event Auren handling / duplicate-body firewall;
+- ordinary enemies have **no random Consumable/equipment/material/junk drops**;
+- Regional Market spine = **exactly 9**.
 
 Current calibration:
 - expected mandatory route: approximately **30,127 Auren**;
@@ -28,15 +32,12 @@ Current calibration:
 - 18 currently authored Relic-copy opportunities can absorb up to **10,800 Auren** in Kessara service fees if all are used.
 
 ## Still open
-1. exact in-world delivery/placement of the **8,080-Auren mandatory non-battle chapter budget**;
-2. exact direct-currency chest/cache placement and values within those chapter budgets;
-3. story-placement-dependent special authored encounters whose reward cannot be assigned until their scene role is finalized;
-4. formal synchronization of the current working **9 Regional Markets** count and several vendor NPC presentations;
-5. decision/placement for any additional finite Reservoir Tonic / Emergency Kit / Emergency Rally copies;
-6. whether ordinary enemies have any random Consumable-drop probabilities at all; if retained, exact probabilities;
-7. Auren icon/symbol/glyph;
-8. runtime shop IDs, stock-table schema, save persistence, and price UI formatting;
-9. Kessara copy-menu unlock timing / original-vs-copy UI presentation.
+1. story-placement-dependent special authored encounters whose reward cannot be assigned until their scene role is finalized;
+2. exact vendor NPC identity/presentation for several endpoints;
+3. decision/placement for any additional finite Reservoir Tonic / Emergency Kit / Emergency Rally copies;
+4. Auren icon/symbol/glyph;
+5. runtime shop IDs, stock-table schema, save persistence, and price UI formatting;
+6. Kessara copy-menu unlock timing / original-vs-copy UI presentation.
 
 ## Locked boundaries
 - currency = Auren;
