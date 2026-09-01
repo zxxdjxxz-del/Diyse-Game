@@ -11,6 +11,7 @@ def test_repo_source_audit_resolves_current_core_authority() -> None:
 
     assert report.progression_loaded
     assert report.combat_loaded
+    assert report.enemy_system_loaded
     assert report.ability_entries == len(load_ability_registry())
     assert report.ability_sources_resolved == report.ability_entries
     assert report.trait_packages == len(load_trait_registry())
