@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from functools import lru_cache
 from pathlib import Path
 import re
 
@@ -93,7 +94,9 @@ def _mend(*, root: Path | None = None) -> CombatAction:
     )
 
 
+@lru_cache(maxsize=4)
 def load_warden_party_actions(*, root: Path | None = None) -> WardenPartyActions:
+    """Parse the immutable v105 player-action package once per source root."""
     return WardenPartyActions(
         crest_strike=_direct_action("Crest Strike", "Crest Knight", root=root),
         wardens_valor=_direct_action("Warden's Valor", "Blue Warden", root=root),
