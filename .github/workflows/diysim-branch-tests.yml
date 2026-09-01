@@ -24,6 +24,16 @@ jobs:
       - name: Run DiySim tests
         run: python -m pytest -q tests/diysim
 
+      - name: Print Hollow Watch smart-line diagnostic
+        run: |
+          python - <<'PY'
+          import json
+          from dataclasses import asdict
+          from tools.diysim.encounters.story_bosses.hollow_watch_castellan import simulate_hollow_watch_smart
+          summary = simulate_hollow_watch_smart(runs=20_000, seed=93)
+          print(json.dumps(asdict(summary), indent=2, sort_keys=True))
+          PY
+
       - name: Print simulation readiness summary
         run: python -m tools.diysim.cli audit-readiness --summary-only
 
