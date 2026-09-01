@@ -10,13 +10,14 @@ from ..progression.stats import Stats
 
 Side = Literal["party", "enemy"]
 DamageKind = Literal["physical", "magical", "hybrid"]
-ActionKind = Literal["damage", "heal"]
+ActionKind = Literal["damage", "heal", "effect"]
 TargetSide = Literal["enemy", "ally", "self"]
 TargetScope = Literal["one", "all"]
 Rank = Literal["ordinary", "regional_hunt", "major_boss"]
 Element = Literal["neutral", "colorless", "fire", "ice", "lightning", "earth", "ruin"]
 Affinity = Literal["weak", "neutral", "resistant", "strongly_resistant", "immune"]
 StatusName = Literal["burn", "freeze", "stun", "staggered", "bleed"]
+CoreStatName = Literal["attack", "magic", "defense", "spirit", "speed"]
 
 
 @dataclass(frozen=True)
@@ -32,12 +33,21 @@ class TemporaryModifierSpec:
     effect_id: str
     duration_rounds: int
     status_resistance_flat: int = 0
+    attack_percent: float = 0.0
+    magic_percent: float = 0.0
+    defense_percent: float = 0.0
+    spirit_percent: float = 0.0
+    speed_percent: float = 0.0
+    base_hit_flat: int = 0
+    direct_damage_reduction: float = 0.0
 
     def __post_init__(self) -> None:
         if not self.effect_id:
             raise ValueError("effect_id is required")
         if self.duration_rounds < 1:
             raise ValueError("duration_rounds must be positive")
+        if not 0.0 <= self.direct_damage_reduction <= 1.0:
+            raise ValueError("direct_damage_reduction must be between 0 and 1")
 
 
 @dataclass
@@ -45,6 +55,13 @@ class ActiveTemporaryModifier:
     effect_id: str
     remaining_rounds: int
     status_resistance_flat: int = 0
+    attack_percent: float = 0.0
+    magic_percent: float = 0.0
+    defense_percent: float = 0.0
+    spirit_percent: float = 0.0
+    speed_percent: float = 0.0
+    base_hit_flat: int = 0
+    direct_damage_reduction: float = 0.0
 
 
 @dataclass(frozen=True)
@@ -64,6 +81,7 @@ class CombatAction:
     physical_weight: float | None = None
     magical_weight: float | None = None
     final_damage_multiplier: float = 1.0
+    heal_flat: int = 0
     heal_max_hp_percent: float = 0.0
     heal_magic_scaling: float = 0.0
     healing_potency: float = 1.0
