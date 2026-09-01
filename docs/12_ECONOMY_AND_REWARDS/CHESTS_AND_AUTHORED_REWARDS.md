@@ -1,9 +1,6 @@
 # Diyse — Chests & Authored Rewards
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicitly accepted v85 tracker-level economy closures.  
-**Frozen provenance source:** `Diyse_Item_Equipment_Catalog_Economy_Audit_ARCHIVE_FULL_v603.md` only where later authority does not supersede it.  
-**Domain rule:** `12_ECONOMY_AND_REWARDS` owns Auren denomination, purchase/replacement prices, sell rules, normal-stock progression, commerce endpoint roles, reward-value/scarcity rules, and non-EXP reward handoffs. Item definitions remain in `08`; enemy bodies remain in `09`; EXP/CEXP remain in `10`; quest structure remains in `11`.
 
+**Status:** CURRENT AUTHORED-REWARD / DIRECT-AUREN PLACEMENT AUTHORITY
 
 ## Reward-source principle
 Exploration rewards should not be flattened into cash.
@@ -15,7 +12,7 @@ Useful authored reward channels include:
 - Forge Components;
 - Legacy precursors/components;
 - Cards;
-- direct Auren chests where appropriate.
+- direct Auren caches / requisition credits where appropriate.
 
 ## Found ordinary equipment
 A found/guaranteed ordinary equipment piece carries two values:
@@ -24,10 +21,48 @@ A found/guaranteed ordinary equipment piece carries two values:
 
 It should not receive an extra cash payout merely to match a shop item's visible price.
 
-## Direct-currency chests
-Direct Auren chests may exist, but current exact chapter-by-chapter chest amounts are not comprehensively certified here.
+## Mandatory direct-Auren reward map — CLOSED
+The exact mandatory non-battle Auren layer is now authored in:
+> `MANDATORY_NONBATTLE_AUREN_BUDGET.md`
 
-Do not convert old broad chest-value proposals into hard placements without a separate reward-map pass.
+Total:
+> **8,080 Auren**
+
+The map closes:
+- chapter allocation;
+- mandatory-route location/context;
+- delivery channel;
+- exact Auren amount.
+
+Not every delivery is a literal chest. Valid presentations include:
+- requisition credit;
+- secured hostile operational reserve;
+- liberated military reserve;
+- administrative/expedition funds;
+- direct Auren cache.
+
+Exact container prop, NPC line, UI toast, or scripting hook may be authored later without changing the economic placement/value.
+
+## Mandatory solvency rule
+Direct-currency placement must not depend on obscure optional rooms.
+The normal mandatory route is calibrated to approximately **30,127 Auren** direct currency, including ordinary encounters, story bosses, and the 8,080-Auren non-battle map.
 
 ## Protected-cache clarity
-Reward-only exceptional Consumables have explicit first-guaranteed placements in `REWARD_ONLY_CONSUMABLE_PLACEMENT.md`.
+Reward-only exceptional Consumables remain finite and use explicit authored placements in:
+> `REWARD_ONLY_CONSUMABLE_PLACEMENT.md`
+
+They do not become normal unlimited stock and are not sellable.
+
+## No duplicate-value rule
+If an authored cache already supplies a meaningful:
+- ordinary equipment first copy;
+- Relic;
+- Forge Component;
+- Legacy component;
+- Card/Prime;
+- reward-only Consumable;
+
+do not automatically add a large Auren amount merely to make the cache appear more valuable.
+
+## No random-drop substitute
+Ordinary enemies do not randomly drop Consumables/equipment/materials/junk as a substitute for authored exploration rewards.
