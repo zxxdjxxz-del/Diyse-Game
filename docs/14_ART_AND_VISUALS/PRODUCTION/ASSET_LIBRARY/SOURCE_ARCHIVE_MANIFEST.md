@@ -34,6 +34,50 @@ This manifest records the exact source archives used to build the current consol
 | `Universal Animation Library[Standard].zip` | 15904933 | 9 | `cc73fc4e495b82958207316596317a3f40b9fa38065bde1027937452da537724` |
 | `Universal Animation Library 2[Standard].zip` | 18735003 | 13 | `4008ea208a604773a2b2177d965f0f5d3195498b5bf838c3f5785d68e95f2a68` |
 
+## Embedded Quaternius humanoid rig payloads
+
+The two v5 Quaternius animation archives contain the **actual rigged mannequin mesh + Armature**, not animations alone. They therefore already provide the prototype humanoid rig required for B00 Godot validation.
+
+Verified from archive copies re-uploaded in the active project conversation whose ZIP hashes exactly match the table above:
+
+### `Universal Animation Library[Standard].zip`
+
+- `Unreal-Godot/UAL1_Standard.glb`
+  - 1 mesh: `Mannequin`
+  - 1 skin: `Armature`
+  - 43 animations
+  - 7,618,436 bytes
+  - SHA-256 `69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997`
+- `Unreal-Godot/UAL1_Standard_RM.glb`
+  - 1 mesh: `Mannequin`
+  - 1 skin: `Armature`
+  - 43 animations
+  - 7,620,504 bytes
+  - SHA-256 `be684571ed655a1b892c2c07e6e2aeca053b606c442d34004adaf1d944090d01`
+
+### `Universal Animation Library 2[Standard].zip`
+
+- `Unreal-Godot/UAL2_Standard.glb`
+  - 1 mesh: `Mannequin`
+  - 1 skin: `Armature`
+  - 43 animations
+  - 8,091,444 bytes
+  - SHA-256 `8cee20ab1bc55130092447e810e26df22dd2803eccc54f52137a7d54d7ab88a8`
+- `Unreal-Godot/UAL2_Standard_RM.glb`
+  - 1 mesh: `Mannequin`
+  - 1 skin: `Armature`
+  - 43 animations
+  - 8,095,936 bytes
+  - SHA-256 `814eee878f82934992d3ea746c539df25e981487109c591f5efbb8dd03286f99`
+- `Female Mannequin/Unreal-Godot/Mannequin_F.glb`
+  - 1 mesh: `Mannequin`
+  - 1 skin: `Armature`
+  - 0 duplicated embedded animations; intended to share/retarget the library animation set
+  - 1,442,824 bytes
+  - SHA-256 `2ee6cc3fe888d9b144afa8cc4b2ab7bfc5d13a0d5b7548df777f61f64ad65fa6`
+
+This resolves the prior mistaken assumption that a separate `Universal Base Characters` archive was required for the prototype rig.
+
 ## Canonicalization notes
 
 - `080.zip` and `81-84.zip` contain the same 17 Map080 files byte-for-byte. The master inventory counts that Map080 set only once canonically.

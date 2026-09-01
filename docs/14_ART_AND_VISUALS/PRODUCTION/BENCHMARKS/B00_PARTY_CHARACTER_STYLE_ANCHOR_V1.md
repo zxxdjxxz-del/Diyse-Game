@@ -1,16 +1,21 @@
 # Diyse — B00 Party Character Style Anchor v1
 
 **Benchmark:** B00 — Permanent Party / Character Style Anchor  
-**Status:** **IN PROGRESS — CYANIS + ILYRA + TORREN + VAELIRA APPROVED / 4 OF 6 PARTY MASTERS LOCKED**  
-**Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`
+**Status:** **HIGH-RES PARTY MASTER SET COMPLETE — 6 OF 6 LOCKED / V5 RIG SOURCE VERIFIED / GODOT PILOT NEXT**  
+**Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`  
+**Active runtime spec:** `B00_RIGGED_MODEL_RUNTIME_VALIDATION_V1.md`  
+**Rig standard:** `../QUATERNIUS_HUMANOID_RIG_STANDARD_V1.md`  
+**Superseded sprite spec:** `B00_RUNTIME_DERIVATIVE_SPEC_V1.md`
 
 ## 1. Scope
 
-B00 establishes the actual permanent-party rendering language for Diyse’s locked visual direction:
+B00 establishes the permanent-party rendering language for Diyse's locked visual direction:
 
 > **Seinen HD-2D Fantasy with Chaotic Variable Line Weight + Graphic Anime-Stylized Rendering**
 
-The permanent party is Cyanis, Ilyra, Torren, Nimera, Vaelira, and Seyrik. B00 does not pass until all six have approved high-resolution masters and battle/field derivative logic has been validated.
+The permanent party is Cyanis, Ilyra, Torren, Nimera, Vaelira, and Seyrik.
+
+All six high-resolution character masters are explicitly approved and fingerprinted. B00 as a full production benchmark is **not yet closed**: the approved designs must now be proven as rigged runtime characters under Godot field/battle cameras, animation, materials, environments and VFX.
 
 ## 2. Current progress
 
@@ -19,92 +24,135 @@ The permanent party is Cyanis, Ilyra, Torren, Nimera, Vaelira, and Seyrik. B00 d
 | Cyanis | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Ilyra | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Torren | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
-| Nimera | **CLEANUP / RE-APPROVAL PASS PENDING** |
+| Nimera | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Vaelira | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
-| Seyrik | Pending new-style master |
+| Seyrik | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 
-Current authorities:
+Current production-lock authorities:
 - `../CHARACTERS/CYANIS_CURRENT_VISUAL_LOCK.md`
+- `../CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md`
+- `../CHARACTERS/TORREN_CURRENT_VISUAL_LOCK.md`
+- `../CHARACTERS/NIMERA_CURRENT_VISUAL_LOCK.md`
 - `../CHARACTERS/VAELIRA_CURRENT_VISUAL_LOCK.md`
-- approved Ilyra and Torren masters remain controlling from their explicit B00 approvals pending any later documentation consolidation.
-
-Nimera is **not promoted in this benchmark yet** despite earlier design work. Her next clean B00 cleanup/re-approval pass must complete before she is counted as locked.
+- `../CHARACTERS/SEYRIK_CURRENT_VISUAL_LOCK.md`
 
 ## 3. Approved-anchor significance
 
-Cyanis, Ilyra, Torren, and Vaelira are the current real B00 anchors. Together they establish:
+The complete six-character master set establishes the party-wide B00 grammar:
 - mature seinen/anime proportions;
 - graphic cel-informed values rather than soft-brushed rendering;
 - strong clean silhouettes;
 - coherent garment/armor construction;
-- clear cloth/leather/metal/foliage/crystal material separation as applicable;
-- restrained, deliberate ornament;
+- clear cloth/leather/metal/foliage/crystal/biomechanical material separation as applicable;
+- restrained, deliberate ornament rather than generic fantasy clutter;
 - controlled metallic highlight planes;
 - deliberate variable line hierarchy;
 - no random speckle/grunge dependency;
-- no painterly direction.
+- no painterly direction;
+- single clean full-body master presentation as the preferred high-resolution review format.
 
-Torren additionally establishes the handling of dense natural camouflage and rugged equipment: his ghillie cape must remain readable as designed foliage masses and hanging branches rather than collapsing into undifferentiated visual noise.
+Character-specific contributions:
+- **Cyanis:** mobile royal battle-knight structure, clean silver armor over dark royal blue / black layers.
+- **Ilyra:** light defensive / warding language with pale fabric, long blonde hair/cape read and restrained metal structure.
+- **Torren:** dense natural camouflage and rugged equipment, with ghillie foliage readable as intentional masses rather than noise.
+- **Nimera:** busy braided/updo hair, Cardweaver props, constellation motifs, layered utility hardware and strong white/purple/black separation without artifact-dot dependency.
+- **Vaelira:** Green Arcanist silhouette, black cloth foundation, emerald outer garments/boots, silver metalwork, Arcane Staff and restrained crystal focus.
+- **Seyrik:** Black Host-derived skeletal/alien biomechanical plate, polished black shell over crimson understructure, red-dominant long coat, imposing muscular silhouette and oversized two-handed greatsword.
 
-Vaelira establishes the current B00 handling of a light-caster / Arcanist silhouette: clean layered garment construction, a matte cloth foundation, emerald outer garments, silver metalwork, a readable Arcane Staff, and restrained crystal focus without reverting to oversized high-fantasy sorceress ornament.
+## 4. High-resolution master rules
 
-Exact approved renders should be fingerprinted in character visual-lock documentation so later work cannot silently drift back to superseded variants.
-
-## 4. New-style master requirements
-
-Every remaining party master must establish:
+The high-resolution masters are complete. Any future revision must continue to satisfy:
 - mature seinen/anime proportions and facial construction;
 - approved identity without accidental age/face drift;
 - visibly variable line weight with tapered/broken/selective contours;
 - precise restrained facial linework;
 - large readable hair masses;
 - graphic cel-informed shading with roughly 2–4 dominant value groups;
-- clean material separation between skin, hair, cloth, leather, metal, foliage and magical elements as applicable;
+- clean material separation;
 - coherent clothing/armor construction;
 - rich but controlled color;
 - no painterly/soft-brushed rendering;
 - no glossy mobile-gacha finish;
 - no photoreal rendering;
 - no sterile uniform digital outline;
-- no generic AI-smooth, random-speckle, or grunge surface treatment.
+- no generic AI-smooth, random-speckle, grunge, artifact-dot or broken-clothing treatment.
 
-Character-specific redesigns are allowed only when explicitly approved during B00. Gameplay equipment rules remain governed by their own canon authorities.
+Character-specific redesigns remain valid only when explicitly approved. Gameplay equipment rules remain governed by their own canon authorities.
 
-## 5. Scale derivatives
+## 5. Runtime representation decision
 
-After each high-resolution master is approved, create style-faithful runtime derivatives rather than blind downscales.
+Diyse's primary field and battle character representation is now **rigged 3D character models**.
 
-### Battle target
-Approximate target: **200–220 px character height**.
+The earlier dedicated sprite targets of ~200–220 px battle art and ~80 px field art are **not required production deliverables** for B00. The old `B00_RUNTIME_DERIVATIVE_SPEC_V1.md` is retained only as optional 2D/screen-space simplification reference.
 
-Preserve silhouette, major thick/thin line rhythm, face/hair read, weapon/class identity, strong shadow masses, and important costume/material divisions. Remove micro-line noise that aliases.
+The active gate is `B00_RIGGED_MODEL_RUNTIME_VALIDATION_V1.md`.
 
-### Field target
-Approximate target: **~80 px character height**.
+The same character model family should normally serve field and battle, with context-specific camera framing, animation sets, mesh/material LOD, outline strength, weapon/prop state, secondary motion, shadows and VFX attachment behavior.
 
-Preserve silhouette, dominant palette blocks, hair/face read, iconic equipment, and a few deliberate heavy ink accents.
+## 6. V5 rig source — verified
 
-## 6. Production sequence
+The Quaternius rig needed for the prototype is already inside the two **Asset Library Master v5** animation archives.
 
-1. approve a clean high-resolution new-style master;
-2. fingerprint and document that exact render;
-3. create battle-scale derivative;
-4. create field-scale derivative;
-5. place the character against representative B01/B03/B10 scene/material tests;
-6. test a representative B06 VFX effect beside/around the character;
-7. repeat through all six permanent characters;
-8. only then declare B00 passed.
+The active-conversation reuploads match the v5 archive hashes exactly, and direct GLB inspection verifies:
+- `UAL1_Standard.glb` — `Mannequin` mesh + `Armature` skin + **43 animations**;
+- `UAL1_Standard_RM.glb` — root-motion counterpart;
+- `UAL2_Standard.glb` — same rig family + **43 additional animations**;
+- `UAL2_Standard_RM.glb` — root-motion counterpart;
+- `Mannequin_F.glb` — compatible female mannequin using the same `Armature` contract.
 
-The preferred B00 review asset is a **single clean full-body character render** unless another view is specifically requested.
+Therefore the previously suspected separate-base-character source gap is closed. Exact member hashes are recorded in `../ASSET_LIBRARY/SOURCE_ARCHIVE_MANIFEST.md` and the rig standard.
 
-## 7. Cross-category validation
+## 7. Runtime visual requirements
 
-Once B00 passes, recheck B01 stone, B03 foliage, B10 props, B06 VFX, and future enemy/NPC art against the actual party rendering grammar.
+The rigged characters must reproduce the approved B00 masters through:
+- character-specific proportions rather than one generic body;
+- faithful face/hair silhouette;
+- correct garment and armor construction;
+- correct weapon/prop identity and scale;
+- graphic cel-informed real-time materials;
+- controlled non-photoreal metal/cloth/leather response;
+- variable/irregular outline rhythm at useful screen distances;
+- stable animation deformation and attachment points;
+- screen-space readability in both exploration and combat.
+
+Rig functionality alone does not equal visual approval.
+
+## 8. Production sequence
+
+Completed:
+1. approve all six clean high-resolution B00 masters;
+2. fingerprint/document all six masters;
+3. retire the unnecessary dedicated field/battle sprite gate;
+4. lock the rigged-model runtime validation grammar;
+5. verify the exact v5 Quaternius mannequin/Armature source and member hashes.
+
+Next:
+6. import `UAL1_Standard.glb` into Godot;
+7. validate skeleton hierarchy, embedded animations and skin deformation;
+8. compare `_RM` root-motion behavior;
+9. validate `Mannequin_F.glb` retargeting on the same skeleton contract;
+10. create one B00-faithful model/material/shader pilot;
+11. validate it against the exact approved master in neutral presentation;
+12. validate the same model at field camera distance;
+13. validate the same model at battle camera distance;
+14. test representative B01 stone, B03 foliage and B10 prop environments;
+15. test representative B06 VFX overlap;
+16. propagate the proven model/material/rig grammar across all six characters;
+17. compare all six together for silhouette, palette, scale and animation coherence;
+18. only then declare B00 fully passed.
+
+## 9. Asset Forge / Godot boundary
+
+Asset Forge's glTF renderer is useful for deterministic model/material review but is not the final runtime renderer. The final B00 model gate must be exercised in Godot because it depends on skeleton/skin deformation, retargeted animation, shader behavior, outlines, camera distance, lighting, shadows, secondary motion and VFX overlap.
+
+## 10. Cross-category validation
+
+Once the runtime-model gate passes, recheck B01 stone, B03 foliage, B10 props, B06 VFX, and future enemy/NPC art against the actual six-character party rendering grammar.
 
 Earlier material-family work is not automatically invalidated, but it must conform to the revised non-painterly visual authority before final acceptance.
 
-## 8. Promotion state
+## 11. Promotion state
 
 Current state:
 
-`VISUAL STYLE LOCKED → CYANIS + ILYRA + TORREN + VAELIRA MASTERS APPROVED → NIMERA CLEANUP + SEYRIK MASTER REMAIN → BATTLE/FIELD DERIVATIVES PENDING`
+`VISUAL STYLE LOCKED → 6/6 HIGH-RES PARTY MASTERS LOCKED → V5 QUATERNIUS RIG SOURCE VERIFIED → GODOT IMPORT/ROOT-MOTION/RETARGET TEST NEXT`
