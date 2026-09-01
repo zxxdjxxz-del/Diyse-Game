@@ -1,7 +1,9 @@
 """Phase 2 battle runtime layered on the current-canon rule primitives."""
 from __future__ import annotations
 from dataclasses import dataclass
+import math
 import random
+import statistics
 from typing import Literal, Sequence
 from .core import CRIT_CHANCE_CAP, adjusted_hit_chance, direct_damage, round_half_up
 from .rules import (
@@ -12,6 +14,45 @@ from .rules import (
     effective_spirit, element_affinity, healing_amount,
     linked_status_affinity_modifier, status_application_chance,
 )
+
+
+@dataclass(frozen=True)
+class AdvancedBattleScenario:
+    party: tuple[Combatant, ...]
+    enemies: tuple[Combatant, ...]
+    max_rounds: int = 100
+
+    def __post_init__(self) -> None:
+        if not 1 <= len(self.party) <= 4:
+            raise ValueError("party must contain 1-4 combatants")
+        if not 1 <= len(self.enemies) <= 8:
+            raise ValueError("enemies must contain 1-8 combatants")
+        if self.max_rounds < 1:
+            raise ValueError("max_rounds must be positive")
+        if any(unit.side != "party" for unit in self.party):
+            raise ValueError("all party combatants must have side='party'")
+        if any(unit.side != "enemy" for unit in self.enemies):
+            raise ValueError("all enemy combatants must have side='enemy'")
+
+
+@dataclass(frozen=True)
+class AdvancedSimulationSummary:
+    runs: int
+    party_wins: int
+    enemy_wins: int
+    draws: int
+    win_rate: float
+    wipe_rate: float
+    any_ko_rate: float
+    mean_rounds: float
+    median_rounds: float
+    p90_rounds: float
+    mean_remaining_party_hp: float
+    mean_remaining_party_mp: float
+
+    def as_dict(self) -> dict[str, int | float]:
+        return self.__dict__.copy()
+
 
 @dataclass(frozen=True)
 class AdvancedBattleOutcome:
@@ -205,3 +246,31 @@ def run_advanced_battle(party_templates: Sequence[Combatant], enemy_templates: S
         if not enemy_alive: return _outcome("party", round_number, party, any_ko)
         if not party_alive: return _outcome("enemy", round_number, party, True)
     return _outcome("draw", max_rounds, party, any_ko)
+
+
+def simulate_advanced(scenario: AdvancedBattleScenario, *, runs: int = 10_000, seed: int = 1) -> AdvancedSimulationSummary:
+    if runs < 1:
+        raise ValueError("runs must be positive")
+    master = random.Random(seed)
+    outcomes = [
+        run_advanced_battle(scenario.party, scenario.enemies, random.Random(master.getrandbits(64)), max_rounds=scenario.max_rounds)
+        for _ in range(runs)
+    ]
+    party_wins = sum(outcome.winner == "party" for outcome in outcomes)
+    enemy_wins = sum(outcome.winner == "enemy" for outcome in outcomes)
+    rounds = sorted(outcome.rounds for outcome in outcomes)
+    p90_index = max(0, math.ceil(0.90 * len(rounds)) - 1)
+    return AdvancedSimulationSummary(
+        runs=runs,
+        party_wins=party_wins,
+        enemy_wins=enemy_wins,
+        draws=runs - party_wins - enemy_wins,
+        win_rate=party_wins / runs,
+        wipe_rate=enemy_wins / runs,
+        any_ko_rate=sum(outcome.any_party_ko for outcome in outcomes) / runs,
+        mean_rounds=statistics.fmean(rounds),
+        median_rounds=float(statistics.median(rounds)),
+        p90_rounds=float(rounds[p90_index]),
+        mean_remaining_party_hp=statistics.fmean(outcome.party_hp_fraction for outcome in outcomes),
+        mean_remaining_party_mp=statistics.fmean(outcome.party_mp_fraction for outcome in outcomes),
+    )
