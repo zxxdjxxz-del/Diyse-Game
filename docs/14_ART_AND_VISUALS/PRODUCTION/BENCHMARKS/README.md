@@ -7,7 +7,7 @@ This directory contains execution sheets and result notes for the visual-style b
 
 | Benchmark | Subject | Status | Execution/result file |
 |---|---|---|---|
-| B00 | Permanent party / character style anchor | **IN PROGRESS — CYANIS + ILYRA APPROVED / 2 OF 6 LOCKED** | `B00_PARTY_CHARACTER_STYLE_ANCHOR_V1.md`; `CYANIS_CURRENT_VISUAL_LOCK.md`; `ILYRA_CURRENT_VISUAL_LOCK.md` |
+| B00 | Permanent party / character style anchor | **IN PROGRESS — CYANIS + ILYRA + TORREN APPROVED / 3 OF 6 LOCKED** | `B00_PARTY_CHARACTER_STYLE_ANCHOR_V1.md`; `CYANIS_CURRENT_VISUAL_LOCK.md`; `ILYRA_CURRENT_VISUAL_LOCK.md`; `TORREN_CURRENT_VISUAL_LOCK.md` |
 | B01 | Stone / fortified exterior | **STYLE-PASS APPROVED — GAMEPLAY TEST READY / B00 CROSS-CHECK PENDING** | `B01_STONE_EXECUTION_V1.md`; `B01_STONE_STYLE_PASS_CANDIDATE_V1.md`; `B01_DIYSE_ORIGINAL_STONE_KIT_SPEC_V1.md`; `B01_GAMEPLAY_TEST_SCENE_SPEC_V1.md` |
 | B02 | Rustic wood/interior | QUEUED | — |
 | B03 | Tree / foliage silhouette | **STYLE-PASS APPROVED — GAMEPLAY TEST READY / B00 CROSS-CHECK PENDING** | `B03_FOLIAGE_EXECUTION_V1.md`; `B03_FOLIAGE_STYLE_STUDY_SPEC_V1.md`; `B03_FOLIAGE_STYLE_PASS_CANDIDATE_V1.md`; `B03_DIYSE_ORIGINAL_FOLIAGE_KIT_SPEC_V1.md`; `B03_GAMEPLAY_TEST_SCENE_SPEC_V1.md` |
@@ -30,11 +30,12 @@ No benchmark is **ACCEPTED** until its visual result passes the benchmark author
 
 The permanent party covers **Cyanis, Ilyra, Torren, Nimera, Vaelira, and Seyrik**.
 
-Cyanis and Ilyra now have approved B00 high-resolution masters. Their exact render fingerprints and current visual authorities are controlled by:
+Cyanis, Ilyra, and Torren now have approved B00 high-resolution masters. Their exact render fingerprints and current visual authorities are controlled by:
 - `CYANIS_CURRENT_VISUAL_LOCK.md`
 - `ILYRA_CURRENT_VISUAL_LOCK.md`
+- `TORREN_CURRENT_VISUAL_LOCK.md`
 
-The remaining four party members still require new-style high-resolution masters. B00 does not pass until all six are approved and battle/field derivative logic is validated.
+The remaining three party members still require new-style high-resolution masters. B00 does not pass until all six are approved and battle/field derivative logic is validated.
 
 The active B00 target is **mature seinen HD-2D fantasy with chaotic variable line weight and graphic anime-stylized rendering**. “Painterly” is retired from the active art direction and must not be used as a target or approval criterion.
 
