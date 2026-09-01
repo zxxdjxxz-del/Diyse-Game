@@ -6,7 +6,7 @@ from typing import Sequence
 
 from ..common import round_half_up
 from .player_exp import cumulative_exp, exp_to_next_level, level_from_exp
-from .stats import LEVEL_CAP
+from .stats import level_cap
 
 
 @dataclass(frozen=True)
@@ -81,14 +81,15 @@ class ProgressionProjection:
 
 
 def exp_at_level_progress(level: int, progress: float = 0.0) -> int:
-    if not 1 <= level <= LEVEL_CAP:
-        raise ValueError(f"level must be between 1 and {LEVEL_CAP}")
+    cap = level_cap()
+    if not 1 <= level <= cap:
+        raise ValueError(f"level must be between 1 and {cap}")
     if not 0.0 <= progress < 1.0:
         raise ValueError("progress must be >= 0 and < 1")
     base = cumulative_exp(level)
-    if level == LEVEL_CAP:
+    if level == cap:
         if progress != 0.0:
-            raise ValueError("Lv70 has no progress toward Lv71")
+            raise ValueError(f"Lv{cap} has no progress toward Lv{cap + 1}")
         return base
     span = cumulative_exp(level + 1) - base
     return base + round_half_up(span * progress)
@@ -97,14 +98,16 @@ def exp_at_level_progress(level: int, progress: float = 0.0) -> int:
 def project_progression(start_exp: int, segments: Sequence[ProgressionSegment]) -> ProgressionProjection:
     if start_exp < 0:
         raise ValueError("start_exp cannot be negative")
-    capped_start = min(start_exp, cumulative_exp(LEVEL_CAP))
+    cap = level_cap()
+    cap_exp = cumulative_exp(cap)
+    capped_start = min(start_exp, cap_exp)
     start_level = level_from_exp(capped_start)
     current_exp = capped_start
     checkpoints: list[ProgressionCheckpoint] = []
 
     for segment in segments:
         gained = segment.expected_exp
-        current_exp = min(cumulative_exp(LEVEL_CAP), current_exp + gained)
+        current_exp = min(cap_exp, current_exp + gained)
         checkpoints.append(
             ProgressionCheckpoint(
                 segment=segment.name,
