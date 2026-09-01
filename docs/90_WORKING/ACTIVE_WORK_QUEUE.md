@@ -3,7 +3,7 @@
 This queue tracks unresolved/reopened work only. Closed owner-domain values remain closed unless a current test demonstrates a specific failure.
 
 ## 1 — Mandatory-Route Enemy Difficulty Recalibration
-**ACTIVE — v104 global +20% enemy direct-Power sensitivity / boss-local retune list forming**
+**ACTIVE — v105 four-point same-gear boss sensitivity complete / boss-local retune list confirmed**
 
 User-directed correction:
 > **The mandatory route should be harder, with more KOs when the player has skipped optional progression.**
@@ -14,12 +14,13 @@ Current global sensitivity hypothesis:
 This remains a test layer, not yet a wholesale owner-file rewrite.
 
 Core comparison rule:
-- mandatory and completionist use the **same ordinary equipment**;
+- mandatory and higher-level routes use the **same ordinary equipment**;
 - same normal-stock consumables;
 - same active party and competent tactical policy;
-- no completionist Relic/Legacy gear advantage in the core comparison;
-- route differences come primarily from actual Player Level / CEXP / learned abilities;
+- no Relic/Legacy gear advantage in the core comparison;
 - KO/wipe/resource pressure matters more than merely proving the fight can be won.
+
+For the v105 pure-level isolation, even the selected classes / learned ability package is held to the mandatory snapshot so only Player Level changes.
 
 Working reports:
 - `../16_BALANCE_AND_TESTING/TRUE_BATTLES/CH5_DEEPFORGE_DIFFICULTY_RECALIBRATION_WORKING_v103.md`
@@ -27,6 +28,7 @@ Working reports:
 - `../16_BALANCE_AND_TESTING/GLOBAL_ENEMY_POWER_20_PERCENT_SENSITIVITY_v104.md`
 - `../16_BALANCE_AND_TESTING/CH6_ENEMY_POWER_20_PERCENT_SENSITIVITY_v104.md`
 - `../16_BALANCE_AND_TESTING/CH7_ENEMY_POWER_20_PERCENT_SENSITIVITY_v104.md`
+- `../16_BALANCE_AND_TESTING/FOUR_POINT_BOSS_LEVEL_SENSITIVITY_v105.md`
 
 ### Current evidence
 **Chapter 5 ordinary formations:**
@@ -36,8 +38,8 @@ Working reports:
 **Deepforge Colossus — structural assembly candidate + ×1.20:**
 - Lv20 mandatory rush — **92.82% wins / 48.98% any-KO / 7.18% wipes**;
 - Lv20 mandatory dismantle — **99.56% wins / 21.74% any-KO / 0.44% wipes**;
-- Lv22 completionist same gear rush — **100% wins / 1.96% any-KO**;
-- Lv22 completionist same gear dismantle — **100% wins / 1.02% any-KO**.
+- Lv22 same-gear higher-level rush — **100% wins / 1.96% any-KO**;
+- Lv22 same-gear higher-level dismantle — **100% wins / 1.02% any-KO**.
 
 This is the first strong desired difficulty profile.
 
@@ -60,6 +62,25 @@ This is the first strong desired difficulty profile.
 - even large boss-only Power escalation remains inefficient because the encounter contains many low-pressure/action-tax turns;
 - local pressure/mechanic tuning required.
 
+### v105 mandatory-vs-max-level same-equipment boss curve
+Pure Player-Level isolation under ×1.20, no Prime:
+
+| Chapter boss | Mandatory | Max-preboss | Mandatory any-KO | Max-level any-KO | Wipes |
+|---|---:|---:|---:|---:|---:|
+| First Command Warden | Lv11 | Lv13 | **~0.13%** | **~0.01%** | 0% |
+| Zevraya → Perfected War Mother | Lv24 | Lv28 | **~4.4–4.8%** | **~0.7–1.0%** | 0% |
+| Rhazek → Bastion Devourer | Lv40 | Lv50 | **~0.45–0.5%** | **~0–0.02%** | 0% |
+| Vaelkor → Sovereign Panoply | Lv56 | Lv67 | **~6.8–7.0%** | **~0.3–0.4%** | 0% observed |
+
+Interpretation:
+- the same-equipment level advantage clearly buys safety;
+- ×1.20 alone is still insufficient for First Command Warden and Rhazek;
+- Zevraya responds but still benefits far more from the already-open Reservoir structural correction;
+- Vaelkor responds strongly and likely needs a smaller local pressure pass than Rhazek;
+- pushing the whole roster above ×1.20 merely to fix low-pressure bosses is inefficient.
+
+Supplemental boss-only scan to ×1.35 confirmed the same pattern: First Command Warden and Rhazek remain very safe while Zevraya/Vaelkor rise much faster. This confirms an architecture/action-density issue rather than a universal-damage-floor issue.
+
 ### Current design conclusion
 Do **not** keep raising the whole-roster scalar to fix weak bosses.
 
@@ -69,19 +90,22 @@ Working two-layer model:
 
 The +20% global hypothesis remains strongly promising for ordinary enemies and structurally sound encounters.
 
-### Boss-local retune list opened by v104
+### Boss-local retune list
+- First Command Warden
 - Furnace Tyrant
 - Crownstorm Roc
 - Matron Zevraya — Reservoir action-density correction
 - Revision Arbiter
-- later Rhazek / Vaelkor to be rechecked under the same model
+- Commander Rhazek → Bastion Devourer
+- Emperor Vaelkor → Sovereign Panoply — lighter local climax-pressure pass than Rhazek
 
 Next balance actions:
-1. use the established Rhazek true-battle harness as the next late-game ×1.20 representative;
-2. then recheck Vaelkor;
-3. decide whether ×1.20 can be promoted as the global enemy direct-Power baseline;
-4. return to the boss-local retune list rather than increasing the universal scalar beyond 20%;
-5. only after the late-game mandatory curve is anchored, return to Reconstituted Entity → The Last Command.
+1. define the local pressure correction for **First Command Warden** as the early-game model;
+2. finish/promote the already-promising Zevraya Reservoir structural candidate when approved;
+3. retune **Rhazek** locally under the ×1.20 floor;
+4. apply the resulting late-boss pressure standard to **Vaelkor**;
+5. decide whether ×1.20 can be promoted as the global enemy direct-Power baseline;
+6. only after the late-game mandatory curve is anchored, return to Reconstituted Entity → The Last Command.
 
 Prior v93–v102 reports remain valid historical measurements and mechanical-rule evidence. From Chapter 5 onward, their old difficulty PASS/RETAIN verdicts are provisional under the new standard.
 
