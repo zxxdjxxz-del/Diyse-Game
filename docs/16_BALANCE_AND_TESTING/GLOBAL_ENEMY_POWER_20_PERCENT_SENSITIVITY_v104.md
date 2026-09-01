@@ -106,7 +106,68 @@ Authored / Elite Chapter-5 reference:
 Important ordinary-encounter watchpoint:
 > **Late Chapter-5 formations can contain 5–6 active enemies.**
 
-The scalar therefore needs formation-level testing for first-round focus/spike behavior even if every individual hit remains reasonable.
+## Chapter-5 ordinary full-status isolation
+A 5,000-run-per-formation design-layer isolation pass was run at the current phase-appropriate mandatory levels:
+- opening formations — Lv18;
+- middle formations — Lv19;
+- late formations — Lv20;
+- active four — Cyanis / Ilyra / Torren / Vaelira;
+- same conservative Chapter-4-or-earlier ordinary equipment used by the Deepforge same-gear benchmark;
+- no Prime;
+- current Burn / Bleed / Stun / Staggered behavior included;
+- normal target priority, healing and status-clearing policy;
+- each formation begins at full HP / full MP so this is encounter-isolation pressure, not a whole-dungeon attrition proof.
+
+Key results:
+
+| Formation | Current any-KO | ×1.20 any-KO | Current mean direct damage | ×1.20 mean direct damage |
+|---|---:|---:|---:|---:|
+| Opening Heat Line | 0% | **0%** | ~597 | **~724** |
+| Middle Crawler Floor | 0% | **0.08%** | ~815 | **~986** |
+| Late Heavy Foundry | 0% | **0.08%** | ~859 | **~1,048** |
+| Late Forge Lock | 0.02% | **0.22%** | ~1,082 | **~1,325** |
+
+All nine recovered Chapter-5 ordinary formations remained effectively reliable clears in encounter isolation.
+
+Interpretation:
+> **The +20% scalar increases ordinary encounter attrition and focus-fire consequence without turning Chapter-5 random formations into routine death traps.**
+
+A later whole-dungeon attrition pass still needs to test how repeated encounters consume healing/MP/items between recovery points.
+
+---
+
+# Furnace Tyrant — Chapter-5 named-fight sensitivity
+
+A 10,000-run-per-line design-layer model compared current direct Power against ×1.20 using the same conservative ordinary equipment on both route references.
+
+Route anchors:
+- mandatory — **Lv18**;
+- completionist — **Lv20**;
+- no Relic/Legacy advantage in the core comparison.
+
+## Mandatory Lv18
+
+| Policy | Current | ×1.20 |
+|---|---|---|
+| Smart cooling/support-clear | 100% wins / **0.12% any-KO** / median 10 | **99.99% wins / 0.55% any-KO / median 11** |
+| Aggressive high-Heat | 100% wins / **0.89% any-KO** / median 7 | **100% wins / 3.60% any-KO / median 7** |
+
+Mean ending HP:
+- smart — ~76.0% current → **~73.1% at ×1.20**;
+- aggressive — ~66.7% current → **~60.5% at ×1.20**.
+
+No meaningful wipe pattern emerged in this model.
+
+## Completionist Lv20 — same equipment
+- smart ×1.20 — **100% wins / 0% any-KO observed**;
+- aggressive ×1.20 — **100% wins / 0.08% any-KO**.
+
+Interpretation:
+> **The global +20% scalar helps Furnace Tyrant but does not make the fight threatening enough under competent mandatory-route play.**
+
+Furnace Tyrant should therefore remain flagged for encounter-specific difficulty tuning even if the global ×1.20 baseline is later promoted.
+
+This is evidence for a global floor plus local boss tuning, not evidence against the scalar.
 
 ---
 
@@ -149,9 +210,34 @@ A global +20% scalar is only:
 
 or about **4.35% more direct damage than that +15% candidate**.
 
-Therefore the +20% experiment should remain in the same broad difficulty neighborhood rather than behaving like the rejected brute-force +45% Power-only package. Exact KO/wipe distributions must still be rerun under the +20% scalar before locking owner values.
+## Deepforge ×1.20 rerun — structural assembly candidate
+The same v103 harness was rerun with the preferred assembly correction:
+- Guard Press provides its functional defensive modifier without consuming a selected boss action;
+- Repair Arm uses its bounded conditional passive repair rather than diluting the attack menu;
+- Command Loom remains the accuracy function;
+- both routes use the exact same ordinary equipment and normal-stock preparation;
+- no Relic/Legacy advantage is given to completionist.
 
-The assembly action-density correction remains necessary; the global scalar does not by itself fix the Guard Press / Repair Arm incentive problem.
+5,000-run same-gear sensitivity:
+
+| Route | Win rate | Any-KO | Wipe |
+|---|---:|---:|---:|
+| **Lv20 mandatory — rush** | **92.82%** | **48.98%** | **7.18%** |
+| **Lv20 mandatory — dismantle all** | **99.56%** | **21.74%** | **0.44%** |
+| **Lv22 completionist — rush** | **100%** | **1.96%** | **0% observed** |
+| **Lv22 completionist — dismantle all** | **100%** | **1.02%** | **0% observed** |
+
+Interpretation:
+1. **Mandatory vs completionist separation is strong even with identical gear.**
+2. **Ignoring the assembly mechanic is now a legitimate risk.** Nearly half of mandatory rush runs see at least one KO and roughly 7% wipe.
+3. **Respecting the mechanic matters.** Dismantling cuts mandatory KO incidence from ~49% to ~22% and wipe incidence from ~7.2% to below 0.5%.
+4. **Optional progression buys margin for error.** Lv22 completionist remains very safe on the exact same equipment.
+5. The boss still does not rely on one-shot design; the pressure comes from sustained offense, statuses, assembly consequences and recovery decisions.
+
+Deepforge therefore becomes the first strong evidence that:
+> **×1.20 is a viable global enemy-offense baseline when the encounter's own mechanics are structurally sound.**
+
+The assembly action-density correction remains necessary; the scalar by itself does not repair the old Guard Press / Repair Arm incentive problem.
 
 ---
 
@@ -185,9 +271,14 @@ After representative testing, specific outliers may need:
 
 The scalar is a whole-roster baseline experiment, not a prohibition on encounter-specific tuning.
 
-# Current verdict
+# Current verdict after Chapter 5
 
-> **APPROVED FOR GLOBAL SENSITIVITY TESTING / NOT YET CANONICAL OWNER VALUES**
+> **STRONGLY PROMISING AS GLOBAL BASELINE / NOT YET CANONICAL OWNER VALUES**
 
-Immediate balance direction:
-> use **enemy direct-damage Power ×1.20** as the common test layer, beginning with early ordinary formations + Chapter-5 Deepforge and carrying the same scalar through later representative bosses before deciding whether to promote it globally.
+Chapter-5 evidence currently says:
+- ordinary formations — **PASS the +20% safety/attrition screen**;
+- Furnace Tyrant — **still too safe; local boss tuning remains required**;
+- Deepforge Colossus with the structural assembly correction — **lands near the desired mandatory/completionist difficulty profile at ×1.20**.
+
+Immediate next sensitivity action:
+> carry the same **enemy direct-damage Power ×1.20** layer into Chapter 6 ordinary formations and named bosses before deciding whether the scalar should be promoted globally.
