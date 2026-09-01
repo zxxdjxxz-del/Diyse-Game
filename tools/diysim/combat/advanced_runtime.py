@@ -10,6 +10,7 @@ import random
 import statistics
 from typing import Sequence
 
+from ..sources.enemies import load_enemy_system_rules
 from .action_resolution import resolve_damage, resolve_heal
 from .action_selection import choose_action, selectable_actions
 from .models import CombatUnit, Combatant
@@ -19,6 +20,14 @@ from .targeting import select_targets
 from .turn_order import turn_order
 
 
+def _validate_side_sizes(party_count: int, enemy_count: int) -> None:
+    max_enemies = load_enemy_system_rules().max_active_enemies
+    if not 1 <= party_count <= 4:
+        raise ValueError("party must contain 1-4 combatants")
+    if not 1 <= enemy_count <= max_enemies:
+        raise ValueError(f"enemies must contain 1-{max_enemies} combatants")
+
+
 @dataclass(frozen=True)
 class AdvancedBattleScenario:
     party: tuple[Combatant, ...]
@@ -26,10 +35,7 @@ class AdvancedBattleScenario:
     max_rounds: int = 100
 
     def __post_init__(self) -> None:
-        if not 1 <= len(self.party) <= 4:
-            raise ValueError("party must contain 1-4 combatants")
-        if not 1 <= len(self.enemies) <= 8:
-            raise ValueError("enemies must contain 1-8 combatants")
+        _validate_side_sizes(len(self.party), len(self.enemies))
         if self.max_rounds < 1:
             raise ValueError("max_rounds must be positive")
         if any(unit.side != "party" for unit in self.party):
@@ -45,10 +51,7 @@ def run_advanced_battle(
     *,
     max_rounds: int = 100,
 ) -> AdvancedBattleOutcome:
-    if not 1 <= len(party_templates) <= 4:
-        raise ValueError("party must contain 1-4 combatants")
-    if not 1 <= len(enemy_templates) <= 8:
-        raise ValueError("enemies must contain 1-8 combatants")
+    _validate_side_sizes(len(party_templates), len(enemy_templates))
 
     units = [
         CombatUnit(template, index)
