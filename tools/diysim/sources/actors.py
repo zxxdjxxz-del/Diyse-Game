@@ -28,6 +28,8 @@ _STAT_COLUMNS = {
     "SR": "status_resistance",
 }
 
+_EXPLICIT_MISSING_STAT_MARKERS = {"-", "--", "---", "—", "–", "n/a", "na", "none"}
+
 
 @dataclass(frozen=True)
 class StatBlockSource:
@@ -51,12 +53,19 @@ class EnemyRegistryEntry:
     identity: str
 
 
+def _is_explicit_missing_stat(value: str) -> bool:
+    return value.strip().casefold() in _EXPLICIT_MISSING_STAT_MARKERS
+
+
 def parse_stat_row(row: dict[str, str]) -> StatBlockSource:
     values: dict[str, int] = {}
     for column, field in _STAT_COLUMNS.items():
-        if column not in row or not row[column].strip():
+        if column not in row:
             continue
-        value = parse_int(row[column])
+        raw_value = row[column].strip()
+        if not raw_value or _is_explicit_missing_stat(raw_value):
+            continue
+        value = parse_int(raw_value)
         if field in values and values[field] != value:
             raise SourceGapError(f"Conflicting stat columns for {field}")
         values[field] = value
