@@ -4,7 +4,9 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Sequence
 
-from ..core import LEVEL_CAP, cumulative_exp, exp_to_next_level, level_from_exp, round_half_up
+from ..common import round_half_up
+from .player_exp import cumulative_exp, exp_to_next_level, level_from_exp
+from .stats import LEVEL_CAP
 
 
 @dataclass(frozen=True)
