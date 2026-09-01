@@ -80,3 +80,16 @@ def test_complete_functional_analogue_system_resolves_warden_variant_headings() 
         and issue.path.endswith("FIRST_COMMAND_WARDEN.md")
     ]
     assert analogue_gaps == []
+
+
+def test_complete_dynamic_multihit_packages_resolve_major_hunt_action_headings() -> None:
+    report = audit_simulation_readiness()
+    dynamic_subjects = {"Confluence Spear", "Confluence Rupture"}
+
+    dynamic_gaps = [
+        issue
+        for issue in report.parser_gaps
+        if issue.subject in dynamic_subjects
+        and issue.domain == "major_hunts"
+    ]
+    assert dynamic_gaps == []
