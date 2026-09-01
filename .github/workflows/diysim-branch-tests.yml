@@ -29,3 +29,12 @@ jobs:
 
       - name: Print detected source gaps
         run: python -m tools.diysim.cli audit-readiness --issues-only --severity source_gap
+
+      - name: Print parser-gap breakdown
+        run: |
+          python - <<'PY'
+          import json
+          from tools.diysim.reports.readiness import readiness_issue_breakdown
+          from tools.diysim.sources import audit_simulation_readiness
+          print(json.dumps(readiness_issue_breakdown(audit_simulation_readiness()), indent=2))
+          PY
