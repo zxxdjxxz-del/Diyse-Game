@@ -1,6 +1,12 @@
 """Diyse balance simulator working package."""
 
-from .battle import AdvancedBattleOutcome, run_advanced_battle
+from .battle import (
+    AdvancedBattleOutcome,
+    AdvancedBattleScenario,
+    AdvancedSimulationSummary,
+    run_advanced_battle,
+    simulate_advanced,
+)
 from .core import (
     ActionProfile,
     BattleScenario,
@@ -39,6 +45,8 @@ from .rules import (
 __all__ = [
     "ActionProfile",
     "AdvancedBattleOutcome",
+    "AdvancedBattleScenario",
+    "AdvancedSimulationSummary",
     "BattleScenario",
     "CLASS_MULTIPLIERS",
     "CombatAction",
@@ -65,6 +73,7 @@ __all__ = [
     "resolve_mp_cost",
     "run_advanced_battle",
     "simulate",
+    "simulate_advanced",
     "status_application_chance",
     "sweep_enemy_stats",
 ]
