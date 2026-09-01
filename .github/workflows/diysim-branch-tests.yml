@@ -1,0 +1,25 @@
+name: DiySim Branch Tests
+
+on:
+  push:
+    branches:
+      - tooling/diysim-phase1
+  workflow_dispatch:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install test dependency
+        run: python -m pip install --upgrade pytest
+
+      - name: Run DiySim tests
+        run: python -m pytest -q tests/diysim
