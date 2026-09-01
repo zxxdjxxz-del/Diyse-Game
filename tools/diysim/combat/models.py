@@ -41,6 +41,7 @@ class CombatAction:
     spirit_penetration: float = 0.0
     physical_weight: float = 0.5
     magical_weight: float = 0.5
+    final_damage_multiplier: float = 1.0
     heal_max_hp_percent: float = 0.0
     heal_magic_scaling: float = 0.0
     healing_potency: float = 1.0
