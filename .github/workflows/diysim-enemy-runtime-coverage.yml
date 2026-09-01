@@ -18,13 +18,26 @@ jobs:
           python-version: "3.12"
       - name: Install test dependency
         run: python -m pip install --upgrade pytest
-      - name: Run enemy-runtime catalog tests
-        run: python -m pytest -q tests/diysim/test_enemy_runtime_catalog.py
-      - name: Print runtime coverage and exact blockers
+      - name: Run enemy and formation runtime catalog tests
+        run: |
+          python -m pytest -q \
+            tests/diysim/test_enemy_runtime_catalog.py \
+            tests/diysim/test_formation_runtime_coverage.py
+      - name: Print enemy runtime coverage and exact blockers
         if: always()
         run: |
           python - <<'PY'
           import json
           from tools.diysim.reports.enemy_runtime_coverage import enemy_runtime_coverage_dict
+          print("ENEMY_RUNTIME_COVERAGE")
           print(json.dumps(enemy_runtime_coverage_dict(), indent=2, sort_keys=True))
+          PY
+      - name: Print formation runtime coverage and exact blockers
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          from tools.diysim.reports.formation_runtime_coverage import formation_runtime_coverage_dict
+          print("FORMATION_RUNTIME_COVERAGE")
+          print(json.dumps(formation_runtime_coverage_dict(), indent=2, sort_keys=True))
           PY
