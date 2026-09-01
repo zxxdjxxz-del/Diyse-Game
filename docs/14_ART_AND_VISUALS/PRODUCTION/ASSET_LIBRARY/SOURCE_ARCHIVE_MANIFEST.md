@@ -11,7 +11,7 @@ This manifest records the exact source archives used to build the current consol
 | `1-6.zip` | 99317080 | 224 | `82405cf5556c7f655d10ed34aade763379cbb5bf7a18e0c2ff5974fab91ad86f` |
 | `7-9.zip` | 108300708 | 175 | `295be5fc8ecf7d0775391af8372b90b941a153c1aabae523a9aff8fe8800bd1d` |
 | `10-13.zip` | 74401884 | 157 | `02eda36dbef067ce01cb857ea44dacd22c779e7a1e28ce37a8ae5585ab793e41` |
-| `14-18.zip` | 65700997 | 98 | `1789257a34f2a91b3695f23ea689acaba777f22b05ae544640b4b345dee8feba3d76bf` |
+| `14-18.zip` | 65700997 | 98 | `1789257a34f2a91b3695f23ea689acaba777f22b05ae54474fce3ef05622feaa` |
 | `19-22.zip` | 42401449 | 92 | `c2e15b486f7d27190fe40edb5780228edc2da2b294d134468b435f6057109789` |
 | `23-27.zip` | 57912991 | 108 | `a89c80ce13488f03f8c76af671d19040b9ac9935c03afededbbc8da0796cc135` |
 | `28-31.zip` | 47834424 | 26 | `aca9bf6240841e40fae26814dbc29cebe900d47f8a58c99709496cf3c89d6b81` |
@@ -36,9 +36,9 @@ This manifest records the exact source archives used to build the current consol
 
 ## Embedded Quaternius humanoid rig payloads
 
-The two v5 Quaternius animation archives contain the **actual rigged mannequin mesh + Armature**, not animations alone. They are sufficient to provide the prototype humanoid rig for B00 Godot validation.
+The two v5 Quaternius animation archives contain the **actual rigged mannequin mesh + Armature**, not animations alone. They therefore already provide the prototype humanoid rig required for B00 Godot validation.
 
-Verified from archive copies whose ZIP hashes exactly match this manifest:
+Verified from archive copies re-uploaded in the active project conversation whose ZIP hashes exactly match the table above:
 
 ### `Universal Animation Library[Standard].zip`
 
@@ -72,7 +72,7 @@ Verified from archive copies whose ZIP hashes exactly match this manifest:
 - `Female Mannequin/Unreal-Godot/Mannequin_F.glb`
   - 1 mesh: `Mannequin`
   - 1 skin: `Armature`
-  - no duplicated embedded animation set; designed to retarget/share the library rig
+  - 0 duplicated embedded animations; intended to share/retarget the library animation set
   - 1,442,824 bytes
   - SHA-256 `2ee6cc3fe888d9b144afa8cc4b2ab7bfc5d13a0d5b7548df777f61f64ad65fa6`
 
