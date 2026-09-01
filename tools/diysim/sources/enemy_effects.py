@@ -1,9 +1,9 @@
 """Parser for shared enemy ``Power: N/A`` effect-action grammar.
 
-The parser is intentionally conservative. It only returns an executable action
-when the owner text provides enough authority for a shared combat primitive.
-Encounter relationships, bespoke state advancement, tagged-target rules, and
-other local mechanics remain explicit blockers for encounter runtimes.
+The parser is conservative: local effects become standalone primitives, while
+formation-scoped ally effects retain explicit target tags/fallbacks for the
+formation runtime. Bespoke encounter relationships and state machinery remain
+blockers instead of being guessed.
 """
 from __future__ import annotations
 
@@ -21,6 +21,10 @@ class EnemyEffectParseResult:
     maximum_uses: int | None = None
     forced_follow_up: str | None = None
     forced_by_action: str | None = None
+    target_tags: tuple[str, ...] = ()
+    exclude_actor: bool = False
+    fallback_action: str | None = None
+    formation_required: bool = False
 
 
 _CORE_STAT_RE = re.compile(
@@ -39,6 +43,10 @@ _FOR_ROUNDS_RE = re.compile(r"\bfor\s+(\d+)\s+(?:full\s+)?(?:normal\s+)?rounds?\
 _ROUND_MIN_RE = re.compile(r"\bRound\s+(\d+)\s+or\s+later\s+only\b", re.I)
 _FORCED_FOLLOW_RE = re.compile(
     r"\blocks\s+\*\*([^*]+)\*\*\s+as\s+(?:the\s+)?[^\n.]*next\s+selected\s+action",
+    re.I,
+)
+_FALLBACK_RE = re.compile(
+    r"If\s+no\s+[^\n.]*?(?:is|are)\s+alive,\s*(?:\*\*)?([^\n.*]+?)(?:\*\*)?\s+is\s+selected\s+instead",
     re.I,
 )
 
@@ -82,28 +90,42 @@ def _core_changes(raw_text: str) -> dict[str, float]:
     return result
 
 
-def _target_side(raw_text: str, *, has_local_effect: bool) -> tuple[str | None, list[str]]:
+def _target_rule(
+    raw_text: str,
+    *,
+    has_local_effect: bool,
+) -> tuple[str | None, tuple[str, ...], bool, list[str]]:
     blockers: list[str] = []
     lowered = raw_text.lower()
     if re.search(r"target\s*:\s*\n?\s*>?\s*self\b", raw_text, re.I):
-        return "self", blockers
-    if re.search(r"one\s+(?:other\s+)?living\s+allied", raw_text, re.I):
-        if "construct" in lowered or "machine" in lowered:
-            blockers.append("effect target requires encounter roster tag")
-        return "ally", blockers
-    if re.search(r"all\s+(?:living\s+)?allied", raw_text, re.I):
-        if "construct" in lowered or "machine" in lowered:
-            blockers.append("effect target requires encounter roster tag")
-        return "ally_all", blockers
+        return "self", (), False, blockers
+
+    one_ally = re.search(r"one\s+(other\s+)?living\s+allied\s+([^\n.]+)", raw_text, re.I)
+    if one_ally:
+        descriptor = one_ally.group(2).lower()
+        tags: list[str] = []
+        if "construct" in descriptor:
+            tags.append("construct")
+        if "machine" in descriptor:
+            tags.append("machine")
+        return "ally", tuple(tags), bool(one_ally.group(1)), blockers
+
+    all_ally = re.search(r"all\s+(?:living\s+)?allied\s+([^\n.]+)", raw_text, re.I)
+    if all_ally:
+        descriptor = all_ally.group(1).lower()
+        tags: list[str] = []
+        if "construct" in descriptor:
+            tags.append("construct")
+        if "machine" in descriptor:
+            tags.append("machine")
+        return "ally_all", tuple(tags), False, blockers
+
     if "linked " in lowered or "recipient" in lowered or "formation relationship" in lowered:
         blockers.append("effect target/effect depends on encounter relationship")
-        return None, blockers
-    # Local stat/Guard-style effects without a printed external target modify
-    # the acting enemy. This follows the action's own local effect clause; no
-    # numeric magnitude or target substitution is invented.
+        return None, (), False, blockers
     if has_local_effect:
-        return "self", blockers
-    return None, blockers
+        return "self", (), False, blockers
+    return None, (), False, blockers
 
 
 def _forced_by_action(action_name: str, raw_text: str) -> str | None:
@@ -126,7 +148,10 @@ def parse_enemy_effect_action(action_name: str, raw_text: str) -> EnemyEffectPar
     direct_reduction = float(reduction_match.group(1)) / 100.0 if reduction_match else 0.0
     has_local_effect = bool(core_values or base_hit_match or heal_match or reduction_match)
 
-    target, target_blockers = _target_side(raw_text, has_local_effect=has_local_effect)
+    target, target_tags, exclude_actor, target_blockers = _target_rule(
+        raw_text,
+        has_local_effect=has_local_effect,
+    )
     blockers.extend(target_blockers)
 
     minimum_round = 1
@@ -138,10 +163,11 @@ def parse_enemy_effect_action(action_name: str, raw_text: str) -> EnemyEffectPar
     forced_follow_match = _FORCED_FOLLOW_RE.search(raw_text)
     forced_follow_up = forced_follow_match.group(1).strip() if forced_follow_match else None
     forced_by_action = _forced_by_action(action_name, raw_text)
+    fallback_match = _FALLBACK_RE.search(raw_text)
+    fallback_action = fallback_match.group(1).strip() if fallback_match else None
 
-    # Preparation/reload actions can be executable scheduler actions even when
-    # they have no immediate numeric battlefield effect.
     scheduler_only = forced_follow_up is not None or forced_by_action is not None
+    formation_required = target in {"ally", "ally_all"}
 
     if re.search(r"\bInterruptible\s+Preparation\b|formation relationship", raw_text, re.I):
         blockers.append("effect requires encounter-specific preparation/relationship runtime")
@@ -179,10 +205,11 @@ def parse_enemy_effect_action(action_name: str, raw_text: str) -> EnemyEffectPar
     if blockers:
         return EnemyEffectParseResult(
             None, tuple(dict.fromkeys(blockers)), minimum_round, maximum_uses,
-            forced_follow_up, forced_by_action,
+            forced_follow_up, forced_by_action, target_tags, exclude_actor,
+            fallback_action, formation_required,
         )
 
-    target_side = "self" if target == "self" else "ally"
+    target_side = "self" if target in {None, "self"} else "ally"
     target_scope = "all" if target == "ally_all" else "one"
     action = CombatAction(
         action_name,
@@ -194,6 +221,7 @@ def parse_enemy_effect_action(action_name: str, raw_text: str) -> EnemyEffectPar
     )
     return EnemyEffectParseResult(
         action, (), minimum_round, maximum_uses, forced_follow_up, forced_by_action,
+        target_tags, exclude_actor, fallback_action, formation_required,
     )
 
 
