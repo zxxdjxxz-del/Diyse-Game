@@ -1,0 +1,28 @@
+name: DiySim Standard Boss Rounds
+
+on:
+  push:
+    branches:
+      - tooling/diysim-phase1
+  workflow_dispatch:
+
+jobs:
+  standard_boss_rounds:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install test dependency
+        run: python -m pip install --upgrade pytest
+
+      - name: Gate standard profile definition
+        run: python -m pytest -q tests/diysim/test_standard_boss_profile.py
+
+      - name: Print standard cross-boss round report
+        run: python -m tools.diysim.reports.boss_rounds --runs 500 --seed 120
