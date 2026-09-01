@@ -1,0 +1,31 @@
+{
+  "max_rounds": 60,
+  "party": [
+    {
+      "name": "Test Crest Knight",
+      "stats": {"hp": 1200, "mp": 150, "attack": 100, "magic": 75, "defense": 90, "spirit": 80, "speed": 45},
+      "target_policy": "lowest_hp",
+      "actions": [
+        {"name": "Attack", "kind": "physical", "power": 100, "base_hit": 100, "crit_chance": 5, "weight": 3},
+        {"name": "Heavy Test", "kind": "physical", "power": 145, "base_hit": 92, "crit_chance": 5, "weight": 1}
+      ]
+    },
+    {
+      "name": "Test Blue Warden",
+      "stats": {"hp": 1050, "mp": 190, "attack": 75, "magic": 105, "defense": 80, "spirit": 95, "speed": 43},
+      "actions": [
+        {"name": "Magic Test", "kind": "magical", "power": 115, "base_hit": 100, "crit_chance": 5}
+      ]
+    }
+  ],
+  "enemies": [
+    {
+      "name": "Test Enemy",
+      "stats": {"hp": 2400, "mp": 0, "attack": 90, "magic": 70, "defense": 75, "spirit": 70, "speed": 40},
+      "evasion": 5,
+      "actions": [
+        {"name": "Enemy Strike", "kind": "physical", "power": 110, "base_hit": 100, "crit_chance": 5}
+      ]
+    }
+  ]
+}
