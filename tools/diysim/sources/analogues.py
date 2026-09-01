@@ -77,12 +77,6 @@ def _variant(text: str, school: str) -> tuple[int | None, int | None, str | None
         element = single.group(1).lower()
     elif aoe and aoe.group(1):
         element = aoe.group(1).lower()
-    elif school.casefold() == "hybrid":
-        # Hybrid owner prose writes the fixed analogue element directly before
-        # Power without repeating the word Hybrid.
-        hybrid_element = re.search(r"single-target record\s*[—-]\s*(Neutral|Colorless|Fire|Ice|Lightning|Earth|Ruin)\s*[—-]", block, re.I)
-        if hybrid_element:
-            element = hybrid_element.group(1).lower()
 
     return (
         int(single.group(2)) if single else None,
@@ -92,14 +86,17 @@ def _variant(text: str, school: str) -> tuple[int | None, int | None, str | None
     )
 
 
+def _agreed_value(values: tuple[int | None, ...]) -> int | None:
+    if any(value is None for value in values):
+        return None
+    concrete = {int(value) for value in values if value is not None}
+    return next(iter(concrete)) if len(concrete) == 1 else None
+
+
 def parse_functional_analogue_rule_text(raw_text: str) -> FunctionalAnalogueRuleSource:
     physical_single, physical_aoe, physical_element, physical_hit = _variant(raw_text, "Physical")
     magical_single, magical_aoe, magical_element, magical_hit = _variant(raw_text, "Magical")
     hybrid_single, hybrid_aoe, hybrid_element, hybrid_hit = _variant(raw_text, "Hybrid")
-
-    singles = {value for value in (physical_single, magical_single, hybrid_single) if value is not None}
-    aoes = {value for value in (physical_aoe, magical_aoe, hybrid_aoe) if value is not None}
-    hits = {value for value in (physical_hit, magical_hit, hybrid_hit) if value is not None}
 
     weights = re.search(
         r"Recorded Hybrid Analogue[\s\S]*?(\d+)%\s*ATK\s*/\s*(\d+)%\s*MAG",
@@ -128,9 +125,9 @@ def parse_functional_analogue_rule_text(raw_text: str) -> FunctionalAnalogueRule
 
     return FunctionalAnalogueRuleSource(
         raw_text=raw_text,
-        single_power=next(iter(singles)) if len(singles) == 1 and len(singles) == 3 - 2 else (next(iter(singles)) if len(singles) == 1 and all(v is not None for v in (physical_single, magical_single, hybrid_single)) else None),
-        aoe_power=next(iter(aoes)) if len(aoes) == 1 and all(v is not None for v in (physical_aoe, magical_aoe, hybrid_aoe)) else None,
-        base_hit=next(iter(hits)) if len(hits) == 1 and all(v is not None for v in (physical_hit, magical_hit, hybrid_hit)) else None,
+        single_power=_agreed_value((physical_single, magical_single, hybrid_single)),
+        aoe_power=_agreed_value((physical_aoe, magical_aoe, hybrid_aoe)),
+        base_hit=_agreed_value((physical_hit, magical_hit, hybrid_hit)),
         physical_element=physical_element,
         magical_element=magical_element,
         hybrid_element=hybrid_element,
