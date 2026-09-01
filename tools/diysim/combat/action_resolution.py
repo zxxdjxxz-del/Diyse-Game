@@ -74,7 +74,11 @@ def resolve_damage(actor: CombatUnit, action: CombatAction, target: CombatUnit, 
         crit=crit,
         direct_damage_reduction=target.template.direct_damage_reduction,
     )
-    damage = round_half_up(base * affinity_damage_multiplier(element_affinity(target, action.element)))
+    damage = round_half_up(
+        base
+        * affinity_damage_multiplier(element_affinity(target, action.element))
+        * action.final_damage_multiplier
+    )
     target.hp = max(0, target.hp - damage)
     if action.damage_kind == "physical" and target.has_status("freeze"):
         target.statuses.pop("freeze", None)
