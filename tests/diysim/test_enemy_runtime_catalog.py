@@ -73,6 +73,24 @@ def test_non_damage_and_triggered_behavior_is_not_silently_dropped():
     assert "no explicit Power-bearing action blocks detected" not in joined
 
 
+def test_reuse_body_is_not_misclassified_as_an_action():
+    definition = _definition("BLACK_HOST_CROSSBOWMAN.md")
+    assert definition.kind == "generic"
+    assert not any("Chapter-0 body:" in blocker for blocker in definition.blockers)
+    assert [action.source.name for action in definition.actions] == ["Crossbow Bolt", "Aimed Bolt"]
+
+
+def test_real_effect_action_survives_reuse_section_filtering():
+    definition = _definition("ARCHIVE_SCRIBE_ENGINE.md")
+    assert definition.kind == "blocked"
+    joined = "\n".join(definition.blockers)
+    assert "Record Stabilization: non-damage effect requires runtime handler" in joined
+    assert "Chapter-10 Eastern Wayfinder body:" not in joined
+    assert [action.source.name for action in definition.actions] == [
+        "Scribe Beam", "Index Burst", "Record Stabilization"
+    ]
+
+
 def test_support_files_are_components_not_false_enemy_failures():
     definition = _definition("ZEVRAYA_LIFE_FORCE_RESERVOIRS.md")
     assert definition.kind == "component"
