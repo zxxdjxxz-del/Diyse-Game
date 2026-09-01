@@ -37,6 +37,21 @@ class EnabledActionReferenceResolution:
         )
 
 
+def _normalize_enabled_name(value: str) -> str:
+    name = value.strip().strip("*`")
+    # Capability summaries may qualify an enabled action without changing its
+    # actual owner heading, e.g. "if inherited, Perfected Siphon". Strip only
+    # the known conditional prefix so owner lookup remains exact and does not
+    # silently fuzzy-match arbitrary prose.
+    name = re.sub(
+        r"^(?:if\s+(?:inherited|surviving|survived),\s*)",
+        "",
+        name,
+        flags=re.I,
+    )
+    return name.strip()
+
+
 def enabled_damage_action_names(block: str) -> tuple[str, ...]:
     """Extract damaging action names from an `Enables:` capability summary."""
     if not re.search(r"(?:^|\n)Enables:\s*$", block, re.I | re.M):
@@ -49,7 +64,7 @@ def enabled_damage_action_names(block: str) -> tuple[str, ...]:
             re.I,
         )
         if match:
-            names.append(match.group(1).strip().strip("*`"))
+            names.append(_normalize_enabled_name(match.group(1)))
     return tuple(dict.fromkeys(names))
 
 
