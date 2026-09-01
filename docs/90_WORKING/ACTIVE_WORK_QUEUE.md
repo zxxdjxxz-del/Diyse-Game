@@ -3,7 +3,7 @@
 This queue tracks unresolved/reopened work only. Closed owner-domain values remain closed unless a current test demonstrates a specific failure.
 
 ## 1 — Representative True-Battle Certification
-**ACTIVE — v100 complete; Rhazek → Bastion Devourer next**
+**ACTIVE — v101 complete; Vaelkor → Sovereign Panoply Unbound next**
 
 Closed prerequisites:
 - enemy direct-damage Power audit — **CLOSED**;
@@ -15,12 +15,13 @@ Certified representative anchors:
 - Hollow Watch Castellan — **PASS / RETAIN v93**;
 - Archive Leviathan — **PASS / RETAIN v97**;
 - Regulation Crucible → The Seventh Reaction — **PASS / RETAIN v99**;
-- Warden of the Nameless / Revision Arbiter — **PASS / RETAIN v100**.
+- Warden of the Nameless / Revision Arbiter — **PASS / RETAIN v100**;
+- Commander Rhazek — Reforged Commander → Bastion Devourer — **PASS / RETAIN v101**.
 
 Next anchor:
-> **Commander Rhazek — Reforged Commander → Bastion Devourer**
+> **Emperor Vaelkor Draeven — Emperor of the Reforged Host → Sovereign Panoply Unbound**
 
-Then continue representative coverage through Vaelkor, the final mandatory boss, and The Unfinished World.
+Then continue representative coverage through the final mandatory boss and The Unfinished World. Calder → Crown-Bound Living Anchor remains an optional added representative if a dedicated support-object/fresh-body case is useful before suite closure.
 
 All true-battle tests must use the exact current party state and current combat rules at that story point, including current Bleed escalation, current Prime one-use-until-restored economy, and the 2-full-normal-round post-dismissal Prime spacing rule. Do not reopen a closed global value merely because a test is being run; retune only a specific component if reproducible testing demonstrates a structural failure.
 
