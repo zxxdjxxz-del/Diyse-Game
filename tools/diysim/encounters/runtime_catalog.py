@@ -50,6 +50,14 @@ _POWER_AUTHORITY = re.compile(
     r"(?im)(?:^|\n)\s*(?:>\s*)?(?:[-*]\s*)?(?:\*\*)?Power(?:\*\*)?\s*:?\s*(?:\*\*)?(?:\d+(?:\.\d+)?|N/?A)\b"
     r"|\b\d+(?:\.\d+)?\s+Power(?:\s+per\s+target)?\b"
 )
+_ACTION_LEAD = re.compile(
+    r"^(?:>\s*)?(?:[-*]\s*)?(?:\*\*)?(?:"
+    r"Power\b|Target\s*:|one\s+(?:conscious\s+|active\s+|established\s+)*party\s+member\b|"
+    r"all\s+(?:conscious\s+|active\s+)*party\s+members\b|Physical\b|Magical\b|Hybrid\b|"
+    r"Passive\b|On[- ]defeat\b|Trigger(?:ed)?\b"
+    r")",
+    re.I,
+)
 _TRIGGER_ONLY = re.compile(
     r"\bpassive\b|\bon[- ]defeat\b|\btrigger(?:ed| only)?\b|not an ordinary selected action",
     re.I,
@@ -157,15 +165,35 @@ def _first_stat_row(text: str):
     return parse_stat_row(rows[0])
 
 
+def _first_content_line(body: str) -> str:
+    for raw_line in body.splitlines():
+        line = raw_line.strip()
+        if line:
+            return line
+    return ""
+
+
+def _looks_like_action_section(body: str) -> bool:
+    """Require combat-shaped content directly beneath the candidate heading.
+
+    This prevents stat/reuse/architecture sections from becoming fake actions
+    merely because they contain an inline action summary later in the section.
+    Real standalone H2 actions remain valid because their first content line is
+    an authored target, damage axis, Power declaration, or trigger declaration.
+    """
+    first_line = _first_content_line(body)
+    return bool(first_line and _ACTION_LEAD.search(first_line))
+
+
 def _action_blocks(text: str) -> tuple[tuple[str, str], ...]:
-    """Return H2-H5 blocks that contain explicit numeric/N/A Power authority."""
+    """Return H2-H5 action blocks with local explicit Power authority."""
     matches = list(re.finditer(r"^(#{2,5})\s+(.+?)\s*$", text, re.M))
     result: list[tuple[str, str]] = []
     for index, match in enumerate(matches):
         start = match.end()
         end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
         body = text[start:end].strip()
-        if not _POWER_AUTHORITY.search(body):
+        if not _looks_like_action_section(body) or not _POWER_AUTHORITY.search(body):
             continue
         name = re.sub(r"\*+", "", match.group(2)).strip()
         result.append((name, body))
