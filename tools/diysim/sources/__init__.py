@@ -15,6 +15,7 @@ from .markdown import (
     find_line_value,
     find_markdown_table,
 )
+from .party import PartyRules, load_party_rules
 from .repo import RepoSourceError, SourceGapError, find_repo_root, read_repo_text
 from .traits import TraitRankSource, TraitSource, load_trait_registry, load_trait_source
 
@@ -25,6 +26,7 @@ __all__ = [
     "EnemyRegistryEntry",
     "EnemySystemRules",
     "MissingWeightSelection",
+    "PartyRules",
     "RepoSourceError",
     "SourceAuditIssue",
     "SourceAuditReport",
@@ -46,6 +48,7 @@ __all__ = [
     "load_enemy_registry",
     "load_enemy_system_rules",
     "load_named_action_source",
+    "load_party_rules",
     "load_stat_row",
     "load_stat_table",
     "load_trait_registry",
