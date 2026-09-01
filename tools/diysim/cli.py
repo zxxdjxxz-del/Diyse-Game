@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 
+from .battle import simulate_advanced
 from .core import (
     CLASS_MULTIPLIERS,
     adjusted_hit_chance,
@@ -14,7 +15,7 @@ from .core import (
     simulate,
     sweep_enemy_stats,
 )
-from .io import load_progression_route, load_scenario
+from .io import load_advanced_scenario, load_progression_route, load_scenario
 from .progression import project_progression, required_average_exp_per_encounter
 
 
@@ -26,7 +27,7 @@ def _csv_floats(value: str) -> list[float]:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(prog="diysim", description="Diyse balance calculation and direct-battle simulator")
+    parser = argparse.ArgumentParser(prog="diysim", description="Diyse balance calculation and battle simulator")
     sub = parser.add_subparsers(dest="command", required=True)
 
     stats = sub.add_parser("stats", help="calculate natural stats")
@@ -58,10 +59,15 @@ def build_parser() -> argparse.ArgumentParser:
     damage.add_argument("--crit", action="store_true")
     damage.add_argument("--reduction", type=float, default=0)
 
-    sim = sub.add_parser("simulate", help="run Monte Carlo direct-battle tests")
+    sim = sub.add_parser("simulate", help="run Phase 1 Monte Carlo direct-battle tests")
     sim.add_argument("scenario")
     sim.add_argument("--runs", type=int, default=10_000)
     sim.add_argument("--seed", type=int, default=1)
+
+    advanced = sub.add_parser("simulate-advanced", help="run Phase 2 MP/element/status/healing battle tests")
+    advanced.add_argument("scenario")
+    advanced.add_argument("--runs", type=int, default=10_000)
+    advanced.add_argument("--seed", type=int, default=1)
 
     sweep = sub.add_parser("sweep", help="sweep enemy HP/ATK/DEF multipliers")
     sweep.add_argument("scenario")
@@ -113,6 +119,9 @@ def main(argv: list[str] | None = None) -> int:
         ))
     elif args.command == "simulate":
         summary = simulate(load_scenario(args.scenario), runs=args.runs, seed=args.seed)
+        print(json.dumps(summary.as_dict(), indent=2))
+    elif args.command == "simulate-advanced":
+        summary = simulate_advanced(load_advanced_scenario(args.scenario), runs=args.runs, seed=args.seed)
         print(json.dumps(summary.as_dict(), indent=2))
     elif args.command == "sweep":
         rows = sweep_enemy_stats(
