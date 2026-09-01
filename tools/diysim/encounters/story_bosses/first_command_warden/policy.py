@@ -1,7 +1,7 @@
 """Conservative repo-backed party policy for First Command Warden sensitivity runs."""
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from functools import lru_cache
 from pathlib import Path
 import re
@@ -11,6 +11,7 @@ from tools.diysim.combat.models import CombatAction, CombatUnit, StatusRider
 from tools.diysim.sources import (
     SourceGapError,
     load_ability_source,
+    load_trait_source,
     parse_authored_action_text,
     read_repo_text,
 )
@@ -34,6 +35,7 @@ class WardenPartyActions:
     cinder_shot: CombatAction
     weave_burst: CombatAction
     mend: CombatAction
+    gentle_continuance_bonus: float
     basic_attack: CombatAction
 
     def offensive_for(self, character: str) -> CombatAction:
@@ -94,6 +96,17 @@ def _mend(*, root: Path | None = None) -> CombatAction:
     )
 
 
+def _gentle_continuance_bonus(*, root: Path | None = None) -> float:
+    trait = load_trait_source(class_name="Blue Warden", root=root)
+    rank_one = next((rank for rank in trait.ranks if rank.label == "Rank I"), None)
+    if rank_one is None:
+        raise SourceGapError("Blue Warden / Gentle Continuance lacks Rank I authority")
+    match = re.search(r"additional \*\*(\d+)% target Max HP\*\*", rank_one.effect, re.I)
+    if not match:
+        raise SourceGapError("Blue Warden / Gentle Continuance lacks exact Rank-I healing bonus")
+    return int(match.group(1)) / 100.0
+
+
 @lru_cache(maxsize=4)
 def load_warden_party_actions(*, root: Path | None = None) -> WardenPartyActions:
     """Parse the immutable v105 player-action package once per source root."""
@@ -103,6 +116,7 @@ def load_warden_party_actions(*, root: Path | None = None) -> WardenPartyActions
         cinder_shot=_direct_action("Cinder Shot", "War Archer", root=root),
         weave_burst=_direct_action("Weave Burst", "Cardweaver", root=root),
         mend=_mend(root=root),
+        gentle_continuance_bonus=_gentle_continuance_bonus(root=root),
         basic_attack=basic_attack_action(),
     )
 
@@ -130,7 +144,17 @@ def choose_player_action(
             and heal_target.hp / heal_target.max_hp < config.mend_below_hp_fraction
             and actor.mp >= actions.mend.mp_cost
         ):
-            return "Ability", actions.mend, heal_target
+            mend = actions.mend
+            # Gentle Continuance Rank I applies to the first direct-healing
+            # Ability each round when the target began the action below 50% HP.
+            # This policy never uses another direct-healing Ability in the same
+            # round, so a qualifying Mend is always that first heal.
+            if heal_target.hp / heal_target.max_hp < 0.50:
+                mend = replace(
+                    mend,
+                    heal_max_hp_percent=mend.heal_max_hp_percent + actions.gentle_continuance_bonus,
+                )
+            return "Ability", mend, heal_target
 
     offensive = actions.offensive_for(actor.template.name)
     can_ability = actor.mp >= offensive.mp_cost
