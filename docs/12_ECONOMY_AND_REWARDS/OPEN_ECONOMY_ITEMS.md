@@ -8,11 +8,10 @@ Still open / do not guess:
 3. final formal synchronization of the current working **9 Regional Markets** count;
 4. exact vendor NPC identity/presentation for several endpoints;
 5. optional additional finite copies of Reservoir Tonic / Emergency Kit / Emergency Rally;
-6. comprehensive random Consumable-drop probabilities, if any;
-7. exact direct-currency chest placement/value map;
-8. currency icon/symbol/glyph;
-9. runtime shop IDs, stock table schema, save persistence and price UI formatting;
-10. exact Kessara Relic-copy menu timing / original-vs-copy UI presentation.
+6. exact direct-currency chest placement/value map;
+7. currency icon/symbol/glyph;
+8. runtime shop IDs, stock table schema, save persistence and price UI formatting;
+9. exact Kessara Relic-copy menu timing / original-vs-copy UI presentation.
 
 ## Newly closed
 - full Chapter 1–13 ordinary-formation Auren bands — **LOCKED** in `CAMPAIGN_INCOME_BANDS.md`;
@@ -27,8 +26,9 @@ Still open / do not guess:
 - exact economic add-ons for all six Character Quests — **LOCKED** in `CHARACTER_QUEST_REWARD_BOUNDARY.md`: **2,220 direct Auren + 2,400 Auren-equivalent normal-stock Consumables**, in addition to their six Legacy Components;
 - exact first-clear Auren for all 11 Regional Hunts — **LOCKED** in `REGIONAL_HUNT_REWARD_BOUNDARY.md`, totaling **5,280 Auren**;
 - exact first-clear Auren for all six Major Hunts — **LOCKED** in `MAJOR_HUNT_REWARD_BOUNDARY.md`, totaling **6,200 Auren**, in addition to six already-Awakened Prime rewards and other authored handoffs;
-- normal-stock Consumable resale — **LOCKED** in `CONSUMABLE_SELL_RULE.md` at approximately 25% of purchase price, rounded down to 5-Auren steps with a 5-Auren floor; reward-only Consumables are not sellable;
+- normal-stock Consumable resale — **LOCKED** in `CONSUMABLE_SELL_RULE.md`; reward-only Consumables are not sellable;
 - Kessara Relic-copy service fee — **LOCKED at 600 Auren per successful copy** in `KESSARA_RELIC_COPY_ECONOMY.md`;
-- fixed authored non-boss encounter Auren handling — **LOCKED** in `ENEMY_REWARD_HANDOFF.md`: formation/event-level reward only; Chapter 0, Hold the Junction, and S018 lawful-authority confrontations pay **0 direct Auren**; unresolved story-placement-dependent identities remain deferred.
+- fixed authored non-boss encounter Auren handling — **LOCKED** in `ENEMY_REWARD_HANDOFF.md`; unresolved story-placement-dependent identities remain deferred;
+- random ordinary-enemy Consumable/equipment/material drops — **NONE**; ordinary enemy rewards use deterministic Auren plus explicitly authored guaranteed rewards only.
 
 An open line does not license restoration of an older retired answer.
