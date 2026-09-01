@@ -68,6 +68,7 @@ def _normalize_dynamic_element_source(token: str) -> str | None:
     aliases = {
         "current expression": "current_expression",
         "current element": "current_element",
+        "current standard element": "current_standard_element",
         "current gallery element": "current_gallery_element",
         "current visible standard element": "current_visible_standard_element",
         "assigned element": "assigned_element",
@@ -109,6 +110,19 @@ def _parse_dynamic_element_from_prose(raw_text: str) -> str | None:
             source = _normalize_dynamic_element_source(match.group(1))
             if source is not None:
                 return source
+
+    # Some current owner sheets put the dynamic identity on its own authored
+    # line immediately after the damage school, e.g. "Magical" followed by
+    # "current inherited element". This is a declaration, not a fallback.
+    for line in raw_text.splitlines():
+        token = line.strip().lstrip("- ").strip().strip("*.,:;— ")
+        source = _normalize_dynamic_element_source(token)
+        if source is not None and re.fullmatch(
+            r"(?:current|assigned|selected|chosen|that|currently active|current active)[^\n]*(?:element|expression|forecast)",
+            token,
+            re.I,
+        ):
+            return source
     return None
 
 
@@ -167,7 +181,27 @@ def _parse_damage_identity(raw_text: str) -> tuple[str | None, str | None, str |
     return damage_kind, None, None, None, physical_weight, magical_weight
 
 
+def _explicit_target_scope(raw_text: str) -> str | None:
+    """Read the action's direct target declaration before explanatory prose."""
+    patterns = (
+        ("all", r"^\s*-?\s*(?:target\s*:\s*)?all (?:conscious )?(?:active )?party members\b"),
+        ("one", r"^\s*-?\s*target\s*:\s*one (?:established |conscious |active )*party member\b"),
+        ("one", r"^\s*-?\s*one (?:established |conscious |active )*party member\b"),
+        ("one", r"^\s*-?\s*(?:fixed |visibly fixed )?(?:marked )?target\s*:\s*one\b"),
+    )
+    matches: list[str] = []
+    for scope, pattern in patterns:
+        if re.search(pattern, raw_text, re.I | re.M):
+            matches.append(scope)
+    unique = set(matches)
+    return next(iter(unique)) if len(unique) == 1 else None
+
+
 def _parse_target_scope(raw_text: str) -> str | None:
+    explicit = _explicit_target_scope(raw_text)
+    if explicit is not None:
+        return explicit
+
     lowered = re.sub(r"\s+", " ", raw_text.lower())
     all_patterns = (
         "all conscious party members",
