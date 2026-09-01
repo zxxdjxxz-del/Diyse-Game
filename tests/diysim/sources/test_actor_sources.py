@@ -24,6 +24,34 @@ def test_stat_source_preserves_absent_fields_as_absent() -> None:
     assert not source.has("magic")
 
 
+def test_explicit_missing_stat_marker_preserves_partial_row_without_zero_fill() -> None:
+    source = parse_stat_row(
+        {
+            "HP": "38,800",
+            "ATK": "221",
+            "MAG": "246",
+            "DEF": "166",
+            "Spirit": "178",
+            "SPD": "53",
+            "EVA": "—",
+            "SR": "10",
+        }
+    )
+
+    assert source.require("hp", "attack", "magic", "defense", "spirit", "speed", "status_resistance") == {
+        "hp": 38800,
+        "attack": 221,
+        "magic": 246,
+        "defense": 166,
+        "spirit": 178,
+        "speed": 53,
+        "status_resistance": 10,
+    }
+    assert not source.has("evasion")
+    with pytest.raises(SourceGapError, match="evasion"):
+        source.require("evasion")
+
+
 def test_stat_source_requires_explicit_fields_without_zero_fill() -> None:
     source = parse_stat_row({"HP": "100", "DEF": "22", "Spirit": "28"})
 
