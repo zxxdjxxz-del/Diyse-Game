@@ -8,6 +8,7 @@ from tools.diysim.overlays import (
     apply_enemy_balance_overlay,
     scale_direct_damage_power,
     scale_effective_core_stat_level,
+    scale_selected_core_stat_level,
 )
 from tools.diysim.progression import Stats
 
@@ -59,6 +60,24 @@ def test_v106_plus5_matches_first_command_warden_reference_line() -> None:
     assert owner.stats.attack == 72
 
 
+def test_selected_core_stat_level_can_raise_offense_without_durability() -> None:
+    owner = _warden()
+    scaled = scale_selected_core_stat_level(
+        owner.stats,
+        displayed_level=14,
+        level_offset=5,
+        stat_keys=("attack", "magic"),
+    )
+
+    assert scaled.attack == 90
+    assert scaled.magic == 90
+    assert scaled.defense == owner.stats.defense == 43
+    assert scaled.spirit == owner.stats.spirit == 43
+    assert scaled.speed == owner.stats.speed == 30
+    assert scaled.hp == owner.stats.hp == 2850
+    assert scaled.mp == owner.stats.mp == 0
+
+
 def test_combined_overlay_is_non_destructive_and_preserves_non_target_fields() -> None:
     owner = _warden()
     overlay = BalanceOverlay(
@@ -89,6 +108,43 @@ def test_combined_overlay_is_non_destructive_and_preserves_non_target_fields() -
     assert owner.actions[1].power == 140
 
 
+def test_split_overlay_can_raise_offense_only() -> None:
+    owner = _warden()
+    candidate = apply_enemy_balance_overlay(
+        owner,
+        overlay=BalanceOverlay(
+            direct_damage_power_multiplier=1.20,
+            offensive_stat_level_offset=5,
+        ),
+        displayed_level=14,
+    )
+
+    assert candidate.stats.attack == 90
+    assert candidate.stats.magic == 90
+    assert candidate.stats.defense == 43
+    assert candidate.stats.spirit == 43
+    assert candidate.stats.speed == 30
+    assert candidate.actions[0].power == pytest.approx(228.0)
+
+
+def test_split_overlay_can_raise_defense_and_speed_independently() -> None:
+    owner = _warden()
+    candidate = apply_enemy_balance_overlay(
+        owner,
+        overlay=BalanceOverlay(
+            defensive_stat_level_offset=5,
+            speed_stat_level_offset=5,
+        ),
+        displayed_level=14,
+    )
+
+    assert candidate.stats.attack == 72
+    assert candidate.stats.magic == 72
+    assert candidate.stats.defense == 53
+    assert candidate.stats.spirit == 53
+    assert candidate.stats.speed == 33
+
+
 def test_overlay_requires_enemy_and_displayed_level_when_needed() -> None:
     party = Combatant("Party", "party", Stats(100, 20, 20, 20, 20, 20, 20))
     with pytest.raises(ValueError):
@@ -101,4 +157,16 @@ def test_overlay_requires_enemy_and_displayed_level_when_needed() -> None:
         )
 
     with pytest.raises(ValueError):
+        apply_enemy_balance_overlay(
+            _warden(),
+            overlay=BalanceOverlay(offensive_stat_level_offset=5),
+        )
+
+    with pytest.raises(ValueError):
         BalanceOverlay(direct_damage_power_multiplier=0)
+
+    with pytest.raises(ValueError):
+        BalanceOverlay(
+            effective_stat_level_offset=5,
+            offensive_stat_level_offset=5,
+        )
