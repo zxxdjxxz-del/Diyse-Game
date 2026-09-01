@@ -116,21 +116,29 @@ Current Face-themed enemy terminology includes **Memory Schema** and **Perceptio
 Completed:
 - Hollow Watch Castellan — **PASS / RETAIN v93**;
 - Archive Leviathan — **PASS / RETAIN v97**;
-- Regulation Crucible → The Seventh Reaction — **PASS / RETAIN v99**.
+- Regulation Crucible → The Seventh Reaction — **PASS / RETAIN v99**;
+- Warden of the Nameless / Revision Arbiter — **PASS / RETAIN v100**.
 
-Regulation v99 retained:
-- Form-I HP **2,400**;
-- Form-II HP **2,900**;
-- all current raw stats/Powers/chamber architecture.
+Revision Arbiter v100 retained:
+- HP **7,600** and all current raw stats/Powers;
+- 3 Closed Record Assertion Layers;
+- Revision Claim command-variation tax;
+- 2 Open Revision Layers;
+- all current status chances and repetition locks.
 
-Strict prepared mandatory Lv15 benchmark:
-- no Prime: **100% wins / median 18**;
-- one legal Recovered Last Sentinel use: **100% wins / median 14**.
+Strict prepared mandatory Lv30 benchmark:
+- no Prime: **100% wins / median 11 / mean 10.76 / P90 12** over 20,000 runs;
+- one Awakened Last Sentinel manifestation: **100% wins / median 9 total combat rounds / mean 9.43 / P90 11** over 10,000 runs;
+- no-Prime any-KO incidence **0.005%**, with **0 defeats**.
+
+Completionist Lv34 reference:
+- no Prime: **median 8 / mean 8.01 / P90 9**;
+- with Last Sentinel: **median 8 / mean 7.86 / P90 9**.
 
 Current next representative anchor:
-> **Warden of the Nameless / Revision Arbiter — Chapter 7 — mandatory Lv30 / completionist Lv34**
+> **Commander Rhazek — Reforged Commander → Bastion Devourer — Chapter 9 — mandatory Lv40 / completionist Lv49**
 
-The Revision Arbiter test must use current Awakened Prime sequencing and the current persistent-spend Prime model.
+That next test must specifically validate a genuine fresh Form II under the current persistent-spend Prime model: the Bastion Devourer receives fresh HP, but the transition does **not** restore a spent Prime identity, and the separate post-dismissal two-full-normal-round spacing rule remains in force.
 
 Detailed balance status:
 - `../16_BALANCE_AND_TESTING/BALANCE_CLOSURE_STATUS.md`
