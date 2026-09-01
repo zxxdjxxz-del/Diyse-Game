@@ -27,6 +27,8 @@ def build_parser() -> argparse.ArgumentParser:
 
     readiness = sub.add_parser("audit-readiness", help="scan enemy/boss/Hunt owner files for simulation blockers")
     readiness.add_argument("--summary-only", action="store_true", help="omit per-file detail")
+    readiness.add_argument("--issues-only", action="store_true", help="print only the filtered blocker list")
+    readiness.add_argument("--severity", choices=("all", "source_gap", "parser_gap"), default="all")
     readiness.add_argument("--strict", action="store_true", help="return exit code 2 when any source/parser gap is found")
 
     stats = sub.add_parser("stats", help="calculate natural stats from current repo authority")
@@ -102,7 +104,8 @@ def main(argv: list[str] | None = None) -> int:
         return 0 if report.ok else 2
     if args.command == "audit-readiness":
         report = audit_simulation_readiness()
-        print(json.dumps(report.as_dict(include_files=not args.summary_only), indent=2))
+        payload = report.issues_dict(args.severity) if args.issues_only else report.as_dict(include_files=not args.summary_only)
+        print(json.dumps(payload, indent=2))
         if args.strict and (report.source_gaps or report.parser_gaps):
             return 2
         return 0
