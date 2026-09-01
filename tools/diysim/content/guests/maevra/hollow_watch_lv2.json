@@ -3,7 +3,11 @@
   "character": "Maevra",
   "content_family": "guest_snapshot",
   "story_point": "chapter_1_s008_hollow_watch",
-  "source": "docs/16_BALANCE_AND_TESTING/TRUE_BATTLES/HOLLOW_WATCH_CASTELLAN_TRUE_BATTLE_v93.md",
+  "definition_ref": "content/guests/maevra/owner.json",
+  "sources": [
+    "docs/16_BALANCE_AND_TESTING/TRUE_BATTLES/HOLLOW_WATCH_CASTELLAN_TRUE_BATTLE_v93.md",
+    "Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md — recovered File Library source"
+  ],
   "player_level_reference": 2,
   "stats": {
     "hp": 267,
@@ -20,13 +24,11 @@
   "standard_cards": [],
   "primes": [],
   "starting_state": {"hp": "full", "mp": "full"},
-  "known_action_evidence": {
-    "basic_attack": {"power": 100, "base_hit": 100},
-    "Linebreaker": {
-      "mp_cost": 10,
-      "power": null,
-      "status": "SOURCE_RECOVERY_REQUIRED",
-      "note": "v93 proves two uses consume 20 MP total, but exact authored Power/effects must be recovered rather than inferred from sample damage."
-    }
+  "hollow_watch_policy_actions": {
+    "primary_premium_action": "Linebreaker Thrust",
+    "linebreaker_mp_cost": 10,
+    "linebreaker_power": 165,
+    "linebreaker_defense_penetration": 0.15,
+    "fallback": "Spear Attack"
   }
 }
