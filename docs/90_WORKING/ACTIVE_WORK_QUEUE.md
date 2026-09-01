@@ -3,7 +3,7 @@
 This queue tracks unresolved/reopened work only. Closed owner-domain values remain closed unless a current test demonstrates a specific failure.
 
 ## 1 — Mandatory-Route Enemy Difficulty Recalibration
-**ACTIVE — v104 global +20% enemy direct-Power sensitivity**
+**ACTIVE — v104 global +20% enemy direct-Power sensitivity / boss-local retune list forming**
 
 User-directed correction:
 > **The mandatory route should be harder, with more KOs when the player has skipped optional progression.**
@@ -11,27 +11,9 @@ User-directed correction:
 Current global sensitivity hypothesis:
 > **Enemy direct-damage Power × 1.20**
 
-This is a test layer, not yet a wholesale owner-file rewrite.
+This remains a test layer, not yet a wholesale owner-file rewrite.
 
-Scope:
-- ordinary enemies;
-- Elites;
-- authored/protected hostile combatants;
-- mandatory named/story bosses;
-- Regional Hunts;
-- Major Hunts;
-- hostile support actors/objects when they deal ordinary direct damage.
-
-Unchanged during the sensitivity pass:
-- HP/raw stats;
-- status chances/magnitudes;
-- fixed or %Max-HP damage;
-- AI/turn count;
-- encounter composition;
-- boss architecture;
-- player equipment.
-
-Core mandatory-vs-completionist comparison rule:
+Core comparison rule:
 - mandatory and completionist use the **same ordinary equipment**;
 - same normal-stock consumables;
 - same active party and competent tactical policy;
@@ -39,30 +21,67 @@ Core mandatory-vs-completionist comparison rule:
 - route differences come primarily from actual Player Level / CEXP / learned abilities;
 - KO/wipe/resource pressure matters more than merely proving the fight can be won.
 
-Current first anchor:
-> **Deepforge Colossus — Assembly Frame → Worldsmith Body — Chapter 5**
-
 Working reports:
 - `../16_BALANCE_AND_TESTING/TRUE_BATTLES/CH5_DEEPFORGE_DIFFICULTY_RECALIBRATION_WORKING_v103.md`
 - `../16_BALANCE_AND_TESTING/TRUE_BATTLES/CH5_DEEPFORGE_ASSEMBLY_TUNING_CANDIDATE_v103.md`
 - `../16_BALANCE_AND_TESTING/GLOBAL_ENEMY_POWER_20_PERCENT_SENSITIVITY_v104.md`
+- `../16_BALANCE_AND_TESTING/CH6_ENEMY_POWER_20_PERCENT_SENSITIVITY_v104.md`
+- `../16_BALANCE_AND_TESTING/CH7_ENEMY_POWER_20_PERCENT_SENSITIVITY_v104.md`
 
-Known evidence before the +20% global pass:
-- current mandatory Lv20 Deepforge competent line — **100% wins / 0.095% any-KO** over 20,000 runs;
-- current completionist Lv22 same gear — **100% wins / 0.005% any-KO**;
-- preferred v103 structural candidate at ~+15% Power produced mandatory rush **37.37% any-KO / 3.335% wipes**, while same-gear Lv22 completionist rush remained **0.58% any-KO / 0 observed wipes**.
+### Current evidence
+**Chapter 5 ordinary formations:**
+- +20% increases attrition/focus pressure without producing routine encounter-isolation wipes;
+- late Forge Lock rose only to ~0.22% any-KO in the full-status isolation sample.
 
-The v104 scalar is only about **4.35% more direct damage** than that preferred +15% structural candidate, while remaining far below the earlier rejected +45% brute-force sensitivity.
+**Deepforge Colossus — structural assembly candidate + ×1.20:**
+- Lv20 mandatory rush — **92.82% wins / 48.98% any-KO / 7.18% wipes**;
+- Lv20 mandatory dismantle — **99.56% wins / 21.74% any-KO / 0.44% wipes**;
+- Lv22 completionist same gear rush — **100% wins / 1.96% any-KO**;
+- Lv22 completionist same gear dismantle — **100% wins / 1.02% any-KO**.
 
-Important Deepforge dependency:
-> the Guard Press / Repair Arm action-density problem still requires the structural assembly rewrite; the +20% scalar alone does not fix that incentive.
+This is the first strong desired difficulty profile.
+
+**Furnace Tyrant:**
+- global ×1.20 helps but remains too safe under competent play;
+- local boss tuning still required.
+
+**Crownstorm Roc:**
+- Lv23 mandatory ×1.20 smart line remains around **0.8% any-KO / ~0.02% wipes** in the calibrated sensitivity;
+- local boss tuning required.
+
+**Matron Zevraya:**
+- current Reservoir support-action structure has the same action-density inversion problem discovered in Deepforge;
+- non-diluting structural sensitivity + ×1.20 produces approximately **44% any-KO / 0.6% wipes** on Lv24 mandatory dismantle and **9% any-KO / 0 observed wipes** on Lv27 same-gear completionist dismantle;
+- structural candidate is promising but not owner canon.
+
+**Revision Arbiter:**
+- historical v100 mandatory result was **1 KO / 20,000**;
+- calibrated ×1.20 sensitivity still lands only around **0.2–0.3% any-KO** with no meaningful wipe tail;
+- even large boss-only Power escalation remains inefficient because the encounter contains many low-pressure/action-tax turns;
+- local pressure/mechanic tuning required.
+
+### Current design conclusion
+Do **not** keep raising the whole-roster scalar to fix weak bosses.
+
+Working two-layer model:
+1. **global enemy direct-damage floor around ×1.20**;
+2. **boss-specific action-density / mechanic / offensive tuning on top of that floor**.
+
+The +20% global hypothesis remains strongly promising for ordinary enemies and structurally sound encounters.
+
+### Boss-local retune list opened by v104
+- Furnace Tyrant
+- Crownstorm Roc
+- Matron Zevraya — Reservoir action-density correction
+- Revision Arbiter
+- later Rhazek / Vaelkor to be rechecked under the same model
 
 Next balance actions:
-1. test early ordinary formations under the +20% scalar for opening-round spike safety;
-2. rerun Deepforge same-gear Lv20 vs Lv22 with the assembly correction and +20% scalar;
-3. carry the same scalar through later representative chapter bosses;
-4. identify specific outliers that need less/more than the global baseline;
-5. only after the late-game curve is anchored, return to Reconstituted Entity → The Last Command.
+1. use the established Rhazek true-battle harness as the next late-game ×1.20 representative;
+2. then recheck Vaelkor;
+3. decide whether ×1.20 can be promoted as the global enemy direct-Power baseline;
+4. return to the boss-local retune list rather than increasing the universal scalar beyond 20%;
+5. only after the late-game mandatory curve is anchored, return to Reconstituted Entity → The Last Command.
 
 Prior v93–v102 reports remain valid historical measurements and mechanical-rule evidence. From Chapter 5 onward, their old difficulty PASS/RETAIN verdicts are provisional under the new standard.
 
