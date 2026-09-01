@@ -1,5 +1,6 @@
 """Read authoritative Diyse source files from the checked-out repository."""
 from __future__ import annotations
+from functools import lru_cache
 from pathlib import Path
 
 
@@ -11,7 +12,15 @@ class SourceGapError(RepoSourceError):
     """Raised when a required authoritative value is absent from the repo."""
 
 
+@lru_cache(maxsize=16)
 def find_repo_root(start: Path | None = None) -> Path:
+    """Locate the repository root once per distinct starting path.
+
+    Combat resolution asks repo-backed source adapters for cached rule objects
+    very frequently. Root discovery is filesystem topology, not gameplay state,
+    so caching it avoids repeated Path.resolve()/is_file() walks during large
+    Monte Carlo batches without caching any mutable combat content.
+    """
     path = (start or Path(__file__)).resolve()
     if path.is_file():
         path = path.parent
