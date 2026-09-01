@@ -1,5 +1,6 @@
-"""Diyse balance simulator Phase 1."""
+"""Diyse balance simulator working package."""
 
+from .battle import AdvancedBattleOutcome, run_advanced_battle
 from .core import (
     ActionProfile,
     BattleScenario,
@@ -24,26 +25,46 @@ from .progression import (
     project_progression,
     required_average_exp_per_encounter,
 )
+from .rules import (
+    CombatAction,
+    Combatant,
+    StatusRider,
+    affinity_damage_multiplier,
+    healing_amount,
+    linked_status_affinity_modifier,
+    resolve_mp_cost,
+    status_application_chance,
+)
 
 __all__ = [
     "ActionProfile",
+    "AdvancedBattleOutcome",
     "BattleScenario",
     "CLASS_MULTIPLIERS",
+    "CombatAction",
+    "Combatant",
     "CombatantTemplate",
     "ProgressionProjection",
     "ProgressionSegment",
     "SimulationSummary",
     "Stats",
+    "StatusRider",
     "adjusted_hit_chance",
+    "affinity_damage_multiplier",
     "cumulative_exp",
     "direct_damage",
     "exp_at_level_progress",
     "exp_to_next_level",
+    "healing_amount",
     "level_from_exp",
+    "linked_status_affinity_modifier",
     "natural_stats",
     "neutral_natural_stats",
     "project_progression",
     "required_average_exp_per_encounter",
+    "resolve_mp_cost",
+    "run_advanced_battle",
     "simulate",
+    "status_application_chance",
     "sweep_enemy_stats",
 ]
