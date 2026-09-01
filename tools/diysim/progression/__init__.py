@@ -9,19 +9,19 @@ from .routes import (
     project_progression,
     required_average_exp_per_encounter,
 )
-from .stats import CLASS_MULTIPLIERS, LEVEL_CAP, STAT_KEYS, Stats, natural_stats, neutral_natural_stats
+from .stats import STAT_KEYS, Stats, class_multipliers, level_cap, natural_stats, neutral_natural_stats
 
 __all__ = [
-    "CLASS_MULTIPLIERS",
-    "LEVEL_CAP",
     "ProgressionCheckpoint",
     "ProgressionProjection",
     "ProgressionSegment",
     "STAT_KEYS",
     "Stats",
+    "class_multipliers",
     "cumulative_exp",
     "exp_at_level_progress",
     "exp_to_next_level",
+    "level_cap",
     "level_from_exp",
     "level_up_cost",
     "natural_stats",
