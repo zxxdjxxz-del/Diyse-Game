@@ -74,9 +74,55 @@ General Remedy is legal by Chapter 3 but omitted from this first Warden candidat
 ## Calibration rule
 Do **not** force a runtime-engine true battle to reproduce v105's exact stochastic percentages. v105 explicitly identifies itself as a calibrated design-layer sensitivity rather than runtime-engine QA.
 
-Use three checks instead:
-1. current owner encounter should land near its authored **~10–11 round mandatory** duration target under competent prepared play;
-2. Lv13 same-gear should remain meaningfully safer/faster than Lv11;
-3. ×1.20 and +5 overlays must be compared on the exact same prepared snapshot and policy.
+Use these checks instead:
+1. Lv13 same-gear should remain meaningfully safer/faster than Lv11;
+2. ×1.20 and +5 overlays must be compared on the exact same prepared snapshot and policy;
+3. encounter-duration tuning is **deferred** and does not block the present difficulty-sensitivity read.
 
-Only after this working snapshot is tested should any Class-Level or consumable line be proposed for promotion into a formal true-battle certification.
+The former ~10–11-round authored target remains useful future tuning guidance, but exceeding it during the current +5 sensitivity is accepted temporarily. Do not weaken a promising danger/separation result merely to force the old duration target during this pass.
+
+## DiySim 2,000-run sensitivity checkpoint — accepted for current pass
+Seed: **106**. Prepared snapshot as defined above unless explicitly labeled itemless.
+
+### Lv11 mandatory — ×1.20 Power + boss +5 effective core-stat levels
+- Win rate: **100%**
+- Any-KO: **3.40%**
+- Wipes: **0%**
+- Mean rounds: **14.088**
+- Median rounds: **14**
+- 10–90% rounds: **13–16**
+- Mean remaining party HP: **66.11%**
+- Mean remaining party MP: **10.56%**
+- Mean Items used: **3.6905**
+- Mean Major Ruling attempts: **1.0695**
+- Mean Major Ruling disruptions: **0.821**
+- Mean Major Ruling resolutions: **0.248**
+
+### Lv13 same gear — ×1.20 Power + boss +5 effective core-stat levels
+- Win rate: **100%**
+- Any-KO: **0.15%**
+- Wipes: **0%**
+- Mean rounds: **11.769**
+- Median rounds: **12**
+- 10–90% rounds: **11–13**
+- Mean remaining party HP: **67.17%**
+- Mean remaining party MP: **3.59%**
+- Mean Items used: **1.914**
+- Mean Major Ruling attempts: **0.7585**
+- Mean Major Ruling disruptions: **0.7315**
+- Mean Major Ruling resolutions: **0.027**
+
+### Lv11 itemless stress — ×1.20 Power only
+This is **not** the prepared balance line. It exists to show the importance of preparation/consumables.
+- Win rate: **99.55%**
+- Any-KO: **26.25%**
+- Wipes: **0.45%**
+- Mean rounds: **12.447**
+- Mean remaining party HP: **37.71%**
+
+## Current read
+- The +5 layer creates a clear mandatory-vs-higher-level separation without producing routine wipes.
+- Prepared Lv11 is materially more dangerous than Lv13 same-gear.
+- The approximately 14-round Lv11 duration is **accepted for now** and is not a blocker to continuing the wider boss-sensitivity pass.
+- Round-target tuning should be revisited later as a local Warden pacing/action-tax pass.
+- Do **not** promote the +5 layer or this working snapshot to owner canon solely from this checkpoint; continue cross-boss validation first.
