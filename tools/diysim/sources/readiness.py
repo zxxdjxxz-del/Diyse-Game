@@ -18,6 +18,7 @@ from .actions import AuthoredActionSource, parse_authored_action_text
 from .analogues import parse_functional_analogue_rule_text
 from .dynamic_hits import parse_dynamic_element_hit_rule_text
 from .entities import EntityStatSource, parse_entity_stat_sources
+from .references import resolve_enabled_action_references
 from .replays import parse_bounded_replay_rule_text
 from .repo import find_repo_root
 
@@ -260,6 +261,8 @@ def _audit_action(
     block: str,
     *,
     context_text: str,
+    repo_root: Path,
+    current_path: Path,
     functional_analogue_complete: bool = False,
 ) -> tuple[ReadinessIssue, ...]:
     # Complete inherited-copy and dynamic-hit systems intentionally do not own
@@ -277,6 +280,14 @@ def _audit_action(
         return ()
 
     if _is_reference_or_enablement(block):
+        enabled_resolution = resolve_enabled_action_references(
+            block,
+            repo_root=repo_root,
+            current_path=current_path,
+        )
+        if enabled_resolution.complete:
+            return ()
+
         unresolved = []
         if source.damage_kind is None or not source.has_element_identity:
             unresolved.append("damage kind/element")
@@ -409,6 +420,8 @@ def audit_owner_file(path: Path, *, domain: str, repo_root: Path) -> OwnerFileRe
             heading,
             block,
             context_text=text,
+            repo_root=repo_root,
+            current_path=path,
             functional_analogue_complete=functional_analogue_complete,
         ))
 
