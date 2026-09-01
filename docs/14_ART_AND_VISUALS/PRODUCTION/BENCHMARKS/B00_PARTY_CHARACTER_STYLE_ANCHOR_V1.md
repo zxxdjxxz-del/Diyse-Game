@@ -24,7 +24,7 @@ B00 as a full production benchmark is **not yet closed**: after the cohesion pas
 | Character | State |
 |---|---|
 | Cyanis | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
-| Ilyra | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
+| Ilyra | **REVISED COHESION MASTER APPROVED / LOCKED** |
 | Torren | **FINAL REVISED HIGH-RES TACTICAL/GHILLIE MASTER APPROVED / LOCKED** |
 | Nimera | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Vaelira | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
@@ -55,7 +55,7 @@ The complete six-character master set establishes the party-wide B00 grammar:
 
 Character-specific contributions:
 - **Cyanis:** mobile royal battle-knight structure, clean silver armor over dark royal blue / black layers.
-- **Ilyra:** light defensive / warding language with pale fabric, long blonde hair/cape read, restrained metal structure and **bold green eyes**.
+- **Ilyra:** light defensive / warding language with white/pale-blue fabric, long blonde hair, **one coherent pale-blue cape**, restrained silver structure and **bold saturated green eyes**.
 - **Torren:** veteran tactical medium-armor scout language: army-green cloth, **golden-bronze metal chest/arm/knee protection**, brown leather field gear, three canisters, hip quiver, back-carried recurved bow, **amber eyes** and a mixed-vegetation ghillie mantle built from grasses, leaves, moss and twigs.
 - **Nimera:** busy braided/updo hair, Cardweaver props, constellation motifs, layered utility hardware and strong white/purple/black separation without artifact-dot dependency.
 - **Vaelira:** Green Arcanist silhouette, black cloth foundation, emerald outer garments/boots, silver metalwork, Arcane Staff and **electric blue eyes**.
@@ -106,6 +106,8 @@ Current eye-color anchors that must survive normalization:
 
 Torren's earlier ranger/druid-like construction has now been fully replaced by the final approved tactical master. His fingerprinted visual lock controls the exact face, army-green tactical cloth, true golden-bronze metal protection, brown leather gear, back-carried bow, hip quiver, three canisters and mixed grasses/leaves/moss/twigs ghillie treatment.
 
+Ilyra's earlier multi-panel cape-heavy presentation has now been replaced by the approved cohesion master with one coherent pale-blue cape and stronger green-eye read while preserving her exact white/pale-blue/silver identity.
+
 ## 6. Runtime representation decision
 
 Diyse's primary field and battle character representation is now **rigged 3D character models**.
@@ -150,27 +152,28 @@ Completed:
 1. approve all six high-resolution B00 masters individually;
 2. fingerprint/document all six masters;
 3. complete Torren's final tactical medium-armor / mixed-ghillie cohesion revision and re-lock his exact master;
-4. retire the unnecessary dedicated field/battle sprite gate;
-5. lock the rigged-model runtime validation grammar;
-6. verify the exact v5 Quaternius mannequin/Armature source and member hashes.
+4. complete Ilyra's cape/eye cohesion revision and re-lock her exact master;
+5. retire the unnecessary dedicated field/battle sprite gate;
+6. lock the rigged-model runtime validation grammar;
+7. verify the exact v5 Quaternius mannequin/Armature source and member hashes.
 
 Next:
-7. complete the **six-character party cohesion pass using the exact masters**;
-8. perform only required cleanup/redraw corrections and re-fingerprint any revised master;
-9. declare the coherent six-character high-res party set ready for runtime translation;
-10. import `UAL1_Standard.glb` into Godot;
-11. validate skeleton hierarchy, embedded animations and skin deformation;
-12. compare `_RM` root-motion behavior;
-13. validate `Mannequin_F.glb` retargeting on the same skeleton contract;
-14. create one B00-faithful model/material/shader pilot;
-15. validate it against the exact approved master in neutral presentation;
-16. validate the same model at field camera distance;
-17. validate the same model at battle camera distance;
-18. test representative B01 stone, B03 foliage and B10 prop environments;
-19. test representative B06 VFX overlap;
-20. propagate the proven model/material/rig grammar across all six characters;
-21. compare all six together for silhouette, palette, scale and animation coherence;
-22. only then declare B00 fully passed.
+8. continue the **six-character party cohesion pass using the exact masters**;
+9. perform only required cleanup/redraw corrections and re-fingerprint any revised master;
+10. declare the coherent six-character high-res party set ready for runtime translation;
+11. import `UAL1_Standard.glb` into Godot;
+12. validate skeleton hierarchy, embedded animations and skin deformation;
+13. compare `_RM` root-motion behavior;
+14. validate `Mannequin_F.glb` retargeting on the same skeleton contract;
+15. create one B00-faithful model/material/shader pilot;
+16. validate it against the exact approved master in neutral presentation;
+17. validate the same model at field camera distance;
+18. validate the same model at battle camera distance;
+19. test representative B01 stone, B03 foliage and B10 prop environments;
+20. test representative B06 VFX overlap;
+21. propagate the proven model/material/rig grammar across all six characters;
+22. compare all six together for silhouette, palette, scale and animation coherence;
+23. only then declare B00 fully passed.
 
 ## 10. Asset Forge / Godot boundary
 
@@ -186,4 +189,4 @@ Earlier material-family work is not automatically invalidated, but it must confo
 
 Current state:
 
-`VISUAL STYLE LOCKED → 6/6 HIGH-RES PARTY MASTERS LOCKED → TORREN FINAL COHESION REVISION LOCKED → PARTY COHESION PASS ACTIVE → V5 QUATERNIUS RIG VERIFIED → GODOT PILOT AFTER COHESION`
+`VISUAL STYLE LOCKED → 6/6 HIGH-RES PARTY MASTERS LOCKED → TORREN + ILYRA COHESION REVISIONS LOCKED → PARTY COHESION PASS ACTIVE → V5 QUATERNIUS RIG VERIFIED → GODOT PILOT AFTER COHESION`
