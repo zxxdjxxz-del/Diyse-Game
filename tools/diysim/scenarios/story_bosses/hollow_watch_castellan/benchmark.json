@@ -3,10 +3,11 @@
   "name": "Hollow Watch Castellan — Mandatory Lv2 Smart Regression",
   "content_family": "story_boss_regression_scenario",
   "story_point": "chapter_1_s008_hollow_watch",
-  "status": "BLOCKED_ON_MAEVRA_LINEBREAKER_SOURCE_RECOVERY",
+  "status": "READY_FOR_SCRIPTED_RUNTIME_IMPLEMENTATION",
   "sources": [
     "docs/09_ENEMIES_AND_ENCOUNTERS/STORY_BOSSES/HOLLOW_WATCH_CASTELLAN.md",
-    "docs/16_BALANCE_AND_TESTING/TRUE_BATTLES/HOLLOW_WATCH_CASTELLAN_TRUE_BATTLE_v93.md"
+    "docs/16_BALANCE_AND_TESTING/TRUE_BATTLES/HOLLOW_WATCH_CASTELLAN_TRUE_BATTLE_v93.md",
+    "Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md — Maevra guest source recovered from File Library"
   ],
   "party_refs": [
     "content/characters/cyanis/hollow_watch_lv2.json",
@@ -31,7 +32,7 @@
       "destroy telegraphed Ballista immediately",
       "leave Watch Seal intact and push Castellan until Walking State ends Seal protection",
       "use Cyanis legal early Crest MP intelligently",
-      "use Maevra Linebreaker while affordable, then Basic Attack",
+      "use Maevra Linebreaker Thrust while affordable, then Spear Attack",
       "Ilyra heals/cleanses from information available at round start; otherwise attacks",
       "use no Items"
     ]
@@ -51,6 +52,6 @@
   "notes": [
     "The v93 smart line remains current after v96 Bleed because the Ballista is destroyed before Heavy Bolt resolves.",
     "Historical aggressive-line Bleed risk is not a current oracle until rerun under v96 Bleed escalation.",
-    "Do not execute this as a golden regression until Maevra Linebreaker's exact authored Power/effects are recovered."
+    "Maevra source recovery is complete; remaining work is scripted encounter runtime support and exact smart-policy reproduction."
   ]
 }
