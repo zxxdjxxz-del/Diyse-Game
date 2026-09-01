@@ -1,4 +1,7 @@
-"""JSON loaders for battle scenarios."""
+"""JSON loaders for synthetic/test battle scenarios.
+
+Real Diyse encounters should use repo-backed encounter adapters, not copied JSON.
+"""
 from __future__ import annotations
 
 import json
@@ -11,17 +14,25 @@ from ..combat.simple_runtime import ActionProfile, BattleScenario, CombatantTemp
 from ..progression.stats import Stats
 
 
+def _optional_float(data: dict[str, Any], key: str) -> float | None:
+    return None if key not in data else float(data[key])
+
+
+def _optional_int(data: dict[str, Any], key: str) -> int | None:
+    return None if key not in data else int(data[key])
+
+
 def _action(data: dict[str, Any]) -> ActionProfile:
     return ActionProfile(
         name=data["name"],
         kind=data.get("kind", "physical"),
-        power=float(data.get("power", 100)),
-        base_hit=int(data.get("base_hit", 100)),
-        crit_chance=float(data.get("crit_chance", 5)),
+        power=_optional_float(data, "power"),
+        base_hit=_optional_int(data, "base_hit"),
+        crit_chance=_optional_float(data, "crit_chance"),
         defense_penetration=float(data.get("defense_penetration", 0)),
         spirit_penetration=float(data.get("spirit_penetration", 0)),
-        physical_weight=float(data.get("physical_weight", 0.5)),
-        magical_weight=float(data.get("magical_weight", 0.5)),
+        physical_weight=_optional_float(data, "physical_weight"),
+        magical_weight=_optional_float(data, "magical_weight"),
         weight=float(data.get("weight", 1)),
     )
 
@@ -67,13 +78,13 @@ def _advanced_action(data: dict[str, Any]) -> CombatAction:
         target_scope=data.get("target_scope", "one"),
         damage_kind=data.get("damage_kind", "physical"),
         element=data.get("element", "neutral"),
-        power=float(data.get("power", 100)),
-        base_hit=int(data.get("base_hit", 100)),
-        crit_chance=float(data.get("crit_chance", 5)),
+        power=_optional_float(data, "power"),
+        base_hit=_optional_int(data, "base_hit"),
+        crit_chance=_optional_float(data, "crit_chance"),
         defense_penetration=float(data.get("defense_penetration", 0)),
         spirit_penetration=float(data.get("spirit_penetration", 0)),
-        physical_weight=float(data.get("physical_weight", 0.5)),
-        magical_weight=float(data.get("magical_weight", 0.5)),
+        physical_weight=_optional_float(data, "physical_weight"),
+        magical_weight=_optional_float(data, "magical_weight"),
         heal_max_hp_percent=float(data.get("heal_max_hp_percent", 0)),
         heal_magic_scaling=float(data.get("heal_magic_scaling", 0)),
         healing_potency=float(data.get("healing_potency", 1)),
