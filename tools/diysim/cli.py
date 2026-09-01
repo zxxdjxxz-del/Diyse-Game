@@ -21,6 +21,13 @@ def _csv_floats(value: str) -> list[float]:
     return values
 
 
+def _csv_names(value: str) -> tuple[str, ...]:
+    values = tuple(item.strip() for item in value.split(",") if item.strip())
+    if not values:
+        raise argparse.ArgumentTypeError("provide at least one name")
+    return values
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="diysim", description="Diyse balance calculation and battle simulator")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -81,6 +88,11 @@ def build_parser() -> argparse.ArgumentParser:
     zevraya.add_argument("--player-level", type=int, default=24)
     zevraya.add_argument("--structure", choices=("owner", "non_diluting"), default="owner")
     zevraya.add_argument("--strategy", choices=("rush", "dismantle"), default="rush")
+    zevraya.add_argument(
+        "--reservoir-plan",
+        type=_csv_names,
+        help="ordered selective dismantle plan, e.g. Brood,Conduction; valid only with --strategy dismantle",
+    )
     zevraya.add_argument("--power-multiplier", type=float, default=1.0)
     zevraya.add_argument("--boss-level-offset", type=int, default=0)
     zevraya.add_argument("--runs", type=int, default=1_000)
@@ -157,6 +169,7 @@ def main(argv: list[str] | None = None) -> int:
             player_level=args.player_level,
             structure_mode=args.structure,
             strategy=args.strategy,
+            reservoir_plan=args.reservoir_plan,
             overlay=BalanceOverlay(
                 direct_damage_power_multiplier=args.power_multiplier,
                 effective_stat_level_offset=args.boss_level_offset,
