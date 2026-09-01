@@ -25,7 +25,7 @@ B00 as a full production benchmark is **not yet closed**: after the cohesion pas
 |---|---|
 | Cyanis | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Ilyra | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
-| Torren | **REVISED HIGH-RES TACTICAL/GHILLIE MASTER APPROVED / LOCKED** |
+| Torren | **FINAL REVISED HIGH-RES TACTICAL/GHILLIE MASTER APPROVED / LOCKED** |
 | Nimera | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Vaelira | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Seyrik | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
@@ -56,7 +56,7 @@ The complete six-character master set establishes the party-wide B00 grammar:
 Character-specific contributions:
 - **Cyanis:** mobile royal battle-knight structure, clean silver armor over dark royal blue / black layers.
 - **Ilyra:** light defensive / warding language with pale fabric, long blonde hair/cape read, restrained metal structure and **bold green eyes**.
-- **Torren:** veteran tactical medium-armor scout language: army-green cloth, golden-bronze protection, brown leather field gear, three canisters, longbow/quiver, **amber eyes** and full grouped grass/branch ghillie mantle.
+- **Torren:** veteran tactical medium-armor scout language: army-green cloth, **golden-bronze metal chest/arm/knee protection**, brown leather field gear, three canisters, hip quiver, back-carried recurved bow, **amber eyes** and a mixed-vegetation ghillie mantle built from grasses, leaves, moss and twigs.
 - **Nimera:** busy braided/updo hair, Cardweaver props, constellation motifs, layered utility hardware and strong white/purple/black separation without artifact-dot dependency.
 - **Vaelira:** Green Arcanist silhouette, black cloth foundation, emerald outer garments/boots, silver metalwork, Arcane Staff and **electric blue eyes**.
 - **Seyrik:** Black Host-derived skeletal/alien biomechanical plate, polished black shell over crimson understructure, red-dominant long coat, imposing muscular silhouette and oversized two-handed greatsword.
@@ -104,7 +104,7 @@ Current eye-color anchors that must survive normalization:
 - **Vaelira — electric blue**;
 - **Torren — amber**.
 
-Torren's earlier ranger/druid-like construction has already been replaced by his approved army-green tactical / golden-bronze medium-armor / brown-leather / full-ghillie master.
+Torren's earlier ranger/druid-like construction has now been fully replaced by the final approved tactical master. His fingerprinted visual lock controls the exact face, army-green tactical cloth, true golden-bronze metal protection, brown leather gear, back-carried bow, hip quiver, three canisters and mixed grasses/leaves/moss/twigs ghillie treatment.
 
 ## 6. Runtime representation decision
 
@@ -149,7 +149,7 @@ Rig functionality alone does not equal visual approval.
 Completed:
 1. approve all six high-resolution B00 masters individually;
 2. fingerprint/document all six masters;
-3. revise and approve Torren's tactical medium-armor / ghillie master;
+3. complete Torren's final tactical medium-armor / mixed-ghillie cohesion revision and re-lock his exact master;
 4. retire the unnecessary dedicated field/battle sprite gate;
 5. lock the rigged-model runtime validation grammar;
 6. verify the exact v5 Quaternius mannequin/Armature source and member hashes.
@@ -186,4 +186,4 @@ Earlier material-family work is not automatically invalidated, but it must confo
 
 Current state:
 
-`VISUAL STYLE LOCKED → 6/6 HIGH-RES PARTY MASTERS LOCKED → TORREN REVISED/RELOCKED → PARTY COHESION PASS ACTIVE → V5 QUATERNIUS RIG VERIFIED → GODOT PILOT AFTER COHESION`
+`VISUAL STYLE LOCKED → 6/6 HIGH-RES PARTY MASTERS LOCKED → TORREN FINAL COHESION REVISION LOCKED → PARTY COHESION PASS ACTIVE → V5 QUATERNIUS RIG VERIFIED → GODOT PILOT AFTER COHESION`
