@@ -103,6 +103,7 @@ class Combatant:
     status_resistance: int = 0
     status_immunities: frozenset[StatusName] = frozenset()
     elemental_affinities: dict[str, Affinity] = field(default_factory=dict)
+    runtime_tags: frozenset[str] = frozenset()
 
 
 @dataclass
