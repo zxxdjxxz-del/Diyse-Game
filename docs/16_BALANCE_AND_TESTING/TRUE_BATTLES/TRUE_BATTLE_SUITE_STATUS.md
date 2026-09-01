@@ -1,5 +1,5 @@
 # Diyse — Representative True-Battle Suite Status
-**v100**
+**v101**
 
 ## Certified
 1. **Hollow Watch Castellan — Chapter 1 / S008** — **PASS / RETAIN**
@@ -28,13 +28,25 @@
    - opening Assertion Layers, Revision Claim command variation, and Open Revision Layers all remained behaviorally relevant;
    - HP7,600 / raw stats / Powers / layer counts / repetition locks retained unchanged;
    - detailed certification: `REVISION_ARBITER_TRUE_BATTLE_v100.md`.
+5. **Commander Rhazek — Reforged Commander → Bastion Devourer — Chapter 9** — **v101 PASS / RETAIN**
+   - strict prepared mandatory Lv40, no Prime: **100% wins / median 14 / mean 14.48 / P90 17** over 20,000 runs;
+   - any-KO incidence: **0.08%**, with **0 defeats**;
+   - one timed Awakened Last Sentinel: **100% wins / median 15 total combat rounds / mean 15.34 / P90 17** over 10,000 runs;
+   - Last Sentinel crossed the genuine Form-I → Form-II transition in **99.04%** of timed stress runs without restoring the spent Prime identity;
+   - legal Last Sentinel → 2 full normal rounds → Last Convergence stress: **100% wins / median 15 total rounds / mean 15.17 / P90 17** over 10,000 runs;
+   - chained-Primes mean ending MP **43.77%** and mean consumables **0.98**, versus no-Prime **12.18% MP / 3.45 consumables**;
+   - completionist fixed-content Lv48 and RH9-legal Lv49 no-Prime references both produced **median 12 rounds**, inside the authored 11–13 target;
+   - Demolition Breaker remained behaviorally relevant without producing a structural wipe pattern;
+   - both HP bodies, all raw stats/Powers/status chances/repetition locks, Demolition Breaker, the 18% Exposed Rhazek state, and current Prime persistence rules retained unchanged;
+   - detailed certification: `RHAZEK_BASTION_DEVOURER_TRUE_BATTLE_v101.md`.
 
 ## Next representative anchors
-5. **Commander Rhazek — Reforged Commander → Bastion Devourer — Chapter 9** — next chronological genuine-fresh-body / persistent-Prime-spend test.
-6. **Calder → Crown-Bound Living Anchor** — later two-form/support-object test.
-7. **Vaelkor → Sovereign Panoply Unbound** — late mandatory full-system test.
-8. **Reconstituted Entity → The Last Command** — final mandatory test.
-9. **The Unfinished World** — exhaustive completionist full-kit stress test.
+6. **Emperor Vaelkor Draeven → Sovereign Panoply Unbound — Chapter 12** — next late mandatory full-system two-body / persistent-Prime-spend test.
+7. **Reconstituted Entity → The Last Command — Chapter 13** — final mandatory two-body test.
+8. **The Unfinished World** — exhaustive completionist full-kit stress test.
+
+Optional additional representative if needed before suite closure:
+- **Calder → Crown-Bound Living Anchor** — dedicated two-form/support-object case.
 
 The suite remains **ACTIVE**. Do not mark runtime QA complete from these design-layer simulations.
 
