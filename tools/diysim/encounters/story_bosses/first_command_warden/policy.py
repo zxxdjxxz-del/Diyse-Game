@@ -16,6 +16,8 @@ from tools.diysim.sources import (
     read_repo_text,
 )
 
+HARMONIZED_STATE_KEY = "harmonized_crest_prime"
+
 
 @dataclass(frozen=True)
 class WardenPolicyConfig:
@@ -34,6 +36,8 @@ class WardenPolicyConfig:
 @dataclass(frozen=True)
 class WardenPartyActions:
     crest_strike: CombatAction
+    resonant_pulse: CombatAction
+    harmonized_crest_multiplier: float
     wardens_valor: CombatAction
     cinder_shot: CombatAction
     sizing_shot: CombatAction
@@ -51,7 +55,6 @@ class WardenPartyActions:
 
     def ordinary_offensive_for(self, character: str) -> CombatAction:
         actions = {
-            "Cyanis": self.crest_strike,
             "Ilyra": self.wardens_valor,
             "Nimera": self.weave_burst,
         }
@@ -164,21 +167,34 @@ def _gentle_continuance_bonus(*, root: Path | None = None) -> float:
     return int(match.group(1)) / 100.0
 
 
-def _war_archer_measure_values(*, root: Path | None = None) -> tuple[int, int, int, float, int]:
+def _harmonized_crest_multiplier(*, root: Path | None = None) -> float:
+    trait = load_trait_source(class_name="Crest Knight", root=root)
+    rank_one = next((rank for rank in trait.ranks if rank.label == "Rank I"), None)
+    if rank_one is None:
+        raise SourceGapError("Crest Knight / Harmonized Crest lacks Rank I authority")
+    match = re.search(r"\*\*\+(\d+)% final damage\*\*", rank_one.effect, re.I)
+    if not match:
+        raise SourceGapError("Crest Knight / Harmonized Crest lacks exact Rank-I damage bonus")
+    return 1.0 + int(match.group(1)) / 100.0
+
+
+def _war_archer_measure_values(*, root: Path | None = None) -> tuple[int, int, int, float, int, int]:
     sizing = load_ability_source("Sizing Shot", class_name="War Archer", root=root)
     text = read_repo_text(sizing.owner_path, root=root)
     duration = re.search(r"remainder of the current round plus the next \*\*(\d+) full normal rounds\*\*", text, re.I)
     party_crit = re.search(r"all party members gain \*\*\+(\d+) percentage points Critical Chance\*\*", text, re.I)
     torren_crit = re.search(r"Rank II[^\n]*\*\*\+(\d+) percentage points Critical Chance\*\*", text, re.I)
     measured_pen = re.search(r"Colossus Draw[^\n]*penetration becomes \*\*(\d+)%\*\*", text, re.I)
+    veteran_eye = re.search(r"Veteran's Eye[^\n]*Sizing Shot \*\*(\d+)\s*→\s*(\d+) Power\*\*", text, re.I)
     heavy_draw = re.search(r"Heavy Draw[^\n]*Colossus Draw[^\n]*\*\*(\d+)\s*→\s*(\d+) Power\*\*", text, re.I)
-    if not (duration and party_crit and torren_crit and measured_pen and heavy_draw):
-        raise SourceGapError("War Archer lacks exact CL6 Hunter's Measure / Heavy Draw authority")
+    if not (duration and party_crit and torren_crit and measured_pen and veteran_eye and heavy_draw):
+        raise SourceGapError("War Archer lacks exact CL6 Hunter's Measure / mastery authority")
     return (
         int(duration.group(1)),
         int(party_crit.group(1)),
         int(torren_crit.group(1)),
         int(measured_pen.group(1)) / 100.0,
+        int(veteran_eye.group(2)),
         int(heavy_draw.group(2)),
     )
 
@@ -186,16 +202,29 @@ def _war_archer_measure_values(*, root: Path | None = None) -> tuple[int, int, i
 @lru_cache(maxsize=4)
 def load_warden_party_actions(*, root: Path | None = None) -> WardenPartyActions:
     """Parse the working S020 learned package once per source root."""
-    full_rounds, party_crit, torren_crit, measured_pen, colossus_mastered_power = _war_archer_measure_values(root=root)
+    (
+        full_rounds,
+        party_crit,
+        torren_crit,
+        measured_pen,
+        sizing_mastered_power,
+        colossus_mastered_power,
+    ) = _war_archer_measure_values(root=root)
+    sizing = replace(
+        _direct_action("Sizing Shot", "War Archer", root=root),
+        power=sizing_mastered_power,
+    )
     colossus = replace(
         _direct_action("Colossus Draw", "War Archer", root=root),
         power=colossus_mastered_power,
     )
     return WardenPartyActions(
         crest_strike=_direct_action("Crest Strike", "Crest Knight", root=root),
+        resonant_pulse=_direct_action("Resonant Pulse", "Crest Knight", root=root),
+        harmonized_crest_multiplier=_harmonized_crest_multiplier(root=root),
         wardens_valor=_direct_action("Warden's Valor", "Blue Warden", root=root),
         cinder_shot=_direct_action("Cinder Shot", "War Archer", root=root),
-        sizing_shot=_direct_action("Sizing Shot", "War Archer", root=root),
+        sizing_shot=sizing,
         colossus_draw=colossus,
         weave_burst=_direct_action("Weave Burst", "Cardweaver", root=root),
         mend=_mend(root=root),
@@ -229,6 +258,55 @@ def _with_measure_crit(action: CombatAction, bonus: int) -> CombatAction:
     return replace(action, crit_chance=base + bonus)
 
 
+def _choose_cyanis_action(
+    actor: CombatUnit,
+    actions: WardenPartyActions,
+    *,
+    sealed_category: str | None,
+    hunter_measure_active: bool,
+    target_is_ring: bool,
+) -> tuple[str, CombatAction, CombatUnit | None]:
+    if sealed_category == "Ability":
+        attack = actions.basic_attack
+        if hunter_measure_active and not target_is_ring:
+            attack = _with_measure_crit(attack, actions.hunter_measure_party_crit_bonus)
+        return "Attack", attack, None
+
+    prime = actor.tactical_states.get(HARMONIZED_STATE_KEY)
+    if prime == "magical" and actor.mp >= actions.resonant_pulse.mp_cost:
+        action = replace(
+            actions.resonant_pulse,
+            final_damage_multiplier=(
+                actions.resonant_pulse.final_damage_multiplier * actions.harmonized_crest_multiplier
+            ),
+        )
+    elif prime == "physical" and actor.mp >= actions.crest_strike.mp_cost:
+        action = replace(
+            actions.crest_strike,
+            final_damage_multiplier=(
+                actions.crest_strike.final_damage_multiplier * actions.harmonized_crest_multiplier
+            ),
+        )
+    elif actor.mp >= actions.crest_strike.mp_cost:
+        action = actions.crest_strike
+    elif actor.mp >= actions.resonant_pulse.mp_cost:
+        action = actions.resonant_pulse
+    else:
+        attack = actions.basic_attack
+        if hunter_measure_active and not target_is_ring:
+            attack = _with_measure_crit(attack, actions.hunter_measure_party_crit_bonus)
+        return "Attack", attack, None
+
+    if hunter_measure_active and not target_is_ring:
+        action = _with_measure_crit(action, actions.hunter_measure_party_crit_bonus)
+
+    if action.damage_kind == "physical":
+        actor.tactical_states[HARMONIZED_STATE_KEY] = "magical"
+    elif action.damage_kind == "magical":
+        actor.tactical_states[HARMONIZED_STATE_KEY] = "physical"
+    return "Ability", action, None
+
+
 def choose_player_action(
     actor: CombatUnit,
     party: list[CombatUnit],
@@ -259,6 +337,15 @@ def choose_player_action(
             and actor.mp >= actions.mend.mp_cost
         ):
             return "Ability", actions.mend, heal_target
+
+    if actor.template.name == "Cyanis":
+        return _choose_cyanis_action(
+            actor,
+            actions,
+            sealed_category=sealed_category,
+            hunter_measure_active=hunter_measure_active,
+            target_is_ring=target_is_ring,
+        )
 
     if actor.template.name == "Torren":
         if sealed_category == "Ability":
@@ -324,6 +411,7 @@ def choose_player_action(
 
 
 __all__ = [
+    "HARMONIZED_STATE_KEY",
     "WardenPartyActions",
     "WardenPolicyConfig",
     "choose_player_action",
