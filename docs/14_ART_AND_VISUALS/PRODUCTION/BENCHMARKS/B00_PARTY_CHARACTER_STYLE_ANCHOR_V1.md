@@ -1,7 +1,7 @@
 # Diyse — B00 Party Character Style Anchor v1
 
 **Benchmark:** B00 — Permanent Party / Character Style Anchor  
-**Status:** **IN PROGRESS — CYANIS APPROVED / 1 OF 6 PARTY MASTERS LOCKED**  
+**Status:** **IN PROGRESS — CYANIS + ILYRA APPROVED / 2 OF 6 PARTY MASTERS LOCKED**  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`
 
 ## 1. Scope
@@ -27,28 +27,30 @@ B00 does not pass until all six have approved high-resolution masters and the ba
 | Character | State |
 |---|---|
 | Cyanis | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
-| Ilyra | Pending new-style master |
+| Ilyra | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Torren | Pending new-style master |
 | Nimera | Pending new-style master |
 | Vaelira | Pending new-style master |
 | Seyrik | Pending new-style master |
 
-Cyanis authority:
-`CYANIS_CURRENT_VISUAL_LOCK.md`
+Current character authorities:
+- `CYANIS_CURRENT_VISUAL_LOCK.md`
+- `ILYRA_CURRENT_VISUAL_LOCK.md`
 
-## 3. Cyanis approval significance
+## 3. Approved-anchor significance
 
-Cyanis is the first real B00 anchor and now proves the character-side rendering target:
+Cyanis and Ilyra now provide the first two real B00 anchors and together establish that the party-side rendering target is:
 - mature seinen/anime proportions;
 - graphic cel-informed values rather than soft-brushed rendering;
-- strong clean silhouette;
-- angular material separation between silver armor, royal-blue cloth, and black underlayers;
-- restrained gold accents;
+- strong clean silhouettes;
+- clear cloth/leather/metal material separation;
+- restrained, deliberate ornament;
+- controlled metallic highlight planes;
 - deliberate line hierarchy;
 - no random speckle/grunge dependency;
 - no painterly direction.
 
-The exact approved render is fingerprinted in `CYANIS_CURRENT_VISUAL_LOCK.md` so later work cannot silently drift back to earlier Cyanis variants.
+Their exact approved renders are fingerprinted in their character visual-lock files so later work cannot silently drift back to superseded variants.
 
 ## 4. New-style master requirements
 
@@ -71,7 +73,7 @@ Every remaining party master must establish:
 - no flat low-budget cel shading;
 - no generic AI-smooth or random-speckle surface treatment.
 
-Character-specific redesigns are allowed only when explicitly approved during B00, as happened with Cyanis. Once approved, the new B00 design supersedes older outfit details for that character.
+Character-specific redesigns are allowed only when explicitly approved during B00. Once approved, the new B00 design supersedes older outfit details for that character while gameplay equipment rules remain controlled by their own canon authorities.
 
 ## 5. Scale derivatives
 
@@ -115,4 +117,4 @@ Earlier material-family work is not automatically invalidated, but it must confo
 
 Current state:
 
-`VISUAL STYLE LOCKED → CYANIS MASTER APPROVED → 5 PARTY MASTERS REMAIN → BATTLE/FIELD DERIVATIVES PENDING`
+`VISUAL STYLE LOCKED → CYANIS + ILYRA MASTERS APPROVED → 4 PARTY MASTERS REMAIN → BATTLE/FIELD DERIVATIVES PENDING`
