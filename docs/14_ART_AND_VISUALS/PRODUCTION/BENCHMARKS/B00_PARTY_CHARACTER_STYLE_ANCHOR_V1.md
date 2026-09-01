@@ -1,9 +1,10 @@
 # Diyse — B00 Party Character Style Anchor v1
 
 **Benchmark:** B00 — Permanent Party / Character Style Anchor  
-**Status:** **HIGH-RES PARTY MASTER SET COMPLETE — 6 OF 6 LOCKED / RUNTIME DERIVATIVE SPEC LOCKED / EXECUTION PENDING**  
+**Status:** **HIGH-RES PARTY MASTER SET COMPLETE — 6 OF 6 LOCKED / RIGGED MODEL RUNTIME VALIDATION ACTIVE**  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`  
-**Runtime derivative spec:** `B00_RUNTIME_DERIVATIVE_SPEC_V1.md`
+**Active runtime spec:** `B00_RIGGED_MODEL_RUNTIME_VALIDATION_V1.md`  
+**Superseded sprite spec:** `B00_RUNTIME_DERIVATIVE_SPEC_V1.md`
 
 ## 1. Scope
 
@@ -13,7 +14,7 @@ B00 establishes the permanent-party rendering language for Diyse's locked visual
 
 The permanent party is Cyanis, Ilyra, Torren, Nimera, Vaelira, and Seyrik.
 
-All six high-resolution character masters are explicitly approved and fingerprinted. B00 as a full production benchmark is **not yet closed**: battle/field derivative execution and cross-category validation remain.
+All six high-resolution character masters are explicitly approved and fingerprinted. B00 as a full production benchmark is **not yet closed**: the approved designs must now be proven as rigged runtime characters under Godot field/battle cameras, animation, materials, environments and VFX.
 
 ## 2. Current progress
 
@@ -47,7 +48,7 @@ The complete six-character master set establishes the party-wide B00 grammar:
 - deliberate variable line hierarchy;
 - no random speckle/grunge dependency;
 - no painterly direction;
-- single clean full-body master presentation as the preferred review format.
+- single clean full-body master presentation as the preferred high-resolution review format.
 
 Character-specific contributions:
 - **Cyanis:** mobile royal battle-knight structure, clean silver armor over dark royal blue / black layers.
@@ -77,41 +78,80 @@ The high-resolution masters are complete. Any future revision must continue to s
 
 Character-specific redesigns remain valid only when explicitly approved. Gameplay equipment rules remain governed by their own canon authorities.
 
-## 5. Runtime derivative gate
+## 5. Runtime representation decision
 
-The runtime conversion grammar is now locked in `B00_RUNTIME_DERIVATIVE_SPEC_V1.md` and `../CHARACTER_SCALE_AND_SILHOUETTE.md`.
+Diyse's primary field and battle character representation is now **rigged 3D character models**, provided the current production rig/model solution passes B00 validation.
 
-Targets:
-- **Battle:** approximately **200–220 px character height**.
-- **Field:** approximately **80 px character height**.
+The earlier dedicated sprite targets of ~200–220 px battle art and ~80 px field art are **not required production deliverables** for B00. The old `B00_RUNTIME_DERIVATIVE_SPEC_V1.md` is retained only as optional 2D/screen-space simplification reference.
 
-These are controlled redraw/simplification targets, **not blind downscales**. Preserve silhouette, weapon/class identity, hair mass, palette blocks, major material divisions and the rhythm of chaotic variable line weight while removing microdetail that aliases.
+The active gate is `B00_RIGGED_MODEL_RUNTIME_VALIDATION_V1.md`.
 
-## 6. Production sequence
+The same character model family should normally serve field and battle, with context-specific:
+- camera framing;
+- animation sets;
+- mesh/material LOD;
+- outline strength;
+- weapon/prop state;
+- secondary motion;
+- shadows and VFX attachment behavior.
+
+## 6. Runtime visual requirements
+
+The rigged characters must reproduce the approved B00 masters through:
+- character-specific proportions rather than one generic body;
+- faithful face/hair silhouette;
+- correct garment and armor construction;
+- correct weapon/prop identity and scale;
+- graphic cel-informed real-time materials;
+- controlled non-photoreal metal/cloth/leather response;
+- variable/irregular outline rhythm at useful screen distances;
+- stable animation deformation and attachment points;
+- screen-space readability in both exploration and combat.
+
+Rig functionality alone does not equal visual approval.
+
+## 7. Production sequence
 
 Completed:
 1. approve all six clean high-resolution B00 masters;
 2. fingerprint/document all six masters;
-3. lock shared battle/field simplification grammar.
+3. retire the unnecessary dedicated field/battle sprite gate;
+4. lock the rigged-model runtime validation grammar.
 
 Next:
-4. execute battle-scale derivatives in the order defined by `B00_RUNTIME_DERIVATIVE_SPEC_V1.md`;
-5. execute field-scale derivatives;
-6. compare all six together for silhouette, palette, value and line-weight coherence;
-7. test representative characters against B01 stone, B03 foliage and B10 props;
-8. test representative B06 VFX beside/around characters;
-9. only then declare B00 fully passed.
+5. identify and import the current production-usable rigged humanoid model/skeleton into the Godot character pipeline;
+6. validate rig/retarget compatibility with representative locomotion and battle clips;
+7. build one B00-faithful model/material/shader pilot;
+8. validate it against the exact approved master in neutral presentation;
+9. validate the same model at field camera distance;
+10. validate the same model at battle camera distance;
+11. test representative B01 stone, B03 foliage and B10 prop environments;
+12. test representative B06 VFX overlap;
+13. propagate the proven model/material/rig grammar across all six characters;
+14. compare all six together for silhouette, palette, scale and animation coherence;
+15. only then declare B00 fully passed.
 
-The preferred high-resolution review asset remains a **single clean full-body character render** unless another view is specifically requested.
+## 8. Asset Forge / Godot boundary
 
-## 7. Cross-category validation
+Asset Forge's glTF renderer is useful for deterministic model/material review but is not the final runtime renderer. The final B00 model gate must be exercised in Godot because it depends on:
+- skeleton/skin deformation;
+- retargeted animation;
+- shader behavior;
+- outlines;
+- camera distance;
+- lighting;
+- shadows;
+- secondary motion;
+- VFX overlap.
 
-Once the derivative gate passes, recheck B01 stone, B03 foliage, B10 props, B06 VFX, and future enemy/NPC art against the actual six-character party rendering grammar.
+## 9. Cross-category validation
+
+Once the runtime-model gate passes, recheck B01 stone, B03 foliage, B10 props, B06 VFX, and future enemy/NPC art against the actual six-character party rendering grammar.
 
 Earlier material-family work is not automatically invalidated, but it must conform to the revised non-painterly visual authority before final acceptance.
 
-## 8. Promotion state
+## 10. Promotion state
 
 Current state:
 
-`VISUAL STYLE LOCKED → 6/6 HIGH-RES PARTY MASTERS LOCKED → RUNTIME DERIVATIVE GRAMMAR LOCKED → BATTLE DERIVATIVE EXECUTION NEXT`
+`VISUAL STYLE LOCKED → 6/6 HIGH-RES PARTY MASTERS LOCKED → RIGGED MODEL RUNTIME SPEC LOCKED → MODEL/SHADER/RIG PILOT NEXT`
