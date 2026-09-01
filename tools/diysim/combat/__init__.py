@@ -31,6 +31,7 @@ from .models import (
     BASIC_ATTACK,
     ActionKind,
     ActiveStatus,
+    ActiveTemporaryModifier,
     Affinity,
     CombatAction,
     CombatUnit,
@@ -43,6 +44,7 @@ from .models import (
     StatusRider,
     TargetScope,
     TargetSide,
+    TemporaryModifierSpec,
 )
 from .mp import resolve_mp_cost
 from .simple_runtime import (
@@ -71,6 +73,11 @@ from .statuses import (
     apply_status,
     status_application_chance,
 )
+from .temporary_modifiers import (
+    apply_temporary_modifier,
+    effective_status_resistance,
+    tick_temporary_modifiers,
+)
 from .turn_order import turn_order
 
 __all__ = [
@@ -78,6 +85,7 @@ __all__ = [
     "ActionKind",
     "ActionProfile",
     "ActiveStatus",
+    "ActiveTemporaryModifier",
     "AdvancedBattleOutcome",
     "AdvancedBattleScenario",
     "AdvancedSimulationSummary",
@@ -111,9 +119,11 @@ __all__ = [
     "StatusRider",
     "TargetScope",
     "TargetSide",
+    "TemporaryModifierSpec",
     "adjusted_hit_chance",
     "affinity_damage_multiplier",
     "apply_status",
+    "apply_temporary_modifier",
     "bleed_rate",
     "clear_bleed_if_full",
     "complete_turn",
@@ -123,6 +133,7 @@ __all__ = [
     "effective_magic",
     "effective_speed",
     "effective_spirit",
+    "effective_status_resistance",
     "element_affinity",
     "end_round",
     "healing_amount",
@@ -138,6 +149,7 @@ __all__ = [
     "simulate",
     "simulate_advanced",
     "status_application_chance",
+    "tick_temporary_modifiers",
     "turn_is_blocked",
     "turn_order",
 ]
