@@ -32,6 +32,18 @@ class EquipmentSource:
     status_resistance_bonus: int = 0
 
 
+def _named_bonus(text: str, label: str) -> int:
+    patterns = (
+        rf"{re.escape(label)}\s*([+-]\d+)",
+        rf"([+-]\d+)\s*{re.escape(label)}\b",
+    )
+    for pattern in patterns:
+        match = re.search(pattern, text, re.I)
+        if match:
+            return int(match.group(1))
+    return 0
+
+
 @lru_cache(maxsize=4)
 def _load_all(root_string: str) -> tuple[EquipmentSource, ...]:
     root = Path(root_string)
@@ -46,14 +58,12 @@ def _load_all(root_string: str) -> tuple[EquipmentSource, ...]:
             if match:
                 bonuses[key] = int(match.group(1))
 
-        max_hp = re.search(r"Max HP\s*([+-]\d+)", stats_text, re.I)
-        max_mp = re.search(r"Max MP\s*([+-]\d+)", stats_text, re.I)
-        evasion = re.search(r"Evasion\s*([+-]\d+)", stats_text, re.I)
-        status_resistance = re.search(r"Status Resistance\s*([+-]\d+)", stats_text, re.I)
+        max_hp = _named_bonus(stats_text, "Max HP")
+        max_mp = _named_bonus(stats_text, "Max MP")
         if max_hp:
-            bonuses["hp"] = int(max_hp.group(1))
+            bonuses["hp"] = max_hp
         if max_mp:
-            bonuses["mp"] = int(max_mp.group(1))
+            bonuses["mp"] = max_mp
 
         entries.append(
             EquipmentSource(
@@ -63,8 +73,8 @@ def _load_all(root_string: str) -> tuple[EquipmentSource, ...]:
                 owner=row["Owner/tradition"],
                 stats_text=stats_text,
                 stat_bonuses=bonuses,
-                evasion_bonus=int(evasion.group(1)) if evasion else 0,
-                status_resistance_bonus=int(status_resistance.group(1)) if status_resistance else 0,
+                evasion_bonus=_named_bonus(stats_text, "Evasion"),
+                status_resistance_bonus=_named_bonus(stats_text, "Status Resistance"),
             )
         )
     if not entries:
