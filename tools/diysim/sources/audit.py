@@ -11,6 +11,7 @@ from .abilities import load_ability_registry, load_ability_source
 from .actors import load_enemy_registry
 from .combat import load_combat_rules
 from .enemies import load_enemy_system_rules
+from .party import load_party_rules
 from .progression import load_progression_rules
 from .repo import RepoSourceError, find_repo_root
 from .traits import load_trait_registry
@@ -30,6 +31,7 @@ class SourceAuditIssue:
 class SourceAuditReport:
     progression_loaded: bool
     combat_loaded: bool
+    party_rules_loaded: bool
     enemy_system_loaded: bool
     ability_entries: int
     ability_sources_resolved: int
@@ -46,6 +48,7 @@ class SourceAuditReport:
             "ok": self.ok,
             "progression_loaded": self.progression_loaded,
             "combat_loaded": self.combat_loaded,
+            "party_rules_loaded": self.party_rules_loaded,
             "enemy_system_loaded": self.enemy_system_loaded,
             "ability_entries": self.ability_entries,
             "ability_sources_resolved": self.ability_sources_resolved,
@@ -72,6 +75,13 @@ def audit_repo_sources(*, root: Path | None = None) -> SourceAuditReport:
         combat_loaded = True
     except RepoSourceError as exc:
         issues.append(SourceAuditIssue("combat", "global", str(exc)))
+
+    party_rules_loaded = False
+    try:
+        load_party_rules(root=repo)
+        party_rules_loaded = True
+    except RepoSourceError as exc:
+        issues.append(SourceAuditIssue("party", "active battle party", str(exc)))
 
     enemy_system_loaded = False
     try:
@@ -125,6 +135,7 @@ def audit_repo_sources(*, root: Path | None = None) -> SourceAuditReport:
     return SourceAuditReport(
         progression_loaded=progression_loaded,
         combat_loaded=combat_loaded,
+        party_rules_loaded=party_rules_loaded,
         enemy_system_loaded=enemy_system_loaded,
         ability_entries=ability_entries,
         ability_sources_resolved=ability_sources_resolved,
