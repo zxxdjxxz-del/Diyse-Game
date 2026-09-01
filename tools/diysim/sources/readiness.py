@@ -14,6 +14,7 @@ from dataclasses import dataclass
 from pathlib import Path
 import re
 
+from .actions import AuthoredActionSource, parse_authored_action_text
 from .actors import StatBlockSource, parse_stat_row
 from .markdown import extract_markdown_tables
 from .repo import SourceGapError, find_repo_root
@@ -27,15 +28,7 @@ OWNER_DOMAINS: tuple[tuple[str, str], ...] = (
     ("major_hunts", "docs/09_ENEMIES_AND_ENCOUNTERS/MAJOR_HUNTS"),
 )
 
-_DAMAGE_RE = re.compile(
-    r"\b(Physical|Magical|Hybrid)\s*/\s*(Neutral|Colorless|Fire|Ice|Lightning|Earth|Ruin)\b",
-    re.I,
-)
-_POWER_RE = re.compile(r"(?:\*\*)?(\d+)\s+Power(?:\s+per\s+target)?(?:\*\*)?|Power\s*:?\s*(?:\*\*)?(\d+)(?:\*\*)?", re.I)
-_BASE_HIT_RE = re.compile(r"Base Hit\s*(?:\*\*)?(\d+)(?:\*\*)?", re.I)
 _NO_DAMAGE_RE = re.compile(r"Power\s*:\s*N/A\s*[—-]\s*no direct damage|Power\s+N/A", re.I)
-_TARGET_ONE_RE = re.compile(r"\b(one|single)[ -](?:conscious )?(?:party member|enemy|ally|target)|\bone (?:party member|enemy|ally)\b|sealed character only", re.I)
-_TARGET_ALL_RE = re.compile(r"\ball (?:conscious )?(?:party members|enemies|allies|targets)\b|per target", re.I)
 _REFERENCE_RE = re.compile(
     r"(?:^|\n)Authority:\s*(?:\n)?`[^`]+`|(?:^|\n)(?:Enables|While functional, .+? may use):",
     re.I,
@@ -44,7 +37,8 @@ _REFERENCE_RE = re.compile(
 _STRUCTURAL_HEADING_TERMS = (
     "architecture", "access", "interaction", "certification", "recertification",
     "verdict", "reference", "notes", "handoff", "boundary", "summary", "status",
-    "route levels", "progression", "fresh-body rule", "numerical boundary",
+    "route", "progression", "fresh-body rule", "numerical boundary", "pressure check",
+    "duration exception", "current working", "body",
 )
 
 
@@ -203,14 +197,6 @@ def _stat_rows(text: str) -> tuple[StatBlockSource, ...]:
     return tuple(rows)
 
 
-def _target_scope(block: str) -> str | None:
-    if _TARGET_ALL_RE.search(block):
-        return "all"
-    if _TARGET_ONE_RE.search(block):
-        return "one"
-    return None
-
-
 def _is_structural_heading(heading: str) -> bool:
     lowered = heading.casefold()
     return any(term in lowered for term in _STRUCTURAL_HEADING_TERMS)
@@ -220,34 +206,47 @@ def _is_reference_or_enablement(block: str) -> bool:
     return bool(_REFERENCE_RE.search(block))
 
 
+def _parse_section(heading: str, block: str) -> AuthoredActionSource:
+    return parse_authored_action_text(heading, block)
+
+
 def _action_candidate(heading: str, block: str) -> bool:
     if _is_structural_heading(heading):
         return False
-    return bool(_DAMAGE_RE.search(block) or _POWER_RE.search(block) or _NO_DAMAGE_RE.search(block) or _BASE_HIT_RE.search(block))
+    if _NO_DAMAGE_RE.search(block):
+        return True
+    source = _parse_section(heading, block)
+    return any((
+        source.damage_kind is not None,
+        source.power is not None,
+        source.base_hit is not None,
+        source.target_scope is not None and source.has_element_identity,
+    ))
 
 
-def _direct_damage_block(block: str) -> bool:
-    return not _NO_DAMAGE_RE.search(block) and bool(_DAMAGE_RE.search(block) or _POWER_RE.search(block))
+def _direct_damage_source(heading: str, block: str) -> AuthoredActionSource | None:
+    if _NO_DAMAGE_RE.search(block):
+        return None
+    source = _parse_section(heading, block)
+    if source.damage_kind is not None or source.power is not None:
+        return source
+    return None
 
 
 def _audit_action(domain: str, path: str, heading: str, block: str) -> tuple[ReadinessIssue, ...]:
-    if not _direct_damage_block(block):
+    source = _direct_damage_source(heading, block)
+    if source is None:
         return ()
-
-    damage = _DAMAGE_RE.search(block)
-    power = _POWER_RE.search(block)
-    hit = _BASE_HIT_RE.search(block)
-    target_scope = _target_scope(block)
 
     if _is_reference_or_enablement(block):
         unresolved = []
-        if damage is None:
+        if source.damage_kind is None or not source.has_element_identity:
             unresolved.append("damage kind/element")
-        if power is None:
+        if source.power is None:
             unresolved.append("Power")
-        if hit is None:
+        if source.base_hit is None:
             unresolved.append("Base Hit")
-        if target_scope is None:
+        if source.target_scope is None:
             unresolved.append("target scope")
         if unresolved:
             return (ReadinessIssue(
@@ -257,9 +256,9 @@ def _audit_action(domain: str, path: str, heading: str, block: str) -> tuple[Rea
         return ()
 
     issues: list[ReadinessIssue] = []
-    action_shaped = target_scope is not None and damage is not None
+    action_shaped = source.target_scope is not None and source.damage_kind is not None and source.has_element_identity
 
-    if damage is not None and power is None:
+    if source.damage_kind is not None and source.has_element_identity and source.power is None:
         severity = "source_gap" if action_shaped else "parser_gap"
         issues.append(ReadinessIssue(
             severity, domain, path, heading,
@@ -268,33 +267,39 @@ def _audit_action(domain: str, path: str, heading: str, block: str) -> tuple[Rea
             if severity == "source_gap"
             else "Damage identity is mentioned, but the generic reader cannot establish this as the complete action owner before requiring Power.",
         ))
-    elif power is not None and damage is None:
+    elif source.power is not None and (source.damage_kind is None or not source.has_element_identity):
         issues.append(ReadinessIssue(
             "parser_gap", domain, path, heading, "damage_identity_unresolved",
-            "Numeric direct-damage Power is present, but the generic reader cannot resolve damage kind/element from this section alone.",
+            "Numeric direct-damage Power is present, but the shared action parser cannot fully resolve damage kind/element from this section alone.",
         ))
 
-    if hit is None:
-        severity = "source_gap" if action_shaped and power is not None else "parser_gap"
+    if source.base_hit is None:
+        severity = "source_gap" if action_shaped and source.power is not None else "parser_gap"
         issues.append(ReadinessIssue(
             severity, domain, path, heading,
             "base_hit_missing" if severity == "source_gap" else "base_hit_unresolved",
             "Action-shaped enemy/support direct-damage block has no explicit Base Hit."
             if severity == "source_gap"
-            else "The generic reader cannot safely require Base Hit from this summarized/partial section.",
+            else "The shared action parser cannot safely require Base Hit from this summarized/partial section.",
         ))
 
-    if target_scope is None:
+    if source.target_scope is None:
         issues.append(ReadinessIssue(
             "parser_gap", domain, path, heading, "target_scope_unresolved",
-            "The generic reader cannot resolve one/all target scope from this action section.",
+            "The shared action parser cannot resolve one/all target scope from this action section.",
         ))
 
     return tuple(issues)
 
 
-def _audit_stats(domain: str, path: str, title: str, rows: tuple[StatBlockSource, ...], direct_blocks: tuple[str, ...]) -> tuple[ReadinessIssue, ...]:
-    if not direct_blocks:
+def _audit_stats(
+    domain: str,
+    path: str,
+    title: str,
+    rows: tuple[StatBlockSource, ...],
+    direct_sources: tuple[AuthoredActionSource, ...],
+) -> tuple[ReadinessIssue, ...]:
+    if not direct_sources:
         return ()
     if not rows:
         return (ReadinessIssue(
@@ -303,11 +308,11 @@ def _audit_stats(domain: str, path: str, title: str, rows: tuple[StatBlockSource
         ),)
 
     required = {"hp", "defense", "spirit", "speed", "evasion"}
-    if any(re.search(r"\bPhysical\s*/", block, re.I) for block in direct_blocks):
+    if any(source.damage_kind == "physical" for source in direct_sources):
         required.add("attack")
-    if any(re.search(r"\bMagical\s*/", block, re.I) for block in direct_blocks):
+    if any(source.damage_kind == "magical" for source in direct_sources):
         required.add("magic")
-    if any(re.search(r"\bHybrid\s*/", block, re.I) for block in direct_blocks):
+    if any(source.damage_kind == "hybrid" for source in direct_sources):
         required.update(("attack", "magic"))
 
     issues: list[ReadinessIssue] = []
@@ -328,24 +333,25 @@ def audit_owner_file(path: Path, *, domain: str, repo_root: Path) -> OwnerFileRe
     rows = _stat_rows(text)
 
     actions: list[tuple[str, str]] = []
-    direct: list[tuple[str, str]] = []
+    direct_sources: list[AuthoredActionSource] = []
     issues: list[ReadinessIssue] = []
     for heading, block in _heading_blocks(text):
         if not _action_candidate(heading, block):
             continue
         actions.append((heading, block))
-        if _direct_damage_block(block):
-            direct.append((heading, block))
+        source = _direct_damage_source(heading, block)
+        if source is not None:
+            direct_sources.append(source)
         issues.extend(_audit_action(domain, relative, heading, block))
 
-    issues.extend(_audit_stats(domain, relative, title, rows, tuple(block for _, block in direct)))
+    issues.extend(_audit_stats(domain, relative, title, rows, tuple(direct_sources)))
     return OwnerFileReadiness(
         domain=domain,
         path=relative,
         title=title,
         stat_rows=len(rows),
         action_sections=len(actions),
-        direct_damage_sections=len(direct),
+        direct_damage_sections=len(direct_sources),
         issues=tuple(issues),
     )
 
