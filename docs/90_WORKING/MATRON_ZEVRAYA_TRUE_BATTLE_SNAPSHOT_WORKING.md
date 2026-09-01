@@ -82,6 +82,7 @@ Use the already documented working structural candidate from `CH6_ENEMY_POWER_20
 - Armor Reservoir gives continuous functional **Defense +15% / Spirit +15%** while alive instead of consuming a selected boss action;
 - surviving Armor carries that branch into Form II;
 - Controlled Reconstruction becomes its bounded conditional passive trigger and does not replace a selected attack;
+- for this reproducible simulator candidate, if Sustenance is still functional when Crimson Brood begins, that one capped **240-HP** passive Reconstruction resolves **at Crimson entry**; this timing is working-policy detail, not owner canon;
 - Sustenance and Conduction remain damaging selected actions;
 - Brood remains a finite extra hostile body.
 
