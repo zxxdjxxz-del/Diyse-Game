@@ -2,9 +2,9 @@
 
 This module never supplies gameplay fallbacks. It scans current owner files and
 classifies blockers as either:
-- source_gap: the owning action text appears to omit information required to simulate;
-- parser_gap: the text may be complete, but the generic reader cannot yet
-  normalize it safely.
+- source_gap: an action-shaped owning block appears to omit information required to simulate;
+- parser_gap: the text may be complete, referenced elsewhere, or summarized, but
+  the generic reader cannot yet normalize/link it safely.
 
 The audit is intentionally broader than any one encounter package.
 """
@@ -36,13 +36,16 @@ _BASE_HIT_RE = re.compile(r"Base Hit\s*(?:\*\*)?(\d+)(?:\*\*)?", re.I)
 _NO_DAMAGE_RE = re.compile(r"Power\s*:\s*N/A\s*[—-]\s*no direct damage|Power\s+N/A", re.I)
 _TARGET_ONE_RE = re.compile(r"\b(one|single)[ -](?:conscious )?(?:party member|enemy|ally|target)|\bone (?:party member|enemy|ally)\b|sealed character only", re.I)
 _TARGET_ALL_RE = re.compile(r"\ball (?:conscious )?(?:party members|enemies|allies|targets)\b|per target", re.I)
+_REFERENCE_RE = re.compile(
+    r"(?:^|\n)Authority:\s*(?:\n)?`[^`]+`|(?:^|\n)(?:Enables|While functional, .+? may use):",
+    re.I,
+)
 
-_STRUCTURAL_HEADINGS = {
-    "architecture", "current notes", "numerical boundary", "duration certification",
-    "power-completeness verdict", "current raw line", "actual route-level reference",
-    "recorded action system", "earlier ring handling → opening protection",
-    "ordinary chapter-5 body", "furnace tyrant encounter instance",
-}
+_STRUCTURAL_HEADING_TERMS = (
+    "architecture", "access", "interaction", "certification", "recertification",
+    "verdict", "reference", "notes", "handoff", "boundary", "summary", "status",
+    "route levels", "progression", "fresh-body rule", "numerical boundary",
+)
 
 
 @dataclass(frozen=True)
@@ -208,8 +211,17 @@ def _target_scope(block: str) -> str | None:
     return None
 
 
+def _is_structural_heading(heading: str) -> bool:
+    lowered = heading.casefold()
+    return any(term in lowered for term in _STRUCTURAL_HEADING_TERMS)
+
+
+def _is_reference_or_enablement(block: str) -> bool:
+    return bool(_REFERENCE_RE.search(block))
+
+
 def _action_candidate(heading: str, block: str) -> bool:
-    if heading.casefold() in _STRUCTURAL_HEADINGS:
+    if _is_structural_heading(heading):
         return False
     return bool(_DAMAGE_RE.search(block) or _POWER_RE.search(block) or _NO_DAMAGE_RE.search(block) or _BASE_HIT_RE.search(block))
 
@@ -222,16 +234,39 @@ def _audit_action(domain: str, path: str, heading: str, block: str) -> tuple[Rea
     if not _direct_damage_block(block):
         return ()
 
-    issues: list[ReadinessIssue] = []
     damage = _DAMAGE_RE.search(block)
     power = _POWER_RE.search(block)
     hit = _BASE_HIT_RE.search(block)
-    resolved_identity = damage is not None
+    target_scope = _target_scope(block)
+
+    if _is_reference_or_enablement(block):
+        unresolved = []
+        if damage is None:
+            unresolved.append("damage kind/element")
+        if power is None:
+            unresolved.append("Power")
+        if hit is None:
+            unresolved.append("Base Hit")
+        if target_scope is None:
+            unresolved.append("target scope")
+        if unresolved:
+            return (ReadinessIssue(
+                "parser_gap", domain, path, heading, "referenced_action_unresolved",
+                "This section references/enables combat behavior owned or completed elsewhere; generic cross-file linking must resolve: " + ", ".join(unresolved) + ".",
+            ),)
+        return ()
+
+    issues: list[ReadinessIssue] = []
+    action_shaped = target_scope is not None and damage is not None
 
     if damage is not None and power is None:
+        severity = "source_gap" if action_shaped else "parser_gap"
         issues.append(ReadinessIssue(
-            "source_gap", domain, path, heading, "damage_power_missing",
-            "Direct-damage section identifies a damage axis/element but has no exact numeric Power.",
+            severity, domain, path, heading,
+            "damage_power_missing" if severity == "source_gap" else "damage_power_unresolved",
+            "Action-shaped direct-damage block has no exact numeric Power."
+            if severity == "source_gap"
+            else "Damage identity is mentioned, but the generic reader cannot establish this as the complete action owner before requiring Power.",
         ))
     elif power is not None and damage is None:
         issues.append(ReadinessIssue(
@@ -240,15 +275,16 @@ def _audit_action(domain: str, path: str, heading: str, block: str) -> tuple[Rea
         ))
 
     if hit is None:
-        severity = "source_gap" if resolved_identity else "parser_gap"
+        severity = "source_gap" if action_shaped and power is not None else "parser_gap"
         issues.append(ReadinessIssue(
-            severity, domain, path, heading, "base_hit_missing" if resolved_identity else "base_hit_unresolved",
-            "Enemy/support direct-damage section has no Base Hit in this parseable action block."
-            if resolved_identity
-            else "The generic reader cannot resolve Base Hit from this summarized/indirect action section.",
+            severity, domain, path, heading,
+            "base_hit_missing" if severity == "source_gap" else "base_hit_unresolved",
+            "Action-shaped enemy/support direct-damage block has no explicit Base Hit."
+            if severity == "source_gap"
+            else "The generic reader cannot safely require Base Hit from this summarized/partial section.",
         ))
 
-    if _target_scope(block) is None:
+    if target_scope is None:
         issues.append(ReadinessIssue(
             "parser_gap", domain, path, heading, "target_scope_unresolved",
             "The generic reader cannot resolve one/all target scope from this action section.",
@@ -266,10 +302,6 @@ def _audit_stats(domain: str, path: str, title: str, rows: tuple[StatBlockSource
             "This owner contains direct damage but the generic reader found no HP stat table in the same file; stats may be owned by another referenced file.",
         ),)
 
-    # Multi-entity owner files commonly contain boss bodies plus finite/passive
-    # support rows. Until actions can be associated with an exact row, missing
-    # offensive/turn stats are a parser-role problem, not evidence that canon is
-    # incomplete.
     required = {"hp", "defense", "spirit", "speed", "evasion"}
     if any(re.search(r"\bPhysical\s*/", block, re.I) for block in direct_blocks):
         required.add("attack")
@@ -322,9 +354,9 @@ def _should_scan(path: Path) -> bool:
     upper = path.stem.upper()
     if path.name.startswith(".") or path.name.upper() == "README.MD":
         return False
-    # Aggregate registers are indexes, not one combat identity. Individual
-    # owner files are audited separately and remain the simulation source.
     if "REGISTER" in upper or upper.endswith("_INDEX"):
+        return False
+    if upper.startswith("MANDATORY_NAMED_RAW_STATS_"):
         return False
     return True
 
