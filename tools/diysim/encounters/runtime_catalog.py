@@ -14,6 +14,7 @@ from tools.diysim.combat.models import CombatAction, Combatant, StatusRider
 from tools.diysim.progression.stats import Stats
 from tools.diysim.sources.actions import AuthoredActionSource, parse_authored_action_text
 from tools.diysim.sources.actors import parse_stat_row
+from tools.diysim.sources.enemy_effects import parse_enemy_effect_action
 from tools.diysim.sources.markdown import find_markdown_table
 from tools.diysim.sources.repo import SourceGapError, find_repo_root, read_repo_text
 
@@ -68,10 +69,14 @@ _STATEFUL_SHEET = re.compile(
     r"\bwhen HP\b|\bat\s+\d+%\s+(?:Max\s+)?HP\b",
     re.I | re.M,
 )
-_SEQUENCE_RULE = re.compile(
-    r"\bmust be followed by\b|\bnext action\b|\bfixed sequence\b|\baction cycle\b|"
+_FIXED_SEQUENCE_RULE = re.compile(
+    r"\bmust be followed by\b|\bfixed sequence\b|\baction cycle\b|"
     r"\bon the following turn\b|\bthen uses\b",
     re.I,
+)
+_REQUIRES_PREPARATION_RE = re.compile(
+    r"\blegal\s+only\s+after\s+(?:\*\*)?([^\n.*]+?)(?:\*\*)?(?:\.|$)",
+    re.I | re.M,
 )
 
 
@@ -83,6 +88,11 @@ class RuntimeActionDefinition:
     repetition_lock_rounds: int | None
     non_damage: bool
     triggered: bool = False
+    minimum_round: int = 1
+    maximum_uses: int | None = None
+    forced_follow_up: str | None = None
+    forced_by_action: str | None = None
+    requires_preparation: str | None = None
 
 
 @dataclass(frozen=True)
@@ -105,7 +115,18 @@ class EnemyRuntimeDefinition:
     def direct_damage_actions(self) -> tuple[CombatAction, ...]:
         return tuple(
             action.action for action in self.actions
-            if action.action is not None and not action.non_damage and not action.triggered
+            if action.action is not None
+            and action.action.action_kind == "damage"
+            and not action.triggered
+        )
+
+    @property
+    def effect_actions(self) -> tuple[CombatAction, ...]:
+        return tuple(
+            action.action for action in self.actions
+            if action.action is not None
+            and action.action.action_kind == "effect"
+            and not action.triggered
         )
 
 
@@ -174,13 +195,6 @@ def _first_content_line(body: str) -> str:
 
 
 def _looks_like_action_section(body: str) -> bool:
-    """Require combat-shaped content directly beneath the candidate heading.
-
-    This prevents stat/reuse/architecture sections from becoming fake actions
-    merely because they contain an inline action summary later in the section.
-    Real standalone H2 actions remain valid because their first content line is
-    an authored target, damage axis, Power declaration, or trigger declaration.
-    """
     first_line = _first_content_line(body)
     return bool(first_line and _ACTION_LEAD.search(first_line))
 
@@ -209,13 +223,13 @@ def _non_damage(raw_text: str) -> bool:
     return bool(re.search(r"Power\s*:\s*(?:\*\*)?N/?A\b|no direct damage", raw_text, re.I))
 
 
-def _to_action(source: AuthoredActionSource, *, triggered: bool) -> tuple[CombatAction | None, tuple[str, ...], bool]:
-    non_damage = _non_damage(source.raw_text)
-    blockers: list[str] = []
-    if non_damage:
-        blockers.append(f"{source.name}: non-damage effect requires runtime handler")
-        return None, tuple(blockers), True
+def _requires_preparation(raw_text: str) -> str | None:
+    match = _REQUIRES_PREPARATION_RE.search(raw_text)
+    return match.group(1).strip() if match else None
 
+
+def _direct_action(source: AuthoredActionSource, *, triggered: bool) -> tuple[CombatAction | None, tuple[str, ...]]:
+    blockers: list[str] = []
     for field in ("target_scope", "damage_kind", "power", "base_hit"):
         if getattr(source, field) is None:
             blockers.append(f"{source.name}: missing {field}")
@@ -230,7 +244,7 @@ def _to_action(source: AuthoredActionSource, *, triggered: bool) -> tuple[Combat
     if triggered:
         blockers.append(f"{source.name}: triggered/passive action requires runtime trigger")
     if blockers:
-        return None, tuple(blockers), False
+        return None, tuple(blockers)
 
     assert source.target_scope in {"one", "all"}
     assert source.damage_kind in {"physical", "magical", "hybrid"}
@@ -247,7 +261,7 @@ def _to_action(source: AuthoredActionSource, *, triggered: bool) -> tuple[Combat
         magical_weight=source.magical_weight,
         weight=source.weight,
         status_riders=tuple(StatusRider(status, chance) for status, chance in source.status_chances),
-    ), (), False
+    ), ()
 
 
 def load_enemy_runtime_definition(
@@ -262,19 +276,23 @@ def load_enemy_runtime_definition(
 
     if category == "support":
         return EnemyRuntimeDefinition(
-            name, category, source_path, "component", None, None, (),
-            ("encounter support/component; attach to parent encounter runtime",),
+            name=name, category=category, source_path=source_path, kind="component",
+            displayed_level=None, combatant=None, actions=(),
+            blockers=("encounter support/component; attach to parent encounter runtime",),
         )
 
     special = SPECIAL_RUNTIME_PATHS.get(source_path)
     if special is not None:
-        return EnemyRuntimeDefinition(name, category, source_path, "special", None, None, (), (), special)
+        return EnemyRuntimeDefinition(
+            name=name, category=category, source_path=source_path, kind="special",
+            displayed_level=None, combatant=None, actions=(), blockers=(), special_runtime=special,
+        )
 
     blockers: list[str] = []
     if "→" in name or _STATEFUL_SHEET.search(text):
         blockers.append("state/phase/form behavior requires encounter-specific runtime")
-    if _SEQUENCE_RULE.search(text):
-        blockers.append("authored action sequence/cycle requires runtime scheduler")
+    if _FIXED_SEQUENCE_RULE.search(text):
+        blockers.append("authored fixed action sequence/cycle requires runtime scheduler")
 
     combatant: Combatant | None = None
     displayed_level: int | None = None
@@ -309,27 +327,55 @@ def load_enemy_runtime_definition(
     action_blocks = _action_blocks(text)
     if not action_blocks:
         blockers.append("no explicit Power-bearing action blocks detected")
+
     for action_name, raw_text in action_blocks:
         source = parse_authored_action_text(action_name, raw_text)
         triggered = bool(_TRIGGER_ONLY.search(raw_text))
-        action, action_blockers, non_damage = _to_action(source, triggered=triggered)
+        non_damage = _non_damage(raw_text)
+        minimum_round = 1
+        maximum_uses: int | None = None
+        forced_follow_up: str | None = None
+        forced_by_action: str | None = None
+
+        if non_damage and not triggered:
+            parsed_effect = parse_enemy_effect_action(action_name, raw_text)
+            action = parsed_effect.action
+            action_blockers = tuple(f"{action_name}: {item}" for item in parsed_effect.blockers)
+            minimum_round = parsed_effect.minimum_round
+            maximum_uses = parsed_effect.maximum_uses
+            forced_follow_up = parsed_effect.forced_follow_up
+            forced_by_action = parsed_effect.forced_by_action
+        else:
+            action, action_blockers = _direct_action(source, triggered=triggered)
+
+        requires_preparation = _requires_preparation(raw_text)
         action_defs.append(RuntimeActionDefinition(
-            source, action, action_blockers, _repetition_lock(raw_text), non_damage, triggered
+            source=source,
+            action=action,
+            blockers=action_blockers,
+            repetition_lock_rounds=_repetition_lock(raw_text),
+            non_damage=non_damage,
+            triggered=triggered,
+            minimum_round=minimum_round,
+            maximum_uses=maximum_uses,
+            forced_follow_up=forced_follow_up,
+            forced_by_action=forced_by_action,
+            requires_preparation=requires_preparation,
         ))
         blockers.extend(action_blockers)
 
-    damaging_actions = tuple(
-        defn.action for defn in action_defs
-        if defn.action is not None and not defn.triggered
+    executable_actions = tuple(
+        action_def.action for action_def in action_defs
+        if action_def.action is not None and not action_def.triggered
     )
-    if combatant is not None and damaging_actions:
+    if combatant is not None and executable_actions:
         combatant = Combatant(
             name=combatant.name, side=combatant.side, stats=combatant.stats,
-            actions=damaging_actions, evasion=combatant.evasion, rank=combatant.rank,
+            actions=executable_actions, evasion=combatant.evasion, rank=combatant.rank,
             status_resistance=combatant.status_resistance,
         )
-    elif combatant is not None and not damaging_actions:
-        blockers.append("no generic selected direct-damage action is executable")
+    elif combatant is not None and not executable_actions:
+        blockers.append("no generic selected action is executable")
 
     unique_blockers = tuple(dict.fromkeys(blockers))
     return EnemyRuntimeDefinition(
