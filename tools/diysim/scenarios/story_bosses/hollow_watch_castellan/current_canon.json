@@ -1,0 +1,59 @@
+{
+  "id": "hollow_watch_castellan_current_lv2_smart",
+  "name": "Hollow Watch Castellan — Current-Canon Lv2 Smart Benchmark",
+  "content_family": "current_story_boss_benchmark",
+  "story_point": "chapter_1_s008_hollow_watch",
+  "ruleset": "current",
+  "status": "SCRIPTED_RUNTIME_IMPLEMENTED_VALIDATION_PENDING",
+  "sources": [
+    "docs/06_CLASSES_AND_ABILITIES/BASE_CLASSES/CREST_KNIGHT.md",
+    "docs/06_CLASSES_AND_ABILITIES/BASE_CLASSES/BLUE_WARDEN.md",
+    "docs/06_CLASSES_AND_ABILITIES/TRAITS.md",
+    "docs/09_ENEMIES_AND_ENCOUNTERS/STORY_BOSSES/HOLLOW_WATCH_CASTELLAN.md",
+    "docs/16_BALANCE_AND_TESTING/TRUE_BATTLES/HOLLOW_WATCH_CASTELLAN_TRUE_BATTLE_v93.md"
+  ],
+  "party_refs": [
+    "content/characters/cyanis/hollow_watch_lv2.json",
+    "content/characters/ilyra/hollow_watch_lv2.json",
+    "content/guests/maevra/hollow_watch_lv2.json"
+  ],
+  "boss_ref": "content/story_bosses/hollow_watch_castellan/owner.json",
+  "support_refs": [
+    "content/support_objects/hollow_watch/fortress_ballista.json",
+    "content/support_objects/hollow_watch/watch_seal.json"
+  ],
+  "starting_conditions": {
+    "party_hp": "full",
+    "party_mp": "full",
+    "consumables_used_by_policy": false,
+    "standard_cards": "none_before_first_clear",
+    "primes": "none"
+  },
+  "current_mp_costs": {
+    "Crest Strike": 9,
+    "Resonant Pulse": 10,
+    "Mend": 14,
+    "Clear Warding": 15,
+    "Linebreaker Thrust": 10
+  },
+  "policy": {
+    "name": "normal_smart",
+    "heal_trigger_hp_fraction": 0.55,
+    "heal_trigger_status": "REGRESSION_POLICY_RECONSTRUCTION_NOT_CANON",
+    "steps": [
+      "destroy telegraphed Ballista immediately",
+      "leave Watch Seal intact and push Castellan until Walking State ends Seal protection",
+      "use current Cyanis MP costs and Harmonized Crest Rank I",
+      "use Maevra Linebreaker Thrust while affordable, then Spear Attack",
+      "Ilyra uses current Mend/Clear Warding costs and current Gentle Continuance/Clear Warding effects",
+      "use no Items"
+    ]
+  },
+  "expected_relationships": [
+    "Ballista should be destroyed before Heavy Bolt resolves under the smart policy.",
+    "Walking State must be reached on the same 450-HP bar with no refill.",
+    "Current lower Ability MP costs must not be frozen to the v93 historical economy.",
+    "Current mean/median duration is measured by the simulator and is not copied from the v93 historical oracle."
+  ],
+  "measured_result": null
+}
