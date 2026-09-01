@@ -5,64 +5,78 @@
 **Balance ownership rule:** this domain owns cross-system balance acceptance criteria, verification plans, playtest targets, certification status and regression gates. Exact formulas/stats/rewards remain canonically housed in their dedicated system domains.
 
 ## Active
-### Representative true-battle certification
+### Mandatory-route boss difficulty recalibration
 Status:
-> **ACTIVE — v102 complete; Reconstituted Entity → The Last Command next**
+> **REOPENED v103 — Chapter 5 Deepforge Colossus first; final-boss certification PAUSED**
 
-Static enemy design is closed and Chapters 0–13 have completed mandatory-vs-completionist paper validation. CEXP is recalibrated. The current targeted certification step is the representative full turn-by-turn battle suite using reproducible party snapshots.
+The v93–v102 true-battle reports remain valid records of the exact rules/snapshots they tested, but the prior acceptance logic put too much weight on survival/win rate and duration and too little weight on meaningful KO/wipe pressure.
 
-Completed representative anchors:
-- Hollow Watch Castellan — **PASS / RETAIN v93**;
-- Archive Leviathan — **PASS / RETAIN v97**;
-- Regulation Crucible → The Seventh Reaction — **PASS / RETAIN v99**;
-- Warden of the Nameless / Revision Arbiter — **PASS / RETAIN v100**;
-- Commander Rhazek — Reforged Commander → Bastion Devourer — **PASS / RETAIN v101**;
-- Emperor Vaelkor Draeven → Sovereign Panoply Unbound — **PASS / RETAIN v102**.
+New user-directed principle:
+> **The mandatory route should be harder. Optional progression should materially reduce KO risk.**
 
-Vaelkor v102 key result:
-- prepared mandatory Lv56 no Prime — **100% wins / median 21 / mean 22.46 / P90 29** over 5,000 runs;
-- one timed Last Sentinel — **100% wins / median 20 / mean 20.70 / P90 25**, with the same manifestation crossing the genuine fresh body in **95.90%** of timed runs and no spent-Prime restoration;
-- legal Last Sentinel → 2 full normal rounds → Last Convergence chain — **100% wins / median 19 / mean 19.14 / P90 23**, with **0% any-KO**;
-- completionist Lv66 native-Legacy reference — **100% wins / median 15 / mean 14.68 / P90 17**;
-- Sovereign Overrun remained behaviorally relevant without an unavoidable wipe pattern;
-- all HP/raw stats/Powers, Overrun, Final Sovereignty, and Prime persistence rules retained.
+Core mandatory-vs-completionist comparison now uses:
+- the **same ordinary equipment** on both routes;
+- the **same normal-stock consumable preparation** on both routes;
+- the same active four and competent tactical policy;
+- no completionist-only Relic/Legacy gear advantage in the core comparison;
+- actual route differences from Player Level, CEXP, and naturally learned abilities;
+- Prime-specific stress separately rather than hiding the progression signal inside optional burst access.
 
-Current next anchor:
-> **Reconstituted Entity → The Last Command — Chapter 13 — final mandatory two-body certification**
+Primary difficulty metrics now include:
+- temporary-KO incidence;
+- wipe incidence;
+- ending HP/MP;
+- recovery/item pressure;
+- mechanic-response pressure;
+- duration as a secondary metric rather than the main pass criterion.
 
-The final mandatory test must use:
-- exact Chapter-13 pre-final-boss Player Level / CEXP state;
-- current Base/Subclass completion state and all legally learned abilities;
-- exact legal late-game equipment/Legacy and consumable access for mandatory and completionist references;
-- current fixed turn-entry initiative;
-- current one-use-until-restored Awakened Prime economy;
-- the genuine fresh Last Command body **not** restoring spent Prime identities;
-- the separate 2-full-normal-round post-dismissal spacing rule;
-- current percentage temporary-stat, status-conversion, Bleed-escalation, Card, summon, and class rules;
-- all final-boss authored phase/state mechanics from the current owner file.
+### First recalibration anchor — Deepforge Colossus
+Detailed working report:
+`TRUE_BATTLES/CH5_DEEPFORGE_DIFFICULTY_RECALIBRATION_WORKING_v103.md`
 
-Each tested boss must have:
-- exact story point / Player Level;
-- exact mandatory or completionist CEXP available at that point;
-- selected Base/Subclass Class Levels and unlocked abilities;
-- equipment, Relics/Legacies, Standard Cards and Prime loadout;
-- consumables;
-- starting HP/MP;
-- full action-by-action resource/status/phase record.
+Same-gear snapshots:
+- mandatory — **Lv20**;
+- completionist fixed-content — **Lv22**.
 
-After the final mandatory boss, the remaining required representative anchor is **The Unfinished World** as the exhaustive completionist full-kit stress test. Calder → Crown-Bound Living Anchor remains an optional added representative if a dedicated support-object/fresh-body case is still useful before suite closure.
+Current-package competent-policy result over 20,000 runs each:
+- Lv20 mandatory — **100% wins / 0.095% any-KO**;
+- Lv22 completionist — **100% wins / 0.005% any-KO**.
+
+Verdict:
+> **CURRENT CHAPTER-5 CLIMAX PACKAGE TOO SAFE UNDER THE NEW STANDARD**
+
+A provisional ~45% direct-Power sensitivity produced:
+- Lv20 mandatory — **99.415% wins / 22.21% any-KO / ~0.585% wipes**;
+- Lv22 completionist, same gear — **100% wins / 4.135% any-KO**.
+
+That offensive range is promising but **not locked**.
+
+The harder test also exposed an assembly-action-density issue: removing Guard Press / Repair Arm can remove non-damaging boss actions and unintentionally raise hostile attack density after the player has spent turns dismantling assemblies. Resolve that payoff before promoting any Deepforge Power changes.
+
+### Prior representative reports — historical measurement status
+Completed measurement reports:
+- Hollow Watch Castellan — v93;
+- Archive Leviathan — v97;
+- Regulation Crucible → The Seventh Reaction — v99;
+- Warden of the Nameless / Revision Arbiter — v100;
+- Commander Rhazek → Bastion Devourer — v101;
+- Emperor Vaelkor → Sovereign Panoply Unbound — v102.
+
+From Chapter 5 onward, prior **difficulty** PASS/RETAIN conclusions are provisional until rechecked against the new same-gear mandatory-pressure standard. Mechanical-rule findings such as fresh-body behavior, Prime persistence, phase architecture, and tested resolver behavior remain useful evidence unless separately contradicted.
+
+Do **not** proceed to Reconstituted Entity → The Last Command difficulty certification until the recalibration standard is anchored earlier in the campaign.
 
 ### Enemy static/paper work
 Status:
-> **CLOSED v90**
+> **CLOSED v90 for architecture/raw definitions; difficulty tuning may reopen specific values**
 
-- direct-damage Power audit — CLOSED;
+- direct-damage Power audit — static completeness CLOSED;
 - Chapters 0–13 mandatory-vs-completionist paper validation — COMPLETE;
 - Character Quest combat boss sheets — COMPLETE;
 - formation composition/weight authority — COMPLETE;
 - targetable support/component static sheets — COMPLETE.
 
-Story-owned placement/return triggers and runtime QA remain separate dependencies; they are not missing enemy kits.
+A difficulty retune may change a specific boss Power/stat only after reproducible testing demonstrates the need. This does not reopen unrelated enemy architecture.
 
 ### CEXP timing/allocation
 Status:
@@ -90,7 +104,7 @@ Status:
 - encounter-frequency feel;
 - economy pressure.
 
-A playtest-open question is not permission to silently change a closed value.
+A playtest-open question is not permission to silently change a closed value. Reproducible difficulty evidence now explicitly qualifies as a reason to reopen the affected boss value.
 
 ## Major Hunt recommended-level recertification — COMPLETE
 Current unlocks:
@@ -101,18 +115,7 @@ Current unlocks:
 - #5 after Ch11 — Final Archive Arbiter, **Lv65**;
 - #6 post-Vaelkor + Arbiter gate — **Lv70**.
 
-Major Hunt #1–#5 recommended-level recertification is closed. #2 retains a runtime Prime-economy revalidation dependency under the current no-fresh-form-restoration rule; #6 retains its runtime duration/attrition gate.
+Recommended levels remain closed. Difficulty tuning under the new mandatory/optional pressure standard is a separate question.
 
-## Hunt action-kit Power closure — COMPLETE
-Regional Hunts #1–#11:
-> **POWER COMPLETE**
-
-Major Hunts #1–#6:
-> **POWER COMPLETE**
-
-Reopen only for:
-- playtest-driven tuning;
-- an explicit later canon revision;
-- implementation mismatch.
-
-Do not reopen merely because a Hunt is optional.
+## Hunt action-kit Power closure
+Regional Hunts #1–#11 and Major Hunts #1–#6 remain **POWER COMPLETE as authored sheets**, but later difficulty testing may reopen exact numeric tuning where evidence requires it.
