@@ -61,6 +61,25 @@ def _num(pattern: str, text: str, label: str) -> float:
     return float(match.group(1))
 
 
+def _ordinal_to_int(word: str) -> int:
+    words = {
+        "first": 1,
+        "second": 2,
+        "third": 3,
+        "fourth": 4,
+        "fifth": 5,
+        "sixth": 6,
+        "seventh": 7,
+        "eighth": 8,
+        "ninth": 9,
+        "tenth": 10,
+    }
+    normalized = word.lower()
+    if normalized not in words:
+        raise SourceGapError(f"Unsupported ordinal in combat source: {word}")
+    return words[normalized]
+
+
 def _load(root_string: str) -> CombatRules:
     root = Path(root_string)
     crit = read_repo_text(CRIT_PATH, root=root)
@@ -81,17 +100,26 @@ def _load(root_string: str) -> CombatRules:
         raise SourceGapError("Incomplete hit/basic-attack authority")
 
     affinity: dict[str, float] = {}
-    for name, key in (("Weak", "weak"), ("Neutral", "neutral"), ("Resistant", "resistant"), ("Strongly Resistant", "strongly_resistant"), ("Immune", "immune")):
-        match = re.search(rf"- {re.escape(name)} — \*\*(\d+)%\*\*", elements)
+    for source_name, key in (
+        ("Weak", "weak"),
+        ("Neutral", "neutral"),
+        ("Resistant", "resistant"),
+        ("Strongly Resistant", "strongly_resistant"),
+        ("Immune", "immune"),
+    ):
+        match = re.search(rf"- {re.escape(source_name)} — \*\*(\d+)%\*\*", elements)
         if not match:
-            raise SourceGapError(f"Missing affinity multiplier for {name}")
+            raise SourceGapError(f"Missing affinity multiplier for {source_name}")
         affinity[key] = int(match.group(1)) / 100.0
 
-    linked: dict[str, str] = {}
-    for element, status_name in re.findall(r"- (Fire|Ice|Lightning|Earth) → (Burn|Freeze|Stun|Staggered)", elements):
-        linked[element.lower()] = status_name.lower()
-    if len(linked) != 4:
-        raise SourceGapError("Incomplete element/status link table")
+    linked = {
+        element.lower(): status_name.lower()
+        for element, status_name in re.findall(
+            r"- ([A-Za-z]+) → ([A-Za-z]+)", elements
+        )
+    }
+    if not linked:
+        raise SourceGapError("Missing element/status link table")
 
     weak_mod = re.search(r"Weak — \*\*\+(\d+) percentage points\*\*", elements)
     resist_mod = re.search(r"Resist — \*\*−(\d+) percentage points\*\*", elements)
@@ -108,13 +136,13 @@ def _load(root_string: str) -> CombatRules:
     chance_clamp = re.search(r"clamped to \*\*(\d+)%–(\d+)%\*\*", status)
     burn_rounds = re.search(r"## Burn[\s\S]*?Duration:\s*#\s*\*\*(\d+) rounds\*\*", status)
     burn_ordinary = re.search(r"Ordinary damage:\s*#\s*\*\*(\d+(?:\.\d+)?)% target Max HP", status)
-    burn_regional = re.search(r"Regional Hunt — \*\*75%\*\* ordinary Burn damage = \*\*(\d+(?:\.\d+)?)%", status)
-    burn_major = re.search(r"Major Hunt / mandatory boss — \*\*50%\*\* ordinary Burn damage = \*\*(\d+(?:\.\d+)?)%", status)
+    burn_regional = re.search(r"Regional Hunt — \*\*\d+(?:\.\d+)?%\*\* ordinary Burn damage = \*\*(\d+(?:\.\d+)?)%", status)
+    burn_major = re.search(r"Major Hunt / mandatory boss — \*\*\d+(?:\.\d+)?%\*\* ordinary Burn damage = \*\*(\d+(?:\.\d+)?)%", status)
     burn_def = re.search(r"While Burn is active:[\s\S]*?Defense −(\d+)%", status)
     burn_spr = re.search(r"While Burn is active:[\s\S]*?Spirit −(\d+)%", status)
 
     freeze_guaranteed = re.search(r"Freeze[\s\S]*?first \*\*(\d+) affected rounds\*\* are guaranteed", status)
-    freeze_persist = re.search(r"Freeze[\s\S]*?\*\*(\d+)%\*\* persistence check into affected round 3", status)
+    freeze_persist = re.search(r"Freeze[\s\S]*?\*\*(\d+)%\*\* persistence check into affected round \d+", status)
     freeze_max = re.search(r"Freeze[\s\S]*?maximum \*\*(\d+) affected rounds\*\*", status)
     freeze_regional = re.search(r"Freeze[\s\S]*?Regional Hunt — maximum \*\*(\d+) affected rounds\*\*", status)
     freeze_major = re.search(r"Freeze[\s\S]*?Major Hunt / mandatory boss — maximum \*\*(\d+) affected round", status)
@@ -133,14 +161,17 @@ def _load(root_string: str) -> CombatRules:
 
     bleed_initial = re.search(r"Initial ordinary magnitude:\s*#\s*\*\*(\d+(?:\.\d+)?)%", status)
     bleed_escalated = re.search(r"ordinary magnitude is \*\*(\d+(?:\.\d+)?)% Max HP", status)
-    bleed_turns = re.search(r"completes its third turn", status)
-    bleed_reg = re.search(r"Regional Hunt — \*\*75%\*\* ordinary Bleed damage = \*\*(\d+(?:\.\d+)?)% Max HP per proc initially\*\*, escalating to \*\*(\d+(?:\.\d+)?)%\*\*", status)
-    bleed_major = re.search(r"Major Hunt / mandatory boss — \*\*50%\*\* ordinary Bleed damage = \*\*(\d+(?:\.\d+)?)% Max HP per proc initially\*\*, escalating to \*\*(\d+(?:\.\d+)?)%\*\*", status)
+    bleed_turns = re.search(r"completes its ([A-Za-z]+) turn", status)
+    bleed_reg = re.search(r"Regional Hunt — \*\*\d+(?:\.\d+)?%\*\* ordinary Bleed damage = \*\*(\d+(?:\.\d+)?)% Max HP per proc initially\*\*, escalating to \*\*(\d+(?:\.\d+)?)%\*\*", status)
+    bleed_major = re.search(r"Major Hunt / mandatory boss — \*\*\d+(?:\.\d+)?%\*\* ordinary Bleed damage = \*\*(\d+(?:\.\d+)?)% Max HP per proc initially\*\*, escalating to \*\*(\d+(?:\.\d+)?)%\*\*", status)
 
-    required = [chance_clamp, burn_rounds, burn_ordinary, burn_regional, burn_major, burn_def, burn_spr,
-                freeze_guaranteed, freeze_persist, freeze_max, freeze_regional, freeze_major,
-                stun_turns, stun_ord, stun_reg, stun_major, stag_ord, stag_atk, stag_mag, stag_spd, stag_reg, stag_major,
-                bleed_initial, bleed_escalated, bleed_turns, bleed_reg, bleed_major]
+    required = [
+        chance_clamp, burn_rounds, burn_ordinary, burn_regional, burn_major, burn_def, burn_spr,
+        freeze_guaranteed, freeze_persist, freeze_max, freeze_regional, freeze_major,
+        stun_turns, stun_ord, stun_reg, stun_major,
+        stag_ord, stag_atk, stag_mag, stag_spd, stag_reg, stag_major,
+        bleed_initial, bleed_escalated, bleed_turns, bleed_reg, bleed_major,
+    ]
     if not all(required):
         raise SourceGapError("Incomplete universal status authority in repo")
 
@@ -159,21 +190,45 @@ def _load(root_string: str) -> CombatRules:
         status_chance_min=float(chance_clamp.group(1)),
         status_chance_max=float(chance_clamp.group(2)),
         burn_rounds=int(burn_rounds.group(1)),
-        burn_rates={"ordinary": float(burn_ordinary.group(1))/100.0, "regional_hunt": float(burn_regional.group(1))/100.0, "major_boss": float(burn_major.group(1))/100.0},
-        burn_defense_penalty=int(burn_def.group(1))/100.0,
-        burn_spirit_penalty=int(burn_spr.group(1))/100.0,
+        burn_rates={
+            "ordinary": float(burn_ordinary.group(1)) / 100.0,
+            "regional_hunt": float(burn_regional.group(1)) / 100.0,
+            "major_boss": float(burn_major.group(1)) / 100.0,
+        },
+        burn_defense_penalty=int(burn_def.group(1)) / 100.0,
+        burn_spirit_penalty=int(burn_spr.group(1)) / 100.0,
         freeze_guaranteed_rounds=int(freeze_guaranteed.group(1)),
-        freeze_persist_chance=int(freeze_persist.group(1))/100.0,
-        freeze_max_rounds={"ordinary": int(freeze_max.group(1)), "regional_hunt": int(freeze_regional.group(1)), "major_boss": int(freeze_major.group(1))},
+        freeze_persist_chance=int(freeze_persist.group(1)) / 100.0,
+        freeze_max_rounds={
+            "ordinary": int(freeze_max.group(1)),
+            "regional_hunt": int(freeze_regional.group(1)),
+            "major_boss": int(freeze_major.group(1)),
+        },
         stun_turns=int(stun_turns.group(1)),
-        stun_loss_chances={"ordinary": int(stun_ord.group(1))/100.0, "regional_hunt": int(stun_reg.group(1))/100.0, "major_boss": int(stun_major.group(1))/100.0},
-        staggered_rounds={"ordinary": int(stag_ord.group(1)), "regional_hunt": int(stag_reg.group(1)), "major_boss": int(stag_major.group(1))},
-        staggered_attack_penalty=int(stag_atk.group(1))/100.0,
-        staggered_magic_penalty=int(stag_mag.group(1))/100.0,
-        staggered_speed_penalty=int(stag_spd.group(1))/100.0,
-        bleed_initial_rates={"ordinary": float(bleed_initial.group(1))/100.0, "regional_hunt": float(bleed_reg.group(1))/100.0, "major_boss": float(bleed_major.group(1))/100.0},
-        bleed_escalated_rates={"ordinary": float(bleed_escalated.group(1))/100.0, "regional_hunt": float(bleed_reg.group(2))/100.0, "major_boss": float(bleed_major.group(2))/100.0},
-        bleed_escalation_turns=3,
+        stun_loss_chances={
+            "ordinary": int(stun_ord.group(1)) / 100.0,
+            "regional_hunt": int(stun_reg.group(1)) / 100.0,
+            "major_boss": int(stun_major.group(1)) / 100.0,
+        },
+        staggered_rounds={
+            "ordinary": int(stag_ord.group(1)),
+            "regional_hunt": int(stag_reg.group(1)),
+            "major_boss": int(stag_major.group(1)),
+        },
+        staggered_attack_penalty=int(stag_atk.group(1)) / 100.0,
+        staggered_magic_penalty=int(stag_mag.group(1)) / 100.0,
+        staggered_speed_penalty=int(stag_spd.group(1)) / 100.0,
+        bleed_initial_rates={
+            "ordinary": float(bleed_initial.group(1)) / 100.0,
+            "regional_hunt": float(bleed_reg.group(1)) / 100.0,
+            "major_boss": float(bleed_major.group(1)) / 100.0,
+        },
+        bleed_escalated_rates={
+            "ordinary": float(bleed_escalated.group(1)) / 100.0,
+            "regional_hunt": float(bleed_reg.group(2)) / 100.0,
+            "major_boss": float(bleed_major.group(2)) / 100.0,
+        },
+        bleed_escalation_turns=_ordinal_to_int(bleed_turns.group(1)),
     )
 
 
