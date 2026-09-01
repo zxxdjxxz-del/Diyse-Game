@@ -40,8 +40,14 @@ def _clean(text: str) -> str:
     return re.sub(r"[*_`]", "", text)
 
 
-def parse_dynamic_element_hit_rule_text(name: str, raw_text: str) -> DynamicElementHitRuleSource:
+def parse_dynamic_element_hit_rule_text(
+    name: str,
+    raw_text: str,
+    *,
+    context_text: str | None = None,
+) -> DynamicElementHitRuleSource:
     cleaned = _clean(raw_text)
+    context = _clean(context_text or raw_text)
     ordinary = parse_authored_action_text(name, raw_text)
 
     damage_kind = ordinary.damage_kind
@@ -60,8 +66,7 @@ def parse_dynamic_element_hit_rule_text(name: str, raw_text: str) -> DynamicElem
     base_hit_match = re.search(r"Base Hit\s*:?\s*(\d+)\s*per hit", cleaned, re.I)
     base_hit = int(base_hit_match.group(1)) if base_hit_match else ordinary.base_hit
 
-    cycle_text = cleaned.casefold()
-    has_cycle = all(element in cycle_text for element in _STANDARD_CYCLE) and "→" in cleaned
+    has_cycle = all(element in context.casefold() for element in _STANDARD_CYCLE) and "→" in context
     current_then_next = bool(
         re.search(r"current(?:\s+Foundation Storm)?\s+element", cleaned, re.I)
         and re.search(r"next\s+element", cleaned, re.I)
