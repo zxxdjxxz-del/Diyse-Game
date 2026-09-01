@@ -27,7 +27,7 @@
 | Regional Hunt raw stats | **CLOSED** | `09` |
 | Major Hunt raw stats | **CLOSED** | `09` |
 | Whole-roster mandatory-vs-completionist validation | **PAPER PASS COMPLETE Ch0–13 / v89; representative true-battle follow-up ACTIVE** | `16` + owning `09` files |
-| Representative true-battle suite | **ACTIVE — Hollow Watch PASS v93; Archive Leviathan PASS v97; Regulation Crucible → Seventh Reaction PASS v99; Revision Arbiter PASS v100; Rhazek → Bastion Devourer next** | `16/TRUE_BATTLES` + owning `09` files |
+| Representative true-battle suite | **ACTIVE — Hollow Watch PASS v93; Archive Leviathan PASS v97; Regulation Crucible → Seventh Reaction PASS v99; Revision Arbiter PASS v100; Rhazek → Bastion Devourer PASS v101; Vaelkor → Sovereign Panoply next** | `16/TRUE_BATTLES` + owning `09` files |
 | Ordinary equipment/item definitions | **CLOSED where catalog says closed** | `08` |
 | Economy exact unresolved payouts | **OPEN where `12` says open** | `12` |
 | Final production UI/audio balance | **OPEN production validation** | `13` / `15` |
@@ -77,6 +77,42 @@ The opening/reconciliation taxes remain behaviorally relevant because smart play
 
 Detailed certification:
 `TRUE_BATTLES/REVISION_ARBITER_TRUE_BATTLE_v100.md`
+
+## v101 Rhazek → Bastion Devourer certification
+Commander Rhazek — Reforged Commander → Bastion Devourer is now **TRUE-BATTLE CERTIFIED / PASS / RETAIN**.
+
+Strict prepared mandatory Lv40, no Prime:
+- **100% wins / median 14 / mean 14.48 / P90 17** over 20,000 runs;
+- any-KO incidence **0.08%**;
+- defeat incidence **0%**;
+- mean ending party HP **75.06%**;
+- mean ending party MP **12.18%**;
+- mean consumables used **3.45**.
+
+Prime persistence stress:
+- timed Awakened Last Sentinel — **100% wins / median 15 total rounds / mean 15.34 / P90 17** over 10,000 runs;
+- Last Sentinel crossed the genuine Reforged Commander → Bastion Devourer transition in **99.04%** of timed stress runs;
+- the fresh Bastion Devourer body did **not** restore the spent Last Sentinel identity;
+- legal Last Sentinel → 2 full normal rounds → Last Convergence chain — **100% wins / median 15 total rounds / mean 15.17 / P90 17** over 10,000 runs;
+- chained-Primes improved ending MP to **43.77%** and reduced mean item use to **0.98** without erasing encounter duration.
+
+Completionist references:
+- fixed-content Lv48 no Prime — **median 12 / mean 12.18 / P90 14**;
+- RH9-legal Lv49 no Prime — **median 12 / mean 12.06 / P90 14**.
+
+Retain unchanged:
+- Reforged Commander HP **8,431** and raw line;
+- Bastion Devourer HP **10,462** and raw line;
+- all Powers/status chances/repetition locks;
+- Demolition Breaker's 55% threshold, protected one-round Preparation, **335 Power** resolution, 25% Staggered, and 3-round lock;
+- the 18% Exposed Rhazek same-bar state;
+- current persistent-spend Prime rules across the genuine fresh body.
+
+Detailed certification:
+`TRUE_BATTLES/RHAZEK_BASTION_DEVOURER_TRUE_BATTLE_v101.md`
+
+The next representative anchor is:
+> **Emperor Vaelkor Draeven → Sovereign Panoply Unbound — mandatory Lv56 / completionist Lv66**
 
 ## Meaning of CLOSED
 `CLOSED` means:
