@@ -47,7 +47,7 @@ _NON_OWNER_FILE_TOKENS = (
 _NON_OWNER_EXACT = {"CHARACTER_QUEST_BOSSES"}
 _REQUIRED_GENERIC_STATS = ("hp", "attack", "magic", "defense", "spirit", "speed")
 _POWER_AUTHORITY = re.compile(
-    r"(?im)(?:^|\n)\s*(?:[-*]\s*)?(?:\*\*)?Power(?:\*\*)?\s*:?\s*(?:\*\*)?(?:\d+(?:\.\d+)?|N/?A)\b"
+    r"(?im)(?:^|\n)\s*(?:>\s*)?(?:[-*]\s*)?(?:\*\*)?Power(?:\*\*)?\s*:?\s*(?:\*\*)?(?:\d+(?:\.\d+)?|N/?A)\b"
     r"|\b\d+(?:\.\d+)?\s+Power(?:\s+per\s+target)?\b"
 )
 _TRIGGER_ONLY = re.compile(
