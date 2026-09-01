@@ -1,7 +1,7 @@
 """Direct healing formulas."""
 from __future__ import annotations
 
-from ..core import round_half_up
+from ..common import round_half_up
 
 
 def healing_amount(
