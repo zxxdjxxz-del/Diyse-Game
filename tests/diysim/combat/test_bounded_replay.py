@@ -3,6 +3,7 @@ from __future__ import annotations
 from tools.diysim.combat.models import CombatAction, StatusRider, TemporaryModifierSpec
 from tools.diysim.combat.replay import (
     BoundedReplayRule,
+    BoundedReplayState,
     record_completed_damage_action,
     replay_category_eligible,
     split_total_power_evenly,
@@ -111,3 +112,48 @@ def test_basic_attack_records_repo_owned_power_without_runtime_guessing() -> Non
     assert recorded is not None
     assert recorded.total_power == load_combat_rules().basic_attack_power
     assert recorded.hit_count == 1
+
+
+def test_bounded_replay_state_replaces_only_with_new_eligible_completed_record() -> None:
+    state = BoundedReplayState(
+        name="Recorded Echo",
+        rule=BoundedReplayRule(power_scale=0.65, min_total_power=80, max_total_power=180, base_hit=100),
+    )
+    first = CombatAction(name="First", target_scope="one", damage_kind="physical", element="neutral", power=120)
+    second = CombatAction(name="Second", target_scope="all", damage_kind="magical", element="fire", power=200)
+
+    assert not state.available
+    assert state.observe_completed_action(first, category="ability")
+    assert state.available
+    assert state.recorded is not None
+    assert state.recorded.source_name == "First"
+
+    # Ineligible completed commands do not erase the current most-recent eligible record.
+    assert not state.observe_completed_action(second, category="item")
+    assert state.recorded is not None
+    assert state.recorded.source_name == "First"
+
+    assert state.observe_completed_action(second, category="standard_card")
+    assert state.recorded is not None
+    assert state.recorded.source_name == "Second"
+    assert state.materialize() is not None
+    assert state.materialize().target_scope == "all"
+
+
+def test_bounded_replay_state_materialization_does_not_consume_record() -> None:
+    state = BoundedReplayState(
+        name="Deep Duplicate",
+        rule=BoundedReplayRule(power_scale=0.80, min_total_power=110, max_total_power=240, base_hit=100),
+    )
+    action = CombatAction(name="Source", target_scope="one", damage_kind="magical", element="colorless", power=180)
+    assert state.observe_completed_action(action, category="ability")
+
+    first = state.materialize()
+    second = state.materialize()
+
+    assert first is not None
+    assert second is not None
+    assert first == second
+    assert state.available
+    assert state.recorded is not None
+    assert state.recorded.source_name == "Source"
