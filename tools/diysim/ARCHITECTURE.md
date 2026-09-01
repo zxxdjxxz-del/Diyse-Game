@@ -30,6 +30,16 @@ Examples of source domains:
 
 The source layer may cache parsed data in memory during one run, but it must not write canonical snapshots into `tools/diysim/`.
 
+Current reusable adapters include:
+- global progression and combat-rule loaders;
+- Markdown table/heading utilities;
+- Ability master-register lookup with automatic individual class-owner discovery and MP cross-checking;
+- Trait package/rank lookup from the controlling Trait register;
+- common authored-action text parsing that preserves absent fields as absent;
+- a repository source-integrity audit.
+
+`python -m tools.diysim.cli audit-sources` is the preflight for these shared sources. It verifies the repo can be resolved; it does not compare against simulator-owned expected values.
+
 ### `combat/`
 Owns reusable combat-system algorithms only. Subsystems remain individually identifiable: damage, hit/evasion, criticals, elements, statuses, temporary modifiers, MP, healing, turn/round sequencing, targeting, Guard, Prepared actions, Fields, Items, Cards, and Primes.
 
@@ -51,9 +61,9 @@ Examples:
 - `encounters/major_hunts/.../`
 
 ### `scenarios/`
-Stores only simulation setup/policy configuration that is not itself Diyse canon, such as seed counts, comparison routes, or explicit user-requested testing assumptions.
+Stores only synthetic engine demonstrations and simulation setup/policy configuration that is not itself Diyse canon, such as seed counts, comparison routes, or explicit user-requested testing assumptions.
 
-Do **not** store copied party stats, boss stats, MP costs, Powers, or certification numbers here. Historical certification evidence should be parsed from `docs/16_BALANCE_AND_TESTING/` when needed.
+Do **not** store copied party stats, boss stats, MP costs, Powers, or certification numbers here. Synthetic examples are not fallback data. Historical certification evidence should be parsed from `docs/16_BALANCE_AND_TESTING/` when needed.
 
 ### `overlays/`
 Non-destructive balance experiments and sensitivities. Examples: enemy direct-Power multipliers, effective-level stat experiments, HP/ATK/DEF sweeps, or local action-density candidates.
@@ -68,10 +78,16 @@ Generated simulation results, comparisons, and certification evidence. Reports n
 When a required value is absent or ambiguous in the repository:
 1. stop that simulation path;
 2. name the missing owner/value;
-3. do not infer it from sample damage, old memory, or a simulator snapshot;
+3. do not infer it from sample damage, old memory, historical certification, or a simulator snapshot;
 4. repair/promote the value in the correct repo owner file before resuming.
 
-Current example: Hollow Watch can parse the Castellan, Ballista, Watch Seal, Lv2 party bodies, Crest Knight/Blue Warden actions, Traits, and v93 evidence from the repo, but Maevra's exact Linebreaker definition is not presently available in a current repo owner file. `diysim` therefore reports that source gap rather than storing the recovered external copy.
+Current Hollow Watch example: the adapter can resolve current party bodies, Crest Knight/Blue Warden Ability ownership, Traits, Castellan/support bodies, and most action/state text from the repo. It presently reports four explicit authority gaps required for a no-inference full simulation:
+- Maevra Linebreaker — exact current Power / Defense penetration / MP owner definition;
+- Fortress Slam — exact current damage type / element;
+- Iron Pursuit — exact current damage type / element;
+- Wall-Shear Sweep — exact current damage type / element.
+
+Those values must be repaired in their owning repo domain; `diysim` does not store historical/recovered copies as substitutes.
 
 ## Current compatibility layer
 
