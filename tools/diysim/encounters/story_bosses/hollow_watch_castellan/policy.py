@@ -1,13 +1,14 @@
 """Player-policy logic for Hollow Watch.
 
 Policy thresholds are simulator/test configuration. All Diyse combat values are
-provided by repo_loader at runtime.
+provided by repo-backed sources at runtime.
 """
 from __future__ import annotations
 from dataclasses import dataclass, replace
 from typing import Mapping
 
-from tools.diysim.combat.models import BASIC_ATTACK, CombatAction, CombatUnit
+from tools.diysim.combat.basic_attack import basic_attack_action
+from tools.diysim.combat.models import CombatAction, CombatUnit
 from .repo_loader import HollowWatchRepoData
 
 
@@ -56,7 +57,7 @@ def choose_cyanis_action(
         return data.crest_strike
     if actor.mp >= data.resonant_pulse.mp_cost:
         return data.resonant_pulse
-    return BASIC_ATTACK
+    return basic_attack_action()
 
 
 def next_harmonized_prime(action: CombatAction) -> str | None:
@@ -70,7 +71,7 @@ def next_harmonized_prime(action: CombatAction) -> str | None:
 def choose_maevra_action(actor: CombatUnit, data: HollowWatchRepoData) -> CombatAction:
     if actor.mp >= data.linebreaker_thrust.mp_cost:
         return data.linebreaker_thrust
-    return BASIC_ATTACK
+    return basic_attack_action()
 
 
 def choose_ilyra_action(
@@ -83,7 +84,7 @@ def choose_ilyra_action(
     config: SmartPolicyConfig,
 ) -> tuple[CombatAction, CombatUnit | None]:
     if ballista_alive:
-        return BASIC_ATTACK, None
+        return basic_attack_action(), None
 
     alive = [unit for unit in party if unit.alive]
     if config.clear_round_start_harmful_status and actor.mp >= data.clear_warding.mp_cost:
@@ -106,7 +107,7 @@ def choose_ilyra_action(
             target = min(low, key=round_start.hp_fraction)
             return data.mend, target
 
-    return BASIC_ATTACK, None
+    return basic_attack_action(), None
 
 
 __all__ = [
