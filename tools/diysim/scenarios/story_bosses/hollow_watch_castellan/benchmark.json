@@ -1,0 +1,56 @@
+{
+  "id": "hollow_watch_castellan_v93_lv2_smart",
+  "name": "Hollow Watch Castellan — Mandatory Lv2 Smart Regression",
+  "content_family": "story_boss_regression_scenario",
+  "story_point": "chapter_1_s008_hollow_watch",
+  "status": "BLOCKED_ON_MAEVRA_LINEBREAKER_SOURCE_RECOVERY",
+  "sources": [
+    "docs/09_ENEMIES_AND_ENCOUNTERS/STORY_BOSSES/HOLLOW_WATCH_CASTELLAN.md",
+    "docs/16_BALANCE_AND_TESTING/TRUE_BATTLES/HOLLOW_WATCH_CASTELLAN_TRUE_BATTLE_v93.md"
+  ],
+  "party_refs": [
+    "content/characters/cyanis/hollow_watch_lv2.json",
+    "content/characters/ilyra/hollow_watch_lv2.json",
+    "content/guests/maevra/hollow_watch_lv2.json"
+  ],
+  "boss_ref": "content/story_bosses/hollow_watch_castellan/owner.json",
+  "support_refs": [
+    "content/support_objects/hollow_watch/fortress_ballista.json",
+    "content/support_objects/hollow_watch/watch_seal.json"
+  ],
+  "starting_conditions": {
+    "party_hp": "full",
+    "party_mp": "full",
+    "consumables_used_by_policy": false,
+    "standard_cards": "none_before_first_clear",
+    "primes": "none"
+  },
+  "policy": {
+    "name": "normal_smart",
+    "steps": [
+      "destroy telegraphed Ballista immediately",
+      "leave Watch Seal intact and push Castellan until Walking State ends Seal protection",
+      "use Cyanis legal early Crest MP intelligently",
+      "use Maevra Linebreaker while affordable, then Basic Attack",
+      "Ilyra heals/cleanses from information available at round start; otherwise attacks",
+      "use no Items"
+    ]
+  },
+  "oracle": {
+    "runs": 20000,
+    "win_rate": 1.0,
+    "mean_rounds": 6.28,
+    "median_rounds": 6,
+    "p10_rounds": 6,
+    "p90_rounds": 7,
+    "any_ko_rate": 0.0,
+    "mean_remaining_party_hp_fraction": 0.678,
+    "ballista_mean_shots": 0.0,
+    "staggered_exposure_rate": 0.14
+  },
+  "notes": [
+    "The v93 smart line remains current after v96 Bleed because the Ballista is destroyed before Heavy Bolt resolves.",
+    "Historical aggressive-line Bleed risk is not a current oracle until rerun under v96 Bleed escalation.",
+    "Do not execute this as a golden regression until Maevra Linebreaker's exact authored Power/effects are recovered."
+  ]
+}
