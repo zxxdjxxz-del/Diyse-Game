@@ -1,0 +1,75 @@
+name: DiySim Zevraya Plus5 Certification
+
+on:
+  push:
+    branches:
+      - tooling/diysim-phase1
+  workflow_dispatch:
+
+jobs:
+  zevraya_plus5_cert:
+    if: contains(github.event.head_commit.message, '[zevraya-plus5-cert]')
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        player_level: [24, 28]
+        stat_mode: [offense_5, all_core_5]
+        battle_strategy: [rush, dismantle]
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Zevraya 2k +5 certification
+        run: |
+          python - <<'PY'
+          import json
+          from dataclasses import asdict
+          from tools.diysim.encounters.story_bosses.matron_zevraya import simulate_matron_zevraya
+          from tools.diysim.encounters.story_bosses.matron_zevraya.split_stats import simulate_matron_zevraya_split
+          from tools.diysim.overlays import BalanceOverlay
+
+          player_level = int("${{ matrix.player_level }}")
+          stat_mode = "${{ matrix.stat_mode }}"
+          battle_strategy = "${{ matrix.battle_strategy }}"
+          reservoir_plan = ("Brood", "Armor") if battle_strategy == "dismantle" else None
+
+          if stat_mode == "offense_5":
+              overlay = BalanceOverlay(
+                  direct_damage_power_multiplier=1.20,
+                  offensive_stat_level_offset=5,
+              )
+              simulator = simulate_matron_zevraya_split
+          else:
+              overlay = BalanceOverlay(
+                  direct_damage_power_multiplier=1.20,
+                  effective_stat_level_offset=5,
+              )
+              simulator = simulate_matron_zevraya
+
+          summary = simulator(
+              player_level=player_level,
+              structure_mode="non_diluting",
+              strategy=battle_strategy,
+              reservoir_plan=reservoir_plan,
+              overlay=overlay,
+              use_prepared_inventory=True,
+              runs=2000,
+              seed=113,
+          )
+          result = {
+              "player_level": player_level,
+              "stat_mode": stat_mode,
+              "battle_strategy": battle_strategy,
+              "offensive_stat_level_offset": overlay.offensive_stat_level_offset,
+              "defensive_stat_level_offset": overlay.defensive_stat_level_offset,
+              "speed_stat_level_offset": overlay.speed_stat_level_offset,
+              **asdict(summary),
+          }
+          print(json.dumps(result, indent=2, sort_keys=True))
+          PY
