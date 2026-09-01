@@ -11,7 +11,7 @@ This manifest records the exact source archives used to build the current consol
 | `1-6.zip` | 99317080 | 224 | `82405cf5556c7f655d10ed34aade763379cbb5bf7a18e0c2ff5974fab91ad86f` |
 | `7-9.zip` | 108300708 | 175 | `295be5fc8ecf7d0775391af8372b90b941a153c1aabae523a9aff8fe8800bd1d` |
 | `10-13.zip` | 74401884 | 157 | `02eda36dbef067ce01cb857ea44dacd22c779e7a1e28ce37a8ae5585ab793e41` |
-| `14-18.zip` | 65700997 | 98 | `1789257a34f2a91b3695f23ea689acaba777f22b05ae54474fce3ef05622feaa` |
+| `14-18.zip` | 65700997 | 98 | `1789257a34f2a91b3695f23ea689acaba777f22b05ae544640b4b345dee8` |
 | `19-22.zip` | 42401449 | 92 | `c2e15b486f7d27190fe40edb5780228edc2da2b294d134468b435f6057109789` |
 | `23-27.zip` | 57912991 | 108 | `a89c80ce13488f03f8c76af671d19040b9ac9935c03afededbbc8da0796cc135` |
 | `28-31.zip` | 47834424 | 26 | `aca9bf6240841e40fae26814dbc29cebe900d47f8a58c99709496cf3c89d6b81` |
@@ -33,6 +33,50 @@ This manifest records the exact source archives used to build the current consol
 | `Fantasy Props MegaKit[Standard].zip` | 150213360 | 517 | `8b6f7e806d222e585478f0e1bdc6b271bbc7bc6f84dd6af8ca703a7c64f0cb1e` |
 | `Universal Animation Library[Standard].zip` | 15904933 | 9 | `cc73fc4e495b82958207316596317a3f40b9fa38065bde1027937452da537724` |
 | `Universal Animation Library 2[Standard].zip` | 18735003 | 13 | `4008ea208a604773a2b2177d965f0f5d3195498b5bf838c3f5785d68e95f2a68` |
+
+## Embedded Quaternius humanoid rig payloads
+
+The two v5 Quaternius animation archives contain the **actual rigged mannequin mesh + Armature**, not animations alone. They are sufficient to provide the prototype humanoid rig for B00 Godot validation.
+
+Verified from archive copies whose ZIP hashes exactly match this manifest:
+
+### `Universal Animation Library[Standard].zip`
+
+- `Unreal-Godot/UAL1_Standard.glb`
+  - 1 mesh: `Mannequin`
+  - 1 skin: `Armature`
+  - 43 animations
+  - 7,618,436 bytes
+  - SHA-256 `69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997`
+- `Unreal-Godot/UAL1_Standard_RM.glb`
+  - 1 mesh: `Mannequin`
+  - 1 skin: `Armature`
+  - 43 animations
+  - 7,620,504 bytes
+  - SHA-256 `be684571ed655a1b892c2c07e6e2aeca053b606c442d34004adaf1d944090d01`
+
+### `Universal Animation Library 2[Standard].zip`
+
+- `Unreal-Godot/UAL2_Standard.glb`
+  - 1 mesh: `Mannequin`
+  - 1 skin: `Armature`
+  - 43 animations
+  - 8,091,444 bytes
+  - SHA-256 `8cee20ab1bc55130092447e810e26df22dd2803eccc54f52137a7d54d7ab88a8`
+- `Unreal-Godot/UAL2_Standard_RM.glb`
+  - 1 mesh: `Mannequin`
+  - 1 skin: `Armature`
+  - 43 animations
+  - 8,095,936 bytes
+  - SHA-256 `814eee878f82934992d3ea746c539df25e981487109c591f5efbb8dd03286f99`
+- `Female Mannequin/Unreal-Godot/Mannequin_F.glb`
+  - 1 mesh: `Mannequin`
+  - 1 skin: `Armature`
+  - no duplicated embedded animation set; designed to retarget/share the library rig
+  - 1,442,824 bytes
+  - SHA-256 `2ee6cc3fe888d9b144afa8cc4b2ab7bfc5d13a0d5b7548df777f61f64ad65fa6`
+
+This resolves the prior mistaken assumption that a separate `Universal Base Characters` archive was required for the prototype rig.
 
 ## Canonicalization notes
 
