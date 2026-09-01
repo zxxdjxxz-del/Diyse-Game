@@ -1,7 +1,7 @@
 # Diyse — B00 Party Character Style Anchor v1
 
 **Benchmark:** B00 — Permanent Party / Character Style Anchor  
-**Status:** **IN PROGRESS — CYANIS + ILYRA APPROVED / 2 OF 6 PARTY MASTERS LOCKED**  
+**Status:** **IN PROGRESS — CYANIS + ILYRA + TORREN APPROVED / 3 OF 6 PARTY MASTERS LOCKED**  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`
 
 ## 1. Scope
@@ -18,7 +18,7 @@ The permanent party is Cyanis, Ilyra, Torren, Nimera, Vaelira, and Seyrik. B00 d
 |---|---|
 | Cyanis | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Ilyra | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
-| Torren | Pending new-style master |
+| Torren | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Nimera | Pending new-style master |
 | Vaelira | Pending new-style master |
 | Seyrik | Pending new-style master |
@@ -26,20 +26,23 @@ The permanent party is Cyanis, Ilyra, Torren, Nimera, Vaelira, and Seyrik. B00 d
 Current authorities:
 - `CYANIS_CURRENT_VISUAL_LOCK.md`
 - `ILYRA_CURRENT_VISUAL_LOCK.md`
+- `TORREN_CURRENT_VISUAL_LOCK.md`
 
 ## 3. Approved-anchor significance
 
-Cyanis and Ilyra are the first two real B00 anchors. Together they establish:
+Cyanis, Ilyra, and Torren are the first three real B00 anchors. Together they establish:
 - mature seinen/anime proportions;
 - graphic cel-informed values rather than soft-brushed rendering;
 - strong clean silhouettes;
 - coherent garment/armor construction;
-- clear cloth/leather/metal material separation;
+- clear cloth/leather/metal/foliage material separation;
 - restrained, deliberate ornament;
 - controlled metallic highlight planes;
 - deliberate variable line hierarchy;
 - no random speckle/grunge dependency;
 - no painterly direction.
+
+Torren additionally establishes the handling of dense natural camouflage and rugged equipment: his ghillie cape must remain readable as designed foliage masses and hanging branches rather than collapsing into undifferentiated visual noise.
 
 Their exact approved renders are fingerprinted in their character visual-lock files so later work cannot silently drift back to superseded variants.
 
@@ -52,7 +55,7 @@ Every remaining party master must establish:
 - precise restrained facial linework;
 - large readable hair masses;
 - graphic cel-informed shading with roughly 2–4 dominant value groups;
-- clean material separation between skin, hair, cloth, leather, metal, and magical elements;
+- clean material separation between skin, hair, cloth, leather, metal, foliage and magical elements as applicable;
 - coherent clothing/armor construction;
 - rich but controlled color;
 - no painterly/soft-brushed rendering;
@@ -100,4 +103,4 @@ Earlier material-family work is not automatically invalidated, but it must confo
 
 Current state:
 
-`VISUAL STYLE LOCKED → CYANIS + ILYRA MASTERS APPROVED → 4 PARTY MASTERS REMAIN → BATTLE/FIELD DERIVATIVES PENDING`
+`VISUAL STYLE LOCKED → CYANIS + ILYRA + TORREN MASTERS APPROVED → 3 PARTY MASTERS REMAIN → BATTLE/FIELD DERIVATIVES PENDING`
