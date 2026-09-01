@@ -140,19 +140,13 @@ def _mend_with_trait(
     return action
 
 
-def run_hollow_watch_smart(
+def _run_hollow_watch_smart_with_data(
     rng: random.Random,
+    data: HollowWatchRepoData,
     *,
-    policy: SmartPolicyConfig = SmartPolicyConfig(),
-    max_rounds: int = 30,
-    root: Path | None = None,
+    policy: SmartPolicyConfig,
+    max_rounds: int,
 ) -> HollowWatchOutcome:
-    """Run the current repo-authored Hollow Watch normal/smart policy.
-
-    Required values are parsed from repo owner files at call time. Missing
-    authority raises SourceGapError before the simulation begins.
-    """
-    data = load_hollow_watch_repo_data(root=root)
     cyanis = CombatUnit(data.cyanis, 0)
     ilyra = CombatUnit(data.ilyra, 1)
     maevra = CombatUnit(data.maevra, 2)
@@ -169,7 +163,7 @@ def run_hollow_watch_smart(
     any_ko = False
     ballista_shots = 0
     staggered_exposed = False
-    basic_attack = basic_attack_action(root=root)
+    basic_attack = basic_attack_action()
 
     _set_seal_reduction(boss, data, True)
 
@@ -305,6 +299,27 @@ def run_hollow_watch_smart(
     )
 
 
+def run_hollow_watch_smart(
+    rng: random.Random,
+    *,
+    policy: SmartPolicyConfig = SmartPolicyConfig(),
+    max_rounds: int = 30,
+    root: Path | None = None,
+) -> HollowWatchOutcome:
+    """Run the current repo-authored Hollow Watch normal/smart policy.
+
+    Required values are parsed from repo owner files at call time. Missing
+    authority raises SourceGapError before the simulation begins.
+    """
+    data = load_hollow_watch_repo_data(root=root)
+    return _run_hollow_watch_smart_with_data(
+        rng,
+        data,
+        policy=policy,
+        max_rounds=max_rounds,
+    )
+
+
 def simulate_hollow_watch_smart(
     *,
     policy: SmartPolicyConfig = SmartPolicyConfig(),
@@ -317,8 +332,11 @@ def simulate_hollow_watch_smart(
     data = load_hollow_watch_repo_data(root=root)
     master = random.Random(seed)
     outcomes = [
-        run_hollow_watch_smart(
-            random.Random(master.getrandbits(64)), policy=policy, root=root
+        _run_hollow_watch_smart_with_data(
+            random.Random(master.getrandbits(64)),
+            data,
+            policy=policy,
+            max_rounds=30,
         )
         for _ in range(runs)
     ]
