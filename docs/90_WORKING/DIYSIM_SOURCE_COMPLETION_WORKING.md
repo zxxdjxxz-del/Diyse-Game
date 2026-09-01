@@ -36,11 +36,32 @@ is:
 
 Reason: both commands are two-hit focused Confluence attacks whose owner text had complete per-hit Power/Base Hit/element-cycle behavior but omitted an explicit target declaration. This is a working source completion, not a recovered Audit135 target line.
 
-## Still to close in this pass
+### Hollow Watch support targeting / role completion
+Working branch values:
+- Fortress Ballista — **EVA 0 / SR 10**; explicit **acting combatant** while functional.
+- Watch Seal — **EVA 0 / SR 10**; explicit **passive target** with no independent ordinary turn and no direct damage.
 
-- Hollow Watch Fortress Ballista defensive targeting completeness.
-- Hollow Watch Watch Seal explicit passive-target body completeness.
-- Hollow Watch Walking-State action identity normalization.
-- generic cross-owner linking for support `Enables:` summaries and explicit `Authority:` action references.
+These values were not recovered as exact historical support-object rows. They exist only to make the targetable support bodies complete for the simulator and remain subject to approval before any owner/main promotion.
 
-Any non-recovered Hollow Watch numeric/identity completion must be added to this note before the feature branch can be considered ready for approval.
+### Hollow Watch Walking-State action identity
+Working branch identity completion:
+- Fortress Slam — **Physical / Neutral**
+- Iron Pursuit — **Physical / Neutral**
+- Wall-Shear Sweep — **Physical / Neutral**
+
+The v93 true-battle evidence already resolves these through the Castellan physical direct-damage line; the migrated owner had retained their Power/Base Hit/target/status behavior but omitted the explicit formula/affinity wording in the Walking-State shorthand. This completion is recorded here rather than treated as independently recovered historical text.
+
+## Parser/runtime closures completed in this pass
+
+- generic cross-owner linking for support `Enables:` summaries now requires one unique complete action owner;
+- conditional capability qualifiers such as `if inherited, Perfected Siphon` are normalized without fuzzy owner matching;
+- explicit `Authority:` action references can be resolved against their named owner rather than requiring duplicate local action data;
+- current-element + next-element Confluence commands now have a repo-backed two-hit runtime with per-hit elements/status checks and a command-wide newly-inflicted-status cap;
+- partial stat tables preserve authored fields instead of discarding the whole entity because another field is absent;
+- state containers with individually headed actions are audited as separate actions rather than as one aggregate attack.
+
+## Remaining gate for this source-completion pass
+
+- full feature-branch test suite must be green after the final Hollow Watch/reference changes;
+- repo-wide simulation readiness must report **0 source gaps / 0 parser gaps** before this pass is considered complete;
+- no working completion in this file is promoted to `main` without explicit approval.
