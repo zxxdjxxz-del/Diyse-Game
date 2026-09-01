@@ -1,6 +1,6 @@
 """Compatibility facade for the sectioned advanced battle runtime."""
 
-from .combat.advanced_runtime import (
+from .combat import (
     AdvancedBattleOutcome,
     AdvancedBattleScenario,
     AdvancedSimulationSummary,
