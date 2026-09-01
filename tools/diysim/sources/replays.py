@@ -57,8 +57,11 @@ def parse_bounded_replay_rule_text(name: str, raw_text: str) -> BoundedReplayRul
     lowered = re.sub(r"\s+", " ", raw_text.casefold())
 
     record_after_completion = (
-        "only after" in lowered and ("action completes" in lowered or "action actually completes" in lowered or "action resolves" in lowered)
-    ) or "after the source action completes" in lowered
+        ("only after" in lowered and ("action completes" in lowered or "action actually completes" in lowered or "action resolves" in lowered))
+        or "after the source action completes" in lowered
+        or "most recent completed eligible direct-damage party action" in lowered
+        or "previously completed eligible party action" in lowered
+    )
 
     preserve_damage_identity = (
         "preserve source damage school/element" in lowered
