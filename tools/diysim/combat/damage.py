@@ -3,14 +3,13 @@ from __future__ import annotations
 import math
 
 from ..common import round_half_up
-from .criticals import CRIT_MULTIPLIER
+from ..sources.combat import load_combat_rules
 from .models import DamageKind
-
-PENETRATION_CAP = 0.75
 
 
 def _capped_penetration(value: float) -> float:
-    return max(0.0, min(PENETRATION_CAP, value))
+    cap = load_combat_rules().penetration_cap
+    return max(0.0, min(cap, value))
 
 
 def physical_damage(attack: float, defense: float, power: float, *, defense_penetration: float = 0.0) -> float:
@@ -45,6 +44,9 @@ def direct_damage(kind: DamageKind, *, attack: float, magic: float, defense: flo
     else:
         raise ValueError(f"unknown damage kind: {kind}")
     if crit:
-        pre *= CRIT_MULTIPLIER
+        pre *= load_combat_rules().crit_multiplier
     reduction = max(0.0, min(1.0, direct_damage_reduction))
     return max(0, round_half_up(pre * (1.0 - reduction)))
+
+
+__all__ = ["direct_damage", "magical_damage", "physical_damage"]
