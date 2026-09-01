@@ -2,7 +2,7 @@
 from __future__ import annotations
 from typing import Sequence
 
-from ..core import round_half_up
+from ..common import round_half_up
 
 
 def resolve_mp_cost(base_cost: int, *, flat_delta: int = 0, remaining_cost_factors: Sequence[float] = ()) -> int:
