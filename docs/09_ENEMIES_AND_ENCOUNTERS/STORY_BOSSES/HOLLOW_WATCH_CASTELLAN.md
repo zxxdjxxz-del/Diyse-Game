@@ -34,9 +34,11 @@ Do not use end-Chapter-1 Lv5 as the normal encounter reference.
 
 ## Fortress Ballista
 
-| HP | ATK | DEF | Spirit | SPD |
-|---:|---:|---:|---:|---:|
-| **120** | **55** | **20** | **18** | **24** |
+| HP | ATK | DEF | Spirit | SPD | EVA | SR |
+|---:|---:|---:|---:|---:|---:|---:|
+| **120** | **55** | **20** | **18** | **24** | **0** | **10** |
+
+The Fortress Ballista takes its own ordinary turn while functional.
 
 ### Heavy Bolt
 - target: one established party member
@@ -51,9 +53,11 @@ Do not use end-Chapter-1 Lv5 as the normal encounter reference.
 
 ## Watch Seal
 
-| HP | DEF | Spirit |
-|---:|---:|---:|
-| **100** | **22** | **28** |
+| HP | DEF | Spirit | EVA | SR |
+|---:|---:|---:|---:|---:|
+| **100** | **22** | **28** | **0** | **10** |
+
+The Watch Seal takes no independent ordinary turn and deals no direct damage.
 
 Effect:
 > **10% Fortress-State direct-damage reduction**
@@ -152,11 +156,22 @@ No raw stat or Power change was required in v77.
 ### Fortress State
 Active while Castellan is above **55% Max HP**. On the current 450-HP body, Walking State begins once HP is **247 or lower** after a completed damage package.
 
-**Wallbound Strike**
-- one conscious active party member; Physical / Neutral; Power **175**; Base Hit **100**; no status; **65 weight**.
+#### Wallbound Strike
+- one conscious active party member
+- Physical / Neutral
+- Power **175**
+- Base Hit **100**
+- no status
+- **65 weight**
 
-**Bastion Sweep**
-- all conscious active party members; Physical / Neutral; Power **135**; Base Hit **95**; no status; **35 weight**; cannot be selected on consecutive Castellan turns.
+#### Bastion Sweep
+- all conscious active party members
+- Physical / Neutral
+- Power **135**
+- Base Hit **95**
+- no status
+- **35 weight**
+- cannot be selected on consecutive Castellan turns
 
 Single-target selection is equal legal weight among conscious active party members. Castellan does not read unconfirmed player commands and does not automatically execute the lowest-HP target.
 
@@ -171,9 +186,31 @@ The target is fixed during Preparation. Generic interruption does not cancel Pro
 ### Walking State
 Same HP bar; no refill; no free transition attack; destroyed support stays destroyed; Watch Seal protection ends permanently on transition.
 
-- **Fortress Slam** — one conscious party member; Power **220**; Base Hit **95**; **20% base Staggered**; **40 weight**; cannot repeat consecutively.
-- **Iron Pursuit** — one conscious party member; Power **180**; Base Hit **100**; no status; **40 weight**.
-- **Wall-Shear Sweep** — all conscious party members; Power **145**; Base Hit **95**; no status; **20 weight**; cannot repeat consecutively.
+#### Fortress Slam
+- one conscious party member
+- Physical / Neutral
+- Power **220**
+- Base Hit **95**
+- **20% base Staggered**
+- **40 weight**
+- cannot repeat consecutively
+
+#### Iron Pursuit
+- one conscious party member
+- Physical / Neutral
+- Power **180**
+- Base Hit **100**
+- no status
+- **40 weight**
+
+#### Wall-Shear Sweep
+- all conscious party members
+- Physical / Neutral
+- Power **145**
+- Base Hit **95**
+- no status
+- **20 weight**
+- cannot repeat consecutively
 
 Single-target selection remains equal legal weight. No action grants an extra turn.
 
