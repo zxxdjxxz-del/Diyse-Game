@@ -6,6 +6,7 @@ from tools.diysim.encounters.story_bosses.hollow_watch_castellan import (
     collect_hollow_watch_source_gaps,
     load_hollow_watch_party_snapshot,
     load_hollow_watch_repo_data,
+    simulate_hollow_watch_v93_snapshot,
     with_hollow_watch_party_snapshot,
 )
 from tools.diysim.sources import find_repo_root
@@ -77,9 +78,21 @@ def test_hollow_watch_v93_party_snapshots_cover_mandatory_and_high_side() -> Non
     assert data.maevra.stats.defense == 29
 
 
+def test_hollow_watch_snapshot_certification_helper_runs_both_owned_levels() -> None:
+    lv2 = simulate_hollow_watch_v93_snapshot(2, runs=8, seed=93)
+    lv3 = simulate_hollow_watch_v93_snapshot(3, runs=8, seed=93)
+
+    assert lv2.runs == 8
+    assert lv3.runs == 8
+    assert lv2.mean_ballista_shots == 0.0
+    assert lv3.mean_ballista_shots == 0.0
+
+
 def test_hollow_watch_rejects_unowned_party_snapshot_levels() -> None:
     with pytest.raises(ValueError):
         load_hollow_watch_party_snapshot(4)
+    with pytest.raises(ValueError):
+        simulate_hollow_watch_v93_snapshot(4, runs=1)
 
 
 def test_hollow_watch_has_no_local_numeric_data_module() -> None:
