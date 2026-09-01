@@ -2,13 +2,36 @@
 
 This queue tracks unresolved/reopened work only. Closed owner-domain values remain closed unless a current test demonstrates a specific failure.
 
-## 1 — Mandatory-Route Boss Difficulty Recalibration
-**ACTIVE — v103 working; Chapter 5 Deepforge Colossus first**
+## 1 — Mandatory-Route Enemy Difficulty Recalibration
+**ACTIVE — v104 global +20% enemy direct-Power sensitivity**
 
 User-directed correction:
 > **The mandatory route should be harder, with more KOs when the player has skipped optional progression.**
 
-Core comparison rule:
+Current global sensitivity hypothesis:
+> **Enemy direct-damage Power × 1.20**
+
+This is a test layer, not yet a wholesale owner-file rewrite.
+
+Scope:
+- ordinary enemies;
+- Elites;
+- authored/protected hostile combatants;
+- mandatory named/story bosses;
+- Regional Hunts;
+- Major Hunts;
+- hostile support actors/objects when they deal ordinary direct damage.
+
+Unchanged during the sensitivity pass:
+- HP/raw stats;
+- status chances/magnitudes;
+- fixed or %Max-HP damage;
+- AI/turn count;
+- encounter composition;
+- boss architecture;
+- player equipment.
+
+Core mandatory-vs-completionist comparison rule:
 - mandatory and completionist use the **same ordinary equipment**;
 - same normal-stock consumables;
 - same active party and competent tactical policy;
@@ -19,22 +42,27 @@ Core comparison rule:
 Current first anchor:
 > **Deepforge Colossus — Assembly Frame → Worldsmith Body — Chapter 5**
 
-Working report:
-`../16_BALANCE_AND_TESTING/TRUE_BATTLES/CH5_DEEPFORGE_DIFFICULTY_RECALIBRATION_WORKING_v103.md`
+Working reports:
+- `../16_BALANCE_AND_TESTING/TRUE_BATTLES/CH5_DEEPFORGE_DIFFICULTY_RECALIBRATION_WORKING_v103.md`
+- `../16_BALANCE_AND_TESTING/TRUE_BATTLES/CH5_DEEPFORGE_ASSEMBLY_TUNING_CANDIDATE_v103.md`
+- `../16_BALANCE_AND_TESTING/GLOBAL_ENEMY_POWER_20_PERCENT_SENSITIVITY_v104.md`
 
-Initial same-gear result:
-- current mandatory Lv20 competent line — **100% wins / 0.095% any-KO** over 20,000 runs;
+Known evidence before the +20% global pass:
+- current mandatory Lv20 Deepforge competent line — **100% wins / 0.095% any-KO** over 20,000 runs;
 - current completionist Lv22 same gear — **100% wins / 0.005% any-KO**;
-- current package is therefore **too safe** for the revised mandatory-route standard.
+- preferred v103 structural candidate at ~+15% Power produced mandatory rush **37.37% any-KO / 3.335% wipes**, while same-gear Lv22 completionist rush remained **0.58% any-KO / 0 observed wipes**.
 
-A provisional ~45% direct-Power sensitivity produces a much better Lv20-vs-Lv22 KO separation, but is **not locked** because the harder test exposed an assembly payoff/action-density problem that must be resolved first.
+The v104 scalar is only about **4.35% more direct damage** than that preferred +15% structural candidate, while remaining far below the earlier rejected +45% brute-force sensitivity.
 
-Next balance action:
-1. resolve/retune the Deepforge assembly payoff so dismantling cannot become a hidden trap through action-menu dilution;
-2. rerun same-gear Lv20 vs Lv22 distributions;
-3. lock the Chapter-5 difficulty profile;
-4. continue the harder mandatory-route ramp forward through later chapter climaxes;
-5. only then return to Reconstituted Entity → The Last Command.
+Important Deepforge dependency:
+> the Guard Press / Repair Arm action-density problem still requires the structural assembly rewrite; the +20% scalar alone does not fix that incentive.
+
+Next balance actions:
+1. test early ordinary formations under the +20% scalar for opening-round spike safety;
+2. rerun Deepforge same-gear Lv20 vs Lv22 with the assembly correction and +20% scalar;
+3. carry the same scalar through later representative chapter bosses;
+4. identify specific outliers that need less/more than the global baseline;
+5. only after the late-game curve is anchored, return to Reconstituted Entity → The Last Command.
 
 Prior v93–v102 reports remain valid historical measurements and mechanical-rule evidence. From Chapter 5 onward, their old difficulty PASS/RETAIN verdicts are provisional under the new standard.
 
