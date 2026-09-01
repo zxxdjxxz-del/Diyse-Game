@@ -4,7 +4,7 @@ import random
 from typing import Literal
 
 from ..common import round_half_up
-from .criticals import CRIT_CHANCE_CAP
+from ..sources.combat import load_combat_rules
 from .damage import direct_damage
 from .derived_stats import effective_attack, effective_defense, effective_magic, effective_spirit
 from .elements import affinity_damage_multiplier, element_affinity, linked_status_affinity_modifier
@@ -60,20 +60,41 @@ def resolve_heal(actor: CombatUnit, action: CombatAction, target: CombatUnit) ->
 
 
 def resolve_damage(actor: CombatUnit, action: CombatAction, target: CombatUnit, rng: random.Random) -> int:
-    if rng.randint(1, 100) > adjusted_hit_chance(action.base_hit, target.template.evasion):
+    rules = load_combat_rules()
+    base_hit = rules.default_player_base_hit if action.base_hit is None else action.base_hit
+    if rng.randint(1, 100) > adjusted_hit_chance(base_hit, target.template.evasion):
         return 0
-    crit = rng.random() * 100 < max(0.0, min(CRIT_CHANCE_CAP, action.crit_chance))
+
+    crit_chance = rules.base_crit_chance if action.crit_chance is None else action.crit_chance
+    crit = rng.random() * 100 < max(0.0, min(rules.crit_chance_cap, crit_chance))
+
+    if action.power is None:
+        if action.name != "Attack":
+            raise ValueError(f"damage action {action.name!r} has no repo/authored Power")
+        power = rules.basic_attack_power
+    else:
+        power = action.power
+
+    if action.damage_kind == "hybrid":
+        if action.physical_weight is None or action.magical_weight is None:
+            raise ValueError(f"hybrid action {action.name!r} requires authored weights")
+        physical_weight = action.physical_weight
+        magical_weight = action.magical_weight
+    else:
+        physical_weight = 0.5 if action.physical_weight is None else action.physical_weight
+        magical_weight = 0.5 if action.magical_weight is None else action.magical_weight
+
     base = direct_damage(
         action.damage_kind,
         attack=effective_attack(actor),
         magic=effective_magic(actor),
         defense=effective_defense(target),
         spirit=effective_spirit(target),
-        power=action.power,
+        power=power,
         defense_penetration=action.defense_penetration,
         spirit_penetration=action.spirit_penetration,
-        physical_weight=action.physical_weight,
-        magical_weight=action.magical_weight,
+        physical_weight=physical_weight,
+        magical_weight=magical_weight,
         crit=crit,
         direct_damage_reduction=target.template.direct_damage_reduction,
     )
