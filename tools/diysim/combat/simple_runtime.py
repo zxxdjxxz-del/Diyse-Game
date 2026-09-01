@@ -1,8 +1,4 @@
-"""Stable Phase-1 direct-battle runtime.
-
-This intentionally stays simpler than the richer battle runtime so basic math
-regressions remain easy to isolate.
-"""
+"""Stable simple direct-battle runtime using repo-owned rule defaults."""
 from __future__ import annotations
 
 from dataclasses import dataclass, field
@@ -12,7 +8,7 @@ import statistics
 from typing import Iterable, Literal, Sequence
 
 from ..progression.stats import Stats
-from .criticals import BASE_CRIT_CHANCE, CRIT_CHANCE_CAP
+from ..sources.combat import load_combat_rules
 from .damage import direct_damage
 from .hit_evasion import adjusted_hit_chance
 from .models import DamageKind, Side
@@ -24,13 +20,13 @@ TargetPolicy = Literal["random", "lowest_hp", "highest_attack"]
 class ActionProfile:
     name: str
     kind: DamageKind = "physical"
-    power: float = 100.0
-    base_hit: int = 100
-    crit_chance: float = BASE_CRIT_CHANCE
+    power: float | None = None
+    base_hit: int | None = None
+    crit_chance: float | None = None
     defense_penetration: float = 0.0
     spirit_penetration: float = 0.0
-    physical_weight: float = 0.5
-    magical_weight: float = 0.5
+    physical_weight: float | None = None
+    magical_weight: float | None = None
     weight: float = 1.0
 
 
@@ -91,19 +87,7 @@ class SimulationSummary:
     mean_remaining_party_hp: float
 
     def as_dict(self) -> dict[str, int | float]:
-        return {
-            "runs": self.runs,
-            "party_wins": self.party_wins,
-            "enemy_wins": self.enemy_wins,
-            "draws": self.draws,
-            "win_rate": self.win_rate,
-            "wipe_rate": self.wipe_rate,
-            "any_ko_rate": self.any_ko_rate,
-            "mean_rounds": self.mean_rounds,
-            "median_rounds": self.median_rounds,
-            "p90_rounds": self.p90_rounds,
-            "mean_remaining_party_hp": self.mean_remaining_party_hp,
-        }
+        return self.__dict__.copy()
 
 
 @dataclass(frozen=True)
@@ -151,6 +135,7 @@ def _turn_order(units: Iterable[BattleUnit]) -> list[BattleUnit]:
 
 
 def run_battle(scenario: BattleScenario, rng: random.Random) -> BattleOutcome:
+    rules = load_combat_rules()
     all_templates = list(scenario.party) + list(scenario.enemies)
     units = [BattleUnit(template=template, stable_index=i) for i, template in enumerate(all_templates)]
     party = [unit for unit in units if unit.side == "party"]
@@ -166,22 +151,37 @@ def run_battle(scenario: BattleScenario, rng: random.Random) -> BattleOutcome:
                 break
             action = _choose_action(actor, rng)
             target = _choose_target(actor, targets, rng)
-            hit_chance = adjusted_hit_chance(action.base_hit, target.template.evasion)
-            if rng.randint(1, 100) > hit_chance:
+            base_hit = rules.default_player_base_hit if action.base_hit is None else action.base_hit
+            if rng.randint(1, 100) > adjusted_hit_chance(base_hit, target.template.evasion):
                 continue
-            crit_chance = max(0.0, min(CRIT_CHANCE_CAP, action.crit_chance))
+            crit_chance = rules.base_crit_chance if action.crit_chance is None else action.crit_chance
+            crit_chance = max(0.0, min(rules.crit_chance_cap, crit_chance))
             crit = rng.random() * 100.0 < crit_chance
+            if action.power is None:
+                if action.name != "Attack":
+                    raise ValueError(f"action {action.name!r} has no authored Power")
+                power = rules.basic_attack_power
+            else:
+                power = action.power
+            if action.kind == "hybrid":
+                if action.physical_weight is None or action.magical_weight is None:
+                    raise ValueError(f"hybrid action {action.name!r} requires authored weights")
+                physical_weight = action.physical_weight
+                magical_weight = action.magical_weight
+            else:
+                physical_weight = 0.5 if action.physical_weight is None else action.physical_weight
+                magical_weight = 0.5 if action.magical_weight is None else action.magical_weight
             damage = direct_damage(
                 action.kind,
                 attack=actor.stats.attack,
                 magic=actor.stats.magic,
                 defense=target.stats.defense,
                 spirit=target.stats.spirit,
-                power=action.power,
+                power=power,
                 defense_penetration=action.defense_penetration,
                 spirit_penetration=action.spirit_penetration,
-                physical_weight=action.physical_weight,
-                magical_weight=action.magical_weight,
+                physical_weight=physical_weight,
+                magical_weight=magical_weight,
                 crit=crit,
                 direct_damage_reduction=target.template.direct_damage_reduction,
             )
