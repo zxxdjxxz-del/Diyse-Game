@@ -4,6 +4,26 @@
 
 The tool is being built on `tooling/diysim-phase1` and should remain off `main` until the simulator is complete enough, validated, and explicitly approved.
 
+## Sectioned structure
+
+Everything in the simulator has an explicit home. See `ARCHITECTURE.md` for the routing contract.
+
+- `combat/` — battle-system mechanics, split by subsystem as implementation expands.
+- `progression/` — Player Level, EXP, CEXP, route and encounter-planning math.
+- `content/characters/` — permanent playable-character definitions.
+- `content/guests/` — temporary/story guest definitions.
+- `content/ordinary_enemies/` — ordinary enemies and chapter variants.
+- `content/elites/` — optional Elites.
+- `content/story_bosses/` — mandatory/story bosses.
+- `content/regional_hunts/` — Regional Hunts.
+- `content/major_hunts/` — Major Hunts.
+- `content/support_objects/` — Ballistae, Seals, Rings, Reservoirs, Anchors, Frames, Nodes, and other supports/components.
+- `scenarios/` — composed battle/test setups only.
+- `overlays/` — non-destructive working balance experiments such as enemy Power ×1.20 or boss +5 effective core-stat levels.
+- `reports/` — simulation/certification results and comparisons.
+
+The existing root Python modules remain temporary compatibility entry points while working code is migrated section-by-section. New systems should not be added to a giant catch-all file.
+
 ## Stable Phase 1 scope
 
 - Player Levels 1–70 neutral natural-stat curve.
