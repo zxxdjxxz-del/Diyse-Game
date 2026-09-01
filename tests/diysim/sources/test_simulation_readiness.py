@@ -8,7 +8,7 @@ from tools.diysim.sources.readiness import audit_owner_file, audit_simulation_re
 def test_owner_audit_separates_source_gaps_from_parser_gaps(tmp_path: Path) -> None:
     owner = tmp_path / "enemy.md"
     owner.write_text(
-        """# Synthetic Enemy\n\n"
+        "# Synthetic Enemy\n\n"
         "| HP | ATK | DEF | Spirit | SPD | EVA | SR |\n"
         "|---:|---:|---:|---:|---:|---:|---:|\n"
         "| 100 | 20 | 10 | 10 | 12 | 0 | 0 |\n\n"
@@ -17,8 +17,7 @@ def test_owner_audit_separates_source_gaps_from_parser_gaps(tmp_path: Path) -> N
         "## Missing Power\n"
         "- one party member\n- Physical / Neutral\n- Base Hit **100**\n\n"
         "## Prose Analogue\n"
-        "- one party member\n- **90 Power**\n- Base Hit **100**\n"
-        """,
+        "- one party member\n- **90 Power**\n- Base Hit **100**\n",
         encoding="utf-8",
     )
 
