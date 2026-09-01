@@ -4,7 +4,8 @@ import json
 from pathlib import Path
 from typing import Any
 
-from .core import ActionProfile, BattleScenario, CombatantTemplate, Stats
+from .core import ActionProfile, BattleScenario, CombatantTemplate, Stats, cumulative_exp
+from .progression import ProgressionSegment
 
 
 def _action(data: dict[str, Any]) -> ActionProfile:
@@ -43,3 +44,23 @@ def load_scenario(path: str | Path) -> BattleScenario:
         enemies=tuple(_combatant(unit, "enemy") for unit in data["enemies"]),
         max_rounds=int(data.get("max_rounds", 100)),
     )
+
+
+def load_progression_route(path: str | Path) -> tuple[int, tuple[ProgressionSegment, ...]]:
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
+    if "start_exp" in data:
+        start_exp = int(data["start_exp"])
+    else:
+        start_level = int(data.get("start_level", 1))
+        start_exp = cumulative_exp(start_level)
+    segments = tuple(
+        ProgressionSegment(
+            name=segment["name"],
+            count=int(segment.get("count", 1)),
+            exp_each=int(segment.get("exp_each", 0)),
+            flat_exp=int(segment.get("flat_exp", 0)),
+            completion_rate=float(segment.get("completion_rate", 1.0)),
+        )
+        for segment in data.get("segments", [])
+    )
+    return start_exp, segments
