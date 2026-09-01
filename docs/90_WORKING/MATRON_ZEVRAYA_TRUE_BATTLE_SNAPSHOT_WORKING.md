@@ -61,6 +61,7 @@ The explicit Brood rule is part of the deterministic simulator policy. The earli
 ### Dismantle
 - spend early actions removing the functional Reservoirs that matter to the chosen structural model;
 - default full-dismantle order for the first certification pass is **Brood → Conduction → Sustenance → Armor**;
+- selective plans may instead specify any ordered subset of those four Reservoirs;
 - then return to Zevraya;
 - respond to any deployed Brood body as a normal finite hostile target;
 - use the same healing/item thresholds as Rush.
@@ -117,14 +118,37 @@ In the corrected 100-run screen at Lv24:
 
 That layer overshoots the intended mandatory difficulty and is not the current certification candidate.
 
+## v106 selective Reservoir screen
+DiySim now supports an explicit ordered `reservoir_plan` so Dismantle is not forced to mean all four Reservoirs. All **15 non-empty subsets** were screened at Lv24 under the same non-diluting + Power ×1.20 candidate, **250 runs each**, seed 107.
+
+The decisive early candidates were:
+
+| Plan | Win | Any KO | Wipe | Mean rounds | Mean ending HP | Mean items |
+|---|---:|---:|---:|---:|---:|---:|
+| Brood only | **99.6%** | **13.6%** | **0.4%** | 30.54 | 51.12% | 7.16 |
+| Brood + Armor | **99.6%** | **13.6%** | **0.4%** | **29.98** | **53.95%** | **7.02** |
+| Brood + Sustenance | **99.6%** | **13.6%** | **0.4%** | 30.34 | 50.42% | 7.21 |
+| Armor only | 99.2% | 26.0% | 0.8% | 31.19 | 47.09% | 7.52 |
+| Sustenance + Armor | 98.8% | 24.8% | 1.2% | 30.94 | 46.03% | 7.80 |
+| Brood + Conduction | 99.2% | 31.2% | 0.8% | 31.82 | 44.54% | 7.54 |
+| Conduction + Armor | 94.8% | 42.8% | 4.8% | 32.29 | 38.87% | 7.92 |
+| Conduction only | 93.2% | 45.6% | 6.8% | 33.26 | 36.69% | 7.93 |
+
+Screen interpretation:
+- **Brood is the dominant high-value dismantle target** because it prevents both Brood deployments rather than spending later party turns killing each deployed add;
+- **Armor is the strongest second target** in the screen, improving ending HP, round count, and item spend without worsening KO/wipe incidence relative to Brood-only;
+- Sustenance does not improve the Brood-only safety signal enough to justify another pre-boss target;
+- Conduction-containing plans are structurally unattractive under the current policy because the extra time spent destroying Conduction outweighs the control pressure removed;
+- full dismantle remains an overcommit rather than the intended tactical reward.
+
+The next certification narrows to **Brood-only versus Brood + Armor**, at both Lv24 and Lv28, 2,000 runs per line with a fresh seed.
+
 ## Current structural finding
-The `Power ×1.20` non-diluting model creates the desired **mandatory-versus-high-side difficulty separation**, but the all-four Reservoir dismantle route still fails its tactical-payoff test:
+The `Power ×1.20` non-diluting model creates the desired **mandatory-versus-high-side difficulty separation**, but the all-four Reservoir dismantle route fails its tactical-payoff test:
 
 > **full dismantle is measurably more dangerous than Rush at Lv24 despite spending extra actions to remove all four functions.**
 
-This is not accepted as a finished encounter structure.
-
-Do not promote the non-diluting candidate into the encounter owner yet. The next DiySim pass should test **selective Reservoir dismantling** to determine which functions are worth spending actions to remove and whether a smaller dismantle package can create a genuine safety tradeoff without making the mechanic a trap.
+Selective dismantling is much more promising. Do not promote the non-diluting candidate into the encounter owner until the Brood-only versus Brood + Armor 2k certification confirms which selective route gives the cleanest intended safety payoff.
 
 ## Difficulty reading rule
 Judge Zevraya against the current boss philosophy:
