@@ -37,6 +37,12 @@ _ACTING_PATTERNS = (
     r"has one ordinary action on (?:its|the) enemy turn",
 )
 
+_SUPPORT_HEADING_NOUNS = frozenset({
+    "anchor", "anchors", "arm", "arms", "beacon", "beacons", "loom", "looms",
+    "node", "nodes", "press", "presses", "reservoir", "reservoirs", "seal", "seals",
+    "standard", "standards", "valve", "valves",
+})
+
 
 @dataclass(frozen=True)
 class EntityStatSource:
@@ -96,13 +102,7 @@ def _ancestor_intro_context(
     headings: list[tuple[int, int, str]],
     line_index: int,
 ) -> str:
-    """Return only explicit intro prose from ancestor headings.
-
-    For a child table such as Custodian support objects, the parent intro owns
-    the statement that neither support takes an independent turn. We stop each
-    ancestor intro at its first child heading so unrelated later mechanics do
-    not leak into classification.
-    """
+    """Return only explicit intro prose from ancestor headings."""
     prior = [heading for heading in headings if heading[0] < line_index]
     if not prior:
         return ""
@@ -145,41 +145,44 @@ def _role_match(text: str) -> tuple[EntityRole, str | None]:
     return "unresolved", None
 
 
-def _label_group_terms(row_label: str | None) -> tuple[str, ...]:
-    if not row_label:
+def _label_group_terms(label: str | None) -> tuple[str, ...]:
+    if not label:
         return ()
-    words = re.findall(r"[A-Za-z]+", row_label.casefold())
+    words = re.findall(r"[A-Za-z]+", label.casefold())
     if not words:
         return ()
     last = words[-1]
     plural = last if last.endswith("s") else last + "s"
-    return (row_label.casefold(), last, plural)
+    return (label.casefold(), last, plural)
+
+
+def _bounded_identity(row_label: str | None, section_heading: str) -> str | None:
+    if row_label:
+        return row_label
+    words = re.findall(r"[A-Za-z]+", section_heading.casefold())
+    if words and words[-1] in _SUPPORT_HEADING_NOUNS:
+        return section_heading
+    return None
 
 
 def _classify_role(
     section_text: str,
     *,
+    section_heading: str,
     ancestor_text: str = "",
     bounded_context: str = "",
     row_label: str | None = None,
 ) -> tuple[EntityRole, str | None]:
-    # Exact table-owning section wins first.
     role, evidence = _role_match(section_text)
     if role != "unresolved":
         return role, evidence
 
-    # Parent intro is safe because it precedes child-specific mechanics and is
-    # commonly where the owner declares a whole support group non-acting.
     role, evidence = _role_match(ancestor_text)
     if role != "unresolved":
         return role, evidence
 
-    # Some owner files place the explicit group declaration immediately before
-    # or after a sibling support table (for example Deepforge assemblies and
-    # Varkesh Retreat Beacons). Only accept bounded context when it also names
-    # the row identity or its group noun; this prevents unrelated passive prose
-    # elsewhere in a boss file from classifying an acting body.
-    terms = _label_group_terms(row_label)
+    identity = _bounded_identity(row_label, section_heading)
+    terms = _label_group_terms(identity)
     lowered = bounded_context.casefold()
     if terms and any(term in lowered for term in terms):
         role, evidence = _role_match(bounded_context)
@@ -229,6 +232,7 @@ def parse_entity_stat_sources(text: str) -> tuple[EntityStatSource, ...]:
             row_label = _row_label(row)
             role, evidence = _classify_role(
                 section_text,
+                section_heading=section_heading,
                 ancestor_text=ancestor_text,
                 bounded_context=bounded_context,
                 row_label=row_label,
