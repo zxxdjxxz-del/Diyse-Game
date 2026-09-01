@@ -184,6 +184,47 @@ def transform_bounded_replay(
     )
 
 
+@dataclass
+class BoundedReplayState:
+    """Persistent most-recent-record state for bounded replay enemies.
+
+    These current replay owners keep the most recent eligible completed record.
+    A later ineligible action does not erase it, and using the replay does not
+    consume it. Encounter mechanics with consume-on-use semantics should use a
+    different state type.
+    """
+
+    name: str
+    rule: BoundedReplayRule
+    recorded: RecordedDamageSignature | None = None
+
+    @property
+    def available(self) -> bool:
+        return self.recorded is not None
+
+    def observe_completed_action(
+        self,
+        action: CombatAction,
+        *,
+        category: ReplayCommandCategory,
+        hit_powers: Iterable[float] | None = None,
+    ) -> bool:
+        candidate = record_completed_damage_action(
+            action,
+            category=category,
+            hit_powers=hit_powers,
+        )
+        if candidate is None:
+            return False
+        self.recorded = candidate
+        return True
+
+    def materialize(self) -> ResolvedReplayAction | None:
+        if self.recorded is None:
+            return None
+        return transform_bounded_replay(self.recorded, self.rule, name=self.name)
+
+
 def resolve_bounded_replay(
     actor: CombatUnit,
     replay: ResolvedReplayAction,
@@ -203,6 +244,7 @@ def resolve_bounded_replay(
 
 __all__ = [
     "BoundedReplayRule",
+    "BoundedReplayState",
     "RecordedDamageSignature",
     "ReplayCommandCategory",
     "ResolvedReplayAction",
