@@ -27,7 +27,7 @@
 | Regional Hunt raw stats | **CLOSED** | `09` |
 | Major Hunt raw stats | **CLOSED** | `09` |
 | Whole-roster mandatory-vs-completionist validation | **PAPER PASS COMPLETE Ch0–13 / v89; representative true-battle follow-up ACTIVE** | `16` + owning `09` files |
-| Representative true-battle suite | **ACTIVE — Hollow Watch PASS v93; Archive Leviathan PASS v97; Regulation Crucible → Seventh Reaction PASS v99; Revision Arbiter next** | `16/TRUE_BATTLES` + owning `09` files |
+| Representative true-battle suite | **ACTIVE — Hollow Watch PASS v93; Archive Leviathan PASS v97; Regulation Crucible → Seventh Reaction PASS v99; Revision Arbiter PASS v100; Rhazek → Bastion Devourer next** | `16/TRUE_BATTLES` + owning `09` files |
 | Ordinary equipment/item definitions | **CLOSED where catalog says closed** | `08` |
 | Economy exact unresolved payouts | **OPEN where `12` says open** | `12` |
 | Final production UI/audio balance | **OPEN production validation** | `13` / `15` |
@@ -52,6 +52,31 @@ Retain:
 - current rule that a genuine fresh form does **not** restore a spent Prime identity.
 
 The old paper-only universal ~13–15 mandatory-round expectation is superseded by this current route/preparation-specific result.
+
+## v100 Revision Arbiter certification
+Warden of the Nameless / Revision Arbiter is now **TRUE-BATTLE CERTIFIED / PASS / RETAIN**.
+
+Strict mandatory Lv30 prepared benchmark:
+- no Prime: **100% wins / median 11 / mean 10.76 / P90 12** over 20,000 runs;
+- any-KO incidence: **0.005% (1 / 20,000)** with **0 defeats**;
+- one Awakened Last Sentinel manifestation: **100% wins / median 9 total combat rounds / mean 9.43 / P90 11** over 10,000 runs, with **0% any-KO**.
+
+Completionist Lv34 reference:
+- no Prime: **100% wins / median 8 / mean 8.01 / P90 9** over 5,000 runs;
+- with Last Sentinel: **100% wins / median 8 / mean 7.86 / P90 9** over 5,000 runs.
+
+Retain:
+- HP **7,600** and all current raw stats;
+- all current Powers and status chances;
+- 3 Closed Record Assertion Layers at 80% direct-damage reduction;
+- Revision Claim's command-variation tax;
+- 2 Open Revision Layers at 40% direct-damage reduction;
+- all current repetition locks.
+
+The opening/reconciliation taxes remain behaviorally relevant because smart play spends setup/support actions into the reduction windows rather than wasting the party's strongest direct attacks. Awakened Last Sentinel improves safety/resource conservation without trivializing the encounter.
+
+Detailed certification:
+`TRUE_BATTLES/REVISION_ARBITER_TRUE_BATTLE_v100.md`
 
 ## Meaning of CLOSED
 `CLOSED` means:
