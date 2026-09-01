@@ -95,11 +95,33 @@ Their exact reward status must be resolved only after the owning story/dialogue 
 
 Lord-Marshal Kharvek is already handled as the Chapter-12 optional Elite economy and must not receive a second authored-encounter Auren line.
 
-## Drop firewall
-Do not assume a universal random-drop table.
+## Random-drop rule — CLOSED
+Ordinary enemies and ordinary formations have:
+> **no random Consumable drop table**
 
-Ordinary encounters may use occasional explicitly authored Consumable drops if separately approved, but no global probability table is created here.
+There are no low-percentage normal-enemy drops for:
+- Consumables;
+- weapons;
+- armor;
+- Forge Components;
+- Relics;
+- vendor-trash/junk.
 
+This keeps ordinary encounter income deterministic enough for campaign economy calibration and avoids turning specific enemies into farming targets.
+
+Consumables enter the economy through:
+- normal unlimited shop stock once unlocked;
+- authored chests/caches;
+- story field issue;
+- Side Quest / Character Quest completion packages;
+- other explicitly authored guaranteed rewards.
+
+### Authored exception boundary
+A specific named encounter may still receive a **guaranteed authored item reward** if separately approved.
+
+That is not a random drop table and must be written explicitly into the encounter/reward source architecture.
+
+## Permanent-reward firewall
 Do not introduce by default:
 - low-percentage weapon farming;
 - low-percentage armor farming;
