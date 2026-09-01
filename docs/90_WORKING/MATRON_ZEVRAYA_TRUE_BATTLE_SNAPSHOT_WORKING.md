@@ -1,6 +1,6 @@
 # Matron Zevraya — True-Battle Snapshot Working Candidate
 
-**Status:** **WORKING SIMULATION CANDIDATE / NOT OWNER CANON / NOT APPROVED FOR MAIN**  
+**Status:** **WORKING SIMULATION CANDIDATE / SELECTIVE PLAN CERTIFIED IN DIYSIM / NOT OWNER CANON / NOT APPROVED FOR MAIN**  
 **Encounter owner remains:** `09_ENEMIES_AND_ENCOUNTERS/STORY_BOSSES/MATRON_ZEVRAYA.md`  
 **Purpose:** give DiySim an explicit, reproducible Chapter-6 prepared-play snapshot for mandatory versus high-side testing without hiding inventory or policy assumptions in code.
 
@@ -60,11 +60,16 @@ The explicit Brood rule is part of the deterministic simulator policy. The earli
 
 ### Dismantle
 - spend early actions removing the functional Reservoirs that matter to the chosen structural model;
-- default full-dismantle order for the first certification pass is **Brood → Conduction → Sustenance → Armor**;
+- default full-dismantle order for historical comparison is **Brood → Conduction → Sustenance → Armor**;
 - selective plans may instead specify any ordered subset of those four Reservoirs;
 - then return to Zevraya;
 - respond to any deployed Brood body as a normal finite hostile target;
 - use the same healing/item thresholds as Rush.
+
+Current preferred working selective plan:
+> **Brood → Armor**
+
+This preference is a DiySim balance finding, not owner canon.
 
 Shared competent-play rules:
 - Ilyra prioritizes KO recovery, actionable control cleanup, party healing, and emergency single-target healing before offense;
@@ -121,7 +126,7 @@ That layer overshoots the intended mandatory difficulty and is not the current c
 ## v106 selective Reservoir screen
 DiySim now supports an explicit ordered `reservoir_plan` so Dismantle is not forced to mean all four Reservoirs. All **15 non-empty subsets** were screened at Lv24 under the same non-diluting + Power ×1.20 candidate, **250 runs each**, seed 107.
 
-The decisive early candidates were:
+The decisive candidates were:
 
 | Plan | Win | Any KO | Wipe | Mean rounds | Mean ending HP | Mean items |
 |---|---:|---:|---:|---:|---:|---:|
@@ -136,19 +141,37 @@ The decisive early candidates were:
 
 Screen interpretation:
 - **Brood is the dominant high-value dismantle target** because it prevents both Brood deployments rather than spending later party turns killing each deployed add;
-- **Armor is the strongest second target** in the screen, improving ending HP, round count, and item spend without worsening KO/wipe incidence relative to Brood-only;
+- **Armor is the strongest second target**, improving ending HP, round count, and item spend without worsening KO/wipe incidence relative to Brood-only;
 - Sustenance does not improve the Brood-only safety signal enough to justify another pre-boss target;
 - Conduction-containing plans are structurally unattractive under the current policy because the extra time spent destroying Conduction outweighs the control pressure removed;
 - full dismantle remains an overcommit rather than the intended tactical reward.
 
-The next certification narrows to **Brood-only versus Brood + Armor**, at both Lv24 and Lv28, 2,000 runs per line with a fresh seed.
+## v106 selective-plan certification — fresh seed
+Brood-only and Brood + Armor were then tested over **2,000 runs per line**, seed 108, at both Lv24 and Lv28.
+
+| Player line | Plan | Win | Any KO | Wipe | Mean rounds | Mean ending HP | Mean items | Mean ending MP |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| Lv24 mandatory | Brood only | **99.65%** | **16.35%** | **0.35%** | 30.52 | 50.34% | 7.17 | 8.90% |
+| Lv24 mandatory | **Brood + Armor** | **99.80%** | **14.40%** | **0.20%** | **30.07** | **51.99%** | **6.99** | **10.49%** |
+| Lv28 high-side | Brood only | **100%** | **0%** | **0%** | **23.38** | **62.36%** | 4.17 | 6.38% |
+| Lv28 high-side | Brood + Armor | **100%** | **0%** | **0%** | 23.54 | 61.98% | **4.15** | 6.37% |
+
+Certification read:
+- **Brood + Armor is the preferred working dismantle plan**;
+- on the mandatory line it gives a small but consistent improvement over Brood-only across KO rate, wipe rate, ending HP, item spend, MP reserve, and total duration;
+- on the high-side line it is effectively neutral rather than creating a new advantage spike;
+- this means the second target earns its action cost where the party actually needs safety, without materially changing the already-safe Lv28 line;
+- the preferred mechanic response remains meaningfully safer than Rush while the encounter still consumes substantial HP/MP/items.
 
 ## Current structural finding
-The `Power ×1.20` non-diluting model creates the desired **mandatory-versus-high-side difficulty separation**, but the all-four Reservoir dismantle route fails its tactical-payoff test:
+The `Power ×1.20` non-diluting model creates the desired **mandatory-versus-high-side difficulty separation**, and selective dismantling resolves the all-four trap behavior.
 
-> **full dismantle is measurably more dangerous than Rush at Lv24 despite spending extra actions to remove all four functions.**
+Current DiySim working recommendation:
+> **convert the non-diluting Reservoir structure as already studied, and treat Brood → Armor as the competent selective dismantle line.**
 
-Selective dismantling is much more promising. Do not promote the non-diluting candidate into the encounter owner until the Brood-only versus Brood + Armor 2k certification confirms which selective route gives the cleanest intended safety payoff.
+This is still **not owner canon**. The encounter owner should not be rewritten until the structural change is explicitly approved through normal change control.
+
+The current numbers do **not** support adding the tested +5 effective-stat-level layer. If more Zevraya pressure is desired later, test a smaller boss-local adjustment rather than restoring that rejected stat layer or forcing the player to dismantle low-value Reservoirs.
 
 ## Difficulty reading rule
 Judge Zevraya against the current boss philosophy:
