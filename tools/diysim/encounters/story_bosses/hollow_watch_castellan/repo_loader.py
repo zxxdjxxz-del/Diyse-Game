@@ -1,7 +1,8 @@
-"""Build Hollow Watch simulation inputs by parsing authoritative repo files.
+"""Build Hollow Watch simulation inputs from authoritative repo files.
 
-No Diyse numeric canon is stored here. Paths, field names, and parser labels are
-allowed; combat values come from the checked-out repository at runtime.
+No Diyse numeric canon is stored here. Encounter-specific parsing is limited to
+Hollow Watch itself; class Abilities and Traits are resolved through shared
+repository source adapters.
 """
 from __future__ import annotations
 from dataclasses import dataclass
@@ -10,14 +11,13 @@ import re
 
 from tools.diysim.combat.models import CombatAction, Combatant, StatusRider
 from tools.diysim.progression import Stats
+from tools.diysim.sources.abilities import AbilitySource, load_ability_source
 from tools.diysim.sources.markdown import extract_markdown_table, parse_int
 from tools.diysim.sources.repo import SourceGapError, read_repo_text
+from tools.diysim.sources.traits import load_trait_source
 
 BOSS_PATH = "docs/09_ENEMIES_AND_ENCOUNTERS/STORY_BOSSES/HOLLOW_WATCH_CASTELLAN.md"
 TRUE_BATTLE_PATH = "docs/16_BALANCE_AND_TESTING/TRUE_BATTLES/HOLLOW_WATCH_CASTELLAN_TRUE_BATTLE_v93.md"
-CREST_KNIGHT_PATH = "docs/06_CLASSES_AND_ABILITIES/BASE_CLASSES/CREST_KNIGHT.md"
-BLUE_WARDEN_PATH = "docs/06_CLASSES_AND_ABILITIES/BASE_CLASSES/BLUE_WARDEN.md"
-TRAITS_PATH = "docs/06_CLASSES_AND_ABILITIES/TRAITS.md"
 
 
 @dataclass(frozen=True)
@@ -74,13 +74,6 @@ def _party_from_true_battle(text: str) -> dict[str, Combatant]:
         if required not in result:
             raise SourceGapError(f"{TRUE_BATTLE_PATH} lacks {required} Lv2 body")
     return result
-
-
-def _ability_row(text: str, ability: str) -> dict[str, str]:
-    for row in extract_markdown_table(text, "Ability spine"):
-        if row.get("Ability") == ability:
-            return row
-    raise SourceGapError(f"Missing ability {ability!r} in repo owner file")
 
 
 def _power(effect: str, ability: str) -> int:
@@ -194,15 +187,25 @@ def _linebreaker_from_repo(boss_text: str, true_battle_text: str) -> CombatActio
     )
 
 
+def _direct_ability_action(source: AbilitySource) -> CombatAction:
+    effect = source.owner_effect
+    kind, element = _damage_type_and_element(effect, source.registry.ability)
+    if source.fixed_mp is None:
+        raise SourceGapError(f"{source.registry.ability} does not have a fixed MP cost")
+    return CombatAction(
+        source.registry.ability,
+        mp_cost=source.fixed_mp,
+        damage_kind=kind,
+        element=element,
+        power=_power(effect, source.registry.ability),
+    )
+
+
 def load_hollow_watch_repo_data(*, root: Path | None = None) -> HollowWatchRepoData:
     _raise_preflight_gaps(root=root)
 
     boss_text = read_repo_text(BOSS_PATH, root=root)
     true_text = read_repo_text(TRUE_BATTLE_PATH, root=root)
-    crest_text = read_repo_text(CREST_KNIGHT_PATH, root=root)
-    warden_text = read_repo_text(BLUE_WARDEN_PATH, root=root)
-    trait_text = read_repo_text(TRAITS_PATH, root=root)
-
     party = _party_from_true_battle(true_text)
 
     boss_row = extract_markdown_table(boss_text, "Castellan raw line")[0]
@@ -225,51 +228,37 @@ def load_hollow_watch_repo_data(*, root: Path | None = None) -> HollowWatchRepoD
         _stats_from_row(extract_markdown_table(boss_text, "Watch Seal")[0]),
     )
 
-    crest_row = _ability_row(crest_text, "Crest Strike")
-    pulse_row = _ability_row(crest_text, "Resonant Pulse")
-    mend_row = _ability_row(warden_text, "Mend")
-    clear_row = _ability_row(warden_text, "Clear Warding")
+    crest_source = load_ability_source("Crest Strike", class_name="Crest Knight", root=root)
+    pulse_source = load_ability_source("Resonant Pulse", class_name="Crest Knight", root=root)
+    mend_source = load_ability_source("Mend", class_name="Blue Warden", root=root)
+    clear_source = load_ability_source("Clear Warding", class_name="Blue Warden", root=root)
 
-    crest_kind, crest_element = _damage_type_and_element(crest_row["Current effect"], "Crest Strike")
-    pulse_kind, pulse_element = _damage_type_and_element(pulse_row["Current effect"], "Resonant Pulse")
-    crest_strike = CombatAction(
-        "Crest Strike",
-        mp_cost=parse_int(crest_row["MP"]),
-        damage_kind=crest_kind,
-        element=crest_element,
-        power=_power(crest_row["Current effect"], "Crest Strike"),
-    )
-    resonant_pulse = CombatAction(
-        "Resonant Pulse",
-        mp_cost=parse_int(pulse_row["MP"]),
-        damage_kind=pulse_kind,
-        element=pulse_element,
-        power=_power(pulse_row["Current effect"], "Resonant Pulse"),
-    )
+    crest_strike = _direct_ability_action(crest_source)
+    resonant_pulse = _direct_ability_action(pulse_source)
 
-    mend_effect = mend_row["Current effect"]
+    mend_effect = mend_source.owner_effect
     mend_hp = re.search(r"(\d+)% target Max HP", mend_effect)
     mend_mag = re.search(r"([0-9.]+)\s*[×x]\s*Ilyra", mend_effect)
-    if not (mend_hp and mend_mag):
-        raise SourceGapError("Incomplete Mend healing formula in repo")
+    if mend_source.fixed_mp is None or not (mend_hp and mend_mag):
+        raise SourceGapError("Incomplete Mend healing authority in repo")
     mend = CombatAction(
-        "Mend",
+        mend_source.registry.ability,
         action_kind="heal",
-        mp_cost=parse_int(mend_row["MP"]),
+        mp_cost=mend_source.fixed_mp,
         target_side="ally",
         heal_max_hp_percent=int(mend_hp.group(1)) / 100.0,
         heal_magic_scaling=float(mend_mag.group(1)),
     )
 
-    clear_effect = clear_row["Current effect"]
+    clear_effect = clear_source.owner_effect
     clear_heal = re.search(r"restore\s*(\d+)% target Max HP", clear_effect, re.I)
     clear_sr = re.search(r"grant\s*\+(\d+) Status Resistance for (\d+) rounds", clear_effect, re.I)
-    if not (clear_heal and clear_sr):
+    if clear_source.fixed_mp is None or not (clear_heal and clear_sr):
         raise SourceGapError("Incomplete Clear Warding healing/SR authority in repo")
     clear_warding = CombatAction(
-        "Clear Warding",
+        clear_source.registry.ability,
         action_kind="heal",
-        mp_cost=parse_int(clear_row["MP"]),
+        mp_cost=clear_source.fixed_mp,
         target_side="ally",
         heal_max_hp_percent=int(clear_heal.group(1)) / 100.0,
         clear_harmful_statuses=1,
@@ -296,10 +285,15 @@ def load_hollow_watch_repo_data(*, root: Path | None = None) -> HollowWatchRepoD
 
     trigger = re.search(r"Walking State begins once HP is \*\*(\d+) or lower\*\*", boss_text)
     seal_reduction = re.search(r"\*\*(\d+)% Fortress-State direct-damage reduction\*\*", boss_text)
-    harmonized = re.search(r"Rank I[^\n]*consumes the prime for \*\*\+(\d+)% final damage\*\*", trait_text)
+
+    crest_trait = load_trait_source(class_name=crest_source.registry.class_name, root=root)
+    warden_trait = load_trait_source(class_name=mend_source.registry.class_name, root=root)
+    crest_rank1 = crest_trait.ranks[0].effect
+    warden_rank1 = warden_trait.ranks[0].effect
+    harmonized = re.search(r"consumes the prime for \*\*\+(\d+)% final damage\*\*", crest_rank1)
     gentle = re.search(
-        r"Gentle Continuance[\s\S]{0,600}?Rank I[^\n]*additional \*\*(\d+)% target Max HP\*\* if that target began the action below (\d+)% HP",
-        trait_text,
+        r"additional \*\*(\d+)% target Max HP\*\* if that target began the action below (\d+)% HP",
+        warden_rank1,
     )
     if not (trigger and seal_reduction and harmonized and gentle):
         raise SourceGapError("Incomplete Hollow Watch transition/Seal/Trait authority in repo")
