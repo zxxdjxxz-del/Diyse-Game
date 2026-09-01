@@ -60,10 +60,6 @@ def _direct_action(ability: str, class_name: str, *, chosen_element: str | None 
     if parsed.element_mode == "fixed" and parsed.element is not None:
         element = parsed.element
     else:
-        # Some normalized ability rows write compact Hybrid identity as
-        # "Hybrid / Neutral 75% Attack / 25% Magic". Read the fixed element
-        # directly from that authored owner text rather than treating it as a
-        # player-selectable element or supplying a fallback value.
         fixed = re.search(
             r"\b(?:Physical|Magical|Hybrid)\s*/\s*(Neutral|Colorless|Fire|Ice|Lightning|Earth|Ruin)\b",
             source.owner_effect,
@@ -175,21 +171,23 @@ def _gentle_continuance_bonus(*, root: Path | None = None) -> float:
     return int(match.group(1)) / 100.0
 
 
-def _war_archer_values(*, root: Path | None = None) -> tuple[int, int, int, float, int]:
+def _war_archer_values(*, root: Path | None = None) -> tuple[int, int, int, float, int, int]:
     sizing = load_ability_source("Sizing Shot", class_name="War Archer", root=root)
     text = read_repo_text(sizing.owner_path, root=root)
     duration = re.search(r"remainder of the current round plus the next \*\*(\d+) full normal rounds\*\*", text, re.I)
     party_crit = re.search(r"all party members gain \*\*\+(\d+) percentage points Critical Chance\*\*", text, re.I)
     torren_crit = re.search(r"Rank II[^\n]*\*\*\+(\d+) percentage points Critical Chance\*\*", text, re.I)
     measured_pen = re.search(r"Colossus Draw[^\n]*penetration becomes \*\*(\d+)%\*\*", text, re.I)
+    sizing_mastery = re.search(r"Veteran's Eye[^\n]*Sizing Shot \*\*(\d+)\s*→\s*(\d+) Power\*\*", text, re.I)
     heavy_draw = re.search(r"Heavy Draw[^\n]*Colossus Draw[^\n]*\*\*(\d+)\s*→\s*(\d+) Power\*\*", text, re.I)
-    if not (duration and party_crit and torren_crit and measured_pen and heavy_draw):
-        raise SourceGapError("War Archer lacks exact CL9 Measure/Heavy Draw authority")
+    if not (duration and party_crit and torren_crit and measured_pen and sizing_mastery and heavy_draw):
+        raise SourceGapError("War Archer lacks exact CL9 Measure/mastery authority")
     return (
         int(duration.group(1)),
         int(party_crit.group(1)),
         int(torren_crit.group(1)),
         int(measured_pen.group(1)) / 100.0,
+        int(sizing_mastery.group(2)),
         int(heavy_draw.group(2)),
     )
 
@@ -205,8 +203,9 @@ def _green_discount(*, root: Path | None = None) -> int:
 
 @lru_cache(maxsize=4)
 def load_zevraya_party_actions(*, root: Path | None = None) -> ZevrayaPartyActions:
-    full_rounds, party_crit, torren_crit, measured_pen, colossus_power = _war_archer_values(root=root)
+    full_rounds, party_crit, torren_crit, measured_pen, sizing_power, colossus_power = _war_archer_values(root=root)
     revive_mp, revive_fraction, lifeline_mp = _blue_warden_specials(root=root)
+    sizing = replace(_direct_action("Sizing Shot", "War Archer", root=root), power=sizing_power)
     colossus = replace(_direct_action("Colossus Draw", "War Archer", root=root), power=colossus_power)
     return ZevrayaPartyActions(
         crest_rend=_direct_action("Crest Rend", "Crest Knight", root=root),
@@ -217,7 +216,7 @@ def load_zevraya_party_actions(*, root: Path | None = None) -> ZevrayaPartyActio
         revive_mp_cost=revive_mp,
         revive_fraction=revive_fraction,
         lifeline_mp_cost=lifeline_mp,
-        sizing_shot=_direct_action("Sizing Shot", "War Archer", root=root),
+        sizing_shot=sizing,
         colossus_draw=colossus,
         measured_colossus_penetration=measured_pen,
         hunter_measure_full_rounds=full_rounds,
