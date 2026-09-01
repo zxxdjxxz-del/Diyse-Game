@@ -8,7 +8,8 @@ import statistics
 from typing import Literal
 
 from tools.diysim.combat.action_resolution import resolve_damage, resolve_heal
-from tools.diysim.combat.models import BASIC_ATTACK, CombatAction, CombatUnit, TemporaryModifierSpec
+from tools.diysim.combat.basic_attack import basic_attack_action
+from tools.diysim.combat.models import CombatAction, CombatUnit, TemporaryModifierSpec
 from tools.diysim.combat.status_runtime import complete_turn, end_round, turn_is_blocked
 from tools.diysim.combat.temporary_modifiers import apply_temporary_modifier
 from tools.diysim.combat.turn_order import turn_order
@@ -67,7 +68,10 @@ def _weighted_boss_action(
         for action in actions
         if not (action.name == last_action and action.name in data.repetition_locked_actions)
     )
-    return rng.choices(legal, weights=[action.weight for action in legal], k=1)[0]
+    weights = tuple(action.weight for action in legal)
+    if any(weight is None for weight in weights):
+        raise ValueError("Hollow Watch action weights must come from explicit repo authority")
+    return rng.choices(legal, weights=weights, k=1)[0]
 
 
 def _random_conscious(party: list[CombatUnit], rng: random.Random) -> CombatUnit:
@@ -165,6 +169,7 @@ def run_hollow_watch_smart(
     any_ko = False
     ballista_shots = 0
     staggered_exposed = False
+    basic_attack = basic_attack_action(root=root)
 
     _set_seal_reduction(boss, data, True)
 
@@ -267,7 +272,7 @@ def run_hollow_watch_smart(
                             ),
                         )
                 else:
-                    resolve_damage(ilyra, BASIC_ATTACK, target, rng)
+                    resolve_damage(ilyra, basic_attack, target, rng)
                 complete_turn(ilyra, acted=True)
 
             any_ko = _any_ko(party, any_ko)
