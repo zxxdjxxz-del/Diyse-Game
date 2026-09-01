@@ -23,3 +23,6 @@ jobs:
 
       - name: Run DiySim tests
         run: python -m pytest -q tests/diysim
+
+      - name: Print simulation readiness summary
+        run: python -m tools.diysim.cli audit-readiness --summary-only
