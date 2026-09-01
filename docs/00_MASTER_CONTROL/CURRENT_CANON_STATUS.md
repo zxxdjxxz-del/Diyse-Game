@@ -117,28 +117,31 @@ Completed:
 - Hollow Watch Castellan — **PASS / RETAIN v93**;
 - Archive Leviathan — **PASS / RETAIN v97**;
 - Regulation Crucible → The Seventh Reaction — **PASS / RETAIN v99**;
-- Warden of the Nameless / Revision Arbiter — **PASS / RETAIN v100**.
+- Warden of the Nameless / Revision Arbiter — **PASS / RETAIN v100**;
+- Commander Rhazek — Reforged Commander → Bastion Devourer — **PASS / RETAIN v101**.
 
-Revision Arbiter v100 retained:
-- HP **7,600** and all current raw stats/Powers;
-- 3 Closed Record Assertion Layers;
-- Revision Claim command-variation tax;
-- 2 Open Revision Layers;
-- all current status chances and repetition locks.
+Rhazek v101 retained:
+- Reforged Commander HP **8,431** and current raw stats/Powers;
+- Bastion Devourer HP **10,462** and current raw stats/Powers;
+- genuine fresh Form-II architecture with no spent-Prime restoration;
+- Demolition Breaker's current 55% threshold, protected one-round Preparation, 335-Power resolution, and 3-round repetition lock;
+- 18% Exposed Rhazek same-bar state.
 
-Strict prepared mandatory Lv30 benchmark:
-- no Prime: **100% wins / median 11 / mean 10.76 / P90 12** over 20,000 runs;
-- one Awakened Last Sentinel manifestation: **100% wins / median 9 total combat rounds / mean 9.43 / P90 11** over 10,000 runs;
-- no-Prime any-KO incidence **0.005%**, with **0 defeats**.
+Strict prepared mandatory Lv40 benchmark:
+- no Prime: **100% wins / median 14 / mean 14.48 / P90 17** over 20,000 runs;
+- any-KO incidence **0.08%**, with **0 defeats**;
+- one timed Awakened Last Sentinel: **100% wins / median 15 total combat rounds / mean 15.34 / P90 17** over 10,000 runs;
+- Last Sentinel crossed the genuine Form-I → Form-II transition in **99.04%** of timed stress runs without restoring the spent identity;
+- legal Last Sentinel → 2 full normal rounds → Last Convergence chain: **100% wins / median 15 total rounds / mean 15.17 / P90 17** over 10,000 runs.
 
-Completionist Lv34 reference:
-- no Prime: **median 8 / mean 8.01 / P90 9**;
-- with Last Sentinel: **median 8 / mean 7.86 / P90 9**.
+Completionist Lv48–49 reference:
+- no Prime: **median 12 rounds / P90 14**;
+- the current 11–13 authored completionist duration target remains valid.
 
 Current next representative anchor:
-> **Commander Rhazek — Reforged Commander → Bastion Devourer — Chapter 9 — mandatory Lv40 / completionist Lv49**
+> **Emperor Vaelkor Draeven — Emperor of the Reforged Host → Sovereign Panoply Unbound — Chapter 12 — mandatory Lv56 / completionist Lv66**
 
-That next test must specifically validate a genuine fresh Form II under the current persistent-spend Prime model: the Bastion Devourer receives fresh HP, but the transition does **not** restore a spent Prime identity, and the separate post-dismissal two-full-normal-round spacing rule remains in force.
+The Vaelkor test must validate the much larger late-game two-body resource curve under the same persistent-spend Prime model, including Sovereign Overrun's protected Preparation and Final Sovereignty's same-bar 25% state.
 
 Detailed balance status:
 - `../16_BALANCE_AND_TESTING/BALANCE_CLOSURE_STATUS.md`
