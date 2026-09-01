@@ -2,28 +2,41 @@
 
 This queue tracks unresolved/reopened work only. Closed owner-domain values remain closed unless a current test demonstrates a specific failure.
 
-## 1 — Representative True-Battle Certification
-**ACTIVE — v101 complete; Vaelkor → Sovereign Panoply Unbound next**
+## 1 — Mandatory-Route Boss Difficulty Recalibration
+**ACTIVE — v103 working; Chapter 5 Deepforge Colossus first**
 
-Closed prerequisites:
-- enemy direct-damage Power audit — **CLOSED**;
-- enemy static design — **CLOSED v90**;
-- campaign mandatory-vs-completionist paper validation Chapters 0–13 — **COMPLETE v89**;
-- CEXP Lv55–60 recalibration — **CLOSED v92**.
+User-directed correction:
+> **The mandatory route should be harder, with more KOs when the player has skipped optional progression.**
 
-Certified representative anchors:
-- Hollow Watch Castellan — **PASS / RETAIN v93**;
-- Archive Leviathan — **PASS / RETAIN v97**;
-- Regulation Crucible → The Seventh Reaction — **PASS / RETAIN v99**;
-- Warden of the Nameless / Revision Arbiter — **PASS / RETAIN v100**;
-- Commander Rhazek — Reforged Commander → Bastion Devourer — **PASS / RETAIN v101**.
+Core comparison rule:
+- mandatory and completionist use the **same ordinary equipment**;
+- same normal-stock consumables;
+- same active party and competent tactical policy;
+- no completionist Relic/Legacy gear advantage in the core comparison;
+- route differences come primarily from actual Player Level / CEXP / learned abilities;
+- KO/wipe/resource pressure matters more than merely proving the fight can be won.
 
-Next anchor:
-> **Emperor Vaelkor Draeven — Emperor of the Reforged Host → Sovereign Panoply Unbound**
+Current first anchor:
+> **Deepforge Colossus — Assembly Frame → Worldsmith Body — Chapter 5**
 
-Then continue representative coverage through the final mandatory boss and The Unfinished World. Calder → Crown-Bound Living Anchor remains an optional added representative if a dedicated support-object/fresh-body case is useful before suite closure.
+Working report:
+`../16_BALANCE_AND_TESTING/TRUE_BATTLES/CH5_DEEPFORGE_DIFFICULTY_RECALIBRATION_WORKING_v103.md`
 
-All true-battle tests must use the exact current party state and current combat rules at that story point, including current Bleed escalation, current Prime one-use-until-restored economy, and the 2-full-normal-round post-dismissal Prime spacing rule. Do not reopen a closed global value merely because a test is being run; retune only a specific component if reproducible testing demonstrates a structural failure.
+Initial same-gear result:
+- current mandatory Lv20 competent line — **100% wins / 0.095% any-KO** over 20,000 runs;
+- current completionist Lv22 same gear — **100% wins / 0.005% any-KO**;
+- current package is therefore **too safe** for the revised mandatory-route standard.
+
+A provisional ~45% direct-Power sensitivity produces a much better Lv20-vs-Lv22 KO separation, but is **not locked** because the harder test exposed an assembly payoff/action-density problem that must be resolved first.
+
+Next balance action:
+1. resolve/retune the Deepforge assembly payoff so dismantling cannot become a hidden trap through action-menu dilution;
+2. rerun same-gear Lv20 vs Lv22 distributions;
+3. lock the Chapter-5 difficulty profile;
+4. continue the harder mandatory-route ramp forward through later chapter climaxes;
+5. only then return to Reconstituted Entity → The Last Command.
+
+Prior v93–v102 reports remain valid historical measurements and mechanical-rule evidence. From Chapter 5 onward, their old difficulty PASS/RETAIN verdicts are provisional under the new standard.
 
 ## 2 — Story-Owned Enemy Placement / Timing Dependencies
 **DEFERRED UNTIL RELEVANT STORY/DIALOGUE WORK**
@@ -80,7 +93,7 @@ Current B00 state:
 Environment/material certification B01–B11 also remains open. Do not bulk-convert the 3,214-file environment library until the benchmark set reads as one coherent game at gameplay scale.
 
 Working pointer:
-`90_WORKING/VISUAL_PRODUCTION_WORKING.md`
+`VISUAL_PRODUCTION_WORKING.md`
 
 ## 7 — Audio / Music Redevelopment
 Final soundtrack identity, cue hierarchy, regional language, battle/boss/Hunt/Prime music, leitmotifs, diegetic scope, voice scope, SFX palette, and mix/implementation targets remain open.
