@@ -63,3 +63,19 @@ def test_zevraya_small_simulation_accepts_high_side_and_plus5() -> None:
     assert summary.effective_stat_level_offset == 5
     assert summary.win_rate + summary.wipe_rate <= 1.0
     assert 0.0 <= summary.mean_reservoirs_destroyed <= 4.0
+
+
+def test_zevraya_rush_does_not_ignore_deployed_brood() -> None:
+    summary = simulate_matron_zevraya(
+        player_level=24,
+        structure_mode="non_diluting",
+        strategy="rush",
+        overlay=BalanceOverlay(direct_damage_power_multiplier=1.20),
+        runs=25,
+        seed=106,
+    )
+
+    # Rush focuses Zevraya rather than pre-emptively dismantling Reservoirs,
+    # but a deployed Brood is a visible finite hostile body and must be answered.
+    assert summary.mean_brood_deployments >= 1.5
+    assert summary.mean_brood_actions < 5.0
