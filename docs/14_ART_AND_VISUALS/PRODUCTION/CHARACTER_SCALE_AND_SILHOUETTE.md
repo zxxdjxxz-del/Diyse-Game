@@ -42,23 +42,25 @@ Preserve:
 - long blonde hair;
 - pale-blue cape mass;
 - white/pale-blue clothing block;
-- bright green eye/facial read where camera distance permits;
+- **bold saturated green eyes** where camera distance permits;
 - restrained silver lower-arm/lower-leg accents.
 
 Her contextual runtime equipment may include Wardrod, Shield or Focus. Do not introduce a sword identity.
 
 ### Torren
-**Green/bronze bow silhouette with irregular ghillie cape.**
+**Army-green tactical medium armor + golden-bronze protection + irregular ghillie cape.**
 
 Preserve:
-- older rugged facial/hair read;
+- older rugged veteran facial/hair read while retaining canonical age 42;
+- **amber eyes** where camera distance permits;
 - longbow/quiver;
-- dark-green body block;
-- bronze-gold armor accents;
-- full irregular grass/branch cape silhouette;
-- practical canister/field-gear rhythm only where screen distance permits.
+- dominant army-green / olive tactical cloth block;
+- golden-bronze medium armor on torso/shoulder/arms/knees/lower legs;
+- brown leather belts, harness, pouches and boots;
+- full irregular grass/branch ghillie-cape silhouette;
+- three-canister field-gear rhythm where screen distance permits.
 
-At distance the ghillie cape must resolve into several designed organic masses, not hundreds of shimmering foliage cards.
+At distance the ghillie cape must resolve into several designed organic masses, not hundreds of shimmering foliage cards. Torren must read as a veteran military scout/archer, not a druid, court ranger or heavy knight.
 
 ### Nimera
 **White foundation + dark-purple braided/updo silhouette + constellation waist mass.**
@@ -78,7 +80,7 @@ Do not force every braid, chain, charm, vial or constellation mark to remain equ
 
 Preserve:
 - crimson/burgundy hair mass;
-- bright blue eyes/facial read where camera distance permits;
+- **electric blue eyes** where camera distance permits;
 - emerald coat/skirt/boot blocks;
 - black bodysuit foundation;
 - silver trim/metal highlights;
@@ -104,11 +106,12 @@ At distance, the rib-shell should resolve into a few strong black/crimson struct
 
 Do not allow:
 - Cyanis and Ilyra to converge into the same white/silver knight mass;
-- Torren and Vaelira to become interchangeable green ranged characters;
+- Torren and Vaelira to become interchangeable green characters;
 - Nimera and Vaelira to share the same caster silhouette;
 - Cyanis and Seyrik to share the same armored body proportion;
 - Ilyra and Vaelira to collapse into the same long-haired light-caster silhouette;
 - Torren's ghillie irregularity to disappear into an ordinary cape;
+- Torren's tactical medium-armor construction to drift back into robe-like ranger clothing;
 - Seyrik's greatsword and heavy Black Host plate to shrink into conventional knight proportions.
 
 Color supports recognition. **Silhouette, weapon, hair mass, outer garment shape and body proportion must still work in grayscale.**
