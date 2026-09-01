@@ -1,7 +1,6 @@
 """Compatibility facade for sectioned, repo-backed combat rules."""
 
 from .combat import (
-    BASIC_ATTACK,
     ActionKind,
     ActiveStatus,
     Affinity,
@@ -20,6 +19,7 @@ from .combat import (
     affinity_damage_multiplier,
     apply_status,
     base_crit_chance,
+    basic_attack_action,
     crit_chance_cap,
     crit_multiplier,
     effective_attack,
@@ -36,12 +36,12 @@ from .combat import (
 )
 
 __all__ = [
-    "ActionKind", "ActiveStatus", "Affinity", "BASIC_ATTACK", "CombatAction",
-    "CombatRules", "CombatUnit", "Combatant", "DamageKind", "Element", "Rank",
-    "Side", "StatusName", "StatusRider", "TargetScope", "TargetSide",
+    "ActionKind", "ActiveStatus", "Affinity", "CombatAction", "CombatRules",
+    "CombatUnit", "Combatant", "DamageKind", "Element", "Rank", "Side",
+    "StatusName", "StatusRider", "TargetScope", "TargetSide",
     "affinity_damage_multiplier", "apply_status", "base_crit_chance",
-    "crit_chance_cap", "crit_multiplier", "effective_attack", "effective_defense",
-    "effective_magic", "effective_speed", "effective_spirit", "element_affinity",
-    "healing_amount", "linked_status_affinity_modifier", "load_combat_rules",
-    "resolve_mp_cost", "status_application_chance",
+    "basic_attack_action", "crit_chance_cap", "crit_multiplier", "effective_attack",
+    "effective_defense", "effective_magic", "effective_speed", "effective_spirit",
+    "element_affinity", "healing_amount", "linked_status_affinity_modifier",
+    "load_combat_rules", "resolve_mp_cost", "status_application_chance",
 ]
