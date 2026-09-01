@@ -38,6 +38,7 @@ from .models import (
 from .mp import resolve_mp_cost
 from .replay import (
     BoundedReplayRule,
+    BoundedReplayState,
     RecordedDamageSignature,
     ReplayCommandCategory,
     ResolvedReplayAction,
@@ -56,7 +57,7 @@ from .turn_order import turn_order
 __all__ = [
     "ActionKind", "ActionProfile", "ActiveStatus", "ActiveTemporaryModifier",
     "AdvancedBattleOutcome", "AdvancedBattleScenario", "AdvancedSimulationSummary",
-    "Affinity", "BattleOutcome", "BattleScenario", "BoundedReplayRule",
+    "Affinity", "BattleOutcome", "BattleScenario", "BoundedReplayRule", "BoundedReplayState",
     "CombatAction", "CombatRules", "CombatUnit", "Combatant", "CombatantTemplate",
     "DamageKind", "Element", "Rank", "RecordedDamageSignature", "ReplayCommandCategory",
     "ResolvedReplayAction", "Side", "SimulationSummary", "StatusName", "StatusRider",
