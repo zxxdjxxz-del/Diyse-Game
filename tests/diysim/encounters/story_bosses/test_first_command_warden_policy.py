@@ -1,8 +1,11 @@
 from __future__ import annotations
 
+from tools.diysim.combat.living_archive import LivingArchiveState
 from tools.diysim.combat.models import ActiveStatus, CombatUnit
+from tools.diysim.combat.status_runtime import complete_turn
 from tools.diysim.encounters.story_bosses.first_command_warden.policy import (
     HARMONIZED_STATE_KEY,
+    LIVING_ARCHIVE_STATE_KEY,
     WardenPolicyConfig,
     choose_player_action,
     load_warden_party_actions,
@@ -32,6 +35,10 @@ def test_warden_policy_actions_match_current_repo_package() -> None:
     assert actions.hunter_measure_party_crit_bonus == 10
     assert actions.hunter_measure_torren_crit_bonus == 5
     assert actions.weave_burst.power == 130
+    assert actions.living_archive_capacity == 2
+    assert actions.echo_weave_potency == 0.90
+    assert actions.echo_weave_cost_scale == 0.75
+    assert actions.echo_weave_minimum_mp == 8
     assert actions.mend.heal_max_hp_percent == 0.22
     assert actions.mend.healing_potency == 1.10
     assert actions.clear_warding.heal_max_hp_percent == 0.05
@@ -81,6 +88,51 @@ def test_cyanis_alternates_harmonized_crest_and_preserves_prime_through_attack()
     assert category == "Attack"
     assert action.name == "Attack"
     assert cyanis.tactical_states[HARMONIZED_STATE_KEY] == "physical"
+
+
+def test_nimera_uses_quick_study_echo_weave_from_current_archive_window() -> None:
+    party = _party()
+    cyanis = next(unit for unit in party if unit.template.name == "Cyanis")
+    ilyra = next(unit for unit in party if unit.template.name == "Ilyra")
+    nimera = next(unit for unit in party if unit.template.name == "Nimera")
+    actions = load_warden_party_actions()
+
+    choose_player_action(
+        cyanis,
+        party,
+        actions,
+        sealed_category=None,
+        config=WardenPolicyConfig(),
+    )
+    choose_player_action(
+        ilyra,
+        party,
+        actions,
+        sealed_category=None,
+        config=WardenPolicyConfig(),
+    )
+
+    archive = nimera.tactical_states[LIVING_ARCHIVE_STATE_KEY]
+    assert isinstance(archive, LivingArchiveState)
+    assert [record.action.name for record in archive.records] == ["Crest Strike", "Warden's Valor"]
+
+    category, action, target = choose_player_action(
+        nimera,
+        party,
+        actions,
+        sealed_category=None,
+        config=WardenPolicyConfig(),
+    )
+    assert category == "Ability"
+    assert target is None
+    assert action.name == "Echo Weave"
+    assert action.damage_kind == "magical"
+    assert action.power == 170
+    assert action.final_damage_multiplier == 0.90
+    assert action.mp_cost == 11
+
+    complete_turn(nimera, acted=True)
+    assert archive.records == []
 
 
 def test_torren_establishes_measure_then_uses_measured_colossus() -> None:
