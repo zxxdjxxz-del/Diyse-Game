@@ -7,6 +7,7 @@ isolated as working simulation policy rather than silently promoted to canon.
 from __future__ import annotations
 
 from dataclasses import dataclass, replace
+from functools import lru_cache
 import random
 import statistics
 from pathlib import Path
@@ -144,6 +145,7 @@ def _random_conscious(party: list[CombatUnit], rng: random.Random) -> CombatUnit
     return rng.choice(legal)
 
 
+@lru_cache(maxsize=8)
 def _branch_lock(name: str, *, root: Path | None = None) -> int:
     block = extract_heading_block(read_repo_text(OWNER_PATH, root=root), name)
     import re
@@ -369,14 +371,12 @@ def _support_target_for_strategy(
             target = reservoirs.get(name)
             if target is not None and target.alive:
                 return target
-        if brood is not None and brood.alive:
-            return brood
-        return None
 
+    # Both visible-state policies answer a deployed Brood as a normal finite
+    # hostile body. Rush still refuses pre-emptive Reservoir dismantling; it
+    # simply does not leave a live extra attacker on the field indefinitely.
     if brood is not None and brood.alive:
-        living = [unit for unit in party if unit.alive]
-        if living and min(unit.hp / unit.max_hp for unit in living) < 0.55:
-            return brood
+        return brood
     return None
 
 
@@ -662,9 +662,13 @@ def _run_zevraya_with_data(
                         complete_turn(actor, acted=True)
                         continue
 
-                finite_target = _support_target_for_strategy(strategy, reservoirs, brood, party) if form == "blood_matron" else (
-                    brood if brood is not None and brood.alive and strategy == "dismantle" else None
-                )
+                if form == "blood_matron":
+                    finite_target = _support_target_for_strategy(strategy, reservoirs, brood, party)
+                else:
+                    # Reservoir bodies no longer exist after transformation, but
+                    # a surviving Brood function can deploy a fresh finite hostile
+                    # body. Both Rush and Dismantle answer that active add.
+                    finite_target = brood if brood is not None and brood.alive else None
 
                 if finite_target is not None:
                     action = _support_action_for(actor, actions, hunter_measure_active())
