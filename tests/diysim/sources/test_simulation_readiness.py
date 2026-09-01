@@ -44,3 +44,21 @@ def test_current_repo_readiness_scans_all_combat_owner_families() -> None:
     ):
         assert domain in report.by_domain
         assert report.by_domain[domain]["files"] > 0
+
+
+def test_supported_bounded_replays_do_not_require_a_fixed_target_scope() -> None:
+    report = audit_simulation_readiness()
+    replay_subjects = {
+        "Recorded Echo",
+        "Replayed Role",
+        "Devoured Replay",
+        "Calamity Replay",
+        "Deep Duplicate",
+    }
+
+    inherited_target_gaps = [
+        issue
+        for issue in report.parser_gaps
+        if issue.subject in replay_subjects and issue.code == "target_scope_unresolved"
+    ]
+    assert inherited_target_gaps == []
