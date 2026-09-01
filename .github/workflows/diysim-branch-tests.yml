@@ -30,9 +30,9 @@ jobs:
           import json
           from dataclasses import asdict
           from tools.diysim.encounters.story_bosses.hollow_watch_castellan import simulate_hollow_watch_smart
-          # Explicit certification-depth run. Routine branch CI returns to
-          # 2,000 seeded battles immediately after this one-off measurement.
-          summary = simulate_hollow_watch_smart(runs=20_000, seed=93)
+          # Routine branch signal only. Certification-depth Hollow Watch runs
+          # remain 20,000 seeded battles and are run explicitly when recertifying.
+          summary = simulate_hollow_watch_smart(runs=2_000, seed=93)
           print(json.dumps(asdict(summary), indent=2, sort_keys=True))
           PY
 
