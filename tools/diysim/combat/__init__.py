@@ -10,6 +10,7 @@ from .advanced_runtime import (
     run_advanced_battle,
     simulate_advanced,
 )
+from .basic_attack import basic_attack_action
 from .criticals import base_crit_chance, crit_chance_cap, crit_multiplier
 from .damage import direct_damage, magical_damage, physical_damage
 from .derived_stats import effective_attack, effective_defense, effective_magic, effective_speed, effective_spirit
@@ -17,7 +18,6 @@ from .elements import affinity_damage_multiplier, element_affinity, linked_statu
 from .healing import healing_amount
 from .hit_evasion import adjusted_hit_chance
 from .models import (
-    BASIC_ATTACK,
     ActionKind,
     ActiveStatus,
     ActiveTemporaryModifier,
@@ -45,18 +45,18 @@ from .turn_order import turn_order
 __all__ = [
     "ActionKind", "ActionProfile", "ActiveStatus", "ActiveTemporaryModifier",
     "AdvancedBattleOutcome", "AdvancedBattleScenario", "AdvancedSimulationSummary",
-    "Affinity", "BASIC_ATTACK", "BattleOutcome", "BattleScenario", "CombatAction",
-    "CombatRules", "CombatUnit", "Combatant", "CombatantTemplate", "DamageKind",
-    "Element", "Rank", "Side", "SimulationSummary", "StatusName", "StatusRider",
-    "TargetScope", "TargetSide", "TemporaryModifierSpec", "adjusted_hit_chance",
+    "Affinity", "BattleOutcome", "BattleScenario", "CombatAction", "CombatRules",
+    "CombatUnit", "Combatant", "CombatantTemplate", "DamageKind", "Element", "Rank",
+    "Side", "SimulationSummary", "StatusName", "StatusRider", "TargetScope",
+    "TargetSide", "TemporaryModifierSpec", "adjusted_hit_chance",
     "affinity_damage_multiplier", "apply_status", "apply_temporary_modifier",
-    "base_crit_chance", "bleed_rate", "clear_bleed_if_full", "complete_turn",
-    "crit_chance_cap", "crit_multiplier", "direct_damage", "effective_attack",
-    "effective_defense", "effective_magic", "effective_speed", "effective_spirit",
-    "effective_status_resistance", "element_affinity", "end_round", "healing_amount",
-    "linked_status_affinity_modifier", "load_combat_rules", "magical_damage",
-    "physical_damage", "resolve_damage", "resolve_heal", "resolve_mp_cost",
-    "run_advanced_battle", "run_battle", "selectable_actions", "simulate",
-    "simulate_advanced", "status_application_chance", "tick_temporary_modifiers",
-    "turn_is_blocked", "turn_order",
+    "base_crit_chance", "basic_attack_action", "bleed_rate", "clear_bleed_if_full",
+    "complete_turn", "crit_chance_cap", "crit_multiplier", "direct_damage",
+    "effective_attack", "effective_defense", "effective_magic", "effective_speed",
+    "effective_spirit", "effective_status_resistance", "element_affinity", "end_round",
+    "healing_amount", "linked_status_affinity_modifier", "load_combat_rules",
+    "magical_damage", "physical_damage", "resolve_damage", "resolve_heal",
+    "resolve_mp_cost", "run_advanced_battle", "run_battle", "selectable_actions",
+    "simulate", "simulate_advanced", "status_application_chance",
+    "tick_temporary_modifiers", "turn_is_blocked", "turn_order",
 ]
