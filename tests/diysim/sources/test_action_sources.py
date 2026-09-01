@@ -68,6 +68,40 @@ def test_standalone_damage_axis_with_state_driven_element_is_dynamic() -> None:
     assert source.power == 180
 
 
+def test_standalone_inherited_element_line_is_dynamic_without_uses_wording() -> None:
+    source = parse_authored_action_text(
+        "Compression Lance",
+        "- one party member\n- Magical\n- current inherited element\n- **245 Power**\n- Base Hit **95**",
+    )
+
+    assert source.target_scope == "one"
+    assert source.damage_kind == "magical"
+    assert source.element is None
+    assert source.element_mode == "dynamic"
+    assert source.element_source == "current_inherited_element"
+    assert source.power == 245
+    assert source.base_hit == 95
+
+
+def test_explicit_target_declaration_wins_over_later_comparison_prose() -> None:
+    source = parse_authored_action_text(
+        "Gate Crush",
+        "- all conscious party members\n- Physical / Neutral\n- **165 Power per target**\n"
+        "This preserves the split: 20% Staggered single-target while Bound; 15% Staggered AoE while Freed.",
+    )
+
+    assert source.target_scope == "all"
+
+
+def test_target_colon_established_party_member_is_single_target() -> None:
+    source = parse_authored_action_text(
+        "Heavy Bolt",
+        "- target: one established party member\n- Physical / Neutral\n- Power **230**\n- Base Hit **95**",
+    )
+
+    assert source.target_scope == "one"
+
+
 def test_hybrid_compact_element_weights_and_target_are_parsed_without_guessing() -> None:
     source = parse_authored_action_text(
         "Ruin Breach",
