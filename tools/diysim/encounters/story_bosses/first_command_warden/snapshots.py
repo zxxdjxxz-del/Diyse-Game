@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from functools import lru_cache
 from pathlib import Path
 import re
 
@@ -79,11 +80,13 @@ def _parse_v105_warden_setup(*, root: Path | None = None) -> tuple[tuple[int, in
     return levels, active, equipment
 
 
+@lru_cache(maxsize=8)
 def load_first_command_warden_party_snapshot(
     level: int,
     *,
     root: Path | None = None,
 ) -> WardenPartySnapshot:
+    """Build each immutable same-gear level snapshot once per source root."""
     levels, active, equipment = _parse_v105_warden_setup(root=root)
     if level not in levels:
         raise ValueError(f"v105 First Command Warden comparison owns Lv{levels[0]} and Lv{levels[1]}, not Lv{level}")
