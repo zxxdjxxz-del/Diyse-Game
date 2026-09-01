@@ -28,7 +28,21 @@ def magical_damage(magic: float, spirit: float, power: float, *, spirit_penetrat
     return (magic * magic / denominator) * (power / 100.0)
 
 
-def direct_damage(kind: DamageKind, *, attack: float, magic: float, defense: float, spirit: float, power: float, defense_penetration: float = 0.0, spirit_penetration: float = 0.0, physical_weight: float = 0.5, magical_weight: float = 0.5, crit: bool = False, direct_damage_reduction: float = 0.0) -> int:
+def direct_damage(
+    kind: DamageKind,
+    *,
+    attack: float,
+    magic: float,
+    defense: float,
+    spirit: float,
+    power: float,
+    defense_penetration: float = 0.0,
+    spirit_penetration: float = 0.0,
+    physical_weight: float | None = None,
+    magical_weight: float | None = None,
+    crit: bool = False,
+    direct_damage_reduction: float = 0.0,
+) -> int:
     if power < 0:
         raise ValueError("power cannot be negative")
     if kind == "physical":
@@ -36,6 +50,8 @@ def direct_damage(kind: DamageKind, *, attack: float, magic: float, defense: flo
     elif kind == "magical":
         pre = magical_damage(magic, spirit, power, spirit_penetration=spirit_penetration)
     elif kind == "hybrid":
+        if physical_weight is None or magical_weight is None:
+            raise ValueError("hybrid damage requires authored Physical/Magical weights")
         if physical_weight < 0 or magical_weight < 0:
             raise ValueError("hybrid weights cannot be negative")
         if not math.isclose(physical_weight + magical_weight, 1.0, abs_tol=1e-9):
