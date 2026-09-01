@@ -14,7 +14,8 @@ from .core import (
     simulate,
     sweep_enemy_stats,
 )
-from .io import load_scenario
+from .io import load_progression_route, load_scenario
+from .progression import project_progression, required_average_exp_per_encounter
 
 
 def _csv_floats(value: str) -> list[float]:
@@ -69,6 +70,17 @@ def build_parser() -> argparse.ArgumentParser:
     sweep.add_argument("--defense", type=_csv_floats, default=[1.0])
     sweep.add_argument("--runs", type=int, default=2_000)
     sweep.add_argument("--seed", type=int, default=1)
+
+    route = sub.add_parser("route", help="project a Player-EXP route from JSON")
+    route.add_argument("route_file")
+
+    solve = sub.add_parser("solve-exp", help="solve required average encounter EXP for a target level checkpoint")
+    solve.add_argument("--start-exp", type=int)
+    solve.add_argument("--start-level", type=int)
+    solve.add_argument("--target-level", type=int, required=True)
+    solve.add_argument("--target-progress", type=float, default=0.0)
+    solve.add_argument("--encounters", type=int, required=True)
+    solve.add_argument("--fixed-exp", type=int, default=0)
     return parser
 
 
@@ -112,6 +124,30 @@ def main(argv: list[str] | None = None) -> int:
             seed=args.seed,
         )
         print(json.dumps(rows, indent=2))
+    elif args.command == "route":
+        start_exp, segments = load_progression_route(args.route_file)
+        print(json.dumps(project_progression(start_exp, segments).as_dict(), indent=2))
+    elif args.command == "solve-exp":
+        if args.start_exp is not None and args.start_level is not None:
+            raise SystemExit("use either --start-exp or --start-level, not both")
+        if args.start_exp is None and args.start_level is None:
+            raise SystemExit("provide --start-exp or --start-level")
+        start_exp = args.start_exp if args.start_exp is not None else cumulative_exp(args.start_level)
+        average = required_average_exp_per_encounter(
+            start_exp=start_exp,
+            target_level=args.target_level,
+            target_level_progress=args.target_progress,
+            encounter_count=args.encounters,
+            fixed_exp=args.fixed_exp,
+        )
+        print(json.dumps({
+            "start_exp": start_exp,
+            "target_level": args.target_level,
+            "target_progress": args.target_progress,
+            "encounters": args.encounters,
+            "fixed_exp": args.fixed_exp,
+            "required_average_exp_per_encounter": average,
+        }, indent=2))
     return 0
 
 
