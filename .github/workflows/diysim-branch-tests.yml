@@ -153,32 +153,6 @@ jobs:
           print(json.dumps(matrix, indent=2, sort_keys=True))
           PY
 
-      - name: Targeted Matron Zevraya 2k calibration
-        if: contains(github.event.head_commit.message, '[zevraya-2k]')
-        run: |
-          python - <<'PY'
-          import json
-          from dataclasses import asdict
-          from tools.diysim.encounters.story_bosses.matron_zevraya import simulate_matron_zevraya
-          from tools.diysim.overlays import BalanceOverlay
-
-          overlay = BalanceOverlay(direct_damage_power_multiplier=1.20)
-          results = {}
-          for level in (24, 28):
-              for strategy in ("rush", "dismantle"):
-                  summary = simulate_matron_zevraya(
-                      player_level=level,
-                      structure_mode="non_diluting",
-                      strategy=strategy,
-                      overlay=overlay,
-                      use_prepared_inventory=True,
-                      runs=2000,
-                      seed=106,
-                  )
-                  results[f"lv{level}_non_diluting_{strategy}_power_x1_20_prepared"] = asdict(summary)
-          print(json.dumps(results, indent=2, sort_keys=True))
-          PY
-
       - name: Print simulation readiness summary
         run: python -m tools.diysim.cli audit-readiness --summary-only
 
@@ -208,4 +182,43 @@ jobs:
           for code in wanted:
               grouped[code] = [issue.as_dict() for issue in report.parser_gaps if issue.code == code][:12]
           print(json.dumps(grouped, indent=2))
+          PY
+
+  zevraya_2k:
+    if: contains(github.event.head_commit.message, '[zevraya-2k]')
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        player_level: [24, 28]
+        battle_strategy: [rush, dismantle]
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Zevraya 2k calibration shard
+        run: |
+          python - <<'PY'
+          import json
+          from dataclasses import asdict
+          from tools.diysim.encounters.story_bosses.matron_zevraya import simulate_matron_zevraya
+          from tools.diysim.overlays import BalanceOverlay
+
+          player_level = int("${{ matrix.player_level }}")
+          battle_strategy = "${{ matrix.battle_strategy }}"
+          summary = simulate_matron_zevraya(
+              player_level=player_level,
+              structure_mode="non_diluting",
+              strategy=battle_strategy,
+              overlay=BalanceOverlay(direct_damage_power_multiplier=1.20),
+              use_prepared_inventory=True,
+              runs=2000,
+              seed=106,
+          )
+          print(json.dumps(asdict(summary), indent=2, sort_keys=True))
           PY
