@@ -15,6 +15,7 @@ def test_authored_action_parser_reads_only_fields_present_in_source_text() -> No
     assert source.element == "neutral"
     assert source.element_mode == "fixed"
     assert source.power == 175
+    assert source.power_mode == "action"
     assert source.base_hit == 96
     assert source.weight == 63
     assert source.status_chances == (("bleed", 21),)
@@ -48,8 +49,23 @@ def test_dynamic_element_identity_stays_dynamic_until_encounter_resolution() -> 
     assert source.element_mode == "dynamic"
     assert source.element_source == "current_expression"
     assert source.power == 175
+    assert source.power_mode == "per_target"
     assert source.base_hit == 95
     assert source.status_chances == (("burn", 20),)
+
+
+def test_standalone_damage_axis_with_state_driven_element_is_dynamic() -> None:
+    source = parse_authored_action_text(
+        "Reaction Pressure",
+        "one party member\nMagical\nuses the current visible standard element\n180 Power\nBase Hit 100",
+    )
+
+    assert source.damage_kind == "magical"
+    assert source.element is None
+    assert source.element_mode == "dynamic"
+    assert source.element_source == "current_visible_standard_element"
+    assert source.target_scope == "one"
+    assert source.power == 180
 
 
 def test_hybrid_compact_element_weights_and_target_are_parsed_without_guessing() -> None:
@@ -66,6 +82,47 @@ def test_hybrid_compact_element_weights_and_target_are_parsed_without_guessing()
     assert source.target_scope == "one"
     assert source.base_hit == 100
     assert source.status_chances == (("staggered", 25),)
+
+
+def test_hybrid_split_weight_syntax_is_parsed() -> None:
+    source = parse_authored_action_text(
+        "Perfect Judgment",
+        "Hybrid / Neutral /50% ATK /50% MAG / one target\n310 Power, Base Hit100",
+    )
+
+    assert source.damage_kind == "hybrid"
+    assert source.element == "neutral"
+    assert source.physical_weight == 0.5
+    assert source.magical_weight == 0.5
+    assert source.target_scope == "one"
+
+
+def test_multihit_per_hit_power_and_dynamic_element_are_preserved() -> None:
+    source = parse_authored_action_text(
+        "Pairwise Return",
+        "one party member\nup to two Magical hits\none hit for each currently active chamber\neach hit uses that chamber's element\n100 Power per hit\nBase Hit 100 per hit",
+    )
+
+    assert source.damage_kind == "magical"
+    assert source.element_mode == "dynamic"
+    assert source.element_source == "active_chamber_element"
+    assert source.power == 100
+    assert source.power_mode == "per_hit"
+    assert source.hit_count_min == 1
+    assert source.hit_count_max == 2
+    assert source.is_multihit
+
+
+def test_exact_multihit_count_is_preserved() -> None:
+    source = parse_authored_action_text(
+        "Enforcement Sequence",
+        "Hybrid / Neutral /50% ATK /50% MAG / one target\n2 × 165 Power = 330 total\nBase Hit100 per hit",
+    )
+
+    assert source.hit_count_min == 2
+    assert source.hit_count_max == 2
+    assert source.power == 165
+    assert source.is_multihit
 
 
 def test_named_action_loader_supports_heading_and_inline_forms() -> None:
