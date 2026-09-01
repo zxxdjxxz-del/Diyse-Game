@@ -1,7 +1,7 @@
 # Diyse — B00 Party Character Style Anchor v1
 
 **Benchmark:** B00 — Permanent Party / Character Style Anchor  
-**Status:** **IN PROGRESS — CYANIS + ILYRA + TORREN + VAELIRA APPROVED / 4 OF 6 PARTY MASTERS LOCKED**  
+**Status:** **HIGH-RES PARTY MASTER SET COMPLETE — 6 OF 6 PARTY MASTERS APPROVED / LOCKED**  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`
 
 ## 1. Scope
@@ -10,7 +10,9 @@ B00 establishes the actual permanent-party rendering language for Diyse’s lock
 
 > **Seinen HD-2D Fantasy with Chaotic Variable Line Weight + Graphic Anime-Stylized Rendering**
 
-The permanent party is Cyanis, Ilyra, Torren, Nimera, Vaelira, and Seyrik. B00 does not pass until all six have approved high-resolution masters and battle/field derivative logic has been validated.
+The permanent party is Cyanis, Ilyra, Torren, Nimera, Vaelira, and Seyrik.
+
+All six high-resolution character masters are now explicitly approved. B00 as a full production benchmark is **not yet closed**: battle/field derivative logic and cross-category validation remain.
 
 ## 2. Current progress
 
@@ -19,60 +21,65 @@ The permanent party is Cyanis, Ilyra, Torren, Nimera, Vaelira, and Seyrik. B00 d
 | Cyanis | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Ilyra | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Torren | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
-| Nimera | **CLEANUP / RE-APPROVAL PASS PENDING** |
+| Nimera | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Vaelira | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
-| Seyrik | Pending new-style master |
+| Seyrik | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 
-Current authorities:
+Current production-lock authorities include:
 - `../CHARACTERS/CYANIS_CURRENT_VISUAL_LOCK.md`
+- `../CHARACTERS/NIMERA_CURRENT_VISUAL_LOCK.md`
 - `../CHARACTERS/VAELIRA_CURRENT_VISUAL_LOCK.md`
+- `../CHARACTERS/SEYRIK_CURRENT_VISUAL_LOCK.md`
 - approved Ilyra and Torren masters remain controlling from their explicit B00 approvals pending any later documentation consolidation.
-
-Nimera is **not promoted in this benchmark yet** despite earlier design work. Her next clean B00 cleanup/re-approval pass must complete before she is counted as locked.
 
 ## 3. Approved-anchor significance
 
-Cyanis, Ilyra, Torren, and Vaelira are the current real B00 anchors. Together they establish:
+The complete six-character master set establishes the party-wide B00 grammar:
 - mature seinen/anime proportions;
 - graphic cel-informed values rather than soft-brushed rendering;
 - strong clean silhouettes;
 - coherent garment/armor construction;
-- clear cloth/leather/metal/foliage/crystal material separation as applicable;
-- restrained, deliberate ornament;
+- clear cloth/leather/metal/foliage/crystal/biomechanical material separation as applicable;
+- restrained, deliberate ornament rather than generic fantasy clutter;
 - controlled metallic highlight planes;
 - deliberate variable line hierarchy;
 - no random speckle/grunge dependency;
-- no painterly direction.
+- no painterly direction;
+- single clean full-body master presentation as the preferred review format.
 
-Torren additionally establishes the handling of dense natural camouflage and rugged equipment: his ghillie cape must remain readable as designed foliage masses and hanging branches rather than collapsing into undifferentiated visual noise.
-
-Vaelira establishes the current B00 handling of a light-caster / Arcanist silhouette: clean layered garment construction, a matte cloth foundation, emerald outer garments, silver metalwork, a readable Arcane Staff, and restrained crystal focus without reverting to oversized high-fantasy sorceress ornament.
+Character-specific contributions:
+- **Cyanis:** mobile royal battle-knight structure, clean silver armor over dark royal blue / black layers.
+- **Ilyra:** light defensive / warding character language with clean pale fabric and restrained metal structure.
+- **Torren:** dense natural camouflage and rugged equipment, with ghillie foliage remaining readable as intentional masses rather than noise.
+- **Nimera:** intentionally busy braided hair, Cardweaver props, constellation motifs, layered utility hardware and strong white/purple/black separation without artifact-dot dependency.
+- **Vaelira:** light-caster / Green Arcanist silhouette, matte cloth foundation, emerald outer garments, silver metalwork, readable Arcane Staff and restrained crystal focus.
+- **Seyrik:** Black Host-derived skeletal/alien biomechanical plate, polished black shell over crimson understructure, red-dominant long coat, imposing muscular silhouette and oversized two-handed greatsword.
 
 Exact approved renders should be fingerprinted in character visual-lock documentation so later work cannot silently drift back to superseded variants.
 
 ## 4. New-style master requirements
 
-Every remaining party master must establish:
+The high-resolution masters are complete. Any future revision must continue to satisfy:
 - mature seinen/anime proportions and facial construction;
 - approved identity without accidental age/face drift;
 - visibly variable line weight with tapered/broken/selective contours;
 - precise restrained facial linework;
 - large readable hair masses;
 - graphic cel-informed shading with roughly 2–4 dominant value groups;
-- clean material separation between skin, hair, cloth, leather, metal, foliage and magical elements as applicable;
+- clean material separation between skin, hair, cloth, leather, metal, foliage, crystal, biomechanical elements and magical effects as applicable;
 - coherent clothing/armor construction;
 - rich but controlled color;
 - no painterly/soft-brushed rendering;
 - no glossy mobile-gacha finish;
 - no photoreal rendering;
 - no sterile uniform digital outline;
-- no generic AI-smooth, random-speckle, or grunge surface treatment.
+- no generic AI-smooth, random-speckle, grunge, artifact-dot or broken-clothing treatment.
 
-Character-specific redesigns are allowed only when explicitly approved during B00. Gameplay equipment rules remain governed by their own canon authorities.
+Character-specific redesigns remain valid only when explicitly approved. Gameplay equipment rules remain governed by their own canon authorities.
 
 ## 5. Scale derivatives
 
-After each high-resolution master is approved, create style-faithful runtime derivatives rather than blind downscales.
+The next B00 production gate is creation and validation of style-faithful runtime derivatives rather than blind downscales.
 
 ### Battle target
 Approximate target: **200–220 px character height**.
@@ -86,20 +93,21 @@ Preserve silhouette, dominant palette blocks, hair/face read, iconic equipment, 
 
 ## 6. Production sequence
 
-1. approve a clean high-resolution new-style master;
-2. fingerprint and document that exact render;
-3. create battle-scale derivative;
-4. create field-scale derivative;
-5. place the character against representative B01/B03/B10 scene/material tests;
-6. test a representative B06 VFX effect beside/around the character;
-7. repeat through all six permanent characters;
-8. only then declare B00 passed.
+High-resolution master approval is complete for all six permanent party members. Continue with:
 
-The preferred B00 review asset is a **single clean full-body character render** unless another view is specifically requested.
+1. verify/document exact fingerprints for all six approved high-resolution masters;
+2. create battle-scale derivatives;
+3. create field-scale derivatives;
+4. place representative characters against B01/B03/B10 scene/material tests;
+5. test representative B06 VFX beside/around the characters;
+6. compare all six derivatives together for silhouette, palette and line-weight coherence;
+7. only then declare B00 fully passed.
+
+The preferred B00 review asset remains a **single clean full-body character render** unless another view is specifically requested.
 
 ## 7. Cross-category validation
 
-Once B00 passes, recheck B01 stone, B03 foliage, B10 props, B06 VFX, and future enemy/NPC art against the actual party rendering grammar.
+Once the derivative gate passes, recheck B01 stone, B03 foliage, B10 props, B06 VFX, and future enemy/NPC art against the actual six-character party rendering grammar.
 
 Earlier material-family work is not automatically invalidated, but it must conform to the revised non-painterly visual authority before final acceptance.
 
@@ -107,4 +115,4 @@ Earlier material-family work is not automatically invalidated, but it must confo
 
 Current state:
 
-`VISUAL STYLE LOCKED → CYANIS + ILYRA + TORREN + VAELIRA MASTERS APPROVED → NIMERA CLEANUP + SEYRIK MASTER REMAIN → BATTLE/FIELD DERIVATIVES PENDING`
+`VISUAL STYLE LOCKED → ALL 6 HIGH-RES PARTY MASTERS APPROVED → BATTLE/FIELD DERIVATIVES + CROSS-CATEGORY VALIDATION PENDING`
