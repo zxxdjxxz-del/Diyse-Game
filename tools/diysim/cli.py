@@ -7,7 +7,9 @@ import json
 from .battle import simulate_advanced
 from .core import adjusted_hit_chance, class_multipliers, cumulative_exp, direct_damage, exp_to_next_level, level_from_exp, natural_stats, simulate, sweep_enemy_stats
 from .encounters.story_bosses.hollow_watch_castellan import SmartPolicyConfig, simulate_hollow_watch_smart
+from .encounters.story_bosses.matron_zevraya import simulate_matron_zevraya
 from .io import load_advanced_scenario, load_progression_route, load_scenario
+from .overlays import BalanceOverlay
 from .progression import project_progression, required_average_exp_per_encounter
 from .sources import audit_repo_sources, audit_simulation_readiness
 
@@ -75,6 +77,16 @@ def build_parser() -> argparse.ArgumentParser:
     hollow_watch.add_argument("--seed", type=int, default=93)
     hollow_watch.add_argument("--heal-trigger", type=float, default=0.55, help="simulator policy threshold; not Diyse canon")
 
+    zevraya = sub.add_parser("zevraya", help="run Matron Zevraya from repo authority plus explicit working overlays")
+    zevraya.add_argument("--player-level", type=int, default=24)
+    zevraya.add_argument("--structure", choices=("owner", "non_diluting"), default="owner")
+    zevraya.add_argument("--strategy", choices=("rush", "dismantle"), default="rush")
+    zevraya.add_argument("--power-multiplier", type=float, default=1.0)
+    zevraya.add_argument("--boss-level-offset", type=int, default=0)
+    zevraya.add_argument("--runs", type=int, default=1_000)
+    zevraya.add_argument("--seed", type=int, default=104)
+    zevraya.add_argument("--no-prepared", action="store_true", help="disable the working finite prepared-inventory benchmark")
+
     sweep = sub.add_parser("sweep", help="sweep enemy HP/ATK/DEF multipliers")
     sweep.add_argument("scenario")
     sweep.add_argument("--hp", type=_csv_floats, default=[1.0])
@@ -136,6 +148,20 @@ def main(argv: list[str] | None = None) -> int:
     elif args.command == "hollow-watch":
         summary = simulate_hollow_watch_smart(
             policy=SmartPolicyConfig(heal_trigger_hp_fraction=args.heal_trigger),
+            runs=args.runs,
+            seed=args.seed,
+        )
+        print(json.dumps(asdict(summary), indent=2))
+    elif args.command == "zevraya":
+        summary = simulate_matron_zevraya(
+            player_level=args.player_level,
+            structure_mode=args.structure,
+            strategy=args.strategy,
+            overlay=BalanceOverlay(
+                direct_damage_power_multiplier=args.power_multiplier,
+                effective_stat_level_offset=args.boss_level_offset,
+            ),
+            use_prepared_inventory=not args.no_prepared,
             runs=args.runs,
             seed=args.seed,
         )
