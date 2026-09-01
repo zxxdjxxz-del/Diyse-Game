@@ -1,6 +1,6 @@
 # Chapter 5 — Deepforge Colossus Assembly / Offense Tuning Candidate — v103
 
-**Status:** **WORKING CANDIDATE / NOT OWNER CANON**  
+**Status:** **WORKING STRUCTURAL CANDIDATE / +15% RESULTS RETAINED / v104 +20% RETEST NEXT**  
 **Parent study:** `CH5_DEEPFORGE_DIFFICULTY_RECALIBRATION_WORKING_v103.md`
 
 ## Why this candidate exists
@@ -53,11 +53,11 @@ Retain the current passive function:
 
 ---
 
-# Preferred offensive candidate
+# Historical v103 offensive candidate
 
-With the assembly functions no longer diluting the attack menu, a much smaller direct-Power increase is sufficient.
+With the assembly functions no longer diluting the attack menu, a much smaller direct-Power increase was sufficient than the rejected +45% brute-force pass.
 
-Working rounded package: approximately **+15%**.
+The first structural test used approximately **+15%**.
 
 ## Form I
 - Construction Hammer — **205 → 235**
@@ -72,7 +72,7 @@ Working rounded package: approximately **+15%**.
 - Worldline Crush — **260 → 300**
 - Forge Collapse — **300 → 345**
 
-No proposed change in this candidate to:
+No change was tested to:
 - boss HP;
 - raw ATK/MAG/DEF/Spirit/SPD;
 - status chances;
@@ -83,7 +83,7 @@ No proposed change in this candidate to:
 
 ---
 
-# Same-gear 20,000-run sensitivity
+# Same-gear 20,000-run v103 +15% sensitivity
 
 Core party/equipment/consumables are identical to the parent v103 study.
 
@@ -96,19 +96,12 @@ Results:
 - any temporary KO — **37.37%**;
 - mean ending combined HP — ~**39.1%**.
 
-This creates real danger without making the mandatory route structurally blocked.
-
 ## Mandatory Lv20 — dismantle all three assemblies
 Results:
 - wins — **99.87%**;
 - wipe incidence — **0.13%**;
 - any temporary KO — **14.165%**;
 - mean ending combined HP — ~**52.1%**.
-
-This is the intended tactical payoff:
-> spending actions dismantling the Frame buys a substantially safer Worldsmith fight.
-
-The safer route is not free because the party must still spend Form-I actions on 900 total assembly HP.
 
 ## Completionist Lv22 — same equipment — rush
 Results:
@@ -126,37 +119,52 @@ Results:
 
 ---
 
-# Design read
-This candidate produces three desired separations simultaneously:
+# Design read from v103
+This structural candidate produced three desired separations simultaneously:
 
-1. **Mandatory vs completionist:**
-   - same equipment;
-   - Lv20 mandatory rush sees KOs in ~37% of runs;
-   - Lv22 completionist rush sees KOs in well under 1%.
-
-2. **Rush vs dismantle:**
-   - mandatory rush is meaningfully more dangerous;
-   - mandatory dismantle cuts KO incidence from ~37% to ~14% and wipe incidence from ~3.3% to ~0.1%.
-
-3. **Danger without one-shot design:**
-   - no new instant-kill mechanic;
-   - no Barrier/Brace/Break meter;
-   - Forge Collapse remains telegraphed and Defend remains useful;
-   - danger comes from sustained attack density, status pressure, and the player's decision to preserve or dismantle functional assemblies.
-
-## Important caution
-Round-count results in the design-layer simulation are highly policy-sensitive because defensive play, MP restoration, and assembly targeting consume ordinary turns. Do not use those round counts alone to set HP.
-
-The key evidence here is relative KO/wipe/resource behavior.
+1. **Mandatory vs completionist:** same equipment, but optional Player Level/CEXP produced a very large safety gain.
+2. **Rush vs dismantle:** dismantling significantly reduced mandatory-route KO/wipe pressure.
+3. **Danger without one-shots:** pressure came from sustained attack density and mechanics rather than a new instant-kill system.
 
 ---
 
-# Candidate verdict
-> **PROMISING / NOT YET LOCKED**
+# v104 global +20% sensitivity handoff
 
-This is currently preferred over the earlier brute-force ~45% Power-only sensitivity because it fixes the assembly incentive and requires only a modest offensive increase.
+The whole-roster recalibration now tests:
+> **enemy direct-damage Power ×1.20**
 
-Next step if approved:
-1. promote the assembly-function rewrite and rounded +15% Power package into the Deepforge owner;
-2. run full no-Prime and same Recovered Last Sentinel certification lines;
-3. use the resulting Chapter-5 profile to set the forward boss-difficulty ramp.
+Detailed owner:
+`../GLOBAL_ENEMY_POWER_20_PERCENT_SENSITIVITY_v104.md`
+
+For Deepforge, exact ×1.20 test Powers are:
+
+## Form I
+- Construction Hammer — **246**
+- Load-Bearing Sweep — **168**
+- Forge Discharge — **234**
+- Clamp and Draw — **204**
+
+## Form II
+- Worldsmith Clamp — **270**
+- Foundry Arc — **258**
+- Construction Sweep — **186**
+- Worldline Crush — **312**
+- Forge Collapse — **360**
+
+Relative to the v103 +15% structural candidate, the v104 scalar is only:
+> **~4.35% more direct damage**
+
+Therefore the structural assembly rewrite remains the preferred Deepforge architecture, but the next comparison uses the common +20% global test layer instead of promoting the old +15% rounded values.
+
+Do not rewrite the Deepforge owner yet.
+
+# Current candidate verdict
+> **STRUCTURAL FIX PROMISING / +15% RESULTS HISTORICAL / +20% GLOBAL SCALAR NOW ACTIVE FOR RETEST**
+
+Next Deepforge acceptance gate:
+- same gear;
+- Lv20 mandatory vs Lv22 completionist;
+- rush and dismantle policies;
+- assembly passive-function correction;
+- exact ×1.20 enemy direct-Power sensitivity;
+- no-Prime core line first, then same Recovered Last Sentinel stress.
