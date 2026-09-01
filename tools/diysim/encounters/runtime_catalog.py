@@ -18,7 +18,7 @@ from tools.diysim.sources.enemy_effects import parse_enemy_effect_action
 from tools.diysim.sources.markdown import find_markdown_table
 from tools.diysim.sources.repo import SourceGapError, find_repo_root, read_repo_text
 
-RuntimeKind = Literal["generic", "special", "component", "blocked"]
+RuntimeKind = Literal["generic", "formation", "special", "component", "blocked"]
 
 ENEMY_ROOT = Path("docs/09_ENEMIES_AND_ENCOUNTERS")
 OWNER_DIRS: dict[str, str] = {
@@ -93,6 +93,10 @@ class RuntimeActionDefinition:
     forced_follow_up: str | None = None
     forced_by_action: str | None = None
     requires_preparation: str | None = None
+    target_tags: tuple[str, ...] = ()
+    exclude_actor: bool = False
+    fallback_action: str | None = None
+    formation_required: bool = False
 
 
 @dataclass(frozen=True)
@@ -109,24 +113,20 @@ class EnemyRuntimeDefinition:
 
     @property
     def executable(self) -> bool:
-        return self.kind in {"generic", "special"}
+        return self.kind in {"generic", "formation", "special"}
 
     @property
     def direct_damage_actions(self) -> tuple[CombatAction, ...]:
         return tuple(
-            action.action for action in self.actions
-            if action.action is not None
-            and action.action.action_kind == "damage"
-            and not action.triggered
+            item.action for item in self.actions
+            if item.action is not None and item.action.action_kind == "damage" and not item.triggered
         )
 
     @property
     def effect_actions(self) -> tuple[CombatAction, ...]:
         return tuple(
-            action.action for action in self.actions
-            if action.action is not None
-            and action.action.action_kind == "effect"
-            and not action.triggered
+            item.action for item in self.actions
+            if item.action is not None and item.action.action_kind == "effect" and not item.triggered
         )
 
 
@@ -136,6 +136,7 @@ class RuntimeCoverageSummary:
     enemy_sheets: int
     components: int
     generic: int
+    formation: int
     special: int
     blocked: int
     unclassified: int
@@ -143,7 +144,7 @@ class RuntimeCoverageSummary:
 
     @property
     def executable(self) -> int:
-        return self.generic + self.special
+        return self.generic + self.formation + self.special
 
     @property
     def coverage_rate(self) -> float:
@@ -179,6 +180,15 @@ def _title(text: str, source_path: str) -> str:
     return Path(source_path).stem.replace("_", " ").title()
 
 
+def _runtime_tags(text: str) -> frozenset[str]:
+    tags: set[str] = set()
+    if re.search(r"\bTrue\s+construct\b", text, re.I):
+        tags.add("construct")
+    if re.search(r"\bTrue\s+machine\b|\*\*Role:\*\*[^\n]*\bmachine\b", text, re.I):
+        tags.add("machine")
+    return frozenset(tags)
+
+
 def _first_stat_row(text: str):
     rows = find_markdown_table(text, ("HP",))
     if not rows:
@@ -200,7 +210,6 @@ def _looks_like_action_section(body: str) -> bool:
 
 
 def _action_blocks(text: str) -> tuple[tuple[str, str], ...]:
-    """Return H2-H5 action blocks with local explicit Power authority."""
     matches = list(re.finditer(r"^(#{2,5})\s+(.+?)\s*$", text, re.M))
     result: list[tuple[str, str]] = []
     for index, match in enumerate(matches):
@@ -209,8 +218,7 @@ def _action_blocks(text: str) -> tuple[tuple[str, str], ...]:
         body = text[start:end].strip()
         if not _looks_like_action_section(body) or not _POWER_AUTHORITY.search(body):
             continue
-        name = re.sub(r"\*+", "", match.group(2)).strip()
-        result.append((name, body))
+        result.append((re.sub(r"\*+", "", match.group(2)).strip(), body))
     return tuple(result)
 
 
@@ -234,9 +242,7 @@ def _direct_action(source: AuthoredActionSource, *, triggered: bool) -> tuple[Co
         if getattr(source, field) is None:
             blockers.append(f"{source.name}: missing {field}")
     if source.element_mode == "dynamic":
-        blockers.append(
-            f"{source.name}: dynamic element requires encounter-state resolver ({source.element_source})"
-        )
+        blockers.append(f"{source.name}: dynamic element requires encounter-state resolver ({source.element_source})")
     elif source.element is None:
         blockers.append(f"{source.name}: missing fixed element")
     if source.is_multihit:
@@ -245,11 +251,9 @@ def _direct_action(source: AuthoredActionSource, *, triggered: bool) -> tuple[Co
         blockers.append(f"{source.name}: triggered/passive action requires runtime trigger")
     if blockers:
         return None, tuple(blockers)
-
     assert source.target_scope in {"one", "all"}
     assert source.damage_kind in {"physical", "magical", "hybrid"}
-    assert source.element is not None
-    assert source.power is not None and source.base_hit is not None
+    assert source.element is not None and source.power is not None and source.base_hit is not None
     return CombatAction(
         source.name,
         target_scope=source.target_scope,
@@ -264,29 +268,19 @@ def _direct_action(source: AuthoredActionSource, *, triggered: bool) -> tuple[Co
     ), ()
 
 
-def load_enemy_runtime_definition(
-    source_path: str,
-    *,
-    category: str,
-    root: Path | None = None,
-) -> EnemyRuntimeDefinition:
+def load_enemy_runtime_definition(source_path: str, *, category: str, root: Path | None = None) -> EnemyRuntimeDefinition:
     repo = (root or find_repo_root()).resolve()
     text = read_repo_text(source_path, root=repo)
     name = _title(text, source_path)
 
     if category == "support":
         return EnemyRuntimeDefinition(
-            name=name, category=category, source_path=source_path, kind="component",
-            displayed_level=None, combatant=None, actions=(),
-            blockers=("encounter support/component; attach to parent encounter runtime",),
+            name, category, source_path, "component", None, None, (),
+            ("encounter support/component; attach to parent encounter runtime",),
         )
-
     special = SPECIAL_RUNTIME_PATHS.get(source_path)
     if special is not None:
-        return EnemyRuntimeDefinition(
-            name=name, category=category, source_path=source_path, kind="special",
-            displayed_level=None, combatant=None, actions=(), blockers=(), special_runtime=special,
-        )
+        return EnemyRuntimeDefinition(name, category, source_path, "special", None, None, (), (), special)
 
     blockers: list[str] = []
     if "→" in name or _STATEFUL_SHEET.search(text):
@@ -319,6 +313,7 @@ def load_enemy_runtime_definition(
                 rank="regional_hunt" if category == "regional_hunt" else (
                     "major_boss" if category in {"major_hunt", "story_boss", "quest_boss"} else "ordinary"
                 ),
+                runtime_tags=_runtime_tags(text),
             )
     except (SourceGapError, KeyError, ValueError) as exc:
         blockers.append(f"stat parser: {exc}")
@@ -332,23 +327,24 @@ def load_enemy_runtime_definition(
         source = parse_authored_action_text(action_name, raw_text)
         triggered = bool(_TRIGGER_ONLY.search(raw_text))
         non_damage = _non_damage(raw_text)
-        minimum_round = 1
-        maximum_uses: int | None = None
-        forced_follow_up: str | None = None
-        forced_by_action: str | None = None
-
+        kwargs: dict[str, object] = {}
         if non_damage and not triggered:
-            parsed_effect = parse_enemy_effect_action(action_name, raw_text)
-            action = parsed_effect.action
-            action_blockers = tuple(f"{action_name}: {item}" for item in parsed_effect.blockers)
-            minimum_round = parsed_effect.minimum_round
-            maximum_uses = parsed_effect.maximum_uses
-            forced_follow_up = parsed_effect.forced_follow_up
-            forced_by_action = parsed_effect.forced_by_action
+            parsed = parse_enemy_effect_action(action_name, raw_text)
+            action = parsed.action
+            action_blockers = tuple(f"{action_name}: {item}" for item in parsed.blockers)
+            kwargs = {
+                "minimum_round": parsed.minimum_round,
+                "maximum_uses": parsed.maximum_uses,
+                "forced_follow_up": parsed.forced_follow_up,
+                "forced_by_action": parsed.forced_by_action,
+                "target_tags": parsed.target_tags,
+                "exclude_actor": parsed.exclude_actor,
+                "fallback_action": parsed.fallback_action,
+                "formation_required": parsed.formation_required,
+            }
         else:
             action, action_blockers = _direct_action(source, triggered=triggered)
 
-        requires_preparation = _requires_preparation(raw_text)
         action_defs.append(RuntimeActionDefinition(
             source=source,
             action=action,
@@ -356,34 +352,41 @@ def load_enemy_runtime_definition(
             repetition_lock_rounds=_repetition_lock(raw_text),
             non_damage=non_damage,
             triggered=triggered,
-            minimum_round=minimum_round,
-            maximum_uses=maximum_uses,
-            forced_follow_up=forced_follow_up,
-            forced_by_action=forced_by_action,
-            requires_preparation=requires_preparation,
+            requires_preparation=_requires_preparation(raw_text),
+            **kwargs,
         ))
         blockers.extend(action_blockers)
 
     executable_actions = tuple(
-        action_def.action for action_def in action_defs
-        if action_def.action is not None and not action_def.triggered
+        item.action for item in action_defs if item.action is not None and not item.triggered
     )
     if combatant is not None and executable_actions:
         combatant = Combatant(
-            name=combatant.name, side=combatant.side, stats=combatant.stats,
-            actions=executable_actions, evasion=combatant.evasion, rank=combatant.rank,
+            name=combatant.name,
+            side=combatant.side,
+            stats=combatant.stats,
+            actions=executable_actions,
+            evasion=combatant.evasion,
+            direct_damage_reduction=combatant.direct_damage_reduction,
+            rank=combatant.rank,
             status_resistance=combatant.status_resistance,
+            status_immunities=combatant.status_immunities,
+            elemental_affinities=combatant.elemental_affinities,
+            runtime_tags=combatant.runtime_tags,
         )
     elif combatant is not None and not executable_actions:
         blockers.append("no generic selected action is executable")
 
     unique_blockers = tuple(dict.fromkeys(blockers))
+    if unique_blockers:
+        kind: RuntimeKind = "blocked"
+        combatant_out = None
+    else:
+        kind = "formation" if any(item.formation_required for item in action_defs) else "generic"
+        combatant_out = combatant
     return EnemyRuntimeDefinition(
-        name=name, category=category, source_path=source_path,
-        kind="blocked" if unique_blockers else "generic",
-        displayed_level=displayed_level,
-        combatant=combatant if not unique_blockers else None,
-        actions=tuple(action_defs), blockers=unique_blockers,
+        name, category, source_path, kind, displayed_level, combatant_out,
+        tuple(action_defs), unique_blockers,
     )
 
 
@@ -396,16 +399,16 @@ def build_enemy_runtime_catalog(*, root: Path | None = None) -> tuple[EnemyRunti
 
 def audit_enemy_runtime_coverage(*, root: Path | None = None) -> RuntimeCoverageSummary:
     definitions = build_enemy_runtime_catalog(root=root)
-    components = sum(definition.kind == "component" for definition in definitions)
-    generic = sum(definition.kind == "generic" for definition in definitions)
-    special = sum(definition.kind == "special" for definition in definitions)
-    blocked = sum(definition.kind == "blocked" for definition in definitions)
+    components = sum(item.kind == "component" for item in definitions)
+    generic = sum(item.kind == "generic" for item in definitions)
+    formation = sum(item.kind == "formation" for item in definitions)
+    special = sum(item.kind == "special" for item in definitions)
+    blocked = sum(item.kind == "blocked" for item in definitions)
     enemy_sheets = len(definitions) - components
     return RuntimeCoverageSummary(
-        total_owner_sheets=len(definitions), enemy_sheets=enemy_sheets, components=components,
-        generic=generic, special=special, blocked=blocked,
-        unclassified=len(definitions) - components - generic - special - blocked,
-        definitions=definitions,
+        len(definitions), enemy_sheets, components, generic, formation, special, blocked,
+        len(definitions) - components - generic - formation - special - blocked,
+        definitions,
     )
 
 
