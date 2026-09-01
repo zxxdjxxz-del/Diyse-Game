@@ -13,6 +13,7 @@ from .hit_evasion import adjusted_hit_chance
 from .models import CombatAction, CombatUnit, StatusRider
 from .status_runtime import clear_bleed_if_full
 from .statuses import apply_status, status_application_chance
+from .temporary_modifiers import apply_temporary_modifier, effective_status_resistance
 
 
 def roll_status(action: CombatAction, rider: StatusRider, target: CombatUnit, rng: random.Random) -> bool:
@@ -27,7 +28,7 @@ def roll_status(action: CombatAction, rider: StatusRider, target: CombatUnit, rn
         affinity_modifier=modifier,
         specialist_bonus=rider.specialist_bonus,
         reliability_bonus=rider.reliability_bonus,
-        status_resistance=target.template.status_resistance,
+        status_resistance=effective_status_resistance(target),
     )
     return rng.random() * 100 < chance and apply_status(target, rider.status)
 
@@ -53,6 +54,8 @@ def resolve_heal(actor: CombatUnit, action: CombatAction, target: CombatUnit) ->
     clear_bleed_if_full(target)
     if action.clear_harmful_statuses:
         clear_statuses(target, action.clear_harmful_statuses)
+    for modifier in action.temporary_modifiers:
+        apply_temporary_modifier(target, modifier)
     return target.hp - before
 
 
@@ -85,4 +88,6 @@ def resolve_damage(actor: CombatUnit, action: CombatAction, target: CombatUnit, 
     if target.alive:
         for rider in action.status_riders:
             roll_status(action, rider, target, rng)
+        for modifier in action.temporary_modifiers:
+            apply_temporary_modifier(target, modifier)
     return damage
