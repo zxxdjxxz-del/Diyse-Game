@@ -258,13 +258,7 @@ def choose_player_action(
             and heal_target.hp / heal_target.max_hp < config.mend_below_hp_fraction
             and actor.mp >= actions.mend.mp_cost
         ):
-            mend = actions.mend
-            if heal_target.hp / heal_target.max_hp < 0.50:
-                mend = replace(
-                    mend,
-                    heal_max_hp_percent=mend.heal_max_hp_percent + actions.gentle_continuance_bonus,
-                )
-            return "Ability", mend, heal_target
+            return "Ability", actions.mend, heal_target
 
     if actor.template.name == "Torren":
         if sealed_category == "Ability":
