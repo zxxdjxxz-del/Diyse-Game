@@ -41,6 +41,9 @@ StructureMode = Literal["owner", "non_diluting"]
 Strategy = Literal["rush", "dismantle"]
 FormName = Literal["blood_matron", "perfected_war_mother"]
 
+RESERVOIR_NAMES = ("Brood", "Conduction", "Sustenance", "Armor")
+DEFAULT_RESERVOIR_PLAN = RESERVOIR_NAMES
+
 
 @dataclass
 class _FiniteTargetState:
@@ -97,6 +100,7 @@ class ZevrayaSimulationSummary:
     player_level: int
     structure_mode: StructureMode
     strategy: Strategy
+    reservoir_plan: tuple[str, ...]
     prepared_inventory: bool
     power_multiplier: float
     effective_stat_level_offset: int
@@ -121,6 +125,21 @@ class ZevrayaSimulationSummary:
     mean_plating_uses: float
     bleed_exposure_rate: float
     control_exposure_rate: float
+
+
+def _normalize_reservoir_plan(strategy: Strategy, reservoir_plan: tuple[str, ...] | None) -> tuple[str, ...]:
+    if strategy == "rush":
+        if reservoir_plan not in (None, ()):
+            raise ValueError("Rush does not pre-emptively dismantle Reservoirs; omit reservoir_plan")
+        return ()
+
+    plan = DEFAULT_RESERVOIR_PLAN if reservoir_plan is None else tuple(reservoir_plan)
+    invalid = [name for name in plan if name not in RESERVOIR_NAMES]
+    if invalid:
+        raise ValueError(f"unknown Zevraya Reservoir(s): {', '.join(invalid)}")
+    if len(set(plan)) != len(plan):
+        raise ValueError("reservoir_plan may not contain duplicate Reservoir names")
+    return plan
 
 
 def _party_fraction(party: list[CombatUnit], attr: str, maximum_attr: str) -> float:
@@ -364,10 +383,10 @@ def _support_target_for_strategy(
     strategy: Strategy,
     reservoirs: dict[str, _FiniteTargetState],
     brood: _BroodState | None,
-    party: list[CombatUnit],
+    reservoir_plan: tuple[str, ...],
 ) -> _FiniteTargetState | _BroodState | None:
     if strategy == "dismantle":
-        for name in ("Brood", "Conduction", "Sustenance", "Armor"):
+        for name in reservoir_plan:
             target = reservoirs.get(name)
             if target is not None and target.alive:
                 return target
@@ -454,6 +473,7 @@ def _run_zevraya_with_data(
     player_level: int,
     structure_mode: StructureMode,
     strategy: Strategy,
+    reservoir_plan: tuple[str, ...] | None,
     overlay: BalanceOverlay,
     policy: ZevrayaPolicyConfig,
     use_prepared_inventory: bool,
@@ -466,6 +486,7 @@ def _run_zevraya_with_data(
         raise ValueError(f"unknown Zevraya strategy: {strategy}")
     if structure_mode == "non_diluting" and not data.non_diluting_candidate_documented:
         raise ValueError("v104 non-diluting Zevraya structure is not documented in repository authority")
+    normalized_plan = _normalize_reservoir_plan(strategy, reservoir_plan)
 
     data = _overlay_data(data, overlay, root=root)
     snapshot = load_zevraya_party_snapshot(player_level, root=root)
@@ -663,7 +684,7 @@ def _run_zevraya_with_data(
                         continue
 
                 if form == "blood_matron":
-                    finite_target = _support_target_for_strategy(strategy, reservoirs, brood, party)
+                    finite_target = _support_target_for_strategy(strategy, reservoirs, brood, normalized_plan)
                 else:
                     # Reservoir bodies no longer exist after transformation, but
                     # a surviving Brood function can deploy a fresh finite hostile
@@ -901,6 +922,7 @@ def run_matron_zevraya(
     player_level: int = 24,
     structure_mode: StructureMode = "owner",
     strategy: Strategy = "rush",
+    reservoir_plan: tuple[str, ...] | None = None,
     overlay: BalanceOverlay = BalanceOverlay(),
     policy: ZevrayaPolicyConfig = ZevrayaPolicyConfig(),
     use_prepared_inventory: bool = True,
@@ -913,6 +935,7 @@ def run_matron_zevraya(
         player_level=player_level,
         structure_mode=structure_mode,
         strategy=strategy,
+        reservoir_plan=reservoir_plan,
         overlay=overlay,
         policy=policy,
         use_prepared_inventory=use_prepared_inventory,
@@ -926,6 +949,7 @@ def simulate_matron_zevraya(
     player_level: int = 24,
     structure_mode: StructureMode = "owner",
     strategy: Strategy = "rush",
+    reservoir_plan: tuple[str, ...] | None = None,
     overlay: BalanceOverlay = BalanceOverlay(),
     policy: ZevrayaPolicyConfig = ZevrayaPolicyConfig(),
     use_prepared_inventory: bool = True,
@@ -935,6 +959,7 @@ def simulate_matron_zevraya(
 ) -> ZevrayaSimulationSummary:
     if runs < 1:
         raise ValueError("runs must be positive")
+    normalized_plan = _normalize_reservoir_plan(strategy, reservoir_plan)
     data = load_zevraya_repo_data(root=root)
     outcomes = [
         _run_zevraya_with_data(
@@ -943,6 +968,7 @@ def simulate_matron_zevraya(
             player_level=player_level,
             structure_mode=structure_mode,
             strategy=strategy,
+            reservoir_plan=normalized_plan,
             overlay=overlay,
             policy=policy,
             use_prepared_inventory=use_prepared_inventory,
@@ -957,6 +983,7 @@ def simulate_matron_zevraya(
         player_level=player_level,
         structure_mode=structure_mode,
         strategy=strategy,
+        reservoir_plan=normalized_plan,
         prepared_inventory=use_prepared_inventory,
         power_multiplier=overlay.direct_damage_power_multiplier,
         effective_stat_level_offset=overlay.effective_stat_level_offset,
@@ -985,6 +1012,8 @@ def simulate_matron_zevraya(
 
 
 __all__ = [
+    "DEFAULT_RESERVOIR_PLAN",
+    "RESERVOIR_NAMES",
     "Strategy",
     "StructureMode",
     "ZevrayaBattleOutcome",
