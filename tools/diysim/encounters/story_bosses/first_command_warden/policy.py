@@ -112,8 +112,8 @@ def _clear_warding(*, root: Path | None = None) -> CombatAction:
     source = load_ability_source("Clear Warding", class_name="Blue Warden", root=root)
     if source.fixed_mp is None:
         raise SourceGapError("Blue Warden / Clear Warding lacks fixed MP authority")
-    heal = re.search(r"restore \*\*(\d+)% target Max HP\*\*", source.owner_effect, re.I)
-    sr = re.search(r"\*\*\+(\d+) Status Resistance for (\d+) rounds\*\*", source.owner_effect, re.I)
+    heal = re.search(r"restore\s+(\d+)% target Max HP", source.owner_effect, re.I)
+    sr = re.search(r"\+(\d+) Status Resistance for (\d+) rounds", source.owner_effect, re.I)
     if not (heal and sr):
         raise SourceGapError("Blue Warden / Clear Warding lacks exact heal/SR authority")
     return CombatAction(
