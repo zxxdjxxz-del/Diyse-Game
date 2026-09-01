@@ -15,6 +15,7 @@ from pathlib import Path
 import re
 
 from .actions import AuthoredActionSource, parse_authored_action_text
+from .analogues import parse_functional_analogue_rule_text
 from .entities import EntityStatSource, parse_entity_stat_sources
 from .replays import parse_bounded_replay_rule_text
 from .repo import find_repo_root
@@ -40,6 +41,13 @@ _STRUCTURAL_HEADING_TERMS = (
     "route", "progression", "fresh-body rule", "numerical boundary", "pressure check",
     "duration exception", "current working", "body",
 )
+
+_FUNCTIONAL_ANALOGUE_HEADINGS = frozenset({
+    "recorded physical analogue",
+    "recorded magical analogue",
+    "recorded hybrid analogue",
+    "recorded analogue",
+})
 
 
 @dataclass(frozen=True)
@@ -201,12 +209,18 @@ def _supported_bounded_replay(heading: str, block: str) -> bool:
     return parse_bounded_replay_rule_text(heading, block).complete
 
 
-def _action_candidate(heading: str, block: str) -> bool:
+def _supported_functional_analogue(heading: str, *, system_complete: bool) -> bool:
+    return system_complete and heading.casefold() in _FUNCTIONAL_ANALOGUE_HEADINGS
+
+
+def _action_candidate(heading: str, block: str, *, functional_analogue_complete: bool = False) -> bool:
     if _is_structural_heading(heading):
         return False
     if _NO_DAMAGE_RE.search(block):
         return True
     if _supported_bounded_replay(heading, block):
+        return True
+    if _supported_functional_analogue(heading, system_complete=functional_analogue_complete):
         return True
     source = _parse_section(heading, block)
     return any((
@@ -226,12 +240,20 @@ def _direct_damage_source(heading: str, block: str) -> AuthoredActionSource | No
     return None
 
 
-def _audit_action(domain: str, path: str, heading: str, block: str) -> tuple[ReadinessIssue, ...]:
-    # A complete bounded-replay block intentionally inherits damage identity,
-    # target shape, weighting, and hit count from a completed source action.
-    # The generic replay runtime now supports that contract, so fixed values are
-    # neither missing canon nor parser gaps.
+def _audit_action(
+    domain: str,
+    path: str,
+    heading: str,
+    block: str,
+    *,
+    functional_analogue_complete: bool = False,
+) -> tuple[ReadinessIssue, ...]:
+    # Complete inherited-copy systems intentionally do not own one fixed target
+    # shape or source identity in each local action heading. Their repo-backed
+    # runtime transforms are the authority for that conditional behavior.
     if _supported_bounded_replay(heading, block):
+        return ()
+    if _supported_functional_analogue(heading, system_complete=functional_analogue_complete):
         return ()
 
     source = _direct_damage_source(heading, block)
@@ -348,18 +370,25 @@ def audit_owner_file(path: Path, *, domain: str, repo_root: Path) -> OwnerFileRe
     relative = path.relative_to(repo_root).as_posix()
     title = _title(text, path.stem)
     entities = parse_entity_stat_sources(text)
+    functional_analogue_complete = parse_functional_analogue_rule_text(text).complete
 
     actions: list[tuple[str, str]] = []
     direct_sources: list[AuthoredActionSource] = []
     issues: list[ReadinessIssue] = []
     for heading, block in _heading_blocks(text):
-        if not _action_candidate(heading, block):
+        if not _action_candidate(heading, block, functional_analogue_complete=functional_analogue_complete):
             continue
         actions.append((heading, block))
         source = _direct_damage_source(heading, block)
         if source is not None:
             direct_sources.append(source)
-        issues.extend(_audit_action(domain, relative, heading, block))
+        issues.extend(_audit_action(
+            domain,
+            relative,
+            heading,
+            block,
+            functional_analogue_complete=functional_analogue_complete,
+        ))
 
     issues.extend(_audit_stats(domain, relative, title, entities, tuple(direct_sources)))
     return OwnerFileReadiness(
