@@ -1,0 +1,29 @@
+name: DiySim Enemy Runtime Coverage
+
+on:
+  push:
+    branches:
+      - tooling/diysim-phase1
+  workflow_dispatch:
+
+jobs:
+  enemy_runtime_coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install test dependency
+        run: python -m pip install --upgrade pytest
+      - name: Run enemy-runtime catalog tests
+        run: python -m pytest -q tests/diysim/test_enemy_runtime_catalog.py
+      - name: Print runtime coverage and exact blockers
+        run: |
+          python - <<'PY'
+          import json
+          from tools.diysim.reports.enemy_runtime_coverage import enemy_runtime_coverage_dict
+          print(json.dumps(enemy_runtime_coverage_dict(), indent=2, sort_keys=True))
+          PY
