@@ -1,5 +1,5 @@
 # Diyse — Representative True-Battle Suite Status
-**v99**
+**v100**
 
 ## Certified
 1. **Hollow Watch Castellan — Chapter 1 / S008** — **PASS / RETAIN**
@@ -19,13 +19,22 @@
    - fresh Form II does **not** restore a spent Prime identity;
    - representative strict mandatory no-Prime Round-18 clear recorded;
    - Form-I HP2,400 / Form-II HP2,900 / raw stats / Powers retained.
+4. **Warden of the Nameless / Revision Arbiter — Chapter 7 climax** — **v100 PASS / RETAIN**
+   - strict mandatory Lv30 prepared, no Prime: **100% wins / median 11 / mean 10.76 / P90 12** over 20,000 runs;
+   - strict mandatory Lv30 + one Awakened Last Sentinel manifestation: **100% wins / median 9 total combat rounds / mean 9.43 / P90 11** over 10,000 runs;
+   - strict no-Prime any-KO incidence: **0.005% (1 / 20,000)** with **0 defeats**;
+   - completionist Lv34 upgraded-ordinary reference: **100% wins / median 8 / mean 8.01 / P90 9** over 5,000 no-Prime runs;
+   - completionist Lv34 + Last Sentinel: **100% wins / median 8 / mean 7.86 / P90 9** over 5,000 runs;
+   - opening Assertion Layers, Revision Claim command variation, and Open Revision Layers all remained behaviorally relevant;
+   - HP7,600 / raw stats / Powers / layer counts / repetition locks retained unchanged;
+   - detailed certification: `REVISION_ARBITER_TRUE_BATTLE_v100.md`.
 
 ## Next representative anchors
-4. **Revision Arbiter — midgame action-tax/control test.**
-5. **Rhazek → Bastion Devourer or Calder → Living Anchor** — late two-form test.
-6. **Vaelkor → Sovereign Panoply Unbound** — late mandatory full-system test.
-7. **Reconstituted Entity → The Last Command** — final mandatory test.
-8. **The Unfinished World** — exhaustive completionist full-kit stress test.
+5. **Commander Rhazek — Reforged Commander → Bastion Devourer — Chapter 9** — next chronological genuine-fresh-body / persistent-Prime-spend test.
+6. **Calder → Crown-Bound Living Anchor** — later two-form/support-object test.
+7. **Vaelkor → Sovereign Panoply Unbound** — late mandatory full-system test.
+8. **Reconstituted Entity → The Last Command** — final mandatory test.
+9. **The Unfinished World** — exhaustive completionist full-kit stress test.
 
 The suite remains **ACTIVE**. Do not mark runtime QA complete from these design-layer simulations.
 
