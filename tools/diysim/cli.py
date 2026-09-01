@@ -9,6 +9,7 @@ from .core import adjusted_hit_chance, class_multipliers, cumulative_exp, direct
 from .encounters.story_bosses.hollow_watch_castellan import SmartPolicyConfig, simulate_hollow_watch_smart
 from .io import load_advanced_scenario, load_progression_route, load_scenario
 from .progression import project_progression, required_average_exp_per_encounter
+from .sources import audit_repo_sources
 
 
 def _csv_floats(value: str) -> list[float]:
@@ -21,6 +22,8 @@ def _csv_floats(value: str) -> list[float]:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="diysim", description="Diyse balance calculation and battle simulator")
     sub = parser.add_subparsers(dest="command", required=True)
+
+    sub.add_parser("audit-sources", help="verify simulator source authority can be resolved from the repo")
 
     stats = sub.add_parser("stats", help="calculate natural stats from current repo authority")
     stats.add_argument("level", type=int)
@@ -89,6 +92,10 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
+    if args.command == "audit-sources":
+        report = audit_repo_sources()
+        print(json.dumps(report.as_dict(), indent=2))
+        return 0 if report.ok else 2
     if args.command == "stats":
         equipment = {key: getattr(args, f"equip_{key}") for key in ("hp", "mp", "attack", "magic", "defense", "spirit", "speed")}
         print(json.dumps(natural_stats(args.level, args.class_name, equipment).as_dict(), indent=2))
