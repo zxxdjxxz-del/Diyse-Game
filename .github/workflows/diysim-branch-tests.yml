@@ -26,3 +26,6 @@ jobs:
 
       - name: Print simulation readiness summary
         run: python -m tools.diysim.cli audit-readiness --summary-only
+
+      - name: Print detected source gaps
+        run: python -m tools.diysim.cli audit-readiness --issues-only --severity source_gap
