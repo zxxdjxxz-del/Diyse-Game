@@ -1,7 +1,7 @@
-"""Hollow Watch Castellan authored encounter simulator."""
+"""Hollow Watch Castellan repo-backed encounter simulator."""
 
-from .data import Ruleset, action_set
 from .policy import SmartPolicyConfig
+from .repo_loader import HollowWatchRepoData, load_hollow_watch_repo_data
 from .runtime import (
     HollowWatchOutcome,
     HollowWatchSummary,
@@ -11,10 +11,10 @@ from .runtime import (
 
 __all__ = [
     "HollowWatchOutcome",
+    "HollowWatchRepoData",
     "HollowWatchSummary",
-    "Ruleset",
     "SmartPolicyConfig",
-    "action_set",
+    "load_hollow_watch_repo_data",
     "run_hollow_watch_smart",
     "simulate_hollow_watch_smart",
 ]
