@@ -8,7 +8,7 @@
 
 | Ref | Encounter / form | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Architecture |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| — | **Worldscar Leviathan** | 60 | 38,800 | 221 | 246 | 166 | 178 | 53 | — | 10 | one bar / Prismatic Confluence same-bar |
+| — | **Worldscar Leviathan** | 60 | 38,800 | 221 | 246 | 166 | 178 | 53 | 0 | 10 | one bar / Prismatic Confluence same-bar |
 
 ## Unlock
 After **Chapter 10**.
@@ -113,7 +113,8 @@ The current element continues cycling normally.
 Unlock:
 
 ### Confluence Spear
-Two-hit Magical command:
+- one party member
+- two-hit Magical command
 - hit 1 — current element — **215 Power**
 - hit 2 — next element in the Fire→Ice→Lightning→Earth cycle — **215 Power**
 
