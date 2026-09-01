@@ -1,0 +1,56 @@
+name: DiySim Zevraya Stat Sweep
+
+on:
+  push:
+    branches:
+      - tooling/diysim-phase1
+  workflow_dispatch:
+
+jobs:
+  zevraya_stat_sweep:
+    if: contains(github.event.head_commit.message, '[zevraya-stat-sweep]')
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        player_level: [24, 28]
+        boss_level_offset: [0, 1, 2, 3, 4]
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Zevraya intermediate stat calibration
+        run: |
+          python - <<'PY'
+          import json
+          from dataclasses import asdict
+          from tools.diysim.encounters.story_bosses.matron_zevraya import simulate_matron_zevraya
+          from tools.diysim.overlays import BalanceOverlay
+
+          player_level = int("${{ matrix.player_level }}")
+          boss_level_offset = int("${{ matrix.boss_level_offset }}")
+          summary = simulate_matron_zevraya(
+              player_level=player_level,
+              structure_mode="non_diluting",
+              strategy="dismantle",
+              reservoir_plan=("Brood", "Armor"),
+              overlay=BalanceOverlay(
+                  direct_damage_power_multiplier=1.20,
+                  effective_stat_level_offset=boss_level_offset,
+              ),
+              use_prepared_inventory=True,
+              runs=1000,
+              seed=109,
+          )
+          result = {
+              "player_level": player_level,
+              "boss_level_offset": boss_level_offset,
+              **asdict(summary),
+          }
+          print(json.dumps(result, indent=2, sort_keys=True))
+          PY
