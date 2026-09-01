@@ -1,5 +1,12 @@
 """Sectioned combat primitives for the Diyse balance simulator."""
 
+from .advanced_runtime import (
+    AdvancedBattleOutcome,
+    AdvancedBattleScenario,
+    AdvancedSimulationSummary,
+    run_advanced_battle,
+    simulate_advanced,
+)
 from .criticals import BASE_CRIT_CHANCE, CRIT_CHANCE_CAP, CRIT_MULTIPLIER
 from .damage import PENETRATION_CAP, direct_damage, magical_damage, physical_damage
 from .derived_stats import (
@@ -61,6 +68,9 @@ __all__ = [
     "ActionKind",
     "ActionProfile",
     "ActiveStatus",
+    "AdvancedBattleOutcome",
+    "AdvancedBattleScenario",
+    "AdvancedSimulationSummary",
     "Affinity",
     "BASE_CRIT_CHANCE",
     "BASIC_ATTACK",
@@ -106,7 +116,9 @@ __all__ = [
     "magical_damage",
     "physical_damage",
     "resolve_mp_cost",
+    "run_advanced_battle",
     "run_battle",
     "simulate",
+    "simulate_advanced",
     "status_application_chance",
 ]
