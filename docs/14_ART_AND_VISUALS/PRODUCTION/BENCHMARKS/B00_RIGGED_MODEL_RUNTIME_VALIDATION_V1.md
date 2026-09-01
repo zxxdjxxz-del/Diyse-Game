@@ -3,7 +3,8 @@
 **Status:** **ACTIVE B00 RUNTIME GATE**  
 **Parent benchmark:** `B00_PARTY_CHARACTER_STYLE_ANCHOR_V1.md`  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`  
-**Character readability authority:** `../CHARACTER_SCALE_AND_SILHOUETTE.md`
+**Character readability authority:** `../CHARACTER_SCALE_AND_SILHOUETTE.md`  
+**Prototype rig standard:** `../QUATERNIUS_HUMANOID_RIG_STANDARD_V1.md`
 
 ## 1. Runtime decision
 
@@ -13,15 +14,17 @@ The previously planned dedicated ~200–220 px battle redraws and ~80 px field s
 
 The six approved high-resolution B00 character masters remain essential. They are the exact visual authorities that the rigged runtime characters must reproduce.
 
-2D character art remains appropriate for:
-- dialogue portraits / busts;
-- menus and status presentation;
-- Cards / Primes;
-- illustrated cut-ins;
-- promotional/key art;
-- any deliberately 2D special presentation approved later.
+2D character art remains appropriate for dialogue portraits/busts, menus, Cards/Primes, illustrated cut-ins, promotional art and deliberately 2D special presentation approved later.
 
-## 2. One character model, multiple runtime contexts
+## 2. Prototype rig foundation
+
+The official prototype foundation is a **Quaternius-compatible humanoid skeleton/rig** as defined in `../QUATERNIUS_HUMANOID_RIG_STANDARD_V1.md`.
+
+This is a technical compatibility decision, not visual character authority. Final party models must become Diyse-original visible characters matching the fingerprinted B00 masters while retaining shared rig/animation compatibility wherever practical.
+
+Current source-state warning: the two Quaternius Universal Animation Library archives are represented by the authoritative asset manifest, but the current repo records do **not** yet preserve/list the Universal Base Character source archive used for the humanoid base. The exact rig pilot file/source must therefore be identified and hashed before reproducible production import is claimed.
+
+## 3. One character model, multiple runtime contexts
 
 Field and battle should normally use the **same character identity, skeleton, rig and master model family**, with context-specific presentation rather than separate character art pipelines.
 
@@ -39,7 +42,7 @@ Differences may include:
 
 Do not create a second visual identity for battle and field.
 
-## 3. Exact B00 source authority
+## 4. Exact B00 source authority
 
 Every runtime character model must be checked against the current fingerprinted B00 master:
 - `../CHARACTERS/CYANIS_CURRENT_VISUAL_LOCK.md`
@@ -53,7 +56,7 @@ The approved image controls face, hair, body proportion, costume construction, p
 
 A runtime model is not approved merely because it is rigged and functional.
 
-## 4. Model-match requirements
+## 5. Model-match requirements
 
 ### Anatomy / proportion
 - reproduce each character's approved body proportions rather than forcing all six onto one generic body;
@@ -76,11 +79,11 @@ A runtime model is not approved merely because it is rigged and functional.
 
 ### Weapons / props
 - preserve approved weapon family, scale and silhouette;
-- weapon grip points must support the actual combat usage;
+- weapon grip points must support actual combat usage;
 - two-handed weapons must be rigged and animated as two-handed weapons even if a neutral pose uses one hand;
-- Cards/books/staves/bows/quivers/shields/foci must use explicit attachment points instead of floating or hand-authored per-animation offsets wherever possible.
+- Cards/books/staves/bows/quivers/shields/foci should use stable attachment points rather than floating or per-animation manual offsets wherever possible.
 
-## 5. Diyse runtime material treatment
+## 6. Diyse runtime material treatment
 
 The runtime model must translate B00's graphic seinen/anime rendering into real-time materials rather than attempting photoreal PBR.
 
@@ -108,7 +111,7 @@ Preferred behavior:
 
 A hybrid approach is allowed: geometry/post-process silhouette line plus authored interior ink accents.
 
-## 6. Field presentation validation
+## 7. Field presentation validation
 
 Field validation is performed at the **actual exploration camera and target display resolution**, not by creating an 80 px sprite.
 
@@ -123,7 +126,7 @@ A field model passes when:
 
 LOD/material simplification is preferred over creating a separate sprite identity.
 
-## 7. Battle presentation validation
+## 8. Battle presentation validation
 
 Battle validation is performed at the **actual battle camera and target display resolution**, not by creating a 200–220 px battle redraw.
 
@@ -136,7 +139,7 @@ A battle model passes when:
 - VFX overlap does not erase silhouette or status readability;
 - outline/material treatment remains stable during animation.
 
-## 8. Animation / rig validation
+## 9. Animation / rig validation
 
 The current rigged character solution must pass:
 - neutral idle;
@@ -150,9 +153,9 @@ The current rigged character solution must pass:
 - KO/downed state;
 - transition between exploration and combat presentation if the same rig is reused directly.
 
-Available verified-CC0 animation libraries may be used as retargeting/prototyping sources, but retargeted motion is not automatically final. Each clip must be checked for Diyse character weight, weapon logic, foot contact, hand placement and silhouette.
+The verified-CC0 Quaternius Universal Animation Library packages may be used as retargeting/prototyping sources, but retargeted motion is not automatically final. Each clip must be checked for Diyse character weight, weapon logic, foot contact, hand placement and silhouette.
 
-## 9. Character-specific runtime stress tests
+## 10. Character-specific runtime stress tests
 
 ### Cyanis
 Test silver-armor vs royal-blue/black separation, bilateral shoulders, longcoat motion and clean knight silhouette.
@@ -172,10 +175,10 @@ Test long crimson hair, emerald coat/skirt, black bodysuit, silver accents, tall
 ### Seyrik
 Test broad muscular proportions, red-dominant coat, Black Host skeletal/biomechanical plate articulation and oversized two-handed greatsword handling.
 
-## 10. B00 model-validation sequence
+## 11. B00 model-validation sequence
 
 1. preserve the six fingerprinted B00 masters as visual authority;
-2. identify the current rigged humanoid model/skeleton used for the pilot;
+2. identify/hash the exact Quaternius-compatible rigged humanoid pilot file/source;
 3. validate skeleton/retarget compatibility and animation import in Godot;
 4. create one B00-faithful character model/material pilot;
 5. validate neutral studio render against the approved master;
@@ -189,13 +192,13 @@ Test broad muscular proportions, red-dominant coat, Black Host skeletal/biomecha
 13. compare all six together for silhouette and palette separation;
 14. close B00 only after the runtime models belong visibly to the same game as the approved masters and benchmark environments.
 
-## 11. First pilot
+## 12. First pilot
 
-Use the **current production-usable rigged humanoid base** as the technical pilot.
+Use the **Quaternius-compatible humanoid rig** as the technical foundation.
 
-If its proportions and rig are compatible, **Cyanis** remains the preferred first character-style target because his blue/black cloth plus silver armor gives a clean material and outline baseline. If the available rig is materially better suited to another approved party member, use that character for the technical pilot without changing canon priority.
+Once the exact pilot file is recovered/identified, **Cyanis** remains the preferred first character-style target if the base proportions are compatible because his blue/black cloth plus silver armor gives a clean material and outline baseline. A different first technical target is allowed only if the available compatible base is materially better suited, without changing canon priority.
 
-## 12. Asset Forge / Godot boundary
+## 13. Asset Forge / Godot boundary
 
 Existing `tools/asset_forge/model_render_engine.py` is useful for deterministic glTF/material validation, but it explicitly remains a **validation renderer rather than the final Godot renderer**.
 
@@ -203,8 +206,8 @@ Existing animation tooling may support source/sequence validation, but final cha
 
 Do not mistake a successful offline Asset Forge render for final runtime approval.
 
-## 13. Gate
+## 14. Gate
 
 Current B00 gate:
 
-`6/6 HIGH-RES MASTERS LOCKED → RIGGED MODEL RUNTIME SPEC LOCKED → MODEL / SHADER / RIG PILOT NEXT → FIELD + BATTLE CAMERA VALIDATION → B01/B03/B10/B06 CROSS-CHECK → B00 PASS`
+`6/6 HIGH-RES MASTERS LOCKED → QUATERNIUS-COMPATIBLE RIG STANDARD LOCKED → EXACT RIG PILOT FILE IDENTIFIED/HASHED → GODOT MODEL/SHADER/RIG PILOT → FIELD + BATTLE CAMERA VALIDATION → B01/B03/B10/B06 CROSS-CHECK → B00 PASS`
