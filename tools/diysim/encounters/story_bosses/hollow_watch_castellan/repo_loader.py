@@ -37,20 +37,25 @@ class HollowWatchRepoData:
     fortress_actions: tuple[CombatAction, ...]
     walking_actions: tuple[CombatAction, ...]
     heavy_bolt: CombatAction
+    repetition_locked_actions: frozenset[str]
     walking_trigger_hp: int
     watch_seal_reduction: float
     harmonized_rank1_multiplier: float
+    gentle_continuance_threshold: float
+    gentle_continuance_bonus: float
+    clear_warding_sr_bonus: int
+    clear_warding_sr_rounds: int
 
 
 def _stats_from_row(row: dict[str, str]) -> Stats:
     return Stats(
-        parse_int(row["HP"]),
+        parse_int(row.get("HP", "1")),
         parse_int(row.get("MP", "0")),
-        parse_int(row["ATK"]),
+        parse_int(row.get("ATK", "0")),
         parse_int(row.get("MAG", "0")),
-        parse_int(row["DEF"]),
-        parse_int(row["Spirit"]),
-        parse_int(row["SPD"]),
+        parse_int(row.get("DEF", "0")),
+        parse_int(row.get("Spirit", "0")),
+        parse_int(row.get("SPD", "0")),
     )
 
 
@@ -87,15 +92,6 @@ def _power(effect: str, ability: str) -> int:
     return int(match.group(1))
 
 
-def _percent(effect: str, phrase: str) -> float:
-    match = re.search(rf"(\d+(?:\.\d+)?)%[^\n]*{re.escape(phrase)}", effect, re.I)
-    if not match:
-        match = re.search(rf"{re.escape(phrase)}[^\n]*(\d+(?:\.\d+)?)%", effect, re.I)
-    if not match:
-        raise SourceGapError(f"Missing explicit percentage for {phrase}")
-    return float(match.group(1)) / 100.0
-
-
 def _find_action_line(text: str, name: str) -> str:
     patterns = (
         rf"\*\*{re.escape(name)}\*\*\s*\n-\s*([^\n]+)",
@@ -122,7 +118,7 @@ def _enemy_action(text: str, name: str) -> CombatAction:
     return CombatAction(
         name,
         target_scope="all" if "all conscious" in line else "one",
-        damage_kind="physical" if "Physical" in line or name in {"Fortress Slam", "Iron Pursuit", "Wall-Shear Sweep"} else "physical",
+        damage_kind="physical",
         element="neutral",
         power=int(power.group(1)),
         base_hit=int(hit.group(1)),
@@ -135,7 +131,7 @@ def _linebreaker_from_repo(boss_text: str, true_battle_text: str) -> CombatActio
     """Require an explicit repo-owned Linebreaker definition; never infer it."""
     combined = boss_text + "\n" + true_battle_text
     explicit = re.search(
-        r"Linebreaker(?: Thrust)?[^\n]{0,180}?Power\s*\*\*(\d+)\*\*[^\n]{0,180}?(\d+)%\s+Defense penetration[^\n]{0,180}?(\d+)\s*MP",
+        r"Linebreaker(?: Thrust)?[^\n]{0,220}?Power\s*\*\*(\d+)\*\*[^\n]{0,220}?(\d+)%\s+Defense penetration[^\n]{0,220}?(\d+)\s*MP",
         combined,
         re.I,
     )
@@ -205,8 +201,9 @@ def load_hollow_watch_repo_data(*, root: Path | None = None) -> HollowWatchRepoD
 
     clear_effect = clear_row["Current effect"]
     clear_heal = re.search(r"restore\s*\*\*(\d+)% target Max HP\*\*", clear_effect, re.I)
-    if not clear_heal:
-        raise SourceGapError("Incomplete Clear Warding heal formula in repo")
+    clear_sr = re.search(r"grant\s*\*\*\+(\d+) Status Resistance for (\d+) rounds\*\*", clear_effect, re.I)
+    if not (clear_heal and clear_sr):
+        raise SourceGapError("Incomplete Clear Warding healing/SR authority in repo")
     clear_warding = CombatAction(
         "Clear Warding", action_kind="heal", mp_cost=parse_int(clear_row["MP"]), target_side="ally",
         heal_max_hp_percent=int(clear_heal.group(1)) / 100.0, clear_harmful_statuses=1,
@@ -226,9 +223,26 @@ def load_hollow_watch_repo_data(*, root: Path | None = None) -> HollowWatchRepoD
 
     trigger = re.search(r"Walking State begins once HP is \*\*(\d+) or lower\*\*", boss_text)
     seal_reduction = re.search(r"\*\*(\d+)% Fortress-State direct-damage reduction\*\*", boss_text)
-    trait_bonus = re.search(r"Rank I[^\n]*consumes the prime for \*\*\+(\d+)% final damage\*\*", trait_text)
-    if not (trigger and seal_reduction and trait_bonus):
+    harmonized = re.search(r"Rank I[^\n]*consumes the prime for \*\*\+(\d+)% final damage\*\*", trait_text)
+    gentle = re.search(
+        r"Gentle Continuance[\s\S]{0,600}?Rank I[^\n]*additional \*\*(\d+)% target Max HP\*\* if that target began the action below (\d+)% HP",
+        trait_text,
+    )
+    if not (trigger and seal_reduction and harmonized and gentle):
         raise SourceGapError("Incomplete Hollow Watch transition/Seal/Trait authority in repo")
+
+    fortress = (_enemy_action(boss_text, "Wallbound Strike"), _enemy_action(boss_text, "Bastion Sweep"))
+    walking = (
+        _enemy_action(boss_text, "Fortress Slam"),
+        _enemy_action(boss_text, "Iron Pursuit"),
+        _enemy_action(boss_text, "Wall-Shear Sweep"),
+    )
+    locked = frozenset(
+        action.name
+        for action in (*fortress, *walking)
+        if "cannot be selected on consecutive" in _find_action_line(boss_text, action.name)
+        or "cannot repeat consecutively" in _find_action_line(boss_text, action.name)
+    )
 
     return HollowWatchRepoData(
         cyanis=party["Cyanis"], ilyra=party["Ilyra"], maevra=party["Maevra"],
@@ -236,12 +250,15 @@ def load_hollow_watch_repo_data(*, root: Path | None = None) -> HollowWatchRepoD
         crest_strike=crest_strike, resonant_pulse=resonant_pulse,
         mend=mend, clear_warding=clear_warding,
         linebreaker_thrust=_linebreaker_from_repo(boss_text, true_text),
-        fortress_actions=(_enemy_action(boss_text, "Wallbound Strike"), _enemy_action(boss_text, "Bastion Sweep")),
-        walking_actions=(_enemy_action(boss_text, "Fortress Slam"), _enemy_action(boss_text, "Iron Pursuit"), _enemy_action(boss_text, "Wall-Shear Sweep")),
-        heavy_bolt=heavy_bolt,
+        fortress_actions=fortress, walking_actions=walking, heavy_bolt=heavy_bolt,
+        repetition_locked_actions=locked,
         walking_trigger_hp=int(trigger.group(1)),
         watch_seal_reduction=int(seal_reduction.group(1)) / 100.0,
-        harmonized_rank1_multiplier=1.0 + int(trait_bonus.group(1)) / 100.0,
+        harmonized_rank1_multiplier=1.0 + int(harmonized.group(1)) / 100.0,
+        gentle_continuance_threshold=int(gentle.group(2)) / 100.0,
+        gentle_continuance_bonus=int(gentle.group(1)) / 100.0,
+        clear_warding_sr_bonus=int(clear_sr.group(1)),
+        clear_warding_sr_rounds=int(clear_sr.group(2)),
     )
 
 
