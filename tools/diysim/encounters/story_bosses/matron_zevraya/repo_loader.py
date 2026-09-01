@@ -187,7 +187,11 @@ def _conduction(text: str, heading: str) -> ConductionRule:
     block = extract_heading_block(text, heading)
     power = re.search(r"\*\*(\d+) Power\*\*", block)
     hit = re.search(r"Base Hit \*\*(\d+)\*\*", block, re.I)
-    cycle = re.search(r"(?:visible cycle:\s*)?\*\*?Gale\s*→\s*Storm\s*→\s*Frost(?:\s*→\s*repeat)?\*\*?", block, re.I)
+    cycle = re.search(
+        r"(?:visible cycle:\s*)?(?:\*\*)?Gale\s*→\s*Storm\s*→\s*Frost(?:\s*→\s*repeat)?(?:\*\*)?",
+        block,
+        re.I,
+    )
     stun = re.search(r"Storm:[\s\S]*?\*\*(\d+)% Stun\*\*", block, re.I)
     freeze = re.search(r"Frost:[\s\S]*?\*\*(\d+)% Freeze\*\*", block, re.I)
     if not (power and hit and cycle and stun and freeze):
@@ -229,7 +233,6 @@ def _support_actor(text: str, heading: str, action_name: str) -> PhysicalSupport
         match = re.search(rf"^- {re.escape(label)}\s+\*\*(\d+)\*\*|^- {re.escape(label)}(\d+)$", block, re.I | re.M)
         if match:
             values[label] = int(match.group(1) or match.group(2))
-    # The compact owner prose sometimes omits bold around EVA/SR.
     for label in ("EVA", "SR"):
         if label not in values:
             match = re.search(rf"^- {label}(\d+)$", block, re.I | re.M)
