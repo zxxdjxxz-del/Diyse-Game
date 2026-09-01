@@ -16,6 +16,7 @@ import re
 
 from .actions import AuthoredActionSource, parse_authored_action_text
 from .entities import EntityStatSource, parse_entity_stat_sources
+from .replays import parse_bounded_replay_rule_text
 from .repo import find_repo_root
 
 OWNER_DOMAINS: tuple[tuple[str, str], ...] = (
@@ -196,10 +197,16 @@ def _parse_section(heading: str, block: str) -> AuthoredActionSource:
     return parse_authored_action_text(heading, block)
 
 
+def _supported_bounded_replay(heading: str, block: str) -> bool:
+    return parse_bounded_replay_rule_text(heading, block).complete
+
+
 def _action_candidate(heading: str, block: str) -> bool:
     if _is_structural_heading(heading):
         return False
     if _NO_DAMAGE_RE.search(block):
+        return True
+    if _supported_bounded_replay(heading, block):
         return True
     source = _parse_section(heading, block)
     return any((
@@ -220,6 +227,13 @@ def _direct_damage_source(heading: str, block: str) -> AuthoredActionSource | No
 
 
 def _audit_action(domain: str, path: str, heading: str, block: str) -> tuple[ReadinessIssue, ...]:
+    # A complete bounded-replay block intentionally inherits damage identity,
+    # target shape, weighting, and hit count from a completed source action.
+    # The generic replay runtime now supports that contract, so fixed values are
+    # neither missing canon nor parser gaps.
+    if _supported_bounded_replay(heading, block):
+        return ()
+
     source = _direct_damage_source(heading, block)
     if source is None:
         return ()
