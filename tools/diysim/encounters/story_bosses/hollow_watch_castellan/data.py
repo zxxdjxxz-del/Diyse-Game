@@ -7,7 +7,12 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Literal
 
-from tools.diysim.combat.models import CombatAction, Combatant, StatusRider
+from tools.diysim.combat.models import (
+    CombatAction,
+    Combatant,
+    StatusRider,
+    TemporaryModifierSpec,
+)
 from tools.diysim.progression import Stats
 
 Ruleset = Literal["v93_oracle", "current"]
@@ -68,6 +73,13 @@ def action_set(ruleset: Ruleset) -> HollowWatchActions:
             target_side="ally",
             heal_max_hp_percent=0.05,
             clear_harmful_statuses=1,
+            temporary_modifiers=(
+                TemporaryModifierSpec(
+                    "clear_warding_status_resistance",
+                    duration_rounds=2,
+                    status_resistance_flat=5,
+                ),
+            ),
         ),
         linebreaker_thrust=CombatAction(
             "Linebreaker Thrust",
