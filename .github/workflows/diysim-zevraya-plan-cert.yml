@@ -1,0 +1,50 @@
+name: DiySim Zevraya Plan Certification
+
+on:
+  push:
+    branches:
+      - tooling/diysim-phase1
+  workflow_dispatch:
+
+jobs:
+  zevraya_plan_2k:
+    if: contains(github.event.head_commit.message, '[zevraya-plan-2k]') || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        player_level: [24, 28]
+        reservoir_plan:
+          - "Brood"
+          - "Brood,Armor"
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run 2k selective Reservoir certification shard
+        run: |
+          python - <<'PY'
+          import json
+          from dataclasses import asdict
+          from tools.diysim.encounters.story_bosses.matron_zevraya import simulate_matron_zevraya
+          from tools.diysim.overlays import BalanceOverlay
+
+          level = int("${{ matrix.player_level }}")
+          plan = tuple("${{ matrix.reservoir_plan }}".split(","))
+          summary = simulate_matron_zevraya(
+              player_level=level,
+              structure_mode="non_diluting",
+              strategy="dismantle",
+              reservoir_plan=plan,
+              overlay=BalanceOverlay(direct_damage_power_multiplier=1.20),
+              use_prepared_inventory=True,
+              runs=2000,
+              seed=108,
+          )
+          print(json.dumps(asdict(summary), indent=2, sort_keys=True))
+          PY
