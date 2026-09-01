@@ -46,8 +46,16 @@ def _direct_action(ability: str, class_name: str, *, chosen_element: str | None 
     parsed = parse_authored_action_text(ability, source.owner_effect)
     if source.fixed_mp is None:
         raise SourceGapError(f"{class_name} / {ability} lacks fixed MP authority")
-    if parsed.damage_kind is None or parsed.power is None:
-        raise SourceGapError(f"{class_name} / {ability} lacks direct-damage identity")
+    if parsed.power is None:
+        raise SourceGapError(f"{class_name} / {ability} lacks direct-damage Power")
+
+    damage_kind = parsed.damage_kind
+    if damage_kind is None:
+        authored_kind = re.search(r"\b(Physical|Magical|Hybrid)\b", source.owner_effect, re.I)
+        if authored_kind:
+            damage_kind = authored_kind.group(1).lower()
+        else:
+            raise SourceGapError(f"{class_name} / {ability} lacks direct-damage axis")
 
     if parsed.element_mode == "fixed" and parsed.element is not None:
         element = parsed.element
@@ -74,7 +82,7 @@ def _direct_action(ability: str, class_name: str, *, chosen_element: str | None 
         name=ability,
         mp_cost=source.fixed_mp,
         target_scope=parsed.target_scope or "one",
-        damage_kind=parsed.damage_kind,  # type: ignore[arg-type]
+        damage_kind=damage_kind,  # type: ignore[arg-type]
         element=element,  # type: ignore[arg-type]
         power=parsed.power,
         base_hit=parsed.base_hit,
