@@ -113,6 +113,49 @@ def _find_action_line(text: str, name: str) -> str:
     raise SourceGapError(f"Missing exact action line for {name}")
 
 
+def _linebreaker_pattern() -> re.Pattern[str]:
+    return re.compile(
+        r"Linebreaker(?: Thrust)?[^\n]{0,220}?Power\s*\*\*(\d+)\*\*[^\n]{0,220}?(\d+)%\s+Defense penetration[^\n]{0,220}?(\d+)\s*MP",
+        re.I,
+    )
+
+
+def collect_hollow_watch_source_gaps(*, root: Path | None = None) -> tuple[str, ...]:
+    """Return every currently detectable authority gap needed by this adapter."""
+    boss_text = read_repo_text(BOSS_PATH, root=root)
+    true_text = read_repo_text(TRUE_BATTLE_PATH, root=root)
+    gaps: list[str] = []
+
+    if not _linebreaker_pattern().search(boss_text + "\n" + true_text):
+        gaps.append(
+            "Maevra Linebreaker: exact current Power / Defense penetration / MP owner definition is missing"
+        )
+
+    for action_name in ("Fortress Slam", "Iron Pursuit", "Wall-Shear Sweep"):
+        try:
+            line = _find_action_line(boss_text, action_name)
+        except SourceGapError as exc:
+            gaps.append(str(exc))
+            continue
+        try:
+            _damage_type_and_element(line, action_name)
+        except SourceGapError:
+            gaps.append(
+                f"{action_name}: exact current damage type / element is not stated in its owner action line"
+            )
+
+    return tuple(gaps)
+
+
+def _raise_preflight_gaps(*, root: Path | None = None) -> None:
+    gaps = collect_hollow_watch_source_gaps(root=root)
+    if gaps:
+        formatted = "\n- ".join(gaps)
+        raise SourceGapError(
+            "Hollow Watch cannot be fully simulated from current repo authority yet:\n- " + formatted
+        )
+
+
 def _enemy_action(text: str, name: str) -> CombatAction:
     line = _find_action_line(text, name)
     power = re.search(r"Power\s*\*\*(\d+)\*\*", line)
@@ -138,18 +181,9 @@ def _enemy_action(text: str, name: str) -> CombatAction:
 
 
 def _linebreaker_from_repo(boss_text: str, true_battle_text: str) -> CombatAction:
-    """Require an explicit repo-owned Linebreaker definition; never infer it."""
-    combined = boss_text + "\n" + true_battle_text
-    explicit = re.search(
-        r"Linebreaker(?: Thrust)?[^\n]{0,220}?Power\s*\*\*(\d+)\*\*[^\n]{0,220}?(\d+)%\s+Defense penetration[^\n]{0,220}?(\d+)\s*MP",
-        combined,
-        re.I,
-    )
+    explicit = _linebreaker_pattern().search(boss_text + "\n" + true_battle_text)
     if not explicit:
-        raise SourceGapError(
-            "Maevra Linebreaker lacks an explicit current repository owner definition. "
-            "Add/recover it in the appropriate repo canon file; diysim will not store or infer it."
-        )
+        raise SourceGapError("Maevra Linebreaker owner definition is missing")
     return CombatAction(
         "Linebreaker Thrust",
         mp_cost=int(explicit.group(3)),
@@ -161,6 +195,8 @@ def _linebreaker_from_repo(boss_text: str, true_battle_text: str) -> CombatActio
 
 
 def load_hollow_watch_repo_data(*, root: Path | None = None) -> HollowWatchRepoData:
+    _raise_preflight_gaps(root=root)
+
     boss_text = read_repo_text(BOSS_PATH, root=root)
     true_text = read_repo_text(TRUE_BATTLE_PATH, root=root)
     crest_text = read_repo_text(CREST_KNIGHT_PATH, root=root)
@@ -310,4 +346,8 @@ def load_hollow_watch_repo_data(*, root: Path | None = None) -> HollowWatchRepoD
     )
 
 
-__all__ = ["HollowWatchRepoData", "load_hollow_watch_repo_data"]
+__all__ = [
+    "HollowWatchRepoData",
+    "collect_hollow_watch_source_gaps",
+    "load_hollow_watch_repo_data",
+]
