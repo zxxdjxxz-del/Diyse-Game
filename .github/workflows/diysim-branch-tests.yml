@@ -97,29 +97,25 @@ jobs:
           from tools.diysim.encounters.story_bosses.first_command_warden.runtime import simulate_first_command_warden
           from tools.diysim.overlays import BalanceOverlay
 
-          power20 = BalanceOverlay(direct_damage_power_multiplier=1.20)
-          plus5 = BalanceOverlay(
-              direct_damage_power_multiplier=1.20,
-              effective_stat_level_offset=5,
-          )
-          cases = {
-              "lv11_power_x1_20_boss_plus5_prepared": dict(
-                  player_level=11, overlay=plus5, use_prepared_inventory=True,
-              ),
-              "lv13_power_x1_20_boss_plus5_prepared": dict(
-                  player_level=13, overlay=plus5, use_prepared_inventory=True,
-              ),
-              "lv11_power_x1_20_itemless_stress": dict(
-                  player_level=11, overlay=power20, use_prepared_inventory=False,
+          overlays = {
+              "owner": BalanceOverlay(),
+              "power_x1_20": BalanceOverlay(direct_damage_power_multiplier=1.20),
+              "power_x1_20_boss_plus5": BalanceOverlay(
+                  direct_damage_power_multiplier=1.20,
+                  effective_stat_level_offset=5,
               ),
           }
           results = {}
-          for label, kwargs in cases.items():
-              results[label] = asdict(simulate_first_command_warden(
-                  runs=2000,
-                  seed=106,
-                  **kwargs,
-              ))
+          for level in (11, 13):
+              for label, overlay in overlays.items():
+                  summary = simulate_first_command_warden(
+                      player_level=level,
+                      overlay=overlay,
+                      use_prepared_inventory=True,
+                      runs=2000,
+                      seed=106,
+                  )
+                  results[f"lv{level}_{label}_prepared"] = asdict(summary)
           print(json.dumps(results, indent=2, sort_keys=True))
           PY
 
