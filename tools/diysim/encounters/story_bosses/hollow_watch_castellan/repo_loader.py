@@ -1,13 +1,12 @@
 """Build Hollow Watch simulation inputs by parsing authoritative repo files.
 
-No Diyse numeric canon is stored in this module. Paths and parser labels are
-allowed; stats, Powers, MP costs, weights, and encounter values come from the
-repository at runtime.
+No Diyse numeric canon is stored here. Paths, field names, and parser labels are
+allowed; combat values come from the checked-out repository at runtime.
 """
 from __future__ import annotations
 from dataclasses import dataclass
-import re
 from pathlib import Path
+import re
 
 from tools.diysim.combat.models import CombatAction, Combatant, StatusRider
 from tools.diysim.progression import Stats
@@ -49,13 +48,13 @@ class HollowWatchRepoData:
 
 def _stats_from_row(row: dict[str, str]) -> Stats:
     return Stats(
-        parse_int(row.get("HP", "1")),
-        parse_int(row.get("MP", "0")),
-        parse_int(row.get("ATK", "0")),
-        parse_int(row.get("MAG", "0")),
-        parse_int(row.get("DEF", "0")),
-        parse_int(row.get("Spirit", "0")),
-        parse_int(row.get("SPD", "0")),
+        parse_int(row["HP"]),
+        parse_int(row["MP"]) if "MP" in row else 0,
+        parse_int(row["ATK"]) if "ATK" in row else 0,
+        parse_int(row["MAG"]) if "MAG" in row else 0,
+        parse_int(row["DEF"]) if "DEF" in row else 0,
+        parse_int(row["Spirit"]) if "Spirit" in row else 0,
+        parse_int(row["SPD"]) if "SPD" in row else 0,
     )
 
 
@@ -78,8 +77,7 @@ def _party_from_true_battle(text: str) -> dict[str, Combatant]:
 
 
 def _ability_row(text: str, ability: str) -> dict[str, str]:
-    rows = extract_markdown_table(text, "Ability spine")
-    for row in rows:
+    for row in extract_markdown_table(text, "Ability spine"):
         if row.get("Ability") == ability:
             return row
     raise SourceGapError(f"Missing ability {ability!r} in repo owner file")
@@ -90,6 +88,17 @@ def _power(effect: str, ability: str) -> int:
     if not match:
         raise SourceGapError(f"Missing explicit Power for {ability}")
     return int(match.group(1))
+
+
+def _damage_type_and_element(text: str, label: str) -> tuple[str, str]:
+    match = re.search(
+        r"\b(Physical|Magical|Hybrid)\s*/\s*(Neutral|Colorless|Fire|Ice|Lightning|Earth|Ruin)\b",
+        text,
+        re.I,
+    )
+    if not match:
+        raise SourceGapError(f"Missing damage type/element for {label}")
+    return match.group(1).lower(), match.group(2).lower()
 
 
 def _find_action_line(text: str, name: str) -> str:
@@ -111,6 +120,7 @@ def _enemy_action(text: str, name: str) -> CombatAction:
     weight = re.search(r"\*\*(\d+) weight\*\*", line)
     if not (power and hit and weight):
         raise SourceGapError(f"Incomplete action authority for {name}")
+    kind, element = _damage_type_and_element(line, name)
     riders: tuple[StatusRider, ...] = ()
     staggered = re.search(r"\*\*(\d+)% base Staggered\*\*", line)
     if staggered:
@@ -118,8 +128,8 @@ def _enemy_action(text: str, name: str) -> CombatAction:
     return CombatAction(
         name,
         target_scope="all" if "all conscious" in line else "one",
-        damage_kind="physical",
-        element="neutral",
+        damage_kind=kind,
+        element=element,
         power=int(power.group(1)),
         base_hit=int(hit.group(1)),
         weight=int(weight.group(1)),
@@ -146,7 +156,6 @@ def _linebreaker_from_repo(boss_text: str, true_battle_text: str) -> CombatActio
         damage_kind="physical",
         element="neutral",
         power=int(explicit.group(1)),
-        base_hit=100,
         defense_penetration=int(explicit.group(2)) / 100.0,
     )
 
@@ -169,24 +178,37 @@ def load_hollow_watch_repo_data(*, root: Path | None = None) -> HollowWatchRepoD
         status_resistance=parse_int(boss_row["SR"]),
         rank="major_boss",
     )
-
-    ballista_row = extract_markdown_table(boss_text, "Fortress Ballista")[0]
-    ballista = Combatant("Fortress Ballista", "enemy", _stats_from_row(ballista_row))
-    seal_row = extract_markdown_table(boss_text, "Watch Seal")[0]
-    watch_seal = Combatant("Watch Seal", "enemy", _stats_from_row(seal_row))
+    ballista = Combatant(
+        "Fortress Ballista",
+        "enemy",
+        _stats_from_row(extract_markdown_table(boss_text, "Fortress Ballista")[0]),
+    )
+    watch_seal = Combatant(
+        "Watch Seal",
+        "enemy",
+        _stats_from_row(extract_markdown_table(boss_text, "Watch Seal")[0]),
+    )
 
     crest_row = _ability_row(crest_text, "Crest Strike")
     pulse_row = _ability_row(crest_text, "Resonant Pulse")
     mend_row = _ability_row(warden_text, "Mend")
     clear_row = _ability_row(warden_text, "Clear Warding")
 
+    crest_kind, crest_element = _damage_type_and_element(crest_row["Current effect"], "Crest Strike")
+    pulse_kind, pulse_element = _damage_type_and_element(pulse_row["Current effect"], "Resonant Pulse")
     crest_strike = CombatAction(
-        "Crest Strike", mp_cost=parse_int(crest_row["MP"]), damage_kind="physical",
-        element="neutral", power=_power(crest_row["Current effect"], "Crest Strike"), base_hit=100,
+        "Crest Strike",
+        mp_cost=parse_int(crest_row["MP"]),
+        damage_kind=crest_kind,
+        element=crest_element,
+        power=_power(crest_row["Current effect"], "Crest Strike"),
     )
     resonant_pulse = CombatAction(
-        "Resonant Pulse", mp_cost=parse_int(pulse_row["MP"]), damage_kind="magical",
-        element="colorless", power=_power(pulse_row["Current effect"], "Resonant Pulse"), base_hit=100,
+        "Resonant Pulse",
+        mp_cost=parse_int(pulse_row["MP"]),
+        damage_kind=pulse_kind,
+        element=pulse_element,
+        power=_power(pulse_row["Current effect"], "Resonant Pulse"),
     )
 
     mend_effect = mend_row["Current effect"]
@@ -195,30 +217,45 @@ def load_hollow_watch_repo_data(*, root: Path | None = None) -> HollowWatchRepoD
     if not (mend_hp and mend_mag):
         raise SourceGapError("Incomplete Mend healing formula in repo")
     mend = CombatAction(
-        "Mend", action_kind="heal", mp_cost=parse_int(mend_row["MP"]), target_side="ally",
-        heal_max_hp_percent=int(mend_hp.group(1)) / 100.0, heal_magic_scaling=float(mend_mag.group(1)),
+        "Mend",
+        action_kind="heal",
+        mp_cost=parse_int(mend_row["MP"]),
+        target_side="ally",
+        heal_max_hp_percent=int(mend_hp.group(1)) / 100.0,
+        heal_magic_scaling=float(mend_mag.group(1)),
     )
 
     clear_effect = clear_row["Current effect"]
-    clear_heal = re.search(r"restore\s*\*\*(\d+)% target Max HP\*\*", clear_effect, re.I)
-    clear_sr = re.search(r"grant\s*\*\*\+(\d+) Status Resistance for (\d+) rounds\*\*", clear_effect, re.I)
+    clear_heal = re.search(r"restore\s*(\d+)% target Max HP", clear_effect, re.I)
+    clear_sr = re.search(r"grant\s*\+(\d+) Status Resistance for (\d+) rounds", clear_effect, re.I)
     if not (clear_heal and clear_sr):
         raise SourceGapError("Incomplete Clear Warding healing/SR authority in repo")
     clear_warding = CombatAction(
-        "Clear Warding", action_kind="heal", mp_cost=parse_int(clear_row["MP"]), target_side="ally",
-        heal_max_hp_percent=int(clear_heal.group(1)) / 100.0, clear_harmful_statuses=1,
+        "Clear Warding",
+        action_kind="heal",
+        mp_cost=parse_int(clear_row["MP"]),
+        target_side="ally",
+        heal_max_hp_percent=int(clear_heal.group(1)) / 100.0,
+        clear_harmful_statuses=1,
     )
 
-    heavy_line = re.search(
-        r"Fire Heavy Bolt[^\n]*?Power\s*\*\*(\d+)\*\*; Base Hit\s*\*\*(\d+)\*\*; \*\*(\d+)% base Bleed\*\*",
-        boss_text,
-    )
-    if not heavy_line:
+    heavy_section = re.search(r"### Heavy Bolt([\s\S]*?)(?=\n## )", boss_text)
+    if not heavy_section:
+        raise SourceGapError("Missing Heavy Bolt section")
+    heavy_text = heavy_section.group(1)
+    heavy_kind, heavy_element = _damage_type_and_element(heavy_text, "Heavy Bolt")
+    heavy_power = re.search(r"Power \*\*(\d+)\*\*", heavy_text)
+    heavy_hit = re.search(r"Base Hit \*\*(\d+)\*\*", heavy_text)
+    heavy_bleed = re.search(r"\*\*(\d+)% base Bleed\*\*", heavy_text)
+    if not (heavy_power and heavy_hit and heavy_bleed):
         raise SourceGapError("Incomplete Heavy Bolt authority in repo")
     heavy_bolt = CombatAction(
-        "Fire Heavy Bolt", damage_kind="physical", element="neutral",
-        power=int(heavy_line.group(1)), base_hit=int(heavy_line.group(2)),
-        status_riders=(StatusRider("bleed", int(heavy_line.group(3))),),
+        "Fire Heavy Bolt",
+        damage_kind=heavy_kind,
+        element=heavy_element,
+        power=int(heavy_power.group(1)),
+        base_hit=int(heavy_hit.group(1)),
+        status_riders=(StatusRider("bleed", int(heavy_bleed.group(1))),),
     )
 
     trigger = re.search(r"Walking State begins once HP is \*\*(\d+) or lower\*\*", boss_text)
@@ -231,7 +268,10 @@ def load_hollow_watch_repo_data(*, root: Path | None = None) -> HollowWatchRepoD
     if not (trigger and seal_reduction and harmonized and gentle):
         raise SourceGapError("Incomplete Hollow Watch transition/Seal/Trait authority in repo")
 
-    fortress = (_enemy_action(boss_text, "Wallbound Strike"), _enemy_action(boss_text, "Bastion Sweep"))
+    fortress = (
+        _enemy_action(boss_text, "Wallbound Strike"),
+        _enemy_action(boss_text, "Bastion Sweep"),
+    )
     walking = (
         _enemy_action(boss_text, "Fortress Slam"),
         _enemy_action(boss_text, "Iron Pursuit"),
@@ -245,12 +285,20 @@ def load_hollow_watch_repo_data(*, root: Path | None = None) -> HollowWatchRepoD
     )
 
     return HollowWatchRepoData(
-        cyanis=party["Cyanis"], ilyra=party["Ilyra"], maevra=party["Maevra"],
-        castellan=castellan, ballista=ballista, watch_seal=watch_seal,
-        crest_strike=crest_strike, resonant_pulse=resonant_pulse,
-        mend=mend, clear_warding=clear_warding,
+        cyanis=party["Cyanis"],
+        ilyra=party["Ilyra"],
+        maevra=party["Maevra"],
+        castellan=castellan,
+        ballista=ballista,
+        watch_seal=watch_seal,
+        crest_strike=crest_strike,
+        resonant_pulse=resonant_pulse,
+        mend=mend,
+        clear_warding=clear_warding,
         linebreaker_thrust=_linebreaker_from_repo(boss_text, true_text),
-        fortress_actions=fortress, walking_actions=walking, heavy_bolt=heavy_bolt,
+        fortress_actions=fortress,
+        walking_actions=walking,
+        heavy_bolt=heavy_bolt,
         repetition_locked_actions=locked,
         walking_trigger_hp=int(trigger.group(1)),
         watch_seal_reduction=int(seal_reduction.group(1)) / 100.0,
