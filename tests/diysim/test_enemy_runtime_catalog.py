@@ -3,8 +3,11 @@ from __future__ import annotations
 import random
 
 from tools.diysim.combat.action_resolution import resolve_effect
-from tools.diysim.combat.derived_stats import effective_defense, effective_spirit
+from tools.diysim.combat.derived_stats import effective_base_hit_bonus if False else effective_defense, effective_spirit
 from tools.diysim.combat.models import CombatUnit
+from tools.diysim.combat.temporary_modifiers import effective_base_hit_bonus
+from tools.diysim.encounters.formation_catalog import load_formation_definitions
+from tools.diysim.encounters.formation_runtime import FormationActionSelection, build_formation_runtime
 from tools.diysim.encounters.generic_enemy_runtime import build_generic_enemy_runtime
 from tools.diysim.encounters.runtime_catalog import (
     audit_enemy_runtime_coverage,
@@ -31,9 +34,10 @@ def test_enemy_runtime_catalog_classifies_every_discovered_owner_sheet():
     assert report.unclassified == 0
     assert report.special >= 3
     assert report.generic > 40
+    assert report.formation > 0
     assert report.components > 0
     for definition in report.definitions:
-        assert definition.kind in {"generic", "special", "component", "blocked"}
+        assert definition.kind in {"generic", "formation", "special", "component", "blocked"}
         if definition.kind in {"blocked", "component"}:
             assert definition.blockers
 
@@ -85,8 +89,8 @@ def test_total_defense_effect_is_executable_and_uses_percent_canon():
 
     unit = CombatUnit(definition.combatant, 0)
     resolve_effect(unit, guard, unit)
-    assert effective_defense(unit) == 36  # 31 * 1.15 = 35.65 -> nearest whole
-    assert effective_spirit(unit) == 25   # 22 * 1.15 = 25.3 -> nearest whole
+    assert effective_defense(unit) == 36
+    assert effective_spirit(unit) == 25
 
 
 def test_explicit_defense_spirit_effect_survives_reuse_section_filtering():
@@ -108,16 +112,13 @@ def test_preparation_forces_named_follow_up_and_is_once_per_battle():
     definition = _definition("CONVOY_WAR_SORCERER.md")
     assert definition.kind == "generic"
     runtime = build_generic_enemy_runtime(definition)
-
     round_one_names = {action.name for action in runtime.legal_actions(1)}
     assert "Rift Lance Preparation" not in round_one_names
     assert "Rift Lance" not in round_one_names
-
     prep = next(action for action in runtime.legal_actions(2) if action.name == "Rift Lance Preparation")
     runtime.commit_action(prep, 2)
     assert [action.name for action in runtime.legal_actions(3)] == ["Rift Lance"]
     runtime.commit_action(runtime.legal_actions(3)[0], 3)
-
     later_names = {action.name for action in runtime.legal_actions(4)}
     assert "Rift Lance Preparation" not in later_names
     assert "Rift Lance" not in later_names
@@ -128,13 +129,65 @@ def test_reload_is_only_legal_when_forced_by_barbed_bolt():
     definition = _definition("BASTION_CROSSBOW_GUARD.md")
     assert definition.kind == "generic"
     runtime = build_generic_enemy_runtime(definition)
-
     assert "Reload" not in {action.name for action in runtime.legal_actions(1)}
     barbed = next(action for action in runtime.legal_actions(1) if action.name == "Barbed Bolt")
     runtime.commit_action(barbed, 1)
     assert [action.name for action in runtime.legal_actions(2)] == ["Reload"]
     runtime.commit_action(runtime.legal_actions(2)[0], 2)
     assert "Reload" not in {action.name for action in runtime.legal_actions(3)}
+
+
+def test_chapter3_command_screen_builds_from_formation_authority():
+    formations = load_formation_definitions(
+        "docs/09_ENEMIES_AND_ENCOUNTERS/ENCOUNTER_FORMATIONS/CHAPTER_03_FORMATIONS.md"
+    )
+    command_screen = next(item for item in formations if item.name == "Command Screen")
+    assert command_screen.runtime_ready
+    assert [(member.count, member.enemy.name) for member in command_screen.members] == [
+        (2, "Command-Station Sentry"),
+        (1, "Authority Lens"),
+        (2, "Command Ring Drone"),
+    ]
+    runtime = build_formation_runtime(command_screen)
+    assert len(runtime.enemies) == 5
+    assert all("construct" in enemy.unit.template.runtime_tags for enemy in runtime.enemies)
+
+
+def test_authority_lens_targeting_focus_is_formation_executable():
+    definition = _definition("AUTHORITY_LENS.md")
+    assert definition.kind == "formation"
+    assert definition.combatant is not None
+    assert "construct" in definition.combatant.runtime_tags
+    focus_def = next(item for item in definition.actions if item.source.name == "Targeting Focus")
+    assert focus_def.formation_required
+    assert focus_def.target_tags == ("construct",)
+    assert focus_def.exclude_actor
+    assert focus_def.fallback_action == "Authority Ray"
+
+    formations = load_formation_definitions(
+        "docs/09_ENEMIES_AND_ENCOUNTERS/ENCOUNTER_FORMATIONS/CHAPTER_03_FORMATIONS.md"
+    )
+    runtime = build_formation_runtime(next(item for item in formations if item.name == "Command Screen"))
+    lens_index = next(i for i, enemy in enumerate(runtime.enemies) if enemy.unit.template.name == "Authority Lens")
+    eligible = runtime.eligible_allies(lens_index, focus_def)
+    assert lens_index not in eligible
+    assert len(eligible) == 4
+
+    target_index = eligible[0]
+    focus = _action(definition, "Targeting Focus")
+    selection = FormationActionSelection(lens_index, focus, (target_index,), "Targeting Focus")
+    assert effective_base_hit_bonus(runtime.enemies[target_index].unit) == 0
+    runtime.resolve_ally_effect(selection)
+    assert effective_base_hit_bonus(runtime.enemies[target_index].unit) == 10
+
+
+def test_command_ring_drone_relay_is_formation_executable():
+    definition = _definition("COMMAND_RING_DRONE.md")
+    assert definition.kind == "formation"
+    relay_def = next(item for item in definition.actions if item.source.name == "Command Relay")
+    assert relay_def.target_tags == ("construct",)
+    assert relay_def.exclude_actor
+    assert relay_def.fallback_action == "Ring Bolt"
 
 
 def test_non_damage_and_triggered_behavior_is_not_silently_dropped():
@@ -151,13 +204,6 @@ def test_reuse_body_is_not_misclassified_as_an_action():
     assert definition.kind == "generic"
     assert not any("Chapter-0 body:" in blocker for blocker in definition.blockers)
     assert [action.source.name for action in definition.actions] == ["Crossbow Bolt", "Aimed Bolt"]
-
-
-def test_tagged_ally_effect_stays_blocked_until_formation_runtime_can_resolve_tags():
-    definition = _definition("AUTHORITY_LENS.md")
-    assert definition.kind == "blocked"
-    joined = "\n".join(definition.blockers)
-    assert "Targeting Focus: effect target requires encounter roster tag" in joined
 
 
 def test_support_files_are_components_not_false_enemy_failures():
