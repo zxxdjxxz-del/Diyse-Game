@@ -15,9 +15,8 @@ from pathlib import Path
 import re
 
 from .actions import AuthoredActionSource, parse_authored_action_text
-from .actors import StatBlockSource, parse_stat_row
-from .markdown import extract_markdown_tables
-from .repo import SourceGapError, find_repo_root
+from .entities import EntityStatSource, parse_entity_stat_sources
+from .repo import find_repo_root
 
 OWNER_DOMAINS: tuple[tuple[str, str], ...] = (
     ("ordinary_enemies", "docs/09_ENEMIES_AND_ENCOUNTERS/ORDINARY_ENEMIES"),
@@ -184,19 +183,6 @@ def _heading_blocks(text: str) -> tuple[tuple[str, str], ...]:
     return tuple(blocks)
 
 
-def _stat_rows(text: str) -> tuple[StatBlockSource, ...]:
-    rows: list[StatBlockSource] = []
-    for table in extract_markdown_tables(text):
-        if not table or "HP" not in table[0]:
-            continue
-        for row in table:
-            try:
-                rows.append(parse_stat_row(row))
-            except SourceGapError:
-                continue
-    return tuple(rows)
-
-
 def _is_structural_heading(heading: str) -> bool:
     lowered = heading.casefold()
     return any(term in lowered for term in _STRUCTURAL_HEADING_TERMS)
@@ -292,36 +278,53 @@ def _audit_action(domain: str, path: str, heading: str, block: str) -> tuple[Rea
     return tuple(issues)
 
 
+def _entity_subject(title: str, index: int, entity: EntityStatSource) -> str:
+    label = f" / {entity.row_label}" if entity.row_label else ""
+    return f"{title} / {entity.section_heading}{label} / stat row {index}"
+
+
 def _audit_stats(
     domain: str,
     path: str,
     title: str,
-    rows: tuple[StatBlockSource, ...],
+    entities: tuple[EntityStatSource, ...],
     direct_sources: tuple[AuthoredActionSource, ...],
 ) -> tuple[ReadinessIssue, ...]:
     if not direct_sources:
         return ()
-    if not rows:
+    if not entities:
         return (ReadinessIssue(
             "parser_gap", domain, path, title, "stat_block_unresolved",
             "This owner contains direct damage but the generic reader found no HP stat table in the same file; stats may be owned by another referenced file.",
         ),)
 
-    required = {"hp", "defense", "spirit", "speed", "evasion"}
+    acting_required = {"hp", "defense", "spirit", "speed", "evasion"}
     if any(source.damage_kind == "physical" for source in direct_sources):
-        required.add("attack")
+        acting_required.add("attack")
     if any(source.damage_kind == "magical" for source in direct_sources):
-        required.add("magic")
+        acting_required.add("magic")
     if any(source.damage_kind == "hybrid" for source in direct_sources):
-        required.update(("attack", "magic"))
+        acting_required.update(("attack", "magic"))
 
+    passive_required = {"hp", "defense", "spirit", "evasion", "status_resistance"}
     issues: list[ReadinessIssue] = []
-    for index, row in enumerate(rows, start=1):
-        missing = sorted(field for field in required if not row.has(field))
+    for index, entity in enumerate(entities, start=1):
+        if entity.role == "passive_target":
+            missing = sorted(field for field in passive_required if not entity.stats.has(field))
+            if missing:
+                issues.append(ReadinessIssue(
+                    "parser_gap", domain, path, _entity_subject(title, index, entity),
+                    "passive_target_stats_unresolved",
+                    f"Explicit passive target omits defensive fields needed for generic targeting: {', '.join(missing)}.",
+                ))
+            continue
+
+        missing = sorted(field for field in acting_required if not entity.stats.has(field))
         if missing:
+            role_text = "explicit acting combatant" if entity.role == "acting_combatant" else "unresolved entity role"
             issues.append(ReadinessIssue(
-                "parser_gap", domain, path, f"{title} stat row {index}", "stat_role_unresolved",
-                f"This stat row omits {', '.join(missing)}; the generic reader must first determine whether it is an acting combatant, finite support, or passive target before requiring those fields.",
+                "parser_gap", domain, path, _entity_subject(title, index, entity), "stat_role_unresolved",
+                f"{role_text} omits {', '.join(missing)}; associate this stat row with its exact actor/support role before requiring those fields.",
             ))
     return tuple(issues)
 
@@ -330,7 +333,7 @@ def audit_owner_file(path: Path, *, domain: str, repo_root: Path) -> OwnerFileRe
     text = path.read_text(encoding="utf-8")
     relative = path.relative_to(repo_root).as_posix()
     title = _title(text, path.stem)
-    rows = _stat_rows(text)
+    entities = parse_entity_stat_sources(text)
 
     actions: list[tuple[str, str]] = []
     direct_sources: list[AuthoredActionSource] = []
@@ -344,12 +347,12 @@ def audit_owner_file(path: Path, *, domain: str, repo_root: Path) -> OwnerFileRe
             direct_sources.append(source)
         issues.extend(_audit_action(domain, relative, heading, block))
 
-    issues.extend(_audit_stats(domain, relative, title, rows, tuple(direct_sources)))
+    issues.extend(_audit_stats(domain, relative, title, entities, tuple(direct_sources)))
     return OwnerFileReadiness(
         domain=domain,
         path=relative,
         title=title,
-        stat_rows=len(rows),
+        stat_rows=len(entities),
         action_sections=len(actions),
         direct_damage_sections=len(direct_sources),
         issues=tuple(issues),
