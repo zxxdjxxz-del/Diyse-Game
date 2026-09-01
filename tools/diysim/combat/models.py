@@ -1,10 +1,12 @@
-"""Shared combat data models for the Diyse simulator."""
+"""Shared combat data models for the Diyse simulator.
+
+Numeric canon defaults are resolved from repository sources, not stored here.
+"""
 from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Literal
 
 from ..progression.stats import Stats
-from .criticals import BASE_CRIT_CHANCE
 
 Side = Literal["party", "enemy"]
 DamageKind = Literal["physical", "magical", "hybrid"]
@@ -27,13 +29,6 @@ class StatusRider:
 
 @dataclass(frozen=True)
 class TemporaryModifierSpec:
-    """An authored temporary modifier applied by an action.
-
-    Status Resistance uses flat points by canon. Core percentage-stat support
-    can be added to this model when that section is implemented; it is not
-    inferred here.
-    """
-
     effect_id: str
     duration_rounds: int
     status_resistance_flat: int = 0
@@ -61,13 +56,13 @@ class CombatAction:
     target_scope: TargetScope = "one"
     damage_kind: DamageKind = "physical"
     element: Element = "neutral"
-    power: float = 100.0
-    base_hit: int = 100
-    crit_chance: float = BASE_CRIT_CHANCE
+    power: float | None = None
+    base_hit: int | None = None
+    crit_chance: float | None = None
     defense_penetration: float = 0.0
     spirit_penetration: float = 0.0
-    physical_weight: float = 0.5
-    magical_weight: float = 0.5
+    physical_weight: float | None = None
+    magical_weight: float | None = None
     final_damage_multiplier: float = 1.0
     heal_max_hp_percent: float = 0.0
     heal_magic_scaling: float = 0.0
