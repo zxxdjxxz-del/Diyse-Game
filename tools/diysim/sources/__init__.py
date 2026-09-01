@@ -25,6 +25,7 @@ from .readiness import (
     audit_owner_file,
     audit_simulation_readiness,
 )
+from .replays import BoundedReplayRuleSource, parse_bounded_replay_rule_text
 from .repo import RepoSourceError, SourceGapError, find_repo_root, read_repo_text
 from .traits import TraitRankSource, TraitSource, load_trait_registry, load_trait_source
 
@@ -32,6 +33,7 @@ __all__ = [
     "AbilityRegistryEntry",
     "AbilitySource",
     "AuthoredActionSource",
+    "BoundedReplayRuleSource",
     "EnemyRegistryEntry",
     "EnemySystemRules",
     "EntityRole",
@@ -71,6 +73,7 @@ __all__ = [
     "load_trait_registry",
     "load_trait_source",
     "parse_authored_action_text",
+    "parse_bounded_replay_rule_text",
     "parse_entity_stat_sources",
     "parse_stat_row",
     "read_repo_text",
