@@ -7,6 +7,12 @@ from pathlib import Path
 import re
 
 from tools.diysim.combat.basic_attack import basic_attack_action
+from tools.diysim.combat.derived_stats import effective_attack, effective_magic
+from tools.diysim.combat.living_archive import (
+    LivingArchiveRecord,
+    LivingArchiveState,
+    materialize_echo_weave,
+)
 from tools.diysim.combat.models import CombatAction, CombatUnit, StatusRider, TemporaryModifierSpec
 from tools.diysim.sources import (
     SourceGapError,
@@ -17,6 +23,7 @@ from tools.diysim.sources import (
 )
 
 HARMONIZED_STATE_KEY = "harmonized_crest_prime"
+LIVING_ARCHIVE_STATE_KEY = "living_archive"
 
 
 @dataclass(frozen=True)
@@ -51,17 +58,11 @@ class WardenPartyActions:
     hunter_measure_party_crit_bonus: int
     hunter_measure_torren_crit_bonus: int
     measured_colossus_penetration: float
+    living_archive_capacity: int
+    echo_weave_potency: float
+    echo_weave_cost_scale: float
+    echo_weave_minimum_mp: int
     basic_attack: CombatAction
-
-    def ordinary_offensive_for(self, character: str) -> CombatAction:
-        actions = {
-            "Ilyra": self.wardens_valor,
-            "Nimera": self.weave_burst,
-        }
-        try:
-            return actions[character]
-        except KeyError as exc:
-            raise ValueError(f"unsupported ordinary Warden policy character: {character}") from exc
 
 
 def _direct_action(ability: str, class_name: str, *, root: Path | None = None) -> CombatAction:
@@ -199,6 +200,23 @@ def _war_archer_measure_values(*, root: Path | None = None) -> tuple[int, int, i
     )
 
 
+def _cardweaver_archive_values(*, root: Path | None = None) -> tuple[int, float, float, int]:
+    echo = load_ability_source("Echo Weave", class_name="Cardweaver", root=root)
+    text = read_repo_text(echo.owner_path, root=root)
+    capacity = re.search(r"Rank I retains the last \*\*(\d+)\*\* eligible allied actions", text, re.I)
+    potency = re.search(r"Quick Study[^\n]*\*\*(\d+)%\s*→\s*(\d+)%\*\*", text, re.I)
+    cost_scale = re.search(r"Echo Weave costs \*\*(\d+)% of the recorded action's authored Base MP\*\*", text, re.I)
+    minimum = re.search(r"minimum \*\*(\d+) MP\*\*", text, re.I)
+    if not (capacity and potency and cost_scale and minimum):
+        raise SourceGapError("Cardweaver lacks exact CL4 Living Archive / Echo Weave authority")
+    return (
+        int(capacity.group(1)),
+        int(potency.group(2)) / 100.0,
+        int(cost_scale.group(1)) / 100.0,
+        int(minimum.group(1)),
+    )
+
+
 @lru_cache(maxsize=4)
 def load_warden_party_actions(*, root: Path | None = None) -> WardenPartyActions:
     """Parse the working S020 learned package once per source root."""
@@ -210,6 +228,7 @@ def load_warden_party_actions(*, root: Path | None = None) -> WardenPartyActions
         sizing_mastered_power,
         colossus_mastered_power,
     ) = _war_archer_measure_values(root=root)
+    archive_capacity, echo_potency, echo_cost_scale, echo_minimum = _cardweaver_archive_values(root=root)
     sizing = replace(
         _direct_action("Sizing Shot", "War Archer", root=root),
         power=sizing_mastered_power,
@@ -235,6 +254,10 @@ def load_warden_party_actions(*, root: Path | None = None) -> WardenPartyActions
         hunter_measure_party_crit_bonus=party_crit,
         hunter_measure_torren_crit_bonus=torren_crit,
         measured_colossus_penetration=measured_pen,
+        living_archive_capacity=archive_capacity,
+        echo_weave_potency=echo_potency,
+        echo_weave_cost_scale=echo_cost_scale,
+        echo_weave_minimum_mp=echo_minimum,
         basic_attack=basic_attack_action(),
     )
 
@@ -256,6 +279,72 @@ def _control_target(party: list[CombatUnit]) -> CombatUnit | None:
 def _with_measure_crit(action: CombatAction, bonus: int) -> CombatAction:
     base = 5.0 if action.crit_chance is None else action.crit_chance
     return replace(action, crit_chance=base + bonus)
+
+
+def _nimera_unit(party: list[CombatUnit]) -> CombatUnit:
+    return next(unit for unit in party if unit.template.name == "Nimera")
+
+
+def _living_archive(party: list[CombatUnit], actions: WardenPartyActions) -> LivingArchiveState:
+    nimera = _nimera_unit(party)
+    existing = nimera.tactical_states.get(LIVING_ARCHIVE_STATE_KEY)
+    if isinstance(existing, LivingArchiveState):
+        return existing
+    state = LivingArchiveState(capacity=actions.living_archive_capacity)
+    nimera.tactical_states[LIVING_ARCHIVE_STATE_KEY] = state
+    return state
+
+
+def _canonical_record_action(action: CombatAction, actions: WardenPartyActions) -> CombatAction | None:
+    """Strip source-actor-only temporary Trait/target-context bonuses before recording."""
+    by_name = {
+        actions.crest_strike.name: actions.crest_strike,
+        actions.resonant_pulse.name: actions.resonant_pulse,
+        actions.wardens_valor.name: actions.wardens_valor,
+        actions.cinder_shot.name: actions.cinder_shot,
+        actions.sizing_shot.name: actions.sizing_shot,
+        actions.colossus_draw.name: actions.colossus_draw,
+        actions.mend.name: actions.mend,
+        actions.clear_warding.name: actions.clear_warding,
+        actions.renewal.name: actions.renewal,
+    }
+    return by_name.get(action.name)
+
+
+def _record_for_nimera(
+    actor: CombatUnit,
+    party: list[CombatUnit],
+    actions: WardenPartyActions,
+    *,
+    category: str,
+    action: CombatAction,
+) -> None:
+    if actor.template.name == "Nimera" or category != "Ability":
+        return
+    canonical = _canonical_record_action(action, actions)
+    if canonical is None:
+        return
+    _living_archive(party, actions).observe_completed_action(
+        canonical,
+        source_actor=actor.template.name,
+        category="ability",
+        authored_base_mp=canonical.mp_cost,
+    )
+
+
+def _damage_score(actor: CombatUnit, action: CombatAction, *, target_is_ring: bool) -> float:
+    if action.power is None:
+        return 0.0
+    if action.damage_kind == "physical":
+        offense = effective_attack(actor)
+    elif action.damage_kind == "magical":
+        offense = effective_magic(actor)
+    else:
+        physical = 0.5 if action.physical_weight is None else action.physical_weight
+        magical = 0.5 if action.magical_weight is None else action.magical_weight
+        offense = effective_attack(actor) * physical + effective_magic(actor) * magical
+    targets = 2 if target_is_ring and action.target_scope == "all" else 1
+    return offense * action.power * action.final_damage_multiplier * targets
 
 
 def _choose_cyanis_action(
@@ -307,6 +396,156 @@ def _choose_cyanis_action(
     return "Ability", action, None
 
 
+def _choose_torren_action(
+    actor: CombatUnit,
+    actions: WardenPartyActions,
+    *,
+    sealed_category: str | None,
+    hunter_measure_active: bool,
+    target_is_ring: bool,
+) -> tuple[str, CombatAction, CombatUnit | None]:
+    if sealed_category == "Ability":
+        attack = actions.basic_attack
+        if hunter_measure_active and not target_is_ring:
+            attack = _with_measure_crit(
+                attack,
+                actions.hunter_measure_party_crit_bonus + actions.hunter_measure_torren_crit_bonus,
+            )
+        return "Attack", attack, None
+
+    if target_is_ring:
+        if actor.mp >= actions.colossus_draw.mp_cost:
+            return "Ability", actions.colossus_draw, None
+        if actor.mp >= actions.cinder_shot.mp_cost:
+            return "Ability", actions.cinder_shot, None
+        return "Attack", actions.basic_attack, None
+
+    if not hunter_measure_active and actor.mp >= actions.sizing_shot.mp_cost:
+        return "Ability", actions.sizing_shot, None
+    if hunter_measure_active and actor.mp >= actions.colossus_draw.mp_cost:
+        return "Ability", replace(
+            _with_measure_crit(
+                actions.colossus_draw,
+                actions.hunter_measure_party_crit_bonus + actions.hunter_measure_torren_crit_bonus,
+            ),
+            defense_penetration=actions.measured_colossus_penetration,
+        ), None
+    if actor.mp >= actions.cinder_shot.mp_cost:
+        cinder = actions.cinder_shot
+        if hunter_measure_active:
+            cinder = _with_measure_crit(
+                cinder,
+                actions.hunter_measure_party_crit_bonus + actions.hunter_measure_torren_crit_bonus,
+            )
+        return "Ability", cinder, None
+    attack = actions.basic_attack
+    if hunter_measure_active:
+        attack = _with_measure_crit(
+            attack,
+            actions.hunter_measure_party_crit_bonus + actions.hunter_measure_torren_crit_bonus,
+        )
+    return "Attack", attack, None
+
+
+def _choose_nimera_action(
+    actor: CombatUnit,
+    party: list[CombatUnit],
+    actions: WardenPartyActions,
+    *,
+    sealed_category: str | None,
+    hunter_measure_active: bool,
+    target_is_ring: bool,
+) -> tuple[str, CombatAction, CombatUnit | None]:
+    if sealed_category == "Ability":
+        attack = actions.basic_attack
+        if hunter_measure_active and not target_is_ring:
+            attack = _with_measure_crit(attack, actions.hunter_measure_party_crit_bonus)
+        return "Attack", attack, None
+
+    archive = _living_archive(party, actions)
+    best_echo: CombatAction | None = None
+    best_score = -1.0
+    for record in archive.records:
+        if record.action.action_kind != "damage" or record.action.target_side != "enemy":
+            continue
+        echo = materialize_echo_weave(
+            record,
+            potency=actions.echo_weave_potency,
+            cost_scale=actions.echo_weave_cost_scale,
+            minimum_mp=actions.echo_weave_minimum_mp,
+        )
+        if actor.mp < echo.mp_cost:
+            continue
+        if hunter_measure_active and not target_is_ring:
+            echo = _with_measure_crit(echo, actions.hunter_measure_party_crit_bonus)
+        score = _damage_score(actor, echo, target_is_ring=target_is_ring)
+        if score > best_score:
+            best_echo = echo
+            best_score = score
+
+    weave = actions.weave_burst
+    if hunter_measure_active and not target_is_ring:
+        weave = _with_measure_crit(weave, actions.hunter_measure_party_crit_bonus)
+    weave_score = _damage_score(actor, weave, target_is_ring=target_is_ring)
+
+    if best_echo is not None and (actor.mp < weave.mp_cost or best_score >= weave_score):
+        return "Ability", best_echo, None
+    if actor.mp >= weave.mp_cost:
+        return "Ability", weave, None
+    if best_echo is not None:
+        return "Ability", best_echo, None
+    attack = actions.basic_attack
+    if hunter_measure_active and not target_is_ring:
+        attack = _with_measure_crit(attack, actions.hunter_measure_party_crit_bonus)
+    return "Attack", attack, None
+
+
+def _choose_ilyra_action(
+    actor: CombatUnit,
+    party: list[CombatUnit],
+    actions: WardenPartyActions,
+    *,
+    sealed_category: str | None,
+    hunter_measure_active: bool,
+    target_is_ring: bool,
+    config: WardenPolicyConfig,
+) -> tuple[str, CombatAction, CombatUnit | None]:
+    control_target = _control_target(party)
+    if control_target is not None and actor.mp >= actions.clear_warding.mp_cost:
+        return "Ability", actions.clear_warding, control_target
+
+    wounded = [
+        unit for unit in party
+        if unit.alive and unit.hp / unit.max_hp < config.renewal_two_allies_below_fraction
+    ]
+    if len(wounded) >= 2 and actor.mp >= actions.renewal.mp_cost:
+        return "Ability", actions.renewal, None
+
+    heal_target = lowest_hp_ally(party)
+    if (
+        heal_target is not None
+        and heal_target.hp / heal_target.max_hp < config.mend_below_hp_fraction
+        and actor.mp >= actions.mend.mp_cost
+    ):
+        return "Ability", actions.mend, heal_target
+
+    offensive = actions.wardens_valor
+    if hunter_measure_active and not target_is_ring:
+        offensive = _with_measure_crit(offensive, actions.hunter_measure_party_crit_bonus)
+    can_ability = actor.mp >= offensive.mp_cost
+    if sealed_category == "Ability":
+        attack = actions.basic_attack
+        if hunter_measure_active and not target_is_ring:
+            attack = _with_measure_crit(attack, actions.hunter_measure_party_crit_bonus)
+        return "Attack", attack, None
+    if can_ability:
+        return "Ability", offensive, None
+    attack = actions.basic_attack
+    if hunter_measure_active and not target_is_ring:
+        attack = _with_measure_crit(attack, actions.hunter_measure_party_crit_bonus)
+    return "Attack", attack, None
+
+
 def choose_player_action(
     actor: CombatUnit,
     party: list[CombatUnit],
@@ -318,100 +557,58 @@ def choose_player_action(
     config: WardenPolicyConfig,
 ) -> tuple[str, CombatAction, CombatUnit | None]:
     """Choose an ordinary action without reading future enemy actions."""
-    if actor.template.name == "Ilyra":
-        control_target = _control_target(party)
-        if control_target is not None and actor.mp >= actions.clear_warding.mp_cost:
-            return "Ability", actions.clear_warding, control_target
-
-        wounded = [
-            unit for unit in party
-            if unit.alive and unit.hp / unit.max_hp < config.renewal_two_allies_below_fraction
-        ]
-        if len(wounded) >= 2 and actor.mp >= actions.renewal.mp_cost:
-            return "Ability", actions.renewal, None
-
-        heal_target = lowest_hp_ally(party)
-        if (
-            heal_target is not None
-            and heal_target.hp / heal_target.max_hp < config.mend_below_hp_fraction
-            and actor.mp >= actions.mend.mp_cost
-        ):
-            return "Ability", actions.mend, heal_target
-
     if actor.template.name == "Cyanis":
-        return _choose_cyanis_action(
+        result = _choose_cyanis_action(
             actor,
             actions,
             sealed_category=sealed_category,
             hunter_measure_active=hunter_measure_active,
             target_is_ring=target_is_ring,
         )
+    elif actor.template.name == "Ilyra":
+        result = _choose_ilyra_action(
+            actor,
+            party,
+            actions,
+            sealed_category=sealed_category,
+            hunter_measure_active=hunter_measure_active,
+            target_is_ring=target_is_ring,
+            config=config,
+        )
+    elif actor.template.name == "Torren":
+        result = _choose_torren_action(
+            actor,
+            actions,
+            sealed_category=sealed_category,
+            hunter_measure_active=hunter_measure_active,
+            target_is_ring=target_is_ring,
+        )
+    elif actor.template.name == "Nimera":
+        result = _choose_nimera_action(
+            actor,
+            party,
+            actions,
+            sealed_category=sealed_category,
+            hunter_measure_active=hunter_measure_active,
+            target_is_ring=target_is_ring,
+        )
+    else:
+        raise ValueError(f"unsupported Warden policy character: {actor.template.name}")
 
-    if actor.template.name == "Torren":
-        if sealed_category == "Ability":
-            attack = actions.basic_attack
-            if hunter_measure_active and not target_is_ring:
-                attack = _with_measure_crit(
-                    attack,
-                    actions.hunter_measure_party_crit_bonus + actions.hunter_measure_torren_crit_bonus,
-                )
-            return "Attack", attack, None
-
-        if target_is_ring:
-            if actor.mp >= actions.colossus_draw.mp_cost:
-                return "Ability", actions.colossus_draw, None
-            if actor.mp >= actions.cinder_shot.mp_cost:
-                return "Ability", actions.cinder_shot, None
-            return "Attack", actions.basic_attack, None
-
-        if not hunter_measure_active and actor.mp >= actions.sizing_shot.mp_cost:
-            return "Ability", actions.sizing_shot, None
-        if hunter_measure_active and actor.mp >= actions.colossus_draw.mp_cost:
-            return "Ability", replace(
-                _with_measure_crit(
-                    actions.colossus_draw,
-                    actions.hunter_measure_party_crit_bonus + actions.hunter_measure_torren_crit_bonus,
-                ),
-                defense_penetration=actions.measured_colossus_penetration,
-            ), None
-        if actor.mp >= actions.cinder_shot.mp_cost:
-            cinder = actions.cinder_shot
-            if hunter_measure_active:
-                cinder = _with_measure_crit(
-                    cinder,
-                    actions.hunter_measure_party_crit_bonus + actions.hunter_measure_torren_crit_bonus,
-                )
-            return "Ability", cinder, None
-        attack = actions.basic_attack
-        if hunter_measure_active:
-            attack = _with_measure_crit(
-                attack,
-                actions.hunter_measure_party_crit_bonus + actions.hunter_measure_torren_crit_bonus,
-            )
-        return "Attack", attack, None
-
-    offensive = actions.ordinary_offensive_for(actor.template.name)
-    if hunter_measure_active and not target_is_ring:
-        offensive = _with_measure_crit(offensive, actions.hunter_measure_party_crit_bonus)
-    can_ability = actor.mp >= offensive.mp_cost
-
-    if sealed_category == "Ability":
-        attack = actions.basic_attack
-        if hunter_measure_active and not target_is_ring:
-            attack = _with_measure_crit(attack, actions.hunter_measure_party_crit_bonus)
-        return "Attack", attack, None
-    if sealed_category == "Attack" and can_ability:
-        return "Ability", offensive, None
-    if can_ability:
-        return "Ability", offensive, None
-    attack = actions.basic_attack
-    if hunter_measure_active and not target_is_ring:
-        attack = _with_measure_crit(attack, actions.hunter_measure_party_crit_bonus)
-    return "Attack", attack, None
+    category, action, target = result
+    _record_for_nimera(
+        actor,
+        party,
+        actions,
+        category=category,
+        action=action,
+    )
+    return result
 
 
 __all__ = [
     "HARMONIZED_STATE_KEY",
+    "LIVING_ARCHIVE_STATE_KEY",
     "WardenPartyActions",
     "WardenPolicyConfig",
     "choose_player_action",
