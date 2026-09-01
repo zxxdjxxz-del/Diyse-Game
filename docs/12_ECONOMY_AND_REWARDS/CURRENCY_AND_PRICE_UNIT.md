@@ -1,42 +1,52 @@
 # Diyse — Currency & Price Unit
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicitly accepted v85 tracker-level economy closures.  
-**Frozen provenance source:** `Diyse_Item_Equipment_Catalog_Economy_Audit_ARCHIVE_FULL_v603.md` only where later authority does not supersede it.  
-**Domain rule:** `12_ECONOMY_AND_REWARDS` owns Auren denomination, purchase/replacement prices, sell rules, normal-stock progression, commerce endpoint roles, reward-value/scarcity rules, and non-EXP reward handoffs. Item definitions remain in `08`; enemy bodies remain in `09`; EXP/CEXP remain in `10`; quest structure remains in `11`.
 
+**Status:** DISPLAY-SCALE AUTHORITY
 
 ## Currency
 The ordinary currency is:
 > **AUREN**
 
-Valid display examples:
-- 1 Auren
-- 20 Auren
-- 1,200 Auren
-
 There is no second ordinary shop currency.
 
-No dedicated currency symbol/glyph is currently authored. Do not invent one in implementation docs.
+## Display-scale revision
+Current Auren uses a deliberate extra display digit for JRPG-style presentation.
 
-## Denomination
-Tracker-level final:
-> **1.0 economy unit = 20 Auren**
+The entire prior balanced Auren economy is displayed at:
+> **10× the former numeric denomination**
 
-Anchor:
-> **Field Salve = 1.0 unit = 20 Auren**
+This is a presentation-scale change, not a tenfold increase in purchasing power.
 
-The denomination converts the already-balanced relative economy into readable integer prices. It does not rebalance the ratios.
+Current conversion anchor:
+> **1.0 economy unit = 200 Auren**
 
-## Conversion
+Anchor item:
+> **Field Salve = 1.0 unit = 200 Auren**
+
 For an economy-unit value `U`:
-> `Auren = U × 20`
+> `Auren = U × 200`
 
-Current consumable prices use clean integer or half/quarter-unit values where already established.
+Examples:
+- former 20 Auren → **200 Auren**
+- former 460 Auren → **4,600 Auren**
+- former 1,680 Auren → **16,800 Auren**
 
-## Reward-equivalence values
-A reward-only item may have an Auren-equivalent value for:
-- reward density;
-- treasure comparison;
-- optional-content budgeting.
+All current-facing economy/reward files must use the new displayed denomination.
 
-An equivalence value is **not** a shop price and does not imply the item can be sold or bought.
+## Starting wallet
+The party begins Chapter 0 with:
+> **2,500 Auren**
+
+This is the current starting-currency authority.
+
+It is separate from Cyanis's Chapter-0 field-issued Consumables and from Chapter-0 encounter payouts.
+
+## Campaign-scale target
+Before the display-scale multiplication, the completionist direct-cash target is approximately **65,000 former-scale Auren**.
+
+Under the current displayed denomination, this corresponds to roughly:
+> **650,000 Auren**
+
+The exact current calibration may land slightly above or below this target while preserving chapter pacing.
+
+## Currency glyph
+No dedicated currency symbol/glyph is currently authored. Do not invent one in implementation docs.
