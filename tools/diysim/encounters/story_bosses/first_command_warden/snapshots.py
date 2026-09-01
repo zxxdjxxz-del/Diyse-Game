@@ -36,6 +36,12 @@ def _base_class_for(character: str, *, root: Path | None = None) -> str:
     return next(iter(classes))
 
 
+def _clean_equipment_token(token: str) -> str:
+    # v105 writes the final loadout item as ordinary sentence prose, so the
+    # terminal full stop is punctuation rather than part of the item identity.
+    return token.strip().rstrip(".;")
+
+
 def _parse_v105_warden_setup(*, root: Path | None = None) -> tuple[tuple[int, int], tuple[str, ...], dict[str, tuple[str, ...]]]:
     text = read_repo_text(V105_PATH, root=root)
     block = extract_heading_block(text, "Chapter 3 — First Command Warden")
@@ -66,7 +72,9 @@ def _parse_v105_warden_setup(*, root: Path | None = None) -> tuple[tuple[int, in
         )
         if not match:
             raise SourceGapError(f"{V105_PATH} lacks First Command Warden equipment for {character}")
-        equipment[character] = tuple(part.strip() for part in match.group(1).rstrip(";").split(" / "))
+        equipment[character] = tuple(
+            _clean_equipment_token(part) for part in match.group(1).split(" / ")
+        )
 
     return levels, active, equipment
 
