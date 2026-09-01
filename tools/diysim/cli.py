@@ -5,21 +5,8 @@ from dataclasses import asdict
 import json
 
 from .battle import simulate_advanced
-from .core import (
-    CLASS_MULTIPLIERS,
-    adjusted_hit_chance,
-    cumulative_exp,
-    direct_damage,
-    exp_to_next_level,
-    level_from_exp,
-    natural_stats,
-    simulate,
-    sweep_enemy_stats,
-)
-from .encounters.story_bosses.hollow_watch_castellan import (
-    SmartPolicyConfig,
-    simulate_hollow_watch_smart,
-)
+from .core import adjusted_hit_chance, class_multipliers, cumulative_exp, direct_damage, exp_to_next_level, level_from_exp, natural_stats, simulate, sweep_enemy_stats
+from .encounters.story_bosses.hollow_watch_castellan import SmartPolicyConfig, simulate_hollow_watch_smart
 from .io import load_advanced_scenario, load_progression_route, load_scenario
 from .progression import project_progression, required_average_exp_per_encounter
 
@@ -35,13 +22,13 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="diysim", description="Diyse balance calculation and battle simulator")
     sub = parser.add_subparsers(dest="command", required=True)
 
-    stats = sub.add_parser("stats", help="calculate natural stats")
+    stats = sub.add_parser("stats", help="calculate natural stats from current repo authority")
     stats.add_argument("level", type=int)
-    stats.add_argument("--class", dest="class_name", choices=sorted(CLASS_MULTIPLIERS))
+    stats.add_argument("--class", dest="class_name", choices=sorted(class_multipliers()))
     for key in ("hp", "mp", "attack", "magic", "defense", "spirit", "speed"):
         stats.add_argument(f"--equip-{key}", type=int, default=0)
 
-    exp = sub.add_parser("exp", help="inspect level/EXP progression")
+    exp = sub.add_parser("exp", help="inspect current repo Player-EXP progression")
     group = exp.add_mutually_exclusive_group(required=True)
     group.add_argument("--level", type=int)
     group.add_argument("--current-exp", type=int)
@@ -59,34 +46,25 @@ def build_parser() -> argparse.ArgumentParser:
     damage.add_argument("--power", type=float, required=True)
     damage.add_argument("--def-pen", type=float, default=0)
     damage.add_argument("--spr-pen", type=float, default=0)
-    damage.add_argument("--physical-weight", type=float, default=0.5)
-    damage.add_argument("--magical-weight", type=float, default=0.5)
+    damage.add_argument("--physical-weight", type=float)
+    damage.add_argument("--magical-weight", type=float)
     damage.add_argument("--crit", action="store_true")
     damage.add_argument("--reduction", type=float, default=0)
 
-    sim = sub.add_parser("simulate", help="run Phase 1 Monte Carlo direct-battle tests")
+    sim = sub.add_parser("simulate", help="run simple Monte Carlo direct-battle tests")
     sim.add_argument("scenario")
     sim.add_argument("--runs", type=int, default=10_000)
     sim.add_argument("--seed", type=int, default=1)
 
-    advanced = sub.add_parser("simulate-advanced", help="run Phase 2 MP/element/status/healing battle tests")
+    advanced = sub.add_parser("simulate-advanced", help="run MP/element/status/healing battle tests")
     advanced.add_argument("scenario")
     advanced.add_argument("--runs", type=int, default=10_000)
     advanced.add_argument("--seed", type=int, default=1)
 
-    hollow_watch = sub.add_parser(
-        "hollow-watch",
-        help="run the authored Hollow Watch Castellan smart-policy benchmark",
-    )
-    hollow_watch.add_argument("--ruleset", choices=("current", "v93_oracle"), default="current")
+    hollow_watch = sub.add_parser("hollow-watch", help="run Hollow Watch from current repo authority")
     hollow_watch.add_argument("--runs", type=int, default=20_000)
     hollow_watch.add_argument("--seed", type=int, default=93)
-    hollow_watch.add_argument(
-        "--heal-trigger",
-        type=float,
-        default=0.55,
-        help="regression-policy HP fraction for Ilyra healing; not combat canon",
-    )
+    hollow_watch.add_argument("--heal-trigger", type=float, default=0.55, help="simulator policy threshold; not Diyse canon")
 
     sweep = sub.add_parser("sweep", help="sweep enemy HP/ATK/DEF multipliers")
     sweep.add_argument("scenario")
@@ -122,43 +100,28 @@ def main(argv: list[str] | None = None) -> int:
     elif args.command == "hit":
         print(adjusted_hit_chance(args.base_hit, args.evasion))
     elif args.command == "damage":
+        if args.kind == "hybrid" and (args.physical_weight is None or args.magical_weight is None):
+            raise SystemExit("hybrid damage requires --physical-weight and --magical-weight")
         print(direct_damage(
             args.kind,
-            attack=args.attack,
-            magic=args.magic,
-            defense=args.defense,
-            spirit=args.spirit,
-            power=args.power,
-            defense_penetration=args.def_pen,
-            spirit_penetration=args.spr_pen,
-            physical_weight=args.physical_weight,
-            magical_weight=args.magical_weight,
-            crit=args.crit,
-            direct_damage_reduction=args.reduction,
+            attack=args.attack, magic=args.magic, defense=args.defense, spirit=args.spirit,
+            power=args.power, defense_penetration=args.def_pen, spirit_penetration=args.spr_pen,
+            physical_weight=args.physical_weight, magical_weight=args.magical_weight,
+            crit=args.crit, direct_damage_reduction=args.reduction,
         ))
     elif args.command == "simulate":
-        summary = simulate(load_scenario(args.scenario), runs=args.runs, seed=args.seed)
-        print(json.dumps(summary.as_dict(), indent=2))
+        print(json.dumps(simulate(load_scenario(args.scenario), runs=args.runs, seed=args.seed).as_dict(), indent=2))
     elif args.command == "simulate-advanced":
-        summary = simulate_advanced(load_advanced_scenario(args.scenario), runs=args.runs, seed=args.seed)
-        print(json.dumps(summary.as_dict(), indent=2))
+        print(json.dumps(simulate_advanced(load_advanced_scenario(args.scenario), runs=args.runs, seed=args.seed).as_dict(), indent=2))
     elif args.command == "hollow-watch":
         summary = simulate_hollow_watch_smart(
-            ruleset=args.ruleset,
             policy=SmartPolicyConfig(heal_trigger_hp_fraction=args.heal_trigger),
             runs=args.runs,
             seed=args.seed,
         )
         print(json.dumps(asdict(summary), indent=2))
     elif args.command == "sweep":
-        rows = sweep_enemy_stats(
-            load_scenario(args.scenario),
-            hp_multipliers=args.hp,
-            attack_multipliers=args.attack,
-            defense_multipliers=args.defense,
-            runs=args.runs,
-            seed=args.seed,
-        )
+        rows = sweep_enemy_stats(load_scenario(args.scenario), hp_multipliers=args.hp, attack_multipliers=args.attack, defense_multipliers=args.defense, runs=args.runs, seed=args.seed)
         print(json.dumps(rows, indent=2))
     elif args.command == "route":
         start_exp, segments = load_progression_route(args.route_file)
@@ -169,21 +132,8 @@ def main(argv: list[str] | None = None) -> int:
         if args.start_exp is None and args.start_level is None:
             raise SystemExit("provide --start-exp or --start-level")
         start_exp = args.start_exp if args.start_exp is not None else cumulative_exp(args.start_level)
-        average = required_average_exp_per_encounter(
-            start_exp=start_exp,
-            target_level=args.target_level,
-            target_level_progress=args.target_progress,
-            encounter_count=args.encounters,
-            fixed_exp=args.fixed_exp,
-        )
-        print(json.dumps({
-            "start_exp": start_exp,
-            "target_level": args.target_level,
-            "target_progress": args.target_progress,
-            "encounters": args.encounters,
-            "fixed_exp": args.fixed_exp,
-            "required_average_exp_per_encounter": average,
-        }, indent=2))
+        average = required_average_exp_per_encounter(start_exp=start_exp, target_level=args.target_level, target_level_progress=args.target_progress, encounter_count=args.encounters, fixed_exp=args.fixed_exp)
+        print(json.dumps({"start_exp": start_exp, "target_level": args.target_level, "target_progress": args.target_progress, "encounters": args.encounters, "fixed_exp": args.fixed_exp, "required_average_exp_per_encounter": average}, indent=2))
     return 0
 
 
