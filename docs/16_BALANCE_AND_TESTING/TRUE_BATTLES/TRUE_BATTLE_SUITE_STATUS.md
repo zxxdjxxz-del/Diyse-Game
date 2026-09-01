@@ -1,5 +1,5 @@
 # Diyse — Representative True-Battle Suite Status
-**v101**
+**v102**
 
 ## Certified
 1. **Hollow Watch Castellan — Chapter 1 / S008** — **PASS / RETAIN**
@@ -34,15 +34,22 @@
    - one timed Awakened Last Sentinel: **100% wins / median 15 total combat rounds / mean 15.34 / P90 17** over 10,000 runs;
    - Last Sentinel crossed the genuine Form-I → Form-II transition in **99.04%** of timed stress runs without restoring the spent Prime identity;
    - legal Last Sentinel → 2 full normal rounds → Last Convergence stress: **100% wins / median 15 total rounds / mean 15.17 / P90 17** over 10,000 runs;
-   - chained-Primes mean ending MP **43.77%** and mean consumables **0.98**, versus no-Prime **12.18% MP / 3.45 consumables**;
-   - completionist fixed-content Lv48 and RH9-legal Lv49 no-Prime references both produced **median 12 rounds**, inside the authored 11–13 target;
+   - completionist fixed-content Lv48 and RH9-legal Lv49 no-Prime references both produced **median 12 rounds**;
    - Demolition Breaker remained behaviorally relevant without producing a structural wipe pattern;
-   - both HP bodies, all raw stats/Powers/status chances/repetition locks, Demolition Breaker, the 18% Exposed Rhazek state, and current Prime persistence rules retained unchanged;
+   - current encounter package retained unchanged;
    - detailed certification: `RHAZEK_BASTION_DEVOURER_TRUE_BATTLE_v101.md`.
+6. **Emperor Vaelkor Draeven → Sovereign Panoply Unbound — Chapter 12** — **v102 PASS / RETAIN**
+   - prepared mandatory Lv56, no Prime: **100% wins / median 21 / mean 22.46 / P90 29** over 5,000 runs;
+   - one timed Awakened Last Sentinel: **100% wins / median 20 / mean 20.70 / P90 25** over 5,000 runs;
+   - the same Last Sentinel manifestation crossed the genuine fresh-body transition in **95.90%** of timed one-Prime runs with no spent-Prime restoration;
+   - legal Last Sentinel → 2 full normal rounds → Last Convergence stress: **100% wins / median 19 / mean 19.14 / P90 23** over 5,000 runs, **0% any-KO**;
+   - completionist Lv66 native-Legacy reference: **100% wins / median 15 / mean 14.68 / P90 17** over 5,000 runs, **0% any-KO**;
+   - Sovereign Overrun Preparation appeared in **70.32%** of no-Prime runs and resolved in **63.32%**, with no unavoidable wipe signature;
+   - Form-I HP16,800 / Form-II HP20,200 / raw stats / Powers / Overrun / Final Sovereignty / fresh-body rules retained unchanged;
+   - detailed certification: `VAELKOR_SOVEREIGN_PANOPLY_TRUE_BATTLE_v102.md`.
 
 ## Next representative anchors
-6. **Emperor Vaelkor Draeven → Sovereign Panoply Unbound — Chapter 12** — next late mandatory full-system two-body / persistent-Prime-spend test.
-7. **Reconstituted Entity → The Last Command — Chapter 13** — final mandatory two-body test.
+7. **Reconstituted Entity → The Last Command — Chapter 13** — next and final mandatory two-body certification.
 8. **The Unfinished World** — exhaustive completionist full-kit stress test.
 
 Optional additional representative if needed before suite closure:
