@@ -36,6 +36,17 @@ from .models import (
     TemporaryModifierSpec,
 )
 from .mp import resolve_mp_cost
+from .replay import (
+    BoundedReplayRule,
+    RecordedDamageSignature,
+    ReplayCommandCategory,
+    ResolvedReplayAction,
+    record_completed_damage_action,
+    replay_category_eligible,
+    resolve_bounded_replay,
+    split_total_power_evenly,
+    transform_bounded_replay,
+)
 from .simple_runtime import ActionProfile, BattleOutcome, BattleScenario, CombatantTemplate, SimulationSummary, run_battle, simulate
 from .status_runtime import bleed_rate, clear_bleed_if_full, complete_turn, end_round, turn_is_blocked
 from .statuses import apply_status, status_application_chance
@@ -45,18 +56,20 @@ from .turn_order import turn_order
 __all__ = [
     "ActionKind", "ActionProfile", "ActiveStatus", "ActiveTemporaryModifier",
     "AdvancedBattleOutcome", "AdvancedBattleScenario", "AdvancedSimulationSummary",
-    "Affinity", "BattleOutcome", "BattleScenario", "CombatAction", "CombatRules",
-    "CombatUnit", "Combatant", "CombatantTemplate", "DamageKind", "Element", "Rank",
-    "Side", "SimulationSummary", "StatusName", "StatusRider", "TargetScope",
-    "TargetSide", "TemporaryModifierSpec", "adjusted_hit_chance",
+    "Affinity", "BattleOutcome", "BattleScenario", "BoundedReplayRule",
+    "CombatAction", "CombatRules", "CombatUnit", "Combatant", "CombatantTemplate",
+    "DamageKind", "Element", "Rank", "RecordedDamageSignature", "ReplayCommandCategory",
+    "ResolvedReplayAction", "Side", "SimulationSummary", "StatusName", "StatusRider",
+    "TargetScope", "TargetSide", "TemporaryModifierSpec", "adjusted_hit_chance",
     "affinity_damage_multiplier", "apply_status", "apply_temporary_modifier",
     "base_crit_chance", "basic_attack_action", "bleed_rate", "clear_bleed_if_full",
     "complete_turn", "crit_chance_cap", "crit_multiplier", "direct_damage",
     "effective_attack", "effective_defense", "effective_magic", "effective_speed",
     "effective_spirit", "effective_status_resistance", "element_affinity", "end_round",
     "healing_amount", "linked_status_affinity_modifier", "load_combat_rules",
-    "magical_damage", "physical_damage", "resolve_damage", "resolve_heal",
+    "magical_damage", "physical_damage", "record_completed_damage_action",
+    "replay_category_eligible", "resolve_bounded_replay", "resolve_damage", "resolve_heal",
     "resolve_mp_cost", "run_advanced_battle", "run_battle", "selectable_actions",
-    "simulate", "simulate_advanced", "status_application_chance",
-    "tick_temporary_modifiers", "turn_is_blocked", "turn_order",
+    "simulate", "simulate_advanced", "split_total_power_evenly", "status_application_chance",
+    "tick_temporary_modifiers", "transform_bounded_replay", "turn_is_blocked", "turn_order",
 ]
