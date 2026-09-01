@@ -11,6 +11,7 @@ from .audit import SourceAuditIssue, SourceAuditReport, audit_repo_sources
 from .dynamic_hits import DynamicElementHitRuleSource, parse_dynamic_element_hit_rule_text
 from .enemies import EnemySystemRules, MissingWeightSelection, load_enemy_system_rules
 from .entities import EntityRole, EntityStatSource, parse_entity_stat_sources
+from .equipment import EquipmentSource, combine_equipment_bonuses, load_equipment, load_equipment_register
 from .markdown import (
     extract_heading_block,
     extract_markdown_table,
@@ -41,6 +42,7 @@ __all__ = [
     "EnemySystemRules",
     "EntityRole",
     "EntityStatSource",
+    "EquipmentSource",
     "FunctionalAnalogueRuleSource",
     "MissingWeightSelection",
     "OWNER_DOMAINS",
@@ -58,6 +60,7 @@ __all__ = [
     "audit_owner_file",
     "audit_repo_sources",
     "audit_simulation_readiness",
+    "combine_equipment_bonuses",
     "extract_heading_block",
     "extract_markdown_table",
     "extract_markdown_tables",
@@ -70,6 +73,8 @@ __all__ = [
     "load_ability_source",
     "load_enemy_registry",
     "load_enemy_system_rules",
+    "load_equipment",
+    "load_equipment_register",
     "load_named_action_source",
     "load_party_rules",
     "load_stat_row",
