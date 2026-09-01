@@ -7,7 +7,7 @@
 ## Active
 ### Representative true-battle certification
 Status:
-> **ACTIVE — v101 complete; Vaelkor → Sovereign Panoply Unbound next**
+> **ACTIVE — v102 complete; Reconstituted Entity → The Last Command next**
 
 Static enemy design is closed and Chapters 0–13 have completed mandatory-vs-completionist paper validation. CEXP is recalibrated. The current targeted certification step is the representative full turn-by-turn battle suite using reproducible party snapshots.
 
@@ -16,27 +16,30 @@ Completed representative anchors:
 - Archive Leviathan — **PASS / RETAIN v97**;
 - Regulation Crucible → The Seventh Reaction — **PASS / RETAIN v99**;
 - Warden of the Nameless / Revision Arbiter — **PASS / RETAIN v100**;
-- Commander Rhazek — Reforged Commander → Bastion Devourer — **PASS / RETAIN v101**.
+- Commander Rhazek — Reforged Commander → Bastion Devourer — **PASS / RETAIN v101**;
+- Emperor Vaelkor Draeven → Sovereign Panoply Unbound — **PASS / RETAIN v102**.
 
-Rhazek v101 key result:
-- mandatory Lv40 no Prime — **100% wins / median 14 / mean 14.48 / P90 17** over 20,000 runs;
-- timed Last Sentinel — **100% wins**, crossing the genuine fresh-body transition in **99.04%** of stress runs with no spent-Prime restoration;
-- legal Last Sentinel → 2 full normal rounds → Last Convergence chain — **100% wins / median 15 total rounds**, improving resource preservation without erasing encounter duration;
-- completionist Lv48–49 no-Prime median — **12 rounds**;
-- all HP/raw stats/Powers, Demolition Breaker, Exposed Rhazek, and Prime persistence rules retained.
+Vaelkor v102 key result:
+- prepared mandatory Lv56 no Prime — **100% wins / median 21 / mean 22.46 / P90 29** over 5,000 runs;
+- one timed Last Sentinel — **100% wins / median 20 / mean 20.70 / P90 25**, with the same manifestation crossing the genuine fresh body in **95.90%** of timed runs and no spent-Prime restoration;
+- legal Last Sentinel → 2 full normal rounds → Last Convergence chain — **100% wins / median 19 / mean 19.14 / P90 23**, with **0% any-KO**;
+- completionist Lv66 native-Legacy reference — **100% wins / median 15 / mean 14.68 / P90 17**;
+- Sovereign Overrun remained behaviorally relevant without an unavoidable wipe pattern;
+- all HP/raw stats/Powers, Overrun, Final Sovereignty, and Prime persistence rules retained.
 
 Current next anchor:
-> **Emperor Vaelkor Draeven — Emperor of the Reforged Host → Sovereign Panoply Unbound — Chapter 12 / mandatory Lv56 / completionist Lv66**
+> **Reconstituted Entity → The Last Command — Chapter 13 — final mandatory two-body certification**
 
-Vaelkor testing must use:
-- exact Chapter-12 party/class state and legal equipment/reward access;
+The final mandatory test must use:
+- exact Chapter-13 pre-final-boss Player Level / CEXP state;
+- current Base/Subclass completion state and all legally learned abilities;
+- exact legal late-game equipment/Legacy and consumable access for mandatory and completionist references;
 - current fixed turn-entry initiative;
 - current one-use-until-restored Awakened Prime economy;
-- genuine fresh Sovereign Panoply body **not** restoring spent Prime identities;
-- separate 2-full-normal-round post-dismissal spacing;
-- Sovereign Overrun's protected one-round Preparation;
-- Final Sovereignty's same-bar 25% state;
-- current percentage temporary-stat, status-conversion, Bleed-escalation, Card, summon, and class rules.
+- the genuine fresh Last Command body **not** restoring spent Prime identities;
+- the separate 2-full-normal-round post-dismissal spacing rule;
+- current percentage temporary-stat, status-conversion, Bleed-escalation, Card, summon, and class rules;
+- all final-boss authored phase/state mechanics from the current owner file.
 
 Each tested boss must have:
 - exact story point / Player Level;
@@ -47,7 +50,7 @@ Each tested boss must have:
 - starting HP/MP;
 - full action-by-action resource/status/phase record.
 
-The remaining representative suite should cover Vaelkor, the final mandatory boss, and The Unfinished World. Calder → Crown-Bound Living Anchor remains a useful optional added representative if the suite needs a dedicated support-object/fresh-body case before Vaelkor.
+After the final mandatory boss, the remaining required representative anchor is **The Unfinished World** as the exhaustive completionist full-kit stress test. Calder → Crown-Bound Living Anchor remains an optional added representative if a dedicated support-object/fresh-body case is still useful before suite closure.
 
 ### Enemy static/paper work
 Status:
