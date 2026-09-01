@@ -63,25 +63,27 @@ Completed:
 - **Hollow Watch Castellan — v93 PASS / RETAIN**;
 - **Archive Leviathan — v97 PASS / RETAIN**;
 - **Regulation Crucible → The Seventh Reaction — v99 PASS / RETAIN**;
-- **Warden of the Nameless / Revision Arbiter — v100 PASS / RETAIN**.
+- **Warden of the Nameless / Revision Arbiter — v100 PASS / RETAIN**;
+- **Commander Rhazek — Reforged Commander → Bastion Devourer — v101 PASS / RETAIN**.
 
-Revision Arbiter v100:
-- mandatory Lv30, no Prime — **100% wins / median 11 / mean 10.76 / P90 12** over 20,000 runs;
-- mandatory Lv30 + one Awakened Last Sentinel — **100% wins / median 9 total combat rounds / mean 9.43 / P90 11** over 10,000 runs;
-- completionist Lv34 no-Prime reference — **median 8 / mean 8.01 / P90 9**;
-- HP7,600 / raw stats / Powers / layer counts / action-tax structure retained unchanged.
+Rhazek v101:
+- mandatory Lv40 no Prime — **100% wins / median 14 / mean 14.48 / P90 17** over 20,000 runs;
+- one timed Last Sentinel — **100% wins / median 15 total rounds**, with the Prime crossing the genuine fresh-body transition in **99.04%** of stress runs and no spent-identity restoration;
+- legal Last Sentinel → 2 full normal rounds → Last Convergence — **100% wins / median 15 total rounds**, preserving resources without trivializing duration;
+- completionist Lv48–49 no Prime — **median 12 rounds**;
+- both raw bodies, all Powers/status chances/repetition locks, Demolition Breaker, Exposed Rhazek, and persistent Prime spending retained unchanged.
 
 Detailed report:
-`../../16_BALANCE_AND_TESTING/TRUE_BATTLES/REVISION_ARBITER_TRUE_BATTLE_v100.md`
+`../../16_BALANCE_AND_TESTING/TRUE_BATTLES/RHAZEK_BASTION_DEVOURER_TRUE_BATTLE_v101.md`
 
 ## Current next representative anchor
-> **Chapter 9 — Commander Rhazek: Reforged Commander → Bastion Devourer**
+> **Chapter 12 — Emperor Vaelkor Draeven → Sovereign Panoply Unbound**
 
 Reference route levels:
-- mandatory **Lv40**;
-- completionist **Lv49**.
+- mandatory **Lv56**;
+- completionist fixed-content **Lv66**.
 
-This is the next chronological genuine-fresh-body test of the current persistent-spend Prime model.
+This is the next late mandatory full-system genuine-fresh-body test of the current persistent-spend Prime model.
 
 ## Paper-validation status
 All mandatory story-boss raw bodies and action kits remain paper/static validated through the final boss. Individual owner files retain the detailed chapter-level certification notes and encounter behavior.
