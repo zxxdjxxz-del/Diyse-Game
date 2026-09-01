@@ -162,10 +162,7 @@ jobs:
           from tools.diysim.encounters.story_bosses.matron_zevraya import simulate_matron_zevraya
           from tools.diysim.overlays import BalanceOverlay
 
-          overlay = BalanceOverlay(
-              direct_damage_power_multiplier=1.20,
-              effective_stat_level_offset=5,
-          )
+          overlay = BalanceOverlay(direct_damage_power_multiplier=1.20)
           results = {}
           for level in (24, 28):
               for strategy in ("rush", "dismantle"):
@@ -178,7 +175,7 @@ jobs:
                       runs=2000,
                       seed=106,
                   )
-                  results[f"lv{level}_non_diluting_{strategy}_power_x1_20_boss_plus5_prepared"] = asdict(summary)
+                  results[f"lv{level}_non_diluting_{strategy}_power_x1_20_prepared"] = asdict(summary)
           print(json.dumps(results, indent=2, sort_keys=True))
           PY
 
