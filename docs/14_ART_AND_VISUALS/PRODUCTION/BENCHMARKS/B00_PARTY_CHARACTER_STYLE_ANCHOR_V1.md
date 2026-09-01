@@ -1,7 +1,7 @@
 # Diyse — B00 Party Character Style Anchor v1
 
 **Benchmark:** B00 — Permanent Party / Character Style Anchor  
-**Status:** **IN PROGRESS — CYANIS LOCKED / ILYRA CLEANUP REVIEW OPEN**  
+**Status:** **IN PROGRESS — CYANIS + ILYRA APPROVED / 2 OF 6 PARTY MASTERS LOCKED**  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`
 
 ## 1. Scope
@@ -17,7 +17,7 @@ The permanent party is Cyanis, Ilyra, Torren, Nimera, Vaelira, and Seyrik. B00 d
 | Character | State |
 |---|---|
 | Cyanis | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
-| Ilyra | **PROVISIONAL DESIGN LOCK — CLEAN REMAKE + CLOTHING REVIEW REQUIRED** |
+| Ilyra | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Torren | Pending new-style master |
 | Nimera | Pending new-style master |
 | Vaelira | Pending new-style master |
@@ -27,19 +27,25 @@ Current authorities:
 - `CYANIS_CURRENT_VISUAL_LOCK.md`
 - `ILYRA_CURRENT_VISUAL_LOCK.md`
 
-## 3. Ilyra reopened review
+## 3. Approved-anchor significance
 
-Ilyra was briefly recorded as a locked second master, but user review reopened that decision before progression continued. Her approved design direction remains the target, while the image itself must be remade cleanly and checked for correct garment construction before final approval.
+Cyanis and Ilyra are the first two real B00 anchors. Together they establish:
+- mature seinen/anime proportions;
+- graphic cel-informed values rather than soft-brushed rendering;
+- strong clean silhouettes;
+- coherent garment/armor construction;
+- clear cloth/leather/metal material separation;
+- restrained, deliberate ornament;
+- controlled metallic highlight planes;
+- deliberate variable line hierarchy;
+- no random speckle/grunge dependency;
+- no painterly direction.
 
-The next Ilyra pass must use the user-supplied image as exact visual reference and should be a fresh clean remake rather than artifact patching.
-
-Until explicit approval of that clean rebuild:
-
-> **B00 has 1 fully locked master (Cyanis) + 1 provisional design target (Ilyra).**
+Their exact approved renders are fingerprinted in their character visual-lock files so later work cannot silently drift back to superseded variants.
 
 ## 4. New-style master requirements
 
-Every party master must establish:
+Every remaining party master must establish:
 - mature seinen/anime proportions and facial construction;
 - approved identity without accidental age/face drift;
 - visibly variable line weight with tapered/broken/selective contours;
@@ -47,8 +53,8 @@ Every party master must establish:
 - large readable hair masses;
 - graphic cel-informed shading with roughly 2–4 dominant value groups;
 - clean material separation between skin, hair, cloth, leather, metal, and magical elements;
-- rich but controlled color;
 - coherent clothing/armor construction;
+- rich but controlled color;
 - no painterly/soft-brushed rendering;
 - no glossy mobile-gacha finish;
 - no photoreal rendering;
@@ -94,4 +100,4 @@ Earlier material-family work is not automatically invalidated, but it must confo
 
 Current state:
 
-`VISUAL STYLE LOCKED → CYANIS MASTER APPROVED → ILYRA CLEANUP REVIEW OPEN → 4 OTHER PARTY MASTERS PENDING → BATTLE/FIELD DERIVATIVES PENDING`
+`VISUAL STYLE LOCKED → CYANIS + ILYRA MASTERS APPROVED → 4 PARTY MASTERS REMAIN → BATTLE/FIELD DERIVATIVES PENDING`
