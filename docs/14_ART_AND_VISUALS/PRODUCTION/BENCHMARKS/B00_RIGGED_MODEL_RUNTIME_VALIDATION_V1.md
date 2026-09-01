@@ -1,6 +1,6 @@
 # Diyse — B00 Rigged Character Runtime Validation v1
 
-**Status:** **ACTIVE B00 RUNTIME GATE**  
+**Status:** **ACTIVE B00 RUNTIME GATE — V5 RIG SOURCE VERIFIED / GODOT PILOT NEXT**  
 **Parent benchmark:** `B00_PARTY_CHARACTER_STYLE_ANCHOR_V1.md`  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`  
 **Character readability authority:** `../CHARACTER_SCALE_AND_SILHOUETTE.md`  
@@ -8,7 +8,7 @@
 
 ## 1. Runtime decision
 
-Diyse's permanent party should use **rigged 3D character models as the primary field and battle representation** when a production-usable rigged model is available.
+Diyse's permanent party should use **rigged 3D character models as the primary field and battle representation**.
 
 The previously planned dedicated ~200–220 px battle redraws and ~80 px field sprites are **not a required B00 production gate** under this runtime direction.
 
@@ -16,13 +16,22 @@ The six approved high-resolution B00 character masters remain essential. They ar
 
 2D character art remains appropriate for dialogue portraits/busts, menus, Cards/Primes, illustrated cut-ins, promotional art and deliberately 2D special presentation approved later.
 
-## 2. Prototype rig foundation
+## 2. Prototype rig foundation — verified in Master v5
 
-The official prototype foundation is a **Quaternius-compatible humanoid skeleton/rig** as defined in `../QUATERNIUS_HUMANOID_RIG_STANDARD_V1.md`.
+The official prototype foundation is the **Quaternius Universal Animation Library humanoid `Armature`**, defined in `../QUATERNIUS_HUMANOID_RIG_STANDARD_V1.md`.
 
-This is a technical compatibility decision, not visual character authority. Final party models must become Diyse-original visible characters matching the fingerprinted B00 masters while retaining shared rig/animation compatibility wherever practical.
+This rig is already present inside the two verified-CC0 animation archives represented by Asset Library Master v5. The user's re-uploaded copies in the active project conversation exactly match the v5 archive SHA-256 values.
 
-Current source-state warning: the two Quaternius Universal Animation Library archives are represented by the authoritative asset manifest, but the current repo records do **not** yet preserve/list the Universal Base Character source archive used for the humanoid base. The exact rig pilot file/source must therefore be identified and hashed before reproducible production import is claimed.
+Important correction: a separate Universal Base Character ZIP is **not required** for the B00 prototype. The animation-library GLBs themselves contain a rigged `Mannequin` mesh and `Armature` skin.
+
+Verified pilot payload includes:
+- `UAL1_Standard.glb` — `Mannequin` + `Armature` + **43 animations**;
+- `UAL1_Standard_RM.glb` — same family with root motion;
+- `UAL2_Standard.glb` — `Mannequin` + `Armature` + **43 additional animations**;
+- `UAL2_Standard_RM.glb` — root-motion counterpart;
+- `Mannequin_F.glb` — female mannequin on the compatible `Armature`, intended for animation retargeting.
+
+The two libraries therefore supply the already-recorded **86 verified-CC0 animation clips** plus the actual prototype mannequin/rig geometry required for import testing.
 
 ## 3. One character model, multiple runtime contexts
 
@@ -141,7 +150,11 @@ A battle model passes when:
 
 ## 9. Animation / rig validation
 
-The current rigged character solution must pass:
+The v5 Quaternius rig solution must pass:
+- clean Godot import of `UAL1_Standard.glb`;
+- `Armature` hierarchy/rest-pose inspection;
+- all 43 UAL1 animations visible/imported;
+- non-root-motion vs `_RM` comparison;
 - neutral idle;
 - walk / run;
 - turn / direction change;
@@ -151,9 +164,11 @@ The current rigged character solution must pass:
 - defend/guard presentation where applicable;
 - ability casting/action pose;
 - KO/downed state;
+- female mannequin retarget test;
+- UAL2 animation extension test;
 - transition between exploration and combat presentation if the same rig is reused directly.
 
-The verified-CC0 Quaternius Universal Animation Library packages may be used as retargeting/prototyping sources, but retargeted motion is not automatically final. Each clip must be checked for Diyse character weight, weapon logic, foot contact, hand placement and silhouette.
+Retargeted motion is not automatically final. Each clip must be checked for Diyse character weight, weapon logic, foot contact, hand placement and silhouette.
 
 ## 10. Character-specific runtime stress tests
 
@@ -177,26 +192,33 @@ Test broad muscular proportions, red-dominant coat, Black Host skeletal/biomecha
 
 ## 11. B00 model-validation sequence
 
+Completed:
 1. preserve the six fingerprinted B00 masters as visual authority;
-2. identify/hash the exact Quaternius-compatible rigged humanoid pilot file/source;
-3. validate skeleton/retarget compatibility and animation import in Godot;
-4. create one B00-faithful character model/material pilot;
-5. validate neutral studio render against the approved master;
-6. validate the same model at field camera distance;
-7. validate the same model at battle camera distance;
-8. test idle/walk/run/basic battle animation;
-9. test representative B01 stone, B03 foliage and B10 prop environment context;
-10. test representative B06 VFX overlap;
-11. correct shader/outline/LOD/rig issues;
-12. propagate the proven model/material/rig grammar across all six characters;
-13. compare all six together for silhouette and palette separation;
-14. close B00 only after the runtime models belong visibly to the same game as the approved masters and benchmark environments.
+2. identify/hash the exact Quaternius-compatible rigged humanoid pilot source inside Master v5.
+
+Next:
+3. import `UAL1_Standard.glb` into Godot and validate skeleton/animation behavior;
+4. compare `_RM` root-motion behavior;
+5. validate `Mannequin_F.glb` retargeting on the same rig contract;
+6. create one B00-faithful character model/material pilot;
+7. validate neutral studio render against the approved master;
+8. validate the same model at field camera distance;
+9. validate the same model at battle camera distance;
+10. test idle/walk/run/basic battle animation;
+11. test representative B01 stone, B03 foliage and B10 prop environment context;
+12. test representative B06 VFX overlap;
+13. correct shader/outline/LOD/rig issues;
+14. propagate the proven model/material/rig grammar across all six characters;
+15. compare all six together for silhouette and palette separation;
+16. close B00 only after the runtime models belong visibly to the same game as the approved masters and benchmark environments.
 
 ## 12. First pilot
 
-Use the **Quaternius-compatible humanoid rig** as the technical foundation.
+Use `Universal Animation Library[Standard]/Unreal-Godot/UAL1_Standard.glb` as the default technical pilot because it already contains the `Mannequin`, `Armature` and 43 non-root-motion animations in a Godot-targeted glTF container.
 
-Once the exact pilot file is recovered/identified, **Cyanis** remains the preferred first character-style target if the base proportions are compatible because his blue/black cloth plus silver armor gives a clean material and outline baseline. A different first technical target is allowed only if the available compatible base is materially better suited, without changing canon priority.
+Use its `_RM` sibling for root-motion comparison and `Mannequin_F.glb` for shared-rig female-proportion validation.
+
+Once the rig itself passes, **Cyanis** remains the preferred first B00 character-style target because his blue/black cloth plus silver armor gives a clean material and outline baseline.
 
 ## 13. Asset Forge / Godot boundary
 
@@ -210,4 +232,4 @@ Do not mistake a successful offline Asset Forge render for final runtime approva
 
 Current B00 gate:
 
-`6/6 HIGH-RES MASTERS LOCKED → QUATERNIUS-COMPATIBLE RIG STANDARD LOCKED → EXACT RIG PILOT FILE IDENTIFIED/HASHED → GODOT MODEL/SHADER/RIG PILOT → FIELD + BATTLE CAMERA VALIDATION → B01/B03/B10/B06 CROSS-CHECK → B00 PASS`
+`6/6 HIGH-RES MASTERS LOCKED → V5 QUATERNIUS RIG SOURCE VERIFIED → GODOT IMPORT/ROOT-MOTION/RETARGET TEST NEXT → B00 MODEL/SHADER PILOT → FIELD + BATTLE CAMERA VALIDATION → B01/B03/B10/B06 CROSS-CHECK → B00 PASS`
