@@ -40,6 +40,7 @@ def enemy_runtime_coverage_dict(*, root: Path | None = None, include_definitions
         "enemy_sheets": report.enemy_sheets,
         "support_components": report.components,
         "generic": report.generic,
+        "formation": report.formation,
         "special": report.special,
         "blocked": report.blocked,
         "unclassified": report.unclassified,
@@ -57,7 +58,9 @@ def enemy_runtime_coverage_dict(*, root: Path | None = None, include_definitions
                 "kind": definition.kind,
                 "displayed_level": definition.displayed_level,
                 "special_runtime": definition.special_runtime,
+                "runtime_tags": sorted(definition.combatant.runtime_tags) if definition.combatant else [],
                 "direct_damage_actions": [action.name for action in definition.direct_damage_actions],
+                "effect_actions": [action.name for action in definition.effect_actions],
                 "blockers": list(definition.blockers),
             }
             for definition in report.definitions
