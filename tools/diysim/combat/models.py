@@ -26,6 +26,33 @@ class StatusRider:
 
 
 @dataclass(frozen=True)
+class TemporaryModifierSpec:
+    """An authored temporary modifier applied by an action.
+
+    Status Resistance uses flat points by canon. Core percentage-stat support
+    can be added to this model when that section is implemented; it is not
+    inferred here.
+    """
+
+    effect_id: str
+    duration_rounds: int
+    status_resistance_flat: int = 0
+
+    def __post_init__(self) -> None:
+        if not self.effect_id:
+            raise ValueError("effect_id is required")
+        if self.duration_rounds < 1:
+            raise ValueError("duration_rounds must be positive")
+
+
+@dataclass
+class ActiveTemporaryModifier:
+    effect_id: str
+    remaining_rounds: int
+    status_resistance_flat: int = 0
+
+
+@dataclass(frozen=True)
 class CombatAction:
     name: str
     action_kind: ActionKind = "damage"
@@ -47,6 +74,7 @@ class CombatAction:
     healing_potency: float = 1.0
     clear_harmful_statuses: int | Literal["all"] = 0
     status_riders: tuple[StatusRider, ...] = ()
+    temporary_modifiers: tuple[TemporaryModifierSpec, ...] = ()
     weight: float = 1.0
 
 
@@ -83,6 +111,7 @@ class CombatUnit:
     hp: int = field(init=False)
     mp: int = field(init=False)
     statuses: dict[StatusName, ActiveStatus] = field(default_factory=dict)
+    temporary_modifiers: dict[str, ActiveTemporaryModifier] = field(default_factory=dict)
     ko_counted: bool = False
 
     def __post_init__(self) -> None:
