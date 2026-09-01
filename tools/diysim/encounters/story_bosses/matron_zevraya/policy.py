@@ -51,10 +51,22 @@ def _direct_action(ability: str, class_name: str, *, chosen_element: str | None 
 
     if parsed.element_mode == "fixed" and parsed.element is not None:
         element = parsed.element
-    elif chosen_element is not None:
-        element = chosen_element
     else:
-        raise SourceGapError(f"{class_name} / {ability} requires a player element choice")
+        # Some normalized ability rows write compact Hybrid identity as
+        # "Hybrid / Neutral 75% Attack / 25% Magic". Read the fixed element
+        # directly from that authored owner text rather than treating it as a
+        # player-selectable element or supplying a fallback value.
+        fixed = re.search(
+            r"\b(?:Physical|Magical|Hybrid)\s*/\s*(Neutral|Colorless|Fire|Ice|Lightning|Earth|Ruin)\b",
+            source.owner_effect,
+            re.I,
+        )
+        if fixed:
+            element = fixed.group(1).lower()
+        elif chosen_element is not None:
+            element = chosen_element
+        else:
+            raise SourceGapError(f"{class_name} / {ability} requires a player element choice")
 
     def_pen = re.search(r"(\d+)% Defense penetration", source.owner_effect, re.I)
     spr_pen = re.search(r"(\d+)% Spirit penetration", source.owner_effect, re.I)
