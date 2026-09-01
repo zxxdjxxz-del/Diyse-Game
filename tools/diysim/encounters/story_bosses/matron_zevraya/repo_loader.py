@@ -226,8 +226,14 @@ def _finite_targets(text: str) -> dict[str, FiniteTargetSource]:
     return result
 
 
-def _support_actor(text: str, heading: str, action_name: str) -> PhysicalSupportActorSource:
-    block = extract_heading_block(text, heading)
+def _support_actor(
+    text: str,
+    source_heading: str,
+    action_name: str,
+    *,
+    display_name: str | None = None,
+) -> PhysicalSupportActorSource:
+    block = extract_heading_block(text, source_heading)
     values: dict[str, int] = {}
     for label in ("HP", "ATK", "DEF", "Spirit", "SPD", "EVA", "SR"):
         match = re.search(rf"^- {re.escape(label)}\s+\*\*(\d+)\*\*|^- {re.escape(label)}(\d+)$", block, re.I | re.M)
@@ -240,9 +246,9 @@ def _support_actor(text: str, heading: str, action_name: str) -> PhysicalSupport
                 values[label] = int(match.group(1))
     missing = [label for label in ("HP", "ATK", "DEF", "Spirit", "SPD", "EVA", "SR") if label not in values]
     if missing:
-        raise SourceGapError(f"{OWNER_PATH} {heading} missing: {', '.join(missing)}")
+        raise SourceGapError(f"{OWNER_PATH} {source_heading} missing: {', '.join(missing)}")
     return PhysicalSupportActorSource(
-        name=heading,
+        name=display_name or source_heading,
         hp=values["HP"],
         attack=values["ATK"],
         defense=values["DEF"],
@@ -300,7 +306,12 @@ def load_zevraya_repo_data(*, root: Path | None = None) -> ZevrayaRepoData:
         weather_conduction=_conduction(text, "Weather Conduction"),
         perfected_conduction=_conduction(text, "Perfected Conduction"),
         brood_organism=_support_actor(text, "Crimson Brood Organism", "Brood Rend"),
-        perfected_brood_organism=_support_actor(text, "Perfected Brood Organism", "Perfected Brood Rend"),
+        perfected_brood_organism=_support_actor(
+            text,
+            "Brood survived",
+            "Perfected Brood Rend",
+            display_name="Perfected Brood Organism",
+        ),
         crimson_trigger_fraction=int(trigger.group(1)) / 100.0,
         non_diluting_candidate_documented=documented_candidate,
     )
