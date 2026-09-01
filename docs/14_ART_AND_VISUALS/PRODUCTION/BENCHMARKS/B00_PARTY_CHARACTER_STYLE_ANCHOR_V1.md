@@ -1,9 +1,10 @@
 # Diyse — B00 Party Character Style Anchor v1
 
 **Benchmark:** B00 — Permanent Party / Character Style Anchor  
-**Status:** **HIGH-RES PARTY MASTER SET COMPLETE — 6 OF 6 LOCKED / RIGGED MODEL RUNTIME VALIDATION ACTIVE**  
+**Status:** **HIGH-RES PARTY MASTER SET COMPLETE — 6 OF 6 LOCKED / V5 RIG SOURCE VERIFIED / GODOT PILOT NEXT**  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`  
 **Active runtime spec:** `B00_RIGGED_MODEL_RUNTIME_VALIDATION_V1.md`  
+**Rig standard:** `../QUATERNIUS_HUMANOID_RIG_STANDARD_V1.md`  
 **Superseded sprite spec:** `B00_RUNTIME_DERIVATIVE_SPEC_V1.md`
 
 ## 1. Scope
@@ -80,22 +81,28 @@ Character-specific redesigns remain valid only when explicitly approved. Gamepla
 
 ## 5. Runtime representation decision
 
-Diyse's primary field and battle character representation is now **rigged 3D character models**, provided the current production rig/model solution passes B00 validation.
+Diyse's primary field and battle character representation is now **rigged 3D character models**.
 
 The earlier dedicated sprite targets of ~200–220 px battle art and ~80 px field art are **not required production deliverables** for B00. The old `B00_RUNTIME_DERIVATIVE_SPEC_V1.md` is retained only as optional 2D/screen-space simplification reference.
 
 The active gate is `B00_RIGGED_MODEL_RUNTIME_VALIDATION_V1.md`.
 
-The same character model family should normally serve field and battle, with context-specific:
-- camera framing;
-- animation sets;
-- mesh/material LOD;
-- outline strength;
-- weapon/prop state;
-- secondary motion;
-- shadows and VFX attachment behavior.
+The same character model family should normally serve field and battle, with context-specific camera framing, animation sets, mesh/material LOD, outline strength, weapon/prop state, secondary motion, shadows and VFX attachment behavior.
 
-## 6. Runtime visual requirements
+## 6. V5 rig source — verified
+
+The Quaternius rig needed for the prototype is already inside the two **Asset Library Master v5** animation archives.
+
+The active-conversation reuploads match the v5 archive hashes exactly, and direct GLB inspection verifies:
+- `UAL1_Standard.glb` — `Mannequin` mesh + `Armature` skin + **43 animations**;
+- `UAL1_Standard_RM.glb` — root-motion counterpart;
+- `UAL2_Standard.glb` — same rig family + **43 additional animations**;
+- `UAL2_Standard_RM.glb` — root-motion counterpart;
+- `Mannequin_F.glb` — compatible female mannequin using the same `Armature` contract.
+
+Therefore the previously suspected separate-base-character source gap is closed. Exact member hashes are recorded in `../ASSET_LIBRARY/SOURCE_ARCHIVE_MANIFEST.md` and the rig standard.
+
+## 7. Runtime visual requirements
 
 The rigged characters must reproduce the approved B00 masters through:
 - character-specific proportions rather than one generic body;
@@ -110,48 +117,42 @@ The rigged characters must reproduce the approved B00 masters through:
 
 Rig functionality alone does not equal visual approval.
 
-## 7. Production sequence
+## 8. Production sequence
 
 Completed:
 1. approve all six clean high-resolution B00 masters;
 2. fingerprint/document all six masters;
 3. retire the unnecessary dedicated field/battle sprite gate;
-4. lock the rigged-model runtime validation grammar.
+4. lock the rigged-model runtime validation grammar;
+5. verify the exact v5 Quaternius mannequin/Armature source and member hashes.
 
 Next:
-5. identify and import the current production-usable rigged humanoid model/skeleton into the Godot character pipeline;
-6. validate rig/retarget compatibility with representative locomotion and battle clips;
-7. build one B00-faithful model/material/shader pilot;
-8. validate it against the exact approved master in neutral presentation;
-9. validate the same model at field camera distance;
-10. validate the same model at battle camera distance;
-11. test representative B01 stone, B03 foliage and B10 prop environments;
-12. test representative B06 VFX overlap;
-13. propagate the proven model/material/rig grammar across all six characters;
-14. compare all six together for silhouette, palette, scale and animation coherence;
-15. only then declare B00 fully passed.
+6. import `UAL1_Standard.glb` into Godot;
+7. validate skeleton hierarchy, embedded animations and skin deformation;
+8. compare `_RM` root-motion behavior;
+9. validate `Mannequin_F.glb` retargeting on the same skeleton contract;
+10. create one B00-faithful model/material/shader pilot;
+11. validate it against the exact approved master in neutral presentation;
+12. validate the same model at field camera distance;
+13. validate the same model at battle camera distance;
+14. test representative B01 stone, B03 foliage and B10 prop environments;
+15. test representative B06 VFX overlap;
+16. propagate the proven model/material/rig grammar across all six characters;
+17. compare all six together for silhouette, palette, scale and animation coherence;
+18. only then declare B00 fully passed.
 
-## 8. Asset Forge / Godot boundary
+## 9. Asset Forge / Godot boundary
 
-Asset Forge's glTF renderer is useful for deterministic model/material review but is not the final runtime renderer. The final B00 model gate must be exercised in Godot because it depends on:
-- skeleton/skin deformation;
-- retargeted animation;
-- shader behavior;
-- outlines;
-- camera distance;
-- lighting;
-- shadows;
-- secondary motion;
-- VFX overlap.
+Asset Forge's glTF renderer is useful for deterministic model/material review but is not the final runtime renderer. The final B00 model gate must be exercised in Godot because it depends on skeleton/skin deformation, retargeted animation, shader behavior, outlines, camera distance, lighting, shadows, secondary motion and VFX overlap.
 
-## 9. Cross-category validation
+## 10. Cross-category validation
 
 Once the runtime-model gate passes, recheck B01 stone, B03 foliage, B10 props, B06 VFX, and future enemy/NPC art against the actual six-character party rendering grammar.
 
 Earlier material-family work is not automatically invalidated, but it must conform to the revised non-painterly visual authority before final acceptance.
 
-## 10. Promotion state
+## 11. Promotion state
 
 Current state:
 
-`VISUAL STYLE LOCKED → 6/6 HIGH-RES PARTY MASTERS LOCKED → RIGGED MODEL RUNTIME SPEC LOCKED → MODEL/SHADER/RIG PILOT NEXT`
+`VISUAL STYLE LOCKED → 6/6 HIGH-RES PARTY MASTERS LOCKED → V5 QUATERNIUS RIG SOURCE VERIFIED → GODOT IMPORT/ROOT-MOTION/RETARGET TEST NEXT`
