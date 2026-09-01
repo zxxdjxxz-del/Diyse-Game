@@ -4,14 +4,8 @@ import random
 from typing import Sequence
 
 from ..common import round_half_up
+from ..sources.combat import load_combat_rules
 from .models import CombatUnit
-from .statuses import (
-    BLEED_ESCALATED_RATE,
-    BLEED_INITIAL_RATE,
-    BURN_RATE,
-    FREEZE_MAX_AFFECTED_ROUNDS,
-    STUN_LOSS_CHANCE,
-)
 from .temporary_modifiers import tick_temporary_modifiers
 
 
@@ -22,8 +16,9 @@ def indirect_damage(unit: CombatUnit, rate: float) -> int:
 
 
 def bleed_rate(unit: CombatUnit) -> float:
+    rules = load_combat_rules()
     state = unit.statuses["bleed"]
-    table = BLEED_ESCALATED_RATE if state.bleed_escalated else BLEED_INITIAL_RATE
+    table = rules.bleed_escalated_rates if state.bleed_escalated else rules.bleed_initial_rates
     return table[unit.template.rank]
 
 
@@ -44,17 +39,19 @@ def complete_turn(unit: CombatUnit, *, acted: bool) -> None:
         if bleed is None:
             return
     bleed.bleed_turn_age += 1
-    if bleed.bleed_turn_age >= 3:
+    if bleed.bleed_turn_age >= load_combat_rules().bleed_escalation_turns:
         bleed.bleed_escalated = True
 
 
 def turn_is_blocked(unit: CombatUnit, rng: random.Random) -> bool:
+    rules = load_combat_rules()
     freeze = unit.statuses.get("freeze")
     if freeze is not None:
-        maximum = FREEZE_MAX_AFFECTED_ROUNDS[unit.template.rank]
+        maximum = rules.freeze_max_rounds[unit.template.rank]
         upcoming = freeze.affected_turns + 1
-        if unit.template.rank == "ordinary" and upcoming >= 3:
-            if rng.random() >= 0.80:
+        persistence_start = rules.freeze_guaranteed_rounds + 1
+        if unit.template.rank == "ordinary" and upcoming >= persistence_start:
+            if rng.random() >= rules.freeze_persist_chance:
                 unit.statuses.pop("freeze", None)
             else:
                 freeze.affected_turns += 1
@@ -72,8 +69,8 @@ def turn_is_blocked(unit: CombatUnit, rng: random.Random) -> bool:
     stun = unit.statuses.get("stun")
     if stun is not None:
         stun.affected_turns += 1
-        blocked = rng.random() < STUN_LOSS_CHANCE[unit.template.rank]
-        if stun.affected_turns >= 4:
+        blocked = rng.random() < rules.stun_loss_chances[unit.template.rank]
+        if stun.affected_turns >= rules.stun_turns:
             unit.statuses.pop("stun", None)
         if blocked:
             return True
@@ -81,12 +78,13 @@ def turn_is_blocked(unit: CombatUnit, rng: random.Random) -> bool:
 
 
 def end_round(units: Sequence[CombatUnit]) -> None:
+    rules = load_combat_rules()
     for unit in units:
         if not unit.alive:
             continue
         burn = unit.statuses.get("burn")
         if burn is not None:
-            indirect_damage(unit, BURN_RATE[unit.template.rank])
+            indirect_damage(unit, rules.burn_rates[unit.template.rank])
             if burn.remaining_rounds is not None:
                 burn.remaining_rounds -= 1
                 if burn.remaining_rounds <= 0:
@@ -101,3 +99,6 @@ def end_round(units: Sequence[CombatUnit]) -> None:
             if staggered.remaining_rounds <= 0:
                 unit.statuses.pop("staggered", None)
     tick_temporary_modifiers(units)
+
+
+__all__ = ["bleed_rate", "clear_bleed_if_full", "complete_turn", "end_round", "indirect_damage", "turn_is_blocked"]
