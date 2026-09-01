@@ -11,11 +11,11 @@
 ## Command package
 | Command | Target | Formula | Power | Base Hit | Effect |
 |---|---|---|---:|---:|---|
-| **Recovered — Sentinel Impact** | one enemy | Physical / Neutral | 340 | — | 40% Defense penetration; 25% Bleed and 35% Staggered authored checks. |
-| **Awakened — Sentinel Impact** | one enemy | Physical / Neutral | 285 | — | 35% Defense penetration; 25% Bleed and 30% Staggered. |
-| **Awakened — Unbroken March** | all enemies | Physical / Neutral | 205 each | — | 20% Bleed per successfully damaged target; Last Sentinel gains **Defense +15% / Spirit +15% through the end of the next Prime round, or until dismissal if dismissal occurs first**. |
-| **Awakened — Hold the Line** | self | Support | — | — | Gain **Defense +25% / Spirit +25% through the end of the next Prime round, or until dismissal if dismissal occurs first**. Also arm one use of **+25% final damage** for Last Sentinel's next damaging command that resolves before that same deadline; the damage bonus is consumed when used. Unavailable Prime Round 3. |
-| **Legacy/final — Last Bastion** | Prime Round 3 only; all enemies | Physical / Neutral | 255 each | — | 40% Defense penetration; linked check 25% Bleed, otherwise 25% Staggered; max 1 newly applied harmful status per target. On dismissal, returning conscious party gains **Defense +20% / Spirit +20% for 3 full normal rounds**. |
+| **Recovered — Sentinel Impact** | one enemy | Physical / Neutral | 340 | 100 | 40% Defense penetration; 25% Bleed and 35% Staggered authored checks. |
+| **Awakened — Sentinel Impact** | one enemy | Physical / Neutral | 285 | 100 | 35% Defense penetration; 25% Bleed and 30% Staggered. |
+| **Awakened — Unbroken March** | all enemies | Physical / Neutral | 205 each | 100 | 20% Bleed per successfully damaged target; Last Sentinel gains **Defense +15% / Spirit +15% through the end of the next Prime round, or until dismissal if dismissal occurs first**. |
+| **Awakened — Hold the Line** | self | Support | — | N/A | Gain **Defense +25% / Spirit +25% through the end of the next Prime round, or until dismissal if dismissal occurs first**. Also arm one use of **+25% final damage** for Last Sentinel's next damaging command that resolves before that same deadline; the damage bonus is consumed when used. Unavailable Prime Round 3. |
+| **Legacy/final — Last Bastion** | Prime Round 3 only; all enemies | Physical / Neutral | 255 each | 100 | 40% Defense penetration; linked check 25% Bleed, otherwise 25% Staggered; max 1 newly applied harmful status per target. On dismissal, returning conscious party gains **Defense +20% / Spirit +20% for 3 full normal rounds**. |
 
 ## Hold the Line setup rule
 - The armed +25% final-damage benefit is a Prime-local one-use setup state.
