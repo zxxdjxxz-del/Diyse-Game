@@ -21,14 +21,20 @@ _PASSIVE_PATTERNS = (
     r"no independent turns?",
     r"does not take an independent turn",
     r"do not take an independent turn",
+    r"neither takes an independent ordinary turn",
+    r"do not receive independent ordinary actions?",
+    r"does not receive independent ordinary actions?",
     r"no direct-damage action",
     r"deal(?:s)? no direct damage",
+    r"deal(?:s)? no damage",
+    r"passive support function",
 )
 
 _ACTING_PATTERNS = (
     r"takes? (?:its|an) (?:own |independent )?(?:ordinary |normal )?turn",
     r"acts? on (?:its|an) (?:own |independent )?(?:ordinary |normal )?turn",
     r"speed-ordered turn",
+    r"has one ordinary action on (?:its|the) enemy turn",
 )
 
 
@@ -63,28 +69,123 @@ def _headings(lines: list[str]) -> list[tuple[int, int, str]]:
     return result
 
 
-def _section_for_line(lines: list[str], headings: list[tuple[int, int, str]], line_index: int) -> tuple[str, str]:
+def _section_bounds(
+    lines: list[str],
+    headings: list[tuple[int, int, str]],
+    line_index: int,
+) -> tuple[int, int, int | None, str]:
     prior = [heading for heading in headings if heading[0] < line_index]
     if not prior:
-        return "<document>", "\n".join(lines)
+        return 0, len(lines), None, "<document>"
     start_index, level, heading_text = prior[-1]
     end_index = len(lines)
     for candidate_index, candidate_level, _ in headings:
         if candidate_index > start_index and candidate_level <= level:
             end_index = candidate_index
             break
-    return heading_text, "\n".join(lines[start_index:end_index])
+    return start_index, end_index, level, heading_text
 
 
-def _classify_role(section_text: str) -> tuple[EntityRole, str | None]:
+def _section_for_line(lines: list[str], headings: list[tuple[int, int, str]], line_index: int) -> tuple[str, str]:
+    start, end, _, heading_text = _section_bounds(lines, headings, line_index)
+    return heading_text, "\n".join(lines[start:end])
+
+
+def _ancestor_intro_context(
+    lines: list[str],
+    headings: list[tuple[int, int, str]],
+    line_index: int,
+) -> str:
+    """Return only explicit intro prose from ancestor headings.
+
+    For a child table such as Custodian support objects, the parent intro owns
+    the statement that neither support takes an independent turn. We stop each
+    ancestor intro at its first child heading so unrelated later mechanics do
+    not leak into classification.
+    """
+    prior = [heading for heading in headings if heading[0] < line_index]
+    if not prior:
+        return ""
+    current_level = prior[-1][1]
+    ancestors: list[tuple[int, int, str]] = []
+    threshold = current_level
+    for heading in reversed(prior[:-1]):
+        if heading[1] < threshold:
+            ancestors.append(heading)
+            threshold = heading[1]
+    chunks: list[str] = []
+    for start_index, level, _ in reversed(ancestors):
+        end_index = len(lines)
+        for candidate_index, candidate_level, _ in headings:
+            if candidate_index > start_index and candidate_level > level:
+                end_index = candidate_index
+                break
+            if candidate_index > start_index and candidate_level <= level:
+                end_index = candidate_index
+                break
+        chunks.append("\n".join(lines[start_index:end_index]))
+    return "\n".join(chunks)
+
+
+def _bounded_table_context(lines: list[str], table_index: int, *, radius: int = 45) -> str:
+    start = max(0, table_index - radius)
+    end = min(len(lines), table_index + radius + 1)
+    return "\n".join(lines[start:end])
+
+
+def _role_match(text: str) -> tuple[EntityRole, str | None]:
     for pattern in _PASSIVE_PATTERNS:
-        match = re.search(pattern, section_text, re.I)
+        match = re.search(pattern, text, re.I)
         if match:
             return "passive_target", match.group(0)
     for pattern in _ACTING_PATTERNS:
-        match = re.search(pattern, section_text, re.I)
+        match = re.search(pattern, text, re.I)
         if match:
             return "acting_combatant", match.group(0)
+    return "unresolved", None
+
+
+def _label_group_terms(row_label: str | None) -> tuple[str, ...]:
+    if not row_label:
+        return ()
+    words = re.findall(r"[A-Za-z]+", row_label.casefold())
+    if not words:
+        return ()
+    last = words[-1]
+    plural = last if last.endswith("s") else last + "s"
+    return (row_label.casefold(), last, plural)
+
+
+def _classify_role(
+    section_text: str,
+    *,
+    ancestor_text: str = "",
+    bounded_context: str = "",
+    row_label: str | None = None,
+) -> tuple[EntityRole, str | None]:
+    # Exact table-owning section wins first.
+    role, evidence = _role_match(section_text)
+    if role != "unresolved":
+        return role, evidence
+
+    # Parent intro is safe because it precedes child-specific mechanics and is
+    # commonly where the owner declares a whole support group non-acting.
+    role, evidence = _role_match(ancestor_text)
+    if role != "unresolved":
+        return role, evidence
+
+    # Some owner files place the explicit group declaration immediately before
+    # or after a sibling support table (for example Deepforge assemblies and
+    # Varkesh Retreat Beacons). Only accept bounded context when it also names
+    # the row identity or its group noun; this prevents unrelated passive prose
+    # elsewhere in a boss file from classifying an acting body.
+    terms = _label_group_terms(row_label)
+    lowered = bounded_context.casefold()
+    if terms and any(term in lowered for term in terms):
+        role, evidence = _role_match(bounded_context)
+        if role != "unresolved":
+            return role, evidence
+
     return "unresolved", None
 
 
@@ -112,7 +213,8 @@ def parse_entity_stat_sources(text: str) -> tuple[EntityStatSource, ...]:
             continue
 
         section_heading, section_text = _section_for_line(lines, headings, index)
-        role, evidence = _classify_role(section_text)
+        ancestor_text = _ancestor_intro_context(lines, headings, index)
+        bounded_context = _bounded_table_context(lines, index)
         row_index = index + 2
         while row_index < len(lines) and "|" in lines[row_index] and lines[row_index].strip().startswith("|"):
             values = _cells(lines[row_index])
@@ -124,10 +226,17 @@ def parse_entity_stat_sources(text: str) -> tuple[EntityStatSource, ...]:
             except SourceGapError:
                 row_index += 1
                 continue
+            row_label = _row_label(row)
+            role, evidence = _classify_role(
+                section_text,
+                ancestor_text=ancestor_text,
+                bounded_context=bounded_context,
+                row_label=row_label,
+            )
             results.append(EntityStatSource(
                 stats=stat_block,
                 section_heading=section_heading,
-                row_label=_row_label(row),
+                row_label=row_label,
                 role=role,
                 role_evidence=evidence,
             ))
