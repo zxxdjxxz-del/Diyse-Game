@@ -1,5 +1,6 @@
 """Hollow Watch Castellan repo-backed encounter simulator."""
 
+from .certification import simulate_hollow_watch_v93_snapshot
 from .policy import SmartPolicyConfig
 from .repo_loader import (
     HollowWatchRepoData,
@@ -24,5 +25,6 @@ __all__ = [
     "load_hollow_watch_repo_data",
     "run_hollow_watch_smart",
     "simulate_hollow_watch_smart",
+    "simulate_hollow_watch_v93_snapshot",
     "with_hollow_watch_party_snapshot",
 ]
