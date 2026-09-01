@@ -11,6 +11,7 @@ import statistics
 from typing import Sequence
 
 from ..sources.enemies import load_enemy_system_rules
+from ..sources.party import load_party_rules
 from .action_resolution import resolve_damage, resolve_heal
 from .action_selection import choose_action, selectable_actions
 from .models import CombatUnit, Combatant
@@ -21,9 +22,10 @@ from .turn_order import turn_order
 
 
 def _validate_side_sizes(party_count: int, enemy_count: int) -> None:
+    max_party = load_party_rules().active_battle_party
     max_enemies = load_enemy_system_rules().max_active_enemies
-    if not 1 <= party_count <= 4:
-        raise ValueError("party must contain 1-4 combatants")
+    if not 1 <= party_count <= max_party:
+        raise ValueError(f"party must contain 1-{max_party} combatants")
     if not 1 <= enemy_count <= max_enemies:
         raise ValueError(f"enemies must contain 1-{max_enemies} combatants")
 
