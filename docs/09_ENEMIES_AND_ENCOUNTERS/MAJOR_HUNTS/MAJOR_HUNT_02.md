@@ -9,7 +9,7 @@
 | Ref | Encounter / form | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Architecture |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
 | — | **Crownless Siege Marshal** | 40 | 13,600 | 155 | 110 | 111 | 96 | 41 | 5 | 10 | Form I |
-| — | **Crownless War Engine** | 41 | 16,900 | 174 | 122 | 121 | 105 | 39 | — | 10 | genuine fresh Form II |
+| — | **Crownless War Engine** | 41 | 16,900 | 174 | 122 | 121 | 105 | 39 | 0 | 10 | genuine fresh Form II |
 
 ## Unlock
 After **Chapter 7**.
