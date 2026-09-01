@@ -5,7 +5,6 @@
 **Runtime test checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
 **Balance ownership rule:** this domain owns cross-system balance acceptance criteria, verification plans, playtest targets, certification status and regression gates. Exact formulas/stats/rewards remain canonically housed in their dedicated system domains.
 
-
 | Layer | Current status | Canonical home |
 |---|---|---|
 | Physical/Magical/Hybrid damage formulas | **CLOSED** | `05_BATTLE_SYSTEM` |
@@ -27,13 +26,13 @@
 | Regional Hunt raw stats | **CLOSED** | `09` |
 | Major Hunt raw stats | **CLOSED** | `09` |
 | Whole-roster mandatory-vs-completionist validation | **PAPER PASS COMPLETE Ch0–13 / v89; representative true-battle follow-up ACTIVE** | `16` + owning `09` files |
-| Representative true-battle suite | **ACTIVE — Hollow Watch PASS v93; Archive Leviathan PASS v97; Regulation Crucible → Seventh Reaction PASS v99; Revision Arbiter PASS v100; Rhazek → Bastion Devourer PASS v101; Vaelkor → Sovereign Panoply next** | `16/TRUE_BATTLES` + owning `09` files |
+| Representative true-battle suite | **ACTIVE — Hollow Watch PASS v93; Archive Leviathan PASS v97; Regulation Crucible → Seventh Reaction PASS v99; Revision Arbiter PASS v100; Rhazek → Bastion Devourer PASS v101; Vaelkor → Sovereign Panoply PASS v102; Reconstituted Entity → Last Command next** | `16/TRUE_BATTLES` + owning `09` files |
 | Ordinary equipment/item definitions | **CLOSED where catalog says closed** | `08` |
 | Economy exact unresolved payouts | **OPEN where `12` says open** | `12` |
 | Final production UI/audio balance | **OPEN production validation** | `13` / `15` |
 
 ## v99 Regulation Crucible certification
-Regulation Crucible → The Seventh Reaction is now **TRUE-BATTLE CERTIFIED / PASS / RETAIN**.
+Regulation Crucible → The Seventh Reaction is **TRUE-BATTLE CERTIFIED / PASS / RETAIN**.
 
 Strict mandatory Lv15 prepared benchmark:
 - no Prime core-rush: **100% wins / median 18 / mean 17.78 / P90 19** over 5,000 runs;
@@ -44,75 +43,97 @@ Completionist Lv17 reference:
 - median **13** with Last Sentinel;
 - median **16** without Prime.
 
-Retain:
-- Form-I HP2,400;
-- Form-II HP2,900;
-- all current raw stats and Powers;
-- chamber architecture;
-- current rule that a genuine fresh form does **not** restore a spent Prime identity.
-
-The old paper-only universal ~13–15 mandatory-round expectation is superseded by this current route/preparation-specific result.
+Retain Form-I HP2,400 / Form-II HP2,900, current raw stats/Powers, chamber architecture, and no fresh-form Prime restoration.
 
 ## v100 Revision Arbiter certification
-Warden of the Nameless / Revision Arbiter is now **TRUE-BATTLE CERTIFIED / PASS / RETAIN**.
+Warden of the Nameless / Revision Arbiter is **TRUE-BATTLE CERTIFIED / PASS / RETAIN**.
 
 Strict mandatory Lv30 prepared benchmark:
 - no Prime: **100% wins / median 11 / mean 10.76 / P90 12** over 20,000 runs;
 - any-KO incidence: **0.005% (1 / 20,000)** with **0 defeats**;
-- one Awakened Last Sentinel manifestation: **100% wins / median 9 total combat rounds / mean 9.43 / P90 11** over 10,000 runs, with **0% any-KO**.
+- one Awakened Last Sentinel: **100% wins / median 9 / mean 9.43 / P90 11** over 10,000 runs.
 
 Completionist Lv34 reference:
-- no Prime: **100% wins / median 8 / mean 8.01 / P90 9** over 5,000 runs;
-- with Last Sentinel: **100% wins / median 8 / mean 7.86 / P90 9** over 5,000 runs.
+- no Prime: **median 8 / mean 8.01 / P90 9**;
+- with Last Sentinel: **median 8 / mean 7.86 / P90 9**.
 
-Retain:
-- HP **7,600** and all current raw stats;
-- all current Powers and status chances;
-- 3 Closed Record Assertion Layers at 80% direct-damage reduction;
-- Revision Claim's command-variation tax;
-- 2 Open Revision Layers at 40% direct-damage reduction;
-- all current repetition locks.
-
-The opening/reconciliation taxes remain behaviorally relevant because smart play spends setup/support actions into the reduction windows rather than wasting the party's strongest direct attacks. Awakened Last Sentinel improves safety/resource conservation without trivializing the encounter.
+Retain HP7,600, all raw stats/Powers/status chances, 3 Closed Record Assertion Layers, Revision Claim, 2 Open Revision Layers, and repetition locks.
 
 Detailed certification:
 `TRUE_BATTLES/REVISION_ARBITER_TRUE_BATTLE_v100.md`
 
 ## v101 Rhazek → Bastion Devourer certification
-Commander Rhazek — Reforged Commander → Bastion Devourer is now **TRUE-BATTLE CERTIFIED / PASS / RETAIN**.
+Commander Rhazek — Reforged Commander → Bastion Devourer is **TRUE-BATTLE CERTIFIED / PASS / RETAIN**.
 
 Strict prepared mandatory Lv40, no Prime:
 - **100% wins / median 14 / mean 14.48 / P90 17** over 20,000 runs;
-- any-KO incidence **0.08%**;
-- defeat incidence **0%**;
-- mean ending party HP **75.06%**;
-- mean ending party MP **12.18%**;
-- mean consumables used **3.45**.
+- any-KO **0.08%**;
+- mean ending HP **75.06%**;
+- mean ending MP **12.18%**;
+- mean consumables **3.45**.
 
 Prime persistence stress:
-- timed Awakened Last Sentinel — **100% wins / median 15 total rounds / mean 15.34 / P90 17** over 10,000 runs;
-- Last Sentinel crossed the genuine Reforged Commander → Bastion Devourer transition in **99.04%** of timed stress runs;
-- the fresh Bastion Devourer body did **not** restore the spent Last Sentinel identity;
-- legal Last Sentinel → 2 full normal rounds → Last Convergence chain — **100% wins / median 15 total rounds / mean 15.17 / P90 17** over 10,000 runs;
-- chained-Primes improved ending MP to **43.77%** and reduced mean item use to **0.98** without erasing encounter duration.
+- timed Last Sentinel — **100% wins / median 15 / mean 15.34 / P90 17**;
+- fresh-body crossing during manifestation **99.04%** with no spent-Prime restoration;
+- legal Sentinel → 2 full normal rounds → Convergence — **100% wins / median 15 / mean 15.17 / P90 17**;
+- chained-Primes ending MP **43.77%**, mean items **0.98**.
 
-Completionist references:
-- fixed-content Lv48 no Prime — **median 12 / mean 12.18 / P90 14**;
-- RH9-legal Lv49 no Prime — **median 12 / mean 12.06 / P90 14**.
+Completionist Lv48–49 no-Prime references both center at **median 12**.
 
-Retain unchanged:
-- Reforged Commander HP **8,431** and raw line;
-- Bastion Devourer HP **10,462** and raw line;
-- all Powers/status chances/repetition locks;
-- Demolition Breaker's 55% threshold, protected one-round Preparation, **335 Power** resolution, 25% Staggered, and 3-round lock;
-- the 18% Exposed Rhazek same-bar state;
-- current persistent-spend Prime rules across the genuine fresh body.
+Retain both HP bodies, raw stats/Powers/status chances/repetition locks, Demolition Breaker, 18% Exposed Rhazek, and current Prime rules.
 
 Detailed certification:
 `TRUE_BATTLES/RHAZEK_BASTION_DEVOURER_TRUE_BATTLE_v101.md`
 
+## v102 Vaelkor → Sovereign Panoply certification
+Emperor Vaelkor Draeven → Sovereign Panoply Unbound is **TRUE-BATTLE CERTIFIED / PASS / RETAIN**.
+
+Prepared mandatory Lv56, no Prime:
+- **100% wins / median 21 / mean 22.46 / P90 29** over 5,000 runs;
+- any-KO **1.98%**;
+- defeat incidence **0%**;
+- mean ending HP **69.20%**;
+- mean ending MP **8.80%**;
+- mean consumables **4.82**.
+
+One timed Awakened Last Sentinel:
+- **100% wins / median 20 / mean 20.70 / P90 25** over 5,000 runs;
+- any-KO **0.14%**;
+- same manifestation crossed Form I → fresh Sovereign Panoply in **95.90%** of timed runs;
+- spent Last Sentinel remained spent and manifestation continued normally.
+
+Legal two-Prime spacing stress:
+- Last Sentinel → **2 full normal party rounds** → Last Convergence;
+- **100% wins / median 19 / mean 19.14 / P90 23** over 5,000 runs;
+- **0% any-KO**;
+- mean ending MP **17.21%**;
+- mean consumables **0.51**;
+- Sentinel fresh-body crossing **96.38%**.
+
+Sovereign Overrun no-Prime stress:
+- Preparation appeared in **70.32%** of runs;
+- Resolution fired in **63.32%**;
+- no unavoidable wipe signature appeared.
+
+Completionist Lv66 native-Legacy reference:
+- **100% wins / median 15 / mean 14.68 / P90 17** over 5,000 runs;
+- **0% any-KO**.
+
+Retain unchanged:
+- Form-I HP **16,800** and raw line;
+- Form-II HP **20,200** and raw line;
+- all Powers/status chances/repetition locks;
+- Sovereign Overrun's 55% threshold, protected one-round Preparation, **390 Power** resolution, 20% Staggered, and 3-round lock;
+- Final Sovereignty's 25% same-bar state;
+- the genuine fresh-body and persistent-spend Prime rules.
+
+Current true-battle pacing refines the historical generic paper estimate to approximately **19–21 total rounds depending on Prime commitment**, while completionist Lv66 remains at the intended **~13–15** center.
+
+Detailed certification:
+`TRUE_BATTLES/VAELKOR_SOVEREIGN_PANOPLY_TRUE_BATTLE_v102.md`
+
 The next representative anchor is:
-> **Emperor Vaelkor Draeven → Sovereign Panoply Unbound — mandatory Lv56 / completionist Lv66**
+> **Reconstituted Entity → The Last Command — final mandatory Chapter-13 two-body test**
 
 ## Meaning of CLOSED
 `CLOSED` means:
