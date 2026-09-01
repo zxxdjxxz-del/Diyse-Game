@@ -1,14 +1,8 @@
-"""Universal harmful-status rules and rank conversions."""
+"""Universal harmful-status rules backed by repository authority."""
 from __future__ import annotations
 
+from ..sources.combat import load_combat_rules
 from .models import ActiveStatus, CombatUnit, StatusName
-
-BURN_RATE = {"ordinary": 0.06, "regional_hunt": 0.045, "major_boss": 0.03}
-BLEED_INITIAL_RATE = {"ordinary": 0.03, "regional_hunt": 0.0225, "major_boss": 0.015}
-BLEED_ESCALATED_RATE = {"ordinary": 0.04, "regional_hunt": 0.03, "major_boss": 0.02}
-STUN_LOSS_CHANCE = {"ordinary": 0.40, "regional_hunt": 0.25, "major_boss": 0.20}
-STAGGERED_ROUNDS = {"ordinary": 5, "regional_hunt": 4, "major_boss": 3}
-FREEZE_MAX_AFFECTED_ROUNDS = {"ordinary": 4, "regional_hunt": 2, "major_boss": 1}
 
 
 def status_application_chance(
@@ -22,24 +16,20 @@ def status_application_chance(
 ) -> float:
     if immune:
         return 0.0
-    chance = (
-        base_chance
-        + affinity_modifier
-        + specialist_bonus
-        + reliability_bonus
-        - status_resistance
-    )
-    return max(5.0, min(95.0, chance))
+    chance = base_chance + affinity_modifier + specialist_bonus + reliability_bonus - status_resistance
+    rules = load_combat_rules()
+    return max(rules.status_chance_min, min(rules.status_chance_max, chance))
 
 
 def apply_status(target: CombatUnit, status: StatusName) -> bool:
     if status in target.template.status_immunities:
         return False
+    rules = load_combat_rules()
     if status in target.statuses:
         if status == "burn":
-            target.statuses[status].remaining_rounds = 4
+            target.statuses[status].remaining_rounds = rules.burn_rounds
         elif status == "staggered":
-            target.statuses[status].remaining_rounds = STAGGERED_ROUNDS[target.template.rank]
+            target.statuses[status].remaining_rounds = rules.staggered_rounds[target.template.rank]
         elif status == "bleed":
             pass
         else:
@@ -47,11 +37,14 @@ def apply_status(target: CombatUnit, status: StatusName) -> bool:
         return True
 
     if status == "burn":
-        duration = 4
+        duration = rules.burn_rounds
     elif status == "staggered":
-        duration = STAGGERED_ROUNDS[target.template.rank]
+        duration = rules.staggered_rounds[target.template.rank]
     else:
         duration = None
 
     target.statuses[status] = ActiveStatus(status, remaining_rounds=duration)
     return True
+
+
+__all__ = ["apply_status", "status_application_chance"]
