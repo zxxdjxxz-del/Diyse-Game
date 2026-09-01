@@ -31,6 +31,7 @@ jobs:
           import json
           from dataclasses import asdict
           from tools.diysim.encounters.story_bosses.matron_zevraya import simulate_matron_zevraya
+          from tools.diysim.encounters.story_bosses.matron_zevraya.split_stats import simulate_matron_zevraya_split
           from tools.diysim.overlays import BalanceOverlay
 
           player_level = int("${{ matrix.player_level }}")
@@ -38,33 +39,51 @@ jobs:
           battle_strategy = "${{ matrix.battle_strategy }}"
           reservoir_plan = ("Brood", "Armor") if battle_strategy == "dismantle" else None
 
-          overlay_kwargs = {"direct_damage_power_multiplier": 1.20}
           if stat_mode == "all_core_5":
-              overlay_kwargs["effective_stat_level_offset"] = 5
+              overlay = BalanceOverlay(
+                  direct_damage_power_multiplier=1.20,
+                  effective_stat_level_offset=5,
+              )
+              simulator = simulate_matron_zevraya
           elif stat_mode == "offense_5":
-              overlay_kwargs["offensive_stat_level_offset"] = 5
+              overlay = BalanceOverlay(
+                  direct_damage_power_multiplier=1.20,
+                  offensive_stat_level_offset=5,
+              )
+              simulator = simulate_matron_zevraya_split
           elif stat_mode == "offense_speed_5":
-              overlay_kwargs["offensive_stat_level_offset"] = 5
-              overlay_kwargs["speed_stat_level_offset"] = 5
+              overlay = BalanceOverlay(
+                  direct_damage_power_multiplier=1.20,
+                  offensive_stat_level_offset=5,
+                  speed_stat_level_offset=5,
+              )
+              simulator = simulate_matron_zevraya_split
           elif stat_mode == "defense_5":
-              overlay_kwargs["defensive_stat_level_offset"] = 5
+              overlay = BalanceOverlay(
+                  direct_damage_power_multiplier=1.20,
+                  defensive_stat_level_offset=5,
+              )
+              simulator = simulate_matron_zevraya_split
           else:
               raise ValueError(stat_mode)
 
-          summary = simulate_matron_zevraya(
+          summary = simulator(
               player_level=player_level,
               structure_mode="non_diluting",
               strategy=battle_strategy,
               reservoir_plan=reservoir_plan,
-              overlay=BalanceOverlay(**overlay_kwargs),
+              overlay=overlay,
               use_prepared_inventory=True,
               runs=1000,
-              seed=111,
+              seed=112,
           )
           result = {
               "player_level": player_level,
               "stat_mode": stat_mode,
               "battle_strategy": battle_strategy,
+              "offensive_stat_level_offset": overlay.offensive_stat_level_offset,
+              "defensive_stat_level_offset": overlay.defensive_stat_level_offset,
+              "speed_stat_level_offset": overlay.speed_stat_level_offset,
               **asdict(summary),
           }
           print(json.dumps(result, indent=2, sort_keys=True))
