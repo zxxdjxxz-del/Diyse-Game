@@ -7,7 +7,7 @@ Still open / do not guess:
 2. exact consumable/Auren add-on packages for Character Quests;
 3. exact Auren payout for every Regional Hunt;
 4. exact Auren payout for every Major Hunt;
-5. exact per-Elite/named-enemy cash rewards where not separately authored;
+5. exact remaining named/authored encounter cash rewards where not separately authored;
 6. consumable sell values;
 7. Kessara Relic-copy service fee;
 8. final formal synchronization of the current working **9 Regional Markets** count;
@@ -21,6 +21,8 @@ Still open / do not guess:
 ## Newly closed
 - full Chapter 1–13 ordinary-formation Auren bands — **LOCKED** in `CAMPAIGN_INCOME_BANDS.md`;
 - exact ordinary-formation Auren payout ledger — **LOCKED** in `ENCOUNTER_AUREN_REWARDS.md`;
-- ordinary encounter income calibration across the 225-encounter planning spine — approximately **13.56k Auren** expected.
+- ordinary encounter income calibration across the 225-encounter planning spine — approximately **13.56k Auren** expected;
+- exact first-clear Auren for all 12 numbered-chapter optional Elites — **LOCKED** in `ELITE_AUREN_REWARDS.md`;
+- full optional-Elite cash budget — **3,890 Auren**; Chapter-0 Ruin Vanguard Pursuer awards **0 Auren**.
 
 An open line does not license restoration of an older retired answer.
