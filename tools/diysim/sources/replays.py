@@ -42,6 +42,11 @@ class BoundedReplayRuleSource:
         )
 
 
+def _normalized_prose(raw_text: str) -> str:
+    text = re.sub(r"[*_`]", "", raw_text.casefold())
+    return re.sub(r"\s+", " ", text)
+
+
 def parse_bounded_replay_rule_text(name: str, raw_text: str) -> BoundedReplayRuleSource:
     scale = re.search(
         r"source(?:\s+action(?:'s)?)?(?:\s+total)?\s+Power\s*[×x]\s*(0?\.\d+|\d+(?:\.\d+)?)",
@@ -54,7 +59,7 @@ def parse_bounded_replay_rule_text(name: str, raw_text: str) -> BoundedReplayRul
         re.I | re.S,
     )
     base_hit = re.search(r"\bBase Hit\s*:?\s*(?:\*\*)?(\d+)(?:\*\*)?", raw_text, re.I)
-    lowered = re.sub(r"\s+", " ", raw_text.casefold())
+    lowered = _normalized_prose(raw_text)
 
     record_after_completion = (
         ("only after" in lowered and ("action completes" in lowered or "action actually completes" in lowered or "action resolves" in lowered))
@@ -69,10 +74,16 @@ def parse_bounded_replay_rule_text(name: str, raw_text: str) -> BoundedReplayRul
         or "source damage school / element" in lowered
         or "source damage school/element" in lowered
     )
-    preserve_target_scope = "preserve source target shape" in lowered or "source target shape" in lowered
+    preserve_target_scope = (
+        "preserve source target shape" in lowered
+        or "preserve target shape" in lowered
+        or "source target shape" in lowered
+    )
     preserve_weights = (
         "preserve source physical/magical/hybrid weighting" in lowered
         or "preserve source physical / magical / hybrid weighting" in lowered
+        or "preserve physical/magical/hybrid weighting" in lowered
+        or "preserve physical / magical / hybrid weighting" in lowered
         or "source physical / magical / hybrid weighting" in lowered
     )
     preserve_hit_count = (
