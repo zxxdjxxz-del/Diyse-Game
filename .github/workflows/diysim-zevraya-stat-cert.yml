@@ -1,0 +1,60 @@
+name: DiySim Zevraya Stat Certification
+
+on:
+  push:
+    branches:
+      - tooling/diysim-phase1
+  workflow_dispatch:
+
+jobs:
+  zevraya_stat_cert:
+    if: contains(github.event.head_commit.message, '[zevraya-stat-cert]')
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        player_level: [24, 28]
+        boss_level_offset: [2, 3]
+        battle_strategy: [rush, dismantle]
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Zevraya 2k stat certification
+        run: |
+          python - <<'PY'
+          import json
+          from dataclasses import asdict
+          from tools.diysim.encounters.story_bosses.matron_zevraya import simulate_matron_zevraya
+          from tools.diysim.overlays import BalanceOverlay
+
+          player_level = int("${{ matrix.player_level }}")
+          boss_level_offset = int("${{ matrix.boss_level_offset }}")
+          battle_strategy = "${{ matrix.battle_strategy }}"
+          reservoir_plan = ("Brood", "Armor") if battle_strategy == "dismantle" else None
+          summary = simulate_matron_zevraya(
+              player_level=player_level,
+              structure_mode="non_diluting",
+              strategy=battle_strategy,
+              reservoir_plan=reservoir_plan,
+              overlay=BalanceOverlay(
+                  direct_damage_power_multiplier=1.20,
+                  effective_stat_level_offset=boss_level_offset,
+              ),
+              use_prepared_inventory=True,
+              runs=2000,
+              seed=110,
+          )
+          result = {
+              "player_level": player_level,
+              "boss_level_offset": boss_level_offset,
+              "battle_strategy": battle_strategy,
+              **asdict(summary),
+          }
+          print(json.dumps(result, indent=2, sort_keys=True))
+          PY
