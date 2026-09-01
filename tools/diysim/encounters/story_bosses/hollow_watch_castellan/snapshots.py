@@ -12,6 +12,10 @@ from tools.diysim.sources.repo import SourceGapError, read_repo_text
 from .repo_loader import HollowWatchRepoData, TRUE_BATTLE_PATH
 
 _SUPPORTED_LEVELS = frozenset({2, 3})
+_SNAPSHOT_HEADINGS = {
+    2: "Exact Lv2 bodies",
+    3: "Snapshot — completionist/high-side",
+}
 
 
 def _stats_from_row(row: dict[str, str]) -> Stats:
@@ -36,7 +40,7 @@ def load_hollow_watch_party_snapshot(
         raise ValueError(f"Hollow Watch v93 only owns exact Lv2/Lv3 snapshots, not Lv{level}")
 
     text = read_repo_text(TRUE_BATTLE_PATH, root=root)
-    rows = extract_markdown_table(text, f"Exact Lv{level} bodies")
+    rows = extract_markdown_table(text, _SNAPSHOT_HEADINGS[level])
     by_name: dict[str, Combatant] = {}
     for row in rows:
         name = row["Character"]
