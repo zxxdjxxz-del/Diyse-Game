@@ -12,6 +12,7 @@ from .statuses import (
     FREEZE_MAX_AFFECTED_ROUNDS,
     STUN_LOSS_CHANCE,
 )
+from .temporary_modifiers import tick_temporary_modifiers
 
 
 def indirect_damage(unit: CombatUnit, rate: float) -> int:
@@ -99,3 +100,4 @@ def end_round(units: Sequence[CombatUnit]) -> None:
             staggered.remaining_rounds -= 1
             if staggered.remaining_rounds <= 0:
                 unit.statuses.pop("staggered", None)
+    tick_temporary_modifiers(units)
