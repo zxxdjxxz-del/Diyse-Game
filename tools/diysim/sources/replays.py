@@ -71,6 +71,8 @@ def parse_bounded_replay_rule_text(name: str, raw_text: str) -> BoundedReplayRul
     preserve_damage_identity = (
         "preserve source damage school/element" in lowered
         or "preserve source damage school / element" in lowered
+        or "preserve damage school/element" in lowered
+        or "preserve damage school / element" in lowered
         or "source damage school / element" in lowered
         or "source damage school/element" in lowered
     )
