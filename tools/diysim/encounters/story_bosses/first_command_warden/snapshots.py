@@ -60,7 +60,7 @@ def _parse_v105_warden_setup(*, root: Path | None = None) -> tuple[tuple[int, in
     equipment: dict[str, tuple[str, ...]] = {}
     for character in active:
         match = re.search(
-            rf"^-\s*{re.escape(character)}\s*[—-]\s*(.+?);?$",
+            rf"^-[ \t]*{re.escape(character)}[ \t]*[—-][ \t]*(.+?);?$",
             block,
             re.I | re.M,
         )
