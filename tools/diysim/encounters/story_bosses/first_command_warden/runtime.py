@@ -1,8 +1,8 @@
-"""Executable First Command Warden sensitivity runtime.
+"""Executable First Command Warden true-battle/sensitivity runtime.
 
-The encounter body/mechanics, party snapshots, abilities, and working balance
-scalars are all loaded from repository authority. This module owns only the
-runtime state machine and the conservative v105 isolation policy.
+Encounter mechanics and numeric combat values come from repository authority.
+The exact S020 Class-Level/inventory package used here is explicitly isolated in
+90_WORKING as a non-canon calibration candidate until approved.
 """
 from __future__ import annotations
 
@@ -15,12 +15,14 @@ from typing import Literal
 
 from tools.diysim.combat.action_resolution import resolve_damage, resolve_heal
 from tools.diysim.combat.analogue import FunctionalAnalogueRule, FunctionalAnalogueState
+from tools.diysim.combat.consumables import PreparedInventory, use_consumable
 from tools.diysim.combat.models import CombatAction, CombatUnit
 from tools.diysim.combat.status_runtime import complete_turn, end_round, turn_is_blocked
 from tools.diysim.combat.turn_order import turn_order
 from tools.diysim.overlays import BalanceOverlay, scale_direct_damage_power, scale_effective_core_stat_level
 
 from .policy import WardenPolicyConfig, choose_player_action, load_warden_party_actions
+from .prepared_policy import build_warden_prepared_inventory, choose_prepared_item
 from .repo_loader import FirstCommandWardenRepoData, load_first_command_warden_repo_data
 from .snapshots import load_first_command_warden_party_snapshot
 
@@ -46,6 +48,8 @@ class WardenBattleOutcome:
     ruling_disruptions: int
     seal_reprisals: int
     analogue_uses: int
+    items_used: int
+    hunter_measure_establishments: int
     stun_exposed: bool
     staggered_exposed: bool
 
@@ -54,6 +58,7 @@ class WardenBattleOutcome:
 class WardenSimulationSummary:
     runs: int
     player_level: int
+    prepared_inventory: bool
     power_multiplier: float
     effective_stat_level_offset: int
     win_rate: float
@@ -71,6 +76,8 @@ class WardenSimulationSummary:
     mean_ruling_disruptions: float
     mean_seal_reprisals: float
     mean_analogue_uses: float
+    mean_items_used: float
+    mean_hunter_measure_establishments: float
     stun_exposure_rate: float
     staggered_exposure_rate: float
 
@@ -187,10 +194,22 @@ def _enter_state_b(
         rounds = protection.undisrupted_rounds
         reduction = protection.undisrupted_reduction
     boss.template = replace(boss.template, direct_damage_reduction=reduction)
-    # Numbered-round timing: application round counts as round 1. If State B is
-    # entered during end-round damage, caller applies this after expiry handling,
-    # naturally beginning the count with the next round.
     return round_number + rounds - 1, reduction
+
+
+def _trait_adjusted_heal(
+    action: CombatAction,
+    target: CombatUnit,
+    *,
+    first_direct_heal_this_round: bool,
+    gentle_continuance_bonus: float,
+) -> CombatAction:
+    if first_direct_heal_this_round and target.hp / target.max_hp < 0.50:
+        return replace(
+            action,
+            heal_max_hp_percent=action.heal_max_hp_percent + gentle_continuance_bonus,
+        )
+    return action
 
 
 def _run_warden_with_data(
@@ -201,11 +220,13 @@ def _run_warden_with_data(
     overlay: BalanceOverlay,
     policy: WardenPolicyConfig,
     max_rounds: int,
+    use_prepared_inventory: bool,
     root: Path | None = None,
 ) -> WardenBattleOutcome:
     data = _overlay_data(data, overlay, root=root)
     snapshot = load_first_command_warden_party_snapshot(player_level, root=root)
     actions = load_warden_party_actions(root=root)
+    inventory = build_warden_prepared_inventory(root=root) if use_prepared_inventory else PreparedInventory({})
 
     party = [CombatUnit(template, index) for index, template in enumerate(snapshot.party)]
     boss = CombatUnit(data.warden, 4)
@@ -232,6 +253,8 @@ def _run_warden_with_data(
     ruling_disruptions = 0
     seal_reprisals = 0
     analogue_uses = 0
+    hunter_measure_expires_end_round: int | None = None
+    hunter_measure_establishments = 0
     any_ko = False
     stun_exposed = False
     staggered_exposed = False
@@ -268,7 +291,17 @@ def _run_warden_with_data(
                 ruling_disruptions=ruling_disruptions,
             )
 
+    def resolve_seal_after_action(actor: CombatUnit, category: str) -> None:
+        nonlocal seal_reprisals
+        active_seal = seals.get(actor.stable_index)
+        if active_seal is not None and category == active_seal.marked_category:
+            if actor.alive:
+                resolve_damage(boss, data.command_seal.reprisal, actor, rng)
+            seal_reprisals += 1
+            seals.pop(actor.stable_index, None)
+
     for round_number in range(1, max_rounds + 1):
+        ilyra_direct_heal_used = False
         actors = [boss, *party]
         for actor in turn_order(actors):
             if not actor.alive or not boss.alive:
@@ -282,8 +315,6 @@ def _run_warden_with_data(
                 continue
 
             if actor is boss:
-                # A prepared Major Ruling consumes this turn whether it resolves
-                # or was disrupted during the full party preparation cycle.
                 if ruling_pending and state == "imposed_authority":
                     if ring_active and ring.alive and not ruling_disrupted_pending:
                         new_stun, new_staggered = _resolve_enemy_damage(
@@ -294,9 +325,7 @@ def _run_warden_with_data(
                         ruling_resolutions += 1
                         _set_action_lock("Major Ruling", round_number, data.repetition_locks, locked_through)
                         ring_active = False
-                        ring_available_after_round = (
-                            round_number + data.major_ruling.ring_realign_rounds
-                        )
+                        ring_available_after_round = round_number + data.major_ruling.ring_realign_rounds
                     ruling_pending = False
                     ruling_disrupted_pending = False
                     complete_turn(boss, acted=True)
@@ -373,11 +402,40 @@ def _run_warden_with_data(
                 continue
 
             seal = seals.get(actor.stable_index)
+            target_is_ring = ring_active and ring.alive
+            hunter_measure_active = (
+                hunter_measure_expires_end_round is not None
+                and round_number <= hunter_measure_expires_end_round
+                and boss.alive
+            )
+
+            if use_prepared_inventory:
+                item_decision = choose_prepared_item(
+                    actor,
+                    party,
+                    inventory,
+                    actions,
+                    root=root,
+                )
+            else:
+                item_decision = None
+
+            if item_decision is not None:
+                category = "Item"
+                use_consumable(inventory, item_decision.effect, target=item_decision.target)
+                last_categories[actor.stable_index] = category
+                complete_turn(actor, acted=True)
+                resolve_seal_after_action(actor, category)
+                mark_kos()
+                continue
+
             category, action, heal_target = choose_player_action(
                 actor,
                 party,
                 actions,
                 sealed_category=seal.marked_category if seal else None,
+                hunter_measure_active=hunter_measure_active,
+                target_is_ring=target_is_ring,
                 config=policy,
             )
 
@@ -385,19 +443,43 @@ def _run_warden_with_data(
                 actor.mp -= action.mp_cost
 
             if action.action_kind == "heal":
-                if heal_target is None:
+                heal_targets = [unit for unit in party if unit.alive] if action.target_scope == "all" else [heal_target]
+                if any(target is None for target in heal_targets):
                     raise RuntimeError("heal action selected without target")
-                resolve_heal(actor, action, heal_target)
+                for target in heal_targets:
+                    assert target is not None
+                    effective_action = action
+                    if actor.template.name == "Ilyra":
+                        effective_action = _trait_adjusted_heal(
+                            action,
+                            target,
+                            first_direct_heal_this_round=not ilyra_direct_heal_used,
+                            gentle_continuance_bonus=actions.gentle_continuance_bonus,
+                        )
+                    resolve_heal(actor, effective_action, target)
+                if actor.template.name == "Ilyra":
+                    ilyra_direct_heal_used = True
             else:
                 enemy_targets = [boss]
-                if ring_active and ring.alive:
+                if target_is_ring:
                     if action.target_scope == "all":
                         enemy_targets = [boss, ring]
                     else:
                         enemy_targets = [ring]
+                sizing_hit_boss = False
                 for target in enemy_targets:
                     if target.alive:
-                        resolve_damage(actor, action, target, rng)
+                        damage = resolve_damage(actor, action, target, rng)
+                        if (
+                            actor.template.name == "Torren"
+                            and action.name == actions.sizing_shot.name
+                            and target is boss
+                            and damage > 0
+                        ):
+                            sizing_hit_boss = True
+                if sizing_hit_boss:
+                    hunter_measure_expires_end_round = round_number + actions.hunter_measure_full_rounds
+                    hunter_measure_establishments += 1
                 maybe_disrupt_ring(round_number)
                 maybe_enter_state_b(round_number)
                 analogue.observe_completed_action(
@@ -407,18 +489,9 @@ def _run_warden_with_data(
 
             last_categories[actor.stable_index] = category
             complete_turn(actor, acted=True)
-
-            active_seal = seals.get(actor.stable_index)
-            if active_seal is not None and category == active_seal.marked_category:
-                if actor.alive:
-                    resolve_damage(boss, data.command_seal.reprisal, actor, rng)
-                seal_reprisals += 1
-                seals.pop(actor.stable_index, None)
-
+            resolve_seal_after_action(actor, category)
             mark_kos()
 
-        # Existing State-B protection clocks expire before end-of-round-created
-        # transitions are checked, matching the global timing rule.
         end_round_units = [*party, boss]
         if ring_active:
             end_round_units.append(ring)
@@ -437,6 +510,9 @@ def _run_warden_with_data(
             if round_number >= seal.expires_end_round:
                 seals.pop(index, None)
 
+        if hunter_measure_expires_end_round is not None and round_number >= hunter_measure_expires_end_round:
+            hunter_measure_expires_end_round = None
+
         if not boss.alive:
             return WardenBattleOutcome(
                 "party", round_number, any_ko,
@@ -444,6 +520,7 @@ def _run_warden_with_data(
                 _party_fraction(party, "mp", "max_mp"),
                 state_b_reached, ruling_attempts, ruling_resolutions,
                 ruling_disruptions, seal_reprisals, analogue_uses,
+                inventory.total_used, hunter_measure_establishments,
                 stun_exposed, staggered_exposed,
             )
         if not any(unit.alive for unit in party):
@@ -452,6 +529,7 @@ def _run_warden_with_data(
                 _party_fraction(party, "mp", "max_mp"),
                 state_b_reached, ruling_attempts, ruling_resolutions,
                 ruling_disruptions, seal_reprisals, analogue_uses,
+                inventory.total_used, hunter_measure_establishments,
                 stun_exposed, staggered_exposed,
             )
 
@@ -461,6 +539,7 @@ def _run_warden_with_data(
         _party_fraction(party, "mp", "max_mp"),
         state_b_reached, ruling_attempts, ruling_resolutions,
         ruling_disruptions, seal_reprisals, analogue_uses,
+        inventory.total_used, hunter_measure_establishments,
         stun_exposed, staggered_exposed,
     )
 
@@ -471,6 +550,7 @@ def run_first_command_warden(
     player_level: int = 11,
     overlay: BalanceOverlay = BalanceOverlay(),
     policy: WardenPolicyConfig = WardenPolicyConfig(),
+    use_prepared_inventory: bool = True,
     max_rounds: int = 30,
     root: Path | None = None,
 ) -> WardenBattleOutcome:
@@ -482,6 +562,7 @@ def run_first_command_warden(
         overlay=overlay,
         policy=policy,
         max_rounds=max_rounds,
+        use_prepared_inventory=use_prepared_inventory,
         root=root,
     )
 
@@ -491,6 +572,7 @@ def simulate_first_command_warden(
     player_level: int = 11,
     overlay: BalanceOverlay = BalanceOverlay(),
     policy: WardenPolicyConfig = WardenPolicyConfig(),
+    use_prepared_inventory: bool = True,
     runs: int = 10_000,
     seed: int = 105,
     root: Path | None = None,
@@ -507,6 +589,7 @@ def simulate_first_command_warden(
             overlay=overlay,
             policy=policy,
             max_rounds=30,
+            use_prepared_inventory=use_prepared_inventory,
             root=root,
         )
         for _ in range(runs)
@@ -520,6 +603,7 @@ def simulate_first_command_warden(
     return WardenSimulationSummary(
         runs=runs,
         player_level=player_level,
+        prepared_inventory=use_prepared_inventory,
         power_multiplier=overlay.direct_damage_power_multiplier,
         effective_stat_level_offset=overlay.effective_stat_level_offset,
         win_rate=sum(outcome.winner == "party" for outcome in outcomes) / runs,
@@ -537,6 +621,10 @@ def simulate_first_command_warden(
         mean_ruling_disruptions=statistics.fmean(outcome.ruling_disruptions for outcome in outcomes),
         mean_seal_reprisals=statistics.fmean(outcome.seal_reprisals for outcome in outcomes),
         mean_analogue_uses=statistics.fmean(outcome.analogue_uses for outcome in outcomes),
+        mean_items_used=statistics.fmean(outcome.items_used for outcome in outcomes),
+        mean_hunter_measure_establishments=statistics.fmean(
+            outcome.hunter_measure_establishments for outcome in outcomes
+        ),
         stun_exposure_rate=sum(outcome.stun_exposed for outcome in outcomes) / runs,
         staggered_exposure_rate=sum(outcome.staggered_exposed for outcome in outcomes) / runs,
     )
