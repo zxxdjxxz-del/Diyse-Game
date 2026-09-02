@@ -5,9 +5,13 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Literal
 
+from ..sources.campaign_progression import load_campaign_checkpoint
 from ..sources.class_exp import (
     CLASS_CEXP_CAP,
     CLASS_LEVEL_CAP,
+    load_campaign_cexp_budgets,
+    load_character_starting_cexp,
+    load_chapter13_cexp_split,
     load_class_level_thresholds,
 )
 
@@ -147,6 +151,94 @@ def cexp_to_next_class_level(cexp: int, *, root: Path | None = None) -> int:
     return thresholds[level + 1] - cexp
 
 
+def mandatory_base_cexp_at_end_chapter(
+    character: str,
+    chapter: int,
+    *,
+    root: Path | None = None,
+) -> int:
+    """Return recruitment-aware mandatory Base CEXP through end Ch0–Ch7.
+
+    The result uses the published starting package, the canonical recruitment-
+    chapter handoff remainder, and only later full chapter budgets. It stops at
+    Volition because post-Volition awards can be directed to Base or Subclass and
+    the repository does not define one mandatory selection policy.
+    """
+    if not 0 <= chapter <= 7:
+        raise ValueError("mandatory pre-Volition Base CEXP helper supports Chapters 0–7 only")
+    starts = {row.character: row for row in load_character_starting_cexp(root=root)}
+    source = starts.get(character)
+    if source is None:
+        raise KeyError(f"Unknown permanent character in CEXP authority: {character}")
+    if chapter < source.recruitment_chapter:
+        raise ValueError(
+            f"{character} is not recruited by end Chapter {chapter}; recruitment is Chapter "
+            f"{source.recruitment_chapter}."
+        )
+
+    total = source.starting_base_cexp
+    budgets = {row.chapter: row.cexp for row in load_campaign_cexp_budgets(root=root)}
+    if source.recruitment_chapter == 0:
+        total += sum(budgets[ch] for ch in range(1, chapter + 1))
+    else:
+        total += source.recruitment_chapter_cexp_after_join
+        total += sum(
+            budgets[ch]
+            for ch in range(source.recruitment_chapter + 1, chapter + 1)
+        )
+    if total > CLASS_CEXP_CAP:
+        raise ValueError(
+            f"Pre-Volition mandatory CEXP arithmetic overcaps {character}: {total}"
+        )
+    return total
+
+
+def class_state_at_volition(
+    character: str,
+    *,
+    root: Path | None = None,
+) -> ClassCexpState:
+    """Return exact recruitment-aware Base/Subclass CEXP at end Ch7 Volition."""
+    return ClassCexpState(
+        base_cexp=mandatory_base_cexp_at_end_chapter(character, 7, root=root),
+        subclass_cexp=0,
+    )
+
+
+def post_volition_cexp_available_at_checkpoint(
+    checkpoint_key: str,
+    *,
+    root: Path | None = None,
+) -> int:
+    """Return mandatory CEXP available after Volition by an exact campaign checkpoint.
+
+    This reports the award stream only. It deliberately does not decide whether
+    those awards went to Base or Subclass.
+    """
+    checkpoint = load_campaign_checkpoint(checkpoint_key, root=root)
+    if checkpoint.chapter < 7:
+        raise ValueError("checkpoint occurs before Sixfold Volition")
+    if checkpoint.chapter == 7:
+        return 0
+
+    budgets = {row.chapter: row.cexp for row in load_campaign_cexp_budgets(root=root)}
+    total = sum(budgets[ch] for ch in range(8, min(checkpoint.chapter, 12) + 1))
+    if checkpoint.chapter < 13:
+        return total
+
+    if checkpoint.key in {"ch13_start"}:
+        return total
+    split = load_chapter13_cexp_split(root=root)
+    if checkpoint.key == "ch13_last_shelter":
+        return total + split.pre_last_shelter
+    # End-Ch13 aliases and the named ending both have the entire chapter stream.
+    if checkpoint.kind == "chapter_end":
+        return total + budgets[13]
+    raise ValueError(
+        f"No exact Chapter-13 CEXP timing is published for checkpoint {checkpoint.key!r}"
+    )
+
+
 def apply_class_cexp(
     state: ClassCexpState,
     cexp: int,
@@ -221,5 +313,8 @@ __all__ = [
     "apply_class_cexp",
     "cexp_to_next_class_level",
     "class_level_from_cexp",
+    "class_state_at_volition",
+    "mandatory_base_cexp_at_end_chapter",
+    "post_volition_cexp_available_at_checkpoint",
     "project_class_cexp",
 ]
