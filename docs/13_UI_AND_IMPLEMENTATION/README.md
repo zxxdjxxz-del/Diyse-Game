@@ -34,7 +34,7 @@ The existing Godot repository still contains historical proof data and stale doc
 
 Notable examples:
 - old `first_champion` proof Prime / bearer-lock assumptions;
-- proof `gold` key instead of current **Auren**;
+- proof `gold` key instead of current **G**;
 - proof Potion/equipment names;
 - older Mastery-Point documentation;
 - a proof battle UI rather than final production combat UI.
