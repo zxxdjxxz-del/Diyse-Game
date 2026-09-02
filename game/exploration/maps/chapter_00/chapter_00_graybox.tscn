@@ -1,0 +1,175 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://game/exploration/maps/chapter_00/chapter_00_graybox.gd" id="1_graybox"]
+[ext_resource type="Script" path="res://game/exploration/player_controller.gd" id="2_player"]
+[ext_resource type="Texture2D" path="res://game/characters/placeholders/cyanis_placeholder.svg" id="3_cyanis"]
+[ext_resource type="Script" path="res://game/exploration/touch_dpad.gd" id="4_touch"]
+
+[sub_resource type="CapsuleShape3D" id="PlayerShape"]
+radius = 0.35
+height = 1.8
+
+[node name="Chapter00Graybox" type="Node3D"]
+script = ExtResource("1_graybox")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-52, -32, 0)
+light_energy = 1.1
+shadow_enabled = true
+
+[node name="Cyanis" type="CharacterBody3D" parent="."]
+position = Vector3(0, 0.9, 108)
+script = ExtResource("2_player")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cyanis"]
+shape = SubResource("PlayerShape")
+
+[node name="Sprite3D" type="Sprite3D" parent="Cyanis"]
+texture = ExtResource("3_cyanis")
+pixel_size = 0.0034
+billboard = 1
+
+[node name="Camera3D" type="Camera3D" parent="Cyanis"]
+position = Vector3(0, 6.5, 8.5)
+rotation_degrees = Vector3(-30, 0, 0)
+current = true
+fov = 56.0
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Title" type="Label" parent="HUD"]
+offset_left = 24.0
+offset_top = 20.0
+offset_right = 1040.0
+offset_bottom = 58.0
+theme_override_colors/font_color = Color(0.96, 0.96, 0.96, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.85)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 25
+text = "Diyse — Chapter 0 Graybox / Blueprint 001"
+
+[node name="LocationLabel" type="Label" parent="HUD"]
+offset_left = 24.0
+offset_top = 62.0
+offset_right = 700.0
+offset_bottom = 96.0
+theme_override_colors/font_color = Color(0.94, 0.94, 0.94, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.85)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 21
+text = "CH00_F01 — Convoy Road"
+
+[node name="CameraLabel" type="Label" parent="HUD"]
+offset_left = 24.0
+offset_top = 98.0
+offset_right = 700.0
+offset_bottom = 132.0
+theme_override_colors/font_color = Color(0.94, 0.94, 0.94, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.85)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 19
+text = "Camera B — HD-2D test"
+
+[node name="Help" type="Label" parent="HUD"]
+offset_left = 24.0
+offset_top = 136.0
+offset_right = 980.0
+offset_bottom = 188.0
+theme_override_colors/font_color = Color(0.88, 0.88, 0.88, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.85)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 17
+text = "Move: WASD / arrows / touch D-pad   Camera: 1/2/3 or A/B/C   Reset: R"
+
+[node name="CameraA" type="Button" parent="HUD"]
+offset_left = 1540.0
+offset_top = 24.0
+offset_right = 1640.0
+offset_bottom = 78.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 20
+text = "Cam A"
+
+[node name="CameraB" type="Button" parent="HUD"]
+offset_left = 1650.0
+offset_top = 24.0
+offset_right = 1750.0
+offset_bottom = 78.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 20
+text = "Cam B"
+
+[node name="CameraC" type="Button" parent="HUD"]
+offset_left = 1760.0
+offset_top = 24.0
+offset_right = 1860.0
+offset_bottom = 78.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 20
+text = "Cam C"
+
+[node name="Reset" type="Button" parent="HUD"]
+offset_left = 1650.0
+offset_top = 90.0
+offset_right = 1860.0
+offset_bottom = 144.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 20
+text = "Reset Route"
+
+[node name="TouchDPad" type="Control" parent="HUD" node_paths=PackedStringArray("player_path")]
+layout_mode = 3
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 28.0
+offset_top = -322.0
+offset_right = 328.0
+offset_bottom = -22.0
+grow_vertical = 0
+script = ExtResource("4_touch")
+player_path = NodePath("../../Cyanis")
+
+[node name="Up" type="Button" parent="HUD/TouchDPad"]
+layout_mode = 0
+offset_left = 108.0
+offset_top = 8.0
+offset_right = 192.0
+offset_bottom = 92.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 38
+text = "▲"
+
+[node name="Left" type="Button" parent="HUD/TouchDPad"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 108.0
+offset_right = 96.0
+offset_bottom = 192.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 38
+text = "◀"
+
+[node name="Right" type="Button" parent="HUD/TouchDPad"]
+layout_mode = 0
+offset_left = 204.0
+offset_top = 108.0
+offset_right = 288.0
+offset_bottom = 192.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 38
+text = "▶"
+
+[node name="Down" type="Button" parent="HUD/TouchDPad"]
+layout_mode = 0
+offset_left = 108.0
+offset_top = 208.0
+offset_right = 192.0
+offset_bottom = 292.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 38
+text = "▼"
