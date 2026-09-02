@@ -27,7 +27,30 @@ Immediate dialogue work remains:
 
 Optional Side Quest / Character Quest exact dialogue remains open where not separately completed.
 
-## Priority 3 — Implementation reconciliation — OPEN
+## Priority 3 — Playable area & route layout production — ACTIVE
+Owners:
+`04_WORLD_AND_LORE` + story/encounter/art/implementation domains
+
+The project has closed macro geography and established route sequences, but it does **not** yet have production-ready playable geometry for the full game.
+
+Open work includes:
+- complete playable-area inventory;
+- actual route/town/dungeon/facility/Hunt blockouts;
+- entrances/exits and transitions;
+- critical paths, optional loops, shortcuts and traversal gates;
+- landmark/sightline navigation;
+- HD-2D elevation/layer composition;
+- encounter-space and boss/Hunt-arena planning;
+- interaction/reward/state-change placement;
+- approximate traversal/pacing targets;
+- tool-agnostic AI/environment-generation handoff packets.
+
+Layout/blockout work may proceed in parallel with visual benchmark work. Final rendered environment generation remains downstream of the relevant B01–B11 approvals.
+
+Working pointer:
+`90_WORKING/AREA_AND_ROUTE_LAYOUT_PRODUCTION_WORKING.md`
+
+## Priority 4 — Implementation reconciliation — OPEN
 Owner:
 `13_UI_AND_IMPLEMENTATION`
 
@@ -41,7 +64,7 @@ High-impact engineering work:
 - build production menus/combat UI/loadout UI/shop stock and Kessara UI;
 - preserve stable IDs or provide save-safe migration where technical names change.
 
-## Priority 4 — Visual production / style certification — ACTIVE
+## Priority 5 — Visual production / style certification — ACTIVE
 Owner:
 `14_ART_AND_VISUALS`
 
@@ -50,7 +73,7 @@ Current immediate gate:
 
 Do not bulk-convert the environment/material library until benchmark certification is complete and coherent at gameplay scale.
 
-## Priority 5 — Full production playtest / QA — LATER
+## Priority 6 — Full production playtest / QA — LATER
 Owner:
 `16_BALANCE_AND_TESTING`
 
@@ -63,6 +86,7 @@ When the relevant implementation/content layers are ready:
 - optional overlevel checks;
 - Prime regressions;
 - save/load and exploit QA;
+- area-route readability, traversal and collision QA;
 - Android performance/input/readability QA.
 
 ## Later — Music/audio
