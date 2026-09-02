@@ -82,7 +82,13 @@ def resolve_heal(actor: CombatUnit, action: CombatAction, target: CombatUnit) ->
     return target.hp - before
 
 
-def resolve_damage(actor: CombatUnit, action: CombatAction, target: CombatUnit, rng: random.Random) -> int:
+def _resolve_damage_hit(
+    actor: CombatUnit,
+    action: CombatAction,
+    target: CombatUnit,
+    rng: random.Random,
+) -> int:
+    """Resolve exactly one hit from a direct-damage action."""
     rules = load_combat_rules()
     base_hit = rules.default_player_base_hit if action.base_hit is None else action.base_hit
     base_hit += effective_base_hit_bonus(actor)
@@ -135,3 +141,20 @@ def resolve_damage(actor: CombatUnit, action: CombatAction, target: CombatUnit, 
             roll_status(action, rider, target, rng)
         _apply_action_modifiers(action, target)
     return damage
+
+
+def resolve_damage(actor: CombatUnit, action: CombatAction, target: CombatUnit, rng: random.Random) -> int:
+    """Resolve all fixed hits sequentially and return their total rolled damage.
+
+    Accuracy, Crit, affinities, status riders, and other hit-side effects resolve once
+    per hit. A missed hit does not cancel later hits. The sequence stops when the
+    target is KO'd so no later hit can roll or apply side effects to a defeated unit.
+    Variable hit-count actions never reach this layer; their encounter/runtime source
+    remains blocked until a selection rule is modeled.
+    """
+    total_damage = 0
+    for _ in range(action.hit_count):
+        if not target.alive:
+            break
+        total_damage += _resolve_damage_hit(actor, action, target, rng)
+    return total_damage
