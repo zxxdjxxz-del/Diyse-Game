@@ -266,7 +266,8 @@ def _dynamic_element_state_specs(text: str) -> tuple[DynamicElementStateSpec, ..
     specs: list[DynamicElementStateSpec] = []
 
     assignment = re.search(
-        r"assigned\s+exactly\s+one\s*:\s*((?:\n\s*-\s*(?:Fire|Ice|Lightning|Earth)\s*){2,})",
+        r"assigned\s+exactly\s+one\s*:[ \t]*"
+        r"((?:\r?\n[ \t]*-[ \t]*(?:Fire|Ice|Lightning|Earth)[ \t]*){2,})",
         text,
         re.I,
     )
