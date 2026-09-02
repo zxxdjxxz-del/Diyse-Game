@@ -6,16 +6,20 @@ on:
       - tooling/diysim-phase1
     paths:
       - "tools/diysim/progression/**"
+      - "tools/diysim/sources/audit.py"
       - "tools/diysim/sources/equipment.py"
       - "tools/diysim/sources/equipment_availability.py"
       - "tools/diysim/sources/campaign_progression.py"
       - "tools/diysim/sources/class_exp.py"
       - "tools/diysim/sources/class_equipment_access.py"
+      - "tools/diysim/sources/legacies.py"
       - "tools/diysim/sources/relics.py"
       - "tools/diysim/cli.py"
       - "tests/diysim/progression/**"
       - "tests/diysim/sources/test_class_equipment_access.py"
+      - "tests/diysim/sources/test_legacies.py"
       - "tests/diysim/sources/test_relics.py"
+      - "tests/diysim/sources/test_source_audit.py"
       - "docs/06_CLASSES_AND_ABILITIES/**"
       - "docs/08_ITEMS_AND_EQUIPMENT/**"
       - "docs/10_PROGRESSION_AND_EXP/**"
@@ -41,7 +45,9 @@ jobs:
           python -m pytest -q
           tests/diysim/progression
           tests/diysim/sources/test_class_equipment_access.py
+          tests/diysim/sources/test_legacies.py
           tests/diysim/sources/test_relics.py
+          tests/diysim/sources/test_source_audit.py
 
       - name: Generate chapter-by-chapter audit tables
         run: |
