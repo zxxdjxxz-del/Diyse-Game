@@ -3,6 +3,14 @@
 **Status:** **LOCKED — NEW FINAL B00 HIGH-RES MASTER APPROVED**  
 **Authority scope:** current face, hair, beard, eye treatment, ranger/medium-armor outfit, ghillie construction, bow/quiver carry, equipment, palette, silhouette, and prohibited regressions for character art/model production.
 
+## Canonical repository image master
+
+- repository path: [`asset_sources/characters/current/torren.jpg`](../../../../asset_sources/characters/current/torren.jpg)
+- Git blob SHA: `baf6ef1fd249aaca61fe16a4034f6620e1449c9f`
+- SHA-256: `5ea50d69d667cd53460e27b757dbaf2a8190f2291614cda29ca0197e9035ae98`
+
+The repository file above is the current operational image source of truth for Torren and is the exact approved master represented by the fingerprint below. It controls until the user explicitly revises it.
+
 ## Exact approved render fingerprint
 
 The newly uploaded and explicitly approved render is the controlling image authority and **replaces every earlier Torren master / patch / interim redraw**.
@@ -11,7 +19,7 @@ The newly uploaded and explicitly approved render is the controlling image autho
 - mode: **RGB**
 - SHA-256: `5ea50d69d667cd53460e27b757dbaf2a8190f2291614cda29ca0197e9035ae98`
 
-If prose and the exact approved render ever appear to disagree on incidental minutiae, the fingerprinted render controls until the user explicitly revises it.
+If prose and the exact approved render ever appear to disagree on incidental minutiae, the fingerprinted repository render controls until the user explicitly revises it.
 
 ## Identity / face / hair
 
