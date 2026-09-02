@@ -121,7 +121,7 @@ focus_mode = 0
 theme_override_font_sizes/font_size = 20
 text = "Reset Route"
 
-[node name="TouchDPad" type="Control" parent="HUD" node_paths=PackedStringArray("player_path")]
+[node name="TouchDPad" type="Control" parent="HUD"]
 layout_mode = 3
 anchors_preset = 2
 anchor_top = 1.0
