@@ -50,7 +50,7 @@ _NON_OWNER_EXACT = {"CHARACTER_QUEST_BOSSES"}
 _REQUIRED_GENERIC_STATS = ("hp", "attack", "magic", "defense", "spirit", "speed")
 _POWER_AUTHORITY = re.compile(
     r"(?im)(?:^|\n)\s*(?:>\s*)?(?:[-*]\s*)?(?:\*\*)?Power(?:\*\*)?\s*:?\s*(?:\*\*)?(?:\d+(?:\.\d+)?|N/?A)\b"
-    r"|\b\d+(?:\.\d+)?\s+Power(?:\s+per\s+target)?\b"
+    r"|\b\d+(?:\.\d+)?\s+Power(?:\s+per\s+(?:target|hit))?\b"
 )
 _ACTION_LEAD = re.compile(
     r"^(?:>\s*)?(?:[-*]\s*)?(?:\*\*)?(?:"
@@ -330,8 +330,16 @@ def _direct_action(
     elif source.element is None:
         blockers.append(f"{source.name}: missing fixed element")
 
+    hit_count = 1
     if source.is_multihit:
-        blockers.append(f"{source.name}: multihit requires encounter/action-specific runtime")
+        fixed_hit_count = source.fixed_hit_count
+        if fixed_hit_count is None:
+            blockers.append(f"{source.name}: variable multihit count requires action-specific runtime")
+        elif source.power_mode != "per_hit":
+            blockers.append(f"{source.name}: fixed multihit lacks explicit per-hit Power authority")
+        else:
+            hit_count = fixed_hit_count
+
     if triggered:
         blockers.append(f"{source.name}: triggered/passive action requires runtime trigger")
     if blockers:
@@ -355,6 +363,7 @@ def _direct_action(
         magical_weight=source.magical_weight,
         weight=source.weight,
         status_riders=static_riders,
+        hit_count=hit_count,
     ), (), dynamic_source, dynamic_riders
 
 
