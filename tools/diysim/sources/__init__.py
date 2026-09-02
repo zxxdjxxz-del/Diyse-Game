@@ -8,6 +8,21 @@ from .actions import AuthoredActionSource, find_named_action_line, load_named_ac
 from .actors import EnemyRegistryEntry, StatBlockSource, find_enemy_registry_entries, load_enemy_registry, load_stat_row, load_stat_table, parse_stat_row
 from .analogues import FunctionalAnalogueRuleSource, parse_functional_analogue_rule_text
 from .audit import SourceAuditIssue, SourceAuditReport, audit_repo_sources
+from .class_exp import (
+    CAMPAIGN_CEXP_BUDGETS_PATH,
+    CLASS_CEXP_CAP,
+    CLASS_EXP_CEXP_PATH,
+    CLASS_LEVEL_CAP,
+    CLASS_RECRUITMENT_CEXP_PATH,
+    CampaignCexpBudgetSource,
+    CharacterStartingCexpSource,
+    Chapter13CexpSplitSource,
+    ClassLevelThresholdSource,
+    load_campaign_cexp_budgets,
+    load_character_starting_cexp,
+    load_chapter13_cexp_split,
+    load_class_level_thresholds,
+)
 from .combat import CombatRules, load_combat_rules
 from .consumables import ConsumableSource, load_consumable, load_consumable_register
 from .dynamic_hits import DynamicElementHitRuleSource, parse_dynamic_element_hit_rule_text
@@ -39,6 +54,15 @@ __all__ = [
     "AbilitySource",
     "AuthoredActionSource",
     "BoundedReplayRuleSource",
+    "CAMPAIGN_CEXP_BUDGETS_PATH",
+    "CLASS_CEXP_CAP",
+    "CLASS_EXP_CEXP_PATH",
+    "CLASS_LEVEL_CAP",
+    "CLASS_RECRUITMENT_CEXP_PATH",
+    "CampaignCexpBudgetSource",
+    "Chapter13CexpSplitSource",
+    "CharacterStartingCexpSource",
+    "ClassLevelThresholdSource",
     "CombatRules",
     "ConsumableSource",
     "DynamicElementHitRuleSource",
@@ -75,6 +99,10 @@ __all__ = [
     "find_repo_root",
     "load_ability_registry",
     "load_ability_source",
+    "load_campaign_cexp_budgets",
+    "load_character_starting_cexp",
+    "load_chapter13_cexp_split",
+    "load_class_level_thresholds",
     "load_combat_rules",
     "load_consumable",
     "load_consumable_register",
