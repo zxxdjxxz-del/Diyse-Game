@@ -3,48 +3,69 @@
 **Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit corrections already preserved in the reorganized domains.  
 **Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
 
-## Immediate active frontier
-Current repository status identifies the Kessara Relic-copy path as a useful bounded implementation frontier.
-
-Already implemented:
-- original Relic ownership requirement;
-- matching-Face copy-component requirement;
-- one forged duplicate maximum per individual Relic;
-- quantity cap 2;
-- three forged Relics maximum per Face;
-- Legacy rejection;
-- same Relic identity retained for the forged copy;
+## Recently completed bounded frontier — G wallet / Kessara transaction
+Implemented:
+- persistent `wallet_g` state;
+- current **2,500 G** starting baseline;
+- schema-v2 persistence;
+- deliberate schema-v1 → v2 migration;
+- no reinterpretation of legacy proof `rewards.gold` as the wallet;
+- wallet affordability/credit/spend operations;
+- exact Kessara fee **6,000 G per successful Relic copy**;
+- insufficient-G rejection without mutation;
+- successful G deduction + matching component consumption + forged-copy state committed through one GameState transaction;
 - current Face canonicalization for **Might / Elements / Grace / Perception / Memory / Ruin**;
-- compatibility aliases that migrate retired Resource/Acuity/Change Face labels into Perception/Memory rather than re-exposing them as current names.
+- compatibility aliases that normalize retired Resource/Acuity/Change values into Perception/Memory.
 
-Current authority already fixes the service fee at:
-> **6,000 G per successful Relic copy**
-
-The fee amount is **not open** and must not be described as Auren.
-
-Still unresolved/unfinished at the implementation layer:
+Still open for Kessara presentation only:
 - exact service/menu unlock timing where not separately fixed by its owning content authority;
 - production service-menu presentation;
-- atomic deduction of the 6,000 G fee once the production currency/wallet state is reconciled;
-- original-vs-forged-copy UI presentation.
+- original-vs-forged-copy visual treatment;
+- confirmation/animation polish.
+
+The fee itself and wallet transaction behavior are no longer open implementation gaps.
+
+## Immediate active frontier — production party / character state
+The next structural state layer is to stop treating the four proof characters as the complete permanent roster.
+
+Required foundation:
+- stable character IDs for the six permanent characters;
+- recruited-roster state separate from active-party state;
+- active battle party capped at **4**;
+- persistent per-character state container suitable for later Level/EXP, class/CEXP, equipment, Standard Card and Prime loadouts;
+- current first-name-only display identities;
+- migration that preserves useful proof HP/MP/state without making proof fixture stats/content authoritative;
+- no premature final stat-table lock inside the state schema.
+
+Permanent six:
+- Cyanis;
+- Ilyra;
+- Torren;
+- Nimera;
+- Vaelira;
+- Seyrik.
+
+This stage is state architecture, not final party UI and not a balance pass.
 
 ## Before final UI production
-Resolve the high-impact code/canon divergences first:
-1. Mastery Point removal;
-2. Prime loadout/access/duration/spend/restoration/spacing update;
-3. production **G** wallet/state migration from proof `gold` semantics;
-4. production character/equipment/item data replacing proof fixtures;
-5. expanded production save schema.
+High-impact structural divergences still to resolve include:
+1. production party/character state;
+2. class/loadout state without Mastery Points;
+3. Prime loadout/access/spend/restoration/spacing state;
+4. turn-entry combat core replacing whole-round queue/Confirm Round;
+5. production character/equipment/item data replacing proof fixtures;
+6. expanded production quest/world/settings save state.
 
 ## Recommended implementation sequence
 This is an engineering order, not new canon:
-1. data/state reconciliation;
-2. save schema versioning/migration;
-3. production party/status/menu skeleton;
-4. equipment + Cards/Primes;
-5. combat HUD;
-6. quest/map/shop/service UIs;
-7. accessibility/polish;
-8. broad Android validation.
+1. production party/character state;
+2. class/Face/loadout state;
+3. Prime collection/persistence;
+4. turn-entry combat core;
+5. Recovered/Awakened Prime sequencing;
+6. production UI shells;
+7. quest/map/shop/service UI;
+8. accessibility/polish;
+9. broad Android validation.
 
 Do not build elaborate final menus on top of stale proof state.
