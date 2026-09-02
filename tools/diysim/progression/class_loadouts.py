@@ -1,4 +1,4 @@
-"""Class-Level-aware explicit donor Ordinary and Relic equipment at exact checkpoints."""
+"""Class-Level-aware explicit donor Ordinary, Relic, and proven Legacy equipment."""
 from __future__ import annotations
 
 from collections.abc import Mapping
@@ -8,9 +8,11 @@ from ..sources.campaign_progression import load_campaign_checkpoint
 from ..sources.class_equipment_access import load_character_donor_equipment_access
 from ..sources.equipment import EQUIPMENT_REGISTER_PATH, load_equipment
 from ..sources.equipment_availability import load_ordinary_weapon_availability
+from ..sources.legacies import load_legacy_item
 from ..sources.relics import load_relic_placement, load_relic_weapon
 from .class_exp import ClassCexpState, class_level_from_cexp
 from .class_state import validate_class_state_at_checkpoint
+from .legacy_projects import LegacyProjectProof, validate_native_legacy_item_at_checkpoint
 from .loadouts import (
     EQUIPMENT_SLOT_RULES_PATH,
     EquipmentSlot,
@@ -38,19 +40,14 @@ def _slot_for_class_aware_item(name: str, *, root: Path | None) -> EquipmentSlot
         if "armor" in equipment_type:
             return "armor"
         raise ValueError(f"Could not resolve an equipment slot for ordinary item {name!r}.")
-    if layer == "relic":
+    if layer in {"relic", "legacy"}:
         if equipment_type == "weapon":
             return "weapon"
         if equipment_type == "armor":
             return "armor"
         if equipment_type in {"shield", "focus"}:
             return "secondary"
-        raise ValueError(f"Could not resolve an equipment slot for Relic {name!r}.")
-    if layer == "legacy":
-        raise ValueError(
-            f"Legacy equipment is not yet supported by class-aware progression inputs: {name}. "
-            "Legacy completion/ownership must be proven separately."
-        )
+        raise ValueError(f"Could not resolve an equipment slot for {item.layer} {name!r}.")
     raise ValueError(f"Unsupported progression equipment layer {item.layer!r}: {name}")
 
 
@@ -212,12 +209,82 @@ def _validate_relic_choice(
     return item.name, paths
 
 
+def _find_project_proof(
+    owner: str,
+    proofs: Mapping[str, LegacyProjectProof] | None,
+) -> LegacyProjectProof | None:
+    for character, proof in (proofs or {}).items():
+        if character.casefold() == owner.casefold():
+            return proof
+    return None
+
+
+def _validate_legacy_choice(
+    character: str,
+    slot: EquipmentSlot,
+    name: str,
+    *,
+    checkpoint_key: str,
+    current_class_state: ClassCexpState,
+    subclass_class_level: int,
+    project_proofs: Mapping[str, LegacyProjectProof] | None,
+    root: Path | None,
+) -> tuple[str, list[str]]:
+    item = load_equipment(name, root=root)
+    if item.layer.casefold() != "legacy":
+        raise ValueError(f"Expected Legacy equipment, got {item.layer}: {item.name}")
+    actual_slot = _slot_for_class_aware_item(item.name, root=root)
+    if actual_slot != slot:
+        raise ValueError(f"{item.name} occupies {actual_slot}, not requested slot {slot}.")
+
+    owner = item.owner
+    proof = _find_project_proof(owner, project_proofs)
+    if proof is None:
+        raise ValueError(
+            f"{item.name} requires explicit Legacy project proof for native owner {owner}; "
+            "Legacy availability or CL11 eligibility alone does not prove the item exists."
+        )
+
+    paths = [EQUIPMENT_REGISTER_PATH, EQUIPMENT_SLOT_RULES_PATH]
+    if owner.casefold() == character.casefold():
+        if proof.class_state != current_class_state:
+            raise ValueError(
+                f"Native Legacy proof for {character} must use the same Class CEXP state as "
+                "the character being resolved at this checkpoint."
+            )
+    else:
+        access = load_character_donor_equipment_access(character, root=root)
+        if owner.casefold() != access.donor_character.casefold():
+            raise ValueError(
+                f"{item.name} belongs to {owner}, not {character}'s reciprocal donor "
+                f"{access.donor_character}."
+            )
+        if subclass_class_level < access.legacy_class_level:
+            raise ValueError(
+                f"{item.name} requires donor Legacy eligibility at Subclass CL{access.legacy_class_level}; "
+                f"{character} is only Subclass CL{subclass_class_level} at this checkpoint."
+            )
+        paths.append(access.source_path)
+
+    validation = validate_native_legacy_item_at_checkpoint(
+        owner,
+        item.name,
+        checkpoint_key,
+        proof,
+        root=root,
+    )
+    paths.extend(validation.source_paths)
+    return item.name, paths
+
+
 def _class_aware_weapon_consumes_secondary(name: str | None, *, root: Path | None) -> bool:
     if not name:
         return False
     item = load_equipment(name, root=root)
     if item.layer.casefold() == "relic" and item.equipment_type.casefold() == "weapon":
         return load_relic_weapon(item.name, root=root).consumes_secondary
+    if item.layer.casefold() == "legacy" and item.equipment_type.casefold() == "weapon":
+        return load_legacy_item(item.name, root=root).consumes_secondary
     return _weapon_consumes_secondary(name, root=root)
 
 
@@ -264,9 +331,10 @@ def resolve_class_aware_loadout_at_checkpoint(
     *,
     equipment_choices: Mapping[str, str] | None = None,
     class_state: ClassCexpState | None = None,
+    legacy_project_proofs: Mapping[str, LegacyProjectProof] | None = None,
     root: Path | None = None,
 ) -> ResolvedLoadout:
-    """Resolve explicit Ordinary/Relic gear at an exact campaign checkpoint.
+    """Resolve explicit Ordinary/Relic/proven-Legacy gear at an exact checkpoint.
 
     Without `class_state`, behavior is exactly the existing native-Ordinary-only
     checkpoint resolver. Supplying `class_state` first validates the mandatory CEXP
@@ -275,14 +343,19 @@ def resolve_class_aware_loadout_at_checkpoint(
     first-acquisition chapter timing; reciprocal donor Relics additionally require
     Subclass CL7 Equipment Mastery.
 
+    Legacy choices are stricter. They require an explicit `LegacyProjectProof` for
+    the item's native owner. Native use requires that completed item to exist; donor
+    use additionally requires the receiver's Subclass CL11 Legacy Mastery. Current
+    source timing only supports completed-project validation from end Chapter 12
+    through Last Shelter, so earlier Legacy completion is not inferred.
+
     Class-state validation currently supports the mandatory route only because the
     repository's optional-CEXP activity/order layer is not yet wired into DiySim.
-
-    Legacy equipment remains blocked because CL11 proves only eligibility; actual
-    Legacy project completion/ownership is a separate requirement not yet modeled.
     """
     choices = _normalize_choices(equipment_choices)
     if class_state is None:
+        if legacy_project_proofs:
+            raise ValueError("Legacy project proofs require an explicit class_state checkpoint state.")
         return resolve_loadout_at_checkpoint(
             character,
             checkpoint_key,
@@ -359,8 +432,18 @@ def resolve_class_aware_loadout_at_checkpoint(
                 availability_through_chapter=checkpoint.chapter_granular_equipment_cutoff,
                 root=root,
             )
+        elif item.layer.casefold() == "legacy":
+            validated_name, item_paths = _validate_legacy_choice(
+                character,
+                slot,  # type: ignore[arg-type]
+                name,
+                checkpoint_key=checkpoint.key,
+                current_class_state=class_state,
+                subclass_class_level=subclass_cl,
+                project_proofs=legacy_project_proofs,
+                root=root,
+            )
         else:
-            # `_slot_for_class_aware_item` already gives a more specific Legacy error.
             raise ValueError(f"Unsupported class-aware equipment layer: {item.layer}")
 
         explicit_slots.add(slot)  # type: ignore[arg-type]
