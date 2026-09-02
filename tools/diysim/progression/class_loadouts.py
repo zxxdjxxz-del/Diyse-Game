@@ -25,6 +25,16 @@ from .loadouts import (
 )
 
 
+def _legacy_slot(name: str, *, root: Path | None) -> EquipmentSlot:
+    """Resolve a Legacy package slot from the Legacy master register's authored slot text."""
+    slot = load_legacy_item(name, root=root).slot.casefold()
+    if "armor" in slot:
+        return "armor"
+    if "shield" in slot or "focus" in slot:
+        return "secondary"
+    return "weapon"
+
+
 def _slot_for_class_aware_item(name: str, *, root: Path | None) -> EquipmentSlot:
     item = load_equipment(name, root=root)
     layer = item.layer.casefold()
@@ -40,14 +50,16 @@ def _slot_for_class_aware_item(name: str, *, root: Path | None) -> EquipmentSlot
         if "armor" in equipment_type:
             return "armor"
         raise ValueError(f"Could not resolve an equipment slot for ordinary item {name!r}.")
-    if layer in {"relic", "legacy"}:
+    if layer == "relic":
         if equipment_type == "weapon":
             return "weapon"
         if equipment_type == "armor":
             return "armor"
         if equipment_type in {"shield", "focus"}:
             return "secondary"
-        raise ValueError(f"Could not resolve an equipment slot for {item.layer} {name!r}.")
+        raise ValueError(f"Could not resolve an equipment slot for Relic {name!r}.")
+    if layer == "legacy":
+        return _legacy_slot(item.name, root=root)
     raise ValueError(f"Unsupported progression equipment layer {item.layer!r}: {name}")
 
 
@@ -283,7 +295,7 @@ def _class_aware_weapon_consumes_secondary(name: str | None, *, root: Path | Non
     item = load_equipment(name, root=root)
     if item.layer.casefold() == "relic" and item.equipment_type.casefold() == "weapon":
         return load_relic_weapon(item.name, root=root).consumes_secondary
-    if item.layer.casefold() == "legacy" and item.equipment_type.casefold() == "weapon":
+    if item.layer.casefold() == "legacy" and _legacy_slot(item.name, root=root) == "weapon":
         return load_legacy_item(item.name, root=root).consumes_secondary
     return _weapon_consumes_secondary(name, root=root)
 
