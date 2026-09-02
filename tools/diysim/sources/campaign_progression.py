@@ -13,6 +13,9 @@ from .repo import SourceGapError, find_repo_root, read_repo_text
 CAMPAIGN_LEVEL_SPINE_PATH = "docs/10_PROGRESSION_AND_EXP/CAMPAIGN_LEVEL_SPINE.md"
 RECRUITMENT_PATH = "docs/10_PROGRESSION_AND_EXP/CLASS_RECRUITMENT_AND_STARTING_CEXP.md"
 BASE_CLASSES_DIR = "docs/06_CLASSES_AND_ABILITIES/BASE_CLASSES"
+SUBCLASSES_DIR = "docs/06_CLASSES_AND_ABILITIES/SUBCLASSES"
+CLASS_SYSTEM_MASTER_PATH = "docs/06_CLASSES_AND_ABILITIES/CLASS_SYSTEM_MASTER.md"
+SUBCLASS_UNLOCK_CHAPTER = 7
 CheckpointKind = Literal["chapter_start", "chapter_internal", "chapter_end"]
 
 
@@ -21,8 +24,15 @@ class CharacterCampaignSource:
     character: str
     recruitment_chapter: int
     base_class: str
+    subclass: str
     recruitment_source_path: str = RECRUITMENT_PATH
     class_source_path: str = ""
+    subclass_source_path: str = ""
+    subclass_unlock_source_path: str = CLASS_SYSTEM_MASTER_PATH
+
+    @property
+    def selectable_classes(self) -> tuple[str, str]:
+        return self.base_class, self.subclass
 
 
 @dataclass(frozen=True)
@@ -53,10 +63,15 @@ class CampaignCheckpointSource:
         return self.chapter if self.kind == "chapter_end" else max(0, self.chapter - 1)
 
 
-def _load_class_owners(root: Path) -> dict[str, tuple[str, str]]:
-    directory = root / BASE_CLASSES_DIR
+def _load_owned_classes(
+    root: Path,
+    directory_path: str,
+    *,
+    class_kind: str,
+) -> dict[str, tuple[str, str]]:
+    directory = root / directory_path
     if not directory.is_dir():
-        raise SourceGapError(f"Missing Base-Class source directory: {BASE_CLASSES_DIR}")
+        raise SourceGapError(f"Missing {class_kind} source directory: {directory_path}")
 
     owners: dict[str, tuple[str, str]] = {}
     for path in sorted(directory.glob("*.md")):
@@ -69,19 +84,39 @@ def _load_class_owners(root: Path) -> dict[str, tuple[str, str]]:
         class_name = class_match.group(1).strip()
         owner = owner_match.group(1).strip()
         if owner in owners:
-            raise SourceGapError(f"Multiple native Base Classes found for {owner}")
+            raise SourceGapError(f"Multiple native {class_kind}s found for {owner}")
         owners[owner] = (class_name, relative)
 
     if not owners:
-        raise SourceGapError(f"No native Base-Class owners found under {BASE_CLASSES_DIR}")
+        raise SourceGapError(f"No native {class_kind} owners found under {directory_path}")
     return owners
+
+
+def _validate_subclass_unlock(root: Path) -> None:
+    text = read_repo_text(CLASS_SYSTEM_MASTER_PATH, root=root)
+    match = re.search(
+        r"Subclasses do not become usable before the \*\*Sixfold Volition at the end of Chapter (\d+)\*\*",
+        text,
+        re.I,
+    )
+    if not match:
+        raise SourceGapError(
+            f"Could not resolve Subclass unlock timing from {CLASS_SYSTEM_MASTER_PATH}"
+        )
+    if int(match.group(1)) != SUBCLASS_UNLOCK_CHAPTER:
+        raise SourceGapError(
+            "DiySim Subclass unlock constant disagrees with current class-system authority: "
+            f"expected Chapter {SUBCLASS_UNLOCK_CHAPTER}, found Chapter {match.group(1)}"
+        )
 
 
 def _load_characters(root_string: str) -> tuple[CharacterCampaignSource, ...]:
     root = Path(root_string)
     text = read_repo_text(RECRUITMENT_PATH, root=root)
     table = find_markdown_table(text, ("Character", "Recruitment"))
-    class_owners = _load_class_owners(root)
+    base_owners = _load_owned_classes(root, BASE_CLASSES_DIR, class_kind="Base Class")
+    subclass_owners = _load_owned_classes(root, SUBCLASSES_DIR, class_kind="Subclass")
+    _validate_subclass_unlock(root)
     rows: list[CharacterCampaignSource] = []
 
     for row in table:
@@ -91,21 +126,41 @@ def _load_characters(root_string: str) -> tuple[CharacterCampaignSource, ...]:
             raise SourceGapError(
                 f"Unsupported recruitment chapter for {character}: {row['Recruitment']!r}"
             )
-        class_info = class_owners.get(character)
-        if class_info is None:
+        base_info = base_owners.get(character)
+        if base_info is None:
             raise SourceGapError(f"No native Base Class owner sheet found for {character}")
-        class_name, class_path = class_info
+        subclass_info = subclass_owners.get(character)
+        if subclass_info is None:
+            raise SourceGapError(f"No native Subclass owner sheet found for {character}")
+        base_name, base_path = base_info
+        subclass_name, subclass_path = subclass_info
         rows.append(
             CharacterCampaignSource(
                 character=character,
                 recruitment_chapter=int(recruitment_match.group(1)),
-                base_class=class_name,
-                class_source_path=class_path,
+                base_class=base_name,
+                subclass=subclass_name,
+                class_source_path=base_path,
+                subclass_source_path=subclass_path,
             )
         )
 
     if not rows:
         raise SourceGapError(f"No recruitment rows found in {RECRUITMENT_PATH}")
+
+    recruited = {row.character for row in rows}
+    extra_base = sorted(set(base_owners) - recruited)
+    extra_subclasses = sorted(set(subclass_owners) - recruited)
+    if extra_base:
+        raise SourceGapError(
+            "Base-Class owner sheets exist for characters absent from recruitment authority: "
+            + ", ".join(extra_base)
+        )
+    if extra_subclasses:
+        raise SourceGapError(
+            "Subclass owner sheets exist for characters absent from recruitment authority: "
+            + ", ".join(extra_subclasses)
+        )
     return tuple(rows)
 
 
@@ -237,7 +292,10 @@ def load_campaign_checkpoint(
 __all__ = [
     "BASE_CLASSES_DIR",
     "CAMPAIGN_LEVEL_SPINE_PATH",
+    "CLASS_SYSTEM_MASTER_PATH",
     "RECRUITMENT_PATH",
+    "SUBCLASSES_DIR",
+    "SUBCLASS_UNLOCK_CHAPTER",
     "CampaignCheckpointSource",
     "CampaignLevelTarget",
     "CharacterCampaignSource",
