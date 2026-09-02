@@ -145,7 +145,7 @@ def test_campaign_checkpoint_includes_only_recruited_characters() -> None:
     ]
 
 
-def test_post_volition_audit_marks_selected_class_as_an_assumption_gap() -> None:
-    row = audit_character_checkpoint("Cyanis", 8, "mandatory")
+def test_end_chapter7_audit_marks_selected_class_as_an_assumption_gap() -> None:
+    row = audit_character_checkpoint("Cyanis", 7, "mandatory")
     assert row.class_name == "Crest Knight"
     assert "selected_class_route_missing" in _gap_codes(row)
