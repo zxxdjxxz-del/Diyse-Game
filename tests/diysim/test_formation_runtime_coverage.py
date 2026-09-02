@@ -55,11 +55,13 @@ def test_authority_safe_formation_aliases_resolve():
     assert skirmisher.enemy is not None
     assert skirmisher.enemy.name == "Black Host Sky Skirmisher"
 
-    # Multiple owner sheets end in War-Sorcerer, so generic alias resolution must
-    # remain conservative until chapter/owner authority disambiguates it.
+    # Multiple owner sheets end in War-Sorcerer. Chapter-aware resolution is
+    # allowed only because exactly one candidate owner explicitly declares Ch6.
     marker_screen = next(formation for formation in formations if formation.name == "Marker Screen")
     war_sorcerer = next(member for member in marker_screen.members if member.label == "War-Sorcerer")
-    assert war_sorcerer.enemy is None
+    assert war_sorcerer.enemy is not None
+    assert war_sorcerer.enemy.name == "Black Host War-Sorcerer"
+    assert war_sorcerer.enemy.source_path.endswith("/BLACK_HOST_WAR_SORCERER.md")
 
 
 def test_every_formation_is_explicitly_ready_or_blocked():
