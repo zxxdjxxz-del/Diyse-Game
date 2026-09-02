@@ -95,7 +95,7 @@ def test_two_slot_donor_primary_consumes_secondary() -> None:
 
 
 def test_two_slot_donor_primary_rejects_explicit_secondary() -> None:
-    with pytest.raises(ValueError, match="consumes Weapon \+ Secondary"):
+    with pytest.raises(ValueError, match=r"consumes Weapon \+ Secondary"):
         resolve_class_aware_loadout_at_checkpoint(
             "Ilyra",
             "end_ch7",
@@ -103,7 +103,7 @@ def test_two_slot_donor_primary_rejects_explicit_secondary() -> None:
                 "weapon": "Ruin Vanguard Sword",
                 "secondary": "Tower Shield",
             },
-            class_state=ClassCexpState(base_cexp=4_950, subclass_cexp=0),
+            class_state=ClassCexpState(base_cep=4_950, subclass_cexp=0),
         )
 
 
