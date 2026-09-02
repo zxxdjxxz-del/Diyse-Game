@@ -49,7 +49,7 @@ Authority:
 Status:
 > **USER-SUPPLIED / LICENSE NOT YET VERIFIED**
 
-These raw binaries must remain outside public Git history unless provenance is established.
+These raw binaries remain private/reference material unless provenance or authorization is established. Private repository visibility does not itself convert license-unverified material into redistributable/open assets.
 
 ## Supplemental Batch 2 — verified CC0 VFX
 
@@ -90,17 +90,21 @@ Quaternius Fantasy Props MegaKit, both Quaternius animation libraries, and Brack
 
 Preferred for signature, faction, story-defining and provenance-sensitive final assets.
 
-## Public-repository safety lock
+## Repository visibility and binary safety
 
-`zxxdjxxz-del/Diyse-Game` is currently public.
+`zxxdjxxz-del/Diyse-Game` is currently **private**.
 
-Therefore license-unverified source ZIPs/direct extractions must not be committed, including through Git LFS, until rights are established or storage visibility changes.
+That removes the former public-repository exposure condition, but it does **not** waive provenance, authorization, redistribution, or licensing requirements.
 
-Repository safeguards:
-- `asset_sources/private_reference/` is ignored;
-- `assets/environment/extracted_private_reference/` is ignored;
+Repository safeguards and storage rules:
+- Diyse-original or otherwise authorized private source art may be stored in the appropriate source-art lane;
+- license-unverified third-party material remains private/reference only and must not be represented as redistributable/open;
+- `asset_sources/private_reference/` remains ignored for material intentionally kept outside normal Git history;
+- `assets/environment/extracted_private_reference/` remains ignored;
 - `asset_sources/.gdignore` prevents source-package scanning by Godot;
 - redistributable source ZIPs under `asset_sources/third_party_cc0/` are routed through Git LFS by `.gitattributes`.
+
+If repository visibility changes back to public, license-unverified/private-reference binaries must be re-audited before any public exposure.
 
 ## Intake and verification tools
 
@@ -139,6 +143,12 @@ Required adaptation path:
 `../ASSET_STYLE_CONVERSION_PIPELINE.md`
 
 Merely enlarging, sharpening, recoloring, or applying a uniform filter does not satisfy the Diyse style standard.
+
+Current exact character masters are separately repository-backed under:
+`asset_sources/characters/current/`
+
+Their controlling authority index is:
+`../CHARACTERS/README.md`
 
 ## Raw binary storage
 
