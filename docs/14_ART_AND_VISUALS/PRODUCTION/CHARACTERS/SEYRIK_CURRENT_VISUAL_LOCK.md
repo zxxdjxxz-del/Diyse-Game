@@ -3,6 +3,14 @@
 **Status:** **LOCKED — B00 HIGH-RES MASTER APPROVED**  
 **Authority scope:** current face, hair, body proportion, armor language, coat, palette, weapon silhouette, and prohibited regressions for character art production.
 
+## Canonical repository image master
+
+- repository path: [`asset_sources/characters/current/seyrik.jpg`](../../../../asset_sources/characters/current/seyrik.jpg)
+- Git blob SHA: `c0160eddf4b123db1bd0d1895875c59001c635f4`
+- SHA-256: `51aca401cfd41b9d6f042c57f9850b70eb9ddcde2a43510e7bee6d44b7f57f23`
+
+The repository file above is the current operational image source of truth for Seyrik. It supersedes temporary/local generated filenames and any older render fingerprint if they conflict. The repository master controls until the user explicitly revises it.
+
 ## Exact approved render fingerprint
 
 The explicitly approved B00 master is the controlling image authority.
@@ -12,7 +20,7 @@ The explicitly approved B00 master is the controlling image authority.
 - SHA-256: `4656a2c7d4c6c9bd3dd875e31ec993c1d44524fabfa85f72d5077a6152ec2206`
 - approved source render: `crimson_knight_with_a_jagged_greatsword.png`
 
-If prose and the exact approved render ever appear to disagree on incidental minutiae, the fingerprinted render controls until the user explicitly revises it.
+This older recorded fingerprint/source filename is retained for provenance. Where it differs from the canonical repository master above, the repository master controls.
 
 ## Identity / proportions
 
