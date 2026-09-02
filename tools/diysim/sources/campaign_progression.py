@@ -5,6 +5,7 @@ from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
 import re
+from typing import Literal
 
 from .markdown import find_markdown_table
 from .repo import SourceGapError, find_repo_root, read_repo_text
@@ -12,6 +13,7 @@ from .repo import SourceGapError, find_repo_root, read_repo_text
 CAMPAIGN_LEVEL_SPINE_PATH = "docs/10_PROGRESSION_AND_EXP/CAMPAIGN_LEVEL_SPINE.md"
 RECRUITMENT_PATH = "docs/10_PROGRESSION_AND_EXP/CLASS_RECRUITMENT_AND_STARTING_CEXP.md"
 BASE_CLASSES_DIR = "docs/06_CLASSES_AND_ABILITIES/BASE_CLASSES"
+CheckpointKind = Literal["chapter_start", "chapter_internal", "chapter_end"]
 
 
 @dataclass(frozen=True)
@@ -29,6 +31,26 @@ class CampaignLevelTarget:
     level: int
     label: str
     source_path: str = CAMPAIGN_LEVEL_SPINE_PATH
+
+
+@dataclass(frozen=True)
+class CampaignCheckpointSource:
+    key: str
+    chapter: int
+    level: int
+    label: str
+    kind: CheckpointKind
+    source_path: str = CAMPAIGN_LEVEL_SPINE_PATH
+
+    @property
+    def chapter_granular_equipment_cutoff(self) -> int:
+        """Latest chapter whose availability is definitely reached at this checkpoint.
+
+        End-of-chapter checkpoints can use equipment explicitly marked available in
+        that chapter. Start/internal checkpoints cannot assume when an item with only
+        chapter-granular timing appears, so the safe cutoff is the prior chapter.
+        """
+        return self.chapter if self.kind == "chapter_end" else max(0, self.chapter - 1)
 
 
 def _load_class_owners(root: Path) -> dict[str, tuple[str, str]]:
@@ -111,6 +133,52 @@ def _load_level_targets(root_string: str) -> tuple[CampaignLevelTarget, ...]:
     return tuple(rows)
 
 
+def _load_checkpoints(root_string: str) -> tuple[CampaignCheckpointSource, ...]:
+    root = Path(root_string)
+    text = read_repo_text(CAMPAIGN_LEVEL_SPINE_PATH, root=root)
+    checkpoints: list[CampaignCheckpointSource] = []
+
+    for target in _load_level_targets(root_string):
+        checkpoints.append(
+            CampaignCheckpointSource(
+                key=f"end_ch{target.chapter}",
+                chapter=target.chapter,
+                level=target.level,
+                label=target.label,
+                kind="chapter_end",
+            )
+        )
+
+    anchor_specs = (
+        ("ch13_start", "start Ch13", "chapter_start"),
+        ("ch13_last_shelter", "Last Shelter", "chapter_internal"),
+        ("ch13_ending", "ending", "chapter_end"),
+    )
+    for key, label, kind in anchor_specs:
+        match = re.search(
+            rf"^-\s*{re.escape(label)}\s*:\s*\*\*~?Lv(\d+)\b",
+            text,
+            re.I | re.M,
+        )
+        if match:
+            checkpoints.append(
+                CampaignCheckpointSource(
+                    key=key,
+                    chapter=13,
+                    level=int(match.group(1)),
+                    label=label if key != "ch13_ending" else "End Ch13 — The Last Command",
+                    kind=kind,
+                )
+            )
+
+    keys = [row.key for row in checkpoints]
+    if len(keys) != len(set(keys)):
+        raise SourceGapError(f"Duplicate campaign checkpoint keys in {CAMPAIGN_LEVEL_SPINE_PATH}")
+    if not checkpoints:
+        raise SourceGapError(f"No campaign checkpoints found in {CAMPAIGN_LEVEL_SPINE_PATH}")
+    return tuple(checkpoints)
+
+
 @lru_cache(maxsize=4)
 def _cached_characters(root_string: str) -> tuple[CharacterCampaignSource, ...]:
     return _load_characters(root_string)
@@ -119,6 +187,11 @@ def _cached_characters(root_string: str) -> tuple[CharacterCampaignSource, ...]:
 @lru_cache(maxsize=4)
 def _cached_level_targets(root_string: str) -> tuple[CampaignLevelTarget, ...]:
     return _load_level_targets(root_string)
+
+
+@lru_cache(maxsize=4)
+def _cached_checkpoints(root_string: str) -> tuple[CampaignCheckpointSource, ...]:
+    return _load_checkpoints(root_string)
 
 
 def load_character_campaign_sources(
@@ -135,12 +208,42 @@ def load_campaign_level_targets(
     return _cached_level_targets(str(repo))
 
 
+def load_campaign_checkpoints(
+    *, root: Path | None = None
+) -> tuple[CampaignCheckpointSource, ...]:
+    repo = (root or find_repo_root()).resolve()
+    return _cached_checkpoints(str(repo))
+
+
+def load_campaign_checkpoint(
+    key: str,
+    *,
+    root: Path | None = None,
+) -> CampaignCheckpointSource:
+    normalized = key.strip().lower().replace("-", "_").replace(" ", "_")
+    aliases = {
+        "start_ch13": "ch13_start",
+        "last_shelter": "ch13_last_shelter",
+        "ending": "ch13_ending",
+    }
+    normalized = aliases.get(normalized, normalized)
+    for checkpoint in load_campaign_checkpoints(root=root):
+        if checkpoint.key == normalized:
+            return checkpoint
+    available = ", ".join(row.key for row in load_campaign_checkpoints(root=root))
+    raise KeyError(f"Unknown campaign checkpoint {key!r}. Available: {available}")
+
+
 __all__ = [
     "BASE_CLASSES_DIR",
     "CAMPAIGN_LEVEL_SPINE_PATH",
     "RECRUITMENT_PATH",
+    "CampaignCheckpointSource",
     "CampaignLevelTarget",
     "CharacterCampaignSource",
+    "CheckpointKind",
+    "load_campaign_checkpoint",
+    "load_campaign_checkpoints",
     "load_campaign_level_targets",
     "load_character_campaign_sources",
 ]
