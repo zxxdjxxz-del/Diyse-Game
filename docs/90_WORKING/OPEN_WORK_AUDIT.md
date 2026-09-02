@@ -8,34 +8,42 @@ This file is the consolidated index of genuinely unfinished work. It does **not*
 
 ### Visual B00 — Ilyra
 - Ilyra's permanent-party new-style master remains in **cleanup/remake review OPEN** state.
-- The immediate decision gate is the B00 remake/clothing review against her approved character appearance and the current Diyse visual direction.
-- Cyanis's high-resolution new-style master is already locked and is not part of this approval gate.
+- The immediate visual decision gate is the B00 remake/clothing review against her approved appearance and current Diyse visual direction.
+- Cyanis's high-resolution new-style master is already locked.
 
-No other current production backlog should be mislabeled as requiring a fresh canon decision merely because it is unfinished.
+Area-layout grayboxes and blueprints are production/testing work and should not be mislabeled as new canon approvals until a topology is ready for L3 promotion.
 
 ## 2 — Production Backlog
 
-### Playable area & route layout production
-The project has macro geography and route sequencing, but does **not** yet have build-ready playable maps for the full game.
+### Playable area & route layout production — ACTIVE
+The project has macro geography and route sequencing, but the full game still lacks build-ready playable topology.
+
+Completed in the current area-production pass:
+- `PLAYABLE_AREA_INVENTORY_WORKING.md` now inventories mandatory Chapters 0–13, persistent hubs, Character Quests, Side Quest map impacts, Regional Hunts and Major Hunts;
+- layout maturity states L0–L3 are defined;
+- `AREA_LAYOUTS/BLUEPRINT_001_CH00_CONVOY_WRECK_ROUTE.md` now provides the first coordinate-based route blueprint;
+- `game/exploration/maps/chapter_00/chapter_00_graybox.tscn` and its builder provide the first actual in-engine blockout;
+- Chapter-0 S005 spatial presentation was corrected to the Field Triage Camp perimeter/east cut;
+- S006's bounded no-combat survivor sweep is represented as Recovery-Line reuse before the Brackenwall handoff;
+- focused graybox validation is wired into Godot smoke CI.
 
 Still required:
-- inventory every gameplay-relevant area/sub-area;
-- create actual field/town/dungeon/facility/Hunt blockouts;
-- define entrances/exits and transitions;
-- map critical paths, optional loops, shortcuts and dead ends;
-- establish landmarks, sightlines and navigation readability;
-- define elevation and HD-2D layer composition;
-- reserve encounter spaces and boss/Hunt arenas;
-- place traversal gates, authored interactions, rewards and state changes;
-- set approximate scale and pacing targets;
-- create tool-agnostic environment-generation handoff packets.
+- load/play and revise Blueprint 001 from actual traversal evidence;
+- compare camera variants A/B/C;
+- validate Android touch navigation and route readability;
+- promote Chapter-0 topology to L3 only after approval;
+- create subsequent outdoor/hub/dungeon representative blueprints;
+- continue blueprinting the remaining inventory;
+- eventually create tool-agnostic environment-generation handoff packets.
 
 The existing world map, `ROADS_AND_CHAPTER_TRAVEL.md`, and local quest sequences constrain this work but do not replace it.
 
-Layout/blockout design can proceed in parallel with visual certification. Final rendered environment production should follow the relevant B01–B11 benchmark approvals.
+Layout/blockout design can proceed in parallel with visual certification. Final rendered environment production remains downstream of relevant B01–B11 benchmark approvals.
 
-Working pointer:
-`AREA_AND_ROUTE_LAYOUT_PRODUCTION_WORKING.md`
+Working pointers:
+- `AREA_AND_ROUTE_LAYOUT_PRODUCTION_WORKING.md`
+- `PLAYABLE_AREA_INVENTORY_WORKING.md`
+- `AREA_LAYOUTS/BLUEPRINT_001_CH00_CONVOY_WRECK_ROUTE.md`
 
 ### Visual production
 - Produce the remaining permanent-party new-style masters for **Torren, Nimera, Vaelira, and Seyrik**, plus finish Ilyra after her review gate.
@@ -89,13 +97,14 @@ Any resulting special-encounter G placement remains downstream of the story deci
 ## 5 — Certification / QA Backlog
 
 ### Area / route gameplay certification
-After representative maps exist, validate:
+For each representative map and later production area, validate:
 - route readability without excessive waypoint dependence;
 - traversal time and backtracking burden;
 - collision and camera behavior;
+- touch/mobile navigation;
 - encounter-space readability;
 - shortcuts and one-way gates;
-- revisit-state correctness;
+- revisit/state correctness;
 - Android performance for representative environment density.
 
 ### Visual certification
@@ -127,16 +136,17 @@ Do **not** automatically route work back into these streams:
 - legacy giant-tracker migration — complete;
 - repository documentation replacement/migration — complete.
 
-The historical v103–v105 balance reports may still be used as evidence, but they do not define the current work sequence and must not silently reactivate that retired workflow.
+Historical v103–v105 balance reports may remain evidence, but they do not define the current work sequence and must not silently reactivate that workflow.
 
 ## 7 — Audit Corrections
 
 - `90_WORKING/README.md` no longer lists the retired mandatory-route difficulty recalibration as a current major stream.
-- `IMPLEMENTATION_FRONTIER_WORKING.md` now uses canonical **G**; stale **Auren** runtime-migration language is removed and Auren is explicitly retired.
-- Playable area/route layout production is now explicitly tracked; prior audits incorrectly treated macro geography and route sequencing as if they fully covered environment production.
+- implementation-facing currency guidance now uses canonical **G**; Auren is retired.
+- playable area/route production is explicitly tracked; macro geography is not treated as finished level design.
+- Chapter-0 presentation now follows exact dialogue: S005 is a **Field Triage Camp perimeter** confrontation, while S006 retains Recovery-Line identity for its bounded player-controlled survivor sweep.
 
 ## Routing Rule
 
-Use this file to answer **what is actually still unfinished**. Use `ACTIVE_WORK_QUEUE.md` to answer **what should be worked on next**. Use the owning numbered domain or specific working tracker for the detailed rules.
+Use this file to answer **what is actually still unfinished**. Use `ACTIVE_WORK_QUEUE.md` to answer **what should be worked on next**. Use the owning numbered domain or specific working tracker for detailed rules.
 
-Do not create a new open stream merely because a closed system still needs implementation, presentation, story placement, or later QA. Playable area/route layout is a genuine production stream because the actual explorable geometry has not yet been authored.
+Do not create a new open stream merely because a closed system still needs implementation, presentation, story placement, or later QA. Playable area/route layout is a genuine production stream because actual explorable geometry still has to be authored and validated.
