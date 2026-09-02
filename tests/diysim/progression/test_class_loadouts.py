@@ -4,10 +4,30 @@ import pytest
 
 from tools.diysim.progression.class_exp import ClassCexpState
 from tools.diysim.progression.class_loadouts import resolve_class_aware_loadout_at_checkpoint
+from tools.diysim.progression.legacy_projects import LegacyProjectEvidence, LegacyProjectProof
 
 
 def _gap_codes(row) -> set[str]:
     return {gap.code for gap in row.source_gaps}
+
+
+def _legacy_proof(
+    state: ClassCexpState,
+    item: str,
+    *,
+    gate_b: bool = True,
+) -> LegacyProjectProof:
+    return LegacyProjectProof(
+        class_state=state,
+        evidence=LegacyProjectEvidence(
+            character_quest_complete=True,
+            precursor_owned=True,
+            gate_a_owned=True,
+            gate_b_owned=gate_b,
+            kessara_project_available=True,
+            completed_items=frozenset({item}),
+        ),
+    )
 
 
 def test_fresh_subclass_cl1_opens_reciprocal_donor_primary_at_volition() -> None:
@@ -200,11 +220,72 @@ def test_shared_relic_secondary_access_is_not_inferred() -> None:
         )
 
 
-def test_legacy_layer_remains_blocked_pending_completion_and_ownership_proof() -> None:
-    with pytest.raises(ValueError, match="Legacy completion/ownership must be proven separately"):
+def test_legacy_choice_still_rejects_without_explicit_project_proof() -> None:
+    with pytest.raises(ValueError, match="requires explicit Legacy project proof"):
         resolve_class_aware_loadout_at_checkpoint(
             "Cyanis",
-            "end_ch11",
+            "end_ch12",
             equipment_choices={"weapon": "Move or I Move You."},
-            class_state=ClassCexpState(base_cexp=6_000, subclass_cexp=4_700),
+            class_state=ClassCexpState(base_cexp=6_000, subclass_cexp=5_950),
         )
+
+
+def test_native_completed_legacy_can_be_equipped_at_end_ch12() -> None:
+    state = ClassCexpState(base_cexp=6_000, subclass_cexp=5_950)
+    row = resolve_class_aware_loadout_at_checkpoint(
+        "Cyanis",
+        "end_ch12",
+        equipment_choices={"weapon": "Move or I Move You."},
+        class_state=state,
+        legacy_project_proofs={
+            "Cyanis": _legacy_proof(state, "Move or I Move You.", gate_b=False)
+        },
+    )
+    assert row.weapon == "Move or I Move You."
+    assert row.explicit_slots == ("weapon",)
+
+
+def test_donor_completed_legacy_requires_subclass_cl11() -> None:
+    receiver_state = ClassCexpState(base_cexp=6_000, subclass_cexp=3_450)
+    donor_state = ClassCexpState(base_cexp=6_000, subclass_cexp=6_000)
+    with pytest.raises(ValueError, match="requires donor Legacy eligibility at Subclass CL11"):
+        resolve_class_aware_loadout_at_checkpoint(
+            "Cyanis",
+            "end_ch12",
+            equipment_choices={"weapon": "There's Your Problem."},
+            class_state=receiver_state,
+            legacy_project_proofs={
+                "Vaelira": _legacy_proof(donor_state, "There's Your Problem.", gate_b=False)
+            },
+        )
+
+
+def test_subclass_cl11_can_equip_actual_completed_reciprocal_donor_legacy() -> None:
+    receiver_state = ClassCexpState(base_cexp=6_000, subclass_cexp=5_950)
+    donor_state = ClassCexpState(base_cexp=6_000, subclass_cexp=6_000)
+    row = resolve_class_aware_loadout_at_checkpoint(
+        "Cyanis",
+        "end_ch12",
+        equipment_choices={"weapon": "There's Your Problem."},
+        class_state=receiver_state,
+        legacy_project_proofs={
+            "Vaelira": _legacy_proof(donor_state, "There's Your Problem.", gate_b=False)
+        },
+    )
+    assert row.weapon == "There's Your Problem."
+
+
+def test_native_legacy_great_bow_preserves_two_slot_commitment() -> None:
+    state = ClassCexpState(base_cexp=6_000, subclass_cexp=6_000)
+    row = resolve_class_aware_loadout_at_checkpoint(
+        "Torren",
+        "end_ch12",
+        equipment_choices={"weapon": "Should've Moved."},
+        class_state=state,
+        legacy_project_proofs={
+            "Torren": _legacy_proof(state, "Should've Moved.", gate_b=False)
+        },
+    )
+    assert row.weapon == "Should've Moved."
+    assert row.secondary is None
+    assert row.secondary_consumed_by_weapon
