@@ -1,6 +1,6 @@
 # 12_ECONOMY_AND_REWARDS
 
-**Status:** ACTIVE ECONOMY RECALIBRATION / CURRENT CURRENCY AUTHORITY
+**Status:** CORE G ECONOMY / REWARD DESIGN CLOSED
 
 This folder is the single editable home for Diyse's purchase/replacement economy, **G** distribution, commerce structure, resale rules, and non-EXP reward balancing.
 
@@ -31,18 +31,36 @@ Other owners:
 - Consumables = **20**;
 - Regional Markets = **exactly 9**.
 
-## Current cash-flow target
-The economy is being recalibrated after the display-scale and reward revisions.
+## Mandatory-route calibration
+Expected direct G:
+> **~316,900 G**
 
-Current target for a broad completionist direct-cash route:
-> **roughly 650,000 G**
+Composition:
+- starting wallet: **2,500 G**;
+- ordinary formations: **~135,600 G**;
+- mandatory story bosses/named encounters: **92,700 G**;
+- fixed authored combat/event payouts: **5,300 G**;
+- mandatory non-battle reward map: **80,800 G**.
 
-Do not restore the older ~49.5k completionist total as current authority.
+Ordinary formations are approximately **42.8%** of mandatory direct G, preserving the intended **40–50%** share.
 
-Current revisions that must be reflected in the final payout pass:
-- protected/nonlethal resolved encounters receive G rather than defaulting to zero;
-- Hunts should pay a strong G reward regardless of their separate permanent/item rewards;
-- payout tables must use the current tenfold display scale.
+## Optional direct-G calibration
+Current total if all authored optional activities are cleared:
+> **329,600 G**
+
+Breakdown:
+- Elites: **38,900 G**;
+- ordinary Side Quests: **18,000 G**;
+- Character Quests: **22,200 G**;
+- Regional Hunts: **116,500 G**;
+- Major Hunts: **134,000 G**.
+
+## Completionist direct-cash reference
+Mandatory center + all authored optional direct G:
+> **~646,500 G**
+
+This intentionally lands very close to the broad **~650,000 G** target.
+It excludes resale, deliberate extra encounters/backtracking, and non-cash reward-equivalent value.
 
 ## Current commerce structure
 Regional Markets:
@@ -76,16 +94,25 @@ Current prices:
 - Reservoir Tonic — **12,000 G**;
 - Emergency Rally — **15,000 G**.
 
+Premium Consumables remain non-sellable.
+
+## Major sinks
+- complete registered ordinary-equipment catalog value: **251,000 G**;
+- Kessara Relic-copy fee: **6,000 G per successful copy**;
+- all 18 current Relic-copy opportunities: **108,000 G** maximum service spending.
+
 ## Closed structural rules
+- protected/nonlethal resolution does **not** default to zero G;
+- Hunts give strong G regardless of separate permanent/item rewards;
 - ordinary enemies have **no random Consumable/equipment/material/junk drop table**;
 - optional content is not required for mandatory-route solvency;
 - no vendor-trash economy;
 - G is the only current-facing ordinary currency term.
 
-## Remaining economy work
-The current payout/value tables still require synchronization to the latest economy revisions and display scale before the numeric economy can be called fully closed again.
-
+## Remaining dependencies
 Implementation/presentation still owns:
 - vendor NPC identity/dialogue/presentation;
 - runtime shop IDs, stock schema, save persistence and UI formatting;
 - Kessara menu timing / original-vs-copy presentation.
+
+These do not reopen the closed numeric economy by themselves.
