@@ -1,6 +1,6 @@
 # Diyse — Character Quest Economic Add-On Rewards
 
-**Status:** REWARD COMPOSITION CURRENT / EXACT G CASH VALUES REOPENED
+**Status:** EXACT NON-EXP CHARACTER-QUEST REWARD AUTHORITY
 
 Exactly six Character Quests exist.
 
@@ -12,38 +12,43 @@ The Character Quest does **not** directly award finished Legacy equipment.
 
 Player EXP is owned by `10_PROGRESSION_AND_EXP`.
 
-The Legacy Component remains the dominant permanent progression reward, but the quest may still provide a worthwhile G/Consumable add-on.
+The Legacy Component remains the dominant permanent progression reward, with a worthwhile G/Consumable add-on.
 
-## Retained Consumable add-on composition
-The existing normal-stock add-on identities remain the working package:
-- Vaelira — 1× Deepflow Tonic, 1× Full Remedy
-- Cyanis — 1× Greater Rousing Salts, 1× Full Remedy
-- Nimera — 1× Company Salve, 1× Deepflow Tonic
-- Seyrik — 1× Greater Rousing Salts, 1× Company Salve
-- Ilyra — 1× Grand Salve, 1× Greater Rousing Salts
-- Torren — 1× Highflow Tonic, 1× Grand Salve
+## Exact economic add-ons
+| Character | Quest | Direct G | Consumable add-on | Consumable value | Economic add-on value |
+|---|---|---:|---|---:|---:|
+| Vaelira | **The Sky No One Chose** | **3,000 G** | 1× Deepflow Tonic, 1× Full Remedy | **3,400 G** | **6,400 G** |
+| Cyanis | **The Weight of the Crest** | **3,000 G** | 1× Greater Rousing Salts, 1× Full Remedy | **3,000 G** | **6,000 G** |
+| Nimera | **The Archive That Remembers** | **3,600 G** | 1× Company Salve, 1× Deepflow Tonic | **4,000 G** | **7,600 G** |
+| Seyrik | **The Name That Remains** | **3,600 G** | 1× Greater Rousing Salts, 1× Company Salve | **3,600 G** | **7,200 G** |
+| Ilyra | **Mercy Has a Voice** | **4,200 G** | 1× Grand Salve, 1× Greater Rousing Salts | **4,000 G** | **8,200 G** |
+| Torren | **The Road That Returns** | **4,800 G** | 1× Highflow Tonic, 1× Grand Salve | **6,000 G** | **10,800 G** |
 
-Their G-equivalent values should be calculated from `CONSUMABLE_PRICES.md` during the synchronized reward pass.
+## Full Character Quest economic add-on budget
+Direct G:
+> **22,200 G**
 
-## Exact G status
-The former direct-cash lines and old total are retired as final numeric authority.
+Normal-stock Consumable market value:
+> **24,000 G**
 
-Recalculate Character Quest G against:
-- the tenfold displayed G scale;
-- the ~650,000 G completionist direct-cash target;
-- the six Legacy Components already awarded;
-- each quest's Player EXP and story payoff.
+Total economic add-on value:
+> **46,200 G equivalent**
+
+This excludes:
+- Character Quest Player EXP;
+- the six unique Legacy Components;
+- persistent character/world-state payoff.
 
 ## Quest-boss cash rule
-The prior blanket rule that Character Quest bosses must always pay **0 separate currency** is reopened.
+Character Quest bosses do **not** award a second direct-G bounty on top of the completion package.
 
-A boss or protected/nonlethal authored combat may receive G if that produces the better reward presentation, provided the quest completion package is not accidentally double-counted.
-
-Current boss identities include:
+This currently applies to:
 - Elemental Forecast Construct;
 - Crest-Exhausted Warden;
 - Black Host Remnant Captain;
 - Old Relay Warden.
+
+This is an anti-double-counting rule, not a rule that nonlethal or protected encounters cannot pay. The quest completion package is the G payout for these authored quest climaxes.
 
 ## No-boss parity rule
 Nimera and Ilyra do not need a boss inserted to justify their rewards.
