@@ -4,7 +4,9 @@ from .audit import (
     CharacterLoadoutAudit,
     audit_campaign,
     audit_campaign_checkpoint,
+    audit_campaign_named_checkpoint,
     audit_character_checkpoint,
+    audit_character_named_checkpoint,
 )
 from .loadouts import (
     ProgressionAssumption,
@@ -12,6 +14,7 @@ from .loadouts import (
     ResolvedLoadout,
     resolve_campaign_loadouts,
     resolve_loadout,
+    resolve_loadout_at_checkpoint,
 )
 from .player_exp import cumulative_exp, exp_to_next_level, level_from_exp, level_up_cost, round_nearest_100
 from .routes import (
@@ -36,7 +39,9 @@ __all__ = [
     "Stats",
     "audit_campaign",
     "audit_campaign_checkpoint",
+    "audit_campaign_named_checkpoint",
     "audit_character_checkpoint",
+    "audit_character_named_checkpoint",
     "class_multipliers",
     "cumulative_exp",
     "exp_at_level_progress",
@@ -50,5 +55,6 @@ __all__ = [
     "required_average_exp_per_encounter",
     "resolve_campaign_loadouts",
     "resolve_loadout",
+    "resolve_loadout_at_checkpoint",
     "round_nearest_100",
 ]
