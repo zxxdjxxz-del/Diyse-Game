@@ -9,6 +9,7 @@ from .audit import (
     audit_character_named_checkpoint,
 )
 from .loadouts import (
+    EquipmentSlot,
     ProgressionAssumption,
     ProgressionSourceGap,
     ResolvedLoadout,
@@ -29,6 +30,7 @@ from .stats import STAT_KEYS, Stats, class_multipliers, level_cap, natural_stats
 
 __all__ = [
     "CharacterLoadoutAudit",
+    "EquipmentSlot",
     "ProgressionAssumption",
     "ProgressionCheckpoint",
     "ProgressionProjection",
