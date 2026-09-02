@@ -1,114 +1,58 @@
-# Torren Harth — Current Visual Lock
+# Torren — Current Visual Lock
 
-**Status:** **LOCKED — NEW FINAL B00 HIGH-RES MASTER APPROVED**  
-**Authority scope:** current face, hair, beard, eye treatment, ranger/medium-armor outfit, ghillie construction, bow/quiver carry, equipment, palette, silhouette, and prohibited regressions for character art/model production.
+**Status:** **LOCKED — CURRENT REPOSITORY MASTER**  
+**Authority scope:** Torren's exact current face, hair, beard, body proportions, ranger/medium-armor outfit, ghillie mantle, bow/quiver carry, equipment layout, palette, and silhouette.
 
 ## Canonical repository image master
 
 - repository path: [`asset_sources/characters/current/torren.jpg`](../../../../asset_sources/characters/current/torren.jpg)
-- Git blob SHA: `baf6ef1fd249aaca61fe16a4034f6620e1449c9f`
-- SHA-256: `5ea50d69d667cd53460e27b757dbaf2a8190f2291614cda29ca0197e9035ae98`
-
-The repository file above is the current operational image source of truth for Torren and is the exact approved master represented by the fingerprint below. It controls until the user explicitly revises it.
-
-## Exact approved render fingerprint
-
-The newly uploaded and explicitly approved render is the controlling image authority and **replaces every earlier Torren master / patch / interim redraw**.
-
 - dimensions: **1022 × 1536**
-- mode: **RGB**
 - SHA-256: `5ea50d69d667cd53460e27b757dbaf2a8190f2291614cda29ca0197e9035ae98`
 
-If prose and the exact approved render ever appear to disagree on incidental minutiae, the fingerprinted repository render controls until the user explicitly revises it.
+This repository image is the exact controlling visual authority. If any prose, older fingerprint, generated filename, prior render, or archived visual note conflicts with it, **the repository image wins** until the user explicitly revises Torren.
 
-## Identity / face / hair
+## Identity / appearance anchors
 
-- canonical age remains **42**;
-- mature, weathered veteran read;
+Preserve the appearance shown by the master:
+- adult man, canonical age **42**;
+- rugged, weathered veteran face;
 - medium-long tousled dark hair with visible gray/weathering;
 - substantial salt-and-pepper beard;
-- stern, experienced facial construction;
-- Torren's established **amber-eye identity** remains the intended color anchor unless the user explicitly revises it;
-- no fresh wounds, blood, or artificial battle-damage treatment.
+- stern experienced expression;
+- deep forest/army-green clothing;
+- medium/light golden-bronze metal chest and shoulder armor;
+- dark leather belts, harnessing, straps, pouches, gloves, and boots as depicted;
+- bow carried on the back;
+- right-hip arrow draw/quiver placement as shown by the master;
+- utility canisters/pouches integrated into the field silhouette;
+- lightweight mixed grass, moss, small-leaf foliage, and twig/branch ghillie cape/mantle.
 
-The exact approved image controls final facial proportions, hair mass, beard distribution, expression, and incidental weathering.
-
-## Outfit / armor
-
-Torren now reads as a **battle-tested ranger / military scout in mobile medium armor**, with a stronger fantasy-ranger silhouette than the prior compact tactical master while preserving practical field construction.
-
-Preserve:
-- dominant deep **army / forest green** clothing;
-- structured high-collared upper garment and long split green outer panels / coat tails;
-- visible pale/ivory central tabard-like cloth panel as shown in the master;
-- **golden-bronze METAL chest armor** as a real rigid breastplate / torso shell with hard edges and controlled metallic highlights;
-- matching golden-bronze shoulder/upper-arm protection and knee/lower-leg protection;
-- dark reinforced forearm/gauntlet construction with bronze framing where shown;
-- dark brown leather belts, harnessing, straps, pouches and boots;
-- black/dark trouser underlayer where visible;
-- medium-armor mobility rather than full enclosed heavy plate;
-- clear cloth / leather / bronze-metal / foliage separation.
-
-The bronze chest must read as **metal armor**, never quilted cloth, leather, gold fabric, or decorative trim.
-
-## Equipment / carry layout
-
-Mandatory silhouette/equipment anchors from the exact approved render:
-- recurved/field bow carried **on the back**, with its upper limb visible over the shoulder;
-- hip-mounted quiver and arrows in the exact side/placement shown by the fingerprinted render;
-- **three** cylindrical field canisters grouped at the belt/front hip;
-- practical layered belt pouches and harnessing;
-- equipment should remain usable and integrated into the ranger silhouette rather than ornamental clutter.
-
-Do not casually mirror the equipment layout during redraw or model translation; the exact render controls side placement.
-
-## Ghillie mantle
-
-The full ghillie mantle/cape remains a defining Torren feature.
-
-Preserve:
-- broad shoulder/back coverage;
-- mixed grasses, leaves, mossy foliage and twigs / small branch material;
-- irregular natural layering with visible negative space;
-- green and olive living-vegetation read with some dry/brown variation;
-- long hanging camouflage masses around the body;
-- foliage that frames the armor/outfit without completely hiding it;
-- designed grouped vegetation rather than one repeated plant texture or random AI noise.
-
-The master may read somewhat fuller/heavier than the previous Torren lock; this exact approved silhouette now controls.
+The image controls exact face proportions, beard distribution, equipment side placement, armor geometry, foliage construction, canister count/placement, and all incidental detail.
 
 ## Rendering direction
 
-Torren's master belongs to Diyse B00:
-- mature seinen/anime proportions and facial construction;
-- graphic anime-stylized rendering;
-- chaotic but intentional variable line weight;
-- roughly 2–4 dominant value groups where practical;
-- precise restrained facial lines;
-- clean anatomy and garment construction;
+Render Torren in Diyse B00 / HD-2D anime character language:
+- mature seinen/anime proportions;
+- deliberate variable line weight;
+- graphic cel-informed values;
 - controlled golden-bronze highlight planes;
-- readable foliage masses with selective internal detail;
-- no painterly/soft-brushed target;
+- readable foliage masses with selective detail;
+- clear cloth / leather / metal / foliage separation;
+- no painterly or soft-brushed finish;
 - no random dot/speckle/grunge dependency;
-- single clean full-body presentation on plain white for master review unless another view is explicitly requested.
+- no AI artifact texture.
 
 ## Prohibited regressions
 
 Do not:
-- revert to any earlier Torren face or master;
-- de-age him into a young anime ranger;
-- remove the salt-and-pepper veteran read;
-- return to a very short military haircut;
+- revert to an earlier Torren face, short-hair design, or compact tactical-only outfit;
+- de-age him;
 - shrink the beard to stubble;
-- replace the current long green outer-panel silhouette with the previous compact tactical-only outfit unless explicitly revised;
-- make the bronze chest protection look like fabric or leather;
+- turn the bronze chest protection into cloth or leather;
 - turn the medium armor into full heavy plate;
-- replace the brown field leather with dominant glossy black leather;
-- reduce the ghillie mantle to shoulder trim;
-- make the ghillie one repetitive grass curtain or artifact texture;
-- move the bow/quiver/canisters to arbitrary mirrored positions;
-- remove the three-canister identity;
-- add random scratches, dots, speckles, fused materials, broken seams or AI artifacts as "detail";
-- patch older images when a clean master redraw is requested.
+- reduce the ghillie mantle to decorative shoulder trim;
+- move the bow, quiver, or canisters to arbitrary mirrored positions;
+- change the established right-hip arrow draw layout;
+- patch an older image when a clean redraw is requested.
 
-This file controls Torren's B00 master and all later model/runtime translation until explicitly revised.
+This file and the linked repository image control Torren's current B00 master and later model/runtime translation until explicitly revised.
