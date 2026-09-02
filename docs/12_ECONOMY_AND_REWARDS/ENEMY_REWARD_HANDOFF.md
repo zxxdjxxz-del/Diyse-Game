@@ -35,7 +35,7 @@ Therefore:
 
 This prevents body-count exploitation and duplicate rewards.
 
-## Protected / nonlethal rule — CURRENT
+## Protected / nonlethal rule — LOCKED
 Protected, restrained, stabilized, captured, withdrawn, or otherwise nonlethal resolved encounters may award G.
 
 Do **not** use:
@@ -45,7 +45,53 @@ as a default rule.
 
 The reward can represent mission credit, secured resources, institutional compensation, bounty/requisition value, or another event-level handoff rather than loot from a killed body.
 
-The old fixed zero-G assumptions for Chapter 0, Hold the Junction, S018 lawful-authority confrontations, and Character Quest bosses are therefore retired pending the active payout recalibration.
+## Exact fixed authored non-boss payouts
+### Chapter 0 authored combat
+Chapter 0 remains level-static, but its six mandatory authored combat resolutions now pay modest G:
+
+| Encounter | G |
+|---|---:|
+| **0-01 — S001 Opening Line** | **200 G** |
+| **0-02 — Handler Pressure** | **250 G** |
+| **0-03 — Ruin Vanguard Pursuer protected disengagement** | **300 G** |
+| **0-04 — Riftmaw** | **400 G** |
+| **0-05 — S002 Hound** | **200 G** |
+| **0-06 — S005 War-Sorcerer confrontation** | **350 G** |
+
+Chapter-0 authored-combat total:
+> **1,700 G**
+
+The Pursuer's 300 G is the event-resolution payout. Do not also count that encounter as a separate optional-Elite bounty.
+
+### Chapter 2 — Hold the Junction / S016
+Direct G:
+> **1,000 G**
+
+This is one authored event payout for the mandatory extraction rearguard, not a sum of individual enemy bounties.
+
+### Chapter 3 — S018 Lawful Authority Confrontation I
+**Ivory Watch Detail** direct G:
+> **1,200 G**
+
+This lawful-authority confrontation is nonlethal, but meaningful resolution still pays.
+
+### Chapter 3 — S018 Lawful Authority Confrontation II
+**Ivory Adjudicator Sereth** direct G:
+> **1,400 G**
+
+This protected-threshold confrontation is nonlethal, but meaningful resolution still pays.
+
+Total fixed authored-event additions in this file:
+> **5,300 G**
+
+## Character Quest authored bosses
+Character Quest bosses still award:
+> **0 separate direct G**
+
+because their economic payout is already contained in the Character Quest completion package. This is an anti-double-count rule, **not** a protected/nonlethal penalty.
+
+Owning economy detail:
+`CHARACTER_QUEST_REWARD_BOUNDARY.md`
 
 ## Story-placement-dependent authored encounters
 Do not assign exact G yet to identities whose exact mandatory/nonlethal/story role is still explicitly unresolved.
