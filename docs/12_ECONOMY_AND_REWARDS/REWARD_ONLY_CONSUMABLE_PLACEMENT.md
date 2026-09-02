@@ -2,7 +2,7 @@
 
 **Status:** CURRENT PREMIUM-CONSUMABLE AUTHORITY
 
-The following three premium Consumables retain authored guaranteed pickups and also become purchasable after Chapter 10:
+The following three premium Consumables retain authored guaranteed pickups and are also purchasable throughout the normal shop economy:
 - **Reservoir Tonic**
 - **Emergency Kit**
 - **Emergency Rally**
@@ -14,44 +14,43 @@ They are:
 - limited in shop quantity;
 - not part of unlimited normal Consumable stock.
 
-There is **no whole-game copy cap** beyond authored pickups plus the limited stock available at shops.
+There is **no whole-game copy cap** beyond authored pickups plus the limited stock available independently at shops.
 
 # Shop rule — LOCKED
-After Chapter 10 / from Chapter 11 onward:
-> **each eligible shop carries exactly 2 copies of each premium Consumable.**
+From the first time a Consumable-selling shop becomes accessible:
+> **that shop carries exactly 1 copy of each premium Consumable.**
 
-Per eligible shop:
-- **2 Reservoir Tonics**
-- **2 Emergency Kits**
-- **2 Emergency Rallies**
+Per Consumable shop:
+- **1 Reservoir Tonic**
+- **1 Emergency Kit**
+- **1 Emergency Rally**
+
+Chapter 0 has no normal shop loop, so the first actual opportunity begins with the first normal Consumable shop access in Chapter 1.
 
 Rules:
-- the quantity is tracked separately for each shop and each item;
+- quantity is tracked separately for each shop and each premium identity;
 - shop quantities do **not** automatically restock;
-- buying one permanently reduces that shop's remaining stock by one;
+- buying the copy permanently reduces that shop's remaining stock to zero;
 - authored guaranteed pickups do not consume any shop's stock;
-- there is no separate global inventory cap shared across shops.
+- there is no separate global inventory cap shared across shops;
+- every later Consumable-selling endpoint receives its one-copy premium stock when that endpoint first becomes available.
 
-Eligible Chapter-11 endpoints:
-- all **9 Regional Markets** currently accessible;
-- **Cresthaven Quartermaster**.
-
-After Vhalmarch is captured/stabilized in Chapter 12:
-- **Vhalmarch Forward Supply** also receives 2 of each premium Consumable.
+This applies to Regional Markets and to other endpoints such as Cresthaven Quartermaster or Vhalmarch Forward Supply whenever they actually function as Consumable shops.
 
 # Premium prices
 - **Emergency Kit — 8,000 Auren**
 - **Reservoir Tonic — 12,000 Auren**
 - **Emergency Rally — 15,000 Auren**
 
+The early scarcity pressure comes from price plus one-copy-per-shop stock, not from a chapter unlock gate.
+
 # Guaranteed authored pickups
-These remain useful because they provide free access before or alongside the premium shop economy.
+These remain free authored rewards and therefore retain substantial economic value even though the same identities can be bought from shops.
 
 ## Reservoir Tonic
 ### Chapter 8 / Horizon Vault
 > **deeper severance-gallery protected reserve cache**
 
-- first guaranteed source;
 - authored optional side cache;
 - not a boss drop;
 - not random treasure.
@@ -73,7 +72,6 @@ These remain useful because they provide free access before or alongside the pre
 ### Chapter 8 / western counteroffensive
 > **protected field-medical supply cache**
 
-- first guaranteed source;
 - before the Marshal Varkesh climax;
 - secured side-route/supply placement.
 
@@ -98,27 +96,27 @@ These remain useful because they provide free access before or alongside the pre
 > **additional first-clear reward**
 
 - does not replace **Parallax Host**;
-- gives optional players a free premium copy before the final operation.
+- gives the player a free copy of an otherwise extremely expensive premium item.
 
 ### Chapter 13 / Last Shelter
 > **final-operation mass-casualty reserve**
 
-- guaranteed before the irreversible final threshold;
-- ensures a campaign-only player has access to one even if Major Hunt #5 was skipped.
+- guaranteed before the irreversible final threshold.
 
 # Inventory / scarcity rules
 - authored copies are one-time pickups/rewards;
-- shop copies are limited to 2 per premium identity per shop;
+- shop copies are limited to **1 per premium identity per Consumable shop**;
 - no automatic shop replenishment;
 - no ordinary-enemy farming loop;
 - Kessara cannot copy Consumables;
 - premium Consumables remain non-sellable unless separately revised.
 
 # Design intent
-The shop rule makes the premium items genuinely usable instead of effectively irreplaceable while preserving scarcity through:
-- high price;
-- late unlock;
-- exactly 2 copies per item per shop;
+Premium Consumables are visible and technically available from the start of normal commerce, but their prices make early purchase a major choice.
+
+Scarcity comes from:
+- **1 copy per premium identity per shop**;
+- high prices;
 - no automatic restock.
 
-Guaranteed copies remain valuable because they save substantial Auren and can be acquired before the full premium shop network becomes available.
+Guaranteed copies remain valuable because they save substantial Auren and do not consume shop stock.
