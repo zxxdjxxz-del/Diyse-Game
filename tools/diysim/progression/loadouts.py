@@ -5,7 +5,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Literal
 
-from ..sources.campaign_progression import load_character_campaign_sources
+from ..sources.campaign_progression import load_campaign_checkpoint, load_character_campaign_sources
 from ..sources.equipment import load_equipment
 from ..sources.equipment_availability import (
     ORDINARY_WEAPONS_PATH,
@@ -69,6 +69,8 @@ def resolve_loadout(
     chapter: int,
     assumption: ProgressionAssumption = "mandatory",
     *,
+    availability_through_chapter: int | None = None,
+    checkpoint_label: str | None = None,
     root: Path | None = None,
 ) -> ResolvedLoadout:
     """Resolve only equipment justified by current repo authority.
@@ -77,11 +79,19 @@ def resolve_loadout(
     `expected` refuses to invent a purchase/upgrade policy.
     `best_available` may advance to the latest explicitly chapter-dated native
     ordinary weapon, but never invents armor/secondary timing.
+
+    For an intra-chapter checkpoint, `availability_through_chapter` can be lower
+    than `chapter`. That prevents chapter-granular availability from being pulled
+    forward to a point where its exact within-chapter timing is unpublished.
     """
     if chapter < 0:
         raise ValueError("chapter must be >= 0")
     if assumption not in ("mandatory", "expected", "best_available"):
         raise ValueError(f"Unsupported progression assumption: {assumption}")
+    if availability_through_chapter is None:
+        availability_through_chapter = chapter
+    if not 0 <= availability_through_chapter <= chapter:
+        raise ValueError("availability_through_chapter must satisfy 0 <= cutoff <= chapter")
 
     characters = {row.character: row for row in load_character_campaign_sources(root=root)}
     campaign = characters.get(character)
@@ -154,10 +164,13 @@ def resolve_loadout(
             )
 
     else:
+        all_weapons = [
+            row for row in load_ordinary_weapon_availability(root=root)
+            if row.character == character
+        ]
         candidates = [
-            row
-            for row in load_ordinary_weapon_availability(root=root)
-            if row.character == character and row.first_chapter <= chapter
+            row for row in all_weapons
+            if row.first_chapter <= availability_through_chapter
         ]
         if candidates:
             latest = max(candidates, key=lambda row: row.first_chapter)
@@ -168,7 +181,23 @@ def resolve_loadout(
                 ProgressionSourceGap(
                     "weapon_availability_timing_missing",
                     f"No chapter-dated native ordinary weapon is published for {character} "
-                    f"by Chapter {chapter}.",
+                    f"by Chapter {availability_through_chapter}.",
+                    ORDINARY_WEAPONS_PATH,
+                )
+            )
+
+        withheld_same_chapter = [
+            row for row in all_weapons
+            if availability_through_chapter < row.first_chapter <= chapter
+        ]
+        if withheld_same_chapter:
+            names = ", ".join(row.name for row in withheld_same_chapter)
+            where = checkpoint_label or f"Chapter {chapter} checkpoint"
+            gaps.append(
+                ProgressionSourceGap(
+                    "weapon_checkpoint_granularity_missing",
+                    f"{names} are only dated to Chapter {chapter}; current authority does not "
+                    f"state whether they are obtainable by {where}, so they were not pulled forward.",
                     ORDINARY_WEAPONS_PATH,
                 )
             )
@@ -210,6 +239,24 @@ def resolve_loadout(
     )
 
 
+def resolve_loadout_at_checkpoint(
+    character: str,
+    checkpoint_key: str,
+    assumption: ProgressionAssumption = "mandatory",
+    *,
+    root: Path | None = None,
+) -> ResolvedLoadout:
+    checkpoint = load_campaign_checkpoint(checkpoint_key, root=root)
+    return resolve_loadout(
+        character,
+        checkpoint.chapter,
+        assumption,
+        availability_through_chapter=checkpoint.chapter_granular_equipment_cutoff,
+        checkpoint_label=checkpoint.label,
+        root=root,
+    )
+
+
 def resolve_campaign_loadouts(
     chapter: int,
     assumption: ProgressionAssumption = "mandatory",
@@ -230,4 +277,5 @@ __all__ = [
     "ResolvedLoadout",
     "resolve_campaign_loadouts",
     "resolve_loadout",
+    "resolve_loadout_at_checkpoint",
 ]
