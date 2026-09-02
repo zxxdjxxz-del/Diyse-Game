@@ -7,6 +7,8 @@ import re
 
 from tools.diysim.encounters.formation_catalog import build_formation_catalog
 
+NUMBERED_CHAPTERS = tuple(range(14))
+
 
 def _chapter_key(source_path: str) -> str:
     match = re.search(r"CHAPTER_(\d+)_FORMATIONS\.md$", source_path)
@@ -19,6 +21,19 @@ def formation_runtime_coverage_dict(*, root: Path | None = None, include_formati
     blocked = [formation for formation in formations if not formation.runtime_ready]
 
     by_chapter: dict[str, dict[str, int]] = defaultdict(lambda: {"total": 0, "runtime_ready": 0, "blocked": 0})
+    # Keep every numbered story chapter visible in the report even when the repo
+    # intentionally has no ordinary-formation owner file for that chapter.
+    for chapter in NUMBERED_CHAPTERS:
+        by_chapter[str(chapter)]
+
+    source_chapters = sorted(
+        {_chapter_key(formation.source_path) for formation in formations},
+        key=lambda value: int(value) if value.isdigit() else 999,
+    )
+    chapters_without_formation_source = [
+        str(chapter) for chapter in NUMBERED_CHAPTERS if str(chapter) not in source_chapters
+    ]
+
     unresolved_labels = Counter()
     blocked_members = Counter()
     propagated_enemy_blockers = Counter()
@@ -41,6 +56,8 @@ def formation_runtime_coverage_dict(*, root: Path | None = None, include_formati
         "runtime_ready": len(ready),
         "blocked": len(blocked),
         "coverage_rate": len(ready) / len(formations) if formations else 1.0,
+        "formation_source_chapters": source_chapters,
+        "chapters_without_formation_source": chapters_without_formation_source,
         "unresolved_owner_labels": dict(sorted(unresolved_labels.items())),
         "blocked_member_runtimes": dict(sorted(blocked_members.items())),
         "propagated_enemy_blockers": dict(sorted(propagated_enemy_blockers.items())),
