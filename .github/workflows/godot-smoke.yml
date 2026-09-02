@@ -126,6 +126,16 @@ jobs:
       - name: Run Step 7C Chapter 3 continuity validation
         run: godot --headless --path . --script tests/dialogue/validate_chapter_03_continuity.gd
 
+      - name: Capture Chapter 0 graybox route views
+        run: godot --path . --script tests/visual/capture_chapter_00_graybox.gd
+
+      - name: Upload Chapter 0 graybox route views
+        uses: actions/upload-artifact@v4
+        with:
+          name: diyse-chapter-00-graybox
+          path: artifacts/chapter_00_graybox/*.png
+          if-no-files-found: error
+
       - name: Capture rendered field proof
         run: godot --path . --script tests/visual/capture_field_proof.gd
 
