@@ -54,6 +54,41 @@ def test_dynamic_element_identity_stays_dynamic_until_encounter_resolution() -> 
     assert source.status_chances == (("burn", 20),)
 
 
+def test_dynamic_element_conditional_rider_table_is_not_static() -> None:
+    source = parse_authored_action_text(
+        "Reaction Pulse",
+        "- one party member\n"
+        "- Magical / assigned element\n"
+        "- **155 Power**\n"
+        "- Base Hit100\n"
+        "Rider by element:\n"
+        "- Fire — **20% Burn**\n"
+        "- Ice — **20% Freeze**\n"
+        "- Lightning — **15% Stun**\n"
+        "- Earth — **20% Staggered**",
+    )
+
+    assert source.element_mode == "dynamic"
+    assert source.element_source == "assigned_element"
+    assert source.status_chances == ()
+
+
+def test_dynamic_action_keeps_unconditional_rider_beside_conditional_table() -> None:
+    source = parse_authored_action_text(
+        "Mixed Dynamic Test",
+        "- one party member\n"
+        "- Magical / current expression\n"
+        "- 175 Power\n"
+        "- Base Hit95\n"
+        "- 10% Bleed\n"
+        "Rider by expression:\n"
+        "- Fire — 20% Burn\n"
+        "- Ice — 20% Freeze",
+    )
+
+    assert source.status_chances == (("bleed", 10),)
+
+
 def test_standalone_damage_axis_with_state_driven_element_is_dynamic() -> None:
     source = parse_authored_action_text(
         "Reaction Pressure",
