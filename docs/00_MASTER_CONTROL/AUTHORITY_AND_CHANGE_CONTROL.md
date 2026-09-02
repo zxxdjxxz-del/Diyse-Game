@@ -23,8 +23,21 @@ Examples:
 - Player EXP/CEXP → `10_PROGRESSION_AND_EXP`
 - quest flow → `11_QUESTS`
 - item price/shop economy → `12_ECONOMY_AND_REWARDS`
+- exact current character appearance → repository master under `asset_sources/characters/current/`, routed by `14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`
 
 Other domains may reference the rule but should not independently redefine it.
+
+## Character visual exception inside the art domain
+For characters with a current repository master image, the image is the exact appearance authority and the matching visual-lock document records production intent/constraints.
+
+Order:
+1. newest explicit approved replacement;
+2. current repository master image;
+3. matching current visual-lock document;
+4. shared current visual-style rules;
+5. older prose/renders/hashes for provenance only.
+
+A detailed older text description does not outrank the current image merely because it contains more words.
 
 ## Working promotion
 A draft in `90_WORKING` becomes current only when:
