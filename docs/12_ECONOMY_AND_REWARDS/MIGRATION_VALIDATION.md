@@ -17,12 +17,14 @@
 - premium stock = **1 of each per Consumable-selling shop from first accessible state; no restock** — PASS
 - guaranteed premium pickups remain separate — PASS
 - premium Consumables remain non-sellable — PASS
+- exact Consumable G resale table synchronized — PASS
 
 ## Equipment / commerce
 - ordinary equipment identities = **38 / 38** — PASS
-- relative economy-unit price structure retained — PASS
-- current G display conversion = economy units × 200 — PASS
+- exact G purchase/replacement table synchronized — PASS
+- complete registered catalog value = **251,000 G** — PASS
 - ordinary sell formula preserves unit-level round-down — PASS
+- exact ordinary-equipment G resale table synchronized — PASS
 - Cresthaven registration/backfill/anti-missability preserved — PASS
 - ordinary gear does not inflate after Subclass access — PASS
 - Regional Markets = **9** — PASS
@@ -35,24 +37,43 @@
 ## Reward rules
 - protected/nonlethal resolution may award G — PASS
 - `nonlethal = 0 G` retired — PASS
-- Regional Hunts should receive strong G regardless of other rewards — PASS
-- Major Hunts should receive strong G regardless of Prime/other rewards — PASS
+- Regional Hunts receive strong G regardless of other rewards — PASS
+- Major Hunts receive strong G regardless of Prime/other rewards — PASS
 - no universal random enemy item/drop table — PASS
 - no vendor-trash economy — PASS
 
-## Numeric recalibration status
-Exact G payout tables are **ACTIVE / NOT YET RE-CERTIFIED** for:
-- ordinary formations;
-- optional Elites;
-- story/protected/nonlethal encounters;
-- mandatory non-battle rewards;
-- Side Quests;
-- Character Quests;
-- Regional Hunts;
-- Major Hunts;
-- final mandatory/completionist cash-flow totals.
+## Exact payout certification
+- ordinary formations = **~135,600 G expected route total** — PASS
+- optional Elites = **38,900 G** — PASS
+- mandatory story bosses/named encounters = **92,700 G** — PASS
+- fixed authored combat/event payouts = **5,300 G** — PASS
+- mandatory non-battle map = **80,800 G** — PASS
+- ordinary Side Quests = **18,000 G direct** — PASS
+- Character Quests = **22,200 G direct** — PASS
+- Regional Hunts = **116,500 G** — PASS
+- Major Hunts = **134,000 G** — PASS
+- Kessara Relic-copy fee = **6,000 G** — PASS
+- all 18 current Kessara copy opportunities = **108,000 G maximum service spend** — PASS
 
-Completionist direct-cash target:
+## Campaign calibration
+Mandatory direct-G reference:
+> **~316,900 G** — PASS
+
+Ordinary-formation share of mandatory direct G:
+> **~42.8%** — PASS
+
+Optional authored direct G:
+> **329,600 G** — PASS
+
+Broad completionist direct-cash reference:
+> **~646,500 G** — PASS
+
+Target:
 > **roughly 650,000 G**
+
+The calibrated completionist total lands within normal route/encounter variance of the target.
+
+## Status
+> **G ECONOMY MIGRATION / PAYOUT RECALIBRATION CERTIFIED**
 
 Do not restore older Auren-era exact totals as current G authority.
