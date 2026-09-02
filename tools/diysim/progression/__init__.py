@@ -31,6 +31,12 @@ from .class_exp import (
 )
 from .class_loadouts import resolve_class_aware_loadout_at_checkpoint
 from .class_state import ClassCexpCheckpointValidation, validate_class_state_at_checkpoint
+from .legacy_projects import (
+    LegacyItemCheckpointValidation,
+    LegacyProjectEvidence,
+    LegacyProjectProof,
+    validate_native_legacy_item_at_checkpoint,
+)
 from .loadouts import (
     EquipmentSlot,
     ProgressionAssumption,
@@ -63,6 +69,9 @@ __all__ = [
     "CexpAllocationSegment",
     "CexpAwardResult",
     "EquipmentSlot",
+    "LegacyItemCheckpointValidation",
+    "LegacyProjectEvidence",
+    "LegacyProjectProof",
     "ProgressionAssumption",
     "ProgressionCheckpoint",
     "ProgressionProjection",
@@ -102,4 +111,5 @@ __all__ = [
     "resolve_loadout_at_checkpoint",
     "round_nearest_100",
     "validate_class_state_at_checkpoint",
+    "validate_native_legacy_item_at_checkpoint",
 ]
