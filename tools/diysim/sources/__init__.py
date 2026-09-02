@@ -50,6 +50,16 @@ from .readiness import (
     audit_owner_file,
     audit_simulation_readiness,
 )
+from .relics import (
+    RELIC_PLACEMENT_PATH,
+    RELIC_WEAPONS_PATH,
+    RelicPlacementSource,
+    RelicWeaponSource,
+    load_relic_placement,
+    load_relic_placements,
+    load_relic_weapon,
+    load_relic_weapons,
+)
 from .replays import BoundedReplayRuleSource, parse_bounded_replay_rule_text
 from .repo import RepoSourceError, SourceGapError, find_repo_root, read_repo_text
 from .traits import TraitRankSource, TraitSource, load_trait_registry, load_trait_source
@@ -82,7 +92,11 @@ __all__ = [
     "OWNER_DOMAINS",
     "OwnerFileReadiness",
     "PartyRules",
+    "RELIC_PLACEMENT_PATH",
+    "RELIC_WEAPONS_PATH",
     "ReadinessIssue",
+    "RelicPlacementSource",
+    "RelicWeaponSource",
     "RepoSourceError",
     "SimulationReadinessReport",
     "SourceAuditIssue",
@@ -120,6 +134,10 @@ __all__ = [
     "load_equipment_register",
     "load_named_action_source",
     "load_party_rules",
+    "load_relic_placement",
+    "load_relic_placements",
+    "load_relic_weapon",
+    "load_relic_weapons",
     "load_stat_row",
     "load_stat_table",
     "load_trait_registry",
