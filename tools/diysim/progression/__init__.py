@@ -8,6 +8,10 @@ from .audit import (
     audit_character_checkpoint,
     audit_character_named_checkpoint,
 )
+from .class_audit import (
+    audit_campaign_class_aware_named_checkpoint,
+    audit_character_class_aware_named_checkpoint,
+)
 from .class_exp import (
     CLASS_CEXP_CAP,
     CLASS_LEVEL_CAP,
@@ -70,8 +74,10 @@ __all__ = [
     "apply_class_cexp",
     "audit_campaign",
     "audit_campaign_checkpoint",
+    "audit_campaign_class_aware_named_checkpoint",
     "audit_campaign_named_checkpoint",
     "audit_character_checkpoint",
+    "audit_character_class_aware_named_checkpoint",
     "audit_character_named_checkpoint",
     "cexp_to_next_class_level",
     "class_level_from_cexp",
