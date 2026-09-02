@@ -1,34 +1,54 @@
 # Diyse — Character Visual Authority Register
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written authority:** **v2.20 / Audit135** plus newer explicit visual approvals/corrections already accepted in the project conversation.  
-**Inherited presentation authority:** Audit86 Cyanis exact visual lock, Audit87 HD-2D production grammar, Audit88 compatible Chapters 0–4 production conversion, Audit111 final world-map visual/spatial authority.  
-**Runtime checkpoint:** `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
-**Visual rule:** the newest explicitly approved visual reference for a character/location controls all derivative field sprites, battle sprites, portraits, cut-ins, model sheets, and promotional derivatives unless that exact visual is later revised.
 
+**Status:** ACTIVE NAVIGATION REGISTER  
+**Primary current-character authority:** [`PRODUCTION/CHARACTERS/README.md`](PRODUCTION/CHARACTERS/README.md)  
+**Current master-image folder:** [`asset_sources/characters/current/`](../../asset_sources/characters/current/)
 
-| Character | Current visual status | Notes |
-|---|---|---|
-| Cyanis Dovaren | **LOCKED** | exact approved anime studio master; later correction removes shield from render and moves crest/amulet to hip |
-| Ilyra Amarin | **LOCKED** | exact approved anime studio master |
-| Torren Harth | **LOCKED** | exact approved anime studio master |
-| Nimera Pellan | **LOCKED** | newest age-22 master; green/gold card + book |
-| Vaelira Serren | **LOCKED** | final approved anime master; preserve exact image rather than reconstructing missing textual minutiae |
-| Seyrik Rell | **LOCKED** | exact approved anime studio master |
-| Maevra Solmar | **LOCKED** | exact approved anime studio master |
-| Kessara Durnan | **LOCKED** | exact approved supporting-character master; adult 4'4" woman |
-| Queen Lysara Ceryth | **LOCKED** | exact approved supporting-character visual master |
-| Crown Princess Mirena Ceryth | **LOCKED** | exact approved portrait/turnaround authority |
-| Prince Alaric Ceryth | **LOCKED** | exact approved visual master; visual does not determine exact age |
-| Princess Nalia Ceryth | **LOCKED** | exact approved visual master; visual does not determine frontline role |
-| Commander Rhazek | **LOCKED** | exact multi-form visual authority |
-| Matron Zevraya | **LOCKED** | exact visual master set |
-| Marshal Varkesh | **LOCKED** | later authority makes visual locked; older "OPEN" note retired |
-| Emperor Vaelkor Draeven | **LOCKED** | current exact antagonist visual authority |
-| Chancellor Othmar Calder | **LOCKED** | exact visual set |
-| Reconstituted Entity / Last Command | **LOCKED** | exact visual set under current final-boss authority |
+This register is a navigation layer. It does **not** override current repository master images or their matching visual-lock documents.
 
-## Guardrail
-A `LOCKED` status does not mean this text file contains every visual detail.
+## Authority order for current repository-master characters
 
-Where the exact image exists outside the migration package:
-> preserve the image as source authority rather than inventing missing details from memory.
+1. current repository master image in `asset_sources/characters/current/`;
+2. matching `PRODUCTION/CHARACTERS/*_CURRENT_VISUAL_LOCK.md`;
+3. current Diyse B00 / HD-2D visual-style rules;
+4. older migration prose, archived renders, historical fingerprints, generated filenames, or superseded concept notes.
+
+Do not infer or restore surnames for the current master characters from retired filenames or old migration documents.
+
+## Current repository-master characters
+
+| Character | Status | Exact master | Current lock |
+| --- | --- | --- | --- |
+| Cyanis | **LOCKED** | `asset_sources/characters/current/cyanis.jpg` | `PRODUCTION/CHARACTERS/CYANIS_CURRENT_VISUAL_LOCK.md` |
+| Ilyra | **LOCKED** | `asset_sources/characters/current/ilyra.jpg` | `PRODUCTION/CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md` |
+| Torren | **LOCKED** | `asset_sources/characters/current/torren.jpg` | `PRODUCTION/CHARACTERS/TORREN_CURRENT_VISUAL_LOCK.md` |
+| Nimera | **LOCKED** | `asset_sources/characters/current/nimera.jpg` | `PRODUCTION/CHARACTERS/NIMERA_CURRENT_VISUAL_LOCK.md` |
+| Vaelira | **LOCKED** | `asset_sources/characters/current/vaelira.jpg` | `PRODUCTION/CHARACTERS/VAELIRA_CURRENT_VISUAL_LOCK.md` |
+| Seyrik | **LOCKED** | `asset_sources/characters/current/seyrik.jpg` | `PRODUCTION/CHARACTERS/SEYRIK_CURRENT_VISUAL_LOCK.md` |
+| Maevra | **LOCKED** | `asset_sources/characters/current/maevra.jpg` | `PRODUCTION/CHARACTERS/MAEVRA_CURRENT_VISUAL_LOCK.md` |
+| Kessara | **LOCKED** | `asset_sources/characters/current/kessara.png` | `PRODUCTION/CHARACTERS/KESSARA_CURRENT_VISUAL_LOCK.md` |
+
+The first six are the permanent playable party. Maevra and Kessara are supporting-character visual masters.
+
+## Other registered visual authorities
+
+The following entries remain registered from the wider art documentation. They are **not** part of the eight-file repository-master set above, and this register does not attempt to reconstruct their exact image minutiae:
+
+- Queen Lysara Ceryth — locked supporting-character visual authority;
+- Crown Princess Mirena Ceryth — locked portrait/turnaround authority;
+- Prince Alaric Ceryth — locked visual authority;
+- Princess Nalia Ceryth — locked visual authority;
+- Commander Rhazek — locked multi-form visual authority;
+- Matron Zevraya — locked visual master set;
+- Marshal Varkesh — locked visual authority;
+- Emperor Vaelkor Draeven — locked antagonist visual authority;
+- Chancellor Othmar Calder — locked visual set;
+- Reconstituted Entity / Last Command — locked final-boss visual set.
+
+Where an exact approved image exists for one of these characters, preserve that image as source authority rather than inventing missing details from memory. If one of these characters receives a current repository master later, add it to `asset_sources/characters/current/` and create/update its production visual-lock document before promoting it into the current-master section above.
+
+## Retired migration contamination
+
+Older art documents may contain obsolete surnames, older generated-image hashes, superseded costume descriptions, or retired character proportions. Those records are historical only when they conflict with the current authority system.
+
+In particular, older visual files for the permanent six and for Maevra/Kessara have been replaced by surname-free navigation files under `CHARACTERS/PLAYABLE/` and `CHARACTERS/SUPPORTING/` that point to the current production locks.
