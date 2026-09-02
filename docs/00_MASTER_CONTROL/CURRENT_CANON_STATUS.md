@@ -146,36 +146,20 @@ Detailed economy authority:
 Only Major Hunt #2 has a genuine fresh second body, and that fresh War Engine does **not** restore spent Prime identities.
 
 ## Current enemy / encounter status
-Static enemy design remains authored across the numbered campaign, but the **mandatory-route difficulty standard is actively being raised**.
+Static enemy/encounter owner files and prior true-battle/sensitivity reports remain available in their owning domains.
 
-Current working difficulty conclusion from v105:
-> **Use a global enemy direct-damage floor around ×1.20 as the test baseline, then tune weak bosses locally rather than raising the whole roster further.**
+Important routing correction:
+- the former mandatory-route enemy difficulty recalibration stream is **not an active work item in the master queue anymore**;
+- the former ×1.20 global direct-damage test floor is **not a standing instruction for new work**;
+- First Command Warden is **not** automatically the next balance task;
+- the former boss-local retune list is **not** the current work sequence.
 
-The ×1.20 layer is still a working test layer, not yet a wholesale owner-file rewrite.
+Historical v103–v105 reports remain valid as analytical evidence of the tests they actually performed, but they do not determine what should be worked on next.
 
-Current boss-local retune list:
-- First Command Warden;
-- Furnace Tyrant;
-- Crownstorm Roc;
-- Matron Zevraya — Reservoir action-density correction;
-- Revision Arbiter;
-- Commander Rhazek → Bastion Devourer;
-- Emperor Vaelkor → Sovereign Panoply — lighter local climax-pressure pass than Rhazek.
+Future balance work follows the separately established current handling process or a new explicit instruction. Do not revive the retired queue workflow from historical reports alone.
 
-Representative v105 same-equipment level-sensitivity results under ×1.20:
-- First Command Warden, Lv11 mandatory — ~**0.13% any-KO**: too safe;
-- Zevraya, Lv24 mandatory — ~**4.4–4.8% any-KO** under current owner structure: visible but still low;
-- Rhazek, Lv40 mandatory — ~**0.45–0.5% any-KO**: too safe;
-- Vaelkor, Lv56 mandatory — ~**6.8–7.0% any-KO**: promising but still below the revised climax-danger target.
-
-Older v93–v102 true-battle reports remain valid historical measurements and mechanical evidence, but their old **PASS/RETAIN difficulty verdicts are provisional wherever the revised mandatory-danger standard reopens the fight**.
-
-Current next balance action:
-> **First Command Warden local pressure correction under the ×1.20 global test floor.**
-
-Detailed balance status:
-- `../16_BALANCE_AND_TESTING/FOUR_POINT_BOSS_LEVEL_SENSITIVITY_v105.md`
-- `../90_WORKING/ACTIVE_WORK_QUEUE.md`
+Detailed balance material remains under:
+> `../16_BALANCE_AND_TESTING/`
 
 ## Current implementation debt
 Proof/runtime material may still contain intentionally stale fixtures. Known examples include:
@@ -189,7 +173,6 @@ Current canon beats proof runtime. See:
 > `../13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md`
 
 ## Current open areas
-- mandatory-route enemy difficulty recalibration / boss-local retunes;
 - story-owned special-enemy placement/timing dependencies explicitly left unresolved;
 - Chapters 5–13 exact dialogue where not yet line-complete;
 - production implementation reconciliation;
@@ -198,5 +181,7 @@ Current canon beats proof runtime. See:
 - visual production/style certification;
 - whole-game/device/performance QA;
 - explicitly bounded story/lore details still marked open in their owning domains.
+
+The former mandatory-route enemy-difficulty recalibration sequence is not listed here as an open master-queue item because it is being handled through a different process.
 
 The core G economy/reward design is **CLOSED** and is not an open-gap item unless later playtest evidence or an explicit design revision reopens it.
