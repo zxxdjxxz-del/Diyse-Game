@@ -73,6 +73,7 @@ func _build_graybox() -> void:
 	_build_wreck_field()
 	_build_recovery_line()
 	_build_triage_camp()
+	_build_recovery_sweep()
 	_build_chunk_seams()
 
 func _build_convoy_road() -> void:
@@ -91,10 +92,8 @@ func _build_convoy_road() -> void:
 	_add_pad("F01_Encounter2", Vector3(10, 0, -15), Vector2(24, 22), _road_material)
 	_add_pad("F01_Pursuer", Vector3(-20, 0, -48), Vector2(25, 22), _road_material)
 	_add_pad("F01_Riftmaw", Vector3(-5, 0, -82), Vector2(28, 24), _road_material)
-
 	_add_boundary_box("F01_WestRidge", Vector3(-43, 1.5, 8), Vector3(24, 3, 205))
 	_add_boundary_box("F01_EastRidge", Vector3(48, 1.5, 0), Vector3(26, 3, 210))
-
 	_add_marker("F01 Start", Vector3(0, 0, 103))
 	_add_marker("S001-1", Vector3(-8, 0, 55))
 	_add_marker("S001-2", Vector3(10, 0, -15))
@@ -107,10 +106,8 @@ func _build_wreck_field() -> void:
 	_add_pad("F02_SurvivorLobe", o + Vector3(-45, 0, 20), Vector2(42, 34), _wreck_material)
 	_add_pad("F02_DamagedConvoy", o + Vector3(38, 0, 12), Vector2(44, 36), _wreck_material)
 	_add_pad("F02_EvacuationEvidence", o + Vector3(-28, 0, -42), Vector2(38, 32), _wreck_material)
-
 	_add_boundary_box("F02_WestEdge", o + Vector3(-84, 1.2, -2), Vector3(18, 2.4, 145))
 	_add_boundary_box("F02_EastEdge", o + Vector3(84, 1.2, -2), Vector3(18, 2.4, 145))
-
 	_add_marker("F02 Entry", o + Vector3(0, 0, 60))
 	_add_marker("Survivors", o + Vector3(-45, 0, 20))
 	_add_marker("S002 Hound", o + Vector3(5, 0, -10))
@@ -132,10 +129,8 @@ func _build_recovery_line() -> void:
 	_add_path("F03_RecoveryRoad", points, 8.0, _recovery_material)
 	_add_pad("F03_RelayYard", o + Vector3(-12, 0, 0), Vector2(34, 30), _recovery_material)
 	_add_pad("F03_Decision", o + Vector3(14, 0, -30), Vector2(24, 20), _recovery_material)
-
 	_add_boundary_box("F03_WestBank", o + Vector3(-40, 1.2, 0), Vector3(18, 2.4, 168))
 	_add_boundary_box("F03_EastBank", o + Vector3(42, 1.2, 0), Vector3(18, 2.4, 168))
-
 	_add_marker("F03 Entry", o + Vector3(0, 0, 78))
 	_add_marker("Damaged Recovery Line", o + Vector3(8, 0, 35))
 	_add_marker("Relay Yard", o + Vector3(-12, 0, 0))
@@ -150,17 +145,36 @@ func _build_triage_camp() -> void:
 	_add_pad("F04_Supplies", o + Vector3(24, 0, 5), Vector2(32, 28), _camp_material)
 	_add_pad("F04_Ilyra", o + Vector3(0, 0, -10), Vector2(22, 20), _camp_material)
 	_add_pad("F04_Perimeter", o + Vector3(8, 0, -38), Vector2(34, 24), _camp_material)
-
+	_add_pad("F04_EastCut", o + Vector3(45, 0, -34), Vector2(18, 18), _camp_material)
 	_add_boundary_box("F04_WestEdge", o + Vector3(-58, 1.2, -4), Vector3(10, 2.4, 96))
-	_add_boundary_box("F04_EastEdge", o + Vector3(58, 1.2, -4), Vector3(10, 2.4, 96))
-
+	_add_boundary_box("F04_EastEdgeNorth", o + Vector3(58, 1.2, 9), Vector3(10, 2.4, 62))
 	_add_marker("F04 Entry", o + Vector3(0, 0, 40))
 	_add_marker("Wounded / NO COMBAT", o + Vector3(-28, 0, 8))
 	_add_marker("Supplies / NO COMBAT", o + Vector3(24, 0, 5))
 	_add_marker("S004 Ilyra", o + Vector3(0, 0, -10))
 	_add_marker("S005 Final Confrontation", o + Vector3(8, 0, -38))
-	_add_marker("Soldier Withdraws", o + Vector3(-15, 0, -45))
-	_add_marker("TO BRACKENWALL", o + Vector3(0, 0, -52))
+	_add_marker("S005 East Cut", o + Vector3(45, 0, -34))
+	_add_marker("Soldier Withdraws East", o + Vector3(50, 0, -40))
+	_add_marker("S006 Sweep Start", o + Vector3(0, 0, -48))
+
+func _build_recovery_sweep() -> void:
+	var o := Vector3(0, 0, F04_OFFSET_Z)
+	var points: Array[Vector3] = [
+		o + Vector3(0, 0, -48),
+		o + Vector3(-18, 0, -58),
+		o + Vector3(-36, 0, -70),
+		o + Vector3(-34, 0, -86),
+		o + Vector3(-12, 0, -98),
+		o + Vector3(0, 0, -108),
+	]
+	_add_path("F03R_SurvivorSweep", points, 7.0, _recovery_material)
+	_add_pad("F03R_Tracks", o + Vector3(-36, 0, -70), Vector2(20, 18), _recovery_material)
+	_add_pad("F03R_WreckMarkerLimit", o + Vector3(-34, 0, -86), Vector2(18, 16), _recovery_material)
+	_add_pad("F03R_BrackenwallHandoff", o + Vector3(0, 0, -108), Vector2(18, 16), _recovery_material)
+	_add_marker("S006 Tracks South of Wagon Line", o + Vector3(-36, 0, -70))
+	_add_marker("S006 Wreck Marker Limit", o + Vector3(-34, 0, -86))
+	_add_marker("S006 Sweep Complete", o + Vector3(-12, 0, -98))
+	_add_marker("TO BRACKENWALL", o + Vector3(0, 0, -108))
 
 func _build_chunk_seams() -> void:
 	_add_path_segment("Seam_F01_F02", Vector3(0, 0, -105), Vector3(0, 0, -115), 8.0, _road_material)
@@ -181,14 +195,12 @@ func _add_path_segment(name: String, a: Vector3, b: Vector3, width: float, mater
 	body.position = (a + b) * 0.5 + Vector3(0, -0.1, 0)
 	body.rotation.y = atan2(delta.x, delta.z)
 	add_child(body)
-
 	var mesh := BoxMesh.new()
 	mesh.size = Vector3(width, 0.2, horizontal_length + 1.0)
 	mesh.material = material
 	var mesh_instance := MeshInstance3D.new()
 	mesh_instance.mesh = mesh
 	body.add_child(mesh_instance)
-
 	var shape := BoxShape3D.new()
 	shape.size = Vector3(width, 0.2, horizontal_length + 1.0)
 	var collision := CollisionShape3D.new()
@@ -200,14 +212,12 @@ func _add_pad(name: String, center: Vector3, size_xz: Vector2, material: Standar
 	body.name = name
 	body.position = center + Vector3(0, -0.1, 0)
 	add_child(body)
-
 	var mesh := BoxMesh.new()
 	mesh.size = Vector3(size_xz.x, 0.2, size_xz.y)
 	mesh.material = material
 	var mesh_instance := MeshInstance3D.new()
 	mesh_instance.mesh = mesh
 	body.add_child(mesh_instance)
-
 	var shape := BoxShape3D.new()
 	shape.size = Vector3(size_xz.x, 0.2, size_xz.y)
 	var collision := CollisionShape3D.new()
@@ -219,14 +229,12 @@ func _add_boundary_box(name: String, center: Vector3, size: Vector3) -> void:
 	body.name = name
 	body.position = center
 	add_child(body)
-
 	var mesh := BoxMesh.new()
 	mesh.size = size
 	mesh.material = _boundary_material
 	var mesh_instance := MeshInstance3D.new()
 	mesh_instance.mesh = mesh
 	body.add_child(mesh_instance)
-
 	var shape := BoxShape3D.new()
 	shape.size = size
 	var collision := CollisionShape3D.new()
@@ -238,7 +246,6 @@ func _add_marker(text: String, position: Vector3) -> void:
 	marker.name = "Marker_%s" % text.replace(" ", "_").replace("/", "_")
 	marker.position = position
 	add_child(marker)
-
 	var mesh := CylinderMesh.new()
 	mesh.top_radius = 0.22
 	mesh.bottom_radius = 0.28
@@ -248,7 +255,6 @@ func _add_marker(text: String, position: Vector3) -> void:
 	pillar.mesh = mesh
 	pillar.position.y = 1.0
 	marker.add_child(pillar)
-
 	var label := Label3D.new()
 	label.text = text
 	label.font_size = 40
@@ -286,5 +292,7 @@ func _update_location_label() -> void:
 		location_label.text = "CH00_F02 — Wreck Field"
 	elif z > -409.0:
 		location_label.text = "CH00_F03 — Recovery Line"
-	else:
+	elif z > -500.0:
 		location_label.text = "CH00_F04 — Field Triage Camp"
+	else:
+		location_label.text = "CH00_F03R — Survivor Recovery Sweep"
