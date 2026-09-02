@@ -224,6 +224,22 @@ def test_campaign_checkpoint_accepts_multiple_explicit_class_choices() -> None:
     assert "selected_class_route_missing" in _gap_codes(rows["Torren"])
 
 
+def test_campaign_class_choices_reject_unknown_character() -> None:
+    with pytest.raises(ValueError, match="Unknown permanent character in class choices: Fake"):
+        audit_campaign_checkpoint(
+            7,
+            class_choices={"Fake": "Crest Knight"},
+        )
+
+
+def test_campaign_class_choices_allow_known_future_character() -> None:
+    rows = audit_campaign_checkpoint(
+        3,
+        class_choices={"Seyrik": "Ruin Vanguard"},
+    )
+    assert "Seyrik" not in {row.character for row in rows}
+
+
 def test_named_checkpoint_uses_exact_chapter13_internal_level() -> None:
     row = audit_character_named_checkpoint("Cyanis", "ch13_start", "mandatory")
     assert row.chapter == 13
