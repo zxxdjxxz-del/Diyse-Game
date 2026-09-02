@@ -1,6 +1,6 @@
 # Diyse — Ordinary Side Quest Rewards
 
-**Status:** EXACT NON-EXP REWARD AUTHORITY
+**Status:** REWARD COMPOSITION CURRENT / EXACT G CASH VALUES REOPENED
 
 Current ordinary Side Quests:
 - The Marks We Leave
@@ -13,47 +13,45 @@ Player EXP remains owned by `10_PROGRESSION_AND_EXP`; quest structure/world-stat
 
 ## Reward rules
 - Ordinary Side Quests do not require a permanent combat-system item to feel worthwhile.
-- World-state improvement + EXP where applicable + a sensible Auren/Consumable package is sufficient.
-- No reward-only Reservoir Tonic, Emergency Kit, or Emergency Rally is added here.
+- World-state improvement + EXP where applicable + a sensible G/Consumable package is sufficient.
 - No new minor-material currency or vendor-trash layer is created for these quests.
 - Consumables respect the normal progression spine at the quest's unlock point.
+- Premium Consumables are not automatically added merely for symmetry, though they are now purchasable as limited shop stock elsewhere.
 
-## Exact rewards
-| Side Quest | Unlock | Player EXP context | Auren | Consumable package | Consumable value | Economic value |
-|---|---|---:|---:|---|---:|---:|
-| **The Marks We Leave** | Ch1 after Torren joins | 500 EXP | **100** | 2× Field Salve, 1× Trauma Remedy, 1× Blinding Mist | **65** | **165** |
-| **A Measure of Bread** | after Ch3 | 0 EXP | **220** | 2× Restorative Salve, 1× Flow Tonic, 1× General Remedy | **230** | **450** |
-| **The Crown's Debt** | after Ch7 | 0 EXP | **380** | 1× Deepflow Tonic, 1× Greater Rousing Salts, 1× Full Remedy | **500** | **880** |
-| **The Third Caravan** | after Ch8 | 5,000 EXP | **500** | 2× Vital Salve, 1× Company Salve, 1× Greater Rousing Salts | **600** | **1,100** |
-| **What We Build After** | post-Vaelkor Ch12 cleanup | 14,500 EXP | **600** | 1× Grand Salve, 1× Highflow Tonic, 1× Full Remedy | **740** | **1,340** |
+## Retained Consumable package composition
+The existing normal-stock Consumable package identities/quantities remain the working reward composition:
+- **The Marks We Leave** — 2× Field Salve, 1× Trauma Remedy, 1× Blinding Mist
+- **A Measure of Bread** — 2× Restorative Salve, 1× Flow Tonic, 1× General Remedy
+- **The Crown's Debt** — 1× Deepflow Tonic, 1× Greater Rousing Salts, 1× Full Remedy
+- **The Third Caravan** — 2× Vital Salve, 1× Company Salve, 1× Greater Rousing Salts
+- **What We Build After** — 1× Grand Salve, 1× Highflow Tonic, 1× Full Remedy
 
-## Full ordinary-Side-Quest economic budget
-Direct Auren:
-> **1,800 Auren**
+Their current G-equivalent value should be calculated from `CONSUMABLE_PRICES.md` during the final synchronized reward pass.
 
-Normal-stock Consumable market value:
-> **2,135 Auren**
+## Exact G status
+The former direct-cash amounts and old total are retired as final numeric authority.
 
-Total direct economic/recovery value:
-> **3,935 Auren equivalent**
-
-This total excludes Player EXP and persistent world-state payoff.
+Recalculate Side Quest G against:
+- the tenfold displayed G scale;
+- the ~650,000 G completionist direct-cash target;
+- each quest's EXP/world-state/reward composition;
+- the rule that optional content should feel worthwhile but remain unnecessary for mandatory solvency.
 
 ## Narrative interpretation
 ### The Marks We Leave
-Edda's payment is a modest route-maintenance fee plus practical field supplies. It should feel useful in Chapter 1 without becoming an early money exploit.
+Edda's payment is a modest route-maintenance fee plus practical field supplies. It should feel useful early without becoming a money exploit.
 
 ### A Measure of Bread
-Because this quest grants 0 Player EXP, its reward leans more heavily on provisioning support. The payment represents authorized service/requisition compensation, not taking food from displaced civilians.
+Because this quest grants 0 Player EXP, its economic package should carry more of the reward satisfaction. Payment represents authorized service/requisition compensation, not taking food from displaced civilians.
 
 ### The Crown's Debt
-Because this quest grants 0 Player EXP, its reward is a meaningful Crown field-service package. It is separate from the civilian debt payments being settled; the party is not paid from claimant compensation.
+Because this quest grants 0 Player EXP, its reward should remain a meaningful Crown field-service package. It is separate from civilian debt payments being settled.
 
 ### The Third Caravan
-The reward emphasizes recovery supplies appropriate to a successful caravan/recovery-line stabilization. Optional route combat is not required to justify the package.
+The reward emphasizes recovery supplies appropriate to caravan/recovery-line stabilization.
 
 ### What We Build After
-The quest already carries a large 14,500-EXP reward and major world-state payoff. Its economic package therefore focuses on final-act restocking rather than a permanent equipment reward or inflated cash prize.
+The quest already carries a large EXP reward and major world-state payoff, so its package should support final-act preparation without requiring a permanent equipment reward.
 
 ## No hidden reward budget
-Removed/retired Side Quests contribute no hidden Auren, material, or Consumable budget.
+Removed/retired Side Quests contribute no hidden G, material, or Consumable budget.
