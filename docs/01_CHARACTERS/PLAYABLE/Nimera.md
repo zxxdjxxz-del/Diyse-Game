@@ -7,7 +7,7 @@
 - Age: **22**
 - Permanent party: **yes**
 - Join: **Chapter 3**
-- Base / Subclass: **Cardweaver / Sixfold Knight**
+- Base / Subclass: **Cardweaver / Proofhunter**
 - Face: **Memory**
 - Story Prime: **Last Scribe**
 
@@ -28,7 +28,7 @@ She cares deeply about:
 ## Memory
 Nimera's Cardweaver identity is aligned to **Memory**: recall, preservation, and the continuing influence of what has already happened. Exact combat implementation belongs to the current class/Card authorities.
 
-Her current Subclass is **Sixfold Knight**. Older Proofhunter/Perception subclass material is superseded and must not be restored here.
+Her current Subclass is **Proofhunter**, aligned through the reciprocal Torren/Nimera donor architecture to **Perception**. Older Sixfold Knight subclass naming is superseded and must not be restored here.
 
 ## Knowledge boundary
 Nimera has meaningful expertise in ancient/Card material.
