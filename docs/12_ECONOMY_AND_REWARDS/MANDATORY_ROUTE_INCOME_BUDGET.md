@@ -1,65 +1,62 @@
-# Diyse — Mandatory Route Auren Budget
+# Diyse — Mandatory Route G Budget
 
-**Status:** ECONOMY CALIBRATION AUTHORITY
+**Status:** CALIBRATION FRAMEWORK CURRENT / EXACT G ENVELOPE REOPENED
 
-This file defines the normal mandatory-route Auren envelope used to tune story-boss payouts, authored currency rewards, and direct-currency chests.
+This file defines the mandatory-route G framework used to tune ordinary formations, story encounters, authored currency rewards, and direct-G caches.
 
-## Locked ordinary-battle baseline
-The current 225-encounter planning spine yields approximately:
-> **13,560 Auren**
+## Currency
+All current-facing mandatory income uses:
+> **G**
 
-from ordinary formations over a normal full campaign route.
+## Current calibration state
+The former ~30.1k pre-display-scale mandatory total is retired as current numeric authority.
 
-Exact formation payouts live in `ENCOUNTER_AUREN_REWARDS.md`.
+The active full-economy target is roughly:
+> **650,000 G completionist direct cash**
 
-## Mandatory-route income target
-Retain the established design target that ordinary random encounters contribute roughly **40–50% of routine spendable currency**.
+The mandatory-route share must be recalibrated inside that larger target while remaining independently solvent.
 
-Therefore the full mandatory-route spendable Auren envelope should land approximately within:
-> **27,100–33,900 Auren**
+## Routine encounter role
+Ordinary random encounters should remain a substantial portion of routine mandatory-route G, but the former exact 40–50% certification must be rechecked after:
+- tenfold G display synchronization;
+- protected/nonlethal encounter payouts;
+- stronger Hunt payouts;
+- revised optional-content totals.
 
-before optional Side Quests, optional Elites, Hunts, Character Quests, selling, or deliberate extra encounter grinding.
+Exact ordinary-formation authority:
+> `ENCOUNTER_G_REWARDS.md`
 
-Calibration center:
-> **~30,100 Auren total mandatory-route income**
-
-At that center, ordinary encounters provide approximately **45%** of mandatory-route Auren.
-
-## Remaining mandatory non-ordinary budget
-After the ~13.56k ordinary-encounter baseline, the remaining mandatory non-ordinary Auren budget is approximately:
-- **minimum 40%-ordinary edge:** ~20.3k other mandatory Auren;
-- **45% center:** ~16.6k other mandatory Auren;
-- **maximum 50%-ordinary edge:** ~13.6k other mandatory Auren.
-
-The target is not to hit one exact theoretical wallet total. It is to keep normal play inside the corridor after authored route differences and spending decisions.
-
-## Sources that may fill the non-ordinary budget
-- story-boss / mandatory named encounter Auren where appropriate;
-- direct-currency chests and secure caches;
-- authored mission/requisition payments where story context supports them;
-- finite story supply grants whose Auren-equivalent value is intentionally counted;
+## Sources that may fill the mandatory budget
+- ordinary formation G;
+- story-boss / mandatory named encounter G;
+- protected/nonlethal resolved-event G where appropriate;
+- direct-G chests and secure caches;
+- authored mission/requisition payments;
 - other explicitly authored mandatory economic rewards.
 
-## Sources excluded from the mandatory baseline
-Do **not** rely on these to make baseline progression affordable:
+Mandatory non-battle delivery structure:
+> `MANDATORY_NONBATTLE_G_BUDGET.md`
+
+## Sources excluded from baseline solvency
+Do **not** rely on:
 - ordinary Side Quests;
 - optional Elites;
 - Regional Hunts;
 - Major Hunts;
 - Character Quests;
-- consumable/equipment resale;
+- resale;
 - repeat farming/backtracking;
 - optional late-game cleanup.
 
-Those sources create surplus, build flexibility, and completionist wealth.
+Those sources create surplus and build flexibility.
 
 ## Checkpoint pressure rule
 At a normal meaningful commerce checkpoint:
-> **one meaningful ordinary equipment purchase + routine consumable restock should usually be affordable without exhausting all funds.**
+> **one meaningful ordinary equipment purchase + routine Consumable restock should usually be affordable without exhausting all funds.**
 
-The mandatory route does not promise enough Auren to buy every newly available ordinary item immediately.
+The mandatory route does not promise enough G to buy every newly available ordinary item immediately.
 
 ## Anti-grind guardrail
-If later shop/chest simulation shows a normal campaign repeatedly falls below the intended purchase-and-restock pressure, fix the authored mandatory income distribution rather than requiring optional money farming.
+If final simulation shows a normal campaign repeatedly falls below intended purchase/restock pressure, fix authored mandatory G distribution rather than requiring optional farming.
 
-If the mandatory route routinely buys the whole catalog with little sacrifice, reduce or redistribute authored cash before increasing prices globally.
+If the mandatory route routinely buys everything with little sacrifice, reduce or redistribute authored G before globally inflating prices.
