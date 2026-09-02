@@ -1,6 +1,6 @@
 # Diyse — Character Quest Economic Add-On Rewards
 
-**Status:** EXACT NON-EXP ECONOMIC ADD-ON AUTHORITY
+**Status:** REWARD COMPOSITION CURRENT / EXACT G CASH VALUES REOPENED
 
 Exactly six Character Quests exist.
 
@@ -12,55 +12,47 @@ The Character Quest does **not** directly award finished Legacy equipment.
 
 Player EXP is owned by `10_PROGRESSION_AND_EXP`.
 
-Because the Legacy Component is already a major permanent progression reward, Character Quest direct Auren/Consumables are intentionally restrained.
+The Legacy Component remains the dominant permanent progression reward, but the quest may still provide a worthwhile G/Consumable add-on.
 
-## Exact economic add-ons
-| Character | Quest | Unlock | EXP context | Auren | Consumable add-on | Consumable value | Economic add-on value |
-|---|---|---|---:|---:|---|---:|---:|
-| Vaelira | **The Sky No One Chose** | after Sixfold Volition | 7,000 | **300** | 1× Deepflow Tonic, 1× Full Remedy | **340** | **640** |
-| Cyanis | **The Weight of the Crest** | after Ch7 | 7,000 | **300** | 1× Greater Rousing Salts, 1× Full Remedy | **300** | **600** |
-| Nimera | **The Archive That Remembers** | after Ch8 | 8,000 | **360** | 1× Company Salve, 1× Deepflow Tonic | **400** | **760** |
-| Seyrik | **The Name That Remains** | after Ch8 | 8,000 | **360** | 1× Greater Rousing Salts, 1× Company Salve | **360** | **720** |
-| Ilyra | **Mercy Has a Voice** | after Ch9 | 10,000 | **420** | 1× Grand Salve, 1× Greater Rousing Salts | **400** | **820** |
-| Torren | **The Road That Returns** | after Ch10 | 15,000 | **480** | 1× Highflow Tonic, 1× Grand Salve | **600** | **1,080** |
+## Retained Consumable add-on composition
+The existing normal-stock add-on identities remain the working package:
+- Vaelira — 1× Deepflow Tonic, 1× Full Remedy
+- Cyanis — 1× Greater Rousing Salts, 1× Full Remedy
+- Nimera — 1× Company Salve, 1× Deepflow Tonic
+- Seyrik — 1× Greater Rousing Salts, 1× Company Salve
+- Ilyra — 1× Grand Salve, 1× Greater Rousing Salts
+- Torren — 1× Highflow Tonic, 1× Grand Salve
 
-## Full Character Quest economic add-on budget
-Direct Auren:
-> **2,220 Auren**
+Their G-equivalent values should be calculated from `CONSUMABLE_PRICES.md` during the synchronized reward pass.
 
-Normal-stock Consumable market value:
-> **2,400 Auren**
+## Exact G status
+The former direct-cash lines and old total are retired as final numeric authority.
 
-Total economic add-on value:
-> **4,620 Auren equivalent**
-
-This excludes:
-- 55,000 total Character Quest Player EXP;
-- the six unique Legacy Components;
-- persistent character/world-state payoff.
+Recalculate Character Quest G against:
+- the tenfold displayed G scale;
+- the ~650,000 G completionist direct-cash target;
+- the six Legacy Components already awarded;
+- each quest's Player EXP and story payoff.
 
 ## Quest-boss cash rule
-Character Quest bosses do **not** award a separate direct Auren bounty on top of the completion package.
+The prior blanket rule that Character Quest bosses must always pay **0 separate currency** is reopened.
 
-This currently applies to:
+A boss or protected/nonlethal authored combat may receive G if that produces the better reward presentation, provided the quest completion package is not accidentally double-counted.
+
+Current boss identities include:
 - Elemental Forecast Construct;
 - Crest-Exhausted Warden;
 - Black Host Remnant Captain;
 - Old Relay Warden.
 
-Their combat EXP/reward handling remains with the appropriate owner domains, but direct Auren is already represented by the quest completion package.
-
 ## No-boss parity rule
-Nimera and Ilyra do not need a boss inserted to justify their rewards. Their quests retain the same Legacy-Component-first reward philosophy.
+Nimera and Ilyra do not need a boss inserted to justify their rewards.
 
 ## Scarcity firewall
 No Character Quest add-on automatically grants:
-- Reservoir Tonic;
-- Emergency Kit;
-- Emergency Rally;
 - Relic;
 - finished Legacy equipment;
 - extra Prime/Card;
 - invented sell-only material.
 
-Any future exceptional reward addition requires a separate reward-budget review.
+Premium Consumables may remain separate authored rewards only if explicitly chosen; their normal limited shop availability does not make them automatic quest rewards.
