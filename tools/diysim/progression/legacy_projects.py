@@ -13,7 +13,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from ..sources.campaign_progression import CLASS_SYSTEM_MASTER_PATH, load_campaign_checkpoint
-from ..sources.equipment import EQUIPMENT_REGISTER_PATH, load_equipment
+from ..sources.equipment import EQUIPMENT_REGISTER_PATH
 from ..sources.legacies import (
     CHARACTER_QUEST_LEGACY_COMPONENTS_PATH,
     CHARACTER_QUEST_LEGACY_HANDOFF_PATH,
@@ -66,6 +66,12 @@ class LegacyItemCheckpointValidation:
     is_weapon: bool
     gate_b_required: bool
     source_paths: tuple[str, ...]
+
+
+def _legacy_is_weapon(slot: str) -> bool:
+    """Resolve package role from the Legacy master register's authored slot text."""
+    folded = slot.casefold()
+    return "armor" not in folded and "shield" not in folded and "focus" not in folded
 
 
 def validate_native_legacy_item_at_checkpoint(
@@ -128,8 +134,10 @@ def validate_native_legacy_item_at_checkpoint(
             f"{item.legacy} requires explicit Kessara project availability for this scenario."
         )
 
-    equipment = load_equipment(item.legacy, root=root)
-    is_weapon = equipment.equipment_type.casefold() == "weapon"
+    # Legacy equipment-register type values are family names (Sword, Great Bow,
+    # Arcane Staff, etc.), not the generic Relic-style value "Weapon". The Legacy
+    # master register owns the package slot, so use that source directly.
+    is_weapon = _legacy_is_weapon(item.slot)
     gate_b_required = not is_weapon
     if gate_b_required and not evidence.gate_b_owned:
         raise ValueError(
