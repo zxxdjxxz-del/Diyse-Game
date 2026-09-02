@@ -186,6 +186,21 @@ def test_progression_audit_rejects_duplicate_class_choice() -> None:
         raise AssertionError("expected SystemExit")
 
 
+def test_progression_audit_rejects_unknown_campaign_class_choice() -> None:
+    try:
+        main([
+            "progression-audit",
+            "--chapter",
+            "7",
+            "--class-choice",
+            "Fake=Crest Knight",
+        ])
+    except SystemExit as exc:
+        assert "Unknown permanent character in class choices: Fake" in str(exc)
+    else:
+        raise AssertionError("expected SystemExit")
+
+
 def test_progression_audit_rejects_unrelated_choice_with_character_filter() -> None:
     try:
         main([
