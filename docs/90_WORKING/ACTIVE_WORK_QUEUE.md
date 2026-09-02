@@ -25,28 +25,38 @@ Immediate next dialogue work:
 Optional Side Quest / Character Quest exact dialogue remains open where not separately completed.
 
 ## 3 — Playable Area & Route Layout Production
-**ACTIVE / MAY PROCEED IN PARALLEL WITH VISUAL BENCHMARK WORK**
+**ACTIVE / PHASE A INVENTORY COMPLETE ENOUGH / PHASE B BLUEPRINT + GRAYBOX STARTED**
 
-The current world map and macro travel order do **not** yet constitute production-ready playable maps.
+The current world map and macro travel order do **not** constitute production-ready playable maps.
 
-Open work includes:
-- inventory every gameplay-relevant field, route, town/hub slice, dungeon, facility, quest site and Hunt site;
-- create actual playable footprints/blockouts;
-- define entrances/exits, critical paths, optional loops, shortcuts and traversal gates;
-- place landmarks and sightline anchors;
-- define elevation and HD-2D foreground/midground/background composition;
-- reserve encounter spaces and boss/Hunt arenas;
-- place authored interactions, rewards, transitions and state changes;
-- set rough traversal/pacing targets;
-- create environment-generation handoff packets that preserve canonical geography and route topology.
+Completed in the current pass:
+- created `PLAYABLE_AREA_INVENTORY_WORKING.md` covering mandatory Chapters 0–13, persistent hubs, Character Quests, Side Quests, Regional Hunts and Major Hunts;
+- established layout maturity states L0–L3;
+- confirmed that current production areas are not yet L3 build-ready topology;
+- created `AREA_LAYOUTS/BLUEPRINT_001_CH00_CONVOY_WRECK_ROUTE.md`;
+- created the provisional Godot graybox `game/exploration/maps/chapter_00/chapter_00_graybox.tscn` plus its route builder;
+- reconciled S005 to the Field Triage Camp perimeter and added S006's bounded player-controlled survivor sweep before Brackenwall;
+- added focused Godot CI validation for the Chapter-0 graybox structure.
 
-Layout/blockout work can begin before final environment-material certification. Final rendered environment production remains downstream of the relevant B01–B11 style/material approvals.
+Current next deliverable:
+> **Validate/play Blueprint 001's Chapter-0 graybox, revise scale/camera/topology from traversal evidence, then explicitly promote the approved topology to L3.**
 
-Immediate next deliverable:
-> **Playable Area Inventory** — one complete checklist of all playable areas/sub-areas and their current layout readiness.
+Validation targets:
+- scene loads cleanly in Godot;
+- Android touch navigation works;
+- camera variants A/B/C are compared;
+- Wreck Field reads without minimap dependence;
+- S003 recovery-line logic is spatially obvious;
+- S005 camp-edge/east-cut staging matches exact dialogue;
+- S006 recovery sweep remains short, bounded and no-combat;
+- route pacing and transition seams are acceptable.
 
-Working pointer:
-`AREA_AND_ROUTE_LAYOUT_PRODUCTION_WORKING.md`
+Layout/blockout work may proceed before final environment-material certification. Final rendered environment production remains downstream of relevant B01–B11 style/material approvals.
+
+Working pointers:
+- `AREA_AND_ROUTE_LAYOUT_PRODUCTION_WORKING.md`
+- `PLAYABLE_AREA_INVENTORY_WORKING.md`
+- `AREA_LAYOUTS/BLUEPRINT_001_CH00_CONVOY_WRECK_ROUTE.md`
 
 ## 4 — Production Implementation
 Reconcile current canon with runtime, including:
