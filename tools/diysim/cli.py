@@ -15,7 +15,9 @@ from .overlays import BalanceOverlay
 from .progression import (
     audit_campaign,
     audit_campaign_checkpoint,
+    audit_campaign_named_checkpoint,
     audit_character_checkpoint,
+    audit_character_named_checkpoint,
     project_progression,
     required_average_exp_per_encounter,
 )
@@ -77,7 +79,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     progression_audit = sub.add_parser(
         "progression-audit",
-        help="resolve source-backed character loadouts and calculated stats by chapter",
+        help="resolve source-backed character loadouts and calculated stats by chapter/checkpoint",
     )
     progression_audit.add_argument(
         "--route",
@@ -85,7 +87,11 @@ def build_parser() -> argparse.ArgumentParser:
         default="mandatory",
         help="progression/loadout assumption; unresolved authority is reported as a source gap",
     )
-    progression_audit.add_argument("--chapter", type=int, help="audit one chapter/checkpoint")
+    progression_audit.add_argument("--chapter", type=int, help="audit one end-of-chapter target")
+    progression_audit.add_argument(
+        "--checkpoint",
+        help="audit one named campaign checkpoint, e.g. end_ch7, ch13_start, ch13_last_shelter, ch13_ending",
+    )
     progression_audit.add_argument("--start-chapter", type=int, default=0, help="first chapter when auditing a range")
     progression_audit.add_argument("--end-chapter", type=int, default=13, help="last chapter when auditing a range")
     progression_audit.add_argument("--character", help="filter to one permanent character")
@@ -190,9 +196,29 @@ def main(argv: list[str] | None = None) -> int:
             return 2
         return 0
     if args.command == "progression-audit":
-        if args.chapter is not None and (args.start_chapter != 0 or args.end_chapter != 13):
-            raise SystemExit("--chapter cannot be combined with --start-chapter/--end-chapter")
-        if args.chapter is not None:
+        if args.chapter is not None and args.checkpoint is not None:
+            raise SystemExit("--chapter and --checkpoint are mutually exclusive")
+        if (args.chapter is not None or args.checkpoint is not None) and (
+            args.start_chapter != 0 or args.end_chapter != 13
+        ):
+            raise SystemExit(
+                "--chapter/--checkpoint cannot be combined with --start-chapter/--end-chapter"
+            )
+        if args.checkpoint is not None:
+            try:
+                if args.character:
+                    rows = (
+                        audit_character_named_checkpoint(
+                            args.character,
+                            args.checkpoint,
+                            args.route,
+                        ),
+                    )
+                else:
+                    rows = audit_campaign_named_checkpoint(args.checkpoint, args.route)
+            except KeyError as exc:
+                raise SystemExit(str(exc)) from exc
+        elif args.chapter is not None:
             if not 0 <= args.chapter <= 13:
                 raise SystemExit("--chapter must be between 0 and 13")
             if args.character:
