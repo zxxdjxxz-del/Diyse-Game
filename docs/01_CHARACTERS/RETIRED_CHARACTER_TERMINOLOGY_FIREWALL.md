@@ -20,17 +20,17 @@ This does not alter unrelated established supporting-character names such as Edd
 
 ## Current Subclass names
 Current:
-- Cyanis — **Crest Magus**
+- Cyanis — **Crest Arcanist**
 - Ilyra — **Vowblade**
 - Torren — **Routeweaver**
-- Nimera — **Sixfold Knight**
+- Nimera — **Proofhunter**
 - Vaelira — **Axiomblade**
-- Seyrik — **Ruin Healer**
+- Seyrik — **Ruin Warden**
 
 Retired current-facing Subclass labels include:
-- Crest Arcanist for Cyanis;
-- Proofhunter for Nimera;
-- Ruin Warden for Seyrik.
+- Crest Magus for Cyanis;
+- Sixfold Knight for Nimera;
+- Ruin Healer for Seyrik.
 
 ## Party unlock
 Current:
@@ -43,11 +43,11 @@ Current six Faces:
 - **Might**
 - **Elements**
 - **Grace**
-- **Resource**
+- **Perception**
 - **Memory**
 - **Ruin**
 
-For Torren, the current Face shorthand is **Resource**. Do not restore older **Acuity** or **Perception** labels as current Face names.
+For Torren, the current Face shorthand is **Perception**. **Resource** and **Acuity** are retired Face labels.
 
 For Nimera, the current Face shorthand is **Memory**. **Change** is retired as the Face name.
 
