@@ -6,16 +6,16 @@ Chapter 0 is a tightly authored tutorial sequence with no normal shop loop and n
 
 ## Starting resources
 The party begins Chapter 0 with:
-- **2,500 Auren**;
+- **2,500 G**;
 - **3 Field Salves** issued to Cyanis.
 
-Starting Auren is spendable currency once commerce becomes available. It is not a hidden completionist advantage.
+Starting G is spendable currency once commerce becomes available. It is not a hidden completionist advantage.
 
 Each Field Salve retains its normal function:
 > restore **250 HP** to one ally.
 
-Current Field Salve purchase value under the new display scale:
-> **200 Auren**
+Current Field Salve purchase value under the current display scale:
+> **200 G**
 
 ## Boundary
 The three Salves are guaranteed story/convoy field issue.
