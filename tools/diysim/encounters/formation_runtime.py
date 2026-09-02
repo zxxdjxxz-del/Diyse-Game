@@ -63,6 +63,7 @@ class FormationRuntime:
 
     def select_action(self, actor_index: int, round_number: int, rng: random.Random) -> FormationActionSelection:
         runtime = self.enemies[actor_index].runtime
+        runtime.prepare_round(round_number, rng)
         legal = runtime.legal_actions(round_number)
         if not legal:
             raise RuntimeError(f"{runtime.combatant.name} has no legal action in round {round_number}")
@@ -101,9 +102,6 @@ class FormationRuntime:
         return FormationActionSelection(actor_index, chosen, targets, chosen.name)
 
     def commit_action(self, selection: FormationActionSelection, round_number: int) -> None:
-        # Cooldowns/use caps belong to the action that actually executes. If a
-        # formation-only action falls back, its authored fallback is what the
-        # enemy spent its turn using.
         self.enemies[selection.actor_index].runtime.commit_action(selection.action, round_number)
 
     def resolve_ally_effect(self, selection: FormationActionSelection) -> tuple[int, ...]:
@@ -122,6 +120,7 @@ def build_formation_runtime(
     *,
     overlay: BalanceOverlay = BalanceOverlay(),
     root: Path | None = None,
+    rng: random.Random | None = None,
 ) -> FormationRuntime:
     if not definition.runtime_ready:
         blockers = "; ".join(definition.blockers) or "contains non-shared runtime members"
@@ -133,6 +132,8 @@ def build_formation_runtime(
         assert member.enemy is not None
         for _ in range(member.count):
             runtime = build_generic_enemy_runtime(member.enemy, overlay=overlay, root=root)
+            if rng is not None:
+                runtime.prepare_round(1, rng)
             enemies.append(FormationEnemyInstance(runtime, CombatUnit(runtime.combatant, stable_index)))
             stable_index += 1
     return FormationRuntime(definition, enemies)
