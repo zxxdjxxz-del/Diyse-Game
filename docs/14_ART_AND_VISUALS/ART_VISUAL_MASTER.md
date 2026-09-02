@@ -1,17 +1,20 @@
 # Diyse — Art & Visual Master
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written authority:** **v2.20 / Audit135** plus newer explicit visual approvals/corrections already accepted in the project conversation.  
-**Inherited presentation authority:** Audit86 Cyanis exact visual lock, Audit87 HD-2D production grammar, Audit88 compatible Chapters 0–4 production conversion, Audit111 final world-map visual/spatial authority.  
-**Runtime checkpoint:** `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
-**Visual rule:** the newest explicitly approved visual reference for a character/location controls all derivative field sprites, battle sprites, portraits, cut-ins, model sheets, and promotional derivatives unless that exact visual is later revised.
+
+**Status:** ACTIVE ART/VISUAL NAVIGATION AUTHORITY  
+**Rendering authority:** `DIYSE_VISUAL_STYLE_CANON.md`  
+**Current character authority:** `PRODUCTION/CHARACTERS/README.md`  
+**Current character masters:** `../../asset_sources/characters/current/`  
+**Character runtime gate:** `PRODUCTION/BENCHMARKS/B00_RIGGED_MODEL_RUNTIME_VALIDATION_V1.md`
+
+This document is a top-level visual routing guide. Exact character and location masters control identity; the style canon controls shared rendering language; production documents control runtime translation and asset workflows.
 
 ## Active rendering style
 
 The current canonical rendering style is:
 
-> **Seinen HD-2D Fantasy with Chaotic Variable Line Weight**
+> **Seinen HD-2D Fantasy with Chaotic Variable Line Weight + Graphic Anime-Stylized Rendering**
 
-Full authority:
+Full style authority:
 
 `DIYSE_VISUAL_STYLE_CANON.md`
 
@@ -19,50 +22,63 @@ Production conversion guide:
 
 `PRODUCTION/ASSET_STYLE_CONVERSION_PIPELINE.md`
 
-The style document controls rendering language; exact approved character/location masters still control identity and locked design details.
+**Painterly is retired from the active Diyse art direction.** Do not use painterly treatment as a production target, review criterion, or conversion requirement unless explicitly reintroduced later.
 
 ## Style pillars
+
 - mature seinen-inspired character language;
 - chaotic variable line weight with tapered, broken, irregular authored strokes;
+- graphic cel-informed value grouping;
 - clean, readable silhouettes;
-- painterly shape-first environments with selective ink accents;
-- HD-2D layered environments;
-- cinematic atmospheric lighting/composition;
+- graphic shape-first environments/materials with selective ink accents;
+- cinematic HD-2D depth, atmosphere, and lighting;
 - rich but controlled color;
 - graphic readable magical/combat VFX;
-- restrained nostalgia;
+- restrained detail and controlled noise;
 - readable JRPG battle staging;
-- authored visual depth rather than full simulation.
+- authored visual depth rather than photoreal simulation.
+
+## Character master policy
+
+The current repository image masters in `asset_sources/characters/current/` are the exact operational appearance authorities for the characters represented there.
+
+Use the authority order in `PRODUCTION/CHARACTERS/README.md`:
+1. current repository master image;
+2. matching current visual-lock document;
+3. current B00 / visual-style rules;
+4. older prose, archived renders, old hashes, generated filenames, or superseded concepts.
+
+Current permanent-party masters:
+- Cyanis;
+- Ilyra;
+- Torren;
+- Nimera;
+- Vaelira;
+- Seyrik.
+
+Current supporting masters in the same repository set:
+- Maevra;
+- Kessara.
+
+Do not infer surnames for these eight from retired migration filenames or older art documents.
 
 ## Character reference format
-Approved character masters use:
-> **white-background studio presentation**
 
-This creates a consistent source-of-truth for:
-- face;
-- age read;
-- costume;
-- silhouette;
-- proportions;
-- palette;
-- equipment placement.
+High-resolution character masters use a clean studio/reference presentation when appropriate so face, age read, costume, silhouette, proportions, palette, and equipment placement remain easy to judge. The exact repository image—not the background convention—is the authority.
 
-The white background itself is not a requirement for in-game scenes.
+## In-game character presentation
 
-## In-game scale targets
-Field character:
-> approximately **80 px**
+Primary field and battle character presentation follows the active **rigged 3D model** B00 direction.
 
-Battle character:
-> approximately **200–220 px**
+The former dedicated approximately **80 px field** and **200–220 px battle** sprite targets are retired as required production gates. Historical 2D simplification principles may still guide optional derivatives, but they do not define the active runtime plan or character identity.
 
-Dialogue:
-> large high-resolution portraits
+Runtime characters must be checked at actual field and battle camera distances. Simplify with mesh/material LOD, outline tuning, authored secondary-motion budgets, and screen-space readability treatment while preserving the exact master-controlled identity.
 
-The chaotic variable-line style is scale-aware: portraits may carry the full mark language, battle derivatives preserve major thick/thin rhythm, and field derivatives preserve silhouette plus selected heavy accents rather than reproducing every high-resolution stroke.
+Dialogue, portraits, menus, Cards/Primes, illustrated cut-ins, promotional art, and other deliberately 2D presentations may continue to use high-resolution 2D character art.
 
 ## Battle composition
-Standard:
+
+Standard battle staging remains:
 - party left;
 - enemies right;
 - open center lane for actions/VFX.
@@ -71,40 +87,41 @@ Active party maximum:
 > **4**
 
 ## Environment composition
+
 Prefer:
 - authored layered backgrounds;
-- painterly shape-first material treatment;
+- graphic shape-first material treatment;
 - selective chaotic ink accents rather than uniform outlines;
-- foreground/background depth;
-- modest parallax;
+- foreground/midground/background depth;
+- modest/selective parallax;
 - selective geometry;
-- prop-state swaps;
-- before/after states;
+- prop-state swaps and before/after states;
 - controlled camera framing;
 - reusable battle-background families;
 - atmospheric perspective and directional lighting.
 
 Avoid defaulting to:
-- giant seamless modeled cities;
-- fully simulated crowds;
-- physics destruction;
-- cloth/hair simulation;
-- one unique arena per encounter;
-- bespoke full animation for every Ability;
+- giant seamless modeled cities when authored segmentation is clearer;
+- fully simulated crowds where staged representation is sufficient;
+- unnecessary physics destruction;
 - photorealistic texture-pack noise;
 - glossy mobile-gacha rendering;
-- uniform sterile digital linework.
+- uniform sterile digital linework;
+- random speckle/grunge as detail.
+
+Secondary motion, cloth, hair, and foliage simulation may be used selectively when stable, readable, and justified by the runtime budget; they are not visual goals by themselves.
 
 ## Asset conversion
 
-Existing source/reference assets are not considered visually upgraded merely because they are enlarged or sharpened. Conversion must follow:
+Existing source/reference assets are not visually upgraded merely because they are enlarged or sharpened. Conversion must follow:
 
 `PRODUCTION/ASSET_STYLE_CONVERSION_PIPELINE.md`
 
-The pipeline requires functional analysis, shape/value/palette rebuilding, painterly treatment, chaotic line integration, HD-2D scene testing, runtime-scale review, and Diyse identity/originalization where appropriate.
+The conversion process must improve shape/value hierarchy, material readability, palette cohesion, authored irregularity, line character where relevant, HD-2D scene compatibility, gameplay-distance clarity, and Diyse identity/originalization where appropriate.
 
 ## Exact-master rule
-If a textual summary conflicts with the newest approved image:
-> **the newest approved image wins for appearance**
 
-unless a newer explicit text correction intentionally changes that image authority.
+If a textual summary conflicts with the current approved repository image:
+> **the current repository master image wins for appearance**
+
+unless a newer explicit approval intentionally replaces that master.
