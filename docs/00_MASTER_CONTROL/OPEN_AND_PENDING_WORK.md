@@ -68,10 +68,15 @@ High-impact engineering work:
 Owner:
 `14_ART_AND_VISUALS`
 
-Current immediate gate:
-> **B00 Permanent Party Character Style Anchor**
+The B00 character identity/master setup is no longer an unresolved repository gate:
+- the permanent six have current repository-backed exact masters;
+- Maevra and Kessara also have current repository-backed exact masters;
+- character visual authority is routed through `14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`;
+- exact source masters live in `asset_sources/characters/current/`.
 
-Do not bulk-convert the environment/material library until benchmark certification is complete and coherent at gameplay scale.
+Do **not** reopen character identity from older render/prose material merely because later production stages remain active.
+
+Remaining visual-production work includes downstream runtime translation/certification and the relevant B01–B11 environment/material/VFX approvals. Do not bulk-convert the environment/material library until the applicable benchmark certification is coherent at gameplay scale.
 
 ## Priority 6 — Full production playtest / QA — LATER
 Owner:
