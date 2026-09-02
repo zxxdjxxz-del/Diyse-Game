@@ -1,41 +1,49 @@
 # Diyse — Mandatory Route G Budget
 
-**Status:** CALIBRATION FRAMEWORK CURRENT / EXACT G ENVELOPE REOPENED
+**Status:** EXACT MANDATORY-ROUTE G CALIBRATION AUTHORITY
 
-This file defines the mandatory-route G framework used to tune ordinary formations, story encounters, authored currency rewards, and direct-G caches.
+This file defines the mandatory-route G envelope used to tune ordinary formations, story encounters, authored currency rewards, and direct-G caches.
 
 ## Currency
 All current-facing mandatory income uses:
 > **G**
 
-## Current calibration state
-The former ~30.1k pre-display-scale mandatory total is retired as current numeric authority.
+## Mandatory-route direct-G composition
+| Source | Direct G |
+|---|---:|
+| Starting wallet | **2,500 G** |
+| Ordinary Chapter 1–13 formations | **~135,600 G** |
+| Mandatory story bosses / named encounters | **92,700 G** |
+| Fixed authored combat/event payouts | **5,300 G** |
+| Mandatory non-battle reward map | **80,800 G** |
+| **Mandatory-route total** | **~316,900 G** |
 
-The active full-economy target is roughly:
-> **650,000 G completionist direct cash**
+The ordinary-formation total is a route expectation across the 225-encounter planning spine, so the final wallet can vary with encounter RNG, escapes, backtracking, and spending.
 
-The mandatory-route share must be recalibrated inside that larger target while remaining independently solvent.
+## Ordinary encounter share
+Ordinary formations contribute approximately:
+> **42.8%**
 
-## Routine encounter role
-Ordinary random encounters should remain a substantial portion of routine mandatory-route G, but the former exact 40–50% certification must be rechecked after:
-- tenfold G display synchronization;
-- protected/nonlethal encounter payouts;
-- stronger Hunt payouts;
-- revised optional-content totals.
+of the calibrated mandatory-route direct G.
 
-Exact ordinary-formation authority:
-> `ENCOUNTER_G_REWARDS.md`
+This satisfies the retained design target that ordinary random encounters contribute roughly:
+> **40–50% of routine mandatory-route spendable currency**
 
-## Sources that may fill the mandatory budget
-- ordinary formation G;
-- story-boss / mandatory named encounter G;
-- protected/nonlethal resolved-event G where appropriate;
-- direct-G chests and secure caches;
-- authored mission/requisition payments;
-- other explicitly authored mandatory economic rewards.
+without becoming the only meaningful source of money.
 
-Mandatory non-battle delivery structure:
-> `MANDATORY_NONBATTLE_G_BUDGET.md`
+## Protected/nonlethal contribution
+Protected/nonlethal story-boss resolutions contribute **7,800 G** inside the 92,700-G story-boss layer.
+
+Additional protected/nonlethal authored-event payouts are represented in the fixed event layer where applicable.
+
+Do not restore a blanket `nonlethal = 0 G` rule.
+
+## Exact owner files
+- ordinary formations → `ENCOUNTER_G_REWARDS.md`
+- mandatory story bosses/named encounters → `STORY_BOSS_G_REWARDS.md`
+- fixed authored combat/event payouts → `ENEMY_REWARD_HANDOFF.md`
+- mandatory non-battle map → `MANDATORY_NONBATTLE_G_BUDGET.md`
+- starting wallet → `CHAPTER_00_FIELD_ISSUE.md`
 
 ## Sources excluded from baseline solvency
 Do **not** rely on:
@@ -57,6 +65,6 @@ At a normal meaningful commerce checkpoint:
 The mandatory route does not promise enough G to buy every newly available ordinary item immediately.
 
 ## Anti-grind guardrail
-If final simulation shows a normal campaign repeatedly falls below intended purchase/restock pressure, fix authored mandatory G distribution rather than requiring optional farming.
+If future playtest simulation shows a normal campaign repeatedly falls below intended purchase/restock pressure, fix authored mandatory G distribution rather than requiring optional farming.
 
 If the mandatory route routinely buys everything with little sacrifice, reduce or redistribute authored G before globally inflating prices.
