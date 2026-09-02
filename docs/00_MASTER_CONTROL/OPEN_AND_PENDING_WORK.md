@@ -2,40 +2,7 @@
 
 This is the cross-domain index of work that remains genuinely unresolved. Closed owner-domain values remain closed unless a current test or explicit design revision reopens them.
 
-## Priority 1 — Mandatory-route enemy difficulty recalibration — ACTIVE
-Owner:
-`09_ENEMIES_AND_ENCOUNTERS` + `16_BALANCE_AND_TESTING`
-
-Current working conclusion from v105:
-> **Use a global enemy direct-damage test floor around ×1.20, then tune weak bosses locally rather than raising the whole roster further.**
-
-The ×1.20 layer is still a test layer, not yet a wholesale owner-file rewrite.
-
-Current boss-local retune list:
-- First Command Warden;
-- Furnace Tyrant;
-- Crownstorm Roc;
-- Matron Zevraya — Reservoir action-density correction;
-- Revision Arbiter;
-- Commander Rhazek → Bastion Devourer;
-- Emperor Vaelkor → Sovereign Panoply — lighter local climax-pressure pass than Rhazek.
-
-Current next action:
-> **First Command Warden local pressure correction under the ×1.20 global test floor.**
-
-Older v93–v102 true-battle reports remain valid historical measurements and mechanical-rule evidence, but old PASS/RETAIN difficulty verdicts are provisional wherever the revised mandatory-danger standard reopens the fight.
-
-Key v105 same-equipment mandatory snapshots under ×1.20:
-- First Command Warden Lv11 — ~0.13% any-KO: too safe;
-- Zevraya Lv24 — ~4.4–4.8% any-KO under current owner structure;
-- Rhazek Lv40 — ~0.45–0.5% any-KO: too safe;
-- Vaelkor Lv56 — ~6.8–7.0% any-KO: promising but still below the revised climax-danger target.
-
-Detailed working authority:
-- `../16_BALANCE_AND_TESTING/FOUR_POINT_BOSS_LEVEL_SENSITIVITY_v105.md`
-- `../90_WORKING/ACTIVE_WORK_QUEUE.md`
-
-## Priority 2 — Story-owned enemy placement / timing dependencies — DEFERRED
+## Priority 1 — Story-owned enemy placement / timing dependencies — DEFERRED
 Owner:
 Story/dialogue + `09_ENEMIES_AND_ENCOUNTERS`
 
@@ -47,7 +14,7 @@ Examples include:
 
 Exact G for any still-unplaced special authored encounter remains deferred until its owning scene role is finalized.
 
-## Priority 3 — Chapters 5–13 exact dialogue — OPEN
+## Priority 2 — Chapters 5–13 exact dialogue — OPEN
 Owner:
 Story/dialogue domains
 
@@ -60,7 +27,7 @@ Immediate dialogue work remains:
 
 Optional Side Quest / Character Quest exact dialogue remains open where not separately completed.
 
-## Priority 4 — Implementation reconciliation — OPEN
+## Priority 3 — Implementation reconciliation — OPEN
 Owner:
 `13_UI_AND_IMPLEMENTATION`
 
@@ -74,7 +41,7 @@ High-impact engineering work:
 - build production menus/combat UI/loadout UI/shop stock and Kessara UI;
 - preserve stable IDs or provide save-safe migration where technical names change.
 
-## Priority 5 — Visual production / style certification — ACTIVE
+## Priority 4 — Visual production / style certification — ACTIVE
 Owner:
 `14_ART_AND_VISUALS`
 
@@ -83,11 +50,11 @@ Current immediate gate:
 
 Do not bulk-convert the environment/material library until benchmark certification is complete and coherent at gameplay scale.
 
-## Priority 6 — Full production playtest / QA — LATER
+## Priority 5 — Full production playtest / QA — LATER
 Owner:
 `16_BALANCE_AND_TESTING`
 
-After the targeted balance and implementation passes:
+When the relevant implementation/content layers are ready:
 - campaign route playtests;
 - light / typical / heavy / completionist route playtests;
 - boss/Hunt/Elite regressions;
@@ -107,6 +74,13 @@ Current final soundtrack:
 
 ## Intentionally open story/lore details
 Keep explicitly bounded unknowns unresolved until separately approved, including the sole Entity-fragment survival mechanism and other owner-file items explicitly marked OPEN.
+
+## Retired work-routing note — mandatory enemy difficulty pass
+The former mandatory-route difficulty recalibration sequence is **not an active priority in this index anymore**.
+
+Historical v103–v105 sensitivity and true-battle reports may remain in `16_BALANCE_AND_TESTING` as evidence, but this index must not interpret them as a standing instruction to apply an ×1.20 global floor, retune First Command Warden next, or follow the former boss-local retune sequence.
+
+Future balance work follows the separately established current handling process or a new explicit revision.
 
 ## Closed stream — Core G economy / rewards
 Owner:
