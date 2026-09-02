@@ -11,27 +11,27 @@ unless a specific authored story state temporarily restricts access.
 
 ### Limited premium stock
 Reservoir Tonic, Emergency Kit, and Emergency Rally use a separate permanent rule:
-> **1 copy of each premium Consumable in every consumable-selling shop from that shop's first accessible state; no restock.**
+> **1 copy of each premium Consumable in every Consumable-selling shop from that shop's first accessible state; no restock.**
 
 They are purchasable from the beginning of the normal shop economy, but intentionally scarce and expensive.
 
 This means:
 - Chapter 0 still has no normal shop loop;
-- the first actual premium-shop opportunity begins with the first normal consumable shop access in Chapter 1;
-- every later consumable-selling commerce endpoint receives its own one-copy stock when that endpoint first becomes accessible.
+- the first actual premium-shop opportunity begins with the first normal Consumable shop access in Chapter 1;
+- every later Consumable-selling commerce endpoint receives its own one-copy stock when that endpoint first becomes accessible.
 
 ## Chapter 0 authored field issue
 Chapter 0 begins with:
-- **2,500 Auren**;
+- **2,500 G**;
 - **3 Field Salves** issued to Cyanis.
 
 Reliable normal purchasing still begins in Chapter 1.
 
 ## Premium prices
 The premium identities use:
-- **Emergency Kit — 8,000 Auren**
-- **Reservoir Tonic — 12,000 Auren**
-- **Emergency Rally — 15,000 Auren**
+- **Emergency Kit — 8,000 G**
+- **Reservoir Tonic — 12,000 G**
+- **Emergency Rally — 15,000 G**
 
 Their high prices are the main economic barrier early in the game; they are visible and purchasable when the player can afford them rather than being chapter-gated.
 
@@ -93,8 +93,8 @@ Guaranteed authored Reservoir Tonic / Emergency Kit pickups remain separate free
 
 ### Chapter 9
 Larkspire Regional Market introduces unlimited normal stock for:
-- Grand Salve — 2,250 HP / **2,400 Auren**
-- Highflow Tonic — **3,600 Auren** around this late-stock window
+- Grand Salve — 2,250 HP / **2,400 G**
+- Highflow Tonic — **3,600 G** around this late-stock window
 
 ### Chapter 10+
 No new unlimited normal-stock Consumable tier is required.
