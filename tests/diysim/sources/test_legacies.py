@@ -7,6 +7,9 @@ from tools.diysim.sources.legacies import (
     load_character_donor_legacy_access,
     load_character_legacy_package,
     load_donor_legacy_access,
+    load_legacy_character_project,
+    load_legacy_character_projects,
+    load_legacy_endgame_project_window,
     load_legacy_item,
     load_legacy_items,
     load_legacy_project_rules,
@@ -72,3 +75,33 @@ def test_legacy_project_rules_preserve_completion_and_uniqueness_requirements() 
     assert rules.requires_kessara
     assert rules.donor_requires_existing_item
     assert rules.unique_not_copied
+
+
+def test_character_keyed_project_sources_cover_quest_component_and_precursor_timing() -> None:
+    rows = load_legacy_character_projects()
+    assert len(rows) == 6
+    assert {row.character for row in rows} == {
+        "Cyanis",
+        "Ilyra",
+        "Torren",
+        "Nimera",
+        "Vaelira",
+        "Seyrik",
+    }
+    cyan = load_legacy_character_project("Cyanis")
+    assert cyan.quest == "The Weight of the Crest"
+    assert cyan.quest_unlock_after_chapter == 7
+    assert cyan.quest_component == "Cyanis Legacy Component"
+    assert cyan.precursor_earliest_chapter == 7
+    assert cyan.precursor_after_chapter
+    torren = load_legacy_character_project("Torren")
+    assert torren.quest_unlock_after_chapter == 10
+    assert torren.precursor_earliest_chapter == 11
+
+
+def test_endgame_project_window_avoids_stale_face_join_and_waits_for_all_gates() -> None:
+    window = load_legacy_endgame_project_window()
+    assert window.safe_completion_chapter == 12
+    assert window.legacy_gate_rows == 12
+    assert window.latest_legacy_gate_chapter == 12
+    assert window.last_supported_checkpoint == "ch13_last_shelter"
