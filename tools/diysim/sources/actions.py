@@ -12,6 +12,12 @@ from .repo import SourceGapError
 
 _FIXED_ELEMENTS = {"neutral", "colorless", "fire", "ice", "lightning", "earth", "ruin"}
 _NUMBER_WORDS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6}
+_CONDITIONAL_ELEMENT_RIDER_LINE = re.compile(
+    r"^\s*(?:[-*]\s*)?(?:\*\*)?(Fire|Ice|Lightning|Earth)(?:\*\*)?\s*[—-]\s*"
+    r"(?:\*\*)?\d+(?:\.\d+)?%\s+(?:base\s+)?"
+    r"(?:Burn|Freeze|Stun|Staggered|Bleed)(?:\*\*)?\s*$",
+    re.I,
+)
 
 
 @dataclass(frozen=True)
@@ -256,6 +262,31 @@ def _parse_hit_count(raw_text: str) -> tuple[int | None, int | None]:
     return None, None
 
 
+def _parse_status_chances(raw_text: str, *, omit_element_conditioned: bool = False) -> tuple[tuple[str, int], ...]:
+    """Parse unconditional status riders from an authored action block.
+
+    Dynamic-element actions sometimes include an element-to-status table in the
+    same block. Those rows describe runtime state, not four simultaneous static
+    riders, so omit only those explicitly element-labelled rows. A separate
+    direct rider such as ``20% Burn`` remains an unconditional rider.
+    """
+    scan_text = raw_text
+    if omit_element_conditioned:
+        scan_text = "\n".join(
+            line for line in raw_text.splitlines()
+            if not _CONDITIONAL_ELEMENT_RIDER_LINE.match(line)
+        )
+
+    statuses: list[tuple[str, int]] = []
+    for chance, status in re.findall(
+        r"(?:\*\*)?(\d+)%\s+(?:base\s+)?(Burn|Freeze|Stun|Staggered|Bleed)(?:\*\*)?",
+        scan_text,
+        re.I,
+    ):
+        statuses.append((status.lower(), int(chance)))
+    return tuple(statuses)
+
+
 def parse_authored_action_text(name: str, raw_text: str) -> AuthoredActionSource:
     damage_kind, element, element_mode, element_source, physical_weight, magical_weight = _parse_damage_identity(raw_text)
 
@@ -266,14 +297,6 @@ def parse_authored_action_text(name: str, raw_text: str) -> AuthoredActionSource
     )
     hit = re.search(r"\bBase Hit\s*:?\s*(?:\*\*)?(\d+)(?:\*\*)?", raw_text, re.I)
     weight = re.search(r"(?:\*\*)?(\d+)\s+weight(?:\*\*)?", raw_text, re.I)
-
-    statuses: list[tuple[str, int]] = []
-    for chance, status in re.findall(
-        r"(?:\*\*)?(\d+)%\s+(?:base\s+)?(Burn|Freeze|Stun|Staggered|Bleed)(?:\*\*)?",
-        raw_text,
-        re.I,
-    ):
-        statuses.append((status.lower(), int(chance)))
 
     power_value = None
     power_mode = None
@@ -300,7 +323,10 @@ def parse_authored_action_text(name: str, raw_text: str) -> AuthoredActionSource
         magical_weight=magical_weight,
         hit_count_min=hit_min,
         hit_count_max=hit_max,
-        status_chances=tuple(statuses),
+        status_chances=_parse_status_chances(
+            raw_text,
+            omit_element_conditioned=(element_mode == "dynamic"),
+        ),
     )
 
 
