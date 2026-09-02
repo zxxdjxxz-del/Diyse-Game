@@ -1,11 +1,7 @@
 # 01_CHARACTERS
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Character-authority inputs:** compatible character/chronology overlays, current approved dialogue/story evidence, newer Face/Class corrections, and the newest explicit user corrections.  
-**Domain rule:** this folder owns character identity, biography, chronology, personality, relationship logic, and concise voice direction. Exact class mechanics live in `06_CLASSES_AND_ABILITIES`; Card/Prime mechanics in `07_CARDS`; detailed art specifications in `14_ART_AND_VISUALS`; exact dialogue scripts in `03_DIALOGUE`.
 
-
-This folder is the canonical character-information layer.
+**Status:** ACTIVE CHARACTER-INFORMATION AUTHORITY  
+**Domain rule:** this folder owns character identity, biography, chronology, personality, relationship logic, recruitment/party status, character-arc anchors, and concise voice direction.
 
 ## What belongs here
 - identity and role;
@@ -19,21 +15,38 @@ This folder is the canonical character-information layer.
 - current character-arc anchors.
 
 ## What does not belong here
-- Ability numbers, Traits, Masteries, equipment permissions → `06_CLASSES_AND_ABILITIES`
+- Ability numbers, Traits, Masteries, exact class mechanics → `06_CLASSES_AND_ABILITIES`
 - Card/Prime command details → `07_CARDS`
 - equipment stats → `08_ITEMS_AND_EQUIPMENT`
 - boss raw stats → `09_ENEMIES_AND_ENCOUNTERS`
 - full scene/dialogue scripts → `03_DIALOGUE`
-- exact visual turnarounds/color specifications → `14_ART_AND_VISUALS`
+- exact visual appearance/turnarounds/color specifications → `14_ART_AND_VISUALS`
 
 ## Permanent playable roster
 Exactly six:
-1. Cyanis Dovaren
-2. Ilyra Amarin
-3. Torren Harth
-4. Nimera Pellan
-5. Vaelira Serren
-6. Seyrik Rell
+1. Cyanis
+2. Ilyra
+3. Torren
+4. Nimera
+5. Vaelira
+6. Seyrik
 
-Maevra is recurring/temporary/guest where authored.
-Kessara is a major recurring **nonplayable** supporting character.
+Current files:
+- `PLAYABLE/Cyanis.md`
+- `PLAYABLE/Ilyra.md`
+- `PLAYABLE/Torren.md`
+- `PLAYABLE/Nimera.md`
+- `PLAYABLE/Vaelira.md`
+- `PLAYABLE/Seyrik.md`
+
+Do **not** infer or restore surnames for the permanent six from superseded migration files.
+
+Maevra is recurring/temporary/guest where authored and is never a seventh permanent member. Kessara is a major recurring **nonplayable** supporting character. Their current files are `SUPPORTING/Maevra.md` and `SUPPORTING/Kessara.md`; do not restore retired migration surnames for them either.
+
+## Cross-domain current authority
+- roster/name/biography authority: this folder;
+- exact class mechanics: `06_CLASSES_AND_ABILITIES`;
+- Face/Card/Prime mechanics: `07_CARDS`;
+- exact current visual masters: `14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md` and `asset_sources/characters/current/`.
+
+When stale migration text conflicts with a newer explicit correction, preserve compatible character truth but replace the stale name/system label. See `CHARACTER_AUTHORITY_BOUNDARIES.md`.
