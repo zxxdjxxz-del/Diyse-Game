@@ -89,6 +89,11 @@ class CombatAction:
     status_riders: tuple[StatusRider, ...] = ()
     temporary_modifiers: tuple[TemporaryModifierSpec, ...] = ()
     weight: float | None = None
+    hit_count: int = 1
+
+    def __post_init__(self) -> None:
+        if self.hit_count < 1:
+            raise ValueError("hit_count must be at least 1")
 
 
 @dataclass(frozen=True)
