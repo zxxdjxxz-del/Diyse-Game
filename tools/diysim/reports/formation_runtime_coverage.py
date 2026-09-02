@@ -3,19 +3,23 @@ from __future__ import annotations
 
 from collections import Counter, defaultdict
 from pathlib import Path
-import re
 
-from tools.diysim.encounters.formation_catalog import build_formation_catalog
+from tools.diysim.encounters.formation_catalog import (
+    build_formation_catalog,
+    discover_formation_paths,
+    formation_chapter_number,
+)
 
 NUMBERED_CHAPTERS = tuple(range(14))
 
 
 def _chapter_key(source_path: str) -> str:
-    match = re.search(r"CHAPTER_(\d+)_FORMATIONS\.md$", source_path)
-    return str(int(match.group(1))) if match else Path(source_path).stem
+    chapter = formation_chapter_number(source_path)
+    return str(chapter) if chapter is not None else Path(source_path).stem
 
 
 def formation_runtime_coverage_dict(*, root: Path | None = None, include_formations: bool = True) -> dict[str, object]:
+    formation_paths = discover_formation_paths(root=root)
     formations = build_formation_catalog(root=root)
     ready = [formation for formation in formations if formation.runtime_ready]
     blocked = [formation for formation in formations if not formation.runtime_ready]
@@ -26,12 +30,15 @@ def formation_runtime_coverage_dict(*, root: Path | None = None, include_formati
     for chapter in NUMBERED_CHAPTERS:
         by_chapter[str(chapter)]
 
-    source_chapters = sorted(
-        {_chapter_key(formation.source_path) for formation in formations},
-        key=lambda value: int(value) if value.isdigit() else 999,
-    )
+    # Source coverage is a property of discovered owner files, not of whether a
+    # table inside a discovered file happened to parse into one or more rows.
+    source_chapters = sorted({
+        chapter
+        for path in formation_paths
+        if (chapter := formation_chapter_number(path)) is not None
+    })
     chapters_without_formation_source = [
-        str(chapter) for chapter in NUMBERED_CHAPTERS if str(chapter) not in source_chapters
+        str(chapter) for chapter in NUMBERED_CHAPTERS if chapter not in source_chapters
     ]
 
     unresolved_labels = Counter()
@@ -56,7 +63,7 @@ def formation_runtime_coverage_dict(*, root: Path | None = None, include_formati
         "runtime_ready": len(ready),
         "blocked": len(blocked),
         "coverage_rate": len(ready) / len(formations) if formations else 1.0,
-        "formation_source_chapters": source_chapters,
+        "formation_source_chapters": [str(chapter) for chapter in source_chapters],
         "chapters_without_formation_source": chapters_without_formation_source,
         "unresolved_owner_labels": dict(sorted(unresolved_labels.items())),
         "blocked_member_runtimes": dict(sorted(blocked_members.items())),
