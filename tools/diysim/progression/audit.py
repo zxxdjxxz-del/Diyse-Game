@@ -6,6 +6,8 @@ from pathlib import Path
 
 from ..sources.campaign_progression import (
     CAMPAIGN_LEVEL_SPINE_PATH,
+    CharacterCampaignSource,
+    load_campaign_checkpoint,
     load_campaign_level_targets,
     load_character_campaign_sources,
 )
@@ -14,7 +16,9 @@ from ..sources.equipment_availability import STARTING_LOADOUTS_PATH, load_guaran
 from .loadouts import (
     ProgressionAssumption,
     ProgressionSourceGap,
+    ResolvedLoadout,
     resolve_loadout,
+    resolve_loadout_at_checkpoint,
 )
 from .stats import Stats, natural_stats
 
@@ -129,29 +133,18 @@ def _checkpoint_level(
     return target.level, target.label, gaps, paths
 
 
-def audit_character_checkpoint(
-    character: str,
-    chapter: int,
-    assumption: ProgressionAssumption = "mandatory",
+def _build_character_audit(
     *,
-    root: Path | None = None,
+    campaign: CharacterCampaignSource,
+    chapter: int,
+    checkpoint: str,
+    assumption: ProgressionAssumption,
+    level: int | None,
+    loadout: ResolvedLoadout,
+    level_gaps: list[ProgressionSourceGap],
+    level_paths: list[str],
+    root: Path | None,
 ) -> CharacterLoadoutAudit:
-    """Calculate a source-backed character snapshot and expose every unresolved assumption."""
-    campaign_sources = {
-        row.character: row for row in load_character_campaign_sources(root=root)
-    }
-    campaign = campaign_sources.get(character)
-    if campaign is None:
-        raise KeyError(f"Unknown permanent character in campaign authority: {character}")
-
-    loadout = resolve_loadout(character, chapter, assumption, root=root)
-    level, checkpoint, level_gaps, level_paths = _checkpoint_level(
-        character,
-        chapter,
-        assumption,
-        root=root,
-    )
-
     class_name: str | None = campaign.base_class
     class_gaps: list[ProgressionSourceGap] = []
     class_paths = [campaign.class_source_path]
@@ -202,7 +195,7 @@ def audit_character_checkpoint(
         chapter=chapter,
         checkpoint=checkpoint,
         assumption=assumption,
-        character=character,
+        character=campaign.character,
         level=level,
         class_name=class_name,
         weapon=loadout.weapon,
@@ -217,6 +210,87 @@ def audit_character_checkpoint(
     )
 
 
+def audit_character_checkpoint(
+    character: str,
+    chapter: int,
+    assumption: ProgressionAssumption = "mandatory",
+    *,
+    root: Path | None = None,
+) -> CharacterLoadoutAudit:
+    """Calculate a source-backed end-of-chapter character snapshot."""
+    campaign_sources = {
+        row.character: row for row in load_character_campaign_sources(root=root)
+    }
+    campaign = campaign_sources.get(character)
+    if campaign is None:
+        raise KeyError(f"Unknown permanent character in campaign authority: {character}")
+
+    loadout = resolve_loadout(character, chapter, assumption, root=root)
+    level, checkpoint, level_gaps, level_paths = _checkpoint_level(
+        character,
+        chapter,
+        assumption,
+        root=root,
+    )
+    return _build_character_audit(
+        campaign=campaign,
+        chapter=chapter,
+        checkpoint=checkpoint,
+        assumption=assumption,
+        level=level,
+        loadout=loadout,
+        level_gaps=level_gaps,
+        level_paths=level_paths,
+        root=root,
+    )
+
+
+def audit_character_named_checkpoint(
+    character: str,
+    checkpoint_key: str,
+    assumption: ProgressionAssumption = "mandatory",
+    *,
+    root: Path | None = None,
+) -> CharacterLoadoutAudit:
+    """Audit one exact named campaign checkpoint from current repository authority."""
+    campaign_sources = {
+        row.character: row for row in load_character_campaign_sources(root=root)
+    }
+    campaign = campaign_sources.get(character)
+    if campaign is None:
+        raise KeyError(f"Unknown permanent character in campaign authority: {character}")
+
+    checkpoint = load_campaign_checkpoint(checkpoint_key, root=root)
+    loadout = resolve_loadout_at_checkpoint(
+        character,
+        checkpoint.key,
+        assumption,
+        root=root,
+    )
+    level_gaps: list[ProgressionSourceGap] = []
+    if assumption != "mandatory":
+        level_gaps.append(
+            ProgressionSourceGap(
+                "route_specific_level_target_missing",
+                f"{assumption} has no distinct named-checkpoint level target; using the "
+                "published campaign-only target as a source-backed floor.",
+                checkpoint.source_path,
+            )
+        )
+
+    return _build_character_audit(
+        campaign=campaign,
+        chapter=checkpoint.chapter,
+        checkpoint=checkpoint.label,
+        assumption=assumption,
+        level=checkpoint.level,
+        loadout=loadout,
+        level_gaps=level_gaps,
+        level_paths=[checkpoint.source_path],
+        root=root,
+    )
+
+
 def audit_campaign_checkpoint(
     chapter: int,
     assumption: ProgressionAssumption = "mandatory",
@@ -227,6 +301,20 @@ def audit_campaign_checkpoint(
         audit_character_checkpoint(row.character, chapter, assumption, root=root)
         for row in load_character_campaign_sources(root=root)
         if row.recruitment_chapter <= chapter
+    )
+
+
+def audit_campaign_named_checkpoint(
+    checkpoint_key: str,
+    assumption: ProgressionAssumption = "mandatory",
+    *,
+    root: Path | None = None,
+) -> tuple[CharacterLoadoutAudit, ...]:
+    checkpoint = load_campaign_checkpoint(checkpoint_key, root=root)
+    return tuple(
+        audit_character_named_checkpoint(row.character, checkpoint.key, assumption, root=root)
+        for row in load_character_campaign_sources(root=root)
+        if row.recruitment_chapter <= checkpoint.chapter
     )
 
 
@@ -249,5 +337,7 @@ __all__ = [
     "CharacterLoadoutAudit",
     "audit_campaign",
     "audit_campaign_checkpoint",
+    "audit_campaign_named_checkpoint",
     "audit_character_checkpoint",
+    "audit_character_named_checkpoint",
 ]
