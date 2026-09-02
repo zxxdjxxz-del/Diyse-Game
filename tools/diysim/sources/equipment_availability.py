@@ -6,7 +6,7 @@ from functools import lru_cache
 from pathlib import Path
 import re
 
-from .equipment import load_equipment_register
+from .equipment import load_equipment
 from .markdown import find_markdown_table
 from .repo import SourceGapError, find_repo_root, read_repo_text
 
@@ -52,7 +52,6 @@ def _load_guaranteed(root_string: str) -> tuple[GuaranteedLoadoutSource, ...]:
     text = read_repo_text(STARTING_LOADOUTS_PATH, root=root)
     heading_matches = list(re.finditer(r"^## Chapter (\d+) — (.+?)\s*$", text, re.M))
     rows: list[GuaranteedLoadoutSource] = []
-    equipment = load_equipment_register(root=root)
 
     for index, match in enumerate(heading_matches):
         end = heading_matches[index + 1].start() if index + 1 < len(heading_matches) else len(text)
@@ -67,10 +66,13 @@ def _load_guaranteed(root_string: str) -> tuple[GuaranteedLoadoutSource, ...]:
         if not any((weapon, armor, secondary)):
             continue
         for name in (weapon, armor, secondary):
-            if name and name not in equipment:
-                raise SourceGapError(
-                    f"{STARTING_LOADOUTS_PATH} references unknown equipment: {name}"
-                )
+            if name:
+                try:
+                    load_equipment(name, root=root)
+                except SourceGapError as exc:
+                    raise SourceGapError(
+                        f"{STARTING_LOADOUTS_PATH} references unknown equipment: {name}"
+                    ) from exc
         rows.append(
             GuaranteedLoadoutSource(
                 character=character,
@@ -103,16 +105,16 @@ def _load_weapon_availability(root_string: str) -> tuple[EquipmentAvailabilitySo
         text,
         ("Character", "Equipment", "First availability"),
     )
-    equipment = load_equipment_register(root=root)
     rows: list[EquipmentAvailabilitySource] = []
 
     for row in table:
         name = row["Equipment"]
-        item = equipment.get(name)
-        if item is None:
+        try:
+            item = load_equipment(name, root=root)
+        except SourceGapError as exc:
             raise SourceGapError(
                 f"{ORDINARY_WEAPONS_PATH} references unknown equipment: {name}"
-            )
+            ) from exc
         if item.layer.lower() != "ordinary":
             raise SourceGapError(
                 f"{ORDINARY_WEAPONS_PATH} contains non-ordinary equipment: {name}"
