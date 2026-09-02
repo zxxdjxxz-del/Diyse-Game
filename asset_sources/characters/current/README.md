@@ -13,10 +13,11 @@ These files are source/reference masters, not runtime deployable assets. Derived
 - `ilyra.jpg`
 - `seyrik.jpg`
 - `maevra.jpg`
+- `kessara.png`
 
 Canonical filenames use the characters' actual names only. No surnames are added.
 
-The supplied master uploads use `.png` filenames externally but contain JPEG/JFIF image data, so the canonical repository filenames use the `.jpg` extension without re-encoding.
+The seven original supplied master uploads use `.png` filenames externally but contain JPEG/JFIF image data, so their canonical repository filenames use the `.jpg` extension without re-encoding. Kessara's current master is a native PNG and remains `kessara.png`.
 
 ## Integrity fingerprints for the 2026-09-02 master set
 
@@ -27,3 +28,5 @@ The supplied master uploads use `.png` filenames externally but contain JPEG/JFI
 - `ilyra.jpg` — SHA-256 `46dbfd2783d9aa3da04209b0938122517cb0bd2077b6da809fe3da50aa7dd358`
 - `seyrik.jpg` — SHA-256 `51aca401cfd41b9d6f042c57f9850b70eb9ddcde2a43510e7bee6d44b7f57f23`
 - `maevra.jpg` — SHA-256 `9e2b3affd3c208f7dd9e9568ed46da8faf194a98c0a6936e8d6b412f0d452c94`
+
+Kessara was added directly to the repository as the approved native PNG master. Its repository blob SHA is `c773505a1b031788849588a38e677dcc09727108`; a SHA-256 source fingerprint can be added later if the exact source bytes are available locally for verification.
