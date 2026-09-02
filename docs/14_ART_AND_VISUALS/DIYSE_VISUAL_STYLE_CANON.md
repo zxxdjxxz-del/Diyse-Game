@@ -2,11 +2,12 @@
 
 **Status:** ACTIVE VISUAL STYLE AUTHORITY  
 **Locked:** 2026-08-31  
-**Style name:** **Seinen HD-2D Fantasy with Chaotic Variable Line Weight**
+**Style name:** **Seinen HD-2D Fantasy with Chaotic Variable Line Weight**  
+**Current character identity authority:** `PRODUCTION/CHARACTERS/README.md`
 
-This document defines the shared visual language for characters, enemies, environments, textures, props, VFX, UI, portraits, field/battle derivatives, and future asset-conversion work.
+This document defines the shared visual language for characters, enemies, environments, textures, props, VFX, UI, portraits, field/battle presentation, and future asset-conversion work.
 
-It does not replace exact approved character or location appearance authorities. Exact approved visual masters still control identity, clothing/equipment, silhouette, age read, palette, and other locked design details. This document controls **how those designs are rendered and visually unified**.
+It does not replace exact approved character or location appearance authorities. For current characters, the repository masters and authority order in `PRODUCTION/CHARACTERS/README.md` control identity, clothing/equipment, body proportions, silhouette, age read, palette, and other locked design details. This document controls **how those designs are rendered and visually unified**.
 
 ---
 
@@ -67,7 +68,7 @@ Character hierarchy:
 Environment hierarchy:
 Use selective line accents on silhouette breaks, masonry damage, timber joints, roots/branches, rock fractures, foliage clumps, focal prop edges, foreground occluders, and important interactables. Do **not** outline every tile, brick, leaf, board, or background edge.
 
-At smaller field scale, preserve the **rhythm** of the line style rather than every stroke.
+At smaller gameplay scale, preserve the **rhythm** of the line style rather than every stroke.
 
 ---
 
@@ -80,6 +81,8 @@ At smaller field scale, preserve the **rhythm** of the line style rather than ev
 - no universal oversized childlike eyes;
 - restrained expressions and mature facial planes;
 - no glossy perfect-doll finish.
+
+Exact character-specific face and body proportions come from the current repository master, not from a generic style template.
 
 ### Hair
 - large recognizable masses first;
@@ -252,13 +255,24 @@ See `PRODUCTION/ASSET_STYLE_CONVERSION_PIPELINE.md`.
 ## 14. Scale-Specific Application
 
 ### High-resolution character masters / portraits
-Full chaotic variable-line language, precise facial marks, graphic cel-informed rendering, and clean material separation.
+Use the full chaotic variable-line language, precise facial marks, graphic cel-informed rendering, clean material separation, and the exact character identity established by the current repository master.
 
-### Battle characters (~200–220 px target)
-Preserve silhouette, major thick/thin line rhythm, weapon/class identity, strong shadow shapes, and essential costume divisions. Remove micro-line noise that aliases.
+### Primary field and battle characters — rigged 3D
+Diyse's active B00 runtime direction uses rigged 3D character models rather than mandatory dedicated battle/field sprite redraws. Preserve:
+- exact master-controlled identity and body proportions;
+- major silhouette and outer-garment masses;
+- weapon/class or signature-prop identity;
+- hair/head silhouette;
+- dominant palette blocks;
+- major clothing/armor/material divisions;
+- variable/irregular outline rhythm translated appropriately into real-time rendering.
 
-### Field characters (~80 px target)
-Preserve silhouette, palette blocks, face/hair read, iconic equipment, and a few deliberately heavy line accents.
+At farther camera distances, simplify through mesh/material LOD, outline tuning, secondary-motion budgets, and authored screen-space treatment. Do not create a second character identity merely to make the model readable.
+
+The former approximately 200–220 px battle and ~80 px field targets are retired as required production gates. See `PRODUCTION/BENCHMARKS/B00_RIGGED_MODEL_RUNTIME_VALIDATION_V1.md` and `PRODUCTION/CHARACTER_SCALE_AND_SILHOUETTE.md`.
+
+### Optional 2D runtime derivatives
+If a later approved feature deliberately uses 2D field/battle derivatives, preserve silhouette, palette blocks, face/hair read, iconic equipment, and a few strong line accents while removing microdetail that aliases. Such derivatives remain subordinate to the current repository master and are not the default B00 runtime plan.
 
 ### Environment backgrounds
 Graphic shape/value design first, selective ink second. Strongest marks near focal/foreground areas.
@@ -274,10 +288,10 @@ A candidate passes only if the relevant answers are yes.
 
 Character:
 - mature/seinen rather than cute/chibi?
-- visibly variable line weight?
+- visibly variable line weight or an appropriate runtime translation of that rhythm?
 - intentional taper/break/density changes?
 - readable silhouette?
-- approved face/identity retained?
+- current approved face/identity retained?
 - graphic cel-informed values rather than soft brushed shading?
 - no glossy/plastic finish?
 
@@ -306,7 +320,7 @@ VFX:
 Overall:
 - handcrafted and intentional?
 - dramatic and atmospheric?
-- looks like the same game as the approved party masters?
+- looks like the same game as the current approved party masters?
 - unmistakably closer to Diyse than to a generic fantasy asset pack?
 
 ---
