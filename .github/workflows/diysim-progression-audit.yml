@@ -6,6 +6,7 @@ on:
       - tooling/diysim-phase1
     paths:
       - "tools/diysim/progression/**"
+      - "tools/diysim/sources/__init__.py"
       - "tools/diysim/sources/audit.py"
       - "tools/diysim/sources/equipment.py"
       - "tools/diysim/sources/equipment_availability.py"
@@ -23,6 +24,7 @@ on:
       - "docs/06_CLASSES_AND_ABILITIES/**"
       - "docs/08_ITEMS_AND_EQUIPMENT/**"
       - "docs/10_PROGRESSION_AND_EXP/**"
+      - "docs/11_QUESTS/CHARACTER_QUESTS/**"
       - "docs/12_ECONOMY_AND_REWARDS/**"
       - ".github/workflows/diysim-progression-audit.yml"
   workflow_dispatch:
