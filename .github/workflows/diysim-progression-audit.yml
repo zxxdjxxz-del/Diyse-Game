@@ -1,0 +1,74 @@
+name: DiySim Progression Audit
+
+on:
+  push:
+    branches:
+      - tooling/diysim-phase1
+    paths:
+      - "tools/diysim/progression/**"
+      - "tools/diysim/sources/equipment.py"
+      - "tools/diysim/sources/equipment_availability.py"
+      - "tools/diysim/sources/campaign_progression.py"
+      - "tools/diysim/cli.py"
+      - "tests/diysim/progression/**"
+      - "docs/06_CLASSES_AND_ABILITIES/**"
+      - "docs/08_ITEMS_AND_EQUIPMENT/**"
+      - "docs/10_PROGRESSION_AND_EXP/**"
+      - "docs/12_ECONOMY_AND_REWARDS/**"
+      - ".github/workflows/diysim-progression-audit.yml"
+  workflow_dispatch:
+
+jobs:
+  progression_audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install test dependency
+        run: python -m pip install --upgrade pytest
+
+      - name: Test progression/loadout source resolution
+        run: python -m pytest -q tests/diysim/progression/test_loadout_audit.py tests/diysim/progression/test_loadout_cli.py
+
+      - name: Generate chapter-by-chapter audit tables
+        run: |
+          mkdir -p artifacts/progression-audit
+          for route in mandatory expected best_available; do
+            python -m tools.diysim.cli progression-audit --route "$route" --format json > "artifacts/progression-audit/progression_audit_${route}.json"
+            python -m tools.diysim.cli progression-audit --route "$route" --format csv > "artifacts/progression-audit/progression_audit_${route}.csv"
+            python -m tools.diysim.cli progression-audit --route "$route" --format markdown > "artifacts/progression-audit/progression_audit_${route}.md"
+          done
+
+      - name: Generate source-gap summary
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+          from tools.diysim.progression import audit_campaign
+
+          output = {}
+          for route in ("mandatory", "expected", "best_available"):
+              rows = audit_campaign(route)
+              gaps = Counter(gap.code for row in rows for gap in row.source_gaps)
+              output[route] = {
+                  "rows": len(rows),
+                  "stats_calculated": sum(row.stats is not None for row in rows),
+                  "authority_complete": sum(row.authority_complete for row in rows),
+                  "source_gap_counts": dict(sorted(gaps.items())),
+              }
+
+          path = Path("artifacts/progression-audit/progression_audit_summary.json")
+          path.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+          print(json.dumps(output, indent=2, sort_keys=True))
+          PY
+
+      - name: Upload progression audit artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: diysim-progression-audit
+          path: artifacts/progression-audit/*
