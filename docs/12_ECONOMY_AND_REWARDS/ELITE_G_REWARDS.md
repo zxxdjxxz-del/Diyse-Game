@@ -1,27 +1,52 @@
 # Diyse — Optional Elite G Rewards
 
-**Status:** ELITE REWARD STRUCTURE CURRENT / EXACT G VALUES REOPENED FOR RECALIBRATION
-
-This file replaces the former `ELITE_AUREN_REWARDS.md` current-facing authority.
+**Status:** EXACT OPTIONAL-ELITE G AUTHORITY
 
 ## Currency
 Optional Elite cash rewards use:
 > **G**
 
-## Current rules
-- Optional Elites should feel economically worthwhile without becoming mandatory for baseline story solvency.
-- A listed Elite reward is granted once on first clear unless a future repeatable rule explicitly says otherwise.
-- Temporary/summoned support bodies do not generate separate G by default.
-- Permanent item rewards do **not** automatically justify making an Elite's G payout trivial.
-- Protected/nonlethal resolution may award G; survival, withdrawal, capture, restraint, or disengagement is not a zero-payout rule.
+## Reward rule
+Optional Elites should feel economically worthwhile without becoming mandatory for baseline story solvency.
 
-## Chapter 0 correction
-The Ruin Vanguard Pursuer is protected and retreats alive, but the prior automatic **0-currency** rule is retired.
+A listed Elite reward is granted once on first clear unless a future repeatable rule explicitly says otherwise.
+Temporary/summoned support bodies do not generate separate G by default.
 
-Its exact G payout will be authored in the active recalibration together with the rest of the Elite curve.
+## Exact payouts
+| Ch | Optional Elite | G | Reward-budget note |
+|---:|---|---:|---|
+| 1 | **Watch Captain Frame** | **700 G** | early optional challenge |
+| 2 | **Archive Duplicant** | **1,000 G** | standard Elite cash package |
+| 3 | **Grand Inquisitor Frame** | **1,400 G** | standard Elite cash package |
+| 4 | **Annex Duelist** | **1,800 G** | standard Elite cash package |
+| 5 | **Ruin Forgemaster** | **2,200 G** | standard Elite cash package |
+| 6 | **Crimson Progenitor** | **2,600 G** | standard Elite cash package |
+| 7 | **First Registrar's Shade** | **3,200 G** | standard Elite cash package |
+| 8 | **Conqueror Legate** | **3,800 G** | standard Elite cash package |
+| 9 | **Ruin Breach Captain** | **3,200 G** | retains its existing authored package |
+| 11 | **Perfect Administrator** | **5,600 G** | standard late-game Elite cash package |
+| 12 | **Lord-Marshal Kharvek** | **6,400 G** | standard late-game Elite cash package |
+| 13 | **Devourer of Names** | **7,000 G** | final-act Elite cash package |
 
-## Numeric status
-The former exact Elite amounts and old total are not current numeric authority. Recalculate them against:
-- the tenfold displayed G scale;
-- the ~650,000 G completionist direct-cash target;
-- the revised protected/nonlethal payout rule.
+## Chapter 10
+Current Chapter 10 intentionally has **no approved optional Elite**. Do not invent one for economy symmetry.
+
+## Chapter 0 classification
+The Ruin Vanguard Pursuer is a mandatory protected tutorial/structural encounter, not a numbered-chapter optional Elite reward source.
+
+Its event-resolution payout is authored in `ENEMY_REWARD_HANDOFF.md`:
+> **300 G**
+
+Therefore its Elite-layer payout is:
+> **0 additional G**
+
+This prevents double-counting while preserving the new protected/nonlethal payout rule.
+
+## Full optional-Elite cash budget
+Clearing all 12 numbered-chapter optional Elites yields:
+> **38,900 G**
+
+This is meaningful optional wealth but does not replace the normal story-route economy.
+
+## No duplicate bounty rule
+Temporary/summoned support bodies within an Elite encounter grant no additional G unless explicitly authored. The listed encounter reward already prices the complete fight.
