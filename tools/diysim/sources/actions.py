@@ -12,6 +12,8 @@ from .repo import SourceGapError
 
 _FIXED_ELEMENTS = {"neutral", "colorless", "fire", "ice", "lightning", "earth", "ruin"}
 _NUMBER_WORDS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6}
+_COUNT_TOKEN = r"\d+|one|two|three|four|five|six"
+_MULTIPLIED_POWER = re.compile(r"\b(\d+)\s*[×x]\s*(\d+)\s+Power\b", re.I)
 _CONDITIONAL_ELEMENT_RIDER_LINE = re.compile(
     r"^\s*(?:[-*]\s*)?(?:\*\*)?(Fire|Ice|Lightning|Earth)(?:\*\*)?\s*[—-]\s*"
     r"(?:\*\*)?\d+(?:\.\d+)?%\s+(?:base\s+)?"
@@ -50,6 +52,12 @@ class AuthoredActionSource:
     @property
     def is_multihit(self) -> bool:
         return (self.hit_count_max or 1) > 1
+
+    @property
+    def fixed_hit_count(self) -> int | None:
+        if self.hit_count_min is None or self.hit_count_max is None:
+            return None
+        return self.hit_count_min if self.hit_count_min == self.hit_count_max else None
 
     def missing(self, *fields: str) -> tuple[str, ...]:
         return tuple(field for field in fields if getattr(self, field) is None)
@@ -242,22 +250,48 @@ def _parse_target_scope(raw_text: str) -> str | None:
     return None
 
 
+def _count_value(token: str) -> int:
+    lowered = token.lower()
+    return int(lowered) if lowered.isdigit() else _NUMBER_WORDS[lowered]
+
+
 def _parse_hit_count(raw_text: str) -> tuple[int | None, int | None]:
-    exact = re.search(r"\b(\d+)\s*[×x]\s*\d+\s+Power", raw_text, re.I)
-    if exact:
-        count = int(exact.group(1))
+    multiplied = _MULTIPLIED_POWER.search(raw_text)
+    if multiplied:
+        count = int(multiplied.group(1))
         return count, count
 
-    up_to = re.search(r"\bup to\s+(\d+|one|two|three|four|five|six)\s+(?:Physical|Magical|Hybrid)?\s*hits?\b", raw_text, re.I)
-    if up_to:
-        token = up_to.group(1).lower()
-        maximum = int(token) if token.isdigit() else _NUMBER_WORDS[token]
-        return 1, maximum
+    ranged = re.search(
+        rf"\b({_COUNT_TOKEN})\s*[-–—]\s*({_COUNT_TOKEN})\s+"
+        r"(?:(?:Physical|Magical|Hybrid)\s+)?(?:hits?|attacks?)\b",
+        raw_text,
+        re.I,
+    )
+    if ranged:
+        minimum = _count_value(ranged.group(1))
+        maximum = _count_value(ranged.group(2))
+        return (minimum, maximum) if minimum <= maximum else (maximum, minimum)
 
-    exact_words = re.search(r"\b(\d+|one|two|three|four|five|six)\s+(?:Physical|Magical|Hybrid)\s+hits?\b", raw_text, re.I)
-    if exact_words:
-        token = exact_words.group(1).lower()
-        count = int(token) if token.isdigit() else _NUMBER_WORDS[token]
+    up_to = re.search(
+        rf"\bup to\s+({_COUNT_TOKEN})\s+(?:(?:Physical|Magical|Hybrid)\s+)?(?:hits?|attacks?)\b",
+        raw_text,
+        re.I,
+    )
+    if up_to:
+        return 1, _count_value(up_to.group(1))
+
+    exact_times = re.search(rf"\bhits?\s+({_COUNT_TOKEN})\s+times\b", raw_text, re.I)
+    if exact_times:
+        count = _count_value(exact_times.group(1))
+        return count, count
+
+    exact = re.search(
+        rf"\b({_COUNT_TOKEN})\s+(?:(?:Physical|Magical|Hybrid)\s+)?(?:hits?|attacks?)\b",
+        raw_text,
+        re.I,
+    )
+    if exact:
+        count = _count_value(exact.group(1))
         return count, count
     return None, None
 
@@ -304,6 +338,12 @@ def parse_authored_action_text(name: str, raw_text: str) -> AuthoredActionSource
         power_value = int(power.group(1) or power.group(2))
         suffix = power.group(3)
         power_mode = f"per_{suffix.lower()}" if suffix else "action"
+
+    multiplied_power = _MULTIPLIED_POWER.search(raw_text)
+    if multiplied_power:
+        # ``N × P Power`` explicitly defines P for each of N sequential hits.
+        power_value = int(multiplied_power.group(2))
+        power_mode = "per_hit"
 
     hit_min, hit_max = _parse_hit_count(raw_text)
 
