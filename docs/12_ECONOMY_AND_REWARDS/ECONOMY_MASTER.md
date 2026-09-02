@@ -1,6 +1,6 @@
 # Diyse — Economy Master
 
-**Status:** CURRENT ECONOMY STRUCTURE / PAYOUT RECALIBRATION ACTIVE
+**Status:** CORE ECONOMY DESIGN / G CALIBRATION CLOSED
 
 **Domain rule:** `12_ECONOMY_AND_REWARDS` owns G denomination, purchase/replacement prices, sell rules, stock progression, commerce endpoint roles, reward-value/scarcity rules, and non-EXP reward handoffs. Item definitions remain in `08`; enemy bodies remain in `09`; EXP/CEXP remain in `10`; quest structure remains in `11`.
 
@@ -16,11 +16,6 @@ Current display scale:
 Starting wallet:
 > **2,500 G**
 
-Current completionist direct-cash target:
-> **roughly 650,000 G**
-
-The older ~49.5k direct-cash calibration is retired and must not be restored as current authority.
-
 ## Design objective
 The economy should support:
 - routine field maintenance without punishment;
@@ -30,22 +25,74 @@ The economy should support:
 - subclass experimentation without forcing the player to preserve every starting item forever.
 
 The intended checkpoint pressure remains:
-> **one meaningful ordinary equipment purchase + routine consumable restock should usually be affordable without exhausting all funds.**
+> **one meaningful ordinary equipment purchase + routine Consumable restock should usually be affordable without exhausting all funds.**
 
 Buying every available upgrade immediately is not the baseline expectation.
 
-## Current payout-recalibration requirements
-The next numeric pass must preserve all of these user-directed corrections:
-1. all current-facing currency values use **G**;
-2. the displayed economy keeps the extra digit / tenfold presentation scale;
-3. protected and nonlethal resolved encounters receive G rather than defaulting to zero;
-4. Hunts give a strong G payout regardless of their separate Prime, Forge Component, item, or other reward;
-5. broad completionist direct cash should land around **650,000 G**;
-6. baseline story solvency must remain independent of optional content or repetitive grinding.
+## Mandatory-route calibration
+Current expected direct G:
+> **approximately 316,900 G**
 
-Existing older payout tables remain useful structural references but are not final numeric authority where they conflict with these requirements.
+Composition:
+- starting wallet: **2,500 G**;
+- ordinary Chapter 1–13 formations: **~135,600 G**;
+- mandatory story bosses / named encounters: **92,700 G**;
+- fixed authored combat/event payouts: **5,300 G**;
+- mandatory non-battle reward map: **80,800 G**.
 
-## Consumables
+Ordinary formations therefore contribute approximately:
+> **42.8%**
+
+of the calibrated mandatory-route direct G, preserving the intended **40–50%** ordinary-encounter share.
+
+Protected/nonlethal resolution is included in the current economy and does **not** default to zero G.
+
+## Optional direct-G layer
+Current optional direct G if all authored activities are cleared:
+- 12 numbered-chapter optional Elites: **38,900 G**;
+- 5 ordinary Side Quests: **18,000 G**;
+- 6 Character Quests: **22,200 G**;
+- 11 Regional Hunts: **116,500 G**;
+- 6 Major Hunts: **134,000 G**.
+
+Total optional direct G:
+> **329,600 G**
+
+## Completionist direct-cash reference
+Mandatory center + all current optional direct G:
+> **approximately 646,500 G**
+
+This is intentionally close to the user-directed broad target of:
+> **~650,000 G**
+
+The difference is well within route/encounter variance because the ordinary-formation component is itself an expected route total rather than a guaranteed fixed payout.
+
+This completionist reference excludes:
+- equipment/Consumable resale;
+- deliberate extra ordinary encounters/backtracking;
+- non-cash reward-equivalent value.
+
+## Current major sinks / purchase references
+### Ordinary equipment
+There are exactly:
+> **38 ordinary equipment identities**
+
+Their complete registered purchase/replacement values total:
+> **251,000 G**
+
+This is a conservative catalog-value ceiling, **not expected campaign spending**, because many first copies are starting/join gear, guaranteed finds, protected caches, or authored rewards rather than purchases.
+
+### Kessara Relic-copy service
+Service fee:
+> **6,000 G per successful Relic copy**
+
+There are currently 18 Relic-copy-specific Forge Component source slots.
+If all 18 copy opportunities are used, total service spending is:
+> **108,000 G**
+
+This is an intentional completionist sink; the copy-specific Forge Component remains the primary scarcity gate.
+
+### Consumables
 Normal-stock Consumables remain unlimited after their normal unlock.
 
 Premium Consumables:
@@ -59,8 +106,8 @@ Every Consumable-selling shop carries exactly:
 - 1 Emergency Rally;
 
 from that shop's first accessible state, with no automatic restock.
-
 Guaranteed authored premium pickups remain separate and do not consume shop stock.
+Premium Consumables remain non-sellable.
 
 ## Commerce structure
 Exactly:
@@ -68,6 +115,24 @@ Exactly:
 
 Cresthaven Quartermaster is a separate long-term requisition/backfill endpoint.
 Vhalmarch is a separate forward-supply/requisition endpoint.
+
+## Hunt reward rule — LOCKED
+Regional and Major Hunts should provide **strong G regardless of separate permanent/item rewards**.
+
+Do not reduce Hunt cash merely because the Hunt also grants:
+- a Prime;
+- Forge Component;
+- Legacy precursor/component;
+- premium Consumable;
+- another deterministic permanent reward.
+
+## Encounter-income rules
+- ordinary formation G is formation-level;
+- support/summoned/generated bodies add no second payout unless explicitly authored;
+- ordinary enemies have **no random Consumable/equipment/material/junk drop table**;
+- fresh boss forms do not automatically generate a second payout;
+- protected/nonlethal resolution does **not** mean zero G;
+- story context may present G as requisition credit, secured funds, bounty, operational reserve, or another appropriate economic handoff rather than literal coins.
 
 ## Economy layers
 ### Normal commerce
@@ -93,14 +158,6 @@ Vhalmarch is a separate forward-supply/requisition endpoint.
 
 Relics, Legacies, Forge Components, Cards, and Primes do not become ordinary shop stock merely because they have economic value.
 
-## Encounter-income rules
-- ordinary formation G is formation-level;
-- support/summoned/generated bodies add no second payout unless explicitly authored;
-- ordinary enemies have **no random Consumable/equipment/material/junk drop table**;
-- fresh boss forms do not automatically generate a second payout;
-- protected/nonlethal resolution does **not** mean zero G;
-- story context may present G as requisition credit, secured funds, bounty, operational reserve, or another appropriate economic handoff rather than literal coins.
-
 ## No junk-economy requirement
 Do not create a large vendor-trash layer merely to feed money back to the player.
 
@@ -122,13 +179,26 @@ Baseline story affordability must never require:
 
 Optional content should make the player richer and widen build flexibility, not repair an underfunded mandatory route.
 
-## Current work state
-Structural economy rules are current, but the exact campaign payout tables are reopened for synchronization to:
-- G terminology;
-- the tenfold display scale;
-- protected/nonlethal payouts;
-- stronger Hunt cash rewards;
-- the ~650,000 G completionist target.
+## Current owner files
+- currency/display scale → `CURRENCY_AND_PRICE_UNIT.md`
+- ordinary formations → `ENCOUNTER_G_REWARDS.md`
+- story bosses/named encounters → `STORY_BOSS_G_REWARDS.md`
+- fixed authored combats → `ENEMY_REWARD_HANDOFF.md`
+- mandatory non-battle map → `MANDATORY_NONBATTLE_G_BUDGET.md`
+- optional Elites → `ELITE_G_REWARDS.md`
+- Regional Hunts → `REGIONAL_HUNT_REWARD_BOUNDARY.md`
+- Major Hunts → `MAJOR_HUNT_REWARD_BOUNDARY.md`
+- Side Quests → `SIDE_QUEST_REWARD_BOUNDARY.md`
+- Character Quests → `CHARACTER_QUEST_REWARD_BOUNDARY.md`
+- ordinary equipment prices/resale → `ORDINARY_EQUIPMENT_PRICING.md`, `ORDINARY_EQUIPMENT_SELL_RULE.md`
+- Consumable prices/resale → `CONSUMABLE_PRICES.md`, `CONSUMABLE_SELL_RULE.md`
+- Kessara → `KESSARA_RELIC_COPY_ECONOMY.md`
+
+## Reopen rule
+Reopen a closed economy value only when:
+- a current playtest demonstrates a specific affordability/exploit failure;
+- an owner-domain reward/source changes materially;
+- or the user explicitly revises the economy design.
 
 ## Ownership
 - `08` owns item identity/stats/effects/source identity.
