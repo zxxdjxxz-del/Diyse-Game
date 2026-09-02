@@ -1,57 +1,42 @@
 # Diyse — Consumable Sell Rule
 
-**Status:** EXACT CONSUMABLE RESALE AUTHORITY
+**Status:** RESALE FORMULA STRUCTURE CURRENT / EXACT G TABLE NEEDS DISPLAY-SCALE SYNCHRONIZATION
 
 This rule applies only to normal-stock Consumables. It does not change ordinary-equipment resale, Relics, Legacies, Forge Components, Key Items, Cards, or Primes.
 
 ## Core rule
-Normal-stock Consumables sell for approximately **25% of their purchase price**:
+Normal-stock Consumables sell for approximately **25% of their purchase price**.
 
-> `SellAuren = max(5, floor((BuyAuren × 0.25) / 5) × 5)`
+Current implementation form after G synchronization:
+> `SellG = max(50, floor((BuyG × 0.25) / 50) × 50)`
 
-This rounds down to the nearest 5 Auren while preserving a minimum 5-Auren resale value for a sellable normal-stock Consumable.
+This is the tenfold-display equivalent of the prior nearest-5 rule and preserves a minimum sell value equal to 25% of the cheapest ordinary Consumable scale.
 
 Purpose:
 - using Consumables should normally be better value than liquidating them;
-- found/quest-issued normal supplies may still be converted to modest cash if the player prefers;
+- found/quest-issued normal supplies may still be converted to modest G if the player prefers;
 - resale should not become a major alternate income engine;
 - no buy/sell arbitrage is possible.
 
-## Exact sell table
-| ID | Consumable | Buy Auren | Sell Auren |
-|---|---|---:|---:|
-| C01 | **Field Salve** | 20 | **5** |
-| C02 | **Restorative Salve** | 50 | **10** |
-| C03 | **Vital Salve** | 120 | **30** |
-| C04 | **Grand Salve** | 240 | **60** |
-| C05 | **Company Salve** | 200 | **50** |
-| C06 | **Flow Tonic** | 80 | **20** |
-| C07 | **Deepflow Tonic** | 200 | **50** |
-| C08 | **Highflow Tonic** | 360 | **90** |
-| C10 | **Rousing Salts** | 60 | **15** |
-| C11 | **Greater Rousing Salts** | 160 | **40** |
-| C12 | **Trauma Remedy** | 15 | **5** |
-| C13 | **Stability Remedy** | 15 | **5** |
-| C14 | **General Remedy** | 50 | **10** |
-| C15 | **Full Remedy** | 140 | **35** |
-| C16 | **Blinding Mist** | 10 | **5** |
-| C17 | **Null Seal** | 70 | **15** |
-| C18 | **Balance Seal** | 60 | **15** |
+## Exact sell-table status
+The former exact table used the pre-extra-digit currency values and is retired as current-facing numeric authority.
 
-## Reward-only Consumables
-The following finite reward-only items are **not sellable**:
+The synchronized table should use the current G purchase prices in `CONSUMABLE_PRICES.md` and the formula above.
+
+## Premium Consumables
+The following limited-premium items are **not sellable**:
 - C09 **Reservoir Tonic**;
 - C19 **Emergency Kit**;
 - C20 **Emergency Rally**.
 
-Their listed Auren-equivalent values are reward-balancing references, not vendor purchase prices and not resale values.
+They are purchasable in one-copy-per-shop premium stock and also have authored guaranteed sources, but resale remains disabled.
 
 ## No vendor variance
-- all eligible vendors use the same sell values;
+- all eligible vendors use the same sell rule;
 - no chapter depreciation/appreciation;
 - no faction bonus;
 - no hidden merchant skill modifier;
 - no random resale-price fluctuation.
 
 ## Quest-reward implication
-Normal-stock Consumables received from Side Quests or Character Quests use this same resale table. Their full shop price remains the correct reward-equivalence value; their sell value is intentionally much lower.
+Normal-stock Consumables received from Side Quests or Character Quests use this same resale rule. Their full shop price remains the correct reward-equivalence value; their sell value is intentionally much lower.
