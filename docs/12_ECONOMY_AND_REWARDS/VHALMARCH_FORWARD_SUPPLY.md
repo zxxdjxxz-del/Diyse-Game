@@ -1,12 +1,11 @@
 # Diyse — Vhalmarch Forward Supply / Requisition
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicitly accepted v85 tracker-level economy closures.  
-**Frozen provenance source:** `Diyse_Item_Equipment_Catalog_Economy_Audit_ARCHIVE_FULL_v603.md` only where later authority does not supersede it.  
-**Domain rule:** `12_ECONOMY_AND_REWARDS` owns Auren denomination, purchase/replacement prices, sell rules, normal-stock progression, commerce endpoint roles, reward-value/scarcity rules, and non-EXP reward handoffs. Item definitions remain in `08`; enemy bodies remain in `09`; EXP/CEXP remain in `10`; quest structure remains in `11`.
 
+**Status:** CURRENT FORWARD-SUPPLY AUTHORITY
+
+**Domain rule:** `12_ECONOMY_AND_REWARDS` owns G denomination, purchase/replacement prices, sell rules, stock progression, commerce endpoint roles, reward-value/scarcity rules, and non-EXP reward handoffs.
 
 ## Status
-The **mechanical supply role is final at tracker level**.
+The mechanical supply role is final.
 
 Use:
 > **VHALMARCH FORWARD SUPPLY / REQUISITION**
@@ -21,9 +20,16 @@ This wording is intentionally relative to the story event so stale pre-reindex c
 
 ## Stock role
 Vhalmarch carries:
-- all normal-stock consumables unlocked by that point;
+- all normal-stock Consumables unlocked by that point;
 - routine field necessities;
-- a limited set of current-campaign ordinary equipment replacements where useful.
+- a limited set of current-campaign ordinary equipment replacements where useful;
+- the standard premium-Consumable one-copy stock when it first becomes a Consumable-selling endpoint.
+
+Premium stock at first availability:
+- **1 Emergency Kit**;
+- **1 Reservoir Tonic**;
+- **1 Emergency Rally**;
+- no automatic restock.
 
 It does **not** become a second full ordinary-equipment catalog.
 
@@ -32,11 +38,10 @@ Because Vhalmarch ↔ Cresthaven two-way travel remains available during the cam
 
 ## Explicit exclusions
 Vhalmarch does not sell:
-- Reservoir Tonic
-- Emergency Kit
-- Emergency Rally
-- Relics
-- Legacies
+- Relics;
+- Legacies;
+- Forge Components;
+- Cards/Primes.
 
 Exceptional equipment found in Vhalmarch/Black Host-area reserves remains authored reward content rather than merchant stock.
 
