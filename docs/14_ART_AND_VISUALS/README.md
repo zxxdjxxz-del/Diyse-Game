@@ -26,7 +26,7 @@ Full rendering/style authority:
 
 `DIYSE_VISUAL_STYLE_CANON.md`
 
-This keeps HD-2D as the presentation framework while locking a more specific art identity: mature seinen character language, expressive thick-to-thin/broken/irregular linework, painterly shape-first environments, cinematic atmosphere, and graphic readable VFX.
+This keeps HD-2D as the presentation framework while locking a more specific art identity: mature seinen character language, expressive thick-to-thin/broken/irregular linework, graphic shape-first environments, cinematic atmosphere, and graphic readable VFX.
 
 Older active `2.5D`, `3D`, pixel-art-first, or generic clean-anime direction is retired as the production target.
 
