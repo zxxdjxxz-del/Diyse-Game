@@ -136,11 +136,75 @@ def test_impossible_class_state_is_rejected_before_donor_access() -> None:
         )
 
 
-def test_relic_layer_remains_blocked_even_when_subclass_cl_is_high_enough() -> None:
-    with pytest.raises(ValueError, match="supports Ordinary gear only"):
+def test_native_relic_can_be_assumed_owned_after_its_first_acquisition_chapter() -> None:
+    row = resolve_class_aware_loadout_at_checkpoint(
+        "Cyanis",
+        "end_ch7",
+        equipment_choices={"weapon": "First Measure"},
+        class_state=ClassCexpState(base_cexp=4_950, subclass_cexp=0),
+    )
+    assert row.weapon == "First Measure"
+    assert row.explicit_slots == ("weapon",)
+
+
+def test_donor_relic_requires_subclass_cl7_equipment_mastery() -> None:
+    with pytest.raises(ValueError, match="requires donor Relic eligibility at Subclass CL7"):
+        resolve_class_aware_loadout_at_checkpoint(
+            "Cyanis",
+            "end_ch9",
+            equipment_choices={"weapon": "Turning Prism"},
+            class_state=ClassCexpState(base_cexp=6_000, subclass_cexp=1_700),
+        )
+
+
+def test_subclass_cl7_can_use_assumed_owned_reciprocal_donor_relic() -> None:
+    row = resolve_class_aware_loadout_at_checkpoint(
+        "Cyanis",
+        "end_ch9",
+        equipment_choices={"weapon": "Turning Prism"},
+        class_state=ClassCexpState(base_cexp=5_900, subclass_cexp=1_800),
+    )
+    assert row.weapon == "Turning Prism"
+    assert row.explicit_slots == ("weapon",)
+
+
+def test_donor_relic_still_obeys_first_acquisition_chapter() -> None:
+    with pytest.raises(ValueError, match="One Bright Law is first obtainable in Chapter 11"):
+        resolve_class_aware_loadout_at_checkpoint(
+            "Cyanis",
+            "end_ch9",
+            equipment_choices={"weapon": "One Bright Law"},
+            class_state=ClassCexpState(base_cexp=5_900, subclass_cexp=1_800),
+        )
+
+
+def test_native_relic_great_bow_preserves_two_slot_commitment() -> None:
+    row = resolve_class_aware_loadout_at_checkpoint(
+        "Torren",
+        "end_ch7",
+        equipment_choices={"weapon": "Falling Compass"},
+        class_state=ClassCexpState(base_cexp=5_350, subclass_cexp=0),
+    )
+    assert row.weapon == "Falling Compass"
+    assert row.secondary is None
+    assert row.secondary_consumed_by_weapon
+
+
+def test_shared_relic_secondary_access_is_not_inferred() -> None:
+    with pytest.raises(ValueError, match="shared Relic Secondary"):
+        resolve_class_aware_loadout_at_checkpoint(
+            "Cyanis",
+            "end_ch9",
+            equipment_choices={"secondary": "One Breath Ahead"},
+            class_state=ClassCexpState(base_cexp=5_900, subclass_cexp=1_800),
+        )
+
+
+def test_legacy_layer_remains_blocked_pending_completion_and_ownership_proof() -> None:
+    with pytest.raises(ValueError, match="Legacy completion/ownership must be proven separately"):
         resolve_class_aware_loadout_at_checkpoint(
             "Cyanis",
             "end_ch11",
-            equipment_choices={"weapon": "One Bright Law"},
+            equipment_choices={"weapon": "Move or I Move You."},
             class_state=ClassCexpState(base_cexp=6_000, subclass_cexp=4_700),
         )
