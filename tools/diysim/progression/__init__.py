@@ -25,6 +25,8 @@ from .class_exp import (
     post_volition_cexp_available_at_checkpoint,
     project_class_cexp,
 )
+from .class_loadouts import resolve_class_aware_loadout_at_checkpoint
+from .class_state import ClassCexpCheckpointValidation, validate_class_state_at_checkpoint
 from .loadouts import (
     EquipmentSlot,
     ProgressionAssumption,
@@ -49,6 +51,7 @@ __all__ = [
     "CLASS_CEXP_CAP",
     "CLASS_LEVEL_CAP",
     "CharacterLoadoutAudit",
+    "ClassCexpCheckpointValidation",
     "ClassCexpState",
     "ClassTrack",
     "CexpAllocationCheckpoint",
@@ -88,7 +91,9 @@ __all__ = [
     "project_progression",
     "required_average_exp_per_encounter",
     "resolve_campaign_loadouts",
+    "resolve_class_aware_loadout_at_checkpoint",
     "resolve_loadout",
     "resolve_loadout_at_checkpoint",
     "round_nearest_100",
+    "validate_class_state_at_checkpoint",
 ]
