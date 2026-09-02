@@ -85,3 +85,11 @@ def test_campaign_class_state_rejects_unknown_character() -> None:
             "end_ch8",
             class_states={"Fake": ClassCexpState()},
         )
+
+
+def test_campaign_class_state_rejects_known_future_recruit() -> None:
+    with pytest.raises(ValueError, match="not recruited by End Ch5: Seyrik"):
+        audit_campaign_class_aware_named_checkpoint(
+            "end_ch5",
+            class_states={"Seyrik": ClassCexpState(base_cexp=2_300, subclass_cexp=0)},
+        )
