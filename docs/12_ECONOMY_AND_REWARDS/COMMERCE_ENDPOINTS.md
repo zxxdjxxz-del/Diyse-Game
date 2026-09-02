@@ -22,12 +22,18 @@ The older count of 8 is retired. It predates Cerythvale's later persistent easte
 A Regional Market is a reliable full-service regional commerce endpoint for the normal-stock economy appropriate to its progression window.
 
 It does not imply:
-- every market has identical stock at first access;
+- every market has identical normal stock at first access;
 - every market sells every registered ordinary equipment item;
-- Relics/Legacies/Forge Components become vendor stock;
-- reward-only Consumables become normal stock.
+- Relics/Legacies/Forge Components become vendor stock.
 
 Normal Consumable availability follows `CONSUMABLE_STOCK_PROGRESSION.md`.
+Every Consumable-selling market also carries the current limited premium stock:
+- 1 Emergency Kit;
+- 1 Reservoir Tonic;
+- 1 Emergency Rally;
+- no automatic restock.
+
+All prices use **G**.
 Ordinary equipment pricing/registration follows the current equipment economy files.
 
 ## Current terminology
@@ -43,13 +49,14 @@ Do not use as current-facing names:
 - **not** a Regional Market;
 - long-term normal-stock consolidation;
 - full registered ordinary-equipment backfill authority;
-- preserves build experimentation without forcing players to hoard every first copy.
+- receives the same one-copy premium Consumable stock when it first functions as a Consumable-selling endpoint.
 
 ### Vhalmarch Forward Supply / Requisition
 - available after capture/stabilization according to current story access;
 - field logistics endpoint;
 - **not** a Regional Market;
-- not a duplicate full equipment superstore.
+- not a duplicate full equipment superstore;
+- receives the same one-copy premium Consumable stock when it activates as a Consumable shop.
 
 ## Smaller / situational hubs
 The following do **not** count toward the nine Regional Markets merely because they may provide authored supplies or technical services:
@@ -59,9 +66,7 @@ The following do **not** count toward the nine Regional Markets merely because t
 - Deepforge;
 - Emberforge.
 
-Deepforge/Emberforge may remain technical equipment/service sources without becoming general markets.
-
-Ashford's recovery/logistics role may support contextual supply access without making it a tenth Regional Market.
+A smaller endpoint that genuinely sells Consumables follows the same premium one-copy-per-shop rule.
 
 ## Vendor presentation boundary
 The **endpoint roles and nine-market count are closed**.
@@ -71,5 +76,3 @@ Still open where not separately authored:
 - stall/building presentation;
 - exact greeting/dialogue;
 - runtime shop IDs/UI bindings.
-
-Those presentation/implementation details do not reopen the nine-market structure.
