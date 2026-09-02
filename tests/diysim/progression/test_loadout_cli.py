@@ -213,7 +213,7 @@ def test_progression_audit_rejects_unrelated_choice_with_character_filter() -> N
             "Ilyra=Vowblade",
         ])
     except SystemExit as exc:
-        assert "class choices for other characters" in str(exc)
+        assert "class/equipment choices for other characters" in str(exc)
     else:
         raise AssertionError("expected SystemExit")
 
