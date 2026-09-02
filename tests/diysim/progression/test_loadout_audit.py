@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import pytest
+
 from tools.diysim.progression.audit import (
     audit_campaign_checkpoint,
     audit_campaign_named_checkpoint,
@@ -45,15 +47,15 @@ def test_ordinary_weapon_first_availability_is_live_repo_data() -> None:
     assert rows["Fieldbreaker"].first_chapter == 8
 
 
-def test_campaign_sources_discover_all_six_native_base_classes() -> None:
+def test_campaign_sources_discover_all_six_native_class_pairs() -> None:
     rows = {row.character: row for row in load_character_campaign_sources()}
     assert len(rows) == 6
-    assert rows["Cyanis"].base_class == "Crest Knight"
-    assert rows["Ilyra"].base_class == "Blue Warden"
-    assert rows["Torren"].base_class == "War Archer"
-    assert rows["Nimera"].base_class == "Cardweaver"
-    assert rows["Vaelira"].base_class == "Green Arcanist"
-    assert rows["Seyrik"].base_class == "Ruin Vanguard"
+    assert rows["Cyanis"].selectable_classes == ("Crest Knight", "Crest Arcanist")
+    assert rows["Ilyra"].selectable_classes == ("Blue Warden", "Vowblade")
+    assert rows["Torren"].selectable_classes == ("War Archer", "Routeweaver")
+    assert rows["Nimera"].selectable_classes == ("Cardweaver", "Proofhunter")
+    assert rows["Vaelira"].selectable_classes == ("Green Arcanist", "Axiomblade")
+    assert rows["Seyrik"].selectable_classes == ("Ruin Vanguard", "Ruin Warden")
     assert rows["Seyrik"].recruitment_chapter == 6
 
 
@@ -70,6 +72,7 @@ def test_chapter0_cyanis_audit_reproduces_published_body() -> None:
     assert row.authority_complete
     assert row.level == 1
     assert row.class_name == "Crest Knight"
+    assert not row.class_selection_explicit
     assert row.stats is not None
     assert (
         row.stats.hp,
@@ -150,7 +153,75 @@ def test_campaign_checkpoint_includes_only_recruited_characters() -> None:
 def test_end_chapter7_audit_marks_selected_class_as_an_assumption_gap() -> None:
     row = audit_character_checkpoint("Cyanis", 7, "mandatory")
     assert row.class_name == "Crest Knight"
+    assert not row.class_selection_explicit
     assert "selected_class_route_missing" in _gap_codes(row)
+
+
+def test_end_chapter7_explicit_native_subclass_resolves_class_choice() -> None:
+    row = audit_character_checkpoint(
+        "Cyanis",
+        7,
+        "mandatory",
+        selected_class="Crest Arcanist",
+    )
+    assert row.class_name == "Crest Arcanist"
+    assert row.class_selection_explicit
+    assert row.stats is not None
+    assert "selected_class_route_missing" not in _gap_codes(row)
+    assert any(path.endswith("SUBCLASSES/CREST_ARCANIST.md") for path in row.source_paths)
+    assert any(path.endswith("CLASS_SYSTEM_MASTER.md") for path in row.source_paths)
+
+
+def test_end_chapter7_explicit_base_class_is_also_a_resolved_choice() -> None:
+    row = audit_character_checkpoint(
+        "Cyanis",
+        7,
+        "mandatory",
+        selected_class="Crest Knight",
+    )
+    assert row.class_name == "Crest Knight"
+    assert row.class_selection_explicit
+    assert "selected_class_route_missing" not in _gap_codes(row)
+
+
+def test_subclass_cannot_be_selected_before_sixfold_volition() -> None:
+    with pytest.raises(ValueError, match="not usable.*before the Sixfold Volition"):
+        audit_character_checkpoint(
+            "Cyanis",
+            6,
+            "mandatory",
+            selected_class="Crest Arcanist",
+        )
+
+
+def test_character_cannot_select_another_characters_subclass() -> None:
+    with pytest.raises(ValueError, match="not a selectable class for Cyanis"):
+        audit_character_checkpoint(
+            "Cyanis",
+            7,
+            "mandatory",
+            selected_class="Vowblade",
+        )
+
+
+def test_campaign_checkpoint_accepts_multiple_explicit_class_choices() -> None:
+    rows = {
+        row.character: row
+        for row in audit_campaign_checkpoint(
+            7,
+            class_choices={
+                "Cyanis": "Crest Arcanist",
+                "Ilyra": "Vowblade",
+            },
+        )
+    }
+    assert rows["Cyanis"].class_name == "Crest Arcanist"
+    assert rows["Ilyra"].class_name == "Vowblade"
+    assert rows["Cyanis"].class_selection_explicit
+    assert rows["Ilyra"].class_selection_explicit
+    assert "selected_class_route_missing" not in _gap_codes(rows["Cyanis"])
+    assert "selected_class_route_missing" not in _gap_codes(rows["Ilyra"])
+    assert "selected_class_route_missing" in _gap_codes(rows["Torren"])
 
 
 def test_named_checkpoint_uses_exact_chapter13_internal_level() -> None:
