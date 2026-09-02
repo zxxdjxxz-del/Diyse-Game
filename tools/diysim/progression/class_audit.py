@@ -122,6 +122,19 @@ def audit_campaign_class_aware_named_checkpoint(
     classes = _validated_class_choices(class_choices, campaign_sources)
     equipment = _validated_equipment_choices(equipment_choices, campaign_sources)
     states = _validated_class_states(class_states, campaign_sources)
+
+    recruitment = {row.character: row.recruitment_chapter for row in campaign_sources}
+    pre_recruitment_states = sorted(
+        character
+        for character in states
+        if recruitment[character] > checkpoint.chapter
+    )
+    if pre_recruitment_states:
+        raise ValueError(
+            f"Class-state choices target characters not recruited by {checkpoint.label}: "
+            + ", ".join(pre_recruitment_states)
+        )
+
     return tuple(
         audit_character_class_aware_named_checkpoint(
             row.character,
