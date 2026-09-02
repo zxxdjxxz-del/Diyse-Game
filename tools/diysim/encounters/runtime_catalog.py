@@ -19,6 +19,7 @@ from tools.diysim.sources.markdown import find_markdown_table
 from tools.diysim.sources.repo import SourceGapError, find_repo_root, read_repo_text
 
 RuntimeKind = Literal["generic", "formation", "special", "component", "blocked"]
+DynamicElementMode = Literal["random_once", "round_cycle"]
 
 ENEMY_ROOT = Path("docs/09_ENEMIES_AND_ENCOUNTERS")
 OWNER_DIRS: dict[str, str] = {
@@ -78,6 +79,21 @@ _REQUIRES_PREPARATION_RE = re.compile(
     r"\blegal\s+only\s+after\s+(?:\*\*)?([^\n.*]+?)(?:\*\*)?(?:\.|$)",
     re.I | re.M,
 )
+_STANDARD_ELEMENT = r"Fire|Ice|Lightning|Earth"
+_ELEMENTAL_RIDER_RE = re.compile(
+    rf"^\s*-\s*({_STANDARD_ELEMENT})\s+[—-]\s*\*{{0,2}}(\d+)%\s+"
+    r"(Burn|Freeze|Stun|Staggered)\b",
+    re.I | re.M,
+)
+
+
+@dataclass(frozen=True)
+class DynamicElementStateSpec:
+    source: str
+    mode: DynamicElementMode
+    choices: tuple[str, ...] = ()
+    cycle: tuple[str, ...] = ()
+    initial_element: str | None = None
 
 
 @dataclass(frozen=True)
@@ -97,6 +113,8 @@ class RuntimeActionDefinition:
     exclude_actor: bool = False
     fallback_action: str | None = None
     formation_required: bool = False
+    dynamic_element_source: str | None = None
+    elemental_status_riders: tuple[tuple[str, str, int], ...] = ()
 
 
 @dataclass(frozen=True)
@@ -110,6 +128,7 @@ class EnemyRuntimeDefinition:
     actions: tuple[RuntimeActionDefinition, ...]
     blockers: tuple[str, ...]
     special_runtime: str | None = None
+    dynamic_element_states: tuple[DynamicElementStateSpec, ...] = ()
 
     @property
     def executable(self) -> bool:
@@ -236,36 +255,106 @@ def _requires_preparation(raw_text: str) -> str | None:
     return match.group(1).strip() if match else None
 
 
-def _direct_action(source: AuthoredActionSource, *, triggered: bool) -> tuple[CombatAction | None, tuple[str, ...]]:
+def _elemental_status_riders(raw_text: str) -> tuple[tuple[str, str, int], ...]:
+    return tuple(
+        (element.lower(), status.lower(), int(chance))
+        for element, chance, status in _ELEMENTAL_RIDER_RE.findall(raw_text)
+    )
+
+
+def _dynamic_element_state_specs(text: str) -> tuple[DynamicElementStateSpec, ...]:
+    specs: list[DynamicElementStateSpec] = []
+
+    assignment = re.search(
+        r"assigned\s+exactly\s+one\s*:\s*((?:\n\s*-\s*(?:Fire|Ice|Lightning|Earth)\s*){2,})",
+        text,
+        re.I,
+    )
+    if assignment:
+        choices = tuple(
+            item.lower()
+            for item in re.findall(r"-\s*(Fire|Ice|Lightning|Earth)\b", assignment.group(1), re.I)
+        )
+        if choices:
+            specs.append(DynamicElementStateSpec("assigned_element", "random_once", choices=choices))
+
+    begins = re.search(r"begins\s+in\s+(Fire|Ice|Lightning|Earth)\s+expression", text, re.I)
+    cycle_line = re.search(
+        r"(Fire|Ice|Lightning|Earth)\s*→\s*(Fire|Ice|Lightning|Earth)\s*→\s*"
+        r"(Fire|Ice|Lightning|Earth)\s*→\s*(Fire|Ice|Lightning|Earth)\s*→\s*"
+        r"(Fire|Ice|Lightning|Earth)",
+        text,
+        re.I,
+    )
+    if begins and cycle_line:
+        raw_cycle = tuple(item.lower() for item in cycle_line.groups())
+        cycle = raw_cycle[:-1] if raw_cycle[-1] == raw_cycle[0] else raw_cycle
+        initial = begins.group(1).lower()
+        if initial in cycle:
+            while cycle[0] != initial:
+                cycle = cycle[1:] + cycle[:1]
+            specs.append(DynamicElementStateSpec(
+                "current_expression", "round_cycle", cycle=cycle,
+                initial_element=initial,
+            ))
+
+    return tuple(specs)
+
+
+def _direct_action(
+    source: AuthoredActionSource,
+    *,
+    triggered: bool,
+    dynamic_states: dict[str, DynamicElementStateSpec],
+) -> tuple[CombatAction | None, tuple[str, ...], str | None, tuple[tuple[str, str, int], ...]]:
     blockers: list[str] = []
     for field in ("target_scope", "damage_kind", "power", "base_hit"):
         if getattr(source, field) is None:
             blockers.append(f"{source.name}: missing {field}")
+
+    dynamic_source: str | None = None
+    dynamic_riders: tuple[tuple[str, str, int], ...] = ()
     if source.element_mode == "dynamic":
-        blockers.append(f"{source.name}: dynamic element requires encounter-state resolver ({source.element_source})")
+        dynamic_source = source.element_source
+        if dynamic_source is None or dynamic_source not in dynamic_states:
+            blockers.append(
+                f"{source.name}: dynamic element requires encounter-state resolver ({source.element_source})"
+            )
+        else:
+            dynamic_riders = _elemental_status_riders(source.raw_text)
+            if source.status_chances and not dynamic_riders:
+                blockers.append(
+                    f"{source.name}: dynamic element has unresolved element-dependent status rider"
+                )
     elif source.element is None:
         blockers.append(f"{source.name}: missing fixed element")
+
     if source.is_multihit:
         blockers.append(f"{source.name}: multihit requires encounter/action-specific runtime")
     if triggered:
         blockers.append(f"{source.name}: triggered/passive action requires runtime trigger")
     if blockers:
-        return None, tuple(blockers)
+        return None, tuple(blockers), dynamic_source, dynamic_riders
+
     assert source.target_scope in {"one", "all"}
     assert source.damage_kind in {"physical", "magical", "hybrid"}
-    assert source.element is not None and source.power is not None and source.base_hit is not None
+    assert source.power is not None and source.base_hit is not None
+    element = source.element if source.element is not None else "neutral"
+    static_riders = () if dynamic_source is not None else tuple(
+        StatusRider(status, chance) for status, chance in source.status_chances
+    )
     return CombatAction(
         source.name,
         target_scope=source.target_scope,
         damage_kind=source.damage_kind,
-        element=source.element,
+        element=element,
         power=source.power,
         base_hit=source.base_hit,
         physical_weight=source.physical_weight,
         magical_weight=source.magical_weight,
         weight=source.weight,
-        status_riders=tuple(StatusRider(status, chance) for status, chance in source.status_chances),
-    ), ()
+        status_riders=static_riders,
+    ), (), dynamic_source, dynamic_riders
 
 
 def load_enemy_runtime_definition(source_path: str, *, category: str, root: Path | None = None) -> EnemyRuntimeDefinition:
@@ -287,6 +376,9 @@ def load_enemy_runtime_definition(source_path: str, *, category: str, root: Path
         blockers.append("state/phase/form behavior requires encounter-specific runtime")
     if _FIXED_SEQUENCE_RULE.search(text):
         blockers.append("authored fixed action sequence/cycle requires runtime scheduler")
+
+    dynamic_specs = _dynamic_element_state_specs(text)
+    dynamic_states = {spec.source: spec for spec in dynamic_specs}
 
     combatant: Combatant | None = None
     displayed_level: int | None = None
@@ -328,6 +420,8 @@ def load_enemy_runtime_definition(source_path: str, *, category: str, root: Path
         triggered = bool(_TRIGGER_ONLY.search(raw_text))
         non_damage = _non_damage(raw_text)
         kwargs: dict[str, object] = {}
+        dynamic_source: str | None = None
+        dynamic_riders: tuple[tuple[str, str, int], ...] = ()
         if non_damage and not triggered:
             parsed = parse_enemy_effect_action(action_name, raw_text)
             action = parsed.action
@@ -343,7 +437,9 @@ def load_enemy_runtime_definition(source_path: str, *, category: str, root: Path
                 "formation_required": parsed.formation_required,
             }
         else:
-            action, action_blockers = _direct_action(source, triggered=triggered)
+            action, action_blockers, dynamic_source, dynamic_riders = _direct_action(
+                source, triggered=triggered, dynamic_states=dynamic_states,
+            )
 
         action_defs.append(RuntimeActionDefinition(
             source=source,
@@ -353,6 +449,8 @@ def load_enemy_runtime_definition(source_path: str, *, category: str, root: Path
             non_damage=non_damage,
             triggered=triggered,
             requires_preparation=_requires_preparation(raw_text),
+            dynamic_element_source=dynamic_source,
+            elemental_status_riders=dynamic_riders,
             **kwargs,
         ))
         blockers.extend(action_blockers)
@@ -387,6 +485,7 @@ def load_enemy_runtime_definition(source_path: str, *, category: str, root: Path
     return EnemyRuntimeDefinition(
         name, category, source_path, kind, displayed_level, combatant_out,
         tuple(action_defs), unique_blockers,
+        dynamic_element_states=dynamic_specs,
     )
 
 
@@ -413,7 +512,7 @@ def audit_enemy_runtime_coverage(*, root: Path | None = None) -> RuntimeCoverage
 
 
 __all__ = [
-    "EnemyRuntimeDefinition", "OWNER_DIRS", "RuntimeActionDefinition",
+    "DynamicElementStateSpec", "EnemyRuntimeDefinition", "OWNER_DIRS", "RuntimeActionDefinition",
     "RuntimeCoverageSummary", "SPECIAL_RUNTIME_PATHS", "audit_enemy_runtime_coverage",
     "build_enemy_runtime_catalog", "discover_enemy_owner_paths", "load_enemy_runtime_definition",
 ]
