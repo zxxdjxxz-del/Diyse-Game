@@ -183,6 +183,20 @@ def _resolve_selected_class(
     return class_name, True, [], paths
 
 
+def _validated_class_choices(
+    class_choices: Mapping[str, str] | None,
+    campaign_sources: tuple[CharacterCampaignSource, ...],
+) -> dict[str, str]:
+    choices = dict(class_choices or {})
+    known = {row.character for row in campaign_sources}
+    unknown = sorted(set(choices) - known)
+    if unknown:
+        raise ValueError(
+            "Unknown permanent character in class choices: " + ", ".join(unknown)
+        )
+    return choices
+
+
 def _build_character_audit(
     *,
     campaign: CharacterCampaignSource,
@@ -346,7 +360,8 @@ def audit_campaign_checkpoint(
     class_choices: Mapping[str, str] | None = None,
     root: Path | None = None,
 ) -> tuple[CharacterLoadoutAudit, ...]:
-    choices = class_choices or {}
+    campaign_sources = load_character_campaign_sources(root=root)
+    choices = _validated_class_choices(class_choices, campaign_sources)
     return tuple(
         audit_character_checkpoint(
             row.character,
@@ -355,7 +370,7 @@ def audit_campaign_checkpoint(
             selected_class=choices.get(row.character),
             root=root,
         )
-        for row in load_character_campaign_sources(root=root)
+        for row in campaign_sources
         if row.recruitment_chapter <= chapter
     )
 
@@ -368,7 +383,8 @@ def audit_campaign_named_checkpoint(
     root: Path | None = None,
 ) -> tuple[CharacterLoadoutAudit, ...]:
     checkpoint = load_campaign_checkpoint(checkpoint_key, root=root)
-    choices = class_choices or {}
+    campaign_sources = load_character_campaign_sources(root=root)
+    choices = _validated_class_choices(class_choices, campaign_sources)
     return tuple(
         audit_character_named_checkpoint(
             row.character,
@@ -377,7 +393,7 @@ def audit_campaign_named_checkpoint(
             selected_class=choices.get(row.character),
             root=root,
         )
-        for row in load_character_campaign_sources(root=root)
+        for row in campaign_sources
         if row.recruitment_chapter <= checkpoint.chapter
     )
 
@@ -392,13 +408,15 @@ def audit_campaign(
 ) -> tuple[CharacterLoadoutAudit, ...]:
     if start_chapter < 0 or end_chapter < start_chapter:
         raise ValueError("Invalid campaign chapter range")
+    campaign_sources = load_character_campaign_sources(root=root)
+    choices = _validated_class_choices(class_choices, campaign_sources)
     rows: list[CharacterLoadoutAudit] = []
     for chapter in range(start_chapter, end_chapter + 1):
         rows.extend(
             audit_campaign_checkpoint(
                 chapter,
                 assumption,
-                class_choices=class_choices,
+                class_choices=choices,
                 root=root,
             )
         )
