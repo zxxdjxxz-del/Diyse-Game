@@ -25,6 +25,9 @@ jobs:
       - name: Test formation source discovery
         if: always()
         run: python -m pytest -q tests/diysim/test_formation_runtime_coverage.py::test_all_authored_numbered_chapter_formation_sources_are_discovered
+      - name: Test implicit single formation members
+        if: always()
+        run: python -m pytest -q tests/diysim/test_formation_runtime_coverage.py::test_implicit_single_member_counts_are_parsed_as_one
       - name: Test formation ready-or-blocked contract
         if: always()
         run: python -m pytest -q tests/diysim/test_formation_runtime_coverage.py::test_every_formation_is_explicitly_ready_or_blocked
