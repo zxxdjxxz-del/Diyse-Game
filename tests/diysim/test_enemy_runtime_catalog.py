@@ -12,6 +12,7 @@ from tools.diysim.encounters.generic_enemy_runtime import build_generic_enemy_ru
 from tools.diysim.encounters.runtime_catalog import (
     audit_enemy_runtime_coverage,
     build_enemy_runtime_catalog,
+    load_enemy_runtime_definition,
 )
 from tools.diysim.overlays import BalanceOverlay
 
@@ -27,6 +28,22 @@ def _action(definition, name: str):
     return next(action for action in definition.combatant.actions if action.name == name)
 
 
+def _write_synthetic_enemy(tmp_path, filename: str, action_body: str) -> str:
+    relative = f"docs/09_ENEMIES_AND_ENCOUNTERS/ORDINARY_ENEMIES/{filename}"
+    path = tmp_path / relative
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        "# Synthetic Enemy\n\n"
+        "| Level | HP | MP | Attack | Magic | Defense | Spirit | Speed |\n"
+        "| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |\n"
+        "| 10 | 1000 | 0 | 100 | 80 | 50 | 50 | 40 |\n\n"
+        "## Sequence\n"
+        f"{action_body}\n",
+        encoding="utf-8",
+    )
+    return relative
+
+
 def test_enemy_runtime_catalog_classifies_every_discovered_owner_sheet():
     report = audit_enemy_runtime_coverage()
     assert report.total_owner_sheets > 100
@@ -40,6 +57,43 @@ def test_enemy_runtime_catalog_classifies_every_discovered_owner_sheet():
         assert definition.kind in {"generic", "formation", "special", "component", "blocked"}
         if definition.kind in {"blocked", "component"}:
             assert definition.blockers
+
+
+def test_source_proven_fixed_multihit_is_generic_executable(tmp_path):
+    relative = _write_synthetic_enemy(
+        tmp_path,
+        "FIXED_MULTI.md",
+        "Hybrid / Neutral /50% ATK /50% MAG / one target\n"
+        "2 × 165 Power = 330 total\n"
+        "Base Hit100 per hit",
+    )
+
+    definition = load_enemy_runtime_definition(relative, category="ordinary", root=tmp_path)
+
+    assert definition.kind == "generic"
+    assert definition.blockers == ()
+    assert definition.combatant is not None
+    sequence = _action(definition, "Sequence")
+    assert sequence.power == 165
+    assert sequence.hit_count == 2
+
+
+def test_variable_multihit_remains_blocked_even_with_per_hit_power(tmp_path):
+    relative = _write_synthetic_enemy(
+        tmp_path,
+        "VARIABLE_MULTI.md",
+        "one party member\n"
+        "2–3 Physical hits\n"
+        "Physical / Neutral\n"
+        "100 Power per hit\n"
+        "Base Hit100 per hit",
+    )
+
+    definition = load_enemy_runtime_definition(relative, category="ordinary", root=tmp_path)
+
+    assert definition.kind == "blocked"
+    assert definition.combatant is None
+    assert "Sequence: variable multihit count requires action-specific runtime" in definition.blockers
 
 
 def test_archive_current_is_generic_and_uses_shared_pressure_overlay():
