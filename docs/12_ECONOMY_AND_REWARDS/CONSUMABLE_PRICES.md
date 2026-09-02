@@ -5,9 +5,9 @@
 Current consumable count:
 > **20**
 
-All current-facing Auren values use the tenfold display scale: **1 economy unit = 200 Auren**.
+All current-facing values use **G** at the tenfold display scale: **1 economy unit = 200 G**.
 
-| ID | Consumable | Current function | Commerce class | Auren |
+| ID | Consumable | Current function | Commerce class | G |
 |---|---|---|---|---:|
 | C01 | **Field Salve** | Restore 250 HP to one ally | normal stock | **200** |
 | C02 | **Restorative Salve** | Restore 750 HP to one ally | normal stock | **500** |
@@ -32,32 +32,32 @@ All current-facing Auren values use the tenfold display scale: **1 economy unit 
 
 ## Price-family read
 Cheap maintenance:
-- Blinding Mist — 100
-- Trauma Remedy — 150
-- Stability Remedy — 150
-- Field Salve — 200
+- Blinding Mist — 100 G
+- Trauma Remedy — 150 G
+- Stability Remedy — 150 G
+- Field Salve — 200 G
 
 Core recovery/utility:
-- Restorative Salve — 500
-- General Remedy — 500
-- Rousing Salts — 600
-- Balance Seal — 600
-- Null Seal — 700
-- Flow Tonic — 800
+- Restorative Salve — 500 G
+- General Remedy — 500 G
+- Rousing Salts — 600 G
+- Balance Seal — 600 G
+- Null Seal — 700 G
+- Flow Tonic — 800 G
 
 Advanced:
-- Vital Salve — 1,200
-- Full Remedy — 1,400
-- Greater Rousing Salts — 1,600
-- Company Salve — 2,000
-- Deepflow Tonic — 2,000
-- Grand Salve — 2,400
-- Highflow Tonic — 3,600
+- Vital Salve — 1,200 G
+- Full Remedy — 1,400 G
+- Greater Rousing Salts — 1,600 G
+- Company Salve — 2,000 G
+- Deepflow Tonic — 2,000 G
+- Grand Salve — 2,400 G
+- Highflow Tonic — 3,600 G
 
 Limited premium:
-- Emergency Kit — **8,000**
-- Reservoir Tonic — **12,000**
-- Emergency Rally — **15,000**
+- Emergency Kit — **8,000 G**
+- Reservoir Tonic — **12,000 G**
+- Emergency Rally — **15,000 G**
 
 ## Limited-premium rule
 C09/C19/C20 are purchasable from the beginning of the normal shop economy.
