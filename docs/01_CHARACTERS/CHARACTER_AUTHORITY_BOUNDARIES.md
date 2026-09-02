@@ -12,10 +12,10 @@ When a character source contains stale names, mechanics, ages, class names, Face
 
 Current examples:
 - Nimera's older age **23** is superseded by **22**.
-- Torren's current Face is **Resource**; older **Acuity** and **Perception** labels are retired for his current identity shorthand.
-- Nimera's current Subclass is **Sixfold Knight**; older **Proofhunter** material is superseded.
-- Cyanis's current Subclass is **Crest Magus**; older **Crest Arcanist** naming is superseded.
-- Seyrik's current Subclass is **Ruin Healer**; older **Ruin Warden** naming is superseded.
+- Torren's current Face is **Perception**; older **Resource** and **Acuity** Face labels are retired.
+- Nimera's current Subclass is **Proofhunter**; older **Sixfold Knight** naming is superseded.
+- Cyanis's current Subclass is **Crest Arcanist**; older **Crest Magus** naming is superseded.
+- Seyrik's current Subclass is **Ruin Warden**; older **Ruin Healer** naming is superseded.
 - **Memory** is the current Face name replacing the former Change label.
 - Sixfold Accord is retired as the party-unlock term; use **Sixfold Volition**.
 - Synthesis is removed.
