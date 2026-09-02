@@ -1,6 +1,7 @@
 extends Node
 
 const DEFAULT_AREA := "field_proof"
+const STARTING_WALLET_G := 2500
 const EQUIPMENT_FACES := ["Might", "Elements", "Grace", "Perception", "Memory", "Ruin"]
 const RETIRED_EQUIPMENT_FACE_ALIASES := {
 	"resource": "Perception",
@@ -20,6 +21,7 @@ var relic_inventory: Dictionary
 var forge_components: Dictionary
 var flags: Dictionary
 var rewards: Dictionary
+var wallet_g: int
 
 # Runtime-only scene handoff state. These fields are intentionally excluded
 # from save serialization until encounter-pressure persistence is designed.
@@ -66,8 +68,30 @@ func reset_defaults() -> void:
 		"proof_chest_opened": false,
 		"torren_state": "normal"
 	}
+	# This is proof battle-result payload, not the persistent party wallet.
+	# The old `gold` key remains isolated here until battle reward payloads are
+	# migrated in their own coordinated pass.
 	rewards = {"xp": 0, "gold": 0}
+	wallet_g = STARTING_WALLET_G
 	clear_transient_encounter_state()
+
+func wallet_balance_g() -> int:
+	return wallet_g
+
+func can_afford_g(amount_g: int) -> bool:
+	return amount_g >= 0 and wallet_g >= amount_g
+
+func credit_g(amount_g: int) -> bool:
+	if amount_g < 0:
+		return false
+	wallet_g += amount_g
+	return true
+
+func spend_g(amount_g: int) -> bool:
+	if not can_afford_g(amount_g):
+		return false
+	wallet_g -= amount_g
+	return true
 
 func register_relic_original(relic_id: String, face: String) -> bool:
 	var normalized_id := relic_id.strip_edges()
@@ -164,9 +188,31 @@ func forged_relic_count_for_face(face: String) -> int:
 			count += 1
 	return count
 
+# Low-level ownership commit retained for proof/migration callers. Production
+# Kessara service code must use commit_relic_copy_with_g_fee() so the G charge,
+# component consumption, and forged-copy state change form one transaction.
 func commit_relic_copy(relic_id: String, component_id: String) -> bool:
 	var normalized_relic_id := relic_id.strip_edges()
 	var normalized_component_id := component_id.strip_edges()
+	if not _relic_copy_commit_is_valid(normalized_relic_id, normalized_component_id):
+		return false
+	_apply_relic_copy_commit(normalized_relic_id, normalized_component_id)
+	return true
+
+func commit_relic_copy_with_g_fee(relic_id: String, component_id: String, fee_g: int) -> bool:
+	var normalized_relic_id := relic_id.strip_edges()
+	var normalized_component_id := component_id.strip_edges()
+	if fee_g < 0 or not can_afford_g(fee_g):
+		return false
+	if not _relic_copy_commit_is_valid(normalized_relic_id, normalized_component_id):
+		return false
+	# All failure checks occur before mutation. From this point the three durable
+	# state changes are committed together in this single synchronous method.
+	_apply_relic_copy_commit(normalized_relic_id, normalized_component_id)
+	wallet_g -= fee_g
+	return true
+
+func _relic_copy_commit_is_valid(normalized_relic_id: String, normalized_component_id: String) -> bool:
 	if not has_relic_original(normalized_relic_id):
 		return false
 	if has_forged_relic_copy(normalized_relic_id) or relic_quantity(normalized_relic_id) >= 2:
@@ -186,13 +232,15 @@ func commit_relic_copy(relic_id: String, component_id: String) -> bool:
 		return false
 
 	var relic_record = relic_inventory.get(normalized_relic_id, {})
-	if not (relic_record is Dictionary):
-		return false
+	return relic_record is Dictionary
+
+func _apply_relic_copy_commit(normalized_relic_id: String, normalized_component_id: String) -> void:
+	var relic_record: Dictionary = relic_inventory[normalized_relic_id]
+	var component: Dictionary = forge_components[normalized_component_id]
 	relic_record["forged_copy"] = true
 	relic_inventory[normalized_relic_id] = relic_record
 	component["consumed"] = true
 	forge_components[normalized_component_id] = component
-	return true
 
 func queue_transient_random_encounter(payload: Dictionary) -> bool:
 	if str(payload.get("kind", "")) != "random":
@@ -251,7 +299,8 @@ func to_save_dict(schema_version: int) -> Dictionary:
 		"relic_inventory": relic_inventory.duplicate(true),
 		"forge_components": forge_components.duplicate(true),
 		"flags": flags.duplicate(true),
-		"rewards": rewards.duplicate(true)
+		"rewards": rewards.duplicate(true),
+		"wallet_g": wallet_g
 	}
 
 func apply_save_dict(data: Dictionary) -> bool:
@@ -263,6 +312,9 @@ func apply_save_dict(data: Dictionary) -> bool:
 	for axis in ["x", "y", "z"]:
 		if not position_data.has(axis):
 			return false
+	var loaded_wallet_g := int(data.get("wallet_g", STARTING_WALLET_G))
+	if loaded_wallet_g < 0:
+		return false
 
 	current_area = str(data.get("area", DEFAULT_AREA))
 	field_position = Vector3(
@@ -275,13 +327,13 @@ func apply_save_dict(data: Dictionary) -> bool:
 	standard_cards = _string_array(data.get("standard_cards", []))
 	primes = _dictionary_or_empty(data.get("primes", {}))
 	equipment = _dictionary_or_empty(data.get("equipment", {}))
-	# These keys are optional under schema v1 so saves written before the
-	# Kessara service existed remain loadable and simply begin with no registered
-	# Relics/components in the new ownership layer.
+	# These ownership keys remain optional during migration so older proof saves
+	# can normalize into the current schema without inventing Relics/components.
 	relic_inventory = _dictionary_or_empty(data.get("relic_inventory", {}))
 	forge_components = _dictionary_or_empty(data.get("forge_components", {}))
 	flags = _dictionary_or_empty(data.get("flags", {}))
 	rewards = _dictionary_or_empty(data.get("rewards", {}))
+	wallet_g = loaded_wallet_g
 	# Loading a disk save must never resurrect a stale scene-to-scene random
 	# encounter request or battle return result.
 	clear_transient_encounter_state()
