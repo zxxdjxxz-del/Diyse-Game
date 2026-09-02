@@ -21,6 +21,9 @@ jobs:
 
       - name: Test enemy runtime catalog
         run: python -m pytest -q tests/diysim/test_enemy_runtime_catalog.py
+      - name: Test fixed multihit runtime
+        if: always()
+        run: python -m pytest -q tests/diysim/test_fixed_multihit_runtime.py
       - name: Test shared dynamic element runtime
         if: always()
         run: python -m pytest -q tests/diysim/test_dynamic_element_runtime.py
