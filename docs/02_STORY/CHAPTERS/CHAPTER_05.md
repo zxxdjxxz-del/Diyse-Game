@@ -38,7 +38,7 @@ This does **not** directly point them to Westguard.
 Awakens through the mandatory Deepforge sovereign-chamber/Chapter-5 story resolution.
 
 ### Last Cartographer
-Torren's Acuity Story Prime is recovered in Chapter 5.
+Torren's **Perception** Story Prime is recovered in Chapter 5.
 
 Do not restore:
 - Last Measure;
