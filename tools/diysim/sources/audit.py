@@ -18,7 +18,13 @@ from .class_exp import (
 )
 from .combat import load_combat_rules
 from .enemies import load_enemy_system_rules
-from .legacies import load_donor_legacy_access, load_legacy_items, load_legacy_project_rules
+from .legacies import (
+    load_donor_legacy_access,
+    load_legacy_character_projects,
+    load_legacy_endgame_project_window,
+    load_legacy_items,
+    load_legacy_project_rules,
+)
 from .party import load_party_rules
 from .progression import load_progression_rules
 from .relics import load_relic_placements, load_relic_weapons
@@ -146,11 +152,19 @@ def audit_repo_sources(*, root: Path | None = None) -> SourceAuditReport:
         legacy_items = load_legacy_items(root=repo)
         legacy_donors = load_donor_legacy_access(root=repo)
         load_legacy_project_rules(root=repo)
+        load_legacy_character_projects(root=repo)
+        load_legacy_endgame_project_window(root=repo)
         legacy_item_rows = len(legacy_items)
         legacy_donor_rows = len(legacy_donors)
         legacy_progression_loaded = True
     except RepoSourceError as exc:
-        issues.append(SourceAuditIssue("legacy", "package/donor/project authority", str(exc)))
+        issues.append(
+            SourceAuditIssue(
+                "legacy",
+                "package/donor/project/prerequisite authority",
+                str(exc),
+            )
+        )
 
     combat_loaded = False
     try:
