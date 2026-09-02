@@ -13,10 +13,13 @@ from .encounters.story_bosses.matron_zevraya import simulate_matron_zevraya
 from .io import load_advanced_scenario, load_progression_route, load_scenario
 from .overlays import BalanceOverlay
 from .progression import (
+    ClassCexpState,
     audit_campaign,
     audit_campaign_checkpoint,
+    audit_campaign_class_aware_named_checkpoint,
     audit_campaign_named_checkpoint,
     audit_character_checkpoint,
+    audit_character_class_aware_named_checkpoint,
     audit_character_named_checkpoint,
     project_progression,
     required_average_exp_per_encounter,
@@ -89,6 +92,64 @@ def _equipment_choice_map(
     return choices
 
 
+def _class_state(value: str) -> tuple[str, ClassCexpState]:
+    if ":" not in value:
+        raise argparse.ArgumentTypeError(
+            "class state must use CHARACTER:base=CEXP,subclass=CEXP"
+        )
+    character, raw_fields = (part.strip() for part in value.split(":", 1))
+    if not character or not raw_fields:
+        raise argparse.ArgumentTypeError(
+            "class state must use non-empty CHARACTER:base=CEXP,subclass=CEXP"
+        )
+
+    fields: dict[str, int] = {}
+    for raw_field in raw_fields.split(","):
+        if "=" not in raw_field:
+            raise argparse.ArgumentTypeError(
+                "class state fields must use base=CEXP and subclass=CEXP"
+            )
+        raw_key, raw_cexp = (part.strip() for part in raw_field.split("=", 1))
+        key = raw_key.casefold()
+        if key not in {"base", "subclass"}:
+            raise argparse.ArgumentTypeError(
+                "class state fields must be base and subclass"
+            )
+        if key in fields:
+            raise argparse.ArgumentTypeError(f"duplicate class state field: {key}")
+        try:
+            fields[key] = int(raw_cexp.replace(",", ""))
+        except ValueError as exc:
+            raise argparse.ArgumentTypeError(
+                f"class state {key} CEXP must be an integer"
+            ) from exc
+
+    missing = {"base", "subclass"} - set(fields)
+    if missing:
+        raise argparse.ArgumentTypeError(
+            "class state requires both base=CEXP and subclass=CEXP"
+        )
+    try:
+        state = ClassCexpState(
+            base_cexp=fields["base"],
+            subclass_cexp=fields["subclass"],
+        )
+    except ValueError as exc:
+        raise argparse.ArgumentTypeError(str(exc)) from exc
+    return character, state
+
+
+def _class_state_map(
+    values: list[tuple[str, ClassCexpState]],
+) -> dict[str, ClassCexpState]:
+    states: dict[str, ClassCexpState] = {}
+    for character, state in values:
+        if character in states:
+            raise SystemExit(f"duplicate --class-state for {character}")
+        states[character] = state
+    return states
+
+
 def _markdown_cell(value: object) -> str:
     if value is None:
         return ""
@@ -155,14 +216,26 @@ def build_parser() -> argparse.ArgumentParser:
         help="explicit selected class for a simulation route; repeat for multiple characters",
     )
     progression_audit.add_argument(
+        "--class-state",
+        action="append",
+        type=_class_state,
+        default=[],
+        metavar="CHARACTER:base=CEXP,subclass=CEXP",
+        help=(
+            "validated mandatory-route Base/Subclass CEXP state at an exact named checkpoint; "
+            "repeat for multiple characters"
+        ),
+    )
+    progression_audit.add_argument(
         "--equipment-choice",
         action="append",
         type=_equipment_choice,
         default=[],
         metavar="CHARACTER:SLOT=ITEM",
         help=(
-            "explicit native Ordinary equipment for a simulation snapshot; repeat per slot. "
-            "This is an assumed-owned simulation input, not a canonical acquisition claim"
+            "explicit assumed-owned Ordinary equipment for a simulation snapshot; repeat per slot. "
+            "Native gear uses ordinary access; reciprocal donor gear additionally requires a "
+            "validated --class-state and the source-backed Subclass Class Level gate"
         ),
     )
     progression_audit.add_argument("--format", choices=("json", "csv", "markdown"), default="markdown")
@@ -267,15 +340,16 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     if args.command == "progression-audit":
         class_choices = _class_choice_map(args.class_choice)
+        class_states = _class_state_map(args.class_state)
         equipment_choices = _equipment_choice_map(args.equipment_choice)
         if args.character:
             unrelated = sorted(
-                (set(class_choices) | set(equipment_choices)) - {args.character}
+                (set(class_choices) | set(class_states) | set(equipment_choices)) - {args.character}
             )
             if unrelated:
                 raise SystemExit(
-                    "--character cannot be combined with class/equipment choices for other "
-                    "characters: " + ", ".join(unrelated)
+                    "--character cannot be combined with class/class-state/equipment choices for "
+                    "other characters: " + ", ".join(unrelated)
                 )
 
         if args.chapter is not None and args.checkpoint is not None:
@@ -286,10 +360,40 @@ def main(argv: list[str] | None = None) -> int:
             raise SystemExit(
                 "--chapter/--checkpoint cannot be combined with --start-chapter/--end-chapter"
             )
+        if class_states and args.checkpoint is None:
+            raise SystemExit(
+                "--class-state requires --checkpoint because Class CEXP validation uses exact "
+                "named campaign checkpoints"
+            )
+        if class_states and args.route != "mandatory":
+            raise SystemExit(
+                "--class-state currently supports --route mandatory only; optional/route-specific "
+                "CEXP is not yet modeled"
+            )
 
         try:
             if args.checkpoint is not None:
-                if args.character:
+                if class_states:
+                    if args.character:
+                        rows = (
+                            audit_character_class_aware_named_checkpoint(
+                                args.character,
+                                args.checkpoint,
+                                args.route,
+                                selected_class=class_choices.get(args.character),
+                                equipment_choices=equipment_choices.get(args.character),
+                                class_state=class_states.get(args.character),
+                            ),
+                        )
+                    else:
+                        rows = audit_campaign_class_aware_named_checkpoint(
+                            args.checkpoint,
+                            args.route,
+                            class_choices=class_choices,
+                            equipment_choices=equipment_choices,
+                            class_states=class_states,
+                        )
+                elif args.character:
                     rows = (
                         audit_character_named_checkpoint(
                             args.character,
@@ -342,7 +446,7 @@ def main(argv: list[str] | None = None) -> int:
                         raise SystemExit(
                             f"no recruited audit rows found for {args.character!r} in the selected chapter range"
                         )
-        except (KeyError, ValueError) as exc:
+        except (KeyError, ValueError, TypeError) as exc:
             raise SystemExit(str(exc)) from exc
 
         _print_audit_rows(rows, args.format)
