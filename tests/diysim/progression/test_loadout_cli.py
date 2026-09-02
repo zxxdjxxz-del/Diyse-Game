@@ -72,3 +72,38 @@ def test_progression_audit_best_available_uses_live_weapon_timing(capsys) -> Non
     assert payload[0]["Weapon"] == "Deepforge Blade"
     assert "armor_availability_timing_missing" in payload[0]["Source Gaps"]
     assert "ORDINARY_WEAPONS.md" in payload[0]["Source Paths"]
+
+
+def test_progression_audit_named_checkpoint_uses_internal_chapter13_level(capsys) -> None:
+    exit_code = main([
+        "progression-audit",
+        "--checkpoint",
+        "ch13_last_shelter",
+        "--character",
+        "Cyanis",
+        "--route",
+        "best_available",
+        "--format",
+        "json",
+    ])
+    payload = json.loads(capsys.readouterr().out)
+    assert exit_code == 0
+    assert payload[0]["Checkpoint"] == "Last Shelter"
+    assert payload[0]["Level"] == 60
+    assert payload[0]["Weapon"] == "Deepforge Blade"
+    assert "armor_availability_timing_missing" in payload[0]["Source Gaps"]
+
+
+def test_progression_audit_rejects_chapter_and_named_checkpoint_together() -> None:
+    try:
+        main([
+            "progression-audit",
+            "--chapter",
+            "13",
+            "--checkpoint",
+            "ch13_last_shelter",
+        ])
+    except SystemExit as exc:
+        assert "mutually exclusive" in str(exc)
+    else:
+        raise AssertionError("expected SystemExit")
