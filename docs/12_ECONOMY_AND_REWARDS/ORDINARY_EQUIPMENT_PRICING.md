@@ -1,6 +1,6 @@
 # Diyse — Ordinary Equipment Pricing
 
-**Status:** CATALOG / RELATIVE PRICE STRUCTURE CURRENT / EXACT G DISPLAY VALUES NEED SYNCHRONIZATION
+**Status:** EXACT ORDINARY-EQUIPMENT G PRICE AUTHORITY
 
 Current ordinary catalog:
 > **38 / 38**
@@ -14,71 +14,64 @@ Breakdown:
 The item/stat/source identity remains owned by `08_ITEMS_AND_EQUIPMENT`.
 This file owns the purchase/replacement values.
 
-## Currency
+## Currency and conversion
 All current-facing prices use:
 > **G**
 
-The former currency name **Auren** is retired.
-
-## Price-unit structure
-The existing economy-unit values remain the relative-price authority for the 38-item catalog.
-
-Current display conversion is:
+Current display conversion:
 > **1 economy unit = 200 G**
 
-Therefore the old pre-extra-digit displayed table must not be treated as current G prices.
+For an item with economy-unit value `U`:
+> `PriceG = U × 200`
 
-The synchronized G price for an item is:
-> `PriceG = EconomyUnits × 200`
+## Exact catalog prices
+| Equipment | Units | Buy / replacement price |
+|---|---:|---:|
+| **Dunmere Steel** | 23 | **4,600 G** |
+| **Blue Wardrod** | 22 | **4,400 G** |
+| **Tower Shield** | 11 | **2,200 G** |
+| **Caeloran Plate** | 23 | **4,600 G** |
+| **Warden Fieldmail** | 21 | **4,200 G** |
+| **Swift Focus** | 18 | **3,600 G** |
+| **Warding Shield** | 21 | **4,200 G** |
+| **Battle Focus** | 22 | **4,400 G** |
+| **Deepforge Blade** | 52 | **10,400 G** |
+| **Arcanist Weave** | 31 | **6,200 G** |
+| **Crestguard Plate** | 42 | **8,400 G** |
+| **Weaver Coat** | 38 | **7,600 G** |
+| **Campaign Mail** | 46 | **9,200 G** |
+| **Veycross Battlestaff** | 70 | **14,000 G** |
+| **Crestblade** | 18 | **3,600 G** |
+| **Wardrod** | 17 | **3,400 G** |
+| **Yahtrean War Bow** | 20 | **4,000 G** |
+| **Command War Bow** | 32 | **6,400 G** |
+| **Twin Token** | 29 | **5,800 G** |
+| **Crucible Wardrod** | 42 | **8,400 G** |
+| **Arcanist Staff** | 36 | **7,200 G** |
+| **Index Tablet** | 46 | **9,200 G** |
+| **Ruin Vanguard Sword** | 58 | **11,600 G** |
+| **Storm War Bow** | 64 | **12,800 G** |
+| **Clearing Bell** | 68 | **13,600 G** |
+| **Fieldbreaker** | 84 | **16,800 G** |
+| **Crest Plate** | 15 | **3,000 G** |
+| **Blue Warden Mail** | 15 | **3,000 G** |
+| **War Archer Gear** | 17 | **3,400 G** |
+| **Cardweaver Garb** | 25 | **5,000 G** |
+| **Green Arcanist Garb** | 27 | **5,400 G** |
+| **Annex Guard Mail** | 27 | **5,400 G** |
+| **High Warden Mail** | 34 | **6,800 G** |
+| **Ruin Vanguard Plate** | 35 | **7,000 G** |
+| **Breach Plate** | 47 | **9,400 G** |
+| **Yahtrean Shield** | 9 | **1,800 G** |
+| **War Shield** | 34 | **6,800 G** |
+| **Warding Focus** | 16 | **3,200 G** |
 
-Examples:
-- 23 units → **4,600 G**
-- 17 units → **3,400 G**
-- 84 units → **16,800 G**
+Complete registered catalog value:
+> **251,000 G**
 
-## Catalog economy units
-| Equipment | Price/replacement units | Origin class |
-|---|---:|---|
-| **Dunmere Steel** | 23 | normal shop-origin / duplicate access |
-| **Blue Wardrod** | 22 | normal shop-origin / duplicate access |
-| **Tower Shield** | 11 | normal shop-origin / duplicate access |
-| **Caeloran Plate** | 23 | normal shop-origin / duplicate access |
-| **Warden Fieldmail** | 21 | normal shop-origin / duplicate access |
-| **Swift Focus** | 18 | normal shop-origin / duplicate access |
-| **Warding Shield** | 21 | normal shop-origin / duplicate access |
-| **Battle Focus** | 22 | normal shop-origin / duplicate access |
-| **Deepforge Blade** | 52 | normal shop-origin / duplicate access |
-| **Arcanist Weave** | 31 | normal shop-origin / duplicate access |
-| **Crestguard Plate** | 42 | normal shop-origin / duplicate access |
-| **Weaver Coat** | 38 | normal shop-origin / duplicate access |
-| **Campaign Mail** | 46 | normal shop-origin / duplicate access |
-| **Veycross Battlestaff** | 70 | normal shop-origin / duplicate access |
-| **Crestblade** | 18 | registration/replacement value after authored first access |
-| **Wardrod** | 17 | registration/replacement value after authored first access |
-| **Yahtrean War Bow** | 20 | registration/replacement value after authored first access |
-| **Command War Bow** | 32 | registration/replacement value after authored first access |
-| **Twin Token** | 29 | registration/replacement value after authored first access |
-| **Crucible Wardrod** | 42 | registration/replacement value after authored first access |
-| **Arcanist Staff** | 36 | registration/replacement value after authored first access |
-| **Index Tablet** | 46 | registration/replacement value after authored first access |
-| **Ruin Vanguard Sword** | 58 | registration/replacement value after authored first access |
-| **Storm War Bow** | 64 | registration/replacement value after authored first access |
-| **Clearing Bell** | 68 | registration/replacement value after authored first access |
-| **Fieldbreaker** | 84 | registration/replacement value after authored first access |
-| **Crest Plate** | 15 | registration/replacement value after authored first access |
-| **Blue Warden Mail** | 15 | registration/replacement value after authored first access |
-| **War Archer Gear** | 17 | registration/replacement value after authored first access |
-| **Cardweaver Garb** | 25 | registration/replacement value after authored first access |
-| **Green Arcanist Garb** | 27 | registration/replacement value after authored first access |
-| **Annex Guard Mail** | 27 | registration/replacement value after authored first access |
-| **High Warden Mail** | 34 | registration/replacement value after authored first access |
-| **Ruin Vanguard Plate** | 35 | registration/replacement value after authored first access |
-| **Breach Plate** | 47 | registration/replacement value after authored first access |
-| **Yahtrean Shield** | 9 | registration/replacement value after authored first access |
-| **War Shield** | 34 | registration/replacement value after authored first access |
-| **Warding Focus** | 16 | registration/replacement value after authored first access |
+This is a catalog-value ceiling, not expected campaign spending. Many first copies enter through starting gear, join gear, guaranteed finds, protected caches, or authored rewards.
 
-Count check:
+## Count check
 - shop-origin/duplicate-access price lines: **14**
 - non-shop first-acquisition replacement lines: **24**
 - total: **38**
