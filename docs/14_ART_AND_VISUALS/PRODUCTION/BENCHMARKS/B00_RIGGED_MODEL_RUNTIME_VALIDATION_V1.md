@@ -1,49 +1,57 @@
 # Diyse — B00 Rigged Character Runtime Validation v1
 
-**Status:** **ACTIVE B00 RUNTIME GATE — V5 RIG SOURCE VERIFIED / GODOT PILOT NEXT**  
+**Status:** **ACTIVE B00 RUNTIME GATE — CURRENT CHARACTER MASTERS LOCKED / V5 RIG SOURCE VERIFIED / GODOT PILOT NEXT**  
 **Parent benchmark:** `B00_PARTY_CHARACTER_STYLE_ANCHOR_V1.md`  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`  
+**Character identity authority:** `../CHARACTERS/README.md`  
 **Character readability authority:** `../CHARACTER_SCALE_AND_SILHOUETTE.md`  
 **Prototype rig standard:** `../QUATERNIUS_HUMANOID_RIG_STANDARD_V1.md`
 
 ## 1. Runtime decision
 
-Diyse's permanent party should use **rigged 3D character models as the primary field and battle representation**.
+Diyse's permanent party uses **rigged 3D character models as the primary field and battle representation** once the production rig/model solution passes B00 validation.
 
-The previously planned dedicated ~200–220 px battle redraws and ~80 px field sprites are **not a required B00 production gate** under this runtime direction.
+The previously planned dedicated ~200–220 px battle redraws and ~80 px field sprites are **not required B00 production deliverables**.
 
-The six approved high-resolution B00 character masters remain essential. They are the exact visual authorities that the rigged runtime characters must reproduce.
+The six current repository image masters remain the exact visual authorities that the runtime characters must reproduce. 2D character art remains appropriate for dialogue portraits/busts, menus, Cards/Primes, illustrated cut-ins, promotional art, and other explicitly approved 2D presentation.
 
-2D character art remains appropriate for dialogue portraits/busts, menus, Cards/Primes, illustrated cut-ins, promotional art and deliberately 2D special presentation approved later.
+## 2. Character source authority
 
-## 2. Prototype rig foundation — verified in Master v5
+Before modeling or reviewing any party member, follow `../CHARACTERS/README.md`:
+
+1. current repository master image in `asset_sources/characters/current/`;
+2. matching current visual-lock document;
+3. current B00 / Diyse style rules;
+4. older prose, archived renders, historical fingerprints, generated filenames, or superseded concept notes.
+
+Permanent-party master images:
+- `asset_sources/characters/current/cyanis.jpg`
+- `asset_sources/characters/current/ilyra.jpg`
+- `asset_sources/characters/current/torren.jpg`
+- `asset_sources/characters/current/nimera.jpg`
+- `asset_sources/characters/current/vaelira.jpg`
+- `asset_sources/characters/current/seyrik.jpg`
+
+A runtime model is not approved merely because it is rigged and functional. It must visibly reproduce the current master.
+
+## 3. Prototype rig foundation
 
 The official prototype foundation is the **Quaternius Universal Animation Library humanoid `Armature`**, defined in `../QUATERNIUS_HUMANOID_RIG_STANDARD_V1.md`.
 
-This rig is already present inside the two verified-CC0 animation archives represented by Asset Library Master v5. The user's re-uploaded copies in the active project conversation exactly match the v5 archive SHA-256 values.
+The verified pilot payload represented by Asset Library Master v5 includes the standard and root-motion UAL1/UAL2 rigged mannequin GLBs plus a compatible female mannequin on the same Armature contract. This source is for **technical rig/animation validation**, not character identity.
 
-Important correction: a separate Universal Base Character ZIP is **not required** for the B00 prototype. The animation-library GLBs themselves contain a rigged `Mannequin` mesh and `Armature` skin.
+Never allow mannequin proportions, face, costume, or generic body construction to replace the proportions and identity of a Diyse repository master.
 
-Verified pilot payload includes:
-- `UAL1_Standard.glb` — `Mannequin` + `Armature` + **43 animations**;
-- `UAL1_Standard_RM.glb` — same family with root motion;
-- `UAL2_Standard.glb` — `Mannequin` + `Armature` + **43 additional animations**;
-- `UAL2_Standard_RM.glb` — root-motion counterpart;
-- `Mannequin_F.glb` — female mannequin on the compatible `Armature`, intended for animation retargeting.
+## 4. One character model, multiple runtime contexts
 
-The two libraries therefore supply the already-recorded **86 verified-CC0 animation clips** plus the actual prototype mannequin/rig geometry required for import testing.
-
-## 3. One character model, multiple runtime contexts
-
-Field and battle should normally use the **same character identity, skeleton, rig and master model family**, with context-specific presentation rather than separate character art pipelines.
+Field and battle should normally use the **same character identity, skeleton, rig, and master model family**, with context-specific presentation rather than separate character-art identities.
 
 Differences may include:
 - camera distance and framing;
 - animation state set;
-- weapon visibility / equipped prop state;
-- mesh LOD;
-- hair / cloth / foliage secondary-motion budget;
-- material detail level;
+- weapon/prop visibility;
+- mesh and material LOD;
+- hair/cloth/foliage secondary-motion budget;
 - outline strength;
 - shadow quality;
 - VFX attachment points;
@@ -51,185 +59,167 @@ Differences may include:
 
 Do not create a second visual identity for battle and field.
 
-## 4. Exact B00 source authority
-
-Every runtime character model must be checked against the current fingerprinted B00 master:
-- `../CHARACTERS/CYANIS_CURRENT_VISUAL_LOCK.md`
-- `../CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md`
-- `../CHARACTERS/TORREN_CURRENT_VISUAL_LOCK.md`
-- `../CHARACTERS/NIMERA_CURRENT_VISUAL_LOCK.md`
-- `../CHARACTERS/VAELIRA_CURRENT_VISUAL_LOCK.md`
-- `../CHARACTERS/SEYRIK_CURRENT_VISUAL_LOCK.md`
-
-The approved image controls face, hair, body proportion, costume construction, palette, material separation, weapon/prop identity and silhouette unless explicitly revised later.
-
-A runtime model is not approved merely because it is rigged and functional.
-
 ## 5. Model-match requirements
 
 ### Anatomy / proportion
-- reproduce each character's approved body proportions rather than forcing all six onto one generic body;
+- reproduce each character's current approved body proportions rather than forcing all six onto one generic body;
 - preserve age read and head/body ratio;
-- preserve major height/build differences;
-- do not allow rig retargeting to distort shoulders, hands, limbs or posture.
+- preserve major height/build differences established by the masters;
+- do not allow rig retargeting to distort shoulders, hands, limbs, waist, or posture.
 
 ### Face / hair
-- face must remain recognizably the approved character at neutral camera distance and close dialogue/cutscene distance;
-- preserve locked eye color and facial structure;
-- hair must reproduce the large approved silhouette masses before strand detail;
+- face must remain recognizably the current approved character at neutral and appropriate close presentation distances;
+- preserve the master-controlled facial structure and eye treatment;
+- preserve large hair silhouette masses before strand detail;
 - hair cards/meshes must not become noisy at gameplay distance.
 
 ### Clothing / armor
-- reproduce real garment layering and approved construction;
-- avoid fused coat/skirt/armor geometry where the master establishes separate layers;
+- reproduce the real garment layering and construction shown by the master;
+- do not fuse coat/skirt/cape/armor layers when the master shows them separately;
 - preserve major coat/cape/ghillie silhouettes;
-- armor plates must articulate without obvious clipping or implausible deformation;
-- cloth and armor may use simulation/secondary motion only when stable and readable.
+- armor plates must articulate without implausible deformation or severe clipping;
+- cloth and armor secondary motion must remain stable and readable.
 
 ### Weapons / props
-- preserve approved weapon family, scale and silhouette;
+- preserve the approved weapon family, scale, silhouette, and left/right carry layout;
 - weapon grip points must support actual combat usage;
-- two-handed weapons must be rigged and animated as two-handed weapons even if a neutral pose uses one hand;
-- Cards/books/staves/bows/quivers/shields/foci should use stable attachment points rather than floating or per-animation manual offsets wherever possible.
+- two-handed weapons must be rigged and animated as two-handed weapons;
+- Cards/books/staves/bows/quivers/shields/foci should use stable attachment points;
+- gameplay-equipment variation must not rewrite a character's locked neutral identity.
 
 ## 6. Diyse runtime material treatment
 
-The runtime model must translate B00's graphic seinen/anime rendering into real-time materials rather than attempting photoreal PBR.
+Translate B00's graphic seinen/anime rendering into real-time materials rather than photoreal PBR.
 
-### Base treatment
+Required behavior:
 - graphic cel-informed value grouping;
-- approximately 2–4 dominant light/value bands where appropriate;
+- roughly 2–4 dominant light/value bands where useful;
 - rich but controlled color;
 - simplified material response;
 - selective crisp metal highlights;
-- cloth and leather clearly less reflective than metal;
+- cloth/leather less reflective than metal;
 - no glossy mobile-gacha plastic look;
 - no photoreal texture noise;
 - no random grunge/speckle used as detail.
 
 ### Outline / ink treatment
+
 The runtime line solution should reproduce the **rhythm** of chaotic variable line weight rather than literally drawing every master-art stroke.
 
-Preferred behavior:
+Prefer:
 - strongest outer silhouette;
 - heavier marks at major overlaps and deep occlusion;
-- thinner/selective interior line accents;
-- width influenced by camera distance, facing angle, object/material masks or authored weight maps;
-- optional authored texture/decal ink accents for signature armor/fabric/hair features;
-- do not uniformly outline every polygon edge.
+- thinner/selective interior accents;
+- camera-aware line width;
+- authored masks/weight maps where useful;
+- optional authored texture/decal ink accents for signature features;
+- no uniform outline around every polygon edge.
 
-A hybrid approach is allowed: geometry/post-process silhouette line plus authored interior ink accents.
+A hybrid silhouette-line plus authored-interior-ink solution is allowed.
 
 ## 7. Field presentation validation
 
-Field validation is performed at the **actual exploration camera and target display resolution**, not by creating an 80 px sprite.
+Validate at the actual exploration camera and target display resolution.
 
 A field model passes when:
-- the character is identifiable immediately by silhouette and palette;
-- head/hair mass still reads;
+- identity is immediate from silhouette and palette;
+- head/hair mass remains readable;
 - major coat/cape/ghillie/skirt shapes survive;
 - signature weapon/prop remains readable when normally shown;
 - line treatment does not shimmer or collapse into noise;
 - small accessories do not become distracting flicker;
-- animation remains readable while moving through representative environments.
+- animation remains readable in representative environments.
 
-LOD/material simplification is preferred over creating a separate sprite identity.
+Use LOD/material simplification rather than a separate sprite identity.
 
 ## 8. Battle presentation validation
 
-Battle validation is performed at the **actual battle camera and target display resolution**, not by creating a 200–220 px battle redraw.
+Validate at the actual battle camera and target display resolution.
 
 A battle model passes when:
 - stance and weapon silhouette are immediately readable;
-- face/hair identity survives at intended camera distance;
+- face/hair identity survives at intended distance;
 - major material divisions remain clear;
-- attack anticipation, impact, hit reaction and recovery remain readable;
+- attack anticipation, impact, hit reaction, and recovery remain readable;
 - armor/cloth/hair secondary motion does not obscure action;
 - VFX overlap does not erase silhouette or status readability;
 - outline/material treatment remains stable during animation.
 
 ## 9. Animation / rig validation
 
-The v5 Quaternius rig solution must pass:
-- clean Godot import of `UAL1_Standard.glb`;
-- `Armature` hierarchy/rest-pose inspection;
-- all 43 UAL1 animations visible/imported;
-- non-root-motion vs `_RM` comparison;
-- neutral idle;
-- walk / run;
-- turn / direction change;
-- battle ready / idle;
-- basic attack appropriate to the equipped weapon;
+The prototype rig solution must pass:
+- clean Godot import and skeleton/rest-pose inspection;
+- animation visibility/import checks;
+- non-root-motion vs root-motion comparison;
+- idle, walk, run, turn, and direction-change behavior;
+- battle-ready/idle;
+- basic attack appropriate to equipped weapon;
 - hit reaction;
-- defend/guard presentation where applicable;
-- ability casting/action pose;
+- defend/guard where applicable;
+- ability/casting action;
 - KO/downed state;
-- female mannequin retarget test;
-- UAL2 animation extension test;
-- transition between exploration and combat presentation if the same rig is reused directly.
+- compatible female-proportion retarget test;
+- extension-library animation test;
+- exploration/combat transition behavior where the same rig is reused.
 
-Retargeted motion is not automatically final. Each clip must be checked for Diyse character weight, weapon logic, foot contact, hand placement and silhouette.
+Retargeted motion is not automatically final. Check each clip for Diyse character weight, weapon logic, foot contact, hand placement, and silhouette.
 
 ## 10. Character-specific runtime stress tests
 
 ### Cyanis
-Test silver-armor vs royal-blue/black separation, bilateral shoulders, longcoat motion and clean knight silhouette.
+Test royal-blue/black cloth vs layered silver armor separation, long split outer-garment motion, and mobile battle-knight readability.
 
 ### Ilyra
-Test pale-value readability, long blonde hair/cape motion and Wardrod/Shield/Focus attachment logic without sword drift.
+Test pale-value readability, long blonde hair/cape motion, natural slightly athletic proportions, and Wardrod/Shield/Focus attachment logic without sword drift.
 
 ### Torren
-Test bow/quiver placement, ghillie-cape silhouette, foliage secondary motion and avoidance of alpha-card noise.
+Test back-mounted bow, exact right-hip arrow draw/quiver layout, mixed-foliage ghillie silhouette, field gear, and foliage secondary motion without alpha-card noise.
 
 ### Nimera
-Test dense braided hair, waist-tied constellation garment, Card/book attachments and utility hardware without clipping or noisy motion.
+Test dense braided/updo hair, purple constellation waist garment, green Cardweaver book/card attachments, and utility hardware without clipping or noisy motion.
 
 ### Vaelira
-Test long crimson hair, emerald coat/skirt, black bodysuit, silver accents, tall boots and Arcane Staff handling. No archer/ranger cues.
+Test long crimson/burgundy hair, emerald/black/silver garment separation, Arcane Staff handling, and vivid caster silhouette. **No archer/ranger cues or bow animations.**
 
 ### Seyrik
-Test broad muscular proportions, red-dominant coat, Black Host skeletal/biomechanical plate articulation and oversized two-handed greatsword handling.
+Test broad muscular proportions, black/crimson Black Host skeletal/rib-like armor articulation, long outer-garment mass, and oversized two-handed greatsword handling.
 
 ## 11. B00 model-validation sequence
 
 Completed:
-1. preserve the six fingerprinted B00 masters as visual authority;
-2. identify/hash the exact Quaternius-compatible rigged humanoid pilot source inside Master v5.
+1. lock the six current repository masters as character identity authority;
+2. align the six visual-lock documents and character authority index;
+3. verify the Quaternius-compatible rigged humanoid pilot source used by the V5 technical prototype.
 
 Next:
-3. import `UAL1_Standard.glb` into Godot and validate skeleton/animation behavior;
-4. compare `_RM` root-motion behavior;
-5. validate `Mannequin_F.glb` retargeting on the same rig contract;
-6. create one B00-faithful character model/material pilot;
-7. validate neutral studio render against the approved master;
-8. validate the same model at field camera distance;
-9. validate the same model at battle camera distance;
-10. test idle/walk/run/basic battle animation;
-11. test representative B01 stone, B03 foliage and B10 prop environment context;
-12. test representative B06 VFX overlap;
+4. import the standard pilot GLB into Godot and validate skeleton/animation behavior;
+5. compare root-motion behavior;
+6. validate compatible female retargeting on the same rig contract;
+7. create one B00-faithful character model/material pilot;
+8. validate its neutral presentation directly against the current repository master;
+9. validate the same model at field camera distance;
+10. validate the same model at battle camera distance;
+11. test representative exploration/battle animation;
+12. test representative B01 stone, B03 foliage, B10 props, and B06 VFX overlap;
 13. correct shader/outline/LOD/rig issues;
-14. propagate the proven model/material/rig grammar across all six characters;
-15. compare all six together for silhouette and palette separation;
-16. close B00 only after the runtime models belong visibly to the same game as the approved masters and benchmark environments.
+14. propagate only the proven model/material/rig grammar across all six;
+15. compare all six together for silhouette, palette, scale, and animation separation;
+16. close B00 only when the runtime models visibly belong to the same game as the current masters.
 
-## 12. First pilot
+## 12. First technical and visual pilots
 
-Use `Universal Animation Library[Standard]/Unreal-Godot/UAL1_Standard.glb` as the default technical pilot because it already contains the `Mannequin`, `Armature` and 43 non-root-motion animations in a Godot-targeted glTF container.
+Use the verified V5 standard non-root-motion mannequin GLB as the default **technical rig** pilot and its root-motion counterpart for comparison. Use the compatible female mannequin for shared-rig proportion/retarget testing.
 
-Use its `_RM` sibling for root-motion comparison and `Mannequin_F.glb` for shared-rig female-proportion validation.
-
-Once the rig itself passes, **Cyanis** remains the preferred first B00 character-style target because his blue/black cloth plus silver armor gives a clean material and outline baseline.
+Once the rig itself passes, **Cyanis** remains the preferred first B00 character-style model target because his blue/black cloth plus silver armor provides a clean material/outline baseline. His actual model must be built from `asset_sources/characters/current/cyanis.jpg`, not from the mannequin or an older Cyanis render.
 
 ## 13. Asset Forge / Godot boundary
 
-Existing `tools/asset_forge/model_render_engine.py` is useful for deterministic glTF/material validation, but it explicitly remains a **validation renderer rather than the final Godot renderer**.
+Asset Forge's glTF/material renderer can support deterministic source and material review, but it is not the final Godot renderer. Final character motion, retargeting, skin deformation, shader behavior, outlines, camera distance, lighting, shadows, secondary motion, and VFX overlap must be validated in Godot.
 
-Existing animation tooling may support source/sequence validation, but final character motion, skeleton retargeting, skin deformation, shader behavior and runtime camera tests must be validated in Godot.
-
-Do not mistake a successful offline Asset Forge render for final runtime approval.
+Do not mistake a successful offline render for final runtime approval.
 
 ## 14. Gate
 
 Current B00 gate:
 
-`6/6 HIGH-RES MASTERS LOCKED → V5 QUATERNIUS RIG SOURCE VERIFIED → GODOT IMPORT/ROOT-MOTION/RETARGET TEST NEXT → B00 MODEL/SHADER PILOT → FIELD + BATTLE CAMERA VALIDATION → B01/B03/B10/B06 CROSS-CHECK → B00 PASS`
+`6/6 CURRENT REPOSITORY MASTERS LOCKED → CHARACTER AUTHORITY ALIGNED → V5 RIG SOURCE VERIFIED → GODOT IMPORT/ROOT-MOTION/RETARGET TEST → B00 MODEL/SHADER PILOT → FIELD + BATTLE CAMERA VALIDATION → B01/B03/B10/B06 CROSS-CHECK → SIX-CHARACTER RUNTIME COHESION → B00 PASS`
