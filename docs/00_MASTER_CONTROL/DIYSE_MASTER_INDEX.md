@@ -3,6 +3,11 @@
 ## Authority
 Newest explicit approved correction → current owning domain → `00_MASTER_CONTROL` cross-domain rule → `90_WORKING` only for unresolved work → `99_ARCHIVE` for provenance only.
 
+Cross-domain terminology handoffs:
+- current class names → `CLASS_TERMINOLOGY_CURRENT.md`
+- current Face names → `FACE_TERMINOLOGY_CURRENT.md`
+- retired-name migration map → `RETIRED_TERMINOLOGY_MAP.md`
+
 ## Active domains
 ### 01_CHARACTERS
 Playable/supporting/antagonist identities, relationships and chronology.
@@ -38,13 +43,19 @@ Level/EXP spine, CEXP model, encounter pacing and optional progression.
 6 Character Quests, 5 Side Quests and Hunt access/presentation.
 
 ### 12_ECONOMY_AND_REWARDS
-Auren, prices, shops, ordinary-equipment backfill and reward boundaries.
+**G**, prices, shops, ordinary-equipment backfill and reward boundaries.
 
 ### 13_UI_AND_IMPLEMENTATION
 Production UI/runtime requirements and current Godot proof divergence.
 
 ### 14_ART_AND_VISUALS
 Exact visual authorities, HD-2D grammar, environment/VFX production rules, and authoritative asset inventory/provenance routing.
+
+Current exact character-image masters are stored under:
+`asset_sources/characters/current/`
+
+Current character visual authority index:
+`docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`
 
 ### 15_AUDIO_AND_MUSIC
 OPEN soundtrack authority, sound-design requirements and research archive.
@@ -63,16 +74,12 @@ Balance closure/open status, regression plans and release gates.
 
 Next work should happen inside the owning subject domain, using `90_WORKING` only as a temporary drafting/staging area.
 
-## Current enemy/balance checkpoint — v90
-- Enemy direct-damage Power audit — **CLOSED**.
-- Mandatory-vs-completionist campaign paper validation — **COMPLETE Chapters 0–13**.
-- Enemy static design — **CLOSED v90**.
-- Character Quest combat bosses have exact production sheets.
-- Chapter 1–13 formation composition/weight authority is present; Chapter 0 is authored/tutorial-only.
-- Targetable support objects/components are numerically complete.
-- Missing migrated action percentages use `09_ENEMIES_AND_ENCOUNTERS/ACTION_SELECTION_DEFAULT.md`; explicit weights override it.
-- Bounded authored placements/Hunt return triggers remain story-owned, not enemy-design gaps.
-- Runtime encounter QA remains later testing work.
-- CEXP recalibration — **CLOSED v91** at normal-route full Base + Subclass completion ~Lv55–60.
-- Prime loadout migration omission fixed: **1 slot from Chapter 4 Prime-loadout access until Sixfold Volition; 2 after Volition**.
-- Next: **canonical mandatory/completionist party snapshots + representative true-battle simulations**.
+## Current routing checkpoint
+- core enemy static design remains closed unless explicitly reopened;
+- historical balance reports remain evidence, not an automatic work queue;
+- current CEXP/class-progression authority is owned by `10_PROGRESSION_AND_EXP` and `06_CLASSES_AND_ABILITIES`;
+- Prime loadout access remains **1 slot from Chapter 4 Prime-loadout access until Sixfold Volition; 2 after Volition**;
+- playable-area/route layout production is an active project stream;
+- character visual masters and their production locks are now repository-backed under the current visual authority system.
+
+For unresolved work, follow `OPEN_AND_PENDING_WORK.md` rather than historical “Next” lines embedded in older reports.
