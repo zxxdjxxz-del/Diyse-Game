@@ -27,6 +27,7 @@ Use this file when cleaning old text, code comments, filenames or notes.
 | Change Face | Memory |
 | Last Measure | Last Cartographer |
 | Sixfold Accord | Sixfold Volition |
+| Auren | G |
 | MDEF / Magic Defense as display term | Spirit |
 | Accuracy as character stat | no natural Accuracy; use Base Hit where appropriate |
 | Concordant Prime stage | removed |
@@ -36,6 +37,14 @@ Use this file when cleaning old text, code comments, filenames or notes.
 | Brace combat mechanic | removed |
 | Break/Stagger meter | removed |
 | general Accessory slot | removed |
+
+## Currency migration note
+Current ordinary currency:
+> **G**
+
+Historical/current-facing economy text should not use **Auren** except when explicitly discussing retired provenance.
+
+Technical/runtime variables may temporarily retain names such as `gold` during implementation migration, but UI/design authority must use **G** and current G-scale values.
 
 ## Face migration note
 Historical Face migration chain:
