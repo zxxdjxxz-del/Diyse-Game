@@ -16,7 +16,23 @@ Read in this order:
 
 When sources conflict, follow `docs/00_MASTER_CONTROL/AUTHORITY_AND_CHANGE_CONTROL.md`.
 
+Current cross-domain terminology handoffs:
+- classes → `docs/00_MASTER_CONTROL/CLASS_TERMINOLOGY_CURRENT.md`
+- Faces → `docs/00_MASTER_CONTROL/FACE_TERMINOLOGY_CURRENT.md`
+
 `docs/99_ARCHIVE/` is never current authority.
+
+## Character visual masters
+
+Current exact character source/reference masters are repository-backed under:
+
+`asset_sources/characters/current/`
+
+Their production authority order and matching visual-lock documents are indexed in:
+
+`docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`
+
+For those characters, the current repository master image controls exact appearance when older prose, archived renders, or historical hashes conflict with it.
 
 ## Implementation status
 
@@ -34,6 +50,7 @@ The existing Godot runtime is an implementation foundation. Proof data, proof na
 - `tests/` — automated/regression validation
 - `tools/` — project tooling
 - `docs/` — current organized canon, design, implementation requirements, working queue, and archive
+- `asset_sources/` — source/reference art and other production inputs, separated by provenance/storage rules
 - `.github/` — CI/workflows
 - `project.godot` — Godot project definition
 - `export_presets.cfg` — export configuration
