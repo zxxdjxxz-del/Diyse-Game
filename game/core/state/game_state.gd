@@ -2,6 +2,16 @@ extends Node
 
 const DEFAULT_AREA := "field_proof"
 const STARTING_WALLET_G := 2500
+const MAX_ACTIVE_PARTY_SIZE := 4
+const PERMANENT_CHARACTER_IDS := ["cyanis", "ilyra", "torren", "nimera", "vaelira", "seyrik"]
+const PERMANENT_CHARACTER_DISPLAY_NAMES := {
+	"cyanis": "Cyanis",
+	"ilyra": "Ilyra",
+	"torren": "Torren",
+	"nimera": "Nimera",
+	"vaelira": "Vaelira",
+	"seyrik": "Seyrik"
+}
 const EQUIPMENT_FACES := ["Might", "Elements", "Grace", "Perception", "Memory", "Ruin"]
 const RETIRED_EQUIPMENT_FACE_ALIASES := {
 	"resource": "Perception",
@@ -12,7 +22,16 @@ const MAX_RELIC_COPY_COMPONENTS_PER_FACE := 3
 
 var current_area: String
 var field_position: Vector3
+
+# Legacy proof battle fixture. This remains separate until the production battle
+# core is migrated; it is not the authoritative permanent-roster model.
 var party: Array[Dictionary]
+
+# Production-capable permanent-roster layer. Stable character IDs are separate
+# from current display names, recruitment state, and active-party membership.
+var character_roster: Dictionary
+var active_party_ids: Array[String] = []
+
 var inventory: Dictionary
 var standard_cards: Array[String]
 var primes: Dictionary
@@ -34,12 +53,21 @@ func _init() -> void:
 func reset_defaults() -> void:
 	current_area = DEFAULT_AREA
 	field_position = Vector3(0.0, 0.9, 4.0)
+
+	# Keep the accepted four-character proof fixture intact while production
+	# roster/state is introduced beside it. Final stat values are not inferred
+	# from this fixture.
 	party = [
 		{"name": "Cyanis", "hp": 46, "max_hp": 46, "mp": 12, "max_mp": 12},
 		{"name": "Ilyra", "hp": 40, "max_hp": 40, "mp": 18, "max_mp": 18},
 		{"name": "Torren", "hp": 44, "max_hp": 44, "mp": 10, "max_mp": 10},
 		{"name": "Nimera", "hp": 38, "max_hp": 38, "mp": 16, "max_mp": 16}
 	]
+
+	character_roster = default_character_roster()
+	active_party_ids.clear()
+	active_party_ids.append("cyanis")
+
 	inventory = {"Potion": 3}
 	standard_cards = ["proof_might_strike"]
 	primes = {
@@ -74,6 +102,92 @@ func reset_defaults() -> void:
 	rewards = {"xp": 0, "gold": 0}
 	wallet_g = STARTING_WALLET_G
 	clear_transient_encounter_state()
+
+static func default_character_roster() -> Dictionary:
+	var result: Dictionary = {}
+	for raw_id in PERMANENT_CHARACTER_IDS:
+		var character_id := str(raw_id)
+		result[character_id] = {
+			"character_id": character_id,
+			"display_name": str(PERMANENT_CHARACTER_DISPLAY_NAMES.get(character_id, character_id)),
+			"recruited": character_id == "cyanis",
+			# Reserved extensible envelope for later owner-domain progression and
+			# loadout state. Stage 3 deliberately does not invent final values.
+			"persistent_state": {}
+		}
+	return result
+
+func is_permanent_character_id(character_id: String) -> bool:
+	return not _canonical_permanent_character_id(character_id).is_empty()
+
+func character_record(character_id: String) -> Dictionary:
+	var canonical_id := _canonical_permanent_character_id(character_id)
+	if canonical_id.is_empty():
+		return {}
+	var record = character_roster.get(canonical_id, {})
+	if not (record is Dictionary):
+		return {}
+	return record.duplicate(true)
+
+func character_display_name(character_id: String) -> String:
+	var canonical_id := _canonical_permanent_character_id(character_id)
+	if canonical_id.is_empty():
+		return ""
+	return str(PERMANENT_CHARACTER_DISPLAY_NAMES.get(canonical_id, ""))
+
+func is_character_recruited(character_id: String) -> bool:
+	var canonical_id := _canonical_permanent_character_id(character_id)
+	if canonical_id.is_empty():
+		return false
+	var record = character_roster.get(canonical_id, {})
+	return record is Dictionary and bool(record.get("recruited", false))
+
+func recruited_character_ids() -> Array[String]:
+	var result: Array[String] = []
+	for raw_id in PERMANENT_CHARACTER_IDS:
+		var character_id := str(raw_id)
+		if is_character_recruited(character_id):
+			result.append(character_id)
+	return result
+
+func recruit_character(character_id: String) -> bool:
+	var canonical_id := _canonical_permanent_character_id(character_id)
+	if canonical_id.is_empty():
+		return false
+	var record = character_roster.get(canonical_id, {})
+	if not (record is Dictionary):
+		return false
+	if bool(record.get("recruited", false)):
+		return false
+	record["recruited"] = true
+	record["character_id"] = canonical_id
+	record["display_name"] = character_display_name(canonical_id)
+	if not (record.get("persistent_state", {}) is Dictionary):
+		record["persistent_state"] = {}
+	character_roster[canonical_id] = record
+	return true
+
+func active_party_character_ids() -> Array[String]:
+	var result: Array[String] = []
+	for character_id in active_party_ids:
+		result.append(character_id)
+	return result
+
+func set_active_party(character_ids: Array) -> bool:
+	if character_ids.is_empty() or character_ids.size() > MAX_ACTIVE_PARTY_SIZE:
+		return false
+	var normalized: Array[String] = []
+	var seen: Dictionary = {}
+	for raw_id in character_ids:
+		var character_id := _canonical_permanent_character_id(str(raw_id))
+		if character_id.is_empty() or seen.has(character_id) or not is_character_recruited(character_id):
+			return false
+		seen[character_id] = true
+		normalized.append(character_id)
+	active_party_ids.clear()
+	for character_id in normalized:
+		active_party_ids.append(character_id)
+	return true
 
 func wallet_balance_g() -> int:
 	return wallet_g
@@ -291,7 +405,11 @@ func to_save_dict(schema_version: int) -> Dictionary:
 			"y": field_position.y,
 			"z": field_position.z
 		},
+		# Legacy proof fixture remains persisted for proof compatibility until the
+		# production battle migration removes its dependency.
 		"party": party.duplicate(true),
+		"character_roster": character_roster.duplicate(true),
+		"active_party_ids": active_party_character_ids(),
 		"inventory": inventory.duplicate(true),
 		"standard_cards": standard_cards.duplicate(),
 		"primes": primes.duplicate(true),
@@ -316,6 +434,13 @@ func apply_save_dict(data: Dictionary) -> bool:
 	if loaded_wallet_g < 0:
 		return false
 
+	var loaded_roster := _normalize_character_roster(data.get("character_roster", {}))
+	if loaded_roster.is_empty():
+		return false
+	var loaded_active_ids := _string_array(data.get("active_party_ids", []))
+	if not _active_party_ids_are_valid(loaded_active_ids, loaded_roster):
+		return false
+
 	current_area = str(data.get("area", DEFAULT_AREA))
 	field_position = Vector3(
 		float(position_data.get("x", 0.0)),
@@ -323,6 +448,10 @@ func apply_save_dict(data: Dictionary) -> bool:
 		float(position_data.get("z", 4.0))
 	)
 	party = _dictionary_array(data.get("party", []))
+	character_roster = loaded_roster
+	active_party_ids.clear()
+	for character_id in loaded_active_ids:
+		active_party_ids.append(character_id)
 	inventory = _dictionary_or_empty(data.get("inventory", {}))
 	standard_cards = _string_array(data.get("standard_cards", []))
 	primes = _dictionary_or_empty(data.get("primes", {}))
@@ -338,6 +467,48 @@ func apply_save_dict(data: Dictionary) -> bool:
 	# encounter request or battle return result.
 	clear_transient_encounter_state()
 	return true
+
+func _normalize_character_roster(value: Variant) -> Dictionary:
+	if not (value is Dictionary):
+		return {}
+	var source: Dictionary = value
+	var result: Dictionary = {}
+	for raw_id in PERMANENT_CHARACTER_IDS:
+		var character_id := str(raw_id)
+		var raw_record = source.get(character_id, {})
+		if not (raw_record is Dictionary):
+			return {}
+		var record: Dictionary = raw_record.duplicate(true)
+		record["character_id"] = character_id
+		# Display names normalize to current first-name-only identities so a stale
+		# persisted surname cannot outrank current character authority.
+		record["display_name"] = str(PERMANENT_CHARACTER_DISPLAY_NAMES.get(character_id, character_id))
+		record["recruited"] = bool(record.get("recruited", false))
+		var persistent_state = record.get("persistent_state", {})
+		record["persistent_state"] = persistent_state.duplicate(true) if persistent_state is Dictionary else {}
+		result[character_id] = record
+	# Cyanis is the starting permanent protagonist and is always part of the
+	# recruited roster once a production save exists.
+	result["cyanis"]["recruited"] = true
+	return result
+
+func _active_party_ids_are_valid(character_ids: Array[String], roster: Dictionary) -> bool:
+	if character_ids.is_empty() or character_ids.size() > MAX_ACTIVE_PARTY_SIZE:
+		return false
+	var seen: Dictionary = {}
+	for raw_id in character_ids:
+		var character_id := _canonical_permanent_character_id(raw_id)
+		if character_id.is_empty() or seen.has(character_id):
+			return false
+		var record = roster.get(character_id, {})
+		if not (record is Dictionary) or not bool(record.get("recruited", false)):
+			return false
+		seen[character_id] = true
+	return true
+
+func _canonical_permanent_character_id(character_id: String) -> String:
+	var normalized := character_id.strip_edges().to_lower()
+	return normalized if normalized in PERMANENT_CHARACTER_IDS else ""
 
 func _registered_relic_copy_component_count(face: String) -> int:
 	var canonical_face := _canonical_equipment_face(face)
