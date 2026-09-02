@@ -10,5 +10,5 @@ environment_family = "CH00_RECOVERY_LINE"
 battle_background_family = "CH00_RECOVERY_LINE"
 cutscene_tier = "C1"
 vfx_tier = "V1"
-encounter_mode = "fixed_authored"
-presentation_tags = Array[String](["HD2D", "TUTORIAL_FIXED", "NO_RANDOM", "STABILIZATION_INTERVAL"])
+encounter_mode = "none"
+presentation_tags = Array[String](["HD2D", "TUTORIAL_FIXED", "NO_RANDOM", "STABILIZATION_INTERVAL", "NO_COMBAT"])
