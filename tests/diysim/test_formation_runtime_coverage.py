@@ -32,6 +32,36 @@ def test_implicit_single_member_counts_are_parsed_as_one():
     assert all(member.enemy is not None for member in annex_probe.members)
 
 
+def test_authority_safe_formation_aliases_resolve():
+    formations = build_formation_catalog()
+
+    servitor_screen = next(formation for formation in formations if formation.name == "Servitor Screen")
+    furnace = next(member for member in servitor_screen.members if member.label == "Furnace Servitor")
+    assert furnace.enemy is not None
+    assert furnace.enemy.source_path.endswith("/FURNACE_SERVITOR.md")
+
+    crossfire = next(formation for formation in formations if formation.name == "Crossfire Post")
+    ballistae = next(member for member in crossfire.members if member.label == "Hollow Watch Ballistae")
+    assert ballistae.enemy is not None
+    assert ballistae.enemy.name == "Hollow Watch Ballista"
+
+    registry = next(formation for formation in formations if formation.name == "Registry Line")
+    echoes = next(member for member in registry.members if member.label == "Role Echoes")
+    assert echoes.enemy is not None
+    assert echoes.enemy.name == "Role Echo"
+
+    roc_screen = next(formation for formation in formations if formation.name == "Roc Screen")
+    skirmisher = next(member for member in roc_screen.members if member.label == "Sky Skirmisher")
+    assert skirmisher.enemy is not None
+    assert skirmisher.enemy.name == "Black Host Sky Skirmisher"
+
+    # Multiple owner sheets end in War-Sorcerer, so generic alias resolution must
+    # remain conservative until chapter/owner authority disambiguates it.
+    marker_screen = next(formation for formation in formations if formation.name == "Marker Screen")
+    war_sorcerer = next(member for member in marker_screen.members if member.label == "War-Sorcerer")
+    assert war_sorcerer.enemy is None
+
+
 def test_every_formation_is_explicitly_ready_or_blocked():
     formations = build_formation_catalog()
     assert formations
