@@ -1,11 +1,13 @@
 """Build chapter-by-chapter character stat/loadout audit snapshots."""
 from __future__ import annotations
 
+from collections.abc import Mapping
 from dataclasses import dataclass
 from pathlib import Path
 
 from ..sources.campaign_progression import (
     CAMPAIGN_LEVEL_SPINE_PATH,
+    SUBCLASS_UNLOCK_CHAPTER,
     CharacterCampaignSource,
     load_campaign_checkpoint,
     load_campaign_level_targets,
@@ -31,6 +33,7 @@ class CharacterLoadoutAudit:
     character: str
     level: int | None
     class_name: str | None
+    class_selection_explicit: bool
     weapon: str | None
     armor: str | None
     secondary: str | None
@@ -54,6 +57,7 @@ class CharacterLoadoutAudit:
             "Character": self.character,
             "Level": self.level,
             "Class": self.class_name,
+            "Class Selection": "Explicit" if self.class_selection_explicit else "Base floor",
             "Weapon": self.weapon,
             "Armor": self.armor,
             "Secondary": (
@@ -133,6 +137,52 @@ def _checkpoint_level(
     return target.level, target.label, gaps, paths
 
 
+def _resolve_selected_class(
+    campaign: CharacterCampaignSource,
+    chapter: int,
+    selected_class: str | None,
+) -> tuple[str, bool, list[ProgressionSourceGap], list[str]]:
+    if selected_class is None:
+        gaps: list[ProgressionSourceGap] = []
+        paths = [campaign.class_source_path]
+        if chapter >= SUBCLASS_UNLOCK_CHAPTER:
+            gaps.append(
+                ProgressionSourceGap(
+                    "selected_class_route_missing",
+                    "Subclasses are available at the end of Chapter 7 after Sixfold Volition, "
+                    "but no selected class was supplied for this simulation checkpoint. "
+                    "The native Base Class is retained as a source-backed floor snapshot.",
+                    campaign.subclass_unlock_source_path,
+                )
+            )
+            paths.append(campaign.subclass_unlock_source_path)
+        return campaign.base_class, False, gaps, paths
+
+    normalized = selected_class.strip().casefold()
+    legal = {
+        campaign.base_class.casefold(): (campaign.base_class, campaign.class_source_path),
+        campaign.subclass.casefold(): (campaign.subclass, campaign.subclass_source_path),
+    }
+    resolved = legal.get(normalized)
+    if resolved is None:
+        choices = ", ".join(campaign.selectable_classes)
+        raise ValueError(
+            f"{selected_class!r} is not a selectable class for {campaign.character}. "
+            f"Legal choices: {choices}."
+        )
+
+    class_name, source_path = resolved
+    paths = [source_path]
+    if class_name == campaign.subclass:
+        if chapter < SUBCLASS_UNLOCK_CHAPTER:
+            raise ValueError(
+                f"{campaign.subclass} is not usable for {campaign.character} before the "
+                f"Sixfold Volition at the end of Chapter {SUBCLASS_UNLOCK_CHAPTER}."
+            )
+        paths.append(campaign.subclass_unlock_source_path)
+    return class_name, True, [], paths
+
+
 def _build_character_audit(
     *,
     campaign: CharacterCampaignSource,
@@ -143,26 +193,19 @@ def _build_character_audit(
     loadout: ResolvedLoadout,
     level_gaps: list[ProgressionSourceGap],
     level_paths: list[str],
+    selected_class: str | None,
     root: Path | None,
 ) -> CharacterLoadoutAudit:
-    class_name: str | None = campaign.base_class
-    class_gaps: list[ProgressionSourceGap] = []
-    class_paths = [campaign.class_source_path]
-    if chapter >= 7:
-        class_gaps.append(
-            ProgressionSourceGap(
-                "selected_class_route_missing",
-                "Subclasses are available at the end of Chapter 7 after Sixfold Volition, "
-                "but the repo does not define one required selected class for this route/checkpoint. "
-                "The native Base Class is retained as a source-backed floor snapshot.",
-                campaign.class_source_path,
-            )
-        )
+    class_name, class_selection_explicit, class_gaps, class_paths = _resolve_selected_class(
+        campaign,
+        chapter,
+        selected_class,
+    )
 
     stats: Stats | None = None
     evasion: int | None = None
     status_resistance: int | None = None
-    if level is not None and class_name is not None and loadout.slots_complete:
+    if level is not None and loadout.slots_complete:
         equipment_bonuses, evasion_bonus, status_resistance_bonus = combine_equipment_bonuses(
             loadout.equipment_names,
             root=root,
@@ -198,6 +241,7 @@ def _build_character_audit(
         character=campaign.character,
         level=level,
         class_name=class_name,
+        class_selection_explicit=class_selection_explicit,
         weapon=loadout.weapon,
         armor=loadout.armor,
         secondary=loadout.secondary,
@@ -215,6 +259,7 @@ def audit_character_checkpoint(
     chapter: int,
     assumption: ProgressionAssumption = "mandatory",
     *,
+    selected_class: str | None = None,
     root: Path | None = None,
 ) -> CharacterLoadoutAudit:
     """Calculate a source-backed end-of-chapter character snapshot."""
@@ -241,6 +286,7 @@ def audit_character_checkpoint(
         loadout=loadout,
         level_gaps=level_gaps,
         level_paths=level_paths,
+        selected_class=selected_class,
         root=root,
     )
 
@@ -250,6 +296,7 @@ def audit_character_named_checkpoint(
     checkpoint_key: str,
     assumption: ProgressionAssumption = "mandatory",
     *,
+    selected_class: str | None = None,
     root: Path | None = None,
 ) -> CharacterLoadoutAudit:
     """Audit one exact named campaign checkpoint from current repository authority."""
@@ -287,6 +334,7 @@ def audit_character_named_checkpoint(
         loadout=loadout,
         level_gaps=level_gaps,
         level_paths=[checkpoint.source_path],
+        selected_class=selected_class,
         root=root,
     )
 
@@ -295,10 +343,18 @@ def audit_campaign_checkpoint(
     chapter: int,
     assumption: ProgressionAssumption = "mandatory",
     *,
+    class_choices: Mapping[str, str] | None = None,
     root: Path | None = None,
 ) -> tuple[CharacterLoadoutAudit, ...]:
+    choices = class_choices or {}
     return tuple(
-        audit_character_checkpoint(row.character, chapter, assumption, root=root)
+        audit_character_checkpoint(
+            row.character,
+            chapter,
+            assumption,
+            selected_class=choices.get(row.character),
+            root=root,
+        )
         for row in load_character_campaign_sources(root=root)
         if row.recruitment_chapter <= chapter
     )
@@ -308,11 +364,19 @@ def audit_campaign_named_checkpoint(
     checkpoint_key: str,
     assumption: ProgressionAssumption = "mandatory",
     *,
+    class_choices: Mapping[str, str] | None = None,
     root: Path | None = None,
 ) -> tuple[CharacterLoadoutAudit, ...]:
     checkpoint = load_campaign_checkpoint(checkpoint_key, root=root)
+    choices = class_choices or {}
     return tuple(
-        audit_character_named_checkpoint(row.character, checkpoint.key, assumption, root=root)
+        audit_character_named_checkpoint(
+            row.character,
+            checkpoint.key,
+            assumption,
+            selected_class=choices.get(row.character),
+            root=root,
+        )
         for row in load_character_campaign_sources(root=root)
         if row.recruitment_chapter <= checkpoint.chapter
     )
@@ -323,13 +387,21 @@ def audit_campaign(
     *,
     start_chapter: int = 0,
     end_chapter: int = 13,
+    class_choices: Mapping[str, str] | None = None,
     root: Path | None = None,
 ) -> tuple[CharacterLoadoutAudit, ...]:
     if start_chapter < 0 or end_chapter < start_chapter:
         raise ValueError("Invalid campaign chapter range")
     rows: list[CharacterLoadoutAudit] = []
     for chapter in range(start_chapter, end_chapter + 1):
-        rows.extend(audit_campaign_checkpoint(chapter, assumption, root=root))
+        rows.extend(
+            audit_campaign_checkpoint(
+                chapter,
+                assumption,
+                class_choices=class_choices,
+                root=root,
+            )
+        )
     return tuple(rows)
 
 
