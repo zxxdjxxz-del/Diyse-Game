@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import argparse
+import csv
 from dataclasses import asdict
 import json
+import sys
 
 from .battle import simulate_advanced
 from .core import adjusted_hit_chance, class_multipliers, cumulative_exp, direct_damage, exp_to_next_level, level_from_exp, natural_stats, simulate, sweep_enemy_stats
@@ -10,7 +12,13 @@ from .encounters.story_bosses.hollow_watch_castellan import SmartPolicyConfig, s
 from .encounters.story_bosses.matron_zevraya import simulate_matron_zevraya
 from .io import load_advanced_scenario, load_progression_route, load_scenario
 from .overlays import BalanceOverlay
-from .progression import project_progression, required_average_exp_per_encounter
+from .progression import (
+    audit_campaign,
+    audit_campaign_checkpoint,
+    audit_character_checkpoint,
+    project_progression,
+    required_average_exp_per_encounter,
+)
 from .sources import audit_repo_sources, audit_simulation_readiness
 
 
@@ -28,6 +36,33 @@ def _csv_names(value: str) -> tuple[str, ...]:
     return values
 
 
+def _markdown_cell(value: object) -> str:
+    if value is None:
+        return ""
+    return str(value).replace("|", "\\|").replace("\n", " ")
+
+
+def _print_audit_rows(rows, output_format: str) -> None:
+    payload = [row.as_dict() for row in rows]
+    if output_format == "json":
+        print(json.dumps(payload, indent=2))
+        return
+    if not payload:
+        return
+
+    fieldnames = list(payload[0])
+    if output_format == "csv":
+        writer = csv.DictWriter(sys.stdout, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(payload)
+        return
+
+    print("| " + " | ".join(fieldnames) + " |")
+    print("| " + " | ".join("---" for _ in fieldnames) + " |")
+    for row in payload:
+        print("| " + " | ".join(_markdown_cell(row[field]) for field in fieldnames) + " |")
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="diysim", description="Diyse balance calculation and battle simulator")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -39,6 +74,27 @@ def build_parser() -> argparse.ArgumentParser:
     readiness.add_argument("--issues-only", action="store_true", help="print only the filtered blocker list")
     readiness.add_argument("--severity", choices=("all", "source_gap", "parser_gap"), default="all")
     readiness.add_argument("--strict", action="store_true", help="return exit code 2 when any source/parser gap is found")
+
+    progression_audit = sub.add_parser(
+        "progression-audit",
+        help="resolve source-backed character loadouts and calculated stats by chapter",
+    )
+    progression_audit.add_argument(
+        "--route",
+        choices=("mandatory", "expected", "best_available"),
+        default="mandatory",
+        help="progression/loadout assumption; unresolved authority is reported as a source gap",
+    )
+    progression_audit.add_argument("--chapter", type=int, help="audit one chapter/checkpoint")
+    progression_audit.add_argument("--start-chapter", type=int, default=0, help="first chapter when auditing a range")
+    progression_audit.add_argument("--end-chapter", type=int, default=13, help="last chapter when auditing a range")
+    progression_audit.add_argument("--character", help="filter to one permanent character")
+    progression_audit.add_argument("--format", choices=("json", "csv", "markdown"), default="markdown")
+    progression_audit.add_argument(
+        "--strict",
+        action="store_true",
+        help="return exit code 2 when any returned row has unresolved source authority",
+    )
 
     stats = sub.add_parser("stats", help="calculate natural stats from current repo authority")
     stats.add_argument("level", type=int)
@@ -131,6 +187,34 @@ def main(argv: list[str] | None = None) -> int:
         payload = report.issues_dict(args.severity) if args.issues_only else report.as_dict(include_files=not args.summary_only)
         print(json.dumps(payload, indent=2))
         if args.strict and (report.source_gaps or report.parser_gaps):
+            return 2
+        return 0
+    if args.command == "progression-audit":
+        if args.chapter is not None and (args.start_chapter != 0 or args.end_chapter != 13):
+            raise SystemExit("--chapter cannot be combined with --start-chapter/--end-chapter")
+        if args.chapter is not None:
+            if not 0 <= args.chapter <= 13:
+                raise SystemExit("--chapter must be between 0 and 13")
+            if args.character:
+                rows = (audit_character_checkpoint(args.character, args.chapter, args.route),)
+            else:
+                rows = audit_campaign_checkpoint(args.chapter, args.route)
+        else:
+            if not 0 <= args.start_chapter <= args.end_chapter <= 13:
+                raise SystemExit("chapter range must satisfy 0 <= start <= end <= 13")
+            rows = audit_campaign(
+                args.route,
+                start_chapter=args.start_chapter,
+                end_chapter=args.end_chapter,
+            )
+            if args.character:
+                rows = tuple(row for row in rows if row.character == args.character)
+                if not rows:
+                    raise SystemExit(
+                        f"no recruited audit rows found for {args.character!r} in the selected chapter range"
+                    )
+        _print_audit_rows(rows, args.format)
+        if args.strict and any(not row.authority_complete for row in rows):
             return 2
         return 0
     if args.command == "stats":
