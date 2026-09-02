@@ -28,6 +28,9 @@ jobs:
       - name: Test implicit single formation members
         if: always()
         run: python -m pytest -q tests/diysim/test_formation_runtime_coverage.py::test_implicit_single_member_counts_are_parsed_as_one
+      - name: Test authority-safe formation aliases
+        if: always()
+        run: python -m pytest -q tests/diysim/test_formation_runtime_coverage.py::test_authority_safe_formation_aliases_resolve
       - name: Test formation ready-or-blocked contract
         if: always()
         run: python -m pytest -q tests/diysim/test_formation_runtime_coverage.py::test_every_formation_is_explicitly_ready_or_blocked
