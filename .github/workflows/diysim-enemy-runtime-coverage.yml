@@ -18,11 +18,49 @@ jobs:
           python-version: "3.12"
       - name: Install test dependency
         run: python -m pip install --upgrade pytest
-      - name: Run enemy and formation runtime catalog tests
+
+      - name: Test enemy runtime catalog
+        run: python -m pytest -q tests/diysim/test_enemy_runtime_catalog.py
+
+      - name: Test formation source discovery
+        if: always()
+        run: python -m pytest -q tests/diysim/test_formation_runtime_coverage.py::test_all_authored_numbered_chapter_formation_sources_are_discovered
+      - name: Test formation ready-or-blocked contract
+        if: always()
+        run: python -m pytest -q tests/diysim/test_formation_runtime_coverage.py::test_every_formation_is_explicitly_ready_or_blocked
+      - name: Test formation coverage reconciliation
+        if: always()
+        run: python -m pytest -q tests/diysim/test_formation_runtime_coverage.py::test_formation_coverage_report_totals_reconcile
+      - name: Test Command Screen formation runtime
+        if: always()
+        run: python -m pytest -q tests/diysim/test_formation_runtime_coverage.py::test_command_screen_is_runtime_ready_in_repo_wide_catalog
+
+      - name: Generate runtime coverage artifacts
+        if: always()
         run: |
-          python -m pytest -q \
-            tests/diysim/test_enemy_runtime_catalog.py \
-            tests/diysim/test_formation_runtime_coverage.py
+          mkdir -p artifacts/runtime-coverage
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from tools.diysim.reports.enemy_runtime_coverage import enemy_runtime_coverage_dict
+          from tools.diysim.reports.formation_runtime_coverage import formation_runtime_coverage_dict
+          folder = Path("artifacts/runtime-coverage")
+          (folder / "enemy_runtime_coverage.json").write_text(
+              json.dumps(enemy_runtime_coverage_dict(), indent=2, sort_keys=True) + "\n",
+              encoding="utf-8",
+          )
+          (folder / "formation_runtime_coverage.json").write_text(
+              json.dumps(formation_runtime_coverage_dict(), indent=2, sort_keys=True) + "\n",
+              encoding="utf-8",
+          )
+          PY
+      - name: Upload runtime coverage artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: diysim-runtime-coverage
+          path: artifacts/runtime-coverage/*.json
+
       - name: Print enemy runtime coverage and exact blockers
         if: always()
         run: |
