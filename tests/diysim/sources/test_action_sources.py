@@ -179,10 +179,11 @@ def test_multihit_per_hit_power_and_dynamic_element_are_preserved() -> None:
     assert source.power_mode == "per_hit"
     assert source.hit_count_min == 1
     assert source.hit_count_max == 2
+    assert source.fixed_hit_count is None
     assert source.is_multihit
 
 
-def test_exact_multihit_count_is_preserved() -> None:
+def test_exact_multihit_count_is_preserved_with_explicit_per_hit_power() -> None:
     source = parse_authored_action_text(
         "Enforcement Sequence",
         "Hybrid / Neutral /50% ATK /50% MAG / one target\n2 × 165 Power = 330 total\nBase Hit100 per hit",
@@ -190,7 +191,32 @@ def test_exact_multihit_count_is_preserved() -> None:
 
     assert source.hit_count_min == 2
     assert source.hit_count_max == 2
+    assert source.fixed_hit_count == 2
     assert source.power == 165
+    assert source.power_mode == "per_hit"
+    assert source.is_multihit
+
+
+def test_plain_fixed_hit_wording_is_preserved_when_power_is_per_hit() -> None:
+    source = parse_authored_action_text(
+        "Pilfering Flurry",
+        "one party member\nPhysical / Neutral\n3 hits\n85 Power per hit\nBase Hit 95 per hit",
+    )
+
+    assert source.fixed_hit_count == 3
+    assert source.power == 85
+    assert source.power_mode == "per_hit"
+
+
+def test_hit_count_range_remains_variable_and_never_becomes_fixed() -> None:
+    source = parse_authored_action_text(
+        "Crushing Sequence",
+        "one party member\nPhysical / Neutral\n2–3 hits\n145 Power per hit\nBase Hit 95 per hit",
+    )
+
+    assert source.hit_count_min == 2
+    assert source.hit_count_max == 3
+    assert source.fixed_hit_count is None
     assert source.is_multihit
 
 
