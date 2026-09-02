@@ -37,7 +37,7 @@ Player EXP, Level curve, campaign level spine, CEXP model, encounter planning an
 Character Quests, ordinary Side Quests, Hunt access/presentation and optional-content cutoff.
 
 ## 12_ECONOMY_AND_REWARDS
-Auren, prices, shop progression, ordinary-equipment repurchase and reward/economy boundaries.
+G denomination, prices, shop progression, ordinary-equipment repurchase and reward/economy boundaries.
 
 ## 13_UI_AND_IMPLEMENTATION
 UI/runtime requirements, save-state boundaries, current Godot proof status and implementation debt.
