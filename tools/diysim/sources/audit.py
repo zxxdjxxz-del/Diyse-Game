@@ -20,6 +20,7 @@ from .combat import load_combat_rules
 from .enemies import load_enemy_system_rules
 from .party import load_party_rules
 from .progression import load_progression_rules
+from .relics import load_relic_placements, load_relic_weapons
 from .repo import RepoSourceError, find_repo_root
 from .traits import load_trait_registry
 
@@ -39,6 +40,7 @@ class SourceAuditReport:
     progression_loaded: bool
     class_cexp_loaded: bool
     donor_equipment_access_loaded: bool
+    relic_progression_loaded: bool
     combat_loaded: bool
     party_rules_loaded: bool
     enemy_system_loaded: bool
@@ -46,6 +48,8 @@ class SourceAuditReport:
     class_recruitment_rows: int
     campaign_cexp_chapters: int
     donor_equipment_access_rows: int
+    relic_placement_rows: int
+    relic_weapon_rows: int
     ability_entries: int
     ability_sources_resolved: int
     trait_packages: int
@@ -62,6 +66,7 @@ class SourceAuditReport:
             "progression_loaded": self.progression_loaded,
             "class_cexp_loaded": self.class_cexp_loaded,
             "donor_equipment_access_loaded": self.donor_equipment_access_loaded,
+            "relic_progression_loaded": self.relic_progression_loaded,
             "combat_loaded": self.combat_loaded,
             "party_rules_loaded": self.party_rules_loaded,
             "enemy_system_loaded": self.enemy_system_loaded,
@@ -69,6 +74,8 @@ class SourceAuditReport:
             "class_recruitment_rows": self.class_recruitment_rows,
             "campaign_cexp_chapters": self.campaign_cexp_chapters,
             "donor_equipment_access_rows": self.donor_equipment_access_rows,
+            "relic_placement_rows": self.relic_placement_rows,
+            "relic_weapon_rows": self.relic_weapon_rows,
             "ability_entries": self.ability_entries,
             "ability_sources_resolved": self.ability_sources_resolved,
             "trait_packages": self.trait_packages,
@@ -112,6 +119,18 @@ def audit_repo_sources(*, root: Path | None = None) -> SourceAuditReport:
         donor_equipment_access_loaded = True
     except RepoSourceError as exc:
         issues.append(SourceAuditIssue("class_equipment", "donor access authority", str(exc)))
+
+    relic_progression_loaded = False
+    relic_placement_rows = 0
+    relic_weapon_rows = 0
+    try:
+        placements = load_relic_placements(root=repo)
+        weapons = load_relic_weapons(root=repo)
+        relic_placement_rows = len(placements)
+        relic_weapon_rows = len(weapons)
+        relic_progression_loaded = True
+    except RepoSourceError as exc:
+        issues.append(SourceAuditIssue("relic", "placement/family authority", str(exc)))
 
     combat_loaded = False
     try:
@@ -180,6 +199,7 @@ def audit_repo_sources(*, root: Path | None = None) -> SourceAuditReport:
         progression_loaded=progression_loaded,
         class_cexp_loaded=class_cexp_loaded,
         donor_equipment_access_loaded=donor_equipment_access_loaded,
+        relic_progression_loaded=relic_progression_loaded,
         combat_loaded=combat_loaded,
         party_rules_loaded=party_rules_loaded,
         enemy_system_loaded=enemy_system_loaded,
@@ -187,6 +207,8 @@ def audit_repo_sources(*, root: Path | None = None) -> SourceAuditReport:
         class_recruitment_rows=class_recruitment_rows,
         campaign_cexp_chapters=campaign_cexp_chapters,
         donor_equipment_access_rows=donor_equipment_access_rows,
+        relic_placement_rows=relic_placement_rows,
+        relic_weapon_rows=relic_weapon_rows,
         ability_entries=ability_entries,
         ability_sources_resolved=ability_sources_resolved,
         trait_packages=trait_packages,
