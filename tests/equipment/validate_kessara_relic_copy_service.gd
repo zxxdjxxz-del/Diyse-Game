@@ -11,6 +11,7 @@ func _initialize() -> void:
 	_test_wrong_face_component_cannot_be_consumed()
 	_test_individual_relic_copy_limit()
 	_test_face_component_and_copy_limits()
+	_test_retired_face_aliases_migrate_to_current()
 	_test_legacy_registration_is_rejected()
 	_finish()
 
@@ -53,30 +54,39 @@ func _test_wrong_face_component_cannot_be_consumed() -> void:
 func _test_individual_relic_copy_limit() -> void:
 	var state = GameStateScript.new()
 	var service = KessaraServiceScript.new()
-	_expect(state.register_relic_original("RELIC_PROOF_CHANGE", "Change"), "Change Relic should register")
-	_expect(state.register_relic_copy_component("FORGE_PROOF_CHANGE_1", "Change"), "First Change component should register")
-	_expect(state.register_relic_copy_component("FORGE_PROOF_CHANGE_2", "Change"), "Second Change component should register")
-	_expect(bool(service.forge_copy(state, "RELIC_PROOF_CHANGE").get("ok", false)), "First copy should succeed")
-	var second_attempt := service.forge_copy(state, "RELIC_PROOF_CHANGE")
+	_expect(state.register_relic_original("RELIC_PROOF_MEMORY", "Memory"), "Memory Relic should register")
+	_expect(state.register_relic_copy_component("FORGE_PROOF_MEMORY_1", "Memory"), "First Memory component should register")
+	_expect(state.register_relic_copy_component("FORGE_PROOF_MEMORY_2", "Memory"), "Second Memory component should register")
+	_expect(bool(service.forge_copy(state, "RELIC_PROOF_MEMORY").get("ok", false)), "First copy should succeed")
+	var second_attempt := service.forge_copy(state, "RELIC_PROOF_MEMORY")
 	_expect(not bool(second_attempt.get("ok", false)), "Same Relic must not be copied twice")
 	_expect(str(second_attempt.get("code", "")) == KessaraServiceScript.RESULT_ALREADY_COPIED, "Second copy attempt should report individual Relic limit")
-	_expect(state.relic_quantity("RELIC_PROOF_CHANGE") == 2, "Individual Relic quantity must remain capped at two")
-	_expect(state.available_relic_copy_component_for_face("Change") == "FORGE_PROOF_CHANGE_2", "Unused same-Face component must remain available for another Relic")
+	_expect(state.relic_quantity("RELIC_PROOF_MEMORY") == 2, "Individual Relic quantity must remain capped at two")
+	_expect(state.available_relic_copy_component_for_face("Memory") == "FORGE_PROOF_MEMORY_2", "Unused same-Face component must remain available for another Relic")
 
 func _test_face_component_and_copy_limits() -> void:
 	var state = GameStateScript.new()
 	var service = KessaraServiceScript.new()
 	for index in range(1, 5):
-		_expect(state.register_relic_original("RELIC_PROOF_ACUITY_%d" % index, "Acuity"), "Acuity proof Relic %d should register" % index)
+		_expect(state.register_relic_original("RELIC_PROOF_PERCEPTION_%d" % index, "Perception"), "Perception proof Relic %d should register" % index)
 	for index in range(1, 4):
-		_expect(state.register_relic_copy_component("FORGE_PROOF_ACUITY_%d" % index, "Acuity"), "Acuity copy component %d should register" % index)
-	_expect(not state.register_relic_copy_component("FORGE_PROOF_ACUITY_4", "Acuity"), "A fourth Relic-copy component for one Face must be rejected")
+		_expect(state.register_relic_copy_component("FORGE_PROOF_PERCEPTION_%d" % index, "Perception"), "Perception copy component %d should register" % index)
+	_expect(not state.register_relic_copy_component("FORGE_PROOF_PERCEPTION_4", "Perception"), "A fourth Relic-copy component for one Face must be rejected")
 	for index in range(1, 4):
-		_expect(bool(service.forge_copy(state, "RELIC_PROOF_ACUITY_%d" % index).get("ok", false)), "Acuity Relic %d should consume one of the three Face copy opportunities" % index)
-	var fourth := service.evaluate(state, "RELIC_PROOF_ACUITY_4")
+		_expect(bool(service.forge_copy(state, "RELIC_PROOF_PERCEPTION_%d" % index).get("ok", false)), "Perception Relic %d should consume one of the three Face copy opportunities" % index)
+	var fourth := service.evaluate(state, "RELIC_PROOF_PERCEPTION_4")
 	_expect(not bool(fourth.get("ok", false)), "A fourth forged Relic from one Face must be rejected")
 	_expect(str(fourth.get("code", "")) == KessaraServiceScript.RESULT_FACE_COPY_LIMIT, "Fourth same-Face Relic copy should report Face-wide limit")
-	_expect(state.forged_relic_count_for_face("Acuity") == 3, "Exactly three Relics may be forged for one Face")
+	_expect(state.forged_relic_count_for_face("Perception") == 3, "Exactly three Relics may be forged for one Face")
+
+func _test_retired_face_aliases_migrate_to_current() -> void:
+	var state = GameStateScript.new()
+	_expect(state.register_relic_original("RELIC_LEGACY_FACE_CHANGE", "Change"), "Retired Change label should remain load/data compatible")
+	_expect(state.relic_face("RELIC_LEGACY_FACE_CHANGE") == "Memory", "Retired Change Face must canonicalize to Memory")
+	_expect(state.register_relic_original("RELIC_LEGACY_FACE_ACUITY", "Acuity"), "Retired Acuity label should remain load/data compatible")
+	_expect(state.relic_face("RELIC_LEGACY_FACE_ACUITY") == "Perception", "Retired Acuity Face must canonicalize to Perception")
+	_expect(state.register_relic_original("RELIC_LEGACY_FACE_RESOURCE", "Resource"), "Retired Resource label should remain load/data compatible")
+	_expect(state.relic_face("RELIC_LEGACY_FACE_RESOURCE") == "Perception", "Retired Resource Face must canonicalize to Perception")
 
 func _test_legacy_registration_is_rejected() -> void:
 	var state = GameStateScript.new()
