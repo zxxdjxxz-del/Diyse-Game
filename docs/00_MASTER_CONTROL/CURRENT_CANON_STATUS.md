@@ -89,6 +89,52 @@ Class progression:
 - Masteries unlock automatically by Class Level;
 - normal mandatory-route full Base + Subclass completion occurs around **Player Lv55–60**.
 
+## Current economy locks
+Currency:
+> **G**
+
+Retired currency name:
+> **Auren**
+
+Current scale and starting state:
+- **1 economy unit = 200 G**;
+- Chapter-0 starting wallet = **2,500 G**;
+- Field Salve = **200 G**.
+
+Current direct-G calibration:
+- mandatory route = **~316,900 G**;
+- ordinary formations = **~135,600 G** (~42.8% of mandatory direct G);
+- mandatory story bosses / named encounters = **92,700 G**;
+- fixed authored combat/event payouts = **5,300 G**;
+- mandatory non-battle map = **80,800 G**;
+- authored optional direct G = **329,600 G**;
+- broad completionist direct-cash reference = **~646,500 G**, intentionally close to the ~650,000 G target.
+
+Affordability validation:
+- chapter-by-chapter mandatory-route liquidity is **PASS** under an aggressive modeled spend of one meaningful equipment purchase per chapter plus generous healing/MP/revive/status/utility restocking;
+- premium Consumables are not required baseline purchases.
+
+Premium Consumables:
+- Emergency Kit — **8,000 G**;
+- Reservoir Tonic — **12,000 G**;
+- Emergency Rally — **15,000 G**;
+- every Consumable-selling shop carries **1 of each from first access**;
+- no automatic restock;
+- guaranteed authored copies remain separate;
+- premium Consumables remain non-sellable.
+
+Other economy locks:
+- protected/nonlethal resolution does **not** default to 0 G;
+- Regional and Major Hunts receive strong G regardless of separate permanent rewards;
+- 38-item registered ordinary-equipment catalog value = **251,000 G**;
+- Kessara Relic-copy fee = **6,000 G per successful copy**;
+- all 18 current copy opportunities = **108,000 G** maximum service spend;
+- ordinary enemies have no random Consumable/equipment/material/vendor-trash economy;
+- exactly **9 Regional Markets**.
+
+Detailed economy authority:
+> `../12_ECONOMY_AND_REWARDS/ECONOMY_MASTER.md`
+
 ## Current Major Hunt timing
 - #1 **Ashen Whitehorn** — after Chapter 6 — recommended **Lv33**;
 - #2 **Crownless Siege Marshal → Crownless War Engine** — after Chapter 7 — encounter recommendation **Lv41**;
@@ -100,57 +146,41 @@ Class progression:
 Only Major Hunt #2 has a genuine fresh second body, and that fresh War Engine does **not** restore spent Prime identities.
 
 ## Current enemy / encounter status
-Static enemy design is closed across the numbered campaign:
-- direct-damage Power audit complete;
-- Chapter 0–13 broad enemy audit complete;
-- mandatory-vs-completionist paper validation complete;
-- Regional Hunts #1–#11 Power-complete;
-- Major Hunts #1–#6 Power-complete;
-- Character Quest combat-boss sheets complete where a boss exists;
-- formation composition/weight authority complete;
-- targetable support/component static sheets complete where current authority specifies them.
+Static enemy design remains authored across the numbered campaign, but the **mandatory-route difficulty standard is actively being raised**.
 
-Current Face-themed enemy terminology includes **Memory Schema** and **Perception Node**. Enemy Face naming never grants player Card/Prime commands.
+Current working difficulty conclusion from v105:
+> **Use a global enemy direct-damage floor around ×1.20 as the test baseline, then tune weak bosses locally rather than raising the whole roster further.**
 
-## Representative true-battle certification
-Completed:
-- Hollow Watch Castellan — **PASS / RETAIN v93**;
-- Archive Leviathan — **PASS / RETAIN v97**;
-- Regulation Crucible → The Seventh Reaction — **PASS / RETAIN v99**;
-- Warden of the Nameless / Revision Arbiter — **PASS / RETAIN v100**;
-- Commander Rhazek — Reforged Commander → Bastion Devourer — **PASS / RETAIN v101**.
+The ×1.20 layer is still a working test layer, not yet a wholesale owner-file rewrite.
 
-Rhazek v101 retained:
-- Reforged Commander HP **8,431** and current raw stats/Powers;
-- Bastion Devourer HP **10,462** and current raw stats/Powers;
-- genuine fresh Form-II architecture with no spent-Prime restoration;
-- Demolition Breaker's current 55% threshold, protected one-round Preparation, 335-Power resolution, and 3-round repetition lock;
-- 18% Exposed Rhazek same-bar state.
+Current boss-local retune list:
+- First Command Warden;
+- Furnace Tyrant;
+- Crownstorm Roc;
+- Matron Zevraya — Reservoir action-density correction;
+- Revision Arbiter;
+- Commander Rhazek → Bastion Devourer;
+- Emperor Vaelkor → Sovereign Panoply — lighter local climax-pressure pass than Rhazek.
 
-Strict prepared mandatory Lv40 benchmark:
-- no Prime: **100% wins / median 14 / mean 14.48 / P90 17** over 20,000 runs;
-- any-KO incidence **0.08%**, with **0 defeats**;
-- one timed Awakened Last Sentinel: **100% wins / median 15 total combat rounds / mean 15.34 / P90 17** over 10,000 runs;
-- Last Sentinel crossed the genuine Form-I → Form-II transition in **99.04%** of timed stress runs without restoring the spent identity;
-- legal Last Sentinel → 2 full normal rounds → Last Convergence chain: **100% wins / median 15 total rounds / mean 15.17 / P90 17** over 10,000 runs.
+Representative v105 same-equipment level-sensitivity results under ×1.20:
+- First Command Warden, Lv11 mandatory — ~**0.13% any-KO**: too safe;
+- Zevraya, Lv24 mandatory — ~**4.4–4.8% any-KO** under current owner structure: visible but still low;
+- Rhazek, Lv40 mandatory — ~**0.45–0.5% any-KO**: too safe;
+- Vaelkor, Lv56 mandatory — ~**6.8–7.0% any-KO**: promising but still below the revised climax-danger target.
 
-Completionist Lv48–49 reference:
-- no Prime: **median 12 rounds / P90 14**;
-- the current 11–13 authored completionist duration target remains valid.
+Older v93–v102 true-battle reports remain valid historical measurements and mechanical evidence, but their old **PASS/RETAIN difficulty verdicts are provisional wherever the revised mandatory-danger standard reopens the fight**.
 
-Current next representative anchor:
-> **Emperor Vaelkor Draeven — Emperor of the Reforged Host → Sovereign Panoply Unbound — Chapter 12 — mandatory Lv56 / completionist Lv66**
-
-The Vaelkor test must validate the much larger late-game two-body resource curve under the same persistent-spend Prime model, including Sovereign Overrun's protected Preparation and Final Sovereignty's same-bar 25% state.
+Current next balance action:
+> **First Command Warden local pressure correction under the ×1.20 global test floor.**
 
 Detailed balance status:
-- `../16_BALANCE_AND_TESTING/BALANCE_CLOSURE_STATUS.md`
-- `../16_BALANCE_AND_TESTING/OPEN_BALANCE_ITEMS.md`
+- `../16_BALANCE_AND_TESTING/FOUR_POINT_BOSS_LEVEL_SENSITIVITY_v105.md`
+- `../90_WORKING/ACTIVE_WORK_QUEUE.md`
 
 ## Current implementation debt
 Proof/runtime material may still contain intentionally stale fixtures. Known examples include:
 - proof `first_champion` bearer lock;
-- proof `gold` instead of Auren;
+- proof `gold` variable/data semantics and old currency-scale values that must be reconciled to current **G** authority;
 - proof item/equipment records;
 - old queue/Confirm Round battle architecture;
 - stale technical IDs that require save-safe migration.
@@ -158,10 +188,15 @@ Proof/runtime material may still contain intentionally stale fixtures. Known exa
 Current canon beats proof runtime. See:
 > `../13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md`
 
-## Current open non-balance areas
-- unresolved exact Auren payouts/reward packages where Economy keeps them open;
-- Kessara service fee if any;
+## Current open areas
+- mandatory-route enemy difficulty recalibration / boss-local retunes;
+- story-owned special-enemy placement/timing dependencies explicitly left unresolved;
+- Chapters 5–13 exact dialogue where not yet line-complete;
+- production implementation reconciliation;
 - final production UI/readability validation;
 - final audio/music completion and mix validation;
-- device/performance budgets;
-- explicitly bounded story-placement/return-trigger questions still marked open in their owning domains.
+- visual production/style certification;
+- whole-game/device/performance QA;
+- explicitly bounded story/lore details still marked open in their owning domains.
+
+The core G economy/reward design is **CLOSED** and is not an open-gap item unless later playtest evidence or an explicit design revision reopens it.
