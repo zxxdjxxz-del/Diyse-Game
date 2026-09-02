@@ -6,7 +6,10 @@ const PRESENTATION_DIR := "res://game/content/presentation/chapter_00/"
 var failures: Array[String] = []
 
 func _initialize() -> void:
-	_validate_graybox_scene()
+	call_deferred("_run_validation")
+
+func _run_validation() -> void:
+	await _validate_graybox_scene()
 	_validate_chapter_00_spatial_presentation_alignment()
 	_finish()
 
@@ -18,6 +21,11 @@ func _validate_graybox_scene() -> void:
 
 	var instance = packed.instantiate()
 	get_root().add_child(instance)
+
+	# SceneTree test scripts begin before the first normal process frame. The
+	# graybox constructs its route dynamically in the root scene's _ready(), so
+	# wait one frame after attachment before asserting generated geometry.
+	await process_frame
 
 	_expect(instance.get_node_or_null("Cyanis") != null, "Graybox must include a controllable Cyanis proof actor")
 	_expect(instance.get_node_or_null("Cyanis/Camera3D") != null, "Graybox must include the camera-variant test camera")
