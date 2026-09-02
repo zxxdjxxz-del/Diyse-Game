@@ -11,6 +11,18 @@ The Kessara Relic-copy ownership layer now canonicalizes the current Face set:
 
 Retired Resource/Acuity/Change values are accepted only as compatibility inputs and normalize to Perception/Memory. They must not reappear as current-facing Face labels.
 
+## Recently reconciled — persistent G wallet / Kessara fee
+GameState now has a persistent `wallet_g` with the current **2,500 G** starting baseline.
+
+Save schema is now **v2** with a deliberate v1 → v2 migration. Legacy `rewards.gold` remains isolated as proof battle-result payload and is **not** reinterpreted as the party wallet.
+
+Kessara's closed **6,000 G** fee is now integrated into the service transaction:
+- insufficient G fails without component/item mutation;
+- successful copy deducts exactly 6,000 G;
+- fee deduction + component consumption + forged-copy state are committed through one GameState transaction.
+
+Remaining currency debt is primarily reward/shop/UI integration and removal or containment of legacy proof `gold` naming outside the wallet.
+
 ## 1. Mastery Points — HIGH
 Repository proof/older docs may still contain an 8-point Mastery schedule.
 
@@ -61,13 +73,12 @@ Current production battle flow:
 - enemy/entity AI likewise chooses its legal action when its turn arrives from the then-current legitimate state;
 - **Item** and **Defend** have no separate universal priority phases;
 - there is no whole-party action queue and no universal **Confirm Round** step;
-- Speed changes during the round affect later round ordering unless an explicit authored effect overrides the normal rule.
+- Speed changes after initiative is locked do **not** reshuffle that current round, but can affect later round setup if still active.
 
 Do not use the current proof queue/confirm architecture as production battle-flow authority.
 
-## 4. Currency — HIGH
-Proof state:
-- technical identifier `gold` and old proof values may remain.
+## 4. Currency/reward integration — MEDIUM/HIGH
+Persistent wallet semantics are now current **G**, but proof battle/reward code still contains technical `gold` keys and old tiny proof reward values.
 
 Current player-facing authority:
 - **G**
@@ -75,9 +86,12 @@ Current player-facing authority:
 Retired player-facing currency name:
 - **Auren**
 
-Requires version-safe production state/schema/UI work. Internal migration may preserve a legacy technical identifier temporarily, but final player-facing presentation must use **G** and must not revive Auren.
+Required next work:
+- route actual authored encounter/shop/service transactions through the persistent G wallet;
+- replace or migration-contain proof `gold` reward payload naming;
+- keep final UI labels strictly **G**.
 
-Kessara's current closed service fee is **6,000 G per successful Relic copy**. The service logic does not yet atomically debit that fee because the production wallet/state migration is not complete.
+Do not treat proof `42 gold`-style regression values as production economy data.
 
 ## 5. Proof equipment/content — HIGH
 GameState defaults still include:
@@ -93,9 +107,9 @@ Ilyra's current primary weapon family is:
 > **Wardrods**
 
 ## 6. Save schema completeness — HIGH
-Schema v1 proves persistence but does not yet carry the complete production progression/quest/loadout state.
+Schema **v2** now proves migration plus persistent G wallet state, but it still does not carry the complete production roster/progression/quest/loadout model.
 
-Do not treat schema v1 proof completeness as production completeness.
+Do not treat schema-v2 proof completeness as production completeness.
 
 Retired Face labels may still exist in historical saved Relic/component records; current runtime compatibility maps them into the current Face names rather than treating them as new/current identities.
 
@@ -125,13 +139,13 @@ Current proof:
 It is not the final battle HUD and does not represent the current turn-entry command flow.
 
 ## 10. Kessara service UI — MEDIUM
-Core copy eligibility/state logic exists.
+Core copy eligibility/state logic and the exact 6,000-G transaction are implemented.
 
 Still required:
 - production service menu;
-- 6,000 G fee debit/integration;
 - final unlock/timing presentation;
-- original-versus-forged-copy presentation.
+- original-versus-forged-copy presentation;
+- confirmation/animation polish.
 
 ## 11. Character visual placeholders — MEDIUM
 `game/characters/placeholders/` and the proof portrait registry remain runtime stand-ins only.
@@ -143,4 +157,4 @@ Production derivatives should be created in an appropriate runtime asset lane ra
 ## 12. Current-facing naming — ONGOING
 Legacy technical identifiers may remain internally until safe migration, but player-facing text must use current names.
 
-Examples that still require migration care include `first_champion` and older environment/state IDs whose filenames/keys predate current terminology. Stable technical IDs may be preserved when necessary, but they must not leak retired display names into production UI.
+Examples that still require migration care include `first_champion`, proof `gold` reward keys, and older environment/state IDs whose filenames/keys predate current terminology. Stable technical IDs may be preserved when necessary, but they must not leak retired display names into production UI.
