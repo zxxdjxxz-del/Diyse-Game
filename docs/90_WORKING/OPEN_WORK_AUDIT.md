@@ -15,6 +15,28 @@ No other current production backlog should be mislabeled as requiring a fresh ca
 
 ## 2 — Production Backlog
 
+### Playable area & route layout production
+The project has macro geography and route sequencing, but does **not** yet have build-ready playable maps for the full game.
+
+Still required:
+- inventory every gameplay-relevant area/sub-area;
+- create actual field/town/dungeon/facility/Hunt blockouts;
+- define entrances/exits and transitions;
+- map critical paths, optional loops, shortcuts and dead ends;
+- establish landmarks, sightlines and navigation readability;
+- define elevation and HD-2D layer composition;
+- reserve encounter spaces and boss/Hunt arenas;
+- place traversal gates, authored interactions, rewards and state changes;
+- set approximate scale and pacing targets;
+- create tool-agnostic environment-generation handoff packets.
+
+The existing world map, `ROADS_AND_CHAPTER_TRAVEL.md`, and local quest sequences constrain this work but do not replace it.
+
+Layout/blockout design can proceed in parallel with visual certification. Final rendered environment production should follow the relevant B01–B11 benchmark approvals.
+
+Working pointer:
+`AREA_AND_ROUTE_LAYOUT_PRODUCTION_WORKING.md`
+
 ### Visual production
 - Produce the remaining permanent-party new-style masters for **Torren, Nimera, Vaelira, and Seyrik**, plus finish Ilyra after her review gate.
 - Complete battle-scale and field-scale derivative validation.
@@ -66,6 +88,16 @@ Any resulting special-encounter G placement remains downstream of the story deci
 
 ## 5 — Certification / QA Backlog
 
+### Area / route gameplay certification
+After representative maps exist, validate:
+- route readability without excessive waypoint dependence;
+- traversal time and backtracking burden;
+- collision and camera behavior;
+- encounter-space readability;
+- shortcuts and one-way gates;
+- revisit-state correctness;
+- Android performance for representative environment density.
+
 ### Visual certification
 - B00 party-style completion and gameplay-scale derivative checks.
 - B01–B11 environment/material benchmark certification.
@@ -97,13 +129,14 @@ Do **not** automatically route work back into these streams:
 
 The historical v103–v105 balance reports may still be used as evidence, but they do not define the current work sequence and must not silently reactivate that retired workflow.
 
-## 7 — Stale Wording Corrected By This Audit
+## 7 — Audit Corrections
 
 - `90_WORKING/README.md` no longer lists the retired mandatory-route difficulty recalibration as a current major stream.
 - `IMPLEMENTATION_FRONTIER_WORKING.md` now uses canonical **G**; stale **Auren** runtime-migration language is removed and Auren is explicitly retired.
+- Playable area/route layout production is now explicitly tracked; prior audits incorrectly treated macro geography and route sequencing as if they fully covered environment production.
 
 ## Routing Rule
 
 Use this file to answer **what is actually still unfinished**. Use `ACTIVE_WORK_QUEUE.md` to answer **what should be worked on next**. Use the owning numbered domain or specific working tracker for the detailed rules.
 
-Do not create a new open stream merely because a closed system still needs implementation, presentation, story placement, or later QA.
+Do not create a new open stream merely because a closed system still needs implementation, presentation, story placement, or later QA. Playable area/route layout is a genuine production stream because the actual explorable geometry has not yet been authored.
