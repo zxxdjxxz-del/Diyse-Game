@@ -16,7 +16,7 @@
 ### S008 — Hollow Watch / What Woke Up
 - Hollow Watch threat investigated.
 - Hollow Watch Castellan defeated.
-- first-clear Standard Card becomes **Faultline Sight** under current Acuity authority.
+- first-clear Standard Card becomes **Faultline Sight** under current Perception authority.
 
 ### S009 — Greenhollow / What the Map Has Wrong
 - Torren begins as route specialist, not commandable party member.
