@@ -1,56 +1,51 @@
-# Diyse — Economy Closure / Deferred Dependencies
+# Diyse — Economy Recalibration / Deferred Dependencies
 
 **Current economy authority:** `12_ECONOMY_AND_REWARDS`
 
-## Core economy-design status
-> **CLOSED**
+## Current status
+> **G TERMINOLOGY / STRUCTURE CURRENT — EXACT PAYOUT RECALIBRATION ACTIVE**
 
-There are currently **no independent unresolved numeric reward/economy-design gaps** in `12_ECONOMY_AND_REWARDS`.
+The prior claim that all numeric economy values were closed is retired because the user explicitly revised:
+- currency name to **G**;
+- displayed scale;
+- protected/nonlethal payout expectations;
+- Hunt cash strength;
+- completionist direct-cash target.
 
-The remaining items below depend on another owner domain or on presentation/runtime implementation. They do not justify reopening closed economy values by themselves.
-
-## Deferred cross-domain dependencies
-1. **Story-owned special authored encounters** — exact Auren remains deferred for identities whose mandatory/nonlethal/scene role is still unresolved by `09` + story/dialogue integration.
-2. **Vendor NPC presentation** — exact merchant identity/name, stall/building presentation, and dialogue belong to story/world/dialogue production.
-3. **Currency icon/symbol/glyph** — visual/UI presentation dependency.
-4. **Runtime shop implementation** — shop IDs, stock table schema, save persistence, price UI formatting.
-5. **Kessara presentation/implementation** — copy-menu unlock timing and original-vs-copy UI labeling.
-
-## Closed economy architecture
-- currency = **Auren**;
+## Current locked structure
+- currency = **G**;
+- retired currency name = **Auren**;
+- **1 economy unit = 200 G**;
+- starting wallet = **2,500 G**;
 - exactly **9 Regional Markets**;
 - Cresthaven = separate long-term requisition/backfill authority;
 - Vhalmarch = separate forward-supply endpoint;
-- 38 ordinary equipment identities with exact purchase/replacement values;
-- ordinary-equipment resale rule locked;
-- 20 Consumables with exact buy/equivalent values;
-- normal-stock Consumable resale locked;
-- reward-only Consumables are finite and non-sellable;
-- exact reward-only supply = **3 Reservoir Tonic / 4 Emergency Kit / 2 Emergency Rally**;
+- ordinary equipment identities = **38**;
+- Consumables = **20**;
 - ordinary enemies have **no random Consumable/equipment/material/junk drops**;
-- Kessara Relic-copy fee = **600 Auren per successful copy**.
+- Kessara Relic-copy fee = **600 G per successful copy**;
+- protected/nonlethal resolution may award G;
+- Hunts should give strong G regardless of separate permanent rewards;
+- premium Consumables use one-copy-per-Consumable-shop stock from each shop's first accessible state.
 
-## Closed income/reward architecture
-- ordinary formation Auren ledger: exact;
-- expected ordinary route: approximately **13.56k Auren**;
-- mandatory story-boss Auren: **8,490**;
-- mandatory non-battle Auren map: **8,080**;
-- calibrated mandatory direct-Auren route: approximately **30,127**;
-- optional Elite direct Auren: **3,890**;
-- ordinary Side Quest direct Auren: **1,800** plus exact Consumable packages;
-- Character Quest direct Auren: **2,220** plus exact Consumable add-ons and existing Legacy Components;
-- Regional Hunt direct Auren: **5,280**;
-- Major Hunt direct Auren: **6,200** plus six already-Awakened Primes and established additional handoffs;
-- all current optional direct cash: **19,390**;
-- full direct-cash completionist reference before resale/extra encounters: approximately **49,517 Auren**.
+## Active numeric work
+Still requiring synchronized final G values:
+1. exact Chapter 1–13 ordinary-formation G ledger;
+2. exact optional-Elite G;
+3. exact mandatory story/protected/nonlethal encounter G;
+4. exact mandatory non-battle G chapter amounts;
+5. exact Side Quest G;
+6. exact Character Quest G;
+7. exact Regional Hunt G;
+8. exact Major Hunt G;
+9. final whole-campaign mandatory/completionist cash-flow certification around the **~650,000 G** completionist target;
+10. final synchronized Consumable/equipment resale tables after display-scale conversion.
 
-## Mandatory-route rule
-Optional content, resale, and repetitive combat are **not required** for baseline story solvency.
+## Deferred cross-domain / implementation dependencies
+- story-owned special encounter placement before exact reward assignment where scene role is unresolved;
+- vendor NPC identity/dialogue/presentation;
+- runtime shop IDs, stock schema, save persistence and price UI formatting;
+- Kessara menu timing / original-vs-copy UI labeling.
 
 ## Reopen rule
-Only reopen a closed economy value if:
-- a current playtest demonstrates a specific affordability/exploit failure;
-- an owner-domain reward/source changes materially;
-- or the user explicitly revises the economy design.
-
-Do not restore an older retired economy answer merely because a presentation/runtime dependency remains open.
+Do not restore retired Auren-era values as current G merely because an old file or audit still contains them.
