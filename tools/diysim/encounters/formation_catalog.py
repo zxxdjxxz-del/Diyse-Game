@@ -15,6 +15,7 @@ from tools.diysim.sources.repo import find_repo_root, read_repo_text
 from .runtime_catalog import EnemyRuntimeDefinition, build_enemy_runtime_catalog
 
 FORMATION_ROOT = Path("docs/09_ENEMIES_AND_ENCOUNTERS/ENCOUNTER_FORMATIONS")
+FORMATION_SOURCE_RE = re.compile(r"CHAPTER_(\d+)(?:_RECOVERED)?_FORMATIONS\.md$")
 
 
 @dataclass(frozen=True)
@@ -46,6 +47,12 @@ class EncounterFormationDefinition:
         )
 
 
+def formation_chapter_number(source_path: str) -> int | None:
+    """Return the numbered chapter owned by a standard or recovered formation file."""
+    match = FORMATION_SOURCE_RE.search(source_path)
+    return int(match.group(1)) if match else None
+
+
 def discover_formation_paths(*, root: Path | None = None) -> tuple[str, ...]:
     repo = (root or find_repo_root()).resolve()
     folder = repo / FORMATION_ROOT
@@ -54,6 +61,7 @@ def discover_formation_paths(*, root: Path | None = None) -> tuple[str, ...]:
     return tuple(
         path.relative_to(repo).as_posix()
         for path in sorted(folder.glob("CHAPTER_*_FORMATIONS.md"))
+        if formation_chapter_number(path.name) is not None
     )
 
 
@@ -155,5 +163,5 @@ def build_formation_catalog(*, root: Path | None = None) -> tuple[EncounterForma
 
 __all__ = [
     "EncounterFormationDefinition", "FormationMember", "build_formation_catalog",
-    "discover_formation_paths", "load_formation_definitions",
+    "discover_formation_paths", "formation_chapter_number", "load_formation_definitions",
 ]
