@@ -7,7 +7,7 @@
 - Age: **29**
 - Permanent party: **yes**
 - Join: **start**
-- Base / Subclass: **Crest Knight / Crest Magus**
+- Base / Subclass: **Crest Knight / Crest Arcanist**
 - Face: **Might**
 - Story Prime: **Last Sentinel**
 
