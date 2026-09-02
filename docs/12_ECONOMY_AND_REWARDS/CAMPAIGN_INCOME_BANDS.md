@@ -2,45 +2,33 @@
 **Current economy authority:** `12_ECONOMY_AND_REWARDS`
 
 ## Status
-The chapter ordinary-formation Auren bands are now **LOCKED**.
-Exact formation-by-formation payouts live in `ENCOUNTER_AUREN_REWARDS.md`.
+The former ordinary-formation payout bands remain structural tuning references, but exact G amounts are **REOPENED FOR RECALIBRATION**.
+Exact formation payout ownership now lives in `ENCOUNTER_G_REWARDS.md`.
 
-## Ordinary-formation Auren bands
-| Chapter | Auren band |
-|---:|---:|
-| Ch1 | **14–18** |
-| Ch2 | **18–24** |
-| Ch3 | **24–30** |
-| Ch4 | **30–38** |
-| Ch5 | **36–46** |
-| Ch6 | **42–52** |
-| Ch7 | **50–62** |
-| Ch8 | **60–74** |
-| Ch9 | **72–88** |
-| Ch10 | **84–102** |
-| Ch11 | **96–116** |
-| Ch12 | **108–130** |
-| Ch13 | **120–140** |
+## Currency
+All current-facing income values use:
+> **G**
 
-These are formation-level payout boundaries, not per-enemy bounties.
+The retired currency name **Auren** must not be used in current-facing economy text.
 
-## Current ordinary-route calibration
-Using current formation weights and the 225-encounter planning spine, ordinary random encounters contribute approximately **13.56k Auren** over a normal full campaign route before optional encounters/backtracking variance.
+## Retained curve shape
+The ordinary-formation reward curve should continue rising by chapter/formation pressure and should remain a major routine-income source without becoming a dominant grind loop.
 
-This is consistent with the retained design target that ordinary random encounters contribute roughly **40–50% of routine spendable currency**.
+The previous chapter bands are not copied forward as final G values because the economy now requires:
+- tenfold displayed G scale;
+- completionist direct cash around **650,000 G**;
+- protected/nonlethal payouts;
+- stronger Hunt payouts regardless of separate rewards.
 
-## Broad purchase-basket targets
-- early: **500–900 Auren**
-- mid: **1,100–1,800 Auren**
-- advanced: **1,900–3,000 Auren**
-
-These are pressure checks, not mandatory wallet balances.
-
-## Economy pressure rule
+## Broad purchase-pressure rule
 The intended checkpoint pressure remains:
 > **one meaningful ordinary equipment purchase + routine consumable restock should usually be affordable without exhausting all funds.**
 
 Buying every available upgrade immediately is not the baseline expectation.
+
+## Routine-income role
+Ordinary random encounters should remain a substantial but not exclusive share of routine spendable G.
+The exact percentage will be re-certified after the new G payout ledger is complete.
 
 ## No-grind rule
 Normal story participation must support baseline progression without requiring repetitive money grinding or mandatory optional-content farming.
