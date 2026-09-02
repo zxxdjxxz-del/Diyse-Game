@@ -1,6 +1,6 @@
 # Diyse — Optional Content Reward Master
 
-**Status:** REWARD ARCHITECTURE CURRENT / EXACT G TOTALS REOPENED
+**Status:** EXACT OPTIONAL ECONOMIC PACKAGES CLOSED
 
 Optional activities are owned structurally by `11_QUESTS` and their Player EXP by `10_PROGRESSION_AND_EXP`.
 
@@ -24,49 +24,72 @@ A reward package may distribute value through:
 - Forge Component;
 - world-state payoff.
 
-Current correction:
-> **Hunts should still give a strong amount of G even when they also grant permanent or exceptional rewards.**
+Current Hunt rule:
+> **Hunts still give a strong amount of G even when they also grant permanent or exceptional rewards.**
 
 Do not discount Regional or Major Hunt G simply because another reward axis is present.
 
-## Exact G totals
-The former optional direct-cash totals are retired as current numeric authority.
+## Exact direct-G totals
+| Activity layer | Direct G |
+|---|---:|
+| 12 optional Elites | **38,900 G** |
+| 5 ordinary Side Quests | **18,000 G** |
+| 6 Character Quests | **22,200 G** |
+| 11 Regional Hunts | **116,500 G** |
+| 6 Major Hunts | **134,000 G** |
+| **Total** | **329,600 G** |
 
-All optional G is being recalibrated against:
-- the tenfold displayed G scale;
-- completionist direct cash around **650,000 G**;
-- stronger Regional and Major Hunt payouts;
-- G payouts for protected/nonlethal resolved encounters where applicable.
+These totals are optional surplus and are not required for baseline story solvency.
 
 ## Ordinary Side Quests
-Reward composition lives in:
+Exact packages live in:
 > `SIDE_QUEST_REWARD_BOUNDARY.md`
 
-Direct G values are reopened; retained normal-stock Consumable packages remain part of the reward structure.
+Direct G total:
+> **18,000 G**
+
+Normal-stock Consumable reward-equivalent total:
+> **21,350 G**
 
 ## Character Quests
-Reward composition lives in:
+Exact add-ons live in:
 > `CHARACTER_QUEST_REWARD_BOUNDARY.md`
 
-Each quest retains its unique Legacy Component as a major permanent reward. Direct G values are reopened.
+Direct G total:
+> **22,200 G**
+
+Normal-stock Consumable reward-equivalent total:
+> **24,000 G**
+
+Each Character Quest also retains its unique Legacy Component as the dominant permanent progression reward.
 
 ## Optional Elites
-Current G authority:
+Exact first-clear cash lives in:
 > `ELITE_G_REWARDS.md`
 
-Protected/nonlethal resolution is not an automatic zero-G condition.
+Total:
+> **38,900 G**
+
+The Chapter-0 Ruin Vanguard Pursuer is not double-counted here; its 300-G protected-event payout lives in `ENEMY_REWARD_HANDOFF.md`.
 
 ## Regional Hunts
-Current reward authority:
+Exact first-clear cash lives in:
 > `REGIONAL_HUNT_REWARD_BOUNDARY.md`
 
-All 11 should receive good G payouts regardless of Forge Components or other separate rewards.
+Total:
+> **116,500 G**
+
+Whitehorn Ravager, Winterglass Titan, and Rift Siege Beast retain their Forge Component handoffs **without any reduction to their G payouts**.
 
 ## Major Hunts
-Current reward authority:
+Exact first-clear cash lives in:
 > `MAJOR_HUNT_REWARD_BOUNDARY.md`
 
-Every Major Hunt still awards its associated Prime already **Awakened**, and should also receive a strong G payout.
+Total:
+> **134,000 G**
+
+Every Major Hunt also awards its associated Prime already **Awakened**.
+Additional established component/precursor/Emergency Rally handoffs remain additive rather than cash-discounting.
 
 ## Premium Consumables
 Current authority:
@@ -75,5 +98,5 @@ Current authority:
 Despite the legacy filename, Reservoir Tonic, Emergency Kit, and Emergency Rally are **not reward-only**. They have guaranteed authored pickups and limited one-copy-per-Consumable-shop stock.
 
 ## No mandatory optional-money loop
-The mandatory route must remain economically viable without optional rewards.
-Optional content should make the player richer, broaden build choices, and support optional sinks such as Kessara Relic duplication.
+The mandatory route remains economically viable without any of these optional rewards.
+Optional content makes the player richer, broadens build choices, and supports expensive optional sinks such as Kessara Relic duplication.
