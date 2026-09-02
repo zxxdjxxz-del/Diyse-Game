@@ -66,6 +66,7 @@ class CharacterLoadoutAudit:
             "Status Resistance": self.status_resistance,
             "Authority Complete": self.authority_complete,
             "Source Gaps": "; ".join(gap.code for gap in self.source_gaps),
+            "Source Paths": "; ".join(self.source_paths),
         }
 
 
