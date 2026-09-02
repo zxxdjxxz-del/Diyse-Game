@@ -1,46 +1,61 @@
 # Diyse — Retired Character Terminology Firewall
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Character-authority inputs:** compatible character/chronology overlays, current approved dialogue/story evidence, newer Face/Class corrections, and the newest explicit user corrections.  
-**Domain rule:** this folder owns character identity, biography, chronology, personality, relationship logic, and concise voice direction. Exact class mechanics live in `06_CLASSES_AND_ABILITIES`; Card/Prime mechanics in `07_CARDS`; detailed art specifications in `14_ART_AND_VISUALS`; exact dialogue scripts in `03_DIALOGUE`.
 
+**Status:** ACTIVE CHARACTER TERMINOLOGY FIREWALL  
+**Domain boundary:** character identity here; exact class mechanics in `06_CLASSES_AND_ABILITIES`; Face/Card/Prime mechanics in `07_CARDS`; exact visuals in `14_ART_AND_VISUALS`.
 
-## Current class names
-Do not use retired playable Subclass identities as current-facing character labels.
+## Current permanent-party names
+Use:
+- Cyanis
+- Ilyra
+- Torren
+- Nimera
+- Vaelira
+- Seyrik
 
+Do not restore surnames from superseded migration files.
+
+For the two current supporting visual masters, use **Maevra** and **Kessara** without restoring retired migration surnames.
+
+This does not alter unrelated established supporting-character names such as Edda Harth or Talia Rell.
+
+## Current Subclass names
 Current:
-- Cyanis — Crest Arcanist
-- Ilyra — Vowblade
-- Torren — Routeweaver
-- Nimera — Proofhunter
-- Vaelira — Axiomblade
-- Seyrik — Ruin Warden
+- Cyanis — **Crest Magus**
+- Ilyra — **Vowblade**
+- Torren — **Routeweaver**
+- Nimera — **Sixfold Knight**
+- Vaelira — **Axiomblade**
+- Seyrik — **Ruin Healer**
+
+Retired current-facing Subclass labels include:
+- Crest Arcanist for Cyanis;
+- Proofhunter for Nimera;
+- Ruin Warden for Seyrik.
 
 ## Party unlock
 Current:
 > **Sixfold Volition**
 
-Do not restore Sixfold Accord as the current formal event name.
+Do not restore **Sixfold Accord** as the current formal event name.
 
-## Face/Prime
-Torren:
-- **Acuity**
-- **Last Cartographer**
+## Face terminology
+Current six Faces:
+- **Might**
+- **Elements**
+- **Grace**
+- **Resource**
+- **Memory**
+- **Ruin**
 
-Retired:
-- Resource Face
-- Last Measure
+For Torren, the current Face shorthand is **Resource**. Do not restore older **Acuity** or **Perception** labels as current Face names.
+
+For Nimera, the current Face shorthand is **Memory**. **Change** is retired as the Face name.
 
 ## Nimera age
 Current:
 > **22**
 
 Older age 23 is superseded.
-
-## Antagonist status corrections
-- Varkesh visual is **LOCKED** by later authority; older "visual OPEN" notes are stale.
-- Othmar deep characterization is **COMPLETE through Step 5** under v1.51; older v1.49 "open" bookkeeping is stale.
-- Reconstituted Entity deep characterization is **COMPLETE through Step 5** under v1.51; older v1.49 "open" bookkeeping is stale.
 
 ## Maevra age
 Current:
@@ -52,4 +67,9 @@ Older ages 38 and 34 are retired.
 Current:
 > major recurring **nonplayable** supporting character
 
-Do not restore older seventh-party-member interpretations.
+Current visual/body shorthand includes approximately **5'0"**, clearly adult proportions. Do not restore older seventh-party-member interpretations or the superseded 4'4" note.
+
+## Antagonist status corrections
+- Varkesh visual is **LOCKED** by later authority; older "visual OPEN" notes are stale.
+- Othmar deep characterization is complete under its later authority; older "open" bookkeeping is stale.
+- Reconstituted Entity deep characterization is complete under its later authority; older "open" bookkeeping is stale.
