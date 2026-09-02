@@ -1,9 +1,7 @@
 # Diyse — Current Runtime Implementation Status
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit corrections already preserved in the reorganized domains.  
-**Runtime source checkpoint inspected:** `Diyse-Game` commit `68b66e129fa7e34dac69501786d00a1023ad0fd4`.  
 **Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
-
 
 ## IMPLEMENTED FOUNDATION — current repository
 
@@ -38,6 +36,8 @@ Implemented:
 - movement/input lock integration;
 - no choice/response architecture;
 - schema validation.
+
+Current `game/characters/placeholders/` and the proof portrait registry remain **proof-only runtime stand-ins**. Exact production character appearance is controlled by the repository masters under `asset_sources/characters/current/` and the production authority index in `14_ART_AND_VISUALS`.
 
 ### Combat proof
 The current runtime implements architectural proof for:
@@ -78,7 +78,7 @@ Implemented:
 - transient random-encounter state excluded from disk save.
 
 ### Kessara Relic-copy service
-Implemented service logic:
+Implemented service/state logic:
 - original Relic required;
 - matching Face copy component required;
 - max one forged duplicate per individual Relic;
@@ -86,7 +86,15 @@ Implemented service logic:
 - max 3 forged Relics per Face because exactly 3 copy components exist per Face;
 - wrong-Face component rejected;
 - Legacies rejected from Relic registration;
-- copy uses same Relic identity, not a new item definition.
+- copy uses same Relic identity, not a new item definition;
+- current Face set canonicalized as **Might / Elements / Grace / Perception / Memory / Ruin**;
+- retired Resource/Acuity/Change values remain accepted only as compatibility inputs and normalize to Perception/Memory.
+
+Not yet implemented in this service path:
+- production **6,000 G** fee debit;
+- final service unlock/menu presentation.
+
+The fee amount itself is already closed canon; the missing piece is production currency-state integration and UI/runtime timing.
 
 ## NOT YET FINAL PRODUCTION UI
 The proof repository does not yet establish final:
