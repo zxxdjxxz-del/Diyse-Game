@@ -53,4 +53,4 @@ Crest Knight expertise allows him to recognize relationships to modern Crest geo
 Clear, practical, fast, dryly funny. He can be witty without becoming a quip machine. Under real pressure, his language gets more functional rather than grander.
 
 ## Visual
-Current visual authority: `../14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/CYANIS_CURRENT_VISUAL_LOCK.md` and `asset_sources/characters/current/cyanis.jpg`.
+Current visual authority: `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/CYANIS_CURRENT_VISUAL_LOCK.md` and `asset_sources/characters/current/cyanis.jpg`.
