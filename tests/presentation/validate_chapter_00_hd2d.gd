@@ -9,9 +9,9 @@ var failures: Array[String] = []
 const EXPECTED := {
 	"S001": {"environment": "CH00_CONVOY_ROAD", "background": "CH00_CONVOY_ROAD", "cutscene": "C1", "vfx": "V1", "encounter": "fixed_authored"},
 	"S002": {"environment": "CH00_WRECK_FIELD", "background": "CH00_WRECK_FIELD", "cutscene": "C1", "vfx": "V1", "encounter": "fixed_authored"},
-	"S003": {"environment": "CH00_RECOVERY_LINE", "background": "CH00_RECOVERY_LINE", "cutscene": "C1", "vfx": "V1", "encounter": "fixed_authored"},
+	"S003": {"environment": "CH00_RECOVERY_LINE", "background": "CH00_RECOVERY_LINE", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
 	"S004": {"environment": "CH00_TRIAGE_SAFE_CAMP", "background": "", "cutscene": "C2", "vfx": "V2", "encounter": "none"},
-	"S005": {"environment": "CH00_RECOVERY_LINE", "background": "CH00_RECOVERY_LINE", "cutscene": "C2", "vfx": "V2", "encounter": "fixed_authored"},
+	"S005": {"environment": "CH00_TRIAGE_SAFE_CAMP", "background": "CH00_TRIAGE_SAFE_CAMP", "cutscene": "C2", "vfx": "V2", "encounter": "fixed_authored"},
 	"S006": {"environment": "CH00_RECOVERY_LINE", "background": "", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
 	"C01": {"environment": "CH00_TRIAGE_SAFE_CAMP", "background": "", "cutscene": "C0", "vfx": "V1", "encounter": "none"},
 	"C02": {"environment": "CH00_TRIAGE_SAFE_CAMP", "background": "", "cutscene": "C0", "vfx": "V1", "encounter": "none"},
