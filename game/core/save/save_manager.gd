@@ -2,7 +2,7 @@ extends Node
 
 const GameStateScript = preload("res://game/core/state/game_state.gd")
 
-const SCHEMA_VERSION := 2
+const SCHEMA_VERSION := 3
 const MIN_SUPPORTED_SCHEMA_VERSION := 1
 const SAVE_PATH := "user://diyse_7b5g_save.json"
 
@@ -72,6 +72,9 @@ func _migrate_to_current_schema(source: Dictionary, source_version: int) -> Dict
 			1:
 				data = _migrate_v1_to_v2(data)
 				version = 2
+			2:
+				data = _migrate_v2_to_v3(data)
+				version = 3
 			_:
 				return _failure("No migration path from save schema version: %d." % version)
 	data["schema_version"] = SCHEMA_VERSION
@@ -86,6 +89,19 @@ func _migrate_v1_to_v2(data: Dictionary) -> Dictionary:
 	if not migrated.has("wallet_g"):
 		migrated["wallet_g"] = GameStateScript.STARTING_WALLET_G
 	migrated["schema_version"] = 2
+	return migrated
+
+func _migrate_v2_to_v3(data: Dictionary) -> Dictionary:
+	var migrated := data.duplicate(true)
+	# Schema v2 still treated the old four-character `party` array as proof state.
+	# Do not infer production recruitment from that fixture. Introduce the new
+	# permanent roster at the canonical new-game baseline: Cyanis recruited and
+	# active, later characters present as stable IDs but unrecruited.
+	if not migrated.has("character_roster"):
+		migrated["character_roster"] = GameStateScript.default_character_roster()
+	if not migrated.has("active_party_ids"):
+		migrated["active_party_ids"] = ["cyanis"]
+	migrated["schema_version"] = 3
 	return migrated
 
 func _failure(message: String) -> Dictionary:
