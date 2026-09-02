@@ -3,6 +3,14 @@
 **Status:** **LOCKED — REVISED B00 COHESION MASTER APPROVED**  
 **Authority scope:** current face, hair, eye color, outfit, cape construction, palette, neutral-master weapon presentation, and prohibited regressions for character art production.
 
+## Canonical repository image master
+
+- repository path: [`asset_sources/characters/current/ilyra.jpg`](../../../../asset_sources/characters/current/ilyra.jpg)
+- Git blob SHA: `c9938bc244dd3d23177a26507e63ac8eb1f4419d`
+- SHA-256: `46dbfd2783d9aa3da04209b0938122517cb0bd2077b6da809fe3da50aa7dd358`
+
+The repository file above is the current operational image source of truth for Ilyra. It supersedes temporary/local generated filenames and any older render fingerprint if they conflict. The repository master controls until the user explicitly revises it.
+
 ## Exact approved render fingerprint
 
 The explicitly approved revised B00 cohesion render is the controlling image authority and **replaces the earlier Ilyra B00 master**.
@@ -11,7 +19,7 @@ The explicitly approved revised B00 cohesion render is the controlling image aut
 - mode: **RGB**
 - SHA-256: `dd636cd8fa7292c90721e1d8351532e6d547b4a9f6d63638d824c9e4742d8b3b`
 
-If prose and the exact approved render ever appear to disagree on incidental minutiae, the fingerprinted render controls until the user explicitly revises it.
+This older recorded fingerprint is retained for provenance. Where it differs from the canonical repository master above, the repository master controls.
 
 ## Identity / face / hair
 
