@@ -47,6 +47,28 @@ of the calibrated mandatory-route direct G, preserving the intended **40–50%**
 
 Protected/nonlethal resolution is included in the current economy and does **not** default to zero G.
 
+## Chapter liquidity certification
+The whole-game total is also validated at chapter scale in:
+> `CHAPTER_G_LIQUIDITY_VALIDATION.md`
+
+Stress-test model using **mandatory-route income only**:
+- meaningful ordinary-equipment purchase allowance through Chapter 12: **115,600 G** total;
+- substantial routine HP/MP/revive/status Consumable restocking: **171,400 G** total;
+- combined modeled spending: **287,000 G**.
+
+Result:
+> **PASS — wallet remains positive through every chapter**
+
+Tightest late-game checkpoint:
+> **Chapter 10 — approximately 7,200 G remains after modeled equipment + routine restock**
+
+Modeled end-of-Chapter-13 wallet:
+> **approximately 29,870 G**
+
+This confirms that normal equipment progression and routine recovery supplies do not require optional content or grinding.
+
+Premium Consumables are deliberately excluded from baseline solvency. Buying Emergency Kit / Reservoir Tonic / Emergency Rally is optional emergency/luxury spending, not routine healing maintenance.
+
 ## Optional direct-G layer
 Current optional direct G if all authored activities are cleared:
 - 12 numbered-chapter optional Elites: **38,900 G**;
@@ -185,6 +207,7 @@ Optional content should make the player richer and widen build flexibility, not 
 - story bosses/named encounters → `STORY_BOSS_G_REWARDS.md`
 - fixed authored combats → `ENEMY_REWARD_HANDOFF.md`
 - mandatory non-battle map → `MANDATORY_NONBATTLE_G_BUDGET.md`
+- chapter liquidity validation → `CHAPTER_G_LIQUIDITY_VALIDATION.md`
 - optional Elites → `ELITE_G_REWARDS.md`
 - Regional Hunts → `REGIONAL_HUNT_REWARD_BOUNDARY.md`
 - Major Hunts → `MAJOR_HUNT_REWARD_BOUNDARY.md`
@@ -197,6 +220,7 @@ Optional content should make the player richer and widen build flexibility, not 
 ## Reopen rule
 Reopen a closed economy value only when:
 - a current playtest demonstrates a specific affordability/exploit failure;
+- actual battle-consumption simulation materially exceeds the certified restock allowance;
 - an owner-domain reward/source changes materially;
 - or the user explicitly revises the economy design.
 
