@@ -8,6 +8,11 @@ from .actions import AuthoredActionSource, find_named_action_line, load_named_ac
 from .actors import EnemyRegistryEntry, StatBlockSource, find_enemy_registry_entries, load_enemy_registry, load_stat_row, load_stat_table, parse_stat_row
 from .analogues import FunctionalAnalogueRuleSource, parse_functional_analogue_rule_text
 from .audit import SourceAuditIssue, SourceAuditReport, audit_repo_sources
+from .class_equipment_access import (
+    DonorEquipmentAccessSource,
+    load_character_donor_equipment_access,
+    load_donor_equipment_access,
+)
 from .class_exp import (
     CAMPAIGN_CEXP_BUDGETS_PATH,
     CLASS_CEXP_CAP,
@@ -65,6 +70,7 @@ __all__ = [
     "ClassLevelThresholdSource",
     "CombatRules",
     "ConsumableSource",
+    "DonorEquipmentAccessSource",
     "DynamicElementHitRuleSource",
     "EnemyRegistryEntry",
     "EnemySystemRules",
@@ -100,12 +106,14 @@ __all__ = [
     "load_ability_registry",
     "load_ability_source",
     "load_campaign_cexp_budgets",
+    "load_character_donor_equipment_access",
     "load_character_starting_cexp",
     "load_chapter13_cexp_split",
     "load_class_level_thresholds",
     "load_combat_rules",
     "load_consumable",
     "load_consumable_register",
+    "load_donor_equipment_access",
     "load_enemy_registry",
     "load_enemy_system_rules",
     "load_equipment",
