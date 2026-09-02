@@ -73,7 +73,23 @@ Target:
 
 The calibrated completionist total lands within normal route/encounter variance of the target.
 
+## Chapter liquidity certification
+Owner validation:
+> `CHAPTER_G_LIQUIDITY_VALIDATION.md`
+
+Mandatory-only stress model reserves:
+- **115,600 G** for meaningful ordinary-equipment purchases;
+- **171,400 G** for substantial routine HP/MP/revive/status Consumable restocking;
+- **287,000 G** combined modeled spending.
+
+Results:
+- wallet remains positive in every chapter — PASS
+- Chapter-10 tight point still retains **~7,200 G** — PASS
+- modeled Chapter-13 ending wallet retains **~29,870 G** — PASS
+- optional content/grinding not required for baseline gear + healing readiness — PASS
+- premium Consumables correctly remain outside baseline solvency — PASS
+
 ## Status
-> **G ECONOMY MIGRATION / PAYOUT RECALIBRATION CERTIFIED**
+> **G ECONOMY MIGRATION / PAYOUT / LIQUIDITY CERTIFIED**
 
 Do not restore older Auren-era exact totals as current G authority.
