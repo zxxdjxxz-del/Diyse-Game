@@ -23,12 +23,12 @@ B00 as a full production benchmark is **not yet closed**: after the cohesion pas
 
 | Character | State |
 |---|---|
-| Cyanis | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
+| Cyanis | **REVISED COHESION MASTER APPROVED / LOCKED** |
 | Ilyra | **REVISED COHESION MASTER APPROVED / LOCKED** |
 | Torren | **NEW FINAL HIGH-RES B00 RANGER/GHILLIE MASTER APPROVED / LOCKED** |
 | Nimera | **REVISED COHESION MASTER APPROVED / LOCKED** |
 | Vaelira | **REVISED COHESION MASTER APPROVED / LOCKED** |
-| Seyrik | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
+| Seyrik | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED — COHESION REVIEW PENDING** |
 
 Current production-lock authorities:
 - `../CHARACTERS/CYANIS_CURRENT_VISUAL_LOCK.md`
@@ -54,7 +54,7 @@ The complete six-character master set establishes the party-wide B00 grammar:
 - single clean full-body master presentation as the preferred high-resolution review format.
 
 Character-specific contributions:
-- **Cyanis:** mobile royal battle-knight structure, clean silver armor over dark royal blue / black layers.
+- **Cyanis:** mobile royal battle-knight structure, dark-brown hair, hazel eyes, royal-blue/black cloth construction and **silver-only** armor/trim language.
 - **Ilyra:** light defensive / warding language with white/pale-blue fabric, long blonde hair, **one coherent pale-blue cape**, restrained silver structure and **bold saturated green eyes**.
 - **Torren:** weathered veteran ranger / military-scout language: deep army/forest-green structured clothing with long split outer panels, pale tabard accent, **golden-bronze metal chest/shoulder/limb protection**, dark brown field leather, three canisters, hip quiver, back-carried recurved bow, **amber-eye identity**, and a full mixed-vegetation ghillie mantle built from grasses, leaves, moss and twigs.
 - **Nimera:** dark-purple braided/updo hair, white fitted outfit, purple constellation waist-coat, black boots/utility gear, **silver hardware**, dark-green Cardweaver props, and a confident/sassy silhouette without artifact-dot dependency.
@@ -112,6 +112,8 @@ Nimera's earlier cleanup master has now been replaced by the approved cohesion m
 
 Vaelira's earlier smoother/gacha-like master has now been replaced by the approved fresh B00 cohesion redraw with a more mature face, stronger graphic value grouping, preserved emerald/black/silver construction, deep-crimson hair, Arcane Staff and **electric royal-blue eyes**.
 
+Cyanis's earlier gold-edged master has now been replaced by the approved fresh B00 cohesion redraw with **dark-brown hair, hazel eyes, silver-only trim/armor, cleaner graphic metal planes, and preserved royal-blue/black battle-knight construction**.
+
 ## 6. Runtime representation decision
 
 Diyse's primary field and battle character representation is now **rigged 3D character models**.
@@ -159,27 +161,28 @@ Completed:
 4. complete Ilyra's cape/eye cohesion revision and re-lock her exact master;
 5. complete Nimera's material/detail cohesion revision and re-lock her exact master;
 6. complete Vaelira's fresh B00 style/material cohesion revision and re-lock her exact master;
-7. retire the unnecessary dedicated field/battle sprite gate;
-8. lock the rigged-model runtime validation grammar;
-9. verify the exact v5 Quaternius mannequin/Armature source and member hashes.
+7. complete Cyanis's dark-brown-hair / silver-only B00 cohesion revision and re-lock his exact master;
+8. retire the unnecessary dedicated field/battle sprite gate;
+9. lock the rigged-model runtime validation grammar;
+10. verify the exact v5 Quaternius mannequin/Armature source and member hashes.
 
 Next:
-10. review **Cyanis and Seyrik** against the revised cohesion masters and correct only if needed;
-11. perform the final six-character side-by-side cohesion judgment using the exact approved masters;
-12. declare the coherent six-character high-res party set ready for runtime translation;
-13. import `UAL1_Standard.glb` into Godot;
-14. validate skeleton hierarchy, embedded animations and skin deformation;
-15. compare `_RM` root-motion behavior;
-16. validate `Mannequin_F.glb` retargeting on the same skeleton contract;
-17. create one B00-faithful model/material/shader pilot;
-18. validate it against the exact approved master in neutral presentation;
-19. validate the same model at field camera distance;
-20. validate the same model at battle camera distance;
-21. test representative B01 stone, B03 foliage and B10 prop environments;
-22. test representative B06 VFX overlap;
-23. propagate the proven model/material/rig grammar across all six characters;
-24. compare all six together for silhouette, palette, scale and animation coherence;
-25. only then declare B00 fully passed.
+11. review **Seyrik** against the five revised cohesion masters and correct only if needed;
+12. perform the final six-character side-by-side cohesion judgment using the exact approved masters;
+13. declare the coherent six-character high-res party set ready for runtime translation;
+14. import `UAL1_Standard.glb` into Godot;
+15. validate skeleton hierarchy, embedded animations and skin deformation;
+16. compare `_RM` root-motion behavior;
+17. validate `Mannequin_F.glb` retargeting on the same skeleton contract;
+18. create one B00-faithful model/material/shader pilot;
+19. validate it against the exact approved master in neutral presentation;
+20. validate the same model at field camera distance;
+21. validate the same model at battle camera distance;
+22. test representative B01 stone, B03 foliage and B10 prop environments;
+23. test representative B06 VFX overlap;
+24. propagate the proven model/material/rig grammar across all six characters;
+25. compare all six together for silhouette, palette, scale and animation coherence;
+26. only then declare B00 fully passed.
 
 ## 10. Asset Forge / Godot boundary
 
@@ -195,4 +198,4 @@ Earlier material-family work is not automatically invalidated, but it must confo
 
 Current state:
 
-`VISUAL STYLE LOCKED → 6/6 HIGH-RES PARTY MASTERS LOCKED → NEW TORREN MASTER + ILYRA + NIMERA + VAELIRA COHESION REVISIONS LOCKED → CYANIS/SEYRIK REVIEW NEXT → V5 QUATERNIUS RIG VERIFIED → GODOT PILOT AFTER COHESION`
+`VISUAL STYLE LOCKED → 6/6 HIGH-RES PARTY MASTERS LOCKED → TORREN + ILYRA + NIMERA + VAELIRA + CYANIS COHESION REVISIONS LOCKED → SEYRIK REVIEW NEXT → V5 QUATERNIUS RIG VERIFIED → GODOT PILOT AFTER COHESION`
