@@ -2,12 +2,12 @@
 
 ## Party
 Permanent six:
-- Cyanis Dovaren — Crest Knight / Crest Arcanist
-- Ilyra Amarin — Blue Warden / Vowblade
-- Torren Harth — War Archer / Routeweaver
-- Nimera Pellan — Cardweaver / Proofhunter
-- Vaelira Serren — Green Arcanist / Axiomblade
-- Seyrik Rell — Ruin Vanguard / Ruin Warden
+- Cyanis — Crest Knight / Crest Arcanist
+- Ilyra — Blue Warden / Vowblade
+- Torren — War Archer / Routeweaver
+- Nimera — Cardweaver / Proofhunter
+- Vaelira — Green Arcanist / Axiomblade
+- Seyrik — Ruin Vanguard / Ruin Warden
 
 Active battle party:
 > **4**
