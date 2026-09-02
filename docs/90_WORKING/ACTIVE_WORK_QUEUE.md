@@ -24,7 +24,31 @@ Immediate next dialogue work:
 
 Optional Side Quest / Character Quest exact dialogue remains open where not separately completed.
 
-## 3 — Production Implementation
+## 3 — Playable Area & Route Layout Production
+**ACTIVE / MAY PROCEED IN PARALLEL WITH VISUAL BENCHMARK WORK**
+
+The current world map and macro travel order do **not** yet constitute production-ready playable maps.
+
+Open work includes:
+- inventory every gameplay-relevant field, route, town/hub slice, dungeon, facility, quest site and Hunt site;
+- create actual playable footprints/blockouts;
+- define entrances/exits, critical paths, optional loops, shortcuts and traversal gates;
+- place landmarks and sightline anchors;
+- define elevation and HD-2D foreground/midground/background composition;
+- reserve encounter spaces and boss/Hunt arenas;
+- place authored interactions, rewards, transitions and state changes;
+- set rough traversal/pacing targets;
+- create environment-generation handoff packets that preserve canonical geography and route topology.
+
+Layout/blockout work can begin before final environment-material certification. Final rendered environment production remains downstream of the relevant B01–B11 style/material approvals.
+
+Immediate next deliverable:
+> **Playable Area Inventory** — one complete checklist of all playable areas/sub-areas and their current layout readiness.
+
+Working pointer:
+`AREA_AND_ROUTE_LAYOUT_PRODUCTION_WORKING.md`
+
+## 4 — Production Implementation
 Reconcile current canon with runtime, including:
 - removal of stale Mastery Point assumptions;
 - current Prime behavior and tests;
@@ -36,7 +60,7 @@ Reconcile current canon with runtime, including:
 
 Implementation must consume owner-domain values rather than recreate them.
 
-## 4 — Visual Production / Style Certification
+## 5 — Visual Production / Style Certification
 **ACTIVE**
 
 Current immediate gate:
@@ -53,15 +77,15 @@ Environment/material certification B01–B11 also remains open. Do not bulk-conv
 Working pointer:
 `VISUAL_PRODUCTION_WORKING.md`
 
-## 5 — Audio / Music Redevelopment
+## 6 — Audio / Music Redevelopment
 Final soundtrack identity, cue hierarchy, regional language, battle/boss/Hunt/Prime music, leitmotifs, diegetic scope, voice scope, SFX palette, and mix/implementation targets remain open.
 
-## 6 — Whole-Game Playtest / QA
+## 7 — Whole-Game Playtest / QA
 Run campaign-only, light, typical, heavy, and completionist routes plus boss/Hunt/Elite, **economy**, save/load, exploit, readability, input, and Android performance QA when the relevant implementation/content layers are ready.
 
 Economy QA validates the closed owner-domain G calibration rather than treating the numeric economy as still unauthored.
 
-## 7 — Intentionally Open Story / Lore Details
+## 8 — Intentionally Open Story / Lore Details
 Keep explicitly open details unresolved until separately approved, including the sole Entity-fragment survival mechanism, Chapter-10 research-trail specifics, final survey prop, and unresolved formal chapter titles.
 
 ## Balance-workflow routing note
