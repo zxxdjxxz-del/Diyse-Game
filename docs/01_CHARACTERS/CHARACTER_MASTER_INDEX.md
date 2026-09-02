@@ -7,12 +7,12 @@
 
 | Character | Age | Permanent join | Base | Subclass | Face | Story Prime |
 |---|---:|---|---|---|---|---|
-| Cyanis | 29 | Start | Crest Knight | Crest Magus | Might | Last Sentinel |
+| Cyanis | 29 | Start | Crest Knight | Crest Arcanist | Might | Last Sentinel |
 | Ilyra | 28 | Chapter 0 | Blue Warden | Vowblade | Grace | Last Sanctuary |
-| Torren | 42 | Chapter 1 | War Archer | Routeweaver | Resource | Last Cartographer |
-| Nimera | 22 | Chapter 3 | Cardweaver | Sixfold Knight | Memory | Last Scribe |
+| Torren | 42 | Chapter 1 | War Archer | Routeweaver | Perception | Last Cartographer |
+| Nimera | 22 | Chapter 3 | Cardweaver | Proofhunter | Memory | Last Scribe |
 | Vaelira | 27 | Chapter 4 | Green Arcanist | Axiomblade | Elements | Last Convergence |
-| Seyrik | 29 | end of Chapter 6 | Ruin Vanguard | Ruin Healer | Ruin | Last Erasure |
+| Seyrik | 29 | end of Chapter 6 | Ruin Vanguard | Ruin Warden | Ruin | Last Erasure |
 
 Do **not** infer or restore surnames for the permanent six from superseded migration filenames.
 
