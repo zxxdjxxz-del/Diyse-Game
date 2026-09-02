@@ -1,6 +1,6 @@
 # Diyse — Optional Content Reward Master
 
-**Status:** EXACT OPTIONAL ECONOMIC PACKAGES CLOSED
+**Status:** REWARD ARCHITECTURE CURRENT / EXACT G TOTALS REOPENED
 
 Optional activities are owned structurally by `11_QUESTS` and their Player EXP by `10_PROGRESSION_AND_EXP`.
 
@@ -14,10 +14,8 @@ This file summarizes the non-EXP economic/reward layer owned by `12_ECONOMY_AND_
 - 6 Major Hunts.
 
 ## Authoring principle
-Do not stack every reward axis at maximum value on one activity.
-
 A reward package may distribute value through:
-- Auren;
+- G;
 - Consumables;
 - ordinary equipment;
 - Relic;
@@ -26,80 +24,56 @@ A reward package may distribute value through:
 - Forge Component;
 - world-state payoff.
 
-If an activity already awards a high-value permanent build item, its direct Auren need not also be maximal.
+Current correction:
+> **Hunts should still give a strong amount of G even when they also grant permanent or exceptional rewards.**
 
-## Exact direct-Auren totals
-| Activity layer | Direct Auren |
-|---|---:|
-| 12 optional Elites | **3,890** |
-| 5 ordinary Side Quests | **1,800** |
-| 6 Character Quests | **2,220** |
-| 11 Regional Hunts | **5,280** |
-| 6 Major Hunts | **6,200** |
-| **Total** | **19,390** |
+Do not discount Regional or Major Hunt G simply because another reward axis is present.
 
-These totals are optional surplus and are not required for baseline story solvency.
+## Exact G totals
+The former optional direct-cash totals are retired as current numeric authority.
+
+All optional G is being recalibrated against:
+- the tenfold displayed G scale;
+- completionist direct cash around **650,000 G**;
+- stronger Regional and Major Hunt payouts;
+- G payouts for protected/nonlethal resolved encounters where applicable.
 
 ## Ordinary Side Quests
-Exact packages live in:
+Reward composition lives in:
 > `SIDE_QUEST_REWARD_BOUNDARY.md`
 
-Direct cash total:
-> **1,800 Auren**
-
-Normal-stock Consumable reward-equivalent total:
-> **2,135 Auren**
+Direct G values are reopened; retained normal-stock Consumable packages remain part of the reward structure.
 
 ## Character Quests
-Exact add-ons live in:
+Reward composition lives in:
 > `CHARACTER_QUEST_REWARD_BOUNDARY.md`
 
-Direct cash total:
-> **2,220 Auren**
-
-Normal-stock Consumable reward-equivalent total:
-> **2,400 Auren**
-
-Each Character Quest also retains its unique Legacy Component as the dominant permanent progression reward.
+Each quest retains its unique Legacy Component as a major permanent reward. Direct G values are reopened.
 
 ## Optional Elites
-Exact first-clear cash lives in:
-> `ELITE_AUREN_REWARDS.md`
+Current G authority:
+> `ELITE_G_REWARDS.md`
 
-Total:
-> **3,890 Auren**
-
-Ruin Breach Captain is cash-discounted because it also awards **Black Harvest**.
+Protected/nonlethal resolution is not an automatic zero-G condition.
 
 ## Regional Hunts
-Exact first-clear cash lives in:
+Current reward authority:
 > `REGIONAL_HUNT_REWARD_BOUNDARY.md`
 
-Total:
-> **5,280 Auren**
-
-Whitehorn Ravager, Winterglass Titan, and Rift Siege Beast are cash-discounted because they also supply Relic-copy Forge Components.
+All 11 should receive good G payouts regardless of Forge Components or other separate rewards.
 
 ## Major Hunts
-Exact first-clear cash lives in:
+Current reward authority:
 > `MAJOR_HUNT_REWARD_BOUNDARY.md`
 
-Total:
-> **6,200 Auren**
+Every Major Hunt still awards its associated Prime already **Awakened**, and should also receive a strong G payout.
 
-Every Major Hunt also awards its associated Prime already **Awakened**.
-Additional established component/precursor/Emergency Rally handoffs remain part of the relevant Hunt's total reward budget.
-
-## Reward-only Consumables
-Finite whole-game supply is exact in:
+## Premium Consumables
+Current authority:
 > `REWARD_ONLY_CONSUMABLE_PLACEMENT.md`
 
-- Reservoir Tonic ×3;
-- Emergency Kit ×4;
-- Emergency Rally ×2.
-
-They are finite, non-sellable, and never normal stock.
+Despite the legacy filename, Reservoir Tonic, Emergency Kit, and Emergency Rally are **not reward-only**. They have guaranteed authored pickups and limited one-copy-per-Consumable-shop stock.
 
 ## No mandatory optional-money loop
-The mandatory route remains economically viable without any of these optional rewards.
-Optional content makes the player richer, broadens build choices, and supports expensive optional sinks such as Kessara Relic duplication.
+The mandatory route must remain economically viable without optional rewards.
+Optional content should make the player richer, broaden build choices, and support optional sinks such as Kessara Relic duplication.
