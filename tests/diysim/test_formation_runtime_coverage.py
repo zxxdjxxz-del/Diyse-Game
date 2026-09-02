@@ -18,6 +18,20 @@ def test_all_authored_numbered_chapter_formation_sources_are_discovered():
     assert any(path.endswith("CHAPTER_13_RECOVERED_FORMATIONS.md") for path in paths)
 
 
+def test_implicit_single_member_counts_are_parsed_as_one():
+    annex_probe = next(
+        formation for formation in build_formation_catalog()
+        if formation.name == "Annex Probe" and formation.source_path.endswith("CHAPTER_04_FORMATIONS.md")
+    )
+    counts = {member.label: member.count for member in annex_probe.members}
+    assert counts == {
+        "Reaction Node": 1,
+        "Reaction Hound": 2,
+        "Element Mirror": 1,
+    }
+    assert all(member.enemy is not None for member in annex_probe.members)
+
+
 def test_every_formation_is_explicitly_ready_or_blocked():
     formations = build_formation_catalog()
     assert formations
