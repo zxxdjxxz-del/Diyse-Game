@@ -9,6 +9,12 @@ from pathlib import Path
 
 from .abilities import load_ability_registry, load_ability_source
 from .actors import load_enemy_registry
+from .class_exp import (
+    load_campaign_cexp_budgets,
+    load_character_starting_cexp,
+    load_chapter13_cexp_split,
+    load_class_level_thresholds,
+)
 from .combat import load_combat_rules
 from .enemies import load_enemy_system_rules
 from .party import load_party_rules
@@ -30,9 +36,13 @@ class SourceAuditIssue:
 @dataclass(frozen=True)
 class SourceAuditReport:
     progression_loaded: bool
+    class_cexp_loaded: bool
     combat_loaded: bool
     party_rules_loaded: bool
     enemy_system_loaded: bool
+    class_level_thresholds: int
+    class_recruitment_rows: int
+    campaign_cexp_chapters: int
     ability_entries: int
     ability_sources_resolved: int
     trait_packages: int
@@ -47,9 +57,13 @@ class SourceAuditReport:
         return {
             "ok": self.ok,
             "progression_loaded": self.progression_loaded,
+            "class_cexp_loaded": self.class_cexp_loaded,
             "combat_loaded": self.combat_loaded,
             "party_rules_loaded": self.party_rules_loaded,
             "enemy_system_loaded": self.enemy_system_loaded,
+            "class_level_thresholds": self.class_level_thresholds,
+            "class_recruitment_rows": self.class_recruitment_rows,
+            "campaign_cexp_chapters": self.campaign_cexp_chapters,
             "ability_entries": self.ability_entries,
             "ability_sources_resolved": self.ability_sources_resolved,
             "trait_packages": self.trait_packages,
@@ -68,6 +82,22 @@ def audit_repo_sources(*, root: Path | None = None) -> SourceAuditReport:
         progression_loaded = True
     except RepoSourceError as exc:
         issues.append(SourceAuditIssue("progression", "global", str(exc)))
+
+    class_cexp_loaded = False
+    class_level_thresholds = 0
+    class_recruitment_rows = 0
+    campaign_cexp_chapters = 0
+    try:
+        thresholds = load_class_level_thresholds(root=repo)
+        recruitment = load_character_starting_cexp(root=repo)
+        budgets = load_campaign_cexp_budgets(root=repo)
+        load_chapter13_cexp_split(root=repo)
+        class_level_thresholds = len(thresholds)
+        class_recruitment_rows = len(recruitment)
+        campaign_cexp_chapters = len(budgets)
+        class_cexp_loaded = True
+    except RepoSourceError as exc:
+        issues.append(SourceAuditIssue("class_cexp", "progression authority", str(exc)))
 
     combat_loaded = False
     try:
@@ -134,9 +164,13 @@ def audit_repo_sources(*, root: Path | None = None) -> SourceAuditReport:
 
     return SourceAuditReport(
         progression_loaded=progression_loaded,
+        class_cexp_loaded=class_cexp_loaded,
         combat_loaded=combat_loaded,
         party_rules_loaded=party_rules_loaded,
         enemy_system_loaded=enemy_system_loaded,
+        class_level_thresholds=class_level_thresholds,
+        class_recruitment_rows=class_recruitment_rows,
+        campaign_cexp_chapters=campaign_cexp_chapters,
         ability_entries=ability_entries,
         ability_sources_resolved=ability_sources_resolved,
         trait_packages=trait_packages,
