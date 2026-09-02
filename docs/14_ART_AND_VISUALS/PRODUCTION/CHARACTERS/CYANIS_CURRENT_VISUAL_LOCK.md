@@ -3,6 +3,14 @@
 **Status:** **LOCKED — REVISED B00 COHESION MASTER APPROVED**  
 **Authority scope:** current face, hair, eye color, outfit silhouette, armor placement, palette, material read, and prohibited regressions for character art/model production.
 
+## Canonical repository image master
+
+- repository path: [`asset_sources/characters/current/cyanis.jpg`](../../../../asset_sources/characters/current/cyanis.jpg)
+- Git blob SHA: `f98829ba38d88a294c1ee17415fd197499665f09`
+- SHA-256: `c622ed107cd7b735dec44b36dce0ee6e078b687abef639d5b9f9780e086b854f`
+
+The repository file above is the current operational image source of truth for Cyanis. It supersedes temporary/local generated filenames and any older render fingerprint if they conflict. The repository master controls until the user explicitly revises it.
+
 ## Exact approved render fingerprint
 
 The explicitly approved clean B00 cohesion redraw is the controlling image authority and replaces the previous Cyanis master.
@@ -11,7 +19,7 @@ The explicitly approved clean B00 cohesion redraw is the controlling image autho
 - mode: **RGB**
 - SHA-256: `b3effd217320c97b251d4ef1bc2d64d371a9ec420883a67809aee281acce52db`
 
-If prose and the exact approved render ever appear to disagree on incidental minutiae, the fingerprinted render controls until the user explicitly revises it.
+This older recorded fingerprint is retained for provenance. Where it differs from the canonical repository master above, the repository master controls.
 
 ## Identity / face / hair
 
