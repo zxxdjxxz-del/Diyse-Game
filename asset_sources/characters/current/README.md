@@ -19,6 +19,21 @@ Canonical filenames use the characters' actual names only. No surnames are added
 
 The seven original supplied master uploads use `.png` filenames externally but contain JPEG/JFIF image data, so their canonical repository filenames use the `.jpg` extension without re-encoding. Kessara's current master is a native PNG and remains `kessara.png`.
 
+## Visual-lock documents
+
+Each current image master has a corresponding authority document under `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/`:
+
+- `cyanis.jpg` → [`CYANIS_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/CYANIS_CURRENT_VISUAL_LOCK.md)
+- `ilyra.jpg` → [`ILYRA_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md)
+- `nimera.jpg` → [`NIMERA_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/NIMERA_CURRENT_VISUAL_LOCK.md)
+- `seyrik.jpg` → [`SEYRIK_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/SEYRIK_CURRENT_VISUAL_LOCK.md)
+- `torren.jpg` → [`TORREN_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/TORREN_CURRENT_VISUAL_LOCK.md)
+- `vaelira.jpg` → [`VAELIRA_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/VAELIRA_CURRENT_VISUAL_LOCK.md)
+- `maevra.jpg` → [`MAEVRA_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/MAEVRA_CURRENT_VISUAL_LOCK.md)
+- `kessara.png` → [`KESSARA_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/KESSARA_CURRENT_VISUAL_LOCK.md)
+
+The repository image is the operational image source of truth. The corresponding visual-lock document records the identity, design constraints, and prohibited regressions for derivatives and runtime translation.
+
 ## Integrity fingerprints for the 2026-09-02 master set
 
 - `nimera.jpg` — SHA-256 `c24f819b287baf2cf087e12f14f2aee0be1c94dd1ea56ca4cc6747b89ced0330`
