@@ -47,7 +47,9 @@ func _test_full_state_round_trip() -> void:
 	source.party[0]["mp"] = 7
 	source.party[1]["hp"] = 22
 	source.inventory["Potion"] = 1
-	source.standard_cards = ["proof_might_strike", "proof_second_card"]
+	source.standard_cards.clear()
+	source.standard_cards.append("proof_might_strike")
+	source.standard_cards.append("proof_second_card")
 	source.primes["first_champion"]["progression_state"] = "Awakened"
 	source.primes["first_champion"]["available_battle_use_baseline"] = 1
 	source.equipment["Cyanis"]["weapon"] = "Saved Proof Blade"
