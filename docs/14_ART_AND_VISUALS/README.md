@@ -1,83 +1,74 @@
 # 14_ART_AND_VISUALS
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written authority:** **v2.20 / Audit135** plus newer explicit visual approvals/corrections already accepted in the project conversation.  
-**Inherited presentation authority:** Audit86 Cyanis exact visual lock, Audit87 HD-2D production grammar, Audit88 compatible Chapters 0–4 production conversion, Audit111 final world-map visual/spatial authority.  
-**Runtime checkpoint:** `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
-**Visual rule:** the newest explicitly approved visual reference for a character/location controls all derivative field sprites, battle sprites, portraits, cut-ins, model sheets, and promotional derivatives unless that exact visual is later revised.
 
-Canonical home for:
-- exact character appearance authority;
-- portrait/sprite derivation rules;
-- HD-2D presentation grammar;
-- environment visual families;
-- world-map visual authority handoff;
-- VFX presentation tiers;
-- element/Face/Card/Prime visual language;
-- production-scale visual reuse rules;
-- asset inventory and provenance routing;
-- retired visual concepts;
-- open visual-production work.
+Canonical home for Diyse's active visual authorities, production rules, environment language, character master routing, VFX presentation, asset provenance, and retired-concept firewalls.
 
 ## Active visual target
 
-> **Seinen HD-2D Fantasy with Chaotic Variable Line Weight**
+> **Seinen HD-2D Fantasy with Chaotic Variable Line Weight + Graphic Anime-Stylized Rendering**
 
 Full rendering/style authority:
 
 `DIYSE_VISUAL_STYLE_CANON.md`
 
-This keeps HD-2D as the presentation framework while locking a more specific art identity: mature seinen character language, expressive thick-to-thin/broken/irregular linework, graphic shape-first environments, cinematic atmosphere, and graphic readable VFX.
+Top-level art routing:
 
-Older active `2.5D`, `3D`, pixel-art-first, or generic clean-anime direction is retired as the production target.
+`ART_VISUAL_MASTER.md`
 
-Diyse may use pixel-scale field/battle sprites as part of HD-2D presentation, but:
-> the game's identity is not a retro pixel-art reinterpretation of the approved character masters.
+The style authority controls **how** designs are rendered. Exact approved visual masters control **what the designs are**.
 
-## Character master policy
-The currently approved anime-inspired white-background studio renders are **appearance authorities**.
+Older pixel-art-first, generic clean-anime, photoreal, painterly/soft-brushed, or glossy mobile-gacha directions are not the active production target.
 
-In-game derivatives may simplify:
-- line count;
-- ornament density;
-- micro-texture;
-- tiny jewelry detail;
-- strand-level hair detail;
+## Current character authority
 
-only where output scale requires it.
+Canonical character-production index:
 
-They may not casually change:
-- apparent age;
-- ethnicity/skin tone;
-- face identity;
-- hair identity;
-- silhouette;
-- primary palette;
-- iconic equipment/clothing language;
-- body proportion;
-- established scars/major features.
+`PRODUCTION/CHARACTERS/README.md`
 
-The new style authority changes **rendering treatment**, not previously approved character identity.
+Current repository master images:
+
+`../../asset_sources/characters/current/`
+
+Current image-master set:
+- permanent party — Cyanis, Ilyra, Torren, Nimera, Vaelira, Seyrik;
+- supporting masters — Maevra, Kessara.
+
+For these characters, use this authority order:
+1. current repository master image;
+2. matching current visual-lock document;
+3. current B00 / Diyse visual-style rules;
+4. older prose, archived renders, historical hashes, generated filenames, and superseded concepts.
+
+Do not infer or restore surnames for the eight current master characters from retired migration filenames.
+
+The repository master controls exact face, body proportions, hair, clothing/armor construction, equipment placement, palette, silhouette, and incidental visual minutiae. The lock document records intent, production constraints, and prohibited regressions without overriding the image.
+
+## Character runtime direction
+
+The active B00 field/battle direction uses **rigged 3D character models** validated against the exact current image masters.
+
+Active runtime gate:
+
+`PRODUCTION/BENCHMARKS/B00_RIGGED_MODEL_RUNTIME_VALIDATION_V1.md`
+
+Runtime readability authority:
+
+`PRODUCTION/CHARACTER_SCALE_AND_SILHOUETTE.md`
+
+The former mandatory ~80 px field and ~200–220 px battle sprite targets are retired as production gates. Optional 2D derivatives may still be created where a feature explicitly needs them, but they remain subordinate to the current master and are not a separate character identity.
 
 ## Asset style-conversion authority
 
-The practical pipeline for turning the current source/reference and CC0 libraries into the locked style is:
+The practical pipeline for turning source/reference and verified-CC0 libraries into the locked style is:
 
 `PRODUCTION/ASSET_STYLE_CONVERSION_PIPELINE.md`
 
-It controls:
-- provenance lanes;
-- repaint/rebuild order;
-- chaotic line application;
-- environment/material conversion;
-- HD-2D integration tests;
-- runtime-scale checks;
-- originalization/faction identity;
-- conversion grades (`REF`, `PROTO`, `STYLE-PASS`, `DIYSE-FINAL`, `REPLACE`);
-- reusable production prompts.
+It controls provenance lanes, rebuild order, line/style application, environment/material conversion, HD-2D integration tests, runtime-scale checks, originalization/faction identity, conversion grades, and reusable production prompts.
+
+**Painterly is retired from the active Diyse art direction.** Conversion work should use the current graphic shape-first / anime-stylized material language defined by `DIYSE_VISUAL_STYLE_CANON.md`.
 
 ## Asset Forge automation
 
-The implementation tool for scaling repetitive conversion work is:
+Implementation support:
 
 `PRODUCTION/ASSET_FORGE_AUTOMATION.md`
 
@@ -85,32 +76,32 @@ Code:
 
 `../../tools/asset_forge/forge.py`
 
-Asset Forge inventories, hashes, classifies, plans, generates/preserves, QA-checks, and builds deterministic review sheets from actual output files. It does **not** override the style canon or conversion authority, and it does not independently redraw atlas/animation frames where doing so would damage seams or frame consistency.
+Asset Forge inventories, hashes, classifies, plans, generates/preserves, QA-checks, and builds deterministic review sheets from actual output files. It does not override the style canon, current master images, character authority index, or conversion authority.
 
-The image model creates asset candidates; the Forge builds exact review boards and tracks technical metadata.
+## Benchmark gates
 
-## Active benchmark gate
+Representative style/material benchmark work lives under:
 
-Before broad asset conversion begins, the locked style must be proven on the representative benchmark set at:
+`PRODUCTION/BENCHMARKS/`
 
-`PRODUCTION/STYLE_BENCHMARK_SET_V1.md`
+B00 is the permanent-party character benchmark. Other benchmark families cover representative environment/material/prop/VFX requirements before broad propagation.
 
-The benchmark covers stone, rustic wood/interior materials, trees, animated grass, water/splash, fire/fireplace, cave materials, high-status interiors, ritual/magic surfaces, verified-CC0 props, and one fully original Black Host modular architecture piece.
-
-> **Do not bulk-convert the 3,214-file environment library until the benchmark set reads as one coherent game at actual gameplay scale.**
-
-Accepted benchmark results become the basis for a later Diyse Visual Material Grammar controlling broad conversion work.
+Do not bulk-promote a source library merely because individual assets are technically usable. Representative benchmarks must first demonstrate that the converted result belongs to the same game at actual gameplay scale.
 
 ## Asset library authority
+
 The authoritative production inventory and provenance routing live at:
 
 `PRODUCTION/ASSET_LIBRARY/README.md`
 
-The current preserved inventory is **DIYSE Asset Library Master v5**, including the exact source-archive checksum manifest and byte-identical split preservation of the full master inventory.
+The asset library records what source material exists and its provenance/production role. It does not override active visual style, exact character/location masters, environment-language rules, or newer explicit approvals.
 
-The asset library records what source material exists, what is verified CC0 versus license-unverified reference material, and what production capabilities the library can support. It does **not** override the active visual style, exact character/location visual authority, environment-language rules, or newer explicit visual approvals. Assets must be adapted, replaced, or rebuilt where necessary to satisfy current Diyse art direction.
+## Retired concepts
 
-## Image-file boundary
-This migration records visual authority and production rules.
+Historical visual concepts may remain in Git history or explicitly retired documentation, but must not silently reactivate when they conflict with current authority.
 
-It does **not** fabricate replacement image binaries for approved masters that are not physically present in this artifact package.
+See:
+
+`RETIRED_VISUAL_CONCEPTS_FIREWALL.md`
+
+Current production documents should point forward to active masters and locks rather than depending on obsolete migration filenames or memory-based reconstructions.
