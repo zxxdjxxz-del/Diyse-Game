@@ -1,91 +1,58 @@
-# Vaelira Serren — Current Visual Lock
+# Vaelira — Current Visual Lock
 
-**Status:** **LOCKED — REVISED B00 COHESION MASTER APPROVED**  
-**Authority scope:** current face, hair, eye color, outfit construction, palette, Arcane Staff, silhouette, material treatment, and prohibited regressions for character art production.
+**Status:** **LOCKED — CURRENT REPOSITORY MASTER**  
+**Authority scope:** Vaelira's exact current face, hair, eye treatment, outfit construction, palette, Arcane Staff, silhouette, and material treatment.
 
 ## Canonical repository image master
 
 - repository path: [`asset_sources/characters/current/vaelira.jpg`](../../../../asset_sources/characters/current/vaelira.jpg)
-- Git blob SHA: `05426fbb8b0b299be44557b6d0b1de62385d31df`
+- dimensions: **1022 × 1536**
 - SHA-256: `0a593588e59f644bb83efe6ee4d33caf9173495035ef007e1daa307c9385cd6e`
 
-The repository file above is the current operational image source of truth for Vaelira. It supersedes temporary/local generated filenames and any older render fingerprint if they conflict. The repository master controls until the user explicitly revises it.
+This repository image is the exact controlling visual authority. If any prose, older fingerprint, generated filename, prior render, or archived visual note conflicts with it, **the repository image wins** until the user explicitly revises Vaelira.
 
-## Exact approved render fingerprint
+## Identity / appearance anchors
 
-The explicitly approved fresh B00 redraw is the controlling image authority and **replaces the earlier Vaelira B00 master**.
-
-- dimensions: **1023 × 1537**
-- mode: **RGB**
-- SHA-256: `40cd74bf9ca93190534c587baf08fb2471a157ad66510314597187273e29a857`
-- approved generated render: `full_body_character_illustration_on_a_clean_white.png`
-
-This older recorded fingerprint/source filename is retained for provenance. Where it differs from the canonical repository master above, the repository master controls.
-
-## Identity / face / hair
-
-- adult woman, age **27**;
+Preserve the appearance shown by the master:
+- adult woman, canonical age **27**;
 - fair/light skin;
-- **electric royal-blue eyes** are a deliberate party-color anchor and must remain vivid;
+- vivid royal/electric-blue eyes as depicted;
 - long loose deep-crimson / burgundy-red hair;
-- no ponytail;
-- composed, precise, mature Green Arcanist facial read;
-- hair should resolve as large readable masses with intentional strands rather than repetitive micro-noise.
+- mature, precise Green Arcanist facial read;
+- fitted black foundation layer;
+- emerald-green open coat and lower outer garment construction as shown;
+- emerald-green boots;
+- silver-toned metal hardware and trim;
+- Arcane Staff as her defining ordinary visual weapon;
+- dark staff shaft with silver structural fittings and an emerald/teal crystal focal element.
 
-## Outfit / palette
+The image controls exact facial proportions, hair mass, garment seams, coat/skirt relationship, boot construction, staff geometry, crystal shape, and incidental detailing.
 
-Preserve the approved Green Arcanist construction:
-- fitted **black cloth** foundation layer;
-- separate **emerald-green open coat** with structured high collar and short sleeves;
-- separate **emerald-green skirt / lower outer garment** over the black base;
-- tall **emerald-green heeled boots**;
-- metallic trim and hardware are **silver**, not gold;
-- restrained teal/emerald accents may remain where shown by the exact approved render;
-- clean material separation between black cloth, emerald cloth/leather, silver metal, hair and crystal.
+## Combat identity
 
-The cohesion redraw intentionally reduces glossy/gacha-like material behavior and random artifact detail while preserving Vaelira's established silhouette.
-
-## Weapon
-
-Vaelira's visual baseline remains **Green Arcanist**:
-- primary visual weapon: **Arcane Staff**;
-- dark/black shaft;
-- silver structural head and fittings;
-- faceted emerald/teal crystal focal element;
-- elegant readable silhouette rather than an oversized sorceress-queen structure.
+Vaelira is **not an archer** in her current combat/visual identity. Preserve the Green Arcanist / Axiomblade direction and ordinary **Arcane Staff** weapon family. Do not restore bows, quivers, or bow-based visual language unless the user explicitly revises her.
 
 ## Rendering direction
 
-Render Vaelira in Diyse's B00 authority:
-
-> **Seinen HD-2D Fantasy with Chaotic Variable Line Weight + Graphic Anime-Stylized Rendering**
-
-Required qualities:
-- mature anime/seinen proportions and facial construction;
-- deliberate variable line hierarchy;
+Render Vaelira in Diyse B00 / HD-2D anime character language:
+- mature seinen/anime proportions;
+- deliberate variable line weight;
 - graphic cel-informed value grouping;
-- clean cloth / metal / hair / crystal material separation;
-- coherent garment construction;
-- rich controlled emerald/crimson/black palette;
-- clean white-background full-body master presentation for B00 review unless another view is explicitly requested;
-- no painterly/soft-brushed treatment;
-- no glossy mobile-gacha finish;
-- no random artifact dots, speckle, grunge, broken seams or accidental jewelry fragments.
+- clean cloth / metal / hair / crystal separation;
+- controlled emerald / crimson / black palette;
+- no painterly or soft-brushed finish;
+- no glossy mobile-gacha material treatment;
+- no random artifact dots, speckle, grunge, broken seams, or AI artifact texture.
 
-## Explicitly retired regressions
+## Prohibited regressions
 
-Do not reintroduce:
-- bow, quiver, or archer/ranger silhouette;
-- Maevra's face, skin tone, armor language, spear identity, or any other cross-character contamination;
-- the former high-fantasy sorceress-queen outfit;
-- giant crystal-web ornament;
-- glossy green latex/bodysuit treatment;
-- gold metal palette;
-- black boots replacing the approved emerald boots;
-- ponytail hair;
-- cape or trailing cloth panels that change her silhouette;
-- merged coat-and-skirt construction;
-- dull cyan/green eyes instead of **electric royal blue**;
-- generic AI-smooth rendering or micro-detail noise.
+Do not:
+- reintroduce a bow, quiver, or archer/ranger silhouette;
+- replace the current face or outfit with older Vaelira designs;
+- borrow Maevra's face, skin tone, armor language, or spear identity;
+- restore the retired oversized sorceress-queen silhouette;
+- turn the green clothing into glossy latex/bodysuit material;
+- replace silver hardware with dominant gold metal;
+- patch an older image when a clean redraw is requested.
 
-This file controls Vaelira's B00 derivatives until explicitly revised.
+This file and the linked repository image control Vaelira's current B00 master and later model/runtime translation until explicitly revised.
