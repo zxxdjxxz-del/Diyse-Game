@@ -1,7 +1,8 @@
 # Diyse — B00 Runtime Character Derivative Spec v1
 
 **Status:** **SUPERSEDED FOR PRIMARY RUNTIME — RETAINED AS OPTIONAL 2D FALLBACK REFERENCE**  
-**Superseded by:** `B00_RIGGED_MODEL_RUNTIME_VALIDATION_V1.md`
+**Superseded by:** `B00_RIGGED_MODEL_RUNTIME_VALIDATION_V1.md`  
+**Current character authority:** `../CHARACTERS/README.md`
 
 ## Decision
 
@@ -9,9 +10,9 @@ The earlier B00 plan assumed dedicated character art derivatives at approximatel
 
 That is no longer the primary runtime plan because Diyse is proceeding with **rigged 3D character models** for field and battle presentation when a production-usable rig is available.
 
-The six fingerprinted B00 high-resolution masters remain the visual authority. Runtime characters should now be validated by matching those masters in the rigged model, materials, shader/outline treatment, animation, field camera and battle camera.
+The six **current repository master images** in `asset_sources/characters/current/` remain the exact permanent-party visual authorities. Runtime characters must be validated against those current masters through the rigged model, materials, shader/outline treatment, animation, field camera, and battle camera.
 
-Do **not** create the previously planned six battle redraws and six field sprites merely to satisfy B00.
+Do **not** use historical fingerprints, older generated renders, or this document's old screen-size targets to override the current masters. Do **not** create the previously planned six battle redraws and six field sprites merely to satisfy B00.
 
 ## What remains useful from this spec
 
@@ -20,7 +21,7 @@ The old simplification principles remain useful as **screen-space readability gu
 - preserve signature weapon/prop shape;
 - preserve hair mass and dominant palette blocks;
 - preserve major armor/clothing/material divisions;
-- remove or simplify details that shimmer, alias or disappear at distance;
+- remove or simplify details that shimmer, alias, or disappear at distance;
 - keep the character stronger than environment noise;
 - maintain clear VFX overlap readability.
 
@@ -42,7 +43,7 @@ This file may still guide intentionally 2D assets such as:
 - deliberately sprite-based effects;
 - an explicitly approved alternate presentation mode.
 
-It is **not** the active B00 gate.
+It is **not** the active B00 gate and it is **not** a character identity source.
 
 ## Active gate
 
@@ -51,4 +52,4 @@ See:
 
 Current production state:
 
-`6/6 HIGH-RES MASTERS LOCKED → RIGGED MODEL RUNTIME VALIDATION ACTIVE`
+`6/6 CURRENT REPOSITORY MASTERS LOCKED → RIGGED MODEL RUNTIME VALIDATION ACTIVE`
