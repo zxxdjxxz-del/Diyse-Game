@@ -40,7 +40,7 @@ When current claims conflict:
 - `09_ENEMIES_AND_ENCOUNTERS` — enemy rosters, formations, bosses, Elites, Hunts, support objects
 - `10_PROGRESSION_AND_EXP` — Player EXP, level curve, CEXP, encounter progression planning
 - `11_QUESTS` — Character Quests, Side Quests, Hunt access/presentation, optional-content cutoff
-- `12_ECONOMY_AND_REWARDS` — Auren, prices, shops, resale/repurchase, reward boundaries
+- `12_ECONOMY_AND_REWARDS` — G, prices, shops, resale/repurchase, reward boundaries
 - `13_UI_AND_IMPLEMENTATION` — UI/runtime requirements, saves, proof-runtime divergence, implementation debt
 - `14_ART_AND_VISUALS` — visual authorities, HD-2D grammar, environment/map/VFX handoff
 - `15_AUDIO_AND_MUSIC` — music/sound authority and implementation boundary
@@ -51,6 +51,8 @@ When current claims conflict:
 `90_WORKING` contains only currently unresolved/reopened work. Approved work must be promoted into its owning numbered domain.
 
 `99_ARCHIVE` contains migration history, retired terminology/authority, old package records, and provenance references. It is non-authoritative for current gameplay unless a current owner explicitly cites it for historical evidence.
+
+Completed subject-folder migration/consolidation checklists are historical and do not belong in active domain roots. The current economy certification remains in `12_ECONOMY_AND_REWARDS/MIGRATION_VALIDATION.md` only because that legacy-named file has been converted into an explicitly current G/payout/liquidity validation.
 
 ## Current Face terminology
 
