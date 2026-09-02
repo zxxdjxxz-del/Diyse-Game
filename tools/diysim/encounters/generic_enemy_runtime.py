@@ -1,15 +1,15 @@
 """Shared execution primitives for repo-parsed generic enemies."""
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from pathlib import Path
 import random
 
-from tools.diysim.combat.models import CombatAction, Combatant
+from tools.diysim.combat.models import CombatAction, Combatant, StatusRider
 from tools.diysim.overlays import BalanceOverlay, apply_enemy_balance_overlay
 from tools.diysim.sources.enemies import load_enemy_system_rules
 
-from .runtime_catalog import EnemyRuntimeDefinition
+from .runtime_catalog import DynamicElementStateSpec, EnemyRuntimeDefinition
 
 
 @dataclass
@@ -25,12 +25,56 @@ class GenericEnemyRuntime:
     forced_by_actions: dict[str, str] = field(default_factory=dict)
     preparation_requirements: dict[str, str] = field(default_factory=dict)
     pending_forced_action: str | None = None
+    dynamic_element_specs: dict[str, DynamicElementStateSpec] = field(default_factory=dict)
+    dynamic_element_values: dict[str, str] = field(default_factory=dict)
+    dynamic_action_sources: dict[str, str] = field(default_factory=dict)
+    elemental_status_riders: dict[str, dict[str, StatusRider]] = field(default_factory=dict)
+
+    def prepare_round(self, round_number: int, rng: random.Random) -> None:
+        """Resolve battle-scoped/round-scoped authored element state.
+
+        Random-once state is sampled exactly once per enemy instance. Round-cycle
+        state is derived from the authored initial element and current round, so
+        repeated selection calls within one round cannot advance it twice.
+        """
+        if round_number < 1:
+            raise ValueError("round_number must be at least 1")
+        for source, spec in self.dynamic_element_specs.items():
+            if spec.mode == "random_once":
+                if source not in self.dynamic_element_values:
+                    if not spec.choices:
+                        raise RuntimeError(f"{self.combatant.name} dynamic state {source!r} has no choices")
+                    self.dynamic_element_values[source] = rng.choice(spec.choices)
+            elif spec.mode == "round_cycle":
+                if not spec.cycle:
+                    raise RuntimeError(f"{self.combatant.name} dynamic state {source!r} has no cycle")
+                self.dynamic_element_values[source] = spec.cycle[(round_number - 1) % len(spec.cycle)]
+            else:
+                raise RuntimeError(f"unsupported dynamic element mode {spec.mode!r}")
+
+    def _resolve_action(self, action: CombatAction) -> CombatAction:
+        source = self.dynamic_action_sources.get(action.name)
+        if source is None:
+            return action
+        element = self.dynamic_element_values.get(source)
+        if element is None:
+            raise RuntimeError(
+                f"{self.combatant.name} action {action.name!r} requires unresolved dynamic state {source!r}; "
+                "prepare_round must run before action selection"
+            )
+        rider = self.elemental_status_riders.get(action.name, {}).get(element)
+        return replace(
+            action,
+            element=element,
+            status_riders=(rider,) if rider is not None else (),
+        )
 
     def _action_by_name(self, name: str) -> CombatAction:
         try:
-            return next(action for action in self.combatant.actions if action.name == name)
+            action = next(action for action in self.combatant.actions if action.name == name)
         except StopIteration as exc:
             raise RuntimeError(f"{self.combatant.name} runtime references unknown action {name!r}") from exc
+        return self._resolve_action(action)
 
     def _base_legal(self, action: CombatAction, round_number: int) -> bool:
         if round_number <= self.locked_through.get(action.name, 0):
@@ -59,9 +103,14 @@ class GenericEnemyRuntime:
                     f"{self.combatant.name} forced action {forced.name!r} exceeded its use cap"
                 )
             return (forced,)
-        return tuple(action for action in self.combatant.actions if self._base_legal(action, round_number))
+        return tuple(
+            self._resolve_action(action)
+            for action in self.combatant.actions
+            if self._base_legal(action, round_number)
+        )
 
     def select_action(self, round_number: int, rng: random.Random) -> CombatAction:
+        self.prepare_round(round_number, rng)
         legal = self.legal_actions(round_number)
         if not legal:
             raise RuntimeError(f"{self.combatant.name} has no legal generic action in round {round_number}")
@@ -134,6 +183,19 @@ def build_generic_enemy_runtime(
         for item in definition.actions
         if item.action is not None and item.requires_preparation is not None
     }
+    dynamic_action_sources = {
+        item.action.name: item.dynamic_element_source
+        for item in definition.actions
+        if item.action is not None and item.dynamic_element_source is not None
+    }
+    elemental_status_riders = {
+        item.action.name: {
+            element: StatusRider(status, chance)
+            for element, status, chance in item.elemental_status_riders
+        }
+        for item in definition.actions
+        if item.action is not None and item.elemental_status_riders
+    }
     return GenericEnemyRuntime(
         definition=definition,
         combatant=combatant,
@@ -145,6 +207,10 @@ def build_generic_enemy_runtime(
         forced_follow_ups=forced_follow_ups,
         forced_by_actions=forced_by_actions,
         preparation_requirements=preparation_requirements,
+        dynamic_element_specs={spec.source: spec for spec in definition.dynamic_element_states},
+        dynamic_element_values={},
+        dynamic_action_sources=dynamic_action_sources,
+        elemental_status_riders=elemental_status_riders,
     )
 
 
