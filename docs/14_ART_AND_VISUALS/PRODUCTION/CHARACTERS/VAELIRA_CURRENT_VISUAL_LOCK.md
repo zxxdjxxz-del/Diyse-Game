@@ -3,6 +3,14 @@
 **Status:** **LOCKED — REVISED B00 COHESION MASTER APPROVED**  
 **Authority scope:** current face, hair, eye color, outfit construction, palette, Arcane Staff, silhouette, material treatment, and prohibited regressions for character art production.
 
+## Canonical repository image master
+
+- repository path: [`asset_sources/characters/current/vaelira.jpg`](../../../../asset_sources/characters/current/vaelira.jpg)
+- Git blob SHA: `05426fbb8b0b299be44557b6d0b1de62385d31df`
+- SHA-256: `0a593588e59f644bb83efe6ee4d33caf9173495035ef007e1daa307c9385cd6e`
+
+The repository file above is the current operational image source of truth for Vaelira. It supersedes temporary/local generated filenames and any older render fingerprint if they conflict. The repository master controls until the user explicitly revises it.
+
 ## Exact approved render fingerprint
 
 The explicitly approved fresh B00 redraw is the controlling image authority and **replaces the earlier Vaelira B00 master**.
@@ -12,7 +20,7 @@ The explicitly approved fresh B00 redraw is the controlling image authority and 
 - SHA-256: `40cd74bf9ca93190534c587baf08fb2471a157ad66510314597187273e29a857`
 - approved generated render: `full_body_character_illustration_on_a_clean_white.png`
 
-If prose and the exact approved render ever appear to disagree on incidental minutiae, the fingerprinted render controls until the user explicitly revises it.
+This older recorded fingerprint/source filename is retained for provenance. Where it differs from the canonical repository master above, the repository master controls.
 
 ## Identity / face / hair
 
