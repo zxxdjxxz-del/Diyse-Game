@@ -3,6 +3,7 @@ from __future__ import annotations
 from tools.diysim.encounters.formation_catalog import (
     build_formation_catalog,
     discover_formation_paths,
+    formation_chapter_number,
 )
 from tools.diysim.reports.formation_runtime_coverage import formation_runtime_coverage_dict
 
@@ -10,10 +11,11 @@ from tools.diysim.reports.formation_runtime_coverage import formation_runtime_co
 def test_all_authored_numbered_chapter_formation_sources_are_discovered():
     paths = discover_formation_paths()
     assert len(paths) == 13
-    assert not any(path.endswith("CHAPTER_00_FORMATIONS.md") for path in paths)
-    for chapter in range(1, 14):
-        expected = f"CHAPTER_{chapter:02d}_FORMATIONS.md"
-        assert any(path.endswith(expected) for path in paths)
+    assert not any(formation_chapter_number(path) == 0 for path in paths)
+    assert {formation_chapter_number(path) for path in paths} == set(range(1, 14))
+    assert any(path.endswith("CHAPTER_10_RECOVERED_FORMATIONS.md") for path in paths)
+    assert any(path.endswith("CHAPTER_12_RECOVERED_FORMATIONS.md") for path in paths)
+    assert any(path.endswith("CHAPTER_13_RECOVERED_FORMATIONS.md") for path in paths)
 
 
 def test_every_formation_is_explicitly_ready_or_blocked():
