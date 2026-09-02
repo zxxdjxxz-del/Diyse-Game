@@ -174,25 +174,10 @@ Ordinary encounter planning center:
 Current CEXP timing:
 > normal-route full Base + Subclass completion ~Player Lv55–60; CL13 = 6,000 CEXP; 7,000 post-Volition mandatory CEXP by end Ch12; 8,500 by Last Shelter; optional pool 1,000 before MH6 / 1,075 including MH6.
 
-## Current balance frontier
-Working global enemy direct-damage test floor:
-> **×1.20**
+## Balance routing
+The former mandatory-route ×1.20 / First Command Warden boss-local retune sequence is **not the current work-routing authority**.
 
-Do not raise the whole roster further merely to fix weak boss architectures.
-
-Boss-local retune list:
-- First Command Warden
-- Furnace Tyrant
-- Crownstorm Roc
-- Matron Zevraya
-- Revision Arbiter
-- Rhazek → Bastion Devourer
-- Vaelkor → Sovereign Panoply
-
-Current next balance action:
-> **First Command Warden local pressure correction**
-
-Older true-battle PASS/RETAIN verdicts remain historical evidence but are provisional where the revised difficulty standard reopens a boss.
+Historical v103–v105 balance reports remain analytical evidence only. Do not infer a current next balance task from them unless the current balance-handling process or a new explicit instruction calls for it.
 
 ## Optional content
 - 6 Character Quests
