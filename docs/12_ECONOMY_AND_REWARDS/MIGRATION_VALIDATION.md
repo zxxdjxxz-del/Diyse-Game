@@ -1,32 +1,58 @@
-# 12_ECONOMY_AND_REWARDS — Migration Validation
+# 12_ECONOMY_AND_REWARDS — Current Validation
 
-- currency = **Auren** — PASS
+## Currency / scale
+- currency = **G** — PASS
+- retired currency name = **Auren** — PASS
 - second ordinary shop currency absent — PASS
-- 1 economy unit = **20 Auren** — PASS
-- Field Salve = **20 Auren** — PASS
+- 1 economy unit = **200 G** — PASS
+- Field Salve = **200 G** — PASS
+- starting wallet = **2,500 G** — PASS
+
+## Consumables
 - Consumables = **20 / 20** — PASS
-- fixed Salve ladder = **250 / 750 / 1,500 / 2,250** — PASS
-- Grand Salve = **240 Auren** — PASS
-- Reservoir Tonic = **640 Auren equivalent / reward-only** — PASS
-- Emergency Kit = **300 equivalent / reward-only** — PASS
-- Emergency Rally = **500 equivalent / reward-only** — PASS
-- reward-only first guaranteed placements = **3 / 3** — PASS
-- ordinary equipment = **38 / 38** — PASS
-- all 38 have Auren purchase/replacement values — PASS
-- 14 shop-origin/duplicate price lines — PASS
-- 24 non-shop replacement lines — PASS
+- fixed Salve ladder = **250 / 750 / 1,500 / 2,250 HP** — PASS
+- Emergency Kit = **8,000 G** — PASS
+- Reservoir Tonic = **12,000 G** — PASS
+- Emergency Rally = **15,000 G** — PASS
+- premium stock = **1 of each per Consumable-selling shop from first accessible state; no restock** — PASS
+- guaranteed premium pickups remain separate — PASS
+- premium Consumables remain non-sellable — PASS
+
+## Equipment / commerce
+- ordinary equipment identities = **38 / 38** — PASS
+- relative economy-unit price structure retained — PASS
+- current G display conversion = economy units × 200 — PASS
 - ordinary sell formula preserves unit-level round-down — PASS
 - Cresthaven registration/backfill/anti-missability preserved — PASS
 - ordinary gear does not inflate after Subclass access — PASS
-- current working Regional Markets = **9** with formal-sync caveat — PASS
+- Regional Markets = **9** — PASS
 - Westguard current; Westreach/Yahtrens Stand retired — PASS
 - Cresthaven = Quartermaster, not Regional Market — PASS
 - Vhalmarch = Forward Supply/Requisition, not full superstore — PASS
+- Vhalmarch premium stock follows the same one-copy rule when its Consumable shop activates — PASS
 - Relics/Legacies excluded from normal vendor ladder — PASS
-- consumable resale left open — PASS
-- Side Quest exact non-EXP rewards left open — PASS
-- Character Quest Auren add-ons left open — PASS
-- Hunt exact Auren payouts not invented — PASS
-- Kessara service fee left open — PASS
-- no universal random enemy drop table invented — PASS
-- old broad payout bands labeled tuning/reference only — PASS
+
+## Reward rules
+- protected/nonlethal resolution may award G — PASS
+- `nonlethal = 0 G` retired — PASS
+- Regional Hunts should receive strong G regardless of other rewards — PASS
+- Major Hunts should receive strong G regardless of Prime/other rewards — PASS
+- no universal random enemy item/drop table — PASS
+- no vendor-trash economy — PASS
+
+## Numeric recalibration status
+Exact G payout tables are **ACTIVE / NOT YET RE-CERTIFIED** for:
+- ordinary formations;
+- optional Elites;
+- story/protected/nonlethal encounters;
+- mandatory non-battle rewards;
+- Side Quests;
+- Character Quests;
+- Regional Hunts;
+- Major Hunts;
+- final mandatory/completionist cash-flow totals.
+
+Completionist direct-cash target:
+> **roughly 650,000 G**
+
+Do not restore older Auren-era exact totals as current G authority.
