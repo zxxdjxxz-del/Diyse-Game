@@ -1,6 +1,6 @@
 # Diyse — Regional Hunt Rewards
 
-**Status:** EXACT REGIONAL-HUNT AUREN AUTHORITY
+**Status:** REWARD STRUCTURE CURRENT / EXACT G PAYOUTS REOPENED
 
 Exactly **11 Regional Hunts** exist.
 
@@ -9,67 +9,43 @@ Exactly **11 Regional Hunts** exist.
 - enemy combat body → `09_ENEMIES_AND_ENCOUNTERS`
 - Player EXP → `10_PROGRESSION_AND_EXP`
 - equipment / Forge Component identity → `08_ITEMS_AND_EQUIPMENT`
-- Auren / non-EXP economic balancing → `12_ECONOMY_AND_REWARDS`
+- G / non-EXP economic balancing → `12_ECONOMY_AND_REWARDS`
 
-## Reward philosophy
-Regional Hunts are dedicated optional combat objectives and should pay more direct currency than a normal optional Elite at the same stage.
+## Reward philosophy — CURRENT
+Regional Hunts are dedicated optional combat objectives and should give a **good amount of G regardless of any separate permanent/item reward**.
 
-Baseline target:
-> roughly **8–9 current-era ordinary formations' worth of Auren**
+Do **not** reduce a Hunt's G merely because it also awards:
+- a Forge Component;
+- a Relic-related material;
+- another deterministic item;
+- another permanent build reward.
 
-This is then reduced where a Hunt already supplies a meaningful deterministic Forge Component or other permanent authored reward.
+Those rewards add value; they do not replace the Hunt's cash reward.
 
-Regional Hunts are first-clear objectives, not repeatable money farms.
+Regional Hunts remain first-clear objectives, not repeatable money farms.
 
-## Exact Auren payouts
-| # | Regional Hunt | Current access | EXP | Auren | Reward-budget note |
-|---:|---|---|---:|---:|---|
-| 1 | **Cistern Devourer** | Ch1 | 1,000 | **130** | standard early Hunt cash |
-| 2 | **Transfer Executioner** | Ch2 | 1,500 | **180** | standard Hunt cash |
-| 3 | **Archive Judgment Engine** | Ch3 | 2,200 | **240** | standard Hunt cash |
-| 4 | **Crown Prototype** | Ch4 | 3,000 | **300** | standard Hunt cash |
-| 5 | **Whitehorn Ravager** | Ch5 | 4,000 | **300** | **discounted: also supplies an Acuity/Calibration Relic-copy Forge Component** |
-| 6 | **Winterglass Titan** | Ch6 | 5,200 | **350** | **discounted: also supplies an Elements/Prismglass Relic-copy Forge Component** |
-| 7 | **Rift Gate Colossus** | Ch7 | 6,800 | **500** | standard Hunt cash |
-| 8 | **Rift Siege Beast** | Ch8 | 8,500 | **500** | **discounted: also supplies a Ruin/Black Ore Relic-copy Forge Component** |
-| 9 | **Mercyfallen Behemoth** | Ch9 | 11,000 | **720** | standard late Hunt cash |
-| 10 | **Authority Remnant** | Ch11 | 13,000 | **960** | standard late Hunt cash |
-| 11 | **Throne of Emperor Vaelkor** | Ch12 | 13,800 | **1,100** | strongest Regional Hunt; two-form encounter, no separate form payout |
+## Exact G status
+The previous Regional Hunt cash table and total are retired as final numeric authority.
 
-## Full Regional Hunt cash budget
-Clearing all 11 Regional Hunts yields:
-> **5,280 Auren**
+Recalculate all 11 Hunt payouts against:
+- the tenfold displayed G scale;
+- the ~650,000 G completionist direct-cash target;
+- a clearly worthwhile optional-Hunt reward curve;
+- no cash discounts for separate reward axes.
 
-Player EXP across the 11 Hunts remains:
-> **70,000 EXP**
+## Existing Forge Component handoffs
+Current source architecture still attaches Relic-copy Forge Components to:
+- **Whitehorn Ravager**;
+- **Winterglass Titan**;
+- **Rift Siege Beast**.
 
-The Auren total is optional surplus and is **not** required for mandatory-route baseline solvency.
-
-## Existing Forge Component adjustments
-Current source architecture attaches Relic-copy Forge Components to:
-- **Whitehorn Ravager** → Acuity / Calibration;
-- **Winterglass Titan** → Elements / Prismglass;
-- **Rift Siege Beast** → Ruin / Black Ore.
-
-Those permanent-material rewards are part of the Hunt's total value, so their direct Auren is intentionally below a pure-cash Hunt of comparable stage.
-
-### Timing-authority note
-The current Hunt access register and current Whitehorn combat file place **Whitehorn Ravager in Chapter 5**. An older Forge Component source matrix still carries a Chapter-6 label for that source. This reward file follows the current Hunt-access identity and does not move the Hunt; the source matrix needs a separate owner-domain synchronization pass.
+These handoffs remain, but **must not reduce their G payout**.
 
 ## First-clear / form rules
-- Auren is granted once for Hunt completion.
-- A fresh HP form does **not** produce another Auren reward.
-- Summoned, attendant, or generated support bodies pay **0 additional Auren**.
+- G is granted once for Hunt completion.
+- A fresh HP form does not automatically produce another G reward.
+- Summoned, attendant, or generated support bodies pay no additional G unless explicitly authored.
 - Re-fighting a Hunt, if a future implementation ever allows it, does not automatically repeat the first-clear payout.
 
 ## No automatic extra package
-Do not automatically add:
-- random Consumable bundles;
-- vendor-trash materials;
-- ordinary equipment;
-- Relics;
-- Cards/Primes;
-
-to every Regional Hunt merely for symmetry.
-
-Any separately authored permanent reward remains part of that Hunt's total reward budget and should trigger a cash review if changed.
+Do not automatically add random vendor-trash or generic farming materials merely for symmetry.
