@@ -66,16 +66,23 @@ Current production authority instead uses:
 
 See `05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md` and `IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md` before production combat implementation.
 
-### Persistence
+### Persistence / G wallet
 Implemented:
 - versioned JSON save manager;
-- schema version check;
+- current schema **v2**;
+- deliberate schema-v1 → v2 migration;
 - safe missing-save failure;
 - invalid JSON rejection;
 - unsupported future-schema rejection;
 - GameState serialization;
+- persistent `wallet_g` state;
+- current starting wallet baseline **2,500 G**;
+- wallet credit / affordability / spend operations;
+- v1 migration does **not** reinterpret legacy `rewards.gold` as the wallet;
 - Kessara Relic-copy ownership fields;
 - transient random-encounter state excluded from disk save.
+
+The old `rewards.gold` key still exists inside proof battle-result payloads. It is implementation debt isolated from the new persistent G wallet and must not become current-facing currency text.
 
 ### Kessara Relic-copy service
 Implemented service/state logic:
@@ -88,13 +95,16 @@ Implemented service/state logic:
 - Legacies rejected from Relic registration;
 - copy uses same Relic identity, not a new item definition;
 - current Face set canonicalized as **Might / Elements / Grace / Perception / Memory / Ruin**;
-- retired Resource/Acuity/Change values remain accepted only as compatibility inputs and normalize to Perception/Memory.
+- retired Resource/Acuity/Change values remain accepted only as compatibility inputs and normalize to Perception/Memory;
+- exact service fee **6,000 G**;
+- insufficient-G rejection without component/item mutation;
+- successful fee deduction + component consumption + forged-copy state committed through one GameState transaction;
+- invalid/cancelled-equivalent attempts charge **0 G**.
 
-Not yet implemented in this service path:
-- production **6,000 G** fee debit;
-- final service unlock/menu presentation.
-
-The fee amount itself is already closed canon; the missing piece is production currency-state integration and UI/runtime timing.
+Still not final:
+- service unlock/menu timing;
+- production confirmation/presentation;
+- original-vs-copy visual treatment.
 
 ## NOT YET FINAL PRODUCTION UI
 The proof repository does not yet establish final:
