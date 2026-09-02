@@ -1,86 +1,55 @@
-# Nimera Pellan — Current Visual Lock
+# Nimera — Current Visual Lock
 
-**Status:** **LOCKED — REVISED B00 COHESION MASTER APPROVED**  
-**Authority scope:** current face, hair, outfit, props, palette, silhouette, material colors, and prohibited regressions for character art production.
+**Status:** **LOCKED — CURRENT REPOSITORY MASTER**  
+**Authority scope:** Nimera's exact current face, hair, body proportions, outfit, Cardweaver props, palette, silhouette, and material treatment.
 
 ## Canonical repository image master
 
 - repository path: [`asset_sources/characters/current/nimera.jpg`](../../../../asset_sources/characters/current/nimera.jpg)
-- Git blob SHA: `055d662f7e607783158bc7fe46ae9bd13e3b3c01`
+- dimensions: **1229 × 1536**
 - SHA-256: `c24f819b287baf2cf087e12f14f2aee0be1c94dd1ea56ca4cc6747b89ced0330`
 
-The repository file above is the current operational image source of truth for Nimera. It supersedes temporary/local generated filenames and any older render fingerprint if they conflict. The repository master controls until the user explicitly revises it.
+This repository image is the exact controlling visual authority. If any prose, older fingerprint, generated filename, prior render, or archived visual note conflicts with it, **the repository image wins** until the user explicitly revises Nimera.
 
-## Exact approved render fingerprint
+## Identity / appearance anchors
 
-The explicitly approved revised cohesion render is the controlling image authority and **replaces the earlier Nimera B00 master**.
-
-- dimensions: **1122 × 1402**
-- mode: **RGB**
-- SHA-256: `445f81262b0b773aef65d22f6608cf9898710f323584a7624a2fa40983852e8e`
-- approved source render: `cosmic_tarot_sorceress_in_purple.png`
-
-This older recorded fingerprint/source filename is retained for provenance. Where it differs from the canonical repository master above, the repository master controls.
-
-## Identity / face / hair
-
-- age **22**;
+Preserve the appearance shown by the master:
+- adult woman, canonical age **22**;
 - dark skin;
-- compact curvy build;
-- silver-gray eye read;
-- expressive, confident, sassy/genius attitude rather than a passive or solemn read;
-- dark-purple hair with a messy high gathered mass/updo and multiple braids;
-- lively controlled flyaways rather than artifact fuzz;
-- purple lipstick.
+- confident, expressive mature anime face;
+- dark-purple hair arranged in a high gathered mass/updo with multiple braids and controlled flyaways;
+- purple lipstick;
+- fitted white sleeveless upper clothing and white lower clothing as depicted;
+- dark-purple constellation-patterned draped garment / coat around the waist;
+- black belts, straps, utility structure, pouches, and boots;
+- silver-toned hardware and jewelry as depicted;
+- green Cardweaver book/grimoire and green card with metallic detailing;
+- compact utility vials/canisters and charms where shown.
 
-## Outfit
-
-Preserve the revised approved construction:
-- sleeveless fitted white shirt;
-- fitted white pants;
-- dark-purple constellation-patterned coat / draped garment tied around the waist;
-- black belts and harness/strap structure;
-- black combat boots;
-- black utility pouch;
-- **silver metal hardware** across chains, buttons, buckles, charms, bracelets and attachments;
-- purple utility-vial accents;
-- layered jewelry/chains and compact utility details without turning them into noisy clutter;
-- constellation motifs must read as intentional drawn motifs, not random artifact dots or speckle.
-
-## Cardweaver props
-
-The approved render preserves Nimera's Cardweaver identity through:
-- raised arcane card;
-- hip book/grimoire;
-- **dark-green / green surfaces with silver constellation hardware/detailing**;
-- utility vials/canisters and hanging charms as supporting equipment.
-
-The exact approved render controls the final prop minutiae.
+The image controls exact facial proportions, eye read, braid arrangement, garment construction, constellation placement, prop construction, hardware placement, and incidental detail.
 
 ## Rendering direction
 
-Render Nimera in Diyse's B00 style:
+Render Nimera in Diyse B00 / HD-2D anime character language:
 - mature seinen/anime proportions;
-- chaotic but intentional variable line weight;
-- graphic cel-informed values;
-- clean readable hair masses despite the intentionally busy braided hairstyle;
-- clear white / purple / black material separation;
-- silver hardware must remain silver rather than drifting to gold;
-- clean construction of belts, chains, coat folds, pouches and props;
-- no painterly/soft-brushed treatment;
-- no glossy mobile-gacha finish;
-- no random AI artifact dots, texture noise, accidental jewelry fragments or broken clothing seams.
+- deliberate variable line weight;
+- graphic cel-informed value grouping;
+- clean readable braid and garment masses;
+- strong white / purple / black material separation;
+- intentional constellation motifs rather than random speckle;
+- no painterly or soft-brushed finish;
+- no glossy mobile-gacha material treatment;
+- no random dots, broken seams, accidental jewelry fragments, or AI artifact texture.
 
 ## Prohibited regressions
 
 Do not:
-- restore white/silver-dominant curly hair as the primary hair read;
-- change the fitted white pants back to purple trousers;
-- replace black boots/belts with brown leather as the dominant utility language;
-- turn the silver hardware into gold;
-- change the green Cardweaver props to purple;
-- remove her confident/sassy expression;
-- flatten the hair into a generic ponytail;
-- overfill the coat with tiny random constellation speckles.
+- restore an older Nimera face, hairstyle, or outfit over the repository master;
+- replace the current braided dark-purple hair with the retired white/silver-curly primary read;
+- change the green Cardweaver props to another dominant color;
+- remove her confident expressive identity;
+- flatten the hairstyle into a generic ponytail;
+- turn constellation motifs into noisy random speckles;
+- patch an older image when a clean redraw is requested.
 
-This file controls Nimera's B00 derivatives until explicitly revised.
+This file and the linked repository image control Nimera's current B00 master and later model/runtime translation until explicitly revised.
