@@ -1,11 +1,15 @@
 # Implementation Notes — Current Code/Canon Divergences
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit corrections already preserved in the reorganized domains.  
-**Runtime source checkpoint inspected:** `Diyse-Game` commit `68b66e129fa7e34dac69501786d00a1023ad0fd4`.  
 **Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
 
-
 These are known engineering gaps in the current proof runtime.
+
+## Recently reconciled — Relic-copy Face terminology
+The Kessara Relic-copy ownership layer now canonicalizes the current Face set:
+> **Might / Elements / Grace / Perception / Memory / Ruin**
+
+Retired Resource/Acuity/Change values are accepted only as compatibility inputs and normalize to Perception/Memory. They must not reappear as current-facing Face labels.
 
 ## 1. Mastery Points — HIGH
 Repository proof/older docs may still contain an 8-point Mastery schedule.
@@ -36,6 +40,8 @@ Current production:
 - a spent Prime remains spent across battle end;
 - after a Prime ends, **2 full normal party rounds** must pass before another available Prime may be invoked later in that battle;
 - fresh-HP boss forms do **not** restore spent Prime availability.
+
+The proof resource `game/content/cards/first_champion_recovered.tres` is therefore a migration fixture, not current-facing Prime content authority.
 
 ## 3. Normal battle turn flow — HIGH
 Proof runtime still implements the retired whole-round queue model.
@@ -71,6 +77,8 @@ Retired player-facing currency name:
 
 Requires version-safe production state/schema/UI work. Internal migration may preserve a legacy technical identifier temporarily, but final player-facing presentation must use **G** and must not revive Auren.
 
+Kessara's current closed service fee is **6,000 G per successful Relic copy**. The service logic does not yet atomically debit that fee because the production wallet/state migration is not complete.
+
 ## 5. Proof equipment/content — HIGH
 GameState defaults still include:
 - Proof Sword;
@@ -88,6 +96,8 @@ Ilyra's current primary weapon family is:
 Schema v1 proves persistence but does not yet carry the complete production progression/quest/loadout state.
 
 Do not treat schema v1 proof completeness as production completeness.
+
+Retired Face labels may still exist in historical saved Relic/component records; current runtime compatibility maps them into the current Face names rather than treating them as new/current identities.
 
 ## 7. Chapter IDs / scene-number docs — MEDIUM
 Some older authoring documentation still stops at:
@@ -115,8 +125,22 @@ Current proof:
 It is not the final battle HUD and does not represent the current turn-entry command flow.
 
 ## 10. Kessara service UI — MEDIUM
-Service logic exists.
-No production service menu/fee/timing presentation yet.
+Core copy eligibility/state logic exists.
 
-## 11. Current-facing naming — ONGOING
+Still required:
+- production service menu;
+- 6,000 G fee debit/integration;
+- final unlock/timing presentation;
+- original-versus-forged-copy presentation.
+
+## 11. Character visual placeholders — MEDIUM
+`game/characters/placeholders/` and the proof portrait registry remain runtime stand-ins only.
+
+They must not be treated as production character appearance references. Exact current appearance authority lives in `asset_sources/characters/current/` and `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/`.
+
+Production derivatives should be created in an appropriate runtime asset lane rather than pointing gameplay directly at source-master files.
+
+## 12. Current-facing naming — ONGOING
 Legacy technical identifiers may remain internally until safe migration, but player-facing text must use current names.
+
+Examples that still require migration care include `first_champion` and older environment/state IDs whose filenames/keys predate current terminology. Stable technical IDs may be preserved when necessary, but they must not leak retired display names into production UI.
