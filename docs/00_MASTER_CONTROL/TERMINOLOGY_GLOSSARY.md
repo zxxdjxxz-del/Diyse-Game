@@ -55,7 +55,15 @@ Retired Face labels:
 **The Seventh Reaction**
 
 ## Economy
-**Auren** — current ordinary currency.
+**G** — current ordinary currency and the only current-facing ordinary currency term.
+
+Current denomination:
+> **1 economy unit = 200 G**
+
+Current Chapter-0 starting wallet:
+> **2,500 G**
+
+**Auren** — retired former currency name; use only for explicit historical/provenance discussion.
 
 ## Progression
 **Class Level (CL)** — per-class progression level.
