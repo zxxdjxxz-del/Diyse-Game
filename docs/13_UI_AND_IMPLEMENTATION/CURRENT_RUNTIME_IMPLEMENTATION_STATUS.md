@@ -35,9 +35,23 @@ Implemented:
 - true silent beats;
 - movement/input lock integration;
 - no choice/response architecture;
-- schema validation.
+- schema validation;
+- narrow compatibility normalization preventing the retired Acuity/Change Face list from leaking through an older generated line-complete Resource.
 
 Current `game/characters/placeholders/` and the proof portrait registry remain **proof-only runtime stand-ins**. Exact production character appearance is controlled by the repository masters under `asset_sources/characters/current/` and the production authority index in `14_ART_AND_VISUALS`.
+
+### Permanent roster / active party
+Implemented production-capable state foundation:
+- stable permanent IDs: `cyanis`, `ilyra`, `torren`, `nimera`, `vaelira`, `seyrik`;
+- exactly six permanent roster records;
+- first-name-only display identities normalized from stable IDs;
+- recruitment state separate from active-party membership;
+- active-party maximum **4**;
+- duplicate, unknown and unrecruited active-party entries rejected;
+- current production new-game baseline: Cyanis recruited/active; later permanent characters present but unrecruited;
+- reserved per-character `persistent_state` envelope for later progression/loadout migration without inventing final values.
+
+The legacy four-entry `party` array remains in GameState solely for proof battle/exploration compatibility. Its membership and proof HP/MP values are not permanent-roster or final-stat authority.
 
 ### Combat proof
 The current runtime implements architectural proof for:
@@ -69,8 +83,8 @@ See `05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md` and `IMPLEMENTATION_NOTES/CURRENT
 ### Persistence / G wallet
 Implemented:
 - versioned JSON save manager;
-- current schema **v2**;
-- deliberate schema-v1 → v2 migration;
+- current schema **v3**;
+- deliberate schema-v1 → v2 → v3 migration;
 - safe missing-save failure;
 - invalid JSON rejection;
 - unsupported future-schema rejection;
@@ -79,10 +93,12 @@ Implemented:
 - current starting wallet baseline **2,500 G**;
 - wallet credit / affordability / spend operations;
 - v1 migration does **not** reinterpret legacy `rewards.gold` as the wallet;
+- v2 → v3 migration creates the six-character production roster without inferring recruitment from the old four-character proof party;
+- production `character_roster` and `active_party_ids` round-trip through save/load;
 - Kessara Relic-copy ownership fields;
 - transient random-encounter state excluded from disk save.
 
-The old `rewards.gold` key still exists inside proof battle-result payloads. It is implementation debt isolated from the new persistent G wallet and must not become current-facing currency text.
+The old `rewards.gold` key still exists inside proof battle-result payloads. It is implementation debt isolated from the persistent G wallet and must not become current-facing currency text.
 
 ### Kessara Relic-copy service
 Implemented service/state logic:
@@ -105,6 +121,12 @@ Still not final:
 - service unlock/menu timing;
 - production confirmation/presentation;
 - original-vs-copy visual treatment.
+
+### Current implementation frontier
+Next structural state layer:
+> **class / Face / per-character loadout state**
+
+This must build on stable permanent character IDs rather than the legacy proof `party` dictionaries and must not restore Mastery Points.
 
 ## NOT YET FINAL PRODUCTION UI
 The proof repository does not yet establish final:
