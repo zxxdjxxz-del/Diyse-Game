@@ -17,7 +17,7 @@ All current-facing Auren values use the tenfold display scale: **1 economy unit 
 | C06 | **Flow Tonic** | Restore 50 MP to one ally | normal stock | **800** |
 | C07 | **Deepflow Tonic** | Restore 80 MP to one ally | normal stock | **2,000** |
 | C08 | **Highflow Tonic** | Restore 120 MP to one ally | normal stock | **3,600** |
-| C09 | **Reservoir Tonic** | Restore 75% Max MP to one ally | limited premium stock after Ch10 + guaranteed finds | **12,000** |
+| C09 | **Reservoir Tonic** | Restore 75% Max MP to one ally | limited premium stock from first shop access + guaranteed finds | **12,000** |
 | C10 | **Rousing Salts** | Revive one KO ally at 25% Max HP | normal stock | **600** |
 | C11 | **Greater Rousing Salts** | Revive one KO ally at 50% Max HP + restore 25% Max MP | normal stock | **1,600** |
 | C12 | **Trauma Remedy** | Remove Burn / Bleed | normal stock | **150** |
@@ -27,8 +27,8 @@ All current-facing Auren values use the tenfold display scale: **1 economy unit 
 | C16 | **Blinding Mist** | Guaranteed escape from eligible ordinary random encounter | normal stock | **100** |
 | C17 | **Null Seal** | Remove one eligible removable positive effect from an enemy | normal stock | **700** |
 | C18 | **Balance Seal** | Restore eligible ordinary negative stat changes toward normal | normal stock | **600** |
-| C19 | **Emergency Kit** | 75% Max HP + 60% Max MP + eligible cleanse/stat restoration; no revive | limited premium stock after Ch10 + guaranteed finds | **8,000** |
-| C20 | **Emergency Rally** | Revive all KO active-party members at 60% Max HP + 35% Max MP | limited premium stock after Ch10 + guaranteed finds | **15,000** |
+| C19 | **Emergency Kit** | 75% Max HP + 60% Max MP + eligible cleanse/stat restoration; no revive | limited premium stock from first shop access + guaranteed finds | **8,000** |
+| C20 | **Emergency Rally** | Revive all KO active-party members at 60% Max HP + 35% Max MP | limited premium stock from first shop access + guaranteed finds | **15,000** |
 
 ## Price-family read
 Cheap maintenance:
@@ -60,12 +60,15 @@ Limited premium:
 - Emergency Rally — **15,000**
 
 ## Limited-premium rule
-C09/C19/C20 are no longer reward-only.
+C09/C19/C20 are purchasable from the beginning of the normal shop economy.
 
-After Chapter 10:
-- they become purchasable in eligible late-game shops;
-- each eligible shop receives **2 copies of each identity**;
-- stock does **not** replenish;
-- guaranteed authored copies still exist and remain valuable.
+Every Consumable-selling shop carries:
+> **1 copy of each premium identity from that shop's first accessible state.**
 
-Exact stock timing/endpoints live in `CONSUMABLE_STOCK_PROGRESSION.md` and guaranteed placements in `REWARD_ONLY_CONSUMABLE_PLACEMENT.md` (legacy filename retained).
+Rules:
+- one copy per item per shop;
+- no automatic restock;
+- guaranteed authored copies still exist and remain valuable;
+- Chapter 0 has no normal shop loop, so the first purchase opportunity is the first normal Consumable shop encountered in Chapter 1.
+
+Exact stock/endpoints live in `CONSUMABLE_STOCK_PROGRESSION.md` and guaranteed placements in `REWARD_ONLY_CONSUMABLE_PLACEMENT.md` (legacy filename retained).
