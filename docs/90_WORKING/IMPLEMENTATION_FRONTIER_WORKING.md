@@ -13,7 +13,7 @@
    - spent state persists across battle end;
    - 2 full normal party rounds must pass after demanifest before another available Prime may be invoked in that battle;
    - fresh-HP boss forms do **not** restore spent Primes;
-4. migrate proof `gold` semantics to player-facing Auren with version-safe save handling;
+4. migrate proof `gold` semantics to player-facing **G** with version-safe save handling; **Auren is retired and must not be restored as a second or replacement ordinary shop currency**;
 5. replace proof item/equipment/party fixtures with current production data;
 6. expand and version the production save schema;
 7. reconcile stale chapter/scene-ID assumptions through the current Chapter-13 architecture;
