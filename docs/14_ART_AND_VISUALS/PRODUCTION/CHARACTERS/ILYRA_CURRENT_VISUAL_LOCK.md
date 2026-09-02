@@ -1,66 +1,64 @@
-# Ilyra Amarin — Current Visual Lock
+# Ilyra — Current Visual Lock
 
-**Status:** **LOCKED — REVISED B00 COHESION MASTER APPROVED**  
-**Authority scope:** current face, hair, eye color, outfit, cape construction, palette, neutral-master weapon presentation, and prohibited regressions for character art production.
+**Status:** **LOCKED — CURRENT REPOSITORY MASTER**  
+**Authority scope:** Ilyra's exact current face, hair, eye treatment, body proportions, outfit, cape, palette, and neutral-master presentation.
 
 ## Canonical repository image master
 
 - repository path: [`asset_sources/characters/current/ilyra.jpg`](../../../../asset_sources/characters/current/ilyra.jpg)
-- Git blob SHA: `c9938bc244dd3d23177a26507e63ac8eb1f4419d`
+- dimensions: **1024 × 1536**
 - SHA-256: `46dbfd2783d9aa3da04209b0938122517cb0bd2077b6da809fe3da50aa7dd358`
 
-The repository file above is the current operational image source of truth for Ilyra. It supersedes temporary/local generated filenames and any older render fingerprint if they conflict. The repository master controls until the user explicitly revises it.
+This repository image is the exact controlling visual authority. If any prose, older fingerprint, generated filename, prior render, or archived visual note conflicts with it, **the repository image wins** until the user explicitly revises Ilyra.
 
-## Exact approved render fingerprint
+## Identity / appearance anchors
 
-The explicitly approved revised B00 cohesion render is the controlling image authority and **replaces the earlier Ilyra B00 master**.
+Preserve the appearance shown by the master:
+- adult woman, canonical age **28**;
+- distinctive mature/confident face exactly as depicted;
+- bold vivid jade/green eyes;
+- long windswept blonde hair;
+- slightly athletic build with a natural waist;
+- white and pale-blue fitted Warden clothing;
+- one coherent pale-blue cape;
+- restrained decoration / filigree rather than ornate clutter;
+- brown utility belts and pouches;
+- fingerless gloves;
+- light silver forearm bracers and lower-leg protection as depicted;
+- no weapon in the neutral studio master.
 
-- dimensions: **1122 × 1402**
-- mode: **RGB**
-- SHA-256: `dd636cd8fa7292c90721e1d8351532e6d547b4a9f6d63638d824c9e4742d8b3b`
+The image controls exact face proportions, waist/body balance, hair flow, cape construction, garment seams, armor placement, and incidental detailing.
 
-This older recorded fingerprint is retained for provenance. Where it differs from the canonical repository master above, the repository master controls.
+## Gameplay weapon identity
 
-## Identity / face / hair
-
-- adult woman, age **28**;
-- **bold saturated green eyes** are a deliberate party-color anchor and must remain clearly green;
-- long blonde hair;
-- composed, mature seinen/anime facial read;
-- no age drift or childlike/chibi eye treatment.
-
-## Outfit
-
-- white and pale-blue primary fabric language;
-- **one coherent pale-blue cape**, not stacked or duplicated cape-like panels;
-- silver bracers / forearm protection and silver lower-leg armor;
-- dark belt and practical pouches;
-- restrained gold detailing only;
-- clean material separation between pale cloth, dark leather, and silver metal;
-- elegant defensive/warding silhouette without excessive fabric clutter.
-
-## Neutral-master weapon rule
-
-The approved B00 studio master shows **no weapon**. This does not make Ilyra weaponless in combat.
-
-Gameplay weapon identity remains:
-- Wardrod primary;
-- Shield or Focus secondary where equipped.
-
-Runtime combat derivatives may show the contextual weapon loadout without altering this high-resolution identity lock.
+The neutral master being weaponless does not change Ilyra's gameplay equipment identity:
+- **Wardrod** primary;
+- **Shield** secondary where equipped;
+- **Focus** may also be equipped where allowed;
+- no sword as her defining weapon.
 
 ## Rendering direction
 
-Render Ilyra in Diyse's B00 style: mature seinen/anime proportions, chaotic but intentional variable line weight, graphic cel-informed values, readable pale fabric masses, controlled silver highlights, bold green eyes, and no painterly/soft-brushed or glossy mobile-gacha finish.
+Render Ilyra in Diyse B00 / HD-2D anime character language:
+- mature seinen/anime proportions;
+- deliberate variable line weight;
+- graphic cel-informed values;
+- clean pale-cloth / leather / silver-metal separation;
+- bold green eyes;
+- no painterly or soft-brushed finish;
+- no glossy mobile-gacha material treatment;
+- no random dots, speckle, broken seams, or AI artifact texture.
 
 ## Prohibited regressions
 
 Do not:
+- replace the current face with an older Ilyra face;
+- make the waist unnaturally narrow;
+- over-armour her;
+- multiply the cape into duplicated hanging panels;
+- overfill the outfit with filigree;
+- dull the jade/green eye identity;
 - give her a sword as her defining weapon;
-- darken or green-shift the white/pale-blue palette;
-- dull or desaturate the bold green eyes;
-- shorten the hair without explicit revision;
-- multiply the cape into layered/duplicated hanging cape panels;
-- merge the cape, clothing, and silver armor into one unreadable pale mass.
+- patch an older image when a clean redraw is requested.
 
-This file controls Ilyra's B00 master/model translation until explicitly revised.
+This file and the linked repository image control Ilyra's current B00 master and later model/runtime translation until explicitly revised.
