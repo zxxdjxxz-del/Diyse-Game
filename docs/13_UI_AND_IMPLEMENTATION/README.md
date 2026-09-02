@@ -49,5 +49,6 @@ Those are implementation debt, not current-facing canon.
 - `IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md` — known proof-vs-current gaps.
 - `IMPLEMENTATION_NOTES/IMPLEMENTATION_FRONTIER.md` — current engineering frontier/order.
 - `IMPLEMENTATION_NOTES/RUNTIME_ID_MIGRATION_MAP.md` — save/content-safe mapping for legacy technical IDs and retired terminology.
+- `IMPLEMENTATION_NOTES/PRODUCTION_RUNTIME_MIGRATION_SEQUENCE.md` — coordinated state → battle → Prime → tests → runtime-asset migration sequence; use this instead of piecemeal proof cleanup.
 
 Before renaming a legacy runtime ID, determine whether it is serialized or referenced by Resources/tests. Prefer explicit migration over cosmetic source-tree cleanup.
