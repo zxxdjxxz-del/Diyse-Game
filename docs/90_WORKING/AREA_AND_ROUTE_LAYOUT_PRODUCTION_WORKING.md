@@ -1,6 +1,6 @@
 # Working — Area & Route Layout Production
 
-**Status:** ACTIVE / BUILD-READY LEVEL-DESIGN LAYER MISSING
+**Status:** ACTIVE / PHASE A INVENTORY CREATED / BLUEPRINTING STARTED
 
 **Cross-domain owners:**
 - `04_WORLD_AND_LORE` — macro geography, place hierarchy, world-map placement, road/travel authority;
@@ -120,20 +120,38 @@ This stream must eventually cover all gameplay-relevant spaces, including:
 
 ## Production order
 
-### Phase A — Area inventory
-Build a single complete register of every playable area and sub-area from current story, geography, quest and encounter authority. For each entry classify:
-- macro placement known / unknown;
-- local sequence known / unknown;
-- playable layout complete / partial / absent;
-- unique environment kit vs reusable kit;
-- story dependencies;
-- encounter dependencies;
-- revisit/state-change requirements.
+### Phase A — Area inventory — COMPLETE ENOUGH TO BEGIN MAPPING
+Current inventory:
+> `PLAYABLE_AREA_INVENTORY_WORKING.md`
 
-### Phase B — Layout blueprints
+The inventory now separates:
+- persistent base maps;
+- mandatory chapter route/dungeon packets;
+- Character Quest sites;
+- Side Quest reuse/state variants;
+- Regional Hunt branches/arenas;
+- Major Hunt destinations;
+- high-priority stateful reuse requirements.
+
+Current audit result:
+> no production area currently has an approved L3 build-ready topology in repo authority.
+
+### Phase B — Layout blueprints — STARTED
 Map each area before asking an environment generator to invent the finished scene.
 
 The blueprint is the canon-constrained source. An AI may beautify/build from it, but must not invent a different route topology, move canonical locations, delete required story spaces, or introduce unsupported geography.
+
+Current first blueprint:
+> `AREA_LAYOUTS/BLUEPRINT_001_CH00_CONVOY_WRECK_ROUTE.md`
+
+Blueprint 001 covers:
+- Convoy Road;
+- Wreck Field;
+- Evacuation / Recovery Line;
+- Field Triage Camp;
+- Brackenwall transition handoff.
+
+It includes provisional 3D dimensions/coordinates, event sockets, sightlines, pacing targets, transition seams, collision rules and camera-test variants.
 
 ### Phase C — Representative vertical-slice build
 Before bulk production, build at least:
@@ -152,6 +170,20 @@ Only after the layout pipeline and visual benchmark pipeline are proven should t
 
 Final environment art generation should not be treated as style-certified until the relevant B01–B11 material/environment benchmarks are approved. The route topology does not need to wait for final texture certification; the final rendered environment does.
 
+## Current technical blockout anchors
+
+Current proof runtime establishes useful test baselines, not final presentation canon:
+- exploration is `CharacterBody3D`;
+- player capsule height is 1.8 units;
+- proof movement speed is 5 units/sec;
+- proof camera is approximately 5.5 units up / 7.5 behind, −25° pitch, 60° FOV;
+- design viewport is 1920×1080.
+
+Blueprint work may use:
+> **1 Godot unit ≈ 1 meter**
+
+as a provisional vertical-slice convention until gameplay testing replaces it.
+
 ## AI/tool-selection rule
 
 Do not permanently bind Diyse to one external environment-generation AI in canon documentation.
@@ -167,4 +199,6 @@ Any external AI output is a production draft until it passes the canonical layou
 
 ## Immediate next deliverable
 
-Create the **Playable Area Inventory** from the current chapter routes, locations, quests, Hunts and story scene architecture. That inventory becomes the checklist for mapping the actual game one area at a time.
+> **Build/test the Chapter-0 graybox from Blueprint 001.**
+
+The graybox must validate scale, movement, Android touch navigation, camera framing, Wreck Field readability and transition seams before Blueprint 001 is promoted to L3.
