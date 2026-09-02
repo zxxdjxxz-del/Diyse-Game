@@ -45,11 +45,23 @@ UI/runtime requirements, save-state boundaries, current Godot proof status and i
 ## 14_ART_AND_VISUALS
 Exact visual authorities, HD-2D production grammar, environment language, map handoff and VFX.
 
+Current exact character masters are stored outside the docs tree under:
+`asset_sources/characters/current/`
+
+Their production authority/index lives at:
+`docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`
+
 ## 15_AUDIO_AND_MUSIC
 Current OPEN music authority, sound-design requirements, research archive and audio implementation boundary.
 
 ## 16_BALANCE_AND_TESTING
 Closed/open balance layers, cross-system verification, regression planning and release gates.
+
+## asset_sources
+Source/reference production inputs separated by provenance and storage rules. These are not automatically runtime assets.
+
+Current repository-backed character source masters:
+`asset_sources/characters/current/`
 
 ## 90_WORKING
 Only currently unresolved/reopened work. Drafts here must be promoted into the owning numbered domain when approved.
