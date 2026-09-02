@@ -1,7 +1,12 @@
 extends Node
 
 const DEFAULT_AREA := "field_proof"
-const EQUIPMENT_FACES := ["Might", "Elements", "Grace", "Acuity", "Change", "Ruin"]
+const EQUIPMENT_FACES := ["Might", "Elements", "Grace", "Perception", "Memory", "Ruin"]
+const RETIRED_EQUIPMENT_FACE_ALIASES := {
+	"resource": "Perception",
+	"acuity": "Perception",
+	"change": "Memory"
+}
 const MAX_RELIC_COPY_COMPONENTS_PER_FACE := 3
 
 var current_area: String
@@ -302,7 +307,9 @@ func _canonical_equipment_face(face: String) -> String:
 	for candidate in EQUIPMENT_FACES:
 		if str(candidate).to_lower() == normalized:
 			return str(candidate)
-	return ""
+	# Preserve save/data compatibility with retired Face labels while ensuring
+	# all newly registered/current-facing records normalize to the current set.
+	return str(RETIRED_EQUIPMENT_FACE_ALIASES.get(normalized, ""))
 
 func _dictionary_array(value: Variant) -> Array[Dictionary]:
 	var result: Array[Dictionary] = []
