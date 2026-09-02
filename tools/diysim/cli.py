@@ -38,6 +38,24 @@ def _csv_names(value: str) -> tuple[str, ...]:
     return values
 
 
+def _class_choice(value: str) -> tuple[str, str]:
+    if "=" not in value:
+        raise argparse.ArgumentTypeError("class choice must use CHARACTER=CLASS")
+    character, class_name = (part.strip() for part in value.split("=", 1))
+    if not character or not class_name:
+        raise argparse.ArgumentTypeError("class choice must use non-empty CHARACTER=CLASS")
+    return character, class_name
+
+
+def _class_choice_map(values: list[tuple[str, str]]) -> dict[str, str]:
+    choices: dict[str, str] = {}
+    for character, class_name in values:
+        if character in choices:
+            raise SystemExit(f"duplicate --class-choice for {character}")
+        choices[character] = class_name
+    return choices
+
+
 def _markdown_cell(value: object) -> str:
     if value is None:
         return ""
@@ -95,6 +113,14 @@ def build_parser() -> argparse.ArgumentParser:
     progression_audit.add_argument("--start-chapter", type=int, default=0, help="first chapter when auditing a range")
     progression_audit.add_argument("--end-chapter", type=int, default=13, help="last chapter when auditing a range")
     progression_audit.add_argument("--character", help="filter to one permanent character")
+    progression_audit.add_argument(
+        "--class-choice",
+        action="append",
+        type=_class_choice,
+        default=[],
+        metavar="CHARACTER=CLASS",
+        help="explicit selected class for a simulation route; repeat for multiple characters",
+    )
     progression_audit.add_argument("--format", choices=("json", "csv", "markdown"), default="markdown")
     progression_audit.add_argument(
         "--strict",
@@ -196,6 +222,15 @@ def main(argv: list[str] | None = None) -> int:
             return 2
         return 0
     if args.command == "progression-audit":
+        class_choices = _class_choice_map(args.class_choice)
+        if args.character:
+            unrelated = sorted(name for name in class_choices if name != args.character)
+            if unrelated:
+                raise SystemExit(
+                    "--character cannot be combined with class choices for other characters: "
+                    + ", ".join(unrelated)
+                )
+
         if args.chapter is not None and args.checkpoint is not None:
             raise SystemExit("--chapter and --checkpoint are mutually exclusive")
         if (args.chapter is not None or args.checkpoint is not None) and (
@@ -204,41 +239,60 @@ def main(argv: list[str] | None = None) -> int:
             raise SystemExit(
                 "--chapter/--checkpoint cannot be combined with --start-chapter/--end-chapter"
             )
-        if args.checkpoint is not None:
-            try:
+
+        try:
+            if args.checkpoint is not None:
                 if args.character:
                     rows = (
                         audit_character_named_checkpoint(
                             args.character,
                             args.checkpoint,
                             args.route,
+                            selected_class=class_choices.get(args.character),
                         ),
                     )
                 else:
-                    rows = audit_campaign_named_checkpoint(args.checkpoint, args.route)
-            except KeyError as exc:
-                raise SystemExit(str(exc)) from exc
-        elif args.chapter is not None:
-            if not 0 <= args.chapter <= 13:
-                raise SystemExit("--chapter must be between 0 and 13")
-            if args.character:
-                rows = (audit_character_checkpoint(args.character, args.chapter, args.route),)
-            else:
-                rows = audit_campaign_checkpoint(args.chapter, args.route)
-        else:
-            if not 0 <= args.start_chapter <= args.end_chapter <= 13:
-                raise SystemExit("chapter range must satisfy 0 <= start <= end <= 13")
-            rows = audit_campaign(
-                args.route,
-                start_chapter=args.start_chapter,
-                end_chapter=args.end_chapter,
-            )
-            if args.character:
-                rows = tuple(row for row in rows if row.character == args.character)
-                if not rows:
-                    raise SystemExit(
-                        f"no recruited audit rows found for {args.character!r} in the selected chapter range"
+                    rows = audit_campaign_named_checkpoint(
+                        args.checkpoint,
+                        args.route,
+                        class_choices=class_choices,
                     )
+            elif args.chapter is not None:
+                if not 0 <= args.chapter <= 13:
+                    raise SystemExit("--chapter must be between 0 and 13")
+                if args.character:
+                    rows = (
+                        audit_character_checkpoint(
+                            args.character,
+                            args.chapter,
+                            args.route,
+                            selected_class=class_choices.get(args.character),
+                        ),
+                    )
+                else:
+                    rows = audit_campaign_checkpoint(
+                        args.chapter,
+                        args.route,
+                        class_choices=class_choices,
+                    )
+            else:
+                if not 0 <= args.start_chapter <= args.end_chapter <= 13:
+                    raise SystemExit("chapter range must satisfy 0 <= start <= end <= 13")
+                rows = audit_campaign(
+                    args.route,
+                    start_chapter=args.start_chapter,
+                    end_chapter=args.end_chapter,
+                    class_choices=class_choices,
+                )
+                if args.character:
+                    rows = tuple(row for row in rows if row.character == args.character)
+                    if not rows:
+                        raise SystemExit(
+                            f"no recruited audit rows found for {args.character!r} in the selected chapter range"
+                        )
+        except (KeyError, ValueError) as exc:
+            raise SystemExit(str(exc)) from exc
+
         _print_audit_rows(rows, args.format)
         if args.strict and any(not row.authority_complete for row in rows):
             return 2
