@@ -7,7 +7,7 @@ from pathlib import Path
 import re
 
 from .campaign_progression import CLASS_SYSTEM_MASTER_PATH, load_character_campaign_sources
-from .markdown import find_markdown_table, parse_int
+from .markdown import extract_markdown_table, parse_int
 from .repo import SourceGapError, find_repo_root, read_repo_text
 
 
@@ -39,7 +39,7 @@ class DonorEquipmentAccessSource:
 
 
 def _milestone_from_table(text: str, phrase: str) -> int:
-    rows = find_markdown_table(text, ("Class Level", "Result"))
+    rows = extract_markdown_table(text, "Subclass learning rhythm")
     matches: list[int] = []
     for row in rows:
         if phrase.casefold() not in row["Result"].casefold():
