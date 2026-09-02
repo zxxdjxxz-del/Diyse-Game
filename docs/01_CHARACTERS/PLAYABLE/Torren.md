@@ -8,7 +8,7 @@
 - Permanent party: **yes**
 - Join: **Chapter 1**
 - Base / Subclass: **War Archer / Routeweaver**
-- Face: **Resource**
+- Face: **Perception**
 - Story Prime: **Last Cartographer**
 - Older sister: **Edda Harth**
 
@@ -26,9 +26,9 @@ He trusts:
 He may answer "maybe," "not enough information," or "this is the one I would take" without the narrative treating uncertainty as incompetence.
 
 ## Face / class boundary
-Torren's current Base Class is **War Archer**, aligned to the current **Resource** Face. His later **Routeweaver** Subclass belongs to the reciprocal donor architecture with Nimera.
+Torren's current Base Class is **War Archer**, aligned to the current **Perception** Face. His later **Routeweaver** Subclass belongs to the reciprocal donor architecture with Nimera.
 
-Exact Face and class mechanics belong to `06_CLASSES_AND_ABILITIES` and `07_CARDS`; older Acuity/Perception terminology in migration material must not be revived here.
+Exact Face and class mechanics belong to `06_CLASSES_AND_ABILITIES` and `07_CARDS`; older Resource/Acuity terminology in migration material must not be revived here.
 
 ## Ordinary-life identity
 He performs useful route work quietly and may do it before anyone is awake. Recognition is less important than whether the road is usable.
