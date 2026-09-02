@@ -3,6 +3,14 @@
 **Status:** **LOCKED — REVISED B00 COHESION MASTER APPROVED**  
 **Authority scope:** current face, hair, outfit, props, palette, silhouette, material colors, and prohibited regressions for character art production.
 
+## Canonical repository image master
+
+- repository path: [`asset_sources/characters/current/nimera.jpg`](../../../../asset_sources/characters/current/nimera.jpg)
+- Git blob SHA: `055d662f7e607783158bc7fe46ae9bd13e3b3c01`
+- SHA-256: `c24f819b287baf2cf087e12f14f2aee0be1c94dd1ea56ca4cc6747b89ced0330`
+
+The repository file above is the current operational image source of truth for Nimera. It supersedes temporary/local generated filenames and any older render fingerprint if they conflict. The repository master controls until the user explicitly revises it.
+
 ## Exact approved render fingerprint
 
 The explicitly approved revised cohesion render is the controlling image authority and **replaces the earlier Nimera B00 master**.
@@ -12,7 +20,7 @@ The explicitly approved revised cohesion render is the controlling image authori
 - SHA-256: `445f81262b0b773aef65d22f6608cf9898710f323584a7624a2fa40983852e8e`
 - approved source render: `cosmic_tarot_sorceress_in_purple.png`
 
-If prose and the exact approved render ever appear to disagree on incidental minutiae, the fingerprinted render controls until the user explicitly revises it.
+This older recorded fingerprint/source filename is retained for provenance. Where it differs from the canonical repository master above, the repository master controls.
 
 ## Identity / face / hair
 
