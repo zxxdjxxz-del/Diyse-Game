@@ -155,13 +155,13 @@ def audit_character_checkpoint(
     class_name: str | None = campaign.base_class
     class_gaps: list[ProgressionSourceGap] = []
     class_paths = [campaign.class_source_path]
-    if chapter >= 8:
+    if chapter >= 7:
         class_gaps.append(
             ProgressionSourceGap(
                 "selected_class_route_missing",
-                "Subclasses are available after Sixfold Volition, but the repo does not "
-                "define one required selected class for this route/checkpoint. The native "
-                "Base Class is retained as a source-backed floor snapshot.",
+                "Subclasses are available at the end of Chapter 7 after Sixfold Volition, "
+                "but the repo does not define one required selected class for this route/checkpoint. "
+                "The native Base Class is retained as a source-backed floor snapshot.",
                 campaign.class_source_path,
             )
         )
