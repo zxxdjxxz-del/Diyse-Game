@@ -10,9 +10,9 @@ def test_pre_volition_checkpoint_requires_exact_base_only_state() -> None:
     result = validate_class_state_at_checkpoint(
         "Nimera",
         "end_ch4",
-        ClassCexpState(base_cexp=1_150, subclass_cexp=0),
+        ClassCexpState(base_cexp=1_550, subclass_cexp=0),
     )
-    assert result.state.base_cexp == 1_150
+    assert result.state.base_cexp == 1_550
     assert result.post_volition_cexp_available == 0
     assert result.post_volition_cexp_lost == 0
 
