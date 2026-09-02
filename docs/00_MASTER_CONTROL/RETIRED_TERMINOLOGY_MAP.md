@@ -27,6 +27,17 @@ Use this file when cleaning old text, code comments, filenames or notes.
 | Change Face | Memory |
 | Last Measure | Last Cartographer |
 | Sixfold Accord | Sixfold Volition |
+| Crest Magus | Crest Arcanist |
+| Sixfold Knight | Proofhunter |
+| Ruin Healer | Ruin Warden |
+| Cyanis Dovaren | Cyanis |
+| Ilyra Amarin | Ilyra |
+| Torren Harth | Torren |
+| Nimera Pellan | Nimera |
+| Vaelira Serren | Vaelira |
+| Seyrik Rell | Seyrik |
+| Maevra Solmar | Maevra |
+| Kessara Durnan | Kessara |
 | Auren | G |
 | MDEF / Magic Defense as display term | Spirit |
 | Accuracy as character stat | no natural Accuracy; use Base Hit where appropriate |
@@ -37,6 +48,11 @@ Use this file when cleaning old text, code comments, filenames or notes.
 | Brace combat mechanic | removed |
 | Break/Stagger meter | removed |
 | general Accessory slot | removed |
+
+## Character-name migration note
+The surname-bearing forms above are retained only as migration/provenance references. Current-facing character authority uses the first-name-only forms unless a newer explicit authority establishes a surname.
+
+This rule does not remove independently established surnames from unrelated supporting characters such as **Edda Harth** or **Talia Rell**.
 
 ## Currency migration note
 Current ordinary currency:
