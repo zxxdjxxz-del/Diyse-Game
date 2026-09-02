@@ -118,6 +118,46 @@ Consumables:
 Forge Components:
 > 30
 
+## Economy
+Currency:
+> **G**
+
+Retired currency name:
+> **Auren**
+
+Scale:
+> **1 economy unit = 200 G**
+
+Starting wallet:
+> **2,500 G**
+
+Mandatory-route direct G:
+> **~316,900 G**
+
+Authored optional direct G:
+> **329,600 G**
+
+Broad completionist direct-cash reference:
+> **~646,500 G**
+
+Ordinary formations:
+> **~135,600 G**, about **42.8%** of mandatory direct G
+
+Key economy rules:
+- protected/nonlethal resolution does not default to 0 G;
+- Hunts pay strong G regardless of separate permanent rewards;
+- ordinary enemies have no random junk/item-drop economy;
+- chapter-by-chapter mandatory-route liquidity validation = **PASS**.
+
+Premium Consumables:
+- Emergency Kit — **8,000 G**
+- Reservoir Tonic — **12,000 G**
+- Emergency Rally — **15,000 G**
+- **1 of each per Consumable-selling shop from first access; no automatic restock**
+
+Kessara Relic-copy fee:
+> **6,000 G per successful copy**
+
 ## Progression
 Player cap:
 > **70**
@@ -133,6 +173,26 @@ Ordinary encounter planning center:
 
 Current CEXP timing:
 > normal-route full Base + Subclass completion ~Player Lv55–60; CL13 = 6,000 CEXP; 7,000 post-Volition mandatory CEXP by end Ch12; 8,500 by Last Shelter; optional pool 1,000 before MH6 / 1,075 including MH6.
+
+## Current balance frontier
+Working global enemy direct-damage test floor:
+> **×1.20**
+
+Do not raise the whole roster further merely to fix weak boss architectures.
+
+Boss-local retune list:
+- First Command Warden
+- Furnace Tyrant
+- Crownstorm Roc
+- Matron Zevraya
+- Revision Arbiter
+- Rhazek → Bastion Devourer
+- Vaelkor → Sovereign Panoply
+
+Current next balance action:
+> **First Command Warden local pressure correction**
+
+Older true-battle PASS/RETAIN verdicts remain historical evidence but are provisional where the revised difficulty standard reopens a boss.
 
 ## Optional content
 - 6 Character Quests
