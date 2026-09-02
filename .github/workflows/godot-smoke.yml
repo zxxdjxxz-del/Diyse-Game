@@ -72,6 +72,9 @@ jobs:
       - name: Run Kessara Relic-copy service validation
         run: godot --headless --path . --script tests/equipment/validate_kessara_relic_copy_service.gd
 
+      - name: Run production permanent-roster and active-party state validation
+        run: godot --headless --path . --script tests/save/validate_character_roster_state.gd
+
       - name: Run versioned save/load persistence validation
         run: godot --headless --path . --script tests/save/validate_save_load.gd
 
