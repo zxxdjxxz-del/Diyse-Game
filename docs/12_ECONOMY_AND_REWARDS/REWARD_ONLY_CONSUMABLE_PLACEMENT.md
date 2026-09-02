@@ -38,9 +38,9 @@ Rules:
 This applies to Regional Markets and to other endpoints such as Cresthaven Quartermaster or Vhalmarch Forward Supply whenever they actually function as Consumable shops.
 
 # Premium prices
-- **Emergency Kit — 8,000 Auren**
-- **Reservoir Tonic — 12,000 Auren**
-- **Emergency Rally — 15,000 Auren**
+- **Emergency Kit — 8,000 G**
+- **Reservoir Tonic — 12,000 G**
+- **Emergency Rally — 15,000 G**
 
 The early scarcity pressure comes from price plus one-copy-per-shop stock, not from a chapter unlock gate.
 
@@ -119,4 +119,4 @@ Scarcity comes from:
 - high prices;
 - no automatic restock.
 
-Guaranteed copies remain valuable because they save substantial Auren and do not consume shop stock.
+Guaranteed copies remain valuable because they save substantial G and do not consume shop stock.
