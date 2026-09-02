@@ -25,7 +25,7 @@ B00 as a full production benchmark is **not yet closed**: after the cohesion pas
 |---|---|
 | Cyanis | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
 | Ilyra | **REVISED COHESION MASTER APPROVED / LOCKED** |
-| Torren | **FINAL REVISED HIGH-RES TACTICAL/GHILLIE MASTER APPROVED / LOCKED** |
+| Torren | **NEW FINAL HIGH-RES B00 RANGER/GHILLIE MASTER APPROVED / LOCKED** |
 | Nimera | **REVISED COHESION MASTER APPROVED / LOCKED** |
 | Vaelira | **REVISED COHESION MASTER APPROVED / LOCKED** |
 | Seyrik | **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED** |
@@ -56,7 +56,7 @@ The complete six-character master set establishes the party-wide B00 grammar:
 Character-specific contributions:
 - **Cyanis:** mobile royal battle-knight structure, clean silver armor over dark royal blue / black layers.
 - **Ilyra:** light defensive / warding language with white/pale-blue fabric, long blonde hair, **one coherent pale-blue cape**, restrained silver structure and **bold saturated green eyes**.
-- **Torren:** veteran tactical medium-armor scout language: army-green cloth, **golden-bronze metal chest/arm/knee protection**, brown leather field gear, three canisters, hip quiver, back-carried recurved bow, **amber eyes** and a mixed-vegetation ghillie mantle built from grasses, leaves, moss and twigs.
+- **Torren:** weathered veteran ranger / military-scout language: deep army/forest-green structured clothing with long split outer panels, pale tabard accent, **golden-bronze metal chest/shoulder/limb protection**, dark brown field leather, three canisters, hip quiver, back-carried recurved bow, **amber-eye identity**, and a full mixed-vegetation ghillie mantle built from grasses, leaves, moss and twigs.
 - **Nimera:** dark-purple braided/updo hair, white fitted outfit, purple constellation waist-coat, black boots/utility gear, **silver hardware**, dark-green Cardweaver props, and a confident/sassy silhouette without artifact-dot dependency.
 - **Vaelira:** mature Green Arcanist silhouette, black cloth foundation, emerald outer garments/boots, silver metalwork, Arcane Staff, deep-crimson hair and **electric royal-blue eyes**.
 - **Seyrik:** Black Host-derived skeletal/alien biomechanical plate, polished black shell over crimson understructure, red-dominant long coat, imposing muscular silhouette and oversized two-handed greatsword.
@@ -104,7 +104,7 @@ Current eye-color anchors that must survive normalization:
 - **Vaelira — electric royal blue**;
 - **Torren — amber**.
 
-Torren's earlier ranger/druid-like construction has now been fully replaced by the final approved tactical master. His fingerprinted visual lock controls the exact face, army-green tactical cloth, true golden-bronze metal protection, brown leather gear, back-carried bow, hip quiver, three canisters and mixed grasses/leaves/moss/twigs ghillie treatment.
+Torren's prior compact tactical master has now been superseded by the newly approved fingerprinted ranger/medium-armor master. The new authority controls his veteran face, deep green long-panel outfit silhouette, pale central tabard accent, rigid golden-bronze chest/shoulder/limb metal protection, dark brown leather field gear, back-carried bow, hip quiver, three canisters and fuller mixed grasses/leaves/moss/twigs ghillie mantle.
 
 Ilyra's earlier multi-panel cape-heavy presentation has now been replaced by the approved cohesion master with one coherent pale-blue cape and stronger green-eye read while preserving her exact white/pale-blue/silver identity.
 
@@ -155,7 +155,7 @@ Rig functionality alone does not equal visual approval.
 Completed:
 1. approve all six high-resolution B00 masters individually;
 2. fingerprint/document all six masters;
-3. complete Torren's final tactical medium-armor / mixed-ghillie cohesion revision and re-lock his exact master;
+3. replace Torren's earlier compact tactical cohesion master with the new final ranger/medium-armor / mixed-ghillie master and re-lock his exact appearance;
 4. complete Ilyra's cape/eye cohesion revision and re-lock her exact master;
 5. complete Nimera's material/detail cohesion revision and re-lock her exact master;
 6. complete Vaelira's fresh B00 style/material cohesion revision and re-lock her exact master;
@@ -164,7 +164,7 @@ Completed:
 9. verify the exact v5 Quaternius mannequin/Armature source and member hashes.
 
 Next:
-10. review **Cyanis and Seyrik** against the four revised cohesion masters and correct only if needed;
+10. review **Cyanis and Seyrik** against the revised cohesion masters and correct only if needed;
 11. perform the final six-character side-by-side cohesion judgment using the exact approved masters;
 12. declare the coherent six-character high-res party set ready for runtime translation;
 13. import `UAL1_Standard.glb` into Godot;
@@ -195,4 +195,4 @@ Earlier material-family work is not automatically invalidated, but it must confo
 
 Current state:
 
-`VISUAL STYLE LOCKED → 6/6 HIGH-RES PARTY MASTERS LOCKED → TORREN + ILYRA + NIMERA + VAELIRA COHESION REVISIONS LOCKED → CYANIS/SEYRIK REVIEW NEXT → V5 QUATERNIUS RIG VERIFIED → GODOT PILOT AFTER COHESION`
+`VISUAL STYLE LOCKED → 6/6 HIGH-RES PARTY MASTERS LOCKED → NEW TORREN MASTER + ILYRA + NIMERA + VAELIRA COHESION REVISIONS LOCKED → CYANIS/SEYRIK REVIEW NEXT → V5 QUATERNIUS RIG VERIFIED → GODOT PILOT AFTER COHESION`
