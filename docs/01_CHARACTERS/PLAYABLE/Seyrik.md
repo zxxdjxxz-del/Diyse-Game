@@ -7,7 +7,7 @@
 - Age: **29**
 - Permanent party: **yes**
 - Join: **end of Chapter 6**
-- Base / Subclass: **Ruin Vanguard / Ruin Healer**
+- Base / Subclass: **Ruin Vanguard / Ruin Warden**
 - Face: **Ruin**
 - Story Prime: **Last Erasure**
 - Older sister: **Talia Rell**
