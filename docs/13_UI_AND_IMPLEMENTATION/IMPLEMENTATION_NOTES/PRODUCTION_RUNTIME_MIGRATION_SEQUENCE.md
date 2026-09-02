@@ -24,16 +24,11 @@ Do not try to make the proof runtime "look current" by renaming a few labels whi
 Use this pattern:
 > **preserve compatible data → add migration/normalization → implement current state model → replace stale behavior → replace stale tests → retire obsolete proof paths only after coverage exists**
 
-## Stage 0 — Preserve and classify the existing proof
+## Stage 0 — Preserve and classify the existing proof — COMPLETE
 
-Before the structural combat/Prime migration:
-- keep the existing proof files available as implementation evidence;
-- classify `tests/combat/validate_round_combat.gd` as a **legacy proof regression**, not current combat authority;
-- classify the bearer-lock/Confirm-Round assertions in `tests/smoke/validate_project.gd` the same way;
-- do not weaken or silently reinterpret those assertions while they still exercise the old proof architecture;
-- replace them with current-authority tests in the same migration that replaces the corresponding runtime behavior.
+The existing queued-round/Prime proof remains available as implementation evidence and its coupled combat tests are explicitly classified as legacy proof regressions rather than production battle authority.
 
-The key proof files currently coupled to retired behavior include:
+Key proof files still intentionally present include:
 - `game/combat/battle_state.gd`
 - `game/combat/round_resolver.gd`
 - `game/combat/combat_proof.gd`
@@ -41,45 +36,53 @@ The key proof files currently coupled to retired behavior include:
 - `tests/combat/validate_round_combat.gd`
 - `tests/smoke/validate_project.gd`
 
-## Stage 1 — Data terminology normalization — STARTED
+They are to be replaced together with current-authority coverage when the battle/Prime migration reaches those stages.
 
-Current completed piece:
-- the Kessara Relic-copy state path writes the current Face set **Might / Elements / Grace / Perception / Memory / Ruin**;
-- Resource/Acuity/Change remain accepted only as compatibility aliases and normalize into Perception/Memory.
+## Stage 1 — Data terminology normalization — ACTIVE / ONGOING
+
+Completed normalization includes:
+- Kessara Relic-copy state writes **Might / Elements / Grace / Perception / Memory / Ruin**;
+- Resource/Acuity/Change are compatibility aliases only and normalize into Perception/Memory;
+- line-complete dialogue Resources have a narrow current-term compatibility normalization for the retired Acuity/Change Face list while the generated Resource is awaiting clean regeneration;
+- production roster display identities normalize from stable character IDs to current first-name-only names.
 
 Continue this pattern for other persistent/current-facing records:
-- read old technical values where save/content compatibility requires it;
+- read old technical values where compatibility requires it;
 - normalize to current semantic values;
 - write current values going forward;
 - never display a retired value merely because an internal ID remains old.
 
-## Stage 2 — Production wallet / G state
+## Stage 2 — Production wallet / G state — COMPLETE
 
-The proof currently uses `gold` as a technical reward/state key. Current player-facing currency is **G**.
+Implemented:
+- persistent `wallet_g` state;
+- current starting wallet **2,500 G**;
+- affordability, credit and spend operations;
+- save schema v2 wallet persistence and v1 → v2 migration;
+- legacy `rewards.gold` retained only as isolated proof battle-result payload, never reinterpreted as the wallet;
+- Kessara exact service fee **6,000 G per successful Relic copy**;
+- invalid/insufficient-G attempts charge 0 G;
+- successful fee deduction, matching component consumption and forged-copy state commit through one synchronous GameState transaction.
 
-Production migration must establish a durable wallet/currency state with current G semantics before currency-dependent services are considered complete.
+Remaining old `gold` reward payload migration belongs to later reward/battle integration and does not reopen the wallet foundation.
 
-Requirements:
-- preserve a version-safe path for any legacy persisted currency value that is actually intended to survive migration;
-- do not infer a numeric conversion for old proof values unless the owning economy/save authority explicitly requires one;
-- current UI displays **G**, never Gold/Auren as the ordinary currency name;
-- Kessara's closed fee is **6,000 G per successful Relic copy**;
-- fee deduction and Relic-copy commit must ultimately be atomic so currency/component/item state cannot partially apply.
+## Stage 3 — Production party / character state — COMPLETE
 
-Do not bolt a 6,000 subtraction onto the proof `rewards.gold` field and call the production wallet complete.
+Implemented in save schema **v3**:
+- stable permanent IDs: `cyanis`, `ilyra`, `torren`, `nimera`, `vaelira`, `seyrik`;
+- all six permanent character records independent of the four-character proof `party` fixture;
+- current first-name-only display identity normalization;
+- recruitment state separate from active-party membership;
+- active party maximum **4**;
+- validation against duplicate, unknown and unrecruited active-party entries;
+- canonical production new-game baseline: Cyanis recruited/active; later permanent characters present as records but unrecruited;
+- reserved per-character `persistent_state` envelope without inventing final stats/progression;
+- v2 → v3 migration that preserves proof `party` data but does not infer production recruitment from it;
+- dedicated roster/active-party and save migration/round-trip regression coverage.
 
-## Stage 3 — Production party / character state
+The legacy proof `party` array remains only until the production battle/exploration consumers are migrated.
 
-Replace four-character proof fixtures with a production-capable roster model that distinguishes:
-- the six permanent recruited characters;
-- the active battle party, maximum **4**;
-- per-character persistent progression/loadout state;
-- current first-name-only character identity/display names;
-- current class/Face terminology.
-
-This stage does not require every final stat value to be authored in code at once. It requires the state shape to stop assuming the proof four are the whole permanent roster.
-
-## Stage 4 — Class / Face / loadout state
+## Stage 4 — Class / Face / loadout state — ACTIVE
 
 Production state must support current class architecture without reintroducing retired systems:
 - one Base Class and one reciprocal Subclass per permanent character;
@@ -90,6 +93,8 @@ Production state must support current class architecture without reintroducing r
 - Prime slots: 1 from Chapter-4 loadout access until Sixfold Volition, 2 afterward.
 
 Technical class IDs may remain stable where appropriate, but current-facing names must follow `00_MASTER_CONTROL/CLASS_TERMINOLOGY_CURRENT.md`.
+
+This stage should extend the stable roster/save layer rather than stuffing new production state into the legacy proof `party` dictionaries.
 
 ## Stage 5 — Prime collection / persistence model
 
@@ -167,7 +172,7 @@ Do not restore boss-form Prime refresh.
 ## Stage 9 — Production combat UI migration
 
 Once the core battle state no longer queues a whole party:
-- remove the production dependence on `CONFIRM ROUND`;
+- remove production dependence on `CONFIRM ROUND`;
 - show the current actor clearly;
 - present the five permanent commands only on an eligible player-controlled turn;
 - present current legal Card/Prime content and targets based on current state;
