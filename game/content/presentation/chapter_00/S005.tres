@@ -6,9 +6,9 @@
 script = ExtResource("1")
 scene_id = "S005"
 chapter_id = "chapter_00"
-environment_family = "CH00_RECOVERY_LINE"
-battle_background_family = "CH00_RECOVERY_LINE"
+environment_family = "CH00_TRIAGE_SAFE_CAMP"
+battle_background_family = "CH00_TRIAGE_SAFE_CAMP"
 cutscene_tier = "C2"
 vfx_tier = "V2"
 encounter_mode = "fixed_authored"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "RIFTMAW_BOSS_VARIANT", "SAME_BODY_SAME_HP_ESCALATION", "NO_CHAIN_PHYSICS"])
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CAMP_PERIMETER_DEFENSE", "NO_CHAIN_PHYSICS"])
