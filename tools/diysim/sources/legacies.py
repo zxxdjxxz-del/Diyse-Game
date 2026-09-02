@@ -167,7 +167,7 @@ def _load_project_rules(root_string: str) -> LegacyProjectRuleSource:
     folded = text.casefold()
 
     required_phrases = {
-        "all four core masteries": "all four native Core Masteries",
+        "all four native core masteries": "all four native Core Masteries",
         "character quest": "Character Quest",
         "legacy component": "Legacy Component",
         "precursor": "Legacy precursor",
