@@ -2,7 +2,9 @@ from __future__ import annotations
 
 from tools.diysim.progression.audit import (
     audit_campaign_checkpoint,
+    audit_campaign_named_checkpoint,
     audit_character_checkpoint,
+    audit_character_named_checkpoint,
 )
 from tools.diysim.progression.loadouts import resolve_loadout
 from tools.diysim.sources.campaign_progression import (
@@ -149,3 +151,38 @@ def test_end_chapter7_audit_marks_selected_class_as_an_assumption_gap() -> None:
     row = audit_character_checkpoint("Cyanis", 7, "mandatory")
     assert row.class_name == "Crest Knight"
     assert "selected_class_route_missing" in _gap_codes(row)
+
+
+def test_named_checkpoint_uses_exact_chapter13_internal_level() -> None:
+    row = audit_character_named_checkpoint("Cyanis", "ch13_start", "mandatory")
+    assert row.chapter == 13
+    assert row.checkpoint == "start Ch13"
+    assert row.level == 57
+    assert row.weapon == "Crestblade"
+    assert row.stats is not None
+    assert "later_mandatory_loadout_map_missing" in _gap_codes(row)
+    assert "selected_class_route_missing" in _gap_codes(row)
+
+
+def test_named_checkpoint_best_available_keeps_source_gaps_visible() -> None:
+    row = audit_character_named_checkpoint("Cyanis", "ch13_last_shelter", "best_available")
+    assert row.checkpoint == "Last Shelter"
+    assert row.level == 60
+    assert row.weapon == "Deepforge Blade"
+    assert row.stats is not None
+    assert "armor_availability_timing_missing" in _gap_codes(row)
+    assert "secondary_availability_timing_missing" in _gap_codes(row)
+    assert "route_specific_level_target_missing" in _gap_codes(row)
+
+
+def test_named_campaign_checkpoint_includes_all_six_by_chapter13() -> None:
+    rows = audit_campaign_named_checkpoint("ch13_last_shelter")
+    assert [row.character for row in rows] == [
+        "Cyanis",
+        "Ilyra",
+        "Torren",
+        "Nimera",
+        "Vaelira",
+        "Seyrik",
+    ]
+    assert all(row.level == 60 for row in rows)
