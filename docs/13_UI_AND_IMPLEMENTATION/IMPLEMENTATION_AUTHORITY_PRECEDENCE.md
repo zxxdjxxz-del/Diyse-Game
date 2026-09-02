@@ -1,7 +1,6 @@
 # Diyse — Implementation Authority Precedence
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit v85 working overrides already preserved in the reorganized domains.  
-**Runtime source checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
+**Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit corrections already preserved in the reorganized domains.  
 **Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
 
 
@@ -15,10 +14,7 @@ When implementation-facing sources disagree:
 6. historical audit/prototype source.
 
 ## Critical current override: Mastery
-The existing repository documentation still says:
-> exactly 8 automatic Mastery Points
-
-That is stale under the newer v85 working authority.
+Older proof/runtime or superseded documentation may still contain an 8-point Mastery schedule.
 
 Current implementation requirement:
 > **Mastery Points do not exist.**
@@ -42,11 +38,15 @@ Current production requirement:
 - after Sixfold Volition, each permanent character has **2 Prime slots**.
 
 ## Critical current override: currency
-Proof state uses `gold`.
-Current game currency:
+Proof state may retain the technical identifier `gold` until version-safe migration work replaces or safely maps it.
+
+Current player-facing game currency:
+> **G**
+
+Retired player-facing currency name:
 > **Auren**
 
-Any production persistence/UI migration must map to current Auren authority rather than exposing `gold` as the final player-facing currency.
+Any production persistence/UI migration must map proof currency state to current **G** authority. Do not expose `gold` as the final player-facing label and do not restore Auren as a second or replacement ordinary currency.
 
 ## Critical current override: final chapter IDs
 Production ID conventions must support:
