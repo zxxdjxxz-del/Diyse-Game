@@ -186,8 +186,11 @@ def resolve_class_aware_loadout_at_checkpoint(
 
     Without `class_state`, behavior is exactly the existing native-only checkpoint
     resolver. Supplying `class_state` makes it a simulation input that is first
-    validated against mandatory CEXP authority. Reciprocal donor Ordinary access
+    validated against the mandatory CEXP stream. Reciprocal donor Ordinary access
     then follows the source-backed Subclass CL1/3/5 Primary/Armor/Secondary gates.
+
+    Class-state validation currently supports the mandatory route only because the
+    repository's optional-CEXP activity/order layer is not yet wired into DiySim.
 
     Relic and Legacy items remain blocked here because Class Level proves only
     eligibility; actual Relic ownership and donor Legacy completion/ownership are
@@ -202,8 +205,13 @@ def resolve_class_aware_loadout_at_checkpoint(
             equipment_choices=choices,
             root=root,
         )
+    if assumption != "mandatory":
+        raise ValueError(
+            "Explicit class-state validation currently supports the mandatory route only; "
+            "optional/route-specific CEXP is not yet modeled."
+        )
 
-    validation = validate_class_state_at_checkpoint(
+    validate_class_state_at_checkpoint(
         character,
         checkpoint_key,
         class_state,
