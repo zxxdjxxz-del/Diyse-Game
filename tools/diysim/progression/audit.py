@@ -16,6 +16,7 @@ from ..sources.campaign_progression import (
 from ..sources.equipment import combine_equipment_bonuses
 from ..sources.equipment_availability import STARTING_LOADOUTS_PATH, load_guaranteed_loadouts
 from .loadouts import (
+    EquipmentSlot,
     ProgressionAssumption,
     ProgressionSourceGap,
     ResolvedLoadout,
@@ -38,6 +39,7 @@ class CharacterLoadoutAudit:
     armor: str | None
     secondary: str | None
     secondary_consumed_by_weapon: bool
+    explicit_equipment_slots: tuple[EquipmentSlot, ...]
     stats: Stats | None
     evasion: int | None
     status_resistance: int | None
@@ -62,6 +64,11 @@ class CharacterLoadoutAudit:
             "Armor": self.armor,
             "Secondary": (
                 "Consumed by Weapon" if self.secondary_consumed_by_weapon else self.secondary
+            ),
+            "Equipment Selection": (
+                "Explicit: " + ", ".join(self.explicit_equipment_slots)
+                if self.explicit_equipment_slots
+                else "Source floor"
             ),
             "HP": stats.hp if stats else None,
             "MP": stats.mp if stats else None,
@@ -183,18 +190,49 @@ def _resolve_selected_class(
     return class_name, True, [], paths
 
 
+def _validated_character_keys(
+    choices: Mapping[str, object] | None,
+    campaign_sources: tuple[CharacterCampaignSource, ...],
+    *,
+    kind: str,
+) -> dict[str, object]:
+    normalized = dict(choices or {})
+    known = {row.character for row in campaign_sources}
+    unknown = sorted(set(normalized) - known)
+    if unknown:
+        raise ValueError(
+            f"Unknown permanent character in {kind} choices: " + ", ".join(unknown)
+        )
+    return normalized
+
+
 def _validated_class_choices(
     class_choices: Mapping[str, str] | None,
     campaign_sources: tuple[CharacterCampaignSource, ...],
 ) -> dict[str, str]:
-    choices = dict(class_choices or {})
-    known = {row.character for row in campaign_sources}
-    unknown = sorted(set(choices) - known)
-    if unknown:
-        raise ValueError(
-            "Unknown permanent character in class choices: " + ", ".join(unknown)
-        )
-    return choices
+    return {
+        key: str(value)
+        for key, value in _validated_character_keys(
+            class_choices,
+            campaign_sources,
+            kind="class",
+        ).items()
+    }
+
+
+def _validated_equipment_choices(
+    equipment_choices: Mapping[str, Mapping[str, str]] | None,
+    campaign_sources: tuple[CharacterCampaignSource, ...],
+) -> dict[str, Mapping[str, str]]:
+    return {
+        key: value
+        for key, value in _validated_character_keys(
+            equipment_choices,
+            campaign_sources,
+            kind="equipment",
+        ).items()
+        if isinstance(value, Mapping)
+    }
 
 
 def _build_character_audit(
@@ -230,9 +268,6 @@ def _build_character_audit(
             equipment_bonuses,
             root=root,
         )
-        # Evasion and Status Resistance are not natural level-growth stats.
-        # Static loadout snapshots therefore start from the combat model's neutral
-        # baseline and add only source-backed permanent equipment bonuses.
         evasion = evasion_bonus
         status_resistance = status_resistance_bonus
 
@@ -260,6 +295,7 @@ def _build_character_audit(
         armor=loadout.armor,
         secondary=loadout.secondary,
         secondary_consumed_by_weapon=loadout.secondary_consumed_by_weapon,
+        explicit_equipment_slots=loadout.explicit_slots,
         stats=stats,
         evasion=evasion,
         status_resistance=status_resistance,
@@ -274,6 +310,7 @@ def audit_character_checkpoint(
     assumption: ProgressionAssumption = "mandatory",
     *,
     selected_class: str | None = None,
+    equipment_choices: Mapping[str, str] | None = None,
     root: Path | None = None,
 ) -> CharacterLoadoutAudit:
     """Calculate a source-backed end-of-chapter character snapshot."""
@@ -284,7 +321,13 @@ def audit_character_checkpoint(
     if campaign is None:
         raise KeyError(f"Unknown permanent character in campaign authority: {character}")
 
-    loadout = resolve_loadout(character, chapter, assumption, root=root)
+    loadout = resolve_loadout(
+        character,
+        chapter,
+        assumption,
+        equipment_choices=equipment_choices,
+        root=root,
+    )
     level, checkpoint, level_gaps, level_paths = _checkpoint_level(
         character,
         chapter,
@@ -311,6 +354,7 @@ def audit_character_named_checkpoint(
     assumption: ProgressionAssumption = "mandatory",
     *,
     selected_class: str | None = None,
+    equipment_choices: Mapping[str, str] | None = None,
     root: Path | None = None,
 ) -> CharacterLoadoutAudit:
     """Audit one exact named campaign checkpoint from current repository authority."""
@@ -326,6 +370,7 @@ def audit_character_named_checkpoint(
         character,
         checkpoint.key,
         assumption,
+        equipment_choices=equipment_choices,
         root=root,
     )
     level_gaps: list[ProgressionSourceGap] = []
@@ -358,16 +403,19 @@ def audit_campaign_checkpoint(
     assumption: ProgressionAssumption = "mandatory",
     *,
     class_choices: Mapping[str, str] | None = None,
+    equipment_choices: Mapping[str, Mapping[str, str]] | None = None,
     root: Path | None = None,
 ) -> tuple[CharacterLoadoutAudit, ...]:
     campaign_sources = load_character_campaign_sources(root=root)
-    choices = _validated_class_choices(class_choices, campaign_sources)
+    classes = _validated_class_choices(class_choices, campaign_sources)
+    equipment = _validated_equipment_choices(equipment_choices, campaign_sources)
     return tuple(
         audit_character_checkpoint(
             row.character,
             chapter,
             assumption,
-            selected_class=choices.get(row.character),
+            selected_class=classes.get(row.character),
+            equipment_choices=equipment.get(row.character),
             root=root,
         )
         for row in campaign_sources
@@ -380,17 +428,20 @@ def audit_campaign_named_checkpoint(
     assumption: ProgressionAssumption = "mandatory",
     *,
     class_choices: Mapping[str, str] | None = None,
+    equipment_choices: Mapping[str, Mapping[str, str]] | None = None,
     root: Path | None = None,
 ) -> tuple[CharacterLoadoutAudit, ...]:
     checkpoint = load_campaign_checkpoint(checkpoint_key, root=root)
     campaign_sources = load_character_campaign_sources(root=root)
-    choices = _validated_class_choices(class_choices, campaign_sources)
+    classes = _validated_class_choices(class_choices, campaign_sources)
+    equipment = _validated_equipment_choices(equipment_choices, campaign_sources)
     return tuple(
         audit_character_named_checkpoint(
             row.character,
             checkpoint.key,
             assumption,
-            selected_class=choices.get(row.character),
+            selected_class=classes.get(row.character),
+            equipment_choices=equipment.get(row.character),
             root=root,
         )
         for row in campaign_sources
@@ -404,19 +455,22 @@ def audit_campaign(
     start_chapter: int = 0,
     end_chapter: int = 13,
     class_choices: Mapping[str, str] | None = None,
+    equipment_choices: Mapping[str, Mapping[str, str]] | None = None,
     root: Path | None = None,
 ) -> tuple[CharacterLoadoutAudit, ...]:
     if start_chapter < 0 or end_chapter < start_chapter:
         raise ValueError("Invalid campaign chapter range")
     campaign_sources = load_character_campaign_sources(root=root)
-    choices = _validated_class_choices(class_choices, campaign_sources)
+    classes = _validated_class_choices(class_choices, campaign_sources)
+    equipment = _validated_equipment_choices(equipment_choices, campaign_sources)
     rows: list[CharacterLoadoutAudit] = []
     for chapter in range(start_chapter, end_chapter + 1):
         rows.extend(
             audit_campaign_checkpoint(
                 chapter,
                 assumption,
-                class_choices=choices,
+                class_choices=classes,
+                equipment_choices=equipment,
                 root=root,
             )
         )
