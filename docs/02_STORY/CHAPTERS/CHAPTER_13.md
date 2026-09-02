@@ -109,9 +109,9 @@ The modern six invent the solution during the fight.
 Current order:
 1. **Last Sentinel / Might — HOLD**
 2. **Last Convergence / Elements — DISTINGUISH**
-3. **Last Cartographer / Acuity — MAP**
+3. **Last Cartographer / Perception — MAP**
 4. **Last Sanctuary / Grace — PRESERVE**
-5. **Last Scribe / Change — CONTAIN**
+5. **Last Scribe / Memory — CONTAIN**
 6. **Last Erasure / Ruin — END**
 
 Causal shorthand:
