@@ -9,8 +9,11 @@ on:
       - "tools/diysim/sources/equipment.py"
       - "tools/diysim/sources/equipment_availability.py"
       - "tools/diysim/sources/campaign_progression.py"
+      - "tools/diysim/sources/class_exp.py"
+      - "tools/diysim/sources/class_equipment_access.py"
       - "tools/diysim/cli.py"
       - "tests/diysim/progression/**"
+      - "tests/diysim/sources/test_class_equipment_access.py"
       - "docs/06_CLASSES_AND_ABILITIES/**"
       - "docs/08_ITEMS_AND_EQUIPMENT/**"
       - "docs/10_PROGRESSION_AND_EXP/**"
@@ -32,7 +35,7 @@ jobs:
         run: python -m pip install --upgrade pytest
 
       - name: Test progression/loadout source resolution
-        run: python -m pytest -q tests/diysim/progression/test_loadout_audit.py tests/diysim/progression/test_loadout_cli.py
+        run: python -m pytest -q tests/diysim/progression tests/diysim/sources/test_class_equipment_access.py
 
       - name: Generate chapter-by-chapter audit tables
         run: |
