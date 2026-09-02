@@ -61,12 +61,15 @@ Do not use the current proof queue/confirm architecture as production battle-flo
 
 ## 4. Currency — HIGH
 Proof state:
-- `gold`
+- technical identifier `gold` and old proof values may remain.
 
-Current:
+Current player-facing authority:
+- **G**
+
+Retired player-facing currency name:
 - **Auren**
 
-Requires version-safe production state/schema work.
+Requires version-safe production state/schema/UI work. Internal migration may preserve a legacy technical identifier temporarily, but final player-facing presentation must use **G** and must not revive Auren.
 
 ## 5. Proof equipment/content — HIGH
 GameState defaults still include:
@@ -78,8 +81,8 @@ GameState defaults still include:
 
 They are fixtures, not current equipment/content authority.
 
-Ilyra's current weapon is:
-> **Wardrod**
+Ilyra's current primary weapon family is:
+> **Wardrods**
 
 ## 6. Save schema completeness — HIGH
 Schema v1 proves persistence but does not yet carry the complete production progression/quest/loadout state.
