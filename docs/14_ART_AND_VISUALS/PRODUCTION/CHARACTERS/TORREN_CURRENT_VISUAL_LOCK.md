@@ -1,67 +1,73 @@
 # Torren Harth — Current Visual Lock
 
-**Status:** **LOCKED — FINAL B00 HIGH-RES MASTER APPROVED**  
-**Authority scope:** current face, hair, beard, eye color, tactical clothing, medium armor, ghillie construction, bow/quiver carry, equipment, palette, and prohibited regressions for character art/model production.
+**Status:** **LOCKED — NEW FINAL B00 HIGH-RES MASTER APPROVED**  
+**Authority scope:** current face, hair, beard, eye treatment, ranger/medium-armor outfit, ghillie construction, bow/quiver carry, equipment, palette, silhouette, and prohibited regressions for character art/model production.
 
 ## Exact approved render fingerprint
 
-The explicitly approved final clean redraw is the controlling image authority and **replaces every earlier Torren master / patch / interim redraw**.
+The newly uploaded and explicitly approved render is the controlling image authority and **replaces every earlier Torren master / patch / interim redraw**.
 
-- dimensions: **1023 × 1537**
+- dimensions: **1022 × 1536**
 - mode: **RGB**
-- SHA-256: `706696dfa3cdb6b4164682814783a5584f51c63abe2bd001c386227f57f055c7`
+- SHA-256: `5ea50d69d667cd53460e27b757dbaf2a8190f2291614cda29ca0197e9035ae98`
 
 If prose and the exact approved render ever appear to disagree on incidental minutiae, the fingerprinted render controls until the user explicitly revises it.
 
 ## Identity / face / hair
 
 - canonical age remains **42**;
-- mature, weathered veteran read without pushing him into elderly or hyper-scarred territory;
-- exact facial construction, jaw, nose, brow, beard shape and expression follow the fingerprinted render;
-- **amber eyes** are mandatory and remain a deliberate party-color anchor;
-- medium-long tousled dark hair with a rugged, slightly uneven silhouette;
-- substantial salt-and-pepper beard with the exact final-render balance of dark and gray;
-- no fresh wounds, blood, battle damage or random facial artifact marks.
+- mature, weathered veteran read;
+- medium-long tousled dark hair with visible gray/weathering;
+- substantial salt-and-pepper beard;
+- stern, experienced facial construction;
+- Torren's established **amber-eye identity** remains the intended color anchor unless the user explicitly revises it;
+- no fresh wounds, blood, or artificial battle-damage treatment.
+
+The exact approved image controls final facial proportions, hair mass, beard distribution, expression, and incidental weathering.
 
 ## Outfit / armor
 
-Torren is a **tactical medium-armored military scout / archer**, not a fantasy druid, ceremonial ranger or heavy knight.
+Torren now reads as a **battle-tested ranger / military scout in mobile medium armor**, with a stronger fantasy-ranger silhouette than the prior compact tactical master while preserving practical field construction.
 
 Preserve:
-- dominant **army-green / olive-green** tactical cloth;
-- fitted practical jacket/shirt and trousers with mobile military construction;
-- **golden-bronze METAL armor** across the chest, shoulder/upper arm, forearm and knees as established by the final render;
-- chest bronze must read as hard plate/segmented protective metal with crisp edges, rivets and controlled metallic highlights — never fabric, leather, quilted gold cloth or decorative trim pretending to be armor;
-- protection remains clearly medium-weight: more armored than a light ranger, less enclosed than Cyanis or Seyrik;
-- **brown leather** belts, harnessing, pouches, straps, gloves/hand gear and boots;
-- practical seams, buckles, rivets, fasteners and reinforcement rather than ornate fantasy filigree;
-- clean separation of army-green cloth, bronze metal, brown leather and vegetation.
+- dominant deep **army / forest green** clothing;
+- structured high-collared upper garment and long split green outer panels / coat tails;
+- visible pale/ivory central tabard-like cloth panel as shown in the master;
+- **golden-bronze METAL chest armor** as a real rigid breastplate / torso shell with hard edges and controlled metallic highlights;
+- matching golden-bronze shoulder/upper-arm protection and knee/lower-leg protection;
+- dark reinforced forearm/gauntlet construction with bronze framing where shown;
+- dark brown leather belts, harnessing, straps, pouches and boots;
+- black/dark trouser underlayer where visible;
+- medium-armor mobility rather than full enclosed heavy plate;
+- clear cloth / leather / bronze-metal / foliage separation.
+
+The bronze chest must read as **metal armor**, never quilted cloth, leather, gold fabric, or decorative trim.
 
 ## Equipment / carry layout
 
-Mandatory final-render anchors:
-- Torren's distinctive recurved bow design is carried **on his back**, not held in the master pose;
-- preserve the bow's visible upper-back silhouette and practical strapped carry shown by the exact render;
-- hip-mounted quiver and arrows remain in the exact side/placement shown by the fingerprinted master; do not move it back to a shoulder/back quiver unless explicitly revised;
-- **three** belt-mounted cylindrical canisters / field containers remain grouped together on the opposite front-hip side as shown;
-- utility pouches and harnessing remain practical and reachable;
-- do not mirror equipment casually during redraw/model translation: the fingerprinted master controls side placement.
+Mandatory silhouette/equipment anchors from the exact approved render:
+- recurved/field bow carried **on the back**, with its upper limb visible over the shoulder;
+- hip-mounted quiver and arrows in the exact side/placement shown by the fingerprinted render;
+- **three** cylindrical field canisters grouped at the belt/front hip;
+- practical layered belt pouches and harnessing;
+- equipment should remain usable and integrated into the ranger silhouette rather than ornamental clutter.
 
-## Ghillie cape
+Do not casually mirror the equipment layout during redraw or model translation; the exact render controls side placement.
 
-The full ghillie mantle/cape is mandatory, but it should not read as a single heavy bush or uniform hanging fringe.
+## Ghillie mantle
 
-Preserve the final mixed-camouflage construction:
-- varied grasses;
-- different leaf shapes;
-- mossy material;
-- fine twigs / small branch pieces;
-- irregular natural layering and negative space;
-- greener living-vegetation read rather than mostly dead brown foliage;
-- shoulder/back attachment that frames the armor instead of hiding the torso;
-- long broken silhouette around the body without excessive visual weight.
+The full ghillie mantle/cape remains a defining Torren feature.
 
-The ghillie must read as **purpose-built field camouflage assembled from mixed vegetation**, not fur, a normal cloth cape, one repeated plant species or AI-noise texture.
+Preserve:
+- broad shoulder/back coverage;
+- mixed grasses, leaves, mossy foliage and twigs / small branch material;
+- irregular natural layering with visible negative space;
+- green and olive living-vegetation read with some dry/brown variation;
+- long hanging camouflage masses around the body;
+- foliage that frames the armor/outfit without completely hiding it;
+- designed grouped vegetation rather than one repeated plant texture or random AI noise.
+
+The master may read somewhat fuller/heavier than the previous Torren lock; this exact approved silhouette now controls.
 
 ## Rendering direction
 
@@ -71,9 +77,9 @@ Torren's master belongs to Diyse B00:
 - chaotic but intentional variable line weight;
 - roughly 2–4 dominant value groups where practical;
 - precise restrained facial lines;
-- clean anatomy, hands and garment construction;
-- controlled bronze highlights rather than glossy mobile-gacha metal;
-- large readable vegetation masses with selective internal detail;
+- clean anatomy and garment construction;
+- controlled golden-bronze highlight planes;
+- readable foliage masses with selective internal detail;
 - no painterly/soft-brushed target;
 - no random dot/speckle/grunge dependency;
 - single clean full-body presentation on plain white for master review unless another view is explicitly requested.
@@ -81,22 +87,20 @@ Torren's master belongs to Diyse B00:
 ## Prohibited regressions
 
 Do not:
-- change the final approved face;
+- revert to any earlier Torren face or master;
 - de-age him into a young anime ranger;
-- change the **amber eyes** to brown, gray or green;
-- return to a short military haircut;
+- remove the salt-and-pepper veteran read;
+- return to a very short military haircut;
 - shrink the beard to stubble;
-- turn army-green tactical clothing into robe-like fantasy clothing;
+- replace the current long green outer-panel silhouette with the previous compact tactical-only outfit unless explicitly revised;
 - make the bronze chest protection look like fabric or leather;
-- turn the medium armor into full heavy plate or nearly armorless ranger clothing;
-- replace brown leather with dominant black leather;
-- reduce the ghillie cape to shoulder trim;
-- make the ghillie an over-heavy solid vegetation wall;
-- revert to one repeated grass/branch texture instead of mixed grasses/leaves/moss/twigs;
+- turn the medium armor into full heavy plate;
+- replace the brown field leather with dominant glossy black leather;
+- reduce the ghillie mantle to shoulder trim;
+- make the ghillie one repetitive grass curtain or artifact texture;
 - move the bow/quiver/canisters to arbitrary mirrored positions;
-- put the bow in his hand in the neutral master unless specifically requested;
 - remove the three-canister identity;
-- add random scratches, dots, speckles, fused materials, broken seams or other AI artifacts as "detail";
+- add random scratches, dots, speckles, fused materials, broken seams or AI artifacts as "detail";
 - patch older images when a clean master redraw is requested.
 
 This file controls Torren's B00 master and all later model/runtime translation until explicitly revised.
