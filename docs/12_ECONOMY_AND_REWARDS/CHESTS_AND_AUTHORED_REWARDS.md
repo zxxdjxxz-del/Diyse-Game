@@ -1,6 +1,6 @@
 # Diyse — Chests & Authored Rewards
 
-**Status:** CURRENT AUTHORED-REWARD / DIRECT-AUREN PLACEMENT AUTHORITY
+**Status:** AUTHORED-REWARD STRUCTURE CURRENT / DIRECT-G AMOUNTS RECALIBRATING
 
 ## Reward-source principle
 Exploration rewards should not be flattened into cash.
@@ -12,7 +12,7 @@ Useful authored reward channels include:
 - Forge Components;
 - Legacy precursors/components;
 - Cards;
-- direct Auren caches / requisition credits where appropriate.
+- direct G caches / requisition credits where appropriate.
 
 ## Found ordinary equipment
 A found/guaranteed ordinary equipment piece carries two values:
@@ -21,48 +21,36 @@ A found/guaranteed ordinary equipment piece carries two values:
 
 It should not receive an extra cash payout merely to match a shop item's visible price.
 
-## Mandatory direct-Auren reward map — CLOSED
-The exact mandatory non-battle Auren layer is now authored in:
-> `MANDATORY_NONBATTLE_AUREN_BUDGET.md`
+## Mandatory direct-G reward map
+Current delivery-structure authority:
+> `MANDATORY_NONBATTLE_G_BUDGET.md`
 
-Total:
-> **8,080 Auren**
+The existing chapter/location delivery concepts remain usable, but the old 8,080 pre-display-scale total is retired as current numeric authority.
 
-The map closes:
-- chapter allocation;
-- mandatory-route location/context;
-- delivery channel;
-- exact Auren amount.
-
-Not every delivery is a literal chest. Valid presentations include:
+Valid presentations include:
 - requisition credit;
 - secured hostile operational reserve;
 - liberated military reserve;
 - administrative/expedition funds;
-- direct Auren cache.
+- direct G cache.
 
-Exact container prop, NPC line, UI toast, or scripting hook may be authored later without changing the economic placement/value.
+Exact G amounts are being recalibrated against the ~650,000 G completionist target and current encounter/Hunt rules.
 
 ## Mandatory solvency rule
 Direct-currency placement must not depend on obscure optional rooms.
-The normal mandatory route is calibrated to approximately **30,127 Auren** direct currency, including ordinary encounters, story bosses, and the 8,080-Auren non-battle map.
+The mandatory route must remain independently solvent without Hunts, Side Quests, Character Quests, or repetitive grinding.
 
-## Protected-cache clarity
-Reward-only exceptional Consumables remain finite and use explicit authored placements in:
+## Premium Consumable clarity
+Reservoir Tonic, Emergency Kit, and Emergency Rally retain explicit guaranteed authored placements in:
 > `REWARD_ONLY_CONSUMABLE_PLACEMENT.md`
 
-They do not become normal unlimited stock and are not sellable.
+Despite the legacy filename, they are also purchasable as limited one-copy-per-Consumable-shop stock.
+Guaranteed copies do not consume shop stock.
 
-## No duplicate-value rule
-If an authored cache already supplies a meaningful:
-- ordinary equipment first copy;
-- Relic;
-- Forge Component;
-- Legacy component;
-- Card/Prime;
-- reward-only Consumable;
+## No duplicate-value reflex
+Do not automatically add a large G amount to every cache merely because another reward is present.
 
-do not automatically add a large Auren amount merely to make the cache appear more valuable.
+However, this rule does **not** authorize discounting Hunt G because a Hunt also grants a permanent reward; Hunts follow their separate strong-G rule.
 
 ## No random-drop substitute
 Ordinary enemies do not randomly drop Consumables/equipment/materials/junk as a substitute for authored exploration rewards.
