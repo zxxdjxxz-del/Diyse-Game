@@ -11,12 +11,14 @@ def test_repo_source_audit_resolves_current_core_authority() -> None:
 
     assert report.progression_loaded
     assert report.class_cexp_loaded
+    assert report.donor_equipment_access_loaded
     assert report.combat_loaded
     assert report.party_rules_loaded
     assert report.enemy_system_loaded
     assert report.class_level_thresholds == 13
     assert report.class_recruitment_rows == 6
     assert report.campaign_cexp_chapters == 13
+    assert report.donor_equipment_access_rows == 6
     assert report.ability_entries == len(load_ability_registry())
     assert report.ability_sources_resolved == report.ability_entries
     assert report.trait_packages == len(load_trait_registry())
