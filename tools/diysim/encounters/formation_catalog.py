@@ -100,10 +100,14 @@ def _enemy_index(definitions: tuple[EnemyRuntimeDefinition, ...]) -> dict[str, E
 
 def _parse_member(part: str, index: dict[str, EnemyRuntimeDefinition]) -> FormationMember:
     cleaned = part.strip()
-    match = re.match(r"^(\d+)\s+(.+?)\s*$", cleaned)
+    if not cleaned:
+        return FormationMember(0, cleaned, None, "unparsed formation member: empty member")
+    # Formation authority uses both `2 Enemy Name` and the natural shorthand
+    # `Enemy Name` for a single member. Omitted count therefore means exactly 1.
+    match = re.match(r"^(?:(\d+)\s+)?(.+?)\s*$", cleaned)
     if not match:
         return FormationMember(0, cleaned, None, f"unparsed formation member: {cleaned}")
-    count = int(match.group(1))
+    count = int(match.group(1) or 1)
     label = match.group(2).strip()
     key = _normalize(label)
     definition = index.get(key) or index.get(_singularize_last_word(key))
