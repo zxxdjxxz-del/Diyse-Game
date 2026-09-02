@@ -1,23 +1,28 @@
 # Diyse — Layout Blueprint 001
-## Chapter 0 — Convoy Road / Wreck Field / Recovery Line / Field Triage Camp
+## Chapter 0 — Convoy Road / Wreck Field / Recovery Line / Field Triage Camp / Survivor Sweep
 
-**Status:** PROVISIONAL BLOCKOUT BLUEPRINT / READY FOR FIRST 3D TEST BUILD  
+**Status:** PROVISIONAL BLOCKOUT BLUEPRINT / FIRST GODOT GRAYBOX CREATED  
 **Owner stream:** `90_WORKING/AREA_AND_ROUTE_LAYOUT_PRODUCTION_WORKING.md`  
-**Inventory source:** `90_WORKING/PLAYABLE_AREA_INVENTORY_WORKING.md`
+**Inventory source:** `90_WORKING/PLAYABLE_AREA_INVENTORY_WORKING.md`  
+**Graybox scene:** `game/exploration/maps/chapter_00/chapter_00_graybox.tscn`
 
-This blueprint converts Chapter 0's locked story order into testable 3D exploration geometry. It is **not yet an L3 final topology**. Dimensions/camera values below are first-pass vertical-slice constants and may change after the route is played on desktop and Android.
+This blueprint converts Chapter 0's locked story/dialogue order into testable 3D exploration geometry. It is **not yet an L3 final topology**. Dimensions and camera values remain vertical-slice test constants until the graybox is actually played and approved.
 
 ---
 
-# 1. Canon Constraints
+# 1. Canon Route and Scene Order
 
-The route must preserve this mandatory order:
+Macro travel remains:
 
 > **Convoy Road → Wreck Field → Evacuation / Recovery Line → Field Triage Camp → Brackenwall**
 
-Chapter-0 combat/story order must remain compatible with:
+The line-complete S006 aftermath adds a bounded local recovery sweep after the camp confrontation. That sweep is a **Recovery-Line reuse spur**, not a new world-map destination:
 
-### S001 — opening-combat segment
+> **Triage Camp → bounded survivor sweep south of the wagon line → Brackenwall handoff**
+
+Mandatory scene/combat order:
+
+### S001 — Opening combat
 1. Black Host Raider + Black Host Crossbowman + Ruin Shieldbearer
 2. Beast Handler + Convoy Rift Hound
 3. Ruin Vanguard Pursuer — protected disengagement; concealed Seyrik retreats alive
@@ -25,488 +30,349 @@ Chapter-0 combat/story order must remain compatible with:
 
 ### S002 — Wreck Field
 - exactly one Convoy Rift Hound encounter;
-- survivors, wreckage, threats, evacuation routes and suspicious northern withdrawal must be readable.
+- survivors, wreckage, evacuation routes and suspicious northern withdrawal must be readable.
 
 ### S003 — Evacuation Relay Decision
 - no combat;
-- decision must occur in a space where wounded/civilians and the damaged line are visibly relevant.
+- wounded/civilians and the damaged recovery line must be spatially visible so Cyanis's refusal of the pursuit reads as professional judgment rather than exposition.
 
 ### S004 — Field Triage Camp
 - Ilyra introduction;
+- sealed Card's incomplete protective geometry;
 - no standalone combat before S005.
 
-### S005 — final Broken Convoy confrontation
-- Convoy War-Sorcerer + injured Iron Cohort Soldier;
-- War-Sorcerer is victory target;
-- surviving Soldier withdraws.
+### S005 — Final Broken Convoy confrontation
+Current exact dialogue staging establishes:
+- S005 continues directly from S004;
+- the protection remains along the **defended camp edge**;
+- the War-Sorcerer and injured Soldier advance through the **east cut**;
+- Cyanis orders everyone behind stone and explicitly protects the camp from becoming another pursuit;
+- surviving Soldier withdraws through the east cut.
 
-### S006 — aftermath
-- no combat;
-- Brackenwall handoff.
+Therefore:
+> **S005 belongs to the Field Triage Camp perimeter, not the earlier Recovery-Line approach.**
 
-Do not add:
-- Prime manifestation;
-- optional dungeon branches;
-- mandatory loot detours;
-- a second rearguard battle after the final confrontation;
-- a large open-world field that weakens the authored tutorial pacing.
+### S006 — Aftermath and bounded survivor sweep
+Current exact dialogue staging establishes:
+- S006 begins in the still-active camp after S005;
+- a wounded escort reports tracks south of the wagon line;
+- the officer authorizes **one sweep** with **no chase beyond the wreck markers**;
+- Cyanis and Ilyra leave the treatment lane for that bounded survivor sweep;
+- Brackenwall follows afterward.
+
+Implementation/presentation interpretation:
+- S006 dialogue opens in the camp state;
+- the player-controlled sweep may use/re-enter the `CH00_RECOVERY_LINE` environment family;
+- it must not become a second dungeon, combat route or open-ended pursuit.
 
 ---
 
 # 2. Technical Blockout Baseline
 
-Current runtime proof anchors:
+Current proof-runtime anchors:
 - exploration uses `CharacterBody3D`;
 - player collision capsule height = **1.8 units**;
 - proof movement speed = **5.0 units/sec**;
-- proof camera offset = approximately **(0, +5.5, +7.5)** from player;
-- proof pitch = **−25°**;
-- proof FOV = **60°**;
-- design viewport = **1920×1080**.
+- design viewport = **1920×1080**;
+- proof camera ≈ **(0, +5.5, +7.5)**, **−25°**, **60° FOV**.
 
 For Blueprint 001 only:
 > **1 Godot world unit ≈ 1 meter**
 
-This is a blockout convention, not a lore/canon measurement system.
+This is a graybox convention, not an in-world measurement canon.
 
-## First-pass path widths
-- convoy-capable road: **8–10 m**;
-- ordinary walkable connector: **5–6 m**;
+First-pass widths:
+- convoy road: **8–10 m**;
+- ordinary connector: **5–6 m**;
 - intentional narrow passage: **3.5–4 m minimum**;
-- story gathering pocket: **12–18 m** across;
-- major authored battle-transition staging pocket: **20–28 m** across.
+- story gathering pocket: **12–18 m**;
+- fixed encounter-transition staging pocket: **20–28 m**.
 
-Because ordinary combat transitions to a dedicated combat scene, field clearings do **not** need to contain the entire battle formation. They need enough room for readable pre-battle staging, encounter triggering and cinematic handoff.
+Ordinary/fixed combat resolves in the dedicated combat presentation, so the field needs readable pre-battle staging and transition space rather than full battle-formation geometry.
 
 ---
 
-# 3. Scene Chunk Strategy
+# 3. Graybox Chunks
 
-For the first production test, build Chapter 0 as **four connected 3D field chunks** plus the Brackenwall transition.
-
-| Scene ID | Area | Approx. envelope | Critical-path distance | Purpose |
+| ID | Area | Approx. envelope | Critical-path target | Primary role |
 |---|---|---:|---:|---|
 | CH00_F01 | Convoy Road | 220 × 100 m | ~260 m | movement/tutorial combat cadence |
-| CH00_F02 | Wreck Field | 180 × 140 m | ~180 m | aftermath reading / one encounter |
+| CH00_F02 | Wreck Field | 180 × 140 m | ~180 m | aftermath reading / one fixed encounter |
 | CH00_F03 | Recovery Line | 170 × 85 m | ~170 m | evacuation logic / command decision |
-| CH00_F04 | Field Triage Camp | 115 × 95 m | ~110 m | Ilyra intro / final confrontation / aftermath |
+| CH00_F04 | Field Triage Camp | 115 × 95 m | ~110 m | Ilyra / S005 perimeter defense / aftermath |
+| CH00_F03R | Survivor Recovery Sweep | ~80 × 70 m local spur | ~80–100 m | S006 no-combat bounded sweep / Brackenwall handoff |
 
-Total critical-path walk distance before Brackenwall:
-> approximately **720 m**
+Total first-pass critical traversal is roughly **800 m** before Brackenwall, excluding investigation wandering. At 5 m/s this is under three minutes of uninterrupted running; authored dialogue, fixed battles, investigation, staging and first-time navigation provide the actual pacing.
 
-At the current 5 m/s proof movement speed, pure uninterrupted running would be ~144 seconds. Authored stops, inspections, combat transitions, dialogue and cautious first-time navigation should make the actual Chapter-0 field experience substantially longer without padding the route.
+Coordinate convention:
+- +X east;
+- −X west;
+- −Z chapter-forward/northward screen progression convention for this blockout;
+- Y elevation.
 
----
-
-# 4. Coordinate Convention
-
-Each chunk uses a local X/Z plane:
-- **+X = east**
-- **−X = west**
-- **−Z = forward/north along chapter progression**
-- Y = elevation
-
-Coordinates are blockout targets, not final centimeter-perfect placements.
+Coordinates are test targets, not final centimeter locks.
 
 ---
 
-# 5. CH00_F01 — Convoy Road
+# 4. CH00_F01 — Convoy Road
 
-## Envelope
-- width: **100 m**
-- length: **220 m**
-- elevation range target: **0–12 m**
-- dominant road width: **9 m**
+Design: controlled S-curve / switchback through rugged Westways terrain. Terrain shelves and bends prevent all authored encounters from being visible simultaneously while keeping the route unmistakable.
 
-## Core shape
-A controlled S-curve/switchback road through rugged Westways terrain. The player should repeatedly see the road continuing ahead, but bends/terrain shelves prevent all four authored encounters from being visible at once.
+Approximate nodes:
 
-### Critical nodes
-
-| Node | Approx. X/Z | Function |
+| Node | Local X/Z | Function |
 |---|---|---|
-| F01-A | (0, +95) | opening spawn / convoy competence framing |
-| F01-B | (−8, +55) | Encounter 1 staging pocket |
-| F01-C | (+18, +20) | brief convoy-obstacle/navigation beat |
-| F01-D | (+10, −15) | Encounter 2 staging pocket |
-| F01-E | (−20, −48) | Pursuer encounter/disengagement pocket |
-| F01-F | (−5, −82) | Riftmaw approach pocket |
-| F01-X | (0, −105) | transition seam to Wreck Field |
+| Start | (0, +112) | opening spawn |
+| A | (0, +95) | convoy competence framing |
+| B | (−8, +55) | S001 encounter 1 |
+| C | (+18, +20) | convoy obstacle / route read |
+| D | (+10, −15) | S001 encounter 2 |
+| E | (−20, −48) | Pursuer / Seyrik disengagement |
+| F | (−5, −82) | Riftmaw staging |
+| Exit | (0, −105) | Wreck Field seam |
 
-## Topology
+Only shallow roadside pockets are allowed. No true branch should make the player uncertain about chapter progression.
 
-```text
-START / convoy rear
-      |
-      |  broad road
-      v
- [A] Opening shelf
-      |
-  bend left
-      v
- [B] Encounter 1 clearing
-      \
-       \ raised shoulder / sightline
-        [C] obstructed convoy lane
-          \
-           [D] Handler + Hound pocket
-             |
-         descending bend
-             |
-         [E] Pursuer pocket
-             |
-        short recovery stretch
-             |
-         [F] Riftmaw pocket
-             |
-       blind bend / seam
-             v
-        WRECK FIELD
-```
-
-## Side-space rule
-Only **two shallow side pockets** should exist:
-1. a 10–15 m shoulder near C for environmental/tutorial inspection;
-2. a 12–16 m rocky verge between E and F for breathing-room composition.
-
-Neither is a true branch. Player must never wonder which road advances the chapter.
-
-## Landmark hierarchy
-1. convoy wagons / supply silhouettes;
-2. distant smoke plume toward the Wreck Field direction;
-3. rugged ridge/road-cut silhouette;
-4. repeated Yahtrean convoy markers establishing route identity.
-
-## Transition seam
-Use a road bend with rising terrain/foreground occluder so F01 can unload before F02 is visually exposed.
+Landmark hierarchy:
+1. convoy wagons/supply silhouettes;
+2. distant smoke toward Wreck Field;
+3. ridge / road-cut silhouette;
+4. repeated Yahtrean convoy markers.
 
 ---
 
-# 6. CH00_F02 — Wreck Field
+# 5. CH00_F02 — Wreck Field
 
-## Envelope
-- width: **180 m**
-- depth: **140 m**
-- elevation range: **−3 to +8 m**
+Design: broad asymmetrical investigation bowl. Wider and more exploratory than F01, but not an open-world field and not a maze.
 
-## Design purpose
-This is the first area that asks the player to **read a situation**, not merely advance through encounters.
+Approximate nodes relative to the Wreck Field chunk:
+- entry `(0,+60)`;
+- survivor/wreck lobe `(−45,+20)`;
+- damaged convoy lobe `(+38,+12)`;
+- mandatory S002 Hound `( +5,−10)`;
+- evacuation evidence `(−28,−42)`;
+- suspicious northern-withdrawal sightline `(+30,−62)`;
+- Recovery-Line exit `(0,−70)`.
 
-It should feel wider and less linear than F01 without becoming an open-world field.
+Topology rule:
+> use a looped investigation bowl rather than three long dead ends.
 
-## Core shape
-A broad asymmetrical wreck basin with one obvious forward evacuation line and three readable investigation lobes.
+Required evidence must sit on or immediately beside the natural investigation loop. No pixel-hunting through wreck clutter.
 
-### Critical nodes
-
-| Node | Approx. X/Z | Function |
-|---|---|---|
-| F02-A | (0, +60) | arrival from Convoy Road |
-| F02-B | (−45, +20) | survivor/wreck lobe |
-| F02-C | (+38, +12) | damaged wagon/threat-reading lobe |
-| F02-D | (+5, −10) | mandatory Convoy Rift Hound encounter |
-| F02-E | (−28, −42) | evacuation-route evidence lobe |
-| F02-N | (+30, −62) | sightline toward suspicious northern withdrawal |
-| F02-X | (0, −70) | Recovery Line exit |
-
-## Topology
-
-```text
-                [B] survivor wrecks
-               / 
-ENTRY [A] ----+---- [D] hound pressure ---- [C] damaged convoy lobe
-               \          |
-                \         v
-                 [E] evacuation evidence
-                    \     /
-                     [N] north-withdrawal sightline
-                          |
-                          v
-                    RECOVERY LINE
-```
-
-This is a **looped investigation bowl**, not three dead-end corridors. The player may inspect B/C/E in different order while D controls the middle and the final exit remains visually understandable.
-
-## Northern withdrawal read
-At F02-N the player should be able to see a distant route cut/ridge opening oriented away from the civilian recovery path. Do not require a literal visible enemy army; the geometry should make the withdrawal direction legible through tracks, smoke, broken formation or distant silhouettes depending on final art/staging.
-
-## Wreck density
-- center: moderate debris, enough clear movement space;
-- B/C: denser wreck clusters;
-- E/X corridor: deliberately clearer so evacuation logic reads visually.
-
-## No hidden mandatory object rule
-Any required story evidence must lie on or immediately beside the natural investigation loop. Do not require pixel-hunting among wreck props.
+The north-withdrawal location is a **sightline/evidence read**, not the player's chapter-progression exit.
 
 ---
 
-# 7. CH00_F03 — Evacuation / Recovery Line
+# 6. CH00_F03 — Evacuation / Recovery Line
 
-## Envelope
-- width: **85 m**
-- length: **170 m**
-- elevation range: **0–9 m**
+Design: mostly linear recovery road with a widened relay yard and a decision overlook.
 
-## Design purpose
-This route proves why Cyanis refuses the unsound pursuit. The environment must visibly communicate:
-- wounded people moving slowly;
-- damaged convoy logistics;
-- limited safe staffing;
-- a real route to abandon if the party chases north.
+Approximate nodes:
+- entry `(0,+78)`;
+- damaged evacuation traffic `(+8,+35)`;
+- relay yard `(−12,0)`;
+- S003 decision overlook `(+14,−30)`;
+- protected recovery stretch `(0,−60)`;
+- camp seam `(0,−82)`.
 
-## Shape
-A mostly linear recovery road with one widened relay yard and one overlook/decision pocket.
+S003 spatial requirement:
+from the decision pocket, framing must communicate both:
+- the wounded/civilian recovery line toward camp;
+- the competing pursuit direction back toward the attack/withdrawal evidence.
 
-### Critical nodes
-
-| Node | Approx. X/Z | Function |
-|---|---|---|
-| F03-A | (0, +78) | entry from Wreck Field |
-| F03-B | (+8, +35) | evacuation traffic / damaged line |
-| F03-C | (−12, 0) | relay yard / civilians and wounded visible |
-| F03-D | (+14, −30) | S003 decision overlook |
-| F03-E | (0, −60) | protected recovery stretch |
-| F03-X | (0, −82) | Triage Camp seam |
-
-## Topology
-
-```text
-WRECK FIELD
-    |
- [A] recovery road
-    |
- [B] damaged convoy flow
-    |
- [C] relay yard ===== wounded/civilian activity
-      \
-       [D] command-decision overlook
-        |
-       [E] recovery stretch
-        |
-        v
-   TRIAGE CAMP
-```
-
-## S003 staging requirement
-The player/superior officer decision position at D should see both:
-- the recovery line continuing toward camp;
-- a partial/distant view back toward the northward pursuit direction.
-
-This lets the argument be spatially obvious rather than delivered in an abstract dialogue box.
-
-## Combat rule
-No combat trigger volumes in this scene.
+No combat trigger volumes belong in the S003 recovery-line sequence.
 
 ---
 
-# 8. CH00_F04 — Field Triage Camp
+# 7. CH00_F04 — Field Triage Camp
 
-## Envelope
-- width: **115 m**
-- depth: **95 m**
-- mostly level; max elevation change **4 m**
+Design: compact working medical camp, not a boss arena disguised as a hospital.
 
-## Design purpose
-Compact, human-scale decompression space that can transform into the final confrontation without making a medical camp feel like a boss arena.
+Approximate local zones:
+- arrival lane `(0,+40)`;
+- wounded/treatment `(−28,+8)`;
+- supply/Blue Warden work area `(+24,+5)`;
+- S004 Ilyra/Card focal pocket `(0,−10)`;
+- S005 defensive perimeter `(+8,−38)`;
+- east cut `(+45,−34)`;
+- S006 sweep departure `(0,−48)`.
 
-## Core zones
+Hard spatial rules:
+- S005 occurs on the **camp edge**;
+- treatment/supply zones remain protected no-combat spaces;
+- the enemy approach through the east cut is visible/understandable;
+- the surviving Soldier's withdrawal direction is eastward through that cut;
+- no battle spawn is placed among wounded civilians;
+- before S005, the perimeter reads as an ordinary defensible camp edge rather than an obvious boss circle.
 
-| Zone | Approx. X/Z | Function |
-|---|---|---|
-| F04-A | (0, +40) | arrival/check-in lane |
-| F04-B | (−28, +8) | wounded treatment tents |
-| F04-C | (+24, +5) | supplies / Blue Warden work area |
-| F04-D | (0, −10) | Ilyra / sealed Card S004 focal pocket |
-| F04-E | (+8, −38) | camp perimeter / S005 confrontation staging |
-| F04-F | (−15, −45) | Soldier withdrawal vector / aftermath visibility |
-| F04-X | (0, −52) | Brackenwall road transition |
-
-## Topology
-
-```text
-RECOVERY LINE
-     |
- [A] arrival lane
-   /     \
- [B]     [C]
- wounded  supplies / Warden activity
-    \     /
-      [D] Ilyra + Card focal space
-        |
-   camp lane / no combat
-        |
-      [E] perimeter confrontation
-       / \
- [F] withdrawal   [X] Brackenwall road
-```
-
-## S004 protection
-Before S005, E must read as an **ordinary camp perimeter/approach**, not a glowing obvious boss circle.
-
-The final encounter can stage there because it is the most defensible open edge of the camp, not because the camp was architected around a fight.
-
-## Medical-space firewall
-Do not place battle damage, enemy spawn points or aggressive encounter dressing inside B/C treatment spaces. S005 pressure reaches the perimeter; it does not turn wounded civilians into decorative combat obstacles.
-
-## Aftermath state
-After S005:
-- hostile staging props clear/disable;
-- Soldier withdrawal path remains visually readable;
-- camp returns to recovery activity;
-- Brackenwall exit becomes the strongest navigational cue.
+After victory, the camp remains active and damaged; it does not become celebratory or empty.
 
 ---
 
-# 9. Brackenwall Transition
+# 8. CH00_F03R — S006 Survivor Recovery Sweep
 
-Blueprint 001 does **not** design Brackenwall itself.
+This is a **bounded stateful reuse of the Recovery-Line visual/environment family**, attached after the camp scene. It is not an atlas node and should not receive its own permanent location label in final player-facing travel UI.
 
-For now F04-X ends at:
-- road crest / tree or wall occlusion;
-- transition trigger;
-- location card / load seam into future Brackenwall base map.
+First graybox local path from the camp:
+- sweep start `(0,−48)`;
+- wagon-line spur `(−18,−58)`;
+- tracks `(−36,−70)`;
+- wreck-marker limit `(−34,−86)`;
+- sweep-complete bend `(−12,−98)`;
+- Brackenwall handoff `(0,−108)`.
 
-Do not fake a one-off Chapter-0 Brackenwall strip that later has to be discarded.
+Hard rules:
+- **no combat**;
+- no chase branch beyond the wreck markers;
+- no supernatural discovery that competes with the Card mystery;
+- route should feel like a short recovery duty, not another adventure zone;
+- the player's task is to complete the bounded sweep and proceed toward Brackenwall.
+
+The first graybox uses this spur to reconcile:
+- S006's camp-opening dialogue;
+- the `PLAYER_CONTROLLED_SURVIVOR_SWEEP` presentation intent;
+- the macro route's Triage Camp → Brackenwall handoff.
 
 ---
 
-# 10. Pacing Targets
+# 9. Pacing Targets
 
-First-pass target excluding combat resolution and dialogue time:
+First-pass exploration targets, excluding combat resolution and dialogue:
 
-| Segment | First-time exploration target |
+| Segment | First-time target |
 |---|---:|
 | Convoy Road | 3–5 min |
 | Wreck Field | 4–6 min |
 | Recovery Line | 2–3 min |
-| Triage Camp | 3–5 min |
+| Triage Camp exploration/staging | 3–5 min |
+| S006 survivor sweep | 2–3 min |
 
-The route should feel authored and compact. Chapter 0 is a tutorial/prologue, not the place to establish huge labyrinthine field maps.
+Chapter 0 should remain authored and compact. It is a prologue/tutorial, not a large labyrinthine exploration chapter.
 
 ---
 
-# 11. Camera / HD-2D Test Plan
+# 10. Camera Comparison
 
-Do not lock final camera from the proof scene yet.
+The graybox exposes three provisional camera variants:
 
-For the first blockout, test these three camera variants using the same route:
+### A — proof-near
+- offset `(0,5.5,7.5)`
+- pitch `−25°`
+- FOV `60°`
 
-### Variant A — proof-near
-- offset: (0, 5.5, 7.5)
-- pitch: −25°
-- FOV: 60°
+### B — HD-2D test
+- offset `(0,6.5,8.5)`
+- pitch `−30°`
+- FOV `56°`
 
-### Variant B — slightly more authored HD-2D
-- offset: (0, 6.5, 8.5)
-- pitch: −30°
-- FOV: 55–58°
+### C — broader route readability
+- offset `(0,7.5,9.5)`
+- pitch `−34°`
+- FOV `54°`
 
-### Variant C — broader route readability
-- offset: (0, 7.5, 9.5)
-- pitch: −32° to −35°
-- FOV: 52–56°
-
-Evaluate:
+Validate on desktop and Android:
 - player silhouette readability;
 - foreground occlusion;
-- touch-control navigation on Android;
-- ability to read forks/loops without minimap;
-- whether environment scale feels too toy-like or too distant;
-- billboard sprite grounding in 3D scene lighting.
+- touch navigation;
+- fork/loop readability without assuming a minimap;
+- sprite grounding in 3D;
+- whether scene scale feels toy-like, cramped or too distant.
 
-No camera variant becomes canon until gameplay comparison.
-
----
-
-# 12. Collision / Navigation Rules
-
-- invisible collision should follow visible terrain/props whenever possible;
-- road shoulders may be walkable in limited depth but should not invite fake exploration miles beyond the authored route;
-- use terrain, wrecks, brush, embankments and camp structures to form believable soft boundaries;
-- avoid long naked invisible walls;
-- ensure no 1.8 m player capsule clips under foreground hero props;
-- preserve at least ~1 m lateral clearance beyond the player collision radius in narrow navigation spaces;
-- all required interactables must be reachable with touch movement without precision strafing.
+No camera becomes production canon from this document alone.
 
 ---
 
-# 13. Environment Kit Placeholder
+# 11. Collision and Boundary Rules
 
-Final style/materials are downstream of visual benchmark approval. The blockout should nevertheless reserve categories for:
+- visible terrain/props should explain collision whenever possible;
+- use ridges, wrecks, brush, embankments and camp structures instead of long naked invisible walls;
+- route shoulders may be walkable, but should not imply miles of fake exploration;
+- required interactions must be touch-friendly and not require precision strafing;
+- preserve comfortable clearance for a 1.8-unit player capsule;
+- if the player falls outside the provisional graybox, the test scene may reset them; final maps must solve boundaries naturally.
 
-### Westways convoy route kit
-- packed dirt / worn military road;
-- exposed stone/earth banks;
-- scrub/grass clusters;
-- sparse trees/branches;
-- Crown/Yahtrean convoy markers;
-- wagons/crates/canvas/logistics props.
+---
 
-### Wreck-state kit
+# 12. Environment Kit Reservation
+
+Final environment art is downstream of the current visual benchmark pipeline. Blockout should reserve reusable categories only:
+
+### Westways route
+- packed dirt / worn convoy road;
+- stone/earth banks;
+- scrub, grouped grass and sparse trees;
+- Yahtrean convoy markers;
+- wagon/crate/canvas logistics props.
+
+### Wreck state
 - broken wagon variants;
 - scattered cargo;
-- scorch/battle damage decals or meshes;
+- authored scorch/battle damage;
 - damaged route markers;
-- survivor shelter props.
+- survivor shelter/recovery props.
 
-### Triage kit
-- canvas medical tents;
+### Triage state
+- medical tents;
 - stretchers/cots;
 - supply tables/crates;
-- Blue Warden medical identifiers;
-- field lanterns / restrained magical-medical focal props where later approved.
+- Blue Warden identifiers;
+- field lighting;
+- restrained protective-geometry event VFX socket.
 
-Do not use current provisional stone/foliage texture boards as final GOLD style authority.
+Do **not** use the provisional stone/foliage benchmark boards as final GOLD authority.
 
 ---
 
-# 14. External AI / Scene-Builder Handoff
+# 13. External AI / Scene-Builder Handoff
 
-An external builder receives:
-- this blueprint;
-- a simple top-down blockout image exported from the coordinates above;
-- current world/region visual authority;
-- approved visual benchmarks once available;
-- collision and transition requirements;
-- exact story-event sockets.
+An external environment builder eventually receives:
+1. this blueprint;
+2. approved graybox/topology export;
+3. entrances/exits and transition seams;
+4. story-event sockets;
+5. required sightlines;
+6. no-combat/protected zones;
+7. current Diyse visual benchmarks;
+8. negative constraints;
+9. Godot/export assumptions.
 
-## Required preservation
-The builder may beautify and optimize but must preserve:
-- four-scene order;
+The builder may beautify/construct but must preserve:
 - encounter order;
 - Wreck Field investigation loop;
-- northern-withdrawal sightline;
-- S003 recovery-line spatial logic;
-- camp medical-zone protection;
-- final confrontation at camp perimeter;
-- Brackenwall as a separate future persistent base map.
+- north-withdrawal sightline;
+- S003 recovery-line logic;
+- medical-zone protection;
+- S005 camp-edge/east-cut staging;
+- S006 bounded no-combat survivor sweep;
+- Brackenwall as a separate persistent base map.
 
-## Forbidden changes
-Do not:
-- invent a river, castle, giant bridge or other major geography not supported by current world authority;
-- turn Wreck Field into a maze;
-- create mandatory platforming;
-- add permanent quest nodes not in Chapter 0;
-- make wounded civilians part of the combat arena;
-- make the suspicious northern route the player progression route;
-- build final art before the relevant visual benchmark set is approved.
+Forbidden:
+- unsupported major geography;
+- maze conversion;
+- mandatory platforming;
+- new permanent quest nodes;
+- wounded civilians as combat obstacles;
+- making the suspicious north route the critical path;
+- turning S006 into another hostile route;
+- final environment art before relevant visual benchmarks are approved.
 
 ---
 
-# 15. Approval Gates for Blueprint 001
+# 14. Promotion Gates to L3
 
-Before promoting this to L3:
+Before Blueprint 001 becomes build-ready locked topology:
+1. load the graybox successfully in Godot;
+2. verify generated F01/F02/F03/F04/F03R geometry and marker sockets;
+3. test route seams;
+4. test Android touch movement;
+5. compare camera A/B/C;
+6. test Wreck Field readability without relying on a minimap;
+7. measure traversal pacing;
+8. verify S003, S005 and S006 staging against exact dialogue;
+9. verify no world-map/geography contradiction;
+10. revise dimensions/topology from playtest evidence;
+11. explicitly approve the resulting topology;
+12. only then promote to L3 and prepare final environment-generation handoff.
 
-1. create graybox CH00_F01–F04 in Godot or a compatible 3D blockout tool;
-2. test all transition seams;
-3. test movement on Android touch controls;
-4. compare camera variants A/B/C;
-5. test Wreck Field route readability without a minimap;
-6. verify pure traversal/pacing targets;
-7. confirm story/cutscene event sockets are large enough;
-8. confirm no route geometry contradicts world/story authority;
-9. revise coordinates/dimensions from playtest evidence;
-10. only then lock the final topology and produce the environment-generation packet.
-
-## Next production action
-> **Build the Chapter-0 graybox from this blueprint.**
+## Immediate next production action
+> **Validate and play the Chapter-0 graybox, then revise Blueprint 001 from actual traversal evidence.**
