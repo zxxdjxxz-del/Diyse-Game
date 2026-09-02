@@ -4,18 +4,29 @@ This folder is the canonical repository location for the current approved source
 
 These files are source/reference masters, not runtime deployable assets. Derived in-game exports should be placed under the runtime asset structure when created.
 
-## Current master filenames
+For the complete visual-authority hierarchy, permanent-party classification, redraw rules, and lock-document index, use [`docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md).
 
-- `nimera.jpg`
+## Authority rule
+
+The image files in this folder are the **exact current visual source of truth**. If an older render, generated filename, historical hash, archived description, or prose detail conflicts with a current master, the current master image wins until the user explicitly replaces it.
+
+## Permanent party masters
+
 - `cyanis.jpg`
-- `torren.jpg`
-- `vaelira.jpg`
 - `ilyra.jpg`
+- `torren.jpg`
+- `nimera.jpg`
+- `vaelira.jpg`
 - `seyrik.jpg`
+
+## Supporting character masters
+
 - `maevra.jpg`
 - `kessara.png`
 
-Canonical filenames use the characters' actual names only. No surnames are added.
+Maevra and Kessara have authoritative current visual masters but are not part of the permanent six-character party.
+
+Canonical filenames use the characters' actual names only. Do not infer or add surnames that are not explicitly canonical.
 
 The seven original supplied master uploads use `.png` filenames externally but contain JPEG/JFIF image data, so their canonical repository filenames use the `.jpg` extension without re-encoding. Kessara's current master is a native PNG and remains `kessara.png`.
 
@@ -25,14 +36,14 @@ Each current image master has a corresponding authority document under `docs/14_
 
 - `cyanis.jpg` → [`CYANIS_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/CYANIS_CURRENT_VISUAL_LOCK.md)
 - `ilyra.jpg` → [`ILYRA_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md)
-- `nimera.jpg` → [`NIMERA_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/NIMERA_CURRENT_VISUAL_LOCK.md)
-- `seyrik.jpg` → [`SEYRIK_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/SEYRIK_CURRENT_VISUAL_LOCK.md)
 - `torren.jpg` → [`TORREN_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/TORREN_CURRENT_VISUAL_LOCK.md)
+- `nimera.jpg` → [`NIMERA_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/NIMERA_CURRENT_VISUAL_LOCK.md)
 - `vaelira.jpg` → [`VAELIRA_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/VAELIRA_CURRENT_VISUAL_LOCK.md)
+- `seyrik.jpg` → [`SEYRIK_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/SEYRIK_CURRENT_VISUAL_LOCK.md)
 - `maevra.jpg` → [`MAEVRA_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/MAEVRA_CURRENT_VISUAL_LOCK.md)
 - `kessara.png` → [`KESSARA_CURRENT_VISUAL_LOCK.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/KESSARA_CURRENT_VISUAL_LOCK.md)
 
-The repository image is the operational image source of truth. The corresponding visual-lock document records the identity, design constraints, and prohibited regressions for derivatives and runtime translation.
+The repository image controls exact appearance. The corresponding visual-lock document records identity/design intent, derivative constraints, and prohibited regressions.
 
 ## Integrity fingerprints for the 2026-09-02 master set
 
