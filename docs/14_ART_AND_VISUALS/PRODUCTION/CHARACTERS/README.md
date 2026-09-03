@@ -42,7 +42,8 @@ Maevra and Kessara have current authoritative visual masters but are **not part 
 Current masters are now the source layer for purpose-specific derivatives; derivatives never become replacement identity masters.
 
 Portrait production is controlled by:
-[`PORTRAIT_DERIVATIVE_PIPELINE.md`](PORTRAIT_DERIVATIVE_PIPELINE.md)
+- [`PORTRAIT_DERIVATIVE_PIPELINE.md`](PORTRAIT_DERIVATIVE_PIPELINE.md) — derivative rules and runtime handoff;
+- [`PORTRAIT_PRODUCTION_MANIFEST.md`](PORTRAIT_PRODUCTION_MANIFEST.md) — current source readiness and approved derivative tracking.
 
 Source/output lanes:
 - `asset_sources/characters/derivatives/dialogue/` — dialogue portrait/bust derivatives;
