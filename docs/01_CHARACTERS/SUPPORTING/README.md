@@ -1,12 +1,12 @@
 # Supporting Characters
 
-This folder contains supporting-character biography/personality/relationship authorities.
+This folder contains supporting-character biography/personality/relationship authorities plus a small amount of legacy compatibility routing.
 
-Two current supporting characters also belong to the exact repository visual-master set:
-- `Maevra.md`
-- `Kessara.md`
+Current established supporting authority in this folder includes Maevra and the other specifically established supporting characters. Maevra also belongs to the exact repository visual-master set at `asset_sources/characters/current/maevra.jpg`.
 
-Do not recreate their deleted surname-bearing migration filenames. Their current visual masters are `asset_sources/characters/current/maevra.jpg` and `asset_sources/characters/current/kessara.png`.
+`Kessara.md` remains in this directory as a **legacy compatibility path**, not as proof of Kessara's current story classification. Kessara has an exact repository visual master at `asset_sources/characters/current/kessara.png`, is not part of the permanent six, and otherwise requires current explicit authority before a story/party role is asserted.
+
+Do not recreate deleted surname-bearing migration filenames for Maevra or Kessara.
 
 Other supporting-character names in this folder—including established royal-family, Edda Harth, and Talia Rell records—are separate authorities and are **not** automatically changed by the Maevra/Kessara naming correction.
 
