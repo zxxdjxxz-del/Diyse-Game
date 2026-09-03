@@ -14,7 +14,7 @@ Use:
 
 Do not restore surnames from superseded migration files.
 
-For the two current supporting visual masters, use **Maevra** and **Kessara** without restoring retired migration surnames.
+For the two additional current visual masters outside the permanent six, use **Maevra** and **Kessara** without restoring retired migration surnames. Maevra is established supporting/recurring allied command. Kessara's exact story role/status is not established by visual-master membership or legacy folder placement.
 
 This does not alter unrelated established supporting-character names such as Edda Harth or Talia Rell.
 
@@ -64,10 +64,15 @@ Current:
 Older ages 38 and 34 are retired.
 
 ## Kessara
-Current:
-> major recurring **nonplayable** supporting character
+Currently established here:
+- name **Kessara** with no restored migration surname;
+- not part of the permanent six-character party;
+- current exact visual master exists;
+- current visual/body authority is owned by `14_ART_AND_VISUALS`, including approximately **5'0"** and clearly adult proportions.
 
-Current visual/body shorthand includes approximately **5'0"**, clearly adult proportions. Do not restore older seventh-party-member interpretations or the superseded 4'4" note.
+Do **not** restore the superseded 4'4" visual note or older seventh-party-member interpretations.
+
+Do **not** treat older claims that Kessara is a major recurring nonplayable supporting character—or claims about profession, origin, workshop/family history, services, or party participation—as current merely because they appear in retired character documents. Those story/biography fields require current explicit authority.
 
 ## Antagonist status corrections
 - Varkesh visual is **LOCKED** by later authority; older "visual OPEN" notes are stale.
