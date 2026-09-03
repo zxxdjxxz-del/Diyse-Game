@@ -18,6 +18,10 @@ Intentionally unresolved / not to be guessed:
 - exact professional qualification ages for playable characters
 - exact physical/magical mechanism by which the sole Entity fragment survived the ancient Last Weapon
 - any unverified playable childhood/family fact not already present in controlling character authority
+- Kessara's exact story role/status beyond the established fact that she is not part of the permanent six-character party
+- Kessara's numeric age, profession, origin, faction, family/workshop history, relationship map, party/guest/nonplayable classification, and gameplay-service functions unless re-established by newer explicit authority
+
+Kessara's current visual master and visual lock may establish appearance facts such as adult presentation and approximate visual scale; they do not establish the unresolved story/biography fields above.
 
 Open does not mean "fill in later from intuition."
 It means wait for an explicit recovery or approval.
