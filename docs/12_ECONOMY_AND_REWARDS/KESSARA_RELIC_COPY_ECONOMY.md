@@ -1,6 +1,7 @@
-# Diyse — Kessara Relic-Copy Economy
+# Diyse — Relic-Copy Economy
 
-**Status:** EXACT SERVICE-FEE AUTHORITY
+**Status:** EXACT SERVICE-FEE AUTHORITY  
+**Compatibility note:** this file retains its historical `KESSARA_RELIC_COPY_ECONOMY.md` path so existing links do not break. The current economy rule does **not** by itself assign the service-provider role to Kessara.
 
 The Relic-copy mechanic itself is owned by `08_ITEMS_AND_EQUIPMENT/RELICS/RELIC_COPY_RULES.md`.
 
@@ -14,10 +15,12 @@ Current mechanical requirements remain:
 - donor access does not create a copy.
 
 ## Exact service fee
-Kessara charges:
+The current Relic-copy service fee is:
 > **6,000 G per successful Relic-copy forge**
 
 This is the tenfold-display synchronization of the established flat service fee. It is flat across all Relic identities and all chapters once the service is available.
+
+**Provider boundary:** the exact character/NPC/provider who operates this service is not established by this economy file. Do not attribute the fee or service to Kessara unless her story/gameplay role is explicitly re-established by current character authority.
 
 ## Why the fee is flat
 The scarce Forge Component is the primary progression/build gate.
@@ -56,6 +59,7 @@ of optional service spending.
 This is a deliberate late/completionist G sink and helps keep optional Hunt/Elite/quest income economically meaningful.
 
 ## Still open outside the fee
+- exact service-provider identity / character integration;
 - exact menu unlock/presentation timing;
 - exact original-vs-copy UI labeling where needed;
 - final physical pickup presentation for every Forge Component.
