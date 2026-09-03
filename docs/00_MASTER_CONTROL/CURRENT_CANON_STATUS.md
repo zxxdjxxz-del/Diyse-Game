@@ -127,9 +127,8 @@ Other economy locks:
 - protected/nonlethal resolution does **not** default to 0 G;
 - Regional and Major Hunts receive strong G regardless of separate permanent rewards;
 - 38-item registered ordinary-equipment catalog value = **251,000 G**;
-- Relic-copy service fee = **6,000 G per successful copy**;
+- Kessara Relic-copy fee = **6,000 G per successful copy**;
 - all 18 current copy opportunities = **108,000 G** maximum service spend;
-- exact Relic-copy service-provider/character integration is **OPEN** and must not be assigned to Kessara solely from legacy filenames or migration text;
 - ordinary enemies have no random Consumable/equipment/material/vendor-trash economy;
 - exactly **9 Regional Markets**.
 
@@ -176,7 +175,6 @@ Current canon beats proof runtime. See:
 ## Current open areas
 - story-owned special-enemy placement/timing dependencies explicitly left unresolved;
 - Chapters 5–13 exact dialogue where not yet line-complete;
-- Kessara's exact story/party role, biography fields, and any character-specific Relic-copy/service integration not yet re-established by current explicit authority;
 - production implementation reconciliation;
 - final production UI/readability validation;
 - final audio/music completion and mix validation;
@@ -186,4 +184,4 @@ Current canon beats proof runtime. See:
 
 The former mandatory-route enemy-difficulty recalibration sequence is not listed here as an open master-queue item because it is being handled through a different process.
 
-The core G economy/reward design is **CLOSED** and is not an open-gap item unless later playtest evidence or an explicit design revision reopens it. The provider identity for the Relic-copy service is a character/story integration question and does not reopen the 6,000-G economy value.
+The core G economy/reward design is **CLOSED** and is not an open-gap item unless later playtest evidence or an explicit design revision reopens it.

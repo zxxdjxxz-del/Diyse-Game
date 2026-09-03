@@ -21,12 +21,12 @@ Never overwrite/resave these masters as part of crop, transparency, expression, 
 - `vaelira.jpg`
 - `seyrik.jpg`
 
-## Additional current masters
+## Supporting character masters
 
 - `maevra.jpg`
 - `kessara.png`
 
-Maevra is a supporting/recurring allied-command character. Kessara has a current authoritative visual master; this asset index does not assert a story role for her. Neither is part of the permanent six-character party.
+Maevra and Kessara have authoritative current visual masters but are not part of the permanent six-character party.
 
 Canonical filenames use the characters' actual names only. Do not infer or add surnames that are not explicitly canonical.
 

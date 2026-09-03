@@ -18,9 +18,6 @@ Intentionally open / do not guess:
 9. Exact physical/magical/structural mechanism by which the sole Entity fragment survived the ancient Last Weapon.
 10. Detailed Chapter-11 Calder/Custodian dialogue.
 11. Detailed Chapter-12/13 macro-scene subdivision beyond current retained S### anchors unless later promoted.
-12. Kessara's exact story role/status, biography integration, chapter participation, relationships, profession/origin/faction placement, and any character-specific Relic-copy/service assignment. Her current visual master does not resolve these story questions.
-
-Kessara is established as **not part of the permanent six-character party**. Do not infer a more specific playable/nonplayable/supporting/guest/service role from legacy folder placement, old migration text, or proof-runtime naming.
 
 OPEN means:
 > wait for explicit recovery/approval, not fill from intuition.

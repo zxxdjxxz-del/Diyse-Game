@@ -41,9 +41,7 @@ Current files:
 
 Do **not** infer or restore surnames for the permanent six from superseded migration files.
 
-Maevra is supporting/recurring allied command and is never a seventh permanent member. Kessara is also not part of the permanent six, but her exact story role/status is not currently asserted by this index. Their compatibility files remain `SUPPORTING/Maevra.md` and `SUPPORTING/Kessara.md`; do not restore retired migration surnames for either.
-
-The physical location of `Kessara.md` under the legacy `SUPPORTING/` directory does not itself classify her story role. Use that file's current authority boundary rather than older migration content.
+Maevra is recurring/temporary/guest where authored and is never a seventh permanent member. Kessara is a major recurring **nonplayable** supporting character. Their current files are `SUPPORTING/Maevra.md` and `SUPPORTING/Kessara.md`; do not restore retired migration surnames for them either.
 
 ## Cross-domain current authority
 - roster/name/biography authority: this folder;

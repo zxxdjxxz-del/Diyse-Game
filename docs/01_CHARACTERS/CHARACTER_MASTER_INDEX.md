@@ -20,8 +20,9 @@ No permanent character uses a Subclass before **Sixfold Volition at the end of C
 
 Exact class/Face mechanics are owned by `06_CLASSES_AND_ABILITIES` and `07_CARDS`; this table is identity shorthand and should be synchronized whenever those current labels change.
 
-## Established recurring/supporting characters
+## Major recurring supporting characters
 - Maevra
+- Kessara
 - Queen Lysara Ceryth
 - Crown Princess Mirena Ceryth
 - Prince Alaric Ceryth
@@ -30,13 +31,7 @@ Exact class/Face mechanics are owned by `06_CLASSES_AND_ABILITIES` and `07_CARDS
 - Talia Rell
 - Edda Harth
 
-Maevra has a current exact visual master under `asset_sources/characters/current/`. Do not infer a surname for her from retired migration files.
-
-## Additional current visual-master character
-
-- Kessara — current exact visual master exists; exact story role/status is not asserted by this index and requires current explicit authority before classification.
-
-Kessara is not part of the permanent six. Do not infer a surname or revive older story-role claims from retired migration material merely because `SUPPORTING/Kessara.md` remains in a legacy folder.
+Maevra and Kessara also have current exact visual masters under `asset_sources/characters/current/`. Do not infer surnames for either from retired migration files.
 
 ## Major antagonists
 - Commander Rhazek
@@ -54,6 +49,6 @@ Kessara is not part of the permanent six. Do not infer a surname or revive older
 - `PLAYABLE/Vaelira.md`
 - `PLAYABLE/Seyrik.md`
 
-## Current additional character files
-- `SUPPORTING/Maevra.md` — established supporting/recurring authority.
-- `SUPPORTING/Kessara.md` — compatibility path; current story-role boundary is intentionally conservative.
+## Current supporting master files
+- `SUPPORTING/Maevra.md`
+- `SUPPORTING/Kessara.md`

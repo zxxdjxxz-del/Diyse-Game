@@ -56,11 +56,9 @@ Current permanent-party masters:
 - Vaelira;
 - Seyrik.
 
-Additional current masters in the same repository set:
-- Maevra — supporting/recurring allied command;
-- Kessara — current authoritative visual master; no story role is asserted by this visual routing document.
-
-Neither Maevra nor Kessara is part of the permanent six-character party.
+Current supporting masters in the same repository set:
+- Maevra;
+- Kessara.
 
 Do not infer surnames for these eight from retired migration filenames or older art documents.
 

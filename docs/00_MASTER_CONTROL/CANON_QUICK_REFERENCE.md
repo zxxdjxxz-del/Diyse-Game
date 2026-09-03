@@ -155,10 +155,8 @@ Premium Consumables:
 - Emergency Rally — **15,000 G**
 - **1 of each per Consumable-selling shop from first access; no automatic restock**
 
-Relic-copy service fee:
+Kessara Relic-copy fee:
 > **6,000 G per successful copy**
-
-Provider/character integration for the Relic-copy service is currently **OPEN**; do not assign it to Kessara solely from legacy filenames or older migration text.
 
 ## Progression
 Player cap:

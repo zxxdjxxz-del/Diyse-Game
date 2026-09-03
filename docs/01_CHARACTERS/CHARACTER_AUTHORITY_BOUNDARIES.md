@@ -20,7 +20,6 @@ Current examples:
 - Sixfold Accord is retired as the party-unlock term; use **Sixfold Volition**.
 - Synthesis is removed.
 - detailed visual descriptions are referenced, not duplicated here; current repository image masters control exact appearance where available.
-- Kessara's current visual master does **not** by itself validate older biography/story claims. Her exact story role/status and related biography fields require current explicit authority before older migration assertions are promoted.
 
 ## Name boundary
 Current first-name-only authority applies to:
@@ -44,8 +43,7 @@ Do not infer:
 - professional qualification ages;
 - unapproved romances;
 - hidden ancient knowledge;
-- moral absolution from coercive childhoods or supernatural influence;
-- Kessara's story/party classification, profession, origin, family/workshop history, gameplay-service role, or other biography fields merely from legacy folder placement or older migration text.
+- moral absolution from coercive childhoods or supernatural influence.
 
 ## Dialogue boundary
 A character file may define cadence, humor, emotional habits, formality, and what the character tends to notice. It should not become a dialogue-script repository.
