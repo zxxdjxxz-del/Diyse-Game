@@ -61,7 +61,8 @@ High-impact engineering work:
 - replace proof equipment/item content with current production fixtures;
 - implement current Prime persistent-spend/restoration behavior;
 - build production save schema/migrations;
-- build production menus/combat UI/loadout UI/shop stock and Kessara UI;
+- build production menus/combat UI/loadout UI/shop stock and Relic-copy service UI;
+- keep exact Relic-copy service-provider/character integration separate until current character authority establishes it;
 - preserve stable IDs or provide save-safe migration where technical names change.
 
 ## Priority 5 — Visual production / style certification — ACTIVE
@@ -75,6 +76,8 @@ The B00 character identity/master setup is no longer an unresolved repository ga
 - exact source masters live in `asset_sources/characters/current/`.
 
 Do **not** reopen character identity from older render/prose material merely because later production stages remain active.
+
+Kessara's visual-master status does not establish her unresolved story/party classification.
 
 Remaining visual-production work includes downstream runtime translation/certification and the relevant B01–B11 environment/material/VFX approvals. Do not bulk-convert the environment/material library until the applicable benchmark certification is coherent at gameplay scale.
 
@@ -102,7 +105,10 @@ Current final soundtrack:
 > **entirely OPEN**
 
 ## Intentionally open story/lore details
-Keep explicitly bounded unknowns unresolved until separately approved, including the sole Entity-fragment survival mechanism and other owner-file items explicitly marked OPEN.
+Keep explicitly bounded unknowns unresolved until separately approved, including:
+- the sole Entity-fragment survival mechanism;
+- Kessara's exact story/party role, biography fields, profession/origin/faction/family details, and any character-specific Relic-copy/service assignment;
+- other owner-file items explicitly marked OPEN.
 
 ## Retired work-routing note — mandatory enemy difficulty pass
 The former mandatory-route difficulty recalibration sequence is **not an active priority in this index anymore**.
@@ -126,12 +132,13 @@ Current anchors:
 - authored optional direct G = **329,600 G**;
 - broad completionist direct-cash reference = **~646,500 G**;
 - chapter-by-chapter mandatory-route liquidity validation = **PASS**;
-- Kessara = **6,000 G per successful Relic copy**;
+- Relic-copy service fee = **6,000 G per successful copy**;
+- exact Relic-copy service-provider identity remains a separate open character/story integration question;
 - premium Consumables = 1 of each per Consumable-selling shop from first access, no automatic restock;
 - protected/nonlethal resolution does not default to 0 G;
 - Hunts pay strong G regardless of separate permanent rewards.
 
-Do not list the economy as an open numeric gap unless later playtest evidence or an explicit user revision reopens it.
+Do not list the economy as an open numeric gap unless later playtest evidence or an explicit user revision reopens it. The open provider identity does not reopen the closed 6,000-G fee.
 
 ## Rule
 Do not use this index to silently reopen a closed owner-domain rule.
