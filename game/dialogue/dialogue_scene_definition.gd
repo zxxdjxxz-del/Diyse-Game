@@ -7,14 +7,6 @@ const ALLOWED_ACTIVE_SIDES := ["left", "right", "none"]
 const ALLOWED_ADVANCE_MODES := ["manual"]
 const FORBIDDEN_BRANCH_KEYS := ["choices", "responses", "branches", "dialogue_choices", "affinity_options", "tone_options"]
 
-# Exact legacy spoken-text migrations are deliberately narrow. They exist so
-# line-complete Resources authored before a terminology correction cannot leak
-# retired current-facing terms while those large generated Resources await a
-# clean regeneration from their controlling Markdown source.
-const CURRENT_DIALOGUE_TEXT_MIGRATIONS := {
-	"Might. Elements. Grace. Acuity. Change. Ruin.": "Might. Elements. Grace. Perception. Memory. Ruin."
-}
-
 @export var schema_version: int = SCHEMA_VERSION
 @export var scene_id: String = ""
 @export var chapter_id: String = ""
@@ -35,7 +27,6 @@ const CURRENT_DIALOGUE_TEXT_MIGRATIONS := {
 @export var beats: Array[Dictionary] = []
 
 func validate_schema(registry: DiyseDialoguePortraitRegistry = null) -> Array[String]:
-	_normalize_current_dialogue_text_in_place()
 	var failures: Array[String] = []
 	if schema_version != SCHEMA_VERSION:
 		failures.append("Unsupported dialogue scene schema version: %d" % schema_version)
@@ -99,7 +90,6 @@ func presentation_metadata() -> Dictionary:
 	}
 
 func to_runner_beats(registry: DiyseDialoguePortraitRegistry) -> Array[Dictionary]:
-	_normalize_current_dialogue_text_in_place()
 	var result: Array[Dictionary] = []
 	for beat in beats:
 		var left_value = beat.get("left", {})
@@ -122,14 +112,6 @@ func to_runner_beats(registry: DiyseDialoguePortraitRegistry) -> Array[Dictionar
 			"cues": cues.duplicate(true)
 		})
 	return result
-
-func _normalize_current_dialogue_text_in_place() -> void:
-	for i in range(beats.size()):
-		var beat: Dictionary = beats[i]
-		var text := str(beat.get("text", ""))
-		if CURRENT_DIALOGUE_TEXT_MIGRATIONS.has(text):
-			beat["text"] = str(CURRENT_DIALOGUE_TEXT_MIGRATIONS[text])
-			beats[i] = beat
 
 func _validate_portrait_slot(value: Variant, slot_name: String, prefix: String, registry: DiyseDialoguePortraitRegistry, failures: Array[String]) -> void:
 	if not (value is Dictionary):

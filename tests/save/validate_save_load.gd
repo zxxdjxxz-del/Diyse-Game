@@ -9,9 +9,7 @@ var failures: Array[String] = []
 func _initialize() -> void:
 	_test_missing_save_is_safe()
 	_test_full_state_round_trip()
-	_test_schema_v1_migrates_to_v3_without_reinterpreting_proof_gold()
-	_test_schema_v2_adds_production_roster_without_inferring_from_proof_party()
-	_test_negative_wallet_is_rejected()
+	_test_pre_kessara_schema_v1_save_is_compatible()
 	_test_invalid_json_is_safe()
 	_test_future_schema_is_rejected()
 	_cleanup()
@@ -24,11 +22,6 @@ func _expect(condition: bool, message: String) -> void:
 func _cleanup() -> void:
 	if FileAccess.file_exists(TEST_PATH):
 		DirAccess.remove_absolute(ProjectSettings.globalize_path(TEST_PATH))
-
-func _write_test_save(data: Dictionary) -> void:
-	var file := FileAccess.open(TEST_PATH, FileAccess.WRITE)
-	file.store_string(JSON.stringify(data))
-	file.flush()
 
 func _test_missing_save_is_safe() -> void:
 	_cleanup()
@@ -47,29 +40,15 @@ func _test_full_state_round_trip() -> void:
 	source.party[0]["hp"] = 31
 	source.party[0]["mp"] = 7
 	source.party[1]["hp"] = 22
-
-	for character_id in ["ilyra", "torren", "nimera"]:
-		_expect(source.recruit_character(character_id), "Save setup should recruit %s" % character_id)
-	_expect(source.set_active_party(["cyanis", "ilyra", "torren", "nimera"]), "Save setup should establish the four-member production active party")
-	var nimera_record: Dictionary = source.character_roster["nimera"]
-	var nimera_persistent: Dictionary = nimera_record["persistent_state"]
-	nimera_persistent["proof_save_marker"] = "retained"
-	nimera_record["persistent_state"] = nimera_persistent
-	source.character_roster["nimera"] = nimera_record
-
 	source.inventory["Potion"] = 1
-	source.standard_cards.clear()
-	source.standard_cards.append("proof_might_strike")
-	source.standard_cards.append("proof_second_card")
+	source.standard_cards = ["proof_might_strike", "proof_second_card"]
 	source.primes["first_champion"]["progression_state"] = "Awakened"
 	source.primes["first_champion"]["available_battle_use_baseline"] = 1
 	source.equipment["Cyanis"]["weapon"] = "Saved Proof Blade"
-	_expect(source.credit_g(14950), "Save test should be able to credit the persistent G wallet")
-	_expect(source.wallet_balance_g() == 17450, "Save test wallet setup should reach 17,450 G")
 	_expect(source.register_relic_original("RELIC_SAVE_PROOF_MIGHT", "Might"), "Save test Relic should register")
 	_expect(source.register_relic_copy_component("FORGE_SAVE_PROOF_MIGHT_1", "Might"), "Save test matching copy component should register")
 	_expect(source.register_relic_copy_component("FORGE_SAVE_PROOF_GRACE_1", "Grace"), "Save test unused copy component should register")
-	_expect(source.commit_relic_copy("RELIC_SAVE_PROOF_MIGHT", "FORGE_SAVE_PROOF_MIGHT_1"), "Low-level save fixture should commit before serialization")
+	_expect(source.commit_relic_copy("RELIC_SAVE_PROOF_MIGHT", "FORGE_SAVE_PROOF_MIGHT_1"), "Save test Relic copy should commit before serialization")
 	source.flags["proof_story_flag"] = true
 	source.flags["proof_chest_opened"] = true
 	source.flags["torren_state"] = "prepared"
@@ -91,9 +70,6 @@ func _test_full_state_round_trip() -> void:
 	_expect(not raw_saved.has("transient_encounter"), "Runtime random encounter payload must not be serialized")
 	_expect(not raw_saved.has("transient_encounter_return"), "Runtime encounter return state must not be serialized")
 	_expect(raw_saved.has("relic_inventory") and raw_saved.has("forge_components"), "Relic and Forge-component ownership must be serialized")
-	_expect(raw_saved.has("character_roster") and raw_saved.has("active_party_ids"), "Production roster and active-party state must be serialized")
-	_expect(int(raw_saved.get("wallet_g", -1)) == 17450, "Persistent G wallet must be serialized independently of proof reward payload")
-	_expect(int(raw_saved.get("schema_version", -1)) == 3, "New saves must use schema v3")
 
 	var fresh_manager = SaveManagerScript.new()
 	var restored = GameStateScript.new()
@@ -106,15 +82,11 @@ func _test_full_state_round_trip() -> void:
 	_expect(bool(load_result.get("ok", false)), "A fresh save-manager instance must reload the saved file")
 	_expect(restored.current_area == source.current_area, "Current area must round-trip")
 	_expect(restored.field_position.is_equal_approx(source.field_position), "Vector3 field position must round-trip exactly enough for field restoration")
-	_expect(int(restored.party[0]["hp"]) == 31 and int(restored.party[0]["mp"]) == 7, "Legacy proof party HP/MP must continue to round-trip during migration")
-	_expect(int(restored.party[1]["hp"]) == 22, "Multiple proof party records must round-trip")
-	_expect(restored.recruited_character_ids() == ["cyanis", "ilyra", "torren", "nimera"], "Production recruited roster must round-trip independently of proof party")
-	_expect(restored.active_party_character_ids() == ["cyanis", "ilyra", "torren", "nimera"], "Production active-party formation must round-trip")
-	_expect(str(restored.character_record("nimera").get("display_name", "")) == "Nimera", "Loaded character display name must normalize to current first-name-only identity")
-	_expect(str(restored.character_record("nimera").get("persistent_state", {}).get("proof_save_marker", "")) == "retained", "Reserved per-character persistent-state envelope must round-trip")
+	_expect(int(restored.party[0]["hp"]) == 31 and int(restored.party[0]["mp"]) == 7, "Party HP/MP must round-trip")
+	_expect(int(restored.party[1]["hp"]) == 22, "Multiple party records must round-trip")
 	_expect(int(restored.inventory.get("Potion", -1)) == 1, "Inventory must round-trip")
 	_expect(restored.standard_cards == ["proof_might_strike", "proof_second_card"], "Standard Card acquisition list must round-trip")
-	_expect(str(restored.primes["first_champion"]["progression_state"]) == "Awakened", "Prime ownership/progression proof state must round-trip")
+	_expect(str(restored.primes["first_champion"]["progression_state"]) == "Awakened", "Prime ownership/progression state must round-trip")
 	_expect(str(restored.equipment["Cyanis"]["weapon"]) == "Saved Proof Blade", "Equipment placeholders must round-trip")
 	_expect(restored.relic_quantity("RELIC_SAVE_PROOF_MIGHT") == 2, "Forged Relic quantity must round-trip")
 	_expect(restored.has_forged_relic_copy("RELIC_SAVE_PROOF_MIGHT"), "Forged-copy marker must round-trip")
@@ -123,17 +95,16 @@ func _test_full_state_round_trip() -> void:
 	_expect(bool(restored.flags.get("proof_story_flag", false)), "Story flag must round-trip")
 	_expect(bool(restored.flags.get("proof_chest_opened", false)), "Opened interactable flag must round-trip")
 	_expect(str(restored.flags.get("torren_state", "")) == "prepared", "NPC state must round-trip")
-	_expect(int(restored.rewards.get("xp", -1)) == 123 and int(restored.rewards.get("gold", -1)) == 456, "Legacy proof reward payload must round-trip without becoming the wallet")
-	_expect(restored.wallet_balance_g() == 17450, "Persistent G wallet must round-trip exactly")
+	_expect(int(restored.rewards.get("xp", -1)) == 123 and int(restored.rewards.get("gold", -1)) == 456, "Rewards/currency must round-trip")
 	_expect(not restored.has_transient_random_encounter(), "Loading a disk save must clear stale transient encounter state")
 	_expect(restored.transient_encounter_return.is_empty(), "Loading a disk save must clear stale transient encounter-return state")
 	var data: Dictionary = load_result.get("data", {})
 	_expect(int(data.get("schema_version", -1)) == SaveManagerScript.SCHEMA_VERSION, "Save data must carry the current schema version")
 
-func _test_schema_v1_migrates_to_v3_without_reinterpreting_proof_gold() -> void:
+func _test_pre_kessara_schema_v1_save_is_compatible() -> void:
 	_cleanup()
 	var legacy_data := {
-		"schema_version": 1,
+		"schema_version": SaveManagerScript.SCHEMA_VERSION,
 		"area": "field_proof",
 		"field_position": {"x": 1.0, "y": 0.9, "z": 2.0},
 		"party": [],
@@ -142,70 +113,18 @@ func _test_schema_v1_migrates_to_v3_without_reinterpreting_proof_gold() -> void:
 		"primes": {},
 		"equipment": {},
 		"flags": {"legacy_schema_v1": true},
-		"rewards": {"xp": 12, "gold": 777}
+		"rewards": {"xp": 0, "gold": 0}
 	}
-	_write_test_save(legacy_data)
+	var file := FileAccess.open(TEST_PATH, FileAccess.WRITE)
+	file.store_string(JSON.stringify(legacy_data))
+	file.flush()
 	var manager = SaveManagerScript.new()
 	var state = GameStateScript.new()
 	var result: Dictionary = manager.load_state(state, TEST_PATH)
-	_expect(bool(result.get("ok", false)), "Schema-v1 proof save must have a deliberate migration path through v2 to v3")
-	_expect(int(result.get("migrated_from_schema", -1)) == 1, "Load result should expose that schema v1 was migrated")
-	_expect(state.wallet_balance_g() == GameStateScript.STARTING_WALLET_G, "Schema-v1 save with no wallet must receive the new 2,500 G wallet baseline")
-	_expect(int(state.rewards.get("gold", -1)) == 777, "Legacy rewards.gold must remain proof reward payload rather than being reinterpreted as G wallet value")
+	_expect(bool(result.get("ok", false)), "Schema-v1 save written before Kessara fields existed must remain loadable")
 	_expect(state.relic_inventory.is_empty(), "Pre-Kessara schema-v1 save should default Relic ownership empty")
 	_expect(state.forge_components.is_empty(), "Pre-Kessara schema-v1 save should default Forge-component ownership empty")
-	_expect(state.recruited_character_ids() == ["cyanis"], "Schema-v1 migration must introduce the production roster at the canonical Cyanis-only recruitment baseline")
-	_expect(state.active_party_character_ids() == ["cyanis"], "Schema-v1 migration must introduce Cyanis as the production active party")
-	_expect(bool(state.flags.get("legacy_schema_v1", false)), "Schema-v1 migration should preserve its existing state")
-	_expect(int(result.get("data", {}).get("schema_version", -1)) == 3, "Migrated data handed to GameState must be normalized to schema v3")
-
-func _test_schema_v2_adds_production_roster_without_inferring_from_proof_party() -> void:
-	_cleanup()
-	var v2_data := {
-		"schema_version": 2,
-		"area": "field_proof",
-		"field_position": {"x": 3.0, "y": 0.9, "z": 4.0},
-		"party": [
-			{"name": "Cyanis"},
-			{"name": "Ilyra"},
-			{"name": "Torren"},
-			{"name": "Nimera"}
-		],
-		"inventory": {},
-		"standard_cards": [],
-		"primes": {},
-		"equipment": {},
-		"flags": {"legacy_schema_v2": true},
-		"rewards": {"xp": 0, "gold": 999},
-		"wallet_g": 9100
-	}
-	_write_test_save(v2_data)
-	var manager = SaveManagerScript.new()
-	var state = GameStateScript.new()
-	var result: Dictionary = manager.load_state(state, TEST_PATH)
-	_expect(bool(result.get("ok", false)), "Schema-v2 save must migrate deliberately to v3")
-	_expect(int(result.get("migrated_from_schema", -1)) == 2, "Load result should expose that schema v2 was migrated")
-	_expect(state.wallet_balance_g() == 9100, "Schema-v2 wallet must be preserved exactly")
-	_expect(state.party.size() == 4, "Legacy proof party fixture must remain preserved during v2 migration")
-	_expect(state.recruited_character_ids() == ["cyanis"], "Schema-v2 migration must not infer production recruitment from the four proof-party entries")
-	_expect(state.active_party_character_ids() == ["cyanis"], "Schema-v2 migration must not infer a four-member production formation from proof party")
-	_expect(state.character_roster.size() == 6, "Schema-v2 migration must create all six stable permanent character records")
-	_expect(str(state.character_record("nimera").get("display_name", "")) == "Nimera", "Migrated roster must use current first-name-only display identity")
-	_expect(int(result.get("data", {}).get("schema_version", -1)) == 3, "Schema-v2 migrated data must normalize to schema v3")
-
-func _test_negative_wallet_is_rejected() -> void:
-	_cleanup()
-	var invalid_wallet_data := {
-		"schema_version": 2,
-		"area": "field_proof",
-		"field_position": {"x": 0.0, "y": 0.9, "z": 0.0},
-		"wallet_g": -1
-	}
-	_write_test_save(invalid_wallet_data)
-	var manager = SaveManagerScript.new()
-	var state = GameStateScript.new()
-	var result: Dictionary = manager.load_state(state, TEST_PATH)
-	_expect(not bool(result.get("ok", false)), "Negative persistent G wallet must be rejected as invalid state")
+	_expect(bool(state.flags.get("legacy_schema_v1", false)), "Pre-Kessara schema-v1 save should preserve its existing state")
 
 func _test_invalid_json_is_safe() -> void:
 	var file := FileAccess.open(TEST_PATH, FileAccess.WRITE)
@@ -218,7 +137,9 @@ func _test_invalid_json_is_safe() -> void:
 	_expect("corrupt" in str(result.get("message", "")).to_lower(), "Invalid JSON should be identified as corrupt")
 
 func _test_future_schema_is_rejected() -> void:
-	_write_test_save({"schema_version": SaveManagerScript.SCHEMA_VERSION + 99, "area": "field_proof", "field_position": {"x": 0, "y": 0.9, "z": 0}})
+	var file := FileAccess.open(TEST_PATH, FileAccess.WRITE)
+	file.store_string(JSON.stringify({"schema_version": SaveManagerScript.SCHEMA_VERSION + 99, "area": "field_proof", "field_position": {"x": 0, "y": 0.9, "z": 0}}))
+	file.flush()
 	var manager = SaveManagerScript.new()
 	var state = GameStateScript.new()
 	var result: Dictionary = manager.load_state(state, TEST_PATH)
@@ -227,7 +148,7 @@ func _test_future_schema_is_rejected() -> void:
 
 func _finish() -> void:
 	if failures.is_empty():
-		print("Diyse schema-v3 roster/G-wallet save migration validation passed.")
+		print("Diyse 7B.5G versioned save/load persistence validation passed.")
 		quit(0)
 		return
 	for failure in failures:

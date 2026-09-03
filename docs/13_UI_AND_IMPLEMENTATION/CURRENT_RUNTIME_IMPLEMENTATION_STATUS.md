@@ -1,7 +1,9 @@
 # Diyse — Current Runtime Implementation Status
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit corrections already preserved in the reorganized domains.  
+**Runtime source checkpoint inspected:** `Diyse-Game` commit `68b66e129fa7e34dac69501786d00a1023ad0fd4`.  
 **Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
+
 
 ## IMPLEMENTED FOUNDATION — current repository
 
@@ -35,23 +37,7 @@ Implemented:
 - true silent beats;
 - movement/input lock integration;
 - no choice/response architecture;
-- schema validation;
-- narrow compatibility normalization preventing the retired Acuity/Change Face list from leaking through an older generated line-complete Resource.
-
-Current `game/characters/placeholders/` and the proof portrait registry remain **proof-only runtime stand-ins**. Exact production character appearance is controlled by the repository masters under `asset_sources/characters/current/` and the production authority index in `14_ART_AND_VISUALS`.
-
-### Permanent roster / active party
-Implemented production-capable state foundation:
-- stable permanent IDs: `cyanis`, `ilyra`, `torren`, `nimera`, `vaelira`, `seyrik`;
-- exactly six permanent roster records;
-- first-name-only display identities normalized from stable IDs;
-- recruitment state separate from active-party membership;
-- active-party maximum **4**;
-- duplicate, unknown and unrecruited active-party entries rejected;
-- current production new-game baseline: Cyanis recruited/active; later permanent characters present but unrecruited;
-- reserved per-character `persistent_state` envelope for later progression/loadout migration without inventing final values.
-
-The legacy four-entry `party` array remains in GameState solely for proof battle/exploration compatibility. Its membership and proof HP/MP values are not permanent-roster or final-stat authority.
+- schema validation.
 
 ### Combat proof
 The current runtime implements architectural proof for:
@@ -80,28 +66,19 @@ Current production authority instead uses:
 
 See `05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md` and `IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md` before production combat implementation.
 
-### Persistence / G wallet
+### Persistence
 Implemented:
 - versioned JSON save manager;
-- current schema **v3**;
-- deliberate schema-v1 → v2 → v3 migration;
+- schema version check;
 - safe missing-save failure;
 - invalid JSON rejection;
 - unsupported future-schema rejection;
 - GameState serialization;
-- persistent `wallet_g` state;
-- current starting wallet baseline **2,500 G**;
-- wallet credit / affordability / spend operations;
-- v1 migration does **not** reinterpret legacy `rewards.gold` as the wallet;
-- v2 → v3 migration creates the six-character production roster without inferring recruitment from the old four-character proof party;
-- production `character_roster` and `active_party_ids` round-trip through save/load;
 - Kessara Relic-copy ownership fields;
 - transient random-encounter state excluded from disk save.
 
-The old `rewards.gold` key still exists inside proof battle-result payloads. It is implementation debt isolated from the persistent G wallet and must not become current-facing currency text.
-
 ### Kessara Relic-copy service
-Implemented service/state logic:
+Implemented service logic:
 - original Relic required;
 - matching Face copy component required;
 - max one forged duplicate per individual Relic;
@@ -109,24 +86,7 @@ Implemented service/state logic:
 - max 3 forged Relics per Face because exactly 3 copy components exist per Face;
 - wrong-Face component rejected;
 - Legacies rejected from Relic registration;
-- copy uses same Relic identity, not a new item definition;
-- current Face set canonicalized as **Might / Elements / Grace / Perception / Memory / Ruin**;
-- retired Resource/Acuity/Change values remain accepted only as compatibility inputs and normalize to Perception/Memory;
-- exact service fee **6,000 G**;
-- insufficient-G rejection without component/item mutation;
-- successful fee deduction + component consumption + forged-copy state committed through one GameState transaction;
-- invalid/cancelled-equivalent attempts charge **0 G**.
-
-Still not final:
-- service unlock/menu timing;
-- production confirmation/presentation;
-- original-vs-copy visual treatment.
-
-### Current implementation frontier
-Next structural state layer:
-> **class / Face / per-character loadout state**
-
-This must build on stable permanent character IDs rather than the legacy proof `party` dictionaries and must not restore Mastery Points.
+- copy uses same Relic identity, not a new item definition.
 
 ## NOT YET FINAL PRODUCTION UI
 The proof repository does not yet establish final:
