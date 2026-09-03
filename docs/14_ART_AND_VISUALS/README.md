@@ -30,7 +30,9 @@ Current repository master images:
 
 Current image-master set:
 - permanent party — Cyanis, Ilyra, Torren, Nimera, Vaelira, Seyrik;
-- supporting masters — Maevra, Kessara.
+- additional current masters — Maevra and Kessara.
+
+Maevra is supporting/recurring allied command. Kessara has a current authoritative visual master; this art index does not assert a story role for her. Neither is part of the permanent six-character party.
 
 For these characters, use this authority order:
 1. current repository master image;
