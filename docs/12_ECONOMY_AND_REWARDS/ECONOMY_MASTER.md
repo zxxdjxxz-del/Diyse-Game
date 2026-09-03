@@ -104,7 +104,7 @@ Their complete registered purchase/replacement values total:
 
 This is a conservative catalog-value ceiling, **not expected campaign spending**, because many first copies are starting/join gear, guaranteed finds, protected caches, or authored rewards rather than purchases.
 
-### Kessara Relic-copy service
+### Relic-copy service
 Service fee:
 > **6,000 G per successful Relic copy**
 
@@ -113,6 +113,8 @@ If all 18 copy opportunities are used, total service spending is:
 > **108,000 G**
 
 This is an intentional completionist sink; the copy-specific Forge Component remains the primary scarcity gate.
+
+**Provider boundary:** the exact character/NPC/provider operating the Relic-copy service is not established by the economy domain. The historical owner filename `KESSARA_RELIC_COPY_ECONOMY.md` is retained for link compatibility and does not assign the service to Kessara. Kessara integration requires current explicit character authority.
 
 ### Consumables
 Normal-stock Consumables remain unlimited after their normal unlock.
@@ -215,7 +217,7 @@ Optional content should make the player richer and widen build flexibility, not 
 - Character Quests → `CHARACTER_QUEST_REWARD_BOUNDARY.md`
 - ordinary equipment prices/resale → `ORDINARY_EQUIPMENT_PRICING.md`, `ORDINARY_EQUIPMENT_SELL_RULE.md`
 - Consumable prices/resale → `CONSUMABLE_PRICES.md`, `CONSUMABLE_SELL_RULE.md`
-- Kessara → `KESSARA_RELIC_COPY_ECONOMY.md`
+- Relic-copy service fee → `KESSARA_RELIC_COPY_ECONOMY.md` (historical compatibility filename; no current provider identity implied)
 
 ## Reopen rule
 Reopen a closed economy value only when:
@@ -223,6 +225,8 @@ Reopen a closed economy value only when:
 - actual battle-consumption simulation materially exceeds the certified restock allowance;
 - an owner-domain reward/source changes materially;
 - or the user explicitly revises the economy design.
+
+The current 6,000-G Relic-copy fee can remain closed while the service-provider identity stays open in the character/story integration layer.
 
 ## Ownership
 - `08` owns item identity/stats/effects/source identity.
