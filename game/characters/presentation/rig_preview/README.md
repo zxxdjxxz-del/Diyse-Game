@@ -59,8 +59,40 @@ Idle → Walk → Jog → Shield Idle → Shield Action → Shield Dash → Ward
 
 `Sword_Attack` is used only as a temporary animation donor for hand/body motion while the visible weapon remains a Wardrod. It does **not** redefine Ilyra as a sword user.
 
+## 4. Ilyra modular character blockout
+
+Run:
+
+`game/characters/presentation/rig_preview/ilyra_modular_blockout.tscn`
+
+This layers a more character-specific construction read onto the reshaped UAL-skinned body while preserving the same animation foundation:
+
+- anime face/head blockout with visible jade-eye read
+- extra long blonde face-framing hair locks
+- fitted ivory Warden vest rather than heavy plate armor
+- pale-blue center panel and high collar
+- deliberately restrained antique-gold trim
+- cape clasp and pale-blue shoulder mantle
+- asymmetrical practical utility pouches
+- layered front/side tabards
+- silver bracers and greaves with brown leather straps
+- fingerless-glove and practical boot blockouts
+- canonical Wardrod in the right hand
+- canonical shield in the left hand
+
+Controls:
+
+- `SPACE` next animation
+- `P` pause/resume
+- `V` toggle the new B00-guided detail layer for comparison
+- `Q / E` rotate the character in 15-degree steps
+- `R` restart the animation sequence
+- `ESC` quit
+
+See `ILYRA_MODULAR_BLOCKOUT_MANIFEST.md` for the exact prototype/production boundary.
+
 ## Authority boundary
 
-None of these proxy meshes are Ilyra appearance canon. The exact approved B00 image remains authoritative for her face, jade eyes, blonde hair, body proportions, costume design, pale-blue cape, colors, silhouette, and final visible equipment design. These scenes exist only to validate the UAL rig, deformation quality, animation language, and secondary-motion direction before a production 3D mesh is authored.
+None of these proxy meshes are Ilyra appearance canon. The exact approved B00 image remains authoritative for her face, vivid jade eyes, windswept blonde hair, slightly athletic natural-waist proportions, fitted white/pale-blue Warden clothing, restrained decoration, brown utility gear, silver arm/leg guards, pale-blue cape, colors, silhouette, and final visible equipment design. These scenes exist only to validate the UAL rig, deformation quality, animation language, layered-character construction, and secondary-motion direction before a production 3D mesh is authored.
 
 The UAL female mannequin and both animation libraries share the same skeleton, so animation tracks transfer directly without humanoid retargeting.
