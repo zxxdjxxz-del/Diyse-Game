@@ -2,13 +2,15 @@
 
 This folder is the canonical repository location for the current approved source/reference character master images.
 
-These files are source/reference masters, not runtime deployable assets. Derived in-game exports should be placed under the runtime asset structure when created.
+These files are source/reference masters, not runtime deployable assets. Approved downstream source derivatives belong under [`../derivatives/`](../derivatives/) before purpose-specific runtime integration.
 
-For the complete visual-authority hierarchy, permanent-party classification, redraw rules, and lock-document index, use [`docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md).
+For the complete visual-authority hierarchy, permanent-party classification, redraw rules, lock-document index, and portrait derivative pipeline, use [`docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md).
 
 ## Authority rule
 
-The image files in this folder are the **exact current visual source of truth**. If an older render, generated filename, historical hash, archived description, or prose detail conflicts with a current master, the current master image wins until the user explicitly replaces it.
+The image files in this folder are the **exact current visual source of truth**. If an older render, generated filename, historical hash, archived description, derivative portrait, runtime export, or prose detail conflicts with a current master, the current master image wins until the user explicitly replaces it.
+
+Never overwrite/resave these masters as part of crop, transparency, expression, resize, framing, UI, or runtime-export work.
 
 ## Permanent party masters
 
@@ -29,6 +31,16 @@ Maevra and Kessara have authoritative current visual masters but are not part of
 Canonical filenames use the characters' actual names only. Do not infer or add surnames that are not explicitly canonical.
 
 The seven original supplied master uploads use `.png` filenames externally but contain JPEG/JFIF image data, so their canonical repository filenames use the `.jpg` extension without re-encoding. Kessara's current master is a native PNG and remains `kessara.png`.
+
+## Downstream derivative lanes
+
+- `../derivatives/dialogue/` — approved dialogue portrait/bust derivatives.
+- `../derivatives/ui/` — approved menu/status/party portrait derivatives.
+
+Controlling portrait pipeline:
+[`PORTRAIT_DERIVATIVE_PIPELINE.md`](../../../docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/PORTRAIT_DERIVATIVE_PIPELINE.md)
+
+A downstream derivative never replaces the current master as identity authority.
 
 ## Visual-lock documents
 
