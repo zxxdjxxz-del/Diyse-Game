@@ -28,7 +28,7 @@ Do not infer or restore surnames for the current master characters from retired 
 | Maevra | **LOCKED** | `asset_sources/characters/current/maevra.jpg` | `PRODUCTION/CHARACTERS/MAEVRA_CURRENT_VISUAL_LOCK.md` |
 | Kessara | **LOCKED** | `asset_sources/characters/current/kessara.png` | `PRODUCTION/CHARACTERS/KESSARA_CURRENT_VISUAL_LOCK.md` |
 
-The first six are the permanent playable party. Maevra and Kessara are supporting-character visual masters.
+The first six are the permanent playable party. Maevra is supporting/recurring allied command. Kessara has a current authoritative visual master; this register does not assert a story role for her. Neither Maevra nor Kessara is part of the permanent six-character party.
 
 ## Other registered visual authorities
 
@@ -51,4 +51,4 @@ Where an exact approved image exists for one of these characters, preserve that 
 
 Older art documents may contain obsolete surnames, older generated-image hashes, superseded costume descriptions, or retired character proportions. Those records are historical only when they conflict with the current authority system.
 
-In particular, older visual files for the permanent six and for Maevra/Kessara have been replaced by surname-free navigation files under `CHARACTERS/PLAYABLE/` and `CHARACTERS/SUPPORTING/` that point to the current production locks.
+In particular, older visual files for the permanent six and for Maevra/Kessara have been replaced by surname-free navigation files under `CHARACTERS/PLAYABLE/` and `CHARACTERS/SUPPORTING/` that point to the current production locks. The legacy `SUPPORTING/` folder location is organizational/navigation history and does not itself establish Kessara's current story role.
