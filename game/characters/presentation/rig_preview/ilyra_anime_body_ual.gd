@@ -35,13 +35,13 @@ func _spawn_actor() -> void:
 	actor.add_child(animation_player)
 	animation_player.root_node = NodePath("..")
 
-	skeleton = _find_skeleton(actor)
-	if skeleton == null:
+	_proxy_skeleton = _find_skeleton(actor)
+	if _proxy_skeleton == null:
 		push_error("Ilyra anime-body UAL proof: no Skeleton3D found.")
 
-func _apply_ilyra_proxy_style() -> void:
-	super._apply_ilyra_proxy_style()
-	if skeleton == null:
+func _apply_proxy_style() -> void:
+	super._apply_proxy_style()
+	if _proxy_skeleton == null:
 		return
 	_add_wardrod_proxy()
 	_add_shield_proxy()
@@ -50,8 +50,8 @@ func _add_wardrod_proxy() -> void:
 	var hand := _bone_attachment("IlyraWardrod", "hand_r")
 	if hand == null:
 		return
-	var silver := _make_material(Color(0.70, 0.76, 0.83, 1.0), 0.30, 0.55)
-	var blue := _make_material(Color(0.30, 0.66, 0.90, 1.0), 0.26, 0.18)
+	var silver := _material(Color(0.70, 0.76, 0.83), 0.30, 0.55)
+	var blue := _material(Color(0.30, 0.66, 0.90), 0.26, 0.18)
 
 	var rod := MeshInstance3D.new()
 	var rod_mesh := CylinderMesh.new()
@@ -77,8 +77,8 @@ func _add_shield_proxy() -> void:
 	var hand := _bone_attachment("IlyraShield", "hand_l")
 	if hand == null:
 		return
-	var silver := _make_material(Color(0.69, 0.75, 0.82, 1.0), 0.27, 0.62)
-	var pale_blue := _make_material(Color(0.48, 0.73, 0.90, 1.0), 0.34, 0.20)
+	var silver := _material(Color(0.69, 0.75, 0.82), 0.27, 0.62)
+	var pale_blue := _material(Color(0.48, 0.73, 0.90), 0.34, 0.20)
 
 	var shield := MeshInstance3D.new()
 	var shield_mesh := CylinderMesh.new()
