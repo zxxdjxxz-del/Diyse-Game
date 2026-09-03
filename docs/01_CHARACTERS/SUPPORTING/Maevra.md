@@ -6,11 +6,16 @@
 ## Identity
 - Age: **41**
 - Role: recurring allied Yahtrean commander
-- Party status: temporary/guest playable only where authored; **never a seventh permanent member**
+- Party status: **fully non-playable supporting NPC; never a guest party member and never a seventh permanent member**
 - Origin: Caeloran
 - Torren chronology: joined/trained in Royal Army life at 16 while Torren was 17, 25 years before Ch0
 
 Do not infer or restore a surname from superseded migration files.
+
+## Playability lock
+Maevra may travel with, command around, rescue, brief, reinforce, or otherwise intersect with the protagonists in authored story scenes, but she does **not** enter the commandable battle formation at any point.
+
+Her combat competence may be represented through narrative staging, allied forces, cutscene action, or command outcomes rather than a guest-party kit.
 
 ## Character core
 Maevra is confident, energetic, observant, curious, socially capable, decisive, argumentative, mischievous, attentive, and warm when trust allows it.
