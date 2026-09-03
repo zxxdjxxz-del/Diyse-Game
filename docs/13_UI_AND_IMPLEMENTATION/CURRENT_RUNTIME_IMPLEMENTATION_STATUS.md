@@ -2,7 +2,7 @@
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit corrections already preserved in the reorganized domains.  
 **Runtime source checkpoint inspected:** `Diyse-Game` commit `68b66e129fa7e34dac69501786d00a1023ad0fd4`.  
-**Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
+**Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, UI concepts, or unresolved character-role assignments.
 
 
 ## IMPLEMENTED FOUNDATION — current repository
@@ -74,10 +74,12 @@ Implemented:
 - invalid JSON rejection;
 - unsupported future-schema rejection;
 - GameState serialization;
-- Kessara Relic-copy ownership fields;
+- legacy proof Relic-copy ownership fields currently named/integrated around Kessara;
 - transient random-encounter state excluded from disk save.
 
-### Kessara Relic-copy service
+The Kessara-specific proof field names are implementation history, **not** current character/story authority. Preserve or migrate them safely as needed; do not use their existence to decide the production service-provider identity.
+
+### Relic-copy service proof
 Implemented service logic:
 - original Relic required;
 - matching Face copy component required;
@@ -87,6 +89,8 @@ Implemented service logic:
 - wrong-Face component rejected;
 - Legacies rejected from Relic registration;
 - copy uses same Relic identity, not a new item definition.
+
+The current proof implementation is Kessara-named from an older integration branch. The **mechanic is useful proof evidence**, but Kessara's production story/service role is currently unresolved. Do not promote the Kessara-specific integration merely because the proof code already exists.
 
 ## NOT YET FINAL PRODUCTION UI
 The proof repository does not yet establish final:
@@ -102,7 +106,7 @@ The proof repository does not yet establish final:
 - shop/Quartermaster UI;
 - production save-slot UI;
 - final combat HUD/layout;
-- Kessara service menu;
+- Relic-copy service menu and its final provider/character integration;
 - final Android safe-area/touch layout.
 
-The proof screens demonstrate behavior, not final visual/UX authority.
+The proof screens demonstrate behavior, not final visual/UX or character-role authority.
