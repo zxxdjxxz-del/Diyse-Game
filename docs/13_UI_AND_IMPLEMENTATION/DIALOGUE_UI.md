@@ -29,11 +29,16 @@ Do not implement:
 
 ## Portrait presentation
 Current presentation rule:
-- large high-resolution portraits;
-- generally ~35–45% screen height where practical;
+- high-resolution portrait assets displayed at a restrained dialogue scale;
+- generally **~25–35% of screen height**, with **~30%** as the normal starting target;
 - dialogue box generally lower 20–25%.
 
-Portraits are a primary acting layer.
+At the 1920×1080 reference viewport, that corresponds approximately to:
+- 25% → **270 px** visible portrait height;
+- 30% → **324 px** visible portrait height;
+- 35% → **378 px** visible portrait height.
+
+Portraits remain a primary acting layer, but should not dominate the full scene composition.
 
 ## Required beat support
 UI/runtime must support:
