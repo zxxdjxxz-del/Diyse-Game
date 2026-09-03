@@ -28,14 +28,14 @@ Do not infer or add surnames that are not explicitly canonical. Current reposito
 
 These six are the permanent playable party and should be treated as one coherent B00 character-production set.
 
-## Supporting characters — current visual masters
+## Additional current visual masters
 
 | Character | Master image | Visual lock |
 | --- | --- | --- |
 | Maevra | [`maevra.jpg`](../../../../asset_sources/characters/current/maevra.jpg) | [`MAEVRA_CURRENT_VISUAL_LOCK.md`](MAEVRA_CURRENT_VISUAL_LOCK.md) |
 | Kessara | [`kessara.png`](../../../../asset_sources/characters/current/kessara.png) | [`KESSARA_CURRENT_VISUAL_LOCK.md`](KESSARA_CURRENT_VISUAL_LOCK.md) |
 
-Maevra and Kessara have current authoritative visual masters but are **not part of the permanent six-character party**.
+Maevra is supporting/recurring allied command. Kessara has a current authoritative visual master; this index does not assert a story role for her. Neither is part of the permanent six-character party.
 
 ## Downstream character derivatives
 
