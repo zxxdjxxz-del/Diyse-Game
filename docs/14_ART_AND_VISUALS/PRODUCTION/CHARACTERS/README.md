@@ -37,6 +37,21 @@ These six are the permanent playable party and should be treated as one coherent
 
 Maevra and Kessara have current authoritative visual masters but are **not part of the permanent six-character party**.
 
+## Downstream character derivatives
+
+Current masters are now the source layer for purpose-specific derivatives; derivatives never become replacement identity masters.
+
+Portrait production is controlled by:
+[`PORTRAIT_DERIVATIVE_PIPELINE.md`](PORTRAIT_DERIVATIVE_PIPELINE.md)
+
+Source/output lanes:
+- `asset_sources/characters/derivatives/dialogue/` — dialogue portrait/bust derivatives;
+- `asset_sources/characters/derivatives/ui/` — menu/status/party portrait derivatives.
+
+The dialogue runtime already supports stable semantic `character_id` + `expression_id` lookup through `DiyseDialoguePortraitRegistry`. Production portraits should enter through that indirection after approval rather than wiring story data directly to B00 image paths.
+
+The current SVG portraits in `game/characters/placeholders/portraits/` remain proof-only stand-ins. They are not production derivatives and do not compete with the current masters.
+
 ## Production rules
 
 - Use only the target character's authoritative master as the subject/identity reference for redraws.
@@ -45,6 +60,7 @@ Maevra and Kessara have current authoritative visual masters but are **not part 
 - For a clean redraw, rebuild rather than patching an older image.
 - Do not revive superseded character designs merely because an older document or render contains more detail.
 - Derived runtime assets may simplify for HD-2D production, but must remain recognizably faithful to the current master.
+- Never overwrite/resave a current master as part of a derivative crop, expression, transparency, resize, or export pass.
 
 ## Current B00 direction
 
