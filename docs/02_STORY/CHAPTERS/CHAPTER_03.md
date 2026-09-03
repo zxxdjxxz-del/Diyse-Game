@@ -4,14 +4,14 @@
 **Primary story authorities:** current chapter index; closed Chapters 0–4 chapter/dialogue sources; Audits 91/92/107/109/112/113; current Chapter-11/12/13 operational projections; current Prime/character/world corrections.  
 **Domain rule:** this folder owns mandatory story structure, chapter purpose, scene order, reveal order, recruitment/Prime milestones, interchapter causality, and story-state outcomes. Exact spoken dialogue belongs in `03_DIALOGUE`; battle numbers in `09_ENEMIES_AND_ENCOUNTERS`; progression numbers in `10_PROGRESSION_AND_EXP`.
 
-
-**Status:** CLOSED / line-complete corrected source exists.
+**Status:** CLOSED / line-complete corrected source exists; Maevra playability corrected by later explicit lock.
 
 ## Scene spine
 ### S017 — Containment at Caelora
 - containment is not arrest.
 - legitimate procedure exists, but an initiating declaration is missing/bypassed.
 - Mirena and Maevra remain substantial lawful authority actors.
+- Maevra remains fully non-playable.
 
 ### S018 — Order That Should Not Exist
 - exactly two authored nonlethal lawful-authority confrontations.
@@ -19,8 +19,9 @@
 
 ### S019 — Scholar in Redacted Stacks
 - Nimera joins permanently.
-- choose-four becomes immediately meaningful.
-- Maevra remains guest rather than permanent party.
+- **this is the first full four-character permanent party: Cyanis + Ilyra + Torren + Nimera.**
+- choose-four becomes meaningful from permanent-party growth rather than guest occupancy.
+- Maevra remains a supporting authority actor and does not join the battle formation.
 
 ### S020 — Oath Sentinel
 - First Command Warden defeated.
