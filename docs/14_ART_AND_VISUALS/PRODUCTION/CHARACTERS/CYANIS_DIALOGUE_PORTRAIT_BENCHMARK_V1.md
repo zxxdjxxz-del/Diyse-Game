@@ -76,11 +76,18 @@ Preferred starting composition:
 - no decorative background environment;
 - transparent background preferred for the approved production export.
 
-### Working crop target
+### Working display target
 
-The V1 benchmark should be authored at high resolution and evaluated at a **432 px visible portrait-height test**, corresponding to 40% of the current 1080 px reference viewport.
+The V1 benchmark should be authored at high resolution but evaluated at a **324 px visible portrait-height test**, corresponding to 30% of the current 1080 px reference viewport.
 
-This 432 px display height is a **benchmark test size**, not a permanent final UI lock. Current dialogue authority allows portraits generally around 35–45% of screen height where practical.
+Current dialogue portrait range is **approximately 25–35% of screen height**, with 30% as the normal starting target.
+
+Reference visible heights at 1080p:
+- 25% → **270 px**;
+- 30% → **324 px**;
+- 35% → **378 px**.
+
+The source asset should remain high resolution; this smaller on-screen range is a presentation rule, not a request to reduce source-image quality.
 
 Recommended working export container for the first test:
 `1024 × 1024 PNG` or larger, with transparent background and adequate padding around hair/shoulders.
@@ -126,15 +133,15 @@ Reject the candidate if it:
 
 Review the candidate in all of these states:
 1. full-resolution source review;
-2. 432 px visible-height dialogue presentation;
-3. approximately 378 px visible height (35% of 1080);
-4. approximately 486 px visible height (45% of 1080);
+2. **324 px** visible-height dialogue presentation (30% baseline);
+3. approximately **270 px** visible height (25% minimum target);
+4. approximately **378 px** visible height (35% maximum target);
 5. active portrait at full intended brightness;
 6. inactive/dimmed portrait treatment once that UI value is defined;
 7. left slot;
 8. right slot only after orientation handling is validated.
 
-Pass requires immediate recognition as the exact current Cyanis master at every tested dialogue scale.
+Pass requires immediate recognition as the exact current Cyanis master at every tested dialogue scale without overwhelming the environment or dialogue box.
 
 ## Intended production output
 
