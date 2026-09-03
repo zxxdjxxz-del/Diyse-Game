@@ -54,10 +54,12 @@ Primary acting asset for story dialogue.
 Requirements:
 - preserve exact facial identity, age read, eye color, hair silhouette, costume identity, and signature upper-body equipment visible in the source design;
 - expressions may change without changing facial structure or redesigning the character;
-- composition must remain readable when displayed as a large portrait at approximately 35–45% of screen height where practical;
+- composition must remain readable when displayed at approximately **25–35% of screen height**, with **~30%** as the normal starting target;
 - support left/right presentation without silently mirroring identity-critical equipment placement;
 - transparent-background export is preferred for final production presentation when the approved composition and runtime test support it;
 - preserve the mature seinen / chaotic-variable-line / graphic cel-informed style at portrait scale.
+
+At the current 1080 px reference viewport, validate roughly **270 / 324 / 378 px** visible portrait heights for 25% / 30% / 35% respectively.
 
 Production scene data must continue to reference **character ID + expression ID**, not an image path.
 
