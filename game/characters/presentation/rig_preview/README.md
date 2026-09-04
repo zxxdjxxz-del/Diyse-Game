@@ -62,27 +62,51 @@ Run:
 
 `game/characters/presentation/rig_preview/ilyra_authored_geometry.tscn`
 
-This replaces the most visibly primitive Stage 4 pieces with custom generated triangle meshes:
-
-- tapered/jaw-shaped anime head surface
-- thin jade-eye forms
-- curved tapered ribbon hair instead of capsule strands
-- fitted tapered Warden vest, center panel, collar, belt, pouches, and pointed tabards
-- three overlapping sculpted cape sections with secondary motion
-- octagonal Wardrod with a diamond-shaped blue focus
-- beveled eight-sided Warden shield with blue inset and raised boss
+This replaces the most visibly primitive Stage 4 pieces with custom generated triangle meshes: an anime head surface, windswept ribbon hair, fitted Warden silhouette pieces, shaped tabards/cape, and authored Wardrod/shield forms. Stage 5 remains a rigid-attachment deformation baseline for the next stage.
 
 Controls:
 
 - `SPACE` next animation
 - `P` pause/resume
-- `V` compare authored character layer / skinned body
+- `V` compare authored character / skinned body
 - `Q / E` rotate manually
 - `T` automatic turntable
 - `R` restart sequence
 - `ESC` quit
 
-See `ILYRA_AUTHORED_GEOMETRY_MANIFEST.md` for the exact prototype/production boundary.
+See `ILYRA_AUTHORED_GEOMETRY_MANIFEST.md` for the prototype/production boundary.
+
+## 6. Ilyra deformation-aware weighted proof
+
+Run:
+
+`game/characters/presentation/rig_preview/ilyra_deformation_aware.tscn`
+
+Stage 6 keeps the exact 65-bone UAL core but changes the character parts that should flex across joints from rigid attachments to actual multi-bone vertex skinning:
+
+- fitted Warden vest: `spine_03 → spine_02 → spine_01 → pelvis`
+- blue torso center panel: same torso weighting as the vest
+- long blonde hair: `Head → neck_01 → spine_03 → spine_02`
+- pale-blue cape: `spine_03 → spine_02 → spine_01 → pelvis`
+- front tabard: `pelvis → thigh_l + thigh_r`
+- side tabards: `pelvis → matching thigh`
+
+Hard pieces remain rigid intentionally: head shell/hair cap, collar/clasp, bracers, greaves, Wardrod, and shield.
+
+The deformation stress loop adds crouch and roll tests alongside walk, jog, shield movement, casting, and hit reaction.
+
+Controls:
+
+- `SPACE` next deformation-test animation
+- `P` pause/resume
+- `V` authored character / underlying body comparison
+- `K` Stage 6 weighted deformation / Stage 5 rigid comparison
+- `Q / E` rotate manually
+- `T` automatic turntable
+- `R` restart sequence
+- `ESC` quit
+
+See `ILYRA_DEFORMATION_AWARE_MANIFEST.md` for the weighting plan and production boundary.
 
 ## Authority boundary
 
