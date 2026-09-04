@@ -45,6 +45,7 @@ Existing scene IDs are retained as legacy source references until the dialogue/s
 - Maevra joins the journey as a visible traveling story companion and commander, but not as a battle participant.
 - Maevra needs to get the group **through Briar Passage** and knows **Torren Harth is the best man available to guide them through it**.
 - for that reason, Maevra deliberately takes Cyanis and Ilyra to Greenhollow to find Torren.
+- the group's broader destination is **Caelora**.
 - the group leaves Brackenwall through the short entrance trail into Briar Passage.
 - campaign-standard random encounters begin after the safe opening geography.
 
@@ -61,6 +62,9 @@ Locked elements to preserve:
 - Maevra already knows Torren and deliberately brings Cyanis and Ilyra to Greenhollow because **she needs his expertise to get them safely through Briar Passage**.
 - Torren's established Maevra familiarity, route-board presence, and identity as an experienced regional route specialist remain central to the introduction.
 - Greenhollow remains a working route community and the direct Greenhollow–Dunmere road is visibly/structurally unavailable because of Black Host control.
+- **When Maevra explains the mission to Torren, she tells him that their broader destination is Caelora and tells him about Cyanis's recovered Card.**
+- the Card briefing is bounded by Chapter-0 knowledge: it is an **Ancient / Card-family artifact whose behavior has been abnormal**, including the unusual protective response already witnessed. Maevra does **not** identify it as a Prime, Might artifact, Last Sentinel object, or anything else beyond what the group currently knows.
+- Maevra is candid with Torren because she already knows and trusts him and because the reason for needing a reliable route through Briar Passage matters to his decision.
 - Torren does **not** simply agree to leave Greenhollow and head south when Maevra asks for his help.
 - Torren is concerned about **Hollow Watch** and refuses to continue into the deeper Briar journey until he finds out what happened there.
 - Hollow Watch has recently fallen to / been overtaken by the Black Host, and resolving what happened there becomes Torren's immediate priority and condition for continuing with Maevra's mission.
@@ -75,6 +79,7 @@ Explicit cuts:
 
 Open for redesign:
 - the exact new S009 dialogue at the route board;
+- the exact wording and amount of detail in Maevra's Card/Caelora briefing to Torren;
 - how Torren first explains his concern about Hollow Watch and what information/sign caused that concern;
 - which specific old S009 Maevra/Torren, Edda, route-board, marker, and family beats are retained, rewritten, moved, or cut;
 - the exact staging of Torren accompanying the group to Hollow Watch before permanent recruitment.
@@ -132,7 +137,7 @@ Preserve S011's established fundamentals:
 - the chapter leaves Wayfinder quietly with the mystery unresolved and main-story progression opening toward Chapter 2.
 
 ## Chapter-1 dramatic shape
-**Maevra needs Torren to guide them through Briar Passage -> Maevra leads Cyanis/Ilyra to him in Greenhollow -> Torren refuses to proceed south until he learns what happened at Hollow Watch -> Torren accompanies the party to the recently captured Hollow Watch cliff fort / Diysean ruin -> Hollow Watch resolved -> Torren permanently joins -> Torren guides the group into deeper Briar -> Briarhide Stalker final boss -> unchanged Wayfinder mystery resolution.**
+**Maevra needs Torren to guide them through Briar Passage -> Maevra leads Cyanis/Ilyra to him in Greenhollow -> Maevra tells Torren about the abnormal recovered Card and that they are ultimately trying to reach Caelora -> Torren refuses to proceed south until he learns what happened at Hollow Watch -> Torren accompanies the party to the recently captured Hollow Watch cliff fort / Diysean ruin -> Hollow Watch resolved -> Torren permanently joins -> Torren guides the group into deeper Briar -> Briarhide Stalker final boss -> unchanged Wayfinder mystery resolution.**
 
 ## Cartographic mystery
 Chapter 1 contributes:
@@ -140,7 +145,7 @@ Chapter 1 contributes:
 2. the unchanged Wayfinder Junction material/copies and its technical Face notation mystery.
 
 ## Recruitment
-> **Maevra seeks Torren because she needs him to get the group through Briar Passage. Torren will help, but he will not continue into the deeper passage until Hollow Watch is investigated and resolved. He is playable for Hollow Watch without yet being permanently recruited. After Hollow Watch is resolved, Torren formally becomes a permanent party member and continues south with the group as their Briar Passage guide.**
+> **Maevra seeks Torren because she needs him to get the group through Briar Passage. She tells him the mission is ultimately headed for Caelora and briefs him on Cyanis's abnormal recovered Card within the party's current limited knowledge. Torren will help, but he will not continue into the deeper passage until Hollow Watch is investigated and resolved. He is playable for Hollow Watch without yet being permanently recruited. After Hollow Watch is resolved, Torren formally becomes a permanent party member and continues south with the group as their Briar Passage guide.**
 
 ## Knowledge firewall
 No:
