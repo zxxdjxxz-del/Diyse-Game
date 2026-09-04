@@ -22,8 +22,8 @@ Briar Passage is the connective spine and a substantial story area, not merely t
 - **Maevra travels with Cyanis and Ilyra through the Chapter-1 story and field journey.**
 - Maevra is a present story character, commander, investigator, and travel companion, but **she is never a commandable combat participant and is not featured in battle**.
 - Battle scenes and encounter staging must not place Maevra in the active party, grant her NPC turns, hidden assists, free attacks, or off-screen combat contributions.
-- **Torren joins permanently in Greenhollow during Chapter 1**, creating the first permanent three-character combat party: Cyanis + Ilyra + Torren.
-- Hollow Watch and all later Chapter-1 combat progression are built around **Cyanis + Ilyra + Torren** once Torren has joined.
+- Torren becomes the third combat-capable member during the Greenhollow/Hollow Watch progression, giving Hollow Watch and all later Chapter-1 combat the **Cyanis + Ilyra + Torren** formation.
+- The exact presentation timing of the formal **permanent-party recruitment notification** is still open between Greenhollow and the immediate Hollow Watch resolution; story causality below is locked.
 
 ## Locked cuts / consolidations
 The following inherited Chapter-1 material is removed and must not be restored during dialogue migration:
@@ -42,13 +42,14 @@ Existing scene IDs are retained as legacy source references until the dialogue/s
 ### Brackenwall / Protocol — legacy S007
 - chapter opens with Cyanis + Ilyra as the playable combat party.
 - Maevra joins the journey as a visible traveling story companion and commander, but not as a battle participant.
-- Maevra has a concrete reason to seek out Torren: she knows **Torren Harth is the best man available to help them read and survive the regional routes they need to use**.
+- Maevra needs to get the group **through Briar Passage** and knows **Torren Harth is the best man available to guide them through it**.
+- for that reason, Maevra deliberately takes Cyanis and Ilyra to Greenhollow to find Torren.
 - the group leaves Brackenwall through the short entrance trail into Briar Passage.
 - campaign-standard random encounters begin after the safe opening geography.
 
 ### Briar Passage / route toward Greenhollow
 - Briar Passage establishes the chapter's regional route network and remains a recurring story space.
-- Maevra leads the group toward Greenhollow specifically to find Torren.
+- Maevra leads the group toward Greenhollow specifically to recruit Torren as their guide through Briar Passage.
 - the party takes the eastern branch toward Greenhollow.
 - exact additional replacement beats for superseded southern-Briar material remain part of the new story-beat pass and are not yet locked.
 
@@ -56,10 +57,14 @@ Existing scene IDs are retained as legacy source references until the dialogue/s
 **S009 is reopened for restructuring. The old line-complete version is historical source material, not current structural authority.**
 
 Locked elements to preserve:
-- Maevra already knows Torren and deliberately brings Cyanis and Ilyra to Greenhollow because she trusts his route knowledge and considers him the best person for the problem.
-- Torren's established Maevra familiarity and his identity as an experienced regional route specialist remain central to the introduction.
+- Maevra already knows Torren and deliberately brings Cyanis and Ilyra to Greenhollow because **she needs his expertise to get them safely through Briar Passage**.
+- Torren's established Maevra familiarity, route-board presence, and identity as an experienced regional route specialist remain central to the introduction.
 - Greenhollow remains a working route community and the direct Greenhollow–Dunmere road is visibly/structurally unavailable because of Black Host control.
-- Torren joins permanently in Greenhollow before the group departs for Hollow Watch.
+- Torren does **not** simply agree to leave Greenhollow and head south when Maevra asks for his help.
+- Torren is concerned about **Hollow Watch** and refuses to continue into the deeper Briar journey until he finds out what happened there.
+- Hollow Watch has recently fallen to / been overtaken by the Black Host, and resolving what happened there becomes Torren's immediate priority and condition for continuing with Maevra's mission.
+- Cyanis, Ilyra, and Maevra therefore go with Torren to Hollow Watch rather than treating Hollow Watch as an unrelated assignment.
+- Torren becomes combat-capable with Cyanis and Ilyra for the Hollow Watch operation; Maevra remains present in story/exploration but not in battle.
 
 Explicit cuts:
 - the **stranded civilians** are cut;
@@ -67,16 +72,14 @@ Explicit cuts:
 - the old S009 **Briarhide Stalker encounter** is cut from Greenhollow and remains relocated to the late-Chapter-1 southern-Briar climax.
 
 Open for redesign:
-- the exact practical problem/event that gives Torren reason to travel with the group;
-- how Torren demonstrates his route expertise before formally joining;
-- which specific old S009 route-board, family, marker, and character beats are retained, rewritten, moved, or cut;
-- the exact recruitment dialogue and staging.
-
-Maevra travels through Greenhollow material as a story character but does not enter battle.
+- the exact new S009 dialogue at the route board;
+- how Torren first explains his concern about Hollow Watch and what information/sign caused that concern;
+- which specific old S009 Maevra/Torren, Edda, route-board, marker, and family beats are retained, rewritten, moved, or cut;
+- whether the formal **TORREN HARTH — PERMANENT PARTY MEMBER** presentation occurs when he joins the Hollow Watch operation or immediately after Hollow Watch is resolved. In either case, he is playable for Hollow Watch and remains with the group afterward to guide them through Briar Passage.
 
 ### Hollow Watch / Black Host cliff fort over Diysean ruin — legacy S008 heavily reworked
-- after Torren joins, the traveling group returns to Briar Passage and takes the northern spur to Hollow Watch.
-- Hollow Watch is now a **small fort on a cliff side overlooking the area**, built on top of a much older **Diysean ruin**.
+- the group returns from Greenhollow to Briar Passage and takes the northern spur to Hollow Watch because **Torren will not proceed into the deeper Briar journey until he knows what happened there**.
+- Hollow Watch is a **small fort on a cliff side overlooking the area**, built on top of a much older **Diysean ruin**.
 - the fort's Yahtrean military layer and the buried/exposed Diysean ruin layer must both be visually readable.
 - the **Black Host has recently seized Hollow Watch**.
 - the approach should therefore communicate a recent hostile occupation rather than an abandoned watch mysteriously gone silent.
@@ -87,9 +90,11 @@ Maevra travels through Greenhollow material as a story character but does not en
 - the exact cause of its activation, and the exact relationship between the Black Host occupation and the Diysean ruin's awakened defenses, remain **OPEN for the current story-beat redesign**.
 - first-clear Standard Card remains **Faultline Sight** under current live terminology/system authority.
 - surviving route/cartographic evidence needed by Wayfinder remains recoverable here.
+- once Hollow Watch is resolved, Torren's immediate concern has been answered and he continues with Maevra, Cyanis, and Ilyra as the guide they originally came to Greenhollow to find.
 
 ### Southern Briar Passage / replacement for legacy S010
-- the group returns to the Briar spine and pushes south with Maevra traveling alongside the permanent trio.
+- after Hollow Watch, the group returns to the Briar spine and pushes south with Torren now fulfilling the role Maevra originally sought him for: **getting them through Briar Passage**.
+- Maevra travels alongside the group as a story companion and commander.
 - active combat party remains **Cyanis + Ilyra + Torren**.
 - southern Briar is a substantial story-progression area, not a short connector.
 - the old southern false-trail, route-split, damaged-crossing, and Old Waystone beats do not occur.
@@ -124,7 +129,7 @@ Preserve S011's established fundamentals:
 - the chapter leaves Wayfinder quietly with the mystery unresolved and main-story progression opening toward Chapter 2.
 
 ## Chapter-1 dramatic shape
-**Maevra leads Cyanis/Ilyra to Torren -> redesigned Greenhollow recruitment -> Torren joins -> recently captured Hollow Watch cliff fort / Diysean ruin -> Hollow Watch mid-chapter test -> deeper Briar escalation -> Briarhide Stalker final boss -> unchanged Wayfinder mystery resolution.**
+**Maevra needs Torren to guide them through Briar Passage -> Maevra leads Cyanis/Ilyra to him in Greenhollow -> Torren refuses to proceed south until he learns what happened at Hollow Watch -> recently captured Hollow Watch cliff fort / Diysean ruin -> Hollow Watch resolved -> Torren continues as their Briar guide -> deeper Briar escalation -> Briarhide Stalker final boss -> unchanged Wayfinder mystery resolution.**
 
 ## Cartographic mystery
 Chapter 1 contributes:
@@ -132,7 +137,7 @@ Chapter 1 contributes:
 2. the unchanged Wayfinder Junction material/copies and its technical Face notation mystery.
 
 ## Recruitment
-> **Torren Harth joins permanently in Greenhollow after a redesigned S009 recruitment sequence. Maevra intentionally leads the group to him because she knows he is the best route specialist for the task. The old stranded-civilian rescue is not part of the new recruitment.**
+> **Maevra seeks Torren because she needs him to get the group through Briar Passage. Torren will help, but he will not continue into the deeper passage until Hollow Watch is investigated and resolved. He becomes playable for Hollow Watch and remains with the group afterward as their guide. The exact formal permanent-recruitment notification timing remains open between Greenhollow and the immediate post-Hollow-Watch resolution.**
 
 ## Knowledge firewall
 No:
