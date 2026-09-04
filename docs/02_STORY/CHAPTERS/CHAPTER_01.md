@@ -26,16 +26,15 @@ Briar Passage is the connective spine and a substantial story area, not merely t
 - Hollow Watch and all later Chapter-1 combat progression are built around **Cyanis + Ilyra + Torren** once Torren has joined.
 
 ## Locked cuts / consolidations
-The following inherited **southern Briar Passage** material is removed and must not be restored during dialogue migration:
+The following inherited Chapter-1 material is removed and must not be restored during dialogue migration:
 
 - the separate southern-Briar **false-trail sequence**;
 - the **route-split / overlook decision**;
 - the **damaged-crossing / civilian flood-crossing sequence**;
-- the separate **Old Waystone** location/beat.
+- the separate **Old Waystone** location/beat;
+- the **S009 stranded-civilian / Lower Woods rescue sequence** as the basis for Torren's recruitment.
 
 **Wayfinder Junction is the chapter's actual waystone/cartographic monument** and absorbs that function.
-
-The **wrong-marker beat inside Torren's original Greenhollow recruitment sequence is not the cut southern-Briar false-trail sequence** and may remain as part of that recruitment unless explicitly revised later.
 
 ## Locked structural scene spine
 Existing scene IDs are retained as legacy source references until the dialogue/scene-index migration is completed. The order and outcomes below are authoritative.
@@ -53,24 +52,27 @@ Existing scene IDs are retained as legacy source references until the dialogue/s
 - the party takes the eastern branch toward Greenhollow.
 - exact additional replacement beats for superseded southern-Briar material remain part of the new story-beat pass and are not yet locked.
 
-### Greenhollow / What the Map Has Wrong — legacy S009, moved before Hollow Watch
-The **original Torren recruitment sequence is retained as the baseline** rather than replaced with a new recruitment premise.
+### Greenhollow / Torren recruitment — legacy S009 REOPENED
+**S009 is reopened for restructuring. The old line-complete version is historical source material, not current structural authority.**
 
-Preserve the core S009 progression:
+Locked elements to preserve:
 - Maevra already knows Torren and deliberately brings Cyanis and Ilyra to Greenhollow because she trusts his route knowledge and considers him the best person for the problem.
-- the route-board introduction and Maevra/Torren familiarity remain.
-- Torren demonstrates his value through current route knowledge, corrected road information, and practical field reading rather than through exposition about his future role.
-- the **stranded-civilian / lower-route rescue problem remains the recruitment's practical test**.
-- Torren accompanies the rescue as route specialist before recruitment but is not yet commandable.
-- Maevra travels with the group during this material but does not enter battles.
-- the active combat party during the pre-recruitment rescue is **Cyanis + Ilyra**.
-- after the civilians are recovered and the Greenhollow problem is resolved, **Torren becomes a permanent party member**.
-- the direct Greenhollow–Dunmere road remains visibly/structurally unavailable because of Black Host control.
+- Torren's established Maevra familiarity and his identity as an experienced regional route specialist remain central to the introduction.
+- Greenhollow remains a working route community and the direct Greenhollow–Dunmere road is visibly/structurally unavailable because of Black Host control.
+- Torren joins permanently in Greenhollow before the group departs for Hollow Watch.
 
-Migration note:
-- the old S009 **Briarhide Stalker battle does not occur in Greenhollow** because the Stalker has been relocated to the late-Chapter-1 Briar climax.
-- Stalker sign / ecological information from the old recruitment may be repurposed as foreshadowing if useful, but the final-boss encounter itself stays out of Greenhollow.
-- all dialogue/staging changes required to remove Maevra from combat and relocate the Stalker belong to the future dialogue migration pass.
+Explicit cuts:
+- the **stranded civilians** are cut;
+- the **Lower Woods rescue route** is cut as the recruitment's mandatory story event;
+- the old S009 **Briarhide Stalker encounter** is cut from Greenhollow and remains relocated to the late-Chapter-1 southern-Briar climax.
+
+Open for redesign:
+- the exact practical problem/event that gives Torren reason to travel with the group;
+- how Torren demonstrates his route expertise before formally joining;
+- which specific old S009 route-board, family, marker, and character beats are retained, rewritten, moved, or cut;
+- the exact recruitment dialogue and staging.
+
+Maevra travels through Greenhollow material as a story character but does not enter battle.
 
 ### Hollow Watch / Black Host cliff fort over Diysean ruin — legacy S008 heavily reworked
 - after Torren joins, the traveling group returns to Briar Passage and takes the northern spur to Hollow Watch.
@@ -122,7 +124,7 @@ Preserve S011's established fundamentals:
 - the chapter leaves Wayfinder quietly with the mystery unresolved and main-story progression opening toward Chapter 2.
 
 ## Chapter-1 dramatic shape
-**Maevra leads Cyanis/Ilyra to Torren -> original Greenhollow recruitment/rescue -> Torren joins -> recently captured Hollow Watch cliff fort / Diysean ruin -> Hollow Watch mid-chapter test -> deeper Briar escalation -> Briarhide Stalker final boss -> unchanged Wayfinder mystery resolution.**
+**Maevra leads Cyanis/Ilyra to Torren -> redesigned Greenhollow recruitment -> Torren joins -> recently captured Hollow Watch cliff fort / Diysean ruin -> Hollow Watch mid-chapter test -> deeper Briar escalation -> Briarhide Stalker final boss -> unchanged Wayfinder mystery resolution.**
 
 ## Cartographic mystery
 Chapter 1 contributes:
@@ -130,7 +132,7 @@ Chapter 1 contributes:
 2. the unchanged Wayfinder Junction material/copies and its technical Face notation mystery.
 
 ## Recruitment
-> **Torren Harth joins permanently through the original Greenhollow recruitment framework, with Maevra intentionally leading the group to him because she knows he is the best route specialist for the task.**
+> **Torren Harth joins permanently in Greenhollow after a redesigned S009 recruitment sequence. Maevra intentionally leads the group to him because she knows he is the best route specialist for the task. The old stranded-civilian rescue is not part of the new recruitment.**
 
 ## Knowledge firewall
 No:
