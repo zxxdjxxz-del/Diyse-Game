@@ -12,8 +12,22 @@
 - Ch1 C04: current final wording **old slut**, not stale old-whore README note
 
 ## Applied current corrections
-### Ch1 S009
-`Sixfold Accord` → **Sixfold Volition** in the production firewall; no spoken line changed.
+### Ch1 S009 — REOPENED
+The historical line-complete S009 is **no longer structurally locked**. It remains source material for character voice, useful dialogue, and staging fragments only.
+
+Current Chapter-1 story authority supersedes it as follows:
+- Maevra intentionally leads Cyanis and Ilyra to **Torren Harth** in Greenhollow because she knows he is the best regional route specialist for the task.
+- Maevra and Torren's pre-existing familiarity remains part of the setup.
+- **The stranded-civilian / Lower Woods rescue sequence is cut.**
+- the old S009 **Briarhide Stalker encounter is cut from Greenhollow**; the Briarhide Stalker is now the late-Chapter-1 final boss in southern Briar Passage before Wayfinder Junction.
+- the replacement practical recruitment event, exact retained S009 lines, and final recruitment staging are **OPEN for rewrite**.
+- Torren still joins permanently in Greenhollow before Hollow Watch.
+- Maevra travels with the group but is **never a battle participant**.
+
+Any old S009 line or production note that requires the stranded civilians, Lower Woods rescue, Greenhollow Stalker fight, or Maevra as a guest combatant is retired unless deliberately rewritten into the new sequence.
+
+Earlier production-firewall correction remains applicable where relevant:
+`Sixfold Accord` → **Sixfold Volition**; no spoken line changed solely for that correction.
 
 ### Ch3 S019 — Six Faces
 Earlier migration correction:
