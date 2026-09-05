@@ -87,21 +87,69 @@ Open for redesign:
 - which specific old S009 Maevra/Torren, Edda, route-board, marker, and family beats are retained, rewritten, moved, or cut;
 - the exact staging of Torren accompanying the group to Hollow Watch before permanent recruitment.
 
-### Hollow Watch / Black Host cliff fort over Diysean ruin — legacy S008 heavily reworked
+### Hollow Watch / Black Host cliff fort over Diysean ruin — legacy S008 REOPENED / CORE RUIN SEQUENCE PRESERVED
+**S008 is structurally reopened, but much of its lower-ruin story sequence remains the baseline and should be migrated rather than replaced.**
+
+#### New outer framing
 - the group returns from Greenhollow to Briar Passage and takes the northern spur to Hollow Watch because **Torren will not proceed into the deeper Briar journey until he investigates the week-long Black Host occupation and excavation there**.
-- Hollow Watch is a **small fort on a cliff side overlooking the area**, built on top of a much older **Diysean ruin**.
-- the fort's Yahtrean military layer and the buried/exposed Diysean ruin layer must both be visually readable.
+- Hollow Watch is a **small Yahtrean fort on a cliff side overlooking the area**, constructed over a much older **Diysean ruin**.
+- the Yahtrean fort layer and older Diysean foundations/stonework must both be visually readable.
 - the **Black Host seized Hollow Watch roughly one week earlier and has been excavating the underlying Diysean ruin since then**.
-- the approach therefore does not reveal that the Host is present; it shows the current state, scale, and consequences of an occupation Torren already knows about.
-- Black Host occupation, fort defenses, active excavation, and the older Diysean machinery/route material can all contribute to the location's story and exploration.
-- Maevra remains physically present in story/exploration scenes but never enters combat.
-- playable combat party: **Cyanis + Ilyra + Torren**.
-- **Hollow Watch Castellan remains the major mid-chapter boss unless explicitly revised later.**
-- the exact cause of its activation, the exact relationship between the Black Host excavation and the Diysean ruin's awakened defenses, the fate of the prior Yahtrean garrison, and the Black Host's exact excavation objective remain **OPEN for the current story-beat redesign**.
-- first-clear Standard Card remains **Faultline Sight** under current live terminology/system authority.
-- surviving route/cartographic evidence needed by Wayfinder remains recoverable here.
-- once Hollow Watch is resolved, Torren's immediate concern has been answered.
-- **After Hollow Watch, Torren formally becomes a permanent party member** and commits to continuing with Maevra, Cyanis, and Ilyra as the Briar Passage guide they originally came to Greenhollow to find.
+- the approach does not reveal that the Host is present; Torren already knows this. It establishes the scale and current condition of the occupation and excavation.
+- Torren leads the group on the Hollow Watch approach and is playable in combat with Cyanis and Ilyra.
+- Maevra travels with the group, participates in story/investigation scenes, and is **not present as a battle participant**.
+- the old S008 assumptions that Hollow Watch's hostile state is a surprise, that Torren is absent, and that Cyanis/Ilyra/Maevra form the playable party are retired.
+- the exact outer-fort assault route, surviving-garrison state, and Black Host command presence remain **OPEN** for the current story-beat pass.
+
+#### Preserved S008 ruin/worksite baseline
+After the party gains access to the excavation / older structure beneath the fort, preserve the following existing dramatic sequence unless a later explicit revision changes it:
+
+1. **Black Host worksite**
+   - digging tools, charcoal, wax sheets/rubbings, pry tools, and deliberately exposed/scrubbed Diysean surfaces remain.
+   - the party confirms the Host has been **searching / uncovering something**, not merely occupying the fort.
+   - branching grooves / route-like geometry remain part of the investigation.
+   - the existing basic conclusion remains: whatever the Host thought this material was, they wanted more of it.
+
+2. **Older Diysean machinery and active defenses**
+   - later Yahtrean controls integrated/bolted onto older green-gold mechanisms remain a valid environmental idea.
+   - Diysean Sentries / defense constructs remain part of the lower-ruin combat ecology unless encounter authority later changes their exact composition.
+   - the old combat-party references to Maevra are superseded by **Cyanis + Ilyra + Torren**.
+
+3. **Lower junction / six damaged channels**
+   - preserve the circular junction with **six damaged channels** meeting in the floor.
+   - preserve the worn relief depicting **adults, children, handcarts, animals, and injured people on litters moving through an open gate**.
+   - preserve the ambiguity: Cyanis may read it as an evacuation route, Maevra does not confirm that interpretation, and the imagery suggests movement in **both directions**.
+   - preserve Ilyra's inference that whatever the old structure was, it was designed with injured people in mind.
+   - **Do not lock a definitive original function for the Diysean ruin here.** Hollow Watch supplies evidence; Wayfinder remains the later cartographic expansion of the mystery.
+
+4. **Forced inner gate**
+   - preserve the fact that recent Black Host damage / excavation has forced access deeper into the old structure.
+   - older machinery exposed by that forced entry remains.
+   - the deeper gate leads toward the Castellan chamber.
+
+5. **Hollow Watch Castellan**
+   - **Hollow Watch Castellan remains the major mid-chapter boss.**
+   - preserve the core visual/battle concept that the Castellan initially appears integrated into the ruin/fortress architecture and later tears itself free into a mobile state on the **same HP bar**.
+   - preserve finite integrated support concepts such as Ballista / Watch Seal support unless encounter authority later renames/rebalances them.
+   - the exact cause of the Castellan's activation and the precise relationship between Black Host excavation and the awakened defenses remain **OPEN** until explicitly decided.
+   - any old dialogue or staging that puts Maevra into the battle must be migrated to the current non-combat Maevra rule.
+
+6. **Route plate after the Castellan**
+   - preserve the protected **route plate** exposed after the Castellan's collapse.
+   - preserve branching route geometry and the surviving southeastward branch.
+   - preserve evidence that the Black Host had traced/followed the same geometry.
+   - this remains the Hollow Watch material later compared against the **unchanged Wayfinder Junction**.
+   - exact directional dialogue must be migrated to the new Chapter-1 order/geography; old lines that treat Greenhollow as the next destination are obsolete because the party already came from Greenhollow.
+
+7. **Faultline Sight**
+   - first-clear Standard Card remains **Faultline Sight** under current live terminology/system authority.
+
+#### Post-Hollow-Watch outcome
+- the old S008 ending that returns the party to Brackenwall and then sends them onward to Greenhollow is retired.
+- once Hollow Watch is resolved, Torren has answered the immediate concern that kept him from leaving.
+- **Torren formally becomes a permanent party member after Hollow Watch**.
+- he then commits to the job Maevra originally sought him for: guiding Cyanis, Ilyra, and Maevra south through Briar Passage toward their larger route to Caelora.
+- the exact post-boss recruitment dialogue remains **OPEN** for the rewrite.
 
 ### Southern Briar Passage / replacement for legacy S010
 - after Hollow Watch and Torren's permanent recruitment, the group returns to the Briar spine and pushes south with Torren now fulfilling the role Maevra originally sought him for: **getting them through Briar Passage**.
@@ -140,12 +188,12 @@ Preserve S011's established fundamentals:
 - the chapter leaves Wayfinder quietly with the mystery unresolved and main-story progression opening toward Chapter 2.
 
 ## Chapter-1 dramatic shape
-**Maevra needs Torren to guide them through Briar Passage -> Maevra leads Cyanis/Ilyra to him in Greenhollow -> Maevra tells Torren about the abnormal recovered Card and that they are ultimately trying to reach Caelora -> Torren already knows the Host has held Hollow Watch and excavated there for about a week -> Torren refuses to proceed south until he investigates what happened to the fort/garrison and what the Host is digging for -> Hollow Watch operation -> Hollow Watch resolved -> Torren permanently joins -> Torren guides the group into deeper Briar -> Briarhide Stalker final boss -> unchanged Wayfinder mystery resolution.**
+**Maevra needs Torren to guide them through Briar Passage -> Maevra leads Cyanis/Ilyra to him in Greenhollow -> Maevra tells Torren about the abnormal recovered Card and that they are ultimately trying to reach Caelora -> Torren already knows the Host has held Hollow Watch and excavated there for about a week -> Torren refuses to proceed south until he investigates what happened to the fort/garrison and what the Host is digging for -> occupied Hollow Watch fort -> preserved Black Host excavation / Diysean ruin mystery -> Castellan -> route plate -> Hollow Watch resolved -> Torren permanently joins -> Torren guides the group into deeper Briar -> Briarhide Stalker final boss -> unchanged Wayfinder mystery resolution.**
 
 ## Cartographic mystery
 Chapter 1 contributes:
-1. surviving relevant Hollow Watch local-route/cartographic evidence;
-2. the unchanged Wayfinder Junction material/copies and its technical Face notation mystery.
+1. surviving relevant Hollow Watch local-route/cartographic evidence, including the route plate and six-channel/relief mystery;
+2. the unchanged Wayfinder Junction material/copies and its technical Face-notation mystery.
 
 ## Recruitment
 > **Maevra seeks Torren because she needs him to get the group through Briar Passage. She tells him the mission is ultimately headed for Caelora and briefs him on Cyanis's abnormal recovered Card within the party's current limited knowledge. Torren already knows the Black Host has occupied Hollow Watch and excavated the Diysean ruin there for about a week. He will help Maevra, but he will not leave for the deeper passage until he investigates Hollow Watch, learns what happened there, and deals with the immediate situation. He is playable for Hollow Watch without yet being permanently recruited. After Hollow Watch is resolved, Torren formally becomes a permanent party member and continues south with the group as their Briar Passage guide.**
