@@ -108,6 +108,44 @@ Controls:
 
 See `ILYRA_DEFORMATION_AWARE_MANIFEST.md` for the weighting plan and production boundary.
 
+## 7. Ilyra production-topology transition
+
+Run:
+
+`game/characters/presentation/rig_preview/ilyra_production_topology.tscn`
+
+Stage 7 begins consolidating the weighted proof geometry into broader production-oriented surfaces while preserving the exact same UAL skin and skeleton:
+
+- continuous upper-chest-to-hip Warden garment shell
+- shoulder weights that blend into `clavicle_l/r` and `upperarm_l/r`
+- lower torso/hip weights that transition from pelvis into the matching thigh
+- fitted upper-arm sleeves with elbow-transition weighting
+- continuous front/side hip drape
+- longer pelvis/thigh-weighted front tabard
+- broad weighted back-hair mass
+- cape top edge that shares motion with the shoulder girdle instead of hanging entirely from one spine bone
+
+Hard equipment remains rigid intentionally.
+
+The Stage 7 stress loop is:
+
+T-pose → Idle → Walk → Jog → Crouch → Climb → Roll → Shield Dash → Warden Cast → Knockback.
+
+Controls:
+
+- `SPACE` next animation
+- `P` pause/resume
+- `V` character / underlying UAL body
+- `L` Stage 7 continuous topology / Stage 6 comparison
+- `K` Stage 6 multi-bone / Stage 5 rigid comparison while Stage 7 is off
+- `B` key deformation-bone markers
+- `Q / E` rotate manually
+- `T` automatic turntable
+- `R` restart
+- `ESC` quit
+
+See `ILYRA_PRODUCTION_TOPOLOGY_MANIFEST.md` for the topology budget and production boundary.
+
 ## Authority boundary
 
 None of these proxy meshes are Ilyra appearance canon. The approved cleaned B00 image remains authoritative for her face, vivid jade eyes, windswept blonde hair, slightly athletic natural-waist proportions, fitted white/pale-blue Warden clothing, restrained decoration, brown utility gear, silver arm/leg guards, pale-blue cape, colors, silhouette, and final visible equipment design. These scenes exist to validate the UAL rig, deformation quality, animation language, character construction, and secondary-motion direction before a production 3D mesh is authored.
