@@ -16,18 +16,51 @@
 The historical line-complete S009 is **no longer structurally locked**. It remains source material for character voice, useful dialogue, and staging fragments only.
 
 Current Chapter-1 story authority supersedes it as follows:
-- Maevra intentionally leads Cyanis and Ilyra to **Torren Harth** in Greenhollow because she knows he is the best regional route specialist for the task.
+- Maevra intentionally leads Cyanis and Ilyra to **Torren Harth** in Greenhollow because she knows he is the best regional route specialist to get them through **Briar Passage**.
 - Maevra and Torren's pre-existing familiarity remains part of the setup.
+- Maevra tells Torren that the group's broader destination is **Caelora** and briefs him on Cyanis's recovered abnormal Ancient/Card-family artifact within Chapter-0 knowledge limits.
+- Torren already knows the **Black Host seized Hollow Watch roughly one week earlier** and has been **digging into the Diysean ruin beneath it** during that week.
+- Torren agrees in principle to guide the group through Briar Passage, but he will not leave for the deeper southward journey until he investigates Hollow Watch.
 - **The stranded-civilian / Lower Woods rescue sequence is cut.**
 - the old S009 **Briarhide Stalker encounter is cut from Greenhollow**; the Briarhide Stalker is now the late-Chapter-1 final boss in southern Briar Passage before Wayfinder Junction.
-- the replacement practical recruitment event, exact retained S009 lines, and final recruitment staging are **OPEN for rewrite**.
-- Torren still joins permanently in Greenhollow before Hollow Watch.
+- Torren is playable for Hollow Watch, but **does not permanently join in Greenhollow**.
+- **Torren formally becomes a permanent party member only after Hollow Watch is resolved.**
 - Maevra travels with the group but is **never a battle participant**.
 
-Any old S009 line or production note that requires the stranded civilians, Lower Woods rescue, Greenhollow Stalker fight, or Maevra as a guest combatant is retired unless deliberately rewritten into the new sequence.
+Any old S009 line or production note that requires the stranded civilians, Lower Woods rescue, Greenhollow Stalker fight, Torren's permanent recruitment before Hollow Watch, or Maevra as a guest combatant is retired unless deliberately rewritten into the new sequence.
 
 Earlier production-firewall correction remains applicable where relevant:
 `Sixfold Accord` → **Sixfold Volition**; no spoken line changed solely for that correction.
+
+### Ch1 S008 — REOPENED / LOWER-RUIN CORE RETAINED
+The historical line-complete S008 is **structurally reopened** because its old order and combat-party assumptions are obsolete. However, its lower-Diysean-ruin story material remains approved baseline source for migration.
+
+Current Chapter-1 authority supersedes the old S008 framing as follows:
+- S008 now occurs **after Greenhollow**, with Torren accompanying the group to Hollow Watch before his permanent recruitment.
+- Hollow Watch is a **small Yahtrean cliff-side fort built over an older Diysean ruin**.
+- the Black Host has already occupied it for roughly a week and has been actively excavating below it; this is known before arrival rather than revealed as a surprise.
+- playable battle party is **Cyanis + Ilyra + Torren**.
+- Maevra remains present in story/investigation staging but is never in battle.
+- the old S008 opening, encounter staging, boss lines, aftermath lines, and other production notes that rely on **Cyanis / Ilyra / Maevra** as the playable party require rewrite.
+- the old S008 ending that sends the group back to Brackenwall and then onward to Greenhollow is retired.
+- after Hollow Watch is resolved, **Torren permanently joins** and continues south as the Briar Passage guide.
+
+Preserve as the migration baseline unless later explicitly revised:
+- the **Black Host worksite** with digging tools, charcoal, wax sheets/rubbings, pry tools, exposed/scrubbed surfaces, and route-like branching grooves;
+- the conclusion that the Host was **searching / uncovering something**, not merely defending the fort;
+- later Yahtrean controls integrated with older green-gold Diysean machinery;
+- active Diysean Sentries / defenses as part of the lower-ruin ecology, subject to live encounter authority;
+- the **lower junction with six damaged channels**;
+- the relief showing adults, children, handcarts, animals, and injured people on litters moving through an open gate;
+- the deliberate ambiguity around whether this represents evacuation, transit, or some broader route function, including movement in both directions;
+- the forced deeper gate opened/damaged by recent Black Host excavation;
+- the **Hollow Watch Castellan** as the major mid-chapter boss, including its integrated architectural state and same-HP-bar mobile state unless battle authority later revises mechanics;
+- the protected **route plate** exposed after the Castellan, with branching route geometry and a surviving southeast branch traced by the Black Host;
+- **Faultline Sight** as the first-clear Standard Card under current system authority.
+
+Do **not** use the old route-plate dialogue literally where it sends the party next to Greenhollow, because Greenhollow is now behind them in the new Chapter-1 order. Preserve the route/cartographic function and rewrite directional dialogue around the current geography.
+
+Do **not** lock a definitive original purpose for the Diysean ruin from the old six-channel relief. Hollow Watch contributes evidence; the unchanged Wayfinder scene remains the later expansion of the route mystery.
 
 ### Ch3 S019 — Six Faces
 Earlier migration correction:
