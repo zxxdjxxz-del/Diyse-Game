@@ -146,8 +146,34 @@ Controls:
 
 See `ILYRA_PRODUCTION_TOPOLOGY_MANIFEST.md` for the topology budget and production boundary.
 
+## 8. Ilyra spring secondary-motion proof
+
+Run:
+
+`game/characters/presentation/rig_preview/ilyra_secondary_motion.tscn`
+
+Stage 8 keeps the Stage 7 body/topology work and adds Godot spring-bone chains for the systems that should continue moving after the core pose changes: Ilyra's long hair and pale-blue cape.
+
+The first 65 UAL bones remain untouched and in the same order. Stage 8 appends 35 auxiliary bones after them: five 4-bone hair chains and three 5-bone cape chains, for 100 runtime bones total. UAL animation tracks still target only the original 65-bone core.
+
+When spring mode is active, the Stage 7 back-hair mass and cape are replaced by spring-skinned test geometry. Head, torso and hip spring-collision proxies help keep those chains from passing straight through the character.
+
+The Stage 8 stress loop is:
+
+T-pose → Walk → Jog → Sprint → Jump Start → Jump Land → Roll → Shield Dash → Warden Cast → Knockback.
+
+Controls added in Stage 8:
+
+- `M` Stage 8 spring hair/cape / Stage 7 weighted hair/cape
+- `F` mild external wind-force toggle
+- `N` 35 auxiliary spring-bone debug markers
+
+All earlier comparison controls remain available.
+
+See `ILYRA_SECONDARY_MOTION_MANIFEST.md` for the auxiliary-bone layout, starter spring values, collision plan, and production boundary.
+
 ## Authority boundary
 
 None of these proxy meshes are Ilyra appearance canon. The approved cleaned B00 image remains authoritative for her face, vivid jade eyes, windswept blonde hair, slightly athletic natural-waist proportions, fitted white/pale-blue Warden clothing, restrained decoration, brown utility gear, silver arm/leg guards, pale-blue cape, colors, silhouette, and final visible equipment design. These scenes exist to validate the UAL rig, deformation quality, animation language, character construction, and secondary-motion direction before a production 3D mesh is authored.
 
-The UAL female mannequin and both animation libraries share the same skeleton, so animation tracks transfer directly without humanoid retargeting.
+The UAL female mannequin and both animation libraries share the same imported 65-bone animation skeleton, so UAL animation tracks transfer directly without humanoid retargeting. Stage 8's auxiliary spring bones are appended after that core only for character-specific secondary motion.
