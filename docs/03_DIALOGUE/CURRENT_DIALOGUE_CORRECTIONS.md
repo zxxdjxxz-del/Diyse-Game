@@ -32,8 +32,10 @@ Any old S009 line or production note that requires the stranded civilians, Lower
 Earlier production-firewall correction remains applicable where relevant:
 `Sixfold Accord` → **Sixfold Volition**; no spoken line changed solely for that correction.
 
-### Ch1 S008 — REOPENED / LOWER-RUIN CORE RETAINED
-The historical line-complete S008 is **structurally reopened** because its old order and combat-party assumptions are obsolete. However, its lower-Diysean-ruin story material remains approved baseline source for migration.
+### Ch1 S008 — REOPENED / FULL DIALOGUE REWRITE REQUIRED / LOWER-RUIN CORE RETAINED
+The historical line-complete S008 is **structurally reopened** because its old order, party composition, and character dynamics are obsolete. Its existing spoken dialogue must be treated as source material only rather than preserved line-for-line.
+
+**S008 now requires a full dialogue rewrite.** Torren is physically present throughout the Hollow Watch operation and is the third combat-capable character alongside Cyanis and Ilyra. His presence changes route commentary, local knowledge, reactions to Hollow Watch, investigation dialogue, combat-adjacent dialogue, boss staging, aftermath, and the scene's ending. This must not be handled as simple speaker substitution or isolated line patching.
 
 Current Chapter-1 authority supersedes the old S008 framing as follows:
 - S008 now occurs **after Greenhollow**, with Torren accompanying the group to Hollow Watch before his permanent recruitment.
@@ -42,6 +44,9 @@ Current Chapter-1 authority supersedes the old S008 framing as follows:
 - playable battle party is **Cyanis + Ilyra + Torren**.
 - Maevra remains present in story/investigation staging but is never in battle.
 - the old S008 opening, encounter staging, boss lines, aftermath lines, and other production notes that rely on **Cyanis / Ilyra / Maevra** as the playable party require rewrite.
+- Torren must receive dialogue appropriate to his role as the local route expert, the person with prior knowledge of the week-long Hollow Watch occupation, and the character whose unresolved concern about Hollow Watch brought the group here.
+- Maevra's rewritten role should remain military/command/investigation-oriented without turning her into a combat participant.
+- Cyanis and Ilyra retain their established voices and scene functions, but their old exchanges must be reconsidered where Torren's presence naturally changes who would notice, explain, challenge, or respond.
 - the old S008 ending that sends the group back to Brackenwall and then onward to Greenhollow is retired.
 - after Hollow Watch is resolved, **Torren permanently joins** and continues south as the Briar Passage guide.
 
