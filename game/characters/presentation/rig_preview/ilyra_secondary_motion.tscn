@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource path="res://game/characters/presentation/rig_preview/ilyra_secondary_motion.gd" type="Script" id="1"]
+
+[node name="IlyraSecondaryMotionProof" type="Node3D"]
+script = ExtResource("1")
