@@ -250,15 +250,119 @@ Do not yet reveal:
 
 ---
 
-## Beat 3 — Scholar in Redacted Stacks — legacy S019
-**Pending lean migration. Current locked functions remain:**
-- the **Card-knowledge expert Mirena referred to in the royal audience is Nimera Pellan**, currently working in the Old City archives;
-- Mirena also expects Nimera to be interested in the impossible royal seal, though she did not say that in front of the full royal audience;
-- the party reaches Nimera through the authorized Old City investigation;
-- **Nimera Pellan joins permanently** during this beat;
-- first full four-character permanent party becomes **Cyanis + Ilyra + Torren + Nimera**;
-- choose-four becomes meaningful because permanent-party size has genuinely reached four;
+## Beat 3 — Scholar in Redacted Stacks — legacy S019 REOPENED FOR LEAN MIGRATION
+
+**Purpose**
+- pay off Mirena's Old City expert lead by introducing **Nimera Pellan** as a highly capable Card scholar already working inside the Old City archives;
+- let Nimera examine both Cyanis's abnormal Card and the impossible Queen-sealed paperwork without solving either mystery prematurely;
+- preserve the Old City as a layered place where modern Crown archives have been built into / over functioning Diysean infrastructure;
+- establish Nimera's personality, precision, and combat usefulness before recruitment;
+- show that the suspicious modern orders draw on authentic older records / precedents held in the archive;
+- move the investigation from modern paperwork into deeper surviving Diysean archive / command architecture;
+- recruit Nimera permanently, creating the first full four-character permanent party.
+
+**Starting state**
+- Cyanis, Ilyra, Torren, and non-playable Maevra enter the **Old City archives** under valid Crown authority.
+- Cyanis still physically carries the Card by the Queen's direct permission.
+- Mirena publicly sent the party to find one of Caelora's best Card experts, **Nimera Pellan**, who is already working here.
+- Mirena privately also expects Nimera to care about the impossible royal seal, but that motive was not announced in the royal audience.
+- the documentary investigation has already shown that at least part of the suspicious order trail reaches records kept in / routed through this archive complex.
+- no one yet knows how the Queen's magical seal appeared, who ultimately caused the orders, why the Card was targeted, or what the Card truly is.
+
+**Old City / archive presentation**
+- modern Caeloran archive rooms, shelving, paper bundles, sealed boxes, cataloguing stations, lamps, partitions, clerks' work areas, and secured record storage occupy only the accessible upper portions.
+- beneath / behind them lies unmistakably older Diysean construction: fitted stone-metal walls, large structural joints, mechanical doors, recessed mechanisms, old lifts / tracks, sealed record chambers, and responsive architecture.
+- the scale should support the Chapter-2 mural revelation that an enormous ancient city once occupied this location; the party is now physically entering a surviving fragment of that larger city.
+- modern Crown administration uses parts of this space without fully understanding or controlling every Ancient mechanism below it.
+
+**Finding Nimera**
+- the party is actively looking for **Nimera Pellan**, not stumbling onto an unknown scholar by accident.
+- they hear / find her in a deeper working alcove where an Ancient security barrier has unexpectedly closed around her work area.
+- Nimera is irritated and inconvenienced, **not helpless**: she still has her notes / Card-study materials / archive tools and has been trying to understand the mechanism rather than simply waiting for rescue.
+- her immediate presentation should establish intelligence, blunt precision, curiosity, and willingness to swear; exact lines remain Dialogue Engine territory.
+- Maevra identifies the party and Mirena's reason for sending them.
+
+**Ancient barrier / first cooperation**
+- the barrier is an Ancient mechanism beyond the modern lock / access controls used by the Crown.
+- Nimera can identify what the mechanism appears to be doing but does not pretend to know its full original purpose.
+- Cyanis recognizes some structural / geometric relationship that resembles principles used by modern Crest work; Nimera recognizes enough of the Ancient interface behavior to combine that observation with her own understanding.
+- their cooperation releases / lowers the barrier.
+- this is **not** proof that modern Crests are identical to Diysean systems or that Cyanis has special Ancient authorization.
+
+**First hostile Archive response / Nimera combat introduction**
+- shortly after Nimera is freed, an Archive Scribe Engine or equivalent established Archive machine activates and attacks.
+- Nimera joins the fight naturally rather than remaining an escorted civilian.
+- her combat presentation establishes her **Cardweaver** identity and existing Conduit style without needing to explain the full class system in story dialogue.
+- Maevra remains non-playable.
+- exact enemy mechanics remain encounter-domain authority.
+
+**Nimera examines Cyanis's Card**
+- after immediate danger is controlled, Nimera is shown / allowed to closely examine the Card while Cyanis retains possession unless a brief consensual handling action is separately required and safe.
+- she is genuinely interested because it does not behave like an ordinary Card in the ways the party has described.
+- she asks for the actual observed history: recovery, color / geometry changes, proximity behavior around Cyanis, and relevant reactions already witnessed.
+- she distinguishes observation from conclusion and refuses to call it **Might**, **Prime**, **Last Sentinel**, a bearer bond, or any other final category without evidence.
+- any resemblance to known Face / Card structures remains resemblance only at this stage.
+- the old historical assumption that Nimera had already read every detailed field report before meeting the party is not required; this scene can be her first direct examination of the artifact and firsthand account from the group.
+
+**Nimera and the Queen's seal**
+- Maevra / the party also show Nimera the relevant impossible Queen-sealed orders or authenticated copies / seal evidence they are permitted to carry.
+- this is the second reason Mirena wanted Nimera involved, though Mirena did not announce it before Calder and the full royal audience.
+- Nimera is immediately interested in the contradiction: the Queen denies ever sealing the papers, yet the magical royal seal authenticates as genuine.
+- Nimera does **not** instantly explain the seal or identify a culprit.
+- her useful contribution is archival / structural: she can compare the suspicious orders against older Crown records and identify that portions of their wording, legal authority, custody language, or precedent come from **genuine older documents that should not naturally belong together in one modern Card order**.
+- at least one relevant source may be an older valid custody authorization and another a separate valid judicial / royal precedent from a different case / period; exact document types may remain flexible so long as the key fact holds: **authentic pieces from different legitimate records were combined into the impossible modern orders**.
+- this proves sophistication and access to old records, but it does not yet explain who assembled them or how the Queen's actual magical seal was attached.
+
+**Why the investigation must go deeper**
+- the accessible modern archive copies are not enough to reconstruct how those authentic pieces came together.
+- Nimera identifies older source material / catalogue references / physical archive relationships that point farther into the surviving Diysean-era archive complex.
+- she is careful about uncertainty: the deeper location may show **how the records were selected / combined / preserved**, but she cannot promise it will identify the person or force responsible.
+- parts of the deeper Archive remain active; doors, lifts, record mechanisms, and hostile machines respond unpredictably to access.
+- the group begins following the surviving physical archive trail deeper.
+
+**Nimera chooses to continue / permanent recruitment**
+- Maevra initially needs Nimera as an expert guide / interpreter for the next archive layer.
+- Nimera makes clear that she is not merely being assigned to point at shelves and go home: she **chooses to continue with the group** because the combination of the abnormal Card, impossible Queen's seal, and living Ancient archive is too important to abandon.
+- Maevra warns that the deeper route is dangerous; Nimera understands and still chooses to go.
+- her decision is voluntary, not conscription.
+- **Nimera Pellan joins permanently as Cardweaver.**
+- this creates the first full four-character permanent party: **Cyanis + Ilyra + Torren + Nimera**.
 - Maevra remains a supporting authority actor and never enters the battle formation.
+
+**Deeper archive discoveries**
+- farther in, the group encounters Six-Face technical / organizational markings.
+- Nimera can correctly name the current Six Faces: **Might, Elements, Grace, Perception, Memory, Ruin**.
+- the party recognizes this as the same six-name arrangement seen at Wayfinder / associated Ancient material.
+- this does **not** identify Cyanis's Card with any one Face yet.
+- the archive's responsive machinery appears to enforce old conditions / permissions, but the group does not know the original rules well enough to state exactly what every machine is doing.
+- the viable route eventually leads toward a deeper area whose architecture is more command-oriented than ordinary record storage.
+
+**End state / knowledge change**
+- the party has met the Card expert Mirena sent them to find: **Nimera Pellan**.
+- Nimera has directly examined the abnormal Card and remains interested but cautious; she has not identified it as Might, Prime, Last Sentinel, or a confirmed bearer-linked artifact.
+- Nimera has also seen the Queen-seal anomaly and understands why Mirena quietly wanted her involved.
+- the impossible orders are now known to contain / depend on **authentic components from different legitimate older records that were not naturally one order**.
+- the party still does not know who assembled those components or how the Queen's magical royal seal became genuine on the resulting documents.
+- surviving archive evidence points deeper into Ancient command / record architecture.
+- **Nimera joins permanently**, bringing the permanent combat-capable party to four.
+
+**Gameplay handoff**
+→ **Beat 4 — Oath Sentinel / legacy S020**
+
+**Reveal firewall**
+Do not yet reveal:
+- proof that Calder ordered the original Card transport;
+- Calder's full motive;
+- the person / force ultimately responsible for assembling the impossible orders;
+- the mechanism by which the Queen's magical royal seal was attached / reproduced without her act;
+- why the Card was being routed toward Caelora;
+- confirmed bearer status for Cyanis;
+- the Card as Might;
+- the Card as a Prime;
+- Last Sentinel identification;
+- the ultimate meaning / purpose of the Card;
+- Cresthaven;
+- a complete explanation for the Ancient route network or changed geography.
 
 ---
 
