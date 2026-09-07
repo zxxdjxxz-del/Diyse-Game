@@ -460,23 +460,47 @@ Current terminology remains:
 - Face-name `Change` is retired → **Memory**;
 - recognizing the same six-name arrangement from Wayfinder does not assign Cyanis's Card to Might.
 
-### Ch3 S020 — OATH SENTINEL — REOPENED / CURRENT FIREWALL
+### Ch3 S020 — OATH SENTINEL — REOPENED / ANCIENT SEAL CHAMBER
 Historical S020 may retain compatible command-architecture atmosphere, First Command Warden staging, Last Sentinel confirmation, Ruby Card response, and Torren's routing-map discovery.
 
 Do **not** retain:
 - proof that two old valid records were combined into the modern order;
 - `request path`, `input/output`, `downstream system`, or machine-generated-modern-authority explanations;
-- any scene whose purpose is to explain how the wording of the impossible orders was assembled.
+- any scene whose purpose is to explain how the wording of the impossible orders was assembled;
+- a purely abstract explanation of the seal mystery with no physical discovery in the final room.
 
 Current required functions:
-- deeper Old City material may narrow what kinds of conditions can make a magically bound authority object respond outside its expected use, but it **does not fully explain the Queen's seal or identify who used it**;
 - **First Command Warden** is defeated under live encounter authority;
 - machine / display confirms `/LAST SENTINEL CONFIRMED/`;
 - Cyanis's sealed Card resolves to stable **deep Ruby** only after that confirmation sequence;
 - no Prime manifestation occurs here;
-- nobody identifies the Card as Might or Prime yet;
-- Torren copies a routing display showing roads / high ground / water / destination geometry;
-- **Cresthaven is not named in S020.**
+- nobody identifies the Card as Might or Prime yet.
+
+**Final-room seal discovery:**
+- the protected room beyond the Warden contains a **much older physical authority seal**;
+- beside it is a surviving Diysean mechanism whose purpose is to **imbue / charge a physical seal with magical authority**;
+- the party does not need to recreate the process, but surviving structure / markings / magical residue and Nimera's examination establish the function with reasonable confidence;
+- the discovery shows concretely that magical authority can be placed **into the seal as a property of the object**, rather than requiring its owner to consciously cast through it every time the seal is used;
+- this is the first strong historical comparison for the Queen's personal magical seal.
+
+**Implication for Yahtrea:**
+- the ancient seal and imbuing apparatus predate Yahtrea by a very large margin;
+- their similarity in function to the Queen's magically authenticated personal seal implies that **Yahtrea did not invent the underlying magical royal-seal practice from nothing**;
+- dialogue may explicitly recognize that the Yahtrean seal tradition appears to be **much older than Yahtrea itself**;
+- the exact continuity remains unresolved: the Queen's present seal could be an inherited ancient relic, a later copy / successor, or a seal made through knowledge preserved from the older tradition;
+- do **not** state yet that the Queen's current physical seal is definitively a Diysean artifact or that this exact ancient machine created it.
+
+**Seal-mystery limit:**
+- the discovery makes the Queen's seal itself more important: its true age, origin, prior holders, construction, and any history of how its magical authority was renewed / preserved now matter;
+- it still does **not** identify who used the Queen's seal on the Card orders;
+- it does not prove whether the Queen's physical seal was secretly accessed;
+- it does not prove magical authority can be copied or transferred from one seal to another;
+- it does not provide the exact method used to create the suspect orders.
+
+**Routing discovery:**
+- Torren also copies a surviving routing display showing roads / high ground / water / destination geometry extending beyond ancient Caelora;
+- **Cresthaven is not named in S020**;
+- the route remains an unidentified continuation until the later Beat-5 comparison.
 
 ### Chapter-3 production firewall through S020
 Do not regenerate:
@@ -486,7 +510,9 @@ Do not regenerate:
 - computer-network language for Crown paperwork;
 - composite-order / old-record-assembly theory;
 - proof that Calder used the Queen's seal;
-- proof of exactly how the personal seal was invoked;
+- proof of exactly how the personal seal was used on the Card orders;
+- definitive confirmation that the Queen's present physical seal is itself a surviving Diysean artifact;
+- proof that ancient seal magic can simply be copied / transferred into another seal;
 - bearer confirmation;
 - premature Might / Prime identification;
 - Cresthaven before the later Beat-5 reveal.
