@@ -4,7 +4,19 @@
 **Primary story authorities:** current chapter index; closed Chapters 0–4 chapter/dialogue sources; Audits 91/92/107/109/112/113; current Chapter-11/12/13 operational projections; current Prime/character/world corrections.  
 **Domain rule:** this folder owns mandatory story structure, chapter purpose, scene order, reveal order, recruitment/Prime milestones, interchapter causality, and story-state outcomes. Exact spoken dialogue belongs in `03_DIALOGUE`; battle numbers in `09_ENEMIES_AND_ENCOUNTERS`; progression numbers in `10_PROGRESSION_AND_EXP`.
 
-**Status:** STRUCTURE LOCKED / NEW STORY-BEAT PASS IN PROGRESS / existing line-complete dialogue sources require migration to this structure.
+**Status:** STRUCTURE LOCKED / LEAN DIALOGUE-ENGINE STORY-BEAT PASS IN PROGRESS / existing line-complete dialogue sources are reference material rather than wording authority where scenes are reopened.
+
+## Dialogue-engine beat rule
+For reopened Chapter-1 material, story authority should define only what the dialogue engine needs to stay canon-safe:
+- scene purpose;
+- starting state / required knowledge;
+- mandatory events and discoveries;
+- character drivers where they materially constrain the scene;
+- end state / knowledge change;
+- gameplay handoff;
+- reveal firewall.
+
+Exact wording, banter, reaction lines, profanity, conversational pacing, and relationship-performance details should be generated later by the dialogue engine unless a specific line is separately locked.
 
 ## Locked Chapter-1 geography
 Briar Passage is the connective spine and a substantial story area, not merely transition terrain.
@@ -41,20 +53,110 @@ The following inherited Chapter-1 material is removed and must not be restored d
 ## Locked structural scene spine
 Existing scene IDs are retained as legacy source references until the dialogue/scene-index migration is completed. The order and outcomes below are authoritative.
 
-### Brackenwall / Protocol — legacy S007
-- chapter opens with Cyanis + Ilyra as the playable combat party.
-- Maevra joins the journey as a visible traveling story companion and commander, but not as a battle participant.
-- Maevra needs to get the group **through Briar Passage** and knows **Torren Harth is the best man available to guide them through it**.
-- for that reason, Maevra deliberately takes Cyanis and Ilyra to Greenhollow to find Torren.
-- the group's broader destination is **Caelora**.
-- the group leaves Brackenwall through the short entrance trail into Briar Passage.
-- campaign-standard random encounters begin after the safe opening geography.
+### Beat 1 — Brackenwall / Protocol — legacy S007 REOPENED
 
-### Briar Passage / route toward Greenhollow
-- Briar Passage establishes the chapter's regional route network and remains a recurring story space.
-- Maevra leads the group toward Greenhollow specifically to recruit Torren as their guide through Briar Passage.
-- the party takes the eastern branch toward Greenhollow.
-- exact additional replacement beats for superseded southern-Briar material remain part of the new story-beat pass and are not yet locked.
+**Purpose**
+- carry the Chapter-0 Card incident into the main journey;
+- establish Maevra as the commander taking responsibility for the anomaly;
+- establish **Caelora** as the larger destination;
+- establish **Greenhollow / Torren** as the immediate objective;
+- open Brackenwall as a functioning early-game safe hub.
+
+**Starting state**
+- Cyanis and Ilyra arrive from the Broken Convoy.
+- Cyanis has the recovered sealed Card.
+- current knowledge is limited to: the object is Ancient / Card-family and has behaved abnormally.
+- Cyanis has already experienced the Card's protective response and physical effects.
+- no one knows Prime, Might, Last Sentinel, bearer identity, or the object's deeper purpose.
+
+**Required events**
+- Brackenwall is active and functioning rather than devastated.
+- the recovered Card enters formal military / custody review.
+- an attempted transfer or separation from Cyanis causes another abnormal proximity-related response.
+- the transfer is stopped rather than repeatedly tested.
+- Maevra becomes directly involved.
+- ordinary artifact-custody procedure is judged inappropriate under the new evidence.
+- the strategic decision is made to take **Cyanis and the Card to Caelora** for proper investigation / authority.
+- Ilyra continues with Cyanis because she has witnessed the Card's effects on him and is monitoring his condition.
+- **the Card remains with Cyanis / the traveling group; it is not left behind in Brackenwall custody.**
+- Maevra travels with Cyanis and Ilyra but is never added as a combat party member.
+- Maevra determines that the group needs **Torren Harth** to get them through Briar Passage reliably.
+- immediate objective becomes **Greenhollow**.
+
+**Character drivers**
+- **Cyanis:** fulfill responsibility for the recovered Card while trying to understand what is happening to him.
+- **Ilyra:** protect Cyanis medically and prevent reckless experimentation with the Card.
+- **Maevra:** secure the anomaly, get it to the appropriate authority in Caelora, and choose a viable route.
+- **Brackenwall custody personnel:** follow sensible procedure until the new evidence makes that procedure obsolete; they are not treated as incompetent for doing their jobs.
+
+**End state / knowledge change**
+- destination: **Caelora**.
+- immediate destination: **Greenhollow**.
+- reason for Greenhollow: Maevra wants Torren as the Briar Passage guide.
+- traveling group: Cyanis, Ilyra, Maevra.
+- combat party: Cyanis + Ilyra.
+- the group knows the Card's abnormal behavior is still somehow tied to Cyanis / proximity, but not why.
+
+**Retired old-S007 functions**
+- no Hollow Watch scout report launches the chapter from Brackenwall;
+- no immediate Brackenwall-to-Hollow-Watch mission;
+- no **MAEVRA SOLMAR — TEMPORARY PARTY MEMBER** combat state;
+- no old east-gate handoff directly toward Hollow Watch.
+
+**Gameplay handoff**
+- Brackenwall is available as a safe hub for normal first-visit functions.
+- when ready, the player leaves with Maevra toward **Briar Passage → Greenhollow**.
+
+**Reveal firewall**
+No:
+- Prime identification;
+- Might identification;
+- Last Sentinel;
+- bearer confirmation;
+- ancient-weapon explanation;
+- Entity.
+
+### Beat 2 — Briar Passage / first traversal toward Greenhollow
+
+**Purpose**
+- establish Briar Passage as a real regional route system and recurring Chapter-1 location;
+- begin normal field traversal / encounter play after Brackenwall;
+- demonstrate why Maevra wants Torren without making this first pass carry the later Briar climax;
+- deliver the group to Greenhollow.
+
+**Starting state**
+- Cyanis carries the sealed abnormal Card.
+- Maevra's larger objective is Caelora.
+- Maevra can get the group from Brackenwall to Greenhollow, but she does not trust the current maps / route state enough to take the deeper southward Briar journey without Torren.
+- traveling group: Cyanis, Ilyra, Maevra.
+- combat party: Cyanis + Ilyra.
+
+**Required progression**
+- leave Brackenwall's safe geography and enter normal hostile field territory.
+- establish Briar as a network of wooded roads, trails, route markers, and changing terrain rather than a single straight corridor.
+- allow campaign-standard random encounter pressure for Cyanis + Ilyra; Maevra is not featured in battle.
+- environmental route information should show that official / older navigation is not fully trustworthy: routes, markers, maintenance, or terrain have changed enough that local expertise matters.
+- the **eastward Greenhollow route remains usable**, and Maevra knows enough to reach it.
+- the deeper / southern passage remains something Maevra specifically wants Torren to handle.
+- the party reaches Greenhollow without a major boss or mandatory Ancient-story reveal.
+
+**Do not use on this first pass**
+- Briarhide Stalker confrontation;
+- false trail;
+- route-split / overlook decision;
+- damaged crossing / civilian crossing;
+- separate Old Waystone;
+- a major Hollow Watch reveal;
+- a major Ancient mystery that competes with Hollow Watch / Wayfinder.
+
+**End state**
+- player understands Briar Passage will matter beyond this one trip.
+- player understands Maevra's need for a local route specialist through environment and travel difficulty rather than exposition alone.
+- group arrives in **Greenhollow** to find Torren.
+
+**Gameplay handoff**
+- Greenhollow becomes the next safe/story space.
+- proceed into the Torren introduction / recruitment setup.
 
 ### Greenhollow / Torren recruitment setup — legacy S009 REOPENED
 **S009 is reopened for restructuring. The old line-complete version is historical source material, not current structural authority.**
@@ -188,7 +290,7 @@ Preserve S011's established fundamentals:
 - the chapter leaves Wayfinder quietly with the mystery unresolved and main-story progression opening toward Chapter 2.
 
 ## Chapter-1 dramatic shape
-**Maevra needs Torren to guide them through Briar Passage -> Maevra leads Cyanis/Ilyra to him in Greenhollow -> Maevra tells Torren about the abnormal recovered Card and that they are ultimately trying to reach Caelora -> Torren already knows the Host has held Hollow Watch and excavated there for about a week -> Torren refuses to proceed south until he investigates what happened to the fort/garrison and what the Host is digging for -> occupied Hollow Watch fort -> preserved Black Host excavation / Diysean ruin mystery -> Castellan -> route plate -> Hollow Watch resolved -> Torren permanently joins -> Torren guides the group into deeper Briar -> Briarhide Stalker final boss -> unchanged Wayfinder mystery resolution.**
+**Brackenwall Card custody anomaly -> decision to take Cyanis and the Card to Caelora -> Maevra needs Torren to guide them through Briar Passage -> first Briar traversal to Greenhollow -> Maevra tells Torren about the abnormal recovered Card and Caelora objective -> Torren already knows the Host has held Hollow Watch and excavated there for about a week -> Torren refuses to proceed south until he investigates what happened to the fort/garrison and what the Host is digging for -> occupied Hollow Watch fort -> preserved Black Host excavation / Diysean ruin mystery -> Castellan -> route plate -> Hollow Watch resolved -> Torren permanently joins -> Torren guides the group into deeper Briar -> Briarhide Stalker final boss -> unchanged Wayfinder mystery resolution.**
 
 ## Cartographic mystery
 Chapter 1 contributes:
