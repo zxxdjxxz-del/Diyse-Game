@@ -332,7 +332,7 @@ Do not yet reveal:
 - defeat the **First Command Warden**;
 - produce the first explicit Ancient confirmation of **Last Sentinel**;
 - advance Cyanis's Card from unstable earlier responses to a stable **deep Ruby** state without a Prime manifestation;
-- continue the Ancient route mystery with a routing display that Torren can copy for later identification.
+- continue the Ancient route mystery with a routing display that reaches a major **unlabeled site** and then continues farther north beyond it.
 
 **Starting state**
 - permanent combat-capable party is now **Cyanis + Ilyra + Torren + Nimera**.
@@ -402,20 +402,22 @@ Do not yet reveal:
 - it does, however, make the Queen's seal itself a more important object of investigation: its true age, origin, construction, prior holders, maintenance, and any surviving records of how its magic was renewed / preserved now matter.
 - Nimera should treat this as a major lead rather than a solved answer.
 
-**Post-Warden routing display**
-- the same protected room or an adjacent command-record section contains a large worn routing display with roads / routes, high ground, water, and a destination marker extending away from the Ancient city beneath modern Caelora.
-- Torren recognizes enough real-world geometry to make a practical copy.
-- the display should feel like another piece in the same broad cartographic mystery begun at Hollow Watch, Wayfinder, and the Sunken Archive mural.
-- the route appears to continue **beyond ancient Caelora toward another destination**, but the party cannot identify that destination here.
-- Torren copies the usable geometry for later comparison with modern maps / Crown knowledge.
-- **Cresthaven is not named or identified in Beat 4.**
+**Final-room route map — unlabeled site and northern continuation**
+- the same protected chamber or an adjacent command-record section contains a large worn routing display with roads / routes, high ground, water, and major destination geometry extending away from the Ancient city beneath modern Caelora.
+- the map contains **no readable `Cresthaven` name** and the party does not identify the site as Cresthaven while inside the Old City.
+- one major destination / junction is geographically important and preserved clearly enough for Torren to copy, but he cannot confidently match it to a modern named place from the room alone.
+- critically, the Ancient route **does not end at that site**.
+- a major route continues **north beyond it** toward further terrain / destination geometry.
+- the northern continuation is incomplete, damaged, leaves the surviving display, or otherwise cannot yet be resolved into a final modern destination.
+- Torren copies the usable geometry from ancient Caelora through the unlabeled site and as far north as the surviving display allows.
+- the route map therefore adds two questions for the return to Caelora: **what is the intermediate site, and where did the route continue north afterward?**
 
 **Character functions**
 - **Cyanis:** remains the Card's physical holder and experiences the stable Ruby response without gaining a complete explanation.
 - **Ilyra:** keeps attention on the practical danger of a magical seal carrying authority independently of the ruler's immediate intent.
-- **Torren:** reads physical route geometry and copies the post-Warden routing display.
+- **Torren:** reads and copies the final-room route geometry, including the important unlabeled site and the continuation north beyond it.
 - **Nimera:** identifies the ancient seal-working chamber's function with appropriate caution, recognizes its implications for the Queen's seal and Yahtrean history, and refuses to overclaim exact continuity or the culprit.
-- **Maevra:** keeps the group focused on what the discovery actually proves and what it does not; remains non-playable.
+- **Maevra:** keeps the group focused on what the discoveries actually prove and what they do not; remains non-playable.
 
 **End state / knowledge change**
 - the party has defeated the First Command Warden.
@@ -425,7 +427,7 @@ Do not yet reveal:
 - the party has discovered an **ancient physical authority seal and a mechanism used to imbue such seals with magic**.
 - this strongly implies that the magical royal-seal tradition used by Yahtrea has roots far older than Yahtrea itself, while the exact lineage / age of the Queen's current seal remains unresolved.
 - the group still does **not** know who used / invoked the Queen's seal on the Card orders or exactly how.
-- Torren carries a new routing sketch showing a route from the Ancient Caelora area toward an unidentified destination.
+- Torren carries a new routing sketch showing an **unidentified major site** and a route that continues **north beyond it**.
 
 **Gameplay handoff**
 → **Beat 5 — Four Answers, Not One / legacy S021**
@@ -444,7 +446,8 @@ Do not yet reveal:
 - the Card as Might;
 - the Card as a Prime;
 - a complete explanation of Last Sentinel;
-- Cresthaven's identity or location;
+- the identity of the unlabeled route-map site before Mirena examines Torren's copy;
+- the destination / purpose of the route continuing north beyond that site;
 - a full explanation for the changed ancient geography.
 
 ---
@@ -454,9 +457,11 @@ Do not yet reveal:
 - bounded answers become: **Prime / Might / Last Sentinel**;
 - ultimate meaning remains unknown;
 - Last Sentinel becomes **Recovered / usable**;
-- party returns to Mirena with the evidence and Torren's route drawing;
-- Mirena identifies the mapped destination as **Cresthaven**, an abandoned Crown outpost in **Yahtrenhold**;
-- Cresthaven becomes the party's next temporary working headquarters.
+- the party returns to Mirena with the ancient seal-working evidence and Torren's route drawing;
+- Mirena studies / recognizes the copied geography and identifies the major unlabeled site on the Ancient map;
+- Mirena explains that the site **used to be called Cresthaven**;
+- the site is associated with the abandoned Crown outpost in **Yahtrenhold** and becomes the party's next temporary working headquarters;
+- the Ancient route clearly continues **north beyond Cresthaven**, but its farther destination / purpose remains unresolved at the end of Chapter 3.
 
 ---
 
@@ -473,7 +478,7 @@ Do not yet reveal:
 - Cyanis retaining the Card is a cautious temporary decision, not proof of bearer status;
 - Mirena's private expectation that Nimera will be interested in the seal anomaly is not announced in the royal audience;
 - the seal mystery and Ancient / Card mystery are not assumed to have the same cause merely because Nimera studies both;
-- cartographic mystery expands;
+- cartographic mystery expands through **Cresthaven and the unresolved route continuing north beyond it**;
 - Cresthaven becomes durable headquarters;
 - the first verified modern Prime manifestation has still not happened.
 
