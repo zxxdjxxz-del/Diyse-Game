@@ -3,7 +3,7 @@
 **Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.  
 **Domain rule:** this file owns mandatory Chapter-2 story structure, scene order, reveal order, recruitment state, knowledge changes, and story outcomes. Exact dialogue belongs to the Dialogue Engine / `03_DIALOGUE`; combat mechanics belong to battle/encounter authority.
 
-**Status:** RESTRUCTURE LOCKED / LEAN DIALOGUE-ENGINE STORY-BEAT PASS IN PROGRESS.
+**Status:** OPENING REOPENED / LEAN DIALOGUE-ENGINE STORY-BEAT PASS IN PROGRESS.
 
 ## Dialogue-engine beat rule
 For Chapter-2 migration, define only what the Dialogue Engine needs to remain canon-safe:
@@ -29,70 +29,60 @@ Exact wording, banter, profanity, pacing, and relationship-performance details s
 - Chapter 2 is the sustained development chapter for this permanent trio.
 - **Maevra remains fully non-playable**. She may participate as commander, authority actor, evacuation coordinator, or story-scene presence, but never enters the battle formation.
 
+## Retired Chapter-2 opening premise
+The previous **Poisoned Waterworks** storyline is retired and must not be treated as current story authority.
+
+Do not preserve as mandatory Chapter-2 story beats:
+- poisoned / contaminated Dunmere water as the chapter's inciting crisis;
+- deliberate contamination of the managed water system;
+- the three-district / shared-lower-feed investigation;
+- shutting the lower water feed as the central opening resolution;
+- the instruction not to declare the remaining water safe as a mandatory story beat;
+- contamination residue as the breadcrumb leading underground;
+- the hidden waterworks maintenance door as the required route into the Sunken Archive;
+- the assumption that S012's old waterworks investigation is what launches the deeper Chapter-2 story.
+
+The historical S012 transcript remains usable only for character voice, Dunmere atmosphere, or isolated staging ideas that survive the new structure. Its old causal sequence is not current canon.
+
 ---
 
 # Lean Story Beats
 
-## Beat 1 — Dunmere / Poisoned Waterworks — legacy S012
+## Beat 1 — Dunmere Opening — legacy S012 REOPENED
 
-**Purpose**
-- introduce Dunmere as a functioning community under immediate pressure rather than a ruined settlement;
-- establish that the water contamination is deliberate;
-- let Ilyra, Torren, Cyanis, and Maevra contribute according to their actual roles;
-- discover the hidden old infrastructure leading into the Sunken Archive.
+**Status:** OPEN FOR REDESIGN.
 
-**Starting state**
-- party arrives from the Wayfinder-side route.
-- direct Greenhollow–Dunmere road remains blocked by Black Host control.
-- combat party is Cyanis + Ilyra + Torren.
-- Maevra travels with them but is never a combat participant.
+**Still locked**
+- the party reaches Dunmere from the Wayfinder / southern-Briar side;
+- Dunmere is a functioning community rather than a destroyed settlement;
+- combat party is Cyanis + Ilyra + Torren;
+- Maevra may remain present in the story but is never a combat participant;
+- the direct Greenhollow–Dunmere road is still unavailable because of Black Host control.
 
-**Required events**
-- Dunmere is active and functioning despite a spreading sickness crisis.
-- multiple affected districts share the same **lower water feed**.
-- local authorities have already reacted sensibly to known danger; they are not portrayed as incompetent.
-- Ilyra establishes that continued exposure cannot be ruled out.
-- investigation of the waterworks shows the contaminant entered **after normal filtration / inside the managed system**, establishing deliberate interference rather than ordinary river contamination.
-- the unsafe **lower feed is shut down** despite the practical cost to the district it supplies.
-- the public message is precise: the lower feed is closed; **nobody claims the rest of Dunmere's water is proven safe**.
-- with the lower feed stopped, the party identifies an old sealed maintenance/service access associated with the same contamination trail.
-- the lock / access is not part of current Dunmere operations.
-- opening it reveals older infrastructure descending beneath the modern waterworks.
-- the contamination trail continues downward.
-- the old passage opens into the **Sunken Archive**.
+**No longer locked**
+- poisoned waterworks;
+- spreading sickness caused by contamination;
+- lower-feed shutdown;
+- deliberate poisoning investigation;
+- old-service-door discovery as the mandatory transition underground;
+- any other S012 beat whose only purpose was supporting the poisoned-water storyline.
 
-**Character functions**
-- **Ilyra:** medical/safety judgment; refuses false reassurance and prioritizes preventing continued exposure.
-- **Torren:** reads infrastructure, flow, routes, and old service access.
-- **Cyanis:** practical investigation and action; helps establish deliberate tampering.
-- **Maevra:** coordinates authority response and keeps the town's operational reaction organized without becoming a combatant.
-- **Dunmere personnel:** competent locals responding to incomplete information rather than obstacles for the party to outsmart.
-
-**End state / knowledge change**
-- contamination is confirmed as deliberate.
-- lower feed is isolated, but Dunmere's overall water safety remains unresolved.
-- someone accessed / used infrastructure outside the modern mapped system.
-- the party has found a physical route beneath Dunmere connecting the poisoning to older structures.
-
-**Gameplay handoff**
-→ **Beat 2 — Sunken Archive / Archive Leviathan**
-
-**Reveal firewall**
-Do not resolve:
-- the full Black Host transfer operation before the Archive evidence is found;
-- the later prisoner-gallery situation;
-- Rhazek's full role before the Bastion sequence;
-- Chapter-3 Last Sentinel material;
-- later underground truth.
+**Design requirement for the replacement opening**
+- establish Dunmere and the Chapter-2 problem without reusing the retired poisoning premise;
+- create a credible causal path into the chapter's deeper Black Host / transfer storyline if that later spine is retained;
+- do not prematurely reveal the prisoner operation, Rhazek's full role, or later Chapter-3 answers.
 
 ---
 
 ## Beat 2 — Sunken Archive / Archive Leviathan — legacy S013
-**Pending lean-beat migration. Current locked functions remain:**
+**Pending redesign/migration in light of the reopened Chapter-2 opening. Current retained functions, unless later revised:**
 - playable exploration/combat: Cyanis + Ilyra + Torren;
 - archive evidence establishes the transfer operation;
 - `thirty-one transfers` means transfer records / events, **not prisoner headcount**;
 - Archive Leviathan remains the major encounter for this section under live encounter authority.
+
+**Reopened dependency**
+- the exact reason the party enters the Sunken Archive and the physical route by which they reach it are no longer locked, because the old waterworks-contamination path has been retired.
 
 ---
 
