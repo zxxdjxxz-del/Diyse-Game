@@ -316,28 +316,86 @@ Do not reveal:
 
 ---
 
-## Beat 5 — Extraction Causeway — legacy S016
+## Beat 5 — Extraction Causeway / Hold the Junction — legacy S016 REOPENED
 
-**Current locked functions**
-- exactly one mandatory authored combat: **Hold the Junction**.
-- playable combat remains Cyanis + Ilyra + Torren.
-- Maevra may command/coordinate evacuation around the battle but is never a combat-party member.
-- no second rearguard battle.
-- no combat after final extraction threshold.
-- extraction resolves toward **Greenhollow**.
-- breaking the Bastion's obstruction reopens the direct **Greenhollow ↔ Dunmere road** after Chapter 2.
+**Purpose**
+- evacuate the freed prisoners through the Greenhollow-side route opened from the Bastion controls;
+- give Chapter 2 one final authored combat built around protecting the moving column;
+- preserve incomplete accounting for people already transferred elsewhere;
+- break the Bastion's practical control of the corridor and reopen the direct Greenhollow–Dunmere road;
+- end the chapter on evacuation / recovery rather than another boss or villain sting.
 
-**Status:** pending lean-beat migration.
+**Starting state**
+- Rhazek has been defeated locally and withdrawn.
+- the party controls the Bastion's gate / transfer infrastructure.
+- prisoners in the lower safe pocket have been told the route is available and are preparing to move.
+- combat party: **Cyanis + Ilyra + Torren**.
+- Maevra coordinates the evacuation but never enters battle.
+
+**Required progression**
+- the party returns to / departs with the prisoners from the defensible safe pocket.
+- the evacuation uses the maintained route toward the **Greenhollow side**, not the secret waterworks / Sunken Archive route back to Dunmere.
+- injured / weakened evacuees are accommodated rather than simply ordered to keep pace with healthy adults.
+- Torren leads route movement and identifies any practical obstruction that must be cleared before the column can pass.
+- Maevra coordinates the column and route timing.
+- Ilyra supports injured evacuees while remaining part of the combat trio when battle begins.
+- Cyanis helps hold the route when Black Host forces attempt to cut or stop the moving column.
+- a missing-person / missing-relative thread may remain visible through evacuees who know someone was transferred elsewhere; the party does **not** invent an answer or promise immediate recovery.
+
+**Mandatory combat — Hold the Junction**
+- **Hold the Junction is the only mandatory authored combat in this extraction beat.**
+- combat party: Cyanis + Ilyra + Torren.
+- Maevra is never a battle participant.
+- the encounter exists because Black Host forces attempt to cut the evacuation column / retake the route.
+- enemy pressure is finite; there is no second rearguard battle after it.
+- once the immediate force is defeated, the evacuation resumes.
+
+**Final extraction threshold**
+- the column reaches and crosses the final Greenhollow-side gate / safe threshold.
+- **no combat occurs after the final extraction threshold.**
+- do not add a surprise second battle, hidden boss, Rhazek rematch, or antagonist sting after the evacuees are through.
+- Rhazek remains withdrawn from Beat 4.
+
+**Chapter-state payoff**
+- breaking the Bastion's command / gate control and successfully clearing the extraction corridor removes the immediate Black Host obstruction from the route.
+- after Chapter 2, the direct **Greenhollow ↔ Dunmere road is reopened for travel**.
+- the extraction resolves on the **Greenhollow side**, superseding older staging that returned the rescued group to Dunmere.
+- the chapter ending may show evacuees receiving care, resting, regrouping, or waiting for news of people still unaccounted for.
+- the final emotional image should emphasize **people successfully evacuated but accounting still incomplete**, not a triumphant victory pose.
+
+**Character functions**
+- **Torren:** leads the extraction route and keeps the path physically viable for the column.
+- **Ilyra:** supports wounded / weakened evacuees and preserves individual needs during movement.
+- **Cyanis:** anchors the defensive response when the column is threatened.
+- **Maevra:** coordinates timing, movement, and the larger evacuation without becoming playable.
+- **Evacuees:** remain people with their own missing relatives, injuries, choices, and uncertainty rather than becoming a faceless success count.
+
+**End state / world-state change**
+- the freed prisoners have reached safety on the Greenhollow side.
+- Chapter 2's mandatory combat is complete.
+- Rhazek remains alive and withdrawn.
+- not every kidnapped / transferred person is accounted for; the missing-person thread remains unresolved.
+- the Red Transfer Bastion's local control of the corridor is broken.
+- **Greenhollow ↔ Dunmere direct travel is reopened after Chapter 2.**
+- the party can continue the larger journey with the trio intact.
+
+**Reveal firewall**
+Do not resolve:
+- every person previously transferred through the Bastion;
+- the missing-relative thread;
+- Seyrik's identity;
+- Chapter-3 Last Sentinel / Old City answers;
+- later underground truth.
 
 ---
 
 ## Chapter-2 dramatic shape
-**Wayfinder → Dunmere → travelers kidnapped on the Caelora road / Greenhollow road made unsafe by the seized Red Transfer Bastion → town elder reveals secret waterworks entry → covert lower approach → Sunken Archive → Archive Leviathan → transfer records / organized kidnapping revealed → Prisoner Galleries / temporary safe pocket → extraction route found but controlled from upper Bastion → active Red Transfer Bastion command layer → Rhazek confrontation / Bastion Master → controls seized while Rhazek withdraws → return for prisoners → extraction toward Greenhollow → direct Greenhollow–Dunmere road reopened.**
+**Wayfinder → Dunmere → travelers kidnapped on the Caelora road / Greenhollow road made unsafe by the seized Red Transfer Bastion → town elder reveals secret waterworks entry → covert lower approach → Sunken Archive → Archive Leviathan → transfer records / organized kidnapping revealed → Prisoner Galleries / temporary safe pocket → extraction route found but controlled from upper Bastion → active Red Transfer Bastion command layer → Rhazek confrontation / Bastion Master → controls seized while Rhazek withdraws → return for prisoners → Greenhollow-side extraction → Hold the Junction → final extraction threshold → direct Greenhollow–Dunmere road reopened.**
 
 ## Long arcs advanced
 - Rhazek established as competent/ideological Black Host command.
 - Seyrik seeded before reveal.
-- missing-brother thread remains unresolved.
+- missing-person / missing-relative thread remains unresolved.
 - world map gains a concrete traversal-state change through reopening the Greenhollow–Dunmere road.
 
 ## Knowledge firewall
