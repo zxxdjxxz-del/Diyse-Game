@@ -370,6 +370,7 @@ Do not yet reveal:
 - **Last Sentinel** is therefore a real Ancient designation, but nobody yet has enough context to explain exactly what it means.
 - Nimera may recognize `sentinel` as a functional word / category while remaining unable to explain the full phrase.
 - the party does not yet know whether `previous error` refers to Cyanis, the Card, the Warden's prior assessment, a historical event, or something else.
+- **this confirmation does not place Last Sentinel in the Recovered state and does not make it usable.**
 
 **Cyanis's Card response**
 - only after the Last Sentinel confirmation does Cyanis's recovered Card respond again.
@@ -378,6 +379,7 @@ Do not yet reveal:
 - there is **no figure, voice, silhouette, autonomous attack, or Prime manifestation**.
 - nobody identifies the Card here as **Might**, a **Prime**, or definitively **Last Sentinel**.
 - the timing makes a relationship plausible, but not yet fully explained.
+- the Ruby response itself is **not** Last Sentinel recovery.
 
 **Final room — ancient seal-working chamber**
 - clearing the Warden opens / exposes a protected chamber beyond the command floor.
@@ -413,7 +415,7 @@ Do not yet reveal:
 - the route map therefore adds two questions for the return to Caelora: **what is the intermediate site, and where did the route continue north afterward?**
 
 **Character functions**
-- **Cyanis:** remains the Card's physical holder and experiences the stable Ruby response without gaining a complete explanation.
+- **Cyanis:** remains the Card's physical holder and experiences the stable Ruby response without gaining a complete explanation or a usable Prime.
 - **Ilyra:** keeps attention on the practical danger of a magical seal carrying authority independently of the ruler's immediate intent.
 - **Torren:** reads and copies the final-room route geometry, including the important unlabeled site and the continuation north beyond it.
 - **Nimera:** identifies the ancient seal-working chamber's function with appropriate caution, recognizes its implications for the Queen's seal and Yahtrean history, and refuses to overclaim exact continuity or the culprit.
@@ -422,6 +424,7 @@ Do not yet reveal:
 **End state / knowledge change**
 - the party has defeated the First Command Warden.
 - `/LAST SENTINEL CONFIRMED/` is now an explicit Ancient phrase encountered by the party.
+- **Last Sentinel is not yet Recovered and cannot yet be used.**
 - Cyanis's Card has resolved to a stable **deep Ruby** response.
 - no Prime manifestation has occurred.
 - the party has discovered an **ancient physical authority seal and a mechanism used to imbue such seals with magic**.
@@ -446,6 +449,7 @@ Do not yet reveal:
 - the Card as Might;
 - the Card as a Prime;
 - a complete explanation of Last Sentinel;
+- Last Sentinel recovery or gameplay use before the Chapter-4 opening fight;
 - the identity of the unlabeled route-map site before Mirena examines Torren's copy;
 - the destination / purpose of the route continuing north beyond that site;
 - a full explanation for the changed ancient geography.
@@ -456,7 +460,8 @@ Do not yet reveal:
 **Pending lean migration. Current locked functions remain:**
 - bounded answers become: **Prime / Might / Last Sentinel**;
 - ultimate meaning remains unknown;
-- Last Sentinel becomes **Recovered / usable**;
+- **Last Sentinel remains identified / confirmed but unrecovered and unusable throughout the Chapter-3 ending**;
+- its recovery and first usable manifestation occur during **Chapter 4 S022 — Brilliant Answer**;
 - the party returns to Mirena with the ancient seal-working evidence and Torren's route drawing;
 - Mirena studies / recognizes the copied geography and identifies the major unlabeled site on the Ancient map;
 - Mirena explains that the site **used to be called Cresthaven**;
@@ -468,8 +473,8 @@ Do not yet reveal:
 ## Recruitment
 > **Nimera Pellan joins permanently.**
 
-## Story Prime
-> **Last Sentinel recovered.**
+## Story Prime state at Chapter-3 end
+> **Last Sentinel identified / confirmed, but NOT Recovered and NOT usable. Recovery occurs during Chapter 4 S022.**
 
 ## Mysteries retained
 - Calder's hidden original involvement is not exposed until the appropriate reveal;
@@ -480,7 +485,7 @@ Do not yet reveal:
 - the seal mystery and Ancient / Card mystery are not assumed to have the same cause merely because Nimera studies both;
 - cartographic mystery expands through **Cresthaven and the unresolved route continuing north beyond it**;
 - Cresthaven becomes durable headquarters;
-- the first verified modern Prime manifestation has still not happened.
+- the first verified modern Prime manifestation and Last Sentinel recovery have **not** happened by the end of Chapter 3.
 
 ## Optional return
 Regional Hunt #3 becomes a returnable Old City / Archive branch only after the immediate story resolution.
