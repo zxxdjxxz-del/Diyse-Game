@@ -498,11 +498,28 @@ Current required functions:
 - it does not provide the exact method used to create the suspect orders.
 
 **Routing discovery:**
-- Torren also copies a surviving routing display showing roads / high ground / water / destination geometry extending beyond ancient Caelora;
-- **Cresthaven is not named in S020**;
-- the route remains an unidentified continuation until the later Beat-5 comparison.
+- Torren also copies a surviving Ancient routing display showing roads / high ground / water / major destination geometry extending beyond ancient Caelora;
+- the map itself contains **no readable `Cresthaven` name**;
+- one major site is preserved clearly enough to copy but cannot be confidently identified by the party while they are still in the Old City;
+- the Ancient route **continues north beyond that site** toward additional unresolved terrain / destination geometry;
+- Torren copies the major site and the surviving northward continuation for later comparison;
+- no character identifies the site as Cresthaven in S020.
 
-### Chapter-3 production firewall through S020
+### Ch3 S021 — FOUR ANSWERS, NOT ONE — CRESTHAVEN IDENTIFICATION
+Current route-map handoff:
+- the party returns to Mirena with Torren's copied route geometry and the Old City discoveries;
+- **Mirena**, not the Ancient map and not the party in S020, recognizes the important unlabeled site;
+- Mirena explains that the site **used to be called Cresthaven**;
+- Cresthaven is associated with the abandoned Crown outpost in **Yahtrenhold** and becomes the party's next temporary working headquarters;
+- the copied Ancient route does **not** stop at Cresthaven: it continues **north beyond it**;
+- the farther northern destination / purpose remains unresolved at the end of Chapter 3.
+
+Other current Beat-5 functions remain:
+- bounded answers become **Prime / Might / Last Sentinel**;
+- ultimate meaning remains unknown;
+- Last Sentinel becomes **Recovered / usable**.
+
+### Chapter-3 production firewall through S021
 Do not regenerate:
 - containment / arrest on Caelora arrival;
 - public Mirena dialogue telling Calder she wants Nimera for the seal investigation;
@@ -515,7 +532,9 @@ Do not regenerate:
 - proof that ancient seal magic can simply be copied / transferred into another seal;
 - bearer confirmation;
 - premature Might / Prime identification;
-- Cresthaven before the later Beat-5 reveal.
+- `Cresthaven` written / spoken as a readable label on the Ancient routing map;
+- the party identifying the unlabeled site as Cresthaven before Mirena examines Torren's copy;
+- treating Cresthaven as the end of the Ancient route rather than an intermediate site on a route continuing north.
 
 # Other Dialogue Corrections
 
