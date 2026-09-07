@@ -100,21 +100,71 @@ Do not yet reveal:
 
 ## Beat 2 — Waterworks / Sunken Archive / Archive Leviathan — legacy S013 REOPENED
 
-**Current retained direction**
-- the elder's secret waterworks route carries the party into **older submerged infrastructure beneath / inside the Red Transfer Bastion complex**.
-- the **Sunken Archive** remains part of that lower route unless later revised.
-- playable exploration/combat: Cyanis + Ilyra + Torren.
-- Maevra remains non-combat.
-- archive / transfer evidence reveals that the kidnappings are part of an organized Black Host transfer operation.
-- `thirty-one transfers` means transfer records / events, **not prisoner headcount**.
-- Archive Leviathan remains the major encounter for this lower section under live encounter authority.
-- the lower route ultimately leads deeper into the Bastion's prisoner / transfer infrastructure.
+**Purpose**
+- use the elder's hidden waterworks route to infiltrate the Red Transfer Bastion from below;
+- reveal that the old fort sits over / incorporates a much older submerged archive layer;
+- preserve the Sunken Archive as a substantial dungeon and the **Archive Leviathan** as its major boss;
+- let the post-boss records prove that the kidnappings are part of an organized Black Host transfer operation;
+- deliver the party into the Bastion's prisoner infrastructure without yet resolving the full operation.
 
-**Reopened for lean migration**
-- exact waterworks traversal beats;
-- exact Archive discovery order;
-- exact transfer-record dialogue;
-- exact physical transition from the Archive into the prisoner area.
+**Starting state**
+- the party knows the Black Host is kidnapping travelers leaving Dunmere toward Caelora.
+- the party knows the Red Transfer Bastion is the seized old fort controlling the dangerous Greenhollow road.
+- the Dunmere town elder has given them a covert route through old waterworks connected to the Bastion's lower structure.
+- combat party: **Cyanis + Ilyra + Torren**.
+- Maevra remains present only in non-combat story/command capacity where appropriate.
+
+**Required progression**
+- the party enters the old waterworks through access provided / identified by the town elder.
+- the waterworks function as a **secret infiltration route**, not as a poisoned-water investigation.
+- Torren navigates the older service passages and confirms that the route is viable for reaching the Bastion without using the occupied road approach.
+- familiar municipal / Yahtrean waterworks gradually give way to **much older submerged construction beneath the Bastion**.
+- this older layer is the **Sunken Archive**.
+- the Archive contains flooded passages, surviving preservation infrastructure, and active ancient defenses / hazards as supported by live encounter authority.
+- signs of recent Black Host use begin appearing deeper inside: disturbed silt, fresh footprints, newer braces / locks / hardware, moved supplies, drag or transport marks, and reused service passages.
+- these clues show that the Black Host has been using the lower complex, but **do not yet provide the full transfer explanation**.
+- the party reaches the Archive basin / protected records route where the **Archive Leviathan** prevents further progress.
+
+**Archive Leviathan**
+- the Archive Leviathan remains the **major boss of the Sunken Archive**.
+- combat party: Cyanis + Ilyra + Torren.
+- Maevra is never a battle participant.
+- its existing **one-HP-bar / two-behavior-state** structure remains valid unless live encounter authority later revises the mechanics.
+- the boss is part of the old Archive ecology / defense environment; defeating it is what allows the party to continue to the protected records / service route beyond it.
+
+**Post-boss transfer reveal**
+- after the Leviathan is defeated, the party gains access to records or materials that are clearly **much newer than the surrounding ancient Archive**.
+- the records establish that the Black Host has been moving captives through an organized **transfer system** connected to the Bastion.
+- the historical `thirty-one transfers` clue may remain, but it means **thirty-one recorded transfer entries / events**, not thirty-one prisoners and not a complete captive count.
+- the party must not treat the recorded number as proof of the total number of people taken.
+- physical evidence and the records point toward a service route deeper into the Bastion.
+- beyond that route, the party detects unmistakable signs of living captives / prisoners.
+
+**Character functions**
+- **Torren:** navigation, route reading, physical interpretation of how the old service passages connect into the Bastion.
+- **Cyanis:** drives the push forward once the transfer evidence confirms the kidnappings are systematic.
+- **Ilyra:** focuses attention on the condition and immediate welfare of the people being moved through the system.
+- **Maevra:** interprets the evidence as an organized Black Host operation without becoming a combatant.
+
+**End state / knowledge change**
+- the party has successfully infiltrated beneath the Red Transfer Bastion.
+- the Sunken Archive is confirmed as an older layer beneath / incorporated into the fort complex.
+- the Archive Leviathan is defeated.
+- the party now knows the kidnappings feed an organized Black Host transfer operation.
+- the exact total number of captives, final destination, and full purpose of the transfers remain unknown.
+- the party has found the route into the **Prisoner Galleries**.
+
+**Gameplay handoff**
+→ **Beat 3 — Prisoner Galleries**
+
+**Reveal firewall**
+Do not yet reveal:
+- the complete number of kidnapped people;
+- the final destination / full purpose of the transfer system;
+- Rhazek's complete explanation or later role before the Bastion command confrontation;
+- Seyrik's identity;
+- Chapter-3 Last Sentinel / Old City answers;
+- later underground truth.
 
 ---
 
@@ -164,7 +214,7 @@ Do not yet reveal:
 ---
 
 ## Chapter-2 dramatic shape
-**Wayfinder → Dunmere → travelers kidnapped on the Caelora road / Greenhollow road made unsafe by the seized Red Transfer Bastion → town elder reveals secret waterworks entry → covert lower approach → Sunken Archive / transfer evidence → prisoner galleries → Red Transfer Bastion command layer / Rhazek → extraction toward Greenhollow → direct Greenhollow–Dunmere road reopened.**
+**Wayfinder → Dunmere → travelers kidnapped on the Caelora road / Greenhollow road made unsafe by the seized Red Transfer Bastion → town elder reveals secret waterworks entry → covert lower approach → Sunken Archive → Archive Leviathan → transfer records / organized kidnapping revealed → Prisoner Galleries → Red Transfer Bastion command layer / Rhazek → extraction toward Greenhollow → direct Greenhollow–Dunmere road reopened.**
 
 ## Long arcs advanced
 - Rhazek established as competent/ideological Black Host command.
