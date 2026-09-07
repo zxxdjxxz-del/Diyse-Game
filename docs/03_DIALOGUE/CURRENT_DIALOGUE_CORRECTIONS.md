@@ -187,7 +187,7 @@ Earlier production-firewall correction remains applicable where relevant:
 
 # Chapter 2 — Reopened Dialogue Migration Overlay
 
-### Ch2 S012 — DUNMERE OPENING — REOPENED / POISONED WATERWORKS RETIRED
+### Ch2 S012 — DUNMERE / MISSING TRAVELERS — REOPENED / POISONED WATERWORKS RETIRED
 The historical line-complete S012 is no longer current scene structure. Its earlier **APPROVED / LOCKED** label is historical only.
 
 Retired from current Chapter-2 authority:
@@ -196,18 +196,39 @@ Retired from current Chapter-2 authority:
 - the shared lower-feed investigation;
 - shutting the lower feed as the mandatory opening resolution;
 - contamination residue as the clue leading below Dunmere;
-- the hidden waterworks maintenance door as the mandatory route into the Sunken Archive;
 - any dialogue whose story function depends on the poisoned-waterworks premise.
 
-Still usable if compatible with the replacement opening:
-- Dunmere as a functioning community;
-- Cyanis, Ilyra, Torren, and Maevra voice/performance material;
-- local atmosphere or staging fragments that do not imply the retired crisis;
-- Maevra remaining non-combat.
+Current replacement opening:
+- the party reaches functioning **Dunmere** after Wayfinder;
+- people leaving Dunmere on the road toward **Caelora** have been disappearing because the **Black Host is kidnapping travelers**;
+- the direct **Greenhollow–Dunmere road is too dangerous** because the Black Host has seized the **Red Transfer Bastion**;
+- **the Red Transfer Bastion is the seized old fort off / controlling the Greenhollow road, not a separate fort or later unrelated location**;
+- the Dunmere town elder tells the party about a little-used **waterworks route that secretly connects into the Bastion's lower structure**;
+- the party uses that route as the covert way into the Bastion to investigate the kidnappings and break its control of the road.
 
-Current story authority for the replacement Dunmere opening lives in `docs/02_STORY/CHAPTERS/CHAPTER_02.md` and is **OPEN FOR REDESIGN**. The Dialogue Engine must not regenerate the old poisoning sequence unless that direction is explicitly restored later.
+Waterworks migration rule:
+- waterworks are retained as **secret access infrastructure**, not as a poisoning investigation;
+- compatible old environmental/staging material may be reused only if it supports the covert approach without restoring contamination;
+- the Dialogue Engine must not regenerate the old lower-feed crisis.
 
-The old S012 → Sunken Archive causal connection is also reopened: the party's new reason and physical route for reaching the Archive must be established by the replacement Chapter-2 structure.
+### Ch2 S013 — SUNKEN ARCHIVE — CONNECTIVE FUNCTION REOPENED
+Historical S013 may remain source material, but its old entry logic from contaminated water is retired.
+
+Current connective authority:
+- the elder's waterworks route leads into **older submerged infrastructure beneath / inside the Red Transfer Bastion complex**;
+- the Sunken Archive remains part of that covert lower approach unless later revised;
+- archive / transfer evidence reveals that the kidnappings are part of an organized Black Host transfer system;
+- `thirty-one transfers` means transfer records / events, **not prisoner headcount**;
+- the lower route continues toward the Bastion's prisoner / transfer areas.
+
+### Ch2 S014–S016 — BASTION CONTINUITY
+For current migration, treat S014 Prisoner Galleries, S015 Red Transfer Bastion, and S016 Extraction Causeway as successive parts of the **same Bastion operation**, not separate unrelated sites.
+
+- Prisoner Galleries are inside the Bastion complex reached from the covert lower route.
+- S015's Red Transfer Bastion is the same seized old fort established at Dunmere.
+- Rhazek owns the operation and survives / withdraws under current story authority.
+- the masked second officer remains Seyrik Rell, anonymous to party/player.
+- extraction pushes toward Greenhollow and breaking the Bastion's control reopens the direct **Greenhollow ↔ Dunmere road**.
 
 # Other Dialogue Corrections
 
