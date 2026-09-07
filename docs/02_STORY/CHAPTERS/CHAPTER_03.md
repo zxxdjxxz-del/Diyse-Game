@@ -464,7 +464,9 @@ Do not yet reveal:
 - give the Card three bounded identifications — **Prime, Might, Last Sentinel** — while preserving the larger unknowns;
 - report the ancient seal-working discovery without solving the Queen-seal mystery;
 - have Mirena identify the major unlabeled route-map site as the place once called **Cresthaven**;
-- establish Cresthaven as the next working headquarters and preserve the Ancient route continuing farther north;
+- move the party physically to Cresthaven and establish it as their working headquarters;
+- open a Chapter-3 cleanup period at Cresthaven before the player chooses to begin Chapter 4;
+- preserve the Ancient route continuing farther north;
 - end Chapter 3 with Last Sentinel still unrecovered and unusable so Chapter 4's opening fight remains the true recovery event.
 
 **Starting state**
@@ -526,16 +528,39 @@ Do not yet reveal:
 - the Ancient route does **not** end there: Torren's copy clearly shows the route continuing **north beyond Cresthaven**.
 - the farther northern destination and the purpose of that continuation remain unresolved.
 
-**Why Cresthaven becomes the next headquarters**
-- Mirena decides to have the abandoned Cresthaven site made minimally usable as a **working headquarters**.
-- it sits directly on the route the party is trying to understand and gives them a practical place for records, supplies, medical support, rest, and route planning outside crowded Caelora.
-- this is a limited reactivation, not a claim that the entire outpost is restored immediately.
-- Mirena can send a small Crown work / security team ahead so Chapter 4 may open with Cresthaven already in the process of being made usable.
+**Move to Cresthaven / chapter-ending headquarters scene**
+- Mirena sends a small Crown work / security team ahead and then accompanies or meets the party at Cresthaven once the minimum safe areas are opened.
+- the mandatory Chapter-3 story **ends physically at Cresthaven**, not in Caelora.
+- Cresthaven is still visibly abandoned / partly reclaimed when they arrive; only essential spaces have been cleared and made usable.
+- Mirena tells the group that **they can use Cresthaven as their headquarters until they figure out what is happening**; exact wording belongs to the Dialogue Engine.
+- the headquarters is practical rather than ceremonial: records / map work, supplies, basic medical space, rest, security, and staging for departures.
+- the location's older Diysean structure remains visible beneath / around the later Crown outpost.
+- Mirena does not pretend the seal mystery, Last Sentinel, or the northward route has been solved; Cresthaven is a place from which to keep working on all three.
+
+**Chapter-3 cleanup window — Cresthaven hub**
+- after Mirena establishes Cresthaven as the party's headquarters, the player receives **free control and a non-forced cleanup period while Chapter 3 remains active**.
+- the player may complete any currently available **Hunts / regional returns / optional combat content** whose normal access conditions are satisfied, including the Chapter-3 Old City / Archive return branch when available.
+- still-open earlier Hunts may also be completed if their world access remains valid; entering cleanup does not automatically close them unless separate authority says otherwise.
+- Chapter-3 Character-Life scenes are available from the Cresthaven hub during this window. Current Cresthaven-staged set is:
+  - **H01 — Nimera Takes Over a Table**;
+  - **H02 — Torren and Maevra, Unsupervised**;
+  - **H03 — Ilyra and Nimera**;
+  - **H04 — Last Sentinel Is Not Invited**.
+- their historical `after S018` / `after S019` timing notes are superseded where necessary by the rebuilt geography: **all four are valid in the Cresthaven cleanup window after the mandatory Chapter-3 story reaches Cresthaven**.
+- the player may do any, all, or none of the available Character-Life scenes and Hunts before advancing.
+- cleanup content must not recover / manifest Last Sentinel or reveal information reserved for Chapter 4+.
+
+**Player-controlled Chapter-4 start**
+- Chapter 4 does **not** begin automatically when the Cresthaven headquarters scene ends.
+- a deliberate main-story interaction / prompt at Cresthaven allows the player to choose when to **begin Chapter 4**.
+- until that choice is made, the game remains in the Chapter-3 Cresthaven cleanup state.
+- choosing to begin Chapter 4 closes the Chapter-3 story state and advances into **S022 — Brilliant Answer** at Cresthaven.
+- the exact UI wording / trigger presentation belongs to implementation / Dialogue Engine authority; the story requirement is that progression is **player-chosen, not automatic**.
 
 **Character functions**
 - **Queen Lysara:** receives the seal discovery as a serious threat / historical problem and permits a deeper review of the royal seal's history without pretending the mystery is solved.
-- **Mirena:** keeps the seal inquiry controlled, identifies old Cresthaven from Torren's route copy, and makes the practical decision to reactivate it as a working base.
-- **Maevra:** keeps conclusions narrow and transitions the party from investigation to the next operational objective.
+- **Mirena:** keeps the seal inquiry controlled, identifies old Cresthaven from Torren's route copy, establishes it as the party's headquarters, and gives the group room to operate from it while the unresolved investigations continue.
+- **Maevra:** keeps conclusions narrow and transitions the party from investigation into an operational headquarters / cleanup state.
 - **Nimera:** supplies the bounded Prime / Might / Last Sentinel identifications and states clearly what remains unknown.
 - **Torren:** supplies the route geometry and emphasizes that the Ancient road continues north beyond Cresthaven.
 - **Cyanis:** remains the Card's physical holder; the new labels do not answer why it reacts to him.
@@ -544,20 +569,23 @@ Do not yet reveal:
 **End state / knowledge change**
 - Cyanis's Card is identified as a **Prime** associated with **Might** and named / designated **Last Sentinel**.
 - the ultimate meaning of Last Sentinel and the reason for its connection to Cyanis remain unknown.
-- **Last Sentinel is NOT Recovered, NOT manifested, and NOT gameplay-usable at the end of Chapter 3.**
+- **Last Sentinel is NOT Recovered, NOT manifested, and NOT gameplay-usable throughout Chapter 3, including the cleanup window.**
 - the first actual manifestation / recovery remains reserved for **Chapter 4 S022 — Brilliant Answer**.
 - the ancient seal-working chamber has made the true age / lineage of Yahtrea's royal seal tradition an active mystery, but unauthorized use of the Queen's seal remains unsolved.
 - Mirena identifies the unlabeled route-map site as the place formerly called **Cresthaven**.
-- Cresthaven becomes the party's next working headquarters.
+- the party is physically based at Cresthaven and may use it as headquarters while the unresolved mysteries are investigated.
 - the Ancient route continues **north beyond Cresthaven** toward an unresolved destination.
+- Chapter 3 remains in cleanup state until the player deliberately begins Chapter 4.
 
 **Gameplay / chapter handoff**
-→ Chapter 3 ends after the Caelora debrief and decision to establish Cresthaven.  
-→ **Chapter 4 opens at Cresthaven after Mirena's advance crews have begun making it usable.**  
-→ The **Elder Briarhide fight in Chapter 4 S022** becomes Last Sentinel's first manifestation, true recovery event, and first gameplay use.
+→ Mandatory Chapter-3 story ends with **Mirena establishing Cresthaven as the party's headquarters**.  
+→ **Chapter-3 Cresthaven cleanup window:** Hunts / eligible returns / Character-Life scenes / preparation.  
+→ Player deliberately chooses **Begin Chapter 4** when ready.  
+→ **Chapter 4 S022 — Brilliant Answer** then begins at Cresthaven.  
+→ The **Elder Briarhide fight in S022** becomes Last Sentinel's first manifestation, true recovery event, and first gameplay use.
 
 **Reveal firewall**
-Do not reveal in the Chapter-3 ending:
+Do not reveal in the Chapter-3 ending / cleanup window:
 - proof that Calder ordered the original transport;
 - Calder's full motive;
 - who used / invoked the Queen's personal seal;
@@ -578,6 +606,9 @@ Do not reveal in the Chapter-3 ending:
 ## Story Prime state at Chapter-3 end
 > **Last Sentinel is identified as a Might Prime, but is NOT Recovered and NOT usable. Recovery occurs during Chapter 4 S022.**
 
+## Chapter-end hub state
+> **Cresthaven is the party's working headquarters. Chapter 3 remains open for cleanup until the player chooses to begin Chapter 4.**
+
 ## Mysteries retained
 - Calder's hidden original involvement is not exposed until the appropriate reveal;
 - **how the Queen's personal magical seal was used / invoked without her authorization remains unresolved** until the appropriate later reveal;
@@ -586,8 +617,8 @@ Do not reveal in the Chapter-3 ending:
 - the seal mystery and Ancient / Card mystery are not assumed to have the same cause merely because Nimera studies both;
 - **Prime / Might / Last Sentinel** are now bounded identifications, but the ultimate meaning of Last Sentinel remains unknown;
 - cartographic mystery expands through **Cresthaven and the unresolved route continuing north beyond it**;
-- Cresthaven becomes the next working headquarters;
+- Cresthaven becomes the party's active headquarters and Chapter-3 cleanup hub;
 - the first verified modern Prime manifestation and Last Sentinel recovery have **not** happened by the end of Chapter 3.
 
 ## Optional return
-Regional Hunt #3 becomes a returnable Old City / Archive branch only after the immediate story resolution.
+Chapter-3-valid Hunts / regional returns remain available during the Cresthaven cleanup window according to their own access conditions; the Old City / Archive return branch may be revisited once its return condition is met.
