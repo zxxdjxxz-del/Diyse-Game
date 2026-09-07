@@ -348,15 +348,77 @@ Retired from old S016:
 - Dunmere-side safe-area staging as the required final geography;
 - any ending that leaves the Greenhollow–Dunmere road still blocked after the Bastion operation is broken.
 
-# Other Dialogue Corrections
+# Chapter 3 — Reopened Dialogue Migration Overlay
 
-### Ch3 S019 — Six Faces
-Earlier migration correction:
-`Might. Elements. Grace. Resource. Change. Ruin.` → `Might. Elements. Grace. Acuity. Change. Ruin.`
+### Ch3 S017 — CAELORA / THE QUEEN'S SEAL — REOPENED
+Historical S017 containment framing is retired. Current dialogue must treat the opening as a royal audience / report, not detention.
 
-That intermediate wording is now superseded.
+Current authority:
+- the party arrives voluntarily with Maevra and remains free;
+- the central audience includes the **Queen, Crown Princess Mirena Ceryth, Chancellor Othmar Calder, Maevra, Cyanis, Ilyra, and Torren**, with clerks / attendants where useful;
+- the Queen is hearing about this recovered Card for the first time and previously knew nothing about its recovery, custody, transport toward Caelora, or the party's route;
+- physical Crown orders concerning the Card nevertheless exist and bear the **Queen's authentic magical royal seal**;
+- the royal seal must be presented as magical royal authority carried by physical documents, not as a computer-like authentication token or digital system state;
+- the Queen personally denies issuing, authorizing, or sealing the orders.
 
-Current approved spoken line for **S019_B032**:
+**Calder:**
+- Calder is present in the audience;
+- he deliberately argues that committing Crown coin, escorts, manpower, or administrative effort to transport an **inactive / apparently non-working Card** would be absurd or insane; exact line wording remains Dialogue Engine territory;
+- underlying canon: Calder himself ordered the Card transported toward Caelora and is lying to conceal that involvement;
+- the scene must **not** expose that lie as proven fact to the party yet;
+- do not let Calder's hidden involvement automatically imply that he created the magical royal seal, caused the ambush, chose Cyanis, or knew the Card would respond.
+
+**Cyanis retains the Card:**
+- the Queen explicitly allows Cyanis to keep the Card for now;
+- the reason is caution, not bearer confirmation: the Card has repeatedly shown an unexplained effect / response around Cyanis, and nobody yet knows what forced separation or transfer might do;
+- the Queen does not order another custody experiment merely to satisfy procedure;
+- Maevra remains responsible for the party's handling of the artifact while Cyanis physically carries it;
+- dialogue must not convert this permission into proof that Cyanis is the Card's rightful bearer / owner.
+
+**Mirena's Old City lead:**
+- in front of the full room, Mirena says only that **one of Caelora's best Card-knowledge experts is currently working in the Old City archives** and should examine / advise on the Card;
+- underlying story identity: the expert is **Nimera Pellan**;
+- Mirena also privately expects Nimera to be very interested in the impossible royal-seal anomaly and wants her attention on it;
+- **Mirena does not mention that second reason in front of the room, including Calder**;
+- the Dialogue Engine must not give Mirena a public line announcing that she is sending the party to Nimera to investigate a breach involving the Queen's seal;
+- that secondary motive may remain internal or be shared later in a private context if useful.
+
+Fantasy-bureaucracy framing:
+- use physical orders, sealed dispatches, wax / magical impressions, ledgers, courier chains, clerks, registry books, archive copies, witness notations, and royal offices;
+- avoid language such as `the system generated an order`, `entered the system`, `live process`, `database`, or other computer-network framing.
+
+### Ch3 S018 — ORDERS THE QUEEN NEVER GAVE — REOPENED
+Current structure:
+- Mirena / Maevra trace the suspicious papers through physical Crown records and the people who handled them;
+- a **new physical Card-related sealed dispatch** arrives during the investigation and also bears the Queen's authentic magical royal seal even though she did not issue it;
+- the new dispatch is preserved as evidence rather than blindly obeyed;
+- lawful Crown / Ivory personnel remain officials, guards, clerks, couriers, archivists, and witnesses rather than mandatory enemies;
+- the old two required nonlethal Crown-authority battles are retired unless later story authority explicitly restores different confrontations;
+- the documentary trail points toward a restricted / suppressed judicial archive within the **Old City archives**;
+- this converges with Mirena's public reason for sending the party there: the Card expert is already working in that location;
+- Mirena's private expectation that Nimera will also care about the seal remains unspoken in the original full-room audience;
+- the party receives lawful access to the needed Old City archive areas.
+
+Do not reveal in S017/S018:
+- proof that Calder ordered the original Card transport;
+- Calder's full motive;
+- the mechanism behind the Queen's magical seal appearing without her act;
+- who ultimately produced / manipulated the sealed orders;
+- why the Card was targeted;
+- confirmed bearer status for Cyanis;
+- Last Sentinel, Prime, or Might identification;
+- Cresthaven;
+- Nimera's later permanent-party role before the party actually meets her.
+
+### Ch3 S019 — SCHOLAR IN REDACTED STACKS — REOPENED / NIMERA LEAD
+- the Card expert Mirena referred to is **Nimera Pellan**, already working in the Old City archives;
+- Mirena expects Nimera to be interested both in the abnormal Card and, privately, in the impossible royal seal;
+- the party's first actual meeting with Nimera must still preserve her reveal limits and not imply that she already knows the full truth of Cyanis's Card or the seal anomaly;
+- **Nimera Pellan joins permanently** during this beat;
+- the permanent combat-capable party becomes **Cyanis + Ilyra + Torren + Nimera**;
+- Maevra remains non-playable.
+
+Current Face terminology for S019 remains:
 > **NIMERA:** Might. Elements. Grace. Perception. Memory. Ruin.
 
 Therefore:
@@ -365,6 +427,8 @@ Therefore:
 - Face-name `Change` is retired → **Memory**.
 
 Only Face-system use of `Change` is replaced. Ordinary spoken English using the verb/noun `change` remains untouched.
+
+# Other Dialogue Corrections
 
 ### Ch0
 Retired internal ward label removed from current-facing transcript staging; spoken text unchanged.
