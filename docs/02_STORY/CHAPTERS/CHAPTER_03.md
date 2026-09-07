@@ -30,7 +30,8 @@ Do not restore:
 - restrictions on leaving Caelora merely because the Card is under review;
 - a containment order as the opening mystery;
 - movement writs whose only purpose is to let the party investigate while contained;
-- forced nonlethal battles with lawful Crown personnel simply because an authenticated Card order exists.
+- forced nonlethal battles with lawful Crown personnel merely because a suspicious Card order exists;
+- computer-like language in which orders appear through an abstract digital-style `system` rather than through royal offices, clerks, dispatches, ledgers, seals, archives, and physical documents.
 
 The Chapter-3 opening mystery is instead that **the Queen knows absolutely nothing about the Card, its origin, or its transport to Caelora, yet official orders concerning it carry her authentic magical royal seal**.
 
@@ -41,83 +42,95 @@ The Chapter-3 opening mystery is instead that **the Queen knows absolutely nothi
 ## Beat 1 — Caelora / The Queen's Seal — legacy S017 REOPENED FOR LEAN MIGRATION
 
 **Purpose**
-- bring the party into Caelora through a normal, voluntary report / review rather than detention;
-- continue the Ancient-route thread by having the party arrive already knowing that a much larger ancient city once occupied / was depicted at modern Caelora's location;
-- establish the Queen as a direct source of truth regarding what she did and did not authorize;
-- reveal the central Chapter-3 contradiction: official Card-related orders exist under the Queen's authentic magical royal seal even though she had no prior knowledge of the Card;
-- launch an authorized investigation into how those orders can exist.
+- bring the party into Caelora through a normal voluntary report rather than detention;
+- continue the Ancient-route thread by arriving with evidence that a much larger ancient city once occupied / was depicted at modern Caelora's location;
+- establish the Queen as the direct authority on what she did and did not order;
+- introduce **Chancellor Othmar Calder** in the royal audience and establish his concealed involvement without exposing it to the party;
+- reveal the central Chapter-3 contradiction: Card-related orders bear the Queen's authentic magical royal seal even though she had no prior knowledge of the Card;
+- launch the investigation into those orders.
 
 **Starting state**
 - the party reaches functioning **Caelora** after Chapter 2.
 - permanent combat-capable trio: Cyanis + Ilyra + Torren.
-- Maevra travels / acts as commander and authority figure but is never playable.
-- Cyanis still carries / remains directly connected to the recovered sealed Card under current knowledge limits.
-- the party came to Caelora voluntarily because the Card requires higher-level Crown investigation / authority.
-- Torren carries copies / notes from the Sunken Archive mural showing that the Ancient route they have followed continues toward Caelora and that a **much larger strange ancient city** occupied / was depicted at the same location.
+- Maevra acts as commander / authority figure but is never playable.
+- Cyanis still carries the recovered sealed Card under current knowledge limits.
+- the party came to Caelora because the Card requires higher Crown attention.
+- Torren carries copies / notes from the Sunken Archive mural showing that the Ancient route they have followed continues toward Caelora and that a **much larger strange ancient city** was depicted at the same location.
 
-**Caelora arrival**
+**Royal audience / review**
 - Caelora is busy, functional, and governed; it is not presented as sinister, abandoned, or under siege.
-- the party is received as Maevra's traveling group bringing an unusual recovered artifact for Crown review.
-- there is **no containment, arrest, custodial restriction, or automatic seizure of the Card** merely because the party has arrived.
-- ordinary movement and lawful activity remain available.
-- the Card is not casually opened or experimented on during this beat; no supernatural Card reaction is required here.
+- the party is received normally for Maevra's report.
+- the Queen, **Crown Princess Mirena Ceryth**, **Chancellor Othmar Calder**, Maevra, and the party are present for the central review; necessary royal clerks / attendants may also be present.
+- there is **no containment, arrest, custodial restriction, or automatic seizure of the Card**.
+- the Card is not casually opened or experimented on here; no supernatural Card reaction is required.
 
 **The Queen's knowledge state**
-- the Queen first learns the relevant facts from Maevra / the party during the Caelora review.
+- the Queen first learns the relevant facts from Maevra / the party during this audience.
 - before this report, the Queen knew **nothing** about:
   - the existence of this recovered Card;
-  - where it had been found / recovered;
-  - the circumstances that brought it into Maevra's custody;
-  - the fact that it was being transported toward Caelora;
+  - where it had been recovered;
+  - how it came into Maevra's custody;
+  - the fact that Crown resources had been used to move it toward Caelora;
   - the party's recent route with it.
 - the Queen therefore could not knowingly have issued Card-specific orders based on those facts.
 
+**Calder's lie**
+- Calder is present when the Queen's ignorance becomes clear.
+- he deliberately minimizes the Card and the idea that the Crown would have committed meaningful resources to transporting it.
+- his required dialogue function is that spending Crown coin, escorts, manpower, or administrative effort on an **inactive / apparently non-working Card** would be absurd or insane; exact wording belongs to the Dialogue Engine.
+- he presents this as sensible fiscal / administrative skepticism rather than a melodramatic denial.
+- **Underlying canon — not known or provable to the party here:** Calder himself ordered the recovered Card brought toward Caelora and therefore knows Crown resources were committed to it. His dismissal is a deliberate lie covering his own involvement.
+- Calder's hidden involvement does **not** mean the party may conclude he forged the Queen's magical seal, caused the convoy ambush, chose Cyanis, or knew the Card would activate. Those conclusions are not available here.
+
 **The impossible orders**
-- Crown records nevertheless contain **multiple official orders concerning the Card's recovery / custody / transport / receipt**.
-- the orders contain enough correct details to clearly refer to the same artifact and recent chain of movement the party is reporting.
-- every relevant order carries the **Queen's magical royal seal**.
-- royal authentication procedures confirm the seal as genuine under current Crown standards; it is not treated as a painted imitation, ordinary copied stamp, or crude forgery.
-- the Queen personally states that she **did not create, authorize, seal, or knowingly approve any of these orders**.
-- there is no matching royal instruction, audience, briefing, or remembered act that would explain the seal's presence.
-- the contradiction is therefore not simply `someone forged the Queen's signature`; an order that authenticates as royal exists without the Queen's knowledge or act of authorization.
+- physical royal documents are produced: dispatch orders, custody instructions, transport papers, receiving copies, ledger entries, or associated records as appropriate.
+- the surviving paperwork contains enough correct detail to clearly concern this Card and its recent movement.
+- the relevant orders bear the **Queen's magical royal seal**.
+- the seal is tested / read by the Crown's established magical means and responds as genuine royal authority; it is not merely a copied crest, painted mark, or ordinary forged wax impression.
+- the Queen personally states that she **did not create, authorize, seal, or knowingly approve these orders**.
+- the royal ledgers contain no audience, instruction, or remembered act from the Queen that explains them.
+- the central contradiction is therefore physical and magical: documents carrying the Queen's real authority exist although she never gave that authority.
 
 **Immediate response**
-- the Queen does not punish or detain the party for bringing the contradiction to light.
-- the Card remains with Cyanis / the traveling group under Maevra's supervised responsibility while the anomaly is investigated; exact custody handling can remain practical without becoming containment.
-- the suspect orders are preserved as evidence rather than blindly enforced.
-- the Queen authorizes a formal trace of where the orders entered Crown systems and how her magical royal seal became attached to them.
-- **Crown Princess Mirena Ceryth** becomes directly involved in the investigation and works with Maevra because the problem crosses royal authority, judicial records, and active Crown procedure.
+- the Queen does not punish or detain the party.
+- the Card remains with Cyanis / the traveling group under Maevra's responsibility while the matter is investigated.
+- the suspicious papers, seal impressions, copies, and relevant ledgers are preserved for examination rather than blindly obeyed.
+- the Queen orders the paper trail traced through the offices, clerks, dispatch books, registry ledgers, witnesses, and archives that handled it.
+- Mirena and Maevra take the lead on the investigation.
+- Calder remains outwardly cooperative / skeptical as appropriate to his office; his hidden lie is not exposed in this beat.
 
 **Character functions**
-- **Queen:** establishes the hard factual contradiction by personally denying all prior knowledge and all acts of authorization / sealing connected to the Card.
-- **Mirena:** turns the contradiction into a controlled institutional investigation rather than panic or arbitrary enforcement.
-- **Maevra:** provides the real custody / travel history and can distinguish what she reported from information the orders somehow already contain.
-- **Cyanis:** asks practical questions about how an order can know about the Card when the Queen did not.
-- **Ilyra:** keeps the investigation attentive to who knew about the party / artifact and what exposure the false authority may have created.
-- **Torren:** preserves the parallel Ancient-route evidence and remains alert to the significance of Caelora sitting where the enormous ancient city was depicted, without claiming a connection to the seal mystery before evidence supports one.
-- **Crown personnel:** competent officials who treat an impossible royal-authentication event as serious evidence, not automatic proof that the party is guilty.
+- **Queen:** establishes the hard contradiction by personally denying prior knowledge and any act of sealing / authorization.
+- **Calder:** is physically present, lies by dismissing the idea that Crown resources would be wasted on an inactive Card, and conceals his actual role in ordering its transport.
+- **Mirena:** treats the impossible royal seal as a serious breach of Crown authority and drives a controlled investigation.
+- **Maevra:** supplies the true custody / travel history and identifies which orders correspond to events that actually occurred.
+- **Cyanis:** keeps the practical contradiction in view.
+- **Ilyra:** remains attentive to who knew about the artifact and what danger false royal authority creates.
+- **Torren:** preserves the parallel Ancient-route evidence without claiming the old-city mystery and seal mystery are already proven to be the same thing.
 
 **End state / knowledge change**
-- the Queen had no prior knowledge of the Card, its origin, or its transport to Caelora.
-- official orders concerning those exact matters nevertheless exist and carry her authentic magical royal seal.
-- the Queen denies issuing or sealing them.
-- the party is not contained or arrested.
-- Mirena and Maevra have royal authority to trace the orders through Crown systems.
-- Caelora is now both the party's intended political destination and the modern city standing over / at the location of the much larger ancient city shown in the Sunken Archive mural.
+- the Queen had no prior knowledge of the Card, its recovery, or its transport.
+- official physical orders concerning those matters nevertheless bear her authentic magical royal seal.
+- Calder has publicly dismissed the idea that the Crown would waste resources on such an apparently inactive Card, while his true involvement remains hidden.
+- the party is free and the Card remains with the traveling group.
+- Mirena and Maevra are authorized to trace the documents and their handling history.
+- Caelora is also now the modern city occupying the location of the enormous ancient city shown in the Sunken Archive mural.
 
 **Gameplay handoff**
 → **Beat 2 — Orders the Queen Never Gave / legacy S018**
 
 **Reveal firewall**
 Do not yet reveal:
-- how the Queen's magical royal seal was reproduced / invoked / routed without her act;
-- who or what generated the orders;
+- proof that Calder ordered the original transport;
+- Calder's full motive;
+- how the Queen's magical royal seal appeared without her act;
+- who ultimately produced / manipulated the sealed orders;
 - why the Card was targeted;
-- whether the seal mystery and the Ancient route / old city are connected;
+- whether the seal mystery and Ancient route / old city are connected;
 - Last Sentinel identification;
 - Prime identification;
 - Might identification;
-- Nimera's later role before meeting her;
+- Nimera's later significance before meeting her;
 - Cresthaven;
 - the ultimate meaning of the Card / Last Sentinel.
 
@@ -126,74 +139,76 @@ Do not yet reveal:
 ## Beat 2 — Orders the Queen Never Gave — legacy S018 REOPENED FOR LEAN MIGRATION
 
 **Purpose**
-- turn the Queen's denial into an active investigation through Caelora's royal / judicial record chain;
-- establish that the impossible orders did not merely arrive as loose forged papers but entered **genuine Crown systems**;
-- escalate the mystery by proving the process can produce another Queen-sealed Card order even after the Queen has explicitly denied issuing any;
-- preserve Crown personnel as lawful collaborators / witnesses rather than forced enemies;
-- lead the investigation into a suppressed **Old City judicial / archive repository** beneath / within the older Caelora layers.
+- trace the impossible orders through tangible Crown bureaucracy;
+- prove the Queen-sealed papers were processed through legitimate offices rather than being loose counterfeit documents;
+- escalate the mystery with another physical Queen-sealed order arriving after the Queen has already denied issuing any;
+- preserve lawful Crown personnel as clerks, witnesses, guards, archivists, and collaborators rather than disposable enemies;
+- lead the party into a suppressed **Old City judicial / archive repository** beneath / within the older Caelora layers.
 
 **Starting state**
-- the party is free to move in Caelora and is not under containment.
-- the Queen has personally denied all prior knowledge of the Card and all Card-related acts of authorization / sealing.
-- multiple Card-related orders nevertheless authenticate with her magical royal seal.
-- the suspect orders are being treated as evidence rather than automatically enforced.
-- Mirena and Maevra have direct royal authority to trace the records.
+- the party is free to move in Caelora.
+- the Queen has personally denied all prior knowledge of the Card and every Card-related act of sealing / authorization shown to her.
+- Calder's public position is that committing Crown resources to an inactive Card would be absurd; his hidden role in the original transport remains unknown to the party.
+- Mirena and Maevra have direct royal authority to trace the paperwork.
 - combat-capable party remains Cyanis + Ilyra + Torren; Maevra is never playable.
 
 **Required progression**
-- the party follows the Card orders through Caelora's current royal, judicial, custody, and registry systems.
-- the records show that the orders were not simply slipped into one desk or copied from a single false document; they have valid-looking registration / routing history inside genuine Crown infrastructure.
-- the orders contain accurate information about stages of the Card's recent recovery, custody, and movement that the Queen herself never received before the party's arrival.
-- there is **no corresponding royal act** in which the Queen requested, approved, or magically sealed those directives.
-- repeated authentication checks continue to recognize the royal seal as valid.
-- the investigation therefore cannot be closed by labeling the papers ordinary counterfeits.
+- the investigation follows **physical records and human handling**: dispatch books, registry ledgers, custody copies, receiving signatures, witness notations, sealed packets, archive shelves, office copies, courier records, and related Crown paperwork as appropriate.
+- the trail shows that the suspect orders passed through real Crown hands and were treated as properly sealed royal instructions.
+- clerks / officers can confirm when they received, copied, logged, carried, or acted on specific papers without knowing the Queen never issued them.
+- the orders contain accurate information about stages of the Card's recovery and movement that the Queen did not possess before the party's arrival.
+- the royal seal continues to test as genuine when the physical documents are examined.
+- no corresponding instruction in the Queen's own records explains when or why she supposedly sealed them.
 
-**Live escalation — a new sealed order**
-- during the active trace, a **new Card-related order enters / becomes visible in the Crown system**.
-- it also carries the Queen's authentic magical royal seal.
+**Live escalation — another sealed dispatch**
+- while the investigation is underway, a royal clerk, courier, or responsible official physically arrives with **another newly received Card-related order**.
+- it bears the Queen's magical royal seal and passes the same established magical test as her genuine orders.
 - the Queen did not issue it.
-- this occurs after the Crown has already begun investigating the earlier impossible orders, proving the anomaly is not merely an old clerical artifact left behind before the party arrived.
-- the new order may concern custody / routing of the Card, but it is not blindly obeyed; Mirena / Crown personnel quarantine it as evidence under the Queen's direct authority.
-- its appearance provides a fresh provenance trail that can be followed while the record is still active.
+- if the Queen is physically present for this moment, she has plainly not left to create it; if staged elsewhere, her immediate denial is independently confirmed.
+- the newly arrived order is retained as evidence rather than obeyed automatically.
+- because its delivery is fresh, the group can trace its immediate courier / receiving chain, dispatch notation, and preceding office copies while memories and records are current.
 
 **No forced Crown conflict**
-- lawful Crown / Ivory personnel are not required to fight the party over an order the Queen herself has formally repudiated.
-- competent officials may challenge evidence, require authentication, guard restricted records, or insist on procedure, but the current opening does **not** require the former two authored nonlethal lawful-authority battles.
-- the tension comes from the impossible authority chain and the fact that valid Crown systems continue to produce / accept Queen-sealed orders she never issued.
+- lawful Crown / Ivory personnel are not required to fight the party over documents the Queen herself has repudiated.
+- officials may protect restricted shelves, insist on warrants, verify seals, or challenge unsupported conclusions, but the investigation remains one of lawful access and escalating evidence.
 
-**Provenance / Old City lead**
-- tracing the original orders and the new live order reveals a shared dependency / source path reaching into a **suppressed Old City judicial / archive repository**.
-- suppressed means removed from ordinary circulation / use, not destroyed or nonexistent.
-- the repository belongs to older layers of Caelora and is not part of routine modern public administration.
-- the investigation does not yet prove that the ancient city itself caused the orders; it only proves that the active record path reaches into infrastructure located there.
-- Mirena / the Queen issues valid authority for Maevra and the party to enter and inspect the suppressed repository.
+**Old City lead**
+- comparison of the older orders with the newly arrived one reveals that part of their documentary trail repeatedly reaches back to a **suppressed Old City judicial / archive repository**.
+- suppressed means removed from ordinary circulation, not destroyed or nonexistent.
+- the relevant repository lies in older layers beneath / within modern Caelora.
+- the evidence does **not** yet prove that the ancient city itself created the orders; it proves only that records tied to the impossible orders pass through or depend on material kept there.
+- the Queen / Mirena grants Maevra and the party lawful access to investigate the repository.
 
 **Character functions**
-- **Queen:** remains the definitive witness that none of the sealed Card orders are hers.
-- **Mirena:** coordinates the legal / institutional trace, quarantines the new order instead of letting procedure blindly execute it, and secures lawful Old City access.
-- **Maevra:** compares the orders against what actually happened and what information she did or did not transmit.
-- **Cyanis:** keeps focus on the impossible practical question: who or what knows enough to write these orders and make the Crown accept them?
-- **Ilyra:** tracks the human and security implications of an authority channel capable of issuing commands under the Queen's seal.
-- **Torren:** helps preserve chronology / route context and recognizes that the investigation is now descending into the same older Caelora layers implied by the Sunken Archive mural, without declaring the two mysteries solved.
-- **Crown / Ivory personnel:** lawful professionals helping establish the anomaly rather than disposable antagonists.
+- **Queen:** remains definitive proof that the sealed orders are not hers despite carrying her magical authority.
+- **Mirena:** coordinates access, preserves the paper trail, and prevents either blind obedience or premature accusations.
+- **Maevra:** compares the orders against the events she personally witnessed and the instructions she actually received.
+- **Calder:** remains politically present in the broader investigation where appropriate and continues concealing his original involvement; exact performance belongs to the Dialogue Engine.
+- **Cyanis:** presses the practical question of how accurate orders can exist before the Queen even knew what they concerned.
+- **Ilyra:** tracks the human / security implications of false royal authority.
+- **Torren:** recognizes that the investigation now descends into the same older Caelora layers suggested by the Sunken Archive mural, without claiming causation.
+- **Crown personnel:** remain competent people whose ledgers, memories, dispatches, and testimony help establish the mystery.
 
 **End state / knowledge change**
-- the Queen-sealed Card orders are confirmed as an active, continuing anomaly inside genuine Crown infrastructure.
-- the Queen still denies every act of issuance / sealing connected to them.
-- a newly appearing order proves the phenomenon can continue in the present.
-- the party still does not know who or what is generating the orders or how the royal magic is being invoked / reproduced.
-- provenance leads into the **suppressed Old City judicial / archive repository**.
-- the party holds valid royal authority to enter and investigate it.
+- the Queen-sealed Card orders are proven to have moved through legitimate Crown offices and physical record chains.
+- a newly delivered sealed order proves the anomaly is active in the present.
+- the Queen still denies issuing or sealing any of them.
+- Calder's original involvement remains hidden from the party.
+- the mechanism behind the magical royal seal remains unknown.
+- the documentary trail leads into the **suppressed Old City judicial / archive repository**.
+- the party has lawful authority to enter it.
 
 **Gameplay handoff**
 → **Beat 3 — Scholar in Redacted Stacks / legacy S019**
 
 **Reveal firewall**
 Do not yet reveal:
-- who / what generates the Queen-sealed orders;
-- the mechanism that allows the magical royal seal to authenticate without the Queen's act;
-- why the Card is being routed / targeted;
-- whether the Ancient route system and royal-seal anomaly share the same cause;
+- proof of Calder's lie / original transport order;
+- Calder's full motive;
+- who or what ultimately created / manipulated the Queen-sealed orders;
+- how the magical royal seal can exist without the Queen's act;
+- why the Card was being routed / targeted;
+- whether the Ancient route system and royal-seal mystery share the same cause;
 - Last Sentinel identification;
 - Prime identification;
 - Might identification;
@@ -215,7 +230,7 @@ Do not yet reveal:
 ## Beat 4 — Oath Sentinel — legacy S020
 **Pending lean migration. Current locked functions remain:**
 - First Command Warden defeated;
-- post-Warden record room must explain **how the impossible Queen-sealed Card orders entered / were produced through connected Crown infrastructure**, while still leaving unresolved who or what deliberately caused it and why;
+- post-Warden record room must explain **how the impossible Queen-sealed Card orders were assembled / passed into legitimate Crown paperwork**, while still leaving unresolved the full deliberate cause and motive;
 - the explanation must preserve that the Queen herself never knowingly issued, approved, or magically sealed the orders;
 - Torren copies a second routing display's roads / high ground / water / destination geometry;
 - machine confirms `/LAST SENTINEL CONFIRMED/`;
@@ -242,8 +257,9 @@ Do not yet reveal:
 > **Last Sentinel recovered.**
 
 ## Mysteries retained
-- the source / deliberate cause behind the Queen-sealed Card orders remains unresolved;
-- the exact mechanism by which the Queen's magical royal seal authenticated without her act is not fully explained until the appropriate later reveal;
+- Calder's hidden original involvement is not exposed until the appropriate story reveal;
+- the full source / deliberate cause behind the Queen-sealed Card orders remains unresolved at the opening;
+- the exact mechanism by which the Queen's magical royal seal appeared without her act remains unresolved until the appropriate reveal;
 - cartographic mystery expands;
 - Cresthaven becomes durable headquarters;
 - the first verified modern Prime manifestation has still not happened.
