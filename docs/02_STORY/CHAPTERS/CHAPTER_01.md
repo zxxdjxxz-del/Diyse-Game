@@ -362,7 +362,7 @@ No definitive ancient-network explanation, Prime revelation, Last Sentinel, buri
 **Purpose**
 - let Torren fully perform the guide role Maevra recruited him for;
 - make southern Briar a substantial exploration/story area;
-- build the Briarhide Stalker from environmental threat into the chapter's final confrontation;
+- build a powerful native predator into the chapter's final confrontation;
 - carry the group naturally toward the Wayfinder-like formation identified in the mural.
 
 **Starting state**
@@ -375,15 +375,16 @@ No definitive ancient-network explanation, Prime revelation, Last Sentinel, buri
 - Torren leads the group through deeper southern Briar routes using local knowledge that Maevra did not have.
 - The area supports meaningful exploration and side paths without restoring the false trail, route split, damaged crossing, or separate Old Waystone.
 - No new major Ancient-lore discovery occurs here; Hollow Watch supplied the setup and Wayfinder is the later payoff.
-- The first Stalker beat is **indirect evidence** that something large is moving through this part of Briar.
-- Later, the party receives a **clear sighting / confirmation** of the Briarhide Stalker without beginning the final battle yet.
-- Its continued presence increasingly affects the safe route forward; exact motive, injury, corruption, territorial behavior, or other cause remains deliberately unresolved.
+- The Briarhide Stalker is established as a **naturally occurring, exceptionally strong wild beast** native to / ranging through Briar Passage.
+- Early signs can establish that a large predator is active in this part of the passage.
+- The party later gets a clear sighting before the final encounter.
+- There is no mystery condition to diagnose and no implication that the Stalker is corrupted, controlled, fitted with Black Host equipment, wounded by a special device, or otherwise unnaturally altered.
 - As the group pushes south, the Wayfinder-like formation from the mural becomes increasingly recognizable as a real landmark near their route.
-- The Stalker escalation converges with the final stretch toward Wayfinder.
+- The Stalker's territory / presence overlaps the final stretch the party must cross toward Wayfinder.
 
 **End state**
-- The party has reached the last southern Briar stretch before Wayfinder Junction.
-- The Briarhide Stalker has become an immediate obstacle / threat that must be resolved before the group can continue safely.
+- The party reaches the last southern Briar stretch before Wayfinder Junction.
+- The Briarhide Stalker is the immediate wild-beast threat barring safe passage forward.
 
 **Gameplay handoff**
 Briarhide Stalker final boss.
@@ -394,24 +395,21 @@ Briarhide Stalker final boss.
 
 **Purpose**
 - provide Chapter 1's final combat climax;
-- resolve the threat built throughout southern Briar;
+- resolve the danger posed by a powerful wild beast in southern Briar;
 - create a clear tonal transition from danger into the quieter Wayfinder discovery.
 
 **Required events**
 - Encounter occurs late in southern Briar Passage before Wayfinder Junction.
+- The Briarhide Stalker is simply a **very strong wild beast**; it is not a special victim, corrupted creature, controlled animal, or puzzle boss.
 - Combat party: **Cyanis + Ilyra + Torren**.
 - Maevra may be present in surrounding story staging but never participates in battle.
-- The fight pays off the evidence, sighting, and route-pressure escalation established in Beat 12.
-- The encounter must leave the route to Wayfinder open once resolved.
+- The encounter is a normal boss fight and resolves through ordinary combat victory.
+- No special nonlethal mechanic, component removal, purification, external influence, or condition-cleansing story solution is required.
+- Once defeated, the route to Wayfinder is open.
 - There is no second combat climax at Wayfinder.
 
-**Open / not yet locked**
-- exact cause or condition of the Stalker;
-- whether its behavior is natural, externally caused, wounded, altered, territorial, or something else;
-- exact canonical resolution: kill, drive off, subdue, remove an irritant / influence, or another outcome.
-
 **End state**
-- Briarhide Stalker threat is resolved enough for the party to continue.
+- Briarhide Stalker is defeated.
 - Chapter 1's combat climax is complete.
 - Story shifts into quieter discovery / resolution.
 
@@ -444,7 +442,7 @@ Required fundamentals:
 ---
 
 ## Chapter-1 dramatic shape
-**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch / dead garrison → excavation → six-channel human-use clue → forced inner breach → implicit Card-triggered Castellan activation → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → Stalker evidence → Stalker sighting → route pressure → Briarhide Stalker final boss → Wayfinder Junction payoff → Dunmere route.**
+**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch / dead garrison → excavation → six-channel human-use clue → forced inner breach → implicit Card-triggered Castellan activation → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → wild-predator signs → Briarhide Stalker sighting → Briarhide Stalker final boss → Wayfinder Junction payoff → Dunmere route.**
 
 ## Knowledge firewall
 Chapter 1 must not reveal:
