@@ -267,6 +267,16 @@ Historical S013 remains useful for compatible Archive atmosphere, encounter stag
 Current authority:
 - the town elder's hidden waterworks route is the party's **covert entry into the Red Transfer Bastion from below**;
 - municipal / Yahtrean waterworks gradually give way to the much older **Sunken Archive beneath / incorporated into the Bastion complex**;
+- before the Archive Leviathan, the party reaches a **huge, heavily damaged Diysean mural / cartographic wall**, substantially larger in scope than the Hollow Watch mural;
+- enough of the mural survives for Torren to match its geography against the **Hollow Watch mural, Wayfinder, the party's copied Wayfinder information, and known present terrain**;
+- the same ancient route alignment the party has been following continues toward the location occupied by **modern Caelora**;
+- the surviving map does **not** match the present landscape cleanly: some route lines appear to pass through mountains, bodies of water, or other terrain that cannot be traveled that way today;
+- the party does not yet know whether the land itself changed, whether some routes were subterranean / non-surface infrastructure, or whether both explanations are involved;
+- at modern Caelora's location, the mural depicts a **very large, strange-looking city**, visibly much larger than present-day Caelora;
+- the mural is too damaged to show the complete route continuation beyond that city or to identify every destination;
+- Torren records / copies the usable surviving geometry for later comparison;
+- this discovery is a **route-history escalation, not a solution**: it confirms continuity from Hollow Watch → Wayfinder → Dunmere / Sunken Archive → Caelora-location without revealing the complete ancient network;
+- **do not identify Cresthaven here** and do not let dialogue claim the mural proves exactly why the ancient geography differs from the present world;
 - signs of recent Black Host use appear deeper in the Archive, but the full transfer operation is not explained before the boss;
 - the **Archive Leviathan remains the major boss of the Sunken Archive**;
 - its current one-HP-bar / two-behavior-state presentation remains valid unless live encounter authority later changes the mechanics;
@@ -281,7 +291,10 @@ Reveal limits:
 - do not establish the exact total number of captives;
 - do not explain the full final destination or purpose of the transfer system yet;
 - do not reveal Rhazek's full role before the Bastion command sequence;
-- do not reveal Seyrik's identity.
+- do not reveal Seyrik's identity;
+- do not name / identify the enormous ancient city beyond locating it at the site of modern Caelora;
+- do not resolve whether the impossible-looking old routes reflect changed terrain, underground infrastructure, or both;
+- do not identify **Cresthaven** or its location.
 
 ### Ch2 S014 — PRISONER GALLERIES — REOPENED / SAME-BASTION GEOGRAPHY
 Historical S014 remains useful for prisoner voice, consent-based care, and safe-pocket staging, but its old geography contains a major obsolete assumption.
