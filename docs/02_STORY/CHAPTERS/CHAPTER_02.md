@@ -230,18 +230,89 @@ Do not yet reveal:
 
 ---
 
-## Beat 4 — Red Transfer Bastion / Commander Rhazek — legacy S015
+## Beat 4 — Red Transfer Bastion Command Layer / Commander Rhazek — legacy S015 REOPENED
 
-**Current locked functions**
-- this is the same **Red Transfer Bastion** established in Beat 1 as the seized old fort off / controlling the Greenhollow road.
-- the party advances from the Bastion's lower covert-entry layers into its active Black Host command / transfer areas.
-- Rhazek owns the operation and his choices.
-- Bastion Master confrontation is one-bar at this chapter.
-- Rhazek survives and withdraws.
-- the existing unnamed masked SECOND OFFICER is retrospectively **Seyrik Rell**, still anonymous to party/player.
-- Bastion progression drives the party toward the Greenhollow-side corridor / extraction route.
+**Purpose**
+- move from the Bastion's lower prisoner infrastructure into its active Black Host command / logistics layer;
+- establish the Red Transfer Bastion as a disciplined, functioning occupation site rather than a chaotic villain lair;
+- establish **Commander Rhazek** as the competent officer who knowingly owns the kidnapping / transfer operation;
+- seize the gate / extraction controls needed to evacuate the prisoners;
+- seed Seyrik anonymously without revealing him;
+- defeat Rhazek locally while allowing him to survive and withdraw.
 
-**Status:** pending lean-beat migration.
+**Starting state**
+- the party is already **inside the Red Transfer Bastion**; this beat is not arrival at a new location.
+- prisoners have been found and a defensible lower safe pocket is secured under their own control.
+- the covert waterworks / Archive route is unsuitable for general evacuation.
+- the party knows the maintained extraction route toward the Greenhollow side is controlled from the Bastion's active command layer.
+- combat party: **Cyanis + Ilyra + Torren**.
+- Maevra remains non-combat.
+
+**Required progression**
+- the party advances upward / deeper through the active Bastion into Black Host logistics, transfer, and command spaces.
+- the Bastion is visibly operational: disciplined guard rotations, maintained routes, supply movement, medical support, working control systems, and repeated-use transfer infrastructure.
+- Black Host wounded may be receiving legitimate medical care. This is allowed to exist without softening or excusing the imprisonment / kidnapping system.
+- transfer lanes, holding procedures, manifests, restraints, screening points, or equivalent infrastructure show that the operation is **administrative and repeatable**, not improvised chaos.
+- exact enemy spacing / authored combats remain under live encounter authority.
+
+**Rhazek / command presentation**
+- the party reaches the command layer while Rhazek is actively managing the Bastion rather than waiting theatrically for them.
+- command traffic demonstrates that Rhazek values accurate information, tracks his own personnel carefully, and makes deliberate operational decisions.
+- an **unnamed masked second officer** may appear within this command traffic.
+- underlying canon: the masked second officer is **Seyrik Rell**.
+- party/player must **not identify or name him as Seyrik** in Chapter 2.
+
+**Confrontation**
+- Maevra / party demand access to the prisoner extraction controls.
+- Rhazek refuses.
+- Rhazek does not deny the detention / transfer policy or blame possession, corruption, misunderstanding, or rogue subordinates.
+- **Rhazek authorized and owns the operation.**
+- where consent is challenged, Rhazek understands the distinction and does not pretend coerced compliance was meaningful consent.
+- any proper treatment of Black Host wounded or detainees does **not** excuse the kidnapping / forced-transfer system and is not presented as moral payment for it.
+- the party concludes the controls must be taken by force.
+
+**Boss — Commander Rhazek / Bastion Master**
+- Rhazek is the major boss of this command-layer section.
+- combat party: Cyanis + Ilyra + Torren.
+- Maevra never participates in battle.
+- the current **one-HP-bar Bastion Master** structure remains valid unless live encounter authority later revises mechanics.
+- finite Bastion support / prepared infrastructure may remain part of the encounter; support does not imply endless reinforcements.
+- the existing same-bar escalation remains a continuation of the same combat state, not a fresh form / fresh HP bar.
+
+**Post-boss / withdrawal**
+- Rhazek is defeated but remains alive and capable of withdrawal.
+- the party gains access to the Bastion's gate / transfer controls.
+- remaining Black Host personnel cover Rhazek's withdrawal rather than forcing a second boss confrontation.
+- Maevra / party prioritize **opening the prisoners' route** over pursuing Rhazek.
+- Rhazek withdraws because remaining in place no longer serves his objective; no forced villain-stinger speech is required.
+- the party opens / secures the lower return route first and prepares the Greenhollow-side extraction route to be used when the prisoners are actually moving.
+- the party returns to the prisoner safe pocket before beginning evacuation, rather than opening everything and assuming people are ready.
+- prisoners are told the route is available and prepare to move on their own terms.
+
+**Character functions**
+- **Cyanis:** confronts Rhazek's ownership of the operation and keeps focus on getting access to the controls.
+- **Ilyra:** challenges coercion / false consent and keeps medical treatment conceptually separate from moral absolution.
+- **Torren:** reads the Bastion's route / gate-control system and determines the safe order for opening extraction paths.
+- **Maevra:** confronts Rhazek as commander, chooses rescue over pursuit, and coordinates the transition into extraction.
+- **Rhazek:** competent, accountable, ideological, and fully responsible for his choices.
+
+**End state / knowledge change**
+- local Bastion command has been broken.
+- Rhazek has survived and withdrawn.
+- the party controls the necessary gate / route infrastructure.
+- the prisoners have been informed and are preparing for evacuation.
+- the Greenhollow-side extraction route can now be opened in coordination with their movement.
+- the broader road is **not yet fully reopened** until the extraction / corridor finale is completed.
+
+**Gameplay handoff**
+→ **Beat 5 — Extraction Causeway / Hold the Junction**
+
+**Reveal firewall**
+Do not reveal:
+- the masked second officer's identity as Seyrik Rell;
+- later reasons for Seyrik's involvement / history;
+- Chapter-3 Last Sentinel / Old City answers;
+- later underground truth.
 
 ---
 
@@ -261,7 +332,7 @@ Do not yet reveal:
 ---
 
 ## Chapter-2 dramatic shape
-**Wayfinder → Dunmere → travelers kidnapped on the Caelora road / Greenhollow road made unsafe by the seized Red Transfer Bastion → town elder reveals secret waterworks entry → covert lower approach → Sunken Archive → Archive Leviathan → transfer records / organized kidnapping revealed → Prisoner Galleries / temporary safe pocket → extraction route found but controlled from upper Bastion → Red Transfer Bastion command layer / Rhazek → return for prisoners / extraction toward Greenhollow → direct Greenhollow–Dunmere road reopened.**
+**Wayfinder → Dunmere → travelers kidnapped on the Caelora road / Greenhollow road made unsafe by the seized Red Transfer Bastion → town elder reveals secret waterworks entry → covert lower approach → Sunken Archive → Archive Leviathan → transfer records / organized kidnapping revealed → Prisoner Galleries / temporary safe pocket → extraction route found but controlled from upper Bastion → active Red Transfer Bastion command layer → Rhazek confrontation / Bastion Master → controls seized while Rhazek withdraws → return for prisoners → extraction toward Greenhollow → direct Greenhollow–Dunmere road reopened.**
 
 ## Long arcs advanced
 - Rhazek established as competent/ideological Black Host command.
