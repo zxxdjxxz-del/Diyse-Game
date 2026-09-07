@@ -2,7 +2,7 @@
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.  
 **Repository source checkpoint used for exact dialogue extraction:** `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
-**Dialogue authority rule:** story function lives in `02_STORY`; combat mechanics live in `05_BATTLE_SYSTEM` / `09_ENEMIES_AND_ENCOUNTERS`; Card mechanics live in `07_CARDS`; progression lives in `10_PROGRESSION_AND_EXP`. Exact accepted spoken wording remains usable only where the scene has not subsequently been reopened. For **reopened Chapter-1 scenes S007–S011**, the current Chapter-1 lean story beats supersede old transcript structure and the Dialogue Engine will regenerate current dialogue from those beats. Historical line-complete files remain voice/staging reference only where compatible.
+**Dialogue authority rule:** story function lives in `02_STORY`; combat mechanics live in `05_BATTLE_SYSTEM` / `09_ENEMIES_AND_ENCOUNTERS`; Card mechanics live in `07_CARDS`; progression lives in `10_PROGRESSION_AND_EXP`. Exact accepted spoken wording remains usable only where the scene has not subsequently been reopened. For reopened scenes, current story authority supersedes old transcript structure and the Dialogue Engine regenerates current dialogue from the active beats. Historical line-complete files remain voice/staging reference only where compatible.
 
 ## Already reconciled in source before this migration
 - Ch3 S020/S021: Crownhold → **Yahtrenhold**
@@ -184,6 +184,30 @@ Do not restore through old transcript reuse:
 
 Earlier production-firewall correction remains applicable where relevant:
 `Sixfold Accord` → **Sixfold Volition**; no spoken line changed solely for that correction.
+
+# Chapter 2 — Reopened Dialogue Migration Overlay
+
+### Ch2 S012 — DUNMERE OPENING — REOPENED / POISONED WATERWORKS RETIRED
+The historical line-complete S012 is no longer current scene structure. Its earlier **APPROVED / LOCKED** label is historical only.
+
+Retired from current Chapter-2 authority:
+- poisoned / contaminated Dunmere water as the chapter's inciting crisis;
+- deliberate poisoning of the managed water system;
+- the shared lower-feed investigation;
+- shutting the lower feed as the mandatory opening resolution;
+- contamination residue as the clue leading below Dunmere;
+- the hidden waterworks maintenance door as the mandatory route into the Sunken Archive;
+- any dialogue whose story function depends on the poisoned-waterworks premise.
+
+Still usable if compatible with the replacement opening:
+- Dunmere as a functioning community;
+- Cyanis, Ilyra, Torren, and Maevra voice/performance material;
+- local atmosphere or staging fragments that do not imply the retired crisis;
+- Maevra remaining non-combat.
+
+Current story authority for the replacement Dunmere opening lives in `docs/02_STORY/CHAPTERS/CHAPTER_02.md` and is **OPEN FOR REDESIGN**. The Dialogue Engine must not regenerate the old poisoning sequence unless that direction is explicitly restored later.
+
+The old S012 → Sunken Archive causal connection is also reopened: the party's new reason and physical route for reaching the Archive must be established by the replacement Chapter-2 structure.
 
 # Other Dialogue Corrections
 
