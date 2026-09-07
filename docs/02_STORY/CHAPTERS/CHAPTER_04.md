@@ -5,7 +5,7 @@
 **Domain rule:** this folder owns mandatory story structure, chapter purpose, scene order, reveal order, recruitment/Prime milestones, interchapter causality, and story-state outcomes. Exact spoken dialogue belongs in `03_DIALOGUE`; battle numbers in `09_ENEMIES_AND_ENCOUNTERS`; progression numbers in `10_PROGRESSION_AND_EXP`.
 
 
-**Status:** CLOSED / exact production-authoring source exists; current four-element overlay controls stale older wording.
+**Status:** CLOSED / exact production-authoring source exists; current four-element overlay and later explicit Chapter-3/4 transition corrections control stale older wording.
 
 ## Mandatory scene sequence
 - **S022 — Brilliant Answer**
@@ -13,6 +13,14 @@
 - **S024 — Seventh Reaction**
 - **S025 — Responsibility Without Humiliation**
 - **S026 — A Place Where Being Wrong Is Survivable**
+
+## Chapter-start handoff from Chapter 3
+- Chapter 3's mandatory story ends physically at **Cresthaven**, where Mirena establishes the site as the party's working headquarters.
+- Chapter 3 then remains active in a **Cresthaven cleanup window** for available Hunts / returns, Character-Life scenes, preparation, and other permitted optional content.
+- **Chapter 4 does not begin automatically.**
+- the player deliberately chooses the main-story **Begin Chapter 4** transition at Cresthaven when ready.
+- only after that choice does **S022 — Brilliant Answer** begin.
+- Chapter 4 therefore opens from the already-established Cresthaven headquarters state rather than creating the headquarters for the first time.
 
 ## Opening party state
 Traveling permanent roster:
@@ -24,12 +32,13 @@ Traveling permanent roster:
 Maevra is not the default traveling fifth.
 
 ## Last Sentinel recovery handoff from Chapter 3
-- Chapter 3 ends with **Last Sentinel identified / confirmed as a real Ancient designation**, but it is **not yet Recovered and is not gameplay-usable**.
-- no Prime manifestation or Last Sentinel recovery occurs during the Chapter-3 ending.
+- Chapter 3 ends with **Last Sentinel identified / confirmed as a real Ancient designation and classified as a Might Prime**, but it is **not yet Recovered and is not gameplay-usable**.
+- no Prime manifestation or Last Sentinel recovery occurs during the Chapter-3 ending or its Cresthaven cleanup window.
 - **Chapter 4 S022 — Brilliant Answer is the recovery event.**
-- during the opening fight, Last Sentinel manifests for the first verified modern Prime action; that manifestation is when Last Sentinel becomes **Recovered** and first becomes usable in play.
+- during the Elder Briarhide fight, Last Sentinel manifests for the first verified modern Prime action; that manifestation is when Last Sentinel becomes **Recovered** and first becomes usable in play.
 
 ## S022 key outcomes
+- S022 starts only after the player explicitly begins Chapter 4 from the Cresthaven cleanup hub.
 - Elder Briarhide resolves nonlethally.
 - **Last Sentinel manifests for the first verified modern Prime action.**
 - that first manifestation changes Last Sentinel from identified / unrecovered to **Recovered / gameplay-usable**.
