@@ -22,6 +22,9 @@ Exact wording, banter, profanity, pacing, and relationship-performance details s
 - At Wayfinder, the party learned that the route they were already taking toward Dunmere corresponds to / overlaps an **older Diysean route alignment**, adding Ancient significance to an existing travel plan rather than creating a new destination.
 - Chapter 2 begins **the morning after the Wayfinder-area camp that closes Chapter 1**.
 - The party departs camp and continues toward **Dunmere** along the route they were already following, carrying physical copies of the Wayfinder information that records the Ancient alignment and related route details.
+- In the **Sunken Archive beneath the Red Transfer Bastion**, a much larger but heavily damaged Diysean map-mural confirms that the same old route system extends beyond the Wayfinder / Dunmere corridor toward the location occupied by **modern Caelora**.
+- The surviving mural geography does not cleanly match the present landscape: some depicted routes appear to pass through terrain now blocked by mountains or water, and the party cannot yet determine whether the land changed, the old routes were not all surface roads, or both.
+- The mural depicts a **very large, unfamiliar city at the location of modern Caelora**, visibly larger than the present capital. It does not name or identify Cresthaven and does not explain the ancient city's full relationship to modern Caelora.
 - people leaving Dunmere on the road toward **Caelora** have been disappearing because the **Black Host has been kidnapping travelers**.
 - the direct **Greenhollow–Dunmere road is too dangerous to use** because the Black Host has seized the **Red Transfer Bastion**, an old fort positioned off / controlling that road.
 - **The Red Transfer Bastion is the seized old fort. It is not a separate location from the Chapter-2 Bastion.**
@@ -112,6 +115,7 @@ Do not yet reveal:
 **Purpose**
 - use the elder's hidden waterworks route to infiltrate the Red Transfer Bastion from below;
 - reveal that the old fort sits over / incorporates a much older submerged archive layer;
+- continue the Hollow Watch → Wayfinder Ancient-route mystery with a larger damaged map-mural inside the Sunken Archive;
 - preserve the Sunken Archive as a substantial dungeon and the **Archive Leviathan** as its major boss;
 - let the post-boss records prove that the kidnappings are part of an organized Black Host transfer operation;
 - deliver the party into the Bastion's prisoner infrastructure without yet resolving the full operation.
@@ -120,6 +124,7 @@ Do not yet reveal:
 - the party knows the Black Host is kidnapping travelers leaving Dunmere toward Caelora.
 - the party knows the Red Transfer Bastion is the seized old fort controlling the dangerous Greenhollow road.
 - the Dunmere town elder has given them a covert route through old waterworks connected to the Bastion's lower structure.
+- the party carries its physical Wayfinder copy and already knows the modern Dunmere-bound route overlaps an older Diysean alignment.
 - combat party: **Cyanis + Ilyra + Torren**.
 - Maevra remains present only in non-combat story/command capacity where appropriate.
 
@@ -130,6 +135,29 @@ Do not yet reveal:
 - familiar municipal / Yahtrean waterworks gradually give way to **much older submerged construction beneath the Bastion**.
 - this older layer is the **Sunken Archive**.
 - the Archive contains flooded passages, surviving preservation infrastructure, and active ancient defenses / hazards as supported by live encounter authority.
+
+**Damaged Sunken Archive map-mural**
+- before the Archive Leviathan, the party reaches a **very large Diysean mural / cartographic wall**, substantially larger in scope than the surviving Hollow Watch mural but heavily damaged by collapse, flooding, erosion, or missing wall sections.
+- enough survives to make clear that it is map-like and belongs to the same broad geographic / route tradition as the **Hollow Watch mural and Wayfinder**.
+- Torren can match surviving landmarks / proportions against the party's Wayfinder copy and the geography already recognized at Hollow Watch.
+- the route alignment the party has been following through southern Briar / Wayfinder / Dunmere continues across the surviving mural toward the location occupied by **modern Caelora**.
+- the depicted landscape is recognizably related to the present region but does **not** match it cleanly.
+- some surviving route lines appear to pass through mountain masses, bodies of water, or other terrain that cannot be traveled that way in the present day.
+- the party cannot yet determine whether this means the physical landscape changed, some depicted routes were tunnels / buried corridors / other non-surface infrastructure, or some combination of those possibilities.
+- at the location of modern Caelora, the mural depicts a **very large strange-looking city**, visibly much larger than present-day Caelora and unlike the modern capital's layout.
+- the mural is too incomplete to show the full route continuation beyond that city or to identify every destination.
+- Torren copies / records the usable surviving geometry so it can be compared against later discoveries.
+- this is a **route-history escalation, not a solution**: it confirms that the ancient system continues toward the Caelora location and that the old geography / infrastructure does not map neatly onto the present world.
+
+**What remains unknown after the mural**
+- the name / identity of the enormous ancient city at modern Caelora's location;
+- why it was substantially larger than modern Caelora;
+- whether the impossible-looking routes reflect changed geography, subterranean infrastructure, or both;
+- where the missing / damaged portions of the route continued;
+- Cresthaven's identity or location;
+- the complete purpose of the ancient route system.
+
+**Return to the infiltration thread**
 - signs of recent Black Host use begin appearing deeper inside: disturbed silt, fresh footprints, newer braces / locks / hardware, moved supplies, drag or transport marks, and reused service passages.
 - these clues show that the Black Host has been using the lower complex, but **do not yet provide the full transfer explanation**.
 - the party reaches the Archive basin / protected records route where the **Archive Leviathan** prevents further progress.
@@ -150,14 +178,17 @@ Do not yet reveal:
 - beyond that route, the party detects unmistakable signs of living captives / prisoners.
 
 **Character functions**
-- **Torren:** navigation, route reading, physical interpretation of how the old service passages connect into the Bastion.
-- **Cyanis:** drives the push forward once the transfer evidence confirms the kidnappings are systematic.
-- **Ilyra:** focuses attention on the condition and immediate welfare of the people being moved through the system.
-- **Maevra:** interprets the evidence as an organized Black Host operation without becoming a combatant.
+- **Torren:** navigation, route reading, comparison of the damaged mural against the Wayfinder copy / known geography, and physical interpretation of how the old service passages connect into the Bastion.
+- **Cyanis:** keeps the practical questions grounded, then drives the push forward once the transfer evidence confirms the kidnappings are systematic.
+- **Ilyra:** recognizes that the mural raises larger questions but keeps attention on the immediate condition and welfare of the people being moved through the system once captive evidence becomes clear.
+- **Maevra:** treats the mural as significant evidence without overclaiming what it proves, then interprets the newer records as an organized Black Host operation without becoming a combatant.
 
 **End state / knowledge change**
 - the party has successfully infiltrated beneath the Red Transfer Bastion.
 - the Sunken Archive is confirmed as an older layer beneath / incorporated into the fort complex.
+- the damaged Archive mural confirms that the ancient route system seen at Hollow Watch and Wayfinder continues toward the location of modern Caelora.
+- the party now knows the surviving ancient geography / routes do not map cleanly onto the present landscape and that a much larger ancient city once occupied / was depicted at Caelora's location.
+- the reason for the geographic mismatch and the route continuation beyond that city remain unresolved.
 - the Archive Leviathan is defeated.
 - the party now knows the kidnappings feed an organized Black Host transfer operation.
 - the exact total number of captives, final destination, and full purpose of the transfers remain unknown.
@@ -172,6 +203,9 @@ Do not yet reveal:
 - the final destination / full purpose of the transfer system;
 - Rhazek's complete explanation or later role before the Bastion command confrontation;
 - Seyrik's identity;
+- the exact reason the old geography differs from the present landscape;
+- whether all apparently impossible routes were surface routes;
+- Cresthaven's identity / location;
 - Chapter-3 Last Sentinel / Old City answers;
 - later underground truth.
 
@@ -400,9 +434,11 @@ Do not resolve:
 ---
 
 ## Chapter-2 dramatic shape
-**Already traveling toward Dunmere → Hollow Watch mural makes Wayfinder significant → Wayfinder confirms the existing Dunmere-bound corridor overlaps an older Diysean alignment → overnight Wayfinder-area camp / optional cleanup → next-morning continuation toward Dunmere → travelers kidnapped on the Caelora road / Greenhollow road made unsafe by the seized Red Transfer Bastion → town elder reveals secret waterworks entry → covert lower approach → Sunken Archive → Archive Leviathan → transfer records / organized kidnapping revealed → Prisoner Galleries / temporary safe pocket → extraction route found but controlled from upper Bastion → active Red Transfer Bastion command layer → Rhazek confrontation / Bastion Master → controls seized while Rhazek withdraws → return for prisoners → Greenhollow-side extraction → Hold the Junction → final extraction threshold → direct Greenhollow–Dunmere road reopened.**
+**Already traveling toward Dunmere → Hollow Watch mural makes Wayfinder significant → Wayfinder confirms the existing Dunmere-bound corridor overlaps an older Diysean alignment → overnight Wayfinder-area camp / optional cleanup → next-morning continuation toward Dunmere → travelers kidnapped on the Caelora road / Greenhollow road made unsafe by the seized Red Transfer Bastion → town elder reveals secret waterworks entry → covert lower approach → Sunken Archive → huge damaged map-mural links Hollow Watch / Wayfinder geography to a mismatched older landscape and a much larger city at modern Caelora's location → Archive Leviathan → transfer records / organized kidnapping revealed → Prisoner Galleries / temporary safe pocket → extraction route found but controlled from upper Bastion → active Red Transfer Bastion command layer → Rhazek confrontation / Bastion Master → controls seized while Rhazek withdraws → return for prisoners → Greenhollow-side extraction → Hold the Junction → final extraction threshold → direct Greenhollow–Dunmere road reopened.**
 
 ## Long arcs advanced
+- the Hollow Watch → Wayfinder route mystery advances: the Sunken Archive mural confirms the same old system continues toward modern Caelora, while showing geography / infrastructure that no longer maps cleanly onto the present world.
+- a much larger ancient city is established at the location of modern Caelora without yet identifying its full meaning or the route continuation beyond it.
 - Rhazek established as competent/ideological Black Host command.
 - Seyrik seeded before reveal through his **mandatory unnamed masked appearance speaking/reporting to Rhazek when the party enters the Bastion command area**.
 - missing-person / missing-relative thread remains unresolved.
@@ -414,4 +450,5 @@ No Chapter-3:
 - Nimera recruitment;
 - Old City order mystery resolution;
 - Cresthaven;
+- explanation of why the old mapped geography / routes differ from the present landscape;
 - later underground truth.
