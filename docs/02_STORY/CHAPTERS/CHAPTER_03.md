@@ -323,16 +323,115 @@ Do not yet reveal:
 
 ---
 
-## Beat 4 — Oath Sentinel — legacy S020
-**Pending lean migration. Current locked functions remain:**
-- First Command Warden defeated;
-- deeper Old City evidence may **narrow the conditions under which a magically bound authority object can answer outside its expected use**, but must not revert to the retired `old orders were assembled together` explanation;
-- the Queen's personal seal remains the central unresolved authority mystery: the evidence may constrain possibilities, but does not yet identify who used / invoked it or fully explain how;
-- Torren copies a second routing display's roads / high ground / water / destination geometry;
-- machine confirms `/LAST SENTINEL CONFIRMED/`;
-- Cyanis's sealed Card resolves to stable deep Ruby;
-- no Prime manifestation occurs here;
-- **Cresthaven is not identified during Beat 4.**
+## Beat 4 — Oath Sentinel — legacy S020 REOPENED FOR LEAN MIGRATION
+
+**Purpose**
+- move from ordinary archive space into deeper Diysean **command / authority architecture**;
+- use the behavior of surviving authority mechanisms to sharpen the Queen-seal mystery without solving it;
+- establish an important distinction: a genuine magical authority response proves that the **bound authority answered**, not necessarily that its owner consciously performed the act;
+- defeat the **First Command Warden**;
+- produce the first explicit Ancient confirmation of **Last Sentinel**;
+- advance Cyanis's Card from unstable earlier responses to a stable **deep Ruby** state without a Prime manifestation;
+- continue the Ancient route mystery with a second routing display that Torren can copy for later identification.
+
+**Starting state**
+- permanent combat-capable party is now **Cyanis + Ilyra + Torren + Nimera**.
+- Maevra remains physically present where useful as commander / authority actor but is never playable.
+- Cyanis still carries the recovered Card by the Queen's permission.
+- Nimera has examined the Queen-seal evidence and agrees that something caused the Queen's real personal seal magic to answer on orders the Queen never approved.
+- neither physical misuse nor abnormal invocation has been proven.
+- the party has followed the deeper archive route into architecture that is visibly less about storage and more about **command, authority, routing, and restricted access**.
+
+**Command architecture**
+- the deeper area contains broad fitted corridors, mechanical tracks, authority plates / rings, responsive gates, and integrated guardians.
+- it should feel like part of the much larger Ancient city beneath Caelora, not a modern Crown installation.
+- mechanisms classify, redirect, allow, deny, or pressure passage according to conditions the party only partly understands.
+- Nimera remains precise: detection, classification, and response do **not** prove sentience or broad intelligence.
+- Cyanis's Crest knowledge, Nimera's Card / archive expertise, Torren's physical route-reading, and Ilyra / Maevra's caution all remain useful without any one character suddenly understanding the whole system.
+
+**Authority insight / relation to the Queen's seal**
+- the group encounters surviving Ancient authority mechanisms that respond to **accepted conditions / recognized authority states**, not to a conversational declaration of personal intent.
+- the important lesson is conceptual rather than a direct technological connection to the modern Crown seal.
+- Nimera can now state more firmly that an authentic magical response does **not by itself prove the owner consciously performed the act at that moment**; it proves that whatever conditions the binding recognizes were successfully satisfied.
+- this matters because Crown authentication of the suspicious orders proves the Queen's personal seal magic answered, but does not by itself prove the Queen physically pressed the seal into those documents.
+- the Old City evidence does **not** tell the party what conditions the Queen's modern personal seal recognizes.
+- it also does **not** establish that her seal was built from Diysean technology, that the Ancient mechanisms and the seal use the same magic, or that remote invocation is possible.
+- several possibilities therefore remain open: concealed physical access, an authorized / linked condition nobody yet knows was exploitable, or some other abnormal means of satisfying the seal's binding.
+- the next useful investigation would require the **specific binding, maintenance, custody, and legitimate-use history of the Queen's actual seal**, not more speculation from generic Ancient examples.
+
+**Command-route traversal**
+- the party follows the only viable deeper route as gates and command mechanisms change access around them.
+- authored encounters may use established Command-Station Sentries, authority lenses, command drones, or equivalent live encounter ecology.
+- the architecture can impose pressure / conditions on the party without deleting normal player commands or implying mind control.
+- exact battle mechanics remain encounter-domain authority.
+
+**First Command Warden**
+- the route culminates in a large integrated command chamber guarded by the **First Command Warden**.
+- the Warden is an Ancient authority guardian, not a speaking villain.
+- it scans / evaluates the party, finds their current state insufficient or unacceptable, and becomes hostile.
+- the party defeats it in normal combat.
+- current story presentation remains **one HP bar** unless live battle authority later revises the mechanics.
+- at defeat, the Warden shuts down / settles into a dormant support posture rather than needing a dramatic explosion.
+
+**Last Sentinel confirmation**
+- when the Warden's command state clears, a central Ancient display / mechanism resolves an explicit message:
+  - `/PREVIOUS ERROR/`
+  - `/LAST SENTINEL CONFIRMED/`
+- **Last Sentinel** is therefore a real Ancient designation, but nobody yet has enough context to explain exactly what it means.
+- Nimera may recognize `sentinel` as a functional word / category while remaining unable to explain the full phrase.
+- the party does not yet know whether `previous error` refers to Cyanis, the Card, the Warden's prior assessment, a historical event, or something else.
+
+**Cyanis's Card response**
+- only after the Last Sentinel confirmation does Cyanis's recovered Card respond again.
+- its earlier incomplete green / gold response collapses / reorganizes into a **stable deep Ruby state**.
+- this is the clearest stable response the Card has shown so far.
+- there is **no figure, voice, silhouette, autonomous attack, or Prime manifestation**.
+- nobody identifies the Card here as **Might**, a **Prime**, or definitively **Last Sentinel**.
+- the timing makes a relationship plausible, but not yet fully explained.
+
+**Post-Warden routing display**
+- clearing the Warden opens / exposes a compact command-record or routing room behind / adjacent to the chamber.
+- among its surviving material is a large worn routing display with roads / routes, high ground, water, and a destination marker extending away from the Ancient city beneath modern Caelora.
+- Torren recognizes enough real-world geometry to make a practical copy.
+- the display should feel like another piece in the same broad cartographic mystery begun at Hollow Watch, Wayfinder, and the Sunken Archive mural.
+- the route appears to continue **beyond ancient Caelora toward another destination**, but the party cannot identify that destination here.
+- Torren copies the usable geometry for later comparison with modern maps / Crown knowledge.
+- **Cresthaven is not named or identified in Beat 4.**
+
+**Character functions**
+- **Cyanis:** contributes Crest-based structural recognition where appropriate, remains the Card's physical holder, and experiences the stable Ruby response without gaining a complete explanation.
+- **Ilyra:** keeps attention on practical danger / consequences and resists treating a magical response as proof of intent.
+- **Torren:** reads physical route geometry and copies the post-Warden routing display.
+- **Nimera:** distinguishes authority response from owner intent, keeps the seal comparison bounded, interprets Ancient terminology only where evidence supports it, and refuses to overclaim Last Sentinel / Card identity.
+- **Maevra:** keeps the group focused on evidence and limits rather than conclusions; remains non-playable.
+
+**End state / knowledge change**
+- the party has defeated the First Command Warden.
+- Old City authority behavior has established a useful principle: **a bound magical authority can answer when its recognized conditions are met, so authentication proves the authority responded but does not automatically prove the owner personally acted.**
+- the group still does **not** know what conditions the Queen's personal seal recognizes, who exploited them, or whether the seal was physically accessed.
+- `/LAST SENTINEL CONFIRMED/` is now an explicit Ancient phrase encountered by the party.
+- Cyanis's Card has resolved to a stable **deep Ruby** response.
+- no Prime manifestation has occurred.
+- Torren carries a new routing sketch showing a route from the Ancient Caelora area toward an unidentified destination.
+
+**Gameplay handoff**
+→ **Beat 5 — Four Answers, Not One / legacy S021**
+
+**Reveal firewall**
+Do not yet reveal:
+- proof that Calder ordered the original Card transport;
+- Calder's full motive;
+- who used / invoked the Queen's personal seal;
+- whether the seal was physically accessed;
+- the exact binding condition that allowed the seal's magic to answer;
+- a definitive technological / magical connection between the Queen's seal and Diysean command architecture;
+- why the Card was targeted;
+- confirmed bearer status for Cyanis;
+- the Card as Might;
+- the Card as a Prime;
+- a complete explanation of Last Sentinel;
+- Cresthaven's identity or location;
+- a full explanation for the changed ancient geography.
 
 ---
 
