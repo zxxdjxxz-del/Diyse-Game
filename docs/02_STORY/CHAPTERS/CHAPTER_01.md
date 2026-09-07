@@ -41,7 +41,11 @@ Do not restore:
 - damaged crossing / civilian crossing;
 - separate Old Waystone;
 - stranded civilians / Lower Woods rescue as Torren's recruitment event;
-- Greenhollow Briarhide Stalker fight.
+- Greenhollow Briarhide Stalker fight;
+- early Hollow Watch map rubbing;
+- separate post-Castellan Hollow Watch route plate.
+
+**The post-Castellan mural is Hollow Watch's sole major cartographic payoff.**
 
 Wayfinder Junction is the chapter's actual waystone/cartographic monument.
 
@@ -309,9 +313,10 @@ The Castellan is defeated and the party gains access to the protected final disc
 - why Wayfinder is important;
 - the complete relationship between the mural, the six-channel junction, and the wider Diysean route system.
 
-**Route plate status**
+**Retired cartographic clues**
 - The earlier Black Host map-rubbing clue is retired.
-- The existing separate post-boss **route plate is not retired by this mural correction unless explicitly changed later**; its exact role can be reconciled after the mural beat is fully settled.
+- The separate post-boss route plate is retired.
+- **The mural is the sole major Hollow Watch cartographic payoff.**
 
 **End state / knowledge change**
 - Hollow Watch provides the party with its first unmistakably geographic ancient clue.
@@ -344,34 +349,64 @@ No definitive ancient-network explanation, Prime revelation, Last Sentinel, buri
 
 ## Beat 12 — Southern Briar Passage
 
-**Status:** OPEN FOR CURRENT REDESIGN.
+**Purpose**
+- let Torren fully perform the guide role Maevra recruited him for;
+- make southern Briar a substantial exploration/story area;
+- build the Briarhide Stalker from environmental threat into the chapter's final confrontation;
+- carry the group naturally toward the Wayfinder-like formation identified in the mural.
 
-Locked constraints:
-- substantial story-progression area, not a connector;
-- Torren now fulfills his guide role;
-- active party Cyanis + Ilyra + Torren;
-- Maevra travels but does not fight;
-- no false trail, route split, damaged crossing, or separate Old Waystone;
-- escalation must build toward the Briarhide Stalker and then the quieter Wayfinder discovery;
-- the Wayfinder-like formation from the mural lies near / along the route the group must take through this southern section.
+**Starting state**
+- Torren is now permanently recruited.
+- Combat party: Cyanis + Ilyra + Torren.
+- Maevra continues as non-combat traveling companion.
+- The party knows a distinctive southern formation resembling Wayfinder appeared prominently in the Hollow Watch mural, but does not know why it mattered.
+
+**Required progression**
+- Torren leads the group through deeper southern Briar routes using local knowledge that Maevra did not have.
+- The area supports meaningful exploration and side paths without restoring the false trail, route split, damaged crossing, or separate Old Waystone.
+- No new major Ancient-lore discovery occurs here; Hollow Watch supplied the setup and Wayfinder is the later payoff.
+- The first Stalker beat is **indirect evidence** that something large is moving through this part of Briar.
+- Later, the party receives a **clear sighting / confirmation** of the Briarhide Stalker without beginning the final battle yet.
+- Its continued presence increasingly affects the safe route forward; exact motive, injury, corruption, territorial behavior, or other cause remains deliberately unresolved.
+- As the group pushes south, the Wayfinder-like formation from the mural becomes increasingly recognizable as a real landmark near their route.
+- The Stalker escalation converges with the final stretch toward Wayfinder.
+
+**End state**
+- The party has reached the last southern Briar stretch before Wayfinder Junction.
+- The Briarhide Stalker has become an immediate obstacle / threat that must be resolved before the group can continue safely.
+
+**Gameplay handoff**
+Briarhide Stalker final boss.
 
 ---
 
 ## Beat 13 — Briarhide Stalker / Chapter-1 Final Boss
 
-**Locked**
-- Briarhide Stalker is relocated out of Greenhollow / Lower Woods.
-- It occurs late in southern Briar Passage before Wayfinder Junction.
-- It is the **Chapter 1 final boss**.
-- Combat party: Cyanis + Ilyra + Torren.
-- Maevra may be present in surrounding story staging but never participates in battle.
+**Purpose**
+- provide Chapter 1's final combat climax;
+- resolve the threat built throughout southern Briar;
+- create a clear tonal transition from danger into the quieter Wayfinder discovery.
 
-**Open**
-- exact cause / condition of the Stalker;
-- exact encounter resolution.
+**Required events**
+- Encounter occurs late in southern Briar Passage before Wayfinder Junction.
+- Combat party: **Cyanis + Ilyra + Torren**.
+- Maevra may be present in surrounding story staging but never participates in battle.
+- The fight pays off the evidence, sighting, and route-pressure escalation established in Beat 12.
+- The encounter must leave the route to Wayfinder open once resolved.
+- There is no second combat climax at Wayfinder.
+
+**Open / not yet locked**
+- exact cause or condition of the Stalker;
+- whether its behavior is natural, externally caused, wounded, altered, territorial, or something else;
+- exact canonical resolution: kill, drive off, subdue, remove an irritant / influence, or another outcome.
 
 **End state**
-Combat climax complete; story moves into quieter discovery / resolution.
+- Briarhide Stalker threat is resolved enough for the party to continue.
+- Chapter 1's combat climax is complete.
+- Story shifts into quieter discovery / resolution.
+
+**Gameplay handoff**
+Wayfinder Junction.
 
 ---
 
@@ -399,7 +434,7 @@ Required fundamentals:
 ---
 
 ## Chapter-1 dramatic shape
-**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch → excavation → six-channel human-use clue → forced inner breach → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → Briarhide Stalker final boss → Wayfinder Junction payoff → Dunmere route.**
+**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch → excavation → six-channel human-use clue → forced inner breach → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → Stalker evidence → Stalker sighting → route pressure → Briarhide Stalker final boss → Wayfinder Junction payoff → Dunmere route.**
 
 ## Knowledge firewall
 Chapter 1 must not reveal:
