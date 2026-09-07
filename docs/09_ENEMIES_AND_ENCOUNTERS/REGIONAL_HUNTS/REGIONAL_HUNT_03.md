@@ -1,11 +1,20 @@
 # Diyse — Regional Hunt #3: Archive Judgment Engine
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later accepted active-balance specifications.  
+**Current whole-project written authority:** **v2.20 / Audit135**, plus later accepted active-balance specifications and Chapter-3 cleanup corrections.  
 **Scaling:** fixed authored tuning; no dynamic player-level scaling.
-
 
 **Recommended Lv:** 15  
 **Status:** **POWER COMPLETE**
+
+## Story access / placement
+- **Archive Judgment Engine is optional Chapter-3 cleanup content.**
+- it becomes available only after the mandatory Old City / First Command Warden sequence is resolved and **Cresthaven has been established as the party's headquarters**.
+- the Hunt is a **return to the Old City Archive complex in Caelora**, using a deeper / side Archive branch that was not part of the mandatory S019–S021 route.
+- the permanent combat party for the Hunt is **Cyanis + Ilyra + Torren + Nimera**.
+- after the Cresthaven handoff, **Maevra has returned to Caelora with Mirena and is no longer a default traveling companion**; neither Maevra nor Mirena joins this Hunt as a combatant.
+- lawful Crown / archive access may permit the return, but the Hunt does not require either woman to accompany the party through the branch.
+- the Hunt does **not** solve the Queen-seal mystery, expose Calder's hidden role, recover / manifest Last Sentinel, or reveal the destination of the Ancient route continuing north beyond Cresthaven.
+- completing or skipping the Hunt does not block the player's ability to begin Chapter 4 from Cresthaven.
 
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
