@@ -456,7 +456,7 @@ Required fundamentals:
 **Purpose**
 - create a natural pause after Chapter 1's final boss and Wayfinder discovery;
 - provide an in-world opportunity to complete Chapter-1 optional content before the story advances to Dunmere;
-- give the party a quieter character-life beat after the chapter's combat and lore escalation;
+- give the party quieter character-life beats after the chapter's combat and lore escalation;
 - preserve a clean next-morning transition into Chapter 2.
 
 **Required state**
@@ -468,12 +468,15 @@ Required fundamentals:
 - The camp is established close enough to Wayfinder / the southern route that returning to the Wayfinder's optional old-water branch is reasonable before departure.
 
 **Optional-content window**
-- This camp is the Chapter-1 **pre-departure cleanup window**.
-- The existing post-S011 Character-Life material may be staged here instead of requiring an obsolete return to Brackenwall.
-- In particular, **C05 — `Two Professionals Complaining About Cyanis`** remains optional post-Wayfinder Character-Life content, but its old Brackenwall location staging is superseded by this Wayfinder-area camp.
-- Exact dialogue/performance remains under `03_DIALOGUE`; the story authority only fixes the scene's availability and location window.
+- This camp is the Chapter-1 **pre-departure cleanup window** and the common hub for the chapter's three existing Character-Life scenes.
+- The player may complete **any, all, or none** of the Character-Life scenes before choosing to continue to Dunmere; they do not advance the chapter on their own.
+- **C03 — `Torren's Version of Dinner`** is available here. Its existing evening roadside/rest setup already fits the Wayfinder-area camp closely; compatible dialogue and staging may be retained.
+- **C04 — `What the Map Says`** is available here. Its old Brackenwall route-room location is superseded by the camp. Torren may work on his ordinary modern route maps at camp; the scene remains character-life only and must not become a second Wayfinder lore reveal, Hunt-progression scene, or mandatory-information scene. Location/time-specific old wording may be regenerated where needed for continuity.
+- **C05 — `Two Professionals Complaining About Cyanis`** is available here. Its old Brackenwall evening location is superseded by the Wayfinder-area camp; its character-life function remains intact.
+- Exact dialogue/performance remains under `03_DIALOGUE`; the story authority fixes the scenes' availability and location window.
 - The **Cistern Devourer Hunt** is available from this window through the old-water / cistern branch discovered at Wayfinder.
 - The player may return to Wayfinder, follow the unlocked branch, fight the Hunt, and then return to camp without advancing the chapter.
+- Character-Life scenes and the Hunt may be completed in any practical order before departure, subject to their own live implementation requirements.
 - Other compatible Chapter-1 optional cleanup content may remain available where its own authority permits it.
 
 **Mandatory progression out of Chapter 1**
@@ -486,12 +489,12 @@ Required fundamentals:
 Wayfinder-area camp cleanup → next morning → continue toward Dunmere along the existing route, now understood to have Ancient significance → Chapter 2.
 
 **Reveal firewall**
-The camp and optional Hunt do not add Prime, Last Sentinel, bearer, Entity, or complete ancient-network answers beyond what Chapter 1 already permits.
+The camp, Character-Life scenes, and optional Hunt do not add Prime, Last Sentinel, bearer, Entity, or complete ancient-network answers beyond what Chapter 1 already permits.
 
 ---
 
 ## Chapter-1 dramatic shape
-**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch / dead garrison → excavation → six-channel human-use clue → forced inner breach → implicit Card-triggered Castellan activation → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → wild-predator signs → Briarhide Stalker sighting → Briarhide Stalker final boss → Wayfinder Junction payoff → existing Dunmere-bound route revealed as part of an older Diysean alignment → Torren calls for camp → optional Character-Life / Cistern Devourer cleanup window → next-morning continuation toward Dunmere.**
+**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch / dead garrison → excavation → six-channel human-use clue → forced inner breach → implicit Card-triggered Castellan activation → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → wild-predator signs → Briarhide Stalker sighting → Briarhide Stalker final boss → Wayfinder Junction payoff → existing Dunmere-bound route revealed as part of an older Diysean alignment → Torren calls for camp → optional C03/C04/C05 Character-Life scenes / Cistern Devourer cleanup window → next-morning continuation toward Dunmere.**
 
 ## Knowledge firewall
 Chapter 1 must not reveal:
