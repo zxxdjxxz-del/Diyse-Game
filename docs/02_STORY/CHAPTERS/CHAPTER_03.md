@@ -3,7 +3,7 @@
 **Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.  
 **Domain rule:** this file owns mandatory Chapter-3 story structure, scene order, reveal order, recruitment / Prime milestones, knowledge changes, and story outcomes. Exact dialogue belongs to the Dialogue Engine / `03_DIALOGUE`; battle mechanics and numbers belong to live battle / encounter authority.
 
-**Status:** LEAN DIALOGUE-ENGINE STORY-BEAT PASS IN PROGRESS.
+**Status:** LEAN DIALOGUE-ENGINE STORY-BEAT RESTRUCTURE COMPLETE / EXACT DIALOGUE REGENERATION PENDING.
 
 ## Dialogue-engine beat rule
 For Chapter-3 migration, define only what the Dialogue Engine needs to stay canon-safe:
@@ -370,6 +370,7 @@ Do not yet reveal:
 - **Last Sentinel** is therefore a real Ancient designation, but nobody yet has enough context to explain exactly what it means.
 - Nimera may recognize `sentinel` as a functional word / category while remaining unable to explain the full phrase.
 - the party does not yet know whether `previous error` refers to Cyanis, the Card, the Warden's prior assessment, a historical event, or something else.
+- adjacent classification / identity markings are copied for later comparison rather than fully interpreted in the room.
 - **this confirmation does not place Last Sentinel in the Recovered state and does not make it usable.**
 
 **Cyanis's Card response**
@@ -456,17 +457,118 @@ Do not yet reveal:
 
 ---
 
-## Beat 5 — Four Answers, Not One — legacy S021
-**Pending lean migration. Current locked functions remain:**
-- bounded answers become: **Prime / Might / Last Sentinel**;
-- ultimate meaning remains unknown;
-- **Last Sentinel remains identified / confirmed but unrecovered and unusable throughout the Chapter-3 ending**;
-- its recovery and first usable manifestation occur during **Chapter 4 S022 — Brilliant Answer**;
-- the party returns to Mirena with the ancient seal-working evidence and Torren's route drawing;
-- Mirena studies / recognizes the copied geography and identifies the major unlabeled site on the Ancient map;
-- Mirena explains that the site **used to be called Cresthaven**;
-- the site is associated with the abandoned Crown outpost in **Yahtrenhold** and becomes the party's next temporary working headquarters;
-- the Ancient route clearly continues **north beyond Cresthaven**, but its farther destination / purpose remains unresolved at the end of Chapter 3.
+## Beat 5 — Four Answers, Not One — legacy S021 REOPENED FOR LEAN MIGRATION
+
+**Purpose**
+- return the party to Caelora and consolidate what the Old City actually proved;
+- give the Card three bounded identifications — **Prime, Might, Last Sentinel** — while preserving the larger unknowns;
+- report the ancient seal-working discovery without solving the Queen-seal mystery;
+- have Mirena identify the major unlabeled route-map site as the place once called **Cresthaven**;
+- establish Cresthaven as the next working headquarters and preserve the Ancient route continuing farther north;
+- end Chapter 3 with Last Sentinel still unrecovered and unusable so Chapter 4's opening fight remains the true recovery event.
+
+**Starting state**
+- permanent combat-capable party is **Cyanis + Ilyra + Torren + Nimera**.
+- Maevra remains non-playable.
+- Cyanis's Card is stable deep Ruby and still physically carried by him under the Queen's permission.
+- `/LAST SENTINEL CONFIRMED/` has been seen, but Last Sentinel has **not** manifested, entered the Recovered state, or become usable.
+- Nimera / the party carry copies of the command-chamber classification / identity markings.
+- the group also carries the ancient seal-working evidence / notes and Torren's copied route geometry.
+
+**Return to Caelora / restricted debrief**
+- the party returns from the Old City and reports to **Queen Lysara, Mirena, and Maevra** through an appropriately restricted Crown review.
+- the ancient seal-working discovery is treated as sensitive because it bears directly on the Queen's personal seal and the possibility that Yahtrea inherited a much older authority tradition.
+- Calder does **not** need to receive a mandatory full briefing on the seal-working chamber in this beat; Mirena's earlier caution about discussing the seal anomaly in front of him remains compatible.
+- exact attendance and performance around any nonessential officials remain Dialogue Engine territory.
+
+**Seal report — important lead, not solution**
+- Nimera explains that the Old City contained a much older physical authority seal and surviving machinery designed to imbue such a seal with magic.
+- this strongly suggests that Yahtrea's magical royal-seal tradition predates Yahtrea itself or descends from substantially older practice.
+- the Queen's present seal therefore needs a deeper historical review: origin, age, prior holders, construction, repair / renewal history, and any records of how its magical authority has been preserved.
+- none of this proves how the suspect Card orders were sealed.
+- the party still cannot say whether someone physically accessed the Queen's current seal or invoked its magic another way.
+- Calder's hidden role in ordering the original transport remains unproven and unexposed.
+
+**First bounded answer — Prime**
+- away from immediate danger, Nimera compares the copied command markings against known Card scholarship and the now-stable Ruby Card.
+- the evidence supports **Prime** as the Card's classification.
+- Prime is a category / classification here, not a recovery state and not proof that anyone in the modern era knows how to make one manifest safely.
+- modern knowledge remains bounded: there has still been no verified modern Prime manifestation in the party's experience.
+
+**Second bounded answer — Might**
+- Nimera combines the command markings, Six-Face structure, the Card's stable Ruby response, and Cyanis's modern Crest-Knight recognition of the same relationship used for Might.
+- the evidence is now sufficient to identify the Card's Face as **Might**, not merely say it resembles Might.
+- this does not identify Cyanis himself as Might, prove bearer status, or explain why the Card responds around him.
+
+**Third bounded answer — Last Sentinel**
+- the command output `/LAST SENTINEL CONFIRMED/`, the Card's immediate Ruby stabilization after that output, and the copied identity markings together support **Last Sentinel** as the Card's identity / designation.
+- the correct conclusion is **the Card is Last Sentinel**, not that Cyanis is the Last Sentinel.
+- this is identification only.
+- **Last Sentinel remains unrecovered, does not manifest, and cannot be used in Chapter 3.**
+
+**Fourth answer — what remains unknown**
+- the group still does not know:
+  - what `Last Sentinel` ultimately means;
+  - what it is sentinel of;
+  - why it is `Last`;
+  - what `/PREVIOUS ERROR/` refers to;
+  - why the Card responds specifically around Cyanis;
+  - why anyone arranged for the Card to be transported toward Caelora;
+  - what a Prime manifestation would actually do in the modern era.
+- this lack of an ultimate answer is intentional: **Prime / Might / Last Sentinel are real bounded answers, not a solution to the larger mystery.**
+
+**Torren's route copy / Cresthaven identification**
+- Torren presents the final-room routing copy beside modern Crown maps and the earlier Hollow Watch / Wayfinder / Sunken Archive route evidence.
+- the Ancient display itself carried **no readable Cresthaven name**.
+- Mirena recognizes the major unlabeled intermediate site from its geography / older Crown knowledge.
+- she explains that the place **used to be called Cresthaven**.
+- Cresthaven is an abandoned Crown outpost / site in **Yahtrenhold** that has fallen out of ordinary use.
+- the Ancient route does **not** end there: Torren's copy clearly shows the route continuing **north beyond Cresthaven**.
+- the farther northern destination and the purpose of that continuation remain unresolved.
+
+**Why Cresthaven becomes the next headquarters**
+- Mirena decides to have the abandoned Cresthaven site made minimally usable as a **working headquarters**.
+- it sits directly on the route the party is trying to understand and gives them a practical place for records, supplies, medical support, rest, and route planning outside crowded Caelora.
+- this is a limited reactivation, not a claim that the entire outpost is restored immediately.
+- Mirena can send a small Crown work / security team ahead so Chapter 4 may open with Cresthaven already in the process of being made usable.
+
+**Character functions**
+- **Queen Lysara:** receives the seal discovery as a serious threat / historical problem and permits a deeper review of the royal seal's history without pretending the mystery is solved.
+- **Mirena:** keeps the seal inquiry controlled, identifies old Cresthaven from Torren's route copy, and makes the practical decision to reactivate it as a working base.
+- **Maevra:** keeps conclusions narrow and transitions the party from investigation to the next operational objective.
+- **Nimera:** supplies the bounded Prime / Might / Last Sentinel identifications and states clearly what remains unknown.
+- **Torren:** supplies the route geometry and emphasizes that the Ancient road continues north beyond Cresthaven.
+- **Cyanis:** remains the Card's physical holder; the new labels do not answer why it reacts to him.
+- **Ilyra:** keeps attention on Cyanis's safety and on avoiding an unsafe attempt to force the Card to do something simply because it now has a name.
+
+**End state / knowledge change**
+- Cyanis's Card is identified as a **Prime** associated with **Might** and named / designated **Last Sentinel**.
+- the ultimate meaning of Last Sentinel and the reason for its connection to Cyanis remain unknown.
+- **Last Sentinel is NOT Recovered, NOT manifested, and NOT gameplay-usable at the end of Chapter 3.**
+- the first actual manifestation / recovery remains reserved for **Chapter 4 S022 — Brilliant Answer**.
+- the ancient seal-working chamber has made the true age / lineage of Yahtrea's royal seal tradition an active mystery, but unauthorized use of the Queen's seal remains unsolved.
+- Mirena identifies the unlabeled route-map site as the place formerly called **Cresthaven**.
+- Cresthaven becomes the party's next working headquarters.
+- the Ancient route continues **north beyond Cresthaven** toward an unresolved destination.
+
+**Gameplay / chapter handoff**
+→ Chapter 3 ends after the Caelora debrief and decision to establish Cresthaven.  
+→ **Chapter 4 opens at Cresthaven after Mirena's advance crews have begun making it usable.**  
+→ The **Elder Briarhide fight in Chapter 4 S022** becomes Last Sentinel's first manifestation, true recovery event, and first gameplay use.
+
+**Reveal firewall**
+Do not reveal in the Chapter-3 ending:
+- proof that Calder ordered the original transport;
+- Calder's full motive;
+- who used / invoked the Queen's personal seal;
+- the exact method used to authenticate the suspect Card orders;
+- definitive proof that the Queen's current seal is itself a surviving Diysean object;
+- confirmed bearer / ownership status for Cyanis;
+- why the Card responds around Cyanis;
+- the meaning of `/PREVIOUS ERROR/`;
+- the ultimate purpose / meaning of Last Sentinel;
+- any Prime manifestation, recovery, or gameplay use;
+- the destination / purpose of the Ancient route continuing north beyond Cresthaven.
 
 ---
 
@@ -474,17 +576,17 @@ Do not yet reveal:
 > **Nimera Pellan joins permanently.**
 
 ## Story Prime state at Chapter-3 end
-> **Last Sentinel identified / confirmed, but NOT Recovered and NOT usable. Recovery occurs during Chapter 4 S022.**
+> **Last Sentinel is identified as a Might Prime, but is NOT Recovered and NOT usable. Recovery occurs during Chapter 4 S022.**
 
 ## Mysteries retained
 - Calder's hidden original involvement is not exposed until the appropriate reveal;
 - **how the Queen's personal magical seal was used / invoked without her authorization remains unresolved** until the appropriate later reveal;
 - the age / lineage of the Queen's present seal is now an active mystery after discovery of the much older Diysean seal-working chamber;
-- Cyanis retaining the Card is a cautious temporary decision, not proof of bearer status;
-- Mirena's private expectation that Nimera will be interested in the seal anomaly is not announced in the royal audience;
+- Cyanis retaining the Card remains a cautious royal decision, not proof of bearer status;
 - the seal mystery and Ancient / Card mystery are not assumed to have the same cause merely because Nimera studies both;
+- **Prime / Might / Last Sentinel** are now bounded identifications, but the ultimate meaning of Last Sentinel remains unknown;
 - cartographic mystery expands through **Cresthaven and the unresolved route continuing north beyond it**;
-- Cresthaven becomes durable headquarters;
+- Cresthaven becomes the next working headquarters;
 - the first verified modern Prime manifestation and Last Sentinel recovery have **not** happened by the end of Chapter 3.
 
 ## Optional return
