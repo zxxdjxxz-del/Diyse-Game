@@ -16,6 +16,9 @@
 
 ## Chapter-start handoff from Chapter 3
 - Chapter 3's mandatory story ends physically at **Cresthaven**, where Mirena establishes the site as the party's working headquarters.
+- **after the Cresthaven headquarters handoff, Maevra returns to Caelora with Mirena.**
+- Maevra is therefore no longer a default traveling companion during the Chapter-3 cleanup window or at the start of Chapter 4.
+- Maevra and Mirena may still visit Cresthaven for specifically authored scenes / Crown business, but such visits do not make either woman part of the traveling party.
 - Chapter 3 then remains active in a **Cresthaven cleanup window** for available Hunts / returns, Character-Life scenes, preparation, and other permitted optional content.
 - **Chapter 4 does not begin automatically.**
 - the player deliberately chooses the main-story **Begin Chapter 4** transition at Cresthaven when ready.
@@ -29,7 +32,7 @@ Traveling permanent roster:
 - Torren
 - Nimera
 
-Maevra is not the default traveling fifth.
+Maevra is not a traveling fifth; she has already returned to **Caelora** with Mirena before this chapter begins.
 
 ## Last Sentinel recovery handoff from Chapter 3
 - Chapter 3 ends with **Last Sentinel identified / confirmed as a real Ancient designation and classified as a Might Prime**, but it is **not yet Recovered and is not gameplay-usable**.
