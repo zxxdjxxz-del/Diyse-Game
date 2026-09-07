@@ -258,9 +258,10 @@ Do not yet reveal:
 **Rhazek / command presentation**
 - the party reaches the command layer while Rhazek is actively managing the Bastion rather than waiting theatrically for them.
 - command traffic demonstrates that Rhazek values accurate information, tracks his own personnel carefully, and makes deliberate operational decisions.
-- an **unnamed masked second officer** may appear within this command traffic.
+- **When the party enters the command area, an unnamed masked second officer is actively speaking / reporting to Rhazek as part of that command traffic.**
 - underlying canon: the masked second officer is **Seyrik Rell**.
-- party/player must **not identify or name him as Seyrik** in Chapter 2.
+- he is not introduced by name, unmasked, or otherwise identified for the party/player in Chapter 2.
+- his presence is deliberate early foreshadowing of Seyrik, not a generic replaceable officer beat.
 
 **Confrontation**
 - Maevra / party demand access to the prisoner extraction controls.
@@ -394,7 +395,7 @@ Do not resolve:
 
 ## Long arcs advanced
 - Rhazek established as competent/ideological Black Host command.
-- Seyrik seeded before reveal.
+- Seyrik seeded before reveal through his **mandatory unnamed masked appearance speaking/reporting to Rhazek when the party enters the Bastion command area**.
 - missing-person / missing-relative thread remains unresolved.
 - world map gains a concrete traversal-state change through reopening the Greenhollow–Dunmere road.
 
