@@ -168,18 +168,65 @@ Do not yet reveal:
 
 ---
 
-## Beat 3 — Prisoner Galleries — legacy S014
+## Beat 3 — Prisoner Galleries — legacy S014 REOPENED
 
-**Current locked functions**
-- the Prisoner Galleries are part of the Red Transfer Bastion complex reached from the covert lower route.
-- prisoners are differentiated adults with agency.
-- care is asked, not imposed.
-- people may refuse treatment/help.
-- prisoners retain control of their defensible safe area where applicable.
-- the party confirms that missing travelers have been taken into the Black Host transfer system.
-- Maevra may participate in the larger rescue / command response without becoming playable.
+**Purpose**
+- turn the Archive's transfer records into a direct human consequence by finding living captives;
+- preserve the prisoners as individual adults with agency rather than an objective counter;
+- create a defensible temporary safe area for people who choose to remain there;
+- establish that the secret waterworks / Archive route is not a practical mass-extraction route;
+- give the party a concrete reason to push upward into the Bastion's active command layer.
 
-**Status:** pending lean-beat migration.
+**Starting state**
+- the party has infiltrated the Red Transfer Bastion from below.
+- the Archive Leviathan is defeated.
+- the party knows the kidnappings are part of an organized Black Host transfer system, but does not know its full scale, destination, or purpose.
+- combat party: **Cyanis + Ilyra + Torren**.
+- Maevra remains non-combat.
+
+**Required events / discoveries**
+- the service route from the Sunken Archive leads directly into **Prisoner Galleries inside the Red Transfer Bastion complex**.
+- the party finds living captives held across multiple bays / holding areas rather than one anonymous crowd room.
+- initial distrust of the armed party / Maevra is reasonable and must not be treated as ingratitude or stupidity.
+- prisoners are differentiated adults who make their own decisions about treatment, movement, and whether to trust the party.
+- **Ilyra asks consent before examining or treating people.** Some may refuse help; others may request it. Refusal is respected.
+- opening accessible holding areas is part of clearing the galleries, but the scene is **not collect-all-prisoners gameplay**.
+- some freed prisoners may choose not to move immediately.
+- the party identifies a **defensible safe pocket** within the lower Bastion where prisoners who choose to wait can gather.
+- the people using the safe pocket retain control of its interior door / bar. The party does not lock them in or take control away from them.
+- prisoners confirm that people are moved between holding areas and along the Bastion's transfer infrastructure, but they do not know enough to explain the complete system.
+- no captive count is equated with the historical `thirty-one transfers` record.
+
+**Extraction problem**
+- the party determines that taking captives back through the secret waterworks / flooded Sunken Archive is not a viable general evacuation route, especially for injured or weakened people.
+- a maintained extraction / transfer route exists through the Bastion toward the **Greenhollow-side corridor**, but access is controlled from deeper / higher in the occupied fort.
+- the party therefore cannot complete the rescue simply by reaching the galleries.
+- objective becomes: **take control of the Bastion's active command / gate infrastructure, then return for the prisoners before extraction.**
+
+**Character functions**
+- **Ilyra:** consent-based care, triage, and keeping prisoner choice central.
+- **Torren:** evaluates safe-room defensibility and why the covert entry route is unsuitable for evacuation; reads the available extraction route.
+- **Cyanis:** focuses on opening holding areas and the practical next step required to get people out.
+- **Maevra:** coordinates the rescue plan and gives prisoners truthful information without making promises she cannot guarantee.
+- **Prisoners:** retain agency, information limits, and control of their temporary safe area.
+
+**End state / knowledge change**
+- the party has confirmed that missing travelers are being held inside the Red Transfer Bastion.
+- a group of prisoners has a defensible temporary safe area under its own control.
+- the waterworks / Archive route remains useful for infiltration but is not the main evacuation solution.
+- the viable extraction route is controlled from the Bastion's active command layer.
+- the party must push upward / deeper into the occupied fort, seize control, and then return before moving the prisoners.
+
+**Gameplay handoff**
+→ **Beat 4 — Red Transfer Bastion Command Layer / Commander Rhazek**
+
+**Reveal firewall**
+Do not yet reveal:
+- the complete captive total;
+- the full destination / purpose of the transfer system;
+- any exact equivalence between prisoners present and the transfer records;
+- Seyrik's identity;
+- later Chapter-3 answers.
 
 ---
 
@@ -214,7 +261,7 @@ Do not yet reveal:
 ---
 
 ## Chapter-2 dramatic shape
-**Wayfinder → Dunmere → travelers kidnapped on the Caelora road / Greenhollow road made unsafe by the seized Red Transfer Bastion → town elder reveals secret waterworks entry → covert lower approach → Sunken Archive → Archive Leviathan → transfer records / organized kidnapping revealed → Prisoner Galleries → Red Transfer Bastion command layer / Rhazek → extraction toward Greenhollow → direct Greenhollow–Dunmere road reopened.**
+**Wayfinder → Dunmere → travelers kidnapped on the Caelora road / Greenhollow road made unsafe by the seized Red Transfer Bastion → town elder reveals secret waterworks entry → covert lower approach → Sunken Archive → Archive Leviathan → transfer records / organized kidnapping revealed → Prisoner Galleries / temporary safe pocket → extraction route found but controlled from upper Bastion → Red Transfer Bastion command layer / Rhazek → return for prisoners / extraction toward Greenhollow → direct Greenhollow–Dunmere road reopened.**
 
 ## Long arcs advanced
 - Rhazek established as competent/ideological Black Host command.
