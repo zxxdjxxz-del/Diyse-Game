@@ -23,9 +23,15 @@ Traveling permanent roster:
 
 Maevra is not the default traveling fifth.
 
+## Last Sentinel usability handoff from Chapter 3
+- Chapter 3 ends with **Last Sentinel confirmed / recovered**, but it is **not yet gameplay-usable** there.
+- no Prime action or usable Last Sentinel state occurs during the Chapter-3 ending.
+- the first actual use / gameplay availability begins in **Chapter 4 S022 — Brilliant Answer**, during the opening fight after the Chapter-3 events.
+- this S022 manifestation is therefore both the **first verified modern Prime action** and the point at which Last Sentinel first becomes usable in play.
+
 ## S022 key outcomes
 - Elder Briarhide resolves nonlethally.
-- **Last Sentinel manifests for the first verified modern Prime action**.
+- **Last Sentinel manifests for the first verified modern Prime action and first gameplay-usable use.**
 - Recovered manifestation is one legal signature action, then dismisses in the same round.
 - Elder Briarhide survives/retreats.
 - **Vaelira Serren joins permanently**.
