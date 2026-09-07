@@ -25,6 +25,7 @@ Exact wording, banter, profanity, pacing, reactions, and relationship-performanc
 - Hollow Watch is a **small Yahtrean cliff-side fort built directly over an older Diysean ruin**.
 - The Black Host seized Hollow Watch roughly one week before the Greenhollow events and has spent that week excavating beneath it.
 - Southern Briar Passage continues toward Wayfinder Junction and then the Dunmere approach.
+- The physical entrance used to reach the **Cistern Devourer Hunt is in southern Briar Passage**, not at Wayfinder Junction. Wayfinder later provides the information that makes that earlier Briar-side access meaningful and returnable.
 - A direct Greenhollow–Dunmere road exists but is unavailable in Chapter 1 because of Black Host control.
 
 ## Locked travel / combat presentation
@@ -375,6 +376,9 @@ No definitive ancient-network explanation, Prime revelation, Last Sentinel, buri
 - Torren leads the group through deeper southern Briar routes using local knowledge that Maevra did not have.
 - The area supports meaningful exploration and side paths without restoring the false trail, route split, damaged crossing, or separate Old Waystone.
 - No new major Ancient-lore discovery occurs here; Hollow Watch supplied the setup and Wayfinder is the later payoff.
+- During the southward traversal, Torren points out a **heavily overgrown old side access / stone-lined opening** branching away from the usable Briar route.
+- Torren notes that it is too overgrown to be a sensible route at present and that it is **not the direction the party is heading**, so the group continues onward. Exact wording belongs to the Dialogue Engine.
+- At this point the opening is only an old, impractical route feature; the party does not yet know that it is the access associated with the later Cistern Devourer Hunt.
 - The Briarhide Stalker is established as a **naturally occurring, exceptionally strong wild beast** native to / ranging through Briar Passage.
 - Early signs can establish that a large predator is active in this part of the passage.
 - The party later gets a clear sighting before the final encounter.
@@ -385,6 +389,7 @@ No definitive ancient-network explanation, Prime revelation, Last Sentinel, buri
 **End state**
 - The party reaches the last southern Briar stretch before Wayfinder Junction.
 - The Briarhide Stalker is the immediate wild-beast threat barring safe passage forward.
+- The overgrown side access remains behind them in southern Briar as a remembered but unexplored route feature.
 
 **Gameplay handoff**
 Briarhide Stalker final boss.
@@ -433,7 +438,7 @@ Required fundamentals:
 - Wayfinder is a safe post-boss discovery area: no random encounters, boss, hidden final battle, collapse, or antagonist sting.
 - Familiar Six Faces appear as part of Ancient technical / cartographic grammar the party does not yet understand.
 - Current Face terminology must be used during dialogue generation.
-- Old water / cistern branch unlocks access to the Cistern Devourer Hunt.
+- Old water / cistern notation on the Wayfinder corresponds to the **overgrown side access Torren pointed out earlier in southern Briar Passage**. The Wayfinder provides the information that lets the party recognize that earlier branch as worth returning to; **the Hunt entrance itself is not at Wayfinder**.
 - Damaged / broken edge remains unresolved.
 - Party makes practical physical copies of useful map information.
 - **Dunmere was already the party's intended next destination before reaching Wayfinder.** The Wayfinder does not reveal Dunmere as a new destination.
@@ -446,8 +451,9 @@ Required fundamentals:
 - Dunmere remains the already-known practical destination.
 - The party has copied enough Wayfinder information to preserve the newly recognized Ancient alignment and other useful route details.
 - The group now understands that their existing south/east travel corridor has older Diysean significance.
+- The party now has enough information to connect the Wayfinder's water/cistern notation with the earlier overgrown southern-Briar access.
 - The party establishes an overnight camp near the Wayfinder / southern route rather than advancing directly into Chapter 2.
-- Wayfinder and its newly discovered optional branch remain accessible during the overnight cleanup window.
+- Wayfinder and the southern Briar route remain accessible during the overnight cleanup window so the player can backtrack to that newly interpreted branch.
 
 ---
 
@@ -465,7 +471,7 @@ Required fundamentals:
 - The party has made physical copies of the relevant Wayfinder information.
 - Combat party remains Cyanis + Ilyra + Torren.
 - Maevra remains a non-combat traveling companion.
-- The camp is established close enough to Wayfinder / the southern route that returning to the Wayfinder's optional old-water branch is reasonable before departure.
+- The camp is established close enough to Wayfinder and the final southern-Briar stretch that returning to the **earlier overgrown Briar-side access** is reasonable before departure.
 
 **Optional-content window**
 - This camp is the Chapter-1 **pre-departure cleanup window** and the common hub for the chapter's three existing Character-Life scenes.
@@ -474,8 +480,9 @@ Required fundamentals:
 - **C04 — `What the Map Says`** is available here. Its old Brackenwall route-room location is superseded by the camp. Torren may work on his ordinary modern route maps at camp; the scene remains character-life only and must not become a second Wayfinder lore reveal, Hunt-progression scene, or mandatory-information scene. Location/time-specific old wording may be regenerated where needed for continuity.
 - **C05 — `Two Professionals Complaining About Cyanis`** is available here. Its old Brackenwall evening location is superseded by the Wayfinder-area camp; its character-life function remains intact.
 - Exact dialogue/performance remains under `03_DIALOGUE`; the story authority fixes the scenes' availability and location window.
-- The **Cistern Devourer Hunt** is available from this window through the old-water / cistern branch discovered at Wayfinder.
-- The player may return to Wayfinder, follow the unlocked branch, fight the Hunt, and then return to camp without advancing the chapter.
+- The **Cistern Devourer Hunt** becomes available from this window because Wayfinder has identified the significance of the earlier overgrown branch in southern Briar Passage.
+- The player may backtrack from camp into southern Briar Passage, return to the overgrown access Torren previously pointed out, enter the Cistern route from there, complete the Hunt, and return to camp without advancing the chapter.
+- **Wayfinder contains the clue, not the Hunt entrance.**
 - Character-Life scenes and the Hunt may be completed in any practical order before departure, subject to their own live implementation requirements.
 - Other compatible Chapter-1 optional cleanup content may remain available where its own authority permits it.
 
@@ -486,7 +493,7 @@ Required fundamentals:
 - Chapter 1 ends on departure from the camp / Wayfinder area, not immediately at the end of the Wayfinder inspection.
 
 **Gameplay handoff**
-Wayfinder-area camp cleanup → next morning → continue toward Dunmere along the existing route, now understood to have Ancient significance → Chapter 2.
+Wayfinder-area camp cleanup → optional backtrack into southern Briar for Cistern Devourer → next morning → continue toward Dunmere along the existing route, now understood to have Ancient significance → Chapter 2.
 
 **Reveal firewall**
 The camp, Character-Life scenes, and optional Hunt do not add Prime, Last Sentinel, bearer, Entity, or complete ancient-network answers beyond what Chapter 1 already permits.
@@ -494,7 +501,7 @@ The camp, Character-Life scenes, and optional Hunt do not add Prime, Last Sentin
 ---
 
 ## Chapter-1 dramatic shape
-**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch / dead garrison → excavation → six-channel human-use clue → forced inner breach → implicit Card-triggered Castellan activation → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → wild-predator signs → Briarhide Stalker sighting → Briarhide Stalker final boss → Wayfinder Junction payoff → existing Dunmere-bound route revealed as part of an older Diysean alignment → Torren calls for camp → optional C03/C04/C05 Character-Life scenes / Cistern Devourer cleanup window → next-morning continuation toward Dunmere.**
+**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch / dead garrison → excavation → six-channel human-use clue → forced inner breach → implicit Card-triggered Castellan activation → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → Torren notes an overgrown off-route side access → wild-predator signs → Briarhide Stalker sighting → Briarhide Stalker final boss → Wayfinder Junction payoff → existing Dunmere-bound route revealed as part of an older Diysean alignment → Wayfinder water/cistern notation identifies the earlier Briar-side access as meaningful → Torren calls for camp → optional C03/C04/C05 Character-Life scenes / southern-Briar Cistern Devourer backtrack → next-morning continuation toward Dunmere.**
 
 ## Knowledge firewall
 Chapter 1 must not reveal:
@@ -506,4 +513,4 @@ Chapter 1 must not reveal:
 - Entity.
 
 ## Optional handoff
-Regional Hunt #1 — Cistern Devourer becomes returnable through the established Wayfinder old-water-route discovery and is available during the Wayfinder-camp cleanup window before Chapter 2 begins.
+Regional Hunt #1 — Cistern Devourer becomes returnable when Wayfinder's old-water / cistern notation gives the party enough information to recognize the **overgrown access previously passed in southern Briar Passage**. The Hunt's physical entrance is in Briar Passage and is available during the Wayfinder-camp cleanup window before Chapter 2 begins.
