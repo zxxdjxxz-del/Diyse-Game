@@ -29,12 +29,15 @@ Exact wording, banter, profanity, pacing, and relationship-performance details s
 - the direct **Greenhollow–Dunmere road is too dangerous to use** because the Black Host has seized the **Red Transfer Bastion**, an old fort positioned off / controlling that road.
 - **The Red Transfer Bastion is the seized old fort. It is not a separate location from the Chapter-2 Bastion.**
 - the Bastion is the central Black Host position behind both the road threat and the kidnapping operation.
-- the Chapter-2 finale breaks the Bastion's control of the corridor and **reopens the direct Greenhollow ↔ Dunmere road after Chapter 2**.
+- the Chapter-2 finale breaks the Bastion's control of the corridor and **reopens the direct Greenhollow ↔ Dunmere road**.
+- after the Greenhollow-side extraction is complete, the party and Maevra **return to Dunmere** over the reopened road.
+- **Dunmere is the Chapter-2 cleanup hub**, with the party resting at the inn before the journey east toward Caelora.
 
 ## Locked playable-party structure
 - commandable party: **Cyanis + Ilyra + Torren**.
 - Chapter 2 is a sustained development chapter for this permanent trio.
-- **Maevra remains fully non-playable**. She may participate as commander, authority actor, evacuation coordinator, or story-scene presence, but never enters the battle formation.
+- **Maevra remains fully non-playable but physically travels with the group throughout Chapter 2.**
+- she remains present through the Dunmere return / inn cleanup period and must not disappear from Character-Life staging merely because she is not a battle-party member.
 
 ## Retired Chapter-2 opening premise
 The previous **Poisoned Waterworks** storyline is retired.
@@ -68,7 +71,7 @@ Do not restore:
 - the party carries a **physical copy of the relevant Wayfinder information**, which shows that the route they were already taking toward Dunmere overlaps an older Diysean route alignment.
 - Torren leads the group onward along that existing route and into Dunmere from the Wayfinder / southern-Briar side.
 - combat party: Cyanis + Ilyra + Torren.
-- Maevra may travel with them but is never a combat participant.
+- Maevra travels with them but is never a combat participant.
 - the larger journey still points toward **Caelora**.
 
 **Required events / discoveries**
@@ -367,7 +370,7 @@ Do not reveal:
 - give Chapter 2 one final authored combat built around protecting the moving column;
 - preserve incomplete accounting for people already transferred elsewhere;
 - break the Bastion's practical control of the corridor and reopen the direct Greenhollow–Dunmere road;
-- end the chapter on evacuation / recovery rather than another boss or villain sting.
+- return the party to **Dunmere** after the rescue so the chapter ends in a deliberate cleanup period rather than immediately moving into Chapter 3.
 
 **Starting state**
 - Rhazek has been defeated locally and withdrawn.
@@ -400,18 +403,19 @@ Do not reveal:
 - do not add a surprise second battle, hidden boss, Rhazek rematch, or antagonist sting after the evacuees are through.
 - Rhazek remains withdrawn from Beat 4.
 
-**Chapter-state payoff**
+**Road reopening / return to Dunmere**
 - breaking the Bastion's command / gate control and successfully clearing the extraction corridor removes the immediate Black Host obstruction from the route.
-- after Chapter 2, the direct **Greenhollow ↔ Dunmere road is reopened for travel**.
-- the extraction resolves on the **Greenhollow side**, superseding older staging that returned the rescued group to Dunmere.
-- the chapter ending may show evacuees receiving care, resting, regrouping, or waiting for news of people still unaccounted for.
-- the final emotional image should emphasize **people successfully evacuated but accounting still incomplete**, not a triumphant victory pose.
+- the direct **Greenhollow ↔ Dunmere road is reopened**.
+- the **rescue itself resolves on the Greenhollow side**; the freed prisoners have reached safety there.
+- after the immediate rescue work is stable, the party and Maevra **return to Dunmere over the newly reopened road**.
+- the party heads to the **Dunmere inn to rest for the night**.
+- reaching the inn / resting does **not** start Chapter 3.
 
 **Character functions**
 - **Torren:** leads the extraction route and keeps the path physically viable for the column.
 - **Ilyra:** supports wounded / weakened evacuees and preserves individual needs during movement.
 - **Cyanis:** anchors the defensive response when the column is threatened.
-- **Maevra:** coordinates timing, movement, and the larger evacuation without becoming playable.
+- **Maevra:** coordinates timing, movement, and the larger evacuation without becoming playable, then returns to Dunmere with the group.
 - **Evacuees:** remain people with their own missing relatives, injuries, choices, and uncertainty rather than becoming a faceless success count.
 
 **End state / world-state change**
@@ -420,8 +424,13 @@ Do not reveal:
 - Rhazek remains alive and withdrawn.
 - not every kidnapped / transferred person is accounted for; the missing-person thread remains unresolved.
 - the Red Transfer Bastion's local control of the corridor is broken.
-- **Greenhollow ↔ Dunmere direct travel is reopened after Chapter 2.**
-- the party can continue the larger journey with the trio intact.
+- **Greenhollow ↔ Dunmere direct travel is reopened.**
+- Cyanis, Ilyra, Torren, and Maevra have returned to **Dunmere**.
+- the party is staying at the **Dunmere inn** for the night.
+- Chapter 2 enters its cleanup period and remains Chapter 2 until the player deliberately chooses to leave Dunmere east toward Caelora.
+
+**Gameplay handoff**
+→ **Chapter-2 Cleanup — Dunmere Inn / Dunmere**
 
 **Reveal firewall**
 Do not resolve:
@@ -433,8 +442,48 @@ Do not resolve:
 
 ---
 
+# Chapter-2 Cleanup Period — Dunmere
+
+**Cleanup state**
+- Chapter 2's mandatory story is complete, but the game remains in **Chapter 2**.
+- **Cyanis, Ilyra, Torren, and Maevra are all still traveling together.**
+- the party's immediate base is the **Dunmere inn**.
+- they are resting in Dunmere before continuing the larger journey east toward Caelora.
+- the reopened Greenhollow ↔ Dunmere road is available for permitted backtracking / return content.
+- sleeping at the inn, viewing Character-Life scenes, or morning arriving does **not** start Chapter 3.
+
+**Character-Life scenes**
+- **C06 — `Three People Who Know Each Other Now`** and **C07 — `Bad Dreams, No Questions`** are both reopened for current staging because their historical exact versions were written around only Cyanis, Ilyra, and Torren.
+- both scenes remain optional and order-independent.
+- **Maevra must now be present as part of the four-person traveling group in both current scenes.**
+- her presence should feel natural to the established relationships rather than like an inserted exposition role.
+- the core character-life functions of the historical versions may be retained where compatible: mundane teasing, routine competence, quiet care, shared exhaustion, comfortable silence, and avoidance of forced emotional disclosure.
+- Maevra remains non-playable; Character-Life presence does not imply combat-party membership.
+- exact four-person dialogue / staging belongs to the Dialogue Engine and should be regenerated rather than forcing the old trio-only line sets unchanged.
+- the existing **Dunmere rest-area / sleeping-area atmosphere remains appropriate**, now understood as the inn / its associated common-rest spaces.
+
+**Regional Hunt #2 — Transfer Executioner**
+- **Transfer Executioner** is available as Chapter-2 optional cleanup content after the Bastion operation is broken.
+- the Hunt is accessed by returning toward / into the now-cleared or isolated portions of the **Red Transfer Bastion** through the reopened corridor.
+- it is not inserted into the mandatory prisoner rescue while captives are still awaiting evacuation.
+- exact Hunt encounter mechanics remain under live encounter authority.
+
+**Other cleanup access**
+- any earlier optional content still legitimately open may be completed subject to current geography and access rules.
+- normal shopping, equipment, healing, saving, formation, records, and preparation remain available as appropriate.
+
+**Chapter-3 start trigger**
+- Chapter 3 does **not** start from the inn, from sleeping, or automatically the next morning.
+- the chapter boundary is the **east exit from Dunmere**, the road the group will take toward Caelora.
+- when the player attempts to leave Dunmere **to the east**, the game asks for confirmation equivalent to:
+  - `Ready to begin Chapter 3?`
+- declining leaves the player in the Chapter-2 cleanup state.
+- accepting the prompt is the deliberate advance-story action and starts **Chapter 3**.
+
+---
+
 ## Chapter-2 dramatic shape
-**Already traveling toward Dunmere → Hollow Watch mural makes Wayfinder significant → Wayfinder confirms the existing Dunmere-bound corridor overlaps an older Diysean alignment → overnight Wayfinder-area camp / optional cleanup → next-morning continuation toward Dunmere → travelers kidnapped on the Caelora road / Greenhollow road made unsafe by the seized Red Transfer Bastion → town elder reveals secret waterworks entry → covert lower approach → Sunken Archive → huge damaged map-mural links Hollow Watch / Wayfinder geography to a mismatched older landscape and a much larger city at modern Caelora's location → Archive Leviathan → transfer records / organized kidnapping revealed → Prisoner Galleries / temporary safe pocket → extraction route found but controlled from upper Bastion → active Red Transfer Bastion command layer → Rhazek confrontation / Bastion Master → controls seized while Rhazek withdraws → return for prisoners → Greenhollow-side extraction → Hold the Junction → final extraction threshold → direct Greenhollow–Dunmere road reopened.**
+**Already traveling toward Dunmere → Hollow Watch mural makes Wayfinder significant → Wayfinder confirms the existing Dunmere-bound corridor overlaps an older Diysean alignment → overnight Wayfinder-area camp / optional cleanup → next-morning continuation toward Dunmere → travelers kidnapped on the Caelora road / Greenhollow road made unsafe by the seized Red Transfer Bastion → town elder reveals secret waterworks entry → covert lower approach → Sunken Archive → huge damaged map-mural links Hollow Watch / Wayfinder geography to a mismatched older landscape and a much larger city at modern Caelora's location → Archive Leviathan → transfer records / organized kidnapping revealed → Prisoner Galleries / temporary safe pocket → extraction route found but controlled from upper Bastion → active Red Transfer Bastion command layer → Rhazek confrontation / Bastion Master → controls seized while Rhazek withdraws → return for prisoners → Greenhollow-side extraction → Hold the Junction → final extraction threshold → direct Greenhollow–Dunmere road reopened → return to Dunmere → inn rest / four-person Character-Life cleanup with Maevra → optional Transfer Executioner Hunt / cleanup → player chooses east exit → Chapter 3 begins.**
 
 ## Long arcs advanced
 - the Hollow Watch → Wayfinder route mystery advances: the Sunken Archive mural confirms the same old system continues toward modern Caelora, while showing geography / infrastructure that no longer maps cleanly onto the present world.
@@ -443,12 +492,13 @@ Do not resolve:
 - Seyrik seeded before reveal through his **mandatory unnamed masked appearance speaking/reporting to Rhazek when the party enters the Bastion command area**.
 - missing-person / missing-relative thread remains unresolved.
 - world map gains a concrete traversal-state change through reopening the Greenhollow–Dunmere road.
+- Maevra remains physically embedded in the traveling group through the Chapter-2 cleanup and eastward departure.
 
 ## Knowledge firewall
 No Chapter-3:
 - Last Sentinel answer;
 - Nimera recruitment;
-- Old City order mystery resolution;
+- Old City royal-seal answers;
 - Cresthaven;
 - explanation of why the old mapped geography / routes differ from the present landscape;
 - later underground truth.
