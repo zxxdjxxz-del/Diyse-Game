@@ -472,7 +472,9 @@ Do **not** retain:
 Current required functions:
 - **First Command Warden** is defeated under live encounter authority;
 - machine / display confirms `/LAST SENTINEL CONFIRMED/`;
+- this confirmation **does not recover Last Sentinel and does not make it usable**;
 - Cyanis's sealed Card resolves to stable **deep Ruby** only after that confirmation sequence;
+- the Ruby response is **not** a recovery event;
 - no Prime manifestation occurs here;
 - nobody identifies the Card as Might or Prime yet.
 
@@ -517,7 +519,8 @@ Current route-map handoff:
 Other current Beat-5 functions remain:
 - bounded answers become **Prime / Might / Last Sentinel**;
 - ultimate meaning remains unknown;
-- Last Sentinel becomes **Recovered / usable**.
+- **Last Sentinel remains identified / confirmed but unrecovered and unusable through the end of Chapter 3**;
+- its first manifestation during **Chapter 4 S022 — Brilliant Answer** is the recovery event and the point at which it first becomes gameplay-usable.
 
 ### Chapter-3 production firewall through S021
 Do not regenerate:
@@ -531,6 +534,7 @@ Do not regenerate:
 - definitive confirmation that the Queen's present physical seal is itself a surviving Diysean artifact;
 - proof that ancient seal magic can simply be copied / transferred into another seal;
 - bearer confirmation;
+- Last Sentinel recovery, manifestation, or gameplay use before **Chapter 4 S022**;
 - premature Might / Prime identification;
 - `Cresthaven` written / spoken as a readable label on the Ancient routing map;
 - the party identifying the unlabeled site as Cresthaven before Mirena examines Torren's copy;
