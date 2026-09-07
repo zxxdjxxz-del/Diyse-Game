@@ -132,7 +132,7 @@ Greenhollow.
 - Cyanis carries the abnormal Card.
 - Larger destination is Caelora.
 - Torren already knows the Black Host seized Hollow Watch about a week ago and has been excavating beneath it.
-- Torren does not know the garrison's full fate or the Host's objective.
+- Torren does not yet know the garrison's full fate or the Host's objective.
 
 **Required events**
 - Greenhollow is a functioning route community.
@@ -182,19 +182,21 @@ Occupied Hollow Watch fort.
 **Purpose**
 - show the consequences of the Black Host takeover;
 - establish that the fort itself is secondary to what lies beneath it;
+- resolve Torren's uncertainty about the garrison;
 - move Torren's concern toward the excavation.
 
 **Required events**
 - Party penetrates the occupied Yahtrean surface fort.
 - Black Host troops actively hold the surface.
 - Evidence of the recent takeover remains visible; it has not become a fully converted Black Host installation.
-- The party finds evidence concerning the former Yahtrean garrison.
-- **Exact canonical garrison fate remains open until separately decided.**
+- The party confirms that **the Yahtrean Hollow Watch garrison was killed during / following the Black Host seizure of the fort**.
+- The dead garrison provides the human consequence Torren came to verify; there is no surviving-garrison rescue objective.
 - Excavation traffic, tools, supplies, records, or staging make it increasingly obvious that the Host's real focus is below the fort.
 - Party reaches the excavation access.
 
 **End state**
-The question shifts from “why did they take the fort?” to “what are they trying to reach underneath it?”
+- Torren knows what happened to the garrison.
+- The remaining question shifts from the fort's fate to **what the Black Host is trying to reach underneath it**.
 
 **Gameplay handoff**
 Black Host excavation / lower Diysean ruin.
@@ -267,18 +269,26 @@ Hollow Watch Castellan.
 
 **Purpose**
 - serve as Hollow Watch's major combat climax;
-- guard / seal the final protected discovery area.
+- guard / seal the final protected discovery area;
+- create an implicit connection between the recovered Card and deeper Diysean systems without explaining it.
 
 **Required events**
 - Combat party: Cyanis + Ilyra + Torren.
 - Maevra is not a battle participant.
+- Cyanis is carrying the recovered Card when the party enters / reaches the Castellan's protected area.
+- The Castellan reacts and activates in response to the party's arrival with the Card.
+- **This Card-triggered reaction is true underlying causality but is never explicitly stated, confirmed, or explained in Chapter 1.**
+- Characters may register the timing or strangeness of the activation, but they cannot correctly identify the mechanism or meaning behind it.
 - Castellan initially appears integrated into the ruin / architecture.
 - It later tears free into a mobile state on the **same HP bar**.
 - Exact support mechanics remain under encounter authority.
-- Exact cause of activation and the precise relationship between the Host excavation and the awakened defense remain open unless later locked.
 
 **End state**
-The Castellan is defeated and the party gains access to the protected final discovery area.
+- The Castellan is defeated and the party gains access to the protected final discovery area.
+- The audience may suspect a relationship between Cyanis's Card and the ancient defense, while the party remains uncertain.
+
+**Reveal firewall**
+Do not explicitly state that the Card is recognized by the Castellan, that Cyanis is a bearer, that the Card has a specific ancient authorization function, or any deeper Prime / Last Sentinel explanation.
 
 ---
 
@@ -336,7 +346,7 @@ No definitive ancient-network explanation, Prime revelation, Last Sentinel, buri
 - return the main journey to the southward Briar route.
 
 **Required events**
-- Hollow Watch's immediate threat / occupation situation is resolved enough for Torren to leave.
+- The garrison's fate is known and Hollow Watch's immediate Black Host / ancient-defense threat is resolved enough for Torren to leave.
 - Torren commits to the job Maevra originally sought him for: guiding the group through southern Briar Passage toward the larger Caelora journey.
 - **TORREN HARTH — PERMANENT PARTY MEMBER.**
 
@@ -434,12 +444,13 @@ Required fundamentals:
 ---
 
 ## Chapter-1 dramatic shape
-**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch → excavation → six-channel human-use clue → forced inner breach → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → Stalker evidence → Stalker sighting → route pressure → Briarhide Stalker final boss → Wayfinder Junction payoff → Dunmere route.**
+**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch / dead garrison → excavation → six-channel human-use clue → forced inner breach → implicit Card-triggered Castellan activation → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → Stalker evidence → Stalker sighting → route pressure → Briarhide Stalker final boss → Wayfinder Junction payoff → Dunmere route.**
 
 ## Knowledge firewall
 Chapter 1 must not reveal:
 - Last Sentinel identification;
 - Prime identification / manifestation beyond current Card knowledge;
+- explicit explanation of the Card's relationship to the Castellan / ancient authorization systems;
 - giant buried Crest;
 - complete integrated underground-civilization / route-network explanation;
 - Entity.
