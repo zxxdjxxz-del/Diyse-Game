@@ -327,12 +327,12 @@ Do not yet reveal:
 
 **Purpose**
 - move from ordinary archive space into deeper Diysean **command / authority architecture**;
-- use the behavior of surviving authority mechanisms to sharpen the Queen-seal mystery without solving it;
-- establish an important distinction: a genuine magical authority response proves that the **bound authority answered**, not necessarily that its owner consciously performed the act;
+- discover a surviving **ancient authority seal and the mechanism used to imbue such a seal with magic**;
+- use that physical discovery to sharpen the Queen-seal mystery while implying that Yahtrea's magical royal-seal tradition is far older than the modern Crown understands;
 - defeat the **First Command Warden**;
 - produce the first explicit Ancient confirmation of **Last Sentinel**;
 - advance Cyanis's Card from unstable earlier responses to a stable **deep Ruby** state without a Prime manifestation;
-- continue the Ancient route mystery with a second routing display that Torren can copy for later identification.
+- continue the Ancient route mystery with a routing display that Torren can copy for later identification.
 
 **Starting state**
 - permanent combat-capable party is now **Cyanis + Ilyra + Torren + Nimera**.
@@ -348,16 +348,6 @@ Do not yet reveal:
 - mechanisms classify, redirect, allow, deny, or pressure passage according to conditions the party only partly understands.
 - Nimera remains precise: detection, classification, and response do **not** prove sentience or broad intelligence.
 - Cyanis's Crest knowledge, Nimera's Card / archive expertise, Torren's physical route-reading, and Ilyra / Maevra's caution all remain useful without any one character suddenly understanding the whole system.
-
-**Authority insight / relation to the Queen's seal**
-- the group encounters surviving Ancient authority mechanisms that respond to **accepted conditions / recognized authority states**, not to a conversational declaration of personal intent.
-- the important lesson is conceptual rather than a direct technological connection to the modern Crown seal.
-- Nimera can now state more firmly that an authentic magical response does **not by itself prove the owner consciously performed the act at that moment**; it proves that whatever conditions the binding recognizes were successfully satisfied.
-- this matters because Crown authentication of the suspicious orders proves the Queen's personal seal magic answered, but does not by itself prove the Queen physically pressed the seal into those documents.
-- the Old City evidence does **not** tell the party what conditions the Queen's modern personal seal recognizes.
-- it also does **not** establish that her seal was built from Diysean technology, that the Ancient mechanisms and the seal use the same magic, or that remote invocation is possible.
-- several possibilities therefore remain open: concealed physical access, an authorized / linked condition nobody yet knows was exploitable, or some other abnormal means of satisfying the seal's binding.
-- the next useful investigation would require the **specific binding, maintenance, custody, and legitimate-use history of the Queen's actual seal**, not more speculation from generic Ancient examples.
 
 **Command-route traversal**
 - the party follows the only viable deeper route as gates and command mechanisms change access around them.
@@ -389,9 +379,31 @@ Do not yet reveal:
 - nobody identifies the Card here as **Might**, a **Prime**, or definitively **Last Sentinel**.
 - the timing makes a relationship plausible, but not yet fully explained.
 
+**Final room — ancient seal-working chamber**
+- clearing the Warden opens / exposes a protected chamber beyond the command floor.
+- the room contains a **much older physical authority seal**, visibly designed for the same broad function as a royal / command seal rather than as decoration.
+- beside it is a surviving Diysean mechanism built to **imbue / charge the physical seal with magical authority**.
+- the apparatus makes the key point concrete: the magic is placed into the seal itself as an enduring property / authority response rather than requiring its owner to consciously cast through the object every single time it is used.
+- the group does not need to fully reactivate or reproduce the process; surviving structure, markings, residue / response, and Nimera's examination are enough to establish the function with reasonable confidence.
+- Nimera recognizes the significance immediately in relation to the Queen's seal: a physical seal can carry magical authority because it was **made / imbued to carry it**.
+
+**Implication for the Yahtrean royal seal**
+- the ancient seal and imbuing apparatus are far older than Yahtrea.
+- their broad conceptual similarity to the Queen's magically authenticated personal seal strongly implies that **Yahtrea did not invent the underlying royal-seal practice from nothing**.
+- this makes the Yahtrean royal seal tradition itself appear substantially older than the modern Crown's history would suggest.
+- the party may reasonably suspect that the Queen's present seal is an inherited relic, a later seal made from an inherited process, or part of a much older authority tradition.
+- **the chapter does not yet prove which of those possibilities is true.**
+- do not yet state that the Queen's current physical seal is definitively the same object as a Diysean seal, directly manufactured by this exact machine, or unchanged since the Ancient era.
+
+**What this changes about the seal mystery**
+- the final room proves that magically empowered physical seals existed in the Ancient period and that their authority could be imbued into the object itself.
+- this gives the party the first concrete historical comparison for the Queen's impossible seal response.
+- it does **not** reveal who used the Queen's seal, whether someone physically accessed it, whether its magic can be copied / transferred, or how the suspect Card orders were produced.
+- it does, however, make the Queen's seal itself a more important object of investigation: its true age, origin, construction, prior holders, maintenance, and any surviving records of how its magic was renewed / preserved now matter.
+- Nimera should treat this as a major lead rather than a solved answer.
+
 **Post-Warden routing display**
-- clearing the Warden opens / exposes a compact command-record or routing room behind / adjacent to the chamber.
-- among its surviving material is a large worn routing display with roads / routes, high ground, water, and a destination marker extending away from the Ancient city beneath modern Caelora.
+- the same protected room or an adjacent command-record section contains a large worn routing display with roads / routes, high ground, water, and a destination marker extending away from the Ancient city beneath modern Caelora.
 - Torren recognizes enough real-world geometry to make a practical copy.
 - the display should feel like another piece in the same broad cartographic mystery begun at Hollow Watch, Wayfinder, and the Sunken Archive mural.
 - the route appears to continue **beyond ancient Caelora toward another destination**, but the party cannot identify that destination here.
@@ -399,19 +411,20 @@ Do not yet reveal:
 - **Cresthaven is not named or identified in Beat 4.**
 
 **Character functions**
-- **Cyanis:** contributes Crest-based structural recognition where appropriate, remains the Card's physical holder, and experiences the stable Ruby response without gaining a complete explanation.
-- **Ilyra:** keeps attention on practical danger / consequences and resists treating a magical response as proof of intent.
+- **Cyanis:** remains the Card's physical holder and experiences the stable Ruby response without gaining a complete explanation.
+- **Ilyra:** keeps attention on the practical danger of a magical seal carrying authority independently of the ruler's immediate intent.
 - **Torren:** reads physical route geometry and copies the post-Warden routing display.
-- **Nimera:** distinguishes authority response from owner intent, keeps the seal comparison bounded, interprets Ancient terminology only where evidence supports it, and refuses to overclaim Last Sentinel / Card identity.
-- **Maevra:** keeps the group focused on evidence and limits rather than conclusions; remains non-playable.
+- **Nimera:** identifies the ancient seal-working chamber's function with appropriate caution, recognizes its implications for the Queen's seal and Yahtrean history, and refuses to overclaim exact continuity or the culprit.
+- **Maevra:** keeps the group focused on what the discovery actually proves and what it does not; remains non-playable.
 
 **End state / knowledge change**
 - the party has defeated the First Command Warden.
-- Old City authority behavior has established a useful principle: **a bound magical authority can answer when its recognized conditions are met, so authentication proves the authority responded but does not automatically prove the owner personally acted.**
-- the group still does **not** know what conditions the Queen's personal seal recognizes, who exploited them, or whether the seal was physically accessed.
 - `/LAST SENTINEL CONFIRMED/` is now an explicit Ancient phrase encountered by the party.
 - Cyanis's Card has resolved to a stable **deep Ruby** response.
 - no Prime manifestation has occurred.
+- the party has discovered an **ancient physical authority seal and a mechanism used to imbue such seals with magic**.
+- this strongly implies that the magical royal-seal tradition used by Yahtrea has roots far older than Yahtrea itself, while the exact lineage / age of the Queen's current seal remains unresolved.
+- the group still does **not** know who used / invoked the Queen's seal on the Card orders or exactly how.
 - Torren carries a new routing sketch showing a route from the Ancient Caelora area toward an unidentified destination.
 
 **Gameplay handoff**
@@ -422,9 +435,10 @@ Do not yet reveal:
 - proof that Calder ordered the original Card transport;
 - Calder's full motive;
 - who used / invoked the Queen's personal seal;
-- whether the seal was physically accessed;
-- the exact binding condition that allowed the seal's magic to answer;
-- a definitive technological / magical connection between the Queen's seal and Diysean command architecture;
+- whether the Queen's seal was physically accessed for the suspect orders;
+- whether the Queen's current physical seal is literally a surviving Diysean artifact, a later copy, or a successor produced from inherited knowledge;
+- whether the ancient imbuing mechanism can copy / transfer authority from one seal to another;
+- the exact method used on the suspect Card orders;
 - why the Card was targeted;
 - confirmed bearer status for Cyanis;
 - the Card as Might;
@@ -455,6 +469,7 @@ Do not yet reveal:
 ## Mysteries retained
 - Calder's hidden original involvement is not exposed until the appropriate reveal;
 - **how the Queen's personal magical seal was used / invoked without her authorization remains unresolved** until the appropriate later reveal;
+- the age / lineage of the Queen's present seal is now an active mystery after discovery of the much older Diysean seal-working chamber;
 - Cyanis retaining the Card is a cautious temporary decision, not proof of bearer status;
 - Mirena's private expectation that Nimera will be interested in the seal anomaly is not announced in the royal audience;
 - the seal mystery and Ancient / Card mystery are not assumed to have the same cause merely because Nimera studies both;
