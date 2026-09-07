@@ -211,15 +211,27 @@ Waterworks migration rule:
 - compatible old environmental/staging material may be reused only if it supports the covert approach without restoring contamination;
 - the Dialogue Engine must not regenerate the old lower-feed crisis.
 
-### Ch2 S013 — SUNKEN ARCHIVE — CONNECTIVE FUNCTION REOPENED
-Historical S013 may remain source material, but its old entry logic from contaminated water is retired.
+### Ch2 S013 — WATERWORKS / SUNKEN ARCHIVE / ARCHIVE LEVIATHAN — REOPENED
+Historical S013 remains useful for compatible Archive atmosphere, encounter staging, and character voice, but its old causal connection to contaminated water is retired.
 
-Current connective authority:
-- the elder's waterworks route leads into **older submerged infrastructure beneath / inside the Red Transfer Bastion complex**;
-- the Sunken Archive remains part of that covert lower approach unless later revised;
-- archive / transfer evidence reveals that the kidnappings are part of an organized Black Host transfer system;
-- `thirty-one transfers` means transfer records / events, **not prisoner headcount**;
-- the lower route continues toward the Bastion's prisoner / transfer areas.
+Current authority:
+- the town elder's hidden waterworks route is the party's **covert entry into the Red Transfer Bastion from below**;
+- municipal / Yahtrean waterworks gradually give way to the much older **Sunken Archive beneath / incorporated into the Bastion complex**;
+- signs of recent Black Host use appear deeper in the Archive, but the full transfer operation is not explained before the boss;
+- the **Archive Leviathan remains the major boss of the Sunken Archive**;
+- its current one-HP-bar / two-behavior-state presentation remains valid unless live encounter authority later changes the mechanics;
+- defeating the Leviathan opens / permits access to the protected records and service route beyond it;
+- post-boss records establish that the kidnappings are part of an organized Black Host transfer operation;
+- `thirty-one transfers` means **thirty-one recorded transfer entries / events**, not thirty-one prisoners and not a complete captive count;
+- the historical spoken wording that directly equates the number with `thirty-one people` is retired and must not be regenerated as current canon;
+- fresh tracks, transport/drag marks, newer hardware, and other physical evidence may support the conclusion that captives have been moved through the lower complex;
+- the service route beyond the Archive leads toward the **Prisoner Galleries** inside the same Bastion complex.
+
+Reveal limits:
+- do not establish the exact total number of captives;
+- do not explain the full final destination or purpose of the transfer system yet;
+- do not reveal Rhazek's full role before the Bastion command sequence;
+- do not reveal Seyrik's identity.
 
 ### Ch2 S014–S016 — BASTION CONTINUITY
 For current migration, treat S014 Prisoner Galleries, S015 Red Transfer Bastion, and S016 Extraction Causeway as successive parts of the **same Bastion operation**, not separate unrelated sites.
