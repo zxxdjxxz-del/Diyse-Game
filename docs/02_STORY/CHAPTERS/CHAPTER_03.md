@@ -103,7 +103,11 @@ The Chapter-3 opening mystery is instead that **the Queen knows absolutely nothi
 - Mirena notes that **one of Caelora's best experts on Cards and Card-related knowledge is currently working in the Old City archives**.
 - this gives the party an immediate reason to seek that scholar while the Queen's clerks begin tracing the impossible royal paperwork.
 - underlying current story structure: that scholar is **Nimera Pellan**; the scene does not need to explain her later party role before the group actually meets her.
-- Mirena's lead does not imply that the scholar already knows what Cyanis's Card is, why it affects him, or why the Queen's seal appears on the orders.
+- Mirena's stated reason in the full royal audience is the Card: Nimera is one of the people most likely to recognize what sort of artifact Cyanis is carrying or why it may be behaving strangely.
+- **Mirena also privately knows that Nimera will be deeply interested in the impossible royal-seal anomaly and wants her attention on it.**
+- Mirena deliberately **does not say that second reason in front of the full room**, including Calder. She does not publicly announce that she is sending the party to Nimera to examine a breach involving the Queen's own magical seal.
+- whether Mirena later shares that secondary reason privately with Maevra / the party can be handled by the Dialogue Engine when useful; it is not spoken in the central audience.
+- Mirena's lead does not imply that Nimera already knows what Cyanis's Card is, why it affects him, or how the Queen's seal appeared on the orders.
 
 **Immediate response**
 - the Queen does not punish or detain the party.
@@ -111,13 +115,13 @@ The Chapter-3 opening mystery is instead that **the Queen knows absolutely nothi
 - the suspicious papers, seal impressions, copies, and relevant ledgers are preserved for examination rather than blindly obeyed.
 - the Queen orders the paper trail traced through the offices, clerks, dispatch books, registry ledgers, witnesses, and archives that handled it.
 - Mirena and Maevra take the lead on the investigation.
-- Mirena directs the party toward the Old City archives to consult the Card expert already working there while the documentary trace proceeds.
+- Mirena directs the party toward the Old City archives to consult the Card expert already working there while keeping her separate interest in having Nimera look at the seal anomaly out of the public discussion.
 - Calder remains outwardly cooperative / skeptical as appropriate to his office; his hidden lie is not exposed in this beat.
 
 **Character functions**
 - **Queen:** establishes the hard contradiction by personally denying prior knowledge and any act of sealing / authorization; deliberately permits Cyanis to retain the Card because its unexplained effect on him makes forced transfer an unnecessary risk.
 - **Calder:** is physically present, lies by dismissing the idea that Crown resources would be wasted on an inactive Card, and conceals his actual role in ordering its transport.
-- **Mirena:** treats the impossible royal seal as a serious breach of Crown authority and gives the party the Old City Card-expert lead.
+- **Mirena:** treats the impossible royal seal as a serious breach of Crown authority, gives the party the Old City Card-expert lead publicly, and privately anticipates that Nimera will take a strong interest in the royal-seal anomaly without saying so before the room.
 - **Maevra:** supplies the true custody / travel history and identifies which orders correspond to events that actually occurred.
 - **Cyanis:** keeps the practical contradiction in view and remains the Card's physical holder by direct royal permission.
 - **Ilyra:** remains attentive to who knew about the artifact and what danger false royal authority creates.
@@ -130,6 +134,7 @@ The Chapter-3 opening mystery is instead that **the Queen knows absolutely nothi
 - the party is free.
 - **Cyanis retains the Card by the Queen's explicit decision until more is known about why it is affecting him and what separation might do.**
 - Mirena has identified an elite Card-knowledge expert currently working in the **Old City archives**.
+- Mirena privately has an additional reason for wanting Nimera involved: she expects Nimera to be interested in the impossible royal seal, but she has not disclosed that motive to the full audience.
 - Mirena and Maevra are authorized to trace the documents and their handling history.
 - Caelora is also now the modern city occupying the location of the enormous ancient city shown in the Sunken Archive mural.
 
@@ -144,6 +149,7 @@ Do not yet reveal:
 - who ultimately produced / manipulated the sealed orders;
 - why the Card was targeted;
 - a confirmed bearer / ownership relationship between Cyanis and the Card;
+- Mirena publicly telling the room that Nimera is also being sought because of the royal-seal anomaly;
 - whether the seal mystery and Ancient route / old city are connected;
 - Last Sentinel identification;
 - Prime identification;
@@ -170,6 +176,7 @@ Do not yet reveal:
 - the Queen has personally denied all prior knowledge of the Card and every Card-related act of sealing / authorization shown to her.
 - Calder's public position is that committing Crown resources to an inactive Card would be absurd; his hidden role in the original transport remains unknown to the party.
 - Mirena has already told the party that one of Caelora's best Card-knowledge experts is presently working in the Old City archives.
+- Mirena has **not** told the full audience that she also expects that expert to be interested in the impossible royal seal.
 - Mirena and Maevra have direct royal authority to trace the paperwork.
 - combat-capable party remains Cyanis + Ilyra + Torren; Maevra is never playable.
 
@@ -194,8 +201,9 @@ Do not yet reveal:
 - officials may protect restricted shelves, insist on warrants, verify seals, or challenge unsupported conclusions, but the investigation remains one of lawful access and escalating evidence.
 
 **Old City convergence**
-- the party already has one reason to go into the Old City archives: Mirena's Card expert is working there.
-- comparison of the older orders with the newly arrived one gives them a second reason: part of the documentary trail repeatedly reaches back to a **suppressed judicial / archive repository within the same Old City archive complex**.
+- the party already has one public reason to go into the Old City archives: Mirena's Card expert is working there.
+- Mirena privately sees a second expert reason as well: she expects Nimera to take an immediate interest in the impossible royal-seal anomaly, though she withheld that thought from the full royal audience.
+- comparison of the older orders with the newly arrived one gives the investigation another concrete reason to enter the same archive complex: part of the documentary trail repeatedly reaches back to a **suppressed judicial / archive repository within the Old City archives**.
 - suppressed means removed from ordinary circulation, not destroyed or nonexistent.
 - the relevant repository lies in older layers beneath / within modern Caelora.
 - the evidence does **not** yet prove that the ancient city itself created the orders; it proves only that records tied to the impossible orders pass through or depend on material kept there.
@@ -203,7 +211,7 @@ Do not yet reveal:
 
 **Character functions**
 - **Queen:** remains definitive proof that the sealed orders are not hers despite carrying her magical authority.
-- **Mirena:** coordinates access, preserves the paper trail, and connects the party with the Card expert already working in the Old City archives.
+- **Mirena:** coordinates access, preserves the paper trail, connects the party with the Card expert already working in the Old City archives, and quietly intends for Nimera to see the seal anomaly without advertising that intention before Calder / the whole court room.
 - **Maevra:** compares the orders against the events she personally witnessed and the instructions she actually received.
 - **Calder:** remains politically present in the broader investigation where appropriate and continues concealing his original involvement; exact performance belongs to the Dialogue Engine.
 - **Cyanis:** presses the practical question of how accurate orders can exist before the Queen even knew what they concerned, while continuing to carry the Card under royal permission.
@@ -218,7 +226,7 @@ Do not yet reveal:
 - Cyanis still retains the Card pending expert examination / better understanding of its effect on him.
 - Calder's original involvement remains hidden from the party.
 - the mechanism behind the magical royal seal remains unknown.
-- both the documentary trail and Mirena's expert lead converge on the **Old City archives**.
+- both the documentary trail and Mirena's public Card-expert lead converge on the **Old City archives**; Mirena's private interest in having Nimera look at the seal remains unannounced in the original audience.
 - the party has lawful authority to enter the needed archive / repository areas.
 
 **Gameplay handoff**
@@ -245,7 +253,8 @@ Do not yet reveal:
 ## Beat 3 — Scholar in Redacted Stacks — legacy S019
 **Pending lean migration. Current locked functions remain:**
 - the **Card-knowledge expert Mirena referred to in the royal audience is Nimera Pellan**, currently working in the Old City archives;
-- the party reaches her through the authorized Old City investigation;
+- Mirena also expects Nimera to be interested in the impossible royal seal, though she did not say that in front of the full royal audience;
+- the party reaches Nimera through the authorized Old City investigation;
 - **Nimera Pellan joins permanently** during this beat;
 - first full four-character permanent party becomes **Cyanis + Ilyra + Torren + Nimera**;
 - choose-four becomes meaningful because permanent-party size has genuinely reached four;
@@ -287,6 +296,7 @@ Do not yet reveal:
 - the full source / deliberate cause behind the Queen-sealed Card orders remains unresolved at the opening;
 - the exact mechanism by which the Queen's magical royal seal appeared without her act remains unresolved until the appropriate reveal;
 - Cyanis retaining the Card is a cautious temporary decision, not proof of bearer status;
+- Mirena's private expectation that Nimera will be interested in the seal anomaly is not announced in the royal audience;
 - cartographic mystery expands;
 - Cresthaven becomes durable headquarters;
 - the first verified modern Prime manifestation has still not happened.
