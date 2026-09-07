@@ -437,12 +437,56 @@ Required fundamentals:
 - Damaged / broken edge remains unresolved.
 - Party makes practical physical copies of useful map information.
 - Southeast route provides actionable progression toward Dunmere.
-- Chapter leaves Wayfinder quietly and hands off into Chapter 2.
+- **The party does not leave for Dunmere immediately after the Wayfinder discovery.**
+- Torren judges that they should make camp and continue along the mapped Dunmere route in the morning. Exact wording belongs to the Dialogue Engine.
+
+**End state / handoff**
+- The Dunmere route is known and physically copied.
+- The party establishes an overnight camp near the Wayfinder / southern route rather than advancing directly into Chapter 2.
+- Wayfinder and its newly discovered optional branch remain accessible during the overnight cleanup window.
+
+---
+
+## Beat 15 — Wayfinder Camp / Chapter-1 Cleanup Window
+
+**Purpose**
+- create a natural pause after Chapter 1's final boss and Wayfinder discovery;
+- provide an in-world opportunity to complete Chapter-1 optional content before the story advances to Dunmere;
+- give the party a quieter character-life beat after the chapter's combat and lore escalation;
+- preserve a clean next-morning transition into Chapter 2.
+
+**Required state**
+- Torren has identified the practical route toward Dunmere from the Wayfinder map.
+- The party has already made physical copies of the useful route information.
+- Combat party remains Cyanis + Ilyra + Torren.
+- Maevra remains a non-combat traveling companion.
+- The camp is established close enough to Wayfinder / the southern route that returning to the Wayfinder's optional old-water branch is reasonable before departure.
+
+**Optional-content window**
+- This camp is the Chapter-1 **pre-departure cleanup window**.
+- The existing post-S011 Character-Life material may be staged here instead of requiring an obsolete return to Brackenwall.
+- In particular, **C05 — `Two Professionals Complaining About Cyanis`** remains optional post-Wayfinder Character-Life content, but its old Brackenwall location staging is superseded by this Wayfinder-area camp.
+- Exact dialogue/performance remains under `03_DIALOGUE`; the story authority only fixes the scene's availability and location window.
+- The **Cistern Devourer Hunt** is available from this window through the old-water / cistern branch discovered at Wayfinder.
+- The player may return to Wayfinder, follow the unlocked branch, fight the Hunt, and then return to camp without advancing the chapter.
+- Other compatible Chapter-1 optional cleanup content may remain available where its own authority permits it.
+
+**Mandatory progression out of Chapter 1**
+- Optional content is not required to advance.
+- When the player chooses to continue, the party rests / completes the overnight stop.
+- **The next morning**, Torren leads the group onto the copied southeast route toward Dunmere.
+- Chapter 1 ends on departure from the camp / Wayfinder area, not immediately at the end of the Wayfinder inspection.
+
+**Gameplay handoff**
+Wayfinder-area camp cleanup → next morning → follow copied route toward Dunmere → Chapter 2.
+
+**Reveal firewall**
+The camp and optional Hunt do not add Prime, Last Sentinel, bearer, Entity, or complete ancient-network answers beyond what Chapter 1 already permits.
 
 ---
 
 ## Chapter-1 dramatic shape
-**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch / dead garrison → excavation → six-channel human-use clue → forced inner breach → implicit Card-triggered Castellan activation → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → wild-predator signs → Briarhide Stalker sighting → Briarhide Stalker final boss → Wayfinder Junction payoff → Dunmere route.**
+**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch / dead garrison → excavation → six-channel human-use clue → forced inner breach → implicit Card-triggered Castellan activation → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → wild-predator signs → Briarhide Stalker sighting → Briarhide Stalker final boss → Wayfinder Junction payoff → Dunmere route copied → Torren calls for camp → optional Character-Life / Cistern Devourer cleanup window → next-morning departure toward Dunmere.**
 
 ## Knowledge firewall
 Chapter 1 must not reveal:
@@ -454,4 +498,4 @@ Chapter 1 must not reveal:
 - Entity.
 
 ## Optional handoff
-Regional Hunt #1 — Cistern Devourer becomes returnable through the established Wayfinder old-water-route discovery.
+Regional Hunt #1 — Cistern Devourer becomes returnable through the established Wayfinder old-water-route discovery and is available during the Wayfinder-camp cleanup window before Chapter 2 begins.
