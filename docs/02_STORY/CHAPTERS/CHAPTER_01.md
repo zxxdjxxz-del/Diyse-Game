@@ -436,12 +436,16 @@ Required fundamentals:
 - Old water / cistern branch unlocks access to the Cistern Devourer Hunt.
 - Damaged / broken edge remains unresolved.
 - Party makes practical physical copies of useful map information.
-- Southeast route provides actionable progression toward Dunmere.
+- **Dunmere was already the party's intended next destination before reaching Wayfinder.** The Wayfinder does not reveal Dunmere as a new destination.
+- The southeast alignment on the Wayfinder corresponds to the route the party was already taking toward Dunmere, revealing that their modern travel path overlaps / follows an **older Diysean route alignment**.
+- This reframes the journey: the party now knows there is something Ancient about the way they are traveling, but does not yet understand the purpose or extent of the old route system.
 - **The party does not leave for Dunmere immediately after the Wayfinder discovery.**
-- Torren judges that they should make camp and continue along the mapped Dunmere route in the morning. Exact wording belongs to the Dialogue Engine.
+- Torren judges that they should make camp and continue toward Dunmere in the morning. Exact wording belongs to the Dialogue Engine.
 
 **End state / handoff**
-- The Dunmere route is known and physically copied.
+- Dunmere remains the already-known practical destination.
+- The party has copied enough Wayfinder information to preserve the newly recognized Ancient alignment and other useful route details.
+- The group now understands that their existing south/east travel corridor has older Diysean significance.
 - The party establishes an overnight camp near the Wayfinder / southern route rather than advancing directly into Chapter 2.
 - Wayfinder and its newly discovered optional branch remain accessible during the overnight cleanup window.
 
@@ -456,8 +460,9 @@ Required fundamentals:
 - preserve a clean next-morning transition into Chapter 2.
 
 **Required state**
-- Torren has identified the practical route toward Dunmere from the Wayfinder map.
-- The party has already made physical copies of the useful route information.
+- Dunmere was already the party's next practical destination.
+- The Wayfinder map has newly shown that the route they were already following toward Dunmere corresponds to an older Diysean alignment / road system.
+- The party has made physical copies of the relevant Wayfinder information.
 - Combat party remains Cyanis + Ilyra + Torren.
 - Maevra remains a non-combat traveling companion.
 - The camp is established close enough to Wayfinder / the southern route that returning to the Wayfinder's optional old-water branch is reasonable before departure.
@@ -474,11 +479,11 @@ Required fundamentals:
 **Mandatory progression out of Chapter 1**
 - Optional content is not required to advance.
 - When the player chooses to continue, the party rests / completes the overnight stop.
-- **The next morning**, Torren leads the group onto the copied southeast route toward Dunmere.
+- **The next morning**, Torren leads the group onward toward Dunmere along the route they had already intended to take, now carrying the added knowledge that it follows / overlaps an Ancient Diysean alignment.
 - Chapter 1 ends on departure from the camp / Wayfinder area, not immediately at the end of the Wayfinder inspection.
 
 **Gameplay handoff**
-Wayfinder-area camp cleanup → next morning → follow copied route toward Dunmere → Chapter 2.
+Wayfinder-area camp cleanup → next morning → continue toward Dunmere along the existing route, now understood to have Ancient significance → Chapter 2.
 
 **Reveal firewall**
 The camp and optional Hunt do not add Prime, Last Sentinel, bearer, Entity, or complete ancient-network answers beyond what Chapter 1 already permits.
@@ -486,7 +491,7 @@ The camp and optional Hunt do not add Prime, Last Sentinel, bearer, Entity, or c
 ---
 
 ## Chapter-1 dramatic shape
-**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch / dead garrison → excavation → six-channel human-use clue → forced inner breach → implicit Card-triggered Castellan activation → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → wild-predator signs → Briarhide Stalker sighting → Briarhide Stalker final boss → Wayfinder Junction payoff → Dunmere route copied → Torren calls for camp → optional Character-Life / Cistern Devourer cleanup window → next-morning departure toward Dunmere.**
+**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch / dead garrison → excavation → six-channel human-use clue → forced inner breach → implicit Card-triggered Castellan activation → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → wild-predator signs → Briarhide Stalker sighting → Briarhide Stalker final boss → Wayfinder Junction payoff → existing Dunmere-bound route revealed as part of an older Diysean alignment → Torren calls for camp → optional Character-Life / Cistern Devourer cleanup window → next-morning continuation toward Dunmere.**
 
 ## Knowledge firewall
 Chapter 1 must not reveal:
