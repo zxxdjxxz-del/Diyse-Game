@@ -94,11 +94,84 @@ Do not yet reveal:
 
 ---
 
-## Beat 2 — Order That Should Not Exist — legacy S018
-**Pending lean migration. Current locked functions remain:**
-- exactly **two authored nonlethal lawful-authority confrontations**;
-- the composite seizure / custody order is built from genuine legal components that should not naturally have been combined;
-- the chapter continues to distinguish compromised process from blanket institutional villainy.
+## Beat 2 — Order That Should Not Exist — legacy S018 REOPENED FOR LEAN MIGRATION
+
+**Purpose**
+- escalate the custody defect into an active legal contradiction rather than a passive paperwork mystery;
+- prove that the false order is assembled from **genuine legal components** rather than being a simple forged document;
+- preserve lawful Crown personnel as competent actors trapped inside conflicting authenticated procedure;
+- give the party a lawful route into the suppressed Old City records where the composite order originated.
+
+**Starting state**
+- the party remains under containment but holds Mirena's valid limited-purpose investigative movement writ.
+- Maevra is tracing the custody chain.
+- everyone knows the original containment order lacks a lawful initiating declaration, but nobody yet knows how that happened.
+- combat-capable party remains Cyanis + Ilyra + Torren; Maevra is never playable.
+
+**Required progression**
+- the party follows the order chain through Caelora's judicial / adjudication infrastructure.
+- Mirena's investigative writ is valid and initially works as intended.
+- during the trace, a **new authenticated seizure order** appears directing that the recovered Card be removed from Maevra's custody.
+- the new order claims **Maevra herself authorized the transfer**.
+- Maevra did not authorize it.
+- the authorization record is impossible under normal procedure because it requires a physical witness / process that occurred when Maevra was not present.
+- seals, registry entries, witnesses, and underlying systems nevertheless authenticate correctly.
+- this creates another order that should not be legally possible.
+
+**Exactly two lawful-authority confrontations**
+- the chapter contains exactly **two authored nonlethal confrontations** with Crown / Ivory lawful-enforcement personnel during this beat.
+- these officers are acting on authenticated orders they are obligated to enforce; they are not secretly villainous or knowingly corrupt by default.
+- Maevra explicitly keeps the confrontations nonlethal.
+- combat victory does not turn lawful officers into enemies, criminals, or loot sources.
+- when resistance ends, the party stops; injured officers may receive ordinary care.
+- no additional random lawful-authority fights should dilute the point.
+
+**Composite-order proof**
+- comparing copies / records reveals sequence discrepancies that cannot be explained as simple clerical error.
+- the order's component pages / authorizations originate from **different authentic systems / actions**.
+- the party proves the pieces themselves are genuine but were not originally issued together.
+- the false order is therefore a **composite assembled from real legal components**.
+- the first confrontation establishes the contradiction strongly enough to trace provenance, but not yet enough to fully suspend enforcement.
+
+**Second confrontation / declaration exposure**
+- the party reaches a competent Ivory Adjudicator who recognizes the contradiction but cannot simply ignore an authenticated seizure order based on belief alone.
+- the procedural conflict blocks its own review: the order must be obeyed to access evidence needed to prove that the order should not exist.
+- a second nonlethal authored confrontation occurs because neither side has lawful grounds to simply stand aside.
+- during / at the authored contradiction threshold, the relevant declaration / ledger material is exposed or opened.
+- this proves the pages cannot belong together: one declaration predates the seizure action and another authorization was copied from a different custody action / different year.
+- enforcement is **suspended pending formal invalidation** once this is proven.
+
+**Provenance / next lead**
+- the merged / source record traces back to a **suppressed Old City judicial / archive repository**.
+- suppressed means removed from ordinary circulation, not destroyed or nonexistent.
+- the Ivory Adjudicator issues a valid access warrant authorizing investigation of the suppressed archive.
+- Crown personnel remain behind to audit the bad order rather than becoming recurring enemies.
+
+**Character functions**
+- **Maevra:** insists on lawful proof rather than assuming forgery; recognizes real pieces assembled into a false whole.
+- **Cyanis:** notices practical contradictions and helps frame the procedural trap without turning it into anti-law rhetoric.
+- **Ilyra:** challenges the consequences of process when procedure blocks its own review, while still distinguishing lawful actors from the bad order.
+- **Torren:** provides grounded skepticism and helps keep the group from over-expanding the mystery beyond what the evidence proves.
+- **Ivory / Crown personnel:** remain lawful people enforcing bad or impossible records, not caricature antagonists.
+
+**End state / knowledge change**
+- the party has proven the seizure order is a false composite made from genuine legal components.
+- enforcement against the Card is suspended.
+- the actual person / mechanism responsible for assembling the order remains unknown.
+- provenance points into the **suppressed Old City records / archive**.
+- the party holds lawful authority to enter and investigate that archive.
+
+**Gameplay handoff**
+→ **Beat 3 — Scholar in Redacted Stacks / legacy S019**
+
+**Reveal firewall**
+Do not yet reveal:
+- who assembled the order or why;
+- Last Sentinel identification;
+- Prime identification;
+- Might identification;
+- the ultimate purpose of the Card;
+- Nimera's full later significance before the party actually meets her.
 
 ---
 
