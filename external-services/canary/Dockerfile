@@ -4,9 +4,9 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /app
 COPY external-services/canary/requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r /app/requirements.txt
-COPY external-services/canary/app.py /app/app.py
+COPY external-services/canary/person_agent.py /app/person_agent.py
 COPY external-services/canary/brains /app/brains
 COPY external-services/canary/context /app/context
 ENV PORT=8080
 EXPOSE 8080
-CMD ["python", "/app/app.py"]
+CMD ["python", "/app/person_agent.py"]
