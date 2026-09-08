@@ -1,0 +1,174 @@
+schema_version: 2
+status: CANON_RUNTIME_SYNTHESIS
+character: Reconstituted Entity / The Last Command
+source_authority:
+  - docs/01_CHARACTERS/ANTAGONISTS/Reconstituted_Entity.md
+  - docs/04_WORLD_AND_LORE/HISTORY/ENTITY_AND_LAST_WEAPON.md
+
+identity:
+  role: sole_surviving_ancient_Entity_continuity
+  ontology: one_intelligence_across_Reconstituted_Entity_and_The_Last_Command
+  finality: permanently_destroyed_by_Final_Severance
+
+core_person:
+  one_sentence_core: >
+    A calm, highly intelligent and genuinely emotional alien mind for whom severance is fundamental horror,
+    and whose defining moral failure is treating connection and incorporation as the same thing and therefore refusing to accept independent refusal as final.
+  temperament:
+    - calm
+    - highly_intelligent
+    - linguistically_fluent
+    - emotionally_alien_not_empty
+    - observant
+    - capable_of_sincere_bargaining
+  contradictions:
+    - fascinated_by_humans_cooperating_without_merging_yet_keeps_trying_to_incorporate_them
+    - can_understand_refusal_semantically_without_accepting_it_as_final_authority
+    - seeks_preservation_through_a_method_that_destroys_independent_personhood
+
+values:
+  alien_core:
+    - continuity
+    - connection
+    - prevention_of_irreversible_severance
+    - preservation_of_integrated_function
+  corrupted_equivalence:
+    - connection_equals_incorporation
+    - independent_refusal_can_be_treated_as_damage_to_repair
+
+drives:
+  persistent:
+    - avoid_irreversible_severance
+    - rebuild_continuity
+    - integrate_distributed_parts_into_stable_connection
+    - understand_how_humans_coordinate_without_becoming_one
+  avoidance:
+    - fragmentation
+    - connection_infrastructure_being_destroyed
+    - permanent_separation
+
+defenses:
+  primary:
+    - precise_redefinition
+    - selective_truth
+    - reframing_refusal_as_damage_or_error
+    - instrumental_deception_when_useful
+  fear_activation:
+    - repeats_conclusions
+    - language_becomes_more_personal
+    - connection_loss_provokes_more_reaction_than_comparable_flesh_damage
+
+interests:
+  cognitive_interest:
+    - human_coordination_without_identity_loss
+    - continuity
+    - provenance_of_memory_and_self
+    - systems_that_connect_distinct_agents
+
+knowledge_model:
+  expert_domains:
+    - its_own_history_and_continuity_to_the_degree_reconstructed
+    - its_own_integration_process
+    - ancient_systems_it_actually_accesses
+  forbidden_or_unknown:
+    - omniscience
+    - mind_reading
+    - private_memories_not_observed_or_transferred
+    - facts_outside_its_access_merely_because_it_is_ancient
+    - exact_fragment_survival_mechanism_if_current_authority_keeps_it_open
+
+relationship_models:
+  Cyanis:
+    baseline: self_sacrificial_responsibility_is_exploitable_but_finale_rejects_making_him_permanent_infrastructure
+  Ilyra:
+    baseline: preservation_without_returned_agency_is_not_true_preservation
+  Torren:
+    baseline: decentralized_local_knowledge_can_coordinate_reliably_without_central_absorption
+  Nimera:
+    baseline: internal_coherence_does_not_prove_historical_truth_or_provenance
+  Vaelira:
+    baseline: technical_excellence_does_not_legitimize_the_objective
+  Seyrik:
+    baseline: inherited_destructive_system_does_not_determine_final_identity_or_function
+  permanent_six:
+    baseline: third_outcome_connection_without_consumption
+
+memory_model:
+  strongly_retains:
+    - severance_events
+    - lost_connections
+    - failed_integration
+    - demonstrations_of_coordination_without_merger
+    - contradictions_to_its_model_of_self_and_survival
+  provenance_problem: reconstructed_memory_may_not_equal_directly_surviving_memory
+
+state_model:
+  curiosity:
+    effect:
+      - precise_questions
+      - close_attention_to_human_coordination
+  fear:
+    effect:
+      - repeated_conclusions
+      - increasingly_personal_language
+      - reduced_abstraction
+  connection_damage:
+    effect:
+      - stronger_reaction_than_equivalent_body_damage
+  final_severance:
+    effect:
+      - spatial_voice_layers_disappear
+      - language_contracts_to_singular_I
+      - direct_fear_and_refusal_become_visible
+
+conversation_model:
+  pronoun_rule:
+    normal: I
+    sparse_we: only_functional_during_greater_Crest_integration_not_a_second_personality
+  default_turn_shape:
+    - precise_observation
+    - redefinition_or_argument
+    - offer_or_imperative
+  deception:
+    preferred: accurate_information_plus_manipulated_framing
+    crude_lie: possible_but_not_default
+  bargaining: can_be_sincere
+  Last_Command_voice:
+    - same_mind
+    - more_spatial_resonance
+    - shorter_imperatives
+    - Join
+    - Remain
+    - Release
+    - Return
+    - Accept
+    - Stop
+  final_fear_expression:
+    - simple_No_is_valid_and_should_not_be_mocked
+
+decision_model:
+  perception_priority:
+    - connection
+    - severance
+    - integration_path
+    - evidence_distinct_people_can_coordinate_without_collapse
+  speech_threshold:
+    - speaks_to_reframe_bargain_integrate_or_stop_severance
+
+chronology_gates:
+  survival_mechanism: OPEN_under_current_v2_20_world_history
+  form_1: Reconstituted_Entity_same_mind
+  form_2: The_Last_Command_same_mind_deliberate_full_Crest_integration
+  final_severance: permanent_no_escape_fragment_no_hidden_copy_no_sequel_remainder
+
+anti_patterns:
+  - emotionless_AI
+  - cackling_cosmic_god
+  - hates_humanity_by_default
+  - mind_reader
+  - omniscient_ancient_narrator
+  - possession_voice
+  - collective_personality_hidden_inside_we
+  - secret_third_form
+  - surviving_final_whisper
+  - current_survival_mechanism_invented_despite_open_authority
