@@ -25,8 +25,8 @@ Implemented:
 - save/load proof;
 - dialogue trigger proof.
 
-### Dialogue
-Implemented in the Godot proof:
+### Dialogue — Godot proof
+Implemented:
 - Resource-backed `DiyseDialogueSceneDefinition`;
 - stable scene/beat IDs;
 - portrait registry indirection;
@@ -46,28 +46,124 @@ Current dialogue authoring/presentation interface additionally requires:
 
 See:
 - `../03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md`
+- `../03_DIALOGUE/AGENT_SYSTEM/RUNTIME_ORCHESTRATION.md`
 - `IMPLEMENTATION_NOTES/AREA_TRAVERSAL_AUTHORING_INTERFACE.md`
 - `DIALOGUE_UI.md`
 
-### External Dialogue Engine agent canary
+### External Dialogue Engine canary
 `external-services/canary/`
 
-Implemented service foundation:
-- exactly six canonical first-name Person Agent brains: Cyanis, Ilyra, Torren, Nimera, Vaelira, Seyrik;
-- legacy CHARACTER_ID aliases accepted only for deployment compatibility;
-- persistent story memory/state store;
-- separate open-conversation memory namespace;
-- story revision / Canon Checker PASS commit gate;
-- arbitrary `scene_context` payload on authored turns;
-- shared YAML context loaded automatically from `external-services/canary/context/` at service startup;
-- current shared context includes lived world, lived economy, dialogue craft/life, and unified scene construction;
-- unified scene-construction context tells agents/Director to account for map cell, area phase, encounter pressure, recovery, dialogue readiness, visual information, HD-2D/B00 staging, and production-cost constraints when those facts are supplied.
+#### Generic persistent Person Agent
+Current active canary entrypoint:
+> `person_agent.py`
+
+Container:
+> `Dockerfile`
+
+Implemented:
+- brain-file-driven character selection through `CHARACTER_ID`;
+- no hard-coded permanent-six runtime ceiling;
+- runtime discovery of all YAML brains packaged in `brains/`;
+- persistent story memory/state store per deployed person service;
+- separate open-conversation continuity;
+- story revision / optimistic commit gate;
+- Canon Checker PASS requirement for story commits;
+- canon-snapshot mismatch rejection;
+- `GET /v1/context-snapshot` for safe orchestration revision/state reads;
+- arbitrary current `scene_context` on authored turns;
+- automatic loading of all shared YAML contexts at startup;
+- shared world/economy/dialogue/scene-construction context in every Person-Agent call.
+
+Current runtime brain library includes **20 current person syntheses**:
+
+Permanent six:
+- Cyanis
+- Ilyra
+- Torren
+- Nimera
+- Vaelira
+- Seyrik
+
+Recurring supporting:
+- Maevra
+- Kessara
+- Talia
+- Edda
+- Mirena
+- Lysara
+- Alaric
+- Nalia
+
+Major antagonists:
+- Othmar
+- Rhazek
+- Zevraya
+- Varkesh
+- Vaelkor
+- Reconstituted Entity / The Last Command
+
+A brain being packaged does not mean a separate persistent service has already been deployed for that person. Persistence requires a Person Agent deployment configured with that brain ID.
+
+#### Scene Orchestrator
+Current active canary entrypoint:
+> `scene_orchestrator.py`
+
+Container:
+> `Dockerfile.orchestrator`
+
+Implemented pipeline:
+> **Scene Job → Dialogue Director → Person-Agent candidates → Beat Editor → Canon Checker → Godot handoff → explicit author-approved commit**
+
+Implemented orchestration behavior:
+- Director receives story purpose, participants, current authority packet, map/cell/traversal state, recent gameplay, encounter pressure, lived-world/economy context, dialogue readiness, exact-line anchors, HD-2D staging context, and production-cost ceiling;
+- Director creates beat plan rather than final prose;
+- only selected eligible people are queried per beat;
+- later Person-Agent candidates see the actual prior drafted beats;
+- silence/nonparticipation are valid candidate outcomes;
+- Editor lightly shapes selected candidates for mature spoken rhythm, cinematic subtext, comedy timing, anime-readable performance and scene economy without permission to invent substantive canon;
+- local hard checks validate required exact-line anchors and participant identity;
+- Canon Checker audits knowledge firewall, story requirements, local/economic claims, gameplay legality, traversal/encounter compatibility, voice differentiation and production ceiling;
+- a FAIL returns violations and is not silently rewritten into a PASS;
+- a PASS may produce conservative durable-memory ledgers for persistent participants;
+- build does not automatically commit continuity;
+- `/v1/scene/commit` requires explicit `author_approved: true`, Canon Checker PASS, matching canon snapshot and expected prior revision per persistent person;
+- build returns `diyse_dialogue_scene_packet_v1` as a Godot-facing authoring handoff.
+
+#### Persistent and profile-only participants
+The Orchestrator now supports two person sources:
+
+1. **Persistent Person Agent** — configured through `AGENT_URLS_JSON` and backed by a brain, memory and current state.
+2. **Profile-only Person Agent** — scene request supplies current `participant_profiles` for a named person who is not yet deployed persistently.
+
+Hard rule:
+> a named participant must have a real person source; the Director may not silently invent a generic NPC voice because no deployed agent exists.
+
+Profile-only memory is proposal-only and is not automatically committed.
+
+#### Shared scene context
+Current shared context includes:
+- lived world;
+- lived economy;
+- dialogue life/craft;
+- unified scene construction.
+
+The unified scene-construction context tells Director/agents/editor/checker to account for:
+- map cell and area phase;
+- recent exploration/combat;
+- encounter pressure and recovery;
+- dialogue readiness;
+- what the environment already communicates visually;
+- mature-adult naturalism;
+- comedy timing;
+- cinematic subtext;
+- anime-readable expression;
+- current B00 rigged-model + portrait staging;
+- economical HD-2D production cost.
 
 Important boundary:
 - shared runtime context is synthesis, not canon authority;
 - it cannot invent a map condition, shortage, price, character preference, story fact, or numerical pacing target that current owning sources have not established;
-- exact ongoing area-study minute/count targets remain research-only unless separately locked;
-- adding a context YAML does not itself prove final Director/Editor/Canon-Checker orchestration or final Godot scene integration.
+- exact ongoing area-study minute/count targets remain research-only unless separately locked.
 
 ### Combat proof
 The current runtime implements architectural proof for:
@@ -107,6 +203,8 @@ Implemented:
 - Kessara Relic-copy ownership fields;
 - transient random-encounter state excluded from disk save.
 
+Dialogue-agent persistence is currently external SQLite per deployed Person Agent and remains separate from the Godot save proof until a production persistence handoff is explicitly designed.
+
 ### Kessara Relic-copy service
 Implemented service logic:
 - original Relic required;
@@ -118,8 +216,8 @@ Implemented service logic:
 - Legacies rejected from Relic registration;
 - copy uses same Relic identity, not a new item definition.
 
-## NOT YET FINAL PRODUCTION UI / ORCHESTRATION
-The proof repository does not yet establish final:
+## NOT YET FINAL PRODUCTION UI / DIALOGUE DELIVERY
+The repository still does not establish final:
 - main menu;
 - party/formation screen;
 - full character status screen;
@@ -134,9 +232,10 @@ The proof repository does not yet establish final:
 - final combat HUD/layout;
 - Kessara service menu;
 - final Android safe-area/touch layout;
-- final Dialogue Director multi-agent orchestration;
-- final Dialogue Editor pass;
-- final automated Canon Checker implementation;
-- final Godot consumption of all scene-construction packet fields.
+- production deployment topology for every recurring Person Agent;
+- production Godot importer from `diyse_dialogue_scene_packet_v1` into `DiyseDialogueSceneDefinition` Resources;
+- automatic repository-to-scene authority-packet compiler;
+- regeneration/approval/import of every Chapter 0–13 spoken scene;
+- production integration of external Person-Agent memory with the main save system.
 
-The proof screens and canary service demonstrate architecture/context plumbing, not final visual/UX or autonomous authored-dialogue production authority.
+The proof screens and current Dialogue Engine canary now demonstrate a real multi-agent authoring/orchestration implementation, but they do **not** mean the entire game's dialogue has already been regenerated, approved, imported and shipped.
