@@ -6,14 +6,37 @@
 
 The Dialogue Engine writes all current spoken scenes under the global regeneration rule in `../README.md`.
 
+## Core authoring contract
+
+The Dialogue Engine does **not** write dialogue in isolation from the game around it.
+
+Every authored scene is built from the full Diyse scene stack:
+
+> **Talk like people. React like anime characters. Time jokes like a comedy. Structure important scenes like a great RPG. Remember they are living through a war. And occasionally let them argue about absolutely nothing.**
+
+That craft layer is combined with:
+- current story/canon/reveal authority;
+- persistent character brains and relationship state;
+- lived-world and lived-economy context;
+- the actual map cell / area phase / traversal state in which the scene occurs;
+- recent combat pressure, recovery, fatigue, and what the player has just physically done;
+- the current HD-2D visual/staging grammar and production budget;
+- dialogue UI and runtime capabilities.
+
+The detailed integration contract is:
+> `SCENE_CONSTRUCTION_STACK.md`
+
+The dialogue-facing map/traversal interface is:
+> `../../13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/AREA_TRAVERSAL_AUTHORING_INTERFACE.md`
+
 ## Architecture
 
 The intended authoring flow is:
 
-1. **Dialogue Director** — assembles the scene job: story position, purpose, participants, location, observable state, required/forbidden information, relationship state, and pacing needs.
-2. **Persistent Person Agents** — one agent per permanent character reasons from that character's current identity, knowledge, relationships, memories, state, and observable scene information.
-3. **Dialogue Editor** — shapes the combined output for spoken rhythm, selective participation, scene economy, staging compatibility, and naturalism without flattening individual voices.
-4. **Canon Checker** — validates story/reveal timing, current terminology, knowledge firewalls, character authority, and cross-domain rules before story-continuity memory is committed.
+1. **Dialogue Director** — assembles the complete scene job: story position, purpose, participants, location, sub-area/cell, area phase, observable state, recent player pressure/recovery, required/forbidden information, relationship state, pacing need, traversal mode, world/economy pressures, staging resources, and production budget.
+2. **Persistent Person Agents** — one agent per relevant character reasons from that character's current identity, knowledge, relationships, memories, state, and observable scene information.
+3. **Dialogue Editor** — shapes the combined output for spoken rhythm, selective participation, comedic/dramatic timing, subtext, scene economy, cinematic/anime expressiveness, map compatibility, staging compatibility, and naturalism without flattening individual voices.
+4. **Canon Checker** — validates story/reveal timing, current terminology, knowledge firewalls, character authority, map/traversal compatibility, gameplay legality, production/staging rules, and cross-domain authority before story-continuity memory is committed.
 
 The system may also run sandbox/open-conversation modes, but sandbox interaction must never silently rewrite story continuity.
 
@@ -29,7 +52,11 @@ Canonical routing:
 - class/Ability expertise boundaries → `../../06_CLASSES_AND_ABILITIES/`
 - Cards/Primes/Faces → `../../07_CARDS/`
 - equipment identity → `../../08_ITEMS_AND_EQUIPMENT/`
+- encounter pressure / battle legality → `../../05_BATTLE_SYSTEM/` and `../../09_ENEMIES_AND_ENCOUNTERS/`
 - economy/prices/commerce and lived economic context → `../../12_ECONOMY_AND_REWARDS/`
+- map/traversal/dialogue implementation interface → `../../13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/AREA_TRAVERSAL_AUTHORING_INTERFACE.md`
+- dialogue presentation/runtime → `../../13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md`
+- active HD-2D style/staging authority → `../../14_ART_AND_VISUALS/`
 - runtime/implementation precedence → `../../13_UI_AND_IMPLEMENTATION/`
 
 When a runtime profile conflicts with an owning current domain, the owning domain wins and the runtime profile must be regenerated/fixed.
@@ -84,14 +111,30 @@ State may influence behavior without replacing personality:
 - immediate task pressure.
 
 ### 5. Observable scene context
-- location;
+- location and specific sub-area/cell;
 - who is present;
 - what has been said/done;
 - physical activity;
 - current task;
+- area phase / route state;
 - time/rest/travel conditions when provided;
+- recent combat and recovery state;
 - relevant world-life pressure;
-- relevant local economic/supply context.
+- relevant local economic/supply context;
+- what environmental information is visible before anyone explains it.
+
+### 6. Scene-construction context
+Agents and the Director must know what kind of scene they are inside:
+- full stop-and-talk authored scene;
+- short post-battle reaction;
+- walking/traversal exchange;
+- optional NPC interaction;
+- camp/hub Character-Life scene;
+- pre-boss or post-boss scene;
+- investigation / inspection exchange;
+- battle-story pause or transformation handoff.
+
+The scene type changes acceptable line density, body movement, interruption risk, pacing, and staging cost.
 
 ## Information firewall
 
@@ -115,19 +158,104 @@ See:
 - `../../04_WORLD_AND_LORE/LIVED_WORLD_SOCIAL_CONTEXT.md`
 - `../../12_ECONOMY_AND_REWARDS/LIVED_ECONOMY_CONTEXT.md`
 
-## Dialogue-naturalism contract
+## Dialogue-naturalism and performance contract
 
+### Talk like mature people
 - Characters do not know they are in a story.
+- Most speech should sound spoken rather than written.
+- Adults may interrupt, swear, trail off, answer the wrong part, misunderstand, change subject, get petty, be bored, or simply not know what to say.
+- Important dialogue earns eloquence; ordinary dialogue is allowed to be ordinary.
+- The cast does not possess writer-level psychological insight into one another.
+
+### React with anime expressiveness
+Anime influence means readable emotional performance and tonal elasticity, not stock anime behavior.
+
+Use when appropriate:
+- expression changes;
+- posture shifts;
+- sudden embarrassment or irritation;
+- disbelief;
+- visible enthusiasm;
+- emotional snap changes;
+- fast movement between comedy, calm, danger, and grief.
+
+Avoid:
+- constant screaming;
+- generic catchphrases;
+- sexualized gag reactions;
+- announcing visible emotions;
+- friendship speeches;
+- making competent people stupid when comedy starts.
+
+### Time jokes like comedy
+Comedy should arise from the people and their relationship. Available structures include:
+- setup → beat → reaction;
+- deadpan hold;
+- escalation;
+- callback;
+- misunderstanding;
+- awkward silence;
+- overconfidence;
+- committing harder to a stupid position;
+- somebody refusing to give the expected reaction.
+
+Do not insert jokes merely because a scene has been serious for a while.
+
+### Use cinematic subtext
+Emotion may live in:
+- a pause;
+- a look;
+- someone turning away;
+- a field-model gesture;
+- a portrait-expression change;
+- somebody beginning to answer and stopping;
+- one person noticing something and choosing not to say it;
+- a prop or ordinary task continuing through the conversation;
+- silence after a line rather than another explanatory line.
+
+Dialogue is not required to verbalize what staging can communicate.
+
+## Ensemble rules
+
 - Not every conversation must accomplish plot or arc work.
 - Humor comes from personality and relationship rather than a designated funny character.
-- Important dialogue earns eloquence; ordinary speech should usually remain ordinary.
 - Silence is participation.
 - Selective participation is preferred to six-person roll call.
 - Interruptions, false starts, partial answers, misunderstanding, dead ends, subject changes, failed jokes, and unresolved conversations are available but should not become a checklist.
 - Surface subject may carry hidden emotional meaning without the characters naming the hidden subject.
 - A character may refuse, defer, joke, become formal, leave, say "not tonight," or answer only the practical part.
-- The cast does not possess writer-level psychological insight into one another.
 - Relationship progression should become audible through shorthand, callbacks, teasing, borrowed language, fast coordination, and comfortable silence.
+- Once the point has landed, get out. Do not add a line from every present party member merely to acknowledge presence.
+
+## Gameplay / traversal integration
+
+Dialogue placement must respect what the player is doing.
+
+- Normal exploration remains gameplay; it is not merely a hallway between cutscenes.
+- Long dialogue requires a breathable authored context: a settlement, camp, secured room, recovery point, story-bearing cell, safe pocket, or explicitly protected traversal window.
+- Short post-battle reaction is naturally suited to post-battle grace.
+- Mandatory walking dialogue may use encounter suppression only for the authored exchange and short buffer; local encounter pressure is preserved rather than reset.
+- Do not place a long mandatory conversation inside a corridor whose intended identity is pursuit or sustained high pressure; move the processing scene to the next credible safe threshold.
+- Boss aftermaths, recruitment handoffs, major revelations, Prime awakenings, surrender/capture beats, and genuine transformations deserve an authored breath before normal hostile pressure resumes.
+- Important spatial discoveries should receive a clean visual read before portraits/text obscure them.
+
+Exact map-size or minute targets from ongoing area research are not silently promoted to canon. The Director uses the research as an authoring interface and must obey any later current area-specific authority.
+
+## HD-2D scene integration
+
+Current visual authority is **Seinen HD-2D Fantasy with Chaotic Variable Line Weight + Graphic Anime-Stylized Rendering**.
+
+For dialogue scenes:
+- the actual field environment is the physical stage;
+- current B00 rigged 3D field characters carry body placement, facing, movement, and broad gesture;
+- high-resolution illustrated portraits carry close facial/emotional performance where used;
+- authored camera framing, lighting, sound, props, foreground/midground/background activity, and world-state changes carry cinematic meaning;
+- use selective depth geometry and expensive bespoke animation only when traversal, elevation, occlusion, perspective, spectacle, or a major emotional beat genuinely earns them;
+- scale may be sold through composition, sound, lighting, background activity, layered depth, and state changes rather than fully simulating everything;
+- intimate scenes may be carried by props, lighting, posture, portraits, ordinary tasks, and silence rather than expensive animation;
+- presentation may never create illegal combat actions or story facts.
+
+The production goal is not "cheap-looking HD-2D." It is **economical HD-2D that spends complexity where the player sees and feels it**.
 
 ## Runtime service
 
@@ -136,7 +264,7 @@ The current external service lives at:
 
 Its `brains/` and shared `context/` files are deployment/runtime synthesis only. They should identify their source-authority paths so stale runtime data can be audited quickly.
 
-The service should receive shared world/economy/dialogue-life context in addition to the character brain, personal memory/state, and observable scene payload.
+The service should receive shared world/economy/dialogue-life/scene-construction context in addition to the character brain, personal memory/state, and observable scene payload.
 
 ## Commit rule
 
