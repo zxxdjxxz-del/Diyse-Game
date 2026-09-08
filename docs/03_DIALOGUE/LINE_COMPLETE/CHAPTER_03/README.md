@@ -22,31 +22,31 @@ Current Chapter-3 corrections:
 - Chapter 4 starts only when the player deliberately chooses to begin it from the Cresthaven hub; it does not begin automatically.
 
 ## Chapter-3 Character-Life cleanup authority
-All four historical H-scenes are placed in the **Cresthaven cleanup window**. Older `after S018` / `after S019` availability language is superseded where it conflicts with the rebuilt geography.
+The active Chapter-3 cleanup set is now only:
+- **H01 — Nimera Takes Over a Table**;
+- **H03 — Ilyra and Nimera**.
+
+Historical H02 and H04 remain in the repository as reference material but are **retired from the active Chapter-3 cleanup set**.
 
 ### H01 — Nimera Takes Over a Table
-- core Cresthaven table comedy remains usable;
-- the old Maevra walk-by is not evidence of continuous hub residency;
-- if retained, Maevra must be explicitly visiting from Caelora; otherwise the cameo may be regenerated / removed while preserving the scene's core function.
-
-### H02 — Torren and Maevra, Unsupervised — REOPENED
-- current staging is a **Maevra visit to Cresthaven from Caelora**;
-- preserve the Torren/Maevra relationship function and the first deliberate `Maevra` beat if still desired;
-- retire the old composite-order explanation completely;
-- any seal discussion must use the current mystery: someone caused the Queen's real personal magical seal to answer without her authorization, and the exact method remains unresolved;
-- exact current dialogue must be regenerated.
+- current Cresthaven table comedy remains active;
+- current opening: Cyanis and Torren walk in already mid-argument, trading absurd insults; Nimera is immediately delighted by their dynamic;
+- current authored insult anchors are Cyanis calling Torren an `old shit-eating sack of arrowheads` and Torren replying that Cyanis looks like a `walking dick in armor`;
+- after that entrance, the established table-occupation joke spine continues;
+- the Maevra doorway cameo may remain as one of her occasional Cresthaven visits and must not be read as continuous residency.
 
 ### H03 — Ilyra and Nimera
 - current Cresthaven medical-space function remains compatible;
 - consent-based care, mundane teasing, precision, and no forced emotional disclosure remain valid;
 - no Maevra / Mirena visit is required.
 
-### H04 — Last Sentinel Is Not Invited — PARTIALLY REOPENED
-- Cresthaven dinner / static Ruby Card joke remains valid;
-- Last Sentinel does nothing, does not manifest, and remains unrecovered / unusable;
-- the old assumption that Maevra is simply present because she lives in the hub is retired;
-- the scene can run with the permanent four alone;
-- if Maevra or Mirena appears, that appearance must be a specific visit from Caelora rather than default residency.
+### H02 — Torren and Maevra, Unsupervised — RETIRED FROM ACTIVE SET
+- do not surface or regenerate H02 as Chapter-3 cleanup content unless explicitly reopened again;
+- historical file remains reference only.
+
+### H04 — Last Sentinel Is Not Invited — RETIRED FROM ACTIVE SET
+- do not surface or regenerate H04 as Chapter-3 cleanup content unless explicitly reopened again;
+- compatible joke fragments may be reused later as ambient/minor banter if separately appropriate, but the full scene is not current.
 
 ## Regional Hunt #3
 - **Archive Judgment Engine** is optional Chapter-3 cleanup content.
