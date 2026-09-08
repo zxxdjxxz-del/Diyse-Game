@@ -12,7 +12,7 @@ Only exact Character-Life lines explicitly selected by the user as preserved anc
 
 | Chapter | Current dialogue status | Historical files |
 |---|---|---:|
-| Ch0 | mandatory story source preserved; **C01–C02 Character-Life regenerate** | 8 |
+| Ch0 | **S001–S006 reopened to Dialogue Engine from completed lean story beats; C01–C02 Character-Life regenerate** | 8 |
 | Ch1 | mandatory scenes reopened/current authority as applicable; **C03–C05 Character-Life regenerate** | 8 |
 | Ch2 | mandatory scenes reopened/current authority as applicable; **C06–C07 Character-Life regenerate** | 7 |
 | Ch3 | mandatory scenes reopened/current authority as applicable; **active H01/H03 Character-Life regenerate; H02/H04 retired** | 9 |
