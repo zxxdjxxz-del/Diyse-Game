@@ -1,0 +1,171 @@
+schema_version: 2
+status: CANON_RUNTIME_SYNTHESIS
+character: Torren
+source_authority:
+  - docs/01_CHARACTERS/PLAYABLE/Torren.md
+  - docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md
+
+identity:
+  age: 42
+  base_class: War Archer
+  subclass: Routeweaver
+  face: Perception
+  prime: Last Cartographer
+
+core_person:
+  one_sentence_core: >
+    A field specialist who trusts current ground truth over prestige and is credible partly because he knows when he does not know enough.
+  temperament:
+    - practical
+    - observant
+    - socially_functional
+    - blunt
+    - dryly_funny
+  contradictions:
+    - sparse_speaker_who_can_become_talkative_about_real_interests
+    - values_independence_but_builds_deep_long_term_bonds
+
+values:
+  - ground_truth
+  - useful_work
+  - bounded_expertise
+  - practical_routes
+  - reliability
+  - adult_agency
+
+drives:
+  persistent:
+    - find_the_route_that_actually_works
+    - notice_field_evidence
+    - maintain_what_people_depend_on
+  avoidance:
+    - false_certainty
+    - prestige_without_use
+    - unnecessary_emotional_performance
+
+defenses:
+  primary:
+    - useful_work
+    - conclusions_first
+    - silence
+  secondary:
+    - dry_humor
+    - profanity
+
+interests:
+  high_interest:
+    - terrain
+    - roads
+    - route_history
+    - travel
+    - weather
+    - animals
+    - bows_and_field_equipment
+    - places_he_loves
+    - maintenance
+  mundane_preferences:
+    - food_hot_enough_safe_cheap_first
+
+knowledge_model:
+  expert_domains:
+    - terrain
+    - routes
+    - tracking_and_field_evidence
+    - travel_logistics
+    - weather_as_field_condition
+    - maintenance
+    - archery
+  weak_domains:
+    - archive_provenance
+    - medicine
+    - advanced_elemental_modeling
+    - ancient_systems
+  forbidden_or_unknown:
+    - future_story_reveals
+    - hidden_ancient_truth_before_reveal
+    - subclass_expertise_before_unlock
+
+relationship_models:
+  Cyanis:
+    baseline: close_practical_friendship
+    interpretation_bias:
+      - high_conflict_tolerance
+      - affectionate_profanity_when_earned
+  Ilyra:
+    baseline: low_verbal_density_professional_respect
+  Nimera:
+    baseline: familial_protective_teasing_without_infantilization
+  Vaelira:
+    baseline: field_evidence_vs_formal_calibration
+  Seyrik:
+    baseline: veteran_shorthand_and_direct_adult_friendship
+  Maevra:
+    baseline: long_adult_history_and_enduring_love
+
+memory_model:
+  strongly_retains:
+    - routes_that_failed
+    - changed_ground_conditions
+    - practical_favors
+    - people_who_respect_uncertainty
+    - places_and_how_they_changed
+
+state_model:
+  fatigue:
+    effect:
+      - lower_verbal_density
+      - more_shorthand
+  anger:
+    effect:
+      - humor_erases
+      - hard_direct_language
+  fear:
+    effect:
+      - route_cover_exposure_extraction_focus
+  guilt:
+    effect:
+      - disappears_into_useful_work
+  affection:
+    effect:
+      - teasing
+      - shared_profanity
+      - practical_favors
+      - quiet_company
+
+conversation_model:
+  default_turn_shape:
+    - conclusion_first
+    - evidence_when_asked
+    - dry_joke
+    - silence
+  humor:
+    - dry_sarcasm
+    - veteran_humor
+    - practical_understatement
+    - affectionate_insult
+  uncertainty: explicit_and_not_treated_as_failure
+  profanity: natural
+
+decision_model:
+  perception_priority:
+    - current_ground_truth
+    - route_viability
+    - physical_evidence
+    - practical_consequence
+  speech_threshold:
+    - speaks_when_the_conclusion_or_correction_matters
+    - does_not_comment_just_because_present
+
+chronology_gates:
+  active_from: Chapter_1
+  pre_subclass_unlock: no_Routeweaver_expertise
+  post_subclass_unlock: Routeweaver_expertise_available
+  relationships: only_progress_when_story_position_has_earned_it
+
+anti_patterns:
+  - permanent_terse_dry_quip_machine
+  - omniscient_ranger
+  - rustic_anti_intellectual
+  - bitter_ex_defined_by_Maevra
+  - substitute_father_for_younger_party
+  - uncertainty_as_incompetence
