@@ -37,6 +37,17 @@ Therefore:
 - the first flare does not persist through intervening fights or downtime;
 - neither flare is a Prime activation, manifestation, selectable Card action, or bearer confirmation.
 
+## Locked underlying Black Host motive / scout intelligence
+This is **writer-facing underlying canon**, not Chapter-0 party knowledge.
+
+- before the Broken Convoy ambush, **Black Host scouts learned that an excavation had uncovered something potentially important**;
+- later scouting / observation established that a Crown convoy was **moving something important away from that excavation** under protection;
+- Black Host command therefore targeted the convoy in order to intercept / seize the important cargo or determine what had been recovered;
+- the attack is driven by ordinary reconnaissance and military intelligence, **not** by the Card reacting to Cyanis, detecting a bearer, or sending out a supernatural signal;
+- the Black Host does **not** begin Chapter 0 knowing that the cargo is a Prime, Might, Last Sentinel, an ancient Last Weapon, or that it will respond to Cyanis;
+- the exact level of information given to individual Black Host combatants, including the concealed Ruin Vanguard Pursuer, remains bounded unless established later;
+- Cyanis, Ilyra, the surviving convoy personnel, and the player-facing Chapter-0 story do **not** learn this underlying motive during Chapter 0.
+
 ## Locked chapter-end transition rule
 - Chapter 0 does **not** roll automatically into Chapter 1.
 - after the mandatory Broken Convoy story resolves, the game remains in a **Field Triage Camp cleanup period**.
@@ -89,6 +100,7 @@ Only the first two authored pressure fights belong to the opening solo stretch:
 **Reveal firewall**
 Do not reveal:
 - Seyrik's identity;
+- the scout intelligence that led the Black Host to the excavation / convoy;
 - why the Black Host attacked this convoy;
 - whether the Card was the true target;
 - Prime / Might / Last Sentinel;
@@ -386,6 +398,7 @@ After Riftmaw, return to a short noncombat field / triage interval before the Wa
 **Reveal firewall**
 Do not reveal:
 - why the Black Host attacked the convoy;
+- the Black Host's earlier scout intelligence concerning the excavation and transported cargo;
 - whether the Card was the intended target;
 - Seyrik's identity;
 - Prime / Might / Last Sentinel;
@@ -449,6 +462,7 @@ Party does **not** know:
 - confirmed bearer / ownership status;
 - ancient Last Weapon;
 - Entity;
+- the Black Host scout intelligence concerning the excavation / important transported cargo;
 - the true reason the convoy was attacked;
 - the identity of the Ruin Vanguard Pursuer.
 
