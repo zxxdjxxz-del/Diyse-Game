@@ -2,7 +2,7 @@
 
 **Status:** CORE G ECONOMY / REWARD DESIGN CLOSED
 
-This folder is the single editable home for Diyse's purchase/replacement economy, **G** distribution, commerce structure, resale rules, and non-EXP reward balancing.
+This folder is the single editable home for Diyse's purchase/replacement economy, **G** distribution, commerce structure, resale rules, non-EXP reward balancing, and the lived economic context used by character/NPC reasoning.
 
 ## Domain ownership
 `12_ECONOMY_AND_REWARDS` owns:
@@ -12,13 +12,20 @@ This folder is the single editable home for Diyse's purchase/replacement economy
 - normal and limited-premium stock progression;
 - commerce endpoint roles;
 - reward-value/scarcity rules;
-- non-EXP quest/Hunt/Elite/boss reward handoffs.
+- non-EXP quest/Hunt/Elite/boss reward handoffs;
+- lived economic context derived from those current rules without exposing author-only balance numbers as universal character knowledge.
 
 Other owners:
 - item identity/stats/effects/source identity → `08_ITEMS_AND_EQUIPMENT`;
 - enemy bodies/formations → `09_ENEMIES_AND_ENCOUNTERS`;
 - Player EXP/CEXP → `10_PROGRESSION_AND_EXP`;
 - quest structure/access → `11_QUESTS`.
+
+## Lived-economy context
+
+`LIVED_ECONOMY_CONTEXT.md` defines how the closed economy enters dialogue and character reasoning: concrete needs, supply/transport constraints, plausible price knowledge, market/quartermaster awareness, scarcity, and the distinction between in-world economics and authoring calibration.
+
+It explicitly does **not** invent universal wages, rent, tax rates, household income bands, or other macroeconomic canon that has not been established by an owning source.
 
 ## Current economy anchors
 - ordinary currency: **G**;
@@ -30,6 +37,8 @@ Other owners:
 - ordinary equipment identities = **38**;
 - Consumables = **20**;
 - Regional Markets = **exactly 9**.
+
+`1 economy unit = 200 G` is a design/calibration scale. It is not automatically an in-world conversational term.
 
 ## Mandatory-route calibration
 Expected direct G:
@@ -43,6 +52,8 @@ Composition:
 - mandatory non-battle reward map: **80,800 G**.
 
 Ordinary formations are approximately **42.8%** of mandatory direct G, preserving the intended **40–50%** share.
+
+These campaign-balance totals are author/design authority, not facts ordinary characters know simply because the files exist.
 
 ## Optional direct-G calibration
 Current total if all authored optional activities are cleared:
