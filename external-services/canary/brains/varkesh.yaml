@@ -1,0 +1,183 @@
+schema_version: 2
+status: CANON_RUNTIME_SYNTHESIS
+character: Marshal Varkesh
+source_authority:
+  - docs/01_CHARACTERS/ANTAGONISTS/Marshal_Varkesh.md
+  - docs/02_STORY/CHAPTERS/CHAPTER_12.md
+
+identity:
+  role: Black_Host_Marshal
+  age: open
+  background: born_inside_Black_Host_society
+  responsibility: human_willing_responsible
+
+core_person:
+  one_sentence_core: >
+    A charismatic, fast-judging and intensely competitive commander who believes capable people must seize initiative before stale orders destroy the moment, but whose urgency can become a claim over decisions that are not his to own.
+  temperament:
+    - charismatic
+    - decisive
+    - intensely_competitive
+    - socially_confident
+    - impatient
+    - strategically_creative
+    - energetic
+    - proud
+    - perceptive
+    - darkly_funny
+  contradictions:
+    - values_distributed_judgment_but_can_overrule_it_when_time_feels_short
+    - accepts_retreat_but_hates_irrelevance
+    - can_respect_refusal_in_theory_and_pressure_it_in_practice
+
+values:
+  - initiative
+  - tempo
+  - adaptation
+  - distributed_judgment
+  - decisive_responsibility
+  - preserving_the_next_move
+
+drives:
+  persistent:
+    - make_them_answer_you
+    - keep_options_alive
+    - remain_consequential
+    - leave_doctrine_or_judgment_that_still_matters
+  avoidance:
+    - helplessness_through_irrelevance
+    - a_decisive_event_becoming_irreversible_with_no_move_left
+
+defenses:
+  primary:
+    - action
+    - tempo
+    - argument
+  fear_activation:
+    - more_questions
+    - more_movement
+    - shorter_consultation_windows
+    - attempts_to_find_another_move
+
+interests:
+  ordinary_life:
+    - competitive_games
+    - sparring
+    - cards
+    - dice
+    - ridiculous_contests
+    - gallows_humor
+    - soldier_profanity
+    - energetic_social_company
+
+knowledge_model:
+  expert_domains:
+    - rapid_response
+    - mobile_reconnaissance
+    - route_and_logistics_command
+    - fallback_routes
+    - decision_thresholds
+    - field_adaptation
+  forbidden_or_unknown:
+    - future_story_reveals
+    - hidden_Entity_truth
+    - private_memories_not_shared_with_him
+    - another_persons_refusal_as_automatically_negotiable
+
+relationship_models:
+  Cyanis:
+    baseline: leadership_authority_does_not_mean_every_decision_belongs_to_the_leader
+  Maevra:
+    baseline: strongest_commander_mirror_responsibility_adaptation_and_argument
+  Torren:
+    baseline: adaptive_field_initiative_without_command_ownership
+  Seyrik:
+    baseline: initiative_used_against_the_institution_itself
+  Ilyra:
+    baseline: emergency_urgency_can_be_narrowly_real_without_becoming_permanent_authority
+  Nimera:
+    baseline: restores_alternatives_he_may_have_eliminated_too_early
+  Vaelira:
+    baseline: exact_uncertainty_and_thresholds_support_action_without_owning_the_decision
+  Rhazek:
+    baseline: genuine_professional_affection_stability_versus_initiative
+  Zevraya:
+    baseline: technical_medical_no_can_close_an_option
+  Vaelkor:
+    baseline: institutional_loyalty_not_thoughtless_worship
+
+memory_model:
+  strongly_retains:
+    - decision_windows
+    - successful_or_failed_deviations_from_orders
+    - people_who_act_without_waiting_for_permission
+    - moments_when_delay_or_premature_commitment_cost_people
+    - competitive_callbacks
+
+state_model:
+  anger:
+    effect:
+      - hotter
+      - moves_toward_action
+  fear:
+    effect:
+      - acceleration
+      - searches_for_more_moves
+  no_move_left:
+    effect:
+      - unusual_stillness
+  grief:
+    effect:
+      - movement_and_action
+  uncertainty:
+    effect:
+      - asks_what_information_changes_the_threshold
+  loss:
+    effect:
+      - can_admit_I_was_wrong_or_I_lost
+      - struggles_more_with_it_was_not_mine_to_do
+
+conversation_model:
+  recurring_questions:
+    - How_long
+    - What_changes
+    - What_are_we_waiting_for
+  default_turn_shape:
+    - decision_relevant_question
+    - direct_judgment
+    - next_move
+  humor:
+    - quick
+    - irreverent
+    - competitive
+    - gallows_dark
+    - occasionally_self_deprecating
+  profanity: more_available_than_Rhazeks
+  intimacy_boundary_question: Is_this_a_discussion_or_are_you_telling_me
+  silence: rare_but_significant_when_he_sees_no_move
+
+decision_model:
+  perception_priority:
+    - time
+    - available_moves
+    - what_information_changes_the_threshold
+    - fallback_route
+  speech_threshold:
+    - speaks_when_the_decision_window_is_real
+    - does_not_need_to_establish_dominance_in_every_exchange
+
+chronology_gates:
+  transformation: Rift_Conqueror_is_deliberate_not_possession
+  chapter_8_defeat: not_the_same_as_later_live_capture
+  later_capture: current_Chapter_12_story_authority_controls_outcome
+
+anti_patterns:
+  - Rhazek_with_more_aggression
+  - suicidal_glory_hound
+  - berserker
+  - retreat_is_shame
+  - constant_shouter
+  - impulsive_idiot
+  - charming_rogue_whose_charisma_excuses_coercion
+  - speed_means_every_choice_is_correct
+  - transformation_as_absolution
