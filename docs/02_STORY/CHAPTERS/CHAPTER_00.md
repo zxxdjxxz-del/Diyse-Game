@@ -25,6 +25,18 @@ Exact wording, banter, profanity, pacing, and relationship-performance details s
 - Chapter 0 ends with **Cyanis + Ilyra** as the permanent combat-capable party.
 - the recovered sealed Card / Ancient artifact remains physically protected cargo until its abnormal response begins; it is never identified as a Prime, Might, or Last Sentinel in Chapter 0.
 
+## Locked Chapter-0 Card-response timing
+Chapter 0 uses **two distinct incomplete Card-response flares**, not one continuous protective state.
+
+1. **First flare — Field Triage Camp:** fragmented green-and-gold protective geometry appears during the triage crisis, briefly stabilizes threatened cover / movement space, visibly strains Cyanis, and then **fully subsides before the concealed Seyrik encounter begins**.
+2. **Second flare — final War-Sorcerer push:** the phenomenon returns only when the final organized Black Host assault again threatens the defended treatment space. This second flare owns the current short combat protection effect and fades completely after the final confrontation.
+
+Therefore:
+- concealed Seyrik is fought with **no active Card protection**;
+- Riftmaw is fought with **no active Card protection**;
+- the first flare does not persist through intervening fights or downtime;
+- neither flare is a Prime activation, manifestation, selectable Card action, or bearer confirmation.
+
 ## Locked chapter-end transition rule
 - Chapter 0 does **not** roll automatically into Chapter 1.
 - after the mandatory Broken Convoy story resolves, the game remains in a **Field Triage Camp cleanup period**.
@@ -156,13 +168,13 @@ Do not reveal:
 
 ---
 
-## Beat 4 — Field Triage Camp / Ilyra / Incomplete Response — legacy S004 function
+## Beat 4 — Field Triage Camp / Ilyra / First Incomplete Response — legacy S004 function
 
 **Purpose**
 - introduce Ilyra through independent Blue Warden medical authority;
 - establish early Cyanis/Ilyra cooperation through competing but legitimate battlefield constraints;
-- trigger the Card's first visible abnormal protective response;
-- establish that the response is incomplete, dangerous / taxing, and not understood;
+- trigger the Card's **first** visible abnormal protective response;
+- establish that the response is incomplete, dangerous / taxing, brief, and not understood;
 - give Ilyra her own professional reason to enter combat.
 
 **Starting state**
@@ -178,18 +190,20 @@ Do not reveal:
 - Cyanis recognizes her medical jurisdiction when she provides concrete constraints.
 - Ilyra likewise responds to legitimate security constraints rather than treating medicine as automatically overriding every tactical problem.
 
-**Card response**
+**First Card flare**
 - renewed Black Host pressure threatens the treatment area.
 - the damaged sealed Card produces **fragmented green-and-gold protective geometry**.
 - the response runs through / around Cyanis strongly enough for Ilyra to observe that his condition is involved.
-- the geometry may stabilize weak cover / shield lines / safe routes long enough to move wounded people.
+- the geometry briefly stabilizes weak cover / shield lines / safe routes long enough to move wounded people.
 - it does **not** attack enemies, heal people, summon a figure, grant invulnerability, or produce a full Prime manifestation.
 - Cyanis did not intentionally activate it.
 - the effect visibly strains / destabilizes him.
 - Ilyra can monitor / stabilize Cyanis's condition enough to keep it from worsening but cannot explain the phenomenon.
+- **once the immediate patient-movement crisis is resolved, the green-and-gold geometry loses coherence and fully subsides.**
+- the Card is inert again before the next authored combat begins.
 
 **Ilyra joins the defense**
-- Black Host pressure is still threatening the treatment space.
+- Black Host pressure is still threatening the treatment space even after the first flare subsides.
 - Cyanis intends to hold the line.
 - Ilyra chooses to fight because the treatment space and patients must remain protected.
 - this is **Ilyra's own professional decision**, not Cyanis recruiting / ordering her into the party.
@@ -197,9 +211,9 @@ Do not reveal:
 
 **End state / knowledge change**
 - Cyanis and Ilyra are now cooperating directly in combat.
-- the Card has shown a real but incomplete protective response linked somehow to Cyanis's condition / proximity.
+- the Card has shown one real but incomplete protective response linked somehow to Cyanis's condition / proximity.
+- **that first response is over; no active protection carries into Seyrik or Riftmaw.**
 - nobody knows what the effect is.
-- heavier Chapter-0 combat can now begin with the two-character party.
 
 **Gameplay handoff**
 → **Beat 5 — Concealed Ruin Vanguard / Seyrik**
@@ -222,9 +236,15 @@ Do not identify:
 - preserve Seyrik's Chapter-0 retrospective seed without overexposing him;
 - show a dangerous Black Host combatant probing / pressing the damaged defensive line and then withdrawing alive.
 
+**Starting state**
+- the first Card flare has fully ended.
+- the Card is inert.
+- Cyanis + Ilyra must handle this encounter through their ordinary kits and cooperation.
+
 **Required encounter**
 - Ruin Vanguard Pursuer only.
 - active combat pair: **Cyanis + Ilyra**.
+- **no Card-derived protection is active.**
 - the Pursuer disengages at the current encounter threshold and retreats alive.
 - no identity reveal.
 
@@ -255,15 +275,18 @@ After Seyrik withdraws, return to noncombat field / triage activity before Riftm
 **Starting state**
 - Ilyra has already joined Cyanis in combat.
 - Seyrik's concealed encounter is over and separated from this fight by noncombat triage / repositioning.
+- the Card remains inert after the first flare.
 - survivors and patients still make control of the field matter.
 
 **Required encounter**
 - Riftmaw only.
 - active combat pair: **Cyanis + Ilyra**.
+- **no Card-derived protection is active.**
 - one HP bar / no transformation / no support wave under current encounter authority.
 
 **End state**
 - Riftmaw is defeated.
+- the Card remains inert.
 - the field remains unstable; this is not yet the chapter aftermath.
 
 **Required pacing separation**
@@ -274,34 +297,44 @@ After Riftmaw, return to a short noncombat field / triage interval before the Wa
 
 ---
 
-## Beat 7 — Final Broken Convoy Confrontation — legacy S005 function
+## Beat 7 — Final Broken Convoy Confrontation / Second Incomplete Response — legacy S005 function
 
 **Purpose**
 - make the final Black Host push a defense of the surviving treatment / evacuation space;
 - resolve the immediate organized Black Host attack without rewarding reckless pursuit;
-- let the Card's incomplete protection remain bounded without turning into a full Prime rescue.
+- bring back the Card's incomplete protection as a **second distinct flare**, confirming that the earlier event was not a one-time accident without turning it into a full Prime rescue.
 
 **Starting state**
 - Cyanis and Ilyra are defending the camp together.
 - wounded / civilians remain behind the defensive line.
-- the Card's incomplete protective phenomenon remains unexplained.
+- the Card has been inert through both the Seyrik and Riftmaw encounters.
+- nobody understands why the first flare happened or whether it can happen again.
+
+**Second Card flare**
+- the War-Sorcerer's final push again places the defended treatment / evacuation space in immediate danger.
+- the Card suddenly produces a **second fragmented green-and-gold protective response** around Cyanis / the defended line.
+- Cyanis does not intentionally activate it.
+- Ilyra recognizes that the same unexplained phenomenon has returned but still cannot identify it.
+- under current encounter authority, this second flare provides **Defense +15% / Spirit +15% to Cyanis + Ilyra for Rounds 1–3**.
+- the effect is temporary, incomplete, and story-bounded; it is not a selectable Card action or Prime use.
 
 **Mandatory combat**
 - Convoy War-Sorcerer + injured Iron Cohort Soldier.
 - War-Sorcerer is the victory target.
 - surviving Iron Cohort Soldier may withdraw according to encounter authority.
 - Rift Lance Preparation begins no earlier than Round 2.
-- any incomplete protective-response mechanics remain bounded by encounter authority and do not become a selectable Prime action.
 
 **Post-battle requirements**
 - Cyanis does not pursue a surviving withdrawing enemy.
-- any remaining protective geometry loses coherence and fades.
+- the second protective flare loses coherence and fades completely.
+- the Card returns to an inert state.
 - there is no complete manifestation / identity reveal.
 - Ilyra immediately returns attention to Cyanis's condition and the surviving patients rather than treating the fight as triumphant closure.
 
 **End state / knowledge change**
 - the immediate organized Black Host attack on the camp is broken.
-- the Card is inert again.
+- the Card has now produced **two separate incomplete protective responses** during Chapter 0, both associated somehow with Cyanis and danger around the defended group.
+- nobody can deliberately reproduce or explain the phenomenon.
 - survivor accounting / recovery and artifact protocol remain unresolved.
 
 **Gameplay handoff**
@@ -321,7 +354,7 @@ After Riftmaw, return to a short noncombat field / triage interval before the Wa
 **Starting state**
 - immediate Black Host pressure has ended.
 - the camp remains damaged, crowded, and active.
-- the Card is inert again.
+- the Card is inert again after its second incomplete response.
 - some convoy people remain unaccounted for.
 
 **Required events / decisions**
@@ -335,15 +368,15 @@ After Riftmaw, return to a short noncombat field / triage interval before the Wa
 - **Ilyra chooses to remain with Cyanis / the recovery group.**
 - her reasons are practical and independent:
   - missing people may still need treatment;
-  - the Card's behavior remains an unanswered medical / magical risk;
-  - Cyanis's condition after the response is unresolved.
+  - the Card's repeated behavior remains an unanswered medical / magical risk;
+  - Cyanis's condition after the responses is unresolved.
 - Cyanis does not frame her continued presence as a debt owed to him.
 - the final sweep / recovery work concludes sufficiently for the camp to settle for the night.
 
 **End state / knowledge change**
 - Ilyra has effectively joined the permanent party by her own decision.
 - Cyanis + Ilyra are the current permanent combat-capable pair.
-- the artifact is known only as an abnormal Ancient / Card-family object with an incomplete response around Cyanis.
+- the artifact is known only as an abnormal Ancient / Card-family object that has produced **two distinct incomplete protective responses** associated somehow with Cyanis.
 - Brackenwall is the next mandatory destination.
 - the chapter's mandatory combat / crisis is over.
 
@@ -380,7 +413,7 @@ Current Character-Life authority rule applies:
 - historical exact dialogue is reference material only unless an individual line is explicitly preserved later;
 - preserve the broad functions rather than the old wording:
   - **C01:** early Cyanis / Ilyra mundane teasing and practical mutual care around the campfire; no plot revelation or forced intimacy;
-  - **C02:** both characters finally eating after triage, recognizing that each has neglected their own needs; quiet early ease rather than romance / therapy.
+  - **C02:** both characters finally eating after triage, recognizing that each has neglected their own needs while caring for others; quiet early ease rather than romance / therapy.
 - scenes are optional and order-independent.
 - neither advances the chapter.
 
@@ -399,14 +432,15 @@ Current Character-Life authority rule applies:
 ---
 
 ## Chapter-0 dramatic shape
-**Working convoy / Cyanis competence → Black Host ambush → two opening solo tutorial fights → Wreck Field survivor recovery + solo Hound → suspicious northern withdrawal → Cyanis argues against unsafe pursuit → convoy consolidates → Field Triage Camp → Ilyra introduced through independent medical authority → incomplete green/gold Card response around Cyanis → Ilyra joins the defense → concealed Seyrik pressure fight → noncombat triage/repositioning → Riftmaw boss → noncombat field/triage interval → War-Sorcerer final push → Card response fades → survivor recovery / conservative Card protocol → Ilyra chooses to stay → Brackenwall established as next destination → Field Triage Camp cleanup → C01/C02 / preparation → player chooses departure → Chapter 1 begins at Brackenwall.**
+**Working convoy / Cyanis competence → Black Host ambush → two opening solo tutorial fights → Wreck Field survivor recovery + solo Hound → suspicious northern withdrawal → Cyanis argues against unsafe pursuit → convoy consolidates → Field Triage Camp → Ilyra introduced through independent medical authority → first incomplete green/gold Card flare saves threatened triage space → first flare fully subsides → Ilyra joins the defense → concealed Seyrik pressure fight with no Card protection → noncombat triage/repositioning → Riftmaw boss with no Card protection → noncombat field/triage interval → War-Sorcerer final push → second incomplete Card flare / three-round defensive effect → second flare fades completely → survivor recovery / conservative Card protocol → Ilyra chooses to stay → Brackenwall established as next destination → Field Triage Camp cleanup → C01/C02 / preparation → player chooses departure → Chapter 1 begins at Brackenwall.**
 
 ## Chapter-end knowledge
 Party may know:
 - the artifact belongs to an Ancient / Card-family category;
 - its behavior is abnormal;
-- it produced an incomplete protective response somehow associated with Cyanis;
-- the response affected / strained Cyanis enough to require monitoring.
+- it produced **two separate incomplete protective responses** somehow associated with Cyanis;
+- neither response could be intentionally controlled or reproduced;
+- the responses affected / strained Cyanis enough to require monitoring.
 
 Party does **not** know:
 - Prime;
