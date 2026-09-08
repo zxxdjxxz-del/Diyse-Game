@@ -1,0 +1,74 @@
+schema_version: 1
+status: RUNTIME_SYNTHESIS
+source_authority:
+  - docs/12_ECONOMY_AND_REWARDS/ECONOMY_MASTER.md
+  - docs/12_ECONOMY_AND_REWARDS/LIVED_ECONOMY_CONTEXT.md
+
+currency:
+  current_term: G
+  retired_terms:
+    - Auren
+  authoring_scale_only:
+    economy_unit_equals_G: 200
+    do_not_use_economy_unit_as_in_world_dialogue_term: true
+
+regional_markets:
+  - Brackenwall
+  - Dunmere
+  - Caelora
+  - Ivorybridge
+  - Stonewake
+  - Frostmere
+  - Westguard
+  - Larkspire
+  - Cerythvale
+
+separate_endpoints:
+  - Cresthaven_Quartermaster
+  - Vhalmarch_Forward_Supply_and_Requisition
+
+lived_economic_pressures:
+  - food_and_drink
+  - ordinary_gear_replacement
+  - medicine_and_field_supplies
+  - lodging_and_temporary_shelter
+  - transport_and_route_access
+  - tools_and_work_materials
+  - requisition_and_quartermaster_access
+  - household_and_community_supply_pressure
+  - damaged_infrastructure
+  - delayed_deliveries
+  - disrupted_trade_routes
+  - scarcity_from_story_supported_conditions
+  - money_does_not_guarantee_availability
+
+price_knowledge_rules:
+  - exact_prices_require_plausible_local_professional_or_scene_basis
+  - balance_totals_are_not_character_knowledge
+  - completionist_or_mandatory_route_totals_are_author_only
+  - catalog_ceiling_values_are_author_only
+
+forbidden_inventions_without_owner_authority:
+  - average_wages
+  - profession_salary_tables
+  - rent_tables
+  - tax_rates
+  - universal_meal_prices
+  - second_currency_exchange_rates
+  - household_income_bands
+  - standardized_ration_tables
+  - lending_interest_systems
+  - national_inflation_figures
+
+presentation_rules:
+  - G_may_be_presented_as_requisition_credit_secured_funds_bounty_operational_reserve_or_other_authored_handoff
+  - local_story_state_controls_scarcity_and_market_function
+  - do_not_turn_dialogue_into_balance_model_exposition
+
+permanent_six_lenses:
+  Cyanis: supplies_people_transport_and_responsibilities
+  Ilyra: scarcity_effects_on_care_rest_sanitation_medicine_and_recovery
+  Torren: route_and_transport_causes_of_availability
+  Nimera: records_classification_provenance_and_inventory_mismatch
+  Vaelira: technical_resource_constraints_when_elemental_infrastructure_is_relevant
+  Seyrik: institutional_and_military_supply_logic_within_actual_knowledge
