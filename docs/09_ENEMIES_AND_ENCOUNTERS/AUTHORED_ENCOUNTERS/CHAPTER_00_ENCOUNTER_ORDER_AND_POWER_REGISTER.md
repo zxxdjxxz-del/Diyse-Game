@@ -14,6 +14,15 @@ Chapter 0 deliberately separates Cyanis's solo tutorial pressure from the heavie
 - Seyrik and Riftmaw are separate encounters with a noncombat story/triage interval between them; they are not stacked into the S001 opening combat chain.
 - the Convoy War-Sorcerer + injured Iron Cohort Soldier remains the final Broken Convoy confrontation unless later story review changes that role.
 
+## Chapter-0 Card-response combat rule
+Chapter 0 uses **two separate incomplete-response flares**.
+
+- **First flare:** occurs during S004's triage crisis and fully subsides before the next combat.
+- **Ruin Vanguard Pursuer / concealed Seyrik:** no Card-derived protection.
+- **Riftmaw:** no Card-derived protection.
+- **Second flare:** returns only for the final War-Sorcerer confrontation and owns the current three-round Defense / Spirit bonus.
+- neither flare is a Prime action, Prime manifestation, selectable Card command, or bearer confirmation.
+
 ## Mandatory-resource baseline
 Chapter 0 currently guarantees:
 > **3 Field Salves** as Cyanis's finite convoy field issue.
@@ -65,8 +74,15 @@ No Handler / second Hound / new creature form.
 
 The Evacuation Relay Decision remains a dialogue/decision sequence.
 
-### S004 — Ilyra introduction / party expansion
-S004 establishes Ilyra through Blue Warden medical authority, the incomplete Card response, and her independent decision to help defend the treatment space.
+### S004 — Ilyra introduction / first Card flare / party expansion
+S004 establishes Ilyra through Blue Warden medical authority and her independent decision to help defend the treatment space.
+
+The first incomplete Card response occurs here as a **brief story flare**:
+- fragmented green-and-gold protection stabilizes threatened triage space long enough to move patients;
+- Cyanis is visibly strained by the phenomenon;
+- the flare then **fully subsides**;
+- the Card is inert before the next combat begins;
+- this first flare does **not** supply a carry-over combat buff to Seyrik or Riftmaw.
 
 By the time the next authored combat begins:
 > active combat pair = **Cyanis + Ilyra**.
@@ -86,6 +102,7 @@ Underlying retrospective canon:
 Current placement requirement:
 - this encounter occurs only **after Ilyra has joined Cyanis in combat**;
 - it is a short pressure/probing encounter rather than a boss clear;
+- **no Card-derived protection is active**;
 - Seyrik is not named, unmasked, or correctly identified;
 - the encounter must not reveal his later importance.
 
@@ -115,11 +132,14 @@ No transformation or support wave.
 
 Current placement requirement:
 - Riftmaw occurs only after Ilyra has joined;
-- it is **separate from the concealed Seyrik encounter**;
+- **no Card-derived protection is active**;
+- it is separate from the concealed Seyrik encounter;
 - a noncombat interval must exist between the two.
 
 ### Noncombat separation before final confrontation
-After Riftmaw, give the party another short return to field/triage activity before the final War-Sorcerer push. Do not present Seyrik → Riftmaw → War-Sorcerer as one uninterrupted boss rush.
+After Riftmaw, give the party another short return to field/triage activity before the final War-Sorcerer push. The Card remains inert through this interval.
+
+Do not present Seyrik → Riftmaw → War-Sorcerer as one uninterrupted boss rush.
 
 ### 0-06 — S005 Final Broken Convoy Confrontation — CYANIS + ILYRA
 Formation:
@@ -135,8 +155,18 @@ If Soldier remains active:
 Encounter-start recovery:
 > Cyanis + Ilyra **full HP / full MP** before battle initialization unless later Chapter-0 review changes this recovery rule; this is not a Card/Prime effect.
 
+### Second Card flare / protection
+The final organized push threatens the treatment / evacuation space and the Card produces its **second distinct incomplete response**.
+
 Protection:
-> Cyanis + Ilyra **Defense +15% / Spirit +15% for Rounds 1–3** under the current incomplete-response implementation.
+> Cyanis + Ilyra **Defense +15% / Spirit +15% for Rounds 1–3**.
+
+This protection belongs **only to the second flare in this final encounter**. It is not residual protection from S004.
+
+After the battle:
+- the second flare fully collapses;
+- the Card returns to inert state;
+- no Prime manifestation / selectable Card action / identity reveal occurs.
 
 Rift Lance Preparation:
 > Round 2 or later only.
@@ -181,13 +211,13 @@ This encounter placement change does not create Chapter-0 Player-Level gains.
 
 ## Current closure state
 Riftmaw:
-> **RETAINED / MOVED AFTER ILYRA JOINS**
+> **RETAINED / MOVED AFTER ILYRA JOINS / NO CARD PROTECTION**
 
 Ruin Vanguard Pursuer:
-> **SEYRIK CONCEALED / RETREATS ALIVE / MOVED AFTER ILYRA JOINS**
+> **SEYRIK CONCEALED / RETREATS ALIVE / MOVED AFTER ILYRA JOINS / NO CARD PROTECTION**
 
 S005:
-> **FINAL BROKEN CONVOY CONFRONTATION RETAINED FOR NOW**
+> **FINAL BROKEN CONVOY CONFRONTATION / SECOND CARD FLARE**
 
 Enemy direct-damage Power completeness:
 > **PASS / unchanged**
