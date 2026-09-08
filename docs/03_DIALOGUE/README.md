@@ -8,6 +8,39 @@ This is the canonical home for **spoken dialogue and dialogue-scene authoring**.
 ## Current Dialogue Engine authority
 Story function, scene order, required events, knowledge, recruitment, reveal timing, mandatory outcomes, and canon-safe staging requirements live in `02_STORY`. Combat mechanics live in `05_BATTLE_SYSTEM` / `09_ENEMIES_AND_ENCOUNTERS`; Card mechanics live in `07_CARDS`; progression lives in `10_PROGRESSION_AND_EXP`.
 
+Dialogue Engine architecture:
+> `AGENT_SYSTEM/README.md`
+
+Unified dialogue / character / map / gameplay / HD-2D scene-construction stack:
+> `AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md`
+
+Dialogue-facing map/traversal interface:
+> `../13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/AREA_TRAVERSAL_AUTHORING_INTERFACE.md`
+
+### Full-stack authoring rule
+Dialogue is never authored as isolated prose and fitted into the game afterward.
+
+Every current scene must be built with the simultaneous inputs that are relevant to that scene:
+- story/canon/reveal state;
+- persistent character brains;
+- relationship progression and personal memory;
+- mature-adult naturalism;
+- cinematic subtext and selective participation;
+- anime expressiveness and tonal elasticity;
+- comedy timing when appropriate;
+- lived-world and lived-economy context;
+- actual location/sub-area/cell and visible environment;
+- recent combat/traversal pressure and recovery;
+- dialogue-safe traversal rules;
+- current HD-2D/B00 staging grammar and production cost;
+- dialogue UI/runtime capabilities.
+
+Historical shorthand remains useful:
+
+> **Talk like people. React like anime characters. Time jokes like a comedy. Structure important scenes like a great RPG. Remember they are living through a war. And occasionally let them argue about absolutely nothing.**
+
+That sentence is a mnemonic for the full craft study, not a replacement for it.
+
 ### GLOBAL ALL-DIALOGUE REGENERATION RULE — LOCKED
 **Every spoken dialogue scene in Diyse is to be written / rewritten by the new Diyse Dialogue Engine.** This is not limited to Character-Life material. It applies to:
 - mandatory story scenes (`S##` and later equivalents);
@@ -21,6 +54,8 @@ Historical line-complete files are **reference material, not current final spoke
 
 For all dialogue generation:
 - the Dialogue Engine writes the current scene fresh using active character-agent voices, relationship state, chapter state, participants, location, canon, reveal timing, and knowledge firewall;
+- the Director also receives the actual map/traversal/gameplay context so a scene's length and form fit what the player is doing;
+- current HD-2D staging and production constraints are considered during writing, not retrofitted afterward;
 - historical transcripts may inform scene purpose, relationship function, participant chemistry, staging ideas, joke structures, performance ideas, continuity clues, and voice/tone examples where compatible;
 - historical wording is **not automatically preserved, paraphrased, or reused** simply because it was once accepted;
 - current story authority controls what happens, in what order, who is present, what each character knows, what must be revealed, and what must remain unknown;
@@ -61,10 +96,13 @@ This count describes preserved source material; it does **not** mean any of thos
 - dialogue-scene staging that materially controls delivery;
 - mandatory-story and Character-Life dialogue authoring inputs and outputs;
 - dialogue-specific identity / continuity overlays;
-- explicitly preserved exact-line anchors.
+- explicitly preserved exact-line anchors;
+- the scene-construction interface that combines dialogue craft with current gameplay/map/presentation context.
 
 ## What this folder does not own
 Embedded old source notes may mention mechanics or story structure for context, but those are **not editable authority here**. Current mechanics and story structure must be read from their canonical system/story folders.
+
+The ongoing area-design study remains research/design guidance until individual rules/numbers are explicitly locked by their owning domain. Dialogue may use its structural concepts without inventing canonical map sizes, chapter runtimes, encounter counts, or level bands.
 
 ## Current bounded dialogue corrections / examples
 1. Current Face list is **Might / Elements / Grace / Perception / Memory / Ruin**; stale Resource/Acuity/Change Face naming must not return.
