@@ -1,32 +1,30 @@
 # Chapter 0 — Encounter Order + Power Register
 
-**Status:** **CHAPTER-0 RECONCILIATION COMPLETE / POWER COMPLETE / DIFFICULTY VALIDATED**
+**Status:** **PLACEMENT REOPENED / POWER COMPLETE / MOVED-ENCOUNTER DIFFICULTY REVALIDATION REQUIRED**
 
-This file reconciles the retained Chapter-0 enemy roster against the line-complete S001–S006 dialogue without changing dialogue text.
+This file controls the current Chapter-0 encounter order. Historical S001–S006 dialogue files are regeneration/reference sources and do not force obsolete encounter placement.
 
-## Placement principle
-Line-complete authority gives three hard containers:
-- S001 ends into an **opening combat segment**;
-- S002 explicitly owns the solo Convoy Rift Hound encounter;
-- S005 explicitly owns War-Sorcerer + injured Soldier and is the final Broken Convoy confrontation.
+## Current placement principle
+Chapter 0 deliberately separates Cyanis's solo tutorial pressure from the heavier named encounters.
 
-S004 explicitly transitions directly from S003.
-Therefore:
-> retained pre-S002 identities that had no later exact scene handoff are placed inside the existing **S001 opening combat segment**, not inserted between S003 and S004.
-
-This preserves every current dialogue transition.
+- Cyanis handles the initial ambush/tutorial pressure **alone**.
+- the Wreck Field retains its single solo Convoy Rift Hound encounter.
+- **Ruin Vanguard Pursuer / concealed Seyrik does not appear in combat until after Ilyra has joined Cyanis in the defense.**
+- **Riftmaw likewise does not appear until after Ilyra has joined.**
+- Seyrik and Riftmaw are separate encounters with a noncombat story/triage interval between them; they are not stacked into the S001 opening combat chain.
+- the Convoy War-Sorcerer + injured Iron Cohort Soldier remains the final Broken Convoy confrontation unless later story review changes that role.
 
 ## Mandatory-resource baseline
-Chapter 0 now guarantees:
+Chapter 0 currently guarantees:
 > **3 Field Salves** as Cyanis's finite convoy field issue.
 
 This is not Chapter-0 normal shop stock. Reliable normal purchasing still begins in Chapter 1.
 
-The resource issue is part of the mandatory baseline used to validate the solo S001/S002 pressure line.
+Because two encounters have moved from the solo state to the Cyanis+Ilyra state, resource pressure and difficulty for those moved encounters must be revalidated before Chapter-0 difficulty is reclosed.
 
-## Exact combat order
+## Current combat order
 
-### 0-01 — S001 Opening Line
+### 0-01 — S001 Opening Line — CYANIS SOLO
 Formation:
 - Black Host Raider
 - Black Host Crossbowman
@@ -40,7 +38,7 @@ Clear:
 
 No statuses.
 
-### 0-02 — S001 Handler Pressure
+### 0-02 — S001 Handler Pressure — CYANIS SOLO
 Formation:
 - Beast Handler
 - Convoy Rift Hound
@@ -51,35 +49,9 @@ Clear:
 Handler may Drive the Hound.
 No reinforcement.
 
-### 0-03 — S001 Ruin Vanguard Pursuer
-Formation:
-- Ruin Vanguard Pursuer only
+After this fight, S001's opening combat pressure ends. **Do not place Seyrik or Riftmaw here.**
 
-Resolution:
-- disengages at70% HP or after2 full rounds, whichever occurs first;
-- retreats alive;
-- no identity reveal.
-
-This is Seyrik under concealed identity.
-
-### 0-04 — S001 Riftmaw
-Formation:
-- Riftmaw only
-
-Clear:
-> reduce Riftmaw to0 HP
-
-Riftmaw remains the mandatory Chapter-0 named/boss encounter.
-
-Difficulty-validation raw correction:
-> **HP 760 → 340**; all Riftmaw Powers unchanged.
-
-No transformation or support wave.
-
-After this battle:
-> S001's opening combat segment is complete and S002 begins.
-
-### 0-05 — S002 Convoy Rift Hound
+### 0-03 — S002 Convoy Rift Hound — CYANIS SOLO
 Formation:
 - exactly one Convoy Rift Hound
 
@@ -93,30 +65,81 @@ No Handler / second Hound / new creature form.
 
 The Evacuation Relay Decision remains a dialogue/decision sequence.
 
-### S004
-> **No standalone combat before S005**
+### S004 — Ilyra introduction / party expansion
+S004 establishes Ilyra through Blue Warden medical authority, the incomplete Card response, and her independent decision to help defend the treatment space.
 
-S004 transitions directly from S003 and establishes Ilyra plus the incomplete protective response.
+By the time the next authored combat begins:
+> active combat pair = **Cyanis + Ilyra**.
 
-### 0-06 — S005 Final Broken Convoy Confrontation
+### 0-04 — Post-S004 Ruin Vanguard Pursuer — CYANIS + ILYRA
+Formation:
+- Ruin Vanguard Pursuer only
+
+Resolution:
+- disengages at 70% HP or after 2 full rounds, whichever occurs first;
+- retreats alive;
+- no identity reveal.
+
+Underlying retrospective canon:
+> this is **Seyrik Rell under concealed identity**.
+
+Current placement requirement:
+- this encounter occurs only **after Ilyra has joined Cyanis in combat**;
+- it is a short pressure/probing encounter rather than a boss clear;
+- Seyrik is not named, unmasked, or correctly identified;
+- the encounter must not reveal his later importance.
+
+### Noncombat separation after Seyrik
+There must be a real story/triage/repositioning interval after the Pursuer withdraws before Riftmaw appears.
+
+This interval should:
+- return attention to the wounded / defensive line;
+- allow the Pursuer's retreat to register without immediately launching another boss;
+- preserve the sense that the convoy crisis is unfolding across a damaged field rather than as a combat gauntlet.
+
+### 0-05 — Riftmaw — CYANIS + ILYRA
+Formation:
+- Riftmaw only
+
+Clear:
+> reduce Riftmaw to 0 HP
+
+Riftmaw remains a mandatory named/boss encounter.
+
+Current raw HP:
+> **340**
+
+All existing Riftmaw direct-damage Powers remain unchanged pending revalidation.
+
+No transformation or support wave.
+
+Current placement requirement:
+- Riftmaw occurs only after Ilyra has joined;
+- it is **separate from the concealed Seyrik encounter**;
+- a noncombat interval must exist between the two.
+
+### Noncombat separation before final confrontation
+After Riftmaw, give the party another short return to field/triage activity before the final War-Sorcerer push. Do not present Seyrik → Riftmaw → War-Sorcerer as one uninterrupted boss rush.
+
+### 0-06 — S005 Final Broken Convoy Confrontation — CYANIS + ILYRA
 Formation:
 - Convoy War-Sorcerer
 - injured Iron Cohort Soldier
 
 Victory:
-> War-Sorcerer reaches0 HP
+> War-Sorcerer reaches 0 HP
 
 If Soldier remains active:
-> Soldier withdraws and S005_B019 plays.
+> Soldier withdraws according to current dialogue/encounter handoff.
 
 Encounter-start recovery:
-> Cyanis + Ilyra **full HP / full MP** before battle initialization; not a Card/Prime effect.
+> Cyanis + Ilyra **full HP / full MP** before battle initialization unless later Chapter-0 review changes this recovery rule; this is not a Card/Prime effect.
 
 Protection:
-> Cyanis + Ilyra **Defense +15% / Spirit +15% for Rounds 1–3**
+> Cyanis + Ilyra **Defense +15% / Spirit +15% for Rounds 1–3** under the current incomplete-response implementation.
 
 Rift Lance Preparation:
-> Round2 or later only.
+> Round 2 or later only.
 
 No statuses.
 No second wave.
@@ -130,15 +153,15 @@ Aftermath / survivor sweep authorization / Brackenwall handoff.
 
 | Identity | Lv | HP | Direct-damage Powers |
 |---|---:|---:|---|
-| Black Host Raider — Ch0 | 1 | 88 | 110 /125 |
-| Black Host Crossbowman — Ch0 | 1 | 72 | 115 /135 |
-| Ruin Shieldbearer — Ch0 | 2 | 128 | 105 /125 Ruin |
+| Black Host Raider — Ch0 | 1 | 88 | 110 / 125 |
+| Black Host Crossbowman — Ch0 | 1 | 72 | 115 / 135 |
+| Ruin Shieldbearer — Ch0 | 2 | 128 | 105 / 125 Ruin |
 | Beast Handler — Ch0 | 2 | 118 | 120 |
-| Convoy Rift Hound | 2 | 142 | 135 /130 Ruin /145 |
-| Ruin Vanguard Pursuer | 4 | 620 | 150 /155 Ruin |
-| Riftmaw | 4 | 340 | 165 /175 Ruin /120 AoE |
-| Injured Iron Cohort Soldier | 3 | 165 | 110 /125 |
-| Convoy War-Sorcerer | 4 | 620 | 140 /100 AoE /210 Ruin |
+| Convoy Rift Hound | 2 | 142 | 135 / 130 Ruin / 145 |
+| Ruin Vanguard Pursuer | 4 | 620 | 150 / 155 Ruin |
+| Riftmaw | 4 | 340 | 165 / 175 Ruin / 120 AoE |
+| Injured Iron Cohort Soldier | 3 | 165 | 110 / 125 |
+| Convoy War-Sorcerer | 4 | 620 | 140 / 100 AoE / 210 Ruin |
 
 ## Chapter-0 status boundary
 Chapter 0:
@@ -154,29 +177,25 @@ Status rollout remains later:
 Chapter 0 remains:
 > **Player-Level static**
 
-This encounter pass does not invent a new Chapter-0 Player-Level gain.
+This encounter placement change does not create Chapter-0 Player-Level gains.
 
-## Closure
+## Current closure state
 Riftmaw:
-> **RETAINED**
-
-S005:
-> **ADDITIVE / FINAL BROKEN CONVOY CONFRONTATION**
+> **RETAINED / MOVED AFTER ILYRA JOINS**
 
 Ruin Vanguard Pursuer:
-> **SEYRIK CONCEALED / RETREATS ALIVE**
+> **SEYRIK CONCEALED / RETREATS ALIVE / MOVED AFTER ILYRA JOINS**
 
-Chapter-0 enemy Power completeness:
-> **PASS**
+S005:
+> **FINAL BROKEN CONVOY CONFRONTATION RETAINED FOR NOW**
 
+Enemy direct-damage Power completeness:
+> **PASS / unchanged**
 
-## Chapter-0 difficulty-validation closure
-Mandatory-vs-completionist result:
-> **ADJUSTED / VALIDATED**
+Difficulty-validation status:
+> **REOPENED ONLY FOR CONSEQUENCES OF THE PLACEMENT CHANGE**
 
-Chapter 0 has no meaningful completionist divergence before its mandatory combat resolves, so both route baselines are identical.
+The prior Chapter-0 validation assumed the Ruin Vanguard Pursuer and Riftmaw were part of Cyanis's solo S001 pressure line. That assumption is retired. Their raw stats/Powers are not automatically changed here, but they must be retested against the new **Cyanis + Ilyra** party state before difficulty validation is closed again.
 
-Only Riftmaw raw durability changed. The direct-damage Power audit remains closed.
-
-Detailed proof:
+Detailed prior proof remains historical baseline/reference:
 `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_00_MANDATORY_COMPLETIONIST_VALIDATION.md`
