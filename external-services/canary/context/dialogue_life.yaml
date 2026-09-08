@@ -3,12 +3,84 @@ status: RUNTIME_SYNTHESIS
 source_authority:
   - docs/03_DIALOGUE/README.md
   - docs/03_DIALOGUE/AGENT_SYSTEM/README.md
+  - docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md
   - docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md
+
+craft_formula:
+  - talk_like_people
+  - react_like_anime_characters
+  - time_jokes_like_a_comedy
+  - structure_important_scenes_like_a_great_rpg
+  - remember_they_are_living_through_a_war
+  - occasionally_let_them_argue_about_absolutely_nothing
+
+craft_sources_as_methods_not_imitation:
+  naturalistic_film_and_tv:
+    use_for:
+      - interruptions
+      - unfinished_sentences
+      - false_starts
+      - repetition
+      - wrong_part_answers
+      - subject_changes
+      - dead_ends
+      - misunderstandings
+      - awkward_silence
+      - imperfect_self_understanding
+  comedy:
+    use_for:
+      - timing
+      - escalation
+      - awkwardness
+      - callbacks
+      - misunderstanding
+      - deadpan
+      - overconfidence
+      - committing_harder_to_stupid_positions
+      - ensemble_comedy
+    rule: comedy_arises_from_character_not_invisible_writer
+  anime:
+    use_for:
+      - expressive_personality
+      - tonal_elasticity
+      - heightened_but_specific_reactions
+      - found_family_chemistry
+      - emotional_sincerity
+      - ensemble_banter
+      - fast_transitions_between_comedy_calm_danger_and_grief
+    avoid:
+      - constant_screaming
+      - generic_catchphrases
+      - sexualized_gag_reactions
+      - announcing_visible_emotions
+      - constant_friendship_speeches
+      - everyone_becoming_stupid_for_comedy
+      - stock_archetype_behavior
+  wartime_naturalism:
+    can_shape:
+      - fatigue
+      - casualty_awareness
+      - food_and_supply_pressure
+      - travel_routes
+      - watches
+      - wounds
+      - evacuations
+      - displaced_civilians
+      - missing_people
+      - practical_preparation
+      - professional_shorthand
+      - gallows_humor
+      - sleep
+      - routine
+    rule: characters_may_forget_the_war_for_a_few_minutes_but_the_world_does_not
 
 core_rules:
   - characters_do_not_know_they_are_in_a_story
+  - character_sheet_theme_is_for_writer_not_character
   - not_every_conversation_must_accomplish_plot_lore_arc_or_reward
+  - characters_may_talk_because_bored_hungry_cold_irritated_curious_tired_or_comfortable
   - humor_comes_from_personality_and_relationship
+  - all_six_can_be_funny_for_different_reasons
   - important_dialogue_earns_eloquence
   - most_speech_should_sound_spoken_not_written
   - silence_is_participation
@@ -17,6 +89,41 @@ core_rules:
   - characters_may_refuse_defer_joke_leave_or_answer_only_the_practical_part
   - characters_may_misunderstand_each_other
   - relationships_progress_through_shorthand_callbacks_teasing_borrowed_language_and_comfortable_silence
+
+mature_adult_speech:
+  - adults_can_swear_when_voice_and_relationship_support_it
+  - adults_can_be_petty_or_wrong
+  - adults_can_fail_to_find_the_right_words
+  - adults_can_avoid_the_real_subject
+  - adults_can_sit_in_silence
+  - competence_does_not_equal_emotional_omniscience
+  - do_not_sanitize_every_exchange_into_polite_rpg_dialogue
+
+cinematic_subtext_tools:
+  - pause
+  - look
+  - turn_away
+  - posture_shift
+  - field_model_gesture
+  - portrait_expression_change
+  - someone_starts_then_stops
+  - someone_notices_and_says_nothing
+  - ordinary_task_continues_under_conversation
+  - music_or_sound_drop
+  - silence_after_line
+
+comedy_timing_tools:
+  - setup_beat_reaction
+  - deadpan_hold
+  - escalation
+  - callback
+  - misunderstanding
+  - awkward_silence
+  - overconfidence
+  - overcommitment
+  - reversal
+  - refusal_of_expected_reaction
+  - relationship_specific_insult
 
 available_naturalism_tools:
   - interruptions
@@ -87,3 +194,6 @@ anti_patterns:
   - friendship_speeches
   - comedy_that_makes_competent_people_stupid
   - therapy_session_structure_for_every_relationship
+  - every_line_trying_to_be_quotable
+  - every_serious_scene_needing_a_joke
+  - every_quiet_scene_becoming_trauma_processing
