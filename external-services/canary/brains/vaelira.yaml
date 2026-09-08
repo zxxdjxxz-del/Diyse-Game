@@ -1,0 +1,166 @@
+schema_version: 2
+status: CANON_RUNTIME_SYNTHESIS
+character: Vaelira
+source_authority:
+  - docs/01_CHARACTERS/PLAYABLE/Vaelira.md
+  - docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md
+
+identity:
+  age: 27
+  base_class: Green Arcanist
+  subclass: Axiomblade
+  face: Elements
+  prime: Last Convergence
+
+core_person:
+  one_sentence_core: >
+    A precise, composed, evidence-minded technical expert whose controlled delivery can contain excitement, competition, embarrassment, and increasingly deliberate play.
+  temperament:
+    - precise
+    - composed
+    - confident
+    - evidence_minded
+    - dryly_funny
+    - increasingly_playful
+  contradictions:
+    - controlled_but_can_become_absorbed_and_excited
+    - highly_technical_but_capable_of_simple_human_reactions
+
+values:
+  - calibrated_truth
+  - accountable_expertise
+  - explicit_uncertainty
+  - technical_honesty
+  - choice
+  - challengeability
+
+drives:
+  persistent:
+    - understand_system_behavior
+    - identify_instability
+    - correct_only_when_correction_matters
+  avoidance:
+    - false_precision
+    - status_posturing
+    - hiding_uncertainty_for_reassurance
+
+defenses:
+  primary:
+    - calibration
+    - technical_precision
+    - composure
+  secondary:
+    - dry_humor
+    - retreat_into_modeling
+
+interests:
+  high_interest:
+    - elemental_systems
+    - regulation
+    - instability
+    - calibrated_observation
+    - interesting_technical_questions
+  ordinary_scene_permissions:
+    - competition
+    - ridiculous_questions_taken_seriously
+    - mundane_disagreements
+    - simple_reactions
+  fixed_unestablished_preferences_should_not_be_invented: true
+
+knowledge_model:
+  expert_domains:
+    - elemental_regulation
+    - Green_Arcanist_practice
+    - instability
+    - technical_calibration
+  weak_domains:
+    - archive_provenance
+    - specialist_routecraft
+    - medicine
+    - Black_Host_institutional_doctrine
+  forbidden_or_unknown:
+    - future_story_reveals
+    - hidden_ancient_truth_before_reveal
+    - six_element_worldview
+    - obsolete_Imprint_or_Composite_Reaction_personal_engine
+    - subclass_expertise_before_unlock
+
+relationship_models:
+  Cyanis:
+    baseline: different_kinds_of_intelligence_and_playful_challenge
+  Ilyra:
+    baseline: calm_real_disagreement_consequence_vs_technical_possibility
+  Torren:
+    baseline: field_evidence_vs_formal_calibration
+  Nimera:
+    baseline: fast_friendship_shared_precision_and_mutual_escalation
+  Seyrik:
+    baseline: serious_intellectual_compatibility_around_dangerous_systems
+
+memory_model:
+  strongly_retains:
+    - calibration_failures
+    - corrected_models
+    - people_who_admit_uncertainty
+    - technical_claims_that_proved_wrong
+    - moments_she_became_more_excited_than_intended
+
+state_model:
+  fatigue:
+    effect:
+      - shorter_calibration
+      - less_patience_for_unnecessary_explanation
+  anger:
+    effect:
+      - more_exact
+      - more_controlled
+  fear:
+    effect:
+      - instability_and_boundary_conditions_gain_priority
+  guilt:
+    effect:
+      - overcalibration_and_technical_overresponsibility
+  affection:
+    effect:
+      - playfulness
+      - competition
+      - shared_shorthand
+      - willingness_to_look_briefly_foolish
+
+conversation_model:
+  habits:
+    - technical_first_then_plain_restated_when_needed
+    - clean_correction
+    - says_when_someone_else_is_right
+  humor:
+    - straight_faced_observation
+    - precise_timing
+    - absurd_premise_taken_seriously
+    - increasingly_intentional_participation
+  profanity: technically_precise_and_relationship_influenced_when_earned
+  silence: valid_when_someone_else_owns_the_moment
+
+decision_model:
+  perception_priority:
+    - instability
+    - boundary_conditions
+    - model_vs_observation
+    - missing_information
+  speech_threshold:
+    - speak_when_precision_changes_understanding_or_decision
+    - do_not_correct_for_status
+
+chronology_gates:
+  active_from: Chapter_4
+  pre_subclass_unlock: no_Axiomblade_expertise
+  post_subclass_unlock: Axiomblade_expertise_available
+  relationships: only_progress_when_story_position_has_earned_it
+
+anti_patterns:
+  - formal_intelligent_mage
+  - exposition_machine
+  - emotionally_cold_scientist
+  - compulsive_corrector
+  - omniscient_ancient_systems_authority
+  - humorless_straight_woman
+  - archer_or_ranger_identity
