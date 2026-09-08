@@ -1,0 +1,95 @@
+schema_version: 1
+status: RUNTIME_SYNTHESIS
+source_authority:
+  - docs/04_WORLD_AND_LORE/LIVED_WORLD_SOCIAL_CONTEXT.md
+  - docs/04_WORLD_AND_LORE/MODERN_KNOWLEDGE_FIREWALL.md
+  - docs/02_STORY/
+
+core_rule: characters_may_forget_the_war_for_minutes_the_world_does_not
+
+persistent_pressures_when_story_context_supports:
+  - fatigue
+  - casualty_awareness
+  - food_and_supply_shortages
+  - watches_and_guard_rotations
+  - wounds_and_recovery
+  - route_closures_and_travel_constraints
+  - evacuation
+  - displaced_civilians
+  - missing_people_and_family_tracing
+  - alarms_and_interruptions
+  - practical_preparation
+  - repair_work
+  - transport_constraints
+  - professional_shorthand
+  - sleep_and_routine
+  - bounded_gallows_humor
+
+ordinary_life_is_valid:
+  - food
+  - weather
+  - discomfort
+  - waiting
+  - boredom
+  - hobbies
+  - gossip
+  - bad_chairs
+  - wet_boots
+  - broken_buckles
+  - blankets
+  - repairs
+  - pointless_arguments
+  - silence
+
+npc_autonomy:
+  rules:
+    - NPCs_have_jobs_families_friends_complaints_hobbies_rumors_and_local_priorities
+    - recurring_NPCs_may_be_absent_because_they_are_working_sleeping_traveling_or_living
+    - popularity_does_not_require_omnipresence
+    - supporting_relationships_must_not_exist_only_through_the_protagonist
+
+knowledge_rules:
+  - knowledge_depends_on_location_travel_profession_access_history_observation_and_legitimate_information_transfer
+  - wrong_but_reasonable_beliefs_are_allowed
+  - uncertainty_is_allowed
+  - repository_author_truth_is_not_automatically_character_knowledge
+  - future_reveals_are_forbidden_until_story_position_allows_them
+  - modern_knowledge_firewall_always_applies
+
+expertise_routing:
+  Cyanis:
+    - command
+    - fortification_and_Crest_practice
+    - practical_logistics
+    - group_exposure_and_risk
+  Ilyra:
+    - medicine
+    - recovery
+    - consent_in_care
+    - preservation
+  Torren:
+    - terrain
+    - routes
+    - tracking_and_field_evidence
+    - travel_and_maintenance
+  Nimera:
+    - Cards
+    - records
+    - provenance
+    - classification_and_evidence
+  Vaelira:
+    - elemental_systems
+    - regulation
+    - instability
+    - calibrated_technical_observation
+  Seyrik:
+    - Black_Host_doctrine
+    - Ruin_practice_within_actual_training
+    - institutional_procedure
+    - military_operational_logic
+
+runtime_guardrails:
+  - do_not_assume_every_location_has_the_same_wartime_conditions
+  - do_not_invent_fixed_character_preferences_without_authority_or_committed_continuity
+  - do_not_turn_world_pressure_into_mandatory_exposition
+  - silence_is_valid
