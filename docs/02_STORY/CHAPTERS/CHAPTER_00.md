@@ -52,8 +52,11 @@ This is **writer-facing underlying canon**, not Chapter-0 party knowledge.
 
 ## Locked chapter-end transition rule
 - Chapter 0 does **not** roll automatically into Chapter 1.
-- after the mandatory Broken Convoy story resolves, the game remains in a **Field Triage Camp cleanup period**.
-- the player deliberately chooses when to depart for **Brackenwall**.
+- after the mandatory Broken Convoy story resolves, **most of the surviving convoy continues onward**, carrying the wounded, civilians, personnel, and whatever wagons are fit to move.
+- **Cyanis and Ilyra remain at the stabilized wreck-field / relay camp for the night with the recovered Card**, with only whatever minimal guard / practical support is required by the situation.
+- this quieter overnight camp is the Chapter-0 cleanup period and the staging space for the active Character-Life scenes.
+- the player deliberately chooses when Cyanis and Ilyra depart for **Brackenwall**.
+- resting / the arrival of morning does not itself start Chapter 1.
 - accepting the departure prompt starts Chapter 1; declining leaves the player in Chapter-0 cleanup.
 
 ---
@@ -198,6 +201,8 @@ Do not reveal:
 - Cyanis is injured / strained but still functioning.
 
 **Ilyra introduction**
+- Ilyra was already traveling with the wider convoy movement as part of its Warden / medical support, but she was not assigned to Cyanis's immediate section and they do not already know each other.
+- the ambush split the convoy; while Cyanis worked the wreck field / security problem, Ilyra independently worked casualties from another part of the broken column toward the same defensible relay area.
 - Ilyra is already working when Cyanis reaches the triage camp.
 - her first function is medical authority: triage, consent, treatment priorities, and safe patient movement.
 - she is not introduced as Cyanis's support character, romantic interest, or subordinate.
@@ -319,6 +324,7 @@ After Riftmaw, return to a short noncombat field / triage interval before the Wa
 
 **Purpose**
 - make the final Black Host push a defense of the surviving treatment / evacuation space;
+- make this the Black Host operation's last practical attempt to break the consolidated line and seize the important excavation cargo;
 - resolve the immediate organized Black Host attack without rewarding reckless pursuit;
 - bring back the Card's incomplete protection as a **second distinct flare**, confirming that the earlier event was not a one-time accident without turning it into a full Prime rescue.
 
@@ -326,7 +332,9 @@ After Riftmaw, return to a short noncombat field / triage interval before the Wa
 - Cyanis and Ilyra are defending the camp together.
 - wounded / civilians remain behind the defensive line.
 - the Card has been inert through both the Seyrik and Riftmaw encounters.
-- nobody understands why the first flare happened or whether it can happen again.
+- the Black Host has failed to draw the defenders into an unsafe pursuit, the concealed Pursuer has disengaged, and Riftmaw has been defeated.
+- the remaining organized Black Host force has a narrowing opportunity to break the camp before the convoy fully stabilizes.
+- nobody understands why the first Card flare happened or whether it can happen again.
 
 **Second Card flare**
 - the War-Sorcerer's final push again places the defended treatment / evacuation space in immediate danger.
@@ -343,6 +351,8 @@ After Riftmaw, return to a short noncombat field / triage interval before the Wa
 - Rift Lance Preparation begins no earlier than Round 2.
 
 **Post-battle requirements**
+- defeating the War-Sorcerer breaks the Black Host's last practical attempt to seize the cargo during this operation.
+- surviving Black Host personnel break contact / withdraw rather than endlessly feeding more forces into the now-consolidated position.
 - Cyanis does not pursue a surviving withdrawing enemy.
 - the second protective flare loses coherence and fades completely.
 - the Card returns to an inert state.
@@ -350,7 +360,8 @@ After Riftmaw, return to a short noncombat field / triage interval before the Wa
 - Ilyra immediately returns attention to Cyanis's condition and the surviving patients rather than treating the fight as triumphant closure.
 
 **End state / knowledge change**
-- the immediate organized Black Host attack on the camp is broken.
+- the immediate organized Black Host convoy-interception operation has failed.
+- the Crown still controls the recovered excavation cargo.
 - the Card has now produced **two separate incomplete protective responses** during Chapter 0, both associated somehow with Cyanis and danger around the defended group.
 - nobody can deliberately reproduce or explain the phenomenon.
 - survivor accounting / recovery and artifact protocol remain unresolved.
@@ -360,46 +371,51 @@ After Riftmaw, return to a short noncombat field / triage interval before the Wa
 
 ---
 
-## Beat 8 — Aftermath / Survivor Recovery / Brackenwall Decision — legacy S006 function
+## Beat 8 — Aftermath / Survivor Recovery / Overnight Camp — legacy S006 function
 
 **Purpose**
 - close the Broken Convoy crisis through recovery work rather than celebration;
 - establish conservative Card handling after the unexplained response;
 - let Ilyra choose to continue independently;
-- establish Brackenwall as the next operational destination;
+- let most of the surviving convoy resume movement instead of keeping the entire convoy parked at the wreck site overnight;
+- establish Brackenwall as Cyanis and Ilyra's next operational destination;
+- create the quieter overnight camp that supports Chapter-0 Character-Life scenes;
 - hand the player into the Chapter-0 cleanup period rather than automatically starting Chapter 1.
 
 **Starting state**
-- immediate Black Host pressure has ended.
-- the camp remains damaged, crowded, and active.
+- immediate Black Host pressure has ended and the interception operation has failed.
+- the camp remains damaged but is stable enough to move survivors onward.
 - the Card is inert again after its second incomplete response.
-- some convoy people remain unaccounted for.
+- some convoy people remain unaccounted for until the bounded final sweep is completed.
 
 **Required events / decisions**
 - Cyanis / Ilyra report security and medical state to the convoy officer.
-- survivor accounting remains imperfect; do not fabricate a clean exact total when records / people are missing.
+- survivor accounting remains imperfect while the final sweep is still underway; do not fabricate a clean exact total before the field is checked.
 - a bounded final survivor sweep is authorized because waiting until morning could cost lives.
 - no pursuit beyond the defined wreck / search boundary is permitted.
 - the Card remains sealed.
 - the convoy officer decides the recovered artifact should go to **Brackenwall** for proper artifact protocol / regrouping before the larger Crown route continues.
-- Ilyra's wider medical group may move casualties onward according to their own responsibilities.
-- **Ilyra chooses to remain with Cyanis / the recovery group.**
+- once the immediate recovery work is complete, **most of the surviving convoy moves on**, taking the wounded, civilians, convoy personnel, and usable wagons onward rather than all camping at the wreck field.
+- **Cyanis remains at the stabilized field camp overnight with the recovered Card.**
+- **Ilyra chooses to remain with Cyanis overnight and continue on with him to Brackenwall.**
 - her reasons are practical and independent:
-  - missing people may still need treatment;
   - the Card's repeated behavior remains an unanswered medical / magical risk;
-  - Cyanis's condition after the responses is unresolved.
+  - Cyanis's condition after the responses is unresolved;
+  - she directly observed and treated the phenomenon and is the person on site with the clearest medical continuity.
 - Cyanis does not frame her continued presence as a debt owed to him.
-- the final sweep / recovery work concludes sufficiently for the camp to settle for the night.
+- only minimal remaining guard / recovery support should be present if required; the overnight scene should feel substantially quieter than the earlier crowded triage camp.
 
 **End state / knowledge change**
 - Ilyra has effectively joined the permanent party by her own decision.
 - Cyanis + Ilyra are the current permanent combat-capable pair.
+- most of the surviving convoy has departed the Broken Convoy site.
+- Cyanis + Ilyra remain overnight with the sealed recovered artifact at the stabilized camp.
 - the artifact is known only as an abnormal Ancient / Card-family object that has produced **two distinct incomplete protective responses** associated somehow with Cyanis.
-- Brackenwall is the next mandatory destination.
+- Brackenwall is their next mandatory destination.
 - the chapter's mandatory combat / crisis is over.
 
 **Gameplay handoff**
-→ **Chapter-0 Cleanup — Field Triage Camp**
+→ **Chapter-0 Cleanup — Overnight Field Camp**
 
 **Reveal firewall**
 Do not reveal:
@@ -413,13 +429,14 @@ Do not reveal:
 
 ---
 
-# Chapter-0 Cleanup Period — Field Triage Camp
+# Chapter-0 Cleanup Period — Overnight Field Camp
 
 **Cleanup state**
 - the mandatory Broken Convoy story is complete, but the game remains in **Chapter 0**.
-- the camp has stabilized enough for the player to regain free control before departure.
-- Cyanis + Ilyra are the current permanent combat-capable party.
-- the Card remains sealed / guarded for the eventual move to Brackenwall.
+- **most of the surviving convoy has already continued onward.**
+- the former triage position has quieted into a small overnight field camp around the stabilized relay / wreck area.
+- Cyanis + Ilyra are the current permanent combat-capable party and remain there for the night with the sealed recovered Card.
+- only minimal guard / practical support remains if needed; the cleanup atmosphere is deliberately much quieter than the active convoy crisis.
 - **no Player Levels are gained in Chapter 0.**
 
 **Character-Life scenes**
@@ -431,27 +448,27 @@ Current Character-Life authority rule applies:
 - both scenes are regenerated by the new Dialogue Engine;
 - historical exact dialogue is reference material only unless an individual line is explicitly preserved later;
 - preserve the broad functions rather than the old wording:
-  - **C01:** early Cyanis / Ilyra mundane teasing and practical mutual care around the campfire; no plot revelation or forced intimacy;
-  - **C02:** both characters finally eating after triage, recognizing that each has neglected their own needs while caring for others; quiet early ease rather than romance / therapy.
+  - **C01:** early Cyanis / Ilyra mundane teasing and practical mutual care around the quieter overnight campfire; no plot revelation or forced intimacy;
+  - **C02:** both characters finally eating after the crisis, recognizing that each neglected their own needs while caring for others; quiet early ease rather than romance / therapy.
 - scenes are optional and order-independent.
 - neither advances the chapter.
 
 **Other cleanup access**
-- limited camp / wreck-field interaction, supply management, saving, equipment, and preparation may be available as appropriate to the damaged-convoy state.
+- limited overnight camp / nearby wreck-field interaction, supply management, saving, equipment, and preparation may be available as appropriate.
 - Chapter 0 has no required Hunt.
 - cleanup must not introduce new combat that undermines the finality of the Broken Convoy confrontation unless separately authored later.
 
 **Chapter-1 start trigger**
-- resting, viewing Character-Life scenes, or the arrival of morning does **not** automatically start Chapter 1.
-- when the player chooses the marked **Depart for Brackenwall** / equivalent advance-story interaction, the game asks for confirmation equivalent to:
+- viewing Character-Life scenes, resting for the night, or the arrival of morning does **not** automatically start Chapter 1.
+- after the overnight cleanup window, when the player chooses the marked **Depart for Brackenwall** / equivalent advance-story interaction, the game asks for confirmation equivalent to:
   - `Ready to begin Chapter 1?`
 - declining leaves the player in Chapter-0 cleanup.
-- accepting is the actual chapter boundary and begins Chapter 1 with the arrival / protocol sequence at **Brackenwall**.
+- accepting is the actual chapter boundary: Cyanis and Ilyra break camp / continue onward with the Card, and Chapter 1 begins with the arrival / protocol sequence at **Brackenwall**.
 
 ---
 
 ## Chapter-0 dramatic shape
-**Working convoy / Cyanis competence → Black Host ambush → two opening solo tutorial fights → Wreck Field survivor recovery + solo Hound → suspicious northern withdrawal → Cyanis argues against unsafe pursuit → convoy consolidates → Field Triage Camp → Ilyra introduced through independent medical authority → first incomplete green/gold Card flare saves threatened triage space → first flare fully subsides → Ilyra joins the defense → concealed Seyrik pressure fight with no Card protection → noncombat triage/repositioning → Black Host Riftmaw boss with no Card protection → noncombat field/triage interval → War-Sorcerer final push → second incomplete Card flare / three-round defensive effect → second flare fades completely → survivor recovery / conservative Card protocol → Ilyra chooses to stay → Brackenwall established as next destination → Field Triage Camp cleanup → C01/C02 / preparation → player chooses departure → Chapter 1 begins at Brackenwall.**
+**Working convoy / Cyanis competence → Black Host ambush → two opening solo tutorial fights → Wreck Field survivor recovery + solo Hound → suspicious northern withdrawal → Cyanis argues against unsafe pursuit → convoy consolidates → Field Triage Camp → Ilyra introduced through independent medical authority → first incomplete green/gold Card flare saves threatened triage space → first flare fully subsides → Ilyra joins the defense → concealed Seyrik pressure fight with no Card protection → noncombat triage/repositioning → Black Host Riftmaw boss with no Card protection → noncombat field/triage interval → War-Sorcerer final push → second incomplete Card flare / three-round defensive effect → Black Host interception operation fails → survivor recovery / bounded final sweep → most of the surviving convoy continues onward → Cyanis + Ilyra remain overnight with the sealed Card → quieter field-camp cleanup → C01/C02 / preparation → player chooses departure → Chapter 1 begins at Brackenwall.**
 
 ## Chapter-end knowledge
 Party may know:
