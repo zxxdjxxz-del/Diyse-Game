@@ -6,43 +6,45 @@
 This is the canonical home for **spoken dialogue and dialogue-scene authoring**.
 
 ## Current Dialogue Engine authority
-Story function, scene order, required events, knowledge, recruitment, and reveal timing live in `02_STORY`. Combat mechanics live in `05_BATTLE_SYSTEM` / `09_ENEMIES_AND_ENCOUNTERS`; Card mechanics live in `07_CARDS`; progression lives in `10_PROGRESSION_AND_EXP`.
+Story function, scene order, required events, knowledge, recruitment, reveal timing, mandatory outcomes, and canon-safe staging requirements live in `02_STORY`. Combat mechanics live in `05_BATTLE_SYSTEM` / `09_ENEMIES_AND_ENCOUNTERS`; Card mechanics live in `07_CARDS`; progression lives in `10_PROGRESSION_AND_EXP`.
 
-Current exact dialogue is governed by the new **Diyse Dialogue Engine** wherever a scene has been reopened or designated for regeneration.
+### GLOBAL ALL-DIALOGUE REGENERATION RULE — LOCKED
+**Every spoken dialogue scene in Diyse is to be written / rewritten by the new Diyse Dialogue Engine.** This is not limited to Character-Life material. It applies to:
+- mandatory story scenes (`S##` and later equivalents);
+- Character-Life / camp / hub-life scenes (`C##`, `H##`, and later equivalents);
+- boss-intro / post-boss spoken material;
+- travel dialogue and party exchanges;
+- hub / investigation / recruitment conversations;
+- any other authored spoken scene across Chapters 0–13.
 
-### GLOBAL CHARACTER-LIFE REGENERATION RULE — LOCKED
-**Every Character-Life / camp / hub-life scene in Diyse is to be rewritten by the new Dialogue Engine.** This applies across all chapters, including historical `C##`, `H##`, camp scenes, hub scenes, and later equivalent Character-Life labels.
+Historical line-complete files are **reference material, not current final spoken-dialogue authority**, even when they carry historical labels such as `APPROVED / LOCKED`, `closed`, `line-complete`, or similar.
 
-For Character-Life scenes:
-- historical line-complete files are **reference material, not final spoken-dialogue authority**;
-- an embedded historical `APPROVED / LOCKED`, `closed`, or `line-complete` label does **not** lock the old Character-Life wording against regeneration;
-- the Dialogue Engine should use compatible historical material for:
-  - scene purpose / relationship function;
-  - participant chemistry;
-  - useful staging or mundane activity;
-  - successful joke structures / performance ideas;
-  - continuity clues and boundaries;
-  - tone / voice examples;
-- the Dialogue Engine should **not** simply paraphrase or preserve the old transcript by default; it should write the current scene fresh using the active character-agent voices, relationship state, chapter state, and canon firewall;
-- current story authority controls when and where the scene occurs, who can be present, what each person knows, and what the scene may or may not reveal;
-- retired story structures, obsolete party states, stale locations, retired terminology, or old knowledge must never be restored just because they appear in a historical Character-Life transcript.
+For all dialogue generation:
+- the Dialogue Engine writes the current scene fresh using active character-agent voices, relationship state, chapter state, participants, location, canon, reveal timing, and knowledge firewall;
+- historical transcripts may inform scene purpose, relationship function, participant chemistry, staging ideas, joke structures, performance ideas, continuity clues, and voice/tone examples where compatible;
+- historical wording is **not automatically preserved, paraphrased, or reused** simply because it was once accepted;
+- current story authority controls what happens, in what order, who is present, what each character knows, what must be revealed, and what must remain unknown;
+- retired story structures, obsolete party states, stale locations, retired terminology, obsolete knowledge, and superseded plot causality must never return through historical transcript reuse;
+- this global rule supersedes older dialogue notes that distinguish between `reopened` and `not reopened` scenes or imply that mandatory-story wording may remain exact by default.
 
 ### Explicit exact-line anchors
-The only Character-Life wording that must survive regeneration verbatim is wording the user has **explicitly selected / locked as an exact line or joke anchor** after or alongside this global regeneration rule.
+The only historical or previously authored wording that must survive regeneration verbatim is wording the user has **explicitly selected / locked as an exact line or joke anchor**.
 
-An explicit line anchor constrains that line only unless the user also locks surrounding staging or dialogue. The Dialogue Engine remains free to regenerate the rest of the scene around it.
+An explicit line anchor constrains that line only unless the user separately locks surrounding staging or dialogue. The Dialogue Engine remains free to regenerate the rest of the scene around it.
 
-Example current Chapter-3 H01 anchors:
-- Cyanis: `I bet you use that cape to sneak up on the goats you fuck.`
-- Torren: `You look like a walking dick in armor.`
+Current examples:
+- Ch1 C04: `old slut` remains an exact joke anchor if that exchange survives regeneration.
+- Ch3 H01:
+  - Cyanis: `I bet you use that cape to sneak up on the goats you fuck.`
+  - Torren: `You look like a walking dick in armor.`
 
-Those two lines are preserved as the opening exchange; the remainder of H01 is still regenerated by the Dialogue Engine from the current scene function.
+Those anchors do not lock the surrounding dialogue.
 
 ## Current status
-- **Chapter 0:** lean mandatory story beats S001–S006 are complete and **reopened for Dialogue Engine regeneration**; historical Godot-derived transcripts remain reference; C01–C02 also regenerate under the global Character-Life rule.
-- **Chapters 1–4:** historical line-complete Markdown authoring exists and remains useful as reference, subject to all current story/dialogue overlays.
-- **Chapters 5–13:** their current authoring status is recorded under `AUTHORING_STATUS/`; do not fabricate old-style line-complete dialogue to make the archive look complete.
-- **Character-Life scenes in every chapter:** current production wording is **Dialogue Engine regeneration required**, regardless of historical line-complete status.
+- **Chapter 0:** lean story beats are current structural authority; **all mandatory and Character-Life dialogue is regenerated by the Dialogue Engine** from those beats and current character/canon state.
+- **Chapters 1–3:** current lean story structures are the authority; **all spoken dialogue is regenerated by the Dialogue Engine**, with historical files used only as compatible reference.
+- **Chapter 4:** current story/overlay authority controls the upcoming restructure; all spoken dialogue is Dialogue Engine output rather than inherited exact transcript authority.
+- **Chapters 5–13:** their current authoring status is recorded under `AUTHORING_STATUS/`; when authored, all spoken dialogue is generated through the same Dialogue Engine authority.
 
 ## Historical line-complete set
 Exactly **41 historical dialogue/scene sources** are preserved from the migrated closed set:
@@ -52,17 +54,17 @@ Exactly **41 historical dialogue/scene sources** are preserved from the migrated
 - Ch3: S017–S021 + H01–H04 = 9
 - Ch4: S022–S026 + C08/C09/H05 + Crown Prototype = 9
 
-This count describes preserved source material; it does **not** mean all 41 files still control current exact dialogue.
+This count describes preserved source material; it does **not** mean any of those files automatically control current exact spoken wording.
 
 ## What this folder owns
-- current spoken dialogue once regenerated / approved;
+- current spoken dialogue generated / approved through the Dialogue Engine;
 - dialogue-scene staging that materially controls delivery;
-- Character-Life / camp / hub dialogue authoring inputs and outputs;
+- mandatory-story and Character-Life dialogue authoring inputs and outputs;
 - dialogue-specific identity / continuity overlays;
 - explicitly preserved exact-line anchors.
 
 ## What this folder does not own
-Embedded old source notes may mention mechanics for context, but those are **not editable authority here**. Current mechanics must be read from their canonical system folders.
+Embedded old source notes may mention mechanics or story structure for context, but those are **not editable authority here**. Current mechanics and story structure must be read from their canonical system/story folders.
 
 ## Current bounded dialogue corrections / examples
 1. Current Face list is **Might / Elements / Grace / Perception / Memory / Ruin**; stale Resource/Acuity/Change Face naming must not return.
@@ -70,4 +72,4 @@ Embedded old source notes may mention mechanics for context, but those are **not
 3. Ch0 negative old `First Champion` terminology is retired in favor of current Last Sentinel authority where appropriate.
 4. Current region/place corrections already present in the repository source are preserved: **Yahtrenhold**, **Reaction Annex**, etc.
 5. Ch1 C04's explicitly approved `old slut` wording remains an exact joke anchor if that exchange survives regeneration.
-6. Ch3 H01's explicitly selected Cyanis/Torren opening insults remain exact anchors; all surrounding Character-Life dialogue is regenerated.
+6. Ch3 H01's explicitly selected Cyanis/Torren opening insults remain exact anchors; all surrounding dialogue is regenerated.
