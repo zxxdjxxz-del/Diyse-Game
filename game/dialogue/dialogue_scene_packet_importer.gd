@@ -6,6 +6,9 @@ const ALLOWED_PORTRAIT_SIDES := ["left", "right", "none"]
 
 func validate_packet(packet: Dictionary) -> Array[String]:
 	var failures: Array[String] = []
+	for forbidden in DiyseDialogueSceneDefinition.FORBIDDEN_BRANCH_KEYS:
+		if packet.has(forbidden):
+			failures.append("packet contains forbidden dialogue-choice field: %s" % forbidden)
 	if str(packet.get("schema", "")) != PACKET_SCHEMA:
 		failures.append("Unsupported Dialogue Engine packet schema: %s" % str(packet.get("schema", "")))
 	if str(packet.get("scene_id", "")).is_empty():
@@ -47,6 +50,9 @@ func validate_packet(packet: Dictionary) -> Array[String]:
 			failures.append("%s must be a Dictionary" % prefix)
 			continue
 		var beat: Dictionary = value
+		for forbidden in DiyseDialogueSceneDefinition.FORBIDDEN_BRANCH_KEYS:
+			if beat.has(forbidden):
+				failures.append("%s contains forbidden dialogue-choice field: %s" % [prefix, forbidden])
 		var beat_id := str(beat.get("beat_id", ""))
 		if beat_id.is_empty():
 			failures.append("%s.beat_id is required" % prefix)
@@ -87,6 +93,12 @@ func validate_authoring_metadata(metadata: Dictionary) -> Array[String]:
 		failures.append("authoring metadata.participants must be an Array")
 	elif (metadata.get("participants", []) as Array).is_empty():
 		failures.append("authoring metadata.participants must not be empty")
+	if metadata.has("scene_kind") and str(metadata.get("scene_kind", "")) not in DiyseDialogueSceneDefinition.ALLOWED_SCENE_KINDS:
+		failures.append("Unsupported authoring metadata.scene_kind: %s" % str(metadata.get("scene_kind", "")))
+	if metadata.has("cutscene_tier") and not DiyseHd2dRuntime.is_valid_cutscene_tier(str(metadata.get("cutscene_tier", ""))):
+		failures.append("Unsupported authoring metadata.cutscene_tier: %s" % str(metadata.get("cutscene_tier", "")))
+	if metadata.has("vfx_tier") and not DiyseHd2dRuntime.is_valid_vfx_tier(str(metadata.get("vfx_tier", ""))):
+		failures.append("Unsupported authoring metadata.vfx_tier: %s" % str(metadata.get("vfx_tier", "")))
 	return failures
 
 func build_scene(
