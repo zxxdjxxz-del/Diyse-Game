@@ -1,10 +1,19 @@
 # Riftmaw
 
 **Chapter:** 0 mandatory named / boss  
-**Status:** **POWER COMPLETE / RETAINED / CH0 DIFFICULTY VALIDATED**
+**Status:** **POWER COMPLETE / RETAINED / CH0 DIFFICULTY REVALIDATION NEEDED FOR CYANIS + ILYRA**
 
 Riftmaw is explicitly retained.
 It is not replaced, renamed, merged with, or superseded by S005.
+
+## Story identity / Chapter-0 placement
+- **Riftmaw is a Black Host beast.**
+- It is part of the Black Host force / assets committed to the Broken Convoy interception operation.
+- It is **not** an unrelated wild creature, accidental battlefield scavenger, or independent third-party threat.
+- In the current Chapter-0 structure, Riftmaw is not fought until **after Ilyra has joined Cyanis in combat** and after the concealed Ruin Vanguard Pursuer / Seyrik encounter has ended.
+- A genuine noncombat triage / defensive-repositioning interval separates Seyrik from Riftmaw.
+- The Card is inert during the Riftmaw fight; **no Card-derived protection is active**.
+- The exact breeding, training, handler, transport, and release method for Riftmaw remain open unless established by later beast / Black Host authority.
 
 ## Body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -58,9 +67,8 @@ Riftmaw remains:
 
 S005 remains a later authored confrontation and does not replace this boss.
 
-
-## Chapter-0 mandatory-vs-completionist validation
-The Chapter-0 difficulty pass found that the prior **760 HP** body created excessive solo solved-state duration against mandatory Lv1 Cyanis.
+## Chapter-0 validation note
+The earlier Chapter-0 difficulty pass found that the prior **760 HP** body created excessive solo solved-state duration against mandatory Lv1 Cyanis.
 
 Targeted raw-body correction:
 > **HP 760 → 340**
@@ -77,4 +85,4 @@ Preserved unchanged:
 - one-bar architecture
 - no harmful-status rider
 
-This is a durability correction, not a reopened Power audit.
+However, the current story structure now places Riftmaw against **Cyanis + Ilyra**, not solo Cyanis. Therefore the old solo difficulty validation is no longer sufficient and Chapter-0 difficulty validation must be rerun against the current two-character party. This reopens encounter validation only; it does **not** reopen the completed Power audit.
