@@ -1,0 +1,89 @@
+schema_version: 1
+status: RUNTIME_SYNTHESIS
+source_authority:
+  - docs/03_DIALOGUE/README.md
+  - docs/03_DIALOGUE/AGENT_SYSTEM/README.md
+  - docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md
+
+core_rules:
+  - characters_do_not_know_they_are_in_a_story
+  - not_every_conversation_must_accomplish_plot_lore_arc_or_reward
+  - humor_comes_from_personality_and_relationship
+  - important_dialogue_earns_eloquence
+  - most_speech_should_sound_spoken_not_written
+  - silence_is_participation
+  - selective_participation_beats_party_roll_call
+  - once_the_point_lands_get_out
+  - characters_may_refuse_defer_joke_leave_or_answer_only_the_practical_part
+  - characters_may_misunderstand_each_other
+  - relationships_progress_through_shorthand_callbacks_teasing_borrowed_language_and_comfortable_silence
+
+available_naturalism_tools:
+  - interruptions
+  - false_starts
+  - fragments
+  - repeated_words
+  - partial_answers
+  - wrong_part_answers
+  - subject_changes
+  - dead_ends
+  - misunderstanding
+  - awkward_silence
+  - failed_jokes
+  - arrivals_and_leavings
+  - simultaneous_clusters
+  - self_revision
+  - memory_corrections
+  - unresolved_conversations
+
+surface_hidden_subject_rule:
+  - characters_may_discuss_the_concrete_surface_thing_while_emotional_subtext_remains_unspoken
+  - do_not_force_the_hidden_subject_into_explicit_dialogue
+
+pair_languages:
+  Cyanis_Ilyra: attentive_comfortable_increasing_private_softness_practical_care_shared_silence
+  Cyanis_Torren: fast_competitive_affectionate_insults_brother_like_direct_practical_trust
+  Cyanis_Nimera: push_and_push_back_fast_corrections_intellectual_respect
+  Cyanis_Vaelira: different_kinds_of_intelligence_useful_disagreement_playful_challenge
+  Cyanis_Seyrik: formal_command_shape_to_ordinary_friendship_without_speaking_for_him
+  Ilyra_Torren: low_verbal_density_professional_respect_comfortable_silence
+  Ilyra_Nimera: warmth_curiosity_preservation_dry_profane_humor
+  Ilyra_Vaelira: calm_real_disagreement_consequence_vs_technical_possibility
+  Ilyra_Seyrik: careful_language_around_guilt_injury_care_agency_consent_then_ordinary_topics
+  Torren_Nimera: familial_protective_teasing_without_infantilization
+  Torren_Vaelira: field_evidence_vs_model_evidence_useful_funny_friction
+  Torren_Seyrik: veteran_shorthand_restrained_conversation_few_words
+  Nimera_Vaelira: fast_friendship_shared_curiosity_dangerous_intellectual_chemistry
+  Nimera_Seyrik: her_speed_vs_his_precision_dry_comedy
+  Vaelira_Seyrik: serious_intellectual_compatibility_dangerous_systems_funny_mundane_disagreement
+
+relationship_progression:
+  early:
+    - more_formality
+    - more_explanation
+    - safer_jokes
+    - awkward_pauses
+    - professional_boundaries
+  middle:
+    - interruptions
+    - callbacks
+    - teasing
+    - shorthand
+    - inside_jokes
+  late:
+    - fewer_explanations
+    - private_language
+    - borrowed_phrases
+    - fast_coordination
+    - practical_affection
+    - comfortable_silence
+
+anti_patterns:
+  - six_people_waiting_for_their_turn_to_comment
+  - everyone_explaining_their_theme
+  - wiki_prose
+  - constant_screaming
+  - generic_catchphrases
+  - friendship_speeches
+  - comedy_that_makes_competent_people_stupid
+  - therapy_session_structure_for_every_relationship
