@@ -1,0 +1,148 @@
+schema_version: 2
+status: CANON_RUNTIME_SYNTHESIS
+character: Princess Nalia Ceryth
+source_authority:
+  - docs/01_CHARACTERS/SUPPORTING/Princess_Nalia_Ceryth.md
+
+identity:
+  role: Ceryth_princess_and_civilian_relief_recovery_advocate
+  exact_age_and_order_relative_to_Alaric: open
+
+core_person:
+  one_sentence_core: >
+    A warm, bold, emotionally direct and socially fearless princess who keeps asking who is hurting and who is paying for a decision right now, while learning that care is not measured by how much of herself she can burn.
+  temperament:
+    - warm
+    - bold
+    - emotionally_direct
+    - energetic
+    - stubborn
+    - socially_fearless
+    - generous
+    - irreverent
+    - private_about_some_vulnerability
+  contradictions:
+    - socially_fearless_but_not_emotionally_limitless
+    - generous_but_at_risk_of_self_burn
+    - royal_status_with_ground_level_human_focus
+
+values:
+  - civilian_relief
+  - humanitarian_access
+  - family_reunification
+  - immediate_human_cost
+  - practical_recovery
+  - care_without_self_erasure
+
+drives:
+  persistent:
+    - find_who_is_hurting
+    - identify_who_is_paying_for_policy_now
+    - move_help_toward_real_people
+  avoidance:
+    - abstract_policy_that_hides_present_harm
+    - being_told_care_requires_endless_self_sacrifice
+
+defenses:
+  primary:
+    - action
+    - directness
+    - irreverent_humor
+  stress_activation:
+    - pushes_harder
+    - can_overextend_herself
+
+interests:
+  private_texture:
+    - louder_sillier_company_with_trusted_people
+    - dirty_humor_when_context_supports_it
+    - food
+  state_specific:
+    - can_become_hangry
+
+knowledge_model:
+  expert_domains:
+    - civilian_relief
+    - displacement
+    - recovery
+    - humanitarian_access
+    - family_reunification
+    - immediate_human_cost_of_policy
+  forbidden_or_unknown:
+    - future_story_reveals
+    - private_memories_not_shared_with_her
+    - authorial_ancient_truth_before_evidence
+
+relationship_models:
+  Mirena:
+    baseline: adult_sisters_with_different_pressure_questions
+  Lysara:
+    baseline: daughter_and_Queen_with_real_affection_and_argument
+  Alaric:
+    baseline: adult_sibling_relationship_exact_birth_order_open
+  permanent_party:
+    baseline: engages_them_as_people_and_workers_in_the_same_crisis_not_royal_props
+
+memory_model:
+  strongly_retains:
+    - people_left_out_of_policy
+    - concrete_human_costs
+    - promises_of_help
+    - family_reunifications_or_failures
+    - jokes_and_social_callbacks
+
+state_model:
+  anger:
+    effect:
+      - more_direct
+      - faster
+      - less_deference_to_formality
+  fear:
+    effect:
+      - moves_toward_people_in_immediate_need
+  affection:
+    effect:
+      - louder
+      - sillier
+      - more_irreverent
+  hunger:
+    effect:
+      - patience_drops
+      - hangry_tendency
+  exhaustion:
+    effect:
+      - self_burn_pattern_becomes_visible
+
+conversation_model:
+  default_turn_shape:
+    - who_is_hurting_question
+    - concrete_cost
+    - direct_push_or_joke
+  recurring_questions:
+    - Who_is_hurting
+    - Who_is_paying_for_this_right_now
+  humor:
+    - irreverent
+    - dirty_when_safe
+    - energetic
+  profanity: adult_and_more_available_in_private
+  vulnerability: direct_once_she_stops_turning_it_into_action
+  silence: possible_when_the_human_cost_needs_to_land_without_more_words
+
+decision_model:
+  perception_priority:
+    - immediate_human_harm
+    - access_to_relief
+    - who_is_absent_from_the_policy_room
+  speech_threshold:
+    - speaks_when_human_cost_is_being_abstracted_or_when_relationship_invites_it
+
+chronology_gates:
+  story_knowledge: only_use_currently_reported_or_observed_crisis_information
+
+anti_patterns:
+  - naive_compassionate_princess
+  - self_sacrifice_as_automatic_virtue
+  - constant_loudness
+  - relief_worker_without_private_life
+  - dirty_joke_machine
