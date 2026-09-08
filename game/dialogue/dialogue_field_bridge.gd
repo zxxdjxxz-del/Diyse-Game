@@ -4,7 +4,10 @@ class_name DiyseDialogueFieldBridge
 signal scene_policy_applied(scene_id: String, metadata: Dictionary)
 signal scene_policy_restored(scene_id: String)
 
-var dialogue_runner: DiyseDialogueRunner
+# DialogueRunner currently has no class_name, so keep this as Node and validate the
+# expected scene_started/scene_finished signals at bind time rather than inventing
+# a second runtime class identity.
+var dialogue_runner: Node
 var player_controller: Node
 var encounter_controller: DiyseFieldEncounterController
 
@@ -16,7 +19,7 @@ var _encounter_pause_state_captured := false
 var _previous_authored_paused := false
 
 func bind(
-	runner: DiyseDialogueRunner,
+	runner: Node,
 	player: Node = null,
 	encounters: DiyseFieldEncounterController = null
 ) -> void:
@@ -25,6 +28,10 @@ func bind(
 	player_controller = player
 	encounter_controller = encounters
 	if dialogue_runner != null:
+		if not dialogue_runner.has_signal("scene_started") or not dialogue_runner.has_signal("scene_finished"):
+			push_error("Dialogue field bridge requires scene_started and scene_finished signals")
+			dialogue_runner = null
+			return
 		dialogue_runner.scene_started.connect(_on_scene_started)
 		dialogue_runner.scene_finished.connect(_on_scene_finished)
 
