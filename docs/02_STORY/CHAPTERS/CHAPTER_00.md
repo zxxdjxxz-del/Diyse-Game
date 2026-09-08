@@ -20,7 +20,8 @@ Exact wording, banter, profanity, pacing, and relationship-performance details s
 ## Locked Chapter-0 progression / party state
 - **Chapter 0 grants no Player Levels.**
 - Cyanis is the only permanent controllable character at the beginning.
-- Ilyra first enters the story during the Field Triage Camp sequence and becomes the second permanent party member by the end of the chapter.
+- Ilyra first enters the story during the Field Triage Camp sequence.
+- **Concealed Seyrik and Riftmaw do not appear as combat encounters until after Ilyra has joined Cyanis in combat.**
 - Chapter 0 ends with **Cyanis + Ilyra** as the permanent combat-capable party.
 - the recovered sealed Card / Ancient artifact remains physically protected cargo until its abnormal response begins; it is never identified as a Prime, Might, or Last Sentinel in Chapter 0.
 
@@ -34,13 +35,13 @@ Exact wording, banter, profanity, pacing, and relationship-performance details s
 
 # Lean Story Beats
 
-## Beat 1 — Convoy / Ambush — legacy S001
+## Beat 1 — Convoy / Opening Ambush — legacy S001
 
 **Purpose**
 - introduce Cyanis through ordinary professional competence rather than prophecy / chosen-one framing;
 - establish the recovered sealed Card as protected convoy cargo whose true nature is unknown;
 - establish the convoy as a working mixed military / civilian movement rather than an isolated battle party;
-- trigger the Black Host ambush and tutorial combat without allowing the Card to react yet.
+- trigger the Black Host ambush and teach the first combat basics while Cyanis is still alone.
 
 **Starting state / required knowledge**
 - Cyanis is serving with the convoy on the Westways road.
@@ -57,17 +58,12 @@ Exact wording, banter, profanity, pacing, and relationship-performance details s
 - war-sorcery / wreckage splits the formation and forces Cyanis to defend civilians / escorts on his side of the break.
 - **the Card does not react during the opening ambush.**
 
-**Combat placement**
-The current authored opening-combat order remains under encounter authority:
+**Opening combat placement — Cyanis solo**
+Only the first two authored pressure fights belong to the opening solo stretch:
 1. Black Host Raider + Black Host Crossbowman + Ruin Shieldbearer;
-2. Beast Handler + Convoy Rift Hound;
-3. Ruin Vanguard Pursuer — short protected disengagement;
-4. Riftmaw — retained mandatory named / boss encounter.
+2. Beast Handler + Convoy Rift Hound.
 
-Underlying retrospective canon:
-- the Ruin Vanguard Pursuer is **Seyrik Rell under concealed identity**;
-- he is not named, unmasked, or correctly identified here;
-- he retreats alive.
+**Do not place concealed Seyrik or Riftmaw in the S001 opening combat chain.** Both are deferred until after Ilyra joins Cyanis in combat.
 
 **End state / knowledge change**
 - the convoy has been badly damaged but not completely destroyed.
@@ -106,7 +102,7 @@ Do not reveal:
 - Cyanis helps establish a safer survivor route rather than simply pursuing enemies.
 - player traversal communicates unstable wagons, exposed routes, wounded people, and usable cover.
 - Cyanis performs only plausible field rescue / first-aid support and does not replace a medical specialist.
-- one Convoy Rift Hound encounter occurs under encounter authority.
+- one solo Convoy Rift Hound encounter occurs under encounter authority.
 - Cyanis and the convoy officer observe Black Host forces withdrawing toward the north.
 - the northern cut is suspiciously clear while other lines are blocked.
 - Cyanis treats the possibility of bait as a hypothesis grounded in visible terrain, not supernatural insight.
@@ -148,6 +144,7 @@ Do not reveal:
 - the superior officer accepts the logic and issues the revised order.
 - the officer may still correct Cyanis on process / how he presents a refusal; hierarchy remains credible.
 - **no Card response occurs here.**
+- **no Seyrik or Riftmaw encounter occurs here.**
 
 **End state / knowledge change**
 - the convoy holds instead of pursuing.
@@ -155,18 +152,18 @@ Do not reveal:
 - Cyanis has demonstrated judgment without becoming a rogue commander or being proven supernaturally correct.
 
 **Gameplay handoff**
-→ **Beat 4 — Field Triage Camp**
+→ **Beat 4 — Field Triage Camp / Ilyra**
 
 ---
 
-## Beat 4 — Field Triage Camp / Ilyra / Incomplete Response — legacy S004
+## Beat 4 — Field Triage Camp / Ilyra / Incomplete Response — legacy S004 function
 
 **Purpose**
 - introduce Ilyra through independent Blue Warden medical authority;
 - establish early Cyanis/Ilyra cooperation through competing but legitimate battlefield constraints;
 - trigger the Card's first visible abnormal protective response;
 - establish that the response is incomplete, dangerous / taxing, and not understood;
-- give Ilyra her own professional reason to enter the final defense.
+- give Ilyra her own professional reason to enter combat.
 
 **Starting state**
 - the convoy has consolidated around the relay-side triage area.
@@ -191,20 +188,21 @@ Do not reveal:
 - the effect visibly strains / destabilizes him.
 - Ilyra can monitor / stabilize Cyanis's condition enough to keep it from worsening but cannot explain the phenomenon.
 
-**Final-defense decision**
-- a War-Sorcerer and supporting soldier threaten the camp.
-- Cyanis intends to hold the front.
-- Ilyra chooses to join the defense because the treatment space must remain protected.
+**Ilyra joins the defense**
+- Black Host pressure is still threatening the treatment space.
+- Cyanis intends to hold the line.
+- Ilyra chooses to fight because the treatment space and patients must remain protected.
 - this is **Ilyra's own professional decision**, not Cyanis recruiting / ordering her into the party.
+- from this point forward, the active Chapter-0 combat pair is **Cyanis + Ilyra**.
 
 **End state / knowledge change**
-- Ilyra and Cyanis are now cooperating directly in combat.
+- Cyanis and Ilyra are now cooperating directly in combat.
 - the Card has shown a real but incomplete protective response linked somehow to Cyanis's condition / proximity.
 - nobody knows what the effect is.
-- the camp still needs to survive one final attack.
+- heavier Chapter-0 combat can now begin with the two-character party.
 
 **Gameplay handoff**
-→ **Beat 5 — Final Broken Convoy Confrontation**
+→ **Beat 5 — Concealed Ruin Vanguard / Seyrik**
 
 **Reveal firewall**
 Do not identify:
@@ -217,43 +215,101 @@ Do not identify:
 
 ---
 
-## Beat 5 — Final Broken Convoy Confrontation — legacy S005
+## Beat 5 — Concealed Ruin Vanguard / Seyrik — NEW CURRENT PLACEMENT
 
 **Purpose**
-- make Cyanis + Ilyra's first shared battle a defense of the surviving treatment / evacuation space;
-- resolve the immediate Black Host attack without rewarding reckless pursuit;
-- let the Card's incomplete protection persist briefly without turning into a full Prime rescue.
+- give Cyanis + Ilyra an early shared pressure encounter after Ilyra has joined;
+- preserve Seyrik's Chapter-0 retrospective seed without overexposing him;
+- show a dangerous Black Host combatant probing / pressing the damaged defensive line and then withdrawing alive.
+
+**Required encounter**
+- Ruin Vanguard Pursuer only.
+- active combat pair: **Cyanis + Ilyra**.
+- the Pursuer disengages at the current encounter threshold and retreats alive.
+- no identity reveal.
+
+**Underlying retrospective canon**
+- the Ruin Vanguard Pursuer is **Seyrik Rell under concealed identity**.
+- he is not named, unmasked, recognized, or explained in Chapter 0.
+
+**End state**
+- the Pursuer withdraws.
+- the party does not chase him.
+- the encounter does not become proof that the earlier north withdrawal was bait or reveal the Black Host's true objective.
+
+**Required pacing separation**
+After Seyrik withdraws, return to noncombat field / triage activity before Riftmaw appears. The player needs an actual breathing interval; do not run directly from Seyrik into Riftmaw.
+
+**Gameplay handoff**
+→ triage / defensive repositioning interval → **Beat 6 — Riftmaw**
+
+---
+
+## Beat 6 — Riftmaw — NEW CURRENT PLACEMENT
+
+**Purpose**
+- retain Riftmaw as Chapter 0's mandatory named creature/boss encounter;
+- let the first substantial named boss be fought by **Cyanis + Ilyra**, not Cyanis alone;
+- increase the damaged-field threat without collapsing the chapter into one uninterrupted combat chain.
+
+**Starting state**
+- Ilyra has already joined Cyanis in combat.
+- Seyrik's concealed encounter is over and separated from this fight by noncombat triage / repositioning.
+- survivors and patients still make control of the field matter.
+
+**Required encounter**
+- Riftmaw only.
+- active combat pair: **Cyanis + Ilyra**.
+- one HP bar / no transformation / no support wave under current encounter authority.
+
+**End state**
+- Riftmaw is defeated.
+- the field remains unstable; this is not yet the chapter aftermath.
+
+**Required pacing separation**
+After Riftmaw, return to a short noncombat field / triage interval before the War-Sorcerer's final push. Do not stage Seyrik → Riftmaw → War-Sorcerer as one continuous boss rush.
+
+**Gameplay handoff**
+→ field / triage interval → **Beat 7 — Final Broken Convoy Confrontation**
+
+---
+
+## Beat 7 — Final Broken Convoy Confrontation — legacy S005 function
+
+**Purpose**
+- make the final Black Host push a defense of the surviving treatment / evacuation space;
+- resolve the immediate organized Black Host attack without rewarding reckless pursuit;
+- let the Card's incomplete protection remain bounded without turning into a full Prime rescue.
 
 **Starting state**
 - Cyanis and Ilyra are defending the camp together.
 - wounded / civilians remain behind the defensive line.
-- the fragmented green-and-gold protective response remains temporary and unstable.
+- the Card's incomplete protective phenomenon remains unexplained.
 
 **Mandatory combat**
 - Convoy War-Sorcerer + injured Iron Cohort Soldier.
 - War-Sorcerer is the victory target.
 - surviving Iron Cohort Soldier may withdraw according to encounter authority.
 - Rift Lance Preparation begins no earlier than Round 2.
-- the incomplete protective response remains bounded by current encounter authority and does not become a selectable Prime action.
+- any incomplete protective-response mechanics remain bounded by encounter authority and do not become a selectable Prime action.
 
 **Post-battle requirements**
 - Cyanis does not pursue a surviving withdrawing enemy.
-- the protective geometry loses coherence and fades.
+- any remaining protective geometry loses coherence and fades.
 - there is no complete manifestation / identity reveal.
 - Ilyra immediately returns attention to Cyanis's condition and the surviving patients rather than treating the fight as triumphant closure.
 
 **End state / knowledge change**
-- the immediate attack on the camp is broken.
+- the immediate organized Black Host attack on the camp is broken.
 - the Card is inert again.
-- Cyanis and Ilyra have survived their first shared combat.
 - survivor accounting / recovery and artifact protocol remain unresolved.
 
 **Gameplay handoff**
-→ **Beat 6 — Aftermath / Survivor Recovery**
+→ **Beat 8 — Aftermath / Survivor Recovery**
 
 ---
 
-## Beat 6 — Aftermath / Survivor Recovery / Brackenwall Decision — legacy S006
+## Beat 8 — Aftermath / Survivor Recovery / Brackenwall Decision — legacy S006 function
 
 **Purpose**
 - close the Broken Convoy crisis through recovery work rather than celebration;
@@ -343,7 +399,7 @@ Current Character-Life authority rule applies:
 ---
 
 ## Chapter-0 dramatic shape
-**Working convoy / Cyanis competence → Black Host ambush → defensive opening combats → Wreck Field survivor recovery → suspicious northern withdrawal → Cyanis argues against unsafe pursuit → convoy consolidates → Field Triage Camp → Ilyra introduced through independent medical authority → incomplete green/gold Card response around Cyanis → Cyanis + Ilyra defend the camp → War-Sorcerer defeated → Card response fades → survivor recovery / conservative Card protocol → Ilyra chooses to stay → Brackenwall established as next destination → Field Triage Camp cleanup → C01/C02 / preparation → player chooses departure → Chapter 1 begins at Brackenwall.**
+**Working convoy / Cyanis competence → Black Host ambush → two opening solo tutorial fights → Wreck Field survivor recovery + solo Hound → suspicious northern withdrawal → Cyanis argues against unsafe pursuit → convoy consolidates → Field Triage Camp → Ilyra introduced through independent medical authority → incomplete green/gold Card response around Cyanis → Ilyra joins the defense → concealed Seyrik pressure fight → noncombat triage/repositioning → Riftmaw boss → noncombat field/triage interval → War-Sorcerer final push → Card response fades → survivor recovery / conservative Card protocol → Ilyra chooses to stay → Brackenwall established as next destination → Field Triage Camp cleanup → C01/C02 / preparation → player chooses departure → Chapter 1 begins at Brackenwall.**
 
 ## Chapter-end knowledge
 Party may know:
@@ -359,7 +415,8 @@ Party does **not** know:
 - confirmed bearer / ownership status;
 - ancient Last Weapon;
 - Entity;
-- the true reason the convoy was attacked.
+- the true reason the convoy was attacked;
+- the identity of the Ruin Vanguard Pursuer.
 
 ## Current retrospective seed
-The Ruin Vanguard Pursuer seen during the opening is **Seyrik under concealed identity**. He is not named / revealed in Chapter 0 and retreats alive.
+The Ruin Vanguard Pursuer encountered **after Ilyra joins the defense** is **Seyrik under concealed identity**. He is not named / revealed in Chapter 0 and retreats alive.
