@@ -5,6 +5,21 @@ const SCHEMA_VERSION := 1
 const ALLOWED_SCENE_KINDS := ["mandatory", "character_life", "quest", "ambient", "banter", "battle", "proof"]
 const ALLOWED_ACTIVE_SIDES := ["left", "right", "none"]
 const ALLOWED_ADVANCE_MODES := ["manual"]
+const ALLOWED_SCENE_MODES := [
+	"full_authored_stop_scene",
+	"walking_or_traversal_dialogue",
+	"post_battle_reaction",
+	"story_bearing_cell",
+	"character_life_hub_camp",
+	"boss_threshold",
+	"story_combat_pause",
+	"microbeat_or_defer",
+]
+const ALLOWED_DIALOGUE_READINESS := ["GREEN", "AMBER", "RED"]
+const ALLOWED_PRODUCTION_COST_TIERS := ["economical", "moderate", "bespoke"]
+const ALLOWED_ENCOUNTER_DURING := ["preserve", "temporarily_suppress_trigger", "not_applicable"]
+const ALLOWED_ENCOUNTER_AFTER := ["restore_prior_pressure", "continue_existing_state", "not_applicable"]
+const ALLOWED_RETURN_CONTROL_MODES := ["exploration", "combat", "cutscene_chain", "hub"]
 const FORBIDDEN_BRANCH_KEYS := ["choices", "responses", "branches", "dialogue_choices", "affinity_options", "tone_options"]
 
 @export var schema_version: int = SCHEMA_VERSION
@@ -15,6 +30,17 @@ const FORBIDDEN_BRANCH_KEYS := ["choices", "responses", "branches", "dialogue_ch
 @export var trigger_id: String = ""
 @export var completion_flag: String = ""
 @export var participants: Array[String] = []
+
+# Unified Dialogue Engine orchestration metadata. These fields are optional and
+# backward-compatible with older authored Resources. They preserve the playable
+# scene context selected by the Director instead of flattening the handoff to text.
+@export var story_position: String = ""
+@export var scene_mode: String = "full_authored_stop_scene"
+@export var movement_lock: bool = true
+@export var dialogue_readiness: String = "GREEN"
+@export var production_cost_tier: String = "economical"
+@export var encounter_policy: Dictionary = {}
+@export var return_to_gameplay: Dictionary = {}
 
 # Audit88 presentation metadata is deliberately optional/backward-compatible.
 # It describes how a closed scene should be staged without changing its dialogue.
@@ -38,6 +64,14 @@ func validate_schema(registry: DiyseDialoguePortraitRegistry = null) -> Array[St
 		failures.append("Unsupported scene_kind: %s" % scene_kind)
 	if completion_flag.is_empty():
 		failures.append("completion_flag is required")
+	if scene_mode not in ALLOWED_SCENE_MODES:
+		failures.append("Unsupported scene_mode: %s" % scene_mode)
+	if dialogue_readiness not in ALLOWED_DIALOGUE_READINESS:
+		failures.append("Unsupported dialogue_readiness: %s" % dialogue_readiness)
+	if production_cost_tier not in ALLOWED_PRODUCTION_COST_TIERS:
+		failures.append("Unsupported production_cost_tier: %s" % production_cost_tier)
+	_validate_encounter_policy(failures)
+	_validate_return_to_gameplay(failures)
 	if not DiyseHd2dRuntime.is_valid_cutscene_tier(cutscene_tier):
 		failures.append("Unsupported cutscene_tier: %s" % cutscene_tier)
 	if not DiyseHd2dRuntime.is_valid_vfx_tier(vfx_tier):
@@ -69,6 +103,8 @@ func validate_schema(registry: DiyseDialoguePortraitRegistry = null) -> Array[St
 		var text := str(beat.get("text", ""))
 		if speaker_id.is_empty() and not text.is_empty():
 			failures.append("%s has text but no speaker_id" % prefix)
+		if not speaker_id.is_empty() and not participants.is_empty() and speaker_id not in participants:
+			failures.append("%s speaker_id is not listed in participants: %s" % [prefix, speaker_id])
 		if registry != null and not speaker_id.is_empty() and not registry.has_character(speaker_id):
 			failures.append("%s references unknown speaker_id: %s" % [prefix, speaker_id])
 		_validate_portrait_slot(beat.get("left", {}), "left", prefix, registry, failures)
@@ -83,6 +119,13 @@ func presentation_metadata() -> Dictionary:
 		"scene_id": scene_id,
 		"chapter_id": chapter_id,
 		"location_id": location_id,
+		"story_position": story_position,
+		"scene_mode": scene_mode,
+		"movement_lock": movement_lock,
+		"dialogue_readiness": dialogue_readiness,
+		"production_cost_tier": production_cost_tier,
+		"encounter_policy": encounter_policy.duplicate(true),
+		"return_to_gameplay": return_to_gameplay.duplicate(true),
 		"cutscene_tier": cutscene_tier,
 		"vfx_tier": vfx_tier,
 		"presentation_tags": presentation_tags.duplicate(),
@@ -113,6 +156,29 @@ func to_runner_beats(registry: DiyseDialoguePortraitRegistry) -> Array[Dictionar
 		})
 	return result
 
+func _validate_encounter_policy(failures: Array[String]) -> void:
+	if encounter_policy.is_empty():
+		return
+	var during := str(encounter_policy.get("during_scene", ""))
+	var after := str(encounter_policy.get("after_scene", ""))
+	if during.is_empty():
+		failures.append("encounter_policy.during_scene is required when encounter_policy is present")
+	elif during not in ALLOWED_ENCOUNTER_DURING:
+		failures.append("Unsupported encounter_policy.during_scene: %s" % during)
+	if after.is_empty():
+		failures.append("encounter_policy.after_scene is required when encounter_policy is present")
+	elif after not in ALLOWED_ENCOUNTER_AFTER:
+		failures.append("Unsupported encounter_policy.after_scene: %s" % after)
+
+func _validate_return_to_gameplay(failures: Array[String]) -> void:
+	if return_to_gameplay.is_empty():
+		return
+	var control_mode := str(return_to_gameplay.get("control_mode", ""))
+	if control_mode.is_empty():
+		failures.append("return_to_gameplay.control_mode is required when return_to_gameplay is present")
+	elif control_mode not in ALLOWED_RETURN_CONTROL_MODES:
+		failures.append("Unsupported return_to_gameplay.control_mode: %s" % control_mode)
+
 func _validate_portrait_slot(value: Variant, slot_name: String, prefix: String, registry: DiyseDialoguePortraitRegistry, failures: Array[String]) -> void:
 	if not (value is Dictionary):
 		failures.append("%s %s portrait slot must be a Dictionary" % [prefix, slot_name])
@@ -125,6 +191,8 @@ func _validate_portrait_slot(value: Variant, slot_name: String, prefix: String, 
 	if character_id.is_empty() or expression_id.is_empty():
 		failures.append("%s %s portrait slot requires both character_id and expression_id" % [prefix, slot_name])
 		return
+	if not participants.is_empty() and character_id not in participants:
+		failures.append("%s %s portrait character is not listed in participants: %s" % [prefix, slot_name, character_id])
 	if registry != null:
 		if not registry.has_character(character_id):
 			failures.append("%s %s portrait references unknown character_id: %s" % [prefix, slot_name, character_id])
