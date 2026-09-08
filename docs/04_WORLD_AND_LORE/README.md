@@ -3,8 +3,7 @@
 **Current whole-project written authority:** **v2.20 / Audit135**.  
 **Primary surface-geography authority:** **Audit111**, with compatible Audit109 travel rules and Audit108 local-site geography.  
 **Primary ancient-history / knowledge authority:** compatible **Audit66 / Audit71 / Audit72** and later story locks, corrected by newer explicit user chronology/terminology decisions.  
-**Domain rule:** this folder owns geography, place terminology, factions at world level, ancient/modern history, world chronology, modern-knowledge firewalls, and map/travel authority. Story scene sequencing belongs in `02_STORY`; exact dialogue in `03_DIALOGUE`.
-
+**Domain rule:** this folder owns geography, place terminology, factions at world level, ancient/modern history, world chronology, modern-knowledge firewalls, map/travel authority, and global lived-world/social context. Story scene sequencing belongs in `02_STORY`; exact dialogue in `03_DIALOGUE`.
 
 Canonical home for:
 - current macro-regions;
@@ -20,7 +19,14 @@ Canonical home for:
 - Black Host world/state history;
 - modern-knowledge firewalls;
 - cartographic mystery;
+- lived-world social pressure and ordinary-life continuity;
 - retired place/region terminology.
+
+## Lived-world context
+
+`LIVED_WORLD_SOCIAL_CONTEXT.md` is the current canonical home for the world-life layer used by Dialogue Engine agents and authored NPC life: fatigue, watches, wounds, supply pressure, routes, evacuation, displaced civilians, missing people, work, sleep, routine, NPC autonomy, uneven local knowledge, and ordinary life continuing around the campaign.
+
+It does not override current local story/location state and does not make every wartime pressure true in every settlement.
 
 ## Current macro-regions
 - **Yahtrenhold**
