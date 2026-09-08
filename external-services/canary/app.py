@@ -15,9 +15,9 @@ import yaml
 from fastapi import FastAPI, Header, HTTPException
 from pydantic import BaseModel, Field
 
-CHARACTER_ID = os.getenv("CHARACTER_ID", "Cyanis_Dovaren")
-SERVICE_VERSION = os.getenv("SERVICE_VERSION", "2.15.0")
-BRAIN_PROFILE_VERSION = os.getenv("BRAIN_PROFILE_VERSION", "v2.13")
+RAW_CHARACTER_ID = os.getenv("CHARACTER_ID", "cyanis")
+SERVICE_VERSION = os.getenv("SERVICE_VERSION", "2.20.0")
+BRAIN_PROFILE_VERSION = os.getenv("BRAIN_PROFILE_VERSION", "v2.20-lived-world")
 CANON_SNAPSHOT_ID = os.getenv("CANON_SNAPSHOT_ID", "development")
 PERSISTENCE_PATH = os.getenv("PERSISTENCE_PATH", "/data/agent.sqlite3")
 SERVICE_AUTH_TOKEN = os.getenv("SERVICE_AUTH_TOKEN") or None
@@ -26,18 +26,44 @@ MODEL_API_KEY = os.getenv("MODEL_API_KEY") or None
 MODEL_NAME = os.getenv("MODEL_NAME") or None
 PORT = int(os.getenv("PORT", "8080"))
 
-KNOWN_CHARACTERS = {
-    "Cyanis_Dovaren", "Ilyra_Amarin", "Torren_Harth",
-    "Nimera_Pellan", "Vaelira_Serren", "Seyrik_Rell",
+CANONICAL_CHARACTER_IDS = {
+    "cyanis", "ilyra", "torren", "nimera", "vaelira", "seyrik",
 }
-if CHARACTER_ID not in KNOWN_CHARACTERS:
-    raise RuntimeError(f"Unknown CHARACTER_ID: {CHARACTER_ID}")
+LEGACY_CHARACTER_ID_ALIASES = {
+    "Cyanis_Dovaren": "cyanis",
+    "Ilyra_Amarin": "ilyra",
+    "Torren_Harth": "torren",
+    "Nimera_Pellan": "nimera",
+    "Vaelira_Serren": "vaelira",
+    "Seyrik_Rell": "seyrik",
+}
 
-BRAIN_PATH = Path(__file__).parent / "brains" / f"{CHARACTER_ID}.yaml"
+CHARACTER_ID = LEGACY_CHARACTER_ID_ALIASES.get(
+    RAW_CHARACTER_ID, RAW_CHARACTER_ID.strip().lower()
+)
+if CHARACTER_ID not in CANONICAL_CHARACTER_IDS:
+    raise RuntimeError(f"Unknown CHARACTER_ID: {RAW_CHARACTER_ID}")
+
+BASE_DIR = Path(__file__).parent
+BRAIN_PATH = BASE_DIR / "brains" / f"{CHARACTER_ID}.yaml"
+CONTEXT_DIR = BASE_DIR / "context"
+
 if not BRAIN_PATH.exists():
     raise RuntimeError(f"Missing brain profile: {BRAIN_PATH}")
 BRAIN = yaml.safe_load(BRAIN_PATH.read_text(encoding="utf-8"))
 CHARACTER_NAME = BRAIN["character"]
+
+
+def load_shared_context() -> dict[str, Any]:
+    result: dict[str, Any] = {}
+    if not CONTEXT_DIR.exists():
+        return result
+    for path in sorted(CONTEXT_DIR.glob("*.yaml")):
+        result[path.stem] = yaml.safe_load(path.read_text(encoding="utf-8"))
+    return result
+
+
+SHARED_CONTEXT = load_shared_context()
 
 
 def require_auth(authorization: str | None):
@@ -274,8 +300,13 @@ def compact_brain() -> dict:
 
 TURN_PROMPT = f"""
 You are the persistent external Diyse Person Agent for {CHARACTER_NAME}.
-Use only your supplied Agent Brain, your own memories/state, and observable scene information.
-Never use another character's private memory or future story knowledge.
+Use only your supplied Agent Brain, shared Diyse lived-world/economy/dialogue context,
+your own memories/state, and observable scene information.
+Shared context is runtime synthesis, not permission to invent local conditions or private facts.
+The current story position and observable scene payload control what is actually true here.
+Never use another character's private memory, author-only balance totals, or future story knowledge.
+Never invent a fixed character preference, civilian wage, price, shortage, route condition, or local fact
+when the supplied context says it requires current authority or scene evidence.
 You may speak, act, interrupt, ask, misunderstand, be wrong, be bored, decline, or remain silent.
 Prefer the shortest natural expression that accomplishes the intent.
 Do not reveal hidden chain-of-thought.
@@ -286,8 +317,11 @@ observable_candidate {{speech, action, silence}}, claimed_facts, state_delta_pro
 
 CHAT_PROMPT = f"""
 You are {CHARACTER_NAME}, simulated through the Diyse Person Agent system.
-Stay grounded in your Agent Brain, personal continuity, knowledge boundaries, and Diyse worldview.
-You can say you don't know, ask questions, disagree, joke, or change your mind.
+Stay grounded in your Agent Brain, shared Diyse lived-world/economy/dialogue context,
+personal continuity, knowledge boundaries, and observable context.
+Shared context is not omniscience: do not invent local conditions, future story facts,
+author-only balance information, or fixed preferences that have not been established.
+You can say you don't know, ask questions, disagree, joke, change your mind, or let a subject drop.
 Do not claim to be conscious or sentient.
 Return only JSON: {{"character_response":"..."}}.
 """.strip()
@@ -330,10 +364,12 @@ def health():
         "status": "ok",
         "character": CHARACTER_NAME,
         "character_id": CHARACTER_ID,
+        "requested_character_id": RAW_CHARACTER_ID,
         "service_version": SERVICE_VERSION,
         "brain_profile_version": BRAIN_PROFILE_VERSION,
         "model_configured": model_configured(),
         "canon_snapshot_id": CANON_SNAPSHOT_ID,
+        "shared_context_sections": sorted(SHARED_CONTEXT.keys()),
     }
 
 
@@ -341,6 +377,7 @@ def health():
 def identity():
     return {
         "character_id": CHARACTER_ID,
+        "requested_character_id": RAW_CHARACTER_ID,
         "character_name": CHARACTER_NAME,
         "service_version": SERVICE_VERSION,
     }
@@ -357,6 +394,7 @@ async def turn(req: TurnRequest, authorization: str | None = Header(default=None
         TURN_PROMPT,
         {
             "brain": compact_brain(),
+            "shared_context": SHARED_CONTEXT,
             "memories": STORE.memories("story"),
             "current_state": STORE.state(),
             "request": req.model_dump(),
@@ -394,6 +432,7 @@ async def chat(req: ChatRequest, authorization: str | None = Header(default=None
         CHAT_PROMPT,
         {
             "brain": compact_brain(),
+            "shared_context": SHARED_CONTEXT,
             "memories": STORE.memories(namespace),
             "current_state": STORE.state(),
             "user_message": req.user_message,
