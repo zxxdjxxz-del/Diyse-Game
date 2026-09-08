@@ -45,6 +45,8 @@ This is **writer-facing underlying canon**, not Chapter-0 party knowledge.
 - Black Host command therefore targeted the convoy in order to intercept / seize the important cargo or determine what had been recovered;
 - the attack is driven by ordinary reconnaissance and military intelligence, **not** by the Card reacting to Cyanis, detecting a bearer, or sending out a supernatural signal;
 - the Black Host does **not** begin Chapter 0 knowing that the cargo is a Prime, Might, Last Sentinel, an ancient Last Weapon, or that it will respond to Cyanis;
+- the Black Host force committed to the convoy operation includes **war-beast assets, including Riftmaw**;
+- Riftmaw is a **Black Host beast**, not an unrelated wild creature or incidental third-party threat;
 - the exact level of information given to individual Black Host combatants, including the concealed Ruin Vanguard Pursuer, remains bounded unless established later;
 - Cyanis, Ilyra, the surviving convoy personnel, and the player-facing Chapter-0 story do **not** learn this underlying motive during Chapter 0.
 
@@ -280,24 +282,28 @@ After Seyrik withdraws, return to noncombat field / triage activity before Riftm
 ## Beat 6 — Riftmaw — NEW CURRENT PLACEMENT
 
 **Purpose**
-- retain Riftmaw as Chapter 0's mandatory named creature/boss encounter;
+- retain Riftmaw as Chapter 0's mandatory named **Black Host beast / boss** encounter;
 - let the first substantial named boss be fought by **Cyanis + Ilyra**, not Cyanis alone;
-- increase the damaged-field threat without collapsing the chapter into one uninterrupted combat chain.
+- continue the Black Host convoy-interception pressure without collapsing the chapter into one uninterrupted combat chain.
 
 **Starting state**
 - Ilyra has already joined Cyanis in combat.
 - Seyrik's concealed encounter is over and separated from this fight by noncombat triage / repositioning.
 - the Card remains inert after the first flare.
 - survivors and patients still make control of the field matter.
+- **Riftmaw is a Black Host beast committed as part of the same convoy-interception operation.**
 
 **Required encounter**
 - Riftmaw only.
+- Riftmaw must be presented as a **Black Host beast**, not as an unrelated wild creature or accidental battlefield threat.
 - active combat pair: **Cyanis + Ilyra**.
 - **no Card-derived protection is active.**
 - one HP bar / no transformation / no support wave under current encounter authority.
+- the exact breeding, training, handler, transport, or release details are not established here unless separately locked by Black Host beast authority later.
 
 **End state**
 - Riftmaw is defeated.
+- another Black Host asset committed to the convoy operation has been removed.
 - the Card remains inert.
 - the field remains unstable; this is not yet the chapter aftermath.
 
@@ -445,7 +451,7 @@ Current Character-Life authority rule applies:
 ---
 
 ## Chapter-0 dramatic shape
-**Working convoy / Cyanis competence → Black Host ambush → two opening solo tutorial fights → Wreck Field survivor recovery + solo Hound → suspicious northern withdrawal → Cyanis argues against unsafe pursuit → convoy consolidates → Field Triage Camp → Ilyra introduced through independent medical authority → first incomplete green/gold Card flare saves threatened triage space → first flare fully subsides → Ilyra joins the defense → concealed Seyrik pressure fight with no Card protection → noncombat triage/repositioning → Riftmaw boss with no Card protection → noncombat field/triage interval → War-Sorcerer final push → second incomplete Card flare / three-round defensive effect → second flare fades completely → survivor recovery / conservative Card protocol → Ilyra chooses to stay → Brackenwall established as next destination → Field Triage Camp cleanup → C01/C02 / preparation → player chooses departure → Chapter 1 begins at Brackenwall.**
+**Working convoy / Cyanis competence → Black Host ambush → two opening solo tutorial fights → Wreck Field survivor recovery + solo Hound → suspicious northern withdrawal → Cyanis argues against unsafe pursuit → convoy consolidates → Field Triage Camp → Ilyra introduced through independent medical authority → first incomplete green/gold Card flare saves threatened triage space → first flare fully subsides → Ilyra joins the defense → concealed Seyrik pressure fight with no Card protection → noncombat triage/repositioning → Black Host Riftmaw boss with no Card protection → noncombat field/triage interval → War-Sorcerer final push → second incomplete Card flare / three-round defensive effect → second flare fades completely → survivor recovery / conservative Card protocol → Ilyra chooses to stay → Brackenwall established as next destination → Field Triage Camp cleanup → C01/C02 / preparation → player chooses departure → Chapter 1 begins at Brackenwall.**
 
 ## Chapter-end knowledge
 Party may know:
