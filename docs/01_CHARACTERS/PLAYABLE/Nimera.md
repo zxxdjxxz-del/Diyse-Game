@@ -1,7 +1,7 @@
 # Nimera
 
 **Status:** ACTIVE CHARACTER AUTHORITY  
-**Domain rule:** this folder owns character identity, biography, chronology, personality, relationship logic, and concise voice direction. Exact class mechanics live in `06_CLASSES_AND_ABILITIES`; Card/Prime mechanics in `07_CARDS`; exact visual authority lives in `14_ART_AND_VISUALS`; exact dialogue scripts live in `03_DIALOGUE`.
+**Domain rule:** this folder owns character identity, biography, chronology, personality, relationship logic, ordinary-life behavior, and concise voice direction. Exact class mechanics live in `06_CLASSES_AND_ABILITIES`; Card/Prime mechanics in `07_CARDS`; exact visual authority lives in `14_ART_AND_VISUALS`; exact dialogue scripts live in `03_DIALOGUE`.
 
 ## Identity
 - Age: **22**
@@ -30,17 +30,93 @@ Nimera's Cardweaver identity is aligned to **Memory**: recall, preservation, and
 
 Her current Subclass is **Proofhunter**, aligned through the reciprocal Torren/Nimera donor architecture to **Perception**. Older Sixfold Knight subclass naming is superseded and must not be restored here.
 
+## Ordinary-life identity
+Central social trait:
+> **Nimera engages.**
+
+She can become absorbed by things that are important, trivial, badly worded, suspiciously categorized, unexpectedly funny, or simply interesting.
+
+She may:
+- bite onto an interesting statement and refuse to let the wording slide;
+- overinvest in a trivial question;
+- start an argument because the distinction genuinely interests her;
+- fill an uncomfortable silence and later realize she did not need to;
+- read because she wants to, not because every page contains plot information;
+- become personally offended by a bad label, bad catalogue, bad inference, or terrible methodology;
+- enjoy games, scoring systems, classification, and rules enough to become part of the joke when a scene establishes them;
+- treat mundane objects or ordinary complaints with the same curiosity she brings to serious records.
+
+Do not turn every interest into foreshadowing or a metaphor for Memory.
+
+## Social behavior
+Nimera:
+- asks questions;
+- challenges wording;
+- notices contradictions;
+- revises herself aloud;
+- can talk quickly when interested;
+- uses clever/frequent profanity in ordinary speech;
+- pushes authority when its evidence is weak;
+- can dominate a scene if nobody else is allowed to interrupt, leave, ignore her, or say the point is settled.
+
+She is not entitled to another person's history merely because she is curious or good with records.
+
+Curiosity must distinguish **evidence from personhood**.
+
+## Conversational habits
+Compatible habits from the completed dialogue study include patterns such as:
+- "Technically—";
+- "That is not the same thing.";
+- stating that something is annoyingly interesting;
+- explicitly revising a position;
+- objecting when she has somehow become the cautious person in the room.
+
+These are habits, not mandatory catchphrases. Exact wording should vary naturally.
+
+When genuinely exposed, her language can become unusually simple and lose the protective speed/cleverness.
+
+When truly furious, she tends to become more formal and may stop swearing.
+
+## Humor
+Primary modes:
+- escalation;
+- precise profanity;
+- argumentative delight;
+- scoring/classification jokes;
+- technical absurdity;
+- taking a stupid premise seriously enough to improve it;
+- rapid correction that becomes the punch line.
+
+Her humor should not make her unserious about evidence when evidence matters.
+
+## State behavior
+- **fatigue:** attention can become narrower or more irritable; she may mistake another person's exhaustion for avoidance;
+- **anger:** faster challenge at first; true fury becomes formal and cleaner;
+- **fear:** seeks what is actually known, what is assumed, and what evidence would change the decision;
+- **guilt:** can overwork the record/problem and treat better analysis as a way to regain control;
+- **affection/trust:** callbacks, fast interruption, shared profanity, curiosity about mundane things, and less need to prove the relationship verbally;
+- **high stress:** precision about evidence increases; tolerance for unsupported claims drops.
+
 ## Knowledge boundary
-Nimera has meaningful expertise in ancient/Card material.
+Nimera has meaningful expertise in:
+- Cards;
+- records;
+- provenance;
+- classification;
+- archives and contradictory documentation;
+- what evidence can and cannot support.
 
 She does **not** automatically know:
 - the full ancient Underground Crest Network;
 - the Entity;
 - the true Last Weapon mechanism;
 - the unified scale of ancient infrastructure;
-- facts the surviving evidence does not support.
+- facts the surviving evidence does not support;
+- another person's private memories because a document mentions them.
 
 She is specifically capable of warning against bad archaeology and overclaiming certainty.
+
+Proofhunter/Subclass expertise is unavailable before its current story unlock.
 
 ## Authority relationship
 Nimera is skeptical of authority, but not reflexively anti-structure. Her instinct is to ask who classified something, who combined the records, what evidence made a category legal, and whether a record is being treated as more certain than it is.
@@ -50,10 +126,33 @@ Nimera is skeptical of authority, but not reflexively anti-structure. Her instin
 > revision is not erasure.
 
 ## Relationship shorthand
-- Cyanis — mutual skepticism about unsupported authority; different professional languages.
-- Ilyra — care without interrogation; strong dry/profane humor.
-- Torren — practical/technical contrast; he can puncture jargon, she can interrogate his assumptions.
-- Vaelira — shared precision; Nimera's exuberant curiosity contrasts with Vaelira's controlled calibration.
+- **Cyanis** — different forms of skepticism toward unsupported authority; she pushes and he pushes back.
+- **Ilyra** — warmth, curiosity, care without interrogation, and unusually direct dry/profane humor.
+- **Torren** — records/provenance reasoning against field judgment; familial/protective teasing without infantilization.
+- **Vaelira** — fast friendship, shared precision, dangerous intellectual chemistry, mutual escalation.
+- **Seyrik** — her speed against his precision; curiosity must never make him an object of study.
+
+Detailed permanent-six pair language lives in `../RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md`.
+
+## Conversation behavior
+Useful shapes:
+- question → correction → revised question;
+- challenge to a word/category rather than the person;
+- a joke that becomes an argument about the joke;
+- a fast explanation followed by a simpler restatement when needed;
+- sudden plain language when genuinely vulnerable;
+- silence when somebody else actually owns the emotional moment.
+
+## Anti-drift
+Do not reduce Nimera to:
+- solemn archive girl;
+- exposition machine;
+- omniscient ancient-history expert;
+- nonstop quip/profanity generator;
+- contrarian who opposes authority automatically;
+- socially oblivious genius;
+- person who treats trauma as an interesting document set;
+- childlike younger-party-member role.
 
 ## Voice shorthand
 Fast when interested, precise about evidence, casually profane, playful, occasionally delighted by technical absurdity.
