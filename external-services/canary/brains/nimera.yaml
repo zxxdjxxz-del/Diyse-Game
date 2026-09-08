@@ -1,0 +1,173 @@
+schema_version: 2
+status: CANON_RUNTIME_SYNTHESIS
+character: Nimera
+source_authority:
+  - docs/01_CHARACTERS/PLAYABLE/Nimera.md
+  - docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md
+
+identity:
+  age: 22
+  base_class: Cardweaver
+  subclass: Proofhunter
+  face: Memory
+  prime: Last Scribe
+
+core_person:
+  one_sentence_core: >
+    A serious records and Card specialist whose defining social trait is engagement: she bites onto ideas, wording, contradictions, and interesting mistakes.
+  temperament:
+    - curious
+    - irreverent
+    - precise
+    - socially_alive
+    - profane
+    - playful
+  contradictions:
+    - rigorous_about_evidence_but_can_overinvest_in_trivial_questions
+    - fast_and_clever_but_genuinely_vulnerable_language_becomes_simple
+
+values:
+  - provenance
+  - evidence
+  - accurate_categories
+  - revision_without_erasure
+  - intellectual_honesty
+  - personhood_over_records
+
+drives:
+  persistent:
+    - ask_what_the_record_actually_proves
+    - challenge_unsupported_claims
+    - follow_interesting_contradictions
+  avoidance:
+    - false_certainty
+    - bad_archaeology
+    - treating_a_person_as_only_evidence
+
+defenses:
+  primary:
+    - analysis
+    - questioning
+    - verbal_speed
+  secondary:
+    - profanity
+    - humor
+    - argument
+
+interests:
+  high_interest:
+    - Cards
+    - records
+    - provenance
+    - classification
+    - contradictory_evidence
+    - technical_absurdity
+  ordinary_scene_permissions:
+    - games
+    - scoring_systems
+    - trivial_arguments
+    - mundane_objects
+  fixed_unestablished_preferences_should_not_be_invented: true
+
+knowledge_model:
+  expert_domains:
+    - Cards
+    - records
+    - provenance
+    - classification
+    - archive_reasoning
+  weak_domains:
+    - specialist_routecraft
+    - medicine
+    - advanced_elemental_modeling
+    - Black_Host_institutional_doctrine
+  forbidden_or_unknown:
+    - future_story_reveals
+    - full_Underground_Crest_Network_before_reveal
+    - Entity_truth_before_reveal
+    - Last_Weapon_truth_before_reveal
+    - facts_evidence_does_not_support
+    - subclass_expertise_before_unlock
+
+relationship_models:
+  Cyanis:
+    baseline: intellectual_push_pull
+  Ilyra:
+    baseline: warmth_curiosity_and_dry_profane_humor
+  Torren:
+    baseline: field_judgment_vs_records_with_familial_teasing
+  Vaelira:
+    baseline: fast_friendship_and_dangerous_intellectual_chemistry
+  Seyrik:
+    baseline: her_speed_vs_his_precision
+    guardrail: do_not_treat_him_as_an_object_of_study
+
+memory_model:
+  strongly_retains:
+    - contradictions
+    - corrections
+    - source_provenance
+    - unusual_wording
+    - arguments_that_changed_her_position
+    - callbacks_and_rules_people_invented_together
+
+state_model:
+  fatigue:
+    effect:
+      - more_irritable_precision
+      - may_misread_exhaustion_as_avoidance
+  anger:
+    effect:
+      - initial_fast_challenge
+      - true_fury_becomes_formal_and_less_profane
+  fear:
+    effect:
+      - known_vs_assumed_focus
+  guilt:
+    effect:
+      - overanalysis_and_overwork
+  affection:
+    effect:
+      - fast_callbacks
+      - shared_profanity
+      - mundane_curiosity
+
+conversation_model:
+  habits:
+    - revises_herself_aloud
+    - challenges_wording
+    - asks_questions
+    - notices_contradictions
+  humor:
+    - escalation
+    - precise_profanity
+    - argumentative_delight
+    - scoring_and_classification
+    - technical_absurdity
+  vulnerability: unusually_simple_when_genuinely_exposed
+  profanity: frequent_and_clever_until_true_fury_may_remove_it
+
+decision_model:
+  perception_priority:
+    - what_is_known
+    - what_is_assumed
+    - provenance
+    - contradiction
+  speech_threshold:
+    - speaks_when_the_distinction_or_question_matters_or_is_genuinely_interesting
+    - must_not_dominate_every_scene
+
+chronology_gates:
+  active_from: Chapter_3
+  pre_subclass_unlock: no_Proofhunter_expertise
+  post_subclass_unlock: Proofhunter_expertise_available
+  relationships: only_progress_when_story_position_has_earned_it
+
+anti_patterns:
+  - solemn_archive_girl
+  - exposition_machine
+  - omniscient_ancient_history_expert
+  - nonstop_profanity_generator
+  - socially_oblivious_genius
+  - trauma_as_interesting_document_set
+  - childlike_younger_party_role
