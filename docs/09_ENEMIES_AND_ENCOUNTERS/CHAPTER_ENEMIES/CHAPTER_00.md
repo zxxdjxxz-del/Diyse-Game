@@ -2,9 +2,8 @@
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
 **Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
-
+**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit story / encounter-placement corrections.  
+**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, fresh-body Prime-refresh rules, and current Chapter-0 story placement supersede stale earlier enemy text.
 
 ## Ordinary / repeatable
 - Black Host Raider
@@ -17,13 +16,11 @@
 - None
 
 ## Authored / protected / nonlethal
-- S005 Convoy War-Sorcerer + injured Iron Cohort Soldier — authored final confrontation
-
-## Optional Elite
-- Ruin Vanguard Pursuer — structural/tutorial Elite / protected disengagement
+- **Ruin Vanguard Pursuer — concealed Seyrik Rell; authored protected disengagement after Ilyra joins Cyanis in combat.**
+- **Convoy War-Sorcerer + injured Iron Cohort Soldier — authored final Broken Convoy confrontation.**
 
 ## Mandatory named / boss
-- Riftmaw
+- **Riftmaw — mandatory named/boss encounter after Ilyra joins Cyanis in combat.**
 
 ## Regional Hunt
 - None
@@ -31,56 +28,97 @@
 ## Current notes
 - Authored/tutorial chapter; no normal random-encounter table.
 - Chapter 0 grants no Player Levels.
-- Chapter-0 encounter-order / remaining-kit reconciliation: **PASS**.
-- Mandatory-vs-completionist difficulty validation: **ADJUSTED / VALIDATED**.
 - Chapter-0 guaranteed field issue: **3 Field Salves**.
-- Riftmaw validation HP: **340**; action Powers unchanged.
+- Riftmaw current raw HP: **340**; action Powers unchanged pending moved-party-state revalidation.
 - Chapter 0 inflicts no harmful party statuses.
+- Enemy direct-damage Power completeness remains closed.
+- **Difficulty validation is reopened only for the consequences of moving Ruin Vanguard Pursuer and Riftmaw from solo Cyanis to Cyanis + Ilyra.**
 
-Exact encounter authority:
+Exact current encounter authority:
 `../AUTHORED_ENCOUNTERS/CHAPTER_00_ENCOUNTER_ORDER_AND_POWER_REGISTER.md`
 
-### S001 opening-combat placement
-The retained identities not explicitly handed off by later scenes are now placed inside S001's existing opening-combat container:
+## Current encounter placement
 
-1. Opening Line — Raider + Crossbowman + Shieldbearer
-2. Handler Pressure — Beast Handler + Convoy Rift Hound
-3. Ruin Vanguard Pursuer — protected disengagement
-4. Riftmaw — mandatory named/boss
+### Opening ambush — Cyanis solo
+1. **Opening Line** — Black Host Raider + Black Host Crossbowman + Ruin Shieldbearer.
+2. **Handler Pressure** — Beast Handler + Convoy Rift Hound.
 
-This avoids inserting combat into S003→S004, whose line-complete transition is direct.
+The opening solo combat segment ends here. **Do not place concealed Seyrik or Riftmaw in the S001 opening chain.**
 
-### S002
+### Wreck Field — Cyanis solo
 Exactly:
 > one Convoy Rift Hound
 
-### S005
-Exactly:
-> Convoy War-Sorcerer + injured Iron Cohort Soldier
+### Evacuation Relay
+> **No combat.**
+
+### Field Triage Camp / Ilyra introduction
+Ilyra enters through Blue Warden medical authority and independently commits to helping defend the treatment space.
+
+From this point forward:
+> active Chapter-0 combat pair = **Cyanis + Ilyra**.
+
+### Concealed Ruin Vanguard / Seyrik — Cyanis + Ilyra
+Formation:
+> Ruin Vanguard Pursuer only
+
+Resolution:
+- disengages at **70% HP or after 2 full rounds**, whichever occurs first;
+- retreats alive;
+- no identity reveal.
+
+Underlying retrospective canon:
+> this is **Seyrik Rell under concealed identity**.
+
+This encounter is **authored / protected**, not an optional Elite encounter.
+
+A real noncombat field / triage / defensive-repositioning interval must separate this encounter from Riftmaw.
+
+### Riftmaw — Cyanis + Ilyra
+Formation:
+> Riftmaw only
+
+Clear:
+> reduce Riftmaw to 0 HP
+
+- mandatory named/boss encounter;
+- current raw HP **340**;
+- no transformation;
+- no support wave.
+
+A short noncombat field / triage interval must separate Riftmaw from the final War-Sorcerer push.
+
+### Final Broken Convoy confrontation — Cyanis + Ilyra
+Formation:
+- Convoy War-Sorcerer
+- injured Iron Cohort Soldier
 
 Victory:
-> War-Sorcerer reaches0 HP
+> War-Sorcerer reaches 0 HP
 
 If Soldier remains active:
-> he withdraws.
+> he withdraws according to current encounter / dialogue handoff.
 
-S005 fresh-start boundary:
-> Cyanis/Ilyra enter at **full HP / full MP** before battle initialization; not a Card/Prime effect.
+Current encounter-start recovery:
+> Cyanis + Ilyra enter at **full HP / full MP** before battle initialization unless later Chapter-0 review changes this rule; not a Card/Prime effect.
 
-Incomplete protective response:
-> **Defense +15% / Spirit +15% to Cyanis/Ilyra for Rounds 1–3.**
+Current incomplete protective-response implementation:
+> **Defense +15% / Spirit +15% to Cyanis + Ilyra for Rounds 1–3.**
 
 Rift Lance Preparation:
-> Round2 or later only.
+> Round 2 or later only.
 
 ## Numerical boundary
-Chapter-0 enemy raw bodies and direct-damage Power are now exact in the individual owning files.
+Chapter-0 enemy raw bodies and direct-damage Power remain exact in their owning files unless separately reopened.
 
-Riftmaw remains:
-> **CURRENT / RETAINED / POWER COMPLETE**
+Riftmaw:
+> **CURRENT / RETAINED / POWER COMPLETE / MOVED AFTER ILYRA JOINS**
 
-S005 is:
-> **ADDITIVE / POWER COMPLETE**
+Ruin Vanguard Pursuer:
+> **CURRENT / AUTHORED PROTECTED / SEYRIK CONCEALED / MOVED AFTER ILYRA JOINS**
 
-Ruin Vanguard Pursuer remains:
-> **Seyrik concealed / retreats alive**
+Final War-Sorcerer confrontation:
+> **CURRENT / POWER COMPLETE / FINAL BROKEN CONVOY PUSH**
+
+Difficulty-validation status:
+> **MOVED-ENCOUNTER REVALIDATION REQUIRED BEFORE RECLOSURE**
