@@ -26,6 +26,13 @@ Maevra and Mirena are **not** default residents of Cresthaven and do not accompa
 - Their presence in a scene should have a plausible visit / work / supply / investigation reason rather than implying they continuously live at Cresthaven.
 - Neither is automatically present in every Cresthaven scene.
 
+## Global Character-Life dialogue rule
+All Character-Life scenes, including the Chapter-3 scenes below, are **rewritten by the new Dialogue Engine**.
+
+Historical transcripts provide reference for scene purpose, relationship beats, staging ideas, joke structures, and voice, but do not control current exact wording merely because they were once marked `APPROVED / LOCKED` or line-complete.
+
+Only exact lines explicitly preserved by the user survive verbatim; everything else is regenerated against current character-agent profiles, relationship state, chapter state, and reveal firewalls.
+
 ## Chapter-3 Character-Life cleanup set
 The active Chapter-3 cleanup set is intentionally limited to **two Character-Life scenes**:
 - **H01 — Nimera Takes Over a Table**;
@@ -34,16 +41,24 @@ The active Chapter-3 cleanup set is intentionally limited to **two Character-Lif
 Historical H02 and H04 are **retired from the active Chapter-3 Character-Life set**. Their files remain historical/reference material only and must not be surfaced as current optional scenes unless explicitly reopened again later.
 
 ### H01 — Nimera Takes Over a Table
-- Core Cresthaven table / Nimera-space-expansion comedy remains valid.
-- Current opening correction: **Cyanis and Torren enter already halfway through an argument, trading absurdly vicious insults, and Nimera immediately loves the dynamic.**
-- Current authored opening includes Cyanis calling Torren an `old shit-eating sack of arrowheads` and Torren replying that Cyanis looks like a `walking dick in armor`.
-- After that opening, the existing table-occupation scene proceeds with its established joke spine.
-- The historical Maevra doorway cameo may remain because Maevra is allowed to visit Cresthaven; it is **not proof that she lives there or still travels with the party**.
+Current scene function / anchors:
+- Cresthaven table / Nimera-space-expansion comedy remains the scene premise.
+- Cyanis and Torren enter already halfway through an argument, trading absurdly vicious insults.
+- Nimera immediately loves their dynamic.
+- **Exact preserved opening anchor — Cyanis:** `I bet you use that cape to sneak up on the goats you fuck.`
+- **Exact preserved reply anchor — Torren:** `You look like a walking dick in armor.`
+- those two lines are locked anchors only; **the Dialogue Engine regenerates the rest of H01**, including how the table joke develops and whether/how supporting characters appear.
+- Maevra may appear only if the regenerated scene deliberately places her at Cresthaven on one of her occasional visits; her historical doorway cameo is not mandatory and never implies residency.
 
 ### H03 — Ilyra and Nimera
-- The Cresthaven medical-space scene remains structurally compatible.
-- Its consent-based treatment, precision jokes, mundane care, and refusal to force emotional disclosure remain the core function.
-- No Maevra or Mirena appearance is required.
+Current scene function:
+- Cresthaven medical / treatment-space Character-Life beat between Ilyra and Nimera.
+- consent-based treatment remains central.
+- mundane teasing / precision humor and quiet practical care remain appropriate relationship goals.
+- do not force emotional disclosure or turn the scene into therapy.
+- no historical H03 line is automatically locked merely because it appeared in the old approved transcript.
+- **the Dialogue Engine regenerates the full current H03 dialogue.**
+- no Maevra or Mirena appearance is required.
 
 ### Retired H02 — Torren and Maevra, Unsupervised
 - **Removed from the active Chapter-3 cleanup set.**
