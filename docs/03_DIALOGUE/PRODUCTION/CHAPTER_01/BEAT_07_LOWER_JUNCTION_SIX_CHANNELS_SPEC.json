@@ -1,0 +1,86 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH01_BEAT07_LOWER_JUNCTION_SIX_CHANNELS",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 — Beat 7 — Lower Junction / Six Channels",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
+  "scene_purpose": "Deliver the first strong human-use clue for the Hollow Watch Diysean structure: a circular junction where six damaged channels meet and surviving imagery shows substantial movement of ordinary people, including children, handcarts, animals, and injured people on litters, through an open gate/passage system. Allow bounded speculation about evacuation, transit, shelter, or a broader function without resolving the site's original purpose or spending the later geographic mural payoff.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Beat 7 — Lower Junction / Six Channels"
+      ],
+      "role": "current_chapter_01_beat_07_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Torren.md",
+      "whole_file": true,
+      "role": "torren_character_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md",
+      "whole_file": true,
+      "role": "ilyra_character_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md",
+      "whole_file": true,
+      "role": "cyanis_character_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md",
+      "whole_file": true,
+      "role": "maevra_character_authority"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
+      "whole_file": true,
+      "role": "scene_construction_authoring_contract"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
+      "whole_file": true,
+      "role": "walking_dialogue_hard_lock"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Hollow Watch lower Diysean junction",
+    "area_phase": "quiet_discovery_between_hostile_sections",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "visible_environment": [
+      "circular ancient junction with six damaged channels meeting around one central floor space",
+      "Black Host work lamps and route marks are layered over the older chamber but do not explain it",
+      "surviving human-use imagery is distributed around the channels rather than presented as a geographic map",
+      "imagery includes adults, children, handcarts, animals, and injured people carried on litters",
+      "some surviving directional composition suggests movement both toward and away from gates/passages",
+      "one route onward shows recent Black Host forcing and becomes the path toward the protected inner section"
+    ],
+    "runtime_note": "Nobody knows this chamber's original purpose. HARD REVEAL FIREWALL: do not identify the junction as an evacuation hub, transit station, shelter, Wayfinder node, network nexus, or any other confirmed function. Characters may offer multiple possibilities but must keep them explicitly provisional. Do not show geographic terrain, fire-from-the-sky imagery, a regional map, a map rubbing, or Wayfinder recognition; those belong to the post-Castellan mural. Do not make Torren recognize ancient infrastructure. The Card remains sealed and inert. No walking dialogue: nobody knows this route well enough to be an active guide. Let the visual clue land before dialogue interprets it."
+  },
+  "current_floor_state": {
+    "card_state": "sealed_and_inert",
+    "combat_party": ["cyanis", "ilyra", "torren"],
+    "maevra_party_status": "noncombat_traveling_companion",
+    "torren_party_status": "temporary_combat_ally",
+    "known_ruin_facts": [
+      "Black Host excavation is systematic",
+      "deeper ruin has active defenses",
+      "older structure predates Hollow Watch",
+      "original purpose remains unknown"
+    ]
+  },
+  "allowed_information_transfers": [],
+  "exact_line_anchors": [],
+  "max_beats": 24,
+  "production_cost_ceiling": "economical"
+}
