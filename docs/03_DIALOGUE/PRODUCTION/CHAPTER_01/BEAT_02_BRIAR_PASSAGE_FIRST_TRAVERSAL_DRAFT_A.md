@@ -16,7 +16,7 @@ Packed earth gives way to roots and older repair stone. Ditches appear, vanish b
 
 Maevra leads.
 
-The sealed Card remains with Cyanis and stays inert.
+Cyanis carries the recovered Card itself. It remains inert.
 
 A short distance into the trees, the road divides around a low ridge and rejoins beyond it.
 
@@ -346,7 +346,7 @@ Story state:
 - deeper southern travel visibly becomes less dependable and motivates seeking current local expertise without turning the route into a puzzle;
 - Torren Harth remains the immediate person Maevra intends to find;
 - no major Ancient mystery or boss payoff has been spent;
-- the Card remains sealed and inert.
+- Cyanis carries the intact Card itself and it remains inert.
 
 Traveling group:
 **Cyanis Dovaren + Ilyra Amarin + Maevra Solmar**
@@ -364,5 +364,7 @@ Next mandatory story beat:
 **Human-layer result:** route information is carried by choices, environment, a small argument, and selective dialogue rather than repeated explanations of reliability. Maevra is allowed to be socially alive while guiding; Cyanis and Ilyra do not both comment on every route fact.
 
 **Walking-dialogue result:** moving lines occur only while Maevra is materially guiding. Post-combat, marker, junction, and entry exchanges occur at stops.
+
+**Continuity result:** the Chapter-0 casing is gone. Cyanis is carrying the Card itself.
 
 **Story result:** all Beat-2 required progression remains intact; no retired route set piece or later Ancient payoff was restored.
