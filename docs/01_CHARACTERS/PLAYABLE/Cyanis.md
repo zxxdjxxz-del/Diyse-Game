@@ -1,9 +1,10 @@
-# Cyanis
+# Cyanis Dovaren
 
 **Status:** ACTIVE CHARACTER AUTHORITY  
 **Domain rule:** this folder owns character identity, biography, chronology, personality, relationship logic, ordinary-life behavior, and concise voice direction. Exact class mechanics live in `06_CLASSES_AND_ABILITIES`; Card/Prime mechanics in `07_CARDS`; exact visual authority lives in `14_ART_AND_VISUALS`; exact dialogue scripts live in `03_DIALOGUE`.
 
 ## Identity
+- Full name: **Cyanis Dovaren**
 - Age: **29**
 - Permanent party: **yes**
 - Join: **start**
@@ -11,7 +12,7 @@
 - Face: **Might**
 - Story Prime: **Last Sentinel**
 
-Do not infer or restore a surname from superseded migration files.
+**Naming lock:** Dovaren is Cyanis's canonical surname. Dialogue may use `Cyanis`, `Dovaren`, or `Cyanis Dovaren` according to relationship, formality, and scene context.
 
 ## Character core
 Cyanis is an active, practical leader whose authority is strongest when it remains accountable, reasoned, and voluntary rather than possessive.
