@@ -1,0 +1,73 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH01_BEAT04_HOLLOW_WATCH_APPROACH",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 — Beat 4 — Hollow Watch Approach",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
+  "scene_purpose": "Let Torren Harth demonstrate bounded field expertise by actively leading the party from Greenhollow toward Hollow Watch without using the obvious occupied route; visually establish the small cliff-side Yahtrean fort, Black Host occupation, excavation activity, and older buried construction before the party enters; preserve uncertainty about the garrison, excavation goal, and ancient structure.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Locked Chapter-1 geography",
+        "Locked travel / combat presentation",
+        "Beat 4 — Hollow Watch Approach"
+      ],
+      "role": "current_chapter_01_beat_04_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Torren.md",
+      "whole_file": true,
+      "role": "torren_character_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md",
+      "whole_file": true,
+      "role": "maevra_character_authority"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
+      "whole_file": true,
+      "role": "scene_construction_authoring_contract"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
+      "whole_file": true,
+      "role": "walking_dialogue_hard_lock"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Greenhollow north edge → Hollow Watch spur / old watch trail → approach overlook",
+    "area_phase": "guided_hostile_approach",
+    "dialogue_readiness": "AMBER",
+    "static_story_context_only": true,
+    "visible_environment": [
+      "the obvious watch road climbs directly toward the occupied fort and is avoided",
+      "Torren uses a less direct approach route that he knows only in bounded sections",
+      "Hollow Watch appears as a small Yahtrean cliff-side fort under established Black Host occupation",
+      "digging gear, spoil, winches, scaffolding or supply movement make active excavation visually clear",
+      "older buried masonry is exposed beneath or beside the later Yahtrean fort construction"
+    ],
+    "runtime_note": "Torren is actively leading the party, so limited moving dialogue is legal only when it is actual route guidance or immediate route observation. Most traversal remains gameplay/silence. HARD KNOWLEDGE BOUNDARY: Torren has not entered occupied Hollow Watch. He does not know the garrison's fate, what the Black Host is trying to reach, what lies beneath the fort, what the exposed older construction originally was for, or whether the Host has found anything. He may state what he directly observes and what he previously saw moving along the road, and he should mark inference as inference. Do not name Wayfinder. Do not spend the later Hollow Watch ancient/cartographic payoff here. The Card remains sealed and inert."
+  },
+  "current_floor_state": {
+    "traveling_group": ["cyanis", "ilyra", "maevra", "torren"],
+    "combat_party": ["cyanis", "ilyra", "torren"],
+    "maevra_party_status": "noncombat_traveling_companion",
+    "torren_party_status": "temporary_combat_ally_and_active_guide",
+    "card_state": "sealed_inert",
+    "known_hollow_watch_state": "black_host_occupation_confirmed_from_external_traffic_and_observation; digging_gear_seen_moving_up_spur; deeper facts_unknown"
+  },
+  "allowed_information_transfers": [],
+  "exact_line_anchors": [],
+  "max_beats": 22,
+  "production_cost_ceiling": "economical"
+}
