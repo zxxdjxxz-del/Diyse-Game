@@ -1,9 +1,10 @@
-# Nimera
+# Nimera Pellan
 
 **Status:** ACTIVE CHARACTER AUTHORITY  
 **Domain rule:** this folder owns character identity, biography, chronology, personality, relationship logic, ordinary-life behavior, and concise voice direction. Exact class mechanics live in `06_CLASSES_AND_ABILITIES`; Card/Prime mechanics in `07_CARDS`; exact visual authority lives in `14_ART_AND_VISUALS`; exact dialogue scripts live in `03_DIALOGUE`.
 
 ## Identity
+- Full name: **Nimera Pellan**
 - Age: **22**
 - Permanent party: **yes**
 - Join: **Chapter 3**
@@ -11,7 +12,7 @@
 - Face: **Memory**
 - Story Prime: **Last Scribe**
 
-Do not infer or restore a surname from superseded migration files.
+**Naming lock:** Pellan is Nimera's canonical surname. Dialogue may use `Nimera`, `Pellan`, or `Nimera Pellan` according to relationship, formality, and scene context.
 
 ## Character core
 Nimera is a serious records/Card/ancient-material specialist who is also curious, irreverent, profane, socially alive, and funny.
