@@ -1,0 +1,88 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH01_BEAT05_OCCUPIED_HOLLOW_WATCH_FORT",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 — Beat 5 — Occupied Hollow Watch Fort",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
+  "scene_purpose": "Penetrate the occupied Yahtrean surface fort; show the recent human cost of the Black Host takeover; confirm that the Hollow Watch garrison was killed; preserve Torren's bounded knowledge by making this the first time he learns the garrison's fate; demonstrate through physical staging that the Black Host treats the surface fort mainly as security/logistics for an organized excavation below; and deliver the party to the excavation access without spending the later ancient/cartographic reveals.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Locked Chapter-1 geography",
+        "Locked travel / combat presentation",
+        "Beat 5 — Occupied Hollow Watch Fort"
+      ],
+      "role": "current_chapter_01_beat_05_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Torren.md",
+      "whole_file": true,
+      "role": "torren_character_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md",
+      "whole_file": true,
+      "role": "cyanis_character_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md",
+      "whole_file": true,
+      "role": "ilyra_character_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md",
+      "whole_file": true,
+      "role": "maevra_character_authority"
+    },
+    {
+      "path": "docs/04_WORLD_AND_LORE/LIVED_WORLD_SOCIAL_CONTEXT.md",
+      "whole_file": true,
+      "role": "lived_world_context"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
+      "whole_file": true,
+      "role": "scene_construction_authoring_contract"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
+      "whole_file": true,
+      "role": "walking_dialogue_hard_lock"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Occupied Hollow Watch — Yahtrean surface fort",
+    "area_phase": "active_hostile_surface_penetration",
+    "dialogue_readiness": "RED_during_combat_AMBER_at_secured_stops",
+    "static_story_context_only": true,
+    "visible_environment": [
+      "small Yahtrean cliff fort only recently seized by the Black Host",
+      "Yahtrean bunks, storage, signal/watch infrastructure and ordinary fort life remain visible beneath Black Host occupation",
+      "Black Host field markings, guards and supply staging are layered over the existing fort rather than fully replacing it",
+      "excavation tools, rope, timber, braces, lamps, spoil and downward-moving supply traffic increasingly dominate the lower side of the fort",
+      "older fitted stone is visible where Black Host work has cut through or stripped later construction"
+    ],
+    "runtime_note": "No walking dialogue in ordinary fort traversal. Torren has never entered occupied Hollow Watch before this operation and does not know its present interior state. Use gameplay/silence during hostile movement and only speak at genuinely secured cells/stops. HARD KNOWLEDGE BOUNDARY: before the garrison discovery Torren does not know whether the garrison survived, fled, was captured or was killed. After the surface sweep, the party may know the garrison was killed because the scene/gameplay has actually confirmed it. Nobody yet knows what the Black Host is trying to reach, what lies beneath the fort, the ancient structure's purpose, the six-channel junction, the mural, Wayfinder significance, Prime identity or any ancient-network truth. The Card remains sealed/inert throughout Beat 5."
+  },
+  "current_floor_state": {
+    "combat_party": ["cyanis", "ilyra", "torren"],
+    "maevra_party_status": "noncombat_traveling_companion",
+    "torren_party_status": "temporary_combat_ally",
+    "garrison_fate_on_entry": "unknown_to_party",
+    "excavation_objective_on_entry": "unknown_to_party",
+    "card_state": "sealed_inert"
+  },
+  "allowed_information_transfers": [],
+  "exact_line_anchors": [],
+  "max_beats": 30,
+  "production_cost_ceiling": "economical"
+}
