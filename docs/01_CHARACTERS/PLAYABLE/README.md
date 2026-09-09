@@ -2,16 +2,16 @@
 
 This folder contains the six permanent-party character-authority files:
 
-- `Cyanis.md`
-- `Ilyra.md`
-- `Torren.md`
-- `Nimera.md`
-- `Vaelira.md`
-- `Seyrik.md`
+- `Cyanis.md` — **Cyanis Dovaren**
+- `Ilyra.md` — **Ilyra Amarin**
+- `Torren.md` — **Torren Harth**
+- `Nimera.md` — **Nimera Pellan**
+- `Vaelira.md` — **Vaelira Serren**
+- `Seyrik.md` — **Seyrik Rell**
 
 These files own biography/personality/relationship/voice shorthand, not exact class mechanics or detailed visual design.
 
-Do not recreate the deleted surname-bearing migration filenames. Current roster names are first-name-only unless a newer explicit authority changes them.
+Repository filenames remain first-name-only for stable path/runtime compatibility. That filename convention does **not** remove or retire the canonical surnames. Dialogue may use first name, surname, or full name according to relationship, rank/formality, and scene context.
 
 Cross-domain authority:
 - exact class mechanics → `docs/06_CLASSES_AND_ABILITIES/`
