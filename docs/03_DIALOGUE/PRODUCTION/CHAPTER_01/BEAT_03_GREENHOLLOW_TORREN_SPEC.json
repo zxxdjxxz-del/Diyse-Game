@@ -4,60 +4,27 @@
   "chapter_id": "chapter_01",
   "story_position": "Chapter 1 — Beat 3 — Greenhollow / Torren",
   "production_ready": false,
-  "participants": [
-    "cyanis",
-    "ilyra",
-    "maevra",
-    "torren"
-  ],
-  "scene_purpose": "Introduce Torren Harth in a functioning route community; make his long-standing familiarity with Maevra Solmar immediately legible without turning the scene into a reunion romance; demonstrate why Maevra sought his current route expertise while preserving that his knowledge is partial and ground-based; brief him only on the Card/Caelora facts he actually needs for travel; establish that the direct Greenhollow-Dunmere road is unavailable under Black Host control; and make Hollow Watch the condition Torren requires them to address before he will lead the deeper southern journey.",
+  "participants": ["cyanis", "ilyra", "maevra", "torren"],
+  "scene_purpose": "Introduce Torren Harth in a functioning route community; make his long-standing familiarity with Maevra Solmar immediately legible; demonstrate why Maevra sought his current route expertise; brief him only on the Card/Caelora facts needed for travel; establish that the direct Greenhollow-Dunmere road is unavailable under Black Host control; and make Hollow Watch the condition Torren requires them to address before the deeper southern journey.",
   "story_sources": [
     {
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
-      "sections": [
-        "Locked Chapter-1 geography",
-        "Locked travel / combat presentation",
-        "Beat 3 — Greenhollow / Torren"
-      ],
+      "sections": ["Beat 3 — Greenhollow / Torren"],
       "role": "current_chapter_01_beat_03_story_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
+      "whole_file": true,
+      "role": "current_card_physical_state_authority"
     }
   ],
   "additional_authority_sources": [
-    {
-      "path": "docs/01_CHARACTERS/PLAYABLE/Torren.md",
-      "whole_file": true,
-      "role": "torren_character_authority"
-    },
-    {
-      "path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md",
-      "whole_file": true,
-      "role": "maevra_character_authority"
-    },
-    {
-      "path": "docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md",
-      "whole_file": true,
-      "role": "permanent_relationship_language"
-    },
-    {
-      "path": "docs/04_WORLD_AND_LORE/LIVED_WORLD_SOCIAL_CONTEXT.md",
-      "whole_file": true,
-      "role": "lived_world_context"
-    },
-    {
-      "path": "docs/12_ECONOMY_AND_REWARDS/LIVED_ECONOMY_CONTEXT.md",
-      "whole_file": true,
-      "role": "lived_economy_context"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
-      "whole_file": true,
-      "role": "scene_construction_authoring_contract"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
-      "whole_file": true,
-      "role": "walking_dialogue_hard_lock"
-    }
+    {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "torren_character_authority"},
+    {"path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md", "whole_file": true, "role": "maevra_character_authority"},
+    {"path": "docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md", "whole_file": true, "role": "permanent_relationship_language"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_dialogue_method"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "invisible_knowledge_firewall"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"}
   ],
   "scene_context_seed": {
     "location_name": "Greenhollow route-board area",
@@ -65,12 +32,12 @@
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
     "visible_environment": [
-      "active route board used by travelers and local route workers",
-      "maintenance notes, closures and recent route corrections rather than a decorative map",
-      "ordinary cart, repair and travel activity continuing around the scene",
+      "active route board used by travelers and route workers",
+      "maintenance notes, closures, and fresh route corrections",
+      "ordinary cart, repair, supply, and travel activity continuing around the scene",
       "Torren is already doing practical route work when the group finds him"
     ],
-    "runtime_note": "This is a stop scene at Greenhollow. Do not convert it into walk-and-talk. Existing Maevra/Torren familiarity should read through shorthand, ease, attention and practical behavior rather than exposition about their romantic history. The Card stays sealed and does not flare in this beat. HARD KNOWLEDGE BOUNDARY: Torren knows the Black Host took Hollow Watch about a week ago and that excavation/digging gear has been going up the spur. He does NOT know the garrison's fate, what the Host is digging for, what lies beneath the fort, the Diysean ruin's purpose, or the ancient system. He has not been inside the occupied fort. He must NOT identify the southern route as Wayfinder yet; the post-Castellan mural is what later gives Wayfinder specific ancient significance. His Briar knowledge is partial/current-ground expertise, not an exact map in his head. The Card brief should be limited to what he needs to plan travel: sealed abnormal recovered Card, proximity/separation problem around Cyanis, Caelora destination, and Ilyra's travel/monitoring constraints."
+    "runtime_note": "This is a stop scene. Rehearse character behavior first; do not make Torren or Maevra verbalize canon boundaries. Existing Maevra/Torren familiarity should read through shorthand and ease. Cyanis carries the intact exposed Card itself; the Chapter-0 recovery casing is gone. Card remains inert. Torren knows the Black Host took Hollow Watch about a week ago and that digging/excavation gear has moved up the spur. He has not entered the occupied fort and does not know the garrison fate, excavation objective, older descent, or ancient purpose. He must not identify Wayfinder as the southern solution or ancient-important location before the later mural."
   },
   "current_floor_state": {
     "larger_destination": "Caelora",
@@ -78,7 +45,7 @@
     "combat_party_on_entry": ["cyanis", "ilyra"],
     "maevra_party_status": "noncombat_traveling_companion",
     "torren_party_status_on_entry": "not_yet_traveling_with_group",
-    "card_state": "sealed_with_cyanis"
+    "card_state": "intact_exposed_card_carried_by_cyanis_inert"
   },
   "allowed_information_transfers": [],
   "exact_line_anchors": [],
