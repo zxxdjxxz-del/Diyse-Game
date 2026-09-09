@@ -1,16 +1,17 @@
-# Maevra
+# Maevra Solmar
 
 **Status:** ACTIVE SUPPORTING-CHARACTER AUTHORITY  
 **Domain rule:** this folder owns character identity, biography, chronology, personality, relationship logic, ordinary-life behavior, mannerisms, and concise voice direction. Exact gameplay mechanics live in their owning system domains; exact visual authority lives in `14_ART_AND_VISUALS`.
 
 ## Identity
+- Full name: **Maevra Solmar**
 - Age: **41**
 - Role: recurring allied Yahtrean commander
 - Party status: **fully non-playable supporting NPC; never a guest party member and never a seventh permanent member**
 - Origin: Caeloran
 - Torren chronology: joined/trained in Royal Army life at 16 while Torren was 17, 25 years before Ch0
 
-Do not infer or restore a surname from superseded migration files.
+**Naming lock:** Solmar is Maevra's canonical surname. Dialogue may use `Maevra`, `Solmar`, `Maevra Solmar`, or earned personal shorthand according to relationship, rank/formality, and scene context.
 
 ## Playability lock
 Maevra may travel with, command around, rescue, brief, reinforce, or otherwise intersect with the protagonists in authored story scenes, but she does **not** enter the commandable battle formation at any point.
@@ -34,7 +35,7 @@ Existing compatible authority preserves:
 - mother **Irena** — retired magistrate;
 - father — Royal Army quartermaster; died from ordinary illness, not conspiracy/war.
 
-No family surname is established by this file; do not reconstruct one from the retired migration name.
+The family surname is **Solmar**. Do not invent alternate family names from retired migration branches.
 
 ## Ordinary-life texture
 Maevra has a fully adult off-duty life.
@@ -79,7 +80,7 @@ Compatible recurring behavior includes:
 - exhaustion lowers her shoulders, heavies the eyes, and reduces verbal filtering;
 - private/off-duty presentation may be partial armor or simpler clothing where appropriate.
 
-Older surname/rank-specific address habits must be filtered through current name authority rather than restored literally.
+Surname/rank-specific address is valid when supported by the current relationship and institutional context; do not mechanically reproduce obsolete rank/address habits from older branches.
 
 ## Torren relationship
 Torren and Maevra:
@@ -91,7 +92,7 @@ Torren and Maevra:
 Their mature principle is:
 > movement and return, not confinement.
 
-Do not restore surname-based forms of address from superseded migration material. Current personal address progression may use **Torren / Maevra → T / Mae** where earned by context.
+Personal address progression may use **Torren / Maevra → T / Mae** where earned by context; surnames remain available in formal/professional contexts.
 
 ## Wider relationship behavior
 - **Cyanis** — professional peer to playful professional friendship; she respects adaptability and dislikes his tendency to absorb responsibility too quickly.
