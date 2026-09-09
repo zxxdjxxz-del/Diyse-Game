@@ -7,7 +7,7 @@ current owning Markdown sections that matter for the scene. The compiler then:
 - extracts exact Markdown sections without silently widening to the whole file;
 - packages current participant character authority;
 - verifies any preserved exact-line anchor against a current 03_DIALOGUE source;
-- fingerprints every source and the resulting bundle;
+- fingerprints every source, participant profile, scene spec, and resulting bundle;
 - emits a request object accepted by the current Dialogue Scene Orchestrator.
 
 The compiler does not invent live gameplay state, map state, encounter pressure, memories,
@@ -27,7 +27,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[2]
 SPEC_SCHEMA = "diyse_scene_authority_spec_v1"
 AUTHORITY_PACKET_SCHEMA = "diyse_scene_authority_packet_v1"
-COMPILER_VERSION = "1.0.0"
+COMPILER_VERSION = "1.1.0"
 
 CANON_STATUS_PATH = "docs/00_MASTER_CONTROL/CURRENT_CANON_STATUS.md"
 
@@ -114,6 +114,11 @@ FORBIDDEN_AUTHORITY_PREFIXES = (
     "docs/chapters/",
 )
 
+FORBIDDEN_AUTHORITY_PATHS = {
+    # This current file is an index of historical exact-source provenance, not scene authority.
+    "docs/03_DIALOGUE/EXACT_SOURCE_MANIFEST.md",
+}
+
 
 class CompileError(RuntimeError):
     pass
@@ -146,6 +151,8 @@ def _normalize_repo_path(value: str) -> str:
     normalized = path.as_posix()
     if not normalized.startswith("docs/"):
         raise CompileError(f"Authority source must live under docs/: {normalized}")
+    if normalized in FORBIDDEN_AUTHORITY_PATHS:
+        raise CompileError(f"Historical provenance index is not scene authority: {normalized}")
     for prefix in FORBIDDEN_AUTHORITY_PREFIXES:
         if normalized.startswith(prefix):
             raise CompileError(
@@ -281,6 +288,18 @@ def _compile_participant_profiles(
     return profiles
 
 
+def _participant_profile_fingerprints(
+    profiles: dict[str, dict[str, Any]],
+) -> dict[str, dict[str, str]]:
+    return {
+        cid: {
+            "source_path": str(profile["source_path"]),
+            "file_sha256": str(profile["file_sha256"]),
+        }
+        for cid, profile in sorted(profiles.items())
+    }
+
+
 def _compile_exact_anchors(
     root: Path,
     spec: dict[str, Any],
@@ -346,6 +365,12 @@ def validate_spec(spec: dict[str, Any]) -> None:
     if not str(spec.get("scene_purpose", "")).strip():
         raise CompileError("scene_purpose is required")
 
+    continuity_namespace = str(spec.get("continuity_namespace", "story"))
+    if continuity_namespace not in {"story", "sandbox"}:
+        raise CompileError("continuity_namespace must be story or sandbox")
+    if "production_ready" in spec and not isinstance(spec["production_ready"], bool):
+        raise CompileError("production_ready must be a bool")
+
     participants = spec.get("participants")
     if not isinstance(participants, list) or not participants:
         raise CompileError("participants must be a non-empty list")
@@ -370,7 +395,10 @@ def validate_spec(spec: dict[str, Any]) -> None:
     if not isinstance(spec.get("allowed_information_transfers", []), list):
         raise CompileError("allowed_information_transfers must be a list")
 
-    max_beats = int(spec.get("max_beats", 18))
+    try:
+        max_beats = int(spec.get("max_beats", 18))
+    except (TypeError, ValueError) as exc:
+        raise CompileError("max_beats must be an integer") from exc
     if max_beats < 1 or max_beats > 32:
         raise CompileError("max_beats must be between 1 and 32")
     if str(spec.get("production_cost_ceiling", "economical")) not in {
@@ -415,21 +443,26 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
 
     source_map = _character_source_map(spec)
     participant_profiles = _compile_participant_profiles(root, participants, source_map)
+    participant_fingerprints = _participant_profile_fingerprints(participant_profiles)
     anchors, anchor_provenance = _compile_exact_anchors(root, spec, participants)
     source_records.extend(anchor_provenance)
 
+    spec_sha256 = _sha256_text(_canonical_json(spec))
     authority_packet: dict[str, Any] = {
         "schema": AUTHORITY_PACKET_SCHEMA,
         "compiler_version": COMPILER_VERSION,
         "canon_snapshot_id": canon_snapshot_id,
         "scene_id": spec["scene_id"],
         "chapter_id": spec["chapter_id"],
+        "scene_spec_sha256": spec_sha256,
+        "participant_profile_sources": participant_fingerprints,
         "source_records": source_records,
         "compiler_guards": {
             "active_docs_only": True,
             "archive_sources_rejected": True,
             "working_sources_rejected": True,
             "historical_line_complete_sources_rejected": True,
+            "historical_exact_source_manifest_rejected": True,
             "exact_anchors_require_current_03_dialogue_proof": True,
             "missing_markdown_section_is_fatal": True,
             "no_silent_whole_file_fallback": True,
@@ -489,7 +522,7 @@ def compile_spec_file(path: Path, root: Path = ROOT) -> dict[str, Any]:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("spec", type=Path, help="Path to diysе_scene_authority_spec_v1 JSON")
+    parser.add_argument("spec", type=Path, help="Path to diyse_scene_authority_spec_v1 JSON")
     parser.add_argument("--output", "-o", type=Path, help="Write compiled JSON to this path")
     parser.add_argument("--compact", action="store_true", help="Emit compact JSON")
     args = parser.parse_args(argv)
