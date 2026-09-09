@@ -1,0 +1,48 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "PROOF_CH1_BRACKENWALL_PROTOCOL",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 — Brackenwall / Protocol",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra"
+  ],
+  "scene_purpose": "Carry the Chapter-0 Card incident into Chapter 1, establish Caelora as the larger destination, establish Greenhollow and Torren as the immediate objective, and establish Maevra as the commander taking responsibility for the anomaly.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Locked Chapter-1 geography",
+        "Locked travel / combat presentation",
+        "Beat 1 — Brackenwall / Protocol"
+      ],
+      "role": "chapter_01_brackenwall_protocol"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/04_WORLD_AND_LORE/LIVED_WORLD_SOCIAL_CONTEXT.md",
+      "whole_file": true,
+      "role": "lived_world_context"
+    },
+    {
+      "path": "docs/12_ECONOMY_AND_REWARDS/LIVED_ECONOMY_CONTEXT.md",
+      "whole_file": true,
+      "role": "lived_economy_context"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Brackenwall",
+    "area_phase": "safe_hub",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "runtime_note": "Recent combat pressure, fatigue, injuries, exact field position and live encounter state must be supplied at build time if relevant."
+  },
+  "current_floor_state": {},
+  "allowed_information_transfers": [],
+  "exact_line_anchors": [],
+  "max_beats": 18,
+  "production_cost_ceiling": "economical"
+}
