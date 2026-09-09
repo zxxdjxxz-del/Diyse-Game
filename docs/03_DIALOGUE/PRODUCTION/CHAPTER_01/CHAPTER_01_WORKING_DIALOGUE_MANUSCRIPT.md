@@ -1259,13 +1259,17 @@ He looks to Cyanis and Ilyra.
 
 **TORREN:** Yes.
 
-**CYANIS:** Good. Apparently that's allowed.
+**CYANIS:** Good. I was hoping one of us knew where we were going.
 
-Torren has no idea what that means.
+**TORREN:** You made it here.
 
-**TORREN:** What?
+**CYANIS:** Maevra did.
 
-**MAEVRA:** Nothing.
+Torren looks at Maevra.
+
+**TORREN:** Good answer.
+
+**MAEVRA:** He's learning.
 
 She starts away from the board.
 
