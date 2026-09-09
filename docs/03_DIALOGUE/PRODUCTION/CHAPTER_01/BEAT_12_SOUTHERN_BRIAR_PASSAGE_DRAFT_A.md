@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 12
 # Southern Briar Passage
-## DIALOGUE ENGINE PRODUCTION DRAFT A — awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT B — awaiting user approval
 
 ---
 
@@ -29,25 +29,23 @@ Torren stops at the last maintained route marker.
 Two roads are still clearly used.
 Beyond them, older traces disappear into heavier growth.
 
-He looks at the ground for several seconds.
-
-Cyanis waits.
-
-**CYANIS:** Which one?
-
-Torren points south-east.
+He studies the ground, then points south-east.
 
 **TORREN:** That one.
 
-**CYANIS:** Confident.
+Cyanis looks between the two roads.
 
-**TORREN:** About the first mile.
+**CYANIS:** Why?
 
-Cyanis looks at Maevra.
+Torren points to the shallow drainage beside the southern track.
 
-**CYANIS:** He really is your friend.
+**TORREN:** Water's moving. Cart marks are fresh. Other road's holding it.
 
-**MAEVRA:** I warned you.
+Cyanis looks at the standing water on the western branch.
+
+**CYANIS:** That's much less mysterious than I expected.
+
+**MAEVRA:** Give him time.
 
 Torren starts down the road.
 
@@ -65,7 +63,7 @@ The maintained road gives way gradually.
 
 Wheel ruts thin.
 Old retaining stones appear at irregular intervals beneath roots.
-A shallow drainage cut runs beside the route, disappears beneath growth, and returns fifty yards later.
+A shallow drainage cut runs beside the route, disappears beneath growth, and returns farther down.
 
 Torren keeps the group on the higher side of the track.
 
@@ -77,27 +75,13 @@ The ground there appears flatter.
 
 **CYANIS:** Left looks easier.
 
-**TORREN:** It is.
-
-A beat.
-
-**TORREN:** Until it drops into the wash.
+**TORREN:** Wash runs under it.
 
 Cyanis shifts right.
 
-Ilyra looks at the barely visible depression beneath the leaves.
+Ilyra glances at the leaf-covered depression and steps where Torren stepped.
 
-**ILYRA:** How deep?
-
-Torren glances toward it.
-
-**TORREN:** Today?
-
-He shakes his head.
-
-**TORREN:** Don't know.
-
-That is the entire exchange.
+No further conversation is needed.
 
 The route settles into ordinary exploration.
 
@@ -144,61 +128,45 @@ No marker announces its purpose.
 
 Torren pushes one hanging branch aside with the end of his bow.
 
-Looks into the darkness for a few seconds.
+**TORREN:** Old cut.
 
-Then lets the branch fall back.
+Maevra looks at the stone lining.
 
-**CYANIS:** Route?
+**MAEVRA:** Still used?
 
-**TORREN:** Used to be something.
+Torren lets the branch fall back.
 
-Cyanis looks at the stone lining.
+**TORREN:** Not lately.
 
-**CYANIS:** Helpful.
+Cyanis peers through the growth.
 
-Torren points at the growth filling the entrance.
+**CYANIS:** Tempting.
 
-**TORREN:** I can tell you it goes into the hill.
+**ILYRA:** No, it isn't.
 
-Then at the usable road continuing south-east.
+**CYANIS:** I was trying to be adventurous.
 
-**TORREN:** I can tell you we're not going that way.
+Torren points down the open road.
 
-Ilyra looks at the opening.
+**TORREN:** Be adventurous southeast.
 
-**ILYRA:** Because?
+Cyanis looks at him.
 
-**TORREN:** Because it's choked, I don't know where it comes out, and Dunmere isn't in that direction.
+**CYANIS:** That's where Dunmere is.
 
-A beat.
+**TORREN:** Convenient.
 
-**ILYRA:** Good reasons.
+Maevra gives the blocked opening one last look.
 
-**TORREN:** I try to collect those.
+**MAEVRA:** You've passed this before?
 
-Maevra looks at the old stone.
+**TORREN:** Plenty.
 
-**MAEVRA:** Seen it before?
+**MAEVRA:** Never took it?
 
-Torren nods.
+**TORREN:** No reason to.
 
-**TORREN:** From the road.
-
-**MAEVRA:** Ever been in?
-
-**TORREN:** No.
-
-Immediate.
-
-**TORREN:** Never had a reason.
-
-Cyanis looks once more at the opening.
-
-Nothing about it suggests urgency.
-
-**CYANIS:** Then we keep the good reasons.
-
-Torren points down the actual route.
+He starts back toward the usable road.
 
 **TORREN:** This way.
 
@@ -248,79 +216,43 @@ Several more prints continue through the brush rather than along the road.
 
 Torren crouches.
 
-He studies them.
-
-Does not immediately name the animal.
-
-Cyanis waits.
+Cyanis looks down at the track.
 
 **CYANIS:** Big.
 
-**TORREN:** Yes.
+**TORREN:** Briarhide.
 
-**CYANIS:** That's the expert reading?
+Maevra looks at the depth of the print.
 
-**TORREN:** You got there first.
+**MAEVRA:** Big Briarhide.
 
-Maevra folds her arms.
+**TORREN:** Very.
 
-**MAEVRA:** Try harder.
+He checks the next print, then the torn brush beyond it.
 
-Torren looks at the spacing between prints.
+**TORREN:** Moving clean. No drag. No limp.
 
-Then at one damaged patch of brush where the animal pushed through without going around it.
+Ilyra looks into the brush.
 
-**TORREN:** Heavy. Moving clean. Not limping.
+**ILYRA:** Fresh?
 
-Ilyra looks toward the brush.
+Torren points to the wet edge of the track.
 
-**ILYRA:** Recent?
-
-Torren touches the edge of the print.
-
-**TORREN:** Since morning.
-
-He looks up at the canopy.
-
-Then at the wet soil.
-
-**TORREN:** Probably.
-
-Cyanis nods.
-
-No one asks him to remove the qualifier.
-
-**CYANIS:** What makes that size of track around here?
-
-Torren stands.
-
-**TORREN:** Briarhide can.
-
-Maevra looks toward the brush.
-
-**MAEVRA:** Can?
-
-**TORREN:** Large one.
-
-He looks at the next print.
-
-**TORREN:** I haven't seen the animal yet.
+**TORREN:** Crossed after the rain stopped.
 
 Cyanis adjusts his shield strap.
 
-**CYANIS:** So we know something large crossed the road.
+**CYANIS:** And where does a very large Briarhide usually go after crossing our road?
 
-**TORREN:** Correct.
+Torren stands.
 
-**CYANIS:** And it might be a Briarhide.
-
-**TORREN:** Correct.
+**TORREN:** Wherever it wants.
 
 A beat.
 
-**CYANIS:** I'm getting good at this.
+**CYANIS:** There he is.
 
-**TORREN:** Low bar.
+**MAEVRA:** You asked.
 
 The party moves on.
 
@@ -350,7 +282,7 @@ At a narrow rise, Torren raises a hand and the group stops.
 
 ---
 
-### [STOP — STRONGER READ]
+### [STOP — FEEDING SITE]
 
 Below the rise, a deer-sized animal lies partly hidden beneath fern and thorn.
 
@@ -363,63 +295,43 @@ Used as food.
 
 Torren looks at the drag path leading from the lower trail.
 
-**TORREN:** Same size class.
+Then the bite spacing near the shoulder.
+
+**TORREN:** Same animal.
 
 Cyanis looks at the carcass.
 
-**CYANIS:** Still "might be"?
+**CYANIS:** Cheerful.
 
-Torren studies the bite spacing and the track beside it.
+Ilyra stays uphill from the remains.
 
-**TORREN:** Briarhide.
+**ILYRA:** Strong enough to move that far?
 
-Cyanis glances at him.
+Torren points back along the drag scar climbing through the brush.
 
-Torren points to the paired scoring near the shoulder.
-
-**TORREN:** That part I know.
-
-Ilyra looks at the carcass without approaching it.
-
-**ILYRA:** Healthy predator?
-
-Torren looks at her.
-
-**TORREN:** From this?
-
-**ILYRA:** Fair.
-
-Torren looks at the amount eaten and the trail away.
-
-**TORREN:** Strong enough to drag that uphill.
+**TORREN:** Uphill.
 
 Maevra looks toward the route ahead.
 
-**MAEVRA:** Does that change our road?
+**MAEVRA:** We staying on the road?
 
-Torren studies the surrounding ground.
+Torren studies the saddle below, then a higher side trace.
 
-Not the animal.
+**TORREN:** Not through the feeding site.
 
-The road drops south-east through a narrow wooded saddle.
+He points uphill.
 
-**TORREN:** Maybe.
+**TORREN:** We take that and rejoin after the bend.
 
-He points to a higher side trace.
-
-**TORREN:** We can take that for a while.
-
-Cyanis looks at the steeper route.
+Cyanis looks at the steeper line.
 
 **CYANIS:** Worse road.
 
-**TORREN:** Better than walking through a feeding site.
+**TORREN:** Better company.
 
-**CYANIS:** Good reason.
+Cyanis looks once at the carcass.
 
-Torren gives him a short look.
-
-**TORREN:** You're collecting them too.
+**CYANIS:** Sold.
 
 The group takes the higher trace.
 
@@ -429,13 +341,13 @@ The group takes the higher trace.
 
 Torren actively leads the party around the immediate feeding area.
 
-This is a legal walking-dialogue window, but only route guidance is used.
+This is a legal walking-dialogue window, but only immediate route guidance is used.
 
 **TORREN:** Keep off the loose edge.
 
 Later:
 
-**TORREN:** Step where I step through this part.
+**TORREN:** Step where I step here.
 
 The trace narrows around exposed stone.
 
@@ -482,59 +394,39 @@ No Ancient clue activates in Briar Passage.
 
 At a natural break in the trees, Torren stops.
 
-Not because the route is uncertain.
+The formation is finally visible well enough to compare.
 
-Because the formation is finally visible well enough to compare.
+Maevra looks from it to Torren.
 
-He looks at it for several seconds.
-
-Maevra watches him.
-
-**MAEVRA:** Same shape?
+**MAEVRA:** Same one?
 
 Torren keeps looking.
 
-**TORREN:** Looks like it.
+**TORREN:** Yeah.
 
 Cyanis studies the distant structure.
 
 **CYANIS:** Wayfinder.
 
-**TORREN:** Modern name, yes.
+Torren nods.
 
-**CYANIS:** And the mural?
+Ilyra follows the modern road with her eyes until trees cut it off again.
 
-Torren shakes his head.
+**ILYRA:** We were already going past it.
 
-**TORREN:** Mural showed the shape.
+Torren points to the lower ridge.
 
-A beat.
+**TORREN:** Road bends under that shoulder.
 
-**TORREN:** That's all I've got.
+Cyanis looks at the old formation again.
 
-Ilyra looks at the route below them.
+**CYANIS:** Convenient twice in one day.
 
-**ILYRA:** We were already going past it?
+**MAEVRA:** Don't get used to it.
 
-Torren traces the modern road with his eyes.
+Torren starts down from the overlook.
 
-**TORREN:** Near it.
-
-Then:
-
-**TORREN:** Assuming this lower section still joins where it used to.
-
-Cyanis looks at him.
-
-**CYANIS:** You waited almost a full minute.
-
-**TORREN:** For what?
-
-**CYANIS:** The qualifier.
-
-Torren starts walking again.
-
-**TORREN:** Getting complacent.
+**TORREN:** Come on.
 
 The stop ends.
 
@@ -600,13 +492,7 @@ Cyanis raises his shield slowly.
 
 Torren does not draw yet.
 
-**CYANIS:** That's your Briarhide.
-
-**TORREN:** Yes.
-
-Cyanis keeps his eyes on it.
-
-**CYANIS:** Large one.
+**CYANIS:** That's big even by your standards, right?
 
 **TORREN:** Yes.
 
@@ -614,24 +500,15 @@ Maevra looks from the animal to the route ahead.
 
 The usable road bends through the same lower shelf.
 
-**MAEVRA:** Can we go around?
+**MAEVRA:** Around?
 
-Torren looks at the terrain without taking his eyes fully off the Stalker.
-
-A steep wall rises on one side.
-Dense broken ground drops away on the other.
+Torren checks the steep wall above and the broken ground below.
 
 **TORREN:** Not cleanly.
 
 Ilyra watches the animal's stance.
 
-**ILYRA:** Is it defending the kill?
-
-Torren looks toward the brush behind it.
-
-No carcass is visible.
-
-**TORREN:** Don't know.
+**ILYRA:** It's watching the road.
 
 The Stalker takes one slow step sideways.
 
@@ -639,17 +516,13 @@ Not retreating.
 
 Keeping the party in view.
 
-Torren's bow comes off his back now.
+Torren's bow comes off his back.
 
-**TORREN:** Doesn't matter much if it keeps the road.
+**TORREN:** Then we treat the road like it's occupied.
 
 Cyanis glances toward the distant Wayfinder formation through the trees.
 
 Then back to the animal.
-
-**CYANIS:** That's our route.
-
-**TORREN:** Yes.
 
 The Stalker disappears into the brush.
 
@@ -667,41 +540,27 @@ The party stays where they are.
 
 Torren studies the brush line.
 
-**MAEVRA:** Still want the road?
+**MAEVRA:** Options?
 
-**TORREN:** Want isn't doing much work here.
-
-He looks at the slope above.
-
-Then the broken descent below.
+Torren points uphill.
 
 **TORREN:** High side turns into exposed rock.
 
-Then the lower side.
+Then downhill.
 
-**TORREN:** Low side loses the route entirely.
+**TORREN:** Low side drops us off the route.
 
 Cyanis looks down the road where the Stalker vanished.
 
-**CYANIS:** So we have one usable line.
+**CYANIS:** So through.
 
-**TORREN:** Looks that way.
+Torren nocks an arrow.
 
-Cyanis waits.
-
-Torren looks at him.
-
-**TORREN:** From here.
-
-Cyanis nods.
-
-**CYANIS:** There it is.
+**TORREN:** Through.
 
 Ilyra checks the distance between them and the brush.
 
 **ILYRA:** If it comes back, we don't let it choose the first hit.
-
-Torren nocks an arrow.
 
 **TORREN:** Agreed.
 
@@ -735,7 +594,7 @@ Story state:
 - The party has now received a clear sighting of the Briarhide Stalker.
 - The Stalker is a naturally occurring wild beast with no corruption, control, Black Host equipment, special device, ritual condition, or supernatural affliction.
 - The real Wayfinder formation has become increasingly recognizable and visually matches the prominent southern formation from the Hollow Watch mural.
-- Nobody knows why Wayfinder mattered to the ancient mural.
+- The party has not learned Wayfinder's ancient function.
 - The party's usable route toward Wayfinder crosses the Stalker's current territory / position.
 - The Card remains sealed and inert.
 
@@ -752,7 +611,10 @@ Next mandatory story beat:
 ## Canon / Dialogue Engine self-check
 
 **PASS — Torren guide role**
-Torren leads through actual local-ground expertise but repeatedly limits himself to what he can see, remember, or reasonably infer. He does not know every modern route condition and does not acquire Ancient-system knowledge.
+Torren's expertise is visible through route choices, field reads, and practical decisions. The draft does not make uncertainty itself his conversational gimmick.
+
+**PASS — invisible knowledge firewall**
+Characters never gain future information, but the dialogue no longer repeatedly performs that fact for the audience. Unknowns are carried mainly by omission, silence, ordinary incomplete evidence, and the author-side canon check.
 
 **PASS — walking-dialogue lock**
 Moving dialogue appears only while Torren is genuinely leading and is restricted to route guidance / immediate route observation. Longer exchanges occur at real stops.
@@ -764,7 +626,7 @@ The side access is visible, old, stone-lined, overgrown, and impractical. It is 
 All evidence is ordinary predator evidence. The Stalker is dangerous because it is a large powerful native beast, not because of corruption, possession, control, equipment, or a special condition.
 
 **PASS — Wayfinder setup**
-The real formation becomes recognizable from a distance and matches the mural visually, but its ancient significance remains unknown. No new Ancient-system answer is delivered in Briar Passage.
+The real formation becomes recognizable from a distance and matches the mural visually, but no new Ancient-system answer is delivered in Briar Passage.
 
 **PASS — economical HD-2D staging**
 The beat relies on route geometry, vegetation, tracks, carcass/environment props, horizon reveals, B00 model stops/facing, restrained portraits, ordinary creature staging, and one clear pre-boss sighting. No one-use cinematic machinery or expensive bespoke cutscene is required.
