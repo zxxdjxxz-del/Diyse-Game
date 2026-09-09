@@ -24,8 +24,8 @@ If nobody is actively guiding/leading the party, use gameplay/silence or an actu
 
 | Chapter | Current dialogue status |
 |---|---|
-| Ch0 | **COMPLETE / APPROVED / LOCKED. Current production manuscript is P01–P07 + optional C01 `Six Minutes`; it was authored through the Dialogue Engine and remains exact current dialogue authority.** |
-| Ch1 | **ACTIVE PRODUCTION — current working manuscript maintained under `PRODUCTION/CHAPTER_01/`; Beat 1 drafted, Beat 2 revised under the walking-dialogue lock.** |
+| Ch0 | **COMPLETE / APPROVED / LOCKED, with the explicit casing-continuity correction applied: the recovery casing breaks during P06; the Card survives intact and is carried directly from then onward.** |
+| Ch1 | **ACTIVE PRODUCTION — rehearsal-first rebuild in progress under `PRODUCTION/CHAPTER_01/`; Beats 1–12 are being reviewed in order before Beat 13 advances.** |
 | Ch2 | pending current Dialogue Engine production |
 | Ch3 | pending current Dialogue Engine production; existing explicit line anchors remain binding where applicable |
 | Ch4 | pending current Dialogue Engine production under current restructured story authority |
@@ -48,10 +48,20 @@ Current production facts include:
 - Cyanis Dovaren / Ilyra Amarin surname usage is valid current dialogue authority;
 - P06 is the combined **Riftmaw + Convoy War-Sorcerer** final boss encounter;
 - the injured Iron Cohort Soldier is not part of that encounter;
+- **the recovery casing breaks during P06 after the second incomplete Card response is active; the Card itself remains intact**;
+- from the casing break onward, P07 / cleanup / C01 / departure use the **Card itself**, not a sealed casing;
 - C01 is `Six Minutes` with the bitterleaf scene;
 - Chapter 0 advances only through the explicit departure toward Brackenwall after the cleanup window.
 
-The current locked Chapter-0 manuscript is the control/authority for Chapter-0 wording. Experimental comparison files under `03_DIALOGUE/EXPERIMENTS/` do not supersede it.
+The locked Chapter-0 manuscript remains the control for all unchanged wording. The explicit exact continuity overlay is:
+
+`PRODUCTION/CHAPTER_00/CHAPTER_00_CASING_CONTINUITY_EXACT_PATCH.md`
+
+The owning story correction is:
+
+`../02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md`
+
+Together, the locked manuscript plus this narrow user-approved patch are current exact Chapter-0 dialogue authority. The patch does **not** reopen unrelated Chapter-0 lines. Experimental comparison files under `03_DIALOGUE/EXPERIMENTS/` do not supersede them.
 
 ## Exact line anchors outside completed locked scenes
 Current examples:
