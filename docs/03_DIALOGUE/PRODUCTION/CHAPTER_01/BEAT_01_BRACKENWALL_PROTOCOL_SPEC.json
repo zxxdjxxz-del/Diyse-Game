@@ -1,0 +1,69 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH01_BEAT01_BRACKENWALL_PROTOCOL",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 — Beat 1 — Brackenwall / Protocol",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "brackenwall_custody_officer"
+  ],
+  "participant_profile_sources": {
+    "brackenwall_custody_officer": "docs/01_CHARACTERS/SUPPORTING/Chapter_01_Brackenwall_Role_Profiles.md"
+  },
+  "scene_purpose": "Carry the Chapter-0 Card incident into Chapter 1, demonstrate a new proximity-related custody anomaly during a reasonable formal transfer attempt, establish Maevra Solmar as the commander taking responsibility, set Caelora as the larger destination, and set Greenhollow/Torren Harth as the immediate objective.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Locked Chapter-1 geography",
+        "Locked travel / combat presentation",
+        "Beat 1 — Brackenwall / Protocol"
+      ],
+      "role": "current_chapter_01_beat_01_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/04_WORLD_AND_LORE/LIVED_WORLD_SOCIAL_CONTEXT.md",
+      "whole_file": true,
+      "role": "lived_world_context"
+    },
+    {
+      "path": "docs/12_ECONOMY_AND_REWARDS/LIVED_ECONOMY_CONTEXT.md",
+      "whole_file": true,
+      "role": "lived_economy_context"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
+      "whole_file": true,
+      "role": "scene_construction_authoring_contract"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Brackenwall",
+    "area_phase": "safe_working_hub",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "visible_environment": [
+      "Brackenwall is active and functioning rather than devastated",
+      "wounded/recovery traffic from the Broken Convoy may still be present as background life",
+      "formal artifact intake occurs in a practical fortified-hub workspace rather than a grand ceremonial chamber",
+      "the recovered Card remains sealed"
+    ],
+    "runtime_note": "Chapter 0 has just ended by explicit departure to Brackenwall. Preserve continuity that Cyanis and Ilyra have already experienced two incomplete Card responses and Ilyra has monitored Cyanis during/after them. Do not add a third protective flare; this beat's new anomaly is proximity/separation behavior during attempted custody transfer."
+  },
+  "current_floor_state": {
+    "card_state": "sealed_with_cyanis_after_two_incomplete_chapter_0_responses",
+    "party_state": "cyanis_and_ilyra_permanent_combat_pair",
+    "maevra_party_status": "noncombat_traveling_companion_after_beat",
+    "destination_before_review": "Brackenwall_arrival",
+    "chapter_1_started": true
+  },
+  "allowed_information_transfers": [],
+  "exact_line_anchors": [],
+  "max_beats": 30,
+  "production_cost_ceiling": "economical"
+}
