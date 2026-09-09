@@ -1,0 +1,63 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "EXP_CH00_C01_SIX_MINUTES_ENGINE_TRIAL",
+  "chapter_id": "chapter_00",
+  "story_position": "Chapter 0 Cleanup — C01 — Six Minutes",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra"
+  ],
+  "scene_purpose": "Test the Dialogue Engine's ordinary-life/comedy layer after the Broken Convoy crisis: Cyanis mistakes bitterleaf for a drink ingredient, Ilyra stops him, both discover the other has also neglected food/rest, and they negotiate a short period of doing nothing useful without turning the exchange into therapy, romance or plot exposition.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_00.md",
+      "sections": [
+        "Chapter-end transition",
+        "C01 — Six Minutes"
+      ],
+      "role": "current_chapter_00_c01_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/04_WORLD_AND_LORE/LIVED_WORLD_SOCIAL_CONTEXT.md",
+      "whole_file": true,
+      "role": "lived_world_context"
+    },
+    {
+      "path": "docs/12_ECONOMY_AND_REWARDS/LIVED_ECONOMY_CONTEXT.md",
+      "whole_file": true,
+      "role": "lived_economy_context"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
+      "whole_file": true,
+      "role": "scene_construction_authoring_contract"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Chapter-0 overnight field camp at the stabilized relay/wreck area",
+    "area_phase": "quiet_cleanup_camp",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "visible_environment": [
+      "small brazier or camp heat source",
+      "minimal guard presence",
+      "practical supplies left near the relay",
+      "sealed recovered Card remains inert",
+      "most of the convoy has already departed"
+    ],
+    "runtime_note": "A deployed run may add live fatigue/injury state, but must not invent new Chapter-0 combat or make the Card react during C01. The locked manuscript is the A/B control, not an exact-line source."
+  },
+  "current_floor_state": {
+    "chapter_0_main_crisis": "complete",
+    "card_state": "sealed_inert",
+    "party_state": "cyanis_and_ilyra_permanent_combat_pair",
+    "chapter_1_started": false
+  },
+  "allowed_information_transfers": [],
+  "exact_line_anchors": [],
+  "max_beats": 24,
+  "production_cost_ceiling": "economical"
+}
