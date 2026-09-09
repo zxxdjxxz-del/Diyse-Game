@@ -10,7 +10,7 @@
     "maevra",
     "torren"
   ],
-  "scene_purpose": "Let Torren fully perform the guide role he has now accepted; make southern Briar Passage a substantial playable route region rather than a connective corridor; establish the overgrown old side access that will only become meaningful after Wayfinder; build the Briarhide Stalker as a naturally occurring powerful predator through bounded field evidence and a later clear sighting; and carry the party to the last stretch before Wayfinder without adding new Ancient-system answers.",
+  "scene_purpose": "Let Torren fully perform the guide role he has now accepted; make southern Briar Passage a substantial playable route region rather than a connective corridor; establish the overgrown old side access that will only become meaningful after Wayfinder; build the Briarhide Stalker as a naturally occurring powerful predator through field evidence and a later clear sighting; and carry the party to the last stretch before Wayfinder without adding new Ancient-system answers.",
   "story_sources": [
     {
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
@@ -51,6 +51,11 @@
       "role": "walking_dialogue_hard_lock"
     },
     {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md",
+      "whole_file": true,
+      "role": "knowledge_firewall_must_remain_author_side_not_dialogue_tic"
+    },
+    {
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
       "whole_file": true,
       "role": "scene_construction_authoring_contract"
@@ -78,7 +83,7 @@
       "increasingly recognizable distant Wayfinder formation",
       "ordinary natural predator evidence that escalates toward a clear Briarhide Stalker sighting"
     ],
-    "runtime_note": "Torren is genuinely leading the party, so limited walking dialogue is legal only when it materially belongs to his guidance or immediate route observation. Most traversal remains gameplay and silence. HARD KNOWLEDGE BOUNDARY: Torren knows local ground, animals, route evidence, and places he has actually traveled; he does not know the ancient purpose of Wayfinder, the old side access, the mural, or the wider Diysean system. The overgrown stone-lined side access is only an impractical old route feature here. Do not identify it as a cistern route, Hunt entrance, Ancient node, tunnel system, or hidden objective. The Briarhide Stalker is natural wildlife: no corruption, control, Black Host device, special wound, possession, or puzzle condition. The Card remains sealed and inert."
+    "runtime_note": "Torren is genuinely leading the party, so limited walking dialogue is legal only when it materially belongs to his guidance or immediate route observation. Most traversal remains gameplay and silence. KNOWLEDGE FIREWALL IS INVISIBLE: Torren simply speaks from local ground, animal, route, and firsthand-place knowledge; do not make him repeatedly announce that he does not know more. Use silence, concise answers, decisions, and ordinary speculation instead of disclaimer loops. The overgrown stone-lined side access is only an impractical old route feature here. Do not identify it as a cistern route, Hunt entrance, Ancient node, tunnel system, or hidden objective. The Briarhide Stalker is natural wildlife: no corruption, control, Black Host device, special wound, possession, or puzzle condition. The Card remains sealed and inert."
   },
   "current_floor_state": {
     "larger_destination": "Caelora",
@@ -90,9 +95,9 @@
     "card_state": "sealed_with_cyanis"
   },
   "required_story_beats": [
-    "Torren actively leads the group through deeper southern Briar while repeatedly limiting claims to what the current ground supports.",
+    "Torren actively leads the group through deeper southern Briar using practical local expertise that appears through route choices and useful observations rather than repeated verbal disclaimers.",
     "The area receives substantial uninterrupted exploration and combat time.",
-    "Torren points out a heavily overgrown old stone-lined side access branching away from the useful route and explicitly declines it because it is impractical and not their direction.",
+    "Torren points out a heavily overgrown old stone-lined side access branching away from the useful route and declines it because it is impractical and not their direction.",
     "Early natural field evidence establishes that a very large predator is active in this part of Briar Passage.",
     "Later evidence strengthens the predator read without implying unnatural causality.",
     "The Wayfinder-like formation becomes increasingly recognizable as the real landmark seen in the Hollow Watch mural.",
