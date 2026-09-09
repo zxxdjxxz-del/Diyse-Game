@@ -1,9 +1,10 @@
-# Torren
+# Torren Harth
 
 **Status:** ACTIVE CHARACTER AUTHORITY  
 **Domain rule:** this folder owns character identity, biography, chronology, personality, relationship logic, ordinary-life behavior, and concise voice direction. Exact class mechanics live in `06_CLASSES_AND_ABILITIES`; Card/Prime mechanics in `07_CARDS`; exact visual authority lives in `14_ART_AND_VISUALS`; exact dialogue scripts live in `03_DIALOGUE`.
 
 ## Identity
+- Full name: **Torren Harth**
 - Age: **42**
 - Permanent party: **yes**
 - Join: **Chapter 1**
@@ -12,7 +13,7 @@
 - Story Prime: **Last Cartographer**
 - Older sister: **Edda Harth**
 
-Do not infer or restore a surname for Torren from superseded migration files. Edda's established name is a separate character fact and does not establish Torren's surname.
+**Naming lock:** Harth is Torren's canonical surname. Dialogue may use `Torren`, `Harth`, or `Torren Harth` according to relationship, formality, and scene context.
 
 ## Character core
 Torren is a field specialist whose credibility comes partly from knowing when he does **not** know enough.
