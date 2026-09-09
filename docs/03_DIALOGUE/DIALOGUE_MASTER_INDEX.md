@@ -10,12 +10,22 @@ A scene that has been generated through that process and then explicitly approve
 
 Historical pre-Dialogue-Engine line-complete material remains reference/provenance unless separately promoted or explicitly line-locked.
 
+### Walking-dialogue hard lock
+Current explicit production rule:
+
+> **Do not use walking dialogue scenes during ordinary traversal unless the party is actively being led somewhere by another person.**
+
+Owning detailed lock:
+`AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`
+
+If nobody is actively guiding/leading the party, use gameplay/silence or an actual stopping point instead. Being on the same journey is not enough. Even when a guide is leading, moving dialogue should remain selective rather than becoming continuous walk-and-talk.
+
 ## Current chapter status
 
 | Chapter | Current dialogue status |
 |---|---|
 | Ch0 | **COMPLETE / APPROVED / LOCKED. Current production manuscript is P01–P07 + optional C01 `Six Minutes`; it was authored through the Dialogue Engine and remains exact current dialogue authority.** |
-| Ch1 | **ACTIVE PRODUCTION — begin from current `02_STORY/CHAPTERS/CHAPTER_01.md`; first target is Beat 1 `Brackenwall / Protocol`.** |
+| Ch1 | **ACTIVE PRODUCTION — current working manuscript maintained under `PRODUCTION/CHAPTER_01/`; Beat 1 drafted, Beat 2 revised under the walking-dialogue lock.** |
 | Ch2 | pending current Dialogue Engine production |
 | Ch3 | pending current Dialogue Engine production; existing explicit line anchors remain binding where applicable |
 | Ch4 | pending current Dialogue Engine production under current restructured story authority |
