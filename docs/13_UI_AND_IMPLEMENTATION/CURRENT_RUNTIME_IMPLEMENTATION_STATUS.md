@@ -50,6 +50,24 @@ See:
 - `IMPLEMENTATION_NOTES/AREA_TRAVERSAL_AUTHORING_INTERFACE.md`
 - `DIALOGUE_UI.md`
 
+### Dialogue Engine packet → Godot bridge
+Implemented:
+- `game/dialogue/dialogue_scene_packet_importer.gd` validates `diyse_dialogue_scene_packet_v1` and converts an approved generated packet plus game-side authoring metadata into `DiyseDialogueSceneDefinition`;
+- imported Resources preserve story position, scene mode, dialogue readiness, movement-lock intent, encounter policy, return-to-gameplay metadata, production-cost tier and beat staging cues;
+- packet validation rejects player dialogue-choice/branch fields rather than silently dropping them;
+- importer does **not** infer C0–C3 or V1–V4 presentation tiers from economical/moderate/bespoke authoring cost labels; those tiers remain explicit game-side authority;
+- `game/dialogue/dialogue_field_bridge.gd` applies authored field policy when a Resource-backed scene starts and restores prior field policy when it ends;
+- stop scenes may lock player movement;
+- authored dialogue may temporarily suppress random-encounter triggering without resetting accumulated encounter pressure;
+- movement/encounter pause state is restored to its exact pre-scene value rather than blindly enabling it;
+- `tests/dialogue/validate_scene_packet_importer.gd` and `tests/dialogue/validate_dialogue_field_bridge.gd` provide headless validation fixtures;
+- both validators are included in `.github/workflows/godot-smoke.yml`.
+
+Still incomplete on the Godot delivery side:
+- camera/light/sound/field-model staging cues are carried through the packet/Resource and emitted by the runner, but a final production staging executor does not yet consume every cue family;
+- generated packets are not yet mass-imported into final Chapter 0–13 production Resources;
+- the external dialogue-memory store is not yet integrated into the main save system.
+
 ### External Dialogue Engine canary
 `external-services/canary/`
 
@@ -233,8 +251,8 @@ The repository still does not establish final:
 - Kessara service menu;
 - final Android safe-area/touch layout;
 - production deployment topology for every recurring Person Agent;
-- production Godot importer from `diyse_dialogue_scene_packet_v1` into `DiyseDialogueSceneDefinition` Resources;
 - automatic repository-to-scene authority-packet compiler;
+- production staging executor for every generated camera/light/sound/model cue family;
 - regeneration/approval/import of every Chapter 0–13 spoken scene;
 - production integration of external Person-Agent memory with the main save system.
 
