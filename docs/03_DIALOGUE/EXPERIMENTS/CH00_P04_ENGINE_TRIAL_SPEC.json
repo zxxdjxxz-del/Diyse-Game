@@ -1,0 +1,67 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "EXP_CH00_P04_ENGINE_TRIAL",
+  "chapter_id": "chapter_00",
+  "story_position": "Chapter 0 — P04 — Field Triage Camp / Ilyra / First Incomplete Response",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "convoy_superior_officer",
+    "civilian_traveler"
+  ],
+  "participant_profile_sources": {
+    "convoy_superior_officer": "docs/01_CHARACTERS/SUPPORTING/Chapter_00_Convoy_Role_Profiles.md",
+    "civilian_traveler": "docs/01_CHARACTERS/SUPPORTING/Chapter_00_Convoy_Role_Profiles.md"
+  },
+  "scene_purpose": "Introduce Ilyra Amarin through independent Blue Warden medical authority; establish Cyanis Dovaren and Ilyra solving legitimate tactical/medical constraints together; stage the first incomplete green-and-gold Card response as useful, taxing and unexplained; then let Ilyra choose to defend the treatment space for her own professional reasons.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_00.md",
+      "sections": [
+        "Chapter-wide locks",
+        "P04 — Field Triage Camp / Ilyra / First Incomplete Response"
+      ],
+      "role": "current_chapter_00_p04_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/04_WORLD_AND_LORE/LIVED_WORLD_SOCIAL_CONTEXT.md",
+      "whole_file": true,
+      "role": "lived_world_context"
+    },
+    {
+      "path": "docs/12_ECONOMY_AND_REWARDS/LIVED_ECONOMY_CONTEXT.md",
+      "whole_file": true,
+      "role": "lived_economy_context"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
+      "whole_file": true,
+      "role": "scene_construction_authoring_contract"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Field Triage Camp / relay-side defensive area",
+    "area_phase": "active_triage_under_unresolved_hostile_pressure",
+    "dialogue_readiness": "AMBER",
+    "static_story_context_only": true,
+    "visible_environment": [
+      "wounded escorts and civilians arriving into an improvised treatment area",
+      "relay stone and improvised cover defining the protected treatment space",
+      "sealed recovery cargo already inside the defensive perimeter",
+      "Ilyra already working before Cyanis enters"
+    ],
+    "runtime_note": "This A/B trial uses the locked manuscript as an external control only. Do not preserve its wording as anchors. Recent combat fatigue, exact field position and live encounter pressure should be supplied at build time in a deployed run."
+  },
+  "current_floor_state": {
+    "card_state": "sealed_inert_before_first_flare",
+    "cyanis_party_state": "solo_permanent_member_before_p04_join_transition",
+    "ilyra_party_state": "present_as_independent_wider_convoy_warden_not_yet_party_member"
+  },
+  "allowed_information_transfers": [],
+  "exact_line_anchors": [],
+  "max_beats": 26,
+  "production_cost_ceiling": "economical"
+}
