@@ -1,0 +1,70 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH01_BEAT02_BRIAR_PASSAGE_FIRST_TRAVERSAL",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 — Beat 2 — Briar Passage / First Traversal",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra"
+  ],
+  "scene_purpose": "Establish Briar Passage as a substantial lived regional route network rather than a corridor; let Maevra competently reach Greenhollow while demonstrating why deeper southern travel needs Torren Harth's current local route knowledge; preserve ordinary hostile-field gameplay with Cyanis and Ilyra only in combat.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Locked Chapter-1 geography",
+        "Locked travel / combat presentation",
+        "Beat 2 — Briar Passage / First Traversal"
+      ],
+      "role": "current_chapter_01_beat_02_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/04_WORLD_AND_LORE/LIVED_WORLD_SOCIAL_CONTEXT.md",
+      "whole_file": true,
+      "role": "lived_world_context"
+    },
+    {
+      "path": "docs/12_ECONOMY_AND_REWARDS/LIVED_ECONOMY_CONTEXT.md",
+      "whole_file": true,
+      "role": "lived_economy_context"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/AREA_TRAVERSAL_AUTHORING_INTERFACE.md",
+      "whole_file": true,
+      "role": "dialogue_safe_traversal_contract"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
+      "whole_file": true,
+      "role": "scene_construction_authoring_contract"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Briar Passage — Brackenwall to Greenhollow route",
+    "area_phase": "first_traversal_hostile_field",
+    "dialogue_readiness": "AMBER",
+    "static_story_context_only": true,
+    "visible_environment": [
+      "wooded roads and narrower trails crossing uneven ground",
+      "route markers from different periods of maintenance",
+      "side paths and service traces that make the passage read as a network rather than one road",
+      "signs that weather, growth and use have changed some route conditions"
+    ],
+    "runtime_note": "Use short walking exchanges separated by gameplay. Player movement should remain active during walking dialogue where practical. If encounter triggering is temporarily suppressed for an authored walking line window, preserve accumulated encounter pressure and restore it immediately afterward. Maevra is present in field staging but never joins combat."
+  },
+  "current_floor_state": {
+    "larger_destination": "Caelora",
+    "immediate_destination": "Greenhollow",
+    "combat_party": ["cyanis", "ilyra"],
+    "maevra_party_status": "noncombat_traveling_companion",
+    "card_state": "sealed_with_cyanis_no_new_response_required"
+  },
+  "allowed_information_transfers": [],
+  "exact_line_anchors": [],
+  "max_beats": 24,
+  "production_cost_ceiling": "economical"
+}
