@@ -19,6 +19,11 @@
         "Beat 2 — Briar Passage / First Traversal"
       ],
       "role": "current_chapter_01_beat_02_story_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
+      "whole_file": true,
+      "role": "later_explicit_physical_card_state_correction"
     }
   ],
   "additional_authority_sources": [
@@ -46,6 +51,11 @@
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
       "whole_file": true,
       "role": "scene_construction_authoring_contract"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_dialogue_workflow"
     }
   ],
   "scene_context_seed": {
@@ -59,7 +69,7 @@
       "side paths and service traces that make the passage read as a network rather than one road",
       "signs that weather, growth and use have changed some route conditions"
     ],
-    "runtime_note": "Walking dialogue is legal here only because Maevra is actively leading the party to Greenhollow. Keep moving dialogue limited to guidance/immediate route observations that belong to that guided movement. General banter, medical follow-up and post-battle reaction should occur at natural stops or be omitted. If encounter triggering is temporarily suppressed for an authored guided-dialogue window, preserve accumulated encounter pressure and restore it afterward. Maevra is present in field staging but never joins combat."
+    "runtime_note": "Walking dialogue is legal here only because Maevra is actively leading the party to Greenhollow. Keep moving dialogue limited to guidance/immediate route observations that belong to that guided movement. General banter, medical follow-up and post-battle reaction should occur at natural stops or be omitted. If encounter triggering is temporarily suppressed for an authored guided-dialogue window, preserve accumulated encounter pressure and restore it afterward. Maevra is present in field staging but never joins combat. Cyanis carries the intact Card itself; the Chapter-0 recovery casing broke during P06 and must not reappear."
   },
   "current_floor_state": {
     "larger_destination": "Caelora",
@@ -68,7 +78,7 @@
     "route_leader_destination": "Greenhollow",
     "combat_party": ["cyanis", "ilyra"],
     "maevra_party_status": "noncombat_traveling_companion_and_current_route_leader",
-    "card_state": "sealed_with_cyanis_no_new_response_required"
+    "card_state": "intact_card_carried_by_cyanis_inert_no_new_response_required"
   },
   "allowed_information_transfers": [],
   "exact_line_anchors": [],
