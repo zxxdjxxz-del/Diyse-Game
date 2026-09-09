@@ -13,7 +13,7 @@ It does not make generated wording canon by itself. Current owning story/charact
 
 The current scene pipeline is:
 
-> **Scene Job → Dialogue Director → Person Agents → Beat Editor → Canon Checker → Godot Handoff → Human Approval → Story-Memory Commit**
+> **Current Repository Authority → Authority Compiler → Live Runtime Merge → Scene Job → Dialogue Director → Person Agents → Beat Editor → Canon Checker → Godot Handoff → Human Approval → Story-Memory Commit**
 
 The Director, Person Agents, Editor and Canon Checker all receive the unified scene-construction context rather than operating as isolated prose generators.
 
@@ -29,6 +29,16 @@ The Director must reason from:
 - production-cost ceiling.
 
 Person Agents receive the Director beat target plus observable scene history, so later dialogue can respond to what actually happened in earlier beats.
+
+Static/current authority and live observations are deliberately separate:
+- `authority_packet` carries compiled repository-owned truth;
+- `scene_context.runtime_observable` carries curated live/provisional game observations.
+
+Runtime observations may influence the scene but do not become canon authority.
+
+See:
+- `AUTHORITY_PACKET_COMPILER.md`
+- `LIVE_RUNTIME_CONTEXT.md`
 
 ---
 
@@ -65,6 +75,18 @@ It exposes:
 
 Container target:
 `external-services/canary/Dockerfile.orchestrator`
+
+### Repository authority compiler
+`tools/dialogue/compile_scene_authority.py`
+
+It turns an explicit `diyse_scene_authority_spec_v1` into a fingerprinted current-authority request seed while rejecting archive/working/historical dialogue sources as current scene authority.
+
+### Godot live request assembly
+- `game/dialogue/dialogue_runtime_context_builder.gd`
+- `game/dialogue/dialogue_map_context_provider.gd`
+- `game/dialogue/dialogue_scene_request_assembler.gd`
+
+These combine the compiled seed with a deliberately small live observation set. They do not serialize raw `GameState`.
 
 ---
 
@@ -173,7 +195,15 @@ Normal authored requests should also include:
 - any required exact-line anchors;
 - production-cost ceiling.
 
+Current production path for static authority:
+> explicit scene spec → `compile_scene_authority.py` → fingerprinted request seed
+
+Current production path for live observations:
+> map provider + safe area/position + encounter controller + curated recent gameplay → `DiyseDialogueSceneRequestAssembler`
+
 Unknown map/economy/story facts should remain unknown/open rather than being fabricated to fill the packet.
+
+Raw `GameState`, inventory, equipment, flags, reward containers, proof Prime data and other uncurated save/runtime objects are not valid model context.
 
 ---
 
@@ -267,7 +297,9 @@ A required anchor must:
 - pass the local exact-match check;
 - pass the Canon Checker.
 
-The rest of the scene remains free to regenerate around it unless separately locked.
+For repository-compiled scenes, the authority compiler additionally requires the exact text to appear verbatim in a cited **current** `03_DIALOGUE` source section. Historical line-complete transcripts cannot silently reassert exact-line authority.
+
+The rest of the scene remains free to regenerate around an anchor unless separately locked.
 
 ---
 
@@ -359,7 +391,13 @@ The packet contains:
 - staging cues;
 - return-to-gameplay behavior.
 
-This packet is the authoring/runtime bridge. It is not permission to bypass the current `DiyseDialogueSceneDefinition`/stable-ID production architecture. A later Godot importer should translate the packet into the current production Resource schema rather than hard-code asset paths.
+Current Godot bridge:
+- `game/dialogue/dialogue_scene_packet_importer.gd` validates/translates the packet into `DiyseDialogueSceneDefinition` using explicit game-side authoring metadata;
+- `game/dialogue/dialogue_field_bridge.gd` applies/restores movement and encounter policy around the Resource-backed scene;
+- stable IDs and current Resource architecture remain intact;
+- the importer does not infer C0–C3/V1–V4 presentation tiers from the qualitative production-cost label.
+
+A full production executor for every camera/light/sound/field-model staging cue family remains separate work.
 
 ---
 
@@ -405,12 +443,23 @@ For recurring supporting/antagonist persistence, use `AGENT_URLS_JSON` with thei
 
 This is a canary authoring/runtime architecture, not a claim that every story scene has already been regenerated and imported into Godot.
 
+Now implemented:
+- repository-current scene authority compilation with source/section fingerprints;
+- generic persistent/profile-only Person Agent sourcing;
+- Director/Person-Agent/Editor/Canon-Checker orchestration;
+- curated live GameState/encounter context boundary;
+- standard map-context provider + request assembler contract;
+- `diyse_dialogue_scene_packet_v1` → Godot Dialogue Resource import;
+- field movement/encounter-policy handoff.
+
 Still separate work:
 - deploy/configure the desired recurring Person Agent services;
-- build the Godot `diyse_dialogue_scene_packet_v1` importer/validator;
-- author concrete per-scene authority packets from current `02_STORY` and map designs;
-- regenerate and approve Chapters 0–13 spoken scenes;
-- persist only approved story continuity.
+- attach/update map-context providers across production field maps and feed current cell/phase data;
+- connect the assembled Godot request to the external `/v1/scene/build` endpoint;
+- build the final staging executor for generated camera/light/sound/model cues;
+- author the production scene-spec library from current `02_STORY`/quest/dialogue authority;
+- regenerate, approve and import Chapters 0–13 spoken scenes;
+- integrate approved external Person-Agent continuity with the production save system.
 
 The important architectural lock is now in place:
 
