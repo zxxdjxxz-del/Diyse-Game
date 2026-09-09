@@ -6,17 +6,17 @@
 
 ## Scene-ID rule after Dialogue Engine restructuring
 
-A retained S### range identifies the stable mandatory **scene-routing IDs** that survive into current implementation. It does **not** mean the historical exact transcript remains current wording.
+A retained S### range identifies stable legacy **scene-routing IDs** still present in current implementation resources. It does **not** mean the historical exact transcript remains current wording, and it does not override a newer completed chapter manuscript/structure.
 
-Current all-dialogue regeneration authority applies:
-- current lean `02_STORY` structure owns what each retained scene function must accomplish;
-- `03_DIALOGUE` owns regenerated spoken wording;
+Current all-dialogue regeneration/experiment authority applies:
+- current `02_STORY` structure owns what each scene function must accomplish;
+- `03_DIALOGUE` owns generated/approved spoken wording;
 - historical line-complete dialogue is reference/provenance only unless an individual exact line is explicitly preserved by current authority;
-- inserted encounter/story beats do not automatically receive new S### IDs merely because the lean chapter now contains more story beats than the historical scene count.
+- when a newer production manuscript uses different scene labels, those labels may coexist with legacy runtime S### IDs until an explicit implementation migration rewires Resources/tests.
 
 | Chapter | Mandatory scene IDs | Current routing status |
 |---|---|---|
-| Ch0 | S001–S006 | **IDs retained; lean scene functions current; spoken dialogue regeneration pending** |
+| Ch0 | **Production manuscript: P01–P07; legacy runtime Resources: S001–S006** | **P01–P07 current structure; S001–S006 remain implementation-compatibility IDs pending migration** |
 | Ch1 | S007–S011 | **IDs retained; current lean structure controls; detailed beat→S### routing requires current mapping where not explicit** |
 | Ch2 | S012–S016 | **IDs retained; current lean structure/dialogue regeneration controls** |
 | Ch3 | S017–S021 | **IDs retained; current lean structure/dialogue regeneration controls** |
@@ -33,25 +33,30 @@ Current all-dialogue regeneration authority applies:
 
 ## Current Chapter-0 routing clarification
 
-Chapter 0 currently has **eight lean mandatory story beats** but retains **six S### dialogue-routing IDs**.
+Current completed Chapter-0 production structure is:
 
-Current mapping:
-- **S001** → Beat 1 — Convoy / Opening Ambush;
-- **S002** → Beat 2 — Wreck Field;
-- **S003** → Beat 3 — Evacuation Relay Decision;
-- **S004** → Beat 4 — Field Triage Camp / Ilyra / First Incomplete Response;
-- **Beat 5 — Concealed Ruin Vanguard / Seyrik** → mandatory encounter/story placement, **no standalone S### ID**;
-- **Beat 6 — Riftmaw** → mandatory encounter/boss placement, **no standalone S### ID**;
-- **S005** → Beat 7 — Final Broken Convoy Confrontation / Second Incomplete Response;
-- **S006** → Beat 8 — Aftermath / Survivor Recovery / Overnight Camp.
+> **P01 → P02 → P03 → P04 → P05 → P06 → P07 → optional C01 — Six Minutes**
 
-Therefore current S004 must not flow directly into S005. Required current sequence is:
+Current functions:
+- **P01** — Convoy / Opening Ambush;
+- **P02** — Wreck Field;
+- **P03** — Evacuation Relay Decision;
+- **P04** — Field Triage Camp / Ilyra / First Incomplete Response;
+- **P05** — Concealed Ruin Vanguard;
+- **P06** — **Riftmaw + Convoy War-Sorcerer / Final Broken Convoy Confrontation**;
+- **P07** — Aftermath / Survivor Recovery / Overnight Camp;
+- **C01** — `Six Minutes` optional Character-Life scene.
 
-> **S004 → Beat 5 concealed Seyrik encounter → noncombat triage/repositioning interval → Beat 6 Riftmaw encounter → noncombat field/triage interval → S005 → S006**
+The former current-repo eight-beat split in which Riftmaw was a separate mandatory encounter before a later War-Sorcerer confrontation is superseded. **Riftmaw and the Convoy War-Sorcerer are fought together in P06.**
 
-The inserted Beat-5/Beat-6 encounter placements may use encounter-local pre/post microbeats or battle presentation hooks where needed, but those hooks do not become new S### IDs unless `02_STORY` explicitly promotes new scene IDs later.
+### Legacy S### implementation compatibility
+Existing Chapter-0 `.tres` Resources and tests still use S001–S006. Those IDs are **not** being silently remapped in this document because doing so would guess a production migration that has not yet been implemented.
 
-Existing Chapter-0 `.tres` Resources and historical tests that still stage S004 → S005 directly are legacy implementation proof and must be regenerated/reworked before production Chapter-0 delivery.
+Until the Chapter-0 Resource migration is explicitly performed:
+- treat P01–P07 as the current story/manuscript structure;
+- treat S001–S006 as legacy implementation-routing IDs only;
+- do not infer that old S004→S005 or old S005 combat content remains story-correct;
+- any Dialogue Engine experiment should use P01–P07 story functions rather than the obsolete eight-beat split.
 
 ## Current Chapter-10 scene sequence
 - S051 — The Missing Middle
