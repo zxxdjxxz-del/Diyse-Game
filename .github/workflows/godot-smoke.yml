@@ -90,6 +90,9 @@ jobs:
       - name: Run Dialogue Engine field movement and encounter-policy validation
         run: godot --headless --path . --script tests/dialogue/validate_dialogue_field_bridge.gd
 
+      - name: Run Dialogue Engine curated live-runtime context validation
+        run: godot --headless --path . --script tests/dialogue/validate_dialogue_runtime_context_builder.gd
+
       - name: Run Step 7C S001 opening validation
         run: godot --headless --path . --script tests/dialogue/validate_s001.gd
 
