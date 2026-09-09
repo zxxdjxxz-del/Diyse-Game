@@ -17,7 +17,7 @@
 ## Current contents
 - Beat 1 — Brackenwall / Protocol — **Draft A / current working version**
 - Beat 2 — Briar Passage / First Traversal — **Draft B / current working version; walking-dialogue lock corrected**
-- Beat 3 — Greenhollow / Torren — **Draft A / current working version**
+- Beat 3 — Greenhollow / Torren — **Draft B / current working version; Torren knowledge boundary corrected**
 - Beats 4–15 — pending
 - C03/C04/C05 — pending current Chapter-1 versions
 
@@ -958,51 +958,43 @@ Torren gives them each a short nod.
 
 Cyanis accepts that.
 
-Torren looks at the casing again.
+Torren looks back at the board.
 
-**TORREN:** That it?
-
-**MAEVRA:** That's it.
-
-He does not reach for it.
-
-Instead, he looks back at the route board.
-
-**TORREN:** You still trying for Caelora?
-
-**MAEVRA:** Yes.
+**MAEVRA:** We need Caelora.
 
 Torren taps the direct Greenhollow–Dunmere line.
 
 A heavy closure mark crosses it.
 
-**TORREN:** Not this way.
+**TORREN:** Not on this road.
 
 **CYANIS:** Black Host?
 
-**TORREN:** They control the road.
+**TORREN:** Enough of them.
 
-**ILYRA:** Completely?
+**ILYRA:** How bad?
 
-Torren looks at her.
+**TORREN:** Bad enough I wouldn't use it.
 
-**TORREN:** Completely enough that I'm not sending you down it.
+Maevra looks at the older lines running back through Briar Passage.
 
-He traces a different line with one finger: back through Briar Passage, then south.
+**MAEVRA:** South through Briar?
 
-**TORREN:** Southern Briar can still get you toward Wayfinder.
+Torren studies the board for a moment.
 
-Maevra watches his finger rather than the board label.
+**TORREN:** Parts.
 
-**MAEVRA:** Can?
+Cyanis looks at him.
 
-**TORREN:** Last time I checked.
+**CYANIS:** Parts?
 
-**MAEVRA:** When?
+**TORREN:** I know the region. I don't know every road today.
 
-**TORREN:** Recent enough to use. Not recent enough to promise.
+Maevra nods once.
 
-Cyanis glances at Maevra.
+That is the answer she wanted.
+
+**TORREN:** I can get you started. After that I check the ground before I promise anything.
 
 **CYANIS:** You found your man.
 
@@ -1018,92 +1010,65 @@ Torren gives her a look.
 
 **MAEVRA:** So was mine.
 
-Ilyra quietly looks between them.
+Ilyra looks between them once.
 
-Cyanis notices her noticing.
-
-Neither comments.
+Says nothing.
 
 ---
 
 ### [CARD BRIEF]
 
-Maevra turns slightly so the sealed casing is in all four of their sightlines.
+Maevra turns slightly toward the sealed casing.
 
-**MAEVRA:** The short version. It came out of the convoy recovery operation sealed. Twice on the road it produced some kind of protective geometry around Dovaren.
+**MAEVRA:** The other problem is this.
+
+Torren looks at it.
+
+Does not touch it.
+
+**MAEVRA:** Recovered Card. Stayed sealed. It behaves abnormally around Dovaren.
+
+**TORREN:** How abnormally?
+
+**MAEVRA:** Enough that Brackenwall tried to transfer custody and moving it away made him sick.
 
 Torren looks at Cyanis.
 
-**TORREN:** You did that?
+Then Ilyra.
 
-**CYANIS:** Apparently not.
-
-**ILYRA:** He showed no intentional control either time.
-
-**MAEVRA:** Brackenwall tried normal custody. When they moved the sealed casing away from him, it reacted again. So did he.
-
-Torren's eyes go to the casing.
-
-Then Cyanis.
-
-**TORREN:** They stopped?
-
-**ILYRA:** Immediately.
-
-He nods once.
-
-**TORREN:** Good.
-
-No fascination.
-No attempt to touch it.
-
-**TORREN:** Does it change how far he can travel?
+**TORREN:** Can he travel?
 
 Ilyra answers.
 
-**ILYRA:** We don't know yet.
-
-**TORREN:** Does he need to carry it himself?
-
-**ILYRA:** Also unknown.
-
-Cyanis lifts one hand.
-
-**CYANIS:** Very reassuring meeting so far.
-
-Torren looks at him.
-
-**TORREN:** You want reassuring or useful?
-
-A beat.
-
-**CYANIS:** Useful.
-
-**TORREN:** Good.
-
-He looks to Ilyra.
-
-**TORREN:** Can he walk a normal field day?
-
-Ilyra considers Cyanis rather than answering automatically.
-
-**ILYRA:** Yes, with monitoring.
+**ILYRA:** Yes. Monitored.
 
 **TORREN:** Then that's what I plan for.
 
-Ilyra nods.
+Cyanis raises one hand.
 
-The exchange is over.
+**CYANIS:** That's all you need?
+
+Torren looks at the casing again.
+
+**TORREN:** For a road?
+
+A beat.
+
+**TORREN:** Yes.
+
+**CYANIS:** I like him.
+
+**MAEVRA:** Give it time.
+
+Torren ignores both of them and moves to the north side of the board.
 
 ---
 
 ### [HOLLOW WATCH]
 
-Torren reaches to the north side of the board.
-
 A route climbs away from Greenhollow toward Hollow Watch.
 
-He taps it once.
+Torren taps it once.
 
 **TORREN:** I'm not taking you south yet.
 
@@ -1115,21 +1080,21 @@ Maevra does not look surprised.
 
 Cyanis looks at the northern route.
 
-**CYANIS:** What's the problem?
+**CYANIS:** What do you know?
 
 Torren folds his arms.
 
-**TORREN:** Black Host took it about a week ago.
+**TORREN:** Black Host took the fort about a week ago.
 
-**ILYRA:** The fort?
+**ILYRA:** Confirmed?
 
-**TORREN:** Yeah.
+**TORREN:** Enough traffic went up. None of it looked friendly.
 
-He taps the board again.
+He taps the spur below the fort.
 
-**TORREN:** Since then they've been hauling excavation gear up the spur.
+**TORREN:** Since then, digging gear keeps going this way.
 
-**CYANIS:** Excavating what?
+**CYANIS:** What are they digging for?
 
 **TORREN:** Don't know.
 
@@ -1137,55 +1102,47 @@ Immediate.
 
 No embarrassment in it.
 
-**TORREN:** Watch was built over older stone. Everybody around here knows that much. Host has spent a week trying to get farther under it.
-
-Maevra studies him.
-
 **MAEVRA:** Garrison?
 
-Torren's humor disappears.
+Torren's expression hardens slightly.
 
-**TORREN:** Nothing reliable.
+**TORREN:** No reliable word.
 
-A short silence.
+**CYANIS:** You've been up there?
 
-**TORREN:** No one from the Watch has come back through Greenhollow. That tells me they're not here. Doesn't tell me why.
+**TORREN:** No.
 
-Ilyra does not fill the silence.
+A beat.
 
-Cyanis looks at the route board.
+**TORREN:** I've watched the road. Going closer alone would've been stupid.
 
-**CYANIS:** And you're not leaving the region without knowing.
+Cyanis nods.
+
+No challenge.
+
+**MAEVRA:** And you're not leaving until you know more.
 
 **TORREN:** Correct.
 
 **MAEVRA:** Even with Caelora waiting.
 
-Torren looks at her.
-
 **TORREN:** Caelora will still be there tomorrow.
 
-A beat.
+He looks at the Hollow Watch mark.
 
-**TORREN:** If I walk south now, I leave Greenhollow beside an occupied fort, a missing garrison, and a Host excavation nobody understands.
+**TORREN:** I'm not walking south while that sits north of Greenhollow and I don't know what they're doing there.
 
-Maevra exhales once through her nose.
+Cyanis looks at him.
 
-She already knew the answer.
+**CYANIS:** You want to take the fort back?
 
-**MAEVRA:** Fair.
+Torren shakes his head.
 
-Cyanis looks at Torren.
-
-**CYANIS:** You want us to help take the Watch back?
-
-Torren shakes his head once.
-
-**TORREN:** I want to get eyes on it.
+**TORREN:** I want eyes on it.
 
 Then:
 
-**TORREN:** If there's a way to clear it, we clear it. If there isn't, I don't pretend there is because four people showed up feeling motivated.
+**TORREN:** If we can clear it, we clear it. If we can't, we come back knowing why.
 
 Cyanis gives him a small nod.
 
@@ -1241,11 +1198,9 @@ Torren takes a small field case from beneath the route board and slings it at hi
 
 He checks the fastening on his bow without looking down.
 
-Then turns the Hollow Watch route marker so its current warning face is visible to anyone approaching the board.
+Then turns the Hollow Watch route marker so its warning face is visible to anyone approaching the board.
 
 **TORREN:** We don't take the obvious road up.
-
-Maevra looks at him.
 
 **MAEVRA:** Of course we don't.
 
@@ -1261,19 +1216,17 @@ He looks to Cyanis and Ilyra.
 
 **CYANIS:** Good. I was hoping one of us knew where we were going.
 
-**TORREN:** You made it here.
+**TORREN:** I know the first part.
 
-**CYANIS:** Maevra did.
+Cyanis pauses.
 
-Torren looks at Maevra.
+**CYANIS:** Somehow that's more reassuring.
 
-**TORREN:** Good answer.
+**TORREN:** Should be.
 
-**MAEVRA:** He's learning.
+Maevra starts away from the board.
 
-She starts away from the board.
-
-Torren watches her go for half a beat longer than necessary.
+Torren watches her go for half a beat.
 
 Then looks back at Cyanis.
 
@@ -1303,10 +1256,11 @@ Story state:
 - Torren Harth has been introduced through active route work.
 - Existing Maevra/Torren familiarity is established without treating Greenhollow as a first reunion.
 - Direct Greenhollow–Dunmere travel is unavailable under Black Host control.
-- The southern Briar route remains the likely path toward Wayfinder/Caelora, but Torren will not leave the region yet.
-- Torren knows Hollow Watch was seized about a week ago and that the Black Host has been excavating beneath it.
-- He does not know the garrison's full fate or what the Host expects to find.
-- Torren has accepted the Card situation only as a travel constraint; he has not invented expertise about it.
+- Torren knows Briar Passage in a bounded, field-specialist way; he does not already possess an exact current route solution for the full southern journey.
+- Torren has **not** identified Wayfinder Junction as the route solution or as an ancient-significant location.
+- Torren knows the Black Host took Hollow Watch about a week ago and that digging/excavation gear has been moving up the spur.
+- He has not been inside the occupied fort and does not know the garrison's fate, the excavation objective, what lies beneath the fort, or what the Host has found.
+- Torren knows only the Card facts necessary to plan travel: it is a sealed abnormal recovered Card, separation/proximity around Cyanis is a problem, Caelora is the destination, and Ilyra says Cyanis can travel with monitoring.
 - Next destination is Hollow Watch.
 - Torren is temporarily combat-capable for the Hollow Watch operation.
 - Torren is **not yet permanently recruited**.
