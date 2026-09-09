@@ -1,6 +1,8 @@
 # Chapter 1 — Beat 4
 # Hollow Watch Approach
-## DIALOGUE ENGINE PRODUCTION DRAFT A — awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT B — rehearsal-first pass / awaiting user approval
+
+**Walking-dialogue lock:** Torren is genuinely leading the party to Hollow Watch, so short route-specific moving exchanges are legal. Most of the approach remains gameplay and silence.
 
 ---
 
@@ -8,69 +10,83 @@
 
 **Player control is active.**
 
-Torren is waiting where the maintained Greenhollow road narrows toward the northern spur.
+Torren is waiting where Greenhollow's maintained road narrows toward the northern spur.
 
-He has already moved the warning marker aside far enough to expose a thinner path leaving the road before the climb.
+He has moved the warning marker just far enough to expose a thinner path leaving the road before the climb.
 
-Maevra looks from the obvious road to the side path.
+Maevra arrives eating the last piece of something wrapped in paper.
 
-**MAEVRA:** That's your better idea?
+Torren looks at it.
 
-**TORREN:** It's my less stupid one.
+Then at her.
 
-Cyanis looks uphill.
+**TORREN:** That mine?
 
-The main watch road is wider, cleaner, and much easier to follow.
+**MAEVRA:** Was.
 
-**CYANIS:** And the stupid one?
+**TORREN:** I said get food.
 
-Torren points at it.
+**MAEVRA:** I did.
 
-**TORREN:** Walk straight at the occupied fort.
+**TORREN:** For everyone.
 
-**CYANIS:** Strong distinction.
+Maevra takes another bite.
 
-Torren turns onto the side path.
+**MAEVRA:** Your instructions lacked precision.
 
-**TORREN:** Stay close until we're off the road.
+Cyanis looks at Torren.
 
-He is actively leading the group.
+**CYANIS:** You still taking us up there?
 
-**Player control continues.**
+Torren points at the obvious watch road.
+
+**TORREN:** Not that way.
+
+Cyanis looks uphill. The main road is wider, cleaner, and points directly at Hollow Watch.
+
+**CYANIS:** Because they can see it from the fort.
+
+**TORREN:** See? You're learning.
+
+He turns onto the thinner path.
+
+**TORREN:** Off the road here.
+
+The party follows.
 
 ---
 
-### [GUIDED MOVEMENT — LEAVING THE MAIN SPUR]
+### [GUIDED MOVEMENT — LOWER PATH]
 
-The route drops below the obvious road rather than climbing with it.
+The route drops below the main spur instead of climbing with it.
 
-For a short stretch, the main road remains visible through the trees above them.
+For a while the watch road stays visible through the trees above them.
 
-Torren keeps the group moving beneath it.
+Torren moves quickly but does not rush the others.
 
-At a narrow shelf he lifts one hand without looking back.
+At a narrow shelf he lifts one hand.
 
-**TORREN:** Single file here.
+**TORREN:** Single file.
 
-Cyanis looks at the slope below.
+Cyanis looks at the slope falling away beneath exposed roots.
 
-Loose soil falls away beneath exposed roots.
+**CYANIS:** That's a path?
 
-**CYANIS:** Left or right?
+**TORREN:** Today.
 
-**TORREN:** Left holds better.
+Maevra finishes her food.
 
-Ilyra tests the ground before stepping onto it.
+**MAEVRA:** Inspiring.
 
-**ILYRA:** Better isn't the same as good.
+Torren does not look back.
 
-**TORREN:** Correct.
+**TORREN:** You ate my inspiration.
 
-That is the whole exchange.
+The shelf narrows.
 
-The party crosses.
+Conversation ends.
 
-**Player control continues without further chatter.**
+**Player control continues.**
 
 ---
 
@@ -81,77 +97,71 @@ The approach becomes ordinary hostile-field play.
 - Combat party: **Cyanis + Ilyra + Torren**.
 - Maevra remains with the traveling group but never enters battle.
 - Torren is temporarily combat-capable, not yet permanently recruited.
-- The Card remains sealed and inert.
-- No ancient mechanism reacts here.
+- Cyanis carries the intact recovered Card; it remains inert.
+- No Ancient mechanism reacts here.
 - Most of the route is silent gameplay.
 
-The side path passes through old retaining cuts, wet rock, brush, and places where the ground has been repaired more than once over the years.
+The path passes old retaining cuts, wet rock, brush, and repairs from several different periods.
 
-No one explains the history of those repairs.
+The player can read the road's history without anyone explaining it.
 
 ---
 
-### [ROUTE STOP — RECENT TRACKS]
+### [ROUTE STOP — TRACKS]
 
-At a bend below the old watch road, Torren stops.
+Torren stops at a muddy bend below the old watch road.
 
-Fresh mud has collected beside a stone drain.
+He crouches beside a stone drain.
 
-Several boot marks cross it.
+Boot prints cross the mud. A deep squared rut cuts through them toward the climb.
 
-One deeper rut has a squared edge from something heavy being dragged or rolled uphill.
+Cyanis stops before stepping into it.
 
-Torren crouches.
+**CYANIS:** Company?
 
-Cyanis waits rather than stepping through the marks.
+**TORREN:** Yeah.
 
-**CYANIS:** Host?
+Maevra crouches on the other side of the rut.
 
-Torren looks at the tread.
+**MAEVRA:** How many?
 
-Then at the road above.
+Torren points with two fingers.
 
-**TORREN:** Probably.
+**TORREN:** Five clean prints.
 
-Cyanis glances at him.
+He looks at the churned center.
 
-Torren points to the rut.
+**TORREN:** More walked over those.
 
-**TORREN:** Same kind of load track I've been seeing from the digging gear.
+Maevra presses a thumb into the edge of the rut.
 
-**MAEVRA:** How recent?
+**MAEVRA:** After the rain.
 
-Torren presses two fingers into the edge of the print.
+Torren looks at her.
 
-**TORREN:** Since the last rain.
+**TORREN:** Mm.
 
-**MAEVRA:** Which was?
+**CYANIS:** Heavy load?
 
-**TORREN:** Two nights ago.
+Torren taps the squared edge.
 
-A beat.
+**TORREN:** Wheels. Narrow ones.
 
-**TORREN:** That's all I know.
+He stands.
 
-Maevra nods.
+**TORREN:** Same sort I've seen going up all week.
 
-**MAEVRA:** Good.
+Ilyra looks uphill through the trees.
 
-Cyanis looks uphill.
+**ILYRA:** Then we're not the first traffic today.
 
-**CYANIS:** Patrol size?
+Torren brushes mud from his fingers onto his trousers.
 
-Torren stands.
+**TORREN:** No.
 
-**TORREN:** Can't tell from this.
+He moves on.
 
-**CYANIS:** Also good.
-
-Torren gives him a brief look.
-
-**TORREN:** You'll get used to it.
-
-The group moves on.
+Nobody turns the tracks into a larger conclusion.
 
 ---
 
@@ -159,237 +169,238 @@ The group moves on.
 
 The side path climbs again.
 
-The player gets a longer uninterrupted stretch here.
+A longer uninterrupted gameplay stretch follows.
 
-Through gaps in the trees, pieces of Hollow Watch appear and vanish:
-- a section of Yahtrean wall;
-- Black Host cloth or field markings where Crown colors once would have been;
-- a lift frame moving against the cliff face;
+Through gaps in the trees, Hollow Watch appears in pieces:
+- Yahtrean wall stone;
+- Black Host cloth where Crown colors would normally hang;
+- a lift frame moving against the cliff;
 - spoil dumped below a lower work platform;
-- workers or soldiers moving between the fort and the excavation staging area.
+- soldiers and labor crews moving between fort and excavation staging.
 
-The full layout is not yet readable.
-
-No one stops to narrate it.
+The party does not stop until the full site can be seen.
 
 ---
 
 ### [OVERLOOK STOP — HOLLOW WATCH REVEAL]
 
-Torren leads the group onto a rocky shelf screened by brush.
+Torren leads them onto a rocky shelf screened by brush.
 
-Then stops.
+He stops.
 
-For the first time, Hollow Watch can be seen clearly.
+Hollow Watch finally opens below them.
 
-It is not a castle.
+It is a small Yahtrean cliff fort, practical rather than grand.
 
-It is a small Yahtrean cliff fort built to watch a difficult approach.
+Black Host troops hold the walls and yard.
 
-The later fort walls sit directly over older masonry that emerges from the cliff beneath them.
+Below one side of the fort, recent work has stripped earth from older fitted masonry built into the cliff. Green-gold material catches light between later stonework.
 
-Production visual language should make the age difference obvious:
-- Yahtrean stone above;
-- older fitted stone below;
-- portions of green-gold ancient material exposed where recent digging has stripped away earth and later repair work.
+A rough excavation platform hangs against the rock.
 
-The characters are not given an explanation for what that older construction originally was.
+A winch brings up a bucket of pale spoil.
 
-Black Host occupation is unmistakable.
+Timber braces, rope, pry bars, crates, and stacked debris fill the lower work area.
 
-Their personnel hold the surface fort.
+For several seconds, nobody speaks.
 
-Below one wall, a rough excavation platform has been built against the cliff.
+Cyanis watches the winch rise.
 
-A winch lifts debris.
+**CYANIS:** That's a lot of timber.
 
-Crates, pry bars, braces, timber, rope, and spoil piles make the work look organized rather than improvised.
+**ILYRA:** And rope.
 
-Cyanis watches the lift frame rise.
+**MAEVRA:** They've been busy.
 
-**CYANIS:** That's not a temporary camp.
+Torren's attention stays on the lower platform.
 
-**MAEVRA:** No.
+**TORREN:** Yeah.
 
-Ilyra looks at the lower platform.
+The bucket reaches the top. Two Black Host workers drag it onto the platform and dump it.
 
-**ILYRA:** They're moving a lot of material.
+Cyanis shifts his gaze to the older stone beneath the fort.
 
-Torren watches the same thing.
+**CYANIS:** That part's older.
 
-**TORREN:** More than I saw coming up the road.
+Torren follows his look.
 
-Cyanis looks at him.
+**TORREN:** By a lot.
 
-**CYANIS:** Meaning?
+Maevra leans forward slightly.
 
-**TORREN:** Meaning they're still digging.
+**MAEVRA:** Fort's sitting right on it.
 
-A beat.
+Torren says nothing.
 
-**TORREN:** Not what they're digging for.
+He is watching a patrol cross the upper wall.
 
-Cyanis nods.
+Ilyra scans the yard.
 
-No one pushes him to guess.
+**ILYRA:** Any Crown colors?
 
-Maevra studies the surface walls.
+Maevra looks too.
 
-**MAEVRA:** Can you see the garrison?
+No one answers for a while.
 
-Torren scans the fort.
+**TORREN:** I don't see any.
 
-A long enough beat to make clear he is actually looking.
+The winch creaks again.
 
-**TORREN:** No.
-
-Then, before anyone can make more of it:
-
-**TORREN:** Doesn't tell us where they are.
-
-Ilyra keeps her eyes on the fort.
-
-**ILYRA:** Or what happened to them.
-
-**TORREN:** No.
-
-Silence.
-
-The lift frame creaks across the gap.
-
-A bucket of pale spoil rises from below the wall.
+That is allowed to sit.
 
 ---
 
 ### [APPROACH PLAN]
 
-Cyanis studies the obvious road entering the front of the fort.
-
-Then the cliff beneath it.
-
-**CYANIS:** How close have you been?
-
 Torren points below the overlook.
 
-**TORREN:** To that bend.
+A drainage shelf runs toward the fort's lower side before disappearing behind rock and brush.
 
-A narrow drainage shelf disappears behind rock and brush before reaching the fort's lower side.
+**TORREN:** We go under the west wall.
 
-**TORREN:** I checked the first half before today.
+**MAEVRA:** That's the bend you checked?
 
-**MAEVRA:** And after the bend?
+**TORREN:** First half.
 
-**TORREN:** I haven't been there.
+Maevra gives him a look.
 
-Immediate.
+**TORREN:** You wanted current ground.
 
-**TORREN:** We get to the bend. We look again. If it's bad, we stop pretending the route owes us anything.
+**MAEVRA:** I wanted food too.
 
-Cyanis looks once at Maevra.
+Torren stares at her.
 
-She nods.
+Cyanis looks between them.
 
-**CYANIS:** Works for me.
+**CYANIS:** I'm starting to understand the relationship.
 
-Ilyra looks at Torren.
+**MAEVRA:** No, you're not.
 
-**ILYRA:** If somebody gets hurt on that shelf, can we get them back out the same way?
+**TORREN:** Don't encourage him.
 
-Torren considers the route before answering.
+Ilyra is still looking at the drainage shelf.
 
-**TORREN:** One person with help, yes.
+**ILYRA:** If someone goes down on that ledge, can we bring them back the same way?
+
+Torren studies it.
+
+**TORREN:** One person, yes.
 
 **ILYRA:** Two?
 
-**TORREN:** Slower than I'd like.
+**TORREN:** Ugly.
 
-Ilyra nods.
+Ilyra nods once.
 
-**ILYRA:** Good enough to know.
-
-Torren looks at her.
-
-A brief professional acknowledgment.
-
-**TORREN:** Ready?
+**ILYRA:** Fine.
 
 Cyanis adjusts his shield.
 
-**CYANIS:** Lead on.
+**CYANIS:** Let's try for zero.
+
+**TORREN:** Strong plan.
 
 ---
 
-### [GUIDED DESCENT — SHORT LEGAL WALKING WINDOW]
+### [GUIDED DESCENT — SHORT MOVING WINDOW]
 
 Torren leads them off the overlook toward the drainage shelf.
 
-Only immediate route guidance is spoken while moving.
+Only immediate route guidance is spoken.
 
-**TORREN:** Watch the wet stone here.
+**TORREN:** Wet stone.
 
-A few steps later:
+A few steps later he points to a low root crossing the path.
 
-**TORREN:** Duck under the root. Don't climb over it. You'll silhouette yourself against the wall.
+**TORREN:** Under it.
 
-Maevra follows without comment.
+Cyanis starts over.
 
-Cyanis ducks.
+Torren catches the back of his coat and pulls him down.
 
-Ilyra does the same.
+**CYANIS:** I saw it.
 
-Torren reaches the bend he identified from above.
+**TORREN:** Fort would've seen you too.
 
-Raises one fist.
+Cyanis ducks under the root.
+
+**CYANIS:** Fine.
+
+Ilyra follows without comment.
+
+Maevra follows her.
+
+They reach the bend.
+
+Torren raises a fist.
 
 Everyone stops.
-
-The guided dialogue window ends.
 
 ---
 
 ### [THRESHOLD — OCCUPIED HOLLOW WATCH]
 
-Beyond the bend, the lower side of Hollow Watch is close enough to hear:
-- shouted Black Host work orders;
-- scrape of tools against stone;
-- rope under load;
-- boots on the fort walkway above.
+Beyond the bend, Hollow Watch is close enough to hear.
 
-Torren looks once around the bend.
+Black Host work orders carry down the rock face.
+
+Tools scrape against stone.
+
+Rope strains through a pulley.
+
+Boots cross the walkway above.
+
+Torren looks around the bend.
+
+He stays there a second longer than before.
 
 Then pulls back.
 
-**TORREN:** We're in range now.
+**TORREN:** Shit.
 
-Cyanis looks at him.
+Cyanis lowers his voice.
 
-**CYANIS:** Anything you didn't expect?
+**CYANIS:** What?
 
-Torren thinks.
+**TORREN:** Six more on the lower shelf.
 
-**TORREN:** More men on the lower work than I could see from the shelf.
+**MAEVRA:** Than you saw from above?
 
-**MAEVRA:** Still usable?
+Torren nods.
 
-Torren looks at the drainage route again.
+Cyanis looks back the way they came.
 
-**TORREN:** Yes.
+**CYANIS:** Still our way in?
 
-A beat.
+Torren checks the shelf, the wall above it, then the bend behind them.
 
-**TORREN:** Until it isn't.
+**TORREN:** Yeah.
 
-Cyanis smiles faintly.
+He draws his bow from his back.
 
-**CYANIS:** There's the qualifier.
+The humor is gone now.
 
-Torren does not smile.
+**TORREN:** Stay below the wall. When I move, move.
 
-He is watching the fort.
+Maevra shifts behind the combat line.
 
-**TORREN:** You'll hear worse ones.
+Ilyra settles her Wardrod in hand.
 
-The line echoes Maevra's earlier Briar warning without anybody explaining the callback.
+Cyanis draws his shield forward.
+
+Torren looks once at all three.
+
+**TORREN:** Ready?
+
+Cyanis nods.
+
+Ilyra nods.
+
+Maevra gives him a small, familiar tilt of the head.
+
+Torren turns back toward the fort.
+
+**TORREN:** Come on.
 
 ---
 
@@ -402,15 +413,15 @@ Current objective:
 **Enter occupied Hollow Watch and determine what happened to the garrison.**
 
 Story state:
-- Hollow Watch has been visually established as a small Yahtrean cliff fort under Black Host occupation.
-- Active excavation is visible and organized.
-- Older buried construction is visibly exposed beneath/around the later fort, but its purpose is unknown.
-- Torren has demonstrated route expertise through bounded observation and explicit uncertainty.
-- Torren has still not entered the occupied fort before this operation.
-- The garrison's fate remains unknown.
-- The Black Host excavation objective remains unknown.
-- No one knows what lies beneath the fort or what the exposed older structure was built to do.
-- The Card remains sealed and inert.
+- Hollow Watch is visually established as a small Yahtrean cliff fort under Black Host occupation;
+- active excavation is visible and organized;
+- older construction is exposed beneath/around the later fort without its purpose being explained;
+- Torren has demonstrated his value through navigation, current route reading, concealment, and practical field judgment rather than repeated verbal disclaimers;
+- Torren has still not entered the occupied fort before this operation;
+- the garrison's fate remains unresolved;
+- the Black Host excavation objective remains unresolved;
+- the intact Card remains with Cyanis and inert;
+- no Ancient/cartographic payoff occurs here.
 
 Traveling group:
 **Cyanis Dovaren + Ilyra Amarin + Maevra Solmar + Torren Harth**
@@ -419,31 +430,14 @@ Combat party:
 **Cyanis Dovaren + Ilyra Amarin + Torren Harth**
 
 Next mandatory story beat:
-**Occupied Hollow Watch Fort.**
+**Beat 5 — Occupied Hollow Watch Fort.**
 
 ---
 
-## Canon / Dialogue Engine self-check
+## Rehearsal-first editor / canon check
 
-**PASS — Torren knowledge boundary**
-- Torren reports tracks, road traffic, visible occupation, and visible digging.
-- He explicitly refuses to infer patrol size from inadequate evidence.
-- He has not been beyond the approach bend before this operation.
-- He does not know the garrison's fate, excavation target, buried-structure purpose, or any ancient-system truth.
+**Human-layer result:** Torren's competence appears mostly through what he notices, where he takes the party, and how he reacts when the ground changes. The old repeated qualifier routine is removed. Maevra and Torren retain mature shorthand without turning the approach into relationship exposition. Ilyra participates when medical/extraction concerns are actually relevant. Cyanis tests Torren conversationally without jumping to their later relationship state.
 
-**PASS — walking-dialogue lock**
-- Torren is genuinely leading the party toward Hollow Watch.
-- Moving dialogue is limited to route choice, footing, concealment, and immediate navigation.
-- Longer discussion happens at the track stop, overlook, and approach threshold.
-- Most traversal remains gameplay/silence.
+**Knowledge result:** nobody learns the garrison fate, excavation target, buried-structure purpose, Wayfinder significance, or Ancient-system truth.
 
-**PASS — story / reveal control**
-- Occupation and excavation are visually confirmed.
-- Older construction is revealed visually without explanation.
-- No garrison resolution occurs before Beat 5.
-- No ancient/cartographic payoff is spent.
-- Wayfinder is not mentioned.
-- The Card does not react.
-
-**PASS — economical HD-2D staging**
-The approach can be built from the Hollow Watch exterior kit, route geometry, cliff/vegetation occlusion, a distant fort reveal, Black Host banners/field props, simple winch/spoil animation, background NPC loops, and restrained camera framing. No bespoke cinematic sequence is required.
+**Walking-dialogue result:** moving dialogue exists only while Torren is materially guiding the group. Longer exchanges happen at stops. Most traversal remains gameplay/silence.
