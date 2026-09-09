@@ -9,7 +9,7 @@
     "ilyra",
     "maevra"
   ],
-  "scene_purpose": "Establish Briar Passage as a substantial lived regional route network rather than a corridor; let Maevra competently reach Greenhollow while demonstrating why deeper southern travel needs Torren Harth's current local route knowledge; preserve ordinary hostile-field gameplay with Cyanis and Ilyra only in combat.",
+  "scene_purpose": "Establish Briar Passage as a substantial lived regional route network rather than a corridor; let Maevra competently lead Cyanis and Ilyra to Greenhollow while demonstrating why deeper southern travel needs Torren Harth's current local route knowledge; preserve ordinary hostile-field gameplay with Cyanis and Ilyra only in combat.",
   "story_sources": [
     {
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
@@ -38,6 +38,11 @@
       "role": "dialogue_safe_traversal_contract"
     },
     {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
+      "whole_file": true,
+      "role": "current_walking_dialogue_hard_lock"
+    },
+    {
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
       "whole_file": true,
       "role": "scene_construction_authoring_contract"
@@ -54,17 +59,19 @@
       "side paths and service traces that make the passage read as a network rather than one road",
       "signs that weather, growth and use have changed some route conditions"
     ],
-    "runtime_note": "Use short walking exchanges separated by gameplay. Player movement should remain active during walking dialogue where practical. If encounter triggering is temporarily suppressed for an authored walking line window, preserve accumulated encounter pressure and restore it immediately afterward. Maevra is present in field staging but never joins combat."
+    "runtime_note": "Walking dialogue is legal here only because Maevra is actively leading the party to Greenhollow. Keep moving dialogue limited to guidance/immediate route observations that belong to that guided movement. General banter, medical follow-up and post-battle reaction should occur at natural stops or be omitted. If encounter triggering is temporarily suppressed for an authored guided-dialogue window, preserve accumulated encounter pressure and restore it afterward. Maevra is present in field staging but never joins combat."
   },
   "current_floor_state": {
     "larger_destination": "Caelora",
     "immediate_destination": "Greenhollow",
+    "active_route_leader": "maevra",
+    "route_leader_destination": "Greenhollow",
     "combat_party": ["cyanis", "ilyra"],
-    "maevra_party_status": "noncombat_traveling_companion",
+    "maevra_party_status": "noncombat_traveling_companion_and_current_route_leader",
     "card_state": "sealed_with_cyanis_no_new_response_required"
   },
   "allowed_information_transfers": [],
   "exact_line_anchors": [],
-  "max_beats": 24,
+  "max_beats": 20,
   "production_cost_ceiling": "economical"
 }
