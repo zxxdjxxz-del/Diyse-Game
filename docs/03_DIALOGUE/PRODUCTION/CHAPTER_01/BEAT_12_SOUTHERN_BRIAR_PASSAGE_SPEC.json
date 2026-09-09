@@ -1,0 +1,115 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH01_BEAT12_SOUTHERN_BRIAR_PASSAGE",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 — Beat 12 — Southern Briar Passage",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
+  "scene_purpose": "Let Torren fully perform the guide role he has now accepted; make southern Briar Passage a substantial playable route region rather than a connective corridor; establish the overgrown old side access that will only become meaningful after Wayfinder; build the Briarhide Stalker as a naturally occurring powerful predator through bounded field evidence and a later clear sighting; and carry the party to the last stretch before Wayfinder without adding new Ancient-system answers.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Locked Chapter-1 geography",
+        "Locked travel / combat presentation",
+        "Beat 12 — Southern Briar Passage",
+        "Beat 13 — Briarhide Stalker / Chapter-1 Final Boss",
+        "Beat 14 — Wayfinder Junction / Six Ways Through"
+      ],
+      "role": "current_chapter_01_beat_12_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Torren.md",
+      "whole_file": true,
+      "role": "torren_character_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md",
+      "whole_file": true,
+      "role": "cyanis_character_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md",
+      "whole_file": true,
+      "role": "ilyra_character_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md",
+      "whole_file": true,
+      "role": "maevra_character_authority"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
+      "whole_file": true,
+      "role": "walking_dialogue_hard_lock"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
+      "whole_file": true,
+      "role": "scene_construction_authoring_contract"
+    },
+    {
+      "path": "docs/04_WORLD_AND_LORE/LIVED_WORLD_SOCIAL_CONTEXT.md",
+      "whole_file": true,
+      "role": "lived_world_context"
+    },
+    {
+      "path": "docs/12_ECONOMY_AND_REWARDS/LIVED_ECONOMY_CONTEXT.md",
+      "whole_file": true,
+      "role": "lived_economy_context"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Southern Briar Passage",
+    "area_phase": "substantial_southward_route_exploration",
+    "dialogue_readiness": "GREEN_WITH_HOSTILE_FIELD_WINDOWS",
+    "static_story_context_only": true,
+    "visible_environment": [
+      "deeper maintained and half-reclaimed Briar route traces",
+      "old stone-lined cuts and service openings that no longer function as sensible modern routes",
+      "meaningful side paths and field landmarks without a route-choice puzzle",
+      "increasingly recognizable distant Wayfinder formation",
+      "ordinary natural predator evidence that escalates toward a clear Briarhide Stalker sighting"
+    ],
+    "runtime_note": "Torren is genuinely leading the party, so limited walking dialogue is legal only when it materially belongs to his guidance or immediate route observation. Most traversal remains gameplay and silence. HARD KNOWLEDGE BOUNDARY: Torren knows local ground, animals, route evidence, and places he has actually traveled; he does not know the ancient purpose of Wayfinder, the old side access, the mural, or the wider Diysean system. The overgrown stone-lined side access is only an impractical old route feature here. Do not identify it as a cistern route, Hunt entrance, Ancient node, tunnel system, or hidden objective. The Briarhide Stalker is natural wildlife: no corruption, control, Black Host device, special wound, possession, or puzzle condition. The Card remains sealed and inert."
+  },
+  "current_floor_state": {
+    "larger_destination": "Caelora",
+    "next_practical_destination": "Dunmere",
+    "immediate_route_goal": "southern Briar toward the Wayfinder-area corridor",
+    "combat_party": ["cyanis", "ilyra", "torren"],
+    "maevra_party_status": "noncombat_traveling_companion",
+    "torren_party_status": "permanent_party_member_and_active_guide",
+    "card_state": "sealed_with_cyanis"
+  },
+  "required_story_beats": [
+    "Torren actively leads the group through deeper southern Briar while repeatedly limiting claims to what the current ground supports.",
+    "The area receives substantial uninterrupted exploration and combat time.",
+    "Torren points out a heavily overgrown old stone-lined side access branching away from the useful route and explicitly declines it because it is impractical and not their direction.",
+    "Early natural field evidence establishes that a very large predator is active in this part of Briar Passage.",
+    "Later evidence strengthens the predator read without implying unnatural causality.",
+    "The Wayfinder-like formation becomes increasingly recognizable as the real landmark seen in the Hollow Watch mural.",
+    "The party receives a clear Briarhide Stalker sighting before the final encounter.",
+    "Beat ends with the Stalker as the immediate natural threat blocking the last stretch toward Wayfinder."
+  ],
+  "forbidden_reveals": [
+    "cistern_devourer_hunt_identity_or_access_solution",
+    "old_side_access_true_function",
+    "wayfinder_ancient_function",
+    "complete_ancient_route_network",
+    "prime_or_last_sentinel_explanation",
+    "bearer_or_authorization_explanation",
+    "entity",
+    "card_activation_or_flare"
+  ],
+  "exact_line_anchors": [],
+  "max_beats": 28,
+  "production_cost_ceiling": "economical"
+}
