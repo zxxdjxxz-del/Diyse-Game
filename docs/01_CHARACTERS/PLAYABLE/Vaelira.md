@@ -1,9 +1,10 @@
-# Vaelira
+# Vaelira Serren
 
 **Status:** ACTIVE CHARACTER AUTHORITY  
 **Domain rule:** this folder owns character identity, biography, chronology, personality, relationship logic, ordinary-life behavior, and concise voice direction. Exact class mechanics live in `06_CLASSES_AND_ABILITIES`; Card/Prime mechanics in `07_CARDS`; exact visual authority lives in `14_ART_AND_VISUALS`; exact dialogue scripts live in `03_DIALOGUE`.
 
 ## Identity
+- Full name: **Vaelira Serren**
 - Age: **27**
 - Permanent party: **yes**
 - Join: **Chapter 4**
@@ -11,7 +12,7 @@
 - Face: **Elements**
 - Story Prime: **Last Convergence**
 
-Do not infer or restore a surname from superseded migration files.
+**Naming lock:** Serren is Vaelira's canonical surname. Dialogue may use `Vaelira`, `Serren`, or `Vaelira Serren` according to relationship, formality, and scene context.
 
 ## Character core
 Vaelira is precise, composed, evidence-minded, and technically exact without being humorless.
