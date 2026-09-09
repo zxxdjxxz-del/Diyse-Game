@@ -48,6 +48,7 @@ See:
 - `../03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md`
 - `../03_DIALOGUE/AGENT_SYSTEM/RUNTIME_ORCHESTRATION.md`
 - `../03_DIALOGUE/AGENT_SYSTEM/AUTHORITY_PACKET_COMPILER.md`
+- `../03_DIALOGUE/AGENT_SYSTEM/LIVE_RUNTIME_CONTEXT.md`
 - `IMPLEMENTATION_NOTES/AREA_TRAVERSAL_AUTHORING_INTERFACE.md`
 - `DIALOGUE_UI.md`
 
@@ -91,8 +92,54 @@ Current proof/validation:
 - `tests/dialogue/test_scene_authority_compiler.py` validates current snapshot derivation, exact section extraction, profile routing, relationship inclusion, archive/history rejection, missing-heading failure and current exact-anchor verification;
 - the Python validation is included near the start of `.github/workflows/godot-smoke.yml`.
 
+### Compiled authority → curated live request
+Implemented:
+- `game/dialogue/dialogue_runtime_context_builder.gd` merges live observations into the compiled request seed without serializing raw `GameState`;
+- from GameState it reads only current area and field position;
+- map observations use a strict whitelist and are marked `runtime_observation_not_story_authority`;
+- provisional blockout/graybox map observations can be labeled `provisional_runtime` instead of being silently promoted to canon;
+- recent gameplay and interaction context use bounded whitelists;
+- encounter capture includes enabled/pause/battle/context state, normalized pressure, transition grace and pending state, but not enemy formations/rewards/calibration internals;
+- raw inventory/equipment/Card/Prime/Relic/Forge/flags/rewards/`gold`/bearer/progression fields are explicitly rejected from live dialogue context;
+- protected compiled fields cannot be overwritten during runtime merge;
+- canon snapshot mismatch fails locally before the external request;
+- `current_floor_state` is not populated from GameState flags;
+- `game/dialogue/dialogue_map_context_provider.gd` defines a standard current-map snapshot contract;
+- `game/dialogue/dialogue_scene_request_assembler.gd` combines the compiled seed, map provider, safe GameState observations, recent gameplay and encounter controller into the final Scene Orchestrator request.
+
+Validation:
+- `tests/dialogue/validate_dialogue_runtime_context_builder.gd` deliberately supplies the existing stale proof GameState and verifies that stale/internal data does not leak;
+- `tests/dialogue/validate_dialogue_scene_request_assembler.gd` validates map-provider assembly, provisional labeling, encounter-pressure merge and protected authority preservation;
+- both are listed in the smoke workflow.
+
+Current map boundary:
+- the standard provider contract exists;
+- production field maps still need to attach/update providers with their current cell/phase/readiness data;
+- the existing Chapter-0 graybox remains provisional and must not be treated as final map authority merely because it can provide runtime observations later.
+
+### Godot → external Scene Orchestrator build client
+Implemented:
+- `game/dialogue/dialogue_orchestrator_client.gd` is a **build-only canary client** for `POST /v1/scene/build`;
+- validates the assembled request and canon snapshot before starting HTTP;
+- validates runtime context schema when present;
+- accepts HTTPS endpoints, with localhost HTTP only for development;
+- supports optional bearer auth supplied at runtime and does not serialize the token into the request body;
+- prevents simultaneous requests through one `HTTPRequest` node;
+- validates response request ID, scene ID, canon snapshot, Canon Checker status and `diyse_dialogue_scene_packet_v1` handoff schema before exposing the result;
+- treats a Canon Checker `FAIL` as a valid authored build result rather than a transport error;
+- intentionally exposes **no story-memory commit helper**. `/v1/scene/commit` remains an explicit authoring action outside normal game runtime.
+
+Validation:
+- `tests/dialogue/validate_dialogue_orchestrator_client.gd` validates transport preparation/security/snapshot/response checks without making a network call;
+- it is listed in the smoke workflow.
+
+Security boundary:
+- this client is for canary authoring/preview integration, not permission to embed a long-lived service credential in a shipped game build;
+- production approved dialogue remains expected to be regenerated/reviewed/imported as authored content unless a later deployment architecture explicitly changes that rule.
+
 Current CI caveat:
-- recent GitHub Actions `smoke` jobs are failing before any steps start and report no executed steps/runner details, so repository presence of the validators is verified but a new successful hosted-run result is not currently available.
+- recent GitHub Actions `smoke` jobs are still failing before any steps start and report no executed steps/runner details;
+- latest checked run after the new client behaved the same way, so repository presence of validators is verified but a successful hosted execution result is not currently available.
 
 ### External Dialogue Engine canary
 `external-services/canary/`
@@ -278,9 +325,10 @@ The repository still does not establish final:
 - final Android safe-area/touch layout;
 - production deployment topology for every recurring Person Agent;
 - production scene-spec library mapping every current story/Character-Life/Hunt/dialogue scene to its exact active-source sections;
-- automatic merge of live game-state/map-cell/encounter-pressure data into compiled request seeds;
+- map-context provider attachment/current-cell feeds across production field maps;
+- a controlled authoring-preview controller that can take a successful external build through packet import without auto-approving it for production;
 - production staging executor for every generated camera/light/sound/model cue family;
 - regeneration/approval/import of every Chapter 0–13 spoken scene;
 - production integration of external Person-Agent memory with the main save system.
 
-The proof screens and current Dialogue Engine canary now demonstrate a real multi-agent authoring/orchestration implementation, but they do **not** mean the entire game's dialogue has already been regenerated, approved, imported and shipped.
+The proof screens and current Dialogue Engine canary now demonstrate a real multi-agent authoring/orchestration implementation, including static authority compilation, curated live-state assembly, external build transport and Godot packet ingestion foundations. They do **not** mean the entire game's dialogue has already been regenerated, approved, imported and shipped.
