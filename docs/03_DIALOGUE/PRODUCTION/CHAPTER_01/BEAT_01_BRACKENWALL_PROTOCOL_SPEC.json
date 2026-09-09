@@ -23,6 +23,11 @@
         "Beat 1 — Brackenwall / Protocol"
       ],
       "role": "current_chapter_01_beat_01_story_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
+      "whole_file": true,
+      "role": "later_explicit_physical_card_state_correction"
     }
   ],
   "additional_authority_sources": [
@@ -40,6 +45,11 @@
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
       "whole_file": true,
       "role": "scene_construction_authoring_contract"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_dialogue_workflow"
     }
   ],
   "scene_context_seed": {
@@ -50,13 +60,13 @@
     "visible_environment": [
       "Brackenwall is active and functioning rather than devastated",
       "wounded/recovery traffic from the Broken Convoy may still be present as background life",
-      "formal artifact intake occurs in a practical fortified-hub workspace rather than a grand ceremonial chamber",
-      "the recovered Card remains sealed"
+      "formal Card intake occurs in a practical fortified-hub workspace rather than a grand ceremonial chamber",
+      "Cyanis is carrying the recovered Card itself because its old protective casing broke during the Chapter-0 final boss"
     ],
-    "runtime_note": "Chapter 0 has just ended by explicit departure to Brackenwall. Preserve continuity that Cyanis and Ilyra have already experienced two incomplete Card responses and Ilyra has monitored Cyanis during/after them. Do not add a third protective flare; this beat's new anomaly is proximity/separation behavior during attempted custody transfer."
+    "runtime_note": "Chapter 0 has just ended by explicit departure to Brackenwall. The old casing broke during P06 and is gone; do not restore a replacement casing. Cyanis and Ilyra have already experienced two incomplete Card responses and Ilyra has monitored Cyanis during/after them. Do not add a third protective flare; this beat's new anomaly is proximity/separation behavior when custody personnel move the Card itself away from Cyanis."
   },
   "current_floor_state": {
-    "card_state": "sealed_with_cyanis_after_two_incomplete_chapter_0_responses",
+    "card_state": "intact_exposed_card_carried_by_cyanis_after_chapter_0_casing_break",
     "party_state": "cyanis_and_ilyra_permanent_combat_pair",
     "maevra_party_status": "noncombat_traveling_companion_after_beat",
     "destination_before_review": "Brackenwall_arrival",
