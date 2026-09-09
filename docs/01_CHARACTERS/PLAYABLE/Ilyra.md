@@ -1,9 +1,10 @@
-# Ilyra
+# Ilyra Amarin
 
 **Status:** ACTIVE CHARACTER AUTHORITY  
 **Domain rule:** this folder owns character identity, biography, chronology, personality, relationship logic, ordinary-life behavior, and concise voice direction. Exact class mechanics live in `06_CLASSES_AND_ABILITIES`; Card/Prime mechanics in `07_CARDS`; exact visual authority lives in `14_ART_AND_VISUALS`; exact dialogue scripts live in `03_DIALOGUE`.
 
 ## Identity
+- Full name: **Ilyra Amarin**
 - Age: **28**
 - Permanent party: **yes**
 - Join: **Chapter 0**
@@ -11,7 +12,7 @@
 - Face: **Grace**
 - Story Prime: **Last Sanctuary**
 
-Do not infer or restore a surname from superseded migration files.
+**Naming lock:** Amarin is Ilyra's canonical surname. Dialogue may use `Ilyra`, `Amarin`, or `Ilyra Amarin` according to relationship, formality, and scene context.
 
 ## Character core
 Ilyra's mercy is practical, adult, and agency-preserving.
