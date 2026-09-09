@@ -1,9 +1,10 @@
-# Seyrik
+# Seyrik Rell
 
 **Status:** ACTIVE CHARACTER AUTHORITY  
 **Domain rule:** this folder owns character identity, biography, chronology, personality, relationship logic, ordinary-life behavior, and concise voice direction. Exact class mechanics live in `06_CLASSES_AND_ABILITIES`; Card/Prime mechanics in `07_CARDS`; exact visual authority lives in `14_ART_AND_VISUALS`; exact dialogue scripts live in `03_DIALOGUE`.
 
 ## Identity
+- Full name: **Seyrik Rell**
 - Age: **29**
 - Permanent party: **yes**
 - Join: **end of Chapter 6**
@@ -12,7 +13,7 @@
 - Story Prime: **Last Erasure**
 - Older sister: **Talia Rell**
 
-Do not infer or restore a surname for Seyrik from superseded migration files. Talia's established name is a separate character fact and does not establish Seyrik's surname.
+**Naming lock:** Rell is Seyrik's canonical surname. Dialogue may use `Seyrik`, `Rell`, or `Seyrik Rell` according to relationship, formality, and scene context.
 
 ## Locked chronology
 - seized by the Black Host at age **5**;
