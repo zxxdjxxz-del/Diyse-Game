@@ -1,0 +1,77 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH01_BEAT11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 — Beat 11 — Hollow Watch Resolution / Torren Recruitment",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
+  "scene_purpose": "Resolve the condition that kept Torren Harth in Greenhollow, convert him from temporary ally to permanent party member without a ceremonial recruitment speech, and return the journey to the southern Briar route. Torren's commitment should arise because the Hollow Watch garrison's fate is now known, the immediate occupation/ancient-defense threat has been cleared enough for him to leave, and Maevra's original request for his route expertise can now honestly be accepted.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Beat 11 — Hollow Watch Resolution / Torren Recruitment"
+      ],
+      "role": "current_chapter_01_beat_11_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Torren.md",
+      "whole_file": true,
+      "role": "torren_character_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md",
+      "whole_file": true,
+      "role": "maevra_character_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md",
+      "whole_file": true,
+      "role": "permanent_relationship_language"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
+      "whole_file": true,
+      "role": "scene_construction_authoring_contract"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
+      "whole_file": true,
+      "role": "walking_dialogue_hard_lock"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Hollow Watch surface / secured overlook before departure",
+    "area_phase": "post_dungeon_resolution",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "visible_environment": [
+      "Hollow Watch surface has been cleared of its immediate Black Host occupation",
+      "the dead garrison remains a real human cost and should not be forgotten during recruitment",
+      "the ancient lower structure remains below and unexplained",
+      "the protected mural has just given the party a reason to inspect the southern Wayfinder formation later",
+      "the practical route back toward Greenhollow/Briar is open"
+    ],
+    "runtime_note": "This is a stopped resolution scene, not walk-and-talk. Torren should not suddenly know more about the mural or ancient infrastructure than he did in Beat 10. He knows only that modern Wayfinder matches a prominent landform in the mural and lies near the southern travel line. His recruitment should be understated and adult: Maevra originally came for him; in Greenhollow he could not honestly leave while Hollow Watch was unresolved; now he can. Avoid gamey phrases such as 'join the party,' destiny speeches, instant found-family declarations, or promises that he knows the whole southern route. Permanent-party state is a gameplay/story lock, but his spoken commitment can remain practical: he is coming with them toward Caelora and will guide the southern Briar route using current ground truth."
+  },
+  "current_floor_state": {
+    "hollow_watch_garrison_fate": "known_dead",
+    "black_host_surface_occupation": "cleared_enough_for_departure",
+    "castellan_state": "defeated",
+    "mural_state": "discovered",
+    "wayfinder_knowledge": "modern_southern_landmark_matches_prominent_mural_formation_role_unknown",
+    "card_state": "sealed_with_cyanis",
+    "torren_party_status_on_entry": "temporary_combat_ally"
+  },
+  "allowed_information_transfers": [],
+  "exact_line_anchors": [],
+  "max_beats": 22,
+  "production_cost_ceiling": "economical"
+}
