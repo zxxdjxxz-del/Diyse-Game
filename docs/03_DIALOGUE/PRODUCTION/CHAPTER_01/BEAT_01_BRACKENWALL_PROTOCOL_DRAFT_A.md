@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 1
 # Brackenwall / Protocol
-## DIALOGUE ENGINE PRODUCTION DRAFT B — rehearsal-first pass / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT C — rehearsal-first pass / awaiting user approval
 
 ---
 
@@ -12,9 +12,11 @@ Brackenwall is working.
 
 Convoy survivors are being assigned bunks. A cracked wagon wheel has been leaned against a wall with three different chalk marks on it. Somebody is boiling something that smells better than it looks.
 
-Cyanis Dovaren and Ilyra Amarin enter through the inner gate with the sealed recovery casing under escort.
+Cyanis Dovaren and Ilyra Amarin enter through the inner gate under escort.
 
-The artifact is dark.
+Cyanis is carrying the recovered Card itself. Its protective recovery casing broke during the Chapter-0 final boss fight and is gone.
+
+The Card is dark.
 
 A custody officer waits beside a reinforced intake table with an open ledger and a cup that has gone cold.
 
@@ -24,29 +26,33 @@ A custody officer waits beside a reinforced intake table with an open ledger and
 
 **Player control pauses.**
 
-The custody officer nods at the casing.
+The custody officer nods at the Card.
 
 **CUSTODY OFFICER:** That's it?
 
 **CYANIS:** That's it.
 
-**CUSTODY OFFICER:** Never opened?
+**CUSTODY OFFICER:** This was inside the recovery casing?
 
-**CYANIS:** The casing didn't.
+**CYANIS:** Until the fight.
 
-The officer looks up from the ledger.
+**ILYRA:** Card survived. Casing didn't.
 
-Ilyra answers before Cyanis can improve the sentence.
+The officer looks at the Card again.
 
-**ILYRA:** The thing inside did something twice.
+**CUSTODY OFFICER:** Better than the other way around.
 
-**CUSTODY OFFICER:** Better start there.
+**CYANIS:** Considerably.
+
+The officer opens the ledger.
+
+**CUSTODY OFFICER:** What did it do?
 
 Ilyra leans one hip against the table.
 
 **ILYRA:** Green and gold light. Geometry. It held damaged structure together around us for a few seconds.
 
-**CUSTODY OFFICER:** Around the casing?
+**CUSTODY OFFICER:** Around the Card?
 
 Ilyra points at Cyanis.
 
@@ -86,11 +92,11 @@ That is enough to make him glance at her anyway.
 
 The custody officer closes the ledger halfway.
 
-**CUSTODY OFFICER:** Fine. It goes into the warded store sealed. Caelora can decide what to do with it.
+**CUSTODY OFFICER:** Fine. Warded store until Caelora decides what to do with it.
 
 **CYANIS:** Works for me.
 
-The officer gestures to the carrying handles.
+The officer gestures to the table.
 
 **CUSTODY OFFICER:** Set it down.
 
@@ -98,9 +104,7 @@ Cyanis does.
 
 Nothing happens.
 
-The officer takes one handle. An escort takes the other.
-
-They lift the casing and start toward the interior door.
+The officer waits a moment, then picks up the Card and starts toward the interior door.
 
 One pace.
 
@@ -112,11 +116,11 @@ Ilyra sees him before he says anything.
 
 **ILYRA:** Stop.
 
-They stop.
+The officer stops.
 
-Something knocks once from inside the casing.
+A thin green-gold line wakes along the Card's face.
 
-A thin green line leaks through one damaged seam.
+Another line reaches from it across the floor toward Cyanis.
 
 Cyanis shuts his eyes for a second.
 
@@ -130,27 +134,23 @@ Ilyra is already at his wrist.
 
 His pulse jumps beneath her fingers.
 
-The green seam brightens.
+The line brightens.
 
-The custody officer looks from Cyanis to the casing.
+The custody officer looks from Cyanis to the Card in his hand.
 
-**CUSTODY OFFICER:** Bring it back.
+**CUSTODY OFFICER:** Coming back.
 
-The escort starts to turn too quickly.
+He reverses course slowly.
 
-**CUSTODY OFFICER:** Slowly.
-
-They reverse course.
-
-The light fades as the casing comes closer.
+The green line retracts as the Card comes closer.
 
 Cyanis breathes out through his nose.
 
-The casing touches the intake table.
+The officer sets the Card back on the intake table.
 
 Dark again.
 
-Ilyra keeps hold of his wrist for two more beats.
+Ilyra keeps hold of Cyanis's wrist for two more beats.
 
 Then lets go.
 
@@ -180,9 +180,9 @@ The runner goes.
 
 **Player control returns briefly.**
 
-The casing stays on the intake table under guard.
+The Card stays on the intake table under guard.
 
-Cyanis is free to move around the immediate yard, but the casing does not leave the intake area.
+Cyanis is free to move around the immediate yard, but the Card does not leave the intake area.
 
 Ilyra does not hover. She does, however, hand Cyanis a cup of water without asking.
 
@@ -192,7 +192,7 @@ Around them, Brackenwall keeps working:
 - a quartermaster argues over missing harness;
 - two convoy survivors are shown toward sleeping space;
 - someone tries to roll the marked wagon wheel away and is immediately shouted back;
-- nobody forms a crowd around the artifact.
+- nobody forms a crowd around the Card.
 
 At the progression point, Maevra Solmar enters with the custody officer.
 
@@ -202,7 +202,7 @@ At the progression point, Maevra Solmar enters with the custody officer.
 
 Maevra walks straight to the intake table.
 
-She looks at the casing.
+She looks at the Card.
 
 Then Cyanis.
 
@@ -218,7 +218,7 @@ She looks at Ilyra.
 
 The custody officer points toward the warded-store door.
 
-**CUSTODY OFFICER:** Tried to move it in. He went pale, casing lit. Brought it back, both stopped.
+**CUSTODY OFFICER:** Tried to take the Card inside. He went pale, it lit. Brought it back, both stopped.
 
 Maevra looks at Cyanis.
 
@@ -248,7 +248,7 @@ Maevra looks between them.
 
 She pulls the ledger closer and reads the last few lines.
 
-**MAEVRA:** It stays sealed. It stays with Dovaren for now. Nobody gets curious with the distance.
+**MAEVRA:** It stays with Dovaren for now. Nobody gets curious with the distance.
 
 The custody officer nods.
 
@@ -262,7 +262,7 @@ Maevra shuts the ledger.
 
 **MAEVRA:** Caelora.
 
-He looks at the casing.
+He looks at the Card.
 
 **CYANIS:** That was the plan before it developed opinions.
 
@@ -379,12 +379,14 @@ Current objective:
 **Eat, resupply, and leave with Maevra for Greenhollow.**
 
 Story state:
-- the Card's attempted transfer produced a new proximity-linked response;
+- the Chapter-0 recovery casing broke during the final boss fight and is gone;
+- Cyanis is carrying the intact Card itself;
+- the attempted Card transfer produced a new proximity-linked response;
 - Brackenwall staff stopped the transfer rather than testing it repeatedly;
 - Maevra has taken responsibility for the abnormal custody situation;
 - Caelora is the larger destination;
 - Greenhollow is the immediate destination;
-- the sealed Card remains with Cyanis / the traveling group;
+- the Card remains with Cyanis / the traveling group;
 - Ilyra continues with Cyanis after directly witnessing and monitoring the Card's effects;
 - Maevra travels with them but remains non-combat;
 - Torren Harth is the route specialist Maevra intends to find.
@@ -399,10 +401,12 @@ Next mandatory story beat:
 
 ## Rehearsal-first editor / canon check
 
-**Human-layer result:** selective participation is preserved; Ilyra does not narrate Cyanis's psychology; Maevra does not perform the Canon Checker; the custody officer remains a working professional rather than an exposition device; several polished evidence-boundary exchanges from Draft A were cut.
+**Human-layer result:** selective participation is preserved; Ilyra does not narrate Cyanis's psychology; Maevra does not perform the Canon Checker; the custody officer remains a working professional rather than an exposition device.
+
+**Continuity result:** the casing broke during Chapter-0 P06. Chapter 1 handles the Card directly and never silently restores the casing.
 
 **Story result:** all Beat-1 required events remain intact.
 
 **Reveal result:** no Prime, Might, Last Sentinel, bearer, ancient-authorization, Last Weapon, or Entity explanation is spoken.
 
-**Production result:** economical Brackenwall staging only — intake table, casing, route board, small seam-light response, ordinary fort work, B00 blocking, portraits where useful, and ambient yard activity.
+**Production result:** economical Brackenwall staging only — intake table, Card prop, route board, small green-gold line response, ordinary fort work, B00 blocking, portraits where useful, and ambient yard activity.
