@@ -1,16 +1,17 @@
-# Kessara
+# Kessara Durnan
 
 **Status:** ACTIVE SUPPORTING-CHARACTER AUTHORITY  
 **Domain rule:** this folder owns character identity, biography, chronology, personality, relationship logic, ordinary-life behavior, engineering ethics, and concise voice direction. Exact equipment/service mechanics live in their owning system domains; exact visual authority lives in `14_ART_AND_VISUALS`.
 
 ## Identity
+- Full name: **Kessara Durnan**
 - Age: **22**
 - Height: approximately **5'0"**
 - Origin/craft tradition: **Emberforge**
 - Role: runesmith, field engineer, structural/mechanical problem-solver
 - Party status: major recurring **nonplayable** supporting character
 
-Do not infer or restore a surname from superseded migration files. The former surname-derived workshop label and former named family/workshop branch are not current authority.
+**Naming lock:** Durnan is Kessara's canonical surname. Dialogue may use `Kessara`, `Durnan`, or `Kessara Durnan` according to relationship, formality, and scene context. The retired surname-derived workshop label and retired named family/workshop branch remain superseded; restoring the surname does **not** restore those old workshop/family structures.
 
 ## Hard party boundary
 Kessara is not:
@@ -196,7 +197,7 @@ If a workstation does not fit the worker, Kessara's instinct is to fix the works
 Her family/craft responsibility arc centers on the question:
 > what does a maker owe the world after the work leaves their hands?
 
-Current authority preserves the ethical structure, not superseded family/workshop names.
+Current authority preserves the ethical structure while leaving retired workshop/family-branch structures superseded.
 
 The arc rejects both extremes:
 - "makers are responsible for anything anyone ever does with a tool";
