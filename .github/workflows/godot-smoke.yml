@@ -99,6 +99,9 @@ jobs:
       - name: Run Dialogue Engine Godot Orchestrator client validation
         run: godot --headless --path . --script tests/dialogue/validate_dialogue_orchestrator_client.gd
 
+      - name: Run Dialogue Engine controlled preview-gate validation
+        run: godot --headless --path . --script tests/dialogue/validate_dialogue_scene_preview_controller.gd
+
       - name: Run Step 7C S001 opening validation
         run: godot --headless --path . --script tests/dialogue/validate_s001.gd
 
