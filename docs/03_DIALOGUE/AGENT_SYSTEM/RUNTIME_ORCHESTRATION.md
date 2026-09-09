@@ -2,60 +2,96 @@
 
 **Status:** ACTIVE CANARY IMPLEMENTATION AUTHORITY  
 **Domain:** `03_DIALOGUE/AGENT_SYSTEM`  
-**Runtime:** `external-services/canary/`
+**External runtime:** `external-services/canary/`
 
-This document defines how the current canary turns the Dialogue Engine design into a scene-building service.
-It does not make generated wording canon by itself. Current owning story/character/world/system documents remain authoritative.
+Generated wording is not canon merely because the canary produced it. Current owning story/character/world/system documents remain authoritative, and production dialogue still requires review/promotion.
 
 ---
 
-## 1. Runtime flow
+## 1. Current end-to-end chain
 
-The current scene pipeline is:
+> **Current repository authority → authority compiler → curated live runtime merge → Scene Orchestrator → Dialogue Director → Person Agents → Beat Editor → Canon Checker → Godot handoff → controlled preview/import → human approval → optional story-memory commit**
 
-> **Current Repository Authority → Authority Compiler → Live Runtime Merge → Scene Job → Dialogue Director → Person Agents → Beat Editor → Canon Checker → Godot Handoff → Human Approval → Story-Memory Commit**
+Static authority and live observation are separate channels:
+- `authority_packet` = repository-owned current authority;
+- `scene_context.runtime_observable` = curated live/provisional game observations.
 
-The Director, Person Agents, Editor and Canon Checker all receive the unified scene-construction context rather than operating as isolated prose generators.
-
-The Director must reason from:
-- story position and required/forbidden information;
-- people present;
-- map/sub-area/cell role;
-- recent gameplay;
-- encounter pressure and recovery state;
-- lived-world/economic context actually established;
-- dialogue readiness;
-- economical HD-2D staging;
-- production-cost ceiling.
-
-Person Agents receive the Director beat target plus observable scene history, so later dialogue can respond to what actually happened in earlier beats.
-
-Static/current authority and live observations are deliberately separate:
-- `authority_packet` carries compiled repository-owned truth;
-- `scene_context.runtime_observable` carries curated live/provisional game observations.
-
-Runtime observations may influence the scene but do not become canon authority.
+Live observations may influence dialogue and staging. They do not rewrite canon.
 
 See:
 - `AUTHORITY_PACKET_COMPILER.md`
 - `LIVE_RUNTIME_CONTEXT.md`
+- `SCENE_CONSTRUCTION_STACK.md`
 
 ---
 
-## 2. Runtime files
+## 2. Repository authority compiler
 
-### Persistent Person Agent
-`external-services/canary/person_agent.py`
+Tool:
+> `tools/dialogue/compile_scene_authority.py`
 
-A single generic service implementation hosts any YAML brain present in:
-`external-services/canary/brains/`
+Input:
+> `diyse_scene_authority_spec_v1`
 
-Select the person with:
-`CHARACTER_ID=<brain file stem>`
+Output authority packet:
+> `diyse_scene_authority_packet_v1`
 
-The service discovers brain IDs at runtime rather than hard-coding the permanent six.
+The compiler:
+- requires explicit current `02_STORY` sections;
+- packages current participant character authority;
+- includes current global guardrails and relevant permanent-six relationship authority;
+- fingerprints source files/sections, participant profiles, scene spec and bundle;
+- rejects working/archive/historical dialogue sources as current scene authority;
+- requires explicit current `03_DIALOGUE` proof for any exact-line anchor;
+- does not invent runtime state, map facts, encounter pressure or C/V presentation tiers.
 
-It exposes:
+A missing requested Markdown heading is fatal rather than permission to widen retrieval.
+
+---
+
+## 3. Curated live-state assembly
+
+Godot files:
+- `game/dialogue/dialogue_runtime_context_builder.gd`
+- `game/dialogue/dialogue_map_context_provider.gd`
+- `game/dialogue/dialogue_scene_request_assembler.gd`
+
+The runtime builder deliberately does **not** serialize raw `GameState`.
+
+Safe automatic GameState capture is currently limited to:
+- current area ID;
+- field position.
+
+The map-provider contract supplies current observable:
+- cell/phase;
+- qualitative dialogue readiness;
+- location label;
+- visible facts;
+- route/time context;
+- runtime authority status.
+
+Provisional grayboxes/blockouts should identify themselves as `provisional_runtime`.
+
+Encounter capture includes pressure/pause/pending state without exposing formations, reward payloads or implementation calibration.
+
+Raw inventory/equipment/Card/Prime/Relic/Forge/flags/rewards/`gold`/bearer/progression containers are not valid Dialogue Engine runtime context.
+
+Compiled authority fields cannot be overwritten during runtime merge.
+
+---
+
+## 4. Persistent Person Agent
+
+Entry point:
+> `external-services/canary/person_agent.py`
+
+Container:
+> `external-services/canary/Dockerfile`
+
+Select the deployed person with:
+> `CHARACTER_ID=<brain file stem>`
+
+Current service endpoints:
 - `GET /health`
 - `GET /v1/identity`
 - `GET /v1/context-snapshot`
@@ -63,179 +99,94 @@ It exposes:
 - `POST /v1/commit`
 - `POST /v1/open-conversation`
 
-`/v1/context-snapshot` supplies the orchestration layer with the current story revision and public runtime state needed for safe optimistic commits.
-
-### Scene Orchestrator
-`external-services/canary/scene_orchestrator.py`
-
-It exposes:
-- `GET /health`
-- `POST /v1/scene/build`
-- `POST /v1/scene/commit`
-
-Container target:
-`external-services/canary/Dockerfile.orchestrator`
-
-### Repository authority compiler
-`tools/dialogue/compile_scene_authority.py`
-
-It turns an explicit `diyse_scene_authority_spec_v1` into a fingerprinted current-authority request seed while rejecting archive/working/historical dialogue sources as current scene authority.
-
-### Godot live request assembly
-- `game/dialogue/dialogue_runtime_context_builder.gd`
-- `game/dialogue/dialogue_map_context_provider.gd`
-- `game/dialogue/dialogue_scene_request_assembler.gd`
-
-These combine the compiled seed with a deliberately small live observation set. They do not serialize raw `GameState`.
-
----
-
-## 3. Participant sources
-
-Every speaking/materially reacting person must have a current person source.
-
-### A. Persistent source
-Preferred for recurring people whose continuity should survive across scenes.
-
-The Orchestrator calls that person's deployed Person Agent through an entry in `AGENT_URLS_JSON`.
-
-Example conceptual mapping:
-```json
-{
-  "cyanis": "https://...",
-  "maevra": "https://...",
-  "othmar": "https://..."
-}
-```
-
-A persistent source provides:
-- current approved brain synthesis;
+Persistent Person Agents provide:
+- current brain synthesis;
 - personal story memory;
 - current runtime state;
 - optimistic story revision;
 - character-local knowledge behavior.
 
-### B. Profile-only source
-Fallback for a person who has current character authority but no deployed persistent service yet.
+YAML brains are runtime synthesis, never independent canon.
 
-The scene request supplies:
-`participant_profiles[character_id]`
-
-The Orchestrator runs that profile through the same Person-Agent behavior contract for the current scene.
-
-Profile-only participants:
-- may speak/react normally;
-- must obey the same knowledge firewall and scene grammar;
-- do **not** gain silently committed persistent memory;
-- return memory proposals separately if the Canon Checker believes durable continuity should later be promoted.
-
-### Hard rule
-The Director may not invent a generic NPC voice for a named participant merely because no persistent deployment exists.
-A named participant must have either:
-- a configured persistent agent; or
-- an explicit current profile supplied to the scene job.
+Current brain library contains the permanent six plus recurring supporting/major antagonist profiles already synthesized in the repo.
 
 ---
 
-## 4. Current brain library
+## 5. Participant-source rule
 
-The canary brain library now contains runtime synthesis for the permanent six plus recurring supporting/antagonist people already deep-characterized in current authority.
+Every named participant must have one of:
 
-Permanent six:
-- `cyanis`
-- `ilyra`
-- `torren`
-- `nimera`
-- `vaelira`
-- `seyrik`
+### Persistent source
+A deployed Person Agent listed in `AGENT_URLS_JSON`.
 
-Recurring supporting set currently synthesized:
-- `maevra`
-- `kessara`
-- `talia`
-- `edda`
-- `mirena`
-- `lysara`
-- `alaric`
-- `nalia`
+### Profile-only source
+A current character profile supplied in:
+> `participant_profiles[character_id]`
 
-Major antagonist set currently synthesized:
-- `othmar`
-- `rhazek`
-- `zevraya`
-- `varkesh`
-- `vaelkor`
-- `reconstituted_entity`
+Profile-only people may speak/react normally but do not silently gain committed persistent memory.
 
-A YAML brain remains **runtime synthesis**, not independent canon. If it conflicts with its `source_authority`, the source authority wins and the brain must be regenerated.
-
-Prince Consort Cassian and one-off/minor NPCs remain profile-fallback candidates until sufficient current character authority justifies a persistent brain.
+Hard rule:
+> The Director may not fabricate a generic NPC voice because a named person's persistent deployment is missing.
 
 ---
 
-## 5. Scene-build contract
+## 6. Scene Orchestrator
 
-`POST /v1/scene/build` receives a scene job containing, at minimum:
-- request ID;
-- scene ID;
+Entry point:
+> `external-services/canary/scene_orchestrator.py`
+
+Container:
+> `external-services/canary/Dockerfile.orchestrator`
+
+Endpoints:
+- `GET /health`
+- `POST /v1/scene/build`
+- `POST /v1/scene/commit`
+
+A normal build request contains:
+- request/scene ID;
 - story position;
-- canon snapshot ID;
+- canon snapshot;
 - participants;
-- scene purpose.
-
-Normal authored requests should also include:
-- current story/scene authority packet;
-- participant profiles for any non-deployed named people;
-- location/sub-area/cell role;
-- entry/exit context;
-- recent gameplay;
-- encounter pressure;
-- current world-life conditions that are actually established;
+- scene purpose;
+- current authority packet;
+- participant profiles where needed;
+- curated map/recent-gameplay/encounter context;
+- current floor/knowledge constraints;
 - allowed information transfers;
-- any required exact-line anchors;
-- production-cost ceiling.
+- required exact-line anchors;
+- beat/cost limits.
 
-Current production path for static authority:
-> explicit scene spec → `compile_scene_authority.py` → fingerprinted request seed
-
-Current production path for live observations:
-> map provider + safe area/position + encounter controller + curated recent gameplay → `DiyseDialogueSceneRequestAssembler`
-
-Unknown map/economy/story facts should remain unknown/open rather than being fabricated to fill the packet.
-
-Raw `GameState`, inventory, equipment, flags, reward containers, proof Prime data and other uncurated save/runtime objects are not valid model context.
+Unknown facts stay unknown. The request is not padded with invented map/economy/story detail.
 
 ---
 
-## 6. Director behavior
+## 7. Dialogue Director
 
-The Director outputs a beat plan rather than final dialogue.
+The Director produces a **beat plan**, not final prose.
 
 It chooses:
 - scene mode;
-- qualitative dialogue readiness;
+- qualitative readiness;
 - movement lock;
 - encounter policy;
-- staging tier;
-- which people are eligible to participate in each beat;
+- staging intent;
+- eligible people for each beat;
 - whether silence is appropriate;
 - what each beat must land/avoid;
 - return-to-gameplay behavior.
 
-The Director is specifically prevented from treating physical map/play state as incidental.
-
-Examples:
-- an AMBER active route should bias toward shorter exchanges;
-- a RED pursuit should not become a five-minute camp conversation;
-- a story-bearing cell can use one short environmental observation instead of a full stop scene;
-- a post-boss recovery threshold may earn silence before the next objective;
-- walking dialogue may temporarily suppress encounter triggering without resetting encounter pressure.
+The Director must treat gameplay context as part of the scene:
+- AMBER routes bias shorter;
+- RED pursuit cannot become a long camp conversation;
+- post-battle/recovery thresholds may earn silence;
+- walking dialogue may suppress encounter triggering without resetting accumulated pressure.
 
 ---
 
-## 7. Person-Agent candidate pass
+## 8. Person-Agent candidate pass
 
-For each beat, the Orchestrator asks only the Director-selected eligible people for candidate behavior.
+For each beat, only Director-selected eligible people are queried.
 
 A Person Agent may return:
 - speech;
@@ -243,28 +194,18 @@ A Person Agent may return:
 - silence/nonparticipation;
 - uncertainty;
 - misunderstanding;
-- question;
-- joke;
+- a question;
+- a joke;
 - refusal;
-- state-change proposal.
+- a state-change proposal.
 
-The Person Agent is not required to speak because the Director asked it for a candidate.
-
-Each candidate must remain grounded in:
-- the person's brain/profile;
-- personal continuity if persistent;
-- current state;
-- observable prior beats;
-- current scene context;
-- allowed knowledge transfers.
+Later candidates see the actual prior drafted beats, so they can react to what really happened in the generated scene rather than an abstract outline.
 
 ---
 
-## 8. Dialogue Editor
+## 9. Beat Editor
 
-The Beat Editor selects the candidate that best serves the beat.
-
-It may lightly reshape wording for:
+The Editor may reshape candidate material for:
 - mature spoken rhythm;
 - clarity;
 - interruption;
@@ -272,141 +213,132 @@ It may lightly reshape wording for:
 - comedy timing;
 - scene economy.
 
-It may not invent substantive character knowledge or new canon to make a line prettier.
+It may not invent substantive character knowledge or canon.
 
-The Editor is also responsible for turning some meaning into staging rather than speech:
-- field-model facing;
-- a small gesture;
+It may move meaning out of dialogue and into staging:
+- facing/gesture;
 - portrait expression;
 - silence;
 - camera hold/reframe;
-- prop action;
+- prop activity;
 - light/sound change;
 - background activity;
 - environment state swap.
 
 ---
 
-## 9. Exact-line anchors
+## 10. Exact-line anchors
 
-`exact_line_anchors` are explicit user-locked wording only.
+Exact anchors are exceptional user-locked wording.
 
 A required anchor must:
-- use the named speaker;
+- name a participant speaker;
 - survive verbatim;
-- pass the local exact-match check;
+- pass local exact-match checks;
 - pass the Canon Checker.
 
-For repository-compiled scenes, the authority compiler additionally requires the exact text to appear verbatim in a cited **current** `03_DIALOGUE` source section. Historical line-complete transcripts cannot silently reassert exact-line authority.
-
-The rest of the scene remains free to regenerate around an anchor unless separately locked.
+Repository-compiled anchors must also be verified against a cited **current** `03_DIALOGUE` source section. Historical line-complete transcripts cannot silently reacquire exact wording authority.
 
 ---
 
-## 10. Canon Checker
+## 11. Canon Checker
 
-The Canon Checker audits the assembled scene after all beats exist.
-
-It checks:
-- current story requirements;
+The final scene is audited for:
+- story requirements;
 - forbidden reveals;
 - knowledge firewalls;
 - stale terminology;
 - unsupported local/economic claims;
 - participant validity;
-- exact-line anchors;
+- exact anchors;
 - no player dialogue choices;
 - gameplay legality;
 - map/traversal pacing;
 - encounter-pressure integrity;
-- mature/natural voice differentiation;
+- voice differentiation;
 - current HD-2D production ceiling.
 
-A FAIL does not silently rewrite itself into a PASS.
-The failed beat/scene returns violations for regeneration or human revision.
+A FAIL remains FAIL. It returns violations and cannot silently rewrite itself into PASS.
 
 ---
 
-## 11. Memory and state safety
+## 12. Memory / commit safety
 
-A successful build does **not** automatically modify story continuity.
+A successful build never automatically changes story continuity.
 
-On PASS, the Canon Checker may produce conservative durable-memory ledgers for persistent participants.
-These should contain only things the character could plausibly retain, such as:
-- promise;
-- conflict;
+On PASS the checker may propose conservative durable memories, such as:
+- promise/conflict;
 - care received/refused;
-- practical favor;
+- favor;
 - joke/callback;
 - mistake/correction;
 - follow-through;
 - relationship shorthand;
 - unresolved misunderstanding;
-- mundane continuity worth retaining;
 - meaningful observed event.
 
-Do not store every line merely because it happened.
-
-State changes remain proposals rather than automatic whole-state replacement during scene build.
-
----
-
-## 12. Explicit commit gate
+Do not store every line merely because it occurred.
 
 `POST /v1/scene/commit` requires:
 - `author_approved: true`;
-- Canon Checker `PASS`;
+- Canon Checker PASS;
 - matching canon snapshot;
-- expected previous revision for every persistent participant receiving a memory ledger.
+- expected previous revision for every persistent participant receiving a ledger.
 
-The per-person Person Agent still independently rejects:
-- non-PASS commits;
-- snapshot mismatch;
-- stale expected revision.
-
-This keeps sandbox/draft generation from silently changing story continuity.
+Per-person services retain their own independent snapshot/revision/PASS checks.
 
 ---
 
-## 13. Godot handoff
+## 13. Godot build transport
 
-A PASS or FAIL build returns a `godot_handoff` packet using:
-`diyse_dialogue_scene_packet_v1`
+Build-only client:
+> `game/dialogue/dialogue_orchestrator_client.gd`
 
-The packet contains:
-- scene ID;
-- story position;
-- scene mode;
-- movement lock;
-- dialogue readiness;
-- production-cost tier;
-- encounter policy;
-- ordered beats;
-- speaker ID;
-- body text;
-- true silent beat support;
-- action;
-- expression ID slot;
-- portrait-side slot;
-- staging cues;
-- return-to-gameplay behavior.
+It can send an assembled request to:
+> `POST /v1/scene/build`
 
-Current Godot bridge:
-- `game/dialogue/dialogue_scene_packet_importer.gd` validates/translates the packet into `DiyseDialogueSceneDefinition` using explicit game-side authoring metadata;
-- `game/dialogue/dialogue_field_bridge.gd` applies/restores movement and encounter policy around the Resource-backed scene;
-- stable IDs and current Resource architecture remain intact;
-- the importer does not infer C0–C3/V1–V4 presentation tiers from the qualitative production-cost label.
+It validates request snapshot/schema before HTTP and validates response request ID, scene ID, snapshot, checker status and Godot handoff schema afterward.
 
-A full production executor for every camera/light/sound/field-model staging cue family remains separate work.
+A Canon Checker FAIL is still a successful transport/build response and is exposed as a rejected authored draft.
+
+The game-side client intentionally provides **no story-memory commit helper**.
+
+Security boundary:
+> The client is for canary authoring/preview integration. Do not embed a long-lived service credential in a shipped executable.
 
 ---
 
-## 14. Deployment configuration
+## 14. Controlled preview/import
 
-Person Agent container:
-`external-services/canary/Dockerfile`
+Preview controller:
+> `game/dialogue/dialogue_scene_preview_controller.gd`
 
-Important env vars:
+Packet importer:
+> `game/dialogue/dialogue_scene_packet_importer.gd`
+
+Field policy bridge:
+> `game/dialogue/dialogue_field_bridge.gd`
+
+A build returns:
+> `diyse_dialogue_scene_packet_v1`
+
+Preview behavior:
+- FAIL → rejected draft, no Dialogue Resource;
+- PASS → may be imported into a **temporary** `DiyseDialogueSceneDefinition` using explicit game-side authoring metadata;
+- no automatic production save;
+- no automatic DialogueRunner start;
+- no automatic canon approval;
+- no automatic Person-Agent memory commit.
+
+The importer preserves stable IDs/current Resource architecture and does not infer C0–C3/V1–V4 from qualitative production cost.
+
+The field bridge can apply/restore movement and encounter policy once an approved Resource-backed scene is actually run.
+
+---
+
+## 15. Deployment configuration
+
+Person Agent env vars include:
 - `CHARACTER_ID`
 - `CANON_SNAPSHOT_ID`
 - `MODEL_API_URL`
@@ -415,10 +347,7 @@ Important env vars:
 - `PERSISTENCE_PATH`
 - `SERVICE_AUTH_TOKEN`
 
-Scene Orchestrator container:
-`external-services/canary/Dockerfile.orchestrator`
-
-Important env vars:
+Scene Orchestrator env vars include:
 - `CANON_SNAPSHOT_ID`
 - `MODEL_API_URL`
 - `MODEL_API_KEY`
@@ -427,40 +356,24 @@ Important env vars:
 - `AGENT_AUTH_TOKEN`
 - `AGENT_URLS_JSON`
 
-Convenience permanent-six URL vars are also accepted:
-- `CYANIS_AGENT_URL`
-- `ILYRA_AGENT_URL`
-- `TORREN_AGENT_URL`
-- `NIMERA_AGENT_URL`
-- `VAELIRA_AGENT_URL`
-- `SEYRIK_AGENT_URL`
-
-For recurring supporting/antagonist persistence, use `AGENT_URLS_JSON` with their stable brain IDs.
+Convenience permanent-six URL variables remain supported; recurring people should use stable IDs through `AGENT_URLS_JSON` when persistent deployment is desired.
 
 ---
 
-## 15. Current implementation boundary
+## 16. Current implementation boundary
 
-This is a canary authoring/runtime architecture, not a claim that every story scene has already been regenerated and imported into Godot.
+Implemented canary chain:
+> **current repository authority → deterministic authority packet → curated live map/gameplay/encounter context → multi-agent scene build → Canon Check → validated Godot handoff → temporary current-schema preview → field-policy-ready Resource architecture**
 
-Now implemented:
-- repository-current scene authority compilation with source/section fingerprints;
-- generic persistent/profile-only Person Agent sourcing;
-- Director/Person-Agent/Editor/Canon-Checker orchestration;
-- curated live GameState/encounter context boundary;
-- standard map-context provider + request assembler contract;
-- `diyse_dialogue_scene_packet_v1` → Godot Dialogue Resource import;
-- field movement/encounter-policy handoff.
+Still separate production work:
+- deploy/configure the recurring Person Agents that need persistent continuity;
+- attach/update map-context providers across actual production field maps;
+- author the production scene-spec library from current story/quest/dialogue authority;
+- create reviewed promotion tooling that writes an approved preview into production Dialogue Resources/source control;
+- implement the remaining camera/light/sound/field-model staging executor;
+- regenerate, review and import all Chapter 0–13 spoken scenes;
+- integrate approved external continuity with the production save system.
 
-Still separate work:
-- deploy/configure the desired recurring Person Agent services;
-- attach/update map-context providers across production field maps and feed current cell/phase data;
-- connect the assembled Godot request to the external `/v1/scene/build` endpoint;
-- build the final staging executor for generated camera/light/sound/model cues;
-- author the production scene-spec library from current `02_STORY`/quest/dialogue authority;
-- regenerate, approve and import Chapters 0–13 spoken scenes;
-- integrate approved external Person-Agent continuity with the production save system.
+The architectural rule remains:
 
-The important architectural lock is now in place:
-
-> Dialogue is built from the playable scene, the living people, the living world, the map/gameplay rhythm, and the actual HD-2D production language together—not written in isolation and fitted into the game afterward.
+> Dialogue is built from the playable scene, living people, living world, map/gameplay rhythm and actual HD-2D production language together—not written in isolation and fitted into the game afterward.
