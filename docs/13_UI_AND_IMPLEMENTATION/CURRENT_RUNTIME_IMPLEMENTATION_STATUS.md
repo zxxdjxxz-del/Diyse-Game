@@ -47,6 +47,7 @@ Current dialogue authoring/presentation interface additionally requires:
 See:
 - `../03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md`
 - `../03_DIALOGUE/AGENT_SYSTEM/RUNTIME_ORCHESTRATION.md`
+- `../03_DIALOGUE/AGENT_SYSTEM/AUTHORITY_PACKET_COMPILER.md`
 - `IMPLEMENTATION_NOTES/AREA_TRAVERSAL_AUTHORING_INTERFACE.md`
 - `DIALOGUE_UI.md`
 
@@ -67,6 +68,31 @@ Still incomplete on the Godot delivery side:
 - camera/light/sound/field-model staging cues are carried through the packet/Resource and emitted by the runner, but a final production staging executor does not yet consume every cue family;
 - generated packets are not yet mass-imported into final Chapter 0–13 production Resources;
 - the external dialogue-memory store is not yet integrated into the main save system.
+
+### Repository → scene authority compiler
+Implemented:
+- `tools/dialogue/compile_scene_authority.py` compiles a bounded current-source scene spec into a request seed for the Scene Orchestrator;
+- input schema: `diyse_scene_authority_spec_v1`;
+- output authority schema: `diyse_scene_authority_packet_v1`;
+- canon snapshot ID is derived from current `CURRENT_CANON_STATUS.md` rather than hard-coded into a scene fixture;
+- current character files are packaged as participant profile sources;
+- the permanent-six relationship map is included automatically when at least two permanent members are present;
+- current global authority/terminology/dialogue-handoff guardrails are included automatically;
+- requested Markdown sections are extracted exactly; a missing/ambiguous heading is fatal rather than widening retrieval;
+- `90_WORKING`, `99_ARCHIVE`, historical `03_DIALOGUE/LINE_COMPLETE`, pre-reorganization `docs/chapters/`, and the historical exact-source manifest are rejected as current scene authority;
+- preserved exact-line anchors require a current `03_DIALOGUE` source proof and must appear verbatim in that source;
+- every selected source and participant profile is SHA-256 fingerprinted;
+- the scene spec and final authority bundle are fingerprinted so character/story/spec edits change the compiled identity;
+- live combat/fatigue/field/encounter/memory state and C/V staging tiers are deliberately not invented by repository compilation.
+
+Current proof/validation:
+- `tests/dialogue/fixtures/authority_ch1_brackenwall_protocol.json` is a non-production Chapter-1 Brackenwall/Protocol compile fixture;
+- the fixture intentionally uses `PROOF_CH1_BRACKENWALL_PROTOCOL` rather than guessing a current S### mapping that has not been explicitly promoted in lean story authority;
+- `tests/dialogue/test_scene_authority_compiler.py` validates current snapshot derivation, exact section extraction, profile routing, relationship inclusion, archive/history rejection, missing-heading failure and current exact-anchor verification;
+- the Python validation is included near the start of `.github/workflows/godot-smoke.yml`.
+
+Current CI caveat:
+- recent GitHub Actions `smoke` jobs are failing before any steps start and report no executed steps/runner details, so repository presence of the validators is verified but a new successful hosted-run result is not currently available.
 
 ### External Dialogue Engine canary
 `external-services/canary/`
@@ -251,7 +277,8 @@ The repository still does not establish final:
 - Kessara service menu;
 - final Android safe-area/touch layout;
 - production deployment topology for every recurring Person Agent;
-- automatic repository-to-scene authority-packet compiler;
+- production scene-spec library mapping every current story/Character-Life/Hunt/dialogue scene to its exact active-source sections;
+- automatic merge of live game-state/map-cell/encounter-pressure data into compiled request seeds;
 - production staging executor for every generated camera/light/sound/model cue family;
 - regeneration/approval/import of every Chapter 0–13 spoken scene;
 - production integration of external Person-Agent memory with the main save system.
