@@ -1,0 +1,41 @@
+schema_version: 1
+status: CURRENT_NAMING_RUNTIME_SYNTHESIS
+source_authority:
+  - docs/01_CHARACTERS/PLAYABLE/README.md
+  - docs/01_CHARACTERS/PLAYABLE/Cyanis.md
+  - docs/01_CHARACTERS/PLAYABLE/Ilyra.md
+  - docs/01_CHARACTERS/PLAYABLE/Torren.md
+  - docs/01_CHARACTERS/PLAYABLE/Nimera.md
+  - docs/01_CHARACTERS/PLAYABLE/Vaelira.md
+  - docs/01_CHARACTERS/PLAYABLE/Seyrik.md
+  - docs/01_CHARACTERS/SUPPORTING/Maevra.md
+  - docs/01_CHARACTERS/SUPPORTING/Kessara.md
+
+rule: >
+  Diyse uses canonical surnames. Stable repository filenames and runtime character IDs may
+  remain first-name-only for compatibility; that does not remove the surname from character
+  identity. Dialogue may use first name, surname, or full name according to relationship,
+  hierarchy, formality, and scene context. Do not treat a canonical surname as stale merely
+  because an older migration cleanup removed surname-bearing filenames.
+
+canonical_full_names:
+  cyanis: Cyanis Dovaren
+  ilyra: Ilyra Amarin
+  torren: Torren Harth
+  nimera: Nimera Pellan
+  vaelira: Vaelira Serren
+  seyrik: Seyrik Rell
+  maevra: Maevra Solmar
+  kessara: Kessara Durnan
+
+known_family_links:
+  torren:
+    sibling: Edda Harth
+  seyrik:
+    sibling: Talia Rell
+
+boundaries:
+  - Do not invent alternate surnames.
+  - Do not infer new family structures solely from a shared surname unless current character authority establishes them.
+  - Kessara Durnan's surname does not restore the retired surname-derived workshop label or retired family/workshop branch.
+  - Runtime IDs remain lowercase first-name IDs unless a separate implementation migration explicitly changes them.
