@@ -6,7 +6,7 @@
 
 ## Hard traversal rule
 
-During ordinary field traversal:
+During ordinary route/dungeon/wilderness traversal:
 
 > **Cyanis is the only party character represented on the exploration field.**
 
@@ -20,6 +20,18 @@ Do not author ordinary traversal staging such as:
 - party members repositioning around route obstacles during free traversal;
 - a visible follower formation.
 
+## Town / camp / Cresthaven exception
+
+Towns, camps, and **Cresthaven** are not governed by the Cyanis-only traversal presentation in the same way as ordinary routes and dungeons.
+
+> **Party members and relevant NPCs may be physically present as field models in towns, camps, and Cresthaven.**
+
+They may occupy sensible standing/resting/work/social positions in those spaces and be available for authored or optional interaction as current story authority allows.
+
+This does **not** mean the whole party must always be visible at once. Placement should follow the location, current story state, and scene needs.
+
+Cresthaven is explicitly included in this hub-style presentation rule.
+
 ## Scene-trigger exception
 
 When an authored scene triggers and ordinary traversal stops:
@@ -31,17 +43,18 @@ This is normal and allowed.
 A triggered scene may therefore show Cyanis, Ilyra, Torren, Maevra, NPCs, or other present characters together when that helps the scene read spatially.
 
 The important distinction is:
-- **ordinary traversal:** Cyanis only;
+- **ordinary route/dungeon/wilderness traversal:** Cyanis only;
+- **towns / camps / Cresthaven:** relevant party members and NPCs may already be present as field models;
 - **authored triggered scene:** relevant participants may appear as field models;
 - **battle:** battle presentation owns the combat models.
 
-Scene-trigger models are not permission for constant choreography. They may simply stand in sensible positions while portraits and the dialogue box carry most of the acting.
+Scene-trigger and hub-area models are not permission for constant choreography. They may simply stand in sensible positions while portraits and the dialogue box carry most of the acting.
 
 ## Dialogue presentation rule
 
 The default authored conversation presentation remains intentionally simple:
 
-> **illustrated character portrait(s) + dialogue box over the existing field/background, with scene field models available when a trigger calls for them.**
+> **illustrated character portrait(s) + dialogue box over the existing field/background, with field models available when the location or scene calls for them.**
 
 Portraits carry speaker identity, expression, and most conversational acting.
 
@@ -55,7 +68,7 @@ Avoid scripting tiny physical actions unless the scene genuinely needs them, inc
 - incidental prop business;
 - repeated hand/head/posture animation that portraits already communicate.
 
-A triggered scene can have the characters physically present without making them perform a miniature animation sequence.
+A triggered scene or hub conversation can have the characters physically present without making them perform a miniature animation sequence.
 
 ## Environment rule
 
@@ -73,6 +86,7 @@ Do not write dialogue scenes as though every background element can be physicall
 
 Physical field presentation is appropriate for:
 - Cyanis's normal player traversal;
+- party/NPC presence in towns, camps, and Cresthaven;
 - field models of relevant characters once an authored scene triggers;
 - combat and boss presentation;
 - required interaction with a major story object;
@@ -87,6 +101,8 @@ Even in a triggered scene, use the simplest blocking that communicates the momen
 
 For example, Torren may guide Cyanis through a route via portrait/dialogue-box instructions while Cyanis remains the sole visible traversal character. If the game stops for an authored scene, Torren's field model may then appear normally for that scene.
 
+Town/camp/Cresthaven conversations may begin with the relevant character already physically present in the location.
+
 ## Authoring consequence
 
 Dialogue manuscripts should primarily author:
@@ -100,4 +116,4 @@ They should **not** become micro-animation scripts.
 
 When in doubt:
 
-> **Traversal: Cyanis only. Triggered scene: bring in whoever the scene needs. Let portraits and dialogue carry most of the performance.**
+> **Route traversal: Cyanis only. Town/camp/Cresthaven: relevant characters may be present. Triggered scene: bring in whoever the scene needs. Let portraits and dialogue carry most of the performance.**
