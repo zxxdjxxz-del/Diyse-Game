@@ -374,296 +374,339 @@ No definitive Leviathan origin without explicit encounter authority, transfer re
 ## Purpose
 Pivot Chapter 2 cleanly from the ancient-Archive thread back into the human kidnapping plot by revealing that the final deeper Archive route contains an old concealed passage that physically connects into what the Black Host is using as the **Prisoner Galleries**.
 
-This beat should:
-- reward defeating the Archive Leviathan with meaningful physical progress rather than another lore document;
-- preserve the surprise that the ancient complex reaches directly into/under the modern Bastion;
-- eliminate the need for a transfer-records intermediary;
-- let the party enter the prisoner infrastructure covertly before the Black Host understands how they arrived;
-- stop before the actual prisoner-contact scene so Beat 10 can focus on the people themselves.
-
-## Starting state
-- Archive Leviathan has been defeated/overcome.
-- The deeper route it blocked is now accessible.
-- The party still has not located the kidnapped travelers.
-- The Sunken Archive remains outside active Black Host occupation as far as the party has seen.
-- The Bastion is still the immediate objective.
-- Combat party: **Cyanis + Ilyra + Torren**.
-- Maevra remains physically present and fully noncombat.
-- The Black Host has not knowingly intercepted the party's covert approach.
-
 ## Passage-discovery rule
 The route into the Prisoner Galleries is an **old secret/concealed passage belonging to the ancient structure**, not a modern Black Host tunnel and not a route explained by the Dunmere elder.
 
-The party discovers it by continuing through the final accessible Archive section after the Leviathan.
-
-Its concealment should be credible, but the exact mechanism remains for later map design. It may be an old service access, concealed connection, maintenance route, disguised partition, hidden doorway, or equivalent architectural feature consistent with the finished Archive design.
-
-Do not lock a puzzle, magic key, Crest authorization, Card reaction, or exact opening mechanism here unless later area/mechanics authority specifically chooses one.
+Its concealment should be credible, but the exact mechanism remains for later map design. Do not lock a puzzle, magic key, Crest authorization, Card reaction, or exact opening mechanism here unless later authority chooses one.
 
 ## Black Host knowledge boundary
-The passage should preserve the value of the covert infiltration.
-
-The Black Host does **not** need to know this ancient connection exists or remains usable. The Prisoner Galleries may occupy later-built or repurposed space on the other side without the Host understanding every buried passage behind/under it.
+The passage preserves the value of the covert infiltration. The Black Host does not need to know this ancient connection exists or remains usable.
 
 Therefore:
-- do not place Host guards routinely using the secret passage;
-- do not make it part of the Bastion's normal transfer route;
-- do not make the party emerge directly into an alerted guard formation solely for a forced battle;
-- the discovery should plausibly let the party enter or observe the gallery area before their presence is fully understood.
+- no routine Host use of the secret passage;
+- it is not part of the normal transfer route;
+- do not make the party emerge directly into an alerted formation merely to force combat;
+- party should plausibly observe/enter the gallery before the whole Bastion knows how they arrived.
 
 ## Environmental transition
-The physical transition should be readable:
-
-1. **Deep Archive continuation** — still unmistakably ancient.
-2. **Concealed/secondary ancient passage** — narrower or functionally distinct from the main Archive spaces.
-3. **Modern reuse boundary** — signs of newer construction, repairs, barriers, hardware, light, sound, or other current occupation begin appearing beyond the old route.
-4. **Prisoner Gallery threshold** — the party realizes the space ahead is being used to hold people.
-
-The exact art/material language belongs to later map/tileset design.
+1. Deep Archive continuation.
+2. Concealed/secondary ancient passage.
+3. Modern reuse boundary.
+4. Prisoner Gallery threshold.
 
 ## No-transfer-records hard rule
 > **There is no separate transfer-records story beat between the Leviathan and the prisoners.**
 
-Do not insert manifests, ledgers, numbered transfer entries, `thirty-one transfers`, or equivalent paperwork merely to prove that the kidnappings are organized.
-
-The physical reality of the Prisoner Galleries and the people held there is sufficient proof.
-
-## Discovery / knowledge progression
-Beat 9 should move the party through a concise escalation:
-
-- the Archive route continues farther than expected;
-- a concealed ancient connection is discovered;
-- signs of current human occupation appear on the far side;
-- those signs are recognizably Black Host/Bastion-related where observable;
-- the party detects unmistakable evidence of imprisoned people ahead;
-- the connection is understood to have brought them into the Bastion's lower prisoner area.
-
-The beat does **not** require the party to know the gallery's full layout, number of prisoners, transfer destination, or command structure.
-
-## Agent-Brain rehearsal packet
-The Director may provide:
-- the Leviathan has just been defeated;
-- the newly opened route continues toward the Bastion;
-- the architecture narrows/changes into an old concealed passage;
-- modern occupation signs begin appearing;
-- voices, movement, restraints, barred spaces, guards, or other actual map-supported evidence indicates prisoners are nearby;
-- the party has succeeded in entering without using the defended road approach.
-
-Natural responses may include caution, recognition that the infiltration worked, concern about alerting guards, surprise at the ancient-to-modern connection, or an immediate shift toward the captives. Do not assign every observation to one character or require all four to speak.
-
-## Presentation rule
-The reveal should come primarily from **space and sound**, not exposition.
-
-A good production shape is:
-- player follows the newly accessible route;
-- short authored stop when the concealed passage is recognized/opened;
-- player or brief controlled movement through it;
-- first signs of Bastion construction/occupation appear;
-- the party reaches a vantage/threshold from which the holding area is unmistakable;
-- Beat 9 ends before substantial interaction with the prisoners.
-
-Keep staging economical. No long cinematic is required.
+The physical Prisoner Galleries and the people held there are the evidence.
 
 ## Mandatory progression
-- party advances beyond the Leviathan through the final deeper Archive continuation;
-- an old concealed/secret passage is discovered;
-- the passage is established as part of ancient architecture rather than Black Host construction;
-- party follows/opens it without requiring a newly invented major lore mechanic;
-- modern Bastion/Black Host occupation becomes apparent on the far side;
-- the party reaches what is being used as the **Prisoner Galleries**;
-- living prisoners/captives are unmistakably present or immediately detectable;
+- party advances beyond Leviathan;
+- old concealed passage is discovered;
+- passage is clearly ancient rather than Black Host construction;
+- modern Bastion/Host occupation appears on the far side;
+- party reaches the **Prisoner Galleries**;
+- living captives are unmistakably present;
 - no transfer-record intermediary occurs;
-- the party has not yet conducted the actual first-contact/rescue interaction.
+- actual prisoner interaction is reserved for Beat 10.
 
-## End state / knowledge change
-After Beat 9:
-- the party has physically infiltrated the Red Transfer Bastion from below/behind its normal defenses;
-- the Sunken Archive is confirmed to connect into the Bastion through an old concealed passage;
-- the party has found the kidnapped travelers/captives in the Prisoner Galleries;
-- the physical holding area proves the kidnapping problem is real and organized without paperwork exposition;
-- the exact number, condition, history, and individual needs of the prisoners are still to be learned;
-- the party's immediate priority shifts from **finding the prisoners** to **making contact and helping them without causing unnecessary harm or panic**.
+## End state / handoff
+Party has physically infiltrated the Red Transfer Bastion from below/behind normal defenses and has finally located the kidnapped captives.
 
-## Gameplay handoff
 → **Beat 10 — Prisoner Galleries / First Contact**
 
 ## Reveal firewall
-Do not reveal in Beat 9:
-- a complete captive count;
-- a full prisoner-transfer destination/purpose;
-- Rhazek's philosophy or complete command role;
-- masked Seyrik's identity;
-- a second map/lore revelation;
-- eastern-map continuation;
-- ancient Caelora city's formal identity/history;
-- Last Sentinel;
-- Cresthaven;
-- buried-Crest/complete underground truth;
-- Entity.
+No complete captive count, full onward destination/purpose, Rhazek philosophy, Seyrik identity, second map revelation, Last Sentinel, Cresthaven, buried-Crest truth, or Entity.
 
 ---
 
 # Beat 10 — Prisoner Galleries / First Contact
 
-**Development status:** CURRENT WORKING BEAT PACKET
+**Development status:** CURRENT WORKING BEAT PACKET — REVISED PRISONER AUTHORITY
 
 ## Purpose
-Turn Chapter 2's missing-traveler problem into direct human contact. The party has finally found the people who were being taken; this beat must establish them as individuals with agency, knowledge limits, injuries, fear, distrust, and differing immediate needs rather than as a single rescue objective or collectible crowd.
+Turn the kidnapping problem into direct human contact and show exactly who the Black Host has been sweeping into Red Transfer Bastion.
 
 This beat should:
-- make the emotional reality of the kidnapping operation concrete without relying on paperwork exposition;
-- allow reasonable prisoner distrust of an armed group appearing through an unknown hidden route;
-- establish Ilyra's treatment/consent behavior naturally;
-- distinguish immediate first contact from the later extraction-planning problem;
-- keep the party's entry sufficiently contained that the entire Bastion is not automatically alerted before Beat 12;
-- create the need for a defensible local prisoner safe area and a viable evacuation route, which Beat 11 will solve/define.
+- make the human cost of the corridor operation concrete;
+- establish the current prisoners as a mix of regional civilians, travelers, and wounded military personnel;
+- reveal through direct prisoner experience that this Bastion is a **holding/transit site**, not the final destination;
+- establish that prisoners want help and are willing to cooperate;
+- shift the central tension away from distrust/refusal and toward the practical fear that nobody can safely escape until the Black Host's control of the Bastion is broken;
+- hand cleanly into Beat 11's tactical exit problem.
 
 ## Starting state
-- the party has reached the Prisoner Galleries through the ancient secret passage;
-- living captives are visibly or audibly present;
-- the party does not yet know the full gallery layout, total captive count, each person's condition, or the Bastion's complete command structure;
+- party has reached the Prisoner Galleries through the ancient secret passage;
+- living captives are present;
 - combat party remains **Cyanis + Ilyra + Torren**;
-- Maevra is physically present but fully noncombat;
-- the party's covert entry has not yet become a Bastion-wide alarm as far as they know;
-- the prisoners do not automatically know who the party is or why they are there.
+- Maevra remains physically present and fully noncombat;
+- whole-Bastion alarm has not yet necessarily been raised;
+- prisoners do not initially know exactly who the party is, but this uncertainty should resolve quickly once rescue intent is evident.
 
-## Prisoner-agency hard rule
-> **The prisoners are people, not a rescue counter.**
+## Locked prisoner composition
+The current Prisoner Galleries contain a mixed population including:
+- **travelers** seized on the regional roads;
+- **injured soldiers** being held while wounded or otherwise unable to return to their own side/route;
+- **Greenhollow residents**;
+- **Dunmere residents**.
 
-The Prisoner Galleries should contain differentiated captives in multiple bays/holding areas or otherwise visibly distinct small groups rather than one anonymous mass waiting for the player to press `Rescue`.
+This should feel like the result of an active regional seizure operation rather than a single caravan having been captured.
 
-At story level:
-- individual prisoners may have different injuries, stamina, fears, relationships, knowledge, and willingness to trust;
-- some may want immediate movement while others may be unwilling or physically unable to move yet;
-- some may initially refuse help, treatment, or instructions;
-- refusal is not treated as irrational failure and is not overridden merely because the party means well;
-- opening a holding area does not convert its occupants into party-controlled followers;
-- the party does not need unanimous gratitude or instant trust to proceed.
+Do not turn the categories into four exposition representatives who each announce what group they belong to. The population mix should be visible/natural and can be established through a small number of representative people.
 
-Do not turn the galleries into a sequence of repeated identical cell-opening interactions. Later map design should express multiple holding spaces economically.
+## Prisoner cooperation rule
+> **The current prisoners do not refuse rescue or needed help.**
+
+Once they understand that Cyanis's group is there to free them:
+- they cooperate with the rescue effort;
+- injured people accept appropriate aid;
+- people do not refuse treatment simply to manufacture interpersonal conflict;
+- prisoners may still be frightened, exhausted, angry, or doubtful that escape is possible;
+- their concern is about the **situation**, not a prolonged refusal to trust the rescuers.
+
+Ilyra still behaves like Ilyra: she asks before examining or treating a conscious person where consent can reasonably be obtained. The difference is that the prisoners accept the help rather than creating a refusal beat.
+
+## Holding/transit-site knowledge — locked
+The prisoners know from what they have experienced inside Red Transfer Bastion that this is **not the final place captives are kept**.
+
+They know:
+- people are brought into the Bastion and held in these galleries;
+- after a period of holding, the Black Host takes groups/individuals away to another location;
+- other captives were here before the current group;
+- some of those earlier prisoners have already been transferred out and have not returned;
+- this repeated pattern is enough for the current prisoners to understand the Bastion as a **holding area before onward transfer**.
+
+They do **not** know:
+- where the transferred people are taken;
+- what the final destination is called;
+- what ultimately happens to those people;
+- the full strategic purpose of the transfer system;
+- Rhazek's complete reasoning/policy chain;
+- the total number of people previously moved.
+
+This replaces any need for a transfer-records exposition scene. The knowledge comes from lived experience, not ledgers.
+
+## Primary prisoner fear
+The prisoners' immediate reaction to rescue is not “we don't want your help.” It is closer to:
+
+> **Finding us is not the same as getting us out. The Host still owns the fort above us.**
+
+They are worried because:
+- the Black Host still controls the Bastion's normal exits;
+- injured soldiers and wounded civilians cannot simply sprint through an occupied fort;
+- a large group leaving together will be obvious;
+- attempting to escape before local Host control is broken risks recapture, casualties, or leaving slower people behind;
+- the secret Archive/waterworks route the party used is not yet known to be a practical mass-evacuation route.
+
+The exact wording belongs to Agent Brain rehearsal. This is the underlying situation, not a mandatory speech.
 
 ## First-contact shape
-The strongest structure is a contained, human-scale escalation:
-
-1. party reaches the first occupied gallery/holding area without immediately charging into the whole complex;
-2. prisoners notice an armed group entering from an unexpected direction and react according to their circumstances;
-3. party establishes that it is not part of the Black Host and is trying to get people out;
-4. enough trust is earned to assess immediate needs and speak with more than one captive/group;
-5. party learns that the galleries contain people in differing conditions and that some captives have previously been moved elsewhere;
-6. first contact stabilizes, but nobody pretends the evacuation problem is solved.
-
-The exact number of prisoner speakers and which individual becomes the strongest recurring voice should be decided during Agent Brain/NPC development rather than invented as a fixed exposition role here.
+1. party enters the first occupied gallery space from the unexpected ancient route;
+2. prisoners react with surprise/alarm at the sudden armed arrival;
+3. the party quickly establishes that they came to free them;
+4. the current prisoner mix becomes apparent through natural interaction/visuals;
+5. injured people are assessed and helped;
+6. prisoners explain that earlier captives have been taken onward from the Bastion to somewhere unknown;
+7. prisoners make clear that simply opening the cells is not enough while the Host still controls the fort;
+8. party and prisoners shift toward creating a defensible waiting position while the party deals with the Bastion above.
 
 ## Local guard / alarm boundary
-The Black Host controls the Prisoner Galleries, so some local guard/security presence is plausible. However, the ancient secret passage gave the party an unexpected entry point.
+The Black Host controls the Prisoner Galleries, so some nearby security is plausible, but the ancient secret passage provides surprise.
 
-Story requirements:
-- the party should be able to establish first contact without the entire Bastion instantly converging on the galleries;
-- if local guards must be bypassed, distracted, quietly defeated, or confronted, exact staging belongs to map/encounter design;
-- any such local conflict should remain contained enough that Beat 11 can still occur before the party deliberately pushes into the upper Bastion;
-- do not invent a mandatory large battle here solely to mark the location change;
-- do not make the prisoners helplessly dependent on the party defeating every soldier in the fort before anyone can speak.
-
-## Ilyra consent / treatment lock
-Ilyra may recognize injuries, exhaustion, dehydration, restraint damage, or other needs supported by final NPC/visual design, but **she asks permission before examining or treating a conscious prisoner whenever consent can reasonably be obtained**.
-
-Locked behavior:
-- she does not grab, inspect, heal, or magically treat a conscious stranger without asking merely because she is the healer;
-- a prisoner may refuse examination or treatment;
-- that refusal is respected;
-- consent to treatment is not consent to relocation or to every later plan;
-- urgent incapacity/emergency situations may be handled according to ordinary emergency-care logic, but do not manufacture unconscious victims simply to bypass the consent rule.
-
-This should arise through Ilyra's Person Agent rather than through a didactic speech about consent.
-
-## Prisoner knowledge boundary
-Prisoners may plausibly know only what they have personally experienced, overheard, or observed.
-
-They may be able to establish things such as:
-- where/how some of them were taken;
-- rough conditions inside the galleries;
-- that guards move people between holding areas or out of the galleries;
-- that some captives have already been taken elsewhere and have not returned;
-- which nearby doors/routes are normally used by guards;
-- immediate practical needs or dangers within the prisoner area.
-
-They do **not** automatically know:
-- the full purpose or destination of the wider transfer operation;
-- Rhazek's ideology or complete command decisions;
-- the ancient Archive connection the party used;
-- masked Seyrik's identity/significance;
-- total numbers for everyone ever abducted;
-- anything equivalent to the retired `thirty-one transfers` accounting clue.
-
-Do not use one prisoner as an omniscient lore mouth simply to replace the deleted transfer-records beat.
+- first contact should happen without the entire Bastion instantly converging;
+- any nearby guard bypass/contained fight belongs to map/encounter design;
+- do not add a large mandatory battle solely to mark the location change;
+- keep enough containment for Beat 11 to occur before the party deliberately ascends into the active fort.
 
 ## Agent-Brain rehearsal packet
-For the independent rehearsals, provide immediate lived context rather than desired speeches.
+- **Cyanis:** prisoners want out, but the fort above remains controlled by the Host; opening cells alone will not solve the rescue.
+- **Ilyra:** mixed prisoner population includes wounded/injured people who accept help; she should assess what movement they can safely manage.
+- **Torren:** the party's secret route is behind them; he can judge that it is poor for moving a mixed injured group and begin reading the usable Bastion-side route.
+- **Maevra:** prisoners are willing to cooperate; the problem is how to hold them safely while the fighting group breaks Bastion control; she remains noncombat.
+- **Prisoner Person Agents/NPCs:** know their own capture circumstances, the repeated onward-transfer pattern, that prior captives were taken elsewhere, and that the destination is unknown. Their main fear is being unable to escape while the Host still holds the Bastion.
 
-- **Cyanis:** they have found living captives; surprise entry is an advantage that can be lost; the group needs to establish trust and avoid creating panic or an unnecessary alarm.
-- **Ilyra:** prisoners have varying visible conditions; treatment requires consent where possible; some may need help before they can move safely.
-- **Torren:** the ancient route is behind them; the gallery's modern routes/doors may matter later; extraction route has not yet been solved.
-- **Maevra:** prisoners may reasonably distrust armed strangers; current priority is stabilizing the local situation while preserving the group's tactical advantage; she remains noncombat.
-- **Prisoner Person Agents/NPCs:** each should receive only their own captivity history, relationships, condition, observations, fears, and current knowledge. Their reactions should not be homogenized.
-
-Do not require all party members or all prisoners to speak. Interruptions, silence, refusal, suspicion, relief, anger, practical questions, and selective trust are all valid outcomes.
-
-## Presentation / gameplay rule
-This should be an authored human-contact beat, not a long gameplay loop of individually escorting NPCs.
-
-Economical HD-2D staging can use:
-- a few visually distinct prisoner groups/holding bays;
-- one or more representative NPC interactions;
-- party field models for the authored contact scene;
-- portraits/dialogue to carry most emotional specificity;
-- restrained physical staging rather than excessive animation.
-
-The player may regain limited control inside the secured/immediate gallery space if useful, but the beat should not yet become a free-form evacuation sequence.
+Do not require everyone to speak. Avoid four-category roll call exposition.
 
 ## Mandatory progression
-- party makes first direct contact with the captives;
-- prisoners are shown as differentiated people rather than an anonymous crowd;
-- initial distrust/caution is permitted and treated as reasonable;
-- the party establishes enough credibility to communicate its rescue intent;
-- Ilyra asks consent before non-emergency examination/treatment of conscious prisoners;
-- refusal of treatment/help may occur and is respected;
-- party learns that prisoners have differing conditions and readiness to move;
-- prisoners can confirm that some people have been moved from the galleries, but cannot explain the complete operation;
-- no total captive count or transfer-record substitute is established;
-- immediate first contact stabilizes without automatically solving extraction;
-- the need to secure a defensible local position and determine a viable way out becomes the next practical problem.
+- party makes first direct contact with captives;
+- prisoner population visibly/narratively includes travelers, injured soldiers, Greenhollow residents, and Dunmere residents;
+- prisoners accept rescue/help once intent is clear;
+- Ilyra asks before non-emergency treatment and the prisoners accept needed care;
+- prisoners reveal that Red Transfer Bastion is used as a holding area before captives are taken elsewhere;
+- they know earlier prisoners have already been transferred but **do not know where**;
+- no total transfer count or paperwork substitute is established;
+- prisoners express practical fear that escape cannot succeed while the Black Host still controls the Bastion;
+- party recognizes that opening the galleries is only the first part of the rescue;
+- immediate local space is stabilized enough to prepare for Beat 11.
 
 ## End state / knowledge change
 After Beat 10:
-- the party has found and spoken with the kidnapped travelers/captives;
-- enough trust exists with at least part of the prisoner population to coordinate further action, but trust is not universal or unconditional;
-- the party understands that prisoner needs and movement cannot be treated as a single command;
-- some captives may require treatment, rest, assistance, or time before movement;
-- prisoners know people have been moved away, but the party still does not know the complete purpose/destination of the wider operation;
-- the party has not yet solved how to move everyone safely out of the Bastion;
-- the covert advantage is strained but not necessarily lost at the whole-fort level;
-- the next objective is to create/hold a defensible local safe area and determine which exit can actually support evacuation.
+- the party has found the current captives and they are cooperating with rescue;
+- current captives are known to include travelers, injured soldiers, Greenhollow residents, and Dunmere residents;
+- the party knows Red Transfer Bastion is a **holding/transit site**;
+- prisoners confirm earlier captives were transferred elsewhere;
+- the destination and purpose remain unknown;
+- current prisoners believe escape is unsafe/impossible until the Bastion's local Black Host control is broken;
+- the party must now secure a defensible waiting area and determine the practical exit route.
 
 ## Gameplay handoff
 → **Beat 11 — Prisoner Safe Area / Exit Problem**
 
 ## Reveal firewall
 Do not reveal in Beat 10:
-- a complete prisoner count or total abducted population;
-- a replacement for the retired `thirty-one transfers` clue;
-- the full destination/purpose of people moved out of the galleries;
+- total number of people ever abducted or transferred;
+- destination of earlier transferred prisoners;
+- ultimate purpose/fate of transferred captives;
+- retired `thirty-one transfers` clue;
 - Rhazek's full philosophy/command scene;
 - masked Seyrik's identity;
-- the western/eastern map mystery beyond what Beat 6 already established;
-- Chapter-3 Last Sentinel/Old City answers;
+- additional ancient-map answers;
+- Last Sentinel;
 - Cresthaven;
-- buried-Crest/complete underground truth;
+- buried-Crest truth;
 - Entity.
 
 ---
 
 # Beat 11 — Prisoner Safe Area / Exit Problem
 
+**Development status:** CURRENT WORKING BEAT PACKET
+
+## Purpose
+Turn the prisoners' concern from Beat 10 into the chapter's next concrete tactical objective.
+
+The party has found people who want to leave, but freeing them from their cells does not mean they can walk out of an occupied military fort. Beat 11 establishes a temporary safe position and answers the question:
+
+> **What has to happen before these people can actually escape?**
+
+Answer:
+
+> **The Black Host's local control of Red Transfer Bastion must be broken and the practical road-side exit secured.**
+
+## Starting state
+- current prisoners are cooperating with rescue;
+- prisoner mix includes travelers, injured soldiers, Greenhollow residents, and Dunmere residents;
+- some require assistance and cannot move quickly;
+- prisoners know earlier captives were transferred elsewhere but do not know the destination;
+- the party entered through the secret Archive connection;
+- the Bastion's upper/active areas remain under Black Host control;
+- combat party: **Cyanis + Ilyra + Torren**;
+- Maevra remains fully noncombat.
+
+## Safe-area structure
+The party and prisoners establish a **defensible lower safe pocket** within/adjacent to the Prisoner Galleries rather than immediately trying to move the whole group through the fort.
+
+Story requirements:
+- the location is defensible enough for the prisoners to wait while the combat party moves upward;
+- it is not a magical perfectly safe room;
+- the prisoners retain control of their own interior door/bar/access where practical;
+- Cyanis's group does not lock them in or remove their agency;
+- injured people can rest/receive basic care there;
+- able-bodied prisoners can help each other and maintain the position rather than standing inertly until the heroes return;
+- Maevra can help organize the waiting group without becoming a combat unit or party member.
+
+Do not turn this into a tower-defense or Hold-the-Junction replacement.
+
+## Why the entry route is not the evacuation route
+The secret passage → Sunken Archive → old waterworks route worked for a small capable infiltration group. It is a poor solution for mass evacuation.
+
+Reasons can include, where supported by the eventual map:
+- narrow/awkward ancient passages;
+- difficult elevation changes;
+- water/flooded sections;
+- dangerous Archive terrain;
+- the recently fought Leviathan section and other environmental hazards;
+- distance/complexity;
+- injured soldiers and wounded civilians who cannot safely traverse it;
+- inability to move a large visible group efficiently through the route.
+
+The scene does not need to list all of these. The map and Torren/Ilyra's practical judgment can make the conclusion obvious.
+
+The important lock is:
+
+> **The party's covert entry route is not a believable mass-evacuation route for this prisoner population.**
+
+## Why they cannot simply use the Bastion exit now
+The prisoners are willing to leave. The problem is that the **Black Host still controls the Bastion**.
+
+A premature escape would mean moving travelers, residents, and injured soldiers through or past:
+- active Host personnel;
+- controlled internal routes;
+- guarded/controlled exits;
+- a command structure capable of reacting to a mass breakout.
+
+The prisoners' worry from Beat 10 is validated rather than dismissed. The party recognizes that attempting the escape now would put the slowest and most injured people at the greatest risk.
+
+This is not cowardice and does not require prisoners to refuse movement. It is sound practical judgment.
+
+## Practical exit
+The real evacuation path is the maintained Bastion exit that leads back onto the **Greenhollow–Dunmere road**.
+
+However:
+- access to that route remains under the active Bastion command layer;
+- the party cannot safely lead the prisoners through it until local Black Host control is broken;
+- exit controls/doors/routes may be physically secured from above or otherwise require taking the command portion of the fort;
+- exact mechanisms remain for later Bastion map design.
+
+Do not turn this into a puzzle about finding a second secret tunnel. The solution is to **take the Bastion away from the Host locally**.
+
+## Decision
+The party chooses a two-part plan:
+
+1. **Keep the prisoners together in the defensible lower safe area.**
+2. **Cyanis, Ilyra, and Torren push upward through the active Bastion, break the Host's local command/control, secure/open the road-side exit, then return for everyone.**
+
+Maevra remains with the story group and can participate in planning/organization, but she does not enter combat.
+
+The exact question of whether Maevra waits primarily with the prisoners during portions of the ascent or continues physically with the party between authored scenes can remain an implementation/staging choice so long as she never becomes a combat participant and is present again for the return/evacuation sequence.
+
+## Agent-Brain rehearsal packet
+- **Cyanis:** people are ready to be rescued, but leading them into an occupied fort now would expose them; the Host's local control must be broken first.
+- **Ilyra:** several prisoners cannot manage the Archive route or a running breakout; a controlled usable exit is medically/practically necessary.
+- **Torren:** can compare the covert route with the maintained road exit and judge which is viable for a mixed group.
+- **Maevra:** can frame the tactical problem around protecting the slowest people, securing a route, and keeping the waiting group organized while remaining noncombat.
+- **Prisoners:** want to escape; understand the Bastion is still occupied; fear recapture/casualties if they move before the Host here is defeated/forced out; know nothing useful about the upper command layout beyond what they have personally seen/heard.
+
+Do not make the prisoners beg the heroes to do everything for them. They can help organize, support injured people, watch the local door, and prepare to move.
+
+## Mandatory progression
+- current prisoners are consolidated into a defensible lower safe area;
+- they remain cooperative and retain agency/control inside that space;
+- injured soldiers/civilians are stabilized enough to wait;
+- party determines the Archive/waterworks route is unsuitable for evacuating this mixed group;
+- prisoners' fear of trying to escape through an actively occupied Bastion is validated;
+- party identifies the maintained Greenhollow–Dunmere-side Bastion exit as the practical evacuation route;
+- that exit remains controlled by the Bastion's active command layer;
+- Cyanis, Ilyra, and Torren commit to pushing upward and breaking local Black Host control;
+- party intends to return for the prisoners after securing the exit;
+- no Hold-the-Junction or substitute defense battle is created here.
+
+## End state / knowledge change
+After Beat 11:
+- the prisoners are together in a defensible temporary position and want to leave as soon as the route is safe;
+- everyone understands why the secret infiltration route cannot carry the evacuation;
+- everyone understands why escape cannot begin while the Host still controls Red Transfer Bastion;
+- the party's objective changes from **find/free the prisoners** to **defeat/break Bastion control and secure the practical exit**;
+- the upper Bastion becomes the active gameplay destination.
+
+## Gameplay handoff
+→ **Beat 12 — Bastion Command Ascent**
+
+## Reveal firewall
+Do not reveal in Beat 11:
+- destination or ultimate fate of previously transferred prisoners;
+- exact total transfer count;
+- Rhazek's full policy/ideology before his confrontation;
+- masked Seyrik's identity;
+- new ancient-map answers;
+- Last Sentinel;
+- Cresthaven;
+- buried-Crest truth;
+- Entity.
+
+---
+
+# Beat 12 — Bastion Command Ascent
+
 **Development status:** NEXT TO DEVELOP
 
-Current locked function from `CHAPTER_02.md`: establish a defensible prisoner-controlled safe pocket, make clear that the Archive/waterworks route is unsuitable for general evacuation, and force the party to push into the active upper Bastion because the maintained Greenhollow-side exit/route is controlled from above.
+Current locked function from `CHAPTER_02.md`: transition from the lower prisoner area into the active Black Host fort, show Red Transfer Bastion as a functioning military holding/transit position, and carry the party upward toward Rhazek's command layer while the prisoners wait below for the exit to be secured.
