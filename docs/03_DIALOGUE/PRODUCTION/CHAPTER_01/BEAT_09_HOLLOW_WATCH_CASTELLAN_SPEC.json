@@ -4,81 +4,27 @@
   "chapter_id": "chapter_01",
   "story_position": "Chapter 1 — Beat 9 — Hollow Watch Castellan",
   "production_ready": false,
-  "participants": [
-    "cyanis",
-    "ilyra",
-    "maevra",
-    "torren"
-  ],
-  "scene_purpose": "Deliver Hollow Watch's major dungeon combat climax; reveal the previously integrated ancient assembly as the Hollow Watch Castellan; allow the true underlying Card-triggered activation to occur without explaining it; transition the Castellan from integrated to mobile state on the same HP bar; defeat it; and expose the protected post-boss discovery route without spending the mural payoff early.",
+  "participants": ["cyanis", "ilyra", "maevra", "torren"],
+  "scene_purpose": "Deliver Hollow Watch's major dungeon boss climax; reveal the integrated ancient assembly as the Hollow Watch Castellan; allow the true Card-triggered activation to occur without explaining it; transition the Castellan from integrated to mobile state on the same HP bar; defeat it; and expose the protected post-boss discovery route without spending the mural payoff early.",
   "story_sources": [
-    {
-      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
-      "sections": [
-        "Beat 9 — Hollow Watch Castellan",
-        "Beat 10 — Post-Castellan Mural"
-      ],
-      "role": "current_chapter_01_beat_09_story_authority_and_next_reveal_firewall"
-    },
-    {
-      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
-      "whole_file": true,
-      "role": "direct_card_physical_state_authority"
-    }
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Beat 9 — Hollow Watch Castellan", "Beat 10 — Post-Castellan Mural"], "role": "current_chapter_01_beat_09_story_authority_and_next_reveal_firewall"},
+    {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "direct_card_physical_state_authority"}
   ],
   "additional_authority_sources": [
-    {
-      "path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md",
-      "whole_file": true,
-      "role": "cyanis_character_authority"
-    },
-    {
-      "path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md",
-      "whole_file": true,
-      "role": "ilyra_character_authority"
-    },
-    {
-      "path": "docs/01_CHARACTERS/PLAYABLE/Torren.md",
-      "whole_file": true,
-      "role": "torren_character_authority"
-    },
-    {
-      "path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md",
-      "whole_file": true,
-      "role": "maevra_character_authority"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
-      "whole_file": true,
-      "role": "rehearsal_first_and_reductive_hd2d_contract"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md",
-      "whole_file": true,
-      "role": "invisible_knowledge_firewall"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md",
-      "whole_file": true,
-      "role": "ordinary_enemy_random_encounter_lock_and_boss_exception"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MID_BATTLE_DIALOGUE_PRESENTATION_LOCK.md",
-      "whole_file": true,
-      "role": "speech_only_mid_battle_dialogue_lock"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
-      "whole_file": true,
-      "role": "walking_dialogue_hard_lock"
-    }
+    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "current_gameplay_presentation_hard_lock"},
+    {"path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md", "whole_file": true, "role": "portrait_dialogue_presentation"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_authoring_lock"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "invisible_knowledge_firewall"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md", "whole_file": true, "role": "ordinary_enemy_random_encounter_lock_and_boss_exception"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/MID_BATTLE_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "speech_only_mid_battle_dialogue_lock"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"}
   ],
   "scene_context_seed": {
     "location_name": "Hollow Watch protected Castellan chamber",
     "area_phase": "boss_climax",
     "dialogue_readiness": "RED_during_combat_GREEN_immediately_after",
     "static_story_context_only": true,
-    "runtime_note": "HARD CAUSALITY/KNOWLEDGE SPLIT: the Castellan truly activates because the party reaches the protected area while Cyanis carries the recovered Card itself. The characters must not know or confirm this mechanism. Let the audience see the timing connection without making the cast formally debate evidence. The Card does not speak, open, manifest a Prime, reveal a Face, identify Cyanis, or provide explanatory text. The Castellan is an explicit scripted boss exception to the random-encounter lock. It begins integrated into the architecture and later tears free into a mobile state on the SAME HP BAR, with no healing or reset. Encounter authority owns exact mechanics and tuning. Maevra is never a battle participant. REHEARSAL-FIRST: characters react as people first; Canon Checker remains invisible. REDUCTIVE HD-2D: spend production complexity only on the earned integrated-to-mobile boss transition. Reuse the existing protected chamber and ruin effects; do not add a second arena, treasure-door mechanism, extra machinery sequence, or post-boss set piece. MID-BATTLE DIALOGUE: short speech may occur during active combat, but do not author character movement, repositioning, dodges, blocking, gestures, or camera cutaways to accompany it. Battle gameplay owns character motion. Boss movement required by the integrated-to-mobile transition is still allowed because it is part of the encounter. The mural remains entirely Beat 10."
+    "runtime_note": "Ordinary entry and post-boss passage traversal show Cyanis only. When the Castellan activation or post-boss story scenes trigger, the relevant cast may appear as simple field models and portraits/dialogue box carry most performance. The required physical events are limited to Cyanis crossing the fitted line, the green-gold response, Castellan activation, the boss integrated-to-mobile transition, the boss defeat, and the protected passage becoming visibly accessible because the boss no longer blocks it. Do not add formation choreography, weapon-ready animation, seam inspection, post-boss prop business, extra machinery, or camera cutaways. HARD CAUSALITY/KNOWLEDGE SPLIT: the Castellan truly activates because Cyanis carries the recovered Card, but the cast does not know or confirm the mechanism. The Castellan is an authored boss exception to the random-encounter rule. It tears free into a mobile state on the SAME HP BAR with no healing/reset. MID-BATTLE DIALOGUE IS SPEECH-ONLY. Maevra is never a battle participant. The mural remains entirely Beat 10."
   },
   "current_floor_state": {
     "combat_party": ["cyanis", "ilyra", "torren"],
@@ -86,10 +32,11 @@
     "torren_party_status": "temporary_combat_ally",
     "card_state_on_entry": "intact_directly_carried_by_cyanis",
     "castellan_state_on_entry": "integrated_dormant_appearing",
-    "mural_state": "not_yet_revealed"
+    "mural_state": "not_yet_revealed",
+    "ordinary_traversal_visible_character": "cyanis_only"
   },
   "allowed_information_transfers": [],
   "exact_line_anchors": [],
   "max_beats": 16,
-  "production_cost_ceiling": "major_boss_reductive_economical"
+  "production_cost_ceiling": "major_boss_strict_reductive_established_gameplay_presentation"
 }
