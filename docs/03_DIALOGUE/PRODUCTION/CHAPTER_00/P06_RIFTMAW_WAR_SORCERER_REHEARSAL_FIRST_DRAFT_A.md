@@ -1,6 +1,6 @@
 # Chapter 0 — P06
 # Riftmaw + War-Sorcerer / Final Broken Convoy Confrontation
-## REHEARSAL-FIRST PRODUCTION DRAFT A — awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT B — chapter-wide polish / awaiting user approval
 
 ---
 
@@ -150,17 +150,15 @@ A beat.
 
 **CYANIS:** One of you.
 
-**ILYRA:** Better.
+**ILYRA:** Good.
 
 She finishes the quick check.
 
 **CYANIS:** Camp?
 
-Ilyra looks past him toward the treatment line.
+Ilyra checks the treatment line.
 
 **ILYRA:** Still ours.
-
-Cyanis exhales.
 
 A few feet away, the Card lies beside the broken remains of its casing.
 
@@ -198,17 +196,13 @@ The casing is gone from continuity.
 
 **CYANIS:** Yeah.
 
-**ILYRA:** Then I want him sitting down.
+**ILYRA:** I'll check you properly after.
 
-**CYANIS:** I'm standing right here.
+**CYANIS:** I heard you.
 
-**CONVOY OFFICER:** For now.
+**ILYRA:** Good.
 
-Cyanis looks between them.
-
-**CYANIS:** Great.
-
-The pressure releases just enough for the chapter to move into aftermath work.
+That is enough. The chapter moves back to people rather than lingering on the boss or the Card.
 
 Scene ends.
 
