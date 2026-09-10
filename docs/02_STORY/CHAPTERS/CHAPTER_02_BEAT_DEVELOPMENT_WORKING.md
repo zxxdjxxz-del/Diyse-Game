@@ -164,19 +164,77 @@ Handoff → **Beat 5 — Sunken Archive Entrance**.
 ---
 
 # Beat 5 — Sunken Archive Entrance
-**Development status:** CURRENT WORKING BEAT PACKET
+**Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
 
-**Sunken Archive** is a production/gameplay name; characters need not know a formal ancient name. They may infer archival/preservation function from what is observable.
+Purpose: let the party cross fully out of recognizable municipal infrastructure and establish the Ancient complex as a **major location with a preservation/storage function**, without spending the western mural reveal early.
 
-Area locks:
-- major ancient scale;
-- preservation/storage architecture;
-- meaningful water intrusion;
-- visually related to prior Diysean structures but functionally distinct;
-- older than the waterworks and Old Bastion;
-- not an active Black Host facility.
+`Sunken Archive` remains a production/gameplay name. The characters do **not** need to identify or speak that formal name during this beat.
 
-Handoff → **Beat 6**.
+### Starting state
+- the group has come through the Old Waterworks and is already thoroughly wet from required traversal;
+- the deepest construction is visibly far older than the municipal works;
+- the route remains covert and no Black Host presence has been encountered here;
+- the party still believes continuing through the older structure may eventually give them a way toward/under the Old Bastion;
+- nobody knows a major Ancient archive is here.
+
+### First major threshold
+Beat 5 should contain a clear spatial reveal: the cramped/functional waterworks give way to a **substantially larger Ancient interior**. The change should be strong enough that the player understands this is no longer just old foundations behind a wall.
+
+Observable qualities can include:
+- larger, more deliberate halls/chambers;
+- repeated storage/preservation bays, recesses, cases, shelving-like architecture, sealed niches, or other organized retention structures;
+- water intrusion cutting through a place that was clearly not designed as a sewer or aqueduct;
+- surviving symmetry/order beneath the damage;
+- materials and construction related to prior Ancient/Diysean structures the party has seen, without requiring them to know the civilization's full history.
+
+The architecture should communicate **“this place was made to keep, organize, or preserve things”** before anyone needs a lore explanation.
+
+### Character inference boundary
+The agents may infer only from what they can actually see.
+
+Allowed conclusions:
+- this is not part of the Dunmere waterworks;
+- the complex is much older;
+- it appears purpose-built rather than incidental foundation space;
+- storage/preservation/records are plausible functions;
+- the water came later and has damaged/invaded the complex;
+- the place is much larger than expected.
+
+Do **not** establish yet:
+- the formal name `Sunken Archive` as known character terminology;
+- who built the entire complex with certainty if evidence does not support it;
+- the western network map contents;
+- a route to Caelora;
+- the identity/history of the ancient city at modern Caelora;
+- the Archive Leviathan;
+- the secret passage to the Old Bastion;
+- any prisoner or Black Host intelligence.
+
+### Main story tension remains active
+The Ancient discovery is significant, but the group did not enter the waterworks to conduct archaeology.
+
+The scene should preserve the practical question:
+> **Does this route still help us reach the kidnapped people?**
+
+Torren may judge directionality/route viability, but he cannot know where the Ancient complex ultimately exits. Cyanis, Ilyra, and Maevra can register the scale without deciding to abandon the rescue for a full investigation.
+
+### Gameplay role
+After the initial threshold scene, control returns to exploration quickly. Beat 5 should allow enough movement through the entrance portion for the player to absorb the Archive's visual identity before reaching the western mural in Beat 6.
+
+No second authored exposition scene is required unless area design later shows a strong natural stop.
+
+### Beat-5 knowledge checkpoint
+By the end:
+- the party knows the waterworks intersect a major Ancient complex;
+- the complex clearly had an organized preservation/storage purpose;
+- water intrusion is substantial but secondary to the original function;
+- the complex is much larger than a buried utility room or isolated ruin;
+- no Black Host presence has been established inside it;
+- the group remains committed to finding a usable route toward the Old Bastion and the kidnapped people;
+- the party has **not yet seen/interpreted the western map mural**;
+- the deeper history, network, boss, secret passage, and Bastion connection remain unrevealed.
+
+Handoff → **Beat 6 — Western Map Mural**.
 
 ---
 
@@ -390,9 +448,10 @@ Current cleanup Character-Life authority:
 - Beat 1 — current rehearsal-first Draft A.
 - Beat 2 — current rehearsal-first Draft A.
 - Beat 3 — current rehearsal-first Draft A.
-- Beat 4 — current working beat packet developed; dialogue pass active.
+- Beat 4 — current rehearsal-first Draft A.
+- Beat 5 — current working beat packet developed; dialogue pass active.
 - C06 — `Still Burns` — current working dialogue.
-- Next mainline scene after Beat 4 dialogue: **Beat 5 — Sunken Archive Entrance**.
+- Next mainline scene after Beat 5 dialogue: **Beat 6 — Western Map Mural**.
 
 # Global reveal firewall
 Do not reveal during Chapter 2:
