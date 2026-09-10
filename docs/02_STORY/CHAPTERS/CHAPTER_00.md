@@ -20,8 +20,11 @@ The former eight-beat split that separated Riftmaw from the final War-Sorcerer c
 - The concealed Ruin Vanguard Pursuer is **Seyrik Rell** writer-facing only; he is not identified in Chapter 0.
 
 ### Recovered Card / ancient artifact
-- The recovered sealed Card/Ancient artifact remains protected cargo.
-- It is not identified in Chapter 0 as a Prime, Might, Last Sentinel, bearer-confirmation device, Last Weapon, or Entity-related mechanism.
+- The recovered Card remains protected cargo inside its damaged recovery casing through the start of P06.
+- The casing breaks **during P06's combined Riftmaw + Convoy War-Sorcerer boss fight** after the second incomplete response has begun.
+- The Card itself survives intact.
+- From the casing break onward, the casing is unusable and retired from active continuity; Cyanis carries the Card itself.
+- The Card is not identified in Chapter 0 as a Prime, Might, Last Sentinel, bearer-confirmation device, Last Weapon, or Entity-related mechanism.
 - It produces exactly **two incomplete green-and-gold protective flares**.
 
 #### First flare — P04
@@ -49,7 +52,7 @@ The former eight-beat split that separated Riftmaw from the final War-Sorcerer c
 ### Chapter-end transition
 - Chapter 0 does **not** automatically roll into Chapter 1.
 - After P07, most surviving convoy personnel, wounded, civilians, and usable wagons continue onward.
-- Cyanis + Ilyra remain overnight at the stabilized relay/wreck-field camp with the sealed Card and only minimal practical guard/support.
+- Cyanis + Ilyra remain overnight at the stabilized relay/wreck-field camp with the intact Card itself and only minimal practical guard/support.
 - **C01 — Six Minutes** is optional and does not advance the chapter.
 - The actual Chapter-1 boundary is the explicit **Continue to Brackenwall?** / equivalent progression interaction.
 - Declining remains in Chapter-0 cleanup.
@@ -64,14 +67,15 @@ The former eight-beat split that separated Riftmaw from the final War-Sorcerer c
 **Purpose**
 - introduce Cyanis through ordinary professional competence rather than prophecy/chosen-one framing;
 - establish the convoy as a working mixed military/civilian movement;
-- establish the sealed recovery wagon as protected cargo;
+- establish the recovery wagon and cased Card as protected cargo;
 - trigger the Black Host ambush and the first solo combat/tutorial pressure.
 
 **Starting state**
 - convoy moving along the Westways;
 - Cyanis works the east side of the formation;
 - civilians travel under escort;
-- sealed recovery wagon remains under heavier guard;
+- recovery wagon remains under heavier guard;
+- the Card remains inside its damaged recovery casing;
 - Ilyra is not yet present.
 
 **Required events**
@@ -97,7 +101,7 @@ The former eight-beat split that separated Riftmaw from the final War-Sorcerer c
 - civilians/wounded remain at risk;
 - Cyanis is separated on the east side;
 - Black Host pressure remains active;
-- Card sealed/inert;
+- Card remains cased/inert;
 - Ilyra not yet present.
 
 **Handoff:** P02 — Wreck Field.
@@ -129,7 +133,7 @@ Do not reveal Black Host scout motive, Seyrik identity, Prime/Might/Last Sentine
 - survivor movement toward safer ground has begun;
 - north cut may be retreat or bait;
 - nobody knows yet;
-- Card remains sealed/inert;
+- Card remains cased/inert;
 - Ilyra not yet present.
 
 **Handoff:** P03 — Evacuation Relay Decision.
@@ -174,7 +178,7 @@ Do not reveal Black Host scout motive, Seyrik identity, Prime/Might/Last Sentine
 **Starting state**
 - relay-side defensive area has become a working triage camp;
 - wounded escorts/civilians are arriving;
-- sealed recovery cargo is inside the defended perimeter;
+- cased recovery cargo is inside the defended perimeter;
 - Card has not visibly activated before this scene;
 - Ilyra is already working independently when Cyanis enters.
 
@@ -193,13 +197,13 @@ Do not reveal Black Host scout motive, Seyrik identity, Prime/Might/Last Sentine
 **First incomplete Card flare**
 - renewed Black Host pressure threatens the treatment space.
 - Ilyra needs a brief window and physical protection for patients who cannot safely move yet.
-- the sealed artifact suddenly emits fragmented green-and-gold geometry.
+- the cased Card suddenly emits fragmented green-and-gold geometry.
 - the geometry stabilizes failing cover / a threatened movement lane rather than attacking/healing.
 - the response tracks Cyanis's physical/magical condition strongly enough for Ilyra to observe it.
 - Cyanis did not intentionally activate it.
 - the effect visibly strains him.
 - Ilyra can stabilize/monitor Cyanis within medical/Warden limits but cannot identify the phenomenon.
-- once the immediate patient-movement crisis is resolved, the geometry fully collapses and the artifact goes inert.
+- once the immediate patient-movement crisis is resolved, the geometry fully collapses and the Card/casing go inert.
 
 **Ilyra joins the defense**
 - hostile pressure remains after the flare ends.
@@ -232,7 +236,7 @@ Do not identify Prime, Might, Last Sentinel, bearer/ownership status, ancient La
 
 **Starting state**
 - first Card flare is completely over;
-- Card is inert;
+- Card/casing are inert;
 - no special protection is active.
 
 **Required encounter**
@@ -254,7 +258,7 @@ Do not identify Prime, Might, Last Sentinel, bearer/ownership status, ancient La
 - Pursuer gone alive;
 - party does not know his identity;
 - encounter does not prove the northern route was bait;
-- Card remains inert.
+- Card remains cased/inert.
 
 **Handoff:** noncombat reset → P06.
 
@@ -267,12 +271,13 @@ Do not identify Prime, Might, Last Sentinel, bearer/ownership status, ancient La
 - confirm Riftmaw as a Black Host war-beast asset;
 - make the final push a defense of the occupied treatment/evacuation space;
 - trigger the second incomplete Card flare;
+- break the recovery casing during the boss fight while preserving the Card itself;
 - break the organized Black Host convoy-interception operation.
 
 **Starting state**
 - concealed Vanguard encounter is over;
 - player has received a short triage/defensive-reset interval;
-- Card remains inert before the final push;
+- Card remains cased/inert before the final push;
 - wounded/patients still make control of the camp materially important.
 
 **Final push**
@@ -281,7 +286,7 @@ Do not identify Prime, Might, Last Sentinel, bearer/ownership status, ancient La
 - Their advance directly threatens the camp/treatment line.
 
 **Second incomplete Card flare**
-- the same fragmented green-and-gold phenomenon returns.
+- the same fragmented green-and-gold phenomenon returns from the cased Card.
 - Cyanis does not intentionally activate it.
 - Ilyra recognizes the recurrence but cannot identify it.
 - Current story-bounded effect: Cyanis + Ilyra receive **Defense +15% / Spirit +15% for Rounds 1–3**, subject to encounter authority.
@@ -300,6 +305,15 @@ Locks:
 - **no injured Iron Cohort Soldier**;
 - Rift Lance Preparation no earlier than Round 2 unless encounter authority later changes timing.
 
+**Casing break — mandatory scripted battle beat**
+- occurs after the second incomplete response is already active;
+- a heavy impact reaches the recovery position;
+- the already-damaged recovery casing is knocked loose and breaks open against stone;
+- the Card skids free intact and still lit green-and-gold;
+- the fight does not pause for an explanation;
+- the casing is unusable from this moment onward;
+- the Card itself remains in continuity.
+
 **Post-battle**
 - Riftmaw and War-Sorcerer are defeated in the same encounter.
 - Remaining organized Black Host pressure breaks contact/withdraws.
@@ -307,10 +321,13 @@ Locks:
 - Second Card flare fully collapses.
 - Card returns inert.
 - Ilyra immediately checks Cyanis / returns attention to people rather than treating the moment as triumphant closure.
+- Cyanis retrieves the intact Card itself from beside the broken casing.
 
 **End state**
 - immediate organized Black Host interception operation has failed;
-- recovered cargo remains in Crown control;
+- recovered Card remains in Crown control;
+- recovery casing is broken beyond use;
+- Cyanis physically carries the intact Card itself;
 - Card has produced two separate incomplete responses;
 - neither can be deliberately reproduced or explained;
 - recovery/accounting remains unfinished.
@@ -324,7 +341,7 @@ Locks:
 **Purpose**
 - close the crisis through recovery work rather than celebration;
 - complete a bounded survivor sweep;
-- establish conservative Card handling;
+- establish conservative Card handling after the casing is lost;
 - let most of the convoy continue onward;
 - let Ilyra independently choose to remain with Cyanis and the unresolved phenomenon;
 - open the quiet overnight cleanup camp;
@@ -335,7 +352,7 @@ Locks:
 - exact missing-person total remains unknown until actual search; do not fabricate one.
 - bounded final survivor sweep is authorized inside the wreck/search line.
 - no pursuit beyond the boundary.
-- Card remains sealed.
+- the broken casing is retired; the intact Card itself remains with Cyanis and stays inert.
 - Brackenwall is chosen as the next artifact-protocol/regrouping destination.
 - most surviving convoy personnel/wounded/civilians/usable wagons continue onward.
 - Cyanis remains overnight with the Card.
@@ -349,7 +366,7 @@ Locks:
 **End state**
 - Cyanis + Ilyra are the permanent combat-capable pair;
 - most convoy survivors have departed;
-- sealed Card remains inert;
+- Card remains inert in Cyanis's possession;
 - overnight camp is substantially quieter than active triage;
 - Brackenwall is the next main-story destination;
 - Chapter 0 remains active until explicit departure.
@@ -369,14 +386,14 @@ Locks:
 - bitterleaf is mistaken for something suitable to drink, creating the opening mundane/comedic problem;
 - the scene moves into food/rest/self-neglect without becoming therapy or forced intimacy;
 - both have neglected their own needs while caring for others;
-- humor comes from personality, timing, the physical objects, and their emerging conversational language;
+- humor comes from personality, timing, and their emerging conversational language;
 - scene ends with both allowing themselves a bounded period of doing nothing useful.
 
 **Continuity locks**
 - `Six Minutes` is the current C01 title/function.
 - Former separate C01/C02 structure is retired for Chapter 0.
 - C01 does not start Chapter 1.
-- Card remains sealed/inert.
+- Cyanis has the intact Card itself; it remains inert.
 
 ---
 
@@ -400,4 +417,4 @@ Party does **not** know:
 - Seyrik Rell's identity as the Ruin Vanguard Pursuer.
 
 ## Final dramatic shape
-**Working convoy / Cyanis competence → ambush → two solo pressure fights → Wreck Field rescue + lone Hound → suspicious north withdrawal → evidence-based refusal of pursuit → triage camp → Ilyra introduced through medical authority → first incomplete Card flare → Ilyra independently joins defense → concealed Seyrik pressure encounter with Card inert → real breathing/reset interval → combined Riftmaw + War-Sorcerer final boss with second incomplete flare → organized attack breaks → survivor recovery / bounded sweep → most convoy continues → Cyanis + Ilyra remain overnight with sealed Card → optional C01 Six Minutes → player explicitly chooses departure → Chapter 1 begins at Brackenwall.**
+**Working convoy / Cyanis competence → ambush → two solo pressure fights → Wreck Field rescue + lone Hound → suspicious north withdrawal → evidence-based refusal of pursuit → triage camp → Ilyra introduced through medical authority → first incomplete Card flare → Ilyra independently joins defense → concealed Seyrik pressure encounter with Card inert → real breathing/reset interval → combined Riftmaw + War-Sorcerer final boss with second incomplete flare + casing break → organized attack breaks → survivor recovery / bounded sweep → most convoy continues → Cyanis + Ilyra remain overnight with the intact Card itself → optional C01 Six Minutes → player explicitly chooses departure → Chapter 1 begins at Brackenwall.**
