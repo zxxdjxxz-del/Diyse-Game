@@ -282,18 +282,32 @@ Do not reveal the complete route network, Cresthaven, Last Sentinel, buried-Cres
 
 **Purpose**
 - turn the kidnapping problem into direct human contact;
-- preserve the captives as people with agency rather than rescue counters.
+- establish the prisoner population as the people being caught in the corridor conflict rather than an anonymous rescue counter;
+- reveal through prisoner experience that Red Transfer Bastion functions as a **holding/transit site** before captives are taken elsewhere.
 
-**Mandatory events**
+**Locked prisoner composition**
+The people currently held in the Prisoner Galleries include a mix of:
+- **travelers** taken on the regional roads;
+- **injured soldiers** captured or detained by the Black Host;
+- **Greenhollow residents**;
+- **Dunmere residents**.
+
+Other captives were held here before the current group and have already been transferred elsewhere.
+
+**Mandatory events / knowledge**
 - the party enters the Prisoner Galleries unexpectedly from the old secret passage;
 - living captives are held across usable holding areas/bays rather than presented as one anonymous objective crowd;
-- initial distrust of the armed party and/or Maevra is reasonable;
-- prisoners make their own decisions about treatment, movement, and trust;
-- **Ilyra asks consent before examining or treating people** and respects refusal;
-- the party begins opening/clearing accessible areas without turning the scene into collect-all-prisoners gameplay.
+- the prisoners may be startled or cautious at first, but once the party's rescue intent is clear they **do not refuse needed help, treatment, or rescue**;
+- **Ilyra still asks consent before examining or treating conscious prisoners**, and assistance is willingly accepted rather than becoming a refusal conflict;
+- prisoners explain from direct experience that this Bastion is being used as a **holding area before the Host takes captives away to another location**;
+- they know previous prisoners have already been transferred out;
+- they **do not know where those people were taken** or the larger purpose of the transfer system;
+- the prisoners' immediate fear is practical: they do not believe they can safely escape while the Black Host still controls the Bastion above them;
+- the party begins opening/clearing accessible holding areas without turning the scene into collect-all-prisoners gameplay.
 
 **End state**
-- living prisoners are found and immediate local control of part of the galleries is broken.
+- living prisoners are found and local control of part of the galleries is broken;
+- the prisoners are willing to cooperate with rescue efforts but believe the Bastion must first be defeated/secured enough for an escape to succeed.
 
 **Gameplay handoff**
 → Beat 11 — Prisoner Safe Area / Exit Problem
@@ -303,18 +317,20 @@ Do not reveal the complete route network, Cresthaven, Last Sentinel, buried-Cres
 ## Beat 11 — Prisoner Safe Area / Exit Problem
 
 **Purpose**
-- create a defensible temporary position;
-- establish why the party cannot simply evacuate everyone back through the route they entered.
+- create a defensible temporary position for the rescued captives;
+- establish why the party cannot simply evacuate everyone back through the route they entered;
+- convert the prisoners' fear into a concrete tactical requirement: **break the Black Host's control of the Bastion before attempting the escape**.
 
 **Mandatory events**
-- prisoners who choose to wait gather in a defensible lower safe area;
+- the prisoners gather in a defensible lower safe area while the party prepares to move against the upper Bastion;
 - the people inside retain control of their own interior door/bar; the party does not lock them in or take control away from them;
-- the secret Archive/waterworks route is judged unsuitable for moving a group that includes injured/weakened people;
-- the practical exit toward the surface/direct road is controlled by the Bastion's active command layer;
-- the party decides to push upward, seize/open the route, then return for the prisoners.
+- the secret Archive/waterworks route is judged unsuitable for moving a mixed group that includes injured soldiers, injured/weakened civilians, and ordinary travelers;
+- prisoners make clear that trying to flee through an unsecured fort while the Host still controls the Bastion would likely mean recapture, attack, or abandonment of people who cannot move quickly;
+- the practical exit toward the surface/direct Greenhollow–Dunmere road is controlled by the Bastion's active command layer;
+- the party decides to push upward, defeat/break the Bastion's local Black Host control, seize/open the usable exit route, and then return for the prisoners.
 
 **End state**
-- prisoners have a temporary safe position;
+- prisoners have a temporary safe position and are waiting for the party to make escape genuinely possible;
 - the party's next objective is the Bastion command layer and exit controls.
 
 **Gameplay handoff**
@@ -405,10 +421,10 @@ Do not reveal the complete route network, Cresthaven, Last Sentinel, buried-Cres
 
 **Mandatory events**
 - the party physically returns to the Prisoner Galleries/safe area;
-- prisoners are told that the usable exit is open;
-- people prepare to move on their own terms;
+- prisoners are told that the usable exit is open and the Bastion's local control has been broken enough for escape;
+- people prepare to move with the party;
 - injured/weakened people receive practical accommodations;
-- Ilyra supports those who want assistance;
+- Ilyra supports those needing assistance;
 - Maevra helps organize movement while remaining non-combat;
 - Torren prepares to lead the route once they are outside.
 
@@ -455,7 +471,7 @@ Do not reveal the complete route network, Cresthaven, Last Sentinel, buried-Cres
 - direct **Greenhollow ↔ Dunmere travel reopens**;
 - the rescued prisoners are safe/out of immediate Bastion control;
 - Rhazek remains alive and withdrawn;
-- not every kidnapped or previously moved person is necessarily accounted for; the broader missing-person thread may remain unresolved;
+- not every kidnapped or previously transferred person is accounted for; the broader missing-person thread remains open because earlier captives were taken onward from the Bastion to an unknown location;
 - Chapter 2's mandatory combat/rescue arc is complete.
 
 **End state**
@@ -490,21 +506,23 @@ Do not reveal the complete route network, Cresthaven, Last Sentinel, buried-Cres
 
 # Locked Chapter-2 dramatic shape
 
-**Start Chapter 2 confirmation at the end of the Chapter-1 camp → Chapter 2 opens on the path immediately outside Dunmere → Dunmere missing-traveler crisis → elder reveals covert waterworks approach → Old Waterworks → Sunken Archive → complete western-half map mural showing what Wayfinder could not and visibly continuing beyond its edges → Archive depths → Archive Leviathan → old secret passage → direct emergence into Prisoner Galleries → first contact / prisoner agency → defensible safe area / practical exit problem → Bastion command ascent → Rhazek actively commanding with unnamed masked Seyrik present → Rhazek/Bastion Master → controls/exit secured while Rhazek withdraws → return to prisoners → lead prisoners out through the Bastion exit directly onto the Greenhollow–Dunmere road → road reopened / rescue complete → return to Dunmere → inn/cleanup → player explicitly chooses to begin Chapter 3.**
+**Start Chapter 2 confirmation at the end of the Chapter-1 camp → Chapter 2 opens on the path immediately outside Dunmere → Dunmere missing-traveler crisis → elder reveals covert waterworks approach → Old Waterworks → Sunken Archive → complete western-half map mural showing what Wayfinder could not and visibly continuing beyond its edges → Archive depths → Archive Leviathan → old secret passage → direct emergence into Prisoner Galleries → first contact with travelers, injured soldiers, Greenhollow residents, and Dunmere residents → prisoners reveal the Bastion is a holding/transit site and that earlier captives were transferred somewhere unknown → prisoners fear escape is impossible while the Host still controls the fort → defensible safe area / practical exit problem → Bastion command ascent → Rhazek actively commanding with unnamed masked Seyrik present → Rhazek/Bastion Master → controls/exit secured while Rhazek withdraws → return to prisoners → lead prisoners out through the Bastion exit directly onto the Greenhollow–Dunmere road → road reopened / rescue complete → return to Dunmere → inn/cleanup → player explicitly chooses to begin Chapter 3.**
 
 # Long arcs advanced
 - Hollow Watch → Wayfinder → Sunken Archive cartographic mystery escalates from local clues to a **complete western section** of a much larger Diysean route/map system.
 - The western map visibly continues beyond its own physical edges, establishing missing eastern/other map sections without damaging the western section itself.
 - A much larger unfamiliar ancient city is established at modern Caelora's location without yet identifying its full meaning.
 - The Black Host kidnapping operation is demonstrated through the actual Prisoner Galleries and working Bastion infrastructure rather than a separate transfer-records exposition beat.
+- The current prisoners establish through direct experience that Red Transfer Bastion is a **holding/transit site** and that earlier captives were moved onward to an unknown destination.
+- The broader missing-person thread therefore remains open even after the current prisoners are rescued.
 - Rhazek is established as competent, ideological, and accountable for the operation.
 - Seyrik is deliberately seeded as the unnamed masked officer reporting to Rhazek before his later reveal.
 - The Greenhollow–Dunmere road is concretely reopened as a world-state change.
-- The broader missing-person thread may remain unresolved because escaping the Bastion does not prove every previously kidnapped person has been recovered.
 
 # Chapter-2 reveal firewall
 Chapter 2 must not reveal:
 - Seyrik's identity;
+- the destination or complete purpose of the captives transferred onward from Red Transfer Bastion;
 - complete Prime/Last Sentinel answers reserved for Chapter 3;
 - the full Diysean route/network explanation;
 - Cresthaven's identity/location unless later explicit authority moves that reveal earlier;
