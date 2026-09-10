@@ -4,21 +4,12 @@
   "chapter_id": "chapter_01",
   "story_position": "Chapter 1 — Beat 8 — Forced Inner Section",
   "production_ready": false,
-  "participants": [
-    "cyanis",
-    "ilyra",
-    "maevra",
-    "torren"
-  ],
-  "scene_purpose": "Show that the Black Host forced entry into a more protected Diysean layer, expose older machinery through recent damage, escalate ancient defenses, and carry the party to the Hollow Watch Castellan chamber without spending the boss activation, Card causality, or post-Castellan mural payoff early.",
+  "participants": ["cyanis", "ilyra", "maevra", "torren"],
+  "scene_purpose": "Show that the Black Host forced entry into a more protected Diysean layer, expose older machinery through recent damage, escalate the ordinary random-encounter danger of ancient defenses, and carry the party to the Hollow Watch Castellan chamber without spending the boss activation, Card causality, or post-Castellan mural payoff early.",
   "story_sources": [
     {
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
-      "sections": [
-        "Beat 8 — Forced Inner Section",
-        "Beat 9 — Hollow Watch Castellan",
-        "Beat 10 — Post-Castellan Mural"
-      ],
+      "sections": ["Beat 8 — Forced Inner Section", "Beat 9 — Hollow Watch Castellan", "Beat 10 — Post-Castellan Mural"],
       "role": "current_chapter_01_beats_08_10_story_authority_and_reveal_firewall"
     },
     {
@@ -28,44 +19,26 @@
     }
   ],
   "additional_authority_sources": [
-    {
-      "path": "docs/01_CHARACTERS/PLAYABLE/Torren.md",
-      "whole_file": true,
-      "role": "torren_character_authority"
-    },
-    {
-      "path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md",
-      "whole_file": true,
-      "role": "maevra_character_authority"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
-      "whole_file": true,
-      "role": "rehearsal_first_authoring_lock"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md",
-      "whole_file": true,
-      "role": "invisible_knowledge_firewall"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
-      "whole_file": true,
-      "role": "walking_dialogue_hard_lock"
-    }
+    {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "torren_character_authority"},
+    {"path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md", "whole_file": true, "role": "maevra_character_authority"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_authoring_lock"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "invisible_knowledge_firewall"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md", "whole_file": true, "role": "ordinary_enemy_random_encounter_lock"}
   ],
   "scene_context_seed": {
     "location_name": "Hollow Watch — protected inner Diysean section",
     "area_phase": "hostile_unknown_inner_ruin",
-    "dialogue_readiness": "RED_during_traversal_GREEN_at_secured_stops",
+    "dialogue_readiness": "RED_during_traversal_GREEN_at_story_stops",
     "static_story_context_only": true,
-    "runtime_note": "Nobody knows this route and nobody qualifies as an active guide: no walking dialogue. Rehearse people first; keep the Canon Checker invisible. The protected-layer transition should be communicated with existing inner-ruin geometry plus localized Black Host force damage. Do not add an aid station, special barricade room, bespoke machinery set piece, extra clue props, new rooms/platforms, or ambient mini-scenes. Older machinery may be visible only where the existing wall/door surface has already been broken. Existing/reusable Diysean Sentry assets handle defense escalation. Cyanis carries the intact Card directly and it remains inert throughout Beat 8. Do not trigger the Castellan here. Do not state or imply that any Beat-8 defense reacts to Cyanis or the Card. Do not reveal the post-Castellan mural, falling-fire imagery, regional geography, Wayfinder significance, or any ancient-network explanation. Torren may assess current footing, visible damage, route condition, and structural risk only without narrating his knowledge boundary."
+    "runtime_note": "Nobody knows this route and nobody qualifies as an active guide: no walking dialogue. Rehearse people first; keep the Canon Checker invisible. Use existing inner-ruin geometry plus localized Black Host force damage. Do not add an aid station, special barricade room, bespoke machinery set piece, extra clue props, new rooms/platforms, or ambient mini-scenes. Ordinary Black Host troops and Diysean defenses are RANDOM ENCOUNTERS. Do not author fixed enemy placements, mandatory combat set pieces, scripted ordinary activations, or story progression that requires a specific ordinary battle. Defense escalation belongs to the random encounter pool/tuning. Optional post-random-encounter banter may fire without becoming mandatory. Cyanis carries the intact Card directly and it remains inert throughout Beat 8. The Castellan is the authored boss in Beat 9 and must not activate here. Do not reveal the post-Castellan mural, falling-fire imagery, regional geography, Wayfinder significance, or any ancient-network explanation."
   },
   "current_floor_state": {
     "card_state": "intact_directly_carried_and_inert",
     "combat_party": ["cyanis", "ilyra", "torren"],
     "maevra_party_status": "noncombat_traveling_companion",
     "torren_party_status": "temporary_combat_ally",
+    "ordinary_enemy_presentation": "random_encounters_only",
     "lower_junction_clue_known": "six_channels_and_large_scale_human_movement_only",
     "original_ruin_function": "unknown",
     "black_host_objective": "unknown"
