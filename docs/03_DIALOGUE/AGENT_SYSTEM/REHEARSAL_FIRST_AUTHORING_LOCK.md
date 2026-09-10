@@ -17,14 +17,16 @@ Before staging any dialogue, obey:
 
 The dialogue layer does **not** get to invent a different game presentation.
 
-Current baseline:
+Current baseline follows an FF7-style field-scene grammar adapted to Diyse:
 - ordinary traversal shows **Cyanis only** as the field character;
-- companions do not form a visible follower train;
+- companions do not form a visible follower train during free exploration;
+- when an authored scene triggers, the other characters who are present may appear as field models for that scene;
+- after the scene, ordinary exploration returns to Cyanis-only traversal;
 - dialogue is primarily **simple portraits + dialogue box** over the existing field/background;
-- the environment follows layered HD-2D / 2.5D construction with selective depth geometry, not a fully modeled 3D cinematic stage;
-- ordinary dialogue does not require companion field-model blocking, prop business, weapon handling, or bespoke physical gestures.
+- scene field models may provide simple spatial presence/blocking, but portraits and text carry most of the acting;
+- the environment follows layered HD-2D / 2.5D construction with selective depth geometry, not a fully modeled 3D cinematic stage.
 
-A character may be present in the conversation without being physically represented on the field.
+A character may be present in the conversation without being physically represented during traversal, then appear normally once the scene trigger stops exploration.
 
 ## Required authoring sequence
 
@@ -39,7 +41,7 @@ Provide each relevant Person Agent with only the material needed to inhabit the 
 - physical/gameplay pressure;
 - visible world information already required by the area/beat;
 - required story event or decision;
-- the established gameplay/presentation mode.
+- whether the moment is ordinary traversal or an authored triggered scene.
 
 The Director does not pre-compose the desired conversation rhythm and does not invent extra environment content or physical staging merely to make the scene feel richer.
 
@@ -66,7 +68,7 @@ The Editor should:
 - let portraits, silence, and already-required story visuals carry what speech does not need to carry;
 - end exchanges once the point lands;
 - cut polished lines that make everyone sound equally authored;
-- strip physical micro-direction that the actual gameplay presentation will not show.
+- strip physical micro-direction the actual field presentation does not need.
 
 More natural rehearsal material is useful. More final lines are not automatically better.
 
@@ -89,15 +91,21 @@ If a line violates canon, repair or remove that line without teaching the cast t
 ### 5. Economical presentation pass — REDUCTIVE, NOT ADDITIVE
 After dialogue survives the Editor and Canon Checker, translate the beat into the established game presentation rather than designing a new cinematic layer.
 
-> **Default scene presentation is the existing field/background plus portraits and the dialogue box.**
-
-During traversal:
+#### Ordinary traversal
 > **Cyanis remains the sole visible party field character.**
 
+Legal walking dialogue may use portraits/text while Cyanis moves. A guide does not need to appear physically just because they are directing the route.
+
+#### Authored triggered scene
+> **Relevant present characters may appear as field models once the scene trigger stops ordinary traversal.**
+
+This is normal presentation, not a special exception. A triggered scene may show the party/NPCs standing together in sensible positions while portraits and the dialogue box carry the conversation.
+
+After the scene, those companion models do not become a permanent follower train; normal traversal returns to Cyanis-only field presentation.
+
 Do not automatically add:
-- companion field models;
-- companion walking/following/blocking;
-- pointing, crouching, equipment adjustment, weapon handling, foliage interaction, or other tiny physical gestures;
+- companion walking/following during free traversal;
+- constant pointing, crouching, equipment adjustment, weapon handling, foliage interaction, or other tiny physical gestures;
 - extra rooms, platforms, paths, ledges, set pieces, or environmental beats;
 - new NPC business, crowds, or ambient comedy;
 - props solely to give characters something to touch;
@@ -106,9 +114,7 @@ Do not automatically add:
 - camera/light/sound choreography just because it is available;
 - extra dialogue beats created to justify staging.
 
-Physical presentation is reserved for events the story/gameplay genuinely requires: combat, bosses, major object interaction, major reveal/state change, or a rare explicitly authored scene that independently requires additional visible characters.
-
-Even then, use the simplest implementation that communicates the event.
+Simple scene-field presence is allowed. Micro-choreography is not the default.
 
 ### Micro-detail accumulation is also additive
 A scene can become expensive and over-authored without adding one large set piece.
@@ -123,7 +129,9 @@ Do not stack repeated tracks, broken brush, mud details, scratches, bones, extra
 
 `WALKING_DIALOGUE_LOCK.md` still controls when speech may happen during traversal.
 
-A legal Torren- or Maevra-guided walking exchange does **not** put that guide on the field. Cyanis remains the visible traversal avatar; the guide speaks through the portrait/dialogue UI.
+A legal Torren- or Maevra-guided walking exchange does **not** require that guide on the field. Cyanis remains the visible traversal avatar; the guide speaks through the portrait/dialogue UI.
+
+If the party reaches an authored stop/trigger, the relevant characters may then appear as field models for that scene.
 
 ## Quality tests
 
@@ -137,19 +145,20 @@ Then:
 
 Then:
 
-> **If we removed every physical/staging detail not required for story or gameplay comprehension, would anything important be lost?**
+> **Does this physical action actually need to be shown, or can the scene field models simply stand there while the portraits and dialogue carry it?**
 
-If not, remove it.
+If it does not need to be shown, remove it.
 
 ## Chapter 1 remediation
 
 Chapter 1 dialogue must be normalized to this gameplay presentation before later beats are treated as production-ready.
 
-That means the existing rehearsal-first dialogue can be preserved where it works, while stale staging directions are removed or translated into:
-- portrait expression;
-- dialogue-box timing;
-- silence;
-- Cyanis-only traversal;
-- one genuinely required story visual when necessary.
+That means preserving the dialogue that works while correcting presentation to:
+- Cyanis-only ordinary traversal;
+- relevant party/NPC field models appearing when authored scenes trigger;
+- portraits + dialogue box as the main conversational performance;
+- simple scene blocking where useful;
+- no unnecessary micro-gesture/prop choreography;
+- only story-required major visuals.
 
-Beats 1–12 therefore require a presentation-normalization sweep for any leftover companion field blocking, micro-gestures, prop handling, or fully-3D assumptions. This is a staging correction, not permission to unnecessarily rewrite approved character dialogue.
+This is a staging correction, not permission to unnecessarily rewrite approved character dialogue.
