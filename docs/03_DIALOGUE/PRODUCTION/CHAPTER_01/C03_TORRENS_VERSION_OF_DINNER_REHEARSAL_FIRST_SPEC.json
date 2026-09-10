@@ -8,7 +8,7 @@
   "scene_purpose": "Give Cyanis, Ilyra, Torren, and Maevra an ordinary low-stakes camp dinner after the Chapter-1 climax. The scene is about Torren's genuinely bad but functional food, with Maevra's long familiarity with it contrasting Cyanis and Ilyra discovering it. Let humor and comfort emerge naturally, and let Torren smoke only after the meal is finished.",
   "story_sources": [
     {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_MAEVRA_BROKEN_ARM_LOCK.md", "whole_file": true, "role": "maevra_chapter_1_injury_state"},
-    {"path": "docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_01/C03.md", "whole_file": true, "role": "historical_source_material_only_not_current_structure"}
+    {"path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHARACTER_LIFE_REBUILD_LOCK.md", "whole_file": true, "role": "current_character_life_authority"}
   ],
   "additional_authority_sources": [
     {"path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md", "whole_file": true, "role": "cyanis_character_authority"},
