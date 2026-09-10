@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 2
 # Briar Passage / First Traversal
-## DIALOGUE ENGINE PRODUCTION DRAFT E — established gameplay presentation normalization / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT F — Maevra injury continuity + established gameplay presentation / awaiting user approval
 
 **Walking-dialogue lock:** brief moving dialogue is legal here because Maevra is genuinely guiding Cyanis and Ilyra to Greenhollow.
 
@@ -13,6 +13,8 @@
 Cyanis is the only party character visible during ordinary traversal.
 
 Maevra and Ilyra remain present with him and speak through the normal portrait + dialogue-box presentation.
+
+Maevra's arm remains in the field splint established at Brackenwall. The injury happened during the Broken Convoy attack. It does not stop her from guiding the route, but she is not a battle participant.
 
 Cyanis carries the intact recovered Card itself. It remains inert.
 
@@ -62,6 +64,8 @@ There is no Briarhide Stalker encounter, no Ancient-story payoff, and no Old Way
 
 Most travel is silent.
 
+The script does not keep calling attention to Maevra's arm. The splint itself carries continuity whenever she appears in an authored scene.
+
 ---
 
 ### [GUIDED TRAVERSAL DIALOGUE — LATER]
@@ -94,6 +98,8 @@ Greenhollow comes into view as part of normal field progression.
 
 At the settlement threshold, an authored scene may trigger. Because this is a scene transition into a town, relevant characters may appear as field models in simple positions while portraits and the dialogue box carry the exchange.
 
+Maevra's splint remains visible as part of her normal Chapter-1 field state.
+
 **MAEVRA:** Greenhollow.
 
 **CYANIS:** That's it?
@@ -123,6 +129,8 @@ Greenhollow uses town/hub presentation, so party members and NPCs may be visibly
 Traveling group: **Cyanis + Ilyra + Maevra**  
 Combat party: **Cyanis + Ilyra**
 
+Maevra remains noncombat because of the broken arm sustained during the convoy attack.
+
 Next mandatory story beat: **Greenhollow / Torren.**
 
 ---
@@ -131,10 +139,10 @@ Next mandatory story beat: **Greenhollow / Torren.**
 
 **Gameplay presentation:** PASS. Cyanis alone is visible during ordinary wilderness traversal. Maevra and Ilyra speak through portraits/dialogue UI. At the Greenhollow scene/town threshold, relevant field models may appear normally.
 
+**Maevra injury:** PASS. Her arm remains splinted, but the dialogue does not re-explain it after Beat 1.
+
 **Walking dialogue:** PASS. Both moving exchanges occur only because Maevra is genuinely guiding the route.
 
 **Random encounters:** PASS. All ordinary Briar enemies remain random encounters; Maevra is never represented in combat.
 
 **Locked cuts:** PASS. No false trail, route split, crossing, Old Waystone, Briarhide Stalker, or Ancient-story payoff is restored.
-
-**Reduction:** PASS. The dialogue draft does not prescribe branch-moving, marker-cleaning, footprints, horse-shit blocking, bandaging animation, sign-pointing, or other micro-staging. Those kinds of environmental and physical details are left to the established game/map presentation unless a later story beat truly requires them.
