@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 12
 # Southern Briar Passage
-## DIALOGUE ENGINE PRODUCTION DRAFT C — rehearsal-first + Junction correction + reductive HD-2D + random encounters / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT D — rehearsal-first + Junction correction + reductive HD-2D + micro-detail cleanup / awaiting user approval
 
 ---
 
@@ -8,9 +8,7 @@
 
 **Player control is active.**
 
-The stop in Greenhollow is brief.
-
-Word from Hollow Watch is passed on. The party replaces what it can and heads south.
+The stop in Greenhollow is brief. Word from Hollow Watch is passed on, supplies are replaced where possible, and the party heads south.
 
 Permanent combat party:
 
@@ -20,115 +18,79 @@ Maevra Solmar remains a non-combat traveling companion.
 
 Cyanis carries the intact Card itself. It remains inert.
 
-At the last maintained route marker, Torren looks over the two southern traces and points to one.
+Torren takes the southern Briar route.
 
-**TORREN:** This one.
+**TORREN:** This way.
 
-Cyanis looks at the other.
+Cyanis looks down the other trace.
 
-**CYANIS:** You could pretend to consider it.
+**CYANIS:** Not even pretending to consider that one?
 
-**TORREN:** I did. Last week.
+**TORREN:** Already did.
 
-**MAEVRA:** Thorough.
+**MAEVRA:** When?
 
-Torren looks at the standing water across the other track.
+**TORREN:** Before you got here.
 
-**TORREN:** It's worse now.
+Maevra looks at him.
 
-Cyanis follows his gaze.
-
-**CYANIS:** Fine.
+**MAEVRA:** Convenient.
 
 Torren starts south.
 
-**TORREN:** Right side until the ground firms up.
+**TORREN:** Keep right until the ground firms up.
 
-He is actively leading the group, so this short route-guidance window is legal.
-
----
-
-### [GUIDED MOVEMENT — SOUTHERN BRIAR]
-
-The maintained road gives way to the older Briar route.
-
-Torren keeps the party to the higher edge.
-
-**CYANIS:** Left looks flatter.
-
-**TORREN:** Wash under it.
-
-Cyanis moves right.
-
-**CYANIS:** You could've let me learn that one myself.
-
-**ILYRA:** No.
-
-Torren glances back once.
-
-**TORREN:** She's right.
-
-That is the end of the moving conversation.
+He is actively leading the group. No further moving conversation is needed here.
 
 ---
 
 ### [GAMEPLAY — SOUTHERN BRIAR]
 
-A substantial uninterrupted exploration section follows.
+A substantial exploration section follows.
 
-Use the existing southern Briar environment kit: older road bed, roots, mossed retaining stone, drainage cuts, brush, and ordinary side traces.
+This is normal Southern Briar gameplay using the area's established environment kit. The dialogue manuscript does **not** prescribe extra road dressing, prop trails, tiny environmental discoveries, or repeated visual hints.
 
 Random encounters provide all ordinary enemy pressure.
 
-No fixed ordinary fights, scripted ambushes, or mandatory room-clear moments occur.
-
-Torren may give only short route instructions when guidance materially matters. Otherwise traversal is silent.
+Torren may give short route instructions only when guidance materially matters. Otherwise traversal is silent.
 
 The Card remains inert.
 
-The player eventually passes an old stone-lined side access partly swallowed by growth.
+The player eventually reaches the one required side-route landmark.
 
 ---
 
 ### [ROUTE STOP — OVERGROWN SIDE ACCESS]
 
-Torren stops at the edge of the road.
+An old stone-lined side opening sits beside the route, heavily overgrown and clearly not the useful way south.
 
-An old fitted stone opening sits uphill, half hidden by vines, thorn, and hanging root.
-
-He lifts one strand of growth with the end of his bow just far enough to see the stone beneath it.
-
-**TORREN:** Huh.
-
-Maevra looks over.
+The party stops.
 
 **MAEVRA:** Know it?
 
+Torren looks at the opening.
+
 **TORREN:** Know the cut.
 
-He lets the vine fall back.
+**ILYRA:** Ever used it?
 
-**TORREN:** Never used it.
+**TORREN:** No.
 
-Cyanis peers into the growth.
+Cyanis looks into the growth.
 
-**CYANIS:** Looks welcoming.
+**CYANIS:** Tempting.
 
-Ilyra looks at a thorn hanging roughly at eye level.
+**ILYRA:** No.
 
-**ILYRA:** To you, maybe.
+**CYANIS:** Fair.
 
-**CYANIS:** Selective welcome.
-
-Torren points down the open road.
+Torren looks back toward the southern road.
 
 **TORREN:** Wrong direction anyway.
 
-Maevra gives the opening one last look.
+**MAEVRA:** Then south.
 
-**MAEVRA:** South, then.
-
-**TORREN:** South.
+Torren nods.
 
 They leave it behind.
 
@@ -140,23 +102,19 @@ No one names a cistern, Hunt, node, tunnel system, or hidden objective.
 
 **Player control continues.**
 
-Random encounters remain active.
+Most of this section is simply gameplay and silence.
 
-Do not add a feeding-site set piece, lookout platform, special predator prop trail, or extra discovery scene.
+No feeding-site scene, track trail, broken-brush sequence, lookout, road-history vignette, or extra predator investigation is authored.
 
-A few reusable field signs are enough: a broad track in mud, broken brush at its height, and another print later near the road.
+One clear Briarhide track is enough to establish that something unusually large is using this stretch of country.
 
-The area remains a playable route rather than a scripted investigation.
-
-At the first clear track, the party stops.
+The party stops at it.
 
 ---
 
 ### [STOP — BRIARHIDE TRACK]
 
-The print is broad and deep.
-
-Cyanis looks down at it.
+Cyanis looks down at the print.
 
 **CYANIS:** Big.
 
@@ -164,21 +122,15 @@ Torren crouches beside it.
 
 **TORREN:** Briarhide.
 
-Maevra looks at the depth of the print.
+Maevra looks at him.
 
 **MAEVRA:** Big Briarhide.
 
 **TORREN:** Very.
 
-He checks the next mark where it enters the brush.
-
-**TORREN:** Moving clean. No drag. No limp.
-
 Ilyra looks toward the trees.
 
 **ILYRA:** Recent?
-
-Torren touches the wet edge of the track.
 
 **TORREN:** Yeah.
 
@@ -188,115 +140,49 @@ Cyanis adjusts his shield strap.
 
 Torren stands.
 
-**TORREN:** If it doesn't, we're having a very lucky day.
+**TORREN:** Probably.
 
 Maevra looks down the road.
 
 **MAEVRA:** Keep moving.
 
-Torren nods.
-
 They do.
+
+That is the only authored predator-sign stop before the sighting.
 
 ---
 
 ### [GAMEPLAY — TOWARD THE JUNCTION]
 
-The next stretch is mostly silent gameplay.
+The next stretch is uninterrupted gameplay.
 
-The road gradually broadens. Older traces begin joining it from other directions.
+Torren is leading toward the Junction, which he knows as an old crossroads. The large monument shown in the Hollow Watch mural remains completely hidden in the present-day landscape.
 
-That road convergence — not a visible monument — tells the player the party is nearing the ancient crossroads.
+Do not add a distant monument silhouette or extra visual proof that the Junction is near.
 
-Nothing resembling the mural's large monument is visible through the trees.
-
-Torren has never seen that exposed monument and does not expect to spot a giant stone structure from a distance.
-
-At a broader meeting of old road beds, the party stops briefly.
-
----
-
-### [ROUTE STOP — NEAR THE JUNCTION]
-
-Torren looks from one old road to another.
+At an appropriate route point, Torren gives the only needed location call.
 
 **TORREN:** Junction's past the next rise.
 
-Cyanis looks ahead.
+The group keeps moving.
 
-Nothing unusual is visible beyond trees and old road.
-
-**CYANIS:** Still no giant monument.
-
-Torren gives him a look.
-
-**TORREN:** I noticed.
-
-Maevra looks at him.
-
-**MAEVRA:** Bothering you?
-
-**TORREN:** I've crossed there for years.
-
-**MAEVRA:** That's a yes.
-
-Torren starts to answer.
-
-Stops.
-
-**TORREN:** A little.
-
-Cyanis smiles.
-
-**CYANIS:** Good.
-
-**TORREN:** Why is that good?
-
-**CYANIS:** I was worried nothing bothered you.
-
-Ilyra looks down the road.
-
-**ILYRA:** Something does.
-
-The others follow her gaze.
-
-The brush ahead has gone still.
-
-The conversation ends.
-
----
-
-### [GAMEPLAY — FINAL APPROACH]
-
-**Player control returns.**
-
-The party advances toward the last stretch before the Junction.
-
-Random encounters remain the only ordinary combat presentation.
-
-Use the existing Briar route and the same light predator-sign treatment already established. Do not add another investigation stop.
-
-After a short playable interval, the Briarhide appears.
+No conversation follows.
 
 ---
 
 ### [STORY STOP — BRIARHIDE STALKER SIGHTING]
 
-A large Briarhide steps out across the road ahead.
+Before the party reaches the Junction, the Briarhide Stalker appears on the road ahead.
 
-This is the first clear look at the **Briarhide Stalker**.
+This is the first clear look at it.
 
 It is simply a very large, old, powerful wild animal.
 
 No armor. No chain. No magical apparatus. No corruption. No Black Host mark. No special wound.
 
-It stops when it sees the party.
+The party stops.
 
-The party stops too.
-
-For a moment, neither side moves.
-
-Cyanis keeps his voice low.
+For a moment, neither side commits.
 
 **CYANIS:** That's the Briarhide.
 
@@ -306,25 +192,17 @@ Maevra looks at Torren.
 
 **MAEVRA:** You undersold "very."
 
-Torren keeps his eyes on the animal.
-
 **TORREN:** It wasn't standing in front of me then.
 
-Ilyra watches the animal rather than Torren.
+Ilyra keeps her eyes on the animal.
 
 **ILYRA:** Route?
 
-Torren looks past the Briarhide toward the road.
-
-Then uphill.
-
-Then down the slope.
+Torren looks past it toward the road ahead.
 
 **TORREN:** Same one.
 
-The Stalker shifts sideways into the brush without turning its back on them.
-
-It disappears from view.
+The Briarhide withdraws into the brush without leaving the area.
 
 Nobody relaxes.
 
@@ -332,23 +210,15 @@ Nobody relaxes.
 
 ### [STOP — THE LAST STRETCH]
 
-The party remains where it is.
-
 **MAEVRA:** Around?
 
-Torren points uphill.
+Torren looks at the ground on either side of the road.
 
-**TORREN:** Rock wall.
+**TORREN:** Not cleanly.
 
-Then downhill.
-
-**TORREN:** Drops us off the route.
-
-Cyanis looks at the road ahead.
+Cyanis looks ahead.
 
 **CYANIS:** So through.
-
-Torren looks once at the brush where the Stalker vanished.
 
 **TORREN:** Through.
 
@@ -356,13 +226,11 @@ Ilyra adjusts her grip on her Wardrod.
 
 **ILYRA:** Then it doesn't get the first hit for free.
 
-Torren nods.
-
 **TORREN:** Agreed.
 
 Maevra shifts behind the combat line before the party moves again.
 
-The Junction itself is still beyond the next rise.
+The Junction remains beyond the next rise.
 
 The hidden monument has not been revealed.
 
@@ -378,15 +246,13 @@ Current objective:
 
 Story state:
 - Torren is now fully functioning as the party's permanent guide and combat member;
-- southern Briar Passage remains a substantial playable route with most traversal left to gameplay and silence;
+- Southern Briar Passage remains a substantial playable area, but the dialogue manuscript does not micromanage its environmental dressing;
 - ordinary enemy pressure is entirely random encounters;
-- the overgrown old stone-lined side access has been established and left unexplored;
-- no one knows its later connection to the Junction map's water/cistern notation;
-- a very large Briarhide has been established with minimal natural field evidence rather than a scripted investigation trail;
-- the party has now received a clear sighting of the Briarhide Stalker;
-- the Stalker is natural wildlife with no corruption, control, device, ritual, or supernatural condition;
+- the one required overgrown old stone-lined side access has been established and left unexplored;
+- one Briarhide track provides the only authored predator-sign stop before the sighting;
+- the Briarhide Stalker is natural wildlife with no corruption, control, device, ritual, or supernatural condition;
 - the party is approaching **the Junction**, an ancient crossroads Torren knows from modern travel;
-- the large monument shown at the Junction in the Hollow Watch mural remains hidden and unseen in the present day;
+- the large monument shown there in the Hollow Watch mural remains hidden and unseen in the present day;
 - Torren has never seen the monument's exposed stone or map surface;
 - Cyanis carries the intact Card itself and it remains inert.
 
@@ -402,12 +268,12 @@ Next mandatory story beat:
 
 ## Rehearsal-first / reductive HD-2D / encounter check
 
-**Human layer:** Torren's expertise appears through decisions and short answers rather than qualification rituals. The Junction correction gives him a small, human reaction to learning that something substantial may have been hidden at a place he has crossed for years.
+**Human layer:** Torren's expertise appears through a few practical route decisions and short answers. No one narrates the environment just to make the route feel dense.
 
-**Walking dialogue:** only the opening route-guidance exchange occurs while moving under Torren's active guidance. Substantive conversations happen at stops.
+**Walking dialogue:** only brief guide instructions occur while Torren is genuinely leading. Substantive exchanges occur at stops.
 
-**Random encounters:** all ordinary enemies remain random encounters. The Briarhide Stalker sighting is a story presentation leading toward the explicitly authored Chapter-1 boss in Beat 13, not an ordinary enemy encounter.
+**Random encounters:** all ordinary enemies remain random encounters. The Briarhide Stalker is the explicit authored boss setup.
 
-**Junction continuity:** characters call the place **the Junction**. No distant monument silhouette is shown. The later vines/moss clearing remains the first reveal of the monument's actual present-day stone and map surface.
+**Junction continuity:** characters call the place **the Junction**. The monument remains hidden until the later vines-and-moss clearing at the crossroads.
 
-**Reductive HD-2D:** use the existing southern Briar kit, one overgrown side-access variant, reusable track decals, and the Briarhide boss field rig for its required sighting. No feeding-site set piece, lookout platform, distant monument asset, extra machinery, crowd, or bespoke travel cinematic is added.
+**Reductive production:** the script requires only the existing Southern Briar area, the already-required overgrown side access, one simple Briarhide track read, and the boss rig for the sighting. Ordinary forest richness belongs to the area-art/map pass and is not separately authored here.
