@@ -674,6 +674,264 @@ Do not reveal in Beat 14:
 
 # Beat 15 — Return to the Prisoners
 
+**Development status:** CURRENT WORKING BEAT PACKET
+
+## Purpose
+Complete the human half of the Bastion victory before the evacuation begins. Defeating Rhazek and taking the command layer made escape possible, but it did not move the prisoners. The party must physically return to the people waiting below, confirm that the Host's local control has been broken, and turn a rescued-but-stationary group into an organized evacuation party.
+
+Beat 15 should:
+- pay off the promise made in Beat 11 that the party would return;
+- let the prisoners learn that Rhazek has been defeated locally and the usable exit is now secured;
+- transform fear of an impossible breakout into practical preparation to leave;
+- account for injured soldiers, wounded/weakened civilians, travelers, Greenhollow residents, and Dunmere residents without reducing them to an escort counter;
+- restore Maevra clearly to the on-screen story group for the evacuation phase;
+- give Ilyra, Torren, Maevra, Cyanis, and the prisoners distinct practical things to care about without assigning speeches;
+- preserve the unknown fate/location of prisoners who were transferred before the party arrived;
+- hand directly into Beat 16's actual movement out of the Bastion.
+
+## Starting state
+- Rhazek has been defeated locally and has withdrawn alive;
+- Red Transfer Bastion's command layer is broken;
+- the maintained exit toward the **Greenhollow–Dunmere road** is secured/openable for evacuation;
+- the current prisoners remain in the defensible lower safe area established in Beat 11;
+- they have been waiting for the party to return before attempting escape;
+- prisoner population remains a mix of **travelers, injured soldiers, Greenhollow residents, and Dunmere residents**;
+- previously transferred captives remain missing and their destination remains unknown;
+- Maevra is present with the story group for this beat and remains fully noncombat.
+
+## Return / promise payoff
+> **The party comes back for them.**
+
+The return should matter because the prisoners were explicitly left waiting while Cyanis, Ilyra, and Torren went to break the Bastion's control.
+
+The party does not send a remote message and does not trigger an automatic evacuation from the command room. They physically return to the Prisoner Galleries/safe area.
+
+This closes the Beat-11 promise and lets the prisoners see that the situation has actually changed.
+
+## Prisoner reaction rule
+The prisoners are **ready and willing to leave**.
+
+Do not create a new conflict in which substantial numbers suddenly refuse rescue after spending Beats 10–11 worried that escape was impossible.
+
+Their responses may still vary naturally:
+- relief;
+- disbelief that the route is truly open;
+- urgency to leave before the Host can regroup;
+- concern for injured companions;
+- anger or frustration that Rhazek escaped;
+- questions about whether the road is actually safe;
+- concern for people transferred before them.
+
+But the shared action is clear: **they prepare to evacuate with the party.**
+
+The human variation comes from physical condition, relationships, responsibilities, and emotional state—not from manufacturing refusal.
+
+## What the party tells them
+The prisoners need only the information necessary to act:
+- Rhazek has been defeated **here** and no longer controls the Bastion;
+- the local Host command position has broken/withdrawn enough that evacuation is possible;
+- the maintained road-side exit is available;
+- the party is taking them out now.
+
+Do not turn this into a complete battle recap or explain every detail of Rhazek's withdrawal.
+
+The unnamed masked officer does not need to be mentioned at all unless a natural Agent-Brain exchange makes it relevant; his identity remains unknown.
+
+## Evacuation-preparation rule
+Beat 15 is preparation, not the full escape.
+
+The prisoners should participate in getting the group ready rather than standing motionless while the heroes organize every person.
+
+Plausible preparation includes:
+- able-bodied prisoners helping injured people stand or move;
+- identifying who needs an arm, improvised support, slower pace, or assistance;
+- distributing water/basic supplies if available;
+- grouping people so friends, relatives, soldiers, or capable civilians can support slower evacuees;
+- confirming that nobody in the currently secured holding spaces is accidentally left behind;
+- preparing to follow the maintained exit route as one managed group.
+
+Do not turn this into collect-all-prisoners gameplay, a headcount puzzle, or a sequence of identical individual escort interactions.
+
+## Injury / mobility lock
+The mixed condition of the prisoners materially shapes preparation.
+
+Some injured soldiers and wounded/weakened civilians cannot move at the same pace as healthy travelers or residents. The solution is **accommodation and group organization**, not leaving them behind and not sending them back through the Archive.
+
+Ilyra can:
+- reassess people she treated earlier;
+- provide immediate care needed before movement;
+- identify who can walk independently and who requires support;
+- give simple practical movement guidance where medically appropriate.
+
+She still asks before examination/treatment of conscious people where that is relevant, but this is not a refusal-conflict beat. Needed help is accepted.
+
+Exact injuries, treatment animations, items, magic use, and NPC movement sets remain for later dialogue/staging/map implementation.
+
+## Maevra role
+Beat 15 should make Maevra's noncombat value visible.
+
+She can naturally help:
+- organize the evacuees into a manageable moving group;
+- pair able-bodied people with those needing support;
+- communicate the route/pace plan;
+- keep frightened or exhausted people focused on practical next steps;
+- coordinate with Cyanis, Ilyra, and Torren before movement begins.
+
+She does **not** become an armed escort combatant or suddenly recover into battle participation.
+
+If Beat 12–14 implementation kept Maevra primarily with the prisoners, her continuity is seamless. If she appeared in selected noncombat transitions above, Beat 15 still re-establishes her with the full evacuation group.
+
+## Torren role
+Torren's useful concern is the route the group is about to take.
+
+He can prepare for:
+- leading from the Bastion exit onto the **Greenhollow–Dunmere road**;
+- choosing a pace appropriate for the slowest evacuees;
+- keeping the moving group on the usable route rather than improvising another dangerous shortcut;
+- identifying practical order/spacing if final map design makes it relevant.
+
+Do not make him deliver a formal route lecture. Give his Person Agent the situation and let the practical behavior emerge.
+
+## Cyanis role
+Cyanis has returned after accomplishing what the group said it would do: break the Bastion's control and make escape possible.
+
+Provide his Agent Brain with:
+- the prisoners have been waiting for the party;
+- Rhazek escaped but lost the Bastion locally;
+- the usable road exit is secured;
+- people are ready to leave;
+- some need help moving;
+- the job is not finished until they are actually out.
+
+Do not require a victory speech or heroic reassurance monologue.
+
+## Previously transferred captives — unresolved thread
+The return must not accidentally imply that everyone kidnapped in the region has now been recovered.
+
+The current prisoners know people were transferred out before them. Those people remain missing.
+
+Beat 15 may allow this to register emotionally, but it does not solve it:
+- no new destination is discovered;
+- Rhazek's defeat does not make the missing prisoners reappear;
+- no ledger conveniently identifies where they went;
+- the current evacuation remains the immediate priority.
+
+This keeps the broader Black Host captive-transfer thread alive after the local rescue succeeds.
+
+## Remaining Black Host / danger state
+The Bastion is defeated locally enough for evacuation, but the location does not need to become magically empty.
+
+Any surviving Host personnel are in a state consistent with Beat 14: withdrawing, disengaged, wounded, surrendered, isolated, or otherwise no longer capable of stopping the organized escape.
+
+Do not add:
+- another mandatory fort-clearing sequence;
+- a surprise attack on the safe area;
+- a Hold-the-Junction replacement;
+- a hidden boss;
+- a Rhazek rematch.
+
+The tension now comes from moving a vulnerable group out efficiently, not from inventing another combat climax.
+
+## Agent-Brain rehearsal packet
+### Cyanis
+Provide:
+- he has returned as promised;
+- the road-side exit is secured;
+- Rhazek survived but lost local control;
+- current prisoners are ready to leave;
+- injured people need accommodation;
+- previously transferred captives remain missing.
+
+### Ilyra
+Provide:
+- people she assessed earlier are about to move;
+- some can walk normally, some need support, some may need last-minute treatment;
+- the available exit is now preferable to the Archive route;
+- the group needs to move without worsening injuries.
+
+### Torren
+Provide:
+- the maintained road exit is open/usable;
+- the evacuation group has mixed mobility;
+- he will guide the route outside toward the Greenhollow–Dunmere road;
+- speed must be set by the people who cannot move quickly.
+
+### Maevra
+Provide:
+- the prisoners have waited for the fighting party to return;
+- the Host's local control is broken;
+- the group now needs organization rather than another battle;
+- she remains injured/noncombat but can coordinate people, support pairings, and movement preparation.
+
+### Prisoner Person Agents / NPCs
+Provide each with their own condition, origin, relationships, capture history, and knowledge from Beats 10–11. Shared factual state:
+- the rescuers returned;
+- Rhazek's local command has been defeated;
+- the proper exit is available;
+- they are leaving now;
+- some people need help;
+- earlier transferred captives are still missing.
+
+Do not make all prisoners respond identically or require a round of thank-you speeches.
+
+## Presentation rhythm
+A strong economical HD-2D structure is:
+1. party returns through the now-broken/quieting Bastion route to the prisoner safe area;
+2. waiting prisoners recognize the party's return;
+3. concise confirmation that Rhazek's local control is broken and the road exit is available;
+4. Ilyra checks immediate mobility needs;
+5. Maevra/prisoners organize support pairings and group movement;
+6. Torren prepares to guide the route outside;
+7. prisoners gather ready to move;
+8. objective changes to **lead everyone out of Red Transfer Bastion**.
+
+Keep emotional beats character-specific and economical. Portraits/dialogue can carry the human response without requiring elaborate crowd animation.
+
+## Mandatory progression
+- party physically returns to the Prisoner Galleries/safe area;
+- Maevra is coherently present and remains noncombat;
+- prisoners are told/understand that Rhazek has been defeated locally and the usable road exit is now secured;
+- prisoners are ready and willing to evacuate;
+- no manufactured prisoner-refusal conflict is introduced;
+- injured/weakened people are reassessed/accommodated for movement;
+- able-bodied prisoners participate in helping the group prepare;
+- Maevra helps organize movement without entering combat;
+- Torren prepares to guide the group onto the Greenhollow–Dunmere road;
+- Ilyra supports injured evacuees as needed;
+- current prisoners are gathered/prepared as an evacuation group;
+- previously transferred captives remain missing, destination unknown;
+- no new mandatory combat, Hold-the-Junction substitute, or surprise antagonist beat occurs;
+- the party and prisoners begin/are immediately ready to begin movement toward the Bastion exit.
+
+## End state / knowledge change
+After Beat 15:
+- the current prisoners are no longer merely waiting to be rescued; they are **organized and ready to leave**;
+- the mixed group has practical support for injured/weakened evacuees;
+- Rhazek remains alive but no longer controls this Bastion;
+- the proper road-side exit is available;
+- the broader missing-prisoner thread remains unresolved because earlier transferred captives are still somewhere unknown;
+- the immediate objective is **lead the prisoners out through the Bastion exit and onto the Greenhollow–Dunmere road**.
+
+## Gameplay handoff
+→ **Beat 16 — Prisoner Escape / Greenhollow–Dunmere Road**
+
+## Reveal firewall
+Do not reveal in Beat 15:
+- destination or ultimate fate of previously transferred captives;
+- complete purpose of the wider Black Host transfer operation;
+- exact historical/current transfer total;
+- retired `thirty-one transfers` clue;
+- masked officer/Seyrik identity or history;
+- new Ancient-map/network information;
+- Last Sentinel;
+- Cresthaven;
+- buried-Crest truth;
+- Entity.
+
+---
+
+# Beat 16 — Prisoner Escape / Greenhollow–Dunmere Road
+
 **Development status:** NEXT TO DEVELOP
 
-Current locked function from `CHAPTER_02.md`: the party physically returns to the Prisoner Galleries/safe area after defeating Rhazek locally, tells the waiting captives that the usable road-side exit is secured, helps the injured prepare to move, and organizes the group for the actual escape.
+Current locked function from `CHAPTER_02.md`: lead the organized prisoners out through the secured Bastion exit directly onto the Greenhollow–Dunmere road, with Torren guiding, Maevra coordinating, Ilyra supporting injured evacuees, and no Hold-the-Junction, extraction-causeway fight, surprise boss, or post-rescue antagonist sting.
