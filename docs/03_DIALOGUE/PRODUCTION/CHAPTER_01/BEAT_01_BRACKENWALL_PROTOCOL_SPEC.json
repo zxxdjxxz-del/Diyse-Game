@@ -13,7 +13,7 @@
   "participant_profile_sources": {
     "brackenwall_custody_officer": "docs/01_CHARACTERS/SUPPORTING/Chapter_01_Brackenwall_Role_Profiles.md"
   },
-  "scene_purpose": "Carry the Chapter-0 Card incident into Chapter 1, demonstrate a new proximity-related custody anomaly during a reasonable formal transfer attempt, establish Maevra Solmar as the commander taking responsibility, set Caelora as the larger destination, and set Greenhollow/Torren Harth as the immediate objective.",
+  "scene_purpose": "Carry the Chapter-0 Card incident into Chapter 1, demonstrate a new proximity-related custody anomaly during one reasonable formal transfer attempt, establish Maevra Solmar as the commander taking responsibility, and set Greenhollow/Torren Harth as the immediate route objective while obeying the established Brackenwall hub and portrait-dialogue presentation.",
   "story_sources": [
     {
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
@@ -32,24 +32,19 @@
   ],
   "additional_authority_sources": [
     {
-      "path": "docs/04_WORLD_AND_LORE/LIVED_WORLD_SOCIAL_CONTEXT.md",
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
       "whole_file": true,
-      "role": "lived_world_context"
+      "role": "current_field_scene_hub_camp_and_trigger_presentation_lock"
     },
     {
-      "path": "docs/12_ECONOMY_AND_REWARDS/LIVED_ECONOMY_CONTEXT.md",
+      "path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md",
       "whole_file": true,
-      "role": "lived_economy_context"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
-      "whole_file": true,
-      "role": "scene_construction_authoring_contract"
+      "role": "portrait_and_dialogue_box_presentation"
     },
     {
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
       "whole_file": true,
-      "role": "rehearsal_first_dialogue_workflow"
+      "role": "rehearsal_first_dialogue_workflow_and_reductive_staging"
     }
   ],
   "scene_context_seed": {
@@ -57,23 +52,38 @@
     "area_phase": "safe_working_hub",
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
-    "visible_environment": [
-      "Brackenwall is active and functioning rather than devastated",
-      "wounded/recovery traffic from the Broken Convoy may still be present as background life",
-      "formal Card intake occurs in a practical fortified-hub workspace rather than a grand ceremonial chamber",
-      "Cyanis is carrying the recovered Card itself because its old protective casing broke during the Chapter-0 final boss"
-    ],
-    "runtime_note": "Chapter 0 has just ended by explicit departure to Brackenwall. The old casing broke during P06 and is gone; do not restore a replacement casing. Cyanis and Ilyra have already experienced two incomplete Card responses and Ilyra has monitored Cyanis during/after them. Do not add a third protective flare; this beat's new anomaly is proximity/separation behavior when custody personnel move the Card itself away from Cyanis."
+    "runtime_note": "Brackenwall is a hub: relevant party members and NPCs may already be present as field models. Ordinary dialogue is still portraits + dialogue box and does not require micro-choreography. The only specifically authored physical story actions are the Card transfer away from Cyanis, Cyanis's brief reaction, the green-gold proximity line, and the Card's return. The Chapter-0 recovery casing is destroyed and must not reappear. Do not add wagon/food/quartermaster/background-business vignettes merely to make the hub feel alive; that belongs to the area presentation."
   },
   "current_floor_state": {
     "card_state": "intact_exposed_card_carried_by_cyanis_after_chapter_0_casing_break",
     "party_state": "cyanis_and_ilyra_permanent_combat_pair",
     "maevra_party_status": "noncombat_traveling_companion_after_beat",
-    "destination_before_review": "Brackenwall_arrival",
+    "location_presentation": "hub_characters_may_be_present_as_field_models",
+    "dialogue_presentation": "portraits_plus_dialogue_box_with_simple_field_placement",
     "chapter_1_started": true
   },
-  "allowed_information_transfers": [],
-  "exact_line_anchors": [],
-  "max_beats": 30,
-  "production_cost_ceiling": "economical"
+  "required_story_beats": [
+    "Formal Brackenwall intake confirms the Card survived and the recovery casing did not.",
+    "One reasonable custody transfer attempt moves the Card away from Cyanis.",
+    "Cyanis reacts and the Card produces a green-gold proximity-linked response.",
+    "Returning the Card stops the response.",
+    "Brackenwall stops testing the separation rather than repeating it.",
+    "Maevra takes responsibility for the situation and keeps the Card with Cyanis.",
+    "Caelora remains the larger destination.",
+    "Greenhollow is set as the immediate destination and Torren Harth as the route specialist Maevra wants."
+  ],
+  "forbidden_presentation": [
+    "micro_choreography_for_ordinary_dialogue",
+    "background_business_vignettes_authored_by_dialogue_script",
+    "repeated_prop_handling_for_flavor",
+    "fully_3d_cinematic_staging_assumption"
+  ],
+  "forbidden_reveals": [
+    "prime_identity",
+    "last_sentinel_identity",
+    "bearer_or_authorization_explanation",
+    "entity",
+    "ancient_network_explanation"
+  ],
+  "production_cost_ceiling": "strictly_reductive_hub_portrait_presentation"
 }
