@@ -32,12 +32,12 @@ The player is free to remain in the cleanup window first.
 
 ### [OPTIONAL CONTENT — AVAILABLE FROM CAMP]
 
-The current Character-Life authority is the new rehearsal-first material in this folder. The older line-complete C03/C04/C05 files are historical source material, not current exact spoken-dialogue authority.
+Current Character-Life authority lives only in the rehearsal-first production files in this folder. The superseded Chapter-1 line-complete C03/C04/C05 files have been removed from the live repository tree.
 
 #### C03 — `Torren's Version of Dinner`
 
 Current draft:
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_A.md`
+`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md`
 
 All four current characters are present. Torren's dinner is genuinely bad but hot, filling, safe, and cheap. Maevra already knows his cooking from their long history; Cyanis and Ilyra are discovering it.
 
@@ -67,7 +67,7 @@ This is **not** another ancient-Junction-map explanation and does not advance th
 #### C05 — `Not Professionally`
 
 Current draft:
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NO_SPOILERS_REHEARSAL_FIRST_DRAFT_A.md`
+`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md`
 
 This scene is **Ilyra and Maevra only**.
 
@@ -75,9 +75,7 @@ Ilyra changes Maevra's splint and uses restrained Warden/healing magic to ease p
 
 While Ilyra works, she asks about Maevra and Torren. The conversation establishes their long history naturally: they were together when young, there was no betrayal or bitter breakup, life and distance repeatedly pulled them apart, and Maevra still loves him.
 
-Ilyra does not psychoanalyze Maevra or turn the exchange into therapy. Maevra answers comfortably about old romance and sex, while the direct question about still loving Torren lands more personally.
-
-Cyanis and Torren do **not** enter, overhear, or interrupt this scene.
+Ilyra does not psychoanalyze Maevra or turn the exchange into therapy. Cyanis and Torren do **not** enter, overhear, or interrupt this scene.
 
 ---
 
@@ -172,7 +170,7 @@ No Prime, Last Sentinel, bearer, Entity, or complete ancient-network explanation
 
 **Maevra injury:** arm broken during the Broken Convoy attack, already established at Brackenwall, still splinted here. C05 shows a splint change and restrained pain-easing magic; the bone is not magically repaired.
 
-**Character-Life authority:** C03/C04/C05 now point to their rehearsal-first production drafts rather than the older line-complete scripts.
+**Character-Life authority:** C03/C04/C05 point to the current rehearsal-first production drafts in this folder. The old line-complete versions are removed from the live tree.
 
 **C05 cast:** Ilyra + Maevra only. It is a private adult-friendship conversation and does not pull Cyanis or Torren into the scene.
 
