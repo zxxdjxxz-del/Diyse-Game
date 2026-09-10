@@ -5,7 +5,7 @@
   "story_position": "Chapter 1 — Beat 12 — Southern Briar Passage",
   "production_ready": false,
   "participants": ["cyanis", "ilyra", "maevra", "torren"],
-  "scene_purpose": "Let Torren fully perform the guide role he has accepted; make southern Briar Passage a substantial playable route area; establish the overgrown old stone-lined side access that only becomes meaningful after the Junction map reveal; build the Briarhide Stalker as a naturally occurring powerful predator through light field evidence and a later clear sighting; and bring the party to the last stretch before the Junction without revealing or visually exposing the hidden monument early.",
+  "scene_purpose": "Let Torren perform the permanent-guide role through Southern Briar; establish the required overgrown old side access; give one concise natural sign of the Briarhide Stalker before a clear sighting; carry the party to the last stretch before the Junction without turning the dialogue manuscript into an area-dressing document.",
   "story_sources": [
     {
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
@@ -15,7 +15,7 @@
     {
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md",
       "whole_file": true,
-      "role": "latest_explicit_junction_hidden_monument_authority"
+      "role": "latest_junction_and_hidden_monument_authority"
     },
     {
       "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
@@ -25,55 +25,45 @@
   ],
   "additional_authority_sources": [
     {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "torren_character_authority"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_and_reductive_hd2d_contract"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "invisible_knowledge_firewall"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_and_micro_detail_reduction_contract"},
     {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md", "whole_file": true, "role": "ordinary_enemy_random_encounter_lock"}
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md", "whole_file": true, "role": "random_encounter_hard_lock"}
   ],
   "scene_context_seed": {
     "location_name": "Southern Briar Passage",
     "area_phase": "substantial_southward_route_exploration",
     "dialogue_readiness": "GREEN_WITH_HOSTILE_FIELD_WINDOWS",
     "static_story_context_only": true,
-    "visible_environment": [
-      "deeper maintained and half-reclaimed Briar route traces",
-      "one overgrown old stone-lined side access branching from the usable route",
-      "light ordinary predator evidence escalating toward one clear Briarhide Stalker sighting",
-      "road geometry increasingly approaching the known ancient crossroads called the Junction"
-    ],
-    "runtime_note": "Torren is genuinely leading, so limited walking dialogue is legal only when it materially belongs to immediate route guidance. Most traversal remains gameplay and silence. Ordinary enemies remain random encounters. REHEARSAL-FIRST: keep character speech natural and selective; do not verbalize knowledge limits as a ritual. REDUCTIVE HD-2D: do not invent extra set pieces, lookout platforms, feeding-site scenes, distant monument silhouettes, crowds, bespoke props, or additional clues. HARD JUNCTION CORRECTION: Torren knows the Junction as an ancient crossroads used by modern routes. The hidden monument shown in the Hollow Watch mural is NOT visible from a distance and Torren has never seen its exposed stone/map surface. Present-day vines and moss conceal it until the later Junction reveal. Do not use Wayfinder as the characters' current name for the place. The overgrown side access remains unexplained here. The Briarhide is natural wildlife. Cyanis carries the intact Card itself; it remains inert."
+    "runtime_note": "Torren is genuinely leading, so only brief route-guidance speech may occur while moving. Most traversal is gameplay and silence. HARD MICRO-DETAIL RULE: do not author repeated tracks, broken brush, bones, feeding sites, road-history vignettes, lookout beats, small prop interactions, distant monument silhouettes, or other tiny visual additions to make the route feel rich. Ordinary forest/road richness belongs to the area-art and map pass. The dialogue script requires only the existing Southern Briar area, the required overgrown side access, one clear Briarhide track read, and the later Stalker sighting. The Junction monument remains completely hidden. Cyanis carries the intact Card itself; it remains inert."
   },
   "current_floor_state": {
     "larger_destination": "Caelora",
     "next_practical_destination": "Dunmere",
-    "immediate_route_goal": "southern Briar toward the Junction",
+    "immediate_route_goal": "Southern Briar toward the Junction",
     "combat_party": ["cyanis", "ilyra", "torren"],
     "maevra_party_status": "noncombat_traveling_companion",
     "torren_party_status": "permanent_party_member_and_active_guide",
     "card_state": "intact_directly_carried_by_cyanis_and_inert",
-    "junction_knowledge": "Torren knows the ancient crossroads and route only; hidden monument remains unseen"
+    "junction_knowledge": "Torren knows the crossroads and route, not the hidden monument"
   },
   "required_story_beats": [
-    "Torren actively leads the group through southern Briar using practical local expertise.",
-    "The area receives substantial uninterrupted exploration with ordinary combat presented as random encounters.",
-    "The party passes one heavily overgrown old stone-lined side access; it is noted and left unexplored.",
-    "A small amount of natural field evidence establishes that a very large Briarhide is active nearby.",
-    "The route visibly approaches the Junction through road convergence / terrain, not by revealing the hidden monument.",
-    "The party receives one clear Briarhide Stalker sighting before the final boss encounter.",
-    "Beat ends with the Stalker as the immediate natural threat on the last stretch before the Junction."
+    "Torren leads the group south through substantial playable Briar traversal.",
+    "The required overgrown old stone-lined side access is seen and left unexplored.",
+    "One concise natural Briarhide track stop establishes a very large predator.",
+    "The party approaches the Junction without seeing the hidden monument.",
+    "The Briarhide Stalker receives one clear pre-boss sighting.",
+    "The party concludes that the usable route ahead crosses the Stalker's position."
   ],
   "forbidden_reveals": [
     "cistern_devourer_hunt_identity_or_access_solution",
     "old_side_access_true_function",
-    "hidden_junction_monument_visual_exposure",
-    "hidden_junction_monument_map_surface",
-    "wayfinder_as_current_character_name_for_the_place",
+    "junction_monument_map_surface",
+    "wayfinder_ancient_function",
     "complete_ancient_route_network",
     "prime_or_last_sentinel_explanation",
     "bearer_or_authorization_explanation",
     "entity",
     "card_activation_or_flare"
   ],
-  "max_beats": 18,
-  "production_cost_ceiling": "reductive_economical"
+  "production_cost_ceiling": "strictly_reductive_economical"
 }
