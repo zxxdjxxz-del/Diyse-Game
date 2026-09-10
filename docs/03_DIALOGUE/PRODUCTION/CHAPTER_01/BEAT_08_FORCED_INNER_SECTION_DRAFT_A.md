@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 8
 # Forced Inner Section
-## DIALOGUE ENGINE PRODUCTION DRAFT B — rehearsal-first + reductive HD-2D pass / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT C — rehearsal-first + reductive HD-2D + random-encounter correction / awaiting user approval
 
 ---
 
@@ -27,13 +27,13 @@ Cyanis carries the intact Card itself. It remains inert.
 **Combat party:** Cyanis + Ilyra + Torren.  
 **Maevra:** traveling with the group, never represented in battle.
 
-The player pushes through Black Host holdouts and existing Diysean defenses.
+**Random encounters are active.** Ordinary Black Host holdouts and Diysean defenses belong to the encounter system. No ordinary enemy is placed here as a fixed on-map fight or mandatory scripted activation.
 
 ---
 
-### [SECURED STOP — FORCED DOOR]
+### [STORY STOP — FORCED DOOR]
 
-After the first combat section, the party stops at the damaged fitted doorway.
+When the player reaches the damaged fitted doorway, the party stops.
 
 Cyanis looks at the intact center of the door.
 
@@ -75,12 +75,11 @@ The area stays visually simple:
 - intact older corridor surfaces;
 - localized Black Host force damage;
 - glimpses of older machinery only where those surfaces are already broken;
-- existing lamps/braces marking the Host route;
-- reusable Diysean Sentry encounters.
+- existing lamps/braces marking the Host route.
 
 No extra rooms, platforms, aid stations, barricade set pieces, one-off machinery, or new clue props are introduced.
 
-The ancient defenses become more dangerous here according to encounter authority.
+Random encounters continue through the section. The encounter pool may escalate toward stronger Diysean defenses according to encounter authority, but the dialogue script does not place or trigger them.
 
 The Card remains inert.
 
@@ -88,29 +87,9 @@ No dialogue occurs during traversal.
 
 ---
 
-### [COMBAT — DEFENSE ESCALATION]
+### [OPTIONAL POST-RANDOM-ENCOUNTER BARK]
 
-In an existing inner-ruin combat space, multiple Diysean defenses activate as the party intrudes farther into the protected section.
-
-The response is general site security.
-
-It is **not** caused by Cyanis or the Card.
-
-**Combat begins.**
-
-Encounter authority owns exact enemy count, composition, and tuning.
-
-The required narrative result is simply that the defenses here are more dangerous than the first Sentry encountered earlier.
-
-No bespoke combat arena or unique environmental mechanic is required for the story beat.
-
----
-
-### [POST-COMBAT STOP]
-
-The final construct falls.
-
-The party stays where the fight ended.
+This exchange is optional. It may fire after an ordinary random encounter in the protected inner section. The story does not require the player to hear it.
 
 Ilyra looks over Cyanis and Torren before checking herself.
 
@@ -126,7 +105,7 @@ Ilyra looks at him.
 
 **ILYRA:** Unfortunately, that has never been your standard.
 
-Torren is checking a cut on one forearm.
+Torren checks himself.
 
 **TORREN:** She's got you there.
 
@@ -140,17 +119,13 @@ Maevra looks between them.
 
 **MAEVRA:** Finished?
 
-Ilyra looks down at the scrape on her own sleeve.
-
 **ILYRA:** Nearly.
 
-Cyanis points at Torren's arm.
+Cyanis looks at Torren.
 
-**CYANIS:** That need wrapping?
+**CYANIS:** You good?
 
-Torren flexes his hand once.
-
-**TORREN:** No.
+**TORREN:** Yeah.
 
 **CYANIS:** Good. Apparently I ask now.
 
@@ -162,19 +137,19 @@ Cyanis catches it.
 
 She does not answer.
 
-The small release ends there.
+The bark ends there and control remains with the player.
 
 ---
 
 ### [GAMEPLAY — FINAL INNER PUSH]
-
-**Player control returns.**
 
 The party continues through the same protected-inner-section kit.
 
 Black Host damage becomes more localized as the route approaches a larger intact chamber.
 
 Their lamps and forcing marks stop at its threshold.
+
+Random encounters remain the only ordinary combat presentation in this stretch.
 
 No additional discovery scene is inserted before the boss.
 
@@ -256,7 +231,8 @@ Current objective:
 Story state:
 - the Black Host forced entry into a more protected Diysean layer;
 - recent damage exposes older machinery without explaining it;
-- ancient defenses escalate in danger using existing encounter assets;
+- ordinary Black Host and Diysean-defense enemies are random encounters rather than scripted fights;
+- encounter difficulty may escalate deeper in the ruin without creating an authored combat set piece;
 - the Host's forced route reaches the intact Castellan chamber and stops there;
 - the Castellan has not activated yet;
 - nobody identifies the integrated far structure before activation;
@@ -277,12 +253,14 @@ Next mandatory story beat:
 
 ---
 
-## Rehearsal-first / reductive HD-2D check
+## Rehearsal-first / reductive HD-2D / encounter check
 
-**Human layer:** the strongest existing post-combat character exchange is preserved, while evidence-boundary dialogue and repeated theory-checking are removed.
+**Human layer:** the strongest character exchange survives only as an optional post-random-encounter bark, so the story does not depend on a fixed ordinary battle.
+
+**Random encounters:** no ordinary Black Host or Diysean-defense fight is authored as a set piece, room-clear gate, fixed activation, or mandatory battle. The Castellan remains the authored boss in the next beat.
 
 **Knowledge:** nobody identifies the machinery, protected chamber, Castellan, Host objective, or later mural information early.
 
 **Walking dialogue:** none. Nobody knows this route well enough to be an active guide.
 
-**Reductive production:** reuse the existing protected-inner corridor/chamber kit, one damaged-door/wall variant, existing Black Host lamps/braces, reusable Sentry rigs, B00 blocking, portraits, and restrained camera/light/sound. No aid station, special barricade room, bespoke machinery set piece, extra clue props, or one-use cinematic build is required.
+**Reductive production:** reuse the existing protected-inner corridor/chamber kit, one damaged-door/wall variant, existing Black Host lamps/braces, ordinary encounter assets, B00 blocking, portraits, and restrained camera/light/sound. No ordinary on-map enemy staging, aid station, special barricade room, bespoke machinery set piece, extra clue props, or one-use cinematic build is required.
