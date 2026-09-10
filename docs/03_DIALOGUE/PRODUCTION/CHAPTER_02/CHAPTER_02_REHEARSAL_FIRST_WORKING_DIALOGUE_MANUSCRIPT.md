@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE REHEARSAL-FIRST WORKING MANUSCRIPT — NOT CHAPTER-LOCKED  
 **Purpose:** single cumulative readable Chapter-2 dialogue manuscript; update this file every time a Chapter-2 mainline or Character-Life scene changes.  
-**Mainline coverage:** Beats 1–5 current rehearsal-first working drafts.  
+**Mainline coverage:** Beats 1–6 current rehearsal-first working drafts.  
 **Character-Life coverage:** C06 — `Still Burns` current working draft. Former C07 is retired as a separate Chapter-2 Character-Life scene.  
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Working beat authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
@@ -764,6 +764,264 @@ Control returns quickly. The player gets a meaningful entrance stretch in which 
 
 ---
 
+# BEAT 6 — WESTERN MAP MURAL
+
+**Draft:** A — current rehearsal-first working dialogue
+
+Beat 6 is the first major Ancient lore payoff in Chapter 2. The mural is intact and coherent; the characters interpret it by comparing it with the Wayfinder material they already carry.
+
+### [THE MURAL]
+
+Exploration reaches a chamber dominated by a large wall-scale map. The relevant group models appear at a natural stopping point.
+
+Cyanis looks up at it.
+
+**CYANIS:** That's a map.
+
+**ILYRA:** Looks like one.
+
+Torren is already following the route lines.
+
+**MAEVRA:** You recognize something?
+
+**TORREN:** Maybe.
+
+Cyanis takes out the practical Wayfinder copy.
+
+**CYANIS:** Better maybe or worse maybe?
+
+Torren holds the copy where he can compare it with the mural.
+
+**TORREN:** Same split here.
+
+He indicates a repeated route relationship.
+
+**TORREN:** And this marker. Then this one.
+
+Ilyra steps closer to compare.
+
+**ILYRA:** Hollow Watch.
+
+**CYANIS:** You're sure?
+
+**ILYRA:** No.
+
+She points between the copy and the mural.
+
+**ILYRA:** But that's the same sequence.
+
+**TORREN:** She's right.
+
+Cyanis looks back up at the mural.
+
+**CYANIS:** So the Wayfinder wasn't showing one route.
+
+**TORREN:** No.
+
+**MAEVRA:** It was showing a piece of this.
+
+A beat.
+
+**CYANIS:** That's a lot more road.
+
+### [FINDING DUNMERE]
+
+Torren works outward from the matched section rather than guessing from the whole wall.
+
+**TORREN:** If that's Hollow Watch...
+
+He traces the connected corridor.
+
+**TORREN:** Then we came through here.
+
+**CYANIS:** Dunmere?
+
+**TORREN:** Around here.
+
+Ilyra studies the surrounding relationships.
+
+**ILYRA:** Not exact.
+
+**TORREN:** No.
+
+**MAEVRA:** Because we're reading it wrong?
+
+Torren keeps looking.
+
+**TORREN:** Maybe.
+
+**ILYRA:** Or because it doesn't match anymore.
+
+Cyanis looks at her.
+
+**CYANIS:** That's worse.
+
+**ILYRA:** I know.
+
+Nobody tries to explain why.
+
+### [TOWARD CAELORA]
+
+Cyanis follows the route eastward from the corridor they can identify.
+
+**CYANIS:** This keeps going.
+
+Torren follows it with him.
+
+**TORREN:** Yeah.
+
+The route reaches a vast, dense urban representation on the mural.
+
+Maevra is quiet for a moment.
+
+**MAEVRA:** That should be Caelora.
+
+Cyanis looks at her.
+
+**CYANIS:** Should be?
+
+**MAEVRA:** If the route relationship is right.
+
+Torren studies it.
+
+**TORREN:** Same direction. Same place the modern road wants to reach.
+
+Cyanis looks back at the enormous city depicted on the wall.
+
+**CYANIS:** That's not Caelora.
+
+**ILYRA:** Not the Caelora we know.
+
+A beat.
+
+**CYANIS:** How old is this?
+
+**ILYRA:** No idea.
+
+**CYANIS:** What happened to it?
+
+**ILYRA:** Also no idea.
+
+**TORREN:** Good answers.
+
+Ilyra gives him a look.
+
+**ILYRA:** Learned from you.
+
+### [THE PANEL EDGES]
+
+Ilyra moves toward one edge of the mural.
+
+**ILYRA:** Wait.
+
+The others look over.
+
+**ILYRA:** This isn't broken.
+
+**CYANIS:** What?
+
+She indicates route lines reaching the physical edge cleanly.
+
+**ILYRA:** The lines don't stop here. They continue into the edge.
+
+Torren checks the other side.
+
+**TORREN:** Same here.
+
+**MAEVRA:** So this isn't what's left of the map.
+
+**ILYRA:** No.
+
+She looks across the full mural.
+
+**ILYRA:** It's one section.
+
+**TORREN:** Western section.
+
+Cyanis looks at the clean continuations leaving the panel.
+
+**CYANIS:** Meaning there's more.
+
+**MAEVRA:** Somewhere.
+
+**CYANIS:** Helpful.
+
+**MAEVRA:** I'm doing my best with one arm.
+
+Cyanis almost smiles.
+
+### [COPY IT]
+
+Cyanis looks at the Wayfinder sheet, then the mural.
+
+**CYANIS:** We take this with us.
+
+Torren looks at the wall.
+
+**TORREN:** Heavy.
+
+**CYANIS:** The useful parts.
+
+Ilyra is already getting the copying material out.
+
+**ILYRA:** Routes first.
+
+**TORREN:** I'll take those.
+
+**ILYRA:** I'll take the fixed markers and the city shape.
+
+Cyanis holds the Wayfinder copy beside the new work.
+
+**CYANIS:** I'll keep the overlap straight.
+
+Maevra looks between the three of them.
+
+**MAEVRA:** And I supervise.
+
+**TORREN:** Dangerous.
+
+**MAEVRA:** Twenty-five years and you finally noticed.
+
+The copy is handled economically through staging rather than a long real-time writing sequence.
+
+### [PEOPLE FIRST]
+
+Once the practical copy is complete, Cyanis gives the mural one last look—especially the enormous city where modern Caelora should be.
+
+**CYANIS:** We're coming back to this.
+
+**ILYRA:** Yes.
+
+**TORREN:** Later.
+
+Maevra looks toward the deeper route.
+
+**MAEVRA:** People first.
+
+Cyanis folds the copy carefully.
+
+**CYANIS:** People first.
+
+Torren starts deeper into the Archive.
+
+**TORREN:** Come on.
+
+**Objective:** Explore the Archive depths.
+
+### Beat-6 knowledge checkpoint
+- The Wayfinder is now understood as part of a much larger connected route/network system.
+- The party can align the Hollow Watch / Wayfinder corridor and Dunmere with the western mural with useful confidence.
+- Some ancient-modern geography does not align cleanly, and nobody knows why.
+- The route system continues east toward the location associated with modern Caelora.
+- The mural depicts a vastly larger, unfamiliar ancient city/urban complex at that corresponding location.
+- Nobody knows the ancient city's true identity, history, or fate.
+- The mural itself is **complete and undamaged**; it is one western section of a larger system, with route lines continuing cleanly beyond its physical edges.
+- The party makes practical copies of the useful information.
+- Cresthaven, Last Sentinel, buried-Crest truth, Entity, and the complete network remain unrevealed.
+- The kidnapped people at the Old Bastion remain the immediate priority.
+
+---
+
 # OPTIONAL CHARACTER-LIFE — C06
 # STILL BURNS
 
@@ -1174,5 +1432,6 @@ Fade.
 - Beat 3 — Draft A.
 - Beat 4 — Draft A; sealed future-Hunt door included; no weed setup called out during waterworks traversal.
 - Beat 5 — Draft A.
+- Beat 6 — Draft A.
 - C06 — `Still Burns` — current working dialogue.
-- Next mainline scene: **Beat 6 — Western Map Mural**.
+- Next mainline scene: **Beat 7 — Archive Depths**.
