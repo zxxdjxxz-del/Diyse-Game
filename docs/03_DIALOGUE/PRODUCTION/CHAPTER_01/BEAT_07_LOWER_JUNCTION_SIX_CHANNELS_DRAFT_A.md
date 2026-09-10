@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 7
 # Lower Junction / Six Channels
-## DIALOGUE ENGINE PRODUCTION DRAFT A — awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT B — rehearsal-first + reductive HD-2D pass / awaiting user approval
 
 ---
 
@@ -8,182 +8,115 @@
 
 **Player control is active.**
 
-The corridor from the Black Host excavation opens into a circular chamber.
+The forced corridor opens into a circular chamber.
 
-Nobody knows this room.
+Six damaged channels meet around the central floor.
 
-There is **no walking dialogue** on entry.
+Black Host lamps and chalk marks remain where the excavation passed through, but the room itself is older.
 
-The player gets the space before the characters explain anything.
+The Card stays inert in Cyanis's possession.
 
-Six broad channels meet here around a sunken central ring.
+Nobody speaks on entry.
 
-None is fully intact.
+The player gets the room first.
 
-One is choked by collapse.
-One has lost most of its upper frame.
-Two have been partly cleared by the Black Host.
-Another disappears behind damaged fitted stone.
-The sixth carries the freshest tool marks and the heaviest Black Host lamp line onward.
+Around the walls, surviving relief bands show people moving through broad openings.
 
-The chamber itself is older than Hollow Watch.
-
-Green-gold seams trace the six approaches without lighting into any active route.
-
-Black Host additions sit crudely over the room:
-- work lamps;
-- chalk numbers;
-- rope tied to ancient projections;
-- pry marks around selected channel edges;
-- spoil piled where it was convenient rather than where the room was designed to hold it.
-
-The Card remains sealed and inert.
-
-No mechanism reacts to Cyanis.
-
-The player can move through the chamber and look before triggering the central discovery.
-
----
-
-### [STORY-BEARING CELL — HUMAN IMAGERY]
-
-When the player reaches the central ring, control pauses.
-
-The surviving wall bands between the six channels become readable as images rather than decoration.
-
-Not text.
-
-People.
-
-The first surviving section shows adults moving toward a broad open passage.
-
-The next includes smaller figures walking beside them.
+Adults.
 
 Children.
 
-Another band shows handcarts loaded with bundled goods.
+Handcarts.
 
-Pack animals appear beside them.
+Pack animals.
 
-Farther around the chamber, two figures carry a third person between them on a litter.
+Two figures carrying another person on a litter.
 
-Another litter follows behind.
+Some figures carry weapons or tools.
 
-Some figures are armored.
+Most do not.
 
-Most are not.
+Several images face toward the passages.
 
-No one speaks for a few seconds.
+Others face away.
 
-Ilyra steps closer to the litter scene.
+No geographic map appears here.
 
-She does not touch it.
-
-**ILYRA:** That's a litter.
-
-Cyanis looks at the carved figure lying across it.
-
-**CYANIS:** Wounded?
-
-Ilyra studies the image.
-
-**ILYRA:** Maybe.
-
-A beat.
-
-**ILYRA:** Sick would look the same from this.
-
-Maevra looks at the neighboring panels.
-
-**MAEVRA:** Families. Carts. Animals.
-
-Torren has gone to another surviving band.
-
-He looks at the figures there.
-
-**TORREN:** Not just families.
-
-Cyanis joins him.
-
-Several of those figures carry long tools, packs, or weapons.
-
-**TORREN:** Everybody.
-
-Maevra looks around the whole circular chamber.
-
-**MAEVRA:** A lot of people, anyway.
-
-She does not turn that into a number.
+No one knows the room well enough to lead it, so ordinary examination remains silent gameplay.
 
 ---
 
-### [DIRECTIONAL CLUE]
+### [STORY TRIGGER — CENTRAL RELIEF]
 
-Torren notices a break in the repeating image band.
+When the player approaches the clearest surviving relief, control pauses.
 
-On one side of a damaged gate motif, the surviving figures face inward.
+Ilyra looks at the litter first.
 
-On the other, several clearly face away from it.
+**ILYRA:** That's a litter.
 
-He crouches to get a better angle on the lower section.
+Cyanis leans slightly to see the worn figure on it.
 
-**TORREN:** They're not all going the same way.
+**CYANIS:** Wounded?
 
-Cyanis looks.
+Ilyra studies it.
 
-**CYANIS:** You're sure?
+**ILYRA:** Could be sick.
 
-Torren points rather than answering broadly.
+Maevra is looking at the next section.
 
-**TORREN:** Those are facing in.
+A small carved hand is held inside an adult one.
 
-Then another section.
+**MAEVRA:** Children too.
+
+Torren has moved a few steps around the curve.
+
+He points at one group.
+
+**TORREN:** Those are going in.
+
+Then at another.
 
 **TORREN:** Those aren't.
 
-Maevra moves to where she can see both.
-
-**MAEVRA:** He's right.
-
-Ilyra looks back toward the litter panel.
-
-Then to the outward-facing figures.
-
-**ILYRA:** So not one movement.
+Cyanis follows the direction of both groups.
 
 **CYANIS:** Evacuation?
 
-No one answers immediately.
+Maevra looks at the outward-facing figures.
 
-Maevra looks at the children and loaded carts.
+**MAEVRA:** Maybe people came back out later.
 
-**MAEVRA:** Could be.
+**ILYRA:** Or it wasn't only for emergencies.
 
-She looks at the figures moving the other way.
+Torren looks across the six openings.
 
-**MAEVRA:** Doesn't explain all of it.
+**TORREN:** Lot of ways through for one simple job.
 
-**TORREN:** Transit?
+Cyanis looks at him.
 
-**ILYRA:** Shelter could still have people coming back out.
+**CYANIS:** Transit?
 
-Cyanis looks around the six channels.
+Torren shrugs once.
 
-**CYANIS:** Or this did more than one thing.
+**TORREN:** Could be.
 
-Maevra gives him a brief look.
+Ilyra glances back at the litter.
 
-**MAEVRA:** Also possible.
+**ILYRA:** Could still be shelter.
 
-A beat.
+Maevra looks from one relief to the next.
 
-**MAEVRA:** We have pictures of people moving through it.
+**MAEVRA:** Could be both.
 
-She looks around the chamber once more.
+Nobody settles it.
 
-**MAEVRA:** That's what we know.
+Cyanis looks around the room again.
 
-No one tries to improve the answer.
+**CYANIS:** Whatever it was, civilians used it.
+
+That lands.
+
+No one improves the sentence.
 
 ---
 
@@ -191,153 +124,97 @@ No one tries to improve the answer.
 
 **Player control returns.**
 
-The junction is a short exploration/discovery space rather than another long combat hall.
+The chamber is a short exploration space, not another full combat hall.
 
-The player can examine the damaged approaches and surviving imagery at their own pace.
+The player can inspect the six damaged channel mouths and the surviving relief band.
 
-Optional visual details may reinforce the same bounded clue:
-- repeated open-gate shapes associated with groups of people;
-- handcarts in more than one panel;
-- adults holding children's hands;
-- pack animals moving beside civilian groups;
-- litters carried by pairs or small groups;
-- occasional armored figures mixed among much larger nonmilitary groups.
+Use only the existing room, required relief imagery, Black Host lamps/marks already justified by the excavation, ordinary B00 placement/facing, and restrained lighting/camera emphasis.
 
-Do **not** add:
-- geographic terrain;
-- named locations;
-- fire falling from the sky;
-- a regional map;
-- a map rubbing;
-- Wayfinder imagery or recognition;
-- a written label explaining the six channels;
-- an ancient-network explanation.
+Do not add new machinery, extra rooms, background NPC activity, one-off props, geographic imagery, falling-fire imagery, map rubbing, Wayfinder imagery, or written labels explaining the chamber.
 
-The Card remains sealed and inert.
+The Card remains inert.
 
-No dialogue occurs while the player walks between the six channels.
+No dialogue plays while the player walks between channels.
 
 ---
 
 ### [STOP — BLACK HOST ROUTE]
 
-At the sixth channel, the Black Host's work becomes clearly newer than the damage elsewhere.
+One channel shows the freshest Black Host forcing damage.
 
-Fresh wedges are still driven into one side of the passage frame.
+Its opening has been widened enough to pass through, and the excavation lamps continue beyond it.
 
-A broken section has been shored with timber.
+The party stops there.
 
-Lamp hooks continue beyond it.
+Cyanis looks back at the other five.
 
-Drag marks and boot traffic are heavier here than at the other five approaches.
+**CYANIS:** They tried the others first.
 
-The party stops at the threshold.
+Maevra looks at the abandoned chalk marks around the room.
 
-Cyanis looks back around the chamber.
+**MAEVRA:** Looks like it.
 
-**CYANIS:** They looked at the whole room.
+Torren studies the forced opening.
 
-Maevra follows the chalk numbering around the other channels.
+**TORREN:** This one opened.
 
-Several marks end in crosses or abandoned measurements.
+**CYANIS:** Good enough for them.
 
-**MAEVRA:** At least enough to test more than one way forward.
+**TORREN:** Apparently.
 
-Torren looks into the sixth passage.
+Ilyra looks at the damage along the passage edge.
 
-**TORREN:** This is the one they kept working.
+**ILYRA:** And they kept going after the Sentries.
 
-Cyanis looks at the fresh braces.
+Maevra gives the dark passage a flat look.
 
-**CYANIS:** Because it was important?
+**MAEVRA:** Of course they did.
 
-Torren shakes his head.
+Cyanis raises his shield.
 
-**TORREN:** Because they got through it.
+**CYANIS:** We judging them or following them?
 
-A beat.
+**MAEVRA:** Both.
 
-**TORREN:** That's all I can see from here.
+Torren gives her a quick glance.
 
-Cyanis nods.
+**TORREN:** Efficient.
 
-**CYANIS:** Fair.
-
-Ilyra looks at the split timber brace nearest the breach.
-
-**ILYRA:** And whatever happened farther in hurt people coming back out.
-
-She points to dried blood on one Black Host handline and a drag mark that ends near the chamber.
-
-Maevra looks at it.
-
-**MAEVRA:** Something happened.
-
-Then:
-
-**MAEVRA:** We don't know what.
-
-Ilyra nods.
-
-**ILYRA:** Right.
+That is enough.
 
 ---
 
 ### [THRESHOLD — FORCED INNER SECTION]
 
-Beyond the Black Host breach, the architecture tightens again.
+The passage ahead is narrower and less weathered than the junction.
 
-The six-channel chamber remains open behind them.
+Recent Black Host damage cuts across the older fitted surfaces.
 
-Ahead, the passage is narrower, less damaged by age, and more damaged by recent force.
+No new clue is added at the threshold.
 
-Parts of older machinery are visible through broken wall sections deeper inside, but not enough from this threshold to identify their function.
+Torren checks the first stretch of floor.
 
-The Black Host has added heavier bracing here than anywhere in the junction.
+**TORREN:** Floor's fine.
 
-A shattered piece of a Diysean defense construct lies beneath one lamp.
+Cyanis looks into the dark beyond it.
 
-Cyanis looks at it.
+**CYANIS:** Everything else?
 
-Then at the passage beyond.
+Torren draws an arrow.
 
-**CYANIS:** More defenses.
+**TORREN:** We'll meet it when it objects.
 
-Maevra looks at the broken construct.
+Ilyra adjusts her Wardrod.
 
-**MAEVRA:** At least one.
+**ILYRA:** Comforting.
 
-Torren checks the floor immediately beyond the breach.
+**TORREN:** Wasn't for you.
 
-**TORREN:** The floor isn't the problem.
+Maevra steps behind the combat line.
 
-Cyanis waits.
+**MAEVRA:** Move.
 
-Torren looks at the damaged walls and the darkness beyond them.
-
-**TORREN:** Everything else is still applying for the job.
-
-Cyanis gives him a small look.
-
-**CYANIS:** That's almost reassuring.
-
-**TORREN:** Wasn't meant to be.
-
-Ilyra looks once more at the civilian imagery behind them.
-
-Then ahead.
-
-**ILYRA:** Whatever this place was, people used it.
-
-Maevra nods.
-
-**MAEVRA:** Yes.
-
-A beat.
-
-**MAEVRA:** We still don't know for what.
-
-That is where the scene leaves the question.
+The scene ends there.
 
 ---
 
@@ -350,16 +227,15 @@ Current objective:
 **Follow the Black Host breach into the protected inner section.**
 
 Story state:
-- The party has reached a circular Diysean junction where six damaged channels meet.
-- Surviving imagery shows substantial movement of ordinary people through open gates/passages.
-- The imagery explicitly includes adults, children, handcarts, animals, and injured or sick people carried on litters.
-- Some surviving directional imagery appears to show movement in more than one direction.
-- The party may now reasonably consider evacuation, transit, shelter, or a broader/multiple-use function, but **nothing is confirmed**.
-- The chamber is not presented as a geographic map.
-- No one has identified a named route or location from the imagery.
-- The Black Host tested multiple approaches and continued most heavily through one forced inner route, but the party does not know why that route mattered beyond the fact that the Host managed to penetrate it.
-- Torren has no ancient-infrastructure knowledge and continues to state only what he can observe.
-- The Card remains sealed and inert.
+- the party has reached one circular Diysean junction where six damaged channels meet;
+- surviving relief imagery shows adults, children, handcarts, animals, and people carried on litters using the passages;
+- surviving compositions show movement both toward and away from openings;
+- the party naturally considers evacuation, transit, shelter, or a mixed use without confirming any of them;
+- the room is not a geographic map and does not spend the later mural payoff;
+- one channel carries the clearest recent Black Host route onward;
+- Torren does not recognize the ancient system or its purpose;
+- Cyanis carries the intact Card directly and it remains inert;
+- no Wayfinder, Prime, bearer, ancient-network, or falling-fire reveal occurs.
 
 Traveling group:
 **Cyanis Dovaren + Ilyra Amarin + Maevra Solmar + Torren Harth**
@@ -370,29 +246,16 @@ Combat party:
 Torren remains a temporary combat ally.
 
 Next mandatory story beat:
-**Forced Inner Section.**
+**Beat 8 — Forced Inner Section.**
 
 ---
 
-## Canon / Dialogue Engine self-check
+## Rehearsal-first / reductive HD-2D check
 
-**PASS — required human-use clue**
-- six damaged channels meet in one circular junction;
-- adults, children, handcarts, animals, and litter-carried people are all visually represented;
-- ordinary civilians visibly outnumber obviously martial figures;
-- surviving compositions indicate movement may have occurred in more than one direction.
+**Human layer:** the party is allowed to speculate without Maevra or Torren repeatedly certifying what can be known. The scene ends without consensus because consensus is unnecessary.
 
-**PASS — uncertainty / reveal firewall**
-Evacuation, transit, shelter, and multiple-use interpretations remain speculation. The scene does not confirm the site's original purpose, a route network, a shelter system, or any named ancient function.
+**Knowledge:** nobody identifies the original function, named route, network, Wayfinder, or later mural information.
 
-**PASS — mural firewall**
-No geography, regional terrain, falling-fire imagery, map rubbing, Wayfinder recognition, or post-Castellan mural payoff appears here.
+**Walking dialogue:** none during ordinary exploration. All dialogue occurs at deliberate stops.
 
-**PASS — Torren knowledge boundary**
-Torren recognizes only visible facing direction, work patterns, damage, and footing. He does not recognize the junction, ancient system, channel function, or destination.
-
-**PASS — walking-dialogue lock**
-Nobody knows the junction route well enough to be an active guide. Dialogue occurs only at the central discovery cell, the sixth-channel stop, and the forced-inner threshold. Player-controlled examination of the chamber remains silent.
-
-**PASS — economical HD-2D staging**
-The beat relies on one circular junction environment, six damaged channel mouths, relief/image bands, existing excavation props, a few reusable civilian relief motifs, lighting emphasis, and restrained camera framing. The imagery gets a clean visual read before portraits and dialogue interpret it.
+**Reductive production:** one existing junction room, six required channel mouths, one required relief band, existing excavation lamps/marks, B00 blocking, portraits, simple facing, and restrained lighting/camera. No extra rooms, platforms, crowds, bespoke animation, new machinery, or invented clue props are required.
