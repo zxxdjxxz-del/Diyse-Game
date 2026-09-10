@@ -5,39 +5,25 @@
   "story_position": "Chapter 1 — Beat 11 — Hollow Watch Resolution / Torren Recruitment",
   "production_ready": false,
   "participants": ["cyanis", "ilyra", "maevra", "torren"],
-  "scene_purpose": "Resolve the condition that kept Torren in Greenhollow, convert him from temporary ally to permanent party member through understated adult conversation, and return the journey to southern Briar. Hollow Watch's garrison fate is known, the immediate occupation is broken enough for a larger Yahtrean response to take over, and Torren can now accept the route job Maevra originally came to offer.",
+  "scene_purpose": "Resolve the condition that kept Torren in Greenhollow, convert him from temporary ally to permanent party member through understated adult conversation, and return the journey to southern Briar without adding a bespoke recruitment cinematic.",
   "story_sources": [
-    {
-      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
-      "sections": ["Beat 11 — Hollow Watch Resolution / Torren Recruitment"],
-      "role": "base_chapter_01_beat_11_story_authority"
-    },
-    {
-      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md",
-      "whole_file": true,
-      "role": "latest_junction_naming_and_hidden_monument_authority"
-    },
-    {
-      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
-      "whole_file": true,
-      "role": "direct_card_physical_state_authority"
-    }
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Beat 11 — Hollow Watch Resolution / Torren Recruitment"], "role": "base_chapter_01_beat_11_story_authority"},
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md", "whole_file": true, "role": "latest_junction_naming_and_hidden_monument_authority"},
+    {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "direct_card_physical_state_authority"}
   ],
   "additional_authority_sources": [
-    {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "torren_character_authority"},
-    {"path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md", "whole_file": true, "role": "maevra_character_authority"},
-    {"path": "docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md", "whole_file": true, "role": "relationship_language"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_and_reductive_hd2d_contract"},
+    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "current_gameplay_presentation_hard_lock"},
+    {"path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md", "whole_file": true, "role": "portrait_dialogue_presentation"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_authoring_lock"},
     {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "invisible_knowledge_firewall"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md", "whole_file": true, "role": "ordinary_enemy_random_encounter_lock"}
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"}
   ],
   "scene_context_seed": {
     "location_name": "Hollow Watch surface / overlook before departure",
     "area_phase": "post_dungeon_resolution",
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
-    "runtime_note": "Stopped resolution scene. REHEARSAL-FIRST: let Torren's decision come out simply rather than making him explain his philosophy or knowledge boundaries. Do not make Maevra act as Canon Checker. The dead garrison remains the emotional ground under the scene, but recruitment is not a funeral speech. Torren can now leave because the question that kept him here has been answered and the immediate occupation has been broken enough for the region to respond. He commits to traveling south with the group and onward toward Caelora. JUNCTION CORRECTION: characters call the southern location the Junction. Torren knows the crossroads but has never seen the monument shown in the mural; if it comes up, he may want to see where that stone is supposed to be. Do not call it Wayfinder in dialogue. Cyanis carries the intact Card directly. REDUCTIVE HD-2D: reuse Hollow Watch surface/overlook and existing B00 presentation. No signal ceremony, crowd, bespoke recruitment animation, or added environment set piece. No walking dialogue on the return/descent."
+    "runtime_note": "Ordinary return/departure traversal shows Cyanis only. At the Hollow Watch overlook story trigger, the relevant cast may appear as simple field models while portraits/dialogue box carry most performance. Torren's permanent recruitment should occur through ordinary dialogue and a system state change, not a bespoke join animation. Do not add repeated looking, road pointing, bow handling, ceremony, crowd activity, or departure choreography. JUNCTION: characters call the location the Junction. Torren knows the crossroads but has never seen the monument shown in the mural. Cyanis carries the intact Card and it remains inert."
   },
   "current_floor_state": {
     "hollow_watch_garrison_fate": "known_dead",
@@ -46,7 +32,8 @@
     "mural_state": "discovered",
     "junction_knowledge": "Torren_knows_crossroads_party_knows_mural_shows_unknown_important_monument_there",
     "card_state": "intact_directly_carried_by_cyanis",
-    "torren_party_status_on_entry": "temporary_combat_ally"
+    "torren_party_status_on_entry": "temporary_combat_ally",
+    "ordinary_traversal_visible_character": "cyanis_only"
   },
   "required_story_beats": [
     "Party returns to Hollow Watch surface without walking dialogue.",
@@ -66,5 +53,5 @@
     "entity"
   ],
   "max_beats": 14,
-  "production_cost_ceiling": "reductive_economical"
+  "production_cost_ceiling": "simple_field_scene_and_system_recruitment_state"
 }
