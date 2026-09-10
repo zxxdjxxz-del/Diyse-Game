@@ -1,160 +1,104 @@
 # Chapter 1 — Beat 7
 # Lower Junction / Six Channels
-## DIALOGUE ENGINE PRODUCTION DRAFT B — rehearsal-first + reductive HD-2D pass / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT C — established gameplay presentation normalization / awaiting user approval
 
 ---
 
-### [GAMEPLAY — ENTERING THE JUNCTION]
+### [GAMEPLAY — LOWER JUNCTION]
 
 **Player control is active.**
 
-The forced corridor opens into a circular chamber.
+The player enters the circular lower junction through normal dungeon traversal.
 
-Six damaged channels meet around the central floor.
+During ordinary exploration, **Cyanis is the only visible party field character**.
 
-Black Host lamps and chalk marks remain where the excavation passed through, but the room itself is older.
+Ilyra, Torren, and Maevra remain present in story state and may appear when a scene triggers.
 
-The Card stays inert in Cyanis's possession.
+The chamber's required visual information is simple and important:
+- six damaged channel mouths meet here;
+- one surviving relief band shows ordinary people using the passages;
+- adults, children, handcarts, animals, and people carried on litters are represented;
+- some figures move toward passages and others away from them.
 
-Nobody speaks on entry.
+The player gets that image before anyone speaks.
 
-The player gets the room first.
+The Card remains inert.
 
-Around the walls, surviving relief bands show people moving through broad openings.
-
-Adults.
-
-Children.
-
-Handcarts.
-
-Pack animals.
-
-Two figures carrying another person on a litter.
-
-Some figures carry weapons or tools.
-
-Most do not.
-
-Several images face toward the passages.
-
-Others face away.
-
-No geographic map appears here.
-
-No one knows the room well enough to lead it, so ordinary examination remains silent gameplay.
+No geographic map, falling-fire imagery, Junction monument, written explanation, or additional clue sequence appears here.
 
 ---
 
-### [STORY TRIGGER — CENTRAL RELIEF]
+### [STORY TRIGGER — HUMAN-USE RELIEF]
 
-When the player approaches the clearest surviving relief, control pauses.
+**Player control pauses.**
 
-Ilyra looks at the litter first.
+The relevant characters may appear as simple field models in the chamber. Portraits and the dialogue box carry the conversation.
 
 **ILYRA:** That's a litter.
 
-Cyanis leans slightly to see the worn figure on it.
-
 **CYANIS:** Wounded?
-
-Ilyra studies it.
 
 **ILYRA:** Could be sick.
 
-Maevra is looking at the next section.
-
-A small carved hand is held inside an adult one.
-
 **MAEVRA:** Children too.
 
-Torren has moved a few steps around the curve.
-
-He points at one group.
+A beat.
 
 **TORREN:** Those are going in.
 
-Then at another.
+Another beat.
 
 **TORREN:** Those aren't.
 
-Cyanis follows the direction of both groups.
-
 **CYANIS:** Evacuation?
-
-Maevra looks at the outward-facing figures.
 
 **MAEVRA:** Maybe people came back out later.
 
 **ILYRA:** Or it wasn't only for emergencies.
 
-Torren looks across the six openings.
-
 **TORREN:** Lot of ways through for one simple job.
-
-Cyanis looks at him.
 
 **CYANIS:** Transit?
 
-Torren shrugs once.
-
 **TORREN:** Could be.
 
-Ilyra glances back at the litter.
-
 **ILYRA:** Could still be shelter.
-
-Maevra looks from one relief to the next.
 
 **MAEVRA:** Could be both.
 
 Nobody settles it.
 
-Cyanis looks around the room again.
-
 **CYANIS:** Whatever it was, civilians used it.
 
-That lands.
+A beat.
 
-No one improves the sentence.
+That is enough.
+
+The scene ends.
 
 ---
 
-### [GAMEPLAY — JUNCTION EXAMINATION]
+### [GAMEPLAY — JUNCTION]
 
 **Player control returns.**
 
-The chamber is a short exploration space, not another full combat hall.
+Normal Cyanis-only dungeon traversal resumes.
 
-The player can inspect the six damaged channel mouths and the surviving relief band.
+The player can move through the chamber and identify the Black Host route onward through the existing area design.
 
-Use only the existing room, required relief imagery, Black Host lamps/marks already justified by the excavation, ordinary B00 placement/facing, and restrained lighting/camera emphasis.
+The dialogue script does not add machinery, loose props, extra rooms, additional carvings, or a chain of separate inspections.
 
-Do not add new machinery, extra rooms, background NPC activity, one-off props, geographic imagery, falling-fire imagery, map rubbing, Wayfinder imagery, or written labels explaining the chamber.
-
-The Card remains inert.
-
-No dialogue plays while the player walks between channels.
+No walking dialogue is used.
 
 ---
 
-### [STOP — BLACK HOST ROUTE]
+### [STORY TRIGGER — ROUTE ONWARD]
 
-One channel shows the freshest Black Host forcing damage.
-
-Its opening has been widened enough to pass through, and the excavation lamps continue beyond it.
-
-The party stops there.
-
-Cyanis looks back at the other five.
+At the channel carrying the Black Host breach farther inward, movement pauses and the relevant characters may appear again.
 
 **CYANIS:** They tried the others first.
 
-Maevra looks at the abandoned chalk marks around the room.
-
 **MAEVRA:** Looks like it.
-
-Torren studies the forced opening.
 
 **TORREN:** This one opened.
 
@@ -162,59 +106,33 @@ Torren studies the forced opening.
 
 **TORREN:** Apparently.
 
-Ilyra looks at the damage along the passage edge.
-
 **ILYRA:** And they kept going after the Sentries.
 
-Maevra gives the dark passage a flat look.
-
 **MAEVRA:** Of course they did.
-
-Cyanis raises his shield.
 
 **CYANIS:** We judging them or following them?
 
 **MAEVRA:** Both.
 
-Torren gives her a quick glance.
-
 **TORREN:** Efficient.
 
-That is enough.
+The exchange ends.
 
 ---
 
 ### [THRESHOLD — FORCED INNER SECTION]
 
-The passage ahead is narrower and less weathered than the junction.
+The same scene carries directly into the next objective.
 
-Recent Black Host damage cuts across the older fitted surfaces.
+**CYANIS:** Ready?
 
-No new clue is added at the threshold.
+**ILYRA:** Yes.
 
-Torren checks the first stretch of floor.
+**TORREN:** Yeah.
 
-**TORREN:** Floor's fine.
+**MAEVRA:** Go.
 
-Cyanis looks into the dark beyond it.
-
-**CYANIS:** Everything else?
-
-Torren draws an arrow.
-
-**TORREN:** We'll meet it when it objects.
-
-Ilyra adjusts her Wardrod.
-
-**ILYRA:** Comforting.
-
-**TORREN:** Wasn't for you.
-
-Maevra steps behind the combat line.
-
-**MAEVRA:** Move.
-
-The scene ends there.
+Scene ends.
 
 ---
 
@@ -227,35 +145,32 @@ Current objective:
 **Follow the Black Host breach into the protected inner section.**
 
 Story state:
-- the party has reached one circular Diysean junction where six damaged channels meet;
-- surviving relief imagery shows adults, children, handcarts, animals, and people carried on litters using the passages;
-- surviving compositions show movement both toward and away from openings;
-- the party naturally considers evacuation, transit, shelter, or a mixed use without confirming any of them;
+- the party has found one circular Diysean junction with six damaged channels;
+- the required relief shows adults, children, handcarts, animals, and people on litters using the passages;
+- the imagery shows movement both toward and away from openings;
+- evacuation, transit, shelter, or mixed use are considered but not confirmed;
 - the room is not a geographic map and does not spend the later mural payoff;
-- one channel carries the clearest recent Black Host route onward;
-- Torren does not recognize the ancient system or its purpose;
+- the Black Host route continues through one damaged channel;
 - Cyanis carries the intact Card directly and it remains inert;
-- no Wayfinder, Prime, bearer, ancient-network, or falling-fire reveal occurs.
+- nobody identifies the ancient system or its purpose.
 
-Traveling group:
-**Cyanis Dovaren + Ilyra Amarin + Maevra Solmar + Torren Harth**
-
-Combat party:
-**Cyanis Dovaren + Ilyra Amarin + Torren Harth**
+Traveling group: **Cyanis + Ilyra + Maevra + Torren**  
+Combat party: **Cyanis + Ilyra + Torren**
 
 Torren remains a temporary combat ally.
 
-Next mandatory story beat:
-**Beat 8 — Forced Inner Section.**
+Next mandatory story beat: **Beat 8 — Forced Inner Section.**
 
 ---
 
-## Rehearsal-first / reductive HD-2D check
+## Presentation / canon check
 
-**Human layer:** the party is allowed to speculate without Maevra or Torren repeatedly certifying what can be known. The scene ends without consensus because consensus is unnecessary.
+**Traversal:** Cyanis only during ordinary lower-junction exploration.
 
-**Knowledge:** nobody identifies the original function, named route, network, Wayfinder, or later mural information.
+**Triggered scenes:** the relevant cast may appear as field models for the relief discussion and route-onward stop.
 
-**Walking dialogue:** none during ordinary exploration. All dialogue occurs at deliberate stops.
+**Dialogue:** portraits + dialogue box carry nearly all performance.
 
-**Reductive production:** one existing junction room, six required channel mouths, one required relief band, existing excavation lamps/marks, B00 blocking, portraits, simple facing, and restrained lighting/camera. No extra rooms, platforms, crowds, bespoke animation, new machinery, or invented clue props are required.
+**Reduction:** removed leaning, pointing, repeated looking around the relief, floor checking, weapon-ready gestures, Wardrod adjustment, combat-line movement, extra lighting/camera prescriptions, and other micro-staging.
+
+**Required visual retained:** one six-channel chamber and the one human-use relief band remain because they are the actual story discovery.
