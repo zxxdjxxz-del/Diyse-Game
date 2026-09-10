@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 6
 # Black Host Excavation / Lower Access
-## DIALOGUE ENGINE PRODUCTION DRAFT A — awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT B — rehearsal-first pass / awaiting user approval
 
 ---
 
@@ -10,39 +10,33 @@
 
 The party descends through the opening exposed beneath Hollow Watch.
 
-Nobody here knows the route.
+Nobody here knows the route well enough to lead it.
 
 There is **no walking dialogue** during the descent.
 
-The first section still belongs visibly to later construction:
+At first, the passage still belongs to the fort:
 - cut Yahtrean stone;
 - patched drainage;
-- old fort brackets and lamp hooks;
-- recent Black Host braces driven into walls that were never meant to carry them.
+- old brackets and lamp hooks;
+- recent Black Host braces driven into walls never meant to carry them.
 
 Then the material changes.
 
 The later stone narrows around older fitted blocks.
-The seams become tighter.
-Green-gold material appears in thin recessed lines beneath dirt and lime residue.
+The seams tighten.
+Thin green-gold lines appear beneath scrubbed dirt and lime residue.
 
-Black Host work has made the transition impossible to miss.
+Black Host work makes the transition impossible to miss.
 
-They have:
-- stripped plaster from selected walls;
-- scrubbed soot and mineral film from older surfaces;
-- numbered pry points in chalk;
-- driven wedges into seams;
-- piled broken later masonry separately from older fragments;
-- reinforced the descent with repeated lengths of fresh-cut timber.
+They have stripped plaster from selected walls, scrubbed older surfaces clean, numbered pry points in chalk, driven wedges into seams, separated broken later masonry from older fragments, and reinforced the descent with repeated lengths of fresh-cut timber.
 
-This does not look like someone stumbled onto a hole this morning.
+This has been work, not discovery.
 
-It looks like work repeated for days.
+Days of it.
 
 **Combat party:** Cyanis + Ilyra + Torren.  
 **Maevra:** travels with the group, never enters battle.  
-**Card:** sealed and inert.
+**Card:** carried directly by Cyanis, intact and inert.
 
 Black Host personnel still occupy the excavation.
 
@@ -52,71 +46,87 @@ The player fights through the first lower work section.
 
 ### [SECURED STOP — STRIPPED WALL]
 
-After the immediate chamber is secured, the party stops beside a broad wall where nearly every later surface has been removed.
+After the chamber is secured, the party stops beside a broad wall where nearly every later surface has been removed.
 
 Several test cuts have been abandoned.
 
-One section received far more attention than the others.
-
-The older fitted stone there has been cleaned almost white around a narrow green-gold seam.
+One seam received much more attention than the rest.
 
 Three broken pry heads lie on the floor beneath it.
 
-Cyanis looks from the abandoned cuts to the worked seam.
+Torren crouches and picks one up.
 
-**CYANIS:** They tried more than one place.
+**TORREN:** Hm.
 
-Maevra looks at the chalk marks.
+Cyanis looks down at him.
+
+**CYANIS:** That's encouraging.
+
+Torren turns the broken head in his hand.
+
+**TORREN:** Bent before it snapped.
+
+Maevra is reading the chalk marks on the wall.
 
 Different numbers.
 Different heights.
-Some crossed out.
+Several crossed out.
 
-**MAEVRA:** And kept coming back to this one.
+**MAEVRA:** They tried half the room first.
 
-Torren crouches near the broken pry heads.
+Cyanis looks at the pale cleaned stone around the surviving seam.
 
-He does not touch the green-gold seam.
+**CYANIS:** Then got stubborn.
 
-**TORREN:** Metal failed before the wall did.
+Torren drops the broken metal back onto the floor.
 
-Cyanis looks at him.
+It lands beside a fourth pry head partly hidden beneath Cyanis's boot.
 
-**CYANIS:** Good wall.
+Torren looks at the boot.
 
-**TORREN:** Or bad tools.
+Cyanis follows his eyes and steps aside.
 
-A beat.
+**CYANIS:** Four.
 
-**TORREN:** Can't tell you which.
+**TORREN:** Better.
 
-Ilyra looks at the bracing overhead.
+Ilyra is not looking at the wall.
 
-**ILYRA:** Can you tell me whether that is staying up?
+She is looking overhead.
 
-Torren follows her gaze.
+**ILYRA:** Torren.
 
-Studies the timber.
+He follows her gaze to a split brace.
 
-**TORREN:** That part, yes.
+**TORREN:** Yeah.
 
-He points to one split brace.
+**ILYRA:** How much do I hate that?
 
-**TORREN:** Not forever.
+Torren stands and gives the timber a long look.
 
-Ilyra nods.
+**TORREN:** Enough to stand somewhere else.
 
-**ILYRA:** That's enough.
+Ilyra immediately moves.
 
-Maevra looks farther down the excavation.
+Cyanis moves too.
 
-More lamps continue beyond the chamber.
+Maevra is last.
 
-**MAEVRA:** They didn't stop here.
+**MAEVRA:** Wonderful room.
 
-Cyanis adjusts his shield.
+A distant hammer strikes somewhere deeper in the excavation.
 
-**CYANIS:** Neither do we.
+Once.
+
+Then again.
+
+Cyanis looks toward the next passage.
+
+**CYANIS:** Still working.
+
+Maevra starts toward cover near the doorway.
+
+**MAEVRA:** Then so are we.
 
 **Player control returns.**
 
@@ -128,17 +138,13 @@ The next section is sustained hostile dungeon play.
 
 No party conversation occurs while moving.
 
-The player sees the Black Host method continue:
-- spoil baskets stacked by depth or work section;
-- cleared floor channels kept free of debris;
-- rope wear on repeated hauling points;
-- lamp niches added where the older structure had none accessible;
-- wedges left in failed seams;
-- work crews protected by armed troops rather than replacing them.
-
-The Host has not understood the whole structure.
-
-They have simply been persistent with it.
+The Black Host method continues through the environment:
+- spoil baskets stacked by work section;
+- floor channels kept clear for hauling;
+- deep rope wear at repeated load points;
+- wedges abandoned in failed seams;
+- work crews protected by armed troops;
+- temporary lamps multiplying as the older structure deepens.
 
 A later Yahtrean lever housing appears partway through the gallery.
 
@@ -146,9 +152,7 @@ Its iron linkage has been bolted onto a much older recessed mechanism.
 
 The two construction eras are visibly different.
 
-The lever itself is damaged and partly dismantled by recent Black Host work.
-
-No one explains what the older mechanism originally controlled.
+Recent Black Host work has partly dismantled the lever.
 
 The Card remains inert.
 
@@ -158,53 +162,55 @@ The Card remains inert.
 
 After another combat section, the party secures the lever chamber.
 
-Cyanis looks at the Yahtrean iron linkage.
+Cyanis looks from the heavy Yahtrean lever to the older green-gold housing beneath it.
 
-Then at the older green-gold housing beneath it.
+**CYANIS:** That's ugly.
 
-**CYANIS:** Someone built a handle onto something older.
+Maevra runs her eyes over the later bolts.
 
-Maevra examines the later bolts without touching the recessed mechanism.
+**MAEVRA:** Worked well enough for somebody to keep it.
 
-**MAEVRA:** Long before the Host got here.
+Torren looks at the stone around the housing.
 
-Torren looks at the wall around it.
+**TORREN:** Fort bolted itself onto whatever was already here.
 
-**TORREN:** Fort used what it could reach.
+Ilyra points at the damaged iron linkage hanging loose from one side.
 
-Cyanis looks at him.
+**ILYRA:** Then the Host tore the handle off.
 
-Torren immediately adds:
+Maevra looks at the gouges around the housing.
 
-**TORREN:** That's a guess.
+**MAEVRA:** Subtle people.
 
-**CYANIS:** I was going to ask.
+**CYANIS:** We keep meeting those.
 
-**TORREN:** I know.
+Torren leans in just enough to inspect the broken iron, not the recessed mechanism.
 
-Ilyra looks at the partly dismantled linkage.
+**TORREN:** They hit it hard.
 
-**ILYRA:** And the Host pulled it apart.
+**CYANIS:** Did it move?
 
-Maevra points to tool scoring around the old housing.
+Torren looks at the wall.
 
-**MAEVRA:** After trying to make it move.
+Then at the snapped linkage.
 
-**CYANIS:** Did it?
+**TORREN:** Not for them.
 
-Maevra looks at the broken linkage.
+Maevra has found a grease-black work sheet wedged behind the lever frame.
 
-**MAEVRA:** Not in any way they wrote down here.
+She opens it.
 
-Cyanis looks at the dark continuation beyond the chamber.
+Half the page is smeared beyond use.
 
-**CYANIS:** Useful people.
+**MAEVRA:** Whoever wrote this disagreed with the lever.
 
-**MAEVRA:** Dead people write worse reports.
+**CYANIS:** Strongly?
 
-That lands differently after the surface fort.
+She turns the page so he can see the torn corner and blood on the edge.
 
-No one answers.
+**MAEVRA:** Looks personal.
+
+Nobody laughs very much.
 
 The player moves on.
 
@@ -212,85 +218,85 @@ The player moves on.
 
 ### [GAMEPLAY — FIRST ACTIVE DEFENSE]
 
-The excavation narrows into a section where Black Host reinforcement abruptly becomes heavier.
+The excavation narrows.
+
+Black Host reinforcement becomes heavier.
 
 Two braces have been doubled.
 A broken shield lies against one wall.
-Several dark stains mark the floor.
+Old dark stains mark the floor.
 
 The next doorway is older than everything around it.
 
-Its frame is uninterrupted fitted stone with recessed green-gold lines.
+Its fitted stone frame carries recessed green-gold lines.
 
 The Black Host has forced one side open far enough for passage.
 
 As the party crosses the threshold, a recessed shape in the wall unfolds.
 
-Not from the Card.
+The Card does not react.
 
-Not from Cyanis specifically.
+The ancient defense is responding to intrusion into the deeper section.
 
-The ancient defense reacts to intrusion into the deeper section.
-
-A Diysean Sentry detaches from the architecture.
+A Diysean Sentry tears free of the architecture.
 
 **Combat begins.**
 
 Additional active defense units may enter according to encounter authority.
 
-The encounter should establish one thing clearly:
-
-**the deeper ruin is not inert.**
-
-The Card remains sealed and does not visibly respond.
+The deeper ruin is not inert.
 
 ---
 
 ### [POST-COMBAT STOP — SENTRY]
 
-The last construct collapses back against the stone.
+The last construct crashes against the wall and goes still.
 
-The room becomes quiet except for cooling metal and the Black Host lamps.
+Cooling metal ticks in the silence.
 
-Nobody moves immediately.
+Cyanis keeps his shield up for another second.
 
-Cyanis looks at the ruined construct.
+**CYANIS:** Not Host.
 
-**CYANIS:** That wasn't theirs.
+Torren lowers his bow.
 
-**TORREN:** No.
+**TORREN:** No shit.
 
-Ilyra looks toward the doorway it came from.
+Ilyra is already kneeling beside the broken shield that was here before they arrived.
 
-**ILYRA:** Was it waiting for us?
+She turns it over.
 
-Maevra looks at the broken shields and old blood already in the chamber.
+Black Host paint is visible on the inside.
 
-**MAEVRA:** It was waiting for someone.
+**ILYRA:** They fought one here too.
 
-Cyanis follows her gaze.
+Maevra looks at the forced doorway beyond the ruined construct.
 
-**CYANIS:** Host found it first.
+**MAEVRA:** And opened the door anyway.
 
-**MAEVRA:** Looks that way.
+Torren retrieves an arrow that survived the fight.
 
-Torren studies the damage around the forced doorway.
+He checks the shaft.
 
-**TORREN:** And kept going anyway.
+**TORREN:** Stubborn was kinder.
 
-A beat.
+Cyanis looks at him.
 
-**CYANIS:** You sound surprised.
+**CYANIS:** You withdrawing the compliment?
 
-**TORREN:** I'm deciding whether "stubborn" is still the right word.
+**TORREN:** Completely.
 
-Maevra looks into the next passage.
+Maevra steps around a fallen construct arm.
 
-**MAEVRA:** Don't improve it for them.
+**MAEVRA:** Good. I'd hate for morale to improve.
 
-Torren glances at her.
+Ilyra stands.
 
-**TORREN:** Wasn't planning to.
+**ILYRA:** Can we improve ours somewhere that isn't full of moving walls?
+
+Cyanis looks at the next passage.
+
+**CYANIS:** Apparently not.
 
 The stop ends.
 
@@ -300,9 +306,9 @@ The stop ends.
 
 The player moves through the deepest part of the Beat-6 excavation.
 
-The visual balance now shifts decisively toward the older structure.
+The visual balance shifts decisively toward the older structure.
 
-Later Yahtrean construction survives only as occasional brackets, patched access points, and pieces of fort infrastructure added onto the older shell.
+Later Yahtrean construction survives only as occasional brackets, patched access points, and pieces of fort infrastructure grafted onto the older shell.
 
 Black Host modifications remain obvious:
 - forced seams;
@@ -314,13 +320,13 @@ Black Host modifications remain obvious:
 - temporary lamps;
 - cleared routes through debris.
 
-The party can encounter both Black Host resistance and additional Diysean defenses according to encounter authority.
+The party may encounter both Black Host resistance and additional Diysean defenses according to encounter authority.
 
 No moving dialogue is used.
 
 No map rubbing appears.
 No mural appears.
-No six-channel imagery appears yet.
+No six-channel human-use imagery appears yet.
 No one names Wayfinder.
 
 The Card remains inert.
@@ -329,85 +335,68 @@ The Card remains inert.
 
 ### [THRESHOLD STOP — LOWER JUNCTION APPROACH]
 
-The excavation eventually opens toward a wider space beyond the current corridor.
+The forced corridor eventually opens toward a much wider dark space.
 
-The Black Host has cleared enough debris to make the approach usable, but their work becomes less complete here.
+Black Host work becomes rougher near the threshold.
 
-A broken brace leans against one wall.
-A rope line ends at a pile of removed stone.
-Several tools have been left where they fell.
+One brace has been left leaning against the wall instead of installed.
+A rope line ends loose on the floor.
+Two lamps lie broken near a pile of removed stone.
+A pry bar is still wedged under one fitted block.
 
-Beyond them, the older architecture opens into darkness.
+Maevra looks at the abandoned work.
 
-The party stops before entering the wider chamber.
+**MAEVRA:** They left this fast.
 
-Cyanis looks back at the forced route they came through.
+Ilyra looks at a dark drag mark disappearing toward the wider chamber.
 
-**CYANIS:** They came a long way for something they still haven't found.
+**ILYRA:** Some of them did.
 
-Maevra looks at him.
+Cyanis follows the mark with his eyes.
 
-**MAEVRA:** We don't know that.
+**CYANIS:** Lovely.
 
-Cyanis nods once.
+Torren crouches at the threshold and presses one hand to the floor.
 
-**CYANIS:** Right.
+He shifts his weight onto it.
 
-Torren looks at the abandoned tools near the opening.
+Then stands.
 
-**TORREN:** We know they kept pushing.
-
-He looks into the dark space ahead.
-
-**TORREN:** That's all.
-
-Ilyra looks at the floor near the threshold.
-
-**ILYRA:** More traffic goes through here than comes back clean.
-
-Cyanis looks at the scuffed stone, broken equipment, and old stains.
-
-**CYANIS:** Defenses?
-
-**ILYRA:** Maybe.
-
-Maevra looks at her.
-
-Ilyra corrects herself before Maevra has to.
-
-**ILYRA:** Damage. That's what I know.
-
-Maevra nods.
-
-**MAEVRA:** Good.
-
-A faint green-gold reflection sits deeper in the chamber beyond.
-
-Not a flare.
-Not a response.
-Just the ruin's own material catching lamplight.
-
-Cyanis draws a slow breath.
-
-**CYANIS:** Ready?
-
-Torren checks the floor immediately in front of them.
-
-**TORREN:** First ten feet look solid.
+**TORREN:** Floor holds.
 
 Cyanis looks at him.
 
-**TORREN:** After that, ask me again.
+**CYANIS:** Best thing I've heard all day.
 
-Cyanis smiles despite himself.
+**TORREN:** Don't celebrate yet.
 
-**CYANIS:** I was worried you'd stopped doing that.
+Cyanis's smile disappears when he looks into the chamber.
 
-**TORREN:** Didn't say I liked surprises.
+A faint green-gold reflection sits somewhere deeper inside.
 
-Maevra looks into the chamber.
+Not a flare from the Card.
 
-**MAEVRA:** Then let's stop standing in front of one.
+Just the ruin catching lamplight.
+
+Maevra draws her weapon but stays behind the combat line.
+
+Ilyra settles her Wardrod in hand.
+
+Cyanis raises his shield.
+
+Torren nocks an arrow.
+
+Nobody offers a theory.
+
+**CYANIS:** Ready?
+
+**ILYRA:** Yes.
+
+Torren nods.
+
+Maevra looks into the dark.
+
+**MAEVRA:** Go.
 
 ---
 
@@ -417,18 +406,17 @@ Maevra looks into the chamber.
 
 Current objective:
 
-**Enter the lower junction and determine what the older structure was used for.**
+**Enter the lower junction.**
 
 Story state:
-- The Black Host excavation is confirmed as sustained, organized work carried out over roughly a week.
-- The Host deliberately tested, scrubbed, exposed, and forced selected older surfaces rather than merely clearing a natural cave.
-- The environment has transitioned from later Yahtrean fort construction into predominantly older Diysean architecture.
-- Later Yahtrean controls/construction are visibly integrated with parts of the older structure, but nobody knows the original function.
-- Active Diysean Sentries establish that the deeper ruin is not inert.
-- The party still does not know what the Black Host expects to find.
-- Torren has learned only what the party has physically observed in this operation; he has no prior ruin knowledge.
-- No map rubbing, mural, six-channel human-use clue, Wayfinder significance, Prime explanation, bearer confirmation, or ancient-network explanation has occurred.
-- The Card remains sealed and inert.
+- the Black Host excavation is sustained, organized work carried out over roughly a week;
+- the Host deliberately stripped, scrubbed, tested, and forced older surfaces rather than merely clearing a natural cave;
+- the environment has transitioned from later Yahtrean fort construction into predominantly older Diysean architecture;
+- later Yahtrean hardware is visibly grafted onto parts of the older structure without explaining the older system;
+- active Diysean Sentries establish that the deeper ruin is not inert;
+- the party reaches the lower junction without the characters repeatedly certifying what they do or do not know;
+- no map rubbing, mural, six-channel human-use clue, Wayfinder significance, Prime explanation, bearer confirmation, or ancient-network explanation has occurred;
+- Cyanis carries the intact Card directly and it remains inert.
 
 Traveling group:
 **Cyanis Dovaren + Ilyra Amarin + Maevra Solmar + Torren Harth**
@@ -439,27 +427,16 @@ Combat party:
 Torren remains a temporary combat ally.
 
 Next mandatory story beat:
-**Lower Junction / Six Channels.**
+**Beat 7 — Lower Junction / Six Channels.**
 
 ---
 
-## Canon / Dialogue Engine self-check
+## Rehearsal-first editor / canon check
 
-**PASS — story function**
-- sustained organized excavation is visible throughout the area;
-- the scene transitions from Yahtrean construction into older Diysean material language;
-- the Host has deliberately exposed and forced ancient surfaces;
-- active Diysean Sentries establish that the ruin is not inert;
-- the party reaches the lower junction without resolving the ruin's purpose or the Host's objective.
+**Human-layer result:** visible evidence is allowed to generate reactions without every inference being formally bounded aloud. Torren is useful where his actual skills apply — structural wear, footing, tools — but does not narrate his own expertise limits. Maevra reacts and commands rather than policing conclusions. Ilyra contributes when medical or physical evidence gives her a reason to speak. Cyanis keeps momentum without turning every discovery into a question-and-answer sequence.
 
-**PASS — walking-dialogue lock**
-Nobody knows the lower route well enough to qualify as an active guide. All ordinary movement uses gameplay/silence. Dialogue occurs only at secured stops and the lower-junction threshold.
+**Story result:** sustained excavation, ancient transition, first active defenses, and arrival at the lower junction all remain intact.
 
-**PASS — Torren knowledge boundary**
-Torren reads only visible construction, damage, footing, tools, and route condition after seeing them. He explicitly labels inference as inference and never claims prior knowledge of the ruin.
+**Knowledge result:** nobody identifies the ruin's original purpose or the Host's ultimate target. The later six-channel and mural payoffs remain untouched.
 
-**PASS — reveal firewall**
-No map rubbing, mural, six-channel human-use clue, Wayfinder significance, Prime/Last Sentinel/bearer explanation, ancient-network explanation, or Card-triggered ancient response appears. The Sentries activate as general deeper-ruin defenses, not because of the Card.
-
-**PASS — economical HD-2D staging**
-The beat reuses excavation props, timber braces, lamps, stone-material transitions, a damaged lever/control prop, green-gold surface accents, Black Host combat staging, and reusable Sentry rigs. Dialogue is concentrated in secured cells rather than bespoke cinematics.
+**Walking-dialogue result:** none. Nobody knows this lower route well enough to qualify as an active guide.
