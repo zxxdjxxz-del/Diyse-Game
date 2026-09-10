@@ -134,7 +134,7 @@ The player gets the visual without a speech explaining it.
 
 Ilyra catches Cyanis's physical reaction almost immediately.
 
-**ILYRA:** Cyanis.
+**ILYRA:** Dovaren.
 
 **CYANIS:** I'm fine.
 
