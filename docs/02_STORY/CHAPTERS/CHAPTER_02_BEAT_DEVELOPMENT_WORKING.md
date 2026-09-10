@@ -7,9 +7,7 @@
 
 ## Purpose
 
-This file is the single cumulative workspace for developing Chapter 2 beat-by-beat before dialogue generation. It should be updated as each beat is refined so story-development decisions do not remain only in chat.
-
-`CHAPTER_02.md` remains the locked story authority. This file expands the locked 18-beat structure into scene-sized production inputs. Once a beat is accepted, its current details should remain here until synchronized into the chapter authority and/or dialogue production specs.
+This is the single cumulative workspace for developing Chapter 2 beat-by-beat before dialogue generation. `CHAPTER_02.md` remains the locked story authority. This file expands the locked structure into scene-sized production inputs and should be updated as each beat is refined.
 
 ## Locked Chapter-2 production method
 
@@ -52,89 +50,53 @@ Retired from the current structure: poisoned-water opening, separate transfer-re
 
 Open Chapter 2 as a continuation rather than another departure scene. The player has already chosen to leave the Chapter-1 Wayfinder camp. After confirming **Start Chapter 2**, the transition is complete and the party begins on the path immediately outside Dunmere.
 
-This beat should:
-- re-establish the four-person traveling group;
-- give the player a short amount of movement after the chapter transition;
-- let the Cyanis–Ilyra–Torren permanent-party dynamic breathe naturally;
-- preserve Maevra's physical presence as a noncombat traveling companion;
-- keep the Wayfinder discovery present in continuity without turning the opening into another Ancient-lore scene.
+The beat re-establishes Cyanis, Ilyra, Torren, and noncombat Maevra as the traveling group, gives the player a short amount of movement after the chapter transition, and lets the new trio dynamic breathe without forcing another lore recap.
 
 ## Starting state
 
 - Chapter-1 cleanup has ended.
-- The player chose **Continue toward Dunmere** and then confirmed **Start Chapter 2**.
+- The player chose **Continue toward Dunmere** and confirmed **Start Chapter 2**.
 - Chapter 2 opens on the road immediately outside Dunmere.
-- Cyanis is the normal visible controllable field character during ordinary traversal.
-- Permanent combat party: **Cyanis + Ilyra + Torren**.
+- Visible traversal character: Cyanis under the normal field-presentation rule.
+- Combat party: **Cyanis + Ilyra + Torren**.
 - **Maevra travels with them but remains fully noncombat.**
-- Torren is now unquestionably a permanent member of the traveling group, not a temporary Hollow Watch guide.
-- The party still carries physical copies made from Wayfinder.
-- They know their modern route overlaps an older Diysean alignment.
-- They do not know the purpose or full extent of the ancient route network.
+- Torren is now a permanent member, not a temporary Hollow Watch guide.
+- The party carries physical Wayfinder copies.
+- They know their modern route overlaps an older Diysean alignment but not its purpose or full extent.
 - Their larger planned destination remains **Caelora**.
-- They do not yet know about Dunmere's kidnapping problem.
+- They do not know about Dunmere's kidnapping problem.
 
 ## Playable structure
 
-- This should be a short real traversal section rather than an immediate cutscene.
-- Dunmere should be near enough to become visible or identifiable during the approach without making the party appear to teleport directly to the gate.
-- Because Torren is genuinely guiding the route, limited walking dialogue is legal under the existing walking-dialogue rule.
+- Short real traversal, not an immediate cutscene.
+- Dunmere is near enough to become visible/identifiable during the approach without making the party appear to teleport to the gate.
+- Limited walking dialogue is legal because Torren is genuinely guiding the route.
 - Do not turn the approach into a lore dump or mandatory recap.
 
-## Agent-Brain rehearsal allowance
+## Agent-Brain allowance
 
-The Director may provide the agents with the following immediate context:
-- they have been traveling since leaving the Wayfinder camp;
-- Dunmere is close;
-- Torren knows the route;
-- Maevra knows the larger Caelora objective;
-- Cyanis still carries the strange Card;
-- the Wayfinder discovery happened recently;
-- the group now has more lived familiarity with one another than at the start of Chapter 1.
-
-None of these topics must be spoken aloud. The rehearsal may naturally produce conversation about the road, distance, food, fatigue, Torren's guidance, Maevra's arm, the previous night, or something equally ordinary. Silence is also valid.
+The Director may provide immediate context such as the recent Wayfinder camp, Dunmere being close, Torren knowing the route, Maevra's injured arm/current state, the strange Card still being with Cyanis, and the group's growing familiarity. None of those subjects must be spoken aloud. Ordinary road conversation or silence is valid.
 
 ## Mandatory events
 
-- the player traverses the final approach to Dunmere;
-- Torren continues to function naturally as guide;
-- Maevra remains physically part of the traveling group;
+- player traverses the final approach;
+- Torren continues naturally as guide;
+- Maevra remains physically present;
 - Dunmere is established as inhabited and functioning;
-- the party enters town;
-- no new major Ancient revelation occurs;
-- no Black Host attack occurs;
-- the kidnapping problem is not explained before entering town.
+- party enters town;
+- no major Ancient revelation, Black Host attack, or kidnapping explanation occurs before entry.
 
-## Tone / pacing rule
+## End state / handoff
 
-Do not force Beat 1 to justify itself with plot exposition. Its function is partly pacing: Chapter 2 starts, the player regains control, and these people travel together briefly before Dunmere introduces the chapter's immediate problem.
-
-## End state
-
-The party reaches **Dunmere** with the original journey plan still intact:
+The original plan remains:
 
 > **stop in Dunmere → continue ultimately toward Caelora**
-
-They do not yet know Chapter 2 will become a Bastion rescue operation.
-
-## Gameplay handoff
 
 → **Beat 2 — Dunmere Arrival / Missing Travelers**
 
 ## Reveal firewall
 
-Do not reveal in Beat 1:
-- the kidnappings;
-- Red Transfer Bastion as the immediate target;
-- the waterworks route;
-- the Sunken Archive;
-- the western map mural;
-- the Prisoner Galleries;
-- Rhazek's involvement;
-- masked Seyrik;
-- any new explanation of the Card;
-- Last Sentinel;
-- the full Diysean route system.
+No kidnappings, Bastion objective, waterworks route, Sunken Archive, western map, Prisoner Galleries, Rhazek, masked Seyrik, new Card explanation, Last Sentinel, or complete Diysean route-system answer.
 
 ---
 
@@ -144,98 +106,57 @@ Do not reveal in Beat 1:
 
 ## Purpose
 
-Establish Dunmere as a real functioning settlement first, then introduce the human problem that redirects the party's immediate priorities.
-
-The beat should:
-- let the player enter and briefly experience Dunmere as a normal town rather than a crisis set;
-- show that road travel has become strained without having every NPC repeat the same exposition;
-- establish that people leaving Dunmere toward Caelora have been disappearing;
-- establish that the disappearances are understood locally as Black Host kidnappings rather than ordinary wilderness losses;
-- identify the occupied **Red Transfer Bastion** as the position making the direct Greenhollow–Dunmere road unsafe;
-- stop short of solving the tactical problem or revealing the waterworks route.
+Establish Dunmere as a functioning settlement first, then reveal the human problem that redirects the party's immediate priorities.
 
 ## Starting state
 
-- Cyanis, Ilyra, Torren, and Maevra have just arrived from Beat 1.
-- Their original plan remains: stop in Dunmere, then continue toward Caelora.
-- Combat party: **Cyanis + Ilyra + Torren**.
-- Maevra remains physically present and noncombat.
-- The group knows nothing yet about the kidnapping operation beyond whatever ordinary regional knowledge Torren or Maevra could plausibly possess.
-- The Wayfinder copies remain with the group but are not the purpose of this scene.
+- Party has just entered from Beat 1.
+- Original plan remains stop in Dunmere, then continue toward Caelora.
+- Combat party: Cyanis + Ilyra + Torren.
+- Maevra remains present and noncombat.
+- Wayfinder copies remain with the group but are not the purpose of the scene.
 
 ## Playable structure
 
-- Do not lock the player into a long mandatory conversation the instant the town threshold is crossed.
-- Give the player a short amount of normal Dunmere movement/exploration before the required story progression.
-- Dunmere should visibly function: shops/businesses, residents, travelers, ordinary town activity, and local routines continue.
-- Road pressure should be communicated economically through one or two strong indicators rather than repeated ambient scenes.
-- Possible indicators include thinner outbound traffic, delayed caravans, travelers waiting to leave in groups, or one ordinary warning about not taking a road alone. These are examples, not mandatory micro-staging.
+- Do not lock the player into a long conversation immediately at the town threshold.
+- Give a short amount of normal town movement/exploration first.
+- Dunmere visibly functions: businesses, residents, travelers, routines.
+- Road pressure is shown economically through one or two strong indicators such as thinner outbound traffic, delayed caravans, people waiting to travel in groups, or a warning not to take a road alone. These are examples, not mandatory staging.
 
 ## Information progression
 
-The beat should move through three levels of understanding rather than dumping the entire situation at once:
-
-1. **Something is wrong with travel.**
-2. **People have actually been disappearing.**
-3. **Local evidence/knowledge points to the Black Host taking them, and the Red Transfer Bastion is controlling the Greenhollow corridor.**
-
-The exact person or exchange that supplies each piece may be chosen later by the Dialogue Director/Agent Brain rehearsal, provided the knowledge provenance is plausible.
+1. Something is wrong with travel.
+2. People have actually been disappearing.
+3. Credible local knowledge points to the **Black Host taking travelers**, and the Red Transfer Bastion is controlling the Greenhollow corridor.
 
 ## Mandatory discoveries
 
-- Dunmere is inhabited, functioning, and not poisoned or under direct siege.
-- Travel out of town has become materially more dangerous.
-- People leaving Dunmere toward **Caelora** have gone missing.
-- The disappearances are repeated/recent enough to change local travel behavior.
-- There is credible local reason to believe the **Black Host is taking travelers** rather than people simply getting lost or killed by wilderness threats.
-- The direct **Greenhollow–Dunmere road** is unsafe because the Black Host occupies the **Red Transfer Bastion**.
-- The Bastion is understood as a major reason normal movement through that corridor has broken down.
-- The party recognizes that simply continuing toward Caelora would leave an immediate active threat to travelers unresolved.
+- Dunmere is functioning and not poisoned or under direct siege.
+- People leaving toward **Caelora** have gone missing.
+- Disappearances are repeated/recent enough to change local behavior.
+- Locals have credible reason to believe the Black Host is taking people.
+- Direct **Greenhollow–Dunmere** travel is unsafe because the Black Host occupies the **Red Transfer Bastion**.
+- Party recognizes it cannot simply continue toward Caelora while leaving the immediate threat unresolved.
 
-## Character / Agent-Brain guidance
+## Agent-Brain rule
 
-Do not pre-script each character's moral function into dialogue.
+Do not assign moral speeches. Cyanis need not make a heroic declaration; Ilyra need not announce that victims matter; Torren need not narrate route expertise; Maevra need not instantly turn the town into a command briefing. Give the agents the facts and let their brains produce the response.
 
-The Director should provide each Person Agent with the newly learned facts and allow their established brains to determine the reaction.
-
-In particular:
-- Cyanis does not require a formal heroic declaration;
-- Ilyra does not need to announce that victims matter to her;
-- Torren does not need to narrate his route expertise;
-- Maevra does not need to immediately turn the town arrival into a command briefing.
-
-Their established history, values, knowledge, relationships, and current state should produce the interaction naturally.
-
-## Beat boundary rule
+## Beat boundary
 
 > **Beat 2 establishes what is wrong. Beat 3 establishes what the party can do about it.**
 
-Therefore Beat 2 must not reveal the covert waterworks entrance or complete tactical plan for infiltrating the Bastion.
+## End state / handoff
 
-## End state
-
-- the party knows travelers are being kidnapped;
-- the party knows the Red Transfer Bastion is central to the road threat;
-- the party is no longer simply passing through Dunmere on the way to Caelora;
-- they need fuller local information before deciding how to act against the Bastion.
-
-## Gameplay handoff
+- kidnappings established;
+- Red Transfer Bastion established as central road threat;
+- party needs fuller local information before acting.
 
 → **Beat 3 — Dunmere Elder / Hidden Approach**
 
 ## Reveal firewall
 
-Do not reveal in Beat 2:
-- the hidden waterworks route;
-- the Sunken Archive;
-- the western map mural;
-- the Archive Leviathan;
-- the secret passage into the Prisoner Galleries;
-- the exact captive situation inside the Bastion;
-- Rhazek's command role;
-- masked Seyrik;
-- later Chapter-3 ancient answers;
-- any new Card/Prime/Last Sentinel explanation.
+No hidden waterworks route, Sunken Archive, western map, Archive Leviathan, secret passage, prisoner specifics, Rhazek command role, masked Seyrik, Chapter-3 answers, or new Card/Prime/Last Sentinel explanation.
 
 ---
 
@@ -245,125 +166,85 @@ Do not reveal in Beat 2:
 
 ## Purpose
 
-Turn the problem established in Beat 2 into an actionable plan using local knowledge the party could not reasonably possess on its own.
-
-This beat should:
-- give the party a clearer picture of why the Red Transfer Bastion cannot simply be approached from the road;
-- preserve the Bastion as a credible military position rather than a conveniently undefended dungeon entrance;
-- introduce the old waterworks route as a practical covert approach;
-- let Torren and Maevra evaluate the plan from route and military perspectives without turning the scene into an exposition contest;
-- send the player into the waterworks with a clear immediate objective.
+Turn the problem into an actionable plan using local knowledge the party could not reasonably possess on its own.
 
 ## Starting state
 
-- Dunmere is functioning but increasingly isolated by dangerous roads.
-- The party knows people leaving toward Caelora are being kidnapped by the Black Host.
-- The party knows the Black Host occupies the Red Transfer Bastion and that this position compromises the direct Greenhollow–Dunmere road.
-- The party does **not** yet know of a safe/covert way into the Bastion.
-- Their larger journey toward Caelora remains pending.
-- Combat party: **Cyanis + Ilyra + Torren**.
-- Maevra remains present but noncombat.
+- Party knows travelers are being kidnapped.
+- Party knows the Bastion compromises the Greenhollow–Dunmere road.
+- No safe/covert route into the Bastion is yet known.
+- Larger Caelora journey remains pending.
+- Combat party: Cyanis + Ilyra + Torren; Maevra noncombat.
 
-## Scene / playable shape
+## Scene shape
 
-This should be a proper authored stop rather than another walking conversation.
+A proper authored stop with the **Dunmere town elder**, in an ordinary appropriate Dunmere civic/residential location rather than a bespoke command chamber.
 
-The party is directed to or chooses to speak with the **Dunmere town elder**, who has the local institutional/history knowledge needed to move the chapter forward.
-
-The elder should not exist merely as a quest dispenser. They are someone dealing with a town whose road access is deteriorating and who understands the practical consequences of the Bastion occupation.
-
-The scene can occur in an appropriate ordinary Dunmere civic/residential location already supported by eventual town-map design; do not invent an elaborate bespoke command chamber solely for this conversation.
+The elder is not merely a quest dispenser. They are dealing with the consequences of deteriorating road access and hold local route/infrastructure knowledge.
 
 ## What the elder knows
 
-The elder may plausibly know:
-- the Red Transfer Bastion's local reputation/function as an old fort controlling the road corridor;
-- which approaches are watched or exposed;
-- that direct movement against it would be dangerous;
-- old local infrastructure associated with Dunmere's waterworks;
-- that a little-used maintenance/service route once ran toward/under the Bastion's lower structure.
+May know:
+- the Bastion's road-control role;
+- exposed/watched approaches;
+- local waterworks infrastructure;
+- a little-used maintenance/service route that once ran toward/under the Bastion's lower structure.
 
-The elder does **not** know:
-- the Sunken Archive exists as a Diysean archive complex;
-- the western-map revelation;
-- the Archive Leviathan;
-- that the old route eventually opens into the Prisoner Galleries;
-- the complete layout or current Black Host use of the lower Bastion;
+Does not know:
+- Sunken Archive identity/function;
+- western map;
+- Archive Leviathan;
+- secret passage to the Prisoner Galleries;
+- full lower-Bastion layout;
 - Rhazek's exact command-room situation;
 - Seyrik's identity/presence.
 
-## Tactical problem
+## Tactical rule
 
-A normal approach to the Red Transfer Bastion should be rejected for grounded reasons.
+A frontal approach is credibly worse because of exposed approaches, observation, prepared defenses, insufficient numbers, and/or risk to captives. Final dialogue need not enumerate every reason.
 
-Possible reasons may include:
-- exposed road approaches;
-- Black Host observation/control of the corridor;
-- prepared defenses;
-- insufficient numbers for a frontal attack;
-- risk that an obvious assault would endanger captives or cause them to be moved.
+## Hidden approach
 
-The final Agent Brain dialogue does not need to state every reason. The important outcome is that a frontal assault is credibly worse than the covert route.
+The elder reveals an old, little-used **waterworks service route** toward the Bastion's lower structure.
 
-## Hidden approach reveal
+It is:
+- old local infrastructure, not a newly discovered magic tunnel;
+- not introduced as Diysean ruins;
+- not known to lead to prisoners;
+- unrelated to poisoned water;
+- plausible for a small covert team.
 
-The elder explains that an old, little-used **waterworks service route** runs toward the Bastion's lower structure.
+Torren can judge route plausibility. Maevra can assess tactical value. Neither gets advance knowledge of what lies beyond the elder's information.
 
-Locked boundaries:
-- this is an old local route, not a secret tunnel the elder personally discovered yesterday;
-- it is not introduced as a Diysean ruin entrance;
-- it is not known to lead directly to prisoners;
-- it is not part of a poisoned-water problem;
-- it is a plausible route by which a small group might bypass the watched road approaches.
+## Agent-Brain packet
 
-Torren can assess its physical route plausibility. Maevra can assess the tactical value of entering below the main defended approach. Neither should somehow know what lies beyond the elder's knowledge.
+- Cyanis: abducted travelers; frontal assault risks failure/captives; covert route may exist.
+- Ilyra: living captives may be inside; operation must eventually solve extraction, not only entry.
+- Torren: elder's route description/landmarks.
+- Maevra: same operational picture from a commander perspective while injured/noncombat.
+- Elder: wants road safety restored and disappearances stopped; knowledge remains local.
 
-## Agent-Brain rehearsal packet
+Selective participation is preferred over everyone speaking equally.
 
-Each participating agent should receive the immediate situation rather than a desired speech assignment:
+## Mandatory decisions
 
-- **Cyanis:** travelers are being abducted; frontal entry risks failure and potentially the captives; a covert lower route may exist.
-- **Ilyra:** living captives may be inside or moved through the Bastion; their condition and location remain unknown; any operation needs to account for getting people out, not just getting the party in.
-- **Torren:** receives the elder's route description/landmarks and may judge whether the waterworks approach sounds traversable.
-- **Maevra:** receives the same operational picture and may weigh the route as a commander while remaining noncombat because of her injury/current role.
-- **Town elder:** wants the disappearances stopped and road safety restored but has only local knowledge, not omniscient dungeon information.
+- elder confirms enough context to reject direct attack;
+- waterworks route is revealed;
+- party evaluates it;
+- route is judged plausible;
+- party commits to investigate/use it.
 
-Do not require all five to speak equally. Selective participation is preferred if the rehearsal naturally produces it.
+## End state / handoff
 
-## Mandatory events / decisions
+Immediate objective:
 
-- the party speaks with the Dunmere elder;
-- the elder confirms enough local road/Bastion context to make direct assault unattractive;
-- the elder reveals the old waterworks service route toward the Bastion's lower structure;
-- the party evaluates the route rather than accepting it blindly;
-- the route is judged plausible for a small covert infiltration;
-- the group agrees to investigate/use it;
-- the immediate objective becomes reaching the Bastion through the waterworks and finding the kidnapped travelers / source of the operation.
-
-## End state
-
-- the party has an actionable infiltration route;
-- they know only that the waterworks may connect into the Bastion's lower structure;
-- they do not know what ancient complex or prisoner infrastructure lies beyond it;
-- the direct-road approach is intentionally bypassed;
-- the party prepares to enter the old waterworks.
-
-## Gameplay handoff
+> **enter old waterworks → find a way into the Bastion → locate the kidnapped travelers**
 
 → **Beat 4 — Old Waterworks**
 
 ## Reveal firewall
 
-Do not reveal in Beat 3:
-- the Sunken Archive by name or function;
-- the complete western-half Diysean map;
-- the Archive Leviathan;
-- the old secret passage into the Prisoner Galleries;
-- exact prisoner locations/counts;
-- Rhazek's detailed command role or philosophy;
-- Seyrik's presence/identity;
-- Last Sentinel;
-- the complete ancient route-network explanation.
+No Sunken Archive name/function, western map, Leviathan, secret prisoner passage, exact captive information, Rhazek philosophy, Seyrik, Last Sentinel, or complete ancient network.
 
 ---
 
@@ -373,134 +254,60 @@ Do not reveal in Beat 3:
 
 ## Purpose
 
-Use the old waterworks as the party's first real Chapter-2 infiltration/exploration area and carry them from ordinary Dunmere infrastructure into the threshold of something unmistakably older.
-
-This beat should:
-- make the elder's route useful and credible;
-- let the party advance covertly beneath/around the watched Bastion approaches;
-- give the player a substantial environmental transition rather than teleporting from Dunmere into an Ancient ruin;
-- preserve the waterworks as functioning or formerly functioning civic infrastructure rather than resurrecting the poisoned-water plot;
-- end on the discovery that the lower route intersects a much older construction whose scale and character do not belong to the waterworks.
+Use the old waterworks as the first real Chapter-2 infiltration/exploration area, carrying the party from recognizable Dunmere infrastructure into the threshold of something unmistakably older.
 
 ## Starting state
 
-- the party has committed to infiltrating the Red Transfer Bastion through the old waterworks service route;
-- the elder has provided enough local directions/landmarks to locate the access and understand the intended service-route connection;
-- the party does not know about the Sunken Archive, western map mural, Leviathan, or Prisoner Galleries;
-- combat party: **Cyanis + Ilyra + Torren**;
-- Maevra remains with the traveling group but is fully noncombat;
-- the Black Host is not aware that the party has entered this covert route.
+- Party has committed to the waterworks route.
+- Elder supplied enough directions to find/use the old service access.
+- Party does not know about the Archive, mural, Leviathan, or Prisoner Galleries.
+- Combat party: Cyanis + Ilyra + Torren; Maevra remains present/noncombat.
+- Black Host is unaware of the covert entry.
 
 ## Playable-area role
 
-Beat 4 should be real exploration, not one corridor and a cutscene.
+Real exploration rather than one corridor. Later map design may support maintenance passages, elevation/water-level changes, control points, drains, side spaces, ordinary rewards, random encounters, and environmental hazards. Exact room/puzzle/loot geometry remains for the map-design pass.
 
-The waterworks can support:
-- branching maintenance/service passages;
-- changes in elevation or water level where consistent with eventual map design;
-- old control points, gates, drains, or maintenance access;
-- optional side spaces/rewards appropriate to the area;
-- random encounters and environmental hazards under encounter/map authority.
-
-Do not over-author exact room count, puzzle count, treasure placement, or tile geometry here. Those belong to the later map-design pass.
-
-## Covert-route rule
+## Covert-route hard rule
 
 > **The waterworks remain genuinely covert.**
 
-Do not place a routine Black Host patrol network through the same forgotten/little-used service route the party is using to bypass the Bastion's watched approaches.
-
-If combat occurs in the waterworks, it should come from plausible local creatures, hazards, or other non-Black-Host threats supported by encounter authority. The party should not accidentally fight its way through a staffed enemy corridor before reaching the actual occupied Bastion infrastructure.
-
-This preserves the tactical value of the elder's information and lets the Black Host remain unaware of the infiltration until later.
-
-## Presentation / party-presence rule
-
-- During ordinary waterworks traversal, Cyanis remains the visible controllable field character under the existing field-presentation lock.
-- Ilyra, Torren, and Maevra are canonically traveling with him even when they are not rendered as a follower train.
-- Relevant companions may appear as field models when an authored stop/scene triggers.
-- Random encounters use **Cyanis + Ilyra + Torren** only; Maevra never enters battle.
+Do not place a routine Black Host patrol network through the forgotten/little-used route. If combat occurs, use plausible local creatures, hazards, or other non-Host threats supported by encounter authority.
 
 ## Infrastructure progression
 
-The environmental story should make one clear progression:
+1. **Recognizable Dunmere/Yahtrean waterworks**.
+2. **Older integrated foundations** reused by newer infrastructure.
+3. **Architectural break** into construction that no longer plausibly belongs to the waterworks.
 
-1. **Recognizable Dunmere/Yahtrean waterworks** — built and used for practical water management/service access.
-2. **Older integrated foundations** — portions of the civic infrastructure clearly reuse or attach to older stone/metal construction.
-3. **Architectural break** — the lower route reaches construction that no longer plausibly belongs to the waterworks at all.
+The environment should communicate most of this without constant explanatory dialogue.
 
-The shift should be readable without requiring characters to narrate every material change.
+## Agent-Brain opportunities
 
-The exact visual vocabulary belongs to the later area/tile/art pass, but the old construction should be recognizably related to the broad Diysean visual language already encountered at Hollow Watch and Wayfinder without revealing its specific function yet.
-
-## Character / Agent-Brain opportunities
-
-This beat should not require constant conversation. Exploration can carry most of it.
-
-When a triggered exchange is useful, the Director may give the agents:
-- the elder's route directions;
-- current physical route state;
-- whether the service passage still matches what the elder described;
-- visible evidence that newer infrastructure was built into something older;
-- growing uncertainty about whether the route still leads where expected.
-
-Natural character behavior may include:
-- Torren reading route construction and practical passage viability;
-- Maevra evaluating whether the infiltration is still tactically sound;
-- Ilyra noticing practical hazards or the consequences of taking injured captives back through such a route, if that thought arises naturally;
-- Cyanis keeping the group moving and questioning assumptions when the architecture stops matching expectations.
-
-Do not force every expertise domain into dialogue. The architecture itself should do most of the reveal work.
+Triggered exchanges may use the elder's directions, route state, visible older foundations, and uncertainty about whether the route still goes where expected. Torren may read passage viability; Maevra may reassess tactical soundness; Ilyra may consider whether the route could ever move injured captives; Cyanis may question assumptions and keep momentum. None are mandatory speech assignments.
 
 ## Ancient-transition boundary
 
-Beat 4 does **not** deliver the Chapter-2 Ancient lore payoff.
-
-The party may recognize that the lower construction resembles or belongs to the same broad ancient/Diysean tradition encountered earlier, but they do not yet know:
-- that the larger space is a Sunken Archive;
-- what it preserved;
-- that a western-half map exists there;
-- how far the old network extends;
-- what lies beyond the Archive.
-
-The purpose of Beat 4 is discovery of the threshold, not interpretation of the entire site.
+The party may recognize broad Diysean visual kinship with Hollow Watch/Wayfinder, but does not yet know this is the Sunken Archive or what it contained.
 
 ## Mandatory progression
 
-- the party locates and enters the elder's waterworks access;
-- the service route proves real and usable;
-- the party advances without using the exposed Bastion road approach;
-- the route initially matches ordinary/local infrastructure closely enough to validate the elder's knowledge;
-- deeper traversal reveals that Dunmere/Yahtrean construction was built onto or through older architecture;
-- the party reaches a point where the older construction becomes dominant and clearly exceeds the expected scale/function of the waterworks;
-- a viable opening/access into that older structure is discovered;
-- entering that structure becomes the only sensible continuation of the infiltration route.
+- waterworks access found and entered;
+- service route proves usable;
+- exposed Bastion road avoided;
+- newer infrastructure gives way to older foundations;
+- older structure eventually dominates in scale/function;
+- viable access into that structure is discovered.
 
-## End state / knowledge change
+## End state / handoff
 
-- the covert infiltration remains intact;
-- the party has not yet alerted the Bastion command structure;
-- the waterworks have led them into an unexpected ancient layer;
-- they know the structure is much older than Dunmere's waterworks and likely related to previously encountered Diysean construction;
-- they do not yet know its specific identity or contents;
-- the next step is to enter and investigate the larger ancient complex while continuing to seek a way into the Bastion.
-
-## Gameplay handoff
+The covert infiltration remains intact. The party has unexpectedly reached an ancient layer likely related to earlier Diysean construction but does not yet know its function.
 
 → **Beat 5 — Sunken Archive Entrance**
 
 ## Reveal firewall
 
-Do not reveal in Beat 4:
-- the western-half map mural;
-- the map's full information;
-- the Archive Leviathan;
-- the secret passage into the Prisoner Galleries;
-- prisoner locations/counts;
-- Rhazek's command role;
-- masked Seyrik;
-- Last Sentinel;
-- the full purpose/extent of the ancient route network.
+No western map, Leviathan, secret prisoner passage, prisoner details, Rhazek, masked Seyrik, Last Sentinel, or complete ancient system.
 
 ---
 
@@ -510,151 +317,67 @@ Do not reveal in Beat 4:
 
 ## Purpose
 
-Establish the ancient complex as a substantial place with its own function, scale, and exploration identity before Chapter 2 delivers the western-map revelation.
-
-Beat 5 should:
-- make the transition from the Old Waterworks into the ancient structure feel meaningful rather than cosmetic;
-- establish that the party has entered a purpose-built Diysean complex, not simply older foundations;
-- communicate an archival/preservation function through the environment without requiring an omniscient lore explanation;
-- preserve the covert-infiltration objective: the party is still looking for a way into the Red Transfer Bastion and for the kidnapped travelers;
-- give the player time to understand the new place before the major cartographic discovery in Beat 6.
+Establish the ancient complex as a substantial place with its own function, scale, and exploration identity before the western-map reveal.
 
 ## Starting state
 
-- the party has followed the Dunmere waterworks route into construction that no longer belongs to the municipal system;
-- the elder's practical route knowledge has effectively run out at this threshold;
-- the party believes the older structure is related to the broad Diysean architectural tradition encountered at Hollow Watch and Wayfinder;
-- they do not yet know where within the larger structure a connection to the Bastion may exist;
-- they do not know about the western map mural, Archive Leviathan, secret passage, or Prisoner Galleries;
-- combat party: **Cyanis + Ilyra + Torren**;
-- Maevra remains physically with the group and fully noncombat;
-- the Black Host still has no reason to know the party entered through this route.
+- Party has crossed from the waterworks into older construction.
+- Elder's practical route knowledge ends here.
+- Structure appears related to the broad Diysean tradition seen at Hollow Watch/Wayfinder.
+- Bastion connection remains unknown.
+- Combat party: Cyanis + Ilyra + Torren; Maevra present/noncombat.
+- Covert infiltration remains intact.
 
 ## Location-name / knowledge rule
 
-**Sunken Archive** is the current production/gameplay location name.
+**Sunken Archive** is the production/gameplay location name. Characters do not automatically know its ancient formal name.
 
-That does **not** mean the characters automatically know the ancient site's proper historical name.
-
-The place may become recognizable as archive-like through its physical organization, preservation systems, storage architecture, cataloging structures, map/display spaces, sealed repositories, or equivalent environmental evidence. The party may reasonably infer that records or stored information were kept here.
-
-Do not make anyone read an untranslated ancient label, announce a formal ancient facility name, or possess specialist archaeological knowledge unless separately supported by current character/world authority.
+They may infer an archival/preservation function from organization, storage architecture, preservation systems, map/display spaces, sealed repositories, cataloging structures, or equivalent environmental evidence. Do not make anyone translate unsupported ancient labels or suddenly possess archaeological certainty.
 
 ## Area identity
 
-The Sunken Archive should immediately feel larger and more deliberate than the waterworks that intersected it.
+Story-level qualities:
+- major ancient scale;
+- evidence of preservation/storage of information or important material;
+- meaningful water intrusion without requiring every room to be submerged;
+- recognizable visual continuity with prior Diysean structures but a distinct function;
+- clearly older than Dunmere's waterworks and Red Transfer Bastion.
 
-Its defining qualities should include, at the level of story requirement rather than final map layout:
-- **scale:** chambers/passages clearly designed as part of a major ancient complex;
-- **preservation:** evidence that information, objects, records, maps, or other stored material were meant to survive;
-- **water intrusion:** portions of the complex are submerged, flooded, water-damaged, or otherwise shaped by the later environment, supporting the `Sunken` identity without making every room underwater;
-- **continuity:** visual/structural language connects broadly to Hollow Watch and Wayfinder while revealing a different function;
-- **age:** the site predates Dunmere's modern waterworks and the Red Transfer Bastion built above/near it.
-
-Exact architecture, tile set, room layout, water depth, interactables, and visual motifs belong to the later area-design pass.
+Exact architecture/tile language belongs later.
 
 ## Playable structure
 
-Beat 5 should contain enough traversal to establish the Archive before the map mural appears.
+Enough traversal to learn the Archive's exploration grammar before the mural: dry/flooded paths, inaccessible/intact spaces, ancient partitions, side chambers, hazards, local creatures, or old defenses as later design permits. Do not make this a second full dungeon before Beat 6.
 
-The player should move from the entry threshold into the complex and learn its basic exploration grammar. This may include:
-- flooded versus dry routes;
-- intact versus inaccessible archive spaces;
-- ancient doors/partitions or preservation barriers;
-- optional side chambers or recoverable ordinary loot as later map/item authority permits;
-- environmental hazards, local creatures, or ancient defenses under live encounter authority.
+## Occupation boundary
 
-Do not turn this beat into a second full dungeon before Beat 6. Its job is **orientation and identity**.
-
-## Enemy / occupation boundary
-
-The Sunken Archive is **not** an active Black Host facility in this section.
-
-Do not add routine Black Host camps, patrols, supply stores, or recent occupation markers simply to create combat. The old waterworks/Archive route remains the party's covert path around the occupied Bastion.
-
-Random encounters or authored pressure may come from the Archive's ecology, hazards, or ancient defensive systems where supported by encounter authority.
-
-The first unmistakable Black Host-controlled prisoner infrastructure belongs later, when the secret passage reaches the Prisoner Galleries.
+This section is **not** an active Black Host facility. No routine Host camps, patrols, or supply stores. Host prisoner infrastructure first becomes unmistakable later at the Prisoner Galleries.
 
 ## Information pacing
 
-Beat 5 establishes **what kind of place this appears to be**, not the chapter's major map information.
+Beat 5 establishes what kind of place this appears to be. It does not yet deliver the western-map information.
 
-The party may conclude or suspect that:
-- the structure was built to preserve/store information or important material;
-- the waterworks were later attached to or cut through part of it;
-- the complex extends much farther than the elder could have known;
-- there may be additional routes through it toward the Bastion.
+## Agent-Brain packet
 
-They should **not yet discover or discuss the full western map**.
-
-The actual cartographic payoff is Beat 6 and needs room to land as a distinct discovery.
-
-## Agent-Brain rehearsal packet
-
-Dialogue should be sparse and triggered by actual discoveries rather than running continuously through the Archive.
-
-The Director may provide the agents with:
-- the visible change in scale/function from the waterworks;
-- the party's prior experience at Hollow Watch and Wayfinder;
-- the fact that the elder's directions no longer describe the structure ahead;
-- the continuing tactical need to find a route into the Bastion;
-- visible archive/preservation features;
-- any immediate traversal hazard or choice actually supported by the map.
-
-Natural responses may include:
-- Torren comparing route geometry or recognizing that the complex extends beyond the waterworks alignment;
-- Maevra keeping the group oriented toward the infiltration objective rather than allowing the discovery to become an open-ended expedition;
-- Ilyra evaluating whether the route remains plausible for moving injured people, if relevant to what they physically encounter;
-- Cyanis reacting to the scale/implications while keeping practical momentum.
-
-None of these reactions are mandatory lines. Let the independent Person Agents decide who actually speaks and what matters to them in the moment.
-
-## Presentation rule
-
-Use the environment to sell the reveal.
-
-Do not compensate for limited exposition with excessive micro-staging, repeated inspections, characters touching every ancient device, or a series of bespoke camera moments. One strong transition into the Archive plus selective authored stops is preferable.
-
-During ordinary traversal, Cyanis remains the visible controllable field character. Other present characters may appear during authored stops under the established field-presentation rules.
+Agents may receive the scale/function shift, prior Hollow Watch/Wayfinder experience, loss of elder route guidance, current Bastion objective, visible archive features, and actual traversal hazards. Dialogue should be sparse and discovery-triggered.
 
 ## Mandatory progression
 
-- the party crosses from the Old Waterworks into the ancient complex;
-- the difference in scale/function becomes unmistakable;
-- environmental evidence supports an archive/preservation/storage interpretation without requiring certainty about the ancient site's formal name;
-- the site is recognizably related to earlier Diysean construction while representing a different kind of facility;
-- the party confirms that the structure extends farther toward/under the Bastion than the elder's known waterworks route;
-- exploration continues without alerting the Black Host;
-- the party reaches the next major archive section where the western cartographic discovery can occur.
+- party fully crosses into ancient complex;
+- scale/function difference becomes unmistakable;
+- environment supports an archive/preservation interpretation;
+- complex extends beyond what the elder knew;
+- party continues covertly toward the next major archive section.
 
-## End state / knowledge change
+## End state / handoff
 
-- the party is now fully inside the **Sunken Archive** as a gameplay location;
-- they understand that Dunmere's waterworks intersected a far older, substantial information/preservation complex;
-- they have not solved the purpose or extent of the broader Diysean system;
-- they still intend to find a route into the Red Transfer Bastion and locate the kidnapped travelers;
-- the western map has not yet been interpreted;
-- the covert infiltration remains intact.
-
-## Gameplay handoff
+Party is fully inside the **Sunken Archive** as a gameplay location; understands the waterworks intersected a far older information/preservation complex; still seeks the Bastion/prisoners.
 
 → **Beat 6 — Western Map Mural**
 
 ## Reveal firewall
 
-Do not reveal in Beat 5:
-- the western-half map's actual network information;
-- the huge ancient city at modern Caelora's location;
-- the complete route continuation beyond the western map;
-- the Archive Leviathan before its later setup/encounter window;
-- the secret passage into the Prisoner Galleries;
-- prisoner locations/counts;
-- Rhazek's role or philosophy;
-- Seyrik's presence/identity;
-- Last Sentinel;
-- Cresthaven;
-- the complete Diysean route/infrastructure explanation.
+No western-map information yet, huge Caelora-location city, full eastern continuation, Leviathan reveal before its setup window, secret prisoner passage, prisoner details, Rhazek, Seyrik, Last Sentinel, Cresthaven, or complete system explanation.
 
 ---
 
@@ -664,215 +387,264 @@ Do not reveal in Beat 5:
 
 ## Purpose
 
-Deliver Chapter 2's major Ancient cartographic payoff by giving the party the larger western context that the Wayfinder could not provide, while making it equally clear that even this discovery is only one half of a still-larger picture.
-
-Beat 6 should:
-- pay off the broken/incomplete information at Wayfinder without making the Archive mural itself damaged;
-- show that the routes encountered at Hollow Watch and Wayfinder belong to a broad western Diysean network;
-- establish a much larger ancient city at the location of modern Caelora;
-- reveal that the surviving western panel is complete as a map section but not complete as the total map;
-- preserve uncertainty about the eastern continuation, changed geography, route function, and the identity of the ancient city;
-- let the discovery matter without derailing the immediate rescue/infiltration objective.
+Deliver Chapter 2's major Ancient cartographic payoff by giving the party the larger western context the Wayfinder could not provide, while making clear this is still only one portion of a larger map.
 
 ## Starting state
 
-- the party is fully inside the Sunken Archive and has enough environmental context to treat the complex as a major ancient information/preservation site;
-- the covert route into the Bastion remains unresolved;
-- the Black Host still has no reason to know the party is inside the Archive;
-- the party carries physical copies made from the Wayfinder;
-- they know the Wayfinder showed that their modern Dunmere-bound route overlaps an older Diysean alignment;
-- they also know the Wayfinder itself had a broken/damaged edge that prevented them from seeing the larger continuation there;
-- they do not know the complete extent or purpose of the old network;
-- combat party: **Cyanis + Ilyra + Torren**;
-- Maevra remains present and fully noncombat.
+- Party is fully inside the Archive.
+- Covert route into Bastion remains unresolved.
+- Black Host still does not know they are here.
+- Party carries physical Wayfinder copies.
+- They know the Dunmere-bound route overlaps an older Diysean alignment.
+- They do not know the full network's extent/purpose.
 
 ## Map condition / scope — hard rule
 
 > **The western map mural is not a damaged map.**
 
-The mural/panel the party reaches is coherent and substantially intact enough to show its intended western-region information clearly.
+It is coherent and substantially intact. Its incompleteness is one of **scope**:
+- it shows the **western half / western section** of a larger Diysean map/network;
+- route lines, geographic alignments, and/or network markings continue cleanly beyond physical panel edges;
+- those continuations make it obvious that additional map material once/elsewhere continues beyond this section;
+- no translated `WESTERN HALF` label is required;
+- do not break chunks off the wall to communicate incompleteness.
 
-Its incompleteness is one of **scope**, not physical destruction:
-- it represents the **western half / western section** of a larger Diysean map or network display;
-- route lines, geographic alignments, network markings, or equivalent cartographic structures continue cleanly beyond one or more physical panel edges;
-- those continuing lines make it visually obvious that this western section was designed to connect to additional map material beyond what is present here;
-- the party does not need a translated label saying `WESTERN HALF` to understand that the display continues beyond this panel;
-- do not break chunks off the wall merely to communicate incompleteness.
-
-The visual should create the feeling of finding a complete page from a larger atlas rather than a ruined page with missing pieces.
+Think **complete page from a larger atlas**, not ruined page.
 
 ## Relationship to Wayfinder
 
-This map provides the larger context that **Wayfinder was physically unable to show**.
-
 Using the Wayfinder copy and known modern geography, the party can recognize:
-- the local alignment they followed through southern Briar / Wayfinder toward Dunmere;
-- the same route/network grammar already seen at Hollow Watch and Wayfinder;
-- the continuation beyond the information cut off by Wayfinder's damaged/broken edge;
-- that Wayfinder was one local node/representation within a much broader mapped system rather than a self-contained road diagram.
+- their southern Briar / Wayfinder / Dunmere alignment;
+- the same route/network grammar seen at Hollow Watch and Wayfinder;
+- continuation beyond what Wayfinder's damaged edge could show;
+- Wayfinder as a local node/representation within a broader system rather than a self-contained road map.
 
-The Archive mural does not make the Wayfinder obsolete. Wayfinder was the clue that allowed the party to recognize what they are looking at here.
+Wayfinder remains important because it is the clue that lets the party recognize this larger source.
 
 ## Western-map reveal
 
-The complete western section establishes all of the following:
-
-- the Hollow Watch / Wayfinder / Dunmere corridor belongs to a much broader western Diysean route or infrastructure network;
-- the network extends toward the location occupied by **modern Caelora**;
-- at that location, the mural shows a **very large unfamiliar ancient city**;
-- the ancient city's mapped footprint is visibly larger than modern Caelora as the party knows it;
-- the city's layout/representation is not simply a recognizable drawing of present-day Caelora;
-- route/network lines continue through or toward that location and then continue beyond the physical edge of the western panel;
-- therefore the Caelora-location city is not the end of the larger map/system;
-- the eastern continuation is not available from this western section.
-
-The map may contain additional western geography/route information appropriate to later world/map design, but Beat 6 does not need to enumerate every settlement, landmark, or line as dialogue.
+The map establishes:
+- the Hollow Watch / Wayfinder / Dunmere corridor belongs to a broad western Diysean network;
+- that network extends toward the location occupied by **modern Caelora**;
+- at that location is a **very large unfamiliar ancient city**;
+- its mapped footprint is visibly larger and structurally different from modern Caelora;
+- route/network lines continue through/toward that city and onward beyond the western panel's edge;
+- therefore the Caelora-location city is not the end of the larger system;
+- the eastern continuation is not available here.
 
 ## Present-world mismatch
 
-The western section is recognizably related to the world the party knows, but it should not match the modern landscape perfectly.
-
-Some mapped alignments may appear to continue through or beneath terrain that is not traversable that way in the present era, including areas now separated/blocked by mountain or water geography where supported by current world authority.
-
-The party may identify the mismatch. They may not solve it.
-
-Permitted live hypotheses include:
-- parts of the landscape changed over time;
-- some old routes were not surface roads;
-- both may be true;
-- their modern geographic assumptions may be incomplete.
-
-None of those hypotheses becomes established fact in Chapter 2 merely because a character suggests it.
+Some mapped routes/geography do not fit present terrain cleanly. Permitted hypotheses include changed geography, non-surface routes, both, or incomplete modern assumptions. No hypothesis becomes established fact in Chapter 2.
 
 ## Ancient-city knowledge boundary
 
-The party may determine that the enormous mapped city occupies the **same broad geographic location as modern Caelora** through comparison with known geography.
-
-They do **not** learn here:
-- the ancient city's formal name;
-- its complete purpose;
-- why it was larger than modern Caelora;
-- its full relationship to the modern capital;
-- whether modern Caelora was knowingly built over/on its remains;
-- the complete eastern route continuation;
-- Cresthaven's identity/location;
-- the later buried/underground truth.
-
-Do not turn visual recognition of the location into archaeological certainty about the city's history.
+Party may establish the broad geographic match to modern Caelora. They do **not** learn the ancient city's formal name, purpose, why it was larger, full relationship to modern Caelora, whether the modern capital knowingly sits over its remains, or the eastern continuation.
 
 ## Authored discovery shape
 
-Beat 6 should contain a distinct authored stop at the mural rather than allowing this major discovery to pass as ambient decoration.
+1. party reaches large map;
+2. Wayfinder copy is compared;
+3. local geometry confirms same system;
+4. larger western network becomes clear;
+5. Caelora-location city and off-panel continuation create the larger question;
+6. party copies useful information;
+7. party resumes the rescue/infiltration objective.
 
-However, it should not become a long lecture scene.
+The scene should be distinct but not a lecture.
 
-A strong structure is:
-1. party reaches/sees the large map display;
-2. the Wayfinder copy is brought into comparison;
-3. recognizable local geometry establishes that the two sources belong to the same system;
-4. the larger western network becomes clear;
-5. the Caelora-location city and map continuation beyond the panel create the larger question;
-6. the party records/copies what is useful;
-7. they continue deeper into the Archive because the prisoner/Bastion objective remains unresolved.
+## Agent-Brain packet
 
-Exact dialogue and who makes each observation belongs to the independent Person Agent rehearsal.
+Give agents the visible map and only plausible knowledge: Wayfinder copies, shared prior discoveries, Torren's route/geography experience, Maevra's regional/military familiarity, Cyanis/Ilyra's lived geography, visible lines leaving the map edges, scale difference at Caelora, and the ongoing prisoner objective.
 
-## Agent-Brain rehearsal packet
-
-The Director should provide the agents with the visible map and only the information each could plausibly bring to the comparison.
-
-Relevant context may include:
-- the physical Wayfinder copies;
-- the party's shared experience at Hollow Watch and Wayfinder;
-- Torren's practical route/geography knowledge;
-- Maevra's military/travel familiarity with the region and Caelora;
-- Cyanis and Ilyra's own lived geographic knowledge;
-- the clearly visible fact that mapped lines continue beyond the mural's edges;
-- the obvious scale difference between the ancient mapped city and modern Caelora;
-- the current need to keep searching for a Bastion connection and kidnapped travelers.
-
-Do not assign every discovery to Torren automatically. Let the independent brains determine who notices, questions, doubts, compares, or stays quiet.
-
-Do not require everyone to agree immediately about what the mismatched routes mean. Uncertainty and competing plausible interpretations are desirable here.
+Do not assign every discovery to Torren. Disagreement, uncertainty, speculation, selective silence, and differing observations are valid.
 
 ## Physical-copy rule
 
-The party should preserve the useful information rather than relying on perfect memory.
+Party makes practical records of the useful map information, especially the Wayfinder/Dunmere alignment, broader western network, Caelora-location city, and lines leaving the panel. Do not require a perfect instant reproduction of the entire wall.
 
-They make practical copies/records of the western map information they can reasonably capture, especially:
-- the recognizable Wayfinder/Dunmere alignment;
-- the broader western network context;
-- the Caelora-location city;
-- the continuing lines that leave the western panel.
-
-Do not require an implausibly perfect instant reproduction of every minute mark on a giant wall. The amount and method of copying can remain practical and presentation-efficient.
-
-## Pacing / story-priority rule
-
-This discovery is important enough to stop for, but it does **not** replace the Chapter 2 human objective.
-
-The party still entered this route because people are being kidnapped.
-
-Once they have understood and recorded the key map information, they continue deeper into the Archive rather than turning the chapter into an archaeological expedition.
-
-This should create a productive tension:
+## Pacing rule
 
 > **They have discovered something much larger than the immediate problem, but the immediate problem still has living people attached to it.**
 
+The discovery matters, but does not turn Chapter 2 into an archaeological expedition.
+
 ## Mandatory progression
 
-- the party reaches the intact/coherent western map mural;
-- they recognize it as belonging to the same cartographic/network tradition as Hollow Watch and Wayfinder;
-- the Wayfinder copy allows the known local route to be placed within the broader western map;
-- the mural supplies continuation/context missing at Wayfinder;
-- the party recognizes that this is only the western portion of a larger map because lines continue beyond the panel edges;
-- the broader western network is established;
-- the party identifies a very large unfamiliar ancient city at the geographic location of modern Caelora;
-- they recognize that the ancient mapped city is substantially larger/different from modern Caelora;
-- at least some old geography/route relationships do not fit the present landscape cleanly;
-- no definitive explanation for those mismatches is established;
-- the party makes practical copies/records of the useful information;
-- the group resumes the search for a route through the Archive toward the Bastion/prisoners.
+- intact western map found;
+- same cartographic tradition recognized;
+- Wayfinder route placed within broader network;
+- continuation missing from Wayfinder supplied;
+- western-only scope recognized from lines continuing beyond edges;
+- huge ancient city recognized at modern Caelora's location;
+- ancient city recognized as larger/different from modern Caelora;
+- some route/geography mismatch noticed without definitive explanation;
+- practical copies made;
+- party continues deeper toward Bastion/prisoners.
 
-## End state / knowledge change
+## End state / handoff
 
-After Beat 6, the party knows:
-- Wayfinder was a local piece of a much broader Diysean mapped network;
-- the complete western section fills in information the damaged Wayfinder could not show;
-- the western network reaches the location of modern Caelora;
-- a much larger unfamiliar ancient city is mapped there;
-- the map/system continues beyond the western panel's edges;
-- they still possess only the western half/section of the larger picture;
-- portions of the old map do not align cleanly with the present world;
-- they do not know why.
-
-The covert infiltration remains intact, and the kidnapped travelers have still not been found.
-
-## Gameplay handoff
+Party now knows Wayfinder was a local part of a much broader mapped system, has a coherent western section showing the huge Caelora-location city, and knows the map/system continues beyond the panel. They still do not know why the geography differs or what lies in the missing continuation.
 
 → **Beat 7 — Archive Depths**
 
 ## Reveal firewall
 
-Do not reveal in Beat 6:
-- the complete eastern half/continuation of the map;
-- the ancient Caelora-location city's formal identity or full history;
-- the complete purpose of the route/network system;
-- the definitive reason ancient routes/geography differ from the present world;
-- Cresthaven's identity/location;
-- Last Sentinel;
-- buried-Crest / complete underground-civilization truth;
-- Entity;
-- the Archive Leviathan before its later setup/encounter window;
-- the secret passage into the Prisoner Galleries;
-- prisoner locations/counts;
-- Rhazek's role;
-- Seyrik's presence/identity.
+No complete eastern half, ancient city's formal identity/full history, complete network purpose, definitive terrain explanation, Cresthaven, Last Sentinel, buried-Crest/underground truth, Entity, secret prisoner passage, prisoner details, Rhazek, or Seyrik.
 
 ---
 
 # Beat 7 — Archive Depths
 
+**Development status:** CURRENT WORKING BEAT PACKET
+
+## Purpose
+
+Return Chapter 2 to movement, exploration, and danger after the major western-map discovery, while building naturally toward the Archive Leviathan without inserting another major lore answer before the boss.
+
+Beat 7 should:
+- let the mural discovery breathe by giving the player control again;
+- deepen the Sunken Archive as a substantial dungeon rather than a sequence of exposition rooms;
+- increase environmental/combat pressure as the party moves farther from the waterworks entry;
+- make the route toward the Bastion increasingly dependent on continuing through the Archive;
+- foreshadow a major obstruction or presence ahead without fully explaining the Archive Leviathan before Beat 8;
+- preserve the covert infiltration state.
+
+## Starting state
+
+- the party has finished examining and practically recording the western map mural;
+- they know the ancient western network is much larger than the Wayfinder implied and continues beyond the available map section;
+- they have identified the huge ancient city at modern Caelora's location but have not solved its history or significance;
+- the kidnapped travelers remain unfound;
+- the route into the Red Transfer Bastion remains unresolved;
+- combat party: **Cyanis + Ilyra + Torren**;
+- Maevra remains physically with the group and fully noncombat;
+- the Black Host still has no reason to know the party entered through the waterworks/Archive route.
+
+## Playable-area role
+
+Beat 7 is the main **post-mural exploration-pressure section** of the Sunken Archive.
+
+It should give the player a meaningful stretch of dungeon traversal before the Leviathan rather than moving directly from lore scene to boss arena.
+
+Later map design may support:
+- deeper flooded chambers;
+- altered elevations or partially submerged routes;
+- archive storage/preservation spaces in poorer condition than the entrance areas;
+- side paths and optional exploration;
+- ancient barriers, failed systems, local creatures, environmental hazards, or defensive remnants;
+- route-finding moments that reinforce the complex's scale.
+
+Do not lock exact room counts, puzzles, treasure, encounter groups, or geometry here.
+
+## Escalation rule
+
+The deeper Archive should feel less stable/safe than the earlier sections.
+
+Possible environmental signals include:
+- stronger water movement or recently disturbed water;
+- damaged or displaced archive structures;
+- inaccessible routes forcing the party toward a deeper basin/path;
+- signs that something large has moved through or occupies the next section;
+- old defensive/preservation systems behaving irregularly;
+- local creatures avoiding or being displaced from an area ahead.
+
+These are **presentation options**, not all mandatory facts. The exact Leviathan foreshadowing should be chosen during map/encounter design so it matches the creature's final physical implementation.
+
+## Leviathan-knowledge boundary
+
+Beat 7 may establish only that **a major obstruction or dangerous presence lies ahead**.
+
+Do not yet establish:
+- a formal name for the creature;
+- a complete origin story;
+- whether it was intentionally built/placed as a guardian;
+- whether it is an animal, construct, altered organism, or some other exact category unless already fixed by live encounter authority;
+- why it has remained here;
+- any new major Diysean-history answer through the creature.
+
+`Archive Leviathan` remains the production/boss name. Character dialogue should reflect only what they can actually observe.
+
+## Route-pressure rule
+
+The party should not have a clean alternative route around the coming boss.
+
+By the end of Beat 7, the environment should make clear that the viable continuation toward the Bastion lies through the deeper Archive section now blocked/threatened by the major presence ahead.
+
+This does not require a literal locked door saying `boss required`; route geometry and environmental conditions can establish it naturally.
+
+## Occupation / covert rule
+
+The Archive remains outside active Black Host occupation during Beat 7.
+
+Do not add routine Host patrols, command posts, prisoner cells, or supply infrastructure here. The secret approach continues to matter because the Bastion has not yet detected the party.
+
+Combat pressure should come from the Archive's environment, ecology, ancient defenses, or other threats already supported by encounter authority.
+
+## Character / Agent-Brain opportunities
+
+Dialogue should remain sparse and situational.
+
+The Director may give agents:
+- the recent mural discovery and unresolved questions;
+- actual route changes/hazards in the deeper Archive;
+- evidence of a large presence ahead if the final map/encounter implementation supports it;
+- the continuing need to locate the Bastion/prisoners;
+- the fact that retreating to investigate the mural further would abandon the immediate rescue objective.
+
+Natural responses may include route assessment, caution, practical disagreement about risk, brief reference back to the mural, or concern about whether weakened captives could ever traverse this route. None is a mandatory line assignment.
+
+Do not let the mural discussion continue indefinitely. The story focus has returned to infiltration and survival.
+
+## Presentation rule
+
+After Beat 6's authored lore stop, Beat 7 should mostly be **player-driven traversal**.
+
+Use a small number of triggered exchanges only where the environment materially changes the party's understanding or immediate plan. Avoid constant walking chatter, repeated warnings, or characters narrating every sign of danger.
+
+## Mandatory progression
+
+- party leaves the western-map chamber and resumes deeper exploration;
+- the Archive becomes more physically hazardous/pressured than the earlier orientation section;
+- the party continues to find a viable path generally toward/under the Bastion;
+- no second major historical/cartographic revelation occurs;
+- the covert infiltration remains intact;
+- environmental evidence increasingly supports that a major danger/obstruction lies ahead;
+- the viable forward route converges on the deeper basin/chamber/section occupied by that threat;
+- party reaches the immediate pre-boss threshold.
+
+## End state / knowledge change
+
+- the party has pushed significantly deeper into the Sunken Archive;
+- they still have no direct contact with the Black Host or prisoners;
+- they understand that the forward route is obstructed by a serious threat;
+- they do not yet possess a full explanation of that threat;
+- continuing the infiltration requires confronting or passing through it;
+- no additional major ancient-history answer has diluted the western-map payoff.
+
+## Gameplay handoff
+
+→ **Beat 8 — Archive Leviathan**
+
+## Reveal firewall
+
+Do not reveal in Beat 7:
+- the Leviathan's complete origin/function unless later encounter authority explicitly requires it;
+- the secret passage into the Prisoner Galleries;
+- prisoner locations/counts;
+- a transfer-records replacement clue;
+- Rhazek's command role/philosophy;
+- Seyrik's presence/identity;
+- eastern-map continuation;
+- ancient Caelora city's formal identity;
+- Cresthaven;
+- Last Sentinel;
+- buried-Crest/complete underground truth;
+- Entity.
+
+---
+
+# Beat 8 — Archive Leviathan
+
 **Development status:** NEXT TO DEVELOP
 
-Current locked function from `CHAPTER_02.md`: let the party continue deeper through the Sunken Archive after the western-map discovery, restore exploration/combat pressure after the lore stop, and build naturally toward the Archive Leviathan without adding another major ancient-history answer before the boss.
+Current locked function from `CHAPTER_02.md`: make the Archive Leviathan the major boss of the Sunken Archive, preserve the current one-HP-bar/two-behavior-state concept unless encounter authority revises it, and make defeating/passing the Leviathan the event that opens access to the final deeper Archive route leading toward Beat 9's secret passage discovery.
