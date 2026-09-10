@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 4
 # Hollow Watch Approach
-## DIALOGUE ENGINE PRODUCTION DRAFT C — established gameplay presentation normalization / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT D — chapter-wide dialogue polish + established gameplay presentation / awaiting user approval
 
 **Walking-dialogue lock:** Torren is genuinely guiding the party to Hollow Watch, so brief route guidance may occur during traversal. Ordinary wilderness traversal still shows Cyanis only.
 
@@ -118,17 +118,11 @@ Nobody turns that into a conclusion.
 
 **MAEVRA:** Of course.
 
-**CYANIS:** I'm starting to understand the relationship.
-
-**MAEVRA:** No, you're not.
-
-**TORREN:** Don't encourage him.
-
 **ILYRA:** If we have to pull someone back out, same route?
 
 **TORREN:** One person, yes.
 
-**ILYRA:** Good enough.
+**ILYRA:** That'll do.
 
 **CYANIS:** Let's try for nobody.
 
@@ -197,7 +191,7 @@ Next mandatory story beat: **Beat 5 — Occupied Hollow Watch Fort.**
 
 ---
 
-## Presentation / canon check
+## Presentation / dialogue check
 
 **Traversal:** Cyanis only on the wilderness field. Torren guides through portrait/dialogue UI.
 
@@ -205,4 +199,6 @@ Next mandatory story beat: **Beat 5 — Occupied Hollow Watch Fort.**
 
 **Random encounters:** ordinary enemies are not converted into visible scripted guards or mandatory fights.
 
-**Reduction:** the old track-inspection stop, mud/rut analysis, moving winch/bucket sequence, repeated lookout details, root interaction, coat grab, enemy-count callout, weapon-ready choreography, and other micro-staging have been removed.
+**Dialogue polish:** removed the explicit `I'm starting to understand the relationship` exchange. Cyanis does not narrate Maevra/Torren's relationship for the audience; their familiarity already reads through their own speech.
+
+**Reduction:** the old track-inspection stop, mud/rut analysis, moving winch/bucket sequence, repeated lookout details, root interaction, coat grab, enemy-count callout, weapon-ready choreography, and other micro-staging remain removed.
