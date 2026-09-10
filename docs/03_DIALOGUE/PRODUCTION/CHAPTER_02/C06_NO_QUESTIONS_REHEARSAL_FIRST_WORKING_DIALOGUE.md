@@ -2,25 +2,28 @@
 
 **Status:** CURRENT REHEARSAL-FIRST WORKING DRAFT — NOT LOCKED  
 **Availability:** Chapter 2 cleanup, after the Beat-16 Dunmere elder resolution and before the explicit Chapter-3 start interaction  
-**Participants:** Cyanis, Ilyra, Torren, Maevra  
+**Participants:** Torren, Ilyra, Maevra, Cyanis  
 **Production method:** scene/world state → independent Person Agent Brain rehearsals → Dialogue Editor → invisible Canon/Knowledge Checker → economical HD-2D staging
 
 ## Scene seed
-Late night at the Dunmere inn. Torren is awake and smoking near the open window. Ilyra wakes because the smell is noticeably worse than it was the previous day. The reason is mundane: Torren's stash got soaked during the waterworks infiltration and never dried properly.
+Fresh scene generated from only this setup:
+- late night at the Dunmere inn;
+- Torren is smoking by an open window;
+- Ilyra wakes because it smells noticeably different/worse than the previous day;
+- the stash got soaked in the waterworks;
+- Maevra and Cyanis enter only because the smell/argument naturally wakes them.
 
-The scene is generated fresh from current character authority. It does not preserve the prior C06/C07 dialogue structure or wording.
+This scene does not preserve the old C06/C07 exact dialogue or staging as controlling material.
 
 ---
 
-## [LATE NIGHT — DUNMERE INN]
+Late night at the Dunmere inn.
 
 The room is dark except for a low lamp and what little moonlight reaches through the open window.
 
 Torren is sitting on the floor beside it, one shoulder against the wall, smoking.
 
 A few seconds pass.
-
-From one of the beds:
 
 **ILYRA:** Torren.
 
@@ -380,8 +383,6 @@ Then that runs out too.
 
 The room becomes quiet again.
 
-No one asks Torren why he was awake.
-
 After a few minutes, Cyanis closes his eyes where he is sitting. Ilyra does the same. Maevra lies back down.
 
 Torren looks once at the ash cup.
@@ -402,7 +403,7 @@ A beat.
 
 He moves the pouch farther away.
 
-**TORREN:** Hostile room.
+**TORREN:** Buzzkills.
 
 Maevra laughs into her pillow.
 
@@ -410,13 +411,13 @@ Fade.
 
 > **END C06 — STILL BURNS**
 
-## Current continuity / editor notes
-- Fresh scene generated from the new late-night Dunmere inn seed rather than the prior C06/C07 working structure.
-- Torren smoking is ordinary behavior, not framed as impairment, crisis, vice, or intervention target.
-- The comic problem is specifically that the stash was soaked in the Chapter-2 waterworks and now smells terrible when burned.
-- Ilyra recognizes that it smells different from the previous day.
-- Maevra and Cyanis join only after the smell/conversation wakes them.
-- Maevra remains physically limited by the continuing broken-arm/splint state and remains noncombat.
-- No trauma disclosure, dream discussion, friendship speech, Bastion debrief, Rhazek analysis, Ancient-map recap, or future-story reveal.
-- Quiet company emerges after the argument without any character explaining what it means.
+## Current continuity/editor notes
+- Optional Chapter-2 Dunmere cleanup scene.
+- Does not advance Chapter 3.
+- Fresh scene generated from the current seed rather than reconstructing historical C06/C07.
+- Torren's smoking is ordinary established behavior, not framed as impairment or a vice intervention.
+- The joke is specifically that the stash was soaked in the Chapter-2 waterworks and now smells terrible after drying.
+- Ilyra wakes because the odor is noticeably different from the previous day, not because she is policing Torren.
+- Maevra and Cyanis join because the smell/argument wakes them naturally.
+- No trauma disclosure, dream discussion, Bastion recap, Rhazek analysis, ancient-map exposition, or future reveal.
 - Exact wording remains working dialogue until user approval/lock.
