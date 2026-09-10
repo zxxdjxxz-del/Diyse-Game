@@ -63,6 +63,11 @@
       "role": "ordinary_enemy_random_encounter_lock_and_boss_exception"
     },
     {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MID_BATTLE_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "speech_only_mid_battle_dialogue_lock"
+    },
+    {
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
       "whole_file": true,
       "role": "walking_dialogue_hard_lock"
@@ -73,7 +78,7 @@
     "area_phase": "boss_climax",
     "dialogue_readiness": "RED_during_combat_GREEN_immediately_after",
     "static_story_context_only": true,
-    "runtime_note": "HARD CAUSALITY/KNOWLEDGE SPLIT: the Castellan truly activates because the party reaches the protected area while Cyanis carries the recovered Card itself. The characters must not know or confirm this mechanism. Let the audience see the timing connection without making the cast formally debate evidence. The Card does not speak, open, manifest a Prime, reveal a Face, identify Cyanis, or provide explanatory text. The Castellan is an explicit scripted boss exception to the random-encounter lock. It begins integrated into the architecture and later tears free into a mobile state on the SAME HP BAR, with no healing or reset. Encounter authority owns exact mechanics and tuning. Maevra is never a battle participant. REHEARSAL-FIRST: characters react as people first; Canon Checker remains invisible. REDUCTIVE HD-2D: spend production complexity only on the earned integrated-to-mobile boss transition. Reuse the existing protected chamber and ruin effects; do not add a second arena, treasure-door mechanism, extra machinery sequence, or post-boss set piece. The mural remains entirely Beat 10."
+    "runtime_note": "HARD CAUSALITY/KNOWLEDGE SPLIT: the Castellan truly activates because the party reaches the protected area while Cyanis carries the recovered Card itself. The characters must not know or confirm this mechanism. Let the audience see the timing connection without making the cast formally debate evidence. The Card does not speak, open, manifest a Prime, reveal a Face, identify Cyanis, or provide explanatory text. The Castellan is an explicit scripted boss exception to the random-encounter lock. It begins integrated into the architecture and later tears free into a mobile state on the SAME HP BAR, with no healing or reset. Encounter authority owns exact mechanics and tuning. Maevra is never a battle participant. REHEARSAL-FIRST: characters react as people first; Canon Checker remains invisible. REDUCTIVE HD-2D: spend production complexity only on the earned integrated-to-mobile boss transition. Reuse the existing protected chamber and ruin effects; do not add a second arena, treasure-door mechanism, extra machinery sequence, or post-boss set piece. MID-BATTLE DIALOGUE: short speech may occur during active combat, but do not author character movement, repositioning, dodges, blocking, gestures, or camera cutaways to accompany it. Battle gameplay owns character motion. Boss movement required by the integrated-to-mobile transition is still allowed because it is part of the encounter. The mural remains entirely Beat 10."
   },
   "current_floor_state": {
     "combat_party": ["cyanis", "ilyra", "torren"],
