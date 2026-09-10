@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE REHEARSAL-FIRST WORKING MANUSCRIPT — NOT CHAPTER-LOCKED  
 **Purpose:** single cumulative readable Chapter-2 dialogue manuscript; update this file every time a Chapter-2 mainline or Character-Life scene changes.  
-**Mainline coverage:** Beats 1–9 current rehearsal-first working drafts.  
+**Mainline coverage:** Beats 1–10 current rehearsal-first working drafts.  
 **Character-Life coverage:** C06 — `Still Burns` current working draft. Former C07 is retired as a separate Chapter-2 Character-Life scene.  
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Working beat authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
@@ -1480,6 +1480,273 @@ Beat ends as the party moves through the short concealed route. Beat 10 begins w
 
 ---
 
+# BEAT 10 — PRISONER GALLERIES / FIRST CONTACT
+
+**Draft:** A — current rehearsal-first working dialogue
+
+Beat 10 makes the kidnapping operation human before it makes it informational. The prisoners are people who want to be rescued, not exposition obstacles.
+
+### [FIRST CONTACT]
+
+The concealed route opens into the rear edge of the lower Prisoner Galleries. People are visible behind the Old Bastion's ordinary holding barriers/cell doors.
+
+A **DUNMERE WOMAN** nearest the opening hears movement and turns sharply.
+
+**DUNMERE WOMAN:** Quiet.
+
+She sees Cyanis first and stops.
+
+**DUNMERE WOMAN:** Who the hell are you?
+
+**CYANIS:** Not Host.
+
+Torren is already checking the gallery corridor rather than approaching the cells.
+
+**TORREN:** Keep your voice down.
+
+The woman looks past Cyanis at Ilyra, Torren, and Maevra emerging from a wall that should not open.
+
+**DUNMERE WOMAN:** How did you get in there?
+
+**MAEVRA:** Complicated.
+
+**CYANIS:** We're here to get you out.
+
+The woman stares at him for half a second.
+
+**DUNMERE WOMAN:** Then get the fucking doors open.
+
+**CYANIS:** Working on it.
+
+From farther along the gallery, an injured **WOUNDED SOLDIER** speaks quietly.
+
+**WOUNDED SOLDIER:** Gallery watch has the keys.
+
+Torren looks toward him.
+
+**TORREN:** Where?
+
+The soldier indicates the direction without getting up.
+
+**WOUNDED SOLDIER:** Around the bend. Usually two down here. More above.
+
+**TORREN:** Usually?
+
+**WOUNDED SOLDIER:** Shift changes. Meals. Whatever they're doing upstairs. I don't see all of it from a cage.
+
+Torren nods once.
+
+**TORREN:** Good answer.
+
+Ilyra looks at the soldier's injury.
+
+**ILYRA:** Can I look at that when we get these open?
+
+The soldier glances down at it.
+
+**WOUNDED SOLDIER:** Please.
+
+Cyanis looks toward the gallery watch route.
+
+**CYANIS:** Keys first.
+
+**Objective:** Secure the local Prisoner Galleries and obtain the gallery keys.
+
+Control returns for a short local gameplay section. Black Host soldiers may be encountered under ordinary encounter rules. No records, manifests, transfer totals, or destination documents are found. Once the gallery watch is secured, the party obtains the ordinary keys used for this local holding section.
+
+### [OPEN THE CELLS]
+
+The party returns to the prisoners and opens the local holding doors.
+
+The Dunmere woman steps out first, then immediately turns to help another captive rather than waiting for instructions.
+
+Ilyra goes to the wounded soldier.
+
+**ILYRA:** Still all right with me checking it?
+
+**WOUNDED SOLDIER:** Yes.
+
+Ilyra examines the injury without turning the scene into a full treatment sequence.
+
+Maevra starts helping the freed prisoners organize themselves around the people who need support.
+
+**MAEVRA:** Anyone who can stand without help, make room for the people who can't.
+
+A **GREENHOLLOW MAN** is already helping an older prisoner to his feet.
+
+**GREENHOLLOW MAN:** Here. Take my shoulder.
+
+Cyanis looks across the freed group.
+
+**CYANIS:** Is this everyone they're holding here?
+
+The Dunmere woman shakes her head.
+
+**DUNMERE WOMAN:** Everyone here now, maybe.
+
+**CYANIS:** What does that mean?
+
+A beat.
+
+**GREENHOLLOW MAN:** They move people.
+
+Cyanis turns to him.
+
+**CYANIS:** Where?
+
+**GREENHOLLOW MAN:** Don't know.
+
+**WOUNDED SOLDIER:** Out of the galleries. Up through the fort.
+
+**TORREN:** Then where?
+
+The soldier shakes his head.
+
+**WOUNDED SOLDIER:** Couldn't tell you.
+
+**DUNMERE WOMAN:** Groups go. Different days. Different sizes.
+
+**ILYRA:** Anyone ever come back down?
+
+**DUNMERE WOMAN:** No.
+
+Silence for a moment.
+
+Maevra looks toward the upper Bastion route.
+
+**MAEVRA:** So they aren't keeping people here.
+
+**TORREN:** Holding them.
+
+**CYANIS:** Until they're moved somewhere else.
+
+**WOUNDED SOLDIER:** That's what it looks like from this side of the bars.
+
+Cyanis does not ask him to speculate beyond that.
+
+### [WHO COMMANDS THE BASTION]
+
+**CYANIS:** Who runs this place?
+
+The wounded soldier answers immediately.
+
+**WOUNDED SOLDIER:** Rhazek.
+
+Cyanis's expression changes.
+
+**CYANIS:** Commander Rhazek?
+
+**WOUNDED SOLDIER:** Yeah.
+
+Maevra looks at the soldier.
+
+**MAEVRA:** You're sure?
+
+**WOUNDED SOLDIER:** Seen him come through twice. Guards call him Commander. They report to him when he's down here.
+
+Torren exhales once through his nose.
+
+**TORREN:** Shit.
+
+Ilyra looks between them.
+
+**ILYRA:** You both know the name.
+
+**MAEVRA:** High-ranking Black Host commander.
+
+**CYANIS:** High enough that this isn't a few soldiers deciding to take travelers on their own.
+
+The wounded soldier looks at him.
+
+**WOUNDED SOLDIER:** Didn't look like anything here was on its own.
+
+A beat.
+
+### [GETTING THEM OUT]
+
+The Dunmere woman looks toward the concealed passage.
+
+**DUNMERE WOMAN:** That's how you came in?
+
+**CYANIS:** Yeah.
+
+She looks at the wounded soldier, then at several other weakened captives.
+
+**DUNMERE WOMAN:** We're not all making that.
+
+Ilyra finishes the immediate examination and looks toward the Ancient route as well.
+
+**ILYRA:** No.
+
+Cyanis looks at Torren.
+
+**CYANIS:** Other exit.
+
+Torren looks toward the maintained Bastion side of the galleries.
+
+**TORREN:** Has to be one.
+
+**MAEVRA:** One the Host controls.
+
+**TORREN:** Yeah.
+
+Cyanis looks back at the prisoners.
+
+**CYANIS:** All right. Nobody goes back through the waterworks.
+
+The Dunmere woman studies him.
+
+**DUNMERE WOMAN:** Then what?
+
+**CYANIS:** We make another way safe.
+
+Torren looks toward the upper fort.
+
+**TORREN:** Means going up.
+
+**CYANIS:** Then we go up.
+
+Ilyra looks across the injured and weakened prisoners.
+
+**ILYRA:** First we get everyone here somewhere defensible.
+
+Maevra nods.
+
+**MAEVRA:** That I can help with.
+
+Cyanis looks at the freed prisoners.
+
+**CYANIS:** We're coming back for you.
+
+The Dunmere woman gives him a hard look.
+
+**DUNMERE WOMAN:** You'd better.
+
+**CYANIS:** Yeah.
+
+A beat.
+
+**CYANIS:** We will.
+
+**Objective:** Move the freed prisoners into a defensible lower safe area.
+
+Beat ends into Beat 11 rather than beginning an evacuation attempt through the Archive.
+
+### Beat-10 knowledge checkpoint
+- The party has made direct contact with current prisoners from Dunmere, Greenhollow, road traffic, and military backgrounds.
+- The local Prisoner Galleries have been secured and the current local holding doors opened.
+- Prisoners actively cooperate with rescue and help one another; refusal is not manufactured as conflict.
+- Ilyra asks consent before examining the wounded soldier and receives it.
+- The party learns from overlapping prisoner experience that earlier groups were taken **out of the galleries and onward through the Bastion**, after which they did not return.
+- No prisoner knows the onward destination, ultimate fate, full strategic purpose, or exact number transferred.
+- The party can now reasonably understand the Old Bastion as a **holding/transit site rather than the final destination**.
+- A prisoner credibly identifies **Commander Rhazek** as the officer commanding the Old Bastion, based on having personally seen him and heard/reporting behavior around him.
+- Cyanis and Maevra recognize Rhazek as a high-ranking Black Host commander; this establishes command significance without yet proving the full policy-ownership confrontation reserved for Beat 13.
+- The concealed Archive/waterworks route is visibly unsuitable for evacuating the whole mixed group, especially the injured and weakened.
+- The group therefore needs a defensible lower safe area and a proper Bastion-side exit, leading directly into Beat 11.
+
+---
+
 # OPTIONAL CHARACTER-LIFE — C06
 # STILL BURNS
 
@@ -1894,5 +2161,6 @@ Fade.
 - Beat 7 — Draft A.
 - Beat 8 — Draft A; Archive Leviathan defeated without lore explanation; route physically opened; Maevra remains noncombat.
 - Beat 9 — Draft A; Ancient concealed passage opens directly into Old Bastion foundation; prisoner presence immediately beyond; no transfer-records beat.
+- Beat 10 — Draft A; local Prisoner Galleries secured and opened; holding/transit function and Rhazek command learned from prisoner experience; evacuation-route problem established.
 - C06 — `Still Burns` — current working dialogue.
-- Next mainline scene: **Beat 10 — Prisoner Galleries / First Contact**.
+- Next mainline scene: **Beat 11 — Prisoner Safe Area / Exit Problem**.
