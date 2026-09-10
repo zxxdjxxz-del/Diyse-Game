@@ -27,6 +27,17 @@ It does **not** own:
 - item/equipment tables;
 - full art/staging specifications.
 
+### Dialogue-status boundary
+Any `status`, `pass in progress`, or similar wording inside a chapter story file refers to that file's **story/beat/structure work only** unless it explicitly says otherwise. It does not override the dialogue-production status under `docs/03_DIALOGUE/`.
+
+Current dialogue production state:
+- Chapter 0 — **COMPLETE CURRENT WORKING PRODUCTION**;
+- Chapter 1 — **COMPLETE CURRENT WORKING PRODUCTION**;
+- Chapters 2–13 — future dialogue production must use the locked Chapter 0–1 rehearsal-first Agent Brain pipeline.
+
+Owning forward dialogue lock:
+`../03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`
+
 ## Current chapter count
 > **Chapter 0 + Chapters 1–13**
 
@@ -51,8 +62,9 @@ This global rule supersedes older automatic chapter-to-chapter transitions in hi
 
 **Chapter 13:** final chapter; no following-chapter cleanup and no post-game.
 
-## Line-complete status
-- Chapters 0–4: historical exact authoring exists, but reopened/current story authority supersedes incompatible old structure
+## Line-complete / dialogue-production status
+- Chapters 0–1: **complete current rehearsal-first production** under `03_DIALOGUE`; historical exact authoring exists but no longer controls current spoken wording where superseded
+- Chapters 2–4: historical exact authoring exists, but reopened/current story authority supersedes incompatible old structure; current dialogue production pending
 - Chapters 5–9: current macro/beat authority; not all line-complete
 - Chapter 10: detailed story architecture locked
 - Chapters 11–13: macro story authority locked; exact dialogue remains later production
