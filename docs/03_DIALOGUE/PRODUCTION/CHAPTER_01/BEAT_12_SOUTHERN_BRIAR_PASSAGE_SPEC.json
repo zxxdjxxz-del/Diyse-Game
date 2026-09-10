@@ -5,38 +5,25 @@
   "story_position": "Chapter 1 — Beat 12 — Southern Briar Passage",
   "production_ready": false,
   "participants": ["cyanis", "ilyra", "maevra", "torren"],
-  "scene_purpose": "Let Torren guide the party through Southern Briar while preserving the established gameplay presentation: Cyanis alone is visible during traversal, other speakers use portrait/dialogue-box presentation, ordinary enemies are random encounters, and only story-required visuals are authored.",
+  "scene_purpose": "Let Torren guide the party through Southern Briar using the established gameplay grammar: town departure may show the cast, ordinary wilderness traversal shows Cyanis only, triggered stops may show relevant field models, portraits/dialogue carry most performance, ordinary enemies remain random encounters, and only the side access, one Briarhide track, and Stalker sighting are authored story visuals.",
   "story_sources": [
-    {
-      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
-      "sections": ["Beat 12 — Southern Briar Passage", "Beat 13 — Briarhide Stalker / Chapter-1 Final Boss", "Beat 14 — Wayfinder Junction / Six Ways Through"],
-      "role": "base_chapter_01_story_authority"
-    },
-    {
-      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md",
-      "whole_file": true,
-      "role": "latest_junction_and_hidden_monument_authority"
-    },
-    {
-      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
-      "whole_file": true,
-      "role": "direct_card_physical_state_authority"
-    }
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Locked cuts", "Beat 12 — Southern Briar Passage", "Beat 13 — Briarhide Stalker / Chapter-1 Final Boss", "Beat 14 — Wayfinder Junction / Six Ways Through"], "role": "base_chapter_01_story_and_locked_cut_authority"},
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md", "whole_file": true, "role": "latest_junction_and_hidden_monument_authority"},
+    {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "direct_card_physical_state_authority"}
   ],
   "additional_authority_sources": [
     {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "current_gameplay_presentation_hard_lock"},
     {"path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md", "whole_file": true, "role": "portrait_and_dialogue_box_presentation"},
-    {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "torren_character_authority"},
     {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_and_presentation_normalization_contract"},
     {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"},
     {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md", "whole_file": true, "role": "random_encounter_hard_lock"}
   ],
   "scene_context_seed": {
-    "location_name": "Southern Briar Passage",
-    "area_phase": "substantial_southward_route_exploration",
-    "dialogue_readiness": "GREEN_WITH_HOSTILE_FIELD_WINDOWS",
+    "location_name": "Greenhollow south edge to Southern Briar Passage",
+    "area_phase": "town_departure_then_guided_hostile_wilderness",
+    "dialogue_readiness": "GREEN_AT_TRIGGERS_AMBER_DURING_GUIDED_TRAVERSAL",
     "static_story_context_only": true,
-    "runtime_note": "HARD PRESENTATION: during ordinary traversal Cyanis is the only visible party character. Torren may guide through portrait/dialogue-box speech without appearing as a walking field model. Ilyra and Maevra are likewise not visible follower models. Dialogue is primarily portraits + dialogue box over the existing layered HD-2D field. Do not script companion crouching, pointing, weapon handling, foliage interaction, strap adjustment, route blocking, or other micro-actions. Do not assume a fully modeled 3D background. HARD REDUCTION: author only the required overgrown side access, one clear Briarhide track, and the later Stalker sighting. Ordinary environment richness belongs to the map/art pass. Ordinary enemies remain random encounters. The Junction monument remains completely hidden. Cyanis carries the intact Card itself; it remains inert."
+    "runtime_note": "Greenhollow departure may show relevant field models. Once wilderness traversal begins, Cyanis is the only visible party field character. Torren guides through portrait/dialogue speech without a follower model. At authored side-access, Briarhide-track, or Stalker triggers, relevant party field models may appear simply. Do not script crouching, pointing, weapon handling, foliage interaction, strap adjustment, route blocking, or small physical business. HARD REDUCTION: author only the required overgrown side access, one clear Briarhide track, and the Stalker sighting. HARD LOCKED CUT: do not reintroduce the southern-Briar route split, overlook decision, false trail, crossing, or Old Waystone. Ordinary enemies remain random encounters. The Junction monument remains completely hidden. Cyanis carries the intact Card; it remains inert."
   },
   "current_floor_state": {
     "larger_destination": "Caelora",
@@ -47,25 +34,32 @@
     "maevra_party_status": "noncombat_traveling_companion",
     "torren_party_status": "permanent_party_member_and_active_guide",
     "dialogue_presentation": "portraits_plus_dialogue_box",
-    "environment_presentation": "layered_hd2d_with_selective_depth_geometry_not_fully_3d",
     "card_state": "intact_directly_carried_by_cyanis_and_inert",
     "junction_knowledge": "Torren knows the crossroads and route, not the hidden monument"
   },
   "required_story_beats": [
-    "Torren directs the group south through substantial playable Briar traversal without requiring a visible Torren field model.",
-    "The required overgrown old stone-lined side access is seen and left unexplored.",
+    "Brief town departure from Greenhollow.",
+    "Torren directs the group south through substantial playable Briar traversal without requiring a visible Torren follower model.",
+    "The old overgrown stone-lined side access is seen and left unexplored for story purposes.",
     "One concise Briarhide track stop establishes a very large predator.",
     "The party approaches the Junction without seeing the hidden monument.",
     "The Briarhide Stalker receives one clear pre-boss sighting.",
     "The party concludes that the usable route ahead crosses the Stalker's position."
   ],
   "forbidden_presentation": [
-    "visible_party_follower_train_during_traversal",
-    "torren_visible_walking_guide_model_during_normal_traversal",
+    "visible_party_follower_train_during_wilderness_traversal",
+    "torren_visible_walking_guide_model_during_normal_wilderness_traversal",
     "companion_micro_blocking",
     "companion_weapon_or_prop_gestures_for_flavor",
     "fully_3d_cinematic_background_assumption",
     "repeated_environmental_micro_detail_chain"
+  ],
+  "forbidden_story_structure": [
+    "southern_briar_route_split",
+    "overlook_route_decision",
+    "false_trail",
+    "damaged_or_civilian_crossing",
+    "separate_old_waystone"
   ],
   "forbidden_reveals": [
     "cistern_devourer_hunt_identity_or_access_solution",
@@ -78,5 +72,5 @@
     "entity",
     "card_activation_or_flare"
   ],
-  "production_cost_ceiling": "strictly_reductive_established_gameplay_presentation"
+  "production_cost_ceiling": "strict_reductive_established_gameplay_presentation"
 }
