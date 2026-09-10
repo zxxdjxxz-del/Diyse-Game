@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 10
 # Post-Castellan Mural
-## DIALOGUE ENGINE PRODUCTION DRAFT B — rehearsal-first + reductive HD-2D pass / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT C — rehearsal-first + reductive HD-2D + Junction monument correction / awaiting user approval
 
 ---
 
@@ -42,7 +42,11 @@ At several places across the depicted region, those groups descend into **deep o
 
 There are adults, children, handcarts, animals, and people carried on litters.
 
-Wayfinder's distinctive formation is also visible farther south in the composition, but no crowd descends there and no deep opening is shown beneath it.
+Farther south, several old roads converge around a broad crossroads. At the center of that convergence stands a large stone monument, given far more visual emphasis than the ordinary road markers around it.
+
+No crowd descends beneath the monument.
+
+No deep opening is shown there.
 
 The room stays quiet for a few seconds.
 
@@ -138,7 +142,7 @@ That sits without a verdict.
 
 ---
 
-### [TORREN — WAYFINDER]
+### [TORREN — THE JUNCTION]
 
 Torren's attention shifts farther south across the mural.
 
@@ -150,51 +154,65 @@ Maevra knows that sound.
 
 **MAEVRA:** What?
 
-Torren points.
+Torren points to the convergence of old roads.
 
-**TORREN:** Wayfinder.
+**TORREN:** The Junction.
 
-Cyanis follows his hand to the large formation.
+Cyanis follows his hand.
 
-**CYANIS:** That's the crossroads?
+**CYANIS:** The crossroads?
 
 **TORREN:** Yeah.
 
-**ILYRA:** You've seen that thing?
+Torren follows the depicted roads with his eyes.
 
-**TORREN:** Plenty of times.
+**TORREN:** Old roads meet there. Modern ones still use the same ground.
 
-He looks at the mural again.
+Ilyra points to the large monument at the center.
 
-**TORREN:** Didn't know anybody was drawing it this long ago.
+**ILYRA:** And that?
 
-Cyanis studies the formation beside the other marked places.
+Torren looks at it longer.
 
-**CYANIS:** Another entrance?
+**TORREN:** Never seen it.
 
-Torren shakes his head.
+Cyanis looks at him.
+
+**CYANIS:** You've been through the Junction.
+
+**TORREN:** Plenty.
+
+He points at the roads again.
+
+**TORREN:** I know the crossroads.
+
+Then the monument.
+
+**TORREN:** Not that.
+
+Maevra steps closer to the mural.
+
+**MAEVRA:** They made it hard to miss here.
+
+The monument dominates the road convergence even though it is not one of the descent sites.
+
+Cyanis studies it.
+
+**CYANIS:** So whatever this was, that crossroads mattered.
+
+Torren keeps looking at the stone.
+
+**TORREN:** Looks like it.
+
+Ilyra compares the monument with the nearby tunnel sites.
+
+**ILYRA:** But nobody's going down there.
+
+Torren nods.
 
 **TORREN:** No.
 
-He points to a nearby descent where figures visibly disappear into the earth.
-
-Then back to Wayfinder.
-
-**TORREN:** No opening there.
-
-Ilyra looks at the size of the Wayfinder formation in the composition.
-
-**ILYRA:** Still gave it a lot of wall.
-
-**MAEVRA:** Which makes me want to see the real one.
-
-Torren looks at her.
-
-**TORREN:** We're passing close anyway.
-
-**CYANIS:** Convenient.
-
-**TORREN:** Don't get used to it.
+Nobody gives the monument a function.
 
 ---
 
@@ -244,13 +262,13 @@ They leave the silence alone.
 
 Maevra looks at Torren.
 
-**MAEVRA:** Wayfinder on your route south?
+**MAEVRA:** The Junction on our route south?
 
-**TORREN:** Near it.
+**TORREN:** Near enough.
 
-**MAEVRA:** Then we look when we get there.
+**MAEVRA:** Then we stop there.
 
-Torren nods.
+Torren looks once more at the monument in the mural.
 
 **TORREN:** Yeah.
 
@@ -297,8 +315,11 @@ Story state:
 - the mural depicts balls of fire falling from the sky across recognizable regional geography;
 - groups of ordinary people, including children and injured people on litters, descend into multiple deep openings in different locations;
 - Torren recognizes the hill corresponding to Hollow Watch through modern terrain familiarity;
-- Torren recognizes a separate prominent southern formation matching modern **Wayfinder Junction**;
-- Wayfinder is visibly **not** one of the depicted tunnel entrances;
+- Torren recognizes the **location of the ancient southern crossroads**, which he calls **the Junction**;
+- Torren knows the Junction as an old crossroads used by modern routes, but he has **never seen the large monument shown at its center in the mural**;
+- the mural makes that monument visibly important by giving it strong prominence at the road convergence;
+- the monument is **not** depicted as one of the deep tunnel entrances;
+- the party has a practical reason to stop at the Junction later and look for what the mural shows there;
 - the party naturally considers a relationship between the earlier six-channel junction and the multiple descents without proving one;
 - the Black Host never reached the mural chamber;
 - no retired map rubbing or separate route plate appears;
@@ -320,10 +341,12 @@ Next mandatory story beat:
 
 ## Rehearsal-first / reductive HD-2D check
 
-**Human layer:** the cast reacts to the mural rather than auditing one another's certainty. They speculate normally, disagree lightly, and allow unresolved ideas to sit without a formal evidence summary.
+**Human layer:** the cast reacts to the mural rather than auditing one another's certainty. Torren recognizes a place he genuinely knows, then reacts naturally to a monument he has never seen there.
 
-**Knowledge:** Torren recognizes modern terrain only. Nobody explains Diysean symbols, the catastrophe, the route system, Wayfinder's ancient purpose, or the Card.
+**Knowledge:** Torren knows the Junction's roads and location. He does not know the hidden monument's map surface, purpose, technical grammar, or why the mural emphasizes it.
+
+**Future continuity:** when the party reaches the Junction, vegetation will conceal the actual monument. Vines and moss must be physically cleared before its cartographic surface is revealed; that will be Torren's first look at the stone map itself.
 
 **Walking dialogue:** none. The short protected passage is silent; the conversation occurs at the mural stop.
 
-**Reductive production:** this beat spends its visual budget on the one required mural asset. It reuses the existing protected chamber, B00 blocking/facing, portraits, simple pointing/looking gestures, restrained camera/light, and silence. No extra room, machinery, animation sequence, crowd, or secondary clue asset is added.
+**Reductive production:** this beat spends its visual budget on the one required mural asset. The monument is part of that same mural asset rather than a second set piece. Reuse the existing protected chamber, B00 blocking/facing, portraits, simple pointing/looking gestures, restrained camera/light, and silence.
