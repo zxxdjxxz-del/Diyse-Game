@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 15
 # Junction Camp / Chapter-1 Cleanup Window
-## DIALOGUE ENGINE PRODUCTION DRAFT B — current Character-Life drafts + Maevra injury continuity / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT C — current Character-Life drafts + Maevra injury continuity / awaiting user approval
 
 ---
 
@@ -16,7 +16,7 @@ Maevra's arm remains in the field splint from the Broken Convoy attack. She has 
 
 Field placement stays simple. Portraits and the dialogue box carry conversations.
 
-There are no random encounters inside camp.
+There are no random encounters inside the camp.
 
 Cyanis carries the intact Card itself. It remains inert.
 
@@ -64,20 +64,20 @@ This is **not** another ancient-Junction-map explanation and does not advance th
 
 ---
 
-#### C05 — `No Spoilers`
+#### C05 — `Not Professionally`
 
 Current draft:
 `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NO_SPOILERS_REHEARSAL_FIRST_DRAFT_A.md`
 
-This scene begins because Ilyra is **changing Maevra's splint**.
+This scene is **Ilyra and Maevra only**.
 
-The bone remains broken. Ilyra can use restrained Warden/healing magic to ease the pain and make the injury more tolerable, but **magic cannot mend the broken bone itself**.
+Ilyra changes Maevra's splint and uses restrained Warden/healing magic to ease pain and surrounding strain. The bone remains broken; magic cannot mend the fracture.
 
-Maevra reads a terrible serialized adventure-romance while Ilyra works. The medical task naturally gives way to the bad-fiction conversation rather than becoming a lecture about Maevra's injury.
+While Ilyra works, she asks about Maevra and Torren. The conversation establishes their long history naturally: they were together when young, there was no betrayal or bitter breakup, life and distance repeatedly pulled them apart, and Maevra still loves him.
 
-Cyanis may later get pulled into the story discussion. Torren contributes only a small dry interruption.
+Ilyra does not psychoanalyze Maevra or turn the exchange into therapy. Maevra answers comfortably about old romance and sex, while the direct question about still loving Torren lands more personally.
 
-This scene quietly reinforces why Maevra has traveled with the group without fighting while primarily remaining an ordinary Character-Life scene.
+Cyanis and Torren do **not** enter, overhear, or interrupt this scene.
 
 ---
 
@@ -170,9 +170,11 @@ No Prime, Last Sentinel, bearer, Entity, or complete ancient-network explanation
 
 **Camp rule:** party members may be visibly present around camp; Cyanis-only presentation does not apply inside the camp hub.
 
-**Maevra injury:** arm broken during the Broken Convoy attack, already established at Brackenwall, still splinted here. C05 may show a splint change and restrained pain-easing magic; the bone is not magically repaired.
+**Maevra injury:** arm broken during the Broken Convoy attack, already established at Brackenwall, still splinted here. C05 shows a splint change and restrained pain-easing magic; the bone is not magically repaired.
 
 **Character-Life authority:** C03/C04/C05 now point to their rehearsal-first production drafts rather than the older line-complete scripts.
+
+**C05 cast:** Ilyra + Maevra only. It is a private adult-friendship conversation and does not pull Cyanis or Torren into the scene.
 
 **Backtracking rule:** Cyanis-only presentation resumes when ordinary Southern Briar traversal resumes.
 
