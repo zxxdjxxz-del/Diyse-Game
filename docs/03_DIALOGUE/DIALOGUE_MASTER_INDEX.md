@@ -11,6 +11,20 @@ Current production dialogue lives under `PRODUCTION/CHAPTER_##/`. Story function
 
 Historical pre-rehearsal / pre-Dialogue-Engine material does **not** control current spoken wording. For Chapters 0 and 1, the obsolete `LINE_COMPLETE/CHAPTER_00` and `LINE_COMPLETE/CHAPTER_01` sets have been removed from the live repository tree. Their history remains recoverable through Git if provenance is ever needed.
 
+### Production-pipeline continuity hard lock
+
+> **The rehearsal-first Agent Brain system used to create the current completed Chapter 0 and Chapter 1 production dialogue is the mandatory dialogue-production method for Chapter 2 through Chapter 13 and all future Diyse dialogue unless explicitly revised by the user.**
+
+Required sequence:
+
+> **scene/world state → independent Person Agent Brain rehearsals → Dialogue Editor → invisible Canon/Knowledge Checker → economical HD-2D staging/implementation**
+
+Each participating character must use the current full Agent Brain/profile available at authoring time, including relevant life history, world knowledge, personal knowledge boundaries, relationship state, memories, motives, current context, expertise limits, and individual speaking behavior. Do not revert to the older simplified dialogue-agent method, a generic whole-cast single pass, or direct production-script generation from canon constraints.
+
+Owning lock: `AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`.
+
+The Railway/Render services are deployment/runtime implementations of the Agent Brain architecture/profile lineage; they do not supersede the current Agent Brain data or this authoring-workflow lock.
+
 ### Walking-dialogue hard lock
 
 > **Do not use walking dialogue scenes during ordinary traversal unless the party is actively being led somewhere by another person.**
@@ -23,18 +37,18 @@ Owning detailed lock: `AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`.
 |---|---|
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION** — `PRODUCTION/CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch1 | **COMPLETE CURRENT WORKING PRODUCTION** — `PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
-| Ch2 | pending current Dialogue Engine production |
-| Ch3 | pending current Dialogue Engine production; explicit preserved line anchors remain binding where applicable |
-| Ch4 | pending current Dialogue Engine production under current restructured story authority |
-| Ch5 | beat rewrite required before dialogue generation |
-| Ch6 | macro/beat authority; dialogue pending |
-| Ch7 | macro authority; dialogue pending |
-| Ch8 | macro authority; dialogue pending |
-| Ch9 | macro/beat authority; dialogue pending |
-| Ch10 | detailed story architecture; dialogue pending |
-| Ch11 | macro authority; dialogue pending |
-| Ch12 | macro authority; dialogue pending |
-| Ch13 | macro authority; dialogue pending |
+| Ch2 | pending current Dialogue Engine production **under the locked Ch0–1 Agent Brain pipeline** |
+| Ch3 | pending current Dialogue Engine production under the locked Ch0–1 Agent Brain pipeline; explicit preserved line anchors remain binding where applicable |
+| Ch4 | pending current Dialogue Engine production under the locked Ch0–1 Agent Brain pipeline and current restructured story authority |
+| Ch5 | beat rewrite required before dialogue generation; subsequent dialogue uses the locked Ch0–1 Agent Brain pipeline |
+| Ch6 | macro/beat authority; dialogue pending under the locked Ch0–1 Agent Brain pipeline |
+| Ch7 | macro authority; dialogue pending under the locked Ch0–1 Agent Brain pipeline |
+| Ch8 | macro authority; dialogue pending under the locked Ch0–1 Agent Brain pipeline |
+| Ch9 | macro/beat authority; dialogue pending under the locked Ch0–1 Agent Brain pipeline |
+| Ch10 | detailed story architecture; dialogue pending under the locked Ch0–1 Agent Brain pipeline |
+| Ch11 | macro authority; dialogue pending under the locked Ch0–1 Agent Brain pipeline |
+| Ch12 | macro authority; dialogue pending under the locked Ch0–1 Agent Brain pipeline |
+| Ch13 | macro authority; dialogue pending under the locked Ch0–1 Agent Brain pipeline |
 
 `COMPLETE CURRENT WORKING PRODUCTION` means the chapter is assembled end-to-end and is the version to use going forward. It is still editable during implementation/playtesting; it is not a claim that every line is permanently immutable.
 
