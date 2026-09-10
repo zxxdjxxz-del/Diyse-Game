@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 10
 # Post-Castellan Mural
-## DIALOGUE ENGINE PRODUCTION DRAFT A — awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT B — rehearsal-first + reductive HD-2D pass / awaiting user approval
 
 ---
 
@@ -8,28 +8,19 @@
 
 **Player control is active.**
 
-The party enters the protected passage exposed behind the defeated Castellan.
+The party enters the short protected passage exposed behind the defeated Castellan.
 
 There is **no walking dialogue**.
 
-This section is different from everything the Black Host forced open behind them.
+Black Host lamps, chalk, forcing marks, and excavation damage stop behind them.
 
-No braces.
-No chalk.
-No pry scars.
-No recent lamps.
-No boot traffic.
+Cyanis carries the intact recovered Card itself. It remains inert.
 
-The floor is dusty but largely intact.
+The passage opens into one protected chamber.
 
-The Card remains sealed on Cyanis.
-It does not react.
+The far wall is occupied by a large preserved Diysean mural.
 
-The passage is short.
-
-It opens into a wide chamber whose far wall is occupied almost completely by one preserved Diysean image.
-
-Do not begin dialogue immediately.
+No one speaks immediately.
 
 The player gets the mural first.
 
@@ -39,447 +30,255 @@ The player gets the mural first.
 
 At the main viewing point, player control pauses.
 
-The mural is not a simple decorative band.
+The mural spans a landscape.
 
-It spans a landscape.
+Ridges, valleys, river cuts, and large landforms repeat across it with enough consistency to read as real geography.
 
-Ridges, valleys, river cuts, and large landforms are represented with enough consistency that the composition reads as geography even before anyone says so.
+Across the sky, **balls of fire fall toward the land**.
 
-Across the upper portion of the image, **balls of fire fall from the sky**.
+Below them, people move in many separate groups.
 
-They are shown at different angles and distances.
-Some trail long burning lines behind them.
-Some are already close to the ground.
+At several places across the depicted region, those groups descend into **deep openings in the earth**.
 
-Below them, people move.
+There are adults, children, handcarts, animals, and people carried on litters.
 
-Not one group.
-Many.
+Wayfinder's distinctive formation is also visible farther south in the composition, but no crowd descends there and no deep opening is shown beneath it.
 
-At several different places across the depicted landscape, crowds descend toward **deep openings cut into the earth**.
+The room stays quiet for a few seconds.
 
-The entrances are not all the same shape.
+Ilyra looks at one of the descending groups.
 
-Some sit beneath ridges.
-Some open beside lower ground.
-Some are built into large worked structures.
+**ILYRA:** Litters.
 
-But the direction is unmistakable.
+Cyanis follows her gaze.
 
-People are going down.
+**CYANIS:** Like downstairs.
 
-Carts appear among them.
+**ILYRA:** Yeah.
 
-So do animals.
+Maevra is looking at another part of the mural.
 
-At one entrance, two figures carry another person between them.
+**MAEVRA:** Children too.
 
-Ilyra sees that first.
+Cyanis looks up at the falling fire.
 
-**ILYRA:** Litters again.
+**CYANIS:** I'd be heading underground too.
 
-Cyanis looks at the figures around the same entrance.
+**ILYRA:** Depends what that is.
 
-**CYANIS:** Same kind of movement as the junction?
+**CYANIS:** Nothing good has ever been painted falling out of the sky like that.
 
-Ilyra studies the image.
+Torren has stopped listening.
 
-**ILYRA:** Similar people.
+He is staring at one ridge.
 
-A beat.
+**TORREN:** Wait.
 
-**ILYRA:** Not enough to say it's the same thing.
+Maevra looks over.
 
-Maevra looks across the entire wall rather than one entrance.
-
-**MAEVRA:** This happened in more than one place.
-
-Torren is staring at the landforms.
-
-Cyanis notices.
-
-**CYANIS:** What?
-
-Torren does not answer yet.
-
-He steps farther back so he can see more of the mural at once.
-
-Then points to a broken-backed ridge near one side of the depicted region.
-
-**TORREN:** That hill.
-
-Maevra follows his finger.
-
-**MAEVRA:** You know it?
-
-**TORREN:** I know the shape.
-
-He looks from the mural toward the ceiling above them, as if placing the surface in his head.
+Torren points at a broken-backed hill in the mural.
 
 **TORREN:** That's Hollow Watch.
 
-Cyanis looks at the painted ridge again.
+Cyanis looks from the painted ridge toward the ceiling above them.
 
-**CYANIS:** The hill we're under.
+**CYANIS:** Here?
 
-**TORREN:** Yes.
+**TORREN:** Yeah.
 
-**CYANIS:** Certain?
+He traces the uneven shoulder of the hill with one finger in the air.
 
-Torren points to the ridge's uneven shoulder and the two lower cuts drawn beside it.
+**TORREN:** Same shape.
 
-**TORREN:** About that part, yes.
+Maevra steps back enough to take in more of the wall at once.
 
-No ancient expertise is implied.
+**MAEVRA:** So this is a map.
 
-He recognizes modern terrain.
+Torren looks across the valleys and ridges.
 
----
+**TORREN:** Part of one, anyway.
 
-### [GEOGRAPHIC READ]
+Cyanis looks at the falling fire again.
 
-Maevra walks her eyes outward from the Hollow Watch hill across the mural.
+**CYANIS:** Cheerful map.
 
-Once one real landmark is identified, the rest of the composition reads differently.
-
-Not as a story arranged for beauty.
-
-As a landscape arranged by position.
-
-**MAEVRA:** Then this isn't just a scene.
-
-Cyanis looks across the ridges and valleys.
-
-**CYANIS:** It's a map.
-
-Maevra considers the word.
-
-**MAEVRA:** At least partly.
-
-Ilyra looks again at the falling fire.
-
-**ILYRA:** A map of what was happening?
-
-**MAEVRA:** Maybe.
-
-Cyanis studies the nearest depicted descent.
-
-**CYANIS:** People going underground while that falls.
-
-He looks upward at the fire imagery.
-
-**CYANIS:** Evacuation starts sounding less stupid.
-
-Ilyra looks at him.
-
-**ILYRA:** Less stupid isn't confirmed.
-
-**CYANIS:** I know.
-
-Torren looks back toward the Hollow Watch representation.
-
-**TORREN:** Could've been shelter.
-
-Maevra looks at the multiple entrances.
-
-**MAEVRA:** Could've been transit.
-
-Ilyra looks toward the people descending with carts and litters.
-
-**ILYRA:** Could've been both.
-
-A beat.
-
-Cyanis looks at the mural.
-
-**CYANIS:** Or something we don't have a word for yet.
-
-Maevra nods once.
-
-**MAEVRA:** Keep that one.
-
-No one settles the interpretation.
+Nobody answers that.
 
 ---
 
-### [TORREN — SOUTHERN FORMATION]
+### [THE DESCENTS]
 
-Torren has moved his attention farther south across the depicted terrain.
+Ilyra studies the groups moving toward the openings.
 
-He stops.
+**ILYRA:** They're going down all over the region.
 
-Not dramatically.
+**MAEVRA:** Looks like it.
 
-Just enough that Maevra notices.
+Cyanis looks back toward the passage they entered through.
 
-**MAEVRA:** Another one?
-
-Torren points to a large, distinctive formation represented south of the Hollow Watch hill.
-
-It is more prominent than the surrounding terrain.
-
-But unlike the locations where crowds descend underground, **no deep entrance is shown at the formation itself**.
-
-Torren studies it for several seconds.
-
-**TORREN:** Wayfinder.
-
-Cyanis looks at him.
-
-**CYANIS:** That's a place?
-
-**TORREN:** Modern crossroads. Big old formation sitting in the middle of it.
-
-He points to the shape in the mural.
-
-**TORREN:** Looks like this.
-
-Maevra steps closer.
-
-**MAEVRA:** How close to our southern route?
-
-Torren thinks about the modern ground rather than the ancient mural.
-
-**TORREN:** Close enough that we can look when we get there.
-
-Then, before anyone mistakes that for certainty:
-
-**TORREN:** Assuming the route still connects the way I think it does.
-
-Cyanis gives him a faint smile.
-
-**CYANIS:** There he is.
-
-Torren ignores him.
-
-He is still looking at the mural.
-
----
-
-### [WAYFINDER IS NOT AN ENTRANCE]
-
-Cyanis follows the depicted terrain from Hollow Watch toward the southern formation.
-
-Then compares it to the places where people are shown descending.
-
-**CYANIS:** So Wayfinder is another way down?
-
-Torren shakes his head.
-
-**TORREN:** Not from this picture.
-
-Cyanis looks at him.
-
-Torren points to two confirmed descent sites in the mural.
-
-Crowds converge on visible openings beneath them.
-
-Then he points to the Wayfinder-like formation.
-
-No crowd descends there.
-No deep opening is depicted there.
-
-**TORREN:** People go down here.
-
-He points to another.
-
-**TORREN:** And here.
-
-Then Wayfinder.
-
-**TORREN:** Not there.
-
-Maevra looks at the prominence of the southern formation.
-
-**MAEVRA:** But whoever made this wanted it visible.
-
-**ILYRA:** Important doesn't mean entrance.
-
-**MAEVRA:** Exactly.
-
-Cyanis looks again at Wayfinder's oversized representation.
-
-**CYANIS:** Important how?
-
-Nobody answers.
-
-Torren is the first to stop looking for one.
-
-**TORREN:** Don't know.
-
-The answer stays there.
-
----
-
-### [CONNECTING THE CLUES — WITHOUT SOLVING THEM]
-
-Ilyra looks back toward the passage they entered from.
-
-Beyond it lies the six-channel junction.
-
-Then she looks at the mural again.
-
-**ILYRA:** Downstairs showed people moving through something.
-
-She points to the multiple descent sites in the mural.
-
-**ILYRA:** This shows people going underground in different places.
-
-Cyanis follows the thought.
-
-**CYANIS:** Same system?
-
-Maevra answers before speculation hardens.
-
-**MAEVRA:** Maybe.
-
-A beat.
-
-**MAEVRA:** We have one room with six channels and one mural with several descents.
-
-She looks at Cyanis.
-
-**MAEVRA:** Similar is not connected until we can prove connected.
-
-Cyanis nods.
-
-**CYANIS:** Fair.
-
-Torren looks at the mural's southern formation again.
-
-**TORREN:** Wayfinder gives us somewhere real to check.
+**CYANIS:** Six ways downstairs. Now this.
 
 Maevra looks at him.
 
-**MAEVRA:** It gives us a landmark that matches the mural.
+**MAEVRA:** Could be related.
 
-Torren accepts the correction immediately.
+**CYANIS:** That's what I was thinking.
 
-**TORREN:** Yes.
+Torren is still studying the terrain rather than the figures.
 
-No one calls it a key, node, gate, station, shelter, or route hub.
+**TORREN:** Could've moved people a long way underground.
+
+Ilyra looks at one of the entrances.
+
+**ILYRA:** Or just gotten them under cover.
+
+**CYANIS:** Either way, somebody expected a lot of people.
+
+That sits without a verdict.
 
 ---
 
-### [THE FALLING FIRE]
+### [TORREN — WAYFINDER]
 
-The party's attention returns to the upper half of the mural.
+Torren's attention shifts farther south across the mural.
 
-The falling objects dominate it once the geographic structure is understood.
+He goes still.
 
-Some impacts are depicted beyond the horizon line.
+**TORREN:** Huh.
 
-Others appear close enough that people below are shown turning away or raising arms.
+Maevra knows that sound.
 
-There is no label.
-No date.
-No readable explanation.
+**MAEVRA:** What?
 
-Cyanis looks at one long burning trail.
+Torren points.
 
-**CYANIS:** Any chance those are decorative?
+**TORREN:** Wayfinder.
+
+Cyanis follows his hand to the large formation.
+
+**CYANIS:** That's the crossroads?
+
+**TORREN:** Yeah.
+
+**ILYRA:** You've seen that thing?
+
+**TORREN:** Plenty of times.
+
+He looks at the mural again.
+
+**TORREN:** Didn't know anybody was drawing it this long ago.
+
+Cyanis studies the formation beside the other marked places.
+
+**CYANIS:** Another entrance?
+
+Torren shakes his head.
+
+**TORREN:** No.
+
+He points to a nearby descent where figures visibly disappear into the earth.
+
+Then back to Wayfinder.
+
+**TORREN:** No opening there.
+
+Ilyra looks at the size of the Wayfinder formation in the composition.
+
+**ILYRA:** Still gave it a lot of wall.
+
+**MAEVRA:** Which makes me want to see the real one.
+
+Torren looks at her.
+
+**TORREN:** We're passing close anyway.
+
+**CYANIS:** Convenient.
+
+**TORREN:** Don't get used to it.
+
+---
+
+### [THE FIRE]
+
+For a moment the party looks back at the upper half of the mural.
+
+The falling objects dominate the scene once the geography is recognizable.
+
+Cyanis folds his arms.
+
+**CYANIS:** Any chance that's rain?
 
 Torren looks at him.
 
-**TORREN:** You asking me?
+**TORREN:** Flaming rain?
 
-**CYANIS:** No.
+**CYANIS:** Bad rain.
 
-A beat.
+Ilyra keeps looking at the people below.
 
-**CYANIS:** Learned that one.
+**ILYRA:** Whatever it was, they were getting people off the surface.
 
-Ilyra looks at the people descending underground.
+Maevra's expression tightens.
 
-**ILYRA:** Whatever they thought was happening, they were moving people away from the surface.
+**MAEVRA:** Fast, by the look of it.
 
-Maevra considers that carefully.
+Cyanis turns slightly toward the clean passage behind them.
 
-**MAEVRA:** That's the strongest thing we can say.
+**CYANIS:** Host never saw this.
 
-**ILYRA:** Yes.
+**TORREN:** No.
 
-Cyanis looks around the protected room.
+Cyanis looks back at the mural.
 
-**CYANIS:** And the Host never saw this.
+The joke leaves him.
 
-Maevra looks at the untouched floor and the clean threshold behind them.
+**CYANIS:** They killed everyone upstairs and stopped one room short.
 
-**MAEVRA:** Doesn't look like it.
+Nobody has a useful answer to that.
 
-Cyanis looks back toward the dead Castellan beyond the passage.
-
-**CYANIS:** They killed a fort for whatever they thought was down here.
-
-A beat.
-
-**CYANIS:** And stopped one room short of finding out.
-
-Maevra's expression hardens.
-
-**MAEVRA:** We still don't know what they thought they'd find.
-
-**CYANIS:** No.
-
-He looks at the mural.
-
-**CYANIS:** But now we know what they didn't.
-
-No triumphant note follows that line.
-
-The garrison is still dead.
+They leave the silence alone.
 
 ---
 
 ### [PRACTICAL DECISION]
 
-Torren looks at the southern formation one last time.
+Maevra looks at Torren.
 
-**TORREN:** If we're going south, Wayfinder isn't far off the line I'd try first.
+**MAEVRA:** Wayfinder on your route south?
 
-Maevra looks at the mural.
+**TORREN:** Near it.
 
-Then at him.
+**MAEVRA:** Then we look when we get there.
 
-**MAEVRA:** Then when we reach it, we look.
+Torren nods.
 
-**TORREN:** Agreed.
+**TORREN:** Yeah.
 
-Ilyra looks at Cyanis.
+Cyanis looks from the mural to the Card in his possession.
 
-**ILYRA:** And until then?
+The Card remains dark.
 
-Cyanis looks at the sealed Card.
+**CYANIS:** This trip was simpler yesterday.
 
-It remains inert.
-
-Then at the mural.
-
-**CYANIS:** We carry two things we don't understand instead of one.
-
-Torren gives him a look.
-
-**TORREN:** That's your optimistic version?
-
-**CYANIS:** It's the organized version.
-
-Maevra turns toward the exit.
-
-**MAEVRA:** Organize yourselves back upstairs.
-
-Cyanis looks at Ilyra.
-
-**CYANIS:** She does make command sound personal.
-
-**ILYRA:** Move.
+**ILYRA:** No, it wasn't.
 
 Cyanis looks at her.
 
-A beat.
+**CYANIS:** I preferred my version.
 
-**CYANIS:** Also contagious.
+**MAEVRA:** You can prefer it upstairs.
 
-The release is brief.
+Torren turns toward the exit.
+
+**TORREN:** She's been waiting to say that.
+
+**MAEVRA:** Years.
+
+Cyanis looks between them.
+
+**CYANIS:** I'm not asking.
+
+**ILYRA:** Good.
 
 The mural gets the final visual beat before control returns.
 
@@ -494,20 +293,17 @@ Current objective:
 **Return from the protected area and resolve Hollow Watch.**
 
 Story state:
-- The party has discovered Hollow Watch's sole major cartographic/historical payoff: the protected Diysean mural.
-- The mural depicts balls of fire falling from the sky across a recognizable regional landscape.
-- Groups of ordinary people are shown descending into multiple deep tunnel entrances in different locations.
-- The mural is at least partly geographic rather than purely symbolic.
-- Torren recognizes the depicted hill corresponding to Hollow Watch from modern terrain familiarity.
-- Torren also recognizes a separate prominent southern formation matching modern **Wayfinder Junction**.
-- Wayfinder is **not depicted as one of the tunnel entrances**.
-- Its prominence indicates that it mattered to whatever the mural depicts, but nobody knows why.
-- The party may speculate about evacuation, shelter, transit, or a broader function, but none is confirmed.
-- The relationship between the six-channel junction and the mural remains unproven.
-- The Black Host did not reach this protected mural area.
-- The retired Black Host map-rubbing clue and separate route plate do not appear.
-- The Card remains sealed and inert throughout the mural discovery.
-- No Prime, Last Sentinel, bearer, authorization, buried-Crest, complete ancient-network, or Entity explanation has been revealed.
+- Hollow Watch's sole major cartographic payoff is the protected Diysean mural;
+- the mural depicts balls of fire falling from the sky across recognizable regional geography;
+- groups of ordinary people, including children and injured people on litters, descend into multiple deep openings in different locations;
+- Torren recognizes the hill corresponding to Hollow Watch through modern terrain familiarity;
+- Torren recognizes a separate prominent southern formation matching modern **Wayfinder Junction**;
+- Wayfinder is visibly **not** one of the depicted tunnel entrances;
+- the party naturally considers a relationship between the earlier six-channel junction and the multiple descents without proving one;
+- the Black Host never reached the mural chamber;
+- no retired map rubbing or separate route plate appears;
+- Cyanis carries the intact Card itself and it remains inert;
+- no Prime, Last Sentinel, bearer, authorization, complete ancient-network, catastrophe, buried-Crest, or Entity explanation is revealed.
 
 Traveling group:
 **Cyanis Dovaren + Ilyra Amarin + Maevra Solmar + Torren Harth**
@@ -515,36 +311,19 @@ Traveling group:
 Combat party:
 **Cyanis Dovaren + Ilyra Amarin + Torren Harth**
 
-Torren remains a temporary combat ally until the next story beat.
+Torren remains a temporary combat ally until the next beat.
 
 Next mandatory story beat:
-**Hollow Watch Resolution / Torren Recruitment.**
+**Beat 11 — Hollow Watch Resolution / Torren Recruitment.**
 
 ---
 
-## Canon / Dialogue Engine self-check
+## Rehearsal-first / reductive HD-2D check
 
-**PASS — mural payoff**
-- falling-fire catastrophe imagery is present;
-- multiple distinct deep descents are present;
-- ordinary people move toward them;
-- recognizable terrain makes the mural geographically meaningful;
-- Hollow Watch and the southern Wayfinder-like formation are both identified through Torren's modern terrain knowledge.
+**Human layer:** the cast reacts to the mural rather than auditing one another's certainty. They speculate normally, disagree lightly, and allow unresolved ideas to sit without a formal evidence summary.
 
-**PASS — Wayfinder boundary**
-Wayfinder is prominent but is explicitly not depicted as a tunnel entrance. The scene gives the group a reason to inspect the real formation later without explaining its role.
+**Knowledge:** Torren recognizes modern terrain only. Nobody explains Diysean symbols, the catastrophe, the route system, Wayfinder's ancient purpose, or the Card.
 
-**PASS — Torren knowledge boundary**
-Torren recognizes modern landforms and estimates proximity to the group's future southern travel line. He does not read Diysean technical grammar, identify ancient systems, explain the catastrophe, or infer a network function as fact.
+**Walking dialogue:** none. The short protected passage is silent; the conversation occurs at the mural stop.
 
-**PASS — six-channel relationship firewall**
-Characters may notice thematic similarity between the earlier human-movement imagery and the mural's descents, but Maevra explicitly preserves that the two clues are not yet proven to belong to one system.
-
-**PASS — Card / Prime firewall**
-The Card remains sealed and inert. No activation, Prime manifestation, bearer identification, authorization explanation, or Last Sentinel reveal occurs.
-
-**PASS — walking-dialogue lock**
-The protected passage is traversed silently. All dialogue occurs at the mural discovery stop.
-
-**PASS — economical HD-2D staging**
-Production complexity is concentrated on one earned mural asset and restrained camera/lighting work. The scene otherwise uses existing B00 models, portrait reactions, silence, and simple pointing/looking gestures rather than bespoke animation.
+**Reductive production:** this beat spends its visual budget on the one required mural asset. It reuses the existing protected chamber, B00 blocking/facing, portraits, simple pointing/looking gestures, restrained camera/light, and silence. No extra room, machinery, animation sequence, crowd, or secondary clue asset is added.
