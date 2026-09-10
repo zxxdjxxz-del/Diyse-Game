@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 3
 # Greenhollow / Torren
-## DIALOGUE ENGINE PRODUCTION DRAFT E — Maevra injury continuity + established gameplay presentation / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT F — chapter-wide dialogue polish + Maevra injury continuity / awaiting user approval
 
 ---
 
@@ -126,17 +126,9 @@ The route board is the only object this exchange needs. No chalk-passing, repeat
 
 **CYANIS:** Rude.
 
-**TORREN:** It's glowing ancient metal in your hand.
+**TORREN:** You're carrying old metal like it bites.
 
-The Card is not glowing.
-
-**CYANIS:** It isn't glowing.
-
-A beat.
-
-**TORREN:** Hm.
-
-**CYANIS:** You don't get to win that anyway.
+**CYANIS:** That's not why.
 
 **MAEVRA:** Recovered Card. Abnormal response around him. Brackenwall tried moving it into storage. He got sick.
 
@@ -224,7 +216,7 @@ A beat.
 
 **TORREN:** You can try.
 
-**CYANIS:** Good enough.
+**CYANIS:** Works for me.
 
 The route itself is handled by the next gameplay beat. No field-case preparation, weapon gesture, or departure choreography is required here.
 
@@ -264,7 +256,7 @@ A beat.
 
 **TORREN:** That's not how need works.
 
-**MAEVRA:** Twenty-five years and you're still wrong about this.
+**MAEVRA:** All these years and you're still wrong about this.
 
 **TORREN:** North edge. Ten minutes.
 
@@ -300,7 +292,7 @@ Story state:
 - Torren Harth has been introduced in his normal route-work context;
 - Torren has seen Maevra's splinted broken arm and knows it happened during the convoy attack;
 - Maevra remains a noncombat traveling companion during Chapter 1 because of the injury;
-- Maevra and Torren's long familiarity is clear through their speech rather than repeated physical business;
+- Maevra and Torren's long familiarity is clear through their speech without giving Ilyra their exact twenty-five-year history before the later private camp conversation;
 - the direct Greenhollow–Dunmere road is under Black Host control;
 - Torren can guide the deeper Briar route, but Hollow Watch must be dealt with first;
 - Torren knows the Black Host seized Hollow Watch roughly a week ago and has seen excavation traffic going up;
@@ -326,6 +318,8 @@ Next mandatory story beat:
 **Town rule:** PASS. Greenhollow may visibly contain party members, Torren, the route worker, and ordinary NPCs as field models because it is a town.
 
 **Maevra injury:** PASS. Torren gets one natural first-meeting reaction to the splint. The scene does not keep explaining the injury after that.
+
+**C05 continuity:** PASS. Ilyra hears that Maevra and Torren have known each other a long time, but not the exact twenty-five-year answer that she asks for later at camp.
 
 **Dialogue rule:** PASS. Portraits + dialogue box carry most performance. The field models may simply occupy sensible town/scene positions.
 
