@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 1
 # Brackenwall / Protocol
-## DIALOGUE ENGINE PRODUCTION DRAFT D — rehearsal-first + established gameplay presentation / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT E — Maevra injury continuity + established gameplay presentation / awaiting user approval
 
 ---
 
@@ -120,7 +120,11 @@ Do not add authored background errands, prop comedy, or micro-events here. Brack
 
 ### [STORY TRIGGER — MAEVRA]
 
-Maevra joins the intake scene. Relevant characters may be visible as simple field models because this is a triggered hub scene.
+Maevra joins the intake scene.
+
+Her arm is already set in a practical field splint. The injury happened during the Broken Convoy attack before Chapter 1 began.
+
+Relevant characters may be visible as simple field models because this is a triggered hub scene.
 
 **MAEVRA:** Dovaren.
 
@@ -129,6 +133,26 @@ Maevra joins the intake scene. Relevant characters may be visible as simple fiel
 **MAEVRA:** Amarin.
 
 **ILYRA:** Commander.
+
+A beat.
+
+**CYANIS:** Arm?
+
+**MAEVRA:** Broken.
+
+**ILYRA:** Since the convoy?
+
+**MAEVRA:** Yeah.
+
+**ILYRA:** I'll change the splint before we leave.
+
+**MAEVRA:** Can't wait.
+
+**CYANIS:** And you're traveling.
+
+**MAEVRA:** I'm not fighting.
+
+That is enough to establish the Chapter-1 injury state. The scene does not stop for a medical explanation.
 
 **CUSTODY OFFICER:** Tried to take the Card inside. He went pale, it lit. Brought it back, both stopped.
 
@@ -226,6 +250,8 @@ A beat.
 
 The scene ends without additional movement choreography.
 
+Before departure, Ilyra changes/re-secures Maevra's splint off the main dialogue beat. The more substantial camp treatment scene is saved for the later Character-Life material.
+
 ---
 
 ### [GAMEPLAY HANDOFF — BRACKENWALL SAFE HUB]
@@ -242,10 +268,11 @@ Story state:
 - the attempted Card transfer produced a proximity-linked response;
 - Brackenwall stopped the transfer rather than testing it repeatedly;
 - Maevra takes responsibility for the abnormal custody situation;
+- Maevra's arm was broken during the Broken Convoy attack and is already splinted;
+- Maevra travels with the group but does not fight in Chapter 1; the broken arm is the immediate in-world reason;
 - Caelora is the larger destination;
 - Greenhollow is the immediate destination;
 - Ilyra continues with Cyanis;
-- Maevra travels with them but remains non-combat;
 - Torren Harth is the route specialist Maevra intends to find.
 
 Combat party:
@@ -262,8 +289,8 @@ Next mandatory story beat:
 
 **Dialogue rule:** portraits + dialogue box carry most performance. Field models use simple placement rather than constant gestures.
 
-**Required physical actions only:** the Card transfer, Cyanis's brief reaction, the Card's green-gold line, and the return of the Card are the only specifically authored physical actions in the intake sequence.
+**Maevra injury:** established once, clearly. Her field model/portrait state should retain the splint whenever visible in Chapter 1. Later scenes do not need to keep explaining it.
 
-**Removed additive staging:** no wagon-wheel business, boiling-pot beat, harness argument, bunk assignment vignette, runner choreography, cup handling, repeated pointing, route-board tapping, or similar micro-animation is required by this dialogue draft.
+**Required physical actions only:** the Card transfer, Cyanis's brief reaction, the Card's green-gold line, the return of the Card, and the visible Maevra splint state are the only specifically authored physical information needed here.
 
 **Continuity:** the Card casing remains destroyed after Chapter 0.
