@@ -2,51 +2,64 @@
 
 **Status:** CURRENT EXPLICIT USER LOCK  
 **Domain:** dialogue / traversal presentation  
-**Purpose:** override broader research-era wording that allowed walking dialogue too freely.
+**Purpose:** override broader research-era wording that allowed walking dialogue too freely while remaining compatible with the established Cyanis-only field presentation.
 
 ## Hard rule
 
 > **Do not use walking dialogue scenes during ordinary traversal unless the party is actively being led somewhere by another person.**
 
-This is a stricter production rule than the broader research guidance in older traversal notes.
+This controls *when dialogue may occur during traversal*. It does **not** mean the guide or other party members become visible traversal models.
+
+Current presentation authority:
+> `../../13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md`
+
+During normal exploration, **Cyanis remains the only party character visible on the field**. A guide such as Torren or Maevra may direct him through portrait/dialogue-box speech while remaining off-field.
 
 ### What counts as actively being led
+
 Walking dialogue is permitted only when a character or NPC is genuinely functioning as the guide/leader for the current movement:
 - taking the party to a destination they know how to reach;
-- leading the group through a route they control, know, or are specifically navigating;
+- directing the group through a route they know or are specifically navigating;
 - escorting the party through a place where their guidance is materially part of the scene.
 
 It is **not** enough that:
 - the party simply happens to be traveling together;
 - somebody knows the general destination;
-- a character has something to say while everyone is walking;
+- a character has something to say while everyone is moving;
 - the writer wants to avoid a stop-and-talk scene.
 
+## Presentation during legal walking dialogue
+
+Use the simplest presentation:
+- Cyanis remains the visible controlled field character;
+- guide/party speech appears through the normal portrait + dialogue box;
+- do not show a visible follower train;
+- do not script the guide physically walking ahead, turning around, pointing, stepping over obstacles, manipulating foliage, or performing other micro-blocking merely because they are speaking.
+
+Route guidance should be communicated primarily by the line itself and the existing playable route.
+
 ## If nobody is leading
-Use one of these instead:
+
+Use:
 - gameplay and silence;
 - a natural stopping point;
-- a route marker / junction / overlook / landmark stop;
-- a secured threshold;
-- a post-battle stop inside grace;
-- a story-bearing cell;
-- a camp / hub / recovery point;
-- a short interaction after the player has stopped voluntarily or the story has deliberately paused movement.
+- a real story-bearing trigger;
+- a post-battle reaction where appropriate;
+- a camp/hub/recovery scene.
 
-Do not create extra walking just to house dialogue.
+Do not invent extra landmarks, overlooks, route markers, or physical business solely to create a place for dialogue.
 
 ## If somebody is leading
+
 Even then:
 - keep walking dialogue selective;
-- route guidance / immediate route observation is the strongest use;
-- relationship texture can occur only when it naturally fits the guided movement;
-- do not turn the guided segment into continuous walk-and-talk;
-- long emotional processing still belongs at a real stop;
-- encounter suppression, if needed, applies only to the authored guided-dialogue window and must preserve accumulated encounter pressure.
+- route guidance is the strongest use;
+- do not turn the segment into continuous walk-and-talk;
+- long emotional processing belongs at a real stop;
+- encounter suppression, if needed, applies only to the authored dialogue window and preserves accumulated encounter pressure.
 
-## Chapter 1 example
-**Beat 2 — Brackenwall to Greenhollow is eligible for limited walking dialogue because Maevra Solmar is actively leading Cyanis Dovaren and Ilyra Amarin to Greenhollow.**
+## Chapter 1 examples
 
-That does not mean every conversation in Beat 2 should happen while walking. General banter, medical follow-up, post-battle reactions, and longer exchanges should still use natural stops unless the guided movement itself is essential to the exchange.
+**Beat 2 — Brackenwall to Greenhollow** may use limited walking dialogue because Maevra is actively guiding the route. Cyanis remains the sole visible traversal character.
 
-Later Chapter-1 traversal must be checked independently. Torren-led route segments may qualify when Torren is actually leading the party; ordinary party travel without an active guide does not.
+**Torren-led Briar segments** may also use brief guidance while Cyanis traverses. Torren does not need a visible field model for those lines.
