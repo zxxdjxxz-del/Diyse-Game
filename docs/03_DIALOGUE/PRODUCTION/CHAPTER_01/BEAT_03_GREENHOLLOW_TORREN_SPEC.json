@@ -5,7 +5,7 @@
   "story_position": "Chapter 1 — Beat 3 — Greenhollow / Torren",
   "production_ready": false,
   "participants": ["cyanis", "ilyra", "maevra", "torren"],
-  "scene_purpose": "Introduce Torren Harth in a functioning route community; make his long-standing familiarity with Maevra Solmar immediately legible; demonstrate why Maevra sought his current route expertise; brief him only on the Card/Caelora facts needed for travel; establish that the direct Greenhollow-Dunmere road is unavailable under Black Host control; and make Hollow Watch the condition Torren requires them to address before the deeper southern journey.",
+  "scene_purpose": "Introduce Torren Harth in Greenhollow, demonstrate why Maevra sought his current route expertise, brief him only on the Card/Caelora facts needed for travel, establish the direct Greenhollow-Dunmere road as unavailable under Black Host control, and make Hollow Watch the condition he requires them to address before the deeper southern journey, all within the established town/portrait dialogue presentation.",
   "story_sources": [
     {
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
@@ -19,36 +19,60 @@
     }
   ],
   "additional_authority_sources": [
+    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "current_field_town_scene_presentation"},
+    {"path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md", "whole_file": true, "role": "portrait_dialogue_box_authority"},
     {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "torren_character_authority"},
     {"path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md", "whole_file": true, "role": "maevra_character_authority"},
     {"path": "docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md", "whole_file": true, "role": "permanent_relationship_language"},
     {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_dialogue_method"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "invisible_knowledge_firewall"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"}
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "invisible_knowledge_firewall"}
   ],
   "scene_context_seed": {
     "location_name": "Greenhollow route-board area",
-    "area_phase": "functioning_route_community",
+    "area_phase": "functioning_route_town",
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
-    "visible_environment": [
-      "active route board used by travelers and route workers",
-      "maintenance notes, closures, and fresh route corrections",
-      "ordinary cart, repair, supply, and travel activity continuing around the scene",
-      "Torren is already doing practical route work when the group finds him"
-    ],
-    "runtime_note": "This is a stop scene. Rehearse character behavior first; do not make Torren or Maevra verbalize canon boundaries. Existing Maevra/Torren familiarity should read through shorthand and ease. Cyanis carries the intact exposed Card itself; the Chapter-0 recovery casing is gone. Card remains inert. Torren knows the Black Host took Hollow Watch about a week ago and that digging/excavation gear has moved up the spur. He has not entered the occupied fort and does not know the garrison fate, excavation objective, older descent, or ancient purpose. He must not identify Wayfinder as the southern solution or ancient-important location before the later mural."
+    "runtime_note": "Greenhollow is a town. Relevant party members, Torren, the route worker, and ordinary NPCs may already be present as field models. Do not apply Cyanis-only wilderness traversal presentation inside the town. Dialogue uses portraits + dialogue box, with field models in simple sensible positions rather than micro-choreography. The existing route board is the only required interaction object; do not add repeated chalk handling, pointing, board tracing, equipment prep, prop comedy, or ambient micro-events. Cyanis carries the intact Card itself; it remains inert. Torren knows the Black Host took Hollow Watch about a week ago and excavation gear has gone up. He has not entered the occupied fort and does not know the garrison fate, excavation objective, older descent, ancient purpose, or later Junction significance."
   },
   "current_floor_state": {
     "larger_destination": "Caelora",
     "immediate_destination_on_entry": "Greenhollow",
+    "location_presentation": "town_field_models_allowed",
+    "dialogue_presentation": "portraits_plus_dialogue_box",
     "combat_party_on_entry": ["cyanis", "ilyra"],
     "maevra_party_status": "noncombat_traveling_companion",
     "torren_party_status_on_entry": "not_yet_traveling_with_group",
     "card_state": "intact_exposed_card_carried_by_cyanis_inert"
   },
+  "required_story_beats": [
+    "Torren is encountered at or around Greenhollow's existing route board.",
+    "Maevra and Torren's long familiarity reads naturally through dialogue.",
+    "Torren demonstrates current regional route expertise.",
+    "The direct Greenhollow-Dunmere road is unavailable because of Black Host control.",
+    "Torren receives only the travel-relevant Card/Caelora brief.",
+    "Hollow Watch has been held by the Black Host for roughly a week and excavation traffic has gone up.",
+    "Torren will guide the deeper Briar route only after Hollow Watch is investigated and dealt with.",
+    "Torren joins the Hollow Watch operation as temporary combat support."
+  ],
+  "forbidden_presentation": [
+    "repeated_route_board_chalk_animation",
+    "chalk_handoff_business",
+    "field_case_or_equipment_prep_animation",
+    "repeated_pointing_or_turning_for_dialogue",
+    "ambient_cart_or_prop_vignettes_authored_by_dialogue",
+    "micro_animation_used_only_for_flavor"
+  ],
+  "forbidden_reveals": [
+    "hollow_watch_garrison_fate_before_investigation",
+    "black_host_excavation_target",
+    "older_descent_beneath_fort",
+    "ancient_ruin_true_purpose",
+    "wayfinder_or_junction_ancient_significance",
+    "prime_or_last_sentinel_identity",
+    "bearer_or_authorization_explanation"
+  ],
   "allowed_information_transfers": [],
   "exact_line_anchors": [],
   "max_beats": 26,
-  "production_cost_ceiling": "economical"
+  "production_cost_ceiling": "economical_established_town_presentation"
 }
