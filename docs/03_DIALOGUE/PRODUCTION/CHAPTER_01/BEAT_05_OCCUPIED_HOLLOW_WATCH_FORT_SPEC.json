@@ -20,6 +20,11 @@
         "Beat 5 — Occupied Hollow Watch Fort"
       ],
       "role": "current_chapter_01_beat_05_story_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
+      "whole_file": true,
+      "role": "current_direct_card_physical_state_authority"
     }
   ],
   "additional_authority_sources": [
@@ -54,6 +59,16 @@
       "role": "scene_construction_authoring_contract"
     },
     {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_dialogue_contract"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md",
+      "whole_file": true,
+      "role": "invisible_knowledge_firewall_contract"
+    },
+    {
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
       "whole_file": true,
       "role": "walking_dialogue_hard_lock"
@@ -71,7 +86,7 @@
       "excavation tools, rope, timber, braces, lamps, spoil and downward-moving supply traffic increasingly dominate the lower side of the fort",
       "older fitted stone is visible where Black Host work has cut through or stripped later construction"
     ],
-    "runtime_note": "No walking dialogue in ordinary fort traversal. Torren has never entered occupied Hollow Watch before this operation and does not know its present interior state. Use gameplay/silence during hostile movement and only speak at genuinely secured cells/stops. HARD KNOWLEDGE BOUNDARY: before the garrison discovery Torren does not know whether the garrison survived, fled, was captured or was killed. After the surface sweep, the party may know the garrison was killed because the scene/gameplay has actually confirmed it. Nobody yet knows what the Black Host is trying to reach, what lies beneath the fort, the ancient structure's purpose, the six-channel junction, the mural, Wayfinder significance, Prime identity or any ancient-network truth. The Card remains sealed/inert throughout Beat 5."
+    "runtime_note": "No walking dialogue in ordinary fort traversal. Torren has never entered occupied Hollow Watch before this operation and does not know its present interior state. Use gameplay/silence during hostile movement and only speak at genuinely secured cells/stops. Before the garrison discovery Torren does not know whether the garrison survived, fled, was captured or was killed. After the surface sweep, the party may know the garrison was killed because the scene/gameplay has actually confirmed it. Nobody yet knows what the Black Host is trying to reach, what lies beneath the fort, the ancient structure's purpose, the six-channel junction, the mural, Wayfinder significance, Prime identity or any ancient-network truth. Keep those boundaries writer-facing: do not make the cast repeatedly certify what they do or do not know. Cyanis carries the intact Card itself; it remains inert throughout Beat 5."
   },
   "current_floor_state": {
     "combat_party": ["cyanis", "ilyra", "torren"],
@@ -79,7 +94,7 @@
     "torren_party_status": "temporary_combat_ally",
     "garrison_fate_on_entry": "unknown_to_party",
     "excavation_objective_on_entry": "unknown_to_party",
-    "card_state": "sealed_inert"
+    "card_state": "intact_directly_carried_by_cyanis_inert"
   },
   "allowed_information_transfers": [],
   "exact_line_anchors": [],
