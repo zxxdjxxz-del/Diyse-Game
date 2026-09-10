@@ -122,6 +122,19 @@ Hard rule:
 
 No routine Black Host patrols. Plausible creatures/hazards/non-Host threats only. Architecture progresses from Dunmere/Yahtrean construction into older reused foundations and then clearly ancient construction.
 
+### Sealed future-Hunt branch
+A short way into the Old Waterworks, the party encounters a **real side-branch door that cannot be opened during Chapter 2**.
+
+Locks:
+- the door is visible and memorable, not hidden;
+- Torren may inspect it, but the current party has no usable way to open it;
+- it is **not** a Chapter-2 key puzzle, switch hunt, breakable wall, or optional detour that can be solved early;
+- no Chapter-2 dialogue identifies what lies beyond it;
+- no tutorial text needs to announce “come back later”;
+- the door remains a persistent return point and will later lead into a Hunt route under Hunt authority.
+
+Water is an ordinary environmental pressure throughout the works. The route may force **Cyanis, Ilyra, Torren, and Maevra all to get thoroughly wet**. Do not single out Torren's belongings or pre-signpost the later `Still Burns` joke here.
+
 End → Sunken Archive / Beat 5.
 
 ---
