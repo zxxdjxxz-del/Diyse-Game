@@ -1,6 +1,6 @@
 # Chapter 0 — P05
 # Concealed Ruin Vanguard
-## REHEARSAL-FIRST PRODUCTION DRAFT A — awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT B — chapter-wide polish / awaiting user approval
 
 ---
 
@@ -68,25 +68,13 @@ Normal field/story presentation returns.
 
 **ILYRA:** Let him.
 
-**CYANIS:** I know.
-
-A beat.
+**CYANIS:** Wasn't going after him.
 
 **ILYRA:** Good.
 
-Cyanis watches the route for another second.
+They leave it there.
 
-**CYANIS:** Didn't like that.
-
-**ILYRA:** Which part?
-
-**CYANIS:** Him.
-
-A beat.
-
-**ILYRA:** Useful distinction.
-
-That is as far as they take it. They do not infer who he is, why he withdrew, or whether the north cut was bait.
+Nobody infers who he is, why he withdrew, or whether the north cut was bait.
 
 ---
 
@@ -98,45 +86,31 @@ There is a real noncombat interval here.
 
 No immediate boss sting. No continuous Card ward. No second flare yet.
 
-Ilyra checks Cyanis because P04 already gave her a reason to monitor him.
+Ilyra checks Cyanis because P04 already gave her a reason to monitor him, but the scene does not turn into another full medical exchange.
 
-**ILYRA:** Sit down.
+**ILYRA:** Water.
 
-**CYANIS:** I'm fine.
+**CYANIS:** That an order?
 
-Ilyra looks at him.
-
-**CYANIS:** Better than before.
-
-**ILYRA:** Better.
-
-A beat.
-
-**CYANIS:** That's all I get?
-
-**ILYRA:** That's all you earned.
-
-Cyanis sits.
-
-For a short while, neither talks.
-
-The treatment camp continues around them.
-
-**CYANIS:** You always this pleasant?
-
-**ILYRA:** No.
-
-A beat.
-
-**CYANIS:** Good.
-
-**ILYRA:** Drink.
-
-**CYANIS:** There it is.
+**ILYRA:** Yes.
 
 He drinks.
 
-The moment ends without becoming a friendship speech.
+A little quiet passes.
+
+**CYANIS:** Better?
+
+**ILYRA:** Ask me in five minutes.
+
+**CYANIS:** Encouraging.
+
+**ILYRA:** Drink again.
+
+He does.
+
+The treatment camp continues around them.
+
+Neither fills the pause simply because dialogue is available.
 
 Player control can return briefly inside the defended area before the final attack begins.
 
