@@ -506,6 +506,160 @@ Do not reveal in Beat 4:
 
 # Beat 5 — Sunken Archive Entrance
 
+**Development status:** CURRENT WORKING BEAT PACKET
+
+## Purpose
+
+Establish the ancient complex as a substantial place with its own function, scale, and exploration identity before Chapter 2 delivers the western-map revelation.
+
+Beat 5 should:
+- make the transition from the Old Waterworks into the ancient structure feel meaningful rather than cosmetic;
+- establish that the party has entered a purpose-built Diysean complex, not simply older foundations;
+- communicate an archival/preservation function through the environment without requiring an omniscient lore explanation;
+- preserve the covert-infiltration objective: the party is still looking for a way into the Red Transfer Bastion and for the kidnapped travelers;
+- give the player time to understand the new place before the major cartographic discovery in Beat 6.
+
+## Starting state
+
+- the party has followed the Dunmere waterworks route into construction that no longer belongs to the municipal system;
+- the elder's practical route knowledge has effectively run out at this threshold;
+- the party believes the older structure is related to the broad Diysean architectural tradition encountered at Hollow Watch and Wayfinder;
+- they do not yet know where within the larger structure a connection to the Bastion may exist;
+- they do not know about the western map mural, Archive Leviathan, secret passage, or Prisoner Galleries;
+- combat party: **Cyanis + Ilyra + Torren**;
+- Maevra remains physically with the group and fully noncombat;
+- the Black Host still has no reason to know the party entered through this route.
+
+## Location-name / knowledge rule
+
+**Sunken Archive** is the current production/gameplay location name.
+
+That does **not** mean the characters automatically know the ancient site's proper historical name.
+
+The place may become recognizable as archive-like through its physical organization, preservation systems, storage architecture, cataloging structures, map/display spaces, sealed repositories, or equivalent environmental evidence. The party may reasonably infer that records or stored information were kept here.
+
+Do not make anyone read an untranslated ancient label, announce a formal ancient facility name, or possess specialist archaeological knowledge unless separately supported by current character/world authority.
+
+## Area identity
+
+The Sunken Archive should immediately feel larger and more deliberate than the waterworks that intersected it.
+
+Its defining qualities should include, at the level of story requirement rather than final map layout:
+- **scale:** chambers/passages clearly designed as part of a major ancient complex;
+- **preservation:** evidence that information, objects, records, maps, or other stored material were meant to survive;
+- **water intrusion:** portions of the complex are submerged, flooded, water-damaged, or otherwise shaped by the later environment, supporting the `Sunken` identity without making every room underwater;
+- **continuity:** visual/structural language connects broadly to Hollow Watch and Wayfinder while revealing a different function;
+- **age:** the site predates Dunmere's modern waterworks and the Red Transfer Bastion built above/near it.
+
+Exact architecture, tile set, room layout, water depth, interactables, and visual motifs belong to the later area-design pass.
+
+## Playable structure
+
+Beat 5 should contain enough traversal to establish the Archive before the map mural appears.
+
+The player should move from the entry threshold into the complex and learn its basic exploration grammar. This may include:
+- flooded versus dry routes;
+- intact versus inaccessible archive spaces;
+- ancient doors/partitions or preservation barriers;
+- optional side chambers or recoverable ordinary loot as later map/item authority permits;
+- environmental hazards, local creatures, or ancient defenses under live encounter authority.
+
+Do not turn this beat into a second full dungeon before Beat 6. Its job is **orientation and identity**.
+
+## Enemy / occupation boundary
+
+The Sunken Archive is **not** an active Black Host facility in this section.
+
+Do not add routine Black Host camps, patrols, supply stores, or recent occupation markers simply to create combat. The old waterworks/Archive route remains the party's covert path around the occupied Bastion.
+
+Random encounters or authored pressure may come from the Archive's ecology, hazards, or ancient defensive systems where supported by encounter authority.
+
+The first unmistakable Black Host-controlled prisoner infrastructure belongs later, when the secret passage reaches the Prisoner Galleries.
+
+## Information pacing
+
+Beat 5 establishes **what kind of place this appears to be**, not the chapter's major map information.
+
+The party may conclude or suspect that:
+- the structure was built to preserve/store information or important material;
+- the waterworks were later attached to or cut through part of it;
+- the complex extends much farther than the elder could have known;
+- there may be additional routes through it toward the Bastion.
+
+They should **not yet discover or discuss the full western map**.
+
+The actual cartographic payoff is Beat 6 and needs room to land as a distinct discovery.
+
+## Agent-Brain rehearsal packet
+
+Dialogue should be sparse and triggered by actual discoveries rather than running continuously through the Archive.
+
+The Director may provide the agents with:
+- the visible change in scale/function from the waterworks;
+- the party's prior experience at Hollow Watch and Wayfinder;
+- the fact that the elder's directions no longer describe the structure ahead;
+- the continuing tactical need to find a route into the Bastion;
+- visible archive/preservation features;
+- any immediate traversal hazard or choice actually supported by the map.
+
+Natural responses may include:
+- Torren comparing route geometry or recognizing that the complex extends beyond the waterworks alignment;
+- Maevra keeping the group oriented toward the infiltration objective rather than allowing the discovery to become an open-ended expedition;
+- Ilyra evaluating whether the route remains plausible for moving injured people, if relevant to what they physically encounter;
+- Cyanis reacting to the scale/implications while keeping practical momentum.
+
+None of these reactions are mandatory lines. Let the independent Person Agents decide who actually speaks and what matters to them in the moment.
+
+## Presentation rule
+
+Use the environment to sell the reveal.
+
+Do not compensate for limited exposition with excessive micro-staging, repeated inspections, characters touching every ancient device, or a series of bespoke camera moments. One strong transition into the Archive plus selective authored stops is preferable.
+
+During ordinary traversal, Cyanis remains the visible controllable field character. Other present characters may appear during authored stops under the established field-presentation rules.
+
+## Mandatory progression
+
+- the party crosses from the Old Waterworks into the ancient complex;
+- the difference in scale/function becomes unmistakable;
+- environmental evidence supports an archive/preservation/storage interpretation without requiring certainty about the ancient site's formal name;
+- the site is recognizably related to earlier Diysean construction while representing a different kind of facility;
+- the party confirms that the structure extends farther toward/under the Bastion than the elder's known waterworks route;
+- exploration continues without alerting the Black Host;
+- the party reaches the next major archive section where the western cartographic discovery can occur.
+
+## End state / knowledge change
+
+- the party is now fully inside the **Sunken Archive** as a gameplay location;
+- they understand that Dunmere's waterworks intersected a far older, substantial information/preservation complex;
+- they have not solved the purpose or extent of the broader Diysean system;
+- they still intend to find a route into the Red Transfer Bastion and locate the kidnapped travelers;
+- the western map has not yet been interpreted;
+- the covert infiltration remains intact.
+
+## Gameplay handoff
+
+→ **Beat 6 — Western Map Mural**
+
+## Reveal firewall
+
+Do not reveal in Beat 5:
+- the western-half map's actual network information;
+- the huge ancient city at modern Caelora's location;
+- the complete route continuation beyond the western map;
+- the Archive Leviathan before its later setup/encounter window;
+- the secret passage into the Prisoner Galleries;
+- prisoner locations/counts;
+- Rhazek's role or philosophy;
+- Seyrik's presence/identity;
+- Last Sentinel;
+- Cresthaven;
+- the complete Diysean route/infrastructure explanation.
+
+---
+
+# Beat 6 — Western Map Mural
+
 **Development status:** NEXT TO DEVELOP
 
-Current locked function from `CHAPTER_02.md`: establish that the newly discovered older layer is the substantial Sunken Archive, connect it broadly to Hollow Watch/Wayfinder-era construction without solving its larger purpose, and make the Archive the active exploration space before the western-map discovery.
+Current locked function from `CHAPTER_02.md`: deliver Chapter 2's major Ancient cartographic payoff through a **complete western-half map** whose route/network lines visibly continue beyond its physical edges, revealing the broader western system and the enormous ancient city at the location of modern Caelora without explaining the missing eastern continuation or the system's full purpose.
