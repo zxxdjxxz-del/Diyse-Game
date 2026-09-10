@@ -1,6 +1,6 @@
 # Chapter 1 — Character-Life C05
 # No Spoilers
-## REHEARSAL-FIRST PRODUCTION DRAFT A — awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT B — Maevra splint-change scene / awaiting user approval
 
 ---
 
@@ -8,175 +8,249 @@
 
 Later in the Junction-area camp.
 
-This scene is primarily **Ilyra and Maevra**. It does not begin as a conversation about Cyanis, Torren, work, the war, the Junction, or anyone's emotional state.
+This scene begins because **Ilyra is changing Maevra's splint**.
 
-Maevra is reading a cheap serialized adventure-romance she has carried with her. Ilyra initially assumes it is official paperwork.
+Maevra's arm was broken during the Broken Convoy attack before Chapter 1 began. The bone is still broken. Ilyra can make the injury more tolerable with ordinary care and restrained healing magic, but she cannot magically mend the fracture.
 
-Because this is camp, both may be present as field models. Portraits and the dialogue box carry almost all of the acting.
+Maevra has brought a cheap serialized adventure-romance to read while Ilyra works.
 
-No elaborate book animation is required. One book is enough.
+That is the situation. The scene is not required to become a discussion of medicine, the war, or Maevra's decision to keep traveling.
 
-Cyanis and Torren may be elsewhere in camp and do not need to be visible until or unless they enter the conversation.
+Because this is camp, Ilyra and Maevra may both be present as field models. A simple old-splint/new-splint state change and one restrained magic effect are enough. Portraits and the dialogue box carry the scene.
 
-No lore, Hunt progression, reward, or relationship speech.
-
----
-
-### [THE BOOK]
-
-Ilyra has been quiet for a while.
-
-Eventually:
-
-**ILYRA:** Bad?
-
-**MAEVRA:** Terrible.
-
-**ILYRA:** The report?
-
-Maevra looks up.
-
-**MAEVRA:** What report?
-
-A beat.
-
-Ilyra looks at the book.
-
-**ILYRA:** Oh.
-
-**MAEVRA:** Don't sound disappointed.
-
-**ILYRA:** I thought you were working.
-
-**MAEVRA:** That's offensive.
-
-**ILYRA:** Sorry.
-
-A beat.
-
-**ILYRA:** What's terrible?
-
-**MAEVRA:** Everything.
-
-**ILYRA:** Helpful.
-
-**MAEVRA:** The duke's obviously lying. The captain's obviously in love with her. She trusts neither of them and has decided the solution is to travel alone through a haunted marsh.
-
-Ilyra stares at her.
-
-**ILYRA:** Why?
-
-**MAEVRA:** Exactly.
+Cyanis and Torren may be elsewhere in camp until they naturally enter the conversation.
 
 ---
 
-### [WHY SHE IS STILL READING]
+### [OLD SPLINT OFF]
 
-**ILYRA:** So stop reading it.
+**ILYRA:** Hold still.
 
-**MAEVRA:** No.
+**MAEVRA:** I am holding still.
 
-**ILYRA:** You just said everything is terrible.
+**ILYRA:** You're turning pages.
+
+**MAEVRA:** Other arm.
+
+**ILYRA:** You're still moving.
+
+**MAEVRA:** The book's at a very important part.
+
+**ILYRA:** You said it was terrible.
 
 **MAEVRA:** It is.
 
-**ILYRA:** Then why are you reading it?
-
-Maevra considers the question as if Ilyra has missed something basic.
-
-**MAEVRA:** I need to know how bad it gets.
+Ilyra starts removing the old splint.
 
 A beat.
 
-**ILYRA:** That's not a reason.
+**MAEVRA:** Fuck.
 
-**MAEVRA:** It's an excellent reason.
+**ILYRA:** I warned you.
 
-**ILYRA:** No, it isn't.
+**MAEVRA:** You said pressure.
 
-**MAEVRA:** You haven't met the aunt yet.
+**ILYRA:** That was pressure.
 
-**ILYRA:** I don't know who the aunt is.
+**MAEVRA:** Then I object to pressure.
 
-**MAEVRA:** Exactly.
+**ILYRA:** Noted.
 
-Ilyra looks at her for a second.
+A beat.
 
-**ILYRA:** You're enjoying this.
+**MAEVRA:** Deeply noted?
 
-**MAEVRA:** Immensely.
+**ILYRA:** No.
+
+Maevra goes back to the book.
 
 ---
 
-### [ILYRA GETS PULLED IN]
+### [MAGIC]
+
+Ilyra checks the arm, then uses a small amount of Warden magic.
+
+The effect is restrained. It is relief, not a cure.
+
+Maevra exhales.
+
+**ILYRA:** Better?
+
+**MAEVRA:** A little.
+
+**ILYRA:** That's all it's doing.
+
+**MAEVRA:** I know.
+
+**ILYRA:** You asked me twice if it could fix the bone.
+
+**MAEVRA:** I was checking whether medicine had improved.
+
+**ILYRA:** In the last hour?
+
+**MAEVRA:** I had hopes.
+
+**ILYRA:** Keep them modest.
+
+A beat.
+
+**MAEVRA:** Cruel woman.
+
+**ILYRA:** Hold still.
+
+---
+
+### [THE BOOK BECOMES THE PROBLEM]
+
+Ilyra starts fitting the fresh splint.
+
+Maevra keeps reading.
 
 A little while passes.
 
-Ilyra tries to leave it alone.
+**MAEVRA:** Oh, that's stupid.
 
-She fails.
+**ILYRA:** The arm?
 
-**ILYRA:** Why is the duke lying?
+**MAEVRA:** No, that's straightforward.
 
-Maevra looks up immediately.
+**ILYRA:** Good.
 
-**MAEVRA:** Knew it.
+**MAEVRA:** The duke.
 
-**ILYRA:** I asked one question.
+Ilyra looks at her.
 
-**MAEVRA:** That's how it starts.
+**ILYRA:** What duke?
 
-**ILYRA:** Answer it.
+**MAEVRA:** The lying one.
 
-**MAEVRA:** He says he was in Bellharrow the night the chapel burned.
+**ILYRA:** Of course.
+
+**MAEVRA:** He says he was in Bellharrow when the chapel burned.
 
 **ILYRA:** Was he?
 
 **MAEVRA:** Obviously not.
 
-**ILYRA:** How do you know?
+**ILYRA:** Why obviously?
+
+Maevra looks up from the book.
 
 **MAEVRA:** His horse is afraid of bells.
 
 Silence.
 
-**ILYRA:** What?
+**ILYRA:** I'm sorry?
 
 **MAEVRA:** Exactly.
 
-**ILYRA:** No. Explain that.
+**ILYRA:** No. You don't get to say exactly. Explain it.
 
-**MAEVRA:** Three chapters ago they spent half a page establishing that the horse panics every time a bell rings.
+**MAEVRA:** Three chapters ago they spent half a page establishing that the horse panics at bells.
 
-**ILYRA:** And Bellharrow—
+**ILYRA:** And Bellharrow has bells.
 
-**MAEVRA:** Has bells everywhere.
+**MAEVRA:** Everywhere.
 
-Ilyra thinks about it.
+Ilyra thinks about that while securing the splint.
 
-**ILYRA:** That's actually not terrible.
+**ILYRA:** That's not terrible.
 
 Maevra looks offended.
 
 **MAEVRA:** Don't defend it.
 
-**ILYRA:** You just defended it.
+**ILYRA:** I'm not defending it.
 
-**MAEVRA:** I am allowed to understand the crime.
+**MAEVRA:** You just did.
 
-**ILYRA:** That's not how criticism works.
+**ILYRA:** I'm saying the clue works.
 
-**MAEVRA:** It is tonight.
+**MAEVRA:** The rest of it is garbage.
+
+**ILYRA:** You seem very invested in the garbage.
+
+**MAEVRA:** I need to know how bad it gets.
+
+**ILYRA:** That's not a reason.
+
+**MAEVRA:** It's the only reason I need.
 
 ---
 
 ### [THE CAPTAIN]
 
-**ILYRA:** The captain's in love with her?
+Ilyra finishes tightening the new splint.
 
-**MAEVRA:** Painfully.
+**ILYRA:** Fingers.
 
-**ILYRA:** Does she know?
+Maevra moves them.
+
+**MAEVRA:** Still attached.
+
+**ILYRA:** Useful.
+
+**MAEVRA:** Happy to contribute.
+
+Ilyra checks the fit once more.
+
+**ILYRA:** There.
+
+**MAEVRA:** Done?
+
+**ILYRA:** Done.
+
+Maevra immediately settles more comfortably with the book.
+
+**ILYRA:** You weren't even pretending to rest.
+
+**MAEVRA:** I am sitting down.
+
+**ILYRA:** That's not the same thing.
+
+**MAEVRA:** Close enough.
+
+A beat.
+
+Ilyra remains there.
+
+**MAEVRA:** What?
+
+**ILYRA:** Nothing.
+
+**MAEVRA:** You're still here.
+
+**ILYRA:** The captain.
+
+Maevra smiles.
+
+**MAEVRA:** Knew it.
+
+**ILYRA:** Don't.
+
+**MAEVRA:** He's in love with her.
+
+**ILYRA:** The duke's wife?
+
+**MAEVRA:** Not his wife.
+
+**ILYRA:** The woman in the marsh.
+
+**MAEVRA:** Lady Merra.
+
+**ILYRA:** Why is she in a marsh?
+
+**MAEVRA:** Because she has terrible judgment.
+
+**ILYRA:** And the captain?
+
+**MAEVRA:** Also terrible judgment, but differently.
+
+---
+
+### [ILYRA GETS PULLED IN]
+
+**ILYRA:** Does she know he's in love with her?
 
 **MAEVRA:** Everyone knows.
 
@@ -184,145 +258,125 @@ Maevra looks offended.
 
 **MAEVRA:** Naturally.
 
-**ILYRA:** Why doesn't he tell her?
+**ILYRA:** Does he know she doesn't know?
 
-**MAEVRA:** Because then the book would be shorter.
+Maevra pauses.
 
-Ilyra laughs.
+**MAEVRA:** That's actually a good question.
 
-**ILYRA:** Fair.
+**ILYRA:** You've read how much of this?
 
-**MAEVRA:** Also he's convinced she's still in love with the duke.
+**MAEVRA:** Most of it.
 
-**ILYRA:** Is she?
+**ILYRA:** And you don't know?
 
-Maevra gives her a look.
+**MAEVRA:** Nobody in this book speaks plainly unless someone is bleeding.
 
-**ILYRA:** What?
+Ilyra glances at the splint.
 
-**MAEVRA:** You care now.
+**ILYRA:** Convenient standard.
 
-**ILYRA:** I care whether this woman survives the marsh she entered for no reason.
+**MAEVRA:** She isn't bleeding now.
 
-**MAEVRA:** Mm-hm.
+**ILYRA:** Is anyone?
 
-**ILYRA:** Don't.
-
-**MAEVRA:** Didn't say anything.
-
-**ILYRA:** You did with your face.
-
----
-
-### [CYANIS ARRIVES AT THE WRONG MOMENT]
-
-Cyanis approaches the camp conversation for an ordinary reason and hears only the end of it.
-
-No entrance choreography is required.
-
-**CYANIS:** Who's dying in a marsh?
-
-**ILYRA:** Lady Merra.
-
-Cyanis stops.
-
-**CYANIS:** Who?
-
-**MAEVRA:** Nobody.
-
-**ILYRA:** She's absolutely somebody now.
-
-Maevra looks at Ilyra.
-
-**MAEVRA:** Traitor.
-
-**CYANIS:** I feel like I've missed something important.
-
-**MAEVRA:** You haven't.
-
-**ILYRA:** Her horse isn't afraid of bells.
-
-**MAEVRA:** Wrong horse.
-
-**ILYRA:** Right. The duke's horse.
-
-**CYANIS:** I'm going to regret asking.
-
-**MAEVRA:** Deeply.
-
-**CYANIS:** Why is the horse important?
-
-Maevra closes the book around one finger.
-
-**MAEVRA:** Sit down.
-
-**CYANIS:** That bad?
-
-**ILYRA:** Worse.
+**MAEVRA:** The gardener, but that's unrelated.
 
 A beat.
 
-Cyanis stays.
+**ILYRA:** I hate that I want to know why.
+
+**MAEVRA:** That's how it gets you.
 
 ---
 
-### [THEORY]
+### [CYANIS ARRIVES]
 
-A little later, Cyanis has been given enough of the plot to have an opinion.
+Cyanis catches the conversation after the splint change is finished.
+
+No entrance choreography is needed.
+
+**CYANIS:** What's how it gets you?
+
+**MAEVRA:** Nothing.
+
+**ILYRA:** A terrible book.
+
+Maevra looks at her.
+
+**MAEVRA:** Traitor.
+
+**CYANIS:** How terrible?
+
+**ILYRA:** There's a duke, a captain, a woman in a marsh, and a suspicious horse.
+
+**MAEVRA:** The horse isn't suspicious.
+
+**ILYRA:** It knows more than the duke.
+
+**CYANIS:** That's suspicious enough.
+
+Maevra closes the book around one finger.
+
+**MAEVRA:** You haven't read a word of it.
+
+**CYANIS:** Fresh perspective.
+
+**ILYRA:** That's what I said.
+
+**MAEVRA:** No, it isn't.
+
+**ILYRA:** It was going to be.
+
+---
+
+### [THE AUNT]
+
+A little later, Cyanis has been given just enough of the plot to become dangerous.
 
 **CYANIS:** The aunt did it.
 
 **MAEVRA:** No.
 
-**CYANIS:** You said she appeared immediately after the chapel burned.
+**CYANIS:** You said she showed up the morning after the chapel burned.
 
 **MAEVRA:** She's comic relief.
 
-**CYANIS:** That's what she wants you to think.
+**CYANIS:** Perfect cover.
 
-**ILYRA:** I agree with him.
+**ILYRA:** He's got a point.
 
-Maevra stares at both of them.
+**MAEVRA:** No, he doesn't.
 
-**MAEVRA:** You have read none of this book.
+**CYANIS:** Thank you, Ilyra.
 
-**CYANIS:** Fresh perspective.
+**ILYRA:** I didn't say you were right.
 
-**ILYRA:** No emotional attachment.
+**CYANIS:** Close enough.
 
-**MAEVRA:** You were worried about Lady Merra five minutes ago.
+**MAEVRA:** Both of you are banned from theories.
 
-**ILYRA:** That's different.
+**CYANIS:** You invited me into this.
 
-**MAEVRA:** How?
+**MAEVRA:** You walked over here.
 
-Ilyra thinks.
+**CYANIS:** Spiritually invited.
 
-**ILYRA:** I like her less than I want her alive.
-
-Cyanis nods.
-
-**CYANIS:** That's a useful distinction.
-
-**MAEVRA:** Both of you are banned from opinions.
-
-**CYANIS:** Too late.
+**ILYRA:** No.
 
 ---
 
-### [TORREN MAKES IT WORSE]
+### [TORREN DOES NOT HELP]
 
-Torren is elsewhere nearby in camp. He has apparently heard enough of the conversation to understand what book Maevra is reading.
+Torren has heard enough from nearby to understand which book Maevra is reading.
 
-He does not need to join the scene physically.
+He does not need to enter the scene physically.
 
-After a quiet stretch:
+After a lull:
 
 **TORREN:** Captain's the brother.
 
 Silence.
-
-Maevra's head comes up.
 
 **MAEVRA:** Torren.
 
@@ -340,19 +394,23 @@ A beat.
 
 **CYANIS:** Could be the brother.
 
-**MAEVRA:** Dovaren.
+**ILYRA:** It would explain the duke.
 
-**ILYRA:** It would explain why the captain hates the duke.
+**MAEVRA:** I just changed the subject away from my broken arm and somehow this is worse.
 
-**MAEVRA:** Amarin.
+**ILYRA:** I didn't do that.
+
+**MAEVRA:** No. You enabled it.
 
 **CYANIS:** We're helping.
 
-**MAEVRA:** You're ruining it.
+**MAEVRA:** None of you are helping.
+
+From nearby:
 
 **TORREN:** Haven't read it.
 
-**MAEVRA:** I know, Torren.
+**MAEVRA:** I know.
 
 ---
 
@@ -362,7 +420,7 @@ Maevra opens the book again.
 
 **MAEVRA:** New rule.
 
-**CYANIS:** That sounds ominous.
+**CYANIS:** That sounds dangerous.
 
 **MAEVRA:** Nobody speaks while I read the next page.
 
@@ -370,11 +428,11 @@ Maevra opens the book again.
 
 **MAEVRA:** One page.
 
-**CYANIS:** And then?
+**CYANIS:** Then theories resume?
 
 **MAEVRA:** Then you may all be wrong again.
 
-They actually manage several seconds of silence.
+They manage several seconds of silence.
 
 Maevra reads.
 
@@ -386,21 +444,17 @@ Then:
 
 **MAEVRA:** Oh, fuck off.
 
-Ilyra immediately:
-
 **ILYRA:** What happened?
 
 **MAEVRA:** No.
 
-**CYANIS:** You can't do that.
+**CYANIS:** You can't do that after saying that out loud.
 
 **MAEVRA:** Watch me.
 
 **ILYRA:** Maevra.
 
-Maevra looks from one to the other.
-
-For once, she has all the leverage.
+Maevra looks between them.
 
 **MAEVRA:** No spoilers.
 
@@ -410,14 +464,16 @@ Scene ends.
 
 ## Presentation / character check
 
-**Camp presentation:** Ilyra and Maevra may already be visible at camp. Cyanis can join the conversation naturally. Torren may remain elsewhere and contribute one line without requiring movement choreography.
+**Injury continuity:** Maevra's arm was broken during the Broken Convoy attack before Chapter 1. The bone remains broken at Junction camp.
 
-**Physical economy:** one book is the only required prop. No report sorting, medical-pouch management, gear carrying, page-turn animation, chair movement, or other micro-staging is needed.
+**Ilyra:** performs one legitimate medical task: removing/checking/replacing the splint and using restrained magic to ease pain. She does not magically heal the fracture and does not become a lecturer or therapist.
 
-**Ilyra / Maevra:** the scene gives them an adult friendship beat that exists independently of managing Cyanis. Ilyra is curious, amused, argumentative, and gets pulled into something stupid; Maevra gets to be socially loose and genuinely invested in bad popular fiction.
+**Maevra:** the injury is something she is living with, not the whole subject of the scene. Her bad-fiction habit naturally becomes the distraction while Ilyra works.
 
-**Cyanis:** joins because he overhears something absurd and becomes part of the problem, not because the scene is secretly about his self-neglect.
+**Camp presentation:** a splint state change, one brief magic effect, and the book are sufficient. Do not animate every wrap, page turn, hand movement, or medical step.
 
-**Torren:** one dry interruption is enough. He does not take over the scene.
+**Cyanis:** enters because the conversation becomes ridiculous, not because he is the emotional center.
 
-**Scene function:** no therapy, no character diagnosis, no lore, no war briefing, no relationship declaration. The characters are simply allowed to waste time together.
+**Torren:** contributes one dry interruption and remains peripheral.
+
+**Scene function:** quietly explains one continuing Chapter-1 reality — why Maevra is traveling but not fighting — while still functioning primarily as ordinary Character-Life material.
