@@ -17,6 +17,16 @@ The old Chapter-1 `LINE_COMPLETE` transcript set and the superseded pre-rehearsa
 
 The current production manuscript is the dialogue version to use going forward. It may still receive bounded implementation/playtest edits; `complete current working production` is not a permanent immutable line lock.
 
+## Pipeline continuity
+
+Chapter 1 is one of the two reference implementations for the locked forward dialogue workflow. The same rehearsal-first Agent Brain system used here and in Chapter 0 is mandatory for Chapters 2–13 and future Diyse dialogue unless explicitly revised by the user.
+
+Owning lock:
+`docs/03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`
+
+Required sequence:
+**scene/world state → independent Person Agent Brain rehearsals → Dialogue Editor → invisible Canon/Knowledge Checker → economical HD-2D staging/implementation**.
+
 ## Current Character-Life files
 
 - `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md`
