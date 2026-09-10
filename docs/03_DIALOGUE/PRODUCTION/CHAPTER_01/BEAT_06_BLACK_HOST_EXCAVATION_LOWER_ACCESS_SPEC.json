@@ -5,46 +5,53 @@
   "story_position": "Chapter 1 — Beat 6 — Black Host Excavation / Lower Access",
   "production_ready": false,
   "participants": ["cyanis", "ilyra", "maevra", "torren"],
-  "scene_purpose": "Establish roughly a week of sustained organized Black Host excavation beneath Hollow Watch; transition visually and physically from later Yahtrean fort construction into an older Diysean structure; show that the Host deliberately exposed, scrubbed, and forced deeper ancient surfaces; introduce Diysean Sentries through the ordinary random encounter pool so the lower ruin is not inert; and carry the party to the lower junction without spending the six-channel human-use clue, mural, Wayfinder significance, or any ancient-system explanation.",
+  "scene_purpose": "Establish sustained Black Host excavation beneath Hollow Watch, transition from later Yahtrean construction into older Diysean structure, let Diysean Sentries enter the random encounter pool, and reach the lower junction while preserving the established Cyanis-only dungeon traversal and simple triggered-scene presentation.",
   "story_sources": [
     {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Beat 6 — Black Host Excavation / Lower Access"], "role": "current_chapter_01_beat_06_story_authority"},
     {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "direct_card_physical_state_authority"}
   ],
   "additional_authority_sources": [
+    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "field_and_scene_presentation_hard_lock"},
     {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "torren_character_authority"},
     {"path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md", "whole_file": true, "role": "maevra_character_authority"},
     {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_authoring_lock"},
     {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "knowledge_firewall_invisibility_lock"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md", "whole_file": true, "role": "scene_construction_authoring_contract"},
     {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"},
     {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md", "whole_file": true, "role": "ordinary_enemy_random_encounter_lock"}
   ],
   "scene_context_seed": {
     "location_name": "Hollow Watch lower excavation and exposed Diysean access",
     "area_phase": "hostile_excavation_to_ancient_transition",
-    "dialogue_readiness": "AMBER",
+    "dialogue_readiness": "AMBER_at_story_stops_RED_during_traversal",
     "static_story_context_only": true,
-    "visible_environment": [
-      "Black Host braces, lamps, pry tools, spoil, ropes and cleared stone show sustained organized work rather than a fresh breach",
-      "outer areas still include Yahtrean masonry and later fort controls",
-      "deeper surfaces transition into older fitted green-gold Diysean material language",
-      "some later controls or construction may visibly interface with older mechanisms without explaining the older system",
-      "the Host has scrubbed, exposed and forced selected older surfaces"
-    ],
-    "runtime_note": "HARD REVEAL BOUNDARY: no early map rubbing, mural, six-channel human-use imagery, Wayfinder recognition/significance, ancient-network explanation, Prime/Last Sentinel/bearer information, or claim establishing the Black Host's final objective. Cyanis carries the intact recovered Card directly and it remains inert. HARD RANDOM-ENCOUNTER BOUNDARY: ordinary Black Host troops and Diysean Sentries are random encounters. Do not write a fixed first-Sentry activation, scripted ordinary ambush, mandatory room-clear fight, or story stop that requires a particular ordinary random battle. Sentries may enter the encounter pool deeper in the ruin and establish through normal gameplay that the site is active. HARD WALKING-DIALOGUE BOUNDARY: nobody knows this lower route well enough to qualify as an active guide; ordinary movement uses gameplay and silence. KNOWLEDGE FIREWALL INVISIBILITY remains active."
+    "runtime_note": "HARD PRESENTATION: ordinary excavation/ruin traversal shows Cyanis only. Ilyra, Torren, and Maevra may appear as simple field models when story scenes trigger. Portraits/dialogue carry most performance. HARD WALKING DIALOGUE: none; nobody knows this lower route well enough to guide. HARD RANDOM ENCOUNTER: Black Host personnel and Diysean Sentries are random encounters only; no fixed first-Sentry activation or mandatory ordinary battle. HARD REDUCTION: let the dungeon art communicate sustained excavation and the later-to-older material transition; do not script tool counting, broken-pry handling, brace inspection, lever manipulation, paper props, drag marks, distant hammer cues, floor testing, or other micro-evidence. HARD REVEAL: no map rubbing, mural, six-channel human-use imagery, Junction recognition/significance, ancient-network explanation, Prime/Last Sentinel/bearer information, or Black Host final-objective claim. Cyanis carries the intact Card; it remains inert."
   },
   "current_floor_state": {
     "hollow_watch_surface": "searched_enough_to_continue_downward",
     "garrison_fate": "confirmed_killed_during_or_following_black_host_seizure",
     "black_host_goal": "unresolved",
     "torren_party_status": "temporary_combat_ally",
+    "visible_traversal_character": "cyanis_only",
+    "triggered_scene_field_models": "relevant_participants_allowed",
     "card_state": "intact_carried_directly_by_cyanis_and_inert",
     "ordinary_enemy_presentation": "random_encounters_only",
     "combat_party": ["cyanis", "ilyra", "torren"],
     "maevra_party_status": "noncombat_traveling_companion"
   },
-  "allowed_information_transfers": [],
-  "exact_line_anchors": [],
-  "max_beats": 20,
-  "production_cost_ceiling": "economical"
+  "required_story_beats": [
+    "The existing dungeon shows sustained organized Black Host excavation.",
+    "The environment transitions from later Yahtrean construction into older Diysean structure.",
+    "A concise story stop acknowledges the sustained forcing work without prop inspection choreography.",
+    "Diysean Sentries enter the random encounter pool deeper in the ruin.",
+    "A concise old/new structure stop establishes that later users reused or altered older construction without explaining its purpose.",
+    "The party reaches the lower-junction threshold where Black Host work has stopped abruptly."
+  ],
+  "forbidden_presentation": [
+    "visible_party_follower_train_during_dungeon_traversal",
+    "fixed_first_sentry_activation",
+    "mandatory_ordinary_enemy_fight",
+    "micro_prop_investigation_chain",
+    "fully_3d_companion_blocking_assumption"
+  ],
+  "production_cost_ceiling": "strictly_reductive_established_gameplay_presentation"
 }
