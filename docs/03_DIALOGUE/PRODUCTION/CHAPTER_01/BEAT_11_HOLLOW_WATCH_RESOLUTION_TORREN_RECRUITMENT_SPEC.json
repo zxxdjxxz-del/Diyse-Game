@@ -4,74 +4,67 @@
   "chapter_id": "chapter_01",
   "story_position": "Chapter 1 — Beat 11 — Hollow Watch Resolution / Torren Recruitment",
   "production_ready": false,
-  "participants": [
-    "cyanis",
-    "ilyra",
-    "maevra",
-    "torren"
-  ],
-  "scene_purpose": "Resolve the condition that kept Torren Harth in Greenhollow, convert him from temporary ally to permanent party member without a ceremonial recruitment speech, and return the journey to the southern Briar route. Torren's commitment should arise because the Hollow Watch garrison's fate is now known, the immediate occupation/ancient-defense threat has been cleared enough for him to leave, and Maevra's original request for his route expertise can now honestly be accepted.",
+  "participants": ["cyanis", "ilyra", "maevra", "torren"],
+  "scene_purpose": "Resolve the condition that kept Torren in Greenhollow, convert him from temporary ally to permanent party member through understated adult conversation, and return the journey to southern Briar. Hollow Watch's garrison fate is known, the immediate occupation is broken enough for a larger Yahtrean response to take over, and Torren can now accept the route job Maevra originally came to offer.",
   "story_sources": [
     {
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
-      "sections": [
-        "Beat 11 — Hollow Watch Resolution / Torren Recruitment"
-      ],
-      "role": "current_chapter_01_beat_11_story_authority"
+      "sections": ["Beat 11 — Hollow Watch Resolution / Torren Recruitment"],
+      "role": "base_chapter_01_beat_11_story_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md",
+      "whole_file": true,
+      "role": "latest_junction_naming_and_hidden_monument_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
+      "whole_file": true,
+      "role": "direct_card_physical_state_authority"
     }
   ],
   "additional_authority_sources": [
-    {
-      "path": "docs/01_CHARACTERS/PLAYABLE/Torren.md",
-      "whole_file": true,
-      "role": "torren_character_authority"
-    },
-    {
-      "path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md",
-      "whole_file": true,
-      "role": "maevra_character_authority"
-    },
-    {
-      "path": "docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md",
-      "whole_file": true,
-      "role": "permanent_relationship_language"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
-      "whole_file": true,
-      "role": "scene_construction_authoring_contract"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
-      "whole_file": true,
-      "role": "walking_dialogue_hard_lock"
-    }
+    {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "torren_character_authority"},
+    {"path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md", "whole_file": true, "role": "maevra_character_authority"},
+    {"path": "docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md", "whole_file": true, "role": "relationship_language"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_and_reductive_hd2d_contract"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "invisible_knowledge_firewall"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md", "whole_file": true, "role": "ordinary_enemy_random_encounter_lock"}
   ],
   "scene_context_seed": {
-    "location_name": "Hollow Watch surface / secured overlook before departure",
+    "location_name": "Hollow Watch surface / overlook before departure",
     "area_phase": "post_dungeon_resolution",
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
-    "visible_environment": [
-      "Hollow Watch surface has been cleared of its immediate Black Host occupation",
-      "the dead garrison remains a real human cost and should not be forgotten during recruitment",
-      "the ancient lower structure remains below and unexplained",
-      "the protected mural has just given the party a reason to inspect the southern Wayfinder formation later",
-      "the practical route back toward Greenhollow/Briar is open"
-    ],
-    "runtime_note": "This is a stopped resolution scene, not walk-and-talk. Torren should not suddenly know more about the mural or ancient infrastructure than he did in Beat 10. He knows only that modern Wayfinder matches a prominent landform in the mural and lies near the southern travel line. His recruitment should be understated and adult: Maevra originally came for him; in Greenhollow he could not honestly leave while Hollow Watch was unresolved; now he can. Avoid gamey phrases such as 'join the party,' destiny speeches, instant found-family declarations, or promises that he knows the whole southern route. Permanent-party state is a gameplay/story lock, but his spoken commitment can remain practical: he is coming with them toward Caelora and will guide the southern Briar route using current ground truth."
+    "runtime_note": "Stopped resolution scene. REHEARSAL-FIRST: let Torren's decision come out simply rather than making him explain his philosophy or knowledge boundaries. Do not make Maevra act as Canon Checker. The dead garrison remains the emotional ground under the scene, but recruitment is not a funeral speech. Torren can now leave because the question that kept him here has been answered and the immediate occupation has been broken enough for the region to respond. He commits to traveling south with the group and onward toward Caelora. JUNCTION CORRECTION: characters call the southern location the Junction. Torren knows the crossroads but has never seen the monument shown in the mural; if it comes up, he may want to see where that stone is supposed to be. Do not call it Wayfinder in dialogue. Cyanis carries the intact Card directly. REDUCTIVE HD-2D: reuse Hollow Watch surface/overlook and existing B00 presentation. No signal ceremony, crowd, bespoke recruitment animation, or added environment set piece. No walking dialogue on the return/descent."
   },
   "current_floor_state": {
     "hollow_watch_garrison_fate": "known_dead",
-    "black_host_surface_occupation": "cleared_enough_for_departure",
+    "black_host_surface_occupation": "broken_enough_for_departure",
     "castellan_state": "defeated",
     "mural_state": "discovered",
-    "wayfinder_knowledge": "modern_southern_landmark_matches_prominent_mural_formation_role_unknown",
-    "card_state": "sealed_with_cyanis",
+    "junction_knowledge": "Torren_knows_crossroads_party_knows_mural_shows_unknown_important_monument_there",
+    "card_state": "intact_directly_carried_by_cyanis",
     "torren_party_status_on_entry": "temporary_combat_ally"
   },
-  "allowed_information_transfers": [],
-  "exact_line_anchors": [],
-  "max_beats": 22,
-  "production_cost_ceiling": "economical"
+  "required_story_beats": [
+    "Party returns to Hollow Watch surface without walking dialogue.",
+    "The fort is not treated as restored; Greenhollow/Yahtrea still need warning, burial, repairs, and a proper response.",
+    "Torren's reason for staying is resolved enough for him to leave.",
+    "Torren accepts Maevra's original route request and commits to the southward/Caelora journey.",
+    "Torren becomes a permanent party member.",
+    "The group intends to inspect the Junction while passing because the mural showed an important monument there that Torren has never seen."
+  ],
+  "forbidden_reveals": [
+    "junction_monument_function",
+    "hidden_map_surface_before_junction_arrival",
+    "wayfinder_name_in_character_dialogue",
+    "prime_or_last_sentinel_explanation",
+    "bearer_or_authorization_explanation",
+    "complete_ancient_route_network",
+    "entity"
+  ],
+  "max_beats": 14,
+  "production_cost_ceiling": "reductive_economical"
 }
