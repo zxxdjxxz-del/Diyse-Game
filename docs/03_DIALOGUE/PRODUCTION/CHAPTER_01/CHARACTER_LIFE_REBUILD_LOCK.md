@@ -1,57 +1,93 @@
 # Chapter 1 — Character-Life Scene Rebuild Lock
 
-**Status:** CURRENT EXPLICIT USER DIRECTION  
+**Status:** CURRENT EXPLICIT USER DIRECTION — ACTIVE REHEARSAL-FIRST DRAFTS  
 **Domain:** Chapter 1 optional Character-Life dialogue  
 **Applies to:** C03, C04, C05
 
 ## Hard correction
 
-The user has explicitly reopened the Chapter-1 Character-Life scenes because the current versions can be improved.
+The user explicitly reopened the Chapter-1 Character-Life scenes because the older line-complete versions could be improved.
 
-The historical `LINE_COMPLETE/CHAPTER_01/C03.md`, `C04.md`, and `C05.md` files remain preserved for provenance and useful material, but they no longer control the full current spoken dialogue merely because they were previously marked approved/locked.
+The historical `LINE_COMPLETE/CHAPTER_01/C03.md`, `C04.md`, and `C05.md` files remain preserved for provenance and useful material, but they no longer control the current spoken dialogue.
 
-New production versions must be built rehearsal-first under the current Dialogue Engine and current gameplay presentation.
+Current production versions are rehearsal-first drafts under the current Dialogue Engine and current gameplay presentation.
 
-## Rebuild goals
+## Shared rebuild goals
 
-The new scenes should:
+The scenes should:
 - feel like people spending optional time together, not structured joke ladders or character-analysis exercises;
 - preserve selective participation, awkwardness, dead air, interruptions, failed jokes, and ordinary subjects;
 - respect Chapter-1 relationship maturity: Torren has only just joined permanently, so Cyanis/Torren sharp affectionate profanity should be beginning to emerge rather than already sounding like a late-game established routine;
-- let Ilyra exist outside medical/caretaker function;
+- let Ilyra exist outside caretaker/therapist function even when she is performing legitimate medical work;
 - let Maevra exist outside commander/canon-checker function;
 - let Torren be practical, dry, and capable of becoming more talkative about subjects he actually likes;
 - let Cyanis be pleasant company and part of the problem, not only the person everyone manages;
 - avoid therapy language and writer-level psychological diagnosis;
 - avoid turning optional Character-Life scenes into mandatory lore delivery;
 - use camp field models simply while portraits/dialogue box carry most performance;
-- avoid bespoke prop choreography and micro-animation unless an object is genuinely necessary to the scene.
+- avoid bespoke prop choreography and micro-animation unless an object/action is genuinely necessary to the scene.
 
-## Scene-specific direction
+## Current scene directions
 
 ### C03 — Torren's Version of Dinner
-Keep the strong ordinary-life premise: Torren cooked because people need to eat, his standards are practical, and the group can argue about bad food without the scene becoming meaningful on purpose.
+Current draft:
+`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_A.md`
 
-The rebuild should use fewer consecutive punchlines, more natural eating/silence, and should primarily establish how Cyanis, Ilyra, and Torren begin becoming comfortable company after Hollow Watch.
+Hard current premise:
+- Cyanis, Ilyra, Torren, and Maevra are all present;
+- Torren made the dinner;
+- the food is genuinely bad, not dangerous and not secretly excellent;
+- Torren knows it is bad and simply values hot/enough/safe/cheap over taste;
+- Maevra recognizes his bad cooking from their long shared history;
+- Cyanis and Ilyra are discovering this side of him;
+- the agents should generate the human rhythm rather than preserving the old C03 structure;
+- Torren does **not** smoke during the meal;
+- after everyone has finished eating, Torren lights a blunt as ordinary post-meal behavior.
 
-The old exact dialogue may be mined for good material, but it is not automatically retained line-for-line.
+The scene should allow the argument to lose energy and become silence rather than continually escalating jokes.
 
 ### C04 — What the Map Says
-Keep Torren working on ordinary modern route maps at camp. This is **not** another Junction-lore scene.
+Current draft:
+`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md`
 
-The accidental `old slut` / `old cut` misunderstanding remains a current exact line anchor **if that joke exchange survives the rebuild**. The rebuild should make the misunderstanding feel like an unexpectedly stupid early boundary-breaking moment between Cyanis and Torren rather than evidence that they already have late-game brother-like banter.
+Hard current premise:
+- primarily Cyanis + Torren;
+- Torren works on ordinary modern route maps at camp;
+- this is **not** another Junction-lore scene;
+- Cyanis becomes genuinely interested in Torren's work;
+- Torren naturally becomes more talkative because roads/maps are something he actually cares about;
+- the `old slut` / `old cut` misunderstanding survives as an early accidental boundary-breaking joke;
+- do not let that one exchange make them sound like their later-game brother-like insult routine is already established.
 
-The rest of the scene should be leaner and more conversational, with Torren naturally talking more because roads/maps are a subject he actually cares about.
+### C05 — Not Professionally
+Current draft:
+`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NO_SPOILERS_REHEARSAL_FIRST_DRAFT_A.md`
 
-### C05 — current `Two Professionals Complaining About Cyanis`
-The current concept is too centered on Ilyra and Maevra analyzing/managing Cyanis.
+Hard current premise:
+- **Ilyra + Maevra only**;
+- Cyanis and Torren do not enter, overhear, or interrupt;
+- Ilyra is changing/re-securing Maevra's splint at the Junction camp;
+- Maevra's arm was broken during the Broken Convoy attack before Chapter 1 and remains broken;
+- restrained Warden/healing magic may reduce pain and surrounding strain but **cannot mend the broken bone**;
+- while Ilyra works, she becomes curious about Maevra and Torren and asks about them directly;
+- Maevra is comfortable discussing their old romance and physical relationship; the more vulnerable question is whether she still loves him;
+- there was no betrayal/cheating/bitter-breakup retcon;
+- distance, postings, roads, and life repeatedly separated them, and they kept finding each other again;
+- Maevra still loves Torren in the present;
+- the scene must not become a relationship briefing, therapy session, or exposition dump;
+- Ilyra and Maevra should come out of it feeling like two adult women beginning a friendship of their own.
 
-Rebuild the scene so Ilyra and Maevra have an ordinary adult interaction of their own and Cyanis becomes part of it naturally. Their shared self-neglect/hypocrisy can still become funny, but none of them should function as therapist, patient, mother, or managed child.
+## Maevra injury continuity
 
-The title may change if a better scene identity emerges.
+The broken arm is established before these optional scenes:
+- injury occurs during the Broken Convoy attack before Chapter 1;
+- Maevra enters Chapter 1 already splinted;
+- early Chapter-1 beats make the injury visible/known without repeatedly discussing it;
+- it is the immediate story reason she travels with the group but remains noncombat;
+- C05 is allowed to give the injury one fuller ordinary-life treatment moment because Ilyra actually changes the splint there.
 
 ## Authority consequence
 
-Until new production drafts are reviewed and approved, C03/C04/C05 are **REOPENED / IN REBUILD**.
+C03, C04, and C05 are **CURRENT REHEARSAL-FIRST WORKING DRAFTS / AWAITING USER APPROVAL**.
 
-Beat 15 remains the location/availability authority for the camp cleanup window, but any statement in the current Beat-15 draft that the old C03/C04/C05 spoken dialogue must remain intact is superseded by this file.
+Beat 15 remains the location/availability authority for the Junction camp cleanup window and must point to these production drafts rather than treating the older line-complete versions as current exact dialogue.
