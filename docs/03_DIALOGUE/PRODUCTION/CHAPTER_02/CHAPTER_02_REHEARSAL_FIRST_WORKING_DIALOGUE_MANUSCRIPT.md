@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE REHEARSAL-FIRST WORKING MANUSCRIPT — NOT CHAPTER-LOCKED  
 **Purpose:** single cumulative readable Chapter-2 dialogue manuscript; update this file every time a Chapter-2 mainline or Character-Life scene changes.  
-**Mainline coverage:** Beats 1–8 current rehearsal-first working drafts.  
+**Mainline coverage:** Beats 1–9 current rehearsal-first working drafts.  
 **Character-Life coverage:** C06 — `Still Burns` current working draft. Former C07 is retired as a separate Chapter-2 Character-Life scene.  
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Working beat authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
@@ -1346,6 +1346,140 @@ Control returns. Beat 8 does not reveal the secret passage itself; exploration b
 
 ---
 
+# BEAT 9 — SECRET PASSAGE DISCOVERY
+
+**Draft:** A — current rehearsal-first working dialogue
+
+Beat 9 is a route payoff, not another lore beat. The concealed access belongs to the Ancient structure and leads directly into the Old Bastion's reused lower foundations.
+
+### [THE CLOSED FACE]
+
+After a short post-boss exploration stretch, the Ancient route narrows near a section where later construction presses against the older structure.
+
+Torren stops at what initially appears to be a solid wall.
+
+**TORREN:** Wait.
+
+Cyanis stops.
+
+**CYANIS:** What?
+
+Torren moves closer to the wall.
+
+**TORREN:** Air.
+
+Ilyra pauses and feels for it.
+
+**ILYRA:** He's right.
+
+Maevra looks at the apparent wall.
+
+**MAEVRA:** Through that?
+
+Torren checks the joins and edges.
+
+**TORREN:** Yeah.
+
+**CYANIS:** Looks solid.
+
+**TORREN:** Supposed to.
+
+A beat.
+
+**ILYRA:** Concealed?
+
+**TORREN:** Looks like it.
+
+**CYANIS:** Can you open it?
+
+Torren keeps working the edge rather than answering immediately.
+
+**TORREN:** Think so.
+
+**MAEVRA:** That's almost optimism.
+
+**TORREN:** Don't make it weird.
+
+The exact release interaction belongs to area implementation. Torren finds/uses the surviving Ancient-side mechanism and the concealed access shifts open.
+
+### [FORT STONE]
+
+The space beyond is short. Ancient construction gives way almost immediately to much newer masonry and reinforcement built against/over it.
+
+Torren studies the transition.
+
+**TORREN:** There.
+
+**CYANIS:** What?
+
+**TORREN:** Fort work.
+
+Maevra looks through the opening.
+
+**MAEVRA:** Old Bastion?
+
+Torren checks the construction again.
+
+**TORREN:** Has to be.
+
+Cyanis looks back at the Ancient passage behind them, then at the newer stone ahead.
+
+**CYANIS:** So the elder's maybe worked.
+
+**TORREN:** Looks like it.
+
+**CYANIS:** I'll take it.
+
+Ilyra lifts a hand.
+
+**ILYRA:** Quiet.
+
+Everyone stops.
+
+From somewhere immediately beyond the short passage comes a faint human voice, then a cough and small movement against metal or stone.
+
+Cyanis looks toward the sound.
+
+**CYANIS:** People.
+
+**ILYRA:** Yeah.
+
+**MAEVRA:** Close.
+
+Torren checks the immediate way ahead.
+
+**TORREN:** Don't see Host from here.
+
+Cyanis looks at him.
+
+**CYANIS:** We found them.
+
+**TORREN:** Found somebody.
+
+A beat.
+
+**CYANIS:** Fair.
+
+Ilyra is already looking toward the galleries beyond.
+
+**ILYRA:** Let's go.
+
+**Objective:** Enter the Prisoner Galleries.
+
+Beat ends as the party moves through the short concealed route. Beat 10 begins with actual prisoner first contact.
+
+### Beat-9 knowledge checkpoint
+- The party has discovered and opened a deliberately concealed access belonging to the Ancient structure.
+- They do not know its original purpose.
+- Nothing suggests the Black Host built, uses, or knows about it.
+- Newer fort construction immediately beyond confirms the Ancient complex physically intersects the Old Bastion's lower reused foundations.
+- The party now knows the covert waterworks/Archive route successfully reached the Old Bastion.
+- Human voices/sounds immediately beyond establish that people are present in the adjacent galleries.
+- No transfer records, manifests, exact totals, onward destination, Rhazek intelligence, or Seyrik information appear here.
+- The party has not yet learned the Old Bastion's holding/transit function; that comes from the prisoners in Beat 10.
+
+---
+
 # OPTIONAL CHARACTER-LIFE — C06
 # STILL BURNS
 
@@ -1759,5 +1893,6 @@ Fade.
 - Beat 6 — Draft A; **small northern structure bearing the modern Crest of Yahtrea added to the mural and copied by the party**.
 - Beat 7 — Draft A.
 - Beat 8 — Draft A; Archive Leviathan defeated without lore explanation; route physically opened; Maevra remains noncombat.
+- Beat 9 — Draft A; Ancient concealed passage opens directly into Old Bastion foundation; prisoner presence immediately beyond; no transfer-records beat.
 - C06 — `Still Burns` — current working dialogue.
-- Next mainline scene: **Beat 9 — Secret Passage Discovery**.
+- Next mainline scene: **Beat 10 — Prisoner Galleries / First Contact**.
