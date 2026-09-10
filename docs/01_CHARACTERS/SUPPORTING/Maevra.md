@@ -18,6 +18,21 @@ Maevra may travel with, command around, rescue, brief, reinforce, or otherwise i
 
 Her combat competence may be represented through narrative staging, allied forces, cutscene action, or command outcomes rather than a guest-party kit.
 
+## Chapter 1 temporary injury state
+Before Chapter 1 begins, Maevra's arm is **broken during the Broken Convoy attack**.
+
+By her first Chapter-1 appearance at Brackenwall:
+- the arm has already been set;
+- she is wearing a practical field splint;
+- the injury is still painful and materially limits combat use of the arm;
+- this is the immediate in-world reason she travels with the group but does not fight during Chapter 1.
+
+Do not invent left/right laterality unless separately locked.
+
+Ilyra may check, change, or re-secure the splint and may use restrained healing/Grace magic to ease the pain. **Magic cannot mend the broken bone itself.** The splint therefore remains part of Maevra's Chapter-1 state through Hollow Watch, Southern Briar, the Junction, and Junction camp unless later authority explicitly changes recovery timing.
+
+This temporary injury state does not alter the global playability lock above.
+
 ## Character core
 Maevra is confident, energetic, observant, curious, socially capable, decisive, argumentative, mischievous, attentive, and warm when trust allows it.
 
