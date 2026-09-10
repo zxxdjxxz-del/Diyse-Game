@@ -369,6 +369,143 @@ Do not reveal in Beat 3:
 
 # Beat 4 — Old Waterworks
 
+**Development status:** CURRENT WORKING BEAT PACKET
+
+## Purpose
+
+Use the old waterworks as the party's first real Chapter-2 infiltration/exploration area and carry them from ordinary Dunmere infrastructure into the threshold of something unmistakably older.
+
+This beat should:
+- make the elder's route useful and credible;
+- let the party advance covertly beneath/around the watched Bastion approaches;
+- give the player a substantial environmental transition rather than teleporting from Dunmere into an Ancient ruin;
+- preserve the waterworks as functioning or formerly functioning civic infrastructure rather than resurrecting the poisoned-water plot;
+- end on the discovery that the lower route intersects a much older construction whose scale and character do not belong to the waterworks.
+
+## Starting state
+
+- the party has committed to infiltrating the Red Transfer Bastion through the old waterworks service route;
+- the elder has provided enough local directions/landmarks to locate the access and understand the intended service-route connection;
+- the party does not know about the Sunken Archive, western map mural, Leviathan, or Prisoner Galleries;
+- combat party: **Cyanis + Ilyra + Torren**;
+- Maevra remains with the traveling group but is fully noncombat;
+- the Black Host is not aware that the party has entered this covert route.
+
+## Playable-area role
+
+Beat 4 should be real exploration, not one corridor and a cutscene.
+
+The waterworks can support:
+- branching maintenance/service passages;
+- changes in elevation or water level where consistent with eventual map design;
+- old control points, gates, drains, or maintenance access;
+- optional side spaces/rewards appropriate to the area;
+- random encounters and environmental hazards under encounter/map authority.
+
+Do not over-author exact room count, puzzle count, treasure placement, or tile geometry here. Those belong to the later map-design pass.
+
+## Covert-route rule
+
+> **The waterworks remain genuinely covert.**
+
+Do not place a routine Black Host patrol network through the same forgotten/little-used service route the party is using to bypass the Bastion's watched approaches.
+
+If combat occurs in the waterworks, it should come from plausible local creatures, hazards, or other non-Black-Host threats supported by encounter authority. The party should not accidentally fight its way through a staffed enemy corridor before reaching the actual occupied Bastion infrastructure.
+
+This preserves the tactical value of the elder's information and lets the Black Host remain unaware of the infiltration until later.
+
+## Presentation / party-presence rule
+
+- During ordinary waterworks traversal, Cyanis remains the visible controllable field character under the existing field-presentation lock.
+- Ilyra, Torren, and Maevra are canonically traveling with him even when they are not rendered as a follower train.
+- Relevant companions may appear as field models when an authored stop/scene triggers.
+- Random encounters use **Cyanis + Ilyra + Torren** only; Maevra never enters battle.
+
+## Infrastructure progression
+
+The environmental story should make one clear progression:
+
+1. **Recognizable Dunmere/Yahtrean waterworks** — built and used for practical water management/service access.
+2. **Older integrated foundations** — portions of the civic infrastructure clearly reuse or attach to older stone/metal construction.
+3. **Architectural break** — the lower route reaches construction that no longer plausibly belongs to the waterworks at all.
+
+The shift should be readable without requiring characters to narrate every material change.
+
+The exact visual vocabulary belongs to the later area/tile/art pass, but the old construction should be recognizably related to the broad Diysean visual language already encountered at Hollow Watch and Wayfinder without revealing its specific function yet.
+
+## Character / Agent-Brain opportunities
+
+This beat should not require constant conversation. Exploration can carry most of it.
+
+When a triggered exchange is useful, the Director may give the agents:
+- the elder's route directions;
+- current physical route state;
+- whether the service passage still matches what the elder described;
+- visible evidence that newer infrastructure was built into something older;
+- growing uncertainty about whether the route still leads where expected.
+
+Natural character behavior may include:
+- Torren reading route construction and practical passage viability;
+- Maevra evaluating whether the infiltration is still tactically sound;
+- Ilyra noticing practical hazards or the consequences of taking injured captives back through such a route, if that thought arises naturally;
+- Cyanis keeping the group moving and questioning assumptions when the architecture stops matching expectations.
+
+Do not force every expertise domain into dialogue. The architecture itself should do most of the reveal work.
+
+## Ancient-transition boundary
+
+Beat 4 does **not** deliver the Chapter-2 Ancient lore payoff.
+
+The party may recognize that the lower construction resembles or belongs to the same broad ancient/Diysean tradition encountered earlier, but they do not yet know:
+- that the larger space is a Sunken Archive;
+- what it preserved;
+- that a western-half map exists there;
+- how far the old network extends;
+- what lies beyond the Archive.
+
+The purpose of Beat 4 is discovery of the threshold, not interpretation of the entire site.
+
+## Mandatory progression
+
+- the party locates and enters the elder's waterworks access;
+- the service route proves real and usable;
+- the party advances without using the exposed Bastion road approach;
+- the route initially matches ordinary/local infrastructure closely enough to validate the elder's knowledge;
+- deeper traversal reveals that Dunmere/Yahtrean construction was built onto or through older architecture;
+- the party reaches a point where the older construction becomes dominant and clearly exceeds the expected scale/function of the waterworks;
+- a viable opening/access into that older structure is discovered;
+- entering that structure becomes the only sensible continuation of the infiltration route.
+
+## End state / knowledge change
+
+- the covert infiltration remains intact;
+- the party has not yet alerted the Bastion command structure;
+- the waterworks have led them into an unexpected ancient layer;
+- they know the structure is much older than Dunmere's waterworks and likely related to previously encountered Diysean construction;
+- they do not yet know its specific identity or contents;
+- the next step is to enter and investigate the larger ancient complex while continuing to seek a way into the Bastion.
+
+## Gameplay handoff
+
+→ **Beat 5 — Sunken Archive Entrance**
+
+## Reveal firewall
+
+Do not reveal in Beat 4:
+- the western-half map mural;
+- the map's full information;
+- the Archive Leviathan;
+- the secret passage into the Prisoner Galleries;
+- prisoner locations/counts;
+- Rhazek's command role;
+- masked Seyrik;
+- Last Sentinel;
+- the full purpose/extent of the ancient route network.
+
+---
+
+# Beat 5 — Sunken Archive Entrance
+
 **Development status:** NEXT TO DEVELOP
 
-Current locked function from `CHAPTER_02.md`: use the old waterworks strictly as the covert infiltration approach, let ordinary municipal/Yahtrean construction gradually give way to older submerged construction, and end when the party discovers the entrance into the Sunken Archive.
+Current locked function from `CHAPTER_02.md`: establish that the newly discovered older layer is the substantial Sunken Archive, connect it broadly to Hollow Watch/Wayfinder-era construction without solving its larger purpose, and make the Archive the active exploration space before the western-map discovery.
