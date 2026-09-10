@@ -4,16 +4,17 @@
   "chapter_id": "chapter_01",
   "story_position": "Chapter 1 cleanup window — optional Character-Life C03",
   "production_ready": false,
-  "participants": ["cyanis", "ilyra", "torren"],
-  "scene_purpose": "Give the newly formed Cyanis/Ilyra/Torren trio an ordinary, low-stakes camp dinner scene after the Chapter-1 climax. Let early friendship emerge through food, silence, mild irritation, and naturally arising humor rather than a chain of punchlines or explicit relationship commentary.",
+  "participants": ["cyanis", "ilyra", "torren", "maevra"],
+  "scene_purpose": "Give Cyanis, Ilyra, Torren, and Maevra an ordinary low-stakes camp dinner after the Chapter-1 climax. The scene is about Torren's genuinely bad but functional food, with Maevra's long familiarity with it contrasting Cyanis and Ilyra discovering it. Let humor and comfort emerge naturally, and let Torren smoke only after the meal is finished.",
   "story_sources": [
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Beat 15 — Wayfinder Camp / Chapter-1 Cleanup Window"], "role": "cleanup_window_and_optional_scene_authority"},
-    {"path": "docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_01/C03.md", "whole_file": true, "role": "historical_approved_source_material_reopened_for_rehearsal_first_rebuild"}
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_MAEVRA_BROKEN_ARM_LOCK.md", "whole_file": true, "role": "maevra_chapter_1_injury_state"},
+    {"path": "docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_01/C03.md", "whole_file": true, "role": "historical_source_material_only_not_current_structure"}
   ],
   "additional_authority_sources": [
     {"path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md", "whole_file": true, "role": "cyanis_character_authority"},
     {"path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md", "whole_file": true, "role": "ilyra_character_authority"},
     {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "torren_character_authority"},
+    {"path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md", "whole_file": true, "role": "maevra_character_authority"},
     {"path": "docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md", "whole_file": true, "role": "early_relationship_language"},
     {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_authoring_lock"},
     {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "camp_field_presentation"}
@@ -22,28 +23,17 @@
     "location_name": "Junction-area camp",
     "time": "evening",
     "scene_type": "optional_character_life",
-    "runtime_note": "Camp presentation allows Cyanis, Ilyra, and Torren to be physically present. Portraits and dialogue box carry performance. One fire/pot/bowls/bread are sufficient because dinner is the premise; no cooking montage or detailed food animation. This is early Cyanis/Torren friendship, so avoid later-story vicious-safe brother banter. Ilyra participates as an ordinary person, not caretaker or mediator. No lore, Hunt progression, gameplay reward, or relationship speech. Silence is valid material."
+    "runtime_note": "Camp presentation allows all four characters to be physically present. Maevra retains the field splint on the arm broken during the Broken Convoy attack, but the dinner scene does not need to discuss it. Portraits and dialogue box carry performance. One fire/pot/bowls are sufficient. Torren's food is genuinely bad but safe and filling. Torren does not smoke until everyone has finished eating; one simple light-and-idle smoke action is enough. No lore, Hunt progression, gameplay reward, or relationship speech."
   },
   "required_character_truths": [
-    "Torren treats food as practical first: hot/enough/safe/cheap, with taste secondary.",
-    "Cyanis is socially playful and willing to waste time on a stupid argument when the situation is safe enough.",
-    "Ilyra can joke, laugh, and take a side or refuse one without becoming the scene's caretaker.",
+    "Torren knows his food is bad and simply does not consider taste the primary job of dinner.",
+    "Maevra recognizes the food from long shared history and can argue with Torren about it without the scene becoming romance exposition.",
+    "Cyanis and Ilyra are discovering this side of Torren for the first time.",
     "Cyanis and Torren are beginning to become comfortable, but their later brother-like insult language is not yet fully earned.",
-    "The scene must be able to end in comfortable silence without explaining that comfort."
+    "Ilyra participates as an ordinary peer rather than caretaker or mediator.",
+    "Torren smokes only after the meal is over."
   ],
-  "forbidden_reveals": [
-    "junction_lore_expansion",
-    "cistern_devourer_progression",
-    "prime_or_last_sentinel_explanation",
-    "bearer_or_authorization_explanation",
-    "entity"
-  ],
-  "forbidden_presentation": [
-    "cooking_montage",
-    "bespoke_food_animation_chain",
-    "constant_prop_business",
-    "friendship_meter_style_emotional_payoff",
-    "every_line_as_punchline"
-  ],
+  "forbidden_reveals": ["junction_lore_expansion", "cistern_devourer_progression", "prime_or_last_sentinel_explanation", "bearer_or_authorization_explanation", "entity"],
+  "forbidden_presentation": ["cooking_montage", "bespoke_food_animation_chain", "constant_prop_business", "smoking_during_meal", "friendship_meter_style_emotional_payoff", "every_line_as_punchline"],
   "production_cost_ceiling": "very_low_reuse_camp_assets_portrait_led"
 }
