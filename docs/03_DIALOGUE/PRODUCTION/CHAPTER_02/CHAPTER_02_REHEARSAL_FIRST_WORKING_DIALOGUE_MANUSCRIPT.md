@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE REHEARSAL-FIRST WORKING MANUSCRIPT — NOT CHAPTER-LOCKED  
 **Purpose:** single cumulative readable Chapter-2 dialogue manuscript; update this file every time a Chapter-2 mainline or Character-Life scene changes.  
-**Mainline coverage:** Beats 1–4 current rehearsal-first working drafts.  
+**Mainline coverage:** Beats 1–5 current rehearsal-first working drafts.  
 **Character-Life coverage:** C06 — `Still Burns` current working draft. Former C07 is retired as a separate Chapter-2 Character-Life scene.  
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Working beat authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
@@ -640,6 +640,130 @@ Beat ends as exploration carries the player across the architectural threshold i
 
 ---
 
+# BEAT 5 — SUNKEN ARCHIVE ENTRANCE
+
+**Draft:** A — current rehearsal-first working dialogue
+
+Beat 5 begins as the waterworks passage opens into a much larger Ancient interior. `Sunken Archive` is the production/gameplay name only; nobody in the scene knows or announces that formal name.
+
+### [THE THRESHOLD]
+
+At the first clear view into the larger complex, normal movement pauses briefly. The relevant group models may appear.
+
+Cyanis looks out over the older structure.
+
+**CYANIS:** Well.
+
+A beat.
+
+**CYANIS:** That's not plumbing.
+
+**TORREN:** No.
+
+**MAEVRA:** Strong start.
+
+Ilyra studies the repeated recesses and organized structures built into the chamber.
+
+**ILYRA:** This wasn't just built over.
+
+**CYANIS:** What do you mean?
+
+**ILYRA:** Look at the repetition. Same spaces, same spacing. Deliberate.
+
+Maevra follows the pattern farther into the chamber.
+
+**MAEVRA:** Storage?
+
+**ILYRA:** Maybe.
+
+She looks at the surviving enclosed niches and the damage around them.
+
+**ILYRA:** Or preservation. Something they meant to keep.
+
+**CYANIS:** Records?
+
+**ILYRA:** Could be.
+
+**MAEVRA:** Could be anything.
+
+**ILYRA:** Exactly.
+
+Torren has been watching the route rather than the architecture.
+
+**TORREN:** Water came later.
+
+Cyanis looks at him.
+
+**CYANIS:** How do you know?
+
+**TORREN:** Place wasn't built for it.
+
+Ilyra nods.
+
+**ILYRA:** He's right. The damage cuts through the layout. It isn't the layout.
+
+Cyanis looks farther into the complex.
+
+**CYANIS:** How big is this?
+
+**TORREN:** Can't tell.
+
+**MAEVRA:** Bigger than the waterworks.
+
+**CYANIS:** I had that part.
+
+### [THE REASON THEY ARE HERE]
+
+Cyanis turns back to Torren.
+
+**CYANIS:** Direction?
+
+Torren checks before answering.
+
+**TORREN:** Still useful.
+
+**CYANIS:** Toward the Bastion?
+
+**TORREN:** Broadly.
+
+Maevra looks at Cyanis.
+
+**MAEVRA:** You're going to complain about that word now too?
+
+**CYANIS:** No.
+
+A beat.
+
+**CYANIS:** We have people waiting on us. Broadly will do.
+
+Ilyra looks once more at the preservation structures.
+
+**ILYRA:** We can understand this later.
+
+**TORREN:** If it lets us through.
+
+**CYANIS:** Then let's find out.
+
+Torren starts deeper into the complex.
+
+**TORREN:** Come on.
+
+**Objective:** Explore the ancient complex.
+
+Control returns quickly. The player gets a meaningful entrance stretch in which to absorb the Archive's scale, water damage, and preservation/storage identity before reaching the western mural.
+
+### Beat-5 knowledge checkpoint
+- The party knows the waterworks intersect a major Ancient complex.
+- The complex is purpose-built, organized, and plausibly associated with storage/preservation.
+- The group can tell the extensive water intrusion happened after the original construction.
+- Nobody knows the formal name `Sunken Archive`.
+- Nobody knows who built the whole complex with certainty or what exactly it preserved.
+- Torren judges the route as still broadly useful toward the Old Bastion, but does not know where it exits.
+- The rescue remains the immediate priority.
+- The western mural, larger network, Archive Leviathan, secret passage, and Old Bastion connection remain unrevealed.
+
+---
+
 # OPTIONAL CHARACTER-LIFE — C06
 # STILL BURNS
 
@@ -1049,5 +1173,6 @@ Fade.
 - Beat 2 — Draft A, updated to **Old Bastion** naming.
 - Beat 3 — Draft A.
 - Beat 4 — Draft A; sealed future-Hunt door included; no weed setup called out during waterworks traversal.
+- Beat 5 — Draft A.
 - C06 — `Still Burns` — current working dialogue.
-- Next mainline scene: **Beat 5 — Sunken Archive Entrance**.
+- Next mainline scene: **Beat 6 — Western Map Mural**.
