@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE REHEARSAL-FIRST WORKING MANUSCRIPT — NOT CHAPTER-LOCKED  
 **Purpose:** single cumulative readable Chapter-2 dialogue manuscript; update this file every time a Chapter-2 mainline or Character-Life scene changes.  
-**Mainline coverage:** Beats 1–6 current rehearsal-first working drafts.  
+**Mainline coverage:** Beats 1–7 current rehearsal-first working drafts.  
 **Character-Life coverage:** C06 — `Still Burns` current working draft. Former C07 is retired as a separate Chapter-2 Character-Life scene.  
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Working beat authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
@@ -1070,6 +1070,171 @@ Torren starts deeper into the Archive.
 
 ---
 
+# BEAT 7 — ARCHIVE DEPTHS
+
+**Draft:** A — current rehearsal-first working dialogue
+
+Beat 7 is exploration-first. After the mural, the Archive becomes materially harder to traverse. No second major lore reveal occurs here.
+
+### [SOMETHING IN THE WATER]
+
+After a meaningful stretch of deeper exploration, the party reaches another flooded section. Torren is guiding through the damaged route.
+
+Torren stops.
+
+**TORREN:** Hold.
+
+The others stop.
+
+**CYANIS:** What?
+
+Torren watches the water.
+
+**TORREN:** Don't move.
+
+They stay still.
+
+The water continues to shift across the chamber.
+
+Ilyra notices it too.
+
+**ILYRA:** That's not us.
+
+**TORREN:** No.
+
+Maevra looks toward the darker route ahead.
+
+**MAEVRA:** Building settling?
+
+A low impact carries through the structure. The water changes again.
+
+Torren waits a moment before answering.
+
+**TORREN:** Maybe.
+
+**CYANIS:** You believe that?
+
+**TORREN:** Less than I did a second ago.
+
+Ilyra keeps watching the water.
+
+**ILYRA:** Something moved.
+
+**MAEVRA:** Big something.
+
+Torren looks ahead.
+
+**TORREN:** Yeah.
+
+A beat.
+
+**CYANIS:** Still our direction?
+
+**TORREN:** Yeah.
+
+**CYANIS:** Of course it is.
+
+Torren starts forward carefully.
+
+**TORREN:** Watch your footing.
+
+Control returns.
+
+No one identifies or names what caused the disturbance.
+
+### [NO CLEAN WAY AROUND]
+
+Later, after more exploration, the surviving route narrows toward a deeper flooded chamber. Nearby alternatives are visibly unusable or have already proven not to advance.
+
+At a natural stop, Torren checks the available paths.
+
+**CYANIS:** Options?
+
+**TORREN:** Back.
+
+Cyanis waits.
+
+**CYANIS:** And?
+
+Torren indicates the route ahead.
+
+**TORREN:** Forward.
+
+**CYANIS:** That's not much of a list.
+
+**TORREN:** Didn't build the place.
+
+Ilyra looks toward one damaged side route.
+
+**ILYRA:** Nothing through there?
+
+**TORREN:** Doesn't carry us anywhere useful.
+
+Maevra looks toward the water ahead as another distant movement rolls through it.
+
+**MAEVRA:** And forward is where that is.
+
+**TORREN:** Yeah.
+
+Cyanis looks ahead.
+
+**CYANIS:** We need through.
+
+**ILYRA:** Then we deal with what's there.
+
+Torren's attention shifts to a raised intact recess/landing just before the deeper chamber.
+
+**TORREN:** Maevra.
+
+She has already seen it.
+
+**MAEVRA:** I know.
+
+**TORREN:** Stay up there.
+
+**MAEVRA:** Was planning to.
+
+Cyanis looks at her.
+
+**CYANIS:** We'll come back.
+
+**MAEVRA:** Yes, Dovaren. That's generally how this works.
+
+Cyanis gives her a look.
+
+**MAEVRA:** Go.
+
+The trio turns toward the deeper chamber.
+
+Another heavier movement passes through the water beyond the threshold.
+
+Ilyra watches it.
+
+**ILYRA:** That's definitely not settling.
+
+**TORREN:** No.
+
+Cyanis draws himself toward the route ahead.
+
+**CYANIS:** Then let's find out what we're dealing with.
+
+**Objective:** Enter the flooded chamber.
+
+Beat ends at the threshold. The actual creature reveal and confrontation belong to Beat 8.
+
+### Beat-7 knowledge checkpoint
+- The deeper Archive has provided a substantial exploration stretch after the mural.
+- Environmental pressure, route damage, and non-Host danger have increased.
+- No second major Ancient lore answer has appeared.
+- No Black Host presence has appeared.
+- The party has credible evidence that **something large is moving in the flooded depths ahead**.
+- They do not know what it is, what its origin is, or why it is there.
+- There is no clean useful bypass around the forward route.
+- Maevra has a believable raised/defensible noncombat position immediately before the encounter.
+- Cyanis, Ilyra, and Torren proceed toward the threat because they still need a route through toward the Old Bastion.
+
+---
+
 # OPTIONAL CHARACTER-LIFE — C06
 # STILL BURNS
 
@@ -1481,5 +1646,6 @@ Fade.
 - Beat 4 — Draft A; sealed future-Hunt door included; no weed setup called out during waterworks traversal.
 - Beat 5 — Draft A.
 - Beat 6 — Draft A; **small northern structure bearing the modern Crest of Yahtrea added to the mural and copied by the party**.
+- Beat 7 — Draft A.
 - C06 — `Still Burns` — current working dialogue.
-- Next mainline scene: **Beat 7 — Archive Depths**.
+- Next mainline scene: **Beat 8 — Archive Leviathan**.
