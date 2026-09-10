@@ -1,6 +1,6 @@
 # Chapter 0 — P07
 # Aftermath / Survivor Recovery / Overnight Camp
-## REHEARSAL-FIRST PRODUCTION DRAFT A — awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT B — chapter-wide polish / awaiting user approval
 
 ---
 
@@ -60,25 +60,15 @@ No one argues the boundary.
 
 The officer looks at the Card in Cyanis's possession.
 
-**CONVOY OFFICER:** And that stays exactly where it is until Brackenwall.
+**CONVOY OFFICER:** That stays exactly where it is until Brackenwall.
 
 Cyanis looks down at it.
 
 **CYANIS:** Happily.
 
-**CONVOY OFFICER:** No testing it. No opening anything else. No bright ideas.
+**CONVOY OFFICER:** No testing it on the road.
 
-**CYANIS:** I don't have any.
-
-**ILYRA:** About this, anyway.
-
-Cyanis looks at her.
-
-**CYANIS:** We just met.
-
-**ILYRA:** Long day.
-
-The officer almost reacts, decides not to, and continues.
+**ILYRA:** No argument.
 
 **CONVOY OFFICER:** Brackenwall can decide what to do with it.
 
@@ -104,9 +94,9 @@ A beat.
 
 **ILYRA:** Twice that thing lit up. Twice his condition changed with it.
 
-She does not need to gesture at Cyanis or the Card.
+A beat.
 
-**ILYRA:** I was there both times. I'm staying until we know he can travel without dropping.
+**ILYRA:** I was there both times. I'm staying until morning.
 
 **CYANIS:** You don't have to stay on my account.
 
@@ -116,35 +106,31 @@ A beat.
 
 **ILYRA:** I'm staying because I'm the one who treated it.
 
-**CYANIS:** Right.
+Cyanis accepts the correction.
 
-That answer is enough for him.
+**CYANIS:** Right.
 
 **CONVOY OFFICER:** And the sweep?
 
 **ILYRA:** I'm doing that too.
 
-**CONVOY OFFICER:** Of course you are.
+The officer gives her a tired look.
 
-Ilyra gives the officer a look.
+**CONVOY OFFICER:** Of course you are.
 
 **ILYRA:** Was that a problem?
 
-**CONVOY OFFICER:** No. Just becoming familiar with the evening.
+**CONVOY OFFICER:** No.
 
-Cyanis almost smiles.
+A beat.
 
-**CYANIS:** Long day.
-
-Ilyra looks at him.
-
-**ILYRA:** Don't steal my line.
-
-**CONVOY OFFICER:** Both of you. Search first.
+**CONVOY OFFICER:** Search first.
 
 **CYANIS:** Yes, sir.
 
 **ILYRA:** Understood.
+
+The scene ends before Ilyra has to justify herself a second time.
 
 ---
 
@@ -182,19 +168,17 @@ The officer looks to Cyanis.
 
 **CYANIS:** With the Card.
 
-**CONVOY OFFICER:** Unfortunately.
-
-**ILYRA:** Could be worse.
+**CONVOY OFFICER:** With the Card.
 
 A beat.
 
-**CYANIS:** Don't say things like that tonight.
+**CONVOY OFFICER:** Try not to make the night interesting.
 
-Ilyra considers it.
+**CYANIS:** I'll do my best.
 
-**ILYRA:** Fair.
+**ILYRA:** That's not reassuring.
 
-The officer leaves with the moving convoy group.
+The officer leaves it there.
 
 No emotional farewell is required. Everyone still has work.
 
