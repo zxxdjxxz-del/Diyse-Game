@@ -1,21 +1,21 @@
 # Diyse — Dialogue UI
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit corrections/current domain migrations.  
-**Runtime source checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
-**Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
+**Implementation rule:** current domain canon and newer explicit presentation locks beat older proof code/docs.
 
-## Scene-construction integration
-Dialogue UI is part of the current Dialogue Engine scene stack, not an isolated text-box system.
+## Controlling presentation lock
 
-See:
-- `../03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md`
-- `IMPLEMENTATION_NOTES/AREA_TRAVERSAL_AUTHORING_INTERFACE.md`
-- `../14_ART_AND_VISUALS/ART_VISUAL_MASTER.md`
-- `../14_ART_AND_VISUALS/DIYSE_VISUAL_STYLE_CANON.md`
+Current field/dialogue presentation authority:
+> `FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md`
 
-The runtime must support scenes in which geography, B00 rigged field models, portraits, camera, lighting, sound, props, background activity, silence, and spoken text all share the performance load.
+That lock controls over older wording that implied fully staged party field scenes.
 
-## Proven architecture
+## Core dialogue presentation
+
+Diyse's normal authored conversation presentation is intentionally simple:
+
+> **illustrated portrait(s) + dialogue box over the existing field/background.**
+
 Production dialogue uses:
 - `DiyseDialogueSceneDefinition` Resources;
 - stable semantic character/expression IDs;
@@ -23,129 +23,115 @@ Production dialogue uses:
 - generic `DialogueRunner`;
 - manual advance;
 - silent beats;
-- separate cue metadata.
+- separate cue metadata where a genuinely required story event needs one.
 
 ## No choices
+
 Hard rule:
 > **Diyse has no player dialogue choices.**
 
-Do not implement:
-- response wheel;
-- tone choice;
-- affinity answer;
-- persuasion menu;
-- romance response;
-- morality response.
+Do not implement a response wheel, tone choice, affinity answer, persuasion menu, romance response, or morality response.
 
 ## Portrait presentation
-Current presentation rule:
-- high-resolution portrait assets displayed at a restrained dialogue scale;
+
+Current portrait target:
+- high-resolution illustrated portraits;
 - generally **~25–35% of screen height**, with **~30%** as the normal starting target;
 - dialogue box generally lower 20–25%.
 
-At the 1920×1080 reference viewport, that corresponds approximately to:
+At 1920×1080 this is approximately:
 - 25% → **270 px** visible portrait height;
 - 30% → **324 px** visible portrait height;
 - 35% → **378 px** visible portrait height.
 
-Portraits are a major close-performance layer, but they are **not the entire scene**. Current B00 rigged 3D field characters remain visible/meaningful where scene composition calls for physical blocking, facing, movement, gesture, or spatial relationships.
+Portraits carry speaker identity, facial/emotional performance, and most ordinary conversational acting.
+
+## Field-character rule
+
+During ordinary traversal:
+
+> **Cyanis is the only party character visible on the exploration field.**
+
+Other party members remain present in story/combat state but are not rendered as a follower train.
+
+A guide such as Torren may speak through the portrait/dialogue UI while directing Cyanis. The guide does not need to be visibly walking beside or ahead of him.
+
+Do not author routine dialogue around companion field-model blocking, facing, stepping, pointing, weapon handling, posture business, or tiny prop interactions.
+
+## Stop scenes
+
+A normal stop scene may simply:
+1. pause/lock movement when needed;
+2. keep the existing field/background visible;
+3. show the speaking portrait(s) and dialogue box;
+4. return cleanly to gameplay.
+
+Do not instantiate the whole party physically merely because several people speak.
+
+Additional visible character models or physical choreography require a genuine story/gameplay reason and should be rare.
+
+## Walking/traversal dialogue
+
+Walking dialogue follows `../03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`.
+
+When legal, it does **not** change the single-field-character rule. Cyanis remains the visible traversal avatar while other speakers use portraits/dialogue text.
 
 ## Environmental-read rule
-Important spatial discoveries receive a clean visual read before dialogue UI dominates the frame.
 
-Examples:
-- a changed route;
-- a damaged bridge;
-- a distant landmark;
-- evacuation flow;
-- a machine visibly misbehaving;
-- a new enemy-controlled space;
-- a large reveal or state change.
+Important spatial discoveries may receive a clean visual read before the dialogue UI appears.
 
-The scene may briefly withhold portraits/text, use a silent beat, or reframe the camera before the first line.
+Keep this simple. The background is the already-authored HD-2D field, not a fully simulated 3D cinematic stage. Do not invent camera choreography, extra props, or physical party reactions merely to make a discovery feel cinematic.
 
-Do not use dialogue to describe in full what the player has just been clearly shown.
+## HD-2D environment relationship
 
-## Required beat support
-UI/runtime must support:
+The background follows the established layered HD-2D / 2.5D grammar:
+- authored layered environment art;
+- selective depth geometry only where gameplay/composition needs it;
+- restrained parallax/depth treatment;
+- fixed/authored presentation rather than a freely explorable fully modeled 3D world.
+
+Dialogue authoring must respect that production model.
+
+## Required runtime support
+
+The UI/runtime should support:
 - speaker label;
 - body text;
-- left portrait;
-- right portrait;
+- left/right portrait slots;
 - active-side emphasis;
-- portrait change without spoken text;
+- portrait/expression change;
 - true silent beat;
 - manual continue;
 - movement/input lock;
 - clean return to exploration;
-- dialogue beat with no portrait change;
-- camera/staging cue independent of text;
-- field-model movement/facing cue independent of text;
-- sound/music cue independent of text;
-- environment/state cue independent of text.
+- short walking dialogue;
+- short post-battle reaction;
+- required story/event cues when separately justified.
 
-## Scene modes
-The UI/runtime should support the Dialogue Engine's different scene modes without forcing them into one presentation:
+It does **not** need bespoke field-model animation for ordinary dialogue.
 
-### Full authored stop scene
-- movement may lock;
-- portraits may carry close acting;
-- field models and camera carry spatial relationships;
-- silence and staging beats are first-class.
+## Economical presentation principle
 
-### Walking/traversal dialogue
-- movement may remain available;
-- portraits/text should not unnecessarily obscure route readability;
-- encounter-safe traversal rules come from the area/traversal interface;
-- scene ends cleanly back into ordinary exploration.
+The default economical solution is:
 
-### Post-battle reaction
-- optimized for short exchanges;
-- should not create excessive post-combat friction.
+> **existing background + Cyanis field avatar when traversing + portraits + dialogue box.**
 
-### Story-bearing-cell interaction / optional NPC dialogue
-- may be lightweight;
-- should preserve the environment as part of the scene.
-
-### Character-Life / hub / camp
-- may use ordinary props/tasks and restrained camera instead of expensive bespoke animation.
-
-### Story-combat pause
-- only where current story/battle authority explicitly allows it;
-- presentation never creates illegal actions.
-
-## Economical HD-2D UI principle
-The dialogue presentation should help Diyse achieve cinematic performance without demanding fully bespoke animation for every scene.
-
-High-value economical tools include:
-- portrait-expression swaps;
-- silent beats;
-- B00 field-model facing/pose/short gestures;
-- restrained camera reframing;
-- existing prop interactions;
-- lighting shifts;
-- sound/music changes;
-- background movement;
-- environment state swaps.
-
-The goal is not a cheap-looking presentation. It is to spend production complexity where the player will actually feel it.
+Do not treat lighting shifts, camera moves, background activity, prop interactions, field-model gestures, or environment state changes as a checklist. Use one only when the story/gameplay beat genuinely requires it.
 
 ## Stable IDs
+
 Production scene data references:
 > character ID + expression ID
 
 not final image file paths.
 
-Scene/cue data should likewise prefer stable semantic IDs for staging functions over brittle asset paths where practical.
-
 ## Current ID correction
+
 Global current chapter IDs extend through:
 > `chapter_13`
 
 Current mandatory story sequence extends through:
 > **S073**
-
-Older schema documents capped at chapter_12/S062 are stale bookkeeping.
 
 ## OPEN PRODUCTION UX
 - text speed;
@@ -155,5 +141,5 @@ Older schema documents capped at chapter_12/S062 are stale bookkeeping.
 - nameplate treatment;
 - exact text-box skin;
 - exact active/inactive portrait dim amount;
-- exact portrait hide/show behavior during environmental-read beats;
-- exact walking-dialogue presentation at narrow traversal widths.
+- exact portrait hide/show behavior during major environmental-read beats;
+- exact walking-dialogue HUD suppression rules.
