@@ -17,6 +17,16 @@ The old Chapter-0 `LINE_COMPLETE` transcript set has been removed from the live 
 
 The current production manuscript is the dialogue version to use going forward. It may still receive bounded implementation/playtest edits; `complete current working production` is not a permanent immutable line lock.
 
+## Pipeline continuity
+
+Chapter 0 is one of the two reference implementations for the locked forward dialogue workflow. The same rehearsal-first Agent Brain system used here and in Chapter 1 is mandatory for Chapters 2–13 and future Diyse dialogue unless explicitly revised by the user.
+
+Owning lock:
+`docs/03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`
+
+Required sequence:
+**scene/world state → independent Person Agent Brain rehearsals → Dialogue Editor → invisible Canon/Knowledge Checker → economical HD-2D staging/implementation**.
+
 ## Key continuity
 
 - first incomplete Card flare: P04, fully ends before P05;
