@@ -140,6 +140,235 @@ Do not reveal in Beat 1:
 
 # Beat 2 — Dunmere Arrival / Missing Travelers
 
+**Development status:** CURRENT WORKING BEAT PACKET
+
+## Purpose
+
+Establish Dunmere as a real functioning settlement first, then introduce the human problem that redirects the party's immediate priorities.
+
+The beat should:
+- let the player enter and briefly experience Dunmere as a normal town rather than a crisis set;
+- show that road travel has become strained without having every NPC repeat the same exposition;
+- establish that people leaving Dunmere toward Caelora have been disappearing;
+- establish that the disappearances are understood locally as Black Host kidnappings rather than ordinary wilderness losses;
+- identify the occupied **Red Transfer Bastion** as the position making the direct Greenhollow–Dunmere road unsafe;
+- stop short of solving the tactical problem or revealing the waterworks route.
+
+## Starting state
+
+- Cyanis, Ilyra, Torren, and Maevra have just arrived from Beat 1.
+- Their original plan remains: stop in Dunmere, then continue toward Caelora.
+- Combat party: **Cyanis + Ilyra + Torren**.
+- Maevra remains physically present and noncombat.
+- The group knows nothing yet about the kidnapping operation beyond whatever ordinary regional knowledge Torren or Maevra could plausibly possess.
+- The Wayfinder copies remain with the group but are not the purpose of this scene.
+
+## Playable structure
+
+- Do not lock the player into a long mandatory conversation the instant the town threshold is crossed.
+- Give the player a short amount of normal Dunmere movement/exploration before the required story progression.
+- Dunmere should visibly function: shops/businesses, residents, travelers, ordinary town activity, and local routines continue.
+- Road pressure should be communicated economically through one or two strong indicators rather than repeated ambient scenes.
+- Possible indicators include thinner outbound traffic, delayed caravans, travelers waiting to leave in groups, or one ordinary warning about not taking a road alone. These are examples, not mandatory micro-staging.
+
+## Information progression
+
+The beat should move through three levels of understanding rather than dumping the entire situation at once:
+
+1. **Something is wrong with travel.**
+2. **People have actually been disappearing.**
+3. **Local evidence/knowledge points to the Black Host taking them, and the Red Transfer Bastion is controlling the Greenhollow corridor.**
+
+The exact person or exchange that supplies each piece may be chosen later by the Dialogue Director/Agent Brain rehearsal, provided the knowledge provenance is plausible.
+
+## Mandatory discoveries
+
+- Dunmere is inhabited, functioning, and not poisoned or under direct siege.
+- Travel out of town has become materially more dangerous.
+- People leaving Dunmere toward **Caelora** have gone missing.
+- The disappearances are repeated/recent enough to change local travel behavior.
+- There is credible local reason to believe the **Black Host is taking travelers** rather than people simply getting lost or killed by wilderness threats.
+- The direct **Greenhollow–Dunmere road** is unsafe because the Black Host occupies the **Red Transfer Bastion**.
+- The Bastion is understood as a major reason normal movement through that corridor has broken down.
+- The party recognizes that simply continuing toward Caelora would leave an immediate active threat to travelers unresolved.
+
+## Character / Agent-Brain guidance
+
+Do not pre-script each character's moral function into dialogue.
+
+The Director should provide each Person Agent with the newly learned facts and allow their established brains to determine the reaction.
+
+In particular:
+- Cyanis does not require a formal heroic declaration;
+- Ilyra does not need to announce that victims matter to her;
+- Torren does not need to narrate his route expertise;
+- Maevra does not need to immediately turn the town arrival into a command briefing.
+
+Their established history, values, knowledge, relationships, and current state should produce the interaction naturally.
+
+## Beat boundary rule
+
+> **Beat 2 establishes what is wrong. Beat 3 establishes what the party can do about it.**
+
+Therefore Beat 2 must not reveal the covert waterworks entrance or complete tactical plan for infiltrating the Bastion.
+
+## End state
+
+- the party knows travelers are being kidnapped;
+- the party knows the Red Transfer Bastion is central to the road threat;
+- the party is no longer simply passing through Dunmere on the way to Caelora;
+- they need fuller local information before deciding how to act against the Bastion.
+
+## Gameplay handoff
+
+→ **Beat 3 — Dunmere Elder / Hidden Approach**
+
+## Reveal firewall
+
+Do not reveal in Beat 2:
+- the hidden waterworks route;
+- the Sunken Archive;
+- the western map mural;
+- the Archive Leviathan;
+- the secret passage into the Prisoner Galleries;
+- the exact captive situation inside the Bastion;
+- Rhazek's command role;
+- masked Seyrik;
+- later Chapter-3 ancient answers;
+- any new Card/Prime/Last Sentinel explanation.
+
+---
+
+# Beat 3 — Dunmere Elder / Hidden Approach
+
+**Development status:** CURRENT WORKING BEAT PACKET
+
+## Purpose
+
+Turn the problem established in Beat 2 into an actionable plan using local knowledge the party could not reasonably possess on its own.
+
+This beat should:
+- give the party a clearer picture of why the Red Transfer Bastion cannot simply be approached from the road;
+- preserve the Bastion as a credible military position rather than a conveniently undefended dungeon entrance;
+- introduce the old waterworks route as a practical covert approach;
+- let Torren and Maevra evaluate the plan from route and military perspectives without turning the scene into an exposition contest;
+- send the player into the waterworks with a clear immediate objective.
+
+## Starting state
+
+- Dunmere is functioning but increasingly isolated by dangerous roads.
+- The party knows people leaving toward Caelora are being kidnapped by the Black Host.
+- The party knows the Black Host occupies the Red Transfer Bastion and that this position compromises the direct Greenhollow–Dunmere road.
+- The party does **not** yet know of a safe/covert way into the Bastion.
+- Their larger journey toward Caelora remains pending.
+- Combat party: **Cyanis + Ilyra + Torren**.
+- Maevra remains present but noncombat.
+
+## Scene / playable shape
+
+This should be a proper authored stop rather than another walking conversation.
+
+The party is directed to or chooses to speak with the **Dunmere town elder**, who has the local institutional/history knowledge needed to move the chapter forward.
+
+The elder should not exist merely as a quest dispenser. They are someone dealing with a town whose road access is deteriorating and who understands the practical consequences of the Bastion occupation.
+
+The scene can occur in an appropriate ordinary Dunmere civic/residential location already supported by eventual town-map design; do not invent an elaborate bespoke command chamber solely for this conversation.
+
+## What the elder knows
+
+The elder may plausibly know:
+- the Red Transfer Bastion's local reputation/function as an old fort controlling the road corridor;
+- which approaches are watched or exposed;
+- that direct movement against it would be dangerous;
+- old local infrastructure associated with Dunmere's waterworks;
+- that a little-used maintenance/service route once ran toward/under the Bastion's lower structure.
+
+The elder does **not** know:
+- the Sunken Archive exists as a Diysean archive complex;
+- the western-map revelation;
+- the Archive Leviathan;
+- that the old route eventually opens into the Prisoner Galleries;
+- the complete layout or current Black Host use of the lower Bastion;
+- Rhazek's exact command-room situation;
+- Seyrik's identity/presence.
+
+## Tactical problem
+
+A normal approach to the Red Transfer Bastion should be rejected for grounded reasons.
+
+Possible reasons may include:
+- exposed road approaches;
+- Black Host observation/control of the corridor;
+- prepared defenses;
+- insufficient numbers for a frontal attack;
+- risk that an obvious assault would endanger captives or cause them to be moved.
+
+The final Agent Brain dialogue does not need to state every reason. The important outcome is that a frontal assault is credibly worse than the covert route.
+
+## Hidden approach reveal
+
+The elder explains that an old, little-used **waterworks service route** runs toward the Bastion's lower structure.
+
+Locked boundaries:
+- this is an old local route, not a secret tunnel the elder personally discovered yesterday;
+- it is not introduced as a Diysean ruin entrance;
+- it is not known to lead directly to prisoners;
+- it is not part of a poisoned-water problem;
+- it is a plausible route by which a small group might bypass the watched road approaches.
+
+Torren can assess its physical route plausibility. Maevra can assess the tactical value of entering below the main defended approach. Neither should somehow know what lies beyond the elder's knowledge.
+
+## Agent-Brain rehearsal packet
+
+Each participating agent should receive the immediate situation rather than a desired speech assignment:
+
+- **Cyanis:** travelers are being abducted; frontal entry risks failure and potentially the captives; a covert lower route may exist.
+- **Ilyra:** living captives may be inside or moved through the Bastion; their condition and location remain unknown; any operation needs to account for getting people out, not just getting the party in.
+- **Torren:** receives the elder's route description/landmarks and may judge whether the waterworks approach sounds traversable.
+- **Maevra:** receives the same operational picture and may weigh the route as a commander while remaining noncombat because of her injury/current role.
+- **Town elder:** wants the disappearances stopped and road safety restored but has only local knowledge, not omniscient dungeon information.
+
+Do not require all five to speak equally. Selective participation is preferred if the rehearsal naturally produces it.
+
+## Mandatory events / decisions
+
+- the party speaks with the Dunmere elder;
+- the elder confirms enough local road/Bastion context to make direct assault unattractive;
+- the elder reveals the old waterworks service route toward the Bastion's lower structure;
+- the party evaluates the route rather than accepting it blindly;
+- the route is judged plausible for a small covert infiltration;
+- the group agrees to investigate/use it;
+- the immediate objective becomes reaching the Bastion through the waterworks and finding the kidnapped travelers / source of the operation.
+
+## End state
+
+- the party has an actionable infiltration route;
+- they know only that the waterworks may connect into the Bastion's lower structure;
+- they do not know what ancient complex or prisoner infrastructure lies beyond it;
+- the direct-road approach is intentionally bypassed;
+- the party prepares to enter the old waterworks.
+
+## Gameplay handoff
+
+→ **Beat 4 — Old Waterworks**
+
+## Reveal firewall
+
+Do not reveal in Beat 3:
+- the Sunken Archive by name or function;
+- the complete western-half Diysean map;
+- the Archive Leviathan;
+- the old secret passage into the Prisoner Galleries;
+- exact prisoner locations/counts;
+- Rhazek's detailed command role or philosophy;
+- Seyrik's presence/identity;
+- Last Sentinel;
+- the complete ancient route-network explanation.
+
+---
+
+# Beat 4 — Old Waterworks
+
 **Development status:** NEXT TO DEVELOP
 
-Current locked function from `CHAPTER_02.md`: establish Dunmere as a functioning town under travel pressure, reveal the missing-traveler/kidnapping problem, and identify Red Transfer Bastion as the Black Host position controlling the Greenhollow–Dunmere corridor.
+Current locked function from `CHAPTER_02.md`: use the old waterworks strictly as the covert infiltration approach, let ordinary municipal/Yahtrean construction gradually give way to older submerged construction, and end when the party discovers the entrance into the Sunken Archive.
