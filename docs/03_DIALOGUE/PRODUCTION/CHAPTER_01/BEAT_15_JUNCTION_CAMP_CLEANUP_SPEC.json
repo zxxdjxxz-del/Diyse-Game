@@ -14,9 +14,9 @@
     {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "direct_card_physical_state_authority"}
   ],
   "character_life_sources": [
-    {"path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_A.md", "scene": "Torren's Version of Dinner", "rule": "current rehearsal-first dialogue authority; all four present; Torren's bad food; Torren smokes only after the meal"},
+    {"path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md", "scene": "Torren's Version of Dinner", "rule": "current rehearsal-first dialogue authority; all four present; Torren's bad food; Torren smokes only after the meal"},
     {"path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md", "scene": "What the Map Says", "rule": "current rehearsal-first dialogue authority; early Cyanis/Torren map-work scene"},
-    {"path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NO_SPOILERS_REHEARSAL_FIRST_DRAFT_A.md", "scene": "Not Professionally", "rule": "current rehearsal-first dialogue authority; Ilyra and Maevra only; splint change plus private Torren relationship conversation"}
+    {"path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md", "scene": "Not Professionally", "rule": "current rehearsal-first dialogue authority; Ilyra and Maevra only; splint change plus private Torren relationship conversation"}
   ],
   "additional_authority_sources": [
     {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "current_gameplay_presentation_hard_lock"},
@@ -30,7 +30,7 @@
     "area_phase": "safe_evening_cleanup_then_next_morning_departure",
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
-    "runtime_note": "CAMP PRESENTATION: Cyanis, Ilyra, Torren, and Maevra may all be present as field models around camp. Maevra's arm remains splinted from the Broken Convoy attack. C03/C04/C05 use the current rehearsal-first production drafts, not the older line-complete scripts. C03 includes all four and Torren's post-meal smoking. C04 is a Cyanis/Torren modern-map scene. C05 is Ilyra + Maevra only: Ilyra changes the splint, uses restrained magic only for pain/strain relief, and asks about Maevra and Torren. The broken bone is not magically repaired. OPTIONAL BACKTRACK: leaving camp for Southern Briar returns to Cyanis-only ordinary traversal. REST: optional content may be skipped; choosing rest advances to morning. HARD FIREWALL: no Prime, Last Sentinel, bearer, Entity, or complete ancient-network answers."
+    "runtime_note": "CAMP PRESENTATION: Cyanis, Ilyra, Torren, and Maevra may all be present as field models around camp. Maevra's arm remains splinted from the Broken Convoy attack. C03/C04/C05 use the current rehearsal-first production drafts. C03 includes all four and Torren's post-meal smoking. C04 is a Cyanis/Torren modern-map scene. C05 is Ilyra + Maevra only: Ilyra changes the splint, uses restrained magic only for pain/strain relief, and asks about Maevra and Torren. The broken bone is not magically repaired. OPTIONAL BACKTRACK: leaving camp for Southern Briar returns to Cyanis-only ordinary traversal. REST: optional content may be skipped; choosing rest advances to morning. HARD FIREWALL: no Prime, Last Sentinel, bearer, Entity, or complete ancient-network answers."
   },
   "current_floor_state": {
     "briarhide_stalker": "defeated",
