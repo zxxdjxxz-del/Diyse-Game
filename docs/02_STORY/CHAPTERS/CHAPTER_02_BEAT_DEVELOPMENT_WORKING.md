@@ -421,7 +421,7 @@ No complete captive count, full onward destination/purpose, Rhazek philosophy, S
 
 # Beat 10 — Prisoner Galleries / First Contact
 
-**Development status:** CURRENT WORKING BEAT PACKET — REVISED PRISONER AUTHORITY
+**Development status:** CURRENT WORKING BEAT PACKET — REVISED PRISONER + RHAZEK AUTHORITY
 
 ## Purpose
 Turn the kidnapping problem into direct human contact and show exactly who the Black Host has been sweeping into Red Transfer Bastion.
@@ -431,6 +431,8 @@ This beat should:
 - establish the current prisoners as a mix of regional civilians, travelers, and wounded military personnel;
 - reveal through direct prisoner experience that this Bastion is a **holding/transit site**, not the final destination;
 - establish that prisoners want help and are willing to cooperate;
+- reveal that **Commander Rhazek is currently in command of Red Transfer Bastion**;
+- let the party recognize the significance of that name because Rhazek is a **known high-ranking Black Host commander**;
 - shift the central tension away from distrust/refusal and toward the practical fear that nobody can safely escape until the Black Host's control of the Bastion is broken;
 - hand cleanly into Beat 11's tactical exit problem.
 
@@ -485,10 +487,30 @@ They do **not** know:
 
 This replaces any need for a transfer-records exposition scene. The knowledge comes from lived experience, not ledgers.
 
+## Rhazek command reveal — locked
+The prisoners can credibly establish that **Commander Rhazek is the officer in command of Red Transfer Bastion**.
+
+The knowledge does not require a prisoner to have met Rhazek personally. It may come from:
+- guards referring to the commander by name/title;
+- orders being issued in Rhazek's name;
+- prisoners overhearing personnel discussing his command;
+- injured captive soldiers recognizing the name or command reputation;
+- a combination of those ordinary sources.
+
+The party recognizes **Rhazek** as a known **high-ranking Black Host commander**. This should materially raise the perceived stakes of the operation: the Bastion is not simply being run by a minor local officer.
+
+Knowledge boundary:
+- prisoners know Rhazek commands **this Bastion**;
+- the party knows his wider rank/reputation;
+- prisoners do not know his complete ideology, strategic reasoning, or the final destination/purpose of the transferred captives;
+- nobody learns anything here about the unnamed masked officer who will later be seen with Rhazek.
+
+Exact wording and which prisoner supplies the name belongs to the rehearsal-first Agent Brain/NPC pass.
+
 ## Primary prisoner fear
 The prisoners' immediate reaction to rescue is not “we don't want your help.” It is closer to:
 
-> **Finding us is not the same as getting us out. The Host still owns the fort above us.**
+> **Finding us is not the same as getting us out. Rhazek and the Host still own the fort above us.**
 
 They are worried because:
 - the Black Host still controls the Bastion's normal exits;
@@ -506,8 +528,9 @@ The exact wording belongs to Agent Brain rehearsal. This is the underlying situa
 4. the current prisoner mix becomes apparent through natural interaction/visuals;
 5. injured people are assessed and helped;
 6. prisoners explain that earlier captives have been taken onward from the Bastion to somewhere unknown;
-7. prisoners make clear that simply opening the cells is not enough while the Host still controls the fort;
-8. party and prisoners shift toward creating a defensible waiting position while the party deals with the Bastion above.
+7. prisoners identify **Commander Rhazek** as the high-ranking Black Host commander currently in charge of the Bastion;
+8. prisoners make clear that simply opening the cells is not enough while Rhazek's Host force still controls the fort;
+9. party and prisoners shift toward creating a defensible waiting position while the party deals with the Bastion above.
 
 ## Local guard / alarm boundary
 The Black Host controls the Prisoner Galleries, so some nearby security is plausible, but the ancient secret passage provides surprise.
@@ -518,13 +541,13 @@ The Black Host controls the Prisoner Galleries, so some nearby security is plaus
 - keep enough containment for Beat 11 to occur before the party deliberately ascends into the active fort.
 
 ## Agent-Brain rehearsal packet
-- **Cyanis:** prisoners want out, but the fort above remains controlled by the Host; opening cells alone will not solve the rescue.
-- **Ilyra:** mixed prisoner population includes wounded/injured people who accept help; she should assess what movement they can safely manage.
-- **Torren:** the party's secret route is behind them; he can judge that it is poor for moving a mixed injured group and begin reading the usable Bastion-side route.
-- **Maevra:** prisoners are willing to cooperate; the problem is how to hold them safely while the fighting group breaks Bastion control; she remains noncombat.
-- **Prisoner Person Agents/NPCs:** know their own capture circumstances, the repeated onward-transfer pattern, that prior captives were taken elsewhere, and that the destination is unknown. Their main fear is being unable to escape while the Host still holds the Bastion.
+- **Cyanis:** prisoners want out, but the fort above remains controlled by the Host; opening cells alone will not solve the rescue; Rhazek's presence makes the command threat more serious.
+- **Ilyra:** mixed prisoner population includes wounded/injured people who accept help; she should assess what movement they can safely manage; she knows Rhazek's rank/reputation at the level established for the party.
+- **Torren:** the party's secret route is behind them; he can judge that it is poor for moving a mixed injured group and begin reading the usable Bastion-side route; Rhazek's presence suggests the fort is likely to be disciplined and prepared.
+- **Maevra:** prisoners are willing to cooperate; the problem is how to hold them safely while the fighting group breaks Bastion control; as a former/experienced military figure she can react naturally to Rhazek's known rank/reputation without becoming an exposition mouthpiece; she remains noncombat.
+- **Prisoner Person Agents/NPCs:** know their own capture circumstances, the repeated onward-transfer pattern, that prior captives were taken elsewhere, that the destination is unknown, and that Rhazek is the commander here through plausible lived/heard evidence. Their main fear is being unable to escape while his Host force still holds the Bastion.
 
-Do not require everyone to speak. Avoid four-category roll call exposition.
+Do not require everyone to speak. Avoid four-category roll call exposition or a formal Rhazek biography.
 
 ## Mandatory progression
 - party makes first direct contact with captives;
@@ -533,8 +556,10 @@ Do not require everyone to speak. Avoid four-category roll call exposition.
 - Ilyra asks before non-emergency treatment and the prisoners accept needed care;
 - prisoners reveal that Red Transfer Bastion is used as a holding area before captives are taken elsewhere;
 - they know earlier prisoners have already been transferred but **do not know where**;
+- prisoners identify **Commander Rhazek as the officer currently commanding the Bastion**;
+- party recognizes Rhazek as a **known high-ranking Black Host commander**;
 - no total transfer count or paperwork substitute is established;
-- prisoners express practical fear that escape cannot succeed while the Black Host still controls the Bastion;
+- prisoners express practical fear that escape cannot succeed while Rhazek's Host force still controls the Bastion;
 - party recognizes that opening the galleries is only the first part of the rescue;
 - immediate local space is stabilized enough to prepare for Beat 11.
 
@@ -545,6 +570,7 @@ After Beat 10:
 - the party knows Red Transfer Bastion is a **holding/transit site**;
 - prisoners confirm earlier captives were transferred elsewhere;
 - the destination and purpose remain unknown;
+- the party now knows **Commander Rhazek commands Red Transfer Bastion** and recognizes him as a known high-ranking Black Host commander;
 - current prisoners believe escape is unsafe/impossible until the Bastion's local Black Host control is broken;
 - the party must now secure a defensible waiting area and determine the practical exit route.
 
@@ -557,8 +583,8 @@ Do not reveal in Beat 10:
 - destination of earlier transferred prisoners;
 - ultimate purpose/fate of transferred captives;
 - retired `thirty-one transfers` clue;
-- Rhazek's full philosophy/command scene;
-- masked Seyrik's identity;
+- Rhazek's full policy/ideology beyond the fact that he commands this Bastion;
+- masked Seyrik's presence/identity;
 - additional ancient-map answers;
 - Last Sentinel;
 - Cresthaven;
@@ -569,7 +595,7 @@ Do not reveal in Beat 10:
 
 # Beat 11 — Prisoner Safe Area / Exit Problem
 
-**Development status:** CURRENT WORKING BEAT PACKET
+**Development status:** CURRENT WORKING BEAT PACKET — RHAZEK KNOWLEDGE SYNCHRONIZED
 
 ## Purpose
 Turn the prisoners' concern from Beat 10 into the chapter's next concrete tactical objective.
@@ -580,13 +606,15 @@ The party has found people who want to leave, but freeing them from their cells 
 
 Answer:
 
-> **The Black Host's local control of Red Transfer Bastion must be broken and the practical road-side exit secured.**
+> **Commander Rhazek's local Black Host control of Red Transfer Bastion must be broken and the practical road-side exit secured.**
 
 ## Starting state
 - current prisoners are cooperating with rescue;
 - prisoner mix includes travelers, injured soldiers, Greenhollow residents, and Dunmere residents;
 - some require assistance and cannot move quickly;
 - prisoners know earlier captives were transferred elsewhere but do not know the destination;
+- prisoners have identified **Commander Rhazek** as the officer commanding Red Transfer Bastion;
+- the party recognizes Rhazek as a **known high-ranking Black Host commander**;
 - the party entered through the secret Archive connection;
 - the Bastion's upper/active areas remain under Black Host control;
 - combat party: **Cyanis + Ilyra + Torren**;
@@ -626,13 +654,13 @@ The important lock is:
 > **The party's covert entry route is not a believable mass-evacuation route for this prisoner population.**
 
 ## Why they cannot simply use the Bastion exit now
-The prisoners are willing to leave. The problem is that the **Black Host still controls the Bastion**.
+The prisoners are willing to leave. The problem is that **Rhazek's Black Host force still controls the Bastion**.
 
 A premature escape would mean moving travelers, residents, and injured soldiers through or past:
 - active Host personnel;
 - controlled internal routes;
 - guarded/controlled exits;
-- a command structure capable of reacting to a mass breakout.
+- a command structure under a known high-ranking commander capable of reacting to a mass breakout.
 
 The prisoners' worry from Beat 10 is validated rather than dismissed. The party recognizes that attempting the escape now would put the slowest and most injured people at the greatest risk.
 
@@ -647,24 +675,24 @@ However:
 - exit controls/doors/routes may be physically secured from above or otherwise require taking the command portion of the fort;
 - exact mechanisms remain for later Bastion map design.
 
-Do not turn this into a puzzle about finding a second secret tunnel. The solution is to **take the Bastion away from the Host locally**.
+Do not turn this into a puzzle about finding a second secret tunnel. The solution is to **take the Bastion away from Rhazek's Host force locally**.
 
 ## Decision
 The party chooses a two-part plan:
 
 1. **Keep the prisoners together in the defensible lower safe area.**
-2. **Cyanis, Ilyra, and Torren push upward through the active Bastion, break the Host's local command/control, secure/open the road-side exit, then return for everyone.**
+2. **Cyanis, Ilyra, and Torren push upward through the active Bastion, reach Rhazek's command layer, break the Host's local command/control, secure/open the road-side exit, then return for everyone.**
 
 Maevra remains with the story group and can participate in planning/organization, but she does not enter combat.
 
 The exact question of whether Maevra waits primarily with the prisoners during portions of the ascent or continues physically with the party between authored scenes can remain an implementation/staging choice so long as she never becomes a combat participant and is present again for the return/evacuation sequence.
 
 ## Agent-Brain rehearsal packet
-- **Cyanis:** people are ready to be rescued, but leading them into an occupied fort now would expose them; the Host's local control must be broken first.
+- **Cyanis:** people are ready to be rescued, but leading them into an occupied fort now would expose them; Rhazek's local control must be broken first.
 - **Ilyra:** several prisoners cannot manage the Archive route or a running breakout; a controlled usable exit is medically/practically necessary.
-- **Torren:** can compare the covert route with the maintained road exit and judge which is viable for a mixed group.
-- **Maevra:** can frame the tactical problem around protecting the slowest people, securing a route, and keeping the waiting group organized while remaining noncombat.
-- **Prisoners:** want to escape; understand the Bastion is still occupied; fear recapture/casualties if they move before the Host here is defeated/forced out; know nothing useful about the upper command layout beyond what they have personally seen/heard.
+- **Torren:** can compare the covert route with the maintained road exit and judge which is viable for a mixed group; knows the upper fort is commanded by Rhazek.
+- **Maevra:** can frame the tactical problem around protecting the slowest people, securing a route, and dealing with a known high-ranking commander while remaining noncombat.
+- **Prisoners:** want to escape; know Rhazek commands this Bastion; fear recapture/casualties if they move before his local Host force is defeated/forced out; know nothing useful about the upper command layout beyond what they have personally seen/heard.
 
 Do not make the prisoners beg the heroes to do everything for them. They can help organize, support injured people, watch the local door, and prepare to move.
 
@@ -675,8 +703,8 @@ Do not make the prisoners beg the heroes to do everything for them. They can hel
 - party determines the Archive/waterworks route is unsuitable for evacuating this mixed group;
 - prisoners' fear of trying to escape through an actively occupied Bastion is validated;
 - party identifies the maintained Greenhollow–Dunmere-side Bastion exit as the practical evacuation route;
-- that exit remains controlled by the Bastion's active command layer;
-- Cyanis, Ilyra, and Torren commit to pushing upward and breaking local Black Host control;
+- that exit remains controlled by Rhazek's active command layer;
+- Cyanis, Ilyra, and Torren commit to pushing upward, reaching Rhazek, and breaking local Black Host control;
 - party intends to return for the prisoners after securing the exit;
 - no Hold-the-Junction or substitute defense battle is created here.
 
@@ -684,8 +712,8 @@ Do not make the prisoners beg the heroes to do everything for them. They can hel
 After Beat 11:
 - the prisoners are together in a defensible temporary position and want to leave as soon as the route is safe;
 - everyone understands why the secret infiltration route cannot carry the evacuation;
-- everyone understands why escape cannot begin while the Host still controls Red Transfer Bastion;
-- the party's objective changes from **find/free the prisoners** to **defeat/break Bastion control and secure the practical exit**;
+- everyone understands why escape cannot begin while Rhazek's Host force still controls Red Transfer Bastion;
+- the party's objective changes from **find/free the prisoners** to **reach Rhazek's command layer, break Bastion control, and secure the practical exit**;
 - the upper Bastion becomes the active gameplay destination.
 
 ## Gameplay handoff
@@ -696,7 +724,7 @@ Do not reveal in Beat 11:
 - destination or ultimate fate of previously transferred prisoners;
 - exact total transfer count;
 - Rhazek's full policy/ideology before his confrontation;
-- masked Seyrik's identity;
+- masked Seyrik's presence/identity;
 - new ancient-map answers;
 - Last Sentinel;
 - Cresthaven;
@@ -709,4 +737,4 @@ Do not reveal in Beat 11:
 
 **Development status:** NEXT TO DEVELOP
 
-Current locked function from `CHAPTER_02.md`: transition from the lower prisoner area into the active Black Host fort, show Red Transfer Bastion as a functioning military holding/transit position, and carry the party upward toward Rhazek's command layer while the prisoners wait below for the exit to be secured.
+Current locked function from `CHAPTER_02.md`: transition from the lower prisoner area into the active Black Host fort, show Red Transfer Bastion as a functioning military holding/transit position, and carry the party upward toward the **already-known Commander Rhazek's command layer** while the prisoners wait below for the exit to be secured.
