@@ -283,7 +283,8 @@ Do not reveal the complete route network, Cresthaven, Last Sentinel, buried-Cres
 **Purpose**
 - turn the kidnapping problem into direct human contact;
 - establish the prisoner population as the people being caught in the corridor conflict rather than an anonymous rescue counter;
-- reveal through prisoner experience that Red Transfer Bastion functions as a **holding/transit site** before captives are taken elsewhere.
+- reveal through prisoner experience that Red Transfer Bastion functions as a **holding/transit site** before captives are taken elsewhere;
+- reveal that **Commander Rhazek is currently in command of Red Transfer Bastion** before the party begins the ascent.
 
 **Locked prisoner composition**
 The people currently held in the Prisoner Galleries include a mix of:
@@ -302,11 +303,15 @@ Other captives were held here before the current group and have already been tra
 - prisoners explain from direct experience that this Bastion is being used as a **holding area before the Host takes captives away to another location**;
 - they know previous prisoners have already been transferred out;
 - they **do not know where those people were taken** or the larger purpose of the transfer system;
+- through repeated guard references, orders, overheard names, and/or the knowledge of captive soldiers, the prisoners can credibly identify **Commander Rhazek as the Black Host commander in charge of this Bastion**;
+- the party recognizes Rhazek's name/reputation: he is a **known high-ranking Black Host commander**, so this is understood to be more than a minor local garrison operation;
+- the prisoners do not need to know Rhazek's ideology, wider plans, or exact role beyond his command of Red Transfer Bastion;
 - the prisoners' immediate fear is practical: they do not believe they can safely escape while the Black Host still controls the Bastion above them;
 - the party begins opening/clearing accessible holding areas without turning the scene into collect-all-prisoners gameplay.
 
 **End state**
 - living prisoners are found and local control of part of the galleries is broken;
+- the party knows **Commander Rhazek is in command of Red Transfer Bastion** and understands his rank/reputation;
 - the prisoners are willing to cooperate with rescue efforts but believe the Bastion must first be defeated/secured enough for an escape to succeed.
 
 **Gameplay handoff**
@@ -319,7 +324,12 @@ Other captives were held here before the current group and have already been tra
 **Purpose**
 - create a defensible temporary position for the rescued captives;
 - establish why the party cannot simply evacuate everyone back through the route they entered;
-- convert the prisoners' fear into a concrete tactical requirement: **break the Black Host's control of the Bastion before attempting the escape**.
+- convert the prisoners' fear into a concrete tactical requirement: **break Commander Rhazek's Black Host control of the Bastion before attempting the escape**.
+
+**Starting knowledge**
+- the party already knows from the prisoners that **Commander Rhazek commands Red Transfer Bastion**;
+- Rhazek is known to the party by reputation as a **high-ranking Black Host commander**;
+- the party still does not know about the unnamed masked officer who will appear with Rhazek later.
 
 **Mandatory events**
 - the prisoners gather in a defensible lower safe area while the party prepares to move against the upper Bastion;
@@ -327,11 +337,11 @@ Other captives were held here before the current group and have already been tra
 - the secret Archive/waterworks route is judged unsuitable for moving a mixed group that includes injured soldiers, injured/weakened civilians, and ordinary travelers;
 - prisoners make clear that trying to flee through an unsecured fort while the Host still controls the Bastion would likely mean recapture, attack, or abandonment of people who cannot move quickly;
 - the practical exit toward the surface/direct Greenhollow–Dunmere road is controlled by the Bastion's active command layer;
-- the party decides to push upward, defeat/break the Bastion's local Black Host control, seize/open the usable exit route, and then return for the prisoners.
+- the party decides to push upward, defeat/break Rhazek's local Black Host control, seize/open the usable exit route, and then return for the prisoners.
 
 **End state**
 - prisoners have a temporary safe position and are waiting for the party to make escape genuinely possible;
-- the party's next objective is the Bastion command layer and exit controls.
+- the party's next objective is explicitly to reach **Rhazek's command layer**, break Bastion control, and secure the exit controls.
 
 **Gameplay handoff**
 → Beat 12 — Bastion Command Ascent
@@ -342,7 +352,8 @@ Other captives were held here before the current group and have already been tra
 
 **Purpose**
 - transition from ancient/submerged infrastructure into the active Black Host fort;
-- show the Bastion as an organized occupation/transfer site rather than a theatrical villain dungeon.
+- show the Bastion as an organized occupation/transfer site rather than a theatrical villain dungeon;
+- let the ascent confirm that the scale and discipline of the Bastion fit the presence of a high-ranking commander such as Rhazek.
 
 **Mandatory presentation**
 - disciplined guard rotations, maintained routes, logistics, working controls, holding/transfer infrastructure, and ordinary operational activity establish a functioning Black Host position;
@@ -351,7 +362,7 @@ Other captives were held here before the current group and have already been tra
 - exact combat placement remains encounter authority.
 
 **End state**
-- the party reaches the active command area.
+- the party reaches the active command area already expecting to find Commander Rhazek there.
 
 **Gameplay handoff**
 → Beat 13 — Rhazek / Masked Officer
@@ -361,12 +372,14 @@ Other captives were held here before the current group and have already been tra
 ## Beat 13 — Rhazek / Masked Officer
 
 **Purpose**
-- establish Commander Rhazek's ownership of the operation;
+- bring the party face-to-face with the already-identified commander of Red Transfer Bastion;
+- establish Rhazek's direct ownership of the kidnapping/forced-transfer policy;
 - seed Seyrik before his later reveal without identifying him;
 - create the immediate confrontation over the prisoner exit/controls.
 
 **Mandatory events**
 - Rhazek is actively commanding the Bastion rather than waiting theatrically for the party;
+- the party already knows who Rhazek is and why finding him matters;
 - an **unnamed masked second officer** is present speaking/reporting to Rhazek when the party enters;
 - writer-facing only: the masked officer is **Seyrik Rell**;
 - Seyrik is not named, unmasked, or correctly identified by the party/player here;
@@ -506,7 +519,7 @@ Other captives were held here before the current group and have already been tra
 
 # Locked Chapter-2 dramatic shape
 
-**Start Chapter 2 confirmation at the end of the Chapter-1 camp → Chapter 2 opens on the path immediately outside Dunmere → Dunmere missing-traveler crisis → elder reveals covert waterworks approach → Old Waterworks → Sunken Archive → complete western-half map mural showing what Wayfinder could not and visibly continuing beyond its edges → Archive depths → Archive Leviathan → old secret passage → direct emergence into Prisoner Galleries → first contact with travelers, injured soldiers, Greenhollow residents, and Dunmere residents → prisoners reveal the Bastion is a holding/transit site and that earlier captives were transferred somewhere unknown → prisoners fear escape is impossible while the Host still controls the fort → defensible safe area / practical exit problem → Bastion command ascent → Rhazek actively commanding with unnamed masked Seyrik present → Rhazek/Bastion Master → controls/exit secured while Rhazek withdraws → return to prisoners → lead prisoners out through the Bastion exit directly onto the Greenhollow–Dunmere road → road reopened / rescue complete → return to Dunmere → inn/cleanup → player explicitly chooses to begin Chapter 3.**
+**Start Chapter 2 confirmation at the end of the Chapter-1 camp → Chapter 2 opens on the path immediately outside Dunmere → Dunmere missing-traveler crisis → elder reveals covert waterworks approach → Old Waterworks → Sunken Archive → complete western-half map mural showing what Wayfinder could not and visibly continuing beyond its edges → Archive depths → Archive Leviathan → old secret passage → direct emergence into Prisoner Galleries → first contact with travelers, injured soldiers, Greenhollow residents, and Dunmere residents → prisoners reveal the Bastion is a holding/transit site and that earlier captives were transferred somewhere unknown → prisoners identify Commander Rhazek as the high-ranking Black Host commander currently in charge of the Bastion → prisoners fear escape is impossible while the Host still controls the fort → defensible safe area / practical exit problem → Bastion command ascent toward Rhazek → Rhazek actively commanding with unnamed masked Seyrik present → Rhazek/Bastion Master → controls/exit secured while Rhazek withdraws → return to prisoners → lead prisoners out through the Bastion exit directly onto the Greenhollow–Dunmere road → road reopened / rescue complete → return to Dunmere → inn/cleanup → player explicitly chooses to begin Chapter 3.**
 
 # Long arcs advanced
 - Hollow Watch → Wayfinder → Sunken Archive cartographic mystery escalates from local clues to a **complete western section** of a much larger Diysean route/map system.
@@ -514,6 +527,7 @@ Other captives were held here before the current group and have already been tra
 - A much larger unfamiliar ancient city is established at modern Caelora's location without yet identifying its full meaning.
 - The Black Host kidnapping operation is demonstrated through the actual Prisoner Galleries and working Bastion infrastructure rather than a separate transfer-records exposition beat.
 - The current prisoners establish through direct experience that Red Transfer Bastion is a **holding/transit site** and that earlier captives were moved onward to an unknown destination.
+- The prisoners also establish before the command ascent that **Commander Rhazek currently commands Red Transfer Bastion**; the party recognizes him as a known high-ranking Black Host commander.
 - The broader missing-person thread therefore remains open even after the current prisoners are rescued.
 - Rhazek is established as competent, ideological, and accountable for the operation.
 - Seyrik is deliberately seeded as the unnamed masked officer reporting to Rhazek before his later reveal.
