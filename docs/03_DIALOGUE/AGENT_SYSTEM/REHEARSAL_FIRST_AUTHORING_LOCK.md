@@ -107,6 +107,17 @@ The pass must NOT automatically add:
 - extra dialogue beats created to justify staging;
 - new story information disguised as set dressing.
 
+### Micro-detail accumulation is also additive
+A scene can become expensive and over-authored without adding a large set piece. **Do not replace one large addition with many tiny visual additions.**
+
+The dialogue manuscript is not the area-art dressing document. Unless a visual is required for the story beat, gameplay read, or emotional read, leave ordinary environment richness to the map/art pass.
+
+Do not stack small visual tells such as repeated tracks, broken brush, mud details, scratches, scattered bones, extra road markers, tiny prop interactions, multiple weathered surfaces, ambient object business, or successive environmental clues just to make traversal feel authored.
+
+> **Prefer one necessary visual fact over five small supporting visual facts.**
+
+If the scene can be understood with the existing area plus one required landmark or clue, stop there. Do not keep decorating the route in the dialogue script.
+
 If the required beat already works with characters standing in an existing gameplay space and speaking through portraits/B00 facing, that is a successful cheap pass.
 
 **Presentation may clarify existing content. It must not silently expand the authored content.**
@@ -125,8 +136,16 @@ Then ask:
 
 If not, remove it.
 
+Also ask:
+
+> **Am I authoring a story beat, or am I accidentally doing the map artist's set-dressing pass?**
+
+If it is the latter, cut it from the dialogue manuscript.
+
 ## Chapter 1 remediation
 
 Current Chapter 1 Beats 1–12 are to receive a rehearsal-first pass before Beat 13 is advanced to production. Preserve their locked story structure, geography, reveal order, party states, combat outcomes, walking-dialogue lock, and current canon. Rework the human layer wherever the existing script sounds rule-driven, over-explained, uniformly clever, or excessively self-aware about uncertainty.
 
 Because the first rebuild passes also accumulated extra staging/set-dressing, **Beats 1–6 require a later reductive cheap-HD-2D consistency sweep**. That sweep should remove nonessential invented props, micro-events, environmental business, and implied map/set complexity while preserving approved dialogue and required visual information. From Beat 7 onward, the reductive rule applies during first drafting rather than as cleanup afterward.
+
+Beat 12 specifically demonstrated that many individually cheap visual details can still become an additive design pass. Future revisions must remove this kind of micro-detail accumulation rather than merely keeping each individual detail inexpensive.
