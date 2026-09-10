@@ -1,336 +1,124 @@
 # Chapter 1 — Beat 2
 # Briar Passage / First Traversal
-## DIALOGUE ENGINE PRODUCTION DRAFT D — rehearsal-first + random-encounter correction / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT E — established gameplay presentation normalization / awaiting user approval
 
-**Walking-dialogue lock:** limited moving dialogue is legal here only while Maevra Solmar is genuinely leading Cyanis and Ilyra to Greenhollow. Ordinary traversal remains gameplay and silence.
-
----
-
-### [GAMEPLAY — LEAVING BRACKENWALL]
-
-**Player control remains active.**
-
-Brackenwall's maintained road thins gradually into Briar Passage.
-
-Packed earth gives way to roots and older repair stone. Ditches appear, vanish beneath growth, then return. Marker stones stand at uneven distances and in visibly different states of maintenance.
-
-Maevra leads.
-
-Cyanis carries the recovered Card itself. It remains inert.
-
-A short distance into the trees, the road divides around a low ridge and rejoins beyond it.
-
-Maevra takes the left trace without slowing.
-
-Cyanis looks at the right one.
-
-**CYANIS:** Not even considering it?
-
-**MAEVRA:** Considered it yesterday.
-
-**CYANIS:** And today?
-
-**MAEVRA:** Still has a tree across it.
-
-Ilyra looks through the brush.
-
-There is, in fact, a tree across it.
-
-**ILYRA:** Strong case.
-
-Cyanis follows Maevra.
-
-The conversation ends with the route choice.
+**Walking-dialogue lock:** brief moving dialogue is legal here because Maevra is genuinely guiding Cyanis and Ilyra to Greenhollow.
 
 ---
 
-### [ROUTE STOP — FIRST MARKER]
+### [GAMEPLAY — BRIAR PASSAGE]
 
-At a weathered marker where several narrower trails peel away, Maevra stops.
+**Player control is active.**
 
-She looks at the road before she looks at the stone.
+Cyanis is the only party character visible during ordinary traversal.
 
-Recent wheel ruts bend east. The inner edge of the turn is worn by foot traffic. Someone has cut a hanging branch cleanly within the last few days.
+Maevra and Ilyra remain present with him and speak through the normal portrait + dialogue-box presentation.
 
-**CYANIS:** Greenhollow?
+Cyanis carries the intact recovered Card itself. It remains inert.
 
-Maevra points east.
+Briar Passage is normal hostile field gameplay. Its established map/environment carries the wooded roads, trails, route markers, side paths, and changing terrain required by Chapter-1 story authority. The dialogue manuscript does not add a false trail, route split, crossing, prop trail, or extra traversal vignette.
 
-**MAEVRA:** That way.
+Random encounters are active.
 
-Ilyra reads the marker.
+Combat party: **Cyanis + Ilyra**.
 
-**ILYRA:** Stone agrees.
-
-**MAEVRA:** Good for it.
-
-She rubs moss away from an older score beneath the newer route mark.
-
-**MAEVRA:** Last time I came through, somebody had turned this face around.
-
-**CYANIS:** Accident?
-
-**MAEVRA:** He swore his grandfather called the other road east.
-
-Ilyra looks at the two roads.
-
-**ILYRA:** Was his grandfather right?
-
-Maevra stares at her.
-
-**MAEVRA:** That's not the point.
-
-Cyanis smiles.
-
-**CYANIS:** It absolutely is now.
-
-Maevra points east again.
-
-**MAEVRA:** Roads should know what they are.
-
-**ILYRA:** Roads are famously difficult that way.
-
-Maevra gives her a betrayed look.
-
-Then starts moving.
-
-**MAEVRA:** Both of you can walk east in silence.
-
-They do.
-
-For a while.
+Maevra never appears in battle.
 
 ---
 
-### [HOSTILE FIELD GAMEPLAY]
+### [GUIDED TRAVERSAL DIALOGUE]
 
-Normal Briar Passage exploration resumes.
+During an ordinary stretch of travel, Maevra gives a route call through the dialogue UI.
 
-- Random encounters are active.
-- Combat party: **Cyanis + Ilyra**.
-- Maevra remains with the traveling group but is never represented in battle.
-- No ordinary enemy is a fixed on-map fight or mandatory story encounter.
-- No major Ancient-story discovery occurs here.
+**MAEVRA:** Keep east.
 
-No general walk-and-talk layer is used.
+**CYANIS:** You sound very sure.
 
----
+**MAEVRA:** To Greenhollow? I am.
 
-### [GUIDED MOVEMENT — FRACTURED ROAD]
+**CYANIS:** And after Greenhollow?
 
-After the first hostile stretch, the maintained road breaks around fallen timber into several equally plausible traces.
+**MAEVRA:** That's why we're finding Torren.
 
-Maevra chooses one and keeps moving.
+**ILYRA:** Reassuring.
 
-Cyanis follows for a few steps.
+**MAEVRA:** Accurate.
 
-**CYANIS:** Still Greenhollow?
+The exchange ends. Gameplay continues.
 
-**MAEVRA:** Unless somebody moved it.
-
-Cyanis looks at her.
-
-**CYANIS:** That sounded less reassuring than you meant it to.
-
-**MAEVRA:** It sounded exactly right.
-
-She steps over a churned patch.
-
-Cyanis steps directly into it.
-
-Maevra glances down.
-
-**MAEVRA:** Horse shit.
-
-Cyanis freezes.
-
-Ilyra keeps walking.
-
-**CYANIS:** You could've led with that.
-
-**MAEVRA:** I did. With my feet.
-
-Ilyra looks back once.
-
-**ILYRA:** Very clear demonstration.
-
-Cyanis scrapes his boot against a root and catches up.
-
-A few yards later an older southern trace appears through the brush, then breaks into several smaller cuts.
-
-Maevra points at it while they pass.
-
-**MAEVRA:** That's why I want Torren.
-
-**CYANIS:** Because of the horse shit?
-
-Maevra looks at him.
-
-**MAEVRA:** Because he knows which bad road is still a road.
-
-Ilyra looks down the disappearing traces.
-
-**ILYRA:** Useful distinction.
-
-**MAEVRA:** Very.
-
-The traces converge again. The exchange ends.
+No companion field models, route-pointing animation, or physical blocking are required.
 
 ---
 
-### [GAMEPLAY — BRIAR NETWORK]
+### [GAMEPLAY — BRIAR PASSAGE]
 
-A substantial uninterrupted exploration section follows.
+A substantial exploration stretch follows.
 
-The route should read as a network rather than a corridor: old service cuts, elevation changes, marker stones from different periods, former road beds half-reclaimed by roots, and side paths still maintained for local use.
+The player experiences Briar Passage as a recurring regional route rather than a short corridor. Its unreliable maintenance and changing route conditions are communicated by the actual area design rather than a chain of scripted inspections.
 
-Do not restore the false trail, route-choice puzzle, damaged crossing, separate Old Waystone, or early Briarhide confrontation.
+Random encounters remain the ordinary combat presentation.
 
----
+There is no Briarhide Stalker encounter, no Ancient-story payoff, and no Old Waystone here.
 
-### [OPTIONAL POST-RANDOM-ENCOUNTER BARK]
-
-This exchange may fire after an ordinary field encounter. It is not required for story progression and may be skipped entirely if the player does not meet its bark conditions.
-
-Cyanis is already checking the road ahead when Ilyra catches his forearm.
-
-**CYANIS:** I'm fine.
-
-She turns his arm enough to expose a shallow cut.
-
-**ILYRA:** Didn't ask.
-
-**CYANIS:** It's tiny.
-
-Ilyra takes out a short wrap.
-
-**ILYRA:** Excellent. Hold still for a tiny amount of time.
-
-Cyanis does.
-
-Maevra is several paces ahead looking at a marker and leaves them to it.
-
-Ilyra ties the wrap.
-
-**CYANIS:** Done?
-
-She has already put the rest of the bandage away.
-
-**ILYRA:** Keep up.
-
-Cyanis looks at the wrapped arm.
-
-**CYANIS:** Brutal bedside manner.
-
-**ILYRA:** We're in a forest.
-
-She starts after Maevra.
-
-Cyanis follows.
+Most travel is silent.
 
 ---
 
-### [ROUTE STOP — SOUTHERN TURN]
+### [GUIDED TRAVERSAL DIALOGUE — LATER]
 
-Later, the Greenhollow road crosses a broader old junction.
+Later, while Maevra is still actively guiding:
 
-The eastward route is visibly used. A southern road descends between thicker trees, then fragments beyond the first bend.
+**CYANIS:** How bad is the south route?
 
-Maevra stops and looks down it.
+**MAEVRA:** Bad enough that I don't want to guess.
 
-Cyanis follows her gaze.
+**CYANIS:** And Torren won't have to?
 
-**CYANIS:** Later?
+**MAEVRA:** He'll know which guess is least stupid.
 
-**MAEVRA:** Later.
+A beat.
 
-**CYANIS:** Torren?
+**ILYRA:** High praise.
 
-**MAEVRA:** Torren.
+**MAEVRA:** He'd complain if I said it nicer.
 
-Ilyra studies the older marker at the mouth of the southern road.
+The exchange ends.
 
-**ILYRA:** You really don't want to take it without him.
-
-**MAEVRA:** I really don't want to spend half a day proving I chose the wrong branch.
-
-Cyanis looks at the disappearing road.
-
-**CYANIS:** Sensible.
-
-Maevra turns toward him.
-
-**MAEVRA:** Don't sound surprised.
-
-**CYANIS:** I was being sincere.
-
-**MAEVRA:** Worse.
-
-Ilyra starts east.
-
-**ILYRA:** Greenhollow?
-
-Maevra points after her.
-
-**MAEVRA:** See? She listens.
-
-**CYANIS:** This has become unnecessarily personal.
-
-Maevra walks east.
-
-**MAEVRA:** Keep up.
+Gameplay continues to Greenhollow.
 
 ---
 
-### [FINAL APPROACH — GAMEPLAY]
+### [ENTRY — GREENHOLLOW]
 
-The forest opens gradually.
+Greenhollow comes into view as part of normal field progression.
 
-Cart traffic becomes heavier. The first Greenhollow structures show between the trees.
-
-No conversation is required. Let the settlement arrive visually.
-
----
-
-### [ENTRY THRESHOLD — GREENHOLLOW]
-
-At the settlement edge, Maevra stops.
+At the settlement threshold, an authored scene may trigger. Because this is a scene transition into a town, relevant characters may appear as field models in simple positions while portraits and the dialogue box carry the exchange.
 
 **MAEVRA:** Greenhollow.
 
-Cyanis looks at the first cluster of workshops, carts, route boards, and people moving through them.
-
 **CYANIS:** That's it?
-
-Maevra looks at him.
 
 **MAEVRA:** Were you expecting trumpets?
 
 **CYANIS:** A sign would've been nice.
 
-Ilyra points to a large painted board ten feet away.
+**ILYRA:** There is one.
 
-`GREENHOLLOW` is written across it.
-
-Cyanis looks at the board.
-
-Then at Ilyra.
-
-She says nothing.
+A beat.
 
 **CYANIS:** I meant earlier.
 
-Maevra starts into town.
-
 **MAEVRA:** Of course you did.
 
-Cyanis follows, muttering something that does not need a subtitle.
+Scene ends.
 
 ---
 
 ### [GAMEPLAY HANDOFF — GREENHOLLOW]
 
-**Player control remains active.**
+**Player control returns.**
+
+Greenhollow uses town/hub presentation, so party members and NPCs may be visibly present in the area rather than following the Cyanis-only wilderness-traversal rule.
 
 Traveling group: **Cyanis + Ilyra + Maevra**  
 Combat party: **Cyanis + Ilyra**
@@ -339,10 +127,14 @@ Next mandatory story beat: **Greenhollow / Torren.**
 
 ---
 
-## Rehearsal / encounter check
+## Presentation / canon check
 
-**Random encounters:** ordinary Briar enemies are random encounters. The Ilyra/Cyanis injury exchange is an optional bark, not a mandatory fight aftermath.
+**Gameplay presentation:** PASS. Cyanis alone is visible during ordinary wilderness traversal. Maevra and Ilyra speak through portraits/dialogue UI. At the Greenhollow scene/town threshold, relevant field models may appear normally.
 
-**Walking dialogue:** moving lines occur only while Maevra is materially guiding. Marker, junction, and entry exchanges occur at stops.
+**Walking dialogue:** PASS. Both moving exchanges occur only because Maevra is genuinely guiding the route.
 
-**Continuity:** Cyanis carries the Card itself; the Chapter-0 casing is gone.
+**Random encounters:** PASS. All ordinary Briar enemies remain random encounters; Maevra is never represented in combat.
+
+**Locked cuts:** PASS. No false trail, route split, crossing, Old Waystone, Briarhide Stalker, or Ancient-story payoff is restored.
+
+**Reduction:** PASS. The dialogue draft does not prescribe branch-moving, marker-cleaning, footprints, horse-shit blocking, bandaging animation, sign-pointing, or other micro-staging. Those kinds of environmental and physical details are left to the established game/map presentation unless a later story beat truly requires them.
