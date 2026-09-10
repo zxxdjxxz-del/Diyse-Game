@@ -1,107 +1,85 @@
 # Chapter 1 — Beat 9
 # Hollow Watch Castellan
-## DIALOGUE ENGINE PRODUCTION DRAFT C — rehearsal-first + reductive HD-2D + speech-only mid-battle dialogue / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT D — established gameplay presentation + speech-only mid-battle dialogue / awaiting user approval
 
 ---
 
-### [BOSS APPROACH — CASTELLAN CHAMBER]
+### [GAMEPLAY — CASTELLAN CHAMBER]
 
 **Player control is active.**
 
-The party enters the intact chamber from the threshold established in Beat 8.
+Cyanis enters the intact chamber from the threshold established in Beat 8.
 
-There is no walking dialogue.
+During this brief ordinary movement, Cyanis is the only visible party field character.
 
-The room uses the existing protected-inner ruin kit. The only major new visual requirement is the large ancient assembly already built into the far wall.
+The large ancient assembly remains integrated into the far architecture.
 
-At first it still reads as part of the architecture.
+Cyanis carries the intact Card itself.
 
-Cyanis carries the intact recovered Card itself.
+---
 
-He crosses a broad fitted line in the floor.
+### [STORY TRIGGER — CASTELLAN ACTIVATION]
 
-A green-gold seam lights beneath him.
+When Cyanis crosses the required fitted floor line, movement pauses and the authored scene triggers.
 
-It runs across the chamber toward the far wall.
+The relevant characters may appear as simple field models. Portraits and the dialogue box carry the spoken exchange.
 
-Cyanis stops.
+A green-gold seam lights beneath Cyanis and runs toward the integrated structure.
 
 **ILYRA:** Cyanis.
 
 **CYANIS:** Yeah.
 
-The line reaches the integrated structure.
-
-Something heavy shifts inside the wall.
-
-Torren raises his bow.
+The ancient assembly begins to move.
 
 **TORREN:** Back?
 
-A second section of the assembly unlocks with a deep metal impact.
-
-Maevra looks at the open threshold behind them, then at the moving wall.
+A beat.
 
 **MAEVRA:** Too late.
 
-Cyanis brings his shield up.
-
-The ancient assembly unfolds far enough to reveal jointed limbs and a central armored body.
-
-Only now does it clearly read as a defense construct.
-
-Maevra moves out of the combat line.
+The assembly unfolds enough to reveal the Hollow Watch Castellan as a defense construct.
 
 **MAEVRA:** Go.
 
 **BOSS COMBAT BEGINS — HOLLOW WATCH CASTELLAN.**
 
+When battle presentation takes over, Maevra is not a combat participant.
+
+No extra pre-battle weapon-drawing, formation movement, shield choreography, or camera sequence is required beyond the Castellan's activation itself.
+
 ---
 
 ### [BOSS COMBAT — INTEGRATED STATE]
 
-**Combat party:** Cyanis Dovaren + Ilyra Amarin + Torren Harth.  
-**Maevra:** present in story staging only; never a battle participant.
+Combat party: **Cyanis + Ilyra + Torren**.
 
 The Castellan begins partially integrated into the chamber architecture.
 
-Encounter authority owns all exact stats, attacks, targeting, timing, support mechanics, and tuning.
+Encounter authority owns exact mechanics, attacks, targeting, timing, and tuning.
 
-This is a scripted boss encounter. The random-encounter presentation lock does not convert bosses into random encounters.
+This is an authored boss encounter and is therefore an explicit exception to the ordinary random-encounter rule.
 
-Required presentation only:
-- the Castellan begins attached to the wall / chamber structure;
-- its integrated state gives the boss a distinct opening silhouette;
-- the party receives no explanation of why it activated;
-- the Card itself does not speak, open, manifest a Prime, or display explanatory text.
-
-Mid-battle dialogue may occur when useful, but it is **speech-only**. Do not script character movement, repositioning, dodges, blocking changes, bespoke gestures, or camera cutaways around the lines. Normal battle gameplay owns character motion.
+The Card does not speak, open, manifest a Prime, reveal a Face, identify Cyanis, or provide explanatory text.
 
 ---
 
 ### [MID-BATTLE TRANSITION — TEARS FREE]
 
-At the encounter-authorized transition point, the damaged Castellan pulls against its remaining anchors.
+At the encounter-authorized transition point, the Castellan tears free from the structure and becomes fully mobile.
 
-One connection tears loose.
+This is boss animation owned by the encounter itself.
 
-Then another.
-
-The construct drops into a fully mobile state.
-
-It does **not** heal.
-
+It does **not** heal.  
 It does **not** receive a second HP bar.
 
-Combat continues on the same boss health.
+Combat continues on the same health bar.
 
-The following lines play over the active battle state. No character movement or special blocking is authored for them.
+The following dialogue is **speech-only** over active battle:
 
 **TORREN:** It's coming off the wall.
 
 **CYANIS:** I can see that.
-
-The last anchor tears free as part of the boss transition.
 
 **ILYRA:** Then stop standing where the wall used to hold it.
 
@@ -111,7 +89,7 @@ The last anchor tears free as part of the boss transition.
 
 Combat continues immediately.
 
-No character cutaway, scripted dodge, repositioning beat, arena rebuild, or second-form reset is required.
+The dialogue layer adds no locomotion, dodges, repositioning, gestures, formation changes, or camera cutaways.
 
 ---
 
@@ -119,41 +97,21 @@ No character cutaway, scripted dodge, repositioning beat, arena rebuild, or seco
 
 The same Castellan now fights fully mobile.
 
-The transition changes its silhouette and attack presentation without creating a new entity or fresh-HP form.
+Encounter authority owns the mechanical changes.
 
-Encounter authority owns the mechanical differences.
-
-The Card remains in Cyanis's possession.
-
-No mural or protected historical imagery is shown during the fight.
-
-Additional mid-battle speech may be used sparingly if it improves the fight, but it follows the same speech-only rule.
-
-The party defeats the Castellan through ordinary boss combat victory.
+The party defeats it through normal boss combat.
 
 ---
 
-### [POST-BOSS STOP]
+### [STORY TRIGGER — POST-BOSS]
 
-The Castellan falls where the fight ends.
+After victory, normal field/story presentation returns and the relevant characters may appear in the chamber.
 
-Its green-gold light fades.
+Portraits and the dialogue box carry the conversation.
 
-Nobody moves for a beat.
-
-Torren keeps his bow up.
-
-Cyanis is still behind his shield.
-
-Ilyra watches the construct.
-
-A final piece settles against the floor.
-
-Torren lowers his bow.
+A beat.
 
 **TORREN:** Think that's done.
-
-Cyanis looks at him.
 
 **CYANIS:** Think?
 
@@ -165,41 +123,25 @@ A beat.
 
 **CYANIS:** Strongly no.
 
-Ilyra turns to Cyanis.
-
 **ILYRA:** You all right?
 
 **CYANIS:** Yeah.
 
-She holds out her hand.
-
-Cyanis gives her his wrist without arguing.
-
-Ilyra checks his pulse.
+Ilyra performs one simple pulse check if needed for the scene read; no bespoke animation is required.
 
 **ILYRA:** Fast.
 
 **CYANIS:** We just fought a wall.
 
-Torren looks at the Castellan.
-
 **TORREN:** Wall fought back.
-
-Ilyra lets go.
 
 **ILYRA:** You're fine.
 
 **CYANIS:** Beautiful words.
 
-Maevra has walked to the floor seam that lit when they entered.
+A beat.
 
-She looks down at it.
-
-Then at Cyanis.
-
-Her eyes drop briefly to the Card in his possession.
-
-Cyanis catches the look.
+Maevra's attention shifts to the Card and the line that activated when they entered. Portrait expression is enough; she does not need to walk over and inspect the floor.
 
 **CYANIS:** Don't.
 
@@ -211,63 +153,37 @@ Cyanis catches the look.
 
 **CYANIS:** Worse.
 
-Torren looks back toward the chamber entrance.
-
 **TORREN:** Host got here first.
-
-Ilyra looks at the fallen Castellan.
 
 **ILYRA:** Not through it.
 
-Torren nods once.
-
 **TORREN:** No.
 
-The conversation ends there.
-
-Nobody explains the activation.
+Nobody explains why the Castellan activated.
 
 ---
 
 ### [PROTECTED ACCESS]
 
-With the Castellan no longer integrated into the far wall, the structure it covered is visible.
+With the Castellan defeated, the short protected passage it physically obstructed is visible beyond the chamber.
 
-A short protected passage continues beyond it.
-
-No new mechanism opens. No treasure door rises. The boss itself was the obstruction.
-
-Black Host lamps and forcing marks do not continue into the passage.
-
-Cyanis looks through.
+No additional mechanism opens. No treasure-door or machinery sequence is added.
 
 **CYANIS:** They never made it past this room.
 
-Maevra joins him.
-
 **MAEVRA:** No.
-
-Torren looks at the cleaner passage beyond the boss chamber.
 
 **TORREN:** Better find out what they were trying so hard to reach.
 
-Ilyra adjusts her Wardrod and starts toward the threshold.
-
 **ILYRA:** After you.
-
-Cyanis looks at her.
 
 **CYANIS:** Very generous.
 
 **ILYRA:** Shield.
 
-Cyanis looks down at it.
-
 **CYANIS:** Right.
 
-He goes first.
-
-The beat ends before the protected discovery area is shown clearly.
+Scene ends.
 
 ---
 
@@ -275,45 +191,43 @@ The beat ends before the protected discovery area is shown clearly.
 
 **Player control returns.**
 
+Cyanis is again the sole visible traversal character as the player enters the short protected passage.
+
 Current objective:
 
 **Enter the protected discovery area beyond the Castellan chamber.**
 
 Story state:
 - the Hollow Watch Castellan is defeated;
-- the Castellan truly activated because the party entered the protected area while Cyanis carried the recovered Card, but nobody knows or explains that causality;
-- the audience sees the timing connection: Cyanis crosses the fitted line, the chamber responds, and the Castellan activates;
-- the characters do not turn that observation into a formal theory discussion;
-- the Castellan begins integrated into the architecture and tears free into a mobile state on the **same HP bar**;
-- mid-battle character dialogue is speech-only and does not create scripted character movement or cinematic blocking;
-- Maevra is not a battle participant;
-- the Castellan's defeat exposes the route it physically obstructed;
-- the Black Host did not reach the protected discovery area beyond it;
-- the mural itself has not yet been shown;
+- the audience sees the timing connection between Cyanis carrying the Card, crossing the fitted line, and the chamber activating, but the characters do not know or explain the mechanism;
+- the Castellan transitions from integrated to mobile on the same HP bar;
+- mid-battle dialogue remains speech-only;
+- Maevra never participates in battle;
+- the boss's defeat exposes the protected route it blocked;
+- the Black Host did not reach the protected discovery area;
+- the mural remains entirely Beat 10;
 - Cyanis carries the intact Card directly;
-- no Prime, Last Sentinel, bearer, authorization-key, ancient-network, or Entity explanation has been revealed.
+- no Prime, Last Sentinel, bearer, authorization, ancient-network, or Entity explanation is revealed.
 
-Traveling group:
-**Cyanis Dovaren + Ilyra Amarin + Maevra Solmar + Torren Harth**
-
-Combat party:
-**Cyanis Dovaren + Ilyra Amarin + Torren Harth**
+Traveling group: **Cyanis + Ilyra + Maevra + Torren**  
+Combat party: **Cyanis + Ilyra + Torren**
 
 Torren remains a temporary combat ally until the later recruitment beat.
 
-Next mandatory story beat:
-**Beat 10 — Post-Castellan Mural.**
+Next mandatory story beat: **Beat 10 — Post-Castellan Mural.**
 
 ---
 
-## Rehearsal-first / reductive HD-2D / encounter check
+## Presentation / canon check
 
-**Human layer:** the cast notices the strange timing without holding a meeting about epistemology. Maevra's glance at the Card is enough. Torren contributes a practical fact about how far the Host reached. Ilyra checks Cyanis because that is natural after the fight, not to explain the Card.
+**Traversal:** Cyanis only during ordinary chamber entry and protected-passage traversal.
 
-**Knowledge firewall:** no character correctly identifies the Card-triggered mechanism, recognition, bearer state, authorization function, Prime identity, or ancient system purpose.
+**Triggered scenes:** the relevant cast may appear for the activation and post-boss scenes.
 
-**Encounter presentation:** the Castellan is an explicitly authored boss and therefore remains scripted. Ordinary enemies elsewhere remain random encounters.
+**Battle:** battle presentation owns combat models and movement; Maevra is excluded.
 
-**Mid-battle dialogue:** allowed selectively, but speech-only. No authored character locomotion, dodges, formation changes, gestures, or camera cutaways accompany active-combat lines. Boss movement required by the encounter is separate and allowed.
+**Mid-battle dialogue:** speech-only, with no authored character movement.
 
-**Reductive production:** spend complexity on the one earned boss asset: the Castellan's integrated-to-mobile transition. Reuse the existing chamber, floor-light material, boss rig, and existing ruin VFX. No extra mechanism, bespoke second arena, treasure-door animation, or post-boss machinery sequence is required.
+**Required physical presentation:** the fitted line response, Castellan activation, integrated-to-mobile boss transition, boss defeat, and exposed passage are retained because they are actual story/encounter events.
+
+**Reduction:** removed pre-battle weapon/formation choreography, repeated boss-anchor micro-beats, post-boss bow/shield posing, Maevra walking to inspect the seam, repeated looking/turning directions, Wardrod adjustment, and other incidental staging.
