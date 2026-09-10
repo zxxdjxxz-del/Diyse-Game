@@ -44,36 +44,21 @@ Retired from the current structure: poisoned-water opening, separate transfer-re
 
 **Development status:** CURRENT WORKING BEAT PACKET
 
-## Purpose
-Open Chapter 2 as a continuation rather than another departure scene. After the player chooses to continue from the Chapter-1 Wayfinder-area camp and confirms **Start Chapter 2**, the party begins already on the path immediately outside Dunmere.
+## Purpose / state
+After the player confirms **Start Chapter 2** from the Chapter-1 Wayfinder-area camp cleanup, Chapter 2 opens with Cyanis, Ilyra, Torren, and noncombat Maevra already on the path immediately outside Dunmere. The combat party is **Cyanis + Ilyra + Torren**. They carry the Wayfinder copies and still intend ultimately to continue toward Caelora.
 
-## Starting state
-- Chapter-1 cleanup is over.
-- Combat party: **Cyanis + Ilyra + Torren**.
-- Maevra travels with them but remains fully noncombat.
-- Party carries physical Wayfinder copies.
-- They know their route overlaps an older Diysean alignment but not its purpose/full extent.
-- Larger destination remains **Caelora**.
-- They do not yet know Dunmere's kidnapping problem.
-
-## Playable structure
-Short real traversal before town. Dunmere is visibly near. Limited walking dialogue is legal because Torren is genuinely guiding the route. No mandatory lore recap.
-
-## Mandatory progression
-- player traverses final approach;
-- Torren remains natural guide;
-- Maevra remains physically present;
-- Dunmere appears inhabited/functioning;
-- party enters town;
-- no Black Host attack or kidnapping explanation before entry.
+## Playable shape / locks
+- short real traversal before entering town;
+- Dunmere visibly near and functioning;
+- Torren remains the natural route guide;
+- limited walking dialogue is legal because Torren is actively leading the group;
+- no mandatory lore recap;
+- no kidnapping explanation or Black Host attack before entering Dunmere.
 
 ## End state / handoff
-Original plan remains **stop in Dunmere → continue ultimately toward Caelora**.
+Party reaches Dunmere with the original plan intact: **stop in Dunmere → continue toward Caelora**.
 
 → **Beat 2 — Dunmere Arrival / Missing Travelers**
-
-## Reveal firewall
-No kidnappings, Bastion objective, waterworks, Archive, western map, Prisoner Galleries, Rhazek, masked Seyrik, new Card explanation, Last Sentinel, or complete Diysean route-system answer.
 
 ---
 
@@ -81,37 +66,23 @@ No kidnappings, Bastion objective, waterworks, Archive, western map, Prisoner Ga
 
 **Development status:** CURRENT WORKING BEAT PACKET
 
-## Purpose
-Establish Dunmere as a functioning settlement first, then reveal the human problem redirecting the party.
+## Purpose / playable shape
+Establish Dunmere as a functioning settlement before revealing the human problem. Give the player a short amount of ordinary town movement rather than opening on an immediate crisis briefing.
 
-## Playable structure
-Give the player a short amount of ordinary town movement before required story progression. Dunmere functions normally; road pressure is shown economically through one or two strong indicators rather than repeated exposition.
+## Information progression / mandatory discoveries
+1. Travel around Dunmere is under unusual pressure.
+2. People leaving toward **Caelora** have repeatedly disappeared.
+3. Credible local knowledge indicates the **Black Host is kidnapping travelers**.
+4. The direct **Greenhollow–Dunmere road** is unsafe because the Host occupies **Red Transfer Bastion**.
+5. The larger Caelora journey is temporarily subordinated to the immediate rescue/road problem.
 
-## Information progression
-1. Something is wrong with travel.
-2. People have been disappearing.
-3. Credible local knowledge points to the **Black Host taking travelers**, while the Red Transfer Bastion controls the Greenhollow corridor.
-
-## Mandatory discoveries
-- people leaving toward **Caelora** have gone missing;
-- disappearances are repeated enough to alter local behavior;
-- locals have credible reason to believe Black Host kidnappings are responsible;
-- direct **Greenhollow–Dunmere** travel is unsafe because the Black Host occupies the **Red Transfer Bastion**;
-- party cannot simply continue east while ignoring the immediate threat.
-
-## Agent-Brain rule
-Do not assign moral speeches. Give the four characters the facts and let their established brains determine reactions.
-
-## Beat boundary
 > **Beat 2 establishes what is wrong. Beat 3 establishes what the party can do about it.**
 
-## End state / handoff
-Party knows the kidnappings and Bastion threat are real and needs fuller local information.
+## Agent-Brain rule
+Do not assign moral speeches. Give the characters the facts and let their established brains determine their reactions.
 
+## Handoff
 → **Beat 3 — Dunmere Elder / Hidden Approach**
-
-## Reveal firewall
-No waterworks route, Sunken Archive, western map, Leviathan, secret passage, prisoner specifics, Rhazek command role, masked Seyrik, Chapter-3 answers, or new Card/Prime/Last Sentinel explanation.
 
 ---
 
@@ -122,20 +93,19 @@ No waterworks route, Sunken Archive, western map, Leviathan, secret passage, pri
 ## Purpose
 Turn the problem into an actionable plan using local knowledge the party could not reasonably possess.
 
-## Scene / knowledge shape
-A proper authored stop with the **Dunmere town elder** in an ordinary local setting. The elder knows the Bastion's road-control role, watched approaches, local waterworks infrastructure, and a little-used maintenance/service route toward/under the Bastion's lower structure. The elder does not know about the Sunken Archive, western map, Archive Leviathan, secret prisoner passage, Rhazek's command-room situation, or Seyrik.
+## Elder knowledge / tactical locks
+The Dunmere elder may know:
+- the Bastion controls the road corridor;
+- normal approaches are exposed and dangerous;
+- an old, little-used municipal waterworks service route once ran toward/under the Bastion's lower structure.
 
-## Tactical rule
-A frontal approach is credibly worse because of observation, prepared defenses, insufficient numbers, and/or danger to captives. The elder reveals an old waterworks service route that is local infrastructure, not a magic tunnel, not a poisoned-water clue, not introduced as Diysean ruins, and not known to lead directly to prisoners.
+The elder does **not** know about the Sunken Archive, western map, Archive Leviathan, secret passage to the Prisoner Galleries, Rhazek's command-room situation, or Seyrik.
 
-## Mandatory decisions
-- waterworks route revealed;
-- party evaluates it;
-- route judged plausible;
-- group commits to use it.
+A frontal assault is rejected as tactically poor. The waterworks route is ordinary old infrastructure, not a magic tunnel, not a poisoned-water clue, not introduced as Diysean ruins, and not known to lead directly to prisoners.
 
-## End state / handoff
-Immediate objective: **enter old waterworks → find a way into the Bastion → locate the kidnapped travelers**.
+## Mandatory decision / handoff
+The party judges the route plausible and commits to:
+**enter old waterworks → find a way into the Bastion → locate the kidnapped travelers**.
 
 → **Beat 4 — Old Waterworks**
 
@@ -146,28 +116,20 @@ Immediate objective: **enter old waterworks → find a way into the Bastion → 
 **Development status:** CURRENT WORKING BEAT PACKET
 
 ## Purpose
-Use the old waterworks as the first real Chapter-2 infiltration/exploration area, carrying the party from recognizable Dunmere infrastructure into the threshold of something unmistakably older.
+Provide the real covert infiltration area and transition from recognizable Dunmere infrastructure into something much older.
 
 ## Covert-route hard rule
 > **The waterworks remain genuinely covert.**
 
-Do not place a routine Black Host patrol network here. If combat occurs, use plausible local creatures, hazards, or other non-Host threats supported by encounter authority.
+Do not place routine Black Host patrols here. Encounters, if any, should come from plausible local creatures, hazards, or other non-Host threats supported by encounter authority.
 
 ## Infrastructure progression
-1. Recognizable Dunmere/Yahtrean waterworks.
-2. Older integrated foundations reused by newer infrastructure.
-3. Architectural break into construction that no longer plausibly belongs to the waterworks.
-
-## Mandatory progression
-- access found and entered;
-- service route proves usable;
-- exposed Bastion approach avoided;
-- newer infrastructure gives way to older foundations;
-- ancient structure eventually dominates in scale/function;
-- viable access into that structure is discovered.
+1. recognizable Dunmere/Yahtrean waterworks;
+2. older foundations reused by newer infrastructure;
+3. architectural break into construction no longer plausibly belonging to the waterworks.
 
 ## End state / handoff
-Covert infiltration remains intact. Party has unexpectedly reached an ancient layer likely related to earlier Diysean construction but does not yet know its function.
+The party discovers viable access into a much older complex while remaining covert.
 
 → **Beat 5 — Sunken Archive Entrance**
 
@@ -178,31 +140,20 @@ Covert infiltration remains intact. Party has unexpectedly reached an ancient la
 **Development status:** CURRENT WORKING BEAT PACKET
 
 ## Purpose
-Establish the ancient complex as a substantial place with its own function, scale, and exploration identity before the western-map reveal.
+Establish the ancient complex as a substantial location with its own function and scale before the major map reveal.
 
 ## Location-name / knowledge rule
-**Sunken Archive** is the production/gameplay location name. Characters do not automatically know its ancient formal name. They may infer archival/preservation function from environmental evidence but cannot translate unsupported ancient labels or gain archaeological certainty.
+**Sunken Archive** is the production/gameplay location name. The characters do not automatically know its ancient formal name. They may infer archival/preservation use from what they can observe, but cannot translate unsupported labels or gain archaeological certainty.
 
-## Area identity
+## Area identity / locks
 - major ancient scale;
 - preservation/storage architecture;
-- meaningful water intrusion without requiring every room submerged;
-- visual continuity with earlier Diysean structures but a distinct function;
-- clearly older than Dunmere's waterworks and Red Transfer Bastion.
+- meaningful water intrusion without requiring every room to be submerged;
+- visual continuity with earlier Diysean construction but a distinct function;
+- clearly older than Dunmere's waterworks and Red Transfer Bastion;
+- **not** an actively occupied Black Host section.
 
-## Occupation boundary
-This section is **not** an active Black Host facility. No routine Host camps, patrols, or supply stores.
-
-## Mandatory progression
-- party fully crosses into ancient complex;
-- scale/function difference becomes unmistakable;
-- environment supports archive/preservation interpretation;
-- complex extends beyond what elder knew;
-- party continues covertly toward next major Archive section.
-
-## End state / handoff
-Party is fully inside the **Sunken Archive** as a gameplay location and still seeks the Bastion/prisoners.
-
+## Handoff
 → **Beat 6 — Western Map Mural**
 
 ---
@@ -212,49 +163,27 @@ Party is fully inside the **Sunken Archive** as a gameplay location and still se
 **Development status:** CURRENT WORKING BEAT PACKET
 
 ## Purpose
-Deliver Chapter 2's major Ancient cartographic payoff by giving the party the larger western context the Wayfinder could not provide, while making clear this is still only one portion of a larger map.
+Deliver Chapter 2's major Ancient cartographic payoff and put the Wayfinder discovery into a much larger western context.
 
 ## Map condition / scope — hard rule
-> **The western map mural is not a damaged map.**
+> **The western map mural is complete and coherent, not damaged.**
 
-It is coherent and substantially intact. Its incompleteness is one of **scope**:
+Its incompleteness is one of scope:
 - it shows the **western half / western section** of a larger Diysean map/network;
-- route lines/geographic alignments/network markings continue cleanly beyond physical panel edges;
-- those continuations visibly prove additional map material exists beyond this section;
-- no translated `WESTERN HALF` label is required;
-- do not damage the wall merely to communicate incompleteness.
+- route lines, geographic alignments, and/or network markings continue cleanly beyond the physical panel edges;
+- those continuations prove that additional map material exists beyond this section;
+- treat it as a **complete page from a larger atlas**, not a ruined page.
 
-Think **complete page from a larger atlas**, not ruined page.
+## Locked reveal
+Using the Wayfinder copy and modern geography, the party can recognize the Hollow Watch / Wayfinder / Dunmere corridor within the broader system. The network continues toward the location of **modern Caelora**, where the mural depicts a **very large unfamiliar ancient city**, visibly larger/different from the modern capital. Network lines continue onward beyond this western panel.
 
-## Relationship to Wayfinder
-Using the Wayfinder copy and known modern geography, the party can recognize their southern Briar/Wayfinder/Dunmere alignment, the same cartographic grammar, and the continuation Wayfinder's damaged edge could not show.
+Some old alignments do not fit the modern landscape cleanly. Changed geography, underground/non-surface routes, both, or incomplete modern assumptions remain hypotheses only. The ancient city's identity, purpose, relationship to modern Caelora, and eastern continuation remain unresolved.
 
-## Western-map reveal
-- Hollow Watch / Wayfinder / Dunmere corridor belongs to a broad western Diysean network;
-- network extends toward the location of **modern Caelora**;
-- at that location is a **very large unfamiliar ancient city**, visibly larger/different from modern Caelora;
-- route/network lines continue through/toward that city and onward beyond the western panel's edge;
-- therefore the Caelora-location city is not the end of the larger system;
-- eastern continuation is not available here.
+The party makes practical copies of useful information, then returns to the rescue objective.
 
-## Present-world mismatch
-Some mapped routes/geography do not fit present terrain cleanly. Changed geography, non-surface routes, both, or incomplete modern assumptions remain live hypotheses only—not established answers.
-
-## Authored discovery shape
-1. party reaches large map;
-2. Wayfinder copy compared;
-3. local geometry confirms same system;
-4. larger western network becomes clear;
-5. Caelora-location city and off-panel continuation create larger question;
-6. useful information copied practically;
-7. party resumes rescue/infiltration objective.
-
-## Pacing rule
 > **They have discovered something much larger than the immediate problem, but the immediate problem still has living people attached to it.**
 
-## End state / handoff
-Party knows Wayfinder was a local piece of a broader mapped system and now possesses a coherent western-section record. They still do not know why geography differs or what lies beyond the western panel.
-
+## Handoff
 → **Beat 7 — Archive Depths**
 
 ---
@@ -264,28 +193,18 @@ Party knows Wayfinder was a local piece of a broader mapped system and now posse
 **Development status:** CURRENT WORKING BEAT PACKET
 
 ## Purpose
-Return Chapter 2 to movement, exploration, and danger after the western-map discovery while building naturally toward the Archive Leviathan.
+Return to exploration and pressure after the mural while building toward the Archive Leviathan.
 
-## Playable role / escalation
-Give the player meaningful traversal before the boss. The deeper Archive becomes less stable/safe. Environmental signals may imply that something large or dangerous occupies the route ahead, but exact foreshadowing should match later encounter implementation.
+## Locks
+- meaningful deeper-Archive traversal before the boss;
+- deeper spaces become more hazardous/unstable;
+- no second major historical revelation;
+- no routine Black Host presence;
+- environmental signals may imply a major obstruction/danger ahead;
+- exact Leviathan origin, category, or function remains unknown;
+- there is no clean alternative route around the coming boss.
 
-## Leviathan-knowledge boundary
-Beat 7 establishes only that **a major obstruction or dangerous presence lies ahead**. It does not establish a formal name, origin, guardian function, exact creature/category, reason for remaining here, or new Diysean-history answer.
-
-## Route-pressure / covert rule
-There is no clean alternative route around the coming boss. No routine Black Host presence; covert infiltration remains intact.
-
-## Mandatory progression
-- party leaves mural chamber;
-- deeper Archive becomes more hazardous/pressured;
-- route continues generally toward/under Bastion;
-- no second major historical revelation occurs;
-- evidence increasingly supports major danger ahead;
-- viable route converges on pre-boss threshold.
-
-## End state / handoff
-Party must confront/pass through the major threat to continue.
-
+## Handoff
 → **Beat 8 — Archive Leviathan**
 
 ---
@@ -295,25 +214,18 @@ Party must confront/pass through the major threat to continue.
 **Development status:** CURRENT WORKING BEAT PACKET
 
 ## Purpose
-Provide the Sunken Archive's major combat climax and clear the only viable forward route through the deepest Archive section.
+Provide the Sunken Archive's major combat climax and open the only viable deeper route.
 
-## Boss-presentation / origin boundary
-`Archive Leviathan` is the production/boss name. Characters do not need to know or speak that formal name. Chapter 2 does not establish whether the Leviathan is a guardian, natural creature, altered organism, construct, hybrid, or directly tied to the Archive's original function unless encounter authority later locks that answer.
-
-## Combat structure
-- major boss of the **Sunken Archive**;
+## Boss / combat locks
+- `Archive Leviathan` is the production/boss name; characters need not know or speak it;
+- Chapter 2 does not establish whether it is a guardian, natural creature, altered organism, construct, hybrid, or directly tied to the Archive's original function unless encounter authority later locks that answer;
 - combat party: **Cyanis + Ilyra + Torren**;
 - Maevra never participates in battle;
-- preserve current **one HP bar / two behavior-state** structure unless encounter authority revises it;
-- same-bar behavior shift is not a fresh form/fresh HP bar;
-- exact mechanics remain encounter authority.
+- preserve current **one HP bar / two behavior-state** concept unless encounter authority revises it;
+- exact mechanics remain encounter authority;
+- victory opens physical progression, not transfer records or paperwork.
 
-## Route relationship
-The Leviathan blocks the only viable deeper continuation. Victory opens physical progression, not transfer records or paperwork.
-
-## End state / handoff
-Leviathan is overcome and the final deeper Archive continuation becomes accessible.
-
+## Handoff
 → **Beat 9 — Secret Passage Discovery**
 
 ---
@@ -323,28 +235,22 @@ Leviathan is overcome and the final deeper Archive continuation becomes accessib
 **Development status:** CURRENT WORKING BEAT PACKET
 
 ## Purpose
-Pivot from the ancient-Archive thread back into the human kidnapping plot by revealing an old concealed passage that physically connects into the Black Host's Prisoner Galleries.
+Pivot from the ancient Archive directly back into the human kidnapping plot.
 
-## Passage rule
-The route is an **old secret/concealed passage belonging to the ancient structure**, not a modern Black Host tunnel and not a route explained by the Dunmere elder. Exact opening mechanism remains for later map design; do not require a new lore mechanic.
-
-## Black Host knowledge boundary
-The Host does not need to know the ancient connection exists or remains usable. No routine Host use of it, and it is not part of the normal transfer route.
-
-## Environmental transition
-1. Deep Archive continuation.
-2. Concealed/secondary ancient passage.
-3. Modern reuse boundary.
-4. Prisoner Gallery threshold.
+## Passage / occupation locks
+- after the Leviathan, the party discovers an **old concealed/secret passage belonging to the ancient structure**;
+- it is not a modern Black Host tunnel and was not known to the Dunmere elder;
+- exact opening mechanism remains for later map design and does not require a new lore mechanic;
+- the Black Host does not need to know the connection exists or remains usable;
+- it is not part of the normal prisoner-transfer route;
+- the passage crosses from ancient architecture into modern Bastion reuse and emerges directly into/at the **Prisoner Galleries**.
 
 ## No-transfer-records hard rule
 > **There is no separate transfer-records story beat between the Leviathan and the prisoners.**
 
-The physical galleries and people held there are the evidence.
+The physical galleries and living captives are the proof.
 
-## End state / handoff
-Party has infiltrated Red Transfer Bastion from below/behind normal defenses and located living captives.
-
+## Handoff
 → **Beat 10 — Prisoner Galleries / First Contact**
 
 ---
@@ -354,76 +260,43 @@ Party has infiltrated Red Transfer Bastion from below/behind normal defenses and
 **Development status:** CURRENT WORKING BEAT PACKET — REVISED PRISONER + RHAZEK AUTHORITY
 
 ## Purpose
-Turn the kidnapping problem into direct human contact and show who the Black Host has been sweeping into Red Transfer Bastion.
-
-This beat should:
-- make the human cost concrete;
-- establish current prisoners as regional civilians, travelers, and wounded military personnel;
-- reveal through direct experience that this Bastion is a **holding/transit site**, not the final destination;
-- establish that prisoners want help and cooperate;
-- reveal that **Commander Rhazek is currently in command of Red Transfer Bastion**;
-- let the party recognize the significance of the name because Rhazek is a **known high-ranking Black Host commander**;
-- shift tension toward the practical fear that nobody can safely escape until the Host's control of the Bastion is broken.
+Make the kidnapping operation human and establish what the current prisoners know from direct experience.
 
 ## Locked prisoner composition
-The current Prisoner Galleries contain a mixed population including:
+The current Prisoner Galleries include a mix of:
 - **travelers** seized on regional roads;
 - **injured soldiers** captured/detained by the Black Host;
 - **Greenhollow residents**;
 - **Dunmere residents**.
 
-The mix should feel like the result of an active regional seizure operation rather than a single captured caravan.
+The mix represents an active regional seizure operation, not one captured caravan.
 
 ## Prisoner cooperation rule
 > **The current prisoners do not refuse rescue or needed help.**
 
-Once rescue intent is clear, they cooperate. Injured people accept appropriate aid. Ilyra still asks before examining/treating conscious people where consent can reasonably be obtained; prisoners accept needed care rather than creating a refusal conflict.
+Once the party's intent is clear, they cooperate. Injured people accept appropriate aid. Ilyra still asks before non-emergency examination/treatment of conscious people where consent can reasonably be obtained; the prisoners accept needed care rather than creating a refusal conflict.
 
 ## Holding/transit-site knowledge — locked
-Prisoners know:
-- people are brought into the Bastion and held in these galleries;
-- after a period of holding, groups/individuals are taken away to another location;
-- earlier captives have already been transferred out and have not returned;
-- therefore this is a **holding area before onward transfer**.
+The prisoners know from lived experience that Red Transfer Bastion is **not the final destination**:
+- people are brought here and held;
+- groups/individuals are later taken away somewhere else;
+- earlier captives have already been transferred and not returned;
+- the current prisoners therefore understand this Bastion as a **holding area before onward transfer**.
 
-They do **not** know where transferred people go, what ultimately happens to them, the full strategic purpose, Rhazek's complete policy chain, or the total number moved.
+They do **not** know the onward destination, what ultimately happens there, the full strategic purpose, or the total number previously moved.
 
 ## Rhazek command reveal — locked
-Prisoners can credibly establish that **Commander Rhazek is the officer in command of Red Transfer Bastion** through guards using his name/title, orders issued in his name, overheard personnel, injured soldiers recognizing the name/reputation, or similar ordinary evidence.
+The prisoners can credibly establish that **Commander Rhazek is currently in command of Red Transfer Bastion** through guards using his name/title, orders in his name, overheard personnel, injured soldiers recognizing his reputation, or similar lived evidence.
 
-The party recognizes Rhazek as a known **high-ranking Black Host commander**. This materially raises the stakes. Prisoners know he commands this Bastion; the party knows his broader rank/reputation. Nobody learns anything yet about the masked officer who will later appear with him.
+The party recognizes Rhazek as a **known high-ranking Black Host commander**. The prisoners know he commands this Bastion; the party understands the broader significance of his rank/reputation.
 
 ## Primary prisoner fear
 > **Finding us is not the same as getting us out. Rhazek and the Host still own the fort above us.**
 
-The Black Host still controls normal exits, injured people cannot sprint through an occupied fort, a mass breakout would be obvious, and the secret Archive route is not a credible mass-evacuation solution.
-
-## First-contact shape
-1. party enters first occupied gallery from unexpected ancient route;
-2. prisoners react to sudden armed arrival;
-3. rescue intent is quickly established;
-4. population mix becomes apparent naturally;
-5. injured people are helped;
-6. prisoners explain earlier captives were transferred somewhere unknown;
-7. prisoners identify Rhazek as commander;
-8. prisoners make clear opening cells is not enough while his force controls the fort;
-9. party/prisoners shift toward a defensible waiting position.
-
-## Mandatory progression
-- direct contact occurs;
-- population includes travelers, injured soldiers, Greenhollow residents, Dunmere residents;
-- prisoners cooperate with rescue/help;
-- Ilyra asks before non-emergency treatment and needed care is accepted;
-- Bastion holding/transit function is learned;
-- earlier onward transfers are learned, destination unknown;
-- **Rhazek is identified as commander of the Bastion**;
-- party recognizes him as high-ranking Black Host;
-- no total transfer count or paperwork substitute;
-- prisoners fear escape while Host control remains;
-- immediate local space stabilizes for Beat 11.
+The prisoners want to escape, but understand that injured people and a large mixed group cannot safely break through an occupied fort. The secret Archive route is not a credible mass-evacuation solution.
 
 ## End state / handoff
-Party knows Red Transfer Bastion is a holding/transit site, earlier captives were taken somewhere unknown, Rhazek commands the fort, and current prisoners cannot safely escape yet.
+The party has found cooperative captives, knows Red Transfer Bastion is a holding/transit site, knows earlier captives were taken somewhere unknown, knows Rhazek commands the fort, and understands that opening cells alone does not solve the rescue.
 
 → **Beat 11 — Prisoner Safe Area / Exit Problem**
 
@@ -434,63 +307,34 @@ Party knows Red Transfer Bastion is a holding/transit site, earlier captives wer
 **Development status:** CURRENT WORKING BEAT PACKET — RHAZEK KNOWLEDGE SYNCHRONIZED
 
 ## Purpose
-Turn the prisoners' concern into the next concrete tactical objective.
+Turn the prisoners' concern into the next tactical objective.
 
 > **Commander Rhazek's local Black Host control of Red Transfer Bastion must be broken and the practical road-side exit secured.**
 
-## Starting state
-- prisoners cooperate with rescue;
-- mix includes travelers, injured soldiers, Greenhollow residents, Dunmere residents;
-- some require assistance and cannot move quickly;
-- earlier captives were transferred elsewhere, destination unknown;
-- prisoners identified **Commander Rhazek** as current Bastion commander;
-- party recognizes him as a known high-ranking Black Host commander;
-- Bastion upper areas remain under Host control;
-- combat party: **Cyanis + Ilyra + Torren**;
-- Maevra remains noncombat.
-
 ## Safe-area structure
-The party and prisoners establish a **defensible lower safe pocket** within/adjacent to the Prisoner Galleries.
+The prisoners gather in a **defensible lower safe pocket** within/adjacent to the Prisoner Galleries.
 
-Requirements:
-- defensible enough to wait while combat party moves upward;
-- not magically perfectly safe;
+Locks:
 - prisoners retain control of their own interior access where practical;
 - injured people can rest/receive care;
 - able-bodied prisoners help each other and maintain the position;
-- Maevra can help organize without becoming a combat unit;
+- Maevra may help organize without becoming a combat unit;
 - do not create a Hold-the-Junction/tower-defense replacement.
 
-## Why the entry route is not the evacuation route
-The secret passage → Archive → waterworks route worked for a small capable infiltration group. It is a poor mass-evacuation route because of narrow/awkward passages, elevation, water, hazards, distance/complexity, and the limitations of wounded/injured people as supported by final map design.
+## Entry-route / exit logic
+The secret passage → Archive → waterworks route is suitable for a small capable infiltration group but not for mass evacuation. Its narrow/awkward passages, water, hazards, elevation, distance/complexity, and injured people make it a poor evacuation option as supported by final map design.
 
-> **The covert entry route is not a believable mass-evacuation route for this prisoner population.**
-
-## Practical exit
-The real evacuation path is the maintained Bastion exit leading onto the **Greenhollow–Dunmere road**, but it remains under active command-layer control.
+The real evacuation path is the maintained Bastion exit onto the **Greenhollow–Dunmere road**, but it remains under the active command layer.
 
 Do not solve this with a second secret tunnel. The solution is to **take the Bastion away from Rhazek's Host force locally**.
 
 ## Decision
-1. Keep the prisoners together in the defensible lower safe area.
-2. **Cyanis, Ilyra, and Torren push upward through the active Bastion, reach Rhazek's command layer, break Host control, secure/open the road-side exit, then return for everyone.**
+1. Keep prisoners together in the defensible lower safe area.
+2. **Cyanis, Ilyra, and Torren push upward, reach Rhazek's command layer, break Host control, secure/open the road-side exit, then return for everyone.**
 
-Maevra participates in planning/organization but never battle. Exact staging of whether she waits primarily with prisoners or accompanies authored noncombat transitions can remain implementation-level.
+Maevra remains noncombat; whether she primarily waits with prisoners or appears in selected noncombat transitions remains an implementation choice.
 
-## Mandatory progression
-- prisoners consolidated into safe area;
-- agency retained;
-- injured people stabilized to wait;
-- Archive route rejected as mass evacuation;
-- maintained road-side exit identified as practical route;
-- exit remains under Rhazek's active command layer;
-- trio commits to pushing upward and breaking local Host control;
-- party intends to return after securing exit;
-- no Hold-the-Junction substitute.
-
-## End state / handoff
-Objective changes from **find/free prisoners** to **reach Rhazek's command layer, break Bastion control, and secure the practical exit**.
-
+## Handoff
 → **Beat 12 — Bastion Command Ascent**
 
 ---
@@ -500,204 +344,43 @@ Objective changes from **find/free prisoners** to **reach Rhazek's command layer
 **Development status:** CURRENT WORKING BEAT PACKET
 
 ## Purpose
-Transition decisively from the lower prisoner area into the **active Black Host military fort**, while making Red Transfer Bastion feel like a functioning regional holding/transit position under Commander Rhazek rather than a theatrical villain dungeon.
-
-Beat 12 should:
-- make the contrast between the hidden ancient approach and the occupied fort unmistakable;
-- show why the prisoners were right that escape is impossible while the Host controls the Bastion;
-- demonstrate the scale and organization of Rhazek's local command without needing another exposition scene;
-- carry the player through real hostile territory toward the command layer;
-- establish the practical road-side exit/control infrastructure the party ultimately needs to seize;
-- preserve Beat 13 as the first direct face-to-face encounter with Rhazek and the unnamed masked officer.
-
-## Starting state
-- current prisoners wait in the defensible lower safe area;
-- they want to leave as soon as the route is secured;
-- the party knows Red Transfer Bastion is a holding/transit site;
-- the party knows prior captives were transferred onward to an unknown destination;
-- the party knows **Commander Rhazek** is in command here and recognizes him as a known high-ranking Black Host commander;
-- the party's practical objective is to break local command/control and secure the maintained exit to the Greenhollow–Dunmere road;
-- combat party: **Cyanis + Ilyra + Torren**;
-- Maevra remains completely noncombat.
-
-## Major location shift
-The ascent should make the player feel that the covert phase has ended and the operation has entered the Bastion proper.
-
-Environmental progression should read broadly as:
-1. **Lower prisoner/service infrastructure** — controlled spaces immediately above/around the galleries.
-2. **Working military interior** — maintained passages, stations, supply movement, guard routes, medical/support areas, controls, and ordinary fort operations.
-3. **Upper command approach** — increasingly controlled access leading toward the command layer where Rhazek is operating.
-
-Exact room count, floor count, stair geometry, shortcuts, encounters, switches, and map topology remain for Bastion area design.
+Transition from the lower prisoner area into the **active Black Host military fort** and carry the party toward Rhazek's command layer.
 
 ## Functioning-fort hard rule
 > **Red Transfer Bastion is a functioning Black Host position, not an abandoned ruin with enemies standing around.**
 
-The player should see evidence of ordinary military operation such as:
-- disciplined guard rotations or relief points;
-- maintained weapons/equipment and supply storage;
-- ration, water, bedding, repair, or logistical infrastructure;
-- messenger/order traffic or posted operational instructions where appropriate;
-- working gates, internal controls, checkpoints, or secured doors;
-- prisoner-handling/staging infrastructure connected to the galleries and onward movement;
-- medical space or treatment of Black Host wounded;
-- signs that the fort can hold people temporarily and move them onward as a repeatable process.
-
-Do not require every item above. The final Bastion map should choose a coherent subset that communicates the same truth.
+The final map should communicate this through a coherent subset of:
+- disciplined guard rotations/relief points;
+- maintained weapons/equipment and supplies;
+- ration, water, bedding, repair, logistics, and support spaces;
+- messenger/order traffic;
+- working gates, checkpoints, secured doors, or controls;
+- prisoner-handling/staging infrastructure;
+- medical space or legitimate treatment of Black Host wounded;
+- evidence that people can be held temporarily and moved onward as a repeatable process.
 
 ## No-records / show-the-system rule
-Beat 12 may demonstrate organization, but it must **not recreate the deleted transfer-records beat in disguise**.
+Do **not** recreate the deleted records beat through manifests, exact totals, `thirty-one transfers`, a ledger naming the onward destination, or a document explaining Rhazek's ideology. The prisoners already established the holding/transit function. Beat 12 physically corroborates it.
 
-Do not stop the party at a desk so they can read:
-- manifests explaining the whole operation;
-- exact prisoner totals;
-- the old `thirty-one transfers` number;
-- a ledger naming the onward destination;
-- a document spelling out Rhazek's philosophy or the full strategic purpose.
+## Black Host portrayal / combat escalation
+Host personnel behave like members of a real military organization: they respond to alarms and orders, protect routes, perform ordinary duties, and may care for their own wounded. This does not excuse the forced-transfer operation.
 
-The party already knows this is a holding/transit site from the prisoners. Beat 12 confirms it physically by showing how the Bastion functions.
+The party's surprise advantage erodes as it moves upward. Resistance becomes more organized toward command, but the story does not imply infinite reinforcements or require exterminating the entire garrison.
 
-## Black Host portrayal rule
-The Black Host personnel here should behave as members of a real military organization rather than universal caricatures.
+## Rhazek / masked-officer boundaries
+The party already knows Rhazek is here. His command can be reinforced indirectly through orders and disciplined response, but he does not remotely monologue at the party.
 
-This can include:
-- soldiers responding to alarms/orders;
-- personnel trying to contain an unexpected infiltration;
-- wounded Host soldiers receiving legitimate medical care;
-- support personnel performing ordinary duties;
-- guards who are competent rather than theatrically cruel every moment.
-
-None of this excuses the kidnapping/forced-transfer system. It makes the institution more credible and makes Rhazek's ownership of the operation more consequential.
-
-Do not manufacture cruelty in every room simply to remind the player who the enemy is. The Prisoner Galleries have already established the human cost.
-
-## Alert / combat progression
-By Beat 12, the party is deliberately moving upward through occupied territory, so the covert advantage cannot remain perfect indefinitely.
-
-Story-level progression should be:
-- the first part of the ascent may benefit from surprise created by the secret lower entry;
-- resistance increases as Black Host personnel realize an armed group is moving upward from the prisoner level;
-- the fort begins reacting through ordinary command procedures;
-- encounters and barriers become more organized toward the command layer;
-- the party keeps forward pressure rather than stopping to clear every soldier in the entire fort.
-
-Exact encounter placement, number of soldiers, reinforcements, minibosses, formations, status use, EXP, and balance remain encounter authority.
-
-Do **not** imply infinite reinforcements or require exterminating the entire garrison. The story objective is to break the Bastion's local control and gain the exit, not kill every Black Host soldier present.
-
-## Rhazek-presence rule
-The party already knows Rhazek is here.
-
-Beat 12 can reinforce his command indirectly through:
-- orders using his title/name;
-- personnel responding to command-level instructions;
-- defensive changes appropriate to a high-ranking commander's presence;
-- disciplined efforts to protect the upper command route;
-- evidence that the fort is currently operating under coherent leadership.
-
-Do not give Rhazek a remote villain speech, magical announcement, or omniscient conversation with the party during the ascent.
-
-The first direct encounter with him remains **Beat 13**.
-
-## Masked-officer firewall
-The unnamed masked second officer is reserved for Beat 13.
-
-Do not:
-- show Seyrik clearly in the ascent;
-- name or foreshadow him through a convenient personnel record;
-- have prisoners or ordinary soldiers identify him;
-- let the party learn that Rhazek has a particular masked subordinate waiting above.
-
-The impact should come from entering the command space and finding Rhazek already engaged with that officer.
+The unnamed masked officer is reserved for Beat 13. Do not show, name, identify, or conveniently foreshadow him during the ascent.
 
 ## Exit-control visibility
-Beat 12 should begin making the practical rescue objective physically understandable.
+The party sees enough of the Bastion's gates/barriers/control infrastructure to confirm that taking the active command layer is what will make the maintained road-side exit usable. Do not turn this into a switch-hunt.
 
-The party can encounter evidence that the maintained Bastion route/road exit is controlled through the fort's active infrastructure: gates, secured internal access, command-controlled barriers, guard posts, mechanisms, or equivalent systems consistent with later map design.
+## Playable rhythm
+Primarily active gameplay:
+**leave prisoner level → occupied service/military spaces → hostile traversal → limited environmental/story stops → increasing organized resistance → command-area threshold**.
 
-They do not need to fully open the exit during Beat 12. The point is to confirm that **reaching/breaking the command layer really is what makes evacuation possible**.
-
-Do not turn this into an elaborate switch-hunt. Final access remains tied to the Rhazek/Bastion climax.
-
-## Maevra staging boundary
-Maevra remains part of Chapter-2 story continuity but **never participates in combat**.
-
-For the ascent, implementation may choose either:
-- Maevra remains primarily with the prisoner safe area helping organize and protect the waiting group through noncombat means; or
-- she appears in selected authored noncombat transitions while the battle party handles encounters.
-
-Whichever presentation is used:
-- she cannot enter battle;
-- she must not suddenly fight because the fort is dangerous;
-- she must be coherently available again for the return-to-prisoners/evacuation sequence.
-
-## Agent-Brain rehearsal packet
-The Director may provide the agents with:
-- Rhazek's known presence and rank;
-- prisoners waiting below;
-- the practical need to reach command controls and the road-side exit;
-- actual visible Bastion logistics/guard behavior;
-- increasing enemy response as the ascent progresses;
-- any wounded Host personnel or morally complicated ordinary fort activity that is genuinely present in the map;
-- the fact that earlier captives were moved onward but the destination remains unknown.
-
-Natural responses may include tactical judgment, urgency, anger, caution, recognition of Rhazek's organizational competence, or observations about the difference between ordinary soldiers and the policy they are enforcing.
-
-Do not force a moral debate during every encounter. The environment and actions should carry much of the meaning.
-
-## Playable / presentation structure
-Beat 12 should be primarily **active gameplay** with a small number of authored stops.
-
-A strong production rhythm is:
-1. leave the stabilized prisoner level;
-2. enter first occupied Bastion service/military spaces;
-3. player-driven hostile traversal;
-4. one or two environmental/story stops that show the fort's functioning system and/or practical exit controls;
-5. increased organized resistance toward the upper command route;
-6. reach immediate command-area threshold;
-7. hand directly into Beat 13.
-
-Avoid constant walking dialogue, repeated cutscenes after every fight, or a separate records-room detour.
-
-## Mandatory progression
-- Cyanis, Ilyra, and Torren leave the prisoner safe area to ascend through the active Bastion;
-- the transition from hidden lower route/prisoner infrastructure to functioning Black Host fort becomes unmistakable;
-- disciplined military/logistical operation is shown through environment and behavior;
-- holding/transit infrastructure visibly confirms the system the prisoners described without revealing the onward destination;
-- legitimate care for at least some Black Host wounded may be shown if compatible with final map staging, without excusing the kidnapping operation;
-- surprise advantage erodes and organized Host resistance increases;
-- party confirms that the maintained road-side exit depends on control/access from the active Bastion/command layer;
-- party continues toward **Rhazek's known command position**;
-- no transfer-record exposition scene occurs;
-- no masked-officer identity/presence is revealed before Beat 13;
-- party reaches the immediate command-area threshold.
-
-## End state / knowledge change
-After Beat 12:
-- the party has personally seen Red Transfer Bastion functioning as an organized military holding/transit installation;
-- the prisoners' description of the site's function is physically corroborated;
-- the onward destination of transferred captives remains unknown;
-- the party understands the practical control relationship between the upper Bastion and the usable road exit;
-- the Bastion is actively reacting to their intrusion;
-- Rhazek remains the known commander they are moving toward;
-- the party is now at the command-area threshold and ready for direct confrontation.
-
-## Gameplay handoff
+## Handoff
 → **Beat 13 — Rhazek / Masked Officer**
-
-## Reveal firewall
-Do not reveal in Beat 12:
-- destination or ultimate fate of transferred captives;
-- exact total number transferred;
-- retired `thirty-one transfers` clue;
-- Rhazek's full ideology/policy argument before direct confrontation;
-- the unnamed masked officer's identity or advance presence;
-- Seyrik's name/history;
-- new ancient-map information;
-- Last Sentinel;
-- Cresthaven;
-- buried-Crest truth;
-- Entity.
 
 ---
 
@@ -706,245 +389,281 @@ Do not reveal in Beat 12:
 **Development status:** CURRENT WORKING BEAT PACKET
 
 ## Purpose
-Deliver the first direct confrontation with **Commander Rhazek** after the party has spent the Bastion ascent moving toward a commander they already know by reputation, while introducing the unnamed masked officer who will later be revealed as Seyrik without allowing that future identity to dominate the scene.
-
-Beat 13 should:
-- pay off the Rhazek command reveal from the Prisoner Galleries;
-- show Rhazek actively commanding a functioning fort rather than waiting theatrically for the heroes;
-- introduce the masked officer naturally as part of the Black Host command structure;
-- establish through Rhazek himself that the kidnapping/forced-transfer operation is not an accidental abuse by subordinates — **he authorized and owns it**;
-- let Rhazek and the party clash over the prisoners and control of the usable road exit;
-- preserve the unknown destination/fate of earlier transferred captives;
-- remove the masked officer from the immediate battle space without revealing who he is;
-- hand directly into Beat 14's Commander Rhazek/Bastion Master boss encounter.
-
-## Starting state
-- Cyanis, Ilyra, and Torren have reached the command-area threshold after fighting upward through the active Bastion;
-- the fort is reacting to their intrusion;
-- current prisoners remain below in the defensible safe area waiting for a usable escape route;
-- the party knows Red Transfer Bastion is a holding/transit site;
-- earlier captives have already been transferred onward to an unknown destination;
-- the party knows **Commander Rhazek** runs this Bastion and recognizes him as a known high-ranking Black Host commander;
-- the practical objective remains to break Bastion command/control and secure/open the maintained exit to the Greenhollow–Dunmere road;
-- combat party for the coming boss remains **Cyanis + Ilyra + Torren**;
-- Maevra remains noncombat and may be below with the prisoners or present only in noncombat staging according to the Beat-12 implementation choice.
+Deliver the first direct confrontation with **Commander Rhazek**, confirm his personal ownership of the kidnapping/forced-transfer policy, and introduce the unnamed masked officer without revealing that he is Seyrik.
 
 ## Command-room entry rule
 > **Rhazek is already working when the party arrives.**
 
-The command space should feel like the center of an operating fort, not a boss throne room.
-
-When the party enters, Rhazek is already engaged in command activity appropriate to the current alarm/state of the Bastion. The **unnamed masked second officer** is present with him, speaking/reporting as part of that work.
-
-Possible subjects for the officer's report include only immediate, non-spoilery military matters actually supported by final staging, such as:
-- the breach/intrusion below;
-- loss of contact with a lower post;
-- readiness of a route or unit;
-- a defensive instruction already in motion;
-- another ordinary operational matter.
-
-Do **not** use the report to reveal the onward prisoner destination, Seyrik's history, Chapter-3 information, or a larger Black Host plan.
+The command space is the center of an operating fort, not a throne room. Rhazek is engaged in command activity appropriate to the active alarm. The **unnamed masked second officer** is already speaking/reporting to him on immediate operational matters.
 
 ## Masked officer — hard identity firewall
 Writer-facing only:
-
 > **The unnamed masked officer is Seyrik Rell.**
 
-Player/party-facing in Chapter 2:
-- he is **not named**;
-- he is **not unmasked**;
+Player/party-facing:
+- he is not named;
+- he is not unmasked;
 - nobody correctly identifies him;
-- Rhazek does not casually say `Seyrik` merely for the player's benefit;
-- no personnel document or subtitle gives away his identity;
-- no one explains his history, age, Ruin connection, or relationship to later events;
-- his presentation must remain consistent with later Seyrik visual/character authority without exposing the reveal early.
+- Rhazek does not say `Seyrik` merely for player benefit;
+- no subtitle/document reveals his identity;
+- no childhood, Ruin, future recruitment, or later-story information is exposed;
+- he should register as a credible officer reporting directly to Rhazek, not be framed with exaggerated `future party member` mystery emphasis.
 
-He should register as a credible Black Host officer important enough to report directly to Rhazek, but the scene should not frame him with exaggerated mystery-camera language that announces `future major character`.
+Use Seyrik's real Person Agent Brain under Chapter-2 concealment constraints when rehearsing him.
 
 ## Masked officer participation boundary
-The masked officer does **not** join the Beat-14 Rhazek boss battle.
-
-The cleanest story shape is that his command business is already ending or Rhazek gives him an immediate order to carry out elsewhere as the confrontation begins. He leaves the command space under Black Host discipline before the boss engagement locks in.
-
-This should feel operational rather than contrived:
-- Rhazek has a functioning fort and other priorities besides personally surrounding three intruders with every available officer;
-- the masked officer obeys and departs;
-- the party does not get a meaningful opportunity to interrogate/unmask him;
-- Rhazek remains between the party and the command objective;
-- Beat 14 remains Rhazek's fight, not a dual-boss encounter.
-
-Exact blocking, exit route, and whether the officer exchanges any brief words with the party belong to the Agent Brain/staging pass.
+The masked officer **does not join the Rhazek boss battle**. His operational business is ending or Rhazek gives him another immediate order; he leaves under normal Black Host discipline before combat locks in. The departure should feel operational, not like magical plot protection.
 
 ## Rhazek ownership — locked
-The confrontation must establish firsthand that **Rhazek owns the Bastion's kidnapping and forced-transfer policy**.
+Rhazek knowingly authorized and commands the Bastion's kidnapping/forced-transfer policy. He does not blame rogue soldiers, deny the captives, pretend the operation is accidental, or falsely call coerced captivity meaningful consent.
 
-He does not:
-- claim the prisoners were taken without his knowledge;
-- blame rogue soldiers;
-- pretend this is an accidental consequence of road security;
-- falsely redefine forced captivity as voluntary participation;
-- deny the obvious fact that people are being held and moved against their will.
+If consent/coercion is discussed, he understands the distinction. His actual defense of the policy belongs to his independent Person Agent Brain rehearsal.
 
-If consent/coercion enters the exchange, Rhazek understands the distinction. His defense of the system, if he gives one, must be a defense of a policy he knowingly commands — not semantic evasion.
-
-The exact argument, vocabulary, emotional temperature, and amount of explanation belong to **Rhazek's independent Person Agent Brain rehearsal**.
-
-## Policy-information boundary
-Rhazek may reveal enough of his position to establish that the operation is intentional and commanded, but Beat 13 must **not** solve the wider captive mystery.
-
-He does not need to tell the party:
-- where earlier captives were taken;
-- what the final destination is called;
-- what ultimately happens to transferred prisoners;
-- the complete strategic objective behind the wider Black Host transfer system;
-- any Chapter-3 Last Sentinel/Old City information;
-- any later Seyrik truth.
-
-If the party asks about the transferred people, Rhazek may refuse, deflect, give only what he would realistically disclose, or frame the operation in his own terms. The story requirement is that the answer remains unresolved, not that he must deliver a specific refusal line.
+## Information boundary
+Rhazek does **not** solve the wider mystery. The onward destination, final fate/purpose of transferred captives, exact totals, and later Chapter-3/Seyrik information remain unresolved.
 
 ## Conflict objective
-The party's immediate demand is practical and human:
-- the captives below are to be released;
-- the Bastion's usable exit/road control must be opened or surrendered;
-- Rhazek's local control over the corridor must end.
+The party demands the current prisoners' freedom and usable road exit. Rhazek refuses to surrender Bastion command/control. Neither side can achieve its immediate objective while the other retains control, so force becomes necessary without requiring a long philosophical pre-boss debate.
 
-Rhazek refuses to surrender the command position/controls and does not voluntarily dismantle the operation.
+## Rhazek tone
+Rhazek remains a competent high-ranking commander: capable of rapid assessment, disciplined subordinate use, command/control thinking, and awareness of the prisoners as operational pressure. Do not make him irrationally boastful solely because he is a boss.
 
-The scene should not require a long philosophical debate before violence becomes possible. These sides have incompatible immediate objectives:
-- the party must secure the route for the prisoners;
-- Rhazek intends to retain control of the Bastion and its operation.
+## Maevra continuity
+Maevra remains fully noncombat. If she is below with the prisoners, she need not appear in this scene. If implementation places her in noncombat staging here, she cannot trigger recognition of the masked officer or join the battle.
 
-Force becomes necessary.
+## Presentation rhythm
+**enter command space → Rhazek actively commanding / masked officer reporting → intrusion takes focus → masked officer departs on operational order → party confronts Rhazek → Rhazek owns policy → neither side yields → boss transition**.
 
-## Rhazek competence / tone rule
-Rhazek should remain consistent with the functioning Bastion established in Beat 12.
+## End state / handoff
+The party has met Rhazek, confirmed his personal responsibility, seen an unidentified masked officer reporting to him, and still lacks the onward-transfer answer. Rhazek retains command/control and combat is unavoidable.
 
-He is a high-ranking commander, not a cartoon jailer. His scene may show:
-- rapid assessment of how the party penetrated the fort;
-- concern for maintaining command/control;
-- disciplined use of subordinates;
-- awareness that the prisoners below create operational pressure;
-- willingness to fight when the command position cannot be retained otherwise.
+→ **Beat 14 — Commander Rhazek / Bastion Master**
 
-Do not make him become irrationally boastful solely because this is a boss introduction.
+---
 
-His competence does not absolve him. It makes the deliberate policy more serious.
+# Beat 14 — Commander Rhazek / Bastion Master
+
+**Development status:** CURRENT WORKING BEAT PACKET
+
+## Purpose
+Serve as the **Red Transfer Bastion command-layer combat climax**. The party must defeat Rhazek locally, break the Host's practical control of the fort, gain access to the maintained road-side exit, and preserve Rhazek for his later story without undermining the reality of the victory.
+
+This beat should:
+- pay off the command ascent and Beat-13 confrontation;
+- make the battle a fight for control of the Bastion rather than a disconnected boss arena;
+- keep **Cyanis + Ilyra + Torren** as the combat trio;
+- keep Maevra completely noncombat;
+- allow finite prepared Bastion support where encounter authority wants it without implying endless reinforcements;
+- end with Rhazek genuinely defeated **here**, not secretly winning or leaving the operation intact;
+- let Rhazek survive through a credible military withdrawal rather than a supernatural escape;
+- make the party's choice to prioritize the prisoners over pursuit practical and character-driven;
+- leave the usable prisoner exit secured/openable before the party returns below.
+
+## Starting state
+- Beat 13 has ended with force unavoidable;
+- the unnamed masked officer has left the immediate battle space and does not participate;
+- Rhazek remains in control of the command area and refuses to release the prisoners or surrender the Bastion's exit/control infrastructure;
+- current prisoners remain below in the defensible safe area;
+- the onward destination of previously transferred captives remains unknown;
+- the Bastion is actively reacting to the intrusion;
+- combat party: **Cyanis + Ilyra + Torren**;
+- Maevra remains fully noncombat.
+
+## Boss identity / combat authority
+`Commander Rhazek / Bastion Master` is the production encounter identity for this story beat. Exact battle naming may follow live enemy/boss naming authority.
+
+Story locks:
+- **one HP bar** unless encounter authority later revises the mechanic;
+- no required fresh-HP second form;
+- exact stats, skills, AI, thresholds, formations, rewards, status interactions, EXP, drops, and balance remain under encounter authority;
+- any supporting Black Host units must be **finite prepared support**, not an infinite reinforcement fiction;
+- the story does not require killing every soldier in Red Transfer Bastion to win.
+
+The victory condition at story level is defeating Rhazek's ability to retain **local command/control of this Bastion**, not exterminating the garrison.
+
+## Arena / command relationship
+The battle should occur in or immediately around the command-layer space whose control matters to the rescue.
+
+The arena should therefore remain connected to practical fort functions such as:
+- access toward the maintained road exit;
+- gate/route control;
+- command posts or signals;
+- defensible upper-Bastion positioning;
+- the routes through which Rhazek's remaining personnel can withdraw.
+
+Exact layout belongs to Bastion map/encounter design. Do not move the party to an unrelated magical boss chamber merely to stage the fight.
+
+## Rhazek defeat — hard rule
+> **The party wins Red Transfer Bastion locally. Rhazek's survival does not erase that victory.**
+
+After the boss battle:
+- Rhazek is defeated badly enough that he cannot continue holding the command position against the party;
+- the command layer is lost to the Host;
+- the party gains the access/control needed to make the practical prisoner exit usable;
+- the holding operation at this Bastion is broken;
+- current captives are no longer trapped simply because Rhazek controls the exits;
+- the direct corridor can move toward its reopened world state in Beats 16–17.
+
+Do not reveal after the fight that Rhazek deliberately allowed the party to win, that the rescue was secretly part of his plan, or that an unseen system leaves the Bastion fully under his control anyway.
+
+## Rhazek survival / withdrawal rule
+Rhazek survives Chapter 2 and **withdraws** after losing the local fight.
+
+His escape should remain grounded in the functioning-military portrayal already established:
+- remaining Black Host personnel may cover or enable his withdrawal;
+- an alternate military egress, retreat route, exterior connection, or ordinary defensible route may be used according to final map design;
+- a limited rear guard or separation created by the battle aftermath may prevent immediate pursuit;
+- exact blocking remains for staging/map design.
+
+Do **not** require:
+- teleportation;
+- a magical vanishing act;
+- an unexplained trapdoor appearing only to save him;
+- a fresh secret boss phase;
+- an invulnerable cutscene attack that nullifies the player's victory.
+
+The key truth is simple: **Rhazek loses the Bastion but survives the withdrawal.**
+
+## Pursuit / prisoner-priority lock
+The party does not pursue Rhazek at the cost of the captives waiting below.
+
+This is not because Rhazek escapes effortlessly. It is because:
+- the prisoners still need the practical exit opened and the safe area relieved;
+- injured people are waiting;
+- the Bastion is destabilized after command defeat;
+- remaining Host personnel may still be withdrawing/covering routes;
+- chasing a high-ranking commander away from the objective would abandon the rescue the party came to complete.
+
+Cyanis, Ilyra, and Torren may react differently to letting Rhazek go, but the **shared action outcome** is that they prioritize securing the exit and returning to the prisoners.
+
+Do not force this into a moral lecture. The Agent Brains should make the choice feel like something these characters actually do under the circumstances.
+
+## Exit / command-control payoff
+The boss victory must produce a direct practical rescue payoff.
+
+After Rhazek loses the command layer, the party gains whatever final access is required to make the maintained Bastion exit toward the **Greenhollow–Dunmere road** usable. Depending on final map design this may mean:
+- opening/unsealing a gate;
+- releasing command locks;
+- taking control of a guarded route;
+- disabling a closure/barrier;
+- obtaining physical access to the mechanism/route already established in Beat 12;
+- equivalent practical control.
+
+Do not add an elaborate post-boss switch dungeon. The player has already fought through the Bastion to gain this access.
+
+The exit may be **secured/opened now**, but the prisoners do not automatically teleport out. Beat 15 still requires the party to return to them.
+
+## Remaining Black Host state
+The entire garrison does not need to die or surrender on screen.
+
+After Rhazek's defeat:
+- some Host personnel may withdraw with him;
+- some may disengage once command control collapses;
+- some may be isolated, wounded, surrendered, or otherwise no longer able to stop the rescue as supported by final staging;
+- the local occupation is broken enough that the party can use the exit and later move the prisoners out.
+
+Do not create another full mandatory fort-clearing sequence after the boss. Beat 14 is the command-layer climax.
+
+## No villain-stinger rule
+There is **no mandatory post-defeat villain stinger**.
+
+Rhazek does not need:
+- a final speech revealing a larger plan;
+- a taunting explanation of the unknown transfer destination;
+- a surprise rematch;
+- a hidden second boss;
+- a cutaway proving the victory meaningless.
+
+If the Agent Brain rehearsal produces a short, natural withdrawal exchange, it may survive editing only if it adds character without violating the reveal firewall. Silence and disciplined retreat are equally valid.
 
 ## Agent-Brain rehearsal packet
-This beat must go through the full rehearsal-first pipeline before final dialogue.
-
 ### Cyanis
 Provide:
-- the prisoners are below waiting for an exit;
-- Rhazek knowingly commands this Bastion;
-- Rhazek is a known high-ranking Black Host commander;
-- the party has seen the holding/transit system firsthand;
-- earlier captives were transferred somewhere unknown;
-- the usable road exit remains under this command layer.
+- Rhazek knowingly owns the prisoner operation;
+- prisoners are waiting below;
+- the road exit is the rescue objective;
+- Rhazek has been defeated locally but is attempting/being enabled to withdraw;
+- pursuing him would pull the party away from the captives and exit controls.
 
-Do not prewrite Cyanis's moral position as a speech. Let his Person Agent decide how directly he challenges Rhazek and what he prioritizes.
+Let Cyanis's brain determine how quickly he shifts from combat to rescue priority and how he reacts to Rhazek surviving.
 
 ### Ilyra
 Provide:
-- injured civilians and soldiers are waiting below;
-- delay and a failed breakout place them at risk;
-- the Bastion's transfer system is deliberate;
-- Rhazek is personally responsible for this local command;
-- the unknown fate of transferred captives remains unresolved.
+- injured civilians and soldiers remain below;
+- the practical exit can now be made usable;
+- delay for pursuit carries a real cost to people needing treatment/movement;
+- Rhazek survives but no longer holds the command layer.
 
-Let her reactions arise from her own values and current relationship state rather than assigning healer exposition.
+Do not assign a healer speech; let her priorities and reactions emerge naturally.
 
 ### Torren
 Provide:
-- the party needs the road-side exit;
-- Rhazek is the command obstacle;
-- the fort's disciplined response matches the reputation of a high-ranking commander;
-- the prisoners cannot use the route the party entered through.
+- the command route has been won;
+- the road-side exit is now accessible/control-ready;
+- Rhazek's retreat route is separating from the rescue objective;
+- the prisoners cannot be left waiting while the trio chases him.
 
-Let practical route/tactical thinking emerge only if his brain chooses it.
+Let practical route awareness emerge from his Person Agent rather than forcing exposition.
 
 ### Rhazek
 Provide:
-- he commands Red Transfer Bastion;
-- he authorized/owns the holding and forced-transfer operation here;
-- an armed three-person party has penetrated from below and reached his command layer;
-- current prisoners are compromised as assets/captives because the intruders reached the galleries;
-- he knows the fort is under active pressure;
-- he intends to retain command/control and does not intend to release the prisoners merely because challenged;
-- he understands coercion is coercion;
-- information about the final transfer destination/purpose remains protected and should not be volunteered unless separate authority later requires it.
+- he has lost the boss encounter and cannot retain this Bastion now;
+- he remains a high-ranking Black Host commander with reason to preserve himself/remaining personnel for later operations;
+- he does not reveal protected transfer-destination information merely because he lost;
+- withdrawal is a military loss, not a secret triumph;
+- his exact reaction to defeat comes from his established brain rather than a mandated villain monologue.
 
-Do not tell the Rhazek agent to be villainous, cruel, smug, or monologuing. Let his established brain generate his actual manner.
+### Maevra
+If staged below, she need not appear until Beat 15. If present in a noncombat post-battle transition, she remains unable to fight and should naturally prioritize the people waiting below and the usable exit.
 
-### Unnamed masked officer / Seyrik — writer-facing agent
-Use Seyrik's real Person Agent Brain, but constrain output to what is legal for Chapter 2:
-- he is currently serving within the Black Host command structure;
-- he is masked and not identified to the party/player;
-- he is reporting to Rhazek when the party arrives;
-- he follows whatever operational order removes him from the room before the Rhazek fight;
-- he must not expose his identity, personal history, future party status, Ruin significance, or later reveal material.
+## Presentation rhythm
+A strong economical structure is:
+1. Beat-13 confrontation transitions directly into boss battle;
+2. **Commander Rhazek / Bastion Master** encounter;
+3. Rhazek is defeated and command control collapses locally;
+4. remaining Host personnel create/execute a disciplined withdrawal where appropriate;
+5. Rhazek retreats alive;
+6. party does not abandon the prisoners to pursue him;
+7. party secures/opens the practical road-side exit/control;
+8. objective changes immediately to **return to the prisoners**.
 
-The goal is **authentic Seyrik behavior under concealment**, not generic `mysterious masked man` writing.
-
-## Maevra continuity
-If Maevra is staged below with the prisoners, she does not need to appear in Beat 13 merely to satisfy equal-screen-time logic.
-
-If implementation places her in the command-room authored scene, she may react according to her Agent Brain and military knowledge, but:
-- she remains fully noncombat;
-- her presence must not create a recognition reveal for masked Seyrik;
-- she does not participate in the Beat-14 battle.
-
-Either staging choice must preserve her return for the prisoner evacuation sequence.
-
-## Presentation structure
-A strong economical HD-2D sequence is:
-1. party crosses the command-area threshold;
-2. Rhazek is seen actively commanding while the masked officer completes a report/exchange;
-3. the intrusion forces immediate attention onto Cyanis's group;
-4. brief command interaction establishes the masked officer's role without identifying him;
-5. Rhazek directs the masked officer elsewhere and he exits;
-6. party confronts Rhazek over the prisoners/exit;
-7. Rhazek unmistakably owns the kidnapping/forced-transfer policy;
-8. neither side yields;
-9. scene hands directly into the Rhazek/Bastion Master boss encounter.
-
-Do not pad this with a long pre-boss cinematic. Portrait dialogue and economical field blocking should carry the scene.
+Keep the post-battle sequence short. The emotional consequence can breathe later; the prisoners are still waiting.
 
 ## Mandatory progression
-- party enters the active command space;
-- Rhazek is already engaged in real command activity;
-- the unnamed masked officer is present reporting/speaking with him;
-- writer-facing only: the officer is Seyrik Rell;
-- player/party does not learn the officer's name or identity;
-- the masked officer leaves the immediate battle space before the boss begins and does not join the fight;
-- party directly confronts Rhazek;
-- Rhazek confirms through words/actions that he knowingly commands and owns the kidnapping/forced-transfer policy;
-- Rhazek does not reveal the onward destination/fate of earlier transferred captives;
-- party demands/releases access needed to free and evacuate the current prisoners;
-- Rhazek refuses to surrender command/control;
-- force becomes necessary;
-- transition into Beat 14 occurs without an unrelated detour.
+- boss battle against Rhazek occurs;
+- combat party is **Cyanis + Ilyra + Torren**;
+- Maevra does not battle;
+- masked officer does not participate;
+- one HP bar remains the current story-facing boss structure unless encounter authority revises it;
+- any prepared Host support is finite;
+- Rhazek is **defeated locally**;
+- Red Transfer Bastion's command layer is broken;
+- Rhazek survives and withdraws through a credible military retreat;
+- the party does not pursue him at the expense of the prisoners;
+- party gains control/access needed to make the maintained Greenhollow–Dunmere road exit usable;
+- no transfer-destination reveal occurs;
+- no rematch, hidden boss, or villain stinger follows;
+- party turns back toward the prisoner safe area.
 
 ## End state / knowledge change
-After Beat 13:
-- the party has met Commander Rhazek directly;
-- Rhazek's personal responsibility for the Bastion's kidnapping/forced-transfer operation is confirmed;
-- the party still does not know where previously transferred captives went or what their ultimate fate/purpose is;
-- the party has seen an unnamed masked Black Host officer reporting directly to Rhazek but has no correct identity for him;
-- the masked officer is no longer in the immediate battle space;
-- Rhazek still controls the command layer and usable exit;
-- combat is now unavoidable.
+After Beat 14:
+- **Rhazek has lost Red Transfer Bastion locally but remains alive**;
+- current Black Host control over the Bastion/corridor is broken enough for evacuation;
+- the party has the practical access/control needed for the road-side exit;
+- previously transferred captives remain missing and their destination remains unknown;
+- the current prisoners are still physically waiting below and must be collected;
+- the immediate objective is no longer `defeat Rhazek` but **return to the prisoners and get them out**.
 
 ## Gameplay handoff
-→ **Beat 14 — Commander Rhazek / Bastion Master**
+→ **Beat 15 — Return to the Prisoners**
 
 ## Reveal firewall
-Do not reveal in Beat 13:
-- Seyrik's name or identity;
-- Seyrik's childhood/history, later recruitment, Ruin connection, or future role;
-- the destination or ultimate fate of previously transferred captives;
-- the complete strategic purpose of the wider transfer operation;
-- exact total transfer count or retired `thirty-one transfers` clue;
+Do not reveal in Beat 14:
+- destination or ultimate fate of previously transferred captives;
+- complete purpose of the wider Black Host transfer operation;
+- exact historic/current total transferred;
+- retired `thirty-one transfers` clue;
+- Seyrik's identity/history/future role;
 - new Ancient-map/network answers;
 - Last Sentinel;
 - Cresthaven;
@@ -953,8 +672,8 @@ Do not reveal in Beat 13:
 
 ---
 
-# Beat 14 — Commander Rhazek / Bastion Master
+# Beat 15 — Return to the Prisoners
 
 **Development status:** NEXT TO DEVELOP
 
-Current locked function from `CHAPTER_02.md`: resolve the Bastion command-layer conflict in a boss battle against Rhazek, preserve his survival/withdrawal, break local Black Host control, and give the party the access needed to open the practical prisoner exit before they return to the safe area.
+Current locked function from `CHAPTER_02.md`: the party physically returns to the Prisoner Galleries/safe area after defeating Rhazek locally, tells the waiting captives that the usable road-side exit is secured, helps the injured prepare to move, and organizes the group for the actual escape.
