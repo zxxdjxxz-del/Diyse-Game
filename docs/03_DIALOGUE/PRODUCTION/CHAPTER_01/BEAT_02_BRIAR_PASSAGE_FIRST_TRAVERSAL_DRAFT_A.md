@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 2
 # Briar Passage / First Traversal
-## DIALOGUE ENGINE PRODUCTION DRAFT C — rehearsal-first pass / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT D — rehearsal-first + random-encounter correction / awaiting user approval
 
 **Walking-dialogue lock:** limited moving dialogue is legal here only while Maevra Solmar is genuinely leading Cyanis and Ilyra to Greenhollow. Ordinary traversal remains gameplay and silence.
 
@@ -106,10 +106,10 @@ For a while.
 
 Normal Briar Passage exploration resumes.
 
-- Random encounter pressure is active.
+- Random encounters are active.
 - Combat party: **Cyanis + Ilyra**.
 - Maevra remains with the traveling group but is never represented in battle.
-- Side paths may contain ordinary exploration rewards, route history, or lived-world details.
+- No ordinary enemy is a fixed on-map fight or mandatory story encounter.
 - No major Ancient-story discovery occurs here.
 
 No general walk-and-talk layer is used.
@@ -182,21 +182,15 @@ The traces converge again. The exchange ends.
 
 A substantial uninterrupted exploration section follows.
 
-The route should read as a network rather than a corridor:
-- old service cuts crossing the main road;
-- elevation changes;
-- marker stones from different periods;
-- former road beds half-reclaimed by roots;
-- side paths still maintained for local use;
-- small repair piles and trimmed growth showing that people still work this landscape unevenly.
+The route should read as a network rather than a corridor: old service cuts, elevation changes, marker stones from different periods, former road beds half-reclaimed by roots, and side paths still maintained for local use.
 
 Do not restore the false trail, route-choice puzzle, damaged crossing, separate Old Waystone, or early Briarhide confrontation.
 
 ---
 
-### [POST-ENCOUNTER STOP]
+### [OPTIONAL POST-RANDOM-ENCOUNTER BARK]
 
-After a normal field fight, the group stops inside the post-battle grace window.
+This exchange may fire after an ordinary field encounter. It is not required for story progression and may be skipped entirely if the player does not meet its bark conditions.
 
 Cyanis is already checking the road ahead when Ilyra catches his forearm.
 
@@ -292,17 +286,15 @@ Maevra walks east.
 
 The forest opens gradually.
 
-Cart traffic becomes heavier. Cut brush and small repair piles appear beside the road. The first Greenhollow structures show between the trees.
+Cart traffic becomes heavier. The first Greenhollow structures show between the trees.
 
-No conversation is required.
-
-Let the settlement arrive visually.
+No conversation is required. Let the settlement arrive visually.
 
 ---
 
 ### [ENTRY THRESHOLD — GREENHOLLOW]
 
-At the settlement edge, Maevra finally stops.
+At the settlement edge, Maevra stops.
 
 **MAEVRA:** Greenhollow.
 
@@ -340,31 +332,17 @@ Cyanis follows, muttering something that does not need a subtitle.
 
 **Player control remains active.**
 
-Story state:
-- Briar Passage has been established as a substantial recurring route network;
-- Maevra has competently led the group to Greenhollow;
-- deeper southern travel visibly becomes less dependable and motivates seeking current local expertise without turning the route into a puzzle;
-- Torren Harth remains the immediate person Maevra intends to find;
-- no major Ancient mystery or boss payoff has been spent;
-- Cyanis carries the intact Card itself and it remains inert.
+Traveling group: **Cyanis + Ilyra + Maevra**  
+Combat party: **Cyanis + Ilyra**
 
-Traveling group:
-**Cyanis Dovaren + Ilyra Amarin + Maevra Solmar**
-
-Combat party:
-**Cyanis Dovaren + Ilyra Amarin**
-
-Next mandatory story beat:
-**Greenhollow / Torren.**
+Next mandatory story beat: **Greenhollow / Torren.**
 
 ---
 
-## Rehearsal-first editor / canon check
+## Rehearsal / encounter check
 
-**Human-layer result:** route information is carried by choices, environment, a small argument, and selective dialogue rather than repeated explanations of reliability. Maevra is allowed to be socially alive while guiding; Cyanis and Ilyra do not both comment on every route fact.
+**Random encounters:** ordinary Briar enemies are random encounters. The Ilyra/Cyanis injury exchange is an optional bark, not a mandatory fight aftermath.
 
-**Walking-dialogue result:** moving lines occur only while Maevra is materially guiding. Post-combat, marker, junction, and entry exchanges occur at stops.
+**Walking dialogue:** moving lines occur only while Maevra is materially guiding. Marker, junction, and entry exchanges occur at stops.
 
-**Continuity result:** the Chapter-0 casing is gone. Cyanis is carrying the Card itself.
-
-**Story result:** all Beat-2 required progression remains intact; no retired route set piece or later Ancient payoff was restored.
+**Continuity:** Cyanis carries the Card itself; the Chapter-0 casing is gone.
