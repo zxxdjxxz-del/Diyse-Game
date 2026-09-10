@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 8
 # Forced Inner Section
-## DIALOGUE ENGINE PRODUCTION DRAFT D — established gameplay presentation normalization / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT E — chapter-wide dialogue polish + established gameplay presentation / awaiting user approval
 
 ---
 
@@ -42,11 +42,11 @@ The relevant characters may appear as simple field models. The broken access its
 
 **ILYRA:** Subtle.
 
-**CYANIS:** I think we've established subtle isn't their thing.
+**MAEVRA:** Worked.
 
-**MAEVRA:** They got through.
+A beat.
 
-That is enough.
+**CYANIS:** That's the problem.
 
 Scene ends.
 
@@ -70,43 +70,7 @@ No ancient-system explanation occurs.
 
 No dialogue is used during ordinary traversal.
 
----
-
-### [OPTIONAL POST-RANDOM-ENCOUNTER BARK]
-
-This exchange is optional and can play after an ordinary random encounter. It is never required for progression.
-
-Portraits and the dialogue box are enough; no special post-battle choreography is needed.
-
-**CYANIS:** You first.
-
-**ILYRA:** I'm standing.
-
-**CYANIS:** So am I.
-
-**ILYRA:** Unfortunately, that has never been your standard.
-
-**TORREN:** She's got you there.
-
-**CYANIS:** I liked you better before the fort.
-
-**TORREN:** You liked me for about six minutes.
-
-**MAEVRA:** Finished?
-
-**ILYRA:** Nearly.
-
-**CYANIS:** You good?
-
-**TORREN:** Yeah.
-
-**CYANIS:** Good. Apparently I ask now.
-
-A beat.
-
-**CYANIS:** Don't enjoy this.
-
-The bark ends.
+There is no mandatory post-random-encounter banter here. Hollow Watch has already had enough party chatter, and Cyanis/Torren's sharper personal banter is intentionally allowed to develop later rather than being declared immediately after Torren joins the operation.
 
 ---
 
@@ -134,11 +98,7 @@ Do not identify it yet.
 
 **CYANIS:** This where they stopped?
 
-**MAEVRA:** Looks like it.
-
-**TORREN:** Yeah.
-
-**CYANIS:** Reassuring.
+**TORREN:** Looks like.
 
 **ILYRA:** Anything moving?
 
@@ -179,7 +139,7 @@ Next mandatory story beat: **Beat 9 — Hollow Watch Castellan.**
 
 ---
 
-## Presentation / canon check
+## Presentation / dialogue check
 
 **Traversal:** Cyanis only during ordinary inner-ruin exploration.
 
@@ -189,4 +149,6 @@ Next mandatory story beat: **Beat 9 — Hollow Watch Castellan.**
 
 **Random encounters:** no ordinary enemy is converted into a scripted battle or activation.
 
-**Reduction:** removed repeated wall/machinery inspection, route-detail lists, pre-boss floor checking, weapon adjustments, formation readiness, repeated looking/pointing, and other micro-staging. The optional character bark remains because it is dialogue rather than a visual sequence.
+**Relationship timing:** the old optional bark containing `I liked you better before the fort / You liked me for about six minutes` has been removed. It pushed Cyanis/Torren into their later sharper register before the relationship had earned it and weakened C04's role as an early boundary-breaking moment.
+
+**Reduction:** no repeated wall/machinery inspection, route-detail lists, pre-boss floor checking, weapon adjustments, formation readiness, repeated looking/pointing, or unnecessary post-random-encounter scene.
