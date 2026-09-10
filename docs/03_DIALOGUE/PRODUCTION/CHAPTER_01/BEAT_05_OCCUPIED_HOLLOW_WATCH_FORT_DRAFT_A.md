@@ -1,142 +1,94 @@
 # Chapter 1 — Beat 5
 # Occupied Hollow Watch Fort
-## DIALOGUE ENGINE PRODUCTION DRAFT C — rehearsal-first + random-encounter correction / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT D — established gameplay presentation normalization / awaiting user approval
 
 ---
 
-### [GAMEPLAY — LOWER SERVICE ENTRY]
+### [GAMEPLAY — OCCUPIED HOLLOW WATCH]
 
 **Player control is active.**
 
-The drainage shelf ends beneath Hollow Watch's lower wall.
+Hollow Watch is hostile dungeon/fort traversal.
 
-A maintenance opening in the later Yahtrean stone has been hacked wider. Black Host boards bridge the mud and a rope handline runs along the drop.
+During ordinary traversal, **Cyanis is the only visible party field character**.
 
-Torren looks at the widened opening, then at the wall above it.
+Ilyra, Torren, and Maevra remain present in story state. They appear as field models when a story scene triggers.
 
-He says nothing.
+Combat party: **Cyanis + Ilyra + Torren**.  
+Maevra remains a non-combat traveling companion.  
+Cyanis carries the intact Card itself; it remains inert.
 
-There are voices close by.
+Ordinary Black Host troops are **random encounters only**. No fixed guards, scripted ordinary ambushes, or room-clear gates are authored.
 
-**Combat party:** Cyanis + Ilyra + Torren.  
-**Maevra:** traveling with the group, never represented in battle.  
-**Card:** carried directly by Cyanis, intact and inert.
-
-**Random encounters are active inside the occupied fort.** Ordinary Black Host troops belong to the encounter system rather than fixed on-map fights or mandatory room clears.
-
-No walking dialogue is used during hostile traversal.
+The existing fort art carries the recent occupation and the increasing excavation focus below.
 
 ---
 
-### [STORY STOP — LOWER YARD]
+### [STORY TRIGGER — LOWER FORT]
 
-When the player reaches the lower yard, a Crown watch bell still hangs over one door. A rack meant for fort tools now holds Black Host picks and pry bars. Fresh load marks on the wall point down.
+At the lower-fort progression point, movement pauses and the relevant characters may appear as simple field models.
 
-Cyanis looks at the tools.
+The area already makes the Black Host's priorities readable: they are using the fort, but most of the work is directed downward.
 
 **CYANIS:** They're not settling in.
 
-Maevra glances at the temporary bedrolls.
-
 **MAEVRA:** No.
 
-Torren looks at the rope and timber by the lower stair.
-
-**TORREN:** They're feeding something below.
+**TORREN:** Everything's going below.
 
 **CYANIS:** People or supplies?
 
 **TORREN:** Both.
 
-Ilyra has stopped near a storage door. A dark stain runs beneath it.
+A beat.
 
-**ILYRA:** Here.
+**ILYRA:** There's blood by that door.
 
-She crouches and checks it.
-
-**ILYRA:** Old blood.
-
-Torren's face changes. Barely. Enough.
-
-Cyanis looks at the door.
-
-**CYANIS:** Check it.
-
-Torren already has his bow in hand.
-
-**Player control returns.**
+The scene ends on the discovery. No crouching, stain inspection, weapon-ready pose, or extra prop choreography is required.
 
 ---
 
 ### [GAMEPLAY — SURFACE SEARCH]
 
-The player moves through the occupied fort's accessible surface spaces.
+**Player control returns.**
 
-The takeover still feels recent: Yahtrean bunks and personal kit remain, Black Host occupation is practical rather than architectural, and signs of the seizure remain around the fort.
+Cyanis remains the sole visible traversal character.
 
-Ordinary Black Host combat remains random encounters throughout the area.
+Random encounters remain active.
 
-No party chatter occurs during traversal.
-
-The player eventually reaches the west storage side.
+The player reaches the west storage area through normal fort exploration. Story progression does not depend on a particular random encounter.
 
 ---
 
-### [GARRISON DISCOVERY — STORY STOP]
+### [STORY TRIGGER — GARRISON DISCOVERY]
 
-The west store was not built for bodies.
+The west store contains the dead of Hollow Watch.
 
-It has been used for them anyway.
+This is a major human story discovery, so the relevant characters may appear as field models for the scene.
 
-The door opens onto Hollow Watch dead moved inside from different parts of the fort.
+The room itself carries the visual fact. Do not add body-by-body inspection choreography.
 
-Some are still in armor. Some have bandaging beneath it.
+A beat of silence.
 
-Torren stops in the doorway.
-
-Nobody speaks.
-
-Ilyra enters first and checks the bodies.
-
-Cyanis stays out of her way.
-
-Maevra takes in the room.
-
-Torren does not move.
-
-Ilyra reaches the far wall.
-
-Cyanis finally asks.
+Ilyra performs the one necessary check for survivors.
 
 **CYANIS:** Anyone?
 
-Ilyra shakes her head.
-
 **ILYRA:** No.
 
-Torren exhales once through his nose.
-
-He steps inside.
+A beat.
 
 **TORREN:** Fuck.
 
-No one answers him.
-
-He kneels beside one body long enough to pull a fallen cloak edge back over the man's shoulder.
-
-Then stands.
-
-Maevra looks toward the corridor outside.
+Nobody answers him.
 
 **MAEVRA:** We still need the rest of the fort.
 
 **TORREN:** Yeah.
 
-Cyanis turns toward the door.
-
 **CYANIS:** Come on.
 
-Ilyra is last out. She closes the door most of the way behind her.
+Scene ends.
 
 ---
 
@@ -144,129 +96,97 @@ Ilyra is last out. She closes the door most of the way behind her.
 
 **Player control returns.**
 
-The remaining accessible surface spaces can be searched while random Black Host encounters remain active.
+The fort remains normal Cyanis-only traversal with random encounters.
 
-The search confirms the human outcome: no living Hollow Watch garrison members remain in the fort and there is no surviving-garrison rescue objective.
+There is no surviving-garrison rescue objective.
 
-Do not fabricate a casualty number.
+The player reaches the watch room / excavation-information point through normal progression.
 
 ---
 
-### [STORY STOP — WATCH ROOM]
+### [STORY TRIGGER — WATCH ROOM]
 
-The party reaches the old watch room.
+Relevant characters may appear as simple field models.
 
-Fort records sit underneath newer Black Host work sheets: labor shifts, rope, lamps, brace lengths, oil, load counts, meal allotments.
-
-Cyanis flips through them.
+Fort records and Black Host work records are present as part of the existing room/story setup. No page-by-page handling animation is required.
 
 **CYANIS:** Riveting.
 
-Maevra takes one page.
+**MAEVRA:** You joke, but they were counting everything going below.
 
-**MAEVRA:** You joke, but somebody cared enough to count lamp oil by half-flask.
+**TORREN:** Because the work didn't stop when the fort fell.
 
-Torren stands at the window. Below, the excavation winch is still moving.
+**CYANIS:** So they took the Watch and kept digging.
 
-**TORREN:** Because the work doesn't stop when the fort falls asleep.
+A beat.
 
-**MAEVRA:** Half the current assignments are below the yard.
+**TORREN:** Yeah.
 
-Cyanis looks over her shoulder.
+**MAEVRA:** Everything useful points downstairs.
 
-**CYANIS:** And the rest keep the door shut.
-
-Torren watches the winch.
-
-**TORREN:** They killed the Watch and kept digging.
-
-The room goes quiet.
-
-Maevra folds the page once. Not neatly.
-
-**MAEVRA:** Yeah.
-
-Cyanis sets the sheets down.
-
-**CYANIS:** Everything useful points downstairs.
-
-**MAEVRA:** Then we're done up here.
-
-Torren finally turns.
+**CYANIS:** Then we're done up here.
 
 **TORREN:** Good.
 
-Ilyra notices the anger in it and leaves it alone.
+The scene ends there.
 
 ---
 
-### [GAMEPLAY — EXCAVATION STAGING]
+### [GAMEPLAY — EXCAVATION ACCESS]
 
-The player moves into the lower excavation staging already required by the dungeon: pry tools, timber bracing, lamps, rope, spoil, later stone cut away around older fitted masonry.
+**Player control returns.**
 
-Ordinary Black Host combat remains random encounters.
+The player moves to the lower excavation access.
 
-No ordinary walking dialogue is used.
+Ordinary Black Host enemies remain random encounters.
 
-The Card remains inert.
+The existing environment carries the required excavation staging and the transition into older fitted construction.
+
+No walking dialogue is used.
 
 ---
 
-### [THRESHOLD STOP — EXCAVATION ACCESS]
+### [THRESHOLD SCENE — BELOW THE FORT]
 
-At the forced opening, older fitted stone continues into darkness beneath the fort.
+At the forced opening into the older structure, movement pauses and the relevant characters may appear as field models.
 
-Cyanis looks at Torren.
+The breach itself is the required visual.
 
 **CYANIS:** You knew this was here?
 
 **TORREN:** No.
 
-Torren runs one hand along the cut edge between later and older stone.
-
 **TORREN:** Fort's built over it.
-
-Maevra looks back toward the surface, then down.
 
 **MAEVRA:** Explains the digging gear.
 
-Ilyra studies the breach.
-
-**ILYRA:** They tore through their own way in to reach it.
-
-Cyanis looks into the dark.
+**ILYRA:** They forced their way into the older stone.
 
 **CYANIS:** Whatever's down there, they wanted it badly enough to take the fort first.
 
-Torren picks up one of the existing Black Host lamps and lights it.
+A beat.
 
 **TORREN:** Then let's see what was worth the trouble.
 
-The party readies.
-
-Torren looks at the first stretch of descent.
-
-**TORREN:** Mind the brace on the right.
-
-**CYANIS:** That's it?
-
-**TORREN:** It's in the way.
-
-**CYANIS:** Fair.
-
-Torren starts down.
+Scene ends.
 
 ---
 
 ### [GAMEPLAY HANDOFF — BLACK HOST EXCAVATION / LOWER ACCESS]
 
-Current objective: **Descend through the Black Host excavation.**
+**Player control returns.**
+
+Current objective:
+
+**Descend through the Black Host excavation.**
 
 Story state:
-- Hollow Watch remains a hostile random-encounter area rather than a sequence of mandatory ordinary fights;
-- the garrison has been confirmed dead through the story discovery, not through a room-clear requirement;
-- the Black Host excavation is the next operational focus;
-- the intact Card remains with Cyanis and inert.
+- Hollow Watch remains a hostile random-encounter area rather than a sequence of scripted ordinary fights;
+- the garrison has been confirmed dead through the story discovery;
+- the Black Host's operational focus is clearly the excavation below;
+- Torren learns the garrison's fate here for the first time;
+- nobody knows the excavation target or the ancient structure's original purpose;
+- Cyanis carries the intact Card and it remains inert.
 
 Traveling group: **Cyanis + Ilyra + Maevra + Torren**  
 Combat party: **Cyanis + Ilyra + Torren**
@@ -275,10 +195,12 @@ Next mandatory story beat: **Beat 6 — Black Host Excavation / Lower Access.**
 
 ---
 
-## Encounter / rehearsal check
+## Presentation / canon check
 
-**Random encounters:** ordinary Black Host troops are random encounters. No fixed on-map enemy fight, mandatory room clear, or scripted ordinary ambush is required for progression.
+**Traversal:** Cyanis only during ordinary fort exploration.
 
-**Human layer:** the garrison discovery and watch-room conversation are story stops independent of which random encounters the player has rolled.
+**Triggered scenes:** the full relevant cast may appear for the lower-fort stop, garrison discovery, watch-room discussion, and excavation threshold.
 
-**Walking dialogue:** none during ordinary hostile traversal.
+**Random encounters:** no ordinary Black Host enemy is promoted into a scripted field encounter.
+
+**Reduction:** removed tool-rack microdetail, bedroll comparison, stain inspection choreography, cloak adjustment, body-by-body movement, page handling, window/winch blocking, lamp pickup, brace warning, and repeated pointing/looking directions.
