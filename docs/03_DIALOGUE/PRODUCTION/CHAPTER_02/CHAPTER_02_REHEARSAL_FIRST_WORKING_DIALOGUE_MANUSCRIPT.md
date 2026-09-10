@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE REHEARSAL-FIRST WORKING MANUSCRIPT — NOT CHAPTER-LOCKED  
 **Purpose:** single cumulative readable Chapter-2 dialogue manuscript; update this file every time a Chapter-2 mainline or Character-Life scene changes.  
-**Mainline coverage:** Beats 1–3 current rehearsal-first working drafts.  
+**Mainline coverage:** Beats 1–4 current rehearsal-first working drafts.  
 **Character-Life coverage:** C06 — `Still Burns` current working draft. Former C07 is retired as a separate Chapter-2 Character-Life scene.  
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Working beat authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
@@ -490,6 +490,156 @@ Beat ends with normal Dunmere control before departure toward the waterworks ent
 
 ---
 
+# BEAT 4 — OLD WATERWORKS
+
+**Draft:** A — current rehearsal-first working dialogue
+
+Beat 4 is primarily exploration. The waterworks remain genuinely covert: no routine Black Host patrols or signs that the Host is tracking the party through this route.
+
+### [ENTERING THE OLD WORKS]
+
+Normal dungeon control. Cyanis is the visible traversal model. Torren is actively guiding the route, so sparse practical dialogue is legal.
+
+After the first stretch of old municipal passages, the group pauses at a branch.
+
+**TORREN:** This way.
+
+**CYANIS:** Certain?
+
+**TORREN:** Enough.
+
+**MAEVRA:** There's that measurement again.
+
+**TORREN:** Works fine.
+
+**ILYRA:** Until it doesn't.
+
+**TORREN:** Then I'll use another one.
+
+Movement resumes.
+
+### [THE SEALED DOOR]
+
+A short way into the waterworks, the main route passes a substantial door set into a genuine side branch. It is clearly part of the complex, not background decoration.
+
+The authored stop is brief.
+
+Torren checks the door and its surrounding mechanism.
+
+**CYANIS:** That ours?
+
+**TORREN:** No.
+
+**CYANIS:** You decided that quickly.
+
+**TORREN:** Doesn't open.
+
+Ilyra looks over the door.
+
+**ILYRA:** Locked?
+
+**TORREN:** More than that.
+
+**MAEVRA:** Anything you can do with it?
+
+Torren checks once more.
+
+**TORREN:** No.
+
+A beat.
+
+**CYANIS:** Clear answer.
+
+**TORREN:** Enjoy it.
+
+Cyanis looks down the continuing passage.
+
+**CYANIS:** Then we keep moving.
+
+**TORREN:** Yeah.
+
+Control returns immediately.
+
+Production lock: there is no Chapter-2 method to open this door. No key, switch, ability, force option, hidden interaction, or `come back later` tutorial is presented. Writer-facing, the branch becomes a later Hunt route.
+
+### [FLOODED WORKS]
+
+The route continues through increasingly wet and damaged sections. At least one required traversal section gets **Cyanis, Ilyra, Torren, and Maevra all thoroughly wet**.
+
+This is environmental staging only. Nobody calls attention to Torren's pouch, weed, smoking supplies, or the later `Still Burns` setup.
+
+Random encounters/hazards may occur according to encounter authority, but they are non-Host threats.
+
+### [OLDER THAN THE WATERWORKS]
+
+Farther in, at a natural stopping point, the construction changes enough to be unmistakable.
+
+The relevant group models may appear briefly.
+
+**CYANIS:** Torren.
+
+**TORREN:** Yeah.
+
+**CYANIS:** This still the waterworks?
+
+Torren studies the stone and joins between structures.
+
+**TORREN:** No.
+
+**ILYRA:** Older?
+
+**TORREN:** A lot.
+
+Maevra looks back toward the way they came, then ahead.
+
+**MAEVRA:** Built over it?
+
+**TORREN:** Looks that way.
+
+**CYANIS:** Still taking us toward the Bastion?
+
+Torren checks the route and direction before answering.
+
+**TORREN:** Roughly.
+
+**CYANIS:** Roughly.
+
+**TORREN:** You want me to lie?
+
+**CYANIS:** No.
+
+A beat.
+
+**CYANIS:** I want roughly to keep being enough.
+
+**TORREN:** So do I.
+
+Ilyra looks into the older passage ahead.
+
+**ILYRA:** Only one way to find out.
+
+**MAEVRA:** Unfortunately.
+
+Torren starts forward.
+
+**TORREN:** Come on.
+
+**Objective:** Continue into the ancient structure.
+
+Beat ends as exploration carries the player across the architectural threshold into Beat 5.
+
+### Beat-4 knowledge checkpoint
+- The Old Waterworks route remains covert.
+- A visible side-branch door exists a short way inside and **cannot be opened in Chapter 2**.
+- The party does not know what is behind it.
+- Writer-facing, that sealed branch is reserved for a later Hunt route.
+- The required waterworks traversal gets all four travelers substantially wet; no weed joke or Torren-specific setup is called out.
+- The party recognizes that the deepest construction is far older than Dunmere's municipal works.
+- Torren can still judge the route as broadly useful, but cannot pretend certainty about the ancient structure.
+- The party still does not know they are entering a formal archive or what waits deeper inside.
+
+---
+
 # OPTIONAL CHARACTER-LIFE — C06
 # STILL BURNS
 
@@ -898,5 +1048,6 @@ Fade.
 - Beat 1 — Draft A.
 - Beat 2 — Draft A, updated to **Old Bastion** naming.
 - Beat 3 — Draft A.
+- Beat 4 — Draft A; sealed future-Hunt door included; no weed setup called out during waterworks traversal.
 - C06 — `Still Burns` — current working dialogue.
-- Next mainline scene: **Beat 4 — Old Waterworks**.
+- Next mainline scene: **Beat 5 — Sunken Archive Entrance**.
