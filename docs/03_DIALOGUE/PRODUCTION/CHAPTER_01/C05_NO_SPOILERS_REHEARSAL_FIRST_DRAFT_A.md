@@ -1,6 +1,6 @@
 # Chapter 1 — Character-Life C05
 # Not Professionally
-## REHEARSAL-FIRST PRODUCTION DRAFT C — Ilyra + Maevra only / awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT D — chapter-wide dialogue polish / awaiting user approval
 
 ---
 
@@ -14,9 +14,7 @@ Ilyra is changing the field splint on Maevra's broken arm. The fracture happened
 
 Ilyra can use restrained Warden/healing magic to reduce pain and ease surrounding strain, but **magic cannot mend the broken bone**.
 
-The medical task gives them a natural reason to sit together long enough for Ilyra to ask about Maevra and Torren.
-
-The scene should not become a relationship briefing, therapy session, or exposition dump. Ilyra is simply curious. Maevra is willing to answer, but sentiment is harder for her than sex, history, or ordinary teasing.
+The medical task gives them a natural reason to sit together. The conversation about Torren is allowed to emerge from the quiet rather than becoming an interview or relationship briefing.
 
 Because this is camp, both may be physically present as field models. One old-splint/new-splint state change and one restrained magic effect are sufficient. Portraits and the dialogue box carry the performance.
 
@@ -24,15 +22,13 @@ Because this is camp, both may be physically present as field models. One old-sp
 
 ### [THE OLD SPLINT]
 
-**ILYRA:** Hand.
+**ILYRA:** Give me the arm.
 
-Maevra gives her the injured arm.
+**MAEVRA:** Attached to me.
 
-**MAEVRA:** Attached.
+**ILYRA:** I noticed.
 
-**ILYRA:** Encouraging.
-
-**MAEVRA:** I thought so.
+Maevra gives it to her.
 
 Ilyra starts removing the old splint.
 
@@ -40,321 +36,271 @@ A beat.
 
 **MAEVRA:** Fuck.
 
-**ILYRA:** That wasn't even the bad part.
+**ILYRA:** Sorry.
 
-**MAEVRA:** Why would you tell me that?
+**MAEVRA:** No, you're not.
 
-**ILYRA:** So you stop pretending this doesn't hurt.
+**ILYRA:** Not enough to stop.
 
-**MAEVRA:** I haven't pretended once.
+**MAEVRA:** Better.
 
-**ILYRA:** You walked half the region on it.
+Ilyra continues.
 
-**MAEVRA:** That's not pretending. That's walking.
+**ILYRA:** You've been using it too much.
 
-Ilyra gives her a look.
+**MAEVRA:** I've been walking.
 
-**MAEVRA:** Fine.
+**ILYRA:** Your arm doesn't walk.
 
 A beat.
 
-**MAEVRA:** It hurts.
-
-**ILYRA:** Thank you.
-
-**MAEVRA:** Hated that.
+**MAEVRA:** That's annoyingly fair.
 
 ---
 
 ### [RELIEF]
 
-Ilyra checks the arm and uses a small amount of Warden magic.
+Once the old splint is off, Ilyra checks the arm and uses a small amount of Warden magic.
 
 The effect is brief and restrained.
 
-Maevra exhales.
+Maevra lets out a breath she had been holding.
 
-**ILYRA:** Better?
+**MAEVRA:** Better.
 
-**MAEVRA:** Yeah.
+**ILYRA:** Good.
 
-**ILYRA:** It'll take the edge off. That's all.
+A beat.
 
-**MAEVRA:** Still no miracle?
+**MAEVRA:** Bone?
 
-**ILYRA:** Still no miracle.
+**ILYRA:** Still broken.
 
-**MAEVRA:** Medicine's disappointing.
+**MAEVRA:** Had to ask.
 
-**ILYRA:** Bones are stubborn.
+**ILYRA:** Every time?
 
-**MAEVRA:** I sympathize.
+**MAEVRA:** Until you give me a better answer.
 
-Ilyra begins setting the fresh splint.
+Ilyra starts setting the fresh splint.
 
 ---
 
 ### [TORREN]
 
-They are quiet for a little while.
+For a while, neither of them speaks.
 
 Then:
 
-**ILYRA:** How long have you known Torren?
+**ILYRA:** You and Torren.
+
+Maevra waits.
+
+**MAEVRA:** That's not a question.
+
+**ILYRA:** I'm working on it.
+
+A beat.
+
+**ILYRA:** How long?
+
+**MAEVRA:** Known him?
+
+**ILYRA:** Start there.
 
 **MAEVRA:** Twenty-five years.
 
-**ILYRA:** That was fast.
-
-**MAEVRA:** Easy question.
-
-A beat.
-
-**ILYRA:** You know that wasn't the one I meant.
-
-**MAEVRA:** I suspected.
-
-Ilyra keeps working.
-
-**ILYRA:** Were you together?
-
-**MAEVRA:** Yes.
-
-No embarrassment. No hesitation.
+Ilyra pauses for half a second.
 
 **ILYRA:** Oh.
 
-**MAEVRA:** What did you expect?
+**MAEVRA:** Yeah.
 
-**ILYRA:** More resistance.
+**ILYRA:** You enlisted together?
 
-**MAEVRA:** To that question?
+**MAEVRA:** Near enough. He was seventeen. I was sixteen.
 
-**ILYRA:** Apparently not.
+**ILYRA:** And you were together.
 
-**MAEVRA:** Ask the question you're actually trying to ask.
+**MAEVRA:** Eventually.
 
-A beat.
+Ilyra resumes the splint.
 
-**ILYRA:** Are you still together?
+**ILYRA:** For long?
 
-Maevra thinks about it.
+Maevra thinks.
 
-**MAEVRA:** No.
+**MAEVRA:** Depends how you count it.
 
-Another beat.
+**ILYRA:** That's promising.
 
-**MAEVRA:** Not exactly.
+**MAEVRA:** It wasn't dramatic.
 
-**ILYRA:** That's clearer.
+**ILYRA:** I didn't say it was.
 
-**MAEVRA:** I do my best.
-
----
-
-### [THE EASY QUESTION]
-
-Ilyra tightens part of the new splint.
-
-**MAEVRA:** Ow.
-
-**ILYRA:** Sorry.
-
-**MAEVRA:** You're not.
-
-**ILYRA:** No.
-
-A beat.
-
-**ILYRA:** Were you lovers?
-
-**MAEVRA:** Yes.
-
-**ILYRA:** Recently?
-
-**MAEVRA:** That's none of your business.
-
-A beat.
-
-Maevra smiles.
-
-**MAEVRA:** But no.
+**MAEVRA:** You sounded hopeful.
 
 Ilyra laughs once.
-
-**ILYRA:** You answered anyway.
-
-**MAEVRA:** That one's easy.
-
-That sits for a moment.
-
-Ilyra understands there is a harder question underneath it.
-
-She asks it plainly.
-
-**ILYRA:** Do you still love him?
-
-Maevra does not answer immediately.
-
-Not because she does not know.
-
-Because this one lands differently.
-
-**MAEVRA:** Yes.
-
-Ilyra nods and keeps working.
-
-**ILYRA:** All right.
-
-Maevra looks at her.
-
-**MAEVRA:** That's it?
-
-**ILYRA:** You answered.
-
-**MAEVRA:** Hm.
-
-A beat.
-
-**MAEVRA:** I like you.
-
-**ILYRA:** Hold still.
-
-**MAEVRA:** Ruined it.
 
 ---
 
 ### [WHAT HAPPENED]
 
-A little later:
+**ILYRA:** So what happened?
 
-**ILYRA:** Was it bad?
+**MAEVRA:** Life.
 
-**MAEVRA:** What?
+**ILYRA:** That's evasive.
 
-**ILYRA:** The end of it.
-
-Maevra understands.
-
-**MAEVRA:** No grand disaster, if that's what you're asking.
-
-**ILYRA:** No betrayal.
-
-**MAEVRA:** No.
-
-**ILYRA:** No screaming in the rain.
-
-**MAEVRA:** There was probably rain at some point.
-
-Ilyra smiles.
-
-**ILYRA:** You know what I mean.
-
-**MAEVRA:** We were young. Then we weren't. Different posts. Different roads. Different things that needed doing.
+**MAEVRA:** It's also true.
 
 A beat.
 
-**MAEVRA:** We kept finding each other again.
+**MAEVRA:** Different posts. Different roads. Months became years sometimes.
 
-Ilyra checks the splint fit.
+**ILYRA:** No betrayal?
 
-**ILYRA:** You don't act like exes.
+**MAEVRA:** No.
 
-**MAEVRA:** We're not very good at it.
+**ILYRA:** No terrible fight?
 
-That gets Ilyra.
+**MAEVRA:** Plenty of terrible fights.
 
-**ILYRA:** Apparently not.
+Ilyra looks at her.
+
+**MAEVRA:** Not that kind.
+
+**ILYRA:** Ah.
+
+**MAEVRA:** We'd stop being together. Then we'd end up in the same place again and be very bad at staying stopped.
+
+A beat.
+
+**ILYRA:** That sounds exhausting.
+
+**MAEVRA:** Sometimes.
+
+Another beat.
+
+**MAEVRA:** Mostly it was nice.
+
+Ilyra leaves that alone for a moment.
 
 ---
 
 ### [NOW]
 
-**ILYRA:** And now?
+**ILYRA:** Are you together now?
 
-Maevra looks toward the fire rather than answering immediately.
+Maevra is quiet.
 
-**MAEVRA:** Now he's here.
-
-A beat.
-
-**MAEVRA:** I'm here.
-
-**ILYRA:** Profound.
-
-**MAEVRA:** Thank you.
-
-**ILYRA:** That wasn't praise.
-
-**MAEVRA:** Still taking it.
-
-Ilyra finishes securing the splint.
-
-**ILYRA:** Fingers.
-
-Maevra moves them.
-
-**MAEVRA:** Still attached.
-
-**ILYRA:** Good.
-
-**MAEVRA:** That's your professional opinion?
-
-**ILYRA:** Yes.
+**MAEVRA:** No.
 
 A beat.
 
-**MAEVRA:** Was all of that professional?
+**MAEVRA:** Not really.
 
-**ILYRA:** No.
+**ILYRA:** That's different from no.
 
-**MAEVRA:** Good.
+**MAEVRA:** I know.
+
+Ilyra adjusts the fresh splint.
+
+Maevra winces.
+
+**ILYRA:** Sorry.
+
+**MAEVRA:** That one you meant.
+
+**ILYRA:** A little.
+
+The work continues.
+
+Then Ilyra asks the question she has actually been circling.
+
+**ILYRA:** Do you still love him?
+
+Maevra takes a moment.
+
+**MAEVRA:** Yeah.
+
+No explanation follows immediately.
+
+Ilyra keeps working.
+
+After a while:
 
 **ILYRA:** Does he know?
 
-Maevra pauses.
-
-**MAEVRA:** That I love him?
-
-**ILYRA:** Yeah.
-
 **MAEVRA:** He knows.
 
-Ilyra leaves it there.
+**ILYRA:** All right.
+
+Maevra glances at her.
+
+**MAEVRA:** That's it?
+
+**ILYRA:** What else am I supposed to do with it?
+
+A beat.
+
+Maevra smiles.
+
+**MAEVRA:** Nothing.
+
+**ILYRA:** Good.
+
+**MAEVRA:** I like you.
+
+**ILYRA:** I'm about to tighten this.
+
+**MAEVRA:** Taking it back.
 
 ---
 
 ### [DONE]
 
-Ilyra gives the new splint one final check.
+Ilyra secures the fresh splint and checks the fit.
 
-**ILYRA:** Done.
+**ILYRA:** Fingers.
 
-**MAEVRA:** Finally.
+Maevra moves them.
 
-**ILYRA:** You'll need it checked again.
-
-**MAEVRA:** I knew there'd be a catch.
-
-**ILYRA:** And you're still not fighting.
-
-**MAEVRA:** I know.
+**MAEVRA:** There.
 
 **ILYRA:** Good.
 
-Maevra looks at her.
+**MAEVRA:** Done?
 
-**MAEVRA:** You were waiting to say that.
+**ILYRA:** Done.
 
-**ILYRA:** A little.
-
-**MAEVRA:** Cruel woman.
-
-**ILYRA:** Apparently you like me.
+Maevra settles the arm carefully.
 
 A beat.
 
-**MAEVRA:** Regretting it already.
+**MAEVRA:** Was any of that professional?
+
+**ILYRA:** The splint.
+
+**MAEVRA:** Only the splint?
+
+**ILYRA:** The magic too.
+
+**MAEVRA:** Ah. Good.
+
+Ilyra starts to go.
+
+**MAEVRA:** Ilyra.
+
+**ILYRA:** Hm?
+
+**MAEVRA:** Thanks.
+
+Ilyra knows she means more than the splint and chooses not to make her say it.
+
+**ILYRA:** Don't use the arm.
+
+**MAEVRA:** Ruined it.
 
 Scene ends.
 
@@ -366,12 +312,14 @@ Scene ends.
 
 **Injury continuity:** Maevra's arm was broken during the Broken Convoy attack before Chapter 1. The bone remains broken. Ilyra changes the splint and uses restrained magic only to ease pain/strain; the fracture is not magically healed.
 
-**Ilyra:** curious as an adult peer, not interrogating or diagnosing Maevra. She asks directly, accepts direct answers, and does not turn the conversation into counseling.
+**Ilyra:** curious as an adult peer. She circles the subject a little, asks what she actually wants to know, accepts Maevra's answers, and does not diagnose the relationship.
 
-**Maevra:** comfortable discussing old romance and sex, but the direct question about still loving Torren lands more deeply. She answers honestly without giving a speech.
+**Maevra:** does not deliver a neat romance summary. She remembers a long, intermittent adult relationship shaped by posts, distance, ordinary fights, and repeated returns. She still loves Torren and says he knows; the scene does not claim Torren's private feelings for him.
 
-**Maevra / Torren continuity:** they became close and romantically involved when young; there was no betrayal or bitter breakup; life and distance repeatedly separated them; they kept finding one another again; Maevra still loves Torren in the present. The scene does not speak for Torren's private feelings beyond Maevra saying he knows hers.
+**Relationship continuity:** Maevra and Torren first knew one another around enlistment twenty-five years ago, when he was seventeen and she was sixteen. Their romance came later. There was no betrayal or bitter final breakup.
+
+**Dialogue polish:** removed the redundant sequence of `Were you together? / Are you still together? / Were you lovers? / Recently?` and the checklist-like breakup questions. The scene now feels more like one private conversation unfolding while Ilyra works.
 
 **Physical economy:** one splint change and one brief magic effect. No detailed wrapping animation, medical montage, or elaborate camp choreography.
 
-**Scene function:** gives Ilyra and Maevra a private adult-friendship scene while naturally grounding Maevra's Chapter-1 injury and opening the Maevra/Torren relationship through lived conversation rather than exposition.
+**Scene function:** gives Ilyra and Maevra a private adult-friendship scene while naturally grounding Maevra's injury and letting the Maevra/Torren history surface through ordinary curiosity rather than exposition.
