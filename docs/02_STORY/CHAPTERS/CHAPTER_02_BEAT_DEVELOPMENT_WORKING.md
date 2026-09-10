@@ -703,6 +703,258 @@ Do not reveal in Beat 12:
 
 # Beat 13 — Rhazek / Masked Officer
 
+**Development status:** CURRENT WORKING BEAT PACKET
+
+## Purpose
+Deliver the first direct confrontation with **Commander Rhazek** after the party has spent the Bastion ascent moving toward a commander they already know by reputation, while introducing the unnamed masked officer who will later be revealed as Seyrik without allowing that future identity to dominate the scene.
+
+Beat 13 should:
+- pay off the Rhazek command reveal from the Prisoner Galleries;
+- show Rhazek actively commanding a functioning fort rather than waiting theatrically for the heroes;
+- introduce the masked officer naturally as part of the Black Host command structure;
+- establish through Rhazek himself that the kidnapping/forced-transfer operation is not an accidental abuse by subordinates — **he authorized and owns it**;
+- let Rhazek and the party clash over the prisoners and control of the usable road exit;
+- preserve the unknown destination/fate of earlier transferred captives;
+- remove the masked officer from the immediate battle space without revealing who he is;
+- hand directly into Beat 14's Commander Rhazek/Bastion Master boss encounter.
+
+## Starting state
+- Cyanis, Ilyra, and Torren have reached the command-area threshold after fighting upward through the active Bastion;
+- the fort is reacting to their intrusion;
+- current prisoners remain below in the defensible safe area waiting for a usable escape route;
+- the party knows Red Transfer Bastion is a holding/transit site;
+- earlier captives have already been transferred onward to an unknown destination;
+- the party knows **Commander Rhazek** runs this Bastion and recognizes him as a known high-ranking Black Host commander;
+- the practical objective remains to break Bastion command/control and secure/open the maintained exit to the Greenhollow–Dunmere road;
+- combat party for the coming boss remains **Cyanis + Ilyra + Torren**;
+- Maevra remains noncombat and may be below with the prisoners or present only in noncombat staging according to the Beat-12 implementation choice.
+
+## Command-room entry rule
+> **Rhazek is already working when the party arrives.**
+
+The command space should feel like the center of an operating fort, not a boss throne room.
+
+When the party enters, Rhazek is already engaged in command activity appropriate to the current alarm/state of the Bastion. The **unnamed masked second officer** is present with him, speaking/reporting as part of that work.
+
+Possible subjects for the officer's report include only immediate, non-spoilery military matters actually supported by final staging, such as:
+- the breach/intrusion below;
+- loss of contact with a lower post;
+- readiness of a route or unit;
+- a defensive instruction already in motion;
+- another ordinary operational matter.
+
+Do **not** use the report to reveal the onward prisoner destination, Seyrik's history, Chapter-3 information, or a larger Black Host plan.
+
+## Masked officer — hard identity firewall
+Writer-facing only:
+
+> **The unnamed masked officer is Seyrik Rell.**
+
+Player/party-facing in Chapter 2:
+- he is **not named**;
+- he is **not unmasked**;
+- nobody correctly identifies him;
+- Rhazek does not casually say `Seyrik` merely for the player's benefit;
+- no personnel document or subtitle gives away his identity;
+- no one explains his history, age, Ruin connection, or relationship to later events;
+- his presentation must remain consistent with later Seyrik visual/character authority without exposing the reveal early.
+
+He should register as a credible Black Host officer important enough to report directly to Rhazek, but the scene should not frame him with exaggerated mystery-camera language that announces `future major character`.
+
+## Masked officer participation boundary
+The masked officer does **not** join the Beat-14 Rhazek boss battle.
+
+The cleanest story shape is that his command business is already ending or Rhazek gives him an immediate order to carry out elsewhere as the confrontation begins. He leaves the command space under Black Host discipline before the boss engagement locks in.
+
+This should feel operational rather than contrived:
+- Rhazek has a functioning fort and other priorities besides personally surrounding three intruders with every available officer;
+- the masked officer obeys and departs;
+- the party does not get a meaningful opportunity to interrogate/unmask him;
+- Rhazek remains between the party and the command objective;
+- Beat 14 remains Rhazek's fight, not a dual-boss encounter.
+
+Exact blocking, exit route, and whether the officer exchanges any brief words with the party belong to the Agent Brain/staging pass.
+
+## Rhazek ownership — locked
+The confrontation must establish firsthand that **Rhazek owns the Bastion's kidnapping and forced-transfer policy**.
+
+He does not:
+- claim the prisoners were taken without his knowledge;
+- blame rogue soldiers;
+- pretend this is an accidental consequence of road security;
+- falsely redefine forced captivity as voluntary participation;
+- deny the obvious fact that people are being held and moved against their will.
+
+If consent/coercion enters the exchange, Rhazek understands the distinction. His defense of the system, if he gives one, must be a defense of a policy he knowingly commands — not semantic evasion.
+
+The exact argument, vocabulary, emotional temperature, and amount of explanation belong to **Rhazek's independent Person Agent Brain rehearsal**.
+
+## Policy-information boundary
+Rhazek may reveal enough of his position to establish that the operation is intentional and commanded, but Beat 13 must **not** solve the wider captive mystery.
+
+He does not need to tell the party:
+- where earlier captives were taken;
+- what the final destination is called;
+- what ultimately happens to transferred prisoners;
+- the complete strategic objective behind the wider Black Host transfer system;
+- any Chapter-3 Last Sentinel/Old City information;
+- any later Seyrik truth.
+
+If the party asks about the transferred people, Rhazek may refuse, deflect, give only what he would realistically disclose, or frame the operation in his own terms. The story requirement is that the answer remains unresolved, not that he must deliver a specific refusal line.
+
+## Conflict objective
+The party's immediate demand is practical and human:
+- the captives below are to be released;
+- the Bastion's usable exit/road control must be opened or surrendered;
+- Rhazek's local control over the corridor must end.
+
+Rhazek refuses to surrender the command position/controls and does not voluntarily dismantle the operation.
+
+The scene should not require a long philosophical debate before violence becomes possible. These sides have incompatible immediate objectives:
+- the party must secure the route for the prisoners;
+- Rhazek intends to retain control of the Bastion and its operation.
+
+Force becomes necessary.
+
+## Rhazek competence / tone rule
+Rhazek should remain consistent with the functioning Bastion established in Beat 12.
+
+He is a high-ranking commander, not a cartoon jailer. His scene may show:
+- rapid assessment of how the party penetrated the fort;
+- concern for maintaining command/control;
+- disciplined use of subordinates;
+- awareness that the prisoners below create operational pressure;
+- willingness to fight when the command position cannot be retained otherwise.
+
+Do not make him become irrationally boastful solely because this is a boss introduction.
+
+His competence does not absolve him. It makes the deliberate policy more serious.
+
+## Agent-Brain rehearsal packet
+This beat must go through the full rehearsal-first pipeline before final dialogue.
+
+### Cyanis
+Provide:
+- the prisoners are below waiting for an exit;
+- Rhazek knowingly commands this Bastion;
+- Rhazek is a known high-ranking Black Host commander;
+- the party has seen the holding/transit system firsthand;
+- earlier captives were transferred somewhere unknown;
+- the usable road exit remains under this command layer.
+
+Do not prewrite Cyanis's moral position as a speech. Let his Person Agent decide how directly he challenges Rhazek and what he prioritizes.
+
+### Ilyra
+Provide:
+- injured civilians and soldiers are waiting below;
+- delay and a failed breakout place them at risk;
+- the Bastion's transfer system is deliberate;
+- Rhazek is personally responsible for this local command;
+- the unknown fate of transferred captives remains unresolved.
+
+Let her reactions arise from her own values and current relationship state rather than assigning healer exposition.
+
+### Torren
+Provide:
+- the party needs the road-side exit;
+- Rhazek is the command obstacle;
+- the fort's disciplined response matches the reputation of a high-ranking commander;
+- the prisoners cannot use the route the party entered through.
+
+Let practical route/tactical thinking emerge only if his brain chooses it.
+
+### Rhazek
+Provide:
+- he commands Red Transfer Bastion;
+- he authorized/owns the holding and forced-transfer operation here;
+- an armed three-person party has penetrated from below and reached his command layer;
+- current prisoners are compromised as assets/captives because the intruders reached the galleries;
+- he knows the fort is under active pressure;
+- he intends to retain command/control and does not intend to release the prisoners merely because challenged;
+- he understands coercion is coercion;
+- information about the final transfer destination/purpose remains protected and should not be volunteered unless separate authority later requires it.
+
+Do not tell the Rhazek agent to be villainous, cruel, smug, or monologuing. Let his established brain generate his actual manner.
+
+### Unnamed masked officer / Seyrik — writer-facing agent
+Use Seyrik's real Person Agent Brain, but constrain output to what is legal for Chapter 2:
+- he is currently serving within the Black Host command structure;
+- he is masked and not identified to the party/player;
+- he is reporting to Rhazek when the party arrives;
+- he follows whatever operational order removes him from the room before the Rhazek fight;
+- he must not expose his identity, personal history, future party status, Ruin significance, or later reveal material.
+
+The goal is **authentic Seyrik behavior under concealment**, not generic `mysterious masked man` writing.
+
+## Maevra continuity
+If Maevra is staged below with the prisoners, she does not need to appear in Beat 13 merely to satisfy equal-screen-time logic.
+
+If implementation places her in the command-room authored scene, she may react according to her Agent Brain and military knowledge, but:
+- she remains fully noncombat;
+- her presence must not create a recognition reveal for masked Seyrik;
+- she does not participate in the Beat-14 battle.
+
+Either staging choice must preserve her return for the prisoner evacuation sequence.
+
+## Presentation structure
+A strong economical HD-2D sequence is:
+1. party crosses the command-area threshold;
+2. Rhazek is seen actively commanding while the masked officer completes a report/exchange;
+3. the intrusion forces immediate attention onto Cyanis's group;
+4. brief command interaction establishes the masked officer's role without identifying him;
+5. Rhazek directs the masked officer elsewhere and he exits;
+6. party confronts Rhazek over the prisoners/exit;
+7. Rhazek unmistakably owns the kidnapping/forced-transfer policy;
+8. neither side yields;
+9. scene hands directly into the Rhazek/Bastion Master boss encounter.
+
+Do not pad this with a long pre-boss cinematic. Portrait dialogue and economical field blocking should carry the scene.
+
+## Mandatory progression
+- party enters the active command space;
+- Rhazek is already engaged in real command activity;
+- the unnamed masked officer is present reporting/speaking with him;
+- writer-facing only: the officer is Seyrik Rell;
+- player/party does not learn the officer's name or identity;
+- the masked officer leaves the immediate battle space before the boss begins and does not join the fight;
+- party directly confronts Rhazek;
+- Rhazek confirms through words/actions that he knowingly commands and owns the kidnapping/forced-transfer policy;
+- Rhazek does not reveal the onward destination/fate of earlier transferred captives;
+- party demands/releases access needed to free and evacuate the current prisoners;
+- Rhazek refuses to surrender command/control;
+- force becomes necessary;
+- transition into Beat 14 occurs without an unrelated detour.
+
+## End state / knowledge change
+After Beat 13:
+- the party has met Commander Rhazek directly;
+- Rhazek's personal responsibility for the Bastion's kidnapping/forced-transfer operation is confirmed;
+- the party still does not know where previously transferred captives went or what their ultimate fate/purpose is;
+- the party has seen an unnamed masked Black Host officer reporting directly to Rhazek but has no correct identity for him;
+- the masked officer is no longer in the immediate battle space;
+- Rhazek still controls the command layer and usable exit;
+- combat is now unavoidable.
+
+## Gameplay handoff
+→ **Beat 14 — Commander Rhazek / Bastion Master**
+
+## Reveal firewall
+Do not reveal in Beat 13:
+- Seyrik's name or identity;
+- Seyrik's childhood/history, later recruitment, Ruin connection, or future role;
+- the destination or ultimate fate of previously transferred captives;
+- the complete strategic purpose of the wider transfer operation;
+- exact total transfer count or retired `thirty-one transfers` clue;
+- new Ancient-map/network answers;
+- Last Sentinel;
+- Cresthaven;
+- buried-Crest truth;
+- Entity.
+
+---
+
+# Beat 14 — Commander Rhazek / Bastion Master
+
 **Development status:** NEXT TO DEVELOP
 
-Current locked function from `CHAPTER_02.md`: the party reaches the Bastion command area and finally encounters **Commander Rhazek**, already known to be the high-ranking Black Host officer commanding the fort. An unnamed masked second officer is present reporting/speaking with him; writer-facing only, this is Seyrik Rell. The confrontation establishes Rhazek's personal ownership of the kidnapping/forced-transfer policy and leads directly into the Bastion Master boss encounter without revealing Seyrik's identity.
+Current locked function from `CHAPTER_02.md`: resolve the Bastion command-layer conflict in a boss battle against Rhazek, preserve his survival/withdrawal, break local Black Host control, and give the party the access needed to open the practical prisoner exit before they return to the safe area.
