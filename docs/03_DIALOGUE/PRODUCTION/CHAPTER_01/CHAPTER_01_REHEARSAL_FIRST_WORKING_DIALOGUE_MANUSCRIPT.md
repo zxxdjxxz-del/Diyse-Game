@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE REBUILD MANUSCRIPT — NOT CHAPTER-LOCKED  
 **Purpose:** cumulative readable Chapter-1 manuscript for the rehearsal-first rewrite.  
-**Story authority:** `docs/02_STORY/CHAPTERS/CHAPTER_01.md` plus `docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md`  
+**Story authority:** `docs/02_STORY/CHAPTERS/CHAPTER_01.md`, `docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md`, and `docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md`  
 **Dialogue method:** `docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md`  
 **Knowledge firewall:** `docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md`  
 **Walking-dialogue lock:** `docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`  
@@ -22,6 +22,8 @@ This is the readable cumulative manuscript. Standalone beat drafts/specs retain 
 
 **Card continuity:** the recovery casing breaks during the Chapter-0 final boss. From then on Cyanis/the group carry the intact Card itself.
 
+**Junction continuity:** Torren knows the ancient crossroads as **the Junction**. He has never seen the hidden monument shown in the Hollow Watch mural. Its vines/moss-covered map surface is revealed only after the party reaches the Junction later.
+
 ## Current contents
 - Beat 1 — Brackenwall / Protocol — **Rehearsal-first Draft C**
 - Beat 2 — Briar Passage / First Traversal — **Rehearsal-first Draft D; random-encounter correction**
@@ -32,9 +34,10 @@ This is the readable cumulative manuscript. Standalone beat drafts/specs retain 
 - Beat 7 — Lower Junction / Six Channels — **Rehearsal-first Draft B; reductive HD-2D**
 - Beat 8 — Forced Inner Section — **Rehearsal-first Draft C; reductive HD-2D + random-encounter correction**
 - Beat 9 — Hollow Watch Castellan — **Rehearsal-first Draft C; speech-only mid-battle dialogue**
-- Beat 10 — Post-Castellan Mural — **Rehearsal-first Draft B; reductive HD-2D**
-- Beats 11–12 — **pending rehearsal-first rebuild**
-- Beat 13+ — **held until the 1–12 rebuild catches up**
+- Beat 10 — Post-Castellan Mural — **Rehearsal-first Draft C; Junction monument correction**
+- Beat 11 — Hollow Watch Resolution / Torren Recruitment — **Rehearsal-first Draft B**
+- Beat 12 — Southern Briar Passage — **Rehearsal-first Draft C; Junction + reductive HD-2D + random encounters**
+- Beat 13+ — **held until Beat 12 review is complete**
 
 **Note:** Beats 1–6 still receive a later reductive-HD-2D consistency sweep for unnecessary set dressing. Their current dialogue remains reviewable here.
 
@@ -1392,27 +1395,17 @@ He goes first.
 ---
 
 # BEAT 10 — POST-CASTELLAN MURAL
-## Rehearsal-first Draft B — reductive HD-2D / awaiting user approval
+## Rehearsal-first Draft C — Junction monument correction + reductive HD-2D / awaiting user approval
 
-### [GAMEPLAY — PROTECTED ACCESS]
+### [PROTECTED DISCOVERY]
 
-The short protected passage is silent. Black Host lamps, chalk, forcing marks, and excavation damage stop behind the party. The Card remains inert.
+The short protected passage is silent. Black Host excavation traces stop behind the party. The Card remains inert.
 
-The passage opens into one protected chamber. A large preserved Diysean mural occupies the far wall.
+The passage opens into one protected chamber. One large preserved Diysean mural occupies the far wall.
 
 The player gets the mural before anyone speaks.
 
-### [DISCOVERY — THE MURAL]
-
-The mural spans a recognizable landscape of ridges, valleys, river cuts, and large landforms.
-
-Across the sky, **balls of fire fall toward the land**.
-
-Below them, many separate groups of people descend into **deep openings in the earth** at several places across the depicted region. Adults, children, handcarts, animals, and people carried on litters are visible.
-
-Wayfinder's distinctive formation also appears farther south in the composition, but no crowd descends there and no deep opening is shown beneath it.
-
-The room stays quiet for a few seconds.
+The mural shows recognizable regional geography. Balls of fire fall across the sky. Ordinary people descend into deep openings at several locations. Farther south, multiple old roads converge around a crossroads, and a large stone monument is given strong visual emphasis at its center. No crowd descends beneath that monument and no deep opening is shown there.
 
 Ilyra looks at one descending group.
 
@@ -1424,7 +1417,7 @@ Cyanis follows her gaze.
 
 **ILYRA:** Yeah.
 
-Maevra is looking at another part of the mural.
+Maevra looks at another part of the mural.
 
 **MAEVRA:** Children too.
 
@@ -1436,13 +1429,13 @@ Cyanis looks up at the falling fire.
 
 **CYANIS:** Nothing good has ever been painted falling out of the sky like that.
 
-Torren has stopped listening. He stares at one ridge.
+Torren stops listening. He stares at one ridge.
 
 **TORREN:** Wait.
 
 **MAEVRA:** What?
 
-Torren points at a broken-backed hill.
+Torren points.
 
 **TORREN:** That's Hollow Watch.
 
@@ -1470,8 +1463,6 @@ Nobody answers that.
 
 ### [THE DESCENTS]
 
-Ilyra studies the groups moving toward the openings.
-
 **ILYRA:** They're going down all over the region.
 
 **MAEVRA:** Looks like it.
@@ -1480,13 +1471,11 @@ Cyanis looks back toward the passage they entered through.
 
 **CYANIS:** Six ways downstairs. Now this.
 
-Maevra looks at him.
-
 **MAEVRA:** Could be related.
 
 **CYANIS:** That's what I was thinking.
 
-Torren is still studying the terrain.
+Torren studies the terrain.
 
 **TORREN:** Could've moved people a long way underground.
 
@@ -1498,9 +1487,9 @@ Ilyra looks at one entrance.
 
 That sits without a verdict.
 
-### [TORREN — WAYFINDER]
+### [TORREN — THE JUNCTION]
 
-Torren's attention moves farther south.
+Torren's attention shifts farther south.
 
 **TORREN:** Huh.
 
@@ -1508,49 +1497,59 @@ Maevra knows that sound.
 
 **MAEVRA:** What?
 
-Torren points.
+Torren points to the convergence of old roads.
 
-**TORREN:** Wayfinder.
+**TORREN:** The Junction.
 
-**CYANIS:** That's the crossroads?
+**CYANIS:** The crossroads?
 
 **TORREN:** Yeah.
 
-**ILYRA:** You've seen that thing?
+Torren follows the depicted roads with his eyes.
 
-**TORREN:** Plenty of times.
+**TORREN:** Old roads meet there. Modern ones still use the same ground.
 
-He looks at the mural again.
+Ilyra points to the large monument at the center.
 
-**TORREN:** Didn't know anybody was drawing it this long ago.
+**ILYRA:** And that?
 
-Cyanis compares it with the places where people visibly descend.
+Torren looks at it longer.
 
-**CYANIS:** Another entrance?
+**TORREN:** Never seen it.
 
-Torren shakes his head.
+Cyanis looks at him.
+
+**CYANIS:** You've been through the Junction.
+
+**TORREN:** Plenty.
+
+He points at the roads again.
+
+**TORREN:** I know the crossroads.
+
+Then the monument.
+
+**TORREN:** Not that.
+
+Maevra steps closer to the mural.
+
+**MAEVRA:** They made it hard to miss here.
+
+Cyanis studies the monument.
+
+**CYANIS:** So whatever this was, that crossroads mattered.
+
+**TORREN:** Looks like it.
+
+Ilyra compares it with the nearby tunnel sites.
+
+**ILYRA:** But nobody's going down there.
 
 **TORREN:** No.
 
-He points to a nearby descent, then back to Wayfinder.
-
-**TORREN:** No opening there.
-
-Ilyra looks at the size of the formation in the composition.
-
-**ILYRA:** Still gave it a lot of wall.
-
-**MAEVRA:** Which makes me want to see the real one.
-
-**TORREN:** We're passing close anyway.
-
-**CYANIS:** Convenient.
-
-**TORREN:** Don't get used to it.
+Nobody gives the monument a function.
 
 ### [THE FIRE]
-
-The party looks back toward the falling objects.
 
 **CYANIS:** Any chance that's rain?
 
@@ -1584,17 +1583,17 @@ They leave the silence alone.
 
 ### [PRACTICAL DECISION]
 
-**MAEVRA:** Wayfinder on your route south?
+**MAEVRA:** The Junction on our route south?
 
-**TORREN:** Near it.
+**TORREN:** Near enough.
 
-**MAEVRA:** Then we look when we get there.
+**MAEVRA:** Then we stop there.
 
-Torren nods.
+Torren looks once more at the monument in the mural.
 
 **TORREN:** Yeah.
 
-Cyanis looks from the mural to the Card in his possession. The Card remains dark.
+Cyanis looks from the mural to the Card. The Card remains dark.
 
 **CYANIS:** This trip was simpler yesterday.
 
@@ -1616,19 +1615,438 @@ Cyanis looks between them.
 
 **ILYRA:** Good.
 
-The mural gets the final visual beat before control returns.
-
-### [GAMEPLAY HANDOFF]
-
-Objective: **Return from the protected area and resolve Hollow Watch.**
-
-Traveling group: **Cyanis + Ilyra + Maevra + Torren**  
-Combat party: **Cyanis + Ilyra + Torren**
-
-Next mandatory story beat: **Beat 11 — Hollow Watch Resolution / Torren Recruitment.**
+The mural gets the final visual beat.
 
 ---
 
-# NEXT REBUILD TARGET
+# BEAT 11 — HOLLOW WATCH RESOLUTION / TORREN RECRUITMENT
+## Rehearsal-first Draft B — Junction correction + reductive HD-2D / awaiting user approval
 
-**Beat 11 — Hollow Watch Resolution / Torren Recruitment**
+The return through the lower ruin is silent. The Black Host excavation has stopped and the immediate occupation is broken, but Hollow Watch is not restored. The garrison remains dead and a larger Yahtrean response is still needed.
+
+At the upper overlook, Torren looks over the fort for a while before anyone speaks.
+
+**MAEVRA:** They need word before dark.
+
+**TORREN:** Yeah.
+
+**CYANIS:** Fort, garrison, excavation, the thing downstairs.
+
+Ilyra looks at him.
+
+**ILYRA:** The mural.
+
+**CYANIS:** I was getting there.
+
+**ILYRA:** You weren't.
+
+Maevra almost smiles, but it does not last.
+
+**MAEVRA:** Greenhollow can send the report on from there.
+
+Torren looks back across the wall.
+
+**TORREN:** And people up here.
+
+**MAEVRA:** Yes.
+
+A beat.
+
+**TORREN:** Good.
+
+Nobody calls it a victory.
+
+### [TORREN]
+
+Maevra looks at him.
+
+**MAEVRA:** You staying?
+
+Torren looks toward Greenhollow, then south.
+
+**TORREN:** No.
+
+Maevra nods once.
+
+**MAEVRA:** Good.
+
+Cyanis looks between them.
+
+**CYANIS:** That's the whole conversation?
+
+**MAEVRA:** It was going well.
+
+**TORREN:** You interrupted it.
+
+**CYANIS:** I asked one question.
+
+**ILYRA:** Dangerous habit.
+
+**CYANIS:** You're all very comfortable already.
+
+No one answers him.
+
+Torren looks at Maevra.
+
+**TORREN:** You still need the road south?
+
+**MAEVRA:** Very much.
+
+**TORREN:** Then I'm coming.
+
+**MAEVRA:** Through Briar?
+
+**TORREN:** Through Briar.
+
+Cyanis gestures vaguely south.
+
+**CYANIS:** And after that?
+
+Torren looks at him.
+
+**TORREN:** Caelora.
+
+Cyanis blinks once.
+
+**CYANIS:** All right.
+
+Torren looks mildly disappointed.
+
+**TORREN:** That's it?
+
+**CYANIS:** Did you want a ceremony?
+
+Torren's expression answers the question.
+
+**CYANIS:** Thought so.
+
+Ilyra looks away, smiling.
+
+### [THE JUNCTION]
+
+**MAEVRA:** And the Junction?
+
+Torren nods south.
+
+**TORREN:** On the way.
+
+**ILYRA:** You want to stop?
+
+**TORREN:** I want to see where that stone's supposed to be.
+
+**CYANIS:** You've crossed there how many times?
+
+**TORREN:** Enough.
+
+**CYANIS:** Never noticed a giant ancient monument.
+
+Torren looks at him.
+
+**TORREN:** You say that like I hid it.
+
+**MAEVRA:** Did you?
+
+Torren gives her a flat look.
+
+**MAEVRA:** Had to ask.
+
+**ILYRA:** Then we stop when we reach it.
+
+**TORREN:** Yeah.
+
+Nobody gives the monument a name or function.
+
+### [DEPARTURE]
+
+**CYANIS:** Back there first.
+
+**TORREN:** Briefly.
+
+**MAEVRA:** Report. Supplies. Food.
+
+Torren looks at her.
+
+**TORREN:** You just ate.
+
+**MAEVRA:** That was hours ago.
+
+**TORREN:** Wasn't.
+
+**MAEVRA:** Felt like it.
+
+Cyanis looks at Ilyra.
+
+**CYANIS:** This is going to be the whole trip, isn't it?
+
+**ILYRA:** Probably.
+
+Torren shoulders his bow.
+
+**TORREN:** You leading now?
+
+**CYANIS:** Absolutely not.
+
+**TORREN:** Good.
+
+He turns toward the way down.
+
+**TORREN:** Then keep up.
+
+No further dialogue occurs during the descent.
+
+**SYSTEM:** Torren Harth becomes a permanent party member.
+
+---
+
+# BEAT 12 — SOUTHERN BRIAR PASSAGE
+## Rehearsal-first Draft C — Junction correction + reductive HD-2D + random encounters / awaiting user approval
+
+### [GREENHOLLOW SOUTH EDGE]
+
+The stop in Greenhollow is brief. Word from Hollow Watch is passed on. The party replaces what it can and heads south.
+
+Permanent combat party: **Cyanis + Ilyra + Torren**. Maevra remains noncombat. Cyanis carries the intact Card; it remains inert.
+
+At the last maintained route marker, Torren points to one of two southern traces.
+
+**TORREN:** This one.
+
+Cyanis looks at the other.
+
+**CYANIS:** You could pretend to consider it.
+
+**TORREN:** I did. Last week.
+
+**MAEVRA:** Thorough.
+
+Torren looks at the standing water across the other track.
+
+**TORREN:** It's worse now.
+
+**CYANIS:** Fine.
+
+Torren starts south.
+
+**TORREN:** Right side until the ground firms up.
+
+### [GUIDED MOVEMENT]
+
+**CYANIS:** Left looks flatter.
+
+**TORREN:** Wash under it.
+
+Cyanis moves right.
+
+**CYANIS:** You could've let me learn that one myself.
+
+**ILYRA:** No.
+
+Torren glances back once.
+
+**TORREN:** She's right.
+
+The moving conversation ends there.
+
+### [GAMEPLAY — SOUTHERN BRIAR]
+
+A substantial exploration section follows using the existing southern Briar kit. Random encounters provide all ordinary enemy pressure. Most traversal is silent.
+
+### [ROUTE STOP — OVERGROWN SIDE ACCESS]
+
+An old fitted stone opening sits uphill, half hidden by vines, thorn, and hanging root.
+
+Torren lifts one strand of growth with the end of his bow.
+
+**TORREN:** Huh.
+
+**MAEVRA:** Know it?
+
+**TORREN:** Know the cut.
+
+He lets the vine fall back.
+
+**TORREN:** Never used it.
+
+Cyanis peers into the growth.
+
+**CYANIS:** Looks welcoming.
+
+Ilyra looks at a thorn hanging around eye level.
+
+**ILYRA:** To you, maybe.
+
+**CYANIS:** Selective welcome.
+
+Torren points down the usable road.
+
+**TORREN:** Wrong direction anyway.
+
+**MAEVRA:** South, then.
+
+**TORREN:** South.
+
+They leave it behind.
+
+### [GAMEPLAY — DEEPER SOUTHERN BRIAR]
+
+Random encounters continue. A few reusable natural signs — broad tracks and broken brush — establish that something large is moving nearby without turning the route into a scripted investigation.
+
+### [STOP — BRIARHIDE TRACK]
+
+Cyanis looks down at a broad, deep print.
+
+**CYANIS:** Big.
+
+Torren crouches beside it.
+
+**TORREN:** Briarhide.
+
+Maevra looks at the depth.
+
+**MAEVRA:** Big Briarhide.
+
+**TORREN:** Very.
+
+He checks where the next mark enters the brush.
+
+**TORREN:** Moving clean. No drag. No limp.
+
+Ilyra looks toward the trees.
+
+**ILYRA:** Recent?
+
+Torren touches the wet edge.
+
+**TORREN:** Yeah.
+
+Cyanis adjusts his shield strap.
+
+**CYANIS:** Does it know we're here?
+
+Torren stands.
+
+**TORREN:** If it doesn't, we're having a very lucky day.
+
+Maevra looks down the road.
+
+**MAEVRA:** Keep moving.
+
+### [GAMEPLAY — TOWARD THE JUNCTION]
+
+The road gradually broadens and older traces begin joining it. The convergence — not a visible monument — tells the player the party is approaching the Junction.
+
+Nothing resembling the mural's large monument is visible.
+
+### [ROUTE STOP — NEAR THE JUNCTION]
+
+Torren looks from one old road to another.
+
+**TORREN:** Junction's past the next rise.
+
+Cyanis looks ahead.
+
+**CYANIS:** Still no giant monument.
+
+Torren gives him a look.
+
+**TORREN:** I noticed.
+
+Maevra looks at him.
+
+**MAEVRA:** Bothering you?
+
+**TORREN:** I've crossed there for years.
+
+**MAEVRA:** That's a yes.
+
+Torren starts to answer, then stops.
+
+**TORREN:** A little.
+
+Cyanis smiles.
+
+**CYANIS:** Good.
+
+**TORREN:** Why is that good?
+
+**CYANIS:** I was worried nothing bothered you.
+
+Ilyra looks down the road.
+
+**ILYRA:** Something does.
+
+The others follow her gaze. The brush ahead has gone still.
+
+The conversation ends.
+
+### [GAMEPLAY — FINAL APPROACH]
+
+A short playable interval follows. Random encounters remain the only ordinary combat presentation.
+
+### [STORY STOP — BRIARHIDE STALKER SIGHTING]
+
+A large Briarhide steps out across the road ahead.
+
+It is simply a very large, old, powerful wild animal. No armor, chains, magical apparatus, corruption, Black Host marks, or special wounds.
+
+It stops when it sees the party. The party stops too.
+
+**CYANIS:** That's the Briarhide.
+
+**TORREN:** Yeah.
+
+Maevra looks at Torren.
+
+**MAEVRA:** You undersold "very."
+
+Torren keeps his eyes on the animal.
+
+**TORREN:** It wasn't standing in front of me then.
+
+Ilyra watches the animal.
+
+**ILYRA:** Route?
+
+Torren looks past it toward the road, then uphill and downhill.
+
+**TORREN:** Same one.
+
+The Stalker shifts sideways into the brush without turning its back on them and disappears from view.
+
+Nobody relaxes.
+
+### [STOP — THE LAST STRETCH]
+
+**MAEVRA:** Around?
+
+Torren points uphill.
+
+**TORREN:** Rock wall.
+
+Then downhill.
+
+**TORREN:** Drops us off the route.
+
+Cyanis looks ahead.
+
+**CYANIS:** So through.
+
+Torren looks once at the brush.
+
+**TORREN:** Through.
+
+Ilyra adjusts her grip on her Wardrod.
+
+**ILYRA:** Then it doesn't get the first hit for free.
+
+**TORREN:** Agreed.
+
+Maevra shifts behind the combat line before the party moves again.
+
+The Junction is still beyond the next rise. The hidden monument has not been revealed.
+
+### [GAMEPLAY HANDOFF]
+
+Objective: **Cross the last southern Briar stretch to the Junction.**
+
+Next mandatory story beat: **Beat 13 — Briarhide Stalker / Chapter-1 Final Boss.**
