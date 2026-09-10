@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 10
 # Post-Castellan Mural
-## DIALOGUE ENGINE PRODUCTION DRAFT D — established gameplay presentation + Junction monument correction / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT E — chapter-wide dialogue polish + Junction monument correction / awaiting user approval
 
 ---
 
@@ -74,23 +74,21 @@ Nobody answers that.
 
 ### [THE DESCENTS]
 
+Ilyra takes in the wider mural.
+
 **ILYRA:** They're going down all over the region.
 
-**MAEVRA:** Looks like it.
+**CYANIS:** Six passages downstairs.
 
-**CYANIS:** Six ways downstairs. Now this.
+A beat.
 
-**MAEVRA:** Could be related.
+**CYANIS:** Now openings everywhere.
 
-**CYANIS:** That's what I was thinking.
+**TORREN:** Yeah.
 
-**TORREN:** Could've moved people a long way underground.
+**MAEVRA:** And all those people.
 
-**ILYRA:** Or just gotten them under cover.
-
-**CYANIS:** Either way, somebody expected a lot of people.
-
-No one settles the function.
+Nobody turns the observation into a theory conference. The connection is allowed to sit in the player's mind as well as theirs.
 
 ---
 
@@ -207,7 +205,7 @@ Story state:
 - Torren knows the Junction's location and roads but has never seen the prominently depicted monument at its center;
 - the monument is shown as important but not as a deep entrance;
 - the party intends to inspect the Junction while traveling south;
-- the relationship between the six-channel room and the multiple descents remains possible but unconfirmed;
+- the six-channel room and the mural's many descents visually invite comparison, but the dialogue does not force a speculative explanation;
 - the Black Host never reached the mural chamber;
 - Cyanis carries the intact Card and it remains inert;
 - no Prime, Last Sentinel, bearer, authorization, complete ancient-network, buried-Crest, or Entity explanation is revealed.
@@ -221,7 +219,7 @@ Next mandatory story beat: **Beat 11 — Hollow Watch Resolution / Torren Recrui
 
 ---
 
-## Presentation / canon check
+## Presentation / dialogue check
 
 **Traversal:** Cyanis only during ordinary protected-passage movement.
 
@@ -229,6 +227,8 @@ Next mandatory story beat: **Beat 11 — Hollow Watch Resolution / Torren Recrui
 
 **Dialogue:** portraits + dialogue box carry the exchange; no repeated pointing, tracing, stepping, looking, or wall-inspection choreography is required.
 
-**Required visual:** the mural itself carries the entire discovery. No second set piece is added.
+**Knowledge-firewall polish:** the old `could be related / could've moved people / or just gotten them under cover` ladder has been removed. The cast notices the relationship between the downstairs passages and the wider mural without sounding as though they are listing approved interpretations.
+
+**Required visual:** the mural itself carries the discovery. No second set piece is added.
 
 **Junction continuity:** Torren calls the place the Junction, recognizes the crossroads rather than the hidden monument, and has never seen the actual stone.
