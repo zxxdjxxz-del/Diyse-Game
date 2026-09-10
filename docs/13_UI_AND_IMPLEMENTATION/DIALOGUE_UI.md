@@ -8,13 +8,11 @@
 Current field/dialogue presentation authority:
 > `FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md`
 
-That lock controls over older wording that implied fully staged party field scenes.
-
 ## Core dialogue presentation
 
 Diyse's normal authored conversation presentation is intentionally simple:
 
-> **illustrated portrait(s) + dialogue box over the existing field/background.**
+> **illustrated portrait(s) + dialogue box over the existing field/background, with relevant field models available when an authored scene triggers.**
 
 Production dialogue uses:
 - `DiyseDialogueSceneDefinition` Resources;
@@ -54,33 +52,40 @@ During ordinary traversal:
 
 Other party members remain present in story/combat state but are not rendered as a follower train.
 
-A guide such as Torren may speak through the portrait/dialogue UI while directing Cyanis. The guide does not need to be visibly walking beside or ahead of him.
+A guide such as Torren may speak through the portrait/dialogue UI while directing Cyanis without appearing as a walking field model.
 
-Do not author routine dialogue around companion field-model blocking, facing, stepping, pointing, weapon handling, posture business, or tiny prop interactions.
+## Triggered-scene rule
+
+When an authored scene triggers and normal traversal stops:
+
+> **other present characters may appear using their field models.**
+
+A stop scene can therefore show the relevant party members/NPCs together while the portraits and dialogue box carry most of the close acting.
+
+Do not confuse this with ordinary traversal. The models appear for the triggered scene; they do not become permanent followers afterward.
 
 ## Stop scenes
 
 A normal stop scene may simply:
 1. pause/lock movement when needed;
-2. keep the existing field/background visible;
-3. show the speaking portrait(s) and dialogue box;
-4. return cleanly to gameplay.
+2. bring in the field models of the characters the scene actually needs;
+3. keep the existing field/background visible;
+4. use portraits + dialogue box for the conversation;
+5. return cleanly to Cyanis-only exploration.
 
-Do not instantiate the whole party physically merely because several people speak.
-
-Additional visible character models or physical choreography require a genuine story/gameplay reason and should be rare.
+Field models may use simple placement/facing when that helps readability, but ordinary dialogue does not need constant pointing, weapon handling, prop interaction, posture animation, or bespoke choreography.
 
 ## Walking/traversal dialogue
 
 Walking dialogue follows `../03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`.
 
-When legal, it does **not** change the single-field-character rule. Cyanis remains the visible traversal avatar while other speakers use portraits/dialogue text.
+When legal, Cyanis remains the sole visible traversal avatar while other speakers use portraits/dialogue text. If the party stops for a triggered scene, relevant field models may then appear.
 
 ## Environmental-read rule
 
 Important spatial discoveries may receive a clean visual read before the dialogue UI appears.
 
-Keep this simple. The background is the already-authored HD-2D field, not a fully simulated 3D cinematic stage. Do not invent camera choreography, extra props, or physical party reactions merely to make a discovery feel cinematic.
+Keep this simple. The background is the already-authored HD-2D field, not a fully simulated 3D cinematic stage. Do not invent camera choreography, extra props, or micro-actions merely to make a discovery feel cinematic.
 
 ## HD-2D environment relationship
 
@@ -106,17 +111,18 @@ The UI/runtime should support:
 - clean return to exploration;
 - short walking dialogue;
 - short post-battle reaction;
+- triggered-scene field-model presence and simple blocking;
 - required story/event cues when separately justified.
 
 It does **not** need bespoke field-model animation for ordinary dialogue.
 
 ## Economical presentation principle
 
-The default economical solution is:
+Default economical presentation:
 
-> **existing background + Cyanis field avatar when traversing + portraits + dialogue box.**
+> **Traversal: existing background + Cyanis. Triggered dialogue scene: relevant field models if useful + portraits + dialogue box.**
 
-Do not treat lighting shifts, camera moves, background activity, prop interactions, field-model gestures, or environment state changes as a checklist. Use one only when the story/gameplay beat genuinely requires it.
+Do not treat lighting shifts, camera moves, prop interactions, field-model gestures, or environment state changes as a checklist. Use one only when the story/gameplay beat genuinely requires it.
 
 ## Stable IDs
 
