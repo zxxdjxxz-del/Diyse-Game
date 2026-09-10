@@ -1,44 +1,38 @@
 # Chapter 1 — Character-Life C05
-# No Spoilers
-## REHEARSAL-FIRST PRODUCTION DRAFT B — Maevra splint-change scene / awaiting user approval
+# Not Professionally
+## REHEARSAL-FIRST PRODUCTION DRAFT C — Ilyra + Maevra only / awaiting user approval
 
 ---
 
 ### [CAMP — OPTIONAL CHARACTER-LIFE TRIGGER]
 
-Later in the Junction-area camp.
+Later at the Junction-area camp.
 
-This scene begins because **Ilyra is changing Maevra's splint**.
+This scene is **Ilyra and Maevra only**.
 
-Maevra's arm was broken during the Broken Convoy attack before Chapter 1 began. The bone is still broken. Ilyra can make the injury more tolerable with ordinary care and restrained healing magic, but she cannot magically mend the fracture.
+Ilyra is changing the field splint on Maevra's broken arm. The fracture happened during the Broken Convoy attack before Chapter 1 began and is still healing.
 
-Maevra has brought a cheap serialized adventure-romance to read while Ilyra works.
+Ilyra can use restrained Warden/healing magic to reduce pain and ease surrounding strain, but **magic cannot mend the broken bone**.
 
-That is the situation. The scene is not required to become a discussion of medicine, the war, or Maevra's decision to keep traveling.
+The medical task gives them a natural reason to sit together long enough for Ilyra to ask about Maevra and Torren.
 
-Because this is camp, Ilyra and Maevra may both be present as field models. A simple old-splint/new-splint state change and one restrained magic effect are enough. Portraits and the dialogue box carry the scene.
+The scene should not become a relationship briefing, therapy session, or exposition dump. Ilyra is simply curious. Maevra is willing to answer, but sentiment is harder for her than sex, history, or ordinary teasing.
 
-Cyanis and Torren may be elsewhere in camp until they naturally enter the conversation.
+Because this is camp, both may be physically present as field models. One old-splint/new-splint state change and one restrained magic effect are sufficient. Portraits and the dialogue box carry the performance.
 
 ---
 
-### [OLD SPLINT OFF]
+### [THE OLD SPLINT]
 
-**ILYRA:** Hold still.
+**ILYRA:** Hand.
 
-**MAEVRA:** I am holding still.
+Maevra gives her the injured arm.
 
-**ILYRA:** You're turning pages.
+**MAEVRA:** Attached.
 
-**MAEVRA:** Other arm.
+**ILYRA:** Encouraging.
 
-**ILYRA:** You're still moving.
-
-**MAEVRA:** The book's at a very important part.
-
-**ILYRA:** You said it was terrible.
-
-**MAEVRA:** It is.
+**MAEVRA:** I thought so.
 
 Ilyra starts removing the old splint.
 
@@ -46,141 +40,255 @@ A beat.
 
 **MAEVRA:** Fuck.
 
-**ILYRA:** I warned you.
+**ILYRA:** That wasn't even the bad part.
 
-**MAEVRA:** You said pressure.
+**MAEVRA:** Why would you tell me that?
 
-**ILYRA:** That was pressure.
+**ILYRA:** So you stop pretending this doesn't hurt.
 
-**MAEVRA:** Then I object to pressure.
+**MAEVRA:** I haven't pretended once.
 
-**ILYRA:** Noted.
+**ILYRA:** You walked half the region on it.
+
+**MAEVRA:** That's not pretending. That's walking.
+
+Ilyra gives her a look.
+
+**MAEVRA:** Fine.
 
 A beat.
 
-**MAEVRA:** Deeply noted?
+**MAEVRA:** It hurts.
 
-**ILYRA:** No.
+**ILYRA:** Thank you.
 
-Maevra goes back to the book.
+**MAEVRA:** Hated that.
 
 ---
 
-### [MAGIC]
+### [RELIEF]
 
-Ilyra checks the arm, then uses a small amount of Warden magic.
+Ilyra checks the arm and uses a small amount of Warden magic.
 
-The effect is restrained. It is relief, not a cure.
+The effect is brief and restrained.
 
 Maevra exhales.
 
 **ILYRA:** Better?
 
-**MAEVRA:** A little.
+**MAEVRA:** Yeah.
 
-**ILYRA:** That's all it's doing.
+**ILYRA:** It'll take the edge off. That's all.
 
-**MAEVRA:** I know.
+**MAEVRA:** Still no miracle?
 
-**ILYRA:** You asked me twice if it could fix the bone.
+**ILYRA:** Still no miracle.
 
-**MAEVRA:** I was checking whether medicine had improved.
+**MAEVRA:** Medicine's disappointing.
 
-**ILYRA:** In the last hour?
+**ILYRA:** Bones are stubborn.
 
-**MAEVRA:** I had hopes.
+**MAEVRA:** I sympathize.
 
-**ILYRA:** Keep them modest.
+Ilyra begins setting the fresh splint.
+
+---
+
+### [TORREN]
+
+They are quiet for a little while.
+
+Then:
+
+**ILYRA:** How long have you known Torren?
+
+**MAEVRA:** Twenty-five years.
+
+**ILYRA:** That was fast.
+
+**MAEVRA:** Easy question.
 
 A beat.
 
-**MAEVRA:** Cruel woman.
+**ILYRA:** You know that wasn't the one I meant.
+
+**MAEVRA:** I suspected.
+
+Ilyra keeps working.
+
+**ILYRA:** Were you together?
+
+**MAEVRA:** Yes.
+
+No embarrassment. No hesitation.
+
+**ILYRA:** Oh.
+
+**MAEVRA:** What did you expect?
+
+**ILYRA:** More resistance.
+
+**MAEVRA:** To that question?
+
+**ILYRA:** Apparently not.
+
+**MAEVRA:** Ask the question you're actually trying to ask.
+
+A beat.
+
+**ILYRA:** Are you still together?
+
+Maevra thinks about it.
+
+**MAEVRA:** No.
+
+Another beat.
+
+**MAEVRA:** Not exactly.
+
+**ILYRA:** That's clearer.
+
+**MAEVRA:** I do my best.
+
+---
+
+### [THE EASY QUESTION]
+
+Ilyra tightens part of the new splint.
+
+**MAEVRA:** Ow.
+
+**ILYRA:** Sorry.
+
+**MAEVRA:** You're not.
+
+**ILYRA:** No.
+
+A beat.
+
+**ILYRA:** Were you lovers?
+
+**MAEVRA:** Yes.
+
+**ILYRA:** Recently?
+
+**MAEVRA:** That's none of your business.
+
+A beat.
+
+Maevra smiles.
+
+**MAEVRA:** But no.
+
+Ilyra laughs once.
+
+**ILYRA:** You answered anyway.
+
+**MAEVRA:** That one's easy.
+
+That sits for a moment.
+
+Ilyra understands there is a harder question underneath it.
+
+She asks it plainly.
+
+**ILYRA:** Do you still love him?
+
+Maevra does not answer immediately.
+
+Not because she does not know.
+
+Because this one lands differently.
+
+**MAEVRA:** Yes.
+
+Ilyra nods and keeps working.
+
+**ILYRA:** All right.
+
+Maevra looks at her.
+
+**MAEVRA:** That's it?
+
+**ILYRA:** You answered.
+
+**MAEVRA:** Hm.
+
+A beat.
+
+**MAEVRA:** I like you.
 
 **ILYRA:** Hold still.
 
----
-
-### [THE BOOK BECOMES THE PROBLEM]
-
-Ilyra starts fitting the fresh splint.
-
-Maevra keeps reading.
-
-A little while passes.
-
-**MAEVRA:** Oh, that's stupid.
-
-**ILYRA:** The arm?
-
-**MAEVRA:** No, that's straightforward.
-
-**ILYRA:** Good.
-
-**MAEVRA:** The duke.
-
-Ilyra looks at her.
-
-**ILYRA:** What duke?
-
-**MAEVRA:** The lying one.
-
-**ILYRA:** Of course.
-
-**MAEVRA:** He says he was in Bellharrow when the chapel burned.
-
-**ILYRA:** Was he?
-
-**MAEVRA:** Obviously not.
-
-**ILYRA:** Why obviously?
-
-Maevra looks up from the book.
-
-**MAEVRA:** His horse is afraid of bells.
-
-Silence.
-
-**ILYRA:** I'm sorry?
-
-**MAEVRA:** Exactly.
-
-**ILYRA:** No. You don't get to say exactly. Explain it.
-
-**MAEVRA:** Three chapters ago they spent half a page establishing that the horse panics at bells.
-
-**ILYRA:** And Bellharrow has bells.
-
-**MAEVRA:** Everywhere.
-
-Ilyra thinks about that while securing the splint.
-
-**ILYRA:** That's not terrible.
-
-Maevra looks offended.
-
-**MAEVRA:** Don't defend it.
-
-**ILYRA:** I'm not defending it.
-
-**MAEVRA:** You just did.
-
-**ILYRA:** I'm saying the clue works.
-
-**MAEVRA:** The rest of it is garbage.
-
-**ILYRA:** You seem very invested in the garbage.
-
-**MAEVRA:** I need to know how bad it gets.
-
-**ILYRA:** That's not a reason.
-
-**MAEVRA:** It's the only reason I need.
+**MAEVRA:** Ruined it.
 
 ---
 
-### [THE CAPTAIN]
+### [WHAT HAPPENED]
 
-Ilyra finishes tightening the new splint.
+A little later:
+
+**ILYRA:** Was it bad?
+
+**MAEVRA:** What?
+
+**ILYRA:** The end of it.
+
+Maevra understands.
+
+**MAEVRA:** No grand disaster, if that's what you're asking.
+
+**ILYRA:** No betrayal.
+
+**MAEVRA:** No.
+
+**ILYRA:** No screaming in the rain.
+
+**MAEVRA:** There was probably rain at some point.
+
+Ilyra smiles.
+
+**ILYRA:** You know what I mean.
+
+**MAEVRA:** We were young. Then we weren't. Different posts. Different roads. Different things that needed doing.
+
+A beat.
+
+**MAEVRA:** We kept finding each other again.
+
+Ilyra checks the splint fit.
+
+**ILYRA:** You don't act like exes.
+
+**MAEVRA:** We're not very good at it.
+
+That gets Ilyra.
+
+**ILYRA:** Apparently not.
+
+---
+
+### [NOW]
+
+**ILYRA:** And now?
+
+Maevra looks toward the fire rather than answering immediately.
+
+**MAEVRA:** Now he's here.
+
+A beat.
+
+**MAEVRA:** I'm here.
+
+**ILYRA:** Profound.
+
+**MAEVRA:** Thank you.
+
+**ILYRA:** That wasn't praise.
+
+**MAEVRA:** Still taking it.
+
+Ilyra finishes securing the splint.
 
 **ILYRA:** Fingers.
 
@@ -188,275 +296,65 @@ Maevra moves them.
 
 **MAEVRA:** Still attached.
 
-**ILYRA:** Useful.
+**ILYRA:** Good.
 
-**MAEVRA:** Happy to contribute.
+**MAEVRA:** That's your professional opinion?
 
-Ilyra checks the fit once more.
-
-**ILYRA:** There.
-
-**MAEVRA:** Done?
-
-**ILYRA:** Done.
-
-Maevra immediately settles more comfortably with the book.
-
-**ILYRA:** You weren't even pretending to rest.
-
-**MAEVRA:** I am sitting down.
-
-**ILYRA:** That's not the same thing.
-
-**MAEVRA:** Close enough.
+**ILYRA:** Yes.
 
 A beat.
 
-Ilyra remains there.
-
-**MAEVRA:** What?
-
-**ILYRA:** Nothing.
-
-**MAEVRA:** You're still here.
-
-**ILYRA:** The captain.
-
-Maevra smiles.
-
-**MAEVRA:** Knew it.
-
-**ILYRA:** Don't.
-
-**MAEVRA:** He's in love with her.
-
-**ILYRA:** The duke's wife?
-
-**MAEVRA:** Not his wife.
-
-**ILYRA:** The woman in the marsh.
-
-**MAEVRA:** Lady Merra.
-
-**ILYRA:** Why is she in a marsh?
-
-**MAEVRA:** Because she has terrible judgment.
-
-**ILYRA:** And the captain?
-
-**MAEVRA:** Also terrible judgment, but differently.
-
----
-
-### [ILYRA GETS PULLED IN]
-
-**ILYRA:** Does she know he's in love with her?
-
-**MAEVRA:** Everyone knows.
-
-**ILYRA:** Except her.
-
-**MAEVRA:** Naturally.
-
-**ILYRA:** Does he know she doesn't know?
-
-Maevra pauses.
-
-**MAEVRA:** That's actually a good question.
-
-**ILYRA:** You've read how much of this?
-
-**MAEVRA:** Most of it.
-
-**ILYRA:** And you don't know?
-
-**MAEVRA:** Nobody in this book speaks plainly unless someone is bleeding.
-
-Ilyra glances at the splint.
-
-**ILYRA:** Convenient standard.
-
-**MAEVRA:** She isn't bleeding now.
-
-**ILYRA:** Is anyone?
-
-**MAEVRA:** The gardener, but that's unrelated.
-
-A beat.
-
-**ILYRA:** I hate that I want to know why.
-
-**MAEVRA:** That's how it gets you.
-
----
-
-### [CYANIS ARRIVES]
-
-Cyanis catches the conversation after the splint change is finished.
-
-No entrance choreography is needed.
-
-**CYANIS:** What's how it gets you?
-
-**MAEVRA:** Nothing.
-
-**ILYRA:** A terrible book.
-
-Maevra looks at her.
-
-**MAEVRA:** Traitor.
-
-**CYANIS:** How terrible?
-
-**ILYRA:** There's a duke, a captain, a woman in a marsh, and a suspicious horse.
-
-**MAEVRA:** The horse isn't suspicious.
-
-**ILYRA:** It knows more than the duke.
-
-**CYANIS:** That's suspicious enough.
-
-Maevra closes the book around one finger.
-
-**MAEVRA:** You haven't read a word of it.
-
-**CYANIS:** Fresh perspective.
-
-**ILYRA:** That's what I said.
-
-**MAEVRA:** No, it isn't.
-
-**ILYRA:** It was going to be.
-
----
-
-### [THE AUNT]
-
-A little later, Cyanis has been given just enough of the plot to become dangerous.
-
-**CYANIS:** The aunt did it.
-
-**MAEVRA:** No.
-
-**CYANIS:** You said she showed up the morning after the chapel burned.
-
-**MAEVRA:** She's comic relief.
-
-**CYANIS:** Perfect cover.
-
-**ILYRA:** He's got a point.
-
-**MAEVRA:** No, he doesn't.
-
-**CYANIS:** Thank you, Ilyra.
-
-**ILYRA:** I didn't say you were right.
-
-**CYANIS:** Close enough.
-
-**MAEVRA:** Both of you are banned from theories.
-
-**CYANIS:** You invited me into this.
-
-**MAEVRA:** You walked over here.
-
-**CYANIS:** Spiritually invited.
+**MAEVRA:** Was all of that professional?
 
 **ILYRA:** No.
 
+**MAEVRA:** Good.
+
+**ILYRA:** Does he know?
+
+Maevra pauses.
+
+**MAEVRA:** That I love him?
+
+**ILYRA:** Yeah.
+
+**MAEVRA:** He knows.
+
+Ilyra leaves it there.
+
 ---
 
-### [TORREN DOES NOT HELP]
+### [DONE]
 
-Torren has heard enough from nearby to understand which book Maevra is reading.
+Ilyra gives the new splint one final check.
 
-He does not need to enter the scene physically.
+**ILYRA:** Done.
 
-After a lull:
+**MAEVRA:** Finally.
 
-**TORREN:** Captain's the brother.
+**ILYRA:** You'll need it checked again.
 
-Silence.
+**MAEVRA:** I knew there'd be a catch.
 
-**MAEVRA:** Torren.
-
-**TORREN:** What?
-
-**MAEVRA:** Have you read this?
-
-**TORREN:** No.
-
-**MAEVRA:** Then shut up.
-
-**TORREN:** Fine.
-
-A beat.
-
-**CYANIS:** Could be the brother.
-
-**ILYRA:** It would explain the duke.
-
-**MAEVRA:** I just changed the subject away from my broken arm and somehow this is worse.
-
-**ILYRA:** I didn't do that.
-
-**MAEVRA:** No. You enabled it.
-
-**CYANIS:** We're helping.
-
-**MAEVRA:** None of you are helping.
-
-From nearby:
-
-**TORREN:** Haven't read it.
+**ILYRA:** And you're still not fighting.
 
 **MAEVRA:** I know.
 
----
+**ILYRA:** Good.
 
-### [NO SPOILERS]
+Maevra looks at her.
 
-Maevra opens the book again.
+**MAEVRA:** You were waiting to say that.
 
-**MAEVRA:** New rule.
+**ILYRA:** A little.
 
-**CYANIS:** That sounds dangerous.
+**MAEVRA:** Cruel woman.
 
-**MAEVRA:** Nobody speaks while I read the next page.
-
-**ILYRA:** One page?
-
-**MAEVRA:** One page.
-
-**CYANIS:** Then theories resume?
-
-**MAEVRA:** Then you may all be wrong again.
-
-They manage several seconds of silence.
-
-Maevra reads.
+**ILYRA:** Apparently you like me.
 
 A beat.
 
-Another.
-
-Then:
-
-**MAEVRA:** Oh, fuck off.
-
-**ILYRA:** What happened?
-
-**MAEVRA:** No.
-
-**CYANIS:** You can't do that after saying that out loud.
-
-**MAEVRA:** Watch me.
-
-**ILYRA:** Maevra.
-
-Maevra looks between them.
-
-**MAEVRA:** No spoilers.
+**MAEVRA:** Regretting it already.
 
 Scene ends.
 
@@ -464,16 +362,16 @@ Scene ends.
 
 ## Presentation / character check
 
-**Injury continuity:** Maevra's arm was broken during the Broken Convoy attack before Chapter 1. The bone remains broken at Junction camp.
+**Cast:** Ilyra + Maevra only. Cyanis and Torren do not enter, overhear, or interrupt.
 
-**Ilyra:** performs one legitimate medical task: removing/checking/replacing the splint and using restrained magic to ease pain. She does not magically heal the fracture and does not become a lecturer or therapist.
+**Injury continuity:** Maevra's arm was broken during the Broken Convoy attack before Chapter 1. The bone remains broken. Ilyra changes the splint and uses restrained magic only to ease pain/strain; the fracture is not magically healed.
 
-**Maevra:** the injury is something she is living with, not the whole subject of the scene. Her bad-fiction habit naturally becomes the distraction while Ilyra works.
+**Ilyra:** curious as an adult peer, not interrogating or diagnosing Maevra. She asks directly, accepts direct answers, and does not turn the conversation into counseling.
 
-**Camp presentation:** a splint state change, one brief magic effect, and the book are sufficient. Do not animate every wrap, page turn, hand movement, or medical step.
+**Maevra:** comfortable discussing old romance and sex, but the direct question about still loving Torren lands more deeply. She answers honestly without giving a speech.
 
-**Cyanis:** enters because the conversation becomes ridiculous, not because he is the emotional center.
+**Maevra / Torren continuity:** they became close and romantically involved when young; there was no betrayal or bitter breakup; life and distance repeatedly separated them; they kept finding one another again; Maevra still loves Torren in the present. The scene does not speak for Torren's private feelings beyond Maevra saying he knows hers.
 
-**Torren:** contributes one dry interruption and remains peripheral.
+**Physical economy:** one splint change and one brief magic effect. No detailed wrapping animation, medical montage, or elaborate camp choreography.
 
-**Scene function:** quietly explains one continuing Chapter-1 reality — why Maevra is traveling but not fighting — while still functioning primarily as ordinary Character-Life material.
+**Scene function:** gives Ilyra and Maevra a private adult-friendship scene while naturally grounding Maevra's Chapter-1 injury and opening the Maevra/Torren relationship through lived conversation rather than exposition.
