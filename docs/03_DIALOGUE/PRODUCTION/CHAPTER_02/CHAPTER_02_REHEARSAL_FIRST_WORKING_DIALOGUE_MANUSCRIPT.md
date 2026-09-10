@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE REHEARSAL-FIRST WORKING MANUSCRIPT — NOT CHAPTER-LOCKED  
 **Purpose:** current cumulative readable Chapter-2 manuscript.  
-**Mainline coverage:** Beat 1 current rehearsal-first Draft A.  
+**Mainline coverage:** Beats 1–2 current rehearsal-first working drafts.  
 **Character-Life coverage:** C06 — `Still Burns` current working draft. Former C07 is retired as a separate Chapter-2 Character-Life scene.  
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Working beat authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
@@ -112,6 +112,210 @@ Torren starts toward Dunmere.
 **Objective:** Enter Dunmere.
 
 Beat ends as normal movement carries the player into town.
+
+---
+
+# BEAT 2 — DUNMERE ARRIVAL / MISSING TRAVELERS
+
+**Draft:** A — current rehearsal-first working dialogue
+
+### [ARRIVAL]
+
+Dunmere is functioning. Shops are open, people are working, and ordinary town life continues. The first thing the group sees is not a disaster scene.
+
+The party enters the town proper.
+
+**CYANIS:** Food?
+
+**ILYRA:** That was fast.
+
+**CYANIS:** I've been thinking about it for miles.
+
+**MAEVRA:** He has.
+
+**TORREN:** Inn's farther in.
+
+**CYANIS:** See? Useful town already.
+
+Torren slows.
+
+A number of loaded wagons are standing where outbound traffic would normally be moving through. Teamsters are tending animals, shifting cargo, or waiting rather than leaving.
+
+**TORREN:** Hm.
+
+Cyanis looks at him.
+
+**CYANIS:** That's never reassuring.
+
+**TORREN:** No.
+
+Maevra follows his attention to the wagons.
+
+**MAEVRA:** Loaded.
+
+**ILYRA:** And staying loaded.
+
+**TORREN:** Yeah.
+
+A nearby **CARTER** hears them.
+
+**CARTER:** If you're waiting on the road, don't.
+
+**CYANIS:** We weren't.
+
+**CARTER:** Good. Saves time.
+
+**MAEVRA:** What's wrong with it?
+
+The carter gives her a tired look.
+
+**CARTER:** Depends how badly you want to get where you're going.
+
+**TORREN:** Caelora traffic?
+
+**CARTER:** Mostly stopped.
+
+**CYANIS:** Stopped by what?
+
+**CARTER:** People leave. People don't arrive.
+
+The easy humor drops out of the group.
+
+**ILYRA:** How long?
+
+**CARTER:** Long enough that I'm not taking another wagon out there.
+
+**CYANIS:** Bandits?
+
+**CARTER:** Wish it was.
+
+A voice from nearby:
+
+**RETURNED GUARD:** They're not missing.
+
+The group turns.
+
+A road guard is sitting near one of the wagons. He is bruised and scraped but already bandaged; nothing requires Ilyra to seize control of his care.
+
+**CARTER:** You should be lying down.
+
+**RETURNED GUARD:** Did that.
+
+**ILYRA:** You saw what happened?
+
+The guard looks at her, then at the others.
+
+**RETURNED GUARD:** Yeah.
+
+**CYANIS:** Who took them?
+
+**RETURNED GUARD:** Black Host.
+
+A beat.
+
+**MAEVRA:** Where?
+
+**RETURNED GUARD:** Red Transfer Bastion.
+
+Torren's expression hardens slightly.
+
+**TORREN:** Bastion's occupied?
+
+**RETURNED GUARD:** Has been for a while. Wasn't stopping everybody before.
+
+**MAEVRA:** It is now.
+
+The guard nods.
+
+**RETURNED GUARD:** They came out fast. Didn't want the wagon. Didn't want the cargo.
+
+**CYANIS:** People.
+
+**RETURNED GUARD:** Yeah.
+
+A beat.
+
+**RETURNED GUARD:** Took the others. I got clear.
+
+Nobody congratulates him for surviving and nobody asks him to justify it.
+
+**ILYRA:** You get hit in the head?
+
+**RETURNED GUARD:** No.
+
+**ILYRA:** Lose consciousness?
+
+**RETURNED GUARD:** No.
+
+Ilyra gives him a short nod and leaves it there.
+
+**CARTER:** He's not the only one who came back with the same story.
+
+**CYANIS:** And people who didn't come back?
+
+The carter looks toward the waiting wagons.
+
+**CARTER:** That's why we're waiting.
+
+### [WHAT THE BASTION MEANS]
+
+The party steps slightly aside from the wagon traffic. This is a short authored stop inside a functioning town, not a long strategic council.
+
+**CYANIS:** Red Transfer Bastion.
+
+**TORREN:** Old fort on the corridor.
+
+**CYANIS:** Controls the road?
+
+**TORREN:** If somebody holds it properly, yeah.
+
+**MAEVRA:** Black Host does.
+
+**TORREN:** Sounds like it.
+
+**ILYRA:** And they're taking travelers, not supplies.
+
+**MAEVRA:** Deliberately.
+
+Cyanis looks back toward the returned guard and the wagons that are not leaving.
+
+**CYANIS:** So we're not continuing through that.
+
+**TORREN:** Wasn't going to recommend it.
+
+**CYANIS:** Good.
+
+A beat.
+
+**CYANIS:** Who knows the Bastion best from this side?
+
+The carter answers without being drawn into the group's private discussion.
+
+**CARTER:** Elder's been collecting everything people bring back.
+
+**MAEVRA:** Where?
+
+The carter points farther into town.
+
+**CARTER:** You'll find them.
+
+Torren looks at Cyanis.
+
+**TORREN:** Elder first.
+
+**CYANIS:** Elder first.
+
+**Objective:** Speak with the Dunmere elder.
+
+Beat ends with normal town control returning to the player.
+
+### Beat-2 knowledge checkpoint
+- Dunmere is inhabited and functioning.
+- Outbound travel toward Caelora has sharply reduced because people have repeatedly failed to arrive.
+- A direct survivor establishes that **Black Host soldiers are taking people**, not merely robbing travelers or blocking the road.
+- **Red Transfer Bastion** is occupied by the Black Host and is being used to control the corridor.
+- The party does not yet know the waterworks approach, Prisoner Galleries, holding/transit function, Rhazek's presence, or the destination of anyone taken.
+- Next objective is to speak with the Dunmere elder for actionable local knowledge.
 
 ---
 
