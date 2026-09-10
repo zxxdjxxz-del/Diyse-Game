@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE REHEARSAL-FIRST WORKING MANUSCRIPT — NOT CHAPTER-LOCKED  
 **Purpose:** single cumulative readable Chapter-2 dialogue manuscript; update this file every time a Chapter-2 mainline or Character-Life scene changes.  
-**Mainline coverage:** Beats 1–2 current rehearsal-first working drafts.  
+**Mainline coverage:** Beats 1–3 current rehearsal-first working drafts.  
 **Character-Life coverage:** C06 — `Still Burns` current working draft. Former C07 is retired as a separate Chapter-2 Character-Life scene.  
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Working beat authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
@@ -321,6 +321,172 @@ Beat ends with normal town control returning to the player.
 - **The Old Bastion** is occupied by the Black Host and is being used to control the corridor.
 - The party does not yet know the waterworks approach, Prisoner Galleries, holding/transit function, Rhazek's presence, or the destination of anyone taken.
 - Next objective is to speak with the Dunmere elder for actionable local knowledge.
+
+---
+
+# BEAT 3 — DUNMERE ELDER / HIDDEN APPROACH
+
+**Draft:** A — current rehearsal-first working dialogue
+
+### [THE ELDER]
+
+The group finds the Dunmere elder in town. The scene remains a practical local briefing rather than a ceremonial council.
+
+**ELDER:** You're the ones asking about the Old Bastion.
+
+**CYANIS:** We are now.
+
+The elder looks over the four of them.
+
+**ELDER:** Then I'll save you the first bad idea. Don't take the road to it.
+
+**CYANIS:** Wasn't planning to.
+
+**TORREN:** Why?
+
+**ELDER:** Because the fort was built to watch that road. Clear approach, good walls, and enough height to see trouble coming before trouble sees them.
+
+**MAEVRA:** So a frontal approach tells them exactly when we're arriving.
+
+**ELDER:** And gives them time to decide what to do with the people they've taken.
+
+Ilyra's expression tightens.
+
+**ILYRA:** Other approaches?
+
+**ELDER:** Bad ground. Less direct. Still ends under their walls.
+
+Torren thinks for a moment.
+
+**TORREN:** Anything under them?
+
+The elder looks at him.
+
+**ELDER:** Maybe.
+
+**CYANIS:** That's promising.
+
+**TORREN:** Depends on the maybe.
+
+### [THE WATERWORKS]
+
+The elder indicates an old municipal route on a local map or equivalent field reference.
+
+**ELDER:** Dunmere's old waterworks used to run farther than the current system. One service branch goes out toward the Bastion's lower foundations.
+
+**TORREN:** Into the fort?
+
+**ELDER:** I didn't say that.
+
+**TORREN:** Good.
+
+The elder raises an eyebrow.
+
+**ELDER:** Good?
+
+**TORREN:** Means you're telling me what you know.
+
+A beat.
+
+**ELDER:** It runs toward the lower foundations. That's all I know.
+
+**CYANIS:** Used recently?
+
+**ELDER:** Not the far branch. Newer works bypass it. Nobody has reason to maintain what they don't use.
+
+**ILYRA:** Flooded?
+
+**ELDER:** Parts of it can be.
+
+**MAEVRA:** Collapsed?
+
+**ELDER:** Parts of it can be.
+
+Cyanis looks at Torren.
+
+**CYANIS:** You look delighted.
+
+**TORREN:** Better than the road.
+
+**MAEVRA:** That is a very low standard.
+
+**TORREN:** Still clears it.
+
+**CYANIS:** Any sign the Host uses the waterworks?
+
+**ELDER:** None anyone here has seen. That isn't the same as none.
+
+Torren nods once.
+
+**TORREN:** Better answer.
+
+**ILYRA:** If they aren't watching it, we can get close before they know we're there.
+
+**MAEVRA:** If it still goes where the old plans say.
+
+**TORREN:** I'll know soon enough.
+
+Cyanis looks at him.
+
+**CYANIS:** Can you get us through?
+
+**TORREN:** Haven't seen it.
+
+**CYANIS:** Right. Stupid question.
+
+**TORREN:** Little bit.
+
+Maevra almost smiles.
+
+**CYANIS:** Can you find out if it gets us through?
+
+**TORREN:** Yeah.
+
+**CYANIS:** Better question.
+
+### [COMMITMENT]
+
+The elder looks between them.
+
+**ELDER:** If the branch is blocked, come back. Don't turn a bad route into a grave because you already walked half of it.
+
+**TORREN:** Wasn't planning to.
+
+**ELDER:** Good.
+
+**CYANIS:** Where's the entrance?
+
+The elder gives the group the practical location of the old waterworks access. Exact map geometry and access mechanism belong to area design.
+
+**ELDER:** You'll know it when you see it. After that, you're in older works. I can't tell you what shape they're in.
+
+**CYANIS:** You've told us enough.
+
+**ILYRA:** More than we had.
+
+**MAEVRA:** And more useful than walking up the road.
+
+Torren looks toward the direction of the waterworks.
+
+**TORREN:** Let's go see how bad it is.
+
+**CYANIS:** That's your optimistic version, isn't it?
+
+**TORREN:** Yeah.
+
+**Objective:** Enter the Old Waterworks.
+
+Beat ends with normal Dunmere control before departure toward the waterworks entrance.
+
+### Beat-3 knowledge checkpoint
+- A direct road assault on the Old Bastion is tactically poor because the fort was built to dominate that approach.
+- The elder knows an **old, disused Dunmere waterworks service branch** runs toward the Bastion's lower foundations.
+- The elder does **not** claim the branch enters the fort and does not know what lies beneath or beyond the old municipal works.
+- The far branch is no longer maintained; some flooding or collapse is plausible.
+- No local evidence shows the Black Host routinely using the waterworks, but the elder does not guarantee it is empty.
+- Torren judges the uncertain covert route worth testing.
+- The party commits to the waterworks infiltration.
+- The party still knows nothing about the Sunken Archive, western mural, Archive Leviathan, secret passage, Prisoner Galleries, Rhazek's presence, or the masked officer.
 
 ---
 
@@ -731,5 +897,6 @@ Fade.
 # Current production status
 - Beat 1 — Draft A.
 - Beat 2 — Draft A, updated to **Old Bastion** naming.
+- Beat 3 — Draft A.
 - C06 — `Still Burns` — current working dialogue.
-- Next mainline scene: **Beat 3 — Dunmere Elder / Hidden Approach**.
+- Next mainline scene: **Beat 4 — Old Waterworks**.
