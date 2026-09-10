@@ -21,10 +21,10 @@ Provide each relevant Person Agent with only the material needed to inhabit the 
 - who else is present;
 - current relationship state;
 - physical/gameplay pressure;
-- visible world activity;
+- visible world activity already required by the area/beat;
 - required story event or decision.
 
-The Director does not pre-compose the desired conversation rhythm.
+The Director does not pre-compose the desired conversation rhythm and does not invent extra environment content merely to make the scene feel richer.
 
 ### 2. Person Agents — rehearse independently
 Let each person respond as themselves rather than as a carrier for one required fact.
@@ -62,7 +62,7 @@ The Editor should:
 - preserve relationship-specific rhythm;
 - let staging/action/silence carry what speech does not need to carry;
 - end exchanges once the point lands;
-- retain mundane texture when it makes people/place feel alive;
+- retain mundane texture only when it is already supported by the location or materially improves the scene;
 - cut polished lines that make everyone sound equally authored.
 
 More natural rehearsal material is useful. More final lines are not automatically better.
@@ -81,25 +81,52 @@ If a line violates canon, repair or remove that line without teaching the whole 
 
 `KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md` remains mandatory.
 
-### 5. Production staging
-After dialogue survives the Editor and Canon Checker, apply economical HD-2D staging:
-- B00 placement/facing;
-- portraits where useful;
-- small gestures;
-- camera/light/sound;
-- props and ordinary activity;
+### 5. Cheap / economical HD-2D pass — REDUCTIVE, NOT ADDITIVE
+After dialogue survives the Editor and Canon Checker, translate the beat into the cheapest readable staging that preserves its existing story and emotional function.
+
+> **The cheap HD-2D pass should usually remove production demands, not invent new content.**
+
+Default toolkit:
+- existing area geometry and gameplay spaces;
+- B00 character placement/facing;
+- existing portrait presentation;
+- one or two small reusable gestures when needed;
+- existing props already justified by the area or story;
+- simple light/sound/music changes;
+- restrained camera reframing;
+- foreground/occlusion already available in the environment;
 - silence and visual-first reads.
 
-Do not add explanatory dialogue merely because a staging cue is subtle.
+The pass must NOT automatically add:
+- extra rooms, platforms, paths, ledges, set pieces, or environmental beats;
+- new NPC business, crowds, ambient comedy, or one-off background actions;
+- new props solely to give characters something to interact with;
+- extra clues or environmental storytelling not required by current story/map authority;
+- bespoke animation;
+- one-use destruction or mechanical sequences;
+- extra dialogue beats created to justify staging;
+- new story information disguised as set dressing.
 
-## Quality test
+If the required beat already works with characters standing in an existing gameplay space and speaking through portraits/B00 facing, that is a successful cheap pass.
+
+**Presentation may clarify existing content. It must not silently expand the authored content.**
+
+Any new physical element that changes the imagined map, room layout, local activity, evidence trail, or story texture needs an independent story/map reason; 'cheap HD-2D flavor' is not sufficient justification.
+
+## Quality tests
 
 Before a Chapter scene is treated as a strong working draft, ask:
 
 > **If the story/reveal checklist were hidden from us, would these exact people still plausibly talk this way in this exact situation?**
 
-If not, return to rehearsal rather than polishing the constraint-shaped script.
+Then ask:
+
+> **If we removed every staging detail that is not needed to understand, play, or emotionally read the beat, would anything important be lost?**
+
+If not, remove it.
 
 ## Chapter 1 remediation
 
 Current Chapter 1 Beats 1–12 are to receive a rehearsal-first pass before Beat 13 is advanced to production. Preserve their locked story structure, geography, reveal order, party states, combat outcomes, walking-dialogue lock, and current canon. Rework the human layer wherever the existing script sounds rule-driven, over-explained, uniformly clever, or excessively self-aware about uncertainty.
+
+Because the first rebuild passes also accumulated extra staging/set-dressing, **Beats 1–6 require a later reductive cheap-HD-2D consistency sweep**. That sweep should remove nonessential invented props, micro-events, environmental business, and implied map/set complexity while preserving approved dialogue and required visual information. From Beat 7 onward, the reductive rule applies during first drafting rather than as cleanup afterward.
