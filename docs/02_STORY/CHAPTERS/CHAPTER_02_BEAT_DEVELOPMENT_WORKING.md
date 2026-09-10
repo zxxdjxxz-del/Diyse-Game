@@ -604,30 +604,107 @@ Handoff → **Beat 10 — Prisoner Galleries / First Contact**.
 ---
 
 # Beat 10 — Prisoner Galleries / First Contact
-**Development status:** CURRENT WORKING BEAT PACKET
+**Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
 
-Current prisoners include:
-- travelers;
-- injured soldiers;
-- Greenhollow residents;
-- Dunmere residents.
+Purpose: make the Old Bastion kidnapping operation human through direct contact with the captives, free the local holding section, establish from lived experience that the Bastion is a **holding/transit site**, and identify Commander Rhazek as the officer commanding the fort without revealing information the prisoners cannot know.
 
-Prisoners know:
-- people are brought to the Old Bastion and held;
-- earlier groups were taken elsewhere and did not return;
-- the Old Bastion functions as a **holding/transit site**, not the final destination.
+### Starting state
+- Cyanis, Ilyra, Torren, and Maevra have crossed the concealed Ancient passage into the Old Bastion's lower reused foundations;
+- human voices are immediately nearby;
+- the Black Host does not know the party entered through the Archive route;
+- the group has not yet learned the Bastion's holding/transit function or Rhazek's presence;
+- current captives include travelers, injured soldiers, Greenhollow residents, and Dunmere residents.
 
-They do not know the onward destination, ultimate fate, full strategic purpose, or exact transfer total.
+### First contact
+The party reaches the rear edge of the lower Prisoner Galleries and makes contact with captives before beginning any interrogation or information-gathering scene.
 
-> **The prisoners want rescue and accept needed help.**
+Hard human-priority rule:
+> **Rescue first. Intelligence second.**
 
-Ilyra asks consent for non-emergency examination/treatment where appropriate; refusal is not manufactured as conflict.
+The first prisoners may be wary because unexpected people have just appeared from an impossible direction, but they quickly understand the group is not Black Host and wants to free them. Do not manufacture distrust, refusal, hostage paranoia, or a moral test.
 
-Prisoners credibly identify **Commander Rhazek as the officer commanding the Old Bastion**. The party recognizes him as a known high-ranking Black Host commander.
+A nearby prisoner can credibly know the local gallery-watch routine well enough to tell the party where the ordinary holding keys are controlled. This is local observational knowledge, not secret strategic intelligence.
 
-Primary concern: being found does not make escape safe while Rhazek and the Host still control the fort.
+### Securing the local galleries
+The local holding section is still part of an active military fort. The party does not magically open every cell from the Ancient passage.
 
-Handoff → **Beat 11**.
+Current implementation direction:
+- the **gallery watch** controls the ordinary local holding keys;
+- Cyanis remains the player-controlled field character;
+- a short local gameplay section lets the trio secure the relevant Prisoner Gallery area and obtain the gallery keys;
+- Black Host soldiers encountered here remain ordinary enemies under normal encounter rules rather than becoming a new named boss;
+- Maevra remains fully noncombat;
+- no transfer manifest, destination ledger, exact-total document, or records-room substitute is found at the watch position.
+
+Once the local section is secure, the party uses the ordinary keys to open the current local holding doors.
+
+### Prisoner cooperation / immediate care
+The freed prisoners actively help one another. Able-bodied captives support injured, older, or weakened people without waiting for the player party to micromanage them.
+
+Ilyra may identify obvious injuries, but for non-emergency examination/treatment she asks consent. The current wounded-soldier rehearsal gives consent immediately. Do not manufacture refusal as characterization.
+
+Maevra can begin practical organization despite her own splinted arm. She remains noncombat and does not become sole caretaker of the group.
+
+### What the prisoners know about transfers
+Use overlapping lived experience from more than one captive rather than a single exposition witness.
+
+They can credibly report:
+- people are brought into the Old Bastion and held in these galleries;
+- groups are periodically taken **out of the galleries and onward through the fort**;
+- transferred groups vary in timing/size;
+- those earlier captives do not return to the galleries;
+- the current prisoners do not know where they ultimately go after leaving the Bastion.
+
+The party may infer from this that the Old Bastion is a **holding/transit site rather than the final destination**.
+
+Hard knowledge firewall:
+> **Nobody in the Prisoner Galleries knows the onward destination, ultimate fate, complete strategic purpose, or exact transfer total.**
+
+Do not restore `thirty-one transfers`, a transfer manifest, a destination name, or precise arithmetic through prisoner dialogue.
+
+### Rhazek identification
+At least one credible prisoner—preferably an injured soldier with enough military familiarity to distinguish command presence—can identify **Commander Rhazek** as the officer commanding the Old Bastion.
+
+Credible basis:
+- the prisoner has personally seen Rhazek in the galleries/fort;
+- guards address him as Commander and report to him;
+- his presence is not secondhand rumor invented for the scene.
+
+Cyanis, Maevra, and/or Torren can recognize Rhazek's name as that of a high-ranking Black Host commander.
+
+Allowed conclusion here:
+- Rhazek is commanding this fort;
+- the operation is therefore not plausibly just a few low-level soldiers acting without command structure.
+
+Do **not** spend Beat 13's reveal early. Beat 10 does not yet establish through prisoner omniscience that Rhazek personally authored every kidnapping/forced-transfer policy detail. His explicit policy ownership remains for the direct confrontation.
+
+### Escape problem appears naturally
+Once the local cells are open, the group considers getting everyone out.
+
+The prisoners want to leave. The problem is physical, not motivational:
+- several people are injured/weakened;
+- the party's route came through a concealed passage, the damaged/flooded Archive, the Leviathan chamber, and the Old Waterworks;
+- that route is not credible for evacuating the whole mixed group.
+
+Ilyra can confirm this based on the people she has just seen/examined.
+
+Torren can establish that a fort of this type must have a maintained proper exit, but that route is controlled by the active Bastion above.
+
+This creates Beat 11 rather than triggering an immediate prisoner escort.
+
+### End state
+By the end of Beat 10:
+- the local Prisoner Gallery section is secure;
+- current local holding doors are open;
+- prisoners want rescue and are cooperating;
+- the party knows earlier groups were moved onward and did not return;
+- the party understands the Old Bastion as a holding/transit site;
+- the onward destination remains unknown;
+- Commander Rhazek is known to be commanding the fort;
+- the party knows the way they entered cannot safely evacuate everyone;
+- immediate next task is to consolidate everyone into a defensible lower safe area and determine how to secure a proper Bastion exit.
+
+Handoff → **Beat 11 — Prisoner Safe Area / Exit Problem**.
 
 ---
 
@@ -769,9 +846,10 @@ Current cleanup Character-Life authority:
 - Beat 6 — current rehearsal-first Draft A; **crest-marked northern structure revision active**.
 - Beat 7 — current rehearsal-first Draft A.
 - Beat 8 — current rehearsal-first Draft A.
-- Beat 9 — current working beat packet developed; dialogue pass active.
+- Beat 9 — current rehearsal-first Draft A.
+- Beat 10 — current rehearsal-first Draft A; **Prisoner Galleries secured, holding/transit function and Rhazek command established through prisoner experience**.
 - C06 — `Still Burns` — current working dialogue.
-- Next mainline scene after Beat 9 dialogue: **Beat 10 — Prisoner Galleries / First Contact**.
+- Next mainline scene: **Beat 11 — Prisoner Safe Area / Exit Problem**.
 
 # Global reveal firewall
 Do not reveal during Chapter 2:
