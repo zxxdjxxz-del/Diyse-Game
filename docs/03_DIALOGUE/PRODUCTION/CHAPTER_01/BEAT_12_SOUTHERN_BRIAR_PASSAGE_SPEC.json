@@ -5,10 +5,11 @@
   "story_position": "Chapter 1 — Beat 12 — Southern Briar Passage",
   "production_ready": false,
   "participants": ["cyanis", "ilyra", "maevra", "torren"],
-  "scene_purpose": "Let Torren guide the party through Southern Briar using the established gameplay grammar: town departure may show the cast, ordinary wilderness traversal shows Cyanis only, triggered stops may show relevant field models, portraits/dialogue carry most performance, ordinary enemies remain random encounters, and only the side access, one Briarhide track, and Stalker sighting are authored story visuals.",
+  "scene_purpose": "Let Torren guide the party through Southern Briar, preserve the old side-access clue, and foreshadow a large Briarhide without showing the Stalker itself before the immediate boss approach in Beat 13.",
   "story_sources": [
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Locked cuts", "Beat 12 — Southern Briar Passage", "Beat 13 — Briarhide Stalker / Chapter-1 Final Boss", "Beat 14 — Wayfinder Junction / Six Ways Through"], "role": "base_chapter_01_story_and_locked_cut_authority"},
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md", "whole_file": true, "role": "latest_junction_and_hidden_monument_authority"},
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Locked cuts", "Beat 12 — Southern Briar Passage", "Beat 13 — Briarhide Stalker / Chapter-1 Final Boss"], "role": "base_chapter_01_story_authority"},
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_BRIARHIDE_REVEAL_LOCK.md", "whole_file": true, "role": "latest_explicit_briarhide_reveal_timing_override"},
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md", "whole_file": true, "role": "junction_and_hidden_monument_authority"},
     {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "direct_card_physical_state_authority"}
   ],
   "additional_authority_sources": [
@@ -23,7 +24,7 @@
     "area_phase": "town_departure_then_guided_hostile_wilderness",
     "dialogue_readiness": "GREEN_AT_TRIGGERS_AMBER_DURING_GUIDED_TRAVERSAL",
     "static_story_context_only": true,
-    "runtime_note": "Greenhollow departure may show relevant field models. Once wilderness traversal begins, Cyanis is the only visible party field character. Torren guides through portrait/dialogue speech without a follower model. At authored side-access, Briarhide-track, or Stalker triggers, relevant party field models may appear simply. Do not script crouching, pointing, weapon handling, foliage interaction, strap adjustment, route blocking, or small physical business. HARD REDUCTION: author only the required overgrown side access, one clear Briarhide track, and the Stalker sighting. HARD LOCKED CUT: do not reintroduce the southern-Briar route split, overlook decision, false trail, crossing, or Old Waystone. Ordinary enemies remain random encounters. The Junction monument remains completely hidden. Cyanis carries the intact Card; it remains inert."
+    "runtime_note": "Greenhollow departure may show relevant field models. Once wilderness traversal begins, Cyanis is the only visible party field character. Torren guides through portrait/dialogue speech without a follower model. At authored side-access or Briarhide-track triggers, relevant party field models may appear simply. Do not script crouching, pointing, weapon handling, foliage interaction, strap adjustment, route blocking, or small physical business. HARD REDUCTION: author only the required overgrown side access and one clear Briarhide track. HARD BRIARHIDE REVEAL LOCK: do not show the Briarhide Stalker anywhere in Beat 12. No animal crossing, distant sighting, stalking sequence, brush reveal, or separate pre-boss visual encounter. Beat 13 owns the first clear visual reveal immediately before the authored boss fight. HARD LOCKED CUT: do not reintroduce the southern-Briar route split, overlook decision, false trail, crossing, or Old Waystone. Ordinary enemies remain random encounters. The Junction monument remains completely hidden. Cyanis carries the intact Card; it remains inert."
   },
   "current_floor_state": {
     "larger_destination": "Caelora",
@@ -35,16 +36,16 @@
     "torren_party_status": "permanent_party_member_and_active_guide",
     "dialogue_presentation": "portraits_plus_dialogue_box",
     "card_state": "intact_directly_carried_by_cyanis_and_inert",
-    "junction_knowledge": "Torren knows the crossroads and route, not the hidden monument"
+    "junction_knowledge": "Torren knows the crossroads and route, not the hidden monument",
+    "briarhide_visual_state": "not_yet_seen"
   },
   "required_story_beats": [
     "Brief town departure from Greenhollow.",
     "Torren directs the group south through substantial playable Briar traversal without requiring a visible Torren follower model.",
     "The old overgrown stone-lined side access is seen and left unexplored for story purposes.",
-    "One concise Briarhide track stop establishes a very large predator.",
-    "The party approaches the Junction without seeing the hidden monument.",
-    "The Briarhide Stalker receives one clear pre-boss sighting.",
-    "The party concludes that the usable route ahead crosses the Stalker's position."
+    "One concise Briarhide track stop establishes that a very large native predator is active.",
+    "The party approaches the Junction without seeing the hidden monument or the Briarhide Stalker itself.",
+    "Beat 12 ends before the Stalker's visual reveal."
   ],
   "forbidden_presentation": [
     "visible_party_follower_train_during_wilderness_traversal",
@@ -52,7 +53,10 @@
     "companion_micro_blocking",
     "companion_weapon_or_prop_gestures_for_flavor",
     "fully_3d_cinematic_background_assumption",
-    "repeated_environmental_micro_detail_chain"
+    "repeated_environmental_micro_detail_chain",
+    "clear_briarhide_stalker_sighting_in_beat_12",
+    "stalker_crosses_route_then_leaves",
+    "separate_preboss_stalking_sequence"
   ],
   "forbidden_story_structure": [
     "southern_briar_route_split",
