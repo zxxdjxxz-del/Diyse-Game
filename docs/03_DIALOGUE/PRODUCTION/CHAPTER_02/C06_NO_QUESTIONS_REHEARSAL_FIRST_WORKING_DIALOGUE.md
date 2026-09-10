@@ -363,11 +363,11 @@ Ilyra looks toward Maevra's book.
 
 Maevra gives him a long look.
 
-**MAEVRA:** I spent twenty-five years forgetting how irritating you are.
+**MAEVRA:** Twenty-five years and you're still irritating.
 
-**TORREN:** Didn't take.
+**TORREN:** Consistent.
 
-**MAEVRA:** Apparently not.
+**MAEVRA:** Unfortunately.
 
 A small smile escapes her before she can stop it.
 
