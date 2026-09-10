@@ -329,11 +329,98 @@ Handoff → **Beat 7 — Archive Depths**.
 ---
 
 # Beat 7 — Archive Depths
-**Development status:** CURRENT WORKING BEAT PACKET
+**Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
 
-Meaningful deeper exploration before the boss. Environmental pressure/hazards increase. No second major lore reveal, no routine Black Host presence, no clean alternate route. The Archive Leviathan blocks progress.
+Purpose: turn the post-mural portion of the Archive back into sustained exploration pressure, deepen the sense of physical danger, and build naturally into the Archive Leviathan without spending another major lore reveal.
 
-Handoff → **Beat 8**.
+### Starting state
+- the party has copied the western mural, including the huge city and northern Crest-marked structure;
+- those discoveries remain unresolved;
+- the kidnapped people at the Old Bastion are still the immediate priority;
+- no Black Host presence has been found in the Archive;
+- Torren still believes the general route is useful but cannot promise where it exits;
+- Cyanis, Ilyra, Torren, and Maevra are all still traveling together.
+
+### Exploration pressure
+The deeper Archive should feel materially harder to traverse than the mural approach.
+
+Use a combination of:
+- deeper standing water / partially submerged passages;
+- collapsed or shifted preservation structures;
+- unstable flooring, narrowed crossings, broken stairs, or fallen sections;
+- blocked side routes that make the surviving forward path increasingly constrained;
+- non-Host random encounters and environmental hazards under encounter/area authority.
+
+The player should get a **meaningful exploration stretch**, not a hallway directly from mural to boss.
+
+### No second lore payoff
+Beat 7 must not compete with Beat 6.
+
+Do not add:
+- another map or complete route-network reveal;
+- readable exposition records explaining the Archive;
+- the identity/history of the city at modern Caelora;
+- an explanation of the Crest-marked northern structure;
+- a named Ancient civilization lecture;
+- Black Host transfer records;
+- a secret passage reveal before Beat 9.
+
+Environmental storytelling may reinforce the Archive's preservation/storage function, but it should not answer the mural's questions.
+
+### Something is disturbing the depths
+As the party advances, physical evidence begins to show that the flooded depths are not completely still.
+
+Allowed cues include:
+- water moving when the party is stationary;
+- a low impact or pressure shift carried through the structure;
+- displaced debris or damaged storage fronts too broad to read as ordinary water wear;
+- a distant heavy movement that cannot yet be visually identified.
+
+Hard reveal boundary:
+> **The party does not identify, name, classify, or explain the Archive Leviathan during Beat 7.**
+
+At first, structural settling remains a plausible explanation. By the later part of the beat, the group can reasonably conclude that **something large is moving ahead**, but not what it is.
+
+### Route pressure
+The usable route increasingly converges toward the same deeper section from which the disturbances are coming.
+
+Torren may test available branches and establish that:
+- the obvious alternates are collapsed, flooded beyond safe use, loop back, or otherwise do not advance;
+- there is no clean bypass that lets the party simply avoid the problem;
+- the route they need continues forward.
+
+This should feel like geography and damage forcing the confrontation, not a gamey boss-door lock.
+
+### Maevra / boss staging
+Maevra remains physically with the group through Beat 7 but **does not enter Beat 8 combat**.
+
+Near the final approach, the area should provide a believable last stable/defensible position—such as an intact landing, raised shelf, side recess, or equivalent—where Maevra can remain once it becomes clear that the route ahead contains an immediate large threat.
+
+Do not make this a melodramatic separation scene. Maevra understands the arrangement and the trio do not waste time pretending she is combat-capable in her current state.
+
+### Dialogue rhythm
+Beat 7 is exploration-first. Two short authored stops are sufficient:
+1. first credible disturbance that is not caused by the party;
+2. final route check confirming the only useful way forward leads toward the disturbance and establishing Maevra's safe position before Beat 8.
+
+No walking banter is needed unless Torren is actively guiding at a specific traversal point.
+
+### End state
+Beat 7 should end at the threshold of a larger flooded chamber/deeper route space. The party knows **something large is ahead**, but the actual visual reveal/identification and confrontation belong to Beat 8.
+
+### Beat-7 knowledge checkpoint
+By the end:
+- the deeper Archive has provided substantial exploration after the mural;
+- environmental pressure and non-Host danger have increased;
+- no second major lore answer has been discovered;
+- no Black Host presence has appeared;
+- the party has credible evidence that something large is moving in the flooded depths ahead;
+- they do not know what it is, why it is there, or what its origin/function may be;
+- there is no clean bypass around the forward route;
+- Maevra has a credible noncombat staging position immediately before the encounter;
+- the trio remains committed to pushing through because the Old Bastion rescue lies beyond the route they are trying to find.
+
+Handoff → **Beat 8 — Archive Leviathan**.
 
 ---
 
@@ -528,8 +615,9 @@ Current cleanup Character-Life authority:
 - Beat 4 — current rehearsal-first Draft A.
 - Beat 5 — current rehearsal-first Draft A.
 - Beat 6 — current rehearsal-first Draft A; **crest-marked northern structure revision active**.
+- Beat 7 — current working beat packet developed; dialogue pass active.
 - C06 — `Still Burns` — current working dialogue.
-- Next mainline scene: **Beat 7 — Archive Depths**.
+- Next mainline scene after Beat 7 dialogue: **Beat 8 — Archive Leviathan**.
 
 # Global reveal firewall
 Do not reveal during Chapter 2:
