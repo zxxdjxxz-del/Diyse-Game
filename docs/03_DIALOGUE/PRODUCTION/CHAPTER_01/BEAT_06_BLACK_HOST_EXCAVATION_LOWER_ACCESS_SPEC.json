@@ -18,6 +18,11 @@
         "Beat 6 — Black Host Excavation / Lower Access"
       ],
       "role": "current_chapter_01_beat_06_story_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
+      "whole_file": true,
+      "role": "direct_card_physical_state_authority"
     }
   ],
   "additional_authority_sources": [
@@ -30,6 +35,16 @@
       "path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md",
       "whole_file": true,
       "role": "maevra_character_authority"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring_lock"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md",
+      "whole_file": true,
+      "role": "knowledge_firewall_invisibility_lock"
     },
     {
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
@@ -55,14 +70,14 @@
       "the Host has scrubbed, exposed and forced selected older surfaces",
       "active Diysean Sentries or defense constructs establish that the deeper ruin is not inert"
     ],
-    "runtime_note": "HARD REVEAL BOUNDARY: no early map rubbing, no mural, no six-channel human-use imagery, no Wayfinder recognition/significance, no ancient-network explanation, no Prime/Last Sentinel/bearer information, and no claim about what the Black Host expects to find. The recovered Card remains sealed and inert throughout this beat. Sentry activation must not be framed as a Card-specific reaction. HARD WALKING-DIALOGUE BOUNDARY: nobody knows this lower route well enough to qualify as an active guide; ordinary movement through the excavation/ruin uses gameplay and silence. Dialogue occurs only at secured or deliberately paused stops. Torren may read visible ground/construction after seeing it, but may not display prior knowledge of the ruin."
+    "runtime_note": "HARD REVEAL BOUNDARY: no early map rubbing, no mural, no six-channel human-use imagery, no Wayfinder recognition/significance, no ancient-network explanation, no Prime/Last Sentinel/bearer information, and no claim establishing what the Black Host ultimately expects to find. The intact recovered Card is carried directly by Cyanis and remains inert throughout this beat. Sentry activation must not be framed as a Card-specific reaction. HARD WALKING-DIALOGUE BOUNDARY: nobody knows this lower route well enough to qualify as an active guide; ordinary movement through the excavation/ruin uses gameplay and silence. Dialogue occurs only at secured or deliberately paused stops. KNOWLEDGE FIREWALL INVISIBILITY: do not force characters to label guesses, restate unknowns, or correct one another merely to demonstrate canon compliance. Let visual evidence, silence, disagreement, incomplete conclusions, and ordinary cautious speech preserve uncertainty naturally. Torren may read visible ground/construction after seeing it, but may not display prior knowledge of the ruin."
   },
   "current_floor_state": {
     "hollow_watch_surface": "secured_enough_to_continue_downward",
     "garrison_fate": "confirmed_killed_during_or_following_black_host_seizure",
-    "black_host_goal": "unknown",
+    "black_host_goal": "unresolved",
     "torren_party_status": "temporary_combat_ally",
-    "card_state": "sealed_and_inert",
+    "card_state": "intact_carried_directly_by_cyanis_and_inert",
     "combat_party": ["cyanis", "ilyra", "torren"],
     "maevra_party_status": "noncombat_traveling_companion"
   },
