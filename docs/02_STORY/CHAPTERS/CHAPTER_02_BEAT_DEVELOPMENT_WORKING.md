@@ -505,6 +505,165 @@ Do not reveal in Beat 9:
 
 # Beat 10 — Prisoner Galleries / First Contact
 
+**Development status:** CURRENT WORKING BEAT PACKET
+
+## Purpose
+Turn Chapter 2's missing-traveler problem into direct human contact. The party has finally found the people who were being taken; this beat must establish them as individuals with agency, knowledge limits, injuries, fear, distrust, and differing immediate needs rather than as a single rescue objective or collectible crowd.
+
+This beat should:
+- make the emotional reality of the kidnapping operation concrete without relying on paperwork exposition;
+- allow reasonable prisoner distrust of an armed group appearing through an unknown hidden route;
+- establish Ilyra's treatment/consent behavior naturally;
+- distinguish immediate first contact from the later extraction-planning problem;
+- keep the party's entry sufficiently contained that the entire Bastion is not automatically alerted before Beat 12;
+- create the need for a defensible local prisoner safe area and a viable evacuation route, which Beat 11 will solve/define.
+
+## Starting state
+- the party has reached the Prisoner Galleries through the ancient secret passage;
+- living captives are visibly or audibly present;
+- the party does not yet know the full gallery layout, total captive count, each person's condition, or the Bastion's complete command structure;
+- combat party remains **Cyanis + Ilyra + Torren**;
+- Maevra is physically present but fully noncombat;
+- the party's covert entry has not yet become a Bastion-wide alarm as far as they know;
+- the prisoners do not automatically know who the party is or why they are there.
+
+## Prisoner-agency hard rule
+> **The prisoners are people, not a rescue counter.**
+
+The Prisoner Galleries should contain differentiated captives in multiple bays/holding areas or otherwise visibly distinct small groups rather than one anonymous mass waiting for the player to press `Rescue`.
+
+At story level:
+- individual prisoners may have different injuries, stamina, fears, relationships, knowledge, and willingness to trust;
+- some may want immediate movement while others may be unwilling or physically unable to move yet;
+- some may initially refuse help, treatment, or instructions;
+- refusal is not treated as irrational failure and is not overridden merely because the party means well;
+- opening a holding area does not convert its occupants into party-controlled followers;
+- the party does not need unanimous gratitude or instant trust to proceed.
+
+Do not turn the galleries into a sequence of repeated identical cell-opening interactions. Later map design should express multiple holding spaces economically.
+
+## First-contact shape
+The strongest structure is a contained, human-scale escalation:
+
+1. party reaches the first occupied gallery/holding area without immediately charging into the whole complex;
+2. prisoners notice an armed group entering from an unexpected direction and react according to their circumstances;
+3. party establishes that it is not part of the Black Host and is trying to get people out;
+4. enough trust is earned to assess immediate needs and speak with more than one captive/group;
+5. party learns that the galleries contain people in differing conditions and that some captives have previously been moved elsewhere;
+6. first contact stabilizes, but nobody pretends the evacuation problem is solved.
+
+The exact number of prisoner speakers and which individual becomes the strongest recurring voice should be decided during Agent Brain/NPC development rather than invented as a fixed exposition role here.
+
+## Local guard / alarm boundary
+The Black Host controls the Prisoner Galleries, so some local guard/security presence is plausible. However, the ancient secret passage gave the party an unexpected entry point.
+
+Story requirements:
+- the party should be able to establish first contact without the entire Bastion instantly converging on the galleries;
+- if local guards must be bypassed, distracted, quietly defeated, or confronted, exact staging belongs to map/encounter design;
+- any such local conflict should remain contained enough that Beat 11 can still occur before the party deliberately pushes into the upper Bastion;
+- do not invent a mandatory large battle here solely to mark the location change;
+- do not make the prisoners helplessly dependent on the party defeating every soldier in the fort before anyone can speak.
+
+## Ilyra consent / treatment lock
+Ilyra may recognize injuries, exhaustion, dehydration, restraint damage, or other needs supported by final NPC/visual design, but **she asks permission before examining or treating a conscious prisoner whenever consent can reasonably be obtained**.
+
+Locked behavior:
+- she does not grab, inspect, heal, or magically treat a conscious stranger without asking merely because she is the healer;
+- a prisoner may refuse examination or treatment;
+- that refusal is respected;
+- consent to treatment is not consent to relocation or to every later plan;
+- urgent incapacity/emergency situations may be handled according to ordinary emergency-care logic, but do not manufacture unconscious victims simply to bypass the consent rule.
+
+This should arise through Ilyra's Person Agent rather than through a didactic speech about consent.
+
+## Prisoner knowledge boundary
+Prisoners may plausibly know only what they have personally experienced, overheard, or observed.
+
+They may be able to establish things such as:
+- where/how some of them were taken;
+- rough conditions inside the galleries;
+- that guards move people between holding areas or out of the galleries;
+- that some captives have already been taken elsewhere and have not returned;
+- which nearby doors/routes are normally used by guards;
+- immediate practical needs or dangers within the prisoner area.
+
+They do **not** automatically know:
+- the full purpose or destination of the wider transfer operation;
+- Rhazek's ideology or complete command decisions;
+- the ancient Archive connection the party used;
+- masked Seyrik's identity/significance;
+- total numbers for everyone ever abducted;
+- anything equivalent to the retired `thirty-one transfers` accounting clue.
+
+Do not use one prisoner as an omniscient lore mouth simply to replace the deleted transfer-records beat.
+
+## Agent-Brain rehearsal packet
+For the independent rehearsals, provide immediate lived context rather than desired speeches.
+
+- **Cyanis:** they have found living captives; surprise entry is an advantage that can be lost; the group needs to establish trust and avoid creating panic or an unnecessary alarm.
+- **Ilyra:** prisoners have varying visible conditions; treatment requires consent where possible; some may need help before they can move safely.
+- **Torren:** the ancient route is behind them; the gallery's modern routes/doors may matter later; extraction route has not yet been solved.
+- **Maevra:** prisoners may reasonably distrust armed strangers; current priority is stabilizing the local situation while preserving the group's tactical advantage; she remains noncombat.
+- **Prisoner Person Agents/NPCs:** each should receive only their own captivity history, relationships, condition, observations, fears, and current knowledge. Their reactions should not be homogenized.
+
+Do not require all party members or all prisoners to speak. Interruptions, silence, refusal, suspicion, relief, anger, practical questions, and selective trust are all valid outcomes.
+
+## Presentation / gameplay rule
+This should be an authored human-contact beat, not a long gameplay loop of individually escorting NPCs.
+
+Economical HD-2D staging can use:
+- a few visually distinct prisoner groups/holding bays;
+- one or more representative NPC interactions;
+- party field models for the authored contact scene;
+- portraits/dialogue to carry most emotional specificity;
+- restrained physical staging rather than excessive animation.
+
+The player may regain limited control inside the secured/immediate gallery space if useful, but the beat should not yet become a free-form evacuation sequence.
+
+## Mandatory progression
+- party makes first direct contact with the captives;
+- prisoners are shown as differentiated people rather than an anonymous crowd;
+- initial distrust/caution is permitted and treated as reasonable;
+- the party establishes enough credibility to communicate its rescue intent;
+- Ilyra asks consent before non-emergency examination/treatment of conscious prisoners;
+- refusal of treatment/help may occur and is respected;
+- party learns that prisoners have differing conditions and readiness to move;
+- prisoners can confirm that some people have been moved from the galleries, but cannot explain the complete operation;
+- no total captive count or transfer-record substitute is established;
+- immediate first contact stabilizes without automatically solving extraction;
+- the need to secure a defensible local position and determine a viable way out becomes the next practical problem.
+
+## End state / knowledge change
+After Beat 10:
+- the party has found and spoken with the kidnapped travelers/captives;
+- enough trust exists with at least part of the prisoner population to coordinate further action, but trust is not universal or unconditional;
+- the party understands that prisoner needs and movement cannot be treated as a single command;
+- some captives may require treatment, rest, assistance, or time before movement;
+- prisoners know people have been moved away, but the party still does not know the complete purpose/destination of the wider operation;
+- the party has not yet solved how to move everyone safely out of the Bastion;
+- the covert advantage is strained but not necessarily lost at the whole-fort level;
+- the next objective is to create/hold a defensible local safe area and determine which exit can actually support evacuation.
+
+## Gameplay handoff
+→ **Beat 11 — Prisoner Safe Area / Exit Problem**
+
+## Reveal firewall
+Do not reveal in Beat 10:
+- a complete prisoner count or total abducted population;
+- a replacement for the retired `thirty-one transfers` clue;
+- the full destination/purpose of people moved out of the galleries;
+- Rhazek's full philosophy/command scene;
+- masked Seyrik's identity;
+- the western/eastern map mystery beyond what Beat 6 already established;
+- Chapter-3 Last Sentinel/Old City answers;
+- Cresthaven;
+- buried-Crest/complete underground truth;
+- Entity.
+
+---
+
+# Beat 11 — Prisoner Safe Area / Exit Problem
+
 **Development status:** NEXT TO DEVELOP
 
-Current locked function from `CHAPTER_02.md`: turn the kidnapping problem into direct human contact by having the party encounter the living captives as individuals with their own choices, injuries, distrust, and needs rather than as a rescue counter.
+Current locked function from `CHAPTER_02.md`: establish a defensible prisoner-controlled safe pocket, make clear that the Archive/waterworks route is unsuitable for general evacuation, and force the party to push into the active upper Bastion because the maintained Greenhollow-side exit/route is controlled from above.
