@@ -1,6 +1,6 @@
 # Chapter 0 — P04
 # Field Triage Camp / Ilyra / First Incomplete Response
-## REHEARSAL-FIRST PRODUCTION DRAFT A — awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT B — chapter-wide polish / awaiting user approval
 
 ---
 
@@ -72,17 +72,21 @@ Her attention catches on Cyanis.
 
 **ILYRA:** For now.
 
-Cyanis looks at her for a second.
+A beat.
 
-**CYANIS:** Do I know you?
+**CYANIS:** Name?
 
-**ILYRA:** No.
+**ILYRA:** Amarin.
 
-**CYANIS:** Good start.
+**CYANIS:** Dovaren.
 
-**ILYRA:** You came into my treatment lane.
+**ILYRA:** I know.
 
-**CYANIS:** Fair.
+**CYANIS:** Ah.
+
+**ILYRA:** You were being shouted at earlier.
+
+**CYANIS:** That'll do it.
 
 That is all the introduction gets before the crisis interrupts them.
 
@@ -226,15 +230,11 @@ A beat.
 
 **ILYRA:** Try to keep up.
 
-**CYANIS:** We just met.
+**CYANIS:** Starting strong, Amarin.
 
-**ILYRA:** I noticed.
+**ILYRA:** Move, Dovaren.
 
-A beat.
-
-**CYANIS:** Your call.
-
-**ILYRA:** Yes.
+That is the end of it.
 
 Ilyra joins the defense by her own professional decision.
 
