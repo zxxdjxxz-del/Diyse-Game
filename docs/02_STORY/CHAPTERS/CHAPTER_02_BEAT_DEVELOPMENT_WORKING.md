@@ -425,18 +425,89 @@ Handoff → **Beat 8 — Archive Leviathan**.
 ---
 
 # Beat 8 — Archive Leviathan
-**Development status:** CURRENT WORKING BEAT PACKET
+**Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
 
-This is the Chapter-2 Archive boss, not the Major Hunt Worldscar Leviathan.
+Purpose: deliver the Sunken Archive combat climax, pay off the large disturbances seeded in Beat 7, and clear the physical route deeper without converting the boss into a lore-delivery device.
 
-Locks:
-- combat party Cyanis + Ilyra + Torren;
-- Maevra never fights;
-- current one-HP-bar / two-behavior-state concept unless encounter authority revises;
-- exact stats/skills/AI/rewards belong to encounter authority;
-- victory opens physical progression, not exposition/records.
+### Starting state
+- Cyanis, Ilyra, and Torren enter the deeper flooded chamber;
+- Maevra remains at the raised/defensible position established at the end of Beat 7;
+- the trio knows only that something large has been moving ahead;
+- the way they need to investigate continues through/across this chamber;
+- no Black Host presence has appeared in the Archive.
 
-Handoff → **Beat 9**.
+### Creature reveal
+The disturbance is revealed as the large creature currently called **Archive Leviathan** in production/encounter language.
+
+Hard identity rule:
+> **The characters do not need to know, speak, or explain the production name `Archive Leviathan`.**
+
+The reveal should be physical and immediate. The trio can understand:
+- it is the source of the large water disturbances;
+- it occupies/controls the only useful route through the chamber;
+- it is aware of them and is an immediate threat;
+- simply walking past it is not a credible option.
+
+They do **not** learn:
+- its origin;
+- whether it was created, placed, trapped, or arrived naturally;
+- whether it was ever intended to guard the Archive;
+- its age;
+- any connection to later Leviathan material.
+
+Do not turn its design or defeat into evidence for one of those answers unless later encounter authority explicitly establishes it.
+
+### Pre-battle dialogue function
+Keep the exchange short. The agents should solve only the immediate problem:
+- Torren reads its position/movement and whether a bypass exists;
+- Ilyra reacts to the danger of fighting around deep water;
+- Cyanis confirms the route is blocked and commits the trio to clearing it.
+
+No mythology speech, monster classification, or speculative Ancient explanation is needed.
+
+### Battle lock
+- combat party: **Cyanis + Ilyra + Torren**;
+- **Maevra never enters combat**;
+- this is **not** Major Hunt #4 Worldscar Leviathan;
+- current structure remains **one HP bar with two behavior states** unless encounter authority revises it;
+- exact stats, skills, elemental/status interactions, AI, rewards, behavior-state thresholds, and battle presentation belong to encounter authority.
+
+### Story victory
+The trio defeats the creature decisively enough that it no longer contests the chamber or blocks progression.
+
+Hard rule:
+> **Victory opens physical progression, not exposition.**
+
+After the fight:
+- there is no spoken Ancient record, vision, memory, magical explanation, or bestiary lecture;
+- no item drop is used to explain the mural, Crest marker, Archive, or wider network unless reward authority separately requires an item for mechanics;
+- the chamber becomes safely traversable enough for the party to proceed;
+- the route beyond the creature is now physically accessible because its body/presence no longer occupies or denies the usable way forward.
+
+Do not reveal the Beat-9 secret passage during the boss death itself. Beat 8 only gets the party **deeper**.
+
+### Maevra rejoin
+Once the chamber is secure, Maevra can rejoin without drama. A short confirmation that everyone is still functional is enough. She does not need to be rescued from her safe position or apologize for not fighting.
+
+### Post-battle route check
+Torren can inspect the newly usable continuation and establish only:
+- there is a way onward;
+- it remains broadly useful for the direction they need;
+- what it actually connects to is still unknown.
+
+The group remains focused on reaching the kidnapped people.
+
+### Beat-8 knowledge checkpoint
+By the end:
+- the party has defeated the large creature responsible for the flooded-depth disturbances;
+- the trio still does not know its origin, intended function, age, or deeper significance;
+- Maevra remained entirely outside combat and has safely rejoined;
+- no new major Ancient lore answer has been delivered;
+- the route deeper into the Archive is physically open;
+- the party still has not discovered the secret passage into the Old Bastion;
+- the kidnapped people remain the immediate objective.
+
+Handoff → **Beat 9 — Secret Passage Discovery**.
 
 ---
 
@@ -615,9 +686,10 @@ Current cleanup Character-Life authority:
 - Beat 4 — current rehearsal-first Draft A.
 - Beat 5 — current rehearsal-first Draft A.
 - Beat 6 — current rehearsal-first Draft A; **crest-marked northern structure revision active**.
-- Beat 7 — current working beat packet developed; dialogue pass active.
+- Beat 7 — current rehearsal-first Draft A.
+- Beat 8 — current working beat packet developed; dialogue pass active.
 - C06 — `Still Burns` — current working dialogue.
-- Next mainline scene after Beat 7 dialogue: **Beat 8 — Archive Leviathan**.
+- Next mainline scene after Beat 8 dialogue: **Beat 9 — Secret Passage Discovery**.
 
 # Global reveal firewall
 Do not reveal during Chapter 2:
