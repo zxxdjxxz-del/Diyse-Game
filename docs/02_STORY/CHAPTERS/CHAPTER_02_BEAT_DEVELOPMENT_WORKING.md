@@ -512,13 +512,94 @@ Handoff → **Beat 9 — Secret Passage Discovery**.
 ---
 
 # Beat 9 — Secret Passage Discovery
-**Development status:** CURRENT WORKING BEAT PACKET
+**Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
 
-The party finds an old concealed passage belonging to the ancient structure. It is not a Black Host tunnel and was not known to the Dunmere elder. It crosses into the Old Bastion's reused structure and emerges directly into/at the Prisoner Galleries.
+Purpose: pay off the waterworks infiltration by revealing that the Ancient Archive physically intersects the Old Bastion's later foundations and provide a covert route directly into the Prisoner Galleries without inserting another lore or records beat.
 
-> **There is no transfer-records story beat between the Archive and the prisoners.**
+### Starting state
+- the Archive Leviathan has been defeated;
+- Maevra has rejoined Cyanis, Ilyra, and Torren;
+- the newly accessible continuation leads deeper through the Ancient structure;
+- the party still does not know whether the route truly reaches the Old Bastion;
+- no Black Host presence has been encountered in the Archive.
 
-Handoff → **Beat 10**.
+### Post-boss continuation
+The route beyond the Leviathan chamber should contain a short exploration stretch before the passage reveal. It may become somewhat drier/more structurally intact, but it remains clearly part of the Ancient complex.
+
+As the group advances, later construction begins to intrude on or abut the Ancient layer. This should be physical architectural evidence, not a written history lesson.
+
+Allowed signs:
+- newer masonry pressed against Ancient walls;
+- later reinforcement stone/ironwork beyond a seam or blocked face;
+- changes in construction technique/materials that Torren can recognize as much newer;
+- faint air movement or sound from beyond an apparently closed Ancient wall.
+
+### Concealed Ancient passage
+Torren notices that one apparent wall/closure is not simply solid or collapsed. It is a **deliberately concealed Ancient access**.
+
+Hard origin rule:
+> **The secret passage belongs to the Ancient structure. The Black Host did not build it.**
+
+The exact release mechanism remains area/implementation work, but Chapter-2 story requires that it be operable from the Archive side without a new key quest or lore item. It may use a surviving manual release, concealed mechanical catch, pressure mechanism, or equivalent grounded interaction appropriate to the Ancient architecture.
+
+The party does not need to understand the passage's original purpose.
+
+### Host knowledge firewall
+Nothing should imply the Black Host routinely knows or uses this route.
+
+Do not add:
+- Host footprints/patrols in the Archive;
+- a Host-made tunnel;
+- a convenient Host key left behind;
+- transfer arrows/signage;
+- records explaining the route;
+- evidence that prisoners normally move through it.
+
+The route's value is precisely that the Old Bastion was built/rebuilt over much older infrastructure without this concealed access becoming part of normal fort circulation.
+
+### First proof of the Old Bastion
+When the concealed access opens, the group sees the architectural relationship directly:
+- Ancient construction on their side;
+- later fort masonry/reinforcement on the far side;
+- the route has reached the **lower reused foundations of the Old Bastion**.
+
+Torren may identify the newer construction as fort work based on practical experience. The party can now conclude with useful confidence that the elder's waterworks gamble actually worked.
+
+This is not an excuse for a long architectural explanation.
+
+### Immediate prisoner cue
+The secret passage is short. It does **not** become another dungeon between the Archive and the prisoners.
+
+As the group reaches the far side, they receive an immediate human cue—such as low voices, coughing, movement, or confinement sounds—from directly beyond/within the adjacent galleries.
+
+Hard pacing rule:
+> **Secret passage → Old Bastion foundation → Prisoner Galleries. No transfer-records scene in between.**
+
+The party does not stop to search for manifests, totals, destination records, or administrative evidence before helping the people they can hear.
+
+### Dialogue rhythm
+One authored discovery stop is enough:
+1. Torren notices the concealed access;
+2. the group opens it;
+3. they recognize later fort construction beyond it;
+4. they hear people nearby;
+5. immediate priority shifts from route-finding to first contact/rescue.
+
+No mystical activation, Ancient voice, vision, or explanatory hologram is needed.
+
+### Beat-9 knowledge checkpoint
+By the end:
+- the party has discovered a concealed passage belonging to the Ancient complex;
+- they can open/use it from the Archive side during Chapter 2;
+- they do not know its original Ancient purpose;
+- there is no evidence the Black Host built, routinely used, or knew about the route;
+- physical construction confirms the Archive intersects the reused lower foundations of the Old Bastion;
+- the party now knows their covert route succeeded;
+- human voices/sounds immediately beyond establish that people are present in the adjacent galleries;
+- no transfer records, exact totals, onward destination, Rhazek intelligence, or Seyrik information has been found;
+- the party has not yet spoken with the prisoners or learned the Bastion's holding/transit function.
+
+Handoff → **Beat 10 — Prisoner Galleries / First Contact**.
 
 ---
 
@@ -687,9 +768,10 @@ Current cleanup Character-Life authority:
 - Beat 5 — current rehearsal-first Draft A.
 - Beat 6 — current rehearsal-first Draft A; **crest-marked northern structure revision active**.
 - Beat 7 — current rehearsal-first Draft A.
-- Beat 8 — current working beat packet developed; dialogue pass active.
+- Beat 8 — current rehearsal-first Draft A.
+- Beat 9 — current working beat packet developed; dialogue pass active.
 - C06 — `Still Burns` — current working dialogue.
-- Next mainline scene after Beat 8 dialogue: **Beat 9 — Secret Passage Discovery**.
+- Next mainline scene after Beat 9 dialogue: **Beat 10 — Prisoner Galleries / First Contact**.
 
 # Global reveal firewall
 Do not reveal during Chapter 2:
