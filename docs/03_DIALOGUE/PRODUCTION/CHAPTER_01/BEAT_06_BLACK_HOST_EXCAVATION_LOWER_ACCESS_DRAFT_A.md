@@ -1,213 +1,132 @@
 # Chapter 1 — Beat 6
 # Black Host Excavation / Lower Access
-## DIALOGUE ENGINE PRODUCTION DRAFT C — rehearsal-first + random-encounter correction / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT D — established gameplay presentation normalization / awaiting user approval
 
 ---
 
-### [GAMEPLAY — FORCED DESCENT]
+### [GAMEPLAY — BLACK HOST EXCAVATION]
 
 **Player control is active.**
 
-The party descends through the opening exposed beneath Hollow Watch.
+This is hostile dungeon traversal.
 
-Nobody here knows the route well enough to lead it.
+During ordinary movement, **Cyanis is the only visible party field character**.
 
-There is **no walking dialogue**.
+Ilyra, Torren, and Maevra remain present in story state and may appear when a story scene triggers.
 
-At first, the passage still belongs to the fort: later Yahtrean stone, old brackets, drainage, and recent Black Host bracing.
+Nobody knows this lower route well enough to guide it, so there is **no walking dialogue**.
 
-Then the material changes.
+Combat party: **Cyanis + Ilyra + Torren**.  
+Maevra remains a non-combat traveling companion.  
+Cyanis carries the intact Card itself; it remains inert.
 
-Older fitted blocks take over. Thin green-gold lines appear beneath stripped later surfaces. Black Host lamps, pry marks, braces, and cleared debris show that the excavation has been underway for days.
+Ordinary Black Host personnel and, deeper in the ruin, Diysean Sentries are **random encounters**.
 
-Cyanis carries the intact Card itself. It remains inert.
-
-**Combat party:** Cyanis + Ilyra + Torren.  
-**Maevra:** traveling with the group, never represented in battle.
-
-**Random encounters are active.** Ordinary Black Host personnel occupy the excavation through the encounter system. Deeper in the ruin, Diysean Sentries enter the random encounter pool. No ordinary enemy is staged as a fixed on-map battle or mandatory scripted activation.
+The existing dungeon art carries the required transition from later Yahtrean construction into the older Diysean structure and the evidence of sustained Black Host excavation. The dialogue script does not itemize every tool, brace, scrape, or discarded object.
 
 ---
 
-### [STORY STOP — STRIPPED WALL]
+### [STORY TRIGGER — EXCAVATION WORK]
 
-At a wall where several abandoned test cuts surround one heavily worked seam, the party stops.
+At a progression point where the player has seen enough of the Black Host work, movement pauses and the relevant characters may appear as simple field models.
 
-Three broken pry heads lie beneath it.
+**CYANIS:** They've been at this a while.
 
-Torren crouches and picks one up.
+**MAEVRA:** Long enough to learn what didn't work.
 
-**TORREN:** Hm.
+**TORREN:** Didn't make them stop.
 
-**CYANIS:** That's encouraging.
+**ILYRA:** They kept forcing farther in.
 
-Torren turns the broken head in his hand.
+**CYANIS:** So whatever they wanted wasn't near the surface.
 
-**TORREN:** Bent before it snapped.
+A beat.
 
-Maevra looks over the crossed-out chalk marks.
+**MAEVRA:** Apparently not.
 
-**MAEVRA:** They tried half the room first.
+The scene ends. No broken-tool handling, crouching, brace inspection, or environmental-comedy business is required.
 
-**CYANIS:** Then got stubborn.
+---
 
-Torren drops the broken metal.
-
-It lands beside a fourth pry head partly hidden beneath Cyanis's boot.
-
-Torren looks at the boot.
-
-Cyanis steps aside.
-
-**CYANIS:** Four.
-
-**TORREN:** Better.
-
-Ilyra is looking overhead.
-
-**ILYRA:** Torren.
-
-He follows her gaze to a split brace.
-
-**TORREN:** Yeah.
-
-**ILYRA:** How much do I hate that?
-
-**TORREN:** Enough to stand somewhere else.
-
-Ilyra moves immediately. Cyanis follows. Maevra is last.
-
-**MAEVRA:** Wonderful room.
-
-A distant hammer sounds somewhere deeper.
-
-Cyanis looks toward the next passage.
-
-**CYANIS:** Still working.
-
-**MAEVRA:** Then so are we.
+### [GAMEPLAY — DEEPER ACCESS]
 
 **Player control returns.**
 
----
+Cyanis remains the sole visible traversal character.
 
-### [GAMEPLAY — EXCAVATION GALLERY]
+The environment becomes predominantly older Diysean construction. Any later Yahtrean controls or Black Host forcing work already present in the dungeon can show that different eras have used or altered the same structure.
 
-The player continues through the same excavation kit.
+Random encounters continue. Diysean Sentries may now appear through the normal encounter pool.
 
-The visual transition keeps moving from later fort construction toward older Diysean structure. A Yahtrean lever assembly has been mounted onto an older recessed housing along the route.
+There is no scripted first-Sentry activation or mandatory ordinary battle.
 
-Random encounters continue. Black Host enemies remain ordinary random encounters. As the party reaches deeper protected spaces, Diysean Sentries may appear in the random encounter pool.
-
+No map rubbing appears.  
+No mural appears.  
+No six-channel human-use imagery appears yet.  
+No one names the Junction or assigns the ruin a function.  
 The Card remains inert.
 
 No dialogue occurs during traversal.
 
 ---
 
-### [STORY STOP — OLD AND NEW]
+### [STORY TRIGGER — OLD AND NEW]
 
-At the lever assembly, Cyanis looks from the heavy later mechanism to the older housing beneath it.
+At the established point where later construction visibly interfaces with older Diysean structure, movement pauses.
+
+The relevant characters may appear as simple field models. The existing structure is the visual; no one needs to manipulate it.
 
 **CYANIS:** That's ugly.
 
-**MAEVRA:** Worked well enough for somebody to keep it.
+**MAEVRA:** Still worked for somebody.
 
-Torren looks at the stone around the housing.
+**TORREN:** Fort was using what was already here.
 
-**TORREN:** Fort bolted itself onto whatever was already here.
-
-Ilyra points at the damaged linkage.
-
-**ILYRA:** Then the Host tore the handle off.
+**ILYRA:** Then the Host tried to force it farther.
 
 **MAEVRA:** Subtle people.
 
 **CYANIS:** We keep meeting those.
 
-Torren looks at the broken iron.
-
-**TORREN:** They hit it hard.
-
-**CYANIS:** Did it move?
-
-Torren looks at the snapped linkage.
-
-**TORREN:** Not for them.
-
-Maevra checks a grease-black work sheet already wedged behind the frame.
-
-**MAEVRA:** Whoever wrote this disagreed with the lever.
-
-**CYANIS:** Strongly?
-
-She shows him the torn, blood-marked corner.
-
-**MAEVRA:** Looks personal.
-
-Nobody laughs very much.
-
-The stop ends.
+The scene ends.
 
 ---
 
-### [GAMEPLAY — DEEPER FORCED ACCESS]
+### [GAMEPLAY — LOWER RUIN]
 
-The player continues into predominantly older construction.
+**Player control returns.**
 
-Black Host forcing damage, lamps, bracing, and cleared debris remain enough to show the route they took.
+Normal Cyanis-only dungeon traversal continues.
 
-Diysean Sentries are now part of the ordinary random encounter pool alongside any remaining Black Host resistance appropriate to the encounter table.
+Random encounters remain active.
 
-Their presence establishes through normal gameplay that the deeper ruin is not inert. The dialogue script does not force a first Sentry fight, place a fixed activation, or require the player to have seen a particular formation before progressing.
-
-No map rubbing appears.  
-No mural appears.  
-No six-channel imagery appears yet.  
-No one names Wayfinder.  
-The Card remains inert.
-
-No moving dialogue is used.
+The Black Host forcing work becomes less complete as the player nears the next major chamber. That is enough to communicate that their progress changed abruptly; the dialogue script does not add drag marks, dropped tools, broken props, distant hammer cues, or a trail of supporting evidence.
 
 ---
 
-### [THRESHOLD STOP — LOWER JUNCTION APPROACH]
+### [THRESHOLD SCENE — LOWER JUNCTION]
 
-The forced corridor opens toward a much wider dark space.
+At the threshold to the wider lower junction, movement pauses and the relevant characters may appear as field models.
 
-Black Host work becomes rougher near the threshold.
+The wider chamber ahead is the only new visual the scene needs.
 
-Maevra looks at the unfinished work.
+**MAEVRA:** That's where their work stops.
 
-**MAEVRA:** They left this fast.
+**CYANIS:** Suddenly.
 
-Ilyra looks at a dark drag mark toward the wider chamber.
+**ILYRA:** They didn't finish.
 
-**ILYRA:** Some of them did.
+**TORREN:** Doesn't mean whatever stopped them is gone.
 
-**CYANIS:** Lovely.
-
-Torren tests the floor.
-
-**TORREN:** Floor holds.
-
-**CYANIS:** Best thing I've heard all day.
-
-**TORREN:** Don't celebrate yet.
-
-A faint green-gold reflection sits deeper inside — the ruin catching lamplight, not a Card response.
-
-The group readies.
-
-Nobody offers a theory.
+A beat.
 
 **CYANIS:** Ready?
 
 **ILYRA:** Yes.
 
-Torren nods.
-
 **MAEVRA:** Go.
+
+Scene ends.
 
 ---
 
@@ -220,31 +139,32 @@ Current objective:
 **Enter the lower junction.**
 
 Story state:
-- sustained Black Host excavation is established through the existing environment;
-- the route transitions from later Yahtrean construction into older Diysean structure;
-- ordinary Black Host enemies and Diysean Sentries are random encounters;
-- Sentries establish through normal encounter gameplay that the deeper ruin is active without a scripted activation scene;
+- sustained Black Host excavation is established by the dungeon itself rather than a chain of prop inspections;
+- the route has transitioned from later Yahtrean construction into older Diysean structure;
+- ordinary Black Host enemies and Diysean Sentries remain random encounters;
+- the deeper ruin is clearly active without a scripted Sentry activation scene;
+- the Black Host's work stops abruptly near the lower junction;
 - nobody identifies the ruin's original purpose or the Host's ultimate target;
-- no map rubbing, mural, six-channel human-use clue, Wayfinder significance, Prime explanation, bearer confirmation, or ancient-network explanation has occurred;
-- Cyanis carries the intact Card directly and it remains inert.
+- no map rubbing, mural, six-channel human-use clue, Junction significance, Prime explanation, bearer confirmation, or ancient-network explanation has occurred;
+- Cyanis carries the intact Card and it remains inert.
 
-Traveling group:
-**Cyanis Dovaren + Ilyra Amarin + Maevra Solmar + Torren Harth**
-
-Combat party:
-**Cyanis Dovaren + Ilyra Amarin + Torren Harth**
+Traveling group: **Cyanis + Ilyra + Maevra + Torren**  
+Combat party: **Cyanis + Ilyra + Torren**
 
 Torren remains a temporary combat ally.
 
-Next mandatory story beat:
-**Beat 7 — Lower Junction / Six Channels.**
+Next mandatory story beat: **Beat 7 — Lower Junction / Six Channels.**
 
 ---
 
-## Encounter / rehearsal check
+## Presentation / canon check
 
-**Random encounters:** no ordinary Black Host or Diysean-defense enemy is a fixed battle, scripted ambush, mandatory room clear, or authored activation. Boss encounters remain separate.
+**Traversal:** Cyanis only during ordinary excavation/ruin exploration.
 
-**Human layer:** dialogue occurs at story stops, not because a specific random fight happened.
+**Triggered scenes:** the relevant cast may appear at the excavation-work stop, old/new structure stop, and lower-junction threshold.
 
-**Walking dialogue:** none. Nobody knows this route well enough to be an active guide.
+**Walking dialogue:** none. Nobody is an active guide in the unknown lower ruin.
+
+**Random encounters:** no ordinary Black Host or Diysean-defense enemy is converted into a fixed battle or scripted activation.
+
+**Reduction:** removed broken-pry-head counting, crouching/handling, overhead brace business, blood-marked work-sheet prop comedy, lever manipulation assumptions, drag-mark inspection, floor testing, distant hammer cue, and similar micro-staging.
