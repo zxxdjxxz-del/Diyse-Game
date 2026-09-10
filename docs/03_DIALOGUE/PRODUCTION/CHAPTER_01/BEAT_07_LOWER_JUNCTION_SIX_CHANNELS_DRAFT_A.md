@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 7
 # Lower Junction / Six Channels
-## DIALOGUE ENGINE PRODUCTION DRAFT C — established gameplay presentation normalization / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT D — chapter-wide dialogue polish + established gameplay presentation / awaiting user approval
 
 ---
 
@@ -38,7 +38,7 @@ The relevant characters may appear as simple field models in the chamber. Portra
 
 **CYANIS:** Wounded?
 
-**ILYRA:** Could be sick.
+**ILYRA:** Or sick.
 
 **MAEVRA:** Children too.
 
@@ -48,31 +48,25 @@ A beat.
 
 Another beat.
 
-**TORREN:** Those aren't.
+**TORREN:** Those are coming out.
 
 **CYANIS:** Evacuation?
 
-**MAEVRA:** Maybe people came back out later.
+**MAEVRA:** Not a simple one.
 
-**ILYRA:** Or it wasn't only for emergencies.
+**ILYRA:** Could be more than one moment.
 
-**TORREN:** Lot of ways through for one simple job.
+Torren keeps looking at the relief.
 
-**CYANIS:** Transit?
-
-**TORREN:** Could be.
-
-**ILYRA:** Could still be shelter.
-
-**MAEVRA:** Could be both.
-
-Nobody settles it.
-
-**CYANIS:** Whatever it was, civilians used it.
+**TORREN:** Carts. Animals. Six passages.
 
 A beat.
 
-That is enough.
+**TORREN:** People used this place a lot.
+
+**CYANIS:** A lot of people.
+
+That is enough. Nobody names the ancient system or settles what the passages were for.
 
 The scene ends.
 
@@ -98,39 +92,15 @@ At the channel carrying the Black Host breach farther inward, movement pauses an
 
 **CYANIS:** They tried the others first.
 
-**MAEVRA:** Looks like it.
-
-**TORREN:** This one opened.
-
-**CYANIS:** Good enough for them.
-
-**TORREN:** Apparently.
+**MAEVRA:** Then this one opened.
 
 **ILYRA:** And they kept going after the Sentries.
 
-**MAEVRA:** Of course they did.
+A beat.
 
-**CYANIS:** We judging them or following them?
+**TORREN:** So do we.
 
-**MAEVRA:** Both.
-
-**TORREN:** Efficient.
-
-The exchange ends.
-
----
-
-### [THRESHOLD — FORCED INNER SECTION]
-
-The same scene carries directly into the next objective.
-
-**CYANIS:** Ready?
-
-**ILYRA:** Yes.
-
-**TORREN:** Yeah.
-
-**MAEVRA:** Go.
+**MAEVRA:** Carefully.
 
 Scene ends.
 
@@ -148,7 +118,7 @@ Story state:
 - the party has found one circular Diysean junction with six damaged channels;
 - the required relief shows adults, children, handcarts, animals, and people on litters using the passages;
 - the imagery shows movement both toward and away from openings;
-- evacuation, transit, shelter, or mixed use are considered but not confirmed;
+- the party can tell the structure saw substantial civilian use, but does not resolve whether that use was evacuation, transit, shelter, or some combination;
 - the room is not a geographic map and does not spend the later mural payoff;
 - the Black Host route continues through one damaged channel;
 - Cyanis carries the intact Card directly and it remains inert;
@@ -163,7 +133,7 @@ Next mandatory story beat: **Beat 8 — Forced Inner Section.**
 
 ---
 
-## Presentation / canon check
+## Presentation / dialogue check
 
 **Traversal:** Cyanis only during ordinary lower-junction exploration.
 
@@ -171,6 +141,8 @@ Next mandatory story beat: **Beat 8 — Forced Inner Section.**
 
 **Dialogue:** portraits + dialogue box carry nearly all performance.
 
-**Reduction:** removed leaning, pointing, repeated looking around the relief, floor checking, weapon-ready gestures, Wardrod adjustment, combat-line movement, extra lighting/camera prescriptions, and other micro-staging.
+**Knowledge-firewall polish:** the old `maybe / could be / could still be / could be both` ladder is gone. The cast reacts to what is actually visible, disagrees only as much as natural people would, and leaves the original function unresolved without sounding like they are policing canon.
+
+**Transition polish:** removed the second `Ready? / Yes / Yeah / Go` sequence. The route-onward exchange now ends once the decision lands.
 
 **Required visual retained:** one six-channel chamber and the one human-use relief band remain because they are the actual story discovery.
