@@ -1,0 +1,38 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH01_C05_NO_SPOILERS_REHEARSAL_FIRST",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 cleanup window — optional Character-Life C05",
+  "production_ready": false,
+  "participants": ["ilyra", "maevra", "cyanis", "torren"],
+  "scene_purpose": "Use Ilyra changing Maevra's splint as an ordinary reason for the two women to spend time together, quietly reinforce the Chapter-1 broken-arm state and healing-magic limitation, then let the scene become an off-duty argument about Maevra's terrible serialized fiction rather than a medical lecture or Cyanis-management scene.",
+  "story_sources": [
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_MAEVRA_BROKEN_ARM_LOCK.md", "whole_file": true, "role": "maevra_injury_and_healing_limit_authority"}
+  ],
+  "additional_authority_sources": [
+    {"path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md", "whole_file": true, "role": "maevra_character_and_bad_fiction_authority"},
+    {"path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md", "whole_file": true, "role": "ilyra_character_and_warden_medical_authority"},
+    {"path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md", "whole_file": true, "role": "cyanis_character_authority"},
+    {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "torren_character_authority"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_authoring_lock"},
+    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "camp_presentation_authority"}
+  ],
+  "scene_context_seed": {
+    "location_name": "Junction-area camp",
+    "time": "evening",
+    "scene_type": "optional_character_life",
+    "runtime_note": "Ilyra removes/checks/replaces Maevra's splint and uses one restrained healing-magic effect to ease pain. The magic does not mend the fracture. Keep medical staging economical: old/new splint state, one brief magic cue, portraits/dialogue. Maevra reads a bad serialized adventure-romance while Ilyra works. The bad-fiction conversation becomes the dominant scene. Cyanis can join later; Torren contributes only briefly."
+  },
+  "required_character_truths": [
+    "Maevra's arm was broken during the Broken Convoy attack before Chapter 1.",
+    "The arm remains broken at Junction camp.",
+    "Ilyra can maintain the splint and ease pain with magic but cannot magically mend the broken bone.",
+    "Maevra genuinely enjoys bad popular fiction and dislikes spoilers.",
+    "Ilyra and Maevra get an adult friendship beat independent of managing Cyanis.",
+    "Cyanis joins the ridiculous conversation rather than becoming its emotional subject.",
+    "Torren remains peripheral."
+  ],
+  "forbidden_presentation": ["elaborate_medical_animation", "magic_heals_fracture", "medical_system_lecture", "cyanism_management_scene", "constant_book_prop_animation", "relationship_declaration"],
+  "forbidden_reveals": ["junction_lore_expansion", "cistern_devourer_progression", "prime_or_last_sentinel_explanation", "bearer_or_authorization_explanation", "entity"],
+  "production_cost_ceiling": "low_reuse_camp_assets_portrait_led_with_one_medical_state_change"
+}
