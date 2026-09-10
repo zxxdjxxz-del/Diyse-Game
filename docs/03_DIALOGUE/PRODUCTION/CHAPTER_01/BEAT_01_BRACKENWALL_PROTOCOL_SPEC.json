@@ -4,86 +4,46 @@
   "chapter_id": "chapter_01",
   "story_position": "Chapter 1 — Beat 1 — Brackenwall / Protocol",
   "production_ready": false,
-  "participants": [
-    "cyanis",
-    "ilyra",
-    "maevra",
-    "brackenwall_custody_officer"
-  ],
-  "participant_profile_sources": {
-    "brackenwall_custody_officer": "docs/01_CHARACTERS/SUPPORTING/Chapter_01_Brackenwall_Role_Profiles.md"
-  },
-  "scene_purpose": "Carry the Chapter-0 Card incident into Chapter 1, demonstrate a new proximity-related custody anomaly during one reasonable formal transfer attempt, establish Maevra Solmar as the commander taking responsibility, and set Greenhollow/Torren Harth as the immediate route objective while obeying the established Brackenwall hub and portrait-dialogue presentation.",
+  "participants": ["cyanis", "ilyra", "maevra", "brackenwall_custody_officer"],
+  "participant_profile_sources": {"brackenwall_custody_officer": "docs/01_CHARACTERS/SUPPORTING/Chapter_01_Brackenwall_Role_Profiles.md"},
+  "scene_purpose": "Carry the Chapter-0 Card incident into Chapter 1, demonstrate a new proximity-related custody anomaly, establish Maevra Solmar as the commander taking responsibility, economically establish that Maevra's arm was broken during the Broken Convoy attack and is already splinted, and set Greenhollow/Torren Harth as the immediate route objective.",
   "story_sources": [
-    {
-      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
-      "sections": [
-        "Locked Chapter-1 geography",
-        "Locked travel / combat presentation",
-        "Beat 1 — Brackenwall / Protocol"
-      ],
-      "role": "current_chapter_01_beat_01_story_authority"
-    },
-    {
-      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
-      "whole_file": true,
-      "role": "later_explicit_physical_card_state_correction"
-    }
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Locked Chapter-1 geography", "Locked travel / combat presentation", "Beat 1 — Brackenwall / Protocol"], "role": "current_chapter_01_beat_01_story_authority"},
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_MAEVRA_BROKEN_ARM_LOCK.md", "whole_file": true, "role": "maevra_chapter_1_injury_authority"},
+    {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "later_explicit_physical_card_state_correction"}
   ],
   "additional_authority_sources": [
-    {
-      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
-      "whole_file": true,
-      "role": "current_field_scene_hub_camp_and_trigger_presentation_lock"
-    },
-    {
-      "path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md",
-      "whole_file": true,
-      "role": "portrait_and_dialogue_box_presentation"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
-      "whole_file": true,
-      "role": "rehearsal_first_dialogue_workflow_and_reductive_staging"
-    }
+    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "current_field_scene_hub_camp_and_trigger_presentation_lock"},
+    {"path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md", "whole_file": true, "role": "portrait_and_dialogue_box_presentation"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_dialogue_workflow_and_reductive_staging"}
   ],
   "scene_context_seed": {
     "location_name": "Brackenwall",
     "area_phase": "safe_working_hub",
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
-    "runtime_note": "Brackenwall is a hub: relevant party members and NPCs may already be present as field models. Ordinary dialogue is still portraits + dialogue box and does not require micro-choreography. The only specifically authored physical story actions are the Card transfer away from Cyanis, Cyanis's brief reaction, the green-gold proximity line, and the Card's return. The Chapter-0 recovery casing is destroyed and must not reappear. Do not add wagon/food/quartermaster/background-business vignettes merely to make the hub feel alive; that belongs to the area presentation."
+    "runtime_note": "Brackenwall is a hub. Maevra enters already wearing a field splint on the arm broken during the Broken Convoy attack. Establish this once through concise dialogue; Ilyra can say she will change/check the splint before departure. Maevra may travel but does not fight in Chapter 1. Do not invent arm laterality. Ordinary dialogue remains portraits + dialogue box. The Chapter-0 recovery casing is destroyed and must not reappear."
   },
   "current_floor_state": {
     "card_state": "intact_exposed_card_carried_by_cyanis_after_chapter_0_casing_break",
     "party_state": "cyanis_and_ilyra_permanent_combat_pair",
-    "maevra_party_status": "noncombat_traveling_companion_after_beat",
+    "maevra_injury_state": "arm_broken_during_broken_convoy_attack_already_set_and_splinted",
+    "maevra_party_status": "noncombat_traveling_companion_due_immediate_chapter_1_injury_state",
     "location_presentation": "hub_characters_may_be_present_as_field_models",
     "dialogue_presentation": "portraits_plus_dialogue_box_with_simple_field_placement",
     "chapter_1_started": true
   },
   "required_story_beats": [
     "Formal Brackenwall intake confirms the Card survived and the recovery casing did not.",
-    "One reasonable custody transfer attempt moves the Card away from Cyanis.",
-    "Cyanis reacts and the Card produces a green-gold proximity-linked response.",
-    "Returning the Card stops the response.",
-    "Brackenwall stops testing the separation rather than repeating it.",
-    "Maevra takes responsibility for the situation and keeps the Card with Cyanis.",
-    "Caelora remains the larger destination.",
-    "Greenhollow is set as the immediate destination and Torren Harth as the route specialist Maevra wants."
+    "One reasonable custody transfer attempt moves the Card away from Cyanis and produces a proximity-linked response.",
+    "Returning the Card stops the response and Brackenwall stops testing separation.",
+    "Maevra arrives already splinted and the dialogue identifies the broken arm as a Broken Convoy injury.",
+    "Ilyra establishes that she will change/check the splint before departure.",
+    "Maevra makes clear that she is traveling but not fighting.",
+    "Maevra takes responsibility for the Card situation.",
+    "Caelora remains the larger destination; Greenhollow and Torren Harth are the immediate route objective."
   ],
-  "forbidden_presentation": [
-    "micro_choreography_for_ordinary_dialogue",
-    "background_business_vignettes_authored_by_dialogue_script",
-    "repeated_prop_handling_for_flavor",
-    "fully_3d_cinematic_staging_assumption"
-  ],
-  "forbidden_reveals": [
-    "prime_identity",
-    "last_sentinel_identity",
-    "bearer_or_authorization_explanation",
-    "entity",
-    "ancient_network_explanation"
-  ],
+  "forbidden_presentation": ["micro_choreography_for_ordinary_dialogue", "background_business_vignettes_authored_by_dialogue_script", "repeated_prop_handling_for_flavor", "fully_3d_cinematic_staging_assumption"],
+  "forbidden_reveals": ["prime_identity", "last_sentinel_identity", "bearer_or_authorization_explanation", "entity", "ancient_network_explanation"],
   "production_cost_ceiling": "strictly_reductive_hub_portrait_presentation"
 }
