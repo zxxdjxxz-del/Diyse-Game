@@ -10,7 +10,7 @@
     "maevra",
     "torren"
   ],
-  "scene_purpose": "Let Torren fully perform the guide role he has now accepted; make southern Briar Passage a substantial playable route region rather than a connective corridor; establish the overgrown old side access that will only become meaningful after Wayfinder; build the Briarhide Stalker as a naturally occurring powerful predator through field evidence and a later clear sighting; and carry the party to the last stretch before Wayfinder without adding new Ancient-system answers.",
+  "scene_purpose": "Let Torren fully perform the guide role he has now accepted; make southern Briar Passage a substantial playable route region rather than a connective corridor; establish the overgrown old side access that will only become meaningful after the hidden monument map is revealed at the Junction; build the Briarhide Stalker as a naturally occurring powerful predator through field evidence and a later clear sighting; and carry the party to the last stretch before the Junction without revealing the monument early.",
   "story_sources": [
     {
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
@@ -21,7 +21,17 @@
         "Beat 13 — Briarhide Stalker / Chapter-1 Final Boss",
         "Beat 14 — Wayfinder Junction / Six Ways Through"
       ],
-      "role": "current_chapter_01_beat_12_story_authority"
+      "role": "base_chapter_01_beat_12_story_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md",
+      "whole_file": true,
+      "role": "latest_explicit_junction_monument_and_torren_knowledge_correction"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
+      "whole_file": true,
+      "role": "direct_card_physical_state_authority"
     }
   ],
   "additional_authority_sources": [
@@ -46,6 +56,16 @@
       "role": "maevra_character_authority"
     },
     {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_and_reductive_hd2d_contract"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "ordinary_enemy_random_encounter_lock"
+    },
+    {
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
       "whole_file": true,
       "role": "walking_dialogue_hard_lock"
@@ -54,21 +74,6 @@
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md",
       "whole_file": true,
       "role": "knowledge_firewall_must_remain_author_side_not_dialogue_tic"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
-      "whole_file": true,
-      "role": "scene_construction_authoring_contract"
-    },
-    {
-      "path": "docs/04_WORLD_AND_LORE/LIVED_WORLD_SOCIAL_CONTEXT.md",
-      "whole_file": true,
-      "role": "lived_world_context"
-    },
-    {
-      "path": "docs/12_ECONOMY_AND_REWARDS/LIVED_ECONOMY_CONTEXT.md",
-      "whole_file": true,
-      "role": "lived_economy_context"
     }
   ],
   "scene_context_seed": {
@@ -80,34 +85,39 @@
       "deeper maintained and half-reclaimed Briar route traces",
       "old stone-lined cuts and service openings that no longer function as sensible modern routes",
       "meaningful side paths and field landmarks without a route-choice puzzle",
-      "increasingly recognizable distant Wayfinder formation",
+      "the route increasingly approaches the known ancient crossroads Torren calls the Junction",
+      "the monument shown in the Hollow Watch mural is NOT visible from southern Briar because its present-day stone surface is heavily concealed by vines and moss",
       "ordinary natural predator evidence that escalates toward a clear Briarhide Stalker sighting"
     ],
-    "runtime_note": "Torren is genuinely leading the party, so limited walking dialogue is legal only when it materially belongs to his guidance or immediate route observation. Most traversal remains gameplay and silence. KNOWLEDGE FIREWALL IS INVISIBLE: Torren simply speaks from local ground, animal, route, and firsthand-place knowledge; do not make him repeatedly announce that he does not know more. Use silence, concise answers, decisions, and ordinary speculation instead of disclaimer loops. The overgrown stone-lined side access is only an impractical old route feature here. Do not identify it as a cistern route, Hunt entrance, Ancient node, tunnel system, or hidden objective. The Briarhide Stalker is natural wildlife: no corruption, control, Black Host device, special wound, possession, or puzzle condition. The Card remains sealed and inert."
+    "runtime_note": "Torren is genuinely leading the party, so limited walking dialogue is legal only when it materially belongs to his guidance or immediate route observation. Most traversal remains gameplay and silence. Torren knows the Junction as an ancient crossroads and knows how the modern roads meet there, but he has never seen the hidden monument or its map surface. Do NOT show a distant stone-and-metal Wayfinder silhouette, do NOT have Torren recognize the monument from the mural, and do NOT use Wayfinder as his spoken name for the place. The Hollow Watch mural has given the group reason to inspect the Junction because it showed a prominent monument standing at the crossroads. The present-day monument reveal belongs to the later Junction scene, where vines and moss are physically cleared from the stone before the map is seen. KNOWLEDGE FIREWALL IS INVISIBLE: do not make characters repeatedly announce these boundaries. The overgrown stone-lined side access is only an impractical old route feature here. Do not identify it as a cistern route or Hunt entrance. The Briarhide Stalker is natural wildlife: no corruption, control, Black Host device, special wound, possession, or puzzle condition. Cyanis carries the intact Card itself and it remains inert. Ordinary enemies remain random encounters."
   },
   "current_floor_state": {
     "larger_destination": "Caelora",
     "next_practical_destination": "Dunmere",
-    "immediate_route_goal": "southern Briar toward the Wayfinder-area corridor",
+    "immediate_route_goal": "southern Briar toward the Junction crossroads",
     "combat_party": ["cyanis", "ilyra", "torren"],
     "maevra_party_status": "noncombat_traveling_companion",
     "torren_party_status": "permanent_party_member_and_active_guide",
-    "card_state": "sealed_with_cyanis"
+    "card_state": "intact_directly_carried_by_cyanis_and_inert",
+    "torren_junction_knowledge": "knows_crossroads_and_route_not_hidden_monument",
+    "junction_monument_visibility": "concealed_by_vines_and_moss_until_arrival"
   },
   "required_story_beats": [
     "Torren actively leads the group through deeper southern Briar using practical local expertise that appears through route choices and useful observations rather than repeated verbal disclaimers.",
-    "The area receives substantial uninterrupted exploration and combat time.",
+    "The area receives substantial uninterrupted exploration and random-encounter combat time.",
     "Torren points out a heavily overgrown old stone-lined side access branching away from the useful route and declines it because it is impractical and not their direction.",
     "Early natural field evidence establishes that a very large predator is active in this part of Briar Passage.",
     "Later evidence strengthens the predator read without implying unnatural causality.",
-    "The Wayfinder-like formation becomes increasingly recognizable as the real landmark seen in the Hollow Watch mural.",
+    "Torren's navigation makes clear that the party is approaching the Junction crossroads, but the mural monument itself remains hidden and unseen.",
     "The party receives a clear Briarhide Stalker sighting before the final encounter.",
-    "Beat ends with the Stalker as the immediate natural threat blocking the last stretch toward Wayfinder."
+    "Beat ends with the Stalker as the immediate natural threat blocking the last stretch toward the Junction."
   ],
   "forbidden_reveals": [
     "cistern_devourer_hunt_identity_or_access_solution",
     "old_side_access_true_function",
-    "wayfinder_ancient_function",
+    "junction_hidden_monument_map_surface",
+    "junction_monument_ancient_function",
+    "wayfinder_as_spoken_name_from_torren",
     "complete_ancient_route_network",
     "prime_or_last_sentinel_explanation",
     "bearer_or_authorization_explanation",
@@ -116,5 +126,5 @@
   ],
   "exact_line_anchors": [],
   "max_beats": 28,
-  "production_cost_ceiling": "economical"
+  "production_cost_ceiling": "reductive_economical"
 }
