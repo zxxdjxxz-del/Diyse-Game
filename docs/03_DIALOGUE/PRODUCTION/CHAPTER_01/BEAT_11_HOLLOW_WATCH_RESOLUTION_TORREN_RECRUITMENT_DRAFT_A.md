@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 11
 # Hollow Watch Resolution / Torren Recruitment
-## DIALOGUE ENGINE PRODUCTION DRAFT C — established gameplay presentation + Junction continuity / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT D — chapter-wide dialogue polish + established gameplay presentation / awaiting user approval
 
 ---
 
@@ -72,9 +72,7 @@ A beat.
 
 **ILYRA:** Dangerous habit.
 
-**CYANIS:** You're all very comfortable already.
-
-No one answers him.
+A beat.
 
 **TORREN:** You still need the road south?
 
@@ -206,7 +204,7 @@ Next mandatory story beat: **Beat 12 — Southern Briar Passage.**
 
 ---
 
-## Presentation / canon check
+## Presentation / dialogue check
 
 **Traversal:** Cyanis only during ordinary fort/route movement.
 
@@ -214,6 +212,8 @@ Next mandatory story beat: **Beat 12 — Southern Briar Passage.**
 
 **Dialogue:** portraits + dialogue box carry the recruitment. No bespoke recruitment animation or ceremony.
 
-**Reduction:** removed repeated look directions, road-vista choreography, bow handling, departure blocking, and other unnecessary field performance.
+**Polish:** removed Cyanis's explicit `You're all very comfortable already` observation. The audience can read the group's shorthand without a character explaining the relationship state.
+
+**Reduction:** repeated look directions, road-vista choreography, bow handling, departure blocking, and other unnecessary field performance remain removed.
 
 **Junction continuity:** characters call the place the Junction; Torren knows the crossroads, not the hidden monument.
