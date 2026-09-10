@@ -239,101 +239,90 @@ Handoff → **Beat 6 — Western Map Mural**.
 ---
 
 # Beat 6 — Western Map Mural
-**Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
+**Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED / CREST-MARKER REVISION
 
-Purpose: deliver Chapter 2's first major Ancient lore payoff by connecting the Wayfinder material to a **much larger western route network**, while preserving the chapter's unanswered history and the immediate rescue objective.
+Purpose: deliver Chapter 2's first major Ancient cartographic payoff without resolving the mysteries it creates.
 
 Hard rule:
 > **The western map mural is complete and coherent, not damaged.**
 
-It is not a broken remnant that the party reconstructs. It is a complete **western section** of a larger cartographic system. Its incompleteness is only scope: route lines and continuations meet the panel edges cleanly and continue beyond them.
+It is incomplete only by scope: a complete western section of a larger system, with lines continuing cleanly beyond the panel edges. The Wayfinder is now understood as one piece of this larger network.
 
-### Starting state
-- the party has entered the large Ancient preservation complex;
-- they know it is older than the waterworks and probably designed to preserve/organize things;
-- they still carry the practical copies made from the Wayfinder discovery;
-- the Old Bastion prisoners remain the immediate objective;
-- no Black Host presence has been established in the Archive.
+### Recognizable western corridor
+By comparing the carried Wayfinder copy to the mural, the party can identify with useful confidence:
+- the Hollow Watch / Wayfinder relationship;
+- the corridor they have traveled;
+- Dunmere's approximate corresponding position;
+- route lines continuing eastward toward the location associated with modern Caelora.
 
-### The mural itself
-The party encounters a large, intact wall-scale western map. The exact visual language belongs to environment/UI design, but it must provide enough repeated route geometry, nodes, landmarks, and/or symbols for the characters to compare it credibly with their Wayfinder copies.
+The alignments are useful but **not perfectly identical to modern geography**. The characters may notice that the mismatch is real; they do not know why.
 
-The mural establishes:
-- the Wayfinder was showing part of a **larger connected network**, not an isolated route diagram;
-- the Hollow Watch / Wayfinder-area relationship can be aligned with the mural;
-- Dunmere's position/corridor can be identified through that alignment;
-- the network continues farther east toward the location associated with **modern Caelora**;
-- at that location the mural depicts a **vast unfamiliar ancient city/urban complex**, substantially larger and different from modern Caelora;
-- other route lines continue cleanly beyond the western panel's physical edges, proving this is one complete section of something larger.
+### Large city at modern Caelora
+At the corresponding location for modern Caelora, the mural depicts a **vast, dense ancient city or urban complex much larger and visibly different from the Caelora the characters know**.
 
-### Recognition order
-The agents should earn the interpretation rather than instantly announcing what the wall means.
-
-Useful order:
-1. recognize it as a map/network representation;
-2. compare the Wayfinder copy to the mural;
-3. identify repeated geometry/markers around Hollow Watch and the Wayfinder corridor;
-4. use that correspondence to locate Dunmere approximately;
-5. trace the network onward toward the expected Caelora direction;
-6. confront the enormous unfamiliar city shown at the corresponding destination;
-7. notice the clean panel-edge continuations and understand that this mural is only the western section of a still larger system.
-
-### Geography mismatch
-The correspondence should be strong enough that the group cannot dismiss the map, but **not so exact that all historical/geographic questions disappear**.
-
-Allowed reaction:
-- this is clearly related to the same route system;
-- recognizable relationships exist;
-- some distances/relationships do not sit cleanly against the modern world;
-- the location reached by the modern Caelora route corresponds to a much larger ancient urban site.
+Allowed conclusion:
+- by route/directional relationship, the city occupies the place where modern Caelora should be.
 
 Not allowed:
-- solving why the geography changed;
-- declaring a tectonic/catastrophic/Prime/Crest explanation without evidence;
-- establishing the ancient city's true name or full identity;
-- explaining how/why modern Caelora occupies that site.
+- naming the ancient city;
+- explaining what happened to it;
+- explaining why modern Caelora differs;
+- revealing buried-Crest truth or later capital-history answers.
 
-The correct dramatic state is:
-> **They have enough evidence to know the discrepancy is real, not enough information to explain it.**
+### Crest-marked northern structure
+Immediately **north of the large ancient city**, the mural contains another distinct marker: a **small standalone structure bearing the same Crest used by modern Yahtrea**.
 
-### Complete-panel clarification
-At least one character should explicitly recognize that the mural itself is **not damaged/incomplete**. The route lines continue intentionally through the panel boundary. The implication is that they are looking at one complete western page/section of a larger atlas/network representation.
+Hard visual rule:
+> **The symbol is recognizably the modern Crest of Yahtrea, not merely a similar precursor shape.**
 
-Do not make “find the missing half of this broken mural” the story objective.
+The party may confidently recognize the Crest itself. That recognition is the reveal.
+
+They do **not** know:
+- why a map this old carries the same symbol;
+- whether the structure belongs to the city or is separate in function;
+- the structure's name;
+- its purpose;
+- its age relative to the city/map;
+- what, if anything, it means for modern Yahtrea.
+
+Do not identify the structure as **Cresthaven** or any other later location/reveal.
+
+This should create a clean unanswered question rather than an immediate theory dump.
+
+### Panel completeness
+The party notices that the mural itself is not a surviving fragment. Route lines reach the physical panel edges cleanly and continue beyond them. The correct interpretation is:
+> **this is a complete western section of a larger system.**
+
+No eastern panel or complete network becomes available here.
 
 ### Practical copy
-The party makes useful field copies before moving on. They already carry writing/copying material because of the Wayfinder work.
+The party makes practical copies of:
+- matched Wayfinder/mural route relationships;
+- Dunmere correspondence;
+- eastward route continuation;
+- the large city at the modern Caelora location;
+- the **small northern crest-marked structure**;
+- useful fixed markers / panel relationships.
 
-The copy should preserve what matters:
-- major route lines;
-- recognizable markers/nodes;
-- relation of the Wayfinder/Hollow Watch corridor to Dunmere;
-- the eastward continuation toward the modern Caelora location;
-- the conspicuous ancient city representation;
-- the clean off-panel continuations.
+They do not need to spend a long real-time scene copying every decorative detail.
 
-This does not require a pixel-perfect reproduction of every decorative mark.
+### Pacing rule
+> **They discovered something larger, but the immediate problem still has living people attached.**
 
-Maevra's injured/splinted arm should not be forgotten; she does not need to become the primary scribe. Cyanis, Ilyra, and Torren can divide practical comparison/copy work naturally while Maevra participates in interpretation.
-
-### Story-priority handoff
-The mural is important enough for the group to stop and copy, but **not important enough to abandon the kidnapped people**.
-
-The scene should end with the same basic priority intact:
-> **Keep the information. Keep moving. People first.**
+The Ancient map, giant city, and Yahtrean Crest marker matter, but the kidnapped people at the Old Bastion remain the active priority.
 
 ### Beat-6 knowledge checkpoint
 By the end:
-- the party knows the Wayfinder route belongs to a much larger connected western network;
-- they can align Hollow Watch / the Wayfinder corridor / Dunmere to that network with useful confidence;
-- the network continues toward the location of modern Caelora;
-- a much larger unfamiliar Ancient city is depicted at that corresponding location;
-- the mural is a complete western section, with routes continuing cleanly beyond its edges;
-- the party has practical copies of the useful map information;
-- they do **not** know why ancient and modern geography differ;
-- they do **not** know the ancient city's true identity/history;
-- they do **not** gain Cresthaven, Last Sentinel, buried-Crest, Entity, or complete-network answers;
-- the rescue at the Old Bastion remains the immediate objective.
+- Wayfinder is understood as part of a larger route/network system;
+- Hollow Watch / Wayfinder / Dunmere relationships can be aligned usefully with the western mural;
+- ancient and modern geography do not align perfectly and the reason is unknown;
+- a huge unfamiliar ancient city appears where modern Caelora should be;
+- **just north of that city is a separate small structure marker bearing the exact modern Crest of Yahtrea**;
+- everyone can recognize the Crest, but nobody can explain its presence or identify the structure;
+- the mural is complete and undamaged, but only a western section of a larger system;
+- practical copies are made;
+- Cresthaven, Last Sentinel, buried-Crest truth, Entity, the identity/history of the ancient city, the identity/purpose of the crest-marked structure, and the complete network remain unrevealed;
+- the kidnapped people remain the immediate priority.
 
 Handoff → **Beat 7 — Archive Depths**.
 
@@ -538,9 +527,9 @@ Current cleanup Character-Life authority:
 - Beat 3 — current rehearsal-first Draft A.
 - Beat 4 — current rehearsal-first Draft A.
 - Beat 5 — current rehearsal-first Draft A.
-- Beat 6 — current working beat packet developed; dialogue pass active.
+- Beat 6 — current rehearsal-first Draft A; **crest-marked northern structure revision active**.
 - C06 — `Still Burns` — current working dialogue.
-- Next mainline scene after Beat 6 dialogue: **Beat 7 — Archive Depths**.
+- Next mainline scene: **Beat 7 — Archive Depths**.
 
 # Global reveal firewall
 Do not reveal during Chapter 2:
@@ -551,6 +540,7 @@ Do not reveal during Chapter 2:
 - complete Prime/Last Sentinel answers;
 - complete Diysean route/network explanation;
 - identity/full history of the huge ancient city at modern Caelora;
+- identity/purpose of the crest-marked structure north of that city;
 - Cresthaven;
 - reason ancient and modern geography do not align cleanly;
 - buried-Crest truth;
