@@ -1,0 +1,82 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH01_BEAT15_JUNCTION_CAMP_CLEANUP",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 — Beat 15 — Junction Camp / Chapter-1 Cleanup Window",
+  "production_ready": false,
+  "participants": ["cyanis", "ilyra", "maevra", "torren"],
+  "scene_purpose": "Provide the safe overnight cleanup window after the Briarhide Stalker and Junction discovery; host the existing optional Chapter-1 Character-Life scenes; allow the optional Cistern Devourer backtrack from the Junction clue to the earlier Southern Briar access; and end Chapter 1 the next morning with departure toward already-planned Dunmere.",
+  "story_sources": [
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Beat 15 — Wayfinder Camp / Chapter-1 Cleanup Window"], "role": "current_chapter_01_beat_15_story_authority"},
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md", "whole_file": true, "role": "junction_monument_and_torren_knowledge_authority"},
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_BRIARHIDE_REVEAL_LOCK.md", "whole_file": true, "role": "predecessor_boss_reveal_timing_authority"},
+    {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "direct_card_physical_state_authority"}
+  ],
+  "exact_dialogue_sources": [
+    {"path": "docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_01/C03.md", "scene": "Torren's Version of Dinner", "rule": "preserve approved spoken dialogue; relocate/presentation-normalize only"},
+    {"path": "docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_01/C04.md", "scene": "What the Map Says", "rule": "preserve approved spoken dialogue and exact old-slut line anchor; relocate to camp and keep ordinary-modern-map function"},
+    {"path": "docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_01/C05.md", "scene": "Two Professionals Complaining About Cyanis", "rule": "preserve approved spoken dialogue; relocate/presentation-normalize only"}
+  ],
+  "additional_authority_sources": [
+    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "current_gameplay_presentation_hard_lock"},
+    {"path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md", "whole_file": true, "role": "portrait_dialogue_presentation"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_and_reductive_authoring_lock"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "invisible_knowledge_firewall"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md", "whole_file": true, "role": "ordinary_enemy_random_encounter_lock"}
+  ],
+  "scene_context_seed": {
+    "location_name": "Junction-area camp with optional Southern Briar backtrack",
+    "area_phase": "safe_evening_cleanup_then_next_morning_departure",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "runtime_note": "CAMP PRESENTATION: Cyanis, Ilyra, Torren, and Maevra may all be present as field models around camp; Cyanis-only wilderness traversal does not apply inside the camp hub. Portraits/dialogue carry most character performance. C03/C04/C05 are existing approved Character-Life dialogue authorities and should not be casually rewritten; relocate/presentation-normalize their staging only. C04 is Torren working on ordinary modern route maps, not a second ancient-map reveal. OPTIONAL BACKTRACK: when the player leaves camp for Southern Briar, Cyanis-only ordinary traversal resumes and the Cistern Devourer entrance is the earlier overgrown Briar-side access, not the Junction. No second dialogue explanation is needed. REST: optional content may be skipped; choosing rest advances to morning. MORNING: short departure scene at camp, then Cyanis-only route traversal resumes toward Dunmere. HARD FIREWALL: no Prime, Last Sentinel, bearer, Entity, or complete ancient-network answers."
+  },
+  "current_floor_state": {
+    "briarhide_stalker": "defeated",
+    "junction_monument": "revealed_and_useful_information_copied",
+    "dunmere": "already_planned_next_destination",
+    "cistern_devourer_access": "optional_returnable_from_earlier_southern_briar_branch",
+    "combat_party": ["cyanis", "ilyra", "torren"],
+    "maevra_party_status": "noncombat_traveling_companion",
+    "card_state": "intact_directly_carried_by_cyanis_and_inert",
+    "camp_visible_party_models": true,
+    "wilderness_visible_traversal_character": "cyanis_only"
+  },
+  "optional_content": [
+    "C03_Torren's_Version_of_Dinner",
+    "C04_What_the_Map_Says",
+    "C05_Two_Professionals_Complaining_About_Cyanis",
+    "Cistern_Devourer_Hunt",
+    "other_compatible_Chapter_1_cleanup_content_if_separately_authorized"
+  ],
+  "required_story_beats": [
+    "Junction-area camp functions as the safe Chapter-1 cleanup hub.",
+    "Party members may be visible as field models around camp.",
+    "C03, C04, and C05 are optional and do not advance the chapter independently.",
+    "The player may backtrack into Southern Briar and use the earlier overgrown side access for the optional Cistern Devourer Hunt.",
+    "Choosing rest closes the cleanup window and advances to the next morning.",
+    "The party departs toward already-planned Dunmere.",
+    "Ordinary wilderness traversal after departure returns to Cyanis-only field presentation.",
+    "Chapter 1 ends on departure from the Junction camp area."
+  ],
+  "forbidden_reveals": [
+    "prime_identity",
+    "last_sentinel_identity",
+    "bearer_or_authorization_explanation",
+    "entity",
+    "complete_ancient_route_network",
+    "new_junction_monument_function_beyond_beat_14",
+    "new_cistern_devourer_information_beyond_access_becoming_returnable"
+  ],
+  "forbidden_presentation": [
+    "cyanisonly_rule_applied_inside_camp",
+    "visible_follower_train_during_southern_briar_backtrack",
+    "detailed_cooking_animation",
+    "detailed_map_writing_animation",
+    "report_or_medical_pouch_micro_choreography",
+    "elaborate_sleep_sequence",
+    "extra_junction_lore_inspection_scene",
+    "mandatory_optional_content"
+  ],
+  "production_cost_ceiling": "strict_reductive_camp_hub_with_existing_character_life_dialogue"
+}
