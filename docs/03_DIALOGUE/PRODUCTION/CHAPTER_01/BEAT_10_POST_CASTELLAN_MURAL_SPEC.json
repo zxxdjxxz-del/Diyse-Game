@@ -4,98 +4,38 @@
   "chapter_id": "chapter_01",
   "story_position": "Chapter 1 — Beat 10 — Post-Castellan Mural",
   "production_ready": false,
-  "participants": [
-    "cyanis",
-    "ilyra",
-    "maevra",
-    "torren"
-  ],
-  "scene_purpose": "Deliver Hollow Watch's first unmistakably geographic ancient clue after the Castellan; show an ancient catastrophe with fire falling from the sky and people descending into multiple deep tunnel entrances; let Torren recognize Hollow Watch's own hill and the location of a separate ancient southern crossroads he knows as the Junction; reveal through the mural that a large important monument once stood at the center of those crossroads; preserve that Torren has never seen that monument in the present day and does not know its function; leave the party with a practical reason to stop at the Junction later.",
+  "participants": ["cyanis", "ilyra", "maevra", "torren"],
+  "scene_purpose": "Deliver Hollow Watch's geographic ancient clue through one protected mural: falling fire, people descending into multiple deep entrances, recognizable local geography, and a prominently depicted monument at the ancient southern crossroads Torren knows as the Junction. Preserve that Torren has never seen the actual monument in the present day and does not know its function.",
   "story_sources": [
-    {
-      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
-      "sections": [
-        "Beat 10 — Post-Castellan Mural"
-      ],
-      "role": "base_chapter_01_beat_10_story_authority"
-    },
-    {
-      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md",
-      "whole_file": true,
-      "role": "latest_explicit_junction_monument_and_torren_knowledge_correction"
-    },
-    {
-      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
-      "whole_file": true,
-      "role": "direct_card_physical_state_authority"
-    }
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Beat 10 — Post-Castellan Mural"], "role": "base_chapter_01_beat_10_story_authority"},
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md", "whole_file": true, "role": "latest_junction_monument_and_torren_knowledge_correction"},
+    {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "direct_card_physical_state_authority"}
   ],
   "additional_authority_sources": [
-    {
-      "path": "docs/01_CHARACTERS/PLAYABLE/Torren.md",
-      "whole_file": true,
-      "role": "torren_character_authority"
-    },
-    {
-      "path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md",
-      "whole_file": true,
-      "role": "cyanis_character_authority"
-    },
-    {
-      "path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md",
-      "whole_file": true,
-      "role": "ilyra_character_authority"
-    },
-    {
-      "path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md",
-      "whole_file": true,
-      "role": "maevra_character_authority"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
-      "whole_file": true,
-      "role": "rehearsal_first_and_reductive_hd2d_contract"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md",
-      "whole_file": true,
-      "role": "invisible_knowledge_firewall"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
-      "whole_file": true,
-      "role": "walking_dialogue_hard_lock"
-    }
+    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "current_gameplay_presentation_hard_lock"},
+    {"path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md", "whole_file": true, "role": "portrait_dialogue_presentation"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_authoring_lock"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "invisible_knowledge_firewall"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"}
   ],
   "scene_context_seed": {
-    "location_name": "protected discovery area beyond Hollow Watch Castellan chamber",
+    "location_name": "protected mural chamber beyond Hollow Watch Castellan",
     "area_phase": "post_boss_protected_discovery",
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
-    "visible_environment": [
-      "Black Host did not reach this protected area",
-      "one large preserved Diysean mural is the sole major Hollow Watch cartographic payoff",
-      "mural shows balls of fire falling from the sky",
-      "ordinary people move toward multiple deep tunnel entrances in different geographic locations",
-      "recognizable terrain makes the mural function partly as an ancient regional map",
-      "Hollow Watch hill is recognizable",
-      "a separate southern convergence of ancient roads is recognizable to Torren as the Junction",
-      "a large prominent stone monument stands at the center of the Junction in the mural",
-      "the monument is visually important but is not itself shown as a tunnel entrance"
-    ],
-    "runtime_note": "This is a stop/discovery scene, not walk-and-talk. Give the mural a clean visual read before characters speak. REHEARSAL-FIRST: let characters react, speculate, disagree, joke briefly, or leave thoughts unfinished like people; do not make them recite the knowledge firewall. HARD TORREN KNOWLEDGE CORRECTION: Torren recognizes the location and road convergence as the Junction because he knows the ancient crossroads and modern route there. He has NEVER seen the actual monument shown in the mural and must not recognize its shape from firsthand experience or call it Wayfinder. He may naturally say he knows the crossroads but has never seen that stone. HARD REVEAL FIREWALL: no definitive explanation of the catastrophe, tunnel destinations, evacuation/shelter/transit function, complete route network, monument function, hidden map surface, Prime, Last Sentinel, bearer status, Card authorization, buried Crest, or Entity. The mural composition itself must show that the monument is highly important at the Junction while remaining distinct from the deep descent sites. REDUCTIVE HD-2D: spend the beat's visual budget on the required mural only; the monument is part of that same mural asset. Reuse the protected chamber, B00 blocking/facing, portraits, restrained camera/light, and simple reusable pointing/looking gestures. Cyanis carries the intact Card itself; it remains inert."
+    "runtime_note": "Ordinary protected-passage traversal shows Cyanis only. At the mural story trigger the relevant cast may appear as simple field models while portraits/dialogue box carry most performance. Spend visual complexity on the mural itself only. Do not add tracing, pointing, stepping, repeated wall inspection, camera choreography, or second clue/set-piece behavior. HARD TORREN KNOWLEDGE: he recognizes Hollow Watch and the location/roads of the southern crossroads he calls the Junction. He has never seen the actual monument shown there in the mural and must not call the monument Wayfinder. HARD REVEAL FIREWALL: no definitive catastrophe explanation, tunnel purpose, complete route network, monument function, hidden map surface, Prime, Last Sentinel, bearer, authorization, buried Crest, or Entity explanation. Cyanis carries the intact Card and it remains inert."
   },
   "current_floor_state": {
     "castellan_state": "defeated",
-    "protected_area_access": "open_after_castellan",
+    "protected_area_access": "open",
     "black_host_presence": "none_in_final_protected_area",
     "card_state": "intact_directly_carried_by_cyanis_and_inert",
     "torren_party_status": "temporary_combat_ally",
-    "known_from_beat_7": "six_channel_junction_showed_large_scale_human_movement_but_no_confirmed_function",
-    "torren_junction_knowledge": "knows_location_and_ancient_crossroads_not_hidden_monument"
+    "torren_junction_knowledge": "knows_location_and_roads_not_hidden_monument",
+    "ordinary_traversal_visible_character": "cyanis_only"
   },
   "allowed_information_transfers": [],
   "exact_line_anchors": [],
   "max_beats": 18,
-  "production_cost_ceiling": "reductive_economical_with_one_earned_mural_asset"
+  "production_cost_ceiling": "one_earned_mural_asset_plus_simple_field_scene"
 }
