@@ -766,7 +766,7 @@ Control returns quickly. The player gets a meaningful entrance stretch in which 
 
 # BEAT 6 — WESTERN MAP MURAL
 
-**Draft:** A — current rehearsal-first working dialogue
+**Draft:** A — current rehearsal-first working dialogue — crest-marker revision
 
 Beat 6 is the first major Ancient lore payoff in Chapter 2. The mural is intact and coherent; the characters interpret it by comparing it with the Wayfinder material they already carry.
 
@@ -892,6 +892,52 @@ Cyanis looks back at the enormous city depicted on the wall.
 
 **ILYRA:** Not the Caelora we know.
 
+Maevra's attention shifts just north of the city marker.
+
+**MAEVRA:** Wait.
+
+**TORREN:** What?
+
+She indicates a separate, much smaller structure.
+
+**MAEVRA:** That.
+
+Torren follows her gesture.
+
+**TORREN:** Separate structure.
+
+Ilyra steps closer.
+
+**ILYRA:** Look at the mark on it.
+
+Cyanis sees it.
+
+A beat.
+
+**CYANIS:** That's the Crest of Yahtrea.
+
+**MAEVRA:** Same one.
+
+**TORREN:** Yeah.
+
+Cyanis looks from the Crest to the enormous ancient city below it.
+
+**CYANIS:** On this map.
+
+**ILYRA:** Apparently.
+
+A beat.
+
+**CYANIS:** That makes less sense.
+
+**TORREN:** Yeah.
+
+**MAEVRA:** Copy it.
+
+Cyanis keeps looking for another second before nodding.
+
+**CYANIS:** Definitely.
+
 A beat.
 
 **CYANIS:** How old is this?
@@ -968,7 +1014,7 @@ Ilyra is already getting the copying material out.
 
 **TORREN:** I'll take those.
 
-**ILYRA:** I'll take the fixed markers and the city shape.
+**ILYRA:** I'll take the fixed markers, the city shape, and the Crest structure.
 
 Cyanis holds the Wayfinder copy beside the new work.
 
@@ -986,7 +1032,7 @@ The copy is handled economically through staging rather than a long real-time wr
 
 ### [PEOPLE FIRST]
 
-Once the practical copy is complete, Cyanis gives the mural one last look—especially the enormous city where modern Caelora should be.
+Once the practical copy is complete, Cyanis gives the mural one last look—especially the enormous city where modern Caelora should be and the small crest-marked structure just north of it.
 
 **CYANIS:** We're coming back to this.
 
@@ -1014,10 +1060,12 @@ Torren starts deeper into the Archive.
 - Some ancient-modern geography does not align cleanly, and nobody knows why.
 - The route system continues east toward the location associated with modern Caelora.
 - The mural depicts a vastly larger, unfamiliar ancient city/urban complex at that corresponding location.
+- **Immediately north of that city is a distinct small structure marker bearing the exact Crest used by modern Yahtrea.**
+- The party recognizes the Crest with certainty but does not know why it appears on this map, what the structure is, or what relationship it has to the city or modern Yahtrea.
 - Nobody knows the ancient city's true identity, history, or fate.
 - The mural itself is **complete and undamaged**; it is one western section of a larger system, with route lines continuing cleanly beyond its physical edges.
-- The party makes practical copies of the useful information.
-- Cresthaven, Last Sentinel, buried-Crest truth, Entity, and the complete network remain unrevealed.
+- The party makes practical copies of the useful information, including the crest-marked structure.
+- Cresthaven, Last Sentinel, buried-Crest truth, Entity, the identity/purpose of the crest-marked structure, and the complete network remain unrevealed.
 - The kidnapped people at the Old Bastion remain the immediate priority.
 
 ---
@@ -1432,6 +1480,6 @@ Fade.
 - Beat 3 — Draft A.
 - Beat 4 — Draft A; sealed future-Hunt door included; no weed setup called out during waterworks traversal.
 - Beat 5 — Draft A.
-- Beat 6 — Draft A.
+- Beat 6 — Draft A; **small northern structure bearing the modern Crest of Yahtrea added to the mural and copied by the party**.
 - C06 — `Still Burns` — current working dialogue.
 - Next mainline scene: **Beat 7 — Archive Depths**.
