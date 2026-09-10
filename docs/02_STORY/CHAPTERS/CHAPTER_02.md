@@ -3,7 +3,7 @@
 **Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.  
 **Domain rule:** this file owns mandatory Chapter-2 story structure, scene order, reveal order, recruitment state, knowledge changes, and story outcomes. Exact dialogue belongs to the current rehearsal-first Agent Brain pipeline in `03_DIALOGUE`; combat mechanics belong to battle/encounter authority.
 
-**Status:** **LOCKED REVISED 18-BEAT STORY STRUCTURE / EXACT DIALOGUE GENERATION PENDING.**
+**Status:** **LOCKED REVISED 16-BEAT STORY STRUCTURE / EXACT DIALOGUE GENERATION PENDING.**
 
 ## Dialogue-production rule
 Chapter 2 must use the locked Chapter-0/1 production method:
@@ -62,11 +62,15 @@ Do not restore:
 - the old `thirty-one transfers` clue as a required Chapter-2 discovery;
 - **Hold the Junction** as a final mandatory combat;
 - an extra extraction-causeway defense sequence after the party returns to the prisoners;
-- a surprise post-extraction battle, Rhazek rematch, hidden boss, or antagonist sting after the prisoners are out.
+- a surprise post-extraction battle, Rhazek rematch, hidden boss, or antagonist sting after the prisoners are freed;
+- a dedicated playable prisoner-escort beat from the Bastion to the Greenhollow–Dunmere road;
+- a separate road-secured confirmation beat before returning to Dunmere.
+
+Once the prisoners are freed and organized inside the defeated Bastion, Chapter 2 may transition directly to the party back in Dunmere. The successful removal of the current prisoners and safe reopening of the road are confirmed there by the Dunmere elder rather than requiring two additional gameplay beats.
 
 ---
 
-# Locked 18-Beat Structure
+# Locked 16-Beat Structure
 
 ## Beat 1 — Path Outside Dunmere
 
@@ -420,98 +424,86 @@ Other captives were held here before the current group and have already been tra
 **End state**
 - the route out is available;
 - Rhazek has escaped;
-- prisoners still need to be collected and led out.
+- prisoners still need to be collected and freed.
 
 **Gameplay handoff**
-→ Beat 15 — Return to the Prisoners
+→ Beat 15 — Return to the Prisoners / Release
 
 ---
 
-## Beat 15 — Return to the Prisoners
+## Beat 15 — Return to the Prisoners / Release
 
 **Purpose**
-- make rescue preparation a real human beat instead of treating a control switch as automatic evacuation.
+- complete the Bastion-side rescue as a human action rather than treating Rhazek's defeat as automatic liberation;
+- pay off the party's promise to return to the people waiting below;
+- establish that the current prisoners are genuinely free and able to leave before the chapter cuts back to Dunmere.
 
 **Mandatory events**
 - the party physically returns to the Prisoner Galleries/safe area;
-- prisoners are told that the usable exit is open and the Bastion's local control has been broken enough for escape;
-- people prepare to move with the party;
-- injured/weakened people receive practical accommodations;
-- Ilyra supports those needing assistance;
-- Maevra helps organize movement while remaining non-combat;
-- Torren prepares to lead the route once they are outside.
+- prisoners are told that Rhazek has been defeated locally, Black Host control of the Bastion has broken, and the usable road-side exit is open;
+- the current prisoners are released from the holding situation and are ready/willing to leave;
+- injured/weakened people receive practical accommodations before movement;
+- able-bodied prisoners help companions who need support;
+- Ilyra supports those needing treatment or mobility assistance;
+- Maevra helps organize the group while remaining non-combat;
+- Torren helps establish the safe route out toward the Greenhollow–Dunmere road;
+- the party does not pursue Rhazek at the expense of the rescued people;
+- previously transferred captives remain missing and their destination remains unknown;
+- no Hold-the-Junction encounter, extraction-causeway defense, surprise boss, Rhazek rematch, or additional mandatory combat follows.
+
+**Transition rule**
+The chapter does **not** require a dedicated playable escort from the Prisoner Galleries through the Bastion and down the road. Once the current prisoners are freed, organized, and beginning the safe departure through the secured exit, the story may transition forward in time/location.
+
+The next mandatory scene is the party **back in Dunmere**. The successful evacuation/removal of the current prisoners and the reopened road are confirmed there rather than separately dramatized as Beats 16–17.
 
 **End state**
-- the prisoners are ready to leave.
+- the current prisoners are freed from Red Transfer Bastion and leaving through the secured route;
+- Rhazek remains alive but has lost this local position;
+- previously transferred captives remain unresolved;
+- story transitions back to Dunmere.
 
 **Gameplay handoff**
-→ Beat 16 — Prisoner Escape / Greenhollow–Dunmere Road
+→ Beat 16 — Return to Dunmere / Road Reopened / Cleanup
 
 ---
 
-## Beat 16 — Prisoner Escape / Greenhollow–Dunmere Road
+## Beat 16 — Return to Dunmere / Road Reopened / Chapter-2 Cleanup
 
 **Purpose**
-- resolve the rescue directly and cleanly;
-- move the prisoners out through the Bastion exit onto the actual regional road rather than adding another defense sequence.
+- confirm the rescue and road-state consequences economically after the Bastion climax;
+- return the party to a stable hub;
+- let the Dunmere elder close the local problem that first redirected the party;
+- provide the deliberate cleanup period before Chapter 3.
 
-**Mandatory progression**
-- the party leads the prisoners out through the opened Bastion exit;
-- they emerge onto the **route between Greenhollow and Dunmere**;
-- Torren guides the movement along the usable road space;
-- Maevra coordinates the group but remains non-combat;
-- Ilyra supports injured/weakened evacuees;
-- **there is no Hold the Junction encounter**;
-- **there is no extra extraction-causeway combat sequence**;
-- once the group is out, do not add a surprise boss/rematch/antagonist sting.
+**Opening / transition state**
+- the story cuts from the successful Bastion-side prisoner release/evacuation beginning to **Cyanis, Ilyra, Torren, and Maevra back in Dunmere**;
+- the intervening safe removal from the Bastion and return travel do not require a separate gameplay beat;
+- the current rescued people are confirmed safe/out of Black Host control;
+- any practical distribution of Greenhollow residents, Dunmere residents, travelers, and injured soldiers may be handled naturally without requiring every rescued NPC to remain together permanently.
 
-**End state**
-- the rescued prisoners are out of the Bastion and on the reopened regional route.
+**Dunmere elder resolution — mandatory**
+The party speaks with the **Dunmere town elder** again.
 
-**Gameplay handoff**
-→ Beat 17 — Road Secured / Rescue Complete
+That conversation establishes:
+- the people currently held at Red Transfer Bastion were successfully freed;
+- Rhazek and the Black Host no longer control the Bastion/corridor locally;
+- the direct **Greenhollow ↔ Dunmere road has reopened and is safe for ordinary travel again**;
+- the disappearances caused by this Bastion's active seizure operation have been stopped locally;
+- Rhazek survived/withdrew if that is relevant to the natural conversation;
+- earlier captives who had already been transferred somewhere else are **still missing** and their destination remains unknown.
 
----
+The elder does not suddenly know where those earlier prisoners went and does not turn the scene into a new quest briefing unless later authority explicitly adds one.
 
-## Beat 17 — Road Secured / Rescue Complete
-
-**Purpose**
-- formalize the Chapter-2 world-state reward;
-- close the mandatory rescue without pretending every missing person has been recovered.
-
-**Mandatory outcomes**
-- the Red Transfer Bastion's practical control over the local corridor is broken;
-- direct **Greenhollow ↔ Dunmere travel reopens**;
-- the rescued prisoners are safe/out of immediate Bastion control;
-- Rhazek remains alive and withdrawn;
-- not every kidnapped or previously transferred person is accounted for; the broader missing-person thread remains open because earlier captives were taken onward from the Bastion to an unknown location;
-- Chapter 2's mandatory combat/rescue arc is complete.
-
-**End state**
-- Cyanis, Ilyra, Torren, and Maevra can return to Dunmere over the reopened route.
-
-**Gameplay handoff**
-→ Beat 18 — Return to Dunmere / Cleanup
-
----
-
-## Beat 18 — Return to Dunmere / Chapter-2 Cleanup
-
-**Purpose**
-- return the party to a stable hub after the rescue;
-- provide a deliberate cleanup period before Chapter 3;
-- keep the four-person traveling group physically coherent.
-
-**Required state**
-- Cyanis, Ilyra, Torren, and Maevra return to Dunmere;
-- the party stays at the Dunmere inn / uses Dunmere as the chapter cleanup hub;
+**Cleanup state**
+- Dunmere becomes the Chapter-2 cleanup hub again;
+- the party may stay at/use the Dunmere inn;
 - compatible Character-Life scenes, Hunts, side content, shopping, healing, equipment work, saving, and permitted backtracking may occur according to their own authorities;
 - Maevra remains physically present for compatible Character-Life staging;
-- the reopened Greenhollow–Dunmere road is now a world-state change;
+- the reopened Greenhollow–Dunmere road is now a locked world-state change;
 - the wider journey still points east toward Caelora.
 
 **Chapter boundary**
-- Chapter 3 does not begin automatically after the rescue, return, or inn rest;
+- Chapter 3 does not begin automatically after the elder conversation, rescue confirmation, or inn rest;
 - the player remains in Chapter 2 cleanup until choosing the explicit eastward/advance-story interaction;
 - that confirmation begins Chapter 3.
 
@@ -519,7 +511,7 @@ Other captives were held here before the current group and have already been tra
 
 # Locked Chapter-2 dramatic shape
 
-**Start Chapter 2 confirmation at the end of the Chapter-1 camp → Chapter 2 opens on the path immediately outside Dunmere → Dunmere missing-traveler crisis → elder reveals covert waterworks approach → Old Waterworks → Sunken Archive → complete western-half map mural showing what Wayfinder could not and visibly continuing beyond its edges → Archive depths → Archive Leviathan → old secret passage → direct emergence into Prisoner Galleries → first contact with travelers, injured soldiers, Greenhollow residents, and Dunmere residents → prisoners reveal the Bastion is a holding/transit site and that earlier captives were transferred somewhere unknown → prisoners identify Commander Rhazek as the high-ranking Black Host commander currently in charge of the Bastion → prisoners fear escape is impossible while the Host still controls the fort → defensible safe area / practical exit problem → Bastion command ascent toward Rhazek → Rhazek actively commanding with unnamed masked Seyrik present → Rhazek/Bastion Master → controls/exit secured while Rhazek withdraws → return to prisoners → lead prisoners out through the Bastion exit directly onto the Greenhollow–Dunmere road → road reopened / rescue complete → return to Dunmere → inn/cleanup → player explicitly chooses to begin Chapter 3.**
+**Start Chapter 2 confirmation at the end of the Chapter-1 camp → Chapter 2 opens on the path immediately outside Dunmere → Dunmere missing-traveler crisis → elder reveals covert waterworks approach → Old Waterworks → Sunken Archive → complete western-half map mural showing what Wayfinder could not and visibly continuing beyond its edges → Archive depths → Archive Leviathan → old secret passage → direct emergence into Prisoner Galleries → first contact with travelers, injured soldiers, Greenhollow residents, and Dunmere residents → prisoners reveal the Bastion is a holding/transit site and that earlier captives were transferred somewhere unknown → prisoners identify Commander Rhazek as the high-ranking Black Host commander currently in charge of the Bastion → prisoners fear escape is impossible while the Host still controls the fort → defensible safe area / practical exit problem → Bastion command ascent toward Rhazek → Rhazek actively commanding with unnamed masked Seyrik present → Rhazek/Bastion Master → controls/exit secured while Rhazek withdraws → return to prisoners / free and organize them for departure → transition directly back to Dunmere → elder confirms the freed people are safe and the Greenhollow–Dunmere road is reopened and safe → inn/cleanup → player explicitly chooses to begin Chapter 3.**
 
 # Long arcs advanced
 - Hollow Watch → Wayfinder → Sunken Archive cartographic mystery escalates from local clues to a **complete western section** of a much larger Diysean route/map system.
@@ -531,7 +523,7 @@ Other captives were held here before the current group and have already been tra
 - The broader missing-person thread therefore remains open even after the current prisoners are rescued.
 - Rhazek is established as competent, ideological, and accountable for the operation.
 - Seyrik is deliberately seeded as the unnamed masked officer reporting to Rhazek before his later reveal.
-- The Greenhollow–Dunmere road is concretely reopened as a world-state change.
+- The Greenhollow–Dunmere road is concretely reopened as a world-state change, confirmed during the Dunmere elder resolution rather than through a separate road beat.
 
 # Chapter-2 reveal firewall
 Chapter 2 must not reveal:
@@ -545,4 +537,4 @@ Chapter 2 must not reveal:
 - buried-Crest truth;
 - Entity.
 
-This 18-beat structure supersedes the prior five-macro-beat Chapter-2 layout and any older Chapter-2 poisoned-water, transfer-records, Extraction Causeway, or Hold-the-Junction structure where they conflict.
+This 16-beat structure supersedes the prior 18-beat and five-macro-beat Chapter-2 layouts and any older Chapter-2 poisoned-water, transfer-records, Extraction Causeway, Hold-the-Junction, dedicated prisoner-escort, or separate road-confirmation structure where they conflict.
