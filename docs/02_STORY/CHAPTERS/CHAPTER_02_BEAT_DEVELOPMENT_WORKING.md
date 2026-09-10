@@ -93,13 +93,73 @@ Handoff → **Beat 4**.
 ---
 
 # Beat 4 — Old Waterworks
-**Development status:** CURRENT WORKING BEAT PACKET
+**Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
 
+Purpose: make the elder's uncertain route into a real covert infiltration area and transition naturally from ordinary Dunmere infrastructure into the older structure beneath it.
+
+Hard rule:
 > **The waterworks remain genuinely covert.**
 
-No routine Black Host patrols. Encounters are plausible creatures/hazards/non-Host threats. Infrastructure progresses from recognizable Dunmere/Yahtrean construction into older reused foundations and finally clearly ancient construction.
+No routine Black Host patrols. Encounters are plausible creatures, environmental hazards, and other non-Host threats. Nothing in the area should imply the Host knows this is the party's infiltration route.
 
-Handoff → **Beat 5**.
+### Early route state
+The first stretch should still read clearly as **old Dunmere/Yahtrean municipal infrastructure**: service passages, channels, old maintenance spaces, gates, drains, and water-control construction. Torren is actively route-finding here, so limited practical guidance dialogue is legal where needed.
+
+### Sealed future-Hunt door
+A **short way into the waterworks**, the main route passes a substantial side-branch door.
+
+Current Chapter-2 lock:
+> **The door cannot be opened during Chapter 2.**
+
+Implementation/story rules:
+- it is visible enough for players to remember;
+- it reads as a real branch of the complex rather than decorative scenery;
+- Torren may briefly inspect/test it;
+- the party has no usable key, release, switch, ability, or force method that opens it now;
+- forcing it is not a secret Chapter-2 solution;
+- there is no quest marker, lore dump, warning voice, or `come back later` tutorial;
+- the party does not know what lies behind it;
+- writer/production-facing: the sealed branch is a **future return route leading to a Hunt**, with exact Hunt implementation/reward authority remaining in the Hunt layer.
+
+The authored stop should be short. Its function is **memory**, not mystery inflation.
+
+### Water / traversal
+Water becomes a normal physical traversal pressure as the group proceeds. At least one required stretch gets **Cyanis, Ilyra, Torren, and Maevra all thoroughly wet**. This is ordinary cause-and-effect of moving through the old waterworks.
+
+Do **not** call out Torren's weed, pouch, smoking supplies, or any other setup for C06 `Still Burns`. The later Character-Life scene can reveal after the fact that some of his belongings were soaked; Beat 4 does not pre-signpost the joke.
+
+### Architectural progression
+The area should visibly progress:
+1. recognizable Dunmere/Yahtrean waterworks;
+2. older reused masonry/foundations that do not quite match the municipal build;
+3. a stronger architectural break where the route intersects **clearly ancient construction**.
+
+The transition should be discovered through observation, not a character instantly naming the Sunken Archive or explaining its civilization/function.
+
+Torren can establish that they are still moving roughly in the useful direction, while also admitting that the structure ahead is no longer the waterworks the elder described.
+
+### Gameplay rhythm
+Beat 4 is primarily exploration/gameplay:
+- enter old municipal works;
+- establish covert route;
+- encounter memorable sealed side door;
+- continue through water/hazard/creature pressure;
+- everyone gets wet as part of required traversal;
+- notice construction becoming older and stranger;
+- reach the major Ancient threshold.
+
+No large exposition scene is required in the middle of the dungeon.
+
+### Beat-4 knowledge checkpoint
+By the end:
+- the waterworks route has remained covert;
+- the party has seen but **cannot open** the future-Hunt branch door;
+- nobody knows what is behind that door;
+- the entire traveling group has been exposed to substantial water during traversal;
+- the party recognizes that the deepest construction is much older than Dunmere's waterworks;
+- they still do not know they are entering a formal archive, what the western mural will show, what the Archive Leviathan is, or how the route ultimately reaches the Old Bastion.
+
+Handoff → **Beat 5 — Sunken Archive Entrance**.
 
 ---
 
@@ -329,8 +389,10 @@ Current cleanup Character-Life authority:
 # Current dialogue-production status
 - Beat 1 — current rehearsal-first Draft A.
 - Beat 2 — current rehearsal-first Draft A.
+- Beat 3 — current rehearsal-first Draft A.
+- Beat 4 — current working beat packet developed; dialogue pass active.
 - C06 — `Still Burns` — current working dialogue.
-- Next mainline scene to generate: **Beat 3 — Dunmere Elder / Hidden Approach**.
+- Next mainline scene after Beat 4 dialogue: **Beat 5 — Sunken Archive Entrance**.
 
 # Global reveal firewall
 Do not reveal during Chapter 2:
