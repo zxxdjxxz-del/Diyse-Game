@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 3
 # Greenhollow / Torren
-## DIALOGUE ENGINE PRODUCTION DRAFT D — established gameplay presentation normalization / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT E — Maevra injury continuity + established gameplay presentation / awaiting user approval
 
 ---
 
@@ -13,6 +13,8 @@ Greenhollow is a functioning route town. Its ordinary activity, route traffic, s
 Because this is a town, party members and relevant NPCs may already be visible as field models.
 
 Torren Harth is present at the route board when the group finds him.
+
+Maevra's arm remains in the practical field splint established at Brackenwall.
 
 Cyanis carries the intact recovered Card itself. It remains inert.
 
@@ -30,6 +32,20 @@ Cyanis, Ilyra, Maevra, and Torren may be present as simple field models around t
 
 A beat.
 
+**TORREN:** What happened?
+
+**MAEVRA:** Convoy.
+
+**TORREN:** Broken?
+
+**MAEVRA:** Yeah.
+
+A beat.
+
+**TORREN:** Of course.
+
+**MAEVRA:** Good to see you too.
+
 **TORREN:** You brought trouble.
 
 **MAEVRA:** I brought three people.
@@ -37,6 +53,8 @@ A beat.
 **TORREN:** Four things, then.
 
 **MAEVRA:** There he is.
+
+That is the only new injury exchange. Torren notices because he knows Maevra; the scene does not become about her arm.
 
 ---
 
@@ -280,6 +298,8 @@ Current objective:
 
 Story state:
 - Torren Harth has been introduced in his normal route-work context;
+- Torren has seen Maevra's splinted broken arm and knows it happened during the convoy attack;
+- Maevra remains a noncombat traveling companion during Chapter 1 because of the injury;
 - Maevra and Torren's long familiarity is clear through their speech rather than repeated physical business;
 - the direct Greenhollow–Dunmere road is under Black Host control;
 - Torren can guide the deeper Briar route, but Hollow Watch must be dealt with first;
@@ -303,12 +323,10 @@ Next mandatory story beat:
 
 ## Presentation / canon check
 
-**Town rule:** PASS. Greenhollow may visibly contain party members, Torren, the route worker, and ordinary NPCs as field models because it is a town. They do not need to spawn/disappear for every line.
+**Town rule:** PASS. Greenhollow may visibly contain party members, Torren, the route worker, and ordinary NPCs as field models because it is a town.
+
+**Maevra injury:** PASS. Torren gets one natural first-meeting reaction to the splint. The scene does not keep explaining the injury after that.
 
 **Dialogue rule:** PASS. Portraits + dialogue box carry most performance. The field models may simply occupy sensible town/scene positions.
 
-**Reduction:** PASS. Removed cart vignette, travelers arguing over chalk, crate business, repeated board marking/tapping/tracing, chalk handoff, field-case handling, marker turning, repeated looking/pointing, and similar micro-staging.
-
 **Story:** PASS. Torren's route expertise, direct-road closure, Card travel brief, Hollow Watch condition, temporary combat role, and knowledge limits remain intact.
-
-**Knowledge firewall:** PASS. Torren does not identify the Card, ancient purpose, garrison fate, excavation target, older descent, or later Junction significance.
