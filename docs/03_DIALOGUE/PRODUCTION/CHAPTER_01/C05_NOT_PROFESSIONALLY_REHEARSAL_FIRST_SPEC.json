@@ -1,0 +1,39 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH01_C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 cleanup window — optional Character-Life C05",
+  "production_ready": false,
+  "participants": ["ilyra", "maevra"],
+  "scene_purpose": "Give Ilyra and Maevra a private adult-friendship scene while Ilyra changes Maevra's splint. The medical task grounds Maevra's continuing broken-arm state and healing-magic limits, while Ilyra's natural curiosity opens a conversation about Maevra and Torren that reveals history and present feeling without turning into therapy or a relationship briefing.",
+  "story_sources": [
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_MAEVRA_BROKEN_ARM_LOCK.md", "whole_file": true, "role": "injury_and_healing_limit_authority"},
+    {"path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHARACTER_LIFE_REBUILD_LOCK.md", "whole_file": true, "role": "current_character_life_direction"}
+  ],
+  "additional_authority_sources": [
+    {"path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md", "whole_file": true, "role": "ilyra_character_authority"},
+    {"path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md", "whole_file": true, "role": "maevra_character_authority"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_authoring"},
+    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "camp_presentation"}
+  ],
+  "scene_context_seed": {
+    "location_name": "Junction-area camp",
+    "time": "evening",
+    "scene_type": "optional_character_life",
+    "runtime_note": "Ilyra and Maevra only. Both may be present as field models at camp. Ilyra changes/re-secures Maevra's splint and uses one restrained magic effect for pain/strain relief. The bone remains broken. Portraits/dialogue carry the scene. Cyanis and Torren do not enter, overhear, or interrupt."
+  },
+  "required_character_truths": [
+    "Maevra's arm was broken during the Broken Convoy attack before Chapter 1 and remains broken.",
+    "Ilyra's magic can ease pain and surrounding strain but cannot mend the fracture.",
+    "Ilyra asks about Maevra and Torren out of ordinary adult curiosity, not as therapist or interrogator.",
+    "Maevra is comfortable discussing old romance and sexual history; the more emotionally exposed question is whether she still loves Torren.",
+    "Maevra and Torren's history contains no betrayal, cheating, or bitter breakup retcon.",
+    "Distance, posts, roads, and life repeatedly separated them, and they kept finding each other again.",
+    "Maevra still loves Torren in the present.",
+    "The scene does not claim private facts about Torren beyond what Maevra can reasonably know and say."
+  ],
+  "forbidden_cast": ["cyanis", "torren"],
+  "forbidden_presentation": ["magic_mending_broken_bone", "medical_montage", "therapy_scene", "relationship_exposition_dump", "third_character_interruption"],
+  "forbidden_reveals": ["prime_or_last_sentinel_explanation", "entity", "ancient_network_expansion"],
+  "production_cost_ceiling": "very_low_reuse_camp_assets_portrait_led"
+}
