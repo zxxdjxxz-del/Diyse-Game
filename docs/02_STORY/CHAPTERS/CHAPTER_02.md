@@ -160,9 +160,13 @@ Purpose: major Ancient cartographic payoff.
 Hard rule:
 > **The western map mural is complete and coherent, not damaged.**
 
-It is a complete western section of a larger system. Lines continue cleanly beyond the panel edges. The party can align the Hollow Watch / Wayfinder / Dunmere corridor with the broader network. The network continues toward modern Caelora, where a much larger unfamiliar ancient city is shown. The reason ancient and modern geography do not align cleanly remains unresolved. Practical copies are made.
+It is a complete western section of a larger system. Lines continue cleanly beyond the panel edges. The party can align the Hollow Watch / Wayfinder / Dunmere corridor with the broader network. The network continues toward modern Caelora, where a much larger unfamiliar ancient city is shown.
 
-Do not reveal Cresthaven, Last Sentinel, buried-Crest truth, Entity, or the complete network.
+Immediately **north of that large city**, the mural shows a **separate small structure marker bearing the same Crest used by modern Yahtrea**. The Crest itself is recognizable to the party; the structure's identity, age relationship, purpose, and reason for carrying that symbol remain completely unexplained. The scene must not identify the structure as Cresthaven or any other later location/reveal.
+
+The reason ancient and modern geography do not align cleanly remains unresolved. Practical copies are made, including the crest-marked northern structure.
+
+Do not reveal Cresthaven, Last Sentinel, buried-Crest truth, Entity, the identity/history of the ancient city, the identity/purpose of the crest-marked structure, or the complete network.
 
 End → Beat 7.
 
@@ -383,6 +387,7 @@ Do not reveal in Chapter 2:
 - complete Prime/Last Sentinel answers;
 - full Diysean route/network explanation;
 - identity/full history of the huge ancient city at modern Caelora;
+- identity/purpose of the crest-marked structure north of that city;
 - Cresthaven;
 - reason ancient and modern geography do not align cleanly;
 - buried-Crest truth;
