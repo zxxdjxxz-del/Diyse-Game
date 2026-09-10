@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE REHEARSAL-FIRST WORKING MANUSCRIPT — NOT CHAPTER-LOCKED  
 **Purpose:** single cumulative readable Chapter-2 dialogue manuscript; update this file every time a Chapter-2 mainline or Character-Life scene changes.  
-**Mainline coverage:** Beats 1–7 current rehearsal-first working drafts.  
+**Mainline coverage:** Beats 1–8 current rehearsal-first working drafts.  
 **Character-Life coverage:** C06 — `Still Burns` current working draft. Former C07 is retired as a separate Chapter-2 Character-Life scene.  
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Working beat authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
@@ -1235,6 +1235,117 @@ Beat ends at the threshold. The actual creature reveal and confrontation belong 
 
 ---
 
+# BEAT 8 — ARCHIVE LEVIATHAN
+
+**Draft:** A — current rehearsal-first working dialogue
+
+`Archive Leviathan` is the production/encounter name. The characters do not know or need to speak that name.
+
+### [THE CHAMBER]
+
+Cyanis, Ilyra, and Torren enter the flooded chamber. Maevra remains at the raised position behind them.
+
+The water surges. The large creature responsible for the disturbances moves into clear view and occupies the usable way across the chamber.
+
+Torren reacts first.
+
+**TORREN:** Back from the edge.
+
+The trio shifts onto firmer footing as the creature turns toward them.
+
+**CYANIS:** That's our problem.
+
+**TORREN:** Yeah.
+
+Ilyra watches the water around it rather than trying to identify the creature.
+
+**ILYRA:** Stay where you can plant your feet.
+
+**CYANIS:** Can we get around it?
+
+Torren checks the far side and the available footing.
+
+**TORREN:** Not while it's there.
+
+The creature moves again, sending water across the chamber.
+
+Ilyra steadies herself.
+
+**ILYRA:** And it knows we're here.
+
+Cyanis looks toward the route behind it.
+
+**CYANIS:** Then we clear the room.
+
+Torren readies himself.
+
+**TORREN:** Yeah.
+
+**Boss encounter begins.**
+
+Combat party: **Cyanis + Ilyra + Torren**. Maevra does not enter battle.
+
+### [AFTER THE BATTLE]
+
+The creature is defeated and no longer contests the chamber. Exact defeat animation/final physical state belongs to encounter presentation, but the route is no longer blocked by its active presence.
+
+The water settles enough for the trio to reassess.
+
+**CYANIS:** Everyone?
+
+**ILYRA:** Here.
+
+**TORREN:** Yeah.
+
+From the raised position behind them:
+
+**MAEVRA:** Three?
+
+Cyanis looks back.
+
+**CYANIS:** Three.
+
+**MAEVRA:** Good.
+
+Once Torren is satisfied the chamber is safe enough, Maevra rejoins them.
+
+Torren checks the far side where the creature had been controlling the route.
+
+**TORREN:** We can cross now.
+
+**CYANIS:** Where does it go?
+
+Torren looks farther into the newly accessible continuation.
+
+**TORREN:** Don't know.
+
+**ILYRA:** But it goes.
+
+**TORREN:** Yeah.
+
+Maevra looks toward the way ahead.
+
+**MAEVRA:** Then that's enough.
+
+Cyanis nods.
+
+**CYANIS:** For now.
+
+**Objective:** Follow the newly accessible route.
+
+Control returns. Beat 8 does not reveal the secret passage itself; exploration beyond the boss carries the party into Beat 9.
+
+### Beat-8 knowledge checkpoint
+- The trio has defeated the large creature responsible for the Archive-depth disturbances.
+- The characters do not learn or establish the creature's origin, age, intended function, or why it was here.
+- The boss does not provide a lore record, vision, memory, explanation, or revelation.
+- Maevra remained fully outside combat and safely rejoins afterward.
+- The chamber and route beyond are now physically usable because the creature no longer contests/blocks them.
+- The party still has not discovered the secret passage into the Old Bastion.
+- The kidnapped people remain the immediate objective.
+
+---
+
 # OPTIONAL CHARACTER-LIFE — C06
 # STILL BURNS
 
@@ -1647,5 +1758,6 @@ Fade.
 - Beat 5 — Draft A.
 - Beat 6 — Draft A; **small northern structure bearing the modern Crest of Yahtrea added to the mural and copied by the party**.
 - Beat 7 — Draft A.
+- Beat 8 — Draft A; Archive Leviathan defeated without lore explanation; route physically opened; Maevra remains noncombat.
 - C06 — `Still Burns` — current working dialogue.
-- Next mainline scene: **Beat 8 — Archive Leviathan**.
+- Next mainline scene: **Beat 9 — Secret Passage Discovery**.
