@@ -1,10 +1,21 @@
 # Diyse — Exploration UI
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit corrections/current domain migrations.  
-**Runtime source checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
-**Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
+**Implementation rule:** current domain canon and newer explicit presentation locks beat older proof code/docs.
 
-## CANON REQUIREMENT
+## Controlling field-presentation lock
+
+See:
+> `FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md`
+
+During ordinary exploration:
+
+> **Cyanis is the only party character visible on the field.**
+
+The rest of the party remains present in story/combat state but is not rendered as visible followers during traversal.
+
+## Canon requirement
+
 Exploration UI should remain restrained so the HD-2D field remains readable.
 
 It must be capable of presenting, when relevant:
@@ -17,40 +28,50 @@ It must be capable of presenting, when relevant:
 - field party/menu access.
 
 ## Area/traversal authoring integration
-Dialogue and exploration share one playable pacing layer.
 
-See:
-- `IMPLEMENTATION_NOTES/AREA_TRAVERSAL_AUTHORING_INTERFACE.md`
-- `../03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md`
+Normal exploration remains gameplay. Dialogue does not convert ordinary traversal into a physically staged party scene.
 
-Normal exploration remains gameplay. Dialogue may occur during movement where pressure permits, but Diyse should not default into continuous walk-and-talk presentation.
-
-The field UI/runtime should be able to transition cleanly among:
-- ordinary exploration;
-- short walking dialogue;
+The field UI/runtime should transition cleanly among:
+- ordinary Cyanis-controlled exploration;
+- short legal walking dialogue presented through portraits/text;
 - interaction dialogue;
-- authored stop scene;
+- authored stop dialogue;
 - post-battle reaction;
 - recovery/story-bearing cell;
 - return to ordinary exploration.
 
+A guide such as Torren may direct the group through dialogue while **Cyanis remains the sole visible traversal avatar**.
+
+## Environment presentation
+
+The exploration field follows the established HD-2D / 2.5D grammar rather than a fully modeled 3D-world assumption:
+- authored layered backgrounds/environments;
+- selective depth geometry only where traversal or composition needs it;
+- restrained parallax/depth treatment;
+- authored/fixed scene composition.
+
+Do not design dialogue around routine physical manipulation of incidental background details.
+
 ## Random encounters
+
 Random encounters remain normal hostile-exploration grammar in approved areas.
 
 The field UI must not show a mandatory visible random-encounter meter unless separately approved.
 
-Current runtime internally tracks encounter pressure, but that does **not** establish a player-facing gauge.
-
-### Dialogue-safe traversal
 For mandatory authored walking dialogue:
-- encounter triggering may be temporarily suppressed for the authored exchange plus a short buffer;
-- local encounter pressure is preserved rather than reset/discarded;
-- the suppression is not a permanent reduction in the area's encounter identity;
-- player-facing UI does not need to announce the suppression unless later explicitly approved.
+- encounter triggering may be temporarily suppressed for the exchange plus a short buffer;
+- accumulated encounter pressure is preserved rather than reset/discarded;
+- player-facing UI does not need to announce the suppression.
 
-Long dialogue belongs in a credible safe context or explicitly protected window. A high-pressure pursuit corridor should not be made mechanically toothless merely to fit a conversation.
+## Dialogue presentation during exploration
+
+Dialogue uses the normal portrait + dialogue-box presentation.
+
+Do not require companion field models to appear merely because they speak.
+Do not script tiny physical companion actions to sell a line.
 
 ## Interaction
+
 A contextual interaction prompt may cover:
 - Talk;
 - Examine;
@@ -60,23 +81,14 @@ A contextual interaction prompt may cover:
 
 The exact player-facing wording may be authored per interaction.
 
-Optional NPC/story-bearing-cell interaction should feel attached to the place rather than like portable dialogue content.
-
 ## Environmental readability
-Exploration UI and dialogue UI should leave major spatial information visible long enough to read.
 
-Examples include:
-- landmarks;
-- route changes;
-- hazards;
-- interactable machinery;
-- evacuation or civilian flow;
-- state-swapped environments;
-- major approach reveals.
+Major spatial information should remain visible long enough to read before overlays dominate it.
 
-Do not stack objective text, interaction prompts, dialogue portraits, and other overlays over the same visual reveal if sequencing them would preserve clarity.
+This applies to genuinely important landmarks, hazards, interactables, major state changes, or story reveals—not to ordinary environmental dressing.
 
 ## Chapter 0
+
 Chapter 0 is authored/tutorial content, not normal random-encounter UI.
 
 ## OPEN PRODUCTION UX
