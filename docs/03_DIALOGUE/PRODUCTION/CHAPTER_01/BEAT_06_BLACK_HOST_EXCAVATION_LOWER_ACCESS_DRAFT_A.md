@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 6
 # Black Host Excavation / Lower Access
-## DIALOGUE ENGINE PRODUCTION DRAFT D — established gameplay presentation normalization / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT E — chapter-wide dialogue polish + established gameplay presentation / awaiting user approval
 
 ---
 
@@ -39,8 +39,6 @@ At a progression point where the player has seen enough of the Black Host work, 
 **ILYRA:** They kept forcing farther in.
 
 **CYANIS:** So whatever they wanted wasn't near the surface.
-
-A beat.
 
 **MAEVRA:** Apparently not.
 
@@ -84,9 +82,11 @@ The relevant characters may appear as simple field models. The existing structur
 
 **ILYRA:** Then the Host tried to force it farther.
 
-**MAEVRA:** Subtle people.
+**MAEVRA:** And kept at it.
 
-**CYANIS:** We keep meeting those.
+A beat.
+
+**CYANIS:** They really wanted through.
 
 The scene ends.
 
@@ -120,11 +120,7 @@ The wider chamber ahead is the only new visual the scene needs.
 
 A beat.
 
-**CYANIS:** Ready?
-
-**ILYRA:** Yes.
-
-**MAEVRA:** Go.
+Nobody answers that.
 
 Scene ends.
 
@@ -157,7 +153,7 @@ Next mandatory story beat: **Beat 7 — Lower Junction / Six Channels.**
 
 ---
 
-## Presentation / canon check
+## Presentation / dialogue check
 
 **Traversal:** Cyanis only during ordinary excavation/ruin exploration.
 
@@ -166,5 +162,7 @@ Next mandatory story beat: **Beat 7 — Lower Junction / Six Channels.**
 **Walking dialogue:** none. Nobody is an active guide in the unknown lower ruin.
 
 **Random encounters:** no ordinary Black Host or Diysean-defense enemy is converted into a fixed battle or scripted activation.
+
+**Dialogue polish:** removed the second `subtle` joke in this dungeon stretch and the repeated `Ready? / Yes / Go` threshold exchange. The unease at the lower junction now gets to end in silence.
 
 **Reduction:** removed broken-pry-head counting, crouching/handling, overhead brace business, blood-marked work-sheet prop comedy, lever manipulation assumptions, drag-mark inspection, floor testing, distant hammer cue, and similar micro-staging.
