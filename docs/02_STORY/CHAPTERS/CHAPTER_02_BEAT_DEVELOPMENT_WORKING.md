@@ -6,11 +6,9 @@
 **Dialogue-production authority:** `../../03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`
 
 ## Purpose
-
 This is the single cumulative workspace for developing Chapter 2 beat-by-beat before dialogue generation. `CHAPTER_02.md` remains the locked story authority. This file expands the locked structure into scene-sized production inputs and should be updated as each beat is refined.
 
 ## Locked Chapter-2 production method
-
 > **scene/world state → independent Person Agent Brain rehearsals → Dialogue Editor → invisible Canon/Knowledge Checker → economical HD-2D staging/implementation**
 
 Do not generate final dialogue until the relevant beat has a clean story packet.
@@ -47,27 +45,27 @@ Retired from the current structure: poisoned-water opening, separate transfer-re
 **Development status:** CURRENT WORKING BEAT PACKET
 
 ## Purpose
-Open Chapter 2 as a continuation rather than another departure scene. After the player confirms **Start Chapter 2**, the party begins on the path immediately outside Dunmere.
+Open Chapter 2 as a continuation rather than another departure scene. After the player chooses to continue from the Chapter-1 Wayfinder-area camp and confirms **Start Chapter 2**, the party begins already on the path immediately outside Dunmere.
 
 ## Starting state
-- Chapter-1 cleanup has ended.
+- Chapter-1 cleanup is over.
 - Combat party: **Cyanis + Ilyra + Torren**.
 - Maevra travels with them but remains fully noncombat.
 - Party carries physical Wayfinder copies.
-- They know their route overlaps an older Diysean alignment but not its purpose/full extent.
+- They know their route overlaps an older Diysean alignment but not its purpose or full extent.
 - Larger destination remains **Caelora**.
 - They do not yet know Dunmere's kidnapping problem.
 
 ## Playable structure
-Short real traversal before town. Dunmere is visibly near. Limited walking dialogue is legal because Torren is genuinely guiding the route. No lore recap is required.
+Short real traversal before town. Dunmere is visibly near. Limited walking dialogue is legal because Torren is genuinely guiding the route. No mandatory lore recap.
 
-## Mandatory events
-- player traverses final approach;
-- Torren remains natural guide;
+## Mandatory progression
+- player traverses the final approach;
+- Torren remains the natural guide;
 - Maevra remains physically present;
-- Dunmere appears inhabited/functioning;
+- Dunmere appears inhabited and functioning;
 - party enters town;
-- no Black Host attack or kidnapping explanation before entry.
+- no Black Host attack or kidnapping explanation occurs before entry.
 
 ## End state / handoff
 Original plan remains **stop in Dunmere → continue ultimately toward Caelora**.
@@ -127,10 +125,10 @@ Turn the problem into an actionable plan using local knowledge the party could n
 ## Scene shape
 A proper authored stop with the **Dunmere town elder** in an ordinary appropriate local setting. The elder is dealing with the consequences of deteriorating road access, not merely acting as a quest dispenser.
 
-## What the elder knows
-May know Bastion road-control role, watched/exposed approaches, local waterworks infrastructure, and a little-used maintenance/service route that once ran toward/under the Bastion's lower structure.
+## Knowledge boundary
+The elder may know the Bastion's road-control role, watched/exposed approaches, local waterworks infrastructure, and a little-used maintenance/service route that once ran toward/under the Bastion's lower structure.
 
-Does not know Sunken Archive identity, western map, Archive Leviathan, secret prisoner passage, current lower-Bastion layout, Rhazek's command-room situation, or Seyrik.
+The elder does not know about the Sunken Archive, western map, Archive Leviathan, secret passage to the Prisoner Galleries, current lower-Bastion layout, Rhazek's command-room situation, or Seyrik.
 
 ## Tactical rule
 A frontal approach is credibly worse because of observation, prepared defenses, insufficient numbers, and/or danger to captives. Final dialogue need not list every reason.
@@ -160,11 +158,6 @@ No Archive name/function, western map, Leviathan, secret prisoner passage, exact
 
 ## Purpose
 Use the old waterworks as the first real Chapter-2 infiltration/exploration area, carrying the party from recognizable Dunmere infrastructure into the threshold of something unmistakably older.
-
-## Starting state
-- party has committed to waterworks route;
-- combat party: Cyanis + Ilyra + Torren; Maevra present/noncombat;
-- Black Host is unaware of the covert entry.
 
 ## Covert-route hard rule
 > **The waterworks remain genuinely covert.**
@@ -251,18 +244,18 @@ It is coherent and substantially intact. Its incompleteness is one of **scope**:
 Think **complete page from a larger atlas**, not ruined page.
 
 ## Relationship to Wayfinder
-Using the Wayfinder copy and known modern geography, party can recognize their southern Briar/Wayfinder/Dunmere alignment, the same cartographic grammar, and the continuation Wayfinder's damaged edge could not show. Wayfinder remains important because it is the clue that lets them recognize this source.
+Using the Wayfinder copy and known modern geography, the party can recognize their southern Briar/Wayfinder/Dunmere alignment, the same cartographic grammar, and the continuation Wayfinder's damaged edge could not show. Wayfinder remains important because it is the clue that lets them recognize this larger source.
 
 ## Western-map reveal
 - Hollow Watch / Wayfinder / Dunmere corridor belongs to a broad western Diysean network;
-- network extends toward location of **modern Caelora**;
+- network extends toward the location of **modern Caelora**;
 - at that location is a **very large unfamiliar ancient city**, visibly larger/different from modern Caelora;
 - route/network lines continue through/toward that city and onward beyond the western panel's edge;
 - therefore the Caelora-location city is not the end of the larger system;
 - eastern continuation is not available here.
 
 ## Present-world mismatch
-Some mapped routes/geography do not fit present terrain cleanly. Changed geography, non-surface routes, both, or incomplete modern assumptions are live hypotheses only—not established answers.
+Some mapped routes/geography do not fit present terrain cleanly. Changed geography, non-surface routes, both, or incomplete modern assumptions remain live hypotheses only—not established answers.
 
 ## Ancient-city boundary
 Party does not learn the city's formal name, purpose, why it was larger, complete relationship to modern Caelora, whether modern Caelora knowingly sits over it, or the eastern continuation.
@@ -334,132 +327,184 @@ No complete Leviathan origin/function, secret passage, prisoner details, transfe
 **Development status:** CURRENT WORKING BEAT PACKET
 
 ## Purpose
-Provide the Sunken Archive's major combat climax and clear the only viable forward route through the deepest Archive section, while keeping the Leviathan's ancient origin/function deliberately unresolved unless later encounter authority explicitly fixes it.
-
-This beat should:
-- pay off the environmental escalation from Beat 7;
-- make the Leviathan feel like a major physical presence native to the Archive encounter space rather than a random boss teleported into a room;
-- give Cyanis, Ilyra, and Torren the chapter's first major dungeon boss as the established combat trio;
-- preserve Maevra's noncombat role;
-- open access to the final deeper Archive route after victory;
-- avoid turning the boss into another ancient-lore exposition device.
-
-## Starting state
-
-- the party has reached the deepest viable route through the Sunken Archive;
-- Beat 7 has established that a serious obstruction/danger occupies the path ahead;
-- there is no practical bypass that still advances the infiltration toward the Bastion;
-- the western-map discovery has already supplied the major Ancient knowledge payoff for this dungeon segment;
-- the Black Host still does not know the party entered through this route;
-- combat party: **Cyanis + Ilyra + Torren**;
-- Maevra remains physically with the group in story continuity but never participates in battle.
+Provide the Sunken Archive's major combat climax and clear the only viable forward route through the deepest Archive section, while keeping the Leviathan's ancient origin/function unresolved unless encounter authority explicitly fixes it.
 
 ## Boss-presentation rule
-
-`Archive Leviathan` is the production/boss name. Characters do not need to know or speak that formal name before/during the encounter.
-
-The creature/threat should be introduced through direct observable presence rather than a pre-fight lore explanation. The party only needs enough information to understand:
-- it is dangerous;
-- it occupies/controls the route they must use;
-- retreating or finding a simple bypass will not solve the infiltration problem;
-- they must fight or otherwise overcome it to continue.
-
-Do not insert a convenient ancient plaque, archive record, or omniscient explanation immediately before the fight solely to define what the Leviathan is.
+`Archive Leviathan` is the production/boss name. Characters do not need to know or speak that formal name. Introduce the threat through direct observable presence rather than a pre-fight lore explanation.
 
 ## Origin / function boundary
-
-Unless current encounter authority later explicitly locks otherwise, Beat 8 does **not** establish whether the Archive Leviathan is:
-- an intentionally placed guardian;
-- a naturally occurring creature that later occupied the Archive;
-- an altered organism;
-- an ancient construct;
-- a hybrid or other category;
-- directly tied to the Archive's original purpose.
-
-Its presence may visually suggest possibilities, but Chapter 2 does not have to answer them.
-
-This preserves freedom for creature/encounter design without making the story depend on an unneeded ancient-history explanation.
+Chapter 2 does not establish whether the Leviathan is an intentionally placed guardian, natural creature, altered organism, construct, hybrid, or directly tied to the Archive's original function unless live encounter authority later locks that answer.
 
 ## Combat structure
+- major boss of the **Sunken Archive**;
+- combat party: **Cyanis + Ilyra + Torren**;
+- Maevra never participates in battle;
+- preserve current **one HP bar / two behavior-state** structure unless encounter authority revises it;
+- same-bar behavior shift is not a fresh form/fresh HP bar;
+- exact stats, skills, AI, thresholds, rewards, and balance remain under encounter authority;
+- no special story-only victory mechanic is required.
 
-- Major boss of the **Sunken Archive**.
-- Combat party: **Cyanis + Ilyra + Torren**.
-- Maevra is never a battle participant.
-- Preserve the current **one HP bar / two behavior-state** structure unless live encounter authority later revises it.
-- The behavior transition is part of the same encounter state, not a fresh form with restored HP.
-- Exact stats, attacks, elemental/status interactions, thresholds, AI, EXP, drops, and encounter balance remain under live enemy/encounter authority.
-- Do not introduce a special story-only victory mechanic unless later combat authority specifically requires one. Ordinary battle victory remains sufficient at story level.
-
-## Arena / route relationship
-
-The boss arena should be spatially meaningful to progression. The Leviathan occupies or controls the basin/chamber/passage through which the only viable deeper route continues.
-
-Victory should produce a clear practical change:
-- the threat no longer blocks the route;
-- the party can reach a previously inaccessible deeper Archive section, passage, door, or continuation;
-- this continuation is what eventually leads to Beat 9's old secret passage discovery.
-
-Do not make the reward for victory a bundle of transfer records or a replacement paperwork clue. The next story discovery is **architectural/physical**: the route continues and the party finds the secret passage.
-
-## Agent-Brain / pre-post battle guidance
-
-Keep dialogue economical.
-
-Before battle, agents receive only the actual observable threat, route conditions, and immediate need to proceed. They may react with caution, tactical judgment, frustration, or resolve according to their brains; no one needs to explain the monster's origin.
-
-After battle, the useful information is practical:
-- the path is open;
-- the party can continue deeper;
-- they still have not found the prisoners;
-- the Bastion remains the objective.
-
-Do not use the post-boss scene to reopen the western-map lecture or to make the defeated creature reveal lore.
+## Route relationship
+The Leviathan physically occupies or controls the only viable deeper continuation. Defeating it opens access to the final Archive route. The reward is **physical progression**, not transfer records or paperwork.
 
 ## Mandatory progression
-
-- party reaches the Leviathan's occupied section;
-- the threat becomes directly visible/inescapably relevant;
+- party reaches occupied section;
 - no practical bypass is available;
-- **Archive Leviathan boss battle occurs**;
+- Archive Leviathan battle occurs;
 - Cyanis + Ilyra + Torren fight; Maevra does not;
 - Leviathan is defeated/overcome;
-- the route it blocked becomes traversable;
-- party advances into the final deeper Archive continuation;
-- no transfer-record scene occurs after the boss.
+- blocked route becomes traversable;
+- party advances into final deeper Archive continuation;
+- no transfer-record scene occurs.
 
-## End state / knowledge change
-
-- Archive Leviathan no longer blocks progression;
-- Sunken Archive's major boss is complete;
-- party remains undiscovered by the Bastion as far as they know;
-- prisoners have still not been directly located;
-- the party has gained physical access to a deeper continuation that appears capable of carrying them closer to/into the Bastion;
-- Leviathan's exact origin and original function remain unresolved unless later encounter authority establishes them.
-
-## Gameplay handoff
+## End state / handoff
+Sunken Archive major boss is complete. Covert infiltration remains intact as far as the party knows. Prisoners still have not been directly located, but the newly accessible continuation appears capable of carrying the party closer to/into the Bastion.
 
 → **Beat 9 — Secret Passage Discovery**
 
 ## Reveal firewall
-
-Do not reveal in Beat 8:
-- a definitive Leviathan origin/function without explicit encounter authority;
-- transfer records or a replacement `thirty-one transfers` clue;
-- the prisoner gallery before Beat 9/10 progression;
-- exact captive counts;
-- Rhazek's command role/philosophy;
-- masked Seyrik;
-- eastern-map continuation;
-- ancient Caelora city's formal identity/history;
-- Cresthaven;
-- Last Sentinel;
-- buried-Crest/complete underground truth;
-- Entity.
+No definitive Leviathan origin without explicit encounter authority, transfer records, `thirty-one transfers`, prisoner gallery before Beat 9/10 progression, exact captive counts, Rhazek philosophy, masked Seyrik, eastern map continuation, ancient Caelora formal identity, Cresthaven, Last Sentinel, buried-Crest truth, or Entity.
 
 ---
 
 # Beat 9 — Secret Passage Discovery
 
+**Development status:** CURRENT WORKING BEAT PACKET
+
+## Purpose
+Pivot Chapter 2 cleanly from the ancient-Archive thread back into the human kidnapping plot by revealing that the final deeper Archive route contains an old concealed passage that physically connects into what the Black Host is using as the **Prisoner Galleries**.
+
+This beat should:
+- reward defeating the Archive Leviathan with meaningful physical progress rather than another lore document;
+- preserve the surprise that the ancient complex reaches directly into/under the modern Bastion;
+- eliminate the need for a transfer-records intermediary;
+- let the party enter the prisoner infrastructure covertly before the Black Host understands how they arrived;
+- stop before the actual prisoner-contact scene so Beat 10 can focus on the people themselves.
+
+## Starting state
+- Archive Leviathan has been defeated/overcome.
+- The deeper route it blocked is now accessible.
+- The party still has not located the kidnapped travelers.
+- The Sunken Archive remains outside active Black Host occupation as far as the party has seen.
+- The Bastion is still the immediate objective.
+- Combat party: **Cyanis + Ilyra + Torren**.
+- Maevra remains physically present and fully noncombat.
+- The Black Host has not knowingly intercepted the party's covert approach.
+
+## Passage-discovery rule
+The route into the Prisoner Galleries is an **old secret/concealed passage belonging to the ancient structure**, not a modern Black Host tunnel and not a route explained by the Dunmere elder.
+
+The party discovers it by continuing through the final accessible Archive section after the Leviathan.
+
+Its concealment should be credible, but the exact mechanism remains for later map design. It may be an old service access, concealed connection, maintenance route, disguised partition, hidden doorway, or equivalent architectural feature consistent with the finished Archive design.
+
+Do not lock a puzzle, magic key, Crest authorization, Card reaction, or exact opening mechanism here unless later area/mechanics authority specifically chooses one.
+
+## Black Host knowledge boundary
+The passage should preserve the value of the covert infiltration.
+
+The Black Host does **not** need to know this ancient connection exists or remains usable. The Prisoner Galleries may occupy later-built or repurposed space on the other side without the Host understanding every buried passage behind/under it.
+
+Therefore:
+- do not place Host guards routinely using the secret passage;
+- do not make it part of the Bastion's normal transfer route;
+- do not make the party emerge directly into an alerted guard formation solely for a forced battle;
+- the discovery should plausibly let the party enter or observe the gallery area before their presence is fully understood.
+
+## Environmental transition
+The physical transition should be readable:
+
+1. **Deep Archive continuation** — still unmistakably ancient.
+2. **Concealed/secondary ancient passage** — narrower or functionally distinct from the main Archive spaces.
+3. **Modern reuse boundary** — signs of newer construction, repairs, barriers, hardware, light, sound, or other current occupation begin appearing beyond the old route.
+4. **Prisoner Gallery threshold** — the party realizes the space ahead is being used to hold people.
+
+The exact art/material language belongs to later map/tileset design.
+
+## No-transfer-records hard rule
+> **There is no separate transfer-records story beat between the Leviathan and the prisoners.**
+
+Do not insert manifests, ledgers, numbered transfer entries, `thirty-one transfers`, or equivalent paperwork merely to prove that the kidnappings are organized.
+
+The physical reality of the Prisoner Galleries and the people held there is sufficient proof.
+
+## Discovery / knowledge progression
+Beat 9 should move the party through a concise escalation:
+
+- the Archive route continues farther than expected;
+- a concealed ancient connection is discovered;
+- signs of current human occupation appear on the far side;
+- those signs are recognizably Black Host/Bastion-related where observable;
+- the party detects unmistakable evidence of imprisoned people ahead;
+- the connection is understood to have brought them into the Bastion's lower prisoner area.
+
+The beat does **not** require the party to know the gallery's full layout, number of prisoners, transfer destination, or command structure.
+
+## Agent-Brain rehearsal packet
+The Director may provide:
+- the Leviathan has just been defeated;
+- the newly opened route continues toward the Bastion;
+- the architecture narrows/changes into an old concealed passage;
+- modern occupation signs begin appearing;
+- voices, movement, restraints, barred spaces, guards, or other actual map-supported evidence indicates prisoners are nearby;
+- the party has succeeded in entering without using the defended road approach.
+
+Natural responses may include caution, recognition that the infiltration worked, concern about alerting guards, surprise at the ancient-to-modern connection, or an immediate shift toward the captives. Do not assign every observation to one character or require all four to speak.
+
+## Presentation rule
+The reveal should come primarily from **space and sound**, not exposition.
+
+A good production shape is:
+- player follows the newly accessible route;
+- short authored stop when the concealed passage is recognized/opened;
+- player or brief controlled movement through it;
+- first signs of Bastion construction/occupation appear;
+- the party reaches a vantage/threshold from which the holding area is unmistakable;
+- Beat 9 ends before substantial interaction with the prisoners.
+
+Keep staging economical. No long cinematic is required.
+
+## Mandatory progression
+- party advances beyond the Leviathan through the final deeper Archive continuation;
+- an old concealed/secret passage is discovered;
+- the passage is established as part of ancient architecture rather than Black Host construction;
+- party follows/opens it without requiring a newly invented major lore mechanic;
+- modern Bastion/Black Host occupation becomes apparent on the far side;
+- the party reaches what is being used as the **Prisoner Galleries**;
+- living prisoners/captives are unmistakably present or immediately detectable;
+- no transfer-record intermediary occurs;
+- the party has not yet conducted the actual first-contact/rescue interaction.
+
+## End state / knowledge change
+After Beat 9:
+- the party has physically infiltrated the Red Transfer Bastion from below/behind its normal defenses;
+- the Sunken Archive is confirmed to connect into the Bastion through an old concealed passage;
+- the party has found the kidnapped travelers/captives in the Prisoner Galleries;
+- the physical holding area proves the kidnapping problem is real and organized without paperwork exposition;
+- the exact number, condition, history, and individual needs of the prisoners are still to be learned;
+- the party's immediate priority shifts from **finding the prisoners** to **making contact and helping them without causing unnecessary harm or panic**.
+
+## Gameplay handoff
+→ **Beat 10 — Prisoner Galleries / First Contact**
+
+## Reveal firewall
+Do not reveal in Beat 9:
+- a complete captive count;
+- a full prisoner-transfer destination/purpose;
+- Rhazek's philosophy or complete command role;
+- masked Seyrik's identity;
+- a second map/lore revelation;
+- eastern-map continuation;
+- ancient Caelora city's formal identity/history;
+- Last Sentinel;
+- Cresthaven;
+- buried-Crest/complete underground truth;
+- Entity.
+
+---
+
+# Beat 10 — Prisoner Galleries / First Contact
+
 **Development status:** NEXT TO DEVELOP
 
-Current locked function from `CHAPTER_02.md`: after the Archive Leviathan, let the party follow the newly opened deeper Archive route to an old secret passage that physically leads into what the Black Host is using as the Prisoner Galleries. There is no separate transfer-records story beat between the boss and the prisoners.
+Current locked function from `CHAPTER_02.md`: turn the kidnapping problem into direct human contact by having the party encounter the living captives as individuals with their own choices, injuries, distrust, and needs rather than as a rescue counter.
