@@ -660,6 +660,219 @@ Do not reveal in Beat 5:
 
 # Beat 6 — Western Map Mural
 
+**Development status:** CURRENT WORKING BEAT PACKET
+
+## Purpose
+
+Deliver Chapter 2's major Ancient cartographic payoff by giving the party the larger western context that the Wayfinder could not provide, while making it equally clear that even this discovery is only one half of a still-larger picture.
+
+Beat 6 should:
+- pay off the broken/incomplete information at Wayfinder without making the Archive mural itself damaged;
+- show that the routes encountered at Hollow Watch and Wayfinder belong to a broad western Diysean network;
+- establish a much larger ancient city at the location of modern Caelora;
+- reveal that the surviving western panel is complete as a map section but not complete as the total map;
+- preserve uncertainty about the eastern continuation, changed geography, route function, and the identity of the ancient city;
+- let the discovery matter without derailing the immediate rescue/infiltration objective.
+
+## Starting state
+
+- the party is fully inside the Sunken Archive and has enough environmental context to treat the complex as a major ancient information/preservation site;
+- the covert route into the Bastion remains unresolved;
+- the Black Host still has no reason to know the party is inside the Archive;
+- the party carries physical copies made from the Wayfinder;
+- they know the Wayfinder showed that their modern Dunmere-bound route overlaps an older Diysean alignment;
+- they also know the Wayfinder itself had a broken/damaged edge that prevented them from seeing the larger continuation there;
+- they do not know the complete extent or purpose of the old network;
+- combat party: **Cyanis + Ilyra + Torren**;
+- Maevra remains present and fully noncombat.
+
+## Map condition / scope — hard rule
+
+> **The western map mural is not a damaged map.**
+
+The mural/panel the party reaches is coherent and substantially intact enough to show its intended western-region information clearly.
+
+Its incompleteness is one of **scope**, not physical destruction:
+- it represents the **western half / western section** of a larger Diysean map or network display;
+- route lines, geographic alignments, network markings, or equivalent cartographic structures continue cleanly beyond one or more physical panel edges;
+- those continuing lines make it visually obvious that this western section was designed to connect to additional map material beyond what is present here;
+- the party does not need a translated label saying `WESTERN HALF` to understand that the display continues beyond this panel;
+- do not break chunks off the wall merely to communicate incompleteness.
+
+The visual should create the feeling of finding a complete page from a larger atlas rather than a ruined page with missing pieces.
+
+## Relationship to Wayfinder
+
+This map provides the larger context that **Wayfinder was physically unable to show**.
+
+Using the Wayfinder copy and known modern geography, the party can recognize:
+- the local alignment they followed through southern Briar / Wayfinder toward Dunmere;
+- the same route/network grammar already seen at Hollow Watch and Wayfinder;
+- the continuation beyond the information cut off by Wayfinder's damaged/broken edge;
+- that Wayfinder was one local node/representation within a much broader mapped system rather than a self-contained road diagram.
+
+The Archive mural does not make the Wayfinder obsolete. Wayfinder was the clue that allowed the party to recognize what they are looking at here.
+
+## Western-map reveal
+
+The complete western section establishes all of the following:
+
+- the Hollow Watch / Wayfinder / Dunmere corridor belongs to a much broader western Diysean route or infrastructure network;
+- the network extends toward the location occupied by **modern Caelora**;
+- at that location, the mural shows a **very large unfamiliar ancient city**;
+- the ancient city's mapped footprint is visibly larger than modern Caelora as the party knows it;
+- the city's layout/representation is not simply a recognizable drawing of present-day Caelora;
+- route/network lines continue through or toward that location and then continue beyond the physical edge of the western panel;
+- therefore the Caelora-location city is not the end of the larger map/system;
+- the eastern continuation is not available from this western section.
+
+The map may contain additional western geography/route information appropriate to later world/map design, but Beat 6 does not need to enumerate every settlement, landmark, or line as dialogue.
+
+## Present-world mismatch
+
+The western section is recognizably related to the world the party knows, but it should not match the modern landscape perfectly.
+
+Some mapped alignments may appear to continue through or beneath terrain that is not traversable that way in the present era, including areas now separated/blocked by mountain or water geography where supported by current world authority.
+
+The party may identify the mismatch. They may not solve it.
+
+Permitted live hypotheses include:
+- parts of the landscape changed over time;
+- some old routes were not surface roads;
+- both may be true;
+- their modern geographic assumptions may be incomplete.
+
+None of those hypotheses becomes established fact in Chapter 2 merely because a character suggests it.
+
+## Ancient-city knowledge boundary
+
+The party may determine that the enormous mapped city occupies the **same broad geographic location as modern Caelora** through comparison with known geography.
+
+They do **not** learn here:
+- the ancient city's formal name;
+- its complete purpose;
+- why it was larger than modern Caelora;
+- its full relationship to the modern capital;
+- whether modern Caelora was knowingly built over/on its remains;
+- the complete eastern route continuation;
+- Cresthaven's identity/location;
+- the later buried/underground truth.
+
+Do not turn visual recognition of the location into archaeological certainty about the city's history.
+
+## Authored discovery shape
+
+Beat 6 should contain a distinct authored stop at the mural rather than allowing this major discovery to pass as ambient decoration.
+
+However, it should not become a long lecture scene.
+
+A strong structure is:
+1. party reaches/sees the large map display;
+2. the Wayfinder copy is brought into comparison;
+3. recognizable local geometry establishes that the two sources belong to the same system;
+4. the larger western network becomes clear;
+5. the Caelora-location city and map continuation beyond the panel create the larger question;
+6. the party records/copies what is useful;
+7. they continue deeper into the Archive because the prisoner/Bastion objective remains unresolved.
+
+Exact dialogue and who makes each observation belongs to the independent Person Agent rehearsal.
+
+## Agent-Brain rehearsal packet
+
+The Director should provide the agents with the visible map and only the information each could plausibly bring to the comparison.
+
+Relevant context may include:
+- the physical Wayfinder copies;
+- the party's shared experience at Hollow Watch and Wayfinder;
+- Torren's practical route/geography knowledge;
+- Maevra's military/travel familiarity with the region and Caelora;
+- Cyanis and Ilyra's own lived geographic knowledge;
+- the clearly visible fact that mapped lines continue beyond the mural's edges;
+- the obvious scale difference between the ancient mapped city and modern Caelora;
+- the current need to keep searching for a Bastion connection and kidnapped travelers.
+
+Do not assign every discovery to Torren automatically. Let the independent brains determine who notices, questions, doubts, compares, or stays quiet.
+
+Do not require everyone to agree immediately about what the mismatched routes mean. Uncertainty and competing plausible interpretations are desirable here.
+
+## Physical-copy rule
+
+The party should preserve the useful information rather than relying on perfect memory.
+
+They make practical copies/records of the western map information they can reasonably capture, especially:
+- the recognizable Wayfinder/Dunmere alignment;
+- the broader western network context;
+- the Caelora-location city;
+- the continuing lines that leave the western panel.
+
+Do not require an implausibly perfect instant reproduction of every minute mark on a giant wall. The amount and method of copying can remain practical and presentation-efficient.
+
+## Pacing / story-priority rule
+
+This discovery is important enough to stop for, but it does **not** replace the Chapter 2 human objective.
+
+The party still entered this route because people are being kidnapped.
+
+Once they have understood and recorded the key map information, they continue deeper into the Archive rather than turning the chapter into an archaeological expedition.
+
+This should create a productive tension:
+
+> **They have discovered something much larger than the immediate problem, but the immediate problem still has living people attached to it.**
+
+## Mandatory progression
+
+- the party reaches the intact/coherent western map mural;
+- they recognize it as belonging to the same cartographic/network tradition as Hollow Watch and Wayfinder;
+- the Wayfinder copy allows the known local route to be placed within the broader western map;
+- the mural supplies continuation/context missing at Wayfinder;
+- the party recognizes that this is only the western portion of a larger map because lines continue beyond the panel edges;
+- the broader western network is established;
+- the party identifies a very large unfamiliar ancient city at the geographic location of modern Caelora;
+- they recognize that the ancient mapped city is substantially larger/different from modern Caelora;
+- at least some old geography/route relationships do not fit the present landscape cleanly;
+- no definitive explanation for those mismatches is established;
+- the party makes practical copies/records of the useful information;
+- the group resumes the search for a route through the Archive toward the Bastion/prisoners.
+
+## End state / knowledge change
+
+After Beat 6, the party knows:
+- Wayfinder was a local piece of a much broader Diysean mapped network;
+- the complete western section fills in information the damaged Wayfinder could not show;
+- the western network reaches the location of modern Caelora;
+- a much larger unfamiliar ancient city is mapped there;
+- the map/system continues beyond the western panel's edges;
+- they still possess only the western half/section of the larger picture;
+- portions of the old map do not align cleanly with the present world;
+- they do not know why.
+
+The covert infiltration remains intact, and the kidnapped travelers have still not been found.
+
+## Gameplay handoff
+
+→ **Beat 7 — Archive Depths**
+
+## Reveal firewall
+
+Do not reveal in Beat 6:
+- the complete eastern half/continuation of the map;
+- the ancient Caelora-location city's formal identity or full history;
+- the complete purpose of the route/network system;
+- the definitive reason ancient routes/geography differ from the present world;
+- Cresthaven's identity/location;
+- Last Sentinel;
+- buried-Crest / complete underground-civilization truth;
+- Entity;
+- the Archive Leviathan before its later setup/encounter window;
+- the secret passage into the Prisoner Galleries;
+- prisoner locations/counts;
+- Rhazek's role;
+- Seyrik's presence/identity.
+
+---
+
+# Beat 7 — Archive Depths
+
 **Development status:** NEXT TO DEVELOP
 
-Current locked function from `CHAPTER_02.md`: deliver Chapter 2's major Ancient cartographic payoff through a **complete western-half map** whose route/network lines visibly continue beyond its physical edges, revealing the broader western system and the enormous ancient city at the location of modern Caelora without explaining the missing eastern continuation or the system's full purpose.
+Current locked function from `CHAPTER_02.md`: let the party continue deeper through the Sunken Archive after the western-map discovery, restore exploration/combat pressure after the lore stop, and build naturally toward the Archive Leviathan without adding another major ancient-history answer before the boss.
