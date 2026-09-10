@@ -1,451 +1,422 @@
-# Chapter 2 Character-Life — C06 — No Questions
+# Chapter 2 Character-Life — C06 — Still Burns
 
 **Status:** CURRENT REHEARSAL-FIRST WORKING DRAFT — NOT LOCKED  
 **Availability:** Chapter 2 cleanup, after the Beat-16 Dunmere elder resolution and before the explicit Chapter-3 start interaction  
 **Participants:** Cyanis, Ilyra, Torren, Maevra  
-**Production method:** scene/world state → independent Person Agent Brain rehearsals → Dialogue Editor → invisible Canon/Knowledge Checker → economical HD-2D staging  
+**Production method:** scene/world state → independent Person Agent Brain rehearsals → Dialogue Editor → invisible Canon/Knowledge Checker → economical HD-2D staging
 
-## Current structural decision
-This single Character-Life scene replaces the former separate historical concepts:
-- C06 — `Three People Who Know Each Other Now`
-- C07 — `Bad Dreams, No Questions`
+## Scene seed
+Late night at the Dunmere inn. Torren is awake and smoking near the open window. Ilyra wakes because the smell is noticeably worse than it was the previous day. The reason is mundane: Torren's stash got soaked during the waterworks infiltration and never dried properly.
 
-The current scene keeps their useful dramatic functions while discarding their old exact wording/staging as controlling authority:
-- earned ordinary familiarity after traveling and fighting together;
-- practical care without speeches about friendship;
-- late-night wakefulness without forced disclosure;
-- nobody asks what anyone dreamed about;
-- nobody is required to explain why they are awake;
-- Maevra is fully present as a fourth person with her own relationships and ordinary-life identity.
-
-Maevra remains non-playable/noncombat. Her arm is still in its continuing recovery/splint state during Chapter-2 cleanup.
-
-## Production footprint
-One reused Dunmere inn/rest-room environment can carry the whole scene. A rough table, four chairs/stools, four sleeping places, cups, ordinary field gear, Maevra's cheap serial, and a low lamp/brazier are enough. Portraits and a few broad pose/state changes carry the acting. No dream visualization.
+The scene is generated fresh from current character authority. It does not preserve the prior C06/C07 dialogue structure or wording.
 
 ---
 
-## [LATE EVENING]
+## [LATE NIGHT — DUNMERE INN]
 
-The Dunmere inn/rest room is finally quiet enough to feel quiet.
+The room is dark except for a low lamp and what little moonlight reaches through the open window.
 
-Torren is at the table with a frayed pack strap in front of him. Maevra has one arm settled carefully and an aggressively cheap serialized adventure open in the other hand. Ilyra has a cup. Cyanis is standing nearby, checking the same three pieces of gear for the second time.
+Torren is sitting on the floor beside it, one shoulder against the wall, smoking.
 
-**MAEVRA:** If you look in that bag again, I'm charging you rent.
+A few seconds pass.
 
-**CYANIS:** I lost a glove.
+From one of the beds:
 
-**TORREN:** No, you didn't.
-
-**CYANIS:** Helpful.
-
-**ILYRA:** Belt.
-
-Cyanis looks down. The missing glove is tucked through his belt.
-
-A beat.
-
-**CYANIS:** I knew that.
-
-**MAEVRA:** Of course.
-
-**TORREN:** Good search.
-
-**CYANIS:** Both of you can go to hell.
-
-Ilyra drinks.
-
-**ILYRA:** I found it.
-
-**CYANIS:** You can stay.
-
-**ILYRA:** Generous.
-
-Torren pulls the frayed strap tight and inspects it.
-
-**ILYRA:** What's wrong with that?
-
-**TORREN:** Nothing.
-
-Maevra looks over the top of her book.
-
-**MAEVRA:** That's his favorite kind of broken.
-
-**TORREN:** It isn't broken.
-
-**CYANIS:** It's coming apart.
-
-**TORREN:** Slowly.
-
-**CYANIS:** Ah. Healthy, then.
-
-Torren looks at him.
-
-**TORREN:** You want your glove back in the bag?
-
-**CYANIS:** Withdrawn.
-
-Maevra goes back to her book.
-
-**ILYRA:** What are you reading?
-
-**MAEVRA:** Garbage.
-
-**ILYRA:** Good garbage?
-
-**MAEVRA:** Excellent garbage.
-
-**CYANIS:** Difference?
-
-Maevra closes the book around one finger and looks at him.
-
-**MAEVRA:** Good garbage knows exactly what it is.
-
-**TORREN:** That one know?
-
-**MAEVRA:** Absolutely not.
-
-**TORREN:** So why are you reading it?
-
-**MAEVRA:** I need to know if the author figures it out.
-
-Ilyra laughs.
-
-**CYANIS:** What happens?
-
-**MAEVRA:** The captain is pretending he isn't the lost prince.
-
-**CYANIS:** Is he the lost prince?
-
-**MAEVRA:** Obviously.
-
-**TORREN:** Sounds solved.
-
-**MAEVRA:** There are four hundred pages left.
-
-Torren considers that.
-
-**TORREN:** That's upsetting.
-
-**MAEVRA:** Thank you.
-
-Torren reaches for another damaged strap.
-
-Ilyra takes it first and moves it to the far side of the table.
-
-**TORREN:** I wasn't done.
-
-**ILYRA:** You were.
-
-**TORREN:** Says who?
-
-**ILYRA:** Me.
-
-Maevra quietly reaches for a bent buckle beside her book.
-
-Ilyra looks at her.
-
-Maevra stops.
-
-**MAEVRA:** I am reading.
-
-**ILYRA:** You're holding a buckle.
-
-Maevra looks down at the buckle in her hand.
-
-A beat.
-
-**MAEVRA:** It was in the way.
-
-**CYANIS:** Of the book?
-
-**MAEVRA:** Don't start.
-
-**TORREN:** She's got a point.
-
-**MAEVRA:** You are the last person I need helping me.
-
-Cyanis takes the buckle from her and puts it beside Torren's strap.
-
-**MAEVRA:** Dovaren.
-
-**CYANIS:** Apparently we're done.
-
-Maevra stares at him.
-
-**CYANIS:** I'm adapting to local command structure.
-
-**ILYRA:** Smart.
-
-**TORREN:** Coward.
-
-**CYANIS:** Alive coward.
-
-**MAEVRA:** For now.
-
-Nobody reaches for the gear again.
-
-The room settles.
-
-After a while Maevra opens the serial again. Torren leans back. Ilyra keeps her cup in both hands. Cyanis finally sits.
-
-Nobody has anything important to say.
-
----
-
-## [LATER]
-
-The lamp is low. The room is dark enough that the window is brighter than the walls.
-
-Torren wakes.
-
-He stays still for several seconds, then sits up and looks toward the window.
-
-From another sleeping place:
-
-**MAEVRA:** Floorboard by the door squeaks.
-
-Torren looks over.
-
-**TORREN:** You're awake.
-
-**MAEVRA:** Brilliant work.
-
-**TORREN:** Thought you were asleep.
-
-**MAEVRA:** You thought wrong.
-
-Torren gets up, avoids the bad floorboard, and sits near the window.
-
-Maevra watches him for a moment, then sits up carefully.
-
-Neither asks the other anything.
-
-A little later:
-
-**MAEVRA:** You know what's worse than that book?
-
-**TORREN:** Most things.
-
-**MAEVRA:** The mattress.
-
-**TORREN:** Mattress is fine.
-
-**MAEVRA:** You're sitting on the floor.
-
-Torren looks down.
-
-**TORREN:** Floor's fine too.
-
-**MAEVRA:** Strong defense.
-
-From the dark:
-
-**ILYRA:** It isn't.
-
-Maevra turns her head.
-
-**MAEVRA:** There she is.
-
-**ILYRA:** Unfortunately.
-
-Ilyra sits up.
-
-**ILYRA:** Everything quiet?
+**ILYRA:** Torren.
 
 **TORREN:** Yeah.
 
-**ILYRA:** Good.
+**ILYRA:** What the fuck is that?
 
-That is all she asks.
+Torren looks at the blunt in his hand.
 
-She gets up, takes the cup of water from the table, and sits near the other two.
+**TORREN:** Mine.
 
-They sit without speaking for a while.
-
-Then:
-
-**ILYRA:** Your book still bad?
-
-**MAEVRA:** Worse.
-
-**TORREN:** Progress.
-
-**MAEVRA:** The lost prince has amnesia now.
-
-Ilyra stares at her.
-
-**ILYRA:** He was pretending not to be the prince.
-
-**MAEVRA:** Correct.
-
-**ILYRA:** And now he actually doesn't know?
-
-**MAEVRA:** Correct.
-
-**TORREN:** Efficient.
-
-**ILYRA:** That's not the word I'd use.
-
-From the fourth sleeping place:
-
-**CYANIS:** It saves him having to keep pretending.
-
-Nobody looks over.
-
-**MAEVRA:** How long have you been awake?
-
-**CYANIS:** Just now.
-
-**ILYRA:** No.
-
-**CYANIS:** You don't know that.
-
-**TORREN:** You sigh when you're pretending to sleep.
+**ILYRA:** I know it's yours.
 
 A beat.
 
-**CYANIS:** I do not.
+**ILYRA:** It didn't smell like that yesterday.
 
-**MAEVRA:** You absolutely do.
+**TORREN:** Wasn't wet yesterday.
 
-**CYANIS:** How many people have been monitoring this?
+Ilyra opens her eyes fully.
 
-**ILYRA:** Nobody.
+**ILYRA:** Wet.
 
-**TORREN:** Hard not to hear.
+**TORREN:** Yeah.
 
-Cyanis sits up.
+**ILYRA:** You are smoking wet weed.
 
-**CYANIS:** This room is hostile.
+**TORREN:** It's not wet now.
 
-**MAEVRA:** Come sit with the rest of the victims.
+**ILYRA:** Torren, I can smell the water in it.
 
-Cyanis gets up and joins them.
+**TORREN:** That's not how smell works.
 
-There are not really four good places near the window. Nobody solves that problem. Cyanis sits on the floor.
+**ILYRA:** Then explain the fucking swamp in this room.
 
-A few quiet seconds pass.
+Torren takes another pull.
 
-**CYANIS:** Mattress bad?
+He considers the smoke.
 
-**MAEVRA:** Terrible.
+**TORREN:** Waterworks.
 
-**TORREN:** Fine.
+Ilyra stares at the ceiling.
 
-**ILYRA:** I haven't decided.
+**ILYRA:** Of course.
 
-**CYANIS:** That's three completely useless answers.
+She pushes herself upright.
 
-**TORREN:** Asked the room.
+**ILYRA:** Your whole pouch went under?
 
-**CYANIS:** Apparently my mistake.
+**TORREN:** Most of it.
 
-Silence again.
+**ILYRA:** And you kept it.
 
-Outside, Dunmere is quiet. No alarm. No marching boots. No one calling for them.
+**TORREN:** Paid for it.
 
-Ilyra looks toward Maevra's book.
+**ILYRA:** That isn't a reason.
 
-**ILYRA:** Does he know he's the prince yet?
+**TORREN:** Pretty good one.
 
-**MAEVRA:** No.
+**ILYRA:** No.
 
-**CYANIS:** Does anyone else?
+Torren shrugs and looks back out the window.
 
-**MAEVRA:** Everyone.
+Ilyra swings her feet to the floor.
 
-**TORREN:** Even him, originally.
+**ILYRA:** Open that farther.
 
-**MAEVRA:** Don't be difficult.
+**TORREN:** It is open.
 
-**TORREN:** That's the story.
+**ILYRA:** Farther.
 
-Maevra gives him a long look.
+Torren pushes the window wider.
 
-**MAEVRA:** Twenty-five years and you're still irritating.
+Cool air comes into the room.
 
-**TORREN:** Consistent.
+**TORREN:** Better?
+
+Ilyra breathes once through her nose.
+
+**ILYRA:** Different problem.
+
+**TORREN:** Good enough.
+
+From another bed:
+
+**MAEVRA:** It is absolutely not good enough.
+
+Neither Torren nor Ilyra turns.
+
+**TORREN:** Go back to sleep.
+
+**MAEVRA:** I'd love to.
+
+Maevra shifts carefully, protecting the splinted arm.
+
+**MAEVRA:** Unfortunately Harth has decided to smoke a drowned boot.
+
+Torren looks over.
+
+**TORREN:** Weed.
+
+**MAEVRA:** Not anymore.
+
+**TORREN:** Still burns.
+
+**MAEVRA:** So does garbage.
+
+Ilyra looks at Torren.
+
+**ILYRA:** There. Independent confirmation.
+
+**TORREN:** Didn't ask for any.
+
+Maevra sits up.
+
+**MAEVRA:** How much of it got soaked?
+
+**TORREN:** Enough.
+
+**MAEVRA:** That's not a quantity.
+
+**TORREN:** It answered the question.
+
+**MAEVRA:** No, it avoided the question.
+
+**TORREN:** Also useful.
+
+Maevra gives him a look.
+
+**MAEVRA:** You dried it next to the brazier, didn't you?
+
+Torren says nothing.
+
+Ilyra turns toward him.
+
+**ILYRA:** Oh, no.
+
+**TORREN:** Worked.
+
+**ILYRA:** Clearly.
+
+**MAEVRA:** How long?
+
+**TORREN:** Long enough.
+
+**MAEVRA:** You learned nothing in twenty-five years.
+
+**TORREN:** Learned plenty.
+
+**MAEVRA:** Name one thing.
+
+**TORREN:** Open a window.
+
+Ilyra laughs once before she can stop herself.
+
+Maevra points at Torren with her good hand.
+
+**MAEVRA:** Do not reward him.
+
+**ILYRA:** I didn't mean to.
+
+**TORREN:** Still counts.
+
+From the last bed:
+
+**CYANIS:** Is something burning?
+
+Three people answer at once.
+
+**TORREN:** No.
+
+**ILYRA:** Technically.
 
 **MAEVRA:** Unfortunately.
 
-A small smile escapes her before she can stop it.
+Silence.
 
-Cyanis notices.
+Cyanis sits up.
 
-He very deliberately says nothing.
+**CYANIS:** That's an upsetting set of answers.
 
-Maevra notices him noticing.
+He sniffs.
 
-**MAEVRA:** Dovaren.
+Immediately regrets it.
+
+**CYANIS:** Fuck.
+
+Torren looks offended.
+
+**TORREN:** It's not that bad.
+
+**CYANIS:** I thought the inn had a drainage problem.
+
+**MAEVRA:** It does now.
+
+**TORREN:** All of you can go back to sleep.
+
+**ILYRA:** You woke all of us.
+
+**TORREN:** Didn't ask you to wake up.
+
+**CYANIS:** Strong defense.
+
+**MAEVRA:** Apparently that's tonight's theme.
+
+Cyanis gets out of bed and comes closer, stopping well short of Torren.
+
+**CYANIS:** Why are you still smoking it?
+
+**TORREN:** Because it's mine.
+
+**CYANIS:** That's not an answer either.
+
+**TORREN:** You people are very demanding at night.
+
+Ilyra leans against the bedframe.
+
+**ILYRA:** Buy more tomorrow.
+
+**TORREN:** Don't need more.
+
+**MAEVRA:** You absolutely need more.
+
+**CYANIS:** I'll pay for it.
+
+Torren looks at him.
+
+**TORREN:** Fuck off.
+
+**CYANIS:** Generous offer.
+
+**TORREN:** Didn't ask.
+
+**ILYRA:** I'll pay half.
+
+Torren looks at her now.
+
+**TORREN:** You're making it worse.
+
+**MAEVRA:** I'll pay the other half if you throw that one out.
+
+Torren stares at all three of them.
+
+**TORREN:** No.
+
+A beat.
+
+**CYANIS:** You know this is insane.
+
+**TORREN:** It's a little damp.
+
+**ILYRA:** It smells like a corpse fell into a pond.
+
+**MAEVRA:** And stayed there.
+
+**CYANIS:** Long enough to develop opinions.
+
+Torren looks down at the blunt.
+
+Then back at them.
+
+He takes another pull purely on principle.
+
+Everyone watches.
+
+Torren exhales through the open window.
+
+A long beat.
+
+His expression changes by almost nothing.
+
+Maevra catches it anyway.
+
+**MAEVRA:** There it is.
+
+**TORREN:** What?
+
+**MAEVRA:** You hate it too.
+
+**TORREN:** Didn't say that.
+
+**ILYRA:** You didn't have to.
+
+**CYANIS:** Your face did.
+
+Torren looks at Cyanis.
+
+**TORREN:** Don't start using that against me.
+
+**CYANIS:** Apparently everyone's face talks now.
+
+**MAEVRA:** Yours never shuts up.
+
+Cyanis looks wounded.
+
+**CYANIS:** That's deeply unfair.
+
+**ILYRA:** No.
+
+Torren tries not to smile.
+
+That makes it worse.
+
+Maevra sees it.
+
+**MAEVRA:** Put it out.
+
+**TORREN:** No.
+
+**MAEVRA:** Harth.
+
+**TORREN:** Solmar.
+
+**MAEVRA:** It smells like a wet grave.
+
+**TORREN:** Dramatic.
+
+**MAEVRA:** Accurate.
+
+Torren looks at the blunt again.
+
+Then, without ceremony, presses it out in the ash cup beside him.
+
+Nobody says anything.
+
+Torren looks up.
+
+All three are still looking at him.
+
+**TORREN:** Don't.
 
 **CYANIS:** Didn't say anything.
 
-**MAEVRA:** Your face did.
+**ILYRA:** Neither did I.
 
-**TORREN:** It does that.
+Maevra smiles.
 
-**ILYRA:** Constantly.
+**MAEVRA:** Coward.
 
-Cyanis looks from one to the next.
+Torren points at her.
 
-**CYANIS:** Incredible. We have a real consensus problem.
+**TORREN:** Fuck you.
 
-**MAEVRA:** No. Consensus is excellent.
+**MAEVRA:** There he is.
 
-**CYANIS:** Of course you'd say that.
+The room settles.
 
-For a while the conversation becomes nothing at all: the mattress, the book, whether Dunmere tea is supposed to taste like bark, whether the window latch is crooked or the whole wall is crooked.
+The window stays open.
 
-Nobody wins any of it.
+Nobody goes immediately back to bed.
 
-Eventually the room goes quiet again.
+Cyanis takes the chair by the wall. Ilyra stays sitting against the bedframe. Maevra shifts until the splinted arm is comfortable. Torren remains on the floor beneath the window.
 
-No one asks why Torren woke up.
+For a little while they complain about the cold instead.
 
-No one asks why Maevra was already awake.
+Then that runs out too.
 
-No one asks why Ilyra came over instead of going back to sleep.
+The room becomes quiet again.
 
-No one asks Cyanis what he had been pretending not to be awake for.
+No one asks Torren why he was awake.
 
-They simply stay there.
+After a few minutes, Cyanis closes his eyes where he is sitting. Ilyra does the same. Maevra lies back down.
 
-A faint gray line begins to show at the window.
+Torren looks once at the ash cup.
 
-**ILYRA:** We should sleep.
+He reaches toward the pouch beside him.
 
-Nobody moves.
+Three voices, eyes still closed:
 
-**CYANIS:** Strong start.
+**CYANIS:** No.
 
-**TORREN:** Working on it.
+**ILYRA:** No.
 
-**MAEVRA:** You're sitting upright.
+**MAEVRA:** Don't you fucking dare.
 
-**TORREN:** Still working on it.
+Torren's hand stops.
 
-Maevra closes the terrible book.
+A beat.
 
-Ilyra leans back against the wall. Cyanis lets his head rest against the edge of the bed. Torren looks out the window for a few more seconds, then closes his eyes.
+He moves the pouch farther away.
 
-Nobody fills the silence.
+**TORREN:** Hostile room.
 
-Hold.
+Maevra laughs into her pillow.
 
 Fade.
 
-> **END C06 — NO QUESTIONS**
+> **END C06 — STILL BURNS**
 
 ## Current continuity / editor notes
-- This scene is optional and belongs only to the Chapter-2 Dunmere cleanup window.
-- It does not advance Chapter 3 and does not trigger departure.
-- Maevra is a full social participant, not a fourth-wheel observer and not only Torren's relationship function.
-- Torren/Maevra history appears through shorthand rather than exposition.
-- Cyanis, Ilyra, and Torren show the familiarity earned across Chapters 1–2 without a friendship speech.
-- Nobody asks about dreams, trauma, or whether another person is okay.
-- Ilyra's care is presence and practical checking, not interrogation.
-- Work-stopping care applies to Maevra and Torren as well as Cyanis; no one character is designated as the sole self-neglect problem.
-- No Chapter-2 lore recap, Bastion debrief, Rhazek analysis, map discussion, Prime/Card exposition, or future-story reveal belongs here.
-- The scene should feel safe enough for pointless conversation and silence.
-- Exact line wording remains working dialogue until user approval/lock.
+- Fresh scene generated from the new late-night Dunmere inn seed rather than the prior C06/C07 working structure.
+- Torren smoking is ordinary behavior, not framed as impairment, crisis, vice, or intervention target.
+- The comic problem is specifically that the stash was soaked in the Chapter-2 waterworks and now smells terrible when burned.
+- Ilyra recognizes that it smells different from the previous day.
+- Maevra and Cyanis join only after the smell/conversation wakes them.
+- Maevra remains physically limited by the continuing broken-arm/splint state and remains noncombat.
+- No trauma disclosure, dream discussion, friendship speech, Bastion debrief, Rhazek analysis, Ancient-map recap, or future-story reveal.
+- Quiet company emerges after the argument without any character explaining what it means.
+- Exact wording remains working dialogue until user approval/lock.
