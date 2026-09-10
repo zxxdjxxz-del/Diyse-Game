@@ -1,12 +1,17 @@
 # Diyse — Chapter 2 Rehearsal-First Working Dialogue Manuscript
 
 **Status:** ACTIVE REHEARSAL-FIRST WORKING MANUSCRIPT — NOT CHAPTER-LOCKED  
-**Purpose:** current cumulative readable Chapter-2 manuscript.  
+**Purpose:** single cumulative readable Chapter-2 dialogue manuscript; update this file every time a Chapter-2 mainline or Character-Life scene changes.  
 **Mainline coverage:** Beats 1–2 current rehearsal-first working drafts.  
 **Character-Life coverage:** C06 — `Still Burns` current working draft. Former C07 is retired as a separate Chapter-2 Character-Life scene.  
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Working beat authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
 **Dialogue workflow authority:** `../../AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`
+
+## Current naming lock
+> **The Chapter-2 Black Host fort is the Old Bastion.**
+
+`Red Transfer Bastion` is retired terminology for current production. Use **Old Bastion** or **the Bastion** when context is clear.
 
 ## Current hard presentation rules
 - Ordinary route / wilderness / dungeon traversal shows **Cyanis only** on the field.
@@ -27,7 +32,7 @@
 - Maevra travels with them but does not enter battle.
 - The group still possesses its Wayfinder copies, but Beat 1 does not recap the Wayfinder discovery merely because a new chapter has begun.
 - Caelora remains the larger destination.
-- The missing-traveler / Black Host / Red Transfer Bastion problem is not known before the group enters Dunmere.
+- The missing-traveler / Black Host / Old Bastion problem is not known before the group enters Dunmere.
 
 ---
 
@@ -215,7 +220,7 @@ A beat.
 
 **MAEVRA:** Where?
 
-**RETURNED GUARD:** Red Transfer Bastion.
+**RETURNED GUARD:** The Old Bastion.
 
 Torren's expression hardens slightly.
 
@@ -261,7 +266,7 @@ The carter looks toward the waiting wagons.
 
 The party steps slightly aside from the wagon traffic. This is a short authored stop inside a functioning town, not a long strategic council.
 
-**CYANIS:** Red Transfer Bastion.
+**CYANIS:** Old Bastion.
 
 **TORREN:** Old fort on the corridor.
 
@@ -313,7 +318,7 @@ Beat ends with normal town control returning to the player.
 - Dunmere is inhabited and functioning.
 - Outbound travel toward Caelora has sharply reduced because people have repeatedly failed to arrive.
 - A direct survivor establishes that **Black Host soldiers are taking people**, not merely robbing travelers or blocking the road.
-- **Red Transfer Bastion** is occupied by the Black Host and is being used to control the corridor.
+- **The Old Bastion** is occupied by the Black Host and is being used to control the corridor.
 - The party does not yet know the waterworks approach, Prisoner Galleries, holding/transit function, Rhazek's presence, or the destination of anyone taken.
 - Next objective is to speak with the Dunmere elder for actionable local knowledge.
 
@@ -720,3 +725,11 @@ Maevra laughs into her pillow.
 Fade.
 
 > **END C06 — STILL BURNS**
+
+---
+
+# Current production status
+- Beat 1 — Draft A.
+- Beat 2 — Draft A, updated to **Old Bastion** naming.
+- C06 — `Still Burns` — current working dialogue.
+- Next mainline scene: **Beat 3 — Dunmere Elder / Hidden Approach**.
