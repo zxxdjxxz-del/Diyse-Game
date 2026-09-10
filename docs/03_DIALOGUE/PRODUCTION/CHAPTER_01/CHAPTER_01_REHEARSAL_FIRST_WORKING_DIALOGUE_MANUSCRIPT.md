@@ -42,9 +42,9 @@
 - Beat 13 — Briarhide Stalker / Chapter-1 Final Boss — Draft A
 - Beat 14 — The Junction / Hidden Monument — Draft A
 - Beat 15 — Junction Camp / Chapter-1 Cleanup Window — Draft C
-- C03 — Torren's Version of Dinner — current rehearsal-first Draft B
+- C03 — Torren's Version of Dinner — current rehearsal-first Draft C
 - C04 — What the Map Says — current rehearsal-first Draft A
-- C05 — Not Professionally — current rehearsal-first Draft C
+- C05 — Not Professionally — current rehearsal-first Draft D
 
 ---
 
@@ -1713,6 +1713,8 @@ Ilyra tries hers.
 
 ### [WHAT IS ACTUALLY IN IT]
 
+They eat for a little while.
+
 **CYANIS:** What's in this?
 
 **TORREN:** Beans.
@@ -1729,11 +1731,13 @@ Ilyra tries hers.
 
 **TORREN:** Meat.
 
+A beat.
+
 **MAEVRA:** You still do that.
 
 **CYANIS:** Do what?
 
-**MAEVRA:** Stop asking questions when the answer gets inconvenient.
+**MAEVRA:** Stop asking when the answer gets inconvenient.
 
 **TORREN:** It was labeled meat.
 
@@ -1749,11 +1753,19 @@ A beat.
 
 **CYANIS:** Before.
 
-**MAEVRA:** Don't chase that sentence. Nothing good is down there.
+**MAEVRA:** Don't ask.
 
-**CYANIS:** Fair.
+**CYANIS:** I wasn't going to.
+
+**TORREN:** You were.
+
+**CYANIS:** I was.
+
+They keep eating.
 
 ### [MAEVRA REMEMBERS]
+
+A little later:
 
 **MAEVRA:** You made this on marches.
 
@@ -1771,6 +1783,8 @@ A beat.
 
 **TORREN:** Never said I was.
 
+That catches Cyanis.
+
 **CYANIS:** Wait.
 
 **CYANIS:** You know it's bad?
@@ -1778,6 +1792,8 @@ A beat.
 **TORREN:** Course I know it's bad.
 
 Silence.
+
+Ilyra starts laughing first.
 
 **CYANIS:** Then why are we eating it?
 
@@ -1809,7 +1825,7 @@ A beat.
 
 **TORREN:** Knowing something's bad doesn't make it useless.
 
-**MAEVRA:** That's the most Torren answer possible.
+**MAEVRA:** Heard that one before.
 
 **TORREN:** You're still eating.
 
@@ -1817,9 +1833,15 @@ A beat.
 
 **MAEVRA:** Fuck you.
 
+Torren almost smiles.
+
 ### [THE ARGUMENT LOSES ENERGY]
 
-After a while:
+The conversation drops away for a while.
+
+They are hungry, so they keep eating.
+
+After a bit:
 
 **ILYRA:** It's worse when it gets cold.
 
@@ -1831,21 +1853,27 @@ After a while:
 
 **TORREN:** Then eat faster.
 
-**CYANIS:** That's been your solution to everything tonight.
+**CYANIS:** That's your answer?
 
-**TORREN:** Working so far.
+**TORREN:** Working.
 
-A beat.
+Silence again.
 
-**MAEVRA:** I hate that he's technically right.
+**MAEVRA:** Pass the salt.
 
-**ILYRA:** Only technically.
+Torren does.
 
-**CYANIS:** Important distinction.
+Nobody has anything useful to add.
 
 ### [AFTER DINNER]
 
-Once everyone has finished, Torren lights a blunt from the campfire.
+Eventually the bowls are empty.
+
+The conversation goes quiet.
+
+Torren waits until the meal is actually over, then lights a blunt from the campfire.
+
+For a few seconds, nobody says anything.
 
 **MAEVRA:** Still do that after dinner.
 
@@ -1863,23 +1891,35 @@ Once everyone has finished, Torren lights a blunt from the campfire.
 
 **TORREN:** Thanks.
 
+A quiet beat.
+
 **CYANIS:** Does it help with the taste?
 
-A beat.
+Torren considers that.
 
 **TORREN:** Little bit.
 
-**CYANIS:** You absolute bastard.
+Maevra laughs immediately.
 
-**TORREN:** What?
+Cyanis looks at Torren.
 
-**CYANIS:** You had a plan.
+**CYANIS:** You knew.
 
-**TORREN:** Had dinner.
+**TORREN:** Knew what?
 
-**MAEVRA:** Same thing, apparently.
+**CYANIS:** Exactly how bad it was.
+
+**TORREN:** Told you I did.
+
+**CYANIS:** I didn't believe you.
+
+**TORREN:** That's on you.
+
+Ilyra laughs into the quiet.
 
 ### [TOMORROW]
+
+After another stretch of silence:
 
 **MAEVRA:** I'm cooking tomorrow.
 
@@ -1887,37 +1927,27 @@ A beat.
 
 **MAEVRA:** Wasn't asking.
 
-**TORREN:** Waste of supplies.
-
-**MAEVRA:** I can make food people enjoy.
-
-**TORREN:** Unnecessary.
-
-**ILYRA:** I would like to test that claim.
-
-**CYANIS:** Strongly in favor.
-
-**TORREN:** Three against one now?
-
-**MAEVRA:** You made the food. You did this to yourself.
-
-A beat.
+Torren takes another pull.
 
 **TORREN:** Fine.
+
+Cyanis looks at him.
 
 **CYANIS:** That easy?
 
 **TORREN:** Means I don't have to cook.
 
-**MAEVRA:** I walked into that.
+A beat.
 
-**TORREN:** Yeah.
+Maevra realizes it.
 
-A quiet beat.
+**MAEVRA:** Damn it.
 
 **ILYRA:** Worth it.
 
 **MAEVRA:** We'll see tomorrow.
+
+The four remain around the fire.
 
 Scene ends.
 
@@ -2157,269 +2187,275 @@ This scene is Ilyra and Maevra only. Ilyra is changing Maevra's field splint. Re
 
 ### [THE OLD SPLINT]
 
-**ILYRA:** Hand.
+**ILYRA:** Give me the arm.
 
-**MAEVRA:** Attached.
+**MAEVRA:** Attached to me.
 
-**ILYRA:** Encouraging.
+**ILYRA:** I noticed.
 
-**MAEVRA:** I thought so.
+Maevra gives it to her.
 
-Ilyra begins removing the old splint.
+Ilyra starts removing the old splint.
 
 A beat.
 
 **MAEVRA:** Fuck.
 
-**ILYRA:** That wasn't even the bad part.
+**ILYRA:** Sorry.
 
-**MAEVRA:** Why would you tell me that?
+**MAEVRA:** No, you're not.
 
-**ILYRA:** So you stop pretending this doesn't hurt.
+**ILYRA:** Not enough to stop.
 
-**MAEVRA:** I haven't pretended once.
+**MAEVRA:** Better.
 
-**ILYRA:** You walked half the region on it.
+Ilyra continues.
 
-**MAEVRA:** That's not pretending. That's walking.
+**ILYRA:** You've been using it too much.
+
+**MAEVRA:** I've been walking.
+
+**ILYRA:** Your arm doesn't walk.
 
 A beat.
 
-**MAEVRA:** Fine.
-
-A beat.
-
-**MAEVRA:** It hurts.
-
-**ILYRA:** Thank you.
-
-**MAEVRA:** Hated that.
+**MAEVRA:** That's annoyingly fair.
 
 ### [RELIEF]
 
-Ilyra uses a small amount of Warden magic.
+Once the old splint is off, Ilyra checks the arm and uses a small amount of Warden magic.
 
-**ILYRA:** Better?
+The effect is brief and restrained.
 
-**MAEVRA:** Yeah.
+Maevra lets out a breath she had been holding.
 
-**ILYRA:** It'll take the edge off. That's all.
+**MAEVRA:** Better.
 
-**MAEVRA:** Still no miracle?
+**ILYRA:** Good.
 
-**ILYRA:** Still no miracle.
+A beat.
 
-**MAEVRA:** Medicine's disappointing.
+**MAEVRA:** Bone?
 
-**ILYRA:** Bones are stubborn.
+**ILYRA:** Still broken.
 
-**MAEVRA:** I sympathize.
+**MAEVRA:** Had to ask.
+
+**ILYRA:** Every time?
+
+**MAEVRA:** Until you give me a better answer.
+
+Ilyra starts setting the fresh splint.
 
 ### [TORREN]
 
-After a quiet stretch:
+For a while, neither of them speaks.
 
-**ILYRA:** How long have you known Torren?
+Then:
+
+**ILYRA:** You and Torren.
+
+Maevra waits.
+
+**MAEVRA:** That's not a question.
+
+**ILYRA:** I'm working on it.
+
+A beat.
+
+**ILYRA:** How long?
+
+**MAEVRA:** Known him?
+
+**ILYRA:** Start there.
 
 **MAEVRA:** Twenty-five years.
 
-**ILYRA:** That was fast.
-
-**MAEVRA:** Easy question.
-
-A beat.
-
-**ILYRA:** You know that wasn't the one I meant.
-
-**MAEVRA:** I suspected.
-
-**ILYRA:** Were you together?
-
-**MAEVRA:** Yes.
+Ilyra pauses for half a second.
 
 **ILYRA:** Oh.
 
-**MAEVRA:** What did you expect?
+**MAEVRA:** Yeah.
 
-**ILYRA:** More resistance.
+**ILYRA:** You enlisted together?
 
-**MAEVRA:** To that question?
+**MAEVRA:** Near enough. He was seventeen. I was sixteen.
 
-**ILYRA:** Apparently not.
+**ILYRA:** And you were together.
 
-**MAEVRA:** Ask the question you're actually trying to ask.
+**MAEVRA:** Eventually.
 
-A beat.
+Ilyra resumes the splint.
 
-**ILYRA:** Are you still together?
+**ILYRA:** For long?
 
-**MAEVRA:** No.
+Maevra thinks.
 
-Another beat.
+**MAEVRA:** Depends how you count it.
 
-**MAEVRA:** Not exactly.
+**ILYRA:** That's promising.
 
-**ILYRA:** That's clearer.
+**MAEVRA:** It wasn't dramatic.
 
-**MAEVRA:** I do my best.
+**ILYRA:** I didn't say it was.
 
-### [THE EASY QUESTION]
+**MAEVRA:** You sounded hopeful.
 
-**MAEVRA:** Ow.
-
-**ILYRA:** Sorry.
-
-**MAEVRA:** You're not.
-
-**ILYRA:** No.
-
-A beat.
-
-**ILYRA:** Were you lovers?
-
-**MAEVRA:** Yes.
-
-**ILYRA:** Recently?
-
-**MAEVRA:** That's none of your business.
-
-A beat.
-
-**MAEVRA:** But no.
-
-**ILYRA:** You answered anyway.
-
-**MAEVRA:** That one's easy.
-
-A beat.
-
-**ILYRA:** Do you still love him?
-
-Maevra takes longer with this one.
-
-**MAEVRA:** Yes.
-
-**ILYRA:** All right.
-
-**MAEVRA:** That's it?
-
-**ILYRA:** You answered.
-
-**MAEVRA:** Hm.
-
-A beat.
-
-**MAEVRA:** I like you.
-
-**ILYRA:** Hold still.
-
-**MAEVRA:** Ruined it.
+Ilyra laughs once.
 
 ### [WHAT HAPPENED]
 
-**ILYRA:** Was it bad?
+**ILYRA:** So what happened?
 
-**MAEVRA:** What?
+**MAEVRA:** Life.
 
-**ILYRA:** The end of it.
+**ILYRA:** That's evasive.
 
-**MAEVRA:** No grand disaster, if that's what you're asking.
+**MAEVRA:** It's also true.
 
-**ILYRA:** No betrayal.
+A beat.
+
+**MAEVRA:** Different posts. Different roads. Months became years sometimes.
+
+**ILYRA:** No betrayal?
 
 **MAEVRA:** No.
 
-**ILYRA:** No screaming in the rain.
+**ILYRA:** No terrible fight?
 
-**MAEVRA:** There was probably rain at some point.
+**MAEVRA:** Plenty of terrible fights.
 
-**ILYRA:** You know what I mean.
+Ilyra looks at her.
 
-**MAEVRA:** We were young. Then we weren't. Different posts. Different roads. Different things that needed doing.
+**MAEVRA:** Not that kind.
+
+**ILYRA:** Ah.
+
+**MAEVRA:** We'd stop being together. Then we'd end up in the same place again and be very bad at staying stopped.
 
 A beat.
 
-**MAEVRA:** We kept finding each other again.
+**ILYRA:** That sounds exhausting.
 
-**ILYRA:** You don't act like exes.
+**MAEVRA:** Sometimes.
 
-**MAEVRA:** We're not very good at it.
+Another beat.
 
-**ILYRA:** Apparently not.
+**MAEVRA:** Mostly it was nice.
+
+Ilyra leaves that alone for a moment.
 
 ### [NOW]
 
-**ILYRA:** And now?
+**ILYRA:** Are you together now?
+
+Maevra is quiet.
+
+**MAEVRA:** No.
 
 A beat.
 
-**MAEVRA:** Now he's here.
+**MAEVRA:** Not really.
 
-A beat.
-
-**MAEVRA:** I'm here.
-
-**ILYRA:** Profound.
-
-**MAEVRA:** Thank you.
-
-**ILYRA:** That wasn't praise.
-
-**MAEVRA:** Still taking it.
-
-**ILYRA:** Fingers.
-
-**MAEVRA:** Still attached.
-
-**ILYRA:** Good.
-
-**MAEVRA:** That's your professional opinion?
-
-**ILYRA:** Yes.
-
-A beat.
-
-**MAEVRA:** Was all of that professional?
-
-**ILYRA:** No.
-
-**MAEVRA:** Good.
-
-**ILYRA:** Does he know?
-
-**MAEVRA:** That I love him?
-
-**ILYRA:** Yeah.
-
-**MAEVRA:** He knows.
-
-### [DONE]
-
-**ILYRA:** Done.
-
-**MAEVRA:** Finally.
-
-**ILYRA:** You'll need it checked again.
-
-**MAEVRA:** I knew there'd be a catch.
-
-**ILYRA:** And you're still not fighting.
+**ILYRA:** That's different from no.
 
 **MAEVRA:** I know.
 
-**ILYRA:** Good.
+Ilyra adjusts the fresh splint.
 
-**MAEVRA:** You were waiting to say that.
+Maevra winces.
+
+**ILYRA:** Sorry.
+
+**MAEVRA:** That one you meant.
 
 **ILYRA:** A little.
 
-**MAEVRA:** Cruel woman.
+The work continues.
 
-**ILYRA:** Apparently you like me.
+Then Ilyra asks the question she has actually been circling.
+
+**ILYRA:** Do you still love him?
+
+Maevra takes a moment.
+
+**MAEVRA:** Yeah.
+
+No explanation follows immediately.
+
+Ilyra keeps working.
+
+After a while:
+
+**ILYRA:** Does he know?
+
+**MAEVRA:** He knows.
+
+**ILYRA:** All right.
+
+Maevra glances at her.
+
+**MAEVRA:** That's it?
+
+**ILYRA:** What else am I supposed to do with it?
 
 A beat.
 
-**MAEVRA:** Regretting it already.
+Maevra smiles.
+
+**MAEVRA:** Nothing.
+
+**ILYRA:** Good.
+
+**MAEVRA:** I like you.
+
+**ILYRA:** I'm about to tighten this.
+
+**MAEVRA:** Taking it back.
+
+### [DONE]
+
+Ilyra secures the fresh splint and checks the fit.
+
+**ILYRA:** Fingers.
+
+Maevra moves them.
+
+**MAEVRA:** There.
+
+**ILYRA:** Good.
+
+**MAEVRA:** Done?
+
+**ILYRA:** Done.
+
+Maevra settles the arm carefully.
+
+A beat.
+
+**MAEVRA:** Was any of that professional?
+
+**ILYRA:** The splint.
+
+**MAEVRA:** Only the splint?
+
+**ILYRA:** The magic too.
+
+**MAEVRA:** Ah. Good.
+
+Ilyra starts to go.
+
+**MAEVRA:** Ilyra.
+
+**ILYRA:** Hm?
+
+**MAEVRA:** Thanks.
+
+Ilyra knows she means more than the splint and chooses not to make her say it.
+
+**ILYRA:** Don't use the arm.
+
+**MAEVRA:** Ruined it.
 
 Scene ends.
 
