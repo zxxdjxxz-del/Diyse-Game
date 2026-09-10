@@ -5,51 +5,34 @@
   "story_position": "Chapter 1 — Beat 7 — Lower Junction / Six Channels",
   "production_ready": false,
   "participants": ["cyanis", "ilyra", "maevra", "torren"],
-  "scene_purpose": "Deliver the first strong human-use clue for the Hollow Watch Diysean structure: a circular junction where six damaged channels meet and surviving imagery shows ordinary people, including children, handcarts, animals, and people on litters, moving through the passage system. Let the party react and speculate naturally without resolving the original purpose or spending the later geographic mural payoff.",
+  "scene_purpose": "Deliver the first strong human-use clue for the Hollow Watch Diysean structure: one circular junction with six damaged channels and one surviving relief showing ordinary people, including children, handcarts, animals, and people on litters, moving through the passage system. Let the party speculate naturally without resolving the original purpose or spending the later geographic mural payoff.",
   "story_sources": [
-    {
-      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
-      "sections": ["Beat 7 — Lower Junction / Six Channels"],
-      "role": "current_chapter_01_beat_07_story_authority"
-    }
+    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Beat 7 — Lower Junction / Six Channels"], "role": "current_chapter_01_beat_07_story_authority"},
+    {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "direct_card_physical_state_authority"}
   ],
   "additional_authority_sources": [
+    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "current_gameplay_presentation_hard_lock"},
+    {"path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md", "whole_file": true, "role": "portrait_dialogue_presentation"},
     {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_authoring_lock"},
     {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "knowledge_firewall_invisibility_lock"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"},
-    {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "torren_character_authority"},
-    {"path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md", "whole_file": true, "role": "ilyra_character_authority"},
-    {"path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md", "whole_file": true, "role": "cyanis_character_authority"},
-    {"path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md", "whole_file": true, "role": "maevra_character_authority"}
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"}
   ],
   "scene_context_seed": {
     "location_name": "Hollow Watch lower Diysean junction",
     "area_phase": "quiet_discovery_between_hostile_sections",
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
-    "visible_environment": [
-      "one existing circular ancient junction with six damaged channel mouths",
-      "surviving relief imagery around the chamber showing adults, children, handcarts, animals, and people carried on litters",
-      "some surviving compositions clearly face toward passages while others face away",
-      "existing Black Host lamps, chalk marks and forcing damage remain layered over the room",
-      "one already-damaged channel carries the clearest recent Black Host route onward"
-    ],
-    "runtime_note": "REHEARSAL FIRST: let the people react to the images before the Canon Checker intervenes. The party may speculate, disagree, or leave ideas hanging. Do not make anyone recite the knowledge boundary. HARD REVEAL FIREWALL: no confirmed evacuation hub, transit station, shelter, Wayfinder node, network nexus, geographic map, falling-fire image, map rubbing, Wayfinder recognition, Prime information, or ancient-network explanation. Torren does not recognize ancient infrastructure. CARD STATE: Cyanis carries the intact Card itself; it remains inert. WALKING DIALOGUE: none during ordinary examination or movement because nobody is leading a known route. REDUCTIVE HD-2D PASS: use the junction room, six mouths, required relief band, existing excavation lamps/marks, B00 blocking, portraits, simple facing, and restrained light/camera only. Do not add new rooms, platforms, background NPC business, one-off machinery, extra evidence props, bespoke animation, or additional story clues to make the scene feel richer. Presentation may clarify existing content; it may not silently expand the authored content."
+    "runtime_note": "During ordinary dungeon traversal Cyanis is the sole visible party field character. At authored story triggers the relevant cast may appear as simple field models while portraits and the dialogue box carry most performance. Required authored visual content is limited to the six-channel chamber and the one surviving human-use relief band. Do not add extra carvings, loose clue props, machinery, rooms, background business, or repeated physical inspection. HARD REVEAL FIREWALL: no confirmed evacuation hub, transit station, shelter, Junction monument, geographic map, falling-fire image, Prime information, or ancient-network explanation. CARD: Cyanis carries the intact Card itself and it remains inert. WALKING DIALOGUE: none."
   },
   "current_floor_state": {
     "card_state": "intact_card_carried_directly_by_cyanis_and_inert",
     "combat_party": ["cyanis", "ilyra", "torren"],
     "maevra_party_status": "noncombat_traveling_companion",
     "torren_party_status": "temporary_combat_ally",
-    "known_ruin_facts": [
-      "Black Host excavation is systematic",
-      "deeper ruin has active defenses",
-      "older structure predates Hollow Watch",
-      "original purpose remains unresolved"
-    ]
+    "ordinary_traversal_visible_character": "cyanis_only"
   },
   "allowed_information_transfers": [],
   "exact_line_anchors": [],
   "max_beats": 16,
-  "production_cost_ceiling": "strict_reductive_economical"
+  "production_cost_ceiling": "strict_reductive_established_gameplay_presentation"
 }
