@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 9
 # Hollow Watch Castellan
-## DIALOGUE ENGINE PRODUCTION DRAFT B — rehearsal-first + reductive HD-2D pass / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT C — rehearsal-first + reductive HD-2D + speech-only mid-battle dialogue / awaiting user approval
 
 ---
 
@@ -75,7 +75,7 @@ Required presentation only:
 - the party receives no explanation of why it activated;
 - the Card itself does not speak, open, manifest a Prime, or display explanatory text.
 
-Keep active-combat dialogue sparse.
+Mid-battle dialogue may occur when useful, but it is **speech-only**. Do not script character movement, repositioning, dodges, blocking changes, bespoke gestures, or camera cutaways around the lines. Normal battle gameplay owns character motion.
 
 ---
 
@@ -87,7 +87,7 @@ One connection tears loose.
 
 Then another.
 
-The construct drops forward into a fully mobile stance.
+The construct drops into a fully mobile state.
 
 It does **not** heal.
 
@@ -95,17 +95,13 @@ It does **not** receive a second HP bar.
 
 Combat continues on the same boss health.
 
-Torren shifts back.
+The following lines play over the active battle state. No character movement or special blocking is authored for them.
 
 **TORREN:** It's coming off the wall.
 
-Cyanis braces.
-
 **CYANIS:** I can see that.
 
-The last anchor tears free.
-
-Ilyra moves clear.
+The last anchor tears free as part of the boss transition.
 
 **ILYRA:** Then stop standing where the wall used to hold it.
 
@@ -113,11 +109,9 @@ Ilyra moves clear.
 
 **ILYRA:** Move.
 
-Cyanis moves.
-
 Combat continues immediately.
 
-No cutaway, arena rebuild, or second-form reset is required.
+No character cutaway, scripted dodge, repositioning beat, arena rebuild, or second-form reset is required.
 
 ---
 
@@ -132,6 +126,8 @@ Encounter authority owns the mechanical differences.
 The Card remains in Cyanis's possession.
 
 No mural or protected historical imagery is shown during the fight.
+
+Additional mid-battle speech may be used sparingly if it improves the fight, but it follows the same speech-only rule.
 
 The party defeats the Castellan through ordinary boss combat victory.
 
@@ -289,6 +285,7 @@ Story state:
 - the audience sees the timing connection: Cyanis crosses the fitted line, the chamber responds, and the Castellan activates;
 - the characters do not turn that observation into a formal theory discussion;
 - the Castellan begins integrated into the architecture and tears free into a mobile state on the **same HP bar**;
+- mid-battle character dialogue is speech-only and does not create scripted character movement or cinematic blocking;
 - Maevra is not a battle participant;
 - the Castellan's defeat exposes the route it physically obstructed;
 - the Black Host did not reach the protected discovery area beyond it;
@@ -317,4 +314,6 @@ Next mandatory story beat:
 
 **Encounter presentation:** the Castellan is an explicitly authored boss and therefore remains scripted. Ordinary enemies elsewhere remain random encounters.
 
-**Reductive production:** spend complexity on the one earned boss asset: the Castellan's integrated-to-mobile transition. Reuse the existing chamber, floor-light material, B00 reactions, boss rig, and existing ruin VFX. No extra mechanism, bespoke second arena, treasure-door animation, or post-boss machinery sequence is required.
+**Mid-battle dialogue:** allowed selectively, but speech-only. No authored character locomotion, dodges, formation changes, gestures, or camera cutaways accompany active-combat lines. Boss movement required by the encounter is separate and allowed.
+
+**Reductive production:** spend complexity on the one earned boss asset: the Castellan's integrated-to-mobile transition. Reuse the existing chamber, floor-light material, boss rig, and existing ruin VFX. No extra mechanism, bespoke second arena, treasure-door animation, or post-boss machinery sequence is required.
