@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 12
 # Southern Briar Passage
-## DIALOGUE ENGINE PRODUCTION DRAFT G — Briarhide reveal timing correction / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT H — chapter-wide dialogue polish + Briarhide reveal timing correction / awaiting user approval
 
 ---
 
@@ -14,9 +14,9 @@ The stop is brief. Word from Hollow Watch is passed on, supplies are replaced wh
 
 **MAEVRA:** More or less.
 
-**TORREN:** Good enough.
+**TORREN:** Works.
 
-**CYANIS:** Inspiring.
+**CYANIS:** Strong start.
 
 **ILYRA:** We're moving anyway.
 
@@ -175,7 +175,7 @@ Beat 13 owns the **first clear visual reveal of the Stalker**, immediately befor
 
 ---
 
-## Presentation / canon check
+## Presentation / dialogue check
 
 **Town departure:** relevant characters may be visible in Greenhollow.
 
@@ -184,6 +184,8 @@ Beat 13 owns the **first clear visual reveal of the Stalker**, immediately befor
 **Triggered scenes:** relevant characters may appear at the side-access and Briarhide-track stops.
 
 **Dialogue:** portraits + dialogue box carry most performance.
+
+**Chapter-wide polish:** the departure no longer repeats `Good enough / Inspiring`, phrasing already used elsewhere in the chapter.
 
 **Briarhide reveal timing:** PASS. The Stalker is not shown, staged, or visually encountered in Beat 12. Its first clear appearance belongs to the immediate pre-boss moment in Beat 13.
 
