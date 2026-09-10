@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 11
 # Hollow Watch Resolution / Torren Recruitment
-## DIALOGUE ENGINE PRODUCTION DRAFT A — awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT B — rehearsal-first + Junction correction + reductive HD-2D / awaiting user approval
 
 ---
 
@@ -8,344 +8,241 @@
 
 **Player control is active.**
 
-The party returns from the protected mural chamber through the cleared lower ruin and back into Hollow Watch.
+The party returns through the lower ruin and back into Hollow Watch.
 
-There is **no walking dialogue** during the return.
+There is **no walking dialogue**.
 
-The fort is quieter than when they entered.
+The Black Host excavation has stopped. The immediate occupation has been broken.
 
-The Black Host occupation has been broken.
-The excavation below is no longer being worked.
-The immediate ancient defenses on the route they used have been defeated.
+That does not make the fort restored.
 
-That does not make Hollow Watch restored.
+The garrison is still dead. Hollow Watch still needs burial work, repairs, replacement soldiers, and a proper Yahtrean response.
 
-The garrison is still dead.
-The fort still needs people, repairs, burial work, and a proper military response that four travelers cannot provide by standing here longer.
+Cyanis carries the intact Card itself. It remains inert.
 
-The Card remains sealed and inert.
-
-The player reaches the upper watch overlook where the road back toward Greenhollow and Briar Passage can be seen.
-
-At the progression point, the group stops.
+The party reaches the upper overlook and stops.
 
 ---
 
-### [STOP — WHAT HOLLOW WATCH NEEDS]
+### [STOP — HOLLOW WATCH]
 
-Maevra looks over the fort before looking at the road.
+For a while, Torren just looks at the fort.
 
-A damaged Yahtrean signal frame still stands near the wall.
+The empty wall walk.
 
-Black Host cloth has been pulled down but not ceremonially replaced with anything.
+The road below.
 
-No victory pose.
-No reclaimed-fort fanfare.
+The places where people should still be working.
 
-**MAEVRA:** This place needs a garrison.
+Maevra lets him.
 
-Cyanis looks at the empty wall walk.
+Then she looks toward Greenhollow.
 
-**CYANIS:** We don't have one.
-
-**MAEVRA:** No.
-
-Torren looks toward Greenhollow below.
-
-**TORREN:** They need to know it's open.
-
-Maevra nods.
-
-**MAEVRA:** And what we found here.
-
-She looks toward the stair leading down into the excavation.
-
-**MAEVRA:** The part we can actually report.
-
-Cyanis gives her a small look.
-
-**CYANIS:** Fort taken. Garrison dead. Host excavation under the hill. Ancient defenses active below.
-
-**ILYRA:** One large defense destroyed.
-
-Cyanis nods.
-
-**CYANIS:** One large defense destroyed.
-
-Torren looks toward him.
-
-**TORREN:** Mural?
-
-Maevra considers it.
-
-**MAEVRA:** Yes.
-
-Then:
-
-**MAEVRA:** Exactly what it shows. Not what we think it means.
-
-Torren nods once.
-
-No argument.
-
----
-
-### [TORREN'S CONDITION IS RESOLVED]
-
-A short silence follows.
-
-Torren looks over the fort again.
-
-Not the ruin below.
-
-The surface positions.
-The road.
-The place where Hollow Watch soldiers should have been.
-
-Maevra lets him look.
-
-Then:
-
-**MAEVRA:** You said you weren't leaving with this unresolved.
-
-Torren keeps his eyes on the wall for another moment.
-
-**TORREN:** It isn't fixed.
-
-**MAEVRA:** I didn't say fixed.
-
-Torren looks at her.
-
-Maevra gestures once toward the cleared fort.
-
-**MAEVRA:** We know what happened to the Watch.
-
-Then toward the excavation below.
-
-**MAEVRA:** The Host isn't holding the hill.
-
-Then toward the road.
-
-**MAEVRA:** Greenhollow can be warned without you sitting on this wall for the rest of your life.
-
-Torren looks back toward the settlement in the distance.
-
-**TORREN:** Yeah.
-
-A beat.
-
-**TORREN:** That's enough to leave.
-
-Nothing about the answer is triumphant.
-
-It is simply true now in a way it was not true in Greenhollow.
-
----
-
-### [MAEVRA ASKS AGAIN]
-
-Maevra folds her arms.
-
-**MAEVRA:** Good.
-
-Torren looks at her.
-
-He knows that tone.
-
-**TORREN:** Here it comes.
-
-**MAEVRA:** I came to Greenhollow for you.
-
-**TORREN:** I noticed.
-
-**MAEVRA:** You could've said yes there.
-
-Torren shakes his head.
-
-**TORREN:** Would've been dishonest there.
-
-That stops the joke before it becomes one.
-
-Maevra studies him for half a second.
-
-Then nods.
-
-**MAEVRA:** And now?
-
-Torren looks south.
-
-Toward Briar Passage.
-
-Then at Cyanis and Ilyra.
-
-Then back at Maevra.
-
-**TORREN:** Now I can.
-
-Cyanis glances between them.
-
-**CYANIS:** Can what?
-
-Torren looks at him.
-
-**TORREN:** Leave.
-
-A beat.
-
-**TORREN:** I'm coming to Caelora.
-
-He points south with two fingers.
-
-**TORREN:** I'll get you through Briar first.
-
-Then, because he is still Torren:
-
-**TORREN:** As much of it as the ground agrees with.
-
-Cyanis smiles.
-
-**CYANIS:** There it is.
-
-**TORREN:** It's not a joke.
-
-**CYANIS:** I know.
-
-That is why Cyanis accepts it immediately.
-
----
-
-### [ILYRA / PRACTICAL TERMS]
-
-Ilyra looks at Torren.
-
-**ILYRA:** If the route changes badly enough to stop us?
-
-**TORREN:** We stop.
-
-**ILYRA:** If it changes enough to slow us?
-
-**TORREN:** We slow down.
-
-Ilyra nods.
-
-**ILYRA:** Good.
-
-Torren looks at her.
-
-**TORREN:** That's it?
-
-**ILYRA:** Did you want a ceremony?
-
-Torren looks almost offended by the idea.
-
-**TORREN:** No.
-
-**ILYRA:** Good.
-
-Cyanis looks between them.
-
-**CYANIS:** Efficient recruitment process.
-
-Maevra looks at him.
-
-**MAEVRA:** Don't ruin it.
-
-**CYANIS:** I was complimenting it.
-
-**TORREN:** Somehow worse.
-
----
-
-### [WAYFINDER — ONLY WHAT THEY KNOW]
-
-Torren looks back once toward the stair below.
-
-**TORREN:** One change to the route.
-
-Maevra waits.
-
-**TORREN:** If the southern road still gives us a clean approach to Wayfinder, we look at it when we reach it.
-
-**CYANIS:** Because it matches the mural.
-
-**TORREN:** Because it looks like the thing in the mural.
-
-A beat.
-
-**TORREN:** That's all I know.
-
-Cyanis nods.
-
-**CYANIS:** Fair.
-
-Maevra looks at Torren.
-
-**MAEVRA:** And if the road doesn't give us a clean approach?
-
-**TORREN:** Then I don't force four people through bad ground because an old wall made us curious.
-
-Maevra's mouth moves slightly.
-
-**MAEVRA:** There you are.
-
-Torren looks at her.
-
-**TORREN:** Been here the whole time.
-
-The familiarity lands without further explanation.
-
----
-
-### [DEPARTURE DECISION]
-
-Cyanis looks toward the road down from Hollow Watch.
-
-**CYANIS:** Greenhollow first?
+**MAEVRA:** They need word before dark.
 
 Torren nods.
 
-**TORREN:** Brief stop. Get word out. Restock anything we used up.
+**TORREN:** Yeah.
 
-He looks toward the southern tree line beyond the settlement.
+**CYANIS:** Fort, garrison, excavation, the thing downstairs.
 
-**TORREN:** Then south.
+Ilyra looks at him.
 
-Ilyra checks Cyanis once.
+**ILYRA:** The mural.
 
-Not his pulse.
-Just him.
+**CYANIS:** I was getting there.
 
-**ILYRA:** You good to move?
+**ILYRA:** You weren't.
 
-Cyanis answers after actually checking.
+Maevra almost smiles, but it does not last.
 
-**CYANIS:** Yes.
+**MAEVRA:** Greenhollow can send the report on from there.
 
-Ilyra accepts it.
+Torren looks back across the wall once more.
 
-Maevra looks across all three of them.
+**TORREN:** And people up here.
 
-**MAEVRA:** Then we're done standing here.
-
-Torren shoulders his bow.
-
-Cyanis looks at him.
-
-**CYANIS:** You leading?
-
-**TORREN:** From Greenhollow south, yes.
+**MAEVRA:** Yes.
 
 A beat.
 
-**TORREN:** Try to keep up.
+**TORREN:** Good.
 
-Cyanis smiles.
+Nobody calls it a victory.
 
-**CYANIS:** There he is.
+---
 
-Torren starts toward the stair.
+### [TORREN]
 
-No further conversation is required during the descent.
+Maevra looks at him.
+
+**MAEVRA:** You staying?
+
+Torren does not answer immediately.
+
+He looks toward Greenhollow.
+
+Then south, where Briar disappears beyond the trees.
+
+**TORREN:** No.
+
+Maevra nods once.
+
+**MAEVRA:** Good.
+
+Cyanis looks between them.
+
+**CYANIS:** That's the whole conversation?
+
+**MAEVRA:** It was going well.
+
+**TORREN:** You interrupted it.
+
+**CYANIS:** I asked one question.
+
+**ILYRA:** Dangerous habit.
+
+Cyanis looks at her.
+
+**CYANIS:** You're all very comfortable already.
+
+No one answers him.
+
+Torren looks at Maevra.
+
+**TORREN:** You still need the road south?
+
+**MAEVRA:** Very much.
+
+**TORREN:** Then I'm coming.
+
+Maevra studies him for a second.
+
+Not suspiciously.
+
+Just making sure she heard what he meant.
+
+**MAEVRA:** Through Briar?
+
+**TORREN:** Through Briar.
+
+Cyanis gestures vaguely south.
+
+**CYANIS:** And after that?
+
+Torren looks at him.
+
+**TORREN:** Caelora.
+
+Cyanis blinks once.
+
+**CYANIS:** All right.
+
+Torren looks mildly disappointed.
+
+**TORREN:** That's it?
+
+**CYANIS:** Did you want a ceremony?
+
+Torren's expression immediately answers the question.
+
+**CYANIS:** Thought so.
+
+Ilyra looks away, smiling this time.
+
+---
+
+### [THE JUNCTION]
+
+Maevra looks back toward the stair leading down to the mural chamber.
+
+**MAEVRA:** And the Junction?
+
+Torren nods south.
+
+**TORREN:** On the way.
+
+**ILYRA:** You want to stop?
+
+Torren looks at her.
+
+**TORREN:** I want to see where that stone's supposed to be.
+
+Cyanis looks toward the southern tree line.
+
+**CYANIS:** You've crossed there how many times?
+
+**TORREN:** Enough.
+
+**CYANIS:** Never noticed a giant ancient monument.
+
+Torren looks at him.
+
+**TORREN:** You say that like I hid it.
+
+**MAEVRA:** Did you?
+
+Torren gives her a flat look.
+
+**MAEVRA:** Had to ask.
+
+Ilyra looks toward the road.
+
+**ILYRA:** Then we stop when we reach it.
+
+Torren nods.
+
+**TORREN:** Yeah.
+
+Nobody gives the monument a name or function.
+
+---
+
+### [DEPARTURE]
+
+Cyanis looks down toward Greenhollow.
+
+**CYANIS:** Back there first.
+
+**TORREN:** Briefly.
+
+**MAEVRA:** Report. Supplies. Food.
+
+Torren looks at her.
+
+**TORREN:** You just ate.
+
+Maevra stares at him.
+
+**MAEVRA:** That was hours ago.
+
+**TORREN:** Wasn't.
+
+**MAEVRA:** Felt like it.
+
+Cyanis looks at Ilyra.
+
+**CYANIS:** This is going to be the whole trip, isn't it?
+
+**ILYRA:** Probably.
+
+Torren shoulders his bow.
+
+**TORREN:** You leading now?
+
+Cyanis looks at him.
+
+**CYANIS:** Absolutely not.
+
+**TORREN:** Good.
+
+He turns toward the way down.
+
+**TORREN:** Then keep up.
+
+The party leaves the overlook.
+
+No further dialogue occurs during the descent.
 
 ---
 
@@ -353,7 +250,7 @@ No further conversation is required during the descent.
 
 **TORREN HARTH — PERMANENT PARTY MEMBER**
 
-This is a gameplay-state confirmation, not an in-world title card the characters react to unless UI presentation authority later requires one.
+This is a gameplay-state confirmation, not a line the characters react to.
 
 Permanent combat party:
 
@@ -369,45 +266,33 @@ Maevra Solmar remains a non-combat traveling companion.
 
 Current objective:
 
-**Return to Greenhollow, then follow Torren into southern Briar Passage.**
+**Return briefly to Greenhollow, then follow Torren into southern Briar Passage.**
 
 Story state:
-- Hollow Watch's garrison fate is known.
-- The immediate Black Host occupation of Hollow Watch has been broken.
-- The Castellan and the active defenses blocking the protected discovery area have been defeated.
-- Hollow Watch is not magically restored; a larger Yahtrean response is still needed beyond the party's immediate role.
-- Torren's reason for refusing to leave Greenhollow has been resolved enough for him to depart honestly.
-- Torren has accepted Maevra's original request and is traveling with the group toward Caelora.
-- **Torren Harth is now a permanent party member.**
-- Permanent combat party is Cyanis + Ilyra + Torren.
-- Maevra remains a non-combat traveling companion.
-- Torren will lead the deeper southern Briar route.
-- The party intends to inspect Wayfinder if the real ground makes that practical because its modern formation matches the prominent southern landmark in the Hollow Watch mural.
-- Nobody knows why Wayfinder mattered to the ancient mural.
-- The Card remains sealed.
-- No Prime, Last Sentinel, bearer, authorization, buried-Crest, complete ancient-network, or Entity explanation has been revealed.
+- Hollow Watch's garrison fate is known;
+- the immediate Black Host occupation has been broken enough for the party to leave and for a larger Yahtrean response to take over;
+- Hollow Watch is not treated as restored;
+- Torren no longer has a reason to remain in Greenhollow waiting on Hollow Watch;
+- Torren accepts Maevra's original route request and commits to traveling with the group through southern Briar and onward toward Caelora;
+- **Torren Harth is now a permanent party member**;
+- the party intends to stop at **the Junction** while passing because the mural showed a large important monument there that Torren has never seen;
+- nobody knows the monument's function or hidden cartographic surface;
+- Cyanis carries the intact Card itself and it remains inert;
+- no Prime, Last Sentinel, bearer, authorization, complete ancient-network, buried-Crest, or Entity explanation has been revealed.
 
 Next mandatory story beat:
-**Southern Briar Passage.**
+**Beat 12 — Southern Briar Passage.**
 
 ---
 
-## Canon / Dialogue Engine self-check
+## Rehearsal-first / Junction / reductive HD-2D check
 
-**PASS — recruitment function**
-- the condition keeping Torren in the region is resolved enough for departure;
-- Torren explicitly accepts the southward/Caelora job Maevra originally brought to him;
-- permanent-party state begins here;
-- no ceremonial or destiny-driven recruitment speech is required.
+**Human layer:** Torren does not explain his philosophy or certify why he is now allowed to leave. Maevra asks one ordinary question — `You staying?` — and his answer carries the change. The rest is practical and relationship-driven.
 
-**PASS — Torren character logic**
-His earlier refusal was not reluctance for drama's sake; leaving Greenhollow while Hollow Watch was unresolved would have been dishonest by his own evidence-first standards. Once the garrison's fate and immediate threat are known, he can change his answer cleanly.
+**Knowledge firewall:** nobody summarizes what they are permitted to know. The Junction monument remains simply something unexpectedly shown in the mural.
 
-**PASS — knowledge boundary**
-Torren knows only that modern Wayfinder visually matches the prominent southern formation in the mural and lies near the likely route. He does not know its ancient purpose, whether it belongs to a wider system, or why it was emphasized.
+**Junction continuity:** characters call the location **the Junction**. Torren knows the crossroads and route, not the hidden monument. `Wayfinder` is not used in character dialogue.
 
-**PASS — walking-dialogue lock**
-The recruitment conversation occurs at a stopped Hollow Watch overlook. The return through the ruin and later descent are silent. Beat 12 may use limited moving dialogue only while Torren is actively guiding the group through southern Briar.
+**Walking dialogue:** none during the return or departure traversal. The substantive conversation occurs at the overlook stop.
 
-**PASS — economical HD-2D staging**
-The beat reuses the cleared Hollow Watch surface, overlook, road vista, B00 model facing/gesture, and restrained portraits. The recruitment is carried by ordinary adult conversation rather than a bespoke cinematic sequence.
+**Reductive production:** reuse the existing Hollow Watch overlook, normal B00 facing/portraits, and the road vista already needed for the area. No new signal ceremony, NPC crowd, bespoke recruitment animation, or additional set piece is required.
