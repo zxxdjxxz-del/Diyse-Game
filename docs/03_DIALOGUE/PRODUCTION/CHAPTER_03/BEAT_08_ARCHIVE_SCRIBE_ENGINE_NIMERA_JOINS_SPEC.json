@@ -5,98 +5,47 @@
   "story_position": "Chapter 3 — Beat 8 — Archive Scribe Engine / Nimera Joins",
   "production_ready": false,
   "participants": ["cyanis", "ilyra", "torren", "nimera"],
-  "scene_purpose": "Pay off the reactivated deeper Archive with the first hostile Scribe Engine response; let Nimera voluntarily enter combat and demonstrate her Cardweaver/Conduit identity; establish the first four-person permanent-member battle shape; follow with a bounded evidence review that preserves all later Card and royal-seal reveals; then let Nimera's decision to continue emerge naturally through action and character interaction, making this the permanent recruitment point without characters narrating the recruitment logic.",
-  "story_sources": [
-    {
-      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
-      "sections": ["Beat 8 — Archive Scribe Engine / Nimera Joins"],
-      "role": "current_consolidated_chapter_3_beat_8_authority"
-    },
-    {
-      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_WORKING.md",
-      "whole_file": true,
-      "role": "detailed_beat_8_story_authority"
-    },
-    {
-      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_OLD_CITY_FANTASY_PRESENTATION_LOCK.md",
-      "whole_file": true,
-      "role": "physical_magical_fantasy_presentation_lock"
-    }
-  ],
-  "additional_authority_sources": [
-    {
-      "path": "external-services/canary/brains/nimera.yaml",
-      "whole_file": true,
-      "role": "nimera_agent_brain"
-    },
-    {
-      "path": "external-services/canary/brains/cyanis.yaml",
-      "whole_file": true,
-      "role": "cyanis_agent_brain"
-    },
-    {
-      "path": "external-services/canary/brains/ilyra.yaml",
-      "whole_file": true,
-      "role": "ilyra_agent_brain"
-    },
-    {
-      "path": "external-services/canary/brains/torren.yaml",
-      "whole_file": true,
-      "role": "torren_agent_brain"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md",
-      "whole_file": true,
-      "role": "mandatory_rehearsal_first_agent_brain_pipeline"
-    }
-  ],
-  "scene_context_seed": {
-    "location_name": "deeper Old City archive immediately beyond reopened Ancient barrier",
-    "area_phase": "active_archive_infrastructure",
-    "dialogue_readiness": "GREEN",
-    "static_story_context_only": true,
-    "runtime_note": "Ancient archive machinery is physical magical craft: fitted stone, metal, engraved channels, scribing arms, record drums, shutters, rails, styluses, seals and enchanted inlay. Do not use software/network/interface language. Keep pre-fight and post-fight dialogue concise; the encounter itself carries the center of the Beat. Recruitment must be shown through Nimera's behavior and natural interaction, not explained as a story thesis by the characters."
+  "authoring_mode": "rehearsal_first_agent_driven",
+  "director_rule": "Provide the hostile Scribe Engine situation, the current four-person provisional grouping, the hard recruitment outcome, and the reveal boundaries. Do not script a recruitment conversation, require anyone to explain Nimera's freedom to choose, or require Nimera to summarize why she joins.",
+  "scene_context": {
+    "location": "deeper Old City archive immediately beyond the reopened Ancient barrier",
+    "situation": "Reopening the route has reconnected active archive machinery. A Scribe Engine shifts into dangerous enforcement behavior while Nimera is already moving with Cyanis, Ilyra and Torren provisionally. Nimera is a practiced Cardweaver and combat-capable, but not yet a permanent party member.",
+    "card_state": "Cyanis carries the abnormal green-and-gold Card, still unclassified",
+    "maevra_state": "remains in Caelora with Mirena",
+    "presentation": "short pre-fight trigger, one mandatory battle, concise natural aftermath"
   },
-  "current_floor_state": {
-    "field_party_before_recruitment": "cyanis_ilyra_torren_with_nimera_accompanying_provisionally",
-    "maevra_state": "remains_in_caelora_with_mirena",
-    "card_state": "cyanis_physically_carries_abnormal_green_gold_card_unclassified",
-    "nimera_state": "freed_from_barrier_not_yet_permanent_party_member",
-    "archive_state": "reopened_route_has_reconnected_deeper_active_archive_machinery"
-  },
-  "required_story_beats": [
-    "The newly reconnected deeper Archive produces a hostile Archive Scribe Engine response directly connected to the reopened route.",
-    "The Scribe Engine reads as an old archive/transcription/enforcement mechanism, not a villain or speaking character.",
-    "Nimera voluntarily enters the combat formation without being ordered or rescued again.",
-    "The battle party is Cyanis, Ilyra, Torren and Nimera; no reserve-management tutorial is required.",
-    "Nimera's combat presentation visibly uses her Cardweaver identity, Cards and Conduit equipment under existing combat authority.",
-    "The Scribe Engine is disabled without a large destruction spectacle or broad Old City shutdown.",
-    "After combat, Nimera inspects surviving mechanism evidence, Cyanis's Card and the permitted royal-seal comparison material.",
-    "Nimera confirms the Card is meaningfully abnormal and organized but refuses Prime, Might, Last Sentinel, bearer or ownership conclusions.",
-    "The group recognizes that deeper archive material remains the best next evidence source.",
-    "Nimera's decision to continue is demonstrated through what she does and says naturally; no character explains that this is her choice, not a debt or assignment.",
-    "Her intent to continue with the group is unambiguous without a speech summarizing her motivations.",
-    "Nimera Pellan permanently joins the party after that natural decision point.",
-    "The permanent active combat party becomes Cyanis, Ilyra, Torren and Nimera.",
-    "Handoff proceeds into Beat 9 deeper four-person archive exploration."
+  "hard_outcomes": [
+    "The Archive Scribe Engine becomes hostile as a procedural Ancient archive/enforcement mechanism, not a speaking villain.",
+    "Nimera enters the battle voluntarily and demonstrates Cardweaver, Conduit and Card-based combat competence.",
+    "The first four-person battle formation is Cyanis, Ilyra, Torren and Nimera.",
+    "The Scribe Engine is disabled locally without a large explosion or broad Archive shutdown.",
+    "Afterward, Nimera has enough direct evidence from the machine, Cyanis's Card and the permitted seal material to judge that deeper Archive evidence is worth pursuing, while still refusing unsupported Card classifications or a seal solution.",
+    "Nimera's intention to continue with the group becomes obvious through natural behavior and dialogue rather than an explanatory recruitment speech.",
+    "By the end of the beat Nimera Pellan is a permanent party member and the active permanent party is Cyanis, Ilyra, Torren and Nimera.",
+    "The scene hands into Beat 9 deeper four-person archive exploration."
   ],
-  "forbidden_reveals": [
-    "prime_classification",
-    "might_identification",
-    "last_sentinel_identity_or_wording",
-    "stable_deep_ruby_card_state",
-    "prime_manifestation_or_recovery",
-    "confirmed_bearer_or_owner_status",
-    "previous_error",
-    "proof_modern_crests_derive_from_diysean_systems",
-    "proof_royal_seal_and_scribe_engine_share_same_magic",
-    "ancient_seal_imbuing_process",
-    "royal_seal_exact_lineage",
-    "seal_culprit_or_mechanism",
-    "calder_hidden_transport_role",
-    "cresthaven",
-    "northern_route_destination",
-    "future_subclass_access"
+  "knowledge_and_reveal_boundaries": [
+    "No Prime classification.",
+    "No Might identification.",
+    "No Last Sentinel wording or identity.",
+    "No stable deep-Ruby Card state.",
+    "No confirmed bearer or ownership status.",
+    "No proof the Card caused the Scribe Engine activation.",
+    "No proof the Card, Scribe Engine and royal seal share one magical system.",
+    "No royal-seal culprit or exact mechanism.",
+    "No Calder hidden-role reveal.",
+    "No Cresthaven reveal or future subclass access."
+  ],
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml"
+  ],
+  "workflow_locks": [
+    "docs/03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md",
+    "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+    "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md"
   ],
   "forbidden_presentation": [
     "scribe_engine_as_talking_villain",
@@ -106,9 +55,8 @@
     "recruitment_due_to_mirena_ordering_it",
     "recruitment_due_to_needing_a_fourth_fighter",
     "characters_explaining_why_nimera_is_free_to_choose",
-    "characters_summarizing_nimeras_recruitment_motivation_to_her",
-    "grand_lore_answer_after_minor_machine_fight",
-    "giant_explosion_or_archive_shutdown"
-  ],
-  "production_cost_ceiling": "short pre-fight trigger plus one mandatory battle plus concise post-fight evidence/recruitment scene"
+    "characters_summarizing_nimeras_recruitment_motivation",
+    "formal_recruitment_interview_or_vote",
+    "grand_lore_answer_after_minor_machine_fight"
+  ]
 }
