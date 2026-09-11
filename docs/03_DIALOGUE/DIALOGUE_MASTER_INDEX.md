@@ -38,7 +38,7 @@ Owning detailed lock: `AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`.
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION** — `PRODUCTION/CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch1 | **COMPLETE CURRENT WORKING PRODUCTION** — `PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch2 | pending current Dialogue Engine production **under the locked Ch0–1 Agent Brain pipeline** |
-| Ch3 | pending current Dialogue Engine production under the locked Ch0–1 Agent Brain pipeline; explicit preserved line anchors remain binding where applicable |
+| Ch3 | **ACTIVE REHEARSAL-FIRST PRODUCTION** — Beat 1 Draft A complete; cumulative manuscript at `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch4 | pending current Dialogue Engine production under the locked Ch0–1 Agent Brain pipeline and current restructured story authority |
 | Ch5 | beat rewrite required before dialogue generation; subsequent dialogue uses the locked Ch0–1 Agent Brain pipeline |
 | Ch6 | macro/beat authority; dialogue pending under the locked Ch0–1 Agent Brain pipeline |
@@ -89,6 +89,23 @@ Current Character-Life drafts:
 - C05 — `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md`
 
 The obsolete Chapter-1 `LINE_COMPLETE` S007–S011/C03–C05 set and the superseded pre-rehearsal cumulative manuscript have been removed from the current tree.
+
+## Chapter 3 current production
+
+Current production manuscript:
+`PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+
+Current production status:
+- Beat 1 — **Caelora Gate / Arrival — Draft A**;
+- Beats 2–15 — pending sequential rehearsal-first passes;
+- H01 — pending later cleanup pass with the two explicitly preserved Cyanis/Torren opening anchors;
+- H03 — pending fully agent-driven Ilyra/Nimera scene discovery during its rehearsal pass.
+
+Current Beat-1 files:
+- `PRODUCTION/CHAPTER_03/BEAT_01_CAELORA_GATE_ARRIVAL_SPEC.json`
+- `PRODUCTION/CHAPTER_03/BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md`
+
+Chapter 3 uses the current consolidated 15-beat story authority in `docs/02_STORY/CHAPTERS/CHAPTER_03.md`.
 
 ## Exact line anchors outside completed current scenes
 
