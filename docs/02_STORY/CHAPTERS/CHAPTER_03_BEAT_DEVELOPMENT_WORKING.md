@@ -9,7 +9,7 @@
 ## Purpose
 This is the single cumulative structural/development workspace for Chapter 3. Develop the chapter **one production-sized beat at a time**, as was done for Chapter 2, before running the rehearsal-first Dialogue Engine pass.
 
-The former five-beat Chapter-3 outline is now treated as a set of **macro-sequences**, not final production beats. Its mandatory story content remains authoritative, but that material is redistributed across the expanded beat structure below so arrivals, discoveries, gameplay sections, decisions, boss staging, and chapter-end handoffs have enough room to breathe.
+The former five-beat Chapter-3 outline is treated as a set of **macro-sequences**, not final production beats. Its mandatory story content remains authoritative, but that material is redistributed across the expanded structure below so arrivals, discoveries, gameplay sections, decisions, boss staging, and chapter-end handoffs have enough room to breathe.
 
 For each beat, develop at minimum:
 - purpose;
@@ -26,8 +26,9 @@ Exact dialogue is not authored here. Once a beat is structurally developed, its 
 
 ## Current production status
 - Beat 1 — **DEVELOPED**.
-- Beats 2–15 — expanded locked working skeleton; develop sequentially.
-- Next development target: **Beat 2 — Royal Audience / The Chapter-2 Report**.
+- Beat 2 — **DEVELOPED**.
+- Beats 3–15 — expanded locked working skeleton; develop sequentially.
+- Next development target: **Beat 3 — The Impossible Orders**.
 
 ## Expanded 15-Beat Working Structure
 1. **Caelora Gate / Arrival**
@@ -91,7 +92,7 @@ It should:
 3. show that Maevra and the party are arriving lawfully rather than as detainees or fugitives;
 4. give the player a short first-contact stretch with the city before the palace report;
 5. quietly reinforce the contradiction created by the Chapter-2 mural: this ordinary modern capital stands where the party just saw evidence of a vastly larger Ancient city;
-6. hand naturally into a summoned/expected royal report without starting the seal mystery at the gate.
+6. hand naturally into the expected royal report without starting the seal mystery at the gate.
 
 Beat 1 is **arrival and orientation**, not exposition payoff.
 
@@ -111,7 +112,7 @@ Beat 1 is **arrival and orientation**, not exposition payoff.
 ## Exterior approach
 The chapter opens with Caelora already visible ahead rather than beginning with a palace cutscene.
 
-The approach should establish scale through practical visual language:
+The approach establishes scale through practical visual language:
 - walls / gate structures large enough to serve a capital;
 - traffic approaching from more than one road or lane where geography supports it;
 - wagons, mounted couriers, travelers, merchants, Crown personnel, and ordinary citizens;
@@ -121,8 +122,6 @@ The approach should establish scale through practical visual language:
 The party is arriving at a city that is **alive and administratively important**, not a sinister capital waiting to trap them.
 
 ### Mural contrast
-The player should be allowed to feel the visual contradiction without solving it.
-
 Caelora is substantial, but the Chapter-2 western mural showed something far larger and stranger at the same location.
 
 No one needs to stop and deliver a lore speech about this. The skyline itself can make the copied Ancient city feel newly relevant.
@@ -139,32 +138,18 @@ Expected functions:
 - no one treats the party as suspects;
 - no one has a mysterious prewritten detention order waiting for them.
 
-The gate should communicate that **lawful procedure still works normally** before Chapter 3 reveals that the Queen's authority has somehow been used abnormally elsewhere.
-
-That contrast matters.
+The gate communicates that **lawful procedure still works normally** before Chapter 3 reveals that the Queen's authority has somehow been used abnormally elsewhere.
 
 ## Gate-scene information limit
-The gate personnel should know only what gate personnel plausibly know.
-
-They may know:
+Gate personnel may know only what their role plausibly gives them:
 - Maevra is expected to report / has priority authority;
 - Crown business requires the group to proceed inward;
 - ordinary route/security conditions in the capital.
 
-They should **not** know or reveal:
-- the Card-order contradiction;
-- that the Queen is unaware of the Card;
-- details of the royal-seal anomaly;
-- Calder's involvement;
-- Nimera's role;
-- Old City discoveries that have not happened yet.
-
-Do not use a gate guard as an exposition delivery system.
+They do **not** explain the Card-order contradiction, Queen's knowledge state, royal-seal anomaly, Calder, Nimera, or future Old City discoveries.
 
 ## Entry into Caelora
 After the checkpoint, give the player a **short controlled arrival stretch inside the city** before the mandatory palace transition.
-
-The purpose is orientation, not full free-roam cleanup.
 
 Useful environmental beats:
 - crowded civic streets compared with Dunmere / Greenhollow;
@@ -174,40 +159,23 @@ Useful environmental beats:
 - distant palace / administrative district as the obvious destination;
 - possible visual hints that the modern city occupies layers of older construction.
 
-### Exploration boundary
-Do not open the entire capital as a giant optional hub before the royal report unless separate implementation authority later requires it.
-
-Beat 1 should give enough controlled movement to make Caelora feel real, then preserve momentum into the audience.
+Do not open the entire capital as a giant optional hub before the royal report unless later implementation authority requires it.
 
 ## Character functions
-### Maevra
-- naturally takes point on gate authority / official access;
-- acts like someone returning to the capital on real military/Crown business rather than someone intimidated by procedure;
-- does not turn the gate into a status display.
-
-### Torren
-- notices practical city scale, approaches, defenses, traffic patterns, and any route-relevant physical details;
-- may compare the modern geography silently or briefly against his copied mural without claiming a historical conclusion.
-
-### Cyanis
-- experiences entering the capital while carrying the unresolved Card;
-- remains alert to the fact that this is where someone intended the Card to go;
-- does not assume the Crown itself is responsible.
-
-### Ilyra
-- can register the transition from road crisis to functioning civilian center;
-- stays attentive to practical group state rather than becoming an exposition mouthpiece.
+- **Maevra:** takes point on official access naturally; returning on real Crown/military business; remains non-playable.
+- **Torren:** notices practical scale, defenses, traffic, approaches, and route-relevant geography; may compare it mentally to his copied mural without inventing a historical conclusion.
+- **Cyanis:** enters the place toward which someone intended the unresolved Card to travel without assuming the Crown itself is responsible.
+- **Ilyra:** registers the transition from road crisis into a functioning civilian center and keeps attention on the group's practical state.
 
 ## Gameplay / authored-scene rhythm
-Recommended Beat-1 rhythm:
 1. exterior approach with player movement;
 2. Caelora skyline / gate reveal;
 3. normal gate processing scene;
-4. entry into the capital;
+4. entry into capital;
 5. short controlled city movement / environmental introduction;
 6. palace / royal-district handoff.
 
-This beat should contain **no combat** unless a later explicit authority introduces a separate reason. Chapter 3 should not manufacture violence merely to avoid a quiet opening.
+No combat is required.
 
 ## Reveal firewall
 Do **not** reveal in Beat 1:
@@ -226,13 +194,13 @@ Do **not** reveal in Beat 1:
 ## Beat-1 knowledge checkpoint
 By the end:
 - the party has entered Caelora lawfully and normally;
-- Caelora has been established as a functioning modern capital rather than a hostile containment zone;
+- Caelora is established as a functioning modern capital rather than a hostile containment zone;
 - Maevra's authority gives the group legitimate access to make its report;
 - the party remains together: Cyanis, Ilyra, Torren, and non-playable Maevra;
 - Cyanis still possesses the Card;
 - Torren still possesses the western-mural copies;
 - the visual contradiction between modern Caelora and the enormous Ancient city shown at this location remains alive but unanswered;
-- no royal-seal mystery has yet been explained at the gate;
+- no royal-seal mystery has yet been explained;
 - the next immediate story action is the formal Crown report.
 
 Handoff → **Beat 2 — Royal Audience / The Chapter-2 Report**.
@@ -240,21 +208,267 @@ Handoff → **Beat 2 — Royal Audience / The Chapter-2 Report**.
 ---
 
 # Beat 2 — Royal Audience / The Chapter-2 Report
-**Development status:** EXPANDED LOCKED SKELETON — NEXT DEVELOPMENT TARGET
+**Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
 
-Core function:
-- bring Queen Lysara, Mirena, Calder, Maevra, Cyanis, Ilyra, and Torren together for the formal report;
-- summarize Old Bastion outcomes without replaying Chapter 2;
-- establish Rhazek alive / Old Bastion lost / earlier transfers unresolved;
-- present Torren's copied western mural;
-- make the huge Ancient city at modern Caelora and the separate modern-Crest-marked northern structure Crown-visible mysteries;
-- transition naturally from the report into review of the Card's supposed Crown transport paperwork;
-- do **not** yet spend the entire seal mystery in this beat.
+## Beat purpose
+Beat 2 is the **formal handoff of Chapter 2 into the Crown's knowledge**.
+
+It should:
+1. introduce the active royal decision-makers in a normal working audience rather than a detention hearing;
+2. close the Old Bastion report without replaying Chapter 2 scene by scene;
+3. establish exactly what remains unresolved about Rhazek and the earlier transferred captives;
+4. place the western-mural evidence physically in front of the Crown;
+5. make the huge Ancient city at modern Caelora and the exact modern Crest marker north of it **Crown-visible mysteries**;
+6. establish why the surviving Old City beneath/within Caelora matters as a future research direction without sending the party there yet;
+7. reconnect the report to the recovered Card and its supposed Crown-directed transport;
+8. end when Queen Lysara requests the actual transport orders for direct review.
+
+Beat 2 is a **report becoming an investigation**, but it stops before the central royal-seal contradiction is fully exposed.
+
+## Starting state
+- the party has passed the Caelora gate and reached the royal/administrative district lawfully;
+- no one has detained, disarmed, or separated them;
+- combat-capable party remains Cyanis + Ilyra + Torren;
+- Maevra remains present as the highest-ranking returning military/authority figure and is non-playable;
+- Cyanis still carries the recovered Card;
+- Torren has the copied Sunken Archive western mural / route notes;
+- the party knows the Old Bastion was a holding/transit site under Rhazek's command;
+- Rhazek escaped alive after losing local control;
+- the current prisoners were rescued;
+- earlier transferred prisoners remain missing with unknown destination/fate;
+- the party knows the Ancient route beneath Dunmere passed through the Sunken Archive and connected into the Old Bastion foundations;
+- Queen Lysara has **not yet stated** whether she knew about the Card or its transport;
+- the party still has no reason at the start of the beat to assume that the supposed Crown transport authorization is impossible.
+
+## Audience composition
+Mandatory participants for the central report:
+- **Queen Lysara Ceryth**;
+- **Crown Princess Mirena Ceryth**;
+- **Chancellor Othmar Calder**;
+- **Maevra**;
+- **Cyanis**;
+- **Ilyra**;
+- **Torren**.
+
+Necessary clerks / attendants may be present for maps, records, report-taking, and later document retrieval.
+
+### Presentation rule
+This is a **working royal audience**, not a ceremonial throne-room spectacle.
+
+Lysara and Mirena should read as people actively governing a country. Calder should read as a credible senior administrator/chancellor. The party is there because it has important information, not because the scene needs to prove the Crown is powerful.
+
+## Phase 1 — Old Bastion outcome
+Maevra leads the formal account.
+
+The report should summarize the decisive Chapter-2 facts:
+- Black Host forces were taking travelers and local people from the corridor;
+- the Old Bastion was being used as a holding / transit location;
+- the prisoners still there were freed;
+- Commander Rhazek personally commanded the Bastion operation;
+- the trio defeated Rhazek locally;
+- Rhazek survived and withdrew with the remaining organized Host force;
+- the Bastion no longer controls the corridor;
+- Greenhollow ↔ Dunmere travel has reopened;
+- earlier groups had already been transferred elsewhere;
+- their destination, purpose, condition, and fate remain unknown.
+
+### Reporting boundary
+Do not replay every tactical detail of the Leviathan, Prisoner Galleries, ascent, or Rhazek fight.
+
+Only include details that change Crown knowledge or future decisions.
+
+### Provenance discipline
+Keep the distinction between what the party knows firsthand and what prisoners reported:
+- the party directly witnessed the Old Bastion, Rhazek, current prisoners, and local withdrawal;
+- prisoners supplied the fact that earlier groups had been moved away;
+- nobody can truthfully report the onward destination.
+
+## Phase 2 — the underground route matters
+The report then shifts from the Black Host operation to **how the party reached it**.
+
+Mandatory facts:
+- the Dunmere approach used the abandoned Old Waterworks;
+- the route transitioned into substantially older construction;
+- the party entered a large Ancient archive complex beneath the region;
+- that complex eventually connected into reused foundations beneath the Old Bastion through an old concealed passage;
+- the concealed passage was Ancient and did not appear to be a Black Host-built infiltration route.
+
+This tells the Crown something important without overclaiming:
+> there is a surviving Ancient infrastructure layer beneath parts of the modern region, and it intersects modern settlements/fortifications in ways current maps do not fully represent.
+
+Do not make the party claim they understand the system's original purpose.
+
+## Phase 3 — the western mural is produced
+Torren presents the practical copy made from the complete western mural.
+
+The copy is treated as evidence, not as a perfect magical duplicate. It contains the useful fixed relationships the party deliberately recorded.
+
+Mandatory visible relationships:
+- Dunmere / route context sufficient to orient the copy;
+- the much larger Ancient route arrangement;
+- an enormous city at the location corresponding to modern Caelora;
+- a separate small structure immediately/naturally north of that city;
+- the **exact same Crest used by modern Yahtrea** displayed on that separate structure.
+
+### Exact-Crest rule
+This must remain the exact current Yahtrean Crest.
+
+It is **not**:
+- a precursor;
+- a similar geometric symbol;
+- an approximate resemblance;
+- a proto-Crest the characters are uncertain about.
+
+The people in the room who know Yahtrea's Crest can recognize it with certainty.
+
+What remains uncertain is **why it exists on an Ancient map**.
+
+## Phase 4 — royal reaction to the mural
+The Crown can recognize the importance of the evidence without solving it.
+
+Queen Lysara / Mirena may reasonably establish:
+- modern Caelora does not match the enormous scale/shape represented on the mural;
+- surviving Old City material beneath Caelora may now deserve renewed attention;
+- the exact modern Crest appearing on a much older mapped structure is not something they can casually explain.
+
+They must **not** establish:
+- that the Ancient city was definitely called Caelora;
+- that Yahtrea existed in the Ancient era;
+- that the northern Crest-marked structure is Cresthaven;
+- that the modern Crown inherited the Crest directly from the people who made the mural;
+- the age/mechanism of the royal seal;
+- a solved historical lineage.
+
+This is the first time the Chapter-2 map anomaly becomes a **state-level question**, but it remains an unanswered one.
+
+## Phase 5 — character-specific report contributions
+The audience should feel like Maevra's report with firsthand specialists contributing only where useful.
+
+### Maevra
+- owns the formal structure of the report;
+- distinguishes confirmed facts from prisoner testimony and inference;
+- does not monopolize every detail simply because she is senior.
+
+### Torren
+- owns the copied route/mural evidence;
+- explains what was physically present and what relationships were copied;
+- says when he does **not** know what a structure or route originally meant.
+
+### Ilyra
+- can supply concise firsthand context on prisoner condition / why the Archive-waterworks route could not safely evacuate the mixed injured group;
+- helps establish that the road reopening was a practical rescue necessity, not simply a military conquest;
+- does not become the archive historian.
+
+### Cyanis
+- can answer firsthand questions about the recovered Card's observed behavior if/when it becomes relevant;
+- remains its physical holder;
+- does not claim the Card explains the mural or the Crest marker.
+
+### Queen Lysara
+- asks questions that distinguish what is proven from what is inferred;
+- treats Rhazek / missing captives and Ancient infrastructure as serious but separable problems;
+- does not yet declare the Card paperwork impossible before seeing it.
+
+### Mirena
+- tracks the relationship between the mural, modern Caelora, and surviving Old City material;
+- may be the first royal participant to frame the Old City archives as a potentially useful evidence source later;
+- does not jump ahead to Nimera yet unless the scene naturally requires her name after the paperwork review in later beats.
+
+### Calder
+- is present as Chancellor and behaves like a competent administrator;
+- may ask practical questions about resources, records, route security, or provenance;
+- **does not perform his deliberate Card-transport minimization yet**. That belongs to Beat 3 when the actual transport orders are under review.
+
+## Phase 6 — transition to the Card
+The Card enters the audience **after** the Old Bastion / Ancient-route report has been established.
+
+The report needs only the currently relevant facts:
+- the recovered Card remains with Cyanis;
+- it has shown abnormal color / geometry / proximity responses not yet understood;
+- it was being moved toward Caelora under what Maevra understood to be Crown authority / Crown-directed transport;
+- that transport history is part of why Maevra brought the issue directly into this report.
+
+Do not perform a full Card-analysis scene here.
+
+### Important knowledge staging
+At the start of Beat 2, the party has no established reason to think the highest Crown authority is ignorant of the transport.
+
+The transition should therefore feel normal from the travelers' perspective:
+- Maevra references the authorization / transport chain;
+- the matter reaches the question of **which Crown order authorized it**;
+- the physical paperwork becomes necessary.
+
+The Queen's full knowledge-state contradiction is reserved for Beat 3.
+
+## Beat ending — bring the orders
+Beat 2 ends on a controlled administrative turn rather than a melodramatic cliffhanger.
+
+Queen Lysara requests the **actual Card-transport orders / relevant physical authorization documents** be produced for direct examination.
+
+Possible staging:
+- a clerk is instructed to retrieve/present the documents already held in Crown records;
+- Maevra provides the copy / order carried through the transport chain where appropriate;
+- the room shifts from receiving a field report to verifying formal authority.
+
+Do not yet spend the full reaction to what the orders contain.
+
+The next beat opens with those documents physically in the room.
+
+## Gameplay / authored-scene rhythm
+Recommended Beat-2 rhythm:
+1. enter / settle into working royal audience;
+2. Maevra reports Old Bastion outcome;
+3. missing earlier transfers remain explicitly unresolved;
+4. report explains the hidden Ancient route used to reach the Bastion;
+5. Torren produces the western-mural copy;
+6. Crown examines the enormous city / exact modern Crest-marker anomaly;
+7. brief bounded discussion of Old City relevance;
+8. attention returns to the recovered Card;
+9. Maevra references its supposed Crown-directed transport;
+10. Lysara orders the physical authorization documents produced;
+11. Beat ends before the impossible seal contradiction is fully unpacked.
+
+No combat is required.
+
+## Reveal firewall
+Do **not** reveal in Beat 2:
+- Queen Lysara's full statement that she knew nothing about the Card before this report;
+- the confirmed genuine magical response of her personal seal on the suspect orders;
+- whether the Queen's actual physical seal is present/intact;
+- Calder's deliberate lie about the transport;
+- proof that Calder ordered the transport;
+- who used/invoked the Queen's seal;
+- whether physical access to the seal occurred;
+- Nimera as the formal next lead unless later dialogue pacing absolutely requires a very light name setup; the full expert handoff belongs after the seal problem is established;
+- Prime classification;
+- Might identification;
+- Last Sentinel;
+- Cresthaven;
+- the meaning of the northern Crest-marked structure;
+- a complete explanation of the Ancient city beneath Caelora.
+
+## Beat-2 knowledge checkpoint
+By the end:
+- Queen Lysara, Mirena, and Calder have received the essential Chapter-2 report;
+- the Crown knows Rhazek commanded the Old Bastion and escaped alive after losing it;
+- the Crown knows the current prisoners were rescued and the corridor reopened;
+- the Crown knows earlier transferred captives remain missing and nobody has a destination for them;
+- the Crown knows the party reached the Bastion through surviving Ancient infrastructure beneath the region;
+- the Crown has seen Torren's copied western mural evidence;
+- the enormous Ancient city at modern Caelora's location is now a recognized unresolved problem;
+- the separate northern structure bearing the exact modern Yahtrean Crest is now a recognized unresolved problem;
+- surviving Old City material beneath Caelora is an obvious future research direction, but no Old City expedition has begun yet;
+- Cyanis still possesses the recovered Card;
+- the party has stated that the Card's movement toward Caelora was understood to be Crown-directed;
+- the Queen has requested the **actual transport orders** for direct review;
+- the room has not yet established the full impossible-seal contradiction.
+
+Handoff → **Beat 3 — The Impossible Orders**.
 
 ---
 
 # Beat 3 — The Impossible Orders
-**Development status:** EXPANDED LOCKED SKELETON
+**Development status:** EXPANDED LOCKED SKELETON — NEXT DEVELOPMENT TARGET
 
 Core function:
 - produce and examine the physical Card-transport orders;
@@ -347,7 +561,7 @@ Core function:
 - give the new four-person party a meaningful exploration section together;
 - move through older archive infrastructure beyond normal modern access;
 - encounter Six-Face technical / organizational markings;
-- preserve the currently authoritative Face naming used by the project at the time this beat is finalized;
+- use the current canonical Face names: **Might, Elements, Grace, Resource, Perception, Ruin**;
 - let Nimera recognize organizational relationships without identifying Cyanis's Card with one Face yet;
 - show responsive machinery enforcing old conditions / permissions the party cannot fully interpret;
 - transition from record/archive architecture toward clearly command-oriented infrastructure.
