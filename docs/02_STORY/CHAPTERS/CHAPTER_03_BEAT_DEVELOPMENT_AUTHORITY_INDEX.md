@@ -18,7 +18,7 @@
 - **Beat 12 → Beat 13 transition:** `CHAPTER_03_BEAT_12_TO_13_MIRENA_MEETING_CORRECTION.md` supersedes the older Queen+Mirena transition lock.
 - **Beat 13 — Mirena's Concern / Cresthaven Lead:** `CHAPTER_03_BEAT_13_MIRENA_DEBRIEF_CRESTHAVEN_LEAD_WORKING.md` supersedes `CHAPTER_03_BEAT_13_FOUR_ANSWERS_NOT_ONE_WORKING.md`.
 - **Beat 14 — Rest in Caelora / Morning Departure:** current content of `CHAPTER_03_BEAT_14_JOURNEY_TO_CRESTHAVEN_WORKING.md`; this rebuilt content supersedes the former playable-journey version despite the historical filename.
-- **Beat 15 — Cresthaven Headquarters / Cleanup Window:** `CHAPTER_03_BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_WORKING.md`.
+- **Beat 15 — Cresthaven Headquarters / Cleanup Window:** `CHAPTER_03_BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_WORKING.md`, plus `CHAPTER_03_CRESTHAVEN_ARCHIVE_HUNT_UNLOCK_LOCK.md` for the explicit Regional Hunt #3 unlock.
 
 ## Active Chapter-3 party-state correction
 `CHAPTER_03_OLD_CITY_MAEVRA_MIRENA_CONTINUITY_LOCK.md` is active authority for the Old City split.
@@ -157,7 +157,7 @@ Core outcomes:
 - Beat 14 ends on the departure / travel transition.
 
 ## Beat 15 — Cresthaven Headquarters / Cleanup Window
-`CHAPTER_03_BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_WORKING.md` is current authority.
+`CHAPTER_03_BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_WORKING.md` is current authority, with `CHAPTER_03_CRESTHAVEN_ARCHIVE_HUNT_UNLOCK_LOCK.md` adding the explicit cleanup-Hunt unlock.
 
 Core outcomes:
 - Beat 15 opens **outside Cresthaven** after the travel cut;
@@ -168,13 +168,29 @@ Core outcomes:
 - this is an operational base, not a permanent grant of ownership or a military command appointment;
 - minimum hub functions are established: rest / sleeping space, supplies, records / map work, basic medical space, and usable departure access;
 - parts of the fort remain dusty / unsafe / sealed so the base still visibly feels under restoration;
+- **before Mirena and Maevra leave, Mirena tells the party that continuing Crown work in the Old City Archives has uncovered / opened a previously inaccessible passage**;
+- Mirena does not know what waits at the end of that passage, but tells the party they may return to Caelora and investigate it when ready;
+- this conversation is the canonical story unlock for **Regional Hunt #3 — Archive Judgment Engine**;
+- Mirena does not identify the Archive Judgment Engine itself in-world unless later implementation explicitly requires a Hunt-interface label after the unlock;
 - Mirena and Maevra complete the initial handoff and then **return to Caelora**;
 - Mirena and Maevra do not become default Cresthaven residents or traveling party members;
 - the normal resident / traveling party becomes **Cyanis + Ilyra + Torren + Nimera**;
 - Chapter-3 cleanup opens under `CHAPTER_03_CLEANUP_OVERLAY.md`;
 - active cleanup Character-Life scenes remain **H01 — Nimera Takes Over a Table** and **H03 — Ilyra and Nimera**;
-- Regional Hunt #3 — Archive Judgment Engine remains cleanup content under its access rules;
+- Regional Hunt #3 is now explicitly available through the newly accessible Old City Archive passage;
 - Chapter 4 begins only when the player deliberately chooses **Begin Chapter 4** from Cresthaven.
+
+### Regional Hunt #3 unlock lock
+`CHAPTER_03_CRESTHAVEN_ARCHIVE_HUNT_UNLOCK_LOCK.md` is mandatory for the cleanup transition.
+
+The unlock timing is:
+1. Cresthaven headquarters handoff;
+2. Mirena explains the new Old City Archive passage;
+3. **Regional Hunt #3 — Archive Judgment Engine unlocks**;
+4. Mirena and Maevra return to Caelora;
+5. player regains control in the Cresthaven cleanup window.
+
+The newly accessible branch must not solve the royal-seal culprit, Calder's role, `PREVIOUS ERROR`, Last Sentinel recovery, or any other mandatory Chapter-3 main-story mystery.
 
 Still unresolved after the mandatory Chapter-3 story:
 - recent reader / seal-copying identities;
@@ -209,5 +225,5 @@ Exact dialogue remains separate and must be generated later through the current 
 - Beat 12 → 13 — LOCKED — leave → direct cut to Mirena upstairs; Queen absent
 - Beat 13 — DEVELOPED — Mirena's Concern / Cresthaven Lead
 - Beat 14 — DEVELOPED — **Rest in Caelora / Morning Departure**
-- Beat 15 — DEVELOPED — **Cresthaven Headquarters / Cleanup Window**
+- Beat 15 — DEVELOPED — **Cresthaven Headquarters / Cleanup Window**, with explicit Mirena Archive-passage Hunt unlock
 - Mandatory Chapter-3 structural beat development — **COMPLETE through Beat 15**, subject to future explicit revisions and later Dialogue Engine passes.
