@@ -38,7 +38,7 @@ Owning detailed lock: `AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`.
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION** — `PRODUCTION/CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch1 | **COMPLETE CURRENT WORKING PRODUCTION** — `PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch2 | pending current Dialogue Engine production **under the locked Ch0–1 Agent Brain pipeline** |
-| Ch3 | **ACTIVE REHEARSAL-FIRST PRODUCTION** — standalone Beats 1–6 Draft A complete; cumulative readable manuscript currently assembled through Beat 5 at `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
+| Ch3 | **ACTIVE REHEARSAL-FIRST PRODUCTION** — standalone Beats 1–7 Draft A complete; cumulative readable manuscript currently assembled through Beat 5 at `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch4 | pending current Dialogue Engine production under the locked Ch0–1 Agent Brain pipeline and current restructured story authority |
 | Ch5 | beat rewrite required before dialogue generation; subsequent dialogue uses the locked Ch0–1 Agent Brain pipeline |
 | Ch6 | macro/beat authority; dialogue pending under the locked Ch0–1 Agent Brain pipeline |
@@ -97,7 +97,7 @@ Current cumulative readable manuscript:
 
 Current cumulative assembly coverage:
 - Beats 1–5 are assembled in the cumulative manuscript.
-- Beat 6 is current as its standalone production draft and remains authoritative even before the next cumulative assembly pass.
+- Beats 6–7 are current as standalone production drafts and remain authoritative before the next cumulative assembly pass.
 
 Current production status:
 - Beat 1 — **Caelora Gate / Arrival — Draft A**;
@@ -106,7 +106,8 @@ Current production status:
 - Beat 4 — **The Seal That Wasn't Used — Draft A**;
 - Beat 5 — **Old City Access / Archive Descent — Draft A**;
 - Beat 6 — **Scholar in Redacted Stacks — Draft A**;
-- Beats 7–15 — pending sequential rehearsal-first passes;
+- Beat 7 — **Ancient Barrier / First Cooperation — Draft A**;
+- Beats 8–15 — pending sequential rehearsal-first passes;
 - H01 — pending later cleanup pass with the two explicitly preserved Cyanis/Torren opening anchors;
 - H03 — pending fully agent-driven Ilyra/Nimera scene discovery during its rehearsal pass.
 
@@ -123,6 +124,8 @@ Current Chapter-3 standalone files:
 - `PRODUCTION/CHAPTER_03/BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md`
 - `PRODUCTION/CHAPTER_03/BEAT_06_SCHOLAR_IN_REDACTED_STACKS_SPEC.json`
 - `PRODUCTION/CHAPTER_03/BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md`
+- `PRODUCTION/CHAPTER_03/BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_SPEC.json`
+- `PRODUCTION/CHAPTER_03/BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_DRAFT_A.md`
 
 Chapter 3 uses the current consolidated 15-beat story authority in `docs/02_STORY/CHAPTERS/CHAPTER_03.md`.
 
