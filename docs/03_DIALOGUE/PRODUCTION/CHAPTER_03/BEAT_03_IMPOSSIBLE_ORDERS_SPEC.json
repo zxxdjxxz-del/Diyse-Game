@@ -1,0 +1,98 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT03_IMPOSSIBLE_ORDERS",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 3 — The Impossible Orders",
+  "production_ready": false,
+  "participants": ["lysara", "mirena", "othmar", "maevra", "cyanis", "ilyra", "torren"],
+  "scene_purpose": "Turn the working royal report into Chapter 3's central mystery by placing the Card-transport orders before the room, establishing Queen Lysara's absolute lack of prior knowledge or authorization, allowing Calder to plausibly minimize the legitimacy of spending Crown resources on an apparently inactive Card while concealing his own hidden transport role, confirming that the documents carry the genuine magical authority response of Lysara's personal royal seal, deciding that Cyanis keeps the Card rather than risking another forced transfer, preserving the documents as evidence, and handing directly into examination of the actual physical seal.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
+      "sections": ["Beat 3 — The Impossible Orders"],
+      "role": "current_consolidated_chapter_3_beat_3_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_BEAT_03_IMPOSSIBLE_ORDERS_WORKING.md",
+      "whole_file": true,
+      "role": "current_detailed_beat_3_development_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md",
+      "whole_file": true,
+      "role": "mandatory_rehearsal_first_agent_brain_pipeline"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring_and_reductive_staging"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "current_triggered_scene_presentation"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Caelora royal working audience chamber",
+    "area_phase": "document_verification_turn",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "runtime_note": "Continue directly from Beat 2. The room is already assembled. The transport documents are brought in and examined as ordinary physical Crown records. The scene becomes tense through the contradiction itself, not through theatrical accusations. Portraits + dialogue box carry the scene with simple field placement and one standard authentication visual response where required."
+  },
+  "current_floor_state": {
+    "party_state": "cyanis_ilyra_torren_permanent_combat_trio_with_nonplayable_maevra_present",
+    "card_state": "recovered_card_physically_carried_by_cyanis",
+    "chapter_2_report_state": "complete_and_received_by_lysara_mirena_othmar",
+    "transport_order_state": "physical_originals_and_attached_records_now_brought_for_review",
+    "royal_seal_mystery_state": "about_to_be_exposed",
+    "calder_hidden_truth": "writer_facing_only_calder_ordered_card_transport_toward_caelora_but_party_does_not_know",
+    "dialogue_presentation": "portraits_plus_dialogue_box_with_simple_working_audience_field_placement"
+  },
+  "required_story_beats": [
+    "The physical Card-transport orders and attached routing/expenditure records are placed before the room.",
+    "Lysara establishes plainly that before this audience she did not know this recovered Card existed, where it had been found, that it was being moved toward Caelora, or that Crown resources had been committed specifically to moving it.",
+    "The scene does not entertain royal forgetfulness as a serious explanation.",
+    "Calder plausibly argues that committing Crown money, escorts, manpower, or administrative effort to an apparently inactive Card would be difficult to justify as genuine Crown policy; his hidden role in ordering the transport remains completely unrevealed.",
+    "Normal first-line Crown authentication confirms that the suspect documents carry the recognized genuine magical authority response associated with Lysara's personal royal seal, so ordinary visual forgery cannot explain them.",
+    "Lysara states directly that she did not use her seal for these orders and did not authorize anyone else to use it for them.",
+    "The room recognizes a state-security and magical-authentication problem without accusing a specific culprit or selecting a mechanism.",
+    "Ilyra or another appropriate participant raises the practical custody question created by the compromised transport order.",
+    "Lysara explicitly decides Cyanis keeps physical possession of the Card for now because forced separation or another transfer would introduce an unnecessary unknown risk.",
+    "The decision does not establish bearer status, ownership, Prime identity, Might, or Last Sentinel.",
+    "The suspect documents and associated records are secured as evidence.",
+    "Lysara orders a controlled examination of her actual physical personal seal, its custody, recent legitimate uses, comparison documents, and possible access.",
+    "Beat ends on the decision to inspect the actual seal rather than on an accusation."
+  ],
+  "forbidden_reveals": [
+    "proof_calder_ordered_card_transport",
+    "calder_motive",
+    "seal_culprit_identity",
+    "whether_physical_seal_was_removed_or_secretly_handled",
+    "whether_seal_magic_can_answer_without_conventional_physical_use",
+    "exact_unauthorized_seal_mechanism",
+    "queen_seal_is_ancient_or_diysean",
+    "definite_connection_between_seal_anomaly_and_ancient_city_or_card",
+    "why_card_was_targeted",
+    "confirmed_bearer_status",
+    "prime_identity",
+    "might_identification",
+    "last_sentinel",
+    "nimera_party_role",
+    "cresthaven",
+    "meaning_of_northern_crest_marked_structure"
+  ],
+  "forbidden_presentation": [
+    "villainous_calder_telegraphing",
+    "debate_over_whether_lysara_forgot_her_own_authorization",
+    "paperwork_lecture",
+    "courtroom_accusation_scene",
+    "digital_or_interface_style_document_authentication",
+    "micro_choreography_for_documents",
+    "party_roll_call_reactions",
+    "characters_verbalizing_the_reveal_firewall"
+  ],
+  "production_cost_ceiling": "economical_working_audience_with_one_required_magical_authentication_visual"
+}
