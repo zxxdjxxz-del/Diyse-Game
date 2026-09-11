@@ -1,0 +1,81 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT01_CAELORA_GATE_ARRIVAL",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 1 — Caelora Gate / Arrival",
+  "production_ready": false,
+  "participants": ["cyanis", "ilyra", "torren", "maevra"],
+  "scene_purpose": "Let Caelora arrive as a functioning capital before the royal-seal mystery begins; establish lawful routine entry under Maevra's authority; preserve Cyanis's possession of the Card and Torren's copied western-mural evidence; give the player a short first stretch inside the city where the party can register that the Ancient city shown on the mural was substantially larger than modern Caelora without explaining why.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
+      "sections": ["Opening state", "Retired opening premise", "Beat 1 — Caelora Gate / Arrival"],
+      "role": "current_chapter_03_beat_01_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "current_field_and_town_dialogue_presentation_lock"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md",
+      "whole_file": true,
+      "role": "mandatory_rehearsal_first_agent_brain_pipeline"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring_and_reductive_staging_lock"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Caelora Gate and first controlled city stretch",
+    "area_phase": "lawful_capital_arrival",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "runtime_note": "Caelora is functioning, populated, secure and governed. The gate is routine procedure, not an obstacle or detention beat. In the city/town presentation, relevant party members may be visible as field models. Keep gate processing concise and non-suspicious. A short walking exchange after entry is legal because Maevra is actively guiding the group to the palace. Do not begin the royal-seal mystery in Beat 1."
+  },
+  "current_floor_state": {
+    "party_state": "cyanis_ilyra_torren_permanent_combat_party_with_nonplayable_maevra_traveling",
+    "card_state": "recovered_card_carried_by_cyanis",
+    "mural_evidence_state": "torren_carries_existing_chapter_2_copy_showing_huge_ancient_city_at_modern_caelora_and_exact_yahtrean_crest_on_separate_northern_site",
+    "rhazek_state": "alive_after_old_bastion_withdrawal",
+    "missing_prisoners_state": "earlier_transferred_captives_still_missing",
+    "location_presentation": "town_hub_relevant_party_models_allowed",
+    "dialogue_presentation": "portraits_plus_dialogue_box_with_simple_field_presence",
+    "chapter_3_started": true
+  },
+  "required_story_beats": [
+    "Caelora is allowed a clean visual arrival before dialogue density begins.",
+    "The party enters through a normal functioning gate checkpoint under Maevra's legitimate Crown authority.",
+    "No one detains the party or attempts to seize Cyanis's Card.",
+    "The player receives a short first controlled stretch inside Caelora before the palace handoff.",
+    "Torren may make one bounded practical comparison between modern Caelora and the larger Ancient city shown on the copied mural.",
+    "No character explains why the exact Yahtrean Crest appears on the Ancient material.",
+    "Beat ends by handing directly into the royal audience/report."
+  ],
+  "forbidden_reveals": [
+    "queen_lysara_prior_ignorance_of_the_card",
+    "suspect_card_transport_orders",
+    "genuine_royal_seal_magical_response",
+    "calder_hidden_role",
+    "nimera_identity_or_location",
+    "prime_or_might_classification",
+    "last_sentinel",
+    "cresthaven_identity",
+    "true_ancient_city_identity_or_history"
+  ],
+  "forbidden_presentation": [
+    "containment_or_detention_framing",
+    "automatic_card_seizure",
+    "gate_as_story_obstacle",
+    "party_roll_call_dialogue",
+    "unnecessary_gate_npc_subplot",
+    "micro_choreography",
+    "extra_city_business_invented_by_dialogue_script"
+  ],
+  "production_cost_ceiling": "economical_town_arrival_and_short_portrait_exchange",
+  "maximum_beat_count": 3
+}
