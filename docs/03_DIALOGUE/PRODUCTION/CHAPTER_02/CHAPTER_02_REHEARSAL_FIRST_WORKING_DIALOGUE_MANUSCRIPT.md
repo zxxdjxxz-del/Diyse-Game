@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE REHEARSAL-FIRST WORKING MANUSCRIPT — NOT CHAPTER-LOCKED  
 **Purpose:** single cumulative readable Chapter-2 dialogue manuscript; update this file every time a Chapter-2 mainline or Character-Life scene changes.  
-**Mainline coverage:** Beats 1–10 current rehearsal-first working drafts.  
+**Mainline coverage:** Beats 1–11 current rehearsal-first working drafts.  
 **Character-Life coverage:** C06 — `Still Burns` current working draft. Former C07 is retired as a separate Chapter-2 Character-Life scene.  
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Working beat authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
@@ -634,7 +634,7 @@ Beat ends as exploration carries the player across the architectural threshold i
 - The party does not know what is behind it.
 - Writer-facing, that sealed branch is reserved for a later Hunt route.
 - The required waterworks traversal gets all four travelers substantially wet; no weed joke or Torren-specific setup is called out.
-- The party recognizes that the deepest construction is far older than Dunmere's municipal works.
+- The party recognizes that the deepest construction is far older than Dunmere's waterworks.
 - Torren can still judge the route as broadly useful, but cannot pretend certainty about the ancient structure.
 - The party still does not know they are entering a formal archive or what waits deeper inside.
 
@@ -1747,6 +1747,210 @@ Beat ends into Beat 11 rather than beginning an evacuation attempt through the A
 
 ---
 
+# BEAT 11 — PRISONER SAFE AREA / EXIT PROBLEM
+
+**Draft:** A — current rehearsal-first working dialogue
+
+Beat 11 is a brief consolidation-and-decision beat. The prisoners are already free from the local cells; nobody attempts to evacuate them through the Archive.
+
+### [A PLACE TO HOLD]
+
+The freed group settles into a cleared lower service/watch area adjacent to the secured galleries. It has limited approaches, enough room for the weakened prisoners to sit or lie down, and does not require the party to invent a new secret refuge.
+
+Maevra looks across the room and the nearby approaches.
+
+**MAEVRA:** This works.
+
+Torren checks the nearest corridor.
+
+**TORREN:** Two ways in from the Bastion side.
+
+**MAEVRA:** Better than six.
+
+The **GREENHOLLOW MAN** helps the older prisoner sit, then looks toward one of the approaches.
+
+**GREENHOLLOW MAN:** I can watch that one.
+
+Maevra nods.
+
+**MAEVRA:** Watch. Don't chase anybody into the hall.
+
+**GREENHOLLOW MAN:** Wasn't planning to.
+
+The wounded soldier shifts where Ilyra left him.
+
+**WOUNDED SOLDIER:** I can take the other.
+
+Ilyra looks at him.
+
+**ILYRA:** Sitting down.
+
+**WOUNDED SOLDIER:** I can watch a corridor sitting down.
+
+A beat.
+
+**ILYRA:** Fine.
+
+**WOUNDED SOLDIER:** Generous.
+
+Ilyra almost smiles.
+
+**ILYRA:** Don't reopen that wound and I'll get more generous.
+
+Around them, the other freed prisoners continue helping each other settle. Nobody waits for the party to assign every task.
+
+### [HOW THEY CAME IN]
+
+Cyanis looks at the Dunmere woman.
+
+**CYANIS:** When they brought you here—how?
+
+**DUNMERE WOMAN:** Road side.
+
+Torren turns toward her.
+
+**TORREN:** Which entrance?
+
+**DUNMERE WOMAN:** Gate off the main road. Into a yard. Then down through the fort.
+
+The Greenhollow man nods.
+
+**GREENHOLLOW MAN:** Same for us.
+
+**CYANIS:** Wide enough for everyone here?
+
+**GREENHOLLOW MAN:** They brought us through it in groups.
+
+Torren looks toward the upper Bastion route.
+
+**TORREN:** Maintained gate. Maintained path.
+
+Ilyra looks at the injured prisoners.
+
+**ILYRA:** And no flooded ruin between here and daylight.
+
+**CYANIS:** That's our exit.
+
+**WOUNDED SOLDIER:** Host controls it.
+
+**TORREN:** Yeah.
+
+**CYANIS:** What sits between us and the gate?
+
+The soldier gives him a tired look.
+
+**WOUNDED SOLDIER:** The rest of the Bastion.
+
+**CYANIS:** Right.
+
+Maevra folds her good arm across herself.
+
+**MAEVRA:** And Rhazek sits on top of that.
+
+**TORREN:** More or less.
+
+**CYANIS:** Then we don't have an exit until he doesn't control it.
+
+### [MAEVRA STAYS]
+
+Cyanis looks at Maevra.
+
+**CYANIS:** Maevra—
+
+**MAEVRA:** I'm staying.
+
+**CYANIS:** I was going to ask.
+
+**MAEVRA:** You were going to take too long getting there.
+
+Torren glances around the room.
+
+**TORREN:** Better use of her here.
+
+Maevra looks at him.
+
+**MAEVRA:** Glowing.
+
+**TORREN:** Accurate.
+
+She looks back to Cyanis.
+
+**MAEVRA:** I'll keep people together. If Host comes down, we pull back into the secured galleries. Nobody goes looking for a fight.
+
+The Dunmere woman nods.
+
+**DUNMERE WOMAN:** Fine by me.
+
+Ilyra indicates the wounded soldier.
+
+**ILYRA:** If that starts bleeding again, pressure here. Don't move him unless you have to.
+
+**WOUNDED SOLDIER:** I'm sitting right here.
+
+Maevra looks at him.
+
+**MAEVRA:** Good. Then you can complain directly.
+
+**WOUNDED SOLDIER:** Was planning to.
+
+### [THE PLAN]
+
+Cyanis looks across the freed prisoners.
+
+**CYANIS:** We're going up.
+
+The room quiets enough to listen.
+
+**CYANIS:** We take control of the road exit. Then we come back down and get everyone out through the fort.
+
+The Dunmere woman looks toward the ceiling as if she can see the Bastion above them.
+
+**DUNMERE WOMAN:** And Rhazek?
+
+Cyanis looks toward the upper route.
+
+**CYANIS:** If he controls the Bastion, he's part of that job.
+
+Torren checks his equipment.
+
+**TORREN:** Quiet while we can.
+
+Ilyra stands.
+
+**ILYRA:** That won't last.
+
+**TORREN:** No.
+
+Cyanis looks at the two of them.
+
+**CYANIS:** Use it anyway.
+
+He looks back once at Maevra and the prisoners.
+
+**CYANIS:** We secure the exit. We come back.
+
+Maevra gives him a short nod.
+
+**MAEVRA:** Go.
+
+**Objective:** Ascend the Old Bastion.
+
+Control returns with the commandable party now **Cyanis + Ilyra + Torren**. Maevra remains in the lower safe area with the freed prisoners and never becomes a combat unit.
+
+### Beat-11 knowledge checkpoint
+- The current prisoners are consolidated in a defensible lower safe area adjacent to the secured galleries.
+- Prisoners retain agency: able-bodied captives help others and take sensible watch/support roles.
+- Nobody attempts to evacuate through the flooded Archive/waterworks route.
+- Prisoner testimony confirms they were originally brought through a maintained road-side Bastion gate and yard.
+- Torren and Ilyra can therefore identify that maintained route as the only credible mass evacuation path for the mixed group.
+- The active Black Host command layer still controls that exit.
+- Rhazek's control of the Bastion makes breaking the command layer necessary to free the road exit.
+- Maevra stays with the prisoners by practical mutual decision, not because she is discarded or treated as helpless.
+- Cyanis, Ilyra, and Torren commit to ascending the Bastion, securing the proper road exit, and returning for everyone.
+- No extra safe-area combat beat is required before Beat 12.
+
+---
+
 # OPTIONAL CHARACTER-LIFE — C06
 # STILL BURNS
 
@@ -2162,5 +2366,6 @@ Fade.
 - Beat 8 — Draft A; Archive Leviathan defeated without lore explanation; route physically opened; Maevra remains noncombat.
 - Beat 9 — Draft A; Ancient concealed passage opens directly into Old Bastion foundation; prisoner presence immediately beyond; no transfer-records beat.
 - Beat 10 — Draft A; local Prisoner Galleries secured and opened; holding/transit function and Rhazek command learned from prisoner experience; evacuation-route problem established.
+- Beat 11 — Draft A; freed prisoners consolidated into defensible lower safe area; road-side Bastion gate identified as viable evacuation route; Maevra stays with prisoners; trio commits to ascending.
 - C06 — `Still Burns` — current working dialogue.
-- Next mainline scene: **Beat 11 — Prisoner Safe Area / Exit Problem**.
+- Next mainline scene: **Beat 12 — Bastion Command Ascent**.
