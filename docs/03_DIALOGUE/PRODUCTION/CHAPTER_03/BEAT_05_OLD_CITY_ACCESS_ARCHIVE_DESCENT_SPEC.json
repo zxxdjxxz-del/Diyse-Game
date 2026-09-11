@@ -1,0 +1,91 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT05_OLD_CITY_ACCESS_ARCHIVE_DESCENT",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 5 — Old City Access / Archive Descent",
+  "production_ready": false,
+  "participants": ["cyanis", "ilyra", "torren", "old_city_archive_keeper"],
+  "participant_profile_sources": {
+    "old_city_archive_keeper": "docs/01_CHARACTERS/SUPPORTING/Chapter_03_Old_City_Role_Profiles.md"
+  },
+  "scene_purpose": "Move the investigation lawfully from the palace into the Old City archives; establish the Crown's competent maintained archive layer inside a much older and larger Diysean complex; show that the Crown uses safe adapted portions without mastering the buried whole; direct Cyanis, Ilyra, and Torren toward Nimera Pellan's deeper work area; and end at the threshold of the section where Beat 6 introduces her.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
+      "sections": ["Beat 5 — Old City Access / Archive Descent"],
+      "role": "current_consolidated_chapter_3_beat_5_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_OLD_CITY_FANTASY_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "mandatory_old_city_physical_magical_fantasy_presentation"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md",
+      "whole_file": true,
+      "role": "mandatory_rehearsal_first_agent_brain_pipeline"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring_and_reductive_staging"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "current_field_and_triggered_scene_presentation"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Caelora Old City archives",
+    "area_phase": "lawful_entry_then_descent_from_maintained_crown_archive_into_older_diysean_layers",
+    "dialogue_readiness": "GREEN at staffed entry, then mostly exploration",
+    "static_story_context_only": true,
+    "runtime_note": "Maevra is not present. The trio is specifically seeking Nimera Pellan. Upper rooms are functioning Crown archives occupying far older construction. Use normal shelves, records, lamps, locks, partitions, clerks and cataloguing before the environment transitions into carved stone, fitted metal, seals, wards, shutters, rings and other physical magical craft. Dialogue should be sparse because the environment owns most of the beat."
+  },
+  "current_floor_state": {
+    "party_state": "cyanis_ilyra_torren_only; maevra remains in caelora with mirena",
+    "card_state": "recovered_card_remains_physically_carried_by_cyanis",
+    "royal_seal_investigation_state": "physical_seal_secured_in_palace; no_simple_theft_window_found; mechanism_unresolved",
+    "old_city_access_state": "lawful_restricted_archive_access_authorized_by_crown_princess_mirena",
+    "objective": "find_nimera_pellan_in_deeper_old_city_archive_work_area",
+    "dialogue_presentation": "portraits_plus_dialogue_box_for_entry_exchange; cyanis_only_during_ordinary_dungeon_traversal"
+  },
+  "required_story_beats": [
+    "Cyanis, Ilyra, and Torren enter the Old City archives lawfully under Mirena / Crown authorization.",
+    "Maevra does not accompany the trio.",
+    "An archive keeper or equivalent staff member verifies access without treating the trio as suspects or detainees.",
+    "Upper archive rooms visibly function as active Crown work areas with ordinary records, shelves, boxes, cataloguing, lamps, locks and controlled access.",
+    "The maintained Crown archive visibly occupies construction that is older and larger than the modern use layered into it.",
+    "The architecture transitions gradually into unmistakably Diysean physical magical construction.",
+    "The Crown is shown to competently maintain mapped safe archive areas while deeper sections remain sealed, unstable, or inconsistently responsive.",
+    "The trio is actively searching for Nimera Pellan by name rather than accidentally discovering an unknown scholar.",
+    "Archive staff identify the deeper work area where Nimera is currently operating.",
+    "The beat ends when the trio reaches the deeper section containing Nimera, before Beat 6 performs her full introduction."
+  ],
+  "forbidden_reveals": [
+    "calder_hidden_transport_role",
+    "seal_anomaly_mechanism",
+    "physical_seal_ancient_origin",
+    "prime_identity",
+    "might_identification",
+    "last_sentinel",
+    "nimera_future_party_membership_before_beat_8",
+    "cresthaven_identity_of_northern_site",
+    "complete_ancient_caelora_history"
+  ],
+  "forbidden_presentation": [
+    "digital_archive_language",
+    "terminal_or_interface_presentation",
+    "access_permissions_as_software_metaphor",
+    "modern_crown_staff_as_incompetent_or_hostile_gatekeepers",
+    "maevra_accompanying_old_city_party",
+    "long_walking_banter_without_active_guidance",
+    "invented_combat_or_major_revelation",
+    "nimera_full_introduction_inside_beat_5",
+    "environmental_micro_detail_accumulation"
+  ],
+  "production_cost_ceiling": "economical_archive_entry_scene_plus_exploration_handoff"
+}
