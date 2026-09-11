@@ -1,0 +1,96 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT07_ANCIENT_BARRIER_FIRST_COOPERATION",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 7 — Ancient Barrier / First Cooperation",
+  "production_ready": false,
+  "participants": ["cyanis", "ilyra", "torren", "nimera"],
+  "scene_purpose": "Resolve the Ancient barrier through cooperative observation rather than character-specific authorization; let Cyanis use modern Crest practice only as a structural analogy, Nimera test that analogy against the barrier, Torren verify the physical movement, and Ilyra constrain the attempt to a safe non-destructive test; free Nimera, give her a bounded first close examination of Cyanis's Card, and open the deeper active archive route without classifying the Card or proving any Crest/Diysean lineage.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
+      "sections": ["Beat 7 — Ancient Barrier / First Cooperation"],
+      "role": "current_consolidated_chapter_3_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_WORKING.md",
+      "whole_file": true,
+      "role": "detailed_beat_7_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_OLD_CITY_FANTASY_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "fantasy_physical_old_city_presentation"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md",
+      "whole_file": true,
+      "role": "immediate_dialogue_continuity"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md",
+      "whole_file": true,
+      "role": "mandatory_rehearsal_first_agent_brain_pipeline"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Old City redacted-stack Ancient barrier",
+    "area_phase": "cooperative_barrier_release",
+    "dialogue_readiness": "GREEN",
+    "runtime_note": "Nimera is still enclosed but safe. The scene begins from the Beat-6 objective Open the Ancient barrier. Use tangible stone/metal plates, engraved channels, shutters, seams, and magical light. No software/interface/credential language."
+  },
+  "current_floor_state": {
+    "field_party": "cyanis_ilyra_torren_with_nimera_enclosed_then_provisionally_accompanying_after_release",
+    "maevra_state": "remains_in_caelora_with_mirena",
+    "card_state": "cyanis_carries_unclassified_green_gold_responsive_card",
+    "barrier_state": "closed_responsive_ancient_mechanism_split_across_inside_and_outside_views",
+    "nimera_state": "uninjured_capable_and_already_has_interior_observations",
+    "combat_state": "no_mandatory_combat_in_beat_7"
+  },
+  "required_story_beats": [
+    "Nimera and Torren compare the interior and exterior response points and establish that the four points belong to one distributed working rather than four independent controls.",
+    "Cyanis recognizes a structural analogy to modern Crest-work: a return path/completed relationship can matter more than an isolated mark.",
+    "Cyanis does not call the mechanism a Crest and nobody claims shared origin, Ancient authorization, or personal recognition.",
+    "Nimera checks Cyanis's analogy against the barrier's observed behavior before treating it as a testable hypothesis.",
+    "Ilyra requires a minimal non-destructive partial test with Nimera clear of the moving barrier and an immediate stop condition if the motion differs from prediction.",
+    "The partial test produces the predicted limited response, giving evidence that the hypothesis is useful.",
+    "Nimera and Cyanis coordinate the full relationship from opposite sides while Torren calls physical movement and Ilyra maintains the safe zone.",
+    "The barrier retracts through deliberate Ancient physical-magical motion and Nimera exits under her own power.",
+    "Nimera immediately verifies the successful configuration rather than performing rescue gratitude.",
+    "Nimera performs a bounded first close examination of Cyanis's Card while Cyanis knowingly keeps/holds it for inspection.",
+    "Nimera concludes only that the Card is meaningfully abnormal and that its behavior warrants deeper study; she refuses Prime, Might, Last Sentinel, bearer, or ownership conclusions.",
+    "The barrier solution sharpens the investigative question of what conditions make responsive magic answer, without claiming the barrier and royal seal share a mechanism.",
+    "Nimera chooses to accompany the trio provisionally into the newly accessible deeper archive because it is relevant to the investigation and her research.",
+    "The deeper archive begins to stir or move after the reopened route reconnects it; Beat 8 owns the hostile Archive Scribe Engine response."
+  ],
+  "forbidden_reveals": [
+    "cyanis_recognized_as_ancient_authority",
+    "cyanis_has_ancient_permission",
+    "modern_crests_definitively_derive_from_diysean_systems",
+    "barrier_is_itself_a_modern_crest",
+    "prime_classification",
+    "might_identification",
+    "last_sentinel_wording_or_identity",
+    "stable_deep_ruby_card_state",
+    "prime_manifestation_or_recovery",
+    "confirmed_bearer_status",
+    "royal_seal_mechanism_or_culprit",
+    "calder_hidden_transport_role",
+    "cresthaven",
+    "nimera_permanent_recruitment_before_beat_8"
+  ],
+  "forbidden_presentation": [
+    "biometric_key",
+    "blood_key",
+    "card_used_as_barrier_key",
+    "royal_seal_used_as_barrier_key",
+    "password_or_credential_solution",
+    "digital_interface_language",
+    "nimera_rescue_damsel_staging",
+    "triumphal_destiny_reveal",
+    "mandatory_combat"
+  ],
+  "production_cost_ceiling": "economical_barrier_scene_plus_short_card_inspection_and_environment_handoff"
+}
