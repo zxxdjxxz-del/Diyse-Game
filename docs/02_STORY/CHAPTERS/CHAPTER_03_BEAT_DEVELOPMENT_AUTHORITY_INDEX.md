@@ -13,7 +13,8 @@
 - **Beat 8 — Archive Scribe Engine / Nimera Joins:** `CHAPTER_03_BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_WORKING.md`
 - **Beat 9 — Buried Collections / Dormant Card Research:** `CHAPTER_03_BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_WORKING.md` — current Beat-9 authority; subject to the naming lock below.
 - **Beat 10 — The Recent Reader / Hall of Seals:** `CHAPTER_03_BEAT_10_RECENT_READER_HALL_OF_SEALS_WORKING.md`
-- **Beats 11–15:** expanded skeleton currently remains in `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md` until individually developed.
+- **Beat 11 — First Command Warden:** `CHAPTER_03_BEAT_11_FIRST_COMMAND_WARDEN_WORKING.md`
+- **Beats 12–15:** expanded skeleton currently remains in `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md` until individually developed.
 
 ## Active Chapter-3 party-state correction
 `CHAPTER_03_OLD_CITY_MAEVRA_MIRENA_CONTINUITY_LOCK.md` is active authority for the Old City split.
@@ -28,9 +29,9 @@ This correction supersedes older Chapter-3 and Beat-5 wording that places Maevra
 ## Active Old City presentation correction
 `CHAPTER_03_OLD_CITY_FANTASY_PRESENTATION_LOCK.md` is active across Beats 5–12.
 
-Ancient Diysean material must read as **physical magical fantasy craft**, not computers/software/networks. Favor carved stone, fitted metal, sigils, wards, seals, moving shutters, archive rings, enchanted record chambers, scribing mechanisms, old books/manuscripts, physical cases, and visible magical craft.
+Ancient Diysean material must read as **physical magical fantasy craft**, not computers/software/networks. Favor carved stone, fitted metal, sigils, wards, seals, moving shutters, archive rings, enchanted record chambers, scribing mechanisms, old books/manuscripts, physical cases, guardian constructs, physical inscriptions, and visible magical craft.
 
-Retire presentation language built around interfaces, permissions, routing protocols, classification engines, system states, credentials, nodes, or software-like recognition.
+Retire presentation language built around interfaces, permissions, routing protocols, classification engines, system states, credentials, nodes, software-like recognition, scanning, readouts, or terminal-style messages.
 
 ## Active Card discovery-site naming correction
 `CHAPTER_03_CARD_DISCOVERY_SITE_NAMING_LOCK.md` is active.
@@ -64,7 +65,24 @@ The party now learns that:
 
 Beat 10 does **not** reveal the reader's identity, the exact seal-imbuing process, the culprit/method behind Lysara's impossible orders, Prime/Might/Last Sentinel, or the ancient seal-working chamber.
 
-The party ends Beat 10 at the threshold of older protected command chambers.
+The party ends Beat 10 at the threshold of older protected civic / command chambers.
+
+## Active Beat-11 direction
+Beat 11 takes the four-person party into those older protected chambers and culminates in the **First Command Warden**.
+
+Current mandatory outcomes:
+- the Warden is an Ancient magical guardian construct bound to a physical civic / command chamber, not a computer-like security device;
+- the recent reader's trail becomes uncertain near the Warden threshold and their identity remains unknown;
+- the Warden is defeated in a major story boss encounter, currently one HP bar under story authority;
+- after the Warden settles, **physical Ancient lettering in the chamber** reveals the translated phrases:
+  - **PREVIOUS ERROR**
+  - **LAST SENTINEL CONFIRMED**
+- these phrases are not presented as a screen / terminal / system log;
+- immediately after that inscription is revealed, Cyanis's Card resolves from its earlier unstable green-and-gold behavior into a stable **deep Ruby** state;
+- the timing strongly links the Card to the Ancient phrase but does not yet prove Prime, Might, definitive Last Sentinel identity, bearer status, recovery, awakening, or gameplay use;
+- defeating the Warden opens the protected inner way without using the Ruby Card as a key.
+
+The untouched inner chamber remains Beat 12's domain.
 
 ## Rule
 When a beat has a dedicated developed working packet listed here, that packet is the current structural-development authority for that beat. The mandatory chapter-level story authority remains `CHAPTER_03.md`, plus:
@@ -86,5 +104,6 @@ Exact dialogue remains separate and must be generated later through the current 
 - Beat 8 — DEVELOPED; Nimera permanently joins; subject to fantasy-presentation lock
 - Beat 9 — DEVELOPED — **buried-library research revision is current authority**, with Westways discovery-site naming lock active
 - Beat 10 — DEVELOPED — **The Recent Reader / Hall of Seals**
-- Beat 11 — NEXT DEVELOPMENT TARGET: **First Command Warden**
-- Beats 12–15 — expanded skeleton only
+- Beat 11 — DEVELOPED — **First Command Warden**
+- Beat 12 — NEXT DEVELOPMENT TARGET: **Ancient Seal-Working Chamber / Northern Route**
+- Beats 13–15 — expanded skeleton only
