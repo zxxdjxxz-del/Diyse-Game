@@ -7,6 +7,7 @@ The mandatory story reaches Cresthaven through:
 - `CHAPTER_03_BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_WORKING.md`
 - `CHAPTER_03_CRESTHAVEN_ARCHIVE_HUNT_UNLOCK_LOCK.md`
 - `CHAPTER_03_CLEANUP_OVERLAY.md`
+- `REGIONAL_HUNTS_CH1_CH3_CLEANUP_ACCESS_LOCK.md`
 
 After the Beat-15 handoff:
 - Mirena and Maevra return to Caelora;
@@ -73,7 +74,8 @@ Dialogue-generation brief:
 ---
 
 ## Regional Hunt #3 — Archive Judgment Engine
-**Status:** STORY UNLOCK LOCKED; DETAILED HUNT STORY-FLOW DEVELOPMENT IS NEXT
+**Status:** STORY / ACCESS REQUIREMENT COMPLETE  
+**Current authority:** `CHAPTER_03_CRESTHAVEN_ARCHIVE_HUNT_UNLOCK_LOCK.md` + `REGIONAL_HUNTS_CH1_CH3_CLEANUP_ACCESS_LOCK.md`
 
 Current unlock authority:
 - during the Cresthaven handoff, Mirena tells the party that continuing Crown work in the Old City Archives has uncovered / opened a previously inaccessible passage;
@@ -83,17 +85,29 @@ Current unlock authority:
 - normal Hunt party is **Cyanis + Ilyra + Torren + Nimera**;
 - Mirena and Maevra do not accompany the Hunt as combatants / default travelers.
 
-Current story firewall:
-- Hunt must not reveal the recent reader identity;
-- must not reveal the seal-copying practitioner identity;
-- must not reveal Calder's hidden role;
-- must not solve the Queen-seal mechanism;
-- must not solve `PREVIOUS ERROR`;
-- must not recover / awaken Last Sentinel;
-- must not explain why the Yahtrean Crest appears on Ancient material;
-- must not become a replacement mandatory Chapter-3 ending.
+### Scope lock
+No separate Hunt story-flow packet is required.
 
-Detailed Hunt framing, branch flow, boss lead-in, aftermath, and reward-context structure remain to be developed separately from exact combat stats / actions.
+The intended content model is:
+> **Mirena unlocks the new passage → player returns to the Old City Archives → additional Archive branch / area → Archive Judgment Engine boss → rewards**
+
+The Hunt may contain ordinary exploration, environmental obstacles, side paths, treasure, and combat under area / encounter authority. Dialogue can be sparse or absent.
+
+Exact Hunt rewards remain deferred to item / equipment / reward-placement authority.
+
+### Story firewall
+The Hunt must not reveal:
+- recent reader identity;
+- seal-copying practitioner identity;
+- Calder's hidden role;
+- the Queen-seal mechanism / culprit;
+- `PREVIOUS ERROR`;
+- Last Sentinel recovery / awakening;
+- why the Yahtrean Crest appears on Ancient material;
+- Cresthaven's complete ancient purpose;
+- the ultimate northern-route destination.
+
+The Hunt is optional combat / exploration content, not a replacement Chapter-3 ending or a hidden mandatory lore chapter.
 
 ---
 
@@ -102,7 +116,8 @@ Detailed Hunt framing, branch flow, boss lead-in, aftermath, and reward-context 
 - Archive-passage Hunt unlock — LOCKED
 - H01 — **DEVELOPED STRUCTURALLY**
 - H03 — **AGENT-DRIVEN STRUCTURE LOCKED; ACTUAL SCENE TO BE DISCOVERED DURING DIALOGUE REHEARSAL**
-- Regional Hunt #3 detailed story flow — **NEXT DEVELOPMENT TARGET**
-- Chapter-3 cleanup-flow audit — PENDING
+- Regional Hunt #3 story / access layer — **COMPLETE**
+- Regional Hunt #3 remaining work — **AREA DESIGN + ENCOUNTER IMPLEMENTATION + REWARD PLACEMENT LATER**
+- Chapter-3 cleanup-flow audit — NEXT
 - final `CHAPTER_03.md` consolidation — PENDING
-- Chapter-3 Agent-Brain dialogue production — PENDING until structural cleanup content is ready
+- Chapter-3 Agent-Brain dialogue production — PENDING until cleanup audit / consolidation is ready
