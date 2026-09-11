@@ -14,7 +14,7 @@
 - **Beat 9 — Buried Collections / Dormant Card Research:** `CHAPTER_03_BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_WORKING.md` — current Beat-9 authority; subject to the naming lock below.
 - **Beat 10 — The Recent Reader / Hall of Seals:** `CHAPTER_03_BEAT_10_RECENT_READER_HALL_OF_SEALS_WORKING.md`
 - **Beat 11 — First Command Warden:** `CHAPTER_03_BEAT_11_FIRST_COMMAND_WARDEN_WORKING.md`, with the active scan and final-message corrections below superseding conflicting wording.
-- **Beat 12 — Ancient Seal-Working Chamber / Northern Route:** `CHAPTER_03_BEAT_12_ANCIENT_SEAL_WORKING_CHAMBER_NORTHERN_ROUTE_WORKING.md`
+- **Beat 12 — Sealwright Chamber / The Copying Attempts:** original Beat-12 packet plus `CHAPTER_03_BEAT_12_SEAL_COPYING_CORRECTION.md`; the correction supersedes conflicting route-map and seal-copying wording.
 - **Beats 13–15:** expanded skeleton currently remains in `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md` until individually developed.
 
 ## Active Chapter-3 party-state correction
@@ -64,7 +64,7 @@ The party now learns that:
 - historical Westways material had already been compared against old authority-seal finds;
 - the recent reader reached this same Hall of Seals and followed the oldest references deeper.
 
-Beat 10 does **not** reveal the reader's identity, the exact seal-imbuing process, the culprit/method behind Lysara's impossible orders, Prime/Might/Last Sentinel, or the ancient seal-working chamber.
+Beat 10 does **not** reveal the reader's identity, the exact seal-imbuing process, the culprit/method behind Lysara's impossible orders, Prime/Might/Last Sentinel, or the later seal-copying attempts.
 
 The party ends Beat 10 at the threshold of older protected civic / command chambers.
 
@@ -90,23 +90,31 @@ The scan does not yet prove what the Warden was looking for or whether it recogn
 
 The final message does not yet prove Prime, Might, definitive Last Sentinel identity, bearer status, recovery, awakening, or gameplay use.
 
-## Active Beat-12 direction
-Beat 12 enters the protected chamber beyond the Warden.
+## Active Beat-12 correction
+`CHAPTER_03_BEAT_12_SEAL_COPYING_CORRECTION.md` supersedes conflicting wording in the original Beat-12 packet.
+
+The current Beat-12 title is:
+> **Beat 12 — Sealwright Chamber / The Copying Attempts**
 
 Current mandatory outcomes:
-- the chamber reads as an **Ancient sealwright / authority workshop**, not a laboratory or computer room;
-- the party finds a preserved **physical Diysean authority seal**;
-- the surrounding worktables, engraved rings, seal-rests, inlay channels, residue, tools, and matching construction let the group conclude that Diysean craft could **imbue enduring magical authority into a physical seal**;
-- this proves the seal itself could carry authority between uses rather than requiring its owner to consciously cast through it every time;
-- this strongly supports the idea that Yahtrea's magical royal-seal tradition has roots much older than modern Crown practice;
-- it does **not** prove copying, remote invocation, duplication, transfer between seals, the exact age / lineage of Lysara's current seal, or the method used on the suspect transport orders;
+- **no new map or route relief is found in Beat 12**;
+- the party already has the earlier clue that the Ancient route continues north, and that clue remains active without being rediscovered here;
+- the chamber is an Ancient Diysean sealwright / authority workshop built from physical magical craft;
+- someone has been in the room before the party and has been **practicing seal reproduction**;
+- recent / comparatively recent practice evidence includes seal blanks, impressions, test parchment or wax/clay pieces, matrices, magical scorching / residue, and repeated attempts that become progressively more accurate;
+- the progression moves from **Ancient Diysean seals → older Yahtrean seals → seals on royal documents → repeated attempts at the Crest of Yahtrea**;
+- **the Crest of Yahtrea is the Yahtrean royal seal**;
+- reproducing the visible Crest and reproducing the royal seal's genuine magical authority response are explicitly separate problems;
+- a skilled person may reproduce the visible mark, but reproducing the true royal magical response would require **extremely powerful magic**;
+- the attempts show evidence of serious magical force being used, but nothing proves that any copied seal ever reproduced the genuine royal response;
+- the party knows of **no established historical case** of anyone successfully reproducing the true Yahtrean royal seal response through a duplicate;
+- someone was therefore deliberately trying to learn how to reproduce the royal seal, but the party cannot conclude that the person succeeded or authored the suspect transport orders;
+- the practitioner's identity remains unknown;
+- the practitioner is not proven to be Calder;
+- the practitioner and Beat 9–10 recent reader are increasingly plausible as the same person, but not definitively proven identical;
 - Cyanis's Card remains stable deep Ruby with no new transformation, Prime manifestation, Might identification, or gameplay unlock;
-- the recent reader remains unidentified and there is no conclusive proof they entered the protected inner chamber;
-- the party finds a large **physical carved route relief** showing an important **unnamed intermediate site**;
-- a major route clearly continues **north beyond that site**;
-- Torren copies the surviving geography for comparison against modern Crown maps;
-- the party does **not** identify the unnamed site as Cresthaven while still inside the Old City;
-- Beat 12 ends with enough physical evidence that returning to Caelora is the rational next step.
+- the exact method behind Lysara's impossible seal response remains unresolved;
+- Beat 12 ends with enough dangerous evidence to justify returning to Caelora.
 
 ## Rule
 When a beat has a dedicated developed working packet listed here, that packet is the current structural-development authority for that beat, subject to any later explicit correction packets listed here. The mandatory chapter-level story authority remains `CHAPTER_03.md`, plus:
@@ -115,7 +123,8 @@ When a beat has a dedicated developed working packet listed here, that packet is
 - `CHAPTER_03_OLD_CITY_FANTASY_PRESENTATION_LOCK.md` where it supersedes computer-like Old City presentation language;
 - `CHAPTER_03_CARD_DISCOVERY_SITE_NAMING_LOCK.md` where it supersedes generic discovery-site wording;
 - `CHAPTER_03_BEAT_11_WARDEN_SCAN_CORRECTION.md` for Warden activation / scan behavior;
-- `CHAPTER_03_BEAT_11_WARDEN_FINAL_MESSAGE_CORRECTION.md` for the shutdown-message sequence.
+- `CHAPTER_03_BEAT_11_WARDEN_FINAL_MESSAGE_CORRECTION.md` for the shutdown-message sequence;
+- `CHAPTER_03_BEAT_12_SEAL_COPYING_CORRECTION.md` for the Beat-12 seal-copying evidence and removal of the new-map discovery.
 
 Exact dialogue remains separate and must be generated later through the current Agent-Brain rehearsal-first pipeline.
 
@@ -131,6 +140,6 @@ Exact dialogue remains separate and must be generated later through the current 
 - Beat 9 — DEVELOPED — **buried-library research revision is current authority**, with Westways discovery-site naming lock active
 - Beat 10 — DEVELOPED — **The Recent Reader / Hall of Seals**
 - Beat 11 — DEVELOPED — **First Command Warden**, with active scan + final-message corrections
-- Beat 12 — DEVELOPED — **Ancient Seal-Working Chamber / Northern Route**
+- Beat 12 — DEVELOPED — **Sealwright Chamber / The Copying Attempts**, with active no-new-map + royal-seal-copying correction
 - Beat 13 — NEXT DEVELOPMENT TARGET: **Four Answers, Not One**
 - Beats 14–15 — expanded skeleton only
