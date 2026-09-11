@@ -14,7 +14,8 @@
 - **Beat 9 — Buried Collections / Dormant Card Research:** `CHAPTER_03_BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_WORKING.md` — current Beat-9 authority; subject to the naming lock below.
 - **Beat 10 — The Recent Reader / Hall of Seals:** `CHAPTER_03_BEAT_10_RECENT_READER_HALL_OF_SEALS_WORKING.md`
 - **Beat 11 — First Command Warden:** `CHAPTER_03_BEAT_11_FIRST_COMMAND_WARDEN_WORKING.md`, with the active scan and final-message corrections below superseding conflicting wording.
-- **Beats 12–15:** expanded skeleton currently remains in `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md` until individually developed.
+- **Beat 12 — Ancient Seal-Working Chamber / Northern Route:** `CHAPTER_03_BEAT_12_ANCIENT_SEAL_WORKING_CHAMBER_NORTHERN_ROUTE_WORKING.md`
+- **Beats 13–15:** expanded skeleton currently remains in `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md` until individually developed.
 
 ## Active Chapter-3 party-state correction
 `CHAPTER_03_OLD_CITY_MAEVRA_MIRENA_CONTINUITY_LOCK.md` is active authority for the Old City split.
@@ -89,7 +90,23 @@ The scan does not yet prove what the Warden was looking for or whether it recogn
 
 The final message does not yet prove Prime, Might, definitive Last Sentinel identity, bearer status, recovery, awakening, or gameplay use.
 
-The untouched inner chamber remains Beat 12's domain.
+## Active Beat-12 direction
+Beat 12 enters the protected chamber beyond the Warden.
+
+Current mandatory outcomes:
+- the chamber reads as an **Ancient sealwright / authority workshop**, not a laboratory or computer room;
+- the party finds a preserved **physical Diysean authority seal**;
+- the surrounding worktables, engraved rings, seal-rests, inlay channels, residue, tools, and matching construction let the group conclude that Diysean craft could **imbue enduring magical authority into a physical seal**;
+- this proves the seal itself could carry authority between uses rather than requiring its owner to consciously cast through it every time;
+- this strongly supports the idea that Yahtrea's magical royal-seal tradition has roots much older than modern Crown practice;
+- it does **not** prove copying, remote invocation, duplication, transfer between seals, the exact age / lineage of Lysara's current seal, or the method used on the suspect transport orders;
+- Cyanis's Card remains stable deep Ruby with no new transformation, Prime manifestation, Might identification, or gameplay unlock;
+- the recent reader remains unidentified and there is no conclusive proof they entered the protected inner chamber;
+- the party finds a large **physical carved route relief** showing an important **unnamed intermediate site**;
+- a major route clearly continues **north beyond that site**;
+- Torren copies the surviving geography for comparison against modern Crown maps;
+- the party does **not** identify the unnamed site as Cresthaven while still inside the Old City;
+- Beat 12 ends with enough physical evidence that returning to Caelora is the rational next step.
 
 ## Rule
 When a beat has a dedicated developed working packet listed here, that packet is the current structural-development authority for that beat, subject to any later explicit correction packets listed here. The mandatory chapter-level story authority remains `CHAPTER_03.md`, plus:
@@ -114,5 +131,6 @@ Exact dialogue remains separate and must be generated later through the current 
 - Beat 9 — DEVELOPED — **buried-library research revision is current authority**, with Westways discovery-site naming lock active
 - Beat 10 — DEVELOPED — **The Recent Reader / Hall of Seals**
 - Beat 11 — DEVELOPED — **First Command Warden**, with active scan + final-message corrections
-- Beat 12 — NEXT DEVELOPMENT TARGET: **Ancient Seal-Working Chamber / Northern Route**
-- Beats 13–15 — expanded skeleton only
+- Beat 12 — DEVELOPED — **Ancient Seal-Working Chamber / Northern Route**
+- Beat 13 — NEXT DEVELOPMENT TARGET: **Four Answers, Not One**
+- Beats 14–15 — expanded skeleton only
