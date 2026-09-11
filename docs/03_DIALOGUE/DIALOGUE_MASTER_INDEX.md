@@ -38,7 +38,7 @@ Owning detailed lock: `AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`.
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION** — `PRODUCTION/CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch1 | **COMPLETE CURRENT WORKING PRODUCTION** — `PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch2 | pending current Dialogue Engine production **under the locked Ch0–1 Agent Brain pipeline** |
-| Ch3 | **ACTIVE REHEARSAL-FIRST PRODUCTION** — Beats 1–6 Draft A complete; cumulative manuscript at `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
+| Ch3 | **ACTIVE REHEARSAL-FIRST PRODUCTION** — standalone Beats 1–6 Draft A complete; cumulative readable manuscript currently assembled through Beat 5 at `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch4 | pending current Dialogue Engine production under the locked Ch0–1 Agent Brain pipeline and current restructured story authority |
 | Ch5 | beat rewrite required before dialogue generation; subsequent dialogue uses the locked Ch0–1 Agent Brain pipeline |
 | Ch6 | macro/beat authority; dialogue pending under the locked Ch0–1 Agent Brain pipeline |
@@ -92,8 +92,12 @@ The obsolete Chapter-1 `LINE_COMPLETE` S007–S011/C03–C05 set and the superse
 
 ## Chapter 3 current production
 
-Current production manuscript:
+Current cumulative readable manuscript:
 `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+
+Current cumulative assembly coverage:
+- Beats 1–5 are assembled in the cumulative manuscript.
+- Beat 6 is current as its standalone production draft and remains authoritative even before the next cumulative assembly pass.
 
 Current production status:
 - Beat 1 — **Caelora Gate / Arrival — Draft A**;
