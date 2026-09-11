@@ -1,0 +1,101 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT04_SEAL_NOT_USED",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 4 — The Seal That Wasn't Used",
+  "production_ready": false,
+  "participants": ["lysara", "mirena", "othmar", "maevra", "cyanis", "ilyra", "torren"],
+  "scene_purpose": "Inspect Queen Lysara's actual personal royal seal under normal Crown procedure; establish that the physical seal is present, intact, recognized, and still answers normally for Lysara; compare legitimate and suspect authority responses; review custody and recent legitimate use without manufacturing a guilty palace suspect; establish that no simple documented theft-and-return window explains the suspect orders; preserve both unauthorized physical access and unknown nonstandard magical invocation as unproven possibilities; identify Nimera Pellan in the Old City archives as the next useful Card expert; authorize controlled comparison evidence and lawful Old City access; then split the investigation so Maevra stays with Mirena while Cyanis, Ilyra, and Torren go to find Nimera.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
+      "sections": ["Beat 4 — The Seal That Wasn't Used"],
+      "role": "current_consolidated_chapter_3_beat_4_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_BEAT_04_SEAL_NOT_USED_WORKING.md",
+      "whole_file": true,
+      "role": "supporting_detailed_beat_4_development"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_OLD_CITY_MAEVRA_MIRENA_CONTINUITY_LOCK.md",
+      "whole_file": true,
+      "role": "maevra_stays_with_mirena_after_beat_4"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md",
+      "whole_file": true,
+      "role": "mandatory_rehearsal_first_agent_brain_pipeline"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring_and_reductive_staging"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "current_field_and_triggered_scene_presentation"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Caelora palace restricted royal verification / seal-custody room",
+    "area_phase": "controlled_forensic_review",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "runtime_note": "Move out of the audience chamber into a practical secure verification space. This is normal Crown procedure under abnormal circumstances, not a sinister vault. Appropriate staff may be physically present but need not become voiced suspects. Use portraits + dialogue box with simple field placement and only the minimum physical actions required to produce/verify the seal and records."
+  },
+  "current_floor_state": {
+    "party_state": "cyanis_ilyra_torren_permanent_combat_trio_with_nonplayable_maevra_present_until_end_of_beat",
+    "card_state": "recovered_card_physically_carried_by_cyanis_by_lysaras_explicit_cautious_decision",
+    "suspect_order_state": "preserved_evidence_with_confirmed_genuine_magical_response_of_lysaras_personal_royal_seal",
+    "actual_seal_state": "not_yet_inspected_in_scene",
+    "culprit_state": "unknown",
+    "dialogue_presentation": "portraits_plus_dialogue_box_with_simple_secure_room_field_placement"
+  },
+  "required_story_beats": [
+    "The actual physical personal royal seal is produced under normal Crown custody procedure and recognized as the current real seal.",
+    "The seal is physically present and intact; there is no obvious crude replacement or damage explanation.",
+    "Known legitimate recent royal documents and/or a controlled verification establish that the actual seal still answers normally for Lysara.",
+    "The suspect Card-transport orders and legitimate comparison material show the same recognized core royal magical authority character strongly enough that ordinary visual forgery remains inadequate.",
+    "Custody records, recent legitimate uses, access, and relevant staff records are reviewed without treating proximity to the seal as guilt.",
+    "No simple documented theft-and-return window is found; custody is not declared infallible, so covert physical access remains possible.",
+    "Unknown nonstandard magical invocation also remains possible, but is not established as fact or favored over physical access.",
+    "The Queen's actual seal remains secured in Crown custody and does not travel with the party.",
+    "Mirena identifies Nimera Pellan as a leading Card scholar currently working in the Old City archives.",
+    "The Crown authorizes bounded seal-comparison evidence and lawful access to the restricted Old City archive areas.",
+    "At the end of the beat, Maevra stays in Caelora with Mirena on the royal-seal/Crown-record investigation while Cyanis, Ilyra, and Torren go to the Old City to find Nimera."
+  ],
+  "forbidden_reveals": [
+    "calder_hidden_transport_order_role",
+    "calder_motive",
+    "seal_culprit",
+    "proof_of_unauthorized_physical_access",
+    "proof_of_remote_or_nonstandard_invocation",
+    "exact_unauthorized_seal_mechanism",
+    "royal_seal_is_ancient_or_diysean",
+    "magical_authority_imbuing_mechanism",
+    "proven_connection_between_card_and_seal_anomaly",
+    "why_card_was_targeted",
+    "bearer_confirmation",
+    "prime_identity",
+    "might_identification",
+    "last_sentinel",
+    "nimera_future_party_role",
+    "cresthaven",
+    "meaning_of_northern_crest_marked_structure"
+  ],
+  "forbidden_presentation": [
+    "sinister_palace_vault_staging",
+    "random_accusation_of_seal_staff",
+    "palace_chase_or_confession",
+    "using_cyaniss_card_as_a_seal_test_object",
+    "recreating_the_suspect_transport_order_as_an_experiment",
+    "digital_or_interface_style_authentication",
+    "court_micro_choreography",
+    "everyone_restating_the_same_two_possibilities"
+  ],
+  "production_cost_ceiling": "economical_secure_verification_portrait_scene"
+}
