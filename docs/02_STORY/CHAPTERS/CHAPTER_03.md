@@ -22,7 +22,7 @@ Important supporting locks include:
 - `CHAPTER_03_CRESTHAVEN_ARCHIVE_HUNT_UNLOCK_LOCK.md`
 - `CHAPTER_03_CLEANUP_OVERLAY.md`
 - `CHAPTER_03_CLEANUP_CONTENT_AUTHORITY_INDEX.md`
-- global Regional Hunt structure under `09_ENEMIES_AND_ENCOUNTERS/REGIONAL_HUNTS/REGIONAL_HUNT_STRUCTURE_GLOBAL_LOCK.md`.
+- global Regional Hunt structure under `09_ENEMIES_AND_ENCOUNTERS/REGIONAL_HUNTS/REGIONAL_HUNT_GLOBAL_STRUCTURE_LOCK.md`.
 
 Exact dialogue is **not** authored in this file.
 
