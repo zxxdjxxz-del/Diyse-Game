@@ -15,6 +15,7 @@
 - **Beat 10 — The Recent Reader / Hall of Seals:** `CHAPTER_03_BEAT_10_RECENT_READER_HALL_OF_SEALS_WORKING.md`
 - **Beat 11 — First Command Warden:** `CHAPTER_03_BEAT_11_FIRST_COMMAND_WARDEN_WORKING.md`, with the active scan and final-message corrections below superseding conflicting wording.
 - **Beat 12 — Sealwright Chamber / The Copying Attempts:** original Beat-12 packet plus `CHAPTER_03_BEAT_12_SEAL_COPYING_CORRECTION.md`; the correction supersedes conflicting route-map and seal-copying wording.
+- **Beat 12 → Beat 13 transition:** `CHAPTER_03_BEAT_12_TO_13_ROYAL_MEETING_TRANSITION_LOCK.md`.
 - **Beats 13–15:** expanded skeleton currently remains in `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md` until individually developed.
 
 ## Active Chapter-3 party-state correction
@@ -114,7 +115,21 @@ Current mandatory outcomes:
 - the practitioner and Beat 9–10 recent reader are increasingly plausible as the same person, but not definitively proven identical;
 - Cyanis's Card remains stable deep Ruby with no new transformation, Prime manifestation, Might identification, or gameplay unlock;
 - the exact method behind Lysara's impossible seal response remains unresolved;
-- Beat 12 ends with enough dangerous evidence to justify returning to Caelora.
+- Beat 12 ends once the room has been fully examined and the player is ready to conclude the Old City investigation.
+
+## Active Beat 12 → Beat 13 transition
+`CHAPTER_03_BEAT_12_TO_13_ROYAL_MEETING_TRANSITION_LOCK.md` is mandatory.
+
+Once the player chooses to **leave the sealwright room / conclude the investigation**:
+- the Old City field section ends immediately;
+- there is **no playable return traversal** through the Archive;
+- no additional exit encounter, puzzle, or exterior-arrival beat is inserted;
+- the game cuts directly to a **royal meeting upstairs in Caelora**;
+- the meeting opens with **Queen Lysara Ceryth** and **Crown Princess Mirena Ceryth** receiving the returning party;
+- Cyanis, Ilyra, Torren, and Nimera are present;
+- Maevra may re-enter physically here, consistent with her having remained in Caelora with Mirena during the Old City investigation.
+
+The royal meeting is therefore the immediate opening state of Beat 13.
 
 ## Rule
 When a beat has a dedicated developed working packet listed here, that packet is the current structural-development authority for that beat, subject to any later explicit correction packets listed here. The mandatory chapter-level story authority remains `CHAPTER_03.md`, plus:
@@ -124,7 +139,8 @@ When a beat has a dedicated developed working packet listed here, that packet is
 - `CHAPTER_03_CARD_DISCOVERY_SITE_NAMING_LOCK.md` where it supersedes generic discovery-site wording;
 - `CHAPTER_03_BEAT_11_WARDEN_SCAN_CORRECTION.md` for Warden activation / scan behavior;
 - `CHAPTER_03_BEAT_11_WARDEN_FINAL_MESSAGE_CORRECTION.md` for the shutdown-message sequence;
-- `CHAPTER_03_BEAT_12_SEAL_COPYING_CORRECTION.md` for the Beat-12 seal-copying evidence and removal of the new-map discovery.
+- `CHAPTER_03_BEAT_12_SEAL_COPYING_CORRECTION.md` for the Beat-12 seal-copying evidence and removal of the new-map discovery;
+- `CHAPTER_03_BEAT_12_TO_13_ROYAL_MEETING_TRANSITION_LOCK.md` for the direct player-choice transition from the Old City to the royal debrief.
 
 Exact dialogue remains separate and must be generated later through the current Agent-Brain rehearsal-first pipeline.
 
@@ -141,5 +157,6 @@ Exact dialogue remains separate and must be generated later through the current 
 - Beat 10 — DEVELOPED — **The Recent Reader / Hall of Seals**
 - Beat 11 — DEVELOPED — **First Command Warden**, with active scan + final-message corrections
 - Beat 12 — DEVELOPED — **Sealwright Chamber / The Copying Attempts**, with active no-new-map + royal-seal-copying correction
+- Beat 12 → 13 transition — **LOCKED: choose to leave → cut directly to Queen Lysara + Mirena royal meeting upstairs in Caelora**
 - Beat 13 — NEXT DEVELOPMENT TARGET: **Four Answers, Not One**
 - Beats 14–15 — expanded skeleton only
