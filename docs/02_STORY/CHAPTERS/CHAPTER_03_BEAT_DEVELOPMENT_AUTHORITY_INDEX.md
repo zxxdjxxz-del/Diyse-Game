@@ -12,7 +12,8 @@
 - **Beat 7 — Ancient Barrier / First Cooperation:** `CHAPTER_03_BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_WORKING.md`
 - **Beat 8 — Archive Scribe Engine / Nimera Joins:** `CHAPTER_03_BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_WORKING.md`
 - **Beat 9 — Buried Collections / Dormant Card Research:** `CHAPTER_03_BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_WORKING.md` — current Beat-9 authority; subject to the naming lock below.
-- **Beats 10–15:** expanded skeleton currently remains in `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md` until individually developed.
+- **Beat 10 — The Recent Reader / Hall of Seals:** `CHAPTER_03_BEAT_10_RECENT_READER_HALL_OF_SEALS_WORKING.md`
+- **Beats 11–15:** expanded skeleton currently remains in `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md` until individually developed.
 
 ## Active Chapter-3 party-state correction
 `CHAPTER_03_OLD_CITY_MAEVRA_MIRENA_CONTINUITY_LOCK.md` is active authority for the Old City split.
@@ -50,10 +51,20 @@ Beat 9 is a substantial buried-library research sequence built around four conne
 
 The beat ends after the party finds evidence that **someone recently researched the same cluster of subjects**, including still-open books / manuscripts concerning the Diysean ruins in the Westways.
 
-The former Beat-10 working title **Command Route / Authority Architecture** is retired.
+## Active Beat-10 direction
+Beat 10 follows the unknown recent reader's citation / research trail into the **Hall of Seals**.
 
-The next active title is:
-> **Beat 10 — The Recent Reader / Hall of Seals**
+The party now learns that:
+- the recent reader was deliberately cross-referencing dormant Cards, green-and-gold Card light, the Westways Diysean ruins, and magical seal traditions;
+- historical Yahtrean working royal seals could retain magical authority in the physical seal itself between uses;
+- specialized seal-keeper renewal / maintenance traditions existed but are incompletely preserved;
+- comparable physical authority-seal ideas existed in Ancient Diysean contexts before Yahtrea;
+- historical Westways material had already been compared against old authority-seal finds;
+- the recent reader reached this same Hall of Seals and followed the oldest references deeper.
+
+Beat 10 does **not** reveal the reader's identity, the exact seal-imbuing process, the culprit/method behind Lysara's impossible orders, Prime/Might/Last Sentinel, or the ancient seal-working chamber.
+
+The party ends Beat 10 at the threshold of older protected command chambers.
 
 ## Rule
 When a beat has a dedicated developed working packet listed here, that packet is the current structural-development authority for that beat. The mandatory chapter-level story authority remains `CHAPTER_03.md`, plus:
@@ -74,5 +85,6 @@ Exact dialogue remains separate and must be generated later through the current 
 - Beat 7 — DEVELOPED, subject to fantasy-presentation lock
 - Beat 8 — DEVELOPED; Nimera permanently joins; subject to fantasy-presentation lock
 - Beat 9 — DEVELOPED — **buried-library research revision is current authority**, with Westways discovery-site naming lock active
-- Beat 10 — NEXT DEVELOPMENT TARGET: **The Recent Reader / Hall of Seals**
-- Beats 11–15 — expanded skeleton only
+- Beat 10 — DEVELOPED — **The Recent Reader / Hall of Seals**
+- Beat 11 — NEXT DEVELOPMENT TARGET: **First Command Warden**
+- Beats 12–15 — expanded skeleton only
