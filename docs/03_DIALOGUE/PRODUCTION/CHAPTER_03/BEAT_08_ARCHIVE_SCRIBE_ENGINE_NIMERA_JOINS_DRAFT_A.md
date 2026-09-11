@@ -1,222 +1,184 @@
 # Chapter 3 — Beat 8
 # Archive Scribe Engine / Nimera Joins
-## DIALOGUE ENGINE PRODUCTION DRAFT A — revised recruitment pass / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN
+
+**Method note:** fresh rehearsal under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The hard outcomes are Scribe Engine combat, Nimera demonstrating combat competence, bounded evidence review, and Nimera becoming a permanent party member. No recruitment conversation or post-fight checklist was prescribed to the Person Agents.
 
 ---
 
-### [STORY TRIGGER — THE DEEPER ARCHIVE ANSWERS]
+### [STORY TRIGGER — THE ARCHIVE ANSWERS]
 
 Resume immediately from Beat 7.
 
-Cyanis, Ilyra, Torren, and Nimera have just entered the newly reopened deeper archive route.
+A record-transfer track shifts ahead. Fitted shutters turn, engraved channels brighten, and articulated scribing arms unfold from a larger recessed mechanism.
 
-Ancient record-transfer fixtures farther ahead continue moving: fitted shutters shift, engraved channels brighten, a suspended archive frame rotates, and articulated scribing arms unfold from a recessed mechanism.
+Torren watches it move.
 
-The motion is deliberate and procedural rather than angry.
+**TORREN:** That's coming this way.
 
-Torren watches the moving track.
+**NIMERA:** Scribe assembly.
 
-**TORREN:** That's coming toward us.
+A second set of arms locks into place.
 
-**NIMERA:** Yes.
+**CYANIS:** Is that good?
 
-A larger central mechanism settles across the route. Stylus arms, record plates, and fitted defensive pieces lock into position.
+**NIMERA:** Usually they don't point things at me.
 
-**CYANIS:** You know what it is?
+One arm snaps forward and strikes the floor where they had been standing.
 
-**NIMERA:** Scribe assembly. Probably.
+**ILYRA:** Move.
 
-A beat.
+Cyanis shifts into combat position.
 
-**NIMERA:** The part currently aiming at us is less probably.
+**CYANIS:** Pellan—
 
-The mechanism gives a sharp physical-magical response. A fitted arm strikes into the floor where the group had been standing.
+Nimera already has her Conduit out and a Card ready.
 
-**ILYRA:** Decision made.
+**NIMERA:** Don't.
 
-Cyanis moves into combat position.
+Cyanis looks at her once, sees what she means, and turns back to the machine.
 
-**CYANIS:** Pellan, back—
+**CYANIS:** Fine.
 
-Nimera is already drawing her Conduit and setting a Card into her working grip.
+**TORREN:** Left arm moves first.
 
-**NIMERA:** No.
+**NIMERA:** Then let's break its handwriting.
 
-Cyanis looks at her.
+### [BATTLE — ARCHIVE SCRIBE ENGINE]
 
-**NIMERA:** I said I could defend myself.
+Nimera enters combat without a recruitment discussion or order.
 
-**TORREN:** She did.
-
-**CYANIS:** Fine. Stay with us.
-
-**NIMERA:** That was the plan.
-
-### [BATTLE START — ARCHIVE SCRIBE ENGINE]
-
-Nimera enters the active battle formation by choice.
-
-**Active combat party:**
+**Active battle formation:**
 - Cyanis
 - Ilyra
 - Torren
 - Nimera
 
-This is the player's first four-person battle using permanent-party characters.
+This is the player's first four-person battle using the current permanent-party characters, though Nimera has not yet formally joined outside the encounter.
 
-Nimera's combat presentation should immediately communicate:
-- practiced Cardweaver technique;
-- Conduit equipment;
-- deliberate Card use;
-- flexible magical problem solving rather than a single-element mage identity.
+Her battle presentation establishes practiced Cardweaver technique, Conduit equipment, and deliberate Card use. Do not stop for a full class tutorial.
 
-Do not pause the battle for a full class tutorial.
+Combat proceeds under encounter authority.
 
-One or two concise tactical calls are enough if implementation wants them.
+### [VICTORY]
 
-Possible first-call shape:
-
-**NIMERA:** Watch the arms, not the center. The center's following them.
-
-Torren tracks the physical motion rather than accepting the claim blindly.
-
-**TORREN:** She's right. Left side moves first.
-
-**ILYRA:** Then don't be there when it does.
-
-Combat proceeds under current encounter authority.
-
-### [VICTORY — LOCAL ENFORCEMENT STOPS]
-
-The Scribe Engine is disabled.
-
-It does not explode. Its active arms lose tension, fitted pieces settle, and the local hostile motion stops while surrounding deeper archive infrastructure remains intact.
+The Scribe Engine is disabled rather than destroyed spectacularly. Its active arms lose tension and the local hostile motion stops. The deeper Archive remains active around it.
 
 A short silence.
 
-**CYANIS:** Everyone good?
+**ILYRA:** Everyone upright?
 
-**ILYRA:** I'm fine.
+**TORREN:** Yes.
 
-**TORREN:** Fine.
+**CYANIS:** Yes.
 
-**NIMERA:** Furious, but fine.
+Nimera is staring at the disabled machine.
 
-**CYANIS:** At the machine?
+**ILYRA:** Pellan.
 
-**NIMERA:** At its filing standards.
+**NIMERA:** What?
 
-Torren looks at the disabled mechanism.
+**ILYRA:** Upright?
 
-**TORREN:** It tried to kill us.
-
-**NIMERA:** Those are separate problems.
-
-### [POST-FIGHT — WHAT THE MACHINE PROVES]
-
-Nimera examines the disabled Scribe Engine without pretending to know its complete original function.
-
-**NIMERA:** Still intact enough to read some of it.
-
-**CYANIS:** Read what?
-
-**NIMERA:** Behavior. Not history.
+**NIMERA:** Yes.
 
 A beat.
 
-**NIMERA:** It resumed when we reopened the route. Then it started enforcing something.
+**NIMERA:** Sorry. It stopped halfway through a stroke.
 
-**TORREN:** Something we failed.
+**TORREN:** It also tried to put the stroke through you.
 
-**NIMERA:** Probably.
+**NIMERA:** I noticed.
+
+### [WHAT THEY ACTUALLY HAVE]
+
+Nimera examines only what remains legible without pretending she can reconstruct the machine's entire historical purpose.
+
+**TORREN:** Know why it attacked?
+
+**NIMERA:** No.
+
+Torren waits.
+
+**NIMERA:** I know reopening the route woke it. I know it changed behavior when we entered. I know breaking those arms stopped the dangerous part.
+
+**TORREN:** That's it?
+
+**NIMERA:** That's what happened.
+
+**TORREN:** Fair.
+
+Nimera looks at him.
+
+**NIMERA:** You're going to be irritating.
 
 **TORREN:** Probably.
 
-Nimera glances at him.
+### [THE CARD AGAIN]
 
-**NIMERA:** Yes. I heard myself.
+Nimera turns to Cyanis.
 
-**ILYRA:** Growth.
+**NIMERA:** Card.
 
-**NIMERA:** Don't ruin it.
+**CYANIS:** You just looked at it.
 
-She checks the mechanism's surviving engraved relationships and physical response points.
+**NIMERA:** Through a barrier. Before this thing woke up.
 
-**NIMERA:** Whatever it expected, we weren't it.
+Cyanis brings it out, still holding it himself.
 
-**CYANIS:** Helpful.
+Nimera compares what she can see in the Card's green-and-gold geometry with the surviving marks and relationships on the disabled machine.
 
-**NIMERA:** More helpful than inventing what it expected.
+She frowns.
 
-### [SECOND CARD EXAMINATION]
+**CYANIS:** Bad?
 
-Nimera turns back to Cyanis.
+**NIMERA:** Inconvenient.
 
-**NIMERA:** Card again.
+**ILYRA:** Difference?
 
-**CYANIS:** Looking or touching?
+**NIMERA:** Bad would be an answer.
 
-**NIMERA:** Looking first. Same rule.
+She looks again.
 
-Cyanis holds it normally for her.
+**NIMERA:** I don't have a clean match.
 
-She compares its current green-and-gold geometry against what she just observed in the barrier and Scribe Engine without claiming common origin.
+**CYANIS:** Between the Card and this?
 
-**NIMERA:** The changes you've described are real changes. Not random flare, not simple damage.
-
-**ILYRA:** Meaning?
-
-**NIMERA:** Meaning it has states.
+**NIMERA:** Yes.
 
 A beat.
 
-**NIMERA:** That is not the same thing as knowing what those states mean.
+**NIMERA:** Which is useful, because I was starting to want one too badly.
 
-**CYANIS:** Prime?
+**ILYRA:** You wanted them connected.
 
-**NIMERA:** No evidence.
+**NIMERA:** I wanted one problem instead of several.
 
-**CYANIS:** Might?
+**TORREN:** World rarely that polite.
 
-**NIMERA:** No evidence.
+**NIMERA:** Apparently.
 
-**TORREN:** Chosen bearer?
+She checks the bounded royal-seal comparison notes they carried down.
 
-**NIMERA:** Still no evidence.
+**NIMERA:** And these still tell me the seal answered. They still don't tell me why.
 
-A beat.
+**CYANIS:** So?
 
-**NIMERA:** This is going well. You're all learning restraint.
+Nimera looks toward the deeper route.
 
-**ILYRA:** Don't sound so disappointed.
+**NIMERA:** So I need older records.
 
-**NIMERA:** I enjoy correcting people. Competence is terrible for morale.
+**TORREN:** Deeper.
 
-She studies the permitted royal-seal comparison material as well.
+**NIMERA:** Unless you've got an older archive in a pocket.
 
-**NIMERA:** Same problem as before.
+**TORREN:** Left it home.
 
-**CYANIS:** Which part?
+**NIMERA:** Tragic.
 
-**NIMERA:** We have meaningful magical answers under conditions we don't understand.
+### [NIMERA HAS ALREADY DECIDED]
 
-She indicates the disabled mechanism, then the comparison notes, then the Card without equating them.
-
-**NIMERA:** Three different things. Maybe three different kinds of magic. Maybe not.
-
-**NIMERA:** The useful common question is still what each one is actually responding to.
-
-**TORREN:** And deeper is where the older answers are.
-
-Nimera looks down the newly accessible route.
-
-**NIMERA:** Older evidence. Answers would be nice.
-
-### [THE CHOICE]
-
-The immediate danger is over.
-
-Nimera gathers her notes, Cards, and the few pieces of field equipment she actually needs, packing them with the assumption that she is leaving the work area rather than settling back into it.
+Nimera begins gathering the few things she needs to continue.
 
 Cyanis notices.
 
@@ -224,17 +186,17 @@ Cyanis notices.
 
 **NIMERA:** You can.
 
-A beat.
-
 **CYANIS:** You're not?
 
 **NIMERA:** No.
 
-She looks down the deeper route.
+She finishes securing her things and looks down the deeper passage.
 
 **NIMERA:** I'm going that way.
 
 **TORREN:** With us.
+
+Nimera looks at him.
 
 **NIMERA:** Are you going somewhere else?
 
@@ -242,59 +204,49 @@ She looks down the deeper route.
 
 **NIMERA:** Then yes.
 
-Ilyra watches Nimera finish packing.
+Ilyra looks toward the upper route, then back to Nimera.
 
-**ILYRA:** You have what you need?
+**ILYRA:** Need anything from upstairs first?
 
-**NIMERA:** Enough.
+**NIMERA:** Eventually.
+
+A beat.
+
+**NIMERA:** Not enough to leave now.
+
+Cyanis accepts that without turning it into a ceremony.
 
 **CYANIS:** All right.
 
-Nimera looks at him.
-
-**NIMERA:** That's it?
-
-**CYANIS:** Were you expecting an oath?
-
-**NIMERA:** Gods, no.
-
-**TORREN:** Good. We don't have one.
-
-**NIMERA:** Excellent.
-
-She shoulders her things and starts toward the deeper route.
+Nimera is already moving.
 
 **NIMERA:** Are we going?
 
-A beat.
+Cyanis looks at Ilyra and Torren.
 
 **CYANIS:** Apparently.
 
 ### [PARTY JOIN]
 
-As the group moves on, implementation may display the standard recruitment confirmation without stopping the scene for a recruitment speech:
+At this natural decision point, implementation may display the standard JRPG confirmation:
 
 **Nimera Pellan joined the party.**
 
-Permanent combat-capable roster is now:
+No additional recruitment speech is required.
+
+Permanent combat-capable roster and active combat party are now:
 - Cyanis
 - Ilyra
 - Torren
 - Nimera
 
-All four occupy the active combat party.
+Maevra remains in Caelora with Mirena and remains non-playable.
 
-No reserve/swap tutorial is required here because the roster size equals the four-person combat cap.
+### [GAMEPLAY HANDOFF]
 
-### [GAMEPLAY HANDOFF — FOUR-PERSON PARTY]
+Player control resumes with the permanent four-person party.
 
-Player control resumes with the first permanent four-person party.
-
-The newly accessible deeper Archive remains active but not universally hostile.
-
-Nimera accompanies the group as a permanent party member, not as an escort NPC.
-
-The next objective is to investigate the deeper archive for comparative Card, authority, and record evidence.
+The next objective is to investigate the deeper buried collections for older Card, seal, authority, and archive evidence.
 
 Transition into:
 
@@ -304,16 +256,9 @@ Transition into:
 
 ## Beat-8 production notes
 
-- the Scribe Engine is an Ancient archive/transcription/enforcement mechanism, not a villain with dialogue or personality.
-- its activation follows directly from Beat 7 reopening the deeper route.
-- Nimera enters combat voluntarily before any formal recruitment discussion.
-- her first battle communicates Cardweaver + Conduit + Card use without pausing for a class tutorial.
-- the battle establishes the first four-person permanent-member combat formation.
-- defeating the Scribe Engine stops only the local hostile mechanism; it does not shut down the Old City.
-- Nimera's post-fight analysis stays evidence-bound: she can identify organized state change without identifying Prime, Might, Last Sentinel, bearer or ownership.
-- the Card, Scribe Engine and royal-seal anomaly are compared methodologically, not declared to use the same magic.
-- recruitment is shown rather than explained: Nimera packs for continued field work, states where she is going, and naturally folds herself into the group's next move.
-- no character explains that she is free to choose, lists her reasons for joining, or summarizes the recruitment thesis aloud.
-- the standard party-join UI may confirm the game-system result after her decision is already obvious from behavior.
-- no future subclass material is exposed.
-- Beat 9 begins with Cyanis + Ilyra + Torren + Nimera as the permanent active party.
+- This is a fresh Agent-Brain rerun replacing the earlier checklist-driven post-fight and recruitment structure.
+- Nimera joins the battle because the live situation makes that natural; nobody asks her to prove she can fight.
+- post-fight dialogue stays with what the group actually observed instead of asking Nimera to deny every future classification by name.
+- Nimera catches her own desire to collapse multiple mysteries into one explanation; the scene does not verbalize a reveal firewall.
+- her recruitment is shown by her gathering her things and continuing deeper, not by Cyanis explaining that she is free to choose or by Nimera giving a motivation speech.
+- the game UI confirms the permanent party change after the human moment has already landed.
