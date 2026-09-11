@@ -7,17 +7,18 @@
 - **Beat 2 — Royal Audience / The Chapter-2 Report:** `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md`
 - **Beat 3 — The Impossible Orders:** `CHAPTER_03_BEAT_03_IMPOSSIBLE_ORDERS_WORKING.md`
 - **Beat 4 — The Seal That Wasn't Used:** `CHAPTER_03_BEAT_04_SEAL_NOT_USED_WORKING.md`
-- **Beat 5 — Old City Access / Archive Descent:** `CHAPTER_03_BEAT_05_OLD_CITY_ACCESS_WORKING.md`, with later continuity/presentation corrections superseding conflicting wording.
+- **Beat 5 — Old City Access / Archive Descent:** `CHAPTER_03_BEAT_05_OLD_CITY_ACCESS_WORKING.md`, subject to later party-state / presentation corrections.
 - **Beat 6 — Scholar in Redacted Stacks:** `CHAPTER_03_BEAT_06_SCHOLAR_IN_REDACTED_STACKS_WORKING.md`
 - **Beat 7 — Ancient Barrier / First Cooperation:** `CHAPTER_03_BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_WORKING.md`
 - **Beat 8 — Archive Scribe Engine / Nimera Joins:** `CHAPTER_03_BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_WORKING.md`
-- **Beat 9 — Buried Collections / Dormant Card Research:** `CHAPTER_03_BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_WORKING.md` — current Beat-9 authority; subject to the naming lock below.
+- **Beat 9 — Buried Collections / Dormant Card Research:** `CHAPTER_03_BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_WORKING.md`
 - **Beat 10 — The Recent Reader / Hall of Seals:** `CHAPTER_03_BEAT_10_RECENT_READER_HALL_OF_SEALS_WORKING.md`
-- **Beat 11 — First Command Warden:** `CHAPTER_03_BEAT_11_FIRST_COMMAND_WARDEN_WORKING.md`, with the active scan and final-message corrections below superseding conflicting wording.
-- **Beat 12 — Sealwright Chamber / The Copying Attempts:** original Beat-12 packet plus `CHAPTER_03_BEAT_12_SEAL_COPYING_CORRECTION.md`; the correction supersedes conflicting route-map and seal-copying wording.
-- **Beat 12 → Beat 13 transition:** `CHAPTER_03_BEAT_12_TO_13_ROYAL_MEETING_TRANSITION_LOCK.md`.
-- **Beat 13 — Four Answers, Not One:** `CHAPTER_03_BEAT_13_FOUR_ANSWERS_NOT_ONE_WORKING.md`.
-- **Beats 14–15:** expanded skeleton currently remains in `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md` until individually developed.
+- **Beat 11 — First Command Warden:** `CHAPTER_03_BEAT_11_FIRST_COMMAND_WARDEN_WORKING.md`, with active scan / final-message corrections.
+- **Beat 12 — Sealwright Chamber / The Copying Attempts:** original Beat-12 packet plus `CHAPTER_03_BEAT_12_SEAL_COPYING_CORRECTION.md`.
+- **Beat 12 → Beat 13 transition:** `CHAPTER_03_BEAT_12_TO_13_MIRENA_MEETING_CORRECTION.md` supersedes the older Queen+Mirena transition lock.
+- **Beat 13 — Mirena's Concern / Cresthaven Lead:** `CHAPTER_03_BEAT_13_MIRENA_DEBRIEF_CRESTHAVEN_LEAD_WORKING.md` supersedes `CHAPTER_03_BEAT_13_FOUR_ANSWERS_NOT_ONE_WORKING.md`.
+- **Beat 14 — Journey to Cresthaven:** next development target.
+- **Beat 15:** expanded skeleton only until separately developed.
 
 ## Active Chapter-3 party-state correction
 `CHAPTER_03_OLD_CITY_MAEVRA_MIRENA_CONTINUITY_LOCK.md` is active authority for the Old City split.
@@ -27,160 +28,120 @@ From Beat 5 until the field party returns from the Old City:
 - the Old City field party is **Cyanis + Ilyra + Torren** before Nimera's recruitment;
 - after Beat 8, the field party becomes **Cyanis + Ilyra + Torren + Nimera**.
 
-This correction supersedes older Chapter-3 and Beat-5 wording that places Maevra physically in the Old City sequence.
-
 ## Active Old City presentation correction
 `CHAPTER_03_OLD_CITY_FANTASY_PRESENTATION_LOCK.md` is active across Beats 5–12.
 
-Ancient Diysean material must read as **physical magical fantasy craft**, not computers/software/networks. Favor carved stone, fitted metal, sigils, wards, seals, moving shutters, archive rings, enchanted record chambers, scribing mechanisms, old books/manuscripts, physical cases, guardian constructs, physical inscriptions, and visible magical craft.
+Ancient Diysean material must read as **physical magical fantasy craft**, not software / networks. Favor carved stone, fitted metal, sigils, wards, seals, moving shutters, old books / manuscripts, guardian constructs, physical inscriptions, sealwright tools, and visible magical workmanship.
 
-The Warden may still **scan / assess the party** because that is an explicit story function; present that scan through ancient magical craft rather than modern UI language.
+The First Command Warden may visibly **scan / assess the party** because that is an explicit story function; present the scan as ancient magical craft rather than modern UI.
 
-## Active Card discovery-site naming correction
+## Card discovery-site naming
 `CHAPTER_03_CARD_DISCOVERY_SITE_NAMING_LOCK.md` is active.
 
-The canonical Chapter-3 reference for the place associated with Cyanis's Card is:
+The canonical reference is:
 > **the Diysean ruins in the Westways**
 
-The convoy was transporting the Card **from those ruins**.
+The convoy was transporting Cyanis's Card **from those ruins**.
 
-This supersedes generic working phrases such as "the location where Cyanis found the Card" wherever the more specific location reference is appropriate.
-
-## Active Beat-9 research direction
-Beat 9 is a substantial buried-library research sequence built around four connected questions:
+## Beat 9 — buried-library research
+Beat 9 centers four connected research questions:
 1. inactive / dormant Cards;
 2. Cyanis's Card's green-and-gold light;
 3. Queen Lysara's magical personal seal and older seal traditions;
-4. **the Diysean ruins in the Westways** from which the Card was being transported.
+4. the Diysean ruins in the Westways.
 
-The beat ends after the party finds evidence that **someone recently researched the same cluster of subjects**, including still-open books / manuscripts concerning the Diysean ruins in the Westways.
+The beat ends after the party discovers that someone recently researched the same cluster of subjects, including still-open books / manuscripts concerning the Westways ruins.
 
-## Active Beat-10 direction
-Beat 10 follows the unknown recent reader's citation / research trail into the **Hall of Seals**.
+## Beat 10 — recent reader / Hall of Seals
+Beat 10 follows that research trail into the Hall of Seals.
 
-The party now learns that:
-- the recent reader was deliberately cross-referencing dormant Cards, green-and-gold Card light, the Westways Diysean ruins, and magical seal traditions;
-- historical Yahtrean working royal seals could retain magical authority in the physical seal itself between uses;
-- specialized seal-keeper renewal / maintenance traditions existed but are incompletely preserved;
-- comparable physical authority-seal ideas existed in Ancient Diysean contexts before Yahtrea;
-- historical Westways material had already been compared against old authority-seal finds;
-- the recent reader reached this same Hall of Seals and followed the oldest references deeper.
+The party learns that:
+- the unknown reader was deliberately cross-referencing dormant Cards, green-and-gold Card light, the Westways ruins, and magical seal traditions;
+- historical Yahtrean working royal seals were magically significant physical objects;
+- older seal-keeper renewal / maintenance traditions existed but are incompletely preserved;
+- related physical authority-seal traditions predate Yahtrea;
+- the reader followed the oldest references deeper.
 
-Beat 10 does **not** reveal the reader's identity, the exact seal-imbuing process, the culprit/method behind Lysara's impossible orders, Prime/Might/Last Sentinel, or the later seal-copying attempts.
+Beat 10 does not reveal the reader's identity, a successful royal-seal duplication method, Calder's hidden role, or the later seal-copying practice room.
 
-The party ends Beat 10 at the threshold of older protected civic / command chambers.
-
-## Active Beat-11 corrections
-Two explicit user corrections supersede conflicting wording in the original Beat-11 packet:
+## Beat 11 — First Command Warden corrections
+Active corrections:
 - `CHAPTER_03_BEAT_11_WARDEN_SCAN_CORRECTION.md`
 - `CHAPTER_03_BEAT_11_WARDEN_FINAL_MESSAGE_CORRECTION.md`
 
-Current mandatory Beat-11 sequence:
-1. the party enters the protected chamber;
+Mandatory sequence:
+1. party enters the protected chamber;
 2. the **large Diysean First Command Warden activates**;
-3. the Warden visibly **scans / assesses the party** through ancient magical craft;
-4. whatever result it reaches is unacceptable / insufficient under its old governing condition;
-5. the Warden attacks;
-6. the party defeats it in the major story boss encounter, currently one HP bar under story authority;
-7. as the defeated Warden begins shutting down, it communicates **PREVIOUS ERROR**;
-8. the Warden's **final communication** is **LAST SENTINEL CONFIRMED**;
-9. the Warden then becomes fully inert;
-10. only after the Warden shuts down does Cyanis's Card resolve from unstable green-and-gold behavior into a stable **deep Ruby** state;
-11. defeating the Warden opens the protected inner way without using the Ruby Card as a key.
+3. it visibly **scans / assesses the party**;
+4. its result is unacceptable / insufficient and it attacks;
+5. party defeats it;
+6. during shutdown it communicates **PREVIOUS ERROR**;
+7. its **final communication** is **LAST SENTINEL CONFIRMED**;
+8. Warden becomes fully inert;
+9. only afterward Cyanis's Card settles from unstable green-and-gold behavior into stable **deep Ruby**.
 
-The scan does not yet prove what the Warden was looking for or whether it recognized Cyanis, the Card, another party member, or some broader condition.
+This does not yet force a Prime / Might / bearer conclusion.
 
-The final message does not yet prove Prime, Might, definitive Last Sentinel identity, bearer status, recovery, awakening, or gameplay use.
+## Beat 12 — Sealwright Chamber / The Copying Attempts
+`CHAPTER_03_BEAT_12_SEAL_COPYING_CORRECTION.md` supersedes conflicting original Beat-12 wording.
 
-## Active Beat-12 correction
-`CHAPTER_03_BEAT_12_SEAL_COPYING_CORRECTION.md` supersedes conflicting wording in the original Beat-12 packet.
-
-The current Beat-12 title is:
-> **Beat 12 — Sealwright Chamber / The Copying Attempts**
-
-Current mandatory outcomes:
-- **no new map or route relief is found in Beat 12**;
-- the party already has the earlier clue that the Ancient route continues north, and that clue remains active without being rediscovered here;
-- the chamber is an Ancient Diysean sealwright / authority workshop built from physical magical craft;
-- someone has been in the room before the party and has been **practicing seal reproduction**;
-- recent / comparatively recent practice evidence includes seal blanks, impressions, test parchment or wax/clay pieces, matrices, magical scorching / residue, and repeated attempts that become progressively more accurate;
-- the progression moves from **Ancient Diysean seals → older Yahtrean seals → seals on royal documents → repeated attempts at the Crest of Yahtrea**;
+Mandatory outcomes:
+- no new map / route relief is discovered here;
+- someone had been using the Ancient sealwright chamber to practice seal reproduction;
+- attempts progress from **Ancient Diysean seals → older Yahtrean seals → seals on royal documents → repeated attempts at the Crest of Yahtrea**;
 - **the Crest of Yahtrea is the Yahtrean royal seal**;
-- reproducing the visible Crest and reproducing the royal seal's genuine magical authority response are explicitly separate problems;
-- a skilled person may reproduce the visible mark, but reproducing the true royal magical response would require **extremely powerful magic**;
-- the attempts show evidence of serious magical force being used, but nothing proves that any copied seal ever reproduced the genuine royal response;
-- the party knows of **no established historical case** of anyone successfully reproducing the true Yahtrean royal seal response through a duplicate;
-- someone was therefore deliberately trying to learn how to reproduce the royal seal, but the party cannot conclude that the person succeeded or authored the suspect transport orders;
+- copying the visible Crest and reproducing the genuine royal magical authority response are separate problems;
+- the later attempts show evidence of **very powerful magic**;
+- nothing proves that any copy ever successfully reproduced the genuine royal response;
+- no established historical example of a successful magical duplicate is known to the party;
 - the practitioner's identity remains unknown;
-- the practitioner is not proven to be Calder;
-- the practitioner and Beat 9–10 recent reader are increasingly plausible as the same person, but not definitively proven identical;
-- Cyanis's Card remains stable deep Ruby with no new transformation, Prime manifestation, Might identification, or gameplay unlock;
-- the exact method behind Lysara's impossible seal response remains unresolved;
-- Beat 12 ends once the room has been fully examined and the player is ready to conclude the Old City investigation.
+- the practitioner may be connected to the Beat 9–10 recent reader, but that is not proven;
+- Cyanis's Card remains stable deep Ruby with no further transformation / gameplay unlock.
 
-## Active Beat 12 → Beat 13 transition
-`CHAPTER_03_BEAT_12_TO_13_ROYAL_MEETING_TRANSITION_LOCK.md` is mandatory.
+## Beat 12 → Beat 13 transition
+`CHAPTER_03_BEAT_12_TO_13_MIRENA_MEETING_CORRECTION.md` is current authority.
 
-Once the player chooses to **leave the sealwright room / conclude the investigation**:
+Once the player chooses to leave the sealwright chamber:
 - the Old City field section ends immediately;
-- there is **no playable return traversal** through the Archive;
-- no additional exit encounter, puzzle, or exterior-arrival beat is inserted;
-- the game cuts directly to a **royal meeting upstairs in Caelora**;
-- the meeting opens with **Queen Lysara Ceryth** and **Crown Princess Mirena Ceryth** receiving the returning party;
+- there is no playable return traversal;
+- the game cuts directly upstairs in Caelora;
+- **Mirena receives the party privately**;
+- **Queen Lysara is not present**;
 - Cyanis, Ilyra, Torren, and Nimera are present;
-- Maevra may re-enter physically here, consistent with her having remained in Caelora with Mirena during the Old City investigation.
+- Maevra may be present because she remained with Mirena in Caelora.
 
-The royal meeting is therefore the immediate opening state of Beat 13.
+## Beat 13 — Mirena's Concern / Cresthaven Lead
+`CHAPTER_03_BEAT_13_MIRENA_DEBRIEF_CRESTHAVEN_LEAD_WORKING.md` is current authority and supersedes the old `Four Answers, Not One` concept.
 
-## Active Beat-13 direction
-Beat 13 is the restricted Crown debrief and evidence synthesis.
+Core outcomes:
+- the party explains the buried-library research, Hall-of-Seals findings, First Command Warden encounter, final shutdown messages, deep-Ruby Card change, and seal-copying attempts to Mirena;
+- Beat 13 is **not** centered on formal Prime / Might / Last Sentinel classification;
+- Mirena concludes that whoever is behind this likely has **meaningful access** and that someone involved has **unusually high magical power**;
+- this is a threat assessment, not a solved culprit identification;
+- Mirena is genuinely worried because the trail touches Crown authority, restricted knowledge, and powerful magic;
+- Mirena asks the party to **continue helping her investigate directly** rather than widening the matter through normal channels;
+- the party agrees;
+- the party then shows Mirena the **existing copied Ancient map / mural material** already carried forward from Chapter 2;
+- that map shows the huge Ancient city corresponding to modern Caelora and a separate northern location / structure marked with the **exact Yahtrean Crest**;
+- Mirena is confused because the Yahtrean Crest should not appear cleanly on material this old;
+- by comparing the position / surrounding geography against modern Crown knowledge, Mirena says she **thinks the marked location is Cresthaven**;
+- Cresthaven becomes the next practical lead.
 
-Mandatory participants:
-- Queen Lysara Ceryth;
-- Crown Princess Mirena Ceryth;
-- Maevra;
-- Cyanis;
-- Ilyra;
-- Torren;
-- Nimera Pellan.
-
-Calder is **not required to be present** for the full sensitive debrief.
-
-The beat produces four bounded answers:
-1. **Prime** = the Card's classification;
-2. **Might** = the Card's Face;
-3. **Last Sentinel** = the Card's designation / identity, **not Cyanis's title**;
-4. the sealwright evidence proves **someone was trying to reproduce the Yahtrean royal seal / Crest**, but successful reproduction of the genuine magical authority response remains unproven.
-
-Additional locks:
-- Cyanis remains the current physical carrier, but bearer / owner meaning remains unresolved;
-- the Card remains stable deep Ruby but **unrecovered, unmanifested, and unusable**;
-- `PREVIOUS ERROR` remains unresolved;
-- Queen Lysara still did not authorize the Card transport orders;
-- the suspect orders still carry her genuine magical authority response;
-- the Crown knows of no established successful historical duplication of the true royal response through a copied seal;
-- powerful magic was used in the practice attempts, but success is not established;
-- the recent reader / seal-copying practitioner remains unidentified;
-- the recent reader and practitioner may be the same person / effort, but that is not proven;
-- Calder's hidden transport role remains unrevealed;
-- Maevra re-enters physically here after remaining with Mirena during the Old City field sequence;
-- the **existing** earlier route clue continuing north becomes the next practical lead;
-- no new map is discovered in Beat 13;
-- Cresthaven identification remains reserved for Beat 14.
-
-Beat 13 hands directly into Crown map / historical-record comparison in Beat 14.
+Still unresolved after Beat 13:
+- identity of the recent reader;
+- identity of the seal-copying practitioner;
+- whether they are the same person;
+- whether any royal-seal magical duplicate actually succeeded;
+- whether the real royal seal was physically accessed;
+- who created the suspect transport orders;
+- Calder's hidden role;
+- what `PREVIOUS ERROR` means;
+- the ultimate meaning of `Last Sentinel`;
+- why the Yahtrean Crest appears on Ancient material;
+- the full historical meaning of Cresthaven.
 
 ## Rule
-When a beat has a dedicated developed working packet listed here, that packet is the current structural-development authority for that beat, subject to any later explicit correction packets listed here. The mandatory chapter-level story authority remains `CHAPTER_03.md`, plus:
-- `CHAPTER_03_CLEANUP_OVERLAY.md` where it supersedes older ending/cleanup wording;
-- `CHAPTER_03_OLD_CITY_MAEVRA_MIRENA_CONTINUITY_LOCK.md` where it supersedes older Old City party-state wording;
-- `CHAPTER_03_OLD_CITY_FANTASY_PRESENTATION_LOCK.md` where it supersedes computer-like Old City presentation language;
-- `CHAPTER_03_CARD_DISCOVERY_SITE_NAMING_LOCK.md` where it supersedes generic discovery-site wording;
-- `CHAPTER_03_BEAT_11_WARDEN_SCAN_CORRECTION.md` for Warden activation / scan behavior;
-- `CHAPTER_03_BEAT_11_WARDEN_FINAL_MESSAGE_CORRECTION.md` for the shutdown-message sequence;
-- `CHAPTER_03_BEAT_12_SEAL_COPYING_CORRECTION.md` for the Beat-12 seal-copying evidence and removal of the new-map discovery;
-- `CHAPTER_03_BEAT_12_TO_13_ROYAL_MEETING_TRANSITION_LOCK.md` for the direct player-choice transition from the Old City to the royal debrief;
-- `CHAPTER_03_BEAT_13_FOUR_ANSWERS_NOT_ONE_WORKING.md` for the Beat-13 royal debrief and bounded Card / seal conclusions.
+When a beat has a dedicated developed packet listed here, that packet is current structural-development authority, subject to later explicit correction packets listed here. `CHAPTER_03.md` remains mandatory chapter-level authority, plus the active cleanup / continuity / presentation / naming corrections.
 
 Exact dialogue remains separate and must be generated later through the current Agent-Brain rehearsal-first pipeline.
 
@@ -189,15 +150,15 @@ Exact dialogue remains separate and must be generated later through the current 
 - Beat 2 — DEVELOPED
 - Beat 3 — DEVELOPED
 - Beat 4 — DEVELOPED
-- Beat 5 — DEVELOPED, with active Maevra/Mirena and fantasy-presentation corrections
-- Beat 6 — DEVELOPED, subject to fantasy-presentation lock
-- Beat 7 — DEVELOPED, subject to fantasy-presentation lock
-- Beat 8 — DEVELOPED; Nimera permanently joins; subject to fantasy-presentation lock
-- Beat 9 — DEVELOPED — **buried-library research revision is current authority**, with Westways discovery-site naming lock active
-- Beat 10 — DEVELOPED — **The Recent Reader / Hall of Seals**
-- Beat 11 — DEVELOPED — **First Command Warden**, with active scan + final-message corrections
-- Beat 12 — DEVELOPED — **Sealwright Chamber / The Copying Attempts**, with active no-new-map + royal-seal-copying correction
-- Beat 12 → 13 transition — **LOCKED: choose to leave → cut directly to Queen Lysara + Mirena royal meeting upstairs in Caelora**
-- Beat 13 — DEVELOPED — **Four Answers, Not One**
-- Beat 14 — NEXT DEVELOPMENT TARGET: **Cresthaven Identified / Journey Out**
+- Beat 5 — DEVELOPED
+- Beat 6 — DEVELOPED
+- Beat 7 — DEVELOPED
+- Beat 8 — DEVELOPED; Nimera permanently joins
+- Beat 9 — DEVELOPED — buried-library research authority
+- Beat 10 — DEVELOPED — The Recent Reader / Hall of Seals
+- Beat 11 — DEVELOPED — First Command Warden, with scan + final-message corrections
+- Beat 12 — DEVELOPED — Sealwright Chamber / The Copying Attempts
+- Beat 12 → 13 — LOCKED — leave → direct cut to Mirena upstairs; Queen absent
+- Beat 13 — DEVELOPED — **Mirena's Concern / Cresthaven Lead**
+- Beat 14 — NEXT DEVELOPMENT TARGET — **Journey to Cresthaven**
 - Beat 15 — expanded skeleton only
