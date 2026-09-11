@@ -48,23 +48,32 @@ Core locks:
 ---
 
 ## H03 — Ilyra and Nimera
-**Status:** NEXT CHARACTER-LIFE DEVELOPMENT TARGET
+**Status:** DEVELOPED STRUCTURALLY  
+**Current authority:** `CHAPTER_03_CHARACTER_LIFE_H03_ILYRA_AND_NIMERA_WORKING.md`
 
-Current high-level authority from `CHAPTER_03_CLEANUP_OVERLAY.md`:
-- Cresthaven medical / treatment-space scene between Ilyra and Nimera;
-- consent-based treatment is central;
-- mundane teasing / precision humor and quiet practical care are appropriate;
-- do not force emotional disclosure;
-- do not turn the scene into therapy;
-- no historical H03 line is automatically exact wording authority;
-- final dialogue will be regenerated through the current Dialogue Engine.
-
-H03 should be structurally developed before dialogue production begins.
+Core locks:
+- takes place in Cresthaven's reopened treatment / medical room during cleanup;
+- the scene centers only on a **minor hand / wrist / forearm problem** Nimera accumulated through the Old City sequence and combat;
+- Nimera is fully competent and has already managed the problem enough to keep functioning;
+- Ilyra's contribution is proper field assessment / treatment that is easier and better done by another person;
+- **consent-based treatment is the central relationship action**: Ilyra explains what she intends to do and asks before touching, moving, cleaning, or wrapping Nimera's injured hand / wrist;
+- consent should feel natural and behavioral, not like a lecture or legal disclaimer;
+- Nimera does not need to disclose any traumatic reason why the behavior matters to her;
+- Nimera remains direct, observant, and comfortable correcting Ilyra about pain location, pressure, motion, or bandage tension;
+- humor comes from **precision meeting precision**: exact pain descriptions, exact movement descriptions, technical wrap complaints, and dry responses;
+- neither woman's competence is the butt of the joke;
+- the scene includes one small quiet trust beat where Ilyra pauses / asks again before a mildly uncomfortable step, Nimera agrees, and Ilyra does exactly what she said she would do;
+- no forced emotional disclosure, therapy framing, friendship speech, or symbolic injury metaphor;
+- relationship outcome is quiet adult trust: Nimera learns Ilyra will help without taking control away; Ilyra learns Nimera will state what she needs clearly when given room;
+- Cyanis / Torren are not required; Mirena / Maevra are not present by default;
+- no Last Sentinel / royal-seal / Calder / Cresthaven-history / north-route / Hunt-passage revelation occurs;
+- no historical H03 line is exact authority unless later explicitly preserved by the user;
+- final exact dialogue is generated later through the current Agent-Brain rehearsal-first Dialogue Engine.
 
 ---
 
 ## Regional Hunt #3 — Archive Judgment Engine
-**Status:** STORY UNLOCK LOCKED; DETAILED HUNT STORY-FLOW DEVELOPMENT STILL PENDING
+**Status:** STORY UNLOCK LOCKED; DETAILED HUNT STORY-FLOW DEVELOPMENT IS NEXT
 
 Current unlock authority:
 - during the Cresthaven handoff, Mirena tells the party that continuing Crown work in the Old City Archives has uncovered / opened a previously inaccessible passage;
@@ -92,8 +101,8 @@ Detailed Hunt framing, branch flow, boss lead-in, aftermath, and reward-context 
 - Beat-15 Cresthaven handoff — DEVELOPED
 - Archive-passage Hunt unlock — LOCKED
 - H01 — **DEVELOPED STRUCTURALLY**
-- H03 — **NEXT DEVELOPMENT TARGET**
-- Regional Hunt #3 detailed story flow — PENDING after H03 unless explicitly reordered
+- H03 — **DEVELOPED STRUCTURALLY**
+- Regional Hunt #3 detailed story flow — **NEXT DEVELOPMENT TARGET**
 - Chapter-3 cleanup-flow audit — PENDING
 - final `CHAPTER_03.md` consolidation — PENDING
 - Chapter-3 Agent-Brain dialogue production — PENDING until structural cleanup content is ready
