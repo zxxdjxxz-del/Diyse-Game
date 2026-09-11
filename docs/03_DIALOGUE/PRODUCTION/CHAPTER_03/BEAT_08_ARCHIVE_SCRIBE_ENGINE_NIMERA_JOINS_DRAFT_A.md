@@ -1,6 +1,6 @@
 # Chapter 3 — Beat 8
 # Archive Scribe Engine / Nimera Joins
-## DIALOGUE ENGINE PRODUCTION DRAFT A — rehearsal-first Agent-Brain pass / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT A — revised recruitment pass / awaiting user approval
 
 ---
 
@@ -216,69 +216,63 @@ Nimera looks down the newly accessible route.
 
 The immediate danger is over.
 
-Cyanis looks toward the route ahead, then back at Nimera.
+Nimera gathers her notes, Cards, and the few pieces of field equipment she actually needs, packing them with the assumption that she is leaving the work area rather than settling back into it.
 
-**CYANIS:** We can take what we have back to Mirena.
+Cyanis notices.
+
+**CYANIS:** Thought we'd take this back to Mirena first.
+
+**NIMERA:** You can.
+
+A beat.
+
+**CYANIS:** You're not?
 
 **NIMERA:** No.
 
+She looks down the deeper route.
+
+**NIMERA:** I'm going that way.
+
+**TORREN:** With us.
+
+**NIMERA:** Are you going somewhere else?
+
+**TORREN:** No.
+
+**NIMERA:** Then yes.
+
+Ilyra watches Nimera finish packing.
+
+**ILYRA:** You have what you need?
+
+**NIMERA:** Enough.
+
+**CYANIS:** All right.
+
+Nimera looks at him.
+
+**NIMERA:** That's it?
+
+**CYANIS:** Were you expecting an oath?
+
+**NIMERA:** Gods, no.
+
+**TORREN:** Good. We don't have one.
+
+**NIMERA:** Excellent.
+
+She shoulders her things and starts toward the deeper route.
+
+**NIMERA:** Are we going?
+
 A beat.
 
-**CYANIS:** No?
-
-**NIMERA:** We have an active trail in front of us. The Card is unresolved. The seal problem is unresolved. This place just woke up enough to try to file us violently.
-
-**TORREN:** That's one way to describe it.
-
-**NIMERA:** It's an accurate way.
-
-**CYANIS:** I'm not arguing.
-
-He makes the boundary explicit.
-
-**CYANIS:** Mirena sent us to find you. She didn't assign you to us.
-
-A beat.
-
-**CYANIS:** You keep going because you want to. Not because we opened that barrier.
-
-Nimera looks at him for a moment.
-
-**NIMERA:** I know.
-
-A beat.
-
-**NIMERA:** I'm going.
-
-**ILYRA:** For the investigation.
-
-**NIMERA:** Obviously.
-
-**TORREN:** Temporarily?
-
-Nimera gives him a look.
-
-**NIMERA:** You remembered that.
-
-**TORREN:** I remember useful wording.
-
-She looks down the deeper route again.
-
-**NIMERA:** Fine. Permanently until I decide otherwise.
-
-**CYANIS:** That's not what permanently means.
-
-**NIMERA:** You understood me.
-
-**CYANIS:** Unfortunately.
-
-A small beat.
-
-**NIMERA:** Good. Then we're done.
+**CYANIS:** Apparently.
 
 ### [PARTY JOIN]
 
-After Nimera's explicit choice, implementation may display the standard recruitment confirmation:
+As the group moves on, implementation may display the standard recruitment confirmation without stopping the scene for a recruitment speech:
 
 **Nimera Pellan joined the party.**
 
@@ -318,8 +312,8 @@ Transition into:
 - defeating the Scribe Engine stops only the local hostile mechanism; it does not shut down the Old City.
 - Nimera's post-fight analysis stays evidence-bound: she can identify organized state change without identifying Prime, Might, Last Sentinel, bearer or ownership.
 - the Card, Scribe Engine and royal-seal anomaly are compared methodologically, not declared to use the same magic.
-- Cyanis explicitly distinguishes Mirena's request from Nimera's own choice.
-- Nimera's recruitment is not gratitude debt, prophecy, magical compulsion, or a need to fill the fourth slot.
-- Nimera explicitly chooses to continue; that choice is the permanent recruitment point.
+- recruitment is shown rather than explained: Nimera packs for continued field work, states where she is going, and naturally folds herself into the group's next move.
+- no character explains that she is free to choose, lists her reasons for joining, or summarizes the recruitment thesis aloud.
+- the standard party-join UI may confirm the game-system result after her decision is already obvious from behavior.
 - no future subclass material is exposed.
 - Beat 9 begins with Cyanis + Ilyra + Torren + Nimera as the permanent active party.
