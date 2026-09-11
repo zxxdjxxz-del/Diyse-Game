@@ -11,7 +11,8 @@
 - **Beat 6 — Scholar in Redacted Stacks:** `CHAPTER_03_BEAT_06_SCHOLAR_IN_REDACTED_STACKS_WORKING.md`
 - **Beat 7 — Ancient Barrier / First Cooperation:** `CHAPTER_03_BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_WORKING.md`
 - **Beat 8 — Archive Scribe Engine / Nimera Joins:** `CHAPTER_03_BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_WORKING.md`
-- **Beats 9–15:** expanded skeleton currently remains in `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md` until individually developed.
+- **Beat 9 — Deeper Archive / Six-Face Markings:** `CHAPTER_03_BEAT_09_DEEPER_ARCHIVE_SIX_FACE_MARKINGS_WORKING.md`
+- **Beats 10–15:** expanded skeleton currently remains in `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md` until individually developed.
 
 ## Active Chapter-3 party-state correction
 `CHAPTER_03_OLD_CITY_MAEVRA_MIRENA_CONTINUITY_LOCK.md` is active authority for the Old City split.
@@ -37,5 +38,6 @@ Exact dialogue remains separate and must be generated later through the current 
 - Beat 6 — DEVELOPED
 - Beat 7 — DEVELOPED
 - Beat 8 — DEVELOPED; Nimera permanently joins
-- Beat 9 — NEXT DEVELOPMENT TARGET
-- Beats 10–15 — expanded skeleton only
+- Beat 9 — DEVELOPED
+- Beat 10 — NEXT DEVELOPMENT TARGET
+- Beats 11–15 — expanded skeleton only
