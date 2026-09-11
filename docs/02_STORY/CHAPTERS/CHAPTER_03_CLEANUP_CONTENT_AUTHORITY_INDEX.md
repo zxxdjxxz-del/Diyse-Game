@@ -48,27 +48,27 @@ Core locks:
 ---
 
 ## H03 — Ilyra and Nimera
-**Status:** DEVELOPED STRUCTURALLY  
+**Status:** STRUCTURALLY OPEN / AGENT-DRIVEN  
 **Current authority:** `CHAPTER_03_CHARACTER_LIFE_H03_ILYRA_AND_NIMERA_WORKING.md`
 
-Core locks:
-- takes place in Cresthaven's reopened treatment / medical room during cleanup;
-- the scene centers only on a **minor hand / wrist / forearm problem** Nimera accumulated through the Old City sequence and combat;
-- Nimera is fully competent and has already managed the problem enough to keep functioning;
-- Ilyra's contribution is proper field assessment / treatment that is easier and better done by another person;
-- **consent-based treatment is the central relationship action**: Ilyra explains what she intends to do and asks before touching, moving, cleaning, or wrapping Nimera's injured hand / wrist;
-- consent should feel natural and behavioral, not like a lecture or legal disclaimer;
-- Nimera does not need to disclose any traumatic reason why the behavior matters to her;
-- Nimera remains direct, observant, and comfortable correcting Ilyra about pain location, pressure, motion, or bandage tension;
-- humor comes from **precision meeting precision**: exact pain descriptions, exact movement descriptions, technical wrap complaints, and dry responses;
-- neither woman's competence is the butt of the joke;
-- the scene includes one small quiet trust beat where Ilyra pauses / asks again before a mildly uncomfortable step, Nimera agrees, and Ilyra does exactly what she said she would do;
-- no forced emotional disclosure, therapy framing, friendship speech, or symbolic injury metaphor;
-- relationship outcome is quiet adult trust: Nimera learns Ilyra will help without taking control away; Ilyra learns Nimera will state what she needs clearly when given room;
-- Cyanis / Torren are not required; Mirena / Maevra are not present by default;
+Current direction:
+- H03 is simply a **fun Character-Life scene between Ilyra and Nimera being themselves together at Cresthaven**;
+- the previous mandatory treatment-room / minor-injury / consent-centered structure is retired;
+- there is no required injury, medical setup, trust lesson, trauma disclosure, lore discussion, or predetermined emotional arc;
+- the actual low-stakes premise should be discovered by the **current Ilyra and Nimera Agent-Brains** during the rehearsal-first dialogue process;
+- the agents may draw from ordinary Cresthaven life, mundane objects, food, work, habits, boredom, teasing, trivial disagreements, curiosity, small competitions, or anything else that naturally gives the two of them something fun to do;
+- Ilyra should remain a full adult personality rather than defaulting into caretaker / therapist mode;
+- Nimera should remain intelligent, blunt, socially functional, curious, funny, and fully capable rather than becoming an exposition machine;
+- their chemistry is not pre-labeled as mentorship, care, vulnerability, or friendship instruction; let the agents discover what is entertaining about them together;
+- H03 may occur in any already-usable Cresthaven space that fits the generated premise naturally;
+- Cyanis / Torren may only appear briefly if the generated scene genuinely benefits from it; the scene remains Ilyra + Nimera's;
+- Mirena / Maevra are normally back in Caelora and should not be imported without a separate reason;
 - no Last Sentinel / royal-seal / Calder / Cresthaven-history / north-route / Hunt-passage revelation occurs;
-- no historical H03 line is exact authority unless later explicitly preserved by the user;
-- final exact dialogue is generated later through the current Agent-Brain rehearsal-first Dialogue Engine.
+- no historical H03 wording is exact authority;
+- the scene succeeds if the player comes away feeling they know Ilyra and Nimera a little better and enjoys seeing them together.
+
+Dialogue-generation brief:
+> Put Ilyra and Nimera together during ordinary downtime at Cresthaven. Let them behave like themselves. Find a low-stakes premise that gives them something genuinely fun to react to. Do not force injury, treatment, trauma, consent instruction, lore, or an emotional breakthrough. Let humor, disagreement, curiosity, silence, profanity, affection, or absurdity arise naturally from the two character brains. Once the scene has found its point and the interaction lands, get out.
 
 ---
 
@@ -101,7 +101,7 @@ Detailed Hunt framing, branch flow, boss lead-in, aftermath, and reward-context 
 - Beat-15 Cresthaven handoff — DEVELOPED
 - Archive-passage Hunt unlock — LOCKED
 - H01 — **DEVELOPED STRUCTURALLY**
-- H03 — **DEVELOPED STRUCTURALLY**
+- H03 — **AGENT-DRIVEN STRUCTURE LOCKED; ACTUAL SCENE TO BE DISCOVERED DURING DIALOGUE REHEARSAL**
 - Regional Hunt #3 detailed story flow — **NEXT DEVELOPMENT TARGET**
 - Chapter-3 cleanup-flow audit — PENDING
 - final `CHAPTER_03.md` consolidation — PENDING
