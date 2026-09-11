@@ -1,0 +1,101 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT06_SCHOLAR_IN_REDACTED_STACKS",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 6 — Scholar in Redacted Stacks",
+  "production_ready": false,
+  "participants": ["cyanis", "ilyra", "torren", "nimera"],
+  "scene_purpose": "Introduce Nimera Pellan as a capable working scholar before recruitment; establish that the Ancient barrier has enclosed her deeper archive work section without making her helpless; give Cyanis, Ilyra, Torren, and Nimera distinct useful observations; explain only the bounded Card and royal-seal reasons Mirena sent the trio; and end with the barrier still closed but now understood as a shared solvable problem for Beat 7.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
+      "sections": ["Beat 6 — Scholar in Redacted Stacks"],
+      "role": "current_consolidated_chapter_3_beat_6_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_BEAT_06_SCHOLAR_IN_REDACTED_STACKS_WORKING.md",
+      "whole_file": true,
+      "role": "current_detailed_beat_6_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_OLD_CITY_MAEVRA_MIRENA_CONTINUITY_LOCK.md",
+      "whole_file": true,
+      "role": "old_city_party_state_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_OLD_CITY_FANTASY_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "ancient_fantasy_presentation_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md",
+      "whole_file": true,
+      "role": "mandatory_rehearsal_first_agent_brain_pipeline"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring_and_reductive_staging"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "current_field_and_triggered_scene_presentation"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Old City archives — deeper redacted stacks work section",
+    "area_phase": "ancient_barrier_enclosed_work_area",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "runtime_note": "Cyanis, Ilyra, and Torren have deliberately reached the deeper archive section where Nimera Pellan was working. An Ancient physical-magical barrier now encloses her work area. Nimera is safe, active, irritated, and still working. The scene is a character introduction and problem-definition beat, not a rescue melodrama or barrier solution. Use simple field presence at the authored stop; no combat."
+  },
+  "current_floor_state": {
+    "field_party": "cyanis_ilyra_torren",
+    "maevra_state": "remains_in_caelora_with_mirena",
+    "nimera_state": "inside_enclosed_deeper_archive_work_section_active_and_uninjured",
+    "card_state": "recovered_card_physically_carried_by_cyanis_green_gold_abnormal_response_history_unclassified",
+    "seal_evidence_state": "bounded_authenticated_comparison_material_only_actual_royal_seal_remains_in_palace",
+    "barrier_state": "closed_responsive_ancient_mechanism_beyond_normal_crown_archive_controls",
+    "dialogue_presentation": "portraits_plus_dialogue_box_with_simple_triggered_scene_field_placement"
+  },
+  "required_story_beats": [
+    "The trio finds Nimera active inside the enclosed work section rather than helpless or waiting passively.",
+    "Nimera establishes that she already tested reasonable non-destructive modern Crown access methods and that they do not address the Ancient mechanism that closed the section.",
+    "Nimera gives useful interior observations about the barrier without claiming to know its original purpose or solution.",
+    "Mirena's reason for sending the trio is conveyed concisely: Cyanis carries an abnormal Card, and the Crown has controlled evidence of a genuine royal magical authority response on unauthorized orders.",
+    "Nimera asks bounded observational questions and distinguishes observed Card behavior from interpretation without classifying it.",
+    "Nimera treats the seal problem as a question about magical response conditions, not visual forgery, without identifying a mechanism or culprit.",
+    "Torren contributes exterior physical observations Nimera cannot see from inside.",
+    "Cyanis begins to notice a broad structural/geometric resemblance to principles familiar from modern Crest work, but no shared origin or Ancient authority is established.",
+    "Ilyra supports the least destructive test path and does not let enclosure be mistaken for a medical emergency when Nimera is not injured.",
+    "The barrier remains closed at the end; the objective becomes opening it cooperatively in Beat 7."
+  ],
+  "forbidden_reveals": [
+    "prime_classification",
+    "might_identification",
+    "last_sentinel_wording_or_identity",
+    "stable_deep_ruby_card_state",
+    "prime_manifestation_or_recovery",
+    "confirmed_bearer_status",
+    "modern_crests_proven_to_derive_from_diysean_systems",
+    "cyanis_proven_to_have_ancient_authority",
+    "ancient_seal_copying_or_imbuing_mechanism",
+    "calder_hidden_transport_role",
+    "seal_culprit_or_exact_mechanism",
+    "cresthaven",
+    "nimera_permanent_recruitment"
+  ],
+  "forbidden_presentation": [
+    "nimera_as_helpless_rescue_target",
+    "computer_network_or_software_language_for_ancient_mechanism",
+    "combat_or_timed_hazard",
+    "full_barrier_solution_in_beat_6",
+    "chapter_1_2_exposition_dump",
+    "party_roll_call",
+    "micro_choreography_or_prop_business_for_flavor"
+  ],
+  "production_cost_ceiling": "economical_old_city_triggered_portrait_scene_with_barrier_visual"
+}
