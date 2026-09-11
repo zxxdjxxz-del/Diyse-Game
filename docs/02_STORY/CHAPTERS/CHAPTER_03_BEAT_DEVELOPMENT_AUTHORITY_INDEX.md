@@ -11,7 +11,7 @@
 - **Beat 6 — Scholar in Redacted Stacks:** `CHAPTER_03_BEAT_06_SCHOLAR_IN_REDACTED_STACKS_WORKING.md`
 - **Beat 7 — Ancient Barrier / First Cooperation:** `CHAPTER_03_BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_WORKING.md`
 - **Beat 8 — Archive Scribe Engine / Nimera Joins:** `CHAPTER_03_BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_WORKING.md`
-- **Beat 9 — Deeper Archive / Six-Face Markings:** `CHAPTER_03_BEAT_09_DEEPER_ARCHIVE_SIX_FACE_MARKINGS_FANTASY_REVISION.md` — supersedes the computer-like presentation wording in the earlier Beat-9 packet.
+- **Beat 9 — Buried Collections / Dormant Card Research:** `CHAPTER_03_BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_WORKING.md` — current Beat-9 authority; supersedes both earlier Beat-9 packets.
 - **Beats 10–15:** expanded skeleton currently remains in `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md` until individually developed.
 
 ## Active Chapter-3 party-state correction
@@ -27,14 +27,23 @@ This correction supersedes older Chapter-3 and Beat-5 wording that places Maevra
 ## Active Old City presentation correction
 `CHAPTER_03_OLD_CITY_FANTASY_PRESENTATION_LOCK.md` is active across Beats 5–12.
 
-Ancient Diysean material must read as **physical magical fantasy craft**, not computers/software/networks. Favor carved stone, fitted metal, sigils, wards, seals, moving shutters, archive rings, enchanted record chambers, scribing mechanisms, and visible magical craft.
+Ancient Diysean material must read as **physical magical fantasy craft**, not computers/software/networks. Favor carved stone, fitted metal, sigils, wards, seals, moving shutters, archive rings, enchanted record chambers, scribing mechanisms, old books/manuscripts, physical cases, and visible magical craft.
 
 Retire presentation language built around interfaces, permissions, routing protocols, classification engines, system states, credentials, nodes, or software-like recognition.
 
-The former working title **Beat 10 — Command Route / Authority Architecture** is retired.
+## Active Beat-9 research direction
+Beat 9 is now a substantial buried-library research sequence built around four connected questions:
+1. inactive / dormant Cards;
+2. Cyanis's Card's green-and-gold light;
+3. Queen Lysara's magical personal seal and older seal traditions;
+4. the location where Cyanis found the Card.
 
-Use:
-> **Beat 10 — Command Galleries / Hall of Seals**
+The beat ends after the party finds evidence that **someone recently researched the same cluster of subjects**, including still-open books / manuscripts concerning the Card's discovery location.
+
+The former Beat-10 working title **Command Route / Authority Architecture** is retired.
+
+The next active title is:
+> **Beat 10 — The Recent Reader / Hall of Seals**
 
 ## Rule
 When a beat has a dedicated developed working packet listed here, that packet is the current structural-development authority for that beat. The mandatory chapter-level story authority remains `CHAPTER_03.md`, plus:
@@ -53,6 +62,6 @@ Exact dialogue remains separate and must be generated later through the current 
 - Beat 6 — DEVELOPED, subject to fantasy-presentation lock
 - Beat 7 — DEVELOPED, subject to fantasy-presentation lock
 - Beat 8 — DEVELOPED; Nimera permanently joins; subject to fantasy-presentation lock
-- Beat 9 — DEVELOPED — **fantasy revision is current authority**
-- Beat 10 — NEXT DEVELOPMENT TARGET: **Command Galleries / Hall of Seals**
+- Beat 9 — DEVELOPED — **buried-library research revision is current authority**
+- Beat 10 — NEXT DEVELOPMENT TARGET: **The Recent Reader / Hall of Seals**
 - Beats 11–15 — expanded skeleton only
