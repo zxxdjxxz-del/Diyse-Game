@@ -16,7 +16,8 @@
 - **Beat 11 — First Command Warden:** `CHAPTER_03_BEAT_11_FIRST_COMMAND_WARDEN_WORKING.md`, with the active scan and final-message corrections below superseding conflicting wording.
 - **Beat 12 — Sealwright Chamber / The Copying Attempts:** original Beat-12 packet plus `CHAPTER_03_BEAT_12_SEAL_COPYING_CORRECTION.md`; the correction supersedes conflicting route-map and seal-copying wording.
 - **Beat 12 → Beat 13 transition:** `CHAPTER_03_BEAT_12_TO_13_ROYAL_MEETING_TRANSITION_LOCK.md`.
-- **Beats 13–15:** expanded skeleton currently remains in `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md` until individually developed.
+- **Beat 13 — Four Answers, Not One:** `CHAPTER_03_BEAT_13_FOUR_ANSWERS_NOT_ONE_WORKING.md`.
+- **Beats 14–15:** expanded skeleton currently remains in `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md` until individually developed.
 
 ## Active Chapter-3 party-state correction
 `CHAPTER_03_OLD_CITY_MAEVRA_MIRENA_CONTINUITY_LOCK.md` is active authority for the Old City split.
@@ -131,6 +132,44 @@ Once the player chooses to **leave the sealwright room / conclude the investigat
 
 The royal meeting is therefore the immediate opening state of Beat 13.
 
+## Active Beat-13 direction
+Beat 13 is the restricted Crown debrief and evidence synthesis.
+
+Mandatory participants:
+- Queen Lysara Ceryth;
+- Crown Princess Mirena Ceryth;
+- Maevra;
+- Cyanis;
+- Ilyra;
+- Torren;
+- Nimera Pellan.
+
+Calder is **not required to be present** for the full sensitive debrief.
+
+The beat produces four bounded answers:
+1. **Prime** = the Card's classification;
+2. **Might** = the Card's Face;
+3. **Last Sentinel** = the Card's designation / identity, **not Cyanis's title**;
+4. the sealwright evidence proves **someone was trying to reproduce the Yahtrean royal seal / Crest**, but successful reproduction of the genuine magical authority response remains unproven.
+
+Additional locks:
+- Cyanis remains the current physical carrier, but bearer / owner meaning remains unresolved;
+- the Card remains stable deep Ruby but **unrecovered, unmanifested, and unusable**;
+- `PREVIOUS ERROR` remains unresolved;
+- Queen Lysara still did not authorize the Card transport orders;
+- the suspect orders still carry her genuine magical authority response;
+- the Crown knows of no established successful historical duplication of the true royal response through a copied seal;
+- powerful magic was used in the practice attempts, but success is not established;
+- the recent reader / seal-copying practitioner remains unidentified;
+- the recent reader and practitioner may be the same person / effort, but that is not proven;
+- Calder's hidden transport role remains unrevealed;
+- Maevra re-enters physically here after remaining with Mirena during the Old City field sequence;
+- the **existing** earlier route clue continuing north becomes the next practical lead;
+- no new map is discovered in Beat 13;
+- Cresthaven identification remains reserved for Beat 14.
+
+Beat 13 hands directly into Crown map / historical-record comparison in Beat 14.
+
 ## Rule
 When a beat has a dedicated developed working packet listed here, that packet is the current structural-development authority for that beat, subject to any later explicit correction packets listed here. The mandatory chapter-level story authority remains `CHAPTER_03.md`, plus:
 - `CHAPTER_03_CLEANUP_OVERLAY.md` where it supersedes older ending/cleanup wording;
@@ -140,7 +179,8 @@ When a beat has a dedicated developed working packet listed here, that packet is
 - `CHAPTER_03_BEAT_11_WARDEN_SCAN_CORRECTION.md` for Warden activation / scan behavior;
 - `CHAPTER_03_BEAT_11_WARDEN_FINAL_MESSAGE_CORRECTION.md` for the shutdown-message sequence;
 - `CHAPTER_03_BEAT_12_SEAL_COPYING_CORRECTION.md` for the Beat-12 seal-copying evidence and removal of the new-map discovery;
-- `CHAPTER_03_BEAT_12_TO_13_ROYAL_MEETING_TRANSITION_LOCK.md` for the direct player-choice transition from the Old City to the royal debrief.
+- `CHAPTER_03_BEAT_12_TO_13_ROYAL_MEETING_TRANSITION_LOCK.md` for the direct player-choice transition from the Old City to the royal debrief;
+- `CHAPTER_03_BEAT_13_FOUR_ANSWERS_NOT_ONE_WORKING.md` for the Beat-13 royal debrief and bounded Card / seal conclusions.
 
 Exact dialogue remains separate and must be generated later through the current Agent-Brain rehearsal-first pipeline.
 
@@ -158,5 +198,6 @@ Exact dialogue remains separate and must be generated later through the current 
 - Beat 11 — DEVELOPED — **First Command Warden**, with active scan + final-message corrections
 - Beat 12 — DEVELOPED — **Sealwright Chamber / The Copying Attempts**, with active no-new-map + royal-seal-copying correction
 - Beat 12 → 13 transition — **LOCKED: choose to leave → cut directly to Queen Lysara + Mirena royal meeting upstairs in Caelora**
-- Beat 13 — NEXT DEVELOPMENT TARGET: **Four Answers, Not One**
-- Beats 14–15 — expanded skeleton only
+- Beat 13 — DEVELOPED — **Four Answers, Not One**
+- Beat 14 — NEXT DEVELOPMENT TARGET: **Cresthaven Identified / Journey Out**
+- Beat 15 — expanded skeleton only
