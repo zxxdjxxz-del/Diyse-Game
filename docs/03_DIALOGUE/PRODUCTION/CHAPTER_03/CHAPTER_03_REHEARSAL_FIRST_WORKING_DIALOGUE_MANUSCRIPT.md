@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE REHEARSAL-FIRST WORKING MANUSCRIPT — NOT CHAPTER-LOCKED  
 **Purpose:** current cumulative readable Chapter-3 dialogue manuscript.  
-**Mainline coverage:** Beats 1–2 currently drafted; Beats 3–15 pending sequential rehearsal-first production.  
+**Mainline coverage:** Beats 1–3 currently drafted; Beats 4–15 pending sequential rehearsal-first production.  
 **Character-Life coverage:** H01 and H03 pending later cleanup-window rehearsal passes.  
 **Standalone production drafts/specs remain the detailed implementation/canon authority for each scene.**
 
@@ -31,7 +31,7 @@
 
 - Beat 1 — Caelora Gate / Arrival — Draft A
 - Beat 2 — Royal Audience / The Chapter-2 Report — Draft A
-- Beat 3 — The Impossible Orders — pending
+- Beat 3 — The Impossible Orders — Draft A
 - Beat 4 — The Seal That Wasn't Used — pending
 - Beat 5 — Old City Access / Archive Descent — pending
 - Beat 6 — Scholar in Redacted Stacks — pending
@@ -332,3 +332,184 @@ Transition directly into:
 - the genuine magical royal-seal response has not yet been revealed.
 - no full Card-analysis scene occurs here.
 - the Beat ends on Lysara ordering the physical transport documents produced.
+
+---
+
+# BEAT 3 — THE IMPOSSIBLE ORDERS
+
+### [STORY TRIGGER — THE TRANSPORT ORDERS]
+
+Continue directly from Beat 2 in the same working royal audience.
+
+The original Card-transport authorization and attached routing / expenditure records are placed before the room. Keep the physical presentation ordinary and administrative; the documents should look like real Crown business, not villain props.
+
+**LYSARA:** This is the authorization?
+
+**MAEVRA:** Yes.
+
+**OTHMAR:** Routing, escort assignment, and expenditure are attached.
+
+Lysara reads enough to identify what the order claims.
+
+**LYSARA:** I have never seen this.
+
+A beat.
+
+**MIRENA:** The order?
+
+**LYSARA:** Any of it.
+
+**LYSARA:** Until this audience, I did not know a Card had been recovered in the Westways.
+
+**LYSARA:** I did not know Solmar had it. I did not know it was being brought to Caelora. I did not authorize Crown resources to move it here.
+
+Nobody treats forgetfulness as a live explanation.
+
+**MAEVRA:** The chain presented it as direct Crown authority.
+
+**OTHMAR:** Then the expenditure itself is suspect.
+
+**OTHMAR:** We do not send escorts and Crown coin chasing an inactive Card because someone found it in a ruin.
+
+**MAEVRA:** Somebody did.
+
+**OTHMAR:** Someone made the records say we did.
+
+A beat.
+
+**OTHMAR:** That distinction now matters.
+
+**MIRENA:** It passed through enough hands to function as an ordinary order.
+
+**OTHMAR:** Which gives us a chain to audit.
+
+### [AUTHENTICATION]
+
+The standard Crown first-line authentication check is performed on the suspect authorization.
+
+Use one restrained physical-magical response appropriate to established Crown procedure. Do not turn this into a technical spectacle.
+
+The royal seal mark answers with the recognized magical authority response.
+
+A silence.
+
+**MIRENA:** That's not just the Crest.
+
+**OTHMAR:** No.
+
+**LYSARA:** Say it plainly.
+
+**OTHMAR:** The order carries the genuine authority response of your personal royal seal.
+
+Lysara looks at the document.
+
+**LYSARA:** I did not seal this.
+
+A beat.
+
+**LYSARA:** I did not authorize anyone to seal it for me.
+
+**MIRENA:** Could the response itself be copied?
+
+**OTHMAR:** Not by anything our authentication practice recognizes as an ordinary forgery.
+
+**MIRENA:** That's not the same as impossible.
+
+**OTHMAR:** No.
+
+**TORREN:** So we know the response is real. Not how it got there.
+
+**OTHMAR:** Correct.
+
+**MAEVRA:** Then everyone in that transport chain trusted exactly what they were trained to trust.
+
+**LYSARA:** Yes.
+
+**LYSARA:** You were supposed to trust that response. So was everyone after you.
+
+No accusation follows. The problem remains the authority response itself.
+
+### [THE CARD]
+
+**MIRENA:** Then the Card's custody is part of the same problem.
+
+**ILYRA:** Moving it is a separate risk.
+
+Lysara looks to her.
+
+**ILYRA:** The one deliberate separation we tried made Cyanis ill and made the Card respond. Returning it stopped both.
+
+**LYSARA:** Dovaren.
+
+**CYANIS:** Majesty.
+
+**LYSARA:** Any change since Brackenwall?
+
+**CYANIS:** No.
+
+**ILYRA:** Not while it stays with him.
+
+A beat.
+
+**LYSARA:** Then it stays with him.
+
+**CYANIS:** Works for me.
+
+**LYSARA:** That was not a reward.
+
+**CYANIS:** Still works for me.
+
+Mirena almost smiles, but the room stays on the problem.
+
+**LYSARA:** Solmar remains responsible for its handling. We are not creating a second unknown merely to make the paperwork tidy.
+
+**MAEVRA:** Understood.
+
+### [EVIDENCE / NEXT STEP]
+
+**MIRENA:** Originals secured. Routing, expenditures, countersigns, everyone who handled the chain.
+
+**OTHMAR:** And legitimate sealed orders from the same period for comparison.
+
+**LYSARA:** Yes.
+
+A beat.
+
+**LYSARA:** Then my seal.
+
+**MIRENA:** Now?
+
+**LYSARA:** Now.
+
+**LYSARA:** I want the physical seal, its custody record, its recent legitimate uses, and the names of everyone permitted near it.
+
+**OTHMAR:** I'll have the verification room prepared.
+
+**LYSARA:** Good.
+
+**LYSARA:** And nobody becomes guilty because their name appears in a ledger.
+
+**LYSARA:** We start with what we can prove.
+
+The scene ends on controlled investigation rather than accusation.
+
+### [STORY HANDOFF]
+
+Transition directly into:
+
+**Beat 4 — The Seal That Wasn't Used.**
+
+---
+
+## Beat-3 production notes
+
+- Lysara's lack of prior knowledge is direct and unambiguous; nobody seriously proposes that she forgot authorizing the transport.
+- Calder's minimization reads as competent fiscal / administrative skepticism and does not expose his hidden responsibility for ordering the Card brought toward Caelora.
+- authentication establishes the genuine magical authority response of Lysara's personal seal, not merely a convincing visual Crest.
+- the scene does not decide whether the physical seal was accessed, removed, copied, remotely invoked, echoed, or otherwise reproduced.
+- Torren contributes only the evidence distinction: genuine response does not equal known mechanism.
+- Maevra is explicitly cleared of any implication that she should have ignored apparently genuine royal authority.
+- Cyanis remains physically in possession of the Card because moving it would introduce a known practical risk; this is not bearer confirmation.
+- the originals and attached records remain intact as evidence.
+- no culprit is named.
+- Beat 4 owns examination of the actual physical royal seal and its custody.
