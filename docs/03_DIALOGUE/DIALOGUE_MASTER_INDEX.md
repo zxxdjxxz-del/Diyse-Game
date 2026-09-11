@@ -23,6 +23,16 @@ Each participating character must use the current full Agent Brain/profile avail
 
 Owning lock: `AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`.
 
+### Story-beat guardrail hard lock
+
+> **Story structure controls the situation, hard outcomes, reveal boundaries, and gameplay state. It does not pre-write the conversational path.**
+
+Owning lock: `AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md`.
+
+Production specs must not assign speaker order, required conversational checkpoints, required jokes, motivation speeches, firewall dialogue, or one required verbal contribution to every present character. The Person Agents discover the route through the scene; the Editor shapes what survives; the Canon Checker remains invisible.
+
+This rule was added after Chapter-3 Beats 6–8 drifted too far toward checkpoint-driven scripting. Beats 6–8 have now been rerun under the corrected method, and Beat 9 onward must begin under it.
+
 The Railway/Render services are deployment/runtime implementations of the Agent Brain architecture/profile lineage; they do not supersede the current Agent Brain data or this authoring-workflow lock.
 
 ### Walking-dialogue hard lock
@@ -38,7 +48,7 @@ Owning detailed lock: `AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`.
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION** — `PRODUCTION/CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch1 | **COMPLETE CURRENT WORKING PRODUCTION** — `PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch2 | pending current Dialogue Engine production **under the locked Ch0–1 Agent Brain pipeline** |
-| Ch3 | **ACTIVE REHEARSAL-FIRST PRODUCTION** — standalone Beats 1–8 Draft A complete; cumulative readable manuscript currently assembled through Beat 5 at `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
+| Ch3 | **ACTIVE REHEARSAL-FIRST PRODUCTION** — standalone Beats 1–8 Draft A complete; **Beats 6–8 rerun under the story-beat-as-guardrail correction**; cumulative readable manuscript currently assembled through Beat 5 at `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch4 | pending current Dialogue Engine production under the locked Ch0–1 Agent Brain pipeline and current restructured story authority |
 | Ch5 | beat rewrite required before dialogue generation; subsequent dialogue uses the locked Ch0–1 Agent Brain pipeline |
 | Ch6 | macro/beat authority; dialogue pending under the locked Ch0–1 Agent Brain pipeline |
@@ -98,6 +108,7 @@ Current cumulative readable manuscript:
 Current cumulative assembly coverage:
 - Beats 1–5 are assembled in the cumulative manuscript.
 - Beats 6–8 are current as standalone production drafts and remain authoritative before the next cumulative assembly pass.
+- Beats 6–8 were fully rerun after the Agent-Brain freedom correction; Git history contains their retired checkpoint-driven versions.
 
 Current production status:
 - Beat 1 — **Caelora Gate / Arrival — Draft A**;
@@ -105,10 +116,11 @@ Current production status:
 - Beat 3 — **The Impossible Orders — Draft A**;
 - Beat 4 — **The Seal That Wasn't Used — Draft A**;
 - Beat 5 — **Old City Access / Archive Descent — Draft A**;
-- Beat 6 — **Scholar in Redacted Stacks — Draft A**;
-- Beat 7 — **Ancient Barrier / First Cooperation — Draft A**;
-- Beat 8 — **Archive Scribe Engine / Nimera Joins — Draft A**; Nimera permanently joins here and the active permanent combat party becomes Cyanis + Ilyra + Torren + Nimera;
-- Beats 9–15 — pending sequential rehearsal-first passes;
+- Beat 6 — **Scholar in Redacted Stacks — Draft A, AGENT-DRIVEN RERUN COMPLETE**;
+- Beat 7 — **Ancient Barrier / First Cooperation — Draft A, AGENT-DRIVEN RERUN COMPLETE**;
+- Beat 8 — **Archive Scribe Engine / Nimera Joins — Draft A, AGENT-DRIVEN RERUN COMPLETE**; Nimera permanently joins here and the active permanent combat party becomes Cyanis + Ilyra + Torren + Nimera;
+- Beat 9 — **NEXT LIVE TARGET**, generated from the start under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`;
+- Beats 10–15 — pending sequential rehearsal-first passes;
 - H01 — pending later cleanup pass with the two explicitly preserved Cyanis/Torren opening anchors;
 - H03 — pending fully agent-driven Ilyra/Nimera scene discovery during its rehearsal pass.
 
