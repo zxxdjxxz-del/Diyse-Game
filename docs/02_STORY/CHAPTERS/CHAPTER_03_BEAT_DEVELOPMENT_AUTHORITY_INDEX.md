@@ -17,8 +17,8 @@
 - **Beat 12 — Sealwright Chamber / The Copying Attempts:** original Beat-12 packet plus `CHAPTER_03_BEAT_12_SEAL_COPYING_CORRECTION.md`.
 - **Beat 12 → Beat 13 transition:** `CHAPTER_03_BEAT_12_TO_13_MIRENA_MEETING_CORRECTION.md` supersedes the older Queen+Mirena transition lock.
 - **Beat 13 — Mirena's Concern / Cresthaven Lead:** `CHAPTER_03_BEAT_13_MIRENA_DEBRIEF_CRESTHAVEN_LEAD_WORKING.md` supersedes `CHAPTER_03_BEAT_13_FOUR_ANSWERS_NOT_ONE_WORKING.md`.
-- **Beat 14 — Journey to Cresthaven:** `CHAPTER_03_BEAT_14_JOURNEY_TO_CRESTHAVEN_WORKING.md`.
-- **Beat 15 — Cresthaven Headquarters / Cleanup Window:** next development target.
+- **Beat 14 — Rest in Caelora / Morning Departure:** current content of `CHAPTER_03_BEAT_14_JOURNEY_TO_CRESTHAVEN_WORKING.md`; this rebuilt content supersedes the former playable-journey version despite the historical filename.
+- **Beat 15 — Cresthaven Headquarters / Cleanup Window:** `CHAPTER_03_BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_WORKING.md`.
 
 ## Active Chapter-3 party-state correction
 `CHAPTER_03_OLD_CITY_MAEVRA_MIRENA_CONTINUITY_LOCK.md` is active authority for the Old City split.
@@ -140,33 +140,51 @@ Still unresolved after Beat 13:
 - why the Yahtrean Crest appears on Ancient material;
 - the full historical meaning of Cresthaven.
 
-## Beat 14 — Journey to Cresthaven
-`CHAPTER_03_BEAT_14_JOURNEY_TO_CRESTHAVEN_WORKING.md` is current authority.
+## Beat 14 — Rest in Caelora / Morning Departure
+The current content of `CHAPTER_03_BEAT_14_JOURNEY_TO_CRESTHAVEN_WORKING.md` supersedes the former playable-journey version.
 
 Core outcomes:
-- Mirena quietly sends **Cyanis + Ilyra + Torren + Nimera** to investigate Cresthaven as the next physical lead;
-- Mirena does **not** become a traveling party member;
-- Maevra does **not** become a combat / traveling party member;
-- Mirena arranges a small practical Crown support / supply group and plans to be present with Maevra for the later headquarters handoff;
-- the journey north is **playable**, but it is not another large dungeon;
-- random encounters / side exploration may occur under current encounter / area-design authority;
-- ordinary walking dialogue remains avoided: gameplay → stop for a concrete reason → concise authored scene → gameplay;
-- the permanent four travel from actively used roads onto a more neglected forest route toward the abandoned site;
-- Cresthaven is revealed as an **abandoned forest Crown fort / former outpost built over or into older Diysean remains**;
-- Torren compares the physical geography to the existing copied Ancient map and confirms that Cresthaven is a strong match for the exact-Crest-marked location;
-- this confirmation does **not** explain why the exact Yahtrean Crest appears on Ancient material;
-- Beat 14 does **not** introduce a new mandatory boss;
-- the party reaches Cresthaven and establishes enough immediate safety for the small Crown support group to enter;
-- Mirena and Maevra are positioned to arrive / complete the initial headquarters handoff in Beat 15.
+- after identifying Cresthaven, **Mirena tells the party to rest for the night rather than leave immediately**;
+- she tells Cyanis, Ilyra, Torren, and Nimera to head for Cresthaven **the next morning when they are ready**;
+- Mirena says she will follow separately later the next day with **Maevra and an organized Crown support / work team**;
+- the permanent four receive a genuine **rest / decompression scene** in Caelora;
+- the rest scene is character-first: food, cleaning up, treatment, fatigue, ordinary interaction, and the new four-person group existing together outside a crisis;
+- the scene does not become another exposition meeting and does not trigger a new Card reveal;
+- the night passes without a mandatory dream / attack / magical escalation;
+- the next morning opens a short player-controlled preparation window in Caelora;
+- the player decides when to select **Leave for Cresthaven**;
+- the road journey itself is **skipped**, not played as another field dungeon / random-encounter stretch;
+- Beat 14 ends on the departure / travel transition.
 
-Still unresolved after Beat 14:
+## Beat 15 — Cresthaven Headquarters / Cleanup Window
+`CHAPTER_03_BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_WORKING.md` is current authority.
+
+Core outcomes:
+- Beat 15 opens **outside Cresthaven** after the travel cut;
+- **Mirena and Maevra are already there**;
+- a **full practical work crew** is actively cleaning, clearing debris, opening rooms, moving supplies, checking roofs / doors, and making the abandoned fort usable;
+- Cresthaven is revealed as an **abandoned forest Crown fort / former outpost built over and into much older Diysean structure**;
+- Mirena explains that the party may use Cresthaven as their **headquarters while they are helping her investigate**;
+- this is an operational base, not a permanent grant of ownership or a military command appointment;
+- minimum hub functions are established: rest / sleeping space, supplies, records / map work, basic medical space, and usable departure access;
+- parts of the fort remain dusty / unsafe / sealed so the base still visibly feels under restoration;
+- Mirena and Maevra complete the initial handoff and then **return to Caelora**;
+- Mirena and Maevra do not become default Cresthaven residents or traveling party members;
+- the normal resident / traveling party becomes **Cyanis + Ilyra + Torren + Nimera**;
+- Chapter-3 cleanup opens under `CHAPTER_03_CLEANUP_OVERLAY.md`;
+- active cleanup Character-Life scenes remain **H01 — Nimera Takes Over a Table** and **H03 — Ilyra and Nimera**;
+- Regional Hunt #3 — Archive Judgment Engine remains cleanup content under its access rules;
+- Chapter 4 begins only when the player deliberately chooses **Begin Chapter 4** from Cresthaven.
+
+Still unresolved after the mandatory Chapter-3 story:
 - recent reader / seal-copying identities;
+- whether they are the same person;
 - Calder's hidden role;
 - successful royal-seal duplication;
 - actual mechanism behind the suspect orders;
 - `PREVIOUS ERROR`;
 - full Last Sentinel meaning / recovery;
-- why the Yahtrean Crest appears on Ancient material;
+- why the exact Yahtrean Crest appears on Ancient material;
 - Cresthaven's full Diysean purpose;
 - the ultimate northward-route destination.
 
@@ -190,5 +208,6 @@ Exact dialogue remains separate and must be generated later through the current 
 - Beat 12 — DEVELOPED — Sealwright Chamber / The Copying Attempts
 - Beat 12 → 13 — LOCKED — leave → direct cut to Mirena upstairs; Queen absent
 - Beat 13 — DEVELOPED — Mirena's Concern / Cresthaven Lead
-- Beat 14 — DEVELOPED — **Journey to Cresthaven**
-- Beat 15 — NEXT DEVELOPMENT TARGET — **Cresthaven Headquarters / Cleanup Window**
+- Beat 14 — DEVELOPED — **Rest in Caelora / Morning Departure**
+- Beat 15 — DEVELOPED — **Cresthaven Headquarters / Cleanup Window**
+- Mandatory Chapter-3 structural beat development — **COMPLETE through Beat 15**, subject to future explicit revisions and later Dialogue Engine passes.
