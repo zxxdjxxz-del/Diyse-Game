@@ -48,7 +48,7 @@ Owning detailed lock: `AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`.
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION** — `PRODUCTION/CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch1 | **COMPLETE CURRENT WORKING PRODUCTION** — `PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch2 | pending current Dialogue Engine production **under the locked Ch0–1 Agent Brain pipeline** |
-| Ch3 | **ACTIVE REHEARSAL-FIRST PRODUCTION** — standalone Beats 1–13 Draft A complete; **Beats 6–8 rerun under the story-beat-as-guardrail correction; Beats 9–13 created under that method from the start**; cumulative readable manuscript currently assembled through Beat 5 at `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
+| Ch3 | **ACTIVE REHEARSAL-FIRST PRODUCTION** — standalone Beats 1–14 Draft A complete; **Beats 6–8 rerun under the story-beat-as-guardrail correction; Beats 9–14 created under that method from the start**; cumulative readable manuscript currently assembled through Beat 5 at `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch4 | pending current Dialogue Engine production under the locked Ch0–1 Agent Brain pipeline and current restructured story authority |
 | Ch5 | beat rewrite required before dialogue generation; subsequent dialogue uses the locked Ch0–1 Agent Brain pipeline |
 | Ch6 | macro/beat authority; dialogue pending under the locked Ch0–1 Agent Brain pipeline |
@@ -107,9 +107,9 @@ Current cumulative readable manuscript:
 
 Current cumulative assembly coverage:
 - Beats 1–5 are assembled in the cumulative manuscript.
-- Beats 6–13 are current as standalone production drafts and remain authoritative before the next cumulative assembly pass.
+- Beats 6–14 are current as standalone production drafts and remain authoritative before the next cumulative assembly pass.
 - Beats 6–8 were fully rerun after the Agent-Brain freedom correction; Git history contains their retired checkpoint-driven versions.
-- Beats 9–13 were authored from the start under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`.
+- Beats 9–14 were authored from the start under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`.
 
 Current production status:
 - Beat 1 — **Caelora Gate / Arrival — Draft A**;
@@ -124,9 +124,9 @@ Current production status:
 - Beat 10 — **The Recent Reader / Hall of Seals — Draft A, GUARDRAIL-FIRST AGENT-BRAIN PASS COMPLETE**;
 - Beat 11 — **First Command Warden — Draft A, GUARDRAIL-FIRST AGENT-BRAIN PASS COMPLETE**; Warden assessment → battle → `PREVIOUS ERROR` → `LAST SENTINEL CONFIRMED` → Warden inert → Card stable deep Ruby;
 - Beat 12 — **Sealwright Chamber / The Copying Attempts — Draft A, GUARDRAIL-FIRST AGENT-BRAIN PASS COMPLETE**; visible Crest copying is separated from genuine royal magical authority, practitioner remains unidentified, and the Old City field section ends on exit with a direct cut back to Caelora;
-- Beat 13 — **Mirena's Concern / Cresthaven Lead — Draft A, GUARDRAIL-FIRST AGENT-BRAIN PASS COMPLETE**; Mirena asks the party to continue investigating directly, and the existing Chapter-2 Ancient map/mural evidence is re-read against Crown geography to identify the marked northern site as probably **Cresthaven**;
-- Beat 14 — **NEXT LIVE TARGET — Rest in Caelora / Morning Departure**;
-- Beat 15 — pending sequential rehearsal-first pass;
+- Beat 13 — **Mirena's Concern / Cresthaven Lead — Draft A, GUARDRAIL-FIRST AGENT-BRAIN PASS COMPLETE**; Mirena asks the party to continue investigating directly, and the existing Chapter-2 Ancient map/mural evidence is re-read against Crown geography to identify the marked northern site as probably **Cresthaven**; Maevra's debrief role is deliberately minimal and limited to Crown-side facts;
+- Beat 14 — **Rest in Caelora / Morning Departure — Draft A, GUARDRAIL-FIRST AGENT-BRAIN PASS COMPLETE**; Mirena requires an overnight pause, the permanent four receive a low-pressure ordinary evening together, morning opens a player preparation window, and selecting departure skips the road directly to Cresthaven;
+- Beat 15 — **NEXT LIVE TARGET — Cresthaven Headquarters / Cleanup Window**;
 - H01 — pending later cleanup pass with the two explicitly preserved Cyanis/Torren opening anchors;
 - H03 — pending fully agent-driven Ilyra/Nimera scene discovery during its rehearsal pass.
 
@@ -157,6 +157,8 @@ Current Chapter-3 standalone files:
 - `PRODUCTION/CHAPTER_03/BEAT_12_SEALWRIGHT_CHAMBER_COPYING_ATTEMPTS_DRAFT_A.md`
 - `PRODUCTION/CHAPTER_03/BEAT_13_MIRENAS_CONCERN_CRESTHAVEN_LEAD_SPEC.json`
 - `PRODUCTION/CHAPTER_03/BEAT_13_MIRENAS_CONCERN_CRESTHAVEN_LEAD_DRAFT_A.md`
+- `PRODUCTION/CHAPTER_03/BEAT_14_REST_IN_CAELORA_MORNING_DEPARTURE_SPEC.json`
+- `PRODUCTION/CHAPTER_03/BEAT_14_REST_IN_CAELORA_MORNING_DEPARTURE_DRAFT_A.md`
 
 Chapter 3 uses the current consolidated 15-beat story authority in `docs/02_STORY/CHAPTERS/CHAPTER_03.md` plus the explicit Beat-11 scan/final-message corrections and Beat-12 seal-copying correction.
 
