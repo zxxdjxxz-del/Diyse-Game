@@ -1,26 +1,25 @@
 # Chapter 2 — Dialogue Authority Index
 
 **Chapter:** 2 — The Drowned Oath  
-**Status:** COMPLETE CURRENT WORKING PRODUCTION — 16-BEAT MAINLINE + C06; NATURAL-TURN / FLOOR-HOLDING RHYTHM AUDIT COMPLETE  
+**Status:** COMPLETE CURRENT WORKING PRODUCTION — 16-BEAT MAINLINE + C05; NATURAL-TURN / FLOOR-HOLDING RHYTHM AUDIT COMPLETE  
 **Primary locked story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Beat-development authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
 **Dialogue workflow authority:** `../../AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`  
+**Character-Life numbering authority:** `../CHARACTER_LIFE_NUMBERING_LOCK.md`  
 **Rhythm authority:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
 **Single-file synchronized read-through:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
 
 ## Purpose
-This file is the authoritative map for where current Chapter-2 dialogue lives after the retroactive natural-turn rhythm audit.
+This file is the authoritative map for current Chapter-2 dialogue after the retroactive natural-turn rhythm audit and Character-Life numbering normalization.
 
 ## Authority rule
 
-Chapter 2 now deliberately keeps both forms:
+Chapter 2 keeps both forms:
 
-1. the **standalone scene files** below are the atomic edit authorities for exact scene wording;
-2. `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` is the **complete synchronized single-file read-through**, containing all 16 current mainline beats plus C06.
+1. the standalone scene files are the atomic edit authorities for exact wording;
+2. `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` is the complete synchronized single-file read-through.
 
-The combined manuscript records each embedded source file's Git blob SHA. If a source scene changes, the combined manuscript must be resynchronized and its SHA marker updated. A SHA mismatch means the standalone source wins until synchronization is repaired.
-
-This gives the project one file that can be read, exported, audited, or handed to another chat without abandoning the safer scene-by-scene editing structure.
+The synchronized manuscript was generated before the global Character-Life renumber and therefore embeds the legacy source key `C06` for **Still Burns**. That label is implementation provenance only. Its canonical live ID is **C05** under `../CHARACTER_LIFE_NUMBERING_LOCK.md`.
 
 ## Mainline dialogue locations
 
@@ -44,11 +43,11 @@ This gives the project one file that can be read, exported, audited, or handed t
 ## Character-Life dialogue
 
 Current Chapter-2 cleanup Character-Life scene:
-- `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
+- **C05 — Still Burns** — legacy atomic source key `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
 
-C06 is available after the Beat-16 Dunmere elder resolution and before the explicit Chapter-3 advance interaction. In the synchronized manuscript it therefore appears after the intact Beat 1–16 mainline.
+C05 is available after the Beat-16 Dunmere elder resolution and before the explicit Chapter-3 advance interaction.
 
-Former separate C07 remains retired and folded into C06.
+A former separate Chapter-2 concept historically labeled `C07` remains retired. Its useful material was folded into **C05 — Still Burns**. Historical retirement does not reserve canonical `C07`; current canonical C07 belongs to Chapter 3.
 
 ## Natural-turn audit
 
@@ -59,7 +58,7 @@ Material rhythm corrections:
 - Beat 10 — prisoner witness accounts / holding-transit discovery;
 - Beat 11 — safe-area plan / route / Maevra staying / ascent plan;
 - Beat 16 — Dunmere debrief / chapter landing;
-- C06 — Character-Life comedy cadence.
+- **C05 — Still Burns** — Character-Life comedy cadence.
 
 Audited and intentionally preserved as predominantly terse/mixed because the situation earns it:
 - Beats 1, 3–4, 7–9, 12–15.
@@ -84,11 +83,12 @@ Beat 3 and Beat 9 received minor consolidation while preserving their underlying
 If Chapter-2 sources disagree:
 1. `../../../02_STORY/CHAPTERS/CHAPTER_02.md` and later explicit user corrections;
 2. current beat-development authority where non-conflicting;
-3. this index for locating exact current dialogue and synchronized-read-through status;
-4. the listed standalone current scene file for exact wording;
-5. `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` as the synchronized read-through copy when its recorded source SHAs match the current standalone files;
-6. historical/migration/archive material only as provenance.
+3. `../CHARACTER_LIFE_NUMBERING_LOCK.md` for Character-Life IDs;
+4. this index for locating exact current dialogue and synchronized-read-through status;
+5. listed standalone scene file for exact wording;
+6. synchronized read-through when its recorded source SHA matches the standalone file;
+7. historical/migration/archive material only as provenance.
 
 Exact combat stats, skills, AI, encounter rewards, and numeric balance remain under battle/encounter authority.
 
-> **Chapter 2 mainline dialogue + C06 are content-complete, have passed the natural-turn / floor-holding rhythm audit, and now have a complete synchronized single-file read-through.**
+> **Chapter 2 mainline dialogue + canonical C05 are content-complete and rhythm-audited.**
