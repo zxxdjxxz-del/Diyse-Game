@@ -1,6 +1,6 @@
 # Chapter 3 — Beat 2
 # Royal Audience / The Chapter-2 Report
-## DIALOGUE ENGINE PRODUCTION DRAFT A — rehearsal-first Agent-Brain pass / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT A — rehearsal-first Agent-Brain pass — NATURAL-TURN RHYTHM PASS
 
 ---
 
@@ -14,33 +14,13 @@ Simple field placement only. Portraits + dialogue box carry the conversation.
 
 **LYSARA:** Commander. Start with the people.
 
-**MAEVRA:** The prisoners still in the Bastion are out. The corridor is open again.
-
-A beat.
-
-**MAEVRA:** Rhazek is alive.
-
-**MIRENA:** He got away.
-
-**MAEVRA:** With what remained organized enough to move.
-
-**OTHMAR:** Direction?
-
-**MAEVRA:** None I can defend.
+**MAEVRA:** The prisoners still in the Bastion are out and the corridor is open again. Rhazek is alive; he withdrew with what remained organized enough to move. I don't have a direction I can defend.
 
 **LYSARA:** Earlier transfers?
 
 **MAEVRA:** Gone before we reached them.
 
-**ILYRA:** Prisoners said groups had already been moved out.
-
-**LYSARA:** Did anyone know where?
-
-**ILYRA:** No one I spoke to.
-
-**MIRENA:** Condition of the people you did recover?
-
-**ILYRA:** Mixed. Exhausted. Some injured badly enough that the route we used wasn't an evacuation route.
+**ILYRA:** Prisoners said groups had already been moved out. No one I spoke to knew where. The people we did recover were in mixed condition—exhausted, some injured badly enough that the route we used in wasn't an evacuation route.
 
 **MIRENA:** So reopening the road mattered.
 
@@ -48,17 +28,9 @@ A beat.
 
 **OTHMAR:** The route you used began in the Old Waterworks?
 
-**MAEVRA:** Yes.
+**MAEVRA:** Yes. Then it stopped being Dunmere construction.
 
-**TORREN:** Then it became older construction.
-
-**OTHMAR:** Black Host work?
-
-**TORREN:** No.
-
-**OTHMAR:** Certain?
-
-**TORREN:** About that, yes. Their work sits on it. It didn't make it.
+**TORREN:** Much older. Not Black Host work; I'm certain about that. Their work sits on it. It didn't make it.
 
 **MAEVRA:** The old route eventually opened into foundations beneath the Bastion. That's how we got inside without taking the occupied road.
 
@@ -72,27 +44,23 @@ A beat.
 
 Torren's existing Chapter-2 copy is put where the room can examine it. No bespoke map animation is required.
 
-**TORREN:** I copied placement, route relationships, and the marks that mattered. Not every line on the wall.
-
-**OTHMAR:** How exact is the scale?
-
-**TORREN:** Good enough to compare positions. Not good enough to survey from.
+**TORREN:** I copied placement, route relationships, and the marks that mattered. Not every line on the wall. Scale's good enough to compare positions, not good enough to survey from.
 
 Mirena studies the copy.
 
 **MIRENA:** This is where Caelora is now.
 
-**TORREN:** Same location.
+**TORREN:** Same location. The city on the mural is much larger than Caelora is now.
 
-**LYSARA:** The city shown there is much larger.
-
-**TORREN:** Much.
+**LYSARA:** Much larger.
 
 A brief silence.
 
-**MIRENA:** And this structure north of it.
+Mirena looks north of the city representation.
 
-**TORREN:** Separate from the city on the mural.
+**MIRENA:** And this structure is separate.
+
+**TORREN:** Yes.
 
 **MIRENA:** That's our Crest.
 
@@ -100,21 +68,9 @@ A brief silence.
 
 **OTHMAR:** No ambiguity in the copy?
 
-**TORREN:** None about the mark.
+**TORREN:** None about the mark. That's what was on the wall. What the structure was, I don't know.
 
-**MIRENA:** On something that old.
-
-**TORREN:** That's what was on the wall.
-
-**LYSARA:** Do you know what the structure was?
-
-**TORREN:** No.
-
-**LYSARA:** Good.
-
-Torren looks at her.
-
-**LYSARA:** You know what you copied. You don't know what it meant. Keep those separate.
+**LYSARA:** Good. You know what you copied. You don't know what it meant. Keep those separate.
 
 **TORREN:** Was planning to.
 
@@ -126,11 +82,7 @@ Torren looks at her.
 
 The report moves on rather than turning the mural into a solved history lesson.
 
-**MAEVRA:** There's one more part of this.
-
-**LYSARA:** The Card.
-
-**MAEVRA:** Recovered from the Diysean ruins in the Westways. It was already being moved toward Caelora under what we understood to be Crown authority.
+**MAEVRA:** There's one more part of this. The Card was recovered from the Diysean ruins in the Westways, and it was already being moved toward Caelora under what we understood to be Crown authority.
 
 Lysara's attention shifts to Cyanis.
 
@@ -140,19 +92,9 @@ Lysara's attention shifts to Cyanis.
 
 **LYSARA:** By necessity or preference?
 
-**ILYRA:** Necessity is safer.
+**ILYRA:** Necessity is safer. We only tested separation once on purpose. His pulse went bad, he started shaking, and the Card answered green and gold toward him. Returning it stopped the response.
 
-**CYANIS:** I was going to say preference.
-
-**ILYRA:** You would've been wrong.
-
-A beat.
-
-**LYSARA:** What happens when it leaves him?
-
-**ILYRA:** We only tested separation once on purpose. His pulse went bad. Tremor. The Card answered green and gold toward him. Returning it stopped the response.
-
-**CYANIS:** We decided curiosity had limits.
+**CYANIS:** I was going to say preference, but apparently I would've been wrong. We decided curiosity had limits.
 
 **MAEVRA:** It has stayed with him since.
 
@@ -188,9 +130,9 @@ Transition directly into:
 
 ## Beat-2 production notes
 
-- Maevra owns the report rather than every participant taking a turn.
-- Ilyra speaks specifically where prisoner condition/testimony provenance belongs to her firsthand role.
-- Torren owns route and mural evidence and repeatedly distinguishes copied fact from interpretation.
+- Maevra owns the report rather than every participant taking a turn; her field summary now lands in complete report units before questions interrupt it.
+- Ilyra speaks specifically where prisoner condition/testimony provenance belongs to her firsthand role and is allowed to finish the linked testimony/condition thought.
+- Torren owns route and mural evidence and repeatedly distinguishes copied fact from interpretation without being interrogated one clause at a time.
 - Lysara asks consequence/provenance questions and does not yet state her full ignorance of the Card transport.
 - Mirena notices the Old City as a future evidence source without jumping ahead to Nimera.
 - Calder behaves as a credible Chancellor: provenance, records, routing, and documentation matter to him. His deliberate transport minimization is held for Beat 3.
