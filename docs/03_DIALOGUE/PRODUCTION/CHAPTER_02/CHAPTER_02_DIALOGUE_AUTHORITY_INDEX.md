@@ -6,13 +6,21 @@
 **Beat-development authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
 **Dialogue workflow authority:** `../../AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`  
 **Rhythm authority:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
-**Chapter assembly:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+**Single-file synchronized read-through:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
 
 ## Purpose
 This file is the authoritative map for where current Chapter-2 dialogue lives after the retroactive natural-turn rhythm audit.
 
-Hard authority rule:
-> **Every Chapter-2 mainline beat now has one standalone exact current dialogue authority. The chapter assembly file owns order/status and no longer carries a competing duplicate transcript.**
+## Authority rule
+
+Chapter 2 now deliberately keeps both forms:
+
+1. the **standalone scene files** below are the atomic edit authorities for exact scene wording;
+2. `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` is the **complete synchronized single-file read-through**, containing all 16 current mainline beats plus C06.
+
+The combined manuscript records each embedded source file's Git blob SHA. If a source scene changes, the combined manuscript must be resynchronized and its SHA marker updated. A SHA mismatch means the standalone source wins until synchronization is repaired.
+
+This gives the project one file that can be read, exported, audited, or handed to another chat without abandoning the safer scene-by-scene editing structure.
 
 ## Mainline dialogue locations
 
@@ -37,6 +45,8 @@ Hard authority rule:
 
 Current Chapter-2 cleanup Character-Life scene:
 - `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
+
+C06 is available after the Beat-16 Dunmere elder resolution and before the explicit Chapter-3 advance interaction. In the synchronized manuscript it therefore appears after the intact Beat 1–16 mainline.
 
 Former separate C07 remains retired and folded into C06.
 
@@ -74,11 +84,11 @@ Beat 3 and Beat 9 received minor consolidation while preserving their underlying
 If Chapter-2 sources disagree:
 1. `../../../02_STORY/CHAPTERS/CHAPTER_02.md` and later explicit user corrections;
 2. current beat-development authority where non-conflicting;
-3. this index for locating exact current dialogue;
+3. this index for locating exact current dialogue and synchronized-read-through status;
 4. the listed standalone current scene file for exact wording;
-5. `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` for assembly/order/status;
+5. `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` as the synchronized read-through copy when its recorded source SHAs match the current standalone files;
 6. historical/migration/archive material only as provenance.
 
 Exact combat stats, skills, AI, encounter rewards, and numeric balance remain under battle/encounter authority.
 
-> **Chapter 2 mainline dialogue + C06 are content-complete and have passed the natural-turn / floor-holding rhythm audit.**
+> **Chapter 2 mainline dialogue + C06 are content-complete, have passed the natural-turn / floor-holding rhythm audit, and now have a complete synchronized single-file read-through.**
