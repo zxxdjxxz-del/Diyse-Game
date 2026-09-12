@@ -1,8 +1,10 @@
 # Chapter 3 — Beat 12
 # Sealwright Chamber / The Copying Attempts
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL
+## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — NATURAL-TURN RHYTHM PASS
 
 **Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the post-Warden situation, the physical evidence progression, the required distinction between visible copying and genuine magical authority, the no-map correction, the Caelora exit state, and reveal firewalls. It was not given a speaker order or assigned one required conclusion to each party member.
+
+**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. The key evidentiary distinctions now remain in the mouth of the person who owns them instead of being split into one-sentence handoffs.
 
 ---
 
@@ -38,13 +40,9 @@ Nimera follows his attention.
 
 There are discarded practice impressions beside the Ancient tools: rough seal faces pressed into wax / clay / test parchment, some cracked, some incomplete.
 
-**NIMERA:** No.
-
-A beat.
+**NIMERA:** No. And neither is that.
 
 She looks farther down the bench.
-
-**NIMERA:** And neither is that.
 
 One copied seal face is recognizably based on an Ancient example preserved in the chamber.
 
@@ -55,8 +53,6 @@ Another cleaner still.
 **CYANIS:** Somebody practiced here.
 
 **TORREN:** More than once.
-
-Nimera studies the sequence.
 
 **NIMERA:** A lot more than once.
 
@@ -84,8 +80,6 @@ Cyanis stops before one of the later impressions.
 
 **CYANIS:** That's ours.
 
-Nimera looks over.
-
 **NIMERA:** Yes.
 
 Several versions of the Crest of Yahtrea sit beside one another.
@@ -98,17 +92,11 @@ The later ones are not.
 
 Cyanis studies the linework.
 
-**CYANIS:** That one would pass at a glance.
-
-He points to a later impression.
-
-**CYANIS:** Maybe longer than a glance.
+**CYANIS:** That one would pass at a glance. Maybe longer than a glance.
 
 Nimera looks past the face of the seal to the surrounding binding work.
 
 **NIMERA:** Visually.
-
-A beat.
 
 **CYANIS:** Right.
 
@@ -124,29 +112,13 @@ Torren looks across the damage.
 
 Nimera crouches only enough to read the surviving residue and engraved relationship. No one activates the work.
 
-**NIMERA:** Hard.
-
-**CYANIS:** How hard?
-
-Nimera looks at a burned channel cut into a work surface built to withstand heavy magical use.
-
 **NIMERA:** Hard enough to hurt a room designed for this.
-
-A beat.
 
 **ILYRA:** Did it work?
 
 Nimera looks from the copied Crest to the failed binding traces.
 
-**NIMERA:** I can prove they made the mark.
-
-She indicates the scorched workings.
-
-**NIMERA:** I can prove they tried to make it more than a mark.
-
-She looks back at Ilyra.
-
-**NIMERA:** I cannot prove they ever got the royal response.
+**NIMERA:** I can prove they made the mark. I can prove they tried to make it more than a mark. I cannot prove they ever got the royal response.
 
 Silence.
 
@@ -168,15 +140,9 @@ There are enough repeated tool positions, discarded attempts, and reused work su
 
 **TORREN:** Same work kept getting cleaner.
 
-Nimera looks at the sequence again.
+Nimera looks over the whole sequence again.
 
-**NIMERA:** Ancient forms first. Then Yahtrean.
-
-She reaches the royal-document copies with her eyes rather than her hands.
-
-**NIMERA:** Then these.
-
-**CYANIS:** And finally the Crest.
+**NIMERA:** Ancient forms first. Then Yahtrean. Then royal-document copies. Finally the Crest.
 
 Nobody needs to summarize the implication further.
 
@@ -184,13 +150,7 @@ Torren glances back toward the chamber entrance.
 
 **TORREN:** Same person as the books?
 
-Nimera considers it.
-
-**NIMERA:** Maybe.
-
-**TORREN:** That's all?
-
-**NIMERA:** That's all I have.
+**NIMERA:** Maybe. That's all I have.
 
 Torren accepts it.
 
@@ -206,11 +166,7 @@ Nimera notices.
 
 **CYANIS:** Still Ruby.
 
-**NIMERA:** Good.
-
-**CYANIS:** Good?
-
-**NIMERA:** Stable is easier to write down than whatever the hell it was doing before.
+**NIMERA:** Good. Stable is easier to write down than whatever the hell it was doing before.
 
 **CYANIS:** Comforting.
 
@@ -236,11 +192,7 @@ Cyanis looks at the repeated royal Crest attempts.
 
 **NIMERA:** Copies of it.
 
-**CYANIS:** Obviously.
-
-Nimera looks at him.
-
-**CYANIS:** I'm learning.
+**CYANIS:** Obviously. I'm learning.
 
 **NIMERA:** Slowly.
 
@@ -277,7 +229,7 @@ Transition into:
 - Cyanis recognizes the late-stage Crest work naturally through familiarity rather than receiving a terminology lecture.
 - Later visual copies are highly accurate, but visible accuracy is kept distinct from the genuine magical authority response.
 - Burned / repeated binding work establishes unusually powerful magical effort.
-- The scene states the central evidence boundary once: the party can prove the visible copies and the attempts to make them magically meaningful, but not successful reproduction of Lysara's authority response.
+- The scene states the central evidence boundary once, in one complete Nimera turn: the party can prove the visible copies and the attempts to make them magically meaningful, but not successful reproduction of Lysara's authority response.
 - The recent reader and seal practitioner may be connected, but Beat 12 does not prove they are the same person.
 - the practitioner remains unidentified and is not proven to have authored the suspect Card transport orders.
 - Cyanis's Card remains stable deep Ruby with no transformation, Prime recovery, manifestation, identification, or gameplay unlock.
