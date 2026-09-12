@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 11
 # Hollow Watch Resolution / Torren Recruitment
-## DIALOGUE ENGINE PRODUCTION DRAFT D — NATURAL-TURN RHYTHM PASS / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT D — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT / awaiting user approval
 
 ---
 
@@ -26,13 +26,13 @@ The relevant characters may appear as simple field models. Portraits and the dia
 
 A beat.
 
-**MAEVRA:** Greenhollow needs word before dark. Fort taken, garrison dead, excavation below it, Castellan active until we put it down, and the mural behind it.
+**MAEVRA:** Greenhollow needs word before dark. Full report, including the mural.
 
 **CYANIS:** I was going to include the mural.
 
 **ILYRA:** Eventually.
 
-**MAEVRA:** Greenhollow can send the report onward and get people up here who can actually hold the site.
+**MAEVRA:** They can send it onward and get people up here who can actually hold the site.
 
 Torren looks back toward the fort.
 
@@ -174,10 +174,10 @@ Next mandatory story beat: **Beat 12 — Southern Briar Passage.**
 
 ---
 
-## Natural-turn / presentation check
+## Audit check
 
 - Torren's recruitment remains understated, but he is no longer forced to express a complete decision as four separate one-sentence answers.
-- Maevra gives the operational Hollow Watch handoff in one competent report turn.
+- Maevra no longer recites the full Hollow Watch beat list to the people who just lived it. She names the reporting task and the one item easy to omit: the mural.
 - Torren can explain both why he is leaving Greenhollow and why he wants the Junction stop without becoming verbose or sentimental.
 - Rapid teasing remains where it belongs to the relationships.
 - No recruitment, route, mural, Card, or gameplay outcome changed.
