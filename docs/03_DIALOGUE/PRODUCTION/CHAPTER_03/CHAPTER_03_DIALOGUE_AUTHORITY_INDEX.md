@@ -1,7 +1,7 @@
 # Chapter 3 — Dialogue Authority Index
 
 **Chapter:** 3  
-**Status:** CURRENT WORKING DIALOGUE AUTHORITY MAP — 15-BEAT MAINLINE PASS COMPLETE; H01 CLEANUP DIALOGUE COMPLETE  
+**Status:** CURRENT WORKING DIALOGUE AUTHORITY MAP — 15-BEAT MAINLINE PASS COMPLETE; H01 + H03 CLEANUP DIALOGUE COMPLETE  
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_03.md`  
 **Dialogue workflow authority:** `../../AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`  
 **Guardrail workflow authority:** `../../AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md`
@@ -10,9 +10,9 @@
 This file is the authoritative map for where current Chapter-3 dialogue lives.
 
 Hard authority rule:
-> **Chapter 3 has current working dialogue for all fifteen mainline beats. The older cumulative manuscript currently contains only Beats 1–5 and must not be interpreted as the full Chapter-3 dialogue state.**
+> **Chapter 3 has current working dialogue for all fifteen mainline beats and both active cleanup Character-Life scenes. The older cumulative manuscript currently contains only Beats 1–5 and must not be interpreted as the full Chapter-3 dialogue state.**
 
-Until a later full assembly pass replaces the cumulative manuscript, the standalone Beat files listed below are the exact current mainline dialogue authority.
+Until a later full assembly pass replaces the cumulative manuscript, the standalone Beat and Character-Life files listed below are the exact current Chapter-3 dialogue authority.
 
 ## Mainline dialogue locations
 
@@ -35,9 +35,9 @@ Until a later full assembly pass replaces the cumulative manuscript, the standal
 ## Cumulative manuscript status
 `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` is currently a partial assembled reading copy through Beat 5 only.
 
-It is **not** the authority for determining whether Beats 6–15 exist.
+It is **not** the authority for determining whether Beats 6–15 or the cleanup Character-Life scenes exist.
 
-Do not overwrite or discard the standalone current Beat files merely to make the cumulative manuscript appear complete. A later deliberate assembly pass may rebuild the manuscript from the current standalone authorities.
+Do not overwrite or discard the standalone current Beat / Character-Life files merely to make the cumulative manuscript appear complete. A later deliberate assembly pass may rebuild the manuscript from the current standalone authorities.
 
 ## Current production state
 - Beats 1–5 — current Draft A scene files.
@@ -53,7 +53,11 @@ Current active cleanup Character-Life dialogue:
   - preserves the two exact Cyanis/Torren opening anchors verbatim;
   - otherwise uses the guardrail-first Agent-Brain method;
   - no lore escalation.
-- **H03 — Ilyra and Nimera — pending fully agent-driven dialogue pass.**
+- **H03 — Ilyra and Nimera — current Draft A complete:** `H03_ILYRA_AND_NIMERA_DRAFT_A.md`
+  - authority spec: `H03_ILYRA_AND_NIMERA_SPEC.json`
+  - premise discovered through the Agent-Brain rehearsal rather than predetermined relationship choreography;
+  - low-stakes supply-room classification argument;
+  - no injury, treatment, care lesson, trauma disclosure, plot revelation, or forced emotional breakthrough.
 
 Regional Hunt #3 is unlocked in Beat 15 but does not require a separate dialogue-heavy mini-story by default.
 
@@ -66,4 +70,4 @@ If Chapter-3 dialogue sources disagree:
 5. the partial cumulative manuscript only for Beats 1–5 where it remains synchronized;
 6. historical/superseded files only as provenance.
 
-> **Chapter-3 mainline rehearsal-first working dialogue pass: COMPLETE through Beat 15. H01 cleanup dialogue is complete. H03 remains pending.**
+> **Chapter-3 mainline rehearsal-first working dialogue pass: COMPLETE through Beat 15. Both active cleanup Character-Life scenes H01 and H03 now have current Draft A dialogue.**
