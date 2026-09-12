@@ -13,6 +13,8 @@ This register is a navigation layer. It does **not** override current repository
 3. current Diyse B00 / HD-2D visual-style rules;
 4. older migration prose, archived renders, historical fingerprints, generated filenames, or superseded concept notes.
 
+**Temporary Vaelira exception:** Vaelira's 2026-09-12 approved B00 (gen_id `98e6cf8a-4d34-4411-b789-85e60e1123c9`) is locked as the current appearance authority, but its exact PNG binary is pending repository sync. The valid historical `asset_sources/characters/current/vaelira.jpg` is retained only as a repository-safe fallback and does **not** override `VAELIRA_CURRENT_VISUAL_LOCK.md` or authorize regression to the old long-hair design. Remove this exception once `vaelira.png` is synced exactly.
+
 Do not infer or restore surnames for the current master characters from retired filenames or old migration documents.
 
 ## Current repository-master characters
@@ -23,7 +25,7 @@ Do not infer or restore surnames for the current master characters from retired 
 | Ilyra | **LOCKED** | `asset_sources/characters/current/ilyra.jpg` | `PRODUCTION/CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md` |
 | Torren | **LOCKED** | `asset_sources/characters/current/torren.jpg` | `PRODUCTION/CHARACTERS/TORREN_CURRENT_VISUAL_LOCK.md` |
 | Nimera | **LOCKED** | `asset_sources/characters/current/nimera.jpg` | `PRODUCTION/CHARACTERS/NIMERA_CURRENT_VISUAL_LOCK.md` |
-| Vaelira | **LOCKED — 2026-09-12 B00** | `asset_sources/characters/current/vaelira.png` | `PRODUCTION/CHARACTERS/VAELIRA_CURRENT_VISUAL_LOCK.md` |
+| Vaelira | **LOCKED — 2026-09-12 B00; binary sync pending** | `asset_sources/characters/current/vaelira.jpg` *(historical fallback only)* | `PRODUCTION/CHARACTERS/VAELIRA_CURRENT_VISUAL_LOCK.md` |
 | Seyrik | **LOCKED** | `asset_sources/characters/current/seyrik.jpg` | `PRODUCTION/CHARACTERS/SEYRIK_CURRENT_VISUAL_LOCK.md` |
 | Maevra | **LOCKED** | `asset_sources/characters/current/maevra.jpg` | `PRODUCTION/CHARACTERS/MAEVRA_CURRENT_VISUAL_LOCK.md` |
 | Kessara | **LOCKED** | `asset_sources/characters/current/kessara.png` | `PRODUCTION/CHARACTERS/KESSARA_CURRENT_VISUAL_LOCK.md` |
