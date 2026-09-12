@@ -48,17 +48,13 @@ Maevra looks at her.
 
 **MAEVRA:** Practicing what?
 
-**CYANIS:** Your seal.
+**CYANIS:** The royal seal.
 
 Mirena goes still.
 
-**MIRENA:** Mine?
+**MIRENA:** The Crest?
 
-**CYANIS:** The Crest of Yahtrea.
-
-**MIRENA:** I know what my seal is, Cyanis.
-
-**CYANIS:** Fair.
+**CYANIS:** Yes.
 
 Nimera takes over only far enough to make the distinction that matters.
 
