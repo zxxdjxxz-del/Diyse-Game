@@ -32,11 +32,11 @@ The player is free to remain in the cleanup window first.
 
 ### [OPTIONAL CONTENT — AVAILABLE FROM CAMP]
 
-Current Character-Life authority lives only in the rehearsal-first production files in this folder. The superseded Chapter-1 line-complete C03/C04/C05 files have been removed from the live repository tree.
+Canonical Character-Life numbering follows `../CHARACTER_LIFE_NUMBERING_LOCK.md`.
 
-#### C03 — `Torren's Version of Dinner`
+#### C02 — `Torren's Version of Dinner`
 
-Current draft:
+Current atomic dialogue source (legacy source key C03):
 `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md`
 
 All four current characters are present. Torren's dinner is genuinely bad but hot, filling, safe, and cheap. Maevra already knows his cooking from their long history; Cyanis and Ilyra are discovering it.
@@ -51,9 +51,9 @@ No lore, Hunt progression, reward, or relationship speech is added.
 
 ---
 
-#### C04 — `What the Map Says`
+#### C03 — `What the Map Says`
 
-Current draft:
+Current atomic dialogue source (legacy source key C04):
 `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md`
 
 Torren works on his ordinary modern route map. Cyanis becomes genuinely interested in the work.
@@ -64,9 +64,9 @@ This is **not** another ancient-Junction-map explanation and does not advance th
 
 ---
 
-#### C05 — `Not Professionally`
+#### C04 — `Not Professionally`
 
-Current draft:
+Current atomic dialogue source (legacy source key C05):
 `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md`
 
 This scene is **Ilyra and Maevra only**.
@@ -168,14 +168,14 @@ No Prime, Last Sentinel, bearer, Entity, or complete ancient-network explanation
 
 **Camp rule:** party members may be visibly present around camp; Cyanis-only presentation does not apply inside the camp hub.
 
-**Maevra injury:** arm broken during the Broken Convoy attack, already established at Brackenwall, still splinted here. C05 shows a splint change and restrained pain-easing magic; the bone is not magically repaired.
+**Maevra injury:** arm broken during the Broken Convoy attack, already established at Brackenwall, still splinted here. **C04** shows a splint change and restrained pain-easing magic; the bone is not magically repaired.
 
-**Character-Life authority:** C03/C04/C05 point to the current rehearsal-first production drafts in this folder. The old line-complete versions are removed from the live tree.
+**Character-Life authority:** canonical Chapter-1 Character-Life IDs are **C02/C03/C04**. Their current atomic filenames retain legacy source prefixes C03/C04/C05 until the synchronized manuscript and source files are migrated together.
 
-**C05 cast:** Ilyra + Maevra only. It is a private adult-friendship conversation and does not pull Cyanis or Torren into the scene.
+**C04 cast:** Ilyra + Maevra only. It is a private adult-friendship conversation and does not pull Cyanis or Torren into the scene.
 
 **Backtracking rule:** Cyanis-only presentation resumes when ordinary Southern Briar traversal resumes.
 
-**C04 firewall:** Torren works on ordinary current route maps. The scene does not become a second Junction lore reveal or Hunt-progression scene.
+**C03 firewall:** Torren works on ordinary current route maps. The scene does not become a second Junction lore reveal or Hunt-progression scene.
 
 **Reduction:** no cooking montage, detailed map-writing animation, elaborate medical animation, sleep animation, camp busywork, repeated prop handling, or extra Junction inspection is required.
