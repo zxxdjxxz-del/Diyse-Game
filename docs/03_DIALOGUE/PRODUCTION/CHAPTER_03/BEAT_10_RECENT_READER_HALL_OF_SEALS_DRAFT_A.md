@@ -1,8 +1,10 @@
 # Chapter 3 — Beat 10
 # The Recent Reader / Hall of Seals
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL
+## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — NATURAL-TURN RHYTHM PASS
 
 **Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the live situation, hard historical findings, recent-reader end state, and reveal firewalls. It was not given a speaker sequence or a required research-thread dialogue order.
+
+**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Nimera now holds the floor through connected keeper-ledger findings and caveats instead of being prompted clause by clause; quick character banter remains intact where it is genuinely comic.
 
 ---
 
@@ -34,11 +36,9 @@ Torren is already looking toward the deeper route.
 
 **TORREN:** You know the way?
 
-**NIMERA:** Yes.
+**NIMERA:** Yes. Come on.
 
 She gathers the relevant citation slip rather than the whole table.
-
-**NIMERA:** Come on.
 
 ### [GAMEPLAY — FOLLOW THE CITATION]
 
@@ -62,37 +62,19 @@ She reads the same passage twice.
 
 **CYANIS:** Bad writing?
 
-**NIMERA:** Unfortunately, no.
+**NIMERA:** Unfortunately, no. Working seal damaged during transfer; impression still correct, authority response weakened afterward. Then later: renewal after succession, same seal body retained, authority restored through keeper work.
 
-**ILYRA:** What does it say?
+**CYANIS:** So the seal was carrying it.
 
-Nimera turns the ledger enough for them to see the relevant entry.
+**NIMERA:** Looks like it. The useful part is that the ledger treats the working seal as holding authority between uses. The annoying part is that the actual keeper method lives in a separate manual that isn't here.
 
-**NIMERA:** Working seal damaged during transfer. Impression still correct. Authority response weakened afterward.
+**TORREN:** Keeper work meaning missing.
 
-A beat.
-
-**CYANIS:** The seal was carrying it.
-
-Nimera keeps reading.
-
-**NIMERA:** Looks like it.
-
-She checks a second entry farther down the page.
-
-**NIMERA:** Here. Renewal after succession. Same seal body retained. Authority restored through keeper work.
-
-**TORREN:** Keeper work meaning?
-
-Nimera turns the page.
-
-The next section refers to a separate manual no longer present in the case.
-
-**NIMERA:** Meaning somebody was thoughtful enough to write the useful part somewhere else.
+**NIMERA:** Precisely.
 
 **ILYRA:** Gone?
 
-**NIMERA:** Not here.
+**NIMERA:** Not in this case.
 
 Cyanis is still on the first implication.
 
@@ -102,11 +84,9 @@ Cyanis is still on the first implication.
 
 **CYANIS:** Then someone with the seal—
 
-**NIMERA:** Maybe.
+**NIMERA:** Maybe. The record tells us the physical seal can retain authority. It does not tell us who can make that authority answer, or under what conditions.
 
-He stops.
-
-**NIMERA:** The record says the working seal keeps authority between uses. It does not tell us who can make it answer.
+Cyanis stops and nods.
 
 **CYANIS:** Right.
 
@@ -134,23 +114,9 @@ Torren is looking at a heavy stone seal face displayed beside a later copied imp
 
 **TORREN:** Same mark?
 
-**NIMERA:** No.
+Nimera moves closer and checks the provenance label.
 
-She moves closer.
-
-**NIMERA:** Same kind of object, maybe.
-
-**CYANIS:** How old?
-
-Nimera checks the provenance label and copied excavation note.
-
-**NIMERA:** Diysean layer.
-
-A beat.
-
-**ILYRA:** Used for what?
-
-**NIMERA:** Whoever catalogued it called it civic authority. Which means they had enough context to be brave and not enough to be certain.
+**NIMERA:** No. Same kind of object, maybe. Diysean layer. Whoever catalogued it called it civic authority, which means they had enough context to be brave and not enough to be certain.
 
 **TORREN:** You dislike archivists too?
 
@@ -158,25 +124,17 @@ A beat.
 
 She checks another fragment in the same group: a metal face with surviving magical residue noted in an older study.
 
-**NIMERA:** This one had a response when it was recovered.
-
-**CYANIS:** Royal?
-
-**NIMERA:** Diysean. So no.
+**NIMERA:** This one had a response when it was recovered. Again: authority, apparently. Diysean authority, not Yahtrean royalty.
 
 **CYANIS:** You know what I meant.
 
 **NIMERA:** I did. The answer is still no.
 
-A beat.
-
-**NIMERA:** Authority, apparently. Not Yahtrean royalty.
-
 Ilyra looks between the ancient fragment and the later royal-seal material.
 
 **ILYRA:** Similar idea.
 
-**NIMERA:** Strongly similar.
+**NIMERA:** Strongly similar. Not proven lineage.
 
 She leaves it there.
 
@@ -198,8 +156,6 @@ Cyanis recognizes the site description.
 
 **CYANIS:** Same ruins.
 
-Nimera looks at him rather than the page.
-
 **NIMERA:** You're sure?
 
 **CYANIS:** Yes.
@@ -210,13 +166,7 @@ Torren checks the folio, nearby ledger, and a second volume already left open.
 
 Nimera follows the references between them.
 
-**NIMERA:** Card finds. Westways survey. Seal fragments.
-
-She turns one page.
-
-**NIMERA:** Then keeper renewal.
-
-A beat.
+**NIMERA:** Card finds, Westways survey, seal fragments—and then keeper renewal. Whoever was working upstairs followed the same chain down here.
 
 **CYANIS:** They got here first.
 
@@ -309,4 +259,5 @@ Transition directly into:
 - pre-Yahtrean Diysean seal fragments establish strong precedent for physical magical authority seals without proving direct lineage to Lysara's current seal.
 - the Westways connection is historical scholarship around authority-mark fragments from the same ruin field; it does not prove Cyanis's Card and the seals share an origin.
 - the recent reader trail is confirmed through the same recently used folio / ledger cluster and continues deeper without an identity clue.
+- research dialogue now preserves natural floor ownership: Nimera completes linked findings/caveats before yielding instead of being prompted one clause at a time.
 - the final dormant armored figure is only threshold staging. Beat 11 owns activation, magical assessment, battle, `PREVIOUS ERROR`, `LAST SENTINEL CONFIRMED`, and the subsequent Card stabilization.
