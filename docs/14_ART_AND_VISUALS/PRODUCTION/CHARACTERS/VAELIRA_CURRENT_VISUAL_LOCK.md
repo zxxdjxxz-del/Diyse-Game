@@ -1,21 +1,23 @@
 # Vaelira — Current Visual Lock
 
-**Status:** **LOCKED — CURRENT REPOSITORY MASTER**  
+**Status:** **LOCKED — 2026-09-12 APPROVED B00; EXACT BINARY SYNC PENDING**  
 **Authority scope:** Vaelira's exact current face, hair, eye treatment, outfit construction, palette, Arcane Staff, silhouette, proportions, jewelry, gem colors, and material treatment.
 
-## Canonical repository image master
+## Current approved B00 authority
 
-- repository path: [`asset_sources/characters/current/vaelira.png`](../../../../asset_sources/characters/current/vaelira.png)
-- dimensions: **1024 × 1536**
-- SHA-256: `a7ca249cf57f48b9e3045dacc7c1349b691d464c80bffdc2833b2fbd5635868a`
-- approved B00 generation authority: **gen_id `98e6cf8a-4d34-4411-b789-85e60e1123c9`**
+- approved generation authority: **gen_id `98e6cf8a-4d34-4411-b789-85e60e1123c9`**
 - approval date: **2026-09-12**
+- approved source dimensions: **1024 × 1536**
+- approved source SHA-256: `a7ca249cf57f48b9e3045dacc7c1349b691d464c80bffdc2833b2fbd5635868a`
+- intended repository destination: `asset_sources/characters/current/vaelira.png`
 
-This repository image is the exact controlling visual authority. If any prose, older fingerprint, generated filename, prior render, or archived visual note conflicts with it, **the repository image wins** until the user explicitly revises Vaelira.
+**Important temporary repository exception:** the exact approved PNG cannot currently be transferred through the active GitHub connector's text-only binary path without corrupting the file. The prior valid `asset_sources/characters/current/vaelira.jpg` has therefore been restored strictly to keep the repository healthy. That older JPG is **not Vaelira's current appearance authority** and must not be used to restore the retired long-hair design. Until the exact approved PNG is synced, this lock plus the approved generation authority above supersede `vaelira.jpg` for Vaelira only.
+
+Do not treat the temporary fallback JPG as permission to regress the current design.
 
 ## Identity / appearance anchors
 
-Preserve the appearance shown by the master:
+Preserve the appearance shown by the approved 2026-09-12 B00:
 - adult woman, canonical age **27**;
 - fair/light skin;
 - **vivid true sapphire-blue eyes**: deep/darker true blue in hue, but bright and strongly saturated; do not drift toward cyan or teal;
@@ -30,7 +32,7 @@ Preserve the appearance shown by the master:
 - Arcane Staff as her defining ordinary visual weapon;
 - dark staff shaft with silver structural fittings and an **emerald crystal focal element**.
 
-The image controls exact facial proportions, hair mass and layering, garment seams, coat/skirt relationship, body proportions, boot construction, staff geometry, crystal shape, jewelry, and incidental detailing.
+The approved B00 controls exact facial proportions, hair mass and layering, garment seams, coat/skirt relationship, body proportions, boot construction, staff geometry, crystal shape, jewelry, and incidental detailing.
 
 ## Hair lock — exact approved #7
 
@@ -55,6 +57,7 @@ Render Vaelira in Diyse B00 / HD-2D anime character language:
 ## Prohibited regressions
 
 Do not:
+- use the temporary fallback `vaelira.jpg` to restore the retired long-hair appearance;
 - lengthen the hair back into the retired long-hair version;
 - add braids, a ponytail, half-up construction, bun, or pulled-back crown;
 - shift the crimson hair toward generic bright red, orange-red, burgundy-black, or purple;
@@ -68,4 +71,4 @@ Do not:
 - replace silver hardware with dominant gold metal;
 - patch an older image when a clean redraw is requested.
 
-This file and the linked repository image control Vaelira's current B00 master and later model/runtime translation until explicitly revised.
+Once the exact approved PNG is successfully synced to `asset_sources/characters/current/vaelira.png`, remove the temporary exception and restore normal image-first authority for Vaelira.
