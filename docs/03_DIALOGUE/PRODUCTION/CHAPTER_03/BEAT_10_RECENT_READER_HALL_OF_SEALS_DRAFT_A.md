@@ -66,7 +66,7 @@ She reads the same passage twice.
 
 **CYANIS:** So the seal was carrying it.
 
-**NIMERA:** Looks like it. The useful part is that the ledger treats the working seal as holding authority between uses. The annoying part is that the actual keeper method lives in a separate manual that isn't here.
+**NIMERA:** Looks like it. The keeper method is in another manual. Not here.
 
 **TORREN:** Keeper work meaning missing.
 
@@ -166,13 +166,11 @@ Torren checks the folio, nearby ledger, and a second volume already left open.
 
 Nimera follows the references between them.
 
-**NIMERA:** Card finds, Westways survey, seal fragments—and then keeper renewal. Whoever was working upstairs followed the same chain down here.
+**NIMERA:** Same marker pattern.
 
-**CYANIS:** They got here first.
+**CYANIS:** Same reader?
 
-**NIMERA:** Yes.
-
-No one needs to explain who “they” means.
+**NIMERA:** Same trail. Down here before us.
 
 Ilyra looks toward the older end of the Hall.
 
@@ -258,6 +256,6 @@ Transition directly into:
 - Missing / incomplete keeper material preserves Beat 12's seal-working discovery.
 - pre-Yahtrean Diysean seal fragments establish strong precedent for physical magical authority seals without proving direct lineage to Lysara's current seal.
 - the Westways connection is historical scholarship around authority-mark fragments from the same ruin field; it does not prove Cyanis's Card and the seals share an origin.
-- the recent reader trail is confirmed through the same recently used folio / ledger cluster and continues deeper without an identity clue.
-- research dialogue now preserves natural floor ownership: Nimera completes linked findings/caveats before yielding instead of being prompted one clause at a time.
+- the recent-reader trail is confirmed through matching recent use and marker patterns, without having the characters recite the full research chain back to one another.
+- research dialogue preserves natural floor ownership: Nimera completes linked findings/caveats before yielding instead of being prompted one clause at a time.
 - the final dormant armored figure is only threshold staging. Beat 11 owns activation, magical assessment, battle, `PREVIOUS ERROR`, `LAST SENTINEL CONFIRMED`, and the subsequent Card stabilization.
