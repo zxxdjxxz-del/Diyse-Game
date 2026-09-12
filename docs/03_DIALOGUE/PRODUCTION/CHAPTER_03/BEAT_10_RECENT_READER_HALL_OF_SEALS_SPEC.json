@@ -1,0 +1,115 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT10_RECENT_READER_HALL_OF_SEALS",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 10 — The Recent Reader / Hall of Seals",
+  "production_ready": false,
+  "participants": ["cyanis", "ilyra", "torren", "nimera"],
+  "scene_purpose": "Follow the recent reader's physical citation trail from the Beat-9 open table into the Hall of Seals; materially advance the royal-seal investigation through historical evidence that working royal seals could retain magical authority in the physical object; establish older pre-Yahtrean Diysean authority-seal precedent and a Westways scholarly connection; confirm that the recent reader reached the same restricted material first; and end at the threshold of older protected command chambers without identifying the reader, the seal culprit, the exact imbuing method, or any later Card revelation.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_BEAT_10_RECENT_READER_HALL_OF_SEALS_WORKING.md",
+      "whole_file": true,
+      "role": "current_detailed_beat_10_story_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
+      "sections": ["Beat 10 — The Recent Reader / Hall of Seals"],
+      "role": "current_consolidated_chapter_3_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_OLD_CITY_FANTASY_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "physical_magical_fantasy_presentation_lock"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_CARD_DISCOVERY_SITE_NAMING_LOCK.md",
+      "whole_file": true,
+      "role": "westways_discovery_site_naming"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_DRAFT_A.md",
+      "whole_file": true,
+      "role": "immediate_dialogue_continuity"
+    },
+    {
+      "path": "external-services/canary/brains/cyanis.yaml",
+      "whole_file": true,
+      "role": "cyanis_agent_brain"
+    },
+    {
+      "path": "external-services/canary/brains/ilyra.yaml",
+      "whole_file": true,
+      "role": "ilyra_agent_brain"
+    },
+    {
+      "path": "external-services/canary/brains/torren.yaml",
+      "whole_file": true,
+      "role": "torren_agent_brain"
+    },
+    {
+      "path": "external-services/canary/brains/nimera.yaml",
+      "whole_file": true,
+      "role": "nimera_agent_brain"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md",
+      "whole_file": true,
+      "role": "mandatory_guardrail_first_rehearsal_method"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Old City buried collections leading into the Hall of Seals and older restricted chambers",
+    "area_phase": "recent_reader_trail_into_historical_seal_collection",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "runtime_note": "Begin at the still-open Beat-9 research table. Let the characters follow the citation trail naturally instead of verbally reconstructing a checklist. The Hall of Seals is a physical royal antiquarian archive built into older Diysean structure: signets, matrices, impressions, keeper ledgers, regalia records, old fragments, wards, cases, and carved authority marks. No digital/interface language."
+  },
+  "current_floor_state": {
+    "active_party": "cyanis_ilyra_torren_nimera",
+    "maevra_state": "remains_in_caelora_with_mirena",
+    "card_state": "cyanis_carries_unclassified_green_gold_responsive_card",
+    "recent_reader_state": "unknown_identity_recently_cross_referenced_card_green_gold_westways_and_seal_material",
+    "queen_seal_state": "physical_seal_secure_in_caelora_genuine_authority_response_on_unauthorized_orders_mechanism_unknown"
+  },
+  "hard_outcomes": [
+    "The party follows the recent reader's citation trail into the Hall of Seals.",
+    "The Hall establishes that older working Yahtrean royal seals could retain recognizable magical authority in the physical seal object between uses; this does not require the ruler to consciously cast fresh magic into every document at the moment of sealing.",
+    "Older keeper records refer to specialized renewal or maintenance of working seals, but the exact imbuing or renewal method remains missing or incomplete.",
+    "Older Diysean physical seals or authority marks provide strong evidence that comparable magical civic or command seal practices predate Yahtrea without proving direct unbroken lineage to Lysara's current seal.",
+    "Historical Hall material connects the Diysean ruins in the Westways to prior authority-seal scholarship or recovered authority-mark fragments without proving the Card and seal share one magical origin.",
+    "Physical evidence in the Hall confirms the recent reader reached these same materials before the party and deliberately followed the oldest references farther inward.",
+    "The party follows that trail toward older protected command chambers and reaches their threshold.",
+    "The First Command Warden confrontation does not begin until Beat 11."
+  ],
+  "forbidden_reveals": [
+    "recent_reader_identity",
+    "calder_hidden_transport_role",
+    "seal_culprit_or_exact_use_method",
+    "exact_ancient_seal_imbuing_process",
+    "authority_copy_or_transfer_method",
+    "remote_seal_invocation_confirmed",
+    "lysara_current_seal_proven_ancient",
+    "prime_classification",
+    "might_identification",
+    "last_sentinel_wording_or_identity",
+    "previous_error",
+    "stable_deep_ruby_card_state",
+    "prime_manifestation_or_recovery",
+    "cresthaven",
+    "northern_route_destination"
+  ],
+  "forbidden_presentation": [
+    "speaker_order_or_character_function_checklist",
+    "characters_reconstructing_the_entire_research_chain_as_exposition",
+    "knowledge_firewall_dialogue",
+    "crime_scene_procedural_tone",
+    "digital_interface_or_network_language",
+    "talking_seal_or_talking_archive_system",
+    "obvious_signed_clue_identifying_the_recent_reader",
+    "beginning_the_first_command_warden_battle"
+  ],
+  "production_cost_ceiling": "playable Hall exploration with two or three short authored stops and a threshold handoff into Beat 11"
+}
