@@ -17,9 +17,10 @@ Do not revert later chapters to the older simplified dialogue-agent method, a ge
 2. **Independent Person Agent Brain rehearsals** — each participating character responds from that character's current full brain profile rather than from an omniscient shared cast voice. A Person Agent completes the natural behavioral turn rather than automatically yielding after one sentence.
 3. **Dialogue Editor** — aggressively cut, reconcile, and shape the rehearsal while preserving selective participation, interruptions, silence, pair-specific rhythm, disagreement, mundane behavior, natural floor-holding, sentence-length variation, and other human irregularity. `Cut aggressively` means remove repetition and weak material; it does **not** mean force one sentence per speaker turn.
 4. **Invisible Canon / Knowledge Checker** — verify lore, chronology, reveal timing, personal knowledge boundaries, relationship state, gameplay legality, map/traversal legality, terminology, and current production constraints without making characters verbalize the firewall.
-5. **Economical HD-2D staging / implementation pass** — translate the surviving dialogue into the established field, portrait, dialogue-box, battle, and traversal presentation without inventing unnecessary cinematic choreography. Dialogue-box pagination does not define when a conversational turn ends.
+5. **Spoken-dialogue vs narration audit** — test every surviving explanatory line against `SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`. Remove, compress, or reassign dialogue that merely repeats visible staging, restates a report the room has already heard, replays earlier exposition for the player, verbalizes production intent, or turns an authority figure into a narrator. New-listener briefings must carry only what that listener needs and allow the listener to pull further detail through character-driven questions. Evidence owners may still explain conclusions only they can responsibly make.
+6. **Economical HD-2D staging / implementation pass** — translate the surviving dialogue into the established field, portrait, dialogue-box, battle, and traversal presentation without inventing unnecessary cinematic choreography. Dialogue-box pagination does not define when a conversational turn ends.
 
-`REHEARSAL_FIRST_AUTHORING_LOCK.md`, `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, `KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md`, `AUTHORITY_PACKET_COMPILER.md`, `SCENE_CONSTRUCTION_STACK.md`, and other current Agent System locks remain binding parts of this workflow.
+`REHEARSAL_FIRST_AUTHORING_LOCK.md`, `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, `SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`, `KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md`, `AUTHORITY_PACKET_COMPILER.md`, `SCENE_CONSTRUCTION_STACK.md`, and other current Agent System locks remain binding parts of this workflow.
 
 ## Natural-turn correction
 
@@ -35,6 +36,25 @@ Owning detailed rule:
 - `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
 
 Chapters 0–3 require a retroactive rhythm audit under that lock before dialogue is treated as fully polished for implementation. Preserve strong lines and only repair artificial one-sentence ping-pong where it actually occurs.
+
+## Spoken-dialogue / narration correction
+
+The following interpretation is also explicit and mandatory:
+
+> **Characters live the scene. The production document explains the scene. Never make the characters do the production document's job.**
+
+The environment should carry information that can be seen. Characters should react, interpret, question, decide, disagree, or act on it rather than reciting it back to the player.
+
+Authority figures should convert information into decisions. In particular:
+- Queen Lysara asks decisive questions, tests certainty, establishes boundaries, assigns responsibility, judges, and orders rather than summarizing reports;
+- Crown Princess Mirena converts evidence into investigative priorities, trust boundaries, and next actions rather than repeating clue stacks.
+
+Evidence owners remain allowed to explain genuine conclusions the scene cannot show by itself. A longer technical turn is valid when interpretation is the speaker's actual work.
+
+Owning detailed rule:
+- `SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`
+
+Chapter 3 received the first dedicated pass under this rule. The same audit is mandatory before future chapters are treated as production-ready.
 
 ## Agent Brain requirement
 
@@ -65,7 +85,7 @@ The current Chapter 0 and Chapter 1 rehearsal-first production manuscripts are t
 
 Their production method, not every individual line or cadence artifact, is the locked precedent.
 
-Later explicit workflow corrections—including the natural-turn/floor-holding lock—supersede any accidental rhythm pattern present in those manuscripts.
+Later explicit workflow corrections—including the natural-turn/floor-holding lock and spoken-dialogue/narration lock—supersede any accidental rhythm or exposition pattern present in those manuscripts.
 
 ## Forward rule
 
