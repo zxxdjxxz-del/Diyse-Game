@@ -17,6 +17,17 @@ Story-beat guardrail lock:
 
 Story structure controls situation, hard outcomes, reveal boundaries, and gameplay state. It does **not** pre-write speaker order, required jokes, motivation speeches, or conversational checkpoints.
 
+Natural-turn / floor-holding lock:
+- `AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
+
+Hard rhythm rule:
+> **Concision is not a one-sentence limit. A character yields the floor because the interaction changes, not because the script reached a period.**
+
+A conversational turn may be a fragment, one sentence, several connected sentences, an interrupted thought, or silence. Dialogue-box pagination is a presentation unit and does not define the end of a speaker turn.
+
+The recurring one-sentence ping-pong artifact was identified after the Chapter-3 closing integration pass. Chapters 0–3 therefore require the retroactive audit tracked in:
+- `CHAPTER_0_3_NATURAL_TURN_RHYTHM_AUDIT_TRACKER.md`
+
 Walking-dialogue lock:
 - `AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`
 
@@ -28,12 +39,14 @@ Ordinary traversal does not receive walking dialogue unless someone is genuinely
 
 | Chapter | Current status | Chapter-level dialogue authority |
 |---|---|---|
-| Ch0 | **COMPLETE CURRENT WORKING PRODUCTION** — P01–P07 + optional C01 | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
-| Ch1 | **COMPLETE CURRENT WORKING PRODUCTION** — Beats 1–15 + C03/C04/C05 | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
-| Ch2 | **COMPLETE CURRENT WORKING MAINLINE PRODUCTION** — Beats 1–16; C06 current | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` |
-| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION** — Beats 1–15 + H01/H03; closing integration audit complete | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
+| Ch0 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT PENDING** — P01–P07 + optional C01 | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
+| Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT PENDING** — Beats 1–15 + C03/C04/C05 | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
+| Ch2 | **COMPLETE CURRENT WORKING MAINLINE PRODUCTION; NATURAL-TURN RHYTHM AUDIT PENDING** — Beats 1–16; C06 current | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` |
+| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT PENDING** — Beats 1–15 + H01/H03; prior closing integration audit complete | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 
 These four chapter folders are the correct live production locations. Do not recover dialogue from old chats, historical files, removed `LINE_COMPLETE` sets, or superseded manuscripts when a current chapter authority/index points elsewhere.
+
+`COMPLETE CURRENT WORKING PRODUCTION` means the authored content exists and is current authority. It does **not** currently mean the chapter has passed the newly opened natural-turn/floor-holding polish audit.
 
 ---
 
@@ -61,6 +74,9 @@ Key continuity:
 - the Card survives intact and is carried directly afterward;
 - P07 closes through survivor recovery rather than celebration.
 
+Current polish state:
+- natural-turn / floor-holding rhythm audit pending.
+
 ---
 
 # Chapter 1
@@ -84,6 +100,9 @@ Standalone scene drafts/specs remain in the same folder as detailed scene-level 
 
 Obsolete Chapter-1 `LINE_COMPLETE` material is not current authority.
 
+Current polish state:
+- natural-turn / floor-holding rhythm audit pending.
+
 ---
 
 # Chapter 2
@@ -102,6 +121,9 @@ Current state:
 - the older manuscript header/storage split does **not** mean Beats 12–16 are missing.
 
 Chapter-2 mainline dialogue production is complete. It is in revision/playtest territory, not pending initial Dialogue Engine production.
+
+Current polish state:
+- natural-turn / floor-holding rhythm audit pending.
 
 ---
 
@@ -124,7 +146,7 @@ Current state:
 - H01 — `Nimera Takes Over a Table` — current working dialogue complete;
 - H03 — `Ilyra and Nimera` — current working dialogue complete;
 - the chapter-wide closing integration audit is complete;
-- the cumulative manuscript has been rebuilt from the post-audit scene authorities and now contains Beats 1–15 + H01 + H03;
+- the cumulative manuscript has been rebuilt from the post-audit scene authorities and contains Beats 1–15 + H01 + H03;
 - standalone Beat / Character-Life files remain the detailed scene-level authority if a later targeted revision has not yet been reassembled into the manuscript.
 
 Closing-audit changes included:
@@ -151,7 +173,7 @@ Current Beat-13/14/15 continuity:
 - Mirena and Maevra return to Caelora after the handoff;
 - Chapter-3 cleanup becomes active.
 
-Chapter 3 is now in revision/playtest/implementation territory rather than missing initial dialogue production.
+Chapter 3 is not missing any initial dialogue production. However, the later-discovered one-sentence cadence issue means it still requires the natural-turn / floor-holding rhythm audit before dialogue is treated as fully polished for implementation.
 
 ---
 
@@ -159,7 +181,7 @@ Chapter 3 is now in revision/playtest/implementation territory rather than missi
 
 | Chapter | Dialogue status |
 |---|---|
-| Ch4 | pending current Dialogue Engine production under current restructured story authority |
+| Ch4 | pending current Dialogue Engine production under current restructured story authority **and the natural-turn/floor-holding lock from the first rehearsal** |
 | Ch5 | beat rewrite required before dialogue generation |
 | Ch6 | macro/beat authority; dialogue pending |
 | Ch7 | macro authority; dialogue pending |
@@ -170,7 +192,7 @@ Chapter 3 is now in revision/playtest/implementation territory rather than missi
 | Ch12 | macro authority; dialogue pending |
 | Ch13 | macro authority; dialogue pending |
 
-All later chapter dialogue uses the same locked rehearsal-first Agent Brain pipeline unless explicitly revised by the user.
+All later chapter dialogue uses the same locked rehearsal-first Agent Brain pipeline plus all later explicit workflow corrections, including `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, unless explicitly revised by the user.
 
 ---
 
@@ -182,7 +204,7 @@ Current examples:
   - Cyanis: `I bet you use that cape to sneak up on the goats you fuck.`
   - Torren: `You look like a walking dick in armor.`
 
-H01 is a completed current Draft A; those two lines remain exact within it.
+Those exact anchors remain protected during the rhythm audit. A cadence correction around an exact anchor must not alter the locked wording itself.
 
 ---
 
