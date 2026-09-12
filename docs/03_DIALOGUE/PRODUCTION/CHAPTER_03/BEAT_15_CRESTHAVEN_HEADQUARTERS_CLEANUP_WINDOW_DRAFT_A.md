@@ -1,8 +1,10 @@
 # Chapter 3 — Beat 15
 # Cresthaven Headquarters / Cleanup Window
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL
+## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — NATURAL-TURN RHYTHM PASS
 
 **Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the Cresthaven arrival state, operational-headquarters outcome, visible older Diysean layer, Regional Hunt #3 access notice, Mirena/Maevra departure state, and cleanup-window handoff. It was not given a required tour dialogue, a headquarters ceremony, or one reaction line per party member.
+
+**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Mirena now gives complete operational instructions in natural units rather than yielding after every sentence; brief tour banter remains terse where appropriate.
 
 ---
 
@@ -68,8 +70,6 @@ The stone beneath the Crown wall is older, larger, and fitted differently.
 
 **NIMERA:** That's not Crown work.
 
-Torren looks once.
-
 **TORREN:** No.
 
 Cyanis looks at the sealed lower opening.
@@ -102,21 +102,13 @@ A crew member carries a damaged chair out past them.
 
 Mirena looks at the four permanent party members.
 
-**MIRENA:** While you're working with me, this is your base.
+**MIRENA:** While you're working with me, this is your base. Operationally. I am not giving you a fort; the paperwork alone would make me hate you.
 
 Cyanis looks around the half-clean room.
 
-**CYANIS:** Our base.
-
-**MIRENA:** Operationally.
-
-A beat.
-
-**MIRENA:** I am not giving you a fort.
-
 **CYANIS:** Wasn't asking for one.
 
-**MIRENA:** Good. The paperwork would make me hate you.
+**MIRENA:** Good.
 
 Torren checks the nearest wall with one hand.
 
@@ -141,27 +133,15 @@ Other rooms remain dusty, sealed, damaged, or under active repair.
 
 Mirena is about to turn back toward the yard when she remembers something.
 
-**MIRENA:** One more thing.
-
-The four look at her.
-
-**MIRENA:** The Archive crew opened a side passage after you left yesterday.
+**MIRENA:** One more thing. The Archive crew opened a side passage after you left yesterday—lower side of the working collection. They've marked the entrance. They got the closure open, then stopped, and I don't know what's in there.
 
 Nimera straightens slightly.
 
-**NIMERA:** Opened where?
-
-**MIRENA:** Old City Archives. Lower side of the working collection. They've marked the entrance.
-
-**CYANIS:** Was it there when we went down?
+**NIMERA:** Was it there when we went down?
 
 **MIRENA:** Not accessibly.
 
-A beat.
-
-**MIRENA:** They got the closure open. Then they stopped.
-
-**ILYRA:** Sensible.
+**ILYRA:** Stopping at the threshold was sensible.
 
 **MIRENA:** I occasionally employ sensible people.
 
@@ -175,11 +155,7 @@ Cyanis looks back toward the direction of Caelora as if he can somehow see the A
 
 **CYANIS:** You want us to check it.
 
-**MIRENA:** When you're ready.
-
-A beat.
-
-**MIRENA:** I don't know what's in there.
+**MIRENA:** When you're ready. Not before.
 
 That is the entire in-world unlock.
 
@@ -203,7 +179,7 @@ That is all she needs to contribute.
 
 Mirena looks at the four.
 
-**MIRENA:** If something changes the investigation, send word.
+**MIRENA:** If something changes the investigation, send word. Otherwise, try not to discover anything impossible until tomorrow.
 
 **CYANIS:** And if we find another Warden?
 
@@ -219,11 +195,7 @@ Ilyra looks at Cyanis.
 
 Torren almost smiles.
 
-Mirena looks satisfied enough with that answer.
-
-**MIRENA:** Try not to discover anything impossible until tomorrow.
-
-**NIMERA:** That's not really under our control.
+**NIMERA:** Also, the impossible part is not really under our control.
 
 **MIRENA:** I was afraid you'd say that.
 
@@ -268,7 +240,7 @@ There is no mandatory emotional chapter-closing speech.
 ## Beat-15 production notes
 
 - Cresthaven's hub functions are demonstrated by the active Crown work crew rather than listed by Mirena like a menu.
-- Mirena's headquarters handoff is intentionally short: the party may use Cresthaven as an operational base while helping her investigate; they are not gifted the property or formally appointed to command it.
+- Mirena's headquarters handoff is intentionally short but now uses complete operational turns: the party may use Cresthaven as an operational base while helping her investigate; they are not gifted the property or formally appointed to command it.
 - the older Diysean layer is visually undeniable but unexplained. A sealed lower arch provides texture without becoming a new mandatory mystery scene.
 - Maevra follows the Beat-13 correction: she is physically useful and socially present, not a co-exposition narrator. Her only substantive handoff contribution is a practical structural observation to Torren.
 - the Regional Hunt #3 story unlock is concise. Crown workers opened a previously inaccessible Old City Archive passage, marked it, and stopped at the threshold. Mirena does not know what lies beyond and does not name the Archive Judgment Engine.
