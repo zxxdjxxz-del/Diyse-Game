@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 7
 # Lower Junction / Six Channels
-## DIALOGUE ENGINE PRODUCTION DRAFT D — NATURAL-TURN RHYTHM PASS / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT D — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT / awaiting user approval
 
 ---
 
@@ -34,31 +34,21 @@ No geographic map, falling-fire imagery, Junction monument, written explanation,
 
 The relevant characters may appear as simple field models in the chamber. Portraits and the dialogue box carry the conversation.
 
-Ilyra gets the first useful read because the relief includes people being carried.
+The relief supplies the visible inventory. The cast speaks only to what it implies.
 
-**ILYRA:** That's a litter. Could be wounded, could be sick. Either way, this wasn't built only for soldiers.
-
-Maevra takes in the rest of the band.
-
-**MAEVRA:** Children. Handcarts. Animals too.
-
-Torren has been following the direction of the figures rather than the individual subjects.
-
-**TORREN:** Some are going in. Some are coming back out. And it's not one passage—people are using all six.
-
-A beat.
+**ILYRA:** Not military traffic.
 
 **CYANIS:** Evacuation?
 
-**MAEVRA:** Maybe. But not a simple run-for-cover scene if people are coming the other way too.
+Torren follows the direction of the figures.
 
-**ILYRA:** Could be different moments laid together. Could be ordinary movement. We don't have enough to pick one.
+**TORREN:** Maybe. They're moving both ways through all six.
 
-Torren keeps looking at the relief.
+**MAEVRA:** Then not a simple run-for-cover scene.
 
-**TORREN:** Whatever the reason, this place moved a lot of people. That's the useful part.
+Ilyra looks across the band again.
 
-**CYANIS:** A lot of civilians.
+**ILYRA:** Whatever it was, civilians used this place.
 
 That is enough. Nobody names the ancient system or settles what the passages were for.
 
@@ -86,7 +76,7 @@ At the channel carrying the Black Host breach farther inward, movement pauses an
 
 **CYANIS:** They tried the others first.
 
-**MAEVRA:** Then this one gave them a way through. They kept pushing after the Sentries, so whatever they wanted is still farther in.
+**MAEVRA:** This one worked.
 
 **TORREN:** So do we.
 
@@ -123,10 +113,9 @@ Next mandatory story beat: **Beat 8 — Forced Inner Section.**
 
 ---
 
-## Natural-turn / presentation check
+## Audit check
 
-- The discovery no longer assigns one visible detail to one speaker in checklist order.
-- Ilyra, Maevra, and Torren each hold the floor long enough to complete the observation their expertise or attention actually supports.
-- The mystery remains unresolved without a `maybe / could be / could still be` ping-pong ladder.
-- The route-onward decision is similarly compressed into complete thoughts rather than four one-line confirmations.
+- The relief remains visual-first. Dialogue no longer itemizes the same litters, children, handcarts, animals, and six openings that the player just saw.
+- Ilyra identifies the important category shift, Torren notices bidirectional movement, and Maevra prevents premature classification.
+- The route-onward exchange no longer explains that the Host kept pushing after the Sentries or repeats that its target is farther in; the visible breach already supplies that information.
 - No story, reveal, Card, route, or party state changed.
