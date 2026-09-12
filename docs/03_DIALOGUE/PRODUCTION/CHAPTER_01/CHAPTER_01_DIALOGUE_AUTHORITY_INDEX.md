@@ -2,14 +2,19 @@
 
 **Chapter:** 1  
 **Status:** COMPLETE CURRENT WORKING PRODUCTION — NATURAL-TURN / FLOOR-HOLDING RHYTHM AUDIT COMPLETE  
-**Chapter assembly:** `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`  
+**Single-file synchronized read-through:** `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`  
 **Rhythm authority:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
 
 ## Authority rule
 
-The chapter-level assembly file owns current scene order and audit state.
+Chapter 1 now keeps both forms deliberately:
 
-The exact current dialogue lives in the standalone scene files in this folder. This avoids keeping an unsynchronized duplicate full transcript after targeted scene revisions.
+1. the **standalone scene files** below are the atomic edit authorities for exact scene wording;
+2. `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` is the **complete synchronized single-file read-through**, containing all 15 current mainline beats plus C03/C04/C05.
+
+The combined manuscript records each embedded source file's Git blob SHA. If a source scene changes, the combined manuscript must be resynchronized and its SHA marker updated. A SHA mismatch means the standalone source wins until synchronization is repaired.
+
+This gives the project one file that can be read, exported, or handed to another chat without abandoning the safer scene-by-scene editing structure.
 
 ## Mainline dialogue authority
 
@@ -31,9 +36,13 @@ The exact current dialogue lives in the standalone scene files in this folder. T
 
 ## Character-Life dialogue authority
 
+Available independently during the Beat-15 Junction cleanup window:
+
 - `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md`
 - `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md`
 - `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md`
+
+The synchronized manuscript places these three after the intact Beat-1→15 mainline as a cleanup appendix; their actual in-play availability remains inside Beat 15 before rest/advance.
 
 Protected exact C04 anchor:
 > **CYANIS:** Old slut?  
@@ -52,7 +61,8 @@ The audit changed conversational floor time, not story canon.
 If Chapter-1 dialogue sources disagree:
 1. current Chapter-1 story authority and later explicit user corrections;
 2. exact standalone current production scene file listed here;
-3. this authority index / chapter assembly for order and status;
-4. historical cumulative transcript or removed `LINE_COMPLETE` material only as provenance.
+3. synchronized combined manuscript **when its recorded source SHA matches the standalone file**;
+4. this authority index for order/status;
+5. historical cumulative transcript or removed `LINE_COMPLETE` material only as provenance.
 
-> **Chapter 1 has passed the retroactive natural-turn / floor-holding rhythm audit.**
+> **Chapter 1 has a complete synchronized single-file manuscript and has passed the retroactive natural-turn / floor-holding rhythm audit.**
