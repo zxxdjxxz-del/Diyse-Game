@@ -1,6 +1,6 @@
 # Chapter 2 — Beat 13 — Rhazek / Masked Officer
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NOT LOCKED  
+**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — SPOKEN/NARRATION AUDIT CURRENT — NOT LOCKED  
 **Owning cumulative manuscript:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`  
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Writer-facing identity note:** the unnamed masked officer in this scene is **Seyrik Rell**. The player-facing scene does not name him, identify him, or frame him as a future party member.
@@ -106,23 +106,9 @@ Rhazek does not rise to the provocation.
 
 Torren speaks without taking his eyes off the practical exits.
 
-**TORREN:** Holding site.
+**TORREN:** Transit.
 
-Rhazek glances toward him.
-
-**TORREN:** So the prisoners were right.
-
-**RHAZEK:** About what?
-
-**TORREN:** This isn't where you keep them.
-
-A short silence.
-
-Rhazek does not supply anything more.
-
-**RHAZEK:** You already knew that much before you came upstairs.
-
-**TORREN:** Yeah.
+Rhazek gives him nothing more.
 
 No one gets the onward destination from him.
 
@@ -166,11 +152,7 @@ Ilyra looks at Rhazek.
 
 Rhazek finally gives the trio his full attention.
 
-**RHAZEK:** You entered my Bastion through an unknown route. You opened my galleries. You broke through my command stair.
-
-**CYANIS:** Sounds right.
-
-**RHAZEK:** And you believe that puts the fort in your hands.
+**RHAZEK:** You disrupted my fort. That is not the same as taking it.
 
 **CYANIS:** No.
 
@@ -204,14 +186,14 @@ Beat 13 ends here. The actual boss encounter begins in **Beat 14 — Commander R
 
 ---
 
-## Beat-13 knowledge checkpoint
+## Beat-13 audit checkpoint
 - The trio finds Rhazek already running the Old Bastion during an active alert rather than waiting theatrically for them.
 - The unnamed masked officer is already reporting on the fort's condition when the party arrives.
 - Player-facing, the officer remains **unnamed, masked, professional, and clearly Black Host-aligned**. No future-party framing occurs.
 - Writer-facing, the masked officer is **Seyrik Rell**.
+- Rhazek directly confirms that the **local kidnapping/seizure policy is his responsibility** and that the Bastion is a holding/transit site, without making Torren and Rhazek re-explain the prisoner testimony to each other.
+- Rhazek no longer recites the player's dungeon progress (`entered through an unknown route / opened galleries / broke command stair`) back to the player. He converts that information into his actual judgment: the fort is disrupted, not yet taken.
 - The masked officer does not fight the party and does not reveal personal history, identity, motives, or the prisoners' onward destination.
-- Rhazek directly confirms that the **local kidnapping/seizure policy is his responsibility**. He does not scapegoat ordinary soldiers.
-- Rhazek confirms the Old Bastion is a **holding site** and that prisoners were not meant to remain there, but he does not disclose where they are ultimately sent, why they are wanted, or what happens to them afterward.
 - The party still does not know the onward destination or deeper Black Host purpose.
 - Rhazek orders the masked officer to clear wounded personnel from the upper corridor and keep the road gate secure, giving the officer a practical reason to leave before the boss confrontation.
 - Rhazek remains the immediate obstacle to freeing the prisoners and opening the maintained road exit.
