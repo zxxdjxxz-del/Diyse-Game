@@ -2,13 +2,14 @@
 
 **Status:** CURRENT COMPLETE WORKING PRODUCTION — editable during implementation/playtest  
 **Domain:** Chapter 1 optional Character-Life dialogue  
-**Applies to:** C03, C04, C05
+**Canonical IDs:** C02, C03, C04  
+**Global numbering authority:** `../CHARACTER_LIFE_NUMBERING_LOCK.md`
 
 ## Authority result
 
-The older Chapter-1 line-complete Character-Life files were explicitly reopened, replaced by rehearsal-first production drafts, and have now been removed from the live repository tree. Git history remains the only archive/provenance for those obsolete versions.
+The older Chapter-1 line-complete Character-Life files were explicitly reopened and replaced by the rehearsal-first production drafts now in this folder.
 
-Current production versions live only under `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/`.
+The current live numbering is chronological across the game. Chapter 0 owns C01, so Chapter 1 owns **C02–C04**. The existing atomic filenames retain their earlier development prefixes (`C03/C04/C05`) only as legacy source keys until those files and the synchronized Chapter-1 manuscript are next regenerated together. Those legacy prefixes do not control the live scene numbers.
 
 ## Shared scene rules
 
@@ -26,8 +27,8 @@ The scenes should:
 
 ## Current scenes
 
-### C03 — Torren's Version of Dinner
-Current draft:
+### C02 — Torren's Version of Dinner
+Legacy atomic source:
 `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md`
 
 Hard premise:
@@ -37,32 +38,32 @@ Hard premise:
 - Torren knows it is bad and values hot/enough/safe/cheap over taste;
 - Maevra recognizes his bad cooking from their long shared history;
 - Cyanis and Ilyra are discovering this side of him;
-- Torren does **not** smoke during the meal;
+- Torren does not smoke during the meal;
 - after everyone has finished eating, Torren lights a blunt as ordinary post-meal behavior.
 
-### C04 — What the Map Says
-Current draft:
+### C03 — What the Map Says
+Legacy atomic source:
 `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md`
 
 Hard premise:
 - primarily Cyanis + Torren;
 - Torren works on ordinary modern route maps at camp;
-- this is **not** another Junction-lore scene;
+- this is not another Junction-lore scene;
 - Cyanis becomes genuinely interested in Torren's work;
 - Torren naturally becomes more talkative because roads/maps interest him;
 - the `old slut / old cut` misunderstanding survives as an early accidental boundary-breaking joke;
 - the scene does not imply their later brother-like insult routine is already established.
 
-### C05 — Not Professionally
-Current draft:
+### C04 — Not Professionally
+Legacy atomic source:
 `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md`
 
 Hard premise:
-- **Ilyra + Maevra only**;
+- Ilyra + Maevra only;
 - Cyanis and Torren do not enter, overhear, or interrupt;
 - Ilyra changes/re-secures Maevra's splint at the Junction camp;
 - Maevra's arm was broken during the Broken Convoy attack before Chapter 1 and remains broken;
-- restrained Warden/healing magic may reduce pain and surrounding strain but **cannot mend the broken bone**;
+- restrained Warden/healing magic may reduce pain and surrounding strain but cannot mend the broken bone;
 - while Ilyra works, she becomes curious about Maevra and Torren and asks about them;
 - there was no betrayal/cheating/bitter-breakup retcon;
 - distance, postings, roads, and life repeatedly separated them, and they kept finding each other again;
@@ -77,8 +78,8 @@ The broken arm is established before these optional scenes:
 - Maevra enters Chapter 1 already splinted;
 - early Chapter-1 beats make the injury visible/known without repeatedly discussing it;
 - it is the immediate story reason she travels with the group but remains noncombat;
-- C05 gives the injury one fuller ordinary-life treatment moment because Ilyra actually changes the splint there.
+- **C04** gives the injury one fuller ordinary-life treatment moment because Ilyra actually changes the splint there.
 
 ## Chapter placement
 
-Beat 15 remains the location/availability authority for the Junction camp cleanup window and must point to the three current production drafts above.
+Beat 15 remains the location/availability authority for the Junction camp cleanup window and must identify the three current scenes canonically as **C02, C03, C04**.
