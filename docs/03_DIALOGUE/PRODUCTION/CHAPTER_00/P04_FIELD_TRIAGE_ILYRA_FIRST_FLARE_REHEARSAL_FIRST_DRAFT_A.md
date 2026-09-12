@@ -1,6 +1,6 @@
 # Chapter 0 — P04
 # Field Triage Camp / Ilyra / First Incomplete Response
-## REHEARSAL-FIRST PRODUCTION DRAFT B — chapter-wide polish / awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT B — NATURAL-TURN RHYTHM PASS / awaiting user approval
 
 ---
 
@@ -28,11 +28,7 @@ Cyanis reaches the same lane from the security side.
 
 **CYANIS:** She can't move?
 
-**ILYRA:** Not safely.
-
-A beat.
-
-**ILYRA:** Her breathing gets worse when we shift her. Give me a stable surface and a few minutes.
+**ILYRA:** Not safely. Her breathing gets worse when we shift her, and I don't have enough hands to gamble on it. Give me a stable surface and a few minutes.
 
 Cyanis checks the lane.
 
@@ -62,11 +58,7 @@ A beat.
 
 Her attention catches on Cyanis.
 
-**ILYRA:** Your left arm's shaking.
-
-**CYANIS:** Still works.
-
-**ILYRA:** I didn't ask whether it works.
+**ILYRA:** Your left arm's shaking. Don't tell me it still works; I'm asking whether it's getting worse.
 
 **CYANIS:** I'm upright.
 
@@ -80,11 +72,7 @@ A beat.
 
 **CYANIS:** Dovaren.
 
-**ILYRA:** I know.
-
-**CYANIS:** Ah.
-
-**ILYRA:** You were being shouted at earlier.
+**ILYRA:** I know. You were being shouted at earlier.
 
 **CYANIS:** That'll do it.
 
@@ -100,23 +88,13 @@ Cyanis reacts to the threat.
 
 **CYANIS:** Get everyone behind the relay wall.
 
-**ILYRA:** Two stay.
+**ILYRA:** Two stay. If I move them now, they may stop breathing before they reach it.
 
-**CYANIS:** That wall's about to be the safer side.
+Cyanis looks toward the ridge, then back to her.
 
-**ILYRA:** If I move them now, they may stop breathing before they reach it.
+**CYANIS:** Then tell me what you need.
 
-A beat.
-
-Cyanis changes the question.
-
-**CYANIS:** What do you need?
-
-**ILYRA:** Half a minute.
-
-A beat.
-
-**ILYRA:** And something between them and that ridge.
+**ILYRA:** Half a minute and something between them and that ridge.
 
 Before Cyanis can answer, green-and-gold light wakes inside the damaged recovery casing.
 
@@ -138,19 +116,15 @@ Ilyra catches Cyanis's physical reaction almost immediately.
 
 **CYANIS:** I'm fine.
 
-**ILYRA:** No, you're not.
+**ILYRA:** No, you're not. Your pulse changed when that started.
 
-A beat.
-
-**ILYRA:** Your pulse changed when that started.
-
-**CYANIS:** Can you keep me standing?
+**CYANIS:** Can you keep me standing long enough to hold the cut?
 
 Ilyra checks him only as much as the active crisis allows.
 
-**ILYRA:** For now.
+**ILYRA:** For now. If that changes, I tell you—not the other way around.
 
-**CYANIS:** Then move them.
+**CYANIS:** Fair. Move them.
 
 Ilyra uses the opening rather than continuing the conversation.
 
@@ -170,29 +144,19 @@ The relevant characters remain in the active camp scene.
 
 Ilyra checks Cyanis again.
 
-**ILYRA:** Look at me.
-
-**CYANIS:** I am.
-
-**ILYRA:** Properly.
+**ILYRA:** Look at me. Properly.
 
 He does.
 
-A beat.
+**ILYRA:** Dizzy? Vision doing anything strange? Hands numb?
 
-**ILYRA:** Dizzy?
-
-**CYANIS:** Little.
+**CYANIS:** Little dizzy. Rest is normal.
 
 **ILYRA:** Better answer.
 
 **CYANIS:** You grading me now?
 
-**ILYRA:** Apparently.
-
-She finishes the quick assessment.
-
-**ILYRA:** If your vision narrows, your hand goes numb, or you stop hearing me clearly, you tell me.
+**ILYRA:** Apparently. If your vision narrows, your hand goes numb, or you stop hearing me clearly, you tell me immediately.
 
 **CYANIS:** I will.
 
@@ -208,15 +172,7 @@ Cyanis waits.
 
 **CYANIS:** You're staying here?
 
-**ILYRA:** No.
-
-**CYANIS:** You have patients.
-
-**ILYRA:** They're stable enough for the next few minutes.
-
-A beat.
-
-**ILYRA:** That line isn't.
+**ILYRA:** No. They're stable enough for the next few minutes; that line isn't. If it folds, I have patients in the open anyway.
 
 Cyanis accepts the distinction.
 
@@ -249,3 +205,7 @@ Scene ends before it turns into recruitment dialogue.
 The first incomplete green-and-gold response has occurred and fully ended. Cyanis did not intentionally activate it. Ilyra has observed a real physical correlation between the phenomenon and Cyanis without identifying the cause. The Card is inert before P05. Ilyra has independently joined the defense because the treatment space requires the perimeter to hold.
 
 No Prime, Might, Last Sentinel, bearer, ancient-weapon, or Entity explanation is revealed.
+
+## Natural-turn rhythm note
+
+The scene now varies turn length by pressure: commands and first-contact banter stay short, while Ilyra is allowed to finish medical/practical reasoning without being forced into one-sentence handoffs.
