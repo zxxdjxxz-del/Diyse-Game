@@ -48,7 +48,7 @@ Owning detailed lock: `AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`.
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION** — `PRODUCTION/CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch1 | **COMPLETE CURRENT WORKING PRODUCTION** — `PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch2 | pending current Dialogue Engine production **under the locked Ch0–1 Agent Brain pipeline** |
-| Ch3 | **ACTIVE REHEARSAL-FIRST PRODUCTION** — standalone Beats 1–9 Draft A complete; **Beats 6–8 rerun under the story-beat-as-guardrail correction; Beat 9 created under that method from the start**; cumulative readable manuscript currently assembled through Beat 5 at `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
+| Ch3 | **ACTIVE REHEARSAL-FIRST PRODUCTION** — standalone Beats 1–10 Draft A complete; **Beats 6–8 rerun under the story-beat-as-guardrail correction; Beats 9–10 created under that method from the start**; cumulative readable manuscript currently assembled through Beat 5 at `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch4 | pending current Dialogue Engine production under the locked Ch0–1 Agent Brain pipeline and current restructured story authority |
 | Ch5 | beat rewrite required before dialogue generation; subsequent dialogue uses the locked Ch0–1 Agent Brain pipeline |
 | Ch6 | macro/beat authority; dialogue pending under the locked Ch0–1 Agent Brain pipeline |
@@ -107,9 +107,9 @@ Current cumulative readable manuscript:
 
 Current cumulative assembly coverage:
 - Beats 1–5 are assembled in the cumulative manuscript.
-- Beats 6–9 are current as standalone production drafts and remain authoritative before the next cumulative assembly pass.
+- Beats 6–10 are current as standalone production drafts and remain authoritative before the next cumulative assembly pass.
 - Beats 6–8 were fully rerun after the Agent-Brain freedom correction; Git history contains their retired checkpoint-driven versions.
-- Beat 9 was authored from the start under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`.
+- Beats 9–10 were authored from the start under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`.
 
 Current production status:
 - Beat 1 — **Caelora Gate / Arrival — Draft A**;
@@ -121,8 +121,9 @@ Current production status:
 - Beat 7 — **Ancient Barrier / First Cooperation — Draft A, AGENT-DRIVEN RERUN COMPLETE**;
 - Beat 8 — **Archive Scribe Engine / Nimera Joins — Draft A, AGENT-DRIVEN RERUN COMPLETE**; Nimera permanently joins here and the active permanent combat party becomes Cyanis + Ilyra + Torren + Nimera;
 - Beat 9 — **Buried Collections / Dormant Card Research — Draft A, GUARDRAIL-FIRST AGENT-BRAIN PASS COMPLETE**;
-- Beat 10 — **NEXT LIVE TARGET — The Recent Reader / Hall of Seals**;
-- Beats 11–15 — pending sequential rehearsal-first passes;
+- Beat 10 — **The Recent Reader / Hall of Seals — Draft A, GUARDRAIL-FIRST AGENT-BRAIN PASS COMPLETE**;
+- Beat 11 — **NEXT LIVE TARGET — First Command Warden**;
+- Beats 12–15 — pending sequential rehearsal-first passes;
 - H01 — pending later cleanup pass with the two explicitly preserved Cyanis/Torren opening anchors;
 - H03 — pending fully agent-driven Ilyra/Nimera scene discovery during its rehearsal pass.
 
@@ -145,6 +146,8 @@ Current Chapter-3 standalone files:
 - `PRODUCTION/CHAPTER_03/BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_DRAFT_A.md`
 - `PRODUCTION/CHAPTER_03/BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_SPEC.json`
 - `PRODUCTION/CHAPTER_03/BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_DRAFT_A.md`
+- `PRODUCTION/CHAPTER_03/BEAT_10_RECENT_READER_HALL_OF_SEALS_SPEC.json`
+- `PRODUCTION/CHAPTER_03/BEAT_10_RECENT_READER_HALL_OF_SEALS_DRAFT_A.md`
 
 Chapter 3 uses the current consolidated 15-beat story authority in `docs/02_STORY/CHAPTERS/CHAPTER_03.md`.
 
