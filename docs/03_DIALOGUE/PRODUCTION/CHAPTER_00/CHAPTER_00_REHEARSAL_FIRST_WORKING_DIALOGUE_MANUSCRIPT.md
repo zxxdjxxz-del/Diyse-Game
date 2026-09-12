@@ -1,9 +1,16 @@
 # Diyse — Chapter 0 Rehearsal-First Working Dialogue Manuscript
 
-**Status:** ACTIVE WORKING MANUSCRIPT — P01 → P07 + optional C01 synchronized from current standalone rehearsal-first drafts.  
+**Status:** CURRENT WORKING MANUSCRIPT — P01 → P07 + optional C01 synchronized after natural-turn / floor-holding rhythm audit.  
 **Story authority:** `docs/02_STORY/CHAPTERS/CHAPTER_00.md`  
+**Rhythm authority:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
 **Physical Card continuity:** recovery casing survives through early P06, breaks during the P06 boss, Card survives intact and is carried directly afterward.  
 **Presentation:** portraits + dialogue box carry most acting; authored scenes may show relevant field models; ordinary wreck/route traversal uses Cyanis as the visible controllable field character; camp may show present characters.
+
+Chapter-0 rhythm result:
+- P01–P02 retain intentionally clipped crisis/rescue cadence;
+- P03–P07 were adjusted where speakers were yielding merely because a sentence ended;
+- C01 was substantially opened up so quiet conversation can use natural multi-sentence floor time;
+- short lines remain where command, danger, comedy timing, or early-relationship restraint makes them the stronger choice.
 
 ---
 
@@ -195,65 +202,43 @@ Player control resumes toward the Evacuation Relay.
 
 # P03 — Evacuation Relay Decision
 
-Cyanis reaches the damaged but usable relay. Survivors are consolidating toward it.
+Cyanis reaches the damaged but usable relay. Survivors are being consolidated toward it.
 
 The Card remains cased and inert.
 
 **CONVOY OFFICER:** Report.
 
-**CYANIS:** Seventeen moving. Five need carrying.
-
-A beat.
-
-**CYANIS:** Two escorts clean enough to chase. Three more can hold a fixed line.
+**CYANIS:** Seventeen moving. Five need carrying. Two escorts are clean enough to chase; three more can hold a fixed line.
 
 **CONVOY OFFICER:** Recovery wagon?
 
 **CYANIS:** Still ours. East approach is open. Center road isn't safe for casualties.
 
-**CONVOY OFFICER:** They're still pulling back.
+The officer looks north.
 
-**CYANIS:** Yeah.
+**CONVOY OFFICER:** They're still pulling back. If they reach the ridge intact, they can reform and hit us again.
 
-**CONVOY OFFICER:** If they reach the ridge intact, they can reform and hit us again.
+**CYANIS:** They can. I still don't like the north cut.
 
-**CYANIS:** They can.
+**CONVOY OFFICER:** Why?
 
-**CONVOY OFFICER:** Take the two mobile escorts. Push north before they settle.
+**CYANIS:** Everything else is choked and that one's clean. Maybe they cleared it for themselves. Maybe they want us looking north. I don't know which, and I don't want to spend our two best legs finding out while five people still need carrying.
 
-**CYANIS:** No, sir.
+The officer looks back toward the relay.
 
-A beat.
+**CONVOY OFFICER:** You want to let them go.
 
-**CONVOY OFFICER:** Give me the reason before you give me no.
-
-**CYANIS:** Five people can't move without help. Three defenders barely hold here. If I take the two clean ones north, we're betting the camp on a retreat I don't trust.
-
-**CONVOY OFFICER:** Because the cut's clear.
-
-**CYANIS:** And every other route isn't.
-
-**CONVOY OFFICER:** They could've cleared it for themselves.
-
-**CYANIS:** Could've.
+**CYANIS:** For ten minutes. Pull the casualties in, reform around the wreck and recovery wagon, and watch north. If they come back, they come back to a line instead of half a camp.
 
 A beat.
 
-**CONVOY OFFICER:** What do you want?
+**CONVOY OFFICER:** And if they use those ten minutes to settle on the ridge?
 
-**CYANIS:** Pull the casualties into the relay. Reform around the wreck and recovery wagon. Watch north.
+**CYANIS:** Then we still have a line, the wounded are behind it, and I can move without leaving the relay hollowed out.
 
-A beat.
+The officer considers the field rather than treating the disagreement as a contest of rank.
 
-**CYANIS:** Give it ten minutes.
-
-**CONVOY OFFICER:** And if they regroup in ten?
-
-**CYANIS:** Then they come back to a line.
-
-The officer considers the field.
-
-**CONVOY OFFICER:** All right. Relay first. Reform on the wagon. Eyes north.
+**CONVOY OFFICER:** All right. Relay first. Reform on the wagon and keep eyes north. Nobody chases until I say otherwise.
 
 **CYANIS:** Yes, sir.
 
@@ -263,7 +248,9 @@ Cyanis starts to go.
 
 **CYANIS:** Sir?
 
-**CONVOY OFFICER:** Next time, field first. Refusal second.
+**CONVOY OFFICER:** Next time, field first and refusal second. You had the argument. I shouldn't have to drag it out of you.
+
+A beat.
 
 **CYANIS:** Yes, sir.
 
@@ -273,7 +260,7 @@ No Card response occurs.
 
 # P04 — Field Triage Camp / Ilyra / First Incomplete Response
 
-The relay-side area is now a working triage camp. Relevant people may appear as simple field models during authored scenes.
+The relay-side defensive area has become a working triage camp.
 
 Ilyra Amarin is already working. She and Cyanis do not begin as established acquaintances.
 
@@ -289,11 +276,9 @@ Cyanis reaches the same lane from the security side.
 
 **CYANIS:** She can't move?
 
-**ILYRA:** Not safely.
+**ILYRA:** Not safely. Her breathing gets worse when we shift her, and I don't have enough hands to gamble on it. Give me a stable surface and a few minutes.
 
-A beat.
-
-**ILYRA:** Her breathing gets worse when we shift her. Give me a stable surface and a few minutes.
+Cyanis checks the lane.
 
 **CYANIS:** All right. Crates move.
 
@@ -305,15 +290,13 @@ A little later:
 
 **CYANIS:** Seven keeps the west corner covered.
 
+Ilyra checks once.
+
 **ILYRA:** Seven.
 
 A beat.
 
-**ILYRA:** Your left arm's shaking.
-
-**CYANIS:** Still works.
-
-**ILYRA:** I didn't ask whether it works.
+**ILYRA:** Your left arm's shaking. Don't tell me it still works; I'm asking whether it's getting worse.
 
 **CYANIS:** I'm upright.
 
@@ -327,11 +310,7 @@ A beat.
 
 **CYANIS:** Dovaren.
 
-**ILYRA:** I know.
-
-**CYANIS:** Ah.
-
-**ILYRA:** You were being shouted at earlier.
+**ILYRA:** I know. You were being shouted at earlier.
 
 **CYANIS:** That'll do it.
 
@@ -341,21 +320,13 @@ Renewed Host pressure interrupts them.
 
 **CYANIS:** Get everyone behind the relay wall.
 
-**ILYRA:** Two stay.
+**ILYRA:** Two stay. If I move them now, they may stop breathing before they reach it.
 
-**CYANIS:** That wall's about to be the safer side.
+Cyanis looks toward the ridge, then back to her.
 
-**ILYRA:** If I move them now, they may stop breathing before they reach it.
+**CYANIS:** Then tell me what you need.
 
-A beat.
-
-**CYANIS:** What do you need?
-
-**ILYRA:** Half a minute.
-
-A beat.
-
-**ILYRA:** And something between them and that ridge.
+**ILYRA:** Half a minute and something between them and that ridge.
 
 Before Cyanis can answer, green-and-gold light wakes inside the damaged recovery casing.
 
@@ -367,47 +338,39 @@ It attacks nothing and heals nobody. Nobody intentionally activates it.
 
 **CYANIS:** No idea.
 
-Ilyra catches Cyanis's physical reaction.
+Ilyra catches Cyanis's physical reaction almost immediately.
 
 **ILYRA:** Dovaren.
 
 **CYANIS:** I'm fine.
 
-**ILYRA:** No, you're not.
+**ILYRA:** No, you're not. Your pulse changed when that started.
 
-**ILYRA:** Your pulse changed when that started.
+**CYANIS:** Can you keep me standing long enough to hold the cut?
 
-**CYANIS:** Can you keep me standing?
+**ILYRA:** For now. If that changes, I tell you—not the other way around.
 
-**ILYRA:** For now.
+**CYANIS:** Fair. Move them.
 
-**CYANIS:** Then move them.
+Ilyra uses the opening.
 
-Ilyra uses the opening. Once the threatened patients are moved, the green-and-gold geometry fully collapses.
-
-The casing and Card return to inert state. There is no lingering protection into P05.
+Once the threatened patients are moved, the green-and-gold geometry fully collapses. The casing and Card return to inert state.
 
 Ilyra checks Cyanis again.
 
-**ILYRA:** Look at me.
+**ILYRA:** Look at me. Properly.
 
-**CYANIS:** I am.
+He does.
 
-**ILYRA:** Properly.
+**ILYRA:** Dizzy? Vision doing anything strange? Hands numb?
 
-A beat.
-
-**ILYRA:** Dizzy?
-
-**CYANIS:** Little.
+**CYANIS:** Little dizzy. Rest is normal.
 
 **ILYRA:** Better answer.
 
 **CYANIS:** You grading me now?
 
-**ILYRA:** Apparently.
-
-**ILYRA:** If your vision narrows, your hand goes numb, or you stop hearing me clearly, you tell me.
+**ILYRA:** Apparently. If your vision narrows, your hand goes numb, or you stop hearing me clearly, you tell me immediately.
 
 **CYANIS:** I will.
 
@@ -417,21 +380,17 @@ Outside the treatment position, Host pressure remains.
 
 **ILYRA:** Yes.
 
+Cyanis waits.
+
 **CYANIS:** You're staying here?
 
-**ILYRA:** No.
-
-**CYANIS:** You have patients.
-
-**ILYRA:** They're stable enough for the next few minutes.
-
-A beat.
-
-**ILYRA:** That line isn't.
+**ILYRA:** No. They're stable enough for the next few minutes; that line isn't. If it folds, I have patients in the open anyway.
 
 **CYANIS:** You fight?
 
 **ILYRA:** I'm a Warden.
+
+A beat.
 
 **CYANIS:** Right.
 
@@ -463,9 +422,7 @@ A beat.
 
 **ILYRA:** That's not comforting.
 
-**CYANIS:** Wasn't meant to be.
-
-**CYANIS:** Camp stays behind us.
+**CYANIS:** Wasn't meant to be. Camp stays behind us.
 
 **ILYRA:** Agreed.
 
@@ -481,7 +438,7 @@ At the encounter-authorized threshold, the Pursuer withdraws alive.
 
 **CYANIS:** Wasn't going after him.
 
-**ILYRA:** Good.
+**ILYRA:** Good. I don't want to learn what he wanted by following him into it.
 
 They leave it there.
 
@@ -489,23 +446,23 @@ They leave it there.
 
 The scene returns to the defended treatment area. There is a real pause before P06; no second flare yet.
 
-**ILYRA:** Water.
+**ILYRA:** Water. And yes, before you ask, that's an order.
 
-**CYANIS:** That an order?
+**CYANIS:** I wasn't going to ask.
 
-**ILYRA:** Yes.
+**ILYRA:** Good. Drink.
 
-He drinks.
+He does.
 
 A little quiet passes.
 
 **CYANIS:** Better?
 
-**ILYRA:** Ask me in five minutes.
+**ILYRA:** Ask me in five minutes. Right now you're upright, you're answering normally, and you're still trying to bargain with water. That's enough information for the moment.
 
 **CYANIS:** Encouraging.
 
-**ILYRA:** Drink again.
+**ILYRA:** It wasn't meant to be. Drink again.
 
 He does.
 
@@ -533,17 +490,13 @@ A beat.
 
 **CYANIS:** Everybody behind stone. Nobody follows us out.
 
-**ILYRA:** Keep the lane behind me clear.
+**ILYRA:** Keep the lane behind me clear. If I have to move someone, I don't want to find you standing where I need to go.
 
 **CYANIS:** You have it.
 
 Green-and-gold light wakes inside the damaged recovery casing for the second time.
 
-**ILYRA:** There.
-
-**CYANIS:** I feel it.
-
-**ILYRA:** Same thing?
+**ILYRA:** There. Same feeling as before?
 
 **CYANIS:** Close enough.
 
@@ -551,7 +504,7 @@ Green-and-gold light wakes inside the damaged recovery casing for the second tim
 
 A beat.
 
-**CYANIS:** Feels the same.
+**CYANIS:** Feels the same. No worse yet.
 
 **ILYRA:** Better.
 
@@ -587,11 +540,7 @@ The second response fully disappears. The Card goes dark.
 
 Ilyra immediately checks Cyanis.
 
-**ILYRA:** Look at me.
-
-**CYANIS:** I am.
-
-**ILYRA:** Both eyes.
+**ILYRA:** Look at me. Both eyes.
 
 A beat.
 
@@ -601,43 +550,41 @@ Ilyra freezes for half a second.
 
 **CYANIS:** Kidding.
 
-**ILYRA:** Don't.
+**ILYRA:** Don't do that. I don't know enough yet to know what that light did to you, and I am not guessing whether you're joking about double vision.
 
 **CYANIS:** Sorry.
 
 A beat.
 
-**ILYRA:** Again.
+**ILYRA:** Again. What do you see?
 
-**CYANIS:** One of you.
+**CYANIS:** One of you. Camp behind you. Everything else where it should be.
 
 **ILYRA:** Good.
 
 **CYANIS:** Camp?
 
-**ILYRA:** Still ours.
+**ILYRA:** Still ours. Wounded are still moving where they're supposed to.
 
 The Card lies beside the broken casing.
 
-**CYANIS:** The case.
+**CYANIS:** The case is done.
 
-**ILYRA:** Finished.
+**ILYRA:** Completely.
 
 **CYANIS:** Card looks intact.
 
-**ILYRA:** Looks.
-
-A beat.
+**ILYRA:** Looks intact. That's all we know from here.
 
 **CYANIS:** Right.
 
 Once Ilyra is satisfied he can move, Cyanis retrieves the Card itself. It stays dark.
 
-**CONVOY OFFICER:** We count people first.
+**CONVOY OFFICER:** We count people first. Whatever that thing is, it can wait until nobody's bleeding in the road.
 
 **CYANIS:** Yeah.
 
-**ILYRA:** I'll check you properly after.
+**ILYRA:** I'll check you properly after we've got the wounded moving. You are not disappearing before then.
 
 **CYANIS:** I heard you.
 
@@ -653,9 +600,9 @@ The crisis closes through work rather than celebration. Cyanis now carries the i
 
 **CONVOY OFFICER:** Dovaren. Amarin. Give me the field.
 
-**CYANIS:** East cut's clear. Nobody followed them.
+**CYANIS:** East cut's clear. Nobody followed them. Wreck line is still exposed on the south side.
 
-**ILYRA:** Walking wounded can move. Two still can't.
+**ILYRA:** Walking wounded can move. Two still can't, and I don't want either of them sitting upright yet.
 
 **CONVOY OFFICER:** Missing?
 
@@ -663,19 +610,17 @@ The crisis closes through work rather than celebration. Cyanis now carries the i
 
 A beat.
 
-**CYANIS:** Then we search the wreck line.
-
-**CONVOY OFFICER:** Light's going.
-
-**CYANIS:** I know.
+**CYANIS:** Then we search the wreck line before the light goes.
 
 **CONVOY OFFICER:** Brackenwall can send people back at first light.
 
-**CYANIS:** If somebody's pinned, first light's too late.
+**CYANIS:** If somebody's pinned, first light's too late. Same if they're bleeding where we can't see them.
 
-**ILYRA:** Same if they're bleeding.
+**ILYRA:** He's right. We don't need the whole road; we need one bounded sweep while we can still find somebody alive.
 
-**CONVOY OFFICER:** One sweep. South ditch to the wreck markers. Nobody goes past them after Host stragglers.
+The officer considers that.
+
+**CONVOY OFFICER:** One sweep. South ditch to the wreck markers, no farther. If you find Host stragglers beyond that boundary, you leave them there and come back.
 
 **CYANIS:** Understood.
 
@@ -683,65 +628,41 @@ A beat.
 
 ## The Card
 
-**CONVOY OFFICER:** That stays exactly where it is until Brackenwall.
+**CONVOY OFFICER:** That stays exactly where it is until Brackenwall. No testing, no handing it around because somebody gets curious, and no clever ideas on the road.
 
 **CYANIS:** Happily.
 
-**CONVOY OFFICER:** No testing it on the road.
+**ILYRA:** No argument from me.
 
-**ILYRA:** No argument.
+**CONVOY OFFICER:** Good. Brackenwall can decide what to do with it when we have walls and people who aren't half dead.
 
-**CONVOY OFFICER:** Brackenwall can decide what to do with it.
-
-Nobody proposes a separation test here.
+Nobody proposes another separation test here.
 
 ## Ilyra stays
 
-**CONVOY OFFICER:** Your medical group goes with the first wounded column.
-
-**ILYRA:** They should.
-
-**CONVOY OFFICER:** You going with them?
+**CONVOY OFFICER:** Your medical group goes with the first wounded column. You going with them?
 
 A beat.
 
-**ILYRA:** No.
-
-**CONVOY OFFICER:** Why?
-
-**ILYRA:** Twice that thing lit up. Twice his condition changed with it.
-
-A beat.
-
-**ILYRA:** I was there both times. I'm staying until morning.
+**ILYRA:** No. Twice that thing lit up, and twice his condition changed with it. I was there both times, I treated him both times, and I still don't know what it did. My people can move the wounded without me tonight. I'm staying until morning.
 
 **CYANIS:** You don't have to stay on my account.
 
-**ILYRA:** I'm not.
-
-A beat.
-
-**ILYRA:** I'm staying because I'm the one who treated it.
+**ILYRA:** I'm not. I'm staying because I'm the one who treated you when it happened, and I'm not handing that off blind after two episodes I can't explain yet.
 
 **CYANIS:** Right.
 
-**CONVOY OFFICER:** And the sweep?
+The convoy officer glances toward the wreck line.
 
-**ILYRA:** I'm doing that too.
+**CONVOY OFFICER:** And I assume you're doing the sweep too.
 
-**CONVOY OFFICER:** Of course you are.
+**ILYRA:** Yes.
 
-**ILYRA:** Was that a problem?
-
-**CONVOY OFFICER:** No.
-
-A beat.
-
-**CONVOY OFFICER:** Search first.
-
-**CYANIS:** Yes, sir.
+**CONVOY OFFICER:** Of course you are. Search first, argue with me later if you still have the energy.
 
 **ILYRA:** Understood.
+
+**CYANIS:** Yes, sir.
 
 Player control returns for the bounded survivor sweep. Cyanis is the visible controllable field character during ordinary wreck-field traversal; Ilyra remains present in story state and can appear for authored stops.
 
@@ -751,21 +672,13 @@ The sweep stays inside the established search boundary and never becomes pursuit
 
 After the sweep and stabilization work:
 
-**CONVOY OFFICER:** First column's moving.
+**CONVOY OFFICER:** First column's moving. Amarin, your people have the two who can't sit upright. Dovaren, you stay here with her until morning, then both of you go to Brackenwall with the Card.
 
-**ILYRA:** My people know which two can't sit upright.
-
-**CONVOY OFFICER:** They do.
-
-**CONVOY OFFICER:** You two stay until morning. Then Brackenwall.
-
-**CYANIS:** With the Card.
-
-**CONVOY OFFICER:** With the Card.
+**CYANIS:** Understood.
 
 A beat.
 
-**CONVOY OFFICER:** Try not to make the night interesting.
+**CONVOY OFFICER:** Try not to make the night interesting. I've had enough interesting for one day.
 
 **CYANIS:** I'll do my best.
 
@@ -795,89 +708,75 @@ Stops.
 
 **ILYRA:** Bad?
 
-**CYANIS:** Depends what it was supposed to be.
+**CYANIS:** Depends what it was supposed to be. If the goal was hot and aggressively unpleasant, somebody nailed it.
+
+Ilyra looks at the cup.
 
 **ILYRA:** Where did you get that?
 
-**CYANIS:** Pot by the fire.
+**CYANIS:** Pot by the fire. It was hot, it was available, and I made assumptions.
 
 A beat.
 
-**ILYRA:** That's bitterleaf.
-
-**CYANIS:** I gathered that much.
-
-**ILYRA:** It's for compresses.
+**ILYRA:** That's bitterleaf. It's for compresses.
 
 Cyanis looks at the cup again.
 
-**CYANIS:** Ah.
+**CYANIS:** Ah. That explains more than I wanted it to.
 
 **ILYRA:** You drank it.
 
-**CYANIS:** Some of it.
+**CYANIS:** Some of it. In my defense, it's been a long day and nobody labeled the medical swamp water.
 
-**ILYRA:** Why?
+Ilyra takes the cup away from him.
 
-**CYANIS:** Hot. Cup.
+**ILYRA:** That is not a defense.
 
-Ilyra stares at him.
-
-**CYANIS:** In my defense, I'm tired.
-
-**ILYRA:** That's not a defense.
-
-**CYANIS:** It's all I have.
-
-The cup is removed from consideration.
+**CYANIS:** It's the only one I've got.
 
 A little silence follows.
 
-**ILYRA:** Have you eaten?
+**ILYRA:** Have you eaten since the fight?
 
 **CYANIS:** Have you?
 
-Another silence.
+She gives him a look.
 
-**ILYRA:** That's irritating.
+**ILYRA:** No. Which was going to be my next problem with you, so now we're both irritating.
 
-**CYANIS:** I thought so.
+**CYANIS:** Good. Saves time.
 
 They end up with ordinary camp food.
 
 For a while neither speaks.
 
-**ILYRA:** I forgot I was hungry.
+Eventually:
 
-**CYANIS:** Yeah.
+**ILYRA:** I forgot I was hungry. That's usually a sign I've been doing something stupid for too long.
 
-A beat.
+**CYANIS:** Same. Though I did drink compress water, so I may be ahead of you.
 
-**CYANIS:** This is much better than the compress water.
+**ILYRA:** Considerably.
 
-**ILYRA:** An achievement.
+Cyanis takes another bite.
 
-**CYANIS:** A low one.
+**CYANIS:** This is much better.
 
-**ILYRA:** Still counts.
+**ILYRA:** A low bar.
+
+**CYANIS:** Still counts.
 
 They keep eating.
 
 When the food is nearly gone, Ilyra shifts as though she is about to return to work.
 
-**CYANIS:** No.
-
-**ILYRA:** No what?
-
-**CYANIS:** Whatever you're about to go do.
+**CYANIS:** No. Whatever you're about to go do can wait a minute.
 
 **ILYRA:** I have patients to check.
 
-**CYANIS:** They're settled.
+**CYANIS:** They're settled. If something changes, somebody will call you.
 
-**ILYRA:** I know.
-
-**CYANIS:** Then sit down for a minute.
+Ilyra looks at him.
 
 **ILYRA:** You were about to stand up too.
 
@@ -887,9 +786,15 @@ Cyanis pauses.
 
 **ILYRA:** How?
 
-**CYANIS:** I hadn't decided what I was doing yet.
+**CYANIS:** I hadn't decided what I was doing yet. I was just looking at the perimeter.
 
-**ILYRA:** You were looking at the perimeter.
+**ILYRA:** With the expression you use when you're about to make work for yourself.
+
+**CYANIS:** You learned that today?
+
+**ILYRA:** It wasn't subtle.
+
+Cyanis looks toward the dark perimeter.
 
 **CYANIS:** Could've been admiring it.
 
@@ -897,37 +802,27 @@ Cyanis pauses.
 
 **CYANIS:** Very scenic.
 
+Ilyra almost smiles.
+
 Neither gets up.
 
 A little time passes.
 
-**CYANIS:** Five minutes.
+**CYANIS:** Five minutes. We sit here and do absolutely nothing useful.
 
-**ILYRA:** For what?
+Ilyra thinks about it.
 
-**CYANIS:** Nothing useful.
+**ILYRA:** Six. Five sounds planned, and I refuse to turn sitting down into another task.
 
-Ilyra looks at him.
+**CYANIS:** Six minutes of aggressively unplanned nothing, then.
 
-**ILYRA:** Six.
+**ILYRA:** You just made it sound like work.
 
-**CYANIS:** Why six?
-
-**ILYRA:** Five sounds planned.
-
-Cyanis considers that.
-
-**CYANIS:** Six minutes of aggressively unplanned nothing.
-
-**ILYRA:** Don't make it sound like work.
-
-**CYANIS:** Right.
+**CYANIS:** Right. Six minutes, no adjective.
 
 A beat.
 
-**CYANIS:** Six minutes.
-
-**ILYRA:** Six.
+**ILYRA:** Better.
 
 They sit there and do nothing useful.
 
@@ -957,6 +852,8 @@ Cyanis and Ilyra depart with the **Card itself**, not a casing.
 
 ## Current whole-chapter read
 
-The chapter now has a clear relationship progression rather than instant familiarity: P04 establishes professional respect under pressure; P05 gives Cyanis and Ilyra their first small conversational breathing room; P06 allows concern without making them intimate; P07 makes Ilyra's continued presence her own professional decision; C01 is the first time they voluntarily sit together with nothing urgent demanding it.
+The relationship progression remains unchanged: P04 establishes professional respect under pressure; P05 gives Cyanis and Ilyra their first small conversational breathing room; P06 allows concern without making them intimate; P07 makes Ilyra's continued presence her own professional decision; C01 is the first time they voluntarily sit together with nothing urgent demanding it.
 
-The Card response is also clean across the whole chapter: inert through P01–P03 → first flare in P04 → fully inert through P05 → second flare in P06 → casing breaks during that fight → Card itself is carried inert through P07, C01, departure, and into Chapter 1.
+The Card response remains unchanged across the whole chapter: inert through P01–P03 → first flare in P04 → fully inert through P05 → second flare in P06 → casing breaks during that fight → Card itself is carried inert through P07, C01, departure, and into Chapter 1.
+
+The natural-turn audit changes cadence, not story: characters now hold the floor long enough to complete thoughts when pressure permits, while crisis command, combat timing, rescue shorthand, and punchlines remain terse where appropriate.
