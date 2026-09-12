@@ -1,18 +1,19 @@
 # Diyse — Chapter 3 Rehearsal-First Dialogue Assembly
 
-**Status:** COMPLETE CURRENT WORKING PRODUCTION — MAINLINE 1–15 + H01/H03; NATURAL-TURN / FLOOR-HOLDING RHYTHM AUDIT COMPLETE  
+**Status:** COMPLETE CURRENT WORKING PRODUCTION — MAINLINE 1–15 + C06/C07; NATURAL-TURN / FLOOR-HOLDING RHYTHM AUDIT COMPLETE  
 **Purpose:** ordered current Chapter-3 assembly/status map.  
 **Exact scene authority:** the standalone Beat / Character-Life files listed below.  
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_03.md`  
 **Dialogue workflow authority:** `../../AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`  
 **Guardrail workflow authority:** `../../AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md`  
+**Character-Life numbering authority:** `../CHARACTER_LIFE_NUMBERING_LOCK.md`  
 **Rhythm authority:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
 
 ## Authority rule
 
 > **This file owns Chapter-3 order/status. It no longer carries a duplicate line-complete transcript. The listed standalone scene file owns exact current wording for that scene.**
 
-This prevents a targeted scene revision from leaving a second stale dialogue copy in live authority.
+Character-Life numbering is global and chronological. The current Chapter-3 scenes are canonically **C06** and **C07**. Their existing `H01/H03` filenames are legacy development source keys until the atomic files are next renamed under the global numbering migration rule.
 
 ## Mainline order
 
@@ -34,10 +35,10 @@ This prevents a targeted scene revision from leaving a second stale dialogue cop
 
 ## Cleanup Character-Life order
 
-- `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md`
-- `H03_ILYRA_AND_NIMERA_DRAFT_A.md`
+- **C06 — Nimera Takes Over a Table** — legacy source `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md`
+- **C07 — Ilyra and Nimera** — legacy source `H03_ILYRA_AND_NIMERA_DRAFT_A.md`
 
-H02 and H04 remain retired.
+Historical H02/H04 concepts remain retired. Their retirement does not reserve canonical Character-Life numbers.
 
 ## Natural-turn / floor-holding audit result
 
@@ -58,14 +59,14 @@ H02 and H04 remain retired.
 - Beat 8 — battle + recruitment transition;
 - Beat 11 — Warden activation/boss/shutdown;
 - Beat 13 — selective debrief with Mirena; already contains natural longer Mirena/Nimera turns;
-- H01 — rapid safe comedy argument; exact opening anchors protected;
-- H03 — rapid low-stakes classification comedy.
+- **C06** — rapid safe comedy argument; exact opening anchors protected;
+- **C07** — rapid low-stakes classification comedy.
 
-The audit does **not** require every scene to contain long turns. It requires short turns to be earned rather than mechanically defaulted.
+The audit does not require every scene to contain long turns. It requires short turns to be earned rather than mechanically defaulted.
 
 ## Protected exact anchors
 
-H01 remains exact at the opening:
+**C06 — Nimera Takes Over a Table** remains exact at the opening:
 
 > **CYANIS:** I bet you use that cape to sneak up on the goats you fuck.  
 > **TORREN:** You look like a walking dick in armor.
@@ -85,7 +86,7 @@ Beat 11 final Warden messages remain exact and ordered:
 - Mirena identifies the marked northern site as Cresthaven from the existing Chapter-2 map copy; no new Beat-12 map evidence exists.
 - Cresthaven is the party's operational headquarters while working with Mirena, not a permanent ownership grant.
 - Regional Hunt #3 access is unlocked through the newly accessible Old City Archive side passage.
-- H01 and H03 are the only active Chapter-3 cleanup Character-Life scenes.
+- **C06 and C07** are the only active Chapter-3 cleanup Character-Life scenes.
 - Chapter 3 remains active during cleanup until the player deliberately chooses **Begin Chapter 4**.
 
 ## Audit history
@@ -95,4 +96,4 @@ Prior chapter-wide integration audit:
 
 The later natural-turn audit is a rhythm/polish correction layered on top of that integration pass. It does not supersede the story/reveal corrections recorded there.
 
-> **Chapter 3 dialogue production + closing integration + natural-turn rhythm audit: COMPLETE.**
+> **Chapter 3 dialogue production + closing integration + natural-turn rhythm audit: COMPLETE. Canonical Character-Life IDs: C06/C07.**
