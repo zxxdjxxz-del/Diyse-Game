@@ -23,7 +23,7 @@ Do not infer or add surnames that are not explicitly canonical. Current reposito
 | Ilyra | [`ilyra.jpg`](../../../../asset_sources/characters/current/ilyra.jpg) | [`ILYRA_CURRENT_VISUAL_LOCK.md`](ILYRA_CURRENT_VISUAL_LOCK.md) |
 | Torren | [`torren.jpg`](../../../../asset_sources/characters/current/torren.jpg) | [`TORREN_CURRENT_VISUAL_LOCK.md`](TORREN_CURRENT_VISUAL_LOCK.md) |
 | Nimera | [`nimera.jpg`](../../../../asset_sources/characters/current/nimera.jpg) | [`NIMERA_CURRENT_VISUAL_LOCK.md`](NIMERA_CURRENT_VISUAL_LOCK.md) |
-| Vaelira | [`vaelira.jpg`](../../../../asset_sources/characters/current/vaelira.jpg) | [`VAELIRA_CURRENT_VISUAL_LOCK.md`](VAELIRA_CURRENT_VISUAL_LOCK.md) |
+| Vaelira | [`vaelira.png`](../../../../asset_sources/characters/current/vaelira.png) | [`VAELIRA_CURRENT_VISUAL_LOCK.md`](VAELIRA_CURRENT_VISUAL_LOCK.md) |
 | Seyrik | [`seyrik.jpg`](../../../../asset_sources/characters/current/seyrik.jpg) | [`SEYRIK_CURRENT_VISUAL_LOCK.md`](SEYRIK_CURRENT_VISUAL_LOCK.md) |
 
 These six are the permanent playable party and should be treated as one coherent B00 character-production set.
