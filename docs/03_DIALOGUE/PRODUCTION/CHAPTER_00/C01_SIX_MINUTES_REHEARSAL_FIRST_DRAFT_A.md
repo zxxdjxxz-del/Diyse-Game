@@ -1,6 +1,6 @@
 # Chapter 0 — Character-Life C01
 # Six Minutes
-## REHEARSAL-FIRST PRODUCTION DRAFT A — awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT A — NATURAL-TURN RHYTHM PASS / awaiting user approval
 
 ---
 
@@ -28,45 +28,33 @@ Stops.
 
 **ILYRA:** Bad?
 
-**CYANIS:** Depends what it was supposed to be.
+**CYANIS:** Depends what it was supposed to be. If the goal was hot and aggressively unpleasant, somebody nailed it.
 
 Ilyra looks at the cup.
 
 **ILYRA:** Where did you get that?
 
-**CYANIS:** Pot by the fire.
+**CYANIS:** Pot by the fire. It was hot, it was available, and I made assumptions.
 
 A beat.
 
-**ILYRA:** That's bitterleaf.
+Ilyra realizes what he has.
 
-**CYANIS:** I gathered that much.
-
-**ILYRA:** It's for compresses.
+**ILYRA:** That's bitterleaf. It's for compresses.
 
 Cyanis looks at the cup again.
 
-**CYANIS:** Ah.
-
-A beat.
+**CYANIS:** Ah. That explains more than I wanted it to.
 
 **ILYRA:** You drank it.
 
-**CYANIS:** Some of it.
+**CYANIS:** Some of it. In my defense, it's been a long day and nobody labeled the medical swamp water.
 
-**ILYRA:** Why?
+Ilyra takes the cup away from him.
 
-**CYANIS:** Hot. Cup.
+**ILYRA:** That is not a defense.
 
-Ilyra stares at him.
-
-**CYANIS:** In my defense, I'm tired.
-
-**ILYRA:** That's not a defense.
-
-**CYANIS:** It's all I have.
-
-She takes the cup away from him.
+**CYANIS:** It's the only one I've got.
 
 No elaborate prop routine is needed.
 
@@ -76,15 +64,17 @@ No elaborate prop routine is needed.
 
 A little silence follows.
 
-**ILYRA:** Have you eaten?
+Ilyra looks at him again.
+
+**ILYRA:** Have you eaten since the fight?
 
 **CYANIS:** Have you?
 
-Another silence.
+She gives him a look.
 
-**ILYRA:** That's irritating.
+**ILYRA:** No. Which was going to be my next problem with you, so now we're both irritating.
 
-**CYANIS:** I thought so.
+**CYANIS:** Good. Saves time.
 
 They end up with ordinary camp food.
 
@@ -92,21 +82,21 @@ For a while, neither speaks.
 
 They are both hungrier than either realized.
 
-Eventually:
+Eventually Ilyra slows down enough to notice it.
 
-**ILYRA:** I forgot I was hungry.
+**ILYRA:** I forgot I was hungry. That's usually a sign I've been doing something stupid for too long.
 
-**CYANIS:** Yeah.
+**CYANIS:** Same. Though I did drink compress water, so I may be ahead of you.
 
-A beat.
+**ILYRA:** Considerably.
 
-**CYANIS:** This is much better than the compress water.
+Cyanis takes another bite.
 
-**ILYRA:** An achievement.
+**CYANIS:** This is much better.
 
-**CYANIS:** A low one.
+**ILYRA:** A low bar.
 
-**ILYRA:** Still counts.
+**CYANIS:** Still counts.
 
 They keep eating.
 
@@ -118,19 +108,11 @@ The silence is not awkward, but it is still the silence of two people who met to
 
 When the food is nearly gone, Ilyra shifts as if she's about to get back up.
 
-**CYANIS:** No.
-
-**ILYRA:** No what?
-
-**CYANIS:** Whatever you're about to go do.
+**CYANIS:** No. Whatever you're about to go do can wait a minute.
 
 **ILYRA:** I have patients to check.
 
-**CYANIS:** They're settled.
-
-**ILYRA:** I know.
-
-**CYANIS:** Then sit down for a minute.
+**CYANIS:** They're settled. If something changes, somebody will call you.
 
 Ilyra looks at him.
 
@@ -142,11 +124,15 @@ Cyanis pauses.
 
 **ILYRA:** How?
 
-He thinks about it.
+**CYANIS:** I hadn't decided what I was doing yet. I was just looking at the perimeter.
 
-**CYANIS:** I hadn't decided what I was doing yet.
+**ILYRA:** With the expression you use when you're about to make work for yourself.
 
-**ILYRA:** You were looking at the perimeter.
+**CYANIS:** You learned that today?
+
+**ILYRA:** It wasn't subtle.
+
+Cyanis looks back toward the dark perimeter.
 
 **CYANIS:** Could've been admiring it.
 
@@ -164,33 +150,23 @@ Neither gets up.
 
 A little time passes.
 
-**CYANIS:** Five minutes.
+Cyanis settles back instead of pretending he was not about to move.
 
-**ILYRA:** For what?
+**CYANIS:** Five minutes. We sit here and do absolutely nothing useful.
 
-**CYANIS:** Nothing useful.
+Ilyra thinks about it.
 
-Ilyra looks at him.
+**ILYRA:** Six. Five sounds planned, and I refuse to turn sitting down into another task.
 
-**ILYRA:** Six.
+**CYANIS:** Six minutes of aggressively unplanned nothing, then.
 
-**CYANIS:** Why six?
+**ILYRA:** You just made it sound like work.
 
-**ILYRA:** Five sounds planned.
-
-Cyanis considers that.
-
-**CYANIS:** Six minutes of aggressively unplanned nothing.
-
-**ILYRA:** Don't make it sound like work.
-
-**CYANIS:** Right.
+**CYANIS:** Right. Six minutes, no adjective.
 
 A beat.
 
-**CYANIS:** Six minutes.
-
-**ILYRA:** Six.
+**ILYRA:** Better.
 
 They sit.
 
@@ -212,3 +188,7 @@ The scene ends in the quiet.
 - ends with a small, arbitrary shared rule — six minutes of doing nothing useful;
 - Card remains inert;
 - C01 does not advance Chapter 0.
+
+## Natural-turn rhythm note
+
+C01 deliberately uses longer conversational turns than the combat chapter around it. The two still trade short lines when a joke benefits from timing, but neither is forced to surrender the floor after every sentence.
