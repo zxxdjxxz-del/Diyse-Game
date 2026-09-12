@@ -142,9 +142,7 @@ There are enough repeated tool positions, discarded attempts, and reused work su
 
 Nimera looks over the whole sequence again.
 
-**NIMERA:** Ancient forms first. Then Yahtrean. Then royal-document copies. Finally the Crest.
-
-Nobody needs to summarize the implication further.
+**NIMERA:** And more specific.
 
 Torren glances back toward the chamber entrance.
 
@@ -230,6 +228,7 @@ Transition into:
 - Later visual copies are highly accurate, but visible accuracy is kept distinct from the genuine magical authority response.
 - Burned / repeated binding work establishes unusually powerful magical effort.
 - The scene states the central evidence boundary once, in one complete Nimera turn: the party can prove the visible copies and the attempts to make them magically meaningful, but not successful reproduction of Lysara's authority response.
+- the physical progression is not recited back as a four-step verbal checklist after the player has already seen it; Torren and Nimera only register that the work became cleaner and more specific.
 - The recent reader and seal practitioner may be connected, but Beat 12 does not prove they are the same person.
 - the practitioner remains unidentified and is not proven to have authored the suspect Card transport orders.
 - Cyanis's Card remains stable deep Ruby with no transformation, Prime recovery, manifestation, identification, or gameplay unlock.
