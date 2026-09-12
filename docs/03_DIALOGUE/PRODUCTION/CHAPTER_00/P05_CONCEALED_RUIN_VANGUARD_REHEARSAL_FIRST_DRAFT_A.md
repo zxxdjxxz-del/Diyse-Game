@@ -1,6 +1,6 @@
 # Chapter 0 — P05
 # Concealed Ruin Vanguard
-## REHEARSAL-FIRST PRODUCTION DRAFT B — chapter-wide polish / awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT B — NATURAL-TURN RHYTHM PASS / awaiting user approval
 
 ---
 
@@ -38,11 +38,7 @@ A beat.
 
 **ILYRA:** That's not comforting.
 
-**CYANIS:** Wasn't meant to be.
-
-The Vanguard keeps coming.
-
-**CYANIS:** Camp stays behind us.
+**CYANIS:** Wasn't meant to be. Camp stays behind us.
 
 **ILYRA:** Agreed.
 
@@ -70,7 +66,7 @@ Normal field/story presentation returns.
 
 **CYANIS:** Wasn't going after him.
 
-**ILYRA:** Good.
+**ILYRA:** Good. I don't want to learn what he wanted by following him into it.
 
 They leave it there.
 
@@ -88,23 +84,23 @@ No immediate boss sting. No continuous Card ward. No second flare yet.
 
 Ilyra checks Cyanis because P04 already gave her a reason to monitor him, but the scene does not turn into another full medical exchange.
 
-**ILYRA:** Water.
+**ILYRA:** Water. And yes, before you ask, that's an order.
 
-**CYANIS:** That an order?
+**CYANIS:** I wasn't going to ask.
 
-**ILYRA:** Yes.
+**ILYRA:** Good. Drink.
 
-He drinks.
+He does.
 
 A little quiet passes.
 
 **CYANIS:** Better?
 
-**ILYRA:** Ask me in five minutes.
+**ILYRA:** Ask me in five minutes. Right now you're upright, you're answering normally, and you're still trying to bargain with water. That's enough information for the moment.
 
 **CYANIS:** Encouraging.
 
-**ILYRA:** Drink again.
+**ILYRA:** It wasn't meant to be. Drink again.
 
 He does.
 
@@ -119,3 +115,7 @@ Player control can return briefly inside the defended area before the final atta
 ## P05 end state
 
 The concealed Ruin Vanguard has withdrawn alive. Cyanis and Ilyra do not know his identity and do not chase. The encounter proves nothing about the northern withdrawal. The first flare remains fully over and the Card remains inert. The player receives a genuine breathing/reset interval before P06.
+
+## Natural-turn rhythm note
+
+The threat approach remains deliberately terse. The safer reset allows Ilyra to hold the floor long enough to give a complete assessment rather than turning every clause into a separate exchange.
