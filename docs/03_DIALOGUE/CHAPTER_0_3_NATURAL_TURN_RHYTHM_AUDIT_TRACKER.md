@@ -3,7 +3,8 @@
 **Status:** COMPLETE RETROACTIVE DIALOGUE POLISH AUDIT  
 **Opened:** 2026-09-12  
 **Closed:** 2026-09-12  
-**Owning correction:** `AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
+**Owning correction:** `AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
+**Character-Life numbering:** `PRODUCTION/CHARACTER_LIFE_NUMBERING_LOCK.md`
 
 ## Why this audit exists
 
@@ -44,7 +45,7 @@ Prefer:
 Result:
 - P01–P02 audited and intentionally retained because ambush/rescue pressure earns clipped cadence;
 - P03–P07 revised selectively;
-- C01 received the strongest quiet-scene correction;
+- **C01 — Six Minutes** received the strongest quiet-scene correction;
 - standalone authorities, chapter manuscript, and authority index synchronized;
 - no story/reveal/gameplay/Card/party state changed.
 
@@ -59,21 +60,19 @@ Material revisions:
 - Beat 10 — Post-Castellan Mural;
 - Beat 11 — Hollow Watch Resolution / Torren Recruitment;
 - Beat 14 — The Junction / Hidden Monument;
-- C03 — Torren's Version of Dinner;
-- C04 — What the Map Says;
-- C05 — Not Professionally.
+- **C02 — Torren's Version of Dinner**;
+- **C03 — What the Map Says**;
+- **C04 — Not Professionally**.
 
 Audited and intentionally preserved as predominantly terse:
 - Beats 2, 4–6, 8–9, 12–13, and 15.
 
-Protected exact C04 anchor remains unchanged:
+Protected exact **C03** anchor remains unchanged:
 > **CYANIS:** Old slut?  
 > **TORREN:** Bitch.
 
-Chapter-level duplicate-transcript risk was removed: the chapter assembly file maps the exact current standalone scene authorities rather than carrying a stale second copy.
-
 ### Chapter 2
-**Production content:** complete current working mainline + current C06.  
+**Production content:** complete current working mainline + **C05 — Still Burns**.  
 **Natural-turn rhythm audit:** **COMPLETE.**
 
 Material rhythm corrections:
@@ -83,17 +82,15 @@ Material rhythm corrections:
 - Beat 10 — Prisoner Galleries / First Contact;
 - Beat 11 — Prisoner Safe Area / Exit Problem;
 - Beat 16 — Return to Dunmere / Road Reopened / Cleanup;
-- C06 — Still Burns.
+- **C05 — Still Burns**.
 
 Audited and intentionally preserved as predominantly terse/mixed because the situation earns it:
 - Beats 1, 3–4, 7–9, and 12–15.
 
 Beat 3 and Beat 9 received minor consolidation while preserving their underlying cadence.
 
-Chapter 2 now has one standalone exact current dialogue authority for every mainline beat. Its chapter assembly file owns order/status rather than carrying a competing duplicate transcript.
-
 ### Chapter 3
-**Production content:** complete current working production, including Beats 1–15 + H01/H03.  
+**Production content:** complete current working production, including Beats 1–15 + **C06/C07**.  
 **Prior closing integration audit:** complete.  
 **Natural-turn rhythm audit:** **COMPLETE.**
 
@@ -111,18 +108,16 @@ Audited and intentionally preserved as predominantly terse/mixed because the sit
 - Beats 4–8;
 - Beat 11;
 - Beat 13;
-- H01;
-- H03.
+- **C06 — Nimera Takes Over a Table**;
+- **C07 — Ilyra and Nimera**.
 
-Protected H01 anchors remain exact:
+Protected **C06** anchors remain exact:
 > **CYANIS:** I bet you use that cape to sneak up on the goats you fuck.  
 > **TORREN:** You look like a walking dick in armor.
 
 Beat 11 final Warden messages remain exact and ordered:
 > **PREVIOUS ERROR**  
 > **LAST SENTINEL CONFIRMED**
-
-Chapter 3's old line-complete cumulative transcript was converted to an assembly/status map so later targeted scene revisions cannot leave a stale duplicate dialogue authority.
 
 ## Completion result
 
@@ -135,8 +130,13 @@ All four retroactive chapters now pass:
 - Canon/Knowledge boundaries remain intact;
 - chapter authority is unambiguous after revisions.
 
+Canonical active Character-Life numbering through Chapter 3 is now continuous:
+> **C01 → C02 → C03 → C04 → C05 → C06 → C07**
+
+Retired development IDs do not reserve live numbers.
+
 > **Chapters 0–3 natural-turn / floor-holding retroactive audit: COMPLETE.**
 
 ## Forward boundary
 
-Chapter 4 onward does **not** require this retroactive repair if authored correctly. The natural-turn / floor-holding rule is now part of the live rehearsal-first pipeline from the first Person-Agent rehearsal onward.
+Chapter 4 onward does **not** require this retroactive repair if authored correctly. The natural-turn / floor-holding rule is now part of the live rehearsal-first pipeline from the first Person-Agent rehearsal onward. Future Character-Life scenes continue the canonical C-number sequence without reserving gaps for cut concepts.
