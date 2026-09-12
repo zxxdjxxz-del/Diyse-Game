@@ -39,8 +39,8 @@ Ordinary traversal does not receive walking dialogue unless someone is genuinely
 |---|---|---|
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — P01–P07 + optional C01 | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — Beats 1–15 + C03/C04/C05 | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` (assembly manifest) |
-| Ch2 | **COMPLETE CURRENT WORKING MAINLINE PRODUCTION; NATURAL-TURN RHYTHM AUDIT NEXT/PENDING** — Beats 1–16; C06 current | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` |
-| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT PENDING** — Beats 1–15 + H01/H03; prior closing integration audit complete | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
+| Ch2 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — Beats 1–16 + C06 | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` (assembly/status map) |
+| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT ACTIVE** — Beats 1–15 + H01/H03; prior closing integration audit complete | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 
 These four chapter folders are the correct live production locations.
 
@@ -99,7 +99,7 @@ Protected C04 anchor remains exact:
 - Cyanis: `Old slut?`
 - Torren: `Bitch.`
 
-The chapter assembly file now owns order/status while the listed standalone files own exact dialogue, preventing stale duplicate transcript authority after targeted revisions.
+The chapter assembly file owns order/status while the listed standalone files own exact dialogue, preventing stale duplicate transcript authority after targeted revisions.
 
 ---
 
@@ -111,17 +111,26 @@ Folder:
 Authority index:
 - `CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md`
 
+Chapter assembly/status map:
+- `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+
 Current state:
-- all sixteen mainline beats have current rehearsal-first working dialogue;
-- Beats 1–11 are contained in `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`;
-- Beats 12–16 are current standalone rehearsal-first working dialogue files in the same Chapter-2 folder;
+- all sixteen mainline beats have one standalone exact current dialogue authority;
 - C06 — `Still Burns` — is current cleanup Character-Life dialogue;
-- the older manuscript header/storage split does **not** mean Beats 12–16 are missing.
+- chapter-level storage no longer carries a competing stale duplicate transcript.
 
-Chapter-2 mainline dialogue production is complete.
+Natural-turn / floor-holding rhythm audit: **COMPLETE.**
 
-Current polish state:
-- **natural-turn / floor-holding rhythm audit is the next live target.**
+Material rhythm corrections:
+- Beats 2, 5, 6, 10, 11, 16;
+- C06.
+
+Audited and intentionally preserved as predominantly terse/mixed because the situation earns it:
+- Beats 1, 3–4, 7–9, 12–15.
+
+Beat 3 and Beat 9 received minor consolidation while preserving their underlying cadence.
+
+Core Chapter-2 outcomes remain unchanged: the current prisoners are rescued, Rhazek loses the Old Bastion locally but survives a credible withdrawal, the earlier transferred captives remain unresolved, Greenhollow ↔ Dunmere travel reopens, and Chapter 3 begins only through explicit player confirmation.
 
 ---
 
@@ -145,7 +154,12 @@ Current state:
 - prior chapter-wide closing integration audit complete;
 - cumulative manuscript contains Beats 1–15 + H01 + H03.
 
-Chapter 3 still requires the natural-turn / floor-holding rhythm audit before dialogue is treated as fully polished for implementation.
+Current live polish target:
+- **natural-turn / floor-holding rhythm audit ACTIVE.**
+
+Protected H01 exact anchors:
+- Cyanis: `I bet you use that cape to sneak up on the goats you fuck.`
+- Torren: `You look like a walking dick in armor.`
 
 ---
 
