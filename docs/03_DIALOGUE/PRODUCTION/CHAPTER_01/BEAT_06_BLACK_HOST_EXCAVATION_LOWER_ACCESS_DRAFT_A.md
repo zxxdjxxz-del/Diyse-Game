@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 6
 # Black Host Excavation / Lower Access
-## DIALOGUE ENGINE PRODUCTION DRAFT E — chapter-wide dialogue polish + established gameplay presentation / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT E — chapter-wide dialogue polish + spoken/narration audit / awaiting user approval
 
 ---
 
@@ -36,13 +36,7 @@ At a progression point where the player has seen enough of the Black Host work, 
 
 **TORREN:** Didn't make them stop.
 
-**ILYRA:** They kept forcing farther in.
-
-**CYANIS:** So whatever they wanted wasn't near the surface.
-
-**MAEVRA:** Apparently not.
-
-The scene ends. No broken-tool handling, crouching, brace inspection, or environmental-comedy business is required.
+The scene ends there. The excavation itself already shows repeated forcing attempts; nobody translates the visible work into a second spoken summary.
 
 ---
 
@@ -74,21 +68,11 @@ At the established point where later construction visibly interfaces with older 
 
 The relevant characters may appear as simple field models. The existing structure is the visual; no one needs to manipulate it.
 
-**CYANIS:** That's ugly.
-
-**MAEVRA:** Still worked for somebody.
-
 **TORREN:** Fort was using what was already here.
 
-**ILYRA:** Then the Host tried to force it farther.
+**ILYRA:** Host tried to force past it.
 
-**MAEVRA:** And kept at it.
-
-A beat.
-
-**CYANIS:** They really wanted through.
-
-The scene ends.
+The scene ends. The player can see that the later work continues inward; the cast does not restate the same conclusion again.
 
 ---
 
@@ -113,8 +97,6 @@ The wider chamber ahead is the only new visual the scene needs.
 **MAEVRA:** That's where their work stops.
 
 **CYANIS:** Suddenly.
-
-**ILYRA:** They didn't finish.
 
 **TORREN:** Doesn't mean whatever stopped them is gone.
 
@@ -163,6 +145,6 @@ Next mandatory story beat: **Beat 7 — Lower Junction / Six Channels.**
 
 **Random encounters:** no ordinary Black Host or Diysean-defense enemy is converted into a fixed battle or scripted activation.
 
-**Dialogue polish:** removed the second `subtle` joke in this dungeon stretch and the repeated `Ready? / Yes / Go` threshold exchange. The unease at the lower junction now gets to end in silence.
+**Spoken/narration audit:** visible forcing work is no longer followed by `they kept forcing farther in / whatever they wanted wasn't near the surface / they really wanted through` restatements. Characters register age/use relationships or danger; the environment carries persistence and direction.
 
 **Reduction:** removed broken-pry-head counting, crouching/handling, overhead brace business, blood-marked work-sheet prop comedy, lever manipulation assumptions, drag-mark inspection, floor testing, distant hammer cue, and similar micro-staging.
