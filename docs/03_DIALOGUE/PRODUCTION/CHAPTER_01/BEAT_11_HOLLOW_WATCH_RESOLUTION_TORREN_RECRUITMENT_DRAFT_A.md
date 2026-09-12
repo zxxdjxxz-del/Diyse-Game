@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 11
 # Hollow Watch Resolution / Torren Recruitment
-## DIALOGUE ENGINE PRODUCTION DRAFT D — chapter-wide dialogue polish + established gameplay presentation / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT D — NATURAL-TURN RHYTHM PASS / awaiting user approval
 
 ---
 
@@ -26,27 +26,17 @@ The relevant characters may appear as simple field models. Portraits and the dia
 
 A beat.
 
-**MAEVRA:** They need word before dark.
+**MAEVRA:** Greenhollow needs word before dark. Fort taken, garrison dead, excavation below it, Castellan active until we put it down, and the mural behind it.
 
-**TORREN:** Yeah.
+**CYANIS:** I was going to include the mural.
 
-**CYANIS:** Fort, garrison, excavation, the thing downstairs.
+**ILYRA:** Eventually.
 
-**ILYRA:** The mural.
+**MAEVRA:** Greenhollow can send the report onward and get people up here who can actually hold the site.
 
-**CYANIS:** I was getting there.
+Torren looks back toward the fort.
 
-**ILYRA:** You weren't.
-
-**MAEVRA:** Greenhollow can send the report on from there.
-
-**TORREN:** And people up here.
-
-**MAEVRA:** Yes.
-
-A beat.
-
-**TORREN:** Good.
+**TORREN:** Good. Somebody should be here who isn't us.
 
 Nobody calls it a victory.
 
@@ -54,67 +44,51 @@ Nobody calls it a victory.
 
 ### [TORREN]
 
+Maevra looks at Torren rather than the fort.
+
 **MAEVRA:** You staying?
 
 A beat.
 
-**TORREN:** No.
+**TORREN:** No. Hollow Watch was the reason I stayed in Greenhollow. That's handled enough for somebody else to take over, and you still need the road south.
 
 **MAEVRA:** Good.
 
-**CYANIS:** That's the whole conversation?
+**CYANIS:** That's considerably more than the conversation I thought you two were going to have.
 
-**MAEVRA:** It was going well.
-
-**TORREN:** You interrupted it.
+**TORREN:** You still interrupted it.
 
 **CYANIS:** I asked one question.
 
 **ILYRA:** Dangerous habit.
 
-A beat.
+Torren ignores that and keeps going.
 
-**TORREN:** You still need the road south?
+**TORREN:** I'll take you through Briar. After that, if you're still going to Caelora, I'm going too.
 
-**MAEVRA:** Very much.
-
-**TORREN:** Then I'm coming.
-
-**MAEVRA:** Through Briar?
-
-**TORREN:** Through Briar.
-
-**CYANIS:** And after that?
-
-**TORREN:** Caelora.
-
-A beat.
+Cyanis looks at him.
 
 **CYANIS:** All right.
 
 **TORREN:** That's it?
 
-**CYANIS:** Did you want a ceremony?
+**CYANIS:** Did you want a ceremony? Because I can make this much worse if you give me time.
 
 A beat.
 
+**TORREN:** No.
+
 **CYANIS:** Thought so.
+
+The recruitment remains ordinary and matter-of-fact rather than ceremonial.
 
 ---
 
 ### [THE JUNCTION]
 
-**MAEVRA:** And the Junction?
+**MAEVRA:** And the Junction is still on the way.
 
-**TORREN:** On the way.
-
-**ILYRA:** You want to stop?
-
-**TORREN:** I want to see where that stone's supposed to be.
-
-**CYANIS:** You've crossed there how many times?
-
-**TORREN:** Enough.
+**TORREN:** Close enough that we'd be stupid not to stop. I want to see where that monument is supposed to be, because I've crossed that ground more times than I can count and I've never seen it.
 
 **CYANIS:** Never noticed a giant ancient monument.
 
@@ -126,7 +100,7 @@ A beat.
 
 **MAEVRA:** Had to ask.
 
-**ILYRA:** Then we stop when we reach it.
+**ILYRA:** Then we stop when we reach it. Look at what's actually there before we decide the mural told us anything more.
 
 **TORREN:** Yeah.
 
@@ -136,19 +110,15 @@ Nobody names the monument or assigns it a function.
 
 ### [DEPARTURE]
 
-**CYANIS:** Back to Greenhollow first.
+**CYANIS:** Greenhollow first. Report, supplies, then south.
 
-**TORREN:** Briefly.
-
-**MAEVRA:** Report. Supplies. Food.
+**MAEVRA:** Food too.
 
 **TORREN:** You just ate.
 
-**MAEVRA:** That was hours ago.
+**MAEVRA:** Felt like hours ago. That's enough for me.
 
-**TORREN:** Wasn't.
-
-**MAEVRA:** Felt like it.
+**TORREN:** Wasn't hours.
 
 **CYANIS:** This is going to be the whole trip, isn't it?
 
@@ -156,13 +126,13 @@ Nobody names the monument or assigns it a function.
 
 A beat.
 
+Torren looks to Cyanis.
+
 **TORREN:** You leading now?
 
 **CYANIS:** Absolutely not.
 
-**TORREN:** Good.
-
-**TORREN:** Then keep up.
+**TORREN:** Good. Then keep up.
 
 Scene ends.
 
@@ -204,16 +174,10 @@ Next mandatory story beat: **Beat 12 — Southern Briar Passage.**
 
 ---
 
-## Presentation / dialogue check
+## Natural-turn / presentation check
 
-**Traversal:** Cyanis only during ordinary fort/route movement.
-
-**Triggered scene:** the relevant cast may appear as field models at the Hollow Watch overlook.
-
-**Dialogue:** portraits + dialogue box carry the recruitment. No bespoke recruitment animation or ceremony.
-
-**Polish:** removed Cyanis's explicit `You're all very comfortable already` observation. The audience can read the group's shorthand without a character explaining the relationship state.
-
-**Reduction:** repeated look directions, road-vista choreography, bow handling, departure blocking, and other unnecessary field performance remain removed.
-
-**Junction continuity:** characters call the place the Junction; Torren knows the crossroads, not the hidden monument.
+- Torren's recruitment remains understated, but he is no longer forced to express a complete decision as four separate one-sentence answers.
+- Maevra gives the operational Hollow Watch handoff in one competent report turn.
+- Torren can explain both why he is leaving Greenhollow and why he wants the Junction stop without becoming verbose or sentimental.
+- Rapid teasing remains where it belongs to the relationships.
+- No recruitment, route, mural, Card, or gameplay outcome changed.
