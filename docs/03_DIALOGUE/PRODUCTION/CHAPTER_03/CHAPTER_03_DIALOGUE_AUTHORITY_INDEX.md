@@ -1,7 +1,7 @@
 # Chapter 3 — Dialogue Authority Index
 
 **Chapter:** 3  
-**Status:** CURRENT WORKING DIALOGUE AUTHORITY MAP — 15-BEAT MAINLINE PASS COMPLETE  
+**Status:** CURRENT WORKING DIALOGUE AUTHORITY MAP — 15-BEAT MAINLINE PASS COMPLETE; H01 CLEANUP DIALOGUE COMPLETE  
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_03.md`  
 **Dialogue workflow authority:** `../../AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`  
 **Guardrail workflow authority:** `../../AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md`
@@ -47,9 +47,13 @@ Do not overwrite or discard the standalone current Beat files merely to make the
 - Beat 15 establishes Cresthaven as the operational headquarters and opens the Chapter-3 cleanup window.
 
 ## Cleanup dialogue
-Current active cleanup Character-Life scene authorities are structural until their dialogue passes are completed:
-- H01 — Nimera Takes Over a Table — pending dialogue pass; preserve the two exact locked opening anchors from Chapter-3 cleanup authority.
-- H03 — Ilyra and Nimera — pending fully agent-driven dialogue pass.
+Current active cleanup Character-Life dialogue:
+- **H01 — Nimera Takes Over a Table — current Draft A complete:** `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md`
+  - authority spec: `H01_NIMERA_TAKES_OVER_A_TABLE_SPEC.json`
+  - preserves the two exact Cyanis/Torren opening anchors verbatim;
+  - otherwise uses the guardrail-first Agent-Brain method;
+  - no lore escalation.
+- **H03 — Ilyra and Nimera — pending fully agent-driven dialogue pass.**
 
 Regional Hunt #3 is unlocked in Beat 15 but does not require a separate dialogue-heavy mini-story by default.
 
@@ -58,8 +62,8 @@ If Chapter-3 dialogue sources disagree:
 1. current `CHAPTER_03.md` and later explicit user corrections;
 2. dedicated current beat/correction authority in `docs/02_STORY/CHAPTERS/`;
 3. this authority index for locating current dialogue;
-4. the listed standalone current Beat draft for exact working dialogue;
+4. the listed standalone current Beat / Character-Life draft for exact working dialogue;
 5. the partial cumulative manuscript only for Beats 1–5 where it remains synchronized;
 6. historical/superseded files only as provenance.
 
-> **Chapter-3 mainline rehearsal-first working dialogue pass: COMPLETE through Beat 15. Cleanup H01/H03 remain separate pending dialogue work.**
+> **Chapter-3 mainline rehearsal-first working dialogue pass: COMPLETE through Beat 15. H01 cleanup dialogue is complete. H03 remains pending.**
