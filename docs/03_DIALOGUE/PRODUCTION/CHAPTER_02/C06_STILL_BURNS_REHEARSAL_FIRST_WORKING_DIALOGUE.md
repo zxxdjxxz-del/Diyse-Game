@@ -1,19 +1,13 @@
 # Chapter 2 Character-Life — C06 — Still Burns
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DRAFT — NOT LOCKED  
+**Status:** CURRENT REHEARSAL-FIRST WORKING DRAFT — NATURAL-TURN RHYTHM PASS  
 **Availability:** Chapter 2 cleanup, after the Beat-16 Dunmere elder resolution and before the explicit Chapter-3 start interaction  
-**Participants:** Torren, Ilyra, Maevra, Cyanis  
-**Production method:** scene/world state → independent Person Agent Brain rehearsals → Dialogue Editor → invisible Canon/Knowledge Checker → economical HD-2D staging
+**Participants:** Torren, Ilyra, Maevra, Cyanis
 
 ## Scene seed
-Fresh scene generated from only this setup:
-- late night at the Dunmere inn;
-- Torren is smoking by an open window;
-- Ilyra wakes because it smells noticeably different/worse than the previous day;
-- the stash got soaked in the waterworks;
-- Maevra and Cyanis enter only because the smell/argument naturally wakes them.
+Late night at the Dunmere inn. Torren is smoking by an open window. Ilyra wakes because it smells noticeably worse than the previous day. His stash was soaked in the waterworks. Maevra and Cyanis enter only because the smell/argument wakes them.
 
-This scene does not preserve the old C06/C07 exact dialogue or staging as controlling material.
+This remains low-stakes Character-Life. No Bastion recap, trauma disclosure, ancient-map exposition, or future reveal.
 
 ---
 
@@ -35,11 +29,7 @@ Torren looks at the blunt in his hand.
 
 **TORREN:** Mine.
 
-**ILYRA:** I know it's yours.
-
-A beat.
-
-**ILYRA:** It didn't smell like that yesterday.
+**ILYRA:** I know it's yours. It did not smell like somebody set fire to a ditch yesterday.
 
 **TORREN:** Wasn't wet yesterday.
 
@@ -49,19 +39,19 @@ Ilyra opens her eyes fully.
 
 **TORREN:** Yeah.
 
-**ILYRA:** You are smoking wet weed.
+**ILYRA:** Your weed went into the waterworks and you kept it.
 
-**TORREN:** It's not wet now.
+**TORREN:** Most of the pouch went under. Dried it after.
 
-**ILYRA:** Torren, I can smell the water in it.
+Ilyra stares at him.
+
+**ILYRA:** Torren, I can smell the water in it from bed.
 
 **TORREN:** That's not how smell works.
 
 **ILYRA:** Then explain the fucking swamp in this room.
 
-Torren takes another pull.
-
-He considers the smoke.
+Torren takes another pull and considers the smoke.
 
 **TORREN:** Waterworks.
 
@@ -71,57 +61,27 @@ Ilyra stares at the ceiling.
 
 She pushes herself upright.
 
-**ILYRA:** Your whole pouch went under?
-
-**TORREN:** Most of it.
-
-**ILYRA:** And you kept it.
-
-**TORREN:** Paid for it.
-
-**ILYRA:** That isn't a reason.
-
-**TORREN:** Pretty good one.
-
-**ILYRA:** No.
-
-Torren shrugs and looks back out the window.
-
-Ilyra swings her feet to the floor.
-
-**ILYRA:** Open that farther.
+**ILYRA:** Open the window farther before you preserve the whole room in whatever that is.
 
 **TORREN:** It is open.
 
 **ILYRA:** Farther.
 
-Torren pushes the window wider.
-
-Cool air comes into the room.
+Torren pushes it wider.
 
 **TORREN:** Better?
 
 Ilyra breathes once through her nose.
 
-**ILYRA:** Different problem.
+**ILYRA:** Different problem. Now it's cold and smells like wet death.
 
 **TORREN:** Good enough.
 
 From another bed:
 
-**MAEVRA:** It is absolutely not good enough.
+**MAEVRA:** It is absolutely not good enough. I'd love to go back to sleep, but Harth has apparently decided to smoke a drowned boot indoors.
 
 Neither Torren nor Ilyra turns.
-
-**TORREN:** Go back to sleep.
-
-**MAEVRA:** I'd love to.
-
-Maevra shifts carefully, protecting the splinted arm.
-
-**MAEVRA:** Unfortunately Harth has decided to smoke a drowned boot.
-
-Torren looks over.
 
 **TORREN:** Weed.
 
@@ -129,7 +89,7 @@ Torren looks over.
 
 **TORREN:** Still burns.
 
-**MAEVRA:** So does garbage.
+**MAEVRA:** So does garbage. That doesn't make it worth saving.
 
 Ilyra looks at Torren.
 
@@ -137,21 +97,13 @@ Ilyra looks at Torren.
 
 **TORREN:** Didn't ask for any.
 
-Maevra sits up.
+Maevra sits up carefully around the splinted arm.
 
-**MAEVRA:** How much of it got soaked?
+**MAEVRA:** How much of it got soaked, and please don't answer `enough` like you're being clever.
 
-**TORREN:** Enough.
+Torren pauses.
 
-**MAEVRA:** That's not a quantity.
-
-**TORREN:** It answered the question.
-
-**MAEVRA:** No, it avoided the question.
-
-**TORREN:** Also useful.
-
-Maevra gives him a look.
+**TORREN:** Most of it.
 
 **MAEVRA:** You dried it next to the brazier, didn't you?
 
@@ -163,23 +115,17 @@ Ilyra turns toward him.
 
 **TORREN:** Worked.
 
-**ILYRA:** Clearly.
+**ILYRA:** We are currently breathing the evidence that it did not.
 
-**MAEVRA:** How long?
+**MAEVRA:** Twenty-five years and you still solve problems by asking whether the bad idea technically functioned.
 
-**TORREN:** Long enough.
-
-**MAEVRA:** You learned nothing in twenty-five years.
-
-**TORREN:** Learned plenty.
+**TORREN:** Learned plenty in twenty-five years.
 
 **MAEVRA:** Name one thing.
 
 **TORREN:** Open a window.
 
 Ilyra laughs once before she can stop herself.
-
-Maevra points at Torren with her good hand.
 
 **MAEVRA:** Do not reward him.
 
@@ -191,7 +137,7 @@ From the last bed:
 
 **CYANIS:** Is something burning?
 
-Three people answer at once.
+Three people answer at once:
 
 **TORREN:** No.
 
@@ -205,41 +151,27 @@ Cyanis sits up.
 
 **CYANIS:** That's an upsetting set of answers.
 
-He sniffs.
+He sniffs and immediately regrets it.
 
-Immediately regrets it.
+**CYANIS:** Fuck. I thought the inn had a drainage problem.
 
-**CYANIS:** Fuck.
+**MAEVRA:** It does now.
 
 Torren looks offended.
 
 **TORREN:** It's not that bad.
 
-**CYANIS:** I thought the inn had a drainage problem.
+**ILYRA:** You woke three people with the smell of one blunt. That's evidence.
 
-**MAEVRA:** It does now.
+**TORREN:** Didn't ask anybody to wake up.
 
-**TORREN:** All of you can go back to sleep.
+**CYANIS:** Strong defense. Very persuasive to the people already awake.
 
-**ILYRA:** You woke all of us.
+Cyanis gets out of bed and stops well short of Torren.
 
-**TORREN:** Didn't ask you to wake up.
+**CYANIS:** Why are you still smoking it if it tastes anything like it smells?
 
-**CYANIS:** Strong defense.
-
-**MAEVRA:** Apparently that's tonight's theme.
-
-Cyanis gets out of bed and comes closer, stopping well short of Torren.
-
-**CYANIS:** Why are you still smoking it?
-
-**TORREN:** Because it's mine.
-
-**CYANIS:** That's not an answer either.
-
-**TORREN:** You people are very demanding at night.
-
-Ilyra leans against the bedframe.
+**TORREN:** Because it's mine. Paid for it, dried it, and I'm not buying more because all of you suddenly developed standards for my weed.
 
 **ILYRA:** Buy more tomorrow.
 
@@ -247,23 +179,17 @@ Ilyra leans against the bedframe.
 
 **MAEVRA:** You absolutely need more.
 
-**CYANIS:** I'll pay for it.
+**CYANIS:** I'll pay for it if that gets this one out of the building.
 
 Torren looks at him.
 
 **TORREN:** Fuck off.
 
-**CYANIS:** Generous offer.
-
-**TORREN:** Didn't ask.
+**CYANIS:** Generous offer, cruelly rejected.
 
 **ILYRA:** I'll pay half.
 
-Torren looks at her now.
-
-**TORREN:** You're making it worse.
-
-**MAEVRA:** I'll pay the other half if you throw that one out.
+**MAEVRA:** I'll pay the other half if you throw that one out tonight.
 
 Torren stares at all three of them.
 
@@ -281,15 +207,13 @@ A beat.
 
 **CYANIS:** Long enough to develop opinions.
 
-Torren looks down at the blunt.
+That quick three-line escalation stays quick because the joke benefits from it.
 
-Then back at them.
-
-He takes another pull purely on principle.
+Torren looks down at the blunt, then takes another pull purely on principle.
 
 Everyone watches.
 
-Torren exhales through the open window.
+He exhales through the open window.
 
 A long beat.
 
@@ -297,27 +221,15 @@ His expression changes by almost nothing.
 
 Maevra catches it anyway.
 
-**MAEVRA:** There it is.
-
-**TORREN:** What?
-
-**MAEVRA:** You hate it too.
+**MAEVRA:** There it is. You hate it too.
 
 **TORREN:** Didn't say that.
 
-**ILYRA:** You didn't have to.
-
-**CYANIS:** Your face did.
-
-Torren looks at Cyanis.
-
-**TORREN:** Don't start using that against me.
+**ILYRA:** You didn't have to. Your face finally joined the argument.
 
 **CYANIS:** Apparently everyone's face talks now.
 
 **MAEVRA:** Yours never shuts up.
-
-Cyanis looks wounded.
 
 **CYANIS:** That's deeply unfair.
 
@@ -327,31 +239,17 @@ Torren tries not to smile.
 
 That makes it worse.
 
-Maevra sees it.
-
-**MAEVRA:** Put it out.
-
-**TORREN:** No.
-
-**MAEVRA:** Harth.
-
-**TORREN:** Solmar.
-
-**MAEVRA:** It smells like a wet grave.
+**MAEVRA:** Put it out, Harth. You proved it still burns. Congratulations. The experiment is complete.
 
 **TORREN:** Dramatic.
 
 **MAEVRA:** Accurate.
 
-Torren looks at the blunt again.
-
-Then, without ceremony, presses it out in the ash cup beside him.
+Torren looks at the blunt again, then presses it out in the ash cup without ceremony.
 
 Nobody says anything.
 
-Torren looks up.
-
-All three are still looking at him.
+He looks up. All three are still watching him.
 
 **TORREN:** Don't.
 
@@ -363,31 +261,23 @@ Maevra smiles.
 
 **MAEVRA:** Coward.
 
-Torren points at her.
-
 **TORREN:** Fuck you.
 
 **MAEVRA:** There he is.
 
 The room settles.
 
-The window stays open.
-
-Nobody goes immediately back to bed.
+The window stays open. Nobody goes immediately back to bed.
 
 Cyanis takes the chair by the wall. Ilyra stays sitting against the bedframe. Maevra shifts until the splinted arm is comfortable. Torren remains on the floor beneath the window.
 
-For a little while they complain about the cold instead.
+For a little while they complain about the cold instead. That conversation is not important enough to transcribe every line.
 
-Then that runs out too.
-
-The room becomes quiet again.
+Eventually the room becomes quiet again.
 
 After a few minutes, Cyanis closes his eyes where he is sitting. Ilyra does the same. Maevra lies back down.
 
-Torren looks once at the ash cup.
-
-He reaches toward the pouch beside him.
+Torren looks once at the ash cup and reaches toward the pouch beside him.
 
 Three voices, eyes still closed:
 
@@ -411,13 +301,13 @@ Fade.
 
 > **END C06 — STILL BURNS**
 
-## Current continuity/editor notes
-- Optional Chapter-2 Dunmere cleanup scene.
-- Does not advance Chapter 3.
-- Fresh scene generated from the current seed rather than reconstructing historical C06/C07.
-- Torren's smoking is ordinary established behavior, not framed as impairment or a vice intervention.
-- The joke is specifically that the stash was soaked in the Chapter-2 waterworks and now smells terrible after drying.
-- Ilyra wakes because the odor is noticeably different from the previous day, not because she is policing Torren.
-- Maevra and Cyanis join because the smell/argument wakes them naturally.
-- No trauma disclosure, dream discussion, Bastion recap, Rhazek analysis, ancient-map exposition, or future reveal.
-- Exact wording remains working dialogue until user approval/lock.
+---
+
+## Natural-turn / continuity notes
+
+- The scene keeps fast one-line escalation where comedy benefits from it, but no longer maintains that cadence for the entire conversation.
+- Ilyra, Maevra, Cyanis, and Torren can each hold the floor for complete reactions/explanations when the joke does not require immediate interruption.
+- Torren's smoking remains ordinary established behavior, not framed as impairment or a vice intervention.
+- The joke remains specifically about the stash being soaked in the Chapter-2 waterworks and smelling terrible after drying.
+- Maevra and Cyanis still wake naturally because of the smell/argument.
+- No trauma disclosure, Bastion recap, Rhazek analysis, ancient-map exposition, or future reveal is added.
