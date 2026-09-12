@@ -1,6 +1,6 @@
 # Chapter 0 — P03
 # Evacuation Relay Decision
-## REHEARSAL-FIRST DRAFT A — NATURAL-TURN RHYTHM PASS / awaiting user approval
+## REHEARSAL-FIRST DRAFT A — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT / awaiting user approval
 
 ---
 
@@ -28,9 +28,9 @@ The officer looks north.
 
 **CYANIS:** They can. I still don't like the north cut.
 
-**CONVOY OFFICER:** Why?
+**CONVOY OFFICER:** You said that. What changes now?
 
-**CYANIS:** Everything else is choked and that one's clean. Maybe they cleared it for themselves. Maybe they want us looking north. I don't know which, and I don't want to spend our two best legs finding out while five people still need carrying.
+**CYANIS:** Five people still need carrying. I don't want to spend our two best legs proving the clean cut isn't bait.
 
 The officer looks back toward the relay.
 
@@ -78,9 +78,10 @@ Next: **P04 — Field Triage Camp / Ilyra / First Incomplete Response.**
 
 ---
 
-## Natural-turn pass check
+## Audit check
 
 - Tactical pressure remains concise, but Cyanis is allowed to finish a complete field argument rather than surrendering the floor after each clause.
+- P03 no longer repeats the full north-cut evidence already spoken to the same officer in P02. The officer asks what has changed; Cyanis answers with the new operational fact: five casualties still need carrying.
 - The officer gives complete orders and reasoning when the situation permits it.
 - Short replies remain where hierarchy or urgency naturally makes them short.
 - No story outcome, knowledge state, or Card continuity changed.
