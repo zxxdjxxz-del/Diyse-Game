@@ -58,11 +58,11 @@ Mirena goes still.
 
 Nimera gives her only the part that changes the problem.
 
-**NIMERA:** Ancient forms first. Then older Yahtrean seals. Then royal-document seals.
+**NIMERA:** They worked forward through older forms into royal ones.
 
-**TORREN:** Work gets cleaner as it goes.
+**TORREN:** Cleaner every time.
 
-**NIMERA:** Eventually the Crest.
+**NIMERA:** Ended at the Crest.
 
 Mirena looks between them.
 
@@ -138,9 +138,9 @@ The room goes quiet.
 
 **NIMERA:** As close as the surviving language allows. The order matters more than any prettier translation.
 
-**MIRENA:** And then the Card changed.
+**MIRENA:** Card?
 
-**CYANIS:** After the Warden went completely dead.
+**CYANIS:** Changed only after the Warden went completely dead.
 
 Mirena looks at the Ruby Card again.
 
@@ -233,7 +233,7 @@ Mirena looks at the copied map again.
 
 **NIMERA:** The Crest?
 
-**MIRENA:** A Yahtrean Crest on a map older than Yahtrea. Yes. That.
+**MIRENA:** The impossible one.
 
 **TORREN:** That's the part.
 
@@ -308,8 +308,9 @@ Transition into:
 - The Old City debrief is selective rather than chronological. Mirena asks what changed and follows only the implications that affect current decisions.
 - Maevra's dialogue density remains deliberately low and limited to the Crown-side custody result.
 - Beat 12's mark-versus-authority distinction is not re-litigated here; Mirena asks the one operational question that matters: did any copy prove the Queen's response?
+- the seal-practice progression is compressed into one useful briefing unit rather than replayed as the same four-step sequence the player just investigated.
+- the Warden report preserves exact sequence and timing without classifying Last Sentinel or the Ruby Card; Mirena asks `Card?` rather than restating the transition for the party.
 - Mirena no longer recites the Old City and custody evidence back to the party after they have already reported it.
-- the Warden report preserves exact sequence and timing without classifying Last Sentinel or the Ruby Card.
 - Mirena's concern is expressed as an operational trust decision: she does not yet know whether the breach is physical, magical, political, or combined, so she restricts the investigation to direct channels.
 - Mirena asks the four-person party to continue directly with her; the group agrees without a loyalty speech or four separate confirmations.
 - the Cresthaven lead comes from revisiting the existing Chapter-2 Ancient map/mural copy. Beat 13 does not invent a new map.
