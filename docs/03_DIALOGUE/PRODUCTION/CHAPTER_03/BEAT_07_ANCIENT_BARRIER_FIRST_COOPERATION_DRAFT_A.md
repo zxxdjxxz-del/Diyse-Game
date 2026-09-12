@@ -116,7 +116,7 @@ Nimera thinks.
 
 **ILYRA:** Then you get a second test.
 
-**NIMERA:** I really do like you.
+**NIMERA:** Sensible.
 
 **ILYRA:** Survive the door first.
 
@@ -274,4 +274,5 @@ Transition directly into:
 - the group performs more than one small test before fully releasing the barrier, so the success remains earned.
 - nobody verbally assigns credit for the solution.
 - Nimera's Card examination is short and honestly inconclusive.
+- the repeated explicit Ilyra/Nimera approval line from Beat 6 is removed; their chemistry progresses through behavior instead.
 - Nimera proceeds deeper because she wants the evidence, but permanent recruitment remains unresolved until Beat 8.
