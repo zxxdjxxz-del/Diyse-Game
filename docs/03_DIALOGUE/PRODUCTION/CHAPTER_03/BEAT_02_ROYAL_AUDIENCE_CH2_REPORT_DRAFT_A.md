@@ -1,6 +1,6 @@
 # Chapter 3 — Beat 2
 # Royal Audience / The Chapter-2 Report
-## DIALOGUE ENGINE PRODUCTION DRAFT A — rehearsal-first Agent-Brain pass — NATURAL-TURN RHYTHM PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — rehearsal-first Agent-Brain pass — NATURAL-TURN RHYTHM PASS + ROYAL-VOICE POLISH
 
 ---
 
@@ -34,10 +34,6 @@ Simple field placement only. Portraits + dialogue box carry the conversation.
 
 **MAEVRA:** The old route eventually opened into foundations beneath the Bastion. That's how we got inside without taking the occupied road.
 
-**LYSARA:** And nobody knew it connected.
-
-**TORREN:** Not on any route map I've seen.
-
 A beat.
 
 **MIRENA:** Show us the mural copy.
@@ -52,8 +48,6 @@ Mirena studies the copy.
 
 **TORREN:** Same location. The city on the mural is much larger than Caelora is now.
 
-**LYSARA:** Much larger.
-
 A brief silence.
 
 Mirena looks north of the city representation.
@@ -64,21 +58,19 @@ Mirena looks north of the city representation.
 
 **MIRENA:** That's our Crest.
 
-**LYSARA:** It is.
+Lysara studies the copy.
 
-**OTHMAR:** No ambiguity in the copy?
+**LYSARA:** Harth. Certain?
 
-**TORREN:** None about the mark. That's what was on the wall. What the structure was, I don't know.
+**TORREN:** About the mark, yes. What the structure was, I don't know.
 
-**LYSARA:** Good. You know what you copied. You don't know what it meant. Keep those separate.
-
-**TORREN:** Was planning to.
+**LYSARA:** Good.
 
 **MIRENA:** If any of the buried collections under Caelora survived intact, the Old City may have something comparable.
 
 **OTHMAR:** Some of the archives do survive. What they contain is another question.
 
-**LYSARA:** Then it remains a question until we have a reason to answer it properly.
+**LYSARA:** Then not today.
 
 The report moves on rather than turning the mural into a solved history lesson.
 
@@ -130,10 +122,10 @@ Transition directly into:
 
 ## Beat-2 production notes
 
-- Maevra owns the report rather than every participant taking a turn; her field summary now lands in complete report units before questions interrupt it.
+- Maevra owns the report rather than every participant taking a turn; her field summary lands in complete report units before questions interrupt it.
 - Ilyra speaks specifically where prisoner condition/testimony provenance belongs to her firsthand role and is allowed to finish the linked testimony/condition thought.
-- Torren owns route and mural evidence and repeatedly distinguishes copied fact from interpretation without being interrogated one clause at a time.
-- Lysara asks consequence/provenance questions and does not yet state her full ignorance of the Card transport.
+- Torren owns route and mural evidence and distinguishes copied fact from interpretation without being interrogated one clause at a time.
+- Lysara no longer repeats evidence the room has already heard. She asks for certainty where royal judgment needs it, accepts bounded answers, and closes lines of inquiry decisively.
 - Mirena notices the Old City as a future evidence source without jumping ahead to Nimera.
 - Calder behaves as a credible Chancellor: provenance, records, routing, and documentation matter to him. His deliberate transport minimization is held for Beat 3.
 - the exact modern Yahtrean Crest on the northern Ancient structure is unmistakable but unexplained.
