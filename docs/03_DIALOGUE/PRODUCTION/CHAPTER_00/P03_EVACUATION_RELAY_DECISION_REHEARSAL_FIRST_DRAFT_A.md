@@ -1,6 +1,6 @@
 # Chapter 0 — P03
 # Evacuation Relay Decision
-## REHEARSAL-FIRST QUICK-PASS DRAFT A — awaiting user approval
+## REHEARSAL-FIRST DRAFT A — NATURAL-TURN RHYTHM PASS / awaiting user approval
 
 ---
 
@@ -16,11 +16,7 @@ The Card remains cased and inert.
 
 **CONVOY OFFICER:** Report.
 
-**CYANIS:** Seventeen moving. Five need carrying.
-
-A beat.
-
-**CYANIS:** Two escorts clean enough to chase. Three more can hold a fixed line.
+**CYANIS:** Seventeen moving. Five need carrying. Two escorts are clean enough to chase; three more can hold a fixed line.
 
 **CONVOY OFFICER:** Recovery wagon?
 
@@ -28,53 +24,29 @@ A beat.
 
 The officer looks north.
 
-**CONVOY OFFICER:** They're still pulling back.
+**CONVOY OFFICER:** They're still pulling back. If they reach the ridge intact, they can reform and hit us again.
 
-**CYANIS:** Yeah.
+**CYANIS:** They can. I still don't like the north cut.
 
-**CONVOY OFFICER:** If they reach the ridge intact, they can reform and hit us again.
+**CONVOY OFFICER:** Why?
 
-**CYANIS:** They can.
+**CYANIS:** Everything else is choked and that one's clean. Maybe they cleared it for themselves. Maybe they want us looking north. I don't know which, and I don't want to spend our two best legs finding out while five people still need carrying.
 
-**CONVOY OFFICER:** Take the two mobile escorts. Push north before they settle.
+The officer looks back toward the relay.
 
-**CYANIS:** No, sir.
+**CONVOY OFFICER:** You want to let them go.
 
-A beat.
-
-**CONVOY OFFICER:** Give me the reason before you give me no.
-
-**CYANIS:** Five people can't move without help. Three defenders barely hold here. If I take the two clean ones north, we're betting the camp on a retreat I don't trust.
-
-**CONVOY OFFICER:** Because the cut's clear.
-
-**CYANIS:** And every other route isn't.
-
-**CONVOY OFFICER:** They could've cleared it for themselves.
-
-**CYANIS:** Could've.
+**CYANIS:** For ten minutes. Pull the casualties in, reform around the wreck and recovery wagon, and watch north. If they come back, they come back to a line instead of half a camp.
 
 A beat.
 
-**CONVOY OFFICER:** What do you want?
+**CONVOY OFFICER:** And if they use those ten minutes to settle on the ridge?
 
-**CYANIS:** Pull the casualties into the relay. Reform around the wreck and recovery wagon. Watch north.
-
-A beat.
-
-**CYANIS:** Give it ten minutes.
-
-**CONVOY OFFICER:** And if they regroup in ten?
-
-**CYANIS:** Then they come back to a line.
+**CYANIS:** Then we still have a line, the wounded are behind it, and I can move without leaving the relay hollowed out.
 
 The officer considers the field rather than treating the disagreement as a contest of rank.
 
-A beat.
-
-**CONVOY OFFICER:** All right.
-
-**CONVOY OFFICER:** Relay first. Reform on the wagon. Eyes north.
+**CONVOY OFFICER:** All right. Relay first. Reform on the wagon and keep eyes north. Nobody chases until I say otherwise.
 
 **CYANIS:** Yes, sir.
 
@@ -84,7 +56,7 @@ Cyanis starts to go.
 
 **CYANIS:** Sir?
 
-**CONVOY OFFICER:** Next time, field first. Refusal second.
+**CONVOY OFFICER:** Next time, field first and refusal second. You had the argument. I shouldn't have to drag it out of you.
 
 A beat.
 
@@ -106,12 +78,9 @@ Next: **P04 — Field Triage Camp / Ilyra / First Incomplete Response.**
 
 ---
 
-## Quick-pass check
+## Natural-turn pass check
 
-**Officer competence:** the pursuit proposal is reasonable, the officer pressure-tests Cyanis's objection, then changes the order when the alternative is stronger.
-
-**Cyanis competence:** concrete field count, asymmetric-risk judgment, executable alternative.
-
-**Hierarchy:** Cyanis refuses an unsafe order but accepts the officer's correction on how to present that refusal.
-
-**Presentation:** no long tactical courtroom, no repeated pointing at the field, no extra visual evidence sequence. The dialogue carries the decision.
+- Tactical pressure remains concise, but Cyanis is allowed to finish a complete field argument rather than surrendering the floor after each clause.
+- The officer gives complete orders and reasoning when the situation permits it.
+- Short replies remain where hierarchy or urgency naturally makes them short.
+- No story outcome, knowledge state, or Card continuity changed.
