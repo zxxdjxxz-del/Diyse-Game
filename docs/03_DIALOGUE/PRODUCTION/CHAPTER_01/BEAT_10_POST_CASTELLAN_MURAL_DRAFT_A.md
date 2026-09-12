@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 10
 # Post-Castellan Mural
-## DIALOGUE ENGINE PRODUCTION DRAFT E — NATURAL-TURN RHYTHM PASS / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT E — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT / awaiting user approval
 
 ---
 
@@ -38,11 +38,11 @@ A beat.
 
 Ilyra recognizes the human pattern before the geography.
 
-**ILYRA:** Litters again. Children too. Same kind of movement we saw downstairs, only spread across the whole region here.
+**ILYRA:** Same kind of movement as downstairs. But everywhere.
 
 **CYANIS:** And all of them are heading underground while that comes out of the sky. Nothing good has ever been painted falling like that.
 
-**MAEVRA:** Whatever happened, they expected enough people to move that they built for more than a handful of soldiers.
+**MAEVRA:** Whatever happened, it wasn't local.
 
 Torren has stopped listening for a moment because he is studying the landforms.
 
@@ -62,11 +62,7 @@ Nobody answers that.
 
 ### [THE DESCENTS]
 
-The group takes in the mural as a whole rather than converting each opening into a separate spoken clue.
-
-**CYANIS:** Six passages in the chamber downstairs. Now there are openings all over the region.
-
-**ILYRA:** And the people using them look ordinary. Families, injured people, carts. Whatever the exact purpose was, this was built around civilian movement too.
+The group takes in the mural as a whole. The mural itself already establishes the many openings and civilian-scale movement, so nobody repeats the inventory from the lower junction.
 
 **TORREN:** Doesn't tell us whether they went ten yards or ten miles underground.
 
@@ -114,9 +110,9 @@ Cyanis looks back toward the falling-fire imagery.
 
 **CYANIS:** Bad rain.
 
-**ILYRA:** Whatever it was, people were getting off the surface fast enough to carry the sick and wounded with them.
+Maevra looks back toward the chamber they came through.
 
-**MAEVRA:** And the Host never saw any of this. They killed everyone upstairs and stopped one room short.
+**MAEVRA:** Host never saw any of this. They stopped one room short.
 
 A beat.
 
@@ -185,11 +181,10 @@ Next mandatory story beat: **Beat 11 — Hollow Watch Resolution / Torren Recrui
 
 ---
 
-## Natural-turn / presentation check
+## Audit check
 
-- The mural is still visual-first, but each speaker can now complete the observation they actually own rather than passing one sentence at a time around the party.
-- Torren's geography recognition comes as a full field judgment: recognition, basis, and uncertainty stay together.
-- Ilyra's human-use observation remains practical and bounded rather than becoming lore exposition.
-- Maevra converts the discovery into the next decision in one complete planning turn.
-- Short comedy remains short where timing benefits from it.
+- The mural is visual-first. Dialogue no longer repeats the lower-junction inventory of litters, children, carts, and ordinary people after the player has already seen it twice.
+- Ilyra registers recurrence, Cyanis reacts to the falling-fire image, Maevra recognizes regional scale, and Torren owns the geography identification.
+- The separate `descents` discussion now adds only uncertainty about distance and scale rather than narrating the mural back to the player.
+- The fire section no longer repeats that people are fleeing the surface; Maevra instead adds the new story-relevant fact that the Host stopped one room short of this evidence.
 - No story, reveal, route, Card, or recruitment state changed.
