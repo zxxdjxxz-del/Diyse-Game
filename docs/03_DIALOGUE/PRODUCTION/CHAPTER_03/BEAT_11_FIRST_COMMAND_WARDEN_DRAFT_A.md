@@ -177,13 +177,13 @@ Torren looks from the inert Warden to the Card.
 
 **NIMERA:** Very.
 
-**CYANIS:** Not coincidence.
+**CYANIS:** You think they're connected?
 
-Nimera does not argue.
+Nimera keeps looking at the now-inert Warden.
 
-**NIMERA:** No.
+**NIMERA:** I think I want to know why it waited until that died.
 
-Nobody names what `Last Sentinel` refers to.
+Nobody names what `Last Sentinel` refers to or claims the timing proves a mechanism.
 
 ### [THE INNER WAY]
 
@@ -224,6 +224,7 @@ Current state:
 - its final communications were, in order, **PREVIOUS ERROR** and **LAST SENTINEL CONFIRMED**;
 - the meaning of both remains unresolved;
 - only after the Warden shut down did Cyanis's Card stabilize into persistent **deep Ruby**;
+- no causal mechanism between the Warden and the Card has been proven;
 - no Prime manifestation, recovery, awakening, summon, or gameplay ability occurred;
 - the Card was not used to open the inner way;
 - no new map or north-route clue has been discovered;
@@ -242,7 +243,7 @@ Transition directly into:
 - The Warden itself communicates `PREVIOUS ERROR` and then `LAST SENTINEL CONFIRMED` during shutdown.
 - `LAST SENTINEL CONFIRMED` is its final communication before complete inertness.
 - The Card does not begin its Ruby stabilization until after the Warden is fully inert.
-- Post-fight dialogue acknowledges the exact timing without assigning Last Sentinel to Cyanis or the Card.
+- Post-fight dialogue notices the timing and treats it as a live question rather than declaring the Warden/Card relationship proven.
 - Deep Ruby is a persistent Card state change only. It is not Prime recovery, awakening, manifestation, identification, or a gameplay unlock.
 - The inner way opens because the defeated Warden is no longer maintaining the old closure; the Card is not a key.
 - Beat 12 begins with the sealwright chamber and recent copying evidence. Beat 11 does not introduce the retired northern-route/map discovery.
