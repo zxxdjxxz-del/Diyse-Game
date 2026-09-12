@@ -1,6 +1,6 @@
 # Chapter 3 — Beat 3
 # The Impossible Orders
-## DIALOGUE ENGINE PRODUCTION DRAFT A — rehearsal-first Agent-Brain pass — NATURAL-TURN RHYTHM PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — rehearsal-first Agent-Brain pass — NATURAL-TURN RHYTHM PASS + ROYAL-VOICE POLISH
 
 ---
 
@@ -18,9 +18,11 @@ The original Card-transport authorization and attached routing / expenditure rec
 
 Lysara reads enough to identify what the order claims.
 
-**LYSARA:** I have never seen any of this. Until this audience, I did not know a Card had been recovered in the Westways. I did not know Solmar had it, I did not know it was being brought to Caelora, and I did not authorize Crown resources to move it here.
+**LYSARA:** I did not issue this order.
 
-Nobody treats forgetfulness as a live explanation.
+A beat.
+
+**LYSARA:** I did not know the Card had been recovered until this audience.
 
 **MAEVRA:** The chain presented it as direct Crown authority.
 
@@ -66,7 +68,7 @@ Lysara looks at the document.
 
 **MAEVRA:** Then everyone in that transport chain trusted exactly what they were trained to trust.
 
-**LYSARA:** Yes. You were supposed to trust that response. So was everyone after you.
+**LYSARA:** Then they did what the Crown required of them.
 
 No accusation follows. The problem remains the authority response itself.
 
@@ -92,21 +94,21 @@ A beat.
 
 Mirena almost smiles, but the room stays on the problem.
 
-**LYSARA:** Solmar remains responsible for its handling. We are not creating a second unknown merely to make the paperwork tidy.
+**LYSARA:** Solmar retains responsibility. The Card stays where it is until we have reason to move it.
 
 **MAEVRA:** Understood.
 
 ### [EVIDENCE / NEXT STEP]
 
-**MIRENA:** Originals secured. Routing, expenditures, countersigns, everyone who handled the chain.
+**MIRENA:** Secure the originals. I want the routing, expenditures, countersigns, and every hand in the chain.
 
 **OTHMAR:** And legitimate sealed orders from the same period for comparison.
 
-**LYSARA:** Yes. Then my seal—now. I want the physical seal, its custody record, its recent legitimate uses, and the names of everyone permitted near it.
+**LYSARA:** My seal. Now. Bring it with its custody record and every legitimate use from the same period.
 
 **OTHMAR:** I'll have the verification room prepared.
 
-**LYSARA:** Good. And nobody becomes guilty because their name appears in a ledger. We start with what we can prove.
+**LYSARA:** No accusations without proof.
 
 The scene ends on controlled investigation rather than accusation.
 
@@ -122,13 +124,14 @@ Transition directly into:
 
 ## Beat-3 production notes
 
-- Lysara's lack of prior knowledge is direct and unambiguous and now lands as one complete statement rather than several mechanically separated boxes; nobody seriously proposes that she forgot authorizing the transport.
+- Lysara's lack of prior knowledge is direct and unambiguous without making her recite every negative fact already implicit in the room.
 - Calder's minimization reads as competent fiscal / administrative skepticism and does not expose his hidden responsibility for ordering the Card brought toward Caelora.
 - authentication establishes the genuine magical authority response of Lysara's personal seal, not merely a convincing visual Crest.
 - the scene does not decide whether the physical seal was accessed, removed, copied, remotely invoked, echoed, or otherwise reproduced.
 - Torren contributes only the evidence distinction: genuine response does not equal known mechanism.
-- Maevra is explicitly cleared of any implication that she should have ignored apparently genuine royal authority.
+- Lysara clears the transport chain through a royal judgment rather than narrating why their trust was reasonable.
 - Cyanis remains physically in possession of the Card because moving it would introduce a known practical risk; this is not bearer confirmation.
+- Lysara's custody decision is concise: Solmar retains responsibility and the Card is not moved without cause.
 - the originals and attached records remain intact as evidence.
 - no culprit is named.
 - Beat 4 owns examination of the actual physical royal seal and its custody.
