@@ -13,6 +13,8 @@ When character visual sources disagree, use this order:
 
 The repository master image controls exact face, body proportions, hair, clothing/armor construction, equipment placement, palette, silhouette, and incidental visual minutiae. A lock document may explain intent and prohibited regressions, but it must never override the current master image.
 
+**Temporary Vaelira exception:** Vaelira's approved 2026-09-12 B00 (gen_id `98e6cf8a-4d34-4411-b789-85e60e1123c9`) is the current appearance authority while its exact PNG binary is pending repository sync. The valid `vaelira.jpg` currently present in the master folder is an older fallback kept only to avoid a broken/corrupt binary and must not override `VAELIRA_CURRENT_VISUAL_LOCK.md` or be used to restore the retired long-hair design. Remove this exception after the exact PNG is synced.
+
 Do not infer or add surnames that are not explicitly canonical. Current repository filenames use the characters' actual names only.
 
 ## Permanent party — current visual masters
@@ -23,10 +25,10 @@ Do not infer or add surnames that are not explicitly canonical. Current reposito
 | Ilyra | [`ilyra.jpg`](../../../../asset_sources/characters/current/ilyra.jpg) | [`ILYRA_CURRENT_VISUAL_LOCK.md`](ILYRA_CURRENT_VISUAL_LOCK.md) |
 | Torren | [`torren.jpg`](../../../../asset_sources/characters/current/torren.jpg) | [`TORREN_CURRENT_VISUAL_LOCK.md`](TORREN_CURRENT_VISUAL_LOCK.md) |
 | Nimera | [`nimera.jpg`](../../../../asset_sources/characters/current/nimera.jpg) | [`NIMERA_CURRENT_VISUAL_LOCK.md`](NIMERA_CURRENT_VISUAL_LOCK.md) |
-| Vaelira | [`vaelira.png`](../../../../asset_sources/characters/current/vaelira.png) | [`VAELIRA_CURRENT_VISUAL_LOCK.md`](VAELIRA_CURRENT_VISUAL_LOCK.md) |
+| Vaelira | [`vaelira.jpg`](../../../../asset_sources/characters/current/vaelira.jpg) *(temporary historical fallback only)* | [`VAELIRA_CURRENT_VISUAL_LOCK.md`](VAELIRA_CURRENT_VISUAL_LOCK.md) |
 | Seyrik | [`seyrik.jpg`](../../../../asset_sources/characters/current/seyrik.jpg) | [`SEYRIK_CURRENT_VISUAL_LOCK.md`](SEYRIK_CURRENT_VISUAL_LOCK.md) |
 
-These six are the permanent playable party and should be treated as one coherent B00 character-production set.
+These six are the permanent playable party and should be treated as one coherent B00 character-production set. For Vaelira, the current lock document and approved generation authority supersede the temporary fallback JPG until exact binary sync is completed.
 
 ## Supporting characters — current visual masters
 
