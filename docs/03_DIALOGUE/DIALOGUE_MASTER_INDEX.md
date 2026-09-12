@@ -31,7 +31,7 @@ Ordinary traversal does not receive walking dialogue unless someone is genuinely
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION** — P01–P07 + optional C01 | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch1 | **COMPLETE CURRENT WORKING PRODUCTION** — Beats 1–15 + C03/C04/C05 | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch2 | **COMPLETE CURRENT WORKING MAINLINE PRODUCTION** — Beats 1–16; C06 current | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` |
-| Ch3 | **MAINLINE BEATS 1–15 COMPLETE CURRENT WORKING PRODUCTION**; H01 complete; H03 pending | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` |
+| Ch3 | **MAINLINE BEATS 1–15 + ACTIVE CHARACTER-LIFE H01/H03 CURRENT WORKING DIALOGUE COMPLETE** | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` |
 
 These four chapter folders are the correct live production locations. Do not recover dialogue from old chats, historical files, removed `LINE_COMPLETE` sets, or superseded manuscripts when a current chapter authority/index points elsewhere.
 
@@ -121,11 +121,12 @@ Current state:
 - Beat 15 establishes Cresthaven as the operational headquarters and opens cleanup;
 - **H01 — `Nimera Takes Over a Table` — current Draft A complete** at `PRODUCTION/CHAPTER_03/H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md`;
 - H01 preserves the two user-locked Cyanis/Torren opening insults verbatim and lets the remaining scene emerge under the guardrail-first Agent-Brain method;
-- **H03 — Ilyra and Nimera — remains pending** as a fully agent-driven cleanup Character-Life scene.
+- **H03 — `Ilyra and Nimera` — current Draft A complete** at `PRODUCTION/CHAPTER_03/H03_ILYRA_AND_NIMERA_DRAFT_A.md`;
+- H03 is a fully agent-driven low-stakes Cresthaven scene built around a supply crate labeled `MISC.`, with no treatment, trauma, plot exposition, or predetermined emotional lesson.
 
 Important storage note:
 - `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` is currently only a partial assembled reading copy through Beat 5;
-- it is **not** the authority for deciding whether Beats 6–15 or H01 exist;
+- it is **not** the authority for deciding whether Beats 6–15 or H01/H03 exist;
 - the exact current Chapter-3 dialogue is mapped in `CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` to the standalone current files.
 
 Current Beat-11 lock:
@@ -172,7 +173,7 @@ Current examples:
   - Cyanis: `I bet you use that cape to sneak up on the goats you fuck.`
   - Torren: `You look like a walking dick in armor.`
 
-H01 is now a completed current Draft A; those two lines remain exact within it.
+H01 is a completed current Draft A; those two lines remain exact within it.
 
 ---
 
