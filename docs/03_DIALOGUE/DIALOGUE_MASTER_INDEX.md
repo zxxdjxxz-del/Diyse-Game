@@ -18,6 +18,9 @@ Story-beat guardrail lock:
 Natural-turn / floor-holding lock:
 - `AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
 
+Character-Life numbering lock:
+- `PRODUCTION/CHARACTER_LIFE_NUMBERING_LOCK.md`
+
 Hard rhythm rule:
 > **Concision is not a one-sentence limit. A character yields the floor because the interaction changes, not because the script reached a period.**
 
@@ -35,14 +38,30 @@ Ordinary traversal does not receive walking dialogue unless someone is genuinely
 
 ---
 
+# Canonical Character-Life Sequence — Current Through Chapter 3
+
+> **C01 → C02 → C03 → C04 → C05 → C06 → C07, with no live gaps.**
+
+- **C01 — Six Minutes** — Chapter 0
+- **C02 — Torren's Version of Dinner** — Chapter 1
+- **C03 — What the Map Says** — Chapter 1
+- **C04 — Not Professionally** — Chapter 1
+- **C05 — Still Burns** — Chapter 2
+- **C06 — Nimera Takes Over a Table** — Chapter 3
+- **C07 — Ilyra and Nimera** — Chapter 3
+
+Retired/superseded development IDs do not reserve numbers. Some atomic filenames still carry legacy source prefixes until they and their synchronized manuscripts are regenerated together; `PRODUCTION/CHARACTER_LIFE_NUMBERING_LOCK.md` controls canonical live IDs.
+
+---
+
 # Canonical Chapter Dialogue Locations — Chapters 0–3
 
 | Chapter | Current status | Chapter-level dialogue authority |
 |---|---|---|
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — P01–P07 + optional C01 | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
-| Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — Beats 1–15 + C03/C04/C05 | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` (assembly manifest) |
-| Ch2 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — Beats 1–16 + C06 | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` (assembly/status map) |
-| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; CLOSING INTEGRATION + NATURAL-TURN RHYTHM AUDITS COMPLETE** — Beats 1–15 + H01/H03 | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` (assembly/status map) |
+| Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — Beats 1–15 + C02/C03/C04 | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
+| Ch2 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — Beats 1–16 + C05 | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
+| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; CLOSING INTEGRATION + NATURAL-TURN RHYTHM AUDITS COMPLETE** — Beats 1–15 + C06/C07 | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 
 These four chapter folders are the correct live production locations.
 
@@ -76,22 +95,21 @@ Folder:
 Authority index:
 - `CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md`
 
-Assembly/status map:
+Synchronized read-through:
 - `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
 
-Exact current dialogue authority is the ordered standalone scene set:
-- Beats 1–15;
-- C03 — `Torren's Version of Dinner`;
-- C04 — `What the Map Says`;
-- C05 — `Not Professionally`.
+Canonical Character-Life scenes:
+- **C02 — Torren's Version of Dinner**;
+- **C03 — What the Map Says**;
+- **C04 — Not Professionally**.
 
 Natural-turn audit: **COMPLETE.**
 
 Material revisions:
 - Beats 1, 3, 7, 10, 11, 14;
-- C03, C04, C05.
+- canonical C02, C03, C04.
 
-Protected C04 anchor remains exact:
+Protected **C03** anchor remains exact:
 - Cyanis: `Old slut?`
 - Torren: `Bitch.`
 
@@ -105,18 +123,18 @@ Folder:
 Authority index:
 - `CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md`
 
-Assembly/status map:
+Synchronized read-through:
 - `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
 
 Current state:
 - all sixteen mainline beats have one standalone exact current dialogue authority;
-- C06 — `Still Burns` — is current cleanup Character-Life dialogue.
+- **C05 — Still Burns** — is current cleanup Character-Life dialogue.
 
 Natural-turn audit: **COMPLETE.**
 
 Material revisions:
 - Beats 2, 5, 6, 10, 11, 16;
-- C06.
+- canonical C05.
 
 Core outcomes remain unchanged: current prisoners rescued, Rhazek loses the Old Bastion locally but survives a credible withdrawal, earlier transferred captives remain unresolved, Greenhollow ↔ Dunmere travel reopens, and Chapter 3 begins only through explicit player confirmation.
 
@@ -138,7 +156,8 @@ Prior closing integration audit:
 
 Current state:
 - Beats 1–15 current;
-- H01 and H03 current;
+- **C06 — Nimera Takes Over a Table** current;
+- **C07 — Ilyra and Nimera** current;
 - closing integration audit complete;
 - natural-turn / floor-holding rhythm audit complete.
 
@@ -150,10 +169,10 @@ Audited and intentionally retained as predominantly terse/mixed:
 - Beats 4–8;
 - Beat 11;
 - Beat 13;
-- H01;
-- H03.
+- C06;
+- C07.
 
-Protected H01 exact anchors:
+Protected **C06** exact anchors:
 - Cyanis: `I bet you use that cape to sneak up on the goats you fuck.`
 - Torren: `You look like a walking dick in armor.`
 
@@ -190,5 +209,7 @@ Current production dialogue belongs in:
 Each chapter's authority index / assembly tells production where the exact current dialogue lives.
 
 When a scene receives a targeted revision, update its standalone current production file first. Do not retain an unsynchronized duplicate transcript as competing live authority; either deliberately reassemble it or keep the chapter-level file as an explicit assembly/status map.
+
+For Character-Life, use the canonical ID from `PRODUCTION/CHARACTER_LIFE_NUMBERING_LOCK.md`. Legacy file prefixes are implementation provenance only and must not create holes in the live numbering sequence.
 
 Use Git history for superseded copies.
