@@ -1,6 +1,6 @@
 # Chapter 0 — P07
 # Aftermath / Survivor Recovery / Overnight Camp
-## REHEARSAL-FIRST PRODUCTION DRAFT B — NATURAL-TURN RHYTHM PASS / awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT B — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT / awaiting user approval
 
 ---
 
@@ -74,11 +74,11 @@ The officer turns back to the evacuation problem.
 
 A beat.
 
-**ILYRA:** No. Twice that thing lit up, and twice his condition changed with it. I was there both times, I treated him both times, and I still don't know what it did. My people can move the wounded without me tonight. I'm staying until morning.
+**ILYRA:** No. My people can move the wounded without me tonight. I'm staying until morning.
 
 **CYANIS:** You don't have to stay on my account.
 
-**ILYRA:** I'm not. I'm staying because I'm the one who treated you when it happened, and I'm not handing that off blind after two episodes I can't explain yet.
+**ILYRA:** I'm not. I treated you through both Card responses, and I'm not handing that off blind when I still can't explain them.
 
 Cyanis accepts the correction.
 
@@ -98,7 +98,7 @@ The officer gives her a tired look.
 
 **CYANIS:** Yes, sir.
 
-The scene ends before Ilyra has to justify herself a second time.
+The scene ends without Ilyra having to justify herself twice.
 
 ---
 
@@ -173,6 +173,6 @@ The player may remain in cleanup or use the later explicit **Continue to Bracken
 - Cyanis + Ilyra remain overnight at the quieted field camp;
 - Chapter 0 does not end until the player explicitly chooses to depart for Brackenwall.
 
-## Natural-turn rhythm note
+## Audit note
 
-After combat pressure ends, the officer and Ilyra now complete operational and medical thoughts in full turns. Short acknowledgements remain short because hierarchy and task focus still justify them.
+After combat pressure ends, the officer and Ilyra complete operational and medical thoughts in full turns. Ilyra's first answer now states the decision; her second answer supplies the reason only because Cyanis challenges the premise. The scene no longer gives the same justification twice before the conversation moves on.
