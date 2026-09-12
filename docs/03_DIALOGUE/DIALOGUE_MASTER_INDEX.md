@@ -25,7 +25,7 @@ Hard rhythm rule:
 
 A conversational turn may be a fragment, one sentence, several connected sentences, an interrupted thought, or silence. Dialogue-box pagination is a presentation unit and does not define the end of a speaker turn.
 
-The recurring one-sentence ping-pong artifact was identified after the Chapter-3 closing integration pass. Chapters 0–3 therefore require the retroactive audit tracked in:
+The recurring one-sentence ping-pong artifact is tracked in:
 - `CHAPTER_0_3_NATURAL_TURN_RHYTHM_AUDIT_TRACKER.md`
 
 Walking-dialogue lock:
@@ -39,14 +39,12 @@ Ordinary traversal does not receive walking dialogue unless someone is genuinely
 
 | Chapter | Current status | Chapter-level dialogue authority |
 |---|---|---|
-| Ch0 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT PENDING** — P01–P07 + optional C01 | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
-| Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT PENDING** — Beats 1–15 + C03/C04/C05 | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
+| Ch0 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — P01–P07 + optional C01 | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
+| Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT NEXT/PENDING** — Beats 1–15 + C03/C04/C05 | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch2 | **COMPLETE CURRENT WORKING MAINLINE PRODUCTION; NATURAL-TURN RHYTHM AUDIT PENDING** — Beats 1–16; C06 current | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` |
 | Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT PENDING** — Beats 1–15 + H01/H03; prior closing integration audit complete | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 
 These four chapter folders are the correct live production locations. Do not recover dialogue from old chats, historical files, removed `LINE_COMPLETE` sets, or superseded manuscripts when a current chapter authority/index points elsewhere.
-
-`COMPLETE CURRENT WORKING PRODUCTION` means the authored content exists and is current authority. It does **not** currently mean the chapter has passed the newly opened natural-turn/floor-holding polish audit.
 
 ---
 
@@ -75,7 +73,11 @@ Key continuity:
 - P07 closes through survivor recovery rather than celebration.
 
 Current polish state:
-- natural-turn / floor-holding rhythm audit pending.
+- **natural-turn / floor-holding rhythm audit complete**;
+- P01–P02 were audited and intentionally preserved because crisis shorthand is appropriate;
+- P03–P07 received selective floor-time corrections;
+- C01 received the strongest quiet-scene rhythm correction;
+- chapter manuscript and standalone authorities are synchronized.
 
 ---
 
@@ -101,7 +103,7 @@ Standalone scene drafts/specs remain in the same folder as detailed scene-level 
 Obsolete Chapter-1 `LINE_COMPLETE` material is not current authority.
 
 Current polish state:
-- natural-turn / floor-holding rhythm audit pending.
+- **natural-turn / floor-holding rhythm audit is the next live target.**
 
 ---
 
@@ -173,7 +175,7 @@ Current Beat-13/14/15 continuity:
 - Mirena and Maevra return to Caelora after the handoff;
 - Chapter-3 cleanup becomes active.
 
-Chapter 3 is not missing any initial dialogue production. However, the later-discovered one-sentence cadence issue means it still requires the natural-turn / floor-holding rhythm audit before dialogue is treated as fully polished for implementation.
+Chapter 3 is not missing any initial dialogue production, but still requires the natural-turn / floor-holding rhythm audit before dialogue is treated as fully polished for implementation.
 
 ---
 
