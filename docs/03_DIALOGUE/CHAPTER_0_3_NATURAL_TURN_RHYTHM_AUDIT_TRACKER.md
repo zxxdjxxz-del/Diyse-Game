@@ -1,7 +1,8 @@
 # Diyse — Chapters 0–3 Natural Turn / Floor-Holding Rhythm Audit Tracker
 
-**Status:** ACTIVE RETROACTIVE DIALOGUE POLISH AUDIT  
+**Status:** COMPLETE RETROACTIVE DIALOGUE POLISH AUDIT  
 **Opened:** 2026-09-12  
+**Closed:** 2026-09-12  
 **Owning correction:** `AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
 
 ## Why this audit exists
@@ -10,7 +11,7 @@ The current Chapters 0–3 dialogue had a recurring cadence artifact:
 
 > **too many speaker turns were exactly one sentence long, producing mechanical A/B/A/B ping-pong even when the individual lines were strong.**
 
-The underlying story structure, character work, reveal control, and current dialogue authority remain valid. This is a rhythm/polish correction, not permission to casually rewrite approved scenes.
+The underlying story structure, character work, reveal control, and current dialogue authority remained valid. This was a rhythm/polish correction, not permission to casually rewrite approved scenes.
 
 ## Audit rule
 For each scene, ask whether a speaker yields because the interaction changes or merely because a sentence ended. Preserve rapid one-line exchange when urgency, command, combat, comedy, or a character's actual speech pattern earns it. Do not create longer dialogue just to satisfy variety.
@@ -69,9 +70,7 @@ Protected exact C04 anchor remains unchanged:
 > **CYANIS:** Old slut?  
 > **TORREN:** Bitch.
 
-Chapter-level duplicate-transcript risk was removed: the chapter assembly file now maps the exact current standalone scene authorities rather than carrying a stale second copy.
-
-No story, reveal, gameplay, Card, route, Hunt, party, or chapter-end state changed.
+Chapter-level duplicate-transcript risk was removed: the chapter assembly file maps the exact current standalone scene authorities rather than carrying a stale second copy.
 
 ### Chapter 2
 **Production content:** complete current working mainline + current C06.  
@@ -91,29 +90,53 @@ Audited and intentionally preserved as predominantly terse/mixed because the sit
 
 Beat 3 and Beat 9 received minor consolidation while preserving their underlying cadence.
 
-Chapter 2 now has one standalone exact current dialogue authority for every mainline beat. The chapter assembly file owns order/status rather than carrying a competing duplicate transcript.
-
-No story, reveal, gameplay, Bastion, prisoner, Rhazek, road-state, or chapter-end outcome changed.
+Chapter 2 now has one standalone exact current dialogue authority for every mainline beat. Its chapter assembly file owns order/status rather than carrying a competing duplicate transcript.
 
 ### Chapter 3
 **Production content:** complete current working production, including Beats 1–15 + H01/H03.  
 **Prior closing integration audit:** complete.  
-**Natural-turn rhythm audit:** **NEXT / ACTIVE.**
+**Natural-turn rhythm audit:** **COMPLETE.**
 
-## Order
-> **Chapter 0 → Chapter 1 → Chapter 2 → Chapter 3**
+Material rhythm revisions:
+- Beat 2 — Royal Audience / Chapter-2 Report;
+- Beat 3 — Impossible Orders;
+- Beat 9 — Buried Collections / Dormant Card Research;
+- Beat 10 — Recent Reader / Hall of Seals;
+- Beat 12 — Sealwright Chamber / Copying Attempts;
+- Beat 14 — Rest in Caelora / Morning Departure;
+- Beat 15 — Cresthaven Headquarters / Cleanup Window.
 
-Current live target:
-> **Chapter 3**
+Audited and intentionally preserved as predominantly terse/mixed because the situation earns it:
+- Beat 1;
+- Beats 4–8;
+- Beat 11;
+- Beat 13;
+- H01;
+- H03.
 
-## Completion condition
-A chapter passes only when:
+Protected H01 anchors remain exact:
+> **CYANIS:** I bet you use that cape to sneak up on the goats you fuck.  
+> **TORREN:** You look like a walking dick in armor.
+
+Beat 11 final Warden messages remain exact and ordered:
+> **PREVIOUS ERROR**  
+> **LAST SENTINEL CONFIRMED**
+
+Chapter 3's old line-complete cumulative transcript was converted to an assembly/status map so later targeted scene revisions cannot leave a stale duplicate dialogue authority.
+
+## Completion result
+
+All four retroactive chapters now pass:
 - sentence-count rhythm varies naturally by person and situation;
-- no pervasive one-sentence ping-pong remains;
-- no compensatory overlong monologues have been introduced;
+- no pervasive one-sentence ping-pong remains as the default grammar;
+- no compensatory overlong monologues were introduced;
 - exact locked wording remains preserved;
 - Agent-Brain identity remains intact;
-- Canon/Knowledge Checker passes;
+- Canon/Knowledge boundaries remain intact;
 - chapter authority is unambiguous after revisions.
 
-> **Content complete does not automatically mean rhythm-polished; Chapters 0–2 now satisfy both. Chapter 3 is the remaining retroactive rhythm audit.**
+> **Chapters 0–3 natural-turn / floor-holding retroactive audit: COMPLETE.**
+
+## Forward boundary
+
+Chapter 4 onward does **not** require this retroactive repair if authored correctly. The natural-turn / floor-holding rule is now part of the live rehearsal-first pipeline from the first Person-Agent rehearsal onward.
