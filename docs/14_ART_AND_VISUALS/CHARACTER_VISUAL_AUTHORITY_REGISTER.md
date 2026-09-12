@@ -23,7 +23,7 @@ Do not infer or restore surnames for the current master characters from retired 
 | Ilyra | **LOCKED** | `asset_sources/characters/current/ilyra.jpg` | `PRODUCTION/CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md` |
 | Torren | **LOCKED** | `asset_sources/characters/current/torren.jpg` | `PRODUCTION/CHARACTERS/TORREN_CURRENT_VISUAL_LOCK.md` |
 | Nimera | **LOCKED** | `asset_sources/characters/current/nimera.jpg` | `PRODUCTION/CHARACTERS/NIMERA_CURRENT_VISUAL_LOCK.md` |
-| Vaelira | **LOCKED** | `asset_sources/characters/current/vaelira.jpg` | `PRODUCTION/CHARACTERS/VAELIRA_CURRENT_VISUAL_LOCK.md` |
+| Vaelira | **LOCKED — 2026-09-12 B00** | `asset_sources/characters/current/vaelira.png` | `PRODUCTION/CHARACTERS/VAELIRA_CURRENT_VISUAL_LOCK.md` |
 | Seyrik | **LOCKED** | `asset_sources/characters/current/seyrik.jpg` | `PRODUCTION/CHARACTERS/SEYRIK_CURRENT_VISUAL_LOCK.md` |
 | Maevra | **LOCKED** | `asset_sources/characters/current/maevra.jpg` | `PRODUCTION/CHARACTERS/MAEVRA_CURRENT_VISUAL_LOCK.md` |
 | Kessara | **LOCKED** | `asset_sources/characters/current/kessara.png` | `PRODUCTION/CHARACTERS/KESSARA_CURRENT_VISUAL_LOCK.md` |
