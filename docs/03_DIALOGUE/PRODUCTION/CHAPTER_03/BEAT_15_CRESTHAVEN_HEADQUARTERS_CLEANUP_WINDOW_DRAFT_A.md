@@ -133,7 +133,7 @@ Other rooms remain dusty, sealed, damaged, or under active repair.
 
 Mirena is about to turn back toward the yard when she remembers something.
 
-**MIRENA:** One more thing. The Archive crew opened a side passage after you left yesterday—lower side of the working collection. They've marked the entrance. They got the closure open, then stopped, and I don't know what's in there.
+**MIRENA:** One more thing. Archive crew opened a lower side passage off the working collection after you left yesterday. It's marked. They stopped at the threshold.
 
 Nimera straightens slightly.
 
@@ -245,7 +245,7 @@ There is no mandatory emotional chapter-closing speech.
 - Mirena's headquarters handoff is intentionally short but now uses complete operational turns: the party may use Cresthaven as an operational base while helping her investigate; they are not gifted the property or formally appointed to command it.
 - the older Diysean layer is visually undeniable but unexplained. A sealed lower arch provides texture without becoming a new mandatory mystery scene.
 - Maevra follows the Beat-13 correction: she is physically useful and socially present, not a co-exposition narrator. Her only substantive handoff contribution is a practical structural observation to Torren.
-- the Regional Hunt #3 story unlock is concise. Crown workers opened a previously inaccessible Old City Archive passage, marked it, and stopped at the threshold. Mirena does not know what lies beyond and does not name the Archive Judgment Engine.
+- the Regional Hunt #3 story unlock is concise. Crown workers opened a previously inaccessible Old City Archive passage, marked it, and stopped at the threshold; the dialogue does not over-explain what lies beyond.
 - Mirena and Maevra return to Caelora after the operational handoff.
 - Cyanis + Ilyra + Torren + Nimera become the normal Cresthaven resident / traveling party.
 - canonical Chapter-3 Character-Life availability is **C06 + C07**; historical H01/H03 labels are source-key provenance only.
