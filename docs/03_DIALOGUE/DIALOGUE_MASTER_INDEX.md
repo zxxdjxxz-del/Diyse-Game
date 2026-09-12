@@ -7,7 +7,7 @@
 
 Current production dialogue uses the rehearsal-first Agent Brain pipeline:
 
-> **scene/world state → independent Person Agent Brain rehearsals → Dialogue Editor → invisible Canon/Knowledge Checker → economical HD-2D staging/implementation**
+> **scene/world state → independent Person Agent Brain rehearsals → Dialogue Editor → invisible Canon/Knowledge Checker → spoken-dialogue vs narration audit → economical HD-2D staging/implementation**
 
 Owning pipeline lock:
 - `AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`
@@ -18,18 +18,28 @@ Story-beat guardrail lock:
 Natural-turn / floor-holding lock:
 - `AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
 
+Spoken-dialogue vs narration lock:
+- `AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`
+
 Character-Life numbering lock:
 - `PRODUCTION/CHARACTER_LIFE_NUMBERING_LOCK.md`
 
 Hard rhythm rule:
 > **Concision is not a one-sentence limit. A character yields the floor because the interaction changes, not because the script reached a period.**
 
+Hard spoken-dialogue rule:
+> **The environment shows. Evidence owners interpret. Authority figures decide. Characters react. Nobody recites the scene back to the player.**
+
 A conversational turn may be a fragment, one sentence, several connected sentences, an interrupted thought, or silence. Dialogue-box pagination is a presentation unit and does not define the end of a speaker turn.
 
-Retroactive audit tracker:
+New-listener briefings must be compressed to what the listener actually needs; the listener should pull further detail through character-driven questions rather than causing the previous scene to be replayed for the player.
+
+Retroactive rhythm audit tracker:
 - `CHAPTER_0_3_NATURAL_TURN_RHYTHM_AUDIT_TRACKER.md`
 
-**Retroactive Chapters 0–3 audit status: COMPLETE.**
+**Retroactive Chapters 0–3 rhythm audit status: COMPLETE.**
+
+Chapter 3 has additionally completed the first dedicated spoken-dialogue / narration audit under the new lock. That audit is mandatory from the first production pass for Chapter 4 onward.
 
 Walking-dialogue lock:
 - `AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`
@@ -61,7 +71,7 @@ Retired/superseded development IDs do not reserve numbers. Some atomic filenames
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — P01–P07 + optional C01 | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — Beats 1–15 + C02/C03/C04 | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch2 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — Beats 1–16 + C05 | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
-| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; CLOSING INTEGRATION + NATURAL-TURN RHYTHM AUDITS COMPLETE** — Beats 1–15 + C06/C07 | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
+| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; CLOSING INTEGRATION + NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE** — Beats 1–15 + C06/C07; atomic files current, combined read-through stale where flagged | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` |
 
 These four chapter folders are the correct live production locations.
 
@@ -148,29 +158,29 @@ Folder:
 Authority index:
 - `CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md`
 
-Assembly/status map:
-- `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+Combined read-through:
+- `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **currently stale for the revised atomic scenes identified by the authority index; do not use stale embedded sections over current atomic files.**
 
 Prior closing integration audit:
 - `CHAPTER_03_DIALOGUE_CLOSING_INTEGRATION_AUDIT_2026-09-12.md`
 
 Current state:
-- Beats 1–15 current;
+- Beats 1–15 current in standalone atomic authority;
 - **C06 — Nimera Takes Over a Table** current;
 - **C07 — Ilyra and Nimera** current;
 - closing integration audit complete;
-- natural-turn / floor-holding rhythm audit complete.
+- natural-turn / floor-holding rhythm audit complete;
+- spoken-dialogue / narration audit complete.
 
-Material rhythm revisions:
-- Beats 2, 3, 9, 10, 12, 14, 15.
+Spoken-vs-narration material revisions:
+- Beats 2, 3, 4, 6, 9, 10, 12, 13, 15.
 
-Audited and intentionally retained as predominantly terse/mixed:
-- Beat 1;
-- Beats 4–8;
-- Beat 11;
-- Beat 13;
-- C06;
-- C07.
+Key result:
+- Lysara now receives reports as a queen: she tests certainty, judges, sets boundaries, and orders rather than repeating information already established;
+- Mirena converts evidence into investigation choices rather than narrating clue stacks;
+- visible evidence progression remains in staging when dialogue would only repeat it;
+- Nimera retains real evidentiary explanations when only she can responsibly establish the distinction;
+- repeated new-listener briefings are compressed rather than replayed chronologically.
 
 Protected **C06** exact anchors:
 - Cyanis: `I bet you use that cape to sneak up on the goats you fuck.`
@@ -186,7 +196,7 @@ Beat 11 exact Warden messages remain:
 
 | Chapter | Dialogue status |
 |---|---|
-| Ch4 | pending current Dialogue Engine production under current restructured story authority **with the natural-turn/floor-holding rule active from the first rehearsal** |
+| Ch4 | pending current Dialogue Engine production under current restructured story authority **with natural-turn/floor-holding and spoken-vs-narration rules active from the first rehearsal** |
 | Ch5 | beat rewrite required before dialogue generation |
 | Ch6 | macro/beat authority; dialogue pending |
 | Ch7 | macro authority; dialogue pending |
@@ -197,7 +207,7 @@ Beat 11 exact Warden messages remain:
 | Ch12 | macro authority; dialogue pending |
 | Ch13 | macro authority; dialogue pending |
 
-All later chapter dialogue uses the locked rehearsal-first Agent Brain pipeline plus all later workflow corrections, including `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` from the first Person-Agent rehearsal onward.
+All later chapter dialogue uses the locked rehearsal-first Agent Brain pipeline plus all later workflow corrections, including `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` and `SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md` from the first production pass onward.
 
 ---
 
