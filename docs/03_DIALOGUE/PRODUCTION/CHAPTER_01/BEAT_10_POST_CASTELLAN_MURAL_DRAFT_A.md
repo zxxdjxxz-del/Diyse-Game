@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 10
 # Post-Castellan Mural
-## DIALOGUE ENGINE PRODUCTION DRAFT E — chapter-wide dialogue polish + Junction monument correction / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT E — NATURAL-TURN RHYTHM PASS / awaiting user approval
 
 ---
 
@@ -36,35 +36,23 @@ The player gets the mural before anyone speaks.
 
 A beat.
 
-**ILYRA:** Litters.
+Ilyra recognizes the human pattern before the geography.
 
-**CYANIS:** Like downstairs.
+**ILYRA:** Litters again. Children too. Same kind of movement we saw downstairs, only spread across the whole region here.
 
-**ILYRA:** Yeah.
+**CYANIS:** And all of them are heading underground while that comes out of the sky. Nothing good has ever been painted falling like that.
 
-**MAEVRA:** Children too.
+**MAEVRA:** Whatever happened, they expected enough people to move that they built for more than a handful of soldiers.
 
-**CYANIS:** I'd be heading underground too.
+Torren has stopped listening for a moment because he is studying the landforms.
 
-**ILYRA:** Depends what that is.
-
-**CYANIS:** Nothing good has ever been painted falling out of the sky like that.
-
-A beat.
-
-**TORREN:** Wait.
-
-**MAEVRA:** What?
-
-**TORREN:** That's Hollow Watch.
+**TORREN:** Wait. That's Hollow Watch.
 
 **CYANIS:** Here?
 
-**TORREN:** Yeah. Same shape.
+**TORREN:** Yeah. Same shape, same ridge. If that's Hollow Watch, this isn't just a story picture. It's using real geography.
 
-**MAEVRA:** So this is a map.
-
-**TORREN:** Yeah.
+**MAEVRA:** So we're looking at a map wrapped around whatever happened.
 
 **CYANIS:** Cheerful map.
 
@@ -74,59 +62,43 @@ Nobody answers that.
 
 ### [THE DESCENTS]
 
-Ilyra takes in the wider mural.
+The group takes in the mural as a whole rather than converting each opening into a separate spoken clue.
 
-**ILYRA:** They're going down all over the region.
+**CYANIS:** Six passages in the chamber downstairs. Now there are openings all over the region.
 
-**CYANIS:** Six passages downstairs.
+**ILYRA:** And the people using them look ordinary. Families, injured people, carts. Whatever the exact purpose was, this was built around civilian movement too.
 
-A beat.
+**TORREN:** Doesn't tell us whether they went ten yards or ten miles underground.
 
-**CYANIS:** Now openings everywhere.
+**MAEVRA:** No. But it tells us the scale was larger than Hollow Watch.
 
-**TORREN:** Yeah.
-
-**MAEVRA:** And all those people.
-
-Nobody turns the observation into a theory conference. The connection is allowed to sit in the player's mind as well as theirs.
+They leave the implication there.
 
 ---
 
 ### [THE JUNCTION]
 
-**TORREN:** Huh.
+Torren's attention catches farther south.
 
-**MAEVRA:** What?
-
-**TORREN:** The Junction.
+**TORREN:** Huh. That's the Junction.
 
 **CYANIS:** The crossroads?
 
-**TORREN:** Yeah.
+**TORREN:** Yeah. Old roads meet there; modern ones still use the same ground. I've crossed it plenty of times.
 
-**TORREN:** Old roads meet there. Modern ones still use the same ground.
+Ilyra looks at the monument depicted at the center.
 
-**ILYRA:** And that stone in the middle?
+**ILYRA:** And that stone?
 
 A beat.
 
-**TORREN:** Never seen it.
+**TORREN:** Never seen it. I know the crossroads, not that thing.
 
-**CYANIS:** You've been through the Junction.
+**MAEVRA:** They made it prominent enough that it mattered to whoever made this.
 
-**TORREN:** Plenty.
+**CYANIS:** But nobody's going down through it.
 
-**TORREN:** I know the crossroads. Not that.
-
-**MAEVRA:** They made it important here.
-
-**CYANIS:** So the Junction mattered.
-
-**TORREN:** Looks like it.
-
-**ILYRA:** But it isn't one of the descents.
-
-**TORREN:** No.
+**TORREN:** No. Don't know what it is, but it isn't drawn like the other descents.
 
 Nobody gives the monument a name or function.
 
@@ -134,37 +106,31 @@ Nobody gives the monument a name or function.
 
 ### [THE FIRE]
 
+Cyanis looks back toward the falling-fire imagery.
+
 **CYANIS:** Any chance that's rain?
 
 **TORREN:** Flaming rain?
 
 **CYANIS:** Bad rain.
 
-**ILYRA:** Whatever it was, they were getting people off the surface.
+**ILYRA:** Whatever it was, people were getting off the surface fast enough to carry the sick and wounded with them.
 
-**MAEVRA:** Fast, by the look of it.
+**MAEVRA:** And the Host never saw any of this. They killed everyone upstairs and stopped one room short.
 
 A beat.
 
-**CYANIS:** Host never saw this.
-
-**TORREN:** No.
-
-**CYANIS:** They killed everyone upstairs and stopped one room short.
-
-The silence is allowed to sit.
+Nobody fills the silence.
 
 ---
 
 ### [PRACTICAL DECISION]
 
-**MAEVRA:** The Junction on our route south?
+**MAEVRA:** Is the Junction close enough to our south route to check without turning this into another expedition?
 
-**TORREN:** Near enough.
+**TORREN:** Near enough. We'd pass close by anyway.
 
-**MAEVRA:** Then we stop there.
-
-**TORREN:** Yeah.
+**MAEVRA:** Then we stop there. We don't know what the monument is, but now we know where it should be.
 
 A beat.
 
@@ -219,16 +185,11 @@ Next mandatory story beat: **Beat 11 — Hollow Watch Resolution / Torren Recrui
 
 ---
 
-## Presentation / dialogue check
+## Natural-turn / presentation check
 
-**Traversal:** Cyanis only during ordinary protected-passage movement.
-
-**Triggered discovery scene:** the relevant cast may appear as simple field models in the mural chamber.
-
-**Dialogue:** portraits + dialogue box carry the exchange; no repeated pointing, tracing, stepping, looking, or wall-inspection choreography is required.
-
-**Knowledge-firewall polish:** the old `could be related / could've moved people / or just gotten them under cover` ladder has been removed. The cast notices the relationship between the downstairs passages and the wider mural without sounding as though they are listing approved interpretations.
-
-**Required visual:** the mural itself carries the discovery. No second set piece is added.
-
-**Junction continuity:** Torren calls the place the Junction, recognizes the crossroads rather than the hidden monument, and has never seen the actual stone.
+- The mural is still visual-first, but each speaker can now complete the observation they actually own rather than passing one sentence at a time around the party.
+- Torren's geography recognition comes as a full field judgment: recognition, basis, and uncertainty stay together.
+- Ilyra's human-use observation remains practical and bounded rather than becoming lore exposition.
+- Maevra converts the discovery into the next decision in one complete planning turn.
+- Short comedy remains short where timing benefits from it.
+- No story, reveal, route, Card, or recruitment state changed.
