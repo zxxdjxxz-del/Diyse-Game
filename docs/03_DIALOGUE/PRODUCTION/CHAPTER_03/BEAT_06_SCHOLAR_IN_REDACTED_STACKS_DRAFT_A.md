@@ -158,9 +158,7 @@ Nimera catches the wording.
 
 **TORREN:** Yes.
 
-**NIMERA:** Good. Keep that word.
-
-She thinks for a moment, then stops herself before the thought becomes a conclusion.
+Nimera thinks for a moment, then stops herself before the thought becomes a conclusion.
 
 **NIMERA:** I have questions.
 
@@ -240,6 +238,6 @@ Transition into:
 - Nimera's personality emerges from the immediate barrier problem before the plot explanation reaches her.
 - Ilyra checks whether Nimera is actually hurt and accepts the answer without turning the scene into treatment.
 - the Card and seal facts enter because Nimera asks why Mirena sent them, not because the scene performs an exposition checklist.
-- Nimera catches `custody record` as evidence rather than treating no recorded gap as no possible access.
+- Nimera notices `custody record` as evidence rather than treating no recorded gap as no possible access, without turning that distinction into another authorial instruction line.
 - nobody assigns formal roles in the upcoming barrier solution.
 - the barrier remains closed and Beat 7 owns the actual attempt.
