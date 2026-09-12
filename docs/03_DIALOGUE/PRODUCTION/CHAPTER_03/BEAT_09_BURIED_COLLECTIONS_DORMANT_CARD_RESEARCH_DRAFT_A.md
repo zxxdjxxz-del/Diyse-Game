@@ -1,8 +1,10 @@
 # Chapter 3 — Beat 9
 # Buried Collections / Dormant Card Research
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL
+## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — NATURAL-TURN RHYTHM PASS
 
 **Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the live situation, research goals, hard findings, recent-reader end state, and reveal firewalls. It was not given a speaker order or one-research-thread-per-character structure.
+
+**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Research owners are allowed to finish linked findings before another speaker enters; short challenge/joke exchanges remain where they arise naturally.
 
 ---
 
@@ -24,21 +26,7 @@ A short authored stop triggers at the first useful Card collection.
 
 Nimera has already rejected several irrelevant volumes before finding one worth keeping open.
 
-**NIMERA:** Here.
-
-**CYANIS:** That sounded dangerous.
-
-**NIMERA:** Twelve years recorded as inert. Then visible geometry during a later response.
-
-Cyanis looks at the page.
-
-**CYANIS:** Same as mine?
-
-**NIMERA:** No.
-
-A beat.
-
-**NIMERA:** Close enough that I don't get to dismiss yours as broken.
+**NIMERA:** Here. Twelve years recorded as inert, then visible geometry during a later response. Not the same as yours, but close enough that I don't get to dismiss yours as broken.
 
 **CYANIS:** Better than nothing.
 
@@ -46,25 +34,11 @@ A beat.
 
 Ilyra has another volume open nearby.
 
-**ILYRA:** This one mentions green at the edge and gold through the center.
-
-Nimera looks over.
-
-**NIMERA:** Context?
-
-**ILYRA:** Card changed after years without response. Writer didn't know why.
+**ILYRA:** This one mentions green at the edge and gold through the center. Card changed after years without response; writer didn't know why.
 
 Nimera reads enough to confirm it.
 
-**NIMERA:** Different account. Different place.
-
-**CYANIS:** Still close.
-
-**NIMERA:** Yes.
-
-A beat.
-
-**NIMERA:** Annoyingly close.
+**NIMERA:** Different account, different place. Still annoyingly close.
 
 Torren has not joined the page-by-page discussion. He is looking at the shelving marks on several old cases.
 
@@ -74,15 +48,7 @@ Nimera follows his attention.
 
 A later Yahtrean copy groups older Card material beneath six headings with older marks preserved alongside them.
 
-**NIMERA:** Might. Elements. Grace. Resource. Perception. Ruin.
-
-**CYANIS:** Those names are current.
-
-**NIMERA:** The copy is later. The marks aren't.
-
-**ILYRA:** Same meanings?
-
-**NIMERA:** I wouldn't bet anything valuable on that yet.
+**NIMERA:** Might. Elements. Grace. Resource. Perception. Ruin. Those names are later; the marks beside them aren't. I would not bet anything valuable on the meanings being identical yet.
 
 **TORREN:** How valuable?
 
@@ -108,43 +74,21 @@ She has gone quiet long enough for Cyanis to notice.
 
 **CYANIS:** Found something?
 
-**NIMERA:** Maybe.
+**NIMERA:** Maybe. This text treats the seal and the impression as different things: the mark is what gets left on the document; the authority belongs to the working seal. Then it gets into renewal, maintenance, some specialized keeper practice—right where the useful section goes missing.
 
-She turns the book enough for the others to see the relevant section.
-
-**NIMERA:** It treats the seal and the impression as different things.
-
-**CYANIS:** Meaning?
-
-**NIMERA:** The mark is what gets left on the document. The authority belongs to the working seal.
+**CYANIS:** Of course it does.
 
 Ilyra looks at the damaged continuation.
 
-**ILYRA:** And that part?
+**ILYRA:** Any older reference?
 
-**NIMERA:** Renewal. Maintenance. Something specialized.
+Nimera finds one written in another hand.
 
-**ILYRA:** Something useful?
-
-Nimera turns a brittle page carefully.
-
-The next section is incomplete.
-
-**NIMERA:** Something missing.
-
-**CYANIS:** Of course it is.
-
-Nimera finds an older cross-reference written in another hand.
-
-**NIMERA:** This author thought the practice was older than Yahtrea.
+**NIMERA:** Yes. This author thought the practice was older than Yahtrea.
 
 **TORREN:** Thought.
 
-**NIMERA:** Yes.
-
-She looks at him.
-
-**NIMERA:** You can stop enjoying that word.
+**NIMERA:** Yes. You can stop enjoying that word.
 
 **TORREN:** Haven't started.
 
@@ -180,13 +124,9 @@ Torren points out a volume left on a side table and the clean shelf outline wher
 
 **TORREN:** That belong here?
 
-Nimera looks.
+Nimera checks the spine.
 
-**NIMERA:** No.
-
-She checks the spine.
-
-**NIMERA:** Card recovery reports. Two rooms back.
+**NIMERA:** No. Card recovery reports—two rooms back.
 
 Torren indicates another book farther down the table.
 
@@ -200,17 +140,13 @@ A beat.
 
 She looks across the table rather than at Torren now.
 
-**NIMERA:** All right.
+**NIMERA:** All right. Shut up for a second.
 
-**CYANIS:** All right good or all right bad?
-
-**NIMERA:** Shut up for a second.
-
-Cyanis does.
+Cyanis, who had started to speak, closes his mouth.
 
 Nimera checks the page markers and copied references left with the books.
 
-**NIMERA:** These didn't end up together by accident.
+**NIMERA:** These didn't end up together by accident. Card recovery beside seal history, with the same run of page markers through both.
 
 **ILYRA:** One person?
 
@@ -222,15 +158,9 @@ Torren looks over the recent wear and movement around the shelves and table.
 
 Nimera follows a citation from the open Card volume into an older regional index.
 
-**NIMERA:** Westways.
+**NIMERA:** Westways. This points to site records from the ruins where your Card was found.
 
 Cyanis is beside her now.
-
-**CYANIS:** What about it?
-
-**NIMERA:** This reference points to site records from the ruins where your Card was found.
-
-A beat.
 
 **CYANIS:** You're sure it's the same place?
 
@@ -262,23 +192,17 @@ Cyanis recognizes the site material first because he has physically been there.
 
 **CYANIS:** That's it.
 
-Nimera looks at the open map / site account.
-
 **NIMERA:** The ruins?
 
 **CYANIS:** Yes.
 
 Ilyra looks over the neighboring open volumes.
 
-**ILYRA:** They weren't researching the place by itself.
+**ILYRA:** They weren't researching the place by itself. Card behavior, seal work, the Westways site—somebody was putting the same cluster together we are.
 
 Nimera follows the markers between the books.
 
-She stops at a seal reference, then at a Card study, then back at the Westways material.
-
-**NIMERA:** No.
-
-A beat.
+**NIMERA:** Yes. Whoever did this started connecting these things before we got here.
 
 Torren looks at the table, then at the surrounding shelves.
 
@@ -288,21 +212,15 @@ Torren looks at the table, then at the surrounding shelves.
 
 **TORREN:** Recent enough to matter. Not enough to chase footsteps.
 
-Nimera is still looking at the linked pages.
-
-**NIMERA:** Whoever did this started connecting the same things before we got here.
-
 Silence.
 
 **ILYRA:** Can we tell where they went next?
 
 Nimera checks the final marked citation.
 
-**NIMERA:** Yes.
+**NIMERA:** Yes. Hall of Seals.
 
 She looks toward the deeper restricted holdings.
-
-**NIMERA:** Hall of Seals.
 
 ### [GAMEPLAY HANDOFF]
 
@@ -322,7 +240,7 @@ Transition into:
 
 - The scene was rehearsed from research goals and hard outcomes rather than a prescribed four-thread conversation order.
 - Research remains playable, with a small number of authored stops rather than one long exposition scene.
-- Nimera behaves as a working scholar but does not narrate the catalogue or monopolize every finding.
+- Nimera behaves as a working scholar but does not narrate the catalogue or monopolize every finding; when she owns a linked finding, she is now allowed to complete it before yielding.
 - inactive Cards becoming responsive and green/gold light both gain historical precedent without classifying Cyanis's Card.
 - the Six Faces appear naturally in old Card scholarship; the later Yahtrean names sit beside older marks, preserving uncertainty about exact historical meaning.
 - seal research establishes a meaningful distinction between physical impression and magical authority and references older renewal/maintenance practice, but the technique and lineage remain incomplete.
