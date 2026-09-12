@@ -31,7 +31,7 @@ Ordinary traversal does not receive walking dialogue unless someone is genuinely
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION** — P01–P07 + optional C01 | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch1 | **COMPLETE CURRENT WORKING PRODUCTION** — Beats 1–15 + C03/C04/C05 | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch2 | **COMPLETE CURRENT WORKING MAINLINE PRODUCTION** — Beats 1–16; C06 current | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` |
-| Ch3 | **MAINLINE BEATS 1–15 + ACTIVE CHARACTER-LIFE H01/H03 CURRENT WORKING DIALOGUE COMPLETE** | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` |
+| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION** — Beats 1–15 + H01/H03; closing integration audit complete | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 
 These four chapter folders are the correct live production locations. Do not recover dialogue from old chats, historical files, removed `LINE_COMPLETE` sets, or superseded manuscripts when a current chapter authority/index points elsewhere.
 
@@ -113,21 +113,28 @@ Folder:
 Authority index:
 - `CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md`
 
+Complete readable chapter manuscript:
+- `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+
+Closing integration audit:
+- `CHAPTER_03_DIALOGUE_CLOSING_INTEGRATION_AUDIT_2026-09-12.md`
+
 Current state:
 - Beats 1–15 have current working dialogue;
-- Beats 6–8 were rerun after the checkpoint-driven scripting correction;
-- Beats 9–15 were authored from the start under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`;
-- Beat 8 permanently recruits Nimera;
-- Beat 15 establishes Cresthaven as the operational headquarters and opens cleanup;
-- **H01 — `Nimera Takes Over a Table` — current Draft A complete** at `PRODUCTION/CHAPTER_03/H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md`;
-- H01 preserves the two user-locked Cyanis/Torren opening insults verbatim and lets the remaining scene emerge under the guardrail-first Agent-Brain method;
-- **H03 — `Ilyra and Nimera` — current Draft A complete** at `PRODUCTION/CHAPTER_03/H03_ILYRA_AND_NIMERA_DRAFT_A.md`;
-- H03 is a fully agent-driven low-stakes Cresthaven scene built around a supply crate labeled `MISC.`, with no treatment, trauma, plot exposition, or predetermined emotional lesson.
+- H01 — `Nimera Takes Over a Table` — current working dialogue complete;
+- H03 — `Ilyra and Nimera` — current working dialogue complete;
+- the chapter-wide closing integration audit is complete;
+- the cumulative manuscript has been rebuilt from the post-audit scene authorities and now contains Beats 1–15 + H01 + H03;
+- standalone Beat / Character-Life files remain the detailed scene-level authority if a later targeted revision has not yet been reassembled into the manuscript.
 
-Important storage note:
-- `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` is currently only a partial assembled reading copy through Beat 5;
-- it is **not** the authority for deciding whether Beats 6–15 or H01/H03 exist;
-- the exact current Chapter-3 dialogue is mapped in `CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` to the standalone current files.
+Closing-audit changes included:
+- Beat 4 — fresh guardrail-first Agent-Brain rerun to remove remaining checklist-driven conversation;
+- Beats 6/7 — minor integration trims;
+- Beat 11 — Warden/Card timing remains strongly meaningful but no longer reads as proven causation;
+- Beat 12 — repeated mark-vs-authority-copy explanation reduced to one clean distinction;
+- Beat 13 — debrief trimmed so it reports consequences instead of re-explaining Beat 12;
+- H03 — repeated Chapter-2 comedy cadence removed;
+- full manuscript rebuilt afterward.
 
 Current Beat-11 lock:
 > Warden assessment → battle → `PREVIOUS ERROR` → `LAST SENTINEL CONFIRMED` → Warden inert → Card stable deep Ruby.
@@ -143,6 +150,8 @@ Current Beat-13/14/15 continuity:
 - Cresthaven becomes the working base;
 - Mirena and Maevra return to Caelora after the handoff;
 - Chapter-3 cleanup becomes active.
+
+Chapter 3 is now in revision/playtest/implementation territory rather than missing initial dialogue production.
 
 ---
 
@@ -184,6 +193,6 @@ Current production dialogue belongs in:
 
 Each chapter's dialogue authority index/manuscript tells production where the current exact dialogue lives.
 
-When an assembled chapter manuscript is intentionally incomplete but current standalone scenes exist, the chapter authority index must explicitly map those scenes rather than allowing the partial manuscript to imply missing dialogue.
+When a scene receives a later targeted revision, update its standalone current production file first. Then deliberately synchronize/reassemble any cumulative manuscript that contains it rather than leaving ambiguous competing versions.
 
 Use Git history for superseded copies. Do not leave older duplicate transcripts presented as competing current authority.
