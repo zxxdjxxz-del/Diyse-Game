@@ -1,6 +1,6 @@
 # Chapter 3 — Beat 3
 # The Impossible Orders
-## DIALOGUE ENGINE PRODUCTION DRAFT A — rehearsal-first Agent-Brain pass / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT A — rehearsal-first Agent-Brain pass — NATURAL-TURN RHYTHM PASS
 
 ---
 
@@ -18,33 +18,17 @@ The original Card-transport authorization and attached routing / expenditure rec
 
 Lysara reads enough to identify what the order claims.
 
-**LYSARA:** I have never seen this.
-
-A beat.
-
-**MIRENA:** The order?
-
-**LYSARA:** Any of it.
-
-**LYSARA:** Until this audience, I did not know a Card had been recovered in the Westways.
-
-**LYSARA:** I did not know Solmar had it. I did not know it was being brought to Caelora. I did not authorize Crown resources to move it here.
+**LYSARA:** I have never seen any of this. Until this audience, I did not know a Card had been recovered in the Westways. I did not know Solmar had it, I did not know it was being brought to Caelora, and I did not authorize Crown resources to move it here.
 
 Nobody treats forgetfulness as a live explanation.
 
 **MAEVRA:** The chain presented it as direct Crown authority.
 
-**OTHMAR:** Then the expenditure itself is suspect.
+**OTHMAR:** Then the expenditure itself is suspect. We do not send escorts and Crown coin chasing an inactive Card because someone found it in a ruin. Somebody made the records say we did.
 
-**OTHMAR:** We do not send escorts and Crown coin chasing an inactive Card because someone found it in a ruin.
+**MAEVRA:** Somebody did spend it.
 
-**MAEVRA:** Somebody did.
-
-**OTHMAR:** Someone made the records say we did.
-
-A beat.
-
-**OTHMAR:** That distinction now matters.
+**OTHMAR:** Yes. That distinction matters now.
 
 **MIRENA:** It passed through enough hands to function as an ordinary order.
 
@@ -70,19 +54,11 @@ A silence.
 
 Lysara looks at the document.
 
-**LYSARA:** I did not seal this.
-
-A beat.
-
-**LYSARA:** I did not authorize anyone to seal it for me.
+**LYSARA:** I did not seal this, and I did not authorize anyone to seal it for me.
 
 **MIRENA:** Could the response itself be copied?
 
-**OTHMAR:** Not by anything our authentication practice recognizes as an ordinary forgery.
-
-**MIRENA:** That's not the same as impossible.
-
-**OTHMAR:** No.
+**OTHMAR:** Not by anything our authentication practice recognizes as an ordinary forgery. That does not make every other mechanism impossible; it means this is outside what our normal checks are designed to catch.
 
 **TORREN:** So we know the response is real. Not how it got there.
 
@@ -90,9 +66,7 @@ A beat.
 
 **MAEVRA:** Then everyone in that transport chain trusted exactly what they were trained to trust.
 
-**LYSARA:** Yes.
-
-**LYSARA:** You were supposed to trust that response. So was everyone after you.
+**LYSARA:** Yes. You were supposed to trust that response. So was everyone after you.
 
 No accusation follows. The problem remains the authority response itself.
 
@@ -100,21 +74,11 @@ No accusation follows. The problem remains the authority response itself.
 
 **MIRENA:** Then the Card's custody is part of the same problem.
 
-**ILYRA:** Moving it is a separate risk.
+**ILYRA:** Moving it is a separate risk. The one deliberate separation we tried made Cyanis ill and made the Card respond; returning it stopped both. Nothing like that has happened while it stays with him.
 
-Lysara looks to her.
-
-**ILYRA:** The one deliberate separation we tried made Cyanis ill and made the Card respond. Returning it stopped both.
-
-**LYSARA:** Dovaren.
-
-**CYANIS:** Majesty.
-
-**LYSARA:** Any change since Brackenwall?
+**LYSARA:** Dovaren. Any change since Brackenwall?
 
 **CYANIS:** No.
-
-**ILYRA:** Not while it stays with him.
 
 A beat.
 
@@ -138,25 +102,11 @@ Mirena almost smiles, but the room stays on the problem.
 
 **OTHMAR:** And legitimate sealed orders from the same period for comparison.
 
-**LYSARA:** Yes.
-
-A beat.
-
-**LYSARA:** Then my seal.
-
-**MIRENA:** Now?
-
-**LYSARA:** Now.
-
-**LYSARA:** I want the physical seal, its custody record, its recent legitimate uses, and the names of everyone permitted near it.
+**LYSARA:** Yes. Then my seal—now. I want the physical seal, its custody record, its recent legitimate uses, and the names of everyone permitted near it.
 
 **OTHMAR:** I'll have the verification room prepared.
 
-**LYSARA:** Good.
-
-**LYSARA:** And nobody becomes guilty because their name appears in a ledger.
-
-**LYSARA:** We start with what we can prove.
+**LYSARA:** Good. And nobody becomes guilty because their name appears in a ledger. We start with what we can prove.
 
 The scene ends on controlled investigation rather than accusation.
 
@@ -172,7 +122,7 @@ Transition directly into:
 
 ## Beat-3 production notes
 
-- Lysara's lack of prior knowledge is direct and unambiguous; nobody seriously proposes that she forgot authorizing the transport.
+- Lysara's lack of prior knowledge is direct and unambiguous and now lands as one complete statement rather than several mechanically separated boxes; nobody seriously proposes that she forgot authorizing the transport.
 - Calder's minimization reads as competent fiscal / administrative skepticism and does not expose his hidden responsibility for ordering the Card brought toward Caelora.
 - authentication establishes the genuine magical authority response of Lysara's personal seal, not merely a convincing visual Crest.
 - the scene does not decide whether the physical seal was accessed, removed, copied, remotely invoked, echoed, or otherwise reproduced.
