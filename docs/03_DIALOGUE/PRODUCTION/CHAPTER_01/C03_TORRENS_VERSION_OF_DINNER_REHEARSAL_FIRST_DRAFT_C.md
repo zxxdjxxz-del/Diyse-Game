@@ -1,6 +1,6 @@
 # Chapter 1 — Character-Life C03
 # Torren's Version of Dinner
-## REHEARSAL-FIRST PRODUCTION DRAFT C — chapter-wide dialogue polish / awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT C — NATURAL-TURN RHYTHM PASS / awaiting user approval
 
 ---
 
@@ -20,7 +20,7 @@ The scene is allowed to wander like four tired adults eating together. Portraits
 
 One pot and ordinary bowls are enough. No cooking montage or food-detail animation is needed.
 
-Torren does not smoke until everyone is finished eating.
+Torren does not smoke until everyone has finished eating.
 
 No lore, Hunt progression, reward, or relationship speech.
 
@@ -36,31 +36,19 @@ A few moments after everyone has food:
 
 **TORREN:** Eat.
 
-**MAEVRA:** I've had this before.
+**MAEVRA:** I've had this before. That's why I'm warning them.
 
-**ILYRA:** Is that why you said "oh, no"?
+**ILYRA:** Is it dangerous?
 
-**MAEVRA:** Yes.
+**MAEVRA:** No. That's the annoying part.
 
-**TORREN:** You survived.
+**TORREN:** You survived every other time.
 
 **MAEVRA:** That's your defense?
 
 **TORREN:** Pretty good one.
 
-**CYANIS:** How long has this been happening?
-
-**MAEVRA:** Too long.
-
-**TORREN:** She's being dramatic.
-
-**MAEVRA:** I am not.
-
-A beat.
-
-**MAEVRA:** Taste it.
-
-Cyanis does.
+Cyanis tries it.
 
 A longer beat.
 
@@ -70,19 +58,17 @@ A longer beat.
 
 **CYANIS:** I didn't say anything.
 
-**TORREN:** Didn't spit it out.
-
-**ILYRA:** That's a low standard.
-
-**TORREN:** Still passed.
+**TORREN:** Didn't spit it out either.
 
 Ilyra tries hers.
 
-**MAEVRA:** Well?
-
-**ILYRA:** It's food.
+**ILYRA:** It's food. Hot food, even.
 
 **MAEVRA:** Don't you dare take that as praise.
+
+**TORREN:** Wasn't going to. That's already enough.
+
+The first exchange stays quick because the joke benefits from it. The scene then settles into the meal.
 
 ---
 
@@ -90,39 +76,21 @@ Ilyra tries hers.
 
 They eat for a little while.
 
-**CYANIS:** What's in this?
+**CYANIS:** What's actually in this?
 
-**TORREN:** Beans.
+**TORREN:** Beans, onion, dried meat. Salt now, because apparently some people need encouragement.
 
-**CYANIS:** I found those.
+**MAEVRA:** What kind of meat?
 
-**TORREN:** Onion.
-
-**ILYRA:** Also found that.
-
-**TORREN:** Dried meat.
-
-**MAEVRA:** What kind?
-
-**TORREN:** Meat.
-
-A beat.
-
-**MAEVRA:** You still do that.
-
-**CYANIS:** Do what?
-
-**MAEVRA:** Stop asking when the answer gets inconvenient.
+Torren keeps eating.
 
 **TORREN:** It was labeled meat.
 
-**ILYRA:** That is not helping.
+Maevra looks at Cyanis.
 
-**TORREN:** Fine. Probably goat.
+**MAEVRA:** He still does that. Stops asking questions when the answer gets inconvenient.
 
-**CYANIS:** Probably?
-
-**TORREN:** Tasted like goat before I put it in.
+**TORREN:** Fine. Probably goat. Tasted like goat before I put it in.
 
 A beat.
 
@@ -144,45 +112,27 @@ They keep eating.
 
 A little later:
 
-**MAEVRA:** You made this on marches.
+**MAEVRA:** You used to make this on marches. Not this exact version, obviously. I think this one's worse.
 
 **TORREN:** Made better versions.
 
-**MAEVRA:** No, you didn't.
-
-**TORREN:** You ate them.
-
-**MAEVRA:** We were hungry.
+**MAEVRA:** No, you didn't. We were seventeen and sixteen and hungry enough to eat boot leather if somebody boiled it first.
 
 **TORREN:** You're hungry now.
 
-**MAEVRA:** That doesn't make you a good cook.
+**MAEVRA:** Still doesn't make you a good cook.
 
 **TORREN:** Never said I was.
 
 That catches Cyanis.
 
-**CYANIS:** Wait.
+**CYANIS:** Wait. You know it's bad?
 
-**CYANIS:** You know it's bad?
-
-**TORREN:** Course I know it's bad.
+**TORREN:** Course I know it's bad. It's hot, there's enough of it, it's safe, and none of us had to spend much coin on it. Bad doesn't make it useless.
 
 Silence.
 
 Ilyra starts laughing first.
-
-**CYANIS:** Then why are we eating it?
-
-**TORREN:** Because it's hot.
-
-A beat.
-
-**TORREN:** There's enough.
-
-**ILYRA:** No.
-
-**TORREN:** It's safe.
 
 **CYANIS:** Those are not the only qualities food can have.
 
@@ -190,21 +140,17 @@ A beat.
 
 **MAEVRA:** There it is.
 
-**CYANIS:** This is intentional.
+**CYANIS:** So this is intentional.
 
 **TORREN:** Dinner usually is.
 
 **CYANIS:** No. The bad part.
 
-**TORREN:** Didn't say that.
+**TORREN:** Didn't say that. I said I know it's bad.
 
-**ILYRA:** You did admit you know.
+**ILYRA:** Which somehow makes this worse.
 
-**TORREN:** Knowing something's bad doesn't make it useless.
-
-**MAEVRA:** Heard that one before.
-
-**TORREN:** You're still eating.
+**TORREN:** You're all still eating.
 
 A beat.
 
@@ -222,19 +168,13 @@ They are hungry, so they keep eating.
 
 After a bit:
 
-**ILYRA:** It's worse when it gets cold.
-
-**TORREN:** Most things are.
-
-**ILYRA:** Not like this.
-
-**CYANIS:** She's right.
+**ILYRA:** It gets worse when it cools. I didn't think there was room for that.
 
 **TORREN:** Then eat faster.
 
-**CYANIS:** That's your answer?
+**CYANIS:** That's your solution to criticism?
 
-**TORREN:** Working.
+**TORREN:** Working so far.
 
 Silence again.
 
@@ -258,17 +198,9 @@ This is one simple post-meal action. A small reusable smoke loop is enough; no e
 
 For a few seconds, nobody says anything.
 
-**MAEVRA:** Still do that after dinner.
+**MAEVRA:** Still do that after dinner. I thought you'd have quit by now.
 
-**TORREN:** Yeah.
-
-**MAEVRA:** Thought you would've quit by now.
-
-**TORREN:** Thought about it.
-
-**MAEVRA:** And?
-
-**TORREN:** Didn't.
+**TORREN:** Thought about it. Didn't.
 
 **MAEVRA:** Strong effort.
 
@@ -284,13 +216,7 @@ Torren considers that.
 
 Maevra laughs immediately.
 
-Cyanis looks at Torren.
-
-**CYANIS:** You knew.
-
-**TORREN:** Knew what?
-
-**CYANIS:** Exactly how bad it was.
+**CYANIS:** You knew exactly how bad it was.
 
 **TORREN:** Told you I did.
 
@@ -306,13 +232,7 @@ Ilyra laughs into the quiet.
 
 After another stretch of silence:
 
-**MAEVRA:** I'm cooking tomorrow.
-
-**TORREN:** No.
-
-**MAEVRA:** Wasn't asking.
-
-Torren takes another pull.
+**MAEVRA:** I'm cooking tomorrow. That wasn't a request.
 
 **TORREN:** Fine.
 
@@ -328,7 +248,7 @@ Maevra realizes it.
 
 **MAEVRA:** Damn it.
 
-**ILYRA:** Worth it.
+**ILYRA:** Still worth it.
 
 **MAEVRA:** We'll see tomorrow.
 
@@ -338,20 +258,20 @@ Scene ends.
 
 ---
 
-## Presentation / character check
+## Natural-turn / character check
 
-**Camp presentation:** Cyanis, Ilyra, Torren, and Maevra may all remain visible as simple field models. Portraits and dialogue carry the character performance.
+**Comedy rhythm:** the opening still uses fast one-line exchange where the bad-food reveal benefits from it, but the entire scene no longer stays in that register.
 
-**Torren's food:** genuinely bad but functional. He is fully aware it is bad and simply does not consider that disqualifying.
+**Torren:** remains concise, yet gets full turns when explaining why he knowingly serves bad but functional food.
 
-**Maevra:** her long history with Torren appears through immediate familiarity and remembered bad meals rather than explicit relationship exposition.
+**Maevra:** her history with Torren comes through a complete remembered thought rather than a one-sentence prompt ladder.
 
-**Cyanis / Torren:** friendly friction is emerging, but this scene avoids pushing them into the later vicious-safe brother register. C04 can still carry the more noticeable `old slut / old cut` boundary break if it is viewed.
+**Cyanis / Torren:** friendly friction is emerging, but this scene avoids pushing them into the later vicious-safe brother register. C04 still owns the `old slut / old cut` boundary break.
 
-**Ilyra:** participates in the meal and humor as an adult peer rather than acting as caretaker or mediator.
+**Ilyra:** participates as an adult peer and does not become caretaker or mediator.
 
-**Smoking:** Torren lights a blunt only after eating is finished. It is ordinary post-meal behavior and does not become the subject of a moral or medical discussion.
+**Smoking:** Torren lights a blunt only after the meal is finished.
 
-**Dialogue polish:** removed writer-facing lines such as `That's the most Torren answer possible` and cut a second ladder of `technically right / only technically / important distinction` commentary. The scene now has more dead air and lets the bad food be funny without continuously explaining why Torren is funny.
+**Physical economy:** one pot, bowls, campfire, and Torren's post-meal smoke are sufficient.
 
-**Physical economy:** one pot, bowls, campfire, and Torren's post-meal smoke are sufficient. No cooking montage, food closeups, repeated utensil business, or bespoke reaction choreography.
+No lore, plot, Hunt, Card, or relationship-state outcome changed.
