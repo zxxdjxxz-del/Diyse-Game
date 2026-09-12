@@ -31,7 +31,7 @@ Owning lock: `AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md`.
 
 Production specs must not assign speaker order, required conversational checkpoints, required jokes, motivation speeches, firewall dialogue, or one required verbal contribution to every present character. The Person Agents discover the route through the scene; the Editor shapes what survives; the Canon Checker remains invisible.
 
-This rule was added after Chapter-3 Beats 6–8 drifted too far toward checkpoint-driven scripting. Beats 6–8 have now been rerun under the corrected method, and Beat 9 onward must begin under it.
+This rule was added after Chapter-3 Beats 6–8 drifted too far toward checkpoint-driven scripting. Beats 6–8 have now been rerun under the corrected method, and Beat 9 onward begins under it from the start.
 
 The Railway/Render services are deployment/runtime implementations of the Agent Brain architecture/profile lineage; they do not supersede the current Agent Brain data or this authoring-workflow lock.
 
@@ -48,7 +48,7 @@ Owning detailed lock: `AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`.
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION** — `PRODUCTION/CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch1 | **COMPLETE CURRENT WORKING PRODUCTION** — `PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch2 | pending current Dialogue Engine production **under the locked Ch0–1 Agent Brain pipeline** |
-| Ch3 | **ACTIVE REHEARSAL-FIRST PRODUCTION** — standalone Beats 1–8 Draft A complete; **Beats 6–8 rerun under the story-beat-as-guardrail correction**; cumulative readable manuscript currently assembled through Beat 5 at `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
+| Ch3 | **ACTIVE REHEARSAL-FIRST PRODUCTION** — standalone Beats 1–9 Draft A complete; **Beats 6–8 rerun under the story-beat-as-guardrail correction; Beat 9 created under that method from the start**; cumulative readable manuscript currently assembled through Beat 5 at `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch4 | pending current Dialogue Engine production under the locked Ch0–1 Agent Brain pipeline and current restructured story authority |
 | Ch5 | beat rewrite required before dialogue generation; subsequent dialogue uses the locked Ch0–1 Agent Brain pipeline |
 | Ch6 | macro/beat authority; dialogue pending under the locked Ch0–1 Agent Brain pipeline |
@@ -107,8 +107,9 @@ Current cumulative readable manuscript:
 
 Current cumulative assembly coverage:
 - Beats 1–5 are assembled in the cumulative manuscript.
-- Beats 6–8 are current as standalone production drafts and remain authoritative before the next cumulative assembly pass.
+- Beats 6–9 are current as standalone production drafts and remain authoritative before the next cumulative assembly pass.
 - Beats 6–8 were fully rerun after the Agent-Brain freedom correction; Git history contains their retired checkpoint-driven versions.
+- Beat 9 was authored from the start under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`.
 
 Current production status:
 - Beat 1 — **Caelora Gate / Arrival — Draft A**;
@@ -119,8 +120,9 @@ Current production status:
 - Beat 6 — **Scholar in Redacted Stacks — Draft A, AGENT-DRIVEN RERUN COMPLETE**;
 - Beat 7 — **Ancient Barrier / First Cooperation — Draft A, AGENT-DRIVEN RERUN COMPLETE**;
 - Beat 8 — **Archive Scribe Engine / Nimera Joins — Draft A, AGENT-DRIVEN RERUN COMPLETE**; Nimera permanently joins here and the active permanent combat party becomes Cyanis + Ilyra + Torren + Nimera;
-- Beat 9 — **NEXT LIVE TARGET**, generated from the start under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`;
-- Beats 10–15 — pending sequential rehearsal-first passes;
+- Beat 9 — **Buried Collections / Dormant Card Research — Draft A, GUARDRAIL-FIRST AGENT-BRAIN PASS COMPLETE**;
+- Beat 10 — **NEXT LIVE TARGET — The Recent Reader / Hall of Seals**;
+- Beats 11–15 — pending sequential rehearsal-first passes;
 - H01 — pending later cleanup pass with the two explicitly preserved Cyanis/Torren opening anchors;
 - H03 — pending fully agent-driven Ilyra/Nimera scene discovery during its rehearsal pass.
 
@@ -141,6 +143,8 @@ Current Chapter-3 standalone files:
 - `PRODUCTION/CHAPTER_03/BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_DRAFT_A.md`
 - `PRODUCTION/CHAPTER_03/BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_SPEC.json`
 - `PRODUCTION/CHAPTER_03/BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_DRAFT_A.md`
+- `PRODUCTION/CHAPTER_03/BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_SPEC.json`
+- `PRODUCTION/CHAPTER_03/BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_DRAFT_A.md`
 
 Chapter 3 uses the current consolidated 15-beat story authority in `docs/02_STORY/CHAPTERS/CHAPTER_03.md`.
 
