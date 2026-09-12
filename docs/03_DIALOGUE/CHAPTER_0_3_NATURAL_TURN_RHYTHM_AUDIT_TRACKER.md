@@ -6,30 +6,16 @@
 
 ## Why this audit exists
 
-The current Chapters 0–3 dialogue has a recurring cadence artifact:
+The current Chapters 0–3 dialogue had a recurring cadence artifact:
 
-> **too many speaker turns are exactly one sentence long, producing mechanical A/B/A/B ping-pong even when the individual lines are strong.**
+> **too many speaker turns were exactly one sentence long, producing mechanical A/B/A/B ping-pong even when the individual lines were strong.**
 
-This was identified after the Chapter-3 closing integration pass.
-
-The underlying story structure, character work, reveal control, and current dialogue authority remain valid. This is a **rhythm/polish correction**, not permission to casually rewrite approved scenes.
+The underlying story structure, character work, reveal control, and current dialogue authority remain valid. This is a rhythm/polish correction, not permission to casually rewrite approved scenes.
 
 ## Audit rule
-
-For each scene, ask:
-- does a speaker yield because another person naturally takes the floor, or merely because the sentence ended?
-- where would the same person naturally continue for another sentence or two?
-- where should a thought remain a fragment instead?
-- where should someone interrupt before the thought finishes?
-- where should nobody answer?
-- where is rapid one-line volley actually appropriate and therefore worth preserving?
-- are character-specific verbal-density differences visible?
-- has the Editor accidentally turned every participant into the same short-line speaker?
-
-Do **not** create longer dialogue just to satisfy variety.
+For each scene, ask whether a speaker yields because the interaction changes or merely because a sentence ended. Preserve rapid one-line exchange when urgency, command, combat, comedy, or a character's actual speech pattern earns it. Do not create longer dialogue just to satisfy variety.
 
 ## Preservation rule
-
 Preserve unless there is a genuine rhythm problem:
 - exact user-locked lines;
 - strong jokes;
@@ -41,12 +27,12 @@ Preserve unless there is a genuine rhythm problem:
 - character-specific lines that already sound natural;
 - intentionally terse battle / command / rapid-comedy exchanges.
 
-When repairing a scene, prefer:
+Prefer:
 1. joining adjacent thoughts that clearly belong to the same speaker;
-2. allowing a speaker to finish the thought before another person reacts;
-3. removing unnecessary interjected agreement/questions that exist only to alternate speakers;
+2. allowing a speaker to finish before another person reacts;
+3. removing interjected prompts that exist only to alternate speakers;
 4. adding a second sentence only when the character would genuinely continue;
-5. preserving fragments, silence, interruptions, and one-liners where they are the stronger human choice.
+5. preserving fragments, silence, interruptions, and one-liners where stronger.
 
 ## Chapter status
 
@@ -54,37 +40,55 @@ When repairing a scene, prefer:
 **Production content:** complete current working production.  
 **Natural-turn rhythm audit:** **COMPLETE.**
 
-Audit result:
-- P01–P02 audited and intentionally retained; their clipped cadence is justified by ambush/rescue pressure.
-- P03–P07 revised selectively where speakers were yielding simply because a sentence ended.
-- C01 received the strongest cadence correction because quiet Character-Life conversation needed materially more natural floor time.
-- chapter-level manuscript and authority index synchronized after revisions.
-- no story, reveal, gameplay, Card-state, or party-state changes.
+Result:
+- P01–P02 audited and intentionally retained because ambush/rescue pressure earns clipped cadence;
+- P03–P07 revised selectively;
+- C01 received the strongest quiet-scene correction;
+- standalone authorities, chapter manuscript, and authority index synchronized;
+- no story/reveal/gameplay/Card/party state changed.
 
 ### Chapter 1
 **Production content:** complete current working production.  
-**Natural-turn rhythm audit:** **NEXT / PENDING.**
+**Natural-turn rhythm audit:** **COMPLETE.**
+
+Material revisions:
+- Beat 1 — Brackenwall / Protocol;
+- Beat 3 — Greenhollow / Torren;
+- Beat 7 — Lower Junction / Six Channels;
+- Beat 10 — Post-Castellan Mural;
+- Beat 11 — Hollow Watch Resolution / Torren Recruitment;
+- Beat 14 — The Junction / Hidden Monument;
+- C03 — Torren's Version of Dinner;
+- C04 — What the Map Says;
+- C05 — Not Professionally.
+
+Audited and intentionally preserved as predominantly terse:
+- Beats 2, 4–6, 8–9, 12–13, and 15.
+
+Protected exact C04 anchor remains unchanged:
+> **CYANIS:** Old slut?  
+> **TORREN:** Bitch.
+
+Chapter-level duplicate-transcript risk was removed: the chapter assembly file now maps the exact current standalone scene authorities rather than carrying a stale second copy.
+
+No story, reveal, gameplay, Card, route, Hunt, party, or chapter-end state changed.
 
 ### Chapter 2
 **Production content:** complete current working mainline + current C06.  
-**Natural-turn rhythm audit:** PENDING.
+**Natural-turn rhythm audit:** **NEXT / PENDING.**
 
 ### Chapter 3
 **Production content:** complete current working production, including Beats 1–15 + H01/H03.  
 **Prior closing integration audit:** complete.  
-**Natural-turn rhythm audit:** PENDING — newly opened after the cadence issue was identified.
+**Natural-turn rhythm audit:** PENDING.
 
 ## Order
-
-Audit in chapter order unless a later explicit user direction changes priority:
-
 > **Chapter 0 → Chapter 1 → Chapter 2 → Chapter 3**
 
 Current live target:
-> **Chapter 1**
+> **Chapter 2**
 
 ## Completion condition
-
 A chapter passes only when:
 - sentence-count rhythm varies naturally by person and situation;
 - no pervasive one-sentence ping-pong remains;
@@ -92,6 +96,6 @@ A chapter passes only when:
 - exact locked wording remains preserved;
 - Agent-Brain identity remains intact;
 - Canon/Knowledge Checker passes;
-- the chapter-level manuscript / authority index is synchronized after any scene revisions.
+- chapter authority is unambiguous after revisions.
 
-> **Content complete does not automatically mean rhythm-polished; Chapter 0 now satisfies both.**
+> **Content complete does not automatically mean rhythm-polished; Chapters 0 and 1 now satisfy both.**
