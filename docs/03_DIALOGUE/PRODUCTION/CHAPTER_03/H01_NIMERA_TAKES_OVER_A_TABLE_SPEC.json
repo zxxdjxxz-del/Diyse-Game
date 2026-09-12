@@ -1,0 +1,86 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_H01_NIMERA_TAKES_OVER_A_TABLE",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 cleanup — Character-Life H01 — Nimera Takes Over a Table",
+  "production_ready": false,
+  "method": "guardrail_first_agent_brain_rehearsal",
+  "participants": ["nimera", "cyanis", "torren"],
+  "optional_participants": ["ilyra"],
+  "scene_purpose": "Show Nimera behaving as though Cresthaven is somewhere she expects to keep working by naturally occupying most of the records/map table; demonstrate Cyanis and Torren's vicious-but-safe banter in front of her; let Nimera immediately enjoy and join that social dynamic; end with the table still effectively hers without sentimentalizing belonging or escalating plot lore.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_CHARACTER_LIFE_H01_NIMERA_TAKES_OVER_A_TABLE_WORKING.md",
+      "whole_file": true,
+      "role": "current_h01_structure_and_exact_line_anchors_subject_to_guardrail_method"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
+      "sections": ["Chapter-3 Cleanup Authority", "Character-Life set", "H01 — Nimera Takes Over a Table"],
+      "role": "cleanup_state_authority"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md",
+      "whole_file": true,
+      "role": "conversation_route_must_emerge_from_agents"
+    }
+  ],
+  "brain_sources": [
+    "external-services/canary/brains/nimera.yaml",
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/torren.yaml"
+  ],
+  "scene_context_seed": {
+    "location_name": "Cresthaven records/maps/investigation room",
+    "area_phase": "chapter_3_cleanup",
+    "dialogue_readiness": "GREEN",
+    "runtime_note": "Optional cleanup Character-Life scene after Beat 15. Mirena and Maevra have returned to Caelora. Nimera is already working when Cyanis and Torren enter. Keep it low-stakes, lived-in, funny, and short enough to get out after the social/table joke lands."
+  },
+  "hard_outcomes": [
+    "Nimera is already working and has occupied most of the communal table through organized useful work rather than mess.",
+    "Cyanis and Torren enter already in harmless familiar verbal combat.",
+    "The exact locked Cyanis line occurs verbatim before the exact locked Torren reply.",
+    "Nimera quickly understands that their hostility is social play and genuinely enjoys it rather than needing reassurance or mediation.",
+    "The immediate low-stakes problem becomes that there is effectively no useful communal table space left because Nimera's organized work has expanded across it.",
+    "Nobody genuinely tries to evict Nimera or turns the issue into a fight about permission, ownership, rank, or belonging.",
+    "Nimera remains socially active and capable of challenging wording, teasing, scoring, or otherwise entering the dynamic if her brain naturally takes her there.",
+    "By the end, the table remains effectively Nimera's working territory while still technically communal; nobody formally grants it to her.",
+    "No plot revelation, Card reaction, seal development, Last Sentinel interpretation, Cresthaven-history answer, or other lore escalation occurs.",
+    "Return to Chapter-3 cleanup gameplay after the scene."
+  ],
+  "exact_dialogue_anchors": [
+    {
+      "speaker": "CYANIS",
+      "line": "I bet you use that cape to sneak up on the goats you fuck.",
+      "order": 1
+    },
+    {
+      "speaker": "TORREN",
+      "line": "You look like a walking dick in armor.",
+      "order": 2
+    }
+  ],
+  "reveal_firewall": [
+    "last_sentinel_meaning",
+    "previous_error_meaning",
+    "prime_classification",
+    "might_identification",
+    "royal_seal_solution",
+    "recent_reader_identity",
+    "seal_practitioner_identity",
+    "calder_hidden_role",
+    "cresthaven_ancient_purpose",
+    "northern_route_reveal"
+  ],
+  "forbidden_conversational_choreography": [
+    "preassigned_joke_ladder_after_the_two_locked_lines",
+    "required_scoring_bit",
+    "required_open_space_test_in_a_fixed_order",
+    "required_sentimental_belonging_statement",
+    "cyanis_or_torren_formally_give_nimera_the_table",
+    "ilyra_enters_only_so_every_party_member_gets_a_line",
+    "argument_is_treated_as_real_hostility",
+    "plot_exposition_interrupts_the_character_life_scene"
+  ],
+  "production_cost_ceiling": "one_optional_cresthaven_room_scene_with_three_core_participants_and_minimal_staging"
+}
