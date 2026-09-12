@@ -220,10 +220,12 @@ The Chapter-3 cleanup window is active.
 Current cleanup availability under existing authority:
 - Cresthaven hub functions and preparation;
 - permitted backtracking / returns;
-- Character-Life H01 — **Nimera Takes Over a Table**;
-- Character-Life H03 — **Ilyra and Nimera**;
+- Character-Life **C06 — Nimera Takes Over a Table** (legacy atomic source key H01);
+- Character-Life **C07 — Ilyra and Nimera** (legacy atomic source key H03);
 - optional Regional Hunt #3 route via the newly accessible Old City Archive side passage;
 - later explicit **Begin Chapter 4** choice.
+
+Canonical Character-Life numbering is controlled by `../CHARACTER_LIFE_NUMBERING_LOCK.md`.
 
 Suggested implementation notification for the newly available optional route:
 
@@ -246,4 +248,5 @@ There is no mandatory emotional chapter-closing speech.
 - the Regional Hunt #3 story unlock is concise. Crown workers opened a previously inaccessible Old City Archive passage, marked it, and stopped at the threshold. Mirena does not know what lies beyond and does not name the Archive Judgment Engine.
 - Mirena and Maevra return to Caelora after the operational handoff.
 - Cyanis + Ilyra + Torren + Nimera become the normal Cresthaven resident / traveling party.
+- canonical Chapter-3 Character-Life availability is **C06 + C07**; historical H01/H03 labels are source-key provenance only.
 - Beat 15 ends mainline Chapter-3 dialogue but does not end Chapter 3 itself. The cleanup window remains active until the player deliberately chooses Begin Chapter 4.
