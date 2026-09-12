@@ -1,8 +1,10 @@
 # Chapter 3 — Beat 14
 # Rest in Caelora / Morning Departure
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL
+## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — NATURAL-TURN RHYTHM PASS
 
 **Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received only the rest-before-departure outcome, the need for a genuine four-person decompression scene, the next-morning preparation window, and reveal boundaries. No evening topic, joke, emotional lesson, or bonding milestone was prescribed.
+
+**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Quiet evening conversation now allows a speaker to finish a thought before yielding; rapid one-line comedy remains where the joke actually depends on it.
 
 ---
 
@@ -20,11 +22,7 @@ Cyanis looks up.
 
 **CYANIS:** No?
 
-**MIRENA:** Cresthaven has been abandoned for years. It can survive one more night without you.
-
-A beat.
-
-**MIRENA:** Eat. Sleep. Leave in the morning when you're ready.
+**MIRENA:** Cresthaven has been abandoned for years. It can survive one more night without you. Eat, sleep, and leave in the morning when you're ready.
 
 Ilyra says nothing, but the look she gives Cyanis is unhelpfully satisfied.
 
@@ -40,15 +38,11 @@ Mirena gathers the modern map back toward herself.
 
 **TORREN:** What kind of crew?
 
-**MIRENA:** The kind that can tell me whether the roof is going to fall on you.
+**MIRENA:** The kind that can tell me whether the roof is going to fall on you before you decide to stand under it.
 
 **NIMERA:** Useful specialty.
 
-**MIRENA:** I try.
-
-She looks at the four of them.
-
-**MIRENA:** Go be unavailable for a few hours.
+**MIRENA:** I try. Now go be unavailable for a few hours.
 
 That ends the meeting.
 
@@ -82,11 +76,7 @@ Looks at the empty spot.
 
 Looks at Torren.
 
-**NIMERA:** I knew where that was.
-
-**TORREN:** Didn't.
-
-**NIMERA:** I absolutely did.
+**NIMERA:** I knew where that was. You moving it after I reached for the spoon does not prove otherwise.
 
 **TORREN:** Spoon didn't.
 
@@ -96,7 +86,7 @@ Cyanis keeps eating.
 
 Nimera looks at him.
 
-**NIMERA:** You stay out of this.
+**NIMERA:** You stay out of this. I already have one person manufacturing a case against me from cutlery.
 
 **CYANIS:** Happily.
 
@@ -126,7 +116,7 @@ He looks at Torren's side of the table.
 
 Torren has the last piece.
 
-**CYANIS:** You going to eat that?
+**CYANIS:** You going to eat that, or are you just guarding it?
 
 Torren takes a bite without looking at him.
 
@@ -138,7 +128,7 @@ Torren takes a bite without looking at him.
 
 Nimera, still chewing, points at Torren with her spoon.
 
-**NIMERA:** That one was good.
+**NIMERA:** That one was good. Brief, accurate, needlessly unpleasant.
 
 **TORREN:** Thanks.
 
@@ -148,13 +138,7 @@ Nimera, still chewing, points at Torren with her spoon.
 
 Ilyra looks between them.
 
-**ILYRA:** This is going well.
-
-**CYANIS:** Is it?
-
-**ILYRA:** Nobody's bleeding.
-
-A beat.
+**ILYRA:** This is going well. Nobody's bleeding, nobody's trying to murder an ancient wall, and the food is still on the table.
 
 **NIMERA:** Extremely low standard.
 
@@ -174,7 +158,7 @@ Torren reaches over and turns the ink pot cap closed.
 
 Nimera looks at him.
 
-**NIMERA:** I was using that.
+**NIMERA:** I was using that. Closing it doesn't change the fact that I was still working.
 
 **TORREN:** Were.
 
@@ -188,13 +172,11 @@ Then yawns again.
 
 Ilyra hides a smile behind her drink.
 
-**NIMERA:** All of you are unbearable.
+**NIMERA:** All of you are unbearable. I met you this morning and somehow that already feels like an unreasonable amount of time.
 
-**CYANIS:** You met us this morning.
+**CYANIS:** Long day.
 
-**NIMERA:** Long day.
-
-**CYANIS:** Fair.
+**NIMERA:** Very.
 
 She stacks the notes anyway.
 
@@ -260,6 +242,7 @@ Transition into:
 - Mirena will bring Maevra and an organized Crown work crew to Cresthaven later the next day; the party is told not to wait for them.
 - the evening scene has no required lore topic or emotional milestone. It is simply the first low-pressure ordinary stretch for Cyanis, Ilyra, Torren, and Nimera as the current permanent four.
 - the interaction emerges from fatigue, food, work habits, and ordinary irritation rather than from characters discussing how they feel about becoming a group.
+- quiet-scene floor holding now varies naturally: Nimera and Ilyra may finish two- or three-sentence thoughts while Torren remains characteristically terse and Cyanis moves between both rhythms.
 - Ilyra does not become the party mother; she does not order everyone to bed or translate their emotional state.
 - Nimera does not perform gratitude or a new-member speech. She is simply present and already arguing about mundane things.
 - no investigation finding, dream, attack, magical escalation, Card transformation, Prime event, or new Cresthaven lore occurs.
