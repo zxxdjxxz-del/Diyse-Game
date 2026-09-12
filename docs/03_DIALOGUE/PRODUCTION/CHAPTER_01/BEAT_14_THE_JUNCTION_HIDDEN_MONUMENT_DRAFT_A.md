@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 14
 # The Junction / Hidden Monument
-## DIALOGUE ENGINE PRODUCTION DRAFT A — established gameplay presentation + hidden-monument reveal / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT A — NATURAL-TURN RHYTHM PASS / awaiting user approval
 
 ---
 
@@ -30,27 +30,21 @@ At the center of the Junction, player movement pauses.
 
 The relevant characters may appear as simple field models for the scene. Portraits and the dialogue box carry the exchange.
 
-**TORREN:** This is it.
-
-**CYANIS:** The Junction.
-
-**TORREN:** Yeah.
+**TORREN:** This is it. The Junction.
 
 A beat.
 
-**MAEVRA:** Where's the stone?
+**MAEVRA:** Then where's the stone from the mural?
 
-**TORREN:** Good question.
+**ILYRA:** It was right in the middle of the crossroads.
 
-**ILYRA:** The mural put it in the middle.
+The group notices the large mass of old fitted stone at the center, its surface heavily covered by vines and moss.
 
-A large mass of old fitted stone occupies the center of the crossroads, but its surface is heavily covered by vines and moss.
+**CYANIS:** That count as a stone?
 
-**CYANIS:** That?
+Torren looks at it longer.
 
-A beat.
-
-**TORREN:** ...Could be.
+**TORREN:** ...Could be. I've walked past that thing for years and never had a reason to think it was anything but an overgrown block.
 
 **MAEVRA:** Only one way to find out.
 
@@ -100,35 +94,25 @@ No one understands the whole system.
 
 **MAEVRA:** That's a map.
 
-**TORREN:** Yeah.
+Torren studies the surviving route relationships.
 
-**CYANIS:** Better than the wall one?
+**TORREN:** Yeah. Different from the mural, though. This is route work. That southeast line follows the same direction and bend as the road we're already taking.
 
-**TORREN:** Different.
+**CYANIS:** So our road sits on top of an older one.
 
-A beat.
+**TORREN:** Looks like it. Not enough here to tell me how much of the old route survives, but the alignment matches.
 
-**TORREN:** This line runs southeast.
+Ilyra's attention catches on another notation.
 
-**MAEVRA:** Our road.
+**ILYRA:** This mark looks like water. Reservoir, cistern, something in that family?
 
-**TORREN:** Same direction. Same bend.
+Torren checks its position against what he knows outside.
 
-**CYANIS:** So the road we're using follows an older one.
+**TORREN:** Puts it back near that overgrown cut we passed in Southern Briar.
 
-**TORREN:** Looks like it.
+**MAEVRA:** The one you called useless.
 
-**ILYRA:** And this mark?
-
-The relevant water/cistern notation is visible on the map. No character needs to physically point at it.
-
-**ILYRA:** Looks like water.
-
-**TORREN:** That puts it back near the overgrown cut.
-
-**MAEVRA:** The one you said was useless.
-
-**TORREN:** I said wrong direction.
+**TORREN:** Wrong direction. Different accusation.
 
 **CYANIS:** Important distinction.
 
@@ -136,7 +120,7 @@ The relevant water/cistern notation is visible on the map. No character needs to
 
 A beat.
 
-**ILYRA:** Worth going back now.
+**ILYRA:** It wasn't worth leaving the road for then. It might be now.
 
 **TORREN:** Yeah.
 
@@ -148,19 +132,15 @@ Nobody names the Cistern Devourer or knows what is waiting beyond that access.
 
 The Six Face marks remain visible across the cartographic surface.
 
-**CYANIS:** Six Faces.
+**CYANIS:** Six Faces again.
 
-**ILYRA:** Again.
+**MAEVRA:** And not decoration this time. They're repeated along the route lines.
 
-**MAEVRA:** They're part of the map.
+**TORREN:** Means they mattered to whoever made the map. Doesn't tell us how.
 
-**TORREN:** Repeated along the routes.
+**ILYRA:** The damaged edge isn't helping.
 
-A beat.
-
-**CYANIS:** Helpful.
-
-**TORREN:** Eventually, maybe.
+**TORREN:** No. We copy what survived and leave the missing part missing.
 
 The damaged edge remains unresolved. Nobody invents the missing information.
 
@@ -186,19 +166,15 @@ Dunmere is **not** discovered here. It was already the party's intended destinat
 
 After the copy is finished, the relevant characters remain in the Junction scene.
 
-**MAEVRA:** Dunmere?
+**MAEVRA:** We could still make Dunmere tonight.
 
-**TORREN:** Morning.
+**TORREN:** We could. We're tired, we just fought the biggest Briarhide I've ever seen, and the road will still be there tomorrow. Morning's smarter.
 
-**CYANIS:** We're close.
-
-**TORREN:** We're tired.
-
-A beat.
-
-**TORREN:** Road'll still be there tomorrow.
+Ilyra considers that once.
 
 **ILYRA:** Morning.
+
+Cyanis looks between them.
 
 **CYANIS:** Outvoted.
 
@@ -240,16 +216,11 @@ Next mandatory story beat:
 
 ---
 
-## Presentation / canon check
+## Natural-turn / presentation check
 
-**Traversal:** Cyanis only during ordinary arrival/exploration.
-
-**Triggered scene:** relevant characters may appear at the Junction discovery.
-
-**Major physical interaction:** vegetation clearing is retained because revealing the hidden monument is the actual story event. Implementation should be one simple interaction/state change, not detailed choreography.
-
-**Dialogue:** portraits + dialogue box carry almost all character performance.
-
-**Reduction:** no individual branch-pulling beats, tools, kneeling inspections, repeated pointing, map-touching, elaborate copying animation, camera tour, or extra environmental clue chain.
-
-**Junction continuity:** Torren recognizes the crossroads, not the monument. The monument is hidden until the party clears the vines and moss, and this is his first view of its cartographic surface.
+- Torren's route/cartography expertise now arrives in complete field judgments instead of one sentence per map mark.
+- Ilyra can complete the practical water-notation inference without another character prompting every clause.
+- The Six Face discussion remains unresolved but no longer reads like a roll call of one-line observations.
+- The camp decision lets Torren give the actual reason for stopping rather than dividing it across several alternating lines.
+- Short jokes stay short.
+- No map content, Hunt unlock, Face knowledge, route state, or chapter outcome changed.
