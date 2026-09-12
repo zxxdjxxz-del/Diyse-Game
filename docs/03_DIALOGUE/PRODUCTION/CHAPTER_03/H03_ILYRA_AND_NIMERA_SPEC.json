@@ -1,0 +1,71 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_H03_ILYRA_AND_NIMERA",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 cleanup — Character-Life H03",
+  "production_ready": false,
+  "participants": ["ilyra", "nimera"],
+  "method": "guardrail_first_agent_brain_rehearsal",
+  "scene_purpose": "Give Ilyra and Nimera a genuinely fun, low-stakes Cresthaven downtime scene discovered from their personalities rather than a predetermined relationship lesson.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_CHARACTER_LIFE_H03_ILYRA_AND_NIMERA_WORKING.md",
+      "whole_file": true,
+      "role": "current_h03_structural_authority"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md",
+      "whole_file": true,
+      "role": "conversation_route_must_emerge_from_agents"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "external-services/canary/brains/ilyra.yaml",
+      "whole_file": true,
+      "role": "ilyra_agent_brain"
+    },
+    {
+      "path": "external-services/canary/brains/nimera.yaml",
+      "whole_file": true,
+      "role": "nimera_agent_brain"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Cresthaven — partially reopened supply room",
+    "area_phase": "chapter_3_cleanup",
+    "dialogue_readiness": "GREEN",
+    "runtime_note": "Ordinary downtime. No crisis. Ilyra and Nimera encounter a newly moved Crown supply crate labeled only MISC. The label and whatever mundane objects are inside may become a source of amusement or disagreement if their brains naturally care about it. This is a seed, not a required conversational route."
+  },
+  "hard_outcomes": [
+    "The scene belongs primarily to Ilyra and Nimera.",
+    "The interaction remains low-stakes, optional, and entertaining rather than plot-bearing.",
+    "No injury, treatment, trauma disclosure, consent lesson, lore exposition, or predetermined emotional breakthrough is required or manufactured.",
+    "Both women remain socially capable adults with distinct humor and opinions.",
+    "The scene ends once the interaction has landed; it does not force a sentimental conclusion."
+  ],
+  "reveal_firewall": [
+    "recent_reader_identity",
+    "seal_practitioner_identity",
+    "calder_hidden_role",
+    "royal_seal_mechanism",
+    "previous_error_meaning",
+    "last_sentinel_final_meaning",
+    "prime_recovery_or_awakening",
+    "why_yahtrean_crest_appears_on_ancient_material",
+    "cresthaven_deeper_diysean_purpose",
+    "northern_route_destination",
+    "regional_hunt_3_hidden_contents"
+  ],
+  "forbidden_conversational_choreography": [
+    "forced_bonding_speech",
+    "mentor_student_framing",
+    "ilyra_as_party_mother",
+    "nimera_as_socially_oblivious_genius",
+    "care_or_consent_lesson",
+    "plot_recap",
+    "round_robin_or_thesis_dialogue",
+    "predetermined_emotional_confession"
+  ],
+  "production_cost_ceiling": "one_short_two_character_cleanup_scene_in_an_existing_usable_cresthaven_room"
+}
