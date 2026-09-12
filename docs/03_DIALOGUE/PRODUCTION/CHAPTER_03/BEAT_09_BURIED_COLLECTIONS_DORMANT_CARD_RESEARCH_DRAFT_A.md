@@ -146,9 +146,9 @@ Cyanis, who had started to speak, closes his mouth.
 
 Nimera checks the page markers and copied references left with the books.
 
-**NIMERA:** These didn't end up together by accident. Card recovery beside seal history, with the same run of page markers through both.
+**NIMERA:** Same run of page markers through both.
 
-**ILYRA:** One person?
+**ILYRA:** One reader?
 
 Torren looks over the recent wear and movement around the shelves and table.
 
@@ -198,11 +198,11 @@ Cyanis recognizes the site material first because he has physically been there.
 
 Ilyra looks over the neighboring open volumes.
 
-**ILYRA:** They weren't researching the place by itself. Card behavior, seal work, the Westways site—somebody was putting the same cluster together we are.
+**ILYRA:** Same subjects we're chasing.
 
 Nimera follows the markers between the books.
 
-**NIMERA:** Yes. Whoever did this started connecting these things before we got here.
+**NIMERA:** Same trail.
 
 Torren looks at the table, then at the surrounding shelves.
 
@@ -244,6 +244,6 @@ Transition into:
 - inactive Cards becoming responsive and green/gold light both gain historical precedent without classifying Cyanis's Card.
 - the Six Faces appear naturally in old Card scholarship; the later Yahtrean names sit beside older marks, preserving uncertainty about exact historical meaning.
 - seal research establishes a meaningful distinction between physical impression and magical authority and references older renewal/maintenance practice, but the technique and lineage remain incomplete.
-- the recent-reader mystery emerges through Torren and Nimera initially disagreeing about whether physical disturbance is noteworthy, then converging when the subject mix proves deliberate.
-- the final table physically links Card response, luminous behavior, seal traditions, and the Westways discovery site without identifying the reader or proving responsibility for the suspect royal orders.
+- the recent-reader mystery emerges through Torren and Nimera initially disagreeing about whether physical disturbance is noteworthy, then converging when the matching page-marker pattern proves deliberate.
+- the final table physically links Card response, luminous behavior, seal traditions, and the Westways discovery site; the dialogue recognizes the shared trail without narrating the full list back to the player.
 - no Prime, Might, Last Sentinel, bearer, Ruby-state, Calder, Cresthaven, or First Command Warden reveal occurs.
