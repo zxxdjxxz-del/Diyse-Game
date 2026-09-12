@@ -75,18 +75,36 @@ No story, reveal, gameplay, Card, route, Hunt, party, or chapter-end state chang
 
 ### Chapter 2
 **Production content:** complete current working mainline + current C06.  
-**Natural-turn rhythm audit:** **NEXT / PENDING.**
+**Natural-turn rhythm audit:** **COMPLETE.**
+
+Material rhythm corrections:
+- Beat 2 — Dunmere Arrival / Missing Travelers;
+- Beat 5 — Sunken Archive Entrance;
+- Beat 6 — Western Map Mural;
+- Beat 10 — Prisoner Galleries / First Contact;
+- Beat 11 — Prisoner Safe Area / Exit Problem;
+- Beat 16 — Return to Dunmere / Road Reopened / Cleanup;
+- C06 — Still Burns.
+
+Audited and intentionally preserved as predominantly terse/mixed because the situation earns it:
+- Beats 1, 3–4, 7–9, and 12–15.
+
+Beat 3 and Beat 9 received minor consolidation while preserving their underlying cadence.
+
+Chapter 2 now has one standalone exact current dialogue authority for every mainline beat. The chapter assembly file owns order/status rather than carrying a competing duplicate transcript.
+
+No story, reveal, gameplay, Bastion, prisoner, Rhazek, road-state, or chapter-end outcome changed.
 
 ### Chapter 3
 **Production content:** complete current working production, including Beats 1–15 + H01/H03.  
 **Prior closing integration audit:** complete.  
-**Natural-turn rhythm audit:** PENDING.
+**Natural-turn rhythm audit:** **NEXT / ACTIVE.**
 
 ## Order
 > **Chapter 0 → Chapter 1 → Chapter 2 → Chapter 3**
 
 Current live target:
-> **Chapter 2**
+> **Chapter 3**
 
 ## Completion condition
 A chapter passes only when:
@@ -98,4 +116,4 @@ A chapter passes only when:
 - Canon/Knowledge Checker passes;
 - chapter authority is unambiguous after revisions.
 
-> **Content complete does not automatically mean rhythm-polished; Chapters 0 and 1 now satisfy both.**
+> **Content complete does not automatically mean rhythm-polished; Chapters 0–2 now satisfy both. Chapter 3 is the remaining retroactive rhythm audit.**
