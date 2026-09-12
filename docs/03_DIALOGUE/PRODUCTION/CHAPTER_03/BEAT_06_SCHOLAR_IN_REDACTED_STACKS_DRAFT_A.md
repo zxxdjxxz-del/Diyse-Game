@@ -102,7 +102,7 @@ She leans closer from her side.
 
 **NIMERA:** Which is much more interesting.
 
-**ILYRA:** It has reacted green and gold more than once. When it was deliberately separated from him, his pulse dropped, he started shaking, and the Card answered toward him. Putting it back stopped both.
+**ILYRA:** We separated them once. His pulse dropped, he started shaking. The Card lit green and gold toward him. We put it back; both stopped.
 
 Nimera's attention moves between Ilyra and the Card.
 
@@ -238,6 +238,7 @@ Transition into:
 - Nimera's personality emerges from the immediate barrier problem before the plot explanation reaches her.
 - Ilyra checks whether Nimera is actually hurt and accepts the answer without turning the scene into treatment.
 - the Card and seal facts enter because Nimera asks why Mirena sent them, not because the scene performs an exposition checklist.
+- Ilyra's Card-separation briefing is compressed because Nimera needs the facts but the player has already experienced them; Nimera pulls any further detail she needs through questions.
 - Nimera notices `custody record` as evidence rather than treating no recorded gap as no possible access, without turning that distinction into another authorial instruction line.
 - nobody assigns formal roles in the upcoming barrier solution.
 - the barrier remains closed and Beat 7 owns the actual attempt.
