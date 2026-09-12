@@ -52,11 +52,18 @@ When repairing a scene, prefer:
 
 ### Chapter 0
 **Production content:** complete current working production.  
-**Natural-turn rhythm audit:** PENDING.
+**Natural-turn rhythm audit:** **COMPLETE.**
+
+Audit result:
+- P01–P02 audited and intentionally retained; their clipped cadence is justified by ambush/rescue pressure.
+- P03–P07 revised selectively where speakers were yielding simply because a sentence ended.
+- C01 received the strongest cadence correction because quiet Character-Life conversation needed materially more natural floor time.
+- chapter-level manuscript and authority index synchronized after revisions.
+- no story, reveal, gameplay, Card-state, or party-state changes.
 
 ### Chapter 1
 **Production content:** complete current working production.  
-**Natural-turn rhythm audit:** PENDING.
+**Natural-turn rhythm audit:** **NEXT / PENDING.**
 
 ### Chapter 2
 **Production content:** complete current working mainline + current C06.  
@@ -73,7 +80,8 @@ Audit in chapter order unless a later explicit user direction changes priority:
 
 > **Chapter 0 → Chapter 1 → Chapter 2 → Chapter 3**
 
-This catches the cadence problem at its earliest precedent rather than patching only the newest chapter.
+Current live target:
+> **Chapter 1**
 
 ## Completion condition
 
@@ -86,4 +94,4 @@ A chapter passes only when:
 - Canon/Knowledge Checker passes;
 - the chapter-level manuscript / authority index is synchronized after any scene revisions.
 
-> **Content complete does not currently mean rhythm-polished.**
+> **Content complete does not automatically mean rhythm-polished; Chapter 0 now satisfies both.**
