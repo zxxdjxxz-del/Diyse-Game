@@ -150,69 +150,15 @@ She looks back at Ilyra.
 
 Silence.
 
-**CYANIS:** Even once?
-
-**NIMERA:** Nothing here says so.
-
-**TORREN:** Nothing says they didn't.
-
-Nimera looks at him.
-
-**NIMERA:** Also true. Less useful, but true.
-
-### [WHAT THE COPYING DOES NOT ANSWER]
-
 Cyanis looks at the most accurate copy again.
 
-**CYANIS:** Palace order had the real response.
+**CYANIS:** Could they have?
 
-**ILYRA:** Yes.
-
-**CYANIS:** And this proves somebody was trying to make a second one.
-
-Nimera's attention stays on the workbench.
-
-**NIMERA:** Trying.
-
-Cyanis nods once.
-
-**CYANIS:** Trying.
-
-A beat.
-
-**CYANIS:** Could this much magic do it?
-
-Nimera does not answer quickly.
+Nimera takes another look at the burned working.
 
 **NIMERA:** I don't know.
 
-She checks another failed piece.
-
-**NIMERA:** I've never seen a reliable account of someone duplicating the true royal response onto a copy.
-
-**TORREN:** Doesn't mean nobody has.
-
-**NIMERA:** No.
-
-**NIMERA:** It means I'm not giving whoever did this a success they haven't earned from the evidence.
-
-Ilyra looks over the remaining practice pieces.
-
-**ILYRA:** We're not testing one.
-
-**NIMERA:** Obviously.
-
-Cyanis says nothing.
-
-Ilyra looks at him.
-
-**CYANIS:** I wasn't going to touch it.
-
-**ILYRA:** Good.
-
-**CYANIS:** I was going to ask.
-
-**ILYRA:** Better.
+That is enough. Nobody repeats the distinction in different wording.
 
 ### [THE WORKING TRAIL]
 
@@ -240,13 +186,13 @@ Torren glances back toward the chamber entrance.
 
 Nimera considers it.
 
-**NIMERA:** Same question led here.
+**NIMERA:** Maybe.
 
-A beat.
+**TORREN:** That's all?
 
-**NIMERA:** That's not the same as the same person.
+**NIMERA:** That's all I have.
 
-**TORREN:** Fair.
+Torren accepts it.
 
 ### [THE RUBY CARD HOLDS]
 
@@ -328,14 +274,12 @@ Transition into:
 
 - The current seal-copying correction controls over the superseded older Beat-12 route-relief concept. No new map or north-route evidence appears.
 - The room's physical practice sequence carries most of the exposition: Ancient copies become older Yahtrean copies, then royal-document seals, then repeated Crest of Yahtrea attempts.
-- The Crest of Yahtrea is the visible Yahtrean royal seal.
 - Cyanis recognizes the late-stage Crest work naturally through familiarity rather than receiving a terminology lecture.
 - Later visual copies are highly accurate, but visible accuracy is kept distinct from the genuine magical authority response.
-- Burned / repeated binding work establishes that unusually powerful magic was used in serious attempts to make the copies do more than leave the correct mark.
-- Nothing proves any attempt successfully reproduced Lysara's genuine royal authority response.
-- Nimera refuses to award success where evidence only proves attempts; the scene does not make her recite every forbidden possibility.
+- Burned / repeated binding work establishes unusually powerful magical effort.
+- The scene states the central evidence boundary once: the party can prove the visible copies and the attempts to make them magically meaningful, but not successful reproduction of Lysara's authority response.
 - The recent reader and seal practitioner may be connected, but Beat 12 does not prove they are the same person.
-- The practitioner remains unidentified and is not proven to have authored the suspect Card transport orders.
+- the practitioner remains unidentified and is not proven to have authored the suspect Card transport orders.
 - Cyanis's Card remains stable deep Ruby with no transformation, Prime recovery, manifestation, identification, or gameplay unlock.
-- The party does not test, activate, or create a copied royal seal.
-- On exit, the Old City field section ends immediately and the story cuts directly to Beat 13's private meeting with Mirena.
+- the party does not test, activate, or create a copied royal seal.
+- on exit, the Old City field section ends immediately and the story cuts directly to Beat 13's private meeting with Mirena.
