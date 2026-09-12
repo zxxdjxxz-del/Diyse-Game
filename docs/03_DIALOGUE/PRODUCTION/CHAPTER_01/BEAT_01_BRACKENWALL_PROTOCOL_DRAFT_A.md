@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 1
 # Brackenwall / Protocol
-## DIALOGUE ENGINE PRODUCTION DRAFT E — Maevra injury continuity + established gameplay presentation / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT E — NATURAL-TURN RHYTHM PASS / awaiting user approval
 
 ---
 
@@ -24,45 +24,25 @@ The Card is dark.
 
 The custody officer, Cyanis, and Ilyra are present in the intake area. Simple field placement only; portraits carry the conversation.
 
-**CUSTODY OFFICER:** That's it?
+**CUSTODY OFFICER:** That's it? The thing that was in the recovery casing?
 
-**CYANIS:** That's it.
+**CYANIS:** That's it. Casing didn't make it through the last fight.
 
-**CUSTODY OFFICER:** This was inside the recovery casing?
+**ILYRA:** Card did. No visible damage that we could establish in the field.
 
-**CYANIS:** Until the fight.
+**CUSTODY OFFICER:** Better than the other way around. What did it actually do?
 
-**ILYRA:** Card survived. Casing didn't.
+**ILYRA:** Twice, green-and-gold geometry spread out from it and held damaged structure together around our position for a few seconds. Both times Cyanis changed with it—pulse, tremor, dizziness afterward. We don't know why.
 
-**CUSTODY OFFICER:** Better than the other way around.
+**CYANIS:** For the record, I contributed by being present.
 
-**CYANIS:** Considerably.
+**ILYRA:** You did that very well.
 
-**CUSTODY OFFICER:** What did it do?
+The custody officer looks to Cyanis.
 
-**ILYRA:** Green and gold light. Geometry. It held damaged structure together around us for a few seconds.
+**CUSTODY OFFICER:** Anything still wrong now?
 
-**CUSTODY OFFICER:** Around the Card?
-
-**ILYRA:** Him.
-
-**CYANIS:** I wasn't helping.
-
-**ILYRA:** You were present.
-
-**CYANIS:** I did that very well.
-
-**CUSTODY OFFICER:** And afterward?
-
-**ILYRA:** Bad pulse. Tremor. Dizzy.
-
-**CYANIS:** Briefly.
-
-**ILYRA:** Mostly briefly.
-
-**CUSTODY OFFICER:** Anything now?
-
-**CYANIS:** Head's clear.
+**CYANIS:** Head's clear. Nothing I can feel.
 
 A beat.
 
@@ -76,27 +56,27 @@ This is one required physical story action. No extra prop choreography is needed
 
 After only a short distance, Cyanis visibly falters.
 
-**ILYRA:** Stop.
+**ILYRA:** Stop. Cyanis, don't move yet.
 
 A thin green-gold line wakes across the Card and reaches toward Cyanis.
 
 Ilyra checks him; this may be represented minimally while the portraits carry the exchange.
 
-**CYANIS:** Don't.
+**CYANIS:** Don't start counting.
 
-**ILYRA:** I'm counting.
+**ILYRA:** Already am.
 
 **CYANIS:** That's somehow worse.
 
-**CUSTODY OFFICER:** Coming back.
+The custody officer has seen enough.
+
+**CUSTODY OFFICER:** Bringing it back. We're not learning anything useful by making him worse.
 
 The officer brings the Card back toward Cyanis.
 
 The line retracts and goes dark. Cyanis steadies.
 
-**CUSTODY OFFICER:** Right.
-
-**CUSTODY OFFICER:** That's finished.
+**CUSTODY OFFICER:** Right. Storage transfer's finished until someone smarter than me can explain that.
 
 **CYANIS:** Good.
 
@@ -126,63 +106,39 @@ Her arm is already set in a practical field splint. The injury happened during t
 
 Relevant characters may be visible as simple field models because this is a triggered hub scene.
 
-**MAEVRA:** Dovaren.
+**MAEVRA:** Dovaren. Amarin.
 
 **CYANIS:** Commander.
 
-**MAEVRA:** Amarin.
+**ILYRA:** Commander. That splint needs changing before we leave.
 
-**ILYRA:** Commander.
+**MAEVRA:** Hello to you too.
 
-A beat.
+**CYANIS:** Broken in the convoy?
 
-**CYANIS:** Arm?
+**MAEVRA:** Yeah. And before either of you starts, I'm traveling. I'm not fighting.
 
-**MAEVRA:** Broken.
-
-**ILYRA:** Since the convoy?
-
-**MAEVRA:** Yeah.
-
-**ILYRA:** I'll change the splint before we leave.
+**ILYRA:** Fine. You're still getting a fresh splint.
 
 **MAEVRA:** Can't wait.
 
-**CYANIS:** And you're traveling.
-
-**MAEVRA:** I'm not fighting.
-
 That is enough to establish the Chapter-1 injury state. The scene does not stop for a medical explanation.
 
-**CUSTODY OFFICER:** Tried to take the Card inside. He went pale, it lit. Brought it back, both stopped.
+**CUSTODY OFFICER:** We tried taking the Card into storage. Dovaren went pale before I got far; the Card lit and reached back toward him. I returned it and both stopped.
+
+Maevra looks to Ilyra.
 
 **MAEVRA:** How bad?
 
-**ILYRA:** Bad enough.
+**ILYRA:** Bad enough that I don't want the distance tested again just to see where the line is. He recovered quickly when it came back, but that's all I can support.
 
-**CYANIS:** I am standing here.
+**CYANIS:** Also, very much not interested in a second trial.
 
-**ILYRA:** I know.
-
-**MAEVRA:** Any reason to try it again?
-
-**CUSTODY OFFICER:** No.
-
-**ILYRA:** No.
-
-**CYANIS:** Very much no.
-
-**MAEVRA:** Great. Love consensus.
-
-**MAEVRA:** It stays with Dovaren for now. Nobody gets curious with the distance.
+**MAEVRA:** Great. Love consensus. It stays with Dovaren for now, and nobody gets curious about how far away it can go.
 
 **CUSTODY OFFICER:** Fine by me.
 
-**MAEVRA:** Brackenwall isn't equipped for this.
-
-**CYANIS:** Caelora.
-
-**MAEVRA:** Caelora.
+**MAEVRA:** Brackenwall isn't equipped for this anyway. Caelora is.
 
 **CYANIS:** That was the plan before it developed opinions.
 
@@ -194,49 +150,31 @@ That is enough to establish the Chapter-1 injury state. The scene does not stop 
 
 **CYANIS:** That's not helpful.
 
-**ILYRA:** I wasn't helping.
+**ILYRA:** I don't think she was trying to help.
 
 The conversation shifts to the existing route information for the area. No bespoke map interaction animation is needed.
 
-**MAEVRA:** We don't go straight from here.
-
-**CYANIS:** Why not?
-
-**MAEVRA:** Because I can get us to Greenhollow without gambling.
-
-**MAEVRA:** After Greenhollow, I want Torren Harth.
+**MAEVRA:** We don't go straight from here. I can get us to Greenhollow without gambling on reports I don't trust, and after Greenhollow I want Torren Harth before we push farther south.
 
 **ILYRA:** Guide?
 
-**MAEVRA:** When he's being paid, yes.
-
-**CYANIS:** And when he isn't?
-
-**MAEVRA:** Annoyingly similar.
+**MAEVRA:** When he's being paid, yes. When he isn't, annoyingly similar. Briar changes faster than reports do; Torren actually walks it.
 
 **CYANIS:** You trust him.
 
-**MAEVRA:** With roads.
+**MAEVRA:** With roads, completely. Most other things too, though I'd deny saying that if he were standing here.
 
 A beat.
 
-**MAEVRA:** Most other things too.
+**MAEVRA:** Greenhollow first. Torren second. Then south toward Caelora.
 
-**MAEVRA:** Briar changes. Reports don't keep up. Greenhollow first, then Torren, then south.
+**ILYRA:** And you're traveling the whole way with that arm.
 
-**ILYRA:** You're traveling?
+**MAEVRA:** That's the current plan.
 
-**CYANIS:** Apparently under supervision.
+**CYANIS:** Apparently we're all under supervision now.
 
-**ILYRA:** Good.
-
-**CYANIS:** You were coming anyway.
-
-**ILYRA:** Yes.
-
-A beat.
-
-**ILYRA:** Drink some water before we leave.
+**ILYRA:** Good. Drink some water before we leave.
 
 **CYANIS:** This is becoming a hostile workplace.
 
@@ -283,14 +221,11 @@ Next mandatory story beat:
 
 ---
 
-## Presentation check
+## Natural-turn / presentation check
 
-**Hub rule:** Brackenwall may contain visible party/NPC field models. This does not conflict with the Cyanis-only rule for ordinary route/dungeon/wilderness traversal.
-
-**Dialogue rule:** portraits + dialogue box carry most performance. Field models use simple placement rather than constant gestures.
-
-**Maevra injury:** established once, clearly. Her field model/portrait state should retain the splint whenever visible in Chapter 1. Later scenes do not need to keep explaining it.
-
-**Required physical actions only:** the Card transfer, Cyanis's brief reaction, the Card's green-gold line, the return of the Card, and the visible Maevra splint state are the only specifically authored physical information needed here.
-
-**Continuity:** the Card casing remains destroyed after Chapter 0.
+- Brackenwall's safe-hub setting now permits fuller custody, medical, and route-planning turns rather than one-sentence handoffs.
+- The Card-separation event itself remains terse because the physical reaction is immediate.
+- Maevra's route explanation now reads as one competent planning thought instead of several prompted fragments.
+- Ilyra gives a complete bounded medical assessment without becoming an exposition device.
+- No story, knowledge, injury, Card, route, party, or gameplay state changed.
+- Portraits + dialogue box remain the primary performance layer; only story-required physical actions are authored.
