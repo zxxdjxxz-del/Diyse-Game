@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 7
 # Lower Junction / Six Channels
-## DIALOGUE ENGINE PRODUCTION DRAFT D — chapter-wide dialogue polish + established gameplay presentation / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT D — NATURAL-TURN RHYTHM PASS / awaiting user approval
 
 ---
 
@@ -34,37 +34,31 @@ No geographic map, falling-fire imagery, Junction monument, written explanation,
 
 The relevant characters may appear as simple field models in the chamber. Portraits and the dialogue box carry the conversation.
 
-**ILYRA:** That's a litter.
+Ilyra gets the first useful read because the relief includes people being carried.
 
-**CYANIS:** Wounded?
+**ILYRA:** That's a litter. Could be wounded, could be sick. Either way, this wasn't built only for soldiers.
 
-**ILYRA:** Or sick.
+Maevra takes in the rest of the band.
 
-**MAEVRA:** Children too.
+**MAEVRA:** Children. Handcarts. Animals too.
+
+Torren has been following the direction of the figures rather than the individual subjects.
+
+**TORREN:** Some are going in. Some are coming back out. And it's not one passage—people are using all six.
 
 A beat.
-
-**TORREN:** Those are going in.
-
-Another beat.
-
-**TORREN:** Those are coming out.
 
 **CYANIS:** Evacuation?
 
-**MAEVRA:** Not a simple one.
+**MAEVRA:** Maybe. But not a simple run-for-cover scene if people are coming the other way too.
 
-**ILYRA:** Could be more than one moment.
+**ILYRA:** Could be different moments laid together. Could be ordinary movement. We don't have enough to pick one.
 
 Torren keeps looking at the relief.
 
-**TORREN:** Carts. Animals. Six passages.
+**TORREN:** Whatever the reason, this place moved a lot of people. That's the useful part.
 
-A beat.
-
-**TORREN:** People used this place a lot.
-
-**CYANIS:** A lot of people.
+**CYANIS:** A lot of civilians.
 
 That is enough. Nobody names the ancient system or settles what the passages were for.
 
@@ -92,15 +86,11 @@ At the channel carrying the Black Host breach farther inward, movement pauses an
 
 **CYANIS:** They tried the others first.
 
-**MAEVRA:** Then this one opened.
-
-**ILYRA:** And they kept going after the Sentries.
-
-A beat.
+**MAEVRA:** Then this one gave them a way through. They kept pushing after the Sentries, so whatever they wanted is still farther in.
 
 **TORREN:** So do we.
 
-**MAEVRA:** Carefully.
+**ILYRA:** Carefully.
 
 Scene ends.
 
@@ -133,16 +123,10 @@ Next mandatory story beat: **Beat 8 — Forced Inner Section.**
 
 ---
 
-## Presentation / dialogue check
+## Natural-turn / presentation check
 
-**Traversal:** Cyanis only during ordinary lower-junction exploration.
-
-**Triggered scenes:** the relevant cast may appear as field models for the relief discussion and route-onward stop.
-
-**Dialogue:** portraits + dialogue box carry nearly all performance.
-
-**Knowledge-firewall polish:** the old `maybe / could be / could still be / could be both` ladder is gone. The cast reacts to what is actually visible, disagrees only as much as natural people would, and leaves the original function unresolved without sounding like they are policing canon.
-
-**Transition polish:** removed the second `Ready? / Yes / Yeah / Go` sequence. The route-onward exchange now ends once the decision lands.
-
-**Required visual retained:** one six-channel chamber and the one human-use relief band remain because they are the actual story discovery.
+- The discovery no longer assigns one visible detail to one speaker in checklist order.
+- Ilyra, Maevra, and Torren each hold the floor long enough to complete the observation their expertise or attention actually supports.
+- The mystery remains unresolved without a `maybe / could be / could still be` ping-pong ladder.
+- The route-onward decision is similarly compressed into complete thoughts rather than four one-line confirmations.
+- No story, reveal, Card, route, or party state changed.
