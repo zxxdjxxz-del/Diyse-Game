@@ -84,7 +84,7 @@ Lysara's attention shifts to Cyanis.
 
 **LYSARA:** By necessity or preference?
 
-**ILYRA:** Necessity is safer. We only tested separation once on purpose. His pulse went bad, he started shaking, and the Card answered green and gold toward him. Returning it stopped the response.
+**ILYRA:** Necessity. We separated them once. His pulse dropped and he started shaking. The Card lit green and gold toward him. We put it back; both stopped.
 
 **CYANIS:** I was going to say preference, but apparently I would've been wrong. We decided curiosity had limits.
 
@@ -126,6 +126,7 @@ Transition directly into:
 - Ilyra speaks specifically where prisoner condition/testimony provenance belongs to her firsthand role and is allowed to finish the linked testimony/condition thought.
 - Torren owns route and mural evidence and distinguishes copied fact from interpretation without being interrogated one clause at a time.
 - Lysara no longer repeats evidence the room has already heard. She asks for certainty where royal judgment needs it, accepts bounded answers, and closes lines of inquiry decisively.
+- the Card-separation history is a necessary new-listener briefing for the royal room, but it is compressed to consequence and result rather than replaying the prior scene.
 - Mirena notices the Old City as a future evidence source without jumping ahead to Nimera.
 - Calder behaves as a credible Chancellor: provenance, records, routing, and documentation matter to him. His deliberate transport minimization is held for Beat 3.
 - the exact modern Yahtrean Crest on the northern Ancient structure is unmistakable but unexplained.
