@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 1
 # Brackenwall / Protocol
-## DIALOGUE ENGINE PRODUCTION DRAFT E — NATURAL-TURN RHYTHM PASS / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT E — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT / awaiting user approval
 
 ---
 
@@ -124,13 +124,13 @@ Relevant characters may be visible as simple field models because this is a trig
 
 That is enough to establish the Chapter-1 injury state. The scene does not stop for a medical explanation.
 
-**CUSTODY OFFICER:** We tried taking the Card into storage. Dovaren went pale before I got far; the Card lit and reached back toward him. I returned it and both stopped.
+**CUSTODY OFFICER:** Storage failed. Moving the Card away made Dovaren sick; bringing it back stopped both his symptoms and the Card's response.
 
 Maevra looks to Ilyra.
 
 **MAEVRA:** How bad?
 
-**ILYRA:** Bad enough that I don't want the distance tested again just to see where the line is. He recovered quickly when it came back, but that's all I can support.
+**ILYRA:** Bad enough. He's stable now. Don't test the distance again.
 
 **CYANIS:** Also, very much not interested in a second trial.
 
@@ -221,11 +221,11 @@ Next mandatory story beat:
 
 ---
 
-## Natural-turn / presentation check
+## Audit check
 
-- Brackenwall's safe-hub setting now permits fuller custody, medical, and route-planning turns rather than one-sentence handoffs.
+- Brackenwall's safe-hub setting permits fuller custody, medical, and route-planning turns rather than one-sentence handoffs.
 - The Card-separation event itself remains terse because the physical reaction is immediate.
-- Maevra's route explanation now reads as one competent planning thought instead of several prompted fragments.
-- Ilyra gives a complete bounded medical assessment without becoming an exposition device.
+- When Maevra arrives, the player does not hear the just-seen transfer attempt narrated back in full. The custody officer gives the consequence; Ilyra gives the current medical boundary.
+- Maevra's route explanation reads as one competent planning thought instead of several prompted fragments.
 - No story, knowledge, injury, Card, route, party, or gameplay state changed.
 - Portraits + dialogue box remain the primary performance layer; only story-required physical actions are authored.
