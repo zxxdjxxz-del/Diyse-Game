@@ -37,9 +37,8 @@ New-listener briefings must be compressed to what the listener actually needs; t
 Retroactive rhythm audit tracker:
 - `CHAPTER_0_3_NATURAL_TURN_RHYTHM_AUDIT_TRACKER.md`
 
-**Retroactive Chapters 0–3 rhythm audit status: COMPLETE.**
-
-Chapter 3 has additionally completed the first dedicated spoken-dialogue / narration audit under the new lock. That audit is mandatory from the first production pass for Chapter 4 onward.
+**Retroactive Chapters 0–3 natural-turn rhythm audit status: COMPLETE.**  
+**Retroactive Chapters 0–3 spoken-dialogue / narration audit status: COMPLETE.**
 
 Walking-dialogue lock:
 - `AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`
@@ -68,12 +67,12 @@ Retired/superseded development IDs do not reserve numbers. Some atomic filenames
 
 | Chapter | Current status | Chapter-level dialogue authority |
 |---|---|---|
-| Ch0 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — P01–P07 + optional C01 | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
-| Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — Beats 1–15 + C02/C03/C04 | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
-| Ch2 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — Beats 1–16 + C05 | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
+| Ch0 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE** — P01–P07 + optional C01; atomic files current, combined read-through stale for revised scenes | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` |
+| Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE** — Beats 1–15 + C02/C03/C04; atomic files current, combined read-through stale where flagged | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` |
+| Ch2 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE** — Beats 1–16 + C05; atomic files current, combined read-through stale where flagged | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` |
 | Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; CLOSING INTEGRATION + NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE** — Beats 1–15 + C06/C07; atomic files current, combined read-through stale where flagged | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` |
 
-These four chapter folders are the correct live production locations.
+These four chapter folders are the correct live production locations. Where a combined manuscript's embedded SHA differs from the current atomic source, the atomic source is the exact wording authority.
 
 ---
 
@@ -88,12 +87,18 @@ Authority index:
 Current sequence:
 > **P01 → P02 → P03 → P04 → P05 → P06 → P07 → optional C01 `Six Minutes` → explicit departure to Brackenwall**
 
-Natural-turn audit: **COMPLETE.**
+Natural-turn audit: **COMPLETE.**  
+Spoken-dialogue / narration audit: **COMPLETE.**
 
-Key result:
-- P01–P02 intentionally retain crisis shorthand;
-- P03–P07 selectively revised;
-- C01 received the strongest quiet-scene rhythm correction.
+Spoken-vs-narration material revisions:
+- **P03** — the north-cut suspicion is not re-explained to the same officer; Cyanis answers what changed operationally.
+- **P07** — Ilyra states the decision to stay once and supplies the reason only when Cyanis challenges it.
+
+Audited and intentionally retained:
+- P01, P02, P04–P06, C01.
+
+Combined read-through:
+- `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **stale for P03/P07 after this audit.**
 
 ---
 
@@ -105,23 +110,34 @@ Folder:
 Authority index:
 - `CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md`
 
-Synchronized read-through:
-- `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
-
 Canonical Character-Life scenes:
 - **C02 — Torren's Version of Dinner**;
 - **C03 — What the Map Says**;
 - **C04 — Not Professionally**.
 
-Natural-turn audit: **COMPLETE.**
+Natural-turn audit: **COMPLETE.**  
+Spoken-dialogue / narration audit: **COMPLETE.**
 
-Material revisions:
-- Beats 1, 3, 7, 10, 11, 14;
-- canonical C02, C03, C04.
+Spoken-vs-narration material revisions:
+- Beats **1, 3, 5, 6, 7, 10, 11**.
+
+Key result:
+- new-listener Card briefings are consequence-first rather than replayed chronologically;
+- Hollow Watch occupation/excavation staging carries information the environment can show;
+- the six-channel relief and mural stay visual-first instead of being read aloud as checklists;
+- the Hollow Watch resolution reports what Greenhollow needs, not the chapter back to the people who lived it.
+
+Audited and intentionally retained:
+- Beats 2, 4, 8–9, 12–15 and canonical C02/C03/C04.
 
 Protected **C03** anchor remains exact:
 - Cyanis: `Old slut?`
 - Torren: `Bitch.`
+
+Known Beat-14 Face-list wording remains source-controlled and is not silently changed by this dialogue audit.
+
+Combined read-through:
+- `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **requires resynchronization after atomic dialogue and prior numbering revisions.**
 
 ---
 
@@ -133,20 +149,30 @@ Folder:
 Authority index:
 - `CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md`
 
-Synchronized read-through:
-- `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
-
 Current state:
 - all sixteen mainline beats have one standalone exact current dialogue authority;
-- **C05 — Still Burns** — is current cleanup Character-Life dialogue.
+- **C05 — Still Burns** is current cleanup Character-Life dialogue.
 
-Natural-turn audit: **COMPLETE.**
+Natural-turn audit: **COMPLETE.**  
+Spoken-dialogue / narration audit: **COMPLETE.**
 
-Material revisions:
-- Beats 2, 5, 6, 10, 11, 16;
-- canonical C05.
+Spoken-vs-narration material revisions:
+- Beats **5, 6, 10, 13, 16**.
+
+Key result:
+- Archive staging carries visible organization/forcing evidence while Ilyra and Torren supply only distinct interpretation;
+- prisoner testimony is not paraphrased three times after the witnesses establish the facts;
+- Rhazek no longer narrates the player's dungeon progress back to the party;
+- Dunmere's final debrief is consequence-first rather than a beat-by-beat Chapter-2 recap;
+- the elder's thematic summary is reduced to the character-appropriate `Both matter.`
+
+Audited and intentionally retained:
+- Beats 1–4, 7–9, 11–12, 14–15 and C05.
 
 Core outcomes remain unchanged: current prisoners rescued, Rhazek loses the Old Bastion locally but survives a credible withdrawal, earlier transferred captives remain unresolved, Greenhollow ↔ Dunmere travel reopens, and Chapter 3 begins only through explicit player confirmation.
+
+Combined read-through:
+- `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **requires resynchronization after atomic dialogue and prior numbering revisions.**
 
 ---
 
@@ -159,7 +185,7 @@ Authority index:
 - `CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md`
 
 Combined read-through:
-- `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **currently stale for the revised atomic scenes identified by the authority index; do not use stale embedded sections over current atomic files.**
+- `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **currently stale for revised atomic scenes identified by the authority index.**
 
 Prior closing integration audit:
 - `CHAPTER_03_DIALOGUE_CLOSING_INTEGRATION_AUDIT_2026-09-12.md`
@@ -176,7 +202,7 @@ Spoken-vs-narration material revisions:
 - Beats 2, 3, 4, 6, 9, 10, 12, 13, 15.
 
 Key result:
-- Lysara now receives reports as a queen: she tests certainty, judges, sets boundaries, and orders rather than repeating information already established;
+- Lysara tests certainty, judges, sets boundaries, and orders rather than repeating information already established;
 - Mirena converts evidence into investigation choices rather than narrating clue stacks;
 - visible evidence progression remains in staging when dialogue would only repeat it;
 - Nimera retains real evidentiary explanations when only she can responsibly establish the distinction;
