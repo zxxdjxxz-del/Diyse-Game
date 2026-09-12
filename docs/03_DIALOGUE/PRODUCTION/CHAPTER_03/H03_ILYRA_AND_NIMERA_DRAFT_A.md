@@ -271,19 +271,19 @@ Nimera looks at the spoon still sitting alone beside the crate.
 
 **NIMERA:** I hate you a little.
 
-**ILYRA:** No, you don't.
+Ilyra glances back at the new label.
 
-Ilyra exits.
+**ILYRA:** Needs a better category.
 
-Nimera considers that.
+She exits.
 
-**NIMERA:** Annoyingly unsupported claim.
+Nimera stares after her for a beat.
 
-A beat.
+Then looks at the spoon.
 
-She picks up the spoon.
+**NIMERA:** Fucking miscellaneous.
 
-**NIMERA:** Still probably true.
+She drops it back into the original crate.
 
 Fade / return to cleanup gameplay.
 
@@ -296,6 +296,7 @@ Fade / return to cleanup gameplay.
 - Ilyra is playful and mildly antagonistic here; she is not treating, counseling, parenting, or managing Nimera.
 - Nimera is socially functional and knows when Ilyra is deliberately provoking her.
 - Their warmth is conveyed through voluntary continued engagement, teasing, laughter, and the fact that neither needs to soften the exchange into a sentimental explanation.
+- the closing exchange no longer repeats Chapter 2's existing `I hate you / no you don't` joke structure; it returns to H03's classification premise instead.
 - No main-story clue, Card event, Ancient revelation, seal information, or Hunt information is introduced.
 - No fixed personal preference is established for either woman beyond behavior already supported by their current brains.
 - The scene gets out once the classification joke and their chemistry have landed.
