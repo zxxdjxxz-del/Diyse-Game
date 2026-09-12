@@ -65,7 +65,7 @@
     "location_name": "Caelora palace — private meeting room",
     "area_phase": "post_old_city_private_debrief",
     "dialogue_readiness": "GREEN",
-    "runtime_note": "Cut directly here from the Sealwright Chamber exit. Queen Lysara is not present. Mirena is receiving the four-person party privately; Maevra is present because she remained in Caelora with Mirena working the Crown-side seal and document trail. Keep the scene conversational and selective rather than recapping every Old City beat in sequence."
+    "runtime_note": "Cut directly here from the Sealwright Chamber exit. Queen Lysara is not present. Mirena is receiving the four-person party privately; Maevra is present because she remained in Caelora with Mirena working the Crown-side seal and document trail. Keep the scene conversational and selective rather than recapping every Old City beat in sequence. Maevra's dialogue density should stay low: she may supply the concise Crown-side custody result or a natural question, but she must not become a co-debriefer, bridge narrator, or explainer of implications Mirena can reach herself."
   },
   "current_floor_state": {
     "field_party": "cyanis_ilyra_torren_nimera",
@@ -79,13 +79,13 @@
   },
   "hard_outcomes": [
     "Mirena receives the party privately; Lysara is not present.",
-    "The Old City evidence is conveyed selectively enough for Mirena and Maevra to understand the changed threat picture: a recent researcher/practitioner had access to restricted Old City material, someone practiced increasingly sophisticated seal copies culminating in the Crest of Yahtrea, powerful magic was used, and no evidence proves a copied seal reproduced Lysara's genuine magical response.",
+    "The Old City evidence is conveyed selectively enough for Mirena to understand the changed threat picture: a recent researcher/practitioner had access to restricted Old City material, someone practiced increasingly sophisticated seal copies culminating in the Crest of Yahtrea, powerful magic was used, and no evidence proves a copied seal reproduced Lysara's genuine magical response.",
     "The Warden's PREVIOUS ERROR / LAST SENTINEL CONFIRMED sequence and the Card's subsequent stable deep Ruby state are reported without resolving what Last Sentinel refers to or classifying the Card.",
-    "Maevra contributes only Crown-side findings she could have learned while remaining in Caelora; she does not speak as a witness to Old City events.",
+    "Maevra contributes only Crown-side findings she could have learned while remaining in Caelora; her contribution should be concise and need not extend beyond the unresolved custody result unless another line emerges naturally. She does not speak as a witness to Old City events or explain the combined investigation back to the room.",
     "Mirena's concern resolves to a practical political conclusion: the larger problem appears to involve meaningful access to restricted Crown or archive pathways together with unusually powerful magic, and ordinary channels may not all be trustworthy.",
     "Mirena asks Cyanis, Ilyra, Torren, and Nimera to continue helping her investigate directly; the request is not conscription, containment, punishment, or surveillance of Cyanis.",
     "The party agrees without requiring a loyalty speech or four separate verbal confirmations.",
-    "The existing Chapter-2 copied Ancient map/mural evidence is brought into the discussion; no new map is discovered in Beat 13.",
+    "The existing Chapter-2 copied Ancient map/mural evidence is brought into the discussion by the field party; no new map is discovered in Beat 13.",
     "Mirena recognizes the exact Crest of Yahtrea on the far older northern marked structure as historically impossible / deeply wrong and, using present geography and Crown knowledge, says she thinks the marked location is Cresthaven.",
     "Cresthaven becomes the next practical lead without explaining why the Yahtrean Crest appears on an Ancient source or what lies farther north.",
     "Beat 13 hands into the required rest-before-departure structure of Beat 14."
@@ -109,6 +109,8 @@
     "round_robin_debrief_where_each_party_member_reports_one_assigned_fact",
     "full_chronological_recap_of_beats_9_through_12",
     "mirena_summarizes_the_entire_plot_back_to_the_party",
+    "maevra_serves_as_co_debriefer_or_explains_combined_implications_already_available_to_mirena",
+    "maevra_introduces_or_explains_the_existing_chapter_2_map_as_if_it_were_her_field_evidence",
     "characters_recite_reveal_firewalls",
     "four_separate_lines_confirming_the_party_agrees_to_help",
     "maevra_claims_to_have_seen_old_city_events",
