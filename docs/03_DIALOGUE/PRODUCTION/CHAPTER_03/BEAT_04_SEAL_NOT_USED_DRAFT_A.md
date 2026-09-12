@@ -1,217 +1,213 @@
 # Chapter 3 — Beat 4
 # The Seal That Wasn't Used
-## DIALOGUE ENGINE PRODUCTION DRAFT A — rehearsal-first Agent-Brain pass / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT A — CLOSING-AUDIT AGENT-BRAIN RERUN
+
+**Method note:** fresh rehearsal under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The structural authority supplied the verification-room situation, hard findings, investigation split, and reveal firewalls. It did not prescribe speaker order, evidence-checklist dialogue, or which character had to verbalize each remaining possibility.
 
 ---
 
 ### [STORY TRIGGER — ROYAL VERIFICATION ROOM]
 
-The investigation moves out of the audience chamber into the palace's restricted verification / seal-custody space.
+The investigation moves out of the audience chamber into the palace's restricted verification / seal-custody room.
 
-This is a practical administrative room, not a sinister vault. Relevant Crown staff may be present to produce records and the seal, but the scene does not turn them into suspects or a voiced interrogation lineup.
+This is a practical Crown workspace, not a sinister vault. Necessary staff produce records and the Queen's physical seal, then recede from the conversation.
 
-Queen Lysara, Mirena, Othmar Calder, Maevra, Cyanis, Ilyra, and Torren remain present.
+Present:
+- Queen Lysara;
+- Mirena;
+- Othmar Calder;
+- Maevra;
+- Cyanis;
+- Ilyra;
+- Torren.
 
-Portraits + dialogue box carry the scene. Physical staging is limited to producing the seal, legitimate comparison documents, the suspect orders, and custody records.
+The actual royal seal is set before Lysara.
 
-The Queen's personal physical seal is produced under normal procedure.
+She looks at it once.
 
-**LYSARA:** That's mine.
+**LYSARA:** Mine.
 
-**MIRENA:** Anything wrong with it?
+Othmar checks the casing, face, and documented custody condition.
 
-**OTHMAR:** Nothing visible.
+**OTHMAR:** No visible replacement. No reported damage.
 
-**LYSARA:** Visible isn't enough.
+**LYSARA:** Test it.
 
-A recent legitimate royal order that Lysara unquestionably remembers authorizing is brought forward for comparison.
+A legitimate recent order Lysara remembers authorizing is brought forward.
 
-**LYSARA:** This one I signed.
+The seal answers under normal Crown verification with the expected magical authority response.
 
-**MIRENA:** And sealed?
-
-**LYSARA:** Personally.
-
-The normal verification is performed.
-
-The legitimate order answers with the expected magical authority response.
+Othmar watches the response settle.
 
 **OTHMAR:** Normal.
 
-**LYSARA:** Again, plainly.
+Mirena looks from the seal to the suspect Card-transport order.
 
-**OTHMAR:** Your seal is present, intact, and answering as it should for you.
+**MIRENA:** Same check.
 
-A beat.
+The suspect order is tested.
 
-**CYANIS:** So the easy answer's dead.
+The same recognized core authority response answers from the document.
 
-**TORREN:** One of them.
+The room goes quiet.
 
-### [COMPARISON]
+**CYANIS:** That's inconvenient.
 
-The legitimate order and the suspect Card-transport authorization are checked under the same recognized Crown practice.
+**MIRENA:** That's one word for it.
 
-The suspect order again produces the same recognized core royal authority character.
+**LYSARA:** Othmar.
 
-**MIRENA:** Same response.
+**OTHMAR:** The response is genuine by every Crown check we use.
 
-**OTHMAR:** Same recognized authority, yes.
+**LYSARA:** And the seal in front of us still works for me.
 
-**ILYRA:** Not proof the seal itself touched both documents.
+**OTHMAR:** Yes.
 
-**OTHMAR:** Correct.
+Lysara looks at the suspect order again.
 
-**LYSARA:** Good. Keep that distinction.
+**LYSARA:** Fine.
 
-**MIRENA:** But a copied Crest still doesn't explain it.
+It is very clearly not fine.
+
+### [CUSTODY]
+
+Othmar pulls the custody ledger closer.
+
+Mirena has already been reading the recent-use record.
+
+**MIRENA:** Nothing missing?
+
+**OTHMAR:** Not on paper.
+
+Torren looks up at that wording.
+
+Othmar notices.
+
+**OTHMAR:** Yes, Harth. On paper.
+
+Torren nods once and leaves it there.
+
+Maevra scans the dates.
+
+**MAEVRA:** Any stretch where it could've left and come back before the next recorded use?
+
+**OTHMAR:** Nothing clean.
+
+**MIRENA:** Clean isn't the same as none.
 
 **OTHMAR:** No.
 
-### [CUSTODY REVIEW]
+Lysara folds her hands on the table.
 
-The custody ledger and recent legitimate-use records are reviewed.
+**LYSARA:** Can any of you tell me whether someone reached this seal without being recorded?
 
-Keep this concise. The important result is that the records are ordinary enough to be frustrating.
-
-**MIRENA:** Any time it was reported missing?
+No one answers immediately.
 
 **OTHMAR:** No.
 
-**MAEVRA:** Damaged?
+**LYSARA:** Can any of you tell me they had to?
+
+Another silence.
 
 **OTHMAR:** No.
 
-**LYSARA:** Unscheduled transfer?
+**LYSARA:** Good. Then we don't invent certainty because I dislike the alternatives.
 
-**OTHMAR:** None recorded.
+That ends the hypothesis discussion.
 
-**TORREN:** Recorded.
+No one accuses the seal staff. No one proposes testing the Card against the seal.
 
-Othmar looks at him.
+### [WHO MIGHT ACTUALLY HELP]
 
-**TORREN:** Means no gap in the record. Doesn't mean nobody found one in practice.
+Mirena leans back from the custody ledger.
 
-**OTHMAR:** Fair.
+**MIRENA:** We're very good at telling ourselves what a royal seal is supposed to do.
 
-**MIRENA:** So we have no clean theft window.
+**CYANIS:** Encouraging.
 
-**OTHMAR:** None.
+**MIRENA:** It wasn't meant to be.
 
-**LYSARA:** Which means what, exactly?
+She taps the edge of the suspect order.
 
-A beat.
+**MIRENA:** I want somebody who spends her life with old magical objects nobody understands properly.
 
-**MIRENA:** Either someone reached the seal without leaving us a useful record—
+Othmar knows where she is going.
 
-**TORREN:** Or they didn't need to reach it the way we expect.
+**OTHMAR:** Pellan.
 
-**OTHMAR:** Those are categories, not conclusions.
+**CYANIS:** Who?
 
-**MIRENA:** I know.
+**MIRENA:** Nimera Pellan. Card scholar. Old City archives.
 
-**LYSARA:** Good. Keep them that way.
+**TORREN:** Good?
 
-No one accuses the seal staff. No one claims the custody system is perfect.
+**MIRENA:** Annoyingly.
 
-### [WHERE THE PALACE REVIEW STOPS]
-
-**MAEVRA:** How far can the records take us?
-
-**OTHMAR:** Farther on access and handling. Not on the magical mechanism.
-
-**MIRENA:** Which is the part we don't understand.
-
-Her attention shifts to Cyanis and the Card he still carries.
-
-**MIRENA:** We have another object producing meaningful responses nobody can explain properly.
-
-**ILYRA:** That doesn't make them the same problem.
+**LYSARA:** Does she need the originals?
 
 **MIRENA:** No.
 
-A beat.
+Othmar closes one ledger.
 
-**MIRENA:** It does make the same kind of expert useful.
+**OTHMAR:** Authenticated copies. Verification notes. Nothing that requires the physical seal to leave this room.
 
-**LYSARA:** You have someone in mind.
+**LYSARA:** Agreed.
 
-**MIRENA:** Nimera Pellan.
+Ilyra glances at Cyanis's Card.
 
-**CYANIS:** Should I know that name?
+**ILYRA:** And no experiment involving that.
 
-**MIRENA:** Probably not.
+Lysara follows her look.
 
-**MIRENA:** She's one of the best Card scholars in Caelora. Currently buried in the Old City archives by choice, which tells you something about her judgment.
+**LYSARA:** Also agreed.
 
-**TORREN:** Bad judgment?
+**CYANIS:** Glad everyone keeps having that thought before I do.
 
-**MIRENA:** Selective judgment.
+**ILYRA:** Someone has to.
 
-**LYSARA:** Can she help with this?
+### [THE SPLIT]
 
-**MIRENA:** With the Card, almost certainly more than we can. With the seal response—maybe. I want comparison, not a theory forced to fit both.
+Mirena gathers the Crown-side records she still wants to work through.
 
-**OTHMAR:** Then give her bounded material, not the originals.
+**MIRENA:** Maevra, stay with me. The transport chain is still ours to pull apart.
 
-**MIRENA:** Agreed.
+**MAEVRA:** Fine by me.
 
-### [ACCESS / INVESTIGATION SPLIT]
+Lysara looks to Cyanis, Ilyra, and Torren.
 
-**LYSARA:** The physical seal stays here.
-
-**MIRENA:** Of course.
-
-**LYSARA:** Pellan may see authenticated copies, verification notes, and the finding that the seal is present and functioning normally.
-
-**OTHMAR:** I'll authorize access to the relevant Old City archive levels.
-
-**LYSARA:** Dovaren, Amarin, Harth—you'll take the Card and the permitted comparison material to Pellan.
+**LYSARA:** Take the Card and the permitted copies to Pellan. Mirena will authorize the archive levels you need.
 
 **CYANIS:** Understood.
 
-**LYSARA:** Solmar stays here.
+Maevra looks at him.
 
-Maevra glances to Mirena.
+**MAEVRA:** Enjoy the basement.
 
-**MIRENA:** I want her on the transport chain while I work the seal records.
+**CYANIS:** Enjoy the paperwork.
 
-**MAEVRA:** Works for me.
+**MAEVRA:** I will.
 
-**CYANIS:** You've finally escaped us.
+Cyanis looks mildly offended by the sincerity of that answer.
 
-**MAEVRA:** Don't make it sound temporary.
+Torren is already ready to move.
 
-**ILYRA:** It is temporary.
+**TORREN:** Old City.
 
-**MAEVRA:** Let me have this.
+**MIRENA:** Find Pellan. Show her what we actually have.
 
-A small beat, then back to work.
+A beat.
 
-**LYSARA:** No experiments with the Card.
-
-**ILYRA:** Good.
-
-**CYANIS:** I wasn't planning one.
-
-**ILYRA:** Good twice.
-
-**TORREN:** Old City, then.
-
-**MIRENA:** Find Nimera Pellan. Show her what you're allowed to show her. Ask what she can actually support.
-
-**TORREN:** Better than asking what she can guess.
-
-**MIRENA:** Much.
+**MIRENA:** Then let her tell us what it's worth.
 
 ### [STORY HANDOFF]
 
 The investigation splits here.
 
-- Maevra remains in Caelora with Mirena on the royal-seal / Crown-record track.
-- Cyanis, Ilyra, and Torren receive lawful restricted-access authorization for the Old City archives.
+- Maevra remains in Caelora with Mirena on the Crown-side seal / records investigation.
+- Cyanis, Ilyra, and Torren receive lawful restricted Old City access.
 - Cyanis continues carrying the Card.
-- The Queen's physical seal remains secured in the palace.
+- the Queen's physical seal remains secured in the palace.
+- only authenticated copies / verification notes travel to Nimera.
 
 Transition into:
 
@@ -219,18 +215,16 @@ Transition into:
 
 ---
 
-## Beat-4 production notes
+## Beat-4 closing-audit notes
 
-- the physical royal seal is present, intact, recognized, and still responds normally for Lysara;
-- legitimate comparison material and the suspect Card orders show the same recognized core royal authority character;
-- ordinary visual imitation still does not explain the suspect orders;
-- no simple documented theft-and-return window exists;
-- custody records are not treated as infallible, so covert physical access remains possible;
-- nonstandard magical invocation also remains possible, but neither explanation is established or favored as fact;
-- Crown seal staff are collaborators, not manufactured suspects;
-- Calder remains a credible administrator and does not expose his hidden transport role;
-- Mirena identifies Nimera because of her Card expertise and explicitly avoids assuming the Card and seal anomaly are the same mechanism;
-- the physical seal does not leave Crown custody;
-- only bounded authenticated comparison evidence goes toward Nimera;
-- Maevra stays with Mirena after this Beat;
-- Cyanis + Ilyra + Torren become the Old City field group for Beats 5–7.
+- This replaces the earlier checklist-driven version with a fresh Agent-Brain rehearsal.
+- The physical seal is present, intact, and still answers normally for Lysara.
+- The suspect order still produces the same recognized royal authority response.
+- The custody record provides no clean theft-and-return window but is not treated as proof that covert access was impossible.
+- The scene does not have multiple characters recite the two remaining mechanism categories; Lysara asks what can actually be known and stops the room from manufacturing certainty.
+- Othmar behaves as a credible records/authentication expert without exposing his hidden role.
+- Mirena reaches for Nimera because current Crown expertise has hit a real boundary, not because the plot needs the next NPC.
+- Maevra remains socially present but does not become an exposition channel.
+- Ilyra speaks only where the live Card-risk boundary matters.
+- no Card/seal experiment occurs.
+- Maevra + Mirena remain in Caelora; Cyanis + Ilyra + Torren go to find Nimera.
