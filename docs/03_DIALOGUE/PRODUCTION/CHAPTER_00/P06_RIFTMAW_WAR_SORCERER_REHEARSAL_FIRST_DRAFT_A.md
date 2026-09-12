@@ -1,6 +1,6 @@
 # Chapter 0 — P06
 # Riftmaw + War-Sorcerer / Final Broken Convoy Confrontation
-## REHEARSAL-FIRST PRODUCTION DRAFT B — chapter-wide polish / awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT B — NATURAL-TURN RHYTHM PASS / awaiting user approval
 
 ---
 
@@ -30,7 +30,7 @@ A beat.
 
 **CYANIS:** Everybody behind stone. Nobody follows us out.
 
-**ILYRA:** Keep the lane behind me clear.
+**ILYRA:** Keep the lane behind me clear. If I have to move someone, I don't want to find you standing where I need to go.
 
 **CYANIS:** You have it.
 
@@ -40,11 +40,7 @@ Fragmented protection spreads through the defended opening.
 
 Ilyra notices both the recurrence and Cyanis's reaction.
 
-**ILYRA:** There.
-
-**CYANIS:** I feel it.
-
-**ILYRA:** Same thing?
+**ILYRA:** There. Same feeling as before?
 
 **CYANIS:** Close enough.
 
@@ -52,7 +48,7 @@ Ilyra notices both the recurrence and Cyanis's reaction.
 
 A beat.
 
-**CYANIS:** Feels the same.
+**CYANIS:** Feels the same. No worse yet.
 
 **ILYRA:** Better.
 
@@ -124,11 +120,7 @@ No one suggests pursuit.
 
 Ilyra turns immediately to Cyanis.
 
-**ILYRA:** Look at me.
-
-**CYANIS:** I am.
-
-**ILYRA:** Both eyes.
+**ILYRA:** Look at me. Both eyes.
 
 A beat.
 
@@ -138,7 +130,7 @@ Ilyra freezes for half a second.
 
 **CYANIS:** Kidding.
 
-**ILYRA:** Don't.
+**ILYRA:** Don't do that. I don't know enough yet to know what that light did to you, and I am not guessing whether you're joking about double vision.
 
 That lands harder than he expected.
 
@@ -146,9 +138,9 @@ That lands harder than he expected.
 
 A beat.
 
-**ILYRA:** Again.
+**ILYRA:** Again. What do you see?
 
-**CYANIS:** One of you.
+**CYANIS:** One of you. Camp behind you. Everything else where it should be.
 
 **ILYRA:** Good.
 
@@ -158,19 +150,17 @@ She finishes the quick check.
 
 Ilyra checks the treatment line.
 
-**ILYRA:** Still ours.
+**ILYRA:** Still ours. Wounded are still moving where they're supposed to.
 
 A few feet away, the Card lies beside the broken remains of its casing.
 
-**CYANIS:** The case.
+**CYANIS:** The case is done.
 
-**ILYRA:** Finished.
+**ILYRA:** Completely.
 
 **CYANIS:** Card looks intact.
 
-**ILYRA:** Looks.
-
-A beat.
+**ILYRA:** Looks intact. That's all we know from here.
 
 **CYANIS:** Right.
 
@@ -192,11 +182,11 @@ Cyanis now carries the intact Card directly.
 
 The casing is gone from continuity.
 
-**CONVOY OFFICER:** We count people first.
+**CONVOY OFFICER:** We count people first. Whatever that thing is, it can wait until nobody's bleeding in the road.
 
 **CYANIS:** Yeah.
 
-**ILYRA:** I'll check you properly after.
+**ILYRA:** I'll check you properly after we've got the wounded moving. You are not disappearing before then.
 
 **CYANIS:** I heard you.
 
@@ -211,3 +201,7 @@ Scene ends.
 ## P06 end state
 
 Riftmaw and the Convoy War-Sorcerer are defeated in the combined final encounter. The second incomplete Card flare has occurred and fully ended. The recovery casing breaks during the fight; the Card survives intact and Cyanis picks it up afterward. From here through P07, camp cleanup, departure, and Chapter 1, the group carries the Card itself. Nobody has identified the phenomenon as Prime, Might, Last Sentinel, bearer confirmation, an ancient weapon, or anything Entity-related.
+
+## Natural-turn rhythm note
+
+The pre-boss exchange remains clipped by danger. After victory, Ilyra and the officer are allowed to complete full practical thoughts instead of breaking every assessment into single-sentence turn trading.
