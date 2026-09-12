@@ -1,18 +1,32 @@
 # Chapter 3 — Dialogue Authority Index
 
 **Chapter:** 3  
-**Status:** CURRENT WORKING DIALOGUE AUTHORITY MAP — 15-BEAT MAINLINE PASS COMPLETE; H01 + H03 CLEANUP DIALOGUE COMPLETE  
+**Status:** COMPLETE CURRENT WORKING DIALOGUE PRODUCTION — MAINLINE 1–15 + H01/H03; CLOSING INTEGRATION AUDIT COMPLETE  
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_03.md`  
 **Dialogue workflow authority:** `../../AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`  
-**Guardrail workflow authority:** `../../AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md`
+**Guardrail workflow authority:** `../../AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md`  
+**Closing audit:** `CHAPTER_03_DIALOGUE_CLOSING_INTEGRATION_AUDIT_2026-09-12.md`
 
 ## Purpose
-This file is the authoritative map for where current Chapter-3 dialogue lives.
+This file is the authoritative map for current Chapter-3 dialogue.
 
 Hard authority rule:
-> **Chapter 3 has current working dialogue for all fifteen mainline beats and both active cleanup Character-Life scenes. The older cumulative manuscript currently contains only Beats 1–5 and must not be interpreted as the full Chapter-3 dialogue state.**
+> **Chapter 3 has current working dialogue for all fifteen mainline beats and both active cleanup Character-Life scenes H01 and H03. The cumulative manuscript has now been rebuilt from the post-audit scene authorities and is a complete end-to-end readable Chapter-3 assembly.**
 
-Until a later full assembly pass replaces the cumulative manuscript, the standalone Beat and Character-Life files listed below are the exact current Chapter-3 dialogue authority.
+## Complete chapter manuscript
+
+Current complete readable assembly:
+- `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+
+Coverage:
+- Beats 1–15;
+- H01 — Nimera Takes Over a Table;
+- H03 — Ilyra and Nimera.
+
+The manuscript is current and complete as a chapter reading copy.
+
+Scene-level rule:
+> **The standalone Beat / Character-Life files remain the detailed exact scene authority. If a later targeted scene revision has not yet been deliberately reassembled into the cumulative manuscript, the newer standalone scene file controls that scene.**
 
 ## Mainline dialogue locations
 
@@ -32,42 +46,69 @@ Until a later full assembly pass replaces the cumulative manuscript, the standal
 14. `BEAT_14_REST_IN_CAELORA_MORNING_DEPARTURE_DRAFT_A.md`
 15. `BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_DRAFT_A.md`
 
-## Cumulative manuscript status
-`CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` is currently a partial assembled reading copy through Beat 5 only.
+## Cleanup Character-Life dialogue
 
-It is **not** the authority for determining whether Beats 6–15 or the cleanup Character-Life scenes exist.
+### H01 — Nimera Takes Over a Table
+Current dialogue:
+- `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md`
 
-Do not overwrite or discard the standalone current Beat / Character-Life files merely to make the cumulative manuscript appear complete. A later deliberate assembly pass may rebuild the manuscript from the current standalone authorities.
+Authority spec:
+- `H01_NIMERA_TAKES_OVER_A_TABLE_SPEC.json`
+
+Locks:
+- preserves the two exact Cyanis/Torren opening anchors verbatim;
+- remaining dialogue uses the guardrail-first Agent-Brain method;
+- no mandatory plot or lore escalation.
+
+### H03 — Ilyra and Nimera
+Current dialogue:
+- `H03_ILYRA_AND_NIMERA_DRAFT_A.md`
+
+Authority spec:
+- `H03_ILYRA_AND_NIMERA_SPEC.json`
+
+Locks:
+- premise discovered through Agent-Brain rehearsal;
+- current scene is the low-stakes Cresthaven supply-room classification argument;
+- no injury/treatment premise, care lesson, trauma disclosure, plot revelation, or forced emotional breakthrough.
+
+H02 and H04 remain retired and are not current Chapter-3 Character-Life content.
+
+## Closing integration audit result
+
+The 2026-09-12 chapter-wide dialogue audit is complete.
+
+Key corrections applied:
+- Beat 4 received a fresh guardrail-first Agent-Brain rerun because the prior version was still too checklist-driven;
+- Beat 6 and Beat 7 received minor integration trims only;
+- Beat 11 now preserves the Warden/Card timing as meaningful but does not treat causation as proven;
+- Beat 12 removes repeated explanation of the mark-vs-authority-copy distinction;
+- Beat 13 debriefs the consequence without repeating Beat 12's entire evidence argument;
+- H03 removes a comedy cadence too close to an existing Chapter-2 exchange;
+- the complete manuscript was rebuilt after those corrections.
+
+Detailed record:
+- `CHAPTER_03_DIALOGUE_CLOSING_INTEGRATION_AUDIT_2026-09-12.md`
 
 ## Current production state
-- Beats 1–5 — current Draft A scene files.
-- Beats 6–8 — current Agent-Brain reruns after the checkpoint-driven scripting correction.
-- Beats 9–15 — authored from the start under the story-beat-as-guardrail method.
-- Beat 8 permanently recruits Nimera; thereafter the active permanent party is Cyanis + Ilyra + Torren + Nimera.
+
+- Beats 1–15 — current working dialogue complete.
+- Beat 4 — current closing-audit Agent-Brain rerun.
+- Beats 6–8 — Agent-Brain rerun lineage after the checkpoint-driven scripting correction.
+- Beats 9–15 — authored under the story-beat-as-guardrail method, with final integration trims where needed.
+- Beat 8 permanently recruits Nimera; thereafter the active permanent combat party is Cyanis + Ilyra + Torren + Nimera.
 - Beat 15 establishes Cresthaven as the operational headquarters and opens the Chapter-3 cleanup window.
-
-## Cleanup dialogue
-Current active cleanup Character-Life dialogue:
-- **H01 — Nimera Takes Over a Table — current Draft A complete:** `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md`
-  - authority spec: `H01_NIMERA_TAKES_OVER_A_TABLE_SPEC.json`
-  - preserves the two exact Cyanis/Torren opening anchors verbatim;
-  - otherwise uses the guardrail-first Agent-Brain method;
-  - no lore escalation.
-- **H03 — Ilyra and Nimera — current Draft A complete:** `H03_ILYRA_AND_NIMERA_DRAFT_A.md`
-  - authority spec: `H03_ILYRA_AND_NIMERA_SPEC.json`
-  - premise discovered through the Agent-Brain rehearsal rather than predetermined relationship choreography;
-  - low-stakes supply-room classification argument;
-  - no injury, treatment, care lesson, trauma disclosure, plot revelation, or forced emotional breakthrough.
-
-Regional Hunt #3 is unlocked in Beat 15 but does not require a separate dialogue-heavy mini-story by default.
+- H01 and H03 — current cleanup Character-Life Draft A dialogue complete.
+- Regional Hunt #3 is unlocked in Beat 15 but does not require a separate dialogue-heavy mini-story by default.
+- Chapter 3 remains active until the player deliberately chooses to begin Chapter 4.
 
 ## Conflict order
-If Chapter-3 dialogue sources disagree:
-1. current `CHAPTER_03.md` and later explicit user corrections;
-2. dedicated current beat/correction authority in `docs/02_STORY/CHAPTERS/`;
-3. this authority index for locating current dialogue;
-4. the listed standalone current Beat / Character-Life draft for exact working dialogue;
-5. the partial cumulative manuscript only for Beats 1–5 where it remains synchronized;
+If Chapter-3 dialogue sources disagree, use this order:
+1. current `../../../02_STORY/CHAPTERS/CHAPTER_03.md` plus later explicit user corrections/current dedicated story locks;
+2. this authority index for locating the current dialogue source;
+3. the current standalone Beat / Character-Life file for exact scene wording and scene-level implementation detail;
+4. `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` as the current complete assembled reading copy;
+5. `CHAPTER_03_DIALOGUE_CLOSING_INTEGRATION_AUDIT_2026-09-12.md` for the closing-pass rationale and change record;
 6. historical/superseded files only as provenance.
 
-> **Chapter-3 mainline rehearsal-first working dialogue pass: COMPLETE through Beat 15. Both active cleanup Character-Life scenes H01 and H03 now have current Draft A dialogue.**
+> **Chapter-3 current working dialogue production: COMPLETE through Beats 1–15 + H01/H03. Closing integration audit: COMPLETE. Full cumulative manuscript: COMPLETE and current.**
