@@ -1,0 +1,147 @@
+name: Sync Chapter 1 Dialogue Manuscript
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/sync-chapter1-dialogue.yml
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_01_BRACKENWALL_PROTOCOL_DRAFT_A.md
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_02_BRIAR_PASSAGE_FIRST_TRAVERSAL_DRAFT_A.md
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_04_HOLLOW_WATCH_APPROACH_DRAFT_A.md
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_05_OCCUPIED_HOLLOW_WATCH_FORT_DRAFT_A.md
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_06_BLACK_HOST_EXCAVATION_LOWER_ACCESS_DRAFT_A.md
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_07_LOWER_JUNCTION_SIX_CHANNELS_DRAFT_A.md
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_08_FORCED_INNER_SECTION_DRAFT_A.md
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_10_POST_CASTELLAN_MURAL_DRAFT_A.md
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md
+      - docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build complete synchronized Chapter 1 manuscript
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          OUT="docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md"
+          TMP="$(mktemp)"
+
+          MAINLINE=(
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_01_BRACKENWALL_PROTOCOL_DRAFT_A.md"
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_02_BRIAR_PASSAGE_FIRST_TRAVERSAL_DRAFT_A.md"
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md"
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_04_HOLLOW_WATCH_APPROACH_DRAFT_A.md"
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_05_OCCUPIED_HOLLOW_WATCH_FORT_DRAFT_A.md"
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_06_BLACK_HOST_EXCAVATION_LOWER_ACCESS_DRAFT_A.md"
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_07_LOWER_JUNCTION_SIX_CHANNELS_DRAFT_A.md"
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_08_FORCED_INNER_SECTION_DRAFT_A.md"
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md"
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_10_POST_CASTELLAN_MURAL_DRAFT_A.md"
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md"
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md"
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md"
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md"
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md"
+          )
+
+          CHARACTER_LIFE=(
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md"
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md"
+            "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md"
+          )
+
+          cat > "$TMP" <<'EOF'
+          # Diyse — Chapter 1 Complete Synchronized Dialogue Manuscript
+
+          **Status:** CURRENT SYNCHRONIZED READ-THROUGH — MAINLINE 1–15 + C03/C04/C05  
+          **Chapter:** 1  
+          **Synchronization rule:** this file is generated directly from the standalone current production scene authorities. Do not hand-edit embedded scene text here. Edit the authoritative scene file; this manuscript will regenerate automatically.  
+          **Conflict rule:** if this generated manuscript ever disagrees with a listed source file, the standalone source file wins and the synchronization workflow must be rerun/fixed.  
+          **Rhythm authority:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
+
+          ## Reading order
+
+          The mainline is reproduced first in exact Beat 1 → Beat 15 order. The three optional Character-Life scenes are reproduced afterward as a cleanup-window appendix so each standalone source can be embedded intact without splitting Beat 15. In play, C03/C04/C05 are available during the Junction cleanup window before the mandatory rest/advance interaction.
+
+          Every embedded source is preceded by its repository path and Git blob SHA. Those markers make synchronization drift auditable.
+
+          ---
+
+          # MAINLINE — BEATS 1–15
+          EOF
+
+          append_source() {
+            local f="$1"
+            local sha
+            sha="$(git rev-parse "HEAD:$f")"
+            {
+              printf '\n\n---\n\n'
+              printf '<!-- SYNCHRONIZED SOURCE: %s | BLOB: %s -->\n\n' "$f" "$sha"
+              cat "$f"
+            } >> "$TMP"
+          }
+
+          for f in "${MAINLINE[@]}"; do
+            append_source "$f"
+          done
+
+          cat >> "$TMP" <<'EOF'
+
+          ---
+
+          # OPTIONAL CHARACTER-LIFE — JUNCTION CLEANUP WINDOW
+
+          **Placement note:** the following scenes are optional and independently available during Beat 15's Junction cleanup window. They are placed after the intact mainline files in this generated reading copy solely to preserve exact source-file contents without splitting or duplicating Beat 15.
+          EOF
+
+          for f in "${CHARACTER_LIFE[@]}"; do
+            append_source "$f"
+          done
+
+          cat >> "$TMP" <<'EOF'
+
+          ---
+
+          # Synchronization footer
+
+          This manuscript is a generated convenience/read-through copy. The 18 standalone files embedded above remain the exact edit authorities. Any change to one of those tracked source files on `main` automatically rebuilds this file through `.github/workflows/sync-chapter1-dialogue.yml`.
+          EOF
+
+          mv "$TMP" "$OUT"
+
+      - name: Commit synchronized manuscript if changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT="docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md"
+
+          if git diff --quiet -- "$OUT"; then
+            echo "Chapter 1 manuscript already synchronized."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$OUT"
+          git commit -m "dialogue: synchronize complete Chapter 1 manuscript"
+          git push
