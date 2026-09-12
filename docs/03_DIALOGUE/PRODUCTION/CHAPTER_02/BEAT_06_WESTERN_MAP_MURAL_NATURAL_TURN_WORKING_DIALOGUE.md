@@ -1,6 +1,6 @@
 # Chapter 2 — Beat 6
 # Western Map Mural
-## CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN RHYTHM PASS
+## CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT
 
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Hard continuity:** the mural is intact and coherent; it is one western section of a larger system. The small northern structure bears the exact modern Crest of Yahtrea. Its meaning remains unknown.
@@ -157,25 +157,18 @@ Once the practical copy is complete, Cyanis gives the mural one last look.
 
 **CYANIS:** We're coming back to this.
 
-**ILYRA:** Yes. Just not while people are sitting in Black Host cages waiting for us to solve history first.
+**ILYRA:** Later. People first.
 
-**TORREN:** Later.
-
-**MAEVRA:** People first.
-
-**CYANIS:** People first.
+**TORREN:** Agreed.
 
 **Objective:** Explore the Archive depths.
 
 ---
 
-## Natural-turn / knowledge check
+## Audit check
 
-- The mural discovery no longer rotates one clue per speaker.
-- Torren can give a complete route comparison, Ilyra a complete uncertainty statement, and Maevra a complete evidence-preservation instruction.
-- The Wayfinder is understood as part of a larger route/network system.
-- The party identifies the modern-Caelora position, the vastly larger ancient city there, and the separate northern structure carrying the exact Crest of Yahtrea.
-- The mural is complete but only one western section; routes continue beyond its edges.
-- Nobody identifies the ancient city, explains the Crest, names Cresthaven, or solves the larger network.
+- The mural discovery remains a real evidence-analysis scene: Torren, Ilyra, and Maevra may explain route relationships and uncertainty because those are new interpretations, not visible inventory.
+- The Caelora/Crest and panel-edge deductions remain because they materially advance what the party knows.
+- The closing priority beat no longer repeats `later / people first / people first` across four speakers after the decision is already clear.
 - Kidnapped people remain the immediate priority.
 - No story or reveal outcome changed.
