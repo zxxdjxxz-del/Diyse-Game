@@ -1,6 +1,6 @@
 # Chapter 2 — Beat 10
 # Prisoner Galleries / First Contact
-## CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN RHYTHM PASS
+## CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT
 
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
@@ -98,13 +98,9 @@ Silence for a moment.
 
 Maevra looks toward the upper Bastion route.
 
-**MAEVRA:** So this isn't where the operation ends. They're holding people here until somebody moves them onward.
+**MAEVRA:** Transit point.
 
-**TORREN:** Transit point.
-
-**CYANIS:** And we still don't know the destination.
-
-Nobody asks the prisoners to manufacture one.
+Nobody asks the prisoners to manufacture an onward destination they do not know.
 
 ---
 
@@ -120,11 +116,9 @@ Cyanis's expression changes.
 
 **CYANIS:** Commander Rhazek.
 
-**MAEVRA:** High enough that this isn't a few soldiers freelancing on the road.
+Maevra looks toward the route above.
 
-**ILYRA:** Which means taking the gallery guards out doesn't end the policy.
-
-**WOUNDED SOLDIER:** Nothing here looked improvised from this side of the bars.
+**MAEVRA:** Then the gallery guards aren't the job.
 
 Torren exhales through his nose.
 
@@ -172,12 +166,10 @@ The Dunmere woman studies him.
 
 ---
 
-## Natural-turn / knowledge check
+## Audit check
 
-- Prisoners now give complete first-person accounts instead of being interrogated one sentence at a time.
-- Their knowledge remains bounded: they know groups move upward through the Bastion and do not return; they do not know the onward destination or ultimate purpose.
-- Rhazek is credibly identified from direct observation/reporting behavior.
-- Maevra and Torren can state the holding/transit implication without repeating the same conclusion in fragments.
-- The concealed Archive route is still unsuitable for mass evacuation.
-- The party commits to finding and securing the proper Bastion exit.
+- Prisoners give complete first-person accounts and their knowledge stays bounded.
+- Once the witnesses establish that groups are moved upward and never return, the party no longer repeats `this isn't where the operation ends / transit point / we still don't know the destination` as three separate summary lines.
+- Rhazek's identification now changes the party's next decision instead of triggering another spoken explanation that the kidnapping policy is organized; Beat 13 later provides direct confirmation from Rhazek himself.
+- The concealed Archive route remains unsuitable for mass evacuation.
 - No transfer manifest, exact totals, masked-officer information, destination reveal, or future story information is added.
