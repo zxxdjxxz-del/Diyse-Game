@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 3
 # Greenhollow / Torren
-## DIALOGUE ENGINE PRODUCTION DRAFT F — NATURAL-TURN RHYTHM PASS / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT F — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT / awaiting user approval
 
 ---
 
@@ -108,13 +108,13 @@ The route board is the only object this exchange needs. No chalk-passing, repeat
 
 ### [THE CARD]
 
-**MAEVRA:** There's another complication. Recovered Card. It reacts around Dovaren, and Brackenwall found out the ugly way that moving it away from him makes him sick.
+**MAEVRA:** One complication. Recovered Card. Moving it away from Dovaren made him sick.
 
 Torren looks at Cyanis, then at Ilyra.
 
 **TORREN:** He good to travel?
 
-**ILYRA:** Yes, if he stops pretending small things don't count. The reaction stopped when the Card came back, and he's stable now. I don't want another deliberate separation test on the road.
+**ILYRA:** Stable now. Keep the Card with him and don't test the distance again.
 
 **CYANIS:** That condition was added later.
 
@@ -152,11 +152,7 @@ Torren looks north on the route board.
 
 Cyanis looks toward the north route.
 
-**CYANIS:** And you're not leaving Greenhollow until somebody checks the fort.
-
-**TORREN:** Yeah.
-
-**CYANIS:** All right. He has a Host-held fort uphill from his town and no answer on the people who were stationed there. I'd want it checked too.
+**CYANIS:** All right. We check the fort.
 
 Maevra looks at him.
 
@@ -267,10 +263,11 @@ Next mandatory story beat:
 
 ---
 
-## Natural-turn / presentation check
+## Audit check
 
-- Torren remains comparatively terse and conclusion-first, but his actual route evidence now arrives in complete field judgments rather than one fact per turn.
-- Maevra and Ilyra are allowed to give full practical briefs where they own the information.
+- Torren remains comparatively terse and conclusion-first, but his actual route evidence arrives in complete field judgments rather than one fact per turn.
+- Torren's Card briefing is consequence-first; Maevra and Ilyra do not replay the Brackenwall transfer scene for a new listener.
+- Cyanis accepts Hollow Watch without verbally restating Torren's motivation and evidence back to the group.
 - Rapid Maevra/Torren banter stays rapid because that cadence belongs to their relationship rather than to the whole script.
 - Hollow Watch uncertainty remains bounded; Torren does not gain knowledge he does not have.
 - No story, route, Card, injury, recruitment, or gameplay outcome changed.
