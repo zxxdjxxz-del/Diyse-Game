@@ -1,6 +1,6 @@
 # Chapter 0 — P07
 # Aftermath / Survivor Recovery / Overnight Camp
-## REHEARSAL-FIRST PRODUCTION DRAFT B — chapter-wide polish / awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT B — NATURAL-TURN RHYTHM PASS / awaiting user approval
 
 ---
 
@@ -16,9 +16,9 @@ The active triage area may contain the people actually present as simple field m
 
 **CONVOY OFFICER:** Dovaren. Amarin. Give me the field.
 
-**CYANIS:** East cut's clear. Nobody followed them.
+**CYANIS:** East cut's clear. Nobody followed them. Wreck line is still exposed on the south side.
 
-**ILYRA:** Walking wounded can move. Two still can't.
+**ILYRA:** Walking wounded can move. Two still can't, and I don't want either of them sitting upright yet.
 
 **CONVOY OFFICER:** Missing?
 
@@ -28,25 +28,17 @@ A wounded escort answers from nearby.
 
 A beat.
 
-**CYANIS:** Then we search the wreck line.
-
-**CONVOY OFFICER:** Light's going.
-
-**CYANIS:** I know.
+**CYANIS:** Then we search the wreck line before the light goes.
 
 **CONVOY OFFICER:** Brackenwall can send people back at first light.
 
-**CYANIS:** If somebody's pinned, first light's too late.
+**CYANIS:** If somebody's pinned, first light's too late. Same if they're bleeding where we can't see them.
 
-**ILYRA:** Same if they're bleeding.
+**ILYRA:** He's right. We don't need the whole road; we need one bounded sweep while we can still find somebody alive.
 
 The officer considers that.
 
-**CONVOY OFFICER:** One sweep.
-
-A beat.
-
-**CONVOY OFFICER:** South ditch to the wreck markers. Nobody goes past them after Host stragglers.
+**CONVOY OFFICER:** One sweep. South ditch to the wreck markers, no farther. If you find Host stragglers beyond that boundary, you leave them there and come back.
 
 **CYANIS:** Understood.
 
@@ -60,17 +52,15 @@ No one argues the boundary.
 
 The officer looks at the Card in Cyanis's possession.
 
-**CONVOY OFFICER:** That stays exactly where it is until Brackenwall.
+**CONVOY OFFICER:** That stays exactly where it is until Brackenwall. No testing, no handing it around because somebody gets curious, and no clever ideas on the road.
 
 Cyanis looks down at it.
 
 **CYANIS:** Happily.
 
-**CONVOY OFFICER:** No testing it on the road.
+**ILYRA:** No argument from me.
 
-**ILYRA:** No argument.
-
-**CONVOY OFFICER:** Brackenwall can decide what to do with it.
+**CONVOY OFFICER:** Good. Brackenwall can decide what to do with it when we have walls and people who aren't half dead.
 
 Nobody proposes another separation attempt here. Chapter 1 owns the first deliberate transfer test.
 
@@ -80,55 +70,33 @@ Nobody proposes another separation attempt here. Chapter 1 owns the first delibe
 
 The officer turns back to the evacuation problem.
 
-**CONVOY OFFICER:** Your medical group goes with the first wounded column.
-
-**ILYRA:** They should.
-
-**CONVOY OFFICER:** You going with them?
+**CONVOY OFFICER:** Your medical group goes with the first wounded column. You going with them?
 
 A beat.
 
-**ILYRA:** No.
-
-**CONVOY OFFICER:** Why?
-
-**ILYRA:** Twice that thing lit up. Twice his condition changed with it.
-
-A beat.
-
-**ILYRA:** I was there both times. I'm staying until morning.
+**ILYRA:** No. Twice that thing lit up, and twice his condition changed with it. I was there both times, I treated him both times, and I still don't know what it did. My people can move the wounded without me tonight. I'm staying until morning.
 
 **CYANIS:** You don't have to stay on my account.
 
-**ILYRA:** I'm not.
-
-A beat.
-
-**ILYRA:** I'm staying because I'm the one who treated it.
+**ILYRA:** I'm not. I'm staying because I'm the one who treated you when it happened, and I'm not handing that off blind after two episodes I can't explain yet.
 
 Cyanis accepts the correction.
 
 **CYANIS:** Right.
 
-**CONVOY OFFICER:** And the sweep?
+The convoy officer glances toward the wreck line.
 
-**ILYRA:** I'm doing that too.
+**CONVOY OFFICER:** And I assume you're doing the sweep too.
+
+**ILYRA:** Yes.
 
 The officer gives her a tired look.
 
-**CONVOY OFFICER:** Of course you are.
-
-**ILYRA:** Was that a problem?
-
-**CONVOY OFFICER:** No.
-
-A beat.
-
-**CONVOY OFFICER:** Search first.
-
-**CYANIS:** Yes, sir.
+**CONVOY OFFICER:** Of course you are. Search first, argue with me later if you still have the energy.
 
 **ILYRA:** Understood.
+
+**CYANIS:** Yes, sir.
 
 The scene ends before Ilyra has to justify herself a second time.
 
@@ -156,23 +124,13 @@ After the bounded sweep and immediate stabilization work, most surviving convoy 
 
 The active camp scene can show the relevant people present without a departure cinematic or repeated wagon choreography.
 
-**CONVOY OFFICER:** First column's moving.
+**CONVOY OFFICER:** First column's moving. Amarin, your people have the two who can't sit upright. Dovaren, you stay here with her until morning, then both of you go to Brackenwall with the Card.
 
-**ILYRA:** My people know which two can't sit upright.
-
-**CONVOY OFFICER:** They do.
-
-The officer looks to Cyanis.
-
-**CONVOY OFFICER:** You two stay until morning. Then Brackenwall.
-
-**CYANIS:** With the Card.
-
-**CONVOY OFFICER:** With the Card.
+**CYANIS:** Understood.
 
 A beat.
 
-**CONVOY OFFICER:** Try not to make the night interesting.
+**CONVOY OFFICER:** Try not to make the night interesting. I've had enough interesting for one day.
 
 **CYANIS:** I'll do my best.
 
@@ -214,3 +172,7 @@ The player may remain in cleanup or use the later explicit **Continue to Bracken
 - Cyanis does not treat her decision as debt or personal devotion;
 - Cyanis + Ilyra remain overnight at the quieted field camp;
 - Chapter 0 does not end until the player explicitly chooses to depart for Brackenwall.
+
+## Natural-turn rhythm note
+
+After combat pressure ends, the officer and Ilyra now complete operational and medical thoughts in full turns. Short acknowledgements remain short because hierarchy and task focus still justify them.
