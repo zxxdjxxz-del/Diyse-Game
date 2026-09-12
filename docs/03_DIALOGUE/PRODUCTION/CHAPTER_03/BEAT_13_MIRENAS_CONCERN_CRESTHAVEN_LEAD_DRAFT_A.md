@@ -56,47 +56,29 @@ Mirena goes still.
 
 **CYANIS:** Yes.
 
-Nimera takes over only far enough to make the distinction that matters.
+Nimera gives her only the part that changes the problem.
 
-**NIMERA:** The room had copies. Older Diysean forms first. Then older Yahtrean seals. Then royal-document seals.
+**NIMERA:** Ancient forms first. Then older Yahtrean seals. Then royal-document seals.
 
 **TORREN:** Work gets cleaner as it goes.
 
 **NIMERA:** Eventually the Crest.
 
-**ILYRA:** Repeatedly.
-
 Mirena looks between them.
-
-**MIRENA:** A visual copy?
-
-**CYANIS:** Late ones were good.
-
-**NIMERA:** The mark was good.
-
-Mirena catches the wording.
-
-**MIRENA:** The magic wasn't.
-
-**NIMERA:** I can't prove that.
-
-A beat.
-
-**NIMERA:** I can prove somebody used enough magic trying to do something beyond the impression that they scorched work surfaces built for sealcraft.
 
 **MIRENA:** Did any of them answer like the Queen's?
 
-Nimera shakes her head once.
+**NIMERA:** Nothing we found proves it.
 
-**NIMERA:** Nothing we found proves that.
+**MIRENA:** How hard were they trying?
 
-**MIRENA:** But somebody was trying.
+**NIMERA:** Hard enough to scorch work surfaces built for sealcraft.
 
-**NIMERA:** Yes.
+That lands.
 
 ### [THE CROWN-SIDE PROBLEM HAS NOT BECOME EASIER]
 
-Mirena glances at the custody material already on the table.
+Torren glances at the custody material already on the table.
 
 **TORREN:** Any luck up here?
 
@@ -108,17 +90,13 @@ Mirena looks back at the party.
 
 A beat.
 
-**MIRENA:** So we have a seal that should not have been used, an order carrying the real authority response, and somebody below the city spending serious magic learning to reproduce the Crest.
+She looks at the copied evidence from below, then at the custody records.
 
-**CYANIS:** Trying to reproduce it.
+**MIRENA:** So somebody reached restricted material, spent serious magic learning the Crest, and the real seal still has no clean access story.
 
-Mirena looks at him.
+**CYANIS:** That's worse when you say it together.
 
-**MIRENA:** Good correction.
-
-A beat.
-
-**MIRENA:** I hate it.
+**MIRENA:** I know.
 
 ### [THE OTHER THING THAT CHANGED]
 
@@ -192,53 +170,35 @@ Nimera looks faintly offended.
 
 Mirena stops looking at the Card and returns to the table.
 
-Her attention is now on the shape of the problem rather than any one artifact.
-
-**MIRENA:** Someone knew enough to find material most people don't know exists.
-
-No one interrupts.
-
-**MIRENA:** Someone reached restricted collections beneath my capital.
-
-She looks at the copied seal evidence.
-
-**MIRENA:** Someone had enough magic to keep trying this after ordinary failure should have stopped them.
+**MIRENA:** Someone got into places most people don't know exist and had enough magic to keep pushing when the work fought back.
 
 A beat.
 
-**MIRENA:** Which means I don't know which part of this is access, which part is magic, and which part is both.
-
-A beat.
-
-**MIRENA:** More importantly, I don't know which door they came through.
+**MIRENA:** I don't know which part of this is access, which part is magic, or which office I can safely assume is clean.
 
 Torren glances toward the custody records.
 
-**TORREN:** Physical or political?
+**TORREN:** Physical or political door.
 
-**MIRENA:** Yes.
+**MIRENA:** Exactly.
 
-That answer lands badly enough that nobody jokes about it.
-
-**MIRENA:** Until I know more, I don't want this passed through every office that would normally be entitled to hear it.
+**MIRENA:** Until I know more, this does not go through every office that would normally be entitled to hear it.
 
 **CYANIS:** You think someone's inside the Crown.
 
-**MIRENA:** I think somebody has meaningful access to things they should not.
+**MIRENA:** I think somebody has access they should not have.
 
 She meets his eyes.
 
-**MIRENA:** Those are not the same accusation yet.
+**MIRENA:** I'm not promoting that to treason until I can prove it.
 
-**CYANIS:** Yet.
-
-**MIRENA:** Exactly.
+Cyanis nods.
 
 ### [THE REQUEST]
 
 Mirena looks at all four of them rather than only Cyanis.
 
-**MIRENA:** I want you to keep working this with me.
+**MIRENA:** Keep working this with me.
 
 A beat.
 
@@ -357,12 +317,12 @@ Transition into:
 
 ## Beat-13 production notes
 
-- The Old City debrief is selective rather than chronological. Mirena asks what changed and follows the implications that affect current decisions.
-- Maevra is present because she remained in Caelora with Mirena, but her dialogue density is deliberately low. She supplies only the concise Crown-side custody result and does not act as a co-debriefer or bridge narrator.
-- the seal-copying evidence is framed correctly: somebody practiced increasingly accurate copies culminating in the Crest of Yahtrea and used substantial magic, but nothing proves a successful duplicate of the genuine royal authority response.
+- The Old City debrief is selective rather than chronological. Mirena asks what changed and follows only the implications that affect current decisions.
+- Maevra's dialogue density remains deliberately low and limited to the Crown-side custody result.
+- Beat 12's mark-versus-authority distinction is not re-litigated here; Mirena asks the one operational question that matters: did any copy prove the Queen's response?
 - the Warden report preserves exact sequence and timing without classifying Last Sentinel or the Ruby Card.
-- Mirena's concern emerges from her political brain: she focuses on access, power, institutional exposure, and who can be trusted with the investigation.
+- Mirena's concern emerges from access, power, institutional exposure, and trust rather than from recapping every clue.
 - Mirena asks the four-person party to continue directly with her; the group agrees without a loyalty speech or four separate confirmations.
-- the Cresthaven lead comes from revisiting the existing Chapter-2 Ancient map/mural copy brought back into the discussion by the field party. Beat 13 does not invent a new map.
+- the Cresthaven lead comes from revisiting the existing Chapter-2 Ancient map/mural copy. Beat 13 does not invent a new map.
 - Mirena identifies the marked northern structure as **probably Cresthaven** by comparing the old geography to current Crown knowledge. The exact ancient meaning of the Crest remains unresolved.
 - Beat 14 owns the explicit instruction to rest for the night and the next-morning departure structure.
