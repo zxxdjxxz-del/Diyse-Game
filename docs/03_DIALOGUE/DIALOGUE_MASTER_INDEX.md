@@ -26,6 +26,8 @@ A conversational turn may be a fragment, one sentence, several connected sentenc
 Retroactive audit tracker:
 - `CHAPTER_0_3_NATURAL_TURN_RHYTHM_AUDIT_TRACKER.md`
 
+**Retroactive Chapters 0–3 audit status: COMPLETE.**
+
 Walking-dialogue lock:
 - `AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`
 
@@ -40,7 +42,7 @@ Ordinary traversal does not receive walking dialogue unless someone is genuinely
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — P01–P07 + optional C01 | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
 | Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — Beats 1–15 + C03/C04/C05 | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` (assembly manifest) |
 | Ch2 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT COMPLETE** — Beats 1–16 + C06 | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` (assembly/status map) |
-| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN RHYTHM AUDIT ACTIVE** — Beats 1–15 + H01/H03; prior closing integration audit complete | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` |
+| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; CLOSING INTEGRATION + NATURAL-TURN RHYTHM AUDITS COMPLETE** — Beats 1–15 + H01/H03 | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` → `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` (assembly/status map) |
 
 These four chapter folders are the correct live production locations.
 
@@ -51,21 +53,18 @@ These four chapter folders are the correct live production locations.
 Folder:
 - `PRODUCTION/CHAPTER_00/`
 
-Primary chapter file:
-- `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
-
 Authority index:
 - `CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md`
 
 Current sequence:
 > **P01 → P02 → P03 → P04 → P05 → P06 → P07 → optional C01 `Six Minutes` → explicit departure to Brackenwall**
 
-Current polish state:
-- **natural-turn / floor-holding rhythm audit complete**;
-- P01–P02 audited and intentionally preserved because crisis shorthand is appropriate;
+Natural-turn audit: **COMPLETE.**
+
+Key result:
+- P01–P02 intentionally retain crisis shorthand;
 - P03–P07 selectively revised;
-- C01 received the strongest quiet-scene rhythm correction;
-- chapter manuscript and standalone authorities are synchronized.
+- C01 received the strongest quiet-scene rhythm correction.
 
 ---
 
@@ -74,32 +73,27 @@ Current polish state:
 Folder:
 - `PRODUCTION/CHAPTER_01/`
 
-Chapter assembly:
-- `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
-
 Authority index:
 - `CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md`
 
-Current exact dialogue authority is the ordered standalone scene set mapped by the authority index / assembly manifest:
-- Beats 1–15 mainline;
+Assembly/status map:
+- `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+
+Exact current dialogue authority is the ordered standalone scene set:
+- Beats 1–15;
 - C03 — `Torren's Version of Dinner`;
 - C04 — `What the Map Says`;
 - C05 — `Not Professionally`.
 
-Natural-turn / floor-holding rhythm audit: **COMPLETE.**
+Natural-turn audit: **COMPLETE.**
 
-Material rhythm revisions:
+Material revisions:
 - Beats 1, 3, 7, 10, 11, 14;
 - C03, C04, C05.
-
-Audited and intentionally preserved as predominantly terse because the situation earns it:
-- Beats 2, 4–6, 8–9, 12–13, 15.
 
 Protected C04 anchor remains exact:
 - Cyanis: `Old slut?`
 - Torren: `Bitch.`
-
-The chapter assembly file owns order/status while the listed standalone files own exact dialogue, preventing stale duplicate transcript authority after targeted revisions.
 
 ---
 
@@ -111,26 +105,20 @@ Folder:
 Authority index:
 - `CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md`
 
-Chapter assembly/status map:
+Assembly/status map:
 - `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
 
 Current state:
 - all sixteen mainline beats have one standalone exact current dialogue authority;
-- C06 — `Still Burns` — is current cleanup Character-Life dialogue;
-- chapter-level storage no longer carries a competing stale duplicate transcript.
+- C06 — `Still Burns` — is current cleanup Character-Life dialogue.
 
-Natural-turn / floor-holding rhythm audit: **COMPLETE.**
+Natural-turn audit: **COMPLETE.**
 
-Material rhythm corrections:
+Material revisions:
 - Beats 2, 5, 6, 10, 11, 16;
 - C06.
 
-Audited and intentionally preserved as predominantly terse/mixed because the situation earns it:
-- Beats 1, 3–4, 7–9, 12–15.
-
-Beat 3 and Beat 9 received minor consolidation while preserving their underlying cadence.
-
-Core Chapter-2 outcomes remain unchanged: the current prisoners are rescued, Rhazek loses the Old Bastion locally but survives a credible withdrawal, the earlier transferred captives remain unresolved, Greenhollow ↔ Dunmere travel reopens, and Chapter 3 begins only through explicit player confirmation.
+Core outcomes remain unchanged: current prisoners rescued, Rhazek loses the Old Bastion locally but survives a credible withdrawal, earlier transferred captives remain unresolved, Greenhollow ↔ Dunmere travel reopens, and Chapter 3 begins only through explicit player confirmation.
 
 ---
 
@@ -142,24 +130,36 @@ Folder:
 Authority index:
 - `CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md`
 
-Complete readable chapter manuscript:
+Assembly/status map:
 - `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
 
-Closing integration audit:
+Prior closing integration audit:
 - `CHAPTER_03_DIALOGUE_CLOSING_INTEGRATION_AUDIT_2026-09-12.md`
 
 Current state:
 - Beats 1–15 current;
 - H01 and H03 current;
-- prior chapter-wide closing integration audit complete;
-- cumulative manuscript contains Beats 1–15 + H01 + H03.
+- closing integration audit complete;
+- natural-turn / floor-holding rhythm audit complete.
 
-Current live polish target:
-- **natural-turn / floor-holding rhythm audit ACTIVE.**
+Material rhythm revisions:
+- Beats 2, 3, 9, 10, 12, 14, 15.
+
+Audited and intentionally retained as predominantly terse/mixed:
+- Beat 1;
+- Beats 4–8;
+- Beat 11;
+- Beat 13;
+- H01;
+- H03.
 
 Protected H01 exact anchors:
 - Cyanis: `I bet you use that cape to sneak up on the goats you fuck.`
 - Torren: `You look like a walking dick in armor.`
+
+Beat 11 exact Warden messages remain:
+- `PREVIOUS ERROR`
+- `LAST SENTINEL CONFIRMED`
 
 ---
 
@@ -167,7 +167,7 @@ Protected H01 exact anchors:
 
 | Chapter | Dialogue status |
 |---|---|
-| Ch4 | pending current Dialogue Engine production under current restructured story authority **and the natural-turn/floor-holding lock from the first rehearsal** |
+| Ch4 | pending current Dialogue Engine production under current restructured story authority **with the natural-turn/floor-holding rule active from the first rehearsal** |
 | Ch5 | beat rewrite required before dialogue generation |
 | Ch6 | macro/beat authority; dialogue pending |
 | Ch7 | macro authority; dialogue pending |
@@ -178,19 +178,7 @@ Protected H01 exact anchors:
 | Ch12 | macro authority; dialogue pending |
 | Ch13 | macro authority; dialogue pending |
 
-All later chapter dialogue uses the locked rehearsal-first Agent Brain pipeline plus all later workflow corrections, including `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`.
-
----
-
-# Exact dialogue anchors
-
-Current examples:
-- Ch1 C04: `old slut` remains preserved in the current joke exchange.
-- Ch3 H01:
-  - Cyanis: `I bet you use that cape to sneak up on the goats you fuck.`
-  - Torren: `You look like a walking dick in armor.`
-
-Exact anchors remain protected during rhythm audits.
+All later chapter dialogue uses the locked rehearsal-first Agent Brain pipeline plus all later workflow corrections, including `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` from the first Person-Agent rehearsal onward.
 
 ---
 
@@ -201,6 +189,6 @@ Current production dialogue belongs in:
 
 Each chapter's authority index / assembly tells production where the exact current dialogue lives.
 
-When a scene receives a targeted revision, update its standalone current production file first. Do not retain an unsynchronized duplicate transcript as competing live authority; either deliberately reassemble it or convert the chapter-level file to an explicit assembly manifest.
+When a scene receives a targeted revision, update its standalone current production file first. Do not retain an unsynchronized duplicate transcript as competing live authority; either deliberately reassemble it or keep the chapter-level file as an explicit assembly/status map.
 
 Use Git history for superseded copies.
