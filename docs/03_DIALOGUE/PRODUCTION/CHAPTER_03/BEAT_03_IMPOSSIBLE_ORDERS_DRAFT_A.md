@@ -76,7 +76,7 @@ No accusation follows. The problem remains the authority response itself.
 
 **MIRENA:** Then the Card's custody is part of the same problem.
 
-**ILYRA:** Moving it is a separate risk. The one deliberate separation we tried made Cyanis ill and made the Card respond; returning it stopped both. Nothing like that has happened while it stays with him.
+**ILYRA:** Moving it is a known risk. Nothing like that has happened while it stays with him.
 
 **LYSARA:** Dovaren. Any change since Brackenwall?
 
@@ -130,6 +130,7 @@ Transition directly into:
 - the scene does not decide whether the physical seal was accessed, removed, copied, remotely invoked, echoed, or otherwise reproduced.
 - Torren contributes only the evidence distinction: genuine response does not equal known mechanism.
 - Lysara clears the transport chain through a royal judgment rather than narrating why their trust was reasonable.
+- Beat 3 does not repeat Beat 2's Card-separation test to the same room; Ilyra states only the live operational consequence that moving it is a known risk.
 - Cyanis remains physically in possession of the Card because moving it would introduce a known practical risk; this is not bearer confirmation.
 - Lysara's custody decision is concise: Solmar retains responsibility and the Card is not moved without cause.
 - the originals and attached records remain intact as evidence.
