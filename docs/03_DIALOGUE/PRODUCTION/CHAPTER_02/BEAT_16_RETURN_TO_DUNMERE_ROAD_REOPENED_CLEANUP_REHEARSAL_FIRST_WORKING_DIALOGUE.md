@@ -1,6 +1,6 @@
 # Chapter 2 — Beat 16 — Return to Dunmere / Road Reopened / Cleanup
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN RHYTHM PASS  
+**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT  
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
 Beat 16 begins after the rescued group has left the Old Bastion through the maintained road-side gate. There is no playable escort sequence and no separate road-secured story beat. Cyanis, Ilyra, Torren, and Maevra are back in Dunmere with the current prisoners safely out of Black Host custody.
@@ -22,13 +22,13 @@ The elder meets Cyanis, Ilyra, Torren, and Maevra once the immediate movement ha
 
 Ilyra looks toward the rescued group.
 
-**ILYRA:** Everyone we brought out. There were earlier groups already gone before we reached the galleries, and none of the prisoners knew where they were taken after the Bastion.
+**ILYRA:** Everyone we brought out. Earlier groups were already gone.
 
 The elder hears the distinction.
 
-**ELDER:** So the people in front of me are safe, and the others are still missing.
+**ELDER:** Still missing.
 
-**CYANIS:** Yeah. We didn't find a destination, a list, or anybody who could give us one without guessing.
+**CYANIS:** We never found where.
 
 The elder's expression hardens, but does not turn into a speech.
 
@@ -44,21 +44,17 @@ The elder's expression hardens, but does not turn into a speech.
 
 Torren answers the field-state part first.
 
-**TORREN:** Host pulled out. Organized force is gone from the fort and road gate. Rhazek ordered the withdrawal after we broke the interior command position.
+**TORREN:** Host withdrew. Bastion and road gate are out of their hands.
 
-**ELDER:** Rhazek was there himself?
+**ELDER:** Rhazek?
 
-**CYANIS:** Commanding it. He also admitted the seizures were his order, so this wasn't a few soldiers freelancing on the road.
-
-**ELDER:** Is he dead?
-
-**CYANIS:** No. We beat him there; he withdrew with what was left of his people rather than spend them holding a fort he'd lost.
+**CYANIS:** Alive. He owned the seizures and ordered the withdrawal.
 
 A beat.
 
-**ELDER:** But he lost the fort.
+**ELDER:** Then he lost the fort.
 
-**CYANIS:** Here, he lost.
+**CYANIS:** Here, yes.
 
 The elder nods once.
 
@@ -74,7 +70,7 @@ The elder looks toward the route out of town.
 
 Torren answers carefully.
 
-**TORREN:** Bastion isn't controlling the corridor anymore. Gate's open, their checkpoints are gone, and there's no organized Host force sitting on the Greenhollow road now. I'd still use normal road caution, but yes—the route is usable again.
+**TORREN:** Bastion isn't controlling the corridor anymore. Gate's open, checkpoints are gone. Use normal road caution, but yes—the route is usable again.
 
 **ELDER:** Then we reopen it.
 
@@ -106,25 +102,21 @@ The humor is brief and ordinary. It does not erase the unresolved missing people
 
 The elder looks back to the group.
 
-**ELDER:** The Bastion was a holding point, then. People came in and some were moved somewhere else before you got there.
+**ELDER:** And the earlier groups?
 
-**TORREN:** That's what the prisoners' experience supports.
-
-**ELDER:** And Rhazek wouldn't say where.
-
-**CYANIS:** No. He confirmed they weren't meant to stay there and stopped giving useful answers after that.
+**CYANIS:** Still missing. Rhazek wouldn't give us a destination.
 
 A short silence.
 
 Ilyra looks toward the rescued townspeople.
 
-**ILYRA:** We got the people who were still there out alive. That matters. It just doesn't answer what happened to everyone moved before them.
+**ILYRA:** We got the people who were there out alive.
 
-**MAEVRA:** And the road is open again. That matters too.
+**MAEVRA:** And reopened the road.
 
 The elder nods.
 
-**ELDER:** Both can be true. Missing people don't disappear because you saved these people, and saving these people doesn't become smaller because others are still missing.
+**ELDER:** Both matter.
 
 Nobody turns that into a ceremony.
 
@@ -184,12 +176,12 @@ No automatic chapter transition occurs when Beat 16 ends.
 
 ---
 
-## Natural-turn / world-state check
+## Audit check
 
-- The Dunmere debrief lets Ilyra, Torren, Cyanis, and the elder deliver complete outcome reports rather than rebuilding the chapter through one-sentence prompts.
-- Rhazek's survival and local defeat remain unambiguous.
-- Earlier transferred prisoners remain unresolved.
+- The Dunmere debrief is consequence-first. The elder gets the information needed to act without making the party replay the Bastion chapter beat by beat.
+- The earlier-transfer problem is stated once at arrival and revisited only as the unresolved question, not re-summarized as `holding point / moved elsewhere / Rhazek wouldn't say where`.
+- Rhazek's survival, responsibility, and local defeat remain unambiguous in two short turns.
+- The elder no longer gives a thematic `both can be true` speech; `Both matter` is enough after Ilyra and Maevra name the two concrete outcomes.
 - Greenhollow ↔ Dunmere travel reopens.
-- The prior repeated `I hate you / no you don't` party cadence is removed; the ending uses a Chapter-2-specific ordinary joke instead.
 - No Ancient-map mystery is explained.
 - Chapter 3 still begins only through explicit player confirmation.
