@@ -1,6 +1,6 @@
 # Chapter 3 — Beat 4
 # The Seal That Wasn't Used
-## DIALOGUE ENGINE PRODUCTION DRAFT A — CLOSING-AUDIT AGENT-BRAIN RERUN
+## DIALOGUE ENGINE PRODUCTION DRAFT A — CLOSING-AUDIT AGENT-BRAIN RERUN + ROYAL-VOICE POLISH
 
 **Method note:** fresh rehearsal under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The structural authority supplied the verification-room situation, hard findings, investigation split, and reveal firewalls. It did not prescribe speaker order, evidence-checklist dialogue, or which character had to verbalize each remaining possibility.
 
@@ -59,9 +59,9 @@ The room goes quiet.
 
 **OTHMAR:** The response is genuine by every Crown check we use.
 
-**LYSARA:** And the seal in front of us still works for me.
+**LYSARA:** And mine?
 
-**OTHMAR:** Yes.
+**OTHMAR:** Still answers normally.
 
 Lysara looks at the suspect order again.
 
@@ -99,19 +99,15 @@ Maevra scans the dates.
 
 Lysara folds her hands on the table.
 
-**LYSARA:** Can any of you tell me whether someone reached this seal without being recorded?
-
-No one answers immediately.
+**LYSARA:** Can you prove unrecorded access?
 
 **OTHMAR:** No.
 
-**LYSARA:** Can any of you tell me they had to?
-
-Another silence.
+**LYSARA:** Can you prove the order required physical access at all?
 
 **OTHMAR:** No.
 
-**LYSARA:** Good. Then we don't invent certainty because I dislike the alternatives.
+**LYSARA:** Then neither is fact. Move on.
 
 That ends the hypothesis discussion.
 
@@ -151,7 +147,7 @@ Othmar closes one ledger.
 
 **OTHMAR:** Authenticated copies. Verification notes. Nothing that requires the physical seal to leave this room.
 
-**LYSARA:** Agreed.
+**LYSARA:** Copies only.
 
 Ilyra glances at Cyanis's Card.
 
@@ -159,7 +155,7 @@ Ilyra glances at Cyanis's Card.
 
 Lysara follows her look.
 
-**LYSARA:** Also agreed.
+**LYSARA:** Correct.
 
 **CYANIS:** Glad everyone keeps having that thought before I do.
 
@@ -175,7 +171,7 @@ Mirena gathers the Crown-side records she still wants to work through.
 
 Lysara looks to Cyanis, Ilyra, and Torren.
 
-**LYSARA:** Take the Card and the permitted copies to Pellan. Mirena will authorize the archive levels you need.
+**LYSARA:** Dovaren. Amarin. Harth. Take the Card and the copies to Pellan. Mirena will open the archive levels.
 
 **CYANIS:** Understood.
 
@@ -217,13 +213,13 @@ Transition into:
 
 ## Beat-4 closing-audit notes
 
-- This replaces the earlier checklist-driven version with a fresh Agent-Brain rehearsal.
 - The physical seal is present, intact, and still answers normally for Lysara.
 - The suspect order still produces the same recognized royal authority response.
+- Lysara no longer narrates the two mechanism possibilities. She asks what can be proven, rules both unproven, and moves the room forward.
 - The custody record provides no clean theft-and-return window but is not treated as proof that covert access was impossible.
-- The scene does not have multiple characters recite the two remaining mechanism categories; Lysara asks what can actually be known and stops the room from manufacturing certainty.
 - Othmar behaves as a credible records/authentication expert without exposing his hidden role.
 - Mirena reaches for Nimera because current Crown expertise has hit a real boundary, not because the plot needs the next NPC.
+- Lysara controls evidence movement directly: copies travel; originals and the physical seal remain secured.
 - Maevra remains socially present but does not become an exposition channel.
 - Ilyra speaks only where the live Card-risk boundary matters.
 - no Card/seal experiment occurs.
