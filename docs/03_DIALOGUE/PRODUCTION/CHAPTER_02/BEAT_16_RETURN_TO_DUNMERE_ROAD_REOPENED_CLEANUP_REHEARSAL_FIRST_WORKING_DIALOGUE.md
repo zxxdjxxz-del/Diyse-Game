@@ -171,9 +171,11 @@ Current local state:
 
 During the Chapter-2 cleanup window, permitted systems/content may include:
 - Dunmere shopping, healing/rest, equipment management, saving, and ordinary hub use;
-- compatible Character-Life content including **C06 — Still Burns**;
+- compatible Character-Life content including **C05 — Still Burns**;
 - permitted side content, Hunts, and backtracking under their own authorities;
 - use of the reopened Greenhollow–Dunmere road where allowed by current world/travel authority.
+
+**C05 — Still Burns** currently lives in legacy atomic source file `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`; canonical numbering is controlled by `../CHARACTER_LIFE_NUMBERING_LOCK.md`.
 
 Hard chapter-boundary rule:
 > **Chapter 3 begins only when the player deliberately uses the explicit advance-story interaction and confirms that choice.**
@@ -184,7 +186,7 @@ No automatic chapter transition occurs when Beat 16 ends.
 
 ## Natural-turn / world-state check
 
-- The Dunmere debrief now lets Ilyra, Torren, Cyanis, and the elder deliver complete outcome reports rather than rebuilding the chapter through one-sentence prompts.
+- The Dunmere debrief lets Ilyra, Torren, Cyanis, and the elder deliver complete outcome reports rather than rebuilding the chapter through one-sentence prompts.
 - Rhazek's survival and local defeat remain unambiguous.
 - Earlier transferred prisoners remain unresolved.
 - Greenhollow ↔ Dunmere travel reopens.
