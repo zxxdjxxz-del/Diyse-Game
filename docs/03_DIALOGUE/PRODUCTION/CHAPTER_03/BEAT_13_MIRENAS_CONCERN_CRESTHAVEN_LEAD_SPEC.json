@@ -1,0 +1,119 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT13_MIRENAS_CONCERN_CRESTHAVEN_LEAD",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 13 — Mirena's Concern / Cresthaven Lead",
+  "production_ready": false,
+  "participants": ["cyanis", "ilyra", "torren", "nimera", "mirena", "maevra"],
+  "method": "guardrail_first_agent_brain_rehearsal",
+  "scene_purpose": "Privately debrief Mirena after the Old City investigation; let the evidence change her political assessment without solving the culprit; establish that restricted access and unusually powerful magic are both implicated; have Mirena ask the party to continue investigating directly with her; then use the existing Chapter-2 Ancient map/mural evidence to identify the marked northern site as probably Cresthaven without explaining why the Crest of Yahtrea appears on an Ancient source.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
+      "sections": ["Beat 13 — Mirena's Concern / Cresthaven Lead"],
+      "role": "current_consolidated_beat_13_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_BEAT_12_SEAL_COPYING_CORRECTION.md",
+      "whole_file": true,
+      "role": "immediate_old_city_evidence_authority"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md",
+      "whole_file": true,
+      "role": "conversation_route_must_emerge_from_agents"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_12_SEALWRIGHT_CHAMBER_COPYING_ATTEMPTS_DRAFT_A.md",
+      "whole_file": true,
+      "role": "immediate_dialogue_continuity"
+    },
+    {
+      "path": "external-services/canary/brains/mirena.yaml",
+      "whole_file": true,
+      "role": "mirena_agent_brain"
+    },
+    {
+      "path": "external-services/canary/brains/maevra.yaml",
+      "whole_file": true,
+      "role": "maevra_agent_brain"
+    },
+    {
+      "path": "external-services/canary/brains/cyanis.yaml",
+      "whole_file": true,
+      "role": "cyanis_agent_brain"
+    },
+    {
+      "path": "external-services/canary/brains/ilyra.yaml",
+      "whole_file": true,
+      "role": "ilyra_agent_brain"
+    },
+    {
+      "path": "external-services/canary/brains/torren.yaml",
+      "whole_file": true,
+      "role": "torren_agent_brain"
+    },
+    {
+      "path": "external-services/canary/brains/nimera.yaml",
+      "whole_file": true,
+      "role": "nimera_agent_brain_behavior_and_knowledge_model_subject_to_newer_project_authority"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Caelora palace — private meeting room",
+    "area_phase": "post_old_city_private_debrief",
+    "dialogue_readiness": "GREEN",
+    "runtime_note": "Cut directly here from the Sealwright Chamber exit. Queen Lysara is not present. Mirena is receiving the four-person party privately; Maevra is present because she remained in Caelora with Mirena working the Crown-side seal and document trail. Keep the scene conversational and selective rather than recapping every Old City beat in sequence."
+  },
+  "current_floor_state": {
+    "field_party": "cyanis_ilyra_torren_nimera",
+    "maevra_state": "worked_with_mirena_in_caelora_during_old_city_sequence",
+    "mirena_state": "has_crown_side_records_and_needs_field_party_evidence",
+    "lysara_state": "not_present",
+    "card_state": "stable_deep_ruby_unclassified_unusable",
+    "warden_state": "inert_after_previous_error_then_last_sentinel_confirmed",
+    "seal_copying_state": "recent_practice_progressed_to_crest_of_yahtrea_with_powerful_magic_but_no_proven_successful_magical_duplicate",
+    "map_evidence_state": "existing_chapter_2_ancient_map_mural_copy_shows_ancient_caelora_and_separate_northern_structure_marked_with_exact_crest_of_yahtrea"
+  },
+  "hard_outcomes": [
+    "Mirena receives the party privately; Lysara is not present.",
+    "The Old City evidence is conveyed selectively enough for Mirena and Maevra to understand the changed threat picture: a recent researcher/practitioner had access to restricted Old City material, someone practiced increasingly sophisticated seal copies culminating in the Crest of Yahtrea, powerful magic was used, and no evidence proves a copied seal reproduced Lysara's genuine magical response.",
+    "The Warden's PREVIOUS ERROR / LAST SENTINEL CONFIRMED sequence and the Card's subsequent stable deep Ruby state are reported without resolving what Last Sentinel refers to or classifying the Card.",
+    "Maevra contributes only Crown-side findings she could have learned while remaining in Caelora; she does not speak as a witness to Old City events.",
+    "Mirena's concern resolves to a practical political conclusion: the larger problem appears to involve meaningful access to restricted Crown or archive pathways together with unusually powerful magic, and ordinary channels may not all be trustworthy.",
+    "Mirena asks Cyanis, Ilyra, Torren, and Nimera to continue helping her investigate directly; the request is not conscription, containment, punishment, or surveillance of Cyanis.",
+    "The party agrees without requiring a loyalty speech or four separate verbal confirmations.",
+    "The existing Chapter-2 copied Ancient map/mural evidence is brought into the discussion; no new map is discovered in Beat 13.",
+    "Mirena recognizes the exact Crest of Yahtrea on the far older northern marked structure as historically impossible / deeply wrong and, using present geography and Crown knowledge, says she thinks the marked location is Cresthaven.",
+    "Cresthaven becomes the next practical lead without explaining why the Yahtrean Crest appears on an Ancient source or what lies farther north.",
+    "Beat 13 hands into the required rest-before-departure structure of Beat 14."
+  ],
+  "reveal_firewall": [
+    "recent_reader_identity",
+    "seal_practitioner_identity",
+    "calder_hidden_transport_role",
+    "who_created_the_suspect_transport_orders",
+    "successful_royal_magical_duplicate_proven",
+    "exact_method_of_unauthorized_royal_seal_response",
+    "last_sentinel_definitively_equals_card_or_cyanis",
+    "prime_classification",
+    "might_identification",
+    "bearer_confirmation",
+    "cresthaven_full_ancient_history",
+    "why_the_crest_of_yahtrea_appears_on_ancient_map",
+    "final_northern_destination"
+  ],
+  "forbidden_conversational_choreography": [
+    "round_robin_debrief_where_each_party_member_reports_one_assigned_fact",
+    "full_chronological_recap_of_beats_9_through_12",
+    "mirena_summarizes_the_entire_plot_back_to_the_party",
+    "characters_recite_reveal_firewalls",
+    "four_separate_lines_confirming_the_party_agrees_to_help",
+    "maevra_claims_to_have_seen_old_city_events",
+    "mirena_immediately_solves_the_culprit",
+    "cresthaven_reveal_as_destiny_or_prophecy"
+  ],
+  "production_cost_ceiling": "one_private_palace_debrief_scene_plus_existing_map_evidence_reveal_and_short_transition_to_rest"
+}
