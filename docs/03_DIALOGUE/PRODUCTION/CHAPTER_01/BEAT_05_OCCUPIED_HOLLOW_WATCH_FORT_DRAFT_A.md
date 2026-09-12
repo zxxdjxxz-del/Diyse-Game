@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 5
 # Occupied Hollow Watch Fort
-## DIALOGUE ENGINE PRODUCTION DRAFT D — established gameplay presentation normalization / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT D — established gameplay presentation + spoken/narration audit / awaiting user approval
 
 ---
 
@@ -112,21 +112,13 @@ Fort records and Black Host work records are present as part of the existing roo
 
 **CYANIS:** Riveting.
 
-**MAEVRA:** You joke, but they were counting everything going below.
-
-**TORREN:** Because the work didn't stop when the fort fell.
-
-**CYANIS:** So they took the Watch and kept digging.
-
-A beat.
-
-**TORREN:** Yeah.
-
-**MAEVRA:** Everything useful points downstairs.
+**MAEVRA:** Everything they logged goes below.
 
 **CYANIS:** Then we're done up here.
 
 **TORREN:** Good.
+
+The environment has already shown that the occupation is feeding the excavation; the dialogue does not restate the same conclusion in several voices.
 
 The scene ends there.
 
@@ -160,11 +152,9 @@ The breach itself is the required visual.
 
 **MAEVRA:** Explains the digging gear.
 
-**ILYRA:** They forced their way into the older stone.
+Ilyra looks at the fresh forcing work around the breach.
 
-**CYANIS:** Whatever's down there, they wanted it badly enough to take the fort first.
-
-A beat.
+**ILYRA:** Fresh breach.
 
 **TORREN:** Then let's see what was worth the trouble.
 
@@ -202,5 +192,7 @@ Next mandatory story beat: **Beat 6 — Black Host Excavation / Lower Access.**
 **Triggered scenes:** the full relevant cast may appear for the lower-fort stop, garrison discovery, watch-room discussion, and excavation threshold.
 
 **Random encounters:** no ordinary Black Host enemy is promoted into a scripted field encounter.
+
+**Spoken/narration audit:** the watch room and breach no longer make multiple characters restate the excavation priority after the environment has already established it. Spoken lines add only the operational next step and the fresh-breach observation.
 
 **Reduction:** removed tool-rack microdetail, bedroll comparison, stain inspection choreography, cloak adjustment, body-by-body movement, page handling, window/winch blocking, lamp pickup, brace warning, and repeated pointing/looking directions.
