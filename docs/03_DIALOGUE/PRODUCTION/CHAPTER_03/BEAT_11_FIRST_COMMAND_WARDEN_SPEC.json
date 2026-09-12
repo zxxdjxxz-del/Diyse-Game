@@ -1,0 +1,95 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT11_FIRST_COMMAND_WARDEN",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 11 — First Command Warden",
+  "production_ready": false,
+  "participants": ["cyanis", "ilyra", "torren", "nimera"],
+  "scene_purpose": "Stage the First Command Warden as the major Ancient authority confrontation of Chapter 3; preserve the locked activate-assess-reject-battle-shutdown sequence; deliver PREVIOUS ERROR and LAST SENTINEL CONFIRMED from the Warden itself; then, only after the Warden is fully inert, let Cyanis's Card stabilize into persistent deep Ruby without resolving Prime, Might, bearer, or Last Sentinel identity.",
+  "method": "guardrail_first_agent_brain_rehearsal",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_BEAT_11_FIRST_COMMAND_WARDEN_WORKING.md",
+      "whole_file": true,
+      "role": "beat_11_base_story_authority_subject_to_explicit_corrections"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_BEAT_11_WARDEN_SCAN_CORRECTION.md",
+      "whole_file": true,
+      "role": "mandatory_party_assessment_sequence"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_BEAT_11_WARDEN_FINAL_MESSAGE_CORRECTION.md",
+      "whole_file": true,
+      "role": "mandatory_warden_final_message_sequence"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_BEAT_12_SEAL_COPYING_CORRECTION.md",
+      "whole_file": true,
+      "role": "current_beat_12_handoff_boundary_no_new_map"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_OLD_CITY_FANTASY_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "ancient_physical_magical_fantasy_presentation"
+    }
+  ],
+  "dialogue_sources": [
+    {
+      "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_10_RECENT_READER_HALL_OF_SEALS_DRAFT_A.md",
+      "whole_file": true,
+      "role": "immediate_scene_continuity"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md",
+      "whole_file": true,
+      "role": "conversation_route_must_be_discovered_by_agents"
+    }
+  ],
+  "agent_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml"
+  ],
+  "canon_override_note": "Where runtime brain identity fields conflict with current whole-project canon, current canon controls. In particular Cyanis is Crest Knight / Crest Magus, Nimera is Cardweaver / Sixfold Knight, and stale brain Prime/Face/subclass labels must not enter dialogue or interpretation.",
+  "current_state": {
+    "party": "cyanis_ilyra_torren_nimera",
+    "maevra": "in_caelora_with_mirena",
+    "card": "physically_carried_by_cyanis_unclassified_unstable_green_gold_history_not_ruby_yet",
+    "recent_reader": "identity_unknown_trail_uncertain_at_command_threshold",
+    "location": "older_protected_command_chambers_beyond_hall_of_seals"
+  },
+  "hard_outcomes": [
+    "The large Diysean First Command Warden activates after the party enters the protected chamber.",
+    "The Warden visibly assesses the whole party through ancient magical craft before combat.",
+    "The assessment result is unacceptable or insufficient under an unknown old condition.",
+    "The Warden attacks and the party defeats it in a one-HP-bar story boss encounter under encounter authority.",
+    "During shutdown, while still barely active, the Warden communicates PREVIOUS ERROR.",
+    "The Warden then communicates LAST SENTINEL CONFIRMED as its final message.",
+    "Immediately after LAST SENTINEL CONFIRMED, the Warden becomes completely inert.",
+    "Only after the Warden is fully inert does Cyanis's Card reorganize from prior unstable green-and-gold behavior into a persistent stable deep Ruby state.",
+    "No Prime manifestation, recovery, summon, voice, figure, or new Card gameplay ability occurs.",
+    "The inner way becomes physically passable after the guardian is no longer maintaining the closure.",
+    "Beat 12 begins in the Ancient sealwright chamber; Beat 11 does not introduce a new map or route clue."
+  ],
+  "reveal_firewall": [
+    "Do not identify what PREVIOUS ERROR refers to.",
+    "Do not establish whether LAST SENTINEL refers to Cyanis, the Card, a title, rank, guardian, or another designation.",
+    "Do not classify the Card as Prime.",
+    "Do not identify the Card with Might.",
+    "Do not confirm Cyanis as bearer or owner.",
+    "Do not mark the Card Recovered or Awakened.",
+    "Do not identify the recent reader or Calder's hidden role.",
+    "Do not reveal the Beat-12 seal-copying practitioner or mechanism.",
+    "Do not use the Ruby Card as a key to open the inner way.",
+    "Do not reveal Cresthaven or any new north-route evidence."
+  ],
+  "presentation_guardrails": [
+    "The Warden is a physical magical construct, not a talking villain or digital security system.",
+    "Its assessment may use light, seal marks, ward-rings, carved apertures, gemstones, inlaid lenses, or similar ancient craft; no UI or terminal language.",
+    "PREVIOUS ERROR and LAST SENTINEL CONFIRMED must come from the Warden itself during shutdown, through fantasy-appropriate body/ward inscription or resonant magical communication.",
+    "Do not prescribe which party member must explain the Warden, translate every visual, or verbalize the reveal firewall.",
+    "Keep post-fight dialogue short; confusion and silence are valid."
+  ]
+}
