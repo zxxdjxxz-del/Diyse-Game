@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 5
 # Occupied Hollow Watch Fort
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS + ILYRA ROLE-BALANCE PASS
 
 ---
 
@@ -44,21 +44,19 @@ Torren studies the wear and traffic rather than the furniture.
 
 **TORREN:** Could be. Or work gangs. Can't tell from wear alone.
 
-**MAEVRA:** Useful part is the same: whatever they wanted here wasn't the fort.
+Ilyra looks around at how little ordinary life the occupiers have bothered to establish.
 
-Ilyra has stopped looking at the traffic entirely.
+**ILYRA:** Miserable way to live in a fort you've already stolen.
 
-**ILYRA:** Blood by that door.
+**MAEVRA:** They don't care about living here. Whatever they wanted wasn't the fort.
+
+Cyanis's attention catches on the doorway.
+
+**CYANIS:** Blood.
 
 That changes the room.
 
-Cyanis looks where she is looking.
-
-**CYANIS:** Fresh?
-
-Ilyra does not pretend certainty from a glance.
-
-**ILYRA:** Recent enough that I want the room checked before we keep theorizing about the stairs.
+**ILYRA:** Then the stairs can wait.
 
 **TORREN:** Agreed.
 
@@ -88,7 +86,7 @@ The room itself carries the visual fact. Do not add body-by-body inspection chor
 
 A beat of silence.
 
-Ilyra performs the one necessary check for survivors.
+Ilyra performs the one necessary check for survivors because that is genuinely her expertise and the scene requires an answer.
 
 Cyanis waits until she finishes the minimum check she needs.
 
@@ -140,7 +138,7 @@ Then she turns away herself.
 
 Scene ends.
 
-The extra second belongs to the people in the room, not to a new reveal.
+The extra second is not a professional beat. Ilyra has just seen a room full of dead people and reacts as a person before moving on.
 
 ---
 
@@ -176,7 +174,17 @@ Torren is still carrying the west-store discovery with him and has no interest i
 
 **TORREN:** Good.
 
-Ilyra looks once at him, but does not force conversation he has not offered.
+Ilyra looks at the records.
+
+**ILYRA:** I preferred the dirt lecture.
+
+Torren gives her a sidelong look.
+
+**TORREN:** Told you it was useful.
+
+**ILYRA:** I said preferred. Don't get ambitious.
+
+It is a small ordinary exchange, not an attempt to manage Torren's grief.
 
 The environment has already shown that the occupation is feeding the excavation; the dialogue does not repeat the same conclusion in several voices.
 
@@ -214,15 +222,19 @@ Torren answers immediately.
 
 **MAEVRA:** Explains the digging gear.
 
-Ilyra looks at the forcing work around the breach.
+Ilyra takes in the violence of the forcing work rather than claiming specialist knowledge of the structure.
 
-**ILYRA:** Fresh breach. Edges haven't had time to weather, and the debris hasn't settled into the floor yet.
+**ILYRA:** Whatever they used, preservation wasn't part of the plan.
 
-**CYANIS:** So they opened it after taking the fort.
+**CYANIS:** Subtle wasn't either.
 
-Torren considers the sequence.
+Torren checks the breach and debris with the field eye that actually owns that inference.
 
-**TORREN:** Looks that way. Doesn't tell us whether they knew it was here before they attacked.
+**TORREN:** Fresh. Edges haven't weathered and the debris hasn't settled. They opened this after taking the fort.
+
+**CYANIS:** Doesn't tell us whether they knew it was here before they attacked.
+
+**TORREN:** No.
 
 **MAEVRA:** Good distinction.
 
@@ -231,6 +243,8 @@ Torren glances at her.
 **TORREN:** Learned from the annoying people around me.
 
 **MAEVRA:** You're welcome.
+
+**ILYRA:** That's two of us now. You collect well.
 
 Cyanis looks into the dark lower route.
 
@@ -267,9 +281,11 @@ Next mandatory story beat: **Beat 6 — Black Host Excavation / Lower Access.**
 
 ## Person-Brain performance note
 
-- the lower-fort conversation now lets Torren distinguish observed traffic from inferred work structure rather than supplying two-word answers.
-- the garrison-discovery silence remains protected. The pass does not mistake grief for a need to add speeches.
-- Ilyra asks for one second and receives it; that small beat carries more humanity than a retrospective explanation would.
-- Maevra's operational discipline remains intact but she speaks to Torren like someone who knows exactly why he needs the boundary.
+- the lower-fort conversation lets Torren distinguish observed traffic from inferred work structure rather than supplying two-word answers.
+- Cyanis, not Ilyra, notices the blood; Ilyra does not need to own every human-consequence observation.
+- the garrison-discovery survivor check remains Ilyra's because the scene genuinely needs her professional judgment. Her later request for one second is explicitly a human reaction, not a healer function.
+- Ilyra does not silently therapist-watch Torren in the watch room; she engages him through their emerging dirt-lecture joke instead.
+- Torren, not Ilyra, owns the field inference that the breach is fresh. Ilyra is free to react to the destructive method without becoming an ancient-structure expert.
+- Maevra's operational discipline remains intact without converting Ilyra into the party's emotional interpreter.
 - the watch-room scene remains intentionally compressed because the environment has already made the excavation priority obvious.
-- the breach scene adds bounded interpretation only; nobody invents prior Host knowledge or Ancient purpose.
+- no story outcome or knowledge boundary changes.
