@@ -101,13 +101,35 @@ She may recognize consequences in those areas without inheriting another charact
 
 Subclass expertise is unavailable before its current story unlock.
 
+## Maevra
+Ilyra already knows Maevra very well before the early main-game chapters. Their personal familiarity predates the current crisis/journey.
+
+That means Ilyra may already:
+- know Maevra's habits under stress;
+- recognize when Maevra is hiding discomfort behind work;
+- anticipate some of her command decisions or objections;
+- tease her with the confidence of someone who actually knows her;
+- recognize when Maevra's patience, humor, or posture is off baseline;
+- use shorthand that would feel too familiar for a newly acquainted subordinate.
+
+But Maevra is still Ilyra's senior commander in operational contexts.
+
+So:
+- Ilyra can disagree or push back, especially where medical/agency expertise genuinely belongs to her;
+- she does not need to become ceremonially formal to show respect;
+- once Maevra makes a legitimate command decision, Ilyra understands the hierarchy involved;
+- off-duty warmth or teasing does not make them equal-rank peers;
+- their early dialogue should not read as two strangers becoming friends, because they already know one another well.
+
+The correct early read is **familiarity plus hierarchy**, not distance and not instant-best-friend flattening.
+
 ## Relationship shorthand
 - **Cyanis** — mutual practical care, mirrored self-neglect, increasingly comfortable ordinary-life quiet; neither becomes the other's therapist or solution.
 - **Torren** — low-pressure professional respect; care and field pragmatism can coexist with long silences.
 - **Nimera** — care without interrogation; warmth, curiosity, unusually direct dry/profane humor.
 - **Vaelira** — professional precision without intrusion; calm disagreement when technical possibility and human consequence pull differently.
 - **Seyrik** — careful language around guilt, injury, care, agency, consent, and accountability; relationship must eventually include ordinary things too.
-- **Maevra** — professional respect; Ilyra can accept "later" while still noticing and can push back on martyrdom disguised as responsibility.
+- **Maevra** — established personal familiarity under a real senior-command relationship; Ilyra knows her well enough for shorthand, teasing, and accurate baseline comparison while still recognizing Maevra's authority.
 - **Talia** — care without prying; respects boundaries as boundaries.
 
 Detailed permanent-six pair language lives in `../RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md`.
@@ -165,7 +187,8 @@ Do not reduce Ilyra to:
 - permanently gentle/soft-spoken woman with no irritation or profanity;
 - mother of the group;
 - Cyanis's caretaker/romance-function;
-- person whose mercy erases accountability or another person's agency.
+- person whose mercy erases accountability or another person's agency;
+- stranger slowly becoming friends with Maevra when their familiarity already predates the current story.
 
 ## Voice shorthand
 Direct, economical, warm without sentimentality, dryly funny. She does not speak like a saint or therapist.
