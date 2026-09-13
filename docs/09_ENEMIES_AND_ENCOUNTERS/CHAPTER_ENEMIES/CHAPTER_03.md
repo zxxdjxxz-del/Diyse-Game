@@ -3,7 +3,7 @@
 **Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
 **Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
 **Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit story / placement corrections.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, fresh-body Prime-refresh rules, and current story placement supersede stale earlier enemy text.
+**Migration rule:** current Chapter-3 story placement and later explicit corrections supersede stale migrated route assumptions.
 
 
 ## Ordinary / repeatable
@@ -32,17 +32,19 @@ Do not place them in:
 ## Support objects / support identities
 - None
 
-## Authored / protected / nonlethal
-- Ivory Watch Guard — lawful/nonlethal
-- Royal Polearm Officer — lawful/nonlethal
-- Ivory Crossbow Sentinel — lawful/nonlethal
-- Order Clerk — lawful/nonlethal
-- False-Warrant Adept — lawful/nonlethal
-- Ivory Adjudicator — named nonlethal
-- S018 lawful-authority confrontation I/II — formation-level; no fake boss body
+## Recovered authored/protected identities — no current mandatory placement
+- Ivory Watch Guard — lawful/nonlethal identity retained
+- Royal Polearm Officer — lawful/nonlethal identity retained
+- Ivory Crossbow Sentinel — lawful/nonlethal identity retained
+- Order Clerk — lawful/nonlethal identity retained
+- False-Warrant Adept — lawful/nonlethal identity retained
+- Ivory Adjudicator — named nonlethal identity retained
+- old S018 lawful-authority confrontation I/II — **not part of the current mandatory 15-beat Chapter-3 route**
+
+The current Caelora gate arrival is lawful and routine. Do not insert these encounters into Beat 1, the royal audience, seal investigation, or palace-to-Old-City handoff unless the story is explicitly revised.
 
 ## Optional Elite
-- Grand Inquisitor Frame
+- Grand Inquisitor Frame — retained enemy identity; optional placement must be explicitly supported by current area design and is not a mandatory-story encounter
 
 ## Mandatory named / boss
 - First Command Warden — one bar / same-bar command-state shift
@@ -50,49 +52,55 @@ Do not place them in:
 ## Regional Hunt
 - Regional Hunt #3 — Archive Judgment Engine
 
+## Current story-placement firewall
+Current 15-beat Chapter-3 story authority controls actual placement.
+
+- Beat 1 Caelora approach is lawful and has no hostile random road stretch.
+- Beats 2–4 are investigation/audience/seal-custody material, not mandatory combat encounters.
+- Beat 5 Old City access has no major combat requirement.
+- Beat 7 barrier reactivation hands directly into the mandatory Archive Scribe Engine encounter.
+- Beat 8 is the contained onboarding fight in which Nimera becomes battle-available.
+- Suppressed-Archive random formations belong after that activation/encounter state, not before it.
+- Deep command-route formations may use Command-Station Sentries, Authority Lenses, and Command Ring Drones before the First Command Warden.
+- First Command Warden is the current mandatory Chapter-3 boss.
+- Beat 12 exits by direct cut upstairs; there is no playable return traversal or exit combat.
+- Beat 14 → Beat 15 travel to Cresthaven is skipped; there is no Chapter-3 road dungeon or random-encounter stretch there.
+- Maevra is **not** a Chapter-3 battle-party guest. She remains noncombat and stays above with Mirena when Cyanis, Ilyra, and Torren enter the Old City.
+
 ## Current notes
-Chapter-3 line-complete ordinary / Elite / lawful encounter pass:
-> **MAIN BATCH PASS**
+Chapter-3 direct-damage Power/raw work remains:
+> **POWER COMPLETE**
 
 Summary:
 `../ORDINARY_ENEMIES/CHAPTER_03_POWER_AND_RAW_REGISTER.md`
 
-### Mandatory-route placement firewall
-Current 15-beat Chapter-3 story authority controls where the recovered enemy identities can actually appear.
-
-- Beat 1 Caelora approach is lawful and has no hostile random road stretch.
-- Beat 5 Old City access has no major combat requirement.
-- Beat 7 barrier reactivation hands directly into the mandatory Archive Scribe Engine encounter.
-- Suppressed-Archive random formations belong after that activation/encounter state, not before it.
-- Deep command-route formations may use Command-Station Sentries, Authority Lenses, and Command Ring Drones before the First Command Warden.
-- Beat 12 exits by direct cut upstairs; there is no playable return traversal or exit combat.
-- Beat 14 → Beat 15 travel to Cresthaven is skipped; there is no Chapter-3 road dungeon or random-encounter stretch there.
-
-S018:
-- confrontation I = Ivory Watch Guard + Royal Polearm Officer + Ivory Crossbow Sentinel;
-- Order Clerk remains noncombat;
-- confrontation II = Ivory Adjudicator Sereth alone;
-- Adjudicator ends at 333 HP /35% contradiction threshold;
-- exactly two nonlethal confrontations;
-- no random encounters;
-- no command-category deletion.
-
-Grand Inquisitor Frame:
-> **POWER COMPLETE**
+The retained enemy kits/raw bodies are not automatic placement authority. Current story/area placement must still license an encounter before it appears.
 
 Status rollout:
 > **Stun introduced in Chapter 3**
 
-### Open placement issue
-False-Warrant Adept remains in the migrated roster but has no recovered line-complete S018 placement.
+## Mandatory-vs-completionist validation status
 
-Do not spawn it until its role is recovered or explicitly approved.
+> **REOPENED / REVALIDATION REQUIRED**
+
+The old v79 validation used superseded assumptions:
+- Maevra as a playable guest combatant;
+- a mandatory hostile-perimeter opening phase;
+- old S018 lawful Caelora confrontations as current route content.
+
+Those assumptions are retired under the current 15-beat chapter.
+
+The direct-damage Power audit remains closed. Encounter validation must be rerun against the current route and current party chronology:
+- before Nimera: **Cyanis + Ilyra + Torren**;
+- after Nimera's Beat-8 onboarding: **Cyanis + Ilyra + Torren + Nimera**;
+- Maevra never contributes battle action economy.
+
+Owning validation:
+`../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_03_MANDATORY_COMPLETIONIST_VALIDATION.md`
 
 ## Numerical boundary
-Chapter-3 ordinary and lawful raw bodies are newly authored active-balance values in individual files.
+Current raw bodies/Powers remain in their owning files pending fresh encounter validation.
 
-Grand Inquisitor Frame retains its inherited raw line.
+First Command Warden remains the current mandatory boss authority.
 
-First Command Warden remains separately certified.
-
-Regional Hunt #3 remains separate from this batch.
+Regional Hunt #3 remains separate from the mandatory route.
