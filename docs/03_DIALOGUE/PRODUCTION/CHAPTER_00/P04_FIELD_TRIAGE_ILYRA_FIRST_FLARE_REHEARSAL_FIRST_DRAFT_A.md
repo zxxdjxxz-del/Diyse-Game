@@ -1,6 +1,6 @@
 # Chapter 0 — P04
 # Field Triage Camp / Ilyra / First Incomplete Response
-## REHEARSAL-FIRST PRODUCTION DRAFT B — NATURAL-TURN RHYTHM PASS / awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 ---
 
@@ -18,23 +18,37 @@ The recovered Card is still inside its damaged recovery casing and remains inert
 
 Ilyra's first line is work.
 
-**ILYRA:** Walking wounded by the blue cloth. If you can stand, help someone who can't. Nobody moves her yet.
+**ILYRA:** Walking wounded by the blue cloth. If you can stand without falling over, help somebody who can't. Nobody moves her yet—not the blanket, not the board, not her because you think you're helping.
 
 Cyanis reaches the same lane from the security side.
 
-**CYANIS:** I need this clear.
+**CYANIS:** I need this clear before the east side collapses into it.
+
+Ilyra does not look up from the patient immediately.
 
 **ILYRA:** Then move the crates.
 
 **CYANIS:** She can't move?
 
-**ILYRA:** Not safely. Her breathing gets worse when we shift her, and I don't have enough hands to gamble on it. Give me a stable surface and a few minutes.
+Now Ilyra looks at him.
 
-Cyanis checks the lane.
+**ILYRA:** Not safely. Her breathing gets worse every time the torso shifts, and I don't have enough hands or information to gamble on whether the next move makes that permanent. Give me a stable surface and a few minutes. You can have the lane around her.
 
-**CYANIS:** All right. Crates move.
+Cyanis checks the space once, then points toward the crates.
 
-No argument for the sake of argument. He got the information he needed.
+**CYANIS:** All right. Crates move. Leave her where she is.
+
+A nearby escort starts to drag one of the crates alone.
+
+**CYANIS:** Not by yourself. Get help or leave it.
+
+Ilyra hears that.
+
+**ILYRA:** Good rule.
+
+**CYANIS:** Been a popular one today.
+
+There is no argument for the sake of argument. He got the information he needed; she sees that he will actually use it.
 
 The scene releases briefly into normal camp work.
 
@@ -44,39 +58,61 @@ The scene releases briefly into normal camp work.
 
 A little later, Cyanis and Ilyra are working the same problem from different sides.
 
-**CYANIS:** East side's thin. How much room do you need behind the wagon?
+**CYANIS:** East side's thin. How much room do you need behind the wagon if I pull the line closer?
 
-**ILYRA:** Eight paces.
+Ilyra glances back, measures the practical space rather than answering reflexively.
 
-**CYANIS:** Seven keeps the west corner covered.
+**ILYRA:** Eight paces if you want me to move two stretchers past each other without turning either patient sideways.
 
-Ilyra checks once.
+**CYANIS:** Seven keeps the west corner covered. I can give you eight for a few minutes, but if the pressure shifts south I need one back.
 
-**ILYRA:** Seven.
+Ilyra checks once more.
 
-A beat.
+**ILYRA:** Seven now. If I call for eight, I mean immediately.
 
-Her attention catches on Cyanis.
+**CYANIS:** Done.
 
-**ILYRA:** Your left arm's shaking. Don't tell me it still works; I'm asking whether it's getting worse.
+Her attention catches on Cyanis as he turns.
 
-**CYANIS:** I'm upright.
+**ILYRA:** Your left arm's shaking.
 
-**ILYRA:** For now.
+Cyanis looks at it as if the arm has betrayed him by being visible.
+
+**CYANIS:** Still works.
+
+**ILYRA:** I didn't ask whether it works. I asked because the tremor is worse than it was when you came in. Pain, weakness, or both?
+
+**CYANIS:** Mostly pain.
+
+**ILYRA:** Mostly is doing suspicious work there.
+
+He flexes the hand once.
+
+**CYANIS:** Pain. Some weakness when I lift it high. No numbness.
+
+**ILYRA:** Better. Don't keep testing it just because I asked.
+
+Cyanis lets the arm drop.
 
 A beat.
 
 **CYANIS:** Name?
 
-**ILYRA:** Amarin.
+**ILYRA:** Amarin. Ilyra, if nobody's shouting rank at me.
 
-**CYANIS:** Dovaren.
+**CYANIS:** Cyanis Dovaren.
 
-**ILYRA:** I know. You were being shouted at earlier.
+**ILYRA:** I know. You've been getting yelled at across the entire wreck field.
 
-**CYANIS:** That'll do it.
+**CYANIS:** Good to know my reputation arrived first.
 
-That is all the introduction gets before the crisis interrupts them.
+**ILYRA:** Your reputation is currently "man people keep shouting at who then runs toward the problem."
+
+**CYANIS:** I've had worse.
+
+**ILYRA:** I'm sure.
+
+That is as much introduction as the crisis permits.
 
 ---
 
@@ -84,19 +120,25 @@ That is all the introduction gets before the crisis interrupts them.
 
 **CONVOY OFFICER:** East ridge!
 
-Cyanis reacts to the threat.
+Cyanis turns immediately toward the threat.
 
-**CYANIS:** Get everyone behind the relay wall.
+**CYANIS:** Everybody behind the relay wall! If you're carrying someone, don't drop them to get there faster!
 
-**ILYRA:** Two stay. If I move them now, they may stop breathing before they reach it.
+**ILYRA:** Two stay.
 
-Cyanis looks toward the ridge, then back to her.
+Cyanis looks back.
 
-**CYANIS:** Then tell me what you need.
+**ILYRA:** Those two. If I move them now, they may stop breathing before they reach the wall. I can stabilize one here and move the other after, but I need the space to stay mine long enough to do it.
 
-**ILYRA:** Half a minute and something between them and that ridge.
+Cyanis looks toward the ridge, then at the exposed treatment position.
 
-Before Cyanis can answer, green-and-gold light wakes inside the damaged recovery casing.
+**CYANIS:** Tell me exactly what you need.
+
+**ILYRA:** Half a minute. Something solid between them and that ridge. And nobody deciding halfway through that panic is faster than my instructions.
+
+**CYANIS:** You get the half minute.
+
+Before either can say more, green-and-gold light wakes inside the damaged recovery casing.
 
 Fragmented geometry spreads through the threatened treatment position, briefly stabilizing failing cover and the movement lane.
 
@@ -108,23 +150,31 @@ The player gets the visual without a speech explaining it.
 
 **CONVOY OFFICER:** What the hell is that?
 
+Cyanis is staring at the same impossible light everyone else is.
+
 **CYANIS:** No idea.
 
-Ilyra catches Cyanis's physical reaction almost immediately.
+Ilyra catches something else almost immediately.
 
 **ILYRA:** Dovaren.
 
 **CYANIS:** I'm fine.
 
-**ILYRA:** No, you're not. Your pulse changed when that started.
+**ILYRA:** No, you're not. Your pulse jumped when that started and your face just went gray. Look at me.
+
+He does, briefly.
 
 **CYANIS:** Can you keep me standing long enough to hold the cut?
 
-Ilyra checks him only as much as the active crisis allows.
+Ilyra checks what she can in seconds rather than pretending she has a diagnosis.
 
-**ILYRA:** For now. If that changes, I tell you—not the other way around.
+**ILYRA:** Yes—for now. You're responsive, your pupils look even, and you're not falling over. That is not me saying you're fine. If any of that changes, I tell you to stop and you stop. You don't negotiate because the line is busy.
 
-**CYANIS:** Fair. Move them.
+**CYANIS:** Fair.
+
+He looks toward the patients.
+
+**CYANIS:** Move them.
 
 Ilyra uses the opening rather than continuing the conversation.
 
@@ -142,55 +192,71 @@ There is **no lingering Card protection** after this point.
 
 The relevant characters remain in the active camp scene.
 
-Ilyra checks Cyanis again.
+Ilyra finds Cyanis again as soon as the immediate movement is complete.
 
-**ILYRA:** Look at me. Properly.
+**ILYRA:** Cyanis.
+
+The first-name use gets his attention faster than another order would.
+
+**ILYRA:** Look at me. Properly this time.
 
 He does.
 
-**ILYRA:** Dizzy? Vision doing anything strange? Hands numb?
+**ILYRA:** Dizzy? Vision doing anything strange? Hands numb? Hearing normal?
 
-**CYANIS:** Little dizzy. Rest is normal.
+**CYANIS:** Little dizzy. Vision's normal. Hands aren't numb. I can hear you being very specific.
 
-**ILYRA:** Better answer.
+**ILYRA:** Good. That's an actual answer.
 
 **CYANIS:** You grading me now?
 
-**ILYRA:** Apparently. If your vision narrows, your hand goes numb, or you stop hearing me clearly, you tell me immediately.
+**ILYRA:** Apparently. You're improving.
+
+She watches his eyes another moment.
+
+**ILYRA:** If your vision narrows, either hand goes numb, the dizziness gets worse, you lose time, or you stop hearing me clearly, you tell me immediately. Not after the next fight. Not when somebody else notices. Immediately.
 
 **CYANIS:** I will.
 
-No joke follows. He heard her.
+She studies him for half a second, deciding whether she believes the promise rather than demanding one more.
+
+**ILYRA:** All right.
 
 Outside the treatment position, Black Host pressure is still active.
+
+Cyanis looks toward the perimeter.
 
 **CYANIS:** I need to hold the cut.
 
 **ILYRA:** Yes.
 
-Cyanis waits.
+He waits because the answer is unexpectedly simple.
 
 **CYANIS:** You're staying here?
 
-**ILYRA:** No. They're stable enough for the next few minutes; that line isn't. If it folds, I have patients in the open anyway.
+**ILYRA:** No. These two are stable enough for the next few minutes and I've handed them to people who know what not to do. That line isn't stable. If it folds, every patient I just protected is exposed again, so standing here pretending treatment ends at the blanket would be stupid.
 
-Cyanis accepts the distinction.
+Cyanis nods toward the weapon she already carries.
 
-**CYANIS:** You fight?
+**CYANIS:** You fight.
 
 **ILYRA:** I'm a Warden.
 
 A beat.
 
-**CYANIS:** Right.
+**CYANIS:** Right. Sorry. Long day.
 
-**ILYRA:** Try to keep up.
+**ILYRA:** You drank nothing, you're bleeding through one sleeve, and something in a recovery case just made your pulse jump. I'll allow one stupid question.
+
+**CYANIS:** Generous.
+
+**ILYRA:** Don't spend it twice. Move, Dovaren.
 
 **CYANIS:** Starting strong, Amarin.
 
-**ILYRA:** Move, Dovaren.
+**ILYRA:** You're still standing here.
 
-That is the end of it.
+Cyanis goes.
 
 Ilyra joins the defense by her own professional decision.
 
@@ -206,6 +272,11 @@ The first incomplete green-and-gold response has occurred and fully ended. Cyani
 
 No Prime, Might, Last Sentinel, bearer, ancient-weapon, or Entity explanation is revealed.
 
-## Natural-turn rhythm note
+## Person-Brain performance note
 
-The scene now varies turn length by pressure: commands and first-contact banter stay short, while Ilyra is allowed to finish medical/practical reasoning without being forced into one-sentence handoffs.
+- Cyanis and Ilyra meet as two competent adults solving overlapping problems, not as leader and designated healer exchanging plot lines.
+- Ilyra owns complete medical/practical thoughts and distinguishes a temporary field clearance from declaring Cyanis `fine`.
+- Cyanis gives useful symptom answers once Ilyra makes clear why the precision matters; he still defaults to minimizing himself first.
+- their first humor grows out of work and mutual observation rather than instant intimacy.
+- Ilyra joins the defense because her professional reasoning reaches that decision; Cyanis does not recruit or grant her permission.
+- urgent commands remain short where danger earns them.
