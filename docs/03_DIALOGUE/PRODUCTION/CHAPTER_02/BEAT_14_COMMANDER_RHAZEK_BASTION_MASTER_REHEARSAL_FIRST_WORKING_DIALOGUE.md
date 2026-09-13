@@ -1,7 +1,6 @@
 # Chapter 2 — Beat 14 — Commander Rhazek / Bastion Master
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — SPOKEN/NARRATION AUDIT CURRENT — NOT LOCKED  
-**Owning cumulative manuscript:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`  
+**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — SPOKEN/NARRATION + ENSEMBLE CHARACTER-BALANCE PASS CURRENT  
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
 Beat 14 begins immediately after Beat 13. The unnamed masked officer has already left on operational orders and does **not** participate in this encounter. Maevra remains below with the prisoners. Cyanis, Ilyra, and Torren face Commander Rhazek.
@@ -72,7 +71,7 @@ Rhazek is still alive, but the result is unambiguous. He is wounded, breathing h
 
 Cyanis remains ready in case he tries.
 
-Ilyra checks Cyanis and Torren with a fast glance rather than breaking the standoff for a full treatment scene.
+Ilyra stays alert rather than automatically converting the standoff into a post-battle medical check.
 
 Torren listens to the fort beyond the room.
 
@@ -112,7 +111,7 @@ Cyanis keeps his attention on Rhazek.
 
 **RHAZEK:** You took the galleries. You took the command level. If you can move them, move them.
 
-**ILYRA:** We can.
+**CYANIS:** We can.
 
 Torren looks toward the command-side route.
 
@@ -148,11 +147,15 @@ Cyanis stops.
 
 **TORREN:** Past that gate, we're chasing him away from the people we came for.
 
-Ilyra looks back toward the interior stair.
+Ilyra watches the retreating force clear the gate.
 
-**ILYRA:** And they still need us to get them out.
+**ILYRA:** He's already fucking leaving. Let him.
 
 Cyanis watches Rhazek's withdrawal for another moment.
+
+**CYANIS:** Fuck.
+
+A beat.
 
 Then he lets the pursuit go.
 
@@ -180,15 +183,13 @@ A beat.
 
 **TORREN:** This'll work.
 
-Ilyra does not celebrate. Her attention has already gone back to the prisoners below.
+Ilyra looks at the open gate, then back toward the interior they fought through.
 
-**ILYRA:** Then we go get them.
+**ILYRA:** About fucking time.
 
-Cyanis looks once at the now-open road, then back toward the interior.
+Cyanis turns with her.
 
 **CYANIS:** We came for them.
-
-Torren turns with him.
 
 **TORREN:** Yeah.
 
@@ -198,13 +199,15 @@ Control/story handoff moves directly toward **Beat 15 — Return to the Prisoner
 
 ---
 
-## Beat-14 audit checkpoint
+## Ensemble audit checkpoint
 - Cyanis, Ilyra, and Torren have **defeated Commander Rhazek in combat**.
 - Maevra did not participate in the fight and remains below with the prisoners.
 - The unnamed masked officer never returns and never participates in Beat 14.
 - Rhazek receives no secret second phase, fresh HP form, invulnerable reversal, magical escape, or victory-erasing cutscene.
 - Rhazek recognizes that the Old Bastion's interior command position has become militarily untenable and orders a **general Black Host withdrawal through the maintained road gate**, with wounded personnel moved first.
-- Cyanis does not announce the already-visible withdrawal back to Rhazek; he immediately asks about the prisoners, the unresolved human consequence that still matters.
+- Cyanis owns the commitment that the prisoners can be moved rather than Ilyra serving as his default human-consequence proxy.
+- Ilyra remains a combatant and adult participant in the aftermath: she stays alert, reacts sharply to the retreat, and can swear naturally without being assigned the post-battle medical roll call or rescue-conscience line.
+- Torren's pursuit warning is a practical field judgment, not a statement that Cyanis is incapable of choosing correctly himself.
 - Surviving Host soldiers withdraw rather than being exterminated to prove victory.
 - Rhazek leaves alive with the retreating force through an ordinary military exit.
 - The party could pursue beyond the gate, but deliberately prioritizes the captives still waiting below.
