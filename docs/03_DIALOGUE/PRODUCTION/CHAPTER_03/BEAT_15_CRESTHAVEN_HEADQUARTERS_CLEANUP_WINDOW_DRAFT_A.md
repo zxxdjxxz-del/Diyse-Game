@@ -1,10 +1,8 @@
 # Chapter 3 — Beat 15
 # Cresthaven Headquarters / Cleanup Window
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
-**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the Cresthaven arrival state, operational-headquarters outcome, visible older Diysean layer, Regional Hunt #3 access notice, Mirena/Maevra departure state, and cleanup-window handoff. It was not given a required tour dialogue, a headquarters ceremony, or one reaction line per party member.
-
-**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Mirena holds complete operational thoughts; Nimera's curiosity and correction reflex are allowed to collide with practical limits; the others retain their own rhythms rather than matching her line length.
+**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, then audited under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` and current Ilyra character authority. The Cresthaven arrival state, operational-headquarters outcome, visible older Diysean layer, Regional Hunt #3 access notice, Mirena/Maevra departure state, and cleanup-window handoff remain fixed. Nimera's curiosity remains intact; Ilyra is no longer assigned automatic supervision of Cyanis or the sealed-space safety line.
 
 ---
 
@@ -34,11 +32,11 @@ Cyanis takes in the amount of work already happening.
 
 **MIRENA:** Apparently you listened when I told you to sleep.
 
-**CYANIS:** Ilyra supervised.
+**CYANIS:** Historic occasion.
 
-**ILYRA:** I did not.
+**ILYRA:** I wanted it witnessed.
 
-**NIMERA:** She didn't have to. Group pressure was already oppressive.
+**NIMERA:** I can make a note.
 
 Torren looks up toward the roofline.
 
@@ -88,13 +86,11 @@ Nimera steps closer without touching it.
 
 **CYANIS:** Another old door.
 
-**ILYRA:** Don't.
+Ilyra looks at him.
 
-**CYANIS:** I didn't do anything.
+**ILYRA:** You're starting to sound disappointed by ordinary walls.
 
-**ILYRA:** That's why I'm getting ahead of it.
-
-Nimera looks at the sealed lower opening.
+**CYANIS:** Ordinary walls have been less interesting lately.
 
 **NIMERA:** For once, I'm with him. I only want to look.
 
@@ -189,7 +185,7 @@ A beat.
 
 **NIMERA:** That was an excellent answer.
 
-**ILYRA:** Stopping at the threshold was sensible.
+**ILYRA:** I already like whoever wrote that report.
 
 **MIRENA:** I occasionally employ sensible people.
 
@@ -261,9 +257,7 @@ Mirena looks at the four.
 
 **MIRENA:** Consider not waking it.
 
-Ilyra looks at Cyanis.
-
-**ILYRA:** We can do that.
+**ILYRA:** That would make a refreshing change.
 
 **CYANIS:** Why are you looking at me?
 
@@ -322,8 +316,10 @@ There is no mandatory emotional chapter-closing speech.
 ## Beat-15 production notes
 
 - Cresthaven's hub functions are demonstrated by the active Crown work crew rather than listed by Mirena like a menu.
-- Mirena's headquarters handoff now uses a full natural operational turn and keeps her dry authority intact.
+- Mirena's headquarters handoff uses a full natural operational turn and keeps her dry authority intact.
 - Nimera reacts to the older construction and new Archive passage as herself: curious, precise, correction-prone, and willing to keep asking until Mirena deliberately takes the floor back.
+- Ilyra no longer supervises whether Cyanis slept, preemptively tells him not to engage with the old door, or volunteers the party's future safety compliance. Her lines are teasing, ordinary reaction, and social observation.
+- Ilyra's approval of the archive report is personal appreciation for competent procedure, not a claim that she owns the decision to stop at the threshold.
 - the older Diysean layer is visually undeniable but unexplained. A sealed lower arch provides texture without becoming a new mandatory mystery scene.
 - Maevra remains physically useful and socially present, not a co-exposition narrator; her practical warning to Torren is allowed to be a complete thought.
 - the Regional Hunt #3 story unlock remains concise and does not identify what lies beyond.
