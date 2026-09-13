@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 2
 # Briar Passage / First Traversal
-## DIALOGUE ENGINE PRODUCTION DRAFT F — Maevra injury continuity + established gameplay presentation / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 **Walking-dialogue lock:** brief moving dialogue is legal here because Maevra is genuinely guiding Cyanis and Ilyra to Greenhollow.
 
@@ -32,23 +32,31 @@ Maevra never appears in battle.
 
 During an ordinary stretch of travel, Maevra gives a route call through the dialogue UI.
 
-**MAEVRA:** Keep east.
+**MAEVRA:** Keep east here. The west line looks easier because people keep walking it, and people keep walking it because it looks easier. Then the ground drops and everybody acts surprised.
 
-**CYANIS:** You sound very sure.
+**CYANIS:** You sound like you've had that argument before.
 
-**MAEVRA:** To Greenhollow? I am.
+**MAEVRA:** Several times. Once with Torren for an hour, which was especially irritating because he agreed with me from the beginning and just disliked the reason I gave.
 
-**CYANIS:** And after Greenhollow?
+**ILYRA:** What was wrong with the reason?
 
-**MAEVRA:** That's why we're finding Torren.
+**MAEVRA:** I said the west line was bad because it washed out every wet season. He said that wasn't useful because it hadn't rained enough yet that year. Then he spent the next forty minutes explaining soil, runoff, root hold, two old wagon cuts, and why the road was still bad for a completely different reason.
 
-**ILYRA:** Reassuring.
+**CYANIS:** And he was right?
 
-**MAEVRA:** Accurate.
+**MAEVRA:** Unfortunately. That's the problem with Torren. The bastard earns too many of his objections.
 
-The exchange ends. Gameplay continues.
+A short beat.
 
-No companion field models, route-pointing animation, or physical blocking are required.
+**ILYRA:** You still sound fond of him.
+
+Maevra does not get defensive.
+
+**MAEVRA:** I am. He's still a bastard.
+
+That is enough. The conversation does not unpack their whole history while walking.
+
+Gameplay continues.
 
 ---
 
@@ -70,23 +78,43 @@ The script does not keep calling attention to Maevra's arm. The splint itself ca
 
 ### [GUIDED TRAVERSAL DIALOGUE — LATER]
 
-Later, while Maevra is still actively guiding:
+Later, Maevra calls another direction.
 
-**CYANIS:** How bad is the south route?
+**MAEVRA:** Stay high until the trees open. Don't cut down toward the old road even if it looks faster.
 
-**MAEVRA:** Bad enough that I don't want to guess.
+**CYANIS:** You know all of this from memory?
 
-**CYANIS:** And Torren won't have to?
+**MAEVRA:** This stretch, mostly. I used it enough when I was younger. But memory is exactly why I stop trusting myself farther south. A road can keep the same name for twenty years while the useful part moves fifty paces sideways.
 
-**MAEVRA:** He'll know which guess is least stupid.
+**ILYRA:** Because the old path fails and people make another one beside it.
 
-A beat.
+**MAEVRA:** Or a farmer fences it, or a storm eats half of it, or somebody builds a bridge that lasts eight years and then everybody keeps saying `bridge road` for twelve years after the bridge is gone. That's why paper and memory both get dangerous if nobody checks the ground.
+
+**CYANIS:** And Torren checks it.
+
+**MAEVRA:** Constantly. Sometimes before breakfast, because he has poor priorities.
+
+**ILYRA:** Says the woman guiding us with a broken arm.
+
+Maevra laughs.
+
+**MAEVRA:** Fair. Different poor priorities.
+
+Cyanis looks ahead.
+
+**CYANIS:** How bad is the south route right now?
+
+**MAEVRA:** Bad enough that I don't want to guess. I can tell you what was there the last time I used it. That's not the same thing as telling you what will hold under your feet tomorrow.
+
+**CYANIS:** And Torren won't have to guess?
+
+**MAEVRA:** He'll still guess. He'll just tell you exactly which part is guesswork, which part he walked yesterday, and which part some drunk wagoner swears was fine because he survived it once.
 
 **ILYRA:** High praise.
 
 **MAEVRA:** He'd complain if I said it nicer.
 
-The exchange ends.
+The exchange ends because the subject has run its natural course, not because every speaker has delivered one short line.
 
 Gameplay continues to Greenhollow.
 
@@ -102,7 +130,13 @@ Maevra's splint remains visible as part of her normal Chapter-1 field state.
 
 **MAEVRA:** Greenhollow.
 
+Cyanis looks ahead.
+
 **CYANIS:** That's it?
+
+**MAEVRA:** That's a town, yes.
+
+**CYANIS:** I meant the announcement.
 
 **MAEVRA:** Were you expecting trumpets?
 
@@ -115,6 +149,16 @@ A beat.
 **CYANIS:** I meant earlier.
 
 **MAEVRA:** Of course you did.
+
+Ilyra laughs quietly.
+
+**CYANIS:** I'm glad the road has brought everyone joy.
+
+**MAEVRA:** Wait until Torren starts correcting your map language.
+
+**CYANIS:** I don't have map language.
+
+**MAEVRA:** You will.
 
 Scene ends.
 
@@ -135,14 +179,10 @@ Next mandatory story beat: **Greenhollow / Torren.**
 
 ---
 
-## Presentation / canon check
+## Person-Brain performance note
 
-**Gameplay presentation:** PASS. Cyanis alone is visible during ordinary wilderness traversal. Maevra and Ilyra speak through portraits/dialogue UI. At the Greenhollow scene/town threshold, relevant field models may appear normally.
-
-**Maevra injury:** PASS. Her arm remains splinted, but the dialogue does not re-explain it after Beat 1.
-
-**Walking dialogue:** PASS. Both moving exchanges occur only because Maevra is genuinely guiding the route.
-
-**Random encounters:** PASS. All ordinary Briar enemies remain random encounters; Maevra is never represented in combat.
-
-**Locked cuts:** PASS. No false trail, route split, crossing, Old Waystone, Briarhide Stalker, or Ancient-story payoff is restored.
+- Maevra is allowed to become more verbally alive while genuinely guiding: she has enough history with the road and Torren to tell a compact story rather than functioning as a route arrow.
+- the added Torren material establishes why his field expertise matters without giving the party current information he has not yet personally supplied.
+- Ilyra and Cyanis can interrupt or extend Maevra's thought naturally rather than each receiving one mandatory route line.
+- most gameplay remains silent; this is not converted into continuous walking banter.
+- no false trail, route split, crossing, Old Waystone, Briarhide encounter, or Ancient payoff is restored.
