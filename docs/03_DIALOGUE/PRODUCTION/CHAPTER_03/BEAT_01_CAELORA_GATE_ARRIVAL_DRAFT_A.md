@@ -1,12 +1,12 @@
 # Chapter 3 — Beat 1
 # Caelora Gate / Arrival
-## DIALOGUE ENGINE PRODUCTION DRAFT A — rehearsal-first Agent-Brain pass / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN — PERSON-BRAIN PERFORMANCE PASS
 
 **Pipeline:** Chapter-0/1 rehearsal-first production method.  
-**Agent sources:** current Cyanis, Ilyra, Torren, and Maevra Agent Brains.  
+**Agent sources:** current Cyanis, Ilyra, Torren, and Maevra Person Agent Brains.  
 **Authority spec:** `BEAT_01_CAELORA_GATE_ARRIVAL_SPEC.json`.
 
-The independent character rehearsal has already been reduced through the Dialogue Editor and checked against the current Beat-1 knowledge firewall. Raw rehearsal material is not production dialogue.
+**Method note:** rerun under `STORY_BEAT_AS_GUARDRAIL_LOCK.md` and `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Structural authority supplies the arrival state, hard facts, and reveal boundaries. Speaker ownership, turn length, interruption, humor, and conversational routing come from the Person Agent Brains and Dialogue Editor.
 
 ---
 
@@ -44,19 +44,31 @@ Once entry is cleared:
 
 **MAEVRA:** Palace first.
 
-**CYANIS:** Before food?
+Cyanis looks past her toward the city proper.
 
-**ILYRA:** You ate.
+**CYANIS:** I can see at least three places selling food from here.
 
-**CYANIS:** Hours ago.
+**MAEVRA:** Congratulations on your eyesight.
 
-**ILYRA:** I know.
+**CYANIS:** I was proposing a route improvement.
 
-**TORREN:** He'll live.
+**TORREN:** Wrong direction.
 
-**CYANIS:** Good. Medical consensus.
+**CYANIS:** You didn't even look.
 
-**ILYRA:** That's not what that was.
+**TORREN:** Palace is uphill.
+
+**ILYRA:** Devastating. Defeated by topography before lunch.
+
+Cyanis looks at her.
+
+**CYANIS:** You're enjoying this.
+
+**ILYRA:** A little.
+
+**MAEVRA:** Palace. Then you can all discover food without military assistance.
+
+**CYANIS:** Generous.
 
 **MAEVRA:** Keep moving.
 
@@ -72,29 +84,51 @@ Maevra is actively taking the group toward the palace, so one short route-guidan
 
 Give the player time to see the modern city before the mural comparison lands.
 
-**TORREN:** Mural had more city.
+Torren slows just enough to look along the inside face of the wall.
+
+**TORREN:** Mural had more city than this.
+
+Maevra looks over.
 
 **MAEVRA:** How much more?
 
-**TORREN:** Enough that this wall would've been well inside it.
+Torren takes another few steps before answering.
 
-**ILYRA:** You're sure?
+**TORREN:** Enough that this wall would've been well inside it. Not close to an edge, either. The road alignment's different now, so I can't lay the mural over the city street for street, but the footprint isn't ambiguous. Whatever was here then spread farther out.
 
-**TORREN:** About that. Not the exact boundary.
+**CYANIS:** How far?
 
-**MAEVRA:** Good.
+**TORREN:** Don't know. Copy isn't a survey and I didn't preserve every minor line. I can defend `larger`. I can't defend a boundary from memory because you asked while we're standing in it.
 
-A beat.
-
-**MAEVRA:** Say it exactly like that upstairs.
+**MAEVRA:** Good. Say exactly that upstairs.
 
 **TORREN:** Was going to.
+
+**ILYRA:** He sounds offended that anyone might ask him to exaggerate.
+
+**TORREN:** I am.
+
+**CYANIS:** That's the most emotion I've heard from you all morning.
+
+**TORREN:** Bad measurements do that.
+
+Ilyra laughs.
 
 A short silence while the city continues around them.
 
 **CYANIS:** Still hungry.
 
+**ILYRA:** Now I'm enjoying it more.
+
 **MAEVRA:** I heard you the first time.
+
+**TORREN:** Palace is still uphill.
+
+**CYANIS:** I regret introducing you two.
+
+**ILYRA:** You didn't.
+
+**CYANIS:** Somehow worse.
 
 ---
 
@@ -123,18 +157,18 @@ Transition directly into:
 
 ---
 
-## Rehearsal / Editor check
+## Person-Brain performance check
 
-**Cyanis:** participates through ordinary hunger humor rather than narrating the plot; does not assume the Crown is responsible for the Card.  
-**Ilyra:** answers him dryly and asks Torren one useful certainty question; does not become group therapist or exposition translator.  
-**Torren:** gives conclusion first, clearly separates what he knows from what he cannot yet measure, and does not pretend Ancient expertise.  
-**Maevra:** handles entry implicitly through her real authority, keeps the group moving, and immediately values Torren's bounded uncertainty rather than demanding false precision.
-
-Selective participation is preserved; no character comments merely because they are present.
+- Cyanis's hunger remains ordinary character texture, but Ilyra no longer becomes the food/health monitor. His attempted detour becomes a social joke owned by the whole group.
+- Ilyra participates because she finds Cyanis's failed route argument funny. Her line ownership is social and personal, not medical.
+- Torren is allowed to hold the floor on the mural-versus-city footprint because route geometry, scale, and bounded physical comparison are genuinely his subject. He distinguishes `larger` from an indefensible exact boundary without being fed one fact per prompt.
+- Maevra values the bounded answer and keeps the group moving without becoming a command-exposition machine.
+- the scene uses uneven participation: Torren owns the substantive observation; Cyanis and Ilyra interrupt around it because they actually have reasons to.
+- no character speaks merely because they are present.
 
 ## Canon / knowledge check
 
-**PASS — working draft.**
+**PASS — Person-Brain performance pass.**
 
 No Beat-2/3 information is leaked:
 - no Queen-knowledge contradiction;
