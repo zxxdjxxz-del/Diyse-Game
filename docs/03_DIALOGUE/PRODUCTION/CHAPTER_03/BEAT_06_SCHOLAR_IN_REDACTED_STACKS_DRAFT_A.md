@@ -1,8 +1,8 @@
 # Chapter 3 — Beat 6
 # Scholar in Redacted Stacks
-## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
-**Method note:** rerun under `STORY_BEAT_AS_GUARDRAIL_LOCK.md` and `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Structural authority supplies the situation, hard outcomes, and reveal boundaries only. The conversational route below comes from the participating Person Agent Brains and the Dialogue Editor.
+**Method note:** rerun under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, and current Ilyra character authority. Structural authority supplies the situation, hard outcomes, and reveal boundaries only. The conversational route comes from the participating Person Agent Brains and the Dialogue Editor. Ilyra's medical competence is used only where the trapped-person / Card-history facts genuinely make it relevant; Grace does not assign her the scene's safety or caretaker role.
 
 ---
 
@@ -52,15 +52,13 @@ Nimera shifts position, trying to find an angle that does not exist from inside.
 
 **NIMERA:** Of course there fucking is. Of course somebody put a modern brace over the one part I need to see.
 
-**ILYRA:** You hurt?
+Ilyra looks her over once.
+
+**ILYRA:** You're loud enough to be alive. Hurt?
 
 **NIMERA:** No. Annoyed, trapped, and developing opinions about municipal restoration, but not hurt.
 
-**ILYRA:** Good.
-
-**NIMERA:** That's it?
-
-**ILYRA:** You answered the question.
+**ILYRA:** Good. Then I can enjoy this properly.
 
 Nimera considers her for half a second.
 
@@ -112,7 +110,9 @@ Nimera goes quiet.
 
 She leans closer from her side.
 
-**ILYRA:** We separated them once. His pulse dropped, he started shaking. The Card lit green and gold toward him. We put it back; both stopped.
+**CYANIS:** We separated once at Brackenwall. I got cold, shaky, and generally terrible. My pulse dropped—she can give you the useful version because I was busy experiencing it. The Card lit green and gold toward me. Putting it back stopped the whole thing.
+
+**ILYRA:** Pulse definitely dropped. Contact restored, pulse recovered. Shaking stopped. We didn't repeat it.
 
 **NIMERA:** How far apart?
 
@@ -128,7 +128,7 @@ She leans closer from her side.
 
 **NIMERA:** And nobody tried it again.
 
-**ILYRA:** Correct.
+**CYANIS:** No. I was extremely supportive of that decision.
 
 **NIMERA:** Excellent. Genuinely excellent. I know that should be ordinary competence, but I work with scholars and you would be amazed how many people hear "unknown magical response" and immediately decide repetition is methodology.
 
@@ -240,13 +240,23 @@ Nimera looks again, following what she can see from her side.
 
 **TORREN:** Accurate.
 
-Ilyra looks between them and the barrier.
+Ilyra looks at the four plates and the engraved return path.
 
-**ILYRA:** Nobody touches anything until all four of us know what we think it's going to do.
+**ILYRA:** What are you predicting happens when that fourth plate moves?
 
-**NIMERA:** Yes. Exactly. Prediction first, then test. Tiny test. If the prediction is wrong, we stop and revise instead of deciding the mechanism has personally insulted us and pressing harder.
+Nimera turns toward the question immediately.
 
-Cyanis raises an eyebrow.
+**NIMERA:** That one of my lines answers instead of the wall simply opening. Small response first. If I'm right, we test again. If I'm wrong, we stop pretending I was right and revise.
+
+**ILYRA:** Better than "touch things until architecture loses."
+
+**NIMERA:** That is an unfair summary of scholarship.
+
+**CYANIS:** Is it?
+
+**NIMERA:** Yes. Mostly.
+
+Ilyra laughs.
 
 **CYANIS:** That happened before?
 
@@ -284,12 +294,12 @@ Transition into:
 
 ## Beat-6 production notes
 
-- This Person-Brain performance pass preserves the beat's current facts and reveal boundaries while allowing the characters to hold and contest the conversational floor naturally.
+- This pass preserves the Nimera Person-Brain work while applying Ilyra's current dialogue-assignment guardrail.
 - Nimera's personality emerges from the immediate barrier problem before the plot explanation reaches her.
-- Nimera now corrects language as a live social reflex, revises one of her own assumptions aloud, swears inside technical reasoning, and continues beyond the first useful sentence until another person has a reason to interrupt.
-- Ilyra checks whether Nimera is actually hurt and accepts the answer without turning the scene into treatment.
-- the Card and seal facts enter because Nimera asks why Mirena sent them, not because the scene performs an exposition checklist.
-- Ilyra's Card-separation briefing is compressed because Nimera needs the facts but the player has already experienced them; Nimera pulls any further detail she needs through questions.
+- Nimera corrects language as a live social reflex, revises one of her own assumptions aloud, swears inside technical reasoning, and continues beyond the first useful sentence until another person has a reason to interrupt.
+- Ilyra makes one scene-earned injury check because Nimera is literally trapped behind a moving Ancient wall; she immediately turns the answer into humor instead of treatment or caretaking.
+- Cyanis owns his direct Card-separation experience. Ilyra contributes only the pulse/recovery observations that genuinely belong to her expertise and are useful to the new listener.
+- Ilyra's later barrier contribution is methodological curiosity—asking what Nimera predicts—rather than assuming responsibility for everyone else's safety behavior.
 - Nimera explicitly distinguishes a clean custody record from proven clean custody without turning that distinction into authorial omniscience.
 - nobody assigns formal roles in the upcoming barrier solution.
 - the barrier remains closed and Beat 7 owns the actual attempt.
