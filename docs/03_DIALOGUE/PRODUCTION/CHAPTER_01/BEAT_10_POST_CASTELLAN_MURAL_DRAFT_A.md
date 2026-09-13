@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 10
 # Post-Castellan Mural
-## DIALOGUE ENGINE PRODUCTION DRAFT E — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 ---
 
@@ -38,67 +38,139 @@ A beat.
 
 Ilyra recognizes the human pattern before the geography.
 
-**ILYRA:** Same kind of movement as downstairs. But everywhere.
+**ILYRA:** Same kind of movement as downstairs. But this isn't one room serving one place. It's happening across the whole picture.
+
+Cyanis looks toward the falling-fire imagery.
 
 **CYANIS:** And all of them are heading underground while that comes out of the sky. Nothing good has ever been painted falling like that.
 
 **MAEVRA:** Whatever happened, it wasn't local.
 
-Torren has stopped listening for a moment because he is studying the landforms.
+Torren is no longer following their part of the conversation. He has moved mentally into the landforms.
 
-**TORREN:** Wait. That's Hollow Watch.
+**TORREN:** Wait.
+
+Nobody interrupts him.
+
+**TORREN:** That's Hollow Watch.
 
 **CYANIS:** Here?
 
-**TORREN:** Yeah. Same shape, same ridge. If that's Hollow Watch, this isn't just a story picture. It's using real geography.
+**TORREN:** Yeah. Ridge hooks north here, high ground breaks west, same drainage cut under it. Simplified, but that's the place. And if that's Hollow Watch, then these aren't decorative hills somebody invented to frame the story. They're using real ground.
 
-**MAEVRA:** So we're looking at a map wrapped around whatever happened.
+Maevra studies the mural differently now.
 
-**CYANIS:** Cheerful map.
+**MAEVRA:** So we're looking at geography carrying whatever happened.
+
+**TORREN:** Looks like it.
+
+**CYANIS:** Cheerful geography.
 
 Nobody answers that.
-
----
 
 ### [THE DESCENTS]
 
 The group takes in the mural as a whole. The mural itself already establishes the many openings and civilian-scale movement, so nobody repeats the inventory from the lower junction.
 
-**TORREN:** Doesn't tell us whether they went ten yards or ten miles underground.
+Torren keeps following the terrain relationships.
 
-**MAEVRA:** No. But it tells us the scale was larger than Hollow Watch.
+**TORREN:** Scale's rough. That's the problem. I can match ridges and rivers enough to place things, but I can't tell whether those openings are a few hundred yards apart or whole days of travel. Whoever made this cared more about relationships than giving me a route I can walk.
+
+**MAEVRA:** Still enough to tell us Hollow Watch wasn't unique.
+
+**TORREN:** Yes. That part I'd put money on.
+
+Ilyra looks toward the repeated descents.
+
+**ILYRA:** And the people aren't all moving the same way here either.
+
+**CYANIS:** So we're still not allowed to call it evacuation.
+
+**TORREN:** You can call it whatever you want. I'll keep saying we don't know.
+
+**CYANIS:** You're very committed to ruining useful words.
+
+**TORREN:** Useful lies are still lies.
+
+Maevra glances at him.
+
+**MAEVRA:** That's almost noble.
+
+**TORREN:** Don't tell anyone.
 
 They leave the implication there.
-
----
 
 ### [THE JUNCTION]
 
 Torren's attention catches farther south.
 
-**TORREN:** Huh. That's the Junction.
+He leans into the recognition before speaking.
+
+**TORREN:** Huh.
+
+**CYANIS:** Good `huh` or bad `huh`?
+
+**TORREN:** Familiar `huh`. That's the Junction.
 
 **CYANIS:** The crossroads?
 
-**TORREN:** Yeah. Old roads meet there; modern ones still use the same ground. I've crossed it plenty of times.
+**TORREN:** Yeah. Old roads meet there. Newer roads shifted around them, but the ground still funnels traffic through the same basin. I've crossed it more times than I can count—east-west runs, north detours, once in winter because Maevra insisted the southern line would save half a day.
 
-Ilyra looks at the monument depicted at the center.
+**MAEVRA:** It would've.
+
+**TORREN:** If the snow hadn't buried the marker stones.
+
+**MAEVRA:** Weather is not a moral argument.
+
+**TORREN:** Felt moral at the time.
+
+Cyanis looks between them.
+
+**CYANIS:** Did you save the half day?
+
+**TORREN:** Lost two.
+
+**MAEVRA:** Learned something.
+
+**TORREN:** That you shouldn't choose winter routes.
+
+**MAEVRA:** That you complain longer than storms last.
+
+Ilyra is studying the monument depicted at the center while they bicker.
 
 **ILYRA:** And that stone?
 
+That stops the old argument immediately.
+
+Torren looks at the depicted monument.
+
 A beat.
 
-**TORREN:** Never seen it. I know the crossroads, not that thing.
+**TORREN:** Never seen it.
 
-**MAEVRA:** They made it prominent enough that it mattered to whoever made this.
+**CYANIS:** You're sure?
+
+Torren gives him a look.
+
+**TORREN:** A stone monument that size in the middle of a crossroads I use for work? Yeah. I'd remember.
+
+He studies the mural again.
+
+**TORREN:** I know the ground. I know the modern markers, drainage, where the roads pinch together, where wagons camp when weather gets bad. I do not know that thing.
+
+Maevra looks at how prominently the monument is rendered.
+
+**MAEVRA:** They made it important enough that it wasn't background.
+
+Cyanis follows the human movement around it.
 
 **CYANIS:** But nobody's going down through it.
 
-**TORREN:** No. Don't know what it is, but it isn't drawn like the other descents.
+**TORREN:** No. Different from the descents. Whatever it was, don't make it another entrance just because it's big and mysterious.
+
+**ILYRA:** Good rule generally.
 
 Nobody gives the monument a name or function.
-
----
 
 ### [THE FIRE]
 
@@ -106,29 +178,59 @@ Cyanis looks back toward the falling-fire imagery.
 
 **CYANIS:** Any chance that's rain?
 
+Torren looks at him.
+
 **TORREN:** Flaming rain?
 
 **CYANIS:** Bad rain.
 
-Maevra looks back toward the chamber they came through.
+**ILYRA:** Extremely bad rain.
+
+Maevra actually laughs once, then looks back toward the chamber they came through.
 
 **MAEVRA:** Host never saw any of this. They stopped one room short.
 
+The humor disappears.
+
 A beat.
 
-Nobody fills the silence.
+**CYANIS:** Which means whatever they thought they were digging toward, they didn't get this answer.
 
----
+**MAEVRA:** Assuming this would've answered their question.
+
+**CYANIS:** Fair.
+
+Nobody fills the next silence.
 
 ### [PRACTICAL DECISION]
 
+Maevra returns to the question she can actually act on.
+
 **MAEVRA:** Is the Junction close enough to our south route to check without turning this into another expedition?
 
-**TORREN:** Near enough. We'd pass close by anyway.
+Torren thinks through the modern road rather than answering reflexively.
 
-**MAEVRA:** Then we stop there. We don't know what the monument is, but now we know where it should be.
+**TORREN:** Near enough. We'd pass west of it on the Dunmere line anyway. Detour costs us maybe an hour if the ground is decent, two if it isn't. More if we start doing something stupid after we get there.
 
-A beat.
+**CYANIS:** Define stupid.
+
+**TORREN:** Digging. Moving anything heavy. Deciding a missing ancient monument is an invitation to crawl into the first hole nearby.
+
+**CYANIS:** Very specific.
+
+**TORREN:** I've traveled with people.
+
+Maevra glances at him.
+
+**MAEVRA:** Mostly me.
+
+**TORREN:** Exactly.
+
+**MAEVRA:** Then we stop there. We don't know what the monument is. We know where it should be, and checking costs less than pretending this is somebody else's problem until Caelora.
+
+**ILYRA:** Agreed.
+
+Cyanis looks at the mural one more time.
 
 **CYANIS:** This trip was simpler yesterday.
 
@@ -138,7 +240,9 @@ A beat.
 
 **MAEVRA:** You can prefer it upstairs.
 
-**TORREN:** She's been waiting to say that.
+Torren glances at her.
+
+**TORREN:** You've been waiting to say that.
 
 **MAEVRA:** Years.
 
@@ -181,10 +285,10 @@ Next mandatory story beat: **Beat 11 — Hollow Watch Resolution / Torren Recrui
 
 ---
 
-## Audit check
+## Person-Brain performance note
 
-- The mural is visual-first. Dialogue no longer repeats the lower-junction inventory of litters, children, carts, and ordinary people after the player has already seen it twice.
-- Ilyra registers recurrence, Cyanis reacts to the falling-fire image, Maevra recognizes regional scale, and Torren owns the geography identification.
-- The separate `descents` discussion now adds only uncertainty about distance and scale rather than narrating the mural back to the player.
-- The fire section no longer repeats that people are fleeing the surface; Maevra instead adds the new story-relevant fact that the Host stopped one room short of this evidence.
-- No story, reveal, route, Card, or recruitment state changed.
+- the mural remains visual-first. Dialogue interprets scale, geography, uncertainty, and practical next action rather than narrating the artwork back to the player.
+- Torren gets a genuinely longer turn where his route brain is naturally activated by recognizable terrain.
+- Maevra/Torren history appears as an incidental winter-route argument rather than a biographical exposition dump.
+- Torren explicitly separates `I know the Junction's ground` from `I know the ancient monument`, preserving the limit on his expertise.
+- the group can joke inside discovery without making the discovery unserious; humor drops when the Black Host implication returns.
