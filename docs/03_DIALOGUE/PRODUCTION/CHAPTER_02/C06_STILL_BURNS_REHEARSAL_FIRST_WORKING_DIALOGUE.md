@@ -1,13 +1,13 @@
-# Chapter 2 Character-Life — C06 — Still Burns
+# Chapter 2 Character-Life — C05 — Still Burns
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DRAFT — NATURAL-TURN RHYTHM PASS  
+**Status:** CURRENT REHEARSAL-FIRST WORKING DRAFT — NATURAL-TURN + TORREN SOCIAL-COMFORT PASS  
 **Availability:** Chapter 2 cleanup, after the Beat-16 Dunmere elder resolution and before the explicit Chapter-3 start interaction  
 **Participants:** Torren, Ilyra, Maevra, Cyanis
 
 ## Scene seed
 Late night at the Dunmere inn. Torren is smoking by an open window. Ilyra wakes because it smells noticeably worse than the previous day. His stash was soaked in the waterworks. Maevra and Cyanis enter only because the smell/argument wakes them.
 
-This remains low-stakes Character-Life. No Bastion recap, trauma disclosure, ancient-map exposition, or future reveal.
+This remains low-stakes Character-Life. No Bastion recap, trauma disclosure, ancient-map exposition, future reveal, or explicit Maevra/Torren relationship timeline.
 
 ---
 
@@ -117,13 +117,15 @@ Ilyra turns toward him.
 
 **ILYRA:** We are currently breathing the evidence that it did not.
 
-**MAEVRA:** Twenty-five years and you still solve problems by asking whether the bad idea technically functioned.
+**MAEVRA:** You still solve problems by asking whether the bad idea technically functioned.
 
-**TORREN:** Learned plenty in twenty-five years.
+**TORREN:** Sometimes the bad idea technically functioning is all you need.
 
-**MAEVRA:** Name one thing.
+**MAEVRA:** Name one time that philosophy improved my life.
 
-**TORREN:** Open a window.
+Torren considers it.
+
+**TORREN:** Open window.
 
 Ilyra laughs once before she can stop herself.
 
@@ -299,15 +301,16 @@ Maevra laughs into her pillow.
 
 Fade.
 
-> **END C06 — STILL BURNS**
+> **END C05 — STILL BURNS**
 
 ---
 
 ## Natural-turn / continuity notes
 
-- The scene keeps fast one-line escalation where comedy benefits from it, but no longer maintains that cadence for the entire conversation.
-- Ilyra, Maevra, Cyanis, and Torren can each hold the floor for complete reactions/explanations when the joke does not require immediate interruption.
+- The scene is an important Chapter-2 proof of Torren's social opening: he is stubborn, funny, participatory, willing to argue recreationally, and capable of carrying an ordinary conversation that has nothing to do with maps or routes.
+- Fast one-line escalation remains where comedy benefits from it, but Torren is not confined to one-word deadpan as a character template.
 - Torren's smoking remains ordinary established behavior, not framed as impairment or a vice intervention.
 - The joke remains specifically about the stash being soaked in the Chapter-2 waterworks and smelling terrible after drying.
 - Maevra and Cyanis still wake naturally because of the smell/argument.
+- Maevra/Torren's practiced familiarity is obvious, but **no exact duration, enlistment age, or romantic history is revealed here**.
 - No trauma disclosure, Bastion recap, Rhazek analysis, ancient-map exposition, or future reveal is added.
