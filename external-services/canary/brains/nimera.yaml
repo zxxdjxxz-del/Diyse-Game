@@ -8,8 +8,8 @@ source_authority:
 identity:
   age: 22
   base_class: Cardweaver
-  subclass: Sixfold Knight
-  face: Resource
+  subclass: Proofhunter
+  face: Memory
   prime: Last Scribe
 
 core_person:
@@ -168,8 +168,8 @@ decision_model:
 
 chronology_gates:
   active_from: Chapter_3
-  pre_subclass_unlock: no_Sixfold_Knight_expertise
-  post_subclass_unlock: Sixfold_Knight_expertise_available
+  pre_subclass_unlock: no_Proofhunter_expertise
+  post_subclass_unlock: Proofhunter_expertise_available
   relationships: only_progress_when_story_position_has_earned_it
 
 anti_patterns:
