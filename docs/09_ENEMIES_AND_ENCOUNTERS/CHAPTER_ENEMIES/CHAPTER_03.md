@@ -2,17 +2,29 @@
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
 **Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
+**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit story / placement corrections.  
+**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, fresh-body Prime-refresh rules, and current story placement supersede stale earlier enemy text.
 
 
 ## Ordinary / repeatable
+### Recovered but currently unplaced on the mandatory Chapter-3 route
 - Way-Fort Marauder
 - Rift Boltman
 - Black Host Ward-Sorcerer
+
+These identities remain available for later explicit placement or compatible optional content, but **do not currently belong to a mandatory Chapter-3 road/perimeter encounter stretch**.
+
+Do not place them in:
+- the lawful Caelora gate approach;
+- Caelora city traversal;
+- the explicitly skipped Caelora → Cresthaven travel cut.
+
+### Suppressed Archives
 - Archive Scribe Engine
 - Judgment Frame
 - Erasure Wisp
+
+### Deep Old City / command route
 - Command-Station Sentry
 - Authority Lens
 - Command Ring Drone
@@ -44,6 +56,17 @@ Chapter-3 line-complete ordinary / Elite / lawful encounter pass:
 
 Summary:
 `../ORDINARY_ENEMIES/CHAPTER_03_POWER_AND_RAW_REGISTER.md`
+
+### Mandatory-route placement firewall
+Current 15-beat Chapter-3 story authority controls where the recovered enemy identities can actually appear.
+
+- Beat 1 Caelora approach is lawful and has no hostile random road stretch.
+- Beat 5 Old City access has no major combat requirement.
+- Beat 7 barrier reactivation hands directly into the mandatory Archive Scribe Engine encounter.
+- Suppressed-Archive random formations belong after that activation/encounter state, not before it.
+- Deep command-route formations may use Command-Station Sentries, Authority Lenses, and Command Ring Drones before the First Command Warden.
+- Beat 12 exits by direct cut upstairs; there is no playable return traversal or exit combat.
+- Beat 14 → Beat 15 travel to Cresthaven is skipped; there is no Chapter-3 road dungeon or random-encounter stretch there.
 
 S018:
 - confrontation I = Ivory Watch Guard + Royal Polearm Officer + Ivory Crossbow Sentinel;
