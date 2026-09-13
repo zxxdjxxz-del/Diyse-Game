@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 7
 # Lower Junction / Six Channels
-## DIALOGUE ENGINE PRODUCTION DRAFT D — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 ---
 
@@ -36,19 +36,47 @@ The relevant characters may appear as simple field models in the chamber. Portra
 
 The relief supplies the visible inventory. The cast speaks only to what it implies.
 
-**ILYRA:** Not military traffic.
+Ilyra studies the people rather than the architecture first.
+
+**ILYRA:** Not military traffic. Too many ordinary people, too much movement built around carrying people who couldn't move themselves.
 
 **CYANIS:** Evacuation?
 
-Torren follows the direction of the figures.
+Torren follows the direction of the figures rather than accepting the first label.
 
-**TORREN:** Maybe. They're moving both ways through all six.
+**TORREN:** Maybe. But they're moving both ways through all six. If everybody was just fleeing one danger, I'd expect more of one direction and less coming back.
 
-**MAEVRA:** Then not a simple run-for-cover scene.
+**MAEVRA:** Unless different groups were moving at different times.
 
-Ilyra looks across the band again.
+**TORREN:** Could be.
 
-**ILYRA:** Whatever it was, civilians used this place.
+**ILYRA:** Shelter, then?
+
+**TORREN:** Could be that too.
+
+Cyanis looks at him.
+
+**CYANIS:** You're enjoying saying `could be`.
+
+**TORREN:** No. I'm enjoying not making shit up.
+
+Maevra smiles slightly.
+
+**MAEVRA:** That's one of his more lovable qualities.
+
+**TORREN:** Don't start.
+
+Ilyra looks over the band again.
+
+**ILYRA:** Whatever the exact reason, civilians used this place in numbers. That much I'm comfortable saying.
+
+**MAEVRA:** Same.
+
+Cyanis looks at the six openings around the chamber.
+
+**CYANIS:** Which still leaves us with six ways to be wrong.
+
+**TORREN:** Five. Host already picked one for us.
 
 That is enough. Nobody names the ancient system or settles what the passages were for.
 
@@ -74,13 +102,39 @@ No walking dialogue is used.
 
 At the channel carrying the Black Host breach farther inward, movement pauses and the relevant characters may appear again.
 
+Cyanis looks across the damage around the nearby channel mouths.
+
 **CYANIS:** They tried the others first.
 
-**MAEVRA:** This one worked.
+Maevra reads the practical result.
 
-**TORREN:** So do we.
+**MAEVRA:** This one worked well enough to keep investing in.
 
-**ILYRA:** Carefully.
+Torren looks at the route beyond.
+
+**TORREN:** Or badly enough that they got stubborn. Either way, it's the one with their traffic through it.
+
+**ILYRA:** And whatever made them stop is farther in.
+
+Torren glances at her.
+
+**TORREN:** Maybe.
+
+Ilyra gives him a look.
+
+**TORREN:** Sorry. Couldn't resist that one.
+
+It is one of the first times he has plainly teased her rather than merely answered a question.
+
+**ILYRA:** I noticed.
+
+**CYANIS:** Growth.
+
+**MAEVRA:** Tragic, really.
+
+**TORREN:** Are we going?
+
+**CYANIS:** Yeah. Carefully.
 
 Scene ends.
 
@@ -113,9 +167,9 @@ Next mandatory story beat: **Beat 8 — Forced Inner Section.**
 
 ---
 
-## Audit check
+## Person-Brain performance note
 
-- The relief remains visual-first. Dialogue no longer itemizes the same litters, children, handcarts, animals, and six openings that the player just saw.
-- Ilyra identifies the important category shift, Torren notices bidirectional movement, and Maevra prevents premature classification.
-- The route-onward exchange no longer explains that the Host kept pushing after the Sentries or repeats that its target is farther in; the visible breach already supplies that information.
-- No story, reveal, Card, route, or party state changed.
+- the relief remains visual-first; no one verbally catalogs children, carts, animals, and litters after the player sees them.
+- the conversation now behaves like an actual inference dispute: Cyanis offers `evacuation`, Torren challenges the directional evidence, Maevra offers an alternate explanation, and Ilyra settles only the part the image actually supports.
+- Torren's resistance to overclaiming comes through personality and humor rather than a neutral exposition disclaimer.
+- the route-onward exchange allows a tiny amount of relationship growth without forcing later Cyanis/Torren sharpness too early.
