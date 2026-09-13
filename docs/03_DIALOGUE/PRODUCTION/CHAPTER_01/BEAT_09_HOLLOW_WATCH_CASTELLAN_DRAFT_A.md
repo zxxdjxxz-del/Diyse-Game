@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 9
 # Hollow Watch Castellan
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS + ILYRA ROLE-BALANCE PASS
 
 ---
 
@@ -26,17 +26,13 @@ The relevant characters may appear as simple field models. Portraits and the dia
 
 A green-gold seam lights beneath Cyanis and runs toward the integrated structure.
 
-Ilyra sees Cyanis and the Card before she looks at the mechanism.
-
 **ILYRA:** Cyanis.
 
-**CYANIS:** Yeah. I see it.
+**CYANIS:** Yeah. Nothing in me yet—no dizziness, no numbness. I know the list.
 
-**ILYRA:** Any change in you?
+**ILYRA:** Good. Hate that you know the list.
 
-Cyanis has learned the question well enough not to answer with `fine`.
-
-**CYANIS:** No dizziness. No numbness. Nothing yet.
+**CYANIS:** Me too.
 
 The ancient assembly begins to move.
 
@@ -101,9 +97,9 @@ The following dialogue is **speech-only** over active battle:
 
 **ILYRA:** Then stop standing where the wall used to hold it.
 
-**CYANIS:** Excellent medical advice.
+**CYANIS:** Insightful.
 
-**ILYRA:** Cyanis.
+**ILYRA:** I'm full of wisdom. Move.
 
 **CYANIS:** Moving.
 
@@ -149,33 +145,27 @@ A beat.
 
 **CYANIS:** Strongly no.
 
-Ilyra is already looking at him.
+Before Ilyra can say anything, Cyanis lifts a hand.
 
-**ILYRA:** Your turn. Dizziness?
+**CYANIS:** And before you ask: no dizziness, no numbness, no strange Card feeling. Heart's fast because we just fought a wall that learned to walk.
 
-**CYANIS:** No.
+Ilyra looks at him.
 
-**ILYRA:** Numbness?
+**ILYRA:** I wasn't going to ask all three at once.
 
-**CYANIS:** No.
+**CYANIS:** Growth.
 
-**ILYRA:** Card sensation different?
-
-Cyanis checks the Card and himself before answering.
-
-**CYANIS:** No. Heart's fast because we just fought a wall that learned to walk.
-
-Ilyra accepts the reason without declaring more than she knows.
-
-**ILYRA:** All right. Keep telling me if that changes.
-
-**CYANIS:** Beautiful words.
+**ILYRA:** Fuck off.
 
 Torren looks at the Castellan.
 
 **TORREN:** Wall fought back.
 
 **CYANIS:** Thank you for preserving the important part.
+
+**ILYRA:** He's very committed to the record.
+
+**TORREN:** Somebody has to be.
 
 Maevra's attention shifts to the green-gold seam that activated when they entered.
 
@@ -193,11 +183,13 @@ Cyanis notices where she's looking.
 
 **MAEVRA:** Fine. First one only. Did the Card do anything you could feel before that seam lit?
 
-Cyanis looks to Ilyra, then answers for himself.
+Cyanis answers for himself.
 
 **CYANIS:** No.
 
-**ILYRA:** And I didn't see the same physical response as Brackenwall or the convoy. That's all we have.
+Ilyra adds only what she personally observed.
+
+**ILYRA:** I didn't see the same physical response as Brackenwall or the convoy either. That's all I've got.
 
 Maevra nods.
 
@@ -214,6 +206,8 @@ Torren looks toward the chamber entrance, then at the dead construct.
 **CYANIS:** Finally, good news.
 
 **MAEVRA:** You have a dangerous definition of good news.
+
+**ILYRA:** At this point I think his standards are just collapsing in real time.
 
 **CYANIS:** It's been a difficult week.
 
@@ -245,7 +239,7 @@ Ilyra looks down the protected passage.
 
 **CYANIS:** Very generous.
 
-**ILYRA:** Shield.
+**ILYRA:** You have the shield.
 
 **CYANIS:** Right.
 
@@ -262,6 +256,8 @@ Cyanis looks back at him.
 **CYANIS:** Oh, fuck you.
 
 Maevra laughs outright this time.
+
+Ilyra does too.
 
 Scene ends.
 
@@ -300,7 +296,9 @@ Next mandatory story beat: **Beat 10 — Post-Castellan Mural.**
 
 ## Person-Brain performance note
 
-- Ilyra's post-boss check now preserves the evidence discipline established in Chapter 0: a fast pulse after combat is not automatically `fine`, and she asks for specific changes rather than performing a generic healer check.
+- Card-response monitoring remains real continuity, but Cyanis has learned enough to volunteer his own state instead of requiring Ilyra to administer a symptom checklist every time something ancient lights up.
+- Ilyra's mid-battle advice is treated as ordinary combat awareness rather than another medical joke.
+- post-boss Ilyra gets profanity, teasing, curiosity, and group banter in addition to one bounded observational contribution about the Card response.
 - Maevra is allowed one focused question about the activation rather than silently staring or launching into theory.
 - Cyanis/Torren's sharper teasing begins to emerge from a repeated live callback (`trainable`) but remains lighter than the later Character-Life insults.
 - the scene still refuses to explain why the Castellan activated or promote timing into causation.
