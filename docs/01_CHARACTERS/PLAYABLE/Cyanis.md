@@ -8,7 +8,7 @@
 - Age: **29**
 - Permanent party: **yes**
 - Join: **start**
-- Base / Subclass: **Crest Knight / Crest Arcanist**
+- Base / Subclass: **Crest Knight / Crest Magus**
 - Face: **Might**
 - Story Prime: **Last Sentinel**
 
@@ -126,13 +126,34 @@ Praise directed at him has lower salience than evidence that someone relied on h
 
 Later trust can soften the meaning of an old vulnerable moment without erasing the original discomfort.
 
+## Maevra
+Cyanis already knows Maevra very well before the early main-game chapters. Their familiarity is not something Chapter 1 needs to invent.
+
+He knows her as a person **and** as a senior commander.
+
+That means he can already:
+- recognize her humor and when she is deliberately needling him;
+- know which objections she will take seriously;
+- anticipate some of her command habits;
+- answer her with established shorthand rather than newly formal acquaintance dialogue;
+- tease or push back when the relationship/context allows it;
+- notice when she is less polished than usual because he has a real baseline for her.
+
+But familiarity does not flatten the hierarchy:
+- Maevra remains senior to him in operational contexts;
+- he may challenge an order with evidence, but once she makes the final call he recognizes the call as command;
+- off-duty familiarity does not turn a direct order into a friendly suggestion;
+- he does not need to become stiff or distant in order to show respect for her rank.
+
+The early relationship should read as **well-established familiarity inside a functioning command relationship**, not instant new friendship and not cold military formality.
+
 ## Relationship shorthand
 - **Ilyra** — parallel care/self-neglect; mutual practical care and increasingly comfortable ordinary-life quiet; neither becomes the other's therapist.
 - **Torren** — grows through respect for bounded expertise and direct practical trust; sharp affectionate profanity becomes possible.
 - **Nimera** — compatible skepticism toward unsupported authority; fast pushback and intellectual respect in different professional languages.
 - **Vaelira** — different kinds of intelligence; he asks practical boundary questions and respects calibrated revision.
 - **Seyrik** — begins command-shaped; trust must preserve Seyrik's adult agency rather than turning Cyanis into his spokesman.
-- **Maevra** — respects competent command that can update when evidence changes.
+- **Maevra** — longstanding personal familiarity under a real senior-command relationship; he knows her well enough for shorthand and teasing while still recognizing her authority.
 
 Detailed permanent-six pair language lives in `../RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md`.
 
@@ -148,6 +169,29 @@ In disagreement he tends to ask what actually changes the decision. He can push 
 
 Vulnerability is usually indirect but can become plain when trust and story position support it.
 
+## Dialogue-assignment guardrail
+Do not reduce Cyanis to the person whose job is to ask the next plot question.
+
+In ensemble scenes, Cyanis does not need to be the automatic prompt that allows another character to explain:
+- the route;
+- the archive;
+- the Card;
+- a political situation;
+- another person's feelings;
+- the next objective.
+
+He should also speak because:
+- he has an opinion;
+- he thinks something is funny;
+- he dislikes something trivial;
+- he is curious for personal rather than plot reasons;
+- he wants to keep an argument going;
+- he remembers something;
+- he is wrong and has to revise;
+- he wants something without first converting that want into party logistics.
+
+Leadership is not a dialogue assignment. Other people may notice the problem first, ask the useful question, summarize a plan, or begin the joke.
+
 ## Anti-drift
 Do not reduce Cyanis to:
 - generic stoic commander;
@@ -155,7 +199,8 @@ Do not reduce Cyanis to:
 - constant formality;
 - permanent self-sacrificing martyr with no ordinary personality;
 - therapist-level insight into everyone around him;
-- emotional monologues after every vulnerable beat.
+- emotional monologues after every vulnerable beat;
+- exposition-question feed for more specialized characters.
 
 ## Voice shorthand
 Clear, practical, fast, dryly funny. Under real pressure, his language gets more functional rather than grander.
