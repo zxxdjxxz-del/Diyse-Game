@@ -1,6 +1,8 @@
 # Chapter 3 — Beat 5
 # Old City Access / Archive Descent
-## DIALOGUE ENGINE PRODUCTION DRAFT A — rehearsal-first Agent-Brain pass / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN — PERSON-BRAIN PERFORMANCE PASS
+
+**Method note:** rerun under `STORY_BEAT_AS_GUARDRAIL_LOCK.md` and `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. The lawful archive access, maintained-to-Ancient transition, party state, Nimera destination, and reveal firewalls remain fixed. Person Agent Brains determine conversational ownership and rhythm.
 
 ---
 
@@ -23,6 +25,8 @@ Player control pauses briefly.
 
 An unnamed Old City archive keeper verifies Mirena's authorization. The exchange is procedural rather than adversarial.
 
+The keeper looks from the authorization to the three names.
+
 **ARCHIVE KEEPER:** Dovaren. Amarin. Harth.
 
 **CYANIS:** That's us.
@@ -31,31 +35,47 @@ An unnamed Old City archive keeper verifies Mirena's authorization. The exchange
 
 **CYANIS:** That's the idea.
 
-**ARCHIVE KEEPER:** She's working below the maintained stacks.
+**ARCHIVE KEEPER:** She's below the maintained stacks. Deeper work section.
 
-**ILYRA:** How far below?
+Torren looks past the desk toward the descent rather than asking a social question.
 
-**ARCHIVE KEEPER:** Far enough that I stop calling all of it maintained.
+**TORREN:** How much of the route do you actually maintain?
 
-A beat.
+The keeper answers like someone who has had to make that distinction before.
 
-**TORREN:** What do you maintain?
+**ARCHIVE KEEPER:** Routes we use. Doors we understand. Repairs we know won't interfere with older work. Wards we know how to leave alone. Past that, `maintained` starts becoming a dangerous word.
 
-**ARCHIVE KEEPER:** Routes. Doors we understand. Wards we know how to leave alone.
+Torren nods once.
 
 **TORREN:** Better answer than I expected.
 
 **ARCHIVE KEEPER:** It's kept me employed.
 
+**ILYRA:** High praise for institutional caution.
+
+**ARCHIVE KEEPER:** Down here, caution gets promoted faster than confidence.
+
+Cyanis glances at Ilyra.
+
+**CYANIS:** I like this place already.
+
+**ILYRA:** Give it time.
+
 The keeper indicates the approved descent route. No elaborate map or prop animation is needed.
 
-**ARCHIVE KEEPER:** Pellan has clearance for the deeper work section. So do you, for this investigation.
+**ARCHIVE KEEPER:** Pellan has clearance for the deeper work section. So do you, for this investigation. Follow the marked route. If something is sealed, leave it sealed. If the marked route and the room disagree, the room wins and you come back.
 
-**ARCHIVE KEEPER:** Follow the marked safe way. If something is sealed, leave it sealed.
+Torren looks at the keeper with immediate approval.
 
-**CYANIS:** Wasn't planning to improve the archive.
+**TORREN:** Definitely better than expected.
 
-**ARCHIVE KEEPER:** Good. Scholars keep doing that.
+**CYANIS:** That's practically affection from him.
+
+**TORREN:** No.
+
+**ARCHIVE KEEPER:** I'll survive.
+
+**ILYRA:** Also high praise.
 
 The keeper returns to ordinary work.
 
@@ -83,25 +103,39 @@ At the point where the Crown's obvious repairs and adapted archive fittings stop
 
 Torren, Ilyra, and Cyanis may appear as field models for the stop.
 
+Torren takes in the join between current Crown work and the older structure.
+
 **TORREN:** Crown work stops here.
 
 **CYANIS:** You can tell that quickly?
 
-**TORREN:** New mortar stops. New braces stop. Old stone doesn't.
+Torren does not reduce the answer to one clue.
 
-Ilyra looks down the approved route.
+**TORREN:** New mortar ends at that seam. Same with the braces. Crown floor repair stops three paces behind us, but the old fitted stone keeps going without a break. Whoever adapted the upper rooms worked *into* this structure. They didn't rebuild this part.
 
-**ILYRA:** Still marked safe?
+Cyanis looks down the marked route.
 
-**TORREN:** Marked safe.
+**CYANIS:** And the route is still approved.
 
-A beat.
+**TORREN:** Marked approved. That's a record of somebody checking it, not a promise the building signed.
 
-**TORREN:** Different claim.
+**ILYRA:** You've known the archive keeper for thirty seconds and already stolen their philosophy.
 
-**CYANIS:** Good. I was worried this was getting comfortable.
+**TORREN:** Good philosophy.
 
-The scene ends immediately.
+**ILYRA:** I know. That's what makes it irritating.
+
+Cyanis looks from one to the other.
+
+**CYANIS:** I preferred when only Maevra did this with him.
+
+**TORREN:** Did what?
+
+**ILYRA:** Encourage him accidentally.
+
+**TORREN:** Keep moving.
+
+The scene ends because Torren has already supplied the useful distinction.
 
 ### [GAMEPLAY — DIYSEAN DESCENT]
 
@@ -121,6 +155,38 @@ Do not explain what every mechanism does. The Crown's inability to master the fu
 
 No mandatory combat or major revelation belongs to this beat.
 
+Most of the descent remains silent.
+
+Near the deeper work section, Cyanis looks at another sealed side passage as they pass it.
+
+**CYANIS:** Nobody curious?
+
+**TORREN:** About what?
+
+**CYANIS:** Door nobody understands in an ancient archive.
+
+**ILYRA:** Extremely curious.
+
+Cyanis waits.
+
+**ILYRA:** Still not opening it.
+
+**CYANIS:** I didn't say we should.
+
+**ILYRA:** Neither did I. See? Growth everywhere.
+
+Torren keeps walking.
+
+**TORREN:** Marked route's left.
+
+**CYANIS:** And there goes wonder.
+
+**TORREN:** Wonder can turn left.
+
+Ilyra laughs.
+
+The exchange is social curiosity, not a safety lecture. Nobody touches the sealed passage.
+
 ### [STORY HANDOFF — DEEPER WORK SECTION]
 
 The marked route reaches the deeper archive work section identified by the keeper as Nimera Pellan's current location.
@@ -133,14 +199,24 @@ Transition directly into:
 
 ---
 
-## Beat-5 production notes
+## Person-Brain performance notes
 
-- Maevra is absent and remains with Mirena in Caelora.
-- the trio is intentionally looking for Nimera Pellan by name.
-- lawful archive authorization is normal restricted-area procedure, not a movement writ or detention mechanic.
-- the archive keeper is competent and profile-only; no recurring NPC identity is created.
-- the Crown visibly uses and maintains upper Old City archive areas without pretending to master the whole complex.
-- most of the beat is exploration, not conversation.
-- Torren gets one bounded physical observation at the modern-to-Ancient transition rather than becoming an Ancient-history expert.
-- Old City presentation remains handcrafted magical fantasy, never software / terminal / network language.
-- no Nimera recruitment, Card classification, seal solution, Prime / Might / Last Sentinel reveal, or Cresthaven identification occurs here.
+- the archive keeper is allowed a complete practical philosophy of what Crown maintenance does and does not mean; this makes the institution feel competent without inventing a recurring NPC.
+- Torren naturally latches onto that distinction because routes, maintenance boundaries, physical joins, and confidence limits are his domain. He is allowed to explain the maintained edge as a complete observation rather than answering one clue at a time.
+- Cyanis keeps the conversation human through dry curiosity but does not become an Ancient-systems investigator.
+- Ilyra participates through humor and genuine curiosity. She does not ask the default `is it safe?` question or become the automatic person policing whether others touch things.
+- the brief sealed-door exchange proves Ilyra can be curious about an unknown object without her curiosity becoming recklessness or medical/safety management.
+- most traversal remains silent; the pass does not mistake Person-Brain performance for constant banter.
+- Maevra's absence remains meaningful because she is continuing the Crown-side investigation with Mirena.
+
+## Canon / knowledge check
+
+**PASS — Person-Brain performance pass.**
+
+- lawful archive authorization remains normal restricted-area procedure, not detention or movement control;
+- the Crown visibly maintains upper Old City areas without pretending to master the buried complex;
+- the trio is intentionally looking for Nimera Pellan by name;
+- no Nimera recruitment occurs here;
+- no Card classification, seal solution, Prime / Might / Last Sentinel reveal, or Cresthaven identification occurs here;
+- no sealed side route is opened and no new ancient mechanism is explained;
+- Beat 6 retains Nimera's full introduction and the barrier problem.
