@@ -1,9 +1,10 @@
 # Chapter 0 — Dialogue Authority Index
 
 **Chapter:** 0 — Broken Convoy  
-**Status:** CURRENT WORKING DIALOGUE AUTHORITY — MAINLINE P01–P07 + C01; PERSON-BRAIN PERFORMANCE PASS COMPLETE; CYANIS CHARACTER AUDIT COMPLETE; ILYRA ROLE-BALANCE CURRENT; SPOKEN-DIALOGUE/NARRATION RULE REMAINS IN FORCE  
+**Status:** CURRENT WORKING DIALOGUE AUTHORITY — MAINLINE P01–P07 + C01; PERSON-BRAIN PERFORMANCE PASS COMPLETE; CYANIS CHARACTER AUDIT COMPLETE; ILYRA ROLE-BALANCE CURRENT; MATURE-ADULT SPEECH / PROFANITY AUDIT CURRENT; SPOKEN-DIALOGUE/NARRATION RULE REMAINS IN FORCE  
 **Combined chapter read-through:** `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — stale against the newly revised atomic sources  
 **Rhythm authority:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
+**Mature-adult speech authority:** `../../AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`  
 **Spoken-dialogue authority:** `../../AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`
 
 ## Authority rule
@@ -13,14 +14,14 @@ The standalone P01–P07 and C01 rehearsal-first files in this folder are the ex
 `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` remains a convenient historical assembled read-through, but it predates the 2026-09-12 Person-Brain performance pass and the later Ilyra role-balance corrections. Where it disagrees with a standalone file, the standalone file wins until the manuscript is regenerated.
 
 Current sequence:
-- P01 — Convoy / Opening Ambush — **Person-Brain performance pass current; Cyanis audit pass**
-- P02 — Wreck Field — **Person-Brain performance pass current; Cyanis audit pass**
-- P03 — Evacuation Relay Decision — **Person-Brain performance pass current; Cyanis audit pass**
-- P04 — Field Triage / Ilyra / First Flare — **Person-Brain performance pass current; Cyanis audit pass; medical emphasis story-earned**
-- P05 — Concealed Ruin Vanguard — **Person-Brain + Ilyra role-balance current; Cyanis audit pass**
-- P06 — Riftmaw + Convoy War-Sorcerer — **Person-Brain performance pass current; Cyanis audit pass; Card-response medical emphasis story-earned**
-- P07 — Aftermath / Survivor Recovery — **Person-Brain performance pass current; Cyanis audit pass; aftermath/medical emphasis story-earned**
-- optional C01 — Six Minutes — **Person-Brain + Ilyra role-balance current; Cyanis audit pass**
+- P01 — Convoy / Opening Ambush — **Person-Brain performance pass current; Cyanis audit pass; mature-adult speech audit pass**
+- P02 — Wreck Field — **Person-Brain performance pass current; Cyanis audit pass; mature-adult speech audit pass**
+- P03 — Evacuation Relay Decision — **Person-Brain performance pass current; Cyanis audit pass; mature-adult speech audit pass**
+- P04 — Field Triage / Ilyra / First Flare — **Person-Brain performance pass current; Cyanis audit pass; mature-adult speech audit pass; medical emphasis story-earned**
+- P05 — Concealed Ruin Vanguard — **Person-Brain + Ilyra role-balance current; Cyanis audit pass; mature-adult speech audit pass**
+- P06 — Riftmaw + Convoy War-Sorcerer — **Person-Brain performance pass current; Cyanis audit pass; mature-adult speech audit pass; Card-response medical emphasis story-earned**
+- P07 — Aftermath / Survivor Recovery — **Person-Brain performance pass current; Cyanis audit pass; mature-adult speech audit pass; aftermath/medical emphasis story-earned**
+- optional C01 — Six Minutes — **Person-Brain + Ilyra role-balance current; Cyanis audit pass; mature-adult speech audit pass**
 
 ## Cyanis character audit — COMPLETE
 
@@ -93,6 +94,24 @@ Cyanis may ask a question when he genuinely wants the answer, but he is not requ
 
 The existing current scenes already satisfy his character authority. The audit instead adds a forward guardrail: future dialogue must preserve Cyanis as a social person with opinions, humor, wants, mistakes, and ordinary interests rather than using him mainly as the leader who asks the next useful question.
 
+## Mature-adult speech / profanity audit — CURRENT
+
+Owning rule:
+- `../../AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`
+
+Chapter 0 has been checked against the new adult-speech standard as part of the Cyanis audit and current Ilyra role-balance state.
+
+Current interpretation:
+- the cast are mature adults and do not need to be sanitized into uniformly polite JRPG dialogue;
+- profanity remains character-specific rather than quota-driven;
+- Cyanis is allowed to swear, joke crudely, or use blunt language where his state and relationship make it natural, but Chapter 0 does not require extra profanity merely to prove maturity;
+- Ilyra's occasional profanity and sharper humor are allowed to coexist with professional medical competence;
+- crisis command language may be clean because clarity matters, not because the script is censoring the characters;
+- the convoy officer's authority does not require everyone around him to sound artificially formal;
+- C01 remains intentionally ordinary adult conversation rather than sanitized protagonist/healer bonding.
+
+**No Chapter-0 atomic rewrite was required solely for profanity.** The current dialogue already sounds adult without needing mechanical swear insertion.
+
 ## Maevra familiarity / rank forward lock
 
 Current character authority now explicitly establishes:
@@ -106,7 +125,7 @@ Future early-chapter dialogue must therefore preserve both sides simultaneously:
 - Cyanis and Ilyra may use established shorthand with her rather than sounding newly acquainted;
 - operationally, Maevra's direct orders still carry senior-command authority;
 - disagreement and familiarity do not make them equal-rank buddies;
-- rank does not require artificial emotional distance or stiff formality.
+- rank does not require artificial emotional distance, stiff formality, or sanitized language.
 
 The correct early read is **familiarity plus hierarchy**.
 
@@ -216,7 +235,7 @@ The Person-Brain pass does not reverse the earlier narration audit. Longer turns
 
 The atomic dialogue sources changed during the Person-Brain performance pass, and P05/C01 changed again during the Ilyra role-balance pass.
 
-The Cyanis-specific character audit did **not** require another atomic dialogue rewrite.
+The Cyanis-specific character audit and mature-adult speech/profanity audit did **not** require another atomic dialogue rewrite.
 
 Therefore:
 - standalone atomic sources are the current exact wording authority;
@@ -229,8 +248,8 @@ If Chapter-0 dialogue sources disagree:
 1. current Chapter-0 story authority and later explicit user corrections;
 2. current character authorities for Cyanis, Ilyra, and supporting characters, including Cyanis's dialogue-assignment guardrail, Ilyra's dialogue-assignment guardrail, and Maevra familiarity/rank authority where relevant;
 3. current standalone rehearsal-first scene authority;
-4. `../../AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`, `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, and other current workflow locks for production interpretation;
+4. `../../AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`, `../../AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`, `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, and other current workflow locks for production interpretation;
 5. `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` only where its wording has been explicitly resynchronized;
 6. older/historical dialogue only as provenance.
 
-> **Chapter 0 Person-Brain performance pass, Cyanis character audit, and Ilyra role-balance pass are complete. Atomic files are exact wording authority; combined manuscript and prior novelization are stale until the Chapters 0–3 pass is finished and synchronized.**
+> **Chapter 0 Person-Brain performance pass, Cyanis character audit, Ilyra role-balance pass, and mature-adult speech/profanity audit are complete. Atomic files are exact wording authority; combined manuscript and prior novelization are stale until the Chapters 0–3 pass is finished and synchronized.**
