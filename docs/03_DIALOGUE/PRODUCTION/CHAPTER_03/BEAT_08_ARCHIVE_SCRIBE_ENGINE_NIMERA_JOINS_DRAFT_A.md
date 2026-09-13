@@ -1,8 +1,8 @@
 # Chapter 3 — Beat 8
 # Archive Scribe Engine / Nimera Joins
-## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
-**Method note:** fresh rehearsal under `STORY_BEAT_AS_GUARDRAIL_LOCK.md` and `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. The hard outcomes are Scribe Engine combat, Nimera demonstrating combat competence, bounded evidence review, and Nimera becoming a permanent party member. No recruitment conversation or post-fight checklist was prescribed to the Person Agents.
+**Method note:** fresh rehearsal under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, and current Ilyra character authority. The hard outcomes are Scribe Engine combat, Nimera demonstrating combat competence, bounded evidence review, and Nimera becoming a permanent party member. The Nimera Person-Brain performance remains intact; Ilyra is no longer assigned post-fight monitoring, food enforcement, or safety arbitration merely because she is present.
 
 ---
 
@@ -68,43 +68,41 @@ The Scribe Engine is disabled rather than destroyed spectacularly. Its active ar
 
 A short silence.
 
-**ILYRA:** Everyone upright?
+**CYANIS:** Everybody still with me?
 
 **TORREN:** Yes.
 
-**CYANIS:** Yes.
+**ILYRA:** Unfortunately.
 
 Nimera is staring at the disabled machine.
 
-**ILYRA:** Pellan.
+Ilyra waits a beat.
 
-No response.
+**ILYRA:** Pellan. If you're composing a love letter to it, make it short.
 
-**ILYRA:** Nimera.
+Nimera blinks and looks over.
 
-**NIMERA:** What?
-
-**ILYRA:** Upright?
-
-Nimera glances down at herself as if checking the premise.
-
-**NIMERA:** Yes. Sorry. It stopped halfway through a stroke and I was trying to decide whether that means the stroke mattered or whether I'm assigning intention to a broken mechanism because it tried to cave my ribs in.
+**NIMERA:** What? No. It stopped halfway through a stroke and I was trying to decide whether that means the stroke mattered or whether I'm assigning intention to a broken mechanism because it tried to cave my ribs in.
 
 **TORREN:** It also tried to cave your ribs in.
 
 **NIMERA:** I covered that part.
 
-**ILYRA:** Any pain?
-
-**NIMERA:** Nothing new.
-
-**ILYRA:** Good enough for now.
+**ILYRA:** Good. I'd hate for attempted murder to go undocumented.
 
 Nimera starts toward the machine.
 
-**ILYRA:** Slowly.
+**TORREN:** Give it a second.
 
-**NIMERA:** I heard the second half too.
+Nimera stops.
+
+**NIMERA:** I know.
+
+A beat.
+
+**NIMERA:** I was giving it a second while walking toward it.
+
+**CYANIS:** Innovative.
 
 ### [WHAT THEY ACTUALLY HAVE]
 
@@ -222,9 +220,13 @@ She keeps packing.
 
 **NIMERA:** Because the older records are down there, the route just opened, something down there has already reacted to us, and if I go upstairs now I will spend the entire walk thinking about the records I did not read. Also, if the archive decides to close another wall, I'd rather be on the interesting side of it this time.
 
-**ILYRA:** That's not a safety argument.
+Ilyra looks at her.
 
-**NIMERA:** I know. It wasn't meant to be.
+**ILYRA:** You had me until "interesting side of the wall."
+
+**NIMERA:** That was the best part.
+
+**ILYRA:** Of course it was.
 
 Torren looks down the passage.
 
@@ -238,27 +240,23 @@ Nimera looks at him.
 
 **NIMERA:** Then yes, Harth, with you. Try to contain your relief.
 
-Ilyra looks toward the upper route, then back to Nimera.
+Ilyra looks at the things Nimera is gathering.
 
-**ILYRA:** Need anything from upstairs first?
+**ILYRA:** That's all you're taking?
 
 Nimera pauses long enough to actually consider it.
 
-**NIMERA:** Food. Two reference books. A less terrible pencil. None of those are worth leaving now.
+**NIMERA:** What I need right now. I would prefer food, two reference books, and a less terrible pencil, but none of those are worth going back for.
 
-**ILYRA:** Food eventually.
+Ilyra looks at the pencil in Nimera's hand.
 
-**NIMERA:** Yes, mother.
+**ILYRA:** You ranked the pencil above food.
 
-A beat.
+**NIMERA:** It's a very bad pencil.
 
-Nimera winces at her own line.
+**ILYRA:** I respect the commitment. Not the priorities.
 
-**NIMERA:** Sorry. That was automatic and weirdly intimate.
-
-Ilyra's mouth twitches.
-
-**ILYRA:** I've heard worse.
+**NIMERA:** Good. I don't need approval, only witnesses.
 
 Cyanis accepts the decision without turning it into a ceremony.
 
@@ -306,10 +304,12 @@ Transition into:
 
 ## Beat-8 production notes
 
-- This Person-Brain performance pass preserves the fight, evidence boundaries, and recruitment outcome while allowing Nimera to stay inside her own thought process longer.
+- This pass preserves the fight, evidence boundaries, recruitment outcome, and Nimera's full Person-Brain behavior while applying Ilyra's current dialogue-assignment guardrail.
 - Nimera joins the battle because the live situation makes that natural; nobody asks her to prove she can fight.
 - post-fight dialogue stays with what the group actually observed while Nimera explicitly resists turning plausible explanations into evidence.
+- Cyanis owns the broad post-battle check; Ilyra does not become the automatic injury monitor or caretaker.
+- Ilyra's interaction with Nimera is social: she jokes about Nimera staring at the machine, asks a genuine evidence question, challenges the "interesting side" reasoning, and needles her pencil priorities.
+- food appears because Nimera herself lists what she would prefer, not because Ilyra orders her to eat or slips into a mother role.
 - Nimera catches her own desire to collapse multiple mysteries into one explanation and explains why that makes her less confident in her inference.
-- recruitment is still shown by Nimera gathering her things and continuing deeper, but the choice now sounds like a person making it rather than a sequence of binary answers.
-- Ilyra and Nimera begin developing a lived conversational rhythm through safety, food, and an overfamiliar joke rather than explicit relationship approval.
+- recruitment is shown by Nimera gathering her things and continuing deeper, not by an approval ritual.
 - the game UI confirms the permanent party change after the human moment has already landed.
