@@ -90,11 +90,13 @@ Chapter-2 Torren may:
 Immediate danger, stealth, fatigue, real anger, and active route calls can still collapse him into short speech. Those are **state changes**, not his baseline personality.
 
 ### Chapter 3 onward
-Torren is socially embedded enough that terse and talkative modes can coexist scene by scene.
+Torren is socially embedded with Cyanis and Ilyra enough that terse and talkative modes can coexist scene by scene.
 
-He can still deliver a one-word deadpan because it is funny or sufficient. He can also spend several lines arguing with Nimera, telling Cyanis why something is stupid, complaining about a room, defending terrible food, or recounting something that happened years ago without the scene first needing a map on the wall.
+He can still deliver a one-word deadpan because it is funny or sufficient. He can also spend several lines telling Cyanis why something is stupid, complaining about a room, defending terrible food, or recounting something that happened years ago without the scene first needing a map on the wall.
 
-His social opening should continue rather than reset whenever a new chapter begins.
+**Nimera is new in Chapter 3.** Torren's comfort with Cyanis and Ilyra does not transfer automatically to her. Their relationship starts at first contact and must earn its own shorthand, care, and familiarity.
+
+His social opening should continue rather than reset whenever a new chapter begins, but every new relationship still starts where the story actually starts it.
 
 ## Social behavior
 Torren is practical and socially functional.
@@ -164,33 +166,64 @@ Their mature relationship is about **movement and return**, not confinement.
 
 Player-facing reveal timing is owned by current story/dialogue authority. Torren knowing this history does not mean he explains it early.
 
-## Nimera
-Torren and Nimera develop a **deeply familial, protective bond** built on mutual respect rather than sentimentality.
+## Nimera — relationship progression
+Torren is twenty years older than Nimera and is old enough to be her father. Over time, that age gap becomes emotionally relevant to the shape of their bond—but **not immediately when they meet**.
 
-The emotional shape is closest to **uncle/niece or daughter-like affection**, but Torren is **not** Nimera's literal or substitute father and Nimera is never treated as a child.
+Torren and Nimera eventually develop a **strong father/daughter-like familial bond** built on trust, reciprocal respect, practical care, and a lot of teasing.
 
-Core dynamic:
-- Torren respects Nimera's adult expertise and expects other people to do the same;
-- Nimera respects his bounded field judgment even while arguing with his wording, methods, or notation;
-- he notices when she is overextended, hungry, working through exhaustion, carrying damaged gear, or about to create a practical problem for herself;
-- his care often appears as action first: moving the ink, fixing a strap, handing something over, checking a piece of gear, taking the exposed side, making sure she has what she needs;
-- he may ask if she ate, slept, or packed something, but this should feel specifically **Torren-to-Nimera**, not generic party parenting;
-- she can recognize and tease the behavior as his "dad thing" or equivalent familial fussing without surrendering autonomy;
-- he may deny, ignore, or deadpan around that accusation rather than explaining the bond;
-- he can protect her physically without assuming she cannot protect herself;
-- she can tell him he is wrong, correct his evidence, refuse his suggestion, or outperform him in her domain without threatening the bond;
-- he can correct her practical assumptions without turning her into a student or child;
-- each can train the other because their later class architecture is reciprocal.
+Torren is not Nimera's literal father, does not replace her family, and never treats her as a child. Nimera remains a capable adult whose expertise, choices, and agency he respects.
 
-Their humor should come from **familiarity plus contrast**, not just `terse man versus verbose scholar`:
+### Chapter 3 — first contact
+They have just met.
+
+The relationship should read as:
+- professional curiosity;
+- different reasoning styles colliding;
+- mutual testing;
+- early respect earned through competence;
+- occasional accidental comedy;
+- mild irritation that can become enjoyable;
+- no established parental shorthand;
+- no automatic protective possessiveness;
+- no `dad thing` jokes yet;
+- no behavior implying they already know one another's needs or habits.
+
+Torren can notice practical things about Nimera because he notices practical things about everyone. In Chapter 3 those actions should not yet carry special paternal weight.
+
+### Following chapters — trust accumulating
+The bond grows through repetition rather than a single emotional scene.
+
+As they travel and train together:
+- Torren learns Nimera's work habits, limits, tells, and practical blind spots;
+- Nimera learns when Torren's bluntness means concern, amusement, disagreement, or simple economy;
+- arguments gain callbacks and private shorthand;
+- each begins anticipating the other's reasoning;
+- practical favors become more specific and personal;
+- reciprocal Routeweaver / Proofhunter training deepens mutual respect;
+- Torren becomes more openly protective without doubting Nimera's competence;
+- Nimera becomes increasingly comfortable teasing him about fussing, age, habits, and paternal behavior.
+
+### Later relationship — father/daughter-like bond earned
+Only after several chapters of accumulated trust should the familial shape become unmistakable.
+
+At that stage:
+- Torren's care often appears as action first: fixing a strap, checking her gear, moving something before she spills it, carrying the exposed side, making sure she has what she needs, remembering what she forgot;
+- he may check whether she ate, slept, packed something, or is pushing too hard because he specifically knows **her**, not because he parents the entire party;
+- Nimera can recognize and mock the behavior as his `dad thing` or equivalent paternal fussing;
+- Torren may deny it, deadpan around it, or deliberately make the joke worse;
+- he can be protective without trying to control her choices;
+- she can correct him, refuse him, outperform him in her domain, and make decisions he dislikes without threatening the bond;
+- their arguments can sound familial because the trust underneath them is no longer in question.
+
+Their humor should eventually grow beyond `terse field man versus verbose scholar` into:
 - mutual correction;
 - judgmental-face accusations;
-- arguments over notation, evidence, gear, food, work habits, and what counts as "done";
-- Nimera overexplaining while Torren keeps engaging instead of merely walking away every time;
-- Torren occasionally using more words specifically because winding her up is funny;
-- practical care that both of them pretend is not emotionally significant.
+- arguments over notation, evidence, gear, food, work habits, age, and what counts as `done`;
+- Torren deliberately using more words because winding Nimera up is funny;
+- Nimera weaponizing precision against his paternal fussing;
+- practical affection both of them pretend is less emotionally meaningful than it is.
 
-The bond should become audible through habit before anyone labels it familial.
+The relationship must be **shown growing**. Do not import the later father/daughter dynamic backward into Chapter 3.
 
 ## Edda
 Edda is Torren's older sister, not a substitute mother. Their estrangement is cumulative rather than one dramatic betrayal.
@@ -205,7 +238,7 @@ Core difference:
 ## Relationship shorthand
 - **Cyanis** — accountable leadership meeting bounded expertise; grows into fast, competitive, increasingly vicious-but-safe affectionate banter and brother-like friendship.
 - **Ilyra** — low-pressure professional respect and comfortable silence that increasingly includes dry jokes, profanity, and ordinary conversation.
-- **Nimera** — practical field reasoning against records/provenance reasoning; reciprocal training; deeply familial/protective teasing without infantilization.
+- **Nimera** — Ch3 begins as field reasoning versus records/provenance reasoning and mutual testing; several chapters of reciprocal training and accumulated trust eventually grow into a strong father/daughter-like bond without infantilization.
 - **Vaelira** — field evidence versus formal calibration; useful friction and mutual respect.
 - **Seyrik** — veteran shorthand, practical instruction, restrained conversation, and eventually direct affectionate insult.
 - **Maevra** — long adult history/love; shared competence and shorthand without reducing either to the relationship.
@@ -258,6 +291,7 @@ Do not reduce Torren to:
 - rustic anti-intellectual stereotype;
 - emotionally unavailable caricature;
 - literal/substitute father who infantilizes younger party members;
+- someone whose eventual paternal bond with Nimera appears fully formed when they first meet;
 - bitter ex defined by Maevra;
 - uncertainty treated as incompetence.
 
