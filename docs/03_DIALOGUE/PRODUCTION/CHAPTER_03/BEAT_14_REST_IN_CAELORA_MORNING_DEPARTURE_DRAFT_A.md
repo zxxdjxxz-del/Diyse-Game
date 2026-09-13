@@ -1,10 +1,8 @@
 # Chapter 3 — Beat 14
 # Rest in Caelora / Morning Departure
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
-**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received only the rest-before-departure outcome, the need for a genuine four-person decompression scene, the next-morning preparation window, and reveal boundaries. No evening topic, joke, emotional lesson, or bonding milestone was prescribed.
-
-**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Quiet evening conversation allows speakers to finish thoughts, misread one another, interrupt over mundane things, and settle into different conversational lengths rather than maintaining equal turn sizes.
+**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, then audited under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` and current Ilyra character authority. The rest-before-departure outcome, four-person decompression scene, next-morning preparation window, and reveal boundaries remain fixed. This pass removes the remaining party-mother behavior from Ilyra without flattening the low-pressure chemistry established by the Nimera pass.
 
 ---
 
@@ -24,13 +22,13 @@ Cyanis looks up.
 
 **MIRENA:** You have spent most of the day underground, fought an Ancient Warden, watched a Card change state in your hand, and then stood in a seal workshop arguing about whether somebody successfully copied royal authority. Cresthaven has been abandoned for years. It can survive one more night without you. Eat, sleep, leave in the morning when you're ready.
 
-Ilyra says nothing, but the look she gives Cyanis is unhelpfully satisfied.
+Ilyra looks at Cyanis.
 
-**CYANIS:** You don't have to look that pleased.
+**ILYRA:** I was going to let you finish that argument before I enjoyed the answer.
 
-**ILYRA:** I didn't say anything.
+**CYANIS:** You could've warned me.
 
-**CYANIS:** Worse.
+**ILYRA:** This was better.
 
 **NIMERA:** For the record, I support the princess's tyrannical food-and-sleep policy.
 
@@ -114,19 +112,21 @@ Ilyra takes a piece of bread.
 
 **NIMERA:** Eyewitness testimony is famously—
 
-**ILYRA:** Eat.
+**ILYRA:** Then prove him wrong and use the spoon on the stew.
 
 Nimera stops.
 
 A beat.
 
-**NIMERA:** That was an interruption.
+**NIMERA:** That is manipulation.
 
-**ILYRA:** Yes.
+**ILYRA:** Effective?
 
-**NIMERA:** Rude.
+Nimera takes a bite.
 
-She takes a bite anyway.
+**NIMERA:** Irrelevant.
+
+Ilyra smiles into her drink.
 
 A little silence settles without becoming awkward.
 
@@ -158,9 +158,9 @@ Nimera, still chewing, points at Torren with her spoon.
 
 **TORREN:** Wasn't planning to.
 
-Ilyra looks between them.
+Ilyra looks around the room.
 
-**ILYRA:** This is going well. Nobody's bleeding, nobody's trying to murder an ancient wall, nobody has been assessed by a homicidal monument for at least an hour, and the food is still mostly on the table.
+**ILYRA:** First room today that hasn't trapped, assessed, attacked, or authenticated anybody.
 
 Nimera looks at her.
 
@@ -196,15 +196,15 @@ Nimera looks at him.
 
 Nimera reaches for the ink pot.
 
-Ilyra puts two fingers on the top of it first.
+**ILYRA:** Careful. Reopening it makes `were` correct again.
 
-Nimera looks at her hand.
+Nimera stops with her hand halfway there.
 
-Then at Ilyra.
+Then looks at Ilyra.
 
 **NIMERA:** Oh, fuck both of you.
 
-Ilyra smiles into her drink.
+Ilyra laughs.
 
 **NIMERA:** Cyanis, help me.
 
@@ -226,11 +226,17 @@ A beat.
 
 **NIMERA:** That "sure" was hostile.
 
-**ILYRA:** Go to bed before you classify his tone.
+**ILYRA:** Write down `hereditary smugness` and defend it tomorrow.
 
-**NIMERA:** Too late. Dismissive, smug, probably hereditary.
+**NIMERA:** I do not need sleep to defend that classification.
 
-Torren almost smiles.
+**TORREN:** Sure.
+
+Nimera points at him.
+
+**NIMERA:** See? Repeated evidence.
+
+Ilyra is laughing too hard to answer immediately.
 
 Nimera stacks the notes anyway.
 
@@ -286,7 +292,9 @@ Cyanis smiles.
 
 **NIMERA:** Don't.
 
-**ILYRA:** Go.
+Ilyra heads for the exit.
+
+**ILYRA:** Come on.
 
 The road journey is skipped.
 
@@ -302,11 +310,13 @@ Transition into:
 
 ## Beat-14 production notes
 
-- Mirena's rest instruction remains practical but now sounds like a complete judgment from someone who has been listening to what the party actually endured.
+- Mirena owns the decision to rest because she is the authority figure ending the working day; Ilyra is not silently positioned as the person who was already supervising Cyanis's food or sleep.
 - the evening scene has no required lore topic or emotional milestone. It is simply the first low-pressure ordinary stretch for Cyanis, Ilyra, Torren, and Nimera as the current permanent four.
-- the interaction emerges from fatigue, food, work habits, remembered wording, and ordinary irritation rather than characters discussing how they feel about becoming a group.
-- Nimera's longer floor-holding now appears most strongly when she is tired and stubborn about a trivial distinction; Ilyra and Torren interrupt her because they want her to eat and stop working, not because the script needs shorter lines.
+- Nimera's longer floor-holding remains strongest when she is tired and stubborn about trivial distinctions.
+- Torren still caps the ink because *he* is the one directly engaged in the cutlery/ink argument; Ilyra joins by weaponizing grammar and laughing, not by confiscating Nimera's work or ordering her to bed.
+- Ilyra's `prove him wrong and use the spoon on the stew` line is teasing manipulation, not food enforcement; Nimera remains free to comply, refuse, or argue.
+- Ilyra's recap joke is about the day's absurd events rather than whether everyone is fed, bleeding, or properly managed.
+- no one becomes the party parent. Nimera reaches `I am tired` herself and closes her own notes.
 - Torren remains terse rather than being lengthened to match Nimera.
-- Ilyra does not become the party mother; she is dry, amused, and practical.
 - no investigation finding, dream, attack, magical escalation, Card transformation, Prime event, or new Cresthaven lore occurs.
 - selecting `Leave for Cresthaven` skips the road and hands directly into Beat 15.
