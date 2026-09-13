@@ -1,7 +1,7 @@
 # Chapter 3 — Character-Life H03 — Ilyra and Nimera
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL
+## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — PERSON-BRAIN PERFORMANCE PASS
 
-**Method note:** generated from the open H03 Character-Life brief plus the current Ilyra and Nimera Agent Brains. No injury, treatment, relationship lesson, emotional disclosure, or plot topic was prescribed. The supply-room premise emerged as a low-stakes collision between Nimera's classification instincts and Ilyra's dry practicality.
+**Method note:** generated from the open H03 Character-Life brief plus the current Ilyra and Nimera Person Agent Brains. No injury, treatment, relationship lesson, emotional disclosure, or plot topic was prescribed. The supply-room premise emerges as a low-stakes collision between Nimera's classification instincts and Ilyra's dry practicality.
 
 ---
 
@@ -27,41 +27,57 @@ Ilyra glances over.
 
 **ILYRA:** It is if you stop caring.
 
-Nimera looks at her.
+Nimera slowly looks at her.
 
-**NIMERA:** That's not how categories work.
+**NIMERA:** No. That's surrender disguised as handwriting. "Miscellaneous" means the person sorting either stopped before the problem was solved or never decided what the problem was.
 
-**ILYRA:** It's how boxes work.
+**ILYRA:** It's a box.
+
+**NIMERA:** Boxes can participate in bad systems.
+
+**ILYRA:** Brave position.
 
 Nimera opens the crate.
 
 Inside is exactly the kind of accumulation the label promised: spare cord, candle stubs, loose buttons, chalk, a hinge pin, wax, two buckles that do not match, a folded scrap of cloth, and one spoon.
 
-Nimera picks up the spoon.
+Nimera stops.
+
+She reaches in and picks up the spoon.
 
 **NIMERA:** Why is there a spoon?
 
 **ILYRA:** For eating.
 
-**NIMERA:** In this box.
+**NIMERA:** I know what a spoon is for.
+
+**ILYRA:** You asked.
+
+**NIMERA:** I asked why it is in *this box*.
 
 **ILYRA:** Still probably for eating.
 
-Nimera looks back into the crate.
+Nimera looks from the spoon to the crate.
 
-**NIMERA:** That explains the object. Not the classification.
+**NIMERA:** That explains function. It does not explain classification, storage logic, prior use, or why somebody looked at cord, wax, hardware, chalk, and a single utensil and thought, yes, these are one family now.
 
-**ILYRA:** Spoon.
+**ILYRA:** Maybe they were tired.
 
-**NIMERA:** That's a noun.
+Nimera pauses.
 
-**ILYRA:** Utensil.
+**NIMERA:** That's annoyingly plausible.
 
-Nimera looks at the single spoon in her hand.
+**ILYRA:** Put it back.
 
-**NIMERA:** One-object category.
+**NIMERA:** Absolutely not. Now I need to know whether the spoon is an accident or evidence of a worse sorting principle.
 
-**ILYRA:** Very exclusive.
+Ilyra goes back to the shelf she was searching.
+
+**ILYRA:** You're going to investigate the spoon.
+
+**NIMERA:** I am going to correct the box.
+
+### [THE SORT BEGINS]
 
 Nimera puts the spoon beside the crate rather than back inside.
 
@@ -71,19 +87,23 @@ Then the chalk.
 
 Then the wax.
 
+Then the hinge pin.
+
 Small piles begin appearing on the floor beside her.
 
 Ilyra watches for a moment.
 
 **ILYRA:** You're sorting it.
 
-**NIMERA:** I'm correcting it.
+**NIMERA:** I'm correcting it. Sorting implies there was a coherent prior state I am merely rearranging. This is salvage.
 
-**ILYRA:** Of course.
+**ILYRA:** Dramatic.
+
+**NIMERA:** Accurate.
 
 Ilyra reaches down and takes the cord from one of the new piles.
 
-Nimera looks at her hand.
+Nimera's head snaps toward her hand.
 
 **NIMERA:** What are you doing?
 
@@ -109,7 +129,7 @@ A beat.
 
 Ilyra starts to walk away with it.
 
-**NIMERA:** Where is it going?
+**NIMERA:** Wait. Where is it going?
 
 Ilyra stops.
 
@@ -133,11 +153,29 @@ There is a tiny, unwilling smile there.
 
 **ILYRA:** I can be both.
 
-Nimera considers that.
+**NIMERA:** That's deeply inconvenient.
 
-**NIMERA:** Fair.
+Ilyra starts toward the door again.
 
-She goes back into the crate.
+**NIMERA:** No, wait, I do actually need to know whether you're taking all of it.
+
+**ILYRA:** Why?
+
+**NIMERA:** Because then the category disappears and I don't have to leave an empty pile labeled cord like some kind of fucking memorial.
+
+Ilyra holds up the length she took.
+
+**ILYRA:** Not all of it.
+
+**NIMERA:** Fine. Thank you. Go commit your theft.
+
+**ILYRA:** Supply room.
+
+**NIMERA:** Legally sanctioned theft.
+
+### [THE UNKNOWN PIECE]
+
+Ilyra does not leave yet. She checks another shelf while Nimera goes back into the crate.
 
 A small brass piece comes out next—bent, fitted, clearly manufactured, but no longer attached to whatever once gave it an obvious purpose.
 
@@ -147,7 +185,7 @@ Ilyra leans just enough to see it.
 
 **ILYRA:** What's that?
 
-**NIMERA:** I don't know yet.
+**NIMERA:** I don't know yet. Manufactured fitting, probably load-bearing or retaining something, but the wear is asymmetric and this bend might be damage rather than shape. Don't let me call it a bracket yet.
 
 **ILYRA:** Miscellaneous.
 
@@ -157,7 +195,7 @@ Nimera slowly looks at her.
 
 **ILYRA:** Seems accurate.
 
-**NIMERA:** Unknown function is not the same thing as miscellaneous.
+**NIMERA:** Unknown function is not the same thing as miscellaneous. "Unknown" describes the state of our knowledge. "Miscellaneous" describes a collection strategy, usually a shitty one.
 
 **ILYRA:** It's in the miscellaneous box.
 
@@ -165,7 +203,7 @@ Nimera slowly looks at her.
 
 **ILYRA:** According to you.
 
-**NIMERA:** According to language.
+**NIMERA:** According to language, evidence, and basic respect for finding things again.
 
 **ILYRA:** Language put `MISC.` on the box.
 
@@ -173,15 +211,19 @@ Nimera points the brass piece at her.
 
 **NIMERA:** A tired quartermaster put `MISC.` on the box.
 
-**ILYRA:** You don't know they were tired.
+Ilyra raises an eyebrow.
 
-Nimera pauses.
+Nimera freezes.
 
-**NIMERA:** Fine.
+**NIMERA:** Fuck. No. You're right. I don't know they were tired.
 
-A beat.
+**ILYRA:** I didn't say anything.
 
-**NIMERA:** An irresponsible quartermaster.
+**NIMERA:** Your face did. Fine. An irresponsible quartermaster. Or a perfectly responsible quartermaster under terrible time pressure. Or a person who inherited someone else's box and hated it as much as I do but had actual work to finish.
+
+**ILYRA:** You're defending them now.
+
+**NIMERA:** I'm correcting myself. Don't make it sentimental.
 
 Ilyra laughs once through her nose.
 
@@ -189,13 +231,15 @@ Nimera hears it.
 
 **NIMERA:** There. You know I'm right.
 
-**ILYRA:** No. That was for you being angry at a box.
+**ILYRA:** No. That was for you prosecuting and acquitting a stranger over a crate label in under a minute.
 
-**NIMERA:** I'm not angry at the box.
+**NIMERA:** The evidence changed.
 
-**ILYRA:** The quartermaster, then.
+**ILYRA:** The evidence was my eyebrow.
 
-**NIMERA:** On principle.
+**NIMERA:** Hostile witness.
+
+### [BUCKLE DISPUTE]
 
 Ilyra crouches beside the remaining contents.
 
@@ -211,13 +255,23 @@ She picks up one of the unmatched buckles.
 
 **ILYRA:** Clothing adjacent.
 
-**NIMERA:** Absolutely not.
+**NIMERA:** Absolutely not. That's how categories rot. First "clothing adjacent," then somebody puts a saddle fitting in with socks because both have straps.
 
-Ilyra sets it between two of Nimera's piles.
+**ILYRA:** Has that happened to you?
+
+**NIMERA:** Not specifically.
+
+**ILYRA:** You sounded wounded.
+
+**NIMERA:** I can extrapolate pain.
+
+Ilyra sets the buckle between two of Nimera's piles.
 
 **ILYRA:** There.
 
 Nimera looks at the buckle.
+
+Then at Ilyra.
 
 **NIMERA:** What is that?
 
@@ -229,11 +283,25 @@ Nimera looks at the buckle.
 
 Nimera stares at her.
 
-Then laughs despite herself.
+**NIMERA:** I love categories. That's why bad ones make me fucking furious.
+
+A beat.
+
+Ilyra smiles.
+
+Nimera hears herself.
+
+**NIMERA:** All right, that sounded worse out loud.
+
+**ILYRA:** No. That one sounded exactly right.
+
+Nimera laughs despite herself.
 
 **NIMERA:** Fuck you.
 
 **ILYRA:** Better.
+
+### [UNRESOLVED]
 
 A comfortable beat.
 
@@ -257,33 +325,57 @@ Ilyra reads it.
 
 **ILYRA:** That's miscellaneous with more steps.
 
-Nimera does not look up.
+Nimera's pen stops.
+
+**NIMERA:** It is not. It is a deliberately bounded unknown. The distinction is that future me knows exactly what I failed to establish instead of inheriting a box that says "who fucking knows" in polite charcoal.
+
+Ilyra points at the label.
+
+**ILYRA:** Longer miscellaneous.
 
 **NIMERA:** Get out.
 
-Ilyra leaves with the cord.
-
-At the doorway:
+Ilyra heads for the doorway with the cord.
 
 **ILYRA:** Don't sort the spoon too hard.
 
 Nimera looks at the spoon still sitting alone beside the crate.
 
-**NIMERA:** I hate you a little.
+**NIMERA:** The spoon is presently an unresolved storage anomaly.
 
-Ilyra glances back at the new label.
+Ilyra stops at the doorway.
 
-**ILYRA:** Needs a better category.
+**ILYRA:** Spoon.
 
-She exits.
+**NIMERA:** That's still a noun.
 
-Nimera stares after her for a beat.
+**ILYRA:** Very exclusive category.
 
-Then looks at the spoon.
+Nimera throws a candle stub at her.
+
+Ilyra steps aside; it misses easily.
+
+**ILYRA:** Candles go over there.
+
+She points to the pile Nimera made.
+
+Nimera looks at the candle on the floor.
+
+Then at Ilyra.
+
+Ilyra leaves.
+
+A beat.
+
+Nimera picks the candle up and puts it in the correct pile.
+
+She looks at the spoon.
 
 **NIMERA:** Fucking miscellaneous.
 
 She drops it back into the original crate.
+
+Then immediately looks annoyed with herself for doing it.
 
 Fade / return to cleanup gameplay.
 
@@ -291,12 +383,12 @@ Fade / return to cleanup gameplay.
 
 ## H03 production notes
 
-- H03 is intentionally plotless and low-stakes.
-- The premise arose from Nimera's interest in classification and Ilyra's dry practicality rather than a required relationship lesson.
+- H03 remains intentionally plotless and low-stakes.
+- The premise arises from Nimera's classification instincts and Ilyra's dry practicality rather than a required relationship lesson.
 - Ilyra is playful and mildly antagonistic here; she is not treating, counseling, parenting, or managing Nimera.
-- Nimera is socially functional and knows when Ilyra is deliberately provoking her.
-- Their warmth is conveyed through voluntary continued engagement, teasing, laughter, and the fact that neither needs to soften the exchange into a sentimental explanation.
-- the closing exchange no longer repeats Chapter 2's existing `I hate you / no you don't` joke structure; it returns to H03's classification premise instead.
+- Nimera's Person Brain now owns more of the conversational shape: she extends distinctions beyond their practical usefulness, revises unsupported assumptions aloud, swears naturally, and gets interrupted or abandoned when Ilyra has had enough.
+- Ilyra's shorter answers and deliberate literalism are a counter-rhythm rather than a lack of characterization.
+- Their warmth is conveyed through voluntary continued engagement, teasing, laughter, interruption, and the fact that neither needs to soften the exchange into a sentimental explanation.
 - No main-story clue, Card event, Ancient revelation, seal information, or Hunt information is introduced.
 - No fixed personal preference is established for either woman beyond behavior already supported by their current brains.
-- The scene gets out once the classification joke and their chemistry have landed.
+- The scene exits once the classification joke and their chemistry have landed.
