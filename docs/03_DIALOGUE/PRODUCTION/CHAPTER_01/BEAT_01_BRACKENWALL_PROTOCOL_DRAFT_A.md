@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 1
 # Brackenwall / Protocol
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE + FINAL ENSEMBLE BALANCE PASS
 
 ---
 
@@ -158,11 +158,17 @@ Ilyra's eyes go straight to the splint.
 
 Maevra looks at Cyanis.
 
-**MAEVRA:** She's efficient.
+**MAEVRA:** See? This is why I don't argue with her about splints anymore.
 
-**CYANIS:** Aggressively.
+**CYANIS:** Anymore implies growth.
 
-That is enough to establish the Chapter-1 injury state. The scene does not stop for a medical explanation.
+**MAEVRA:** Don't get excited. I save the bad decisions for larger subjects.
+
+Ilyra gives her a look that says she can name several.
+
+**MAEVRA:** Not taking submissions.
+
+That is enough to establish both the Chapter-1 injury state and the fact that Maevra and Ilyra already know one another well. The scene does not stop for a medical explanation.
 
 The custody officer gives Maevra only what changed after arrival.
 
@@ -242,9 +248,25 @@ Ilyra glances again at the splint.
 
 Maevra looks at him.
 
-**MAEVRA:** Dovaren, I've known her for five minutes and even I know this is not the hill.
+**MAEVRA:** Dovaren, I've known Amarin long enough to know this is not the hill.
 
-Ilyra almost smiles.
+**ILYRA:** Finally, the command structure produces something useful.
+
+**MAEVRA:** Careful. I still outrank you.
+
+**ILYRA:** And I'm still redoing the splint.
+
+Maevra considers that.
+
+**MAEVRA:** Annoying system.
+
+**CYANIS:** Seems balanced from here.
+
+Maevra points at him with her good hand.
+
+**MAEVRA:** Nobody asked you.
+
+That familiarity is preexisting; the rank is still real.
 
 **MAEVRA:** You two eat. Drink something that isn't medical equipment. I'll get the arm insulted properly, then we leave.
 
@@ -286,6 +308,7 @@ Story state:
 - Maevra takes responsibility for the abnormal custody situation;
 - Maevra's arm was broken during the Broken Convoy attack and is already splinted;
 - Maevra travels with the group but does not fight in Chapter 1; the broken arm is the immediate in-world reason;
+- Maevra already has established personal familiarity with both Cyanis and Ilyra while remaining their senior commander in operational contexts;
 - Caelora is the larger destination;
 - Greenhollow is the immediate destination;
 - Ilyra continues with Cyanis;
@@ -299,11 +322,12 @@ Next mandatory story beat:
 
 ---
 
-## Person-Brain performance note
+## Person-Brain / ensemble performance note
 
 - the Card-separation event stays immediate and physically led; the dialogue does not explain the visible line back to the player.
-- Ilyra now gives a complete medical/evidentiary boundary rather than being compressed into generic caution.
+- Ilyra gives a complete medical/evidentiary boundary where the scene genuinely requires it.
 - Maevra arrives socially alive: humor, injury deflection, command judgment, curiosity, and a clear boundary around unnecessary personal history all coexist without making her a co-exposition narrator.
-- Maevra's Torren description sounds like twenty-five years of actual familiarity rather than a recruitment dossier.
+- Maevra and Ilyra now explicitly sound like people with established prior familiarity rather than new acquaintances; their easy pushback coexists with Maevra's real senior-command rank.
+- Maevra's Torren description sounds like long actual familiarity rather than a recruitment dossier without revealing exact duration or past romance.
 - the bitterleaf callback grows naturally out of Chapter 0 without becoming required lore.
 - no story, route, injury, Card, or gameplay outcome changes.
