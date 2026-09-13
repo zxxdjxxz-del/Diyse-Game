@@ -1,6 +1,6 @@
 # Chapter 0 — P03
 # Evacuation Relay Decision
-## REHEARSAL-FIRST DRAFT A — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT / awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 ---
 
@@ -16,11 +16,9 @@ The Card remains cased and inert.
 
 **CONVOY OFFICER:** Report.
 
-**CYANIS:** Seventeen moving. Five need carrying. Two escorts are clean enough to chase; three more can hold a fixed line.
+Cyanis does not make him pull the numbers out one at a time.
 
-**CONVOY OFFICER:** Recovery wagon?
-
-**CYANIS:** Still ours. East approach is open. Center road isn't safe for casualties.
+**CYANIS:** Seventeen moving under their own power. Five need carrying. Two escorts are clean enough to chase if we absolutely need them; three more can hold a fixed line, but I wouldn't ask them to run one. Recovery wagon is still ours. East approach is open. Center road is bad for casualties unless somebody stabilizes the wreck first.
 
 The officer looks north.
 
@@ -34,19 +32,43 @@ The officer looks north.
 
 The officer looks back toward the relay.
 
-**CONVOY OFFICER:** You want to let them go.
+**CONVOY OFFICER:** So you want to let an armed withdrawal walk away while we're exposed.
 
-**CYANIS:** For ten minutes. Pull the casualties in, reform around the wreck and recovery wagon, and watch north. If they come back, they come back to a line instead of half a camp.
+**CYANIS:** For ten minutes. Pull the casualties in, reform around the wreck and recovery wagon, put eyes north, then decide with an actual line behind us. If they come back during that window, they hit people ready for them instead of half a camp carrying stretchers.
+
+**CONVOY OFFICER:** And if they don't come back? If they use those ten minutes to settle on the ridge and make us pay for giving them time?
+
+**CYANIS:** Then we deal with a harder ridge after we've stopped bleeding people into the road. I don't love it. I just hate the other order more.
+
+The officer studies him for a beat.
+
+**CONVOY OFFICER:** You were going to refuse a chase order.
+
+Cyanis does not pretend otherwise.
+
+**CYANIS:** If you sent the two clean escorts north right now? Yes. I'd argue first. If you still ordered it, they'd go.
+
+**CONVOY OFFICER:** You'd go with them.
+
+**CYANIS:** Probably.
+
+**CONVOY OFFICER:** That's the part of you I find exhausting.
+
+**CYANIS:** Which part?
+
+**CONVOY OFFICER:** The part where your objection somehow ends with you volunteering for the stupid thing.
+
+Cyanis glances toward the casualties.
+
+**CYANIS:** Noted.
+
+**CONVOY OFFICER:** I don't believe you.
 
 A beat.
 
-**CONVOY OFFICER:** And if they use those ten minutes to settle on the ridge?
+The officer makes the decision.
 
-**CYANIS:** Then we still have a line, the wounded are behind it, and I can move without leaving the relay hollowed out.
-
-The officer considers the field rather than treating the disagreement as a contest of rank.
-
-**CONVOY OFFICER:** All right. Relay first. Reform on the wagon and keep eyes north. Nobody chases until I say otherwise.
+**CONVOY OFFICER:** Relay first. Reform on the wagon. Eyes north. Nobody chases until I say otherwise. Two clean escorts stay mobile, not committed.
 
 **CYANIS:** Yes, sir.
 
@@ -56,11 +78,17 @@ Cyanis starts to go.
 
 **CYANIS:** Sir?
 
-**CONVOY OFFICER:** Next time, field first and refusal second. You had the argument. I shouldn't have to drag it out of you.
+**CONVOY OFFICER:** Next time, field first and refusal second. You had the argument. I shouldn't have to drag it out of you while people are waiting on the decision.
 
-A beat.
+Cyanis takes that without defending himself.
 
-**CYANIS:** Yes, sir.
+**CYANIS:** You're right.
+
+The officer gives him a brief look; the plain admission is more useful than ceremony.
+
+**CONVOY OFFICER:** Go make the line worth the argument.
+
+**CYANIS:** On it.
 
 Scene ends.
 
@@ -78,10 +106,11 @@ Next: **P04 — Field Triage Camp / Ilyra / First Incomplete Response.**
 
 ---
 
-## Audit check
+## Person-Brain performance note
 
-- Tactical pressure remains concise, but Cyanis is allowed to finish a complete field argument rather than surrendering the floor after each clause.
-- P03 no longer repeats the full north-cut evidence already spoken to the same officer in P02. The officer asks what has changed; Cyanis answers with the new operational fact: five casualties still need carrying.
-- The officer gives complete orders and reasoning when the situation permits it.
-- Short replies remain where hierarchy or urgency naturally makes them short.
-- No story outcome, knowledge state, or Card continuity changed.
+- the prior spoken/narration correction remains intact: Cyanis does not re-explain the full north-cut evidence already established in P02; `You said that. What changes now?` still turns the argument toward the new casualty state.
+- Cyanis now delivers the field report as one competent linked unit rather than waiting for a checklist interrogation.
+- the officer's resistance is conversational and character-aware: he challenges both the tactical cost and Cyanis's habit of objecting to risk while volunteering himself for it.
+- Cyanis can say `You're right` plainly when the criticism is useful.
+- the officer retains formal authority and makes the final call.
+- no story outcome, Card state, or knowledge state changes.
