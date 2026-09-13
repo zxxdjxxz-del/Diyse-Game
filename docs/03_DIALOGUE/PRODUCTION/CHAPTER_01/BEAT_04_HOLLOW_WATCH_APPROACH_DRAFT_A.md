@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 4
 # Hollow Watch Approach
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS + ILYRA ROLE-BALANCE PASS
 
 **Walking-dialogue lock:** Torren is genuinely guiding the party to Hollow Watch, so brief route guidance may occur during traversal. Ordinary wilderness traversal still shows Cyanis only.
 
@@ -30,7 +30,15 @@ Torren looks over the group once.
 
 **MAEVRA:** That's because neither of you has had to share a room with the other yet.
 
-Ilyra looks toward the north route.
+**ILYRA:** Give it another hour. They may discover a common philosophy about owning one shirt.
+
+Cyanis looks down at himself.
+
+**CYANIS:** I have more than one shirt.
+
+**ILYRA:** Then the friendship may not survive.
+
+Torren ignores them and looks toward the north route.
 
 **ILYRA:** Main road's out. What's the alternative actually like?
 
@@ -49,6 +57,12 @@ Torren looks at him.
 **TORREN:** It was both.
 
 **MAEVRA:** That's as warm as he gets before noon.
+
+**ILYRA:** I was promised a guide. Nobody mentioned continuing education.
+
+**TORREN:** Free.
+
+**ILYRA:** Somehow worse.
 
 **TORREN:** Move.
 
@@ -96,7 +110,11 @@ Cyanis changes course.
 
 **MAEVRA:** That's how he gets you.
 
-**ILYRA:** I asked a medical question once and became a doctor. Seems fair.
+**ILYRA:** I haven't decided whether I hate this or find it fascinating.
+
+**TORREN:** Can do both.
+
+**ILYRA:** Oh, good. Permission.
 
 Cyanis laughs.
 
@@ -142,9 +160,11 @@ A beat.
 
 **TORREN:** Not from here. No uniforms in the yard, no movement where I'd expect a prisoner detail, but distance is doing us no favors. Don't turn absence into bodies yet.
 
-**ILYRA:** Wasn't planning to.
+**ILYRA:** Good. I'm not interested in inventing an answer from this far away.
 
-**TORREN:** Good.
+**TORREN:** Then we're getting along.
+
+**ILYRA:** Don't rush it.
 
 Maevra looks at the excavation.
 
@@ -184,7 +204,13 @@ Torren thinks instead of answering immediately.
 
 Ilyra nods.
 
-**ILYRA:** That's what I needed.
+**ILYRA:** Miserable and slow. Your routes have a strong theme.
+
+**TORREN:** They work.
+
+**ILYRA:** That's the irritating part, apparently.
+
+Maevra makes a small sound that might be agreement.
 
 **CYANIS:** Let's try for nobody needing a litter.
 
@@ -224,7 +250,13 @@ Torren checks the actual ground before answering.
 
 **MAEVRA:** Finally, a suggestion with charm.
 
-**ILYRA:** I'm ready.
+**ILYRA:** I liked the dirt lecture better.
+
+Torren looks at her.
+
+**TORREN:** Knew you would.
+
+**ILYRA:** Don't make me regret saying it.
 
 **CYANIS:** Then let's go.
 
@@ -239,6 +271,8 @@ Maevra gives him a flat look.
 **TORREN:** Didn't say you were.
 
 **MAEVRA:** You thought it loudly.
+
+**ILYRA:** He does. I'm discovering that.
 
 **TORREN:** Move.
 
@@ -276,5 +310,6 @@ Next mandatory story beat: **Beat 5 — Occupied Hollow Watch Fort.**
 - Torren is allowed to become more verbal specifically where route, ground, extraction, and field uncertainty are his domain.
 - his longer speech remains concrete and evidence-first rather than lyrical exposition.
 - Maevra can challenge/prod him with the ease of long history without narrating that history for the player.
-- Ilyra asks an extraction question because that consequence belongs to her practical priorities; Torren gives a real answer instead of `one person, yes` shorthand.
+- Ilyra still asks the extraction question because the actual operation makes it useful, but that is no longer her whole function in the scene: she jokes about packing, becomes genuinely interested in Torren's terrain reasoning, notices the mismatched stone, pushes back on his assumptions, and develops her own dry friction with him.
+- Ilyra's medical identity is not invoked as a punchline or as the reason she is allowed to speak.
 - no false trail, scripted ordinary enemy, or extra traversal vignette is added.
