@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 6
 # Black Host Excavation / Lower Access
-## DIALOGUE ENGINE PRODUCTION DRAFT E — chapter-wide dialogue polish + spoken/narration audit / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 ---
 
@@ -30,13 +30,29 @@ The existing dungeon art carries the required transition from later Yahtrean con
 
 At a progression point where the player has seen enough of the Black Host work, movement pauses and the relevant characters may appear as simple field models.
 
-**CYANIS:** They've been at this a while.
+Cyanis takes in the accumulated forcing damage.
 
-**MAEVRA:** Long enough to learn what didn't work.
+**CYANIS:** This isn't one bad idea they kept trying. They changed methods.
+
+Maevra studies the same work from an operational angle.
+
+**MAEVRA:** Yeah. Failed here, reinforced there, tried another face, came back with heavier tools. Long enough to learn what didn't work and organized enough to keep feeding the problem.
+
+Torren looks farther inward.
 
 **TORREN:** Didn't make them stop.
 
-The scene ends there. The excavation itself already shows repeated forcing attempts; nobody translates the visible work into a second spoken summary.
+**ILYRA:** Which means either they knew there was something worth reaching or somebody above them kept insisting there was.
+
+**MAEVRA:** Those aren't the same thing.
+
+**ILYRA:** I know.
+
+**CYANIS:** And we don't know which.
+
+**MAEVRA:** Good. Keep it that way until we do.
+
+The scene ends there. The excavation itself still carries the physical persistence; dialogue adds only bounded judgment about organization and uncertainty.
 
 ---
 
@@ -68,11 +84,25 @@ At the established point where later construction visibly interfaces with older 
 
 The relevant characters may appear as simple field models. The existing structure is the visual; no one needs to manipulate it.
 
-**TORREN:** Fort was using what was already here.
+Torren looks at how the later construction meets the old work.
 
-**ILYRA:** Host tried to force past it.
+**TORREN:** Fort didn't replace this. Built over it and kept using pieces they understood.
 
-The scene ends. The player can see that the later work continues inward; the cast does not restate the same conclusion again.
+Ilyra looks farther inward at the damaged interfaces.
+
+**ILYRA:** And the Host tried to force the pieces nobody understood.
+
+**CYANIS:** You can tell the fort was using it?
+
+Torren points out only the practical relationship, not an invented purpose.
+
+**TORREN:** Later stone fits around the old edges instead of cutting them away. Somebody building the fort expected this part to stay. Doesn't tell me what they thought it was for.
+
+**MAEVRA:** Which is already more honest than most old fort records.
+
+**TORREN:** Low bar.
+
+Scene ends. The player can see that the later work continues inward; the cast does not restate the same conclusion again.
 
 ---
 
@@ -94,15 +124,27 @@ At the threshold to the wider lower junction, movement pauses and the relevant c
 
 The wider chamber ahead is the only new visual the scene needs.
 
+Maevra notices first that the character of the forcing work has changed.
+
 **MAEVRA:** That's where their work stops.
 
-**CYANIS:** Suddenly.
+**CYANIS:** Not tapers off. Stops.
 
-**TORREN:** Doesn't mean whatever stopped them is gone.
+Torren studies the threshold, then the chamber beyond.
 
-A beat.
+**TORREN:** Could mean they ran out of time. Could mean something in there changed the argument. Either way, don't assume whatever stopped them is gone because we haven't seen it yet.
 
-Nobody answers that.
+**ILYRA:** Sensible.
+
+**CYANIS:** I was hoping you'd say comforting.
+
+**TORREN:** Wrong man.
+
+Maevra snorts once.
+
+**MAEVRA:** Very wrong man.
+
+The tension remains; nobody turns the moment into a lecture about the ruin.
 
 Scene ends.
 
@@ -135,16 +177,9 @@ Next mandatory story beat: **Beat 7 — Lower Junction / Six Channels.**
 
 ---
 
-## Presentation / dialogue check
+## Person-Brain performance note
 
-**Traversal:** Cyanis only during ordinary excavation/ruin exploration.
-
-**Triggered scenes:** the relevant cast may appear at the excavation-work stop, old/new structure stop, and lower-junction threshold.
-
-**Walking dialogue:** none. Nobody is an active guide in the unknown lower ruin.
-
-**Random encounters:** no ordinary Black Host or Diysean-defense enemy is converted into a fixed battle or scripted activation.
-
-**Spoken/narration audit:** visible forcing work is no longer followed by `they kept forcing farther in / whatever they wanted wasn't near the surface / they really wanted through` restatements. Characters register age/use relationships or danger; the environment carries persistence and direction.
-
-**Reduction:** removed broken-pry-head counting, crouching/handling, overhead brace business, blood-marked work-sheet prop comedy, lever manipulation assumptions, drag-mark inspection, floor testing, distant hammer cue, and similar micro-staging.
+- the scene remains environment-led, but the triggered exchanges are now real judgments rather than four clipped captions.
+- Maevra speaks in operational pattern; Torren in material/route evidence; Ilyra in consequence and uncertainty; Cyanis in synthesis/questions.
+- Torren is not granted Ancient expertise: he can read construction relationships because they are physical field evidence, not because he knows the ruin's purpose.
+- nobody recites visible forcing work or invents a Black Host motive.
