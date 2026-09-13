@@ -1,0 +1,70 @@
+name: Dialogue Sync
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/dialogue/sync_current_dialogue.py'
+      - '.github/workflows/dialogue-sync.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-dialogue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install reader dependency
+        run: python -m pip install --disable-pip-version-check python-docx
+
+      - name: Synchronize combined manuscripts and reader
+        run: python tools/dialogue/sync_current_dialogue.py
+
+      - name: Verify generated Markdown
+        run: python tools/dialogue/sync_current_dialogue.py --check --no-docx
+
+      - name: Validate Git diff
+        run: git diff --check
+
+      - name: Commit synchronized text outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "DIYSE Dialogue Sync"
+          git config user.email "actions@users.noreply.github.com"
+          git add \
+            docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md \
+            docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md \
+            docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md \
+            docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md \
+            docs/03_DIALOGUE/PRODUCTION/CHAPTER_0_3_DIALOGUE_SYNC_MANIFEST.md \
+            docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md \
+            docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md \
+            docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md \
+            docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md \
+            docs/03_DIALOGUE/DIALOGUE_MASTER_INDEX.md
+          if git diff --cached --quiet; then
+            echo "No synchronized text changes to commit."
+          else
+            git commit -m "Synchronize Chapters 0-3 dialogue manuscripts"
+            git push origin HEAD:main
+          fi
+
+      - name: Upload exact-dialogue reader
+        uses: actions/upload-artifact@v4
+        with:
+          name: DIYSE-Chapters-0-3-Exact-Dialogue-Reader
+          path: build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT.docx
+          if-no-files-found: error
+          retention-days: 30
