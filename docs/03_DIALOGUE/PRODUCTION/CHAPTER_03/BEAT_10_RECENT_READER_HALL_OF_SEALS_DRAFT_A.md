@@ -1,10 +1,8 @@
 # Chapter 3 — Beat 10
 # The Recent Reader / Hall of Seals
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
-**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the live situation, hard historical findings, recent-reader end state, and reveal firewalls. It was not given a speaker sequence or a required research-thread dialogue order.
-
-**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Nimera now holds the floor through connected keeper-ledger findings and caveats, corrects imprecise conclusions in real time, and may be interrupted by other characters for actual social reasons rather than line-length control.
+**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, then audited under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` and current Ilyra character authority. Nimera still owns the keeper-ledger reasoning and real-time evidentiary corrections. Ilyra's contributions remain research, wording, humor, and ordinary reaction rather than default safety supervision.
 
 ---
 
@@ -272,7 +270,7 @@ Nimera follows his gaze.
 
 **CYANIS:** Decorative?
 
-**ILYRA:** Don't.
+**ILYRA:** Decorative would be a very generous interpretation.
 
 **CYANIS:** I was asking hopefully.
 
@@ -310,7 +308,8 @@ Transition directly into:
 
 - The scene follows evidence rather than having the party verbally reconstruct the entire recent reader's route at the opening table.
 - The Hall of Seals remains a physical historical collection, not a magical interface or system terminal.
-- Nimera now holds connected findings and caveats naturally, interrupts when a conclusion genuinely outruns the evidence, and uses profanity as part of ordinary technical/social speech rather than as decorative edge.
+- Nimera holds connected findings and caveats naturally, interrupts when a conclusion genuinely outruns the evidence, and uses profanity as part of ordinary technical/social speech rather than decorative edge.
+- Ilyra's contributions remain evidence-language, questions, and humor. At the dormant Warden threshold she no longer receives the automatic `don't` line merely because Cyanis voices a hopeful possibility.
 - The keeper-ledger discovery establishes that working royal seals could retain authority in the physical seal between uses. It does not establish who can invoke that authority or how unauthorized use occurred.
 - Missing / incomplete keeper material preserves Beat 12's seal-working discovery.
 - pre-Yahtrean Diysean seal fragments establish strong precedent for physical magical authority seals without proving direct lineage to Lysara's current seal.
