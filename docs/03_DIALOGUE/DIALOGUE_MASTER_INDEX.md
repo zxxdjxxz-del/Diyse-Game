@@ -40,6 +40,22 @@ Retroactive rhythm audit tracker:
 **Retroactive Chapters 0–3 natural-turn rhythm audit status: COMPLETE.**  
 **Retroactive Chapters 0–3 spoken-dialogue / narration audit status: COMPLETE.**
 
+### Person-Brain performance state
+
+The newer Person-Brain performance standard is current across Chapter 0, Chapter 1, and all Chapter-3 atomic dialogue. Chapter 2's completed natural-turn / spoken-dialogue production is retained as current and was not reopened merely to rename the pass.
+
+The Person-Brain standard means:
+- topic owners may hold the floor through a complete thought;
+- interruption must come from motive, urgency, expertise, impatience, humor, or relationship;
+- speakers do not receive equal turns merely because they are present;
+- individual rhythms, self-correction, profanity, uncertainty, and conversational habits survive the Dialogue Editor;
+- current character authority controls dialogue assignment, not class/Face stereotypes.
+
+Current Ilyra guardrail:
+> **Grace is not a dialogue assignment.**
+
+Ilyra is not automatically assigned the medical, safety, food/sleep, emotional-interpreter, relationship-reader, caretaker, or moral-referee line. Medical expertise owns a turn when the scene genuinely requires it; humor, curiosity, irritation, profanity, uncertainty, gossip, and ordinary opinion are equally valid reasons for her to speak.
+
 Walking-dialogue lock:
 - `AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`
 
@@ -67,10 +83,10 @@ Retired/superseded development IDs do not reserve numbers. Some atomic filenames
 
 | Chapter | Current status | Chapter-level dialogue authority |
 |---|---|---|
-| Ch0 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE** — P01–P07 + optional C01; atomic files current, combined read-through stale for revised scenes | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` |
-| Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE** — Beats 1–15 + C02/C03/C04; atomic files current, combined read-through stale where flagged | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` |
-| Ch2 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE** — Beats 1–16 + C05; atomic files current, combined read-through stale where flagged | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` |
-| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; CLOSING INTEGRATION + NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE** — Beats 1–15 + C06/C07; atomic files current, combined read-through stale where flagged | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` |
+| Ch0 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT** — P01–P07 + optional C01; atomic files current, combined read-through stale for revised scenes | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` |
+| Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT** — Beats 1–15 + C02/C03/C04; atomic files current, combined read-through stale where flagged | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` |
+| Ch2 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE** — Beats 1–16 + C05; current production retained without reopening it solely for pass-label parity | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` |
+| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE COMPLETE ACROSS BEATS 1–15 + C06/C07; CLOSING INTEGRATION + NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE** — atomic files current, combined read-through stale | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` |
 
 These four chapter folders are the correct live production locations. Where a combined manuscript's embedded SHA differs from the current atomic source, the atomic source is the exact wording authority.
 
@@ -87,18 +103,18 @@ Authority index:
 Current sequence:
 > **P01 → P02 → P03 → P04 → P05 → P06 → P07 → optional C01 `Six Minutes` → explicit departure to Brackenwall**
 
+Person-Brain performance: **CURRENT.**  
 Natural-turn audit: **COMPLETE.**  
 Spoken-dialogue / narration audit: **COMPLETE.**
+
+Ilyra role-balance correction is current. Chapter 0 still contains story-earned medical emphasis where she is literally running triage and observing the Card's unexplained physical effects, but P05 and C01 establish that she also owns tactical uncertainty, humor, profanity, first impressions, ordinary curiosity, and nonmedical social behavior.
 
 Spoken-vs-narration material revisions:
 - **P03** — the north-cut suspicion is not re-explained to the same officer; Cyanis answers what changed operationally.
 - **P07** — Ilyra states the decision to stay once and supplies the reason only when Cyanis challenges it.
 
-Audited and intentionally retained:
-- P01, P02, P04–P06, C01.
-
 Combined read-through:
-- `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **stale for P03/P07 after this audit.**
+- `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **stale against revised atomic dialogue.**
 
 ---
 
@@ -115,8 +131,11 @@ Canonical Character-Life scenes:
 - **C03 — What the Map Says**;
 - **C04 — Not Professionally**.
 
+Person-Brain performance: **CURRENT.**  
 Natural-turn audit: **COMPLETE.**  
 Spoken-dialogue / narration audit: **COMPLETE.**
+
+Ilyra role-balance correction is current across the main pressure points. Her medical expertise remains available when genuinely needed, but she is no longer the default post-battle checker, food/sleep monitor, relationship reader, or human-consequence narrator.
 
 Spoken-vs-narration material revisions:
 - Beats **1, 3, 5, 6, 7, 10, 11, 14**.
@@ -127,9 +146,6 @@ Key result:
 - the six-channel relief and mural stay visual-first instead of being read aloud as checklists;
 - the Hollow Watch resolution reports what Greenhollow needs, not the chapter back to the people who lived it;
 - the hidden monument's cartographic surface is interpreted immediately instead of being announced to the player, and the Six Face exchange asks what the marks might mean rather than describing their visible placement first.
-
-Audited and intentionally retained:
-- Beats 2, 4, 8–9, 12–13, 15 and canonical C02/C03/C04.
 
 Protected **C03** anchor remains exact:
 - Cyanis: `Old slut?`
@@ -157,6 +173,8 @@ Current state:
 Natural-turn audit: **COMPLETE.**  
 Spoken-dialogue / narration audit: **COMPLETE.**
 
+Chapter 2's completed production remains current. It is not reopened solely to make its historical pass labels match the later explicit Person-Brain naming used in Chapters 0, 1, and 3.
+
 Spoken-vs-narration material revisions:
 - Beats **2, 5, 6, 10, 13, 14, 16**.
 
@@ -168,9 +186,6 @@ Key result:
 - Rhazek no longer narrates the player's dungeon progress or his visible withdrawal order back to the party;
 - Dunmere's final debrief is consequence-first rather than a beat-by-beat Chapter-2 recap;
 - the elder's thematic summary is reduced to the character-appropriate `Both matter.`
-
-Audited and intentionally retained:
-- Beats 1, 3–4, 7–9, 11–12, 15 and C05.
 
 Core outcomes remain unchanged: current prisoners rescued, Rhazek loses the Old Bastion locally but survives a credible withdrawal, earlier transferred captives remain unresolved, Greenhollow ↔ Dunmere travel reopens, and Chapter 3 begins only through explicit player confirmation.
 
@@ -188,20 +203,28 @@ Authority index:
 - `CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md`
 
 Combined read-through:
-- `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **currently stale for revised atomic scenes identified by the authority index.**
+- `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **stale against the current atomic scenes.**
 
 Prior closing integration audit:
 - `CHAPTER_03_DIALOGUE_CLOSING_INTEGRATION_AUDIT_2026-09-12.md`
 
 Current state:
-- Beats 1–15 current in standalone atomic authority;
-- **C06 — Nimera Takes Over a Table** current;
-- **C07 — Ilyra and Nimera** current;
+- Beats 1–15 — **Person-Brain performance pass complete** in standalone atomic authority;
+- **C06 — Nimera Takes Over a Table** — Person-Brain performance current;
+- **C07 — Ilyra and Nimera** — Person-Brain performance current;
 - closing integration audit complete;
 - natural-turn / floor-holding rhythm audit complete;
-- spoken-dialogue / narration audit complete.
+- spoken-dialogue / narration audit complete;
+- Ilyra role-balance guardrail current from the opening Caelora arrival onward.
 
-Spoken-vs-narration material revisions:
+Latest Person-Brain closure — Beats 1–5:
+- **Beat 1:** Ilyra no longer polices Cyanis's food; Torren holds the full mural-versus-city footprint thought he owns.
+- **Beat 2:** Maevra owns the report, Torren owns route/mural evidence, Cyanis owns his direct Card experience, and Ilyra adds only firsthand prisoner/clinical evidence.
+- **Beat 3:** Lysara/Othmar/Maevra own the royal administrative problem according to authority and expertise; no equal-turn relay or culprit leak.
+- **Beat 4:** the Crown owns the no-experiment boundary; Ilyra remains socially present without becoming the automatic safety voice.
+- **Beat 5:** the archive keeper and Torren own maintenance/route distinctions; Ilyra is curious and funny rather than assigned the default `is it safe?` line.
+
+Spoken-vs-narration material revisions remain in force:
 - Beats 2, 3, 4, 6, 9, 10, 12, 13, 15.
 
 Key result:
@@ -209,7 +232,8 @@ Key result:
 - Mirena converts evidence into investigation choices rather than narrating clue stacks;
 - visible evidence progression remains in staging when dialogue would only repeat it;
 - Nimera retains real evidentiary explanations when only she can responsibly establish the distinction;
-- repeated new-listener briefings are compressed rather than replayed chronologically.
+- repeated new-listener briefings are compressed rather than replayed chronologically;
+- conversational ownership now remains continuous from Caelora arrival through Nimera's introduction and the rest of the chapter.
 
 Protected **C06** exact anchors:
 - Cyanis: `I bet you use that cape to sneak up on the goats you fuck.`
@@ -225,7 +249,7 @@ Beat 11 exact Warden messages remain:
 
 | Chapter | Dialogue status |
 |---|---|
-| Ch4 | pending current Dialogue Engine production under current restructured story authority **with natural-turn/floor-holding and spoken-vs-narration rules active from the first rehearsal** |
+| Ch4 | pending current Dialogue Engine production under current restructured story authority **with Person-Brain performance, natural-turn/floor-holding, spoken-vs-narration, and current character dialogue-assignment rules active from the first rehearsal** |
 | Ch5 | beat rewrite required before dialogue generation |
 | Ch6 | macro/beat authority; dialogue pending |
 | Ch7 | macro authority; dialogue pending |
@@ -236,7 +260,7 @@ Beat 11 exact Warden messages remain:
 | Ch12 | macro authority; dialogue pending |
 | Ch13 | macro authority; dialogue pending |
 
-All later chapter dialogue uses the locked rehearsal-first Agent Brain pipeline plus all later workflow corrections, including `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` and `SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md` from the first production pass onward.
+All later chapter dialogue uses the locked rehearsal-first Agent Brain pipeline plus all later workflow corrections from the first production pass onward.
 
 ---
 
