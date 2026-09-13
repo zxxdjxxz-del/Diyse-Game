@@ -55,16 +55,17 @@ Mandatory named/boss raw stats still use Audits 129–132 where retained, except
 Optional Elite / Hunt raw stats still use their current owning authorities.
 
 
-## v77 mandatory-vs-completionist validation
-Chapter 1 is now validated against its actual **Lv1 start → Lv5 end** route anchors.
+## Mandatory-vs-completionist validation status
 
-Results:
-- ordinary roster — **PASS**;
-- Sentry/Ballista relationship — **PASS**;
-- **Briarhide Stalker mandatory final-boss encounter — PASS / RETAIN as normal lethal victory; stale nonlethal/floor assumptions retired**;
-- Hollow Watch Castellan — **VALIDATED / RETAIN** at actual ~Lv2 mandatory / ~Lv3 high-side;
-- Watch Captain Frame — **HP 820 → 500**; all Powers retained;
-- Regional Hunt #1 Cistern Devourer — **PASS / RETAIN** as fixed Lv7-recommended optional content.
+> **REOPENED / REVALIDATION REQUIRED**
+
+The prior v77/v78 certification used superseded assumptions, most importantly:
+- Maevra was incorrectly counted as a combat-party guest;
+- Briarhide Stalker was incorrectly validated as a protected/nonlethal fitting objective.
+
+Current production authority keeps Maevra outside the battle party and resolves Briarhide by normal lethal boss victory.
+
+The direct-damage Power audit remains closed. The encounter-validation pass must now be rerun against the current mandatory and completionist party states.
 
 Owning balance record:
 `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_01_MANDATORY_COMPLETIONIST_VALIDATION.md`
