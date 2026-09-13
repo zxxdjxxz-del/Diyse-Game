@@ -20,20 +20,20 @@ The combined manuscript also embeds pre-normalization Character-Life source keys
 ## Mainline dialogue authority
 
 1. `BEAT_01_BRACKENWALL_PROTOCOL_DRAFT_A.md`
-2. `BEAT_02_BRIAR_PASSAGE_FIRST_TRAVERSAL_DRAFT_A.md` — Ilyra role-balance pass current
-3. `BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md` — Ilyra role-balance + Maevra/Torren duration leak correction current
-4. `BEAT_04_HOLLOW_WATCH_APPROACH_DRAFT_A.md` — Ilyra role-balance pass current
-5. `BEAT_05_OCCUPIED_HOLLOW_WATCH_FORT_DRAFT_A.md`
+2. `BEAT_02_BRIAR_PASSAGE_FIRST_TRAVERSAL_DRAFT_A.md` — Ilyra role-balance current
+3. `BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md` — Ilyra role-balance + Maevra/Torren duration-leak correction current
+4. `BEAT_04_HOLLOW_WATCH_APPROACH_DRAFT_A.md` — Ilyra role-balance current
+5. `BEAT_05_OCCUPIED_HOLLOW_WATCH_FORT_DRAFT_A.md` — Ilyra role-balance current
 6. `BEAT_06_BLACK_HOST_EXCAVATION_LOWER_ACCESS_DRAFT_A.md`
 7. `BEAT_07_LOWER_JUNCTION_SIX_CHANNELS_DRAFT_A.md`
 8. `BEAT_08_FORCED_INNER_SECTION_DRAFT_A.md`
-9. `BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md`
+9. `BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md` — Ilyra role-balance current
 10. `BEAT_10_POST_CASTELLAN_MURAL_DRAFT_A.md`
 11. `BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md`
 12. `BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md`
-13. `BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md`
+13. `BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md` — Ilyra role-balance current; lethal boss lock preserved
 14. `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md`
-15. `BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md`
+15. `BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md` — Ilyra role-balance current
 
 The current atomic mainline files have received the Chapter-1 Person-Brain performance pass. Where older rhythm/spoken-dialogue notes conflict with newer atomic wording, the atomic wording wins.
 
@@ -90,10 +90,14 @@ Required read:
 - Ilyra can be wrong, nosy, amused, impressed, bored, surprised, or simply interested without converting the moment into care work;
 - multiple scenes should contain Ilyra participation where medicine, caretaking, therapy, consent, emotional interpretation, and party-management are irrelevant.
 
-Current examples:
-- **Beat 2:** she is interested in Torren's absurd soil argument and jokes about meeting him instead of diagnosing Maevra's feelings or policing the splint;
-- **Beat 3:** she answers the Card/travel medical question because it is genuinely hers, but otherwise develops her own interest and friction with Torren and does not interpret Maevra/Torren for the audience;
+Current concrete corrections:
+- **Beat 2:** she is interested in Torren's absurd soil argument and jokes about meeting him instead of diagnosing Maevra's feelings or policing the splint.
+- **Beat 3:** she answers the Card/travel medical question because it is genuinely hers, but otherwise develops her own interest and friction with Torren and does not interpret Maevra/Torren for the audience.
 - **Beat 4:** she asks one legitimate extraction question while also joking about packing, engaging with terrain reasoning, noticing the mismatched stone, and pushing back on Torren as a peer.
+- **Beat 5:** Cyanis notices the blood, Torren owns the fresh-breach field inference, and Ilyra's survivor check remains only where medical expertise is actually required. She does not therapist-watch Torren afterward.
+- **Beat 9:** Cyanis volunteers his own Card-response symptoms instead of waiting for Ilyra to administer a checklist; Ilyra participates through combat awareness, profanity, teasing, and bounded observation.
+- **Beat 13:** Maevra owns the ordinary post-combat `everyone intact?` check. Ilyra reacts to the Briarhide as a person, joins the group's jokes, and does not become the post-battle medical roll call.
+- **Beat 15:** the morning departure is social/argumentative rather than a food-sleep-health checklist. Ilyra carries forward her road/soil friction with Torren instead of invoking `medical continuity`.
 
 This boundary must carry forward into Chapters 2–3 and later dialogue production.
 
