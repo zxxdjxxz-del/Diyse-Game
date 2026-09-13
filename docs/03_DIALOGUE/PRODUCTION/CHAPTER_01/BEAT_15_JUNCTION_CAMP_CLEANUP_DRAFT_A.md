@@ -39,13 +39,15 @@ Canonical Character-Life numbering follows `../CHARACTER_LIFE_NUMBERING_LOCK.md`
 Current atomic dialogue source (legacy source key C03):
 `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md`
 
-All four current characters are present. Torren's dinner is genuinely bad but hot, filling, safe, and cheap. Maevra already knows his cooking from their long history; Cyanis and Ilyra are discovering it.
+All four current characters are present. Torren's dinner is genuinely bad but hot, filling, safe, and cheap. Maevra already knows his cooking well enough to have old complaints ready; Cyanis and Ilyra are discovering it.
+
+Their familiarity should read through shorthand, remembered habits, and practiced irritation. **Do not reveal how long Maevra and Torren have known each other or that they were ever romantically involved.**
 
 Torren is aware the food is bad and simply does not consider that disqualifying.
 
 Torren does **not** smoke while eating. After everyone has finished, he lights a blunt as ordinary post-meal behavior.
 
-No lore, Hunt progression, reward, or relationship speech is added.
+No lore, Hunt progression, reward, or relationship reveal is added.
 
 ---
 
@@ -71,7 +73,9 @@ This scene is **Ilyra and Maevra only**.
 
 Ilyra changes Maevra's splint and uses restrained Warden/healing magic to ease pain and surrounding strain. The bone remains broken; magic cannot mend the fracture.
 
-While Ilyra works, she asks about Maevra and Torren. The conversation establishes their long history naturally: they were together when young, there was no betrayal or bitter breakup, life and distance repeatedly pulled them apart, and Maevra still loves him.
+While Ilyra works, she notices that Maevra and Torren have unusually deep familiarity and asks just enough to test what she is seeing. Maevra gives her only a sliver: Torren is more than an ordinary colleague and matters to her personally.
+
+**Reveal boundary:** the scene does **not** reveal the exact length of their history, enlistment ages, former romance, sex, breakup history, repeated reunions, current romantic status, or Torren's private feelings. To the player, their Chapter-1 dynamic should still mostly read as two stubborn people who have known each other a long time and argue with old-married-couple ease.
 
 Ilyra does not psychoanalyze Maevra or turn the exchange into therapy. Cyanis and Torren do **not** enter, overhear, or interrupt this scene.
 
@@ -201,7 +205,8 @@ No Prime, Last Sentinel, bearer, Entity, or complete ancient-network explanation
 ## Person-Brain / presentation check
 
 - Beat 15 remains primarily a cleanup wrapper. It does not invent a mandatory evening conversation to compete with the optional Character-Life scenes.
-- the morning exchange now carries forward actual Chapter-0/1 relationship callbacks rather than resetting the party to generic departure banter.
+- the morning exchange carries forward actual Chapter-0/1 relationship callbacks rather than resetting the party to generic departure banter.
 - Torren remains route-first and impatient with unnecessary departure talk; Cyanis and Ilyra carry forward their established medical joke language; Maevra is socially quick and willing to weaponize a funny story.
+- Maevra/Torren Chapter-1 reveal timing is protected: obvious long familiarity, practiced bickering, and mutual stubbornness are visible; exact history and former romance are not.
 - the Briarhide reference correctly treats the boss as **killed**, not driven off.
 - no Junction lore is repeated and no new plot information appears.
