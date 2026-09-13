@@ -1,8 +1,8 @@
 # Chapter 3 — Beat 11
 # First Command Warden
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
-**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the protected-chamber situation, the exact Warden assessment / battle / shutdown sequence, the Card-state outcome, and reveal firewalls. It was not given a required speaker order or a requirement that each party member explain part of the event.
+**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, then audited under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` and current Ilyra character authority. The protected Warden sequence, exact messages, Card-state outcome, and reveal firewalls remain unchanged. Nimera's evidence discipline remains intact; Ilyra's dialogue no longer defaults to bodily supervision except for one scene-earned comparison to the known Brackenwall reaction.
 
 ---
 
@@ -181,13 +181,11 @@ The light contracts through the Card's pattern, folds inward, and reorganizes.
 
 **CYANIS:** Oh, shit.
 
-**ILYRA:** Don't move.
-
-**CYANIS:** Wasn't planning to.
-
 Nimera watches the geometry change rather than reaching for it.
 
-**NIMERA:** Nobody touch him. Nobody touch the Card. Just let it finish whatever the hell this is.
+**NIMERA:** Nobody touch him. Nobody touch the Card. Let it finish before we add anything to the event.
+
+Cyanis holds still because he wants to, not because Ilyra has taken control of him.
 
 The green-and-gold pattern resolves into a stable **deep Ruby** state.
 
@@ -203,17 +201,15 @@ Nimera does not answer immediately. She watches another second, then another.
 
 **NIMERA:** Yes. Stable so far.
 
-Ilyra looks at Cyanis rather than the Card.
+Ilyra looks at Cyanis.
 
-**ILYRA:** You?
+**ILYRA:** Same feeling as Brackenwall?
 
-**CYANIS:** Fine.
+**CYANIS:** No. No shaking, no cold, heart feels normal. It just changed.
 
-**ILYRA:** Fine meaning?
+**ILYRA:** Good.
 
-**CYANIS:** No shaking. No cold. Heart's not trying to escape. Fine.
-
-Ilyra watches him another beat before accepting it.
+She leaves it there.
 
 Torren looks from the inert Warden to the Card.
 
@@ -257,13 +253,13 @@ The Card does not touch the door and is not used as a key.
 
 **NIMERA:** I'm saying it because five minutes from now somebody is going to remember "Card changed, door opened" and quietly fuse those into one event.
 
-**ILYRA:** Then write it down before we go in.
+**ILYRA:** You have paper. Save future-us the argument.
 
 Nimera looks at her.
 
 **NIMERA:** I genuinely like you.
 
-**ILYRA:** Later.
+**ILYRA:** Dangerous standard.
 
 The fitted slabs separate enough to expose the chamber beyond.
 
@@ -283,9 +279,11 @@ She catches herself.
 
 Ilyra raises an eyebrow.
 
-**ILYRA:** I was going to say that.
+**ILYRA:** I was going to say something much less disciplined.
 
-**NIMERA:** I saved you the effort.
+**NIMERA:** Now I need to hear it.
+
+**ILYRA:** Later.
 
 ### [GAMEPLAY HANDOFF]
 
@@ -312,7 +310,8 @@ Transition directly into:
 
 - The Warden visibly assesses the whole four-person party before attacking; the assessment is Ancient magical craft, not modern technology.
 - `PREVIOUS ERROR` and `LAST SENTINEL CONFIRMED` remain exact protected text and retain their exact order.
-- Nimera's Person Brain now appears under pressure: she records sequence, resists causal overclaiming, catches her own desire to connect the Warden and Card, and uses longer reasoning only where the uncertainty genuinely matters.
-- Ilyra continues to own bodily safety and forces Cyanis to define `fine` rather than accepting the shorthand automatically.
+- Nimera's Person Brain remains fully active under pressure: she records sequence, resists causal overclaiming, catches her own desire to connect the Warden and Card, and uses longer reasoning only where the uncertainty genuinely matters.
+- Ilyra's one bodily question after the Ruby change is scene-earned because the Card previously caused a documented physical collapse response. She asks only whether the same Brackenwall sensation is recurring, accepts Cyanis's direct answer, and does not turn it into a symptom interrogation.
+- Ilyra's other contributions are evidence-language, tactical reaction, and dry humor rather than default medical/safety ownership.
 - Deep Ruby is a persistent Card state change only. It is not Prime recovery, awakening, manifestation, identification, or a gameplay unlock.
 - the inner way opens because the defeated Warden is no longer maintaining the old closure; Nimera explicitly protects that distinction from later memory drift without pretending to know more than the scene shows.
