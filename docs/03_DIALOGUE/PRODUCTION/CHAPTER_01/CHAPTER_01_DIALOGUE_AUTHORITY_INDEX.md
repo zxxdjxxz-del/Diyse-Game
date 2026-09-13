@@ -31,7 +31,7 @@ The combined manuscript also embeds pre-normalization Character-Life source keys
 11. `BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md` — spoken/narration audit current
 12. `BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md`
 13. `BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md`
-14. `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md`
+14. `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md` — spoken/narration audit current
 15. `BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md`
 
 ## Character-Life dialogue authority
@@ -66,11 +66,12 @@ Material revisions:
 - **Beat 7** — the relief visually shows civilians, litters, carts, animals, and six channels; characters discuss the implication rather than reading the visual checklist aloud.
 - **Beat 10** — the mural remains visual-first; repeated lower-junction inventory and repeated evacuation imagery were removed while geography recognition, scale, the Junction, and the modern Crest remain genuine new interpretation.
 - **Beat 11** — Maevra no longer recites the Hollow Watch chapter back to the people who just lived it; she gives the reporting task and flags the mural.
+- **Beat 14** — after the hidden monument exposes its cartographic surface, nobody announces `That's a map.` Torren immediately interprets the route work; the Six Face exchange asks what the repeated marks might mean instead of verbally describing their visible placement first.
 
 Audited and intentionally preserved:
-- Beats 2, 4, 8, 9, 12–15 and canonical C02/C03/C04.
+- Beats 2, 4, 8, 9, 12, 13, 15 and canonical C02/C03/C04. Their dialogue is already character-owned, operational, combat-driven, or low-stakes rather than authorial recap.
 
-The current Chapter-1 Face-list wording conflict in Beat 14 is not silently corrected by this dialogue audit; exact dialogue remains source-controlled until a separate canon-correction pass is explicitly requested.
+The current Chapter-1 Face-list wording conflict in Beat 14 is not silently corrected by this dialogue audit; the underlying source wording remains source-controlled until a separate canon-correction pass is explicitly requested.
 
 ## Current synchronization state
 
@@ -82,6 +83,7 @@ Atomic files revised after the prior combined-manuscript assembly include at lea
 - Beat 7 — `7fd571c4006f24b9a0d04edeb4983865f4be2dc4`
 - Beat 10 — `b474ce616e8d9a617dd1fb84e8c227a0e82428a7`
 - Beat 11 — `28bab6e2afa2778fe9df52981660a949682051b3`
+- Beat 14 — `db631a33e3426a43abc97e5b74443102d48be7bf`
 - Beat 15 already had a later metadata/numbering SHA than the prior assembly.
 
 Therefore the combined manuscript is not current exact wording for every embedded scene and must not override the standalone atomic files until resynchronized.
