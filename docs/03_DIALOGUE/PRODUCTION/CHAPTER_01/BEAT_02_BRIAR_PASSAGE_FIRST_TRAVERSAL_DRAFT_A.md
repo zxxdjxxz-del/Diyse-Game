@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 2
 # Briar Passage / First Traversal
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS + ILYRA ROLE-BALANCE PASS
 
 **Walking-dialogue lock:** brief moving dialogue is legal here because Maevra is genuinely guiding Cyanis and Ilyra to Greenhollow.
 
@@ -48,13 +48,19 @@ During an ordinary stretch of travel, Maevra gives a route call through the dial
 
 A short beat.
 
-**ILYRA:** You still sound fond of him.
+**ILYRA:** Forty minutes about soil.
 
-Maevra does not get defensive.
+**MAEVRA:** Closer to forty-two, if you want to make it worse.
 
-**MAEVRA:** I am. He's still a bastard.
+**ILYRA:** I do, actually. I'm beginning to look forward to meeting him.
 
-That is enough. The conversation does not unpack their whole history while walking.
+**MAEVRA:** That's because you haven't.
+
+**CYANIS:** I'm getting mixed advertising here.
+
+**MAEVRA:** It's accurate advertising.
+
+The conversation leaves Torren's personal history alone. What interests Ilyra here is the absurdity of the argument, not diagnosing what Maevra feels about him.
 
 Gameplay continues.
 
@@ -94,11 +100,15 @@ Later, Maevra calls another direction.
 
 **MAEVRA:** Constantly. Sometimes before breakfast, because he has poor priorities.
 
-**ILYRA:** Says the woman guiding us with a broken arm.
+**ILYRA:** If he starts a forty-minute soil argument with me before breakfast, I'm throwing him down the easier-looking road.
 
 Maevra laughs.
 
-**MAEVRA:** Fair. Different poor priorities.
+**MAEVRA:** You may get along after all.
+
+**ILYRA:** That sounded like a threat.
+
+**MAEVRA:** It wasn't entirely one.
 
 Cyanis looks ahead.
 
@@ -110,9 +120,13 @@ Cyanis looks ahead.
 
 **MAEVRA:** He'll still guess. He'll just tell you exactly which part is guesswork, which part he walked yesterday, and which part some drunk wagoner swears was fine because he survived it once.
 
-**ILYRA:** High praise.
+**ILYRA:** All right. That part I like.
 
-**MAEVRA:** He'd complain if I said it nicer.
+**MAEVRA:** Don't tell him too early.
+
+**ILYRA:** I haven't even met him and I'm already receiving instructions about managing his ego.
+
+**CYANIS:** Finally, something outside my department.
 
 The exchange ends because the subject has run its natural course, not because every speaker has delivered one short line.
 
@@ -154,6 +168,8 @@ Ilyra laughs quietly.
 
 **CYANIS:** I'm glad the road has brought everyone joy.
 
+**ILYRA:** It brought me a sign you apparently needed announced in advance. I'm having a lovely time.
+
 **MAEVRA:** Wait until Torren starts correcting your map language.
 
 **CYANIS:** I don't have map language.
@@ -183,6 +199,7 @@ Next mandatory story beat: **Greenhollow / Torren.**
 
 - Maevra is allowed to become more verbally alive while genuinely guiding: she has enough history with the road and Torren to tell a compact story rather than functioning as a route arrow.
 - the added Torren material establishes why his field expertise matters without giving the party current information he has not yet personally supplied.
-- Ilyra and Cyanis can interrupt or extend Maevra's thought naturally rather than each receiving one mandatory route line.
+- Ilyra is no longer assigned the relationship-reader or broken-arm-monitor line merely because she is present. She becomes curious about an absurd argument, develops an opinion about Torren before meeting him, jokes, threatens him hypothetically, and enjoys Cyanis missing the sign.
+- Ilyra's participation here is deliberately nonmedical; Maevra's visible splint carries its own continuity.
 - most gameplay remains silent; this is not converted into continuous walking banter.
 - no false trail, route split, crossing, Old Waystone, Briarhide encounter, or Ancient payoff is restored.
