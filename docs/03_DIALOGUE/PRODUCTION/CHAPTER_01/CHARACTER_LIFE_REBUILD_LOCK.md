@@ -25,6 +25,31 @@ The scenes should:
 - use camp field models simply while portraits/dialogue box carry most performance;
 - avoid bespoke prop choreography and micro-animation unless genuinely necessary.
 
+## Maevra / Torren Chapter-1 reveal gate
+
+Chapter 1 should make it **obvious that Maevra and Torren have known each other for a long time** without explaining that history yet.
+
+The intended player-facing read is:
+- they argue with the ease and repetition of an old married couple;
+- they may initially seem as though they do not get along particularly well;
+- both are stubborn in different directions;
+- Maevra is especially stubborn about duty, responsibility, and continuing when people still need her;
+- Torren is Torren: stubborn about ground truth, routes, practical judgment, and refusing to flatter a bad plan;
+- they know one another's habits, bad arguments, food, work patterns, and likely reactions unusually well;
+- their shorthand should imply years of accumulated familiarity without stating a number.
+
+**Do not reveal in Chapter 1:**
+- that they have known each other for twenty-five years;
+- their enlistment ages;
+- that they were lovers or romantically involved;
+- sexual history;
+- breakup history;
+- repeated separation/reunion history;
+- whether they are currently romantically together;
+- Torren's private romantic feelings.
+
+Optional C04 may reveal only a little more: Torren is more than an ordinary colleague to Maevra, and he matters to her personally. That is the ceiling for this chapter.
+
 ## Current scenes
 
 ### C02 — Torren's Version of Dinner
@@ -36,8 +61,9 @@ Hard premise:
 - Torren made the dinner;
 - the food is genuinely bad, not dangerous and not secretly excellent;
 - Torren knows it is bad and values hot/enough/safe/cheap over taste;
-- Maevra recognizes his bad cooking from their long shared history;
+- Maevra recognizes his bad cooking from long familiarity and can remember old field-meal incidents without dating them;
 - Cyanis and Ilyra are discovering this side of him;
+- dinner may imply deep history through detail and irritation but may not expose duration or past romance;
 - Torren does not smoke during the meal;
 - after everyone has finished eating, Torren lights a blunt as ordinary post-meal behavior.
 
@@ -64,10 +90,9 @@ Hard premise:
 - Ilyra changes/re-secures Maevra's splint at the Junction camp;
 - Maevra's arm was broken during the Broken Convoy attack before Chapter 1 and remains broken;
 - restrained Warden/healing magic may reduce pain and surrounding strain but cannot mend the broken bone;
-- while Ilyra works, she becomes curious about Maevra and Torren and asks about them;
-- there was no betrayal/cheating/bitter-breakup retcon;
-- distance, postings, roads, and life repeatedly separated them, and they kept finding each other again;
-- Maevra still loves Torren in the present;
+- while Ilyra works, she becomes curious about Maevra and Torren because their familiarity and practiced arguing are obvious;
+- Maevra may confirm only that she has known Torren `long enough`, that he is more than an ordinary colleague, and that he matters to her personally;
+- no exact duration, ages, former romance, sexual history, breakup history, repeated reunion history, present romantic-status answer, or Torren-private-feeling reveal is allowed;
 - the scene must not become a relationship briefing or therapy session;
 - Ilyra and Maevra should come out of it feeling like two adult women beginning a friendship of their own.
 
