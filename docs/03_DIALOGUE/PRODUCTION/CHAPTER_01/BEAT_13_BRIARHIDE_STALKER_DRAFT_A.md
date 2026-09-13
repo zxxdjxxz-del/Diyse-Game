@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 13
 # Briarhide Stalker / Chapter-1 Final Boss
-## DIALOGUE ENGINE PRODUCTION DRAFT A — established gameplay presentation + first-sighting-at-fight lock / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 ---
 
@@ -45,21 +45,49 @@ The boss itself is the visual focus. No stalking sequence, circling animation, b
 
 A beat.
 
+Cyanis looks from the animal to Torren.
+
 **CYANIS:** That's the Briarhide.
 
-**TORREN:** Yeah.
-
-**MAEVRA:** "Very" was underselling it.
+Torren does not take his eyes off it.
 
 **TORREN:** Yeah.
 
-**ILYRA:** Route?
+**MAEVRA:** `Very large` was underselling it too.
 
-**TORREN:** Straight through.
+**TORREN:** Yeah.
 
-A beat.
+Ilyra studies the space around the animal rather than the animal alone.
 
-**CYANIS:** Of course it is.
+**ILYRA:** Route around it?
+
+Torren answers immediately.
+
+**TORREN:** Not without backing up a long way, and I don't want to turn our backs on something that already knows we're here. Junction's straight through.
+
+**CYANIS:** Can we wait it out?
+
+**TORREN:** Maybe, if it were just crossing. It's not crossing.
+
+The Briarhide holds the route and remains focused on them.
+
+**TORREN:** That's a challenge. Big territorial animal, narrow road, and we're in the part it decided is worth keeping. We leave now, it may follow until it thinks we're far enough. We push past, it fights.
+
+**MAEVRA:** And we need past.
+
+**TORREN:** Yeah.
+
+Cyanis exhales.
+
+**CYANIS:** Of course we do.
+
+Ilyra looks at Cyanis, then Torren.
+
+**ILYRA:** No tricks, then. Natural animal, ordinary fight, and if either of you starts treating `natural` like it means harmless, I'm leaving you to explain the bites yourselves.
+
+**CYANIS:** Comforting.
+
+**TORREN:** Accurate.
 
 Maevra remains outside the battle party.
 
@@ -77,11 +105,13 @@ This is a normal authored boss encounter.
 
 The Briarhide Stalker is a natural wild beast. It does not transform into a corrupted form, reveal Black Host control, expose machinery, require purification, or use a special nonlethal solution.
 
+**The fight is lethal. The party defeats and kills the Briarhide Stalker through ordinary combat victory.**
+
+There is no protected HP floor, disengagement state, drive-off resolution, purification state, capture condition, or forced nonlethal ending.
+
 Encounter authority owns exact stats, attacks, targeting, pacing, and tuning.
 
 No mandatory mid-battle dialogue is required.
-
-The party defeats the Briarhide through ordinary combat victory.
 
 ---
 
@@ -89,33 +119,65 @@ The party defeats the Briarhide through ordinary combat victory.
 
 After victory, field/story presentation returns and the relevant characters may appear.
 
-Portraits and the dialogue box carry the exchange.
+The Briarhide is dead. No ambiguity is introduced.
 
 A beat.
 
+Torren watches long enough to be certain.
+
 **TORREN:** Done.
 
-**CYANIS:** You sound more certain this time.
+Cyanis remembers the Castellan.
+
+**CYANIS:** More confident this time?
 
 **TORREN:** It's dead.
 
 **CYANIS:** Better.
 
-**ILYRA:** Everyone still standing?
+Ilyra checks the three combatants with her eyes first.
+
+**ILYRA:** Everybody still standing and answering correctly?
 
 **TORREN:** Yeah.
 
-**CYANIS:** Mostly.
+**CYANIS:** Yes. No dizziness, no numbness, nothing strange from the Card. Before you ask.
 
-**MAEVRA:** Good enough for the moment.
+Ilyra looks at him for a beat.
 
-A beat.
+**ILYRA:** Look at that. He can learn.
+
+**TORREN:** Told you. Maybe.
+
+Cyanis points at Torren.
+
+**CYANIS:** You're enjoying that now.
+
+**TORREN:** A little.
+
+Maevra looks at the dead Briarhide, then at the rise ahead.
+
+**MAEVRA:** Everyone done congratulating Dovaren on basic communication?
+
+**ILYRA:** For now.
 
 **MAEVRA:** Junction?
 
-**TORREN:** Past the rise.
+Torren looks toward the rise.
 
-**CYANIS:** Then let's see it.
+**TORREN:** Past that. Ten minutes if we don't find another fucking legend standing in the road.
+
+Cyanis looks ahead.
+
+**CYANIS:** You had to say it.
+
+**TORREN:** Probably.
+
+**MAEVRA:** If the monument attacks us, I'm blaming him.
+
+**ILYRA:** Agreed.
+
+**TORREN:** Good. Let's go.
 
 Scene ends.
 
@@ -129,7 +191,7 @@ No trophy-cutting, corpse inspection, wound-treatment choreography, victory pose
 
 Cyanis is again the sole visible traversal character.
 
-The Briarhide threat no longer blocks the route forward.
+The Briarhide threat no longer blocks the route forward because the party killed it.
 
 Current objective:
 
@@ -138,7 +200,8 @@ Current objective:
 Story state:
 - the Briarhide Stalker was first clearly shown immediately before the boss encounter;
 - it was an exceptionally strong but otherwise natural wild animal;
-- the boss was defeated through ordinary combat;
+- the boss was killed through ordinary combat victory;
+- no nonlethal, drive-off, purification, capture, or protected-HP resolution occurred;
 - Maevra remained outside combat;
 - Chapter 1's final combat climax is complete;
 - the story now shifts into the quieter Junction discovery;
@@ -150,14 +213,10 @@ Next mandatory story beat:
 
 ---
 
-## Presentation / canon check
+## Person-Brain / canon check
 
-**First sighting:** PASS. The Stalker is not clearly visible until the actual boss trigger.
-
-**Traversal:** Cyanis only during ordinary wilderness movement.
-
-**Triggered scene:** relevant characters may appear immediately before and after the boss.
-
-**Battle:** only Cyanis, Ilyra, and Torren participate.
-
-**Reduction:** one reveal, one boss fight, one short post-boss exchange. No separate sighting, pursuit, stalking sequence, environmental clue chain, trophy interaction, or extra cinematic choreography.
+- **Lethal Briarhide lock:** explicit. The Stalker dies in the boss fight. No stale nonlethal/drive-off language is legal here.
+- Torren gives a full field judgment about why the animal is not simply `in the way`; this is exactly the kind of animal/terrain subject that naturally makes him more verbal.
+- Ilyra's post-boss check reflects the interaction rhythm already built with Cyanis rather than resetting to generic `you all right?` dialogue.
+- post-boss humor shows growing group familiarity without turning the kill into celebration.
+- no corruption, Black Host control, special-condition mystery, or hidden encounter phase is added.
