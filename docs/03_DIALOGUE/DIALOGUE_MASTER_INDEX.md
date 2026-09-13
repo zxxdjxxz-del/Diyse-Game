@@ -56,6 +56,8 @@ Current Ilyra guardrail:
 
 Ilyra is not automatically assigned the medical, safety, food/sleep, emotional-interpreter, relationship-reader, caretaker, or moral-referee line. Medical expertise owns a turn when the scene genuinely requires it; humor, curiosity, irritation, profanity, uncertainty, gossip, and ordinary opinion are equally valid reasons for her to speak.
 
+Chapter 3 is now the first fully closed chapter where the **Nimera Person-Brain pass and the later Ilyra role-balance pass are both explicitly complete in sequence**. The Nimera work was preserved; Ilyra was then re-audited under her later character guardrail rather than leaving the earlier safety/caretaker assignments in place.
+
 Walking-dialogue lock:
 - `AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`
 
@@ -86,7 +88,7 @@ Retired/superseded development IDs do not reserve numbers. Some atomic filenames
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT** — P01–P07 + optional C01; atomic files current, combined read-through stale for revised scenes | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` |
 | Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT** — Beats 1–15 + C02/C03/C04; atomic files current, combined read-through stale where flagged | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` |
 | Ch2 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE** — Beats 1–16 + C05; current production retained without reopening it solely for pass-label parity | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` |
-| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE COMPLETE ACROSS BEATS 1–15 + C06/C07; CLOSING INTEGRATION + NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE** — atomic files current, combined read-through stale | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` |
+| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE COMPLETE ACROSS BEATS 1–15 + C07; C06 CURRENT/INTENTIONALLY ILYRA-FREE; CLOSING INTEGRATION + NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE** — atomic files current, combined read-through stale | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` |
 
 These four chapter folders are the correct live production locations. Where a combined manuscript's embedded SHA differs from the current atomic source, the atomic source is the exact wording authority.
 
@@ -209,31 +211,30 @@ Prior closing integration audit:
 - `CHAPTER_03_DIALOGUE_CLOSING_INTEGRATION_AUDIT_2026-09-12.md`
 
 Current state:
-- Beats 1–15 — **Person-Brain performance pass complete** in standalone atomic authority;
-- **C06 — Nimera Takes Over a Table** — Person-Brain performance current;
-- **C07 — Ilyra and Nimera** — Person-Brain performance current;
+- Beats 1–15 — **Person-Brain performance + Ilyra role-balance complete** in standalone atomic authority;
+- **C06 — Nimera Takes Over a Table** — current and intentionally Ilyra-free;
+- **C07 — Ilyra and Nimera** — Person-Brain current; Ilyra role-balance audited and retained;
 - closing integration audit complete;
 - natural-turn / floor-holding rhythm audit complete;
-- spoken-dialogue / narration audit complete;
-- Ilyra role-balance guardrail current from the opening Caelora arrival onward.
+- spoken-dialogue / narration audit complete.
 
-Latest Person-Brain closure — Beats 1–5:
-- **Beat 1:** Ilyra no longer polices Cyanis's food; Torren holds the full mural-versus-city footprint thought he owns.
-- **Beat 2:** Maevra owns the report, Torren owns route/mural evidence, Cyanis owns his direct Card experience, and Ilyra adds only firsthand prisoner/clinical evidence.
-- **Beat 3:** Lysara/Othmar/Maevra own the royal administrative problem according to authority and expertise; no equal-turn relay or culprit leak.
-- **Beat 4:** the Crown owns the no-experiment boundary; Ilyra remains socially present without becoming the automatic safety voice.
-- **Beat 5:** the archive keeper and Torren own maintenance/route distinctions; Ilyra is curious and funny rather than assigned the default `is it safe?` line.
+Ilyra role-balance sequence:
+- **Beats 1–5** were corrected after the newer Ilyra guardrail was established.
+- **Beats 6–15** were then re-audited because their Nimera-focused Person-Brain rewrites predated that Ilyra correction.
+- **Beats 6, 7, 8, 10, 11, 12, 14, and 15** received material dialogue changes.
+- **Beats 9 and 13** already satisfied the newer Ilyra standard and were retained.
+- **C07** already satisfied the newer Ilyra standard and was retained.
+
+Key Ilyra result across Chapter 3:
+- Cyanis owns his own direct Card experience and Card-custody choices;
+- Torren owns physical route/load observations when he is the one who can actually see them;
+- Crown authority owns Crown investigative boundaries;
+- Nimera owns her own methodological / experiment constraints;
+- Ilyra's medical expertise remains available where genuinely scene-earned, but she is no longer the default post-fight checker, food/sleep monitor, sealed-door monitor, Card-custody proxy, party parent, or automatic safety voice;
+- Ilyra now contributes repeatedly through research questions, evidence wording, curiosity, dry humor, teasing, profanity-compatible adult social behavior, and ordinary preferences.
 
 Spoken-vs-narration material revisions remain in force:
 - Beats 2, 3, 4, 6, 9, 10, 12, 13, 15.
-
-Key result:
-- Lysara tests certainty, judges, sets boundaries, and orders rather than repeating information already established;
-- Mirena converts evidence into investigation choices rather than narrating clue stacks;
-- visible evidence progression remains in staging when dialogue would only repeat it;
-- Nimera retains real evidentiary explanations when only she can responsibly establish the distinction;
-- repeated new-listener briefings are compressed rather than replayed chronologically;
-- conversational ownership now remains continuous from Caelora arrival through Nimera's introduction and the rest of the chapter.
 
 Protected **C06** exact anchors:
 - Cyanis: `I bet you use that cape to sneak up on the goats you fuck.`
@@ -260,7 +261,7 @@ Beat 11 exact Warden messages remain:
 | Ch12 | macro authority; dialogue pending |
 | Ch13 | macro authority; dialogue pending |
 
-All later chapter dialogue uses the locked rehearsal-first Agent Brain pipeline plus all later workflow corrections from the first production pass onward.
+All later chapter dialogue uses the locked rehearsal-first Agent Brain pipeline plus all later workflow corrections from the first production pass onward. **Do not repeat the Chapter-3 sequencing mistake:** current character-specific guardrails must be applied during the same rehearsal/editor cycle as the Person-Brain performance pass, not retrofitted afterward.
 
 ---
 
