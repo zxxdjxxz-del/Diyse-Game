@@ -43,6 +43,20 @@ A bespoke encounter may override ordinary 0-HP resolution with visible objective
 
 No universal capture mechanic is inferred from these encounters.
 
+## Current Chapter-1 Briarhide firewall
+
+The **Briarhide Stalker** is **not** a nonlethal/protected encounter.
+
+Current Chapter-1 authority resolves it as:
+- a natural wild Greater Beast;
+- a normal mandatory story boss;
+- ordinary combat victory;
+- lethal defeat at 0 HP.
+
+Do not reintroduce a Black Host Irritant Fitting, protected HP floor, purification/stabilization objective, or retreat-alive resolution for the Chapter-1 Briarhide Stalker.
+
+This does not alter the separate **Elder Briarhide** protected encounter later in the game.
+
 
 ## Elder Briarhide — fixed-duration protected encounter
 
@@ -178,30 +192,6 @@ This does not create:
 - a Subdual gauge;
 - a Mercy rule;
 - a universal human-enemy floor.
-
-
-## Briarhide Stalker — Chapter 1
-
-Current raw:
-> Lv4 / HP850
-
-Targetable Black Host Irritant Fitting:
-> HP180 / DEF18 / Spirit18 / Power N/A
-
-While the fitting remains functional:
-> Briarhide cannot fall below **213 HP / 25% Max HP**.
-
-Damage that would cross that floor clamps at 213.
-
-When the fitting reaches 0 HP:
-- pending Briarhide action cancels;
-- encounter ends immediately;
-- Briarhide retreats alive.
-
-This is the normal-battle implementation of the authored S009 objective:
-> disable/remove the embedded Black Host component while surviving the animal's attacks.
-
-It does not create a universal Capture/Subdual/Mercy rule.
 
 
 ## S018 — lawful authority confrontations
