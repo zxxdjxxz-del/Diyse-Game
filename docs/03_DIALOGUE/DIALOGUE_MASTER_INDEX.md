@@ -119,16 +119,17 @@ Natural-turn audit: **COMPLETE.**
 Spoken-dialogue / narration audit: **COMPLETE.**
 
 Spoken-vs-narration material revisions:
-- Beats **1, 3, 5, 6, 7, 10, 11**.
+- Beats **1, 3, 5, 6, 7, 10, 11, 14**.
 
 Key result:
 - new-listener Card briefings are consequence-first rather than replayed chronologically;
 - Hollow Watch occupation/excavation staging carries information the environment can show;
 - the six-channel relief and mural stay visual-first instead of being read aloud as checklists;
-- the Hollow Watch resolution reports what Greenhollow needs, not the chapter back to the people who lived it.
+- the Hollow Watch resolution reports what Greenhollow needs, not the chapter back to the people who lived it;
+- the hidden monument's cartographic surface is interpreted immediately instead of being announced to the player, and the Six Face exchange asks what the marks might mean rather than describing their visible placement first.
 
 Audited and intentionally retained:
-- Beats 2, 4, 8–9, 12–15 and canonical C02/C03/C04.
+- Beats 2, 4, 8–9, 12–13, 15 and canonical C02/C03/C04.
 
 Protected **C03** anchor remains exact:
 - Cyanis: `Old slut?`
@@ -157,17 +158,19 @@ Natural-turn audit: **COMPLETE.**
 Spoken-dialogue / narration audit: **COMPLETE.**
 
 Spoken-vs-narration material revisions:
-- Beats **5, 6, 10, 13, 16**.
+- Beats **2, 5, 6, 10, 13, 14, 16**.
 
 Key result:
+- Dunmere's idle wagons communicate the visible road stoppage without Maevra verbally inventorying what the player can already see;
 - Archive staging carries visible organization/forcing evidence while Ilyra and Torren supply only distinct interpretation;
+- the western wall map is allowed to read visually before the cast begins genuine route analysis;
 - prisoner testimony is not paraphrased three times after the witnesses establish the facts;
-- Rhazek no longer narrates the player's dungeon progress back to the party;
+- Rhazek no longer narrates the player's dungeon progress or his visible withdrawal order back to the party;
 - Dunmere's final debrief is consequence-first rather than a beat-by-beat Chapter-2 recap;
 - the elder's thematic summary is reduced to the character-appropriate `Both matter.`
 
 Audited and intentionally retained:
-- Beats 1–4, 7–9, 11–12, 14–15 and C05.
+- Beats 1, 3–4, 7–9, 11–12, 15 and C05.
 
 Core outcomes remain unchanged: current prisoners rescued, Rhazek loses the Old Bastion locally but survives a credible withdrawal, earlier transferred captives remain unresolved, Greenhollow ↔ Dunmere travel reopens, and Chapter 3 begins only through explicit player confirmation.
 
