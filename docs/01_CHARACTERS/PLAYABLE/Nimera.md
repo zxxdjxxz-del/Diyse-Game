@@ -8,8 +8,8 @@
 - Age: **22**
 - Permanent party: **yes**
 - Join: **Chapter 3**
-- Base / Subclass: **Cardweaver / Sixfold Knight**
-- Face: **Resource**
+- Base / Subclass: **Cardweaver / Proofhunter**
+- Face: **Memory**
 - Story Prime: **Last Scribe**
 
 **Naming lock:** Pellan is Nimera's canonical surname. Dialogue may use `Nimera`, `Pellan`, or `Nimera Pellan` according to relationship, formality, and scene context.
@@ -26,10 +26,10 @@ She cares deeply about:
 - what a record actually proves;
 - the difference between a conclusion and an assumption.
 
-## Face / class boundary
-Nimera's current Base Class is **Cardweaver**, aligned to the current **Resource** Face. Her later **Sixfold Knight** Subclass belongs to the reciprocal donor architecture with Torren.
+## Memory
+Nimera's Cardweaver identity is aligned to **Memory**: recall, preservation, and the continuing influence of what has already happened. Exact combat implementation belongs to the current class/Card authorities.
 
-Exact Face and class mechanics belong to `06_CLASSES_AND_ABILITIES` and `07_CARDS`. Older `Memory`, `Proofhunter`, or other superseded terminology in migration material must not be revived here.
+Her current Subclass is **Proofhunter**, aligned through the reciprocal Torren/Nimera donor architecture to **Perception**. Resource and Sixfold Knight are retired for Nimera and must not be restored here.
 
 ## Ordinary-life identity
 Central social trait:
@@ -47,7 +47,7 @@ She may:
 - enjoy games, scoring systems, classification, and rules enough to become part of the joke when a scene establishes them;
 - treat mundane objects or ordinary complaints with the same curiosity she brings to serious records.
 
-Do not turn every interest into foreshadowing or a metaphor for Resource.
+Do not turn every interest into foreshadowing or a metaphor for Memory.
 
 ## Social behavior
 Nimera:
@@ -147,7 +147,7 @@ She does **not** automatically know:
 
 She is specifically capable of warning against bad archaeology and overclaiming certainty.
 
-Sixfold Knight/Subclass expertise is unavailable before its current story unlock.
+Proofhunter/Subclass expertise is unavailable before its current story unlock.
 
 ## Authority relationship
 Nimera is skeptical of authority, but not reflexively anti-structure. Her instinct is to ask who classified something, who combined the records, what evidence made a category legal, and whether a record is being treated as more certain than it is.
