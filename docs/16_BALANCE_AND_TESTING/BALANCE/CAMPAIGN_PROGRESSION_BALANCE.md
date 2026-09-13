@@ -5,6 +5,20 @@
 **Runtime test checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
 **Balance ownership rule:** this domain owns cross-system balance acceptance criteria, verification plans, playtest targets, certification status and regression gates. Exact formulas/stats/rewards remain canonically housed in their dedicated system domains.
 
+## Current certification boundary
+
+The direct-damage **Power audit is CLOSED**.
+
+Mandatory-vs-completionist **encounter validation is ACTIVE / REOPENED** where current production authority superseded older party or route assumptions. In particular, Chapters 1–3 require recertification against the current story/party state before their older balance results may be treated as current certification.
+
+Current sequence:
+1. recertify encounters against the mandatory / critical-path party;
+2. recertify the same encounter points against the completionist / high-side party;
+3. reconcile any resulting EXP/CEXP reward changes;
+4. rerun recruitment-aware CEXP calibration;
+5. confirm normal full Base + Subclass completion lands in the **Lv55–60** target window.
+
+Do not reopen direct-damage Power coefficients merely because encounter validation is active.
 
 ## Player-Level spine
 Current campaign-only anchors:
@@ -23,6 +37,8 @@ Current campaign-only anchors:
 - Last Shelter ~60
 - End Ch13 ~62
 - cap 70
+
+These are progression targets, not proof that every chapter's current encounter tuning has already been recertified.
 
 Mandatory Player EXP:
 > **448,100**
@@ -60,7 +76,7 @@ Result:
 Buffer:
 > **16,300 EXP**
 
-Therefore broad completionism can reach Lv70 before Last Shelter without requiring Major Hunt #6 or repetitive grinding.
+This remains a campaign-level progression proof. If current encounter recertification changes authored reward totals, rerun the arithmetic before treating the exact buffer as final.
 
 ## Route playtests
 Verify at minimum:
@@ -76,3 +92,5 @@ Current route centers:
 - typical developed ~Lv66–67;
 - heavy optional ~Lv68–69;
 - broad completionist Lv70 before Last Shelter.
+
+These remain target centers pending the current encounter-validation and downstream reward/CEXP reconciliation.
