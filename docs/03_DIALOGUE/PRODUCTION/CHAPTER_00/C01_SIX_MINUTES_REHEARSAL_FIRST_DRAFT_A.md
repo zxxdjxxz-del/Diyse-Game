@@ -1,6 +1,6 @@
 # Chapter 0 — Character-Life C01
 # Six Minutes
-## REHEARSAL-FIRST PRODUCTION DRAFT A — NATURAL-TURN RHYTHM PASS / awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 ---
 
@@ -26,35 +26,69 @@ He takes a drink.
 
 Stops.
 
-**ILYRA:** Bad?
+Stares into it.
 
-**CYANIS:** Depends what it was supposed to be. If the goal was hot and aggressively unpleasant, somebody nailed it.
+Ilyra notices from several feet away.
 
-Ilyra looks at the cup.
+**ILYRA:** That bad?
+
+**CYANIS:** Depends what it was supposed to be. If the goal was hot, medicinal, and aggressively unpleasant, somebody did excellent work.
+
+Ilyra's eyes drop to the cup.
 
 **ILYRA:** Where did you get that?
 
-**CYANIS:** Pot by the fire. It was hot, it was available, and I made assumptions.
+**CYANIS:** Pot by the fire. It was hot, it was available, there was a cup next to it, and apparently I built an entire argument from circumstantial evidence.
 
-A beat.
+Ilyra gets close enough to smell it.
 
-Ilyra realizes what he has.
+Then she stares at him.
 
-**ILYRA:** That's bitterleaf. It's for compresses.
+**ILYRA:** That's bitterleaf.
 
-Cyanis looks at the cup again.
+**CYANIS:** I'm learning the name hasn't improved it.
 
-**CYANIS:** Ah. That explains more than I wanted it to.
+**ILYRA:** It's for compresses.
 
-**ILYRA:** You drank it.
+Cyanis looks into the cup again.
 
-**CYANIS:** Some of it. In my defense, it's been a long day and nobody labeled the medical swamp water.
+A long beat.
 
-Ilyra takes the cup away from him.
+**CYANIS:** Ah.
 
-**ILYRA:** That is not a defense.
+Ilyra holds out her hand.
 
-**CYANIS:** It's the only one I've got.
+**CYANIS:** Before you say anything, nobody labeled the medical swamp water.
+
+**ILYRA:** Give me the cup.
+
+**CYANIS:** That's not a rebuttal.
+
+**ILYRA:** Cyanis.
+
+He hands it over.
+
+**CYANIS:** Fine. But if I die from this, I want the report to say I survived Riftmaw and was killed by poor beverage management.
+
+Ilyra smells the cup again.
+
+**ILYRA:** You're not going to die from drinking some bitterleaf.
+
+**CYANIS:** Good.
+
+**ILYRA:** You may wish you had better judgment for the next hour.
+
+**CYANIS:** That condition predates the tea.
+
+Ilyra laughs once before she can stop herself.
+
+Then catches the word.
+
+**ILYRA:** It isn't tea.
+
+**CYANIS:** Right. Sorry. Compress water.
+
+**ILYRA:** Somehow worse.
 
 No elaborate prop routine is needed.
 
@@ -64,7 +98,7 @@ No elaborate prop routine is needed.
 
 A little silence follows.
 
-Ilyra looks at him again.
+Ilyra is about to set the bitterleaf aside when she looks at Cyanis again.
 
 **ILYRA:** Have you eaten since the fight?
 
@@ -72,9 +106,27 @@ Ilyra looks at him again.
 
 She gives him a look.
 
-**ILYRA:** No. Which was going to be my next problem with you, so now we're both irritating.
+**ILYRA:** No.
 
-**CYANIS:** Good. Saves time.
+**CYANIS:** Then I'm not answering first.
+
+**ILYRA:** That isn't how medical questions work.
+
+**CYANIS:** This one stopped being medical when the person asking had the same answer.
+
+Ilyra opens her mouth.
+
+Stops.
+
+**ILYRA:** That's irritatingly fair.
+
+**CYANIS:** Thank you.
+
+**ILYRA:** It wasn't praise. And no, I haven't eaten. I forgot. I was moving people, then counting supplies, then checking the two chest injuries again, and at some point food became tomorrow's problem without me deciding that.
+
+**CYANIS:** Same. Minus the chest injuries. I did find time to drink something meant for a rag, so you're still ahead.
+
+**ILYRA:** Considerably.
 
 They end up with ordinary camp food.
 
@@ -82,21 +134,29 @@ For a while, neither speaks.
 
 They are both hungrier than either realized.
 
-Eventually Ilyra slows down enough to notice it.
+Cyanis is the one who notices first this time.
 
-**ILYRA:** I forgot I was hungry. That's usually a sign I've been doing something stupid for too long.
+**CYANIS:** This is embarrassingly good.
 
-**CYANIS:** Same. Though I did drink compress water, so I may be ahead of you.
+**ILYRA:** It's bread and stew.
 
-**ILYRA:** Considerably.
+**CYANIS:** After the bitterleaf, the bread has depth.
 
-Cyanis takes another bite.
+**ILYRA:** Stop reviewing dinner like you're qualified now.
 
-**CYANIS:** This is much better.
+**CYANIS:** One bad drink and my authority is gone.
 
-**ILYRA:** A low bar.
+**ILYRA:** You drank a compress.
 
-**CYANIS:** Still counts.
+Cyanis points at her with the spoon.
+
+**CYANIS:** Some of a compress.
+
+**ILYRA:** Important distinction.
+
+**CYANIS:** Thank you.
+
+**ILYRA:** Still not praise.
 
 They keep eating.
 
@@ -106,41 +166,73 @@ The silence is not awkward, but it is still the silence of two people who met to
 
 ### [NEITHER OF THEM STOPS]
 
-When the food is nearly gone, Ilyra shifts as if she's about to get back up.
+When the food is nearly gone, Ilyra shifts forward as if she is about to stand.
 
-**CYANIS:** No. Whatever you're about to go do can wait a minute.
+Cyanis notices.
+
+**CYANIS:** No.
+
+Ilyra looks at him.
+
+**ILYRA:** No?
+
+**CYANIS:** Whatever you're about to go do can wait a minute.
 
 **ILYRA:** I have patients to check.
 
-**CYANIS:** They're settled. If something changes, somebody will call you.
+**CYANIS:** You checked them before you sat down. If something changes, somebody will call you.
 
-Ilyra looks at him.
+**ILYRA:** You have known me for one day and you're already telling me when to stop working.
+
+**CYANIS:** I know. Deeply hypocritical. Still right.
+
+Ilyra narrows her eyes.
 
 **ILYRA:** You were about to stand up too.
 
 Cyanis pauses.
 
-**CYANIS:** Different.
+**CYANIS:** I was adjusting.
 
-**ILYRA:** How?
+**ILYRA:** Toward standing.
 
-**CYANIS:** I hadn't decided what I was doing yet. I was just looking at the perimeter.
+**CYANIS:** Maybe.
 
-**ILYRA:** With the expression you use when you're about to make work for yourself.
+**ILYRA:** To do what?
 
-**CYANIS:** You learned that today?
+Cyanis looks toward the dark perimeter.
 
-**ILYRA:** It wasn't subtle.
+**CYANIS:** Check the east edge once more. Make sure the night guard knows where the broken ground starts. See whether the south wagon shifted after they moved the column. Nothing dramatic.
 
-Cyanis looks back toward the dark perimeter.
+**ILYRA:** That's three jobs.
 
-**CYANIS:** Could've been admiring it.
+**CYANIS:** Small jobs.
 
-**ILYRA:** At night.
+**ILYRA:** That's not how number works.
 
-**CYANIS:** Very scenic.
+Cyanis looks back at her.
 
-Ilyra almost smiles.
+**CYANIS:** You've been waiting to say that, haven't you?
+
+**ILYRA:** Since you called seven paces enough.
+
+He laughs quietly.
+
+**CYANIS:** All right. Fine. I was going to make work for myself.
+
+**ILYRA:** I know.
+
+**CYANIS:** And you were going to check patients who are already being watched.
+
+Ilyra looks toward the medical end of camp.
+
+**ILYRA:** Yes.
+
+**CYANIS:** So we're both stupid.
+
+**ILYRA:** Different specialties.
+
+**CYANIS:** Finally, common ground.
 
 Neither gets up.
 
@@ -152,25 +244,69 @@ A little time passes.
 
 Cyanis settles back instead of pretending he was not about to move.
 
-**CYANIS:** Five minutes. We sit here and do absolutely nothing useful.
+**CYANIS:** Five minutes.
 
-Ilyra thinks about it.
+**ILYRA:** For what?
 
-**ILYRA:** Six. Five sounds planned, and I refuse to turn sitting down into another task.
+**CYANIS:** We sit here and do absolutely nothing useful. No perimeter, no patients unless somebody calls, no inventory, no pretending we're just about to stand because standing somehow doesn't count as work yet.
+
+Ilyra considers him.
+
+**ILYRA:** Six.
+
+**CYANIS:** Why six?
+
+**ILYRA:** Five sounds planned. Five sounds like you picked a respectable little unit, turned resting into a task, and intend to congratulate yourself when you complete it.
+
+Cyanis thinks about that.
+
+**CYANIS:** That's uncomfortably plausible.
+
+**ILYRA:** Six is stupid enough that it can't pretend to be efficient.
 
 **CYANIS:** Six minutes of aggressively unplanned nothing, then.
 
-**ILYRA:** You just made it sound like work.
+**ILYRA:** You just made it sound like work again.
 
-**CYANIS:** Right. Six minutes, no adjective.
+**CYANIS:** Right. Sorry.
 
 A beat.
+
+**CYANIS:** Six minutes.
 
 **ILYRA:** Better.
 
 They sit.
 
-For once, neither of them tries to make themselves useful.
+A little later, Cyanis looks as though he is about to say something.
+
+Ilyra points at him without opening her eyes.
+
+**ILYRA:** If that's useful, keep it.
+
+Cyanis closes his mouth.
+
+A beat.
+
+**CYANIS:** It wasn't.
+
+**ILYRA:** Good.
+
+Another quiet beat.
+
+**CYANIS:** This is strange.
+
+**ILYRA:** You lasted longer than I expected.
+
+**CYANIS:** How long?
+
+Ilyra opens one eye.
+
+**ILYRA:** I'm not timing it.
+
+Cyanis smiles.
+
+**CYANIS:** Right. That would ruin it.
 
 No confession follows. No relationship summary. No discussion of destiny, the Card, or what the day meant.
 
@@ -182,13 +318,14 @@ The scene ends in the quiet.
 
 - gives Cyanis and Ilyra their first ordinary post-crisis Character-Life scene;
 - keeps their ease early and tentative rather than instantly intimate;
-- lets the bitterleaf mistake provide mundane comedy without a prop-performance sequence;
+- lets the bitterleaf mistake provide mundane adult comedy without turning it into a prop-performance routine;
 - shows that both neglect food/rest while taking care of other people;
-- lets them notice the pattern in each other without turning the scene into therapy;
-- ends with a small, arbitrary shared rule — six minutes of doing nothing useful;
+- lets them recognize that pattern in each other without therapy, diagnosis, or an emotional lesson;
+- gives each of them enough floor to be funny in a different way: Cyanis through practical absurdity and self-aware deflection, Ilyra through dry literal correction and sharper observation;
+- ends with the arbitrary shared rule of six minutes doing nothing useful;
 - Card remains inert;
 - C01 does not advance Chapter 0.
 
-## Natural-turn rhythm note
+## Person-Brain performance note
 
-C01 deliberately uses longer conversational turns than the combat chapter around it. The two still trade short lines when a joke benefits from timing, but neither is forced to surrender the floor after every sentence.
+The quiet scene now permits real conversational drift, multi-sentence explanations, contradiction, and teasing. Neither person exists only to prompt the other's next line. The scene remains early-contact rather than instantly intimate, and neither turns the other's self-neglect into a therapeutic project.
