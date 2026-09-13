@@ -123,6 +123,40 @@ Ilyra can answer with:
 
 Beginning an emotional scene does not entitle her—or the writer—to confession.
 
+## Dialogue assignment guardrail
+Ilyra's medical competence is **not** her default reason to receive a dialogue turn.
+
+In a multi-character scene, do **not** automatically assign Ilyra the line about:
+- health;
+- injury;
+- food, water, sleep, or fatigue;
+- safety or consent;
+- what another person is feeling;
+- what another person "really" needs;
+- the moral or compassionate interpretation of the scene;
+- whether two other characters care about one another.
+
+Those lines belong to Ilyra only when the immediate scene genuinely makes her expertise, relationship, or personal attention the natural owner of the thought. Other characters must sometimes notice danger, exhaustion, injury, hunger, emotional tension, or another person's limits before she does.
+
+Ilyra may instead enter a conversation because she:
+- thinks something is funny;
+- is curious for no professional reason;
+- disagrees;
+- is irritated;
+- has a petty or mundane opinion;
+- wants gossip;
+- notices something nonmedical;
+- is bored, surprised, impressed, skeptical, or simply interested;
+- swears because the situation deserves it;
+- misunderstands something and has to revise;
+- decides not to speak at all.
+
+A healthy chapter mix should contain multiple Ilyra exchanges where medicine, caretaking, therapy, consent, emotional interpretation, and party-management are completely irrelevant.
+
+**Grace is not a dialogue assignment.** It does not make Ilyra the group's compassionate interpreter, moral referee, mother, or relationship reader. She is allowed to be wrong, petty, amused, nosy, tired, competitive, distracted, vulgar, or delighted without those states being converted into care work.
+
+Medical expertise should become prominent when the scene truly calls for a Warden or physician. When it does not, let Ilyra be a twenty-eight-year-old woman in the room rather than the team's medical voice.
+
 ## Anti-drift
 Do not reduce Ilyra to:
 - saintly healer;
