@@ -45,11 +45,11 @@ Retroactive rhythm audit tracker:
 
 **Retroactive Chapters 0–3 natural-turn rhythm audit status: COMPLETE.**  
 **Retroactive Chapters 0–3 spoken-dialogue / narration audit status: COMPLETE.**  
-**Mature-adult speech / profanity audit status: Chapters 0–2 CURRENT; Chapter 3 to be included in its targeted newest-character-system re-audit rather than treated as a mechanical profanity-insertion pass.**
+**Mature-adult speech / profanity audit status: Chapters 0–3 CURRENT.**
 
 ### Person-Brain performance state
 
-The newer Person-Brain performance standard is current across Chapter 0, Chapter 1, and all Chapter-3 atomic dialogue. Chapters 1 and 2 have also completed the newer final ensemble character-balance pass under the current Cyanis, Ilyra, Torren, and Maevra rules. Chapter 2 additionally carries the explicit Torren social-comfort progression from Chapter 1 into the chapter rather than resetting him to one-word route-guide mode.
+The newer Person-Brain performance standard is current across Chapters 0–3 atomic dialogue. Chapters 1 and 2 have completed the newer full ensemble character-balance pass under the current Cyanis, Ilyra, Torren, and Maevra rules. Chapter 2 explicitly carries Torren's social-comfort progression forward instead of resetting him to one-word route-guide mode. Chapter 3 has completed the targeted newest-character-system re-audit covering Torren's continued social opening, mature-adult speech, Nimera's distinct profanity behavior, and Torren/Nimera first-contact relationship timing.
 
 The Person-Brain standard means:
 - topic owners may hold the floor through a complete thought;
@@ -75,7 +75,7 @@ Ilyra is not automatically assigned the medical, safety, food/sleep, emotional-i
 Current Torren guardrail:
 > **Sparse is an early-state tendency, not a permanent voice quota. Expertise is not a dialogue assignment.**
 
-Torren may remain concise by temperament and state, but Chapter 1 begins his social opening and Chapter 2 explicitly continues it. By Chapter 2 he can start jokes, prolong arguments, volunteer mundane opinions, tell short stories, complain, swear casually, and participate socially without requiring a map/route prompt.
+Torren may remain concise by temperament and state, but Chapter 1 begins his social opening and Chapter 2 explicitly continues it. By Chapter 2 he can start jokes, prolong arguments, volunteer mundane opinions, tell short stories, complain, swear casually, and participate socially without requiring a map/route prompt. Chapter 3 continues that established comfort with Cyanis and Ilyra while allowing newly met characters to earn their own relationship shorthand separately.
 
 Current Maevra guardrail:
 > **They know one another well. Maevra is still their commander. Command is not a dialogue assignment.**
@@ -112,7 +112,7 @@ Retired/superseded development IDs do not reserve numbers. Some atomic filenames
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + CYANIS CHARACTER AUDIT + ILYRA ROLE-BALANCE + MATURE-ADULT SPEECH/PROFANITY + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT** — P01–P07 + optional C01; atomic files current, combined read-through stale for revised scenes | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` |
 | Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + FINAL ENSEMBLE CHARACTER-BALANCE + ILYRA ROLE-BALANCE + MATURE-ADULT SPEECH/PROFANITY + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT** — Beats 1–15 + C02/C03/C04; atomic files current, combined read-through stale where flagged | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` |
 | Ch2 | **COMPLETE CURRENT WORKING PRODUCTION; FINAL ENSEMBLE CHARACTER-BALANCE + ILYRA ROLE-BALANCE + TORREN SOCIAL-COMFORT + MAEVRA FRIENDSHIP/RANK + MATURE-ADULT SPEECH/PROFANITY + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT** — Beats 1–16 + C05; atomic files current, combined read-through stale | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` |
-| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE COMPLETE ACROSS BEATS 1–15 + C07; C06 CURRENT/INTENTIONALLY ILYRA-FREE; CLOSING INTEGRATION + NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE; TORREN SOCIAL-PROGRESSION + MATURE-ADULT SPEECH RE-AUDIT STILL NEEDED** — atomic files current, combined read-through stale | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` |
+| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE + TORREN SOCIAL-PROGRESSION + TORREN/NIMERA FIRST-CONTACT TIMING + MATURE-ADULT SPEECH/PROFANITY + CLOSING INTEGRATION + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT** — Beats 1–15 + C06/C07; atomic files current, combined read-through stale | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` |
 
 These four chapter folders are the correct live production locations. Where a combined manuscript's embedded SHA differs from the current atomic source, the atomic source is the exact wording authority.
 
@@ -272,13 +272,14 @@ Prior closing integration audit:
 - `CHAPTER_03_DIALOGUE_CLOSING_INTEGRATION_AUDIT_2026-09-12.md`
 
 Current state:
-- Beats 1–15 — **Person-Brain performance + Ilyra role-balance complete** in standalone atomic authority;
+- Beats 1–15 — **Person-Brain performance + Ilyra role-balance + Torren social-progression + mature-adult speech current** in standalone atomic authority;
 - **C06 — Nimera Takes Over a Table** — current and intentionally Ilyra-free;
-- **C07 — Ilyra and Nimera** — Person-Brain current; Ilyra role-balance audited and retained;
+- **C07 — Ilyra and Nimera** — current;
+- Torren/Nimera first-contact timing audit complete and correct;
 - closing integration audit complete;
 - natural-turn / floor-holding rhythm audit complete;
 - spoken-dialogue / narration audit complete;
-- Torren's newer social-progression rule and the new mature-adult speech/profanity lock still require a targeted Chapter-3 re-audit before the chapter is considered fully aligned with the newest character system.
+- Beat 9 now uses **Memory**, not retired Resource.
 
 Ilyra role-balance sequence:
 - **Beats 1–5** were corrected after the newer Ilyra guardrail was established.
@@ -295,7 +296,27 @@ Key Ilyra result across Chapter 3:
 - Ilyra's medical expertise remains available where genuinely scene-earned, but she is no longer the default post-fight checker, food/sleep monitor, sealed-door monitor, Card-custody proxy, party parent, or automatic safety voice;
 - Ilyra now contributes repeatedly through research questions, evidence wording, curiosity, dry humor, teasing, profanity-compatible adult social behavior, and ordinary preferences.
 
-Current Torren/Nimera progression authority must also be respected in the upcoming re-audit: Chapter 3 is first contact only. Their eventual father/daughter-like bond is a later earned destination and must not be written backward into the chapter where they meet.
+Torren social-progression result:
+- established Chapter-1/2 comfort with Cyanis and Ilyra continues rather than resetting in Chapter 3;
+- short Torren lines remain where deadpan timing, fatigue, irritation, danger, or deliberate economy earns them;
+- older production-note language saying `Torren remains terse` is superseded as a production target;
+- future edits must not shorten Torren merely to create contrast with Nimera.
+
+Torren/Nimera first-contact result:
+- Chapter 3 correctly reads as professional curiosity, reciprocal correction, competence-based respect, mild irritation, and accidental comedy;
+- no `dad thing` jokes, paternal shorthand, special possessiveness, or behavior implying Torren already knows Nimera's habits/needs intimately appears;
+- Beat 14's ink/spoon argument remains immediate practical irritation/comedy, not paternal care;
+- C06 table chemistry is early familiarity, not a mature familial bond;
+- their eventual father/daughter-like relationship remains a later destination to be earned across subsequent chapters through travel, reciprocal training, remembered habits, practical favors, and trust.
+
+Mature-adult speech result:
+- Nimera is distinctly the most profane current party member in ordinary speech, including technical explanation, self-correction, and stupid arguments;
+- Torren, Ilyra, and Cyanis remain individually adult and profane according to their own habits and state rather than being sanitized or given equal swear density;
+- authority figures retain context-appropriate register without becoming implausibly clean adults.
+
+Current terminology correction:
+- Beat 9's six later headings now read **Might, Elements, Grace, Memory, Perception, Ruin**;
+- `Resource` is retired in this context.
 
 Spoken-vs-narration material revisions remain in force:
 - Beats 2, 3, 4, 6, 9, 10, 12, 13, 15.
@@ -307,6 +328,8 @@ Protected **C06** exact anchors:
 Beat 11 exact Warden messages remain:
 - `PREVIOUS ERROR`
 - `LAST SENTINEL CONFIRMED`
+
+Chapter 3 remains active through the Cresthaven cleanup window until the player deliberately chooses **Begin Chapter 4**.
 
 ---
 
