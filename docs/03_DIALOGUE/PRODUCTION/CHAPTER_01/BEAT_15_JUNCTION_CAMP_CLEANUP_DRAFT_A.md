@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 15
 # Junction Camp / Chapter-1 Cleanup Window
-## DIALOGUE ENGINE PRODUCTION DRAFT C — current Character-Life drafts + Maevra injury continuity / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 ---
 
@@ -8,7 +8,7 @@
 
 **Player control is active.**
 
-The group has made camp near the Junction after the Briarhide Stalker fight and the hidden monument discovery.
+The group has made camp near the Junction after the lethal Briarhide Stalker fight and the hidden monument discovery.
 
 This is a **camp**, so it does not use the Cyanis-only wilderness-traversal rule. Cyanis, Ilyra, Torren, and Maevra may all be visibly present as field models around the camp.
 
@@ -45,8 +45,6 @@ Torren is aware the food is bad and simply does not consider that disqualifying.
 
 Torren does **not** smoke while eating. After everyone has finished, he lights a blunt as ordinary post-meal behavior.
 
-Maevra's splint remains visible but does not need to become a subject in this scene.
-
 No lore, Hunt progression, reward, or relationship speech is added.
 
 ---
@@ -58,7 +56,7 @@ Current atomic dialogue source (legacy source key C04):
 
 Torren works on his ordinary modern route map. Cyanis becomes genuinely interested in the work.
 
-The `old slut / old cut` misunderstanding remains, but it functions as an early accidental jump into Cyanis and Torren's sharper humor rather than proof that their later brother-like relationship is already fully developed.
+The protected `old slut / old cut` misunderstanding remains, but it functions as an early accidental jump into Cyanis and Torren's sharper humor rather than proof that their later brother-like relationship is already fully developed.
 
 This is **not** another ancient-Junction-map explanation and does not advance the Cistern Hunt.
 
@@ -117,25 +115,61 @@ Because this is still the camp, Cyanis, Ilyra, Torren, and Maevra may all be pre
 
 Maevra's splint remains part of her visible Chapter-1 state.
 
-Portraits and the dialogue box carry the short departure exchange.
+Portraits and the dialogue box carry the departure exchange.
 
-**TORREN:** Ready?
+Torren is already ready to leave when the others finish packing.
 
-**CYANIS:** This time? Yes.
+**TORREN:** Everyone actually ready this time?
 
-**MAEVRA:** Don't sound so surprised.
+Cyanis looks offended by the qualifier.
 
-**ILYRA:** He ate.
+**CYANIS:** I was ready yesterday.
 
-A beat.
+**ILYRA:** You tried to call `mostly standing` an answer after the Briarhide.
 
-**TORREN:** Ah.
+**CYANIS:** I corrected it before you asked.
 
-**CYANIS:** You people are unbearable.
+**ILYRA:** Which is why you're improving.
 
-**TORREN:** Dunmere's this way.
+Maevra is eating something while checking her own pack one-handed.
 
-**CYANIS:** Lead on.
+**MAEVRA:** He also ate last night, slept, and hasn't drunk anything meant for wound care. Extraordinary progress all around.
+
+Cyanis looks at her.
+
+**CYANIS:** That story traveled very fast.
+
+**MAEVRA:** You gave it legs by making it funny.
+
+**CYANIS:** I didn't tell you.
+
+Maevra looks at Ilyra.
+
+Ilyra keeps a perfectly neutral expression.
+
+**CYANIS:** Betrayal.
+
+**ILYRA:** Medical continuity.
+
+**TORREN:** Are we walking or litigating breakfast?
+
+**MAEVRA:** Both are possible.
+
+**TORREN:** Not if I leave.
+
+He starts toward the road.
+
+**CYANIS:** See? That's leadership.
+
+Torren looks back once.
+
+**TORREN:** No. That's the road. Dunmere's this way.
+
+**CYANIS:** Lead on, Harth.
+
+**TORREN:** Keep up, Dovaren.
+
+The exchange is easy now, but still early enough that it has not become the later full brother-like insult register.
 
 Scene ends.
 
@@ -164,18 +198,10 @@ No Prime, Last Sentinel, bearer, Entity, or complete ancient-network explanation
 
 ---
 
-## Presentation / canon check
+## Person-Brain / presentation check
 
-**Camp rule:** party members may be visibly present around camp; Cyanis-only presentation does not apply inside the camp hub.
-
-**Maevra injury:** arm broken during the Broken Convoy attack, already established at Brackenwall, still splinted here. **C04** shows a splint change and restrained pain-easing magic; the bone is not magically repaired.
-
-**Character-Life authority:** canonical Chapter-1 Character-Life IDs are **C02/C03/C04**. Their current atomic filenames retain legacy source prefixes C03/C04/C05 until the synchronized manuscript and source files are migrated together.
-
-**C04 cast:** Ilyra + Maevra only. It is a private adult-friendship conversation and does not pull Cyanis or Torren into the scene.
-
-**Backtracking rule:** Cyanis-only presentation resumes when ordinary Southern Briar traversal resumes.
-
-**C03 firewall:** Torren works on ordinary current route maps. The scene does not become a second Junction lore reveal or Hunt-progression scene.
-
-**Reduction:** no cooking montage, detailed map-writing animation, elaborate medical animation, sleep animation, camp busywork, repeated prop handling, or extra Junction inspection is required.
+- Beat 15 remains primarily a cleanup wrapper. It does not invent a mandatory evening conversation to compete with the optional Character-Life scenes.
+- the morning exchange now carries forward actual Chapter-0/1 relationship callbacks rather than resetting the party to generic departure banter.
+- Torren remains route-first and impatient with unnecessary departure talk; Cyanis and Ilyra carry forward their established medical joke language; Maevra is socially quick and willing to weaponize a funny story.
+- the Briarhide reference correctly treats the boss as **killed**, not driven off.
+- no Junction lore is repeated and no new plot information appears.
