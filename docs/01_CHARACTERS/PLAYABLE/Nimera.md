@@ -152,6 +152,45 @@ Proofhunter/Subclass expertise is unavailable before its current story unlock.
 ## Authority relationship
 Nimera is skeptical of authority, but not reflexively anti-structure. Her instinct is to ask who classified something, who combined the records, what evidence made a category legal, and whether a record is being treated as more certain than it is.
 
+## Torren — relationship progression
+Torren is 42 and Nimera is 22: he is old enough to be her father. That age difference eventually contributes to a **father/daughter-like bond**, but Chapter 3 is only the beginning of the relationship.
+
+### Chapter 3
+They have just met.
+
+Nimera should experience Torren as:
+- an older field specialist whose standards she respects even when his notation or wording irritates her;
+- someone willing to tell her `I don't know` without embarrassment;
+- unexpectedly funny in a dry, blunt way;
+- occasionally annoying because he can collapse a complicated argument into one practical observation;
+- not yet somebody whose concern she automatically reads as paternal.
+
+Their early relationship is built from professional curiosity, argument, reciprocal correction, and competence. Familial shorthand is **not yet earned**.
+
+### Following chapters
+Repeated travel, reciprocal Proofhunter/Routeweaver learning, shared work, and ordinary life gradually make the relationship personal.
+
+Nimera begins to notice:
+- Torren remembers practical details about her without announcing that he remembered;
+- he helps in ways that preserve her agency instead of directing her;
+- he is more protective of her than he initially admits;
+- his bluntness has different meanings she can increasingly distinguish;
+- he will engage her ridiculous arguments instead of merely walking away when he is enjoying them.
+
+She increasingly gives that care back through her own language: checking his assumptions, remembering his habits, fixing his bad categories, noticing what he has ignored, and refusing to let him pretend practical concern is emotionally neutral.
+
+### Later relationship
+Only after several chapters should Nimera openly treat Torren's behavior as paternal enough to joke about his `dad thing` or equivalent.
+
+At that stage the father/daughter-like bond is strong but adult:
+- Nimera remains fully capable of telling him no;
+- she can correct, out-argue, or outperform him without threatening the relationship;
+- his protectiveness does not become permission-seeking or control;
+- she can tease him about fussing because both know she is not being infantilized;
+- the reciprocal training relationship remains important rather than turning into one-way mentorship.
+
+Do not write later familial shorthand backward into Chapter 3.
+
 ## Character Quest
 **The Archive That Remembers** centers on:
 > revision is not erasure.
@@ -159,7 +198,7 @@ Nimera is skeptical of authority, but not reflexively anti-structure. Her instin
 ## Relationship shorthand
 - **Cyanis** — different forms of skepticism toward unsupported authority; she pushes and he pushes back.
 - **Ilyra** — warmth, curiosity, care without interrogation, and unusually direct dry/profane humor.
-- **Torren** — records/provenance reasoning against field judgment; familial/protective teasing without infantilization.
+- **Torren** — Chapter 3 begins with records/provenance reasoning colliding with field judgment and mutual testing; over several chapters this grows into a strong father/daughter-like familial bond without infantilization.
 - **Vaelira** — fast friendship, shared precision, dangerous intellectual chemistry, mutual escalation.
 - **Seyrik** — her speed against his precision; curiosity must never make him an object of study.
 
@@ -186,7 +225,8 @@ Do not reduce Nimera to:
 - contrarian who opposes authority automatically;
 - socially oblivious genius;
 - person who treats trauma as an interesting document set;
-- childlike younger-party-member role.
+- childlike younger-party-member role;
+- someone who instantly treats Torren like a father the chapter they meet.
 
 ## Voice shorthand
 Fast when interested, precise about evidence, casually profane, playful, correction-prone, and occasionally delighted enough by technical absurdity to keep talking well past the first complete sentence.
