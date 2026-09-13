@@ -1,7 +1,7 @@
 # Chapter 2 — Dialogue Authority Index
 
 **Chapter:** 2 — The Drowned Oath  
-**Status:** COMPLETE CURRENT WORKING PRODUCTION — 16-BEAT MAINLINE + C05; NATURAL-TURN + SPOKEN-DIALOGUE/NARRATION AUDITS COMPLETE; COMBINED READ-THROUGH REQUIRES RESYNCHRONIZATION  
+**Status:** COMPLETE CURRENT WORKING PRODUCTION — 16-BEAT MAINLINE + C05; NATURAL-TURN + SPOKEN-DIALOGUE/NARRATION AUDITS COMPLETE; TORREN SOCIAL-COMFORT PASS CURRENT; COMBINED READ-THROUGH REQUIRES RESYNCHRONIZATION  
 **Primary locked story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Beat-development authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
 **Dialogue workflow authority:** `../../AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`  
@@ -12,11 +12,11 @@
 
 ## Purpose
 
-This file is the authoritative map for current Chapter-2 dialogue after the retroactive natural-turn rhythm audit, Character-Life numbering normalization, and spoken-dialogue / narration audit.
+This file is the authoritative map for current Chapter-2 dialogue after the retroactive natural-turn rhythm audit, Character-Life numbering normalization, spoken-dialogue / narration audit, and the targeted Torren social-comfort correction.
 
 ## Authority rule
 
-Chapter 2 keeps both forms:
+Chapter 2 keeps both forms deliberately:
 
 1. the standalone scene files are the atomic edit authorities for exact wording;
 2. `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` is a combined read-through only when its embedded source SHA matches the current standalone file.
@@ -25,8 +25,8 @@ The combined manuscript was generated before later numbering and dialogue revisi
 
 ## Mainline dialogue locations
 
-1. `BEAT_01_PATH_OUTSIDE_DUNMERE_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
-2. `BEAT_02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_NATURAL_TURN_WORKING_DIALOGUE.md` — spoken/narration audit current
+1. `BEAT_01_PATH_OUTSIDE_DUNMERE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` — **Torren social-comfort pass current**
+2. `BEAT_02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_NATURAL_TURN_WORKING_DIALOGUE.md` — spoken/narration + **Torren social-comfort pass current**
 3. `BEAT_03_DUNMERE_ELDER_HIDDEN_APPROACH_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
 4. `BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
 5. `BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md` — spoken/narration audit current
@@ -45,11 +45,57 @@ The combined manuscript was generated before later numbering and dialogue revisi
 ## Character-Life dialogue
 
 Current Chapter-2 cleanup Character-Life scene:
-- **C05 — Still Burns** — legacy atomic source key `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
+- **C05 — Still Burns** — legacy atomic source key `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` — **Torren social-comfort + Maevra/Torren reveal-boundary correction current**
 
 C05 is available after the Beat-16 Dunmere elder resolution and before the explicit Chapter-3 advance interaction.
 
 A former separate Chapter-2 concept historically labeled `C07` remains retired. Its useful material was folded into C05. Historical retirement does not reserve canonical C07; current canonical C07 belongs to Chapter 3.
+
+## Torren social-comfort pass — CURRENT
+
+Chapter 2 must not reset Torren to his initial Chapter-1 guardedness.
+
+Current character authority locks:
+> **Sparse is an early-state tendency, not a permanent voice quota.**
+
+By Chapter 2, Torren is visibly more comfortable with Cyanis, Ilyra, and Maevra.
+
+That means he may:
+- start a joke without being prompted;
+- prolong a joke because he is enjoying it;
+- revive callbacks such as `trainable`;
+- volunteer mundane opinions and local knowledge;
+- tell a short story or give an ordinary recommendation;
+- complain recreationally;
+- argue after the practical point is already settled;
+- speak in full multi-sentence turns outside maps/routes when he actually wants to talk.
+
+This does **not** make Torren a chatterbox and does **not** require every scene to lengthen him.
+
+State still controls cadence:
+- stealth may make him terse;
+- suspense may make him terse;
+- combat may make him terse;
+- immediate route calls may make him terse;
+- fatigue, fear, or anger may make him terse.
+
+The key distinction is that those short turns are now **scene/state choices**, not a character-template requirement.
+
+### Current Chapter-2 implementation
+- **Beat 1:** revised so Torren enters Chapter 2 already socially open. He jokes with the group, revives the `trainable` callback, volunteers an unsolicited Dunmere recommendation, and speaks about the town rather than only the road.
+- **Beat 2:** revised so Torren joins and starts ordinary humor before the stalled wagons change the scene; once the problem appears, he shifts naturally into serious Bastion judgment without losing the sense that the same man was joking seconds earlier.
+- **Beat 3:** retained. Torren's question/answer cadence is earned by a practical local-route briefing, but his `depends on the maybe`, `good answer`, and interaction with the elder remain socially legible.
+- **Beats 4, 7, 8, 9, 12:** predominantly terse/mixed by design because covert movement, suspense, immediate threat, discovery, or active military ascent genuinely compress speech.
+- **Beats 5–6:** Torren naturally holds longer evidence/map turns because those subjects are genuinely his expertise.
+- **Beats 10–15:** serious rescue, prisoner, and command pressure controls the rhythm; Torren remains socially established even when the situation is not playful.
+- **Beat 16:** the ordinary betting-pool joke shows he can participate socially after the crisis without needing a route subject.
+- **C05 — Still Burns:** preserved as the strongest low-stakes Chapter-2 proof that Torren can be stubborn, funny, argumentative, and fully engaged in an ordinary conversation that has nothing to do with maps/routes.
+
+## Maevra / Torren reveal boundary
+
+Their practiced familiarity may be obvious, but Chapter 2 still does **not** need to reveal their full chronology or former romance merely because their Person Brains know it.
+
+C05 `Still Burns` no longer states an exact `twenty-five years` duration. Their history remains carried through shorthand, mutual prediction, and practiced irritation.
 
 ## Natural-turn audit — COMPLETE
 
@@ -62,7 +108,9 @@ Prior material rhythm corrections:
 - Beat 16 — Dunmere debrief / chapter landing;
 - C05 — Still Burns.
 
-Beats 1, 3–4, 7–9, 12–15 remain predominantly terse/mixed where the situation earns it.
+Current interpretation after the Torren pass:
+- Beat 1 is **no longer categorized as intentionally terse**; it now establishes his Chapter-2 social opening.
+- Beats 3–4, 7–9, and 12–15 remain predominantly terse/mixed only where the actual scene state earns it.
 
 ## Spoken-dialogue / narration audit — COMPLETE
 
@@ -76,7 +124,7 @@ Material revisions:
 - **Beat 16** — the Dunmere landing is consequence-first: current rescue, earlier missing groups, Rhazek alive/local defeat, and reopened road are delivered without replaying the Bastion chapter beat by beat. The elder's thematic summary is reduced to `Both matter.`
 
 Audited and intentionally preserved:
-- Beats 1, 3–4, 7–9, 11–12, 15, and C05. Their dialogue is already character-owned, operational, combat-driven, suspense-driven, or low-stakes rather than authorial recap.
+- Beats 3–4, 7–9, 11–12, 15, and remaining compatible material. Their dialogue is already character-owned, operational, combat-driven, suspense-driven, or low-stakes rather than authorial recap.
 
 Core interpretation:
 > **The environment shows. Evidence owners interpret. Authority figures decide. Characters react. Nobody recites the scene back to the player.**
@@ -97,13 +145,15 @@ Core interpretation:
 ## Current synchronization state
 
 Atomic files revised after the prior combined-manuscript assembly include at least:
-- Beat 2 — `c277a8f86430cb8ae6a4ae338bc3bd6efc3df3b8`
-- Beat 5 — `2635d5d83d8bb273678784242447c48ccc730598`
-- Beat 6 — `ef7fbb8ab5f408317de488a87d358e6ca4dfcb7a`
-- Beat 10 — `6be60d317ae0d83d9d41e402511c40b53e5cb78f`
-- Beat 13 — `11cdc9896cc6b244dd49c4f763be04f05283ba2c`
-- Beat 14 — `cea04d18907e0ffa5f9eb3b6674b2f0039618817`
-- Beat 16 — `a4a810e1757bfa1dd15d5965189751dbb6d015c2`
+- Beat 1 — current Torren social-comfort rewrite;
+- Beat 2 — current Torren social-comfort rewrite;
+- C05 / legacy file `C06_STILL_BURNS...` — current Torren social-comfort + Maevra/Torren reveal-boundary correction;
+- Beat 5 — `2635d5d83d8bb273678784242447c48ccc730598`;
+- Beat 6 — `ef7fbb8ab5f408317de488a87d358e6ca4dfcb7a`;
+- Beat 10 — `6be60d317ae0d83d9d41e402511c40b53e5cb78f`;
+- Beat 13 — `11cdc9896cc6b244dd49c4f763be04f05283ba2c`;
+- Beat 14 — `cea04d18907e0ffa5f9eb3b6674b2f0039618817`;
+- Beat 16 — `a4a810e1757bfa1dd15d5965189751dbb6d015c2`;
 - Beat 16 also already carried a later metadata/numbering revision than the prior assembly.
 
 Therefore the combined Chapter-2 manuscript is not current exact wording for every embedded scene until regenerated.
@@ -112,14 +162,15 @@ Therefore the combined Chapter-2 manuscript is not current exact wording for eve
 
 If Chapter-2 sources disagree:
 1. `../../../02_STORY/CHAPTERS/CHAPTER_02.md` and later explicit user corrections;
-2. current beat-development authority where non-conflicting;
-3. `../CHARACTER_LIFE_NUMBERING_LOCK.md` for Character-Life IDs;
-4. listed standalone scene file for exact wording;
-5. current workflow locks, including `SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`, for production interpretation;
-6. this index for order/status;
-7. combined read-through only when its recorded source SHA matches the current standalone file;
-8. historical/migration/archive material only as provenance.
+2. current active character authority, including Torren's social-comfort progression and current Ilyra dialogue-assignment guardrail;
+3. current beat-development authority where non-conflicting;
+4. `../CHARACTER_LIFE_NUMBERING_LOCK.md` for Character-Life IDs;
+5. listed standalone scene file for exact wording;
+6. current workflow locks, including `SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`, for production interpretation;
+7. this index for order/status;
+8. combined read-through only when its recorded source SHA matches the current standalone file;
+9. historical/migration/archive material only as provenance.
 
 Exact combat stats, skills, AI, encounter rewards, and numeric balance remain under battle/encounter authority.
 
-> **Chapter 2 mainline dialogue + canonical C05 have passed both the natural-turn and spoken-dialogue / narration audits. Atomic dialogue is current; the combined manuscript requires resynchronization.**
+> **Chapter 2 mainline dialogue + canonical C05 retain the completed natural-turn and spoken-dialogue/narration audits, with Torren's Chapter-2 social opening now explicitly current. Atomic dialogue is current; the combined manuscript requires resynchronization.**
