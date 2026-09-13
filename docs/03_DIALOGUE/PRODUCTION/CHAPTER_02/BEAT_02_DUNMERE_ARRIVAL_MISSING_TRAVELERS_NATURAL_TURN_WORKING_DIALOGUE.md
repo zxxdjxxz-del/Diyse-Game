@@ -1,6 +1,6 @@
 # Chapter 2 — Beat 2
 # Dunmere Arrival / Missing Travelers
-## CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN RHYTHM PASS
+## CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT
 
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Rhythm authority:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
@@ -31,7 +31,7 @@ Torren slows when he sees loaded outbound wagons standing idle.
 
 **CYANIS:** That's never reassuring.
 
-**MAEVRA:** Loaded wagons, teams harnessed, and nobody leaving. Something's wrong with the road.
+**MAEVRA:** Road's stopped.
 
 A nearby **CARTER** hears them.
 
@@ -131,10 +131,11 @@ Torren looks at Cyanis.
 
 ---
 
-## Natural-turn / knowledge check
+## Audit check
 
 - Dunmere remains functioning rather than staged as a disaster zone.
-- The Carter and Returned Guard now give complete witness accounts instead of being prompted one fact at a time.
+- The idle loaded wagons are allowed to communicate the visible road stoppage; Maevra names only the operational conclusion instead of inventorying harnesses, teams, and wagon state aloud.
+- The Carter and Returned Guard give complete witness accounts instead of being prompted one fact at a time.
 - Ilyra's brief injury/clarity check stays short because that is all the scene needs.
 - Torren gives one complete field explanation of why the Bastion matters tactically.
 - The party learns only that Black Host soldiers are taking travelers toward the Old Bastion and that the corridor is being controlled; the waterworks, holding/transit structure, Rhazek, and onward transfers remain unrevealed.
