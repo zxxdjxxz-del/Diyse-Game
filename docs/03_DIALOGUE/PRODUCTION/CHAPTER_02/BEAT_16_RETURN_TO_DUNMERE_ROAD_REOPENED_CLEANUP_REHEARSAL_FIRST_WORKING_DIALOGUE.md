@@ -1,6 +1,6 @@
 # Chapter 2 — Beat 16 — Return to Dunmere / Road Reopened / Cleanup
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT  
+**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN + SPOKEN/NARRATION + ENSEMBLE CHARACTER-BALANCE PASS CURRENT  
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
 Beat 16 begins after the rescued group has left the Old Bastion through the maintained road-side gate. There is no playable escort sequence and no separate road-secured story beat. Cyanis, Ilyra, Torren, and Maevra are back in Dunmere with the current prisoners safely out of Black Host custody.
@@ -20,9 +20,9 @@ The elder meets Cyanis, Ilyra, Torren, and Maevra once the immediate movement ha
 
 **ELDER:** Everyone made it back?
 
-Ilyra looks toward the rescued group.
+Maevra looks toward the rescued group she spent the lower-Bastion hold organizing.
 
-**ILYRA:** Everyone we brought out. Earlier groups were already gone.
+**MAEVRA:** Everyone we brought out. Earlier groups were already gone.
 
 The elder hears the distinction.
 
@@ -34,7 +34,7 @@ The elder's expression hardens, but does not turn into a speech.
 
 **ELDER:** Then we don't call them found because today went well.
 
-**MAEVRA:** No.
+**TORREN:** No.
 
 ---
 
@@ -108,11 +108,13 @@ The elder looks back to the group.
 
 A short silence.
 
-Ilyra looks toward the rescued townspeople.
+Maevra looks toward the rescued townspeople.
 
-**ILYRA:** We got the people who were there out alive.
+**MAEVRA:** We got the people who were there out alive. That's not nothing.
 
-**MAEVRA:** And reopened the road.
+Torren glances toward the road.
+
+**TORREN:** And the road's open.
 
 The elder nods.
 
@@ -128,19 +130,29 @@ Torren looks at Cyanis.
 
 **CYANIS:** Two, maximum.
 
-**ILYRA:** Four.
+**ILYRA:** Four. One of them will occur to him while chewing.
 
-Maevra considers him.
+Maevra considers Cyanis.
 
-**MAEVRA:** I'm taking four.
+**MAEVRA:** Five if somebody tells him not to ask questions until morning.
 
 Cyanis looks between them.
 
 **CYANIS:** This is an abusive betting pool.
 
-**TORREN:** Five now.
+**TORREN:** Six now.
 
-Cyanis gives him a look.
+**ILYRA:** That one doesn't count. He was complaining, not asking.
+
+**MAEVRA:** You're officiating?
+
+**ILYRA:** Somebody has to protect the integrity of this deeply stupid system.
+
+Cyanis gives them all a look.
+
+**CYANIS:** I hate every one of you a little.
+
+**TORREN:** Food'll help.
 
 That is the end of it.
 
@@ -176,12 +188,16 @@ No automatic chapter transition occurs when Beat 16 ends.
 
 ---
 
-## Audit check
+## Ensemble audit check
 
 - The Dunmere debrief is consequence-first. The elder gets the information needed to act without making the party replay the Bastion chapter beat by beat.
-- The earlier-transfer problem is stated once at arrival and revisited only as the unresolved question, not re-summarized as `holding point / moved elsewhere / Rhazek wouldn't say where`.
-- Rhazek's survival, responsibility, and local defeat remain unambiguous in two short turns.
-- The elder no longer gives a thematic `both can be true` speech; `Both matter` is enough after Ilyra and Maevra name the two concrete outcomes.
+- Maevra, who actually held and organized the prisoner safe area, owns the immediate return-count distinction; this is relationship/scene ownership rather than `Ilyra = human consequence` by default.
+- Maevra also names the human success later, breaking the old pattern where she only carried command/operational conclusions.
+- Torren owns the reopened-road result and remains socially involved after the crisis instead of reverting to route exposition only.
+- Ilyra is free to participate in ordinary teasing and stupid argument once her medical expertise is no longer needed; she does not have to deliver the chapter's moral summary.
+- Cyanis remains responsible for what he personally learned from Rhazek and is not used only as a prompt for other people's conclusions.
+- Mature-adult speech is natural and relationship-specific without profanity being forced into a scene that does not need it.
+- Rhazek's survival, responsibility, and local defeat remain unambiguous.
 - Greenhollow ↔ Dunmere travel reopens.
 - No Ancient-map mystery is explained.
 - Chapter 3 still begins only through explicit player confirmation.
