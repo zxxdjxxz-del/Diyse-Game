@@ -1,8 +1,8 @@
 # Chapter 3 — Beat 7
 # Ancient Barrier / First Cooperation
-## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
-**Method note:** fresh rehearsal under `STORY_BEAT_AS_GUARDRAIL_LOCK.md` and `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. The scene is required to end with the barrier open, Nimera free, the Card still unclassified, and the deeper Archive reactivated. The conversation is not pre-sequenced around those outcomes.
+**Method note:** fresh rehearsal under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, and current Ilyra character authority. The scene is required to end with the barrier open, Nimera free, the Card still unclassified, and the deeper Archive reactivated. The Nimera Person-Brain performance remains intact; Ilyra's dialogue is redistributed away from default safety supervision and toward curiosity, interpretation, humor, and scene-earned expertise.
 
 ---
 
@@ -76,25 +76,19 @@ Cyanis shuts up.
 
 Nimera studies one of the interior plates.
 
-**NIMERA:** All right. If this is a relationship rather than four independent controls, this one shouldn't open anything by itself. It should wake the matching line on your side—briefly, I think. No, "matching" is doing too much work. The line connected to it.
+**NIMERA:** All right. If this is a relationship rather than four independent controls, this one shouldn't open anything by itself. It should wake the line connected to it on your side—briefly, I think.
 
-**ILYRA:** And if it does something else?
+**ILYRA:** And if it doesn't?
 
-**NIMERA:** I let go.
+**NIMERA:** Then I let go and we admit the elegant idea was wrong before I get emotionally attached to it.
 
-**ILYRA:** Immediately.
+**ILYRA:** Good. I hate watching people defend a theory after the theory has already died.
 
-**NIMERA:** Yes, immediately. I understand that word.
+Nimera looks at her.
 
-**ILYRA:** Good.
+**NIMERA:** That's unexpectedly specific.
 
-**NIMERA:** You don't trust me at all yet.
-
-**ILYRA:** I met you behind a moving wall ten minutes ago.
-
-Nimera thinks about that.
-
-**NIMERA:** Fair.
+**ILYRA:** I know people.
 
 **CYANIS:** I wasn't going to improvise.
 
@@ -118,23 +112,23 @@ Everything settles.
 
 **NIMERA:** Good. Again.
 
-**ILYRA:** Did it do exactly what you expected?
+**ILYRA:** "Good" or "exactly what you expected"?
 
-**NIMERA:** Yes. Mostly.
+**NIMERA:** Mostly the second one.
 
-**ILYRA:** Mostly is not exactly.
+**ILYRA:** Mostly is doing a lot of work there.
 
 **NIMERA:** The fourth plate moved less than I expected, but in the direction Harth described. That's variance, not contradiction. I think.
 
-**ILYRA:** Think harder.
+**ILYRA:** So you're repeating it because the direction matched, not because the movement was perfect.
 
-Nimera stares at her, then at the mechanism.
+Nimera points at her.
 
-**NIMERA:** Fine. Same prediction, second test. If the movement changes, we stop.
+**NIMERA:** Exactly. See? This is useful. You ask irritating questions but at least they're correctly irritating.
 
-**ILYRA:** Better.
+**ILYRA:** High praise.
 
-**NIMERA:** I liked you more when you were only checking whether I was bleeding.
+**NIMERA:** Don't get used to it.
 
 ### [THE BARRIER OPENS]
 
@@ -142,7 +136,7 @@ The second test confirms the same relationship.
 
 After that, the four work the mechanism without stopping to narrate who owns which part of the solution.
 
-Nimera calls what she can see from inside. Torren corrects physical assumptions from outside. Cyanis recognizes where the return relationship needs to close. Ilyra interrupts when movement exceeds what they predicted.
+Nimera calls what she can see from inside. Torren corrects physical assumptions from outside. Cyanis recognizes where the return relationship needs to close. Ilyra challenges interpretation when a term is doing too much work and notices when the pattern they are discussing stops matching what she can actually see.
 
 Keep the implementation simple and readable.
 
@@ -160,17 +154,19 @@ Everyone stops.
 
 **NIMERA:** Shit. All right. That's not where I thought the load transferred. Let me—
 
-**ILYRA:** Don't touch anything while you're revising.
+Ilyra looks at the plate.
 
-**NIMERA:** I wasn't.
+**ILYRA:** That's the first thing today that has admitted you were wrong before you did.
 
-A beat.
+Nimera stares at her.
 
-**NIMERA:** I was about to.
+**NIMERA:** I was literally in the middle of revising.
+
+**ILYRA:** I know. The timing was beautiful.
 
 **CYANIS:** Progress.
 
-**NIMERA:** Nobody asked you.
+**NIMERA:** Nobody asked either of you.
 
 They revise the sequence and continue.
 
@@ -254,13 +250,23 @@ Nimera looks up.
 
 **NIMERA:** Because you complained.
 
-Ilyra watches Cyanis rather than the Card.
+Nimera keeps studying the Card.
 
-**ILYRA:** Anything changing?
+**NIMERA:** Anything changing on your end?
 
 **CYANIS:** No.
 
-**NIMERA:** Good. Keep holding it exactly like that. Same distance from your body if you can. And don't rotate it unless you have to.
+**ILYRA:** Disappointingly boring.
+
+Nimera looks at her.
+
+**NIMERA:** Boring is excellent data.
+
+**ILYRA:** I know. Still boring.
+
+Nimera looks back to Cyanis.
+
+**NIMERA:** Keep holding it exactly like that. Same distance from your body if you can. And don't rotate it unless you have to.
 
 **CYANIS:** Why?
 
@@ -330,12 +336,13 @@ Transition directly into:
 
 ## Beat-7 production notes
 
-- This Person-Brain performance pass preserves all hard outcomes while increasing natural floor-holding, interruptions, self-correction, and character-specific rhythm.
+- The Nimera Person-Brain performance pass remains intact while Ilyra's role is rebalanced under current character authority.
 - Cyanis's Crest knowledge appears because he notices a familiar structural relationship; nobody turns it into a lineage claim.
 - Nimera challenges the analogy before using it and explicitly catches herself overpromoting a visible pattern.
-- Ilyra's caution appears as an ordinary response to a live test rather than a required safety speech; she challenges `mostly` because it matters to the test.
-- Torren contributes naturally because he is physically able to see evidence Nimera cannot and interrupts the sequence when the weight transfer changes.
+- Ilyra's questions now test the *reasoning*—what counts as a successful small test and what the variance means—rather than making her the person who dictates everybody's safety behavior.
+- Torren owns the physical stop when the load transfer changes because he is the one who sees it.
+- Ilyra responds to Nimera's mistake with humor instead of automatically taking over the safety lane.
 - the group performs more than one small test before fully releasing the barrier, so the success remains earned.
 - nobody verbally assigns credit for the solution.
-- Nimera's Card examination remains honestly inconclusive but now sounds like her actual reasoning instead of a sequence of clipped answers.
+- Nimera asks Cyanis directly whether the Card is changing; Ilyra is free to react socially instead of monitoring his body by default.
 - permanent recruitment remains unresolved until Beat 8.
