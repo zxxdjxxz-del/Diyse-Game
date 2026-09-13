@@ -45,11 +45,11 @@ Retroactive rhythm audit tracker:
 
 **Retroactive Chapters 0–3 natural-turn rhythm audit status: COMPLETE.**  
 **Retroactive Chapters 0–3 spoken-dialogue / narration audit status: COMPLETE.**  
-**Mature-adult speech / profanity audit status: Chapters 0–1 CURRENT; Chapters 2–3 to be included in their active character/ensemble re-audits rather than treated as mechanical profanity-insertion passes.**
+**Mature-adult speech / profanity audit status: Chapters 0–2 CURRENT; Chapter 3 to be included in its targeted newest-character-system re-audit rather than treated as a mechanical profanity-insertion pass.**
 
 ### Person-Brain performance state
 
-The newer Person-Brain performance standard is current across Chapter 0, Chapter 1, and all Chapter-3 atomic dialogue. Chapter 1 has also completed the newer final ensemble character-balance pass under the current Cyanis, Ilyra, Torren, and Maevra rules. Chapter 2 retains its completed natural-turn/spoken-dialogue production plus the newer Torren social-comfort correction and still requires the full four-character ensemble pass.
+The newer Person-Brain performance standard is current across Chapter 0, Chapter 1, and all Chapter-3 atomic dialogue. Chapters 1 and 2 have also completed the newer final ensemble character-balance pass under the current Cyanis, Ilyra, Torren, and Maevra rules. Chapter 2 additionally carries the explicit Torren social-comfort progression from Chapter 1 into the chapter rather than resetting him to one-word route-guide mode.
 
 The Person-Brain standard means:
 - topic owners may hold the floor through a complete thought;
@@ -75,7 +75,7 @@ Ilyra is not automatically assigned the medical, safety, food/sleep, emotional-i
 Current Torren guardrail:
 > **Sparse is an early-state tendency, not a permanent voice quota. Expertise is not a dialogue assignment.**
 
-Torren may remain concise by temperament and state, but Chapter 1 now explicitly begins his social opening and Chapter 2 must continue it rather than resetting him to one-word route-guide mode.
+Torren may remain concise by temperament and state, but Chapter 1 begins his social opening and Chapter 2 explicitly continues it. By Chapter 2 he can start jokes, prolong arguments, volunteer mundane opinions, tell short stories, complain, swear casually, and participate socially without requiring a map/route prompt.
 
 Current Maevra guardrail:
 > **They know one another well. Maevra is still their commander. Command is not a dialogue assignment.**
@@ -111,7 +111,7 @@ Retired/superseded development IDs do not reserve numbers. Some atomic filenames
 |---|---|---|
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + CYANIS CHARACTER AUDIT + ILYRA ROLE-BALANCE + MATURE-ADULT SPEECH/PROFANITY + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT** — P01–P07 + optional C01; atomic files current, combined read-through stale for revised scenes | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` |
 | Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + FINAL ENSEMBLE CHARACTER-BALANCE + ILYRA ROLE-BALANCE + MATURE-ADULT SPEECH/PROFANITY + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT** — Beats 1–15 + C02/C03/C04; atomic files current, combined read-through stale where flagged | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` |
-| Ch2 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN + SPOKEN-VS-NARRATION + TORREN SOCIAL-COMFORT CURRENT; FULL ENSEMBLE + ILYRA + MATURE-ADULT SPEECH RE-AUDIT STILL NEEDED** — Beats 1–16 + C05 | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` |
+| Ch2 | **COMPLETE CURRENT WORKING PRODUCTION; FINAL ENSEMBLE CHARACTER-BALANCE + ILYRA ROLE-BALANCE + TORREN SOCIAL-COMFORT + MAEVRA FRIENDSHIP/RANK + MATURE-ADULT SPEECH/PROFANITY + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT** — Beats 1–16 + C05; atomic files current, combined read-through stale | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` |
 | Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE COMPLETE ACROSS BEATS 1–15 + C07; C06 CURRENT/INTENTIONALLY ILYRA-FREE; CLOSING INTEGRATION + NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE; TORREN SOCIAL-PROGRESSION + MATURE-ADULT SPEECH RE-AUDIT STILL NEEDED** — atomic files current, combined read-through stale | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` |
 
 These four chapter folders are the correct live production locations. Where a combined manuscript's embedded SHA differs from the current atomic source, the atomic source is the exact wording authority.
@@ -214,30 +214,46 @@ Authority index:
 Current state:
 - all sixteen mainline beats have one standalone exact current dialogue authority;
 - **C05 — Still Burns** is current cleanup Character-Life dialogue;
-- Torren's Chapter-2 social-comfort correction is current.
+- final four-character ensemble balance is complete;
+- Ilyra's role-balance pass is complete across the chapter;
+- Torren's Chapter-2 social-comfort progression is current;
+- Maevra's commander/friend balance is current;
+- mature-adult speech/profanity audit is complete.
 
+Final ensemble character-balance audit: **COMPLETE.**  
+Ilyra role-balance: **COMPLETE.**  
+Torren social-comfort progression: **CURRENT.**  
+Maevra friendship/rank progression: **CURRENT.**  
+Mature-adult speech / profanity audit: **COMPLETE.**  
 Natural-turn audit: **COMPLETE.**  
-Spoken-dialogue / narration audit: **COMPLETE.**  
-Mature-adult speech / profanity audit: **to be integrated into the pending full four-character ensemble pass.**
+Spoken-dialogue / narration audit: **COMPLETE.**
 
-Chapter 2's completed production remains current, but it still requires the dedicated ensemble character-balance pass for Cyanis, Ilyra, Torren, and Maevra under the newest character rules. That pass must include the mature-adult speech/profanity audit rather than treating it as a separate cosmetic rewrite.
+Key final-ensemble results:
+- **Cyanis:** leads and questions when the situation genuinely belongs to him, but is not reduced to exposition-question feed. He owns his own rescue commitments and remains socially alive.
+- **Ilyra:** real medical ownership remains in Beats 2, 10, 11, and 15 where injury/mobility actually requires it. Generic `people first`, post-battle checker, rescue-conscience, and human-summary assignments were removed where they were not expertise-owned.
+- **Torren:** Chapter 2 begins with him visibly more comfortable than Chapter 1. He can start jokes, prolong them, give mundane recommendations, swear casually, and participate socially without a route/map prompt. Terse sections remain only where stealth, suspense, combat, or immediate field work earns them.
+- **Maevra:** real command remains strong inside the Bastion, but it no longer consumes her personality. She jokes and relaxes with the group when pressure drops, and Beat 16 gives her the human-success statement rather than limiting her to operational conclusions.
 
-Spoken-vs-narration material revisions:
+Material final-ensemble dialogue revisions:
+- **Beat 6:** Cyanis owns the rescue priority; Ilyra remains curious and complains like an ordinary soaked adult instead of functioning as the generic `people first` voice. Maevra's command line is allowed to coexist with humor.
+- **Beat 14:** Ilyra no longer performs the automatic post-battle medical scan or repeats the rescue-conscience line. Cyanis owns the promise that the prisoners can be moved; Ilyra remains a sharp, profane combatant in the aftermath.
+- **Beat 16:** Maevra owns the immediate return-count distinction and the human success of the rescue, Torren owns the road result, and Ilyra joins ordinary betting-pool banter rather than delivering the chapter's moral summary.
+
+Story-earned Ilyra medicine retained:
+- Beat 2 — one bounded clarity/head-injury check before relying on testimony;
+- Beat 10 — consent-based assessment of a wounded prisoner;
+- Beat 11 — wound-management/mobility limits for that actual patient;
+- Beat 15 — evacuation mobility instructions for weakened/wounded captives.
+
+C05 `Still Burns` remains the strongest Chapter-2 low-stakes proof that Torren and Maevra are not trapped in field-expert/commander functions and that the whole group can sound like mature adults arguing about something stupid.
+
+Spoken-vs-narration material revisions remain in force:
 - Beats **2, 5, 6, 10, 13, 14, 16**.
-
-Key result:
-- Dunmere's idle wagons communicate the visible road stoppage without Maevra verbally inventorying what the player can already see;
-- Archive staging carries visible organization/forcing evidence while Ilyra and Torren supply only distinct interpretation;
-- the western wall map is allowed to read visually before the cast begins genuine route analysis;
-- prisoner testimony is not paraphrased three times after the witnesses establish the facts;
-- Rhazek no longer narrates the player's dungeon progress or his visible withdrawal order back to the party;
-- Dunmere's final debrief is consequence-first rather than a beat-by-beat Chapter-2 recap;
-- the elder's thematic summary is reduced to the character-appropriate `Both matter.`
 
 Core outcomes remain unchanged: current prisoners rescued, Rhazek loses the Old Bastion locally but survives a credible withdrawal, earlier transferred captives remain unresolved, Greenhollow ↔ Dunmere travel reopens, and Chapter 3 begins only through explicit player confirmation.
 
 Combined read-through:
-- `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **requires resynchronization after atomic dialogue and prior numbering revisions.**
+- `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **requires resynchronization after atomic dialogue and later character-balance revisions.**
 
 ---
 
