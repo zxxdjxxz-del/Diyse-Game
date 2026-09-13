@@ -1,7 +1,7 @@
 # Chapter 0 — Dialogue Authority Index
 
 **Chapter:** 0 — Broken Convoy  
-**Status:** CURRENT WORKING DIALOGUE AUTHORITY — MAINLINE P01–P07 + C01; PERSON-BRAIN PERFORMANCE PASS COMPLETE; SPOKEN-DIALOGUE/NARRATION RULE REMAINS IN FORCE  
+**Status:** CURRENT WORKING DIALOGUE AUTHORITY — MAINLINE P01–P07 + C01; PERSON-BRAIN PERFORMANCE PASS COMPLETE; ILYRA ROLE-BALANCE CURRENT; SPOKEN-DIALOGUE/NARRATION RULE REMAINS IN FORCE  
 **Combined chapter read-through:** `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — stale against the newly revised atomic sources  
 **Rhythm authority:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
 **Spoken-dialogue authority:** `../../AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`
@@ -10,17 +10,17 @@
 
 The standalone P01–P07 and C01 rehearsal-first files in this folder are the exact scene-level production authorities.
 
-`CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` remains a convenient historical assembled read-through, but it predates the 2026-09-12 Person-Brain performance pass. Where it disagrees with a standalone file, the standalone file wins until the manuscript is regenerated.
+`CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` remains a convenient historical assembled read-through, but it predates the 2026-09-12 Person-Brain performance pass and the later Ilyra role-balance corrections. Where it disagrees with a standalone file, the standalone file wins until the manuscript is regenerated.
 
 Current sequence:
 - P01 — Convoy / Opening Ambush — **Person-Brain performance pass current**
 - P02 — Wreck Field — **Person-Brain performance pass current**
 - P03 — Evacuation Relay Decision — **Person-Brain performance pass current**
-- P04 — Field Triage / Ilyra / First Flare — **Person-Brain performance pass current**
-- P05 — Concealed Ruin Vanguard — **Person-Brain performance pass current**
-- P06 — Riftmaw + Convoy War-Sorcerer — **Person-Brain performance pass current**
-- P07 — Aftermath / Survivor Recovery — **Person-Brain performance pass current**
-- optional C01 — Six Minutes — **Person-Brain performance pass current**
+- P04 — Field Triage / Ilyra / First Flare — **Person-Brain performance pass current; medical emphasis story-earned**
+- P05 — Concealed Ruin Vanguard — **Person-Brain + Ilyra role-balance current**
+- P06 — Riftmaw + Convoy War-Sorcerer — **Person-Brain performance pass current; Card-response medical emphasis story-earned**
+- P07 — Aftermath / Survivor Recovery — **Person-Brain performance pass current; aftermath/medical emphasis story-earned**
+- optional C01 — Six Minutes — **Person-Brain + Ilyra role-balance current**
 
 ## Person-Brain performance pass — COMPLETE
 
@@ -34,7 +34,7 @@ Current rule:
 - longer speech may not be used to repeat information the player has just seen.
 
 ### P01 — Convoy / Opening Ambush
-- Cyanis and the convoy officer now sound familiar with each other's habits before the attack;
+- Cyanis and the convoy officer sound familiar with each other's habits before the attack;
 - Cyanis explains why the empty road bothers him rather than supplying only a clue fragment;
 - once the ambush begins, language appropriately collapses back into commands.
 
@@ -53,31 +53,50 @@ Current rule:
 - Cyanis and Ilyra meet as two professionals solving overlapping problems, not leader + healer functions;
 - Ilyra completes medical/practical reasoning instead of yielding after each observation;
 - Cyanis initially minimizes his symptoms, then gives better information when Ilyra explains why precision matters;
-- Ilyra joins the defense through her own Warden judgment, not a recruitment exchange.
+- Ilyra joins the defense through her own Warden judgment, not a recruitment exchange;
+- the heavy medical content is intentional here because Ilyra is introduced while actively running triage and the Card's first physical correlation occurs in the same beat.
 
 ### P05 — Concealed Ruin Vanguard
 - the hostile approach stays terse where danger earns it;
-- Ilyra's decision not to chase comes from field judgment and what she has actually observed of Cyanis, not generic caution;
-- the reset scene lets their early humor become more comfortable without implying instant intimacy.
+- Ilyra's decision not to chase comes from tactical judgment rather than healer-coded caution;
+- Cyanis takes water and volunteers his own symptom update instead of Ilyra managing both actions;
+- Ilyra gets a nonmedical reasoning beat about uncertainty: she hates not knowing but hates inventing an answer because uncertainty is irritating even more;
+- their early humor becomes more comfortable without implying instant intimacy.
 
 ### P06 — Riftmaw + War-Sorcerer
 - Ilyra refuses vague symptom language during the second Card response because precision materially affects her decision;
 - Cyanis's double-vision joke produces a clear adult boundary: joking corrupts medical information she cannot safely guess about;
 - Cyanis apologizes plainly and answers accurately without turning the scene into confession;
-- the officer/Ilyra/Cyanis post-battle exchange now sounds like people who survived the same afternoon rather than separate functional roles.
+- medical emphasis remains justified because this is the second unexplained Card response and the physical correlation is a core Chapter-0 story fact.
 
 ### P07 — Aftermath / Survivor Recovery
 - the previous spoken-dialogue correction remains intact: Ilyra states her decision to stay once and supplies the reason only after Cyanis challenges the premise;
-- Cyanis and Ilyra recognize each other's self-neglect without therapy or relationship-summary dialogue;
+- her medical report and reason for remaining overnight are story-earned rather than default dialogue assignment;
 - the exhausted officer is allowed dry humor and reduced polish after the crisis;
 - the survivor sweep remains bounded and no pursuit is added.
 
 ### C01 — Six Minutes
-- quiet dialogue now genuinely drifts, doubles back, and allows multi-sentence thoughts;
-- Cyanis and Ilyra can both be funny without one serving only as setup for the other;
-- the bitterleaf/compress-water mistake remains low-stakes and ordinary;
-- the six-minute rule still arises from shared resistance to turning rest into another task;
-- no plot or Card revelation is added.
+- the bitterleaf mistake remains the opening joke, but the scene deliberately leaves medicine behind instead of spending the whole optional scene on food/rest/patient management;
+- Cyanis and Ilyra exchange first impressions, embarrass one another, argue about blame, and let Ilyra laugh, swear, tease, and make a bad joke she immediately regrets;
+- their shared tendency to invent work for themselves remains visible without becoming diagnosis or therapy;
+- the six-minute rule remains an arbitrary shared refusal to turn rest into another task;
+- C01 is the Chapter-0 proof that Ilyra has an ordinary social identity outside her Warden/physician role.
+
+## Ilyra dialogue-assignment boundary
+
+Current active Ilyra character authority locks:
+> **Grace is not a dialogue assignment.**
+
+Chapter 0 necessarily introduces Ilyra in a medical crisis, so P04/P06/P07 contain real treatment and Card-response work. That does **not** license every later Ilyra turn to be medical, protective, therapeutic, or caretaker-coded.
+
+Current Chapter-0 interpretation:
+- medicine belongs to Ilyra when the scene genuinely requires a Warden/physician;
+- tactical uncertainty, jokes, profanity, first impressions, irritation, ordinary curiosity, and social friction also belong to her;
+- Cyanis can learn to volunteer symptom information rather than waiting for Ilyra to administer a checklist;
+- other characters can notice danger, injury, exhaustion, or human consequences first;
+- quiet/optional material must prove that Ilyra remains a whole person once the medical emergency stops.
+
+This boundary carries forward into all later chapters.
 
 ## Spoken-dialogue / narration rule remains in force
 
@@ -105,7 +124,7 @@ The Person-Brain pass does not reverse the earlier narration audit. Longer turns
 
 ## Current synchronization state
 
-Every atomic dialogue source P01–P07 + C01 changed during the Person-Brain performance pass.
+The atomic dialogue sources changed during the Person-Brain performance pass, and P05/C01 changed again during the Ilyra role-balance pass.
 
 Therefore:
 - standalone atomic sources are the current exact wording authority;
@@ -116,10 +135,10 @@ Therefore:
 
 If Chapter-0 dialogue sources disagree:
 1. current Chapter-0 story authority and later explicit user corrections;
-2. current character authorities for Cyanis, Ilyra, and supporting characters;
+2. current character authorities for Cyanis, Ilyra, and supporting characters, including Ilyra's dialogue-assignment guardrail;
 3. current standalone rehearsal-first scene authority;
 4. `../../AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`, `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, and other current workflow locks for production interpretation;
 5. `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` only where its wording has been explicitly resynchronized;
 6. older/historical dialogue only as provenance.
 
-> **Chapter 0 Person-Brain performance pass: COMPLETE across P01–P07 + C01. Atomic files are exact wording authority; combined manuscript and prior novelization are stale until the Chapters 0–3 pass is finished and synchronized.**
+> **Chapter 0 Person-Brain performance pass is complete, with Ilyra role-balance corrections current. Atomic files are exact wording authority; combined manuscript and prior novelization are stale until the Chapters 0–3 pass is finished and synchronized.**
