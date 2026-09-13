@@ -15,12 +15,13 @@ Do not revert later chapters to the older simplified dialogue-agent method, a ge
 
 1. **Scene / world state** — establish the playable situation, current continuity, physical/gameplay pressure, reveal boundaries, and who is present.
 2. **Independent Person Agent Brain rehearsals** — each participating character responds from that character's current full brain profile rather than from an omniscient shared cast voice. A Person Agent completes the natural behavioral turn rather than automatically yielding after one sentence.
-3. **Dialogue Editor** — aggressively cut, reconcile, and shape the rehearsal while preserving selective participation, interruptions, silence, pair-specific rhythm, disagreement, mundane behavior, natural floor-holding, sentence-length variation, and other human irregularity. `Cut aggressively` means remove repetition and weak material; it does **not** mean force one sentence per speaker turn.
-4. **Invisible Canon / Knowledge Checker** — verify lore, chronology, reveal timing, personal knowledge boundaries, relationship state, gameplay legality, map/traversal legality, terminology, and current production constraints without making characters verbalize the firewall.
-5. **Spoken-dialogue vs narration audit** — test every surviving explanatory line against `SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`. Remove, compress, or reassign dialogue that merely repeats visible staging, restates a report the room has already heard, replays earlier exposition for the player, verbalizes production intent, or turns an authority figure into a narrator. New-listener briefings must carry only what that listener needs and allow the listener to pull further detail through character-driven questions. Evidence owners may still explain conclusions only they can responsibly make.
-6. **Economical HD-2D staging / implementation pass** — translate the surviving dialogue into the established field, portrait, dialogue-box, battle, and traversal presentation without inventing unnecessary cinematic choreography. Dialogue-box pagination does not define when a conversational turn ends.
+3. **Dialogue Editor** — aggressively cut, reconcile, and shape the rehearsal while preserving selective participation, interruptions, silence, pair-specific rhythm, disagreement, mundane behavior, natural floor-holding, sentence-length variation, profanity, and other human irregularity. `Cut aggressively` means remove repetition and weak material; it does **not** mean force one sentence per speaker turn or sanitize adult speech.
+4. **Mature-adult speech / profanity audit** — apply `MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`. Check that the cast sounds like actual mature adults rather than uniformly clean JRPG archetypes; preserve character-specific profanity, vulgarity, bluntness, interruption, and register where natural; remove profanity only when it is repetitive, performative, juvenile, or false to the speaker. This is a character-truth audit, not a swear-count pass.
+5. **Invisible Canon / Knowledge Checker** — verify lore, chronology, reveal timing, personal knowledge boundaries, relationship state, gameplay legality, map/traversal legality, terminology, and current production constraints without making characters verbalize the firewall.
+6. **Spoken-dialogue vs narration audit** — test every surviving explanatory line against `SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`. Remove, compress, or reassign dialogue that merely repeats visible staging, restates a report the room has already heard, replays earlier exposition for the player, verbalizes production intent, or turns an authority figure into a narrator. New-listener briefings must carry only what that listener needs and allow the listener to pull further detail through character-driven questions. Evidence owners may still explain conclusions only they can responsibly make.
+7. **Economical HD-2D staging / implementation pass** — translate the surviving dialogue into the established field, portrait, dialogue-box, battle, and traversal presentation without inventing unnecessary cinematic choreography. Dialogue-box pagination does not define when a conversational turn ends.
 
-`REHEARSAL_FIRST_AUTHORING_LOCK.md`, `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, `SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`, `KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md`, `AUTHORITY_PACKET_COMPILER.md`, `SCENE_CONSTRUCTION_STACK.md`, and other current Agent System locks remain binding parts of this workflow.
+`REHEARSAL_FIRST_AUTHORING_LOCK.md`, `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, `MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`, `SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`, `KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md`, `AUTHORITY_PACKET_COMPILER.md`, `SCENE_CONSTRUCTION_STACK.md`, and other current Agent System locks remain binding parts of this workflow.
 
 ## Natural-turn correction
 
@@ -36,6 +37,26 @@ Owning detailed rule:
 - `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
 
 Chapters 0–3 require a retroactive rhythm audit under that lock before dialogue is treated as fully polished for implementation. Preserve strong lines and only repair artificial one-sentence ping-pong where it actually occurs.
+
+## Mature-adult speech / profanity correction
+
+The following interpretation is explicit and mandatory:
+
+> **DIYSE characters are mature adults. Do not sanitize them into polite JRPG dialogue, and do not make them uniformly profane.**
+
+Profanity, vulgarity, bluntness, crude humor, affectionate insult, interruption, and imperfect phrasing are available according to the individual Person Brain, relationship safety, rank/register, stress, fatigue, anger, amusement, and scene context.
+
+Current calibration is qualitative rather than numerical:
+- **Nimera:** high/frequent profanity; it is a major natural feature of her speech and often lives inside technical reasoning, self-correction, arguments, and humor;
+- **Torren:** casual and unselfconscious; especially available in veteran shorthand, irritation, affectionate insult, and increasingly relaxed conversation;
+- **Ilyra:** moderate, dry, and sometimes unexpectedly sharp; profanity helps preserve her as a real twenty-eight-year-old adult rather than a saintly healer archetype;
+- **Cyanis:** moderate and freer with trust, fatigue, frustration, or sharp affectionate banter; responsibility may control his register without making him prudish;
+- **Maevra:** moderate and register-sensitive; formal command may be cleaner, but rank does not sanitize her, especially with Cyanis and Ilyra whom she already knows very well, or with Torren where old familiarity is deeply established.
+
+Owning detailed rule:
+- `MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`
+
+Every dedicated character or ensemble pass must include this audit. A pass is not complete merely because plot facts and role assignments are correct if the spoken language still sounds artificially cleaned, uniformly polite, or written younger than the cast.
 
 ## Spoken-dialogue / narration correction
 
@@ -85,7 +106,7 @@ The current Chapter 0 and Chapter 1 rehearsal-first production manuscripts are t
 
 Their production method, not every individual line or cadence artifact, is the locked precedent.
 
-Later explicit workflow corrections—including the natural-turn/floor-holding lock and spoken-dialogue/narration lock—supersede any accidental rhythm or exposition pattern present in those manuscripts.
+Later explicit workflow corrections—including the natural-turn/floor-holding lock, mature-adult speech/profanity lock, and spoken-dialogue/narration lock—supersede any accidental rhythm, sanitization, or exposition pattern present in those manuscripts.
 
 ## Forward rule
 
