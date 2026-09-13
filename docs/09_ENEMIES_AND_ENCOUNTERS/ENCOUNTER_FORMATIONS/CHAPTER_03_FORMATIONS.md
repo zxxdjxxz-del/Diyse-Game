@@ -17,6 +17,9 @@ Do **not** restore from the old table:
 Current Chapter-3 enemy files and current progression/reward files control those values.
 
 ## Opening / hostile perimeter
+
+**Current placement firewall:** this recovered formation group has **no mandatory Chapter-3 story-route placement** under the current 15-beat Chapter-3 authority. Do not insert these formations into the lawful Caelora gate approach or the explicitly skipped Caelora → Cresthaven travel. They remain available only for later explicit placement or compatible optional content.
+
 | Formation | Composition | Weight |
 |---|---|---:|
 | Way-Fort Patrol | 2 Way-Fort Marauders + 1 Rift Boltman | 30% |
@@ -39,6 +42,8 @@ Current Chapter-3 enemy files and current progression/reward files control those
 
 ## Guardrails
 - lawful Caelora personnel remain authored/nonlethal encounters and are **not** random-farm formations;
+- the lawful Caelora gate approach is not a hostile-perimeter random encounter route;
+- Caelora → Cresthaven travel is skipped in current Chapter-3 story authority and does not host random encounters;
 - False-Warrant Adept remains placement-unresolved and is not added here;
 - Grand Inquisitor Frame remains an optional Suppressed-Archives branch Elite;
 - simultaneous enemy hard cap remains 8;
