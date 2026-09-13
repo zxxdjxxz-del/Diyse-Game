@@ -1,10 +1,10 @@
 # Chapter 3 — Beat 12
 # Sealwright Chamber / The Copying Attempts
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — NATURAL-TURN RHYTHM PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — PERSON-BRAIN PERFORMANCE PASS
 
 **Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the post-Warden situation, the physical evidence progression, the required distinction between visible copying and genuine magical authority, the no-map correction, the Caelora exit state, and reveal firewalls. It was not given a speaker order or assigned one required conclusion to each party member.
 
-**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. The key evidentiary distinctions now remain in the mouth of the person who owns them instead of being split into one-sentence handoffs.
+**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. The key evidentiary distinctions remain in the mouth of the person who owns them, and Nimera is allowed to revise, swear, over-explain, and be interrupted when the scene gives the other characters a reason.
 
 ---
 
@@ -30,7 +30,9 @@ Nimera looks across the work surface without touching anything.
 
 **CYANIS:** Which part?
 
-**NIMERA:** Excellent question. All of it.
+**NIMERA:** Excellent question. All of it. Actually—no, the floor is probably safe. I am willing to extend provisional trust to the floor.
+
+**TORREN:** Generous.
 
 Torren is looking at a clean scrape through old residue near one of the clamps.
 
@@ -40,7 +42,7 @@ Nimera follows his attention.
 
 There are discarded practice impressions beside the Ancient tools: rough seal faces pressed into wax / clay / test parchment, some cracked, some incomplete.
 
-**NIMERA:** No. And neither is that.
+**NIMERA:** No. And neither is that. Or that. Shit, there's a sequence here.
 
 She looks farther down the bench.
 
@@ -54,7 +56,11 @@ Another cleaner still.
 
 **TORREN:** More than once.
 
-**NIMERA:** A lot more than once.
+**NIMERA:** A lot more than once. Early cuts are shallow and wandering. Later ones keep the line. Whoever did this got better in the room, not before they arrived.
+
+**ILYRA:** Meaning time.
+
+**NIMERA:** Time, access, patience, supplies—yes. Maybe instruction, maybe not. Don't let me sneak that one in for free.
 
 ### [GAMEPLAY — FOLLOW THE WORK]
 
@@ -80,7 +86,13 @@ Cyanis stops before one of the later impressions.
 
 **CYANIS:** That's ours.
 
-**NIMERA:** Yes.
+Nimera looks from the impression to him.
+
+**NIMERA:** You're sure?
+
+**CYANIS:** Yes.
+
+**NIMERA:** Good. Then I'm not wasting ten minutes comparing ornamental variance because you recognized your own damn royal Crest.
 
 Several versions of the Crest of Yahtrea sit beside one another.
 
@@ -100,6 +112,18 @@ Nimera looks past the face of the seal to the surrounding binding work.
 
 **CYANIS:** Right.
 
+**NIMERA:** No, say it with me because this distinction is going to try to die later: visually accurate is not magically authoritative.
+
+**CYANIS:** I know.
+
+**NIMERA:** You know now. Three hours from now, after five more impossible things, your memory may decide the copy "worked." I am preemptively fighting future you.
+
+**TORREN:** Future him sounds irritating.
+
+**CYANIS:** Present him is standing here.
+
+**NIMERA:** Also irritating.
+
 The receiving ring around that attempt is scorched.
 
 So is the next one.
@@ -112,13 +136,17 @@ Torren looks across the damage.
 
 Nimera crouches only enough to read the surviving residue and engraved relationship. No one activates the work.
 
-**NIMERA:** Hard enough to hurt a room designed for this.
+**NIMERA:** Hard enough to hurt a room designed for this. That's not one failed attempt. That's repetition under load.
 
 **ILYRA:** Did it work?
 
-Nimera looks from the copied Crest to the failed binding traces.
+Nimera does not answer immediately.
 
-**NIMERA:** I can prove they made the mark. I can prove they tried to make it more than a mark. I cannot prove they ever got the royal response.
+**NIMERA:** I can prove they made the mark. I can prove they tried to make it more than a mark. I can prove they pushed enough power through the attempts to scorch repeated receiving rings.
+
+She points once at the cleanest copy.
+
+**NIMERA:** I cannot prove they ever got the royal response.
 
 Silence.
 
@@ -126,11 +154,19 @@ Cyanis looks at the most accurate copy again.
 
 **CYANIS:** Could they have?
 
-Nimera takes another look at the burned working.
+**NIMERA:** Yes.
 
-**NIMERA:** I don't know.
+Everyone looks at her.
 
-That is enough. Nobody repeats the distinction in different wording.
+**NIMERA:** Could. As in physically possible from the evidence we have? I can't rule it out. That's not me saying they did. Those are different fucking sentences and I need all of you to keep them separate.
+
+**TORREN:** We heard you.
+
+**NIMERA:** Good.
+
+A beat.
+
+**NIMERA:** I'm still writing it down.
 
 ### [THE WORKING TRAIL]
 
@@ -142,15 +178,25 @@ There are enough repeated tool positions, discarded attempts, and reused work su
 
 Nimera looks over the whole sequence again.
 
-**NIMERA:** And more specific.
+**NIMERA:** Cleaner and more specific. Ancient forms first, then older Yahtrean forms, then royal examples, then this. That's a narrowing target.
+
+**CYANIS:** Toward the Queen's seal.
+
+**NIMERA:** Toward the Crest used by the Crown. Maybe toward the working royal seal. Again, target versus success.
+
+**CYANIS:** I heard you the first time.
+
+**NIMERA:** Wonderful. Then the second time is reinforcement.
 
 Torren glances back toward the chamber entrance.
 
 **TORREN:** Same person as the books?
 
-**NIMERA:** Maybe. That's all I have.
+Nimera looks at him, then at the work.
 
-Torren accepts it.
+**NIMERA:** Maybe. Same interests, compatible timing, same general access problem. But "same person" would make the mystery tidier, and tidy is exactly when I get suspicious of myself.
+
+**TORREN:** Fair.
 
 ### [THE RUBY CARD HOLDS]
 
@@ -170,6 +216,16 @@ Nimera notices.
 
 **NIMERA:** Wasn't meant to be.
 
+**ILYRA:** Any reason he should stop carrying it the same way?
+
+Nimera thinks.
+
+**NIMERA:** No. And that is me saying I have no new reason, not that I have proven the current arrangement safe forever.
+
+**CYANIS:** You hear yourself, right?
+
+**NIMERA:** Constantly. It's exhausting.
+
 No further Card analysis occurs here.
 
 ### [DECISION — TAKE IT BACK UPSTAIRS]
@@ -184,21 +240,35 @@ Torren looks once more over the progression of discarded work.
 
 **ILYRA:** And access.
 
+**NIMERA:** And either privacy or people who thought the work belonged here. Don't promote that to conspiracy; I'm listing possibilities.
+
+**CYANIS:** I wasn't going to.
+
+Nimera gives him a look.
+
+**CYANIS:** Fine. I was thinking it loudly.
+
 Cyanis looks at the repeated royal Crest attempts.
 
 **CYANIS:** Mirena needs to see this.
 
-**NIMERA:** Copies of it.
+**NIMERA:** Copies of it. Notes, measurements, residue description, progression order. Originals stay exactly where they are unless somebody with actual collection authority decides otherwise.
 
 **CYANIS:** Obviously. I'm learning.
 
-**NIMERA:** Slowly.
+**NIMERA:** Slowly, but I believe in you.
+
+**TORREN:** Dangerous optimism.
+
+**NIMERA:** Shut up.
 
 Ilyra looks toward the exit.
 
 **ILYRA:** Then we're done down here for now.
 
-Nobody argues.
+Nimera takes one last look at the cleanest Crest copy.
+
+**NIMERA:** For now.
 
 ### [PLAYER EXIT — END OLD CITY FIELD SECTION]
 
@@ -224,13 +294,10 @@ Transition into:
 
 - The current seal-copying correction controls over the superseded older Beat-12 route-relief concept. No new map or north-route evidence appears.
 - The room's physical practice sequence carries most of the exposition: Ancient copies become older Yahtrean copies, then royal-document seals, then repeated Crest of Yahtrea attempts.
-- Cyanis recognizes the late-stage Crest work naturally through familiarity rather than receiving a terminology lecture.
-- Later visual copies are highly accurate, but visible accuracy is kept distinct from the genuine magical authority response.
+- Nimera's Person Brain now actively protects the distinction between visual accuracy, attempted magical binding, possible success, and proven success; she repeats herself only because she knows the group may collapse those categories later.
+- Later visual copies are highly accurate, but visible accuracy remains distinct from genuine magical authority response.
 - Burned / repeated binding work establishes unusually powerful magical effort.
-- The scene states the central evidence boundary once, in one complete Nimera turn: the party can prove the visible copies and the attempts to make them magically meaningful, but not successful reproduction of Lysara's authority response.
-- the physical progression is not recited back as a four-step verbal checklist after the player has already seen it; Torren and Nimera only register that the work became cleaner and more specific.
-- The recent reader and seal practitioner may be connected, but Beat 12 does not prove they are the same person.
-- the practitioner remains unidentified and is not proven to have authored the suspect Card transport orders.
+- the recent reader and seal practitioner may be connected, but Beat 12 does not prove they are the same person.
 - Cyanis's Card remains stable deep Ruby with no transformation, Prime recovery, manifestation, identification, or gameplay unlock.
 - the party does not test, activate, or create a copied royal seal.
 - on exit, the Old City field section ends immediately and the story cuts directly to Beat 13's private meeting with Mirena.
