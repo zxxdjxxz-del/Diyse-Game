@@ -22,7 +22,7 @@ One pot and ordinary bowls are enough. No cooking montage or food-detail animati
 
 Torren does not smoke until everyone has finished eating.
 
-No lore, Hunt progression, reward, or relationship speech.
+No lore, Hunt progression, reward, or relationship reveal.
 
 ---
 
@@ -114,7 +114,7 @@ Maevra looks at him.
 
 **TORREN:** You.
 
-**MAEVRA:** Good. I stand by younger me.
+**MAEVRA:** Good. I stand by it.
 
 **CYANIS:** What kind of meat?
 
@@ -176,7 +176,7 @@ Torren looks at her.
 
 **TORREN:** Similar.
 
-**MAEVRA:** No, don't protect the old versions. We were seventeen and sixteen and hungry enough to think boiled grain with onion was luxury. You made a pot once so thick somebody stuck a spoon upright in it and we left it there through watch change.
+**MAEVRA:** No, don't protect the old versions. We were hungry enough to think boiled grain with onion was luxury. You made a pot once so thick somebody stuck a spoon upright in it and we left it there through watch change.
 
 Torren frowns.
 
@@ -186,7 +186,7 @@ Torren frowns.
 
 **TORREN:** Didn't tell him to empty it.
 
-**MAEVRA:** You said, `Enough to thicken it.` He was seventeen. That was irresponsible ambiguity.
+**MAEVRA:** You said, `Enough to thicken it.` That was irresponsible ambiguity.
 
 **CYANIS:** Did the spoon really stand up?
 
@@ -194,9 +194,9 @@ Torren frowns.
 
 **TORREN:** Still tasted fine.
 
-Maevra turns to Cyanis with the exhausted expression of someone presenting twenty-five years of evidence in one sentence.
+Maevra turns to Cyanis with the exhausted expression of someone presenting accumulated evidence in one sentence.
 
-**MAEVRA:** This. This is what I lived with.
+**MAEVRA:** This. This is what I've been dealing with.
 
 **TORREN:** You kept eating it.
 
@@ -406,7 +406,8 @@ Scene ends.
 
 - fast joke timing remains where it helps, but the scene now breathes and allows Maevra to tell an actual remembered story and Torren to give a full defense of his utilitarian food philosophy.
 - Torren becomes longer when discussing practical field efficiency, one of the mundane subjects that genuinely interests him.
-- Maevra's twenty-five years of familiarity read through specificity and irritation rather than a relationship-summary line.
+- Maevra and Torren's long familiarity reads through remembered details, irritation, and shorthand. **No exact duration, enlistment age, past romance, or relationship history is revealed here.**
+- the intended Chapter-1 read is that they have known each other a long time and argue with old-married-couple ease, while the actual nature of that history remains unresolved.
 - Cyanis and Ilyra are active comic participants, not audience stand-ins.
 - Torren does not smoke until everyone has finished eating.
 - no lore, Hunt, Card, reward, or relationship-state outcome changes.
