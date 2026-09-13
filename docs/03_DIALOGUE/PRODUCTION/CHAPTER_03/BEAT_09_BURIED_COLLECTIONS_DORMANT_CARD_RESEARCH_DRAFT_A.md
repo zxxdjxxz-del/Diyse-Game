@@ -52,7 +52,7 @@ Nimera follows his attention.
 
 A later Yahtrean copy groups older Card material beneath six headings with older marks preserved alongside them.
 
-**NIMERA:** Might. Elements. Grace. Resource. Perception. Ruin. Those names are later; the marks beside them aren't. And before anybody says "so those are the ancient meanings," no. They are later labels attached to older marks by somebody who thought the correspondence was good enough to preserve. That's evidence of a comparison, not proof the concepts were identical.
+**NIMERA:** Might. Elements. Grace. Memory. Perception. Ruin. Those names are later; the marks beside them aren't. And before anybody says "so those are the ancient meanings," no. They are later labels attached to older marks by somebody who thought the correspondence was good enough to preserve. That's evidence of a comparison, not proof the concepts were identical.
 
 **CYANIS:** Nobody said it.
 
@@ -303,7 +303,7 @@ Transition into:
 - The scene remains playable research rather than one long exposition cutscene.
 - Nimera now behaves according to her active Person Brain: she corrects category drift before it hardens into group belief, revises her own confidence, swears naturally inside technical reasoning, and sometimes keeps talking until another person has earned the interruption.
 - inactive Cards becoming responsive and green/gold light both gain historical precedent without classifying Cyanis's Card.
-- the Six Faces appear naturally in old Card scholarship; later Yahtrean names sit beside older marks, preserving uncertainty about exact historical meaning.
+- the Six Faces appear naturally in old Card scholarship; later Yahtrean names sit beside older marks, preserving uncertainty about exact historical meaning. **Memory is the current heading; Resource is retired.**
 - seal research establishes a meaningful distinction between physical impression and magical authority and references older renewal/maintenance practice, but the technique and lineage remain incomplete.
 - the recent-reader mystery emerges through Torren and Nimera genuinely disagreeing about what counts as meaningful disturbance, then converging as evidence accumulates.
 - the final table physically links Card response, luminous behavior, seal traditions, and the Westways discovery site without allowing the group to overclaim a shared theory.
