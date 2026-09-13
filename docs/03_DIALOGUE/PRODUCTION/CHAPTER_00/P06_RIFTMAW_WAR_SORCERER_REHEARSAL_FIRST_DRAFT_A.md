@@ -1,6 +1,6 @@
 # Chapter 0 — P06
 # Riftmaw + War-Sorcerer / Final Broken Convoy Confrontation
-## REHEARSAL-FIRST PRODUCTION DRAFT B — NATURAL-TURN RHYTHM PASS / awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 ---
 
@@ -22,15 +22,19 @@ Cyanis sees the incoming pair.
 
 **CYANIS:** That's not a hound.
 
-**ILYRA:** No.
+Ilyra sees the size, the harness, and the sorcerer controlling the approach.
+
+**ILYRA:** No. And I don't think the person behind it brought it here to negotiate.
 
 **CONVOY OFFICER:** Riftmaw! Sorcerer behind it!
 
 A beat.
 
-**CYANIS:** Everybody behind stone. Nobody follows us out.
+Cyanis looks at the treatment lane before he looks back at the enemy.
 
-**ILYRA:** Keep the lane behind me clear. If I have to move someone, I don't want to find you standing where I need to go.
+**CYANIS:** Everybody behind stone. Nobody follows us out. If the line breaks, fall back toward the relay, not the road.
+
+**ILYRA:** Keep the lane behind me clear. If I have to move someone, I need to know the space is there before I turn around with a body in my hands.
 
 **CYANIS:** You have it.
 
@@ -38,25 +42,33 @@ Before the fight starts, green-and-gold light wakes inside the damaged recovery 
 
 Fragmented protection spreads through the defended opening.
 
-Ilyra notices both the recurrence and Cyanis's reaction.
+Ilyra sees it, then immediately looks at Cyanis rather than the phenomenon.
 
 **ILYRA:** There. Same feeling as before?
 
 **CYANIS:** Close enough.
 
-**ILYRA:** Don't guess with me.
+**ILYRA:** No. Don't give me `close enough` because the thing trying to kill us is large. Same dizziness? Same pulse jump? Same arm response?
 
-A beat.
+Cyanis forces himself to actually check rather than wave her off.
 
-**CYANIS:** Feels the same. No worse yet.
+**CYANIS:** Dizziness is the same. Pulse feels fast. Arm isn't different from thirty seconds ago.
 
-**ILYRA:** Better.
+**ILYRA:** Better. If any of that changes, say it even if I'm in the middle of something.
+
+**CYANIS:** I will.
 
 The War-Sorcerer and Riftmaw continue closing on the camp.
 
-**CYANIS:** Use it while it's here.
+Cyanis looks at the temporary protection.
 
-**ILYRA:** Planning to.
+**CYANIS:** Whatever that is, it's helping the line. Use it while it's here.
+
+**ILYRA:** Already planning to.
+
+**CYANIS:** Good.
+
+**ILYRA:** Don't sound surprised.
 
 **BOSS COMBAT BEGINS — CYANIS + ILYRA VS. RIFTMAW + CONVOY WAR-SORCERER.**
 
@@ -114,13 +126,17 @@ Normal field/story presentation returns.
 
 **CONVOY OFFICER:** They're pulling back.
 
-**CYANIS:** Let them.
+Cyanis watches long enough to make sure the withdrawal is real on this side.
 
-No one suggests pursuit.
+**CYANIS:** Let them. Nobody chases.
 
-Ilyra turns immediately to Cyanis.
+The officer nods once and turns back toward the camp.
+
+Ilyra is already facing Cyanis.
 
 **ILYRA:** Look at me. Both eyes.
+
+Cyanis does.
 
 A beat.
 
@@ -130,29 +146,45 @@ Ilyra freezes for half a second.
 
 **CYANIS:** Kidding.
 
-**ILYRA:** Don't do that. I don't know enough yet to know what that light did to you, and I am not guessing whether you're joking about double vision.
+The look on her face changes immediately.
+
+**ILYRA:** Don't do that.
+
+Cyanis's smile disappears.
+
+**ILYRA:** I don't know enough yet to know what that light did to you. I don't know if the dizziness is harmless, if it can change suddenly, or if vision problems would mean something is getting worse. If you joke about double vision, I have to waste time deciding whether you're being funny or whether your brain is doing something dangerous.
 
 That lands harder than he expected.
 
-**CYANIS:** Sorry.
+**CYANIS:** You're right. Sorry.
 
-A beat.
+Ilyra accepts the apology without making him perform it twice.
 
 **ILYRA:** Again. What do you see?
 
-**CYANIS:** One of you. Camp behind you. Everything else where it should be.
+**CYANIS:** One of you. Camp behind you. Officer to your left. Everything else where it should be.
 
-**ILYRA:** Good.
+**ILYRA:** Any new numbness?
 
-She finishes the quick check.
+**CYANIS:** No.
+
+**ILYRA:** Dizziness?
+
+**CYANIS:** Still there. Not worse.
+
+**ILYRA:** Good enough to move. Not good enough to forget.
+
+Cyanis looks past her toward the treatment line.
 
 **CYANIS:** Camp?
 
-Ilyra checks the treatment line.
+Ilyra checks it too.
 
-**ILYRA:** Still ours. Wounded are still moving where they're supposed to.
+**ILYRA:** Still ours. Wounded are moving where they're supposed to. Nobody obvious went down while we were occupied.
 
 A few feet away, the Card lies beside the broken remains of its casing.
+
+Cyanis sees it.
 
 **CYANIS:** The case is done.
 
@@ -160,15 +192,27 @@ A few feet away, the Card lies beside the broken remains of its casing.
 
 **CYANIS:** Card looks intact.
 
-**ILYRA:** Looks intact. That's all we know from here.
+**ILYRA:** Looks intact from here. That's all we know, and I'd like us not to learn more by poking it in the middle of the road.
 
-**CYANIS:** Right.
+**CYANIS:** Strongly agree.
 
 Once Ilyra is satisfied he can move, Cyanis crosses to the broken casing and picks up the Card itself.
 
 It stays dark in his hand.
 
 There is no additional response.
+
+Cyanis waits a second anyway.
+
+**CYANIS:** Nothing.
+
+**ILYRA:** Good. Put it somewhere you can keep it without dropping it and leave `nothing` alone.
+
+**CYANIS:** You really don't like experiments.
+
+**ILYRA:** I like experiments when the subject isn't a tired man standing in a wreck field after being hit by unexplained magic twice.
+
+**CYANIS:** Fair distinction.
 
 ---
 
@@ -182,15 +226,27 @@ Cyanis now carries the intact Card directly.
 
 The casing is gone from continuity.
 
-**CONVOY OFFICER:** We count people first. Whatever that thing is, it can wait until nobody's bleeding in the road.
+**CONVOY OFFICER:** We count people first. Whatever that thing is, it can wait until nobody's bleeding in the road. I don't want anybody deciding surviving the fight made them a scholar.
 
-**CYANIS:** Yeah.
+Cyanis glances at the dark Card.
 
-**ILYRA:** I'll check you properly after we've got the wounded moving. You are not disappearing before then.
+**CYANIS:** Happily.
 
-**CYANIS:** I heard you.
+**ILYRA:** I'll check him properly after we've got the wounded moving. Until then, if he tries to disappear into useful work, send him back.
 
-**ILYRA:** Good.
+Cyanis looks at her.
+
+**CYANIS:** I'm standing right here.
+
+**ILYRA:** Good. Saves time.
+
+The officer almost smiles despite the field around them.
+
+**CONVOY OFFICER:** You heard the Warden.
+
+**CYANIS:** Apparently everyone has.
+
+**ILYRA:** Excellent.
 
 That is enough. The chapter moves back to people rather than lingering on the boss or the Card.
 
@@ -202,6 +258,10 @@ Scene ends.
 
 Riftmaw and the Convoy War-Sorcerer are defeated in the combined final encounter. The second incomplete Card flare has occurred and fully ended. The recovery casing breaks during the fight; the Card survives intact and Cyanis picks it up afterward. From here through P07, camp cleanup, departure, and Chapter 1, the group carries the Card itself. Nobody has identified the phenomenon as Prime, Might, Last Sentinel, bearer confirmation, an ancient weapon, or anything Entity-related.
 
-## Natural-turn rhythm note
+## Person-Brain performance note
 
-The pre-boss exchange remains clipped by danger. After victory, Ilyra and the officer are allowed to complete full practical thoughts instead of breaking every assessment into single-sentence turn trading.
+- danger still compresses the pre-boss dialogue, but Ilyra refuses vague symptom language because precision materially changes her decision.
+- after battle, Cyanis's double-vision joke now produces a full adult boundary from Ilyra: the problem is not offense, it is that joking corrupts the information she needs to keep him safe.
+- Cyanis can recognize the criticism, apologize plainly, and give better information without becoming emotionally confessional.
+- the officer, Ilyra, and Cyanis begin sounding like people who have survived the same terrible afternoon rather than separate functional roles.
+- no Card classification, Prime terminology, or causal explanation is added.
