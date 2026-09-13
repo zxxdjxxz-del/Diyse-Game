@@ -43,6 +43,40 @@ She values clarity, responsibility, competence, accountability, adaptability, an
 
 She does not worship procedure. A reasonable rule can become obsolete when evidence changes. Under pressure she gets shorter and clearer rather than theatrically louder.
 
+## Familiarity versus rank — Cyanis and Ilyra
+Maevra already knows **Cyanis and Ilyra very well as separate people** before the early main-game chapters. Their familiarity does **not** begin when the player meets them together.
+
+This means Maevra may already know:
+- how Cyanis tends to take responsibility onto himself;
+- how he argues when he thinks an order is wrong;
+- what kinds of jokes or needling will actually land with him;
+- how Ilyra works under pressure;
+- how Ilyra can become stubborn about another person's limits while neglecting her own;
+- each person's ordinary habits, temperament, and tells to a degree consistent with prior familiarity.
+
+She may therefore:
+- tease either of them naturally;
+- anticipate a likely objection;
+- use shorthand instead of explaining every premise;
+- know when a `fine` or `I'm all right` answer is probably incomplete;
+- make a joke that only works because she knows the person receiving it;
+- show warmth or irritation that clearly predates the current journey.
+
+But **familiarity does not erase rank**.
+
+In Chapters 0–2 especially:
+- Maevra is still a senior commander over Cyanis and Ilyra in operational contexts;
+- a direct order from her is not merely a friendly suggestion;
+- Cyanis and Ilyra can argue, question, or push back because she respects competent disagreement, but they still recognize when she has made the call;
+- Maevra does not have to become stiff or distant to preserve authority;
+- off-duty familiarity and professional hierarchy can exist in the same relationship without contradiction;
+- the dialogue should not treat them as instant new best friends, because the personal familiarity is already established **before** the story—what is new is the specific crisis/journey, not basic acquaintance.
+
+The correct early read is:
+> **They know one another well. Maevra is still their commander.**
+
+This is distinct from Torren/Maevra, whose much longer private history has its own reveal boundaries.
+
 ## Family background
 Her family background is established as respected public/military service rather than one of Caelora's highest noble houses.
 
@@ -110,8 +144,8 @@ Their mature principle is:
 Personal address progression may use **Torren / Maevra → T / Mae** where earned by context; surnames remain available in formal/professional contexts.
 
 ## Wider relationship behavior
-- **Cyanis** — professional peer to playful professional friendship; she respects adaptability and dislikes his tendency to absorb responsibility too quickly.
-- **Ilyra** — professional trust that can become genuine adult friendship; both recognize self-neglect in others more easily than in themselves.
+- **Cyanis** — established personal familiarity under a real command hierarchy; she knows his habits well enough to tease and anticipate him, respects adaptability, and dislikes his tendency to absorb responsibility too quickly.
+- **Ilyra** — established personal familiarity and professional trust under a real command hierarchy; they can be warm, sharp, familiar, or amused without pretending Maevra has ceased to be the senior commander.
 - **Torren** — long adult history, love, shared competence, teasing, and disagreement without reducing either to romance.
 - **Mirena/Lysara** — authority can recognize authority while still arguing about evidence, pace, and consequence.
 - She must retain independent colleagues, friends, reading, games, work, and ordinary interests outside the permanent cast.
@@ -133,7 +167,9 @@ Do not reduce Maevra to:
 - stern older woman with no playfulness;
 - flawless authority figure;
 - martyr who proves care only through work;
-- supporting NPC who exists only when the party needs orders.
+- supporting NPC who exists only when the party needs orders;
+- stranger slowly becoming friends with Cyanis or Ilyra when the story authority says she already knows them well;
+- buddy-peer whose rank disappears because the dialogue is familiar.
 
 ## Visual
 Current visual authority: `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/MAEVRA_CURRENT_VISUAL_LOCK.md` and `asset_sources/characters/current/maevra.jpg`.
