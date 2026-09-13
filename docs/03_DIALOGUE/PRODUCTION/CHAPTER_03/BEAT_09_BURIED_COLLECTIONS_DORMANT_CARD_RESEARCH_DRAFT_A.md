@@ -1,10 +1,10 @@
 # Chapter 3 — Beat 9
 # Buried Collections / Dormant Card Research
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — NATURAL-TURN RHYTHM PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — PERSON-BRAIN PERFORMANCE PASS
 
 **Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the live situation, research goals, hard findings, recent-reader end state, and reveal firewalls. It was not given a speaker order or one-research-thread-per-character structure.
 
-**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Research owners are allowed to finish linked findings before another speaker enters; short challenge/joke exchanges remain where they arise naturally.
+**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Research owners may finish linked findings before another speaker enters; Nimera may correct, revise, ramble, and be interrupted where her Person Brain actually drives that behavior.
 
 ---
 
@@ -26,7 +26,7 @@ A short authored stop triggers at the first useful Card collection.
 
 Nimera has already rejected several irrelevant volumes before finding one worth keeping open.
 
-**NIMERA:** Here. Twelve years recorded as inert, then visible geometry during a later response. Not the same as yours, but close enough that I don't get to dismiss yours as broken.
+**NIMERA:** Here. Twelve years recorded as inert, then visible geometry during a later response. Not the same as yours—different site, different observer, different description, and the writer uses "awake" three times without defining what the fuck they mean by it—but close enough that I don't get to dismiss yours as broken.
 
 **CYANIS:** Better than nothing.
 
@@ -38,7 +38,11 @@ Ilyra has another volume open nearby.
 
 Nimera reads enough to confirm it.
 
-**NIMERA:** Different account, different place. Still annoyingly close.
+**NIMERA:** Different account, different place. Still annoyingly close. Which is useful. I hate that it's useful.
+
+**CYANIS:** You hate useful things often?
+
+**NIMERA:** Only when they create more categories than they remove.
 
 Torren has not joined the page-by-page discussion. He is looking at the shelving marks on several old cases.
 
@@ -48,15 +52,33 @@ Nimera follows his attention.
 
 A later Yahtrean copy groups older Card material beneath six headings with older marks preserved alongside them.
 
-**NIMERA:** Might. Elements. Grace. Resource. Perception. Ruin. Those names are later; the marks beside them aren't. I would not bet anything valuable on the meanings being identical yet.
+**NIMERA:** Might. Elements. Grace. Resource. Perception. Ruin. Those names are later; the marks beside them aren't. And before anybody says "so those are the ancient meanings," no. They are later labels attached to older marks by somebody who thought the correspondence was good enough to preserve. That's evidence of a comparison, not proof the concepts were identical.
 
-**TORREN:** How valuable?
+**CYANIS:** Nobody said it.
+
+**NIMERA:** You were going to.
+
+**CYANIS:** I was breathing.
+
+**NIMERA:** Suspiciously.
+
+Torren points at the headings.
+
+**TORREN:** How much would you bet the meanings line up?
+
+**NIMERA:** Something replaceable.
+
+**TORREN:** Your book?
+
+Nimera looks offended.
 
 **NIMERA:** Your bow.
 
 **TORREN:** Then no bet.
 
-Nimera keeps the relevant citations rather than turning the discovery into a lecture.
+**NIMERA:** Coward.
+
+She keeps the relevant citations rather than turning the discovery into a lecture.
 
 ### [GAMEPLAY — FOLLOW THE CITATIONS]
 
@@ -74,9 +96,17 @@ She has gone quiet long enough for Cyanis to notice.
 
 **CYANIS:** Found something?
 
-**NIMERA:** Maybe. This text treats the seal and the impression as different things: the mark is what gets left on the document; the authority belongs to the working seal. Then it gets into renewal, maintenance, some specialized keeper practice—right where the useful section goes missing.
+**NIMERA:** Maybe. This text treats the seal and the impression as different things. The impression is the mark left on the document; the authority belongs to the working seal. Then it gets into renewal, maintenance, succession practice, specialized keeper work, and—because the dead apparently enjoy comedy—the useful section is missing.
 
-**CYANIS:** Of course it does.
+**CYANIS:** Of course it is.
+
+**NIMERA:** No, worse. It isn't torn out. The copyist says they omitted it because it was "procedural." Which means somebody deliberately preserved the boring summary and discarded the exact part we need.
+
+**TORREN:** Scholars.
+
+Nimera points at him without looking up.
+
+**NIMERA:** Careful.
 
 Ilyra looks at the damaged continuation.
 
@@ -84,17 +114,21 @@ Ilyra looks at the damaged continuation.
 
 Nimera finds one written in another hand.
 
-**NIMERA:** Yes. This author thought the practice was older than Yahtrea.
+**NIMERA:** Yes. This author thought the practice was older than Yahtrea. Thought, because I can feel Harth waiting to pounce on the verb.
 
-**TORREN:** Thought.
+**TORREN:** Wasn't.
 
-**NIMERA:** Yes. You can stop enjoying that word.
-
-**TORREN:** Haven't started.
+**NIMERA:** You absolutely were.
 
 The referenced older material uses physical seals / authority marks in Diysean civic or administrative contexts, but the surviving material is too incomplete to establish direct lineage to Lysara's current seal.
 
-No one tries to make it do more than that.
+Nimera taps the margin once.
+
+**NIMERA:** This is where we stop. Similar practice, older context, incomplete chain. If I say "ancestor" right now, somebody should hit me with the book.
+
+**ILYRA:** Not with that one.
+
+**NIMERA:** Thank you. Preservation-minded violence. I respect it.
 
 ### [GAMEPLAY — REGIONAL RECORDS]
 
@@ -126,7 +160,7 @@ Torren points out a volume left on a side table and the clean shelf outline wher
 
 Nimera checks the spine.
 
-**NIMERA:** No. Card recovery reports—two rooms back.
+**NIMERA:** No. Card recovery reports—two rooms back. But people shelve badly. Criminally badly, sometimes, but still not evidence of an actual crime.
 
 Torren indicates another book farther down the table.
 
@@ -142,19 +176,33 @@ She looks across the table rather than at Torren now.
 
 **NIMERA:** All right. Shut up for a second.
 
-Cyanis, who had started to speak, closes his mouth.
+Cyanis starts to speak.
+
+**NIMERA:** Especially you.
+
+**CYANIS:** I hadn't said anything.
+
+**NIMERA:** You inhaled like a question.
 
 Nimera checks the page markers and copied references left with the books.
 
-**NIMERA:** Same run of page markers through both.
+**NIMERA:** Same run of page markers through both. Same cut, same cheap red fiber, same fold at the top. Could still be reused by different readers, technically—
+
+**TORREN:** Same stretch of wear around the table too.
+
+Nimera looks where he indicates.
+
+**NIMERA:** Fine. That helps. One recent research trail is now substantially less speculative.
 
 **ILYRA:** One reader?
 
-Torren looks over the recent wear and movement around the shelves and table.
+**NIMERA:** Maybe one. Maybe several sharing the same work. The trail is one. The person is not proven.
 
 **TORREN:** Same stretch of use. Can't give you a person.
 
-**ILYRA:** Don't need one yet.
+**NIMERA:** See? This is why I tolerate him.
+
+**TORREN:** High praise.
 
 Nimera follows a citation from the open Card volume into an older regional index.
 
@@ -164,11 +212,15 @@ Cyanis is beside her now.
 
 **CYANIS:** You're sure it's the same place?
 
-Nimera shows him the regional description rather than answering for his experience.
+Nimera turns the book toward him instead of answering for his own experience.
+
+**NIMERA:** You tell me. Same ridge description, collapsed eastern approach, two surviving chamber markers. If that's not your site, I want to know before I marry the records together and create a very elegant pile of bullshit.
 
 Cyanis reads it.
 
 **CYANIS:** Same place.
+
+**NIMERA:** Good. Then I can marry them a little.
 
 ### [GAMEPLAY — FOLLOW THE RESEARCH PATH]
 
@@ -202,7 +254,11 @@ Ilyra looks over the neighboring open volumes.
 
 Nimera follows the markers between the books.
 
-**NIMERA:** Same trail.
+**NIMERA:** Same trail. Cards, seal practice, Westways site material—no, don't say "same theory." We don't know what theory they had. Same research trail.
+
+**CYANIS:** I wasn't going to say theory.
+
+**NIMERA:** Somebody eventually would have and I was saving time.
 
 Torren looks at the table, then at the surrounding shelves.
 
@@ -222,6 +278,12 @@ Nimera checks the final marked citation.
 
 She looks toward the deeper restricted holdings.
 
+**NIMERA:** Which is either excellent or going to ruin my entire evening.
+
+**CYANIS:** Those can both be true for you, can't they?
+
+**NIMERA:** You're learning.
+
 ### [GAMEPLAY HANDOFF]
 
 Player control returns.
@@ -238,12 +300,11 @@ Transition into:
 
 ## Beat-9 production notes
 
-- The scene was rehearsed from research goals and hard outcomes rather than a prescribed four-thread conversation order.
-- Research remains playable, with a small number of authored stops rather than one long exposition scene.
-- Nimera behaves as a working scholar but does not narrate the catalogue or monopolize every finding; when she owns a linked finding, she is now allowed to complete it before yielding.
+- The scene remains playable research rather than one long exposition cutscene.
+- Nimera now behaves according to her active Person Brain: she corrects category drift before it hardens into group belief, revises her own confidence, swears naturally inside technical reasoning, and sometimes keeps talking until another person has earned the interruption.
 - inactive Cards becoming responsive and green/gold light both gain historical precedent without classifying Cyanis's Card.
-- the Six Faces appear naturally in old Card scholarship; the later Yahtrean names sit beside older marks, preserving uncertainty about exact historical meaning.
+- the Six Faces appear naturally in old Card scholarship; later Yahtrean names sit beside older marks, preserving uncertainty about exact historical meaning.
 - seal research establishes a meaningful distinction between physical impression and magical authority and references older renewal/maintenance practice, but the technique and lineage remain incomplete.
-- the recent-reader mystery emerges through Torren and Nimera initially disagreeing about whether physical disturbance is noteworthy, then converging when the matching page-marker pattern proves deliberate.
-- the final table physically links Card response, luminous behavior, seal traditions, and the Westways discovery site; the dialogue recognizes the shared trail without narrating the full list back to the player.
-- no Prime, Might, Last Sentinel, bearer, Ruby-state, Calder, Cresthaven, or First Command Warden reveal occurs.
+- the recent-reader mystery emerges through Torren and Nimera genuinely disagreeing about what counts as meaningful disturbance, then converging as evidence accumulates.
+- the final table physically links Card response, luminous behavior, seal traditions, and the Westways discovery site without allowing the group to overclaim a shared theory.
+- no future-facing reveal occurs.
