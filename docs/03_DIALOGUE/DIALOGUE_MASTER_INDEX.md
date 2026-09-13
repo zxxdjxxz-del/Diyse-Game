@@ -45,11 +45,11 @@ Retroactive rhythm audit tracker:
 
 **Retroactive Chapters 0–3 natural-turn rhythm audit status: COMPLETE.**  
 **Retroactive Chapters 0–3 spoken-dialogue / narration audit status: COMPLETE.**  
-**Mature-adult speech / profanity audit status: Chapter 0 CURRENT; Chapters 1–3 to be included in the active character/ensemble re-audit rather than treated as a mechanical profanity-insertion pass.**
+**Mature-adult speech / profanity audit status: Chapters 0–1 CURRENT; Chapters 2–3 to be included in their active character/ensemble re-audits rather than treated as mechanical profanity-insertion passes.**
 
 ### Person-Brain performance state
 
-The newer Person-Brain performance standard is current across Chapter 0, Chapter 1, and all Chapter-3 atomic dialogue. Chapter 2's completed natural-turn / spoken-dialogue production is retained as current and was not reopened merely to rename the pass.
+The newer Person-Brain performance standard is current across Chapter 0, Chapter 1, and all Chapter-3 atomic dialogue. Chapter 1 has also completed the newer final ensemble character-balance pass under the current Cyanis, Ilyra, Torren, and Maevra rules. Chapter 2 retains its completed natural-turn/spoken-dialogue production plus the newer Torren social-comfort correction and still requires the full four-character ensemble pass.
 
 The Person-Brain standard means:
 - topic owners may hold the floor through a complete thought;
@@ -72,7 +72,15 @@ Current Ilyra guardrail:
 
 Ilyra is not automatically assigned the medical, safety, food/sleep, emotional-interpreter, relationship-reader, caretaker, or moral-referee line. Medical expertise owns a turn when the scene genuinely requires it; humor, curiosity, irritation, profanity, uncertainty, gossip, and ordinary opinion are equally valid reasons for her to speak.
 
-Chapter 3 is now the first fully closed chapter where the **Nimera Person-Brain pass and the later Ilyra role-balance pass are both explicitly complete in sequence**. The Nimera work was preserved; Ilyra was then re-audited under her later character guardrail rather than leaving the earlier safety/caretaker assignments in place.
+Current Torren guardrail:
+> **Sparse is an early-state tendency, not a permanent voice quota. Expertise is not a dialogue assignment.**
+
+Torren may remain concise by temperament and state, but Chapter 1 now explicitly begins his social opening and Chapter 2 must continue it rather than resetting him to one-word route-guide mode.
+
+Current Maevra guardrail:
+> **They know one another well. Maevra is still their commander. Command is not a dialogue assignment.**
+
+Maevra already knows Cyanis and Ilyra well before the main-game journey. Rank remains real in operations, while off-duty dialogue increasingly reveals Maevra as an actual friend with humor, gossip, profanity, competition, bad-fiction tastes, food opinions, and ordinary social life.
 
 Walking-dialogue lock:
 - `AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`
@@ -102,7 +110,7 @@ Retired/superseded development IDs do not reserve numbers. Some atomic filenames
 | Chapter | Current status | Chapter-level dialogue authority |
 |---|---|---|
 | Ch0 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + CYANIS CHARACTER AUDIT + ILYRA ROLE-BALANCE + MATURE-ADULT SPEECH/PROFANITY + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT** — P01–P07 + optional C01; atomic files current, combined read-through stale for revised scenes | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` |
-| Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT; FINAL ENSEMBLE + MATURE-ADULT SPEECH RE-AUDIT STILL NEEDED UNDER NEWER CHARACTER RULES** — Beats 1–15 + C02/C03/C04; atomic files current, combined read-through stale where flagged | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` |
+| Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + FINAL ENSEMBLE CHARACTER-BALANCE + ILYRA ROLE-BALANCE + MATURE-ADULT SPEECH/PROFANITY + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT** — Beats 1–15 + C02/C03/C04; atomic files current, combined read-through stale where flagged | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` |
 | Ch2 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN + SPOKEN-VS-NARRATION + TORREN SOCIAL-COMFORT CURRENT; FULL ENSEMBLE + ILYRA + MATURE-ADULT SPEECH RE-AUDIT STILL NEEDED** — Beats 1–16 + C05 | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` |
 | Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE COMPLETE ACROSS BEATS 1–15 + C07; C06 CURRENT/INTENTIONALLY ILYRA-FREE; CLOSING INTEGRATION + NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE; TORREN SOCIAL-PROGRESSION + MATURE-ADULT SPEECH RE-AUDIT STILL NEEDED** — atomic files current, combined read-through stale | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` |
 
@@ -155,23 +163,34 @@ Canonical Character-Life scenes:
 - **C04 — Not Professionally**.
 
 Person-Brain performance: **CURRENT.**  
+Final ensemble character-balance audit: **COMPLETE.**  
+Ilyra role-balance: **CURRENT.**  
+Mature-adult speech / profanity audit: **COMPLETE.**  
 Natural-turn audit: **COMPLETE.**  
-Spoken-dialogue / narration audit: **COMPLETE.**  
-Mature-adult speech / profanity audit: **to be integrated into the pending final ensemble character-balance pass.**
+Spoken-dialogue / narration audit: **COMPLETE.**
 
-Ilyra role-balance correction is current across the main pressure points. Her medical expertise remains available when genuinely needed, but she is no longer the default post-battle checker, food/sleep monitor, relationship reader, or human-consequence narrator.
+The final ensemble pass checked Cyanis, Ilyra, Torren, and Maevra together so a correction to one character did not simply push a functional line onto somebody else.
 
-The pending ensemble pass must also preserve current Maevra authority: she already knows Cyanis and Ilyra very well as separate people, while remaining their senior commander. Familiarity permits shorthand, teasing, bluntness, and natural profanity; it does not make them equal-rank best friends during operations.
+Key final-ensemble results:
+- **Cyanis:** leadership remains real but is not his automatic reason to speak; he is not reduced to exposition-question feed, infallible commander, or plot-synthesis device.
+- **Ilyra:** the newer `Grace is not a dialogue assignment` rule is active across the chapter; Beat 11 loses the unnecessary agency-management line and Beat 12 loses the automatic safety veto.
+- **Torren:** Chapter 1 now clearly starts his social opening rather than reserving all longer/warmer behavior for route expertise. Late chapter banter, dinner, laughter, profanity, and recreational argument lead naturally into his more comfortable Chapter-2 state.
+- **Maevra:** she already knows Cyanis and Ilyra well; Beat 1's stale new-acquaintance line is removed. She remains their senior commander when operations demand it while becoming increasingly audible as a genuine friend off duty.
 
-Spoken-vs-narration material revisions:
+Additional continuity corrections from this pass:
+- Beat 11 no longer exposes the exact `twenty-five years` of Maevra/Torren history;
+- C02 `Torren's Version of Dinner` no longer references Nimera before the party meets her in Chapter 3;
+- Maevra no longer says `I like her` about Ilyra as though their friendship begins in Chapter 1.
+
+Ilyra's medical expertise remains available when genuinely needed, but she is no longer the default post-battle checker, food/sleep monitor, relationship reader, safety veto, consent/agency manager, or human-consequence narrator.
+
+Maevra's current early-story relationship rule is:
+> **familiarity plus hierarchy**
+
+She can tease Cyanis and Ilyra, know their habits, swear around them, gossip, and relax into actual friendship while still issuing real orders that carry rank.
+
+Spoken-vs-narration material revisions remain in force:
 - Beats **1, 3, 5, 6, 7, 10, 11, 14**.
-
-Key result:
-- new-listener Card briefings are consequence-first rather than replayed chronologically;
-- Hollow Watch occupation/excavation staging carries information the environment can show;
-- the six-channel relief and mural stay visual-first instead of being read aloud as checklists;
-- the Hollow Watch resolution reports what Greenhollow needs, not the chapter back to the people who lived it;
-- the hidden monument's cartographic surface is interpreted immediately instead of being announced to the player, and the Six Face exchange asks what the marks might mean rather than describing their visible placement first.
 
 Protected **C03** anchor remains exact:
 - Cyanis: `Old slut?`
