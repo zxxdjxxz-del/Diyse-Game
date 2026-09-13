@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 8
 # Forced Inner Section
-## DIALOGUE ENGINE PRODUCTION DRAFT E — chapter-wide dialogue polish + established gameplay presentation / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 ---
 
@@ -34,19 +34,33 @@ At the established damaged doorway/breach, player movement pauses.
 
 The relevant characters may appear as simple field models. The broken access itself is the only visual this exchange needs.
 
+Cyanis looks at the intact sealed portion, then the ugly damage beside it.
+
 **CYANIS:** They didn't open it.
 
-**MAEVRA:** No.
+**MAEVRA:** No. They accepted losing the argument with the door and started one with the wall.
 
-**TORREN:** Went around it.
+Torren studies the bypass.
+
+**TORREN:** Went around the frame where the older stone meets the later repair. Weakest part they could actually reach.
 
 **ILYRA:** Subtle.
 
 **MAEVRA:** Worked.
 
-A beat.
+Cyanis looks through the breach.
 
-**CYANIS:** That's the problem.
+**CYANIS:** That's the problem. Somebody willing to spend this much time getting around a locked door usually thinks the room on the other side matters.
+
+**TORREN:** Or somebody ordered them not to come back without trying.
+
+**MAEVRA:** Still not the same thing.
+
+**CYANIS:** No. Either one makes me want to know what stopped them.
+
+**ILYRA:** Preferably before it tries to stop us.
+
+**TORREN:** Good preference.
 
 Scene ends.
 
@@ -96,17 +110,69 @@ A large ancient shape is integrated into the far architecture.
 
 Do not identify it yet.
 
+Nobody crosses the threshold immediately.
+
 **CYANIS:** This where they stopped?
 
-**TORREN:** Looks like.
+Torren looks at the end of the Host damage and the intact space ahead.
+
+**TORREN:** Looks like. No forcing past this point that I can see.
 
 **ILYRA:** Anything moving?
 
 A beat.
 
+Cyanis watches the integrated shape.
+
 **CYANIS:** Not yet.
 
-**MAEVRA:** Get ready before it does.
+Maevra looks at the room rather than the object alone.
+
+**MAEVRA:** Then use the gift. Catch your breath, check yourselves, and get ready before `not yet` expires.
+
+Ilyra looks at Cyanis.
+
+**ILYRA:** Any dizziness?
+
+**CYANIS:** No.
+
+**ILYRA:** Numbness?
+
+**CYANIS:** No.
+
+**ILYRA:** Good.
+
+Torren glances at them.
+
+**TORREN:** This a normal conversation now?
+
+**CYANIS:** Apparently.
+
+**ILYRA:** It becomes normal when he answers correctly the first time.
+
+**CYANIS:** I'm very trainable.
+
+**TORREN:** Doubt it.
+
+Cyanis looks at him.
+
+**CYANIS:** You met me this morning.
+
+**TORREN:** Enough data.
+
+Maevra laughs under her breath.
+
+**MAEVRA:** Oh, this is going to get worse.
+
+**CYANIS:** For whom?
+
+**MAEVRA:** Yes.
+
+The humor stops when attention returns to the chamber.
+
+**TORREN:** Ready when you are.
+
+**CYANIS:** Let's find out what `not yet` means.
 
 Scene ends.
 
@@ -139,16 +205,9 @@ Next mandatory story beat: **Beat 9 — Hollow Watch Castellan.**
 
 ---
 
-## Presentation / dialogue check
+## Person-Brain performance note
 
-**Traversal:** Cyanis only during ordinary inner-ruin exploration.
-
-**Triggered scenes:** the relevant cast may appear for the forced-door stop and Castellan threshold.
-
-**Dialogue:** portraits + dialogue box carry most performance.
-
-**Random encounters:** no ordinary enemy is converted into a scripted battle or activation.
-
-**Relationship timing:** the old optional bark containing `I liked you better before the fort / You liked me for about six minutes` has been removed. It pushed Cyanis/Torren into their later sharper register before the relationship had earned it and weakened C04's role as an early boundary-breaking moment.
-
-**Reduction:** no repeated wall/machinery inspection, route-detail lists, pre-boss floor checking, weapon adjustments, formation readiness, repeated looking/pointing, or unnecessary post-random-encounter scene.
+- the forced-door scene now sounds like four people interpreting the same physical problem from different habits without overexplaining the visible breach.
+- Maevra can make a dry metaphor, Torren reads the material relationship, Ilyra anticipates consequence, and Cyanis follows the motive question without pretending to resolve it.
+- the threshold scene gives the group a human pre-boss breath without adding movement choreography or early deep friendship.
+- Ilyra's symptom check is now a recurring lived interaction rather than a plot reminder, and Torren notices that pattern naturally.
