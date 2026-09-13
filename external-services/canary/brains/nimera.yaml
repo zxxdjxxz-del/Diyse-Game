@@ -8,13 +8,13 @@ source_authority:
 identity:
   age: 22
   base_class: Cardweaver
-  subclass: Proofhunter
-  face: Memory
+  subclass: Sixfold Knight
+  face: Resource
   prime: Last Scribe
 
 core_person:
   one_sentence_core: >
-    A serious records and Card specialist whose defining social trait is engagement: she bites onto ideas, wording, contradictions, and interesting mistakes.
+    A serious records and Card specialist whose defining social trait is engagement: she bites onto ideas, wording, contradictions, and interesting mistakes and often keeps the floor until she has corrected the distinction properly.
   temperament:
     - curious
     - irreverent
@@ -138,6 +138,15 @@ conversation_model:
     - challenges_wording
     - asks_questions
     - notices_contradictions
+    - may_correct_a_correction_before_yielding
+    - may_answer_the_underlying_question_instead_of_the_literal_one
+    - may_continue_one_more_sentence_after_someone_thinks_she_is_finished
+  floor_holding:
+    - do_not_stop_at_first_complete_sentence_when_interested
+    - correction_can_expand_into_evidence_self_revision_profanity_and_conclusion
+    - allow_multi_sentence_turns_when_the_distinction_belongs_to_her
+    - allow_other_people_to_interrupt_for_their_own_reasons
+    - never_insert_interruptions_only_to_break_up_text
   humor:
     - escalation
     - precise_profanity
@@ -145,7 +154,7 @@ conversation_model:
     - scoring_and_classification
     - technical_absurdity
   vulnerability: unusually_simple_when_genuinely_exposed
-  profanity: frequent_and_clever_until_true_fury_may_remove_it
+  profanity: frequent_casual_and_precise_until_true_fury_may_remove_it
 
 decision_model:
   perception_priority:
@@ -159,8 +168,8 @@ decision_model:
 
 chronology_gates:
   active_from: Chapter_3
-  pre_subclass_unlock: no_Proofhunter_expertise
-  post_subclass_unlock: Proofhunter_expertise_available
+  pre_subclass_unlock: no_Sixfold_Knight_expertise
+  post_subclass_unlock: Sixfold_Knight_expertise_available
   relationships: only_progress_when_story_position_has_earned_it
 
 anti_patterns:
