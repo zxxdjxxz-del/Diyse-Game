@@ -1,6 +1,6 @@
 # Chapter 0 — P02
 # Wreck Field
-## REHEARSAL-FIRST QUICK-PASS DRAFT A — awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 ---
 
@@ -24,17 +24,25 @@ A wounded escort calls Cyanis over. The relevant NPC can appear for the scene.
 
 **CYANIS:** Where?
 
-**WOUNDED ESCORT:** Two by the axle. One under the canvas.
+**WOUNDED ESCORT:** Two by the axle. One under the canvas. I can get to the first two.
 
-**CYANIS:** Can you stand?
+Cyanis sees the way the escort is favoring one leg.
+
+**CYANIS:** Can you stand without lying to me?
+
+The escort tests the leg once.
 
 **WOUNDED ESCORT:** Enough.
 
-**CYANIS:** Get the two by the axle behind the stone line. Don't lift anyone you can't.
+**CYANIS:** Fine. Get the two by the axle behind the stone line. Don't lift anyone you can't move cleanly; if one of them goes down, shout and leave them where they are until I get back.
 
 **WOUNDED ESCORT:** The one under the canvas?
 
 **CYANIS:** Mine.
+
+**WOUNDED ESCORT:** You're one person.
+
+**CYANIS:** I noticed. Go.
 
 Scene ends.
 
@@ -52,13 +60,15 @@ At the damaged wagon, a civilian is trying to reach a trapped relative.
 
 **CYANIS:** Don't get under the frame.
 
-**CIVILIAN:** He's right there.
+**CIVILIAN:** He's right there. I can reach him.
 
-**CYANIS:** I know.
+**CYANIS:** And if the axle shifts, I get two people under it instead of one. Stay where I can see you.
 
-A beat.
+The civilian looks at the trapped man again.
 
-**CYANIS:** Help me pull him clear.
+**CIVILIAN:** We can't leave him.
+
+**CYANIS:** We're not leaving him. Help me pull him clear from this side.
 
 The rescue is represented with one simple authored interaction/state change. No rope puzzle, staged lifting sequence, repeated debris handling, or cinematic rescue montage is required.
 
@@ -66,11 +76,13 @@ Afterward:
 
 **CIVILIAN:** He's breathing.
 
-**CYANIS:** Keep him on his side. If that changes, shout.
+**CYANIS:** Good. Keep him on his side. If the breathing changes, if he wakes confused, if he starts choking—shout. Don't try to move him again by yourself.
 
 **CIVILIAN:** You're leaving?
 
-**CYANIS:** Not far.
+Cyanis is already looking back toward the rest of the wreck field.
+
+**CYANIS:** Not far enough that I won't hear you.
 
 Scene ends.
 
@@ -82,11 +94,13 @@ As survivors begin moving:
 
 **WOUNDED ESCORT:** Middle road's faster.
 
-**CYANIS:** Not if that wagon comes down.
+**CYANIS:** Until that wagon comes down across it.
 
-**WOUNDED ESCORT:** Stone line, then.
+**WOUNDED ESCORT:** Think it will?
 
-**CYANIS:** Stone line.
+**CYANIS:** Don't know. Don't need to find out with wounded underneath it. Stone line.
+
+**WOUNDED ESCORT:** Stone line.
 
 The area itself shows why the center route is unsafe. No second explanation is needed.
 
@@ -120,37 +134,47 @@ After the encounter, the convoy officer reaches Cyanis's side of the wreck field
 
 **CONVOY OFFICER:** North side's pulling back.
 
+Cyanis looks past him toward the withdrawal.
+
 **CYANIS:** I see it.
 
 **CONVOY OFFICER:** Looks like they're breaking.
 
-A beat.
-
 **CYANIS:** Maybe.
 
-**CONVOY OFFICER:** What?
+The officer catches the hesitation.
 
-**CYANIS:** The cut.
+**CONVOY OFFICER:** You're still on the road.
 
-**CONVOY OFFICER:** What about it?
-
-**CYANIS:** Everything else is choked. That one's clean.
-
-A beat.
-
-**CONVOY OFFICER:** They could've cleared it for themselves.
-
-**CYANIS:** Could've.
+**CYANIS:** Everything else is choked with wreckage or bodies. That north cut is clean enough to march through. Maybe they cleared it for themselves. Maybe they want us to notice it.
 
 **CONVOY OFFICER:** You think it's bait.
 
-**CYANIS:** I think they want us looking north.
+**CYANIS:** I think I don't know yet, and chasing people through the one convenient gap they left us is a stupid way to learn.
+
+The officer looks north, then back over the wreck field.
+
+**CONVOY OFFICER:** They're still getting away.
+
+**CYANIS:** I know.
+
+A beat.
 
 The officer does not accept the hypothesis as fact.
 
-**CONVOY OFFICER:** Relay. Bring me the field when you get there.
+**CONVOY OFFICER:** Relay. Bring me the whole field when you get there. Casualties, who can still fight, and whether that cut still bothers you once you've looked at something besides it.
 
-**CYANIS:** On my way.
+**CYANIS:** Fair.
+
+**CONVOY OFFICER:** That wasn't an invitation to feel vindicated.
+
+**CYANIS:** Wasn't planning to.
+
+The officer gives him a look.
+
+**CYANIS:** Mostly.
+
+**CONVOY OFFICER:** Go.
 
 Scene ends.
 
@@ -168,12 +192,10 @@ Next: **P03 — Evacuation Relay Decision.**
 
 ---
 
-## Quick-pass check
+## Person-Brain performance note
 
-**Human cost:** shown through bounded rescue work rather than a long casualty montage.
-
-**Cyanis:** practical and useful without becoming a medical specialist.
-
-**Knowledge:** the northern-cut read remains a hypothesis.
-
-**Presentation:** one required rescue interaction and one explicit Hound encounter; no unnecessary physical micro-choreography.
+- crisis rescue language remains fast, but Cyanis now gives enough of his reasoning that civilians and escorts can actually act on it rather than functioning as prompt/response devices.
+- Cyanis remains competent without becoming a medical specialist; his rescue instructions are basic field safety, not diagnosis.
+- the officer recognizes Cyanis's fixation on the clean north cut and deliberately asks him to bring a broader field picture before the decision.
+- the northern-cut read remains explicitly uncertain.
+- no story outcome, Card state, or encounter structure changes.
