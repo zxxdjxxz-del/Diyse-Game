@@ -1,6 +1,6 @@
 # Chapter 2 — Beat 6
 # Western Map Mural
-## CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT
+## CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN + SPOKEN/NARRATION + ENSEMBLE CHARACTER-BALANCE PASS
 
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Hard continuity:** the mural is intact and coherent; it is one western section of a larger system. The small northern structure bears the exact modern Crest of Yahtrea. Its meaning remains unknown.
@@ -147,25 +147,43 @@ Short dialogue may cover the work:
 
 ---
 
-### [PEOPLE FIRST]
+### [LEAVE IT FOR LATER]
 
 Once the practical copy is complete, Cyanis gives the mural one last look.
 
-**CYANIS:** We're coming back to this.
+**CYANIS:** We're coming back to this. After the people we came for.
 
-**ILYRA:** Later. People first.
+**ILYRA:** Good. I'd like another look when I'm not standing around in wet socks.
 
-**TORREN:** Agreed.
+Torren looks down at his own boots.
+
+**TORREN:** Fair.
+
+**MAEVRA:** Beautiful. Ancient mystery defeated by damp feet. Move.
+
+Ilyra starts toward the route out.
+
+**ILYRA:** You laugh. Your boots aren't dry either.
+
+**MAEVRA:** I have rank. It keeps the water respectful.
+
+**CYANIS:** Is that how that works?
+
+**TORREN:** No.
+
+**MAEVRA:** Harth, nobody asked you.
 
 **Objective:** Explore the Archive depths.
 
 ---
 
-## Audit check
+## Ensemble audit check
 
-- The mural itself gets the first word visually; Cyanis and Ilyra no longer announce `That's a map / Looks like one` after the player has already seen a wall-scale map.
-- The discovery remains a real evidence-analysis scene: Torren, Ilyra, and Maevra may explain route relationships and uncertainty because those are new interpretations, not visible inventory.
-- The Caelora/Crest and panel-edge deductions remain because they materially advance what the party knows.
-- The closing priority beat does not repeat `later / people first / people first` across four speakers after the decision is already clear.
+- The mural itself gets the first word visually; the cast interprets relationships rather than announcing visible inventory.
+- Torren owns route/cartographic interpretation because the scene genuinely activates his expertise, but he remains socially present around that work.
+- Ilyra contributes through visual comparison, evidence caution, curiosity, and an ordinary complaint about being soaked; she is **not** assigned the generic `people first` / human-consequence line merely because Grace exists on her character sheet.
+- Cyanis states the rescue priority himself because it is his own current commitment, not because Ilyra needs to function as his conscience.
+- Maevra retains operational authority while also joking as a familiar adult member of the group; rank does not confine her to mission summaries.
+- Adult register remains natural without profanity being inserted by quota.
 - Kidnapped people remain the immediate priority.
 - No story or reveal outcome changed.
