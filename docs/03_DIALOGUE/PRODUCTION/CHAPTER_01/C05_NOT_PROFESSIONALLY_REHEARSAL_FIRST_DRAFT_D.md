@@ -1,6 +1,6 @@
 # Chapter 1 — Character-Life C05
 # Not Professionally
-## REHEARSAL-FIRST PRODUCTION DRAFT D — NATURAL-TURN RHYTHM PASS / awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS + RELATIONSHIP-REVEAL GATE
 
 ---
 
@@ -14,7 +14,9 @@ Ilyra is changing the field splint on Maevra's broken arm. The fracture happened
 
 Ilyra can use restrained Warden/healing magic to reduce pain and ease surrounding strain, but **magic cannot mend the broken bone**.
 
-The medical task gives them a natural reason to sit together. The conversation about Torren emerges from the quiet rather than becoming an interview or relationship briefing.
+The medical task gives them a natural reason to sit together. Ilyra's curiosity about Torren emerges from what she has actually watched all chapter: Maevra and Torren know one another extremely well, argue constantly, and anticipate each other's habits with suspicious ease.
+
+**Chapter-1 reveal gate:** this scene may confirm that Torren matters personally to Maevra and that their history is deeper than ordinary colleagues. It must **not** reveal the exact duration of their history, enlistment ages, that they were lovers, the shape of their past relationship, any breakup history, or whether either currently describes the other romantically.
 
 Because this is camp, both may be physically present as field models. One old-splint/new-splint state change and one restrained magic effect are sufficient. Portraits and the dialogue box carry the performance.
 
@@ -50,7 +52,19 @@ Ilyra continues.
 
 A beat.
 
+Maevra looks at her.
+
 **MAEVRA:** That's annoyingly fair.
+
+**ILYRA:** I get that a lot.
+
+**MAEVRA:** From Dovaren?
+
+**ILYRA:** Mostly from people with bad habits.
+
+**MAEVRA:** So Dovaren.
+
+Ilyra almost smiles and keeps working.
 
 ---
 
@@ -64,13 +78,17 @@ Maevra lets out a breath she had been holding.
 
 **MAEVRA:** Better. Bone still broken, I assume.
 
-**ILYRA:** Still broken. The magic can settle some of the pain and strain around it; it cannot negotiate with the bone.
+**ILYRA:** Still broken. I can settle some of the pain and strain around it. I cannot convince bone that time is optional.
 
-**MAEVRA:** Had to ask.
+**MAEVRA:** Shame. I had plans for that answer.
 
-**ILYRA:** You're going to ask every time, aren't you?
+**ILYRA:** You've been behaving like you already got it.
 
-**MAEVRA:** Until you give me a better answer.
+**MAEVRA:** I've been behaving like I have duties.
+
+**ILYRA:** Those are not mutually exclusive with having a fracture.
+
+**MAEVRA:** They are inconveniently adjacent.
 
 Ilyra starts setting the fresh splint.
 
@@ -80,119 +98,153 @@ Ilyra starts setting the fresh splint.
 
 For a while, neither of them speaks.
 
-Then:
+Then Ilyra says it without looking up.
 
-**ILYRA:** You and Torren.
+**ILYRA:** You and Torren are strange.
 
-Maevra waits.
+Maevra waits a beat.
 
 **MAEVRA:** That's not a question.
 
-**ILYRA:** I'm working on it. How long have you known him?
+**ILYRA:** I wasn't sure I wanted one yet.
 
-**MAEVRA:** Twenty-five years. Near enough since enlistment—he was seventeen, I was sixteen. We weren't together then, if that's your next question.
+**MAEVRA:** Sensible.
 
-Ilyra pauses for half a second.
+Ilyra tightens one wrap.
 
-**ILYRA:** It was eventually.
+**ILYRA:** You argue like you've already had every version of the argument before.
 
-**MAEVRA:** Eventually.
+**MAEVRA:** Usually have.
 
-Ilyra resumes the splint.
+**ILYRA:** And you both know exactly when the other one's about to be difficult.
 
-**ILYRA:** For long?
+**MAEVRA:** Torren is always about to be difficult. That's not special knowledge.
 
-Maevra thinks.
+**ILYRA:** He'd say the same about you.
 
-**MAEVRA:** Depends how you count it. We were together, then we weren't, then we'd end up in the same place again and discover we'd been very bad at staying finished.
+**MAEVRA:** Then he'd be wrong in a very familiar way.
 
-**ILYRA:** That's promisingly complicated.
+Ilyra looks up now.
 
-**MAEVRA:** It wasn't dramatic. Not usually. We had jobs, different posts, different roads. Sometimes months became years because that was simply where life put us.
+**ILYRA:** So you've known him a while.
 
-Ilyra laughs once.
+Maevra gives her a look.
 
-**ILYRA:** You sound disappointed that I'm not getting a scandal.
+**MAEVRA:** Long enough.
 
-**MAEVRA:** You sounded hopeful.
+**ILYRA:** That's deliberately useless.
 
----
+**MAEVRA:** Yes.
 
-### [WHAT HAPPENED]
-
-Ilyra works in silence for a little while.
-
-**ILYRA:** No betrayal, then. No terrible final fight.
-
-**MAEVRA:** No betrayal. Plenty of terrible fights, but not that kind. Mostly we stopped because distance made sense at the time, and then we'd meet again and make less sense.
-
-A beat.
-
-**ILYRA:** Exhausting.
-
-**MAEVRA:** Sometimes. Mostly it was nice.
-
-Ilyra leaves that alone for a moment.
+Ilyra accepts that for the moment and goes back to the splint.
 
 ---
 
-### [NOW]
+### [THE ARGUMENT]
 
-**ILYRA:** Are you together now?
+A little silence.
 
-Maevra is quiet.
+**ILYRA:** You looked ready to kill him twice today.
 
-**MAEVRA:** No. Not really.
+**MAEVRA:** Only twice?
 
-**ILYRA:** That's different from no.
+**ILYRA:** I stopped counting after Hollow Watch.
 
-**MAEVRA:** I know.
+Maevra laughs once and immediately regrets what it does to her arm.
 
-Ilyra adjusts the fresh splint.
+**MAEVRA:** Fuck.
 
-Maevra winces.
+**ILYRA:** Don't laugh with the shoulder.
 
-**ILYRA:** Sorry. That one I mean more.
+**MAEVRA:** I'll schedule it properly next time.
 
-**MAEVRA:** I noticed.
+Ilyra waits until Maevra settles.
 
-The work continues.
+**ILYRA:** Do you actually dislike each other?
 
-Then Ilyra asks the question she has actually been circling.
+That gets a real pause.
 
-**ILYRA:** Do you still love him?
+**MAEVRA:** No.
 
-Maevra takes a moment.
+Ilyra waits.
 
-**MAEVRA:** Yeah. I do. That doesn't automatically mean we should be together, and neither of us needs the other one to pretend otherwise.
+Maevra notices.
 
-No explanation follows immediately.
+**MAEVRA:** Oh, absolutely not. You don't get more just because you left silence there.
 
-Ilyra keeps working.
+**ILYRA:** Worth trying.
 
-After a while:
+**MAEVRA:** He thinks if the ground tells you a plan is stupid, you change the plan. Immediately. No sentiment, no pride, no arguing with a washed-out road.
 
-**ILYRA:** Does he know?
+**ILYRA:** Sounds reasonable.
 
-**MAEVRA:** He knows.
+**MAEVRA:** It is. That's the irritating part. Then he tries to apply the same philosophy to everything else.
 
-**ILYRA:** All right.
+**ILYRA:** And you don't.
 
-Maevra glances at her.
+**MAEVRA:** I think sometimes the road is bad and somebody still has to get to the other end of it.
 
-**MAEVRA:** That's it?
+Ilyra considers that.
 
-**ILYRA:** What else am I supposed to do with it? You're not asking me to solve anything.
+**ILYRA:** Duties.
+
+**MAEVRA:** Duties.
 
 A beat.
 
-Maevra smiles.
+**ILYRA:** You two must be exhausting together.
 
-**MAEVRA:** Nothing. I like you.
+**MAEVRA:** We are extremely efficient at it.
 
-**ILYRA:** I'm about to tighten this.
+---
 
-**MAEVRA:** Taking it back.
+### [A LITTLE MORE]
+
+Ilyra works another wrap into place.
+
+**ILYRA:** He's not just an old colleague.
+
+Maevra goes still for a fraction of a second.
+
+Not defensive. Just caught.
+
+**MAEVRA:** No.
+
+Ilyra waits again.
+
+Maevra looks at her.
+
+**MAEVRA:** Don't get greedy.
+
+**ILYRA:** I wasn't going to ask how.
+
+**MAEVRA:** You were absolutely going to ask how.
+
+**ILYRA:** Eventually.
+
+That gets the smallest smile out of Maevra.
+
+**MAEVRA:** He matters to me. More than is convenient sometimes. That's your little piece of gossip. Spend it responsibly.
+
+Ilyra nods once.
+
+**ILYRA:** I can do that.
+
+**MAEVRA:** Good.
+
+A beat.
+
+**ILYRA:** Still want to know the rest.
+
+**MAEVRA:** Also good. Wanting builds character.
+
+**ILYRA:** That's cruel.
+
+**MAEVRA:** I'm a commander.
+
+**ILYRA:** You're a patient.
+
+**MAEVRA:** Temporary demotion.
 
 ---
 
@@ -206,11 +258,15 @@ Maevra moves them.
 
 **MAEVRA:** There.
 
-**ILYRA:** Good. That's sitting better. Keep it that way.
+**ILYRA:** Good. That's sitting better. Keep it that way, which means stop inventing reasons the arm somehow isn't involved in what you're doing.
 
-**MAEVRA:** Done?
+**MAEVRA:** What if the reason is excellent?
 
-**ILYRA:** Done.
+**ILYRA:** Still broken.
+
+**MAEVRA:** Very rigid system you have here.
+
+**ILYRA:** Bone is conservative.
 
 Maevra settles the arm carefully.
 
@@ -234,7 +290,7 @@ Ilyra starts to go.
 
 **MAEVRA:** Thanks.
 
-Ilyra knows she means more than the splint and chooses not to make her say it.
+Ilyra knows better than to decide aloud which part Maevra means.
 
 **ILYRA:** Don't use the arm.
 
@@ -244,12 +300,14 @@ Scene ends.
 
 ---
 
-## Natural-turn / character check
+## Person-Brain / reveal-boundary check
 
-- Ilyra and Maevra now hold the floor through complete adult thoughts rather than conducting a one-question/one-sentence interview.
-- Maevra's relationship history is still imperfect, intermittent, and ordinary rather than delivered as a neat romance thesis.
-- Ilyra remains curious but does not diagnose, counsel, or tell Maevra what the relationship means.
-- Maevra still loves Torren and says he knows; the scene does not state Torren's private feelings for him.
-- Relationship continuity remains: they knew each other around enlistment twenty-five years ago, Torren seventeen and Maevra sixteen; romance came later; no betrayal or bitter final breakup.
-- The fracture remains broken; Warden magic only reduces pain/strain.
-- No story or relationship-state outcome changed.
+- Ilyra and Maevra hold the floor through complete adult thoughts rather than conducting a question-and-answer biography interview.
+- Ilyra notices the obvious: Maevra and Torren have deep familiarity, argue with old-married-couple ease, and matter to one another in ways ordinary colleagues usually do not.
+- Maevra confirms only **two** things: she has known Torren `long enough`, and **he matters to her more than is sometimes convenient**.
+- the scene does **not** reveal twenty-five years, enlistment ages, former romance, sex, breakup history, repeated reunions, whether they were ever officially together, or Torren's private feelings.
+- their Chapter-1 surface read remains intentionally ambiguous: they may even look as though they do not get along particularly well because both are stubborn and their disagreements are easy and practiced.
+- Maevra's duty-stubbornness and Torren's ground-truth stubbornness are allowed to explain some of their friction without explaining their past.
+- Ilyra remains curious but does not diagnose, counsel, or force disclosure.
+- the fracture remains broken; Warden magic only reduces pain/strain.
+- no story outcome changes.
