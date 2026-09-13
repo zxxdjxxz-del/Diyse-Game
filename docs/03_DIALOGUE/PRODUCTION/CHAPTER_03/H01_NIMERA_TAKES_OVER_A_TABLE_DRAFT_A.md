@@ -1,8 +1,8 @@
 # Chapter 3 — Character-Life H01
 # Nimera Takes Over a Table
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL
+## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — PERSON-BRAIN PERFORMANCE PASS
 
-**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the Cresthaven cleanup state, the fact that Nimera has already expanded across most of the communal worktable, the two exact user-locked Cyanis/Torren lines, the low-stakes ending state, and reveal firewalls. It was not given the older structural packet's recommended joke order or conversational choreography.
+**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md` and `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. The rehearsal received the Cresthaven cleanup state, the fact that Nimera has already expanded across most of the communal worktable, the two exact user-locked Cyanis/Torren lines, the low-stakes ending state, and reveal firewalls. It was not given a required joke order or conversational choreography.
 
 ---
 
@@ -34,15 +34,15 @@ She looks up.
 
 A beat.
 
-Then she laughs.
+Then she laughs hard enough to have to put the pen down.
 
-**NIMERA:** Oh, good.
+**NIMERA:** Oh, good. Fuck, that's a relief.
 
 Cyanis looks at her.
 
 **CYANIS:** Good?
 
-**NIMERA:** I was worried you were both going to become respectable indoors.
+**NIMERA:** I was worried you were both going to become respectable indoors. Apparently the building has not improved either of you.
 
 **TORREN:** No danger.
 
@@ -50,11 +50,11 @@ Cyanis looks at her.
 
 **TORREN:** Didn't.
 
-**NIMERA:** I don't care.
+**NIMERA:** I don't care who started it. Actually, no—wait. I care academically. Continue the argument exactly as it was and I'll determine culpability afterward.
 
-She points vaguely between them with the end of her pen.
+**CYANIS:** Absolutely not.
 
-**NIMERA:** Continue when ready.
+**NIMERA:** Coward.
 
 Torren is carrying a rolled route sketch / fort-use map under one arm.
 
@@ -62,19 +62,21 @@ He reaches the table and stops.
 
 Looks once across it.
 
+Then again, more slowly.
+
 **TORREN:** Where am I putting this?
 
 Nimera is already writing again.
 
 **NIMERA:** Anywhere free.
 
-Torren looks across the table a second time.
+Torren looks across the table a third time.
 
 **TORREN:** There isn't anywhere free.
 
-Nimera looks up.
+Nimera looks up as though he has made an obviously false claim.
 
-**NIMERA:** That's obviously not true.
+**NIMERA:** That's not true. There are at least four unoccupied surfaces.
 
 Cyanis comes around the other side.
 
@@ -84,11 +86,11 @@ He points to a narrow clear patch near the center.
 
 **NIMERA:** No.
 
-**CYANIS:** You just said anywhere free.
+**CYANIS:** You just said unoccupied.
 
-**NIMERA:** That isn't free.
+**NIMERA:** I said unoccupied. I did not say available. Those are not synonyms in a working system.
 
-**CYANIS:** There is nothing on it.
+**CYANIS:** There is literally nothing on it.
 
 **NIMERA:** At the moment.
 
@@ -96,13 +98,13 @@ A beat.
 
 **CYANIS:** That's what free means.
 
-**NIMERA:** Not in a working system.
+**NIMERA:** No, free means unallocated. Empty means nothing is physically there. That space is empty and allocated.
 
 Torren looks at the empty patch.
 
 Then at Nimera.
 
-**TORREN:** What's going there?
+**TORREN:** What's allocated to it?
 
 **NIMERA:** Cross-reference stack.
 
@@ -114,11 +116,11 @@ Cyanis looks at Torren.
 
 **CYANIS:** She has future paper now.
 
-**TORREN:** Apparently.
+**NIMERA:** Yes, because time proceeds forward and occasionally I plan for it.
 
-Nimera goes back to writing.
+**TORREN:** Future paper.
 
-**NIMERA:** Mock it all you like. It remains reserved.
+**NIMERA:** Say it like that again and I'm reserving your chair.
 
 Torren finds a smaller patch near the corner and starts lowering the rolled map onto it.
 
@@ -130,7 +132,7 @@ He stops with the map an inch above the table.
 
 Nimera points without looking.
 
-**NIMERA:** Ink's drying beside it.
+**NIMERA:** Ink's drying beside it. If you put a rolled sheet there, the edge will drag through the wet line, transfer it to the back, and then I get to spend ten minutes deciding whether a black smear is evidence or Harth being impatient.
 
 Torren checks.
 
@@ -144,13 +146,15 @@ Cyanis looks betrayed.
 
 **CYANIS:** Don't encourage her.
 
+**NIMERA:** He isn't encouraging me. He is recognizing objective reality. I know those feel similar when you're losing.
+
 **TORREN:** He's right about the armor, by the way.
 
 **CYANIS:** We moved on.
 
 **TORREN:** You did.
 
-Nimera smiles to herself.
+Nimera bites the inside of her cheek to keep from laughing and fails.
 
 ### [THE TABLE, APPARENTLY]
 
@@ -158,11 +162,11 @@ Cyanis starts examining the table like a tactical problem.
 
 **CYANIS:** This whole end is notes.
 
-**NIMERA:** Yes.
+**NIMERA:** Three different note groups, yes.
 
 **CYANIS:** That section is books.
 
-**NIMERA:** Also yes.
+**NIMERA:** Two active references, one index, one book I am angry at, and one book I have not decided whether to be angry at yet.
 
 **CYANIS:** That's just a cup.
 
@@ -172,7 +176,7 @@ Nimera looks at the cup.
 
 **CYANIS:** It has an entire section.
 
-**NIMERA:** Because knocking it into the notes would be stupid.
+**NIMERA:** Because ink, paper, and liquid should not share a border if I can help it. That's not possessive; that's basic survival.
 
 Torren nods once.
 
@@ -182,9 +186,13 @@ Torren nods once.
 
 **TORREN:** Table's.
 
-Nimera looks at him with immediate approval.
+Nimera points at Torren with immediate approval.
 
-**NIMERA:** Sensible.
+**NIMERA:** See? Field judgment. Crude, but occasionally useful.
+
+**TORREN:** Occasionally?
+
+**NIMERA:** Don't get greedy.
 
 Cyanis points to another apparently clear patch.
 
@@ -200,19 +208,27 @@ Nimera follows his finger.
 
 Cyanis stares at her.
 
+**CYANIS:** Future lamp.
+
+**NIMERA:** Correct.
+
+**CYANIS:** You hear how insane that sounds.
+
+**NIMERA:** It sounds less insane if you understand planning.
+
 Torren puts the rolled map back under his arm.
 
-**TORREN:** Future lamp.
+**TORREN:** Future lamp's stronger than future paper?
 
-**CYANIS:** Shut up.
+Nimera brightens despite herself.
 
-Nimera is visibly enjoying this now.
+**NIMERA:** Yes. Thank you. Because the lamp has a fixed functional requirement tied to light level, whereas the paper is only expected work product. Different confidence classes.
 
-**NIMERA:** For accuracy, the lamp is a much stronger reservation than the future paper.
+Cyanis closes his eyes.
 
-**CYANIS:** Thank you. That's helped tremendously.
+**CYANIS:** I regret asking nothing.
 
-**NIMERA:** You're welcome.
+**NIMERA:** You didn't ask. Harth did. Try to keep up.
 
 ### [NIMERA'S DEFINITION OF SHARING]
 
@@ -224,21 +240,17 @@ Cyanis folds his arms.
 
 **CYANIS:** You have taken over the communal table.
 
-**NIMERA:** No.
+**NIMERA:** No, I've taken over most of the usable surface of the communal table while actively using it for communal work. That's different.
 
-**TORREN:** Mostly have.
+**TORREN:** Mostly took it over.
 
-Nimera looks at Torren.
+Nimera turns to him.
 
 **NIMERA:** Mostly is not the same word.
 
 **TORREN:** Knew you'd like that part.
 
-She points at him with the pen again.
-
-**NIMERA:** Correct distinctions should be rewarded.
-
-Cyanis looks around the room.
+**NIMERA:** I do like that part. Correct distinctions should be rewarded.
 
 **CYANIS:** With what? There isn't room for a reward.
 
@@ -250,7 +262,25 @@ Nimera laughs again.
 
 **NIMERA:** I'm the one currently using it.
 
-A beat.
+**CYANIS:** Communally.
+
+**NIMERA:** Yes.
+
+**CYANIS:** Alone.
+
+Nimera opens her mouth.
+
+Stops.
+
+Looks around the table.
+
+**NIMERA:** That is an irritatingly effective phrasing and I reject the emotional tone while accepting the factual structure.
+
+Torren snorts.
+
+**CYANIS:** I win.
+
+**NIMERA:** You won one sentence. Calm down.
 
 Torren looks over the organization again.
 
@@ -258,19 +288,23 @@ Torren looks over the organization again.
 
 Nimera's expression changes from amused to mildly offended.
 
-**NIMERA:** Obviously.
+**NIMERA:** Obviously. This isn't a mess. A mess is when location stops encoding purpose.
+
+**CYANIS:** That's a sentence nobody has ever needed before.
+
+**NIMERA:** And yet here you are benefiting from it.
 
 Torren points to a small stack without touching it.
 
 **TORREN:** That.
 
-**NIMERA:** Old City seal references already copied and checked against the clean transcription set.
+**NIMERA:** Old City seal references already copied and checked against the clean transcription set. The bottom two are duplicate witnesses with inconsistent dating, so don't use them alone.
 
 Another.
 
 **TORREN:** That.
 
-**NIMERA:** Route material we're not using yet but I'm not putting back in a crate because then someone will put a boot on it.
+**NIMERA:** Route material we're not using yet but I'm not putting back in a crate because then somebody will put a boot on it, bend it, or decide a century-old field copy is a convenient surface for lunch.
 
 Cyanis points at a thin pile partly beneath a book.
 
@@ -284,11 +318,15 @@ Cyanis points at a thin pile partly beneath a book.
 
 **CYANIS:** Rubbish with ambition.
 
-Nimera considers that.
+Nimera pauses.
 
-**NIMERA:** Better.
+Looks at the pile.
 
-Torren almost smiles.
+**NIMERA:** Fuck. That's better.
+
+**CYANIS:** Thank you.
+
+**NIMERA:** Don't be proud. You accidentally improved a category.
 
 ### [THE PRACTICAL RESULT]
 
@@ -300,7 +338,7 @@ Cyanis notices.
 
 **TORREN:** Works.
 
-**NIMERA:** See? Adaptation.
+**NIMERA:** See? Adaptation. Problem solved without compromising the system.
 
 **CYANIS:** This is not a victory for you.
 
@@ -320,6 +358,14 @@ She follows his eyes.
 
 **NIMERA:** Those are in use.
 
+**CYANIS:** By whom?
+
+**NIMERA:** Me.
+
+**CYANIS:** You're over there.
+
+**NIMERA:** Spatial separation does not end use.
+
 He looks at the next chair.
 
 Her satchel is on it.
@@ -332,7 +378,7 @@ Her satchel is on it.
 
 She looks around as though genuinely evaluating the question for the first time.
 
-**NIMERA:** Currently?
+**NIMERA:** Currently, or in the planning sense?
 
 Torren immediately starts toward the door.
 
@@ -344,17 +390,55 @@ Cyanis points after him.
 
 **TORREN:** Experienced.
 
-Nimera looks back down at her notes, still smiling.
+Nimera calls after Torren.
 
-**NIMERA:** Window ledge is free.
+**NIMERA:** Your map can go on the window ledge if you put something clean under it.
 
-Cyanis looks at the window ledge.
+Torren does not turn around.
 
-Then at her.
+**TORREN:** Knew there was space.
 
-**CYANIS:** For now?
+Nimera freezes.
 
-**NIMERA:** You're learning.
+Cyanis smiles slowly.
+
+**CYANIS:** He got you.
+
+**NIMERA:** No. The window ledge is auxiliary surface, not table surface. Different jurisdiction entirely.
+
+**CYANIS:** Different jurisdiction.
+
+**NIMERA:** Yes, and I can explain exactly why if you'd like.
+
+Cyanis is already walking out.
+
+**CYANIS:** Absolutely not.
+
+**NIMERA:** Then stop repeating it like you're confused.
+
+From the doorway:
+
+**TORREN:** Future explanation.
+
+Nimera throws a scrap of blank paper at him.
+
+It falls several feet short.
+
+Torren leaves.
+
+Cyanis laughs all the way after him.
+
+Nimera looks at the paper on the floor.
+
+**NIMERA:** That was blank. It was not part of the system.
+
+No one is there to answer.
+
+A beat.
+
+**NIMERA:** Fucking cowards.
+
+She retrieves it and goes back to work.
 
 ### [RETURN TO CLEANUP]
 
@@ -373,7 +457,8 @@ The records / map room simply feels more inhabited than it did before.
 - The two user-locked opening insult lines are preserved verbatim, in order, and assigned to the correct speakers.
 - Cyanis and Torren's hostility is immediately readable as familiar safe play; nobody mediates or treats it as a real conflict.
 - Nimera reacts with delight and joins the social rhythm without being made timid, childlike, or socially oblivious.
-- The table conflict emerges from practical use: Torren needs somewhere for a fort-use map and discovers that Nimera's organization has consumed every useful patch.
+- Nimera's Person Brain now drives the scene more strongly: she cannot leave a wording distinction alone, converts mundane table-space arguments into classification arguments, keeps explaining after the practical point is already clear, swears naturally, and occasionally loses the exchange because the others know when to walk away.
+- Torren remains terse. His short lines work as a contrast against Nimera rather than being expanded to equalize turn length.
 - Nimera is organized rather than messy. Every individual reservation is defensible; the joke is their cumulative footprint.
 - The scene does not state that Nimera belongs, has found a family, or has been granted a place. Her expectation that she will still be working here tomorrow is carried entirely by behavior.
 - Ilyra is not forced into the scene merely to complete the party roster; H03 remains the dedicated Ilyra/Nimera cleanup Character-Life scene.
