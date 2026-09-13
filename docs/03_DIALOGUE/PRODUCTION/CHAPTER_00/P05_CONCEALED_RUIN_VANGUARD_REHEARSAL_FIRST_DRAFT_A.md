@@ -1,6 +1,6 @@
 # Chapter 0 — P05
 # Concealed Ruin Vanguard
-## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
 ---
 
@@ -50,11 +50,13 @@ The Vanguard keeps coming.
 
 **CYANIS:** Camp stays behind us. If he tries to pull us away from it, we don't go.
 
-**ILYRA:** Agreed. And if you get dizzy again, tell me before you fall on the mysterious armored man.
+**ILYRA:** Agreed. I'm not chasing a man who volunteered to be the only obvious target.
 
-**CYANIS:** Very specific concern.
+Cyanis glances at her.
 
-**ILYRA:** I adapt.
+**CYANIS:** Suspicious by profession?
+
+**ILYRA:** No. Today has been educational.
 
 **AUTHORED ENCOUNTER BEGINS — CYANIS + ILYRA VS. RUIN VANGUARD PURSUER.**
 
@@ -98,6 +100,14 @@ Cyanis looks back toward the retreating figure.
 
 **CYANIS:** Neither do I.
 
+**ILYRA:** Good. I'd hate for our first disagreement to be that stupid.
+
+Cyanis almost smiles.
+
+**CYANIS:** Ambitious to assume we'll find a better one.
+
+**ILYRA:** Give it time.
+
 They leave it there.
 
 Nobody infers who he is, why he withdrew, or whether the north cut was bait.
@@ -112,47 +122,63 @@ There is a real noncombat interval here.
 
 No immediate boss sting. No continuous Card ward. No second flare yet.
 
-Ilyra checks Cyanis because P04 already gave her a reason to monitor him, but the scene does not turn into another full medical exchange.
-
-She hands him water.
-
-**ILYRA:** Drink.
-
-**CYANIS:** That's becoming your answer to everything.
-
-**ILYRA:** It would have to be an answer to more than one thing first. Drink.
-
-He does.
-
-**CYANIS:** Happy?
-
-**ILYRA:** No. Less annoyed.
-
-**CYANIS:** Progress.
-
-Ilyra watches him for a moment.
-
-**ILYRA:** Any dizziness now?
-
-**CYANIS:** Less. Arm hurts more.
-
-**ILYRA:** That makes sense after the fight. Weakness worse?
-
-Cyanis checks without turning it into a demonstration.
-
-**CYANIS:** No.
-
-**ILYRA:** Good. That's all I needed.
-
-A little quiet passes.
-
-Cyanis drinks again without being told.
+Someone at the working line has left water within reach. Cyanis takes some without being told.
 
 Ilyra notices.
 
-**ILYRA:** Look at that. Trainable.
+**ILYRA:** Look at that.
 
-**CYANIS:** Don't ruin it.
+**CYANIS:** Don't.
+
+**ILYRA:** I didn't say anything.
+
+**CYANIS:** You were about to.
+
+**ILYRA:** I was thinking.
+
+**CYANIS:** Worse.
+
+That gets a short laugh out of her.
+
+A little quiet passes.
+
+Cyanis looks toward the direction the Vanguard disappeared.
+
+**CYANIS:** You think he wanted us to follow?
+
+Ilyra considers it instead of reaching for a confident answer.
+
+**ILYRA:** I think he left when he meant to leave. That's enough reason for me not to give him the next choice too.
+
+**CYANIS:** You're comfortable with not knowing.
+
+**ILYRA:** Absolutely not. I hate not knowing. I just hate inventing an answer because uncertainty is irritating.
+
+Cyanis looks at her.
+
+**CYANIS:** That's annoyingly reasonable.
+
+**ILYRA:** I get that a lot.
+
+A beat.
+
+Cyanis adds, before she asks:
+
+**CYANIS:** Less dizzy. Arm hurts more, weakness isn't worse, still no numbness.
+
+Ilyra blinks.
+
+**ILYRA:** I wasn't going to ask yet.
+
+**CYANIS:** Ruined the moment, then.
+
+**ILYRA:** Completely. I was enjoying having a conversation that wasn't about your symptoms.
+
+**CYANIS:** Sorry.
+
+**ILYRA:** Don't be. That was useful. Just don't start thinking useful is the same as charming.
+
+**CYANIS:** Devastating.
 
 The treatment camp continues around them.
 
@@ -166,9 +192,11 @@ Player control can return briefly inside the defended area before the final atta
 
 The concealed Ruin Vanguard has withdrawn alive. Cyanis and Ilyra do not know his identity and do not chase. The encounter proves nothing about the northern withdrawal. The first flare remains fully over and the Card remains inert. The player receives a genuine breathing/reset interval before P06.
 
-## Person-Brain performance note
+## Person-Brain / Ilyra role-balance note
 
-- the threat approach stays appropriately terse, but Cyanis now gives the actual uncertainty behind `just one` rather than using the line as empty ominous setup.
-- Ilyra's refusal to chase comes from field judgment and what she has already learned about Cyanis, not healer-coded caution.
-- the reset check is shorter than P04 because Ilyra already established what she is monitoring; their humor can start becoming more comfortable without implying instant intimacy.
+- the threat approach stays appropriately terse, but Cyanis gives the actual uncertainty behind `just one` rather than using the line as empty ominous setup.
+- Ilyra's refusal to chase is tactical judgment, not healer-coded caution.
+- the reset scene is deliberately not built around Ilyra handing Cyanis water and administering another check. Cyanis takes water himself, Ilyra discusses uncertainty and the Vanguard because she is curious and skeptical, and Cyanis volunteers the symptom update from continuity already established in P04.
+- Ilyra explicitly values not inventing answers when evidence is incomplete, giving her a nonmedical reasoning trait that can recur without making her an expert outside her domains.
+- their humor can start becoming more comfortable without implying instant intimacy.
 - no identity, motive, northern-cut answer, or Card information is added.
