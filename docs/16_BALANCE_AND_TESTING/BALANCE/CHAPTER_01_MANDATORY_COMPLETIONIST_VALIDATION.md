@@ -1,328 +1,123 @@
 # Diyse — Chapter 1 Mandatory-vs-Completionist Validation
 
 **Chapter:** 1 — Brackenwall and the Wayfinder  
-**Status:** **ADJUSTED / VALIDATED**  
-**Power audit:** **CLOSED — NO DIRECT-DAMAGE POWER VALUES CHANGED**
+**Current status:** **REOPENED / REVALIDATION REQUIRED**  
+**Direct-damage Power audit:** **CLOSED — do not reopen Power coefficients from this correction alone**  
+**Reason reopened:** current story/production authority has superseded key party-state and Briarhide assumptions used by the prior v77/v78 validation.
 
-## Validation rule — use the party state at the actual encounter point
-Chapter 1 is not validated as one flat Lv5 chapter.
+---
 
-The current mandatory campaign spine is:
-> **Chapter start Lv1 → chapter end Lv5 / 1,600 cumulative EXP**
+## Current authority correction — 2026-09-12
 
-Encounter checks therefore use the following route anchors:
+The previous Chapter-1 validation is no longer a valid certification of the current chapter because it tested a superseded encounter/story state.
 
-| Route point | Mandatory reference | Completionist / high-side reference | Party-state note |
-|---|---|---|---|
-| S007 — Brackenwall opening | Lv1, rising toward Lv2 | same basic level band | Cyanis + Ilyra + Maevra guest |
-| S008 — Hollow Watch | **~Lv2** | **~Lv3 high-side** | Watch Captain and Castellan occur here; do **not** use end-Ch1 Lv5 |
-| S009 — Greenhollow | **~Lv3** | ~Lv3–4 | Torren is route specialist but not commandable until the local problem is resolved |
-| post-S009 / S010 — Briar Passage | **~Lv3→4** | **~Lv4→5** | Torren is now permanently recruited; active battle party is Cyanis + Ilyra + Torren + Maevra guest |
-| S011 — Wayfinder Junction | **~Lv4→5** | **~Lv5** | four-person Cyanis + Ilyra + Torren + Maevra guest route; mandatory chapter clear lands exactly at 1,600 EXP / Lv5 |
-| post-S011 optional return | **Lv5 unlock state** | plausible Lv5–6; recommended-Hunt target Lv7 | Regional Hunt #1 is available but intentionally over-tier if challenged immediately |
+Two material assumptions are retired:
 
-The 500-EXP Side Quest **The Marks We Leave** unlocks after Torren joins. It can create a late-Ch1 completionist advantage, but it does not justify inflating mandatory-route enemies.
+1. **Maevra is not a Chapter-1 combat-party guest.**  
+   Current production beats keep Maevra physically present in the story while outside the battle party. Any throughput, survivability, round-count, or Hunt estimate that added Maevra's combat contribution must be recalculated.
 
-Regional Hunt #1 is fixed authored tuning with a **recommended Lv7**, not a requirement that the chapter-clear party already be Lv7.
+2. **Briarhide Stalker is not protected/nonlethal.**  
+   Current exact Beat-13 authority makes Briarhide the required Chapter-1 final boss: a natural wild Greater Beast defeated through ordinary lethal combat. There is no Black Host Irritant Fitting, 25% protected floor, stabilization objective, or retreat-alive resolution.
 
+Current exact story/dialogue authority:
+- `../../03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md`
 
-## v78 Maevra party-state correction
-Maevra must be counted explicitly in Chapter-1 encounter throughput and incoming-pressure checks.
+Current encounter authority:
+- `../../09_ENEMIES_AND_ENCOUNTERS/STORY_BOSSES/BRIARHIDE_STALKER.md`
+- `../../09_ENEMIES_AND_ENCOUNTERS/CHAPTER_ENEMIES/CHAPTER_01.md`
+- `../../09_ENEMIES_AND_ENCOUNTERS/NONLETHAL_AND_PROTECTED_ENCOUNTERS.md`
 
-Active party states are:
-- S007–S008: **Cyanis + Ilyra + Maevra**;
-- S009 before Torren recruitment: **Cyanis + Ilyra + Maevra**;
-- S009 after recruitment through S010/S011: **Cyanis + Ilyra + Torren + Maevra**.
+---
 
-Maevra is a temporary guest, but she occupies a real battle-party slot and contributes real damage/survivability. The four-character cap is therefore already filled after Torren becomes commandable.
+## What remains closed
 
-This correction does **not** overturn the v77 Watch Captain adjustment. Against Watch Captain Frame DEF27 at the Lv2 Hollow Watch reference:
-- Cyanis Crest Strike ≈ **56.7**;
-- Ilyra Attack ≈ **29.9**;
-- Maevra Linebreaker ≈ **46.3**;
-- serious-round total ≈ **132.9**.
+The project-wide direct-damage **Power audit remains closed**.
 
-Therefore:
-- 500 HP ≈ **3.8 serious rounds** before Watchline Guard tax;
-- old 820 HP ≈ **6.2 serious rounds** before Watchline Guard tax.
+This correction does not itself change:
+- ordinary enemy direct-damage Power coefficients;
+- Watch Captain direct-damage Power coefficients;
+- Hollow Watch Castellan direct-damage Power coefficients;
+- Briarhide direct-damage Power coefficients;
+- Cistern Devourer direct-damage Power coefficients.
 
-Result:
-> **WATCH CAPTAIN 500 HP CONFIRMED WITH MAEVRA INCLUDED**
+Any later stat/HP change must come from the active mandatory-vs-completionist encounter validation, not from reopening the Power audit by implication.
 
-## Guaranteed early equipment boundary
-No Chapter-1 ordinary weapon upgrade replaces Cyanis's Crestblade or Ilyra's Wardrod. The first ordinary replacements for both arrive in Chapter 2.
+---
 
-Torren's Chapter-1 ordinary combat package is:
-- Yahtrean War Bow — +48 ATK; Weapon + Secondary;
-- War Archer Gear — +24 DEF / +18 Spirit;
-- Base Class begins at CL4 / 600 CEXP.
+## What must be revalidated
 
-Therefore the mandatory-vs-completionist difference inside Chapter 1 comes primarily from:
-- Player Level;
-- optional EXP/combat;
-- consumable stock and resource conservation;
-- optional Elite completion;
+Re-run Chapter 1 against the current campaign route and actual party state at each encounter point.
 
-not from an early mandatory-vs-completionist weapon-tier split.
+At minimum, re-check:
+- early Briar Passage ordinary formations;
+- Greenhollow / north-route ecology formations;
+- Hollow Watch Sentry + Ballista formations;
+- Watch Captain Frame optional Elite;
+- Hollow Watch Castellan mandatory boss;
+- Southern Briar ordinary formations;
+- **Briarhide Stalker as a normal lethal mandatory final boss**;
+- Cistern Devourer at its actual optional-access state.
 
-## Reproducible player bodies
-Using the current natural-stat curve, selected-class multipliers, and guaranteed ordinary equipment:
+For every encounter, test both required baselines:
+1. **mandatory / critical-path party**;
+2. **completionist / high-side party**.
 
-### Lv1
-- Cyanis: 231 HP / 25 MP / 56 ATK / 45 MAG / 61 DEF / 47 Spirit / 21 SPD
-- Ilyra: 220 HP / 31 MP / 45 ATK / 59 MAG / 34 DEF / 59 Spirit / 22 SPD
+Use the project validation rule:
+- early encounter → chapter-start / actual early-route level state;
+- middle encounter → actual in-chapter state;
+- late/final boss → chapter-end / actual late-route state;
+- never validate the whole chapter against one flat end-of-chapter level.
 
-### Lv2
-- Cyanis: 267 HP / 28 MP / 59 ATK / 47 MAG / 63 DEF / 49 Spirit / 22 SPD
-- Ilyra: 254 HP / 35 MP / 47 ATK / 61 MAG / 35 DEF / 60 Spirit / 22 SPD
+---
 
-### Lv3
-- Cyanis: 304 HP / 31 MP / 61 ATK / 49 MAG / 65 DEF / 50 Spirit / 22 SPD
-- Ilyra: 289 HP / 39 MP / 48 ATK / 63 MAG / 37 DEF / 62 Spirit / 23 SPD
+## Party-state firewall
 
-### Lv4 late-route reference
-- Cyanis: 341 HP / 34 MP / 63 ATK / 51 MAG / 67 DEF / 52 Spirit / 23 SPD
-- Ilyra: 325 HP / 42 MP / 50 ATK / 66 MAG / 39 DEF / 64 Spirit / 23 SPD
-- Torren test body: 308 HP / 34 MP / 76 ATK / 20 MAG / 43 DEF / 37 Spirit / 27 SPD
+Do not reuse the old v77/v78 assumption that Maevra contributes battle damage or survivability.
 
-### Lv5 chapter-clear reference
-- Cyanis: 379 HP / 37 MP / 65 ATK / 53 MAG / 69 DEF / 54 Spirit / 23 SPD
-- Ilyra: 360 HP / 46 MP / 52 ATK / 68 MAG / 40 DEF / 66 Spirit / 24 SPD
-- Torren test body: 342 HP / 37 MP / 78 ATK / 22 MAG / 45 DEF / 39 Spirit / 28 SPD
+Current Chapter-1 production authority must own the exact combat roster beat by beat. In particular:
+- Maevra may travel with the group and appear in triggered scenes;
+- that does **not** make her commandable or a battle-party body;
+- Beat 13 explicitly uses **Cyanis + Ilyra + Torren** against Briarhide while Maevra remains noncombat.
 
-The Torren Lv4/Lv5 rows are encounter-validation bodies at the current route level. They are not a new global recruitment-level rule.
+Torren's exact transition from guide/support to permanent combat member must likewise be taken from the current production beats rather than reconstructed from the superseded validation.
 
-## Ordinary enemy validation
+---
 
-### S007 / early Brackenwall pressure — Lv1→2
-Checked:
-- Black Host Raider
-- Black Host Crossbowman
-- Brackenwall Reaver
-- limited Ruin Shieldbearer carryover where used
+## Briarhide firewall
 
-Typical direct-hit pressure against the Lv1 body remains intentionally light:
-- Raider / Crossbowman / Reaver routine hits are roughly **4–8% Max HP** on Cyanis/Ilyra before Bleed;
-- the formation, not one individual coefficient, supplies the pressure;
-- Chapter 1's newly legal Bleed rider creates the meaningful attrition tax.
+Current encounter resolution:
+> **NORMAL LETHAL BOSS VICTORY**
 
-Result:
-> **PASS — RETAIN RAW STATS AND POWER**
+Current fiction:
+- native Briar Passage Greater Beast;
+- no armor;
+- no Black Host equipment;
+- no magical apparatus;
+- no corruption/control reveal;
+- no fitting/collar;
+- no protected HP floor;
+- no nonlethal objective;
+- no purification/stabilization step.
 
-Do not inflate these enemies merely because the chapter eventually ends at Lv5.
-
-### Hollow Watch ordinary pair — actual ~Lv2
-Checked:
-- Hollow Watch Sentry
-- Hollow Watch Ballista
+The post-boss production dialogue explicitly establishes the result:
+> **TORREN: “It's dead.”**
 
-Current teaching relationship remains sound:
-- Sentry Strike is low routine pressure;
-- Targeting Signal costs the Sentry an action and can be interrupted;
-- ordinary Ballista Snap Bolt is meaningful but not lethal;
-- Marked Heavy Bolt is the visible punishment for ignoring the Sentry.
+Any older balance text describing a fitting objective or protected animal floor is superseded.
 
-Against Lv2:
-- Marked Heavy Bolt is about **12% Cyanis Max HP**;
-- about **17% Ilyra Max HP** before Bleed;
-- the shot requires the completed Sentry setup and is followed by Reload.
+---
 
-Result:
-> **PASS — RETAIN RAW STATS, POWER, AND SENTRY/BALLISTA MECHANIC**
+## Previous v77/v78 result status
 
-### S009 Greenhollow ecology — ~Lv3
-Checked:
-- Greenhollow Stalker
-- Thornvine Creeper
+The previous document certified a different party/encounter configuration. Its detailed round-count and throughput conclusions are therefore **historical, not current certification**.
 
-Routine direct hits remain in the low single-digit to ~6% Max-HP range before Bleed, which is correct for repeatable Chapter-1 ecology in a three-character route state.
+Git history preserves that analysis if comparison is needed; it must not be copied forward as active balance authority.
 
-Result:
-> **PASS**
+Specific previously derived values such as the Watch Captain's 500 HP may remain in their owning enemy files until the new validation tests them, but this file no longer certifies those values as balanced against the current party.
 
-### S010 / late route — ~Lv4 mandatory / ~Lv5 completionist
-Checked:
-- Briar Boar
-- late reuse of the current Chapter-1 ecology bodies
+---
 
-Briar Boar remains the heaviest ordinary ecology body in this chapter, but its current Tusk Rush / Shoulder Charge pressure stays recoverable at Lv4 and becomes visibly easier for a completionist Lv5 party.
+## Next action
 
-That advantage is intentional.
+> **Run a fresh Chapter-1 mandatory-vs-completionist encounter validation against the current production route, current combat-party states, and lethal Briarhide boss resolution.**
 
-Result:
-> **PASS**
-
-## Optional Elite — Watch Captain Frame
-### Actual access problem
-The Watch Captain is in a Hollow Watch optional side room.
-
-Its true balance reference is therefore:
-> **Lv2 mandatory-route vicinity / ~Lv3 high-side completionist**
-
-The inherited body entering this validation was:
-> Lv6 / **820 HP** / ATK38 / MAG29 / DEF27 / Spirit26 / SPD25 / EVA0 / SR10
-
-Its own global Elite target is:
-> **approximately 2–4 serious party rounds**
-
-At the actual Lv2–3 party state, 820 HP pushes the encounter well beyond that target and gives the optional Elite more solved-state durability than is appropriate beside the Chapter-1 mandatory boss package.
-
-### Targeted correction
-> **Watch Captain Frame HP 820 → 500**
-
-Retain:
-- Lv6 identity;
-- ATK38;
-- MAG29;
-- DEF27;
-- Spirit26;
-- SPD25;
-- EVA0;
-- SR10;
-- Bleed immunity;
-- Captain Edge 175 Power;
-- Signal Burst 125 Power per target;
-- Locking Thrust 210 Power;
-- Watchline Guard +15 Total Defense / Power N/A.
-
-At 500 HP:
-- an aggressive Lv2–3 party can clear in about **4 serious rounds**;
-- a Watchline Guard cycle can consume the expected fourth-round margin rather than pushing the fight into boss-length durability;
-- its direct-hit pressure remains clearly above ordinary enemies without one-shot risk.
-
-Result:
-> **ADJUSTED / PASS AT 500 HP**
-
-No Power value changed.
-
-## Mandatory story boss — Hollow Watch Castellan
-The existing recertification already corrected the historical mistake of testing S008 against end-Chapter-1 Lv5.
-
-Correct reference remains:
-- mandatory central: **~Lv2**;
-- completionist/high-side: **~Lv3**;
-- Cyanis / Ilyra / Maevra guest.
-
-Current body:
-> Lv6 / 450 HP / ATK42 / MAG27 / DEF27 / Spirit24 / SPD25 / EVA0 / SR5
-
-Current pacing remains:
-- aggressive ~4–5 rounds;
-- normal ~6 rounds;
-- safety ~7–8 rounds.
-
-The broader Chapter-1 check does not expose a contradiction with that package.
-
-Result:
-> **VALIDATED / RETAIN**
-
-No Power/raw change in v77.
-
-## Mandatory authored nonlethal — Briarhide Stalker
-Correct route reference:
-> **~Lv3**, before Torren becomes commandable.
-
-The 850-HP animal body is not the kill target.
-
-Actual objective:
-> **Black Host Irritant Fitting — 180 HP / DEF18 / Spirit18 / Power N/A**
-
-Current Lv3 Cyanis/Ilyra throughput puts the fitting in a short multi-action / roughly two-round objective window before guest contribution, while the Briarhide's own attacks remain survivable:
-- Panic Rush is roughly **6–9%** of Cyanis/Ilyra Max HP;
-- Briar Rend is roughly **5–8%** before Bleed;
-- Cornered Sweep remains lighter party-wide pressure.
-
-The protected 25% animal floor prevents bypassing the intended objective.
-
-Result:
-> **PASS — RETAIN**
-
-## Regional Hunt #1 — Cistern Devourer
-Unlock:
-> after S011 / Chapter-1 cistern knowledge
-
-Recommended level:
-> **Lv7**
-
-Current fixed body:
-> Lv7 / 2,706 HP / ATK43 / MAG26 / DEF30 / Spirit27 / SPD24 / EVA5 / SR5
-
-### Access-state check — Lv5
-The mandatory story route reaches the unlock around:
-> **Lv5**
-
-That does **not** make Lv5 the intended recommendation.
-
-At immediate unlock, the Hunt is deliberately an over-tier optional challenge:
-- long durability relative to the four-person Cyanis / Ilyra / Torren / Maevra party;
-- limited early MP;
-- Bleed attrition can matter over the long fight;
-- Submerged Guard extends the endurance check.
-
-The early availability is therefore retained rather than lowering the Hunt to Chapter-1 story-boss strength.
-
-### Completionist / prepared check — Lv5–6
-A completionist can have:
-- the post-Torren Side Quest EXP;
-- optional Hollow Watch Elite completion;
-- extra incidental combat/resources;
-
-before choosing to return.
-
-That makes a Lv5–6 attempt plausible, but still intentionally below the recommendation.
-
-### Recommended check — Lv7
-Using the current Lv7 ordinary equipment bodies with Maevra included:
-- Cistern Maw is roughly **7–10% Max HP** per target depending on character;
-- Devouring Rend is roughly **8–11%** before its Bleed rider;
-- Cold Undertow is lighter party-wide pressure;
-- the 2,706-HP body creates the primary endurance burden.
-
-The four-person all-basic throughput against DEF30 is still only about **178–179 damage per round**, so 2,706 HP remains roughly **15 basic-only rounds** before premium actions, healing, and Submerged Guard.
-
-Expected practical clear remains a sustained multi-round Hunt rather than a short Elite/boss burst, especially after healing and Submerged Guard turns are included.
-
-Result:
-> **PASS — RETAIN FIXED Lv7 / 2,706-HP PACKAGE**
-
-Do not dynamically scale the Hunt down for an immediate Lv5 attempt or upward against completionists.
-
-## Chapter 1 hierarchy check
-After the Elite HP correction, the chapter's intended ordering is restored:
-> **ordinary formations < Watch Captain Frame < Hollow Watch Castellan encounter package < Cistern Devourer**
-
-Briarhide Stalker remains a separate protected-objective encounter rather than a normal lethal rung in the hierarchy.
-
-## Chapter 1 certification
-### Mandatory route
-> **PASS AFTER WATCH CAPTAIN DURABILITY ADJUSTMENT**
-
-### Completionist route
-> **PASS — ADVANTAGE PRESERVED**
-
-The completionist can become stronger late in the chapter without causing mandatory enemies to scale upward.
-
-### Power status
-> **GLOBAL/CHAPTER POWER AUDIT REMAINS CLOSED**
-
-Zero direct-damage Power coefficients were changed by this validation.
-
-## Changes made by this validation
-1. Locked encounter validation to the actual **Lv1 start → Lv5 end** progression points rather than a flat chapter level, with Maevra explicitly included wherever she is an active guest.
-2. Validated Chapter-1 ordinary enemy bodies at their actual early/mid/late route anchors.
-3. Validated the Sentry → Ballista interrupt teaching formation.
-4. Reduced **Watch Captain Frame HP 820 → 500**.
-5. Retained Hollow Watch Castellan's corrected ~Lv2/~Lv3 S008 calibration.
-6. Validated Briarhide Stalker's nonlethal fitting objective at ~Lv3.
-7. Retained Cistern Devourer as an intentionally early-available, fixed **Lv7-recommended** Regional Hunt.
-8. Changed **zero direct-damage Power values**.
-
-## Next validation frontier
-Proceed to:
-> **Chapter 2**, using its actual chapter-start and chapter-end levels and internal encounter anchors rather than one flat level assumption.
-
-Chapter 2 begins from the Chapter-1 mandatory end state at approximately:
-> **Lv5**
-
-and ends at approximately:
-> **Lv9**.
+After Chapter 1 is recertified, continue the same validation framework chapter by chapter before the later CEXP recalibration pass.
