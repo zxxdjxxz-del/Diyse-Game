@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 15
 # Junction Camp / Chapter-1 Cleanup Window
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS + ILYRA ROLE-BALANCE PASS
 
 ---
 
@@ -73,6 +73,8 @@ This scene is **Ilyra and Maevra only**.
 
 Ilyra changes Maevra's splint and uses restrained Warden/healing magic to ease pain and surrounding strain. The bone remains broken; magic cannot mend the fracture.
 
+The treatment task is the circumstance that puts them alone together, not Ilyra's entire social function. Once the work is underway, Ilyra is allowed ordinary curiosity and gossip rather than therapist behavior.
+
 While Ilyra works, she notices that Maevra and Torren have unusually deep familiarity and asks just enough to test what she is seeing. Maevra gives her only a sliver: Torren is more than an ordinary colleague and matters to her personally.
 
 **Reveal boundary:** the scene does **not** reveal the exact length of their history, enlistment ages, former romance, sex, breakup history, repeated reunions, current romantic status, or Torren's private feelings. To the player, their Chapter-1 dynamic should still mostly read as two stubborn people who have known each other a long time and argue with old-married-couple ease.
@@ -129,51 +131,61 @@ Cyanis looks offended by the qualifier.
 
 **CYANIS:** I was ready yesterday.
 
-**ILYRA:** You tried to call `mostly standing` an answer after the Briarhide.
+**ILYRA:** You spent enough time announcing that you were ready that I started doubting the word.
 
-**CYANIS:** I corrected it before you asked.
+**CYANIS:** That's not evidence.
 
-**ILYRA:** Which is why you're improving.
+**ILYRA:** I've been around Torren for one day. Apparently everything is evidence now.
 
-Maevra is eating something while checking her own pack one-handed.
+Torren gives her a look.
 
-**MAEVRA:** He also ate last night, slept, and hasn't drunk anything meant for wound care. Extraordinary progress all around.
+**TORREN:** Learning.
 
-Cyanis looks at her.
+**ILYRA:** Don't encourage yourself.
 
-**CYANIS:** That story traveled very fast.
+Maevra checks her own pack one-handed.
 
-**MAEVRA:** You gave it legs by making it funny.
+**MAEVRA:** This is what happens when you put three argumentative people on the same road.
 
-**CYANIS:** I didn't tell you.
+**CYANIS:** Three?
 
-Maevra looks at Ilyra.
+Maevra looks at him.
 
-Ilyra keeps a perfectly neutral expression.
+**MAEVRA:** I was being generous to myself.
 
-**CYANIS:** Betrayal.
+**ILYRA:** Coward.
 
-**ILYRA:** Medical continuity.
+Maevra laughs.
 
-**TORREN:** Are we walking or litigating breakfast?
+**MAEVRA:** Fine. Four.
 
-**MAEVRA:** Both are possible.
+**TORREN:** Are we walking or counting personalities?
 
-**TORREN:** Not if I leave.
+**ILYRA:** We can do both. You've established that walking doesn't stop you lecturing.
 
-He starts toward the road.
+**TORREN:** Not a lecture if you're wrong.
 
-**CYANIS:** See? That's leadership.
+**CYANIS:** That's absolutely a lecture.
 
-Torren looks back once.
+Torren starts toward the road.
 
-**TORREN:** No. That's the road. Dunmere's this way.
+**TORREN:** Dunmere's this way.
+
+**MAEVRA:** There. His strongest argument.
 
 **CYANIS:** Lead on, Harth.
 
 **TORREN:** Keep up, Dovaren.
 
-The exchange is easy now, but still early enough that it has not become the later full brother-like insult register.
+**ILYRA:** If the road turns into another forty-minute lesson, I'm charging tuition.
+
+Torren does not turn around.
+
+**TORREN:** You'd pay.
+
+Ilyra looks at Cyanis.
+
+**ILYRA:** I hate that he's probably right.
 
 Scene ends.
 
@@ -205,8 +217,9 @@ No Prime, Last Sentinel, bearer, Entity, or complete ancient-network explanation
 ## Person-Brain / presentation check
 
 - Beat 15 remains primarily a cleanup wrapper. It does not invent a mandatory evening conversation to compete with the optional Character-Life scenes.
-- the morning exchange carries forward actual Chapter-0/1 relationship callbacks rather than resetting the party to generic departure banter.
-- Torren remains route-first and impatient with unnecessary departure talk; Cyanis and Ilyra carry forward their established medical joke language; Maevra is socially quick and willing to weaponize a funny story.
+- the morning exchange carries forward actual Chapter-1 conversational texture—Torren's evidence/road fixation, Ilyra's growing fascination-annoyance with it, Cyanis's willingness to argue, and Maevra's social quickness—without turning departure into another health-management scene.
+- Ilyra does not invoke `medical continuity`, remind Cyanis about food/sleep, or function as the team's morning readiness monitor. Her participation is argumentative, amused, profane-adjacent, and socially specific.
+- `Not Professionally` remains allowed to be a genuine medical task because the splint change is the scene premise, but its social content is ordinary curiosity/gossip and not proof that Ilyra should default to caretaker dialogue elsewhere.
 - Maevra/Torren Chapter-1 reveal timing is protected: obvious long familiarity, practiced bickering, and mutual stubbornness are visible; exact history and former romance are not.
-- the Briarhide reference correctly treats the boss as **killed**, not driven off.
+- the Briarhide remains **killed**, not driven off.
 - no Junction lore is repeated and no new plot information appears.
