@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 3
 # Greenhollow / Torren
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS + ILYRA ROLE-BALANCE PASS
 
 ---
 
@@ -46,21 +46,17 @@ Torren looks at the splint a little longer than he looks at her face.
 
 Torren looks to Ilyra.
 
-**ILYRA:** It was serviceable. It needed changing.
+**ILYRA:** It needed changing. She complained with impressive consistency.
+
+**MAEVRA:** I was being charming.
+
+**ILYRA:** Ah. Then yes. Very consistent.
+
+Torren's mouth moves like he almost smiled.
 
 **TORREN:** Better now?
 
-**MAEVRA:** Yes, mother.
-
-**TORREN:** Wasn't asking you.
-
-Maevra gives him a look.
-
-Ilyra's mouth twitches.
-
-**ILYRA:** Better now.
-
-**TORREN:** Good.
+**ILYRA:** Better.
 
 **MAEVRA:** Good to see you too.
 
@@ -84,7 +80,13 @@ Only then does Torren look past her at Cyanis and Ilyra properly.
 
 **TORREN:** Haven't decided yet.
 
-**MAEVRA:** Don't encourage yourself.
+**ILYRA:** Take your time. I'd hate for the insult to be imprecise.
+
+Torren looks at her for the first time with something like interest.
+
+**TORREN:** You might be all right.
+
+**MAEVRA:** Don't encourage each other. I have to travel with both of you.
 
 The exchange establishes their familiarity without pausing to explain its history.
 
@@ -114,7 +116,13 @@ Cyanis glances at Maevra.
 
 **TORREN:** Gets funnier.
 
-**MAEVRA:** To you.
+**ILYRA:** To anyone else?
+
+**TORREN:** Don't care.
+
+**ILYRA:** Excellent. Healthy artistic integrity.
+
+**MAEVRA:** See what you've done? He's got an audience now.
 
 Torren gestures only as much as needed toward the existing route information.
 
@@ -140,7 +148,7 @@ Cyanis looks at the route board again.
 
 Maevra looks delighted despite herself.
 
-**MAEVRA:** Twenty-five years and he's still exactly this fucking annoying.
+**MAEVRA:** And somehow you're still exactly this fucking annoying.
 
 Torren glances at her.
 
@@ -166,7 +174,7 @@ Ilyra studies the board.
 
 **TORREN:** If we're standing here, no. If we're on it and the ground disagrees with the map, yes.
 
-**ILYRA:** Fair.
+**ILYRA:** Fair. Irritating, but fair.
 
 Torren nods once. That answer mattered more to him than the joke.
 
@@ -177,6 +185,18 @@ Torren actually considers the phrase.
 **TORREN:** More like a promise somebody made about the ground at a particular time. Good map tells you who made the promise, when, and what they bothered to check. Bad one just draws a confident line and lets you discover the rest with a broken axle.
 
 A beat.
+
+**ILYRA:** Fuck. The soil story makes sense now.
+
+Maevra points at Torren without looking away from Ilyra.
+
+**MAEVRA:** That's how it starts.
+
+**TORREN:** You asked a good question.
+
+**ILYRA:** Don't reward me. I'll get curious again.
+
+**TORREN:** Worse things happen.
 
 **CYANIS:** That's considerably more words than Maevra promised.
 
@@ -202,6 +222,8 @@ Torren looks at Cyanis, then at Ilyra.
 
 **TORREN:** He good to travel?
 
+This is a genuine medical/travel question, so Ilyra owns the answer.
+
 **ILYRA:** Stable now. Keep the Card with him and don't test the distance again.
 
 Torren waits half a beat, making sure there is not another travel consequence coming.
@@ -222,6 +244,10 @@ Torren waits half a beat, making sure there is not another travel consequence co
 
 **CYANIS:** I like him.
 
+**ILYRA:** You've known him for eight minutes.
+
+**CYANIS:** Strong eight minutes.
+
 **MAEVRA:** Give it time.
 
 No one turns this into a discussion of what the Card is. Torren receives only the travel-relevant facts.
@@ -240,9 +266,9 @@ His tone changes. The joke goes away.
 
 **TORREN:** Host took it last week. Since then, digging gear's been going uphill—timber, rope, pulleys, food enough for more people than the fort normally holds. I went up as far as the lower bend three days ago. Didn't see a single garrison uniform come down. Didn't see prisoners either.
 
-**ILYRA:** Bodies?
+**ILYRA:** Nobody from the fort made it here afterward?
 
-**TORREN:** Not from where I was.
+**TORREN:** Not that I know. No bodies from where I was either.
 
 **CYANIS:** Anything that tells you whether the garrison is still alive?
 
@@ -278,7 +304,7 @@ Torren answers before Maevra can.
 
 **TORREN:** Give him time.
 
-**ILYRA:** He'll recover.
+**ILYRA:** He's been remarkably restrained. I don't trust it either.
 
 **CYANIS:** Excellent. Everyone's settled in.
 
@@ -298,13 +324,15 @@ Torren returns to the practical problem.
 
 **MAEVRA:** See why I came here?
 
-**CYANIS:** I was starting to.
+**ILYRA:** The terrible personality really sells the expertise.
 
-**MAEVRA:** Don't tell him. He becomes unbearable.
+Torren looks at her.
 
-**TORREN:** Already am.
+**TORREN:** You're still here.
 
-Cyanis looks at him.
+**ILYRA:** Unfortunately for both of us.
+
+Cyanis laughs.
 
 **CYANIS:** You fight too, or are we carrying you when this goes badly?
 
@@ -364,17 +392,19 @@ Torren looks back to the group.
 
 A beat.
 
-**ILYRA:** I understand why you wanted him.
+**ILYRA:** I hate that I understand the soil argument now.
 
 **MAEVRA:** Don't tell him that.
 
-**CYANIS:** I was going to.
+**ILYRA:** I was considering telling him solely to make your day worse.
 
-**MAEVRA:** Especially you.
+**CYANIS:** I like her more every minute too.
 
-**TORREN:** Heard both of you.
+**MAEVRA:** Especially neither of you.
 
-**MAEVRA:** Tragic.
+**TORREN:** Heard all of that.
+
+**ILYRA:** Good.
 
 Scene ends.
 
@@ -392,7 +422,7 @@ Story state:
 - Torren Harth has been introduced in his normal route-work context;
 - Torren has seen Maevra's splinted broken arm and knows it happened during the convoy attack;
 - Maevra remains a noncombat traveling companion during Chapter 1 because of the injury;
-- Maevra and Torren's long familiarity is clear through their speech without giving Ilyra or Cyanis a formal history lecture;
+- Maevra and Torren's long familiarity is clear through their speech without giving Ilyra or Cyanis a formal history lecture or an exact duration;
 - the direct Greenhollow–Dunmere road is under Black Host control;
 - Torren can guide the deeper Briar route, but Hollow Watch must be dealt with first;
 - Torren knows the Black Host seized Hollow Watch roughly a week ago and has seen excavation traffic going up;
@@ -417,6 +447,7 @@ Next mandatory story beat:
 
 - Torren remains conclusion-first, but route/terrain questions naturally pull longer evidence-rich turns out of him.
 - his uncertainty stays explicit and competent; he refuses to convert missing information about the garrison into a theory simply to sound decisive.
-- Maevra/Torren banter is fast because of their history, but serious concern can erase the joke without either explaining the relationship to the audience.
-- Cyanis and Ilyra interact with Torren's actual reasoning rather than serving only as prompts.
+- Maevra/Torren banter is fast because of their history, but serious concern can erase the joke without either explaining the relationship to the audience. The exact duration is not spoken.
+- Ilyra answers medical questions when someone genuinely asks for her medical judgment, but she is also curious about Torren's route reasoning, profane, teasing, willing to needle Maevra, and beginning her own independent social friction with Torren.
+- Ilyra does not function as the relationship reader for Maevra/Torren and does not own every human-consequence line.
 - no route, Card, injury, recruitment, or Hollow Watch knowledge boundary changes.
