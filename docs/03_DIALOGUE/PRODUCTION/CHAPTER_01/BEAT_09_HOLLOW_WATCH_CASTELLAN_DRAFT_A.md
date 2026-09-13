@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 9
 # Hollow Watch Castellan
-## DIALOGUE ENGINE PRODUCTION DRAFT D — established gameplay presentation + speech-only mid-battle dialogue / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 ---
 
@@ -26,19 +26,37 @@ The relevant characters may appear as simple field models. Portraits and the dia
 
 A green-gold seam lights beneath Cyanis and runs toward the integrated structure.
 
+Ilyra sees Cyanis and the Card before she looks at the mechanism.
+
 **ILYRA:** Cyanis.
 
-**CYANIS:** Yeah.
+**CYANIS:** Yeah. I see it.
+
+**ILYRA:** Any change in you?
+
+Cyanis has learned the question well enough not to answer with `fine`.
+
+**CYANIS:** No dizziness. No numbness. Nothing yet.
 
 The ancient assembly begins to move.
 
-**TORREN:** Back?
+Torren looks back toward the threshold.
+
+**TORREN:** We backing out?
 
 A beat.
 
-**MAEVRA:** Too late.
+Maevra reads the door/activation timing and the movement already underway.
+
+**MAEVRA:** Too late for clean. If we run now, we find out whether it follows us into the narrow part.
+
+**CYANIS:** Don't love that experiment.
 
 The assembly unfolds enough to reveal the Hollow Watch Castellan as a defense construct.
+
+**TORREN:** Then stay here and kill it.
+
+**ILYRA:** Preferably before we learn anything else about the room.
 
 **MAEVRA:** Go.
 
@@ -85,7 +103,13 @@ The following dialogue is **speech-only** over active battle:
 
 **CYANIS:** Excellent medical advice.
 
-**ILYRA:** Move.
+**ILYRA:** Cyanis.
+
+**CYANIS:** Moving.
+
+**TORREN:** Trainable.
+
+**CYANIS:** Shut up, Harth.
 
 Combat continues immediately.
 
@@ -111,11 +135,13 @@ Portraits and the dialogue box carry the conversation.
 
 A beat.
 
+Torren watches the inert construct rather than immediately relaxing.
+
 **TORREN:** Think that's done.
 
 **CYANIS:** Think?
 
-**TORREN:** Want me to kick it?
+**TORREN:** Want certainty, go kick it.
 
 **CYANIS:** No.
 
@@ -123,41 +149,73 @@ A beat.
 
 **CYANIS:** Strongly no.
 
-**ILYRA:** You all right?
+Ilyra is already looking at him.
 
-**CYANIS:** Yeah.
+**ILYRA:** Your turn. Dizziness?
 
-Ilyra performs one simple pulse check if needed for the scene read; no bespoke animation is required.
+**CYANIS:** No.
 
-**ILYRA:** Fast.
+**ILYRA:** Numbness?
 
-**CYANIS:** We just fought a wall.
+**CYANIS:** No.
 
-**TORREN:** Wall fought back.
+**ILYRA:** Card sensation different?
 
-**ILYRA:** You're fine.
+Cyanis checks the Card and himself before answering.
+
+**CYANIS:** No. Heart's fast because we just fought a wall that learned to walk.
+
+Ilyra accepts the reason without declaring more than she knows.
+
+**ILYRA:** All right. Keep telling me if that changes.
 
 **CYANIS:** Beautiful words.
 
-A beat.
+Torren looks at the Castellan.
 
-Maevra's attention shifts to the Card and the line that activated when they entered. Portrait expression is enough; she does not need to walk over and inspect the floor.
+**TORREN:** Wall fought back.
+
+**CYANIS:** Thank you for preserving the important part.
+
+Maevra's attention shifts to the green-gold seam that activated when they entered.
+
+Cyanis notices where she's looking.
 
 **CYANIS:** Don't.
 
 **MAEVRA:** I didn't say anything.
 
-**CYANIS:** You were about to.
+**CYANIS:** You were assembling a question.
 
-**MAEVRA:** I was thinking.
+**MAEVRA:** Several.
 
 **CYANIS:** Worse.
+
+**MAEVRA:** Fine. First one only. Did the Card do anything you could feel before that seam lit?
+
+Cyanis looks to Ilyra, then answers for himself.
+
+**CYANIS:** No.
+
+**ILYRA:** And I didn't see the same physical response as Brackenwall or the convoy. That's all we have.
+
+Maevra nods.
+
+**MAEVRA:** Then that's all we write down.
+
+Torren looks toward the chamber entrance, then at the dead construct.
 
 **TORREN:** Host got here first.
 
 **ILYRA:** Not through it.
 
-**TORREN:** No.
+**TORREN:** No. Which means whatever's behind it is the first thing down here they didn't get to paw through.
+
+**CYANIS:** Finally, good news.
+
+**MAEVRA:** You have a dangerous definition of good news.
+
+**CYANIS:** It's been a difficult week.
 
 Nobody explains why the Castellan activated.
 
@@ -169,11 +227,19 @@ With the Castellan defeated, the short protected passage it physically obstructe
 
 No additional mechanism opens. No treasure-door or machinery sequence is added.
 
+Cyanis looks through the newly exposed route.
+
 **CYANIS:** They never made it past this room.
 
-**MAEVRA:** No.
+**MAEVRA:** No. Which means whatever we find next is ours to misunderstand first.
 
-**TORREN:** Better find out what they were trying so hard to reach.
+Torren gives her a look.
+
+**TORREN:** Inspiring.
+
+**MAEVRA:** Accurate.
+
+Ilyra looks down the protected passage.
 
 **ILYRA:** After you.
 
@@ -182,6 +248,20 @@ No additional mechanism opens. No treasure-door or machinery sequence is added.
 **ILYRA:** Shield.
 
 **CYANIS:** Right.
+
+Torren falls into the same old dry cadence.
+
+**TORREN:** Trainable.
+
+Cyanis looks back at him.
+
+**CYANIS:** That's twice. You're getting comfortable.
+
+**TORREN:** Maybe.
+
+**CYANIS:** Oh, fuck you.
+
+Maevra laughs outright this time.
 
 Scene ends.
 
@@ -218,16 +298,9 @@ Next mandatory story beat: **Beat 10 — Post-Castellan Mural.**
 
 ---
 
-## Presentation / canon check
+## Person-Brain performance note
 
-**Traversal:** Cyanis only during ordinary chamber entry and protected-passage traversal.
-
-**Triggered scenes:** the relevant cast may appear for the activation and post-boss scenes.
-
-**Battle:** battle presentation owns combat models and movement; Maevra is excluded.
-
-**Mid-battle dialogue:** speech-only, with no authored character movement.
-
-**Required physical presentation:** the fitted line response, Castellan activation, integrated-to-mobile boss transition, boss defeat, and exposed passage are retained because they are actual story/encounter events.
-
-**Reduction:** removed pre-battle weapon/formation choreography, repeated boss-anchor micro-beats, post-boss bow/shield posing, Maevra walking to inspect the seam, repeated looking/turning directions, Wardrod adjustment, and other incidental staging.
+- Ilyra's post-boss check now preserves the evidence discipline established in Chapter 0: a fast pulse after combat is not automatically `fine`, and she asks for specific changes rather than performing a generic healer check.
+- Maevra is allowed one focused question about the activation rather than silently staring or launching into theory.
+- Cyanis/Torren's sharper teasing begins to emerge from a repeated live callback (`trainable`) but remains lighter than the later Character-Life insults.
+- the scene still refuses to explain why the Castellan activated or promote timing into causation.
