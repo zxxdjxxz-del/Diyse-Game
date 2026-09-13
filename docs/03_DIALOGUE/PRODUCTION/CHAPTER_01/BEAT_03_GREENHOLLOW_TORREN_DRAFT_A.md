@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 3
 # Greenhollow / Torren
-## DIALOGUE ENGINE PRODUCTION DRAFT F — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 ---
 
@@ -28,21 +28,51 @@ Cyanis, Ilyra, Maevra, and Torren may be present as simple field models around t
 
 **MAEVRA:** Torren.
 
+Torren looks up.
+
 **TORREN:** Maevra.
 
-A beat.
-
-Torren sees the splint.
+His eyes drop immediately to the splint.
 
 **TORREN:** What happened?
 
 **MAEVRA:** Convoy got hit. Hard enough to break the arm, not hard enough to keep me home.
 
-**TORREN:** Of course not.
+Torren looks at the splint a little longer than he looks at her face.
+
+**TORREN:** Who set it?
+
+**MAEVRA:** Field medic first. Amarin redid it this morning before she'd let me out of Brackenwall.
+
+Torren looks to Ilyra.
+
+**ILYRA:** It was serviceable. It needed changing.
+
+**TORREN:** Better now?
+
+**MAEVRA:** Yes, mother.
+
+**TORREN:** Wasn't asking you.
+
+Maevra gives him a look.
+
+Ilyra's mouth twitches.
+
+**ILYRA:** Better now.
+
+**TORREN:** Good.
 
 **MAEVRA:** Good to see you too.
 
-Torren looks past her at Cyanis and Ilyra.
+**TORREN:** You walked in with a broken arm.
+
+**MAEVRA:** Splinted arm.
+
+**TORREN:** Still broken under it.
+
+**MAEVRA:** There he is.
+
+Only then does Torren look past her at Cyanis and Ilyra properly.
 
 **TORREN:** You brought trouble.
 
@@ -50,13 +80,19 @@ Torren looks past her at Cyanis and Ilyra.
 
 **TORREN:** Four things, then.
 
-**MAEVRA:** There he is.
+**CYANIS:** I'm assuming one of us is being counted twice.
 
-That is the only new injury exchange. Torren notices because he knows Maevra; the scene does not become about her arm.
+**TORREN:** Haven't decided yet.
+
+**MAEVRA:** Don't encourage yourself.
+
+The exchange establishes their familiarity without pausing to explain its history.
 
 ---
 
 ### [ROUTE BOARD]
+
+Torren turns back to the route board.
 
 **TORREN:** Heard enough about the convoy to know you weren't coming here for the scenery.
 
@@ -70,17 +106,45 @@ That is the only new injury exchange. Torren notices because he knows Maevra; th
 
 A beat.
 
+Cyanis glances at Maevra.
+
+**CYANIS:** He does this all the time?
+
+**MAEVRA:** Gets worse if you react.
+
+**TORREN:** Gets funnier.
+
+**MAEVRA:** To you.
+
+Torren gestures only as much as needed toward the existing route information.
+
 **MAEVRA:** We need Caelora. Direct road's out, I assume.
 
-**TORREN:** Host owns it right now. Dunmere through Briar is still possible, but I wouldn't call it clean. Some of what I've got is from this morning; my own south-route pass is three days old.
+**TORREN:** Host owns it right now. Not just patrols. They can stop wagons, hold the road, and move people off it before Greenhollow hears. Dunmere through Briar is still possible, but I wouldn't call it clean.
 
-**ILYRA:** Three days is enough for it to change?
+**ILYRA:** How current is that?
 
-**TORREN:** Easily.
+That is the kind of question Torren actually likes.
 
-**MAEVRA:** You're selling this beautifully.
+**TORREN:** Depends which part. North of the old quarry, this morning. Creek line south of Greenhollow, yesterday. My own full south-route pass is three days old. That's enough time for weather, traffic, or the Host to change the answer, so if I say `possible`, I mean possible—not safe, not open, and not guaranteed because a board says so.
 
-**TORREN:** You came to me because I wouldn't lie about it.
+Cyanis looks at the route board again.
+
+**CYANIS:** Maevra warned me you did this.
+
+**TORREN:** Did what?
+
+**CYANIS:** Turn one road question into an argument about what the word `road` means.
+
+**TORREN:** If you use the wrong word, you make the wrong plan.
+
+Maevra looks delighted despite herself.
+
+**MAEVRA:** Twenty-five years and he's still exactly this fucking annoying.
+
+Torren glances at her.
+
+**TORREN:** You came to me.
 
 **MAEVRA:** I did.
 
@@ -96,17 +160,41 @@ A beat.
 
 **TORREN:** See?
 
-Cyanis looks at the route board.
+Ilyra studies the board.
 
-**CYANIS:** So the map's mostly an argument.
+**ILYRA:** So if the map says road and you say route, I should listen to you.
 
-**TORREN:** Good maps are. Ground changes; paper doesn't unless somebody bothers to fix it.
+**TORREN:** If we're standing here, no. If we're on it and the ground disagrees with the map, yes.
+
+**ILYRA:** Fair.
+
+Torren nods once. That answer mattered more to him than the joke.
+
+**CYANIS:** Good maps are an argument, then.
+
+Torren actually considers the phrase.
+
+**TORREN:** More like a promise somebody made about the ground at a particular time. Good map tells you who made the promise, when, and what they bothered to check. Bad one just draws a confident line and lets you discover the rest with a broken axle.
+
+A beat.
+
+**CYANIS:** That's considerably more words than Maevra promised.
+
+**MAEVRA:** Roads. I warned you.
+
+Torren looks at her.
+
+**TORREN:** You talk too much about food.
+
+**MAEVRA:** Food deserves it.
 
 The route board is the only object this exchange needs. No chalk-passing, repeated pointing, route-line tracing, or other board choreography is required.
 
 ---
 
 ### [THE CARD]
+
+Maevra does not launch into the convoy story.
 
 **MAEVRA:** One complication. Recovered Card. Moving it away from Dovaren made him sick.
 
@@ -116,17 +204,25 @@ Torren looks at Cyanis, then at Ilyra.
 
 **ILYRA:** Stable now. Keep the Card with him and don't test the distance again.
 
-**CYANIS:** That condition was added later.
+Torren waits half a beat, making sure there is not another travel consequence coming.
+
+**TORREN:** Walking, climbing, fighting?
+
+**ILYRA:** Yes to all three as of this morning. If symptoms return, that answer changes.
 
 **TORREN:** Fine.
 
 **CYANIS:** That's it?
 
-**TORREN:** You want me to diagnose old metal I've never studied, or tell you whether you can walk south today?
+**TORREN:** You want me to diagnose old magic I've never studied, or tell you whether your legs work on the south road today?
 
 **CYANIS:** Second one.
 
 **TORREN:** Then that's it.
+
+**CYANIS:** I like him.
+
+**MAEVRA:** Give it time.
 
 No one turns this into a discussion of what the Card is. Torren receives only the travel-relevant facts.
 
@@ -134,9 +230,27 @@ No one turns this into a discussion of what the Card is. Torren receives only th
 
 ### [HOLLOW WATCH]
 
-Torren looks north on the route board.
+Torren looks toward the north side of the route board.
 
-**TORREN:** Before south, we go to Hollow Watch. Host took it last week and they've been sending digging gear uphill ever since. I went as far as the lower bend; I haven't seen anyone from the garrison come down.
+His tone changes. The joke goes away.
+
+**TORREN:** Before south, we go to Hollow Watch.
+
+**MAEVRA:** Why?
+
+**TORREN:** Host took it last week. Since then, digging gear's been going uphill—timber, rope, pulleys, food enough for more people than the fort normally holds. I went up as far as the lower bend three days ago. Didn't see a single garrison uniform come down. Didn't see prisoners either.
+
+**ILYRA:** Bodies?
+
+**TORREN:** Not from where I was.
+
+**CYANIS:** Anything that tells you whether the garrison is still alive?
+
+Torren shakes his head.
+
+**TORREN:** No. That's why I'm still saying `don't know` instead of giving you a nicer answer. Could be dead. Could be held below sight. Could've been moved before I got there. The digging is real. The rest is empty space people will fill with whatever scares them most if you let them.
+
+Maevra studies him.
 
 **MAEVRA:** You went up alone.
 
@@ -144,11 +258,11 @@ Torren looks north on the route board.
 
 **MAEVRA:** That was not the part I objected to.
 
+Torren looks at her for a beat.
+
 **TORREN:** I know.
 
-**ILYRA:** Anything that tells you whether the garrison is still alive?
-
-**TORREN:** No. That's why I'm still here instead of pretending I know.
+No joke follows that one.
 
 Cyanis looks toward the north route.
 
@@ -158,6 +272,10 @@ Maevra looks at him.
 
 **MAEVRA:** I expected at least one argument.
 
+**CYANIS:** He gave me evidence, limits, and a reason it can't wait. What am I arguing with?
+
+Torren answers before Maevra can.
+
 **TORREN:** Give him time.
 
 **ILYRA:** He'll recover.
@@ -166,7 +284,27 @@ Maevra looks at him.
 
 A beat.
 
-**TORREN:** Main road up is watched. I know another way to the ridge. If you're going, I'll take you.
+Torren returns to the practical problem.
+
+**TORREN:** Main road up is watched from the fort and exposed most of the last climb. I know another way to the ridge. Narrower, worse footing, but trees break sight from above and the final approach stays under the west wall.
+
+**CYANIS:** You've walked all of it?
+
+**TORREN:** To the ridge. Not into the occupied fort.
+
+**CYANIS:** Good distinction.
+
+**TORREN:** Important one.
+
+**MAEVRA:** See why I came here?
+
+**CYANIS:** I was starting to.
+
+**MAEVRA:** Don't tell him. He becomes unbearable.
+
+**TORREN:** Already am.
+
+Cyanis looks at him.
 
 **CYANIS:** You fight too, or are we carrying you when this goes badly?
 
@@ -188,9 +326,17 @@ A local route worker is part of Greenhollow's town population and may already be
 
 **ROUTE WORKER:** That's not what I meant.
 
-**TORREN:** If Miller comes back, ask him about the wash south of marker twelve. I want to know whether it cut deeper after the rain.
+**TORREN:** I know. If Miller comes back, ask him about the wash south of marker twelve. I want to know whether it cut deeper after the rain or just spread wider. If he only says `bad`, make him tell you which.
 
 **ROUTE WORKER:** Torren.
+
+**TORREN:** What?
+
+**ROUTE WORKER:** You're going into an occupied fort and you're assigning me drainage questions.
+
+**TORREN:** Both things matter tomorrow if I come back.
+
+The worker stares at him.
 
 **TORREN:** Ask him.
 
@@ -226,6 +372,10 @@ A beat.
 
 **MAEVRA:** Especially you.
 
+**TORREN:** Heard both of you.
+
+**MAEVRA:** Tragic.
+
 Scene ends.
 
 ---
@@ -242,7 +392,7 @@ Story state:
 - Torren Harth has been introduced in his normal route-work context;
 - Torren has seen Maevra's splinted broken arm and knows it happened during the convoy attack;
 - Maevra remains a noncombat traveling companion during Chapter 1 because of the injury;
-- Maevra and Torren's long familiarity is clear through their speech without giving Ilyra their exact twenty-five-year history before the later private camp conversation;
+- Maevra and Torren's long familiarity is clear through their speech without giving Ilyra or Cyanis a formal history lecture;
 - the direct Greenhollow–Dunmere road is under Black Host control;
 - Torren can guide the deeper Briar route, but Hollow Watch must be dealt with first;
 - Torren knows the Black Host seized Hollow Watch roughly a week ago and has seen excavation traffic going up;
@@ -263,11 +413,10 @@ Next mandatory story beat:
 
 ---
 
-## Audit check
+## Person-Brain performance note
 
-- Torren remains comparatively terse and conclusion-first, but his actual route evidence arrives in complete field judgments rather than one fact per turn.
-- Torren's Card briefing is consequence-first; Maevra and Ilyra do not replay the Brackenwall transfer scene for a new listener.
-- Cyanis accepts Hollow Watch without verbally restating Torren's motivation and evidence back to the group.
-- Rapid Maevra/Torren banter stays rapid because that cadence belongs to their relationship rather than to the whole script.
-- Hollow Watch uncertainty remains bounded; Torren does not gain knowledge he does not have.
-- No story, route, Card, injury, recruitment, or gameplay outcome changed.
+- Torren remains conclusion-first, but route/terrain questions naturally pull longer evidence-rich turns out of him.
+- his uncertainty stays explicit and competent; he refuses to convert missing information about the garrison into a theory simply to sound decisive.
+- Maevra/Torren banter is fast because of their history, but serious concern can erase the joke without either explaining the relationship to the audience.
+- Cyanis and Ilyra interact with Torren's actual reasoning rather than serving only as prompts.
+- no route, Card, injury, recruitment, or Hollow Watch knowledge boundary changes.
