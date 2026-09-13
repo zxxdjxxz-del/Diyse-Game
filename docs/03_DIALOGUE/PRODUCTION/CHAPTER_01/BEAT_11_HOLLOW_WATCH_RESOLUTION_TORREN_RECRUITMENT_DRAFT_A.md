@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 11
 # Hollow Watch Resolution / Torren Recruitment
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE + FINAL ENSEMBLE BALANCE PASS
 
 ---
 
@@ -118,17 +118,15 @@ Torren waits a fraction longer.
 
 **TORREN:** No ceremony.
 
-**CYANIS:** Thought so.
+**ILYRA:** Good. I refuse to stand through one after today.
 
-Ilyra looks at Torren.
+**TORREN:** Wasn't asking you to.
 
-**ILYRA:** You know you can change your mind later without anyone treating this like an oath.
+**ILYRA:** See? We're getting along.
 
-Torren nods.
+Cyanis laughs once.
 
-**TORREN:** I know. Not planning to.
-
-That is as close as the scene gets to formal recruitment language.
+That is as close as the scene gets to formal recruitment language. Nobody turns Torren's decision into an oath or asks Ilyra to police his agency.
 
 ---
 
@@ -152,11 +150,11 @@ A beat.
 
 **MAEVRA:** Had to ask.
 
-**TORREN:** Twenty-five years and you're still terrible.
+**TORREN:** All this time and you're still terrible.
 
-**MAEVRA:** Twenty-five years and you still answer.
+**MAEVRA:** All this time and you still answer.
 
-Ilyra cuts across the old rhythm before they can spiral.
+Ilyra lets the old rhythm pass, then looks south.
 
 **ILYRA:** We stop when we reach it. Look at what's actually there before we decide the mural told us anything more.
 
@@ -168,9 +166,13 @@ Cyanis looks at her.
 
 **ILYRA:** Somebody has to survive long enough to tell the interesting conclusions they're wrong.
 
-**MAEVRA:** I like her.
+**MAEVRA:** That's Amarin.
 
-**CYANIS:** Everyone keeps saying that around me.
+**CYANIS:** You say that like it's an explanation.
+
+**MAEVRA:** It usually is.
+
+**ILYRA:** You're welcome.
 
 Nobody names the monument or assigns it a function.
 
@@ -258,10 +260,11 @@ Next mandatory story beat: **Beat 12 — Southern Briar Passage.**
 
 ---
 
-## Person-Brain performance note
+## Person-Brain / ensemble performance note
 
 - Torren's understated recruitment remains understated, but his reason for leaving Greenhollow is allowed to be a complete adult decision rather than four clipped answers.
-- Ilyra explicitly removes any accidental oath/obligation framing without turning the moment sentimental.
-- Maevra/Torren's twenty-five-year history appears through their rhythm and callbacks, not biography.
+- Ilyra no longer receives an automatic agency/consent-management line about Torren's decision. Her participation is ordinary social humor and emerging friction with him.
+- Maevra/Torren long familiarity remains obvious through rhythm and callbacks, but the exact twenty-five-year duration is no longer spoken in Chapter 1.
+- Maevra's response to Ilyra now reflects preexisting familiarity: she knows Amarin rather than reacting as though she has just decided she likes a new acquaintance.
 - the report discussion remains selective: characters do not recap Hollow Watch, but Maevra can explain why the mural needs priority in the written report.
 - no recruitment, route, mural, Card, or gameplay outcome changes.
