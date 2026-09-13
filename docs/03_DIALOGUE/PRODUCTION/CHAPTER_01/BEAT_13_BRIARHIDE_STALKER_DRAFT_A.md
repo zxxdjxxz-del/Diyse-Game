@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 13
 # Briarhide Stalker / Chapter-1 Final Boss
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS + ILYRA ROLE-BALANCE PASS
 
 ---
 
@@ -57,13 +57,17 @@ Torren does not take his eyes off it.
 
 **TORREN:** Yeah.
 
-Ilyra studies the space around the animal rather than the animal alone.
+Ilyra studies the animal.
 
-**ILYRA:** Route around it?
+**ILYRA:** I was prepared to make fun of both of you for the buildup.
 
-Torren answers immediately.
+**CYANIS:** And?
 
-**TORREN:** Not without backing up a long way, and I don't want to turn our backs on something that already knows we're here. Junction's straight through.
+**ILYRA:** I have revised my position.
+
+Torren checks the route rather than enjoying being right.
+
+**TORREN:** No clean way around it without backing up a long way, and I don't want to turn our backs on something that already knows we're here. Junction's straight through.
 
 **CYANIS:** Can we wait it out?
 
@@ -81,13 +85,11 @@ Cyanis exhales.
 
 **CYANIS:** Of course we do.
 
-Ilyra looks at Cyanis, then Torren.
-
-**ILYRA:** No tricks, then. Natural animal, ordinary fight, and if either of you starts treating `natural` like it means harmless, I'm leaving you to explain the bites yourselves.
+**ILYRA:** Fine. But if either of you says `it's only an animal` in the next five minutes, I'm siding with the animal.
 
 **CYANIS:** Comforting.
 
-**TORREN:** Accurate.
+**TORREN:** Fair.
 
 Maevra remains outside the battle party.
 
@@ -135,31 +137,37 @@ Cyanis remembers the Castellan.
 
 **CYANIS:** Better.
 
-Ilyra checks the three combatants with her eyes first.
+Maevra looks over the three who actually fought.
 
-**ILYRA:** Everybody still standing and answering correctly?
+**MAEVRA:** Everybody still in one piece?
 
 **TORREN:** Yeah.
 
-**CYANIS:** Yes. No dizziness, no numbness, nothing strange from the Card. Before you ask.
+**CYANIS:** Yes. And before anybody gets ambitious, no dizziness, no numbness, nothing strange from the Card.
 
-Ilyra looks at him for a beat.
+Ilyra looks at him.
 
-**ILYRA:** Look at that. He can learn.
+**ILYRA:** Nobody asked.
 
-**TORREN:** Told you. Maybe.
+**CYANIS:** I know. I'm showing initiative.
 
-Cyanis points at Torren.
+**ILYRA:** Horrifying.
 
-**CYANIS:** You're enjoying that now.
+Torren glances at her.
 
-**TORREN:** A little.
+**TORREN:** Trainable.
+
+**CYANIS:** You two need separate material.
+
+**ILYRA:** No. This one's efficient.
 
 Maevra looks at the dead Briarhide, then at the rise ahead.
 
 **MAEVRA:** Everyone done congratulating Dovaren on basic communication?
 
-**ILYRA:** For now.
+**ILYRA:** I was insulting him.
+
+**CYANIS:** Thank you.
 
 **MAEVRA:** Junction?
 
@@ -175,7 +183,9 @@ Cyanis looks ahead.
 
 **MAEVRA:** If the monument attacks us, I'm blaming him.
 
-**ILYRA:** Agreed.
+**ILYRA:** I'm blaming you for saying that out loud.
+
+**MAEVRA:** Fair.
 
 **TORREN:** Good. Let's go.
 
@@ -217,6 +227,7 @@ Next mandatory story beat:
 
 - **Lethal Briarhide lock:** explicit. The Stalker dies in the boss fight. No stale nonlethal/drive-off language is legal here.
 - Torren gives a full field judgment about why the animal is not simply `in the way`; this is exactly the kind of animal/terrain subject that naturally makes him more verbal.
-- Ilyra's post-boss check reflects the interaction rhythm already built with Cyanis rather than resetting to generic `you all right?` dialogue.
+- Maevra, not Ilyra, owns the ordinary post-combat `everyone intact?` check. Cyanis volunteers his Card symptoms from learned continuity rather than waiting for Ilyra to administer a checklist.
+- Ilyra's role is personal and social: she revises her opinion of the animal, jokes about siding with it, needles Cyanis, and joins the emerging `trainable` callback without becoming the team's post-battle medical voice.
 - post-boss humor shows growing group familiarity without turning the kill into celebration.
 - no corruption, Black Host control, special-condition mystery, or hidden encounter phase is added.
