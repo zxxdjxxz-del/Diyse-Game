@@ -8,8 +8,8 @@
 - Age: **22**
 - Permanent party: **yes**
 - Join: **Chapter 3**
-- Base / Subclass: **Cardweaver / Proofhunter**
-- Face: **Memory**
+- Base / Subclass: **Cardweaver / Sixfold Knight**
+- Face: **Resource**
 - Story Prime: **Last Scribe**
 
 **Naming lock:** Pellan is Nimera's canonical surname. Dialogue may use `Nimera`, `Pellan`, or `Nimera Pellan` according to relationship, formality, and scene context.
@@ -26,10 +26,10 @@ She cares deeply about:
 - what a record actually proves;
 - the difference between a conclusion and an assumption.
 
-## Memory
-Nimera's Cardweaver identity is aligned to **Memory**: recall, preservation, and the continuing influence of what has already happened. Exact combat implementation belongs to the current class/Card authorities.
+## Face / class boundary
+Nimera's current Base Class is **Cardweaver**, aligned to the current **Resource** Face. Her later **Sixfold Knight** Subclass belongs to the reciprocal donor architecture with Torren.
 
-Her current Subclass is **Proofhunter**, aligned through the reciprocal Torren/Nimera donor architecture to **Perception**. Older Sixfold Knight subclass naming is superseded and must not be restored here.
+Exact Face and class mechanics belong to `06_CLASSES_AND_ABILITIES` and `07_CARDS`. Older `Memory`, `Proofhunter`, or other superseded terminology in migration material must not be revived here.
 
 ## Ordinary-life identity
 Central social trait:
@@ -47,7 +47,7 @@ She may:
 - enjoy games, scoring systems, classification, and rules enough to become part of the joke when a scene establishes them;
 - treat mundane objects or ordinary complaints with the same curiosity she brings to serious records.
 
-Do not turn every interest into foreshadowing or a metaphor for Memory.
+Do not turn every interest into foreshadowing or a metaphor for Resource.
 
 ## Social behavior
 Nimera:
@@ -55,7 +55,7 @@ Nimera:
 - challenges wording;
 - notices contradictions;
 - revises herself aloud;
-- can talk quickly when interested;
+- can talk quickly and at length when interested;
 - uses clever/frequent profanity in ordinary speech;
 - pushes authority when its evidence is weak;
 - can dominate a scene if nobody else is allowed to interrupt, leave, ignore her, or say the point is settled.
@@ -63,6 +63,21 @@ Nimera:
 She is not entitled to another person's history merely because she is curious or good with records.
 
 Curiosity must distinguish **evidence from personhood**.
+
+### Floor-holding / correction reflex
+When a distinction matters to her, Nimera does **not** automatically yield after one sentence. She may keep the floor long enough to:
+- correct the original word;
+- explain why the distinction matters;
+- realize her first correction was also imprecise;
+- revise it aloud;
+- swear at the record, label, mechanism, or herself;
+- finally give the simpler useful answer.
+
+Other people are allowed to interrupt this process. In fact, once the group knows her better, they often should. Her speed is conversational behavior, not a monologue entitlement.
+
+A typical Nimera exchange may therefore contain overlapping starts, `No—`, `Wait`, `Technically`, self-correction, somebody cutting her off, her objecting to the interruption because she was "almost done," and then her continuing with one more sentence anyway.
+
+Do not compress this behavior into sterile one-line exposition merely because the factual answer is short.
 
 ## Conversational habits
 Compatible habits from the completed dialogue study include patterns such as:
@@ -77,6 +92,21 @@ These are habits, not mandatory catchphrases. Exact wording should vary naturall
 When genuinely exposed, her language can become unusually simple and lose the protective speed/cleverness.
 
 When truly furious, she tends to become more formal and may stop swearing.
+
+## Profanity
+Nimera swears **frequently and naturally** in ordinary adult speech, especially when:
+- a record is badly categorized;
+- somebody makes an unsupported leap;
+- a mechanism is fascinating and inconvenient at the same time;
+- she catches her own bad assumption;
+- the group is relaxed enough for playful argument;
+- a technical distinction has become absurd.
+
+Her profanity is often precise, inventive, or embedded inside an explanation rather than appended as generic toughness.
+
+Do not sanitize her merely because she is the scholar, the youngest current party member, or the person explaining something.
+
+Do not make every line profane. True fury may become cleaner and more formal; genuine vulnerability may become much plainer.
 
 ## Humor
 Primary modes:
@@ -117,7 +147,7 @@ She does **not** automatically know:
 
 She is specifically capable of warning against bad archaeology and overclaiming certainty.
 
-Proofhunter/Subclass expertise is unavailable before its current story unlock.
+Sixfold Knight/Subclass expertise is unavailable before its current story unlock.
 
 ## Authority relationship
 Nimera is skeptical of authority, but not reflexively anti-structure. Her instinct is to ask who classified something, who combined the records, what evidence made a category legal, and whether a record is being treated as more certain than it is.
@@ -141,8 +171,11 @@ Useful shapes:
 - challenge to a word/category rather than the person;
 - a joke that becomes an argument about the joke;
 - a fast explanation followed by a simpler restatement when needed;
+- correction → evidence → self-correction → profanity → usable conclusion;
 - sudden plain language when genuinely vulnerable;
 - silence when somebody else actually owns the emotional moment.
+
+Nimera is one of the cast members most likely to produce an **earned multi-sentence turn**. Do not chop such turns into artificial party ping-pong. If someone interrupts, the interruption must come from that person's own motive, not from a line-length quota.
 
 ## Anti-drift
 Do not reduce Nimera to:
@@ -156,7 +189,7 @@ Do not reduce Nimera to:
 - childlike younger-party-member role.
 
 ## Voice shorthand
-Fast when interested, precise about evidence, casually profane, playful, occasionally delighted by technical absurdity.
+Fast when interested, precise about evidence, casually profane, playful, correction-prone, and occasionally delighted enough by technical absurdity to keep talking well past the first complete sentence.
 
 ## Visual
 Current visual authority: `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/NIMERA_CURRENT_VISUAL_LOCK.md` and `asset_sources/characters/current/nimera.jpg`.
