@@ -1,8 +1,8 @@
 # Chapter 3 — Beat 8
 # Archive Scribe Engine / Nimera Joins
-## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN
+## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN — PERSON-BRAIN PERFORMANCE PASS
 
-**Method note:** fresh rehearsal under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The hard outcomes are Scribe Engine combat, Nimera demonstrating combat competence, bounded evidence review, and Nimera becoming a permanent party member. No recruitment conversation or post-fight checklist was prescribed to the Person Agents.
+**Method note:** fresh rehearsal under `STORY_BEAT_AS_GUARDRAIL_LOCK.md` and `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. The hard outcomes are Scribe Engine combat, Nimera demonstrating combat competence, bounded evidence review, and Nimera becoming a permanent party member. No recruitment conversation or post-fight checklist was prescribed to the Person Agents.
 
 ---
 
@@ -16,13 +16,13 @@ Torren watches it move.
 
 **TORREN:** That's coming this way.
 
-**NIMERA:** Scribe assembly.
+**NIMERA:** Scribe assembly. Or a cousin of one. Don't quote me yet.
 
 A second set of arms locks into place.
 
 **CYANIS:** Is that good?
 
-**NIMERA:** Usually they don't point things at me.
+**NIMERA:** Usually they don't point things at me, so I'm going to say no with increasing confidence.
 
 One arm snaps forward and strikes the floor where they had been standing.
 
@@ -34,15 +34,17 @@ Cyanis shifts into combat position.
 
 Nimera already has her Conduit out and a Card ready.
 
-**NIMERA:** Don't.
+**NIMERA:** If that sentence ends with "stay back," save the breath.
 
 Cyanis looks at her once, sees what she means, and turns back to the machine.
 
-**CYANIS:** Fine.
+**CYANIS:** Was going to say left side.
+
+**NIMERA:** Liar.
 
 **TORREN:** Left arm moves first.
 
-**NIMERA:** Then let's break its handwriting.
+**NIMERA:** Good. Then let's break its handwriting.
 
 ### [BATTLE — ARCHIVE SCRIBE ENGINE]
 
@@ -76,19 +78,33 @@ Nimera is staring at the disabled machine.
 
 **ILYRA:** Pellan.
 
+No response.
+
+**ILYRA:** Nimera.
+
 **NIMERA:** What?
 
 **ILYRA:** Upright?
 
-**NIMERA:** Yes.
+Nimera glances down at herself as if checking the premise.
 
-A beat.
+**NIMERA:** Yes. Sorry. It stopped halfway through a stroke and I was trying to decide whether that means the stroke mattered or whether I'm assigning intention to a broken mechanism because it tried to cave my ribs in.
 
-**NIMERA:** Sorry. It stopped halfway through a stroke.
+**TORREN:** It also tried to cave your ribs in.
 
-**TORREN:** It also tried to put the stroke through you.
+**NIMERA:** I covered that part.
 
-**NIMERA:** I noticed.
+**ILYRA:** Any pain?
+
+**NIMERA:** Nothing new.
+
+**ILYRA:** Good enough for now.
+
+Nimera starts toward the machine.
+
+**ILYRA:** Slowly.
+
+**NIMERA:** I heard the second half too.
 
 ### [WHAT THEY ACTUALLY HAVE]
 
@@ -100,19 +116,21 @@ Nimera examines only what remains legible without pretending she can reconstruct
 
 Torren waits.
 
-**NIMERA:** I know reopening the route woke it. I know it changed behavior when we entered. I know breaking those arms stopped the dangerous part.
+Nimera notices him waiting.
 
-**TORREN:** That's it?
+**NIMERA:** Don't do that.
 
-**NIMERA:** That's what happened.
+**TORREN:** Do what?
 
-**TORREN:** Fair.
+**NIMERA:** Stand there like the short answer offended you. Fine. Reopening the route woke it. It changed behavior when we entered. Breaking those arms stopped the dangerous part. That is what I know. I can invent three plausible reasons for the rest before breakfast and every one of them would still be invented.
 
-Nimera looks at him.
+**TORREN:** Better.
 
-**NIMERA:** You're going to be irritating.
+**NIMERA:** I hate you a little.
 
-**TORREN:** Probably.
+**TORREN:** Early yet.
+
+**NIMERA:** That's not reassuring.
 
 ### [THE CARD AGAIN]
 
@@ -122,7 +140,7 @@ Nimera turns to Cyanis.
 
 **CYANIS:** You just looked at it.
 
-**NIMERA:** Through a barrier. Before this thing woke up.
+**NIMERA:** Through a barrier, before an archive mechanism woke up and tried to write us into the floor. Context changed.
 
 Cyanis brings it out, still holding it himself.
 
@@ -136,37 +154,45 @@ She frowns.
 
 **ILYRA:** Difference?
 
-**NIMERA:** Bad would be an answer.
+**NIMERA:** Bad would be an answer. Inconvenient is six almost-answers standing in a circle and refusing to admit which one invited the others.
+
+**CYANIS:** That's very specific.
+
+**NIMERA:** I have experience.
 
 She looks again.
 
-**NIMERA:** I don't have a clean match.
+**NIMERA:** I don't have a clean match. There are structural echoes, maybe, but that phrase is dangerous because once I say it everybody starts hearing ancestry. I do not have ancestry. I have shapes I want to compare again when I'm less annoyed.
 
 **CYANIS:** Between the Card and this?
 
-**NIMERA:** Yes.
+**NIMERA:** Yes. And I was starting to want them connected too badly, which means I trust myself less, not more.
 
-A beat.
+Ilyra nods once.
 
-**NIMERA:** Which is useful, because I was starting to want one too badly.
+**ILYRA:** You wanted one problem instead of several.
 
-**ILYRA:** You wanted them connected.
-
-**NIMERA:** I wanted one problem instead of several.
+**NIMERA:** Exactly. One elegant problem. Very selfish of reality not to cooperate.
 
 **TORREN:** World rarely that polite.
 
-**NIMERA:** Apparently.
+**NIMERA:** I'm beginning to notice.
 
 She checks the bounded royal-seal comparison notes they carried down.
 
-**NIMERA:** And these still tell me the seal answered. They still don't tell me why.
+**NIMERA:** And these still tell me the seal answered. They still don't tell me why. Before anyone asks: no, the machine waking does not magically fix that. Different evidence, different fucking problem.
 
-**CYANIS:** So?
+Cyanis closes his mouth.
 
-Nimera looks toward the deeper route.
+**NIMERA:** Were you going to ask?
 
-**NIMERA:** So I need older records.
+**CYANIS:** Maybe.
+
+**NIMERA:** Growth.
+
+She looks toward the deeper route.
+
+**NIMERA:** I need older records.
 
 **TORREN:** Deeper.
 
@@ -174,7 +200,7 @@ Nimera looks toward the deeper route.
 
 **TORREN:** Left it home.
 
-**NIMERA:** Tragic.
+**NIMERA:** Selfish bastard.
 
 ### [NIMERA HAS ALREADY DECIDED]
 
@@ -190,11 +216,19 @@ Cyanis notices.
 
 **NIMERA:** No.
 
-She finishes securing her things and looks down the deeper passage.
+She keeps packing.
 
-**NIMERA:** I'm going that way.
+**CYANIS:** Because?
 
-**TORREN:** With us.
+**NIMERA:** Because the older records are down there, the route just opened, something down there has already reacted to us, and if I go upstairs now I will spend the entire walk thinking about the records I did not read. Also, if the archive decides to close another wall, I'd rather be on the interesting side of it this time.
+
+**ILYRA:** That's not a safety argument.
+
+**NIMERA:** I know. It wasn't meant to be.
+
+Torren looks down the passage.
+
+**TORREN:** With us, then.
 
 Nimera looks at him.
 
@@ -202,19 +236,31 @@ Nimera looks at him.
 
 **TORREN:** No.
 
-**NIMERA:** Then yes.
+**NIMERA:** Then yes, Harth, with you. Try to contain your relief.
 
 Ilyra looks toward the upper route, then back to Nimera.
 
 **ILYRA:** Need anything from upstairs first?
 
-**NIMERA:** Eventually.
+Nimera pauses long enough to actually consider it.
+
+**NIMERA:** Food. Two reference books. A less terrible pencil. None of those are worth leaving now.
+
+**ILYRA:** Food eventually.
+
+**NIMERA:** Yes, mother.
 
 A beat.
 
-**NIMERA:** Not enough to leave now.
+Nimera winces at her own line.
 
-Cyanis accepts that without turning it into a ceremony.
+**NIMERA:** Sorry. That was automatic and weirdly intimate.
+
+Ilyra's mouth twitches.
+
+**ILYRA:** I've heard worse.
+
+Cyanis accepts the decision without turning it into a ceremony.
 
 **CYANIS:** All right.
 
@@ -225,6 +271,10 @@ Nimera is already moving.
 Cyanis looks at Ilyra and Torren.
 
 **CYANIS:** Apparently.
+
+**NIMERA:** You say that like you had authority over it.
+
+**CYANIS:** I was enjoying the illusion.
 
 ### [PARTY JOIN]
 
@@ -256,9 +306,10 @@ Transition into:
 
 ## Beat-8 production notes
 
-- This is a fresh Agent-Brain rerun replacing the earlier checklist-driven post-fight and recruitment structure.
+- This Person-Brain performance pass preserves the fight, evidence boundaries, and recruitment outcome while allowing Nimera to stay inside her own thought process longer.
 - Nimera joins the battle because the live situation makes that natural; nobody asks her to prove she can fight.
-- post-fight dialogue stays with what the group actually observed instead of asking Nimera to deny every future classification by name.
-- Nimera catches her own desire to collapse multiple mysteries into one explanation; the scene does not verbalize a reveal firewall.
-- her recruitment is shown by her gathering her things and continuing deeper, not by Cyanis explaining that she is free to choose or by Nimera giving a motivation speech.
+- post-fight dialogue stays with what the group actually observed while Nimera explicitly resists turning plausible explanations into evidence.
+- Nimera catches her own desire to collapse multiple mysteries into one explanation and explains why that makes her less confident in her inference.
+- recruitment is still shown by Nimera gathering her things and continuing deeper, but the choice now sounds like a person making it rather than a sequence of binary answers.
+- Ilyra and Nimera begin developing a lived conversational rhythm through safety, food, and an overfamiliar joke rather than explicit relationship approval.
 - the game UI confirms the permanent party change after the human moment has already landed.
