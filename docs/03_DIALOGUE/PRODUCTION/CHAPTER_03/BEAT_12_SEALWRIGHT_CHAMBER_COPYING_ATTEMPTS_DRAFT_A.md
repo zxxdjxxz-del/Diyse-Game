@@ -1,10 +1,8 @@
 # Chapter 3 — Beat 12
 # Sealwright Chamber / The Copying Attempts
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
-**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the post-Warden situation, the physical evidence progression, the required distinction between visible copying and genuine magical authority, the no-map correction, the Caelora exit state, and reveal firewalls. It was not given a speaker order or assigned one required conclusion to each party member.
-
-**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. The key evidentiary distinctions remain in the mouth of the person who owns them, and Nimera is allowed to revise, swear, over-explain, and be interrupted when the scene gives the other characters a reason.
+**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, then audited under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` and current Ilyra character authority. The physical evidence progression, distinction between visual copying and genuine magical authority, no-map correction, Caelora exit state, and reveal firewalls remain fixed. Nimera's evidence discipline remains intact; Ilyra contributes through research questions, inference, and ordinary reaction rather than becoming the default Card-custody or scene-closing authority.
 
 ---
 
@@ -212,19 +210,21 @@ Nimera notices.
 
 **NIMERA:** Good. Stable is easier to write down than whatever the hell it was doing before.
 
-**CYANIS:** Comforting.
+Cyanis looks at it another moment.
 
-**NIMERA:** Wasn't meant to be.
-
-**ILYRA:** Any reason he should stop carrying it the same way?
+**CYANIS:** Any reason I should change what I'm doing with it?
 
 Nimera thinks.
 
-**NIMERA:** No. And that is me saying I have no new reason, not that I have proven the current arrangement safe forever.
+**NIMERA:** No new reason. That's not the same as proving the current arrangement safe forever; it means nothing we've found in this room gives me a reason to alter the one arrangement that has stayed stable.
 
-**CYANIS:** You hear yourself, right?
+**CYANIS:** There it is.
 
-**NIMERA:** Constantly. It's exhausting.
+**NIMERA:** What?
+
+**CYANIS:** The qualifier I knew was coming.
+
+**NIMERA:** Good. You're trainable.
 
 No further Card analysis occurs here.
 
@@ -264,7 +264,11 @@ Cyanis looks at the repeated royal Crest attempts.
 
 Ilyra looks toward the exit.
 
-**ILYRA:** Then we're done down here for now.
+**ILYRA:** I would like to see a room with windows again.
+
+**CYANIS:** Strong argument for upstairs.
+
+**NIMERA:** Disturbingly persuasive.
 
 Nimera takes one last look at the cleanest Crest copy.
 
@@ -294,7 +298,10 @@ Transition into:
 
 - The current seal-copying correction controls over the superseded older Beat-12 route-relief concept. No new map or north-route evidence appears.
 - The room's physical practice sequence carries most of the exposition: Ancient copies become older Yahtrean copies, then royal-document seals, then repeated Crest of Yahtrea attempts.
-- Nimera's Person Brain now actively protects the distinction between visual accuracy, attempted magical binding, possible success, and proven success; she repeats herself only because she knows the group may collapse those categories later.
+- Nimera's Person Brain actively protects the distinction between visual accuracy, attempted magical binding, possible success, and proven success; she repeats herself only because she knows the group may collapse those categories later.
+- Ilyra's research questions (`How close?`, `Did it work?`, `Meaning time`, `And access`) remain because they are genuine evidentiary questions, not caregiver assignments.
+- Cyanis asks about his own Card handling; Ilyra no longer receives the automatic custody/safety question on his behalf.
+- Ilyra does not close the field section for the group. Her final line is an ordinary personal reaction to a long underground day, and Cyanis converts the actual evidence state into the decision to return upstairs.
 - Later visual copies are highly accurate, but visible accuracy remains distinct from genuine magical authority response.
 - Burned / repeated binding work establishes unusually powerful magical effort.
 - the recent reader and seal practitioner may be connected, but Beat 12 does not prove they are the same person.
