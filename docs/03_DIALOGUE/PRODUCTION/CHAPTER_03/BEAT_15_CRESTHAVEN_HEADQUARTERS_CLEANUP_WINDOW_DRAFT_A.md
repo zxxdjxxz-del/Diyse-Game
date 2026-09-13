@@ -1,10 +1,10 @@
 # Chapter 3 — Beat 15
 # Cresthaven Headquarters / Cleanup Window
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — NATURAL-TURN RHYTHM PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — PERSON-BRAIN PERFORMANCE PASS
 
 **Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the Cresthaven arrival state, operational-headquarters outcome, visible older Diysean layer, Regional Hunt #3 access notice, Mirena/Maevra departure state, and cleanup-window handoff. It was not given a required tour dialogue, a headquarters ceremony, or one reaction line per party member.
 
-**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Mirena now gives complete operational instructions in natural units rather than yielding after every sentence; brief tour banter remains terse where appropriate.
+**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Mirena holds complete operational thoughts; Nimera's curiosity and correction reflex are allowed to collide with practical limits; the others retain their own rhythms rather than matching her line length.
 
 ---
 
@@ -32,21 +32,31 @@ Cyanis takes in the amount of work already happening.
 
 **CYANIS:** You beat us here.
 
-**MIRENA:** Apparently.
+**MIRENA:** Apparently you listened when I told you to sleep.
+
+**CYANIS:** Ilyra supervised.
+
+**ILYRA:** I did not.
+
+**NIMERA:** She didn't have to. Group pressure was already oppressive.
 
 Torren looks up toward the roofline.
 
 **TORREN:** Been here a while.
 
-**MIRENA:** Long enough to find three leaks and a floor nobody is allowed to stand on.
+**MIRENA:** Long enough to find three leaks, a rotten stair, and a floor nobody is allowed to stand on.
 
 From farther inside the yard, Maevra looks over from whatever practical work she is helping coordinate.
 
 **MAEVRA:** Four leaks.
 
-Mirena looks toward her.
+Mirena turns her head.
 
-**MIRENA:** Excellent. It's improving already.
+**MIRENA:** Excellent. The fort continues to exceed expectations.
+
+**MAEVRA:** Low expectations.
+
+**MIRENA:** That's why they're useful.
 
 Maevra goes back to the work instead of joining the conversation.
 
@@ -72,7 +82,9 @@ The stone beneath the Crown wall is older, larger, and fitted differently.
 
 **TORREN:** No.
 
-Cyanis looks at the sealed lower opening.
+Nimera steps closer without touching it.
+
+**NIMERA:** Different cut, different jointing, dark metal inside the masonry. That is not a later repair hiding under the fort; the fort is sitting on it.
 
 **CYANIS:** Another old door.
 
@@ -82,17 +94,23 @@ Cyanis looks at the sealed lower opening.
 
 **ILYRA:** That's why I'm getting ahead of it.
 
-Mirena glances at the sealed arch.
+Nimera looks at the sealed lower opening.
 
-**MIRENA:** Anything still sealed stays that way until somebody has a reason to open it.
+**NIMERA:** For once, I'm with him. I only want to look.
 
-Nimera keeps looking at it.
+**MIRENA:** You may look. Anything still sealed stays sealed until somebody has a reason to open it.
 
 **NIMERA:** Define reason.
 
-**MIRENA:** Something better than curiosity.
+**MIRENA:** Something better than curiosity, professional offense, or "it was bothering me."
 
-Nimera looks faintly disappointed.
+Nimera looks genuinely aggrieved.
+
+**NIMERA:** You prepared that list for me specifically.
+
+**MIRENA:** I met you yesterday.
+
+**CYANIS:** Long day.
 
 ### [THE HANDOFF]
 
@@ -102,13 +120,23 @@ A crew member carries a damaged chair out past them.
 
 Mirena looks at the four permanent party members.
 
-**MIRENA:** While you're working with me, this is your base. Operationally. I am not giving you a fort; the paperwork alone would make me hate you.
+**MIRENA:** While you're working with me, this is your base. Operationally. Sleep here, keep working records here, use the supplies, come and go as the investigation needs. I am not giving you a fort. If any of you start behaving as though I have, I will produce paperwork until the fantasy dies.
 
 Cyanis looks around the half-clean room.
 
 **CYANIS:** Wasn't asking for one.
 
 **MIRENA:** Good.
+
+**NIMERA:** Hypothetically, how much paperwork?
+
+Mirena looks at her.
+
+**NIMERA:** Academic question.
+
+**MIRENA:** Enough.
+
+**NIMERA:** Terrifying.
 
 Torren checks the nearest wall with one hand.
 
@@ -117,6 +145,14 @@ Torren checks the nearest wall with one hand.
 **NIMERA:** Inspiring standard.
 
 **ILYRA:** Better than the last place we slept underground.
+
+**CYANIS:** Much better roof.
+
+A crew member outside immediately shouts something about another leak.
+
+Cyanis looks up.
+
+**CYANIS:** Probably.
 
 Nobody argues with that.
 
@@ -133,13 +169,25 @@ Other rooms remain dusty, sealed, damaged, or under active repair.
 
 Mirena is about to turn back toward the yard when she remembers something.
 
-**MIRENA:** One more thing. Archive crew opened a lower side passage off the working collection after you left yesterday. It's marked. They stopped at the threshold.
+**MIRENA:** One more thing. Archive crew opened a lower side passage off the working collection after you left yesterday. It's marked. They stopped at the threshold and sent word rather than walking into it.
 
-Nimera straightens slightly.
+Nimera straightens so quickly that Torren notices.
 
 **NIMERA:** Was it there when we went down?
 
 **MIRENA:** Not accessibly.
+
+**NIMERA:** "Opened" how? Collapse cleared? Existing closure moved? Somebody found a latch? Those are very different—
+
+**MIRENA:** Pellan.
+
+Nimera stops.
+
+**MIRENA:** The report says debris clearance exposed a side closure, the closure could be opened from the accessible side, and the crew did not proceed beyond it. You may interrogate the architecture yourself when you're rested and prepared.
+
+A beat.
+
+**NIMERA:** That was an excellent answer.
 
 **ILYRA:** Stopping at the threshold was sensible.
 
@@ -151,11 +199,29 @@ Mirena gives her a look.
 
 **MIRENA:** You're settling in quickly.
 
+**NIMERA:** I have been told I occupy space efficiently.
+
+Torren looks at Cyanis.
+
+**TORREN:** Table's doomed.
+
+**CYANIS:** What table?
+
+**TORREN:** Exactly.
+
+Nimera narrows her eyes at both of them.
+
 Cyanis looks back toward the direction of Caelora as if he can somehow see the Archives from here.
 
 **CYANIS:** You want us to check it.
 
-**MIRENA:** When you're ready. Not before.
+**MIRENA:** When you're ready. Not because I told you there is a door and your collective judgment immediately deteriorated.
+
+**CYANIS:** That's mostly her.
+
+**NIMERA:** Fuck you.
+
+**ILYRA:** Very settled in.
 
 That is the entire in-world unlock.
 
@@ -169,13 +235,23 @@ Maevra crosses over while tightening a glove / carrying a practical work item / 
 
 She looks at Torren, then at the west side of the fort.
 
-**MAEVRA:** West wall's soft under the moss.
+**MAEVRA:** West wall's soft under the moss. Looks solid from the yard. Isn't.
 
 **TORREN:** Saw it.
 
-**MAEVRA:** Good.
+**MAEVRA:** Good. Keep the others off it until the crew braces it.
 
-That is all she needs to contribute.
+Nimera looks between them.
+
+**NIMERA:** "The others."
+
+**TORREN:** Don't.
+
+**NIMERA:** I said two words.
+
+**MAEVRA:** And somehow I know where the third was going.
+
+Nimera smiles.
 
 Mirena looks at the four.
 
@@ -195,9 +271,13 @@ Ilyra looks at Cyanis.
 
 Torren almost smiles.
 
-**NIMERA:** Also, the impossible part is not really under our control.
+**NIMERA:** Though, technically, the impossible part has not shown any respect for our scheduling preferences so far.
 
 **MIRENA:** I was afraid you'd say that.
+
+**NIMERA:** I can make it less precise if that helps.
+
+**MIRENA:** It won't.
 
 Mirena and Maevra leave for Caelora.
 
@@ -242,11 +322,11 @@ There is no mandatory emotional chapter-closing speech.
 ## Beat-15 production notes
 
 - Cresthaven's hub functions are demonstrated by the active Crown work crew rather than listed by Mirena like a menu.
-- Mirena's headquarters handoff is intentionally short but now uses complete operational turns: the party may use Cresthaven as an operational base while helping her investigate; they are not gifted the property or formally appointed to command it.
+- Mirena's headquarters handoff now uses a full natural operational turn and keeps her dry authority intact.
+- Nimera reacts to the older construction and new Archive passage as herself: curious, precise, correction-prone, and willing to keep asking until Mirena deliberately takes the floor back.
 - the older Diysean layer is visually undeniable but unexplained. A sealed lower arch provides texture without becoming a new mandatory mystery scene.
-- Maevra follows the Beat-13 correction: she is physically useful and socially present, not a co-exposition narrator. Her only substantive handoff contribution is a practical structural observation to Torren.
-- the Regional Hunt #3 story unlock is concise. Crown workers opened a previously inaccessible Old City Archive passage, marked it, and stopped at the threshold; the dialogue does not over-explain what lies beyond.
+- Maevra remains physically useful and socially present, not a co-exposition narrator; her practical warning to Torren is allowed to be a complete thought.
+- the Regional Hunt #3 story unlock remains concise and does not identify what lies beyond.
 - Mirena and Maevra return to Caelora after the operational handoff.
 - Cyanis + Ilyra + Torren + Nimera become the normal Cresthaven resident / traveling party.
-- canonical Chapter-3 Character-Life availability is **C06 + C07**; historical H01/H03 labels are source-key provenance only.
 - Beat 15 ends mainline Chapter-3 dialogue but does not end Chapter 3 itself. The cleanup window remains active until the player deliberately chooses Begin Chapter 4.
