@@ -1,6 +1,6 @@
 # Chapter 1 — Character-Life C03
 # Torren's Version of Dinner
-## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE + FINAL ENSEMBLE BALANCE PASS
 
 ---
 
@@ -284,11 +284,21 @@ Torren does not miss a beat.
 
 Torren looks at her.
 
-**TORREN:** You and Nimera would be dangerous in the same room.
+**TORREN:** You really can't leave a distinction alone, can you?
 
-A beat.
+**ILYRA:** Not when you're wrong.
 
-None of them knows why that thought will later be funny, so it passes without emphasis.
+**TORREN:** Going to be a long trip.
+
+**MAEVRA:** You say that like you're innocent.
+
+**TORREN:** Never said that either.
+
+Cyanis looks at him.
+
+**CYANIS:** Remarkably self-aware for a man defending this dinner.
+
+**TORREN:** Different problem.
 
 Maevra holds out her hand.
 
@@ -402,12 +412,14 @@ Scene ends.
 
 ---
 
-## Person-Brain / character check
+## Person-Brain / ensemble check
 
-- fast joke timing remains where it helps, but the scene now breathes and allows Maevra to tell an actual remembered story and Torren to give a full defense of his utilitarian food philosophy.
-- Torren becomes longer when discussing practical field efficiency, one of the mundane subjects that genuinely interests him.
+- fast joke timing remains where it helps, but the scene breathes and allows Maevra to tell an actual remembered story and Torren to give a full defense of his utilitarian food philosophy.
+- Torren's social opening is visible here outside route expertise: he argues recreationally, keeps jokes alive, accepts being the target, swears naturally, laughs, and stays engaged because he is comfortable enough to enjoy the exchange.
 - Maevra and Torren's long familiarity reads through remembered details, irritation, and shorthand. **No exact duration, enlistment age, past romance, or relationship history is revealed here.**
-- the intended Chapter-1 read is that they have known each other a long time and argue with old-married-couple ease, while the actual nature of that history remains unresolved.
+- Maevra is plainly off-duty enough to be a friend at the fire rather than the scene's commander, while nothing about the scene erases her operational rank when duty returns.
 - Cyanis and Ilyra are active comic participants, not audience stand-ins.
+- the premature reference to Nimera has been removed; nobody in this Chapter-1 scene knows her yet.
+- mature-adult speech remains character-specific rather than sanitized or profanity-by-quota.
 - Torren does not smoke until everyone has finished eating.
 - no lore, Hunt, Card, reward, or relationship-state outcome changes.
