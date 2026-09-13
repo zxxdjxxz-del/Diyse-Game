@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 5
 # Occupied Hollow Watch Fort
-## DIALOGUE ENGINE PRODUCTION DRAFT D — established gameplay presentation + spoken/narration audit / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 ---
 
@@ -30,19 +30,37 @@ At the lower-fort progression point, movement pauses and the relevant characters
 
 The area already makes the Black Host's priorities readable: they are using the fort, but most of the work is directed downward.
 
-**CYANIS:** They're not settling in.
+Cyanis looks over what has actually been left on the surface.
 
-**MAEVRA:** No.
+**CYANIS:** They're not settling in. Enough people to hold the fort, but everything worth moving is going down.
 
-**TORREN:** Everything's going below.
+**MAEVRA:** Agreed.
 
-**CYANIS:** People or supplies?
+Torren studies the wear and traffic rather than the furniture.
 
-**TORREN:** Both.
+**TORREN:** Both directions too. People down, emptier crews back up. Supplies keep going below.
 
-A beat.
+**CYANIS:** Regular rotation?
 
-**ILYRA:** There's blood by that door.
+**TORREN:** Could be. Or work gangs. Can't tell from wear alone.
+
+**MAEVRA:** Useful part is the same: whatever they wanted here wasn't the fort.
+
+Ilyra has stopped looking at the traffic entirely.
+
+**ILYRA:** Blood by that door.
+
+That changes the room.
+
+Cyanis looks where she is looking.
+
+**CYANIS:** Fresh?
+
+Ilyra does not pretend certainty from a glance.
+
+**ILYRA:** Recent enough that I want the room checked before we keep theorizing about the stairs.
+
+**TORREN:** Agreed.
 
 The scene ends on the discovery. No crouching, stain inspection, weapon-ready pose, or extra prop choreography is required.
 
@@ -72,23 +90,57 @@ A beat of silence.
 
 Ilyra performs the one necessary check for survivors.
 
+Cyanis waits until she finishes the minimum check she needs.
+
 **CYANIS:** Anyone?
 
-**ILYRA:** No.
+Ilyra's answer is quiet and complete.
 
-A beat.
+**ILYRA:** No. Nobody here is alive.
+
+Silence again.
+
+Torren knows these were people from a fort near his town. He does not become eloquent because the scene is sad.
 
 **TORREN:** Fuck.
 
-Nobody answers him.
+Nobody answers him immediately.
 
-**MAEVRA:** We still need the rest of the fort.
+Maevra looks over the room once, jaw set.
+
+**MAEVRA:** We don't know whether this is all of them.
+
+Torren looks at her.
+
+**TORREN:** I know.
+
+**MAEVRA:** Then we finish the fort before we decide what happened to everyone who isn't in this room.
+
+Torren does not like the instruction, but he understands why she said it.
 
 **TORREN:** Yeah.
+
+Cyanis looks toward the exit.
+
+**CYANIS:** We keep moving. If we find records, prisoner space, anything that changes the count, we stop and reassess.
+
+Ilyra is still looking at the dead.
+
+**ILYRA:** Give me a second.
+
+No one rushes her.
+
+A beat.
+
+Then she turns away herself.
+
+**ILYRA:** All right.
 
 **CYANIS:** Come on.
 
 Scene ends.
+
+The extra second belongs to the people in the room, not to a new reveal.
 
 ---
 
@@ -98,7 +150,7 @@ Scene ends.
 
 The fort remains normal Cyanis-only traversal with random encounters.
 
-There is no surviving-garrison rescue objective.
+There is no surviving-garrison rescue objective unless later evidence actually creates one.
 
 The player reaches the watch room / excavation-information point through normal progression.
 
@@ -110,15 +162,23 @@ Relevant characters may appear as simple field models.
 
 Fort records and Black Host work records are present as part of the existing room/story setup. No page-by-page handling animation is required.
 
+Cyanis scans enough of the material to see the pattern.
+
 **CYANIS:** Riveting.
 
-**MAEVRA:** Everything they logged goes below.
+Maevra reads the operational implication rather than summarizing every record.
+
+**MAEVRA:** Everything they logged goes below. Work crews, supplies, watch changes—the surface only matters because it protects the hole.
 
 **CYANIS:** Then we're done up here.
 
+Torren is still carrying the west-store discovery with him and has no interest in lingering.
+
 **TORREN:** Good.
 
-The environment has already shown that the occupation is feeding the excavation; the dialogue does not restate the same conclusion in several voices.
+Ilyra looks once at him, but does not force conversation he has not offered.
+
+The environment has already shown that the occupation is feeding the excavation; the dialogue does not repeat the same conclusion in several voices.
 
 The scene ends there.
 
@@ -144,17 +204,37 @@ At the forced opening into the older structure, movement pauses and the relevant
 
 The breach itself is the required visual.
 
+Cyanis looks at the fitted older construction exposed through the forcing work.
+
 **CYANIS:** You knew this was here?
 
-**TORREN:** No.
+Torren answers immediately.
 
-**TORREN:** Fort's built over it.
+**TORREN:** No. Knew the fort foundations were older in places. Not this. Not anything this big.
 
 **MAEVRA:** Explains the digging gear.
 
-Ilyra looks at the fresh forcing work around the breach.
+Ilyra looks at the forcing work around the breach.
 
-**ILYRA:** Fresh breach.
+**ILYRA:** Fresh breach. Edges haven't had time to weather, and the debris hasn't settled into the floor yet.
+
+**CYANIS:** So they opened it after taking the fort.
+
+Torren considers the sequence.
+
+**TORREN:** Looks that way. Doesn't tell us whether they knew it was here before they attacked.
+
+**MAEVRA:** Good distinction.
+
+Torren glances at her.
+
+**TORREN:** Learned from the annoying people around me.
+
+**MAEVRA:** You're welcome.
+
+Cyanis looks into the dark lower route.
+
+**CYANIS:** Whatever they came for, we're behind them now.
 
 **TORREN:** Then let's see what was worth the trouble.
 
@@ -172,7 +252,7 @@ Current objective:
 
 Story state:
 - Hollow Watch remains a hostile random-encounter area rather than a sequence of scripted ordinary fights;
-- the garrison has been confirmed dead through the story discovery;
+- the garrison has been confirmed dead through the story discovery, while the presence/absence of anyone not in that room is not overclaimed;
 - the Black Host's operational focus is clearly the excavation below;
 - Torren learns the garrison's fate here for the first time;
 - nobody knows the excavation target or the ancient structure's original purpose;
@@ -185,14 +265,11 @@ Next mandatory story beat: **Beat 6 — Black Host Excavation / Lower Access.**
 
 ---
 
-## Presentation / canon check
+## Person-Brain performance note
 
-**Traversal:** Cyanis only during ordinary fort exploration.
-
-**Triggered scenes:** the full relevant cast may appear for the lower-fort stop, garrison discovery, watch-room discussion, and excavation threshold.
-
-**Random encounters:** no ordinary Black Host enemy is promoted into a scripted field encounter.
-
-**Spoken/narration audit:** the watch room and breach no longer make multiple characters restate the excavation priority after the environment has already established it. Spoken lines add only the operational next step and the fresh-breach observation.
-
-**Reduction:** removed tool-rack microdetail, bedroll comparison, stain inspection choreography, cloak adjustment, body-by-body movement, page handling, window/winch blocking, lamp pickup, brace warning, and repeated pointing/looking directions.
+- the lower-fort conversation now lets Torren distinguish observed traffic from inferred work structure rather than supplying two-word answers.
+- the garrison-discovery silence remains protected. The pass does not mistake grief for a need to add speeches.
+- Ilyra asks for one second and receives it; that small beat carries more humanity than a retrospective explanation would.
+- Maevra's operational discipline remains intact but she speaks to Torren like someone who knows exactly why he needs the boundary.
+- the watch-room scene remains intentionally compressed because the environment has already made the excavation priority obvious.
+- the breach scene adds bounded interpretation only; nobody invents prior Host knowledge or Ancient purpose.
