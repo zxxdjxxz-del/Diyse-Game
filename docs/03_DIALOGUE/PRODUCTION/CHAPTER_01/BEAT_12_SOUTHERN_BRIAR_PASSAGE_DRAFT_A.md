@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 12
 # Southern Briar Passage
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE + FINAL ENSEMBLE BALANCE PASS
 
 ---
 
@@ -91,7 +91,13 @@ A beat.
 
 **TORREN:** No. Ground really will kill you.
 
-The exchange ends.
+**MAEVRA:** Beautiful. Put it on a pillow.
+
+**TORREN:** You'd buy it.
+
+**MAEVRA:** I'd buy it for you and make you carry it.
+
+The exchange ends because the group has finished amusing itself, not because Torren has reached a terseness quota.
 
 No route split or route-choice scene is introduced.
 
@@ -117,7 +123,7 @@ Torren studies the cut rather than pretending he has more history than he does.
 
 **CYANIS:** That sounded almost like an invitation.
 
-**ILYRA:** No.
+**ILYRA:** You hear invitations in some terrible places.
 
 **CYANIS:** I said almost.
 
@@ -136,6 +142,8 @@ Cyanis looks down at the inert Card.
 **MAEVRA:** Then south.
 
 Scene ends.
+
+Ilyra is curious about the access and jokes about Cyanis's phrasing; she is not assigned the automatic safety veto.
 
 No one names a cistern, Hunt, node, tunnel system, or hidden objective.
 
@@ -199,7 +207,9 @@ He turns back toward the route.
 
 **CYANIS:** There are conversations I preferred when you were terse.
 
-**TORREN:** Move.
+**TORREN:** Too late now.
+
+That answer lands as a small sign that Torren himself knows he has been talking more with the group.
 
 Scene ends.
 
@@ -253,9 +263,11 @@ Beat 13 owns the **first clear visual reveal of the Stalker**, immediately befor
 
 ---
 
-## Person-Brain performance note
+## Person-Brain / ensemble performance note
 
-- Torren's longer route turns remain domain-triggered: soil, vegetation, animal sign, and risk make him more verbal without making him generically chatty.
+- Torren's route and animal expertise still legitimately produces longer evidence-rich turns, but expertise is no longer treated as his only permission to participate socially.
+- his bread/pillow argument with Maevra and `too late now` answer to Cyanis continue the gradual Chapter-1 social opening that becomes more obvious in Chapter 2.
+- Ilyra no longer receives the automatic `No`/safety-monitor line at the overgrown side access. She is curious, jokes about Cyanis's framing, and leaves the actual route decision to the people making it.
 - the side access remains unresolved and is not promoted into a cistern clue before Beat 14.
-- Briarhide foreshadowing now sounds like an experienced field hunter reading one useful track rather than a sequence of clipped ominous nouns.
+- Briarhide foreshadowing sounds like an experienced field hunter reading one useful track rather than a sequence of clipped ominous nouns.
 - the Stalker still receives no visual reveal in Beat 12.
