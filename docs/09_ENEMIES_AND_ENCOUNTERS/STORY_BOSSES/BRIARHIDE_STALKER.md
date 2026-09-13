@@ -1,54 +1,30 @@
-# Briarhide Stalker — Black Host Irritant Fitting
+# Briarhide Stalker
 
-**Chapter:** 1 — Greenhollow  
-**Role:** mandatory authored nonlethal encounter  
-**Status:** **POWER COMPLETE / PROTECTED OBJECTIVE COMPLETE**
+**Chapter:** 1 — Southern Briar Passage  
+**Role:** mandatory named story boss / Chapter-1 final combat climax  
+**Status:** **POWER COMPLETE / STORY RESOLUTION CORRECTED**
 
-## Existing raw body — RETAIN
+## Current story lock
+
+The Briarhide Stalker is:
+- an exceptionally large, powerful Briarhide native to Briar Passage;
+- a naturally occurring wild Greater Beast;
+- not corrupted, controlled, fitted, collared, or altered by the Black Host;
+- fought as a normal mandatory boss;
+- defeated through ordinary combat victory.
+
+There is **no** protected HP floor, targetable irritant fitting, purification objective, nonlethal objective, or forced retreat resolution.
+
+At ordinary combat defeat:
+> **Briarhide Stalker is dead.**
+
+This matches the current Chapter-1 story and exact Beat-13 dialogue authority.
+
+## Raw body — RETAIN
 
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 4 | **850** | **34** | **18** | **22** | **20** | **29** | 10 | 0 |
-
-The Briarhide is:
-- frightened;
-- wounded;
-- unnaturally aggressive because of the embedded Black Host device;
-- not a villain-monster kill objective.
-
-## Black Host Irritant Fitting
-
-Targetable encounter component:
-
-| HP | DEF | Spirit | EVA | SR | Power |
-|---:|---:|---:|---:|---:|---|
-| **180** | **18** | **18** | 0 | 10 | **N/A** |
-
-The fitting:
-- takes no independent turn;
-- deals no direct damage;
-- is immune to Bleed;
-- is the required encounter objective.
-
-At 0 HP:
-- the fitting is disabled/removed;
-- pending Briarhide action is canceled;
-- battle ends immediately;
-- Briarhide retreats alive.
-
-## Protected Briarhide floor
-
-While the Irritant Fitting remains functional:
-> Briarhide cannot be reduced below **213 HP / 25% Max HP**
-
-Damage that would cross the floor clamps at 213.
-
-This prevents the player from bypassing the authored nonlethal objective by simply reducing the animal to ordinary lethal 0 HP.
-
-Once the fitting reaches 0 HP:
-> combat ends immediately, so no lethal follow-up occurs.
-
-This is encounter-specific and creates no universal Capture/Subdual/Mercy mechanic.
 
 ## Actions
 
@@ -73,7 +49,7 @@ This is encounter-specific and creates no universal Capture/Subdual/Mercy mechan
 - **110 Power per target**
 - Base Hit **95**
 - no harmful-status rider
-- 2-round repetition lock.
+- 2-round repetition lock
 
 ### Frightened Guard
 > **Power: N/A — no direct damage**
@@ -83,9 +59,19 @@ Effect:
 
 2-round repetition lock.
 
-No Brace.
+No Brace.  
 No Barrier.
 
+The legacy action name does not imply a protected-victim or Black Host-control story state.
+
 ## Reward
-Successful nonlethal stabilization:
+Normal boss victory:
 > **120 EXP / 28 CEXP**
+
+## Superseded material
+Retire all older Chapter-1 Briarhide text that describes:
+- a Black Host Irritant Fitting;
+- a 25% protected animal floor;
+- stabilization or fitting removal as the win condition;
+- the animal retreating alive after the fight;
+- Black Host involvement in its aggression.
