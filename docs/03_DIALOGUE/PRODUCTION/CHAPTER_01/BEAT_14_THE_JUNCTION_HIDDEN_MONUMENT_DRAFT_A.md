@@ -1,6 +1,6 @@
 # Chapter 1 — Beat 14
 # The Junction / Hidden Monument
-## DIALOGUE ENGINE PRODUCTION DRAFT A — NATURAL-TURN RHYTHM PASS / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT A — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT / awaiting user approval
 
 ---
 
@@ -92,11 +92,9 @@ Another notation corresponds geographically with the overgrown Southern Briar si
 
 No one understands the whole system.
 
-**MAEVRA:** That's a map.
-
 Torren studies the surviving route relationships.
 
-**TORREN:** Yeah. Different from the mural, though. This is route work. That southeast line follows the same direction and bend as the road we're already taking.
+**TORREN:** Route work. Different from the mural. That southeast line follows the same direction and bend as the road we're already taking.
 
 **CYANIS:** So our road sits on top of an older one.
 
@@ -134,9 +132,9 @@ The Six Face marks remain visible across the cartographic surface.
 
 **CYANIS:** Six Faces again.
 
-**MAEVRA:** And not decoration this time. They're repeated along the route lines.
+**MAEVRA:** Route markers?
 
-**TORREN:** Means they mattered to whoever made the map. Doesn't tell us how.
+**TORREN:** Maybe. Means they mattered to whoever made the map. Doesn't tell us how.
 
 **ILYRA:** The damaged edge isn't helping.
 
@@ -216,11 +214,12 @@ Next mandatory story beat:
 
 ---
 
-## Natural-turn / presentation check
+## Audit check
 
-- Torren's route/cartography expertise now arrives in complete field judgments instead of one sentence per map mark.
-- Ilyra can complete the practical water-notation inference without another character prompting every clause.
-- The Six Face discussion remains unresolved but no longer reads like a roll call of one-line observations.
+- Torren's route/cartography expertise arrives in complete field judgments instead of one sentence per map mark.
+- The cast no longer announces that the newly exposed cartographic surface is a map; Torren immediately interprets what kind of map work it is.
+- Ilyra completes the practical water-notation inference without another character prompting every clause.
+- The Six Face discussion asks what the repeated marks might be doing instead of verbally describing their visible placement before interpreting it.
 - The camp decision lets Torren give the actual reason for stopping rather than dividing it across several alternating lines.
 - Short jokes stay short.
 - No map content, Hunt unlock, Face knowledge, route state, or chapter outcome changed.
