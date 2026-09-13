@@ -1,6 +1,6 @@
 # Chapter 1 — Character-Life C04
 # What the Map Says
-## REHEARSAL-FIRST PRODUCTION DRAFT A — NATURAL-TURN RHYTHM PASS / awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 ---
 
@@ -8,7 +8,7 @@
 
 Later at the Junction-area camp.
 
-This scene is independently available and must not assume C03 or C05 was viewed first.
+This scene is independently available and must not assume the dinner or Ilyra/Maevra scene was viewed first.
 
 Torren is updating one of his ordinary modern route maps from the day's travel. This is **not** the ancient Junction monument, not a second lore inspection, and not Hunt progression.
 
@@ -44,6 +44,22 @@ Cyanis keeps watching.
 
 A little more silence.
 
+**CYANIS:** Does it bother you?
+
+Torren glances at him.
+
+**TORREN:** You standing there?
+
+**CYANIS:** Me watching.
+
+**TORREN:** Not yet.
+
+**CYANIS:** Generous.
+
+Torren goes back to the map.
+
+Another quiet stretch.
+
 **CYANIS:** What are you changing?
 
 **TORREN:** Road.
@@ -54,19 +70,21 @@ A little more silence.
 
 **CYANIS:** Fine. Why?
 
-**TORREN:** Because the official line's wrong now. Wash moved, people started cutting higher around it, and the old line's still technically there but nobody with sense uses it.
+That is enough to turn Torren from social-short into route-long.
+
+**TORREN:** Because the official line's wrong now. Wash moved lower over the last two seasons, wagon traffic started cutting higher around it, and the old line's still technically there but nobody with sense uses it when the ground's wet. So if I leave the old mark where it is, somebody looking at this six months from now thinks the road and the paperwork agree. They don't.
 
 Cyanis looks at the map again.
 
 **CYANIS:** So you erase the road.
 
-**TORREN:** I move it. Road doesn't care what the map says.
+**TORREN:** I move the useful line. I usually leave the old one lighter if there's a reason somebody might still need it. Road doesn't care what the map says, but people do, so the map should admit when the road changed instead of pretending ink won the argument.
+
+Cyanis smiles.
 
 **CYANIS:** Feels powerful.
 
 **TORREN:** It's charcoal.
-
-A beat.
 
 **CYANIS:** Still.
 
@@ -74,7 +92,11 @@ Torren almost smiles.
 
 **CYANIS:** Crown cartographers would hate you.
 
-**TORREN:** They can come walk it. If the road proves me wrong, I'll change mine again.
+**TORREN:** Some of them do. Good ones don't. Good ones ask what changed, then get annoyed I wrote the date too small.
+
+**CYANIS:** You've argued with Crown cartographers.
+
+**TORREN:** I've argued with everybody who draws a road they haven't walked.
 
 **CYANIS:** There he is. The diplomatic one.
 
@@ -168,9 +190,11 @@ A little while passes before either speaks again.
 
 **CYANIS:** So what's an old cut? Serious question this time.
 
-**TORREN:** Older foot route. Usually from before a road shifted or widened. Sometimes it's still usable; sometimes it's only useful because it tells you where people used to move.
+Torren traces the relevant relationship on his own map without turning it into a lecture for the audience.
 
-**CYANIS:** That's a much better answer than “road.”
+**TORREN:** Older foot route. Usually from before a road shifted, widened, got bridged, or got abandoned for something wagons could use. Sometimes it's still the better path if you're on foot. Sometimes it's useless except as a clue to where people used to move, where water used to cross, where an old wall might be hiding under brush. Depends why the newer road replaced it.
+
+**CYANIS:** That's a much better answer than `road.`
 
 **TORREN:** You asked better.
 
@@ -180,13 +204,35 @@ A little while passes before either speaks again.
 
 **CYANIS:** Slowly, then.
 
+Torren makes one deliberate correction to the `C` in question.
+
+Cyanis sees it.
+
+**CYANIS:** Oh, you fixed it.
+
+**TORREN:** No.
+
+**CYANIS:** I watched you.
+
+**TORREN:** Improved legibility.
+
+**CYANIS:** That's fixing it.
+
+**TORREN:** Different accusation.
+
+Cyanis laughs again.
+
 ---
 
 ### [WHY HE KEEPS HIS OWN MAP]
 
+After another stretch of quiet:
+
 **CYANIS:** You carry both? Yours and the official one?
 
-**TORREN:** Usually. Official one's right often enough to matter, and sometimes it has something I missed. Mine's just the version I trust after I've walked it.
+Torren nods.
+
+**TORREN:** Usually. Official one's right often enough to matter, and it has things I don't—property lines, formal bridge names, toll changes, sometimes a survey I haven't seen yet. Mine's the version I trust after I've walked it. They answer different questions.
 
 **CYANIS:** That's less arrogant than I was hoping.
 
@@ -194,11 +240,29 @@ A little while passes before either speaks again.
 
 **CYANIS:** Ruined the whole thing. How often do you update yours?
 
-**TORREN:** When something changes.
+**TORREN:** Whenever something changes enough that the old answer could get somebody hurt or waste half a day. Sometimes that's a storm. Sometimes a bridge goes. Sometimes people make a better cut and the old road stays on paper for ten years because nobody wants to redraw the damn thing.
 
 **CYANIS:** So constantly.
 
 **TORREN:** Pretty much.
+
+Cyanis looks at the density of handwritten changes differently now.
+
+**CYANIS:** You remember all of this anyway, don't you?
+
+Torren thinks about it.
+
+**TORREN:** A lot. Not enough. Memory gets confident. Map gives me something to argue with later.
+
+That line lands with Cyanis more than Torren intended.
+
+**CYANIS:** That's actually good.
+
+Torren glances at him.
+
+**TORREN:** Don't sound surprised.
+
+**CYANIS:** I was trying not to.
 
 Another quiet stretch.
 
@@ -210,13 +274,27 @@ Another quiet stretch.
 
 A beat.
 
-**TORREN:** Fine.
+Torren shifts the map so Cyanis can see it more clearly.
 
-Torren explains the current route map to him. The scene does not reproduce every technical detail; what matters is that Cyanis is genuinely listening and Torren naturally becomes more talkative because the subject interests him.
+**TORREN:** Fine. Start with what the road does, not where the line is. See the contour marks here? Ground narrows between the rise and the wash, so every route eventually gets forced through that same strip. That's why the official road, my road, and the old cut all come back together even though they split north of it.
+
+Cyanis actually follows.
+
+**CYANIS:** So if I know the pinch point, I can lose the road and still know where it has to come back.
+
+Torren looks at him with new approval.
+
+**TORREN:** Exactly.
+
+**CYANIS:** That's useful.
+
+**TORREN:** Usually why I write things down.
+
+The scene may imply a longer stretch of map explanation without reproducing every technical detail.
 
 After a while:
 
-**CYANIS:** So that one's gone. That one's bad for wagons. And this one's—
+**CYANIS:** So that one's gone. That one's bad for wagons. This one comes back after the wash, and this one—
 
 Cyanis stops.
 
@@ -252,11 +330,13 @@ Scene ends before the exchange turns into a longer insult contest.
 
 ---
 
-## Natural-turn / character check
+## Person-Brain / character check
 
-- The exact `Old slut?` / `Bitch.` anchor and core misunderstanding are preserved verbatim.
-- Torren remains terse in ordinary social exchange, but roads/maps are one of the subjects that naturally give him longer complete turns.
-- Cyanis's curiosity is genuine; he does not interrogate Torren one sentence at a time merely to produce exposition.
-- The comedy section deliberately returns to rapid one-line timing because the misunderstanding benefits from it.
-- No ancient-lore duplication, Hunt progression, or relationship-state leap was added.
-- One ordinary route map remains the only prop needed.
+- Protected exact anchors remain verbatim and ordered:
+  - `CYANIS: Old slut?`
+  - `TORREN: Bitch.`
+  - callback `TORREN: Bitch.` / `CYANIS: Old slut.`
+- Torren remains terse socially but becomes substantially more verbal once Cyanis asks real questions about roads, maps, old cuts, and how field truth changes.
+- Cyanis stops being a pure exposition prompter: he observes, jokes, draws one correct inference of his own, and genuinely learns how Torren thinks.
+- `Memory gets confident. Map gives me something to argue with later.` gives Torren a character-specific reason for keeping his own map without turning it into lore or a thematic speech.
+- no ancient Junction-map explanation, Cistern progression, Card event, or relationship-state leap is added.
