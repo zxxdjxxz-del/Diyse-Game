@@ -7,7 +7,7 @@
 
 Current production dialogue uses the rehearsal-first Agent Brain pipeline:
 
-> **scene/world state → independent Person Agent Brain rehearsals → Dialogue Editor → invisible Canon/Knowledge Checker → spoken-dialogue vs narration audit → economical HD-2D staging/implementation**
+> **scene/world state → independent Person Agent Brain rehearsals → Dialogue Editor → mature-adult speech/profanity audit → invisible Canon/Knowledge Checker → spoken-dialogue vs narration audit → economical HD-2D staging/implementation**
 
 Owning pipeline lock:
 - `AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`
@@ -18,6 +18,9 @@ Story-beat guardrail lock:
 Natural-turn / floor-holding lock:
 - `AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
 
+Mature-adult speech / profanity lock:
+- `AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`
+
 Spoken-dialogue vs narration lock:
 - `AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`
 
@@ -26,6 +29,9 @@ Character-Life numbering lock:
 
 Hard rhythm rule:
 > **Concision is not a one-sentence limit. A character yields the floor because the interaction changes, not because the script reached a period.**
+
+Hard mature-adult speech rule:
+> **DIYSE characters are mature adults. Do not sanitize them into polite JRPG dialogue, and do not make them uniformly profane. Character, relationship, rank/register, and state decide the language.**
 
 Hard spoken-dialogue rule:
 > **The environment shows. Evidence owners interpret. Authority figures decide. Characters react. Nobody recites the scene back to the player.**
@@ -38,7 +44,8 @@ Retroactive rhythm audit tracker:
 - `CHAPTER_0_3_NATURAL_TURN_RHYTHM_AUDIT_TRACKER.md`
 
 **Retroactive Chapters 0–3 natural-turn rhythm audit status: COMPLETE.**  
-**Retroactive Chapters 0–3 spoken-dialogue / narration audit status: COMPLETE.**
+**Retroactive Chapters 0–3 spoken-dialogue / narration audit status: COMPLETE.**  
+**Mature-adult speech / profanity audit status: Chapter 0 CURRENT; Chapters 1–3 to be included in the active character/ensemble re-audit rather than treated as a mechanical profanity-insertion pass.**
 
 ### Person-Brain performance state
 
@@ -50,6 +57,15 @@ The Person-Brain standard means:
 - speakers do not receive equal turns merely because they are present;
 - individual rhythms, self-correction, profanity, uncertainty, and conversational habits survive the Dialogue Editor;
 - current character authority controls dialogue assignment, not class/Face stereotypes.
+
+Current mature-adult speech calibration:
+- **Nimera:** high/frequent profanity; it is a major part of her natural speech and often lives inside technical reasoning, self-correction, arguments, and humor;
+- **Torren:** casual and unselfconscious profanity, especially in veteran shorthand, irritation, affectionate insult, and increasingly relaxed conversation;
+- **Ilyra:** moderate, dry, and sometimes unexpectedly sharp profanity; healer/Grace coding must never sanitize her;
+- **Cyanis:** moderate profanity, freer with trust, fatigue, frustration, or sharp affectionate banter; command responsibility may control register without making him prudish;
+- **Maevra:** moderate and register-sensitive; she may be cleaner in formal command, but rank does not sanitize her, especially with Cyanis/Ilyra whom she already knows very well or Torren where old familiarity is established.
+
+This is qualitative, not a swear-count target. The audit question is whether the line sounds like that particular mature adult in that relationship/state.
 
 Current Ilyra guardrail:
 > **Grace is not a dialogue assignment.**
@@ -85,10 +101,10 @@ Retired/superseded development IDs do not reserve numbers. Some atomic filenames
 
 | Chapter | Current status | Chapter-level dialogue authority |
 |---|---|---|
-| Ch0 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT** — P01–P07 + optional C01; atomic files current, combined read-through stale for revised scenes | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` |
-| Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT** — Beats 1–15 + C02/C03/C04; atomic files current, combined read-through stale where flagged | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` |
-| Ch2 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE** — Beats 1–16 + C05; current production retained without reopening it solely for pass-label parity | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` |
-| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE COMPLETE ACROSS BEATS 1–15 + C07; C06 CURRENT/INTENTIONALLY ILYRA-FREE; CLOSING INTEGRATION + NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE** — atomic files current, combined read-through stale | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` |
+| Ch0 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + CYANIS CHARACTER AUDIT + ILYRA ROLE-BALANCE + MATURE-ADULT SPEECH/PROFANITY + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT** — P01–P07 + optional C01; atomic files current, combined read-through stale for revised scenes | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` |
+| Ch1 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + NATURAL-TURN + SPOKEN-VS-NARRATION CURRENT; FINAL ENSEMBLE + MATURE-ADULT SPEECH RE-AUDIT STILL NEEDED UNDER NEWER CHARACTER RULES** — Beats 1–15 + C02/C03/C04; atomic files current, combined read-through stale where flagged | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` |
+| Ch2 | **COMPLETE CURRENT WORKING PRODUCTION; NATURAL-TURN + SPOKEN-VS-NARRATION + TORREN SOCIAL-COMFORT CURRENT; FULL ENSEMBLE + ILYRA + MATURE-ADULT SPEECH RE-AUDIT STILL NEEDED** — Beats 1–16 + C05 | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` |
+| Ch3 | **COMPLETE CURRENT WORKING PRODUCTION; PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE COMPLETE ACROSS BEATS 1–15 + C07; C06 CURRENT/INTENTIONALLY ILYRA-FREE; CLOSING INTEGRATION + NATURAL-TURN + SPOKEN-VS-NARRATION AUDITS COMPLETE; TORREN SOCIAL-PROGRESSION + MATURE-ADULT SPEECH RE-AUDIT STILL NEEDED** — atomic files current, combined read-through stale | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` |
 
 These four chapter folders are the correct live production locations. Where a combined manuscript's embedded SHA differs from the current atomic source, the atomic source is the exact wording authority.
 
@@ -106,10 +122,15 @@ Current sequence:
 > **P01 → P02 → P03 → P04 → P05 → P06 → P07 → optional C01 `Six Minutes` → explicit departure to Brackenwall**
 
 Person-Brain performance: **CURRENT.**  
+Cyanis character audit: **COMPLETE.**  
+Ilyra role-balance: **CURRENT.**  
+Mature-adult speech / profanity audit: **CURRENT.**  
 Natural-turn audit: **COMPLETE.**  
 Spoken-dialogue / narration audit: **COMPLETE.**
 
-Ilyra role-balance correction is current. Chapter 0 still contains story-earned medical emphasis where she is literally running triage and observing the Card's unexplained physical effects, but P05 and C01 establish that she also owns tactical uncertainty, humor, profanity, first impressions, ordinary curiosity, and nonmedical social behavior.
+Chapter 0 still contains story-earned medical emphasis where Ilyra is literally running triage and observing the Card's unexplained physical effects, but P05 and C01 establish that she also owns tactical uncertainty, humor, profanity, first impressions, ordinary curiosity, and nonmedical social behavior.
+
+The Cyanis-specific audit confirmed that he already reads as a mature adult rather than a sanitized protagonist: command clarity can stay clean when clarity matters, while ordinary humor, bluntness, and profanity remain available according to his state and relationship. No atomic rewrite was required solely to increase profanity.
 
 Spoken-vs-narration material revisions:
 - **P03** — the north-cut suspicion is not re-explained to the same officer; Cyanis answers what changed operationally.
@@ -135,9 +156,12 @@ Canonical Character-Life scenes:
 
 Person-Brain performance: **CURRENT.**  
 Natural-turn audit: **COMPLETE.**  
-Spoken-dialogue / narration audit: **COMPLETE.**
+Spoken-dialogue / narration audit: **COMPLETE.**  
+Mature-adult speech / profanity audit: **to be integrated into the pending final ensemble character-balance pass.**
 
 Ilyra role-balance correction is current across the main pressure points. Her medical expertise remains available when genuinely needed, but she is no longer the default post-battle checker, food/sleep monitor, relationship reader, or human-consequence narrator.
+
+The pending ensemble pass must also preserve current Maevra authority: she already knows Cyanis and Ilyra very well as separate people, while remaining their senior commander. Familiarity permits shorthand, teasing, bluntness, and natural profanity; it does not make them equal-rank best friends during operations.
 
 Spoken-vs-narration material revisions:
 - Beats **1, 3, 5, 6, 7, 10, 11, 14**.
@@ -170,12 +194,14 @@ Authority index:
 
 Current state:
 - all sixteen mainline beats have one standalone exact current dialogue authority;
-- **C05 — Still Burns** is current cleanup Character-Life dialogue.
+- **C05 — Still Burns** is current cleanup Character-Life dialogue;
+- Torren's Chapter-2 social-comfort correction is current.
 
 Natural-turn audit: **COMPLETE.**  
-Spoken-dialogue / narration audit: **COMPLETE.**
+Spoken-dialogue / narration audit: **COMPLETE.**  
+Mature-adult speech / profanity audit: **to be integrated into the pending full four-character ensemble pass.**
 
-Chapter 2's completed production remains current. It is not reopened solely to make its historical pass labels match the later explicit Person-Brain naming used in Chapters 0, 1, and 3.
+Chapter 2's completed production remains current, but it still requires the dedicated ensemble character-balance pass for Cyanis, Ilyra, Torren, and Maevra under the newest character rules. That pass must include the mature-adult speech/profanity audit rather than treating it as a separate cosmetic rewrite.
 
 Spoken-vs-narration material revisions:
 - Beats **2, 5, 6, 10, 13, 14, 16**.
@@ -216,7 +242,8 @@ Current state:
 - **C07 — Ilyra and Nimera** — Person-Brain current; Ilyra role-balance audited and retained;
 - closing integration audit complete;
 - natural-turn / floor-holding rhythm audit complete;
-- spoken-dialogue / narration audit complete.
+- spoken-dialogue / narration audit complete;
+- Torren's newer social-progression rule and the new mature-adult speech/profanity lock still require a targeted Chapter-3 re-audit before the chapter is considered fully aligned with the newest character system.
 
 Ilyra role-balance sequence:
 - **Beats 1–5** were corrected after the newer Ilyra guardrail was established.
@@ -232,6 +259,8 @@ Key Ilyra result across Chapter 3:
 - Nimera owns her own methodological / experiment constraints;
 - Ilyra's medical expertise remains available where genuinely scene-earned, but she is no longer the default post-fight checker, food/sleep monitor, sealed-door monitor, Card-custody proxy, party parent, or automatic safety voice;
 - Ilyra now contributes repeatedly through research questions, evidence wording, curiosity, dry humor, teasing, profanity-compatible adult social behavior, and ordinary preferences.
+
+Current Torren/Nimera progression authority must also be respected in the upcoming re-audit: Chapter 3 is first contact only. Their eventual father/daughter-like bond is a later earned destination and must not be written backward into the chapter where they meet.
 
 Spoken-vs-narration material revisions remain in force:
 - Beats 2, 3, 4, 6, 9, 10, 12, 13, 15.
@@ -250,7 +279,7 @@ Beat 11 exact Warden messages remain:
 
 | Chapter | Dialogue status |
 |---|---|
-| Ch4 | pending current Dialogue Engine production under current restructured story authority **with Person-Brain performance, natural-turn/floor-holding, spoken-vs-narration, and current character dialogue-assignment rules active from the first rehearsal** |
+| Ch4 | pending current Dialogue Engine production under current restructured story authority **with Person-Brain performance, natural-turn/floor-holding, mature-adult speech/profanity, spoken-vs-narration, relationship progression, and current character dialogue-assignment rules active from the first rehearsal** |
 | Ch5 | beat rewrite required before dialogue generation |
 | Ch6 | macro/beat authority; dialogue pending |
 | Ch7 | macro authority; dialogue pending |
@@ -261,7 +290,7 @@ Beat 11 exact Warden messages remain:
 | Ch12 | macro authority; dialogue pending |
 | Ch13 | macro authority; dialogue pending |
 
-All later chapter dialogue uses the locked rehearsal-first Agent Brain pipeline plus all later workflow corrections from the first production pass onward. **Do not repeat the Chapter-3 sequencing mistake:** current character-specific guardrails must be applied during the same rehearsal/editor cycle as the Person-Brain performance pass, not retrofitted afterward.
+All later chapter dialogue uses the locked rehearsal-first Agent Brain pipeline plus all later workflow corrections from the first production pass onward. **Do not repeat the Chapter-3 sequencing mistake:** current character-specific guardrails, relationship-progression rules, and mature-adult speech/profanity behavior must be applied during the same rehearsal/editor cycle as the Person-Brain performance pass, not retrofitted afterward.
 
 ---
 
