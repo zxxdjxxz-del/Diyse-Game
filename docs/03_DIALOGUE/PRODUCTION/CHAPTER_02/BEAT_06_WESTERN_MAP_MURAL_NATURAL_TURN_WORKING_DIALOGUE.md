@@ -13,10 +13,6 @@ Exploration reaches a chamber dominated by a large wall-scale map. The relevant 
 
 Give the player a clean visual read before dialogue begins.
 
-**CYANIS:** That's a map.
-
-**ILYRA:** Looks like one.
-
 Torren is already comparing route relationships with the practical Wayfinder copy the group carries.
 
 **MAEVRA:** You recognize something?
@@ -167,8 +163,9 @@ Once the practical copy is complete, Cyanis gives the mural one last look.
 
 ## Audit check
 
-- The mural discovery remains a real evidence-analysis scene: Torren, Ilyra, and Maevra may explain route relationships and uncertainty because those are new interpretations, not visible inventory.
+- The mural itself gets the first word visually; Cyanis and Ilyra no longer announce `That's a map / Looks like one` after the player has already seen a wall-scale map.
+- The discovery remains a real evidence-analysis scene: Torren, Ilyra, and Maevra may explain route relationships and uncertainty because those are new interpretations, not visible inventory.
 - The Caelora/Crest and panel-edge deductions remain because they materially advance what the party knows.
-- The closing priority beat no longer repeats `later / people first / people first` across four speakers after the decision is already clear.
+- The closing priority beat does not repeat `later / people first / people first` across four speakers after the decision is already clear.
 - Kidnapped people remain the immediate priority.
 - No story or reveal outcome changed.
