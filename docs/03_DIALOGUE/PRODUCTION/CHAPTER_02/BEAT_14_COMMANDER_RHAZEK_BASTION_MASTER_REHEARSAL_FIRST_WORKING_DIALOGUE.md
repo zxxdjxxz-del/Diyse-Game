@@ -1,6 +1,6 @@
 # Chapter 2 — Beat 14 — Commander Rhazek / Bastion Master
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NOT LOCKED  
+**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — SPOKEN/NARRATION AUDIT CURRENT — NOT LOCKED  
 **Owning cumulative manuscript:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`  
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
@@ -106,9 +106,13 @@ The soldier waits.
 
 The soldier gives a short acknowledgement and moves.
 
-**CYANIS:** You're abandoning the Bastion.
+Cyanis keeps his attention on Rhazek.
 
-**RHAZEK:** I'm not spending soldiers to defend a position I no longer control.
+**CYANIS:** And the prisoners?
+
+**RHAZEK:** You took the galleries. You took the command level. If you can move them, move them.
+
+**ILYRA:** We can.
 
 Torren looks toward the command-side route.
 
@@ -119,14 +123,6 @@ Cyanis glances at him.
 **TORREN:** Didn't say I liked him.
 
 Rhazek retrieves himself enough to move. He remains visibly affected by the fight; the scene does not erase the defeat because he can still stand.
-
-**ILYRA:** The prisoners leave too.
-
-Rhazek looks at her.
-
-**RHAZEK:** You took the galleries. You took the command level. If you can move them, move them.
-
-**ILYRA:** We can.
 
 Rhazek gives no permission and receives no thanks. He is simply acknowledging a fact he can no longer prevent.
 
@@ -202,13 +198,13 @@ Control/story handoff moves directly toward **Beat 15 — Return to the Prisoner
 
 ---
 
-## Beat-14 knowledge and world-state checkpoint
+## Beat-14 audit checkpoint
 - Cyanis, Ilyra, and Torren have **defeated Commander Rhazek in combat**.
 - Maevra did not participate in the fight and remains below with the prisoners.
 - The unnamed masked officer never returns and never participates in Beat 14.
 - Rhazek receives no secret second phase, fresh HP form, invulnerable reversal, magical escape, or victory-erasing cutscene.
-- Rhazek recognizes that the Old Bastion's interior command position has become militarily untenable.
-- He orders a **general Black Host withdrawal through the maintained road gate**, with wounded personnel moved first.
+- Rhazek recognizes that the Old Bastion's interior command position has become militarily untenable and orders a **general Black Host withdrawal through the maintained road gate**, with wounded personnel moved first.
+- Cyanis does not announce the already-visible withdrawal back to Rhazek; he immediately asks about the prisoners, the unresolved human consequence that still matters.
 - Surviving Host soldiers withdraw rather than being exterminated to prove victory.
 - Rhazek leaves alive with the retreating force through an ordinary military exit.
 - The party could pursue beyond the gate, but deliberately prioritizes the captives still waiting below.
