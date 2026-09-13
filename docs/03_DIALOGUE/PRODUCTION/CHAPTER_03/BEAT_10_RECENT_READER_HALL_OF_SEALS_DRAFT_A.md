@@ -1,10 +1,10 @@
 # Chapter 3 — Beat 10
 # The Recent Reader / Hall of Seals
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — NATURAL-TURN RHYTHM PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — PERSON-BRAIN PERFORMANCE PASS
 
 **Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the live situation, hard historical findings, recent-reader end state, and reveal firewalls. It was not given a speaker sequence or a required research-thread dialogue order.
 
-**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Nimera now holds the floor through connected keeper-ledger findings and caveats instead of being prompted clause by clause; quick character banter remains intact where it is genuinely comic.
+**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Nimera now holds the floor through connected keeper-ledger findings and caveats, corrects imprecise conclusions in real time, and may be interrupted by other characters for actual social reasons rather than line-length control.
 
 ---
 
@@ -20,7 +20,7 @@ Nimera checks the final marked citation again.
 
 **CYANIS:** You actually have a hall for seals.
 
-**NIMERA:** We have halls for things nobody wanted to throw away and nobody agreed how to classify.
+**NIMERA:** We have halls for things nobody wanted to throw away and nobody agreed how to classify. Seals just got lucky enough to win the naming argument.
 
 **TORREN:** So a hall for scholars.
 
@@ -30,13 +30,21 @@ Nimera looks at him.
 
 **ILYRA:** Almost?
 
-**NIMERA:** He looked pleased with himself.
+**NIMERA:** He looked pleased with himself before he finished it.
+
+**TORREN:** I was pleased with myself.
+
+**NIMERA:** Exactly. Ruined the whole thing.
 
 Torren is already looking toward the deeper route.
 
 **TORREN:** You know the way?
 
-**NIMERA:** Yes. Come on.
+**NIMERA:** Yes. And before anyone asks, no, I have not memorized every object in it. I know the route, the catalogue structure, and which curator gets angry if you breathe too near the succession cases.
+
+**CYANIS:** Useful distinction.
+
+**NIMERA:** Mock me again and I'll make you carry the reference folio.
 
 She gathers the relevant citation slip rather than the whole table.
 
@@ -62,41 +70,69 @@ She reads the same passage twice.
 
 **CYANIS:** Bad writing?
 
-**NIMERA:** Unfortunately, no. Working seal damaged during transfer; impression still correct, authority response weakened afterward. Then later: renewal after succession, same seal body retained, authority restored through keeper work.
+**NIMERA:** Unfortunately, no. Worse. Clear writing.
+
+She turns the ledger slightly so the others can see the entry.
+
+**NIMERA:** Working seal damaged during transfer; impression remained correct; authority response weakened afterward. Then later, after succession, same physical seal body retained, authority restored through keeper work. That means the visible mark and the magical authority were being tracked separately by the people actually responsible for the thing.
 
 **CYANIS:** So the seal was carrying it.
 
-**NIMERA:** Looks like it. The keeper method is in another manual. Not here.
+**NIMERA:** Careful. The physical seal carried *something persistent enough to be weakened and restored.* I am comfortable calling that authority because the keeper does. I am not yet comfortable pretending we know the mechanism.
 
 **TORREN:** Keeper work meaning missing.
 
-**NIMERA:** Precisely.
+**NIMERA:** Yes. The actual method is in another manual because apparently history has standards about when to be useless.
 
 **ILYRA:** Gone?
 
-**NIMERA:** Not in this case.
+**NIMERA:** Not in this case. Referenced. Which is more irritating because it means somebody knew exactly where it belonged and we don't have it here.
 
 Cyanis is still on the first implication.
 
 **CYANIS:** So Lysara wouldn't have to put fresh magic into every order herself.
 
-**NIMERA:** Correct.
+**NIMERA:** Correct. Probably.
 
-**CYANIS:** Then someone with the seal—
+**CYANIS:** Probably?
 
-**NIMERA:** Maybe. The record tells us the physical seal can retain authority. It does not tell us who can make that authority answer, or under what conditions.
+**NIMERA:** We have a historical model, not her personal maintenance record. Do you want accuracy or comfort?
 
-Cyanis stops and nods.
+**CYANIS:** Accuracy.
 
-**CYANIS:** Right.
+**NIMERA:** Then stop making that face when it comes with qualifiers.
 
-**TORREN:** Still makes the physical seal more important.
+Cyanis points at the ledger.
 
-**ILYRA:** It was already important.
+**CYANIS:** Fine. Then someone with the seal—
 
-**TORREN:** More annoying, then.
+**NIMERA:** Maybe.
 
-**NIMERA:** Much more accurate.
+**CYANIS:** I wasn't done.
+
+**NIMERA:** I know where the sentence was going and it was outrunning the evidence.
+
+**CYANIS:** You interrupt everyone this much?
+
+**NIMERA:** Only when they deserve it.
+
+**TORREN:** So everyone.
+
+**NIMERA:** Increasingly, yes.
+
+She taps the ledger once.
+
+**NIMERA:** Physical seal matters more than we thought. Who can make its authority answer, under what conditions, whether possession is enough, whether keeper work changes that—still open.
+
+Ilyra nods.
+
+**ILYRA:** That's usable.
+
+**NIMERA:** Thank you. See? She waits until the sentence ends.
+
+**CYANIS:** You didn't let mine end.
+
+**NIMERA:** Yours was dangerous.
 
 ### [GAMEPLAY — HALL OF SEALS]
 
@@ -116,27 +152,39 @@ Torren is looking at a heavy stone seal face displayed beside a later copied imp
 
 Nimera moves closer and checks the provenance label.
 
-**NIMERA:** No. Same kind of object, maybe. Diysean layer. Whoever catalogued it called it civic authority, which means they had enough context to be brave and not enough to be certain.
+**NIMERA:** No. Same *kind* of object, maybe. Diysean layer. Whoever catalogued it called it civic authority, which means they had enough context to be brave and not enough to be certain.
 
 **TORREN:** You dislike archivists too?
 
-**NIMERA:** I dislike confidence with poor paperwork.
+**NIMERA:** I dislike confidence with poor paperwork. Archivists merely provide a statistically impressive sample.
 
 She checks another fragment in the same group: a metal face with surviving magical residue noted in an older study.
 
-**NIMERA:** This one had a response when it was recovered. Again: authority, apparently. Diysean authority, not Yahtrean royalty.
+**NIMERA:** This one had a response when it was recovered. Again: authority, apparently. Diysean authority, not Yahtrean royalty. Similar physical idea, older context, no proven lineage.
 
 **CYANIS:** You know what I meant.
 
 **NIMERA:** I did. The answer is still no.
 
+**CYANIS:** I didn't ask anything.
+
+**NIMERA:** Your eyebrows did.
+
 Ilyra looks between the ancient fragment and the later royal-seal material.
 
-**ILYRA:** Similar idea.
+**ILYRA:** Strong resemblance, then.
 
-**NIMERA:** Strongly similar. Not proven lineage.
+Nimera points at her.
 
-She leaves it there.
+**NIMERA:** Yes. Strong resemblance. Excellent wording. Everybody use hers.
+
+**TORREN:** You know you're impossible to travel with, right?
+
+**NIMERA:** We have been traveling together for perhaps an hour.
+
+**TORREN:** Enough data.
+
+Nimera stares at him, then laughs despite herself.
 
 ### [THE WESTWAYS FOLIO]
 
@@ -148,7 +196,11 @@ Torren notices the disturbed storage before anyone opens it.
 
 Nimera checks the case.
 
-**NIMERA:** No.
+**NIMERA:** No. Wrong rest position, dust broken at the rear edge, and whoever put it back—or tried to—left the support strap folded under itself. Fucking animal.
+
+**CYANIS:** That's the part that bothers you?
+
+**NIMERA:** Several things can bother me at once.
 
 The folio is an old survey / excavation comparison involving authority-mark fragments recovered from the Diysean ruins in the Westways.
 
@@ -166,11 +218,15 @@ Torren checks the folio, nearby ledger, and a second volume already left open.
 
 Nimera follows the references between them.
 
-**NIMERA:** Same marker pattern.
+**NIMERA:** Same marker pattern too. Same work trail, then. Don't say same person yet.
 
-**CYANIS:** Same reader?
+**CYANIS:** I wasn't—
 
-**NIMERA:** Same trail. Down here before us.
+**NIMERA:** Good.
+
+**CYANIS:** You're getting irritating on purpose now.
+
+**NIMERA:** No, this is effortless.
 
 Ilyra looks toward the older end of the Hall.
 
@@ -178,7 +234,7 @@ Ilyra looks toward the older end of the Hall.
 
 Nimera checks the last inserted citation slip.
 
-**NIMERA:** No.
+**NIMERA:** No. Whoever was doing this kept going inward.
 
 ### [GAMEPLAY — OLDER RESTRICTED ANNEX]
 
@@ -212,7 +268,7 @@ A large armored figure is dormant in an alcove beyond the threshold.
 
 Nimera follows his gaze.
 
-**NIMERA:** No.
+**NIMERA:** No. And before you ask me what it is, I have "large," "armored," and "not currently moving." That's the complete responsible answer.
 
 **CYANIS:** Decorative?
 
@@ -220,13 +276,15 @@ Nimera follows his gaze.
 
 **CYANIS:** I was asking hopefully.
 
-Nimera looks at the sealed architecture around the alcove.
-
-**NIMERA:** Hope quieter.
+**NIMERA:** Hope quieter. If optimism wakes that bastard, I'm blaming you in the record.
 
 A beat.
 
 The armored figure remains dormant.
+
+**TORREN:** Didn't wake.
+
+**NIMERA:** Excellent. Your optimism remains unproven as a threat.
 
 Do not activate it yet.
 
@@ -251,11 +309,10 @@ Transition directly into:
 ## Beat-10 production notes
 
 - The scene follows evidence rather than having the party verbally reconstruct the entire recent reader's route at the opening table.
-- The Hall of Seals is a physical historical collection, not a magical interface or system terminal.
+- The Hall of Seals remains a physical historical collection, not a magical interface or system terminal.
+- Nimera now holds connected findings and caveats naturally, interrupts when a conclusion genuinely outruns the evidence, and uses profanity as part of ordinary technical/social speech rather than as decorative edge.
 - The keeper-ledger discovery establishes that working royal seals could retain authority in the physical seal between uses. It does not establish who can invoke that authority or how unauthorized use occurred.
 - Missing / incomplete keeper material preserves Beat 12's seal-working discovery.
 - pre-Yahtrean Diysean seal fragments establish strong precedent for physical magical authority seals without proving direct lineage to Lysara's current seal.
-- the Westways connection is historical scholarship around authority-mark fragments from the same ruin field; it does not prove Cyanis's Card and the seals share an origin.
-- the recent-reader trail is confirmed through matching recent use and marker patterns, without having the characters recite the full research chain back to one another.
-- research dialogue preserves natural floor ownership: Nimera completes linked findings/caveats before yielding instead of being prompted one clause at a time.
+- the recent-reader trail is confirmed through matching recent use and marker patterns without overclaiming a single reader identity.
 - the final dormant armored figure is only threshold staging. Beat 11 owns activation, magical assessment, battle, `PREVIOUS ERROR`, `LAST SENTINEL CONFIRMED`, and the subsequent Card stabilization.
