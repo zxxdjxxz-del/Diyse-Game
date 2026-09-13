@@ -2,10 +2,10 @@
   "schema": "diyse_scene_authority_spec_v1",
   "scene_id": "CH01_C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST",
   "chapter_id": "chapter_01",
-  "story_position": "Chapter 1 cleanup window — optional Character-Life C05",
+  "story_position": "Chapter 1 cleanup window — optional Character-Life C04 (legacy source key C05)",
   "production_ready": false,
   "participants": ["ilyra", "maevra"],
-  "scene_purpose": "Give Ilyra and Maevra a private adult-friendship scene while Ilyra changes Maevra's splint. The medical task grounds Maevra's continuing broken-arm state and healing-magic limits, while Ilyra's natural curiosity opens a conversation about Maevra and Torren that reveals history and present feeling without turning into therapy or a relationship briefing.",
+  "scene_purpose": "Give Ilyra and Maevra a private adult-friendship scene while Ilyra changes Maevra's splint. The medical task grounds Maevra's continuing broken-arm state and healing-magic limits, while Ilyra's natural curiosity notices that Maevra and Torren have unusually deep familiarity without turning the scene into a relationship-history reveal.",
   "story_sources": [
     {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_MAEVRA_BROKEN_ARM_LOCK.md", "whole_file": true, "role": "injury_and_healing_limit_authority"},
     {"path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHARACTER_LIFE_REBUILD_LOCK.md", "whole_file": true, "role": "current_character_life_direction"}
@@ -26,14 +26,26 @@
     "Maevra's arm was broken during the Broken Convoy attack before Chapter 1 and remains broken.",
     "Ilyra's magic can ease pain and surrounding strain but cannot mend the fracture.",
     "Ilyra asks about Maevra and Torren out of ordinary adult curiosity, not as therapist or interrogator.",
-    "Maevra is comfortable discussing old romance and sexual history; the more emotionally exposed question is whether she still loves Torren.",
-    "Maevra and Torren's history contains no betrayal, cheating, or bitter breakup retcon.",
-    "Distance, posts, roads, and life repeatedly separated them, and they kept finding each other again.",
-    "Maevra still loves Torren in the present.",
-    "The scene does not claim private facts about Torren beyond what Maevra can reasonably know and say."
+    "The player should already be able to tell that Maevra and Torren have known each other for a long time because of practiced arguing, shorthand, remembered habits, and mutual stubbornness.",
+    "Their Chapter-1 surface dynamic can resemble an old married couple who may not even seem to get along particularly well.",
+    "Maevra is stubborn about duty and responsibility; Torren is stubborn about ground truth, routes, practical judgment, and refusing to pretend a bad plan is good.",
+    "This scene may reveal only that Torren is more than an ordinary colleague to Maevra and that he matters to her personally.",
+    "Exact duration, enlistment ages, former romance, sex, breakup history, repeated reunions, current romantic status, and Torren's private feelings remain unrevealed."
   ],
   "forbidden_cast": ["cyanis", "torren"],
   "forbidden_presentation": ["magic_mending_broken_bone", "medical_montage", "therapy_scene", "relationship_exposition_dump", "third_character_interruption"],
-  "forbidden_reveals": ["prime_or_last_sentinel_explanation", "entity", "ancient_network_expansion"],
+  "forbidden_reveals": [
+    "exact_maevra_torren_history_duration",
+    "maevra_torren_enlistment_ages",
+    "explicit_past_romance",
+    "explicit_past_sexual_relationship",
+    "breakup_history",
+    "reunion_cycle_history",
+    "current_romantic_status",
+    "torren_private_feelings",
+    "prime_or_last_sentinel_explanation",
+    "entity",
+    "ancient_network_expansion"
+  ],
   "production_cost_ceiling": "very_low_reuse_camp_assets_portrait_led"
 }
