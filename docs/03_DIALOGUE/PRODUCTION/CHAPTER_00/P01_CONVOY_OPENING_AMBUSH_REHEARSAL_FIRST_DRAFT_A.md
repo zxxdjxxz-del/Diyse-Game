@@ -1,6 +1,6 @@
 # Chapter 0 — P01
 # Convoy / Opening Ambush
-## REHEARSAL-FIRST QUICK-PASS DRAFT A — awaiting user approval
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 ---
 
@@ -14,59 +14,77 @@ The recovered Card remains protected inside its damaged recovery casing near the
 
 Maevra's later broken-arm continuity belongs to the wider Broken Convoy crisis but does not require her to be inserted into Cyanis's immediate opening scene.
 
-**CONVOY OFFICER:** Dovaren. East side. Keep the travelers off the recovery wagon.
+**CONVOY OFFICER:** Dovaren. East side. Keep the travelers off the recovery wagon, and before you tell me you've already done it—
 
 **CYANIS:** Already moved them down the shoulder.
 
-A beat.
+The officer closes his eyes for half a second.
 
-**CONVOY OFFICER:** I hadn't finished.
+**CONVOY OFFICER:** I had six more words.
 
 **CYANIS:** Sorry.
 
-The officer waits.
+A beat.
 
 **CYANIS:** Mostly.
 
 **CONVOY OFFICER:** There it is.
 
-A beat.
+He looks toward the convoy center.
 
-**CONVOY OFFICER:** Recovery team says the casing shifted again.
+**CONVOY OFFICER:** Recovery team says the casing shifted again. Nothing dramatic. Enough that they're nervous.
 
-**CYANIS:** Seal?
+**CYANIS:** Seal still holding?
 
 **CONVOY OFFICER:** Holding.
 
-**CYANIS:** Then Caelora can worry about it.
+**CYANIS:** Then they can be nervous all the way to Caelora. I'm not opening an unknown recovery case on the road because it rattled.
 
-**CONVOY OFFICER:** That's the plan.
+**CONVOY OFFICER:** Good. I was hoping not to have that argument with you.
+
+**CYANIS:** You would've won.
+
+**CONVOY OFFICER:** Eventually.
 
 The exchange is about to end.
 
-Cyanis notices the empty road ahead.
+Cyanis looks ahead again.
+
+His expression changes.
 
 **CYANIS:** Sir.
 
+The officer hears the change more than the word.
+
 **CONVOY OFFICER:** What?
 
-**CYANIS:** No return traffic.
+**CYANIS:** How long since we passed anyone coming back this way?
+
+The officer looks up the road.
+
+**CONVOY OFFICER:** A while.
+
+**CYANIS:** Longer than a while. No courier, no wagon, no farm traffic. Nothing since the bend.
+
+**CONVOY OFFICER:** Road could just be empty.
+
+**CYANIS:** Could be. I don't like how completely empty.
 
 A beat.
 
-**CONVOY OFFICER:** How long?
+**CYANIS:** Hold the column.
 
-**CYANIS:** Long enough that I don't like it.
+The officer looks at him rather than immediately obeying.
 
-**CONVOY OFFICER:** Could be nothing.
+**CONVOY OFFICER:** You're asking me to stop every wagon because the road feels wrong.
 
-**CYANIS:** Could be.
+**CYANIS:** I'm asking you to stop them while we're still together. If it's nothing, we lose a minute and you can remind me about it for the rest of the trip.
 
-A beat.
+The officer studies the empty road once more.
 
-**CYANIS:** Hold anyway.
+**CONVOY OFFICER:** Tempting offer.
 
-The officer makes the formal call.
+Then, louder:
 
 **CONVOY OFFICER:** Column, halt!
 
@@ -76,7 +94,7 @@ Black Host fire and war-sorcery break the road formation and separate Cyanis ont
 
 **CONVOY OFFICER:** Dovaren! East side!
 
-**CYANIS:** Stone line! Stay low! Move!
+**CYANIS:** Stone line! Stay low! If you can move, help somebody who can't! Go!
 
 The Card does not react.
 
@@ -110,12 +128,10 @@ Player control moves into **P02 — Wreck Field**.
 
 ---
 
-## Quick-pass check
+## Person-Brain performance note
 
-**Cyanis:** introduced through practical competence, mild insubordination, and attention to the road rather than chosen-one framing.
-
-**Officer:** takes Cyanis's warning seriously and retains formal command authority.
-
-**Presentation:** no follower staging, cinematic camera plan, or unnecessary physical acting is authored.
-
-**Maevra injury continuity:** not forced into the scene; her fracture occurs during the wider Broken Convoy crisis and is first required to be spoken about in Chapter 1.
+- Cyanis still enters through speed, competence, mild insubordination, and practical attention rather than protagonist grandeur.
+- the officer sounds familiar with Cyanis's habits and can tease him without surrendering formal authority.
+- Cyanis is allowed to finish the reason behind his road warning rather than offering only `No return traffic` / `Hold anyway` fragments.
+- once the ambush begins, speech collapses appropriately back into commands.
+- no story outcome, Card state, encounter, or Maevra continuity changes.
