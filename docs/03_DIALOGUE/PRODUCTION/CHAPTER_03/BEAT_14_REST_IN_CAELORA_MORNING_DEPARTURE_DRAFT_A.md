@@ -317,6 +317,7 @@ Transition into:
 - Ilyra's `prove him wrong and use the spoon on the stew` line is teasing manipulation, not food enforcement; Nimera remains free to comply, refuse, or argue.
 - Ilyra's recap joke is about the day's absurd events rather than whether everyone is fed, bleeding, or properly managed.
 - no one becomes the party parent. Nimera reaches `I am tired` herself and closes her own notes.
-- Torren remains terse rather than being lengthened to match Nimera.
+- Torren's short replies in this scene are retained because the bread/ink/grammar exchanges work at that rhythm. **Terseness is not a target.** By Chapter 3 Torren is already socially comfortable with Cyanis and Ilyra and may use longer ordinary turns whenever his interest, mood, or the conversation earns them.
+- Torren and Nimera are still new acquaintances here. The ink argument establishes useful friction and early social chemistry, not an already-familial or paternal relationship.
 - no investigation finding, dream, attack, magical escalation, Card transformation, Prime event, or new Cresthaven lore occurs.
 - selecting `Leave for Cresthaven` skips the road and hands directly into Beat 15.
