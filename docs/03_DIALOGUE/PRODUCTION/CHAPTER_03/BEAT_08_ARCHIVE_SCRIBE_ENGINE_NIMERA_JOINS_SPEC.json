@@ -6,12 +6,13 @@
   "production_ready": false,
   "participants": ["cyanis", "ilyra", "torren", "nimera"],
   "authoring_mode": "rehearsal_first_agent_driven",
-  "director_rule": "Provide the hostile Scribe Engine situation, the current four-person provisional grouping, the hard recruitment outcome, and the reveal boundaries. Do not script a recruitment conversation, require anyone to explain Nimera's freedom to choose, or require Nimera to summarize why she joins.",
+  "director_rule": "Provide the hostile Scribe Engine situation, the current four-person provisional grouping, the hard recruitment outcome, the reveal boundaries, current mature-adult speech rules, and the fact that Torren and Nimera are still new acquaintances. Do not script a recruitment conversation, require anyone to explain Nimera's freedom to choose, require Nimera to summarize why she joins, or import later familial relationship shorthand backward into her join scene.",
   "scene_context": {
     "location": "deeper Old City archive immediately beyond the reopened Ancient barrier",
     "situation": "Reopening the route has reconnected active archive machinery. A Scribe Engine shifts into dangerous enforcement behavior while Nimera is already moving with Cyanis, Ilyra and Torren provisionally. Nimera is a practiced Cardweaver and combat-capable, but not yet a permanent party member.",
     "card_state": "Cyanis carries the abnormal green-and-gold Card, still unclassified",
     "maevra_state": "remains in Caelora with Mirena",
+    "torren_nimera_relationship_state": "first_contact_only_professional_curiosity_mutual_testing_and_early_competence_respect",
     "presentation": "short pre-fight trigger, one mandatory battle, concise natural aftermath"
   },
   "hard_outcomes": [
@@ -21,6 +22,7 @@
     "The Scribe Engine is disabled locally without a large explosion or broad Archive shutdown.",
     "Afterward, Nimera has enough direct evidence from the machine, Cyanis's Card and the permitted seal material to judge that deeper Archive evidence is worth pursuing, while still refusing unsupported Card classifications or a seal solution.",
     "Nimera's intention to continue with the group becomes obvious through natural behavior and dialogue rather than an explanatory recruitment speech.",
+    "Torren and Nimera may already find one another useful, irritating or funny, but the relationship remains first-contact and does not perform later father/daughter-like care, shorthand or paternal protectiveness.",
     "By the end of the beat Nimera Pellan is a permanent party member and the active permanent party is Cyanis, Ilyra, Torren and Nimera.",
     "The scene hands into Beat 9 deeper four-person archive exploration."
   ],
@@ -45,7 +47,8 @@
   "workflow_locks": [
     "docs/03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md",
     "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
-    "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md"
+    "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md",
+    "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md"
   ],
   "forbidden_presentation": [
     "scribe_engine_as_talking_villain",
@@ -57,6 +60,9 @@
     "characters_explaining_why_nimera_is_free_to_choose",
     "characters_summarizing_nimeras_recruitment_motivation",
     "formal_recruitment_interview_or_vote",
+    "torren_nimera_paternal_familial_or_dad_thing_behavior",
+    "ilyra_becomes_nimeras_parent_or_automatic_postfight_monitor",
+    "sanitized_uniformly_polite_adult_dialogue",
     "grand_lore_answer_after_minor_machine_fight"
   ]
 }
