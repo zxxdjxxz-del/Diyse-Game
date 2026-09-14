@@ -26,14 +26,30 @@
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md",
       "whole_file": true,
       "role": "mandatory_guardrail_first_dialogue_method"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turn_and_floor_holding_rule"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_register_and_character_specific_profanity_rule"
     }
+  ],
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml"
   ],
   "scene_context_seed": {
     "location_name": "protected Ancient Diysean sealwright chamber beyond the inert First Command Warden",
     "area_phase": "post_boss_seal_copying_investigation",
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
-    "runtime_note": "The chamber is physical magical craft: stone worktables, fitted dies and matrices, engraving frames, seal rests, inlay channels, binding circles, presses, blanks, impressions, test media and magical scorching. The room contains recent or comparatively recent practice work among Ancient fixtures. Do not prescribe which character discovers each stage or the order of conversation. Let Person Agents investigate what is visible and argue from their own expertise. No new map or route relief exists in this beat."
+    "runtime_note": "The chamber is physical magical craft: stone worktables, fitted dies and matrices, engraving frames, seal rests, inlay channels, binding circles, presses, blanks, impressions, test media and magical scorching. The room contains recent or comparatively recent practice work among Ancient fixtures. Do not prescribe which character discovers each stage or the order of conversation. Let Person Agents investigate what is visible and argue from their own expertise. Cyanis owns questions about his own Card handling; do not assign Ilyra automatic Card custody, safety arbitration, or scene-closing authority. No new map or route relief exists in this beat."
   },
   "current_floor_state": {
     "active_party": "cyanis_ilyra_torren_nimera",
@@ -41,7 +57,8 @@
     "warden_state": "fully_inert_after_PREVIOUS_ERROR_then_LAST_SENTINEL_CONFIRMED",
     "card_state": "cyanis_physically_carries_card_in_stable_deep_ruby_state_no_gameplay_unlock",
     "recent_reader_state": "identity_unknown_trail_reached_deep_old_city_but_reader_and_seal_practitioner_not_proven_same_person",
-    "royal_seal_state": "lysaras_actual_seal_remains_in_crown_custody_and_suspect_orders_carry_genuine_authority_response"
+    "royal_seal_state": "lysaras_actual_seal_remains_in_crown_custody_and_suspect_orders_carry_genuine_authority_response",
+    "torren_nimera_relationship_state": "first_chapter_together_not_familial"
   },
   "hard_outcomes": [
     "The chamber is recognized as an Ancient Diysean sealwright / authority-craft workspace that has also been used recently or comparatively recently.",
@@ -84,10 +101,13 @@
     "testing_a_copy_by_recklessly_activating_it",
     "using_cyaniss_card_as_a_sealwright_tool_or_key",
     "creating_a_new_authority_seal",
+    "ilyra_as_automatic_card_custody_or_safety_proxy",
+    "ilyra_automatically_closes_the_scene_for_everyone",
+    "torren_nimera_paternal_or_familial_shorthand",
     "new_map_or_route_relief",
     "playable_return_traversal_after_leaving_the_chamber",
     "party_roll_call_or_required_one_contribution_per_character"
   ],
-  "authority_override_note": "Current whole-project canon overrides stale identity labels inside any runtime brain file. Use current character behavior/personality models, but do not import superseded class, Face, Prime or other identity fields into Beat 12.",
+  "authority_override_note": "Current character authorities and runtime brains are aligned: Cyanis is Crest Knight / Crest Magus; Nimera is Cardweaver / Proofhunter aligned to Memory; current Ilyra and Torren dialogue-assignment/progression guardrails apply directly. Resource and Sixfold Knight are retired for Nimera.",
   "production_cost_ceiling": "one bounded post-boss investigation space with a small number of authored stops, then immediate cut to Caelora on exit"
 }
