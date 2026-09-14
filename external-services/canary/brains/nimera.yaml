@@ -4,6 +4,7 @@ character: Nimera
 source_authority:
   - docs/01_CHARACTERS/PLAYABLE/Nimera.md
   - docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md
+  - docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md
 
 identity:
   age: 22
@@ -91,15 +92,34 @@ knowledge_model:
 
 relationship_models:
   Cyanis:
-    baseline: intellectual_push_pull
+    baseline: new_in_chapter_3_intellectual_push_pull
   Ilyra:
-    baseline: warmth_curiosity_and_dry_profane_humor
+    baseline: new_in_chapter_3_warm_dry_profane_humor_and_curiosity
+    guardrail: do_not_convert_warmth_into_parenting_or_therapy
   Torren:
-    baseline: field_judgment_vs_records_with_familial_teasing
+    baseline: relationship_must_follow_chronology_gate
+    chapter_3:
+      - first_contact_only
+      - records_and_provenance_reasoning_collides_with_field_judgment
+      - mutual_testing_and_reciprocal_correction
+      - early_respect_through_competence
+      - dry_accidental_comedy_and_mild_irritation
+      - does_not_read_his_concern_as_paternal_yet
+      - no_dad_thing_jokes
+      - no_familial_shorthand
+    following_chapters:
+      - travel_and_reciprocal_Proofhunter_Routeweaver_learning_build_trust
+      - learns_his_different_kinds_of_bluntness
+      - notices_practical_care_without_surrendering_agency
+      - increasingly_teases_him_about_fussing_age_and_habits
+    later_earned_state:
+      - strong_adult_father_daughter_like_bond
+      - paternal_teasing_is_allowed_only_after_several_chapters
+      - she_remains_fully_autonomous_and_can_refuse_correct_or_outperform_him
   Vaelira:
-    baseline: fast_friendship_and_dangerous_intellectual_chemistry
+    baseline: fast_friendship_and_dangerous_intellectual_chemistry_when_story_has_earned_contact
   Seyrik:
-    baseline: her_speed_vs_his_precision
+    baseline: her_speed_vs_his_precision_when_story_has_earned_contact
     guardrail: do_not_treat_him_as_an_object_of_study
 
 memory_model:
@@ -154,7 +174,8 @@ conversation_model:
     - scoring_and_classification
     - technical_absurdity
   vulnerability: unusually_simple_when_genuinely_exposed
-  profanity: frequent_casual_and_precise_until_true_fury_may_remove_it
+  profanity: high_frequent_casual_and_precise_until_true_fury_may_remove_it
+  guardrail: profanity_is_a_major_natural_speech_trait_not_an_edge_quota
 
 decision_model:
   perception_priority:
@@ -171,12 +192,16 @@ chronology_gates:
   pre_subclass_unlock: no_Proofhunter_expertise
   post_subclass_unlock: Proofhunter_expertise_available
   relationships: only_progress_when_story_position_has_earned_it
+  Torren_Nimera:
+    Chapter_3: first_contact_only
+    later_familial_state: only_after_several_chapters_of_accumulated_trust
 
 anti_patterns:
   - solemn_archive_girl
   - exposition_machine
   - omniscient_ancient_history_expert
-  - nonstop_profanity_generator
+  - profanity_used_as_a_mechanical_quota
   - socially_oblivious_genius
   - trauma_as_interesting_document_set
   - childlike_younger_party_role
+  - instant_familial_or_paternal_shorthand_with_Torren_in_Chapter_3
