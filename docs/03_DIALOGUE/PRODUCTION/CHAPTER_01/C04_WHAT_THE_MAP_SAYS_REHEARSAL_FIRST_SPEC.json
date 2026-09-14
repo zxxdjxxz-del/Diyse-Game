@@ -2,33 +2,47 @@
   "schema": "diyse_scene_authority_spec_v1",
   "scene_id": "CH01_C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST",
   "chapter_id": "chapter_01",
-  "story_position": "Chapter 1 cleanup window — optional Character-Life C04",
+  "story_position": "Chapter 1 cleanup window — canonical Character-Life C03 (legacy source key C04)",
   "production_ready": false,
   "participants": ["cyanis", "torren"],
-  "scene_purpose": "Give Cyanis and Torren a quiet early-friendship camp scene built around Torren updating an ordinary modern route map. Cyanis becomes genuinely interested in Torren's work, Torren becomes more talkative because maps and roads matter to him, and the accidental old-slut/old-cut misunderstanding becomes an early boundary-breaking joke without jumping ahead to their later brother-like relationship.",
+  "scene_purpose": "Give Cyanis and Torren a quiet early-friendship camp scene built around Torren updating an ordinary modern route map. Cyanis is genuinely interested in Torren's work; maps and roads naturally draw longer speech from Torren, but the scene also demonstrates growing social comfort rather than implying expertise is the only reason he can talk. The accidental old-slut/old-cut misunderstanding becomes an early boundary-breaking joke without jumping ahead to their later brother-like relationship.",
   "story_sources": [
     {"path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHARACTER_LIFE_REBUILD_LOCK.md", "whole_file": true, "role": "current_rebuild_direction"}
   ],
   "additional_authority_sources": [
     {"path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md", "whole_file": true, "role": "cyanis_character_authority"},
-    {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "torren_character_authority"},
+    {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "torren_social_progression_authority"},
     {"path": "docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md", "whole_file": true, "role": "early_relationship_timing"},
+    {"path": "external-services/canary/brains/cyanis.yaml", "whole_file": true, "role": "current_cyanis_runtime_person_brain"},
+    {"path": "external-services/canary/brains/torren.yaml", "whole_file": true, "role": "current_torren_runtime_person_brain"},
     {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_authoring"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md", "whole_file": true, "role": "mature_adult_register_and_character_specific_profanity"},
     {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "camp_presentation"}
   ],
   "scene_context_seed": {
     "location_name": "Junction-area camp",
     "time": "evening",
     "scene_type": "optional_character_life",
-    "runtime_note": "Cyanis and Torren may be visible as field models at camp. Portraits and dialogue box carry most performance. Torren is updating a normal modern route map, not decoding the ancient Junction monument. One map prop is sufficient. No lore progression, Hunt progression, reward, or elaborate writing/pointing/folding animation."
+    "runtime_note": "Cyanis and Torren may be visible as field models at camp. Portraits and dialogue box carry most performance. Torren is updating a normal modern route map, not decoding the ancient Junction monument. One map prop is sufficient. Route expertise legitimately gives Torren a lot to say here, but the editor must not treat that as proof that only maps/routes can make him conversational; his social opening is already underway. Mature adult profanity is available naturally. No lore progression, Hunt progression, reward, or elaborate writing/pointing/folding animation."
   },
   "required_character_truths": [
     "Cyanis is genuinely curious about Torren's route work rather than feigning interest for exposition.",
-    "Torren becomes more verbally expansive when discussing roads and maps.",
+    "Torren becomes more verbally expansive when discussing roads and maps because those subjects genuinely interest him.",
+    "Torren's willingness to stay in the conversation and joke with Cyanis also reflects growing trust, not only expertise.",
     "The old-slut/old-cut misunderstanding is an early accidental jump into sharper humor, not proof of an already-established late-game insult routine.",
     "The scene returns to ordinary conversation after the joke rather than becoming a prolonged comedy ladder."
   ],
-  "exact_line_anchor": "CYANIS: Old slut? / TORREN: Bitch.",
+  "exact_line_anchors": [
+    {"speaker": "CYANIS", "line": "Old slut?", "order": 1},
+    {"speaker": "TORREN", "line": "Bitch.", "order": 2}
+  ],
+  "forbidden_dialogue_drift": [
+    "torren_as_map_exposition_device_only",
+    "torren_forced_to_be_terse_outside_the_map_explanation",
+    "cyanis_as_exposition_question_feed_only",
+    "sanitized_uniformly_polite_adult_dialogue",
+    "late_game_relationship_shorthand_not_earned_by_chapter_1"
+  ],
   "forbidden_reveals": ["junction_monument_function_expansion", "cistern_devourer_progression", "prime_or_last_sentinel_explanation", "entity"],
   "forbidden_presentation": ["ancient_map_reinspection", "bespoke_map_writing_animation", "repeated_pointing_or_folding", "late_game_brother_banter_tone"],
   "production_cost_ceiling": "very_low_reuse_camp_assets_portrait_led"
