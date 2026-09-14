@@ -80,7 +80,7 @@ Ilyra smells the cup again.
 
 A beat.
 
-**ILYRA:** You are going to hear about it for as long as I find it funny.
+**ILYRA:** You are, however, going to suffer severely from hearing about it for as long as I find it funny.
 
 Cyanis looks at her.
 
@@ -102,23 +102,17 @@ No elaborate prop routine is needed.
 
 ### [DINNER, APPARENTLY]
 
-Cyanis looks toward the ordinary camp food.
-
-**CYANIS:** I'm going to try again with the concept of `things humans are meant to consume.`
-
-**ILYRA:** Bold after the first attempt.
-
-He returns with two bowls.
+Cyanis returns with two bowls of stew.
 
 Ilyra looks at the second one.
 
-**ILYRA:** I didn't ask for that.
+**ILYRA:** I didn't ask for whatever you found this time.
 
-**CYANIS:** Neither did I. Tonight has been very educational about unattended hot liquids, so I asked this time.
+**CYANIS:** This one's actually edible. I promise.
 
 **ILYRA:** And?
 
-**CYANIS:** Confirmed food.
+**CYANIS:** Beef stew.
 
 Ilyra takes the bowl.
 
