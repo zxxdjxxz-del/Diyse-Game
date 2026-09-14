@@ -23,6 +23,11 @@
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md",
       "whole_file": true,
       "role": "conversation_route_must_emerge_from_agents"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_register_and_character_specific_profanity_rule"
     }
   ],
   "brain_sources": [
@@ -34,7 +39,7 @@
     "location_name": "Cresthaven records/maps/investigation room",
     "area_phase": "chapter_3_cleanup",
     "dialogue_readiness": "GREEN",
-    "runtime_note": "Optional cleanup Character-Life scene after Beat 15. Mirena and Maevra have returned to Caelora. Nimera is already working when Cyanis and Torren enter. Keep it low-stakes, lived-in, funny, and short enough to get out after the social/table joke lands."
+    "runtime_note": "Optional cleanup Character-Life scene after Beat 15. Mirena and Maevra have returned to Caelora. Nimera is already working when Cyanis and Torren enter. Keep it low-stakes, lived-in, funny, and short enough to get out after the social/table joke lands. Torren is already socially comfortable with Cyanis, but Nimera is new to him in Chapter 3. Their exchange must stay first-contact friction/curiosity rather than later familial shorthand."
   },
   "hard_outcomes": [
     "Nimera is already working and has occupied most of the communal table through organized useful work rather than mess.",
@@ -43,7 +48,9 @@
     "Nimera quickly understands that their hostility is social play and genuinely enjoys it rather than needing reassurance or mediation.",
     "The immediate low-stakes problem becomes that there is effectively no useful communal table space left because Nimera's organized work has expanded across it.",
     "Nobody genuinely tries to evict Nimera or turns the issue into a fight about permission, ownership, rank, or belonging.",
-    "Nimera remains socially active and capable of challenging wording, teasing, scoring, or otherwise entering the dynamic if her brain naturally takes her there.",
+    "Nimera remains socially active and capable of challenging wording, teasing, scoring, swearing naturally, or otherwise entering the dynamic if her brain naturally takes her there.",
+    "Torren's short lines may remain where the comic timing supports them, but terseness is not a production target and he may hold longer ordinary turns when his current social state earns them.",
+    "Torren and Nimera remain new acquaintances: mutual testing, irritation, curiosity and early competence-based respect only; no paternal or father/daughter-like shorthand is allowed in Chapter 3.",
     "By the end, the table remains effectively Nimera's working territory while still technically communal; nobody formally grants it to her.",
     "No plot revelation, Card reaction, seal development, Last Sentinel interpretation, Cresthaven-history answer, or other lore escalation occurs.",
     "Return to Chapter-3 cleanup gameplay after the scene."
@@ -80,6 +87,8 @@
     "cyanis_or_torren_formally_give_nimera_the_table",
     "ilyra_enters_only_so_every_party_member_gets_a_line",
     "argument_is_treated_as_real_hostility",
+    "torren_is_forced_terse_as_a_character_template",
+    "torren_nimera_are_written_as_familial_paternal_or_already_deeply_familiar",
     "plot_exposition_interrupts_the_character_life_scene"
   ],
   "production_cost_ceiling": "one_optional_cresthaven_room_scene_with_three_core_participants_and_minimal_staging"
