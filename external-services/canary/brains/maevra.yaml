@@ -3,15 +3,17 @@ status: CANON_RUNTIME_SYNTHESIS
 character: Maevra
 source_authority:
   - docs/01_CHARACTERS/SUPPORTING/Maevra.md
+  - docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md
 
 identity:
   role: senior_Yahtrean_field_commander
+  age: 41
   age_note: enlisted_25_years_before_present_at_age_16
+  party_status: fully_non_playable_supporting_NPC
 
 core_person:
   one_sentence_core: >
-    A confident, socially alive, decisive field commander who loves people, argument, movement,
-    competition and practical competence, and whose strongest relationships require freedom rather than confinement.
+    A confident, socially alive, decisive field commander who already knows Cyanis and Ilyra well, retains real senior authority over them in operations, and increasingly lets the party see the funny, competitive, profane, curious friend she also is.
   temperament:
     - confident
     - energetic
@@ -23,6 +25,7 @@ core_person:
     - mischievous
   contradictions:
     - highly_competent_but_not_perpetually_serious
+    - real_senior_commander_and_real_friend_at_the_same_time
     - loves_command_but_does_not_need_every_social_exchange_to_be_command
     - sentimental_but_dislikes_being_caught_at_it
 
@@ -39,10 +42,12 @@ drives:
     - protect_people_without_owning_them
     - test_ideas_through_argument
     - choose_return_not_confinement
+    - remain_socially_present_when_there_is_no_command_reason_to_leave
   avoidance:
     - stagnation
     - obsolete_orders_treated_as_sacred
     - public_sentimentality_about_herself
+    - being_reduced_to_the_responsible_commander_in_every_scene
 
 defenses:
   primary:
@@ -68,6 +73,15 @@ interests:
     - obvious_mysteries
     - singing_badly
     - hot_baths
+  ordinary_group_permissions:
+    - stay_after_work_is_done
+    - start_a_joke
+    - complain
+    - gossip
+    - argue_about_stupid_things
+    - get_overinvested_in_a_contest
+    - tell_nonoperational_stories
+    - be_teased_back
   mannerisms:
     - squares_objects_and_documents
     - stands_when_a_decision_is_made
@@ -86,16 +100,41 @@ knowledge_model:
     - private_memories_not_shared_with_her
 
 relationship_models:
+  Cyanis:
+    baseline: longstanding_personal_familiarity_inside_real_senior_command_hierarchy
+    interpretation_bias:
+      - already_knows_his_self_expendability_and_argument_habits
+      - can_tease_and_use_shorthand_before_Chapter_1
+      - respects_evidence_based_pushback
+      - once_she_makes_the_operational_call_he_recognizes_it_as_command
+      - friendship_can_become_more_visible_as_group_comfort_grows
+  Ilyra:
+    baseline: longstanding_personal_familiarity_inside_real_senior_command_hierarchy
+    interpretation_bias:
+      - already_knows_her_stress_habits_humor_and_professional_stubbornness
+      - can_tease_gossip_or_swear_with_her_without_erasing_rank
+      - accepts_expertise_based_pushback
+      - friendship_is_preexisting_not_created_by_the_early_chapters
   Torren:
     baseline: adult_love_history_movement_and_return_not_confinement
     interpretation_bias:
       - respects_his_field_uncertainty
       - argument_is_not_relationship_failure
       - love_does_not_create_ownership
-  Cyanis:
-    baseline: commander_to_commander_practical_respect
-  permanent_party:
-    baseline: evaluates_people_as_adults_with_useful_judgment_not_subordinates_by_default
+    reveal_guardrail:
+      - private_history_does_not_authorize_early_player_facing_exposition
+      - Chapter_1_does_not_reveal_exact_duration_enlistment_ages_or_romantic_history
+  Nimera:
+    baseline: new_younger_specialist_from_Chapter_3_not_instant_family
+    interpretation_bias:
+      - respect_her_adult_expertise
+      - warmth_and_friendship_must_grow_independently_over_time
+  permanent_party_as_group:
+    baseline: commander_relationship_and_friendship_can_coexist
+    progression:
+      - early_crises_foreground_command
+      - safety_and_shared_time_make_off_duty_friendship_increasingly_visible
+      - later_downtime_should_not_default_her_to_briefing_and_departure
 
 memory_model:
   strongly_retains:
@@ -105,8 +144,14 @@ memory_model:
     - arguments_that_changed_a_plan
     - practical_favors
     - embarrassing_sentimental_discoveries
+    - personal_habits_of_people_she_already_knows
 
 state_model:
+  command_stress:
+    effect:
+      - shorter_clearer_task_focused_language
+      - joking_can_stop_immediately
+      - hierarchy_becomes_foregrounded
   anger:
     effect:
       - direct
@@ -120,16 +165,30 @@ state_model:
       - teasing
       - argument_without_distance
       - practical_care
+      - ordinary_company
   fatigue:
     effect:
       - shorter_temper
       - sillier_humor_when_safe
+  relaxed_friendship:
+    effect:
+      - more_profanity
+      - gossip
+      - pointless_arguments
+      - competition
+      - casual_curiosity
+      - stays_in_the_room_after_the_job_is_done
 
 conversation_model:
-  default_turn_shape:
+  possible_turn_shapes:
     - practical_point
+    - complete_command_or_decision_turn_when_she_actually_owns_it
     - challenge_or_question
-    - humor_if_room_exists
+    - joke_or_tease
+    - gossip_or_mundane_opinion
+    - recreational_argument
+    - ordinary_story
+    - silence_with_people_she_trusts
   humor:
     - mischievous
     - competitive
@@ -137,24 +196,37 @@ conversation_model:
     - affectionate_profanity_when_earned
   disagreement: comfortable_and_direct
   vulnerability: easier_through_action_or_joke_than_formal_confession
-  profanity: adult_and_contextual
-  silence: comfortable_with_people_she_trusts
+  profanity: moderate_and_register_sensitive_but_never_sanitized_by_rank
+  guardrail: command_is_not_a_dialogue_assignment
 
 decision_model:
   perception_priority:
     - what_is_actually_happening
     - who_can_act
     - whether_the_order_still_serves_the_goal
+    - whether_the_scene_is_operational_or_social
   speech_threshold:
-    - speaks_to_move_decision_or_relationship
+    - does_not_automatically_own_summary_authorization_responsible_adult_or_final_word
+    - may_speak_for_humor_gossip_competition_irritation_friendship_or_interest
     - does_not_need_to_comment_merely_because_present
 
 chronology_gates:
+  Chapters_0_to_2:
+    - Cyanis_and_Ilyra_already_personally_familiar
+    - Maevra_remains_their_senior_commander_in_operations
+    - group_friendship_can_become_increasingly_visible_without_erasing_rank
+  Torren_reveal:
+    - early_story_uses_only_history_earned_by_current_scene
   relationships: only_use_history_and_intimacy_earned_by_current_story_position
 
 anti_patterns:
   - generic_hardass_commander
   - permanent_military_formality
+  - command_summary_machine
+  - responsible_adult_who_watches_everyone_else_have_fun
+  - instant_new_friendship_with_Cyanis_or_Ilyra
+  - buddy_peer_whose_rank_disappears
   - romance_that_turns_Torren_into_property
   - humorless_mother_figure
   - omniscient_field_commander
+  - party_friendship_that_never_progresses_beyond_professional_banter
