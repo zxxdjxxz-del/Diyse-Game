@@ -5,25 +5,32 @@
   "story_position": "Chapter 1 — Beat 11 — Hollow Watch Resolution / Torren Recruitment",
   "production_ready": false,
   "participants": ["cyanis", "ilyra", "maevra", "torren"],
-  "scene_purpose": "Resolve the condition that kept Torren in Greenhollow, convert him from temporary ally to permanent party member through understated adult conversation, and return the journey to southern Briar without adding a bespoke recruitment cinematic.",
+  "scene_purpose": "Resolve the condition that kept Torren in Greenhollow, convert him from temporary ally to permanent party member through understated adult conversation, preserve Maevra/Torren reveal timing and Maevra/Ilyra preexisting familiarity, and return the journey to southern Briar without adding a bespoke recruitment cinematic.",
   "story_sources": [
     {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Beat 11 — Hollow Watch Resolution / Torren Recruitment"], "role": "base_chapter_01_beat_11_story_authority"},
     {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md", "whole_file": true, "role": "latest_junction_naming_and_hidden_monument_authority"},
     {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "direct_card_physical_state_authority"}
   ],
   "additional_authority_sources": [
+    {"path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md", "whole_file": true, "role": "current_ilyra_role_balance_authority"},
+    {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "current_torren_social_progression_and_maevra_reveal_authority"},
+    {"path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md", "whole_file": true, "role": "current_maevra_familiarity_rank_and_reveal_authority"},
+    {"path": "external-services/canary/brains/ilyra.yaml", "whole_file": true, "role": "current_ilyra_runtime_person_brain"},
+    {"path": "external-services/canary/brains/torren.yaml", "whole_file": true, "role": "current_torren_runtime_person_brain"},
+    {"path": "external-services/canary/brains/maevra.yaml", "whole_file": true, "role": "current_maevra_runtime_person_brain"},
     {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "current_gameplay_presentation_hard_lock"},
     {"path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md", "whole_file": true, "role": "portrait_dialogue_presentation"},
     {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_authoring_lock"},
     {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "invisible_knowledge_firewall"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"}
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"},
+    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md", "whole_file": true, "role": "adult_register_and_character_specific_profanity_rule"}
   ],
   "scene_context_seed": {
     "location_name": "Hollow Watch surface / overlook before departure",
     "area_phase": "post_dungeon_resolution",
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
-    "runtime_note": "Ordinary return/departure traversal shows Cyanis only. At the Hollow Watch overlook story trigger, the relevant cast may appear as simple field models while portraits/dialogue box carry most performance. Torren's permanent recruitment should occur through ordinary dialogue and a system state change, not a bespoke join animation. Do not add repeated looking, road pointing, bow handling, ceremony, crowd activity, or departure choreography. JUNCTION: characters call the location the Junction. Torren knows the crossroads but has never seen the monument shown in the mural. Cyanis carries the intact Card and it remains inert."
+    "runtime_note": "Ordinary return/departure traversal shows Cyanis only. At the Hollow Watch overlook story trigger, the relevant cast may appear as simple field models while portraits/dialogue box carry most performance. Torren's permanent recruitment should occur through ordinary adult dialogue and a system state change, not a bespoke join animation or an oath/consent ceremony. Ilyra does not own Torren's agency simply because she is compassionate; do not assign her a default 'you can change your mind' or 'this is not an oath' reassurance. Maevra and Ilyra already know one another well, so Maevra must not speak about Ilyra like a new acquaintance. Maevra/Torren's practiced history may be obvious but its exact duration, enlistment ages, former romance/sexual history, breakup/reunion history, current romantic status and Torren's private feelings remain unrevealed. JUNCTION: characters call the location the Junction. Torren knows the crossroads but has never seen the monument shown in the mural. Cyanis carries the intact Card and it remains inert."
   },
   "current_floor_state": {
     "hollow_watch_garrison_fate": "known_dead",
@@ -33,17 +40,32 @@
     "junction_knowledge": "Torren_knows_crossroads_party_knows_mural_shows_unknown_important_monument_there",
     "card_state": "intact_directly_carried_by_cyanis",
     "torren_party_status_on_entry": "temporary_combat_ally",
+    "maevra_ilyra_relationship_state": "preexisting_personal_familiarity_plus_real_command_hierarchy",
+    "maevra_torren_player_facing_state": "obviously_long_practiced_history_private_chronology_withheld",
     "ordinary_traversal_visible_character": "cyanis_only"
   },
   "required_story_beats": [
     "Party returns to Hollow Watch surface without walking dialogue.",
     "The fort is not treated as restored; Greenhollow/Yahtrea still need warning, burial, repairs, and a proper response.",
     "Torren's reason for staying is resolved enough for him to leave.",
-    "Torren accepts Maevra's original route request and commits to the southward/Caelora journey.",
+    "Torren accepts Maevra's original route request and commits to the southward/Caelora journey through his own adult judgment.",
     "Torren becomes a permanent party member.",
     "The group intends to inspect the Junction while passing because the mural showed an important monument there that Torren has never seen."
   ],
+  "forbidden_dialogue_drift": [
+    "ilyra_manages_torrens_agency_or_turns_recruitment_into_a_consent_lesson",
+    "maevra_talks_about_ilyra_like_a_new_acquaintance",
+    "torren_recruitment_becomes_a_ceremonial_oath",
+    "torren_is_reduced_to_route_function_or_one_word_template",
+    "sanitized_uniformly_polite_adult_dialogue"
+  ],
   "forbidden_reveals": [
+    "exact_maevra_torren_history_duration",
+    "maevra_torren_enlistment_ages",
+    "maevra_torren_former_lovers_or_sex_history",
+    "maevra_torren_breakup_or_reunion_history",
+    "maevra_torren_current_romantic_status",
+    "torren_private_romantic_feelings",
     "junction_monument_function",
     "hidden_map_surface_before_junction_arrival",
     "wayfinder_name_in_character_dialogue",
