@@ -11,10 +11,16 @@ This tool deliberately writes *derived artifacts only*:
 - build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT.docx
 
 It does NOT modify chapter authority indexes or the Dialogue Master Index. Those
-source-authority/status files must be promoted manually only after generated output
-verification succeeds. This prevents a sync run from overwriting source-closure state.
+source-authority/status files must be promoted manually only after generated-output
+verification succeeds.
 
-Use --check to verify generated Markdown/manifest state without writing anything.
+Modes:
+- --source-check : verify source closure, source selection, protected anchors, and
+                   retired-canon guards without requiring derived outputs to exist.
+- --check        : verify the generated Markdown manuscripts/manifest without writing.
+- default        : regenerate Markdown/manifest and, unless --no-docx, the reader DOCX.
+
+A generated DOCX still requires the normal render-and-visual-QA gate before delivery.
 """
 from __future__ import annotations
 
@@ -28,7 +34,7 @@ ROOT = Path(__file__).resolve().parents[2]
 PROD = ROOT / "docs/03_DIALOGUE/PRODUCTION"
 SYNC_MANIFEST = PROD / "CHAPTER_0_3_DIALOGUE_SYNC_MANIFEST.md"
 SOURCE_CLOSURE = PROD / "CHAPTER_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md"
-READER_OUT = ROOT / "build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_DialogUE_Reader_CURRENT.docx"
+READER_OUT = ROOT / "build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT.docx"
 
 
 @dataclass(frozen=True)
@@ -145,8 +151,7 @@ def sha256_bytes(data: bytes) -> str:
 def plain_markdown(text: str) -> str:
     text = text.strip()
     text = re.sub(r"^>\s*", "", text)
-    text = text.replace("**", "").replace("`", "").replace("*", "")
-    return text.strip()
+    return text.replace("**", "").replace("`", "").replace("*", "").strip()
 
 
 def section_should_skip(heading: str) -> bool:
@@ -155,6 +160,7 @@ def section_should_skip(heading: str) -> bool:
 
 
 def reader_blocks(source_text: str) -> list[tuple[str, str, str | None]]:
+    """Extract player/reader-facing blocks while excluding writer-facing audit prose."""
     blocks: list[tuple[str, str, str | None]] = []
     skip_section = False
     in_fence = False
@@ -465,17 +471,34 @@ def add_reader_docx(all_sources: dict[str, list[tuple[SourceSpec, Path, bytes, s
     doc.save(READER_OUT)
 
 
+def prepare_sources() -> dict[str, list[tuple[SourceSpec, Path, bytes, str]]]:
+    verify_source_closure()
+    all_sources = {chapter.chapter: resolved_chapter_sources(chapter) for chapter in CHAPTERS}
+    protected_checks(all_sources)
+    return all_sources
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--source-check",
+        action="store_true",
+        help="Verify source closure/source selection/protected anchors without checking derived outputs",
+    )
     parser.add_argument("--check", action="store_true", help="Verify Markdown derived outputs without writing")
     parser.add_argument("--no-docx", action="store_true", help="Do not build the reader DOCX")
     args = parser.parse_args()
 
-    verify_source_closure()
-    all_sources: dict[str, list[tuple[SourceSpec, Path, bytes, str]]] = {
-        chapter.chapter: resolved_chapter_sources(chapter) for chapter in CHAPTERS
-    }
-    protected_checks(all_sources)
+    if args.source_check and args.check:
+        parser.error("--source-check and --check are mutually exclusive")
+
+    all_sources = prepare_sources()
+
+    if args.source_check:
+        print("Chapters 0–3 source closure verified: source selection and protected guards pass.")
+        for chapter in CHAPTERS:
+            print(f"- Chapter {int(chapter.chapter)}: {len(all_sources[chapter.chapter])} atomic sources")
+        return 0
 
     combined = {
         chapter.chapter: render_combined(chapter, all_sources[chapter.chapter]) for chapter in CHAPTERS
