@@ -184,7 +184,7 @@ Cyanis stares at her.
 
 Then laughs.
 
-**CYANIS:** Devastating.
+**CYANIS:** Fuuuuuck
 
 **ILYRA:** You asked.
 
@@ -350,41 +350,13 @@ A beat.
 
 **ILYRA:** Better.
 
-They sit.
+No more dialogue follows.
 
-A little later, Cyanis looks as though he is about to say something.
-
-Ilyra points at him without opening her eyes.
-
-**ILYRA:** If that's useful, keep it.
-
-Cyanis closes his mouth.
-
-A beat.
-
-**CYANIS:** It wasn't.
-
-**ILYRA:** Good.
-
-Another quiet beat.
-
-**CYANIS:** This is strange.
-
-**ILYRA:** You lasted longer than I expected.
-
-**CYANIS:** How long?
-
-Ilyra opens one eye.
-
-**ILYRA:** I'm not timing it.
-
-Cyanis smiles.
-
-**CYANIS:** Right. That would ruin it.
+In the next visual beat, both Cyanis and Ilyra are shown passed out where they were sitting.
 
 No confession follows. No relationship summary. No discussion of destiny, the Card, or what the day meant.
 
-The scene ends in the quiet.
+The scene ends on them asleep in the quiet.
 
 ---
 
@@ -396,7 +368,7 @@ The scene ends in the quiet.
 - allows Ilyra to laugh, tease, swear, tell a mildly embarrassing observation, be curious, and make a bad joke she immediately regrets;
 - allows Cyanis and Ilyra to exchange first impressions as two adults who met under terrible circumstances rather than as patient and Warden;
 - keeps their shared tendency to invent work for themselves, but does not turn that recognition into diagnosis or therapy;
-- ends with the arbitrary shared rule of six minutes doing nothing useful;
+- ends with the arbitrary shared rule of six minutes doing nothing useful, followed immediately by both of them falling asleep;
 - Card remains inert;
 - C01 does not advance Chapter 0.
 
