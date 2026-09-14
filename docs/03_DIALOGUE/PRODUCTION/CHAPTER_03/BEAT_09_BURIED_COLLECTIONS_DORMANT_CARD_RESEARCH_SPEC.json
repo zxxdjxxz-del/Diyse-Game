@@ -35,6 +35,11 @@
       "role": "mandatory_rehearsal_first_agent_brain_pipeline"
     },
     {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_register_and_character_specific_profanity_rule"
+    },
+    {
       "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_DRAFT_A.md",
       "whole_file": true,
       "role": "immediate_dialogue_continuity"
@@ -72,13 +77,13 @@
     "maevra_state": "remains_in_caelora_with_mirena",
     "card_state": "cyanis_physically_carries_abnormal_green_gold_card_unclassified",
     "seal_evidence_state": "bounded_authenticated_comparison_notes_only_actual_royal_seal_remains_in_palace",
-    "research_goal": "older evidence_about_card_response_seal_traditions_and_westways_discovery_site"
+    "research_goal": "older_evidence_about_card_response_seal_traditions_and_westways_discovery_site"
   },
   "hard_outcomes": [
     "The party makes real research progress rather than finding empty or useless shelves.",
     "Historical sources establish that some apparently inactive Cards later became responsive and that visible light or geometric change can accompany state change.",
     "Green-and-gold Card light has scattered historical precedent but is not sufficient to classify Cyanis's Card.",
-    "The canonical Six Faces — Might, Elements, Grace, Resource, Perception and Ruin — appear naturally in old Card scholarship as an old sixfold framework or set of traditions.",
+    "The canonical Six Faces — Might, Elements, Grace, Memory, Perception and Ruin — appear naturally in old Card scholarship as an old sixfold framework or set of traditions.",
     "Nothing in Beat 9 identifies Cyanis's Card as Might or otherwise maps a permanent character to a Face through Ancient recognition.",
     "Old Yahtrean material establishes that certain royal seals were magically meaningful physical objects and that visible seal impression and magical authority were historically distinguishable concepts.",
     "Older seal maintenance, renewal or related specialist practice is referenced but the exact method remains incomplete or missing.",
@@ -112,7 +117,8 @@
     "do_not_make_nimera_lecture_the_library_catalogue",
     "do_not_have_characters_recite_the_reveal_firewall",
     "do_not_turn_the_recent_reader_discovery_into_a_group_roll_call_of_clues",
-    "do_not_require_a_character_to_state_the_scene_theme_or_summarize_the_mystery"
+    "do_not_require_a_character_to_state_the_scene_theme_or_summarize_the_mystery",
+    "do_not_write_Torren_and_Nimera_as_familial_or_paternal_in_their_first_chapter_together"
   ],
   "production_cost_ceiling": "substantial_playable_library_exploration_with_a_small_number_of_authored_stops_and_no_bespoke_cinematic_sequence"
 }
