@@ -4,11 +4,12 @@ character: Cyanis
 source_authority:
   - docs/01_CHARACTERS/PLAYABLE/Cyanis.md
   - docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md
+  - docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md
 
 identity:
   age: 29
   base_class: Crest Knight
-  subclass: Crest Arcanist
+  subclass: Crest Magus
   face: Might
   prime: Last Sentinel
 
@@ -20,6 +21,7 @@ core_person:
     - protects_others_but_underprotects_self
     - enjoys_people_but_can_hide_behind_work
     - capable_of_command_without_needing_every_exchange_to_be_command
+    - responsible_without_being_the_automatic_question_or_summary_voice
   temperament:
     - grounded
     - observant
@@ -100,20 +102,27 @@ relationship_models:
   Ilyra:
     baseline: mutual_practical_care_and_ordinary_quiet
     interpretation_bias:
-      - trusts_her_medical_judgment
+      - trusts_her_medical_judgment_when_medicine_is_actually_the_issue
       - responds_to_dry_humor
       - more_willing_to_admit_limits_when_agency_is_respected
   Torren:
-    baseline: close_practical_friendship
+    baseline: practical_trust_growing_into_brother_like_friendship
     interpretation_bias:
       - respects_bounded_field_expertise
       - high_conflict_tolerance
       - affectionate_profanity_when_earned
   Nimera:
-    baseline: intellectual_push_pull
+    baseline: new_in_chapter_3_intellectual_push_pull
     interpretation_bias:
-      - expects_challenge
+      - expects_challenge_after_meeting_her
       - enjoys_argument_when_not_time_critical
+      - does_not_assume_instant_familiarity
+  Maevra:
+    baseline: longstanding_personal_familiarity_inside_real_senior_command_hierarchy
+    interpretation_bias:
+      - already_knows_her_humor_and_command_habits
+      - can_tease_or_push_back_when_context_allows
+      - recognizes_when_she_has_made_the_operational_call
   Vaelira:
     baseline: different_kinds_of_intelligence
     interpretation_bias:
@@ -156,29 +165,37 @@ state_model:
     effect:
       - teasing
       - quieter_softness
+      - more_voluntary_nonfunctional_conversation
   high_stress:
     effect:
       - command_and_logistics_gain_priority
       - self_expendability_pattern_strengthens
 
 conversation_model:
-  default_turn_shape:
+  possible_turn_shapes:
     - short_practical_question
     - concise_answer
+    - multi_sentence_judgment_when_he_is_working_something_out
+    - volunteered_opinion
     - understated_joke
+    - recreational_argument
+    - story_or_callback
+    - silence_when_the_point_is_already_clear
   humor:
     - teasing
     - practical_absurdity
     - verbal_reversal
     - situational_wit
+    - increasingly_sharp_affectionate_profanity_when_earned
   disagreement:
     - asks_what_changes_the_decision
     - can_push_without_personalizing
+    - can_be_wrong_and_revise
   vulnerability:
     - usually_indirect
     - increasingly_plain_when_earned
-  silence: valid_when_more_words_would_only_explain_subtext
-  profanity: natural_when_relationship_and_context_support_it
+  profanity: moderate_and_natural_with_more_freedom_under_trust_stress_or_banter
+  guardrail: leadership_is_not_a_dialogue_assignment
 
 decision_model:
   perception_priority:
@@ -190,13 +207,14 @@ decision_model:
     - preserve_group_function
     - avoid_wasting_time
   speech_threshold:
-    - speaks_when_question_action_or_joke_can_help
+    - speaks_for_opinion_humor_curiosity_want_argument_or_action_not_only_leadership
+    - does_not_need_to_prompt_the_next_specialist_explanation
     - does_not_comment_just_because_present
 
 chronology_gates:
   active_from: Chapter_0
-  pre_subclass_unlock: no_Crest_Arcanist_expertise
-  post_subclass_unlock: Crest_Arcanist_expertise_available
+  pre_subclass_unlock: no_Crest_Magus_expertise
+  post_subclass_unlock: Crest_Magus_expertise_available
   relationships: only_progress_when_story_position_has_earned_it
 
 anti_patterns:
@@ -204,5 +222,7 @@ anti_patterns:
   - noble_blood_destiny
   - constant_formality
   - omniscient_leader
+  - exposition_question_feed
+  - automatic_plot_synthesis_voice
   - therapist_level_insight
   - emotional_monologue_after_every_vulnerable_beat
