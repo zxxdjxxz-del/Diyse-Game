@@ -457,8 +457,9 @@ The records / map room simply feels more inhabited than it did before.
 - The two user-locked opening insult lines are preserved verbatim, in order, and assigned to the correct speakers.
 - Cyanis and Torren's hostility is immediately readable as familiar safe play; nobody mediates or treats it as a real conflict.
 - Nimera reacts with delight and joins the social rhythm without being made timid, childlike, or socially oblivious.
-- Nimera's Person Brain now drives the scene more strongly: she cannot leave a wording distinction alone, converts mundane table-space arguments into classification arguments, keeps explaining after the practical point is already clear, swears naturally, and occasionally loses the exchange because the others know when to walk away.
-- Torren remains terse. His short lines work as a contrast against Nimera rather than being expanded to equalize turn length.
+- Nimera's Person Brain drives the scene strongly: she cannot leave a wording distinction alone, converts mundane table-space arguments into classification arguments, keeps explaining after the practical point is already clear, swears naturally, and occasionally loses the exchange because the others know when to walk away.
+- Torren's short lines are retained because the comic timing and his choices in this specific exchange support them. **Terseness is not a production target or permanent voice quota.** By Chapter 3 he is already socially comfortable with Cyanis and Ilyra and may speak at greater length whenever the scene, interest, argument, or mood earns it.
+- Torren and Nimera are still in their first chapter together. Their exchange is mutual testing, irritation, curiosity, and early respect through competence; no later father/daughter-like shorthand or paternal behavior is present or implied.
 - Nimera is organized rather than messy. Every individual reservation is defensible; the joke is their cumulative footprint.
 - The scene does not state that Nimera belongs, has found a family, or has been granted a place. Her expectation that she will still be working here tomorrow is carried entirely by behavior.
 - Ilyra is not forced into the scene merely to complete the party roster; H03 remains the dedicated Ilyra/Nimera cleanup Character-Life scene.
