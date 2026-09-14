@@ -6,6 +6,17 @@ on:
     paths:
       - 'tools/dialogue/sync_current_dialogue.py'
       - '.github/workflows/dialogue-sync.yml'
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P*.md'
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/C01_*.md'
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_*.md'
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_*.md'
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_WHAT_THE_MAP_SAYS_*.md'
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NOT_PROFESSIONALLY_*.md'
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_*.md'
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/C06_STILL_BURNS_*.md'
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_*.md'
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/H01_NIMERA_TAKES_OVER_A_TABLE_*.md'
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/H03_ILYRA_AND_NIMERA_*.md'
   workflow_dispatch:
 
 permissions:
