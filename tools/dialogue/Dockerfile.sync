@@ -1,0 +1,14 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+COPY . /app
+
+RUN python -m pip install --no-cache-dir --disable-pip-version-check python-docx \
+    && python tools/dialogue/sync_current_dialogue.py --source-check \
+    && python tools/dialogue/sync_current_dialogue.py \
+    && python tools/dialogue/sync_current_dialogue.py --check --no-docx
+
+ENV PORT=8080
+EXPOSE 8080
+
+CMD ["sh", "-c", "python -m http.server ${PORT:-8080} --directory /app"]
