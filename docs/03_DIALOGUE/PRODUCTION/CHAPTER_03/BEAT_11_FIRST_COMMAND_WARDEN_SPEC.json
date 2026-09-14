@@ -44,6 +44,16 @@
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md",
       "whole_file": true,
       "role": "conversation_route_must_be_discovered_by_agents"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turn_and_floor_holding_rule"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_register_and_character_specific_profanity_rule"
     }
   ],
   "agent_brains": [
@@ -52,12 +62,13 @@
     "external-services/canary/brains/torren.yaml",
     "external-services/canary/brains/nimera.yaml"
   ],
-  "canon_override_note": "Where runtime brain identity fields conflict with current whole-project canon, current canon controls. In particular Cyanis is Crest Knight / Crest Magus, Nimera is Cardweaver / Sixfold Knight, and stale brain Prime/Face/subclass labels must not enter dialogue or interpretation.",
+  "canon_override_note": "Current whole-project canon and the current runtime brains agree: Cyanis is Crest Knight / Crest Magus; Nimera is Cardweaver / Proofhunter aligned to Memory. Resource and Sixfold Knight are retired for Nimera and must not enter dialogue, interpretation, or production notes.",
   "current_state": {
     "party": "cyanis_ilyra_torren_nimera",
     "maevra": "in_caelora_with_mirena",
     "card": "physically_carried_by_cyanis_unclassified_unstable_green_gold_history_not_ruby_yet",
     "recent_reader": "identity_unknown_trail_uncertain_at_command_threshold",
+    "torren_nimera_relationship": "first_chapter_together_not_familial",
     "location": "older_protected_command_chambers_beyond_hall_of_seals"
   },
   "hard_outcomes": [
@@ -90,6 +101,8 @@
     "Its assessment may use light, seal marks, ward-rings, carved apertures, gemstones, inlaid lenses, or similar ancient craft; no UI or terminal language.",
     "PREVIOUS ERROR and LAST SENTINEL CONFIRMED must come from the Warden itself during shutdown, through fantasy-appropriate body/ward inscription or resonant magical communication.",
     "Do not prescribe which party member must explain the Warden, translate every visual, or verbalize the reveal firewall.",
-    "Keep post-fight dialogue short; confusion and silence are valid."
+    "Ilyra may make the one scene-earned Brackenwall comparison if Cyanis's Card changes, but she does not become the automatic post-battle symptom monitor or bodily supervisor.",
+    "Torren and Nimera remain new acquaintances; no paternal/familial shorthand is allowed.",
+    "Post-fight turn length follows character motive and uncertainty. Confusion and silence are valid, but no blanket brevity quota overrides earned multi-sentence reasoning."
   ]
 }
