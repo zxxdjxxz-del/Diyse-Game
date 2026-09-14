@@ -6,10 +6,10 @@
   "production_ready": false,
   "participants": ["cyanis", "ilyra", "torren", "nimera"],
   "authoring_mode": "rehearsal_first_agent_driven",
-  "director_rule": "Give the four Person Agents the closed-barrier situation, their own observations and expertise, the required end state, and the reveal firewall. Do not assign roles in the solution or prescribe the order in which the insight, test, release, Card look, or decision to proceed must be verbalized.",
+  "director_rule": "Give the four Person Agents the closed-barrier situation, their own observations and expertise, the required end state, current whole-person character guardrails, and the reveal firewall. Do not assign roles in the solution or prescribe the order in which the insight, test, release, Card look, or decision to proceed must be verbalized. In particular, do not preassign Ilyra the risk/safety/agency role simply because she is present.",
   "scene_context": {
     "location": "Old City redacted-stacks Ancient barrier",
-    "situation": "Nimera remains safely enclosed after Beat 6. The four characters now have partial observations from both sides and need to decide whether the barrier can be opened without brute force. Cyanis has modern Crest-work literacy but no Ancient expertise; Nimera has Card/archive expertise and interior observations; Torren has physical field observations; Ilyra is present with her normal risk and agency priorities.",
+    "situation": "Nimera remains safely enclosed after Beat 6. The four characters now have partial observations from both sides and need to decide whether the barrier can be opened without brute force. Cyanis has modern Crest-work literacy but no Ancient expertise; Nimera has Card/archive expertise and interior observations; Torren has physical field observations; Ilyra is a whole participant who may contribute through curiosity, logic, skepticism, humor, ordinary reaction, or scene-earned medical knowledge rather than being assigned generic safety ownership.",
     "card_state": "Cyanis carries the unclassified green-and-gold Card; it is not required as a key",
     "combat_state": "no mandatory combat",
     "presentation": "physical magical-fantasy barrier; stone, metal, engraved channels, plates, shutters and restrained magical light"
@@ -40,7 +40,8 @@
   "workflow_locks": [
     "docs/03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md",
     "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
-    "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md"
+    "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md",
+    "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md"
   ],
   "forbidden_presentation": [
     "biometric_or_blood_key",
@@ -50,6 +51,9 @@
     "triumphal_destiny_reveal",
     "mandatory_combat",
     "dialogue_assigning_credit_to_each_character_for_the_solution",
+    "ilyra_as_automatic_risk_safety_consent_or_agency_supervisor",
+    "torren_is_forced_terse_to_create_contrast",
+    "torren_nimera_are_written_as_familial_or_paternal",
     "characters_explaining_the_methodological_theme_of_the_scene"
   ]
 }
