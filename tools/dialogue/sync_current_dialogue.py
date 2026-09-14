@@ -1,29 +1,24 @@
 #!/usr/bin/env python3
 """Synchronize DIYSE Chapters 0-3 combined dialogue manuscripts and reader.
 
-The standalone Markdown scene files under docs/03_DIALOGUE/PRODUCTION/CHAPTER_##
-remain exact wording authority. This tool deliberately derives every combined/readable
-output from those atomics so a derived manuscript cannot silently become a competing
-source of truth.
+Standalone Markdown scene files under docs/03_DIALOGUE/PRODUCTION/CHAPTER_## are
+exact wording authority. This tool derives every combined/readable output from those
+atomics so a generated manuscript can never silently become a competing authority.
 
-Outputs:
+Generated outputs:
 - CHAPTER_##_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md for Chapters 0-3
 - docs/03_DIALOGUE/PRODUCTION/CHAPTER_0_3_DIALOGUE_SYNC_MANIFEST.md
 - build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT.docx
 
-Use --check to verify the generated Markdown outputs are current without writing them.
-The DOCX is a derived reader artifact: spoken dialogue is copied verbatim while
-writer-facing production/audit metadata is omitted.
+Use --check to verify generated Markdown/manifest state without writing anything.
 """
 from __future__ import annotations
 
 import argparse
 import hashlib
 import re
-import sys
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Iterable
 
 ROOT = Path(__file__).resolve().parents[2]
 PROD = ROOT / "docs/03_DIALOGUE/PRODUCTION"
@@ -94,15 +89,17 @@ CHAPTERS: tuple[ChapterSpec, ...] = (
     ),
 )
 
-
 DIALOGUE_RE = re.compile(r"^\*\*([^*\n]+):\*\*\s*(.*)$")
 HEADING_RE = re.compile(r"^(#{2,6})\s+(.*)$")
 
-# Reader skips writer-facing / production-only sections. These are deliberately
-# broad because the reader is derived, never an authority for implementation prose.
+# Writer-facing sections are excluded from the spoiler-free reader *and* from guards
+# that are supposed to inspect player-visible content. This prevents audit prose such
+# as "the premature Nimera reference was removed" from being mistaken for story text.
 SKIP_SECTION_TERMS = (
     "production note",
     "production notes",
+    "person-brain / ensemble check",
+    "person-brain / role-balance check",
     "audit check",
     "audit note",
     "knowledge check",
@@ -117,6 +114,7 @@ SKIP_SECTION_TERMS = (
     "cleanup window",
     "natural-turn",
     "spoken-dialogue",
+    "presentation / canon check",
 )
 
 SKIP_LINE_PREFIXES = (
@@ -142,149 +140,10 @@ def sha256_bytes(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
-def resolve_source(chapter: ChapterSpec, spec: SourceSpec) -> Path:
-    matches = [p for p in chapter.directory.glob(spec.pattern) if p.is_file()]
-    # Never allow the derived manuscript itself to satisfy a broad pattern.
-    matches = [p for p in matches if p != chapter.output and "AUTHORITY_INDEX" not in p.name]
-    if len(matches) != 1:
-        rels = [str(p.relative_to(ROOT)) for p in matches]
-        raise RuntimeError(
-            f"{chapter.title} / {spec.label}: pattern {spec.pattern!r} must resolve exactly once; "
-            f"found {len(matches)}: {rels}"
-        )
-    return matches[0]
-
-
-def resolved_chapter_sources(chapter: ChapterSpec) -> list[tuple[SourceSpec, Path, bytes, str]]:
-    out: list[tuple[SourceSpec, Path, bytes, str]] = []
-    seen: set[Path] = set()
-    for spec in chapter.sources:
-        path = resolve_source(chapter, spec)
-        if path in seen:
-            raise RuntimeError(f"Duplicate source selected: {path}")
-        seen.add(path)
-        data = path.read_bytes()
-        data.decode("utf-8")  # fail loudly on unexpected encoding
-        out.append((spec, path, data, sha256_bytes(data)))
-    return out
-
-
-def protected_checks(all_sources: dict[str, list[tuple[SourceSpec, Path, bytes, str]]]) -> None:
-    text_by_ch = {
-        ch: "\n".join(data.decode("utf-8") for _, _, data, _ in sources)
-        for ch, sources in all_sources.items()
-    }
-
-    must_exist = {
-        "01": [
-            "**CYANIS:** Old slut?",
-            "**TORREN:** Bitch.",
-        ],
-        "03": [
-            "PREVIOUS ERROR",
-            "LAST SENTINEL CONFIRMED",
-            "**CYANIS:** I bet you use that cape to sneak up on the goats you fuck.",
-            "**TORREN:** You look like a walking dick in armor.",
-            "Might. Elements. Grace. Memory. Perception. Ruin.",
-        ],
-    }
-    for chapter, needles in must_exist.items():
-        for needle in needles:
-            if needle not in text_by_ch[chapter]:
-                raise RuntimeError(f"Protected anchor missing in Chapter {int(chapter)}: {needle}")
-
-    stale = "Might. Elements. Grace. Resource. Perception. Ruin."
-    if stale in text_by_ch["03"]:
-        raise RuntimeError("Stale Chapter-3 Resource Face list is still present; expected Memory.")
-
-    # Nimera is not met until Chapter 3. This catches accidental Character-Life leakage.
-    if re.search(r"\bNimera\b", text_by_ch["01"], flags=re.IGNORECASE):
-        raise RuntimeError("Chapter 1 still contains a Nimera reference before her Chapter-3 meeting.")
-
-
-def render_combined(chapter: ChapterSpec, sources: list[tuple[SourceSpec, Path, bytes, str]]) -> str:
-    lines: list[str] = [
-        f"# DIYSE — {chapter.title} — Synchronized Rehearsal-First Working Dialogue Manuscript",
-        "",
-        "**Status:** CURRENT DERIVED READ-THROUGH — SYNCHRONIZED AGAINST CURRENT ATOMIC DIALOGUE SOURCES",
-        "",
-        "**Authority rule:** the standalone atomic scene files remain exact wording authority. This file is generated, not hand-authored. If any atomic source changes, rerun `python tools/dialogue/sync_current_dialogue.py` before treating this manuscript as current.",
-        "",
-        "## Source manifest",
-        "",
-        "| Order | Canonical slot | Atomic source | SHA-256 |",
-        "|---:|---|---|---|",
-    ]
-    for i, (spec, path, _data, digest) in enumerate(sources, start=1):
-        lines.append(f"| {i} | {spec.label} | `{path.name}` | `{digest}` |")
-
-    lines += ["", "---", ""]
-
-    for spec, path, data, digest in sources:
-        text = data.decode("utf-8").rstrip()
-        lines += [
-            f"## {spec.label}",
-            "",
-            f"**Atomic source:** `{path.name}`  ",
-            f"**Source SHA-256:** `{digest}`",
-            "",
-            text,
-            "",
-            "---",
-            "",
-        ]
-
-    lines += [
-        "## Synchronization footer",
-        "",
-        "This derived manuscript was assembled exclusively from the atomic sources listed above. No dialogue wording was rewritten during assembly.",
-        "",
-    ]
-    return "\n".join(lines)
-
-
-def render_sync_manifest(
-    all_sources: dict[str, list[tuple[SourceSpec, Path, bytes, str]]],
-    combined: dict[str, str],
-) -> str:
-    lines = [
-        "# DIYSE — Chapters 0–3 Dialogue Synchronization Manifest",
-        "",
-        "**Status:** CURRENT — generated from active atomic dialogue sources",
-        "",
-        "This manifest proves which atomics were used for each combined read-through. The atomics remain wording authority; the combined manuscripts and reader are derived products.",
-        "",
-        "## Combined manuscripts",
-        "",
-        "| Chapter | Combined manuscript | Combined SHA-256 | Atomic sources |",
-        "|---|---|---|---:|",
-    ]
-    for chapter in CHAPTERS:
-        rendered = combined[chapter.chapter].encode("utf-8")
-        lines.append(
-            f"| {int(chapter.chapter)} | `{chapter.output.relative_to(ROOT)}` | `{sha256_bytes(rendered)}` | {len(all_sources[chapter.chapter])} |"
-        )
-
-    for chapter in CHAPTERS:
-        lines += ["", f"## Chapter {int(chapter.chapter)} sources", "", "| Order | Canonical slot | Path | SHA-256 |", "|---:|---|---|---|"]
-        for i, (spec, path, _data, digest) in enumerate(all_sources[chapter.chapter], start=1):
-            lines.append(f"| {i} | {spec.label} | `{path.relative_to(ROOT)}` | `{digest}` |")
-
-    lines += [
-        "",
-        "## Verification rule",
-        "",
-        "Run `python tools/dialogue/sync_current_dialogue.py --check`. A non-zero exit means at least one combined manuscript or the sync manifest is stale relative to current atomic dialogue.",
-        "",
-    ]
-    return "\n".join(lines)
-
-
 def plain_markdown(text: str) -> str:
     text = text.strip()
     text = re.sub(r"^>\s*", "", text)
-    text = text.replace("**", "").replace("`", "")
-    text = text.replace("*", "")
+    text = text.replace("**", "").replace("`", "").replace("*", "")
     return text.strip()
 
 
@@ -294,10 +153,10 @@ def section_should_skip(heading: str) -> bool:
 
 
 def reader_blocks(source_text: str) -> list[tuple[str, str, str | None]]:
-    """Return (kind, text, optional speaker) blocks from one atomic source.
+    """Return reader-visible (kind, text, speaker) blocks for one atomic source.
 
-    Spoken dialogue is never rewritten: `text` for kind=dialogue is the exact text after
-    the Markdown speaker marker.
+    Dialogue text is copied exactly after its Markdown speaker marker. Writer-facing
+    audits/implementation sections are omitted.
     """
     blocks: list[tuple[str, str, str | None]] = []
     skip_section = False
@@ -321,27 +180,18 @@ def reader_blocks(source_text: str) -> list[tuple[str, str, str | None]]:
                     blocks.append(("heading", cleaned, None))
             continue
 
-        if skip_section:
-            continue
-        if not line.strip():
-            continue
-        if line.startswith("# "):
+        if skip_section or not line.strip() or line.startswith("# "):
             continue
         if any(line.startswith(prefix) for prefix in SKIP_LINE_PREFIXES):
             continue
-        if line.startswith("---"):
-            continue
-        if line.startswith("|"):
+        if line.startswith("---") or line.startswith("|"):
             continue
         if line.startswith("-") and not line.startswith("—"):
-            # Bullet lists are generally implementation/status lists in these atomics.
             continue
 
         match = DIALOGUE_RE.match(line)
         if match:
-            speaker = match.group(1).strip()
-            exact_text = match.group(2).strip()
-            blocks.append(("dialogue", exact_text, speaker))
+            blocks.append(("dialogue", match.group(2).strip(), match.group(1).strip()))
             continue
 
         stripped = plain_markdown(line)
@@ -357,13 +207,174 @@ def reader_blocks(source_text: str) -> list[tuple[str, str, str | None]]:
     return blocks
 
 
+def resolve_source(chapter: ChapterSpec, spec: SourceSpec) -> Path:
+    matches = [p for p in chapter.directory.glob(spec.pattern) if p.is_file()]
+    matches = [p for p in matches if p != chapter.output and "AUTHORITY_INDEX" not in p.name]
+    if len(matches) != 1:
+        rels = [str(p.relative_to(ROOT)) for p in matches]
+        raise RuntimeError(
+            f"{chapter.title} / {spec.label}: {spec.pattern!r} must resolve exactly once; "
+            f"found {len(matches)}: {rels}"
+        )
+    return matches[0]
+
+
+def resolved_chapter_sources(chapter: ChapterSpec) -> list[tuple[SourceSpec, Path, bytes, str]]:
+    out: list[tuple[SourceSpec, Path, bytes, str]] = []
+    seen: set[Path] = set()
+    for spec in chapter.sources:
+        path = resolve_source(chapter, spec)
+        if path in seen:
+            raise RuntimeError(f"Duplicate atomic source selected: {path}")
+        seen.add(path)
+        data = path.read_bytes()
+        data.decode("utf-8")
+        out.append((spec, path, data, sha256_bytes(data)))
+    return out
+
+
+def visible_chapter_text(sources: list[tuple[SourceSpec, Path, bytes, str]]) -> str:
+    chunks: list[str] = []
+    for _spec, _path, data, _digest in sources:
+        blocks = reader_blocks(data.decode("utf-8"))
+        for kind, text, speaker in blocks:
+            if kind == "dialogue":
+                chunks.append(f"{speaker}: {text}")
+            else:
+                chunks.append(text)
+    return "\n".join(chunks)
+
+
+def protected_checks(all_sources: dict[str, list[tuple[SourceSpec, Path, bytes, str]]]) -> None:
+    raw_by_ch = {
+        ch: "\n".join(data.decode("utf-8") for _, _, data, _ in sources)
+        for ch, sources in all_sources.items()
+    }
+
+    must_exist = {
+        "01": ("**CYANIS:** Old slut?", "**TORREN:** Bitch."),
+        "03": (
+            "PREVIOUS ERROR",
+            "LAST SENTINEL CONFIRMED",
+            "**CYANIS:** I bet you use that cape to sneak up on the goats you fuck.",
+            "**TORREN:** You look like a walking dick in armor.",
+            "Might. Elements. Grace. Memory. Perception. Ruin.",
+        ),
+    }
+    for chapter, needles in must_exist.items():
+        for needle in needles:
+            if needle not in raw_by_ch[chapter]:
+                raise RuntimeError(f"Protected anchor missing in Chapter {int(chapter)}: {needle}")
+
+    stale_face_list = "Might. Elements. Grace. Resource. Perception. Ruin."
+    if stale_face_list in raw_by_ch["03"]:
+        raise RuntimeError("Stale Chapter-3 Resource Face list is present; expected Memory.")
+
+    # Nimera is not met until Chapter 3. Search reader-visible Chapter-1 content only,
+    # not writer-facing notes that may legitimately mention the correction itself.
+    ch1_visible = visible_chapter_text(all_sources["01"])
+    if re.search(r"\bNimera\b", ch1_visible, flags=re.IGNORECASE):
+        raise RuntimeError("Reader-visible Chapter 1 still references Nimera before her Chapter-3 meeting.")
+
+
+def render_combined(chapter: ChapterSpec, sources: list[tuple[SourceSpec, Path, bytes, str]]) -> str:
+    lines: list[str] = [
+        f"# DIYSE — {chapter.title} — Synchronized Rehearsal-First Working Dialogue Manuscript",
+        "",
+        "**Status:** CURRENT DERIVED READ-THROUGH — SYNCHRONIZED AGAINST CURRENT ATOMIC DIALOGUE SOURCES",
+        "",
+        "**Authority rule:** standalone atomic scene files remain exact wording authority. This file is generated, not hand-authored. After any atomic edit, rerun `python tools/dialogue/sync_current_dialogue.py` before describing this manuscript as current.",
+        "",
+        "## Source manifest",
+        "",
+        "| Order | Canonical slot | Atomic source | SHA-256 |",
+        "|---:|---|---|---|",
+    ]
+    for i, (spec, path, _data, digest) in enumerate(sources, start=1):
+        lines.append(f"| {i} | {spec.label} | `{path.name}` | `{digest}` |")
+    lines += ["", "---", ""]
+
+    for spec, path, data, digest in sources:
+        lines.extend(
+            [
+                f"## {spec.label}",
+                "",
+                f"**Atomic source:** `{path.name}`  ",
+                f"**Source SHA-256:** `{digest}`",
+                "",
+                data.decode("utf-8").rstrip(),
+                "",
+                "---",
+                "",
+            ]
+        )
+
+    lines.extend(
+        [
+            "## Synchronization footer",
+            "",
+            "This derived manuscript was assembled exclusively from the atomics listed above. No dialogue wording was rewritten during assembly.",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def render_sync_manifest(
+    all_sources: dict[str, list[tuple[SourceSpec, Path, bytes, str]]],
+    combined: dict[str, str],
+) -> str:
+    lines = [
+        "# DIYSE — Chapters 0–3 Dialogue Synchronization Manifest",
+        "",
+        "**Status:** CURRENT — generated from active atomic dialogue sources",
+        "",
+        "The atomics remain exact wording authority. Combined manuscripts and the reader are generated derivatives.",
+        "",
+        "## Combined manuscripts",
+        "",
+        "| Chapter | Combined manuscript | Combined SHA-256 | Atomic sources |",
+        "|---|---|---|---:|",
+    ]
+    for chapter in CHAPTERS:
+        lines.append(
+            f"| {int(chapter.chapter)} | `{chapter.output.relative_to(ROOT)}` | "
+            f"`{sha256_bytes(combined[chapter.chapter].encode('utf-8'))}` | "
+            f"{len(all_sources[chapter.chapter])} |"
+        )
+
+    for chapter in CHAPTERS:
+        lines.extend(
+            [
+                "",
+                f"## Chapter {int(chapter.chapter)} sources",
+                "",
+                "| Order | Canonical slot | Path | SHA-256 |",
+                "|---:|---|---|---|",
+            ]
+        )
+        for i, (spec, path, _data, digest) in enumerate(all_sources[chapter.chapter], start=1):
+            lines.append(f"| {i} | {spec.label} | `{path.relative_to(ROOT)}` | `{digest}` |")
+
+    lines.extend(
+        [
+            "",
+            "## Verification rule",
+            "",
+            "Run `python tools/dialogue/sync_current_dialogue.py --check`. A non-zero exit means a combined manuscript or this manifest is stale relative to current atomics.",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
 def add_reader_docx(all_sources: dict[str, list[tuple[SourceSpec, Path, bytes, str]]]) -> None:
     try:
         from docx import Document
         from docx.enum.section import WD_SECTION
         from docx.enum.text import WD_ALIGN_PARAGRAPH
         from docx.shared import Inches, Pt
-    except ImportError as exc:  # pragma: no cover - workflow installs python-docx
+    except ImportError as exc:
         raise RuntimeError("python-docx is required to build the reader") from exc
 
     READER_OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -386,21 +397,23 @@ def add_reader_docx(all_sources: dict[str, list[tuple[SourceSpec, Path, bytes, s
     styles["Heading 3"].font.name = "Aptos"
     styles["Heading 3"].font.size = Pt(11.5)
 
-    p = doc.add_paragraph(style="Title")
-    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    p.add_run("DIYSE\nChapters 0–3")
-    p2 = doc.add_paragraph()
-    p2.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    r = p2.add_run("Spoiler-Free Exact-Dialogue Reader")
-    r.bold = True
-    r.font.size = Pt(15)
+    title = doc.add_paragraph(style="Title")
+    title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    title.add_run("DIYSE\nChapters 0–3")
+
+    subtitle = doc.add_paragraph()
+    subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    sr = subtitle.add_run("Spoiler-Free Exact-Dialogue Reader")
+    sr.bold = True
+    sr.font.size = Pt(15)
+
     note = doc.add_paragraph()
     note.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    note.add_run(
-        "Current atomic dialogue edition. Spoken lines are copied verbatim from the active production sources; "
+    nr = note.add_run(
+        "Current atomic dialogue edition. Spoken lines are copied verbatim from active production sources; "
         "writer-facing audits, implementation notes, and future-facing production metadata are omitted."
-    ).italic = True
-
+    )
+    nr.italic = True
     doc.add_page_break()
 
     for chapter_i, chapter in enumerate(CHAPTERS):
@@ -408,26 +421,24 @@ def add_reader_docx(all_sources: dict[str, list[tuple[SourceSpec, Path, bytes, s
             doc.add_section(WD_SECTION.NEW_PAGE)
         doc.add_heading(f"Chapter {int(chapter.chapter)}", level=1)
 
-        for spec, path, data, _digest in all_sources[chapter.chapter]:
+        for spec, _path, data, _digest in all_sources[chapter.chapter]:
             doc.add_heading(spec.label, level=2)
-            blocks = reader_blocks(data.decode("utf-8"))
             last_was_heading = False
-            for kind, text, speaker in blocks:
+            for kind, text, speaker in reader_blocks(data.decode("utf-8")):
                 if kind == "heading":
-                    # Avoid a forest of implementation-style microheadings.
                     if text.upper().startswith(("BOSS —", "BATTLE —")):
                         p = doc.add_paragraph()
-                        run = p.add_run(text)
-                        run.bold = True
-                        run.italic = True
+                        r = p.add_run(text)
+                        r.bold = True
+                        r.italic = True
                     else:
                         doc.add_heading(text.title() if text.isupper() else text, level=3)
                     last_was_heading = True
                 elif kind == "dialogue":
                     p = doc.add_paragraph()
                     p.paragraph_format.space_after = Pt(3)
-                    sr = p.add_run(f"{speaker}: ")
-                    sr.bold = True
+                    who = p.add_run(f"{speaker}: ")
+                    who.bold = True
                     p.add_run(text)
                     last_was_heading = False
                 else:
@@ -437,7 +448,6 @@ def add_reader_docx(all_sources: dict[str, list[tuple[SourceSpec, Path, bytes, s
             if not last_was_heading:
                 doc.add_paragraph()
 
-    # Footer with derived-output warning.
     for sec in doc.sections:
         fp = sec.footer.paragraphs[0]
         fp.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -448,11 +458,7 @@ def add_reader_docx(all_sources: dict[str, list[tuple[SourceSpec, Path, bytes, s
 
 
 def sync_status_append(index_path: Path, chapter: ChapterSpec) -> None:
-    """Update only the current status surfaces and append a deterministic closure block.
-
-    Historical audit prose is intentionally left intact. The top status and final closure are
-    the current state, while old synchronization discussion remains provenance.
-    """
+    """Mark a chapter combined read-through current only after successful generation."""
     text = index_path.read_text(encoding="utf-8")
     status_line = (
         f"**Status:** CURRENT WORKING DIALOGUE PRODUCTION — CHAPTER {int(chapter.chapter)} ATOMIC DIALOGUE CURRENT; "
@@ -477,10 +483,10 @@ def sync_status_append(index_path: Path, chapter: ChapterSpec) -> None:
         text = text[: text.index(marker)].rstrip()
     text += (
         "\n\n## Current synchronization closure\n\n"
-        f"- `{chapter.output.name}` is synchronized against the chapter's current atomic dialogue sources.\n"
+        f"- `{chapter.output.name}` is synchronized against the chapter's current atomics.\n"
         "- source identity and SHA-256 values are recorded in `../CHAPTER_0_3_DIALOGUE_SYNC_MANIFEST.md`.\n"
-        "- the atomic scene files remain exact wording authority; the combined manuscript is a generated read-through.\n"
-        "- `python tools/dialogue/sync_current_dialogue.py --check` must pass before the combined manuscript is described as current after any future atomic dialogue edit.\n"
+        "- atomics remain exact wording authority; the combined manuscript is generated.\n"
+        "- `python tools/dialogue/sync_current_dialogue.py --check` must pass before this combined manuscript is called current after future atomic edits.\n"
     )
     index_path.write_text(text, encoding="utf-8")
 
@@ -488,8 +494,6 @@ def sync_status_append(index_path: Path, chapter: ChapterSpec) -> None:
 def update_master_index() -> None:
     path = ROOT / "docs/03_DIALOGUE/DIALOGUE_MASTER_INDEX.md"
     text = path.read_text(encoding="utf-8")
-
-    # Current top-level audit state.
     text = re.sub(
         r"(?m)^\*\*Mature-adult speech / profanity audit status:.*$",
         "**Mature-adult speech / profanity audit status: Chapters 0–3 CURRENT.**",
@@ -497,12 +501,11 @@ def update_master_index() -> None:
         count=1,
     )
 
-    # Table/current prose may carry several older variants. Normalize the obvious stale labels.
     replacements = {
         "combined read-through stale for revised scenes": "combined read-through synchronized",
         "combined read-through stale where flagged": "combined read-through synchronized",
-        "combined read-through stale": "combined read-through synchronized",
         "atomic files current, combined read-through stale": "atomic files current, combined read-through synchronized",
+        "combined read-through stale": "combined read-through synchronized",
         "**stale against the current atomic scenes.**": "**synchronized against the current atomic scenes.**",
         "**stale against revised atomic dialogue.**": "**synchronized against revised atomic dialogue.**",
         "**requires resynchronization after atomic dialogue and prior numbering revisions.**": "**synchronized against current atomic dialogue.**",
@@ -517,8 +520,10 @@ def update_master_index() -> None:
     text += (
         "\n\n---\n\n# Chapters 0–3 synchronization closure\n\n"
         "The four combined rehearsal-first manuscripts are synchronized against their current atomic dialogue sources. "
-        "The shared source/hash record is `PRODUCTION/CHAPTER_0_3_DIALOGUE_SYNC_MANIFEST.md`. The reader artifact is generated from the same source set. "
-        "After any future atomic dialogue edit, run `python tools/dialogue/sync_current_dialogue.py --check`; a failure means the derived read-throughs must be regenerated before being called current.\n"
+        "The shared source/hash record is `PRODUCTION/CHAPTER_0_3_DIALOGUE_SYNC_MANIFEST.md`. "
+        "The reader artifact is generated from the same source set. After any future atomic dialogue edit, "
+        "run `python tools/dialogue/sync_current_dialogue.py --check`; a failure means the derived read-throughs "
+        "must be regenerated before being called current.\n"
     )
     path.write_text(text, encoding="utf-8")
 
@@ -538,9 +543,9 @@ def main() -> int:
         chapter.chapter: render_combined(chapter, all_sources[chapter.chapter]) for chapter in CHAPTERS
     }
     manifest = render_sync_manifest(all_sources, combined)
-
-    expected: list[tuple[Path, str]] = [(chapter.output, combined[chapter.chapter]) for chapter in CHAPTERS]
-    expected.append((SYNC_MANIFEST, manifest))
+    expected: list[tuple[Path, str]] = [
+        (chapter.output, combined[chapter.chapter]) for chapter in CHAPTERS
+    ] + [(SYNC_MANIFEST, manifest)]
 
     if args.check:
         stale: list[str] = []
@@ -569,10 +574,8 @@ def main() -> int:
         add_reader_docx(all_sources)
         print(f"wrote {READER_OUT.relative_to(ROOT)}")
 
-    # Verify deterministic Markdown after writing.
     for path, wanted in expected:
-        got = path.read_text(encoding="utf-8")
-        if got != wanted:
+        if path.read_text(encoding="utf-8") != wanted:
             raise RuntimeError(f"Post-write verification failed for {path}")
 
     print("Synchronization complete.")
