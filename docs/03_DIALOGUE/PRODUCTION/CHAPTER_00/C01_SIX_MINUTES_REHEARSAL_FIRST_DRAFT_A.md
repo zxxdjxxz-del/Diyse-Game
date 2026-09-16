@@ -34,13 +34,13 @@ Ilyra notices from several feet away.
 
 **ILYRA:** That bad?
 
-**CYANIS:** Depends what it was supposed to be. If the goal was hot and aggressively unpleasant, somebody did excellent work.
+**CYANIS:** Horse shit would be better. Who's tea is this?
 
 Ilyra's eyes drop to the cup.
 
 **ILYRA:** Where did you get that?
 
-**CYANIS:** Pot by the fire. It was hot, it was available, there was a cup next to it, and apparently I built an entire argument from circumstantial evidence.
+**CYANIS:** The pot near the fire.
 
 Ilyra gets close enough to smell it.
 
@@ -48,7 +48,7 @@ Then she stares at him.
 
 **ILYRA:** That's bitterleaf.
 
-**CYANIS:** I'm learning the name hasn't improved it.
+**CYANIS:** How do you drink this?
 
 **ILYRA:** It's for compresses.
 
@@ -124,7 +124,7 @@ The food is ordinary and good enough.
 
 Cyanis tastes it with exaggerated caution.
 
-**ILYRA:** If you inspect every spoonful now, I'm going to regret laughing.
+**ILYRA:** If you are certain why are you inspecting every bite?
 
 **CYANIS:** Trust has been damaged.
 
@@ -134,7 +134,7 @@ Cyanis tastes it with exaggerated caution.
 
 Ilyra takes another bite.
 
-**ILYRA:** This is why people label things.
+**ILYRA:** This is why you don't touch things without asking people.
 
 **CYANIS:** This is why people don't put a cup beside a pot of medicine.
 
@@ -164,15 +164,15 @@ Cyanis looks surprised.
 
 **ILYRA:** Everybody kept shouting your name like you were responsible for whatever was happening near them.
 
-**CYANIS:** That's not rank. That's poor boundaries.
+**CYANIS:** That's not about rank, that's about ability.
 
-**ILYRA:** I know that now.
+**ILYRA:** I soon realized you weren't.
 
 **CYANIS:** What changed your mind?
 
 Ilyra thinks about it.
 
-**ILYRA:** An actual officer kept telling you what to do.
+**ILYRA:** Everything else you did, plus the pissed off look on the actual officer telling you what to do.
 
 Cyanis stares at her.
 
@@ -196,7 +196,7 @@ A beat.
 
 **CYANIS:** In my defense—
 
-**ILYRA:** You moved the crates when I explained why you couldn't have it.
+**ILYRA:** You listened when I told you why you couldn't have it. Then you moved the crates yourself.
 
 Cyanis stops.
 
@@ -208,7 +208,7 @@ Cyanis stops.
 
 Ilyra eats another spoonful.
 
-**ILYRA:** Also, you apologized to furniture earlier.
+**ILYRA:** Also, you apologized to an inanimate object earlier.
 
 Cyanis slowly turns toward her.
 
