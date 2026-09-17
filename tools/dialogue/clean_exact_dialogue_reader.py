@@ -9,6 +9,7 @@ from docx import Document
 
 ROOT = Path(__file__).resolve().parents[2]
 READER = ROOT / "build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT.docx"
+EXPECTED_DIALOGUE_LINES = 3460
 DIALOGUE_PREFIX_RE = re.compile(r"^.+:\s*$")
 
 FULL_SKIP_HEADING_TERMS = (
@@ -32,6 +33,8 @@ FULL_SKIP_HEADING_TERMS = (
     "presentation check",
     "character check",
     "reveal-boundary check",
+    "writer-facing",
+    "implementation",
 )
 
 DROP_EXACT = {
@@ -40,6 +43,10 @@ DROP_EXACT = {
     "No immediate boss sting. No continuous Card ward. No second flare yet.",
     "Maevra's splint remains part of her visible Chapter-1 state.",
     "Available during the Chapter-3 cleanup window after Beat 15.",
+    "Scene ends.",
+    "The story trigger is short.",
+    "Transition directly into:",
+    "Current story presentation:",
 }
 
 PROSE_REWRITES = {
@@ -57,6 +64,49 @@ PROSE_REWRITES = {
         "Cyanis's Card remains stable deep Ruby and put away.",
     "The fight is lethal. The party defeats and kills the Briarhide Stalker through ordinary combat victory.":
         "The fight is lethal. The party kills the Briarhide Stalker.",
+    "A wounded escort calls Cyanis over. The relevant NPC can appear for the scene.":
+        "A wounded escort calls Cyanis over.",
+    "The scene releases briefly into normal camp work.": "Camp work resumes briefly.",
+    "The scene returns to the defended treatment area before P06.":
+        "They return to the defended treatment area.",
+    "Nobody proposes another separation attempt here. Chapter 1 owns the first deliberate transfer test.":
+        "Nobody proposes another separation attempt.",
+    "In the next visual beat, both Cyanis and Ilyra are shown passed out where they were sitting.":
+        "A moment later, Cyanis and Ilyra are both asleep where they were sitting.",
+    "Ilyra gives him the relevant version, not the whole convoy story.":
+        "Ilyra gives him the relevant version, not the whole convoy account.",
+    "Maevra joins the intake scene.": "Maevra joins them at intake.",
+    "Greenhollow comes into view as part of normal field progression.": "Greenhollow comes into view.",
+    "Torren knows these were people from a fort near his town. He does not become eloquent because the scene is sad.":
+        "Torren knows these were people from a fort near his town.",
+    "Torren studies the transition.": "Torren studies the join between the structures.",
+    "At a natural stopping point near the town approach, the relevant group models may appear briefly. Dunmere is close and visibly inhabited. Nothing here yet explains the Chapter-2 crisis.":
+        "Near the town approach, Dunmere is close and visibly inhabited.",
+    "Dunmere is functioning. Shops are open, people are working, and ordinary town life continues. The first thing the group sees is not a disaster scene.":
+        "Dunmere is functioning. Shops are open, people are working, and ordinary town life continues. The group does not arrive to a disaster.",
+    "The creature is defeated and no longer contests the chamber. Exact defeat animation/final physical state belongs to encounter presentation, but the route is no longer blocked by its active presence.":
+        "The creature is defeated and no longer contests the chamber. The route is open.",
+    "Beat 9 is a route payoff, not another lore beat. The concealed access belongs to the Ancient structure and leads directly into the Old Bastion's reused lower foundations.":
+        "The concealed access belongs to the Ancient structure and leads directly into the Old Bastion's reused lower foundations.",
+    "Ilyra examines the injury without turning the scene into a full treatment sequence.":
+        "Ilyra examines the injury briefly.",
+    "Rhazek retrieves himself enough to move. He remains visibly affected by the fight; the scene does not erase the defeat because he can still stand.":
+        "Rhazek retrieves himself enough to move. He remains visibly affected by the fight.",
+    "The controlled arrival stretch ends at the palace / royal-district transition.":
+        "The controlled arrival stretch ends at the palace and royal district.",
+    "Torren's existing Chapter-2 copy is put where the room can examine it. No bespoke map animation is required.":
+        "Torren's existing copy is put where the room can examine it.",
+    "The scene ends on controlled investigation rather than accusation.":
+        "The room settles into controlled investigation rather than accusation.",
+    "The keeper indicates the approved descent route. No elaborate map or prop animation is needed.":
+        "The keeper indicates the approved descent route.",
+    "The meaning resolves through the party's usable Ancient scholarship / presentation translation:":
+        "The meaning resolves through the party's Ancient scholarship:",
+    "During the investigation, Cyanis checks the Card once because Beat 11's change is still fresh.":
+        "During the investigation, Cyanis checks the Card once; the change is still fresh.",
+    "He brings out / retrieves the existing copy made from the Chapter-2 Ancient mural / route evidence.":
+        "He brings out the existing copy of the Ancient mural and route evidence.",
+    "A short departure trigger gathers the permanent four.": "The permanent four gather to depart.",
     "BATTLE — ARCHIVE SCRIBE ENGINE": "The Archive Scribe Engine activates.",
     "Current atomic dialogue edition. Spoken lines are copied verbatim from active production sources; writer-facing audits, implementation notes, and future-facing production metadata are omitted.":
         "Current atomic dialogue edition. Spoken lines are copied verbatim from the active source scenes; writer-facing notes and future-facing metadata are omitted.",
@@ -73,6 +123,8 @@ HEADING_EXACT = {
     "Mandatory Interaction — Rest / Advance": "Rest / Advance",
     "Party Join": "Nimera Joins",
     "Return To Cleanup": "Back to Cresthaven",
+    "Post-Boss": "After the Battle",
+    "Next Morning — Player Preparation Window": "Next Morning",
 }
 
 HEADING_REMOVE = {
@@ -88,6 +140,7 @@ HEADING_REMOVE = {
     "Boss Combat — Integrated State",
     "Boss Combat — Mobile State",
     "Battle Character",
+    "Encounter-direction priorities",
 }
 
 PRODUCTION_PATTERNS = tuple(
@@ -144,9 +197,10 @@ PRODUCTION_PATTERNS = tuple(
         r"\bimplementation\b",
         r"\bencounter authority\b",
         r"\bstory authority\b",
-        r"\bfield model\b",
-        r"\bportrait\b",
-        r"\bdialogue box\b",
+        r"\bcombat authority\b",
+        r"\bfield models?\b",
+        r"\bportraits?\b",
+        r"\bdialogue (?:ui|layer|box)\b",
         r"\bcutscene\b",
         r"\bchoreography\b",
         r"\brandom[- ]encounter\b",
@@ -155,6 +209,71 @@ PRODUCTION_PATTERNS = tuple(
         r"\bperson-brain\b",
         r"\brole-balance\b",
         r"\bgameplay\b",
+        r"\bwriter-facing\b",
+        r"\bbattle presentation\b",
+        r"\bencounter presentation\b",
+        r"\bfield/story presentation\b",
+        r"\bnormal scene presentation\b",
+        r"\binteraction/state change\b",
+        r"\bmovement pauses\b",
+        r"\b(?:scene|encounter) triggers?\b",
+        r"\btrigger fires\b",
+        r"\bauthored (?:active-camp |active camp |scene|stop|encounter|combat|opening|disengagement)",
+        r"\b(?:cinematic|animation|camera cutaways?|locomotion|repositioning)\b",
+        r"\bHP (?:bar|floor)\b",
+        r"\bcommandable party\b",
+        r"\bnon-playable\b",
+        r"\bcontrol returns\b",
+        r"\bcontrol/story handoff\b",
+        r"\bplayable (?:escort|road|sequence|dungeon)\b",
+        r"\b(?:field|route) progression\b",
+        r"\bHunt progression\b",
+        r"\bcleanup window\b",
+        r"\broute-choice scene\b",
+        r"\bstate transition\b",
+        r"\bmandatory mid-battle dialogue\b",
+        r"\bexact (?:defeat animation|mechanics|stats|attack tables|encounter-validation values)\b",
+        r"\bcurrent story presentation\b",
+        r"\bpresentation translation\b",
+        r"\bbespoke map animation\b",
+        r"\bvisible party field character\b",
+        r"\bsimple field (?:placement|model|models)\b",
+        r"\bnormal field/story\b",
+        r"\bjoined the party\b",
+        r"\bpermanent party member\b",
+        r"\bplayer preparation window\b",
+        r"\bBeat\s+\d+\b",
+        r"\bChapter[- ]\d+\b",
+        r"\bscene\b",
+        r"\bstory\b",
+        r"\bvisual\b",
+        r"\btrigger\b",
+        r"\btransition\b",
+    )
+)
+
+RESIDUE_GUARD_PATTERNS = tuple(
+    re.compile(pattern, re.IGNORECASE)
+    for pattern in (
+        r"\bfield models?\b",
+        r"\bportraits?\b",
+        r"\bdialogue (?:ui|layer|box)\b",
+        r"\bwriter-facing\b",
+        r"\bgameplay\b",
+        r"\bimplementation\b",
+        r"\bproduction\b",
+        r"\bplayer\b",
+        r"\b(?:combat|story|encounter) authority\b",
+        r"\bHP (?:bar|floor)\b",
+        r"\bcommandable party\b",
+        r"\bnon-playable\b",
+        r"\bcontrol returns\b",
+        r"\bbattle presentation\b",
+        r"\bencounter presentation\b",
+        r"\bfield/story presentation\b",
+        r"\bscene triggers?\b",
+        r"\bmovement pauses\b",
+        r"\bexact mechanics\b",
     )
 )
 
@@ -194,6 +313,7 @@ def clean_heading(text: str) -> str | None:
 
     for pattern in (
         r"^Major Story Interaction\s*[—-]\s*",
+        r"^(?:First|Second|Third)?\s*Story Stop\s*[—-]\s*",
         r"^Short Story Stop\s*[—-]\s*",
         r"^Story Continuation\s*[—-]\s*",
         r"^Direct Cut\s*[—-]\s*",
@@ -207,6 +327,7 @@ def clean_heading(text: str) -> str | None:
         r"^Authored Stop\s*[—-]\s*",
         r"^Scripted Battle Event\s*[—-]\s*",
         r"^Authored(?:\s+Combat|\s+Opening|\s+Disengagement)?\s*[—-]?\s*",
+        r"^Threshold Scene\s*[—-]\s*",
     ):
         changed = re.sub(pattern, "", text, flags=re.IGNORECASE).strip(" —-")
         if changed != text:
@@ -231,12 +352,30 @@ def should_drop_prose(text: str) -> bool:
     return any(pattern.search(stripped) for pattern in PRODUCTION_PATTERNS)
 
 
+def residual_meta(document) -> list[str]:
+    found: list[str] = []
+    for index, paragraph in enumerate(document.paragraphs):
+        if index <= 2:
+            continue
+        text = paragraph.text.strip()
+        if not text or is_dialogue(paragraph):
+            continue
+        if any(pattern.search(text) for pattern in RESIDUE_GUARD_PATTERNS):
+            found.append(text)
+    return found
+
+
 def main() -> int:
     if not READER.exists():
         raise RuntimeError(f"Generated reader does not exist: {READER.relative_to(ROOT)}")
 
     document = Document(READER)
     dialogue_before = [p.text for p in document.paragraphs if is_dialogue(p)]
+    if len(dialogue_before) != EXPECTED_DIALOGUE_LINES:
+        raise RuntimeError(
+            f"Generated reader contains {len(dialogue_before)} spoken dialogue lines; "
+            f"expected {EXPECTED_DIALOGUE_LINES}. Refusing cleanup."
+        )
 
     skip_non_dialogue = False
     for index, paragraph in enumerate(list(document.paragraphs)):
@@ -270,14 +409,24 @@ def main() -> int:
             remove_paragraph(paragraph)
 
     dialogue_after = [p.text for p in document.paragraphs if is_dialogue(p)]
-    if dialogue_before != dialogue_after:
+    if dialogue_before != dialogue_after or len(dialogue_after) != EXPECTED_DIALOGUE_LINES:
         raise RuntimeError(
             "Reader cleanup changed spoken dialogue; refusing to save "
             f"({len(dialogue_before)} before vs {len(dialogue_after)} after)."
         )
 
+    residue = residual_meta(document)
+    if residue:
+        preview = "\n".join(f"- {line}" for line in residue[:12])
+        raise RuntimeError(
+            f"Reader cleanup left {len(residue)} unmistakable production-facing paragraphs:\n{preview}"
+        )
+
     document.save(READER)
-    print(f"Reader presentation cleanup complete; preserved {len(dialogue_after)} spoken dialogue lines exactly.")
+    print(
+        f"Reader presentation cleanup complete; preserved {len(dialogue_after)} spoken dialogue lines exactly "
+        "and passed the production-residue guard."
+    )
     return 0
 
 
