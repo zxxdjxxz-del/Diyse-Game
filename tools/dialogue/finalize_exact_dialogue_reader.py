@@ -72,6 +72,42 @@ PROSE_REPLACEMENTS = {
         "The waterworks route opens into a much larger Ancient interior. The group stops to take it in.",
     "Exploration reaches a chamber dominated by a large wall-scale map. The relevant group models appear at a natural stopping point.":
         "The group reaches a chamber dominated by a large wall-scale map.",
+    "The area itself shows why the center route is unsafe. No second explanation is needed.":
+        "The area itself shows why the center route is unsafe.",
+    "The line is observational, not therapeutic. Ilyra does not ask him to unpack it.":
+        "Ilyra does not ask him to unpack it.",
+    "That is the end of it. No relationship explanation follows.":
+        "They leave it there.",
+    "The tension remains; nobody turns the moment into a lecture about the ruin.":
+        "The tension remains, and nobody says more.",
+    "The relief supplies the visible inventory. The cast speaks only to what it implies.":
+        "Relief supplies fill the space.",
+    "The mural is the one major visual asset for this beat.":
+        "The mural dominates the chamber.",
+    "The monument is clearly important, but no crowd descends beneath it and no deep opening is shown there.":
+        "The monument is clearly important, but no crowd descends beneath it and there is no deep opening there.",
+    "The group takes in the mural as a whole. The mural itself already establishes the many openings and civilian-scale movement, so nobody repeats the inventory from the lower junction.":
+        "The group takes in the mural as a whole. Many openings and signs of civilian-scale movement are visible across it.",
+    "The Briarhide is still not shown.":
+        "The Briarhide remains out of sight.",
+    "Torren does not smoke while eating. After everyone has finished, he lights a blunt as ordinary post-meal behavior.":
+        "Torren waits until everyone has finished eating before lighting a blunt.",
+    "Once ordinary wilderness traversal begins, Cyanis returns to being the sole visible party field character.":
+        "Once they return to the wilderness, Cyanis takes the lead again.",
+    "Then, preserving the exact locked exchange:":
+        "Then:",
+    "Ilyra notices the injury but does not turn first contact into forced treatment.":
+        "Ilyra notices the injury but does not press treatment on him.",
+    "The elder's expression hardens, but does not turn into a speech.":
+        "The elder's expression hardens, but he says no more.",
+    "The humor is brief and ordinary. It does not erase the unresolved missing people.":
+        "The laugh passes quickly; the missing people still weigh on them.",
+    "The joke is brief and the boundary remains Crown-owned, not Ilyra-owned.":
+        "The joke passes; the Crown's boundary remains unchanged.",
+    "The conversation ends before the room turns the departure into another briefing.":
+        "The conversation ends there.",
+    "She keeps the relevant citations rather than turning the discovery into a lecture.":
+        "She keeps only the relevant citations.",
 }
 
 PROSE_DROPS = {
@@ -106,6 +142,17 @@ FORBIDDEN_PROSE_PATTERNS = (
     re.compile(r"\bgroup models?\b", re.IGNORECASE),
     re.compile(r"\bnatural stopping point\b", re.IGNORECASE),
     re.compile(r"\bclean visual read\b", re.IGNORECASE),
+    re.compile(r"\bno second explanation is needed\b", re.IGNORECASE),
+    re.compile(r"\bthe line is observational\b", re.IGNORECASE),
+    re.compile(r"\brelationship explanation follows\b", re.IGNORECASE),
+    re.compile(r"\bthe cast speaks\b", re.IGNORECASE),
+    re.compile(r"\bvisual asset\b", re.IGNORECASE),
+    re.compile(r"\bis shown there\b", re.IGNORECASE),
+    re.compile(r"\bvisible party field character\b", re.IGNORECASE),
+    re.compile(r"\blocked exchange\b", re.IGNORECASE),
+    re.compile(r"\bordinary post-meal behavior\b", re.IGNORECASE),
+    re.compile(r"\bturn(?:s|ing) .* into a lecture\b", re.IGNORECASE),
+    re.compile(r"\banother briefing\b", re.IGNORECASE),
 )
 
 
