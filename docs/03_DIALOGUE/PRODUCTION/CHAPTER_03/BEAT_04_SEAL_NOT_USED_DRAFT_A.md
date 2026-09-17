@@ -55,7 +55,7 @@ Cyanis stares at the two results.
 
 **CYANIS:** That's inconvenient.
 
-**MIRENA:** That's one word for it.
+**MIRENA:** Generous wording.
 
 Lysara looks to Othmar.
 
@@ -111,7 +111,7 @@ Maevra scans the dates.
 
 **OTHMAR:** Possible is too cheap a word here. I can tell you the record does not prove such access occurred.
 
-**MIRENA:** And it doesn't prove it didn't.
+**MIRENA:** So the record is clean. The situation isn't.
 
 **OTHMAR:** Correct.
 
@@ -267,7 +267,7 @@ Transition into:
 - Lysara accepts contradiction without forcing a premature mechanism. She defines what the investigation may call fact and owns the no-experiment boundary as Crown authority.
 - Maevra asks about practical physical access because operational procedure is her lane; she does not become a seal theorist.
 - Torren responds to evidentiary wording and uncertainty without pretending expertise in royal magic.
-- Mirena reaches for Nimera because Crown expertise has hit a real boundary, not because the plot requires the next party member.
+- Mirena reaches for Nimera because Crown expertise has hit a real boundary, not because the plot requires the next party member. Her response to the custody ledger stays focused on what a clean official record does and does not mean for Crown trust, rather than drifting into Nimera-style technical evidentiary phrasing.
 - Ilyra is not the automatic safety monitor. She participates socially, needles Mirena and Cyanis, and lets Cyanis state his own boundary about the Card.
 - the Maevra/Mirena split reads as two competent people continuing their own work rather than removing Maevra mechanically from the field party.
 - conversational participation is intentionally uneven; the Crown-side experts own most of this scene.
