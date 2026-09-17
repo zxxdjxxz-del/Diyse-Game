@@ -194,7 +194,7 @@ Nimera looks at him, then at the work.
 
 **NIMERA:** Maybe. Same interests, compatible timing, same general access problem. But "same person" would make the mystery tidier, and tidy is exactly when I get suspicious of myself.
 
-**TORREN:** Fair.
+**TORREN:** Yeah.
 
 ### [THE RUBY CARD HOLDS]
 
@@ -218,11 +218,11 @@ Nimera thinks.
 
 **NIMERA:** No new reason. That's not the same as proving the current arrangement safe forever; it means nothing we've found in this room gives me a reason to alter the one arrangement that has stayed stable.
 
-**CYANIS:** There it is.
+**CYANIS:** Called it.
 
 **NIMERA:** What?
 
-**CYANIS:** The qualifier I knew was coming.
+**CYANIS:** The qualifier. I knew it was coming.
 
 **NIMERA:** Good. You're trainable.
 
