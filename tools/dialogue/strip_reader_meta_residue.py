@@ -66,7 +66,10 @@ def is_dialogue(paragraph) -> bool:
     if not paragraph.runs:
         return False
     first = paragraph.runs[0]
-    return bool(first.bold and DIALOGUE_PREFIX_RE.match(first.text))
+    if not first.bold or not DIALOGUE_PREFIX_RE.match(first.text):
+        return False
+    label = first.text.strip()[:-1].strip()
+    return bool(re.search(r"[A-Z]", label)) and label == label.upper()
 
 
 def remove_paragraph(paragraph) -> None:
