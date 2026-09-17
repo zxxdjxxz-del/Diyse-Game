@@ -76,7 +76,7 @@ Ilyra smells the cup again.
 
 **ILYRA:** You're not going to die from drinking some bitterleaf.
 
-**CYANIS:** Good.
+**CYANIS:** I'll take it.
 
 A beat.
 
