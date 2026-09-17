@@ -19,9 +19,11 @@ LABEL_RE = re.compile(r"^.+:\s*$")
 
 HEADING_REPLACEMENTS = {
     "working royal audience": "Royal Audience",
+    "post-boss": "After the Battle",
 }
 FORBIDDEN_HEADING_PATTERNS = (
     re.compile(r"^working\s+royal\s+audience$", re.IGNORECASE),
+    re.compile(r"^post[- ]boss$", re.IGNORECASE),
     re.compile(r"^c\d+\s+function$", re.IGNORECASE),
 )
 
