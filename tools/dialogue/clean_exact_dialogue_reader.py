@@ -144,16 +144,19 @@ DROP_EXACT = {
     "Do not inspect the room yet.",
     "Do not explain:",
     "They do not become default residents or traveling companions.",
+    "No concealed Ruin Vanguard appears here.",
+    "No Riftmaw appears here.",
+    "No Card flare occurs here.",
+    "No added transformation or hidden meaning.",
 }
 
-# Production vocabulary that should never survive in ordinary reader prose. Story-facing
-# prose can still say things such as "a beat of silence" because these patterns target
-# explicit production units or instructions rather than the ordinary English word beat.
 PRODUCTION_PATTERNS = tuple(
     re.compile(pattern, re.IGNORECASE)
     for pattern in (
         r"\bBeat\s+\d+\b",
         r"\bChapter[- ]\d+\b",
+        r"\bthe chapter\b",
+        r"\bplayer\b",
         r"\b(?:production|implementation|gameplay|writer-facing|authored|scripted)\b",
         r"\b(?:scene|dialogue|story)\b",
         r"\bCharacter-Life\b",
@@ -165,11 +168,12 @@ PRODUCTION_PATTERNS = tuple(
         r"\blegacy source key\b",
         r"\b(?:combat|battle) party\b",
         r"\bpermanent combat(?:-capable)?\b",
-        r"\bpermanent party member\b",
+        r"\bpermanent party (?:member|members|characters)\b",
         r"\bboss encounter\b",
         r"\bfinal boss\b",
         r"\bnormal boss combat\b",
         r"\bencounter-authorized\b",
+        r"\bencounter authority\b",
         r"\bhard (?:scene|story) rule\b",
         r"\bplayable\b",
         r"\bcleanup window\b",
@@ -182,10 +186,18 @@ PRODUCTION_PATTERNS = tuple(
         r"\bvisible traversal model\b",
         r"\bsparse practical dialogue is legal\b",
         r"\btimed dialogue\b",
+        r"\bexchange (?:ends|establishes)\b",
+        r"\bconversation leaves\b",
+        r"\bdiagnosing\b",
         r"\bHP (?:bar|floor)\b",
+        r"\bhealth bar\b",
         r"\bprotected HP\b",
         r"\bdisengagement state\b",
         r"\bforced nonlethal\b",
+        r"\bnonlethal solution\b",
+        r"\bdoes not participate in battle\b",
+        r"\bdoes not transform into a corrupted form\b",
+        r"\bNo ambiguity is introduced\b",
         r"\bstate transition\b",
         r"\bexact (?:mechanics|stats|attack tables|defeat animation|encounter-validation values)\b",
         r"\bfield models?\b",
@@ -209,6 +221,12 @@ PRODUCTION_PATTERNS = tuple(
         r"\bnot because Ilyra has taken control\b",
         r"\bretired records beat\b",
         r"\bdefault residents or traveling companions\b",
+        r"\brequired (?:visual|traversal|combat)\b",
+        r"\b(?:is|are) required\b",
+        r"\bno emotional farewell\b",
+        r"\breusable smoke loop\b",
+        r"\bhand animation\b",
+        r"\bpreparation window\b",
         r"^\s*Do not\b",
         r"^\s*Use one\b",
         r"^\s*Short dialogue may\b",
@@ -221,13 +239,13 @@ PRODUCTION_PATTERNS = tuple(
     )
 )
 
-# A narrower post-clean guard catches unmistakable production residue and makes the
-# workflow fail rather than uploading a reader that still contains it.
 RESIDUE_GUARD_PATTERNS = tuple(
     re.compile(pattern, re.IGNORECASE)
     for pattern in (
         r"\bBeat\s+\d+\b",
         r"\bChapter[- ]\d+\b",
+        r"\bthe chapter\b",
+        r"\bplayer\b",
         r"\b(?:production|implementation|gameplay|writer-facing|authored|scripted)\b",
         r"\b(?:scene|dialogue|story)\b",
         r"\bCharacter-Life\b",
@@ -235,15 +253,20 @@ RESIDUE_GUARD_PATTERNS = tuple(
         r"\brecruitment\b",
         r"\bagency\b",
         r"\b(?:combat|battle) party\b",
+        r"\bpermanent party (?:member|members|characters)\b",
         r"\bboss encounter\b",
+        r"\bencounter authority\b",
         r"\bhard (?:scene|story) rule\b",
         r"\bplayable\b",
         r"\bcleanup window\b",
         r"\bhandoff\b",
         r"\bobjective\b",
         r"\bHP (?:bar|floor)\b",
+        r"\bhealth bar\b",
         r"\bfield models?\b",
         r"\bdialogue (?:ui|layer|box)\b",
+        r"\brequired (?:visual|traversal|combat)\b",
+        r"\bpreparation window\b",
         r"^\s*Do not\b",
         r"^\s*Use one\b",
     )
