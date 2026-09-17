@@ -14,7 +14,7 @@ Cyanis looks at Torren's copied map again.
 
 **CYANIS:** We could be out before midnight.
 
-**MIRENA:** No.
+**MIRENA:** Absolutely not.
 
 Cyanis looks up.
 
@@ -52,7 +52,11 @@ Nimera closes it again.
 
 **NIMERA:** Unfairly perceptive.
 
-**MIRENA:** Go be unavailable for a few hours.
+**MIRENA:** Consider this a temporary royal prohibition on usefulness.
+
+**NIMERA:** I don't think that's a power you have.
+
+**MIRENA:** Then challenge the order after breakfast.
 
 That ends the meeting.
 
@@ -94,7 +98,7 @@ Looks at Torren.
 
 Cyanis keeps eating.
 
-**CYANIS:** Strong distinction.
+**CYANIS:** That's true.
 
 Nimera looks at him.
 
@@ -202,7 +206,7 @@ Nimera stops with her hand halfway there.
 
 Then looks at Ilyra.
 
-**NIMERA:** Oh, fuck both of you.
+**NIMERA:** Oh, go fuck yourselves with the same spoon—no, that's logistically impossible unless you take turns. Fine. Take turns. Same spoon.
 
 Ilyra laughs.
 
@@ -310,9 +314,10 @@ Transition into:
 
 ## Beat-14 production notes
 
-- Mirena owns the decision to rest because she is the authority figure ending the working day; Ilyra is not silently positioned as the person who was already supervising Cyanis's food or sleep.
+- Mirena owns the decision to rest because she is the authority figure ending the working day; Ilyra is not silently positioned as the person who was already supervising Cyanis's food or sleep. Mirena's mock-royal `temporary prohibition on usefulness` lets her private/social register show without implying that the party is already her intimate inner circle.
 - the evening scene has no required lore topic or emotional milestone. It is simply the first low-pressure ordinary stretch for Cyanis, Ilyra, Torren, and Nimera as the current permanent four.
-- Nimera's longer floor-holding remains strongest when she is tired and stubborn about trivial distinctions.
+- Nimera's longer floor-holding remains strongest when she is tired and stubborn about trivial distinctions. Her spoon profanity now uses the current voice rule: spontaneous absurdity followed by an immediate correction until the ridiculous phrase becomes internally workable.
+- Cyanis's response to Nimera's distinction is socially responsive rather than another repeated `___ distinction` construction; ordinary agreement remains available when it fits the exchange.
 - Torren still caps the ink because *he* is the one directly engaged in the cutlery/ink argument; Ilyra joins by weaponizing grammar and laughing, not by confiscating Nimera's work or ordering her to bed.
 - Ilyra's `prove him wrong and use the spoon on the stew` line is teasing manipulation, not food enforcement; Nimera remains free to comply, refuse, or argue.
 - Ilyra's recap joke is about the day's absurd events rather than whether everyone is fed, bleeding, or properly managed.
