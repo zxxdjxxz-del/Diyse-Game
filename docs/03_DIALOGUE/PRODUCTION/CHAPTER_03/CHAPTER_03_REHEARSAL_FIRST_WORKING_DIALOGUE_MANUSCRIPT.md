@@ -1,32 +1,47 @@
-# Diyse — Chapter 3 Complete Synchronized Dialogue Manuscript
+# DIYSE — Chapter 3 — Synchronized Rehearsal-First Working Dialogue Manuscript
 
-**Status:** CURRENT COMPLETE SYNCHRONIZED READ-THROUGH — MAINLINE 1–15 + CANONICAL C06/C07  
-**Chapter:** 3  
-**Character-Life numbering authority:** `../CHARACTER_LIFE_NUMBERING_LOCK.md`  
-**Exact edit authority:** the standalone production scene files embedded below  
-**Purpose:** one complete Chapter-3 production read-through without abandoning scene-by-scene atomic editing
+**Status:** CURRENT DERIVED READ-THROUGH — SYNCHRONIZED AGAINST CURRENT ATOMIC DIALOGUE SOURCES
 
-## Synchronization rule
+**Authority rule:** standalone atomic scene files remain exact wording authority. This file is generated, not hand-authored. After any atomic edit, rerun `python tools/dialogue/sync_current_dialogue.py` before describing this manuscript as current.
 
-The source scenes embedded below remain the atomic edit authorities for exact wording. This manuscript records each source filename and Git blob SHA so synchronization drift can be audited. If a listed source file changes and the SHA marker here no longer matches, the standalone source wins until this manuscript is resynchronized.
+## Source manifest
 
-Mainline Beats 1–15 appear first in story order. The two active Chapter-3 Character-Life scenes are appended after the intact mainline as the cleanup-window appendix. Their actual in-game availability remains during Beat 15 before the explicit **Begin Chapter 4** choice.
-
-Canonical Character-Life IDs are **C06 — Nimera Takes Over a Table** and **C07 — Ilyra and Nimera**. Their current `H01/H03` filenames are legacy source keys only.
+| Order | Canonical slot | Atomic source | SHA-256 |
+|---:|---|---|---|
+| 1 | Beat 1 | `BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md` | `a376a29b6fe4965c890c4725af7c0e0368f684b26044aa30edde1ddffc6f502d` |
+| 2 | Beat 2 | `BEAT_02_ROYAL_AUDIENCE_CH2_REPORT_DRAFT_A.md` | `242ab0081216edf649900cf0d92279a1f6313bf77e2ed6f19bcedb8d261510b5` |
+| 3 | Beat 3 | `BEAT_03_IMPOSSIBLE_ORDERS_DRAFT_A.md` | `e35611912c111cdf71c3836a6f99b9f285f9d3f19764ca53975f0e149ec2f7c2` |
+| 4 | Beat 4 | `BEAT_04_SEAL_NOT_USED_DRAFT_A.md` | `dae8d14b9cff7e89ed09a35f685d65d6bf72efecf9e15d2d6a98f09042b680e5` |
+| 5 | Beat 5 | `BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md` | `2bffb1d87b0262943936635678193cb9e3748b68a9908faa3b2c583b2df81bfb` |
+| 6 | Beat 6 | `BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md` | `5102532c8dee67fc6cfb82d7cead216c6d86a92d0a8d388ae6bee366db1b8892` |
+| 7 | Beat 7 | `BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_DRAFT_A.md` | `818911dc77c4fba62d50dafc309a146b39c5664e464273d4ff31ce51d3200622` |
+| 8 | Beat 8 | `BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_DRAFT_A.md` | `f80ff7b79af90e7b2edb882dd4f195c3b38ae750ea424bf16853500224dc95dc` |
+| 9 | Beat 9 | `BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_DRAFT_A.md` | `507d60d0616af278b42591041634ef9fba9bbc99ee3bf93448d8a22f75c394a1` |
+| 10 | Beat 10 | `BEAT_10_RECENT_READER_HALL_OF_SEALS_DRAFT_A.md` | `f9e281010402a560b58e08b55af5eb665bccea2f3e09075b44797f785d5f3823` |
+| 11 | Beat 11 | `BEAT_11_FIRST_COMMAND_WARDEN_DRAFT_A.md` | `b84e481caacb33cea810c8f73345be7a1ec9a397946d29b82979a128b04d1877` |
+| 12 | Beat 12 | `BEAT_12_SEALWRIGHT_CHAMBER_COPYING_ATTEMPTS_DRAFT_A.md` | `b028b0fbc77a0abf38198d30c25b8fabf916b50f4f363729ac98d1b0bce54d05` |
+| 13 | Beat 13 | `BEAT_13_MIRENAS_CONCERN_CRESTHAVEN_LEAD_DRAFT_A.md` | `437785ab754a27ebe44aa7a86dbfee8ca72e689e4ecd460249ea9acb04441f63` |
+| 14 | Beat 14 | `BEAT_14_REST_IN_CAELORA_MORNING_DEPARTURE_DRAFT_A.md` | `b1397defa1d41fd92be3121fec325033baeb464cb78b8d07ce1adc880be41bbc` |
+| 15 | Beat 15 | `BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_DRAFT_A.md` | `2b27c5151fed431cc1f3358a6ec14883e468340188953a85bf391001834c6735` |
+| 16 | C06 — Nimera Takes Over a Table | `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md` | `9886a63f7a893db368bd70b032d976676bf0219dd69beab4a1599098c6030f09` |
+| 17 | C07 — Ilyra and Nimera | `H03_ILYRA_AND_NIMERA_DRAFT_A.md` | `de055c9feadd70c69986ab9952773698706bd16918eedac5b3b3c5904613f9f9` |
 
 ---
 
-<!-- SOURCE: BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md | BLOB: 8dd8afc0563e2808eea9c8be72847b4b1ac69247 -->
+## Beat 1
+
+**Atomic source:** `BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md`  
+**Source SHA-256:** `a376a29b6fe4965c890c4725af7c0e0368f684b26044aa30edde1ddffc6f502d`
 
 # Chapter 3 — Beat 1
 # Caelora Gate / Arrival
-## DIALOGUE ENGINE PRODUCTION DRAFT A — rehearsal-first Agent-Brain pass / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN — PERSON-BRAIN PERFORMANCE PASS
 
 **Pipeline:** Chapter-0/1 rehearsal-first production method.  
-**Agent sources:** current Cyanis, Ilyra, Torren, and Maevra Agent Brains.  
+**Agent sources:** current Cyanis, Ilyra, Torren, and Maevra Person Agent Brains.  
 **Authority spec:** `BEAT_01_CAELORA_GATE_ARRIVAL_SPEC.json`.
 
-The independent character rehearsal has already been reduced through the Dialogue Editor and checked against the current Beat-1 knowledge firewall. Raw rehearsal material is not production dialogue.
+**Method note:** rerun under `STORY_BEAT_AS_GUARDRAIL_LOCK.md` and `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Structural authority supplies the arrival state, hard facts, and reveal boundaries. Speaker ownership, turn length, interruption, humor, and conversational routing come from the Person Agent Brains and Dialogue Editor.
 
 ---
 
@@ -64,19 +79,31 @@ Once entry is cleared:
 
 **MAEVRA:** Palace first.
 
-**CYANIS:** Before food?
+Cyanis looks past her toward the city proper.
 
-**ILYRA:** You ate.
+**CYANIS:** I can see at least three places selling food from here.
 
-**CYANIS:** Hours ago.
+**MAEVRA:** Congratulations on your eyesight.
 
-**ILYRA:** I know.
+**CYANIS:** I was proposing a route improvement.
 
-**TORREN:** He'll live.
+**TORREN:** Wrong direction.
 
-**CYANIS:** Good. Medical consensus.
+**CYANIS:** You didn't even look.
 
-**ILYRA:** That's not what that was.
+**TORREN:** Palace is uphill.
+
+**ILYRA:** Devastating. Defeated by topography before lunch.
+
+Cyanis looks at her.
+
+**CYANIS:** You're enjoying this.
+
+**ILYRA:** A little.
+
+**MAEVRA:** Palace. Then you can all discover food without military assistance.
+
+**CYANIS:** Generous.
 
 **MAEVRA:** Keep moving.
 
@@ -92,29 +119,53 @@ Maevra is actively taking the group toward the palace, so one short route-guidan
 
 Give the player time to see the modern city before the mural comparison lands.
 
-**TORREN:** Mural had more city.
+Torren slows just enough to look along the inside face of the wall.
+
+**TORREN:** Mural had more city than this.
+
+Maevra looks over.
 
 **MAEVRA:** How much more?
 
-**TORREN:** Enough that this wall would've been well inside it.
+Torren takes another few steps before answering.
 
-**ILYRA:** You're sure?
+**TORREN:** Enough that this wall would've been well inside it. Not close to an edge, either. The road alignment's different now, so I can't lay the mural over the city street for street, but the footprint isn't ambiguous. Whatever was here then spread farther out.
 
-**TORREN:** About that. Not the exact boundary.
+Cyanis looks along the modern wall again.
 
-**MAEVRA:** Good.
+**CYANIS:** So these walls would've been deep inside it.
 
-A beat.
+**TORREN:** Inside it, yeah. How deep, I don't know. Copy isn't a survey and I didn't preserve every minor line. I can defend `larger`. I can't defend a boundary from memory while we're standing in it.
 
-**MAEVRA:** Say it exactly like that upstairs.
+**MAEVRA:** Good. Say exactly that upstairs.
 
 **TORREN:** Was going to.
+
+**ILYRA:** He sounds offended that anyone might ask him to exaggerate.
+
+**TORREN:** I am.
+
+**CYANIS:** That's the most emotion I've heard from you all morning.
+
+**TORREN:** Bad measurements do that.
+
+Ilyra laughs.
 
 A short silence while the city continues around them.
 
 **CYANIS:** Still hungry.
 
+**ILYRA:** Now I'm enjoying it more.
+
 **MAEVRA:** I heard you the first time.
+
+**TORREN:** Palace is still uphill.
+
+**CYANIS:** I regret introducing you two.
+
+**ILYRA:** You didn't.
+
+**CYANIS:** Somehow worse.
 
 ---
 
@@ -143,18 +194,18 @@ Transition directly into:
 
 ---
 
-## Rehearsal / Editor check
+## Person-Brain performance check
 
-**Cyanis:** participates through ordinary hunger humor rather than narrating the plot; does not assume the Crown is responsible for the Card.  
-**Ilyra:** answers him dryly and asks Torren one useful certainty question; does not become group therapist or exposition translator.  
-**Torren:** gives conclusion first, clearly separates what he knows from what he cannot yet measure, and does not pretend Ancient expertise.  
-**Maevra:** handles entry implicitly through her real authority, keeps the group moving, and immediately values Torren's bounded uncertainty rather than demanding false precision.
-
-Selective participation is preserved; no character comments merely because they are present.
+- Cyanis's hunger remains ordinary character texture, but Ilyra no longer becomes the food/health monitor. His attempted detour becomes a social joke owned by the whole group.
+- Ilyra participates because she finds Cyanis's failed route argument funny. Her line ownership is social and personal, not medical.
+- Torren is allowed to hold the floor on the mural-versus-city footprint because route geometry, scale, and bounded physical comparison are genuinely his subject. Cyanis now makes the obvious spatial inference himself, giving Torren something to bound rather than feeding him a pure exposition question.
+- Maevra values the bounded answer and keeps the group moving without becoming a command-exposition machine.
+- the scene uses uneven participation: Torren owns the substantive observation; Cyanis and Ilyra interrupt around it because they actually have reasons to.
+- no character speaks merely because they are present.
 
 ## Canon / knowledge check
 
-**PASS — working draft.**
+**PASS — Person-Brain performance pass.**
 
 No Beat-2/3 information is leaked:
 - no Queen-knowledge contradiction;
@@ -175,11 +226,16 @@ No Beat-2/3 information is leaked:
 
 ---
 
-<!-- SOURCE: BEAT_02_ROYAL_AUDIENCE_CH2_REPORT_DRAFT_A.md | BLOB: b51d52032ea73823bb897c05a912b0dc466ec22c -->
+## Beat 2
+
+**Atomic source:** `BEAT_02_ROYAL_AUDIENCE_CH2_REPORT_DRAFT_A.md`  
+**Source SHA-256:** `242ab0081216edf649900cf0d92279a1f6313bf77e2ed6f19bcedb8d261510b5`
 
 # Chapter 3 — Beat 2
 # Royal Audience / The Chapter-2 Report
-## DIALOGUE ENGINE PRODUCTION DRAFT A — rehearsal-first Agent-Brain pass — NATURAL-TURN RHYTHM PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN — PERSON-BRAIN PERFORMANCE PASS + ROYAL-VOICE POLISH
+
+**Method note:** rerun under `STORY_BEAT_AS_GUARDRAIL_LOCK.md` and `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. The field report, Crown knowledge boundaries, and evidence sequence remain fixed. The participating Person Agent Brains determine who owns each fact, how long they hold the floor, and when interruption is earned.
 
 ---
 
@@ -191,31 +247,53 @@ This is a working royal audience, not a ceremonial spectacle. Queen Lysara, Crow
 
 Simple field placement only. Portraits + dialogue box carry the conversation.
 
-**LYSARA:** Commander. Start with the people.
+Lysara looks to Maevra.
 
-**MAEVRA:** The prisoners still in the Bastion are out and the corridor is open again. Rhazek is alive; he withdrew with what remained organized enough to move. I don't have a direction I can defend.
+**LYSARA:** Start with the people.
 
-**LYSARA:** Earlier transfers?
+Maevra does not wait for a checklist.
 
-**MAEVRA:** Gone before we reached them.
+**MAEVRA:** The prisoners still in the Bastion are out and the corridor is open again. Rhazek is alive; he withdrew with what remained organized enough to move. I don't have a direction I can defend. Earlier transfer groups were already gone before we reached them, and nobody we recovered could give us a destination.
 
-**ILYRA:** Prisoners said groups had already been moved out. No one I spoke to knew where. The people we did recover were in mixed condition—exhausted, some injured badly enough that the route we used in wasn't an evacuation route.
+Lysara's expression hardens at the last part.
 
-**MIRENA:** So reopening the road mattered.
+**LYSARA:** Condition of the people you did recover?
 
-**ILYRA:** Yes.
+Ilyra answers because she actually saw and treated them.
 
-**OTHMAR:** The route you used began in the Old Waterworks?
+**ILYRA:** Mixed. Exhaustion across most of them, some injuries that had gone too long without proper care, and several who could walk only because they were very determined to stop being prisoners. The route we used to get in was useful for three armed people. It was not an evacuation route for that group.
 
-**MAEVRA:** Yes. Then it stopped being Dunmere construction.
+**MIRENA:** Which is why the road had to be reopened before you moved them.
 
-**TORREN:** Much older. Not Black Host work; I'm certain about that. Their work sits on it. It didn't make it.
+**ILYRA:** Exactly. We could get ourselves through the old route. Getting frightened, injured civilians back through it would've been a different problem entirely.
 
-**MAEVRA:** The old route eventually opened into foundations beneath the Bastion. That's how we got inside without taking the occupied road.
+Lysara nods once.
 
-**LYSARA:** And nobody knew it connected.
+**LYSARA:** Good. Route next.
 
-**TORREN:** Not on any route map I've seen.
+Othmar looks to Maevra.
+
+**OTHMAR:** You entered through the Old Waterworks?
+
+**MAEVRA:** Started there. Then the construction stopped being anything Dunmere built.
+
+Torren picks up the point before someone has to ask him for each piece.
+
+**TORREN:** Much older. Not Black Host work; I'm certain about that. Their work sits on it in places, cuts through it in others. The old route kept going and eventually opened into foundations under the Bastion. That's how we got inside without taking the occupied road.
+
+**OTHMAR:** You can distinguish the older work reliably?
+
+**TORREN:** Physically, yes. Different stone fit, different wear, different construction logic. What it was built *for* is another question. I can tell you what was there and what was added later. I'm not going to give you a civilization lecture because I walked through a tunnel.
+
+Mirena almost smiles.
+
+**MIRENA:** Appreciated.
+
+Maevra glances at Torren.
+
+**MAEVRA:** He means that. Deeply.
+
+**TORREN:** Yes.
 
 A beat.
 
@@ -223,17 +301,21 @@ A beat.
 
 Torren's existing Chapter-2 copy is put where the room can examine it. No bespoke map animation is required.
 
-**TORREN:** I copied placement, route relationships, and the marks that mattered. Not every line on the wall. Scale's good enough to compare positions, not good enough to survey from.
+Torren speaks before the room can mistake the copy for more than it is.
+
+**TORREN:** I copied placement, route relationships, and the marks that mattered. Not every line on the wall. Scale's good enough to compare positions and broad footprint. It is not good enough to survey from, and if anyone tries, I will become unpleasant.
+
+**CYANIS:** More unpleasant.
+
+Torren looks at him.
+
+**TORREN:** Correct.
 
 Mirena studies the copy.
 
 **MIRENA:** This is where Caelora is now.
 
-**TORREN:** Same location. The city on the mural is much larger than Caelora is now.
-
-**LYSARA:** Much larger.
-
-A brief silence.
+**TORREN:** Same location. City on the mural is much larger than modern Caelora. We saw enough coming in to confirm the current wall would sit well inside the older footprint.
 
 Mirena looks north of the city representation.
 
@@ -241,57 +323,99 @@ Mirena looks north of the city representation.
 
 **TORREN:** Yes.
 
+A beat.
+
 **MIRENA:** That's our Crest.
 
-**LYSARA:** It is.
+She looks at it again, not treating resemblance as enough.
 
-**OTHMAR:** No ambiguity in the copy?
+**MIRENA:** Not a predecessor mark. The Yahtrean Crest exactly as we use it now.
 
-**TORREN:** None about the mark. That's what was on the wall. What the structure was, I don't know.
+The room gets quieter.
 
-**LYSARA:** Good. You know what you copied. You don't know what it meant. Keep those separate.
+Lysara studies the copied mark, then looks directly at Torren.
 
-**TORREN:** Was planning to.
+**LYSARA:** Harth. How certain?
+
+**TORREN:** About the mark? Certain. About what the structure was, why that Crest is on it, or whether the mark meant then what it means now? I don't know.
+
+**LYSARA:** Good answer.
+
+**TORREN:** Only one I have.
+
+Mirena keeps studying the map.
 
 **MIRENA:** If any of the buried collections under Caelora survived intact, the Old City may have something comparable.
 
-**OTHMAR:** Some of the archives do survive. What they contain is another question.
+**OTHMAR:** Some of the archive levels survive. Their existence is not the same thing as useful records surviving with them.
 
-**LYSARA:** Then it remains a question until we have a reason to answer it properly.
+**MIRENA:** I know.
 
-The report moves on rather than turning the mural into a solved history lesson.
+**LYSARA:** Then we do not turn a field report into an archive expedition before the report is finished.
 
-**MAEVRA:** There's one more part of this. The Card was recovered from the Diysean ruins in the Westways, and it was already being moved toward Caelora under what we understood to be Crown authority.
+Mirena inclines her head.
+
+**MIRENA:** Point taken.
+
+The subject closes because Lysara closes it.
+
+Maevra continues.
+
+**MAEVRA:** One more part. The Card was recovered from the Diysean ruins in the Westways, and before the convoy was hit it was already moving toward Caelora under what we understood to be Crown authority.
 
 Lysara's attention shifts to Cyanis.
 
-**LYSARA:** It remains with you?
+**LYSARA:** It remains with you.
 
 **CYANIS:** Yes.
 
-**LYSARA:** By necessity or preference?
+**LYSARA:** Because you want it there, or because moving it became unsafe?
 
-**ILYRA:** Necessity is safer. We only tested separation once on purpose. His pulse went bad, he started shaking, and the Card answered green and gold toward him. Returning it stopped the response.
+Cyanis answers first because the experience happened to him.
 
-**CYANIS:** I was going to say preference, but apparently I would've been wrong. We decided curiosity had limits.
+**CYANIS:** Unsafe. We separated it from me once at Brackenwall. My pulse dropped, I started shaking, and the Card lit toward me. Putting it back stopped the whole performance.
+
+Ilyra adds the part he cannot assess himself.
+
+**ILYRA:** His pulse recovered after contact was restored. The shaking stopped. We had no reason to repeat an uncontrolled test after that, so we didn't.
+
+**CYANIS:** I was extremely supportive of that decision.
 
 **MAEVRA:** It has stayed with him since.
 
-**OTHMAR:** And the transport toward Caelora was formally authorized?
+Lysara accepts the boundary without turning it into a diagnosis.
 
-**MAEVRA:** That's what the chain said.
+**LYSARA:** Good.
 
-**LYSARA:** Do we have the order?
+Othmar's attention is on a different part of Maevra's report.
+
+**OTHMAR:** The transport toward Caelora was formally authorized?
+
+**MAEVRA:** That's what the chain said. It presented as direct Crown authority, not a local request dressed up with somebody important's name.
+
+Othmar's expression changes slightly.
+
+**OTHMAR:** Do you still have the order?
 
 **MAEVRA:** Yes.
 
-Lysara looks to the attending clerk.
+Lysara looks to the attending clerk before anyone speculates.
 
 **LYSARA:** Bring the original authorization and every document attached to that transport.
 
-**OTHMAR:** Including dispatch routing and expenditure records.
+**OTHMAR:** Routing, escort assignment, expenditures, countersigns—everything that traveled with it.
 
-**LYSARA:** All of it.
+**LYSARA:** Everything.
+
+Cyanis looks between them.
+
+**CYANIS:** That's the first time this room has gotten quieter in a way I don't like.
+
+**MIRENA:** Sensible instinct.
+
+**LYSARA:** Keep it an instinct until we have the paper in front of us.
+
+**CYANIS:** Happily.
 
 The audience shifts from field report to document verification.
 
@@ -307,28 +431,42 @@ Transition directly into:
 
 ---
 
-## Beat-2 production notes
+## Person-Brain performance notes
 
-- Maevra owns the report rather than every participant taking a turn; her field summary now lands in complete report units before questions interrupt it.
-- Ilyra speaks specifically where prisoner condition/testimony provenance belongs to her firsthand role and is allowed to finish the linked testimony/condition thought.
-- Torren owns route and mural evidence and repeatedly distinguishes copied fact from interpretation without being interrogated one clause at a time.
-- Lysara asks consequence/provenance questions and does not yet state her full ignorance of the Card transport.
-- Mirena notices the Old City as a future evidence source without jumping ahead to Nimera.
-- Calder behaves as a credible Chancellor: provenance, records, routing, and documentation matter to him. His deliberate transport minimization is held for Beat 3.
-- the exact modern Yahtrean Crest on the northern Ancient structure is unmistakable but unexplained.
-- Cresthaven is not identified.
-- the audience does not solve the Ancient city's identity/history.
-- the genuine magical royal-seal response has not yet been revealed.
-- no full Card-analysis scene occurs here.
-- the Beat ends on Lysara ordering the physical transport documents produced.
+- Maevra owns the report in complete operational units instead of functioning as a prompt target.
+- Ilyra speaks where prisoner condition and evacuation consequence genuinely belong to her firsthand experience. She does not become the room's general humanitarian commentator.
+- Torren is allowed a full evidence-bound route and mural explanation. His irritation with false precision is part of his personality, not a narration device.
+- Cyanis owns the direct subjective account of the Card-separation event; Ilyra adds the clinical observations he could not reliably make himself. This prevents her from automatically narrating his body for him.
+- Lysara behaves as national authority: she chooses the order of the report, asks only questions that affect judgment, closes premature lines of inquiry, and moves immediately to evidence when the transport authority becomes material.
+- Mirena is perceptive and curious without becoming the scene's omniscient system interpreter. Her immediate recognition of the exact current Yahtrean Crest comes from her lived familiarity with Crown history and presentation, not from ancient-systems expertise.
+- Othmar's attention naturally goes to provenance, routing, expenditure, and documentation. His hidden responsibility is not exposed.
+- interruptions arise from ownership: Torren takes the route floor, Ilyra takes prisoner condition, Cyanis takes his direct Card experience, and Lysara closes topics when they cease to be useful.
+
+## Canon / knowledge check
+
+**PASS — Person-Brain performance pass.**
+
+- the exact modern Yahtrean Crest on the northern Ancient structure is unmistakable but unexplained;
+- Cresthaven is not identified;
+- the audience does not solve the Ancient city's identity/history;
+- the genuine magical royal-seal response has not yet been revealed;
+- Lysara's lack of prior knowledge is held for Beat 3;
+- no full Card-analysis scene occurs here;
+- no culprit is named or implied;
+- no Nimera knowledge is introduced before the proper handoff.
 
 ---
 
-<!-- SOURCE: BEAT_03_IMPOSSIBLE_ORDERS_DRAFT_A.md | BLOB: 009ddbee81a68c75f1c56295e71a5f860c72b117 -->
+## Beat 3
+
+**Atomic source:** `BEAT_03_IMPOSSIBLE_ORDERS_DRAFT_A.md`  
+**Source SHA-256:** `e35611912c111cdf71c3836a6f99b9f285f9d3f19764ca53975f0e149ec2f7c2`
 
 # Chapter 3 — Beat 3
 # The Impossible Orders
-## DIALOGUE ENGINE PRODUCTION DRAFT A — rehearsal-first Agent-Brain pass — NATURAL-TURN RHYTHM PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN — PERSON-BRAIN PERFORMANCE PASS + ROYAL-VOICE POLISH
+
+**Method note:** rerun under `STORY_BEAT_AS_GUARDRAIL_LOCK.md` and `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. The suspect documents, authentication result, Queen-knowledge fact, Card custody outcome, and investigation firewall remain fixed. Person Agent Brains own the route through those facts.
 
 ---
 
@@ -338,29 +476,47 @@ Continue directly from Beat 2 in the same working royal audience.
 
 The original Card-transport authorization and attached routing / expenditure records are placed before the room. Keep the physical presentation ordinary and administrative; the documents should look like real Crown business, not villain props.
 
-**LYSARA:** This is the authorization?
+Lysara reads long enough to understand exactly what the order claims.
 
-**MAEVRA:** Yes.
+Nobody fills the silence for her.
 
-**OTHMAR:** Routing, escort assignment, and expenditure are attached.
+**LYSARA:** I did not issue this.
 
-Lysara reads enough to identify what the order claims.
+A beat.
 
-**LYSARA:** I have never seen any of this. Until this audience, I did not know a Card had been recovered in the Westways. I did not know Solmar had it, I did not know it was being brought to Caelora, and I did not authorize Crown resources to move it here.
+She keeps reading.
 
-Nobody treats forgetfulness as a live explanation.
+**LYSARA:** And I did not know the Card had been recovered until you told me in this room.
 
-**MAEVRA:** The chain presented it as direct Crown authority.
+Maevra's answer is immediate.
 
-**OTHMAR:** Then the expenditure itself is suspect. We do not send escorts and Crown coin chasing an inactive Card because someone found it in a ruin. Somebody made the records say we did.
+**MAEVRA:** The chain presented it as direct Crown authority. Not rumor, not somebody invoking your name. We had authorization, escort assignment, routing, and money attached to it.
 
-**MAEVRA:** Somebody did spend it.
+Othmar pulls the expenditure page closer.
 
-**OTHMAR:** Yes. That distinction matters now.
+**OTHMAR:** Which matters. We do not spend Crown coin and assign escorts to move an inactive Card from a ruin because somebody thinks it might be interesting. Whatever else is wrong here, these records were built to survive ordinary scrutiny.
 
-**MIRENA:** It passed through enough hands to function as an ordinary order.
+**MAEVRA:** Somebody still spent the money.
 
-**OTHMAR:** Which gives us a chain to audit.
+**OTHMAR:** Yes. I am not calling the expenditure imaginary. I am saying the authority behind it now requires proof.
+
+Mirena looks through the routing pages.
+
+**MIRENA:** It passed through enough hands to behave like an ordinary order.
+
+**OTHMAR:** Good. That gives us people, timestamps, countersigns, and accounts to audit instead of one mysterious piece of paper and a room full of guesses.
+
+Cyanis glances at the document.
+
+**CYANIS:** Encouraging way to describe fraud against the Crown.
+
+**OTHMAR:** I prefer problems with records.
+
+**CYANIS:** I believe you.
+
+Lysara sets the page down.
+
+**LYSARA:** Authenticate it.
 
 ### [AUTHENTICATION]
 
@@ -372,45 +528,83 @@ The royal seal mark answers with the recognized magical authority response.
 
 A silence.
 
-**MIRENA:** That's not just the Crest.
+Mirena leans forward slightly.
+
+**MIRENA:** That's not only the printed Crest.
 
 **OTHMAR:** No.
 
+Lysara does not look away from the order.
+
 **LYSARA:** Say it plainly.
 
-**OTHMAR:** The order carries the genuine authority response of your personal royal seal.
+**OTHMAR:** By the checks we use, this document carries the genuine authority response of your personal royal seal.
 
-Lysara looks at the document.
+Lysara looks at him now.
 
-**LYSARA:** I did not seal this, and I did not authorize anyone to seal it for me.
+**LYSARA:** I did not seal it. I did not order anyone to seal it for me. I did not authorize this transport.
+
+No one rushes to explain the contradiction.
+
+Mirena is first to test the boundary.
 
 **MIRENA:** Could the response itself be copied?
 
-**OTHMAR:** Not by anything our authentication practice recognizes as an ordinary forgery. That does not make every other mechanism impossible; it means this is outside what our normal checks are designed to catch.
+Othmar takes a moment before answering.
 
-**TORREN:** So we know the response is real. Not how it got there.
+**OTHMAR:** Not by anything our ordinary authentication practice recognizes as forgery. That is the useful answer. The less useful answer is that I cannot turn `our checks do not know how` into `there is no way.`
 
-**OTHMAR:** Correct.
+Torren looks at the document.
 
-**MAEVRA:** Then everyone in that transport chain trusted exactly what they were trained to trust.
+**TORREN:** So response is real. Mechanism isn't.
 
-**LYSARA:** Yes. You were supposed to trust that response. So was everyone after you.
+**OTHMAR:** Mechanism is unknown.
 
-No accusation follows. The problem remains the authority response itself.
+**TORREN:** Better.
+
+Maevra's attention stays on the transport chain rather than the magic.
+
+**MAEVRA:** Then everyone who handled this did exactly what they were trained to do. They saw valid authority and moved the Card.
+
+Lysara answers before guilt can migrate onto the wrong people.
+
+**LYSARA:** Then they acted under Crown authority as they reasonably understood it. Nobody in that chain is to be treated as culpable for obeying a document our own systems accepted unless the audit gives us evidence otherwise.
+
+**MIRENA:** That includes whoever countersigned downstream.
+
+**LYSARA:** It includes everyone until evidence makes a distinction.
+
+The ruling ends that question.
 
 ### [THE CARD]
 
-**MIRENA:** Then the Card's custody is part of the same problem.
+Mirena looks toward Cyanis's Card.
 
-**ILYRA:** Moving it is a separate risk. The one deliberate separation we tried made Cyanis ill and made the Card respond; returning it stopped both. Nothing like that has happened while it stays with him.
+**MIRENA:** Which leaves the object the false order was trying to move.
 
-**LYSARA:** Dovaren. Any change since Brackenwall?
+Cyanis catches the direction of the conversation.
 
-**CYANIS:** No.
+**CYANIS:** If the next suggestion is `move it somewhere secure`, I should mention that Brackenwall already made that unpleasant.
 
-A beat.
+**ILYRA:** Very unpleasant.
 
-**LYSARA:** Then it stays with him.
+**LYSARA:** I heard the report.
+
+She looks directly at Cyanis.
+
+**LYSARA:** Any change since the separation attempt?
+
+**CYANIS:** Nothing comparable. It stays with me; I stay upright. I'm comfortable preserving that arrangement until somebody has a better idea.
+
+**ILYRA:** I am also comfortable not recreating the part where his pulse dropped.
+
+Her contribution is dry agreement with a known practical boundary, not automatic control of the decision.
+
+Lysara decides.
+
+**LYSARA:** Then the Card stays where it is. Solmar retains responsibility for its custody. Nobody moves it merely because the palace is more secure than a road.
+
+**MAEVRA:** Understood.
 
 **CYANIS:** Works for me.
 
@@ -418,23 +612,33 @@ A beat.
 
 **CYANIS:** Still works for me.
 
-Mirena almost smiles, but the room stays on the problem.
-
-**LYSARA:** Solmar remains responsible for its handling. We are not creating a second unknown merely to make the paperwork tidy.
-
-**MAEVRA:** Understood.
+Mirena almost smiles.
 
 ### [EVIDENCE / NEXT STEP]
 
-**MIRENA:** Originals secured. Routing, expenditures, countersigns, everyone who handled the chain.
+Mirena gathers the routing pages into a cleaner order.
 
-**OTHMAR:** And legitimate sealed orders from the same period for comparison.
+**MIRENA:** Originals secured. I want every hand in the chain, every routing change, every expenditure, and every countersign. If something looked ordinary because five ordinary systems agreed with one another, I want to know where the agreement started.
 
-**LYSARA:** Yes. Then my seal—now. I want the physical seal, its custody record, its recent legitimate uses, and the names of everyone permitted near it.
+**OTHMAR:** And legitimate sealed orders from the same period. Similar offices, similar routing if possible. We need comparison, not intuition.
+
+Lysara looks at Othmar.
+
+**LYSARA:** My physical seal. Bring it with the full custody record and every recorded use from the same period.
 
 **OTHMAR:** I'll have the verification room prepared.
 
-**LYSARA:** Good. And nobody becomes guilty because their name appears in a ledger. We start with what we can prove.
+**CYANIS:** What are we hoping for?
+
+Lysara answers without pretending optimism.
+
+**LYSARA:** Something we can prove.
+
+A beat.
+
+**LYSARA:** Until then: no accusations. Not against seal staff, not against the transport chain, not against anyone whose name happens to appear on a page. We follow evidence, or we make this worse ourselves.
+
+Nobody argues.
 
 The scene ends on controlled investigation rather than accusation.
 
@@ -448,28 +652,42 @@ Transition directly into:
 
 ---
 
-## Beat-3 production notes
+## Person-Brain performance notes
 
-- Lysara's lack of prior knowledge is direct and unambiguous and now lands as one complete statement rather than several mechanically separated boxes; nobody seriously proposes that she forgot authorizing the transport.
-- Calder's minimization reads as competent fiscal / administrative skepticism and does not expose his hidden responsibility for ordering the Card brought toward Caelora.
-- authentication establishes the genuine magical authority response of Lysara's personal seal, not merely a convincing visual Crest.
-- the scene does not decide whether the physical seal was accessed, removed, copied, remotely invoked, echoed, or otherwise reproduced.
-- Torren contributes only the evidence distinction: genuine response does not equal known mechanism.
-- Maevra is explicitly cleared of any implication that she should have ignored apparently genuine royal authority.
-- Cyanis remains physically in possession of the Card because moving it would introduce a known practical risk; this is not bearer confirmation.
-- the originals and attached records remain intact as evidence.
-- no culprit is named.
-- Beat 4 owns examination of the actual physical royal seal and its custody.
+- Lysara owns the contradiction and the legal response to it. Her authority is expressed through decisive evidentiary boundaries rather than repeated exposition.
+- Maevra protects the field chain because she understands what the order looked like in operation; she does not speculate about how the fraud worked.
+- Othmar holds the floor naturally on records, expenditures, authentication limits, and audit methodology. His hidden responsibility remains fully firewalled.
+- Mirena pushes on the mechanism question without becoming a lie detector or system oracle.
+- Torren contributes one distinction that genuinely fits him: observed genuine response is not the same thing as known mechanism. He corrects wording rather than claiming magical-seal expertise.
+- Cyanis owns his willingness to keep the Card where it is; Ilyra adds a dry firsthand reason not to repeat the separation rather than becoming the automatic safety authority.
+- the transport chain is cleared provisionally by Lysara's judgment, not by authorial narration.
+- conversational ownership is deliberately uneven: Lysara, Othmar, and Maevra dominate because this is their institutional/operational problem; the permanent party does not receive equal ceremonial turns.
+
+## Canon / knowledge check
+
+**PASS — Person-Brain performance pass.**
+
+- Lysara did not know the Card had been recovered before this audience.
+- the suspect authorization produces the genuine authority response of Lysara's personal royal seal.
+- nobody knows how that response got onto the document.
+- the physical seal has not yet been examined in this beat.
+- no culprit is named or implied.
+- no physical-seal access, remote invocation, copied response, substitution, or other mechanism is promoted to fact.
+- Cyanis retains the Card because moving it presents a known practical risk; this is not bearer confirmation.
+- Beat 4 owns the physical-seal and custody examination.
 
 ---
 
-<!-- SOURCE: BEAT_04_SEAL_NOT_USED_DRAFT_A.md | BLOB: c32fe7a23c554d83bc483fffa2e13cc158bab496 -->
+## Beat 4
+
+**Atomic source:** `BEAT_04_SEAL_NOT_USED_DRAFT_A.md`  
+**Source SHA-256:** `dae8d14b9cff7e89ed09a35f685d65d6bf72efecf9e15d2d6a98f09042b680e5`
 
 # Chapter 3 — Beat 4
 # The Seal That Wasn't Used
-## DIALOGUE ENGINE PRODUCTION DRAFT A — CLOSING-AUDIT AGENT-BRAIN RERUN
+## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN — PERSON-BRAIN PERFORMANCE PASS + ROYAL-VOICE POLISH
 
-**Method note:** fresh rehearsal under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The structural authority supplied the verification-room situation, hard findings, investigation split, and reveal firewalls. It did not prescribe speaker order, evidence-checklist dialogue, or which character had to verbalize each remaining possibility.
+**Method note:** fresh rehearsal under `STORY_BEAT_AS_GUARDRAIL_LOCK.md` and `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Structural authority supplies the verification-room situation, hard findings, investigation split, and reveal firewalls. Speaker order, floor ownership, interruption, and ordinary personality come from the Person Agent Brains and Dialogue Editor.
 
 ---
 
@@ -496,7 +714,7 @@ She looks at it once.
 
 Othmar checks the casing, face, and documented custody condition.
 
-**OTHMAR:** No visible replacement. No reported damage.
+**OTHMAR:** No visible replacement. No reported damage. Casing record is continuous.
 
 **LYSARA:** Test it.
 
@@ -510,7 +728,7 @@ Othmar watches the response settle.
 
 Mirena looks from the seal to the suspect Card-transport order.
 
-**MIRENA:** Same check.
+**MIRENA:** Same check on the transport order.
 
 The suspect order is tested.
 
@@ -518,23 +736,29 @@ The same recognized core authority response answers from the document.
 
 The room goes quiet.
 
+Cyanis stares at the two results.
+
 **CYANIS:** That's inconvenient.
 
-**MIRENA:** That's one word for it.
+**MIRENA:** Generous wording.
 
-**LYSARA:** Othmar.
+Lysara looks to Othmar.
 
-**OTHMAR:** The response is genuine by every Crown check we use.
+**LYSARA:** Give me the useful version, not the comforting one.
 
-**LYSARA:** And the seal in front of us still works for me.
+Othmar takes the floor because this is his domain.
 
-**OTHMAR:** Yes.
+**OTHMAR:** Useful version: your physical seal is here, appears intact, and still produces its normal authority response. The transport order produces the same recognized core response despite your statement that you never authorized it. Our ordinary verification procedure therefore accepts both. I cannot honestly make those facts agree for you yet.
 
-Lysara looks at the suspect order again.
+**LYSARA:** Good. Don't.
 
-**LYSARA:** Fine.
+Torren glances at her.
 
-It is very clearly not fine.
+**TORREN:** Good?
+
+**LYSARA:** Better an honest contradiction than a convenient answer built to remove one.
+
+**TORREN:** Fair.
 
 ### [CUSTODY]
 
@@ -542,43 +766,51 @@ Othmar pulls the custody ledger closer.
 
 Mirena has already been reading the recent-use record.
 
-**MIRENA:** Nothing missing?
+**MIRENA:** Walk me through the gap problem.
 
-**OTHMAR:** Not on paper.
+**OTHMAR:** There is no clean documented interval where the seal leaves custody, disappears from record, and conveniently returns before the next verified use. That is all I can prove from the ledger.
 
-Torren looks up at that wording.
+Torren looks up at the wording.
 
-Othmar notices.
+Othmar catches it immediately.
 
-**OTHMAR:** Yes, Harth. On paper.
+**OTHMAR:** Yes, Harth. `From the ledger.`
 
-Torren nods once and leaves it there.
+**TORREN:** Wasn't going to argue.
+
+**OTHMAR:** You had the face.
+
+**TORREN:** I have one face.
+
+Cyanis looks at Ilyra.
+
+**CYANIS:** He's been saving that.
+
+**ILYRA:** Worth it.
+
+Othmar ignores them with practiced administrative dignity.
 
 Maevra scans the dates.
 
-**MAEVRA:** Any stretch where it could've left and come back before the next recorded use?
+**MAEVRA:** Could somebody have gotten physical access without creating a clean absence? Staff handoff, legitimate room access, anything that doesn't require the seal vanishing for half a day?
 
-**OTHMAR:** Nothing clean.
+**OTHMAR:** Possible is too cheap a word here. I can tell you the record does not prove such access occurred.
 
-**MIRENA:** Clean isn't the same as none.
+**MIRENA:** So the record is clean. The situation isn't.
 
-**OTHMAR:** No.
+**OTHMAR:** Correct.
 
 Lysara folds her hands on the table.
 
-**LYSARA:** Can any of you tell me whether someone reached this seal without being recorded?
+**LYSARA:** Can anyone in this room prove unrecorded physical access?
 
-No one answers immediately.
+No one answers.
 
-**OTHMAR:** No.
+**LYSARA:** Can anyone prove the false order required physical access to the seal at all?
 
-**LYSARA:** Can any of you tell me they had to?
+Again, no one answers.
 
-Another silence.
-
-**OTHMAR:** No.
-
-**LYSARA:** Good. Then we don't invent certainty because I dislike the alternatives.
+**LYSARA:** Then neither proposition leaves this room as fact. We investigate both only where evidence gives us something to investigate.
 
 That ends the hypothesis discussion.
 
@@ -586,19 +818,19 @@ No one accuses the seal staff. No one proposes testing the Card against the seal
 
 ### [WHO MIGHT ACTUALLY HELP]
 
-Mirena leans back from the custody ledger.
+Mirena leans back from the custody ledger, frustrated rather than defeated.
 
-**MIRENA:** We're very good at telling ourselves what a royal seal is supposed to do.
+**MIRENA:** We're very good at proving a royal seal behaved like a royal seal.
 
-**CYANIS:** Encouraging.
+**CYANIS:** That sounded less impressive than I expected.
 
-**MIRENA:** It wasn't meant to be.
+**MIRENA:** At the moment, it is.
 
 She taps the edge of the suspect order.
 
-**MIRENA:** I want somebody who spends her life with old magical objects nobody understands properly.
+**MIRENA:** I want somebody whose work begins where our normal assumptions stop being useful. Old magical objects, damaged provenance, systems nobody can explain cleanly from current practice.
 
-Othmar knows where she is going.
+Othmar knows where she is going before she says the name.
 
 **OTHMAR:** Pellan.
 
@@ -608,45 +840,61 @@ Othmar knows where she is going.
 
 **TORREN:** Good?
 
+Mirena gives him a look.
+
 **MIRENA:** Annoyingly.
 
-**LYSARA:** Does she need the originals?
+**ILYRA:** That sounded personal.
 
-**MIRENA:** No.
+**MIRENA:** It is professional admiration expressed honestly.
 
-Othmar closes one ledger.
+**ILYRA:** Ah. Worse.
 
-**OTHMAR:** Authenticated copies. Verification notes. Nothing that requires the physical seal to leave this room.
+Mirena almost smiles.
 
-**LYSARA:** Agreed.
+Lysara brings the room back to the evidence.
 
-Ilyra glances at Cyanis's Card.
+**LYSARA:** What does Pellan need?
 
-**ILYRA:** And no experiment involving that.
+**MIRENA:** Authenticated copies, the verification notes, and a look at the Card as it currently exists with Dovaren. She does not need your physical seal.
 
-Lysara follows her look.
+**OTHMAR:** Agreed. Originals stay here. Physical seal stays here. Copies can be marked and tracked.
 
-**LYSARA:** Also agreed.
+**LYSARA:** Then that is what she gets.
 
-**CYANIS:** Glad everyone keeps having that thought before I do.
+She looks to Cyanis.
 
-**ILYRA:** Someone has to.
+**LYSARA:** The Card remains in your custody exactly as it is now. Pellan may observe it. Nobody separates it from you, tests it against another authority object, or invents a clever variation because a scholar becomes curious.
+
+Cyanis nods.
+
+**CYANIS:** Strongly agreed.
+
+**ILYRA:** See? He can set his own boundaries.
+
+Cyanis looks at her.
+
+**CYANIS:** I've been practicing.
+
+**ILYRA:** Proud of you.
+
+The joke is brief and the boundary remains Crown-owned, not Ilyra-owned.
 
 ### [THE SPLIT]
 
 Mirena gathers the Crown-side records she still wants to work through.
 
-**MIRENA:** Maevra, stay with me. The transport chain is still ours to pull apart.
+**MIRENA:** Maevra, stay with me. The transport chain is still ours to pull apart, and you know where field procedure matched the paperwork better than anyone in this room.
 
-**MAEVRA:** Fine by me.
+**MAEVRA:** Fine by me. I'd like to know who taught a false order to look that boring.
 
-Lysara looks to Cyanis, Ilyra, and Torren.
+**OTHMAR:** Boring is usually what makes a good administrative fraud useful.
 
-**LYSARA:** Take the Card and the permitted copies to Pellan. Mirena will authorize the archive levels you need.
+**MAEVRA:** See? This is why I'm staying with the fun group.
 
-**CYANIS:** Understood.
+Cyanis looks at the stacks of records.
 
-Maevra looks at him.
+**CYANIS:** Your definition of fun concerns me.
 
 **MAEVRA:** Enjoy the basement.
 
@@ -656,15 +904,31 @@ Maevra looks at him.
 
 Cyanis looks mildly offended by the sincerity of that answer.
 
-Torren is already ready to move.
+Lysara looks to Cyanis, Ilyra, and Torren.
+
+**LYSARA:** Dovaren. Amarin. Harth. Take the Card and the authenticated copies to Pellan. Mirena's authorization opens the archive levels you need. Nothing beyond that becomes permission by implication.
 
 **TORREN:** Old City.
 
-**MIRENA:** Find Pellan. Show her what we actually have.
+**MIRENA:** Find Pellan. Show her what we actually have, including what we *don't* know.
 
 A beat.
 
-**MIRENA:** Then let her tell us what it's worth.
+**MIRENA:** Then let her tell us what any of it is worth.
+
+**ILYRA:** Assuming she survives meeting Harth's notation.
+
+Torren looks at her.
+
+**TORREN:** What notation?
+
+**ILYRA:** I have no idea. Felt safe.
+
+**CYANIS:** She's learning from Maevra.
+
+**MAEVRA:** Finally, a useful legacy.
+
+The conversation ends before the room turns the departure into another briefing.
 
 ### [STORY HANDOFF]
 
@@ -682,27 +946,43 @@ Transition into:
 
 ---
 
-## Beat-4 closing-audit notes
+## Person-Brain performance notes
 
-- This replaces the earlier checklist-driven version with a fresh Agent-Brain rehearsal.
-- The physical seal is present, intact, and still answers normally for Lysara.
-- The suspect order still produces the same recognized royal authority response.
-- The custody record provides no clean theft-and-return window but is not treated as proof that covert access was impossible.
-- The scene does not have multiple characters recite the two remaining mechanism categories; Lysara asks what can actually be known and stops the room from manufacturing certainty.
-- Othmar behaves as a credible records/authentication expert without exposing his hidden role.
-- Mirena reaches for Nimera because current Crown expertise has hit a real boundary, not because the plot needs the next NPC.
-- Maevra remains socially present but does not become an exposition channel.
-- Ilyra speaks only where the live Card-risk boundary matters.
-- no Card/seal experiment occurs.
-- Maevra + Mirena remain in Caelora; Cyanis + Ilyra + Torren go to find Nimera.
+- Othmar is allowed a complete expert explanation of what the verification can and cannot establish instead of being reduced to one-word test results.
+- Lysara accepts contradiction without forcing a premature mechanism. She defines what the investigation may call fact and owns the no-experiment boundary as Crown authority.
+- Maevra asks about practical physical access because operational procedure is her lane; she does not become a seal theorist.
+- Torren responds to evidentiary wording and uncertainty without pretending expertise in royal magic.
+- Mirena reaches for Nimera because Crown expertise has hit a real boundary, not because the plot requires the next party member. Her response to the custody ledger stays focused on what a clean official record does and does not mean for Crown trust, rather than drifting into Nimera-style technical evidentiary phrasing.
+- Ilyra is not the automatic safety monitor. She participates socially, needles Mirena and Cyanis, and lets Cyanis state his own boundary about the Card.
+- the Maevra/Mirena split reads as two competent people continuing their own work rather than removing Maevra mechanically from the field party.
+- conversational participation is intentionally uneven; the Crown-side experts own most of this scene.
+
+## Canon / knowledge check
+
+**PASS — Person-Brain performance pass.**
+
+- the physical seal is present, intact, and still answers normally for Lysara;
+- the suspect order still produces the same recognized royal authority response;
+- the custody record provides no clean theft-and-return window but does not prove covert access impossible;
+- no mechanism for the false authority response is promoted to fact;
+- no one accuses seal staff or any other culprit;
+- no Card/seal experiment occurs;
+- only copies and verification notes leave the palace;
+- Maevra + Mirena remain in Caelora;
+- Cyanis + Ilyra + Torren go to find Nimera.
 
 ---
 
-<!-- SOURCE: BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md | BLOB: 416ad399e94041031eec7fa0bc77193225bb39ac -->
+## Beat 5
+
+**Atomic source:** `BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md`  
+**Source SHA-256:** `2bffb1d87b0262943936635678193cb9e3748b68a9908faa3b2c583b2df81bfb`
 
 # Chapter 3 — Beat 5
 # Old City Access / Archive Descent
-## DIALOGUE ENGINE PRODUCTION DRAFT A — rehearsal-first Agent-Brain pass / awaiting user approval
+## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN — PERSON-BRAIN PERFORMANCE PASS
+
+**Method note:** rerun under `STORY_BEAT_AS_GUARDRAIL_LOCK.md` and `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. The lawful archive access, maintained-to-Ancient transition, party state, Nimera destination, and reveal firewalls remain fixed. Person Agent Brains determine conversational ownership and rhythm.
 
 ---
 
@@ -725,6 +1005,8 @@ Player control pauses briefly.
 
 An unnamed Old City archive keeper verifies Mirena's authorization. The exchange is procedural rather than adversarial.
 
+The keeper looks from the authorization to the three names.
+
 **ARCHIVE KEEPER:** Dovaren. Amarin. Harth.
 
 **CYANIS:** That's us.
@@ -733,31 +1015,47 @@ An unnamed Old City archive keeper verifies Mirena's authorization. The exchange
 
 **CYANIS:** That's the idea.
 
-**ARCHIVE KEEPER:** She's working below the maintained stacks.
+**ARCHIVE KEEPER:** She's below the maintained stacks. Deeper work section.
 
-**ILYRA:** How far below?
+Torren looks past the desk toward the descent rather than asking a social question.
 
-**ARCHIVE KEEPER:** Far enough that I stop calling all of it maintained.
+**TORREN:** How much of the route do you actually maintain?
 
-A beat.
+The keeper answers like someone who has had to make that distinction before.
 
-**TORREN:** What do you maintain?
+**ARCHIVE KEEPER:** Routes we use. Doors we understand. Repairs we know won't interfere with older work. Wards we know how to leave alone. Past that, `maintained` starts becoming a dangerous word.
 
-**ARCHIVE KEEPER:** Routes. Doors we understand. Wards we know how to leave alone.
+Torren nods once.
 
 **TORREN:** Better answer than I expected.
 
 **ARCHIVE KEEPER:** It's kept me employed.
 
+**ILYRA:** High praise for institutional caution.
+
+**ARCHIVE KEEPER:** Down here, caution gets promoted faster than confidence.
+
+Cyanis glances at Ilyra.
+
+**CYANIS:** I like this place already.
+
+**ILYRA:** Give it time.
+
 The keeper indicates the approved descent route. No elaborate map or prop animation is needed.
 
-**ARCHIVE KEEPER:** Pellan has clearance for the deeper work section. So do you, for this investigation.
+**ARCHIVE KEEPER:** Pellan has clearance for the deeper work section. So do you, for this investigation. Follow the marked route. If something is sealed, leave it sealed. If the marked route and the room disagree, the room wins and you come back.
 
-**ARCHIVE KEEPER:** Follow the marked safe way. If something is sealed, leave it sealed.
+Torren looks at the keeper with immediate approval.
 
-**CYANIS:** Wasn't planning to improve the archive.
+**TORREN:** Definitely better than expected.
 
-**ARCHIVE KEEPER:** Good. Scholars keep doing that.
+**CYANIS:** That's practically affection from him.
+
+**TORREN:** No.
+
+**ARCHIVE KEEPER:** I'll survive.
+
+**ILYRA:** Also high praise.
 
 The keeper returns to ordinary work.
 
@@ -785,25 +1083,39 @@ At the point where the Crown's obvious repairs and adapted archive fittings stop
 
 Torren, Ilyra, and Cyanis may appear as field models for the stop.
 
+Torren takes in the join between current Crown work and the older structure.
+
 **TORREN:** Crown work stops here.
 
 **CYANIS:** You can tell that quickly?
 
-**TORREN:** New mortar stops. New braces stop. Old stone doesn't.
+Torren does not reduce the answer to one clue.
 
-Ilyra looks down the approved route.
+**TORREN:** New mortar ends at that seam. Same with the braces. Crown floor repair stops three paces behind us, but the old fitted stone keeps going without a break. Whoever adapted the upper rooms worked *into* this structure. They didn't rebuild this part.
 
-**ILYRA:** Still marked safe?
+Cyanis looks down the marked route.
 
-**TORREN:** Marked safe.
+**CYANIS:** And the route is still approved.
 
-A beat.
+**TORREN:** Marked approved. That's a record of somebody checking it, not a promise the building signed.
 
-**TORREN:** Different claim.
+**ILYRA:** You've known the archive keeper for thirty seconds and already stolen their philosophy.
 
-**CYANIS:** Good. I was worried this was getting comfortable.
+**TORREN:** Good philosophy.
 
-The scene ends immediately.
+**ILYRA:** I know. That's what makes it irritating.
+
+Cyanis looks from one to the other.
+
+**CYANIS:** I preferred when only Maevra did this with him.
+
+**TORREN:** Did what?
+
+**ILYRA:** Encourage him accidentally.
+
+**TORREN:** Keep moving.
+
+The scene ends because Torren has already supplied the useful distinction.
 
 ### [GAMEPLAY — DIYSEAN DESCENT]
 
@@ -823,6 +1135,38 @@ Do not explain what every mechanism does. The Crown's inability to master the fu
 
 No mandatory combat or major revelation belongs to this beat.
 
+Most of the descent remains silent.
+
+Near the deeper work section, Cyanis looks at another sealed side passage as they pass it.
+
+**CYANIS:** Nobody curious?
+
+**TORREN:** About what?
+
+**CYANIS:** Door nobody understands in an ancient archive.
+
+**ILYRA:** Extremely curious.
+
+Cyanis waits.
+
+**ILYRA:** Still not opening it.
+
+**CYANIS:** I didn't say we should.
+
+**ILYRA:** Neither did I. See? Growth everywhere.
+
+Torren keeps walking.
+
+**TORREN:** Marked route's left.
+
+**CYANIS:** And there goes wonder.
+
+**TORREN:** Wonder can turn left.
+
+Ilyra laughs.
+
+The exchange is social curiosity, not a safety lecture. Nobody touches the sealed passage.
+
 ### [STORY HANDOFF — DEEPER WORK SECTION]
 
 The marked route reaches the deeper archive work section identified by the keeper as Nimera Pellan's current location.
@@ -835,27 +1179,40 @@ Transition directly into:
 
 ---
 
-## Beat-5 production notes
+## Person-Brain performance notes
 
-- Maevra is absent and remains with Mirena in Caelora.
-- the trio is intentionally looking for Nimera Pellan by name.
-- lawful archive authorization is normal restricted-area procedure, not a movement writ or detention mechanic.
-- the archive keeper is competent and profile-only; no recurring NPC identity is created.
-- the Crown visibly uses and maintains upper Old City archive areas without pretending to master the whole complex.
-- most of the beat is exploration, not conversation.
-- Torren gets one bounded physical observation at the modern-to-Ancient transition rather than becoming an Ancient-history expert.
-- Old City presentation remains handcrafted magical fantasy, never software / terminal / network language.
-- no Nimera recruitment, Card classification, seal solution, Prime / Might / Last Sentinel reveal, or Cresthaven identification occurs here.
+- the archive keeper is allowed a complete practical philosophy of what Crown maintenance does and does not mean; this makes the institution feel competent without inventing a recurring NPC.
+- Torren naturally latches onto that distinction because routes, maintenance boundaries, physical joins, and confidence limits are his domain. He is allowed to explain the maintained edge as a complete observation rather than answering one clue at a time.
+- Cyanis keeps the conversation human through dry curiosity but does not become an Ancient-systems investigator.
+- Ilyra participates through humor and genuine curiosity. She does not ask the default `is it safe?` question or become the automatic person policing whether others touch things.
+- the brief sealed-door exchange proves Ilyra can be curious about an unknown object without her curiosity becoming recklessness or medical/safety management.
+- most traversal remains silent; the pass does not mistake Person-Brain performance for constant banter.
+- Maevra's absence remains meaningful because she is continuing the Crown-side investigation with Mirena.
+
+## Canon / knowledge check
+
+**PASS — Person-Brain performance pass.**
+
+- lawful archive authorization remains normal restricted-area procedure, not detention or movement control;
+- the Crown visibly maintains upper Old City areas without pretending to master the buried complex;
+- the trio is intentionally looking for Nimera Pellan by name;
+- no Nimera recruitment occurs here;
+- no Card classification, seal solution, Prime / Might / Last Sentinel reveal, or Cresthaven identification occurs here;
+- no sealed side route is opened and no new ancient mechanism is explained;
+- Beat 6 retains Nimera's full introduction and the barrier problem.
 
 ---
 
-<!-- SOURCE: BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md | BLOB: 1d421690ce3e6680e6c7c5833a7c8b9ba12f07cb -->
+## Beat 6
+
+**Atomic source:** `BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md`  
+**Source SHA-256:** `5102532c8dee67fc6cfb82d7cead216c6d86a92d0a8d388ae6bee366db1b8892`
 
 # Chapter 3 — Beat 6
 # Scholar in Redacted Stacks
-## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN
+## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
-**Method note:** rerun under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. Structural authority supplies the situation, hard outcomes, and reveal boundaries only. The conversational route below comes from the participating Person Agent Brains and the Dialogue Editor.
+**Method note:** rerun under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, and current Ilyra character authority. Structural authority supplies the situation, hard outcomes, and reveal boundaries only. The conversational route comes from the participating Person Agent Brains and the Dialogue Editor. Ilyra's medical competence is used only where the trapped-person / Card-history facts genuinely make it relevant; Grace does not assign her the scene's safety or caretaker role.
 
 ---
 
@@ -869,25 +1226,29 @@ She is very obviously awake and busy.
 
 Before Cyanis can get close to the barrier:
 
-**NIMERA:** Don't touch that.
+**NIMERA:** Don't touch that—no, actually, don't touch anything near the frame. I don't know which part of this fucking thing decided to become a wall and I'd rather not discover a second opinion.
+
+Cyanis stops with one hand still half-raised.
 
 **CYANIS:** Wasn't going to.
 
-**NIMERA:** Good.
+**NIMERA:** You were absolutely going to.
 
-A beat.
+**CYANIS:** I was looking.
 
-**NIMERA:** It moved when I did.
+**NIMERA:** With your hand.
 
-Torren looks over the frame rather than the woman behind it.
+Torren ignores both of them and studies the frame.
 
 **TORREN:** What moved first?
 
-**NIMERA:** Three plates. Then the wall decided I lived here now.
+Nimera turns immediately toward the useful question.
+
+**NIMERA:** Three plates. I stepped past the second worktable, heard stone move behind me, turned around, and the wall had apparently decided I lived here now. Which is rude, because the lighting is terrible.
 
 **TORREN:** Three on your side?
 
-**NIMERA:** Three I can see.
+**NIMERA:** Three I can see. There may be more because, as established, the wall is an asshole.
 
 **TORREN:** There's another one here.
 
@@ -899,17 +1260,15 @@ Silence.
 
 Nimera shifts position, trying to find an angle that does not exist from inside.
 
-**NIMERA:** Of course there fucking is.
+**NIMERA:** Of course there fucking is. Of course somebody put a modern brace over the one part I need to see.
 
-**ILYRA:** You hurt?
+Ilyra looks her over once.
 
-**NIMERA:** No.
+**ILYRA:** You're loud enough to be alive. Hurt?
 
-**ILYRA:** All right.
+**NIMERA:** No. Annoyed, trapped, and developing opinions about municipal restoration, but not hurt.
 
-**NIMERA:** That's it?
-
-**ILYRA:** You said no.
+**ILYRA:** Good. Then I can enjoy this properly.
 
 Nimera considers her for half a second.
 
@@ -917,7 +1276,9 @@ Nimera considers her for half a second.
 
 ### [WHO ARE YOU PEOPLE]
 
-**NIMERA:** You're not archive staff.
+Nimera looks past Ilyra to Cyanis and Torren.
+
+**NIMERA:** You're not archive staff. Archive staff would have started by apologizing for the brace.
 
 **CYANIS:** Cyanis Dovaren. Ilyra Amarin. Torren Harth.
 
@@ -931,15 +1292,21 @@ Torren finally looks at her.
 
 **TORREN:** Very.
 
-**NIMERA:** Then yes.
+**NIMERA:** Then yes. Your notation on the western survey copies is infuriating.
 
-Cyanis cuts in before that becomes its own argument.
+**TORREN:** Mine?
+
+**NIMERA:** Unless another Harth writes directional margins like he's being charged by the word.
+
+**TORREN:** Saves space.
+
+**NIMERA:** It destroys context.
 
 **CYANIS:** Mirena sent us.
 
-That gets Nimera's full attention.
+Nimera stops without actually conceding the argument.
 
-**NIMERA:** Why?
+**NIMERA:** We'll come back to that. Why?
 
 Cyanis brings the Card into view without offering it through the barrier.
 
@@ -949,19 +1316,23 @@ Nimera goes quiet.
 
 **CYANIS:** Familiar?
 
-**NIMERA:** No.
+**NIMERA:** No. Which is—wait, don't move it. That's much more interesting.
 
 She leans closer from her side.
 
-**NIMERA:** Which is much more interesting.
+**CYANIS:** We separated once at Brackenwall. I got cold, shaky, and generally terrible. My pulse dropped—she can give you the useful version because I was busy experiencing it. The Card lit green and gold toward me. Putting it back stopped the whole thing.
 
-**ILYRA:** It has reacted green and gold more than once. When it was deliberately separated from him, his pulse dropped, he started shaking, and the Card answered toward him. Putting it back stopped both.
-
-Nimera's attention moves between Ilyra and the Card.
+**ILYRA:** Pulse definitely dropped. Contact restored, pulse recovered. Shaking stopped. We didn't repeat it.
 
 **NIMERA:** How far apart?
 
 **CYANIS:** Not far.
+
+**NIMERA:** "Not far" is not a distance.
+
+**CYANIS:** We were busy keeping me conscious.
+
+**NIMERA:** Right. Staying conscious outranked measuring the fucking gap.
 
 **NIMERA:** Contact broken completely?
 
@@ -969,19 +1340,19 @@ Nimera's attention moves between Ilyra and the Card.
 
 **NIMERA:** And nobody tried it again.
 
-**ILYRA:** Correct.
+**CYANIS:** No. I was extremely supportive of that decision.
 
-**NIMERA:** Excellent.
+**NIMERA:** Excellent. Genuinely excellent. I know that should be ordinary competence, but I work with scholars and you would be amazed how many people hear "unknown magical response" and immediately decide repetition is methodology.
 
 **CYANIS:** You sound surprised.
 
-**NIMERA:** I work with scholars.
+**NIMERA:** I am constantly surprised and almost never pleasantly.
 
 ### [THE OTHER REASON]
 
 Nimera is still looking at the Card.
 
-**NIMERA:** Mirena doesn't send three armed people into restricted stacks because a Card is strange.
+**NIMERA:** Mirena doesn't send three armed people into restricted stacks because a Card is strange. Strange is half the storage problem down here. What else?
 
 **TORREN:** Orders moving it toward Caelora answered to the Queen's personal seal.
 
@@ -1005,19 +1376,39 @@ A beat.
 
 **TORREN:** No clean gap in the custody record either.
 
-Nimera catches the wording.
+Nimera's focus snaps to him.
 
 **NIMERA:** Record.
 
 **TORREN:** Yes.
 
-Nimera thinks for a moment, then stops herself before the thought becomes a conclusion.
+**NIMERA:** No, I heard you. I'm objecting to what that sentence wants to become. "No gap in the record" means the record has no gap. It does not mean there was no access, no substitution, no bad witness, no copied entry, no person everybody trusted too much—
+
+**CYANIS:** Pellan.
+
+**NIMERA:** I'm almost done.
+
+**CYANIS:** You weren't.
+
+**NIMERA:** I was approaching done. The point is: clean record, not proven clean custody.
+
+**TORREN:** Agreed.
+
+Nimera blinks.
+
+**NIMERA:** Oh. Good. That was going to be a much longer argument.
+
+**TORREN:** Saved you the effort.
+
+**NIMERA:** Don't get used to it.
+
+She looks back to the Card.
 
 **NIMERA:** I have questions.
 
 **CYANIS:** That's why we're here.
 
-**NIMERA:** No, I mean I have too many questions and a wall in the way.
+**NIMERA:** No, I mean I have too many questions, three bad categories, at least one royal-security problem, and a fucking wall in the way.
 
 ### [THE WALL WINS FOR NOW]
 
@@ -1035,7 +1426,11 @@ Torren crouches only as much as implementation requires to inspect the fourth pl
 
 Nimera looks at the three plates she can reach from inside.
 
-**NIMERA:** Mine moved down when it closed.
+**NIMERA:** Mine moved down when it closed. Or—no. Two moved down. Third rotated first, then dropped. I assumed that was the same action because they happened together. That's not the same thing.
+
+**TORREN:** Better.
+
+**NIMERA:** Don't sound so pleased.
 
 Cyanis studies the engraved lines crossing the frame.
 
@@ -1047,7 +1442,7 @@ Cyanis studies the engraved lines crossing the frame.
 
 Nimera looks again, following what she can see from her side.
 
-**NIMERA:** Describe your side.
+**NIMERA:** Describe your side. Slowly, and if either of you says "sort of" I will become difficult on purpose.
 
 **CYANIS:** Better if Harth does it.
 
@@ -1057,11 +1452,31 @@ Nimera looks again, following what she can see from her side.
 
 **TORREN:** Accurate.
 
-Ilyra looks between them and the barrier.
+Ilyra looks at the four plates and the engraved return path.
 
-**ILYRA:** Nobody touches anything until all four of us know what we think it's going to do.
+**ILYRA:** What are you predicting happens when that fourth plate moves?
 
-**NIMERA:** Sensible.
+Nimera turns toward the question immediately.
+
+**NIMERA:** That one of my lines answers instead of the wall simply opening. Small response first. If I'm right, we test again. If I'm wrong, we stop pretending I was right and revise.
+
+**ILYRA:** Better than "touch things until architecture loses."
+
+**NIMERA:** That is an unfair summary of scholarship.
+
+**CYANIS:** Is it?
+
+**NIMERA:** Yes. Mostly.
+
+Ilyra laughs.
+
+**CYANIS:** That happened before?
+
+**NIMERA:** I work with scholars.
+
+**ILYRA:** You used that one already.
+
+**NIMERA:** It keeps being relevant.
 
 **CYANIS:** I also like her so far.
 
@@ -1069,7 +1484,11 @@ Ilyra looks between them and the barrier.
 
 Nimera turns back to the barrier.
 
-**NIMERA:** All right, Harth. Start at the fourth plate.
+**NIMERA:** All right, Harth. Start at the fourth plate. And use complete sentences this time.
+
+**TORREN:** No.
+
+**NIMERA:** I knew this was going to be a problem.
 
 ### [GAMEPLAY HANDOFF]
 
@@ -1087,23 +1506,28 @@ Transition into:
 
 ## Beat-6 production notes
 
-- This is a fresh Agent-Brain rerun, not a line edit of the earlier checkpoint-driven version.
+- This pass preserves the Nimera Person-Brain work while applying Ilyra's current dialogue-assignment guardrail.
 - Nimera's personality emerges from the immediate barrier problem before the plot explanation reaches her.
-- Ilyra checks whether Nimera is actually hurt and accepts the answer without turning the scene into treatment.
-- the Card and seal facts enter because Nimera asks why Mirena sent them, not because the scene performs an exposition checklist.
-- Nimera notices `custody record` as evidence rather than treating no recorded gap as no possible access, without turning that distinction into another authorial instruction line.
+- Nimera corrects language as a live social reflex, revises one of her own assumptions aloud, swears inside technical reasoning, and continues beyond the first useful sentence until another person has a reason to interrupt.
+- Ilyra makes one scene-earned injury check because Nimera is literally trapped behind a moving Ancient wall; she immediately turns the answer into humor instead of treatment or caretaking.
+- Cyanis owns his direct Card-separation experience. Ilyra contributes only the pulse/recovery observations that genuinely belong to her expertise and are useful to the new listener.
+- Ilyra's later barrier contribution is methodological curiosity—asking what Nimera predicts—rather than assuming responsibility for everyone else's safety behavior.
+- Nimera explicitly distinguishes a clean custody record from proven clean custody without turning that distinction into authorial omniscience.
 - nobody assigns formal roles in the upcoming barrier solution.
 - the barrier remains closed and Beat 7 owns the actual attempt.
 
 ---
 
-<!-- SOURCE: BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_DRAFT_A.md | BLOB: edea73a34cf357ce4db0bce3eb7bfc87c3b4f7f6 -->
+## Beat 7
+
+**Atomic source:** `BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_DRAFT_A.md`  
+**Source SHA-256:** `818911dc77c4fba62d50dafc309a146b39c5664e464273d4ff31ce51d3200622`
 
 # Chapter 3 — Beat 7
 # Ancient Barrier / First Cooperation
-## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN
+## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
-**Method note:** fresh rehearsal under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The scene is required to end with the barrier open, Nimera free, the Card still unclassified, and the deeper Archive reactivated. The conversation is not pre-sequenced around those outcomes.
+**Method note:** fresh rehearsal under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, and current Ilyra character authority. The scene is required to end with the barrier open, Nimera free, the Card still unclassified, and the deeper Archive reactivated. The Nimera Person-Brain performance remains intact; Ilyra's dialogue is redistributed away from default safety supervision and toward curiosity, interpretation, humor, and scene-earned expertise.
 
 ---
 
@@ -1113,7 +1537,7 @@ Resume at the Ancient barrier.
 
 Nimera is still inside. Cyanis, Ilyra, and Torren remain outside.
 
-**NIMERA:** Lower edge first.
+**NIMERA:** Lower edge first. And don't summarize it. Tell me what is physically there.
 
 **TORREN:** Worn smooth for about two fingers. Rest isn't.
 
@@ -1121,9 +1545,11 @@ Nimera is still inside. Cyanis, Ilyra, and Torren remain outside.
 
 **TORREN:** Told you that.
 
-**NIMERA:** You told me it moved. Now I know where it bears weight.
+**NIMERA:** You told me it moved. Moving and bearing against the same edge are not the same piece of information.
 
 **TORREN:** Fair.
+
+**NIMERA:** Thank you. I hate how satisfying that was.
 
 Cyanis is following the engraved channel that runs away from the fourth plate.
 
@@ -1133,7 +1559,7 @@ Cyanis is following the engraved channel that runs away from the fourth plate.
 
 **CYANIS:** The line. Runs up the frame, crosses, then returns behind your side.
 
-**NIMERA:** I can see the return here.
+**NIMERA:** I can see the return here. Wait—no, I can see *a* return. Don't let me promote that to the return yet.
 
 A beat.
 
@@ -1147,7 +1573,11 @@ A beat.
 
 **CYANIS:** I know.
 
-**NIMERA:** Good.
+**NIMERA:** Good, because if you were about to solve archaeology with family resemblance I was going to throw something through the wall.
+
+**CYANIS:** Can you?
+
+**NIMERA:** Not the point.
 
 She looks again at her side.
 
@@ -1159,39 +1589,37 @@ Nimera goes quiet.
 
 **TORREN:** You see something?
 
-**NIMERA:** Maybe.
+**NIMERA:** Maybe. Or I'm about to fall in love with a pattern because I've been staring at it too long, which is how bad scholarship starts. Everybody shut up for ten seconds.
 
-**CYANIS:** High praise.
+**CYANIS:** Ten exactly?
 
-**NIMERA:** Shut up for ten seconds.
+**NIMERA:** Dovaren.
 
-Cyanis does.
+Cyanis shuts up.
 
 ### [A SMALL TEST]
 
 Nimera studies one of the interior plates.
 
-**NIMERA:** If that's what this is doing, this one shouldn't open anything by itself.
+**NIMERA:** All right. If this is a relationship rather than four independent controls, this one shouldn't open anything by itself. It should wake the line connected to it on your side—briefly, I think.
 
-**ILYRA:** What should it do?
+**ILYRA:** And if it doesn't?
 
-**NIMERA:** Wake the matching line on their side. Briefly.
+**NIMERA:** Then I let go and we admit the elegant idea was wrong before I get emotionally attached to it.
 
-**ILYRA:** And if it does something else?
+**ILYRA:** Good. I hate watching people defend a theory after the theory has already died.
 
-**NIMERA:** I let go.
+Nimera looks at her.
 
-**ILYRA:** Immediately.
+**NIMERA:** That's unexpectedly specific.
 
-**NIMERA:** Yes.
+**ILYRA:** I know people.
 
 **CYANIS:** I wasn't going to improvise.
 
 Ilyra looks at him.
 
-**CYANIS:** Fine.
-
-Torren positions himself where he can see the seam and the fourth plate.
+**CYANIS:** Fine. I was going to improvise a little.
 
 **TORREN:** Ready.
 
@@ -1203,23 +1631,29 @@ The fourth plate on the exterior warms and shifts only slightly.
 
 **TORREN:** There.
 
-Nimera releases.
+Nimera releases at once.
 
 Everything settles.
 
-**NIMERA:** Again?
+**NIMERA:** Good. Again.
 
-**ILYRA:** Did it do exactly what you expected?
+**ILYRA:** "Good" or "exactly what you expected"?
 
-Nimera thinks.
+**NIMERA:** Mostly the second one.
 
-**NIMERA:** Yes.
+**ILYRA:** Mostly is doing a lot of work there.
 
-**ILYRA:** Then you get a second test.
+**NIMERA:** The fourth plate moved less than I expected, but in the direction Harth described. That's variance, not contradiction. I think.
 
-**NIMERA:** Sensible.
+**ILYRA:** So you're repeating it because the direction matched, not because the movement was perfect.
 
-**ILYRA:** Survive the door first.
+Nimera points at her.
+
+**NIMERA:** Exactly. See? This is useful. You ask irritating questions but at least they're correctly irritating.
+
+**ILYRA:** High praise.
+
+**NIMERA:** Don't get used to it.
 
 ### [THE BARRIER OPENS]
 
@@ -1227,9 +1661,39 @@ The second test confirms the same relationship.
 
 After that, the four work the mechanism without stopping to narrate who owns which part of the solution.
 
-Nimera calls what she can see from inside. Torren corrects physical assumptions from outside. Cyanis recognizes where the return relationship needs to close. Ilyra interrupts when movement exceeds what they predicted.
+Nimera calls what she can see from inside. Torren corrects physical assumptions from outside. Cyanis recognizes where the return relationship needs to close. Ilyra challenges interpretation when a term is doing too much work and notices when the pattern they are discussing stops matching what she can actually see.
 
 Keep the implementation simple and readable.
+
+At one point:
+
+**NIMERA:** Third plate down, then rotate—
+
+**TORREN:** No. Stop.
+
+Everyone stops.
+
+**NIMERA:** What?
+
+**TORREN:** Fourth plate took weight early.
+
+**NIMERA:** Shit. All right. That's not where I thought the load transferred. Let me—
+
+Ilyra looks at the plate.
+
+**ILYRA:** That's the first thing today that has admitted you were wrong before you did.
+
+Nimera stares at her.
+
+**NIMERA:** I was literally in the middle of revising.
+
+**ILYRA:** I know. The timing was beautiful.
+
+**CYANIS:** Progress.
+
+**NIMERA:** Nobody asked either of you.
+
+They revise the sequence and continue.
 
 As the final relationship closes, engraved channels fill with restrained light and the fitted barrier sections begin retracting into the surrounding frame.
 
@@ -1255,19 +1719,25 @@ Nimera walks through.
 
 **CYANIS:** Very scholarly.
 
-**NIMERA:** I contain multitudes.
+**NIMERA:** Scholarship is mostly swearing at dead people with better preservation standards.
 
-She immediately turns and looks back at the now-visible exterior side of the fourth plate.
+Torren snorts once despite himself.
+
+Nimera immediately turns and looks back at the now-visible exterior side of the fourth plate.
 
 **NIMERA:** Hm.
 
 **TORREN:** Wrong?
 
-**NIMERA:** Not enough information yet to know how wrong.
+**NIMERA:** Not enough information yet to know how wrong. Which, before you say it, is different from not being wrong.
 
-**TORREN:** Better.
+**TORREN:** Wasn't going to.
 
-Nimera gives him a look.
+**NIMERA:** You had the face.
+
+**TORREN:** I have one face.
+
+**NIMERA:** Debatable.
 
 ### [THE CARD, FINALLY]
 
@@ -1293,19 +1763,39 @@ The Card remains green-and-gold and unclassified.
 
 **CYANIS:** That's it?
 
-**NIMERA:** Would you prefer a lie with more nouns?
+Nimera looks up.
+
+**NIMERA:** No. That's the honest answer. The longer answer is I can see repeated geometry, I can see that the green and gold are not random flare, I can see relationships that look deliberate, and I cannot tell you what any of them *mean* without comparisons I do not have in front of me. Would you prefer a lie with more nouns?
 
 **CYANIS:** No.
 
-**NIMERA:** Then that's it.
+**NIMERA:** Then don't punish short answers when I give you one.
 
-Ilyra watches Cyanis rather than the Card.
+**CYANIS:** You just turned it into a long answer.
 
-**ILYRA:** Anything changing?
+**NIMERA:** Because you complained.
+
+Nimera keeps studying the Card.
+
+**NIMERA:** Anything changing on your end?
 
 **CYANIS:** No.
 
-**NIMERA:** Good. Keep holding it exactly like that.
+**ILYRA:** Disappointingly boring.
+
+Nimera looks at her.
+
+**NIMERA:** Boring is excellent data.
+
+**ILYRA:** I know. Still boring.
+
+Nimera looks back to Cyanis.
+
+**NIMERA:** Keep holding it exactly like that. Same distance from your body if you can. And don't rotate it unless you have to.
+
+**CYANIS:** Why?
+
+**NIMERA:** Because I don't know whether orientation matters, and "I don't know" is a reason not to add variables, not an invitation to create some.
 
 She looks a little longer, then backs off on her own.
 
@@ -1325,7 +1815,7 @@ Nimera looks down it.
 
 **CYANIS:** That bother you?
 
-**NIMERA:** Immensely.
+**NIMERA:** Immensely. Professionally, personally, spiritually—pick one.
 
 She gathers what she needs from her work area.
 
@@ -1336,6 +1826,10 @@ She gathers what she needs from her work area.
 Nimera looks back at him.
 
 **NIMERA:** Don't make me regret learning your name.
+
+**CYANIS:** That sounded temporary.
+
+**NIMERA:** Keep talking and I'll make it permanent.
 
 Cyanis smiles and lets it go.
 
@@ -1355,7 +1849,7 @@ A second mechanism moves.
 
 **ILYRA:** Still want older comparisons?
 
-**NIMERA:** Unfortunately, yes.
+**NIMERA:** Unfortunately, yes. I would simply prefer them not to acquire limbs while I'm reading them.
 
 Cut before the hostile mechanism fully presents itself.
 
@@ -1367,26 +1861,29 @@ Transition directly into:
 
 ## Beat-7 production notes
 
-- This replaces the earlier role-assigned version with a fresh Agent-Brain rehearsal.
+- The Nimera Person-Brain performance pass remains intact while Ilyra's role is rebalanced under current character authority.
 - Cyanis's Crest knowledge appears because he notices a familiar structural relationship; nobody turns it into a lineage claim.
-- Nimera challenges the analogy before using it.
-- Ilyra's caution appears as an ordinary response to a live test rather than a required safety speech.
-- Torren contributes naturally because he is physically able to see evidence Nimera cannot.
+- Nimera challenges the analogy before using it and explicitly catches herself overpromoting a visible pattern.
+- Ilyra's questions now test the *reasoning*—what counts as a successful small test and what the variance means—rather than making her the person who dictates everybody's safety behavior.
+- Torren owns the physical stop when the load transfer changes because he is the one who sees it.
+- Ilyra responds to Nimera's mistake with humor instead of automatically taking over the safety lane.
 - the group performs more than one small test before fully releasing the barrier, so the success remains earned.
 - nobody verbally assigns credit for the solution.
-- Nimera's Card examination is short and honestly inconclusive.
-- the repeated explicit Ilyra/Nimera approval line from Beat 6 is removed; their chemistry progresses through behavior instead.
-- Nimera proceeds deeper because she wants the evidence, but permanent recruitment remains unresolved until Beat 8.
+- Nimera asks Cyanis directly whether the Card is changing; Ilyra is free to react socially instead of monitoring his body by default.
+- permanent recruitment remains unresolved until Beat 8.
 
 ---
 
-<!-- SOURCE: BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_DRAFT_A.md | BLOB: 4b6fde959e2d806adcee1108d421e225bec45b2f -->
+## Beat 8
+
+**Atomic source:** `BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_DRAFT_A.md`  
+**Source SHA-256:** `f80ff7b79af90e7b2edb882dd4f195c3b38ae750ea424bf16853500224dc95dc`
 
 # Chapter 3 — Beat 8
 # Archive Scribe Engine / Nimera Joins
-## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN
+## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
-**Method note:** fresh rehearsal under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The hard outcomes are Scribe Engine combat, Nimera demonstrating combat competence, bounded evidence review, and Nimera becoming a permanent party member. No recruitment conversation or post-fight checklist was prescribed to the Person Agents.
+**Method note:** fresh rehearsal under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, and current Ilyra character authority. The hard outcomes are Scribe Engine combat, Nimera demonstrating combat competence, bounded evidence review, and Nimera becoming a permanent party member. The Nimera Person-Brain performance remains intact; Ilyra is no longer assigned post-fight monitoring, food enforcement, or safety arbitration merely because she is present.
 
 ---
 
@@ -1400,13 +1897,13 @@ Torren watches it move.
 
 **TORREN:** That's coming this way.
 
-**NIMERA:** Scribe assembly.
+**NIMERA:** Scribe assembly. Or a cousin of one. Don't quote me yet.
 
 A second set of arms locks into place.
 
 **CYANIS:** Is that good?
 
-**NIMERA:** Usually they don't point things at me.
+**NIMERA:** Usually they don't point things at me, so I'm going to say no with increasing confidence.
 
 One arm snaps forward and strikes the floor where they had been standing.
 
@@ -1418,15 +1915,17 @@ Cyanis shifts into combat position.
 
 Nimera already has her Conduit out and a Card ready.
 
-**NIMERA:** Don't.
+**NIMERA:** If that sentence ends with "stay back," save the breath.
 
 Cyanis looks at her once, sees what she means, and turns back to the machine.
 
-**CYANIS:** Fine.
+**CYANIS:** Was going to say left side.
+
+**NIMERA:** Liar.
 
 **TORREN:** Left arm moves first.
 
-**NIMERA:** Then let's break its handwriting.
+**NIMERA:** Good. Then let's break its handwriting.
 
 ### [BATTLE — ARCHIVE SCRIBE ENGINE]
 
@@ -1450,29 +1949,41 @@ The Scribe Engine is disabled rather than destroyed spectacularly. Its active ar
 
 A short silence.
 
-**ILYRA:** Everyone upright?
+**CYANIS:** Everybody still with me?
 
 **TORREN:** Yes.
 
-**CYANIS:** Yes.
+**ILYRA:** Unfortunately.
 
 Nimera is staring at the disabled machine.
 
-**ILYRA:** Pellan.
+Ilyra waits a beat.
 
-**NIMERA:** What?
+**ILYRA:** Pellan. If you're composing a love letter to it, make it short.
 
-**ILYRA:** Upright?
+Nimera blinks and looks over.
 
-**NIMERA:** Yes.
+**NIMERA:** What? No. It stopped halfway through a stroke and I was trying to decide whether that means the stroke mattered or whether I'm assigning intention to a broken mechanism because it tried to cave my ribs in.
+
+**TORREN:** It also tried to cave your ribs in.
+
+**NIMERA:** I covered that part.
+
+**ILYRA:** Good. I'd hate for attempted murder to go undocumented.
+
+Nimera starts toward the machine.
+
+**TORREN:** Give it a second.
+
+Nimera stops.
+
+**NIMERA:** I know.
 
 A beat.
 
-**NIMERA:** Sorry. It stopped halfway through a stroke.
+**NIMERA:** I was giving it a second while walking toward it.
 
-**TORREN:** It also tried to put the stroke through you.
-
-**NIMERA:** I noticed.
+**CYANIS:** Innovative.
 
 ### [WHAT THEY ACTUALLY HAVE]
 
@@ -1484,19 +1995,21 @@ Nimera examines only what remains legible without pretending she can reconstruct
 
 Torren waits.
 
-**NIMERA:** I know reopening the route woke it. I know it changed behavior when we entered. I know breaking those arms stopped the dangerous part.
+Nimera notices him waiting.
 
-**TORREN:** That's it?
+**NIMERA:** Don't do that.
 
-**NIMERA:** That's what happened.
+**TORREN:** Do what?
 
-**TORREN:** Fair.
+**NIMERA:** Stand there like the short answer offended you. Fine. Reopening the route woke it. It changed behavior when we entered. Breaking those arms stopped the dangerous part. That is what I know. I can invent three plausible reasons for the rest before breakfast and every one of them would still be invented.
 
-Nimera looks at him.
+**TORREN:** Better.
 
-**NIMERA:** You're going to be irritating.
+**NIMERA:** I hate you a little.
 
-**TORREN:** Probably.
+**TORREN:** Early yet.
+
+**NIMERA:** That's not reassuring.
 
 ### [THE CARD AGAIN]
 
@@ -1506,7 +2019,7 @@ Nimera turns to Cyanis.
 
 **CYANIS:** You just looked at it.
 
-**NIMERA:** Through a barrier. Before this thing woke up.
+**NIMERA:** Through a barrier, before an archive mechanism woke up and tried to write us into the floor. Context changed.
 
 Cyanis brings it out, still holding it himself.
 
@@ -1520,37 +2033,45 @@ She frowns.
 
 **ILYRA:** Difference?
 
-**NIMERA:** Bad would be an answer.
+**NIMERA:** Bad would be an answer. Inconvenient is six almost-answers standing in a circle and refusing to admit which one invited the others.
+
+**CYANIS:** That's very specific.
+
+**NIMERA:** I have experience.
 
 She looks again.
 
-**NIMERA:** I don't have a clean match.
+**NIMERA:** I don't have a clean match. There are structural echoes, maybe, but that phrase is dangerous because once I say it everybody starts hearing ancestry. I do not have ancestry. I have shapes I want to compare again when I'm less annoyed.
 
 **CYANIS:** Between the Card and this?
 
-**NIMERA:** Yes.
+**NIMERA:** Yes. And I was starting to want them connected too badly, which means I trust myself less, not more.
 
-A beat.
+Ilyra nods once.
 
-**NIMERA:** Which is useful, because I was starting to want one too badly.
+**ILYRA:** You wanted one problem instead of several.
 
-**ILYRA:** You wanted them connected.
-
-**NIMERA:** I wanted one problem instead of several.
+**NIMERA:** Exactly. One elegant problem. Very selfish of reality not to cooperate.
 
 **TORREN:** World rarely that polite.
 
-**NIMERA:** Apparently.
+**NIMERA:** I'm beginning to notice.
 
 She checks the bounded royal-seal comparison notes they carried down.
 
-**NIMERA:** And these still tell me the seal answered. They still don't tell me why.
+**NIMERA:** And these still tell me the seal answered. They still don't tell me why. Before anyone asks: no, the machine waking does not magically fix that. Different evidence, different fucking problem.
 
-**CYANIS:** So?
+Cyanis closes his mouth.
 
-Nimera looks toward the deeper route.
+**NIMERA:** Were you going to ask?
 
-**NIMERA:** So I need older records.
+**CYANIS:** Maybe.
+
+**NIMERA:** Growth.
+
+She looks toward the deeper route.
+
+**NIMERA:** I need older records.
 
 **TORREN:** Deeper.
 
@@ -1558,7 +2079,7 @@ Nimera looks toward the deeper route.
 
 **TORREN:** Left it home.
 
-**NIMERA:** Tragic.
+**NIMERA:** Selfish bastard.
 
 ### [NIMERA HAS ALREADY DECIDED]
 
@@ -1574,11 +2095,23 @@ Cyanis notices.
 
 **NIMERA:** No.
 
-She finishes securing her things and looks down the deeper passage.
+She keeps packing.
 
-**NIMERA:** I'm going that way.
+**CYANIS:** Because?
 
-**TORREN:** With us.
+**NIMERA:** Because the older records are down there, the route just opened, something down there has already reacted to us, and if I go upstairs now I will spend the entire walk thinking about the records I did not read. Also, if the archive decides to close another wall, I'd rather be on the interesting side of it this time.
+
+Ilyra looks at her.
+
+**ILYRA:** You had me until "interesting side of the wall."
+
+**NIMERA:** That was the best part.
+
+**ILYRA:** Of course it was.
+
+Torren looks down the passage.
+
+**TORREN:** With us, then.
 
 Nimera looks at him.
 
@@ -1586,19 +2119,27 @@ Nimera looks at him.
 
 **TORREN:** No.
 
-**NIMERA:** Then yes.
+**NIMERA:** Then yes, Harth, with you. Try to contain your relief.
 
-Ilyra looks toward the upper route, then back to Nimera.
+Ilyra looks at the things Nimera is gathering.
 
-**ILYRA:** Need anything from upstairs first?
+**ILYRA:** That's all you're taking?
 
-**NIMERA:** Eventually.
+Nimera pauses long enough to actually consider it.
 
-A beat.
+**NIMERA:** What I need right now. I would prefer food, two reference books, and a less terrible pencil, but none of those are worth going back for.
 
-**NIMERA:** Not enough to leave now.
+Ilyra looks at the pencil in Nimera's hand.
 
-Cyanis accepts that without turning it into a ceremony.
+**ILYRA:** You ranked the pencil above food.
+
+**NIMERA:** It's a very bad pencil.
+
+**ILYRA:** I respect the commitment. Not the priorities.
+
+**NIMERA:** Good. I don't need approval, only witnesses.
+
+Cyanis accepts the decision without turning it into a ceremony.
 
 **CYANIS:** All right.
 
@@ -1609,6 +2150,10 @@ Nimera is already moving.
 Cyanis looks at Ilyra and Torren.
 
 **CYANIS:** Apparently.
+
+**NIMERA:** You say that like you had authority over it.
+
+**CYANIS:** I was enjoying the illusion.
 
 ### [PARTY JOIN]
 
@@ -1640,24 +2185,30 @@ Transition into:
 
 ## Beat-8 production notes
 
-- This is a fresh Agent-Brain rerun replacing the earlier checklist-driven post-fight and recruitment structure.
+- This pass preserves the fight, evidence boundaries, recruitment outcome, and Nimera's full Person-Brain behavior while applying Ilyra's current dialogue-assignment guardrail.
 - Nimera joins the battle because the live situation makes that natural; nobody asks her to prove she can fight.
-- post-fight dialogue stays with what the group actually observed instead of asking Nimera to deny every future classification by name.
-- Nimera catches her own desire to collapse multiple mysteries into one explanation; the scene does not verbalize a reveal firewall.
-- her recruitment is shown by her gathering her things and continuing deeper, not by Cyanis explaining that she is free to choose or by Nimera giving a motivation speech.
+- post-fight dialogue stays with what the group actually observed while Nimera explicitly resists turning plausible explanations into evidence.
+- Cyanis owns the broad post-battle check; Ilyra does not become the automatic injury monitor or caretaker.
+- Ilyra's interaction with Nimera is social: she jokes about Nimera staring at the machine, asks a genuine evidence question, challenges the "interesting side" reasoning, and needles her pencil priorities.
+- food appears because Nimera herself lists what she would prefer, not because Ilyra orders her to eat or slips into a mother role.
+- Nimera catches her own desire to collapse multiple mysteries into one explanation and explains why that makes her less confident in her inference.
+- recruitment is shown by Nimera gathering her things and continuing deeper, not by an approval ritual.
 - the game UI confirms the permanent party change after the human moment has already landed.
 
 ---
 
-<!-- SOURCE: BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_DRAFT_A.md | BLOB: 903f73ad534947bd4068429cbfb77f8a4ab3424b -->
+## Beat 9
+
+**Atomic source:** `BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_DRAFT_A.md`  
+**Source SHA-256:** `507d60d0616af278b42591041634ef9fba9bbc99ee3bf93448d8a22f75c394a1`
 
 # Chapter 3 — Beat 9
 # Buried Collections / Dormant Card Research
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — NATURAL-TURN RHYTHM PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — PERSON-BRAIN PERFORMANCE PASS
 
 **Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the live situation, research goals, hard findings, recent-reader end state, and reveal firewalls. It was not given a speaker order or one-research-thread-per-character structure.
 
-**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Research owners are allowed to finish linked findings before another speaker enters; short challenge/joke exchanges remain where they arise naturally.
+**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Research owners may finish linked findings before another speaker enters; Nimera may correct, revise, ramble, and be interrupted where her Person Brain actually drives that behavior.
 
 ---
 
@@ -1679,7 +2230,7 @@ A short authored stop triggers at the first useful Card collection.
 
 Nimera has already rejected several irrelevant volumes before finding one worth keeping open.
 
-**NIMERA:** Here. Twelve years recorded as inert, then visible geometry during a later response. Not the same as yours, but close enough that I don't get to dismiss yours as broken.
+**NIMERA:** Here. Twelve years recorded as inert, then visible geometry during a later response. Not the same as yours—different site, different observer, different description, and the writer uses "awake" three times without defining what the fuck they mean by it—but close enough that I don't get to dismiss yours as broken.
 
 **CYANIS:** Better than nothing.
 
@@ -1691,7 +2242,11 @@ Ilyra has another volume open nearby.
 
 Nimera reads enough to confirm it.
 
-**NIMERA:** Different account, different place. Still annoyingly close.
+**NIMERA:** Different account, different place. Still annoyingly close. Which is useful. I hate that it's useful.
+
+**CYANIS:** You hate useful things often?
+
+**NIMERA:** Only when they create more categories than they remove.
 
 Torren has not joined the page-by-page discussion. He is looking at the shelving marks on several old cases.
 
@@ -1701,15 +2256,33 @@ Nimera follows his attention.
 
 A later Yahtrean copy groups older Card material beneath six headings with older marks preserved alongside them.
 
-**NIMERA:** Might. Elements. Grace. Resource. Perception. Ruin. Those names are later; the marks beside them aren't. I would not bet anything valuable on the meanings being identical yet.
+**NIMERA:** Might. Elements. Grace. Memory. Perception. Ruin. Those names are later; the marks beside them aren't. And before anybody says "so those are the ancient meanings," no. They are later labels attached to older marks by somebody who thought the correspondence was good enough to preserve. That's evidence of a comparison, not proof the concepts were identical.
 
-**TORREN:** How valuable?
+**CYANIS:** Nobody said it.
+
+**NIMERA:** You were going to.
+
+**CYANIS:** I was breathing.
+
+**NIMERA:** Suspiciously.
+
+Torren points at the headings.
+
+**TORREN:** How much would you bet the meanings line up?
+
+**NIMERA:** Something replaceable.
+
+**TORREN:** Your book?
+
+Nimera looks offended.
 
 **NIMERA:** Your bow.
 
 **TORREN:** Then no bet.
 
-Nimera keeps the relevant citations rather than turning the discovery into a lecture.
+**NIMERA:** Coward.
+
+She keeps the relevant citations rather than turning the discovery into a lecture.
 
 ### [GAMEPLAY — FOLLOW THE CITATIONS]
 
@@ -1727,9 +2300,17 @@ She has gone quiet long enough for Cyanis to notice.
 
 **CYANIS:** Found something?
 
-**NIMERA:** Maybe. This text treats the seal and the impression as different things: the mark is what gets left on the document; the authority belongs to the working seal. Then it gets into renewal, maintenance, some specialized keeper practice—right where the useful section goes missing.
+**NIMERA:** Maybe. This text treats the seal and the impression as different things. The impression is the mark left on the document; the authority belongs to the working seal. Then it gets into renewal, maintenance, succession practice, specialized keeper work, and—because the dead apparently enjoy comedy—the useful section is missing.
 
-**CYANIS:** Of course it does.
+**CYANIS:** Of course it is.
+
+**NIMERA:** No, worse. It isn't torn out. The copyist says they omitted it because it was "procedural." Which means somebody deliberately preserved the boring summary and discarded the exact part we need.
+
+**TORREN:** Scholars.
+
+Nimera points at him without looking up.
+
+**NIMERA:** Careful.
 
 Ilyra looks at the damaged continuation.
 
@@ -1737,17 +2318,21 @@ Ilyra looks at the damaged continuation.
 
 Nimera finds one written in another hand.
 
-**NIMERA:** Yes. This author thought the practice was older than Yahtrea.
+**NIMERA:** Yes. This author thought the practice was older than Yahtrea. Thought, because I can feel Harth waiting to pounce on the verb.
 
-**TORREN:** Thought.
+**TORREN:** Wasn't.
 
-**NIMERA:** Yes. You can stop enjoying that word.
-
-**TORREN:** Haven't started.
+**NIMERA:** You absolutely were.
 
 The referenced older material uses physical seals / authority marks in Diysean civic or administrative contexts, but the surviving material is too incomplete to establish direct lineage to Lysara's current seal.
 
-No one tries to make it do more than that.
+Nimera taps the margin once.
+
+**NIMERA:** This is where we stop. Similar practice, older context, incomplete chain. If I say "ancestor" right now, somebody should hit me with the book.
+
+**ILYRA:** Not with that one.
+
+**NIMERA:** Thank you. Preservation-minded violence. I respect it.
 
 ### [GAMEPLAY — REGIONAL RECORDS]
 
@@ -1779,7 +2364,7 @@ Torren points out a volume left on a side table and the clean shelf outline wher
 
 Nimera checks the spine.
 
-**NIMERA:** No. Card recovery reports—two rooms back.
+**NIMERA:** No. Card recovery reports—two rooms back. But people shelve badly. Criminally badly, sometimes, but still not evidence of an actual crime.
 
 Torren indicates another book farther down the table.
 
@@ -1795,19 +2380,33 @@ She looks across the table rather than at Torren now.
 
 **NIMERA:** All right. Shut up for a second.
 
-Cyanis, who had started to speak, closes his mouth.
+Cyanis starts to speak.
+
+**NIMERA:** Especially you.
+
+**CYANIS:** I hadn't said anything.
+
+**NIMERA:** You inhaled like a question.
 
 Nimera checks the page markers and copied references left with the books.
 
-**NIMERA:** These didn't end up together by accident. Card recovery beside seal history, with the same run of page markers through both.
+**NIMERA:** Same run of page markers through both. Same cut, same cheap red fiber, same fold at the top. Could still be reused by different readers, technically—
 
-**ILYRA:** One person?
+**TORREN:** Same stretch of wear around the table too.
 
-Torren looks over the recent wear and movement around the shelves and table.
+Nimera looks where he indicates.
+
+**NIMERA:** Fine. That helps. One recent research trail is now substantially less speculative.
+
+**ILYRA:** One reader?
+
+**NIMERA:** Maybe one. Maybe several sharing the same work. The trail is one. The person is not proven.
 
 **TORREN:** Same stretch of use. Can't give you a person.
 
-**ILYRA:** Don't need one yet.
+**NIMERA:** See? This is why I tolerate him.
+
+**TORREN:** High praise.
 
 Nimera follows a citation from the open Card volume into an older regional index.
 
@@ -1817,11 +2416,15 @@ Cyanis is beside her now.
 
 **CYANIS:** You're sure it's the same place?
 
-Nimera shows him the regional description rather than answering for his experience.
+Nimera turns the book toward him instead of answering for his own experience.
+
+**NIMERA:** You tell me. Same ridge description, collapsed eastern approach, two surviving chamber markers. If that's not your site, I want to know before I marry the records together and create a very elegant pile of bullshit.
 
 Cyanis reads it.
 
 **CYANIS:** Same place.
+
+**NIMERA:** Good. Then I can marry them a little.
 
 ### [GAMEPLAY — FOLLOW THE RESEARCH PATH]
 
@@ -1851,11 +2454,15 @@ Cyanis recognizes the site material first because he has physically been there.
 
 Ilyra looks over the neighboring open volumes.
 
-**ILYRA:** They weren't researching the place by itself. Card behavior, seal work, the Westways site—somebody was putting the same cluster together we are.
+**ILYRA:** Same subjects we're chasing.
 
 Nimera follows the markers between the books.
 
-**NIMERA:** Yes. Whoever did this started connecting these things before we got here.
+**NIMERA:** Same trail. Cards, seal practice, Westways site material—no, don't say "same theory." We don't know what theory they had. Same research trail.
+
+**CYANIS:** I wasn't going to say theory.
+
+**NIMERA:** Somebody eventually would have and I was saving time.
 
 Torren looks at the table, then at the surrounding shelves.
 
@@ -1875,6 +2482,12 @@ Nimera checks the final marked citation.
 
 She looks toward the deeper restricted holdings.
 
+**NIMERA:** Which is either excellent or going to ruin my entire evening.
+
+**CYANIS:** Those can both be true for you, can't they?
+
+**NIMERA:** You're learning.
+
 ### [GAMEPLAY HANDOFF]
 
 Player control returns.
@@ -1891,27 +2504,27 @@ Transition into:
 
 ## Beat-9 production notes
 
-- The scene was rehearsed from research goals and hard outcomes rather than a prescribed four-thread conversation order.
-- Research remains playable, with a small number of authored stops rather than one long exposition scene.
-- Nimera behaves as a working scholar but does not narrate the catalogue or monopolize every finding; when she owns a linked finding, she is now allowed to complete it before yielding.
+- The scene remains playable research rather than one long exposition cutscene.
+- Nimera now behaves according to her active Person Brain: she corrects category drift before it hardens into group belief, revises her own confidence, swears naturally inside technical reasoning, and sometimes keeps talking until another person has earned the interruption.
 - inactive Cards becoming responsive and green/gold light both gain historical precedent without classifying Cyanis's Card.
-- the Six Faces appear naturally in old Card scholarship; the later Yahtrean names sit beside older marks, preserving uncertainty about exact historical meaning.
+- the Six Faces appear naturally in old Card scholarship; later Yahtrean names sit beside older marks, preserving uncertainty about exact historical meaning. **Memory is the current heading; Resource is retired.**
 - seal research establishes a meaningful distinction between physical impression and magical authority and references older renewal/maintenance practice, but the technique and lineage remain incomplete.
-- the recent-reader mystery emerges through Torren and Nimera initially disagreeing about whether physical disturbance is noteworthy, then converging when the subject mix proves deliberate.
-- the final table physically links Card response, luminous behavior, seal traditions, and the Westways discovery site without identifying the reader or proving responsibility for the suspect royal orders.
-- no Prime, Might, Last Sentinel, bearer, Ruby-state, Calder, Cresthaven, or First Command Warden reveal occurs.
+- the recent-reader mystery emerges through Torren and Nimera genuinely disagreeing about what counts as meaningful disturbance, then converging as evidence accumulates.
+- the final table physically links Card response, luminous behavior, seal traditions, and the Westways discovery site without allowing the group to overclaim a shared theory.
+- no future-facing reveal occurs.
 
 ---
 
-<!-- SOURCE: BEAT_10_RECENT_READER_HALL_OF_SEALS_DRAFT_A.md | BLOB: ee5184a5434bf2225548133da333aefdf72746c3 -->
+## Beat 10
+
+**Atomic source:** `BEAT_10_RECENT_READER_HALL_OF_SEALS_DRAFT_A.md`  
+**Source SHA-256:** `f9e281010402a560b58e08b55af5eb665bccea2f3e09075b44797f785d5f3823`
 
 # Chapter 3 — Beat 10
 # The Recent Reader / Hall of Seals
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — NATURAL-TURN RHYTHM PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
-**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the live situation, hard historical findings, recent-reader end state, and reveal firewalls. It was not given a speaker sequence or a required research-thread dialogue order.
-
-**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Nimera now holds the floor through connected keeper-ledger findings and caveats instead of being prompted clause by clause; quick character banter remains intact where it is genuinely comic.
+**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, then audited under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` and current Ilyra character authority. Nimera still owns the keeper-ledger reasoning and real-time evidentiary corrections. Ilyra's contributions remain research, wording, humor, and ordinary reaction rather than default safety supervision.
 
 ---
 
@@ -1927,7 +2540,7 @@ Nimera checks the final marked citation again.
 
 **CYANIS:** You actually have a hall for seals.
 
-**NIMERA:** We have halls for things nobody wanted to throw away and nobody agreed how to classify.
+**NIMERA:** We have halls for things nobody wanted to throw away and nobody agreed how to classify. Seals just got lucky enough to win the naming argument.
 
 **TORREN:** So a hall for scholars.
 
@@ -1937,13 +2550,21 @@ Nimera looks at him.
 
 **ILYRA:** Almost?
 
-**NIMERA:** He looked pleased with himself.
+**NIMERA:** He looked pleased with himself before he finished it.
+
+**TORREN:** I was pleased with myself.
+
+**NIMERA:** Exactly. Ruined the whole thing.
 
 Torren is already looking toward the deeper route.
 
 **TORREN:** You know the way?
 
-**NIMERA:** Yes. Come on.
+**NIMERA:** Yes. And before anyone asks, no, I have not memorized every object in it. I know the route, the catalogue structure, and which curator gets angry if you breathe too near the succession cases.
+
+**CYANIS:** Useful distinction.
+
+**NIMERA:** Mock me again and I'll make you carry the reference folio.
 
 She gathers the relevant citation slip rather than the whole table.
 
@@ -1969,41 +2590,69 @@ She reads the same passage twice.
 
 **CYANIS:** Bad writing?
 
-**NIMERA:** Unfortunately, no. Working seal damaged during transfer; impression still correct, authority response weakened afterward. Then later: renewal after succession, same seal body retained, authority restored through keeper work.
+**NIMERA:** Unfortunately, no. Worse. Clear writing.
+
+She turns the ledger slightly so the others can see the entry.
+
+**NIMERA:** Working seal damaged during transfer; impression remained correct; authority response weakened afterward. Then later, after succession, same physical seal body retained, authority restored through keeper work. That means the visible mark and the magical authority were being tracked separately by the people actually responsible for the thing.
 
 **CYANIS:** So the seal was carrying it.
 
-**NIMERA:** Looks like it. The useful part is that the ledger treats the working seal as holding authority between uses. The annoying part is that the actual keeper method lives in a separate manual that isn't here.
+**NIMERA:** Careful. The physical seal carried *something persistent enough to be weakened and restored.* I am comfortable calling that authority because the keeper does. I am not yet comfortable pretending we know the mechanism.
 
 **TORREN:** Keeper work meaning missing.
 
-**NIMERA:** Precisely.
+**NIMERA:** Yes. The actual method is in another manual because apparently history has standards about when to be useless.
 
 **ILYRA:** Gone?
 
-**NIMERA:** Not in this case.
+**NIMERA:** Not in this case. Referenced. Which is more irritating because it means somebody knew exactly where it belonged and we don't have it here.
 
 Cyanis is still on the first implication.
 
 **CYANIS:** So Lysara wouldn't have to put fresh magic into every order herself.
 
-**NIMERA:** Correct.
+**NIMERA:** Correct. Probably.
 
-**CYANIS:** Then someone with the seal—
+**CYANIS:** Probably?
 
-**NIMERA:** Maybe. The record tells us the physical seal can retain authority. It does not tell us who can make that authority answer, or under what conditions.
+**NIMERA:** We have a historical model, not her personal maintenance record. Do you want accuracy or comfort?
 
-Cyanis stops and nods.
+**CYANIS:** Accuracy.
 
-**CYANIS:** Right.
+**NIMERA:** Then stop making that face when it comes with qualifiers.
 
-**TORREN:** Still makes the physical seal more important.
+Cyanis points at the ledger.
 
-**ILYRA:** It was already important.
+**CYANIS:** Fine. Then someone with the seal—
 
-**TORREN:** More annoying, then.
+**NIMERA:** Maybe.
 
-**NIMERA:** Much more accurate.
+**CYANIS:** I wasn't done.
+
+**NIMERA:** I know where the sentence was going and it was outrunning the evidence.
+
+**CYANIS:** You interrupt everyone this much?
+
+**NIMERA:** Only when they deserve it.
+
+**TORREN:** So everyone.
+
+**NIMERA:** Increasingly, yes.
+
+She taps the ledger once.
+
+**NIMERA:** Physical seal matters more than we thought. Who can make its authority answer, under what conditions, whether possession is enough, whether keeper work changes that—still open.
+
+Ilyra nods.
+
+**ILYRA:** That's usable.
+
+**NIMERA:** Thank you. See? She waits until the sentence ends.
+
+**CYANIS:** You didn't let mine end.
+
+**NIMERA:** Yours was dangerous.
 
 ### [GAMEPLAY — HALL OF SEALS]
 
@@ -2023,27 +2672,39 @@ Torren is looking at a heavy stone seal face displayed beside a later copied imp
 
 Nimera moves closer and checks the provenance label.
 
-**NIMERA:** No. Same kind of object, maybe. Diysean layer. Whoever catalogued it called it civic authority, which means they had enough context to be brave and not enough to be certain.
+**NIMERA:** No. Same *kind* of object, maybe. Diysean layer. Whoever catalogued it called it civic authority, which means they had enough context to be brave and not enough to be certain.
 
 **TORREN:** You dislike archivists too?
 
-**NIMERA:** I dislike confidence with poor paperwork.
+**NIMERA:** I dislike confidence with poor paperwork. Archivists merely provide a statistically impressive sample.
 
 She checks another fragment in the same group: a metal face with surviving magical residue noted in an older study.
 
-**NIMERA:** This one had a response when it was recovered. Again: authority, apparently. Diysean authority, not Yahtrean royalty.
+**NIMERA:** This one had a response when it was recovered. Again: authority, apparently. Diysean authority, not Yahtrean royalty. Similar physical idea, older context, no proven lineage.
 
 **CYANIS:** You know what I meant.
 
 **NIMERA:** I did. The answer is still no.
 
+**CYANIS:** I didn't ask anything.
+
+**NIMERA:** Your eyebrows did.
+
 Ilyra looks between the ancient fragment and the later royal-seal material.
 
-**ILYRA:** Similar idea.
+**ILYRA:** Strong resemblance, then.
 
-**NIMERA:** Strongly similar. Not proven lineage.
+Nimera points at her.
 
-She leaves it there.
+**NIMERA:** Yes. Strong resemblance. Excellent wording. Everybody use hers.
+
+**TORREN:** You know you're impossible to travel with, right?
+
+**NIMERA:** We have been traveling together for perhaps an hour.
+
+**TORREN:** Enough data.
+
+Nimera stares at him, then laughs despite herself.
 
 ### [THE WESTWAYS FOLIO]
 
@@ -2055,7 +2716,11 @@ Torren notices the disturbed storage before anyone opens it.
 
 Nimera checks the case.
 
-**NIMERA:** No.
+**NIMERA:** No. Wrong rest position, dust broken at the rear edge, and whoever put it back—or tried to—left the support strap folded under itself. Fucking animal.
+
+**CYANIS:** That's the part that bothers you?
+
+**NIMERA:** Several things can bother me at once.
 
 The folio is an old survey / excavation comparison involving authority-mark fragments recovered from the Diysean ruins in the Westways.
 
@@ -2073,13 +2738,15 @@ Torren checks the folio, nearby ledger, and a second volume already left open.
 
 Nimera follows the references between them.
 
-**NIMERA:** Card finds, Westways survey, seal fragments—and then keeper renewal. Whoever was working upstairs followed the same chain down here.
+**NIMERA:** Same marker pattern too. Same work trail, then. Don't say same person yet.
 
-**CYANIS:** They got here first.
+**CYANIS:** I wasn't—
 
-**NIMERA:** Yes.
+**NIMERA:** Good.
 
-No one needs to explain who “they” means.
+**CYANIS:** You're getting irritating on purpose now.
+
+**NIMERA:** No, this is effortless.
 
 Ilyra looks toward the older end of the Hall.
 
@@ -2087,7 +2754,7 @@ Ilyra looks toward the older end of the Hall.
 
 Nimera checks the last inserted citation slip.
 
-**NIMERA:** No.
+**NIMERA:** No. Whoever was doing this kept going inward.
 
 ### [GAMEPLAY — OLDER RESTRICTED ANNEX]
 
@@ -2121,21 +2788,23 @@ A large armored figure is dormant in an alcove beyond the threshold.
 
 Nimera follows his gaze.
 
-**NIMERA:** No.
+**NIMERA:** No. And before you ask me what it is, I have "large," "armored," and "not currently moving." That's the complete responsible answer.
 
 **CYANIS:** Decorative?
 
-**ILYRA:** Don't.
+**ILYRA:** Decorative would be a very generous interpretation.
 
 **CYANIS:** I was asking hopefully.
 
-Nimera looks at the sealed architecture around the alcove.
-
-**NIMERA:** Hope quieter.
+**NIMERA:** Hope quieter. If optimism wakes that bastard, I'm blaming you in the record.
 
 A beat.
 
 The armored figure remains dormant.
+
+**TORREN:** Didn't wake.
+
+**NIMERA:** Excellent. Your optimism remains unproven as a threat.
 
 Do not activate it yet.
 
@@ -2160,24 +2829,27 @@ Transition directly into:
 ## Beat-10 production notes
 
 - The scene follows evidence rather than having the party verbally reconstruct the entire recent reader's route at the opening table.
-- The Hall of Seals is a physical historical collection, not a magical interface or system terminal.
+- The Hall of Seals remains a physical historical collection, not a magical interface or system terminal.
+- Nimera holds connected findings and caveats naturally, interrupts when a conclusion genuinely outruns the evidence, and uses profanity as part of ordinary technical/social speech rather than decorative edge.
+- Ilyra's contributions remain evidence-language, questions, and humor. At the dormant Warden threshold she no longer receives the automatic `don't` line merely because Cyanis voices a hopeful possibility.
 - The keeper-ledger discovery establishes that working royal seals could retain authority in the physical seal between uses. It does not establish who can invoke that authority or how unauthorized use occurred.
 - Missing / incomplete keeper material preserves Beat 12's seal-working discovery.
 - pre-Yahtrean Diysean seal fragments establish strong precedent for physical magical authority seals without proving direct lineage to Lysara's current seal.
-- the Westways connection is historical scholarship around authority-mark fragments from the same ruin field; it does not prove Cyanis's Card and the seals share an origin.
-- the recent reader trail is confirmed through the same recently used folio / ledger cluster and continues deeper without an identity clue.
-- research dialogue now preserves natural floor ownership: Nimera completes linked findings/caveats before yielding instead of being prompted one clause at a time.
+- the recent-reader trail is confirmed through matching recent use and marker patterns without overclaiming a single reader identity.
 - the final dormant armored figure is only threshold staging. Beat 11 owns activation, magical assessment, battle, `PREVIOUS ERROR`, `LAST SENTINEL CONFIRMED`, and the subsequent Card stabilization.
 
 ---
 
-<!-- SOURCE: BEAT_11_FIRST_COMMAND_WARDEN_DRAFT_A.md | BLOB: 384d8fd58f30fe29e78a25a4c2df09e7536270e3 -->
+## Beat 11
+
+**Atomic source:** `BEAT_11_FIRST_COMMAND_WARDEN_DRAFT_A.md`  
+**Source SHA-256:** `b84e481caacb33cea810c8f73345be7a1ec9a397946d29b82979a128b04d1877`
 
 # Chapter 3 — Beat 11
 # First Command Warden
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL
+## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
-**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the protected-chamber situation, the exact Warden assessment / battle / shutdown sequence, the Card-state outcome, and reveal firewalls. It was not given a required speaker order or a requirement that each party member explain part of the event.
+**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, then audited under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` and current Ilyra character authority. The protected Warden sequence, exact messages, Card-state outcome, and reveal firewalls remain unchanged. Nimera's evidence discipline remains intact; Ilyra's dialogue no longer defaults to bodily supervision except for one scene-earned comparison to the known Brackenwall reaction.
 
 ---
 
@@ -2217,6 +2889,12 @@ The Warden steps out of its resting position and places itself between the party
 
 Nobody approaches it.
 
+**NIMERA:** Nobody make me regret following you in here.
+
+**CYANIS:** That's aimed at me, isn't it?
+
+**NIMERA:** Mostly.
+
 ### [THE ASSESSMENT]
 
 The Warden does not attack immediately.
@@ -2231,7 +2909,17 @@ No modern UI, targeting reticle, digital readout, or spoken identity check appea
 
 **CYANIS:** Nobody touch anything.
 
-**NIMERA:** Happily.
+**NIMERA:** Happily. For once your plan is flawless.
+
+The light passes over Nimera and moves on.
+
+**NIMERA:** It's checking us separately.
+
+**ILYRA:** Or checking something that changes as it crosses us.
+
+Nimera's eyes stay on the ward-rings.
+
+**NIMERA:** Yes. Better. Don't let me turn motion into intention yet.
 
 The last ward-ring fills.
 
@@ -2280,6 +2968,12 @@ Cyanis starts to lower his guard.
 
 **NIMERA:** Wait.
 
+Cyanis freezes.
+
+**CYANIS:** What?
+
+**NIMERA:** It's still doing something. I don't know what. Just wait.
+
 The Warden remains barely active.
 
 Ancient characters ignite across its own seal plates as part of its final failing wardcraft.
@@ -2288,7 +2982,11 @@ The meaning resolves through the party's usable Ancient scholarship / presentati
 
 > **PREVIOUS ERROR**
 
-A beat.
+Nobody speaks at first.
+
+**CYANIS:** That's not ominous at all.
+
+**NIMERA:** Don't joke yet. I need to remember exactly what order this happens in.
 
 The first characters dim.
 
@@ -2310,6 +3008,16 @@ A long beat.
 
 **NIMERA:** Yes.
 
+Another beat.
+
+**NIMERA:** Previous error. Then last sentinel confirmed. In that order.
+
+**CYANIS:** You already memorized it.
+
+**NIMERA:** I know. Saying it keeps me from improving it accidentally.
+
+No one attempts to interpret `Last Sentinel` yet.
+
 ### [ONLY NOW — THE CARD]
 
 Only after the Warden is fully inert does Cyanis's Card respond.
@@ -2320,11 +3028,11 @@ The light contracts through the Card's pattern, folds inward, and reorganizes.
 
 **CYANIS:** Oh, shit.
 
-**ILYRA:** Don't move.
-
-**CYANIS:** Wasn't planning to.
-
 Nimera watches the geometry change rather than reaching for it.
+
+**NIMERA:** Nobody touch him. Nobody touch the Card. Let it finish before we add anything to the event.
+
+Cyanis holds still because he wants to, not because Ilyra has taken control of him.
 
 The green-and-gold pattern resolves into a stable **deep Ruby** state.
 
@@ -2336,15 +3044,19 @@ Silence.
 
 **CYANIS:** It's staying.
 
-**NIMERA:** Yes.
+Nimera does not answer immediately. She watches another second, then another.
 
-Ilyra looks at Cyanis rather than the Card.
+**NIMERA:** Yes. Stable so far.
 
-**ILYRA:** You?
+Ilyra looks at Cyanis.
 
-**CYANIS:** Fine.
+**ILYRA:** Same feeling as Brackenwall?
 
-A beat.
+**CYANIS:** No. No shaking, no cold, heart feels normal. It just changed.
+
+**ILYRA:** Good.
+
+She leaves it there.
 
 Torren looks from the inert Warden to the Card.
 
@@ -2356,7 +3068,19 @@ Torren looks from the inert Warden to the Card.
 
 Nimera keeps looking at the now-inert Warden.
 
-**NIMERA:** I think I want to know why it waited until that died.
+**NIMERA:** I think the Card changed immediately after that thing finished dying. That's the observation. I *want* to say connected because the timing is screaming at me, and that is exactly why I don't trust myself to say more yet.
+
+**CYANIS:** That's a yes with paperwork.
+
+Nimera finally looks at him.
+
+**NIMERA:** No. That is a "maybe" with standards.
+
+**TORREN:** Better phrase.
+
+**NIMERA:** Thank you.
+
+**CYANIS:** Don't encourage her.
 
 Nobody names what `Last Sentinel` refers to or claims the timing proves a mechanism.
 
@@ -2370,6 +3094,20 @@ The Card does not touch the door and is not used as a key.
 
 **TORREN:** Door's giving.
 
+**NIMERA:** Without the Card.
+
+**CYANIS:** I noticed.
+
+**NIMERA:** I'm saying it because five minutes from now somebody is going to remember "Card changed, door opened" and quietly fuse those into one event.
+
+**ILYRA:** You have paper. Save future-us the argument.
+
+Nimera looks at her.
+
+**NIMERA:** I genuinely like you.
+
+**ILYRA:** Dangerous standard.
+
 The fitted slabs separate enough to expose the chamber beyond.
 
 Nimera looks into the newly opened space.
@@ -2380,15 +3118,19 @@ Do not inspect the room yet.
 
 **CYANIS:** Seal work.
 
-**NIMERA:** Looks like it.
+**NIMERA:** Looks like it. Actual working space, not display storage. Different wear, different—
 
-She is still glancing back at the inert Warden.
+She catches herself.
 
-**ILYRA:** One problem at a time.
+**NIMERA:** No. Later. One problem at a time.
 
-Nimera exhales once.
+Ilyra raises an eyebrow.
 
-**NIMERA:** Fine.
+**ILYRA:** I was going to say something much less disciplined.
+
+**NIMERA:** Now I need to hear it.
+
+**ILYRA:** Later.
 
 ### [GAMEPLAY HANDOFF]
 
@@ -2414,26 +3156,25 @@ Transition directly into:
 ## Beat-11 production notes
 
 - The Warden visibly assesses the whole four-person party before attacking; the assessment is Ancient magical craft, not modern technology.
-- The scene does not state what standard the Warden was applying or what caused rejection.
-- The Warden itself communicates `PREVIOUS ERROR` and then `LAST SENTINEL CONFIRMED` during shutdown.
-- `LAST SENTINEL CONFIRMED` is its final communication before complete inertness.
-- The Card does not begin its Ruby stabilization until after the Warden is fully inert.
-- Post-fight dialogue notices the timing and treats it as a live question rather than declaring the Warden/Card relationship proven.
+- `PREVIOUS ERROR` and `LAST SENTINEL CONFIRMED` remain exact protected text and retain their exact order.
+- Nimera's Person Brain remains fully active under pressure: she records sequence, resists causal overclaiming, catches her own desire to connect the Warden and Card, and uses longer reasoning only where the uncertainty genuinely matters.
+- Ilyra's one bodily question after the Ruby change is scene-earned because the Card previously caused a documented physical collapse response. She asks only whether the same Brackenwall sensation is recurring, accepts Cyanis's direct answer, and does not turn it into a symptom interrogation.
+- Ilyra's other contributions are evidence-language, tactical reaction, and dry humor rather than default medical/safety ownership.
 - Deep Ruby is a persistent Card state change only. It is not Prime recovery, awakening, manifestation, identification, or a gameplay unlock.
-- The inner way opens because the defeated Warden is no longer maintaining the old closure; the Card is not a key.
-- Beat 12 begins with the sealwright chamber and recent copying evidence. Beat 11 does not introduce the retired northern-route/map discovery.
+- the inner way opens because the defeated Warden is no longer maintaining the old closure; Nimera explicitly protects that distinction from later memory drift without pretending to know more than the scene shows.
 
 ---
 
-<!-- SOURCE: BEAT_12_SEALWRIGHT_CHAMBER_COPYING_ATTEMPTS_DRAFT_A.md | BLOB: 2f31a47660b21aa64e8fa42bf368811057496372 -->
+## Beat 12
+
+**Atomic source:** `BEAT_12_SEALWRIGHT_CHAMBER_COPYING_ATTEMPTS_DRAFT_A.md`  
+**Source SHA-256:** `b028b0fbc77a0abf38198d30c25b8fabf916b50f4f363729ac98d1b0bce54d05`
 
 # Chapter 3 — Beat 12
 # Sealwright Chamber / The Copying Attempts
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — NATURAL-TURN RHYTHM PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
-**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the post-Warden situation, the physical evidence progression, the required distinction between visible copying and genuine magical authority, the no-map correction, the Caelora exit state, and reveal firewalls. It was not given a speaker order or assigned one required conclusion to each party member.
-
-**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. The key evidentiary distinctions now remain in the mouth of the person who owns them instead of being split into one-sentence handoffs.
+**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, then audited under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` and current Ilyra character authority. The physical evidence progression, distinction between visual copying and genuine magical authority, no-map correction, Caelora exit state, and reveal firewalls remain fixed. Nimera's evidence discipline remains intact; Ilyra contributes through research questions, inference, and ordinary reaction rather than becoming the default Card-custody or scene-closing authority.
 
 ---
 
@@ -2459,7 +3200,9 @@ Nimera looks across the work surface without touching anything.
 
 **CYANIS:** Which part?
 
-**NIMERA:** Excellent question. All of it.
+**NIMERA:** Excellent question. All of it. Actually—no, the floor is probably safe. I am willing to extend provisional trust to the floor.
+
+**TORREN:** Generous.
 
 Torren is looking at a clean scrape through old residue near one of the clamps.
 
@@ -2469,7 +3212,7 @@ Nimera follows his attention.
 
 There are discarded practice impressions beside the Ancient tools: rough seal faces pressed into wax / clay / test parchment, some cracked, some incomplete.
 
-**NIMERA:** No. And neither is that.
+**NIMERA:** No. And neither is that. Or that. Shit, there's a sequence here.
 
 She looks farther down the bench.
 
@@ -2483,7 +3226,11 @@ Another cleaner still.
 
 **TORREN:** More than once.
 
-**NIMERA:** A lot more than once.
+**NIMERA:** A lot more than once. Early cuts are shallow and wandering. Later ones keep the line. Whoever did this got better in the room, not before they arrived.
+
+**ILYRA:** Meaning time.
+
+**NIMERA:** Time, access, patience, supplies—yes. Maybe instruction, maybe not. Don't let me sneak that one in for free.
 
 ### [GAMEPLAY — FOLLOW THE WORK]
 
@@ -2509,7 +3256,13 @@ Cyanis stops before one of the later impressions.
 
 **CYANIS:** That's ours.
 
-**NIMERA:** Yes.
+Nimera looks from the impression to him.
+
+**NIMERA:** You're sure?
+
+**CYANIS:** Yes.
+
+**NIMERA:** Good. Then I'm not wasting ten minutes comparing ornamental variance because you recognized your own damn royal Crest.
 
 Several versions of the Crest of Yahtrea sit beside one another.
 
@@ -2529,6 +3282,18 @@ Nimera looks past the face of the seal to the surrounding binding work.
 
 **CYANIS:** Right.
 
+**NIMERA:** No, say it with me because this distinction is going to try to die later: visually accurate is not magically authoritative.
+
+**CYANIS:** I know.
+
+**NIMERA:** You know now. Three hours from now, after five more impossible things, your memory may decide the copy "worked." I am preemptively fighting future you.
+
+**TORREN:** Future him sounds irritating.
+
+**CYANIS:** Present him is standing here.
+
+**NIMERA:** Also irritating.
+
 The receiving ring around that attempt is scorched.
 
 So is the next one.
@@ -2541,13 +3306,17 @@ Torren looks across the damage.
 
 Nimera crouches only enough to read the surviving residue and engraved relationship. No one activates the work.
 
-**NIMERA:** Hard enough to hurt a room designed for this.
+**NIMERA:** Hard enough to hurt a room designed for this. That's not one failed attempt. That's repetition under load.
 
 **ILYRA:** Did it work?
 
-Nimera looks from the copied Crest to the failed binding traces.
+Nimera does not answer immediately.
 
-**NIMERA:** I can prove they made the mark. I can prove they tried to make it more than a mark. I cannot prove they ever got the royal response.
+**NIMERA:** I can prove they made the mark. I can prove they tried to make it more than a mark. I can prove they pushed enough power through the attempts to scorch repeated receiving rings.
+
+She points once at the cleanest copy.
+
+**NIMERA:** I cannot prove they ever got the royal response.
 
 Silence.
 
@@ -2555,11 +3324,19 @@ Cyanis looks at the most accurate copy again.
 
 **CYANIS:** Could they have?
 
-Nimera takes another look at the burned working.
+**NIMERA:** Yes.
 
-**NIMERA:** I don't know.
+Everyone looks at her.
 
-That is enough. Nobody repeats the distinction in different wording.
+**NIMERA:** Could. As in physically possible from the evidence we have? I can't rule it out. That's not me saying they did. Those are different fucking sentences and I need all of you to keep them separate.
+
+**TORREN:** We heard you.
+
+**NIMERA:** Good.
+
+A beat.
+
+**NIMERA:** I'm still writing it down.
 
 ### [THE WORKING TRAIL]
 
@@ -2571,17 +3348,25 @@ There are enough repeated tool positions, discarded attempts, and reused work su
 
 Nimera looks over the whole sequence again.
 
-**NIMERA:** Ancient forms first. Then Yahtrean. Then royal-document copies. Finally the Crest.
+**NIMERA:** Cleaner and more specific. Ancient forms first, then older Yahtrean forms, then royal examples, then this. That's a narrowing target.
 
-Nobody needs to summarize the implication further.
+**CYANIS:** Toward the Queen's seal.
+
+**NIMERA:** Toward the Crest used by the Crown. Maybe toward the working royal seal. Again, target versus success.
+
+**CYANIS:** I heard you the first time.
+
+**NIMERA:** Wonderful. Then the second time is reinforcement.
 
 Torren glances back toward the chamber entrance.
 
 **TORREN:** Same person as the books?
 
-**NIMERA:** Maybe. That's all I have.
+Nimera looks at him, then at the work.
 
-Torren accepts it.
+**NIMERA:** Maybe. Same interests, compatible timing, same general access problem. But "same person" would make the mystery tidier, and tidy is exactly when I get suspicious of myself.
+
+**TORREN:** Yeah.
 
 ### [THE RUBY CARD HOLDS]
 
@@ -2597,9 +3382,21 @@ Nimera notices.
 
 **NIMERA:** Good. Stable is easier to write down than whatever the hell it was doing before.
 
-**CYANIS:** Comforting.
+Cyanis looks at it another moment.
 
-**NIMERA:** Wasn't meant to be.
+**CYANIS:** Any reason I should change what I'm doing with it?
+
+Nimera thinks.
+
+**NIMERA:** No new reason. That's not the same as proving the current arrangement safe forever; it means nothing we've found in this room gives me a reason to alter the one arrangement that has stayed stable.
+
+**CYANIS:** Called it.
+
+**NIMERA:** What?
+
+**CYANIS:** The qualifier. I knew it was coming.
+
+**NIMERA:** Good. You're trainable.
 
 No further Card analysis occurs here.
 
@@ -2615,21 +3412,39 @@ Torren looks once more over the progression of discarded work.
 
 **ILYRA:** And access.
 
+**NIMERA:** And either privacy or people who thought the work belonged here. Don't promote that to conspiracy; I'm listing possibilities.
+
+**CYANIS:** I wasn't going to.
+
+Nimera gives him a look.
+
+**CYANIS:** Fine. I was thinking it loudly.
+
 Cyanis looks at the repeated royal Crest attempts.
 
 **CYANIS:** Mirena needs to see this.
 
-**NIMERA:** Copies of it.
+**NIMERA:** Copies of it. Notes, measurements, residue description, progression order. Originals stay exactly where they are unless somebody with actual collection authority decides otherwise.
 
 **CYANIS:** Obviously. I'm learning.
 
-**NIMERA:** Slowly.
+**NIMERA:** Slowly, but I believe in you.
+
+**TORREN:** Dangerous optimism.
+
+**NIMERA:** Shut up.
 
 Ilyra looks toward the exit.
 
-**ILYRA:** Then we're done down here for now.
+**ILYRA:** I would like to see a room with windows again.
 
-Nobody argues.
+**CYANIS:** Strong argument for upstairs.
+
+**NIMERA:** Disturbingly persuasive.
+
+Nimera takes one last look at the cleanest Crest copy.
+
+**NIMERA:** For now.
 
 ### [PLAYER EXIT — END OLD CITY FIELD SECTION]
 
@@ -2655,23 +3470,27 @@ Transition into:
 
 - The current seal-copying correction controls over the superseded older Beat-12 route-relief concept. No new map or north-route evidence appears.
 - The room's physical practice sequence carries most of the exposition: Ancient copies become older Yahtrean copies, then royal-document seals, then repeated Crest of Yahtrea attempts.
-- Cyanis recognizes the late-stage Crest work naturally through familiarity rather than receiving a terminology lecture.
-- Later visual copies are highly accurate, but visible accuracy is kept distinct from the genuine magical authority response.
+- Nimera's Person Brain actively protects the distinction between visual accuracy, attempted magical binding, possible success, and proven success; she repeats herself only because she knows the group may collapse those categories later.
+- Ilyra's research questions (`How close?`, `Did it work?`, `Meaning time`, `And access`) remain because they are genuine evidentiary questions, not caregiver assignments.
+- Cyanis asks about his own Card handling; Ilyra no longer receives the automatic custody/safety question on his behalf.
+- Ilyra does not close the field section for the group. Her final line is an ordinary personal reaction to a long underground day, and Cyanis converts the actual evidence state into the decision to return upstairs.
+- Later visual copies are highly accurate, but visible accuracy remains distinct from genuine magical authority response.
 - Burned / repeated binding work establishes unusually powerful magical effort.
-- The scene states the central evidence boundary once, in one complete Nimera turn: the party can prove the visible copies and the attempts to make them magically meaningful, but not successful reproduction of Lysara's authority response.
-- The recent reader and seal practitioner may be connected, but Beat 12 does not prove they are the same person.
-- the practitioner remains unidentified and is not proven to have authored the suspect Card transport orders.
+- the recent reader and seal practitioner may be connected, but Beat 12 does not prove they are the same person.
 - Cyanis's Card remains stable deep Ruby with no transformation, Prime recovery, manifestation, identification, or gameplay unlock.
 - the party does not test, activate, or create a copied royal seal.
 - on exit, the Old City field section ends immediately and the story cuts directly to Beat 13's private meeting with Mirena.
 
 ---
 
-<!-- SOURCE: BEAT_13_MIRENAS_CONCERN_CRESTHAVEN_LEAD_DRAFT_A.md | BLOB: eb50dd0191145f033ac8cd7c508732a00c73ad9c -->
+## Beat 13
+
+**Atomic source:** `BEAT_13_MIRENAS_CONCERN_CRESTHAVEN_LEAD_DRAFT_A.md`  
+**Source SHA-256:** `437785ab754a27ebe44aa7a86dbfee8ca72e689e4ecd460249ea9acb04441f63`
 
 # Chapter 3 — Beat 13
 # Mirena's Concern / Cresthaven Lead
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL
+## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — PERSON-BRAIN PERFORMANCE PASS
 
 **Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the private-debrief situation, the Old City evidence state, Mirena/Maevra's Crown-side position, the direct-investigation outcome, the existing Chapter-2 map evidence, the Cresthaven identification outcome, and reveal firewalls. It was not given a speaker order or a chronological recap checklist.
 
@@ -2709,11 +3528,7 @@ Mirena's expression sharpens.
 
 **MIRENA:** Using it how?
 
-**NIMERA:** Reading first.
-
-A beat.
-
-**NIMERA:** Then practicing.
+**NIMERA:** Reading first. Then practicing. Probably in that order—no, strike probably. The physical work gets cleaner as it goes inward, and the research trail points toward the same subjects first. That's consistent with reading before practice. It is not a timestamp.
 
 Maevra looks at her.
 
@@ -2727,25 +3542,35 @@ Mirena goes still.
 
 **CYANIS:** Yes.
 
-Nimera gives her only the part that changes the problem.
+Nimera takes the next part before Cyanis can flatten it.
 
-**NIMERA:** Ancient forms first. Then older Yahtrean seals. Then royal-document seals.
+**NIMERA:** Ancient forms first, then older Yahtrean forms, then royal examples, then repeated Crest copies. Visually, the later ones get very good.
 
-**TORREN:** Work gets cleaner as it goes.
-
-**NIMERA:** Eventually the Crest.
-
-Mirena looks between them.
+**TORREN:** Cleaner every time.
 
 **MIRENA:** Did any of them answer like the Queen's?
 
-**NIMERA:** Nothing we found proves it.
+**NIMERA:** Nothing we found proves that. We can prove somebody tried to make the copies more than visual marks. We can prove they pushed hard enough to scorch equipment built for sealcraft. We cannot prove they got royal authority out of it.
 
-**MIRENA:** How hard were they trying?
+Mirena studies Nimera for a beat.
 
-**NIMERA:** Hard enough to scorch work surfaces built for sealcraft.
+**MIRENA:** Could they have?
 
-That lands.
+**NIMERA:** Could? Yes. Proven? No. I know that's an ugly answer.
+
+**MIRENA:** Ugly is fine. Wrong is expensive.
+
+Nimera nods once, immediately liking the distinction.
+
+**NIMERA:** Good. Keep saying things like that.
+
+Cyanis glances at her.
+
+**CYANIS:** She's a princess, Pellan.
+
+**NIMERA:** That doesn't make good methodology less rare.
+
+Maevra's mouth almost moves.
 
 ### [THE CROWN-SIDE PROBLEM HAS NOT BECOME EASIER]
 
@@ -2753,21 +3578,23 @@ Torren glances at the custody material already on the table.
 
 **TORREN:** Any luck up here?
 
-**MAEVRA:** No gap. No theft window.
+Maevra answers without dressing it up.
 
-Mirena looks back at the party.
+**MAEVRA:** No clean gap. No theft window we can prove. Everyone who signed for the seal still swears the same sequence.
 
-**MIRENA:** Nothing useful.
+**MIRENA:** Which means the paperwork remains annoyingly innocent.
 
-A beat.
-
-She looks at the copied evidence from below, then at the custody records.
-
-**MIRENA:** So somebody reached restricted material, spent serious magic learning the Crest, and the real seal still has no clean access story.
-
-**CYANIS:** That's worse when you say it together.
+**NIMERA:** The paperwork can be innocent and still wrong.
 
 **MIRENA:** I know.
+
+Nimera stops herself from launching into the explanation.
+
+**NIMERA:** Right. Sorry. You already know.
+
+**MIRENA:** I appreciate the restraint.
+
+**NIMERA:** Don't. It may not happen twice.
 
 ### [THE OTHER THING THAT CHANGED]
 
@@ -2791,15 +3618,31 @@ Mirena looks at her.
 
 **MIRENA:** I was hoping that sentence improved.
 
-**NIMERA:** It does not.
+**NIMERA:** It gets worse before it gets more precise.
 
-Cyanis gives the important sequence without turning it into a theory.
+Cyanis takes over the sequence.
 
 **CYANIS:** It assessed all four of us first. Then attacked.
 
 **MIRENA:** Assessed how?
 
-**ILYRA:** Old ward-work. Light across the whole group. Deliberate.
+**ILYRA:** Old ward-work. Light across the whole group. Deliberate movement, but we don't know what it was measuring.
+
+**NIMERA:** Thank you.
+
+Ilyra looks at her.
+
+**ILYRA:** For what?
+
+**NIMERA:** Saying measuring instead of judging.
+
+**CYANIS:** It tried to kill us either way.
+
+**NIMERA:** Outcome is not vocabulary.
+
+**CYANIS:** There she is.
+
+He continues before she can answer.
 
 **CYANIS:** After we beat it, it stayed active long enough to give us two messages.
 
@@ -2815,19 +3658,19 @@ The room goes quiet.
 
 **MIRENA:** Exact wording?
 
-**NIMERA:** As close as the surviving language allows. The order matters more than any prettier translation.
+**NIMERA:** As close as the surviving language allows. And the order is exact. Previous error first. Last sentinel confirmed second. Then complete shutdown.
 
-**MIRENA:** And then the Card changed.
+**MIRENA:** Card?
 
-**CYANIS:** After the Warden went completely dead.
+**CYANIS:** Changed only after the Warden went completely dead.
+
+**NIMERA:** Immediately after, which is suspicious as hell and still not proof of causation.
 
 Mirena looks at the Ruby Card again.
 
 **MIRENA:** Do we know what Last Sentinel is?
 
 **NIMERA:** No.
-
-Mirena accepts the answer immediately.
 
 **MIRENA:** Good.
 
@@ -2837,51 +3680,61 @@ Nimera looks faintly offended.
 
 **MIRENA:** You left it unattended.
 
+**NIMERA:** Fine. That's technically on me.
+
 ### [MIRENA'S CONCERN]
 
 Mirena stops looking at the Card and returns to the table.
 
-**MIRENA:** Someone got into places most people don't know exist and had enough magic to keep pushing when the work fought back.
+**MIRENA:** I don't yet know whether our breach is physical, magical, political, or some miserable combination of all three. I know the Queen did not issue those orders. I know her seal answered them. I know somebody has been researching old seal practice and practicing the royal Crest beneath my city.
 
-A beat.
+She looks at the custody records.
 
-**MIRENA:** I don't know which part of this is access, which part is magic, or which office I can safely assume is clean.
+**MIRENA:** What I do not know is the part that decides who I can safely tell.
+
+That quiets the room.
 
 Torren glances toward the custody records.
 
-**TORREN:** Physical or political door.
+**TORREN:** Could be more than one person.
 
-**MIRENA:** Exactly.
-
-**MIRENA:** Until I know more, this does not go through every office that would normally be entitled to hear it.
+**MIRENA:** Yes.
 
 **CYANIS:** You think someone's inside the Crown.
 
-**MIRENA:** I think somebody has access they should not have.
+Mirena meets his eyes.
 
-She meets his eyes.
+**MIRENA:** I think somebody has access they should not have. That is enough for caution and not enough for treason.
 
-**MIRENA:** I'm not promoting that to treason until I can prove it.
+**NIMERA:** Thank you.
 
-Cyanis nods.
+Mirena looks at her.
+
+**NIMERA:** Sorry. Reflex. People love promoting suspicion into accusation because accusation feels like progress.
+
+**MAEVRA:** It usually isn't.
+
+Nimera turns toward her.
+
+**NIMERA:** I also like you.
+
+**MAEVRA:** Dangerous habit.
 
 ### [THE REQUEST]
 
 Mirena looks at all four of them rather than only Cyanis.
 
-**MIRENA:** Keep working this with me.
+**MIRENA:** Keep working this with me. Directly. If you find something that changes the problem, it comes to me or Maevra first. Not a clerk, not a commander who happens to outrank you, not a friend who asks the right question in the wrong hallway.
 
-A beat.
+**CYANIS:** Understood.
 
-**MIRENA:** Directly.
+**ILYRA:** Yes.
 
-Cyanis looks once at Ilyra, Torren, and Nimera.
+Torren nods once.
 
-Nobody performs a vote.
+Nimera is quiet for half a beat longer than expected.
 
-**CYANIS:** All right.
-
-**NIMERA:** You do understand I already followed them into a sealed dead civilization and fought its furniture.
+**NIMERA:** You do understand I followed these three into a sealed dead civilization, got trapped behind a wall, fought its furniture, and then voluntarily kept going.
 
 Mirena looks at Cyanis.
 
@@ -2891,11 +3744,11 @@ Mirena looks at Cyanis.
 
 **NIMERA:** Promising start, though.
 
-Ilyra almost smiles.
+**ILYRA:** Very long day.
 
-**ILYRA:** We keep going.
+**NIMERA:** See? She understands me.
 
-That is enough.
+**ILYRA:** I didn't say that.
 
 ### [THE OLD MAP COMES BACK]
 
@@ -2912,11 +3765,11 @@ This is **not new evidence**. It is the same old material already reported in Ca
 
 Mirena looks at the copied map again.
 
-**MIRENA:** I still hate that.
+**MIRENA:** I've spent years reading old Crown history for fun, and I still don't have a version of that mark that makes this reasonable.
 
 **NIMERA:** The Crest?
 
-**MIRENA:** The fact that the Crest of a kingdom that did not exist is sitting on a map older than the kingdom.
+**MIRENA:** The impossible one.
 
 **TORREN:** That's the part.
 
@@ -2928,7 +3781,13 @@ Torren does.
 
 He keeps the uncertainty intact rather than pretending the Ancient map is perfectly modern.
 
-**TORREN:** This is the best fit. Mountains here. Old route comes out of Caelora on this side. Position's approximate.
+**TORREN:** Best fit. Mountains here. Old route comes out of Caelora on this side. Position's approximate.
+
+**NIMERA:** How approximate?
+
+**TORREN:** Enough that I wouldn't build a house on it. Not enough that I'd ignore a fort-sized match.
+
+Nimera nods, satisfied.
 
 Mirena traces the modern relationship mentally / against a current Crown map already available in the room.
 
@@ -2958,15 +3817,23 @@ Torren looks at the two maps.
 
 **TORREN:** Close enough to check.
 
-**NIMERA:** And the Crest?
+**NIMERA:** And the Crest on the old source is still completely impossible.
+
+**MIRENA:** Yes.
+
+Nimera leans over the map, already thinking too quickly.
+
+**NIMERA:** Unless the symbol predates—no. Stop. That's exactly the kind of leap we don't get to make yet.
+
+Cyanis looks at her.
+
+**CYANIS:** Did you just interrupt yourself?
+
+**NIMERA:** Somebody had to.
 
 Mirena looks back at the Ancient copy.
 
-**MIRENA:** Still impossible.
-
-A beat.
-
-**MIRENA:** But now it has an address.
+**MIRENA:** Still impossible. But now it has an address.
 
 ### [BEAT END]
 
@@ -2988,27 +3855,27 @@ Transition into:
 
 ## Beat-13 production notes
 
-- The Old City debrief is selective rather than chronological. Mirena asks what changed and follows only the implications that affect current decisions.
-- Maevra's dialogue density remains deliberately low and limited to the Crown-side custody result.
-- Beat 12's mark-versus-authority distinction is not re-litigated here; Mirena asks the one operational question that matters: did any copy prove the Queen's response?
+- The Old City debrief remains selective rather than chronological, but speakers now hold complete thoughts and interrupt only when character or evidence gives them a reason.
+- Maevra's dialogue density remains deliberately low, but her lines sound like her own operational judgment rather than a one-line data relay.
+- Nimera's active brain appears in the debrief through correction, self-correction, methodological impatience, and natural profanity without stealing Mirena's authority over the room.
 - the Warden report preserves exact sequence and timing without classifying Last Sentinel or the Ruby Card.
-- Mirena's concern emerges from access, power, institutional exposure, and trust rather than from recapping every clue.
-- Mirena asks the four-person party to continue directly with her; the group agrees without a loyalty speech or four separate confirmations.
+- Mirena now gets a longer operational turn explaining why uncertainty changes who she can trust, rather than distributing that thought across multiple speakers.
+- Mirena's renewed look at the impossible Crest now naturally exposes her genuine personal interest in old Crown history without turning her into an omniscient historian or explaining the mark.
 - the Cresthaven lead comes from revisiting the existing Chapter-2 Ancient map/mural copy. Beat 13 does not invent a new map.
-- Mirena identifies the marked northern structure as **probably Cresthaven** by comparing the old geography to current Crown knowledge. The exact ancient meaning of the Crest remains unresolved.
-- Beat 14 owns the explicit instruction to rest for the night and the next-morning departure structure.
+- Nimera begins to overreach on the Crest and cuts herself off, showing the brain's evidence discipline from inside her own speech rather than via an external correction.
 
 ---
 
-<!-- SOURCE: BEAT_14_REST_IN_CAELORA_MORNING_DEPARTURE_DRAFT_A.md | BLOB: 4f617b7ebffc5f98ade9c50f758dd021c722af74 -->
+## Beat 14
+
+**Atomic source:** `BEAT_14_REST_IN_CAELORA_MORNING_DEPARTURE_DRAFT_A.md`  
+**Source SHA-256:** `b1397defa1d41fd92be3121fec325033baeb464cb78b8d07ce1adc880be41bbc`
 
 # Chapter 3 — Beat 14
 # Rest in Caelora / Morning Departure
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — NATURAL-TURN RHYTHM PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
-**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received only the rest-before-departure outcome, the need for a genuine four-person decompression scene, the next-morning preparation window, and reveal boundaries. No evening topic, joke, emotional lesson, or bonding milestone was prescribed.
-
-**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Quiet evening conversation now allows a speaker to finish a thought before yielding; rapid one-line comedy remains where the joke actually depends on it.
+**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, then audited under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` and current Ilyra character authority. The rest-before-departure outcome, four-person decompression scene, next-morning preparation window, and reveal boundaries remain fixed. This pass removes the remaining party-mother behavior from Ilyra without flattening the low-pressure chemistry established by the Nimera pass.
 
 ---
 
@@ -3020,21 +3887,27 @@ Cyanis looks at Torren's copied map again.
 
 **CYANIS:** We could be out before midnight.
 
-**MIRENA:** No.
+**MIRENA:** Absolutely not.
 
 Cyanis looks up.
 
 **CYANIS:** No?
 
-**MIRENA:** Cresthaven has been abandoned for years. It can survive one more night without you. Eat, sleep, and leave in the morning when you're ready.
+**MIRENA:** You have spent most of the day underground, fought an Ancient Warden, watched a Card change state in your hand, and then stood in a seal workshop arguing about whether somebody successfully copied royal authority. Cresthaven has been abandoned for years. It can survive one more night without you. Eat, sleep, leave in the morning when you're ready.
 
-Ilyra says nothing, but the look she gives Cyanis is unhelpfully satisfied.
+Ilyra looks at Cyanis.
 
-**CYANIS:** You don't have to look that pleased.
+**ILYRA:** I was going to let you finish that argument before I enjoyed the answer.
 
-**ILYRA:** I didn't say anything.
+**CYANIS:** You could've warned me.
 
-**CYANIS:** Worse.
+**ILYRA:** This was better.
+
+**NIMERA:** For the record, I support the princess's tyrannical food-and-sleep policy.
+
+**CYANIS:** Nobody asked.
+
+**NIMERA:** I am learning that does not reliably stop me.
 
 Mirena gathers the modern map back toward herself.
 
@@ -3042,11 +3915,21 @@ Mirena gathers the modern map back toward herself.
 
 **TORREN:** What kind of crew?
 
-**MIRENA:** The kind that can tell me whether the roof is going to fall on you before you decide to stand under it.
+**MIRENA:** The kind that can tell me whether the roof is going to fall on you before one of you decides standing under it is investigative rigor.
 
-**NIMERA:** Useful specialty.
+Nimera opens her mouth.
 
-**MIRENA:** I try. Now go be unavailable for a few hours.
+**MIRENA:** That was not aimed only at Cyanis.
+
+Nimera closes it again.
+
+**NIMERA:** Unfairly perceptive.
+
+**MIRENA:** Consider this a temporary royal prohibition on usefulness.
+
+**NIMERA:** I don't think that's a power you have.
+
+**MIRENA:** Then challenge the order after breakfast.
 
 That ends the meeting.
 
@@ -3080,13 +3963,15 @@ Looks at the empty spot.
 
 Looks at Torren.
 
-**NIMERA:** I knew where that was. You moving it after I reached for the spoon does not prove otherwise.
+**NIMERA:** I knew where that was. You moving it after I reached for the spoon does not prove I was about to dip a spoon in ink.
 
 **TORREN:** Spoon didn't.
 
+**NIMERA:** That's not evidence. That's a failed outcome.
+
 Cyanis keeps eating.
 
-**CYANIS:** Strong evidence.
+**CYANIS:** That's true.
 
 Nimera looks at him.
 
@@ -3096,19 +3981,29 @@ Nimera looks at him.
 
 Ilyra takes a piece of bread.
 
-**ILYRA:** He's right.
+**ILYRA:** He moved it because you were about to put the spoon in it.
 
-**NIMERA:** Betrayal from every direction.
+**NIMERA:** You cannot know that.
 
-**TORREN:** Eat.
+**ILYRA:** I watched you.
 
-Nimera looks at him again.
+**NIMERA:** Eyewitness testimony is famously—
 
-**NIMERA:** Don't make that an order.
+**ILYRA:** Then prove him wrong and use the spoon on the stew.
 
-**TORREN:** Wasn't.
+Nimera stops.
 
-She considers that, then finally takes a bite.
+A beat.
+
+**NIMERA:** That is manipulation.
+
+**ILYRA:** Effective?
+
+Nimera takes a bite.
+
+**NIMERA:** Irrelevant.
+
+Ilyra smiles into her drink.
 
 A little silence settles without becoming awkward.
 
@@ -3132,19 +4027,21 @@ Torren takes a bite without looking at him.
 
 Nimera, still chewing, points at Torren with her spoon.
 
-**NIMERA:** That one was good. Brief, accurate, needlessly unpleasant.
+**NIMERA:** That one was excellent. Brief, accurate, needlessly unpleasant. Very efficient.
 
 **TORREN:** Thanks.
 
-**NIMERA:** Don't get used to it.
+**NIMERA:** Don't get smug. You'll ruin it.
 
 **TORREN:** Wasn't planning to.
 
-Ilyra looks between them.
+Ilyra looks around the room.
 
-**ILYRA:** This is going well. Nobody's bleeding, nobody's trying to murder an ancient wall, and the food is still on the table.
+**ILYRA:** First room today that hasn't trapped, assessed, attacked, or authenticated anybody.
 
-**NIMERA:** Extremely low standard.
+Nimera looks at her.
+
+**NIMERA:** That is an alarmingly low standard.
 
 **ILYRA:** Today earned it.
 
@@ -3162,27 +4059,63 @@ Torren reaches over and turns the ink pot cap closed.
 
 Nimera looks at him.
 
-**NIMERA:** I was using that. Closing it doesn't change the fact that I was still working.
+**NIMERA:** I was using that.
 
 **TORREN:** Were.
 
-**NIMERA:** That's not how tense works.
+**NIMERA:** Closing the cap does not alter the temporal status of the work.
 
-**TORREN:** Is now.
+**TORREN:** Did now.
 
-Nimera looks ready to argue.
+**NIMERA:** That is not how tense works, and I refuse to lose a grammar argument to a man who annotates maps like punctuation costs money.
 
-Then yawns again.
+**TORREN:** Still closed.
 
-Ilyra hides a smile behind her drink.
+Nimera reaches for the ink pot.
 
-**NIMERA:** All of you are unbearable. I met you this morning and somehow that already feels like an unreasonable amount of time.
+**ILYRA:** Careful. Reopening it makes `were` correct again.
 
-**CYANIS:** Long day.
+Nimera stops with her hand halfway there.
 
-**NIMERA:** Very.
+Then looks at Ilyra.
 
-She stacks the notes anyway.
+**NIMERA:** Oh, go fuck yourselves with the same spoon—no, that's logistically impossible unless you take turns. Fine. Take turns. Same spoon.
+
+Ilyra laughs.
+
+**NIMERA:** Cyanis, help me.
+
+Cyanis keeps eating.
+
+**CYANIS:** I'm staying out of this. You were very clear.
+
+Nimera stares at him.
+
+**NIMERA:** I hate consistency when it becomes inconvenient.
+
+She yawns again.
+
+A beat.
+
+**NIMERA:** Fine. I am tired. That does not make any of you correct in principle.
+
+**TORREN:** Sure.
+
+**NIMERA:** That "sure" was hostile.
+
+**ILYRA:** Write down `hereditary smugness` and defend it tomorrow.
+
+**NIMERA:** I do not need sleep to defend that classification.
+
+**TORREN:** Sure.
+
+Nimera points at him.
+
+**NIMERA:** See? Repeated evidence.
+
+Ilyra is laughing too hard to answer immediately.
+
+Nimera stacks the notes anyway.
 
 No one congratulates her.
 
@@ -3224,9 +4157,21 @@ Torren looks over the group once.
 
 **CYANIS:** Enough.
 
-**NIMERA:** Inspiring.
+**NIMERA:** That is a terrible answer to a readiness question.
 
-**ILYRA:** Go.
+**CYANIS:** Are *you* ready?
+
+Nimera checks that her satchel is actually closed.
+
+**NIMERA:** Enough.
+
+Cyanis smiles.
+
+**NIMERA:** Don't.
+
+Ilyra heads for the exit.
+
+**ILYRA:** Come on.
 
 The road journey is skipped.
 
@@ -3242,28 +4187,31 @@ Transition into:
 
 ## Beat-14 production notes
 
-- Mirena's rest instruction is practical and brief. She does not explain the thematic value of rest.
-- Mirena will bring Maevra and an organized Crown work crew to Cresthaven later the next day; the party is told not to wait for them.
+- Mirena owns the decision to rest because she is the authority figure ending the working day; Ilyra is not silently positioned as the person who was already supervising Cyanis's food or sleep. Mirena's mock-royal `temporary prohibition on usefulness` lets her private/social register show without implying that the party is already her intimate inner circle.
 - the evening scene has no required lore topic or emotional milestone. It is simply the first low-pressure ordinary stretch for Cyanis, Ilyra, Torren, and Nimera as the current permanent four.
-- the interaction emerges from fatigue, food, work habits, and ordinary irritation rather than from characters discussing how they feel about becoming a group.
-- quiet-scene floor holding now varies naturally: Nimera and Ilyra may finish two- or three-sentence thoughts while Torren remains characteristically terse and Cyanis moves between both rhythms.
-- Ilyra does not become the party mother; she does not order everyone to bed or translate their emotional state.
-- Nimera does not perform gratitude or a new-member speech. She is simply present and already arguing about mundane things.
+- Nimera's longer floor-holding remains strongest when she is tired and stubborn about trivial distinctions. Her spoon profanity now uses the current voice rule: spontaneous absurdity followed by an immediate correction until the ridiculous phrase becomes internally workable.
+- Cyanis's response to Nimera's distinction is socially responsive rather than another repeated `___ distinction` construction; ordinary agreement remains available when it fits the exchange.
+- Torren still caps the ink because *he* is the one directly engaged in the cutlery/ink argument; Ilyra joins by weaponizing grammar and laughing, not by confiscating Nimera's work or ordering her to bed.
+- Ilyra's `prove him wrong and use the spoon on the stew` line is teasing manipulation, not food enforcement; Nimera remains free to comply, refuse, or argue.
+- Ilyra's recap joke is about the day's absurd events rather than whether everyone is fed, bleeding, or properly managed.
+- no one becomes the party parent. Nimera reaches `I am tired` herself and closes her own notes.
+- Torren's short replies in this scene are retained because the bread/ink/grammar exchanges work at that rhythm. **Terseness is not a target.** By Chapter 3 Torren is already socially comfortable with Cyanis and Ilyra and may use longer ordinary turns whenever his interest, mood, or the conversation earns them.
+- Torren and Nimera are still new acquaintances here. The ink argument establishes useful friction and early social chemistry, not an already-familial or paternal relationship.
 - no investigation finding, dream, attack, magical escalation, Card transformation, Prime event, or new Cresthaven lore occurs.
-- the next morning is player-controlled preparation in Caelora with no ordinary walking dialogue.
 - selecting `Leave for Cresthaven` skips the road and hands directly into Beat 15.
 
 ---
 
-<!-- SOURCE: BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_DRAFT_A.md | BLOB: 1f2a4dd5b9d21350a497e392af420349838865e1 -->
+## Beat 15
+
+**Atomic source:** `BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_DRAFT_A.md`  
+**Source SHA-256:** `2b27c5151fed431cc1f3358a6ec14883e468340188953a85bf391001834c6735`
 
 # Chapter 3 — Beat 15
 # Cresthaven Headquarters / Cleanup Window
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — NATURAL-TURN RHYTHM PASS
+## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
-**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the Cresthaven arrival state, operational-headquarters outcome, visible older Diysean layer, Regional Hunt #3 access notice, Mirena/Maevra departure state, and cleanup-window handoff. It was not given a required tour dialogue, a headquarters ceremony, or one reaction line per party member.
-
-**Rhythm note:** revised under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. Mirena now gives complete operational instructions in natural units rather than yielding after every sentence; brief tour banter remains terse where appropriate.
+**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, then audited under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` and current Ilyra character authority. The Cresthaven arrival state, operational-headquarters outcome, visible older Diysean layer, Regional Hunt #3 access notice, Mirena/Maevra departure state, and cleanup-window handoff remain fixed. Nimera's curiosity remains intact; Ilyra is no longer assigned automatic supervision of Cyanis or the sealed-space safety line.
 
 ---
 
@@ -3291,21 +4239,31 @@ Cyanis takes in the amount of work already happening.
 
 **CYANIS:** You beat us here.
 
-**MIRENA:** Apparently.
+**MIRENA:** Apparently you listened when I told you to sleep.
+
+**CYANIS:** Historic occasion.
+
+**ILYRA:** I wanted it witnessed.
+
+**NIMERA:** I can make a note.
 
 Torren looks up toward the roofline.
 
 **TORREN:** Been here a while.
 
-**MIRENA:** Long enough to find three leaks and a floor nobody is allowed to stand on.
+**MIRENA:** Long enough to find three leaks, a rotten stair, and a floor nobody is allowed to stand on.
 
 From farther inside the yard, Maevra looks over from whatever practical work she is helping coordinate.
 
 **MAEVRA:** Four leaks.
 
-Mirena looks toward her.
+Mirena turns her head.
 
-**MIRENA:** Excellent. It's improving already.
+**MIRENA:** Excellent. The fort continues to exceed expectations.
+
+**MAEVRA:** Low expectations.
+
+**MIRENA:** That's why they're useful.
 
 Maevra goes back to the work instead of joining the conversation.
 
@@ -3331,27 +4289,33 @@ The stone beneath the Crown wall is older, larger, and fitted differently.
 
 **TORREN:** No.
 
-Cyanis looks at the sealed lower opening.
+Nimera steps closer without touching it.
+
+**NIMERA:** Different cut, different jointing, dark metal inside the masonry. That is not a later repair hiding under the fort; the fort is sitting on it.
 
 **CYANIS:** Another old door.
 
-**ILYRA:** Don't.
+Ilyra looks at him.
 
-**CYANIS:** I didn't do anything.
+**ILYRA:** You're starting to sound disappointed by ordinary walls.
 
-**ILYRA:** That's why I'm getting ahead of it.
+**CYANIS:** Ordinary walls have been less interesting lately.
 
-Mirena glances at the sealed arch.
+**NIMERA:** For once, I'm with him. I only want to look.
 
-**MIRENA:** Anything still sealed stays that way until somebody has a reason to open it.
-
-Nimera keeps looking at it.
+**MIRENA:** You may look. Anything still sealed stays sealed until somebody has a reason to open it.
 
 **NIMERA:** Define reason.
 
-**MIRENA:** Something better than curiosity.
+**MIRENA:** Something better than curiosity, professional offense, or "it was bothering me."
 
-Nimera looks faintly disappointed.
+Nimera looks genuinely aggrieved.
+
+**NIMERA:** You prepared that list for me specifically.
+
+**MIRENA:** I met you yesterday.
+
+**CYANIS:** Long day.
 
 ### [THE HANDOFF]
 
@@ -3361,13 +4325,23 @@ A crew member carries a damaged chair out past them.
 
 Mirena looks at the four permanent party members.
 
-**MIRENA:** While you're working with me, this is your base. Operationally. I am not giving you a fort; the paperwork alone would make me hate you.
+**MIRENA:** While you're working with me, this is your base. Operationally. Sleep here, keep working records here, use the supplies, come and go as the investigation needs. I am not giving you a fort. If any of you start behaving as though I have, I will produce paperwork until the fantasy dies.
 
 Cyanis looks around the half-clean room.
 
 **CYANIS:** Wasn't asking for one.
 
 **MIRENA:** Good.
+
+**NIMERA:** Hypothetically, how much paperwork?
+
+Mirena looks at her.
+
+**NIMERA:** Academic question.
+
+**MIRENA:** Enough.
+
+**NIMERA:** Terrifying.
 
 Torren checks the nearest wall with one hand.
 
@@ -3376,6 +4350,14 @@ Torren checks the nearest wall with one hand.
 **NIMERA:** Inspiring standard.
 
 **ILYRA:** Better than the last place we slept underground.
+
+**CYANIS:** Much better roof.
+
+A crew member outside immediately shouts something about another leak.
+
+Cyanis looks up.
+
+**CYANIS:** Probably.
 
 Nobody argues with that.
 
@@ -3392,15 +4374,27 @@ Other rooms remain dusty, sealed, damaged, or under active repair.
 
 Mirena is about to turn back toward the yard when she remembers something.
 
-**MIRENA:** One more thing. The Archive crew opened a side passage after you left yesterday—lower side of the working collection. They've marked the entrance. They got the closure open, then stopped, and I don't know what's in there.
+**MIRENA:** One more thing. Archive crew opened a lower side passage off the working collection after you left yesterday. It's marked. They stopped at the threshold and sent word rather than walking into it.
 
-Nimera straightens slightly.
+Nimera straightens so quickly that Torren notices.
 
 **NIMERA:** Was it there when we went down?
 
 **MIRENA:** Not accessibly.
 
-**ILYRA:** Stopping at the threshold was sensible.
+**NIMERA:** "Opened" how? Collapse cleared? Existing closure moved? Somebody found a latch? Those are very different—
+
+**MIRENA:** Pellan.
+
+Nimera stops.
+
+**MIRENA:** The report says debris clearance exposed a side closure, the closure could be opened from the accessible side, and the crew did not proceed beyond it. You may interrogate the architecture yourself when you're rested and prepared.
+
+A beat.
+
+**NIMERA:** That was an excellent answer.
+
+**ILYRA:** I already like whoever wrote that report.
 
 **MIRENA:** I occasionally employ sensible people.
 
@@ -3410,11 +4404,29 @@ Mirena gives her a look.
 
 **MIRENA:** You're settling in quickly.
 
+**NIMERA:** I have been told I occupy space efficiently.
+
+Torren looks at Cyanis.
+
+**TORREN:** Table's doomed.
+
+**CYANIS:** What table?
+
+**TORREN:** Exactly.
+
+Nimera narrows her eyes at both of them.
+
 Cyanis looks back toward the direction of Caelora as if he can somehow see the Archives from here.
 
 **CYANIS:** You want us to check it.
 
-**MIRENA:** When you're ready. Not before.
+**MIRENA:** When you're ready. Not because I told you there is a door and your collective judgment immediately deteriorated.
+
+**CYANIS:** That's mostly her.
+
+**NIMERA:** Fuck you.
+
+**ILYRA:** Very settled in.
 
 That is the entire in-world unlock.
 
@@ -3428,13 +4440,23 @@ Maevra crosses over while tightening a glove / carrying a practical work item / 
 
 She looks at Torren, then at the west side of the fort.
 
-**MAEVRA:** West wall's soft under the moss.
+**MAEVRA:** West wall's soft under the moss. Looks solid from the yard. Isn't.
 
 **TORREN:** Saw it.
 
-**MAEVRA:** Good.
+**MAEVRA:** Good. Keep the others off it until the crew braces it.
 
-That is all she needs to contribute.
+Nimera looks between them.
+
+**NIMERA:** "The others."
+
+**TORREN:** Don't.
+
+**NIMERA:** I said two words.
+
+**MAEVRA:** And somehow I know where the third was going.
+
+Nimera smiles.
 
 Mirena looks at the four.
 
@@ -3444,9 +4466,7 @@ Mirena looks at the four.
 
 **MIRENA:** Consider not waking it.
 
-Ilyra looks at Cyanis.
-
-**ILYRA:** We can do that.
+**ILYRA:** That would make a refreshing change.
 
 **CYANIS:** Why are you looking at me?
 
@@ -3454,9 +4474,13 @@ Ilyra looks at Cyanis.
 
 Torren almost smiles.
 
-**NIMERA:** Also, the impossible part is not really under our control.
+**NIMERA:** Though, technically, the impossible part has not shown any respect for our scheduling preferences so far.
 
 **MIRENA:** I was afraid you'd say that.
+
+**NIMERA:** I can make it less precise if that helps.
+
+**MIRENA:** It won't.
 
 Mirena and Maevra leave for Caelora.
 
@@ -3501,30 +4525,29 @@ There is no mandatory emotional chapter-closing speech.
 ## Beat-15 production notes
 
 - Cresthaven's hub functions are demonstrated by the active Crown work crew rather than listed by Mirena like a menu.
-- Mirena's headquarters handoff is intentionally short but now uses complete operational turns: the party may use Cresthaven as an operational base while helping her investigate; they are not gifted the property or formally appointed to command it.
+- Mirena's headquarters handoff uses a full natural operational turn and keeps her dry authority intact.
+- Nimera reacts to the older construction and new Archive passage as herself: curious, precise, correction-prone, and willing to keep asking until Mirena deliberately takes the floor back.
+- Ilyra no longer supervises whether Cyanis slept, preemptively tells him not to engage with the old door, or volunteers the party's future safety compliance. Her lines are teasing, ordinary reaction, and social observation.
+- Ilyra's approval of the archive report is personal appreciation for competent procedure, not a claim that she owns the decision to stop at the threshold.
 - the older Diysean layer is visually undeniable but unexplained. A sealed lower arch provides texture without becoming a new mandatory mystery scene.
-- Maevra follows the Beat-13 correction: she is physically useful and socially present, not a co-exposition narrator. Her only substantive handoff contribution is a practical structural observation to Torren.
-- the Regional Hunt #3 story unlock is concise. Crown workers opened a previously inaccessible Old City Archive passage, marked it, and stopped at the threshold. Mirena does not know what lies beyond and does not name the Archive Judgment Engine.
+- Maevra remains physically useful and socially present, not a co-exposition narrator; her practical warning to Torren is allowed to be a complete thought.
+- the Regional Hunt #3 story unlock remains concise and does not identify what lies beyond.
 - Mirena and Maevra return to Caelora after the operational handoff.
 - Cyanis + Ilyra + Torren + Nimera become the normal Cresthaven resident / traveling party.
-- canonical Chapter-3 Character-Life availability is **C06 + C07**; historical H01/H03 labels are source-key provenance only.
 - Beat 15 ends mainline Chapter-3 dialogue but does not end Chapter 3 itself. The cleanup window remains active until the player deliberately chooses Begin Chapter 4.
 
 ---
 
-# Chapter 3 Cleanup Character-Life Appendix
+## C06 — Nimera Takes Over a Table
 
-These scenes are canonically **C06** and **C07**. The embedded source headers still say H01/H03 because those are legacy atomic source keys; the global Character-Life numbering lock controls the live scene IDs.
-
----
-
-<!-- SOURCE: H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md | BLOB: 71eec7e1e61e847a4de944ed75fcfde11bc085e3 | CANONICAL CHARACTER-LIFE: C06 -->
+**Atomic source:** `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md`  
+**Source SHA-256:** `9886a63f7a893db368bd70b032d976676bf0219dd69beab4a1599098c6030f09`
 
 # Chapter 3 — Character-Life H01
 # Nimera Takes Over a Table
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL
+## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — PERSON-BRAIN PERFORMANCE PASS
 
-**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the Cresthaven cleanup state, the fact that Nimera has already expanded across most of the communal worktable, the two exact user-locked Cyanis/Torren lines, the low-stakes ending state, and reveal firewalls. It was not given the older structural packet's recommended joke order or conversational choreography.
+**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md` and `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. The rehearsal received the Cresthaven cleanup state, the fact that Nimera has already expanded across most of the communal worktable, the two exact user-locked Cyanis/Torren lines, the low-stakes ending state, and reveal firewalls. It was not given a required joke order or conversational choreography.
 
 ---
 
@@ -3556,15 +4579,15 @@ She looks up.
 
 A beat.
 
-Then she laughs.
+Then she laughs hard enough to have to put the pen down.
 
-**NIMERA:** Oh, good.
+**NIMERA:** Oh, good. Fuck, that's a relief.
 
 Cyanis looks at her.
 
 **CYANIS:** Good?
 
-**NIMERA:** I was worried you were both going to become respectable indoors.
+**NIMERA:** I was worried you were both going to become respectable indoors. Apparently the building has not improved either of you.
 
 **TORREN:** No danger.
 
@@ -3572,11 +4595,11 @@ Cyanis looks at her.
 
 **TORREN:** Didn't.
 
-**NIMERA:** I don't care.
+**NIMERA:** I don't care who started it. Actually, no—wait. I care academically. Continue the argument exactly as it was and I'll determine culpability afterward.
 
-She points vaguely between them with the end of her pen.
+**CYANIS:** Absolutely not.
 
-**NIMERA:** Continue when ready.
+**NIMERA:** Coward.
 
 Torren is carrying a rolled route sketch / fort-use map under one arm.
 
@@ -3584,19 +4607,21 @@ He reaches the table and stops.
 
 Looks once across it.
 
+Then again, more slowly.
+
 **TORREN:** Where am I putting this?
 
 Nimera is already writing again.
 
 **NIMERA:** Anywhere free.
 
-Torren looks across the table a second time.
+Torren looks across the table a third time.
 
 **TORREN:** There isn't anywhere free.
 
-Nimera looks up.
+Nimera looks up as though he has made an obviously false claim.
 
-**NIMERA:** That's obviously not true.
+**NIMERA:** That's not true. There are at least four unoccupied surfaces.
 
 Cyanis comes around the other side.
 
@@ -3604,13 +4629,13 @@ He points to a narrow clear patch near the center.
 
 **CYANIS:** There.
 
-**NIMERA:** No.
+**NIMERA:** Fuck no.
 
-**CYANIS:** You just said anywhere free.
+**CYANIS:** You just said unoccupied.
 
-**NIMERA:** That isn't free.
+**NIMERA:** I said unoccupied. I did not say available. Those are not synonyms in a working system.
 
-**CYANIS:** There is nothing on it.
+**CYANIS:** There is literally nothing on it.
 
 **NIMERA:** At the moment.
 
@@ -3618,13 +4643,13 @@ A beat.
 
 **CYANIS:** That's what free means.
 
-**NIMERA:** Not in a working system.
+**NIMERA:** No, free means unallocated. Empty means nothing is physically there. That space is empty and allocated.
 
 Torren looks at the empty patch.
 
 Then at Nimera.
 
-**TORREN:** What's going there?
+**TORREN:** What's allocated to it?
 
 **NIMERA:** Cross-reference stack.
 
@@ -3636,11 +4661,11 @@ Cyanis looks at Torren.
 
 **CYANIS:** She has future paper now.
 
-**TORREN:** Apparently.
+**NIMERA:** Yes, because time proceeds forward and occasionally I plan for it.
 
-Nimera goes back to writing.
+**TORREN:** Future paper.
 
-**NIMERA:** Mock it all you like. It remains reserved.
+**NIMERA:** Say it like that again and I'm reserving your chair.
 
 Torren finds a smaller patch near the corner and starts lowering the rolled map onto it.
 
@@ -3652,7 +4677,7 @@ He stops with the map an inch above the table.
 
 Nimera points without looking.
 
-**NIMERA:** Ink's drying beside it.
+**NIMERA:** Ink's drying beside it. If you put a rolled sheet there, the edge will drag through the wet line, transfer it to the back, and then I get to spend ten minutes deciding whether a black smear is evidence or Harth being impatient.
 
 Torren checks.
 
@@ -3666,13 +4691,15 @@ Cyanis looks betrayed.
 
 **CYANIS:** Don't encourage her.
 
+**NIMERA:** He isn't encouraging me. He is recognizing objective reality. I know those feel similar when you're losing.
+
 **TORREN:** He's right about the armor, by the way.
 
 **CYANIS:** We moved on.
 
 **TORREN:** You did.
 
-Nimera smiles to herself.
+Nimera bites the inside of her cheek to keep from laughing and fails.
 
 ### [THE TABLE, APPARENTLY]
 
@@ -3680,11 +4707,11 @@ Cyanis starts examining the table like a tactical problem.
 
 **CYANIS:** This whole end is notes.
 
-**NIMERA:** Yes.
+**NIMERA:** Three different note groups, yes.
 
 **CYANIS:** That section is books.
 
-**NIMERA:** Also yes.
+**NIMERA:** Two active references, one index, one book I am angry at, and one book I have not decided whether to be angry at yet.
 
 **CYANIS:** That's just a cup.
 
@@ -3694,7 +4721,7 @@ Nimera looks at the cup.
 
 **CYANIS:** It has an entire section.
 
-**NIMERA:** Because knocking it into the notes would be stupid.
+**NIMERA:** Because ink, paper, and liquid should not share a border if I can help it. That's not possessive; that's basic survival.
 
 Torren nods once.
 
@@ -3704,9 +4731,13 @@ Torren nods once.
 
 **TORREN:** Table's.
 
-Nimera looks at him with immediate approval.
+Nimera points at Torren with immediate approval.
 
-**NIMERA:** Sensible.
+**NIMERA:** See? Field judgment. Crude, but occasionally useful.
+
+**TORREN:** Occasionally?
+
+**NIMERA:** One good answer. Don't fucking extrapolate.
 
 Cyanis points to another apparently clear patch.
 
@@ -3722,19 +4753,27 @@ Nimera follows his finger.
 
 Cyanis stares at her.
 
+**CYANIS:** Future lamp.
+
+**NIMERA:** Correct.
+
+**CYANIS:** You hear how insane that sounds.
+
+**NIMERA:** It sounds less insane if you understand planning.
+
 Torren puts the rolled map back under his arm.
 
-**TORREN:** Future lamp.
+**TORREN:** Future lamp's stronger than future paper?
 
-**CYANIS:** Shut up.
+Nimera brightens despite herself.
 
-Nimera is visibly enjoying this now.
+**NIMERA:** Abso-fucking-lutely. Thank you. Because the lamp has a fixed functional requirement tied to light level, whereas the paper is only expected work product. Different confidence classes.
 
-**NIMERA:** For accuracy, the lamp is a much stronger reservation than the future paper.
+Cyanis closes his eyes.
 
-**CYANIS:** Thank you. That's helped tremendously.
+**CYANIS:** I regret asking nothing.
 
-**NIMERA:** You're welcome.
+**NIMERA:** You didn't ask. Harth did. Try to keep up.
 
 ### [NIMERA'S DEFINITION OF SHARING]
 
@@ -3746,21 +4785,17 @@ Cyanis folds his arms.
 
 **CYANIS:** You have taken over the communal table.
 
-**NIMERA:** No.
+**NIMERA:** No, I've taken over most of the usable surface of the communal table while actively using it for communal work. That's different.
 
-**TORREN:** Mostly have.
+**TORREN:** Mostly took it over.
 
-Nimera looks at Torren.
+Nimera turns to him.
 
 **NIMERA:** Mostly is not the same word.
 
 **TORREN:** Knew you'd like that part.
 
-She points at him with the pen again.
-
-**NIMERA:** Correct distinctions should be rewarded.
-
-Cyanis looks around the room.
+**NIMERA:** I do like that part. Correct distinctions should be rewarded.
 
 **CYANIS:** With what? There isn't room for a reward.
 
@@ -3772,7 +4807,25 @@ Nimera laughs again.
 
 **NIMERA:** I'm the one currently using it.
 
-A beat.
+**CYANIS:** Communally.
+
+**NIMERA:** Yes.
+
+**CYANIS:** Alone.
+
+Nimera opens her mouth.
+
+Stops.
+
+Looks around the table.
+
+**NIMERA:** That is an irritatingly effective phrasing and I reject the emotional tone while accepting the factual structure.
+
+Torren snorts.
+
+**CYANIS:** I win.
+
+**NIMERA:** You won one sentence. Calm down.
 
 Torren looks over the organization again.
 
@@ -3780,19 +4833,23 @@ Torren looks over the organization again.
 
 Nimera's expression changes from amused to mildly offended.
 
-**NIMERA:** Obviously.
+**NIMERA:** Obviously. This isn't a mess. A mess is when location stops encoding purpose.
+
+**CYANIS:** That's a sentence nobody has ever needed before.
+
+**NIMERA:** And yet here you are benefiting from it.
 
 Torren points to a small stack without touching it.
 
 **TORREN:** That.
 
-**NIMERA:** Old City seal references already copied and checked against the clean transcription set.
+**NIMERA:** Old City seal references already copied and checked against the clean transcription set. The bottom two are duplicate witnesses with inconsistent dating, so don't use them alone.
 
 Another.
 
 **TORREN:** That.
 
-**NIMERA:** Route material we're not using yet but I'm not putting back in a crate because then someone will put a boot on it.
+**NIMERA:** Route material we're not using yet but I'm not putting back in a crate because then somebody will put a boot on it, bend it, or decide a century-old field copy is a convenient surface for lunch.
 
 Cyanis points at a thin pile partly beneath a book.
 
@@ -3806,11 +4863,15 @@ Cyanis points at a thin pile partly beneath a book.
 
 **CYANIS:** Rubbish with ambition.
 
-Nimera considers that.
+Nimera pauses.
 
-**NIMERA:** Better.
+Looks at the pile.
 
-Torren almost smiles.
+**NIMERA:** Fuck. That's better.
+
+**CYANIS:** Thank you.
+
+**NIMERA:** Don't be proud. You accidentally improved a category.
 
 ### [THE PRACTICAL RESULT]
 
@@ -3822,7 +4883,7 @@ Cyanis notices.
 
 **TORREN:** Works.
 
-**NIMERA:** See? Adaptation.
+**NIMERA:** See? Adaptation. Problem solved without compromising the system.
 
 **CYANIS:** This is not a victory for you.
 
@@ -3842,6 +4903,14 @@ She follows his eyes.
 
 **NIMERA:** Those are in use.
 
+**CYANIS:** By whom?
+
+**NIMERA:** Me.
+
+**CYANIS:** You're over there.
+
+**NIMERA:** Spatial separation does not end use.
+
 He looks at the next chair.
 
 Her satchel is on it.
@@ -3854,7 +4923,7 @@ Her satchel is on it.
 
 She looks around as though genuinely evaluating the question for the first time.
 
-**NIMERA:** Currently?
+**NIMERA:** Currently, or in the planning sense?
 
 Torren immediately starts toward the door.
 
@@ -3866,17 +4935,55 @@ Cyanis points after him.
 
 **TORREN:** Experienced.
 
-Nimera looks back down at her notes, still smiling.
+Nimera calls after Torren.
 
-**NIMERA:** Window ledge is free.
+**NIMERA:** Your map can go on the window ledge if you put something clean under it.
 
-Cyanis looks at the window ledge.
+Torren does not turn around.
 
-Then at her.
+**TORREN:** Knew there was space.
 
-**CYANIS:** For now?
+Nimera freezes.
 
-**NIMERA:** You're learning.
+Cyanis smiles slowly.
+
+**CYANIS:** He got you.
+
+**NIMERA:** No. The window ledge is auxiliary surface, not table surface. Different jurisdiction entirely.
+
+**CYANIS:** Different jurisdiction.
+
+**NIMERA:** Yes, and I can explain exactly why if you'd like.
+
+Cyanis is already walking out.
+
+**CYANIS:** Absolutely not.
+
+**NIMERA:** Then stop repeating it like you're confused.
+
+From the doorway:
+
+**TORREN:** Future explanation.
+
+Nimera throws a scrap of blank paper at him.
+
+It falls several feet short.
+
+Torren leaves.
+
+Cyanis laughs all the way after him.
+
+Nimera looks at the paper on the floor.
+
+**NIMERA:** That was blank. It was not part of the system.
+
+No one is there to answer.
+
+A beat.
+
+**NIMERA:** Fucking cowards.
+
+She retrieves it and goes back to work.
 
 ### [RETURN TO CLEANUP]
 
@@ -3895,7 +5002,9 @@ The records / map room simply feels more inhabited than it did before.
 - The two user-locked opening insult lines are preserved verbatim, in order, and assigned to the correct speakers.
 - Cyanis and Torren's hostility is immediately readable as familiar safe play; nobody mediates or treats it as a real conflict.
 - Nimera reacts with delight and joins the social rhythm without being made timid, childlike, or socially oblivious.
-- The table conflict emerges from practical use: Torren needs somewhere for a fort-use map and discovers that Nimera's organization has consumed every useful patch.
+- Nimera's Person Brain drives the scene strongly: she cannot leave a wording distinction alone, converts mundane table-space arguments into classification arguments, keeps explaining after the practical point is already clear, swears naturally, and occasionally loses the exchange because the others know when to walk away.
+- Torren's short lines are retained because the comic timing and his choices in this specific exchange support them. **Terseness is not a production target or permanent voice quota.** By Chapter 3 he is already socially comfortable with Cyanis and Ilyra and may speak at greater length whenever the scene, interest, argument, or mood earns it.
+- Torren and Nimera are still in their first chapter together. Their exchange is mutual testing, irritation, curiosity, and early respect through competence; no later father/daughter-like shorthand or paternal behavior is present or implied.
 - Nimera is organized rather than messy. Every individual reservation is defensible; the joke is their cumulative footprint.
 - The scene does not state that Nimera belongs, has found a family, or has been granted a place. Her expectation that she will still be working here tomorrow is carried entirely by behavior.
 - Ilyra is not forced into the scene merely to complete the party roster; H03 remains the dedicated Ilyra/Nimera cleanup Character-Life scene.
@@ -3903,12 +5012,15 @@ The records / map room simply feels more inhabited than it did before.
 
 ---
 
-<!-- SOURCE: H03_ILYRA_AND_NIMERA_DRAFT_A.md | BLOB: 2d14e534918240c80589b604c3c462d20b368027 | CANONICAL CHARACTER-LIFE: C07 -->
+## C07 — Ilyra and Nimera
+
+**Atomic source:** `H03_ILYRA_AND_NIMERA_DRAFT_A.md`  
+**Source SHA-256:** `de055c9feadd70c69986ab9952773698706bd16918eedac5b3b3c5904613f9f9`
 
 # Chapter 3 — Character-Life H03 — Ilyra and Nimera
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL
+## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — PERSON-BRAIN PERFORMANCE PASS
 
-**Method note:** generated from the open H03 Character-Life brief plus the current Ilyra and Nimera Agent Brains. No injury, treatment, relationship lesson, emotional disclosure, or plot topic was prescribed. The supply-room premise emerged as a low-stakes collision between Nimera's classification instincts and Ilyra's dry practicality.
+**Method note:** generated from the open H03 Character-Life brief plus the current Ilyra and Nimera Person Agent Brains. No injury, treatment, relationship lesson, emotional disclosure, or plot topic was prescribed. The supply-room premise emerges as a low-stakes collision between Nimera's classification instincts and Ilyra's dry practicality.
 
 ---
 
@@ -3934,41 +5046,57 @@ Ilyra glances over.
 
 **ILYRA:** It is if you stop caring.
 
-Nimera looks at her.
+Nimera slowly looks at her.
 
-**NIMERA:** That's not how categories work.
+**NIMERA:** No. That's surrender disguised as handwriting. "Miscellaneous" means the person sorting either stopped before the problem was solved or never decided what the problem was.
 
-**ILYRA:** It's how boxes work.
+**ILYRA:** It's a box.
+
+**NIMERA:** Boxes can participate in bad systems.
+
+**ILYRA:** Brave position.
 
 Nimera opens the crate.
 
 Inside is exactly the kind of accumulation the label promised: spare cord, candle stubs, loose buttons, chalk, a hinge pin, wax, two buckles that do not match, a folded scrap of cloth, and one spoon.
 
-Nimera picks up the spoon.
+Nimera stops.
+
+She reaches in and picks up the spoon.
 
 **NIMERA:** Why is there a spoon?
 
 **ILYRA:** For eating.
 
-**NIMERA:** In this box.
+**NIMERA:** I know what a spoon is for.
+
+**ILYRA:** You asked.
+
+**NIMERA:** I asked why it is in *this box*.
 
 **ILYRA:** Still probably for eating.
 
-Nimera looks back into the crate.
+Nimera looks from the spoon to the crate.
 
-**NIMERA:** That explains the object. Not the classification.
+**NIMERA:** That explains function. It does not explain classification, storage logic, prior use, or why somebody looked at cord, wax, hardware, chalk, and a single utensil and thought, yes, these are one family now.
 
-**ILYRA:** Spoon.
+**ILYRA:** Maybe they were tired.
 
-**NIMERA:** That's a noun.
+Nimera pauses.
 
-**ILYRA:** Utensil.
+**NIMERA:** That's annoyingly plausible.
 
-Nimera looks at the single spoon in her hand.
+**ILYRA:** Put it back.
 
-**NIMERA:** One-object category.
+**NIMERA:** Absolutely not. Now I need to know whether the spoon is an accident or evidence of a worse sorting principle.
 
-**ILYRA:** Very exclusive.
+Ilyra goes back to the shelf she was searching.
+
+**ILYRA:** You're going to investigate the spoon.
+
+**NIMERA:** I am going to correct the box.
+
+### [THE SORT BEGINS]
 
 Nimera puts the spoon beside the crate rather than back inside.
 
@@ -3978,19 +5106,23 @@ Then the chalk.
 
 Then the wax.
 
+Then the hinge pin.
+
 Small piles begin appearing on the floor beside her.
 
 Ilyra watches for a moment.
 
 **ILYRA:** You're sorting it.
 
-**NIMERA:** I'm correcting it.
+**NIMERA:** I'm correcting it. Sorting implies there was a coherent prior state I am merely rearranging. This is salvage.
 
-**ILYRA:** Of course.
+**ILYRA:** Dramatic.
+
+**NIMERA:** Accurate.
 
 Ilyra reaches down and takes the cord from one of the new piles.
 
-Nimera looks at her hand.
+Nimera's head snaps toward her hand.
 
 **NIMERA:** What are you doing?
 
@@ -4016,7 +5148,7 @@ A beat.
 
 Ilyra starts to walk away with it.
 
-**NIMERA:** Where is it going?
+**NIMERA:** Wait. Where is it going?
 
 Ilyra stops.
 
@@ -4040,11 +5172,29 @@ There is a tiny, unwilling smile there.
 
 **ILYRA:** I can be both.
 
-Nimera considers that.
+**NIMERA:** That's deeply inconvenient.
 
-**NIMERA:** Fair.
+Ilyra starts toward the door again.
 
-She goes back into the crate.
+**NIMERA:** No, wait, I do actually need to know whether you're taking all of it.
+
+**ILYRA:** Why?
+
+**NIMERA:** Because then the category disappears and I don't have to leave an empty pile labeled cord like some kind of fucking memorial.
+
+Ilyra holds up the length she took.
+
+**ILYRA:** Not all of it.
+
+**NIMERA:** Fine. Thank you. Go commit your theft.
+
+**ILYRA:** Supply room.
+
+**NIMERA:** Legally sanctioned theft.
+
+### [THE UNKNOWN PIECE]
+
+Ilyra does not leave yet. She checks another shelf while Nimera goes back into the crate.
 
 A small brass piece comes out next—bent, fitted, clearly manufactured, but no longer attached to whatever once gave it an obvious purpose.
 
@@ -4054,17 +5204,17 @@ Ilyra leans just enough to see it.
 
 **ILYRA:** What's that?
 
-**NIMERA:** I don't know yet.
+**NIMERA:** I don't know yet. Manufactured fitting, probably load-bearing or retaining something, but the wear is asymmetric and this bend might be damage rather than shape. Don't let me call it a bracket yet.
 
 **ILYRA:** Miscellaneous.
 
 Nimera slowly looks at her.
 
-**NIMERA:** No.
+**NIMERA:** Fuck no.
 
 **ILYRA:** Seems accurate.
 
-**NIMERA:** Unknown function is not the same thing as miscellaneous.
+**NIMERA:** Unknown function is not the same thing as miscellaneous. "Unknown" describes the state of our knowledge. "Miscellaneous" describes a collection strategy, usually a shitty one.
 
 **ILYRA:** It's in the miscellaneous box.
 
@@ -4072,7 +5222,7 @@ Nimera slowly looks at her.
 
 **ILYRA:** According to you.
 
-**NIMERA:** According to language.
+**NIMERA:** According to language, evidence, and basic respect for finding things again.
 
 **ILYRA:** Language put `MISC.` on the box.
 
@@ -4080,15 +5230,19 @@ Nimera points the brass piece at her.
 
 **NIMERA:** A tired quartermaster put `MISC.` on the box.
 
-**ILYRA:** You don't know they were tired.
+Ilyra raises an eyebrow.
 
-Nimera pauses.
+Nimera freezes.
 
-**NIMERA:** Fine.
+**NIMERA:** Fuck. No. You're right. I don't know they were tired.
 
-A beat.
+**ILYRA:** I didn't say anything.
 
-**NIMERA:** An irresponsible quartermaster.
+**NIMERA:** Your face did. Fine. An irresponsible quartermaster. Or a perfectly responsible quartermaster under terrible time pressure. Or a person who inherited someone else's box and hated it as much as I do but had actual work to finish.
+
+**ILYRA:** You're defending them now.
+
+**NIMERA:** I'm correcting myself. Don't make it sentimental.
 
 Ilyra laughs once through her nose.
 
@@ -4096,13 +5250,15 @@ Nimera hears it.
 
 **NIMERA:** There. You know I'm right.
 
-**ILYRA:** No. That was for you being angry at a box.
+**ILYRA:** No. That was for you prosecuting and acquitting a stranger over a crate label in under a minute.
 
-**NIMERA:** I'm not angry at the box.
+**NIMERA:** The evidence changed.
 
-**ILYRA:** The quartermaster, then.
+**ILYRA:** The evidence was my eyebrow.
 
-**NIMERA:** On principle.
+**NIMERA:** Hostile witness.
+
+### [BUCKLE DISPUTE]
 
 Ilyra crouches beside the remaining contents.
 
@@ -4118,13 +5274,23 @@ She picks up one of the unmatched buckles.
 
 **ILYRA:** Clothing adjacent.
 
-**NIMERA:** Absolutely not.
+**NIMERA:** Absolutely not. That's how categories rot. First "clothing adjacent," then somebody puts a saddle fitting in with socks because both have straps.
 
-Ilyra sets it between two of Nimera's piles.
+**ILYRA:** Has that happened to you?
+
+**NIMERA:** Not specifically.
+
+**ILYRA:** You sounded wounded.
+
+**NIMERA:** I can extrapolate pain.
+
+Ilyra sets the buckle between two of Nimera's piles.
 
 **ILYRA:** There.
 
 Nimera looks at the buckle.
+
+Then at Ilyra.
 
 **NIMERA:** What is that?
 
@@ -4136,11 +5302,25 @@ Nimera looks at the buckle.
 
 Nimera stares at her.
 
-Then laughs despite herself.
+**NIMERA:** I love categories. That's why bad ones make me fucking furious.
+
+A beat.
+
+Ilyra smiles.
+
+Nimera hears herself.
+
+**NIMERA:** All right, that sounded worse out loud.
+
+**ILYRA:** No. That one sounded exactly right.
+
+Nimera laughs despite herself.
 
 **NIMERA:** Fuck you.
 
 **ILYRA:** Better.
+
+### [UNRESOLVED]
 
 A comfortable beat.
 
@@ -4164,33 +5344,57 @@ Ilyra reads it.
 
 **ILYRA:** That's miscellaneous with more steps.
 
-Nimera does not look up.
+Nimera's pen stops.
+
+**NIMERA:** It is not. It is a deliberately bounded unknown. The distinction is that future me knows exactly what I failed to establish instead of inheriting a box that says "who fucking knows" in polite charcoal.
+
+Ilyra points at the label.
+
+**ILYRA:** Longer miscellaneous.
 
 **NIMERA:** Get out.
 
-Ilyra leaves with the cord.
-
-At the doorway:
+Ilyra heads for the doorway with the cord.
 
 **ILYRA:** Don't sort the spoon too hard.
 
 Nimera looks at the spoon still sitting alone beside the crate.
 
-**NIMERA:** I hate you a little.
+**NIMERA:** The spoon is presently an unresolved storage anomaly.
 
-Ilyra glances back at the new label.
+Ilyra stops at the doorway.
 
-**ILYRA:** Needs a better category.
+**ILYRA:** Spoon.
 
-She exits.
+**NIMERA:** That's still a noun.
 
-Nimera stares after her for a beat.
+**ILYRA:** Very exclusive category.
 
-Then looks at the spoon.
+Nimera throws a candle stub at her.
+
+Ilyra steps aside; it misses easily.
+
+**ILYRA:** Candles go over there.
+
+She points to the pile Nimera made.
+
+Nimera looks at the candle on the floor.
+
+Then at Ilyra.
+
+Ilyra leaves.
+
+A beat.
+
+Nimera picks the candle up and puts it in the correct pile.
+
+She looks at the spoon.
 
 **NIMERA:** Fucking miscellaneous.
 
 She drops it back into the original crate.
+
+Then immediately looks annoyed with herself for doing it.
 
 Fade / return to cleanup gameplay.
 
@@ -4198,12 +5402,18 @@ Fade / return to cleanup gameplay.
 
 ## H03 production notes
 
-- H03 is intentionally plotless and low-stakes.
-- The premise arose from Nimera's interest in classification and Ilyra's dry practicality rather than a required relationship lesson.
+- H03 remains intentionally plotless and low-stakes.
+- The premise arises from Nimera's classification instincts and Ilyra's dry practicality rather than a required relationship lesson.
 - Ilyra is playful and mildly antagonistic here; she is not treating, counseling, parenting, or managing Nimera.
-- Nimera is socially functional and knows when Ilyra is deliberately provoking her.
-- Their warmth is conveyed through voluntary continued engagement, teasing, laughter, and the fact that neither needs to soften the exchange into a sentimental explanation.
-- the closing exchange no longer repeats Chapter 2's existing `I hate you / no you don't` joke structure; it returns to H03's classification premise instead.
+- Nimera's Person Brain now owns more of the conversational shape: she extends distinctions beyond their practical usefulness, revises unsupported assumptions aloud, swears naturally, and gets interrupted or abandoned when Ilyra has had enough.
+- Ilyra's shorter answers and deliberate literalism are a counter-rhythm rather than a lack of characterization.
+- Their warmth is conveyed through voluntary continued engagement, teasing, laughter, interruption, and the fact that neither needs to soften the exchange into a sentimental explanation.
 - No main-story clue, Card event, Ancient revelation, seal information, or Hunt information is introduced.
 - No fixed personal preference is established for either woman beyond behavior already supported by their current brains.
-- The scene gets out once the classification joke and their chemistry have landed.
+- The scene exits once the classification joke and their chemistry have landed.
+
+---
+
+## Synchronization footer
+
+This derived manuscript was assembled exclusively from the atomics listed above. No dialogue wording was rewritten during assembly.

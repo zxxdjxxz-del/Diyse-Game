@@ -1,122 +1,100 @@
 # DIYSE — Chapters 0–3 Dialogue Synchronization Manifest
 
-**Status:** SOURCE-CLOSED / DERIVED OUTPUT GENERATION BLOCKED BY EXECUTION INFRASTRUCTURE  
-**Atomic authority:** CURRENT  
-**Combined manuscripts / reader:** STALE until verified regeneration
+**Status:** CURRENT — generated from source-closed active atomic dialogue
 
-## Owning records
+The atomics remain exact wording authority. Combined manuscripts and the reader are generated derivatives.
 
-Source-level closure:
-- `CHAPTER_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`
+**Source closure:** `CHAPTER_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`
 
-Derived-execution blocker:
-- `CHAPTER_0_3_DERIVED_SYNC_BLOCKER_2026-09-13.md`
+## Combined manuscripts
 
-Synchronizer:
-- `tools/dialogue/sync_current_dialogue.py`
+| Chapter | Combined manuscript | Combined SHA-256 | Atomic sources |
+|---|---|---|---:|
+| 0 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` | `014aee934ea39f735116654989a9520e23d4ca42bdd84049c7d39d6679cbc36f` | 8 |
+| 1 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` | `69e321b469fe4740fd1a9b8f23d8704b96be07b99634bfa40080bd86d3ee4e18` | 18 |
+| 2 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` | `644ecf90f80120c13c9430e187cc3875f40dce0afcc1fdf83cbb53f351f63443` | 17 |
+| 3 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` | `7c211b89e8346546592611581ec11aaad5c567bee59e476a04068c49641a49de` | 17 |
 
-GitHub workflow:
-- `.github/workflows/dialogue-sync.yml`
+## Chapter 0 sources
 
-Isolated fallback image:
-- `tools/dialogue/Dockerfile.sync`
+| Order | Canonical slot | Path | SHA-256 |
+|---:|---|---|---|
+| 1 | P01 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md` | `a1af098417946126bbd389c381c76a11862500d1d422d80e7a300511ca0c0d8e` |
+| 2 | P02 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P02_WRECK_FIELD_REHEARSAL_FIRST_DRAFT_A.md` | `1c31ca29c90bbe90cb73b589b33aa41cf881bf8e4c751c5d880423110a05687e` |
+| 3 | P03 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P03_EVACUATION_RELAY_DECISION_REHEARSAL_FIRST_DRAFT_A.md` | `d92ec3f242bd9b5746d6078abf006cbd0e1c93959566c44f636f948e22ff0da9` |
+| 4 | P04 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P04_FIELD_TRIAGE_ILYRA_FIRST_FLARE_REHEARSAL_FIRST_DRAFT_A.md` | `738b05d939db7c97cfe25006a9c45405594437587261182a2082757ad9c72ffe` |
+| 5 | P05 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P05_CONCEALED_RUIN_VANGUARD_REHEARSAL_FIRST_DRAFT_A.md` | `31528c43465586c9e15e0ec22fac63ee67b5d263e5ff4f869ae0f5d84d2d694f` |
+| 6 | P06 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P06_RIFTMAW_WAR_SORCERER_REHEARSAL_FIRST_DRAFT_A.md` | `2b96955e06ed54e78b57e14b891e380eafbf9979854ab485672463bd3ca0f3cb` |
+| 7 | P07 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P07_AFTERMATH_SURVIVOR_RECOVERY_REHEARSAL_FIRST_DRAFT_B.md` | `75ae859db36155847b33f07036097eda1fe4a0854f7353d6fea979697d814720` |
+| 8 | C01 — Six Minutes | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md` | `997c9dcbf8e21052a79ff9a3e5e431d386c84ed19c158f1ce3d857d209f50b94` |
 
-## What is current
+## Chapter 1 sources
 
-The Chapter 0–3 standalone atomic dialogue files are the current exact wording authority and have completed the current source-level audit set, including:
-- Person-Brain performance rules;
-- Cyanis non-functional leadership balance;
-- Ilyra role-balance (`Grace is not a dialogue assignment`);
-- Torren social-comfort progression (`Sparse is an early-state tendency, not a permanent voice quota`);
-- Maevra familiarity + rank + friendship progression;
-- Torren/Nimera Chapter-3 first-contact timing;
-- mature-adult speech/profanity calibration;
-- natural-turn/floor-holding audit;
-- spoken-dialogue vs narration audit;
-- current Face/class/subclass terminology and current reveal firewalls.
+| Order | Canonical slot | Path | SHA-256 |
+|---:|---|---|---|
+| 1 | Beat 1 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_01_BRACKENWALL_PROTOCOL_DRAFT_A.md` | `2c100e1b3bbcd7574878e77090ed0c139defc44cea42734a0eb6ab9cd40d905e` |
+| 2 | Beat 2 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_02_BRIAR_PASSAGE_FIRST_TRAVERSAL_DRAFT_A.md` | `b98ded6538882566e68cadb3466964b6332a3730c9680924f00c348a8e5e4dae` |
+| 3 | Beat 3 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md` | `995c74d5d14654506b3856fda5759862c55de1304bd9e6e97258af71494c8453` |
+| 4 | Beat 4 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_04_HOLLOW_WATCH_APPROACH_DRAFT_A.md` | `2783c40bd879d3d31587d481fc853f5a6b4ad3a8d3b33534b39359c15302cdb3` |
+| 5 | Beat 5 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_05_OCCUPIED_HOLLOW_WATCH_FORT_DRAFT_A.md` | `848c740263b5e0487fdaa14d93f19cd86cffed4c7ce77c9970b4a201a27d3129` |
+| 6 | Beat 6 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_06_BLACK_HOST_EXCAVATION_LOWER_ACCESS_DRAFT_A.md` | `fa1d1a3bfd501b2f04bae3942b6a7de5d4200705293cbaf433f9e8a0c6141918` |
+| 7 | Beat 7 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_07_LOWER_JUNCTION_SIX_CHANNELS_DRAFT_A.md` | `d58a02f69aa449aded9fd08052f5d22c1c17f745f81f0acfabcc2e0dbb9379af` |
+| 8 | Beat 8 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_08_FORCED_INNER_SECTION_DRAFT_A.md` | `9c020f7de3a8d7bdf92c772a7a9341fa91aa61609083c8766fd101f5a30b3821` |
+| 9 | Beat 9 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md` | `1e751dabd3966825bb2545c1b2e8d09ceadcaa3061550f34f73077cab6f6fc7e` |
+| 10 | Beat 10 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_10_POST_CASTELLAN_MURAL_DRAFT_A.md` | `d6fcc2cf043aadfbb9507621523659d32acb2770b8d8de4d65270fbf6333e89d` |
+| 11 | Beat 11 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md` | `989703b1f7b058954784dc8a8b8a0a769e5af5d4aad4b0e3d1da285e02c2d0f3` |
+| 12 | Beat 12 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md` | `1ad63978a3dec1f5cd60bef7cce0349de5efbba7125b3205d4da53ffa968de3a` |
+| 13 | Beat 13 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md` | `bd6a584ccdfacd6a655109f9f859c2b5f6ef685f660417a18eef9528f794ac63` |
+| 14 | Beat 14 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md` | `759c13336b6ae02d4d50f2bc27e026c96c518ee09877f235c7282471a15ed0ed` |
+| 15 | Beat 15 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md` | `a40ee6f2ec005ec647df9c9397878c4b9fd1fd665e21fa5906a39f15b7a1c769` |
+| 16 | C02 — Torren's Version of Dinner | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md` | `d417a5590b6ac55cbdd005932d3eb31ce71908febc20640fec1d0d8c635d0548` |
+| 17 | C03 — What the Map Says | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md` | `eda009f00e925a3f282d29848a39e4f652630f0c4d3b3859cd799285ba847c0c` |
+| 18 | C04 — Not Professionally | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md` | `36adad6fe360648296ed34418761f08d368998ef6d2c9ad620e2d4ac7d15b527` |
 
-The atomics remain authoritative regardless of derived-artifact state.
+## Chapter 2 sources
 
-## Derived outputs awaiting verified regeneration
+| Order | Canonical slot | Path | SHA-256 |
+|---:|---|---|---|
+| 1 | Beat 1 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_01_PATH_OUTSIDE_DUNMERE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `7c47fe6679978a2ff7b32f1c67d71f058be93f9a715277f2c464d245f583877d` |
+| 2 | Beat 2 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_NATURAL_TURN_WORKING_DIALOGUE.md` | `2d9bc2c0d0c80acc84ed214b250d3e99b7f2d8ed0742537e1103fc22927a36f4` |
+| 3 | Beat 3 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_03_DUNMERE_ELDER_HIDDEN_APPROACH_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `ed49f8cd41aebb019a77f53b02bf70cc34b6870ff8e40c48d0ea973f6e5d107d` |
+| 4 | Beat 4 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `b6a3370115480b57923cf94864c2f1ebe7c3d8b5a6ce50e1df7238ed107f09d5` |
+| 5 | Beat 5 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md` | `80b0117358c99c2a84ba852084e1423ec889bc318a39c43b1756d8cd291f5d90` |
+| 6 | Beat 6 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_06_WESTERN_MAP_MURAL_NATURAL_TURN_WORKING_DIALOGUE.md` | `537946acd42eef43c80cff019956795f42b7069b7de4a05d11896956d642c9dd` |
+| 7 | Beat 7 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `66d5d15738744869daec5ef8e42dc2333e25c150585e9e3039750667a142f692` |
+| 8 | Beat 8 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_08_ARCHIVE_LEVIATHAN_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `bbda4a312c99fa0eed8c56c900c1c88badc60b147f0d8a76c5fd777c527424f4` |
+| 9 | Beat 9 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `cb379b12d83a17ca3afb63e6b563b99606e4c1f273bc63e1dd1e89561b2353e3` |
+| 10 | Beat 10 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_10_PRISONER_GALLERIES_FIRST_CONTACT_NATURAL_TURN_WORKING_DIALOGUE.md` | `7d6075c2bc9bfe1aa647fd7a81d1a69f95481fea9d577a0cb831384c2ef4e2bd` |
+| 11 | Beat 11 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_11_PRISONER_SAFE_AREA_EXIT_PROBLEM_NATURAL_TURN_WORKING_DIALOGUE.md` | `79aa91f8ae11e6b92fbd26acd521b12c02235b633bad700eae433217cd3c7a21` |
+| 12 | Beat 12 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `b01a11f12e87a4a999412fbcb4f2fc3c871d0486a59eeb5bbf842567496d48cf` |
+| 13 | Beat 13 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_13_RHAZEK_MASKED_OFFICER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `9a24d4073959fc309ef6a3603b1f417e5d216b2d0fc5f05f822569b34539df26` |
+| 14 | Beat 14 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `18be5aaaffd26a03f2ae6522e5755822d4040e4171d89dbdf176a38633921ef0` |
+| 15 | Beat 15 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `6b004cf003f8d56e123245d6f56e7d2bb3afa0c13b3ac4cf3eccb65be9c20b60` |
+| 16 | Beat 16 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `541c5d66d18a2d77865b73b543027c3f54aa72a6e902ec86b3a9c5ad672c44c7` |
+| 17 | C05 — Still Burns | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `c4e65fac34a0ce90dedd3286b99012983416686df663495c9e291933d9dc2298` |
 
-The following must not override the atomics until a successful synchronizer run and verification:
-- `CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
-- `CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
-- `CHAPTER_02/CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
-- `CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
-- the Chapters 0–3 spoiler-free exact-dialogue reader / novelization.
+## Chapter 3 sources
 
-This file itself is currently a synchronization-status manifest, not a successful generated hash manifest.
+| Order | Canonical slot | Path | SHA-256 |
+|---:|---|---|---|
+| 1 | Beat 1 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md` | `a376a29b6fe4965c890c4725af7c0e0368f684b26044aa30edde1ddffc6f502d` |
+| 2 | Beat 2 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_02_ROYAL_AUDIENCE_CH2_REPORT_DRAFT_A.md` | `242ab0081216edf649900cf0d92279a1f6313bf77e2ed6f19bcedb8d261510b5` |
+| 3 | Beat 3 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_03_IMPOSSIBLE_ORDERS_DRAFT_A.md` | `e35611912c111cdf71c3836a6f99b9f285f9d3f19764ca53975f0e149ec2f7c2` |
+| 4 | Beat 4 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_04_SEAL_NOT_USED_DRAFT_A.md` | `dae8d14b9cff7e89ed09a35f685d65d6bf72efecf9e15d2d6a98f09042b680e5` |
+| 5 | Beat 5 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md` | `2bffb1d87b0262943936635678193cb9e3748b68a9908faa3b2c583b2df81bfb` |
+| 6 | Beat 6 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md` | `5102532c8dee67fc6cfb82d7cead216c6d86a92d0a8d388ae6bee366db1b8892` |
+| 7 | Beat 7 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_DRAFT_A.md` | `818911dc77c4fba62d50dafc309a146b39c5664e464273d4ff31ce51d3200622` |
+| 8 | Beat 8 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_DRAFT_A.md` | `f80ff7b79af90e7b2edb882dd4f195c3b38ae750ea424bf16853500224dc95dc` |
+| 9 | Beat 9 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_DRAFT_A.md` | `507d60d0616af278b42591041634ef9fba9bbc99ee3bf93448d8a22f75c394a1` |
+| 10 | Beat 10 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_10_RECENT_READER_HALL_OF_SEALS_DRAFT_A.md` | `f9e281010402a560b58e08b55af5eb665bccea2f3e09075b44797f785d5f3823` |
+| 11 | Beat 11 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_11_FIRST_COMMAND_WARDEN_DRAFT_A.md` | `b84e481caacb33cea810c8f73345be7a1ec9a397946d29b82979a128b04d1877` |
+| 12 | Beat 12 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_12_SEALWRIGHT_CHAMBER_COPYING_ATTEMPTS_DRAFT_A.md` | `b028b0fbc77a0abf38198d30c25b8fabf916b50f4f363729ac98d1b0bce54d05` |
+| 13 | Beat 13 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_13_MIRENAS_CONCERN_CRESTHAVEN_LEAD_DRAFT_A.md` | `437785ab754a27ebe44aa7a86dbfee8ca72e689e4ecd460249ea9acb04441f63` |
+| 14 | Beat 14 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_14_REST_IN_CAELORA_MORNING_DEPARTURE_DRAFT_A.md` | `b1397defa1d41fd92be3121fec325033baeb464cb78b8d07ce1adc880be41bbc` |
+| 15 | Beat 15 | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_DRAFT_A.md` | `2b27c5151fed431cc1f3358a6ec14883e468340188953a85bf391001834c6735` |
+| 16 | C06 — Nimera Takes Over a Table | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md` | `9886a63f7a893db368bd70b032d976676bf0219dd69beab4a1599098c6030f09` |
+| 17 | C07 — Ilyra and Nimera | `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/H03_ILYRA_AND_NIMERA_DRAFT_A.md` | `de055c9feadd70c69986ab9952773698706bd16918eedac5b3b3c5904613f9f9` |
 
-## Synchronizer behavior
+## Verification rule
 
-The repo-native synchronizer is designed to:
-1. validate full source closure before deriving anything;
-2. resolve the current atomic sources in canonical order;
-3. fail on missing or ambiguous source patterns;
-4. verify protected dialogue anchors;
-5. reject retired Chapter-3 `Resource` Face wording and require `Memory`;
-6. reject premature Chapter-1 Nimera knowledge;
-7. regenerate all four combined read-throughs without rewriting dialogue;
-8. write per-source SHA-256 values into the successful generated manifest;
-9. rebuild the spoiler-free exact-dialogue DOCX from the same atomic source set;
-10. support `--check` so later drift is detectable.
-
-Required validation sequence:
-
-```text
-python tools/dialogue/sync_current_dialogue.py --source-check
-python tools/dialogue/sync_current_dialogue.py
-python tools/dialogue/sync_current_dialogue.py --check --no-docx
-```
-
-## Current execution blocker
-
-This blocker is external to dialogue source content.
-
-### GitHub Actions
-Latest observed Dialogue Sync execution:
-- run `34794590948`;
-- job `103825131383`;
-- head `12d00bf5203fdbcbd0d1c1dab2289ed0c04677a9`;
-- failure before workflow step 1;
-- zero recorded steps;
-- job-log retrieval returned `BlobNotFound`.
-
-An unrelated Godot workflow exhibited the same runner-launch failure on the same repo state. Do not rewrite or touch closed atomics merely to retrigger unavailable runners.
-
-### Railway
-A new isolated temporary project was attempted instead of changing a live Character Agent service. Railway refused provisioning because the current free-plan resource limit is exhausted.
-
-No existing Railway service was changed, redeployed, deleted, or repurposed.
-
-### Render
-A disposable static-site build was attempted as another isolated runner. The connected Render workspace cannot fetch the private `zxxdjxxz-del/Diyse-Game` repository. Its existing Seyrik service uses a public bootstrap repository and was intentionally left untouched.
-
-No existing Render service was changed or repurposed.
-
-## Safety / authority rule
-
-Do not work around this blocker by:
-- hand-copying atomics into a supposedly exact combined manuscript;
-- treating an old combined manuscript as current wording authority;
-- treating the previous reader as current exact dialogue;
-- modifying closed atomics merely to force a CI trigger;
-- repurposing live character-agent infrastructure;
-- making the private repo public.
-
-## Completion rule
-
-A derived Chapters 0–3 manuscript or reader may be described as current only after a successful generation and:
-
-```text
-python tools/dialogue/sync_current_dialogue.py --check --no-docx
-```
-
-returns success against the same source state.
-
-The generated DOCX must then receive visual QA before user-facing delivery.
-
-Until then:
-
-> **Atomic dialogue = current exact authority. Combined manuscripts/reader = derived products pending verified regeneration.**
+Run `python tools/dialogue/sync_current_dialogue.py --check`. A non-zero exit means a combined manuscript or this manifest is stale relative to current atomics.

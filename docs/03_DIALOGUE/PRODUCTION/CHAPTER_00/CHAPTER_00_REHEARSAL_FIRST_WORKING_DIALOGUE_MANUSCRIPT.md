@@ -1,154 +1,287 @@
-# Diyse — Chapter 0 Rehearsal-First Working Dialogue Manuscript
+# DIYSE — Chapter 0 — Synchronized Rehearsal-First Working Dialogue Manuscript
 
-**Status:** CURRENT WORKING MANUSCRIPT — P01 → P07 + optional C01 synchronized after natural-turn / floor-holding rhythm audit.  
-**Story authority:** `docs/02_STORY/CHAPTERS/CHAPTER_00.md`  
-**Rhythm authority:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
-**Physical Card continuity:** recovery casing survives through early P06, breaks during the P06 boss, Card survives intact and is carried directly afterward.  
-**Presentation:** portraits + dialogue box carry most acting; authored scenes may show relevant field models; ordinary wreck/route traversal uses Cyanis as the visible controllable field character; camp may show present characters.
+**Status:** CURRENT DERIVED READ-THROUGH — SYNCHRONIZED AGAINST CURRENT ATOMIC DIALOGUE SOURCES
 
-Chapter-0 rhythm result:
-- P01–P02 retain intentionally clipped crisis/rescue cadence;
-- P03–P07 were adjusted where speakers were yielding merely because a sentence ended;
-- C01 was substantially opened up so quiet conversation can use natural multi-sentence floor time;
-- short lines remain where command, danger, comedy timing, or early-relationship restraint makes them the stronger choice.
+**Authority rule:** standalone atomic scene files remain exact wording authority. This file is generated, not hand-authored. After any atomic edit, rerun `python tools/dialogue/sync_current_dialogue.py` before describing this manuscript as current.
+
+## Source manifest
+
+| Order | Canonical slot | Atomic source | SHA-256 |
+|---:|---|---|---|
+| 1 | P01 | `P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md` | `a1af098417946126bbd389c381c76a11862500d1d422d80e7a300511ca0c0d8e` |
+| 2 | P02 | `P02_WRECK_FIELD_REHEARSAL_FIRST_DRAFT_A.md` | `1c31ca29c90bbe90cb73b589b33aa41cf881bf8e4c751c5d880423110a05687e` |
+| 3 | P03 | `P03_EVACUATION_RELAY_DECISION_REHEARSAL_FIRST_DRAFT_A.md` | `d92ec3f242bd9b5746d6078abf006cbd0e1c93959566c44f636f948e22ff0da9` |
+| 4 | P04 | `P04_FIELD_TRIAGE_ILYRA_FIRST_FLARE_REHEARSAL_FIRST_DRAFT_A.md` | `738b05d939db7c97cfe25006a9c45405594437587261182a2082757ad9c72ffe` |
+| 5 | P05 | `P05_CONCEALED_RUIN_VANGUARD_REHEARSAL_FIRST_DRAFT_A.md` | `31528c43465586c9e15e0ec22fac63ee67b5d263e5ff4f869ae0f5d84d2d694f` |
+| 6 | P06 | `P06_RIFTMAW_WAR_SORCERER_REHEARSAL_FIRST_DRAFT_A.md` | `2b96955e06ed54e78b57e14b891e380eafbf9979854ab485672463bd3ca0f3cb` |
+| 7 | P07 | `P07_AFTERMATH_SURVIVOR_RECOVERY_REHEARSAL_FIRST_DRAFT_B.md` | `75ae859db36155847b33f07036097eda1fe4a0854f7353d6fea979697d814720` |
+| 8 | C01 — Six Minutes | `C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md` | `997c9dcbf8e21052a79ff9a3e5e431d386c84ed19c158f1ce3d857d209f50b94` |
 
 ---
 
-# P01 — Convoy / Opening Ambush
+## P01
 
-The Westways convoy is moving normally. Cyanis and the ranking convoy officer may be present as simple field models for the authored opening.
+**Atomic source:** `P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md`  
+**Source SHA-256:** `a1af098417946126bbd389c381c76a11862500d1d422d80e7a300511ca0c0d8e`
 
-The recovered Card remains inside its damaged recovery casing near the convoy center. It is inert.
+# Chapter 0 — P01
+# Convoy / Opening Ambush
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
-**CONVOY OFFICER:** Dovaren. East side. Keep the travelers off the recovery wagon.
+---
+
+### [AUTHORED OPENING — WESTWAYS CONVOY]
+
+The Westways convoy is moving normally before the attack.
+
+Cyanis and the ranking convoy officer may be present as simple field models for the opening scene. Portraits and the dialogue box carry the exchange.
+
+The recovered Card remains protected inside its damaged recovery casing near the convoy center. It is inert.
+
+Maevra's later broken-arm continuity belongs to the wider Broken Convoy crisis but does not require her to be inserted into Cyanis's immediate opening scene.
+
+**CONVOY OFFICER:** Dovaren. East side. Keep the travelers off the recovery wagon, and before you tell me you've already done it—
 
 **CYANIS:** Already moved them down the shoulder.
 
-A beat.
+The officer closes his eyes for half a second.
 
-**CONVOY OFFICER:** I hadn't finished.
+**CONVOY OFFICER:** I had six more words.
 
 **CYANIS:** Sorry.
 
-The officer waits.
+A beat.
 
 **CYANIS:** Mostly.
 
 **CONVOY OFFICER:** There it is.
 
-**CONVOY OFFICER:** Recovery team says the casing shifted again.
+He looks toward the convoy center.
 
-**CYANIS:** Seal?
+**CONVOY OFFICER:** Recovery team says the casing shifted again. Nothing dramatic. Enough that they're nervous.
+
+**CYANIS:** Seal still holding?
 
 **CONVOY OFFICER:** Holding.
 
-**CYANIS:** Then Caelora can worry about it.
+**CYANIS:** Then they can be nervous all the way to Caelora. I'm not opening an unknown recovery case on the road because it rattled.
 
-**CONVOY OFFICER:** That's the plan.
+**CONVOY OFFICER:** Good. I was hoping not to have that argument with you.
+
+**CYANIS:** You would've won.
+
+**CONVOY OFFICER:** Eventually.
 
 The exchange is about to end.
 
+Cyanis looks ahead again.
+
+His expression changes.
+
 **CYANIS:** Sir.
+
+The officer hears the change more than the word.
 
 **CONVOY OFFICER:** What?
 
-**CYANIS:** No return traffic.
+**CYANIS:** How long since we passed anyone coming back this way?
 
-**CONVOY OFFICER:** How long?
+The officer looks up the road.
 
-**CYANIS:** Long enough that I don't like it.
+**CONVOY OFFICER:** A while.
 
-**CONVOY OFFICER:** Could be nothing.
+**CYANIS:** Longer than a while. No courier, no wagon, no farm traffic. Nothing since the bend.
 
-**CYANIS:** Could be.
+**CONVOY OFFICER:** Road could just be empty.
+
+**CYANIS:** Could be. I don't like how completely empty.
 
 A beat.
 
-**CYANIS:** Hold anyway.
+**CYANIS:** Hold the column.
+
+The officer looks at him rather than immediately obeying.
+
+**CONVOY OFFICER:** You're asking me to stop every wagon because the road feels wrong.
+
+**CYANIS:** I'm asking you to stop them while we're still together. If it's nothing, we lose a minute and you can remind me about it for the rest of the trip.
+
+The officer studies the empty road once more.
+
+**CONVOY OFFICER:** Tempting offer.
+
+Then, louder:
 
 **CONVOY OFFICER:** Column, halt!
 
-The ambush begins before the convoy can fully settle. Black Host fire and war-sorcery split Cyanis onto the east side with civilians and wounded escorts.
+The ambush begins before the convoy can fully settle.
+
+Black Host fire and war-sorcery break the road formation and separate Cyanis onto the east side with civilians and wounded escorts.
 
 **CONVOY OFFICER:** Dovaren! East side!
 
-**CYANIS:** Stone line! Stay low! Move!
+**CYANIS:** Stone line! Stay low! If you can move, help somebody who can't! Go!
 
 The Card does not react.
 
-**AUTHORED COMBAT 1 — CYANIS SOLO:** Black Host Raider + Black Host Crossbowman + Ruin Shieldbearer.
+---
 
-**AUTHORED COMBAT 2 — CYANIS SOLO:** Beast Handler + Convoy Rift Hound.
+### [AUTHORED COMBAT — CYANIS SOLO]
 
-No concealed Ruin Vanguard. No Riftmaw. No Card flare.
+The opening story-authorized combat pressure follows current encounter authority:
 
-Player control moves into the Wreck Field.
+**Combat 1:** Black Host Raider + Black Host Crossbowman + Ruin Shieldbearer.
+
+After that formation breaks:
+
+**Combat 2:** Beast Handler + Convoy Rift Hound.
+
+No concealed Ruin Vanguard appears here.  
+No Riftmaw appears here.  
+No Card flare occurs here.
 
 ---
 
-# P02 — Wreck Field
+### [HANDOFF — WRECK FIELD]
 
-During ordinary wreck-field traversal, Cyanis is the visible controllable field character. The environment carries the damaged convoy and survivor movement rather than a chain of scripted prop inspections.
+The convoy is badly damaged but not destroyed.
+
+Cyanis remains separated on the east side with survivors still exposed.
 
 The Card remains cased and inert.
 
-## Wounded escort
+Player control moves into **P02 — Wreck Field**.
+
+---
+
+## Person-Brain performance note
+
+- Cyanis still enters through speed, competence, mild insubordination, and practical attention rather than protagonist grandeur.
+- the officer sounds familiar with Cyanis's habits and can tease him without surrendering formal authority.
+- Cyanis is allowed to finish the reason behind his road warning rather than offering only `No return traffic` / `Hold anyway` fragments.
+- once the ambush begins, speech collapses appropriately back into commands.
+- no story outcome, Card state, encounter, or Maevra continuity changes.
+
+---
+
+## P02
+
+**Atomic source:** `P02_WRECK_FIELD_REHEARSAL_FIRST_DRAFT_A.md`  
+**Source SHA-256:** `1c31ca29c90bbe90cb73b589b33aa41cf881bf8e4c751c5d880423110a05687e`
+
+# Chapter 0 — P02
+# Wreck Field
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+
+---
+
+### [GAMEPLAY — WRECK FIELD]
+
+**Player control is active.**
+
+Ordinary wreck-field traversal shows **Cyanis only** as the visible controllable field character.
+
+The environment carries the damaged convoy, survivor movement, unstable wreckage, and the safer lower stone-line route. The dialogue script does not add a chain of prop inspections or rescue micro-animations.
+
+The Card remains protected in its damaged recovery casing and stays inert.
+
+---
+
+### [STORY TRIGGER — WOUNDED ESCORT]
+
+A wounded escort calls Cyanis over. The relevant NPC can appear for the scene.
 
 **WOUNDED ESCORT:** Dovaren.
 
 **CYANIS:** Where?
 
-**WOUNDED ESCORT:** Two by the axle. One under the canvas.
+**WOUNDED ESCORT:** Two by the axle. One under the canvas. I can get to the first two.
 
-**CYANIS:** Can you stand?
+Cyanis sees the way the escort is favoring one leg.
+
+**CYANIS:** Can you stand without lying to me?
+
+The escort tests the leg once.
 
 **WOUNDED ESCORT:** Enough.
 
-**CYANIS:** Get the two by the axle behind the stone line. Don't lift anyone you can't.
+**CYANIS:** Fine. Get the two by the axle behind the stone line. Don't lift anyone you can't move cleanly; if one of them goes down, shout and leave them where they are until I get back.
 
 **WOUNDED ESCORT:** The one under the canvas?
 
 **CYANIS:** Mine.
 
-Player control resumes for the short rescue route.
+**WOUNDED ESCORT:** You're one person.
 
-## Trapped survivor
+**CYANIS:** I noticed. Go.
+
+Scene ends.
+
+---
+
+### [GAMEPLAY — SHORT RESCUE ROUTE]
+
+Cyanis-only traversal resumes.
+
+At the damaged wagon, a civilian is trying to reach a trapped relative.
+
+### [STORY TRIGGER — TRAPPED SURVIVOR]
 
 **CIVILIAN:** My brother's under there.
 
 **CYANIS:** Don't get under the frame.
 
-**CIVILIAN:** He's right there.
+**CIVILIAN:** He's right there. I can reach him.
 
-**CYANIS:** I know.
+**CYANIS:** And if the axle shifts, I get two people under it instead of one. Stay where I can see you.
 
-A beat.
+The civilian looks at the trapped man again.
 
-**CYANIS:** Help me pull him clear.
+**CIVILIAN:** We can't leave him.
 
-The rescue uses one simple authored interaction/state change.
+**CYANIS:** We're not leaving him. Help me pull him clear from this side.
+
+The rescue is represented with one simple authored interaction/state change. No rope puzzle, staged lifting sequence, repeated debris handling, or cinematic rescue montage is required.
+
+Afterward:
 
 **CIVILIAN:** He's breathing.
 
-**CYANIS:** Keep him on his side. If that changes, shout.
+**CYANIS:** Good. Keep him on his side. If the breathing changes, if he wakes confused, if he starts choking—shout. Don't try to move him again by yourself.
 
 **CIVILIAN:** You're leaving?
 
-**CYANIS:** Not far.
+Cyanis is already looking back toward the rest of the wreck field.
 
-## Stone-line route
+**CYANIS:** Not far enough that I won't hear you.
+
+Scene ends.
+
+---
+
+### [STONE-LINE ROUTE]
+
+As survivors begin moving:
 
 **WOUNDED ESCORT:** Middle road's faster.
 
-**CYANIS:** Not if that wagon comes down.
+**CYANIS:** Until that wagon comes down across it.
 
-**WOUNDED ESCORT:** Stone line, then.
+**WOUNDED ESCORT:** Think it will?
 
-**CYANIS:** Stone line.
+**CYANIS:** Don't know. Don't need to find out with wounded underneath it. Stone line.
 
-## Authored Hound pressure
+**WOUNDED ESCORT:** Stone line.
 
-A lone Convoy Rift Hound threatens the survivor route.
+The area itself shows why the center route is unsafe. No second explanation is needed.
+
+---
+
+### [AUTHORED HOUND PRESSURE]
+
+The current Chapter-0 story specifically authorizes one lone **Convoy Rift Hound** encounter threatening the survivor route.
+
+The story trigger is short.
 
 **WOUNDED ESCORT:** Movement!
 
@@ -160,59 +293,112 @@ The Hound appears.
 
 **AUTHORED COMBAT — CYANIS SOLO VS. CONVOY RIFT HOUND.**
 
-## North withdrawal
+This is not an ordinary random encounter; it is the explicit P02 story encounter.
+
+No added transformation or hidden meaning.
+
+---
+
+### [STORY TRIGGER — NORTH WITHDRAWAL]
 
 After the encounter, the convoy officer reaches Cyanis's side of the wreck field.
 
 **CONVOY OFFICER:** North side's pulling back.
 
+Cyanis looks past him toward the withdrawal.
+
 **CYANIS:** I see it.
 
 **CONVOY OFFICER:** Looks like they're breaking.
 
-A beat.
-
 **CYANIS:** Maybe.
 
-**CONVOY OFFICER:** What?
+The officer catches the hesitation.
 
-**CYANIS:** The cut.
+**CONVOY OFFICER:** You're still on the road.
 
-**CONVOY OFFICER:** What about it?
-
-**CYANIS:** Everything else is choked. That one's clean.
-
-**CONVOY OFFICER:** They could've cleared it for themselves.
-
-**CYANIS:** Could've.
+**CYANIS:** Everything else is choked with wreckage or bodies. That north cut is clean enough to march through. Maybe they cleared it for themselves. Maybe they want us to notice it.
 
 **CONVOY OFFICER:** You think it's bait.
 
-**CYANIS:** I think they want us looking north.
+**CYANIS:** I think I don't know yet, and chasing people through the one convenient gap they left us is a stupid way to learn.
 
-The officer does not treat that as proof.
+The officer looks north, then back over the wreck field.
 
-**CONVOY OFFICER:** Relay. Bring me the field when you get there.
+**CONVOY OFFICER:** They're still getting away.
 
-**CYANIS:** On my way.
+**CYANIS:** I know.
 
-Player control resumes toward the Evacuation Relay.
+A beat.
+
+The officer does not accept the hypothesis as fact.
+
+**CONVOY OFFICER:** Relay. Bring me the whole field when you get there. Casualties, who can still fight, and whether that cut still bothers you once you've looked at something besides it.
+
+**CYANIS:** Point taken.
+
+**CONVOY OFFICER:** That wasn't an invitation to feel vindicated.
+
+**CYANIS:** Wasn't planning to.
+
+The officer gives him a look.
+
+**CYANIS:** Mostly.
+
+**CONVOY OFFICER:** Go.
+
+Scene ends.
 
 ---
 
-# P03 — Evacuation Relay Decision
+### [GAMEPLAY HANDOFF — EVACUATION RELAY]
 
-Cyanis reaches the damaged but usable relay. Survivors are being consolidated toward it.
+Cyanis-only traversal resumes toward the relay.
+
+Story state remains deliberately unresolved: the north withdrawal may be genuine retreat or bait; Cyanis only has a field hypothesis.
+
+The Card remains cased and inert.
+
+Next: **P03 — Evacuation Relay Decision.**
+
+---
+
+## Person-Brain performance note
+
+- crisis rescue language remains fast, but Cyanis now gives enough of his reasoning that civilians and escorts can actually act on it rather than functioning as prompt/response devices.
+- Cyanis remains competent without becoming a medical specialist; his rescue instructions are basic field safety, not diagnosis.
+- the officer recognizes Cyanis's fixation on the clean north cut and deliberately asks him to bring a broader field picture before the decision.
+- the northern-cut read remains explicitly uncertain.
+- no story outcome, Card state, or encounter structure changes.
+
+---
+
+## P03
+
+**Atomic source:** `P03_EVACUATION_RELAY_DECISION_REHEARSAL_FIRST_DRAFT_A.md`  
+**Source SHA-256:** `d92ec3f242bd9b5746d6078abf006cbd0e1c93959566c44f636f948e22ff0da9`
+
+# Chapter 0 — P03
+# Evacuation Relay Decision
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+
+---
+
+### [STORY TRIGGER — EVACUATION RELAY]
+
+Cyanis reaches the damaged but usable relay.
+
+Survivors are being consolidated toward it. The convoy officer joins him for the field report.
+
+Relevant characters may appear as simple field models for the scene. Portraits and the dialogue box carry the exchange.
 
 The Card remains cased and inert.
 
 **CONVOY OFFICER:** Report.
 
-**CYANIS:** Seventeen moving. Five need carrying. Two escorts are clean enough to chase; three more can hold a fixed line.
+Cyanis does not make him pull the numbers out one at a time.
 
-**CONVOY OFFICER:** Recovery wagon?
-
-**CYANIS:** Still ours. East approach is open. Center road isn't safe for casualties.
+**CYANIS:** Seventeen moving under their own power. Five need carrying. Two escorts are clean enough to chase if we absolutely need them; three more can hold a fixed line, but I wouldn't ask them to run one. Recovery wagon is still ours. East approach is open. Center road is bad for casualties unless somebody stabilizes the wreck first.
 
 The officer looks north.
 
@@ -220,25 +406,49 @@ The officer looks north.
 
 **CYANIS:** They can. I still don't like the north cut.
 
-**CONVOY OFFICER:** Why?
+**CONVOY OFFICER:** You said that. What changes now?
 
-**CYANIS:** Everything else is choked and that one's clean. Maybe they cleared it for themselves. Maybe they want us looking north. I don't know which, and I don't want to spend our two best legs finding out while five people still need carrying.
+**CYANIS:** Five people still need carrying. I don't want to spend our two best legs proving the clean cut isn't bait.
 
 The officer looks back toward the relay.
 
-**CONVOY OFFICER:** You want to let them go.
+**CONVOY OFFICER:** So you want to let an armed withdrawal walk away while we're exposed.
 
-**CYANIS:** For ten minutes. Pull the casualties in, reform around the wreck and recovery wagon, and watch north. If they come back, they come back to a line instead of half a camp.
+**CYANIS:** For ten minutes. Pull the casualties in, reform around the wreck and recovery wagon, put eyes north, then decide with an actual line behind us. If they come back during that window, they hit people ready for them instead of half a camp carrying stretchers.
+
+**CONVOY OFFICER:** And if they don't come back? If they use those ten minutes to settle on the ridge and make us pay for giving them time?
+
+**CYANIS:** Then we deal with a harder ridge after we've stopped bleeding people into the road. I don't love it. I just hate the other order more.
+
+The officer studies him for a beat.
+
+**CONVOY OFFICER:** You were going to refuse a chase order.
+
+Cyanis does not pretend otherwise.
+
+**CYANIS:** If you sent the two clean escorts north right now? Yes. I'd argue first. If you still ordered it, they'd go.
+
+**CONVOY OFFICER:** You'd go with them.
+
+**CYANIS:** Probably.
+
+**CONVOY OFFICER:** That's the part of you I find exhausting.
+
+**CYANIS:** Which part?
+
+**CONVOY OFFICER:** The part where your objection somehow ends with you volunteering for the stupid thing.
+
+Cyanis glances toward the casualties.
+
+**CYANIS:** Noted.
+
+**CONVOY OFFICER:** I don't believe you.
 
 A beat.
 
-**CONVOY OFFICER:** And if they use those ten minutes to settle on the ridge?
+The officer makes the decision.
 
-**CYANIS:** Then we still have a line, the wounded are behind it, and I can move without leaving the relay hollowed out.
-
-The officer considers the field rather than treating the disagreement as a contest of rank.
-
-**CONVOY OFFICER:** All right. Relay first. Reform on the wagon and keep eyes north. Nobody chases until I say otherwise.
+**CONVOY OFFICER:** Relay first. Reform on the wagon. Eyes north. Nobody chases until I say otherwise. Two clean escorts stay mobile, not committed.
 
 **CYANIS:** Yes, sir.
 
@@ -248,299 +458,689 @@ Cyanis starts to go.
 
 **CYANIS:** Sir?
 
-**CONVOY OFFICER:** Next time, field first and refusal second. You had the argument. I shouldn't have to drag it out of you.
+**CONVOY OFFICER:** Next time, field first and refusal second. You had the argument. I shouldn't have to drag it out of you while people are waiting on the decision.
 
-A beat.
+Cyanis takes that without defending himself.
 
-**CYANIS:** Yes, sir.
+**CYANIS:** You're right.
 
-No Card response occurs.
+The officer gives him a brief look; the plain admission is more useful than ceremony.
+
+**CONVOY OFFICER:** Go make the line worth the argument.
+
+**CYANIS:** On it.
+
+Scene ends.
 
 ---
 
-# P04 — Field Triage Camp / Ilyra / First Incomplete Response
+### [GAMEPLAY HANDOFF — FIELD TRIAGE CAMP]
+
+The revised order begins immediately.
+
+The ranking officer retains command. Cyanis has changed the plan by giving a better field argument, not by becoming rogue or infallible.
+
+No Card response occurs.
+
+Next: **P04 — Field Triage Camp / Ilyra / First Incomplete Response.**
+
+---
+
+## Person-Brain performance note
+
+- the prior spoken/narration correction remains intact: Cyanis does not re-explain the full north-cut evidence already established in P02; `You said that. What changes now?` still turns the argument toward the new casualty state.
+- Cyanis now delivers the field report as one competent linked unit rather than waiting for a checklist interrogation.
+- the officer's resistance is conversational and character-aware: he challenges both the tactical cost and Cyanis's habit of objecting to risk while volunteering himself for it.
+- Cyanis can say `You're right` plainly when the criticism is useful.
+- the officer retains formal authority and makes the final call.
+- no story outcome, Card state, or knowledge state changes.
+
+---
+
+## P04
+
+**Atomic source:** `P04_FIELD_TRIAGE_ILYRA_FIRST_FLARE_REHEARSAL_FIRST_DRAFT_A.md`  
+**Source SHA-256:** `738b05d939db7c97cfe25006a9c45405594437587261182a2082757ad9c72ffe`
+
+# Chapter 0 — P04
+# Field Triage Camp / Ilyra / First Incomplete Response
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+
+---
+
+### [STORY TRIGGER — FIELD TRIAGE CAMP]
 
 The relay-side defensive area has become a working triage camp.
 
-Ilyra Amarin is already working. She and Cyanis do not begin as established acquaintances.
+Because this is an authored active-camp scene, Cyanis, Ilyra, the convoy officer, wounded escorts, and civilians who are actually present may appear as simple field models.
 
-The Card is still inside its damaged recovery casing and remains inert.
+Portraits and the dialogue box carry most acting.
 
-**ILYRA:** Walking wounded by the blue cloth. If you can stand, help someone who can't. Nobody moves her yet.
+Ilyra Amarin is already working when Cyanis arrives. She was part of the wider convoy medical/Warden support, but she and Cyanis do not begin as established acquaintances.
+
+The recovered Card is still inside its damaged recovery casing and remains inert.
+
+Ilyra's first line is work.
+
+**ILYRA:** Walking wounded by the blue cloth. If you can stand without falling over, help somebody who can't. Nobody moves her yet—not the blanket, not the board, not her because you think you're helping.
 
 Cyanis reaches the same lane from the security side.
 
-**CYANIS:** I need this clear.
+**CYANIS:** I need this clear before the east side collapses into it.
+
+Ilyra does not look up from the patient immediately.
 
 **ILYRA:** Then move the crates.
 
 **CYANIS:** She can't move?
 
-**ILYRA:** Not safely. Her breathing gets worse when we shift her, and I don't have enough hands to gamble on it. Give me a stable surface and a few minutes.
+Now Ilyra looks at him.
 
-Cyanis checks the lane.
+**ILYRA:** Not safely. Her breathing gets worse every time the torso shifts, and I don't have enough hands or information to gamble on whether the next move makes that permanent. Give me a stable surface and a few minutes. You can have the lane around her.
 
-**CYANIS:** All right. Crates move.
+Cyanis checks the space once, then points toward the crates.
 
-A little later:
+**CYANIS:** All right. Crates move. Leave her where she is.
 
-**CYANIS:** East side's thin. How much room do you need behind the wagon?
+A nearby escort starts to drag one of the crates alone.
 
-**ILYRA:** Eight paces.
+**CYANIS:** Not by yourself. Get help or leave it.
 
-**CYANIS:** Seven keeps the west corner covered.
+Ilyra hears that.
 
-Ilyra checks once.
+**ILYRA:** Good rule.
 
-**ILYRA:** Seven.
+**CYANIS:** Been a popular one today.
 
-A beat.
+There is no argument for the sake of argument. He got the information he needed; she sees that he will actually use it.
 
-**ILYRA:** Your left arm's shaking. Don't tell me it still works; I'm asking whether it's getting worse.
+The scene releases briefly into normal camp work.
 
-**CYANIS:** I'm upright.
+---
 
-**ILYRA:** For now.
+### [SECOND STORY STOP — SHARED SPACE]
+
+A little later, Cyanis and Ilyra are working the same problem from different sides.
+
+**CYANIS:** East side's thin. How much room do you need behind the wagon if I pull the line closer?
+
+Ilyra glances back, measures the practical space rather than answering reflexively.
+
+**ILYRA:** Eight paces if you want me to move two stretchers past each other without turning either patient sideways.
+
+**CYANIS:** Seven keeps the west corner covered. I can give you eight for a few minutes, but if the pressure shifts south I need one back.
+
+Ilyra checks once more.
+
+**ILYRA:** Seven now. If I call for eight, I mean immediately.
+
+**CYANIS:** Done.
+
+Her attention catches on Cyanis as he turns.
+
+**ILYRA:** Your left arm's shaking.
+
+Cyanis looks at it as if the arm has betrayed him by being visible.
+
+**CYANIS:** Still works.
+
+**ILYRA:** I didn't ask whether it works. I asked because the tremor is worse than it was when you came in. Pain, weakness, or both?
+
+**CYANIS:** Mostly pain.
+
+**ILYRA:** Mostly is doing suspicious work there.
+
+He flexes the hand once.
+
+**CYANIS:** Pain. Some weakness when I lift it high. No numbness.
+
+**ILYRA:** Better. Don't keep testing it just because I asked.
+
+Cyanis lets the arm drop.
 
 A beat.
 
 **CYANIS:** Name?
 
-**ILYRA:** Amarin.
+**ILYRA:** Amarin. Ilyra, if nobody's shouting rank at me.
 
-**CYANIS:** Dovaren.
+**CYANIS:** Cyanis Dovaren.
 
-**ILYRA:** I know. You were being shouted at earlier.
+**ILYRA:** I know. You've been getting yelled at across the entire wreck field.
 
-**CYANIS:** That'll do it.
+**CYANIS:** Good to know my reputation arrived first.
 
-Renewed Host pressure interrupts them.
+**ILYRA:** Your reputation is currently "man people keep shouting at who then runs toward the problem."
+
+**CYANIS:** I've had worse.
+
+**ILYRA:** I'm sure.
+
+That is as much introduction as the crisis permits.
+
+---
+
+### [RENEWED BLACK HOST PRESSURE]
 
 **CONVOY OFFICER:** East ridge!
 
-**CYANIS:** Get everyone behind the relay wall.
+Cyanis turns immediately toward the threat.
 
-**ILYRA:** Two stay. If I move them now, they may stop breathing before they reach it.
+**CYANIS:** Everybody behind the relay wall! If you're carrying someone, don't drop them to get there faster!
 
-Cyanis looks toward the ridge, then back to her.
+**ILYRA:** Two stay.
 
-**CYANIS:** Then tell me what you need.
+Cyanis looks back.
 
-**ILYRA:** Half a minute and something between them and that ridge.
+**ILYRA:** Those two. If I move them now, they may stop breathing before they reach the wall. I can stabilize one here and move the other after, but I need the space to stay mine long enough to do it.
 
-Before Cyanis can answer, green-and-gold light wakes inside the damaged recovery casing.
+Cyanis looks toward the ridge, then at the exposed treatment position.
 
-Fragmented geometry spreads through the threatened treatment position and briefly stabilizes failing cover and the movement lane.
+**CYANIS:** Tell me exactly what you need.
 
-It attacks nothing and heals nobody. Nobody intentionally activates it.
+**ILYRA:** Half a minute. Something solid between them and that ridge. And nobody deciding halfway through that panic is faster than my instructions.
+
+**CYANIS:** You get the half minute.
+
+Before either can say more, green-and-gold light wakes inside the damaged recovery casing.
+
+Fragmented geometry spreads through the threatened treatment position, briefly stabilizing failing cover and the movement lane.
+
+This is the first incomplete Card response.
+
+It does not attack. It does not heal. Nobody intentionally activates it.
+
+The player gets the visual without a speech explaining it.
 
 **CONVOY OFFICER:** What the hell is that?
 
+Cyanis is staring at the same impossible light everyone else is.
+
 **CYANIS:** No idea.
 
-Ilyra catches Cyanis's physical reaction almost immediately.
+Ilyra catches something else almost immediately.
 
 **ILYRA:** Dovaren.
 
 **CYANIS:** I'm fine.
 
-**ILYRA:** No, you're not. Your pulse changed when that started.
+**ILYRA:** No, you're not. Your pulse jumped when that started and your face just went gray. Look at me.
+
+He does, briefly.
 
 **CYANIS:** Can you keep me standing long enough to hold the cut?
 
-**ILYRA:** For now. If that changes, I tell you—not the other way around.
+Ilyra checks what she can in seconds rather than pretending she has a diagnosis.
 
-**CYANIS:** Fair. Move them.
+**ILYRA:** Yes—for now. You're responsive, your pupils look even, and you're not falling over. That is not me saying you're fine. If any of that changes, I tell you to stop and you stop. You don't negotiate because the line is busy.
 
-Ilyra uses the opening.
+**CYANIS:** Works for me.
 
-Once the threatened patients are moved, the green-and-gold geometry fully collapses. The casing and Card return to inert state.
+He looks toward the patients.
 
-Ilyra checks Cyanis again.
+**CYANIS:** Move them.
 
-**ILYRA:** Look at me. Properly.
+Ilyra uses the opening rather than continuing the conversation.
+
+The threatened patients are moved.
+
+Once the immediate movement crisis is resolved, the green-and-gold geometry loses coherence and fully disappears.
+
+The recovery casing and Card return to inert state.
+
+There is **no lingering Card protection** after this point.
+
+---
+
+### [AFTER THE FIRST FLARE]
+
+The relevant characters remain in the active camp scene.
+
+Ilyra finds Cyanis again as soon as the immediate movement is complete.
+
+**ILYRA:** Cyanis.
+
+The first-name use gets his attention faster than another order would.
+
+**ILYRA:** Look at me. Properly this time.
 
 He does.
 
-**ILYRA:** Dizzy? Vision doing anything strange? Hands numb?
+**ILYRA:** Dizzy? Vision doing anything strange? Hands numb? Hearing normal?
 
-**CYANIS:** Little dizzy. Rest is normal.
+**CYANIS:** Little dizzy. Vision's normal. Hands aren't numb. I can hear you being very specific.
 
-**ILYRA:** Better answer.
+**ILYRA:** Good. That's an actual answer.
 
 **CYANIS:** You grading me now?
 
-**ILYRA:** Apparently. If your vision narrows, your hand goes numb, or you stop hearing me clearly, you tell me immediately.
+**ILYRA:** Apparently. You're improving.
+
+She watches his eyes another moment.
+
+**ILYRA:** If your vision narrows, either hand goes numb, the dizziness gets worse, you lose time, or you stop hearing me clearly, you tell me immediately. Not after the next fight. Not when somebody else notices. Immediately.
 
 **CYANIS:** I will.
 
-Outside the treatment position, Host pressure remains.
+She studies him for half a second, deciding whether she believes the promise rather than demanding one more.
+
+**ILYRA:** All right.
+
+Outside the treatment position, Black Host pressure is still active.
+
+Cyanis looks toward the perimeter.
 
 **CYANIS:** I need to hold the cut.
 
 **ILYRA:** Yes.
 
-Cyanis waits.
+He waits because the answer is unexpectedly simple.
 
 **CYANIS:** You're staying here?
 
-**ILYRA:** No. They're stable enough for the next few minutes; that line isn't. If it folds, I have patients in the open anyway.
+**ILYRA:** No. These two are stable enough for the next few minutes and I've handed them to people who know what not to do. That line isn't stable. If it folds, every patient I just protected is exposed again, so standing here pretending treatment ends at the blanket would be stupid.
 
-**CYANIS:** You fight?
+Cyanis nods toward the weapon she already carries.
+
+**CYANIS:** You fight.
 
 **ILYRA:** I'm a Warden.
 
 A beat.
 
-**CYANIS:** Right.
+**CYANIS:** Right. Sorry. Long day.
 
-**ILYRA:** Try to keep up.
+**ILYRA:** You drank nothing, you're bleeding through one sleeve, and something in a recovery case just made your pulse jump. I'll allow one stupid question.
+
+**CYANIS:** Generous.
+
+**ILYRA:** Don't spend it twice. Move, Dovaren.
 
 **CYANIS:** Starting strong, Amarin.
 
-**ILYRA:** Move, Dovaren.
+**ILYRA:** You're still standing here.
 
-Ilyra joins the defense by her own decision.
+Cyanis goes.
+
+Ilyra joins the defense by her own professional decision.
 
 **ACTIVE COMBAT PAIR: CYANIS + ILYRA.**
 
+Scene ends before it turns into recruitment dialogue.
+
 ---
 
-# P05 — Concealed Ruin Vanguard
+## P04 end state
 
-The first flare is completely over. The Card remains cased and inert.
+The first incomplete green-and-gold response has occurred and fully ended. Cyanis did not intentionally activate it. Ilyra has observed a real physical correlation between the phenomenon and Cyanis without identifying the cause. The Card is inert before P05. Ilyra has independently joined the defense because the treatment space requires the perimeter to hold.
 
-An armored Black Host Ruin Vanguard approaches the defended line alone. Writer-facing only, this is Seyrik Rell. The scene does not identify him.
+No Prime, Might, Last Sentinel, bearer, ancient-weapon, or Entity explanation is revealed.
 
-**CYANIS:** Host.
+## Person-Brain performance note
+
+- Cyanis and Ilyra meet as two competent adults solving overlapping problems, not as leader and designated healer exchanging plot lines.
+- Ilyra owns complete medical/practical thoughts and distinguishes a temporary field clearance from declaring Cyanis `fine`.
+- Cyanis gives useful symptom answers once Ilyra makes clear why the precision matters; he still defaults to minimizing himself first.
+- their first humor grows out of work and mutual observation rather than instant intimacy.
+- Ilyra joins the defense because her professional reasoning reaches that decision; Cyanis does not recruit or grant her permission.
+- urgent commands remain short where danger earns them.
+
+---
+
+## P05
+
+**Atomic source:** `P05_CONCEALED_RUIN_VANGUARD_REHEARSAL_FIRST_DRAFT_A.md`  
+**Source SHA-256:** `31528c43465586c9e15e0ec22fac63ee67b5d263e5ff4f869ae0f5d84d2d694f`
+
+# Chapter 0 — P05
+# Concealed Ruin Vanguard
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
+
+---
+
+### [PERIMETER — AFTER P04]
+
+The first green-and-gold flare is completely over.
+
+The recovered Card remains inside its damaged recovery casing. Both are dark.
+
+Cyanis and Ilyra are now the active combat pair.
+
+The treatment space is still occupied and working. The people there may remain visible as part of the active camp state, but this scene does not add another crowd sequence or medical montage.
+
+The perimeter gets a short breathing interval before the next authored threat.
+
+---
+
+### [STORY TRIGGER — THE PURSUER]
+
+An armored Black Host Ruin Vanguard approaches the defended line alone.
+
+Writer-facing only: this is Seyrik Rell.
+
+No one in the scene identifies him by name. His face/identity remains concealed. He does not stop for a villain speech.
+
+Cyanis and Ilyra may appear as simple field models when the encounter trigger fires.
+
+Cyanis spots the figure first.
+
+**CYANIS:** Host. One coming in alone.
+
+Ilyra follows his sightline.
 
 **ILYRA:** I see him.
 
 A beat.
 
-**CYANIS:** Just one.
+**CYANIS:** No bow support. No visible line behind him.
 
-**ILYRA:** That's not comforting.
+**ILYRA:** You're saying that like it's reassuring.
 
-**CYANIS:** Wasn't meant to be. Camp stays behind us.
+**CYANIS:** I'm saying it because I don't know what the hell he's doing.
 
-**ILYRA:** Agreed.
+The Vanguard keeps coming.
 
-**AUTHORED ENCOUNTER — CYANIS + ILYRA VS. RUIN VANGUARD PURSUER.**
+**ILYRA:** Better reason.
 
-The Card remains inert throughout.
+**CYANIS:** Camp stays behind us. If he tries to pull us away from it, we don't go.
 
-At the encounter-authorized threshold, the Pursuer withdraws alive.
+**ILYRA:** Agreed. I'm not chasing a man who volunteered to be the only obvious target.
+
+Cyanis glances at her.
+
+**CYANIS:** Suspicious by profession?
+
+**ILYRA:** No. Today has been educational.
+
+**AUTHORED ENCOUNTER BEGINS — CYANIS + ILYRA VS. RUIN VANGUARD PURSUER.**
+
+The Card remains inert for the entire encounter.
+
+No incomplete protection, green-and-gold geometry, Card reaction, identity reveal, or transformation occurs.
+
+Battle presentation owns combat movement. Any mid-battle dialogue, if later added by encounter authority, must remain speech-only.
+
+---
+
+### [AUTHORED DISENGAGEMENT]
+
+At the encounter-authorized threshold, the Ruin Vanguard disengages and retreats alive.
+
+This is not a defeat-to-death sequence and not a chase setup.
+
+Normal field/story presentation returns.
 
 **CYANIS:** He's leaving.
 
 **ILYRA:** Let him.
 
-**CYANIS:** Wasn't going after him.
+Cyanis watches the retreat for one more beat.
 
-**ILYRA:** Good. I don't want to learn what he wanted by following him into it.
+**CYANIS:** I am.
+
+**ILYRA:** Good.
+
+**CYANIS:** You thought I was going after him.
+
+**ILYRA:** I met you less than an hour ago and watched you argue against a chase, then put yourself on the forward line twice. I was keeping the possibility open.
+
+Cyanis looks at her.
+
+**CYANIS:** That's unfairly fast pattern recognition.
+
+**ILYRA:** He came here alone, fought until he chose not to, and now he's walking away. I don't want to learn what he wanted by following him into the part he picked.
+
+Cyanis looks back toward the retreating figure.
+
+**CYANIS:** Neither do I.
+
+**ILYRA:** Good. I'd hate for our first disagreement to be that stupid.
+
+Cyanis almost smiles.
+
+**CYANIS:** Ambitious to assume we'll find a better one.
+
+**ILYRA:** Give it time.
 
 They leave it there.
 
-## Noncombat reset
-
-The scene returns to the defended treatment area. There is a real pause before P06; no second flare yet.
-
-**ILYRA:** Water. And yes, before you ask, that's an order.
-
-**CYANIS:** I wasn't going to ask.
-
-**ILYRA:** Good. Drink.
-
-He does.
-
-A little quiet passes.
-
-**CYANIS:** Better?
-
-**ILYRA:** Ask me in five minutes. Right now you're upright, you're answering normally, and you're still trying to bargain with water. That's enough information for the moment.
-
-**CYANIS:** Encouraging.
-
-**ILYRA:** It wasn't meant to be. Drink again.
-
-He does.
-
-The treatment camp continues around them. Player control may return briefly before the final attack.
+Nobody infers who he is, why he withdrew, or whether the north cut was bait.
 
 ---
 
-# P06 — Riftmaw + War-Sorcerer / Final Broken Convoy Confrontation
+### [NONCOMBAT RESET — TRIAGE LINE]
 
-The P05 reset has had time to breathe.
+The scene returns to the defended treatment area before P06.
 
-The Card is still inside its damaged recovery casing and is inert when the final push begins.
+There is a real noncombat interval here.
 
-The War-Sorcerer advances with **Riftmaw**, visibly a Black Host war-beast asset.
+No immediate boss sting. No continuous Card ward. No second flare yet.
+
+Someone at the working line has left water within reach. Cyanis takes some without being told.
+
+Ilyra notices.
+
+**ILYRA:** Look at that.
+
+**CYANIS:** Don't.
+
+**ILYRA:** I didn't say anything.
+
+**CYANIS:** You were about to.
+
+**ILYRA:** I was thinking.
+
+**CYANIS:** Worse.
+
+That gets a short laugh out of her.
+
+A little quiet passes.
+
+Cyanis looks toward the direction the Vanguard disappeared.
+
+**CYANIS:** You think he wanted us to follow?
+
+Ilyra considers it instead of reaching for a confident answer.
+
+**ILYRA:** I think he left when he meant to leave. That's enough reason for me not to give him the next choice too.
+
+**CYANIS:** You're comfortable with not knowing.
+
+**ILYRA:** Absolutely not. I hate not knowing. I just hate inventing an answer because uncertainty is irritating.
+
+Cyanis looks at her.
+
+**CYANIS:** That's annoyingly reasonable.
+
+**ILYRA:** I get that a lot.
+
+A beat.
+
+Cyanis adds, before she asks:
+
+**CYANIS:** Less dizzy. Arm hurts more, weakness isn't worse, still no numbness.
+
+Ilyra blinks.
+
+**ILYRA:** I wasn't going to ask yet.
+
+**CYANIS:** Ruined the moment, then.
+
+**ILYRA:** Completely. I was enjoying having a conversation that wasn't about your symptoms.
+
+**CYANIS:** Sorry.
+
+**ILYRA:** Don't be. That was useful. Just don't start thinking useful is the same as charming.
+
+**CYANIS:** Devastating.
+
+The treatment camp continues around them.
+
+Neither fills the pause simply because dialogue is available.
+
+Player control can return briefly inside the defended area before the final attack begins.
+
+---
+
+## P05 end state
+
+The concealed Ruin Vanguard has withdrawn alive. Cyanis and Ilyra do not know his identity and do not chase. The encounter proves nothing about the northern withdrawal. The first flare remains fully over and the Card remains inert. The player receives a genuine breathing/reset interval before P06.
+
+## Person-Brain / Ilyra role-balance note
+
+- the threat approach stays appropriately terse, but Cyanis gives the actual uncertainty behind `just one` rather than using the line as empty ominous setup.
+- Ilyra's refusal to chase is tactical judgment, not healer-coded caution.
+- the reset scene is deliberately not built around Ilyra handing Cyanis water and administering another check. Cyanis takes water himself, Ilyra discusses uncertainty and the Vanguard because she is curious and skeptical, and Cyanis volunteers the symptom update from continuity already established in P04.
+- Ilyra explicitly values not inventing answers when evidence is incomplete, giving her a nonmedical reasoning trait that can recur without making her an expert outside her domains.
+- their humor can start becoming more comfortable without implying instant intimacy.
+- no identity, motive, northern-cut answer, or Card information is added.
+
+---
+
+## P06
+
+**Atomic source:** `P06_RIFTMAW_WAR_SORCERER_REHEARSAL_FIRST_DRAFT_A.md`  
+**Source SHA-256:** `2b96955e06ed54e78b57e14b891e380eafbf9979854ab485672463bd3ca0f3cb`
+
+# Chapter 0 — P06
+# Riftmaw + War-Sorcerer / Final Broken Convoy Confrontation
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+
+---
+
+### [FINAL PUSH — STORY TRIGGER]
+
+The noncombat reset from P05 has had time to breathe.
+
+The recovered Card is still inside its damaged recovery casing and remains inert when the final push begins.
+
+The War-Sorcerer advances on the treatment/evacuation line with **Riftmaw**, visibly a Black Host war-beast asset in restraint/harness context.
+
+This is the single combined final boss encounter for Chapter 0.
+
+The relevant characters may appear as simple field models for the trigger. Portraits and the dialogue box carry the exchange.
 
 **CONVOY OFFICER:** East cut!
 
+Cyanis sees the incoming pair.
+
 **CYANIS:** That's not a hound.
 
-**ILYRA:** No.
+Ilyra sees the size, the harness, and the sorcerer controlling the approach.
+
+**ILYRA:** No. And I don't think the person behind it brought it here to negotiate.
 
 **CONVOY OFFICER:** Riftmaw! Sorcerer behind it!
 
 A beat.
 
-**CYANIS:** Everybody behind stone. Nobody follows us out.
+Cyanis looks at the treatment lane before he looks back at the enemy.
 
-**ILYRA:** Keep the lane behind me clear. If I have to move someone, I don't want to find you standing where I need to go.
+**CYANIS:** Everybody behind stone. Nobody follows us out. If the line breaks, fall back toward the relay, not the road.
+
+**ILYRA:** Keep the lane behind me clear. If I have to move someone, I need to know the space is there before I turn around with a body in my hands.
 
 **CYANIS:** You have it.
 
-Green-and-gold light wakes inside the damaged recovery casing for the second time.
+Before the fight starts, green-and-gold light wakes inside the damaged recovery casing for the second time.
+
+Fragmented protection spreads through the defended opening.
+
+Ilyra sees it, then immediately looks at Cyanis rather than the phenomenon.
 
 **ILYRA:** There. Same feeling as before?
 
 **CYANIS:** Close enough.
 
-**ILYRA:** Don't guess with me.
+**ILYRA:** No. Don't give me `close enough` because the thing trying to kill us is large. Same dizziness? Same pulse jump? Same arm response?
 
-A beat.
+Cyanis forces himself to actually check rather than wave her off.
 
-**CYANIS:** Feels the same. No worse yet.
+**CYANIS:** Dizziness is the same. Pulse feels fast. Arm isn't different from thirty seconds ago.
 
-**ILYRA:** Better.
+**ILYRA:** Better. If any of that changes, say it even if I'm in the middle of something.
 
-**CYANIS:** Use it while it's here.
+**CYANIS:** I will.
 
-**ILYRA:** Planning to.
+The War-Sorcerer and Riftmaw continue closing on the camp.
 
-**BOSS COMBAT — CYANIS + ILYRA VS. RIFTMAW + CONVOY WAR-SORCERER.**
+Cyanis looks at the temporary protection.
 
-Encounter authority owns exact mechanics. The second incomplete response supplies the current three-round opening defensive effect. Riftmaw has one HP bar and does not transform. No support wave or injured Iron Cohort Soldier appears.
+**CYANIS:** Whatever that is, it's helping the line. Use it while it's here.
 
-## Scripted battle event — casing break
+**ILYRA:** Already planning to.
 
-After the second response is active, a heavy impact reaches the recovery position.
+**CYANIS:** Good.
 
-The damaged recovery casing is knocked loose, strikes stone, and splits open.
+**ILYRA:** Don't sound surprised.
+
+**BOSS COMBAT BEGINS — CYANIS + ILYRA VS. RIFTMAW + CONVOY WAR-SORCERER.**
+
+---
+
+### [BOSS COMBAT]
+
+Encounter authority owns exact mechanics, actions, targeting, timing, rewards, and balance.
+
+Current story-bounded opening effect from the second incomplete flare is **Defense +15% / Spirit +15% for Rounds 1–3**, subject to encounter authority.
+
+Riftmaw has one HP bar and does not transform.
+
+There is no support wave and no injured Iron Cohort Soldier.
+
+Rift Lance Preparation does not occur before Round 2 unless encounter authority explicitly changes it later.
+
+The Card response is not selectable and is not a Prime activation.
+
+Mid-battle dialogue is optional and speech-only. The dialogue layer does not script character movement.
+
+---
+
+### [SCRIPTED BATTLE EVENT — CASING BREAK]
+
+After the second incomplete response is already active, a heavy impact reaches the recovery position behind Cyanis and Ilyra.
+
+The already-damaged recovery casing is knocked loose.
+
+It strikes stone and splits open.
 
 The **Card skids free intact**, still lit green and gold.
 
-The fight does not pause. Nobody inspects or explains it.
+The fight does not pause.
 
-From this moment onward, the casing is finished.
+No one runs over to inspect it. No explanatory dialogue fires. The battle continues.
 
-## Boss victory
+From this moment onward, the recovery casing is broken beyond use and leaves active continuity.
 
-Riftmaw and the War-Sorcerer are defeated. Organized Black Host pressure breaks contact.
+The Card itself remains intact.
 
-The second response fully disappears. The Card goes dark.
+---
+
+### [BOSS VICTORY]
+
+Riftmaw and the War-Sorcerer are defeated in the same encounter.
+
+Remaining organized Black Host pressure breaks contact and withdraws.
+
+The second green-and-gold response loses coherence and fully disappears.
+
+The Card goes dark.
+
+Normal field/story presentation returns.
 
 **CONVOY OFFICER:** They're pulling back.
 
-**CYANIS:** Let them.
+Cyanis watches long enough to make sure the withdrawal is real on this side.
 
-Ilyra immediately checks Cyanis.
+**CYANIS:** Let them. Nobody chases.
+
+The officer nods once and turns back toward the camp.
+
+Ilyra is already facing Cyanis.
 
 **ILYRA:** Look at me. Both eyes.
+
+Cyanis does.
 
 A beat.
 
@@ -550,23 +1150,45 @@ Ilyra freezes for half a second.
 
 **CYANIS:** Kidding.
 
-**ILYRA:** Don't do that. I don't know enough yet to know what that light did to you, and I am not guessing whether you're joking about double vision.
+The look on her face changes immediately.
 
-**CYANIS:** Sorry.
+**ILYRA:** Don't do that.
 
-A beat.
+Cyanis's smile disappears.
+
+**ILYRA:** I don't know enough yet to know what that light did to you. I don't know if the dizziness is harmless, if it can change suddenly, or if vision problems would mean something is getting worse. If you joke about double vision, I have to waste time deciding whether you're being funny or whether your brain is doing something dangerous.
+
+That lands harder than he expected.
+
+**CYANIS:** You're right. Sorry.
+
+Ilyra accepts the apology without making him perform it twice.
 
 **ILYRA:** Again. What do you see?
 
-**CYANIS:** One of you. Camp behind you. Everything else where it should be.
+**CYANIS:** One of you. Camp behind you. Officer to your left. Everything else where it should be.
 
-**ILYRA:** Good.
+**ILYRA:** Any new numbness?
+
+**CYANIS:** No.
+
+**ILYRA:** Dizziness?
+
+**CYANIS:** Still there. Not worse.
+
+**ILYRA:** Good enough to move. Not good enough to forget.
+
+Cyanis looks past her toward the treatment line.
 
 **CYANIS:** Camp?
 
-**ILYRA:** Still ours. Wounded are still moving where they're supposed to.
+Ilyra checks it too.
 
-The Card lies beside the broken casing.
+**ILYRA:** Still ours. Wounded are moving where they're supposed to. Nobody obvious went down while we were occupied.
+
+A few feet away, the Card lies beside the broken remains of its casing.
+
+Cyanis sees it.
 
 **CYANIS:** The case is done.
 
@@ -574,83 +1196,214 @@ The Card lies beside the broken casing.
 
 **CYANIS:** Card looks intact.
 
-**ILYRA:** Looks intact. That's all we know from here.
+**ILYRA:** Looks intact from here. That's all we know, and I'd like us not to learn more by poking it in the middle of the road.
 
-**CYANIS:** Right.
+**CYANIS:** Strongly agree.
 
-Once Ilyra is satisfied he can move, Cyanis retrieves the Card itself. It stays dark.
+Once Ilyra is satisfied he can move, Cyanis crosses to the broken casing and picks up the Card itself.
 
-**CONVOY OFFICER:** We count people first. Whatever that thing is, it can wait until nobody's bleeding in the road.
+It stays dark in his hand.
 
-**CYANIS:** Yeah.
+There is no additional response.
 
-**ILYRA:** I'll check you properly after we've got the wounded moving. You are not disappearing before then.
+Cyanis waits a second anyway.
 
-**CYANIS:** I heard you.
+**CYANIS:** Nothing.
 
-**ILYRA:** Good.
+**ILYRA:** Good. Put it somewhere you can keep it without dropping it and leave `nothing` alone.
 
-The chapter moves directly into aftermath work.
+**CYANIS:** You really don't like experiments.
+
+**ILYRA:** I like experiments when the subject isn't a tired man standing in a wreck field after being hit by unexplained magic twice.
+
+**CYANIS:** Yeah, okay.
 
 ---
 
-# P07 — Aftermath / Survivor Recovery / Overnight Camp
+### [HANDOFF — AFTERMATH]
 
-The crisis closes through work rather than celebration. Cyanis now carries the intact Card directly.
+The immediate organized Black Host attack has failed, but the convoy crisis is not treated as a victory celebration.
 
-**CONVOY OFFICER:** Dovaren. Amarin. Give me the field.
+There are still wounded, missing people, damaged wagons, and unresolved recovery work.
 
-**CYANIS:** East cut's clear. Nobody followed them. Wreck line is still exposed on the south side.
+Cyanis now carries the intact Card directly.
 
-**ILYRA:** Walking wounded can move. Two still can't, and I don't want either of them sitting upright yet.
+The casing is gone from continuity.
 
-**CONVOY OFFICER:** Missing?
+**CONVOY OFFICER:** We count people first. Whatever that thing is, it can wait until nobody's bleeding in the road. I don't want anybody deciding surviving the fight made them a scholar.
 
-**WOUNDED ESCORT:** Don't know. Rear roster went with one of the wagons.
-
-A beat.
-
-**CYANIS:** Then we search the wreck line before the light goes.
-
-**CONVOY OFFICER:** Brackenwall can send people back at first light.
-
-**CYANIS:** If somebody's pinned, first light's too late. Same if they're bleeding where we can't see them.
-
-**ILYRA:** He's right. We don't need the whole road; we need one bounded sweep while we can still find somebody alive.
-
-The officer considers that.
-
-**CONVOY OFFICER:** One sweep. South ditch to the wreck markers, no farther. If you find Host stragglers beyond that boundary, you leave them there and come back.
-
-**CYANIS:** Understood.
-
-**ILYRA:** Agreed.
-
-## The Card
-
-**CONVOY OFFICER:** That stays exactly where it is until Brackenwall. No testing, no handing it around because somebody gets curious, and no clever ideas on the road.
+Cyanis glances at the dark Card.
 
 **CYANIS:** Happily.
 
-**ILYRA:** No argument from me.
+**ILYRA:** I'll check him properly after we've got the wounded moving. Until then, if he tries to disappear into useful work, send him back.
 
-**CONVOY OFFICER:** Good. Brackenwall can decide what to do with it when we have walls and people who aren't half dead.
+Cyanis looks at her.
 
-Nobody proposes another separation test here.
+**CYANIS:** I'm standing right here.
 
-## Ilyra stays
+**ILYRA:** Good. Saves time.
+
+The officer almost smiles despite the field around them.
+
+**CONVOY OFFICER:** You heard the Warden.
+
+**CYANIS:** Apparently everyone has.
+
+**ILYRA:** Excellent.
+
+That is enough. The chapter moves back to people rather than lingering on the boss or the Card.
+
+Scene ends.
+
+---
+
+## P06 end state
+
+Riftmaw and the Convoy War-Sorcerer are defeated in the combined final encounter. The second incomplete Card flare has occurred and fully ended. The recovery casing breaks during the fight; the Card survives intact and Cyanis picks it up afterward. From here through P07, camp cleanup, departure, and Chapter 1, the group carries the Card itself. Nobody has identified the phenomenon as Prime, Might, Last Sentinel, bearer confirmation, an ancient weapon, or anything Entity-related.
+
+## Person-Brain performance note
+
+- danger still compresses the pre-boss dialogue, but Ilyra refuses vague symptom language because precision materially changes her decision.
+- after battle, Cyanis's double-vision joke now produces a full adult boundary from Ilyra: the problem is not offense, it is that joking corrupts the information she needs to keep him safe.
+- Cyanis can recognize the criticism, apologize plainly, and give better information without becoming emotionally confessional.
+- the officer, Ilyra, and Cyanis begin sounding like people who have survived the same terrible afternoon rather than separate functional roles.
+- no Card classification, Prime terminology, or causal explanation is added.
+
+---
+
+## P07
+
+**Atomic source:** `P07_AFTERMATH_SURVIVOR_RECOVERY_REHEARSAL_FIRST_DRAFT_B.md`  
+**Source SHA-256:** `75ae859db36155847b33f07036097eda1fe4a0854f7353d6fea979697d814720`
+
+# Chapter 0 — P07
+# Aftermath / Survivor Recovery / Overnight Camp
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+
+---
+
+### [STORY TRIGGER — AFTERMATH]
+
+The final boss encounter is over.
+
+The Broken Convoy does not celebrate. The immediate organized Black Host push has failed, but the field still contains wounded people, missing people, damaged wagons, and unfinished work.
+
+The recovery casing was destroyed during P06. Cyanis now carries the intact Card itself. It is dark and inert.
+
+The active triage area may contain the people actually present as simple field models. Portraits and the dialogue box carry the conversation.
+
+The convoy officer finds Cyanis and Ilyra together near the working line.
+
+**CONVOY OFFICER:** Dovaren. Amarin. Give me the field, not the story.
+
+Cyanis understands what he wants.
+
+**CYANIS:** East cut's clear. Nobody followed the withdrawal back in. Wreck line is still exposed on the south side, and I haven't checked beyond the last marked wagon because you told me not to turn a sweep into a pursuit.
+
+**CONVOY OFFICER:** Good.
+
+Ilyra takes the medical side without waiting for another prompt.
+
+**ILYRA:** Walking wounded can move if the pace stays slow. Two still can't sit upright, and I don't want either of them bouncing down the road on a wagon yet. Give me enough hands and I can move them flat when the first column goes.
+
+**CONVOY OFFICER:** Missing?
+
+A wounded escort answers from nearby.
+
+**WOUNDED ESCORT:** Don't know. Rear roster went with one of the wagons. I can name who was near me, not the whole tail.
+
+Cyanis looks toward the wreck line as the light begins to go.
+
+**CYANIS:** Then we search before dark.
+
+**CONVOY OFFICER:** Brackenwall can send people back at first light.
+
+**CYANIS:** If somebody's pinned, first light is too late. Same if they're bleeding where we can't see them. I'm not asking to chase north. Give us the wreck line and the ditch, one sweep, then we stop.
+
+**ILYRA:** He's right. We don't need the whole road. We need the places somebody could still be alive and unable to call loudly enough for camp to hear them.
+
+The officer looks from one to the other.
+
+**CONVOY OFFICER:** You two met today and you're already taking turns making the same argument.
+
+**CYANIS:** Efficient.
+
+**ILYRA:** Concerning.
+
+The officer exhales through his nose.
+
+**CONVOY OFFICER:** One sweep. South ditch to the wreck markers, no farther. If you see Host stragglers beyond the boundary, you do not decide that technically they're close enough. You turn around.
+
+Cyanis opens his mouth.
+
+**CONVOY OFFICER:** That sentence was for you.
+
+**CYANIS:** I gathered.
+
+**ILYRA:** I was going to make sure.
+
+**CONVOY OFFICER:** Wonderful. My work here is becoming redundant.
+
+No one argues the boundary.
+
+---
+
+### [THE CARD]
+
+The officer's attention drops to the Card in Cyanis's possession.
+
+**CONVOY OFFICER:** That stays exactly where it is until Brackenwall. No testing, no handing it around because somebody gets curious, no `just for a second`, and no clever ideas on the road.
+
+Cyanis looks down at the dark Card.
+
+**CYANIS:** Happily. I've had enough clever magic for one day.
+
+**ILYRA:** No argument from me. We have two responses, one physical correlation, and no idea what any of it means. That's a terrible time to improvise a third test.
+
+**CONVOY OFFICER:** Good. Brackenwall can decide what to do with it when we have walls, records, and people who aren't half dead.
+
+Nobody proposes another separation attempt here. Chapter 1 owns the first deliberate transfer test.
+
+---
+
+### [ILYRA'S DECISION]
+
+The officer turns back to the evacuation problem.
 
 **CONVOY OFFICER:** Your medical group goes with the first wounded column. You going with them?
 
 A beat.
 
-**ILYRA:** No. Twice that thing lit up, and twice his condition changed with it. I was there both times, I treated him both times, and I still don't know what it did. My people can move the wounded without me tonight. I'm staying until morning.
+**ILYRA:** No. My people can move the wounded without me tonight. I'm staying until morning.
+
+Cyanis looks at her.
 
 **CYANIS:** You don't have to stay on my account.
 
-**ILYRA:** I'm not. I'm staying because I'm the one who treated you when it happened, and I'm not handing that off blind after two episodes I can't explain yet.
+Ilyra's answer is immediate because the premise is wrong.
+
+**ILYRA:** I'm not. I treated you through both Card responses, and I'm not handing that off blind when I still can't explain them.
+
+Cyanis accepts the correction.
 
 **CYANIS:** Right.
+
+Ilyra sees him start to turn that into another practical objection.
+
+**ILYRA:** And before you find a more respectable way to tell me to go with the column: they have competent people. I am not abandoning patients to stay here. I checked.
+
+Cyanis pauses.
+
+**CYANIS:** I was going to ask exactly that.
+
+**ILYRA:** I know.
+
+**CYANIS:** That's becoming unsettling.
+
+**ILYRA:** You're not subtle when you think responsibility belongs entirely to you.
+
+The line is observational, not therapeutic. Ilyra does not ask him to unpack it.
 
 The convoy officer glances toward the wreck line.
 
@@ -658,47 +1411,157 @@ The convoy officer glances toward the wreck line.
 
 **ILYRA:** Yes.
 
-**CONVOY OFFICER:** Of course you are. Search first, argue with me later if you still have the energy.
+The officer gives her a tired look.
+
+**CONVOY OFFICER:** Of course you are.
+
+**ILYRA:** You could say no.
+
+**CONVOY OFFICER:** I could. Then I'd have Dovaren in a ditch looking for survivors with nobody there who knows whether the headache he hasn't mentioned yet matters.
+
+Cyanis looks at him.
+
+**CYANIS:** I don't have a headache.
+
+Ilyra turns immediately.
+
+**ILYRA:** Good. See how easy that was?
+
+The officer almost laughs and does not quite manage it.
+
+**CONVOY OFFICER:** Search first. Argue with me later if you still have the energy.
 
 **ILYRA:** Understood.
 
 **CYANIS:** Yes, sir.
 
-Player control returns for the bounded survivor sweep. Cyanis is the visible controllable field character during ordinary wreck-field traversal; Ilyra remains present in story state and can appear for authored stops.
+The scene ends without Ilyra having to justify herself twice.
 
-The sweep stays inside the established search boundary and never becomes pursuit.
+---
 
-## Convoy moves on
+### [GAMEPLAY — BOUNDED SURVIVOR SWEEP]
 
-After the sweep and stabilization work:
+Player control returns for the final bounded survivor-search segment.
 
-**CONVOY OFFICER:** First column's moving. Amarin, your people have the two who can't sit upright. Dovaren, you stay here with her until morning, then both of you go to Brackenwall with the Card.
+During ordinary wreck-field traversal, Cyanis is the sole visible controllable field character. Ilyra remains present in story state and may appear when an authored rescue/search stop triggers.
+
+The search stays inside the established wreck/search boundary. It does not become a pursuit.
+
+Exact missing-person totals are not invented before the search establishes them.
+
+The Card remains inert in Cyanis's possession.
+
+No additional Card response occurs.
+
+---
+
+### [STORY TRIGGER — CONVOY MOVES ON]
+
+After the bounded sweep and immediate stabilization work, most surviving convoy personnel, wounded civilians, escorts, and usable wagons are ready to continue toward Brackenwall.
+
+The active camp scene can show the relevant people present without a departure cinematic or repeated wagon choreography.
+
+The officer is visibly exhausted enough that some of the polish has gone out of him.
+
+**CONVOY OFFICER:** First column's moving. Amarin, your people have the two who can't sit upright. Dovaren, you stay here with her until morning, then both of you go to Brackenwall with the Card. If anything happens tonight that can wait until sunrise, it waits until sunrise.
 
 **CYANIS:** Understood.
 
+**ILYRA:** Agreed.
+
 A beat.
 
-**CONVOY OFFICER:** Try not to make the night interesting. I've had enough interesting for one day.
+**CONVOY OFFICER:** And try not to make the night interesting. I've had enough interesting for one day.
 
 **CYANIS:** I'll do my best.
 
+Ilyra looks at him.
+
 **ILYRA:** That's not reassuring.
 
-Most of the convoy continues toward Brackenwall.
+**CYANIS:** I was being sincere.
 
-Cyanis and Ilyra remain overnight with the Card and minimal practical support.
+**ILYRA:** That's why it isn't reassuring.
 
-Because this is camp, both may be visible as field models during cleanup.
+The officer points once at Ilyra without looking back.
+
+**CONVOY OFFICER:** See? She learns quickly.
+
+He leaves before Cyanis can answer.
+
+No emotional farewell is required. Everyone still has work.
+
+---
+
+### [OVERNIGHT CLEANUP WINDOW]
+
+The field becomes substantially quieter once most of the convoy has moved on.
+
+Cyanis and Ilyra remain with the Card and only the minimal practical guard/support needed for the overnight site.
+
+Because this is now a camp, Cyanis and Ilyra may both be visible as field models during the cleanup window.
 
 The Card remains dark and inert.
 
 Chapter 0 remains active.
 
+Optional Character-Life scene **C01 — Six Minutes** becomes available.
+
+The player may remain in cleanup or use the later explicit **Continue to Brackenwall?** interaction to end Chapter 0.
+
 ---
 
-# Optional C01 — Six Minutes
+## P07 end state
 
-Late evening. The camp is much quieter.
+- the immediate Black Host convoy-interception operation is over;
+- recovery work, not celebration, closes the crisis;
+- the final survivor sweep is bounded and does not become pursuit;
+- the recovery casing is gone and Cyanis carries the intact Card itself;
+- the Card remains inert;
+- most of the convoy continues toward Brackenwall;
+- Ilyra independently stays because she directly observed and treated Cyanis through both unexplained Card responses;
+- Cyanis does not treat her decision as debt or personal devotion;
+- Cyanis + Ilyra remain overnight at the quieted field camp;
+- Chapter 0 does not end until the player explicitly chooses to depart for Brackenwall.
+
+## Person-Brain performance note
+
+- the prior spoken/narration correction remains intact: Ilyra states the decision to stay once and gives the Card-related reason only after Cyanis challenges the premise.
+- Cyanis and Ilyra now show early recognition of each other's self-neglect without turning the exchange into therapy or a relationship thesis.
+- Ilyra anticipates Cyanis's practical objection because she has watched the pattern all afternoon, not because she has perfect emotional insight.
+- the exhausted officer is allowed dry humor and familiarity after the crisis rather than remaining a pure command interface.
+- no story outcome, Card state, sweep boundary, or chapter transition changes.
+
+---
+
+## C01 — Six Minutes
+
+**Atomic source:** `C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md`  
+**Source SHA-256:** `997c9dcbf8e21052a79ff9a3e5e431d386c84ed19c158f1ce3d857d209f50b94`
+
+# Chapter 0 — Character-Life C01
+# Six Minutes
+## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
+
+---
+
+### [OVERNIGHT CAMP — OPTIONAL CHARACTER-LIFE TRIGGER]
+
+Late evening after P07.
+
+Most of the surviving convoy has already moved toward Brackenwall. Cyanis and Ilyra remain at the quieter field camp with the intact Card and minimal practical support.
+
+Because this is camp, both Cyanis and Ilyra may be visibly present as field models. Portraits and the dialogue box carry most of the scene.
+
+The Card is dark and inert.
+
+No plot reveal occurs here.
+
+This is the first time Ilyra is allowed to exist for several uninterrupted minutes without an active patient, battle, or Card response demanding her professional voice.
+
+---
+
+### [BITTERLEAF]
 
 Cyanis has a cup in hand.
 
@@ -706,154 +1569,350 @@ He takes a drink.
 
 Stops.
 
-**ILYRA:** Bad?
+Stares into it.
 
-**CYANIS:** Depends what it was supposed to be. If the goal was hot and aggressively unpleasant, somebody nailed it.
+Ilyra notices from several feet away.
 
-Ilyra looks at the cup.
+**ILYRA:** That bad?
+
+**CYANIS:** Horse shit would be better. Who's tea is this?
+
+Ilyra's eyes drop to the cup.
 
 **ILYRA:** Where did you get that?
 
-**CYANIS:** Pot by the fire. It was hot, it was available, and I made assumptions.
+**CYANIS:** The pot near the fire.
+
+Ilyra gets close enough to smell it.
+
+Then she stares at him.
+
+**ILYRA:** That's bitterleaf.
+
+**CYANIS:** How do you drink this?
+
+**ILYRA:** It's for compresses.
+
+Cyanis looks into the cup again.
+
+A long beat.
+
+**CYANIS:** Ah.
+
+Ilyra holds out her hand.
+
+**CYANIS:** Before you say anything, nobody labeled the medical swamp water.
+
+**ILYRA:** Give me the cup.
+
+**CYANIS:** That's not a rebuttal.
+
+**ILYRA:** Cyanis.
+
+He hands it over.
+
+**CYANIS:** Fine. But if I die from this, I want the report to say I survived Riftmaw and was killed by poor beverage management.
+
+Ilyra smells the cup again.
+
+**ILYRA:** You're not going to die from drinking some bitterleaf.
+
+**CYANIS:** I'll take it.
 
 A beat.
 
-**ILYRA:** That's bitterleaf. It's for compresses.
+**ILYRA:** You are, however, going to suffer severely from hearing about it for as long as I find it funny.
 
-Cyanis looks at the cup again.
+Cyanis looks at her.
 
-**CYANIS:** Ah. That explains more than I wanted it to.
+**CYANIS:** That's a much worse prognosis.
 
-**ILYRA:** You drank it.
+Ilyra laughs before she can stop herself.
 
-**CYANIS:** Some of it. In my defense, it's been a long day and nobody labeled the medical swamp water.
+**CYANIS:** There. First laugh. Cost me my dignity, but we got there.
 
-Ilyra takes the cup away from him.
+**ILYRA:** You drank a compress. I don't think I did anything.
 
-**ILYRA:** That is not a defense.
+**CYANIS:** Some of a compress.
 
-**CYANIS:** It's the only one I've got.
+**ILYRA:** Important distinction.
 
-A little silence follows.
+No elaborate prop routine is needed.
 
-**ILYRA:** Have you eaten since the fight?
+---
 
-**CYANIS:** Have you?
+### [DINNER, APPARENTLY]
 
-She gives him a look.
+Cyanis returns with two bowls of stew.
 
-**ILYRA:** No. Which was going to be my next problem with you, so now we're both irritating.
+Ilyra looks at the second one.
 
-**CYANIS:** Good. Saves time.
+**ILYRA:** I didn't ask for whatever you found this time.
 
-They end up with ordinary camp food.
+**CYANIS:** This one's actually edible. I promise.
 
-For a while neither speaks.
+**ILYRA:** And?
 
-Eventually:
+**CYANIS:** Beef stew.
 
-**ILYRA:** I forgot I was hungry. That's usually a sign I've been doing something stupid for too long.
+Ilyra takes the bowl.
 
-**CYANIS:** Same. Though I did drink compress water, so I may be ahead of you.
+**ILYRA:** Strong start.
 
-**ILYRA:** Considerably.
+They eat for a while.
 
-Cyanis takes another bite.
+The food is ordinary and good enough.
 
-**CYANIS:** This is much better.
+Cyanis tastes it with exaggerated caution.
 
-**ILYRA:** A low bar.
+**ILYRA:** If you are certain why are you inspecting every bite?
 
-**CYANIS:** Still counts.
+**CYANIS:** Trust has been damaged.
 
-They keep eating.
+**ILYRA:** By you.
 
-When the food is nearly gone, Ilyra shifts as though she is about to return to work.
+**CYANIS:** Still damaged.
 
-**CYANIS:** No. Whatever you're about to go do can wait a minute.
+Ilyra takes another bite.
 
-**ILYRA:** I have patients to check.
+**ILYRA:** This is why you don't touch things without asking people.
 
-**CYANIS:** They're settled. If something changes, somebody will call you.
+**CYANIS:** This is why people don't put a cup beside a pot of medicine.
+
+**ILYRA:** You really need there to be shared blame.
+
+**CYANIS:** I need there to be *some* blame that isn't mine.
+
+**ILYRA:** Then tonight has been difficult for you.
+
+Cyanis laughs into the bowl.
+
+---
+
+### [FIRST IMPRESSIONS]
+
+For a while, neither speaks.
+
+The silence is not awkward, but it is still the silence of two people who met today.
+
+Eventually Ilyra looks over at him.
+
+**ILYRA:** I thought you were an officer when I first saw you.
+
+Cyanis looks surprised.
+
+**CYANIS:** Why?
+
+**ILYRA:** Everybody kept shouting your name like you were responsible for whatever was happening near them.
+
+**CYANIS:** That's not about rank, that's about ability.
+
+**ILYRA:** I soon realized you weren't.
+
+**CYANIS:** What changed your mind?
+
+Ilyra thinks about it.
+
+**ILYRA:** Everything else you did, plus the pissed off look on the actual officer telling you what to do.
+
+Cyanis stares at her.
+
+Then laughs.
+
+**CYANIS:** Fuuuuuck
+
+**ILYRA:** You asked.
+
+**CYANIS:** I did. My mistake.
+
+A beat.
+
+**CYANIS:** I thought you were angry at me.
+
+**ILYRA:** I was.
+
+**CYANIS:** Oh.
+
+**ILYRA:** You walked into a treatment lane and said you needed it clear.
+
+**CYANIS:** In my defense—
+
+**ILYRA:** You listened when I told you why you couldn't have it. Then you moved the crates yourself.
+
+Cyanis stops.
+
+**CYANIS:** That sounded almost nice.
+
+**ILYRA:** Don't get greedy.
+
+**CYANIS:** Right. Sorry.
+
+Ilyra eats another spoonful.
+
+**ILYRA:** Also, you apologized to an inanimate object earlier.
+
+Cyanis slowly turns toward her.
+
+**CYANIS:** No, I didn't.
+
+**ILYRA:** You hit the side of the wagon and said `sorry.`
+
+**CYANIS:** There were people under it earlier. Habit.
+
+**ILYRA:** You apologized to the wagon.
+
+**CYANIS:** You have no proof.
+
+**ILYRA:** I was there.
+
+**CYANIS:** Unreliable witness.
+
+**ILYRA:** Physician, actually.
+
+A beat.
+
+Ilyra catches herself.
+
+**ILYRA:** No. Fuck. That was terrible.
+
+Cyanis starts laughing.
+
+**CYANIS:** You walked into that one yourself.
+
+**ILYRA:** I know. Don't enjoy it this much.
+
+He enjoys it exactly that much.
+
+---
+
+### [NEITHER OF THEM STOPS]
+
+When the food is nearly gone, Ilyra shifts forward as if she is about to stand.
+
+Cyanis notices.
+
+**CYANIS:** No.
 
 Ilyra looks at him.
+
+**ILYRA:** No?
+
+**CYANIS:** Whatever you're about to go do can wait a minute.
+
+**ILYRA:** You don't even know what it is.
+
+**CYANIS:** Neither do you yet. You just had the posture.
+
+Ilyra stares at him.
+
+**ILYRA:** The posture.
+
+**CYANIS:** The one where sitting has apparently offended you and now you need a task.
+
+Ilyra looks toward the quieter camp.
+
+**ILYRA:** I was going to find one.
+
+**CYANIS:** Exactly.
+
+She narrows her eyes.
 
 **ILYRA:** You were about to stand up too.
 
 Cyanis pauses.
 
-**CYANIS:** Different.
+**CYANIS:** I was adjusting.
 
-**ILYRA:** How?
+**ILYRA:** Toward standing.
 
-**CYANIS:** I hadn't decided what I was doing yet. I was just looking at the perimeter.
+**CYANIS:** Maybe.
 
-**ILYRA:** With the expression you use when you're about to make work for yourself.
-
-**CYANIS:** You learned that today?
-
-**ILYRA:** It wasn't subtle.
+**ILYRA:** To do what?
 
 Cyanis looks toward the dark perimeter.
 
-**CYANIS:** Could've been admiring it.
+**CYANIS:** Didn't have one yet.
 
-**ILYRA:** At night.
+**ILYRA:** So you were also going to go find a problem.
 
-**CYANIS:** Very scenic.
+**CYANIS:** When you say it like that, it sounds unhealthy.
 
-Ilyra almost smiles.
+**ILYRA:** I wasn't being medical.
+
+**CYANIS:** Somehow that makes it worse.
+
+Ilyra smiles despite herself.
 
 Neither gets up.
 
+---
+
+### [SIX MINUTES]
+
 A little time passes.
 
-**CYANIS:** Five minutes. We sit here and do absolutely nothing useful.
+Cyanis settles back instead of pretending he was not about to move.
 
-Ilyra thinks about it.
+**CYANIS:** Five minutes.
 
-**ILYRA:** Six. Five sounds planned, and I refuse to turn sitting down into another task.
+**ILYRA:** For what?
+
+**CYANIS:** We sit here and do absolutely nothing useful. No perimeter, no patients unless somebody actually calls, no inventory, no finding work because the silence made us nervous.
+
+Ilyra considers him.
+
+**ILYRA:** Six.
+
+**CYANIS:** Why six?
+
+**ILYRA:** Five sounds planned. Five sounds like you picked a respectable little unit, turned resting into a task, and intend to congratulate yourself when you complete it.
+
+Cyanis thinks about that.
+
+**CYANIS:** That's uncomfortably plausible.
+
+**ILYRA:** Six is stupid enough that it can't pretend to be efficient.
 
 **CYANIS:** Six minutes of aggressively unplanned nothing, then.
 
-**ILYRA:** You just made it sound like work.
+**ILYRA:** You just made it sound like work again.
 
-**CYANIS:** Right. Six minutes, no adjective.
+**CYANIS:** Right. Sorry.
 
 A beat.
 
+**CYANIS:** Six minutes.
+
 **ILYRA:** Better.
 
-They sit there and do nothing useful.
+No more dialogue follows.
 
-No confession follows. No relationship summary. No Card discussion.
+In the next visual beat, both Cyanis and Ilyra are shown passed out where they were sitting.
 
-C01 does not advance the chapter.
+No confession follows. No relationship summary. No discussion of destiny, the Card, or what the day meant.
 
----
-
-# Chapter-0 Departure
-
-When the player is ready, the explicit progression interaction becomes available:
-
-**Continue to Brackenwall?**
-
-Declining keeps the player in Chapter-0 cleanup.
-
-Accepting ends Chapter 0.
-
-Cyanis and Ilyra depart with the **Card itself**, not a casing.
-
-**CHAPTER 0 END.**
-
-**Next:** Chapter 1 — Brackenwall / Protocol.
+The scene ends on them asleep in the quiet.
 
 ---
 
-## Current whole-chapter read
+## C01 function
 
-The relationship progression remains unchanged: P04 establishes professional respect under pressure; P05 gives Cyanis and Ilyra their first small conversational breathing room; P06 allows concern without making them intimate; P07 makes Ilyra's continued presence her own professional decision; C01 is the first time they voluntarily sit together with nothing urgent demanding it.
+- gives Cyanis and Ilyra their first ordinary post-crisis Character-Life scene;
+- keeps their ease early and tentative rather than instantly intimate;
+- lets the bitterleaf mistake start the scene without making medicine its continuing subject;
+- allows Ilyra to laugh, tease, swear, tell a mildly embarrassing observation, be curious, and make a bad joke she immediately regrets;
+- allows Cyanis and Ilyra to exchange first impressions as two adults who met under terrible circumstances rather than as patient and Warden;
+- keeps their shared tendency to invent work for themselves, but does not turn that recognition into diagnosis or therapy;
+- ends with the arbitrary shared rule of six minutes doing nothing useful, followed immediately by both of them falling asleep;
+- Card remains inert;
+- C01 does not advance Chapter 0.
 
-The Card response remains unchanged across the whole chapter: inert through P01–P03 → first flare in P04 → fully inert through P05 → second flare in P06 → casing breaks during that fight → Card itself is carried inert through P07, C01, departure, and into Chapter 1.
+## Person-Brain / Ilyra role-balance note
 
-The natural-turn audit changes cadence, not story: characters now hold the floor long enough to complete thoughts when pressure permits, while crisis command, combat timing, rescue shorthand, and punchlines remain terse where appropriate.
+This is deliberately the Chapter-0 proof that Ilyra is not only the medical voice. The scene begins with a medical-context joke because Cyanis literally drank bitterleaf, then leaves medicine behind. Ilyra participates through humor, first impressions, profanity, pettiness, observation, and ordinary curiosity. Neither person exists only to prompt or manage the other, and no confession or emotional diagnosis is required.
+
+---
+
+## Synchronization footer
+
+This derived manuscript was assembled exclusively from the atomics listed above. No dialogue wording was rewritten during assembly.
