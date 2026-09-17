@@ -260,7 +260,7 @@ That line lands with Cyanis more than Torren intended.
 
 Torren glances at him.
 
-**TORREN:** Don't sound surprised.
+**TORREN:** Sounded surprised.
 
 **CYANIS:** I was trying not to.
 
