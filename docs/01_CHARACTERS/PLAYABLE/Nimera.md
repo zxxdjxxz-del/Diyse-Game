@@ -216,6 +216,28 @@ Useful shapes:
 
 Nimera is one of the cast members most likely to produce an **earned multi-sentence turn**. Do not chop such turns into artificial party ping-pong. If someone interrupts, the interruption must come from that person's own motive, not from a line-length quota.
 
+## Short-form acknowledgments
+Nimera's short replies should preserve her relationship to **precision and evidence** without forcing every answer into scholar-speak.
+
+A flat **“No.”** is explicitly valid for her. It can be especially effective when the next beat reveals that she has more to say, is rejecting the premise rather than the person, or is about to qualify the category. Do not automatically replace those lines with longer evidentiary phrases.
+
+When a distinction actually matters, useful shapes include:
+- **“No—not yet.”**;
+- **“Not proven.”**;
+- **“Technically, yes.”**;
+- **“Yes, but—”**;
+- **“No. That's different.”**;
+- **“That narrows it.”**;
+- **“Useful.”**.
+
+These are examples, not mandatory signatures.
+
+The key is that Nimera tends to qualify **when the qualification changes the claim**. She should not attach a clause to every yes or no merely to advertise intelligence. If the answer is genuinely simple, she may simply say **“Yes.”** or **“No.”**
+
+A bare **“Good.”** is allowed, but when she is reacting to evidence or a technical result she may more naturally respond to what the information does: it narrows, confirms, complicates, contradicts, or fails to prove something.
+
+When she is frightened, exhausted, furious, or genuinely vulnerable, her language may become much simpler. Voice distinction should never prevent plain speech when plain speech is emotionally truer.
+
 ## Anti-drift
 Do not reduce Nimera to:
 - solemn archive girl;
