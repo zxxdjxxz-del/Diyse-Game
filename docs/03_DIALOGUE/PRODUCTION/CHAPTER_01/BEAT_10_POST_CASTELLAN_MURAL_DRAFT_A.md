@@ -112,7 +112,7 @@ He leans into the recognition before speaking.
 
 **TORREN:** Familiar `huh`. That's the Junction.
 
-**CYANIS:** The crossroads?
+**CYANIS:** You know it.
 
 **TORREN:** Yeah. Old roads meet there. Newer roads shifted around them, but the ground still funnels traffic through the same basin. I've crossed it more times than I can count—east-west runs, north detours, once in winter because Maevra insisted the southern line would save half a day.
 
@@ -148,11 +148,11 @@ A beat.
 
 **TORREN:** Never seen it.
 
-**CYANIS:** You're sure?
+**CYANIS:** That's hard to miss.
 
 Torren gives him a look.
 
-**TORREN:** A stone monument that size in the middle of a crossroads I use for work? Yeah. I'd remember.
+**TORREN:** Exactly. A stone monument that size in the middle of a crossroads I use for work? I'd remember.
 
 He studies the mural again.
 
@@ -289,6 +289,7 @@ Next mandatory story beat: **Beat 11 — Hollow Watch Resolution / Torren Recrui
 
 - the mural remains visual-first. Dialogue interprets scale, geography, uncertainty, and practical next action rather than narrating the artwork back to the player.
 - Torren gets a genuinely longer turn where his route brain is naturally activated by recognizable terrain.
+- Cyanis now reacts to Torren's recognition in a couple of places rather than repeatedly prompting him with clarifying questions, reducing interviewer/exposition-feed behavior without reducing Cyanis's curiosity or Torren's expertise.
 - Maevra/Torren history appears as an incidental winter-route argument rather than a biographical exposition dump.
 - Torren explicitly separates `I know the Junction's ground` from `I know the ancient monument`, preserving the limit on his expertise.
 - the group can joke inside discovery without making the discovery unserious; humor drops when the Black Host implication returns.
