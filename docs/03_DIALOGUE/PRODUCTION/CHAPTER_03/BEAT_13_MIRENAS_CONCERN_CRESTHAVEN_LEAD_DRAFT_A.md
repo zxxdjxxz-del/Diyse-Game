@@ -275,7 +275,7 @@ This is **not new evidence**. It is the same old material already reported in Ca
 
 Mirena looks at the copied map again.
 
-**MIRENA:** I still hate that.
+**MIRENA:** I've spent years reading old Crown history for fun, and I still don't have a version of that mark that makes this reasonable.
 
 **NIMERA:** The Crest?
 
@@ -370,5 +370,6 @@ Transition into:
 - Nimera's active brain appears in the debrief through correction, self-correction, methodological impatience, and natural profanity without stealing Mirena's authority over the room.
 - the Warden report preserves exact sequence and timing without classifying Last Sentinel or the Ruby Card.
 - Mirena now gets a longer operational turn explaining why uncertainty changes who she can trust, rather than distributing that thought across multiple speakers.
+- Mirena's renewed look at the impossible Crest now naturally exposes her genuine personal interest in old Crown history without turning her into an omniscient historian or explaining the mark.
 - the Cresthaven lead comes from revisiting the existing Chapter-2 Ancient map/mural copy. Beat 13 does not invent a new map.
 - Nimera begins to overreach on the Crest and cuts herself off, showing the brain's evidence discipline from inside her own speech rather than via an external correction.
