@@ -95,7 +95,7 @@ Torren glances at her.
 
 **TORREN:** Good.
 
-**MAEVRA:** Don't sound surprised.
+**MAEVRA:** Don't enjoy this too much.
 
 **TORREN:** Wasn't going to.
 
