@@ -96,9 +96,11 @@ Torren takes another few steps before answering.
 
 **TORREN:** Enough that this wall would've been well inside it. Not close to an edge, either. The road alignment's different now, so I can't lay the mural over the city street for street, but the footprint isn't ambiguous. Whatever was here then spread farther out.
 
-**CYANIS:** How far?
+Cyanis looks along the modern wall again.
 
-**TORREN:** Don't know. Copy isn't a survey and I didn't preserve every minor line. I can defend `larger`. I can't defend a boundary from memory because you asked while we're standing in it.
+**CYANIS:** So these walls would've been deep inside it.
+
+**TORREN:** Inside it, yeah. How deep, I don't know. Copy isn't a survey and I didn't preserve every minor line. I can defend `larger`. I can't defend a boundary from memory while we're standing in it.
 
 **MAEVRA:** Good. Say exactly that upstairs.
 
@@ -161,7 +163,7 @@ Transition directly into:
 
 - Cyanis's hunger remains ordinary character texture, but Ilyra no longer becomes the food/health monitor. His attempted detour becomes a social joke owned by the whole group.
 - Ilyra participates because she finds Cyanis's failed route argument funny. Her line ownership is social and personal, not medical.
-- Torren is allowed to hold the floor on the mural-versus-city footprint because route geometry, scale, and bounded physical comparison are genuinely his subject. He distinguishes `larger` from an indefensible exact boundary without being fed one fact per prompt.
+- Torren is allowed to hold the floor on the mural-versus-city footprint because route geometry, scale, and bounded physical comparison are genuinely his subject. Cyanis now makes the obvious spatial inference himself, giving Torren something to bound rather than feeding him a pure exposition question.
 - Maevra values the bounded answer and keeps the group moving without becoming a command-exposition machine.
 - the scene uses uneven participation: Torren owns the substantive observation; Cyanis and Ilyra interrupt around it because they actually have reasons to.
 - no character speaks merely because they are present.
