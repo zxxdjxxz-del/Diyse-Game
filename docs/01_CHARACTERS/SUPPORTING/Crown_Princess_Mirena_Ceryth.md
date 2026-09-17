@@ -34,9 +34,35 @@ Private fear:
 Mirena's public self is genuine, but edited. It is not a fake mask.
 
 - **Public Mirena:** cleaner, slower, more ceremonial, highly aware that words carry institutional force.
+- **Working Mirena:** direct, probing, less ceremonial, focused on what information changes the decision and whether anyone is softening bad news for her.
 - **Private Mirena:** quicker, funnier, more profane, more physically relaxed, and much more willing to be silly.
 
 She has spent years being watched carefully, so presentation is both pleasure and political language rather than simple vanity.
+
+People who become close to her should gradually learn the difference between those registers. Mirena does not consciously announce every switch; often posture, sentence length, word choice, and willingness to joke make it obvious.
+
+## Social engine
+Mirena genuinely likes people and conversation. She is not merely good at social interaction because royal training forced her to become good at it.
+
+She can:
+- start a conversation because she is curious rather than because she needs information;
+- tease someone and deliberately keep the exchange going after the practical point is settled;
+- bait an honest disagreement because she wants to know what the other person really thinks;
+- phrase something provocatively because she knows a particular person will object and she wants the objection;
+- remember a trivial detail somebody mentioned much earlier and bring it back at an inconvenient or funny time;
+- gossip without converting every social observation into political intelligence;
+- become invested in an argument that has absolutely no governing consequence;
+- enjoy being the person causing the problem in a harmless social scene;
+- accept being teased back when the relationship has earned it.
+
+Mirena has been performed **at** for most of her life. She is therefore unusually sensitive to the difference between a real answer and an answer shaped around what someone thinks the Crown Princess wants to hear.
+
+A recurring social instinct is:
+> **Are you telling me what happened, or what you think I want to hear?**
+
+She does not need to phrase that literally every time. It is a behavioral lens.
+
+Someone respectfully telling Mirena that she is wrong can make her **more interested in them**, provided the disagreement has substance. Empty deference bores or irritates her more than contradiction does.
 
 ## Ordinary-life texture
 Mirena genuinely likes:
@@ -54,6 +80,54 @@ She remembers people and small details. She enjoys being beautiful without needi
 
 She can waste time, tease, be petty, laugh, become competitive over something stupid, and occupy furniture badly in private. Royal status does not erase mundane adulthood.
 
+### Vanity and presentation
+Mirena's vanity is real, healthy, and allowed to be fun.
+
+She may:
+- care that mud ruined something she liked;
+- check whether her hair/clothes still look good after a miserable trip;
+- enjoy a compliment without pretending she does not;
+- defend an impractical-looking choice that is, in fact, perfectly practical;
+- notice somebody else's clothing or presentation because she genuinely enjoys those things;
+- be mildly offended by being made to look ridiculous even when she knows the situation is objectively funny.
+
+Do not turn every presentation beat into insecurity, political symbolism, or a lesson about superficiality.
+
+### Competition
+Mirena is not compulsively competitive about everything, but once somebody explicitly makes something a contest, she tends to care very quickly.
+
+She can become invested in:
+- games;
+- races;
+- riding;
+- dancing challenges;
+- drinking games where appropriate;
+- guessing games;
+- target games;
+- stupid camp contests;
+- arguments where somebody foolishly says `prove it` or `bet you can't`.
+
+Losing can make her funny, petty, argumentative, or determined to demand a rematch. Winning can make her insufferably pleased with herself for exactly as long as the scene can sustain it.
+
+## Humor
+Primary modes:
+- quick social wit;
+- teasing;
+- mock seriousness;
+- ceremonial language deliberately misapplied to trivial problems;
+- profanity in private/relaxed settings;
+- competitive escalation;
+- using presentation itself as part of the joke;
+- baiting a specific person because she knows how they will answer.
+
+Mirena has lived with ceremonial language for most of her life. In private, she can **play with it**.
+
+She may use absurdly official phrasing to settle a trivial argument, invoke imaginary royal authority over food, seating, games, or somebody's terrible opinion, then immediately argue about the technical limits of that imaginary authority if challenged.
+
+The important distinction is that she is not simply a witty princess delivering quips. She often makes the **social structure itself** part of the joke.
+
+Do not turn mock-ceremonial humor into a mandatory running gag. It is one available mode among several.
+
 ## Upbringing and family logic
 Before age 13, Mirena had an actual childhood rather than functioning as a miniature stateswoman.
 
@@ -65,7 +139,7 @@ Lysara's accession made succession immediate and changed how adults watched her.
 - **Alaric** — genuine sibling friendship and political equality in different lanes; never a succession rival manufactured by outsiders.
 - **Nalia** — affection plus hard debate over immediate human need, precedent, durable authority, and how much of oneself care is allowed to consume.
 
-Her regional experience is legitimate preparation and public service, not a rebellious princess tourism fantasy. She knows royal visits can be staged and learns to compare reports, revisit places, and ask unexpected questions.
+Her regional experience is legitimate preparation and public service, not a rebellious-princess tourism fantasy. She knows royal visits can be staged and learns to compare reports, revisit places, and ask unexpected questions.
 
 ## Political philosophy
 Fundamental principle:
@@ -90,13 +164,33 @@ Flaws:
 Growth direction:
 > build institutions capable of acting on truth rather than relying on personal presence or charisma.
 
+## Precision boundary
+Mirena is precise, but **not in the same way Nimera is precise**.
+
+- **Nimera** corrects wording because the category, evidence, inference, or claim may be technically wrong.
+- **Mirena** often chooses wording because she understands what the sentence will **do** once spoken: who will hear it as permission, accusation, promise, threat, precedent, responsibility, or royal commitment.
+
+Mirena can care about factual precision, but do not make her default to archive/provenance-style correction chains merely because she is intelligent.
+
+Likewise, she is distinct from **Maevra**:
+- Maevra's authority is operational and command-shaped;
+- Mirena's authority carries institutional, symbolic, and future-sovereign weight even when she is trying to speak casually.
+
+And she is distinct from **Cyanis**:
+- Cyanis's conversational responsiveness often reacts to the immediate social exchange;
+- Mirena is especially aware of status, audience, implication, and whether someone is performing for her.
+
 ## Wider relationship behavior
-- **Maevra** — professional candor and authority-recognizes-authority.
-- **Torren** — practical ground-truth check on royal claims of lived experience.
-- **Ilyra** — quiet restraint, warmth, dry humor, and gossip.
+- **Maevra** — professional candor and authority-recognizes-authority. Mirena values that Maevra can disagree without becoming theatrical about rank.
+- **Torren** — practical ground-truth check on royal claims of lived experience. His willingness to say `I don't know` or contradict a convenient official assumption can earn disproportionate respect.
+- **Ilyra** — quiet restraint, warmth, dry humor, and gossip. Mirena should be able to enjoy Ilyra as a person rather than treating her only as a medical voice.
 - **Kessara** — adult humor and specialist respect; Mirena is not scandalized by sexual humor.
-- **Nimera/Vaelira/Seyrik** — technical/evidence-based challenge and gradual ordinary familiarity without erasing history.
-- **Cyanis** — intelligent mutual respect and disagreement; current story files control any scene-specific intimacy/subtext.
+- **Nimera** — technical/evidence-based challenge, argumentative energy, and growing ordinary familiarity. Mirena should enjoy being corrected when the correction is real, even when she resents how satisfying Nimera finds it.
+- **Vaelira** — calibrated technical judgment and intelligent disagreement; Mirena values revisions that make uncertainty clearer rather than pretending certainty.
+- **Seyrik** — gradual trust that must preserve his adult agency and history; she should not treat him as a symbolic redemption project.
+- **Cyanis** — intelligent mutual respect and disagreement; current story files control any scene-specific intimacy/subtext. His willingness to refuse bad authority for concrete reasons is naturally relevant to her governing philosophy.
+
+These relationships must remain individually shaped. `Future adviser` is not a replacement personality for any party member.
 
 ## Permanent-party relationship progression
 Mirena will eventually become **Queen**, and the permanent party will eventually become some of her **closest friends and most trusted advisers**. That end-state is a long-range relationship anchor, not the starting condition.
@@ -166,18 +260,85 @@ Every layer of shorthand, affection, vulnerability, and advisory trust should ap
 Othmar Calder has known Mirena since youth.
 His memory of the vulnerable teenage heir can curdle into paternalism toward the adult woman and become one of the ways his continuity politics deny present agency.
 
+## State behavior
+State changes register without replacing personality.
+
+- **public pressure:** presentation becomes cleaner and more deliberate; she thinks about what a line commits the Crown to before she says it;
+- **working pressure:** faster questions, less ceremony, strong intolerance for softened information;
+- **anger:** can become formal and surgical; the more institutional the conflict, the more controlled the wording may become;
+- **personal fury:** polish can crack; profanity and direct accusation become more available;
+- **fear:** she seeks actionable truth and may become impatient with reassurance that does not change the situation;
+- **grief:** cleverness drops away; simple language is often stronger than speeches;
+- **embarrassment:** often turns competitive, defensive, or funny rather than shy;
+- **affection/trust:** more teasing, private profanity, physical relaxation, remembered details, and willingness to admit uncertainty before she has framed it perfectly;
+- **exhaustion:** public polish becomes harder to maintain and the private Mirena may leak through unexpectedly.
+
+A key emotional tell is that when Mirena is **genuinely hurt**, she often becomes less clever rather than more clever. The disappearance of the social performance can be more revealing than a monologue.
+
 ## Voice and acting
 Mirena speaks like an educated adult who has been listened to carefully for eighteen years: precise and contemporary, with contractions rather than faux-archaic court speech.
 
-She asks excellent questions and uses **I** for decisions she personally made instead of hiding behind "the Crown."
+She asks excellent questions and uses **I** for decisions she personally made instead of hiding behind `the Crown`.
 
-- anger can become formal and surgical;
-- personal fury is less polished;
-- grief is strongest in simple language;
-- private humor can be quick, profane, competitive, and silly.
+She can also speak because she:
+- thinks something is funny;
+- wants gossip;
+- wants to win;
+- wants somebody to contradict her;
+- likes someone's clothes;
+- hates the food;
+- is bored;
+- is being petty;
+- wants to keep a stupid argument alive;
+- wants company after the political conversation is over.
+
+Do not make every Mirena line carry statecraft.
 
 Shorthand:
-> Mirena speaks precisely because she knows words have consequences; she jokes because she occasionally wants them not to.
+> **Mirena speaks precisely because she knows words have consequences; she jokes because she occasionally wants them not to.**
+
+## Short-form acknowledgments and retorts
+Mirena should not default too heavily to generic bare acknowledgments such as `Fair`, `Good`, or `Yes` when the scene has enough social space for her personality to show.
+
+Her short responses often frame **how she feels about accepting the point**, not merely whether the point is correct.
+
+Useful shapes include:
+- **“That's true.”** when conceding plainly;
+- **“I hate that you're right.”** when the concession is socially enjoyable or irritating;
+- **“Unfortunately, yes.”** when accepting an inconvenient truth;
+- **“I'll allow it.”** when playfully pretending greater authority over something trivial than she actually has;
+- **“That will do.”** when she is genuinely closing a practical or formal matter;
+- **“Oh, absolutely not.”** when rejecting something with personality rather than institutional weight;
+- **“Fine. I resent the accuracy, but fine.”** when conceding while keeping the argument socially alive.
+
+These are examples of **turn shape**, not mandatory catchphrases or a replacement dictionary.
+
+In actual formal/public decision-making, a plain `Yes`, `No`, or `Good` may be exactly right. Do not force wit into moments where the weight of office should make her simpler.
+
+## Dialogue-assignment guardrail
+Do not default Mirena to:
+- political exposition;
+- royal authorization;
+- explaining the monarchy;
+- asking the next plot question because she is intelligent;
+- delivering the moral interpretation of power;
+- summarizing what everyone has already said;
+- being the most polished person in every private scene;
+- automatically ending a conversation because she outranks somebody.
+
+Mirena should sometimes be the person who:
+- makes the joke worse;
+- starts the gossip;
+- gets distracted by presentation;
+- loses the stupid contest;
+- refuses to let a trivial argument die;
+- says something mildly inappropriate in private;
+- admits she does not know;
+- gets caught being vain;
+- wants an answer for personal rather than political reasons;
+- simply stays in the room after there is no royal reason left to stay.
+
+**Royal status is not a dialogue assignment.**
 
 ## Anti-drift
 Do not reduce Mirena to:
@@ -188,7 +349,11 @@ Do not reduce Mirena to:
 - beauty-as-shallowness cliché;
 - permanent public-regal voice;
 - rival-sibling succession drama;
-- instant best friend or pre-formed adviser relationship with the permanent party.
+- instant best friend or pre-formed adviser relationship with the permanent party;
+- politics-only exposition source;
+- generic witty princess whose humor could be given unchanged to Maevra or Cyanis;
+- Nimera-style evidence/categorization precision merely because Mirena is intelligent;
+- future Queen whose eventual closeness with the party erases the need to show that closeness growing.
 
 ## Visual
 Exact approved primary portrait + turnaround authority: **LOCKED**.
