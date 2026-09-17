@@ -191,7 +191,7 @@ Ilyra leans just enough to see it.
 
 Nimera slowly looks at her.
 
-**NIMERA:** No.
+**NIMERA:** Fuck no.
 
 **ILYRA:** Seems accurate.
 
