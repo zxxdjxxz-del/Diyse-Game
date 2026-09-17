@@ -170,7 +170,7 @@ Ilyra checks what she can in seconds rather than pretending she has a diagnosis.
 
 **ILYRA:** Yes—for now. You're responsive, your pupils look even, and you're not falling over. That is not me saying you're fine. If any of that changes, I tell you to stop and you stop. You don't negotiate because the line is busy.
 
-**CYANIS:** Fair.
+**CYANIS:** Works for me.
 
 He looks toward the patients.
 
