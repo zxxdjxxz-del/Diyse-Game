@@ -8,6 +8,7 @@ on:
       - 'tools/dialogue/clean_exact_dialogue_reader.py'
       - 'tools/dialogue/finalize_exact_dialogue_reader.py'
       - 'tools/dialogue/polish_exact_dialogue_reader_story.py'
+      - 'tools/dialogue/normalize_exact_dialogue_reader_headings.py'
       - 'tools/dialogue/repair_exact_dialogue_reader_layout.py'
       - '.github/workflows/dialogue-sync.yml'
       - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P*.md'
@@ -54,6 +55,9 @@ jobs:
 
       - name: Polish reader story presentation
         run: python tools/dialogue/polish_exact_dialogue_reader_story.py
+
+      - name: Normalize coded reader headings
+        run: python tools/dialogue/normalize_exact_dialogue_reader_headings.py
 
       - name: Repair reader layout
         run: python tools/dialogue/repair_exact_dialogue_reader_layout.py
