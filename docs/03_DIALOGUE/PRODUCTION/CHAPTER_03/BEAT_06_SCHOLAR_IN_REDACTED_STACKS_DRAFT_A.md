@@ -122,7 +122,9 @@ She leans closer from her side.
 
 **CYANIS:** We were busy keeping me conscious.
 
-**NIMERA:** Fair. Contact broken completely?
+**NIMERA:** Right. Staying conscious outranked measuring the fucking gap.
+
+**NIMERA:** Contact broken completely?
 
 **ILYRA:** Yes.
 
