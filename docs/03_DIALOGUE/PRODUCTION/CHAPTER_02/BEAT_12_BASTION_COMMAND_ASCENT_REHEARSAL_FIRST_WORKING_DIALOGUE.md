@@ -134,13 +134,11 @@ Ilyra looks at Torren.
 
 **TORREN:** They know where they'd stop us.
 
-**CYANIS:** Difference?
+Cyanis catches the implication.
 
-**TORREN:** Means they still don't know how we got in.
+**CYANIS:** So they still don't know how we got in.
 
-A beat.
-
-Cyanis understands the implication for the hidden passage and the prisoners below.
+**TORREN:** Looks that way.
 
 **CYANIS:** Good. Keep it that way.
 
