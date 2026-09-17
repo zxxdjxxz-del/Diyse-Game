@@ -164,7 +164,7 @@ The officer does not accept the hypothesis as fact.
 
 **CONVOY OFFICER:** Relay. Bring me the whole field when you get there. Casualties, who can still fight, and whether that cut still bothers you once you've looked at something besides it.
 
-**CYANIS:** Fair.
+**CYANIS:** Point taken.
 
 **CONVOY OFFICER:** That wasn't an invitation to feel vindicated.
 
