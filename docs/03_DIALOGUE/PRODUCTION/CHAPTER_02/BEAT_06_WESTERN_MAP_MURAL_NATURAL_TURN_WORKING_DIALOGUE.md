@@ -21,7 +21,7 @@ Torren is already comparing route relationships with the practical Wayfinder cop
 
 Ilyra compares the repeated sequence herself.
 
-**ILYRA:** Hollow Watch fits the order. Not enough for me to swear every mark means the same thing, but the sequence matches.
+**ILYRA:** Hollow Watch fits the order. Same sequence as the Wayfinder. I don't know what every mark means, but that part matches.
 
 **CYANIS:** So our little useful map just became part of a much bigger useful map.
 
@@ -39,7 +39,7 @@ Torren works outward from the matched Wayfinder section rather than guessing fro
 
 Ilyra studies the surrounding geography.
 
-**ILYRA:** Some of it doesn't line up cleanly with what we know now. Could be us reading it wrong. Could be the landscape or roads changing. We don't know which.
+**ILYRA:** Some of this doesn't match what we know now. Either we're reading it wrong or things changed. I can't tell which from a wall.
 
 **CYANIS:** That's worse than a simple bad map.
 
@@ -105,9 +105,9 @@ A beat.
 
 ### [THE PANEL EDGES]
 
-Ilyra studies one physical edge of the mural and notices that the route lines meet it cleanly rather than ending in damage.
+Ilyra studies one physical edge of the mural and notices how the route lines meet it.
 
-**ILYRA:** This isn't a broken remnant. The routes continue into the panel edge cleanly.
+**ILYRA:** These lines don't break at the edge. They keep going into it.
 
 Torren checks the opposite side.
 
@@ -157,7 +157,7 @@ Once the practical copy is complete, Cyanis gives the mural one last look.
 
 Torren looks down at his own boots.
 
-**TORREN:** Fair.
+**TORREN:** Boots agree.
 
 **MAEVRA:** Beautiful. Ancient mystery defeated by damp feet. Move.
 
@@ -181,7 +181,7 @@ Ilyra starts toward the route out.
 
 - The mural itself gets the first word visually; the cast interprets relationships rather than announcing visible inventory.
 - Torren owns route/cartographic interpretation because the scene genuinely activates his expertise, but he remains socially present around that work.
-- Ilyra contributes through visual comparison, evidence caution, curiosity, and an ordinary complaint about being soaked; she is **not** assigned the generic `people first` / human-consequence line merely because Grace exists on her character sheet.
+- Ilyra contributes through visual comparison, curiosity, direct observation, and an ordinary complaint about being soaked; her uncertainty language is deliberately plainer than Torren's route-evidence register and later Nimera methodology.
 - Cyanis states the rescue priority himself because it is his own current commitment, not because Ilyra needs to function as his conscience.
 - Maevra retains operational authority while also joking as a familiar adult member of the group; rank does not confine her to mission summaries.
 - Adult register remains natural without profanity being inserted by quota.
