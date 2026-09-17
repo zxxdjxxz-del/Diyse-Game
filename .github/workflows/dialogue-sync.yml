@@ -6,6 +6,7 @@ on:
     paths:
       - 'tools/dialogue/sync_current_dialogue.py'
       - 'tools/dialogue/clean_exact_dialogue_reader.py'
+      - 'tools/dialogue/strip_reader_meta_residue.py'
       - '.github/workflows/dialogue-sync.yml'
       - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P*.md'
       - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/C01_*.md'
@@ -45,6 +46,9 @@ jobs:
 
       - name: Clean reader presentation
         run: python tools/dialogue/clean_exact_dialogue_reader.py
+
+      - name: Strip reader meta residue
+        run: python tools/dialogue/strip_reader_meta_residue.py
 
       - name: Verify generated Markdown
         run: python tools/dialogue/sync_current_dialogue.py --check --no-docx
