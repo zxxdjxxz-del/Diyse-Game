@@ -169,6 +169,22 @@ In disagreement he tends to ask what actually changes the decision. He can push 
 
 Vulnerability is usually indirect but can become plain when trust and story position support it.
 
+## Short-form acknowledgments
+Cyanis should not default too often to the same bare one-word acknowledgments used by the rest of the cast. He is socially responsive enough that even a short reply often reacts to the exchange around the fact, not only to the fact itself.
+
+Useful shapes include:
+- conceding a point: **“That's true.”**, **“Yeah, okay.”**, **“Can't argue with that.”**;
+- accepting a plan or arrangement: **“Works for me.”**, **“I can live with that.”**, **“That'll do.”**;
+- realizing someone has caught him: **“There it is.”**, **“Right. Got me.”**;
+- accepting an imperfect result: **“I'll take it.”**, **“Good enough.”**;
+- owning responsibility: **“That's on me.”**, **“Yeah, that one's mine.”**.
+
+These are examples, not a replacement table or mandatory catchphrases. The line should still come from the specific situation, relationship, mood, and pressure level.
+
+**“Fair.”** remains available to Cyanis, especially as a self-aware concession, but it should not become his automatic acknowledgment or a repeated default shared heavily with Torren.
+
+Under real pressure, plain functional answers such as **“yes,” “no,”** or **“good”** are still appropriate when the scene actually calls for them. Voice distinction should come from usage and context, not from banning ordinary human words.
+
 ## Dialogue-assignment guardrail
 Do not reduce Cyanis to the person whose job is to ask the next plot question.
 
