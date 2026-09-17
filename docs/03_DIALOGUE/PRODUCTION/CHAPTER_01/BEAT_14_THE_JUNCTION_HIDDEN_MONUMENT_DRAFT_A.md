@@ -174,9 +174,9 @@ Torren looks at her.
 
 **TORREN:** Wrong direction. Different accusation.
 
-**CYANIS:** Important distinction.
+**CYANIS:** He's got you there.
 
-**TORREN:** It is.
+**TORREN:** I do.
 
 **MAEVRA:** I hate both of you already.
 
@@ -290,13 +290,13 @@ Maevra looks at Torren, then at her own splinted arm, then toward the coming dar
 
 Torren's expression softens by about one degree.
 
-**TORREN:** Good.
+**TORREN:** All right.
 
 **CYANIS:** So we're all agreed.
 
 **MAEVRA:** You weren't voting.
 
-**CYANIS:** There it is.
+**CYANIS:** Right. Walked into that.
 
 Scene ends.
 
