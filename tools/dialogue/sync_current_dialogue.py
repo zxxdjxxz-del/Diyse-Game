@@ -34,7 +34,7 @@ ROOT = Path(__file__).resolve().parents[2]
 PROD = ROOT / "docs/03_DIALOGUE/PRODUCTION"
 SYNC_MANIFEST = PROD / "CHAPTER_0_3_DIALOGUE_SYNC_MANIFEST.md"
 SOURCE_CLOSURE = PROD / "CHAPTER_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md"
-READER_OUT = ROOT / "build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT.docx"
+READER_OUT = ROOT / "build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_DialogUE_Reader_CURRENT.docx"
 
 
 @dataclass(frozen=True)
@@ -462,11 +462,10 @@ def add_reader_docx(all_sources: dict[str, list[tuple[SourceSpec, Path, bytes, s
             if not last_was_heading:
                 doc.add_paragraph()
 
-    for sec in doc.sections:
-        fp = sec.footer.paragraphs[0]
-        fp.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        fr = fp.add_run("DIYSE Chapters 0–3 — derived reader; atomic dialogue files remain authority")
-        fr.font.size = Pt(8)
+    fp = doc.sections[0].footer.paragraphs[0]
+    fp.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    fr = fp.add_run("DIYSE Chapters 0–3 — derived reader; atomic dialogue files remain authority")
+    fr.font.size = Pt(8)
 
     doc.save(READER_OUT)
 
