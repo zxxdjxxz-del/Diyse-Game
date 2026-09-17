@@ -58,7 +58,6 @@ HEADING_EXACT = {
     "Return To Cleanup": "Back to Cresthaven",
     "Post-Boss": "After the Battle",
     "Next Morning — Player Preparation Window": "Next Morning",
-    "Working Royal Audience": "Royal Audience",
 }
 
 HEADING_REMOVE = {
@@ -148,11 +147,36 @@ DROP_EXACT = {
     "No Riftmaw appears here.",
     "No Card flare occurs here.",
     "No added transformation or hidden meaning.",
+    "No Prime, Might, Last Sentinel, bearer, ancient-weapon, or Entity explanation is revealed.",
+    "No incomplete protection, green-and-gold geometry, Card reaction, identity reveal, or transformation occurs.",
+    "This is not a defeat-to-death sequence and not a chase setup.",
+    "No plot reveal occurs here.",
+    "This is the first time Ilyra is allowed to exist for several uninterrupted minutes without an active patient, battle, or Card response demanding her professional voice.",
+    "No elaborate prop routine is needed.",
+    "No confession follows. No relationship summary. No discussion of destiny, the Card, or what the day meant.",
+    "The conversation leaves Torren's personal history alone. What interests Ilyra here is the absurdity of the argument, not diagnosing what Maevra feels about him.",
+    "The exchange ends because the subject has run its natural course, not because every speaker has delivered one short line.",
+    "The exchange establishes their familiarity without pausing to explain its history.",
+    "No additional mechanism opens. No treasure-door or machinery sequence is added.",
+    "The exchange ends because the group has finished amusing itself, not because Torren has reached a terseness quota.",
+    "The protected old slut / old cut misunderstanding remains, but it functions as an early accidental jump into Cyanis and Torren's sharper humor rather than proof that their later brother-like relationship is already fully developed.",
+    "This is not another ancient-Junction-map explanation and does not advance the Cistern Hunt.",
+    "The treatment task is the circumstance that puts them alone together, not Ilyra's entire social function. Once the work is underway, Ilyra is allowed ordinary curiosity and gossip rather than therapist behavior.",
+    "No Prime, Last Sentinel, bearer, Entity, or complete ancient-network explanation is added at camp.",
+    "Nobody calls attention to Torren's pouch, weed, smoking supplies, or the later C06 setup.",
+    "Optional short battle barks should stay practical and rare.",
+    "The original Card-transport authorization and attached routing / expenditure records are placed before the room. Keep the physical presentation ordinary and administrative; the documents should look like real Crown business, not villain props.",
+    "The assessment must visibly include Cyanis, Ilyra, Torren, and Nimera.",
+    "No modern UI, targeting reticle, digital readout, or spoken identity check appears.",
+    "Its battle identity should feel heavy, deliberate, chamber-bound, and built around physical magical wardcraft rather than modern machinery.",
+    "No investigation state changes. No Card event occurs. No lore is advanced.",
+    "There is no support wave and no injured Iron Cohort Soldier.",
 }
 
 PRODUCTION_PATTERNS = tuple(
     re.compile(pattern, re.IGNORECASE)
     for pattern in (
+        r"\b(?:P0?\d|C0?\d)\b",
         r"\bBeat\s+\d+\b",
         r"\bChapter[- ]\d+\b",
         r"\bthe chapter\b",
@@ -167,6 +191,7 @@ PRODUCTION_PATTERNS = tuple(
         r"\bcurrent atomic\b",
         r"\blegacy source key\b",
         r"\b(?:combat|battle) party\b",
+        r"\bactive combat pair\b",
         r"\bpermanent combat(?:-capable)?\b",
         r"\bpermanent party (?:member|members|characters)\b",
         r"\bboss encounter\b",
@@ -227,6 +252,20 @@ PRODUCTION_PATTERNS = tuple(
         r"\breusable smoke loop\b",
         r"\bhand animation\b",
         r"\bpreparation window\b",
+        r"\bplot reveal\b",
+        r"\bprop routine\b",
+        r"\brelationship summary\b",
+        r"\bconfession follows\b",
+        r"\bassessment must visibly include\b",
+        r"\bmodern UI\b",
+        r"\bbattle identity should feel\b",
+        r"\binvestigation state changes\b",
+        r"\blore is advanced\b",
+        r"\btreasure-door\b",
+        r"\ballowed to exist\b",
+        r"\ballowed ordinary\b",
+        r"\bmay appear again\b",
+        r"^\s*END\s+C\d+\b",
         r"^\s*Do not\b",
         r"^\s*Use one\b",
         r"^\s*Short dialogue may\b",
@@ -242,6 +281,7 @@ PRODUCTION_PATTERNS = tuple(
 RESIDUE_GUARD_PATTERNS = tuple(
     re.compile(pattern, re.IGNORECASE)
     for pattern in (
+        r"\b(?:P0?\d|C0?\d)\b",
         r"\bBeat\s+\d+\b",
         r"\bChapter[- ]\d+\b",
         r"\bthe chapter\b",
@@ -253,6 +293,7 @@ RESIDUE_GUARD_PATTERNS = tuple(
         r"\brecruitment\b",
         r"\bagency\b",
         r"\b(?:combat|battle) party\b",
+        r"\bactive combat pair\b",
         r"\bpermanent party (?:member|members|characters)\b",
         r"\bboss encounter\b",
         r"\bencounter authority\b",
@@ -267,6 +308,15 @@ RESIDUE_GUARD_PATTERNS = tuple(
         r"\bdialogue (?:ui|layer|box)\b",
         r"\brequired (?:visual|traversal|combat)\b",
         r"\bpreparation window\b",
+        r"\bplot reveal\b",
+        r"\bprop routine\b",
+        r"\brelationship summary\b",
+        r"\bassessment must visibly include\b",
+        r"\bmodern UI\b",
+        r"\bbattle identity should feel\b",
+        r"\binvestigation state changes\b",
+        r"\blore is advanced\b",
+        r"^\s*END\s+C\d+\b",
         r"^\s*Do not\b",
         r"^\s*Use one\b",
     )
@@ -314,10 +364,15 @@ def replace_paragraph_text(paragraph, text: str) -> None:
 
 def clean_heading(text: str) -> str | None:
     text = text.strip()
-    if text in HEADING_REMOVE:
+    low = text.lower()
+    if text in HEADING_REMOVE or re.fullmatch(r"c\d+\s+function", low):
         return None
+    if low == "working royal audience":
+        return "Royal Audience"
     if text in HEADING_EXACT:
         return HEADING_EXACT[text]
+
+    text = re.sub(r"\s*[—-]\s*Scene$", "", text, flags=re.IGNORECASE).strip()
 
     for pattern in (
         r"^Major Story Interaction\s*[—-]\s*",
