@@ -190,7 +190,7 @@ Nimera looks faintly offended.
 
 **MIRENA:** You left it unattended.
 
-**NIMERA:** Fair.
+**NIMERA:** Fine. That's technically on me.
 
 ### [MIRENA'S CONCERN]
 
