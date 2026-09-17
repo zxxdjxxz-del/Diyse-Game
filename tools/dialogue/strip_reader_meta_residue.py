@@ -20,6 +20,7 @@ META_HEADING_PATTERNS = (
     re.compile(r"^P\d{2}\s+end state$", re.I),
     re.compile(r"^Battle Character$", re.I),
     re.compile(r"^Encounter-direction priorities:?$", re.I),
+    re.compile(r"^System / Party State$", re.I),
 )
 
 META_PROSE_PATTERNS = (
@@ -29,7 +30,10 @@ META_PROSE_PATTERNS = (
     re.compile(r"^There is no argument for the sake of argument\b", re.I),
     re.compile(r"^Ilyra does not seize control of his care\b", re.I),
     re.compile(r"^Boss encounter begins\.?$", re.I),
-    re.compile(r"^(?:Combat|Active battle) party:\s*", re.I),
+    re.compile(r"^(?:Combat|Active battle|Permanent combat) party:\s*", re.I),
+    re.compile(r"^TORREN HARTH\s+[—-]\s+PERMANENT PARTY MEMBER$", re.I),
+    re.compile(r"^Cyanis \+ Ilyra \+ Torren$", re.I),
+    re.compile(r"^Maevra remains a non-combat traveling companion\.?$", re.I),
     re.compile(r"^Beat\s+\d+\s+(?:ends|begins)\b", re.I),
     re.compile(r"^Hard story rule:?$", re.I),
     re.compile(r"^Encounter-direction priorities:?$", re.I),
