@@ -130,25 +130,19 @@ Maevra looks at the room rather than the object alone.
 
 **MAEVRA:** Then use the gift. Catch your breath, check yourselves, and get ready before `not yet` expires.
 
-Ilyra looks at Cyanis.
+Cyanis rolls one shoulder, checks himself, then looks at Ilyra before she can ask.
 
-**ILYRA:** Any dizziness?
+**CYANIS:** No dizziness. No numbness. Nothing strange from the Card.
 
-**CYANIS:** No.
+Ilyra gives him a brief approving look.
 
-**ILYRA:** Numbness?
-
-**CYANIS:** No.
-
-**ILYRA:** Good.
+**ILYRA:** Look at that. Saved me two questions.
 
 Torren glances at them.
 
 **TORREN:** This a normal conversation now?
 
 **CYANIS:** Apparently.
-
-**ILYRA:** It becomes normal when he answers correctly the first time.
 
 **CYANIS:** I'm very trainable.
 
@@ -210,4 +204,4 @@ Next mandatory story beat: **Beat 9 — Hollow Watch Castellan.**
 - the forced-door scene now sounds like four people interpreting the same physical problem from different habits without overexplaining the visible breach.
 - Maevra can make a dry metaphor, Torren reads the material relationship, Ilyra anticipates consequence, and Cyanis follows the motive question without pretending to resolve it.
 - the threshold scene gives the group a human pre-boss breath without adding movement choreography or early deep friendship.
-- Ilyra's symptom check is now a recurring lived interaction rather than a plot reminder, and Torren notices that pattern naturally.
+- Cyanis now volunteers the familiar Card-status information himself before Ilyra has to run another routine checklist, showing learned continuity while keeping Ilyra's medical role available when a real change actually occurs.
