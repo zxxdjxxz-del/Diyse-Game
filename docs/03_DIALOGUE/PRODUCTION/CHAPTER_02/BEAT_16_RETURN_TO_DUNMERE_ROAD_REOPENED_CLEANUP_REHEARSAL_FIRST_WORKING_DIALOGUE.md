@@ -82,7 +82,7 @@ Cyanis follows her look.
 
 **CYANIS:** I like it too. Among other reasons, I can see an inn from here.
 
-**ILYRA:** There it is.
+**ILYRA:** There are your priorities.
 
 **TORREN:** Knew he'd get back to food.
 
