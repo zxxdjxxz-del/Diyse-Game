@@ -26,6 +26,8 @@ FORBIDDEN_HEADING_PATTERNS = (
 )
 
 PROSE_REPLACEMENTS = {
+    "Current atomic dialogue edition. Spoken lines are copied verbatim from the active source scenes; production notes are omitted.":
+        "Current atomic dialogue edition. Spoken lines are copied verbatim from the active source material; non-story notes are omitted.",
     "From this moment onward, the recovery casing is broken beyond use and leaves active continuity.":
         "The recovery casing is broken beyond use.",
     "The casing is gone from continuity.": "The casing is gone.",
@@ -50,6 +52,24 @@ PROSE_REPLACEMENTS = {
         "Necessary staff produce records and the Queen's physical seal, then recede from the room.",
     "This is not new evidence. It is the same old material already reported in Caelora:":
         "It is the same material already reported in Caelora:",
+    "At the established point where later construction visibly interfaces with older Diysean structure, movement pauses.":
+        "Later construction visibly meets the older Diysean structure.",
+    "At the channel carrying the Black Host breach farther inward, movement pauses and the relevant characters may appear again.":
+        "At the channel carrying the Black Host breach farther inward, the group stops.",
+    "At the mural viewing point, movement pauses.":
+        "The group stops at the mural.",
+    "At the established overlook, movement pauses.":
+        "The group stops at the overlook.",
+    "Torren traces the relevant relationship on his own map without turning it into a lecture for the audience.":
+        "Torren traces the relationship on his own map.",
+    "The elder indicates an old municipal route on a local map or equivalent field reference.":
+        "The elder indicates an old municipal route on a local map.",
+    "The elder gives the practical location of the old waterworks access. Exact map geometry and access mechanism belong to area design.":
+        "The elder gives the location of the old waterworks access.",
+    "The waterworks route opens into a much larger Ancient interior. Movement pauses long enough for a clean visual read.":
+        "The waterworks route opens into a much larger Ancient interior. The group stops to take it in.",
+    "Exploration reaches a chamber dominated by a large wall-scale map. The relevant group models appear at a natural stopping point.":
+        "The group reaches a chamber dominated by a large wall-scale map.",
 }
 
 PROSE_DROPS = {
@@ -76,6 +96,14 @@ FORBIDDEN_PROSE_PATTERNS = (
     re.compile(r"\bnot skipped because the boss\b", re.IGNORECASE),
     re.compile(r"\bactive continuity\b", re.IGNORECASE),
     re.compile(r"\bgone from continuity\b", re.IGNORECASE),
+    re.compile(r"\bmovement pauses\b", re.IGNORECASE),
+    re.compile(r"\bfor the audience\b", re.IGNORECASE),
+    re.compile(r"\bequivalent field reference\b", re.IGNORECASE),
+    re.compile(r"\bexact map geometry\b", re.IGNORECASE),
+    re.compile(r"\barea design\b", re.IGNORECASE),
+    re.compile(r"\bgroup models?\b", re.IGNORECASE),
+    re.compile(r"\bnatural stopping point\b", re.IGNORECASE),
+    re.compile(r"\bclean visual read\b", re.IGNORECASE),
 )
 
 
