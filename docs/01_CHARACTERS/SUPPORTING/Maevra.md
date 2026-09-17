@@ -224,6 +224,22 @@ Socially flexible, observant, quick, capable of dry command humor. Formal comman
 
 As party friendship grows, off-duty Maevra should become easier to hear more often. Do not reserve that version of her for one rare Character-Life scene.
 
+## Short-form acknowledgments
+Maevra's short replies should reflect whether she is **making a decision, receiving information, or simply being a person in the room**.
+
+In command or decision mode, useful shapes include:
+- closing the matter: **“Done.”**, **“Then that's settled.”**, **“That's the call.”**;
+- receiving useful information: **“Noted.”**, **“Good.”**, **“That changes it.”**;
+- moving directly to consequence: **“Then we move.”**, **“So we hold here.”**, **“Then that's what we're doing.”**.
+
+These are examples, not a mandatory commander vocabulary.
+
+Bare **“yes,” “no,”** and **“good”** remain valid. Maevra can use them because she is decisive, because the answer is genuinely simple, or because a dry one-word response is the joke. Do not inflate every command answer into a declaration.
+
+Outside command mode, do **not** make every acknowledgment sound like she is closing a meeting. Off-duty Maevra may answer with a tease, profanity, a competitive objection, a bit of gossip, amused disbelief, or an ordinary casual response. Her authority should shape her when authority is active, not colonize every social exchange.
+
+The distinction is functional: when Maevra has actually made the decision, her short line can end the decision. When she is merely reacting to another person, let the relationship and mood determine the response.
+
 ## Dialogue-assignment guardrail
 Do not default Maevra to:
 - command summary;
