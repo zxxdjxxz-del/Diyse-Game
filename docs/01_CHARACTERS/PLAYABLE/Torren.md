@@ -262,6 +262,25 @@ Common shapes include:
 
 A one-word Torren line should be present because **one word is what this Torren wants to say in this moment**, not because the character template requires him to be terse.
 
+## Short-form acknowledgments
+Torren's natural short-form vocabulary can remain blunt. **“Yeah.”** and **“No.”** are genuinely compatible defaults for him, especially in field coordination, practical agreement, or when the answer is already complete.
+
+What matters is that brevity remains a choice, not a quota.
+
+When he concedes or accepts something, useful shapes include:
+- plain agreement: **“Yeah.”**, **“Sure.”**, **“Suppose so.”**;
+- qualified uncertainty: **“Could be.”**, **“Maybe.”**, **“Not enough yet.”**;
+- practical acceptance: **“Works.”**, **“That'll hold.”**, **“Good enough.”**;
+- replacing agreement with the consequence itself: **“Then we take the east road.”**, **“Means the bridge is out.”**, **“So we wait.”**.
+
+These are examples, not mandatory phrases.
+
+**“Fair.”** should be comparatively rare for Torren. It is not forbidden, but repeated socially smooth concessions can blur him with Cyanis. Torren is often more likely to accept the fact, state the consequence, or give a flatter **“Yeah,” “Sure,”** or **“Suppose so.”**
+
+A bare **“Good.”** is still natural when something is practically resolved, stable, usable, or exactly what he needed to know.
+
+As Torren becomes more comfortable, do not preserve voice distinction by forcing him back into one-word answers. Later Torren can answer with a full sentence, an insult, a complaint, or an unnecessary story simply because he wants to.
+
 ## Dialogue-assignment guardrail
 Do not default Torren to:
 - route explanation;
