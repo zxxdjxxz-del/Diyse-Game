@@ -26,7 +26,7 @@ She looks past him at Ilyra, Torren, and Maevra emerging from a wall that should
 
 **DUNMERE WOMAN:** Then explain the wall later and get the fucking doors open now.
 
-**CYANIS:** Fair.
+**CYANIS:** Works for me.
 
 From farther along the gallery, an injured **WOUNDED SOLDIER** speaks quietly.
 
