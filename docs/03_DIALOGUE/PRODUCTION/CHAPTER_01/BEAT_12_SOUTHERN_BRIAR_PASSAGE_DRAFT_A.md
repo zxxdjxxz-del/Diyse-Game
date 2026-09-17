@@ -32,7 +32,7 @@ Torren shakes his head.
 
 **TORREN:** You can stay here.
 
-**CYANIS:** There it is.
+**CYANIS:** Right. Got me.
 
 Scene ends.
 
@@ -65,7 +65,7 @@ At a muddy-looking stretch:
 
 **TORREN:** Most people aren't the reason you're following this road.
 
-**CYANIS:** Fair. How long?
+**CYANIS:** That's true. How long?
 
 **TORREN:** Until the roots change. Pines thin out and you start seeing alder. Ground comes up under them.
 
@@ -137,7 +137,7 @@ Cyanis looks at him.
 
 Cyanis looks down at the inert Card.
 
-**CYANIS:** Fair.
+**CYANIS:** Can't argue with that.
 
 **MAEVRA:** Then south.
 
