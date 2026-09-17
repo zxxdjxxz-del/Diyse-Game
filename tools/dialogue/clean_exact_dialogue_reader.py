@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Clean the generated Chapters 0–3 reader without changing spoken dialogue."""
+"""Clean the generated Chapters 0–3 reader without changing spoken dialogue.
+
+Important invariant: dialogue is identified by the same formatting convention used by
+current atomics/readers — an ALL-CAPS speaker label in the first bold run, ending in a
+colon. Title-case bold labels are production metadata, not spoken dialogue.
+"""
 from __future__ import annotations
 
 import re
@@ -9,8 +14,8 @@ from docx import Document
 
 ROOT = Path(__file__).resolve().parents[2]
 READER = ROOT / "build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT.docx"
-EXPECTED_DIALOGUE_LINES = 3460
-DIALOGUE_PREFIX_RE = re.compile(r"^.+:\s*$")
+EXPECTED_DIALOGUE_LINES = 3440
+LABEL_RE = re.compile(r"^.+:\s*$")
 
 FULL_SKIP_HEADING_TERMS = (
     "production draft",
@@ -218,7 +223,7 @@ PRODUCTION_PATTERNS = tuple(
         r"\bmovement pauses\b",
         r"\b(?:scene|encounter) triggers?\b",
         r"\btrigger fires\b",
-        r"\bauthored (?:active-camp |active camp |scene|stop|encounter|combat|opening|disengagement)",
+        r"\bauthored\b",
         r"\b(?:cinematic|animation|camera cutaways?|locomotion|repositioning)\b",
         r"\bHP (?:bar|floor)\b",
         r"\bcommandable party\b",
@@ -274,6 +279,7 @@ RESIDUE_GUARD_PATTERNS = tuple(
         r"\bscene triggers?\b",
         r"\bmovement pauses\b",
         r"\bexact mechanics\b",
+        r"\bauthored\b",
     )
 )
 
@@ -282,11 +288,25 @@ def is_heading(paragraph) -> bool:
     return bool(paragraph.style and paragraph.style.name and paragraph.style.name.startswith("Heading"))
 
 
-def is_dialogue(paragraph) -> bool:
+def label_text(paragraph) -> str | None:
     if not paragraph.runs:
-        return False
+        return None
     first = paragraph.runs[0]
-    return bool(first.bold and DIALOGUE_PREFIX_RE.match(first.text))
+    if not first.bold or not LABEL_RE.match(first.text):
+        return None
+    return first.text.strip()[:-1].strip()
+
+
+def is_dialogue(paragraph) -> bool:
+    label = label_text(paragraph)
+    if label is None:
+        return False
+    # Spoken dialogue labels in the reader are ALL CAPS; production metadata labels are not.
+    return bool(re.search(r"[A-Z]", label)) and label == label.upper()
+
+
+def is_non_dialogue_label(paragraph) -> bool:
+    return label_text(paragraph) is not None and not is_dialogue(paragraph)
 
 
 def remove_paragraph(paragraph) -> None:
@@ -360,7 +380,7 @@ def residual_meta(document) -> list[str]:
         text = paragraph.text.strip()
         if not text or is_dialogue(paragraph):
             continue
-        if any(pattern.search(text) for pattern in RESIDUE_GUARD_PATTERNS):
+        if is_non_dialogue_label(paragraph) or any(pattern.search(text) for pattern in RESIDUE_GUARD_PATTERNS):
             found.append(text)
     return found
 
@@ -401,6 +421,13 @@ def main() -> int:
         if is_dialogue(paragraph):
             continue
 
+        # Bold title-case labels such as "Writer-facing identity note:" or "Combat party:"
+        # are metadata blocks, not speakers. Removing them fixes the historical false-positive
+        # that made the old cleaner report 3,460 "dialogue" paragraphs.
+        if is_non_dialogue_label(paragraph):
+            remove_paragraph(paragraph)
+            continue
+
         if text in PROSE_REWRITES:
             replace_paragraph_text(paragraph, PROSE_REWRITES[text])
             continue
@@ -424,8 +451,8 @@ def main() -> int:
 
     document.save(READER)
     print(
-        f"Reader presentation cleanup complete; preserved {len(dialogue_after)} spoken dialogue lines exactly "
-        "and passed the production-residue guard."
+        f"Reader presentation cleanup complete; preserved {len(dialogue_after)} actual spoken dialogue lines "
+        "exactly and passed the production-residue guard."
     )
     return 0
 
