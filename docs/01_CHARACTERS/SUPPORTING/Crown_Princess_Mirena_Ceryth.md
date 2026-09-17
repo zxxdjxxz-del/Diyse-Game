@@ -74,7 +74,9 @@ Mirena genuinely likes:
 - riding;
 - dancing;
 - food;
-- competition and winning.
+- competition and winning;
+- family history;
+- the history of the Yahtrean Crown and the people who held it.
 
 She remembers people and small details. She enjoys being beautiful without needing beauty to become a moral flaw or a disguise for insecurity.
 
@@ -141,6 +143,57 @@ Lysara's accession made succession immediate and changed how adults watched her.
 
 Her regional experience is legitimate preparation and public service, not a rebellious-princess tourism fantasy. She knows royal visits can be staged and learns to compare reports, revisit places, and ask unexpected questions.
 
+## Family and Yahtrean Crown history
+Mirena has a **genuine personal interest** in the history of her families and the Yahtrean Crown. This is not merely material she memorized because a future sovereign is expected to know it.
+
+She is interested in both the **Ceryth** and **Marrowen** sides of her family and in the longer institutional history of Yahtrean monarchy.
+
+Subjects that can genuinely hold her attention include:
+- old reigns and succession stories;
+- family correspondence, journals, letters, and private recollections where available;
+- coronations and changes to coronation practice;
+- old laws, reforms, failures, and precedents;
+- royal visits and the relationship between the Crown and different regions of Yahtrea;
+- scandals, feuds, marriages, friendships, and political grudges;
+- portraits, old clothes, presentation customs, and how individual royals chose to be seen;
+- embarrassing family anecdotes and strange personal habits;
+- disasters or mistakes later histories tried to soften;
+- moments when an official account and surviving personal evidence do not quite describe the same person or event.
+
+Mirena does not think of past monarchs only as names in a succession list. She is interested in the **people inside the titles**: what they wanted, what frightened them, what they misunderstood, what they changed, what they failed to change, and which stories about them were simplified after their deaths.
+
+That interest can be serious or playful. She can discuss a constitutional precedent in one scene and, in another, become delighted by evidence that a revered ancestor hated sitting for portraits, wore something atrocious, lost an absurd argument, or behaved like an ordinary idiot in private.
+
+She is comfortable acknowledging that members of her own family were sometimes wrong, ineffective, selfish, ridiculous, or actively harmful. Family loyalty does not require historical sanitization.
+
+This interest also connects naturally to her future role as Queen. Mirena cares about precedent, but she does **not** believe precedent is automatically wisdom. She wants to know:
+- why a practice began;
+- what problem it originally solved;
+- whether that problem still exists;
+- what damage the practice caused;
+- and whether later generations preserved it because it worked or simply because it was old.
+
+She may know Yahtrean royal and family history unusually well because of **access, education, personal interest, and years spent as heir**, but she is not omniscient.
+
+Important limits:
+- lost, suppressed, contradictory, regional, foreign, ancient-Diysean, or highly specialized records may exceed her knowledge;
+- she may know the official or family version of an event and later discover it was incomplete;
+- she can misremember a detail;
+- she can have assumptions shaped by royal archives that another specialist correctly challenges;
+- discovering that the family story is wrong should interest her rather than automatically make her defensive.
+
+### History voice distinction
+Do not turn this interest into Nimera's archive voice.
+
+- **Nimera** tends to care first about provenance, classification, what a record proves, and whether the inference is justified.
+- **Mirena** tends to become interested in the person, reign, precedent, public memory, political consequence, family relationship, and what the story meant to later Yahtreans.
+
+They can therefore become extremely interested in the **same document for different reasons**, which is useful ground for friendship, argument, and mutual correction.
+
+Mirena may also use family history socially: an ancestor can become an example, a cautionary story, an affectionate insult aimed at her own bloodline, or the subject of gossip among people she trusts. Do not make every historical reference into exposition for the player.
+
+Do not invent fixed favorite monarchs, favorite ancestors, hated ancestors, or specific historical events merely to demonstrate this trait. Those can become continuity once intentionally established by story authority.
+
 ## Political philosophy
 Fundamental principle:
 > power is legitimate only while it remains answerable.
@@ -185,7 +238,7 @@ And she is distinct from **Cyanis**:
 - **Torren** — practical ground-truth check on royal claims of lived experience. His willingness to say `I don't know` or contradict a convenient official assumption can earn disproportionate respect.
 - **Ilyra** — quiet restraint, warmth, dry humor, and gossip. Mirena should be able to enjoy Ilyra as a person rather than treating her only as a medical voice.
 - **Kessara** — adult humor and specialist respect; Mirena is not scandalized by sexual humor.
-- **Nimera** — technical/evidence-based challenge, argumentative energy, and growing ordinary familiarity. Mirena should enjoy being corrected when the correction is real, even when she resents how satisfying Nimera finds it.
+- **Nimera** — technical/evidence-based challenge, argumentative energy, and growing ordinary familiarity. Mirena should enjoy being corrected when the correction is real, even when she resents how satisfying Nimera finds it. Shared historical material can give them especially strong conversations because Nimera asks what the record proves while Mirena asks what it meant to the family, Crown, reign, and later public memory.
 - **Vaelira** — calibrated technical judgment and intelligent disagreement; Mirena values revisions that make uncertainty clearer rather than pretending certainty.
 - **Seyrik** — gradual trust that must preserve his adult agency and history; she should not treat him as a symbolic redemption project.
 - **Cyanis** — intelligent mutual respect and disagreement; current story files control any scene-specific intimacy/subtext. His willingness to refuse bad authority for concrete reasons is naturally relevant to her governing philosophy.
@@ -290,7 +343,8 @@ She can also speak because she:
 - is bored;
 - is being petty;
 - wants to keep a stupid argument alive;
-- wants company after the political conversation is over.
+- wants company after the political conversation is over;
+- genuinely wants to talk about an ancestor, old reign, family letter, Crown precedent, or strange piece of Yahtrean royal history.
 
 Do not make every Mirena line carry statecraft.
 
@@ -324,7 +378,8 @@ Do not default Mirena to:
 - delivering the moral interpretation of power;
 - summarizing what everyone has already said;
 - being the most polished person in every private scene;
-- automatically ending a conversation because she outranks somebody.
+- automatically ending a conversation because she outranks somebody;
+- giving a Crown-history lecture merely because a historical object or name appears.
 
 Mirena should sometimes be the person who:
 - makes the joke worse;
@@ -336,6 +391,7 @@ Mirena should sometimes be the person who:
 - admits she does not know;
 - gets caught being vain;
 - wants an answer for personal rather than political reasons;
+- becomes genuinely excited about family or Crown history;
 - simply stays in the room after there is no royal reason left to stay.
 
 **Royal status is not a dialogue assignment.**
@@ -353,6 +409,7 @@ Do not reduce Mirena to:
 - politics-only exposition source;
 - generic witty princess whose humor could be given unchanged to Maevra or Cyanis;
 - Nimera-style evidence/categorization precision merely because Mirena is intelligent;
+- omniscient royal historian who always knows the correct version of the past;
 - future Queen whose eventual closeness with the party erases the need to show that closeness growing.
 
 ## Visual
