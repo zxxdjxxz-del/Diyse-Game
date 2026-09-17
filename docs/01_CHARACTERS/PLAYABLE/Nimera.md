@@ -94,19 +94,35 @@ When genuinely exposed, her language can become unusually simple and lose the pr
 When truly furious, she tends to become more formal and may stop swearing.
 
 ## Profanity
-Nimera swears **frequently and naturally** in ordinary adult speech, especially when:
+Nimera swears **frequently and naturally** in ordinary adult speech. Profanity is part of her spontaneous emotional register, not decoration pasted onto technical dialogue.
+
+It becomes especially available when:
 - a record is badly categorized;
 - somebody makes an unsupported leap;
 - a mechanism is fascinating and inconvenient at the same time;
 - she catches her own bad assumption;
 - the group is relaxed enough for playful argument;
-- a technical distinction has become absurd.
+- a technical distinction has become absurd;
+- she becomes suddenly certain;
+- a new fact lands hard enough to surprise, delight, alarm, or annoy her.
+
+Her profanity can be clipped, embedded, emphatic, delighted, irritated, or analytical. Useful shapes include:
+- **“Fuck no.”** when she is genuinely certain and rejecting the proposition outright;
+- **“Fuck yes.”** or **“Abso-fucking-lutely.”** when she is enthusiastically certain, delighted by the answer, or committing to something with zero hesitation;
+- **“Oh, fuck.”** when a realization lands all at once, whether the implication is exciting, alarming, or both;
+- **“Shit.”** when she suddenly understands the practical consequence of what she has just seen or heard;
+- **“Well, shit.”** when the evidence has cornered her into an inconvenient conclusion;
+- profanity inside a longer correction or explanation when the frustration, excitement, or absurdity genuinely belongs there.
+
+These are examples of register, **not mandatory catchphrases**. Do not mechanically cycle through them, and do not make every discovery produce an expletive.
+
+Certainty matters. When Nimera actually knows the answer, she does not need to sound academically cautious for appearances. A visceral **“Fuck no.”** can be more truthful to her than a carefully hedged denial. When the evidence is incomplete, however, she is much more likely to qualify the claim: **“No—not yet,” “Not proven,” “We don't know that,”** or an equivalent that protects the distinction.
 
 Her profanity is often precise, inventive, or embedded inside an explanation rather than appended as generic toughness.
 
 Do not sanitize her merely because she is the scholar, the youngest current party member, or the person explaining something.
 
-Do not make every line profane. True fury may become cleaner and more formal; genuine vulnerability may become much plainer.
+Do not make every line profane. True fury may become cleaner and more formal; genuine vulnerability may become much plainer. Fear can strip the jokes away even if an involuntary **“oh, fuck”** escapes first.
 
 ## Humor
 Primary modes:
@@ -217,11 +233,18 @@ Useful shapes:
 Nimera is one of the cast members most likely to produce an **earned multi-sentence turn**. Do not chop such turns into artificial party ping-pong. If someone interrupts, the interruption must come from that person's own motive, not from a line-length quota.
 
 ## Short-form acknowledgments
-Nimera's short replies should preserve her relationship to **precision and evidence** without forcing every answer into scholar-speak.
+Nimera's short replies should preserve her relationship to **precision, evidence, and certainty** without forcing every answer into scholar-speak.
 
 A flat **“No.”** is explicitly valid for her. It can be especially effective when the next beat reveals that she has more to say, is rejecting the premise rather than the person, or is about to qualify the category. Do not automatically replace those lines with longer evidentiary phrases.
 
-When a distinction actually matters, useful shapes include:
+When she is **certain**, her short answer can become much more visceral:
+- **“Fuck no.”** — categorical rejection when she knows;
+- **“Fuck yes.”** — emphatic agreement or delighted certainty;
+- **“Abso-fucking-lutely.”** — strong enthusiastic commitment or certainty, especially in relaxed/social dialogue;
+- **“Oh, fuck.”** — realization arriving before the explanation;
+- **“Shit.”** — immediate recognition of a consequence.
+
+When a distinction actually matters because the evidence is incomplete, useful shapes include:
 - **“No—not yet.”**;
 - **“Not proven.”**;
 - **“Technically, yes.”**;
@@ -232,11 +255,11 @@ When a distinction actually matters, useful shapes include:
 
 These are examples, not mandatory signatures.
 
-The key is that Nimera tends to qualify **when the qualification changes the claim**. She should not attach a clause to every yes or no merely to advertise intelligence. If the answer is genuinely simple, she may simply say **“Yes.”** or **“No.”**
+The key is that Nimera qualifies **when the qualification changes the claim**. She should not attach a clause to every yes or no merely to advertise intelligence. If the answer is genuinely simple, she may simply say **“Yes.”**, **“No.”**, or—when the certainty and mood support it—**“Fuck no.”**
 
 A bare **“Good.”** is allowed, but when she is reacting to evidence or a technical result she may more naturally respond to what the information does: it narrows, confirms, complicates, contradicts, or fails to prove something.
 
-When she is frightened, exhausted, furious, or genuinely vulnerable, her language may become much simpler. Voice distinction should never prevent plain speech when plain speech is emotionally truer.
+When she is frightened, exhausted, truly furious, or genuinely vulnerable, her language may become much simpler. Voice distinction should never prevent plain speech when plain speech is emotionally truer.
 
 ## Anti-drift
 Do not reduce Nimera to:
@@ -251,7 +274,7 @@ Do not reduce Nimera to:
 - someone who instantly treats Torren like a father the chapter they meet.
 
 ## Voice shorthand
-Fast when interested, precise about evidence, casually profane, playful, correction-prone, and occasionally delighted enough by technical absurdity to keep talking well past the first complete sentence.
+Fast when interested, precise about evidence, casually and sometimes explosively profane, playful, correction-prone, and occasionally delighted enough by technical absurdity to keep talking well past the first complete sentence.
 
 ## Visual
 Current visual authority: `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/NIMERA_CURRENT_VISUAL_LOCK.md` and `asset_sources/characters/current/nimera.jpg`.
