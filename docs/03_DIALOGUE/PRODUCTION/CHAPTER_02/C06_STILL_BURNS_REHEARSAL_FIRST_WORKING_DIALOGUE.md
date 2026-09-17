@@ -223,7 +223,7 @@ His expression changes by almost nothing.
 
 Maevra catches it anyway.
 
-**MAEVRA:** There it is. You hate it too.
+**MAEVRA:** Knew it. You hate it too.
 
 **TORREN:** Didn't say that.
 
@@ -265,7 +265,7 @@ Maevra smiles.
 
 **TORREN:** Fuck you.
 
-**MAEVRA:** There he is.
+**MAEVRA:** That's more like it.
 
 The room settles.
 
