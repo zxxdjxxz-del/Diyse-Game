@@ -24,6 +24,8 @@ META_HEADING_PATTERNS = (
 )
 
 META_PROSE_PATTERNS = (
+    re.compile(r"^Writer-facing identity note:", re.I),
+    re.compile(r"^Hard scene rule:?$", re.I),
     re.compile(r"\bcurrent Chapter[- ]?\d+ story specifically authorizes\b", re.I),
     re.compile(r"\bencounter-authorized\b", re.I),
     re.compile(r"^This is the single combined final boss encounter\b", re.I),
