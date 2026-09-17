@@ -84,7 +84,7 @@ He points to a narrow clear patch near the center.
 
 **CYANIS:** There.
 
-**NIMERA:** No.
+**NIMERA:** Fuck no.
 
 **CYANIS:** You just said unoccupied.
 
@@ -192,7 +192,7 @@ Nimera points at Torren with immediate approval.
 
 **TORREN:** Occasionally?
 
-**NIMERA:** Don't get greedy.
+**NIMERA:** One good answer. Don't fucking extrapolate.
 
 Cyanis points to another apparently clear patch.
 
@@ -222,7 +222,7 @@ Torren puts the rolled map back under his arm.
 
 Nimera brightens despite herself.
 
-**NIMERA:** Yes. Thank you. Because the lamp has a fixed functional requirement tied to light level, whereas the paper is only expected work product. Different confidence classes.
+**NIMERA:** Abso-fucking-lutely. Thank you. Because the lamp has a fixed functional requirement tied to light level, whereas the paper is only expected work product. Different confidence classes.
 
 Cyanis closes his eyes.
 
