@@ -56,7 +56,7 @@ Torren glances at her.
 
 **MAEVRA:** I was still there.
 
-**TORREN:** Fair.
+**TORREN:** You were.
 
 Nobody calls it a victory.
 
