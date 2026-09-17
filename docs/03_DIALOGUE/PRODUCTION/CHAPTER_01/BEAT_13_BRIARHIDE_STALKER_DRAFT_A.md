@@ -89,7 +89,7 @@ Cyanis exhales.
 
 **CYANIS:** Comforting.
 
-**TORREN:** Fair.
+**TORREN:** Wouldn't blame you.
 
 Maevra remains outside the battle party.
 
@@ -185,7 +185,7 @@ Cyanis looks ahead.
 
 **ILYRA:** I'm blaming you for saying that out loud.
 
-**MAEVRA:** Fair.
+**MAEVRA:** I'll take that.
 
 **TORREN:** Good. Let's go.
 
