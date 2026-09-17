@@ -214,7 +214,7 @@ Ilyra waits again.
 
 Maevra looks at her.
 
-**MAEVRA:** Don't get greedy.
+**MAEVRA:** That's all you're getting tonight.
 
 **ILYRA:** I wasn't going to ask how.
 
