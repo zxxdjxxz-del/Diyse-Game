@@ -318,9 +318,9 @@ Torren returns to the practical problem.
 
 **TORREN:** To the ridge. Not into the occupied fort.
 
-**CYANIS:** Good distinction.
+**CYANIS:** Right. That's what I needed.
 
-**TORREN:** Important one.
+**TORREN:** Important part.
 
 **MAEVRA:** See why I came here?
 
