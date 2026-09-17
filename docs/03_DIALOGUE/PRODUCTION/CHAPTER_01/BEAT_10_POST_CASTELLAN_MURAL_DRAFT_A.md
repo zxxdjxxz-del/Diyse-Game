@@ -198,7 +198,7 @@ A beat.
 
 **MAEVRA:** Assuming this would've answered their question.
 
-**CYANIS:** Fair.
+**CYANIS:** That's true.
 
 Nobody fills the next silence.
 
