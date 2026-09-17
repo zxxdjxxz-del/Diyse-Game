@@ -93,7 +93,7 @@ Torren checks the immediate way ahead.
 
 A beat.
 
-**CYANIS:** Fair.
+**CYANIS:** Right. Somebody.
 
 Ilyra is already looking toward the galleries beyond.
 
