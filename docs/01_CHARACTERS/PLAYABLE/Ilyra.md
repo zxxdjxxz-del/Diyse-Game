@@ -145,6 +145,23 @@ Ilyra can answer with:
 
 Beginning an emotional scene does not entitle her—or the writer—to confession.
 
+## Short-form acknowledgments
+Ilyra's short replies should usually reflect **what changed for the person, condition, or immediate consequence**, rather than becoming a generic agreement word repeated across unrelated scenes.
+
+Useful shapes include:
+- a condition improving: **“Better.”**, **“Good.”**, **“That's better.”**;
+- a limit being reached: **“That's enough.”**, **“Stay there.”**, **“Leave it.”**;
+- accepting something workable: **“All right.”**, **“That'll do.”**, **“I can work with that.”**;
+- dry social acknowledgment when no care role is involved: a brief observation, amused correction, or irritated reaction instead of automatically answering with **“Good.”** or **“Yes.”**.
+
+These are examples, not mandatory replacements or catchphrases.
+
+A bare **“Good.”** is especially natural when Ilyra is actually assessing a condition, symptom, recovery step, or concrete outcome. Do **not** remove it from those contexts merely to make vocabulary unique. Outside that function, avoid leaning on it as a generic acknowledgment when a more situational response would sound more like her.
+
+Plain **“yes”** and **“no”** remain normal human answers. Do not lengthen a factual reply solely for voice differentiation.
+
+Her brevity must not automatically become caretaking language. In ordinary social scenes she can be blunt, amused, petty, profane, or simply concise without translating the moment into another person's wellbeing.
+
 ## Dialogue assignment guardrail
 Ilyra's medical competence is **not** her default reason to receive a dialogue turn.
 
