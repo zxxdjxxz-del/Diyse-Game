@@ -212,7 +212,7 @@ Cyanis waits a second anyway.
 
 **ILYRA:** I like experiments when the subject isn't a tired man standing in a wreck field after being hit by unexplained magic twice.
 
-**CYANIS:** Fair distinction.
+**CYANIS:** Yeah, okay.
 
 ---
 
