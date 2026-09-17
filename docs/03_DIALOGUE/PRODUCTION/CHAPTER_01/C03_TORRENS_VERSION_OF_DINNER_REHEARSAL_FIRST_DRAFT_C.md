@@ -230,7 +230,7 @@ Torren thinks.
 
 Maevra drops her head.
 
-**MAEVRA:** There it is.
+**MAEVRA:** Of course that's the part you remembered.
 
 **CYANIS:** So the bad part is intentional.
 
