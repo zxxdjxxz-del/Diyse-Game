@@ -7,6 +7,7 @@ on:
       - 'tools/dialogue/sync_current_dialogue.py'
       - 'tools/dialogue/clean_exact_dialogue_reader.py'
       - 'tools/dialogue/finalize_exact_dialogue_reader.py'
+      - 'tools/dialogue/polish_exact_dialogue_reader_story.py'
       - 'tools/dialogue/repair_exact_dialogue_reader_layout.py'
       - '.github/workflows/dialogue-sync.yml'
       - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P*.md'
@@ -50,6 +51,9 @@ jobs:
 
       - name: Finalize reader presentation
         run: python tools/dialogue/finalize_exact_dialogue_reader.py
+
+      - name: Polish reader story presentation
+        run: python tools/dialogue/polish_exact_dialogue_reader_story.py
 
       - name: Repair reader layout
         run: python tools/dialogue/repair_exact_dialogue_reader_layout.py
