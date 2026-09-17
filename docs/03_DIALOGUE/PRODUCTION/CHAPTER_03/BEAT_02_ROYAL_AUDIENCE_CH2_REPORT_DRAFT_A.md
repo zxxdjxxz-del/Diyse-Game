@@ -94,6 +94,10 @@ A beat.
 
 **MIRENA:** That's our Crest.
 
+She looks at it again, not treating resemblance as enough.
+
+**MIRENA:** Not a predecessor mark. The Yahtrean Crest exactly as we use it now.
+
 The room gets quieter.
 
 Lysara studies the copied mark, then looks directly at Torren.
@@ -118,7 +122,7 @@ Mirena keeps studying the map.
 
 Mirena inclines her head.
 
-**MIRENA:** Fair.
+**MIRENA:** Point taken.
 
 The subject closes because Lysara closes it.
 
@@ -201,7 +205,7 @@ Transition directly into:
 - Torren is allowed a full evidence-bound route and mural explanation. His irritation with false precision is part of his personality, not a narration device.
 - Cyanis owns the direct subjective account of the Card-separation event; Ilyra adds the clinical observations he could not reliably make himself. This prevents her from automatically narrating his body for him.
 - Lysara behaves as national authority: she chooses the order of the report, asks only questions that affect judgment, closes premature lines of inquiry, and moves immediately to evidence when the transport authority becomes material.
-- Mirena is perceptive and curious without becoming the scene's omniscient system interpreter.
+- Mirena is perceptive and curious without becoming the scene's omniscient system interpreter. Her immediate recognition of the exact current Yahtrean Crest comes from her lived familiarity with Crown history and presentation, not from ancient-systems expertise.
 - Othmar's attention naturally goes to provenance, routing, expenditure, and documentation. His hidden responsibility is not exposed.
 - interruptions arise from ownership: Torren takes the route floor, Ilyra takes prisoner condition, Cyanis takes his direct Card experience, and Lysara closes topics when they cease to be useful.
 
