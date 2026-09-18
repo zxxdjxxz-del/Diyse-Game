@@ -257,7 +257,9 @@ Performance:
 - anime-readable action/reaction without stock anime behavior;
 - relationship-specific humor/timing when supported;
 - silence/nonparticipation are valid;
-- do not become omniscient because the author profile contains information the character could not know here.
+- do not become omniscient because the author profile contains information the character could not know here;
+- ordinary trained Abilities and Standard Cards are familiar modern magic, not automatic mysteries;
+- Prime Cards are disputed late-Diysean history with no verified modern holder/use; never invent operational Prime knowledge or personal Prime association.
 
 This is a nonpersistent fallback profile. Do not fabricate previous private memories. Do not invent local
 facts, prices, wages, shortages, route states, preferences, or future story knowledge.
@@ -380,6 +382,29 @@ def normalized_participants(req: SceneBuildRequest) -> tuple[list[str], dict[str
             },
         )
     return participants, profiles
+
+
+def profile_person_view(profile: dict[str, Any]) -> dict[str, Any]:
+    """Return character-facing profile data with author-only Prime assignment removed."""
+    result = dict(profile)
+
+    # Scene-authority compiler profiles carry the complete character Markdown in
+    # authority_text. Story Prime assignment is author metadata, not pre-reveal
+    # character knowledge.
+    authority_text = result.get("authority_text")
+    if isinstance(authority_text, str):
+        result["authority_text"] = "\n".join(
+            line
+            for line in authority_text.splitlines()
+            if not re.match(r"^\s*-\s*Story Prime\s*:", line, flags=re.IGNORECASE)
+        )
+
+    for key in list(result.keys()):
+        normalized = str(key).strip().lower().replace("-", "_").replace(" ", "_")
+        if normalized in {"prime", "story_prime", "prime_card", "story_prime_association"}:
+            result.pop(key, None)
+
+    return result
 
 
 def validate_anchors(anchors: list[ExactLineAnchor], participants: list[str]) -> list[dict[str, Any]]:
@@ -598,7 +623,7 @@ async def build_scene(
 
             profile_payload = {
                 "character_id": cid,
-                "participant_profile": profiles[cid],
+                "participant_profile": profile_person_view(profiles[cid]),
                 "story_position": req.story_position,
                 "authority_packet": req.authority_packet,
                 "observable_scene_so_far": observable_scene,
