@@ -6,6 +6,8 @@ on:
     paths:
       - 'tools/dialogue/sync_current_dialogue.py'
       - 'tools/dialogue/compile_current_runtime_dialogue.py'
+      - 'game/dialogue/current_dialogue_catalog.gd'
+      - 'tests/dialogue/validate_current_dialogue_resources.gd'
       - 'tools/dialogue/clean_exact_dialogue_reader.py'
       - 'tools/dialogue/finalize_exact_dialogue_reader.py'
       - 'tools/dialogue/polish_exact_dialogue_reader_story.py'
@@ -75,7 +77,7 @@ jobs:
       - name: Validate Git diff
         run: git -c core.whitespace=-blank-at-eol,space-before-tab,blank-at-eof diff --check
 
-      - name: Commit synchronized text outputs
+      - name: Commit synchronized dialogue outputs
         shell: bash
         run: |
           set -euo pipefail
