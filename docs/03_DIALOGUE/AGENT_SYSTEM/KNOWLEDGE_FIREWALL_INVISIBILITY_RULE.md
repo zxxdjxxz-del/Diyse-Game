@@ -27,6 +27,27 @@ Use ordinary human speech.
 - Use "I don't know," "maybe," or a qualifier only when the conversational moment genuinely calls for it, not as a repeated signature proving the character is careful.
 - Expertise should appear through useful decisions, attention, and action — not through constant disclaimers.
 
+## Magic / Card / Prime application
+
+The lived-magic firewall must also remain invisible in ordinary speech.
+
+For ordinary Abilities and Standard Cards:
+- characters simply treat them as normal parts of life;
+- do not make characters explain that magic is normal;
+- do not make characters explain the basic function of Standard Cards to informed adults;
+- do not add artificial awe merely to prove the setting contains magic.
+
+For Prime Cards:
+- characters do not need to append "if Primes are real," "according to the records," or "we don't know what they do" every time the term appears;
+- use those distinctions when the actual conversation/evidence requires them;
+- otherwise let uncertainty live in what the character does **not** claim;
+- a Card specialist may distinguish record, rumor, inference, and fact naturally, but should not sound like a walking canon disclaimer.
+
+The invisible Canon Checker owns the hard firewall:
+- no verified modern Prime holder/use before story evidence;
+- no operational Prime mechanics before discovery;
+- no author-only Story-Prime association leaking into character knowledge.
+
 ## Torren-specific application
 
 Torren remains evidence-first and comfortable with uncertainty, but this must not become a verbal tic.
