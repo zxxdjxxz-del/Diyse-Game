@@ -20,6 +20,11 @@ The former eight-beat split that separated Riftmaw from the final War-Sorcerer c
 - The concealed Ruin Vanguard Pursuer is **Seyrik Rell** writer-facing only; he is not identified in Chapter 0.
 
 ### Recovered Card / ancient artifact
+- The **Crown had the Card excavated/recovered** from an ancient site and explicitly ordered it transported to **Caelora**.
+- Its opening importance comes from that Crown order, provenance, protected chain of custody, and destination — **not from Cards being rare or inherently mysterious**.
+- Before P04, the Card has not activated. This is strange but makes it plausibly look **inert, failed, damaged, or useless**, not secretly powerful.
+- No character may treat the Card's initial nonactivation as evidence that it is a Prime, bearer-linked, chosen, or exceptionally powerful.
+- The **first incomplete response in P04 is the first moment the Card itself becomes genuinely anomalous** rather than merely important cargo that does not work.
 - The recovered Card remains protected cargo inside its damaged recovery casing through the start of P06.
 - The casing breaks **during P06's combined Riftmaw + Convoy War-Sorcerer boss fight** after the second incomplete response has begun.
 - The Card itself survives intact.
@@ -67,7 +72,7 @@ The former eight-beat split that separated Riftmaw from the final War-Sorcerer c
 **Purpose**
 - introduce Cyanis through ordinary professional competence rather than prophecy/chosen-one framing;
 - establish the convoy as a working mixed military/civilian movement;
-- establish the recovery wagon and cased Card as protected cargo;
+- establish the recovery wagon and cased Card as Crown-directed protected cargo being taken to Caelora, with the Card itself still inert and potentially useless;
 - trigger the Black Host ambush and the first solo combat/tutorial pressure.
 
 **Starting state**
