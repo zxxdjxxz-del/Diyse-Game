@@ -20,7 +20,7 @@ The former eight-beat split that separated Riftmaw from the final War-Sorcerer c
 - The concealed Ruin Vanguard Pursuer is **Seyrik Rell** writer-facing only; he is not identified in Chapter 0.
 
 ### Recovered Card / ancient artifact
-- The **Crown had the Card excavated/recovered** from an ancient site and explicitly ordered it transported to **Caelora**.
+- The **Crown had the Card excavated** from an ancient site and explicitly ordered it transported to **Caelora**.
 - Its opening importance comes from that Crown order, provenance, protected chain of custody, and destination — **not from Cards being rare or inherently mysterious**.
 - Before P04, the Card has not activated. This is strange but makes it plausibly look **inert, failed, damaged, or useless**, not secretly powerful.
 - No character may treat the Card's initial nonactivation as evidence that it is a Prime, bearer-linked, chosen, or exceptionally powerful.
