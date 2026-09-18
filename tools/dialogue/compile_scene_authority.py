@@ -93,7 +93,7 @@ DEFAULT_GLOBAL_SOURCES: list[dict[str, Any]] = [
     },
     {
         "path": "docs/03_DIALOGUE/DIALOGUE_MASTER_INDEX.md",
-        "sections": ["Global all-dialogue rule"],
+        "sections": ["Dialogue Engine hard rules"],
         "role": "dialogue_regeneration_rule",
     },
     {
