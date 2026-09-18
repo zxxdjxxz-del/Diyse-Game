@@ -28,8 +28,8 @@ PROD = ROOT / "docs/03_DIALOGUE/PRODUCTION"
 OUT_ROOT = ROOT / "game/content/dialogue/current"
 EXPECTED_TOTAL_SPOKEN = 3440
 
-DIALOGUE_RE = re.compile(r"^\\*\\*([^*\\n]+):\\*\\*\\s*(.*)$")
-HEADING_RE = re.compile(r"^(#{1,6})\\s+(.+?)\\s*$")
+DIALOGUE_RE = re.compile(r"^\*\*([^*\n]+):\*\*\s*(.*)$")
+HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
 NON_ALNUM_RE = re.compile(r"[^a-z0-9]+")
 
 DURABLE_FLAGS: dict[tuple[str, str], list[str]] = {
@@ -304,7 +304,7 @@ def location_identifier(title: str) -> str:
 
 
 def spoken_fingerprint(beats: list[dict[str, Any]]) -> str:
-    payload = "\\n".join(f"{beat['speaker_id']}\\t{beat['text']}" for beat in beats)
+    payload = "\n".join(f"{beat['speaker_id']}\t{beat['text']}" for beat in beats)
     return sha256_text(payload)
 
 
@@ -347,7 +347,7 @@ def render_scene(
             "cues": beat["cues"],
         }))
 
-    return "\\n".join([
+    return "\n".join([
         '[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]',
         "",
         '[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]',
@@ -373,7 +373,7 @@ def render_scene(
         'vfx_tier = "V1"',
         f"authoring_notes = {quote(authoring_notes)}",
         "beats = [",
-        ",\\n".join(rendered_beats),
+        ",\n".join(rendered_beats),
         "]",
         "",
     ])
@@ -384,7 +384,7 @@ def render_registry(labels: dict[str, str]) -> str:
         {"character_id": sid, "display_name": display_name(label), "portraits": {}}
         for sid, label in labels.items()
     ]
-    return "\\n".join([
+    return "\n".join([
         '[gd_resource type="Resource" script_class="DiyseDialoguePortraitRegistry" load_steps=2 format=3]',
         "",
         '[ext_resource type="Script" path="res://game/dialogue/dialogue_portrait_registry.gd" id="1_registry"]',
@@ -392,7 +392,7 @@ def render_registry(labels: dict[str, str]) -> str:
         "[resource]",
         'script = ExtResource("1_registry")',
         "entries = [",
-        ",\\n".join(gd_value(entry) for entry in entries),
+        ",\n".join(gd_value(entry) for entry in entries),
         "]",
         "",
     ])
@@ -447,7 +447,7 @@ def expected_outputs() -> tuple[dict[Path, str], dict[str, Any]]:
             source_sha = sha256_text(source_text)
             spoken_sha = spoken_fingerprint(beats)
             total_spoken += len(beats)
-            global_sequence.extend(f"{beat['speaker_id']}\\t{beat['text']}" for beat in beats)
+            global_sequence.extend(f"{beat['speaker_id']}\t{beat['text']}" for beat in beats)
 
             resource_path = chapter_out / f"{scene.slot_id}.tres"
             outputs[resource_path] = render_scene(
@@ -471,7 +471,7 @@ def expected_outputs() -> tuple[dict[Path, str], dict[str, Any]]:
         manifest["chapters"][f"chapter_{chapter}"] = chapter_manifest
 
     manifest["total_spoken"] = total_spoken
-    manifest["global_spoken_sha256"] = sha256_text("\\n".join(global_sequence))
+    manifest["global_spoken_sha256"] = sha256_text("\n".join(global_sequence))
     if total_spoken != EXPECTED_TOTAL_SPOKEN:
         raise CompileError(
             f"Current runtime compile found {total_spoken} spoken lines; expected {EXPECTED_TOTAL_SPOKEN}."
@@ -494,7 +494,7 @@ python tools/dialogue/compile_current_runtime_dialogue.py
     outputs[OUT_ROOT / "README.md"] = readme
     outputs[OUT_ROOT / "manifest.json"] = json.dumps(
         manifest, ensure_ascii=False, sort_keys=True, indent=2
-    ) + "\\n"
+    ) + "\n"
     return outputs, manifest
 
 
