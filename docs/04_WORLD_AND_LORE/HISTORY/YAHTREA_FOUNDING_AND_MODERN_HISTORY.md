@@ -27,24 +27,24 @@ The city was built atop / through the site of an Ancient Diysean capital.
 Early construction in Caelora and other sites exposed ancient inert artifacts/Cards before the modern activation era.
 
 ## Internal chronology
-Use AF as internal development shorthand:
-> **AF = years after Yahtrea's founding**
+Use YF as the current calendar:
+> **YF = Years since the Founding of Yahtrea**
 
 Current approximate timeline:
-- **0 AF** — Yahtrea founded
+- **0 YF** — Yahtrea founded
 - early royal era — Caelora established as capital
-- **~200 AF** — first modern Card activation/recovery era begins
-- **~220 AF** — naturally magical births begin appearing
-- **~250 AF** — magical creatures begin returning/awakening
-- **~700 AF** — present-day story
+- **~200 YF** — first modern Card activation/recovery era begins
+- **~220 YF** — naturally magical births begin appearing
+- **~250 YF** — magical creatures begin returning/awakening
+- **720 YF** — present-day story
 
 Therefore:
-- first Card activation is roughly **500 years before the present**
-- naturally magical births begin roughly **480 years before present**
-- magical creatures return roughly **450 years before present**
+- first Card activation is roughly **520 years before the present**
+- naturally magical births begin roughly **500 years before present**
+- magical creatures return roughly **470 years before present**
 
 ## Causality boundary
-The game does **not** need to explain why Cards began activating specifically around ~200 AF.
+The game does **not** need to explain why Cards began activating specifically around ~200 YF.
 
 The causal/metaphysical mechanism for:
 - delayed Card activation;
