@@ -11,6 +11,24 @@ Exactly:
 
 No additional Card rank, duplicate, Essence, upgrade-material, or generated-card progression exists.
 
+## Lived-world Card baseline
+
+Standard Cards are a normal, known part of modern magical life.
+
+Modern people broadly understand that:
+- a Standard Card is a surviving Ancient Diysean magical artifact;
+- it preserves an ancient ability;
+- the person holding/using that Card gains access to the preserved ability;
+- Standard Cards are not chosen-one objects and are not restricted to one bloodline, class, or institution;
+- any ordinary person can in principle obtain, possess, and use one if they actually acquire it;
+- centuries of practical modern Card use exist, so "this is a Card" is not itself a mystery.
+
+This does **not** change authored acquisition, shop, reward, rarity, or drop rules.
+
+Prime Cards are the exception. Player-facing/system rules in this file are **not modern character knowledge**. At story start, no one in known modern history has knowingly possessed or used a Prime; the term survives only in a very small number of late-Diysean records; their reality is uncertain to most people; and their actual function is unknown. The only broad surviving reputation is that Primes, if real, were the most powerful / highest-order Cards.
+
+Character-facing Prime knowledge must obey `../04_WORLD_AND_LORE/LIVED_MAGIC_AND_CARD_CONTEXT.md` and `../04_WORLD_AND_LORE/MODERN_KNOWLEDGE_FIREWALL.md`.
+
 ## Standard Cards
 Standard Cards:
 - use one normal selected action;
