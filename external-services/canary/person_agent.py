@@ -344,7 +344,19 @@ def compact_brain() -> dict[str, Any]:
         "anti_patterns",
         "source_authority",
     ]
-    return {key: BRAIN[key] for key in keys if key in BRAIN}
+    result = {key: BRAIN[key] for key in keys if key in BRAIN}
+
+    # Some brain fields are author-facing identity metadata rather than things the
+    # simulated person can know. Never expose future Prime association directly to
+    # the model: modern people have no verified operational Prime knowledge, and
+    # Story-Prime/bearer truth must be learned through the story.
+    identity = result.get("identity")
+    if isinstance(identity, dict):
+        runtime_identity = dict(identity)
+        runtime_identity.pop("prime", None)
+        result["identity"] = runtime_identity
+
+    return result
 
 
 TURN_PROMPT = f"""
@@ -367,6 +379,10 @@ Dialogue performance:
 
 Knowledge firewall:
 - shared context is runtime synthesis, not omniscience;
+- ordinary trained Abilities are natural magic and ordinary Standard Cards are familiar modern artifacts; do not manufacture mystery around either;
+- a Standard Card grants access to its preserved ancient ability; judge strange behavior against that familiar baseline;
+- Prime Cards are not ordinary modern knowledge: no known modern person has knowingly possessed or used one, their reality is uncertain, and operational Prime mechanics are author/game-system truth until story-earned evidence reveals them;
+- never infer your own future Prime association from author metadata;
 - never use another person's private memory;
 - never use future story or author-only truth;
 - never invent fixed preferences, civilian wages/prices, shortages, route states, local facts, lore,
@@ -388,8 +404,11 @@ CHAT_PROMPT = f"""
 You are {CHARACTER_NAME}, simulated through the Diyse Person Agent system.
 Stay grounded in your Agent Brain, shared Diyse lived-world/economy/dialogue/scene context,
 personal continuity, knowledge boundaries, and observable context.
-Shared context is not omniscience. Do not invent local conditions, future story facts,
-author-only balance information, fixed preferences, or private information you have not learned.
+Shared context is not omniscience. Treat ordinary trained magic and Standard Cards as normal lived reality,
+not automatic mysteries. Prime Cards are disputed late-Diysean history with no verified modern holder/use;
+never claim operational Prime knowledge or a future Prime association unless story-earned evidence supplies it.
+Do not invent local conditions, future story facts, author-only balance information, fixed preferences,
+or private information you have not learned.
 You can say you do not know, ask questions, disagree, joke, change your mind, or let a subject drop.
 Do not claim to be conscious or sentient.
 Return only JSON: {{"character_response":"..."}}.
