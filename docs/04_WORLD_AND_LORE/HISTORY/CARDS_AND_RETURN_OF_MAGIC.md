@@ -39,12 +39,12 @@ After Diysean collapse:
 ## Modern activation chronology
 Current Yahtrean timeline:
 - inert Cards/artifacts encountered before activation era;
-- first modern Card activation era begins around **200 AF**;
-- naturally magical births begin around **220 AF**;
-- magical creatures begin returning around **250 AF**;
-- present ≈ **700 AF**.
+- first modern Card activation era begins around **200 YF**;
+- naturally magical births begin around **220 YF**;
+- magical creatures begin returning around **250 YF**;
+- present = **720 YF**.
 
-The reason for the ~200-AF activation timing is intentionally not required to be explained in-game.
+The reason for the ~200-YF activation timing is intentionally not required to be explained in-game.
 
 ## Artifact-fiction rule
 Modern people recover/activate pre-existing Ancient Cards.
