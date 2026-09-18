@@ -47,9 +47,36 @@ Ordinary route/dungeon/wilderness traversal shows Cyanis only as the visible con
   `PRODUCTION/CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
 - **Chapter 1 — COMPLETE CURRENT WORKING PRODUCTION**  
   `PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
-- Chapters 2–13 remain pending/rebuilding according to current story and authoring-status authority.
+- **Chapter 2 — COMPLETE CURRENT WORKING PRODUCTION**  
+  `PRODUCTION/CHAPTER_02/CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+- **Chapter 3 — COMPLETE CURRENT WORKING PRODUCTION**  
+  `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+- Chapters 4–13 remain pending/rebuilding according to current story and authoring-status authority.
 
 `COMPLETE CURRENT WORKING PRODUCTION` means the chapter is assembled end-to-end and is the version to use for implementation and future revision. It remains editable during playtesting; it is not a permanent line lock.
+
+## Current Chapters 0–3 runtime synchronization
+
+The standalone production atomics under `PRODUCTION/CHAPTER_00` through `CHAPTER_03` remain exact spoken-wording authority.
+
+The current game-facing mirror is generated at:
+
+`game/content/dialogue/current/`
+
+Current synchronization contract:
+- **60 canonical current runtime scenes**;
+- **3,440 spoken lines**;
+- generated directly from current production atomics;
+- source and spoken-sequence hashes recorded in `game/content/dialogue/current/manifest.json`;
+- validated in Godot by `tests/dialogue/validate_current_dialogue_resources.gd`;
+- the older sibling `game/content/dialogue/chapter_00` through `chapter_03` S-scene Resources are legacy implementation/proof assets and are not current spoken-wording authority.
+
+Regenerate/check with:
+
+`python tools/dialogue/compile_current_runtime_dialogue.py`  
+`python tools/dialogue/compile_current_runtime_dialogue.py --check`
+
+The Chapters 0–3 read-through is also generated from current atomics. Its player-facing world introduction is owned by `04_WORLD_AND_LORE/PLAYER_FACING_WORLD_INTRO.md`, and its between-beat encounter bridges are guarded against current `09_ENEMIES_AND_ENCOUNTERS` placement authority. Those layers may add reader context but may not alter spoken dialogue.
 
 ## Chapter 0–1 source cleanup
 
