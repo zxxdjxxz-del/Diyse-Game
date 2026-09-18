@@ -60,15 +60,44 @@ Therefore:
 - a Standard Card activation is not automatically a major story event;
 - unusual Card behavior is judged against a strong shared expectation of how normal Cards behave.
 
-## Why Cyanis's recovered Card is strange
+## Cyanis's recovered Card — importance before anomaly
 
-The recovered Card matters early because a familiar category begins violating familiar rules.
+The recovered Card is **not important at the start merely because it is a Card**. Cards are normal modern magical artifacts.
 
-Modern characters already know what ordinary Cards normally do.
+Its opening importance is institutional and logistical:
 
-Therefore unusual evidence includes behavior such as:
-- an effect occurring without a normal deliberate Card use;
-- the Card appearing to track or respond to one person's condition;
+- the **Crown had the Card excavated/recovered** from an ancient site;
+- the Crown specifically ordered that recovered Card transported to **Caelora**;
+- because it is Crown-directed recovered cargo, it receives protected handling and heavier guard;
+- characters may reasonably care about the order, provenance, chain of custody, security, cost, or political consequences without believing the Card itself is uniquely powerful.
+
+### Before the first response
+
+The Card has not activated.
+
+That is strange in the limited practical sense that a recovered Card is expected to have an ability that can be used once functional/understood, but the failure to activate does **not** make it look secretly powerful.
+
+The natural working impression is closer to:
+
+> **the Crown may have spent effort recovering and transporting a Card that is inert, damaged, failed, or simply useless.**
+
+Characters may be frustrated, skeptical, curious, or professionally cautious about that failure. They should not treat nonactivation as proof of hidden importance, chosen-bearer behavior, or Prime identity.
+
+### The first real anomaly
+
+The Card becomes genuinely anomalous only when it **does something to/around Cyanis without ordinary deliberate Card use**.
+
+That first incomplete response changes the question from:
+
+> "Why did the Crown want an inert Card brought to Caelora?"
+
+to:
+
+> "Why did an apparently useless Card just respond around Cyanis in a way normal Cards do not?"
+
+From that point, unusual evidence may include:
+- an effect occurring without normal deliberate Card use;
+- the Card appearing to track or respond to Cyanis's condition;
 - effects that do not match a known ordinary Card ability;
 - persistent state changes without an ordinary explanation;
 - behavior that trained Card specialists cannot classify from normal practice.
