@@ -6,9 +6,14 @@ func _initialize() -> void:
 	call_deferred("_run")
 
 func _run() -> void:
-	GameState.reset_defaults()
-	GameState.current_area = "chapter_00_graybox"
-	GameState.field_position = Vector3(12.5, 0.9, -172.0)
+	var game_state := get_root().get_node_or_null("GameState")
+	if game_state == null:
+		failures.append("GameState autoload is unavailable")
+		_finish()
+		return
+	game_state.call("reset_defaults")
+	game_state.set("current_area", "chapter_00_graybox")
+	game_state.set("field_position", Vector3(12.5, 0.9, -172.0))
 
 	var encounters := DiyseFieldEncounterController.new(7001)
 	encounters.enabled = true
@@ -55,7 +60,7 @@ func _run() -> void:
 		seed,
 		"v2.20-Audit135",
 		runtime_input,
-		GameState,
+		game_state,
 		encounters
 	)
 	_expect((result.get("failures", []) as Array).is_empty(), "valid curated runtime merge must pass")
@@ -125,7 +130,7 @@ func _run() -> void:
 	# Unknown top-level fields cannot use the runtime merge as an authority override channel.
 	var protected_injection := runtime_input.duplicate(true)
 	protected_injection["authority_packet"] = {"fake": true}
-	var protected_result := builder.build_request(seed, "v2.20-Audit135", protected_injection, GameState, encounters)
+	var protected_result := builder.build_request(seed, "v2.20-Audit135", protected_injection, game_state, encounters)
 	_expect(not (protected_result.get("failures", []) as Array).is_empty(), "runtime authority_packet injection must fail")
 
 	# Raw state-container/economy keys are rejected even when nested under an otherwise legal section.
@@ -135,15 +140,15 @@ func _run() -> void:
 		"gold": 999,
 		"inventory": {"Potion": 99},
 	}
-	var raw_state_result := builder.build_request(seed, "v2.20-Audit135", raw_state_injection, GameState, encounters)
+	var raw_state_result := builder.build_request(seed, "v2.20-Audit135", raw_state_injection, game_state, encounters)
 	_expect(not (raw_state_result.get("failures", []) as Array).is_empty(), "raw proof GameState fields must fail runtime validation")
 
-	var stale_snapshot_result := builder.build_request(seed, "v2.21-Audit999", runtime_input, GameState, encounters)
+	var stale_snapshot_result := builder.build_request(seed, "v2.21-Audit999", runtime_input, game_state, encounters)
 	_expect(not (stale_snapshot_result.get("failures", []) as Array).is_empty(), "canon snapshot mismatch must fail")
 
 	var collision_seed := seed.duplicate(true)
 	collision_seed["scene_context"]["runtime_observable"] = {"spoof": true}
-	var collision_result := builder.build_request(collision_seed, "v2.20-Audit135", runtime_input, GameState, encounters)
+	var collision_result := builder.build_request(collision_seed, "v2.20-Audit135", runtime_input, game_state, encounters)
 	_expect(not (collision_result.get("failures", []) as Array).is_empty(), "compiled seed may not pre-populate runtime_observable")
 
 	encounters.queue_free()
