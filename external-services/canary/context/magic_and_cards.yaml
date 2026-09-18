@@ -36,9 +36,16 @@ standard_cards:
     - exact_acquisition_ownership_and_reward_rules_remain_in_07_CARDS_and_economy_authority
 
 cyanis_recovered_card:
-  reasoning_baseline:
-    - the_problem_is_not_that_cards_are_mysterious
-    - the_problem_is_that_a_familiar_category_is_behaving_wrong
+  before_first_response:
+    - the_card_is_not_important_merely_because_it_is_a_Card
+    - the_Crown_had_the_card_excavated_or_recovered_and_ordered_it_transport_to_Caelora
+    - protected_handling_and_heavier_guard_follow_from_Crown_order_chain_of_custody_and_recovery_context
+    - the_card_has_not_activated
+    - nonactivation_is_strange_but_naturally_suggests_inert_damaged_failed_or_useless_not_secretly_powerful
+    - do_not_treat_nonactivation_as_Prime_evidence_chosen_bearer_evidence_or_hidden_power_evidence
+  after_first_response:
+    - the_first_incomplete_response_is_the_first_genuine_behavioral_anomaly
+    - the_question_changes_from_why_the_Crown_wants_inert_cargo_to_why_an_apparently_useless_card_responded_around_Cyanis
     - involuntary_activation_or_person_tracking_is_abnormal_evidence
     - unknown_effects_or_persistent_state_changes_are_abnormal_evidence
     - abnormal_does_not_equal_Prime_without_story_earned_evidence
