@@ -12,6 +12,18 @@ on:
       - 'game/content/dialogue/current/**'
       - 'game/dialogue/current_dialogue_catalog.gd'
       - 'tests/dialogue/validate_current_dialogue_resources.gd'
+      - 'tests/dialogue/test_agent_magic_card_context.py'
+      - 'external-services/canary/context/magic_and_cards.yaml'
+      - 'external-services/canary/person_agent.py'
+      - 'external-services/canary/scene_orchestrator.py'
+      - 'external-services/canary/README.md'
+      - 'docs/04_WORLD_AND_LORE/LIVED_MAGIC_AND_CARD_CONTEXT.md'
+      - 'docs/04_WORLD_AND_LORE/MODERN_KNOWLEDGE_FIREWALL.md'
+      - 'docs/04_WORLD_AND_LORE/LIVED_WORLD_SOCIAL_CONTEXT.md'
+      - 'docs/04_WORLD_AND_LORE/HISTORY/CARDS_AND_RETURN_OF_MAGIC.md'
+      - 'docs/06_CLASSES_AND_ABILITIES/ABILITY_RULES.md'
+      - 'docs/07_CARDS/CARD_SYSTEM_MASTER.md'
+      - 'docs/07_CARDS/CARD_ACQUISITION.md'
       - '.github/workflows/dialogue-runtime-smoke.yml'
   workflow_dispatch:
 
@@ -21,6 +33,9 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+      - name: Validate Agent lived magic and Prime knowledge firewall
+        run: python3 tests/dialogue/test_agent_magic_card_context.py
 
       - name: Verify generated current dialogue mirror
         run: python3 tools/dialogue/compile_current_runtime_dialogue.py --check
