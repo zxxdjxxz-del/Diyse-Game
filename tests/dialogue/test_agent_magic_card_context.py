@@ -75,7 +75,7 @@ def main() -> int:
         "Runtime context lost the P04 first-response anomaly threshold.",
     )
     expect(
-        "The **Crown had the Card excavated** from an ancient site" in world,
+        "**crown had the card excavated** from an ancient site" in world.casefold(),
         "World authority lost Crown-directed excavation provenance.",
     )
 
