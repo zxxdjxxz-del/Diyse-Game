@@ -27,6 +27,9 @@ jobs:
       - name: Import project headlessly
         run: godot --headless --path . --editor --quit
 
+      - name: Validate player-facing Nimera world intro
+        run: godot --headless --path . --script tests/presentation/validate_world_intro.gd
+
       - name: Run Audit88 HD-2D runtime contract validation
         run: godot --headless --path . --script tests/presentation/validate_hd2d_runtime.gd
 
