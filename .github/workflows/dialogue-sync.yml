@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'tools/dialogue/sync_current_dialogue.py'
+      - 'tools/dialogue/compile_current_runtime_dialogue.py'
       - 'tools/dialogue/clean_exact_dialogue_reader.py'
       - 'tools/dialogue/finalize_exact_dialogue_reader.py'
       - 'tools/dialogue/polish_exact_dialogue_reader_story.py'
@@ -47,6 +48,12 @@ jobs:
       - name: Synchronize combined manuscripts and reader
         run: python tools/dialogue/sync_current_dialogue.py
 
+      - name: Compile current Godot runtime dialogue mirror
+        run: python tools/dialogue/compile_current_runtime_dialogue.py
+
+      - name: Verify current Godot runtime dialogue mirror
+        run: python tools/dialogue/compile_current_runtime_dialogue.py --check
+
       - name: Clean reader presentation
         run: python tools/dialogue/clean_exact_dialogue_reader.py
 
@@ -84,11 +91,12 @@ jobs:
             docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md \
             docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md \
             docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md \
-            docs/03_DIALOGUE/DIALOGUE_MASTER_INDEX.md
+            docs/03_DIALOGUE/DIALOGUE_MASTER_INDEX.md \
+            game/content/dialogue/current
           if git diff --cached --quiet; then
             echo "No synchronized text changes to commit."
           else
-            git commit -m "Synchronize Chapters 0-3 dialogue manuscripts"
+            git commit -m "Synchronize Chapters 0-3 dialogue and runtime mirror"
             git push origin HEAD:main
           fi
 
