@@ -1,0 +1,37 @@
+name: Current Dialogue Runtime Validation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/**'
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/**'
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/**'
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/**'
+      - 'tools/dialogue/compile_current_runtime_dialogue.py'
+      - 'game/content/dialogue/current/**'
+      - 'game/dialogue/current_dialogue_catalog.gd'
+      - 'tests/dialogue/validate_current_dialogue_resources.gd'
+      - '.github/workflows/dialogue-runtime-smoke.yml'
+  workflow_dispatch:
+
+jobs:
+  current-dialogue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Verify generated current dialogue mirror
+        run: python3 tools/dialogue/compile_current_runtime_dialogue.py --check
+
+      - name: Set up Godot 4.7.1
+        uses: lihop/setup-godot@v3
+        with:
+          version: 4.7.1-stable
+
+      - name: Import project headlessly
+        run: godot --headless --path . --editor --quit
+
+      - name: Validate current Chapters 0-3 dialogue Resources
+        run: godot --headless --path . --script tests/dialogue/validate_current_dialogue_resources.gd
