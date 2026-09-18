@@ -115,8 +115,8 @@ def main() -> int:
             "text": "I bet you use that cape to sneak up on the goats you fuck.",
             "required": True,
             "source": {
-                "path": "docs/03_DIALOGUE/DIALOGUE_MASTER_INDEX.md",
-                "sections": ["Current exact-anchor examples"],
+                "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md",
+                "whole_file": True,
                 "role": "current_exact_anchor"
             }
         }
