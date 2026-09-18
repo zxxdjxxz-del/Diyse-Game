@@ -7,7 +7,6 @@ The reader consumes it directly; the game consumes the generated JSON.
 from __future__ import annotations
 
 import argparse
-import hashlib
 import json
 from pathlib import Path
 
@@ -45,7 +44,6 @@ def extract_intro() -> dict:
     return {
         "schema": "diyse_player_facing_world_intro_v1",
         "source_path": "docs/04_WORLD_AND_LORE/PLAYER_FACING_WORLD_INTRO.md",
-        "source_sha256": hashlib.sha256(raw.encode("utf-8")).hexdigest(),
         "title": "The World of Diyse",
         "speaker_id": "nimera",
         "speaker_name": "Nimera Pellan",
