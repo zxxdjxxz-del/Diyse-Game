@@ -35,7 +35,7 @@ func _load_intro() -> void:
 	var paragraphs: Array[String] = []
 	for value in paragraph_value:
 		paragraphs.append(str(value))
-	body_label.text = "\n\n".join(paragraphs)
+	body_label.text = "\n\n".join(PackedStringArray(paragraphs))
 	body_label.scroll_to_line(0)
 
 func _unhandled_input(event: InputEvent) -> void:
