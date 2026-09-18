@@ -22,7 +22,7 @@ This story begins in **Yahtrea**, a kingdom already at war. The **Black Host** i
 
 Ancient ruins are old. Cards are known. Magic is not a surprise.
 
-One recently excavated Card is being carried under guard toward **Caelora** because the Crown ordered it brought there.
+The Crown recently had one Card excavated and ordered it brought under guard to **Caelora**.
 
 It has not activated.
 
