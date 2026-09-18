@@ -17,7 +17,7 @@ Every authored scene is built from the full Diyse scene stack:
 That craft layer is combined with:
 - current story/canon/reveal authority;
 - persistent character brains and relationship state;
-- lived-world and lived-economy context;
+- lived-world, lived-magic/Card, and lived-economy context;
 - the actual map cell / area phase / traversal state in which the scene occurs;
 - recent combat pressure, recovery, fatigue, and what the player has just physically done;
 - the current HD-2D visual/staging grammar and production budget;
@@ -48,7 +48,7 @@ Canonical routing:
 - character identity, biography, personality, values, relationship logic, life habits → `../../01_CHARACTERS/`
 - story position, required events, reveal timing, who is present/knows what → `../../02_STORY/`
 - spoken-dialogue craft, exact line anchors, scene outputs → `../`
-- geography, world history, modern-knowledge firewall, lived-world pressure → `../../04_WORLD_AND_LORE/`
+- geography, world history, modern-knowledge firewall, lived-world pressure, and lived magic/Card normality → `../../04_WORLD_AND_LORE/`
 - class/Ability expertise boundaries → `../../06_CLASSES_AND_ABILITIES/`
 - Cards/Primes/Faces → `../../07_CARDS/`
 - equipment identity → `../../08_ITEMS_AND_EQUIPMENT/`
@@ -140,6 +140,8 @@ The scene type changes acceptable line density, body movement, interruption risk
 
 Agents must never use:
 - future story reveals;
+- author-only Story-Prime association before the character legitimately learns it;
+- player/system Prime mechanics as character knowledge before story-earned discovery;
 - another character's private memory;
 - author-only truth not yet discovered;
 - subclass expertise before the current story unlock allows it;
@@ -147,6 +149,26 @@ Agents must never use:
 - stale names/Face/class/currency terminology from historical sources.
 
 Agents may be wrong when a wrong belief is plausible from their evidence.
+
+## Lived magic / Card requirement
+
+The Agent Brain must inhabit the magical baseline of the setting rather than merely know its mechanics.
+
+Hard runtime assumptions:
+- ordinary trained Abilities are natural personal magic and should feel normal to modern people;
+- Standard Cards are familiar Ancient Diysean artifacts that grant their holder/user access to the preserved ancient ability;
+- ordinary Standard Card ownership/use is not chosen-one behavior and does not automatically create mystery;
+- unusual Card behavior should be recognized as a violation of familiar Card expectations;
+- Prime Cards are the exception: no known modern person has knowingly possessed or used one, surviving late-Diysean references are extremely sparse, their reality is uncertain to most people, and their actual function is unknown;
+- operational Prime mechanics and Story-Prime bearer assignments are author/game-system truth until story evidence reveals them.
+
+The runtime service therefore redacts author-only Prime-association metadata from character-facing Person-Agent inputs.
+
+See:
+- `../../04_WORLD_AND_LORE/LIVED_MAGIC_AND_CARD_CONTEXT.md`
+- `../../04_WORLD_AND_LORE/MODERN_KNOWLEDGE_FIREWALL.md`
+- `../../06_CLASSES_AND_ABILITIES/ABILITY_RULES.md`
+- `../../07_CARDS/CARD_SYSTEM_MASTER.md`
 
 ## Lived-world requirement
 
@@ -264,7 +286,7 @@ The current external service lives at:
 
 Its `brains/` and shared `context/` files are deployment/runtime synthesis only. They should identify their source-authority paths so stale runtime data can be audited quickly.
 
-The service should receive shared world/economy/dialogue-life/scene-construction context in addition to the character brain, personal memory/state, and observable scene payload.
+The service should receive shared world/magic-and-Cards/economy/dialogue-life/scene-construction context in addition to the character brain, personal memory/state, and observable scene payload.
 
 ## Commit rule
 
