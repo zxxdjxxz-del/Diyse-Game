@@ -13,6 +13,8 @@ on:
       - 'tools/dialogue/polish_exact_dialogue_reader_story.py'
       - 'tools/dialogue/normalize_exact_dialogue_reader_headings.py'
       - 'tools/dialogue/enrich_exact_dialogue_reader_gameplay.py'
+      - 'tools/dialogue/sync_player_facing_world_intro.py'
+      - 'game/content/presentation/player_facing_world_intro.json'
       - 'docs/04_WORLD_AND_LORE/PLAYER_FACING_WORLD_INTRO.md'
       - 'tools/dialogue/repair_exact_dialogue_reader_layout.py'
       - '.github/workflows/dialogue-sync.yml'
@@ -45,6 +47,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      - name: Validate game world-intro runtime sync
+        run: python tools/dialogue/sync_player_facing_world_intro.py --check
 
       - name: Install reader dependency
         run: python -m pip install --disable-pip-version-check python-docx

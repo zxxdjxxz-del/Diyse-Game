@@ -1,31 +1,763 @@
 # DIYSE — Player-Facing World Introduction
 
-**Status:** CURRENT PLAYER-FACING OPENING CONTEXT
+**Status:** CURRENT LOCKED PLAYER/GAME OPENING INTRO
 
-**Purpose:** This is the spoiler-safe world introduction shown before Chapter 0 in the Chapters 0–3 story/gameplay read-through and available for the eventual game opening presentation.
+**Purpose:** This is the exact spoiler-safe world introduction shown before Chapter 0 in the Chapters 0–3 story/gameplay reader and in the game opening presentation.
+
+**Voice authority:** Nimera Pellan. Preserve the wording, profanity, self-corrections, and sign-off exactly unless explicitly revised.
 
 **Authority boundary:** World/history facts remain owned by `04_WORLD_AND_LORE`; story sequence remains owned by `02_STORY`; this introduction must not reveal hidden ancient systems, the Entity, the true Last Weapon, Prime identity, or Cyanis's later Card significance.
 
 ## The World of Diyse
 
-The world is called **Diyse**.
+Right.
 
-Thousands of years ago, the people now called the ancient Diyseans vanished. Their ruins remain across the modern world—on the surface, beneath newer cities, and in places no one has fully understood.
+Diyse.
 
-Some of what they left behind still works.
+Fuck, where do you even start with that?
 
-**Cards** are the most familiar example. Ordinary Cards can be found and used, and magic is a normal part of modern life. People build careers, institutions, weapons, medicine, travel, and everyday expectations around a world in which magic exists.
+No. Actually, that's easy.
 
-Modern nations rose long after the Diyseans were gone.
+**720 YF.**
 
-This story begins in **Yahtrea**, a kingdom already at war. The **Black Host** is invading Yahtrean territory, roads are becoming less reliable, and military and civilian movement increasingly share the same dangerous ground.
+Start with now.
 
-Ancient ruins are old. Cards are known. Magic is not a surprise.
+We're in 720 YF—Years since the Founding of Yahtrea. Yahtren founded the kingdom seven hundred and twenty years ago, and somebody eventually decided that was a convenient place to start numbering years.
 
-The Crown recently had one Card excavated and ordered it brought under guard to **Caelora**.
+Which is very Yahtrean.
 
-It has not activated.
+“We founded a kingdom. Start the clock.”
 
-For now, that makes it look less like a hidden wonder than a frustrating possibility: the Crown may have gone to considerable trouble for a Card that simply does not work.
+Not literally.
 
-**Cards still work exactly as people expect them to. Usually.**
+Obviously.
+
+Fuck, see, that's exactly how bad historical claims happen.
+
+Somebody hears that sentence without the joke and three generations later there's a school text claiming ancient Yahtreans believed Yahtren invented time.
+
+So.
+
+**Calendar starts with Yahtrea. World does not.**
+
+Good.
+
+Diyse is much older than that.
+
+Before Yahtrea, before most of the countries and borders we'd recognize now, there were the ancient **Diyseans**.
+
+And yes.
+
+Diyse is the world.
+
+They were Diyseans.
+
+We're not all called Diyseans now.
+
+I can't fucking help you.
+
+Anyway.
+
+They were human.
+
+I know that sounds obvious.
+
+It apparently isn't.
+
+People get weird about old civilizations. Give someone enough centuries and suddenly everybody back then was seven feet tall, spoke exclusively in prophecy, and spent their evenings constructing impossible towers.
+
+No.
+
+They were people.
+
+Very advanced people, yes. People who understood things we don't and could build things we still can't properly reproduce.
+
+Still people.
+
+They argued.
+
+Made mistakes.
+
+Slept with people they probably shouldn't have.
+
+Changed designs.
+
+Disagreed.
+
+Left contradictory records.
+
+Occasionally one of them was clearly just fucking wrong.
+
+Which is reassuring, actually.
+
+Humanity has continuity.
+
+The Diyseans seem to have considered themselves one civilization.
+
+And before you do the thing—
+
+No, that does **not** mean everyone was the same.
+
+Different regions. Different customs. Different local identities. Probably different political arrangements depending on where and when you're looking.
+
+The evidence varies.
+
+What matters is that their world was connected in ways ours isn't.
+
+Roads.
+
+Cities.
+
+Networks.
+
+Archives.
+
+Machines.
+
+Transportation.
+
+Communication.
+
+Infrastructure.
+
+And magic.
+
+A fucking lot of magic.
+
+And their magic wasn't some alien ancient version of what people use now.
+
+If somebody can throw fire today?
+
+A Diysean could throw fire.
+
+Healing. Protection. Elements. Personal abilities.
+
+Same world.
+
+Same magic.
+
+The difference was **understanding**.
+
+We use magic now.
+
+We train it.
+
+Build techniques around it.
+
+Use it in combat, medicine, trades, whatever someone is actually capable of doing.
+
+The Diyseans did that too.
+
+But they also knew how to integrate magic into machinery, cities, transport, communication—entire systems.
+
+Some of those systems still work.
+
+Which is impressive.
+
+Also deeply fucking irritating when the machine survived and the instructions didn't.
+
+Imagine finding a mechanism that still functions after centuries and the manual is six fragments, two mistranslations, and some scholar from three hundred years ago insisting the third button is ceremonial.
+
+Why ceremonial?
+
+Because he pressed it and nothing happened.
+
+Brilliant.
+
+Anyway.
+
+At some point, the Diysean civilization ended.
+
+And if you're expecting me to tell you exactly why—
+
+No.
+
+We don't know.
+
+We know **parts**.
+
+Ruins. Records. Artifacts. Physical evidence. Later accounts. Patterns.
+
+And theories built from those things.
+
+Some are good.
+
+Some are bullshit.
+
+Some were good until somebody dug up one extremely inconvenient building.
+
+That's one of my favorite things archaeology does.
+
+You can argue with another scholar.
+
+You can't argue with a wall.
+
+Well.
+
+You can.
+
+People have.
+
+You look ridiculous.
+
+Whatever happened, the Diysean civilization disappeared.
+
+Humanity didn't.
+
+People survived.
+
+Communities survived.
+
+New cultures developed.
+
+Eventually new states and kingdoms formed.
+
+But **natural magic** disappeared.
+
+The Diyseans could develop magical abilities themselves.
+
+After them?
+
+People couldn't.
+
+Not for centuries.
+
+There were still ancient ruins.
+
+Still Diysean artifacts.
+
+Still machines nobody understood.
+
+Still Cards somewhere in the world.
+
+But people themselves were not developing magic anymore.
+
+Then around **200 YF**, things changed.
+
+That's the period we call the **Awakening**.
+
+And “around” matters.
+
+Don't go looking for one particular morning in 200 YF where everybody suddenly shouted, “Oh shit, the Awakening has begun.”
+
+The name comes afterward.
+
+Actual people experience twenty confusing things across years.
+
+Historians arrive later and put a box around them.
+
+Very convenient for us.
+
+Probably irritating for them.
+
+Around that period, increasing numbers of ancient **Cards** began appearing in the historical record.
+
+Some were newly recovered.
+
+Some may already have been in private hands.
+
+Some had provenance so fucking bad that you get things like:
+
+“My family has owned this for five generations.”
+
+Where did it come from?
+
+“A ruin.”
+
+Which ruin?
+
+“North.”
+
+North where?
+
+“North.”
+
+Excellent.
+
+Thank you.
+
+Wonderful recordkeeping.
+
+But the important part is that people discovered they could **use the abilities inside the Cards**.
+
+That's the change.
+
+A Card contained a magical ability.
+
+A person with no natural magic of their own could access it.
+
+Use it.
+
+Actually perform magic.
+
+Think about how enormous that must have been.
+
+For centuries, magic belonged to the dead past.
+
+Then someone realizes the ancient object they're holding contains an ability that will actually answer them.
+
+Then another Card turns up.
+
+Then another.
+
+More abilities.
+
+More people learning to use them.
+
+More scholars studying them.
+
+More governments realizing, “Oh, fuck, this matters.”
+
+Of course society changes.
+
+Combat.
+
+Medicine.
+
+Travel.
+
+Labor.
+
+Trade.
+
+Politics.
+
+Everything starts touching everything else.
+
+Then, sometime **after the Awakening**, people began developing magic **naturally** again.
+
+No Card.
+
+No artifact.
+
+Just a person developing an ability of their own.
+
+For the first time since the ancient Diyseans.
+
+And yes.
+
+Obviously everyone noticed the sequence.
+
+Natural magic disappears.
+
+Around 200 YF, humans begin accessing magic preserved inside ancient Cards.
+
+Afterward, natural magic starts appearing in people again.
+
+That's not subtle.
+
+But sequence is not explanation.
+
+Did Card use cause natural magic to return?
+
+Maybe.
+
+Did whatever made Cards usable also make natural magic possible?
+
+Maybe.
+
+Were both consequences of something else entirely?
+
+Also maybe.
+
+We don't fucking know.
+
+Not fully.
+
+And I have theories.
+
+Obviously I have theories.
+
+What kind of useless bastard studies this for years and doesn't have theories?
+
+But wanting an answer and having one are different things.
+
+So now, in **720 YF**, natural magic is normal again.
+
+People develop abilities.
+
+They train them.
+
+Use them professionally.
+
+Use them in combat.
+
+Use them to heal.
+
+And people use Cards too.
+
+Those are separate things.
+
+A person's natural ability belongs to them.
+
+A Card gives access to the ability preserved inside that Card.
+
+Same person can use both.
+
+So someone throwing fire across a battlefield today isn't displaying some forgotten ancient miracle.
+
+They're throwing fucking fire.
+
+The interesting part is that humanity went centuries unable to do that.
+
+Then magic returned through Cards.
+
+Then through people.
+
+And we still don't completely understand why.
+
+Now—
+
+Yahtrea.
+
+Modern kingdoms exist among what the Diyseans left behind.
+
+And I mean that literally.
+
+The ancient world isn't one dramatic ruin at the edge of the map.
+
+We're standing on the fucking thing.
+
+Modern roads follow older routes.
+
+Settlements grew around ancient structures.
+
+Buildings sit on Diysean foundations.
+
+People discover sealed spaces underneath places their families have occupied for generations.
+
+Some ancient systems still function.
+
+Some don't.
+
+Some function in ways we understand.
+
+Some function because somebody discovered:
+
+“If you touch this, that opens.”
+
+And apparently that was enough.
+
+Which I used to think was unbelievably reckless.
+
+Then I thought about actual people instead of scholars.
+
+If your village is freezing and an ancient machine produces heat when you move a lever, you're going to move the fucking lever.
+
+You're not going to say:
+
+“No, everyone remain cold until a qualified historian has established the manufacturer's intent.”
+
+So.
+
+Fine.
+
+Still horrifying.
+
+But fine.
+
+**Caelora** is the largest obvious example.
+
+Capital of Yahtrea.
+
+Built over the remains of an ancient Diysean capital.
+
+Yes.
+
+Capital over capital.
+
+People love that fact because it sounds meaningful.
+
+“Humanity returning to the ancient seat of civilization.”
+
+“History circling back.”
+
+Fucking poetry.
+
+Could also be that the location is useful.
+
+Good geography has a habit of remaining good geography.
+
+That's less romantic.
+
+Probably more important.
+
+Although those aren't mutually exclusive.
+
+Shit.
+
+See?
+
+Everything branches.
+
+But that's modern Diyse.
+
+People live among ancient structures so constantly that something can be historically extraordinary and still just be part of somebody's commute.
+
+Someone sees a Diysean wall every morning on the way to work and doesn't stop to contemplate the weight of history.
+
+They're late.
+
+The wall is in the way.
+
+That's real.
+
+That's what I like.
+
+You can have some priceless ancient structure incorporated into a building and eventually somebody's putting a fucking basket beside it because that's where the basket fits.
+
+Scholars hate that.
+
+I—
+
+Actually, I love it.
+
+Not damage.
+
+Don't damage anything.
+
+I'll kill you.
+
+Figuratively.
+
+Mostly.
+
+But ordinary use?
+
+That's history too.
+
+People don't live inside museums.
+
+They live in the world they've got.
+
+And ours happens to have another civilization woven through it.
+
+Then there's the record itself.
+
+Which is a nightmare.
+
+A beautiful nightmare.
+
+But still.
+
+Fragments.
+
+Copies.
+
+Translations of copies.
+
+Official records written to flatter rulers.
+
+Personal records written by people with grudges.
+
+Inventory lists.
+
+Contracts.
+
+Letters.
+
+Graffiti.
+
+Broken inscriptions.
+
+Things preserved deliberately.
+
+Things preserved completely by accident.
+
+And things probably sitting under somebody's fucking barn right now.
+
+That's why I care about wording.
+
+If I say **recorded**, I mean recorded.
+
+If I say **likely**, I mean likely.
+
+If I say **possible**, I mean possible.
+
+If I say **I don't know**, that's not an invitation for you to finish the sentence for me.
+
+One person writes *possibly*.
+
+The next writes *probably*.
+
+Someone else summarizes that as *scholars believe*.
+
+A century later the footnote disappears.
+
+Then some smug bastard tells you:
+
+“Everyone knows this.”
+
+No.
+
+Everyone **repeated** this.
+
+Show me where it came from.
+
+Different thing.
+
+And history isn't only kings and wars.
+
+Those matter.
+
+Obviously.
+
+But give me the ordinary records too.
+
+What did people eat?
+
+What did things cost?
+
+How long did journeys actually take?
+
+Who repaired the roof?
+
+What did people complain about?
+
+What jokes survived?
+
+Did a Diysean shopkeeper also look personally offended when someone walked in just before closing?
+
+Probably.
+
+Can't prove it.
+
+Yet.
+
+That's the good shit.
+
+Because that's when the Diyseans stop being “the Ancients.”
+
+They become people.
+
+People who happened to understand magic well enough to build things we're still trying to understand centuries later.
+
+That's much more interesting than gods.
+
+Gods are easy.
+
+People are complicated.
+
+And if you make the Diyseans perfect, you stop asking useful questions.
+
+They repaired things.
+
+Revised things.
+
+Abandoned approaches.
+
+Disagreed in their own records.
+
+They didn't have every answer.
+
+They just had **more answers than we do**.
+
+Different fucking problem.
+
+And that's really what I want to know.
+
+What did they understand?
+
+What did they get wrong?
+
+What happened to them?
+
+Why did natural magic disappear?
+
+Why did Cards become usable around 200 YF?
+
+Why did natural magic return afterward?
+
+Were those things connected?
+
+What are we still missing?
+
+That's the interesting part.
+
+...
+
+Well.
+
+That's the interesting part **to me**.
+
+Diyse is everything else too.
+
+People living now.
+
+Yahtrea.
+
+Other kingdoms.
+
+Roads.
+
+Forests.
+
+Cities.
+
+Wars.
+
+Families.
+
+People who don't give a single fuck about ancient archaeology and are perfectly happy that way.
+
+Which—
+
+Honestly, healthier.
+
+But we're all living inside the consequences of what came before whether we study it or not.
+
+So.
+
+Shortest version.
+
+**720 YF.**
+
+Yahtrea has existed for seven hundred and twenty years.
+
+Ancient Diyse is far older.
+
+The Diyseans once formed a civilization spanning the world.
+
+They possessed natural magic and understood how to integrate it into technology and infrastructure far beyond what we can do now.
+
+Their civilization ended.
+
+Humanity survived.
+
+Natural magic disappeared.
+
+Around **200 YF**, ancient Cards were being recovered in greater numbers and people discovered they could use the magical abilities preserved inside them.
+
+Afterward, people began developing natural magical abilities themselves again.
+
+Now people use both natural magic and Cards.
+
+Modern civilizations live among the remains of the old one.
+
+Caelora itself stands over an ancient Diysean capital.
+
+And we know enough about the past to understand that there's still a fucking lot we don't know.
+
+...
+
+There.
+
+Introduction.
+
+I even got back to the original question.
+
+Eventually.
+
+That's better than usual.
+
+—**Nimera Pellan**
+
+And before anyone copies this into something official:
+
+*Probably* means probably.
+
+*Possible* means possible.
+
+And “Nimera said so” is not a fucking citation.
+
+If I catch you using it as one, we're going to have a conversation.

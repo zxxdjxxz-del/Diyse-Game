@@ -16,6 +16,9 @@ jobs:
       - name: Run Dialogue Engine scene authority compiler validation
         run: python3 tests/dialogue/test_scene_authority_compiler.py
 
+      - name: Validate player-facing world intro runtime sync
+        run: python3 tools/dialogue/sync_player_facing_world_intro.py --check
+
       - name: Set up Godot 4.7.1
         uses: lihop/setup-godot@v3
         with:
@@ -26,6 +29,9 @@ jobs:
 
       - name: Import project headlessly
         run: godot --headless --path . --editor --quit
+
+      - name: Validate player-facing Nimera world intro
+        run: godot --headless --path . --script tests/presentation/validate_world_intro.gd
 
       - name: Run Audit88 HD-2D runtime contract validation
         run: godot --headless --path . --script tests/presentation/validate_hd2d_runtime.gd

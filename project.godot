@@ -6,7 +6,7 @@ config_version=5
 [application]
 
 config/name="Diyse"
-run/main_scene="res://game/exploration/field_proof.tscn"
+run/main_scene="res://game/presentation/world_intro.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
 [autoload]
