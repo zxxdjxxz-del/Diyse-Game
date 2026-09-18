@@ -6,9 +6,14 @@ func _initialize() -> void:
 	call_deferred("_run")
 
 func _run() -> void:
-	GameState.reset_defaults()
-	GameState.current_area = "chapter_00_graybox"
-	GameState.field_position = Vector3(1.0, 0.9, -330.0)
+	var game_state := get_root().get_node_or_null("GameState")
+	if game_state == null:
+		failures.append("GameState autoload is unavailable")
+		_finish()
+		return
+	game_state.call("reset_defaults")
+	game_state.set("current_area", "chapter_00_graybox")
+	game_state.set("field_position", Vector3(1.0, 0.9, -330.0))
 
 	var provider := DiyseDialogueMapContextProvider.new()
 	get_root().add_child(provider)
@@ -55,7 +60,7 @@ func _run() -> void:
 			"input_locked": false,
 			"interaction_kind": "field_story_beat",
 		},
-		GameState,
+		game_state,
 		encounters
 	)
 	_expect((assembled.get("failures", []) as Array).is_empty(), "valid assembled scene request must pass")
@@ -83,7 +88,7 @@ func _run() -> void:
 		null,
 		{},
 		{},
-		GameState,
+		game_state,
 		encounters
 	)
 	_expect((no_map.get("failures", []) as Array).is_empty(), "map provider should be optional for non-map scenes")
@@ -103,7 +108,7 @@ func _run() -> void:
 		bad_provider,
 		{},
 		{},
-		GameState,
+		game_state,
 		encounters
 	)
 	_expect(not (bad.get("failures", []) as Array).is_empty(), "provider without contract method must fail")
