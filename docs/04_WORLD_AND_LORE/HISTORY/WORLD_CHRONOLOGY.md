@@ -21,12 +21,12 @@
 ## Modern Yahtrean era
 | Date | Event |
 |---:|---|
-| 0 AF | King Yahtren founds Yahtrea |
-| early AF | Caelora founded/named for Yahtren's wife; ancient capital site becomes modern capital |
-| ~200 AF | first modern Card activation era |
-| ~220 AF | naturally magical births begin |
-| ~250 AF | magical creatures begin returning |
-| ~700 AF | present story |
+| 0 YF | King Yahtren founds Yahtrea |
+| early YF | Caelora founded/named for Yahtren's wife; ancient capital site becomes modern capital |
+| ~200 YF | first modern Card activation era |
+| ~220 YF | naturally magical births begin |
+| ~250 YF | magical creatures begin returning |
+| 720 YF | present story |
 
 ## Approximation rule
 These dates are broad historical anchors, not a demand to date every war, reign, settlement, or archaeological discovery to the year.
