@@ -59,6 +59,26 @@ def main() -> int:
         "Runtime context lost operational Prime ignorance.",
     )
 
+    # Chapter 0 opening Card significance must remain ordered correctly:
+    # Crown-directed excavation/transport first; apparent uselessness second;
+    # genuine Card anomaly only when it responds around Cyanis.
+    expect(
+        "the_Crown_had_the_card_excavated_and_ordered_it_transport_to_Caelora" in context,
+        "Runtime context lost Crown-directed excavation/transport of the opening Card.",
+    )
+    expect(
+        "nonactivation_is_strange_but_naturally_suggests_inert_damaged_failed_or_useless_not_secretly_powerful" in context,
+        "Runtime context incorrectly treats initial Card nonactivation as hidden power.",
+    )
+    expect(
+        "the_first_incomplete_response_is_the_first_genuine_behavioral_anomaly" in context,
+        "Runtime context lost the P04 first-response anomaly threshold.",
+    )
+    expect(
+        "The **Crown had the Card excavated** from an ancient site" in world,
+        "World authority lost Crown-directed excavation provenance.",
+    )
+
     # Persistent Person Agents must not see author-only Story Prime assignment.
     expect(
         'runtime_identity.pop("prime", None)' in person_agent,
