@@ -78,4 +78,4 @@ agent_reasoning_check:
   - is_this_a_standard_card_doing_a_known_card_thing_then_do_not_manufacture_mystery
   - if_card_behavior_is_abnormal_name_the_specific_violation_not_a_generic_ancient_mystery
   - only_invoke_the_Prime_category_when_story_position_and_evidence_support_it
-  - expertise_permitsa_better_question_not_future_knowledge
+  - expertise_permits_a_better_question_not_future_knowledge
