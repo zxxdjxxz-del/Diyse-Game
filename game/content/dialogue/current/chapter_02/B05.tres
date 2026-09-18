@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="DiyseDialogueSceneDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/dialogue/dialogue_scene_definition.gd" id="1_scene"]
+
+[resource]
+script = ExtResource("1_scene")
+schema_version = 1
+scene_id = "CH02_B05_SUNKEN_ARCHIVE_ENTRANCE"
+chapter_id = "chapter_02"
+scene_kind = "mandatory"
+location_id = "LOC_SUNKEN_ARCHIVE_ENTRANCE"
+trigger_id = "trigger.chapter_02.b05"
+completion_flag = "scene.ch02_b05.complete"
+participants = Array[String](["cyanis", "torren", "maevra", "ilyra"])
+story_position = "Chapter 2 — B05 — Sunken Archive Entrance"
+scene_mode = "full_authored_stop_scene"
+movement_lock = true
+dialogue_readiness = "GREEN"
+production_cost_tier = "economical"
+encounter_policy = {"during_scene": "temporarily_suppress_trigger", "after_scene": "restore_prior_pressure"}
+return_to_gameplay = {"control_mode": "exploration"}
+cutscene_tier = "C0"
+vfx_tier = "V1"
+authoring_notes = "CURRENT runtime dialogue compiled from docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md. docs/03_DIALOGUE/PRODUCTION is exact spoken-wording authority; legacy S001-S021 Resources are not source authority. Source SHA-256: 80b0117358c99c2a84ba852084e1423ec889bc318a39c43b1756d8cd291f5d90. Spoken-sequence SHA-256: 9295c48cadee1b839520c7809fead13a2046c69eee5c377f16bcda3ccfab3c04. Spoken lines: 13."
+beats = [
+{"beat_id": "CH02_B05_L0001", "speaker_id": "cyanis", "text": "Well. That's not plumbing.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[THE THRESHOLD]", "source_speaker_label": "CYANIS", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md", "source_line": 16}},
+{"beat_id": "CH02_B05_L0002", "speaker_id": "torren", "text": "No.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[THE THRESHOLD]", "source_speaker_label": "TORREN", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md", "source_line": 18}},
+{"beat_id": "CH02_B05_L0003", "speaker_id": "maevra", "text": "Strong start.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[THE THRESHOLD]", "source_speaker_label": "MAEVRA", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md", "source_line": 20}},
+{"beat_id": "CH02_B05_L0004", "speaker_id": "ilyra", "text": "This is organized. Repeating recesses, protected niches. They were keeping something here.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[THE THRESHOLD]", "source_speaker_label": "ILYRA", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md", "source_line": 24}},
+{"beat_id": "CH02_B05_L0005", "speaker_id": "cyanis", "text": "Records?", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[THE THRESHOLD]", "source_speaker_label": "CYANIS", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md", "source_line": 26}},
+{"beat_id": "CH02_B05_L0006", "speaker_id": "ilyra", "text": "Could be. I don't have enough to name it yet.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[THE THRESHOLD]", "source_speaker_label": "ILYRA", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md", "source_line": 28}},
+{"beat_id": "CH02_B05_L0007", "speaker_id": "torren", "text": "Water came later. Place wasn't built for this much of it; the damage cuts across the layout instead of following it.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[THE THRESHOLD]", "source_speaker_label": "TORREN", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md", "source_line": 32}},
+{"beat_id": "CH02_B05_L0008", "speaker_id": "cyanis", "text": "Direction?", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[THE THRESHOLD]", "source_speaker_label": "CYANIS", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md", "source_line": 38}},
+{"beat_id": "CH02_B05_L0009", "speaker_id": "torren", "text": "Still broadly toward the Bastion. I don't know where this actually exits, but the route hasn't turned us away from it yet.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[THE THRESHOLD]", "source_speaker_label": "TORREN", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md", "source_line": 42}},
+{"beat_id": "CH02_B05_L0010", "speaker_id": "cyanis", "text": "Broadly will do. People are waiting on us.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[THE THRESHOLD]", "source_speaker_label": "CYANIS", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md", "source_line": 44}},
+{"beat_id": "CH02_B05_L0011", "speaker_id": "ilyra", "text": "We can understand the place later if it gives us time for later.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[THE THRESHOLD]", "source_speaker_label": "ILYRA", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md", "source_line": 46}},
+{"beat_id": "CH02_B05_L0012", "speaker_id": "maevra", "text": "Then keep moving.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[THE THRESHOLD]", "source_speaker_label": "MAEVRA", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md", "source_line": 48}},
+{"beat_id": "CH02_B05_L0013", "speaker_id": "torren", "text": "Come on.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[THE THRESHOLD]", "source_speaker_label": "TORREN", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md", "source_line": 52}}
+]

@@ -1,0 +1,689 @@
+{
+  "chapters": {
+    "chapter_00": {
+      "registry_path": "res://game/content/dialogue/current/chapter_00/chapter_00_dialogue_registry.tres",
+      "scenes": [
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_00/P01.tres",
+          "scene_id": "CH00_P01_CONVOY_OPENING_AMBUSH",
+          "scene_kind": "mandatory",
+          "slot_id": "P01",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md",
+          "source_sha256": "a1af098417946126bbd389c381c76a11862500d1d422d80e7a300511ca0c0d8e",
+          "spoken_lines": 27,
+          "spoken_sha256": "e898d4e3d0883e3011995e87b1113bc06005bdc6965c74140b831522a014ea13",
+          "title": "Convoy / Opening Ambush"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_00/P02.tres",
+          "scene_id": "CH00_P02_WRECK_FIELD",
+          "scene_kind": "mandatory",
+          "slot_id": "P02",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P02_WRECK_FIELD_REHEARSAL_FIRST_DRAFT_A.md",
+          "source_sha256": "1c31ca29c90bbe90cb73b589b33aa41cf881bf8e4c751c5d880423110a05687e",
+          "spoken_lines": 44,
+          "spoken_sha256": "4519399c9407369e16bf47e2691f10caa5817ca0584e72cdb62190b0a7cc020a",
+          "title": "Wreck Field"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_00/P03.tres",
+          "scene_id": "CH00_P03_EVACUATION_RELAY_DECISION",
+          "scene_kind": "mandatory",
+          "slot_id": "P03",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P03_EVACUATION_RELAY_DECISION_REHEARSAL_FIRST_DRAFT_A.md",
+          "source_sha256": "d92ec3f242bd9b5746d6078abf006cbd0e1c93959566c44f636f948e22ff0da9",
+          "spoken_lines": 27,
+          "spoken_sha256": "6e06dc2d27c587d0f71414292fba9fca964433cd17240b97176dbeebc206d21d",
+          "title": "Evacuation Relay Decision"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_00/P04.tres",
+          "scene_id": "CH00_P04_FIELD_TRIAGE_CAMP_ILYRA_FIRST_INCOMPLETE_RESPONSE",
+          "scene_kind": "mandatory",
+          "slot_id": "P04",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P04_FIELD_TRIAGE_ILYRA_FIRST_FLARE_REHEARSAL_FIRST_DRAFT_A.md",
+          "source_sha256": "738b05d939db7c97cfe25006a9c45405594437587261182a2082757ad9c72ffe",
+          "spoken_lines": 67,
+          "spoken_sha256": "975a350656eb1a42631d83d82a9588f500597d1c68506f6af733d87012f77c54",
+          "title": "Field Triage Camp / Ilyra / First Incomplete Response"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_00/P05.tres",
+          "scene_id": "CH00_P05_CONCEALED_RUIN_VANGUARD",
+          "scene_kind": "mandatory",
+          "slot_id": "P05",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P05_CONCEALED_RUIN_VANGUARD_REHEARSAL_FIRST_DRAFT_A.md",
+          "source_sha256": "31528c43465586c9e15e0ec22fac63ee67b5d263e5ff4f869ae0f5d84d2d694f",
+          "spoken_lines": 41,
+          "spoken_sha256": "c61cd54c526db789e450f43a5013385be510cc20294b95a6afb55ac4744ac30c",
+          "title": "Concealed Ruin Vanguard"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_00/P06.tres",
+          "scene_id": "CH00_P06_RIFTMAW_WAR_SORCERER_FINAL_BROKEN_CONVOY_CONFRONTATION",
+          "scene_kind": "mandatory",
+          "slot_id": "P06",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P06_RIFTMAW_WAR_SORCERER_REHEARSAL_FIRST_DRAFT_A.md",
+          "source_sha256": "2b96955e06ed54e78b57e14b891e380eafbf9979854ab485672463bd3ca0f3cb",
+          "spoken_lines": 52,
+          "spoken_sha256": "6c97a810d55b695f54662f53a4a40f89c044cfb294ee6a30dd2d4dcefe713cbd",
+          "title": "Riftmaw + War-Sorcerer / Final Broken Convoy Confrontation"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_00/P07.tres",
+          "scene_id": "CH00_P07_AFTERMATH_SURVIVOR_RECOVERY_OVERNIGHT_CAMP",
+          "scene_kind": "mandatory",
+          "slot_id": "P07",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P07_AFTERMATH_SURVIVOR_RECOVERY_REHEARSAL_FIRST_DRAFT_B.md",
+          "source_sha256": "75ae859db36155847b33f07036097eda1fe4a0854f7353d6fea979697d814720",
+          "spoken_lines": 51,
+          "spoken_sha256": "8d74b76bd559fb38a8c3d6212e8b75534325bedcd262a5856524c9267f34767d",
+          "title": "Aftermath / Survivor Recovery / Overnight Camp"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_00/C01.tres",
+          "scene_id": "CH00_C01_SIX_MINUTES",
+          "scene_kind": "character_life",
+          "slot_id": "C01",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md",
+          "source_sha256": "997c9dcbf8e21052a79ff9a3e5e431d386c84ed19c158f1ce3d857d209f50b94",
+          "spoken_lines": 98,
+          "spoken_sha256": "e13019042222732b405351c179a6416a79f1c2cd2e477e881899baf94e0089ff",
+          "title": "Six Minutes"
+        }
+      ]
+    },
+    "chapter_01": {
+      "registry_path": "res://game/content/dialogue/current/chapter_01/chapter_01_dialogue_registry.tres",
+      "scenes": [
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/B01.tres",
+          "scene_id": "CH01_B01_BRACKENWALL_PROTOCOL",
+          "scene_kind": "mandatory",
+          "slot_id": "B01",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_01_BRACKENWALL_PROTOCOL_DRAFT_A.md",
+          "source_sha256": "2c100e1b3bbcd7574878e77090ed0c139defc44cea42734a0eb6ab9cd40d905e",
+          "spoken_lines": 89,
+          "spoken_sha256": "498b531da23eab18534ca2528f7ff4570084ffa2d705f9a1afa5e44afb0e8895",
+          "title": "Brackenwall / Protocol"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/B02.tres",
+          "scene_id": "CH01_B02_BRIAR_PASSAGE_FIRST_TRAVERSAL",
+          "scene_kind": "mandatory",
+          "slot_id": "B02",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_02_BRIAR_PASSAGE_FIRST_TRAVERSAL_DRAFT_A.md",
+          "source_sha256": "b98ded6538882566e68cadb3466964b6332a3730c9680924f00c348a8e5e4dae",
+          "spoken_lines": 46,
+          "spoken_sha256": "512be50c74f293e1ba4045fb99390731be7d6de3e1643846545ebe14e4250787",
+          "title": "Briar Passage / First Traversal"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/B03.tres",
+          "scene_id": "CH01_B03_GREENHOLLOW_TORREN",
+          "scene_kind": "mandatory",
+          "slot_id": "B03",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md",
+          "source_sha256": "995c74d5d14654506b3856fda5759862c55de1304bd9e6e97258af71494c8453",
+          "spoken_lines": 135,
+          "spoken_sha256": "520b12501ef2403cce67cac03a58e575ba045a26f29928ce09491d1da790462d",
+          "title": "Greenhollow / Torren"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/B04.tres",
+          "scene_id": "CH01_B04_HOLLOW_WATCH_APPROACH",
+          "scene_kind": "mandatory",
+          "slot_id": "B04",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_04_HOLLOW_WATCH_APPROACH_DRAFT_A.md",
+          "source_sha256": "2783c40bd879d3d31587d481fc853f5a6b4ad3a8d3b33534b39359c15302cdb3",
+          "spoken_lines": 73,
+          "spoken_sha256": "9c81726a8a64e3329c5e428936260e91ac0ccb3a63e9f41558fb8c904aad181c",
+          "title": "Hollow Watch Approach"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/B05.tres",
+          "scene_id": "CH01_B05_OCCUPIED_HOLLOW_WATCH_FORT",
+          "scene_kind": "mandatory",
+          "slot_id": "B05",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_05_OCCUPIED_HOLLOW_WATCH_FORT_DRAFT_A.md",
+          "source_sha256": "848c740263b5e0487fdaa14d93f19cd86cffed4c7ce77c9970b4a201a27d3129",
+          "spoken_lines": 42,
+          "spoken_sha256": "a6fdcf1e84fd68fb6e8cf960331f1c1a24477934c1baabf82341e9cc95bd31b3",
+          "title": "Occupied Hollow Watch Fort"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/B06.tres",
+          "scene_id": "CH01_B06_BLACK_HOST_EXCAVATION_LOWER_ACCESS",
+          "scene_kind": "mandatory",
+          "slot_id": "B06",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_06_BLACK_HOST_EXCAVATION_LOWER_ACCESS_DRAFT_A.md",
+          "source_sha256": "fa1d1a3bfd501b2f04bae3942b6a7de5d4200705293cbaf433f9e8a0c6141918",
+          "spoken_lines": 21,
+          "spoken_sha256": "86597bb217cc3c64bf2e343e17b460f209d9cf4ab415c737c657a18843961f0d",
+          "title": "Black Host Excavation / Lower Access"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/B07.tres",
+          "scene_id": "CH01_B07_LOWER_JUNCTION_SIX_CHANNELS",
+          "scene_kind": "mandatory",
+          "slot_id": "B07",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_07_LOWER_JUNCTION_SIX_CHANNELS_DRAFT_A.md",
+          "source_sha256": "d58a02f69aa449aded9fd08052f5d22c1c17f745f81f0acfabcc2e0dbb9379af",
+          "spoken_lines": 26,
+          "spoken_sha256": "b7a61bfcee6f1365ca46d606d5a09115b025380a827a0eabb32dfac7adbd5b99",
+          "title": "Lower Junction / Six Channels"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/B08.tres",
+          "scene_id": "CH01_B08_FORCED_INNER_SECTION",
+          "scene_kind": "mandatory",
+          "slot_id": "B08",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_08_FORCED_INNER_SECTION_DRAFT_A.md",
+          "source_sha256": "9c020f7de3a8d7bdf92c772a7a9341fa91aa61609083c8766fd101f5a30b3821",
+          "spoken_lines": 29,
+          "spoken_sha256": "3a45f9b91080a3aaacb0515855a6bce90b8228c3c9aec28bcb80c32f315bf472",
+          "title": "Forced Inner Section"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/B09.tres",
+          "scene_id": "CH01_B09_HOLLOW_WATCH_CASTELLAN",
+          "scene_kind": "mandatory",
+          "slot_id": "B09",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md",
+          "source_sha256": "1e751dabd3966825bb2545c1b2e8d09ceadcaa3061550f34f73077cab6f6fc7e",
+          "spoken_lines": 59,
+          "spoken_sha256": "471ebf14950263563e4e2865eefec922553f1358bbb9dbcf8203d7411e02fe77",
+          "title": "Hollow Watch Castellan"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/B10.tres",
+          "scene_id": "CH01_B10_POST_CASTELLAN_MURAL",
+          "scene_kind": "mandatory",
+          "slot_id": "B10",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_10_POST_CASTELLAN_MURAL_DRAFT_A.md",
+          "source_sha256": "d6fcc2cf043aadfbb9507621523659d32acb2770b8d8de4d65270fbf6333e89d",
+          "spoken_lines": 69,
+          "spoken_sha256": "320b2fb3e5a5fba3f66373c61ea5a9651d9772af8b28c00316e6a5955d777d2e",
+          "title": "Post-Castellan Mural"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/B11.tres",
+          "scene_id": "CH01_B11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT",
+          "scene_kind": "mandatory",
+          "slot_id": "B11",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md",
+          "source_sha256": "989703b1f7b058954784dc8a8b8a0a769e5af5d4aad4b0e3d1da285e02c2d0f3",
+          "spoken_lines": 62,
+          "spoken_sha256": "8f7a214df0e7d110d2ce90718ef36220c21edc452cec62dc257c880e2a33670b",
+          "title": "Hollow Watch Resolution / Torren Recruitment"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/B12.tres",
+          "scene_id": "CH01_B12_SOUTHERN_BRIAR_PASSAGE",
+          "scene_kind": "mandatory",
+          "slot_id": "B12",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md",
+          "source_sha256": "1ad63978a3dec1f5cd60bef7cce0349de5efbba7125b3205d4da53ffa968de3a",
+          "spoken_lines": 56,
+          "spoken_sha256": "3dc55888093a834bb940af93e222d23d2cb58a3df03a876f7e1e36254eee2c81",
+          "title": "Southern Briar Passage"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/B13.tres",
+          "scene_id": "CH01_B13_BRIARHIDE_STALKER_CHAPTER_1_FINAL_BOSS",
+          "scene_kind": "mandatory",
+          "slot_id": "B13",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md",
+          "source_sha256": "bd6a584ccdfacd6a655109f9f859c2b5f6ef685f660417a18eef9528f794ac63",
+          "spoken_lines": 41,
+          "spoken_sha256": "cf6fef7da982f0d0169232cb05653b418aa02e3fb150fc2b5d89bca6303107d3",
+          "title": "Briarhide Stalker / Chapter-1 Final Boss"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/B14.tres",
+          "scene_id": "CH01_B14_THE_JUNCTION_HIDDEN_MONUMENT",
+          "scene_kind": "mandatory",
+          "slot_id": "B14",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md",
+          "source_sha256": "759c13336b6ae02d4d50f2bc27e026c96c518ee09877f235c7282471a15ed0ed",
+          "spoken_lines": 68,
+          "spoken_sha256": "cb2a6f0e376636de128f36a83e8b384c7f015ee0181c149b2d575a8f7277e5ac",
+          "title": "The Junction / Hidden Monument"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/B15.tres",
+          "scene_id": "CH01_B15_JUNCTION_CAMP_CHAPTER_1_CLEANUP_WINDOW",
+          "scene_kind": "mandatory",
+          "slot_id": "B15",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md",
+          "source_sha256": "a40ee6f2ec005ec647df9c9397878c4b9fd1fd665e21fa5906a39f15b7a1c769",
+          "spoken_lines": 23,
+          "spoken_sha256": "907d0b2149670337df3f62463173bfd8d19b39ec43f10de4eb1a853f2aac0c72",
+          "title": "Junction Camp / Chapter-1 Cleanup Window"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/C02.tres",
+          "scene_id": "CH01_C02_TORREN_S_VERSION_OF_DINNER",
+          "scene_kind": "character_life",
+          "slot_id": "C02",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md",
+          "source_sha256": "d417a5590b6ac55cbdd005932d3eb31ce71908febc20640fec1d0d8c635d0548",
+          "spoken_lines": 110,
+          "spoken_sha256": "de09eaff9f96a8cdc3ec0dc9beb373f930046357cbb58be823975c5844fdce6a",
+          "title": "Torren's Version of Dinner"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/C03.tres",
+          "scene_id": "CH01_C03_WHAT_THE_MAP_SAYS",
+          "scene_kind": "character_life",
+          "slot_id": "C03",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md",
+          "source_sha256": "eda009f00e925a3f282d29848a39e4f652630f0c4d3b3859cd799285ba847c0c",
+          "spoken_lines": 89,
+          "spoken_sha256": "05221d9e8d0be9f1a889b104a0b904fdf5b4eab9db86fe1538b676d712dd072b",
+          "title": "What the Map Says"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_01/C04.tres",
+          "scene_id": "CH01_C04_NOT_PROFESSIONALLY",
+          "scene_kind": "character_life",
+          "slot_id": "C04",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md",
+          "source_sha256": "36adad6fe360648296ed34418761f08d368998ef6d2c9ad620e2d4ac7d15b527",
+          "spoken_lines": 86,
+          "spoken_sha256": "0e870da5bf27a5698e4be6d7f872ee83601980768ac9abbf0e98e389afba7a98",
+          "title": "Not Professionally"
+        }
+      ]
+    },
+    "chapter_02": {
+      "registry_path": "res://game/content/dialogue/current/chapter_02/chapter_02_dialogue_registry.tres",
+      "scenes": [
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_02/B01.tres",
+          "scene_id": "CH02_B01_CHAPTER_2_BEAT_1_PATH_OUTSIDE_DUNMERE",
+          "scene_kind": "mandatory",
+          "slot_id": "B01",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_01_PATH_OUTSIDE_DUNMERE_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
+          "source_sha256": "7c47fe6679978a2ff7b32f1c67d71f058be93f9a715277f2c464d245f583877d",
+          "spoken_lines": 31,
+          "spoken_sha256": "20e8cca4c3dd59956a9475e7b0e5f06c70de7cc990e5db0b720a213d9e310f5b",
+          "title": "Chapter 2 — Beat 1 — Path Outside Dunmere"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_02/B02.tres",
+          "scene_id": "CH02_B02_DUNMERE_ARRIVAL_MISSING_TRAVELERS",
+          "scene_kind": "mandatory",
+          "slot_id": "B02",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_NATURAL_TURN_WORKING_DIALOGUE.md",
+          "source_sha256": "2d9bc2c0d0c80acc84ed214b250d3e99b7f2d8ed0742537e1103fc22927a36f4",
+          "spoken_lines": 52,
+          "spoken_sha256": "f957ea5717540a98b039996ee5c98354c2cb3cd4c45fb50295ca60f850efeac5",
+          "title": "Dunmere Arrival / Missing Travelers"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_02/B03.tres",
+          "scene_id": "CH02_B03_CHAPTER_2_BEAT_3_DUNMERE_ELDER_HIDDEN_APPROACH",
+          "scene_kind": "mandatory",
+          "slot_id": "B03",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_03_DUNMERE_ELDER_HIDDEN_APPROACH_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
+          "source_sha256": "ed49f8cd41aebb019a77f53b02bf70cc34b6870ff8e40c48d0ea973f6e5d107d",
+          "spoken_lines": 40,
+          "spoken_sha256": "8ad6097f7d25b9b1a29f0e94ddc673f4f326ed22fcbc517d9e8993eca4e377c2",
+          "title": "Chapter 2 — Beat 3 — Dunmere Elder / Hidden Approach"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_02/B04.tres",
+          "scene_id": "CH02_B04_CHAPTER_2_BEAT_4_OLD_WATERWORKS",
+          "scene_kind": "mandatory",
+          "slot_id": "B04",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
+          "source_sha256": "b6a3370115480b57923cf94864c2f1ebe7c3d8b5a6ce50e1df7238ed107f09d5",
+          "spoken_lines": 28,
+          "spoken_sha256": "8c9a1e861cc3f8df7877271e8a434fadc432ad463d29b5cddb082c0a176aeb76",
+          "title": "Chapter 2 — Beat 4 — Old Waterworks"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_02/B05.tres",
+          "scene_id": "CH02_B05_SUNKEN_ARCHIVE_ENTRANCE",
+          "scene_kind": "mandatory",
+          "slot_id": "B05",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md",
+          "source_sha256": "80b0117358c99c2a84ba852084e1423ec889bc318a39c43b1756d8cd291f5d90",
+          "spoken_lines": 13,
+          "spoken_sha256": "9295c48cadee1b839520c7809fead13a2046c69eee5c377f16bcda3ccfab3c04",
+          "title": "Sunken Archive Entrance"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_02/B06.tres",
+          "scene_id": "CH02_B06_WESTERN_MAP_MURAL",
+          "scene_kind": "mandatory",
+          "slot_id": "B06",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_06_WESTERN_MAP_MURAL_NATURAL_TURN_WORKING_DIALOGUE.md",
+          "source_sha256": "537946acd42eef43c80cff019956795f42b7069b7de4a05d11896956d642c9dd",
+          "spoken_lines": 48,
+          "spoken_sha256": "903db11f269ebd610a75433a560562134f007957ea4ef1327c2cd7544b315a92",
+          "title": "Western Map Mural"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_02/B07.tres",
+          "scene_id": "CH02_B07_CHAPTER_2_BEAT_7_ARCHIVE_DEPTHS",
+          "scene_kind": "mandatory",
+          "slot_id": "B07",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
+          "source_sha256": "66d5d15738744869daec5ef8e42dc2333e25c150585e9e3039750667a142f692",
+          "spoken_lines": 38,
+          "spoken_sha256": "9302e9a8956f1d394af0638538b4935fc2d1125076cd1851c8019a044ed38994",
+          "title": "Chapter 2 — Beat 7 — Archive Depths"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_02/B08.tres",
+          "scene_id": "CH02_B08_CHAPTER_2_BEAT_8_ARCHIVE_LEVIATHAN",
+          "scene_kind": "mandatory",
+          "slot_id": "B08",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_08_ARCHIVE_LEVIATHAN_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
+          "source_sha256": "bbda4a312c99fa0eed8c56c900c1c88badc60b147f0d8a76c5fd777c527424f4",
+          "spoken_lines": 22,
+          "spoken_sha256": "aa7eed05f8e8684a993fb530f63540111c29122f7e22bb8480d413752fa0a843",
+          "title": "Chapter 2 — Beat 8 — Archive Leviathan"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_02/B09.tres",
+          "scene_id": "CH02_B09_CHAPTER_2_BEAT_9_SECRET_PASSAGE_DISCOVERY",
+          "scene_kind": "mandatory",
+          "slot_id": "B09",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
+          "source_sha256": "cb379b12d83a17ca3afb63e6b563b99606e4c1f273bc63e1dd1e89561b2353e3",
+          "spoken_lines": 24,
+          "spoken_sha256": "b2e129919097a8139ddfaa79c56acbfc1f61eca7ac5ed364f46cd5ecb4de3cc8",
+          "title": "Chapter 2 — Beat 9 — Secret Passage Discovery"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_02/B10.tres",
+          "scene_id": "CH02_B10_PRISONER_GALLERIES_FIRST_CONTACT",
+          "scene_kind": "mandatory",
+          "slot_id": "B10",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_10_PRISONER_GALLERIES_FIRST_CONTACT_NATURAL_TURN_WORKING_DIALOGUE.md",
+          "source_sha256": "7d6075c2bc9bfe1aa647fd7a81d1a69f95481fea9d577a0cb831384c2ef4e2bd",
+          "spoken_lines": 37,
+          "spoken_sha256": "65aaccbe155e79266c99f29a795fa47caf4271a3a3a1c5c113bf2958c6797202",
+          "title": "Prisoner Galleries / First Contact"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_02/B11.tres",
+          "scene_id": "CH02_B11_PRISONER_SAFE_AREA_EXIT_PROBLEM",
+          "scene_kind": "mandatory",
+          "slot_id": "B11",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_11_PRISONER_SAFE_AREA_EXIT_PROBLEM_NATURAL_TURN_WORKING_DIALOGUE.md",
+          "source_sha256": "79aa91f8ae11e6b92fbd26acd521b12c02235b633bad700eae433217cd3c7a21",
+          "spoken_lines": 36,
+          "spoken_sha256": "e54e7aa4f5d297c12e914ac25a8ee8cc393103956f5efa2f6f93c365f80c0c17",
+          "title": "Prisoner Safe Area / Exit Problem"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_02/B12.tres",
+          "scene_id": "CH02_B12_CHAPTER_2_BEAT_12_BASTION_COMMAND_ASCENT",
+          "scene_kind": "mandatory",
+          "slot_id": "B12",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
+          "source_sha256": "b01a11f12e87a4a999412fbcb4f2fc3c871d0486a59eeb5bbf842567496d48cf",
+          "spoken_lines": 46,
+          "spoken_sha256": "cf891a95d4a09f0348b50969238ff91ee16822e0bc384f819894b72e4a3161a8",
+          "title": "Chapter 2 — Beat 12 — Bastion Command Ascent"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_02/B13.tres",
+          "scene_id": "CH02_B13_CHAPTER_2_BEAT_13_RHAZEK_MASKED_OFFICER",
+          "scene_kind": "mandatory",
+          "slot_id": "B13",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_13_RHAZEK_MASKED_OFFICER_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
+          "source_sha256": "9a24d4073959fc309ef6a3603b1f417e5d216b2d0fc5f05f822569b34539df26",
+          "spoken_lines": 42,
+          "spoken_sha256": "53b186d20a035902a1e5ee1215f43692797d409eaa49f65d1aa30a873aba3b63",
+          "title": "Chapter 2 — Beat 13 — Rhazek / Masked Officer"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_02/B14.tres",
+          "scene_id": "CH02_B14_CHAPTER_2_BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER",
+          "scene_kind": "mandatory",
+          "slot_id": "B14",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
+          "source_sha256": "18be5aaaffd26a03f2ae6522e5755822d4040e4171d89dbdf176a38633921ef0",
+          "spoken_lines": 29,
+          "spoken_sha256": "61c31e8c07ccce82e3d1546e711e739f36858a6919a8c4f83e1433fbab445bbf",
+          "title": "Chapter 2 — Beat 14 — Commander Rhazek / Bastion Master"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_02/B15.tres",
+          "scene_id": "CH02_B15_CHAPTER_2_BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE",
+          "scene_kind": "mandatory",
+          "slot_id": "B15",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
+          "source_sha256": "6b004cf003f8d56e123245d6f56e7d2bb3afa0c13b3ac4cf3eccb65be9c20b60",
+          "spoken_lines": 36,
+          "spoken_sha256": "1c2a1941752c1e86eb67a6458b61adaf97afd8d6c197494b57a6e0ddf1f7e41b",
+          "title": "Chapter 2 — Beat 15 — Return to the Prisoners / Release"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_02/B16.tres",
+          "scene_id": "CH02_B16_CHAPTER_2_BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP",
+          "scene_kind": "mandatory",
+          "slot_id": "B16",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
+          "source_sha256": "541c5d66d18a2d77865b73b543027c3f54aa72a6e902ec86b3a9c5ad672c44c7",
+          "spoken_lines": 40,
+          "spoken_sha256": "2e4bf403f155692d97163f0fcb9d9dbd8845ef68dd0f4faffead57b74ef49628",
+          "title": "Chapter 2 — Beat 16 — Return to Dunmere / Road Reopened / Cleanup"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_02/C05.tres",
+          "scene_id": "CH02_C05_CHAPTER_2_CHARACTER_LIFE_C05_STILL_BURNS",
+          "scene_kind": "character_life",
+          "slot_id": "C05",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
+          "source_sha256": "c4e65fac34a0ce90dedd3286b99012983416686df663495c9e291933d9dc2298",
+          "spoken_lines": 88,
+          "spoken_sha256": "bf38cd1ca30d7174de74c60378165adc352741fdb825069a76ad474c4f151d3a",
+          "title": "Chapter 2 Character-Life — C05 — Still Burns"
+        }
+      ]
+    },
+    "chapter_03": {
+      "registry_path": "res://game/content/dialogue/current/chapter_03/chapter_03_dialogue_registry.tres",
+      "scenes": [
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_03/B01.tres",
+          "scene_id": "CH03_B01_CAELORA_GATE_ARRIVAL",
+          "scene_kind": "mandatory",
+          "slot_id": "B01",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md",
+          "source_sha256": "a376a29b6fe4965c890c4725af7c0e0368f684b26044aa30edde1ddffc6f502d",
+          "spoken_lines": 31,
+          "spoken_sha256": "c897532096be093ab250d2f3d2ca7e7badaf3b617d0b6337b2139fb7258e7430",
+          "title": "Caelora Gate / Arrival"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_03/B02.tres",
+          "scene_id": "CH03_B02_ROYAL_AUDIENCE_THE_CHAPTER_2_REPORT",
+          "scene_kind": "mandatory",
+          "slot_id": "B02",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_02_ROYAL_AUDIENCE_CH2_REPORT_DRAFT_A.md",
+          "source_sha256": "242ab0081216edf649900cf0d92279a1f6313bf77e2ed6f19bcedb8d261510b5",
+          "spoken_lines": 54,
+          "spoken_sha256": "8fc31cfaee1796badb381f0c4c0cab7aa5431bf4833f45ca63e4c6e50dc60af3",
+          "title": "Royal Audience / The Chapter-2 Report"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_03/B03.tres",
+          "scene_id": "CH03_B03_THE_IMPOSSIBLE_ORDERS",
+          "scene_kind": "mandatory",
+          "slot_id": "B03",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_03_IMPOSSIBLE_ORDERS_DRAFT_A.md",
+          "source_sha256": "e35611912c111cdf71c3836a6f99b9f285f9d3f19764ca53975f0e149ec2f7c2",
+          "spoken_lines": 45,
+          "spoken_sha256": "4435c2ca9226cd599cd99f97dcb968d6ba0963955ff68914f5c03ee1436169f4",
+          "title": "The Impossible Orders"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_03/B04.tres",
+          "scene_id": "CH03_B04_THE_SEAL_THAT_WASN_T_USED",
+          "scene_kind": "mandatory",
+          "slot_id": "B04",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_04_SEAL_NOT_USED_DRAFT_A.md",
+          "source_sha256": "dae8d14b9cff7e89ed09a35f685d65d6bf72efecf9e15d2d6a98f09042b680e5",
+          "spoken_lines": 66,
+          "spoken_sha256": "0132d892475c98d75dfc27658b131c7bde0a97fd58b07f178ab55b710abbb037",
+          "title": "The Seal That Wasn't Used"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_03/B05.tres",
+          "scene_id": "CH03_B05_OLD_CITY_ACCESS_ARCHIVE_DESCENT",
+          "scene_kind": "mandatory",
+          "slot_id": "B05",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md",
+          "source_sha256": "2bffb1d87b0262943936635678193cb9e3748b68a9908faa3b2c583b2df81bfb",
+          "spoken_lines": 41,
+          "spoken_sha256": "ac5646a1a3bb5bef01d70e785285f2fed2a8406517e6ba06fc54eb58c0b5bf26",
+          "title": "Old City Access / Archive Descent"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_03/B06.tres",
+          "scene_id": "CH03_B06_SCHOLAR_IN_REDACTED_STACKS",
+          "scene_kind": "mandatory",
+          "slot_id": "B06",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md",
+          "source_sha256": "5102532c8dee67fc6cfb82d7cead216c6d86a92d0a8d388ae6bee366db1b8892",
+          "spoken_lines": 102,
+          "spoken_sha256": "82b32bb46f2ae8996bb5734f1f7bd9176d0e46da8056515d3e32576f8e053a12",
+          "title": "Scholar in Redacted Stacks"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_03/B07.tres",
+          "scene_id": "CH03_B07_ANCIENT_BARRIER_FIRST_COOPERATION",
+          "scene_kind": "mandatory",
+          "slot_id": "B07",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_DRAFT_A.md",
+          "source_sha256": "818911dc77c4fba62d50dafc309a146b39c5664e464273d4ff31ce51d3200622",
+          "spoken_lines": 100,
+          "spoken_sha256": "52aee7660b1607069748cf2ca6e7024eb735a2e5c52280e09ee8783d5e60e08c",
+          "title": "Ancient Barrier / First Cooperation"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_03/B08.tres",
+          "scene_id": "CH03_B08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS",
+          "scene_kind": "mandatory",
+          "slot_id": "B08",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_DRAFT_A.md",
+          "source_sha256": "f80ff7b79af90e7b2edb882dd4f195c3b38ae750ea424bf16853500224dc95dc",
+          "spoken_lines": 81,
+          "spoken_sha256": "80e9db4973584b3cb3336c3f86458fe03c4f87fa9e81bb39a8136ced14fd5f49",
+          "title": "Archive Scribe Engine / Nimera Joins"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_03/B09.tres",
+          "scene_id": "CH03_B09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH",
+          "scene_kind": "mandatory",
+          "slot_id": "B09",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_DRAFT_A.md",
+          "source_sha256": "507d60d0616af278b42591041634ef9fba9bbc99ee3bf93448d8a22f75c394a1",
+          "spoken_lines": 72,
+          "spoken_sha256": "6697397abe6ff12f7e10f42ca13ea6f2c7f5873d1af9014cc49f59ebe668ab07",
+          "title": "Buried Collections / Dormant Card Research"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_03/B10.tres",
+          "scene_id": "CH03_B10_THE_RECENT_READER_HALL_OF_SEALS",
+          "scene_kind": "mandatory",
+          "slot_id": "B10",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_10_RECENT_READER_HALL_OF_SEALS_DRAFT_A.md",
+          "source_sha256": "f9e281010402a560b58e08b55af5eb665bccea2f3e09075b44797f785d5f3823",
+          "spoken_lines": 80,
+          "spoken_sha256": "08724d73a600bbf8de90b037ff125077eb4ba9138c97179d5acc8f65c464ca5f",
+          "title": "The Recent Reader / Hall of Seals"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_03/B11.tres",
+          "scene_id": "CH03_B11_FIRST_COMMAND_WARDEN",
+          "scene_kind": "mandatory",
+          "slot_id": "B11",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_11_FIRST_COMMAND_WARDEN_DRAFT_A.md",
+          "source_sha256": "b84e481caacb33cea810c8f73345be7a1ec9a397946d29b82979a128b04d1877",
+          "spoken_lines": 50,
+          "spoken_sha256": "7e559034c16eac4b07cf91b8d6656282869b4e1896cd760ec249a0bb5b879582",
+          "title": "First Command Warden"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_03/B12.tres",
+          "scene_id": "CH03_B12_SEALWRIGHT_CHAMBER_THE_COPYING_ATTEMPTS",
+          "scene_kind": "mandatory",
+          "slot_id": "B12",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_12_SEALWRIGHT_CHAMBER_COPYING_ATTEMPTS_DRAFT_A.md",
+          "source_sha256": "b028b0fbc77a0abf38198d30c25b8fabf916b50f4f363729ac98d1b0bce54d05",
+          "spoken_lines": 69,
+          "spoken_sha256": "fb20e7bd15dfb14844580f2c8433db4a47640731cc4122243461a981ec01fcb2",
+          "title": "Sealwright Chamber / The Copying Attempts"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_03/B13.tres",
+          "scene_id": "CH03_B13_MIRENA_S_CONCERN_CRESTHAVEN_LEAD",
+          "scene_kind": "mandatory",
+          "slot_id": "B13",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_13_MIRENAS_CONCERN_CRESTHAVEN_LEAD_DRAFT_A.md",
+          "source_sha256": "437785ab754a27ebe44aa7a86dbfee8ca72e689e4ecd460249ea9acb04441f63",
+          "spoken_lines": 98,
+          "spoken_sha256": "5db9fbe92c12f7b217f855715ea3a264cc8bddf52bf2ab17f2046dd547c8b823",
+          "title": "Mirena's Concern / Cresthaven Lead"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_03/B14.tres",
+          "scene_id": "CH03_B14_REST_IN_CAELORA_MORNING_DEPARTURE",
+          "scene_kind": "mandatory",
+          "slot_id": "B14",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_14_REST_IN_CAELORA_MORNING_DEPARTURE_DRAFT_A.md",
+          "source_sha256": "b1397defa1d41fd92be3121fec325033baeb464cb78b8d07ce1adc880be41bbc",
+          "spoken_lines": 68,
+          "spoken_sha256": "bae45cff1a7cbe3046a964518f4ce3d99f3b469f975bb13558dca3ccd707270d",
+          "title": "Rest in Caelora / Morning Departure"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_03/B15.tres",
+          "scene_id": "CH03_B15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW",
+          "scene_kind": "mandatory",
+          "slot_id": "B15",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_DRAFT_A.md",
+          "source_sha256": "2b27c5151fed431cc1f3358a6ec14883e468340188953a85bf391001834c6735",
+          "spoken_lines": 73,
+          "spoken_sha256": "8de6ca3135666a80f8e00a5fe4a3121401dd523483f6bed7cd273ec864eeb84a",
+          "title": "Cresthaven Headquarters / Cleanup Window"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_03/C06.tres",
+          "scene_id": "CH03_C06_NIMERA_TAKES_OVER_A_TABLE",
+          "scene_kind": "character_life",
+          "slot_id": "C06",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md",
+          "source_sha256": "9886a63f7a893db368bd70b032d976676bf0219dd69beab4a1599098c6030f09",
+          "spoken_lines": 129,
+          "spoken_sha256": "7248c4ac175aa67f5cb6a135471948915570d672ea23e3a09be6f42b8ede9b3d",
+          "title": "Nimera Takes Over a Table"
+        },
+        {
+          "resource_path": "res://game/content/dialogue/current/chapter_03/C07.tres",
+          "scene_id": "CH03_C07_CHAPTER_3_CHARACTER_LIFE_H03_ILYRA_AND_NIMERA",
+          "scene_kind": "character_life",
+          "slot_id": "C07",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/H03_ILYRA_AND_NIMERA_DRAFT_A.md",
+          "source_sha256": "de055c9feadd70c69986ab9952773698706bd16918eedac5b3b3c5904613f9f9",
+          "spoken_lines": 100,
+          "spoken_sha256": "e97461f0d28466f8f1ac044daa3caba93725b50d7d0ad3b9523f996a0014e658",
+          "title": "Chapter 3 — Character-Life H03 — Ilyra and Nimera"
+        }
+      ]
+    }
+  },
+  "expected_total_spoken": 3440,
+  "global_spoken_sha256": "ba104097b900fba475dd2a42be04d47a82ecf2d721529ddd9275b37dca03b878",
+  "schema": "diyse_current_runtime_dialogue_manifest_v1",
+  "source_authority": "docs/03_DIALOGUE/PRODUCTION",
+  "total_spoken": 3440
+}
