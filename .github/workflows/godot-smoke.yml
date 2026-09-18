@@ -129,23 +129,8 @@ jobs:
       - name: Run Step 7C Chapter 0 continuity validation
         run: godot --headless --path . --script tests/dialogue/validate_chapter_00_continuity.gd
 
-      - name: Run Step 7C Chapter 1 exact Resource/source parity validation
-        run: godot --headless --path . --script tests/dialogue/validate_chapter_01_resources.gd
-
-      - name: Run Step 7C Chapter 1 continuity validation
-        run: godot --headless --path . --script tests/dialogue/validate_chapter_01_continuity.gd
-
-      - name: Run Step 7C Chapter 2 exact Resource/source parity validation
-        run: godot --headless --path . --script tests/dialogue/validate_chapter_02_resources.gd
-
-      - name: Run Step 7C Chapter 2 continuity validation
-        run: godot --headless --path . --script tests/dialogue/validate_chapter_02_continuity.gd
-
-      - name: Run Step 7C Chapter 3 exact Resource/source parity validation
-        run: godot --headless --path . --script tests/dialogue/validate_chapter_03_resources.gd
-
-      - name: Run Step 7C Chapter 3 continuity validation
-        run: godot --headless --path . --script tests/dialogue/validate_chapter_03_continuity.gd
+      - name: Validate current Chapters 0-3 runtime dialogue Resources
+        run: godot --headless --path . --script tests/dialogue/validate_current_dialogue_resources.gd
 
       - name: Capture Chapter 0 graybox route views
         run: godot --path . --script tests/visual/capture_chapter_00_graybox.gd
