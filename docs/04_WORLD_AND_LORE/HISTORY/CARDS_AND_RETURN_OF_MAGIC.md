@@ -11,6 +11,18 @@ Cards are created **after** the Last Weapon by surviving Ancient Diyseans as a f
 
 They are not a weapon system that predates the Last Weapon.
 
+## Modern lived Card reality
+
+By the present era, Standard Cards are a familiar magical artifact category rather than an unresolved ancient mystery.
+
+Modern people broadly know that:
+- Standard Cards preserve Ancient Diysean abilities;
+- holding/using one grants access to its preserved ability;
+- ordinary people may own and use Cards if they acquire them;
+- Card use has centuries of modern practical history after the first activation era.
+
+The ancient origin of a Standard Card does not make ordinary Card use exceptional in everyday modern life.
+
 ## Primes
 All Prime Cards preserve the magical force of ancient warriors.
 
