@@ -9,6 +9,8 @@ The exact current 24-card source ledger is stored in:
 `STANDARD_CARDS/STANDARD_CARD_MASTER_REGISTER.md`.
 
 Rules:
+- Standard Cards are not chosen-one restricted: any ordinary person can in principle obtain, possess, and use one if they actually acquire it;
+- this social/world rule does not imply universal availability, ordinary shop stock, random drops, or farming;
 - deterministic authored acquisition;
 - no ordinary shop sales;
 - no random Card drops;
