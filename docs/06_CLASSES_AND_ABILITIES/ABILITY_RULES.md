@@ -4,6 +4,20 @@
 **Authority treatment:** explicit/newer working corrections are preserved as working overrides when they have not yet been promoted into the audit chain.
 
 
+## Lived-world magical identity
+
+> **Character Abilities are natural forms of magic expressed through the person using them.**
+
+Modern people do not experience ordinary trained Ability use as a mysterious supernatural event or as a separate artifact system. An Ability may combine magical capability, class/professional training, physical technique, weapon practice, instinct, and learned control.
+
+In character-facing fiction:
+- the existence of magic is ordinary;
+- the use of a normal trained Ability is ordinary;
+- what may be noteworthy is power, rarity, precision, danger, an unfamiliar school/effect, or somebody performing a technique they should not plausibly know;
+- characters should not describe their own Abilities as game commands, menu selections, or external powers being handed to them.
+
+This lived-world rule does not change any numerical Ability mechanics below.
+
 ## Universal class-Ability rules
 
 - **MP** is the universal ordinary Ability resource.
