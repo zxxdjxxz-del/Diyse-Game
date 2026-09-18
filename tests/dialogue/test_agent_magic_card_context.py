@@ -38,14 +38,15 @@ def main() -> int:
 
     # Prime modern-history firewall.
     for text, name in ((context, "runtime context"), (world, "world authority"), (firewall, "knowledge firewall")):
+        folded = text.casefold()
         expect(
-            "no_one_in_known_modern_history_has_knowingly_possessed_a_Prime_Card" in text
-            or "no one in known modern history has knowingly possessed a Prime Card" in text,
+            "no_one_in_known_modern_history_has_knowingly_possessed_a_prime_card" in folded
+            or "no one in known modern history has knowingly possessed a prime card" in folded,
             f"{name} lost the no-known-modern-Prime-holder rule.",
         )
         expect(
-            "no_one_in_known_modern_history_has_knowingly_activated_or_used_a_Prime_Card" in text
-            or "no one in known modern history has knowingly activated or used a Prime Card" in text,
+            "no_one_in_known_modern_history_has_knowingly_activated_or_used_a_prime_card" in folded
+            or "no one in known modern history has knowingly activated or used a prime card" in folded,
             f"{name} lost the no-known-modern-Prime-use rule.",
         )
 
