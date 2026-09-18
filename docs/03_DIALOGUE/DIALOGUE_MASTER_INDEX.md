@@ -16,9 +16,9 @@ That means the live dialogue-generating layers are aligned:
 - current standalone atomic dialogue;
 - current natural-turn, mature-adult speech/profanity, and spoken-dialogue/narration locks.
 
-This source closure does **not** mean the old combined manuscripts or the prior Chapters 0–3 reader are current. Those are derived artifacts and remain stale until a separate verified synchronization phase.
+The current combined manuscripts and game-facing runtime mirror have now been regenerated from those atomics. The atomics remain exact wording authority; generated manuscripts, runtime Resources, and the reader remain derived products.
 
-Do not use an old combined manuscript as input authority.
+Do not use an older combined manuscript or legacy S-scene Resource as input authority.
 
 ---
 
@@ -154,12 +154,12 @@ Legacy source filenames do not override canonical numbering.
 
 | Chapter | Source-level status | Chapter authority | Derived manuscript |
 |---|---|---|---|
-| Ch0 | **FULL SOURCE CLOSURE** — P01–P07 + C01; Person-Brain + Cyanis audit + Ilyra balance + adult speech + natural-turn + spoken-vs-narration; current brains aligned | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` | **STALE** |
-| Ch1 | **FULL SOURCE CLOSURE** — Beats 1–15 + C02/C03/C04; final ensemble + Ilyra + Torren progression + Maevra rank/friendship + reveal timing + adult speech; current brains/specs aligned | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` | **STALE** |
-| Ch2 | **FULL SOURCE CLOSURE** — Beats 1–16 + C05; final ensemble + Ilyra + Torren progression + Maevra rank/friendship + adult speech + natural-turn + spoken-vs-narration; current brains aligned | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` | **STALE** |
-| Ch3 | **FULL SOURCE CLOSURE** — Beats 1–15 + C06/C07; Person-Brain + Ilyra + Torren progression + Torren/Nimera first-contact + Nimera adult speech + current Face/subclass terminology; current brains/specs aligned | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` | **STALE** |
+| Ch0 | **FULL SOURCE CLOSURE** — P01–P07 + C01; Person-Brain + Cyanis audit + Ilyra balance + adult speech + natural-turn + spoken-vs-narration; current brains aligned | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
+| Ch1 | **FULL SOURCE CLOSURE** — Beats 1–15 + C02/C03/C04; final ensemble + Ilyra + Torren progression + Maevra rank/friendship + reveal timing + adult speech; current brains/specs aligned | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
+| Ch2 | **FULL SOURCE CLOSURE** — Beats 1–16 + C05; final ensemble + Ilyra + Torren progression + Maevra rank/friendship + adult speech + natural-turn + spoken-vs-narration; current brains aligned | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
+| Ch3 | **FULL SOURCE CLOSURE** — Beats 1–15 + C06/C07; Person-Brain + Ilyra + Torren progression + Torren/Nimera first-contact + Nimera adult speech + current Face/subclass terminology; current brains/specs aligned | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
 
-The standalone atomics are exact wording authority until the derived manuscripts are regenerated and verified against them.
+The standalone atomics remain exact wording authority. The current derived manuscripts are verified synchronized mirrors.
 
 ---
 
@@ -288,28 +288,28 @@ Full record:
 
 ---
 
-# Derived-artifact synchronization — NEXT PHASE ONLY
+# Derived-artifact synchronization — CURRENT
 
-Current stale derived artifacts:
+Current synchronized derivatives:
 - `PRODUCTION/CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
 - `PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
 - `PRODUCTION/CHAPTER_02/CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
 - `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
-- prior Chapters 0–3 spoiler-free exact-dialogue reader/novelization.
+- `PRODUCTION/CHAPTER_0_3_DIALOGUE_SYNC_MANIFEST.md`
+- `game/content/dialogue/current/manifest.json` and its 60 generated current runtime scene Resources
+- the generated Chapters 0–3 spoiler-free story/gameplay read-through.
 
-A repository helper exists:
-- `tools/dialogue/sync_current_dialogue.py`
+Current synchronization invariants:
+1. current production atomics are the only exact spoken-wording input authority;
+2. the combined manuscripts are regenerated from those atomics;
+3. the current runtime mirror is regenerated from those atomics;
+4. the runtime mirror must contain exactly **3,440 spoken lines across 60 scenes**;
+5. protected exact-line anchors and retired-canon guards must pass;
+6. the reader may restore player-facing world/gameplay context from its owning authorities but may not alter spoken dialogue;
+7. `python tools/dialogue/sync_current_dialogue.py --check` and `python tools/dialogue/compile_current_runtime_dialogue.py --check` must pass after future source edits;
+8. `Current Dialogue Runtime Validation` is the dedicated Godot gate for the current runtime mirror.
 
-It was created while planning synchronization but **has not yet been used to regenerate the derived manuscripts or reader after source closure**.
-
-When synchronization begins:
-1. use current atomic dialogue as input authority;
-2. never use an old combined manuscript as source authority;
-3. verify source hashes and scene order;
-4. verify protected anchors;
-5. regenerate the four chapter read-throughs;
-6. only then regenerate the Chapters 0–3 spoiler-free reader;
-7. QA derived outputs without silently modifying the now-closed source dialogue.
+The older `game/content/dialogue/chapter_00` through `chapter_03` S-scene Resources remain legacy implementation/proof assets. They are not current spoken-wording authority and must not supersede the generated current mirror.
 
 ---
 
@@ -344,4 +344,4 @@ When a scene changes:
 4. mark combined/reader artifacts stale until deliberately regenerated;
 5. use Git history for superseded copies.
 
-> **Current project statement: Chapters 0–3 are fully updated at the source level. Synchronization of combined manuscripts and the reader is a separate next phase.**
+> **Current project statement: Chapters 0–3 are source-closed and synchronized into current combined manuscripts and a Godot runtime mirror. The production atomics remain exact wording authority.**
