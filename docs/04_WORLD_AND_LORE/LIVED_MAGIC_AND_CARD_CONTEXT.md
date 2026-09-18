@@ -66,7 +66,7 @@ The recovered Card is **not important at the start merely because it is a Card**
 
 Its opening importance is institutional and logistical:
 
-- the **Crown had the Card excavated/recovered** from an ancient site;
+- the **Crown had the Card excavated** from an ancient site;
 - the Crown specifically ordered that recovered Card transported to **Caelora**;
 - because it is Crown-directed recovered cargo, it receives protected handling and heavier guard;
 - characters may reasonably care about the order, provenance, chain of custody, security, cost, or political consequences without believing the Card itself is uniquely powerful.
