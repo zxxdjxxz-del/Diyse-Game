@@ -38,7 +38,7 @@ standard_cards:
 cyanis_recovered_card:
   before_first_response:
     - the_card_is_not_important_merely_because_it_is_a_Card
-    - the_Crown_had_the_card_excavated_or_recovered_and_ordered_it_transport_to_Caelora
+    - the_Crown_had_the_card_excavated_and_ordered_it_transport_to_Caelora
     - protected_handling_and_heavier_guard_follow_from_Crown_order_chain_of_custody_and_recovery_context
     - the_card_has_not_activated
     - nonactivation_is_strange_but_naturally_suggests_inert_damaged_failed_or_useless_not_secretly_powerful
