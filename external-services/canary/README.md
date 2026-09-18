@@ -46,11 +46,12 @@ A successful build does not automatically write story continuity. `/v1/scene/com
 
 Every Person Agent loads all YAML files in `context/`:
 - `world_life.yaml`
+- `magic_and_cards.yaml`
 - `economy.yaml`
 - `dialogue_life.yaml`
 - `scene_construction.yaml`
 
-This is the runtime synthesis that makes dialogue account for character life, world/economy pressure, map/traversal context, recent gameplay, comedy/cinematic/anime performance rules, and economical HD-2D staging together.
+This is the runtime synthesis that makes dialogue account for character life, lived magical/Card normality, the Prime knowledge firewall, world/economy pressure, map/traversal context, recent gameplay, comedy/cinematic/anime performance rules, and economical HD-2D staging together.
 
 ## Persistent vs profile-only people
 
