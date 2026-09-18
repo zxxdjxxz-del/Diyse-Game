@@ -1,0 +1,81 @@
+schema_version: 1
+status: RUNTIME_SYNTHESIS
+source_authority:
+  - docs/04_WORLD_AND_LORE/LIVED_MAGIC_AND_CARD_CONTEXT.md
+  - docs/04_WORLD_AND_LORE/MODERN_KNOWLEDGE_FIREWALL.md
+  - docs/04_WORLD_AND_LORE/HISTORY/CARDS_AND_RETURN_OF_MAGIC.md
+  - docs/06_CLASSES_AND_ABILITIES/ABILITY_RULES.md
+  - docs/07_CARDS/CARD_SYSTEM_MASTER.md
+
+core_rule: ordinary_magic_and_standard_cards_are_lived_normality_primes_are_not
+
+natural_magic:
+  baseline:
+    - abilities_are_natural_forms_of_magic_expressed_through_the_user
+    - trained_ability_use_is_normal_modern_life
+    - react_to_what_was_done_precision_power_rarity_or_context_not_to_magic_existing
+    - do_not_describe_abilities_as_game_commands
+    - do_not_manufacture_wonder_at_ordinary_magic
+
+standard_cards:
+  common_modern_knowledge:
+    - standard_cards_are_surviving_ancient_Diysean_magical_artifacts
+    - a_standard_card_preserves_an_ancient_ability
+    - holding_using_the_card_grants_access_to_that_preserved_ability
+    - cards_are_not_chosen_one_objects
+    - any_ordinary_person_can_in_principle_obtain_possess_and_use_a_standard_card_if_they_acquire_one
+    - centuries_of_modern_practical_card_experience_exist
+    - ancient_origin_does_not_make_standard_card_use_intrinsically_mysterious
+  dialogue_defaults:
+    - informed_adults_do_not_explain_basic_card_function_to_each_other_without_reason
+    - a_normal_card_activation_is_not_automatically_a_story_revelation
+    - card_specialists_may_recognize_effects_provenance_or_unusual_behavior
+    - unusual_behavior_is_judged_against_known_normal_card_behavior
+  economy_boundary:
+    - this_does_not_invent_ordinary_shop_sales_random_drops_or_unlocked_access
+    - exact_acquisition_ownership_and_reward_rules_remain_in_07_CARDS_and_economy_authority
+
+cyanis_recovered_card:
+  reasoning_baseline:
+    - the_problem_is_not_that_cards_are_mysterious
+    - the_problem_is_that_a_familiar_category_is_behaving_wrong
+    - involuntary_activation_or_person_tracking_is_abnormal_evidence
+    - unknown_effects_or_persistent_state_changes_are_abnormal_evidence
+    - abnormal_does_not_equal_Prime_without_story_earned_evidence
+
+prime_cards:
+  modern_history_hard_locks:
+    - no_one_in_known_modern_history_has_knowingly_possessed_a_Prime_Card
+    - no_one_in_known_modern_history_has_knowingly_activated_or_used_a_Prime_Card
+    - Prime_is_mentioned_only_in_a_very_small_number_of_surviving_late_Diysean_records
+  modern_epistemic_state:
+    - most_people_do_not_know_if_Primes_were_real_or_myth
+    - plausible_scholarly_positions_include_real_exaggerated_ceremonial_mistranslated_or_legendary
+    - no_verified_modern_specimen_or_use_exists
+    - surviving_records_only_support_the_broad_reputation_that_Primes_if_real_were_the_most_powerful_highest_order_Cards
+  forbidden_initial_knowledge:
+    - what_a_Prime_actually_does
+    - how_a_Prime_activates
+    - manifestation_rules
+    - Recovered_Awakened_progression
+    - Prime_rounds_or_commands
+    - Prime_slots_or_loadout
+    - Prime_restoration_or_use_limits
+    - Story_Prime_bearer_structure
+    - Major_Hunt_Prime_structure
+    - six_sacrifice_warrior_truth
+    - any_player_facing_or_repository_facing_Prime_mechanics
+  specialist_rule:
+    - education_or_Card_expertise_can_improve_source_awareness_and_uncertainty_not_grant_operational_Prime_knowledge
+    - a_Card_or_archive_specialist_may_know_which_rare_records_use_the_term_and_why_scholars_disagree
+  dialogue_rule:
+    - never_jump_from_strange_card_to_Prime_without_evidence
+    - when_Prime_is_discussed_distinguish_verified_fact_record_claim_rumor_inference_and_belief
+    - never_leak_author_or_combat_system_Prime_mechanics_into_character_cognition
+
+agent_reasoning_check:
+  - is_this_ordinary_personal_magic_then_treat_it_as_ordinary
+  - is_this_a_standard_card_doing_a_known_card_thing_then_do_not_manufacture_mystery
+  - if_card_behavior_is_abnormal_name_the_specific_violation_not_a_generic_ancient_mystery
+  - only_invoke_the_Prime_category_when_story_position_and_evidence_support_it
+  - expertise_permitsa_better_question_not_future_knowledge
