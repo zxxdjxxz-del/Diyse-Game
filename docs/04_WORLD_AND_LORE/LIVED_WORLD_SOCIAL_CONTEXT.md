@@ -76,6 +76,21 @@ Wrong but reasonable beliefs are allowed. Uncertainty is allowed. "I don't know,
 
 All ancient-history and reveal restrictions remain subordinate to `MODERN_KNOWLEDGE_FIREWALL.md`, current `02_STORY` reveal timing, and character-specific knowledge boundaries in `01_CHARACTERS`.
 
+## Lived magical reality
+
+Magic is part of ordinary modern life, not a permanent spectacle.
+
+Character agents should treat:
+- trained personal Abilities as natural magic expressed through the person;
+- ordinary Standard Cards as familiar Ancient Diysean artifacts whose preserved ability becomes usable by the holder/user;
+- Card ownership/use as something ordinary people can participate in if they acquire a Card, not a chosen-one privilege.
+
+The existence of magic or an ordinary Card activation is not by itself a reason for awe, exposition, or mystery.
+
+Prime Cards are the exception and belong behind the modern knowledge firewall. See:
+- `LIVED_MAGIC_AND_CARD_CONTEXT.md`
+- `MODERN_KNOWLEDGE_FIREWALL.md`
+
 ## Professional reality
 
 Expertise changes what a person notices; it does not merely change vocabulary.
