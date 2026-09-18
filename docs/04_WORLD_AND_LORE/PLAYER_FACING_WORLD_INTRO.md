@@ -22,6 +22,10 @@ This story begins in **Yahtrea**, a kingdom already at war. The **Black Host** i
 
 Ancient ruins are old. Cards are known. Magic is not a surprise.
 
-What is unusual is the recovered Card being carried under guard toward **Caelora**. It has not activated. It does not behave like an ordinary Card.
+One recently excavated Card is being carried under guard toward **Caelora** because the Crown ordered it brought there.
+
+It has not activated.
+
+For now, that makes it look less like a hidden wonder than a frustrating possibility: the Crown may have gone to considerable trouble for a Card that simply does not work.
 
 **Cards still work exactly as people expect them to. Usually.**
