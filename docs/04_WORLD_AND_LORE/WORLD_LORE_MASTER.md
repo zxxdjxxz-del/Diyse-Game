@@ -45,10 +45,10 @@ They do **not** begin the story knowing:
 - the true Last Weapon mechanism.
 
 ## Present chronology
-Internal current chronology centers the story at approximately:
-> **700 AF**
+Current story chronology is:
+> **720 YF**
 
-where AF is an internal shorthand for years after Yahtrea's founding.
+where YF means **Years since the Founding of Yahtrea**.
 
 Key modern-history anchor:
-> first Card activation era ≈ **200 AF**, roughly **500 years before the present**.
+> first Card activation era ≈ **200 YF**, roughly **520 years before the present**.
