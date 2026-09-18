@@ -16,6 +16,9 @@ jobs:
       - name: Run Dialogue Engine scene authority compiler validation
         run: python3 tests/dialogue/test_scene_authority_compiler.py
 
+      - name: Validate player-facing world intro runtime sync
+        run: python3 tools/dialogue/sync_player_facing_world_intro.py --check
+
       - name: Set up Godot 4.7.1
         uses: lihop/setup-godot@v3
         with:
