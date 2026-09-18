@@ -65,7 +65,7 @@ BRIDGES = (
         "The Old Waterworks remain a covert route with no routine Black Host patrols.",
         "Current safe random-enemy pool: Bogshell; Cistern Leech.",
     ), CH2, ("Bogshell", "Cistern Leech")),
-    ("The Mural", "Random Encounters — Sunken Archive", (
+    ("The Threshold", "Random Encounters — Sunken Archive", (
         "Ancient-complex random encounters provide the ordinary combat layer during Archive exploration.",
         "Current enemy pool: Archive Current; Memory Scribe; Vault Sentinel; Drowned Archive Maw.",
     ), CH2, ("Archive Current", "Memory Scribe", "Vault Sentinel", "Drowned Archive Maw")),
