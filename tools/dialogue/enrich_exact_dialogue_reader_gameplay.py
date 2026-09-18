@@ -125,8 +125,8 @@ def intro_text() -> list[str]:
         if line.startswith("#"):
             break
         out.append(line.replace("**", "").replace(chr(96), ""))
-    if not out or out[-1] != "Cards still work exactly as people expect them to. Usually.":
-        raise RuntimeError("World intro no longer ends on the approved Usually line")
+    if not out or out[-1] != "If I catch you using it as one, we're going to have a conversation.":
+        raise RuntimeError("World intro no longer ends on Nimera's approved sign-off")
     return out
 
 
