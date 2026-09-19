@@ -3,6 +3,7 @@
 **Chapter:** 1  
 **Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — LOCKED CURRENT CHAPTER-1 DIALOGUE — BEATS 1–15 TRUE-VOICE + CHAPTERS 0–3 CONTINUITY AUDITED; C02/C03/C04 RETAINED CURRENT**  
 **Combined read-through:** `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **CURRENT SYNCHRONIZED DERIVED READ-THROUGH**  
+**Last full synchronization verification:** **2026-09-19 — Dialogue Sync run 82 passed all generation/check stages; current runtime mirror = 2,901 spoken lines across 60 scenes.**  
 **Character-Life numbering:** `../CHARACTER_LIFE_NUMBERING_LOCK.md`  
 **Character-Life content:** `CHARACTER_LIFE_REBUILD_LOCK.md`  
 **Rhythm:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
