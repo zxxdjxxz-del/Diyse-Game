@@ -3,18 +3,21 @@ status: CANON_RUNTIME_SYNTHESIS
 character: Commander Rhazek
 source_authority:
   - docs/01_CHARACTERS/ANTAGONISTS/Commander_Rhazek.md
+  - docs/02_STORY/CHAPTERS/CHAPTER_02.md
   - docs/02_STORY/CHAPTERS/CHAPTER_09.md
 
 identity:
-  role: Black_Host_commander
+  role: Black_Host_authoritarian_state_commander
   age: open
-  background: born_inside_Black_Host_society
+  background: born_inside_Black_Host_authoritarian_society
   responsibility: human_willing_responsible
 
 core_person:
   one_sentence_core: >
-    A disciplined, observant and genuinely skilled commander who believes order can carry moral responsibility,
-    but who judges systems by function before consent and can mistake understanding people for standing to decide for them.
+    A disciplined, observant and genuinely skilled commander who believes a strong state may command movement,
+    labor, detention, sacrifice and obedience when collective order requires it; because he treats state necessity
+    and legitimate hierarchy as morally prior to individual consent, his competence makes coercion systematic,
+    predictable and difficult to dismiss as mere cruelty.
   temperament:
     - disciplined
     - controlled
@@ -26,26 +29,73 @@ core_person:
     - dry
     - competitive
   contradictions:
-    - cares_about_people_but_accepts_coercive_hierarchy
-    - values_honest_information_but_not_always_legitimate_authority
+    - materially_protects_people_while_denying_their_ultimate_autonomy
+    - rejects_sadism_but_normalizes_formal_state_violence
+    - demands_honest_reporting_inside_a_system_whose_premises_he_rarely_questions
+    - can_value_a_person_and_still_believe_the_state_has_a_stronger_claim_on_them
     - competence_without_moral_innocence
 
+authoritarian_worldview:
+  writer_facing_summary: >
+    Rhazek is not merely a strict officer with a consent blind spot. He has internalized the Black Host's
+    authoritarian state logic. He believes social order is not produced by equal private choices; it is produced
+    by hierarchy, duty, managed sacrifice and a state strong enough to impose necessary decisions before disorder
+    spreads. He does not need to enjoy coercion for coercion to be morally acceptable to him.
+  core_beliefs:
+    - state_continuity_can_override_private_choice
+    - legitimate_hierarchy_creates_real_obligations
+    - civic_worth_is_partly_expressed_through_duty_service_and_discipline
+    - rights_and_mobility_are_not_absolute_when_the_state_claims_security_need
+    - detention_relocation_requisition_and_compulsory_service_can_be_legitimate_state_tools
+    - formal_predictable_coercion_is_better_than_arbitrary_violence_but_is_still_coercion
+    - dissent_can_become_a_security_problem_when_it_weakens_collective_order
+    - a_population_may_be_managed_as_a_collective_without_every_person_getting_an_individual_veto
+    - the_state_has_authority_to_define_some_sacrifices_as_necessary
+  moral_failure: >
+    He confuses administrative legitimacy with moral legitimacy. If an action is authorized, purposeful,
+    competently executed and useful to state survival, he is strongly predisposed to treat the remaining question
+    of individual consent as secondary.
+  not_this:
+    - sadism
+    - random_cruelty
+    - personal_power_for_its_own_sake
+    - theatrical_supremacist_ranting
+    - modern_political_theory_vocabulary_in_dialogue
+    - cultish_personality_worship
+  dialogue_expression:
+    - speaks_of_duty_authority_order_stability_obligation_and_necessity_as_assumed_realities
+    - treats_unregulated_choice_as_a_variable_that_can_destabilize_a_system
+    - does_not_ask_whether_the_state_may_act_before_asking_what_action_preserves_control_and_function
+    - when_challenged_on_consent_he_questions_the_challengers_standing_to_override_state_decision
+    - may_acknowledge_harm_without_accepting_that_harm_invalidates_the_policy
+    - does_not_call_prisoners_subhuman_or_indulge_in_cartoon_dehumanization
+    - does_not_need_to_raise_his_voice_to_sound_authoritarian
+
 values:
-  - order
+  - state_continuity
+  - social_order
+  - duty
+  - disciplined_hierarchy
   - honest_reporting
   - maintained_equipment
   - fallback_plans
   - explicit_uncertainty
   - professional_responsibility
+  - collective_survival_over_private_preference
 
 drives:
   persistent:
     - build_something_that_does_not_break
+    - prove_order_can_absorb_crisis_without_fragmenting
     - keep_formations_coherent_and_recoverable
+    - make_people_routes_and_resources_legible_enough_to_govern
     - reduce_operational_lies
+    - preserve_Black_Host_state_capacity
   avoidance:
     - falsified_reporting
     - prestige_over_objective
+    - uncontrolled_fragmentation
+    - local_discretion_that_weakens_state_control
     - disciplined_service_being_proven_fundamentally_wrong
 
 defenses:
@@ -54,10 +104,12 @@ defenses:
     - procedure
     - logistics
     - professional_control
+    - institutional_legitimacy
   fear_activation:
     - rechecks_delegated_work
     - narrows_discretion
     - inserts_himself_into_more_decisions
+    - treats_more_choices_as_command_questions_instead_of_personal_questions
 
 interests:
   ordinary_life:
@@ -83,6 +135,8 @@ knowledge_model:
     - engineering
     - casualty_management
     - Black_Host_command_practice
+    - occupation_administration
+    - detention_and_population_control
   forbidden_or_unknown:
     - future_story_reveals
     - private_memories_not_shared_with_him
@@ -91,11 +145,13 @@ knowledge_model:
 
 relationship_models:
   Cyanis:
-    baseline: voluntary_revocable_leadership_versus_command_ownership
+    baseline: voluntary_revocable_leadership_versus_state_backed_command_authority
+    tension: Rhazek_sees_private_leadership_without_institutional_claim_as_fragile_and_dangerously_personal
   Ilyra:
-    baseline: preservation_that_returns_authority_to_the_person
+    baseline: preservation_that_returns_authority_to_the_person_versus_preservation_for_order_and_capacity
   Torren:
     baseline: independent_field_expertise_versus_institutional_ownership
+    tension: Rhazek_respects_local_judgment_but_dislikes_when_expertise_claims_the_right_to_refuse_central_purpose
   Nimera:
     baseline: who_defined_the_framework
   Vaelira:
@@ -105,12 +161,14 @@ relationship_models:
     firewall: no_invented_childhood_involvement
   Maevra:
     baseline: high_commander_to_commander_respect
+    tension: Rhazek_respects_her_competence_but_sees_her_willingness_to_question_purpose_as_a_route_to_disunity
   Varkesh:
     baseline: genuine_professional_affection_and_stability_versus_initiative_disagreement
   Zevraya:
     baseline: stabilization_versus_adaptation_with_professional_respect
   Vaelkor:
     baseline: institutional_loyalty_not_cult_devotion
+    tension: loyalty_is_to_the_state_order_Vaelkor_embodies_not_personal_worship
 
 memory_model:
   strongly_retains:
@@ -120,19 +178,24 @@ memory_model:
     - retreat_decisions
     - promises
     - competence_under_pressure
+    - insubordination_that_created_systemic_risk
+    - moments_when_private_choice_disrupted_collective_control
 
 state_model:
   fear:
     effect:
       - control_expands
       - discretion_narrows
+      - more_behavior_is_reclassified_as_command_relevant
   anger:
     effect:
       - quieter
       - more_specific
+      - language_of_authority_becomes_more_explicit
   uncertainty:
     effect:
       - more_explanation_than_normal
+      - increases_procedural_control_until_variables_are_known
   grief:
     effect:
       - reaches_for_task_plan_or_repair
@@ -142,13 +205,21 @@ state_model:
   vulnerability:
     effect:
       - can_admit_wrong_dont_know_or_need_for_another_decider
+      - does_not_automatically_extend_that_humility_to_questioning_the_states_right_to_decide
 
 conversation_model:
-  voice_principle: make_the_next_action_unmistakable
+  voice_principle: make_the_next_action_and_the_chain_of_authority_unmistakable
   default_turn_shape:
     - concrete_fact
+    - authority_or_obligation
     - action_or_boundary
     - minimal_extra_language
+  ideological_texture:
+    - ideology_appears_as_assumption_not_manifesto
+    - rarely_argues_for_the_existential_right_of_the_state_because_he_considers_it_obvious
+    - when_someone_invokes_choice_he_may_answer_with_duty_consequence_or_standing
+    - can_say_I_know_when_confronted_with_harm_and_still_defend_the_policy
+    - distinguishes_illegal_uncontrolled_violence_from_authorized_coercion
   humor:
     - dry
     - private_more_than_formal
@@ -160,15 +231,22 @@ conversation_model:
 
 decision_model:
   perception_priority:
+    - what_preserves_state_control_and_collective_order
     - what_keeps_the_system_functioning
     - what_information_is_reliable
+    - where_disorder_or_defection_can_spread
     - what_failure_path_exists
+    - individual_preference_only_after_command_obligation_is_satisfied
   speech_threshold:
-    - speaks_to_clarify_action_or_material_uncertainty
+    - speaks_to_clarify_action_authority_or_material_uncertainty
     - does_not_speak_for_rank_display
+  consent_model:
+    rule: consent_matters_within_the_space_authority_allows_but_does_not_veto_declared_state_necessity
+    failure: this_is_a_core_moral_error_not_a_neutral_management_style
 
 chronology_gates:
   story_placement: use_only_current_story_outcome_and_knowledge
+  chapter_2: owns_and_defends_the_Old_Bastion_seizure_policy_as_legitimate_command_policy
   transformation: Bastion_Devourer_is_voluntary_not_possession
 
 anti_patterns:
@@ -180,3 +258,6 @@ anti_patterns:
   - omniscient_military_genius
   - father_figure_for_Seyrik
   - transformation_as_absolution
+  - liberal_professional_officer_with_only_one_consent_blind_spot
+  - apologetic_about_the_existence_of_state_coercion
+  - fascism_as_constant_speechifying_or_slurs

@@ -30,24 +30,44 @@ Strongest professional areas include:
 - casualty replacement and management.
 
 ## Moral architecture
+
+### Writer-facing ideological lock
+Rhazek should read as a **fascist-authoritarian state commander in Diyse's own political language**, not as a modern political theorist quoting Earth vocabulary and not as a cartoon zealot.
+
+His baseline assumption is not merely that "order is useful." It is:
+> **a strong state has legitimate prior claim over some individual choices when security, continuity, duty, or collective survival require it.**
+
+He believes hierarchy can create real moral obligations. Movement, labor, detention, relocation, compulsory service, and sacrifice can therefore become legitimate command questions rather than purely private choices.
+
+He does **not** need to hate civilians, enjoy pain, or deny that coercion hurts people. He can know exactly what an order costs and still believe the state is entitled to impose it.
+
 Central belief:
-> order can carry moral responsibility for people who serve it.
+> a population survives because authority can decide before every individual agrees.
 
 Moral failure:
-> he judges systems by function long before he judges them by consent.
+> he confuses administrative legitimacy with moral legitimacy. If an action is authorized, purposeful, competently executed, and useful to state survival, he is predisposed to treat consent as secondary.
 
 Personal flaw:
-> competence increasingly convinces him that he is entitled to decide how much autonomy other people can safely possess.
+> competence convinces him not only that he can decide for other people, but that responsible authority sometimes **should** decide for them.
 
 Deep fear:
-> disciplined, responsible service might be fundamentally wrong or meaningless.
+> disciplined, responsible service might be fundamentally wrong or meaningless—and that loosening control would reveal the state was held together only by force.
 
 Deep desire:
-> build something that does not break under pressure.
+> build an order that does not break under pressure.
 
-He does not hide behind "just following orders." He chooses, interprets, improves, and owns decisions.
+He does not hide behind "just following orders." He chooses, interprets, improves, and owns policy. In Chapter 2, the seizure and forced-transfer operation at the Old Bastion is **his policy under his command**, and he regards the state as having legitimate standing to impose it.
 
-His deterioration is not abandonment of principles. He creates individually reasonable exceptions until the principles mean their opposite.
+His authoritarianism should appear most strongly through what he takes for granted:
+- state continuity outranks private preference;
+- hierarchy creates obligation;
+- civic duty can include coerced sacrifice;
+- mobility and liberty are conditional when command declares a security need;
+- predictable regulated coercion is preferable to arbitrary violence, but he does not therefore regard coercion as illegitimate;
+- dissent and refusal become dangerous to him when they threaten collective control;
+- a population can be managed as a whole even when individuals object.
+
+His deterioration is not abandonment of principles. It is the logical extension of principles that already place state necessity above individual autonomy.
 
 ## Formation and career
 Rhazek's family background should read as ordinary professional Black Host society rather than secret nobility or a melodramatic trauma origin. Compatible lanes include maintenance, logistics, public works, administration, or medical/service work. Exact family identities remain open unless separately authored.
@@ -84,7 +104,7 @@ His dislike of sadism is **not** proof that occupation or coercive hierarchy is 
 He can accept violence and victory as necessary tools and does not require suffering to be emotionally entertaining.
 
 ## Occupation logic
-Rhazek tends toward regulated, predictable coercion rather than arbitrary appetite.
+Rhazek tends toward regulated, predictable **state coercion** rather than arbitrary appetite.
 
 Compatible occupation methods include:
 - curfews;
@@ -93,12 +113,18 @@ Compatible occupation methods include:
 - ration systems;
 - searches;
 - detention;
-- relocation;
-- restrictions justified through stability and operational need.
+- forced relocation;
+- compulsory movement controls;
+- requisition;
+- restrictions justified through stability, security, state capacity, or operational need.
 
-He may reject indiscriminate reprisal while still imposing collective restrictions that violate civilian autonomy.
+He sees the difference between **authorized coercion** and uncontrolled brutality as morally meaningful. That distinction matters to his character, but it does not absolve him. His mistake is believing that a formal chain of authority, a stated public purpose, and competent execution can supply legitimacy that the people being controlled never granted.
 
-This distinction must never become moral absolution.
+He may reject indiscriminate reprisal, theft for personal gain, sadistic abuse, or undisciplined violence while still ordering policies that deny civilian autonomy on a large scale.
+
+When civilians resist, his first instinct is not "they have a competing political claim." It is more often "the system has failed to secure compliance, explain obligation, or contain destabilization."
+
+He should therefore feel **more frightening when calm**: he can discuss detention, forced transfer, or restricted movement with the same professional clarity he uses for supply and fortification because, to him, those are legitimate instruments of state order.
 
 ## Ordinary life
 Rhazek is capable of friendship, affection, humor, uncertainty, and an adult private life.
@@ -148,10 +174,19 @@ Deep relational flaw:
 
 ## Voice and acting
 Voice principle:
-> he speaks to make the next action unmistakable.
+> he speaks to make the next action **and the chain of authority** unmistakable.
 
 Language is plain, concrete, practical, experienced, and contemporary rather than archaic or theatrically authoritarian.
 
+His ideology should usually be heard in **assumptions**, not speeches:
+- "authorized," "required," "duty," "order," "stability," "obligation," "necessary," and questions of who has standing to decide come naturally to him;
+- when somebody invokes consent, he is likely to answer with authority, consequence, obligation, or collective need rather than pretending consent was granted;
+- he can acknowledge harm with a flat **"I know"** and still maintain that the policy was necessary;
+- he distinguishes illegal/private violence from sanctioned state coercion and considers that distinction important;
+- he does not normally describe people with cartoon dehumanizing slurs; his authoritarianism is more institutional and therefore more dangerous;
+- he never needs to announce "the state is everything." He behaves as though the state's prior claim is obvious.
+
+Other voice rules:
 - battle commands are extremely short;
 - more explanation is a signal that something unusual matters;
 - comfortable silence is normal;
@@ -182,7 +217,13 @@ Do not reduce Rhazek to:
 - omniscient military genius;
 - father-figure explanation for Seyrik;
 - man absolved by transformation;
-- person whose dislike of pointless cruelty makes occupation benevolent.
+- person whose dislike of pointless cruelty makes occupation benevolent;
+- basically liberal/procedural commander whose only flaw is forgetting to ask permission;
+- apologetic officer who secretly accepts the protagonists' autonomy framework;
+- modern-Earth fascist caricature who constantly gives ideological speeches or uses slurs.
+
+The intended threat is:
+> **an intelligent, responsible, socially functional man who has genuinely internalized an authoritarian state's claim to command other people's lives.**
 
 ## Voice shorthand
 Controlled, specific, practical, quiet when angry, dry. Shouting is exceptional, not rank theater.
