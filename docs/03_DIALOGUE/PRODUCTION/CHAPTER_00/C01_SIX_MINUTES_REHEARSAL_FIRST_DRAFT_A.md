@@ -1,50 +1,38 @@
 # Chapter 0 — Character-Life C01
 # Six Minutes
-## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
-
----
+## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — LIGHT TRUE-VOICE / ECONOMY PASS
 
 ### [OVERNIGHT CAMP — OPTIONAL CHARACTER-LIFE TRIGGER]
 
 Late evening after P07.
 
-Most of the surviving convoy has already moved toward Brackenwall. Cyanis and Ilyra remain at the quieter field camp with the intact Card and minimal practical support.
-
-Because this is camp, both Cyanis and Ilyra may be visibly present as field models. Portraits and the dialogue box carry most of the scene.
-
-The Card is dark and inert.
+Most of the surviving convoy has already moved toward Brackenwall. Cyanis and Ilyra remain at the quieter field camp with the intact, inert Card and minimal practical support.
 
 No plot reveal occurs here.
 
-This is the first time Ilyra is allowed to exist for several uninterrupted minutes without an active patient, battle, or Card response demanding her professional voice.
-
----
-
 ### [BITTERLEAF]
 
-Cyanis has a cup in hand.
-
-He takes a drink.
+Cyanis takes a drink from a cup.
 
 Stops.
 
 Stares into it.
 
-Ilyra notices from several feet away.
+Ilyra notices.
 
 **ILYRA:** That bad?
 
-**CYANIS:** Horse shit would be better. Who's tea is this?
+**CYANIS:** Horse shit would be better. Whose tea is this?
 
 Ilyra's eyes drop to the cup.
 
 **ILYRA:** Where did you get that?
 
-**CYANIS:** The pot near the fire.
+**CYANIS:** Pot near the fire.
 
-Ilyra gets close enough to smell it.
+She gets close enough to smell it.
 
-Then she stares at him.
+Then stares at him.
 
 **ILYRA:** That's bitterleaf.
 
@@ -64,67 +52,47 @@ Ilyra holds out her hand.
 
 **ILYRA:** Give me the cup.
 
-**CYANIS:** That's not a rebuttal.
-
-**ILYRA:** Cyanis.
-
 He hands it over.
 
-**CYANIS:** Fine. But if I die from this, I want the report to say I survived Riftmaw and was killed by poor beverage management.
+**CYANIS:** If I die from this, I want the report to say I survived Riftmaw and was killed by poor beverage management.
 
-Ilyra smells the cup again.
+**ILYRA:** You're not going to die from bitterleaf.
 
-**ILYRA:** You're not going to die from drinking some bitterleaf.
-
-**CYANIS:** I'll take it.
+**CYANIS:** Good.
 
 A beat.
 
-**ILYRA:** You are, however, going to suffer severely from hearing about it for as long as I find it funny.
+**ILYRA:** You are going to hear about it for as long as I find it funny.
 
-Cyanis looks at her.
-
-**CYANIS:** That's a much worse prognosis.
+**CYANIS:** Worse prognosis.
 
 Ilyra laughs before she can stop herself.
 
-**CYANIS:** There. First laugh. Cost me my dignity, but we got there.
+**CYANIS:** There. First laugh. Cost me my dignity.
 
-**ILYRA:** You drank a compress. I don't think I did anything.
+**ILYRA:** You drank a compress. I didn't do anything.
 
 **CYANIS:** Some of a compress.
 
 **ILYRA:** Important distinction.
 
-No elaborate prop routine is needed.
-
----
-
-### [DINNER, APPARENTLY]
+### [DINNER]
 
 Cyanis returns with two bowls of stew.
 
-Ilyra looks at the second one.
+Ilyra eyes the second one.
 
-**ILYRA:** I didn't ask for whatever you found this time.
+**ILYRA:** You checked this one first?
 
-**CYANIS:** This one's actually edible. I promise.
+**CYANIS:** Thoroughly.
 
-**ILYRA:** And?
+She takes it.
 
-**CYANIS:** Beef stew.
+They eat for a little while.
 
-Ilyra takes the bowl.
+Cyanis inspects one bite.
 
-**ILYRA:** Strong start.
-
-They eat for a while.
-
-The food is ordinary and good enough.
-
-Cyanis tastes it with exaggerated caution.
-
-**ILYRA:** If you are certain why are you inspecting every bite?
+**ILYRA:** You said you checked it.
 
 **CYANIS:** Trust has been damaged.
 
@@ -134,27 +102,15 @@ Cyanis tastes it with exaggerated caution.
 
 Ilyra takes another bite.
 
-**ILYRA:** This is why you don't touch things without asking people.
-
-**CYANIS:** This is why people don't put a cup beside a pot of medicine.
-
-**ILYRA:** You really need there to be shared blame.
-
-**CYANIS:** I need there to be *some* blame that isn't mine.
-
-**ILYRA:** Then tonight has been difficult for you.
+**ILYRA:** Tonight has been difficult for you.
 
 Cyanis laughs into the bowl.
 
----
-
 ### [FIRST IMPRESSIONS]
 
-For a while, neither speaks.
+A quiet stretch passes.
 
-The silence is not awkward, but it is still the silence of two people who met today.
-
-Eventually Ilyra looks over at him.
+Eventually:
 
 **ILYRA:** I thought you were an officer when I first saw you.
 
@@ -164,25 +120,17 @@ Cyanis looks surprised.
 
 **ILYRA:** Everybody kept shouting your name like you were responsible for whatever was happening near them.
 
-**CYANIS:** That's not about rank, that's about ability.
+**CYANIS:** That's not rank. That's ability.
 
-**ILYRA:** I soon realized you weren't.
-
-**CYANIS:** What changed your mind?
-
-Ilyra thinks about it.
-
-**ILYRA:** Everything else you did, plus the pissed off look on the actual officer telling you what to do.
+**ILYRA:** I realized that wasn't it when I saw the actual officer looking pissed at you.
 
 Cyanis stares at her.
 
 Then laughs.
 
-**CYANIS:** Fuuuuuck
+**CYANIS:** Fuck.
 
 **ILYRA:** You asked.
-
-**CYANIS:** I did. My mistake.
 
 A beat.
 
@@ -198,51 +146,33 @@ A beat.
 
 **ILYRA:** You listened when I told you why you couldn't have it. Then you moved the crates yourself.
 
-Cyanis stops.
+Cyanis pauses.
 
 **CYANIS:** That sounded almost nice.
 
 **ILYRA:** Don't get greedy.
 
-**CYANIS:** Right. Sorry.
+**CYANIS:** Right.
 
 Ilyra eats another spoonful.
 
-**ILYRA:** Also, you apologized to an inanimate object earlier.
+**ILYRA:** You also apologized to the wagon.
 
 Cyanis slowly turns toward her.
 
 **CYANIS:** No, I didn't.
 
-**ILYRA:** You hit the side of the wagon and said `sorry.`
+**ILYRA:** You hit it and said `sorry.`
 
-**CYANIS:** There were people under it earlier. Habit.
+**CYANIS:** Habit.
 
-**ILYRA:** You apologized to the wagon.
-
-**CYANIS:** You have no proof.
-
-**ILYRA:** I was there.
+**ILYRA:** You apologized to a wagon.
 
 **CYANIS:** Unreliable witness.
 
-**ILYRA:** Physician, actually.
+**ILYRA:** I was standing there.
 
-A beat.
-
-Ilyra catches herself.
-
-**ILYRA:** No. Fuck. That was terrible.
-
-Cyanis starts laughing.
-
-**CYANIS:** You walked into that one yourself.
-
-**ILYRA:** I know. Don't enjoy it this much.
-
-He enjoys it exactly that much.
-
----
+Cyanis gives up arguing.
 
 ### [NEITHER OF THEM STOPS]
 
@@ -260,13 +190,13 @@ Ilyra looks at him.
 
 **ILYRA:** You don't even know what it is.
 
-**CYANIS:** Neither do you yet. You just had the posture.
+**CYANIS:** Neither do you. You just had the posture.
 
 Ilyra stares at him.
 
 **ILYRA:** The posture.
 
-**CYANIS:** The one where sitting has apparently offended you and now you need a task.
+**CYANIS:** The one where sitting has offended you and now you need a task.
 
 Ilyra looks toward the quieter camp.
 
@@ -276,47 +206,37 @@ Ilyra looks toward the quieter camp.
 
 She narrows her eyes.
 
-**ILYRA:** You were about to stand up too.
+**ILYRA:** You were about to stand too.
 
 Cyanis pauses.
-
-**CYANIS:** I was adjusting.
-
-**ILYRA:** Toward standing.
 
 **CYANIS:** Maybe.
 
 **ILYRA:** To do what?
 
-Cyanis looks toward the dark perimeter.
+He looks toward the dark perimeter.
 
 **CYANIS:** Didn't have one yet.
 
-**ILYRA:** So you were also going to go find a problem.
+**ILYRA:** So you were going to find a problem.
 
-**CYANIS:** When you say it like that, it sounds unhealthy.
+**CYANIS:** Sounds worse when you say it.
 
 **ILYRA:** I wasn't being medical.
 
-**CYANIS:** Somehow that makes it worse.
-
-Ilyra smiles despite herself.
+**CYANIS:** Somehow worse again.
 
 Neither gets up.
-
----
 
 ### [SIX MINUTES]
 
 A little time passes.
 
-Cyanis settles back instead of pretending he was not about to move.
-
 **CYANIS:** Five minutes.
 
 **ILYRA:** For what?
 
-**CYANIS:** We sit here and do absolutely nothing useful. No perimeter, no patients unless somebody actually calls, no inventory, no finding work because the silence made us nervous.
+**CYANIS:** We sit here and do absolutely nothing useful. No perimeter, no patients unless somebody calls, no inventory, no finding work because the silence made us nervous.
 
 Ilyra considers him.
 
@@ -324,7 +244,7 @@ Ilyra considers him.
 
 **CYANIS:** Why six?
 
-**ILYRA:** Five sounds planned. Five sounds like you picked a respectable little unit, turned resting into a task, and intend to congratulate yourself when you complete it.
+**ILYRA:** Five sounds planned. Like you picked a respectable unit, turned resting into a task, and intend to congratulate yourself when you finish it.
 
 Cyanis thinks about that.
 
@@ -332,11 +252,11 @@ Cyanis thinks about that.
 
 **ILYRA:** Six is stupid enough that it can't pretend to be efficient.
 
-**CYANIS:** Six minutes of aggressively unplanned nothing, then.
+**CYANIS:** Six minutes of aggressively unplanned nothing.
 
-**ILYRA:** You just made it sound like work again.
+**ILYRA:** You made it sound like work again.
 
-**CYANIS:** Right. Sorry.
+**CYANIS:** Right.
 
 A beat.
 
@@ -346,26 +266,8 @@ A beat.
 
 No more dialogue follows.
 
-In the next visual beat, both Cyanis and Ilyra are shown passed out where they were sitting.
+In the next visual beat, both Cyanis and Ilyra are shown asleep where they were sitting.
 
-No confession follows. No relationship summary. No discussion of destiny, the Card, or what the day meant.
+The Card remains dark and inert.
 
-The scene ends on them asleep in the quiet.
-
----
-
-## C01 function
-
-- gives Cyanis and Ilyra their first ordinary post-crisis Character-Life scene;
-- keeps their ease early and tentative rather than instantly intimate;
-- lets the bitterleaf mistake start the scene without making medicine its continuing subject;
-- allows Ilyra to laugh, tease, swear, tell a mildly embarrassing observation, be curious, and make a bad joke she immediately regrets;
-- allows Cyanis and Ilyra to exchange first impressions as two adults who met under terrible circumstances rather than as patient and Warden;
-- keeps their shared tendency to invent work for themselves, but does not turn that recognition into diagnosis or therapy;
-- ends with the arbitrary shared rule of six minutes doing nothing useful, followed immediately by both of them falling asleep;
-- Card remains inert;
-- C01 does not advance Chapter 0.
-
-## Person-Brain / Ilyra role-balance note
-
-This is deliberately the Chapter-0 proof that Ilyra is not only the medical voice. The scene begins with a medical-context joke because Cyanis literally drank bitterleaf, then leaves medicine behind. Ilyra participates through humor, first impressions, profanity, pettiness, observation, and ordinary curiosity. Neither person exists only to prompt or manage the other, and no confession or emotional diagnosis is required.
+Scene ends.

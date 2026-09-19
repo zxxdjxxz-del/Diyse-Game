@@ -3,6 +3,7 @@
 **Chapter:** 0 — Broken Convoy  
 **Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — P01–P07 + C01; ATOMIC DIALOGUE + CURRENT PERSON BRAINS ALIGNED**  
 **Combined read-through:** `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **STALE; do not use as exact wording authority until resynchronized**  
+**Current atomic spoken-line counts:** **309 mandatory + 79 C01 = 388 if C01 is viewed.**  
 **Rhythm:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
 **Mature-adult speech:** `../../AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`  
 **Spoken-vs-narration:** `../../AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`
@@ -118,4 +119,4 @@ If Chapter-0 sources disagree:
 7. combined manuscript only after verified resynchronization;
 8. historical material only as provenance.
 
-> **Chapter 0 is fully updated at the source level. The next phase is manuscript synchronization only after Chapters 0–3 source closure is confirmed together.**
+> **Chapter 0 exact dialogue authority is current through P01–P07 plus the 79-line C01 light true-voice trim. Combined-manuscript synchronization remains a derived follow-up, not wording authority.**
