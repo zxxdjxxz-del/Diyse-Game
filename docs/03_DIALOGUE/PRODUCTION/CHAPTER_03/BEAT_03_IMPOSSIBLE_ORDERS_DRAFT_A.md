@@ -1,184 +1,138 @@
 # Chapter 3 — Beat 3
 # The Impossible Orders
-## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN — PERSON-BRAIN PERFORMANCE PASS + ROYAL-VOICE POLISH
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
 
-**Method note:** rerun under `STORY_BEAT_AS_GUARDRAIL_LOCK.md` and `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. The suspect documents, authentication result, Queen-knowledge fact, Card custody outcome, and investigation firewall remain fixed. Person Agent Brains own the route through those facts.
-
----
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ### [STORY TRIGGER — THE TRANSPORT ORDERS]
 
-Continue directly from Beat 2 in the same working royal audience.
+Continue directly from Beat 2.
 
-The original Card-transport authorization and attached routing / expenditure records are placed before the room. Keep the physical presentation ordinary and administrative; the documents should look like real Crown business, not villain props.
+The original Card-transport authorization and attached records are placed before the room.
 
-Lysara reads long enough to understand exactly what the order claims.
+Lysara reads in silence.
 
-Nobody fills the silence for her.
+Nobody fills it for her.
 
 **LYSARA:** I did not issue this.
 
 A beat.
 
-She keeps reading.
+**LYSARA:** I did not know this Card had been recovered until today.
 
-**LYSARA:** And I did not know the Card had been recovered until you told me in this room.
+Maevra answers immediately.
 
-Maevra's answer is immediate.
+**MAEVRA:** The chain presented it as direct Crown authority. Escort, routing, money. Nothing about it looked provisional.
 
-**MAEVRA:** The chain presented it as direct Crown authority. Not rumor, not somebody invoking your name. We had authorization, escort assignment, routing, and money attached to it.
+Othmar pulls the expenditure record closer.
 
-Othmar pulls the expenditure page closer.
+**OTHMAR:** Which means it was built to survive ordinary scrutiny.
 
-**OTHMAR:** Which matters. We do not spend Crown coin and assign escorts to move an inactive Card from a ruin because somebody thinks it might be interesting. Whatever else is wrong here, these records were built to survive ordinary scrutiny.
+**MIRENA:** And apparently did.
 
-**MAEVRA:** Somebody still spent the money.
+**OTHMAR:** Yes.
 
-**OTHMAR:** Yes. I am not calling the expenditure imaginary. I am saying the authority behind it now requires proof.
-
-Mirena looks through the routing pages.
-
-**MIRENA:** It passed through enough hands to behave like an ordinary order.
-
-**OTHMAR:** Good. That gives us people, timestamps, countersigns, and accounts to audit instead of one mysterious piece of paper and a room full of guesses.
-
-Cyanis glances at the document.
-
-**CYANIS:** Encouraging way to describe fraud against the Crown.
-
-**OTHMAR:** I prefer problems with records.
-
-**CYANIS:** I believe you.
-
-Lysara sets the page down.
+Lysara sets the authorization down.
 
 **LYSARA:** Authenticate it.
 
 ### [AUTHENTICATION]
 
-The standard Crown first-line authentication check is performed on the suspect authorization.
-
-Use one restrained physical-magical response appropriate to established Crown procedure. Do not turn this into a technical spectacle.
+The standard Crown authentication check is performed.
 
 The royal seal mark answers with the recognized magical authority response.
 
-A silence.
+Silence.
 
-Mirena leans forward slightly.
+Mirena leans forward.
 
-**MIRENA:** That's not only the printed Crest.
+**MIRENA:** That's real.
 
-**OTHMAR:** No.
+Othmar does not rush the answer.
 
-Lysara does not look away from the order.
+**OTHMAR:** By every check we use, yes. This document carries the genuine authority response of the Queen's personal seal.
 
-**LYSARA:** Say it plainly.
+Lysara looks at him.
 
-**OTHMAR:** By the checks we use, this document carries the genuine authority response of your personal royal seal.
+**LYSARA:** I did not seal it. I did not authorize anyone to seal it for me.
 
-Lysara looks at him now.
+Mirena's attention sharpens.
 
-**LYSARA:** I did not seal it. I did not order anyone to seal it for me. I did not authorize this transport.
+**MIRENA:** Can the response be copied?
 
-No one rushes to explain the contradiction.
+**OTHMAR:** Not by anything our current authentication practice recognizes. That is not the same as saying it cannot be done.
 
-Mirena is first to test the boundary.
+Torren looks at the page.
 
-**MIRENA:** Could the response itself be copied?
+**TORREN:** Real response. Unknown method.
 
-Othmar takes a moment before answering.
+Othmar glances at him.
 
-**OTHMAR:** Not by anything our ordinary authentication practice recognizes as forgery. That is the useful answer. The less useful answer is that I cannot turn `our checks do not know how` into `there is no way.`
+**OTHMAR:** Correct.
 
-Torren looks at the document.
+**TORREN:** Better than pretending we know.
 
-**TORREN:** So response is real. Mechanism isn't.
+Maevra looks back to the transport chain.
 
-**OTHMAR:** Mechanism is unknown.
+**MAEVRA:** Then everyone who handled this saw valid authority.
 
-**TORREN:** Better.
+Lysara answers immediately.
 
-Maevra's attention stays on the transport chain rather than the magic.
+**LYSARA:** And until evidence says otherwise, they are not culpable for obeying it.
 
-**MAEVRA:** Then everyone who handled this did exactly what they were trained to do. They saw valid authority and moved the Card.
+Mirena nods once.
 
-Lysara answers before guilt can migrate onto the wrong people.
-
-**LYSARA:** Then they acted under Crown authority as they reasonably understood it. Nobody in that chain is to be treated as culpable for obeying a document our own systems accepted unless the audit gives us evidence otherwise.
-
-**MIRENA:** That includes whoever countersigned downstream.
-
-**LYSARA:** It includes everyone until evidence makes a distinction.
-
-The ruling ends that question.
+**MIRENA:** Good.
 
 ### [THE CARD]
 
-Mirena looks toward Cyanis's Card.
+Lysara looks to Cyanis.
 
-**MIRENA:** Which leaves the object the false order was trying to move.
+**LYSARA:** The Card stays with you.
 
-Cyanis catches the direction of the conversation.
+Cyanis blinks.
 
-**CYANIS:** If the next suggestion is `move it somewhere secure`, I should mention that Brackenwall already made that unpleasant.
+**CYANIS:** That was faster than I expected.
 
-**ILYRA:** Very unpleasant.
+**LYSARA:** We already know forced separation caused harm. I see no reason to repeat it for the comfort of having the object inside palace custody.
 
-**LYSARA:** I heard the report.
+Ilyra gives the smallest nod.
 
-She looks directly at Cyanis.
+**ILYRA:** I support not recreating that experiment.
 
-**LYSARA:** Any change since the separation attempt?
+**CYANIS:** Strongly seconded.
 
-**CYANIS:** Nothing comparable. It stays with me; I stay upright. I'm comfortable preserving that arrangement until somebody has a better idea.
+**LYSARA:** This is custody, not ownership.
 
-**ILYRA:** I am also comfortable not recreating the part where his pulse dropped.
+**CYANIS:** Understood.
 
-Her contribution is dry agreement with a known practical boundary, not automatic control of the decision.
+### [NEXT STEP]
 
-Lysara decides.
+Mirena gathers the routing pages together.
 
-**LYSARA:** Then the Card stays where it is. Solmar retains responsibility for its custody. Nobody moves it merely because the palace is more secure than a road.
+**MIRENA:** Then we audit the chain. Every hand, routing change, expenditure, and countersign.
 
-**MAEVRA:** Understood.
+**OTHMAR:** And compare this against unquestionably legitimate sealed orders from the same period.
 
-**CYANIS:** Works for me.
+Lysara looks to Othmar.
 
-**LYSARA:** That was not a reward.
+**LYSARA:** Bring my physical seal. Full custody record. Every recorded use from the same window.
 
-**CYANIS:** Still works for me.
+**OTHMAR:** I'll prepare the verification room.
 
-Mirena almost smiles.
+Cyanis looks at the documents.
 
-### [EVIDENCE / NEXT STEP]
+**CYANIS:** What are we hoping to find?
 
-Mirena gathers the routing pages into a cleaner order.
-
-**MIRENA:** Originals secured. I want every hand in the chain, every routing change, every expenditure, and every countersign. If something looked ordinary because five ordinary systems agreed with one another, I want to know where the agreement started.
-
-**OTHMAR:** And legitimate sealed orders from the same period. Similar offices, similar routing if possible. We need comparison, not intuition.
-
-Lysara looks at Othmar.
-
-**LYSARA:** My physical seal. Bring it with the full custody record and every recorded use from the same period.
-
-**OTHMAR:** I'll have the verification room prepared.
-
-**CYANIS:** What are we hoping for?
-
-Lysara answers without pretending optimism.
+Lysara answers plainly.
 
 **LYSARA:** Something we can prove.
 
 A beat.
 
-**LYSARA:** Until then: no accusations. Not against seal staff, not against the transport chain, not against anyone whose name happens to appear on a page. We follow evidence, or we make this worse ourselves.
+**LYSARA:** Until then, no accusations. We follow evidence.
 
-Nobody argues.
-
-The scene ends on controlled investigation rather than accusation.
-
----
+The scene ends on the investigation becoming controlled and formal.
 
 ### [STORY HANDOFF]
 
@@ -186,28 +140,13 @@ Transition directly into:
 
 **Beat 4 — The Seal That Wasn't Used.**
 
----
+## Beat-3 end state
 
-## Person-Brain performance notes
-
-- Lysara owns the contradiction and the legal response to it. Her authority is expressed through decisive evidentiary boundaries rather than repeated exposition.
-- Maevra protects the field chain because she understands what the order looked like in operation; she does not speculate about how the fraud worked.
-- Othmar holds the floor naturally on records, expenditures, authentication limits, and audit methodology. His hidden responsibility remains fully firewalled.
-- Mirena pushes on the mechanism question without becoming a lie detector or system oracle.
-- Torren contributes one distinction that genuinely fits him: observed genuine response is not the same thing as known mechanism. He corrects wording rather than claiming magical-seal expertise.
-- Cyanis owns his willingness to keep the Card where it is; Ilyra adds a dry firsthand reason not to repeat the separation rather than becoming the automatic safety authority.
-- the transport chain is cleared provisionally by Lysara's judgment, not by authorial narration.
-- conversational ownership is deliberately uneven: Lysara, Othmar, and Maevra dominate because this is their institutional/operational problem; the permanent party does not receive equal ceremonial turns.
-
-## Canon / knowledge check
-
-**PASS — Person-Brain performance pass.**
-
-- Lysara did not know the Card had been recovered before this audience.
-- the suspect authorization produces the genuine authority response of Lysara's personal royal seal.
-- nobody knows how that response got onto the document.
-- the physical seal has not yet been examined in this beat.
-- no culprit is named or implied.
-- no physical-seal access, remote invocation, copied response, substitution, or other mechanism is promoted to fact.
-- Cyanis retains the Card because moving it presents a known practical risk; this is not bearer confirmation.
-- Beat 4 owns the physical-seal and custody examination.
+- Lysara states plainly that she did not issue the transport order and did not know the Card had been recovered before this audience;
+- the suspect order produces the genuine magical authority response of Lysara's personal royal seal;
+- no one knows how that response was produced;
+- the physical royal seal has not yet been examined;
+- the transport chain is provisionally protected from blame because personnel reasonably acted on authority the Crown's own systems accepted;
+- Cyanis retains physical custody of the Card because forced separation previously caused a dangerous unexplained reaction;
+- this does not establish bearer status or ownership;
+- Lysara orders examination of the physical seal, its custody, recorded uses, and comparison orders.

@@ -1,163 +1,109 @@
 # Chapter 3 — Beat 11
 # First Command Warden
-## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
 
-**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, then audited under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` and current Ilyra character authority. The protected Warden sequence, exact messages, Card-state outcome, and reveal firewalls remain unchanged. Nimera's evidence discipline remains intact; Ilyra's dialogue no longer defaults to bodily supervision except for one scene-earned comparison to the known Brackenwall reaction.
-
----
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ### [GAMEPLAY — COMMAND APPROACH]
 
-Resume from the threshold at the end of Beat 10.
+The party enters the older protected command chambers.
 
-The active permanent party is:
-- Cyanis;
-- Ilyra;
-- Torren;
-- Nimera.
+The recent-reader trail becomes unreliable here.
 
-The route beyond the Hall of Seals is no longer a library. Broad fitted stone, dark metal bands, old ward-lines, heavy closures, and monumental seal-work define the protected civic / command chambers.
-
-Ordinary traversal remains Cyanis-only on the field.
-
-The recent-reader trail becomes unreliable here. Do not provide an identity clue or proof that the reader passed the guardian.
-
-The party reaches the chamber containing the large dormant Diysean Warden seen from the Beat-10 threshold.
+A large dormant Diysean Warden stands before an inner sealed way.
 
 ### [STORY TRIGGER — FIRST COMMAND CHAMBER]
 
-Player control pauses.
+The party crosses the threshold.
 
-The chamber is built around an inner sealed way beyond the dormant construct. Old ward-rings and authority marks converge through the floor and walls around the guardian.
-
-The party crosses into the chamber.
-
-A heavy internal catch releases inside the Warden.
-
-The construct lifts its head.
+A heavy catch releases inside the construct.
 
 **TORREN:** Moving.
 
-The Warden steps out of its resting position and places itself between the party and the inner sealed way.
-
-Nobody approaches it.
+The Warden steps forward.
 
 **NIMERA:** Nobody make me regret following you in here.
 
-**CYANIS:** That's aimed at me, isn't it?
+**CYANIS:** Mostly me?
 
-**NIMERA:** Mostly.
+**NIMERA:** Obviously.
 
 ### [THE ASSESSMENT]
 
-The Warden does not attack immediately.
+Seal-lines brighten across the Warden. Matching ward-rings answer through the chamber.
 
-Engraved seal-lines across its armor brighten in sequence. Matching ward-rings in the chamber answer.
-
-A band of old magical light passes deliberately across the party as a whole, lingering and shifting through the four positions while the Warden's carved apertures / inlaid lenses focus in turn.
-
-The assessment must visibly include **Cyanis, Ilyra, Torren, and Nimera**.
-
-No modern UI, targeting reticle, digital readout, or spoken identity check appears.
+A band of old magical light passes deliberately across **all four party members**, assessing each position in turn.
 
 **CYANIS:** Nobody touch anything.
 
-**NIMERA:** Happily. For once your plan is flawless.
+**NIMERA:** Happily.
 
-The light passes over Nimera and moves on.
+The light shifts across the group.
 
-**NIMERA:** It's checking us separately.
+**NIMERA:** It's changing as it crosses us.
 
-**ILYRA:** Or checking something that changes as it crosses us.
+**ILYRA:** Which isn't necessarily the same as checking us individually.
 
-Nimera's eyes stay on the ward-rings.
+Nimera glances at her.
 
-**NIMERA:** Yes. Better. Don't let me turn motion into intention yet.
+**NIMERA:** Correct. Keep that distinction.
 
-The last ward-ring fills.
+The final ward-ring fills.
 
-For one brief moment, the chamber is still.
+A beat.
 
-Then several seal-lines across the Warden harden into a different pattern.
+The Warden's seal pattern hardens.
 
-Its weapon / ward-arm comes up.
+Its weapon comes up.
 
 **TORREN:** There it is.
-
-**ILYRA:** Move.
 
 The Warden attacks.
 
 ### [BOSS BATTLE — FIRST COMMAND WARDEN]
 
 **Active battle party:**
-- Cyanis;
-- Ilyra;
-- Torren;
-- Nimera.
+- Cyanis
+- Ilyra
+- Torren
+- Nimera
 
-The First Command Warden is the major Ancient authority confrontation of Chapter 3.
+The First Command Warden is a one-HP-bar major Ancient authority confrontation.
 
-Current story presentation:
-- one HP bar;
-- no mandatory fresh-HP second form;
-- no Prime manifestation or use;
-- no speaking-villain dialogue;
-- no requirement that the Card pacify, command, or weaken the Warden.
+No Prime manifestation occurs. The Card does not pacify, command, or weaken the Warden.
 
-Its battle identity should feel heavy, deliberate, chamber-bound, and built around physical magical wardcraft rather than modern machinery.
+Combat proceeds under encounter authority.
 
-Exact mechanics, stats, attack tables, Stun usage, rewards, and encounter-validation values remain under combat authority.
+### [VICTORY]
 
-### [VICTORY — THE WARDEN DOES NOT DIE QUIETLY]
+The defeated Warden drops into a failing kneel.
 
-The First Command Warden is defeated.
-
-It does not explode.
-
-The construct drops heavily into a failing kneel / locked posture. Most of its active ward-light dies, but a small amount remains moving through the engraved plates of its body.
+Most of its light dies, but a small amount still moves through its engraved plates.
 
 Cyanis starts to lower his guard.
 
 **NIMERA:** Wait.
 
-Cyanis freezes.
+He stops.
 
-**CYANIS:** What?
-
-**NIMERA:** It's still doing something. I don't know what. Just wait.
-
-The Warden remains barely active.
-
-Ancient characters ignite across its own seal plates as part of its final failing wardcraft.
-
-The meaning resolves through the party's usable Ancient scholarship / presentation translation:
+Ancient characters ignite across the Warden:
 
 > **PREVIOUS ERROR**
 
-Nobody speaks at first.
+Nobody speaks.
 
-**CYANIS:** That's not ominous at all.
+The first message fades.
 
-**NIMERA:** Don't joke yet. I need to remember exactly what order this happens in.
-
-The first characters dim.
-
-A second line forms across the Warden itself.
+A second forms:
 
 > **LAST SENTINEL CONFIRMED**
 
 The final character completes.
-
 Every remaining light in the Warden goes out.
 
-Its body becomes completely inert.
+Silence.
 
-Nothing else moves.
-
-A long beat.
-
-**TORREN:** That's dead.
+**TORREN:** Dead.
 
 **NIMERA:** Yes.
 
@@ -165,31 +111,27 @@ Another beat.
 
 **NIMERA:** Previous error. Then last sentinel confirmed. In that order.
 
-**CYANIS:** You already memorized it.
+**CYANIS:** You memorized it already.
 
-**NIMERA:** I know. Saying it keeps me from improving it accidentally.
+**NIMERA:** Saying it keeps me from remembering a cleaner version later.
 
-No one attempts to interpret `Last Sentinel` yet.
+Nobody interprets `Last Sentinel`.
 
 ### [ONLY NOW — THE CARD]
 
 Only after the Warden is fully inert does Cyanis's Card respond.
 
-The earlier unstable green-and-gold geometry appears again—but this time it does not flare outward.
-
-The light contracts through the Card's pattern, folds inward, and reorganizes.
+Its unstable green-and-gold geometry contracts inward and reorganizes.
 
 **CYANIS:** Oh, shit.
 
-Nimera watches the geometry change rather than reaching for it.
+Nimera watches without approaching.
 
-**NIMERA:** Nobody touch him. Nobody touch the Card. Let it finish before we add anything to the event.
+**NIMERA:** Let it finish.
 
-Cyanis holds still because he wants to, not because Ilyra has taken control of him.
+The pattern resolves into a stable **deep Ruby**.
 
-The green-and-gold pattern resolves into a stable **deep Ruby** state.
-
-The immediate magical motion stops.
+The motion stops.
 
 The Ruby remains.
 
@@ -197,19 +139,17 @@ Silence.
 
 **CYANIS:** It's staying.
 
-Nimera does not answer immediately. She watches another second, then another.
+Nimera watches another moment.
 
-**NIMERA:** Yes. Stable so far.
+**NIMERA:** Stable so far.
 
 Ilyra looks at Cyanis.
 
-**ILYRA:** Same feeling as Brackenwall?
+**ILYRA:** Same as Brackenwall?
 
-**CYANIS:** No. No shaking, no cold, heart feels normal. It just changed.
+**CYANIS:** No. No cold, no shaking. I feel normal.
 
 **ILYRA:** Good.
-
-She leaves it there.
 
 Torren looks from the inert Warden to the Card.
 
@@ -217,101 +157,67 @@ Torren looks from the inert Warden to the Card.
 
 **NIMERA:** Very.
 
-**CYANIS:** You think they're connected?
+**CYANIS:** Connected?
 
-Nimera keeps looking at the now-inert Warden.
+Nimera takes a second.
 
-**NIMERA:** I think the Card changed immediately after that thing finished dying. That's the observation. I *want* to say connected because the timing is screaming at me, and that is exactly why I don't trust myself to say more yet.
+**NIMERA:** The Card changed immediately after the Warden finished shutting down. That's what I know. I want the timing to mean more than that, which is exactly why I'm not giving it more yet.
 
-**CYANIS:** That's a yes with paperwork.
+**CYANIS:** A maybe with standards.
 
-Nimera finally looks at him.
+Nimera looks at him.
 
-**NIMERA:** No. That is a "maybe" with standards.
-
-**TORREN:** Better phrase.
-
-**NIMERA:** Thank you.
-
-**CYANIS:** Don't encourage her.
-
-Nobody names what `Last Sentinel` refers to or claims the timing proves a mechanism.
+**NIMERA:** You're learning.
 
 ### [THE INNER WAY]
 
-The Warden's chamber remains quiet.
+With the Warden inert, the chamber's ward-lines fade and the inner closure releases on its own mechanism.
 
-With the guardian fully inert, the ward-lines maintaining the inner closure fade. Heavy metal catches retract from the surrounding stone and the sealed way begins to release under its own old mechanism.
-
-The Card does not touch the door and is not used as a key.
+The Card never touches it.
 
 **TORREN:** Door's giving.
 
 **NIMERA:** Without the Card.
 
-**CYANIS:** I noticed.
+**CYANIS:** Noted.
 
-**NIMERA:** I'm saying it because five minutes from now somebody is going to remember "Card changed, door opened" and quietly fuse those into one event.
+**NIMERA:** Good. `Card changed` and `door opened` are two events until we prove otherwise.
 
-**ILYRA:** You have paper. Save future-us the argument.
+The slabs part enough to reveal an Ancient seal-working chamber beyond.
 
-Nimera looks at her.
-
-**NIMERA:** I genuinely like you.
-
-**ILYRA:** Dangerous standard.
-
-The fitted slabs separate enough to expose the chamber beyond.
-
-Nimera looks into the newly opened space.
-
-Ancient physical sealcraft is visible inside: stone work surfaces, fitted dies / matrices, seal rests, engraved frames, binding circles, and old authority-working equipment.
-
-Do not inspect the room yet.
+Cyanis looks inside.
 
 **CYANIS:** Seal work.
 
-**NIMERA:** Looks like it. Actual working space, not display storage. Different wear, different—
+Nimera starts to answer, catches herself.
 
-She catches herself.
-
-**NIMERA:** No. Later. One problem at a time.
+**NIMERA:** Looks like it. Later.
 
 Ilyra raises an eyebrow.
 
-**ILYRA:** I was going to say something much less disciplined.
+**ILYRA:** That hurt, didn't it?
 
-**NIMERA:** Now I need to hear it.
-
-**ILYRA:** Later.
+**NIMERA:** Deeply.
 
 ### [GAMEPLAY HANDOFF]
 
-Player control returns at the newly opened inner chamber threshold.
-
-Current state:
-- the First Command Warden is fully inert;
-- its final communications were, in order, **PREVIOUS ERROR** and **LAST SENTINEL CONFIRMED**;
-- the meaning of both remains unresolved;
-- only after the Warden shut down did Cyanis's Card stabilize into persistent **deep Ruby**;
-- no causal mechanism between the Warden and the Card has been proven;
-- no Prime manifestation, recovery, awakening, summon, or gameplay ability occurred;
-- the Card was not used to open the inner way;
-- no new map or north-route clue has been discovered;
-- the recent reader remains unidentified.
+Player control returns at the newly opened chamber threshold.
 
 Transition directly into:
 
 **Beat 12 — Sealwright Chamber / The Copying Attempts.**
 
----
+## Beat-11 end state
 
-## Beat-11 production notes
-
-- The Warden visibly assesses the whole four-person party before attacking; the assessment is Ancient magical craft, not modern technology.
-- `PREVIOUS ERROR` and `LAST SENTINEL CONFIRMED` remain exact protected text and retain their exact order.
-- Nimera's Person Brain remains fully active under pressure: she records sequence, resists causal overclaiming, catches her own desire to connect the Warden and Card, and uses longer reasoning only where the uncertainty genuinely matters.
-- Ilyra's one bodily question after the Ruby change is scene-earned because the Card previously caused a documented physical collapse response. She asks only whether the same Brackenwall sensation is recurring, accepts Cyanis's direct answer, and does not turn it into a symptom interrogation.
-- Ilyra's other contributions are evidence-language, tactical reaction, and dry humor rather than default medical/safety ownership.
-- Deep Ruby is a persistent Card state change only. It is not Prime recovery, awakening, manifestation, identification, or a gameplay unlock.
-- the inner way opens because the defeated Warden is no longer maintaining the old closure; Nimera explicitly protects that distinction from later memory drift without pretending to know more than the scene shows.
+- the First Command Warden visibly assesses the entire four-person party before attacking;
+- the party defeats it;
+- its final communications are exactly, in order:
+  - **PREVIOUS ERROR**
+  - **LAST SENTINEL CONFIRMED**
+- the Warden becomes fully inert before the Card changes;
+- only afterward, Cyanis's Card stabilizes from green-and-gold into persistent **deep Ruby**;
+- no causal mechanism is proven;
+- no Prime manifestation, awakening, summon, or gameplay ability occurs;
+- the Card is not used as a key;
+- the Warden's shutdown releases the inner way;
+- the recent reader remains unidentified.

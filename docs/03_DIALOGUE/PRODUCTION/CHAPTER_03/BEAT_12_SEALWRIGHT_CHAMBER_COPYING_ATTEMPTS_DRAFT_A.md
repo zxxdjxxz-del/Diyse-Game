@@ -1,310 +1,200 @@
 # Chapter 3 — Beat 12
 # Sealwright Chamber / The Copying Attempts
-## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
 
-**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, then audited under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` and current Ilyra character authority. The physical evidence progression, distinction between visual copying and genuine magical authority, no-map correction, Caelora exit state, and reveal firewalls remain fixed. Nimera's evidence discipline remains intact; Ilyra contributes through research questions, inference, and ordinary reaction rather than becoming the default Card-custody or scene-closing authority.
-
----
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ### [GAMEPLAY — ENTER THE SEALWRIGHT CHAMBER]
 
-Resume at the newly opened inner chamber from Beat 11.
+The First Command Warden remains inert behind the party.
 
-The First Command Warden remains fully inert behind the party.
+Cyanis's Card remains stable **deep Ruby**.
 
-Cyanis's Card remains stable **deep Ruby**. It does not change, activate the room, or interact with the sealcraft.
+The inner room is an Ancient sealwright workshop: stone benches, fitted dies, engraving frames, seal rests, binding circles, clamps, blanks, and magical residue worked into the surfaces.
 
-The chamber is a physical Ancient workshop: stone worktables, fitted metal dies, engraving frames, seal rests, binding circles cut into the floor and benches, clamps, old blanks, preserved examples, and magical residue worked into the surfaces.
-
-Among the Ancient equipment are materials that are plainly not Ancient.
-
-Player control pauses at the first worked table.
+Some of the material is much newer than the room.
 
 ### [AUTHORED STOP — THIS WAS USED]
 
-Nimera looks across the work surface without touching anything.
+Torren notices a clean scrape through old residue.
 
-**NIMERA:** Don't touch that.
+**TORREN:** This is recent.
 
-**CYANIS:** Which part?
+Nimera follows the mark, then the discarded practice pieces nearby.
 
-**NIMERA:** Excellent question. All of it. Actually—no, the floor is probably safe. I am willing to extend provisional trust to the floor.
+**NIMERA:** So are those. And those.
 
-**TORREN:** Generous.
+She looks down the bench.
 
-Torren is looking at a clean scrape through old residue near one of the clamps.
-
-**TORREN:** This isn't old.
-
-Nimera follows his attention.
-
-There are discarded practice impressions beside the Ancient tools: rough seal faces pressed into wax / clay / test parchment, some cracked, some incomplete.
-
-**NIMERA:** No. And neither is that. Or that. Shit, there's a sequence here.
-
-She looks farther down the bench.
-
-One copied seal face is recognizably based on an Ancient example preserved in the chamber.
-
-Another attempt nearby is cleaner.
-
-Another cleaner still.
+**NIMERA:** There's a progression.
 
 **CYANIS:** Somebody practiced here.
 
-**TORREN:** More than once.
+**NIMERA:** Repeatedly. Early cuts wander. Later ones hold the line. Whoever did this improved in the room.
 
-**NIMERA:** A lot more than once. Early cuts are shallow and wandering. Later ones keep the line. Whoever did this got better in the room, not before they arrived.
+Ilyra looks over the quantity.
 
-**ILYRA:** Meaning time.
+**ILYRA:** Which means time.
 
-**NIMERA:** Time, access, patience, supplies—yes. Maybe instruction, maybe not. Don't let me sneak that one in for free.
+**NIMERA:** Time, access, patience, supplies. Maybe instruction. That last one stays maybe.
 
 ### [GAMEPLAY — FOLLOW THE WORK]
 
 Player control resumes.
 
-The player can inspect a bounded series of work positions through the chamber.
+The room itself shows the progression:
+- copied Ancient seal forms;
+- older Yahtrean examples;
+- seals taken from royal-document references;
+- repeated attempts at the **Crest of Yahtrea**.
 
-The physical progression becomes clear without a narrated checklist:
-- early attempts reproduce local Ancient seal forms;
-- later pieces copy older Yahtrean seals from historical references;
-- later still, the work shifts toward seals taken from royal-document examples;
-- the final work area contains repeated attempts at the **Crest of Yahtrea**.
-
-The environment carries most of this discovery.
-
-No new map, route relief, northern-route display, or geography clue appears anywhere in the chamber.
-
-A second authored stop triggers at the final workbench.
+No map, route relief, or geography clue appears here.
 
 ### [AUTHORED STOP — THE CREST]
 
-Cyanis stops before one of the later impressions.
+Cyanis stops at the final workbench.
 
 **CYANIS:** That's ours.
 
-Nimera looks from the impression to him.
+Nimera looks at him.
 
-**NIMERA:** You're sure?
+**NIMERA:** Certain?
 
 **CYANIS:** Yes.
 
-**NIMERA:** Good. Then I'm not wasting ten minutes comparing ornamental variance because you recognized your own damn royal Crest.
-
-Several versions of the Crest of Yahtrea sit beside one another.
-
-The early ones are visibly imperfect.
-
-The later ones are not.
+Several attempts at the Crest of Yahtrea sit together. Early versions are imperfect. Later versions are extremely close.
 
 **ILYRA:** How close?
 
-Cyanis studies the linework.
+Cyanis studies one.
 
-**CYANIS:** That one would pass at a glance. Maybe longer than a glance.
+**CYANIS:** That could pass visually.
 
-Nimera looks past the face of the seal to the surrounding binding work.
+**NIMERA:** Visually. Important word.
 
-**NIMERA:** Visually.
-
-**CYANIS:** Right.
-
-**NIMERA:** No, say it with me because this distinction is going to try to die later: visually accurate is not magically authoritative.
-
-**CYANIS:** I know.
-
-**NIMERA:** You know now. Three hours from now, after five more impossible things, your memory may decide the copy "worked." I am preemptively fighting future you.
-
-**TORREN:** Future him sounds irritating.
-
-**CYANIS:** Present him is standing here.
-
-**NIMERA:** Also irritating.
-
-The receiving ring around that attempt is scorched.
-
-So is the next one.
-
-And the next.
-
-Torren looks across the damage.
+She points to the scorched receiving rings around several attempts.
 
 **TORREN:** They kept pushing it.
 
-Nimera crouches only enough to read the surviving residue and engraved relationship. No one activates the work.
+Nimera studies the damage.
 
-**NIMERA:** Hard enough to hurt a room designed for this. That's not one failed attempt. That's repetition under load.
+**NIMERA:** Hard enough to scorch a room built for this. Repeatedly.
 
-**ILYRA:** Did it work?
+**ILYRA:** Did it ever work?
 
-Nimera does not answer immediately.
+Nimera takes her time.
 
-**NIMERA:** I can prove they made the mark. I can prove they tried to make it more than a mark. I can prove they pushed enough power through the attempts to scorch repeated receiving rings.
+**NIMERA:** I can prove they reproduced the mark. I can prove they tried to make it do more than look correct. I can prove repeated magical load.
 
-She points once at the cleanest copy.
+She looks at the cleanest copy.
 
-**NIMERA:** I cannot prove they ever got the royal response.
+**NIMERA:** I cannot prove they produced the Queen's authority response.
 
-Silence.
-
-Cyanis looks at the most accurate copy again.
+Cyanis keeps looking at it.
 
 **CYANIS:** Could they have?
 
-**NIMERA:** Yes.
-
-Everyone looks at her.
-
-**NIMERA:** Could. As in physically possible from the evidence we have? I can't rule it out. That's not me saying they did. Those are different fucking sentences and I need all of you to keep them separate.
-
-**TORREN:** We heard you.
-
-**NIMERA:** Good.
+**NIMERA:** I can't rule it out.
 
 A beat.
 
-**NIMERA:** I'm still writing it down.
+**NIMERA:** That is not the same sentence as `they did`.
+
+**TORREN:** Understood.
+
+**NIMERA:** Good.
 
 ### [THE WORKING TRAIL]
 
-Torren moves along the benches without disturbing the pieces.
+Torren follows the benches from oldest attempts to newest.
 
-There are enough repeated tool positions, discarded attempts, and reused work surfaces to show a progression rather than one isolated experiment.
+**TORREN:** Same work keeps getting narrower.
 
-**TORREN:** Same work kept getting cleaner.
+Nimera looks over the sequence.
 
-Nimera looks over the whole sequence again.
+**NIMERA:** Ancient forms first. Then older Yahtrean. Then royal examples. Then the current Crest.
 
-**NIMERA:** Cleaner and more specific. Ancient forms first, then older Yahtrean forms, then royal examples, then this. That's a narrowing target.
+**CYANIS:** A target getting more specific.
 
-**CYANIS:** Toward the Queen's seal.
+**NIMERA:** Yes.
 
-**NIMERA:** Toward the Crest used by the Crown. Maybe toward the working royal seal. Again, target versus success.
+Torren glances back toward the Hall.
 
-**CYANIS:** I heard you the first time.
+**TORREN:** Same person as the research trail?
 
-**NIMERA:** Wonderful. Then the second time is reinforcement.
+Nimera considers it.
 
-Torren glances back toward the chamber entrance.
+**NIMERA:** Could be. Same interests, compatible timing, same access problem. I'd still be stapling two unknowns together.
 
-**TORREN:** Same person as the books?
-
-Nimera looks at him, then at the work.
-
-**NIMERA:** Maybe. Same interests, compatible timing, same general access problem. But "same person" would make the mystery tidier, and tidy is exactly when I get suspicious of myself.
-
-**TORREN:** Yeah.
+**TORREN:** Fair.
 
 ### [THE RUBY CARD HOLDS]
 
-During the investigation, Cyanis checks the Card once because Beat 11's change is still fresh.
+Cyanis checks the Card.
 
-The deep Ruby state is unchanged.
-
-Nimera notices.
-
-**NIMERA:** Still holding?
+**NIMERA:** Still Ruby?
 
 **CYANIS:** Still Ruby.
 
-**NIMERA:** Good. Stable is easier to write down than whatever the hell it was doing before.
+**NIMERA:** Good. Nothing here gives me a reason to change what you're doing with it.
 
-Cyanis looks at it another moment.
+**CYANIS:** No qualifier?
 
-**CYANIS:** Any reason I should change what I'm doing with it?
+Nimera looks at him.
 
-Nimera thinks.
+**NIMERA:** That was the qualifier.
 
-**NIMERA:** No new reason. That's not the same as proving the current arrangement safe forever; it means nothing we've found in this room gives me a reason to alter the one arrangement that has stayed stable.
+Cyanis smiles.
 
-**CYANIS:** Called it.
+### [DECISION — RETURN UPSTAIRS]
 
-**NIMERA:** What?
+The room has given them enough evidence to change the Crown investigation without resolving it.
 
-**CYANIS:** The qualifier. I knew it was coming.
+Nimera identifies what can be copied and recorded without disturbing the originals.
 
-**NIMERA:** Good. You're trainable.
+**CYANIS:** Mirena needs this.
 
-No further Card analysis occurs here.
+**NIMERA:** Notes, measurements, residue, progression order. Originals stay here.
 
-### [DECISION — TAKE IT BACK UPSTAIRS]
+**CYANIS:** Obviously.
 
-The chamber has given them enough physical evidence to change the Crown investigation, but not enough to resolve it.
-
-Nimera identifies which observations can be copied without moving the original practice pieces.
-
-Torren looks once more over the progression of discarded work.
-
-**TORREN:** Whoever did this had time.
-
-**ILYRA:** And access.
-
-**NIMERA:** And either privacy or people who thought the work belonged here. Don't promote that to conspiracy; I'm listing possibilities.
-
-**CYANIS:** I wasn't going to.
-
-Nimera gives him a look.
-
-**CYANIS:** Fine. I was thinking it loudly.
-
-Cyanis looks at the repeated royal Crest attempts.
-
-**CYANIS:** Mirena needs to see this.
-
-**NIMERA:** Copies of it. Notes, measurements, residue description, progression order. Originals stay exactly where they are unless somebody with actual collection authority decides otherwise.
-
-**CYANIS:** Obviously. I'm learning.
-
-**NIMERA:** Slowly, but I believe in you.
-
-**TORREN:** Dangerous optimism.
-
-**NIMERA:** Shut up.
+**NIMERA:** I have known you for several hours. `Obviously` has not earned tenure yet.
 
 Ilyra looks toward the exit.
 
-**ILYRA:** I would like to see a room with windows again.
+**ILYRA:** Windows would be nice.
 
-**CYANIS:** Strong argument for upstairs.
+**TORREN:** Strong research conclusion.
 
-**NIMERA:** Disturbingly persuasive.
+**ILYRA:** Peer reviewed.
 
-Nimera takes one last look at the cleanest Crest copy.
+Nimera takes one final look at the cleanest Crest attempt.
 
-**NIMERA:** For now.
+**NIMERA:** Fine. Upstairs.
 
 ### [PLAYER EXIT — END OLD CITY FIELD SECTION]
 
-Player control returns in the Sealwright Chamber with the objective:
+Player control returns with the objective:
 
 **Return to Caelora.**
 
-The player may finish any immediately available chamber inspection, then choose to leave.
-
 When the player leaves:
 - the Old City field section ends immediately;
-- there is **no playable return traversal**;
-- there is no exit combat, puzzle, exterior walk, or additional Old City dialogue scene;
+- there is no playable return traversal;
 - cut directly upstairs in Caelora.
 
 Transition into:
 
 **Beat 13 — Mirena's Concern / Cresthaven Lead.**
 
----
+## Beat-12 end state
 
-## Beat-12 production notes
-
-- The current seal-copying correction controls over the superseded older Beat-12 route-relief concept. No new map or north-route evidence appears.
-- The room's physical practice sequence carries most of the exposition: Ancient copies become older Yahtrean copies, then royal-document seals, then repeated Crest of Yahtrea attempts.
-- Nimera's Person Brain actively protects the distinction between visual accuracy, attempted magical binding, possible success, and proven success; she repeats herself only because she knows the group may collapse those categories later.
-- Ilyra's research questions (`How close?`, `Did it work?`, `Meaning time`, `And access`) remain because they are genuine evidentiary questions, not caregiver assignments.
-- Cyanis asks about his own Card handling; Ilyra no longer receives the automatic custody/safety question on his behalf.
-- Ilyra does not close the field section for the group. Her final line is an ordinary personal reaction to a long underground day, and Cyanis converts the actual evidence state into the decision to return upstairs.
-- Later visual copies are highly accurate, but visible accuracy remains distinct from genuine magical authority response.
-- Burned / repeated binding work establishes unusually powerful magical effort.
-- the recent reader and seal practitioner may be connected, but Beat 12 does not prove they are the same person.
-- Cyanis's Card remains stable deep Ruby with no transformation, Prime recovery, manifestation, identification, or gameplay unlock.
-- the party does not test, activate, or create a copied royal seal.
-- on exit, the Old City field section ends immediately and the story cuts directly to Beat 13's private meeting with Mirena.
+- the sealwright chamber shows a physical progression from Ancient seals to older Yahtrean forms to royal-document examples to repeated current-Crest attempts;
+- someone spent substantial time practicing and improving here;
+- repeated magical load scorched the receiving rings;
+- visual reproduction of the Crest is proven;
+- an attempt to produce something beyond visual resemblance is strongly supported;
+- successful reproduction of the Queen's genuine magical authority response is **not** proven;
+- the seal practitioner may be connected to the recent research trail, but that identity link remains unproven;
+- Cyanis's Card remains stable deep Ruby;
+- the party records the evidence and returns to Caelora.

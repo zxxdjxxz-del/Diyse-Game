@@ -2,7 +2,7 @@
 
 **Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.  
 **Domain rule:** this file owns the current mandatory Chapter-3 story structure, scene order, reveal order, permanent-party changes, cleanup state, and chapter-end knowledge state. Exact dialogue belongs to the current Agent-Brain rehearsal-first Dialogue Engine. Combat mechanics/numbers belong to live battle and encounter authority.  
-**Status:** **CONSOLIDATED CURRENT 15-BEAT STRUCTURAL AUTHORITY — DIALOGUE PRODUCTION NEXT.**  
+**Status:** **CONSOLIDATED CURRENT 15-BEAT STRUCTURAL AUTHORITY — DIALOGUE PRODUCTION COMPLETE THROUGH BEAT 15 + C06/C07.**  
 **Consolidation audit:** `CHAPTER_03_CONTINUITY_AUDIT_2026-09-11.md`
 
 ## Authority rule

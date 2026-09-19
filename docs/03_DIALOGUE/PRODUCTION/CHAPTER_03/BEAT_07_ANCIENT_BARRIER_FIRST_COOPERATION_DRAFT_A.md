@@ -1,194 +1,132 @@
 # Chapter 3 — Beat 7
 # Ancient Barrier / First Cooperation
-## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
 
-**Method note:** fresh rehearsal under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, and current Ilyra character authority. The scene is required to end with the barrier open, Nimera free, the Card still unclassified, and the deeper Archive reactivated. The Nimera Person-Brain performance remains intact; Ilyra's dialogue is redistributed away from default safety supervision and toward curiosity, interpretation, humor, and scene-earned expertise.
-
----
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ### [STORY TRIGGER — THE FOURTH PLATE]
 
 Resume at the Ancient barrier.
 
-Nimera is still inside. Cyanis, Ilyra, and Torren remain outside.
+Nimera remains inside. Cyanis, Ilyra, and Torren are outside.
 
-**NIMERA:** Lower edge first. And don't summarize it. Tell me what is physically there.
+**NIMERA:** Lower edge first. Tell me what's physically there, not what you think it means.
 
 **TORREN:** Worn smooth for about two fingers. Rest isn't.
 
-**NIMERA:** So it travels.
+**NIMERA:** So it bears there when it moves.
 
-**TORREN:** Told you that.
+**TORREN:** Yeah.
 
-**NIMERA:** You told me it moved. Moving and bearing against the same edge are not the same piece of information.
+**NIMERA:** Good. Different fact.
 
-**TORREN:** Fair.
+Cyanis follows one engraved channel away from the fourth plate.
 
-**NIMERA:** Thank you. I hate how satisfying that was.
+**CYANIS:** This line comes back.
 
-Cyanis is following the engraved channel that runs away from the fourth plate.
+**NIMERA:** Where?
 
-**CYANIS:** It comes back.
+**CYANIS:** Up the frame, across, then behind your side.
 
-**NIMERA:** What does?
+Nimera traces what she can see.
 
-**CYANIS:** The line. Runs up the frame, crosses, then returns behind your side.
+**NIMERA:** I have a return here. Maybe the same one. Maybe not. Don't let me marry those yet.
 
-**NIMERA:** I can see the return here. Wait—no, I can see *a* return. Don't let me promote that to the return yet.
+Cyanis looks at the whole frame.
 
-A beat.
+**CYANIS:** What if the plates aren't separate controls?
 
-**CYANIS:** Then maybe the plates aren't controls.
+Nimera looks at him.
 
-**NIMERA:** That's a large maybe.
+**NIMERA:** Keep going.
 
-**CYANIS:** Crest work sometimes looks like separate marks until you follow where the working closes.
+**CYANIS:** Crest work can look like separate marks until you follow where the working closes.
 
 **NIMERA:** This isn't a Crest.
 
-**CYANIS:** I know.
+**CYANIS:** I know. I'm talking about the relationship, not the origin.
 
-**NIMERA:** Good, because if you were about to solve archaeology with family resemblance I was going to throw something through the wall.
+That gets her attention.
 
-**CYANIS:** Can you?
+**NIMERA:** Better.
 
-**NIMERA:** Not the point.
+A beat.
 
-She looks again at her side.
-
-**NIMERA:** Say the useful part again.
-
-**CYANIS:** The return matters as much as the point you start from.
-
-Nimera goes quiet.
-
-**TORREN:** You see something?
-
-**NIMERA:** Maybe. Or I'm about to fall in love with a pattern because I've been staring at it too long, which is how bad scholarship starts. Everybody shut up for ten seconds.
-
-**CYANIS:** Ten exactly?
-
-**NIMERA:** Dovaren.
-
-Cyanis shuts up.
-
-### [A SMALL TEST]
-
-Nimera studies one of the interior plates.
-
-**NIMERA:** All right. If this is a relationship rather than four independent controls, this one shouldn't open anything by itself. It should wake the line connected to it on your side—briefly, I think.
+**NIMERA:** All right. If the relationship matters more than the individual plates, one plate should answer somewhere else before anything opens.
 
 **ILYRA:** And if it doesn't?
 
-**NIMERA:** Then I let go and we admit the elegant idea was wrong before I get emotionally attached to it.
+**NIMERA:** Then the idea was wrong and we stop loving it.
 
-**ILYRA:** Good. I hate watching people defend a theory after the theory has already died.
+**ILYRA:** Excellent policy.
 
-Nimera looks at her.
+**NIMERA:** It should be the minimum.
 
-**NIMERA:** That's unexpectedly specific.
+### [GAMEPLAY — TEST THE BARRIER]
 
-**ILYRA:** I know people.
+Player control returns for the first small test.
 
-**CYANIS:** I wasn't going to improvise.
+Nimera activates one reachable plate. A corresponding exterior channel responds and the fourth plate shifts slightly.
 
-Ilyra looks at him.
+The test ends before the barrier opens.
 
-**CYANIS:** Fine. I was going to improvise a little.
+### [STORY STOP — RESULT]
 
-**TORREN:** Ready.
+**TORREN:** Moved.
 
-Nimera presses / wakes the interior plate using the harmless method she already established.
+**NIMERA:** Direction?
 
-One engraved channel brightens.
+**TORREN:** In, then up. Less than before.
 
-The fourth plate on the exterior warms and shifts only slightly.
+Nimera thinks aloud.
 
-**TORREN:** There.
+**NIMERA:** Less movement, same direction. That's not what I expected, but it doesn't kill the relationship. Could be load, sequence, or the fact that I'm still missing half the fucking mechanism.
 
-Nimera releases at once.
-
-Everything settles.
-
-**NIMERA:** Good. Again.
-
-**ILYRA:** "Good" or "exactly what you expected"?
-
-**NIMERA:** Mostly the second one.
-
-**ILYRA:** Mostly is doing a lot of work there.
-
-**NIMERA:** The fourth plate moved less than I expected, but in the direction Harth described. That's variance, not contradiction. I think.
-
-**ILYRA:** So you're repeating it because the direction matched, not because the movement was perfect.
+**ILYRA:** So matched direction matters more than matched distance.
 
 Nimera points at her.
 
-**NIMERA:** Exactly. See? This is useful. You ask irritating questions but at least they're correctly irritating.
+**NIMERA:** Yes. Exactly. Annoyingly good question.
 
-**ILYRA:** High praise.
+**ILYRA:** Thank you.
 
-**NIMERA:** Don't get used to it.
+**NIMERA:** Don't enjoy it.
 
-### [THE BARRIER OPENS]
+### [GAMEPLAY — COMPLETE THE SEQUENCE]
 
-The second test confirms the same relationship.
+The group performs the next steps through player interaction and short reactive barks rather than continuous explanation.
 
-After that, the four work the mechanism without stopping to narrate who owns which part of the solution.
+Nimera calls what she can observe from inside. Torren catches physical changes on the exterior. Cyanis tracks how the engraved return closes. Ilyra challenges only when the interpretation no longer matches what is visibly happening.
 
-Nimera calls what she can see from inside. Torren corrects physical assumptions from outside. Cyanis recognizes where the return relationship needs to close. Ilyra challenges interpretation when a term is doing too much work and notices when the pattern they are discussing stops matching what she can actually see.
+At one step, the fourth plate takes weight too early.
 
-Keep the implementation simple and readable.
+**TORREN:** Stop.
 
-At one point:
-
-**NIMERA:** Third plate down, then rotate—
-
-**TORREN:** No. Stop.
-
-Everyone stops.
+Everything stops.
 
 **NIMERA:** What?
 
-**TORREN:** Fourth plate took weight early.
+**TORREN:** Fourth took weight before the third settled.
 
-**NIMERA:** Shit. All right. That's not where I thought the load transferred. Let me—
+Nimera stares at her side.
 
-Ilyra looks at the plate.
+**NIMERA:** Shit. Then I had the transfer backward.
 
-**ILYRA:** That's the first thing today that has admitted you were wrong before you did.
+**ILYRA:** Architecture one, scholar zero.
 
-Nimera stares at her.
+**NIMERA:** I was revising.
 
-**NIMERA:** I was literally in the middle of revising.
+**ILYRA:** I know. Timing was perfect.
 
-**ILYRA:** I know. The timing was beautiful.
+**CYANIS:** Can we preserve the score?
 
-**CYANIS:** Progress.
+**NIMERA:** Absolutely not.
 
-**NIMERA:** Nobody asked either of you.
+They revise the sequence.
 
-They revise the sequence and continue.
+The engraved channels fill with restrained light. The barrier retracts.
 
-As the final relationship closes, engraved channels fill with restrained light and the fitted barrier sections begin retracting into the surrounding frame.
-
-**TORREN:** Hold.
-
-Everyone stops.
-
-One section catches, then settles.
-
-Torren watches it.
-
-**TORREN:** All right. Continue.
-
-They do.
-
-The final section withdraws.
-
-For a moment nobody says anything.
-
-Nimera walks through.
+Nimera walks through and immediately turns to inspect the exterior plate.
 
 **NIMERA:** Fuck that wall.
 
@@ -196,39 +134,17 @@ Nimera walks through.
 
 **NIMERA:** Scholarship is mostly swearing at dead people with better preservation standards.
 
-Torren snorts once despite himself.
+Torren snorts.
 
-Nimera immediately turns and looks back at the now-visible exterior side of the fourth plate.
-
-**NIMERA:** Hm.
-
-**TORREN:** Wrong?
-
-**NIMERA:** Not enough information yet to know how wrong. Which, before you say it, is different from not being wrong.
-
-**TORREN:** Wasn't going to.
-
-**NIMERA:** You had the face.
-
-**TORREN:** I have one face.
-
-**NIMERA:** Debatable.
-
-### [THE CARD, FINALLY]
+### [THE CARD]
 
 Nimera turns to Cyanis.
 
-**NIMERA:** Now show me the thing a princess sent three armed people underground for.
+**NIMERA:** Now. Card.
 
-Cyanis produces the Card but keeps it in hand.
+Cyanis holds it where she can inspect it without surrendering it.
 
-**CYANIS:** Looking.
-
-**NIMERA:** For now.
-
-She studies it closely.
-
-The Card remains green-and-gold and unclassified.
+She studies it in silence for a moment.
 
 **NIMERA:** It's organized.
 
@@ -236,83 +152,65 @@ The Card remains green-and-gold and unclassified.
 
 **NIMERA:** Don't know.
 
-**CYANIS:** That's it?
+Cyanis waits.
 
-Nimera looks up.
+Nimera notices.
 
-**NIMERA:** No. That's the honest answer. The longer answer is I can see repeated geometry, I can see that the green and gold are not random flare, I can see relationships that look deliberate, and I cannot tell you what any of them *mean* without comparisons I do not have in front of me. Would you prefer a lie with more nouns?
+**NIMERA:** That's the answer. I can see repeated geometry. The green and gold aren't random. Some relationships are deliberate. I do not have enough comparison material to tell you what they mean, and making up a category because silence feels awkward would be bad scholarship.
 
-**CYANIS:** No.
+**CYANIS:** Fair.
 
-**NIMERA:** Then don't punish short answers when I give you one.
+**NIMERA:** Thank you for not asking me to guess prettier.
 
-**CYANIS:** You just turned it into a long answer.
+She shifts her view slightly.
 
-**NIMERA:** Because you complained.
-
-Nimera keeps studying the Card.
-
-**NIMERA:** Anything changing on your end?
+**NIMERA:** Any change for you?
 
 **CYANIS:** No.
 
-**ILYRA:** Disappointingly boring.
+**ILYRA:** Tragically uneventful.
 
-Nimera looks at her.
+**NIMERA:** Uneventful is useful.
 
-**NIMERA:** Boring is excellent data.
+**ILYRA:** Still tragic.
 
-**ILYRA:** I know. Still boring.
+Nimera looks back at the Card.
 
-Nimera looks back to Cyanis.
+**NIMERA:** Keep the orientation steady. I don't know whether it matters, which is exactly why I don't want to add the variable yet.
 
-**NIMERA:** Keep holding it exactly like that. Same distance from your body if you can. And don't rotate it unless you have to.
+After another moment, she backs off.
 
-**CYANIS:** Why?
-
-**NIMERA:** Because I don't know whether orientation matters, and "I don't know" is a reason not to add variables, not an invitation to create some.
-
-She looks a little longer, then backs off on her own.
-
-**NIMERA:** Whatever it is, I need older comparisons.
+**NIMERA:** I need older comparisons.
 
 ### [THE ROUTE BEYOND]
 
-With the barrier open, the deeper continuation is now visible beyond Nimera's former work area.
+The now-open way reveals deeper, less Crown-adapted Diysean archive infrastructure.
 
-It is less Crown-adapted and more intact Diysean archive infrastructure.
-
-Nimera looks down it.
+Torren looks down it.
 
 **TORREN:** Been through there?
 
 **NIMERA:** No.
 
-**CYANIS:** That bother you?
+**CYANIS:** Excited?
 
-**NIMERA:** Immensely. Professionally, personally, spiritually—pick one.
+**NIMERA:** Professionally. Personally. Irrationally. Yes.
 
-She gathers what she needs from her work area.
+She gathers her work.
 
 **NIMERA:** Move.
 
-**CYANIS:** Temporarily?
+**CYANIS:** That's an invitation?
 
-Nimera looks back at him.
+**NIMERA:** It's a temporary failure to object.
 
-**NIMERA:** Don't make me regret learning your name.
-
-**CYANIS:** That sounded temporary.
-
-**NIMERA:** Keep talking and I'll make it permanent.
-
-Cyanis smiles and lets it go.
+**CYANIS:** I'll take it.
 
 ### [STORY HANDOFF — SOMETHING MOVES]
 
 The four enter the newly accessible route.
 
-Farther ahead, an old physical track shifts. Engraved channels brighten along one section of wall. A dormant archive fixture turns toward the reopened passage.
+An old archive mechanism shifts farther ahead.
 
 Torren stops.
 
@@ -320,11 +218,11 @@ Torren stops.
 
 **NIMERA:** Very.
 
-A second mechanism moves.
+A second mechanism wakes.
 
 **ILYRA:** Still want older comparisons?
 
-**NIMERA:** Unfortunately, yes. I would simply prefer them not to acquire limbs while I'm reading them.
+**NIMERA:** Yes. I would simply prefer them not to acquire limbs.
 
 Cut before the hostile mechanism fully presents itself.
 
@@ -332,17 +230,15 @@ Transition directly into:
 
 **Beat 8 — Archive Scribe Engine / Nimera Joins.**
 
----
+## Beat-7 end state
 
-## Beat-7 production notes
-
-- The Nimera Person-Brain performance pass remains intact while Ilyra's role is rebalanced under current character authority.
-- Cyanis's Crest knowledge appears because he notices a familiar structural relationship; nobody turns it into a lineage claim.
-- Nimera challenges the analogy before using it and explicitly catches herself overpromoting a visible pattern.
-- Ilyra's questions now test the *reasoning*—what counts as a successful small test and what the variance means—rather than making her the person who dictates everybody's safety behavior.
-- Torren owns the physical stop when the load transfer changes because he is the one who sees it.
-- Ilyra responds to Nimera's mistake with humor instead of automatically taking over the safety lane.
-- the group performs more than one small test before fully releasing the barrier, so the success remains earned.
-- nobody verbally assigns credit for the solution.
-- Nimera asks Cyanis directly whether the Card is changing; Ilyra is free to react socially instead of monitoring his body by default.
+- Cyanis contributes a bounded structural analogy from modern Crest practice without claiming lineage or identity;
+- Nimera tests the analogy rather than accepting it wholesale;
+- the barrier solution is cooperative and earned;
+- most of the mechanical sequence occurs through gameplay rather than continuous dialogue;
+- Nimera remains the primary verbal reasoner and openly revises a wrong assumption;
+- the barrier opens and Nimera is free;
+- the Card remains green-and-gold and unclassified;
+- Nimera can see deliberate organization in it but refuses unsupported classification;
+- deeper archive infrastructure reactivates;
 - permanent recruitment remains unresolved until Beat 8.

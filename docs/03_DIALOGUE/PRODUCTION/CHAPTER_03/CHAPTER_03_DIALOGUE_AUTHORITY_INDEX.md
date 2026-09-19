@@ -1,8 +1,9 @@
 # Chapter 3 — Dialogue Authority Index
 
 **Chapter:** 3  
-**Status:** FULL SOURCE-LEVEL DIALOGUE CLOSURE — MAINLINE 1–15 + C06/C07; ATOMIC DIALOGUE + CURRENT PERSON BRAINS + APPLICABLE SCENE SPECS ALIGNED  
+**Status:** FULL SOURCE-LEVEL DIALOGUE CLOSURE — MAINLINE 1–15 TRUE-VOICE / DIALOGUE-ECONOMY AUTHORITY CURRENT + C06/C07 CURRENT
 **Combined read-through:** `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **STALE; do not use as exact wording authority until resynchronized**  
+**Current atomic spoken-line counts:** **674 mandatory + 176 Character-Life = 850 if C06/C07 are both viewed** (C06 96 / C07 80).  
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_03.md`  
 **Dialogue workflow:** `../../AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`  
 **Rhythm:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
@@ -161,6 +162,15 @@ Audited and retained as compatible:
 - Beat 15 spec;
 - C07/H03 spec.
 
+## September 19, 2026 final true-voice polish
+
+The final Chapters 0–3 cross-chapter voice audit produced only micro-edits in Chapter 3:
+- Nimera no longer independently uses the established Chapter-1/2 trio callback `trainable`;
+- her second repeated `I like you` reaction was varied;
+- repeated recent-reader caveats keep the same evidence discipline with less templated wording.
+
+These are phrase-level voice-separation edits only. Mandatory Chapter-3 dialogue remains **674 spoken lines**.
+
 ## Current production state
 
 - atomic dialogue — **CURRENT**;
@@ -188,4 +198,4 @@ If Chapter-3 sources disagree:
 8. combined manuscript only after verified resynchronization;
 9. historical material only as provenance.
 
-> **Chapter 3 is fully updated at the source level. Do not begin manuscript/reader synchronization from any older combined file; regenerate only from the current atomics after Chapters 0–3 source closure is confirmed.**
+> **Chapter 3 exact dialogue authority is current through Beat 15 plus C06/C07. Regenerate any combined manuscript/reader only from these atomics; older combined files remain non-authoritative.**

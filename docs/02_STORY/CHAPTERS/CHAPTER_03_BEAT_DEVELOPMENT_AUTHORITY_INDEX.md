@@ -207,9 +207,10 @@ Still unresolved after the mandatory Chapter-3 story:
 ## Rule
 When a beat has a dedicated developed packet listed here, that packet is current structural-development authority, subject to later explicit correction packets listed here. `CHAPTER_03.md` remains mandatory chapter-level authority, plus the active cleanup / continuity / presentation / naming corrections.
 
-Exact dialogue remains separate and must be generated later through the current Agent-Brain rehearsal-first pipeline.
+Exact dialogue is now current in the standalone Chapter-3 `03_DIALOGUE/PRODUCTION/CHAPTER_03` atomics. Structural Beat packets remain guardrail/outcome authority; the atomics own exact wording.
 
 ## Current production status
+- Exact Beat 1–15 dialogue — **COMPLETE / CURRENT ATOMIC AUTHORITY** — **674 spoken lines**
 - Beat 1 — DEVELOPED
 - Beat 2 — DEVELOPED
 - Beat 3 — DEVELOPED

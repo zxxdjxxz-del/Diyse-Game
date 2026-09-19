@@ -1,134 +1,98 @@
 # Chapter 3 — Beat 2
 # Royal Audience / The Chapter-2 Report
-## DIALOGUE ENGINE PRODUCTION DRAFT A — AGENT-DRIVEN RERUN — PERSON-BRAIN PERFORMANCE PASS + ROYAL-VOICE POLISH
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
 
-**Method note:** rerun under `STORY_BEAT_AS_GUARDRAIL_LOCK.md` and `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`. The field report, Crown knowledge boundaries, and evidence sequence remain fixed. The participating Person Agent Brains determine who owns each fact, how long they hold the floor, and when interruption is earned.
-
----
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ### [STORY TRIGGER — WORKING ROYAL AUDIENCE]
 
-Player control pauses for the formal report.
+Player control pauses for the report.
 
-This is a working royal audience, not a ceremonial spectacle. Queen Lysara, Crown Princess Mirena, Chancellor Othmar Calder, Maevra, Cyanis, Ilyra, and Torren are present with only the clerical support needed for records and maps.
-
-Simple field placement only. Portraits + dialogue box carry the conversation.
+This is a working royal audience, not a ceremony. Queen Lysara, Crown Princess Mirena, Chancellor Othmar Calder, Maevra, Cyanis, Ilyra, and Torren are present with only the clerical support needed for records and maps.
 
 Lysara looks to Maevra.
 
 **LYSARA:** Start with the people.
 
-Maevra does not wait for a checklist.
+**MAEVRA:** Everyone still being held at the Bastion is out. The road is open again. Rhazek survived and withdrew with what he could still organize. Earlier groups were already gone before we reached them, and none of the people we recovered knew where they'd been taken.
 
-**MAEVRA:** The prisoners still in the Bastion are out and the corridor is open again. Rhazek is alive; he withdrew with what remained organized enough to move. I don't have a direction I can defend. Earlier transfer groups were already gone before we reached them, and nobody we recovered could give us a destination.
+**LYSARA:** Their condition?
 
-Lysara's expression hardens at the last part.
+Ilyra answers.
 
-**LYSARA:** Condition of the people you did recover?
+**ILYRA:** Exhausted. Some injuries had gone too long without proper care. Several could walk, but not through the route we used to get inside.
 
-Ilyra answers because she actually saw and treated them.
+**MIRENA:** So the road had to be taken first.
 
-**ILYRA:** Mixed. Exhaustion across most of them, some injuries that had gone too long without proper care, and several who could walk only because they were very determined to stop being prisoners. The route we used to get in was useful for three armed people. It was not an evacuation route for that group.
+**ILYRA:** Yes. Three armed people could manage the old route. That group couldn't.
 
-**MIRENA:** Which is why the road had to be reopened before you moved them.
+Lysara nods.
 
-**ILYRA:** Exactly. We could get ourselves through the old route. Getting frightened, injured civilians back through it would've been a different problem entirely.
-
-Lysara nods once.
-
-**LYSARA:** Good. Route next.
+**LYSARA:** The route.
 
 Othmar looks to Maevra.
 
-**OTHMAR:** You entered through the Old Waterworks?
+**OTHMAR:** The Old Waterworks?
 
-**MAEVRA:** Started there. Then the construction stopped being anything Dunmere built.
+**MAEVRA:** At first.
 
-Torren picks up the point before someone has to ask him for each piece.
+Torren takes over.
 
-**TORREN:** Much older. Not Black Host work; I'm certain about that. Their work sits on it in places, cuts through it in others. The old route kept going and eventually opened into foundations under the Bastion. That's how we got inside without taking the occupied road.
+**TORREN:** Then older construction. Much older. The Bastion was built into it in places and cut through it in others. We followed the old structure under the fort and came up inside.
 
-**OTHMAR:** You can distinguish the older work reliably?
+**OTHMAR:** Black Host work?
 
-**TORREN:** Physically, yes. Different stone fit, different wear, different construction logic. What it was built *for* is another question. I can tell you what was there and what was added later. I'm not going to give you a civilization lecture because I walked through a tunnel.
+**TORREN:** No. I can defend that. I can't tell you what the older place was built for.
 
 Mirena almost smiles.
 
-**MIRENA:** Appreciated.
+**MIRENA:** A distinction I appreciate.
 
-Maevra glances at Torren.
+**TORREN:** Good.
 
-**MAEVRA:** He means that. Deeply.
+Torren's copied mural is placed where the room can see it.
 
-**TORREN:** Yes.
+**TORREN:** This is a field copy. Placement and route relationships are good. It is not a survey.
 
-A beat.
+Mirena studies it.
 
-**MIRENA:** Show us the mural copy.
+**MIRENA:** This is Caelora.
 
-Torren's existing Chapter-2 copy is put where the room can examine it. No bespoke map animation is required.
+**TORREN:** Same location. Older city was much larger. The wall we just entered through would've been inside its footprint.
 
-Torren speaks before the room can mistake the copy for more than it is.
+Mirena's attention moves north.
 
-**TORREN:** I copied placement, route relationships, and the marks that mattered. Not every line on the wall. Scale's good enough to compare positions and broad footprint. It is not good enough to survey from, and if anyone tries, I will become unpleasant.
+**MIRENA:** And this is separate.
 
-**CYANIS:** More unpleasant.
-
-Torren looks at him.
-
-**TORREN:** Correct.
-
-Mirena studies the copy.
-
-**MIRENA:** This is where Caelora is now.
-
-**TORREN:** Same location. City on the mural is much larger than modern Caelora. We saw enough coming in to confirm the current wall would sit well inside the older footprint.
-
-Mirena looks north of the city representation.
-
-**MIRENA:** And this structure is separate.
-
-**TORREN:** Yes.
+**TORREN:** Yeah.
 
 A beat.
 
-**MIRENA:** That's our Crest.
+**MIRENA:** That's the Yahtrean Crest.
 
-She looks at it again, not treating resemblance as enough.
+The room quiets.
 
-**MIRENA:** Not a predecessor mark. The Yahtrean Crest exactly as we use it now.
+Lysara looks directly at Torren.
 
-The room gets quieter.
+**LYSARA:** How certain?
 
-Lysara studies the copied mark, then looks directly at Torren.
+**TORREN:** About the mark? Certain. About why it's there, what that structure was, or whether it meant then what it means now? I don't know.
 
-**LYSARA:** Harth. How certain?
+**LYSARA:** Good.
 
-**TORREN:** About the mark? Certain. About what the structure was, why that Crest is on it, or whether the mark meant then what it means now? I don't know.
+Mirena keeps looking at the copy.
 
-**LYSARA:** Good answer.
+**MIRENA:** If enough of the Old City archives survived, there may be something comparable below us.
 
-**TORREN:** Only one I have.
+**OTHMAR:** There may also be several centuries of useless fragments.
 
-Mirena keeps studying the map.
+**MIRENA:** Those aren't mutually exclusive.
 
-**MIRENA:** If any of the buried collections under Caelora survived intact, the Old City may have something comparable.
+**LYSARA:** Later. Finish the report.
 
-**OTHMAR:** Some of the archive levels survive. Their existence is not the same thing as useful records surviving with them.
+Maevra nods.
 
-**MIRENA:** I know.
-
-**LYSARA:** Then we do not turn a field report into an archive expedition before the report is finished.
-
-Mirena inclines her head.
-
-**MIRENA:** Point taken.
-
-The subject closes because Lysara closes it.
-
-Maevra continues.
-
-**MAEVRA:** One more part. The Card was recovered from the Diysean ruins in the Westways, and before the convoy was hit it was already moving toward Caelora under what we understood to be Crown authority.
+**MAEVRA:** The Card came from the Diysean ruins in the Westways. Before the convoy was attacked, it was already being moved toward Caelora under what we understood to be Crown authority.
 
 Lysara's attention shifts to Cyanis.
 
@@ -136,59 +100,51 @@ Lysara's attention shifts to Cyanis.
 
 **CYANIS:** Yes.
 
-**LYSARA:** Because you want it there, or because moving it became unsafe?
+**LYSARA:** By choice?
 
-Cyanis answers first because the experience happened to him.
+**CYANIS:** By experience. Brackenwall tried separating us. My pulse dropped, I started shaking, and the Card lit toward me. Putting it back stopped it.
 
-**CYANIS:** Unsafe. We separated it from me once at Brackenwall. My pulse dropped, I started shaking, and the Card lit toward me. Putting it back stopped the whole performance.
+Ilyra adds only what he could not assess himself.
 
-Ilyra adds the part he cannot assess himself.
+**ILYRA:** His pulse recovered after contact was restored. We didn't repeat the test.
 
-**ILYRA:** His pulse recovered after contact was restored. The shaking stopped. We had no reason to repeat an uncontrolled test after that, so we didn't.
+**CYANIS:** I was strongly in favor of that.
 
-**CYANIS:** I was extremely supportive of that decision.
+Lysara accepts it.
 
-**MAEVRA:** It has stayed with him since.
+**LYSARA:** Sensible.
 
-Lysara accepts the boundary without turning it into a diagnosis.
+Othmar's attention sharpens.
 
-**LYSARA:** Good.
+**OTHMAR:** The transport to Caelora was formally authorized?
 
-Othmar's attention is on a different part of Maevra's report.
+**MAEVRA:** That's what the chain showed. Direct Crown authority.
 
-**OTHMAR:** The transport toward Caelora was formally authorized?
-
-**MAEVRA:** That's what the chain said. It presented as direct Crown authority, not a local request dressed up with somebody important's name.
-
-Othmar's expression changes slightly.
-
-**OTHMAR:** Do you still have the order?
+**OTHMAR:** You still have the order?
 
 **MAEVRA:** Yes.
 
-Lysara looks to the attending clerk before anyone speculates.
+Lysara looks to the clerk.
 
-**LYSARA:** Bring the original authorization and every document attached to that transport.
+**LYSARA:** Bring the original authorization and everything attached to that transport.
 
-**OTHMAR:** Routing, escort assignment, expenditures, countersigns—everything that traveled with it.
+**OTHMAR:** Routing, escort assignment, expenditures, countersigns.
 
-**LYSARA:** Everything.
+**LYSARA:** All of it.
 
-Cyanis looks between them.
+Cyanis looks around the room.
 
-**CYANIS:** That's the first time this room has gotten quieter in a way I don't like.
+**CYANIS:** That's an uncomfortable amount of interest in paperwork.
 
-**MIRENA:** Sensible instinct.
+**MIRENA:** From him? Deeply concerning.
 
-**LYSARA:** Keep it an instinct until we have the paper in front of us.
+Othmar gives her a look.
 
-**CYANIS:** Happily.
+Lysara does not speculate.
+
+**LYSARA:** Paper first. Conclusions after.
 
 The audience shifts from field report to document verification.
-
-Cut before anyone performs the Beat-3 authentication or states the Queen's prior knowledge position.
-
----
 
 ### [STORY HANDOFF]
 
@@ -196,28 +152,15 @@ Transition directly into:
 
 **Beat 3 — The Impossible Orders.**
 
----
+## Beat-2 end state
 
-## Person-Brain performance notes
-
-- Maevra owns the report in complete operational units instead of functioning as a prompt target.
-- Ilyra speaks where prisoner condition and evacuation consequence genuinely belong to her firsthand experience. She does not become the room's general humanitarian commentator.
-- Torren is allowed a full evidence-bound route and mural explanation. His irritation with false precision is part of his personality, not a narration device.
-- Cyanis owns the direct subjective account of the Card-separation event; Ilyra adds the clinical observations he could not reliably make himself. This prevents her from automatically narrating his body for him.
-- Lysara behaves as national authority: she chooses the order of the report, asks only questions that affect judgment, closes premature lines of inquiry, and moves immediately to evidence when the transport authority becomes material.
-- Mirena is perceptive and curious without becoming the scene's omniscient system interpreter. Her immediate recognition of the exact current Yahtrean Crest comes from her lived familiarity with Crown history and presentation, not from ancient-systems expertise.
-- Othmar's attention naturally goes to provenance, routing, expenditure, and documentation. His hidden responsibility is not exposed.
-- interruptions arise from ownership: Torren takes the route floor, Ilyra takes prisoner condition, Cyanis takes his direct Card experience, and Lysara closes topics when they cease to be useful.
-
-## Canon / knowledge check
-
-**PASS — Person-Brain performance pass.**
-
-- the exact modern Yahtrean Crest on the northern Ancient structure is unmistakable but unexplained;
-- Cresthaven is not identified;
-- the audience does not solve the Ancient city's identity/history;
-- the genuine magical royal-seal response has not yet been revealed;
-- Lysara's lack of prior knowledge is held for Beat 3;
-- no full Card-analysis scene occurs here;
-- no culprit is named or implied;
-- no Nimera knowledge is introduced before the proper handoff.
+- the Crown knows the current Old Bastion prisoners were freed;
+- Rhazek survived and withdrew;
+- earlier transferred groups remain missing and their destination remains unknown;
+- the Crown knows the party entered through older infrastructure beneath the region;
+- the Crown sees the western mural copy, the larger Ancient city at modern Caelora, and the separate northern structure bearing the exact Yahtrean Crest;
+- the meaning of that Crest remains unexplained;
+- the Crown knows the recovered Card came from the Diysean ruins in the Westways and was being transported toward Caelora under apparent direct Crown authority;
+- Lysara has not yet stated whether she knew of or authorized that transport;
+- the Card remains physically with Cyanis because separation previously caused a dangerous unexplained reaction;
+- the original transport authorization and attached records are ordered into the room for Beat 3.

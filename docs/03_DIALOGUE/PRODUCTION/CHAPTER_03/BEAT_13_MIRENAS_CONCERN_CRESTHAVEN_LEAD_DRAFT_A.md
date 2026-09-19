@@ -1,162 +1,88 @@
 # Chapter 3 — Beat 13
 # Mirena's Concern / Cresthaven Lead
-## DIALOGUE ENGINE PRODUCTION DRAFT A — GUARDRAIL-FIRST AGENT-BRAIN REHEARSAL — PERSON-BRAIN PERFORMANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
 
-**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`. The rehearsal received the private-debrief situation, the Old City evidence state, Mirena/Maevra's Crown-side position, the direct-investigation outcome, the existing Chapter-2 map evidence, the Cresthaven identification outcome, and reveal firewalls. It was not given a speaker order or a chronological recap checklist.
-
----
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ### [DIRECT CUT — PRIVATE ROOM, CAELORA]
 
-Leaving the Sealwright Chamber ends the Old City field section.
-
-Cut directly to a private palace meeting room in Caelora.
+Leaving the Sealwright Chamber cuts directly to a private palace meeting room.
 
 Present:
-- Cyanis;
-- Ilyra;
-- Torren;
-- Nimera;
-- Crown Princess Mirena Ceryth;
-- Maevra.
+- Cyanis
+- Ilyra
+- Torren
+- Nimera
+- Mirena
+- Maevra
 
-Queen Lysara is **not** present.
+Lysara is not present.
 
-Mirena has Crown records and seal-custody material already spread across the table from the work she and Maevra continued while the party was below.
-
-Do not stage a formal audience.
+Crown-side records are already spread across the table.
 
 Mirena looks at the four of them.
 
 **MIRENA:** What changed?
 
-Cyanis does not start at the beginning.
-
 **CYANIS:** Someone's been using the Old City.
 
-Mirena's expression sharpens.
+Mirena's attention sharpens.
 
-**MIRENA:** Using it how?
+**MIRENA:** For what?
 
-**NIMERA:** Reading first. Then practicing. Probably in that order—no, strike probably. The physical work gets cleaner as it goes inward, and the research trail points toward the same subjects first. That's consistent with reading before practice. It is not a timestamp.
+Nimera answers before the story gets flattened.
 
-Maevra looks at her.
+**NIMERA:** Research first, then seal practice. That's the best-supported order, not a perfect timeline. Ancient forms, older Yahtrean forms, royal examples, then repeated copies of the Crest. The later copies are visually very good.
 
-**MAEVRA:** Practicing what?
+**MIRENA:** Did any of them answer like the Queen's seal?
 
-**CYANIS:** The royal seal.
+**NIMERA:** Nothing we found proves that. They were trying to make the copies do more than look right, and they pushed enough power through the work to scorch repeated receiving rings. Successful royal authority response remains unproven.
 
-Mirena goes still.
+Mirena nods.
 
-**MIRENA:** The Crest?
+**MIRENA:** Good. Ugly answer, but good.
 
-**CYANIS:** Yes.
+Nimera looks at her.
 
-Nimera takes the next part before Cyanis can flatten it.
+**NIMERA:** Oh, that's refreshing.
 
-**NIMERA:** Ancient forms first, then older Yahtrean forms, then royal examples, then repeated Crest copies. Visually, the later ones get very good.
+Maevra almost smiles.
 
-**TORREN:** Cleaner every time.
+### [CROWN-SIDE FINDINGS]
 
-**MIRENA:** Did any of them answer like the Queen's?
+Torren looks at the custody records.
 
-**NIMERA:** Nothing we found proves that. We can prove somebody tried to make the copies more than visual marks. We can prove they pushed hard enough to scorch equipment built for sealcraft. We cannot prove they got royal authority out of it.
+**TORREN:** Anything up here?
 
-Mirena studies Nimera for a beat.
+**MAEVRA:** No clean theft window. No break in the recorded custody chain we can prove. Everyone involved gives the same sequence.
 
-**MIRENA:** Could they have?
+**MIRENA:** Which means our records are either accurate and incomplete, or clean in ways that hide the problem.
 
-**NIMERA:** Could? Yes. Proven? No. I know that's an ugly answer.
+**NIMERA:** Yes.
 
-**MIRENA:** Ugly is fine. Wrong is expensive.
+She catches herself before continuing.
 
-Nimera nods once, immediately liking the distinction.
-
-**NIMERA:** Good. Keep saying things like that.
-
-Cyanis glances at her.
-
-**CYANIS:** She's a princess, Pellan.
-
-**NIMERA:** That doesn't make good methodology less rare.
-
-Maevra's mouth almost moves.
-
-### [THE CROWN-SIDE PROBLEM HAS NOT BECOME EASIER]
-
-Torren glances at the custody material already on the table.
-
-**TORREN:** Any luck up here?
-
-Maevra answers without dressing it up.
-
-**MAEVRA:** No clean gap. No theft window we can prove. Everyone who signed for the seal still swears the same sequence.
-
-**MIRENA:** Which means the paperwork remains annoyingly innocent.
-
-**NIMERA:** The paperwork can be innocent and still wrong.
-
-**MIRENA:** I know.
-
-Nimera stops herself from launching into the explanation.
-
-**NIMERA:** Right. Sorry. You already know.
+**NIMERA:** Sorry. You already got there.
 
 **MIRENA:** I appreciate the restraint.
 
-**NIMERA:** Don't. It may not happen twice.
+**NIMERA:** Don't depend on it.
 
-### [THE OTHER THING THAT CHANGED]
+### [THE WARDEN AND THE CARD]
 
-Mirena notices Cyanis has been keeping one hand near the Card without handling it.
-
-**MIRENA:** And the Card?
-
-Cyanis takes it out normally.
-
-The deep Ruby state is stable.
-
-Mirena has not seen it in this state before.
+Mirena notices the Card.
 
 **MIRENA:** That's new.
 
-**CYANIS:** Very.
+Cyanis brings out the stable deep-Ruby Card.
 
-**NIMERA:** It happened after a Diysean Warden tried to kill us.
+**CYANIS:** Happened below.
 
-Mirena looks at her.
+**NIMERA:** After a Diysean Warden assessed all four of us, tried to kill us, lost, then gave us two final messages.
 
-**MIRENA:** I was hoping that sentence improved.
+Mirena looks between them.
 
-**NIMERA:** It gets worse before it gets more precise.
-
-Cyanis takes over the sequence.
-
-**CYANIS:** It assessed all four of us first. Then attacked.
-
-**MIRENA:** Assessed how?
-
-**ILYRA:** Old ward-work. Light across the whole group. Deliberate movement, but we don't know what it was measuring.
-
-**NIMERA:** Thank you.
-
-Ilyra looks at her.
-
-**ILYRA:** For what?
-
-**NIMERA:** Saying measuring instead of judging.
-
-**CYANIS:** It tried to kill us either way.
-
-**NIMERA:** Outcome is not vocabulary.
-
-**CYANIS:** There she is.
-
-He continues before she can answer.
-
-**CYANIS:** After we beat it, it stayed active long enough to give us two messages.
-
-Mirena waits.
+**MIRENA:** Exact wording.
 
 **CYANIS:** `PREVIOUS ERROR.`
 
@@ -166,140 +92,67 @@ A beat.
 
 The room goes quiet.
 
-**MIRENA:** Exact wording?
+**NIMERA:** That order is exact. Then the Warden became fully inert. Only after that did the Card change.
 
-**NIMERA:** As close as the surviving language allows. And the order is exact. Previous error first. Last sentinel confirmed second. Then complete shutdown.
-
-**MIRENA:** Card?
-
-**CYANIS:** Changed only after the Warden went completely dead.
-
-**NIMERA:** Immediately after, which is suspicious as hell and still not proof of causation.
-
-Mirena looks at the Ruby Card again.
-
-**MIRENA:** Do we know what Last Sentinel is?
+**MIRENA:** Do we know what Last Sentinel means?
 
 **NIMERA:** No.
 
-**MIRENA:** Good.
+**MIRENA:** Or why the Card changed?
 
-Nimera looks faintly offended.
+**NIMERA:** No. The timing is suspicious as hell. Suspicion is not mechanism.
 
-**NIMERA:** That's my line.
-
-**MIRENA:** You left it unattended.
-
-**NIMERA:** Fine. That's technically on me.
+Mirena accepts it.
 
 ### [MIRENA'S CONCERN]
 
-Mirena stops looking at the Card and returns to the table.
+She looks down at the transport records.
 
-**MIRENA:** I don't yet know whether our breach is physical, magical, political, or some miserable combination of all three. I know the Queen did not issue those orders. I know her seal answered them. I know somebody has been researching old seal practice and practicing the royal Crest beneath my city.
+**MIRENA:** Then this is where we are. The Queen did not authorize the transport. Her authority answered anyway. Someone has been researching old seal practice beneath Caelora and practicing the current royal Crest. We still don't know whether those facts share one cause.
 
-She looks at the custody records.
+She looks around the table.
 
-**MIRENA:** What I do not know is the part that decides who I can safely tell.
-
-That quiets the room.
-
-Torren glances toward the custody records.
-
-**TORREN:** Could be more than one person.
-
-**MIRENA:** Yes.
-
-**CYANIS:** You think someone's inside the Crown.
-
-Mirena meets his eyes.
-
-**MIRENA:** I think somebody has access they should not have. That is enough for caution and not enough for treason.
-
-**NIMERA:** Thank you.
-
-Mirena looks at her.
-
-**NIMERA:** Sorry. Reflex. People love promoting suspicion into accusation because accusation feels like progress.
-
-**MAEVRA:** It usually isn't.
-
-Nimera turns toward her.
-
-**NIMERA:** I also like you.
-
-**MAEVRA:** Dangerous habit.
-
-### [THE REQUEST]
-
-Mirena looks at all four of them rather than only Cyanis.
-
-**MIRENA:** Keep working this with me. Directly. If you find something that changes the problem, it comes to me or Maevra first. Not a clerk, not a commander who happens to outrank you, not a friend who asks the right question in the wrong hallway.
+**MIRENA:** Until we do, this stays narrow. If you find something that changes the problem, it comes to me or Maevra first.
 
 **CYANIS:** Understood.
 
-**ILYRA:** Yes.
+**ILYRA:** Fine by me.
 
-Torren nods once.
+Torren nods.
 
-Nimera is quiet for half a beat longer than expected.
+Nimera considers Mirena.
 
-**NIMERA:** You do understand I followed these three into a sealed dead civilization, got trapped behind a wall, fought its furniture, and then voluntarily kept going.
+**NIMERA:** You understand I met these people today and have already been trapped behind ancient architecture, attacked by archival equipment, and recruited by momentum.
 
-Mirena looks at Cyanis.
+**CYANIS:** Recruited by momentum?
 
-**MIRENA:** Is she always going to be like this?
+**NIMERA:** You didn't ask.
 
-**CYANIS:** I met her today.
+**ILYRA:** She's right.
 
-**NIMERA:** Promising start, though.
+**MIRENA:** I'm beginning to see the problem.
 
-**ILYRA:** Very long day.
+### [THE OLD MAP]
 
-**NIMERA:** See? She understands me.
+Torren brings out the existing Chapter-2 mural copy.
 
-**ILYRA:** I didn't say that.
+**TORREN:** One more thing.
 
-### [THE OLD MAP COMES BACK]
+Mirena looks at the same Ancient map evidence already reported earlier: the enormous city at modern Caelora and the separate northern structure bearing the exact Yahtrean Crest.
 
-Torren is still looking at the evidence spread across the table.
+She studies the geography again.
 
-**TORREN:** There's one other thing.
-
-He brings out / retrieves the existing copy made from the Chapter-2 Ancient mural / route evidence.
-
-This is **not new evidence**. It is the same old material already reported in Caelora:
-- the enormous Ancient city corresponding to modern Caelora;
-- a separate structure farther north;
-- the exact Crest of Yahtrea marked on that structure.
-
-Mirena looks at the copied map again.
-
-**MIRENA:** I've spent years reading old Crown history for fun, and I still don't have a version of that mark that makes this reasonable.
-
-**NIMERA:** The Crest?
-
-**MIRENA:** The impossible one.
-
-**TORREN:** That's the part.
-
-Mirena studies the geography rather than the symbol now.
-
-**MIRENA:** Show me the scale again.
+**MIRENA:** Show me the scale.
 
 Torren does.
 
-He keeps the uncertainty intact rather than pretending the Ancient map is perfectly modern.
-
-**TORREN:** Best fit. Mountains here. Old route comes out of Caelora on this side. Position's approximate.
+**TORREN:** Best fit. Approximate position, not a survey.
 
 **NIMERA:** How approximate?
 
-**TORREN:** Enough that I wouldn't build a house on it. Not enough that I'd ignore a fort-sized match.
+**TORREN:** Enough I wouldn't build on it. Not enough I'd ignore a fort-sized match.
 
-Nimera nods, satisfied.
-
-Mirena traces the modern relationship mentally / against a current Crown map already available in the room.
+Mirena compares it against the current Crown map on the table.
 
 She stops.
 
@@ -307,69 +160,52 @@ She stops.
 
 Nobody speaks.
 
-She checks it again.
-
-**MIRENA:** I think I know where that is.
-
-**CYANIS:** Where?
-
-Mirena looks up.
+She checks the position again.
 
 **MIRENA:** Cresthaven.
 
-A beat.
+**CYANIS:** The fort?
 
-**TORREN:** The old forest fort?
+**MIRENA:** If Harth's placement is close, yes.
 
-**MIRENA:** If your placement is close, yes.
-
-Torren looks at the two maps.
+Torren looks between the maps.
 
 **TORREN:** Close enough to check.
 
-**NIMERA:** And the Crest on the old source is still completely impossible.
+Nimera is already looking at the impossible Crest again.
 
-**MIRENA:** Yes.
+**NIMERA:** Which means the symbol is still impossible, but now the location isn't abstract.
 
-Nimera leans over the map, already thinking too quickly.
+She starts another thought, then stops herself.
 
-**NIMERA:** Unless the symbol predates—no. Stop. That's exactly the kind of leap we don't get to make yet.
+**NIMERA:** No. I'm not inventing an explanation because we finally have a destination.
 
 Cyanis looks at her.
 
 **CYANIS:** Did you just interrupt yourself?
 
-**NIMERA:** Somebody had to.
+**NIMERA:** Efficient, isn't it?
 
-Mirena looks back at the Ancient copy.
+Mirena looks back at the map.
 
-**MIRENA:** Still impossible. But now it has an address.
+**MIRENA:** Cresthaven first. Explanations after evidence.
 
 ### [BEAT END]
 
-Cresthaven is now the next practical lead.
-
-Do not explain:
-- why the Crest of Yahtrea appears on an Ancient source;
-- Cresthaven's full Ancient history;
-- anything farther north;
-- the recent reader / seal practitioner's identity;
-- the mechanism behind Lysara's impossible seal response;
-- what `LAST SENTINEL CONFIRMED` ultimately refers to.
+Cresthaven becomes the next practical lead.
 
 Transition into:
 
 **Beat 14 — Rest in Caelora / Morning Departure.**
 
----
+## Beat-13 end state
 
-## Beat-13 production notes
-
-- The Old City debrief remains selective rather than chronological, but speakers now hold complete thoughts and interrupt only when character or evidence gives them a reason.
-- Maevra's dialogue density remains deliberately low, but her lines sound like her own operational judgment rather than a one-line data relay.
-- Nimera's active brain appears in the debrief through correction, self-correction, methodological impatience, and natural profanity without stealing Mirena's authority over the room.
-- the Warden report preserves exact sequence and timing without classifying Last Sentinel or the Ruby Card.
-- Mirena now gets a longer operational turn explaining why uncertainty changes who she can trust, rather than distributing that thought across multiple speakers.
-- Mirena's renewed look at the impossible Crest now naturally exposes her genuine personal interest in old Crown history without turning her into an omniscient historian or explaining the mark.
-- the Cresthaven lead comes from revisiting the existing Chapter-2 Ancient map/mural copy. Beat 13 does not invent a new map.
-- Nimera begins to overreach on the Crest and cuts herself off, showing the brain's evidence discipline from inside her own speech rather than via an external correction.
+- Mirena and Maevra receive the Old City findings without a chronological replay;
+- the Crown-side investigation still has no proven theft window or simple custody breach;
+- Mirena learns the exact Warden message sequence and the Card's subsequent deep-Ruby stabilization;
+- `LAST SENTINEL CONFIRMED` remains unexplained;
+- no causal link between the Warden, Card, seal fraud, recent reader, or seal practitioner is proven;
+- Mirena narrows the investigation rather than making an accusation;
+- the existing Chapter-2 mural copy is revisited;
+- its northern structure is identified as a strong geographic match for **Cresthaven**;
+- Cresthaven becomes the next practical lead.

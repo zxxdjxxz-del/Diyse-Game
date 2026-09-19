@@ -1,7 +1,7 @@
 # Chapter 3 — Cleanup Content Authority Index
 
 **Purpose:** track current structural authority for Chapter-3 optional / cleanup content after the Cresthaven headquarters handoff.  
-**Status:** **STRUCTURAL CLEANUP CONTENT COMPLETE — DIALOGUE / AREA / REWARD IMPLEMENTATION REMAIN.**
+**Status:** **STRUCTURAL CLEANUP CONTENT + C06/C07 DIALOGUE COMPLETE — AREA / REWARD IMPLEMENTATION REMAIN.**
 
 ## Cleanup opening authority
 The mandatory story reaches Cresthaven through:
@@ -27,8 +27,9 @@ Historical H02 and H04 remain retired unless explicitly reopened.
 ---
 
 ## H01 — Nimera Takes Over a Table
-**Status:** STRUCTURE COMPLETE  
-**Current authority:** `CHAPTER_03_CHARACTER_LIFE_H01_NIMERA_TAKES_OVER_A_TABLE_WORKING.md`
+**Status:** STRUCTURE + EXACT DIALOGUE COMPLETE  
+**Structural authority:** `CHAPTER_03_CHARACTER_LIFE_H01_NIMERA_TAKES_OVER_A_TABLE_WORKING.md`  
+**Exact dialogue authority:** `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md` — canonical C06 — **96 spoken lines**
 
 Core locks:
 - Cresthaven records / map / investigation room;
@@ -44,26 +45,27 @@ Core locks:
 - Ilyra may be light / optional because H03 owns the dedicated Ilyra-Nimera scene;
 - Mirena / Maevra are not required;
 - no mandatory story revelation occurs;
-- all exact dialogue beyond the two user-preserved anchors is generated later through the Agent-Brain rehearsal-first Dialogue Engine.
+- the current full true-voice Character-Life atomic is approved and owns exact wording; the two preserved opening insults remain exact inside it.
 
 ---
 
 ## H03 — Ilyra and Nimera
-**Status:** AGENT-DRIVEN STRUCTURE LOCKED / ACTUAL SCENE PREMISE DEFERRED TO DIALOGUE REHEARSAL  
-**Current authority:** `CHAPTER_03_CHARACTER_LIFE_H03_ILYRA_AND_NIMERA_WORKING.md`
+**Status:** STRUCTURE + EXACT DIALOGUE COMPLETE  
+**Structural authority:** `CHAPTER_03_CHARACTER_LIFE_H03_ILYRA_AND_NIMERA_WORKING.md`  
+**Exact dialogue authority:** `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/H03_ILYRA_AND_NIMERA_DRAFT_A.md` — canonical C07 — **80 spoken lines**
 
 Current direction:
 - H03 is simply a **fun Character-Life scene between Ilyra and Nimera being themselves together at Cresthaven**;
 - the previous mandatory treatment-room / minor-injury / consent-centered structure is retired;
 - there is no required injury, medical setup, trust lesson, trauma disclosure, lore discussion, or predetermined emotional arc;
-- the actual low-stakes premise is discovered by the current Ilyra and Nimera Agent-Brains during rehearsal;
+- the rehearsal-selected premise is now locked: Ilyra finds Nimera objecting to a Cresthaven supply crate labeled `MISC.`, leading to a low-stakes classification argument;
 - ordinary Cresthaven life may provide the premise: food, work, habits, boredom, teasing, trivial disagreement, curiosity, small competition, mundane objects, silence, profanity, affection, absurdity, or anything else that naturally gives them something fun to do;
 - Ilyra remains a full adult personality rather than defaulting into caretaker / therapist mode;
 - Nimera remains intelligent, blunt, socially functional, curious, funny, and capable rather than becoming an exposition machine;
 - Cyanis / Torren may appear briefly only if the generated scene benefits from it;
 - Mirena / Maevra are normally back in Caelora and are not required;
 - no mandatory story revelation occurs;
-- no historical H03 wording is exact authority.
+- the current H03/C07 atomic now owns exact wording; historical H03 wording remains retired.
 
 Dialogue-generation brief:
 > Put Ilyra and Nimera together during ordinary downtime at Cresthaven. Let them behave like themselves. Find a low-stakes premise that gives them something genuinely fun to react to. Do not force injury, treatment, trauma, consent instruction, lore, or an emotional breakthrough. Once the interaction finds its point and lands, get out.
@@ -118,9 +120,9 @@ Corrections from that audit are now applied:
 ## Current cleanup production status
 - Beat-15 Cresthaven handoff — **COMPLETE STRUCTURALLY**
 - Archive-passage Hunt unlock — **LOCKED**
-- H01 — **STRUCTURE COMPLETE**
-- H03 — **AGENT-DRIVEN BRIEF LOCKED**
+- H01 / canonical C06 — **STRUCTURE + EXACT DIALOGUE COMPLETE — 96 lines**
+- H03 / canonical C07 — **STRUCTURE + EXACT DIALOGUE COMPLETE — 80 lines**
 - Regional Hunt #3 story/access layer — **COMPLETE**
 - Chapter-3 cleanup / continuity audit — **COMPLETE**
 - final `CHAPTER_03.md` consolidation — **COMPLETE**
-- Chapter-3 Agent-Brain dialogue production — **NEXT STORY PRODUCTION PHASE**
+- Chapter-3 Agent-Brain dialogue production — **COMPLETE FOR BEATS 1–15 + C06/C07**

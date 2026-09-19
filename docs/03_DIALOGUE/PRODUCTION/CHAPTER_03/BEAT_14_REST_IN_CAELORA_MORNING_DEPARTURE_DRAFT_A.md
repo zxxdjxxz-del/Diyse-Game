@@ -1,128 +1,82 @@
 # Chapter 3 — Beat 14
 # Rest in Caelora / Morning Departure
-## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
 
-**Method note:** created under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, then audited under `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` and current Ilyra character authority. The rest-before-departure outcome, four-person decompression scene, next-morning preparation window, and reveal boundaries remain fixed. This pass removes the remaining party-mother behavior from Ilyra without flattening the low-pressure chemistry established by the Nimera pass.
-
----
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ### [CONTINUATION — AFTER CRESTHAVEN IS IDENTIFIED]
 
-Resume in the private Caelora meeting room immediately after Mirena identifies the marked northern site as probably Cresthaven.
-
-Cyanis looks at Torren's copied map again.
+Cyanis looks at Torren's copied map.
 
 **CYANIS:** We could be out before midnight.
 
-**MIRENA:** Absolutely not.
+**MIRENA:** No.
 
 Cyanis looks up.
 
-**CYANIS:** No?
+**MIRENA:** You spent the day underground, fought an Ancient Warden, watched the Card change in your hand, and found somebody practicing the royal Crest beneath Caelora. Cresthaven can survive until morning.
 
-**MIRENA:** You have spent most of the day underground, fought an Ancient Warden, watched a Card change state in your hand, and then stood in a seal workshop arguing about whether somebody successfully copied royal authority. Cresthaven has been abandoned for years. It can survive one more night without you. Eat, sleep, leave in the morning when you're ready.
+**ILYRA:** I was going to let him finish arguing first.
 
-Ilyra looks at Cyanis.
+**CYANIS:** You could've helped.
 
-**ILYRA:** I was going to let you finish that argument before I enjoyed the answer.
+**ILYRA:** This is helping me.
 
-**CYANIS:** You could've warned me.
+Nimera nods.
 
-**ILYRA:** This was better.
+**NIMERA:** I support the princess's oppressive sleep policy.
 
-**NIMERA:** For the record, I support the princess's tyrannical food-and-sleep policy.
+**MIRENA:** Eat. Sleep. Leave when you're ready tomorrow. Maevra and I will follow with a proper work crew later.
 
-**CYANIS:** Nobody asked.
+Torren looks at Nimera.
 
-**NIMERA:** I am learning that does not reliably stop me.
+**TORREN:** Think you can manage that?
 
-Mirena gathers the modern map back toward herself.
+**NIMERA:** Sleep?
 
-**MIRENA:** I'll bring Maevra and a proper work crew later tomorrow. Don't wait for us.
+**TORREN:** Not working.
 
-**TORREN:** What kind of crew?
+Nimera considers him.
 
-**MIRENA:** The kind that can tell me whether the roof is going to fall on you before one of you decides standing under it is investigative rigor.
+**NIMERA:** No.
 
-Nimera opens her mouth.
+**MIRENA:** Try anyway.
 
-**MIRENA:** That was not aimed only at Cyanis.
-
-Nimera closes it again.
-
-**NIMERA:** Unfairly perceptive.
-
-**MIRENA:** Consider this a temporary royal prohibition on usefulness.
-
-**NIMERA:** I don't think that's a power you have.
-
-**MIRENA:** Then challenge the order after breakfast.
-
-That ends the meeting.
+The meeting ends.
 
 ### [EVENING — CROWN GUEST QUARTERS]
 
 Later.
 
-A small common room attached to the Crown guest quarters. No formal dinner and no investigation table.
+A small common room. No maps spread across the table. No investigation briefing.
 
-The four have had enough time to wash, change or loosen travel gear, and deal with the worst of the Old City dust.
+The four eat together.
 
-Food is on the table.
+Nimera has somehow fit dinner, notes, ink, and three copied references into the same patch of table.
 
-Cyanis is already eating.
+She reaches for her spoon without looking.
 
-Torren has finished most of his meal and is checking a piece of field gear in his lap.
+Torren moves the ink pot.
 
-Ilyra is sitting with a drink and nothing she needs to fix.
-
-Nimera has somehow acquired paper, ink, her food, and three copied notes in the same amount of table space.
-
-She reads while reaching for her spoon.
-
-Torren moves the ink pot six inches to the left.
-
-Nimera's spoon lands where the ink pot had been.
-
-She stops.
-
-Looks at the empty spot.
-
-Looks at Torren.
-
-**NIMERA:** I knew where that was. You moving it after I reached for the spoon does not prove I was about to dip a spoon in ink.
-
-**TORREN:** Spoon didn't.
-
-**NIMERA:** That's not evidence. That's a failed outcome.
-
-Cyanis keeps eating.
-
-**CYANIS:** That's true.
-
-Nimera looks at him.
-
-**NIMERA:** You stay out of this. I already have one person manufacturing a case against me from cutlery.
-
-**CYANIS:** Happily.
-
-Ilyra takes a piece of bread.
-
-**ILYRA:** He moved it because you were about to put the spoon in it.
-
-**NIMERA:** You cannot know that.
-
-**ILYRA:** I watched you.
-
-**NIMERA:** Eyewitness testimony is famously—
-
-**ILYRA:** Then prove him wrong and use the spoon on the stew.
+Her hand lands where it had been.
 
 Nimera stops.
 
-A beat.
+**NIMERA:** I knew where that was.
 
-**NIMERA:** That is manipulation.
+**TORREN:** Sure.
+
+**NIMERA:** Moving it before I touched it does not prove I was about to put a spoon in ink.
+
+**ILYRA:** I watched you aim.
+
+**NIMERA:** Eyewitness testimony is notoriously—
+
+**ILYRA:** Use the spoon on the stew, then.
+
+Nimera stares at her.
+
+**NIMERA:** Manipulative.
 
 **ILYRA:** Effective?
 
@@ -130,59 +84,47 @@ Nimera takes a bite.
 
 **NIMERA:** Irrelevant.
 
-Ilyra smiles into her drink.
+Cyanis reaches for the bread plate.
 
-A little silence settles without becoming awkward.
-
-Cyanis reaches for more bread.
-
-There is none on the plate.
-
-He looks at Torren's side of the table.
+Empty.
 
 Torren has the last piece.
 
-**CYANIS:** You going to eat that, or are you just guarding it?
+**CYANIS:** You eating that?
 
-Torren takes a bite without looking at him.
+Torren takes a bite.
 
-**TORREN:** Yes.
+**TORREN:** Yeah.
 
 **CYANIS:** Cruel.
 
 **TORREN:** Slow.
 
-Nimera, still chewing, points at Torren with her spoon.
+Nimera points at him with the spoon.
 
-**NIMERA:** That one was excellent. Brief, accurate, needlessly unpleasant. Very efficient.
+**NIMERA:** Excellent. Concise, accurate, needlessly hostile.
 
 **TORREN:** Thanks.
 
-**NIMERA:** Don't get smug. You'll ruin it.
+**NIMERA:** Don't get pleased. You'll ruin it.
 
-**TORREN:** Wasn't planning to.
+A little silence settles.
 
 Ilyra looks around the room.
 
-**ILYRA:** First room today that hasn't trapped, assessed, attacked, or authenticated anybody.
+**ILYRA:** First place today that hasn't trapped, attacked, assessed, or authenticated us.
 
 Nimera looks at her.
 
-**NIMERA:** That is an alarmingly low standard.
+**NIMERA:** Very low standard.
 
 **ILYRA:** Today earned it.
 
-That quiets the table for a moment, but nobody turns it into a discussion of the day.
+Nimera looks back at her notes.
 
-Nimera looks back down at her notes.
+A few moments later, she yawns hard enough to lose her place.
 
-She makes it through one line before yawning hard enough to lose her place.
-
-Cyanis notices.
-
-He says nothing.
-
-Torren reaches over and turns the ink pot cap closed.
+Torren reaches over and caps the ink.
 
 Nimera looks at him.
 
@@ -190,71 +132,55 @@ Nimera looks at him.
 
 **TORREN:** Were.
 
-**NIMERA:** Closing the cap does not alter the temporal status of the work.
-
-**TORREN:** Did now.
-
-**NIMERA:** That is not how tense works, and I refuse to lose a grammar argument to a man who annotates maps like punctuation costs money.
+**NIMERA:** Closing the cap does not retroactively alter my intent.
 
 **TORREN:** Still closed.
 
-Nimera reaches for the ink pot.
+**NIMERA:** I refuse to lose a grammar argument to a man who writes map notes like punctuation costs money.
 
-**ILYRA:** Careful. Reopening it makes `were` correct again.
+Ilyra takes a drink.
 
-Nimera stops with her hand halfway there.
+**ILYRA:** Reopening it would make `were` correct.
 
-Then looks at Ilyra.
+Nimera's hand stops halfway to the ink.
 
-**NIMERA:** Oh, go fuck yourselves with the same spoon—no, that's logistically impossible unless you take turns. Fine. Take turns. Same spoon.
+She looks at Ilyra.
+
+**NIMERA:** Oh, go fuck yourselves with the same spoon—no, that doesn't work. Take turns. Same spoon.
 
 Ilyra laughs.
 
-**NIMERA:** Cyanis, help me.
+**NIMERA:** Cyanis. Help.
 
 Cyanis keeps eating.
 
-**CYANIS:** I'm staying out of this. You were very clear.
+**CYANIS:** You told me to stay out of the spoon case.
 
 Nimera stares at him.
 
-**NIMERA:** I hate consistency when it becomes inconvenient.
+**NIMERA:** Consistency is a deeply overrated virtue.
 
 She yawns again.
 
-A beat.
-
-**NIMERA:** Fine. I am tired. That does not make any of you correct in principle.
-
-**TORREN:** Sure.
-
-**NIMERA:** That "sure" was hostile.
-
-**ILYRA:** Write down `hereditary smugness` and defend it tomorrow.
-
-**NIMERA:** I do not need sleep to defend that classification.
+**NIMERA:** Fine. I'm tired. None of you are correct in principle.
 
 **TORREN:** Sure.
 
 Nimera points at him.
 
-**NIMERA:** See? Repeated evidence.
+**NIMERA:** See? Hostile.
 
-Ilyra is laughing too hard to answer immediately.
+She stacks her notes herself.
 
-Nimera stacks the notes anyway.
-
-No one congratulates her.
+No one turns the moment into a speech.
 
 ### [END OF EVENING]
 
-The meal winds down naturally.
+The meal winds down.
 
-No new Card event occurs. Cyanis's Card remains stable deep Ruby and put away.
+The Card remains stable deep Ruby and put away.
 
-No one revisits `LAST SENTINEL CONFIRMED`, the seal copies, or Cresthaven's Ancient mystery.
-
-The four separate for the night without a closing speech.
+Nobody revisits the investigation.
 
 Fade out.
 
@@ -268,27 +194,25 @@ Objective:
 
 **Prepare for Cresthaven.**
 
-This is a short free preparation window. The player may handle ordinary available preparation such as supplies, equipment, saving, or other currently implemented city services.
+The player may use ordinary available city services. No mandatory walking dialogue is added.
 
-Do not add mandatory walking dialogue while the player moves through Caelora.
-
-When ready, the player selects:
+When ready:
 
 **Leave for Cresthaven**
 
-A short departure trigger gathers the permanent four.
-
-Torren looks over the group once.
+The four gather.
 
 **TORREN:** Ready?
 
 **CYANIS:** Enough.
 
-**NIMERA:** That is a terrible answer to a readiness question.
+Nimera looks at him.
 
-**CYANIS:** Are *you* ready?
+**NIMERA:** Terrible answer.
 
-Nimera checks that her satchel is actually closed.
+**CYANIS:** You ready?
+
+Nimera checks her satchel.
 
 **NIMERA:** Enough.
 
@@ -296,33 +220,26 @@ Cyanis smiles.
 
 **NIMERA:** Don't.
 
-Ilyra heads for the exit.
+Ilyra heads out.
 
 **ILYRA:** Come on.
 
 The road journey is skipped.
 
-No playable road dungeon, encounter stretch, or travel-dialogue sequence occurs here.
-
-Cut directly to the party's arrival outside Cresthaven.
+Cut directly to Cresthaven.
 
 Transition into:
 
 **Beat 15 — Cresthaven Headquarters / Cleanup Window.**
 
----
+## Beat-14 end state
 
-## Beat-14 production notes
-
-- Mirena owns the decision to rest because she is the authority figure ending the working day; Ilyra is not silently positioned as the person who was already supervising Cyanis's food or sleep. Mirena's mock-royal `temporary prohibition on usefulness` lets her private/social register show without implying that the party is already her intimate inner circle.
-- the evening scene has no required lore topic or emotional milestone. It is simply the first low-pressure ordinary stretch for Cyanis, Ilyra, Torren, and Nimera as the current permanent four.
-- Nimera's longer floor-holding remains strongest when she is tired and stubborn about trivial distinctions. Her spoon profanity now uses the current voice rule: spontaneous absurdity followed by an immediate correction until the ridiculous phrase becomes internally workable.
-- Cyanis's response to Nimera's distinction is socially responsive rather than another repeated `___ distinction` construction; ordinary agreement remains available when it fits the exchange.
-- Torren still caps the ink because *he* is the one directly engaged in the cutlery/ink argument; Ilyra joins by weaponizing grammar and laughing, not by confiscating Nimera's work or ordering her to bed.
-- Ilyra's `prove him wrong and use the spoon on the stew` line is teasing manipulation, not food enforcement; Nimera remains free to comply, refuse, or argue.
-- Ilyra's recap joke is about the day's absurd events rather than whether everyone is fed, bleeding, or properly managed.
-- no one becomes the party parent. Nimera reaches `I am tired` herself and closes her own notes.
-- Torren's short replies in this scene are retained because the bread/ink/grammar exchanges work at that rhythm. **Terseness is not a target.** By Chapter 3 Torren is already socially comfortable with Cyanis and Ilyra and may use longer ordinary turns whenever his interest, mood, or the conversation earns them.
-- Torren and Nimera are still new acquaintances here. The ink argument establishes useful friction and early social chemistry, not an already-familial or paternal relationship.
-- no investigation finding, dream, attack, magical escalation, Card transformation, Prime event, or new Cresthaven lore occurs.
-- selecting `Leave for Cresthaven` skips the road and hands directly into Beat 15.
+- Mirena ends the working day and directs the party to rest before Cresthaven;
+- the evening provides a low-pressure social scene for the new permanent four-person party;
+- Nimera and Torren build early friction and humor without premature familial shorthand;
+- Ilyra participates socially rather than becoming party caretaker;
+- no investigation revelation or magical event occurs;
+- the Card remains stable deep Ruby;
+- the next morning provides a short Caelora preparation window;
+- road travel is skipped;
+- the party departs directly for Cresthaven.

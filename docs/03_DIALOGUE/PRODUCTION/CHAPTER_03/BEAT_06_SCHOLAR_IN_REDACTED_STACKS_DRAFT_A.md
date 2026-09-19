@@ -1,284 +1,237 @@
 # Chapter 3 — Beat 6
 # Scholar in Redacted Stacks
-## DIALOGUE ENGINE PRODUCTION DRAFT A — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
 
-**Method note:** rerun under `STORY_BEAT_AS_GUARDRAIL_LOCK.md`, `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, and current Ilyra character authority. Structural authority supplies the situation, hard outcomes, and reveal boundaries only. The conversational route comes from the participating Person Agent Brains and the Dialogue Editor. Ilyra's medical competence is used only where the trapped-person / Card-history facts genuinely make it relevant; Grace does not assign her the scene's safety or caretaker role.
-
----
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ### [STORY TRIGGER — ENCLOSED WORK SECTION]
 
-Cyanis, Ilyra, and Torren reach the deeper work section identified by the archive staff.
+Cyanis, Ilyra, and Torren reach the deeper work section.
 
-An Ancient barrier has moved across the passage: fitted stone and metal, engraved channels, and several marked plates built into the original structure. Nimera is on the other side among the work materials she had already been using.
+An Ancient barrier has sealed across the passage. Nimera Pellan is on the far side among the materials she had already been using.
 
-She is very obviously awake and busy.
+She is very obviously not waiting to be rescued.
 
-Before Cyanis can get close to the barrier:
+Before Cyanis gets close to the frame:
 
-**NIMERA:** Don't touch that—no, actually, don't touch anything near the frame. I don't know which part of this fucking thing decided to become a wall and I'd rather not discover a second opinion.
+**NIMERA:** Don't touch that. Actually, don't touch anything near it. I know three parts moved and I do not know whether the fourth is waiting for encouragement.
 
-Cyanis stops with one hand still half-raised.
-
-**CYANIS:** Wasn't going to.
-
-**NIMERA:** You were absolutely going to.
+Cyanis stops.
 
 **CYANIS:** I was looking.
 
 **NIMERA:** With your hand.
 
-Torren ignores both of them and studies the frame.
+Torren studies the frame instead.
 
 **TORREN:** What moved first?
 
-Nimera turns immediately toward the useful question.
+Nimera turns toward him immediately.
 
-**NIMERA:** Three plates. I stepped past the second worktable, heard stone move behind me, turned around, and the wall had apparently decided I lived here now. Which is rude, because the lighting is terrible.
+**NIMERA:** Three plates. Second worktable, stone behind me, turn around, congratulations, architecture has assigned me housing.
 
 **TORREN:** Three on your side?
 
-**NIMERA:** Three I can see. There may be more because, as established, the wall is an asshole.
+**NIMERA:** Three I can see.
 
-**TORREN:** There's another one here.
+Torren points low on the outer frame.
 
-Silence.
+**TORREN:** Fourth here.
 
-**NIMERA:** Where?
+Nimera leans for an angle she cannot get.
 
-**TORREN:** Low left. Behind the Crown brace.
+**NIMERA:** Of course there fucking is. Behind a Crown brace?
 
-Nimera shifts position, trying to find an angle that does not exist from inside.
+**TORREN:** Yeah.
 
-**NIMERA:** Of course there fucking is. Of course somebody put a modern brace over the one part I need to see.
+**NIMERA:** Excellent. I was worried restoration might be helping.
 
 Ilyra looks her over once.
 
-**ILYRA:** You're loud enough to be alive. Hurt?
+**ILYRA:** Hurt?
 
-**NIMERA:** No. Annoyed, trapped, and developing opinions about municipal restoration, but not hurt.
+**NIMERA:** No. Trapped, annoyed, and developing professional hostility toward whoever placed that brace.
 
-**ILYRA:** Good. Then I can enjoy this properly.
+**ILYRA:** Good. Then I can enjoy this.
 
-Nimera considers her for half a second.
+Nimera looks at her.
 
-**NIMERA:** I like you so far.
+**NIMERA:** I like you.
 
-### [WHO ARE YOU PEOPLE]
-
-Nimera looks past Ilyra to Cyanis and Torren.
-
-**NIMERA:** You're not archive staff. Archive staff would have started by apologizing for the brace.
+### [INTRODUCTIONS]
 
 **CYANIS:** Cyanis Dovaren. Ilyra Amarin. Torren Harth.
 
-**NIMERA:** I know Harth's name.
+Nimera's attention snaps to Torren.
 
-Torren finally looks at her.
+**NIMERA:** Harth.
 
-**TORREN:** Should I be worried?
+**TORREN:** That's usually how names work.
 
-**NIMERA:** Depends how attached you are to your map notes.
-
-**TORREN:** Very.
-
-**NIMERA:** Then yes. Your notation on the western survey copies is infuriating.
-
-**TORREN:** Mine?
-
-**NIMERA:** Unless another Harth writes directional margins like he's being charged by the word.
+**NIMERA:** Your western survey notation is appalling.
 
 **TORREN:** Saves space.
 
 **NIMERA:** It destroys context.
 
+**TORREN:** Didn't for me.
+
+**NIMERA:** You are not the only possible reader of a map.
+
+Cyanis cuts in before the argument finds roots.
+
 **CYANIS:** Mirena sent us.
 
-Nimera stops without actually conceding the argument.
+Nimera looks back at him.
 
-**NIMERA:** We'll come back to that. Why?
+**NIMERA:** That is much more relevant. Why?
 
-Cyanis brings the Card into view without offering it through the barrier.
+Cyanis brings the Card into view without moving it through the barrier.
 
-Nimera goes quiet.
+Nimera goes still.
 
 **NIMERA:** Oh.
 
+A beat.
+
+**NIMERA:** Don't move that yet.
+
 **CYANIS:** Familiar?
 
-**NIMERA:** No. Which is—wait, don't move it. That's much more interesting.
+**NIMERA:** No. That's why I'm interested.
 
-She leans closer from her side.
+Cyanis gives the short version of Brackenwall.
 
-**CYANIS:** We separated once at Brackenwall. I got cold, shaky, and generally terrible. My pulse dropped—she can give you the useful version because I was busy experiencing it. The Card lit green and gold toward me. Putting it back stopped the whole thing.
+**CYANIS:** We separated once. Pulse dropped, shaking, Card lit green and gold toward me. Putting it back stopped it.
 
-**ILYRA:** Pulse definitely dropped. Contact restored, pulse recovered. Shaking stopped. We didn't repeat it.
+Ilyra adds the part he could not observe himself.
 
-**NIMERA:** How far apart?
+**ILYRA:** Pulse recovered after contact was restored. We didn't repeat the test.
 
-**CYANIS:** Not far.
+Nimera's questions come quickly.
 
-**NIMERA:** "Not far" is not a distance.
-
-**CYANIS:** We were busy keeping me conscious.
-
-**NIMERA:** Right. Staying conscious outranked measuring the fucking gap.
-
-**NIMERA:** Contact broken completely?
+**NIMERA:** Complete separation?
 
 **ILYRA:** Yes.
 
-**NIMERA:** And nobody tried it again.
+**NIMERA:** Distance?
 
-**CYANIS:** No. I was extremely supportive of that decision.
+**CYANIS:** Not measured.
 
-**NIMERA:** Excellent. Genuinely excellent. I know that should be ordinary competence, but I work with scholars and you would be amazed how many people hear "unknown magical response" and immediately decide repetition is methodology.
+**NIMERA:** Fine. Staying conscious outranked measurement. Good. And nobody decided that an unexplained magical reaction needed a second attempt for confidence?
 
-**CYANIS:** You sound surprised.
+**CYANIS:** No.
 
-**NIMERA:** I am constantly surprised and almost never pleasantly.
+**NIMERA:** Excellent. I work with scholars. That answer is rarer than it should be.
 
-### [THE OTHER REASON]
+### [THE SEAL PROBLEM]
 
-Nimera is still looking at the Card.
+Nimera is still watching the Card.
 
-**NIMERA:** Mirena doesn't send three armed people into restricted stacks because a Card is strange. Strange is half the storage problem down here. What else?
+**NIMERA:** Mirena did not send armed people into restricted stacks because one Card behaved strangely. What else?
 
-**TORREN:** Orders moving it toward Caelora answered to the Queen's personal seal.
+**TORREN:** Orders moving it here answered to the Queen's personal seal.
 
 Nimera looks at him.
 
-**NIMERA:** Answered how?
+**NIMERA:** Genuine response?
 
-**TORREN:** Genuine authority response. Not just the mark.
+**TORREN:** Yeah.
 
-**NIMERA:** Did Lysara issue them?
+**NIMERA:** Lysara authorize them?
 
-**CYANIS:** Never knew the Card had been found.
+**CYANIS:** Didn't know the Card existed.
 
 **NIMERA:** Physical seal?
 
-**TORREN:** Still in the palace. Works normally for her.
+**TORREN:** In the palace. Intact. Works normally.
 
 A beat.
 
-**NIMERA:** That's ugly.
+**NIMERA:** Oh, that's ugly.
 
-**TORREN:** No clean gap in the custody record either.
+**TORREN:** Custody record has no clean gap.
 
-Nimera's focus snaps to him.
+Nimera points at him through the barrier.
 
-**NIMERA:** Record.
+**NIMERA:** Record. Important word.
 
-**TORREN:** Yes.
+Torren waits.
 
-**NIMERA:** No, I heard you. I'm objecting to what that sentence wants to become. "No gap in the record" means the record has no gap. It does not mean there was no access, no substitution, no bad witness, no copied entry, no person everybody trusted too much—
-
-**CYANIS:** Pellan.
-
-**NIMERA:** I'm almost done.
-
-**CYANIS:** You weren't.
-
-**NIMERA:** I was approaching done. The point is: clean record, not proven clean custody.
+**NIMERA:** A clean record proves the record is clean. It does not prove nobody got access, nobody lied, nobody copied an entry, nobody trusted the wrong person, or that physical access was even required. Those are separate claims and people keep marrying them because paperwork looks respectable.
 
 **TORREN:** Agreed.
 
 Nimera blinks.
 
-**NIMERA:** Oh. Good. That was going to be a much longer argument.
+**NIMERA:** Oh.
 
-**TORREN:** Saved you the effort.
+A beat.
 
-**NIMERA:** Don't get used to it.
+**NIMERA:** That was going to be longer.
+
+**TORREN:** Saved time.
+
+**NIMERA:** Don't make a habit of it.
 
 She looks back to the Card.
 
-**NIMERA:** I have questions.
+**NIMERA:** So. Strange Card, impossible royal authority, incomplete custody answer, and an Ancient wall between me and the evidence.
 
 **CYANIS:** That's why we're here.
 
-**NIMERA:** No, I mean I have too many questions, three bad categories, at least one royal-security problem, and a fucking wall in the way.
+**NIMERA:** I have too many questions and currently one architectural obstruction. The obstruction is winning.
 
-### [THE WALL WINS FOR NOW]
+### [THE BARRIER]
 
-Torren crouches only as much as implementation requires to inspect the fourth plate; no extended physical choreography is needed.
+Torren crouches near the fourth plate.
 
-**TORREN:** This one's worn at the lower edge.
+**TORREN:** Lower edge is worn.
 
 **NIMERA:** Mine aren't.
 
-**TORREN:** It moved recently.
+**TORREN:** This moved recently. In, then up.
 
-**NIMERA:** Direction?
+Nimera looks back at the three plates on her side.
 
-**TORREN:** In, then up.
-
-Nimera looks at the three plates she can reach from inside.
-
-**NIMERA:** Mine moved down when it closed. Or—no. Two moved down. Third rotated first, then dropped. I assumed that was the same action because they happened together. That's not the same thing.
+**NIMERA:** Mine moved down when it closed. No—two moved down. Third rotated first, then dropped. I treated that as one action because it happened quickly. That's not the same thing.
 
 **TORREN:** Better.
 
-**NIMERA:** Don't sound so pleased.
+**NIMERA:** Don't sound pleased.
 
-Cyanis studies the engraved lines crossing the frame.
+Cyanis follows the engraved channels around the frame.
 
-**CYANIS:** These don't end at the plates.
+**CYANIS:** These lines come back around.
 
-**NIMERA:** No.
+Nimera traces what she can see from inside.
 
-**CYANIS:** They come back around.
+**NIMERA:** Describe your side.
 
-Nimera looks again, following what she can see from her side.
+She points at Torren.
 
-**NIMERA:** Describe your side. Slowly, and if either of you says "sort of" I will become difficult on purpose.
+**NIMERA:** You. Slowly. Full sentences if the gods are feeling generous.
 
-**CYANIS:** Better if Harth does it.
+**TORREN:** No promises.
 
-**TORREN:** Agreed.
+**NIMERA:** I already dislike this partnership.
 
-**CYANIS:** Rude.
+Ilyra studies the pattern.
 
-**TORREN:** Accurate.
+**ILYRA:** What do you expect the fourth plate to do?
 
-Ilyra looks at the four plates and the engraved return path.
+Nimera answers without pretending certainty.
 
-**ILYRA:** What are you predicting happens when that fourth plate moves?
+**NIMERA:** Trigger a smaller response before anything opens. If it does, we learn from that. If it doesn't, then I was wrong and we revise instead of becoming emotionally attached to a bad idea.
 
-Nimera turns toward the question immediately.
+**ILYRA:** Refreshing.
 
-**NIMERA:** That one of my lines answers instead of the wall simply opening. Small response first. If I'm right, we test again. If I'm wrong, we stop pretending I was right and revise.
+**NIMERA:** It should not be refreshing.
 
-**ILYRA:** Better than "touch things until architecture loses."
+Cyanis smiles.
+**CYANIS:** I think you're going to fit in terribly.
 
-**NIMERA:** That is an unfair summary of scholarship.
-
-**CYANIS:** Is it?
-
-**NIMERA:** Yes. Mostly.
-
-Ilyra laughs.
-
-**CYANIS:** That happened before?
-
-**NIMERA:** I work with scholars.
-
-**ILYRA:** You used that one already.
-
-**NIMERA:** It keeps being relevant.
-
-**CYANIS:** I also like her so far.
-
-**ILYRA:** Deeply reassuring.
-
-Nimera turns back to the barrier.
-
-**NIMERA:** All right, Harth. Start at the fourth plate. And use complete sentences this time.
-
-**TORREN:** No.
-
-**NIMERA:** I knew this was going to be a problem.
+**NIMERA:** Good. Start with the plate.
 
 ### [GAMEPLAY HANDOFF]
 
@@ -286,22 +239,19 @@ Player control returns with the immediate objective:
 
 **Open the Ancient barrier.**
 
-The barrier remains closed. No Card classification, seal solution, or Ancient-authority conclusion has occurred.
+The barrier remains closed.
 
 Transition into:
 
 **Beat 7 — Ancient Barrier / First Cooperation.**
 
----
+## Beat-6 end state
 
-## Beat-6 production notes
-
-- This pass preserves the Nimera Person-Brain work while applying Ilyra's current dialogue-assignment guardrail.
-- Nimera's personality emerges from the immediate barrier problem before the plot explanation reaches her.
-- Nimera corrects language as a live social reflex, revises one of her own assumptions aloud, swears inside technical reasoning, and continues beyond the first useful sentence until another person has a reason to interrupt.
-- Ilyra makes one scene-earned injury check because Nimera is literally trapped behind a moving Ancient wall; she immediately turns the answer into humor instead of treatment or caretaking.
-- Cyanis owns his direct Card-separation experience. Ilyra contributes only the pulse/recovery observations that genuinely belong to her expertise and are useful to the new listener.
-- Ilyra's later barrier contribution is methodological curiosity—asking what Nimera predicts—rather than assuming responsibility for everyone else's safety behavior.
-- Nimera explicitly distinguishes a clean custody record from proven clean custody without turning that distinction into authorial omniscience.
-- nobody assigns formal roles in the upcoming barrier solution.
-- the barrier remains closed and Beat 7 owns the actual attempt.
+- Nimera is introduced as active, capable, verbally engaged, and already working the problem herself;
+- she is not injured or helpless;
+- she has not classified Cyanis's Card;
+- she understands the bounded Card-separation facts and the royal-seal contradiction;
+- she explicitly distinguishes a clean custody record from proven clean custody;
+- Torren and Nimera begin with professional friction and immediate mutual testing, not familial shorthand;
+- the barrier remains closed;
+- Beat 7 owns the actual cooperative solution.
