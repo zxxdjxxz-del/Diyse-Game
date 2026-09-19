@@ -278,7 +278,7 @@
           "scene_kind": "character_life",
           "slot_id": "C03",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md",
-          "source_sha256": "eda009f00e925a3f282d29848a39e4f652630f0c4d3b3859cd799285ba847c0c",
+          "source_sha256": "dde935b4137de1374241f8712353b861e8aa695e506dc830ad7a1cbdb38b8c62",
           "spoken_lines": 89,
           "spoken_sha256": "05221d9e8d0be9f1a889b104a0b904fdf5b4eab9db86fe1538b676d712dd072b",
           "title": "What the Map Says"

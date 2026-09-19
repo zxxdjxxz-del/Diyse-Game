@@ -24,7 +24,7 @@
 | 14 | Beat 14 | `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md` | `d26e9ac04f808202032ea4596d050f51eec4ee2f8e2a1d0d936ec3f308753092` |
 | 15 | Beat 15 | `BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md` | `e07e05469d36689e744167e114f050da1f6b00384e661bca1474e2305737f6e7` |
 | 16 | C02 — Torren's Version of Dinner | `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md` | `d417a5590b6ac55cbdd005932d3eb31ce71908febc20640fec1d0d8c635d0548` |
-| 17 | C03 — What the Map Says | `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md` | `eda009f00e925a3f282d29848a39e4f652630f0c4d3b3859cd799285ba847c0c` |
+| 17 | C03 — What the Map Says | `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md` | `dde935b4137de1374241f8712353b861e8aa695e506dc830ad7a1cbdb38b8c62` |
 | 18 | C04 — Not Professionally | `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md` | `36adad6fe360648296ed34418761f08d368998ef6d2c9ad620e2d4ac7d15b527` |
 
 ---
@@ -2379,7 +2379,7 @@ Scene ends.
 ## C03 — What the Map Says
 
 **Atomic source:** `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `eda009f00e925a3f282d29848a39e4f652630f0c4d3b3859cd799285ba847c0c`
+**Source SHA-256:** `dde935b4137de1374241f8712353b861e8aa695e506dc830ad7a1cbdb38b8c62`
 
 # Chapter 1 — Character-Life C04
 # What the Map Says
@@ -2719,7 +2719,7 @@ Scene ends before the exchange turns into a longer insult contest.
   - `CYANIS: Old slut?`
   - `TORREN: Bitch.`
   - callback `TORREN: Bitch.` / `CYANIS: Old slut.`
-- Torren remains terse socially but becomes substantially more verbal once Cyanis asks real questions about roads, maps, old cuts, and how field truth changes.
+- Torren begins Chapter 1 guarded, but his social opening is already underway here: route expertise earns longer turns, while jokes, argument, profanity, and ordinary back-and-forth show that he is not permanently terse.
 - Cyanis stops being a pure exposition prompter: he observes, jokes, draws one correct inference of his own, and genuinely learns how Torren thinks.
 - `Memory gets confident. Map gives me something to argue with later.` gives Torren a character-specific reason for keeping his own map without turning it into lore or a thematic speech.
 - no ancient Junction-map explanation, Cistern progression, Card event, or relationship-state leap is added.
