@@ -1,207 +1,76 @@
 # Chapter 1 — Beat 8
-# Forced Inner Section
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+# Surviving Channel / Forced Inner Route
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
----
+## [GAMEPLAY — SOLE SURVIVING CHANNEL]
 
-### [GAMEPLAY — FORCED INNER SECTION]
+Player control is active.
 
-**Player control is active.**
+The party follows the only surviving channel out of the Six-Channel Junction.
 
-This is hostile dungeon traversal.
+There is no route choice and no walking exposition.
 
-During ordinary movement, **Cyanis is the only visible party field character**.
+The Diysean construction becomes increasingly intact as the party moves deeper.
 
-Ilyra, Torren, and Maevra remain present in story state and may appear when a story scene triggers.
+Ordinary Black Host personnel and Diysean defenses remain random encounters.
 
-Nobody knows this route well enough to guide it, so there is **no walking dialogue**.
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-Combat party: **Cyanis + Ilyra + Torren**.  
-Maevra remains a non-combat traveling companion.  
-Cyanis carries the intact Card itself; it remains inert.
+Maevra remains with the group but does not participate in combat.
 
-Ordinary Black Host holdouts and Diysean defenses are **random encounters**.
+## [BRIEF REACTION — FORCED BREACH]
 
-The existing inner-ruin area carries the required visual transition: a more protected Diysean layer has been breached and Black Host forcing damage continues inward.
+The surviving channel reaches an intact protected access that the Black Host was unable to open normally.
 
-No extra machinery set piece, barricade sequence, aid station, or prop trail is authored.
+Instead, the Host broke through weaker surrounding construction beside it.
 
----
+The party does not stop for a full investigation.
 
-### [STORY TRIGGER — FORCED DOOR]
+**CYANIS:** Couldn't open it.
 
-At the established damaged doorway/breach, player movement pauses.
-
-The relevant characters may appear as simple field models. The broken access itself is the only visual this exchange needs.
-
-Cyanis looks at the intact sealed portion, then the ugly damage beside it.
-
-**CYANIS:** They didn't open it.
-
-**MAEVRA:** No. They accepted losing the argument with the door and started one with the wall.
-
-Torren studies the bypass.
-
-**TORREN:** Went around the frame where the older stone meets the later repair. Weakest part they could actually reach.
+**TORREN:** No. Door's still intact. They broke through the weaker stone around it.
 
 **ILYRA:** Subtle.
 
 **MAEVRA:** Worked.
 
-Cyanis looks through the breach.
+The party continues immediately.
 
-**CYANIS:** That's the problem. Somebody willing to spend this much time getting around a locked door usually thinks the room on the other side matters.
+## [GAMEPLAY — PROTECTED INNER SECTION]
 
-**TORREN:** Or somebody ordered them not to come back without trying.
+Beyond the breach, the architecture becomes cleaner and substantially more intact.
 
-**MAEVRA:** Still not the same thing.
+Signs of successful Black Host forcing become less frequent.
 
-**CYANIS:** No. Either one makes me want to know what stopped them.
+Diysean defenses remain active through ordinary random encounters.
 
-**ILYRA:** Preferably before it tries to stop us.
+There is no Card reaction here.
 
-**TORREN:** Good preference.
+No one identifies what this inner section protects.
 
-Scene ends.
+No one explains why the defenses are active.
 
----
+There is no additional authored dialogue stop.
 
-### [GAMEPLAY — INNER PUSH]
+## [CASTELLAN CHAMBER APPROACH]
 
-**Player control returns.**
+The inner route opens directly into a large intact chamber.
 
-Cyanis-only dungeon traversal continues.
+There is no threshold conversation, no Card-status check, and no pre-boss banter.
 
-Random encounters remain active. Encounter authority may escalate stronger Diysean defenses here, but the dialogue script does not place or trigger them.
+The party enters.
 
-The Card remains inert.
+## [GAMEPLAY HANDOFF]
 
-No mural appears.  
-No geographic map appears.  
-No falling-fire imagery appears.  
-No Junction monument appears.  
-No ancient-system explanation occurs.
+**Beat 9 — Hollow Watch Castellan** begins as the chamber responds to Cyanis crossing into the protected space.
 
-No dialogue is used during ordinary traversal.
-
-There is no mandatory post-random-encounter banter here. Hollow Watch has already had enough party chatter, and Cyanis/Torren's sharper personal banter is intentionally allowed to develop later rather than being declared immediately after Torren joins the operation.
-
----
-
-### [GAMEPLAY — FINAL INNER PUSH]
-
-**Player control continues.**
-
-Cyanis remains the sole visible traversal character.
-
-The Black Host route reaches a substantially more intact chamber and stops there.
-
-That is the only progression fact the scene needs. Do not stack additional lamps-ending, damage-pattern, machinery, track, or debris clues to reinforce it.
-
-Random encounters remain the only ordinary combat presentation.
+Known:
+- the Black Host could not open the protected access normally;
+- they forced entry through weaker surrounding construction;
+- the deeper layer is considerably more intact;
+- ancient defenses remain active;
+- the party still does not know what this section protects;
+- the Card has not reacted during Beat 8.
 
 ---
-
-### [THRESHOLD SCENE — CASTELLAN CHAMBER]
-
-At the chamber entrance, movement pauses and the relevant characters may appear as field models.
-
-A large ancient shape is integrated into the far architecture.
-
-Do not identify it yet.
-
-Nobody crosses the threshold immediately.
-
-**CYANIS:** This where they stopped?
-
-Torren looks at the end of the Host damage and the intact space ahead.
-
-**TORREN:** Looks like. No forcing past this point that I can see.
-
-**ILYRA:** Anything moving?
-
-A beat.
-
-Cyanis watches the integrated shape.
-
-**CYANIS:** Not yet.
-
-Maevra looks at the room rather than the object alone.
-
-**MAEVRA:** Then use the gift. Catch your breath, check yourselves, and get ready before `not yet` expires.
-
-Cyanis rolls one shoulder, checks himself, then looks at Ilyra before she can ask.
-
-**CYANIS:** No dizziness. No numbness. Nothing strange from the Card.
-
-Ilyra gives him a brief approving look.
-
-**ILYRA:** Look at that. Saved me two questions.
-
-Torren glances at them.
-
-**TORREN:** This a normal conversation now?
-
-**CYANIS:** Apparently.
-
-**CYANIS:** I'm very trainable.
-
-**TORREN:** Doubt it.
-
-Cyanis looks at him.
-
-**CYANIS:** You met me this morning.
-
-**TORREN:** Enough data.
-
-Maevra laughs under her breath.
-
-**MAEVRA:** Oh, this is going to get worse.
-
-**CYANIS:** For whom?
-
-**MAEVRA:** Yes.
-
-The humor stops when attention returns to the chamber.
-
-**TORREN:** Ready when you are.
-
-**CYANIS:** Let's find out what `not yet` means.
-
-Scene ends.
-
-No bow drawing, arrow nocking, Wardrod adjustment, shield-ready choreography, floor testing, formation blocking, or other pre-boss micro-animation is required.
-
----
-
-### [GAMEPLAY HANDOFF — HOLLOW WATCH CASTELLAN]
-
-**Player control returns at the chamber threshold.**
-
-Current objective:
-
-**Enter the protected chamber.**
-
-Story state:
-- the Black Host forced entry into a more protected Diysean layer;
-- ordinary Black Host and Diysean-defense enemies remain random encounters;
-- the Host route ends at the intact Castellan chamber;
-- the integrated far structure has not yet activated or been identified;
-- Cyanis carries the intact Card and it remains inert throughout Beat 8;
-- no mural, geography, falling-fire imagery, Junction significance, Prime explanation, bearer confirmation, or ancient-network explanation appears.
-
-Traveling group: **Cyanis + Ilyra + Maevra + Torren**  
-Combat party: **Cyanis + Ilyra + Torren**
-
-Torren remains a temporary combat ally.
-
-Next mandatory story beat: **Beat 9 — Hollow Watch Castellan.**
-
----
-
-## Person-Brain performance note
-
-- the forced-door scene now sounds like four people interpreting the same physical problem from different habits without overexplaining the visible breach.
-- Maevra can make a dry metaphor, Torren reads the material relationship, Ilyra anticipates consequence, and Cyanis follows the motive question without pretending to resolve it.
-- the threshold scene gives the group a human pre-boss breath without adding movement choreography or early deep friendship.
-- Cyanis now volunteers the familiar Card-status information himself before Ilyra has to run another routine checklist, showing learned continuity while keeping Ilyra's medical role available when a real change actually occurs.

@@ -1,333 +1,191 @@
 # Chapter 1 — Beat 1
 # Brackenwall / Protocol
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE + FINAL ENSEMBLE BALANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
----
+## [BRACKENWALL — INTAKE]
 
-### [GAMEPLAY — BRACKENWALL ARRIVAL]
+The recovered Card is brought into formal Brackenwall intake.
 
-**Player control is active.**
+**CUSTODY OFFICER:** That's the Card?
 
-Brackenwall is a functioning safe hub.
+**CYANIS:** Card survived. Casing didn't.
 
-Cyanis and Ilyra arrive with the recovered Card. Its Chapter-0 recovery casing is gone; the Card itself survived intact.
+**CUSTODY OFFICER:** And right now?
 
-Because Brackenwall is a hub, relevant party members and NPCs may already be present as field models. Ordinary dialogue still uses the normal portrait + dialogue-box presentation.
+**ILYRA:** Inert. That's not the same as safe.
 
-The Card is dark.
+**CUSTODY OFFICER:** Wasn't hoping it was. Tell me what it actually did.
 
----
+**ILYRA:** Twice, green-and-gold geometry spread from it and held damaged structure together around us. Both times Cyanis reacted with it—pulse up, tremor, dizziness afterward. We don't know why.
 
-### [STORY TRIGGER — FORMAL INTAKE]
+**CYANIS:** Her favorite answer.
 
-**Player control pauses.**
+**ILYRA:** Only when it's true.
 
-The custody officer, Cyanis, and Ilyra are present in the intake area. Simple field placement only; portraits carry the conversation.
+The officer looks at Cyanis.
 
-**CUSTODY OFFICER:** That's it? The thing that was in the recovery casing?
+**CUSTODY OFFICER:** Anything now?
 
-**CYANIS:** That's it. Casing didn't survive Riftmaw. Card did.
+Cyanis considers the question instead of answering automatically.
 
-The officer looks at Ilyra rather than trusting `did` to mean `is harmless`.
+**CYANIS:** No dizziness. Head's clear. Nothing new.
 
-**ILYRA:** No visible break, burn, deformation, or other damage we could establish in the field. That is not the same as me declaring it safe.
+**CUSTODY OFFICER:** Good enough for intake.
 
-**CUSTODY OFFICER:** I was afraid you'd say that.
+**ILYRA:** For intake.
 
-**CYANIS:** She says things like that when you use optimistic nouns.
+**CUSTODY OFFICER:** I heard you.
 
-**ILYRA:** You learned quickly.
+He takes possession of the Card.
 
-**CUSTODY OFFICER:** What did it actually do?
+**CUSTODY OFFICER:** Warded storage until Caelora tells us what we've got.
 
-Ilyra gives him the relevant version, not the whole convoy story.
+The officer moves away with it.
 
-**ILYRA:** Twice, green-and-gold geometry spread out from it and held damaged structure together around our position for a few seconds. Both times Cyanis changed with it—pulse rose, tremor, dizziness afterward. We don't know whether the Card caused those symptoms, reacted to the same thing that caused them, or was doing something else entirely.
+Within moments, Cyanis falters.
 
-**CYANIS:** For the record, I contributed by standing near it and becoming medically inconvenient.
+**ILYRA:** Cyanis.
 
-**ILYRA:** You were excellent at both.
+**CYANIS:** Yeah. I know.
 
-The officer looks to Cyanis.
+A thin green-gold response wakes across the Card, extending back toward him.
 
-**CUSTODY OFFICER:** Anything still wrong now?
+**ILYRA:** Don't move.
 
-Cyanis actually checks before answering.
+**CYANIS:** Wasn't planning anything ambitious.
 
-**CYANIS:** Head's clear. Arm hurts from yesterday, not differently. No dizziness. Nothing new I can feel.
+The officer has already stopped.
 
-Ilyra says nothing; the answer is finally precise enough.
+**CUSTODY OFFICER:** Bringing it back.
 
-**CUSTODY OFFICER:** Fine. Warded store until Caelora decides what to do with it.
+The Card returns.
 
-**CYANIS:** Works for me.
-
-The officer takes the Card and starts away with it.
-
-This is one required physical story action. No extra prop choreography is needed.
-
-After only a short distance, Cyanis visibly falters.
-
-**ILYRA:** Stop. Cyanis, don't move yet.
-
-A thin green-gold line wakes across the Card and reaches toward Cyanis.
-
-Ilyra checks him; this may be represented minimally while the portraits carry the exchange.
-
-**CYANIS:** Don't start counting.
-
-**ILYRA:** Already am.
-
-**CYANIS:** That's somehow worse.
-
-**ILYRA:** Quiet for ten seconds and let me be worse.
-
-The custody officer has seen enough.
-
-**CUSTODY OFFICER:** Bringing it back. We're not learning anything useful by making him worse.
-
-The officer brings the Card back toward Cyanis.
-
-The line retracts and goes dark. Cyanis steadies.
-
-Ilyra watches him another beat.
+The response collapses. Cyanis steadies.
 
 **ILYRA:** Better?
 
-**CYANIS:** Yes. Fast, too.
+**CYANIS:** Almost immediately.
 
-**ILYRA:** I noticed.
+**ILYRA:** Pulse is settling.
 
-**CUSTODY OFFICER:** Right. Storage transfer's finished until someone smarter than me can explain that.
+The officer gives the Card back to Cyanis.
 
-**CYANIS:** Good.
+**CUSTODY OFFICER:** That's the end of that experiment.
 
-**CUSTODY OFFICER:** Wasn't asking.
+**CYANIS:** Best decision I've heard today.
 
-**CYANIS:** Still good.
+**CUSTODY OFFICER:** It wasn't an experiment when I started it.
 
-The officer looks between them.
+**ILYRA:** It is now.
 
-**CUSTODY OFFICER:** Either of you tempted to find out exactly how far I got before that happened?
+The officer gives her a tired look.
 
-**ILYRA:** No.
+**CUSTODY OFFICER:** Fine. Accidental experiment. Finished.
 
-**CYANIS:** Deeply no.
+**CYANIS:** Even better.
 
-**CUSTODY OFFICER:** Wonderful. Get Solmar.
-
----
-
-### [SHORT HUB HOLD]
-
-**Player control may return briefly.**
-
-The Card remains at intake with Cyanis nearby until Maevra arrives.
-
-Do not add authored background errands, prop comedy, or micro-events here. Brackenwall's ordinary town/hub life belongs to the area presentation.
+**CUSTODY OFFICER:** Get Commander Solmar.
 
 ---
 
-### [STORY TRIGGER — MAEVRA]
+Maevra arrives shortly afterward, one arm already secured in a field splint.
 
-Maevra joins the intake scene.
+**MAEVRA:** I'm assuming normal procedure went beautifully.
 
-Her arm is already set in a practical field splint. The injury happened during the Broken Convoy attack before Chapter 1 began.
+**CYANIS:** Depends how attached you are to the word normal.
 
-Relevant characters may be visible as simple field models because this is a triggered hub scene.
+**CUSTODY OFFICER:** Storage failed.
 
-**MAEVRA:** Dovaren. Amarin.
+**MAEVRA:** Of course it did.
 
-**CYANIS:** Commander.
+Ilyra notices the splint.
 
-Ilyra's eyes go straight to the splint.
+**ILYRA:** Convoy?
 
-**ILYRA:** Commander. Whoever set that did enough to get you here. I'm changing it before you leave again.
+**MAEVRA:** Wagon threw me. Ground won.
 
-**MAEVRA:** Hello to you too.
+**ILYRA:** I'm redoing that before we leave.
 
-**CYANIS:** Broken in the convoy?
+**MAEVRA:** Hello, Ilyra.
 
-**MAEVRA:** Yeah. Wagon kicked sideways, I disagreed with the ground, ground won. And before either of you develops a speech: I'm traveling. I'm not fighting.
-
-**ILYRA:** Fine. You're still getting a fresh splint.
-
-**MAEVRA:** I heard that the first time.
-
-**ILYRA:** Good. Saves us both a second argument.
+**ILYRA:** Hello. I'm redoing that before we leave.
 
 Maevra looks at Cyanis.
 
-**MAEVRA:** See? This is why I don't argue with her about splints anymore.
+**MAEVRA:** See what I live with?
 
-**CYANIS:** Anymore implies growth.
+**CYANIS:** I was going to say she seems consistent.
 
-**MAEVRA:** Don't get excited. I save the bad decisions for larger subjects.
+**ILYRA:** Thank you.
 
-Ilyra gives her a look that says she can name several.
+**MAEVRA:** Nobody asked you to encourage her.
 
-**MAEVRA:** Not taking submissions.
+The custody officer cuts back in.
 
-That is enough to establish both the Chapter-1 injury state and the fact that Maevra and Ilyra already know one another well. The scene does not stop for a medical explanation.
+**CUSTODY OFFICER:** I moved the Card away from Dovaren. He started going down. The Card reacted toward him. I brought it back. Both stopped.
 
-The custody officer gives Maevra only what changed after arrival.
+The humor leaves Maevra.
 
-**CUSTODY OFFICER:** Storage failed. Moving the Card away made Dovaren sick; bringing it back stopped both his symptoms and the Card's response.
+**MAEVRA:** Anything still wrong?
 
-Maevra's humor disappears for the question that matters.
+**ILYRA:** No tremor now. Pulse is nearly baseline. He says he feels normal again.
 
-**MAEVRA:** How bad?
+**CYANIS:** I do.
 
-**ILYRA:** Bad enough. He's stable now. Don't test the distance again. We got one accidental separation response and it reversed when the Card came back. That's enough evidence to respect and nowhere near enough to experiment with him.
+**MAEVRA:** I believe you. I also know your definition of normal.
 
-**CYANIS:** Also, very much not interested in becoming a measuring stick.
+**CYANIS:** That's hurtful.
 
-**MAEVRA:** Great. Love consensus. It stays with Dovaren for now, and nobody gets curious about how far away it can go.
+**MAEVRA:** Recover later.
+
+She looks back to the officer.
+
+**MAEVRA:** Card stays with Dovaren. Amarin keeps an eye on him. If anything changes, we stop and reassess. Nobody tests the distance again.
 
 **CUSTODY OFFICER:** Fine by me.
 
-**MAEVRA:** Brackenwall isn't equipped for this anyway. Caelora is. Until then, custody gets ugly and simple: Dovaren keeps it, Amarin keeps watching Dovaren, and if the Card decides to develop another opinion we stop and reassess instead of proving how brave we are.
+**CYANIS:** Understood.
 
-**CYANIS:** That was the plan before it developed opinions.
+**MAEVRA:** Brackenwall can't answer this. Caelora might.
 
-**MAEVRA:** Now the plan has supervision.
+**CUSTODY OFFICER:** So you're taking it there.
 
-**CYANIS:** Mine or its?
+**MAEVRA:** I'm taking responsibility for it. Yes.
 
-**MAEVRA:** Yes.
+The decision is made.
 
-**CYANIS:** That's not helpful.
+**MAEVRA:** I can get us to Greenhollow. Before we go farther south, I want Torren Harth.
 
-**ILYRA:** I don't think she was trying to help.
+**CYANIS:** All right.
 
-**MAEVRA:** I was helping myself. Different service.
+Maevra starts to turn away.
 
-The conversation shifts to the route.
+**CYANIS:** And you're coming with us like that?
 
-**MAEVRA:** We don't go straight from here. I can get us to Greenhollow without gambling on reports I don't trust. After that I want Torren Harth before we push farther south.
+She looks at the splint.
 
-**ILYRA:** Guide?
+**MAEVRA:** I'm traveling. I'm not fighting.
 
-**MAEVRA:** When he's being paid, yes. When he isn't, annoyingly similar. Briar changes faster than reports do; Torren actually walks it, argues with it, swears at it, and then tells you which part is trying to kill you this week.
+**CYANIS:** Wasn't telling you not to come.
 
-**CYANIS:** You trust him.
+**MAEVRA:** I know.
 
-Maevra gives Cyanis a look like the answer should be obvious from the amount of insult she just spent on the man.
+**ILYRA:** Good. Sit down.
 
-**MAEVRA:** With roads, completely. Most other things too, though I'd deny saying that if he were standing here. We've known each other long enough that he'd make me regret the phrasing.
+**MAEVRA:** Fuck, I knew this part was coming.
 
-**ILYRA:** How long?
+**CYANIS:** That sounded like an order.
 
-Maevra smiles slightly.
+**MAEVRA:** Hers usually do when bones are involved.
 
-**MAEVRA:** Long enough. You'll meet him before you need the history.
+**ILYRA:** Sit.
 
-That boundary is casual, not secretive.
+**MAEVRA:** Yes, Warden.
 
-**MAEVRA:** Greenhollow first. Torren second. Then south toward Caelora. If the road has changed, he tells us. If it hasn't, he'll complain that we wasted his time and come anyway.
+### [GAMEPLAY HANDOFF]
 
-**CYANIS:** You already decided he's coming.
+Player control returns in Brackenwall.
 
-**MAEVRA:** I know him.
-
-**CYANIS:** That's not technically an answer.
-
-**MAEVRA:** See? You're recovering.
-
-Ilyra glances again at the splint.
-
-**ILYRA:** And you're traveling the whole way with that arm.
-
-**MAEVRA:** That's the current plan.
-
-**ILYRA:** Then the current plan waits until I redo it.
-
-**MAEVRA:** Fine.
-
-**CYANIS:** That easy?
-
-Maevra looks at him.
-
-**MAEVRA:** Dovaren, I've known Amarin long enough to know this is not the hill.
-
-**ILYRA:** Finally, the command structure produces something useful.
-
-**MAEVRA:** Careful. I still outrank you.
-
-**ILYRA:** And I'm still redoing the splint.
-
-Maevra considers that.
-
-**MAEVRA:** Annoying system.
-
-**CYANIS:** Seems balanced from here.
-
-Maevra points at him with her good hand.
-
-**MAEVRA:** Nobody asked you.
-
-That familiarity is preexisting; the rank is still real.
-
-**MAEVRA:** You two eat. Drink something that isn't medical equipment. I'll get the arm insulted properly, then we leave.
-
-Cyanis looks at Ilyra.
-
-**CYANIS:** You told her about that?
-
-**ILYRA:** I did not.
-
-Maevra looks between them.
-
-**MAEVRA:** Oh, now I need the story.
-
-**CYANIS:** No.
-
-**ILYRA:** Later.
-
-**MAEVRA:** Excellent. There is a later.
-
-The scene ends without additional movement choreography.
-
-Before departure, Ilyra changes/re-secures Maevra's splint off the main dialogue beat. The more substantial camp treatment scene is saved for later Character-Life material.
+**Objective: Prepare to leave for Greenhollow.**
 
 ---
-
-### [GAMEPLAY HANDOFF — BRACKENWALL SAFE HUB]
-
-**Player control returns.**
-
-Current objective:
-
-**Eat, resupply, and leave with Maevra for Greenhollow.**
-
-Story state:
-- the Chapter-0 recovery casing broke during the final boss fight and is gone;
-- Cyanis is carrying the intact Card itself;
-- the attempted Card transfer produced a proximity-linked response;
-- Brackenwall stopped the transfer rather than testing it repeatedly;
-- Maevra takes responsibility for the abnormal custody situation;
-- Maevra's arm was broken during the Broken Convoy attack and is already splinted;
-- Maevra travels with the group but does not fight in Chapter 1; the broken arm is the immediate in-world reason;
-- Maevra already has established personal familiarity with both Cyanis and Ilyra while remaining their senior commander in operational contexts;
-- Caelora is the larger destination;
-- Greenhollow is the immediate destination;
-- Ilyra continues with Cyanis;
-- Torren Harth is the route specialist Maevra intends to find.
-
-Combat party:
-**Cyanis Dovaren + Ilyra Amarin**
-
-Next mandatory story beat:
-**Briar Passage / First Traversal.**
-
----
-
-## Person-Brain / ensemble performance note
-
-- the Card-separation event stays immediate and physically led; the dialogue does not explain the visible line back to the player.
-- Ilyra gives a complete medical/evidentiary boundary where the scene genuinely requires it.
-- Maevra arrives socially alive: humor, injury deflection, command judgment, curiosity, and a clear boundary around unnecessary personal history all coexist without making her a co-exposition narrator.
-- Maevra and Ilyra now explicitly sound like people with established prior familiarity rather than new acquaintances; their easy pushback coexists with Maevra's real senior-command rank.
-- Maevra's Torren description sounds like long actual familiarity rather than a recruitment dossier without revealing exact duration or past romance.
-- the bitterleaf callback grows naturally out of Chapter 0 without becoming required lore.
-- no story, route, injury, Card, or gameplay outcome changes.

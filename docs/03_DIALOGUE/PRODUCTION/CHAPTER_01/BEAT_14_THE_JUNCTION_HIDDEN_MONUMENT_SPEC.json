@@ -4,25 +4,61 @@
   "chapter_id": "chapter_01",
   "story_position": "Chapter 1 — Beat 14 — The Junction / Hidden Monument",
   "production_ready": false,
-  "participants": ["cyanis", "ilyra", "maevra", "torren"],
-  "scene_purpose": "Pay off the Hollow Watch mural by bringing the party to the ancient crossroads Torren knows as the Junction, reveal that the important monument has been hidden in plain sight beneath vines and moss, expose its stone-and-metal cartographic surface, connect the party's existing Dunmere route and the earlier Southern Briar side access to older Diysean route information, and transition into the overnight cleanup window without adding another combat climax.",
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
+  "scene_purpose": "Pay off the Hollow Watch mural at the Junction: reveal the monument hidden beneath vines and moss, expose its cartographic surface, identify the old alignment beneath/along the existing Dunmere route and the water/cistern notation near the earlier side access, preserve the damaged edge, copy useful information, and camp.",
   "story_sources": [
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Beat 14 — Wayfinder Junction / Six Ways Through", "Beat 15 — Wayfinder Camp / Chapter-1 Cleanup Window"], "role": "base_chapter_01_story_authority"},
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md", "whole_file": true, "role": "latest_explicit_junction_naming_hidden_monument_and_torren_knowledge_authority"},
-    {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "direct_card_physical_state_authority"}
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Beat 14 — Wayfinder Junction / Six Ways Through",
+        "Beat 15 — Wayfinder Camp / Chapter-1 Cleanup Window"
+      ],
+      "role": "base_chapter_01_story_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md",
+      "whole_file": true,
+      "role": "latest_explicit_junction_naming_hidden_monument_and_torren_knowledge_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
+      "whole_file": true,
+      "role": "direct_card_physical_state_authority"
+    }
   ],
   "additional_authority_sources": [
-    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "current_gameplay_presentation_hard_lock"},
-    {"path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md", "whole_file": true, "role": "portrait_dialogue_presentation"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_and_reductive_presentation_contract"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "invisible_knowledge_firewall"}
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "current_gameplay_presentation_hard_lock"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md",
+      "whole_file": true,
+      "role": "portrait_dialogue_presentation"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_and_reductive_presentation_contract"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md",
+      "whole_file": true,
+      "role": "invisible_knowledge_firewall"
+    }
   ],
   "scene_context_seed": {
     "location_name": "The Junction — ancient crossroads south of Briar Passage",
     "area_phase": "safe_post_boss_discovery",
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
-    "runtime_note": "The Junction is safe after the Briarhide Stalker. Ordinary arrival/exploration shows Cyanis only. At the authored discovery trigger the relevant cast may appear as simple field models while portraits and dialogue box carry most performance. Torren knows the crossroads and route but has never seen the monument. The large central stone is heavily covered by vines and moss and must not read clearly as the mural monument until the party deliberately clears the vegetation. That clearing is an allowed major-story physical interaction, but implementation should use one simple interaction/state swap rather than detailed individual animation. Once exposed, the monument is a broad stone-and-metal cartographic surface, not a tunnel entrance. Preserve current Face terminology: Might, Grace, Perception, Memory, Elements, Ruin. Their map function remains unresolved. The map's southeast alignment corresponds to the already-known Dunmere route. A water/cistern notation corresponds geographically with the earlier overgrown Southern Briar side access, providing the reason to backtrack. One damaged map edge stays unresolved. The party physically copies useful information, but a brief fade/state transition is enough; no long drawing choreography. Torren decides to camp and continue to Dunmere in the morning. No random encounters, boss, Host ambush, collapse, antagonist sting, Prime explanation, bearer explanation, complete route-network explanation, or Entity reveal. Cyanis carries the intact Card and it remains inert."
+    "runtime_note": "The place is called the Junction in Chapter-1 dialogue. Torren knows the crossroads and modern route but has never seen the hidden monument's map surface. One simple vegetation-clear state change reveals a broad stone-and-metal cartographic surface; it is not a tunnel entrance. Face markings are Might, Elements, Grace, Perception, Memory, Ruin and their map function remains unresolved. Keep one damaged edge unresolved. Copy useful information with a brief fade. Torren calls for camp and morning departure to already-planned Dunmere. The late-Chapter-1 'trainable' jab must remain available so Chapter 2's 'You kept that one' callback is earned."
   },
   "current_floor_state": {
     "briarhide_stalker": "defeated",
@@ -30,24 +66,24 @@
     "junction_state_on_entry": "known_crossroads_hidden_monument_not_yet_revealed",
     "torren_knowledge_on_entry": "knows_crossroads_and_modern_route_only",
     "visible_traversal_character": "cyanis_only",
-    "combat_party": ["cyanis", "ilyra", "torren"],
+    "combat_party": [
+      "cyanis",
+      "ilyra",
+      "torren"
+    ],
     "maevra_party_status": "noncombat_traveling_companion",
     "card_state": "intact_directly_carried_by_cyanis_and_inert",
     "next_practical_destination": "Dunmere_already_known"
   },
   "required_story_beats": [
-    "Party reaches the Junction Torren already knows as an ancient crossroads.",
-    "The important monument from the mural is not immediately recognizable because vines and moss heavily cover the central stone.",
-    "The party clears the vegetation in one simple major-story interaction.",
-    "The exposed stone-and-metal cartographic surface is revealed; this is Torren's first actual view of it.",
-    "The monument is understood as a map/route object rather than a tunnel entrance.",
-    "Current Six Face markings appear in the technical/cartographic grammar without their function being explained.",
-    "The southeast alignment matches the party's existing route toward Dunmere.",
-    "Water/cistern notation corresponds with the earlier overgrown Southern Briar side access and makes that branch worth revisiting.",
-    "A damaged map edge remains unresolved.",
-    "The party makes a practical physical copy of useful information.",
-    "Torren decides the group should camp and continue to Dunmere in the morning.",
-    "Junction and Southern Briar remain available during the cleanup window."
+    "Arrive at the familiar Junction crossroads after the Briarhide boss.",
+    "Fail to immediately see the mural monument because vines/moss hide the low central stone.",
+    "Clear the vegetation in one simple interaction and reveal the cartographic surface.",
+    "Torren identifies the southeast line as matching the party's existing Dunmere-bound route alignment without overclaiming construction continuity.",
+    "Match a water/cistern notation to the earlier overgrown Southern Briar side access.",
+    "Leave the damaged edge unresolved and copy only what survived.",
+    "Preserve the late-Chapter-1 'See? Trainable.' / 'Careful.' exchange.",
+    "Camp at the Junction and continue to Dunmere in the morning."
   ],
   "forbidden_reveals": [
     "complete_ancient_route_network",

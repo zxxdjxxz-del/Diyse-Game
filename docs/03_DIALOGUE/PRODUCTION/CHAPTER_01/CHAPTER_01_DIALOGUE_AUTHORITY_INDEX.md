@@ -1,8 +1,8 @@
 # Chapter 1 — Dialogue Authority Index
 
 **Chapter:** 1  
-**Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — BEATS 1–15 + C02/C03/C04; ATOMIC DIALOGUE + CURRENT PERSON BRAINS + APPLICABLE SCENE SPECS ALIGNED**  
-**Combined read-through:** `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **STALE; do not use as exact wording authority until resynchronized**  
+**Status:** **LOCKED CURRENT CHAPTER-1 DIALOGUE — BEATS 1–15 TRUE-VOICE + CHAPTERS 0–3 CONTINUITY AUDITED; C02/C03/C04 RETAINED CURRENT**  
+**Combined read-through:** `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **STALE UNTIL REGENERATED FROM THIS LOCKED ATOMIC SET**  
 **Character-Life numbering:** `../CHARACTER_LIFE_NUMBERING_LOCK.md`  
 **Character-Life content:** `CHARACTER_LIFE_REBUILD_LOCK.md`  
 **Rhythm:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
@@ -144,6 +144,30 @@ These characters are mature adults, not sanitized archetypes.
 
 No swear quota exists.
 
+## September 19, 2026 Chapter-1 dialogue lock
+
+The user explicitly approved the completed Beats 1–15 cleanup as the new Chapter-1 dialogue authority after:
+- current runtime Person-Brain audit;
+- true-character-voice audit;
+- Chapters 0–3 atomic voice comparison;
+- spoken-dialogue vs narration audit;
+- natural-turn/floor-holding audit;
+- relationship-stage and cross-chapter callback audit.
+
+The mandatory Beat 1–15 atomics now supersede their prior wording in full. The Chapter-1 Character-Life atomics C02/C03/C04 remain current and unchanged.
+
+Key locked structural corrections include:
+- Beat 2: one halfway stop; no guided traversal dialogue;
+- Beat 5: no watch-room/lower-fort information stop;
+- Beat 6: gameplay-first descent; no scripted first Sentry beat;
+- Beat 7: six channels total, five ancient collapses, one usable channel;
+- Beat 8: one brief breach reaction; no threshold scene/pre-boss banter;
+- Beat 10: direct transition from mural to Greenhollow;
+- Beat 11: Greenhollow resolution/recruitment;
+- Beat 12: no guided traversal dialogue; Briarhide track before late side access;
+- Beat 14: Junction naming/hidden monument knowledge lock and mandatory `trainable` setup for Chapter 2;
+- Beat 15: no mandatory evening conversation; brief morning departure.
+
 ## Material atomic corrections already current
 
 - Beat 1 — Maevra/Ilyra preexisting familiarity + rank corrected.
@@ -184,8 +208,8 @@ Natural adult speech does not justify repeating visible evidence or known plot i
 - high-risk/applicable scene specs — **ALIGNED**;
 - natural-turn audit — **COMPLETE**;
 - spoken-dialogue/narration audit — **COMPLETE**;
-- combined manuscript — **STALE, NEXT PHASE ONLY**;
-- old Chapters 0–3 reader/novelization — **STALE, NEXT PHASE ONLY**.
+- combined manuscript — **STALE AFTER THIS NEW LOCK; MUST BE REGENERATED FROM CURRENT ATOMICS**;
+- Chapters 0–3 reader/runtime derivatives — **STALE FOR CHAPTER 1 UNTIL REGENERATED FROM CURRENT ATOMICS**.
 
 ## Conflict order
 

@@ -4,32 +4,89 @@
   "chapter_id": "chapter_01",
   "story_position": "Chapter 1 — Beat 5 — Occupied Hollow Watch Fort",
   "production_ready": false,
-  "participants": ["cyanis", "ilyra", "maevra", "torren"],
-  "scene_purpose": "Move through the occupied Yahtrean surface fort using established dungeon presentation; confirm the Hollow Watch garrison was killed; establish that the Black Host is primarily supporting the excavation below; preserve Torren's bounded knowledge; and reach the lower access without scripted ordinary fights or micro-staging.",
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
+  "scene_purpose": "Let the occupied fort tell most of its story environmentally, deliver one major authored discovery when the party finds the dead garrison, and send the party down the already-obvious Black Host excavation route without a second information stop.",
   "story_sources": [
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Locked Chapter-1 geography", "Locked travel / combat presentation", "Beat 5 — Occupied Hollow Watch Fort"], "role": "current_chapter_01_beat_05_story_authority"},
-    {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "current_direct_card_physical_state_authority"}
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Locked Chapter-1 geography",
+        "Locked travel / combat presentation",
+        "Beat 5 — Occupied Hollow Watch Fort"
+      ],
+      "role": "current_chapter_01_beat_05_story_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
+      "whole_file": true,
+      "role": "current_direct_card_physical_state_authority"
+    }
   ],
   "additional_authority_sources": [
-    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "field_and_scene_presentation_hard_lock"},
-    {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "torren_character_authority"},
-    {"path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md", "whole_file": true, "role": "cyanis_character_authority"},
-    {"path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md", "whole_file": true, "role": "ilyra_character_authority"},
-    {"path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md", "whole_file": true, "role": "maevra_character_authority"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_dialogue_contract"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "invisible_knowledge_firewall_contract"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md", "whole_file": true, "role": "ordinary_enemy_random_encounter_lock"}
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "field_and_scene_presentation_hard_lock"
+    },
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Torren.md",
+      "whole_file": true,
+      "role": "torren_character_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md",
+      "whole_file": true,
+      "role": "cyanis_character_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md",
+      "whole_file": true,
+      "role": "ilyra_character_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md",
+      "whole_file": true,
+      "role": "maevra_character_authority"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_dialogue_contract"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md",
+      "whole_file": true,
+      "role": "invisible_knowledge_firewall_contract"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
+      "whole_file": true,
+      "role": "walking_dialogue_hard_lock"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "ordinary_enemy_random_encounter_lock"
+    }
   ],
   "scene_context_seed": {
     "location_name": "Occupied Hollow Watch — Yahtrean surface fort",
     "area_phase": "active_hostile_surface_exploration",
     "dialogue_readiness": "RED_during_traversal_AMBER_at_story_stops",
     "static_story_context_only": true,
-    "runtime_note": "HARD PRESENTATION: ordinary fort/dungeon traversal shows Cyanis only. Ilyra, Torren, and Maevra may appear as field models when a story scene triggers; use simple placement and portraits/dialogue for most performance. HARD RANDOM ENCOUNTER: ordinary Black Host troops are random encounters only, never fixed guards, scripted ambushes, or room-clear gates. HARD REDUCTION: do not script tool-rack business, stain inspection, body-by-body choreography, cloak adjustment, paper handling, window/winch blocking, lamp pickup, brace interaction, or other micro-actions. The environment carries the recent occupation and excavation logistics. Torren learns the garrison fate only at the body-room discovery. Nobody knows the excavation target, ancient structure purpose, six-channel junction, mural, Junction monument significance, Prime identity, or ancient-network truth. Cyanis carries the intact Card; it remains inert."
+    "runtime_note": "Hostile fort exploration with random Black Host encounters. One major authored stop only: discovery of the dead Hollow Watch garrison. HARD REDUCTION: no watch-room records scene, no lower-fort information stop, no document recap, and no separate route-down conversation. The excavation logistics themselves make the downward route obvious."
   },
   "current_floor_state": {
-    "combat_party": ["cyanis", "ilyra", "torren"],
+    "combat_party": [
+      "cyanis",
+      "ilyra",
+      "torren"
+    ],
     "maevra_party_status": "noncombat_traveling_companion",
     "torren_party_status": "temporary_combat_ally",
     "visible_traversal_character": "cyanis_only",
@@ -40,11 +97,11 @@
     "card_state": "intact_directly_carried_by_cyanis_inert"
   },
   "required_story_beats": [
-    "Surface-fort gameplay makes the recent occupation and downward excavation focus readable.",
-    "The party discovers the dead Hollow Watch garrison and Torren learns their fate.",
-    "A concise watch-room information stop confirms sustained logistics directed below.",
-    "The party reaches the forced opening into older construction.",
-    "No surviving-garrison rescue objective exists."
+    "Enter Hollow Watch beneath the west wall.",
+    "Explore the occupied fort through normal gameplay.",
+    "Find the dead Yahtrean garrison and let the discovery land with concise character dialogue.",
+    "Return control immediately.",
+    "Follow the obvious Black Host excavation route downward without a second authored stop."
   ],
   "forbidden_presentation": [
     "visible_party_follower_train_during_fort_traversal",

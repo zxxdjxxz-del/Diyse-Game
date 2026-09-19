@@ -1,233 +1,143 @@
 # Chapter 1 — Beat 13
-# Briarhide Stalker / Chapter-1 Final Boss
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS + ILYRA ROLE-BALANCE PASS
+# Briarhide Stalker
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
----
+## [GAMEPLAY — FINAL SOUTHERN BRIAR STRETCH]
 
-### [GAMEPLAY — FINAL SOUTHERN BRIAR STRETCH]
+Player control is active.
 
-**Player control is active.**
+Cyanis is the only visible party field character during ordinary traversal.
 
-Cyanis is the only visible party field character during ordinary wilderness traversal.
+There is no dialogue before the boss trigger.
 
-Torren, Ilyra, and Maevra remain present in story state.
+The Briarhide Stalker has not been clearly seen yet.
 
-Torren is still guiding the route, but no dialogue is needed here.
+The Card remains inert.
 
-The Briarhide Stalker has **not** been clearly seen yet.
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-Cyanis carries the intact Card itself. It remains inert.
+Maevra remains with the traveling group but does not participate in combat.
 
-Permanent combat party: **Cyanis + Ilyra + Torren**.  
-Maevra remains a non-combat traveling companion.
+## [STORY TRIGGER — FIRST CLEAR SIGHTING]
 
-Ordinary enemies remain random encounters.
+The usable route opens ahead.
 
-The player reaches the final route trigger before the Junction.
+The Briarhide Stalker is there.
 
----
+This is the first clear visual reveal of the animal.
 
-### [STORY TRIGGER — FIRST CLEAR BRIARHIDE SIGHTING]
-
-**Player movement pauses.**
-
-The relevant characters may appear as simple field models for the scene.
-
-The **Briarhide Stalker appears on the usable route ahead.**
-
-This is the player's first clear look at it.
-
-It is simply an exceptionally large, powerful Briarhide native to Briar Passage.
-
-No armor. No Black Host equipment. No magical apparatus. No visible corruption. No special wound or condition that needs to be solved.
-
-The boss itself is the visual focus. No stalking sequence, circling animation, brush choreography, or separate pre-fight encounter is added.
+It is simply an exceptionally large native Briarhide. There is no Black Host equipment, corruption, machinery, special wound, or other condition to diagnose.
 
 A beat.
 
-Cyanis looks from the animal to Torren.
+**CYANIS:** There.
 
-**CYANIS:** That's the Briarhide.
-
-Torren does not take his eyes off it.
+Torren watches it.
 
 **TORREN:** Yeah.
 
-**MAEVRA:** `Very large` was underselling it too.
+**MAEVRA:** That's your big one?
+
+**TORREN:** Bigger than I thought.
+
+The Stalker holds the route.
+
+**ILYRA:** It's not moving on.
+
+**TORREN:** No.
+
+Cyanis looks at the ground ahead, then back at Torren.
+
+**CYANIS:** Way around?
+
+**TORREN:** Not without turning back a long way.
+
+A beat.
+
+**TORREN:** And I wouldn't turn our backs on it from here.
+
+Cyanis nods.
+
+**CYANIS:** Then we go through.
+
+Torren's answer is immediate.
 
 **TORREN:** Yeah.
 
-Ilyra studies the animal.
+Maevra stays back.
 
-**ILYRA:** I was prepared to make fun of both of you for the buildup.
+**MAEVRA:** Do it.
 
-**CYANIS:** And?
+**BOSS BATTLE — BRIARHIDE STALKER**
 
-**ILYRA:** I have revised my position.
+## [BOSS COMBAT]
 
-Torren checks the route rather than enjoying being right.
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-**TORREN:** No clean way around it without backing up a long way, and I don't want to turn our backs on something that already knows we're here. Junction's straight through.
+Maevra does not participate.
 
-**CYANIS:** Can we wait it out?
+The Briarhide Stalker is defeated and killed through ordinary combat victory.
 
-**TORREN:** Maybe, if it were just crossing. It's not crossing.
+There is:
+- no corruption phase;
+- no Black Host control reveal;
+- no purification;
+- no component removal;
+- no protected HP floor;
+- no nonlethal or drive-off resolution;
+- no mandatory mid-battle dialogue.
 
-The Briarhide holds the route and remains focused on them.
+## [STORY TRIGGER — AFTERMATH]
 
-**TORREN:** That's a challenge. Big territorial animal, narrow road, and we're in the part it decided is worth keeping. We leave now, it may follow until it thinks we're far enough. We push past, it fights.
+The Briarhide lies still.
 
-**MAEVRA:** And we need past.
+For a moment, nobody says anything.
 
-**TORREN:** Yeah.
+Torren watches it long enough to be certain.
+
+**TORREN:** Dead.
 
 Cyanis exhales.
 
-**CYANIS:** Of course we do.
+**CYANIS:** Good.
 
-**ILYRA:** Fine. But if either of you says `it's only an animal` in the next five minutes, I'm siding with the animal.
+Ilyra looks toward the now-open route.
 
-**CYANIS:** Comforting.
+**ILYRA:** I liked the forest better before it started producing things that size.
 
-**TORREN:** Wouldn't blame you.
+**TORREN:** That's Briar.
 
-Maevra remains outside the battle party.
+**ILYRA:** I'm developing opinions about Briar.
 
-**BOSS COMBAT BEGINS — BRIARHIDE STALKER.**
+A faint beat of normality returns.
 
----
-
-### [BOSS COMBAT — BRIARHIDE STALKER]
-
-Combat party: **Cyanis + Ilyra + Torren**.
-
-Maevra does not participate in battle.
-
-This is a normal authored boss encounter.
-
-The Briarhide Stalker is a natural wild beast. It does not transform into a corrupted form, reveal Black Host control, expose machinery, require purification, or use a special nonlethal solution.
-
-**The fight is lethal. The party defeats and kills the Briarhide Stalker through ordinary combat victory.**
-
-There is no protected HP floor, disengagement state, drive-off resolution, purification state, capture condition, or forced nonlethal ending.
-
-Encounter authority owns exact stats, attacks, targeting, pacing, and tuning.
-
-No mandatory mid-battle dialogue is required.
-
----
-
-### [STORY TRIGGER — POST-BOSS]
-
-After victory, field/story presentation returns and the relevant characters may appear.
-
-The Briarhide is dead. No ambiguity is introduced.
-
-A beat.
-
-Torren watches long enough to be certain.
-
-**TORREN:** Done.
-
-Cyanis remembers the Castellan.
-
-**CYANIS:** More confident this time?
-
-**TORREN:** It's dead.
-
-**CYANIS:** Better.
-
-Maevra looks over the three who actually fought.
-
-**MAEVRA:** Everybody still in one piece?
-
-**TORREN:** Yeah.
-
-**CYANIS:** Yes. And before anybody gets ambitious, no dizziness, no numbness, nothing strange from the Card.
-
-Ilyra looks at him.
-
-**ILYRA:** Nobody asked.
-
-**CYANIS:** I know. I'm showing initiative.
-
-**ILYRA:** Horrifying.
-
-Torren glances at her.
-
-**TORREN:** Trainable.
-
-**CYANIS:** You two need separate material.
-
-**ILYRA:** No. This one's efficient.
-
-Maevra looks at the dead Briarhide, then at the rise ahead.
-
-**MAEVRA:** Everyone done congratulating Dovaren on basic communication?
-
-**ILYRA:** I was insulting him.
-
-**CYANIS:** Thank you.
+Maevra looks toward the rise ahead.
 
 **MAEVRA:** Junction?
 
-Torren looks toward the rise.
+Torren nods.
 
-**TORREN:** Past that. Ten minutes if we don't find another fucking legend standing in the road.
+**TORREN:** Over the rise.
 
-Cyanis looks ahead.
+Cyanis looks forward.
 
-**CYANIS:** You had to say it.
+**CYANIS:** Let's go.
 
-**TORREN:** Probably.
+The scene ends.
 
-**MAEVRA:** If the monument attacks us, I'm blaming him.
+## [GAMEPLAY HANDOFF]
 
-**ILYRA:** I'm blaming you for saying that out loud.
+Player control returns.
 
-**MAEVRA:** I'll take that.
+The Briarhide threat is gone and the route forward is open.
 
-**TORREN:** Good. Let's go.
+Chapter 1's final combat climax is complete.
 
-Scene ends.
+The Junction monument has still not been revealed.
 
-No trophy-cutting, corpse inspection, wound-treatment choreography, victory pose, weapon handling, or extended post-boss animation is required.
-
----
-
-### [GAMEPLAY HANDOFF — THE JUNCTION]
-
-**Player control returns.**
-
-Cyanis is again the sole visible traversal character.
-
-The Briarhide threat no longer blocks the route forward because the party killed it.
-
-Current objective:
-
-**Continue to the Junction.**
-
-Story state:
-- the Briarhide Stalker was first clearly shown immediately before the boss encounter;
-- it was an exceptionally strong but otherwise natural wild animal;
-- the boss was killed through ordinary combat victory;
-- no nonlethal, drive-off, purification, capture, or protected-HP resolution occurred;
-- Maevra remained outside combat;
-- Chapter 1's final combat climax is complete;
-- the story now shifts into the quieter Junction discovery;
-- the Junction monument has still not been revealed;
-- Cyanis carries the intact Card and it remains inert.
-
-Next mandatory story beat:
-**Beat 14 — The Junction / hidden monument reveal.**
+Next mandatory beat:
+**The Junction / Hidden Monument**
 
 ---
-
-## Person-Brain / canon check
-
-- **Lethal Briarhide lock:** explicit. The Stalker dies in the boss fight. No stale nonlethal/drive-off language is legal here.
-- Torren gives a full field judgment about why the animal is not simply `in the way`; this is exactly the kind of animal/terrain subject that naturally makes him more verbal.
-- Maevra, not Ilyra, owns the ordinary post-combat `everyone intact?` check. Cyanis volunteers his Card symptoms from learned continuity rather than waiting for Ilyra to administer a checklist.
-- Ilyra's role is personal and social: she revises her opinion of the animal, jokes about siding with it, needles Cyanis, and joins the emerging `trainable` callback without becoming the team's post-battle medical voice.
-- post-boss humor shows growing group familiarity without turning the kill into celebration.
-- no corruption, Black Host control, special-condition mystery, or hidden encounter phase is added.

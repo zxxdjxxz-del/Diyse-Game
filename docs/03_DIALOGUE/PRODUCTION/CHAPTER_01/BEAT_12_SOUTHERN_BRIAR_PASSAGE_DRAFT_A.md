@@ -1,273 +1,153 @@
 # Chapter 1 — Beat 12
 # Southern Briar Passage
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE + FINAL ENSEMBLE BALANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
----
+## [GAMEPLAY — SOUTHERN BRIAR]
 
-### [GREENHOLLOW SOUTH EDGE — DEPARTURE]
+Player control is active.
 
-Greenhollow is a town, so the relevant characters may be present as field models before departure.
+There is no separate Greenhollow departure scene.
 
-The stop is brief. Word from Hollow Watch is passed on, supplies are replaced where possible, and the journey continues south.
+The party leaves Greenhollow and enters Southern Briar Passage.
 
-Torren looks over everyone once, then at Maevra's additional food.
+Ordinary wilderness traversal shows Cyanis only on the field.
 
-**TORREN:** Ready?
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-**MAEVRA:** More or less.
+Maevra remains with the traveling group but does not participate in combat.
 
-**TORREN:** You bought enough food for six people.
+Torren is the active guide in story state, but there is **no guided traversal dialogue**.
 
-**MAEVRA:** Three combatants, one injured commander, and whatever impossible appetite travel gives me. Correct amount.
+Southern Briar is more difficult to read than the Brackenwall–Greenhollow leg. It is moderately maze-like rather than labyrinthine: a few meaningful forks, one or two reconnecting loops, misleading-looking branches, and natural route ambiguity.
 
-**CYANIS:** I'm not getting involved.
+Torren's expertise is demonstrated by the route the player is successfully taking through the area, not by spoken navigation calls.
 
-**ILYRA:** Good instinct.
+Most traversal is silent.
 
-Torren shakes his head.
+## [STORY TRIGGER — BRIARHIDE TRACK]
 
-**TORREN:** Works. South edge, then.
+Farther south, the party reaches a clear track pressed deeply into the route.
 
-**CYANIS:** Strong start to permanent membership.
+Movement pauses.
 
-**TORREN:** You can stay here.
+The Briarhide itself is not visible.
 
-**CYANIS:** Right. Got me.
+**CYANIS:** That's large.
 
-Scene ends.
+Torren's tone changes immediately.
 
----
+**TORREN:** Briarhide.
 
-### [GAMEPLAY — SOUTHERN BRIAR]
+He studies what the track actually gives him.
 
-**Player control is active.**
+**TORREN:** Big one. Recent.
 
-Once the party leaves Greenhollow, **Cyanis is the only visible party field character** during ordinary traversal.
+**MAEVRA:** How recent?
 
-Torren is the active guide and may give brief route instructions through the portrait/dialogue UI.
+**TORREN:** Recent enough I don't care whether it's ten minutes or thirty while we're standing in the track.
 
-Cyanis carries the intact Card itself. It remains inert.
+Ilyra looks down the route ahead.
 
-Permanent combat party: **Cyanis + Ilyra + Torren**.  
-Maevra remains a non-combat traveling companion.
+**ILYRA:** Ahead of us?
 
-Ordinary enemies are random encounters.
+**TORREN:** Probably. Track's running the same direction we are.
 
-Most travel is silent. The area/map design carries the Southern Briar exploration rather than the dialogue script adding route vignettes.
-
-### [GUIDED TRAVERSAL DIALOGUE]
-
-At a muddy-looking stretch:
-
-**TORREN:** Keep right until the ground firms up. Not the dry-looking strip—the darker one beside it.
-
-**CYANIS:** You know, most people say `keep right` and stop there.
-
-**TORREN:** Most people aren't the reason you're following this road.
-
-**CYANIS:** That's true. How long?
-
-**TORREN:** Until the roots change. Pines thin out and you start seeing alder. Ground comes up under them.
-
-**CYANIS:** That's an answer.
-
-**TORREN:** You asked a better question.
-
-Maevra cuts in.
-
-**MAEVRA:** Don't let him train you into thinking every walk needs a soil dissertation.
-
-**TORREN:** Says the woman who told three stories about bread before we left town.
-
-**MAEVRA:** Bread has culture.
-
-**ILYRA:** Ground has fewer opinions.
-
-**TORREN:** Ground has plenty. Just doesn't care if you listen.
-
-A beat.
-
-**CYANIS:** That was almost philosophical.
-
-**TORREN:** No. Ground really will kill you.
-
-**MAEVRA:** Beautiful. Put it on a pillow.
-
-**TORREN:** You'd buy it.
-
-**MAEVRA:** I'd buy it for you and make you carry it.
-
-The exchange ends because the group has finished amusing itself, not because Torren has reached a terseness quota.
-
-No route split or route-choice scene is introduced.
-
----
-
-### [STORY TRIGGER — OVERGROWN SIDE ACCESS]
-
-At the required old stone-lined side access, player movement pauses.
-
-The relevant characters may appear as simple field models. The overgrown opening itself is the only required visual.
-
-Maevra looks toward it.
-
-**MAEVRA:** Know it?
-
-Torren studies the cut rather than pretending he has more history than he does.
-
-**TORREN:** Know *of* the cut. Old stone line runs in that direction. Never had work that needed it and it doesn't help the Dunmere route.
-
-**ILYRA:** Ever been inside?
-
-**TORREN:** No.
-
-**CYANIS:** That sounded almost like an invitation.
-
-**ILYRA:** You hear invitations in some terrible places.
-
-**CYANIS:** I said almost.
-
-**TORREN:** Wrong direction, unknown condition, and we've already adopted enough ancient problems for one day.
-
-Cyanis looks at him.
-
-**CYANIS:** `Adopted`?
-
-**TORREN:** You're carrying one.
-
-Cyanis looks down at the inert Card.
-
-**CYANIS:** Can't argue with that.
-
-**MAEVRA:** Then south.
-
-Scene ends.
-
-Ilyra is curious about the access and jokes about Cyanis's phrasing; she is not assigned the automatic safety veto.
-
-No one names a cistern, Hunt, node, tunnel system, or hidden objective.
-
----
-
-### [GAMEPLAY — DEEPER SOUTHERN BRIAR]
-
-**Player control returns.**
-
-Cyanis-only traversal continues.
-
-Random encounters remain the ordinary combat presentation.
-
-The only authored Briarhide foreshadowing is one clear large track on the route. The animal itself is not shown.
-
----
-
-### [STORY TRIGGER — BRIARHIDE TRACK]
-
-Player movement pauses.
-
-The relevant characters may appear as simple field models if useful; portraits and the dialogue box carry the exchange.
-
-Cyanis sees the track.
-
-**CYANIS:** Big.
-
-Torren's humor disappears as he reads it.
-
-**TORREN:** Briarhide. Very large one.
-
-**MAEVRA:** You said `very` before. I'm starting to think you were underselling it.
-
-Torren keeps studying the track and nearby route, but does not add inspection choreography.
-
-**TORREN:** I was. Track's deep, edges are still clean, and it's using the road instead of crossing it. Big animals do that when the road is easier than the brush.
-
-**ILYRA:** Recent?
-
-**TORREN:** Yeah. Recent enough I don't want to stand here debating exactly how recent.
+Cyanis looks into the Briar.
 
 **CYANIS:** Does it know we're here?
 
-Torren looks at him.
+Torren gives that an honest moment.
 
-**TORREN:** Probably knew before we saw the track. Smell carries. So does three people fighting everything between Greenhollow and here.
+**TORREN:** Maybe. If it's close, probably.
 
-**MAEVRA:** Four people traveling.
+A beat.
 
-Torren glances at her splint.
+**TORREN:** Don't run if we see it. Don't crowd it unless it gives us no choice.
 
-**TORREN:** Three making most of the noise.
+**MAEVRA:** And if it does?
 
-**MAEVRA:** Rude.
+**TORREN:** Then you'll know.
 
-**TORREN:** True.
+**MAEVRA:** Comforting.
 
-He turns back toward the route.
+**TORREN:** Wasn't meant to be.
 
-**TORREN:** Keep moving. Don't run. If it's watching us, running doesn't improve the conversation.
+The stop ends.
 
-**CYANIS:** There are conversations I preferred when you were terse.
+The Briarhide Stalker is still not shown.
 
-**TORREN:** Too late now.
+## [GAMEPLAY — DEEPER SOUTHERN BRIAR]
 
-That answer lands as a small sign that Torren himself knows he has been talking more with the group.
+Traversal resumes in silence.
 
-Scene ends.
+The route becomes harder to read for a stretch, with a few meaningful forks, reconnecting loops, and misleading-looking branches.
 
-The Briarhide is still not shown.
+There is no spoken route guidance and no route-choice scene.
+
+The area design itself demonstrates that Torren is successfully getting the party through terrain that would otherwise be difficult to read.
+
+## [STORY TRIGGER — LATE OVERGROWN SIDE ACCESS]
+
+Late in Southern Briar, after the Briarhide track stop, the group reaches a heavily overgrown stone-lined cut branching away from the usable route.
+
+This is in the final third or quarter of the area.
+
+Movement pauses briefly.
+
+**MAEVRA:** That natural?
+
+Torren looks at the old stone line.
+
+**TORREN:** No.
+
+A beat.
+
+**TORREN:** Old access. I've seen the opening before. Never had a reason to use it.
+
+**CYANIS:** Goes where?
+
+**TORREN:** Don't know.
+
+**ILYRA:** Helpful.
+
+**TORREN:** It's overgrown, runs the wrong direction for Dunmere, and nothing I've ever needed was through it.
+
+Cyanis looks back toward the main route.
+
+**CYANIS:** We leave it.
+
+**TORREN:** Yeah. If the Junction gives us a reason to care, it's a short backtrack.
+
+No one identifies a cistern, Hunt, ancient-network function, or hidden objective.
+
+## [GAMEPLAY — FINAL SOUTHERN STRETCH]
+
+Player control resumes.
+
+The final stretch becomes more direct.
+
+Navigation tension eases; the Briarhide tension replaces it.
+
+There is **no additional dialogue**.
+
+The Briarhide Stalker itself is **not shown in Beat 12**.
+
+## [GAMEPLAY HANDOFF]
+
+Beat 12 ends during normal traversal immediately before the Stalker's first clear visual reveal.
+
+Known:
+- Torren has demonstrated why his current route knowledge matters through successful navigation rather than spoken guidance;
+- Southern Briar is moderately maze-like without becoming a puzzle dungeon;
+- a very large Briarhide has recently moved along the party's route;
+- the party has not yet seen the animal itself;
+- the late overgrown stone-lined side access has been seen and left unexplored;
+- that side access is close enough to the final stretch that a later cleanup backtrack will be short;
+- the Junction is immediately ahead;
+- the Card remains inert.
+
+Next mandatory beat:
+**Briarhide Stalker**
 
 ---
-
-### [GAMEPLAY — TOWARD THE JUNCTION]
-
-Cyanis-only traversal resumes.
-
-The hidden monument shown in the Hollow Watch mural remains completely unseen.
-
-Torren gives one route call while still guiding:
-
-**TORREN:** Junction's past the next rise. If the Briarhide is using this line, that's where I stop assuming it turns off before we do.
-
-Cyanis takes that in.
-
-**CYANIS:** Good to know.
-
-No further conversation follows.
-
-The player continues through the final Southern Briar stretch.
-
-The Briarhide Stalker itself is **not shown anywhere in Beat 12**.
-
----
-
-### [GAMEPLAY HANDOFF — FINAL SOUTHERN BRIAR]
-
-Beat 12 ends during normal traversal before the Briarhide is visually revealed.
-
-Current objective:
-
-**Continue through the final Southern Briar stretch toward the Junction.**
-
-Story state:
-- Torren guides the route without becoming a visible wilderness follower model;
-- the old overgrown side access is seen but not understood or entered for story purposes;
-- one Briarhide track establishes that a very large predator is active in the area;
-- the party has not yet seen the Briarhide Stalker itself;
-- ordinary enemies remain random encounters;
-- the Junction monument remains hidden;
-- Cyanis carries the intact Card and it remains inert;
-- no route split, overlook decision, false trail, crossing, or Old Waystone is restored.
-
-Next mandatory story beat: **Beat 13 — Briarhide Stalker / Chapter-1 Final Boss.**
-
-Beat 13 owns the **first clear visual reveal of the Stalker**, immediately before the boss encounter.
-
----
-
-## Person-Brain / ensemble performance note
-
-- Torren's route and animal expertise still legitimately produces longer evidence-rich turns, but expertise is no longer treated as his only permission to participate socially.
-- his bread/pillow argument with Maevra and `too late now` answer to Cyanis continue the gradual Chapter-1 social opening that becomes more obvious in Chapter 2.
-- Ilyra no longer receives the automatic `No`/safety-monitor line at the overgrown side access. She is curious, jokes about Cyanis's framing, and leaves the actual route decision to the people making it.
-- the side access remains unresolved and is not promoted into a cistern clue before Beat 14.
-- Briarhide foreshadowing sounds like an experienced field hunter reading one useful track rather than a sequence of clipped ominous nouns.
-- the Stalker still receives no visual reveal in Beat 12.

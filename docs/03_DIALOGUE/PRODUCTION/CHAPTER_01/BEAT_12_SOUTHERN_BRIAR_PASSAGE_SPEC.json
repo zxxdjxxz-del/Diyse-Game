@@ -4,39 +4,108 @@
   "chapter_id": "chapter_01",
   "story_position": "Chapter 1 — Beat 12 — Southern Briar Passage",
   "production_ready": false,
-  "participants": ["cyanis", "ilyra", "maevra", "torren"],
-  "scene_purpose": "Let Torren guide the party through Southern Briar while continuing his late-Chapter-1 social opening, preserve the old side-access clue without assigning Ilyra an automatic safety veto, and foreshadow a large Briarhide without showing the Stalker itself before the immediate boss approach in Beat 13.",
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
+  "scene_purpose": "Make Southern Briar a substantial, moderately maze-like exploration area where Torren's expertise is demonstrated through successful navigation rather than spoken route guidance; foreshadow the Briarhide through one track stop and preserve the late overgrown side access for the cleanup backtrack.",
   "story_sources": [
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Locked cuts", "Beat 12 — Southern Briar Passage", "Beat 13 — Briarhide Stalker / Chapter-1 Final Boss"], "role": "base_chapter_01_story_authority"},
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_BRIARHIDE_REVEAL_LOCK.md", "whole_file": true, "role": "latest_explicit_briarhide_reveal_timing_override"},
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md", "whole_file": true, "role": "junction_and_hidden_monument_authority"},
-    {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "direct_card_physical_state_authority"}
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Locked cuts",
+        "Beat 12 — Southern Briar Passage",
+        "Beat 13 — Briarhide Stalker / Chapter-1 Final Boss"
+      ],
+      "role": "base_chapter_01_story_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01_BRIARHIDE_REVEAL_LOCK.md",
+      "whole_file": true,
+      "role": "latest_explicit_briarhide_reveal_timing_override"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md",
+      "whole_file": true,
+      "role": "junction_and_hidden_monument_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
+      "whole_file": true,
+      "role": "direct_card_physical_state_authority"
+    }
   ],
   "additional_authority_sources": [
-    {"path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md", "whole_file": true, "role": "current_ilyra_role_balance_authority"},
-    {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "current_torren_social_progression_authority"},
-    {"path": "external-services/canary/brains/ilyra.yaml", "whole_file": true, "role": "current_ilyra_runtime_person_brain"},
-    {"path": "external-services/canary/brains/torren.yaml", "whole_file": true, "role": "current_torren_runtime_person_brain"},
-    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "current_gameplay_presentation_hard_lock"},
-    {"path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md", "whole_file": true, "role": "portrait_and_dialogue_box_presentation"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_and_presentation_normalization_contract"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md", "whole_file": true, "role": "random_encounter_hard_lock"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md", "whole_file": true, "role": "adult_register_and_character_specific_profanity_rule"}
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md",
+      "whole_file": true,
+      "role": "current_ilyra_role_balance_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Torren.md",
+      "whole_file": true,
+      "role": "current_torren_social_progression_authority"
+    },
+    {
+      "path": "external-services/canary/brains/ilyra.yaml",
+      "whole_file": true,
+      "role": "current_ilyra_runtime_person_brain"
+    },
+    {
+      "path": "external-services/canary/brains/torren.yaml",
+      "whole_file": true,
+      "role": "current_torren_runtime_person_brain"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "current_gameplay_presentation_hard_lock"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md",
+      "whole_file": true,
+      "role": "portrait_and_dialogue_box_presentation"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_and_presentation_normalization_contract"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
+      "whole_file": true,
+      "role": "walking_dialogue_hard_lock"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "random_encounter_hard_lock"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_register_and_character_specific_profanity_rule"
+    }
   ],
   "scene_context_seed": {
     "location_name": "Greenhollow south edge to Southern Briar Passage",
     "area_phase": "town_departure_then_guided_hostile_wilderness",
     "dialogue_readiness": "GREEN_AT_TRIGGERS_AMBER_DURING_GUIDED_TRAVERSAL",
     "static_story_context_only": true,
-    "runtime_note": "Greenhollow departure may show relevant field models. Once wilderness traversal begins, Cyanis is the only visible party field character. Torren guides through portrait/dialogue speech without a follower model. By this late point in Chapter 1, Torren's social opening is already underway: expertise still naturally gives him longer turns, but he may also joke, complain, tease, prolong an argument or speak in complete ordinary turns because he is becoming comfortable with the group. Do not force one-word Torren. At authored side-access or Briarhide-track triggers, relevant party field models may appear simply. The overgrown side access may interest, amuse or irritate Ilyra, but she does not receive an automatic 'No' or safety-veto line merely because she is Grace-coded. Do not script crouching, pointing, weapon handling, foliage interaction, strap adjustment, route blocking, or small physical business. HARD REDUCTION: author only the required overgrown side access and one clear Briarhide track. HARD BRIARHIDE REVEAL LOCK: do not show the Briarhide Stalker anywhere in Beat 12. No animal crossing, distant sighting, stalking sequence, brush reveal, or separate pre-boss visual encounter. Beat 13 owns the first clear visual reveal immediately before the authored boss fight. HARD LOCKED CUT: do not reintroduce the southern-Briar route split, overlook decision, false trail, crossing, or Old Waystone. Ordinary enemies remain random encounters. The Junction monument remains completely hidden. Cyanis carries the intact Card; it remains inert."
+    "runtime_note": "HARD CORRECTION: no guided traversal dialogue and no separate Greenhollow departure scene. Ordinary traversal is mostly silent and Cyanis-only on field. Southern Briar is moderately maze-like: a few meaningful forks, one or two reconnecting loops, misleading-looking branches, natural route ambiguity, but not a heavy labyrinth or puzzle dungeon. Exactly two authored stops: first the Briarhide track, later the overgrown stone-lined side access in the final third/quarter. The Stalker itself is not clearly shown until Beat 13."
   },
   "current_floor_state": {
     "larger_destination": "Caelora",
     "next_practical_destination": "Dunmere",
     "immediate_route_goal": "Southern Briar toward the Junction",
     "visible_traversal_character": "cyanis_only",
-    "combat_party": ["cyanis", "ilyra", "torren"],
+    "combat_party": [
+      "cyanis",
+      "ilyra",
+      "torren"
+    ],
     "maevra_party_status": "noncombat_traveling_companion",
     "torren_party_status": "permanent_party_member_active_guide_and_increasingly_comfortable_companion",
     "dialogue_presentation": "portraits_plus_dialogue_box",
@@ -45,13 +114,13 @@
     "briarhide_visual_state": "not_yet_seen"
   },
   "required_story_beats": [
-    "Brief town departure from Greenhollow.",
-    "Torren directs the group south through substantial playable Briar traversal without requiring a visible Torren follower model.",
-    "Torren's dialogue may show growing social comfort in addition to real route expertise.",
-    "The old overgrown stone-lined side access is seen and left unexplored for story purposes without requiring Ilyra to act as the party safety veto.",
-    "One concise Briarhide track stop establishes that a very large native predator is active.",
-    "The party approaches the Junction without seeing the hidden monument or the Briarhide Stalker itself.",
-    "Beat 12 ends before the Stalker's visual reveal."
+    "Enter Southern Briar directly from Greenhollow gameplay.",
+    "Demonstrate route difficulty through map structure, not spoken navigation calls.",
+    "First authored stop: identify one very large recent Briarhide track; do not show the animal.",
+    "Resume silent deeper traversal.",
+    "Second authored stop, late in the area: note the overgrown stone-lined side access and leave it unexplored.",
+    "Final stretch becomes more direct as predator tension replaces navigation tension.",
+    "End immediately before the Stalker's first clear visual reveal."
   ],
   "forbidden_dialogue_drift": [
     "ilyra_is_automatic_safety_veto_or_responsible_parent",

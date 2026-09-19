@@ -4,26 +4,67 @@
   "chapter_id": "chapter_01",
   "story_position": "Chapter 1 — Beat 2 — Briar Passage / First Traversal",
   "production_ready": false,
-  "participants": ["cyanis", "ilyra", "maevra"],
-  "scene_purpose": "Establish Briar Passage as a substantial recurring regional route; let Maevra competently guide the group to Greenhollow; preserve Cyanis-only wilderness traversal, portrait/dialogue-box speech, random encounters with Cyanis + Ilyra only, and Maevra's already-established splinted broken-arm state without re-explaining it.",
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra"
+  ],
+  "scene_purpose": "Keep the Brackenwall-to-Greenhollow leg comparatively legible and mostly silent, with exactly one brief authored stop roughly halfway that establishes Maevra's limits south of Greenhollow and motivates Torren without turning traversal into guided dialogue.",
   "story_sources": [
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Locked Chapter-1 geography", "Locked travel / combat presentation", "Locked cuts", "Beat 2 — Briar Passage / First Traversal"], "role": "current_chapter_01_beat_02_story_authority"},
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_MAEVRA_BROKEN_ARM_LOCK.md", "whole_file": true, "role": "maevra_chapter_1_injury_authority"},
-    {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "physical_card_state_authority"}
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Locked Chapter-1 geography",
+        "Locked travel / combat presentation",
+        "Locked cuts",
+        "Beat 2 — Briar Passage / First Traversal"
+      ],
+      "role": "current_chapter_01_beat_02_story_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01_MAEVRA_BROKEN_ARM_LOCK.md",
+      "whole_file": true,
+      "role": "maevra_chapter_1_injury_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
+      "whole_file": true,
+      "role": "physical_card_state_authority"
+    }
   ],
   "additional_authority_sources": [
-    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "current_field_and_scene_presentation_hard_lock"},
-    {"path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md", "whole_file": true, "role": "portrait_dialogue_presentation"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "current_walking_dialogue_hard_lock"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md", "whole_file": true, "role": "random_encounter_hard_lock"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_and_reductive_authoring_contract"}
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "current_field_and_scene_presentation_hard_lock"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md",
+      "whole_file": true,
+      "role": "portrait_dialogue_presentation"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
+      "whole_file": true,
+      "role": "current_walking_dialogue_hard_lock"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "random_encounter_hard_lock"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_and_reductive_authoring_contract"
+    }
   ],
   "scene_context_seed": {
     "location_name": "Briar Passage — Brackenwall to Greenhollow route",
     "area_phase": "first_traversal_hostile_field",
     "dialogue_readiness": "AMBER",
     "static_story_context_only": true,
-    "runtime_note": "Ordinary wilderness traversal shows Cyanis only on the field. Ilyra and Maevra remain present but speak through portrait/dialogue UI. Maevra is genuinely guiding, so brief route dialogue may occur during movement. Her arm remains splinted from the Broken Convoy attack; do not verbally re-establish the injury. The splint is visible whenever Maevra appears in an authored scene and she remains outside combat. Ordinary enemies remain random encounters; combat party is Cyanis + Ilyra only."
+    "runtime_note": "Ordinary traversal shows Cyanis only. Random encounters use Cyanis + Ilyra; Maevra travels but does not fight. HARD STRUCTURE: no guided/walking dialogue, no route-choice scene, no false trail, no split/crossing, no Old Waystone, and no Greenhollow threshold conversation. Exactly one authored stop occurs roughly halfway at a natural break in the route. The rest of the route is silent and comparatively legible."
   },
   "current_floor_state": {
     "larger_destination": "Caelora",
@@ -31,19 +72,33 @@
     "active_route_leader": "maevra",
     "visible_wilderness_traversal_character": "cyanis_only",
     "dialogue_presentation": "portraits_plus_dialogue_box",
-    "combat_party": ["cyanis", "ilyra"],
+    "combat_party": [
+      "cyanis",
+      "ilyra"
+    ],
     "maevra_injury_state": "broken_arm_splinted_persistent",
     "maevra_party_status": "noncombat_traveling_companion_and_route_guide",
     "card_state": "intact_card_carried_by_cyanis_inert_no_new_response_required"
   },
   "required_story_beats": [
-    "Leave Brackenwall and enter normal hostile Briar Passage field gameplay.",
-    "Maevra demonstrates that she can reliably guide the Greenhollow leg despite the arm injury.",
-    "Dialogue makes clear that deeper southern travel is less reliable and is why Maevra wants Torren.",
-    "Ordinary combat uses random encounters with Cyanis + Ilyra only.",
-    "Reach Greenhollow without a boss or major Ancient-story payoff."
+    "Leave Brackenwall and traverse the first half of Briar Passage in normal gameplay.",
+    "Pause once, roughly halfway, for the brief Maevra/Cyanis/Ilyra stop.",
+    "Establish that Maevra trusts this stretch but not the more changeable southern routes and wants Torren for that reason.",
+    "Resume normal silent traversal to Greenhollow.",
+    "No separate arrival conversation; Beat 3 begins in town."
   ],
-  "forbidden_story_or_presentation": ["false_trail", "route_split_decision", "damaged_or_civilian_crossing", "old_waystone", "briarhide_stalker", "major_ancient_story_payoff", "visible_party_follower_train_during_wilderness_traversal", "maevra_visible_walking_guide_model_during_normal_traversal", "repeated_reexplanation_of_maevra_injury", "environmental_micro_detail_chain"],
+  "forbidden_story_or_presentation": [
+    "false_trail",
+    "route_split_decision",
+    "damaged_or_civilian_crossing",
+    "old_waystone",
+    "briarhide_stalker",
+    "major_ancient_story_payoff",
+    "visible_party_follower_train_during_wilderness_traversal",
+    "maevra_visible_walking_guide_model_during_normal_traversal",
+    "repeated_reexplanation_of_maevra_injury",
+    "environmental_micro_detail_chain"
+  ],
   "allowed_information_transfers": [],
   "exact_line_anchors": [],
   "max_beats": 12,

@@ -4,29 +4,68 @@
   "chapter_id": "chapter_01",
   "story_position": "Chapter 1 — Beat 7 — Lower Junction / Six Channels",
   "production_ready": false,
-  "participants": ["cyanis", "ilyra", "maevra", "torren"],
-  "scene_purpose": "Deliver the first strong human-use clue for the Hollow Watch Diysean structure: one circular junction with six damaged channels and one surviving relief showing ordinary people, including children, handcarts, animals, and people on litters, moving through the passage system. Let the party speculate naturally without resolving the original purpose or spending the later geographic mural payoff.",
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
+  "scene_purpose": "Deliver one concentrated human-use clue in a circular six-channel Diysean junction: five channels are ancient collapses, one remains usable, and the surviving relief shows substantial ordinary civilian movement without resolving the structure's purpose.",
   "story_sources": [
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Beat 7 — Lower Junction / Six Channels"], "role": "current_chapter_01_beat_07_story_authority"},
-    {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "direct_card_physical_state_authority"}
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Beat 7 — Lower Junction / Six Channels"
+      ],
+      "role": "current_chapter_01_beat_07_story_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
+      "whole_file": true,
+      "role": "direct_card_physical_state_authority"
+    }
   ],
   "additional_authority_sources": [
-    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "current_gameplay_presentation_hard_lock"},
-    {"path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md", "whole_file": true, "role": "portrait_dialogue_presentation"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_authoring_lock"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "knowledge_firewall_invisibility_lock"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md", "whole_file": true, "role": "walking_dialogue_hard_lock"}
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "current_gameplay_presentation_hard_lock"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md",
+      "whole_file": true,
+      "role": "portrait_dialogue_presentation"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring_lock"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md",
+      "whole_file": true,
+      "role": "knowledge_firewall_invisibility_lock"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
+      "whole_file": true,
+      "role": "walking_dialogue_hard_lock"
+    }
   ],
   "scene_context_seed": {
     "location_name": "Hollow Watch lower Diysean junction",
     "area_phase": "quiet_discovery_between_hostile_sections",
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
-    "runtime_note": "During ordinary dungeon traversal Cyanis is the sole visible party field character. At authored story triggers the relevant cast may appear as simple field models while portraits and the dialogue box carry most performance. Required authored visual content is limited to the six-channel chamber and the one surviving human-use relief band. Do not add extra carvings, loose clue props, machinery, rooms, background business, or repeated physical inspection. HARD REVEAL FIREWALL: no confirmed evacuation hub, transit station, shelter, Junction monument, geographic map, falling-fire image, Prime information, or ancient-network explanation. CARD: Cyanis carries the intact Card itself and it remains inert. WALKING DIALOGUE: none."
+    "runtime_note": "One authored stop only. HARD GEOMETRY: exactly six channels; five are collapsed/inaccessible from ancient structural failure and one is usable. Do not imply the Black Host tried or selected among the collapsed channels. The relief is visual-first and shows ordinary people including children, handcarts, animals, and injured people on litters. After the short inference exchange, player control resumes through the sole surviving channel. Card remains inert."
   },
   "current_floor_state": {
     "card_state": "intact_card_carried_directly_by_cyanis_and_inert",
-    "combat_party": ["cyanis", "ilyra", "torren"],
+    "combat_party": [
+      "cyanis",
+      "ilyra",
+      "torren"
+    ],
     "maevra_party_status": "noncombat_traveling_companion",
     "torren_party_status": "temporary_combat_ally",
     "ordinary_traversal_visible_character": "cyanis_only"
@@ -34,5 +73,12 @@
   "allowed_information_transfers": [],
   "exact_line_anchors": [],
   "max_beats": 16,
-  "production_cost_ceiling": "strict_reductive_established_gameplay_presentation"
+  "production_cost_ceiling": "strict_reductive_established_gameplay_presentation",
+  "required_story_beats": [
+    "Enter the circular six-channel junction.",
+    "Visually establish five ancient collapses and one surviving usable channel.",
+    "Show the human-use relief before dialogue.",
+    "Allow a concise bounded discussion: substantial civilian use is supported, exact purpose is not.",
+    "Resume gameplay through the sole surviving channel with no second route-onward conversation."
+  ]
 }

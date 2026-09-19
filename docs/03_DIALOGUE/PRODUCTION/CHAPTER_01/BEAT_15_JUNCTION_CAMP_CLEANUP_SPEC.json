@@ -4,40 +4,103 @@
   "chapter_id": "chapter_01",
   "story_position": "Chapter 1 — Beat 15 — Junction Camp / Chapter-1 Cleanup Window",
   "production_ready": false,
-  "participants": ["cyanis", "ilyra", "maevra", "torren"],
-  "scene_purpose": "Provide the safe overnight cleanup window after the Briarhide Stalker and Junction discovery; host the current rehearsal-first Character-Life scenes; preserve Maevra's Chapter-1 broken-arm state; allow the optional Cistern Devourer backtrack; and end Chapter 1 the next morning with departure toward already-planned Dunmere.",
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
+  "scene_purpose": "Provide a quiet safe cleanup hub after the Junction discovery, expose optional Character-Life scenes and the short Southern Briar Cistern backtrack without adding another mandatory evening conversation, then end Chapter 1 with a very short morning departure toward Dunmere.",
   "story_sources": [
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Beat 15 — Wayfinder Camp / Chapter-1 Cleanup Window"], "role": "current_chapter_01_beat_15_story_authority"},
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_MAEVRA_BROKEN_ARM_LOCK.md", "whole_file": true, "role": "maevra_chapter_1_injury_authority"},
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md", "whole_file": true, "role": "junction_monument_and_torren_knowledge_authority"},
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_BRIARHIDE_REVEAL_LOCK.md", "whole_file": true, "role": "predecessor_boss_reveal_timing_authority"},
-    {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "direct_card_physical_state_authority"}
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Beat 15 — Wayfinder Camp / Chapter-1 Cleanup Window"
+      ],
+      "role": "current_chapter_01_beat_15_story_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01_MAEVRA_BROKEN_ARM_LOCK.md",
+      "whole_file": true,
+      "role": "maevra_chapter_1_injury_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01_JUNCTION_MONUMENT_LOCK.md",
+      "whole_file": true,
+      "role": "junction_monument_and_torren_knowledge_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01_BRIARHIDE_REVEAL_LOCK.md",
+      "whole_file": true,
+      "role": "predecessor_boss_reveal_timing_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
+      "whole_file": true,
+      "role": "direct_card_physical_state_authority"
+    }
   ],
   "character_life_sources": [
-    {"path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md", "scene": "Torren's Version of Dinner", "rule": "current rehearsal-first dialogue authority; all four present; Torren's bad food; Torren smokes only after the meal"},
-    {"path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md", "scene": "What the Map Says", "rule": "current rehearsal-first dialogue authority; early Cyanis/Torren map-work scene"},
-    {"path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md", "scene": "Not Professionally", "rule": "current rehearsal-first dialogue authority; Ilyra and Maevra only; splint change plus private Torren relationship conversation"}
+    {
+      "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md",
+      "scene": "Torren's Version of Dinner",
+      "rule": "current rehearsal-first dialogue authority; all four present; Torren's bad food; Torren smokes only after the meal"
+    },
+    {
+      "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md",
+      "scene": "What the Map Says",
+      "rule": "current rehearsal-first dialogue authority; early Cyanis/Torren map-work scene"
+    },
+    {
+      "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md",
+      "scene": "Not Professionally",
+      "rule": "current rehearsal-first dialogue authority; Ilyra and Maevra only; splint change plus private Torren relationship conversation"
+    }
   ],
   "additional_authority_sources": [
-    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "current_gameplay_presentation_hard_lock"},
-    {"path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md", "whole_file": true, "role": "portrait_dialogue_presentation"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_and_reductive_authoring_lock"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "invisible_knowledge_firewall"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md", "whole_file": true, "role": "ordinary_enemy_random_encounter_lock"}
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "current_gameplay_presentation_hard_lock"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md",
+      "whole_file": true,
+      "role": "portrait_dialogue_presentation"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_and_reductive_authoring_lock"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md",
+      "whole_file": true,
+      "role": "invisible_knowledge_firewall"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "ordinary_enemy_random_encounter_lock"
+    }
   ],
   "scene_context_seed": {
     "location_name": "Junction-area camp with optional Southern Briar backtrack",
     "area_phase": "safe_evening_cleanup_then_next_morning_departure",
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
-    "runtime_note": "CAMP PRESENTATION: Cyanis, Ilyra, Torren, and Maevra may all be present as field models around camp. Maevra's arm remains splinted from the Broken Convoy attack. C03/C04/C05 use the current rehearsal-first production drafts. C03 includes all four and Torren's post-meal smoking. C04 is a Cyanis/Torren modern-map scene. C05 is Ilyra + Maevra only: Ilyra changes the splint, uses restrained magic only for pain/strain relief, and asks about Maevra and Torren. The broken bone is not magically repaired. OPTIONAL BACKTRACK: leaving camp for Southern Briar returns to Cyanis-only ordinary traversal. REST: optional content may be skipped; choosing rest advances to morning. HARD FIREWALL: no Prime, Last Sentinel, bearer, Entity, or complete ancient-network answers."
+    "runtime_note": "No mandatory evening dialogue. The Junction lore is not re-explained. Optional Character-Life scenes and the Cistern Devourer backtrack may be done in any practical order or skipped. Rest is player-chosen and advances to morning. Morning departure is deliberately brief and does not recap Hollow Watch, the Junction, Cistern, recruitment, or the ancient alignment. Ordinary wilderness traversal after departure returns to Cyanis-only field presentation."
   },
   "current_floor_state": {
     "briarhide_stalker": "defeated",
     "junction_monument": "revealed_and_useful_information_copied",
     "dunmere": "already_planned_next_destination",
     "cistern_devourer_access": "optional_returnable_from_earlier_southern_briar_branch",
-    "combat_party": ["cyanis", "ilyra", "torren"],
+    "combat_party": [
+      "cyanis",
+      "ilyra",
+      "torren"
+    ],
     "maevra_injury_state": "broken_arm_still_splinted_magic_can_ease_but_not_mend_bone",
     "maevra_party_status": "noncombat_traveling_companion",
     "card_state": "intact_directly_carried_by_cyanis_and_inert",
@@ -52,18 +115,32 @@
     "other_compatible_Chapter_1_cleanup_content_if_separately_authorized"
   ],
   "required_story_beats": [
-    "Junction-area camp functions as the safe Chapter-1 cleanup hub.",
-    "Party members may be visible as field models around camp.",
-    "Maevra's splinted arm remains visible through the cleanup window.",
-    "C03, C04, and C05 are optional and do not advance the chapter independently.",
-    "C03 may include Torren's ordinary post-meal smoking only after everyone has finished eating.",
-    "C05 is private to Ilyra and Maevra and may maintain the broken arm through a splint change and limited pain-easing magic while opening their adult friendship and Maevra/Torren history.",
-    "The player may backtrack into Southern Briar and use the earlier overgrown side access for the optional Cistern Devourer Hunt.",
-    "Choosing rest closes the cleanup window and advances to the next morning.",
-    "The party departs toward already-planned Dunmere.",
-    "Ordinary wilderness traversal after departure returns to Cyanis-only field presentation."
+    "Use Junction camp as the safe Chapter-1 cleanup hub.",
+    "Expose optional Character-Life scenes without making them mandatory.",
+    "Allow short backtrack to the late Southern Briar side access for the optional Cistern Devourer Hunt.",
+    "Player chooses when to rest and close the cleanup window.",
+    "Next morning, exchange only a few natural departure lines.",
+    "Leave toward already-planned Dunmere and end Chapter 1."
   ],
-  "forbidden_reveals": ["prime_identity", "last_sentinel_identity", "bearer_or_authorization_explanation", "entity", "complete_ancient_route_network", "new_junction_monument_function_beyond_beat_14", "new_cistern_devourer_information_beyond_access_becoming_returnable"],
-  "forbidden_presentation": ["cyanisonly_rule_applied_inside_camp", "visible_follower_train_during_southern_briar_backtrack", "detailed_cooking_animation", "detailed_map_writing_animation", "elaborate_medical_animation", "magic_mending_maevra_broken_bone", "elaborate_sleep_sequence", "extra_junction_lore_inspection_scene", "mandatory_optional_content"],
+  "forbidden_reveals": [
+    "prime_identity",
+    "last_sentinel_identity",
+    "bearer_or_authorization_explanation",
+    "entity",
+    "complete_ancient_route_network",
+    "new_junction_monument_function_beyond_beat_14",
+    "new_cistern_devourer_information_beyond_access_becoming_returnable"
+  ],
+  "forbidden_presentation": [
+    "cyanisonly_rule_applied_inside_camp",
+    "visible_follower_train_during_southern_briar_backtrack",
+    "detailed_cooking_animation",
+    "detailed_map_writing_animation",
+    "elaborate_medical_animation",
+    "magic_mending_maevra_broken_bone",
+    "elaborate_sleep_sequence",
+    "extra_junction_lore_inspection_scene",
+    "mandatory_optional_content"
+  ],
   "production_cost_ceiling": "strict_reductive_camp_hub_with_rehearsal_first_character_life_dialogue"
 }

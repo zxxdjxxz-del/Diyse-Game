@@ -1,225 +1,127 @@
 # Chapter 1 — Beat 15
-# Junction Camp / Chapter-1 Cleanup Window
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS + ILYRA ROLE-BALANCE PASS
+# Junction Camp / Chapter 1 Cleanup Window
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
----
+## [GAMEPLAY — JUNCTION CAMP, EVENING]
 
-### [GAMEPLAY — JUNCTION CAMP, EVENING]
+Player control is active.
 
-**Player control is active.**
+The group camps near the Junction after the Briarhide Stalker fight and the hidden-monument discovery.
 
-The group has made camp near the Junction after the lethal Briarhide Stalker fight and the hidden monument discovery.
+This is a safe camp area.
 
-This is a **camp**, so it does not use the Cyanis-only wilderness-traversal rule. Cyanis, Ilyra, Torren, and Maevra may all be visibly present as field models around the camp.
+Cyanis, Ilyra, Torren, and Maevra may all be visible around camp.
 
-Maevra's arm remains in the field splint from the Broken Convoy attack. She has traveled through Chapter 1 with the injury and remains noncombat.
+Maevra's arm remains splinted. She is still traveling with the group and remains noncombat.
 
-Field placement stays simple. Portraits and the dialogue box carry conversations.
+The Card remains with Cyanis and is inert.
 
-There are no random encounters inside the camp.
+There is **no additional mandatory evening conversation**.
 
-Cyanis carries the intact Card itself. It remains inert.
+The Junction discovery is not discussed again.
 
-The exposed Junction monument remains nearby, but Beat 15 does not add another lore inspection scene. The relevant route information has already been copied.
+The copied route information is already secured.
 
-Current mandatory objective:
+### Current objective
 
 **Rest when ready and continue toward Dunmere in the morning.**
 
-The player is free to remain in the cleanup window first.
+The player may remain in the cleanup window as long as desired before resting.
 
----
+## [OPTIONAL CHARACTER-LIFE SCENES]
 
-### [OPTIONAL CONTENT — AVAILABLE FROM CAMP]
+The current Chapter 1 Character-Life scenes are available from this camp:
 
-Canonical Character-Life numbering follows `../CHARACTER_LIFE_NUMBERING_LOCK.md`.
+- **Torren's Version of Dinner**
+- **What the Map Says**
+- **Two Professionals Complaining About Cyanis**
 
-#### C02 — `Torren's Version of Dinner`
+These scenes are optional.
 
-Current atomic dialogue source (legacy source key C03):
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md`
+Any, all, or none may be completed before the player chooses to rest.
 
-All four current characters are present. Torren's dinner is genuinely bad but hot, filling, safe, and cheap. Maevra already knows his cooking well enough to have old complaints ready; Cyanis and Ilyra are discovering it.
+They do not advance the chapter by themselves.
 
-Their familiarity should read through shorthand, remembered habits, and practiced irritation. **Do not reveal how long Maevra and Torren have known each other or that they were ever romantically involved.**
+Their own dialogue remains governed by their current rehearsal-first production authority and current character-agent brains.
 
-Torren is aware the food is bad and simply does not consider that disqualifying.
+Beat 15 does not add extra dialogue around them.
 
-Torren does **not** smoke while eating. After everyone has finished, he lights a blunt as ordinary post-meal behavior.
-
-No lore, Hunt progression, reward, or relationship reveal is added.
-
----
-
-#### C03 — `What the Map Says`
-
-Current atomic dialogue source (legacy source key C04):
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md`
-
-Torren works on his ordinary modern route map. Cyanis becomes genuinely interested in the work.
-
-The protected `old slut / old cut` misunderstanding remains, but it functions as an early accidental jump into Cyanis and Torren's sharper humor rather than proof that their later brother-like relationship is already fully developed.
-
-This is **not** another ancient-Junction-map explanation and does not advance the Cistern Hunt.
-
----
-
-#### C04 — `Not Professionally`
-
-Current atomic dialogue source (legacy source key C05):
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md`
-
-This scene is **Ilyra and Maevra only**.
-
-Ilyra changes Maevra's splint and uses restrained Warden/healing magic to ease pain and surrounding strain. The bone remains broken; magic cannot mend the fracture.
-
-The treatment task is the circumstance that puts them alone together, not Ilyra's entire social function. Once the work is underway, Ilyra is allowed ordinary curiosity and gossip rather than therapist behavior.
-
-While Ilyra works, she notices that Maevra and Torren have unusually deep familiarity and asks just enough to test what she is seeing. Maevra gives her only a sliver: Torren is more than an ordinary colleague and matters to her personally.
-
-**Reveal boundary:** the scene does **not** reveal the exact length of their history, enlistment ages, former romance, sex, breakup history, repeated reunions, current romantic status, or Torren's private feelings. To the player, their Chapter-1 dynamic should still mostly read as two stubborn people who have known each other a long time and argue with old-married-couple ease.
-
-Ilyra does not psychoanalyze Maevra or turn the exchange into therapy. Cyanis and Torren do **not** enter, overhear, or interrupt this scene.
-
----
-
-### [OPTIONAL GAMEPLAY — SOUTHERN BRIAR BACKTRACK]
+## [OPTIONAL — SOUTHERN BRIAR BACKTRACK]
 
 The Junction map has made the earlier overgrown Southern Briar side access worth revisiting.
 
-The player may leave camp and backtrack into Southern Briar before advancing the chapter.
+The player may leave camp and return through the short late-Briar stretch.
 
-Once the player leaves the camp and returns to ordinary wilderness traversal, **Cyanis is again the only visible party field character**.
+Once ordinary wilderness traversal resumes, Cyanis is again the sole visible party field character.
 
-Ordinary Southern Briar encounter rules resume according to current area authority.
+There is no new conversation explaining the route or repeating the Junction clue.
 
-The earlier overgrown access is now returnable for the **Cistern Devourer Hunt**.
+The earlier side access is now available for the optional **Cistern Devourer Hunt**.
 
-The clue came from the Junction monument; the Hunt entrance itself remains in Southern Briar.
+The clue was found at the Junction.
 
-Beat 15 does not add a second conversation explaining that relationship. The Beat-14 discovery is enough.
+The Hunt entrance remains in Southern Briar.
 
-After compatible optional content is completed, the player may return to the Junction camp. The party field models may again be present around camp.
+The player may complete the Hunt and return to camp without advancing the chapter.
 
----
+## [MANDATORY INTERACTION — REST]
 
-### [MANDATORY INTERACTION — REST / ADVANCE]
+When the player chooses to continue:
 
-When the player chooses to continue, the group rests and the cleanup window closes.
+**Rest and leave for Dunmere in the morning?**
 
-No elaborate sleeping sequence is required.
+Confirming closes the Chapter 1 cleanup window.
 
-Fade / time transition to morning.
+A simple fade advances time to morning.
 
----
+There is no elaborate sleep sequence.
 
-### [STORY TRIGGER — NEXT MORNING]
+## [STORY TRIGGER — NEXT MORNING]
 
-Morning at the same camp.
+Morning at the Junction camp.
 
-Because this is still the camp, Cyanis, Ilyra, Torren, and Maevra may all be present as field models in simple positions.
+The party is ready to leave.
 
-Maevra's splint remains part of her visible Chapter-1 state.
+Torren looks toward the south road.
 
-Portraits and the dialogue box carry the departure exchange.
+**TORREN:** Road should be good from here. Dunmere before noon if we move now.
 
-Torren is already ready to leave when the others finish packing.
+**MAEVRA:** Then let's move now.
 
-**TORREN:** Everyone actually ready this time?
+**ILYRA:** Please. I want walls and food.
 
-Cyanis looks offended by the qualifier.
+Cyanis looks at her.
 
-**CYANIS:** I was ready yesterday.
-
-**ILYRA:** You spent enough time announcing that you were ready that I started doubting the word.
-
-**CYANIS:** That's not evidence.
-
-**ILYRA:** I've been around Torren for one day. Apparently everything is evidence now.
-
-Torren gives her a look.
-
-**TORREN:** Learning.
-
-**ILYRA:** Don't encourage yourself.
-
-Maevra checks her own pack one-handed.
-
-**MAEVRA:** This is what happens when you put three argumentative people on the same road.
-
-**CYANIS:** Three?
-
-Maevra looks at him.
-
-**MAEVRA:** I was being generous to myself.
-
-**ILYRA:** Coward.
-
-Maevra laughs.
-
-**MAEVRA:** Fine. Four.
-
-**TORREN:** Are we walking or counting personalities?
-
-**ILYRA:** We can do both. You've established that walking doesn't stop you lecturing.
-
-**TORREN:** Not a lecture if you're wrong.
-
-**CYANIS:** That's absolutely a lecture.
+**CYANIS:** Hard to argue with that.
 
 Torren starts toward the road.
 
-**TORREN:** Dunmere's this way.
+**TORREN:** Then don't.
 
-**MAEVRA:** There. His strongest argument.
+Cyanis follows.
 
-**CYANIS:** Lead on, Harth.
+**CYANIS:** Lead on.
 
-**TORREN:** Keep up, Dovaren.
+The scene ends.
 
-**ILYRA:** If the road turns into another forty-minute lesson, I'm charging tuition.
+## [CHAPTER 1 END]
 
-Torren does not turn around.
+The party leaves the Junction area and continues toward Dunmere along the route they were already planning to use.
 
-**TORREN:** You'd pay.
-
-Ilyra looks at Cyanis.
-
-**ILYRA:** I hate that he's probably right.
-
-Scene ends.
-
----
-
-### [CHAPTER-1 END HANDOFF]
-
-The party leaves the Junction camp and resumes the southeast route toward Dunmere.
+They now know that the modern road overlaps or follows an older Diysean alignment, but nobody stops to restate or explain that discovery.
 
 Once ordinary wilderness traversal begins, Cyanis returns to being the sole visible party field character.
 
-The route was already their intended road toward Dunmere. The difference now is that the party knows the modern road overlaps an older Diysean alignment.
+**CHAPTER 1 END**
 
-No one stops to restate the entire Junction discovery.
+Next destination:
+**Dunmere**
 
-**CHAPTER 1 END.**
+Permanent combat party:
+**Cyanis + Ilyra + Torren**
 
-**Next destination:** Dunmere.  
-**Combat party:** Cyanis + Ilyra + Torren.  
-**Traveling non-combat companion:** Maevra, arm still splinted.  
-**Card:** intact, carried directly by Cyanis, inert.
+Traveling noncombat companion:
+**Maevra**
 
-The Cistern Devourer Hunt and other compatible Chapter-1 cleanup content are optional and do not block progression.
-
-No Prime, Last Sentinel, bearer, Entity, or complete ancient-network explanation is added at camp.
-
----
-
-## Person-Brain / presentation check
-
-- Beat 15 remains primarily a cleanup wrapper. It does not invent a mandatory evening conversation to compete with the optional Character-Life scenes.
-- the morning exchange carries forward actual Chapter-1 conversational texture—Torren's evidence/road fixation, Ilyra's growing fascination-annoyance with it, Cyanis's willingness to argue, and Maevra's social quickness—without turning departure into another health-management scene.
-- Ilyra does not invoke `medical continuity`, remind Cyanis about food/sleep, or function as the team's morning readiness monitor. Her participation is argumentative, amused, profane-adjacent, and socially specific.
-- `Not Professionally` remains allowed to be a genuine medical task because the splint change is the scene premise, but its social content is ordinary curiosity/gossip and not proof that Ilyra should default to caretaker dialogue elsewhere.
-- Maevra/Torren Chapter-1 reveal timing is protected: obvious long familiarity, practiced bickering, and mutual stubbornness are visible; exact history and former romance are not.
-- the Briarhide remains **killed**, not driven off.
-- no Junction lore is repeated and no new plot information appears.
+Card:
+**Intact, carried by Cyanis, inert**
