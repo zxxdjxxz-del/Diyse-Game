@@ -9,13 +9,11 @@ This file is a **migration/provenance checksum manifest** for dialogue that was 
 
 For **Chapters 0 and 1**, the old migrated/line-complete transcripts have been superseded by the rehearsal-first Dialogue Engine production set and removed from the live repository tree. Their rows below remain only to document the historical checkpoint and hashes.
 
-Current Chapter-0 written dialogue authority:
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+Current Chapter-0 exact wording authority is its standalone production atomics as indexed by `docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md`; its combined manuscript is a synchronized derived read-through.
 
-Current Chapter-1 written dialogue authority:
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+Current Chapter-1 exact wording authority is its standalone production atomics as indexed by `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md`; `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` is the current synchronized derived read-through.
 
-The legacy Godot `.tres` resources for Chapters 0 and 1 remain implementation artifacts awaiting regeneration/synchronization from those production manuscripts. They do **not** restore the historical text as current authority.
+The legacy sibling Godot `.tres` resources under `game/content/dialogue/chapter_00` and `chapter_01` remain historical implementation/proof artifacts. The current generated game-facing mirror lives under `game/content/dialogue/current/` and is synchronized from the production atomics. Legacy resources do **not** restore historical text as current authority.
 
 For later chapters that have not yet received a complete rehearsal-first replacement, the migration rows remain useful provenance for the still-live historical source material, subject to current story/canon corrections and authoring-status gates.
 

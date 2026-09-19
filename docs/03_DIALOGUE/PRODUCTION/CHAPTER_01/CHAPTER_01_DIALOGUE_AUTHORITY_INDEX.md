@@ -2,7 +2,7 @@
 
 **Chapter:** 1  
 **Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — LOCKED CURRENT CHAPTER-1 DIALOGUE — BEATS 1–15 TRUE-VOICE + CHAPTERS 0–3 CONTINUITY AUDITED; C02/C03/C04 RETAINED CURRENT**  
-**Combined read-through:** `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **STALE UNTIL REGENERATED FROM THIS LOCKED ATOMIC SET**  
+**Combined read-through:** `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **CURRENT SYNCHRONIZED DERIVED READ-THROUGH**  
 **Character-Life numbering:** `../CHARACTER_LIFE_NUMBERING_LOCK.md`  
 **Character-Life content:** `CHARACTER_LIFE_REBUILD_LOCK.md`  
 **Rhythm:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
@@ -15,7 +15,7 @@
 2. Current character files and `external-services/canary/brains/*.yaml` are current Person-Brain authority.
 3. Current scene specs are production/rehearsal guardrails and must agree with current character authority.
 4. Canonical Character-Life IDs are C02/C03/C04 even though legacy filenames still use C03/C04/C05 source keys.
-5. The combined manuscript is non-authoritative until regenerated from the current atomic set.
+5. The combined manuscript is a current synchronized derived mirror; standalone atomics remain exact wording authority and always outrank the combined file.
 6. Git history is provenance, not live authority.
 
 ## Mainline atomic authority
@@ -208,8 +208,8 @@ Natural adult speech does not justify repeating visible evidence or known plot i
 - high-risk/applicable scene specs — **ALIGNED**;
 - natural-turn audit — **COMPLETE**;
 - spoken-dialogue/narration audit — **COMPLETE**;
-- combined manuscript — **STALE AFTER THIS NEW LOCK; MUST BE REGENERATED FROM CURRENT ATOMICS**;
-- Chapters 0–3 reader/runtime derivatives — **STALE FOR CHAPTER 1 UNTIL REGENERATED FROM CURRENT ATOMICS**.
+- combined manuscript — **CURRENT — SYNCHRONIZED FROM THE LOCKED ATOMIC SET**;
+- Chapters 0–3 reader/runtime derivatives — **CURRENT — SYNCHRONIZED; runtime mirror verified at 2,901 spoken lines across 60 scenes**.
 
 ## Conflict order
 
@@ -222,7 +222,7 @@ If Chapter-1 sources disagree:
 6. current standalone atomic dialogue for exact wording;
 7. workflow locks;
 8. this index for status/location;
-9. combined manuscript only after verified resynchronization;
+9. current combined manuscript as a verified derived read-through only; it never overrides standalone atomics;
 10. historical material only as provenance.
 
-> **Chapter 1 is fully updated at the source level. Do not synchronize from the old combined manuscript; regenerate only from current atomic sources after Chapters 0–3 source closure is confirmed.**
+> **Chapter 1 is locked current at the source level and fully synchronized through the combined manuscript, runtime mirror, sync manifest, and Chapters 0–3 exact-dialogue reader. Future dialogue edits must begin in the atomics/specs and then rerun the synchronizer; never hand-edit the derived manuscript as authority.**

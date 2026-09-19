@@ -45,7 +45,7 @@ Ordinary route/dungeon/wilderness traversal shows Cyanis only as the visible con
 
 - **Chapter 0 — COMPLETE CURRENT WORKING PRODUCTION**  
   `PRODUCTION/CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
-- **Chapter 1 — COMPLETE CURRENT WORKING PRODUCTION**  
+- **Chapter 1 — LOCKED CURRENT WORKING PRODUCTION — SYNCHRONIZED 2026-09-19**  
   `PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
 - **Chapter 2 — COMPLETE CURRENT WORKING PRODUCTION**  
   `PRODUCTION/CHAPTER_02/CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
@@ -53,7 +53,7 @@ Ordinary route/dungeon/wilderness traversal shows Cyanis only as the visible con
   `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
 - Chapters 4–13 remain pending/rebuilding according to current story and authoring-status authority.
 
-`COMPLETE CURRENT WORKING PRODUCTION` means the chapter is assembled end-to-end and is the version to use for implementation and future revision. It remains editable during playtesting; it is not a permanent line lock.
+`COMPLETE CURRENT WORKING PRODUCTION` means a chapter is assembled end-to-end and is the version to use for implementation and future revision. Chapter 1 is additionally **LOCKED CURRENT**: its present atomic wording is the active authority until an explicit later revision reopens it. Playtesting can still motivate a deliberate future revision.
 
 ## Current Chapters 0–3 runtime synchronization
 
@@ -65,7 +65,7 @@ The current game-facing mirror is generated at:
 
 Current synchronization contract:
 - **60 canonical current runtime scenes**;
-- **3,440 spoken lines**;
+- **2,901 spoken lines**;
 - generated directly from current production atomics;
 - source and spoken-sequence hashes recorded in `game/content/dialogue/current/manifest.json`;
 - validated in Godot by `tests/dialogue/validate_current_dialogue_resources.gd`;
@@ -93,7 +93,7 @@ Historical `LINE_COMPLETE` material for later chapters may remain temporarily un
 The only older wording that must survive regeneration verbatim is wording the user has explicitly selected as an exact line/joke anchor.
 
 Current examples:
-- Ch1 C04: `old slut` remains the exact joke anchor in the current exchange.
+- Ch1 C03: `CYANIS: Old slut?` / `TORREN: Bitch.` remains the exact joke anchor; the later `TORREN: Bitch.` / `CYANIS: Old slut.` callback also remains protected.
 - Ch3 H01:
   - Cyanis: `I bet you use that cape to sneak up on the goats you fuck.`
   - Torren: `You look like a walking dick in armor.`
@@ -118,5 +118,5 @@ Embedded scene notes may mention mechanics or story structure for context, but t
 1. Current Face list is **Might / Elements / Grace / Perception / Memory / Ruin**.
 2. Chapter 0 uses two distinct incomplete green-and-gold Card responses; neither is a Prime activation.
 3. The recovery casing breaks during Chapter 0 P06; the Card itself survives intact and is carried directly afterward.
-4. Chapter 1 C04 preserves the `old slut / old cut` misunderstanding within current early Cyanis/Torren relationship timing.
+4. Chapter 1 C03 preserves the `old slut` / `old cut` misunderstanding and the protected `Old slut?` / `Bitch.` exchange within current early Cyanis/Torren relationship timing.
 5. Chapter 1 C05 is `Not Professionally`: Ilyra changes Maevra's splint; limited magic eases pain/strain but cannot mend the broken bone; the private conversation turns to Maevra and Torren.

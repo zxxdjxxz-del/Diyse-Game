@@ -1,8 +1,9 @@
-# Chapters 0–3 — Derived Dialogue Synchronization Execution Blocker
+# Chapters 0–3 — Derived Dialogue Synchronization Execution Blocker — RESOLVED
 
 **Date:** 2026-09-13  
 **Scope:** derived combined manuscripts, synchronization manifest, and spoiler-free exact-dialogue reader only  
-**Source dialogue status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE REMAINS COMPLETE**
+**Source dialogue status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE REMAINS COMPLETE**  
+**Resolution:** **RESOLVED 2026-09-19** — the repository Dialogue Sync completed the full generation/validation chain after the Chapter-1 lock. Combined manuscripts, sync manifest, current runtime mirror, and exact-dialogue reader are current. Runtime verification: **2,901 spoken lines across 60 scenes**.
 
 ## What is closed
 
@@ -19,9 +20,9 @@ The standalone atomic dialogue authorities for Chapters 0–3 are closed under t
 
 No source dialogue rewrite is required in order to resolve this blocker.
 
-## What remains derived/stale
+## What was derived/stale before resolution
 
-The following are derived convenience artifacts and remain stale until the synchronizer executes successfully:
+The following derived convenience artifacts were stale while this blocker was active; they have now been regenerated successfully:
 - `CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`;
 - `CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`;
 - `CHAPTER_02/CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`;
@@ -29,7 +30,7 @@ The following are derived convenience artifacts and remain stale until the synch
 - `CHAPTER_0_3_DIALOGUE_SYNC_MANIFEST.md` if present from an older run;
 - the prior Chapters 0–3 spoiler-free exact-dialogue reader / novelization.
 
-Atomic scene files remain exact wording authority while these derived artifacts are stale.
+Atomic scene files remain exact wording authority. The listed derived artifacts are now synchronized mirrors.
 
 ## Synchronizer readiness
 
@@ -54,7 +55,7 @@ An isolated fallback build image is also available at:
 
 It exists only as an execution fallback and does not alter dialogue authority.
 
-## Current execution blockers
+## Historical execution blockers
 
 ### GitHub Actions
 
@@ -100,19 +101,20 @@ Do **not** work around this execution blocker by:
 - repurposing live Railway/Render character-agent services;
 - making the private repository public.
 
-## Resolution condition
+## Resolution completed
 
-Derived synchronization may proceed immediately when any one of these becomes available:
+The conditions below were the original unblock criteria and are retained only as historical context:
 - GitHub Actions jobs can start normally again;
 - Railway has one isolated temporary resource slot;
 - Render gains authorized access to the private repo;
 - another execution environment can clone/read the exact private repo snapshot and run Python 3.12 + `python-docx`.
 
-After a successful run:
-1. verify `--check --no-docx` passes;
-2. verify protected anchors and current Face terminology;
-3. promote the four combined manuscripts and sync manifest as current derived read-throughs;
-4. visually QA the generated DOCX before presenting it as the current reader;
-5. update chapter/master-index stale wording to synchronized/current.
+Completed on 2026-09-19:
+1. `--check --no-docx` passed;
+2. protected anchors/current terminology guards passed;
+3. the four combined manuscripts and sync manifest were regenerated and promoted as current derived read-throughs;
+4. the exact-dialogue reader completed its cleanup/finalization/story-polish/heading/encounter/layout pipeline;
+5. the current runtime mirror compiled and verified at 2,901 spoken lines across 60 scenes;
+6. Chapter-1 and master-index status wording was promoted to synchronized/current.
 
-> **This is an execution/infrastructure blocker only. Chapters 0–3 source dialogue remains fully closed and authoritative at the atomic-file level.**
+> **RESOLVED. Chapters 0–3 atomic dialogue remains exact wording authority; the current derived layers are synchronized mirrors.**

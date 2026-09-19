@@ -336,7 +336,7 @@ Scene ends before the exchange turns into a longer insult contest.
   - `CYANIS: Old slut?`
   - `TORREN: Bitch.`
   - callback `TORREN: Bitch.` / `CYANIS: Old slut.`
-- Torren remains terse socially but becomes substantially more verbal once Cyanis asks real questions about roads, maps, old cuts, and how field truth changes.
+- Torren begins Chapter 1 guarded, but his social opening is already underway here: route expertise earns longer turns, while jokes, argument, profanity, and ordinary back-and-forth show that he is not permanently terse.
 - Cyanis stops being a pure exposition prompter: he observes, jokes, draws one correct inference of his own, and genuinely learns how Torren thinks.
 - `Memory gets confident. Map gives me something to argue with later.` gives Torren a character-specific reason for keeping his own map without turning it into lore or a thematic speech.
 - no ancient Junction-map explanation, Cistern progression, Card event, or relationship-state leap is added.
