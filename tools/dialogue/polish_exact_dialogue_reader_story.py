@@ -18,6 +18,8 @@ EXPECTED_DIALOGUE_LINES = 2901
 LABEL_RE = re.compile(r"^.+:\s*$")
 
 PROSE_REPLACEMENTS = {
+    "Dunmere is not discovered here. It was already the party's next practical destination.":
+        "Dunmere remains the party's next destination.",
     "Ilyra Amarin is already working when Cyanis arrives. She was part of the wider convoy medical/Warden support, but she and Cyanis do not begin as established acquaintances.":
         "Ilyra Amarin is already working when Cyanis arrives, one of the convoy's medical/Warden support.",
     "There is no argument for the sake of argument. He got the information he needed; she sees that he will actually use it.":
@@ -97,6 +99,8 @@ PROSE_REPLACEMENTS = {
 }
 
 PROSE_DROPS = {
+    "The Card does not speak, identify Cyanis, reveal a Face, manifest a Prime, or explain the activation.",
+    "The earlier side access is now available for the optional Cistern Devourer Hunt.",
     "Dunmere is not discovered here. It was already the party's intended destination.",
     "No one stops to restate the entire Junction discovery.",
     "No one revisits LAST SENTINEL CONFIRMED, the seal copies, or Cresthaven's Ancient mystery.",
