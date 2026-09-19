@@ -95,26 +95,15 @@ func _build_upper_briar() -> void:
 	_add_path("BP_A_Main", main_points, 7.0, _road_material)
 
 	var shallow_loop: Array[Vector3] = [
-		Vector3(-145, 3, 12),
+		# Entry and exit sit directly on the main road so the loop is a real
+		# reconnection rather than a near-miss in the graybox.
+		Vector3(-145, 3.1, 12.1),
 		Vector3(-125, 3.5, -24),
 		Vector3(-78, 4.3, -34),
 		Vector3(-32, 5.4, -4),
+		Vector3(-18, 5.7, 15.8),
 	]
 	_add_path("BP_A_ShallowLoop", shallow_loop, 5.2, _optional_material)
-	_add_path_segment(
-		"BP_A_LoopEntry",
-		Vector3(-145, 3, 12),
-		Vector3(-142, 3, 12),
-		5.2,
-		_optional_material
-	)
-	_add_path_segment(
-		"BP_A_LoopExit",
-		Vector3(-32, 5.4, -4),
-		Vector3(-18, 5.7, 12),
-		5.2,
-		_optional_material
-	)
 
 	var pocket_u1: Array[Vector3] = [
 		Vector3(-126, 3.5, -24),
