@@ -10,6 +10,5 @@ entries = [
 {"character_id": "ilyra", "display_name": "Ilyra", "portraits": {}},
 {"character_id": "maevra", "display_name": "Maevra", "portraits": {}},
 {"character_id": "brackenwall_custody_officer", "display_name": "Brackenwall Custody Officer", "portraits": {}},
-{"character_id": "torren", "display_name": "Torren", "portraits": {}},
-{"character_id": "route_worker", "display_name": "Route Worker", "portraits": {}}
+{"character_id": "torren", "display_name": "Torren", "portraits": {}}
 ]

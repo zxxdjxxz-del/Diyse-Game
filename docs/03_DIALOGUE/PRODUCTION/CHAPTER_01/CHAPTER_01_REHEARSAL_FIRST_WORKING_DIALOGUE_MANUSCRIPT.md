@@ -8,21 +8,21 @@
 
 | Order | Canonical slot | Atomic source | SHA-256 |
 |---:|---|---|---|
-| 1 | Beat 1 | `BEAT_01_BRACKENWALL_PROTOCOL_DRAFT_A.md` | `2c100e1b3bbcd7574878e77090ed0c139defc44cea42734a0eb6ab9cd40d905e` |
-| 2 | Beat 2 | `BEAT_02_BRIAR_PASSAGE_FIRST_TRAVERSAL_DRAFT_A.md` | `b98ded6538882566e68cadb3466964b6332a3730c9680924f00c348a8e5e4dae` |
-| 3 | Beat 3 | `BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md` | `995c74d5d14654506b3856fda5759862c55de1304bd9e6e97258af71494c8453` |
-| 4 | Beat 4 | `BEAT_04_HOLLOW_WATCH_APPROACH_DRAFT_A.md` | `2783c40bd879d3d31587d481fc853f5a6b4ad3a8d3b33534b39359c15302cdb3` |
-| 5 | Beat 5 | `BEAT_05_OCCUPIED_HOLLOW_WATCH_FORT_DRAFT_A.md` | `848c740263b5e0487fdaa14d93f19cd86cffed4c7ce77c9970b4a201a27d3129` |
-| 6 | Beat 6 | `BEAT_06_BLACK_HOST_EXCAVATION_LOWER_ACCESS_DRAFT_A.md` | `fa1d1a3bfd501b2f04bae3942b6a7de5d4200705293cbaf433f9e8a0c6141918` |
-| 7 | Beat 7 | `BEAT_07_LOWER_JUNCTION_SIX_CHANNELS_DRAFT_A.md` | `d58a02f69aa449aded9fd08052f5d22c1c17f745f81f0acfabcc2e0dbb9379af` |
-| 8 | Beat 8 | `BEAT_08_FORCED_INNER_SECTION_DRAFT_A.md` | `9c020f7de3a8d7bdf92c772a7a9341fa91aa61609083c8766fd101f5a30b3821` |
-| 9 | Beat 9 | `BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md` | `1e751dabd3966825bb2545c1b2e8d09ceadcaa3061550f34f73077cab6f6fc7e` |
-| 10 | Beat 10 | `BEAT_10_POST_CASTELLAN_MURAL_DRAFT_A.md` | `d6fcc2cf043aadfbb9507621523659d32acb2770b8d8de4d65270fbf6333e89d` |
-| 11 | Beat 11 | `BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md` | `989703b1f7b058954784dc8a8b8a0a769e5af5d4aad4b0e3d1da285e02c2d0f3` |
-| 12 | Beat 12 | `BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md` | `1ad63978a3dec1f5cd60bef7cce0349de5efbba7125b3205d4da53ffa968de3a` |
-| 13 | Beat 13 | `BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md` | `bd6a584ccdfacd6a655109f9f859c2b5f6ef685f660417a18eef9528f794ac63` |
-| 14 | Beat 14 | `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md` | `759c13336b6ae02d4d50f2bc27e026c96c518ee09877f235c7282471a15ed0ed` |
-| 15 | Beat 15 | `BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md` | `a40ee6f2ec005ec647df9c9397878c4b9fd1fd665e21fa5906a39f15b7a1c769` |
+| 1 | Beat 1 | `BEAT_01_BRACKENWALL_PROTOCOL_DRAFT_A.md` | `91cfe7c99201995b0dea13c5ae37df7c22d829baad513f507969886f34234de5` |
+| 2 | Beat 2 | `BEAT_02_BRIAR_PASSAGE_FIRST_TRAVERSAL_DRAFT_A.md` | `67febeef18fd8b66f61c7ee01f94bbf1e874660576de8057b6ddcc0de0ba25bb` |
+| 3 | Beat 3 | `BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md` | `6693261bb04168700f58f90ddfdaab42c7cce3cd00458c5c5a762faca79eff9b` |
+| 4 | Beat 4 | `BEAT_04_HOLLOW_WATCH_APPROACH_DRAFT_A.md` | `2a63b882695c5d125dbc3f43a639a351e8097602230ae20110491e2f09486910` |
+| 5 | Beat 5 | `BEAT_05_OCCUPIED_HOLLOW_WATCH_FORT_DRAFT_A.md` | `3cad8f2a3cbcc16e061351e82852dc071ac5c221c1ba3e5409b181f051b17471` |
+| 6 | Beat 6 | `BEAT_06_BLACK_HOST_EXCAVATION_LOWER_ACCESS_DRAFT_A.md` | `310250f67672a31744490941a0f9b36b3b6ef0a84640dd167991d1018f9a5173` |
+| 7 | Beat 7 | `BEAT_07_LOWER_JUNCTION_SIX_CHANNELS_DRAFT_A.md` | `7bfb4ec35afe2adc4bbcd5e2eee0680b0b3df04af93905bde862d13e2b71c8d0` |
+| 8 | Beat 8 | `BEAT_08_FORCED_INNER_SECTION_DRAFT_A.md` | `d06e943d2f1078df48df054d60a807bbc25baa7cf259bc4d2c1972b70820f727` |
+| 9 | Beat 9 | `BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md` | `443defa391b41d42f359e3786078cad4d5994f5cdf14e0579b5eb019c8a18cd8` |
+| 10 | Beat 10 | `BEAT_10_POST_CASTELLAN_MURAL_DRAFT_A.md` | `11a8611d3c8eadb3ce34c0c974f9d7ae920f3f6e89426182ac6503cfcbcda07b` |
+| 11 | Beat 11 | `BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md` | `041a4cf0b2063d2df38c7d2a21ce46c6d76ac2bd9e32ba23a3f84ca58683198e` |
+| 12 | Beat 12 | `BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md` | `e73bd11d309eb45fe3c5cebf569ee125e4b88e8f881eab239f79d3b827404b44` |
+| 13 | Beat 13 | `BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md` | `771bfca681ec7060bd5af3c83f7b8801bae8584224e7af19b878232f2b7769f7` |
+| 14 | Beat 14 | `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md` | `d26e9ac04f808202032ea4596d050f51eec4ee2f8e2a1d0d936ec3f308753092` |
+| 15 | Beat 15 | `BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md` | `e07e05469d36689e744167e114f050da1f6b00384e661bca1474e2305737f6e7` |
 | 16 | C02 — Torren's Version of Dinner | `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md` | `d417a5590b6ac55cbdd005932d3eb31ce71908febc20640fec1d0d8c635d0548` |
 | 17 | C03 — What the Map Says | `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md` | `eda009f00e925a3f282d29848a39e4f652630f0c4d3b3859cd799285ba847c0c` |
 | 18 | C04 — Not Professionally | `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md` | `36adad6fe360648296ed34418761f08d368998ef6d2c9ad620e2d4ac7d15b527` |
@@ -32,3080 +32,1220 @@
 ## Beat 1
 
 **Atomic source:** `BEAT_01_BRACKENWALL_PROTOCOL_DRAFT_A.md`  
-**Source SHA-256:** `2c100e1b3bbcd7574878e77090ed0c139defc44cea42734a0eb6ab9cd40d905e`
+**Source SHA-256:** `91cfe7c99201995b0dea13c5ae37df7c22d829baad513f507969886f34234de5`
 
 # Chapter 1 — Beat 1
 # Brackenwall / Protocol
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE + FINAL ENSEMBLE BALANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
----
+## [BRACKENWALL — INTAKE]
 
-### [GAMEPLAY — BRACKENWALL ARRIVAL]
+The recovered Card is brought into formal Brackenwall intake.
 
-**Player control is active.**
+**CUSTODY OFFICER:** That's the Card?
 
-Brackenwall is a functioning safe hub.
+**CYANIS:** Card survived. Casing didn't.
 
-Cyanis and Ilyra arrive with the recovered Card. Its Chapter-0 recovery casing is gone; the Card itself survived intact.
+**CUSTODY OFFICER:** And right now?
 
-Because Brackenwall is a hub, relevant party members and NPCs may already be present as field models. Ordinary dialogue still uses the normal portrait + dialogue-box presentation.
+**ILYRA:** Inert. That's not the same as safe.
 
-The Card is dark.
+**CUSTODY OFFICER:** Wasn't hoping it was. Tell me what it actually did.
 
----
+**ILYRA:** Twice, green-and-gold geometry spread from it and held damaged structure together around us. Both times Cyanis reacted with it—pulse up, tremor, dizziness afterward. We don't know why.
 
-### [STORY TRIGGER — FORMAL INTAKE]
+**CYANIS:** Her favorite answer.
 
-**Player control pauses.**
+**ILYRA:** Only when it's true.
 
-The custody officer, Cyanis, and Ilyra are present in the intake area. Simple field placement only; portraits carry the conversation.
+The officer looks at Cyanis.
 
-**CUSTODY OFFICER:** That's it? The thing that was in the recovery casing?
+**CUSTODY OFFICER:** Anything now?
 
-**CYANIS:** That's it. Casing didn't survive Riftmaw. Card did.
+Cyanis considers the question instead of answering automatically.
 
-The officer looks at Ilyra rather than trusting `did` to mean `is harmless`.
+**CYANIS:** No dizziness. Head's clear. Nothing new.
 
-**ILYRA:** No visible break, burn, deformation, or other damage we could establish in the field. That is not the same as me declaring it safe.
+**CUSTODY OFFICER:** Good enough for intake.
 
-**CUSTODY OFFICER:** I was afraid you'd say that.
+**ILYRA:** For intake.
 
-**CYANIS:** She says things like that when you use optimistic nouns.
+**CUSTODY OFFICER:** I heard you.
 
-**ILYRA:** You learned quickly.
+He takes possession of the Card.
 
-**CUSTODY OFFICER:** What did it actually do?
+**CUSTODY OFFICER:** Warded storage until Caelora tells us what we've got.
 
-Ilyra gives him the relevant version, not the whole convoy story.
+The officer moves away with it.
 
-**ILYRA:** Twice, green-and-gold geometry spread out from it and held damaged structure together around our position for a few seconds. Both times Cyanis changed with it—pulse rose, tremor, dizziness afterward. We don't know whether the Card caused those symptoms, reacted to the same thing that caused them, or was doing something else entirely.
+Within moments, Cyanis falters.
 
-**CYANIS:** For the record, I contributed by standing near it and becoming medically inconvenient.
+**ILYRA:** Cyanis.
 
-**ILYRA:** You were excellent at both.
+**CYANIS:** Yeah. I know.
 
-The officer looks to Cyanis.
+A thin green-gold response wakes across the Card, extending back toward him.
 
-**CUSTODY OFFICER:** Anything still wrong now?
+**ILYRA:** Don't move.
 
-Cyanis actually checks before answering.
+**CYANIS:** Wasn't planning anything ambitious.
 
-**CYANIS:** Head's clear. Arm hurts from yesterday, not differently. No dizziness. Nothing new I can feel.
+The officer has already stopped.
 
-Ilyra says nothing; the answer is finally precise enough.
+**CUSTODY OFFICER:** Bringing it back.
 
-**CUSTODY OFFICER:** Fine. Warded store until Caelora decides what to do with it.
+The Card returns.
 
-**CYANIS:** Works for me.
-
-The officer takes the Card and starts away with it.
-
-This is one required physical story action. No extra prop choreography is needed.
-
-After only a short distance, Cyanis visibly falters.
-
-**ILYRA:** Stop. Cyanis, don't move yet.
-
-A thin green-gold line wakes across the Card and reaches toward Cyanis.
-
-Ilyra checks him; this may be represented minimally while the portraits carry the exchange.
-
-**CYANIS:** Don't start counting.
-
-**ILYRA:** Already am.
-
-**CYANIS:** That's somehow worse.
-
-**ILYRA:** Quiet for ten seconds and let me be worse.
-
-The custody officer has seen enough.
-
-**CUSTODY OFFICER:** Bringing it back. We're not learning anything useful by making him worse.
-
-The officer brings the Card back toward Cyanis.
-
-The line retracts and goes dark. Cyanis steadies.
-
-Ilyra watches him another beat.
+The response collapses. Cyanis steadies.
 
 **ILYRA:** Better?
 
-**CYANIS:** Yes. Fast, too.
+**CYANIS:** Almost immediately.
 
-**ILYRA:** I noticed.
+**ILYRA:** Pulse is settling.
 
-**CUSTODY OFFICER:** Right. Storage transfer's finished until someone smarter than me can explain that.
+The officer gives the Card back to Cyanis.
 
-**CYANIS:** Good.
+**CUSTODY OFFICER:** That's the end of that experiment.
 
-**CUSTODY OFFICER:** Wasn't asking.
+**CYANIS:** Best decision I've heard today.
 
-**CYANIS:** Still good.
+**CUSTODY OFFICER:** It wasn't an experiment when I started it.
 
-The officer looks between them.
+**ILYRA:** It is now.
 
-**CUSTODY OFFICER:** Either of you tempted to find out exactly how far I got before that happened?
+The officer gives her a tired look.
 
-**ILYRA:** No.
+**CUSTODY OFFICER:** Fine. Accidental experiment. Finished.
 
-**CYANIS:** Deeply no.
+**CYANIS:** Even better.
 
-**CUSTODY OFFICER:** Wonderful. Get Solmar.
-
----
-
-### [SHORT HUB HOLD]
-
-**Player control may return briefly.**
-
-The Card remains at intake with Cyanis nearby until Maevra arrives.
-
-Do not add authored background errands, prop comedy, or micro-events here. Brackenwall's ordinary town/hub life belongs to the area presentation.
+**CUSTODY OFFICER:** Get Commander Solmar.
 
 ---
 
-### [STORY TRIGGER — MAEVRA]
+Maevra arrives shortly afterward, one arm already secured in a field splint.
 
-Maevra joins the intake scene.
+**MAEVRA:** I'm assuming normal procedure went beautifully.
 
-Her arm is already set in a practical field splint. The injury happened during the Broken Convoy attack before Chapter 1 began.
+**CYANIS:** Depends how attached you are to the word normal.
 
-Relevant characters may be visible as simple field models because this is a triggered hub scene.
+**CUSTODY OFFICER:** Storage failed.
 
-**MAEVRA:** Dovaren. Amarin.
+**MAEVRA:** Of course it did.
 
-**CYANIS:** Commander.
+Ilyra notices the splint.
 
-Ilyra's eyes go straight to the splint.
+**ILYRA:** Convoy?
 
-**ILYRA:** Commander. Whoever set that did enough to get you here. I'm changing it before you leave again.
+**MAEVRA:** Wagon threw me. Ground won.
 
-**MAEVRA:** Hello to you too.
+**ILYRA:** I'm redoing that before we leave.
 
-**CYANIS:** Broken in the convoy?
+**MAEVRA:** Hello, Ilyra.
 
-**MAEVRA:** Yeah. Wagon kicked sideways, I disagreed with the ground, ground won. And before either of you develops a speech: I'm traveling. I'm not fighting.
-
-**ILYRA:** Fine. You're still getting a fresh splint.
-
-**MAEVRA:** I heard that the first time.
-
-**ILYRA:** Good. Saves us both a second argument.
+**ILYRA:** Hello. I'm redoing that before we leave.
 
 Maevra looks at Cyanis.
 
-**MAEVRA:** See? This is why I don't argue with her about splints anymore.
+**MAEVRA:** See what I live with?
 
-**CYANIS:** Anymore implies growth.
+**CYANIS:** I was going to say she seems consistent.
 
-**MAEVRA:** Don't get excited. I save the bad decisions for larger subjects.
+**ILYRA:** Thank you.
 
-Ilyra gives her a look that says she can name several.
+**MAEVRA:** Nobody asked you to encourage her.
 
-**MAEVRA:** Not taking submissions.
+The custody officer cuts back in.
 
-That is enough to establish both the Chapter-1 injury state and the fact that Maevra and Ilyra already know one another well. The scene does not stop for a medical explanation.
+**CUSTODY OFFICER:** I moved the Card away from Dovaren. He started going down. The Card reacted toward him. I brought it back. Both stopped.
 
-The custody officer gives Maevra only what changed after arrival.
+The humor leaves Maevra.
 
-**CUSTODY OFFICER:** Storage failed. Moving the Card away made Dovaren sick; bringing it back stopped both his symptoms and the Card's response.
+**MAEVRA:** Anything still wrong?
 
-Maevra's humor disappears for the question that matters.
+**ILYRA:** No tremor now. Pulse is nearly baseline. He says he feels normal again.
 
-**MAEVRA:** How bad?
+**CYANIS:** I do.
 
-**ILYRA:** Bad enough. He's stable now. Don't test the distance again. We got one accidental separation response and it reversed when the Card came back. That's enough evidence to respect and nowhere near enough to experiment with him.
+**MAEVRA:** I believe you. I also know your definition of normal.
 
-**CYANIS:** Also, very much not interested in becoming a measuring stick.
+**CYANIS:** That's hurtful.
 
-**MAEVRA:** Great. Love consensus. It stays with Dovaren for now, and nobody gets curious about how far away it can go.
+**MAEVRA:** Recover later.
+
+She looks back to the officer.
+
+**MAEVRA:** Card stays with Dovaren. Amarin keeps an eye on him. If anything changes, we stop and reassess. Nobody tests the distance again.
 
 **CUSTODY OFFICER:** Fine by me.
 
-**MAEVRA:** Brackenwall isn't equipped for this anyway. Caelora is. Until then, custody gets ugly and simple: Dovaren keeps it, Amarin keeps watching Dovaren, and if the Card decides to develop another opinion we stop and reassess instead of proving how brave we are.
+**CYANIS:** Understood.
 
-**CYANIS:** That was the plan before it developed opinions.
+**MAEVRA:** Brackenwall can't answer this. Caelora might.
 
-**MAEVRA:** Now the plan has supervision.
+**CUSTODY OFFICER:** So you're taking it there.
 
-**CYANIS:** Mine or its?
+**MAEVRA:** I'm taking responsibility for it. Yes.
 
-**MAEVRA:** Yes.
+The decision is made.
 
-**CYANIS:** That's not helpful.
+**MAEVRA:** I can get us to Greenhollow. Before we go farther south, I want Torren Harth.
 
-**ILYRA:** I don't think she was trying to help.
+**CYANIS:** All right.
 
-**MAEVRA:** I was helping myself. Different service.
+Maevra starts to turn away.
 
-The conversation shifts to the route.
+**CYANIS:** And you're coming with us like that?
 
-**MAEVRA:** We don't go straight from here. I can get us to Greenhollow without gambling on reports I don't trust. After that I want Torren Harth before we push farther south.
+She looks at the splint.
 
-**ILYRA:** Guide?
+**MAEVRA:** I'm traveling. I'm not fighting.
 
-**MAEVRA:** When he's being paid, yes. When he isn't, annoyingly similar. Briar changes faster than reports do; Torren actually walks it, argues with it, swears at it, and then tells you which part is trying to kill you this week.
+**CYANIS:** Wasn't telling you not to come.
 
-**CYANIS:** You trust him.
+**MAEVRA:** I know.
 
-Maevra gives Cyanis a look like the answer should be obvious from the amount of insult she just spent on the man.
+**ILYRA:** Good. Sit down.
 
-**MAEVRA:** With roads, completely. Most other things too, though I'd deny saying that if he were standing here. We've known each other long enough that he'd make me regret the phrasing.
+**MAEVRA:** Fuck, I knew this part was coming.
 
-**ILYRA:** How long?
+**CYANIS:** That sounded like an order.
 
-Maevra smiles slightly.
+**MAEVRA:** Hers usually do when bones are involved.
 
-**MAEVRA:** Long enough. You'll meet him before you need the history.
+**ILYRA:** Sit.
 
-That boundary is casual, not secretive.
+**MAEVRA:** Yes, Warden.
 
-**MAEVRA:** Greenhollow first. Torren second. Then south toward Caelora. If the road has changed, he tells us. If it hasn't, he'll complain that we wasted his time and come anyway.
+### [GAMEPLAY HANDOFF]
 
-**CYANIS:** You already decided he's coming.
+Player control returns in Brackenwall.
 
-**MAEVRA:** I know him.
-
-**CYANIS:** That's not technically an answer.
-
-**MAEVRA:** See? You're recovering.
-
-Ilyra glances again at the splint.
-
-**ILYRA:** And you're traveling the whole way with that arm.
-
-**MAEVRA:** That's the current plan.
-
-**ILYRA:** Then the current plan waits until I redo it.
-
-**MAEVRA:** Fine.
-
-**CYANIS:** That easy?
-
-Maevra looks at him.
-
-**MAEVRA:** Dovaren, I've known Amarin long enough to know this is not the hill.
-
-**ILYRA:** Finally, the command structure produces something useful.
-
-**MAEVRA:** Careful. I still outrank you.
-
-**ILYRA:** And I'm still redoing the splint.
-
-Maevra considers that.
-
-**MAEVRA:** Annoying system.
-
-**CYANIS:** Seems balanced from here.
-
-Maevra points at him with her good hand.
-
-**MAEVRA:** Nobody asked you.
-
-That familiarity is preexisting; the rank is still real.
-
-**MAEVRA:** You two eat. Drink something that isn't medical equipment. I'll get the arm insulted properly, then we leave.
-
-Cyanis looks at Ilyra.
-
-**CYANIS:** You told her about that?
-
-**ILYRA:** I did not.
-
-Maevra looks between them.
-
-**MAEVRA:** Oh, now I need the story.
-
-**CYANIS:** No.
-
-**ILYRA:** Later.
-
-**MAEVRA:** Excellent. There is a later.
-
-The scene ends without additional movement choreography.
-
-Before departure, Ilyra changes/re-secures Maevra's splint off the main dialogue beat. The more substantial camp treatment scene is saved for later Character-Life material.
+**Objective: Prepare to leave for Greenhollow.**
 
 ---
-
-### [GAMEPLAY HANDOFF — BRACKENWALL SAFE HUB]
-
-**Player control returns.**
-
-Current objective:
-
-**Eat, resupply, and leave with Maevra for Greenhollow.**
-
-Story state:
-- the Chapter-0 recovery casing broke during the final boss fight and is gone;
-- Cyanis is carrying the intact Card itself;
-- the attempted Card transfer produced a proximity-linked response;
-- Brackenwall stopped the transfer rather than testing it repeatedly;
-- Maevra takes responsibility for the abnormal custody situation;
-- Maevra's arm was broken during the Broken Convoy attack and is already splinted;
-- Maevra travels with the group but does not fight in Chapter 1; the broken arm is the immediate in-world reason;
-- Maevra already has established personal familiarity with both Cyanis and Ilyra while remaining their senior commander in operational contexts;
-- Caelora is the larger destination;
-- Greenhollow is the immediate destination;
-- Ilyra continues with Cyanis;
-- Torren Harth is the route specialist Maevra intends to find.
-
-Combat party:
-**Cyanis Dovaren + Ilyra Amarin**
-
-Next mandatory story beat:
-**Briar Passage / First Traversal.**
-
----
-
-## Person-Brain / ensemble performance note
-
-- the Card-separation event stays immediate and physically led; the dialogue does not explain the visible line back to the player.
-- Ilyra gives a complete medical/evidentiary boundary where the scene genuinely requires it.
-- Maevra arrives socially alive: humor, injury deflection, command judgment, curiosity, and a clear boundary around unnecessary personal history all coexist without making her a co-exposition narrator.
-- Maevra and Ilyra now explicitly sound like people with established prior familiarity rather than new acquaintances; their easy pushback coexists with Maevra's real senior-command rank.
-- Maevra's Torren description sounds like long actual familiarity rather than a recruitment dossier without revealing exact duration or past romance.
-- the bitterleaf callback grows naturally out of Chapter 0 without becoming required lore.
-- no story, route, injury, Card, or gameplay outcome changes.
 
 ---
 
 ## Beat 2
 
 **Atomic source:** `BEAT_02_BRIAR_PASSAGE_FIRST_TRAVERSAL_DRAFT_A.md`  
-**Source SHA-256:** `b98ded6538882566e68cadb3466964b6332a3730c9680924f00c348a8e5e4dae`
+**Source SHA-256:** `67febeef18fd8b66f61c7ee01f94bbf1e874660576de8057b6ddcc0de0ba25bb`
 
 # Chapter 1 — Beat 2
 # Briar Passage / First Traversal
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS + ILYRA ROLE-BALANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
-**Walking-dialogue lock:** brief moving dialogue is legal here because Maevra is genuinely guiding Cyanis and Ilyra to Greenhollow.
+## [GAMEPLAY — BRIAR PASSAGE]
 
----
+Player control is active.
 
-### [GAMEPLAY — BRIAR PASSAGE]
+The group leaves Brackenwall and enters Briar Passage.
 
-**Player control is active.**
+Ordinary traversal shows Cyanis on the field. Random encounters use **Cyanis + Ilyra**. Maevra remains with the group but does not participate in combat.
 
-Cyanis is the only party character visible during ordinary traversal.
+Most of the route is silent.
 
-Maevra and Ilyra remain present with him and speak through the normal portrait + dialogue-box presentation.
+## [HALFWAY STOP]
 
-Maevra's arm remains in the field splint established at Brackenwall. The injury happened during the Broken Convoy attack. It does not stop her from guiding the route, but she is not a battle participant.
+Roughly halfway to Greenhollow, the group stops briefly at a natural break in the route.
 
-Cyanis carries the intact recovered Card itself. It remains inert.
+**CYANIS:** How much farther?
 
-Briar Passage is normal hostile field gameplay. Its established map/environment carries the wooded roads, trails, route markers, side paths, and changing terrain required by Chapter-1 story authority. The dialogue manuscript does not add a false trail, route split, crossing, prop trail, or extra traversal vignette.
+**MAEVRA:** Not much. Greenhollow's straightforward from here.
 
-Random encounters are active.
+**ILYRA:** You say that like the first half wasn't.
 
-Combat party: **Cyanis + Ilyra**.
+**MAEVRA:** It wasn't difficult. It was Briar.
 
-Maevra never appears in battle.
+**CYANIS:** Useful distinction.
 
----
+**MAEVRA:** You'll appreciate it later. This stretch I trust. South of Greenhollow, I don't trust my memory that much anymore.
 
-### [GUIDED TRAVERSAL DIALOGUE]
+**ILYRA:** Changed that much?
 
-During an ordinary stretch of travel, Maevra gives a route call through the dialogue UI.
-
-**MAEVRA:** Keep east here. The west line looks easier because people keep walking it, and people keep walking it because it looks easier. Then the ground drops and everybody acts surprised.
-
-**CYANIS:** You sound like you've had that argument before.
-
-**MAEVRA:** Several times. Once with Torren for an hour, which was especially irritating because he agreed with me from the beginning and just disliked the reason I gave.
-
-**ILYRA:** What was wrong with the reason?
-
-**MAEVRA:** I said the west line was bad because it washed out every wet season. He said that wasn't useful because it hadn't rained enough yet that year. Then he spent the next forty minutes explaining soil, runoff, root hold, two old wagon cuts, and why the road was still bad for a completely different reason.
-
-**CYANIS:** And he was right?
-
-**MAEVRA:** Unfortunately. That's the problem with Torren. The bastard earns too many of his objections.
-
-A short beat.
-
-**ILYRA:** Forty minutes about soil.
-
-**MAEVRA:** Closer to forty-two, if you want to make it worse.
-
-**ILYRA:** I do, actually. I'm beginning to look forward to meeting him.
-
-**MAEVRA:** That's because you haven't.
-
-**CYANIS:** I'm getting mixed advertising here.
-
-**MAEVRA:** It's accurate advertising.
-
-The conversation leaves Torren's personal history alone. What interests Ilyra here is the absurdity of the argument, not diagnosing what Maevra feels about him.
-
-Gameplay continues.
-
----
-
-### [GAMEPLAY — BRIAR PASSAGE]
-
-A substantial exploration stretch follows.
-
-The player experiences Briar Passage as a recurring regional route rather than a short corridor. Its unreliable maintenance and changing route conditions are communicated by the actual area design rather than a chain of scripted inspections.
-
-Random encounters remain the ordinary combat presentation.
-
-There is no Briarhide Stalker encounter, no Ancient-story payoff, and no Old Waystone here.
-
-Most travel is silent.
-
-The script does not keep calling attention to Maevra's arm. The splint itself carries continuity whenever she appears in an authored scene.
-
----
-
-### [GUIDED TRAVERSAL DIALOGUE — LATER]
-
-Later, Maevra calls another direction.
-
-**MAEVRA:** Stay high until the trees open. Don't cut down toward the old road even if it looks faster.
-
-**CYANIS:** You know all of this from memory?
-
-**MAEVRA:** This stretch, mostly. I used it enough when I was younger. But memory is exactly why I stop trusting myself farther south. A road can keep the same name for twenty years while the useful part moves fifty paces sideways.
-
-**ILYRA:** Because the old path fails and people make another one beside it.
-
-**MAEVRA:** Or a farmer fences it, or a storm eats half of it, or somebody builds a bridge that lasts eight years and then everybody keeps saying `bridge road` for twelve years after the bridge is gone. That's why paper and memory both get dangerous if nobody checks the ground.
-
-**CYANIS:** And Torren checks it.
-
-**MAEVRA:** Constantly. Sometimes before breakfast, because he has poor priorities.
-
-**ILYRA:** If he starts a forty-minute soil argument with me before breakfast, I'm throwing him down the easier-looking road.
-
-Maevra laughs.
-
-**MAEVRA:** You may get along after all.
-
-**ILYRA:** That sounded like a threat.
-
-**MAEVRA:** It wasn't entirely one.
-
-Cyanis looks ahead.
-
-**CYANIS:** How bad is the south route right now?
-
-**MAEVRA:** Bad enough that I don't want to guess. I can tell you what was there the last time I used it. That's not the same thing as telling you what will hold under your feet tomorrow.
-
-**CYANIS:** And Torren won't have to guess?
-
-**MAEVRA:** He'll still guess. He'll just tell you exactly which part is guesswork, which part he walked yesterday, and which part some drunk wagoner swears was fine because he survived it once.
-
-**ILYRA:** All right. That part I like.
-
-**MAEVRA:** Don't tell him too early.
-
-**ILYRA:** I haven't even met him and I'm already receiving instructions about managing his ego.
-
-**CYANIS:** Finally, something outside my department.
-
-The exchange ends because the subject has run its natural course, not because every speaker has delivered one short line.
-
-Gameplay continues to Greenhollow.
-
----
-
-### [ENTRY — GREENHOLLOW]
-
-Greenhollow comes into view as part of normal field progression.
-
-At the settlement threshold, an authored scene may trigger. Because this is a scene transition into a town, relevant characters may appear as field models in simple positions while portraits and the dialogue box carry the exchange.
-
-Maevra's splint remains visible as part of her normal Chapter-1 field state.
-
-**MAEVRA:** Greenhollow.
-
-Cyanis looks ahead.
-
-**CYANIS:** That's it?
-
-**MAEVRA:** That's a town, yes.
-
-**CYANIS:** I meant the announcement.
-
-**MAEVRA:** Were you expecting trumpets?
-
-**CYANIS:** A sign would've been nice.
-
-**ILYRA:** There is one.
+**MAEVRA:** Not all at once. That's the problem. One washout, one new cut, one route people stop using—and six months later you're confidently wrong.
 
 A beat.
 
-**CYANIS:** I meant earlier.
+**MAEVRA:** That's why I want Torren. He spends more time out there than I do.
 
-**MAEVRA:** Of course you did.
+**ILYRA:** Useful.
 
-Ilyra laughs quietly.
+**MAEVRA:** Very.
 
-**CYANIS:** I'm glad the road has brought everyone joy.
+Maevra starts moving again.
 
-**ILYRA:** It brought me a sign you apparently needed announced in advance. I'm having a lovely time.
+**MAEVRA:** Come on. Greenhollow before this becomes a briefing.
 
-**MAEVRA:** Wait until Torren starts correcting your map language.
+**ILYRA:** You started it.
 
-**CYANIS:** I don't have map language.
+**MAEVRA:** And I'm ending it.
 
-**MAEVRA:** You will.
+Player control resumes.
 
-Scene ends.
+## [GAMEPLAY — SECOND HALF]
+
+The party continues through Briar Passage.
+
+No additional authored conversation interrupts the route.
+
+Random encounters continue with Cyanis and Ilyra.
+
+The route remains comparatively legible.
+
+Eventually the player reaches Greenhollow through normal traversal.
+
+There is no separate arrival conversation at the town threshold.
+
+## [GAMEPLAY HANDOFF]
+
+**Location: Greenhollow**
+
+Traveling group:
+**Cyanis + Ilyra + Maevra**
+
+Combat party:
+**Cyanis + Ilyra**
+
+Next mandatory scene:
+**Greenhollow / Torren**
 
 ---
-
-### [GAMEPLAY HANDOFF — GREENHOLLOW]
-
-**Player control returns.**
-
-Greenhollow uses town/hub presentation, so party members and NPCs may be visibly present in the area rather than following the Cyanis-only wilderness-traversal rule.
-
-Traveling group: **Cyanis + Ilyra + Maevra**  
-Combat party: **Cyanis + Ilyra**
-
-Maevra remains noncombat because of the broken arm sustained during the convoy attack.
-
-Next mandatory story beat: **Greenhollow / Torren.**
-
----
-
-## Person-Brain performance note
-
-- Maevra is allowed to become more verbally alive while genuinely guiding: she has enough history with the road and Torren to tell a compact story rather than functioning as a route arrow.
-- the added Torren material establishes why his field expertise matters without giving the party current information he has not yet personally supplied.
-- Ilyra is no longer assigned the relationship-reader or broken-arm-monitor line merely because she is present. She becomes curious about an absurd argument, develops an opinion about Torren before meeting him, jokes, threatens him hypothetically, and enjoys Cyanis missing the sign.
-- Ilyra's participation here is deliberately nonmedical; Maevra's visible splint carries its own continuity.
-- most gameplay remains silent; this is not converted into continuous walking banter.
-- no false trail, route split, crossing, Old Waystone, Briarhide encounter, or Ancient payoff is restored.
 
 ---
 
 ## Beat 3
 
 **Atomic source:** `BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md`  
-**Source SHA-256:** `995c74d5d14654506b3856fda5759862c55de1304bd9e6e97258af71494c8453`
+**Source SHA-256:** `6693261bb04168700f58f90ddfdaab42c7cce3cd00458c5c5a762faca79eff9b`
 
 # Chapter 1 — Beat 3
 # Greenhollow / Torren
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS + ILYRA ROLE-BALANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
----
+## [GREENHOLLOW — ROUTE BOARD]
 
-### [GAMEPLAY — GREENHOLLOW]
-
-**Player control is active.**
-
-Greenhollow is a functioning route town. Its ordinary activity, route traffic, shops, workers, and environmental detail belong to the town/map presentation rather than this dialogue script.
-
-Because this is a town, party members and relevant NPCs may already be visible as field models.
-
-Torren Harth is present at the route board when the group finds him.
-
-Maevra's arm remains in the practical field splint established at Brackenwall.
-
-Cyanis carries the intact recovered Card itself. It remains inert.
-
----
-
-### [STORY TRIGGER — TORREN]
-
-**Player control pauses.**
-
-Cyanis, Ilyra, Maevra, and Torren may be present as simple field models around the existing route-board area. Portraits and the dialogue box carry the conversation.
+Torren is at the route board when the group finds him.
 
 **MAEVRA:** Torren.
 
-Torren looks up.
+He looks over.
 
 **TORREN:** Maevra.
 
-His eyes drop immediately to the splint.
+His eyes go to the splint.
 
 **TORREN:** What happened?
 
-**MAEVRA:** Convoy got hit. Hard enough to break the arm, not hard enough to keep me home.
+**MAEVRA:** Convoy. Wagon threw me. Ground won.
 
-Torren looks at the splint a little longer than he looks at her face.
+**TORREN:** Broke it?
 
-**TORREN:** Who set it?
+**MAEVRA:** Yeah.
 
-**MAEVRA:** Field medic first. Amarin redid it this morning before she'd let me out of Brackenwall.
+**MAEVRA:** Amarin redid the splint this morning.
 
 Torren looks to Ilyra.
 
-**ILYRA:** It needed changing. She complained with impressive consistency.
+**TORREN:** Holding?
 
-**MAEVRA:** I was being charming.
+**ILYRA:** It will.
 
-**ILYRA:** Ah. Then yes. Very consistent.
+He looks back at Maevra.
 
-Torren's mouth moves like he almost smiled.
+**TORREN:** Good.
 
-**TORREN:** Better now?
+**MAEVRA:** Lovely to see you too.
 
-**ILYRA:** Better.
+**TORREN:** You showed up broken.
 
-**MAEVRA:** Good to see you too.
+**MAEVRA:** Splinted.
 
-**TORREN:** You walked in with a broken arm.
-
-**MAEVRA:** Splinted arm.
-
-**TORREN:** Still broken under it.
+**TORREN:** Still broken.
 
 **MAEVRA:** There he is.
 
-Only then does Torren look past her at Cyanis and Ilyra properly.
+Torren lets that sit, then gets to the point.
 
-**TORREN:** You brought trouble.
+**TORREN:** What do you need?
 
-**MAEVRA:** I brought three people.
+**MAEVRA:** Caelora. South through Briar.
 
-**TORREN:** Four things, then.
+**TORREN:** Direct road's Host now. Briar's possible.
 
-**CYANIS:** I'm assuming one of us is being counted twice.
+**MAEVRA:** Current?
 
-**TORREN:** Haven't decided yet.
-
-**ILYRA:** Take your time. I'd hate for the insult to be imprecise.
-
-Torren looks at her for the first time with something like interest.
-
-**TORREN:** You might be all right.
-
-**MAEVRA:** Don't encourage each other. I have to travel with both of you.
-
-The exchange establishes their familiarity without pausing to explain its history.
-
----
-
-### [ROUTE BOARD]
-
-Torren turns back to the route board.
-
-**TORREN:** Heard enough about the convoy to know you weren't coming here for the scenery.
-
-**CYANIS:** We made an impression.
-
-**TORREN:** On several wagons.
-
-**CYANIS:** That's cold.
-
-**TORREN:** They were burning when I heard about them.
+**TORREN:** North end, yes. My full south pass is three days old. That's old enough for weather or Host movement to change parts of it.
 
 A beat.
 
-Cyanis glances at Maevra.
+**TORREN:** Hollow Watch first.
 
-**CYANIS:** He does this all the time?
+**MAEVRA:** What's wrong with it?
 
-**MAEVRA:** Gets worse if you react.
+**TORREN:** Host took it about a week ago. Since then, timber, rope, pulley gear, extra food going uphill. More than the fort needs.
 
-**TORREN:** Gets funnier.
+**CYANIS:** Digging?
 
-**ILYRA:** To anyone else?
+**TORREN:** Looks like it. I haven't seen enough to call that fact.
 
-**TORREN:** Don't care.
+**ILYRA:** Anyone come out?
 
-**ILYRA:** Excellent. Healthy artistic integrity.
-
-**MAEVRA:** See what you've done? He's got an audience now.
-
-Torren gestures only as much as needed toward the existing route information.
-
-**MAEVRA:** We need Caelora. Direct road's out, I assume.
-
-**TORREN:** Host owns it right now. Not just patrols. They can stop wagons, hold the road, and move people off it before Greenhollow hears. Dunmere through Briar is still possible, but I wouldn't call it clean.
-
-**ILYRA:** How current is that?
-
-That is the kind of question Torren actually likes.
-
-**TORREN:** Depends which part. North of the old quarry, this morning. Creek line south of Greenhollow, yesterday. My own full south-route pass is three days old. That's enough time for weather, traffic, or the Host to change the answer, so if I say `possible`, I mean possible—not safe, not open, and not guaranteed because a board says so.
-
-Cyanis looks at the route board again.
-
-**CYANIS:** Maevra warned me you did this.
-
-**TORREN:** Did what?
-
-**CYANIS:** Turn one road question into an argument about what the word `road` means.
-
-**TORREN:** If you use the wrong word, you make the wrong plan.
-
-Maevra looks delighted despite herself.
-
-**MAEVRA:** And somehow you're still exactly this fucking annoying.
-
-Torren glances at her.
-
-**TORREN:** You came to me.
-
-**MAEVRA:** I did.
-
-**TORREN:** Then stop complaining.
-
-**CYANIS:** You two always like this?
-
-**MAEVRA:** Worse when we're tired.
-
-**TORREN:** She's tired now.
-
-**MAEVRA:** Careful.
-
-**TORREN:** See?
-
-Ilyra studies the board.
-
-**ILYRA:** So if the map says road and you say route, I should listen to you.
-
-**TORREN:** If we're standing here, no. If we're on it and the ground disagrees with the map, yes.
-
-**ILYRA:** Fair. Irritating, but fair.
-
-Torren nods once. That answer mattered more to him than the joke.
-
-**CYANIS:** Good maps are an argument, then.
-
-Torren actually considers the phrase.
-
-**TORREN:** More like a promise somebody made about the ground at a particular time. Good map tells you who made the promise, when, and what they bothered to check. Bad one just draws a confident line and lets you discover the rest with a broken axle.
-
-A beat.
-
-**ILYRA:** Fuck. The soil story makes sense now.
-
-Maevra points at Torren without looking away from Ilyra.
-
-**MAEVRA:** That's how it starts.
-
-**TORREN:** You asked a good question.
-
-**ILYRA:** Don't reward me. I'll get curious again.
-
-**TORREN:** Worse things happen.
-
-**CYANIS:** That's considerably more words than Maevra promised.
-
-**MAEVRA:** Roads. I warned you.
-
-Torren looks at her.
-
-**TORREN:** You talk too much about food.
-
-**MAEVRA:** Food deserves it.
-
-The route board is the only object this exchange needs. No chalk-passing, repeated pointing, route-line tracing, or other board choreography is required.
-
----
-
-### [THE CARD]
-
-Maevra does not launch into the convoy story.
-
-**MAEVRA:** One complication. Recovered Card. Moving it away from Dovaren made him sick.
-
-Torren looks at Cyanis, then at Ilyra.
-
-**TORREN:** He good to travel?
-
-This is a genuine medical/travel question, so Ilyra owns the answer.
-
-**ILYRA:** Stable now. Keep the Card with him and don't test the distance again.
-
-Torren waits half a beat, making sure there is not another travel consequence coming.
-
-**TORREN:** Walking, climbing, fighting?
-
-**ILYRA:** Yes to all three as of this morning. If symptoms return, that answer changes.
-
-**TORREN:** Fine.
-
-**CYANIS:** That's it?
-
-**TORREN:** You want me to diagnose old magic I've never studied, or tell you whether your legs work on the south road today?
-
-**CYANIS:** Second one.
-
-**TORREN:** Then that's it.
-
-**CYANIS:** I like him.
-
-**ILYRA:** You've known him for eight minutes.
-
-**CYANIS:** Strong eight minutes.
-
-**MAEVRA:** Give it time.
-
-No one turns this into a discussion of what the Card is. Torren receives only the travel-relevant facts.
-
----
-
-### [HOLLOW WATCH]
-
-Torren looks toward the north side of the route board.
-
-His tone changes. The joke goes away.
-
-**TORREN:** Before south, we go to Hollow Watch.
-
-**MAEVRA:** Why?
-
-**TORREN:** Host took it last week. Since then, digging gear's been going uphill—timber, rope, pulleys, food enough for more people than the fort normally holds. I went up as far as the lower bend three days ago. Didn't see a single garrison uniform come down. Didn't see prisoners either.
-
-**ILYRA:** Nobody from the fort made it here afterward?
-
-**TORREN:** Not that I know. No bodies from where I was either.
-
-**CYANIS:** Anything that tells you whether the garrison is still alive?
-
-Torren shakes his head.
-
-**TORREN:** No. That's why I'm still saying `don't know` instead of giving you a nicer answer. Could be dead. Could be held below sight. Could've been moved before I got there. The digging is real. The rest is empty space people will fill with whatever scares them most if you let them.
-
-Maevra studies him.
-
-**MAEVRA:** You went up alone.
-
-**TORREN:** Far as the lower bend. I came back.
-
-**MAEVRA:** That was not the part I objected to.
-
-Torren looks at her for a beat.
-
-**TORREN:** I know.
-
-No joke follows that one.
-
-Cyanis looks toward the north route.
-
-**CYANIS:** All right. We check the fort.
+**TORREN:** No garrison. No prisoners. I got as far as the lower bend and came back.
 
 Maevra looks at him.
 
-**MAEVRA:** I expected at least one argument.
+**MAEVRA:** Alone?
 
-**CYANIS:** He gave me evidence, limits, and a reason it can't wait. What am I arguing with?
+**TORREN:** I came back.
 
-Torren answers before Maevra can.
+**MAEVRA:** Not the point.
 
-**TORREN:** Give him time.
+**TORREN:** I know.
 
-**ILYRA:** He's been remarkably restrained. I don't trust it either.
+Cyanis looks at the route board.
 
-**CYANIS:** Excellent. Everyone's settled in.
+**CYANIS:** Can you get us close without using the main road?
 
-A beat.
+**TORREN:** Yes. West side to the ridge. Last stretch I haven't walked since they took the fort.
 
-Torren returns to the practical problem.
+**CYANIS:** That'll do.
 
-**TORREN:** Main road up is watched from the fort and exposed most of the last climb. I know another way to the ridge. Narrower, worse footing, but trees break sight from above and the final approach stays under the west wall.
+## [THE CARD]
 
-**CYANIS:** You've walked all of it?
+**MAEVRA:** One complication. Dovaren's carrying a recovered Card. Separating it from him made him sick.
 
-**TORREN:** To the ridge. Not into the occupied fort.
+Torren looks at Cyanis, then Ilyra.
 
-**CYANIS:** Right. That's what I needed.
+**TORREN:** Travel?
 
-**TORREN:** Important part.
+**ILYRA:** Yes. Fight and climb too. If that changes, I'll say so.
 
-**MAEVRA:** See why I came here?
+**TORREN:** Then it doesn't change the route.
 
-**ILYRA:** The terrible personality really sells the expertise.
-
-Torren looks at her.
-
-**TORREN:** You're still here.
-
-**ILYRA:** Unfortunately for both of us.
-
-Cyanis laughs.
-
-**CYANIS:** You fight too, or are we carrying you when this goes badly?
-
-**TORREN:** You can try.
+Cyanis looks at him.
 
 **CYANIS:** Works for me.
 
-The route itself is handled by the next gameplay beat. No field-case preparation, weapon gesture, or departure choreography is required here.
+## [HOLLOW WATCH DECISION]
 
----
+Torren looks back toward the north side of town.
 
-### [DEPARTURE SETUP]
+**TORREN:** I'll go with you. We settle Hollow Watch, then I take you south.
 
-A local route worker is part of Greenhollow's town population and may already be present nearby. The exchange uses the normal scene presentation; no chalk handoff or equipment animation is required.
+**MAEVRA:** That's the plan.
 
-**ROUTE WORKER:** You're going up? With them?
+### [GAMEPLAY HANDOFF]
 
-**TORREN:** That's usually how groups work.
-
-**ROUTE WORKER:** That's not what I meant.
-
-**TORREN:** I know. If Miller comes back, ask him about the wash south of marker twelve. I want to know whether it cut deeper after the rain or just spread wider. If he only says `bad`, make him tell you which.
-
-**ROUTE WORKER:** Torren.
-
-**TORREN:** What?
-
-**ROUTE WORKER:** You're going into an occupied fort and you're assigning me drainage questions.
-
-**TORREN:** Both things matter tomorrow if I come back.
-
-The worker stares at him.
-
-**TORREN:** Ask him.
-
-A beat.
-
-**ROUTE WORKER:** Fine.
-
-Torren looks back to the group.
-
-**TORREN:** Need anything before we go?
-
-**MAEVRA:** Food.
-
-**TORREN:** You ate.
-
-**MAEVRA:** I can need food twice. All these years and you're still wrong about this.
-
-**TORREN:** North edge. Ten minutes.
-
-**CYANIS:** Is she getting food?
-
-**TORREN:** Yes.
-
-**MAEVRA:** See?
-
-A beat.
-
-**ILYRA:** I hate that I understand the soil argument now.
-
-**MAEVRA:** Don't tell him that.
-
-**ILYRA:** I was considering telling him solely to make your day worse.
-
-**CYANIS:** I like her more every minute too.
-
-**MAEVRA:** Especially neither of you.
-
-**TORREN:** Heard all of that.
-
-**ILYRA:** Good.
-
-Scene ends.
-
----
-
-### [GAMEPLAY HANDOFF — GREENHOLLOW]
-
-**Player control returns.**
-
-Current objective:
-
-**Prepare, then meet Torren at Greenhollow's north edge for the Hollow Watch approach.**
-
-Story state:
-- Torren Harth has been introduced in his normal route-work context;
-- Torren has seen Maevra's splinted broken arm and knows it happened during the convoy attack;
-- Maevra remains a noncombat traveling companion during Chapter 1 because of the injury;
-- Maevra and Torren's long familiarity is clear through their speech without giving Ilyra or Cyanis a formal history lecture or an exact duration;
-- the direct Greenhollow–Dunmere road is under Black Host control;
-- Torren can guide the deeper Briar route, but Hollow Watch must be dealt with first;
-- Torren knows the Black Host seized Hollow Watch roughly a week ago and has seen excavation traffic going up;
-- Torren has not entered the occupied fort and does not know the garrison's fate or the excavation target;
-- Cyanis carries the intact Card itself and it remains inert;
-- Torren receives only the travel-relevant Card information;
-- Torren joins the Hollow Watch operation as temporary combat support;
-- Torren is not yet permanently recruited.
+Torren joins as **temporary combat support** for the Hollow Watch operation.
 
 Traveling group:
-**Cyanis Dovaren + Ilyra Amarin + Maevra Solmar + Torren Harth**
+**Cyanis + Ilyra + Maevra + Torren**
 
-Combat party for Hollow Watch:
-**Cyanis Dovaren + Ilyra Amarin + Torren Harth**
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-Next mandatory story beat:
-**Beat 4 — Hollow Watch Approach.**
+Maevra remains noncombat.
+
+**Objective: Approach Hollow Watch.**
 
 ---
-
-## Person-Brain performance note
-
-- Torren remains conclusion-first, but route/terrain questions naturally pull longer evidence-rich turns out of him.
-- his uncertainty stays explicit and competent; he refuses to convert missing information about the garrison into a theory simply to sound decisive.
-- Maevra/Torren banter is fast because of their history, but serious concern can erase the joke without either explaining the relationship to the audience. The exact duration is not spoken.
-- Ilyra answers medical questions when someone genuinely asks for her medical judgment, but she is also curious about Torren's route reasoning, profane, teasing, willing to needle Maevra, and beginning her own independent social friction with Torren.
-- Ilyra does not function as the relationship reader for Maevra/Torren and does not own every human-consequence line.
-- no route, Card, injury, recruitment, or Hollow Watch knowledge boundary changes.
 
 ---
 
 ## Beat 4
 
 **Atomic source:** `BEAT_04_HOLLOW_WATCH_APPROACH_DRAFT_A.md`  
-**Source SHA-256:** `2783c40bd879d3d31587d481fc853f5a6b4ad3a8d3b33534b39359c15302cdb3`
+**Source SHA-256:** `2a63b882695c5d125dbc3f43a639a351e8097602230ae20110491e2f09486910`
 
 # Chapter 1 — Beat 4
 # Hollow Watch Approach
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS + ILYRA ROLE-BALANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
-**Walking-dialogue lock:** Torren is genuinely guiding the party to Hollow Watch, so brief route guidance may occur during traversal. Ordinary wilderness traversal still shows Cyanis only.
+## [GAMEPLAY — APPROACH FROM GREENHOLLOW]
 
----
+Player control is active.
 
-### [GREENHOLLOW NORTH EDGE — SCENE]
+There is no separate Greenhollow departure scene.
 
-**Player control pauses.**
+Torren leads the group away from the obvious road and onto the less exposed approach.
 
-Greenhollow is a town, so Cyanis, Ilyra, Maevra, and Torren may all be present as field models for the departure scene.
+Ordinary enemies remain random encounters.
 
-Portraits and the dialogue box carry the exchange.
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-Torren looks over the group once.
+Maevra remains with the traveling group but does not participate in combat.
 
-**TORREN:** Everybody have what they actually need?
+Most of the approach is silent.
 
-**MAEVRA:** You gave us ten minutes, Harth.
+## [STORY TRIGGER — HOLLOW WATCH REVEAL]
 
-**TORREN:** Was plenty.
+The route reaches a point where Hollow Watch becomes clearly visible.
 
-**MAEVRA:** For you. You pack like somebody's charging rent by the pocket.
+The group stops.
 
-**TORREN:** Because I carry my own shit.
+For the first time, the player gets a clean view of the small Yahtrean cliff fort under Black Host occupation, active excavation below it, and older fitted stone exposed beneath the later construction.
 
-**CYANIS:** I like him more every minute.
+**CYANIS:** That's Hollow Watch?
 
-**MAEVRA:** That's because neither of you has had to share a room with the other yet.
+**TORREN:** Yeah.
 
-**ILYRA:** Give it another hour. They may discover a common philosophy about owning one shirt.
+**MAEVRA:** They've done a hell of a lot more than occupy it.
 
-Cyanis looks down at himself.
+**ILYRA:** Stone underneath is different.
 
-**CYANIS:** I have more than one shirt.
+Torren studies it.
 
-**ILYRA:** Then the friendship may not survive.
+**TORREN:** Yeah. Couldn't see that from the lower bend. Fort's sitting over something older.
 
-Torren ignores them and looks toward the north route.
+**ILYRA:** Any sign of the garrison?
 
-**ILYRA:** Main road's out. What's the alternative actually like?
+Torren watches the fort for a moment.
 
-Torren answers the question instead of reducing it to `worse road`.
+**TORREN:** Nothing I trust from here.
 
-**TORREN:** First half is an old service path. Narrow, roots through it, but stable unless last night's rain did more than I think. After that we leave the path entirely and take the ridge shoulder under the trees. Last climb is steep enough you'll want your hands free. West wall covers us from the fort until we're close.
+Maevra looks toward the obvious road.
 
-**CYANIS:** You still taking us up there?
+**MAEVRA:** Main approach?
 
-Torren looks at him.
+**TORREN:** No. West wall. Trees cover most of the climb, and the last stretch tucks under the cliff. I checked it to the ridge, not past it.
 
-**TORREN:** I just described the route.
+Cyanis looks toward the west side.
 
-**CYANIS:** Could've been a warning.
+**CYANIS:** Then that's our way in.
 
-**TORREN:** It was both.
+**TORREN:** Stay low until we're under the wall.
 
-**MAEVRA:** That's as warm as he gets before noon.
+The stop ends.
 
-**ILYRA:** I was promised a guide. Nobody mentioned continuing education.
+## [GAMEPLAY — FINAL APPROACH]
 
-**TORREN:** Free.
+Player control resumes.
 
-**ILYRA:** Somehow worse.
+The party follows Torren's west-wall approach.
 
-**TORREN:** Move.
+There is no second scouting scene and no additional threshold conversation.
 
-Scene ends.
+The group reaches the occupied-fort entry and enters Hollow Watch.
 
----
+## [GAMEPLAY HANDOFF]
 
-### [GAMEPLAY — HOLLOW WATCH APPROACH]
+**Objective: Enter Hollow Watch and determine what happened to the garrison.**
 
-**Player control is active.**
+Traveling group:
+**Cyanis + Ilyra + Maevra + Torren**
 
-Once the party leaves Greenhollow and enters the wilderness route, Cyanis is the only party character visible on the field.
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-Torren is still the guide in story state and may give short directions through the portrait/dialogue UI.
-
-Combat party: **Cyanis + Ilyra + Torren**.  
-Maevra remains a non-combat traveling companion.  
-Cyanis carries the intact Card itself; it remains inert.
-
-Random encounters provide ordinary enemy pressure. No fixed ordinary Black Host fight is authored on the approach.
-
-Most travel is silent.
+Next mandatory scene:
+**Occupied Hollow Watch**
 
 ---
-
-### [GUIDED TRAVERSAL DIALOGUE]
-
-At a point where the apparent main climb continues upward:
-
-**TORREN:** Off the road here. Stay on the darker ground under the firs.
-
-**CYANIS:** Darker means what?
-
-**TORREN:** Holds moisture longer. Softer top, harder underneath. The pale strip looks cleaner because water runs across it. Cleaner is not stronger.
-
-Cyanis changes course.
-
-**CYANIS:** Maevra was right.
-
-**TORREN:** About?
-
-**CYANIS:** You can turn dirt into a lecture.
-
-**TORREN:** You asked what the dirt meant.
-
-**MAEVRA:** That's how he gets you.
-
-**ILYRA:** I haven't decided whether I hate this or find it fascinating.
-
-**TORREN:** Can do both.
-
-**ILYRA:** Oh, good. Permission.
-
-Cyanis laughs.
-
-**TORREN:** Keep laughing and step where I told you.
-
-The exchange ends. Gameplay continues.
-
----
-
-### [STORY TRIGGER — HOLLOW WATCH REVEAL]
-
-At the established overlook/reveal point, player movement pauses.
-
-The relevant characters may appear as simple field models for the scene.
-
-The player gets one clear visual read of **Hollow Watch**:
-- a small Yahtrean cliff fort;
-- occupied by the Black Host;
-- active excavation visible beneath/alongside the fort;
-- older fitted construction exposed where the Host has been digging.
-
-Do not build the reveal out of a chain of separate track, pulley, bucket, patrol, tool, or work-crew micro-beats. The existing area composition carries the information.
-
-A beat before anyone speaks.
-
-**CYANIS:** They've been busy.
-
-**MAEVRA:** More than busy.
-
-Ilyra studies the exposed construction below the fort.
-
-**ILYRA:** The stone under it doesn't match the fort.
-
-Torren follows the line where the later wall sits over the older fitted work.
-
-**TORREN:** No. Fort's sitting on older foundations, maybe more than foundations. I couldn't see that from the lower bend. They've opened enough of the slope now that the join's obvious.
-
-**CYANIS:** Any sign of the garrison?
-
-Torren scans what the overlook actually gives them.
-
-A beat.
-
-**TORREN:** Not from here. No uniforms in the yard, no movement where I'd expect a prisoner detail, but distance is doing us no favors. Don't turn absence into bodies yet.
-
-**ILYRA:** Good. I'm not interested in inventing an answer from this far away.
-
-**TORREN:** Then we're getting along.
-
-**ILYRA:** Don't rush it.
-
-Maevra looks at the excavation.
-
-**MAEVRA:** If they took the fort for whatever's underneath it, they knew enough to bring equipment before they knew whether they could open it.
-
-**CYANIS:** Or they found it after they arrived and started hauling gear up.
-
-**MAEVRA:** Also possible.
-
-**TORREN:** Traffic started after the fort changed hands. That's all I can give you from the route side.
-
-Nobody promotes that timing into motive.
-
----
-
-### [APPROACH PLAN]
-
-Torren looks toward the west side of the fort.
-
-**TORREN:** We go in under the west wall. Trees carry us most of the way, then the slope folds inward under the cliff. From above it looks worse than it is.
-
-**MAEVRA:** That's the route you checked?
-
-**TORREN:** To the ridge. Last part I only saw from outside. If the Host changed the wall or put somebody in the fold since then, we find out close.
-
-**CYANIS:** Comfortable.
-
-**TORREN:** You asked for accurate, not comfortable.
-
-**CYANIS:** Starting to understand the pricing structure.
-
-**ILYRA:** If we have to pull someone back out, same route?
-
-Torren thinks instead of answering immediately.
-
-**TORREN:** One person, yes. Two if they're walking with help. A litter through the steep part would be miserable and slow. If we find a live garrison in numbers, we need another extraction plan.
-
-Ilyra nods.
-
-**ILYRA:** Miserable and slow. Your routes have a strong theme.
-
-**TORREN:** They work.
-
-**ILYRA:** That's the irritating part, apparently.
-
-Maevra makes a small sound that might be agreement.
-
-**CYANIS:** Let's try for nobody needing a litter.
-
-**TORREN:** Better plan.
-
-The scene ends.
-
----
-
-### [GAMEPLAY — FINAL APPROACH]
-
-**Player control returns.**
-
-Cyanis alone is visible during the final wilderness traversal toward the fort.
-
-Torren gives only the route instruction the player needs:
-
-**TORREN:** Stay below the wall. If you can see the parapet clearly, you're too high.
-
-No companion field choreography is authored. No coat-grabbing, root ducking, bow drawing, formation blocking, or fixed-enemy spotting is required.
-
-Random encounters remain the ordinary combat presentation.
-
----
-
-### [THRESHOLD — OCCUPIED HOLLOW WATCH]
-
-At the fort entry threshold, a short scene triggers and the relevant characters may appear as field models again.
-
-Cyanis looks at the final access line.
-
-**CYANIS:** Still our way in?
-
-Torren checks the actual ground before answering.
-
-**TORREN:** Yeah. Wall hasn't shifted. No fresh cut across the approach. We go now before somebody decides this is a good place for a patrol.
-
-**MAEVRA:** Finally, a suggestion with charm.
-
-**ILYRA:** I liked the dirt lecture better.
-
-Torren looks at her.
-
-**TORREN:** Knew you would.
-
-**ILYRA:** Don't make me regret saying it.
-
-**CYANIS:** Then let's go.
-
-Torren glances once at Maevra's splinted arm.
-
-**TORREN:** Stay behind the first turn if it gets ugly.
-
-Maevra gives him a flat look.
-
-**MAEVRA:** I'm not fighting. I'm also not six.
-
-**TORREN:** Didn't say you were.
-
-**MAEVRA:** You thought it loudly.
-
-**ILYRA:** He does. I'm discovering that.
-
-**TORREN:** Move.
-
-That is the end of it. No relationship explanation follows.
-
----
-
-### [GAMEPLAY HANDOFF — OCCUPIED HOLLOW WATCH]
-
-**Player control returns.**
-
-Current objective:
-
-**Enter occupied Hollow Watch and determine what happened to the garrison.**
-
-Story state:
-- Hollow Watch is established as a small Yahtrean cliff fort under Black Host occupation;
-- active excavation and older exposed construction are visually established in one major reveal;
-- Torren demonstrates value by knowing the usable approach route and explaining only route evidence the situation requires;
-- Torren still has not entered the occupied fort before this operation;
-- the garrison's fate remains unresolved;
-- the Black Host excavation objective remains unresolved;
-- Cyanis carries the intact Card and it remains inert;
-- no ancient/cartographic payoff occurs here.
-
-Traveling group: **Cyanis + Ilyra + Maevra + Torren**  
-Combat party: **Cyanis + Ilyra + Torren**
-
-Next mandatory story beat: **Beat 5 — Occupied Hollow Watch Fort.**
-
----
-
-## Person-Brain performance note
-
-- Torren is allowed to become more verbal specifically where route, ground, extraction, and field uncertainty are his domain.
-- his longer speech remains concrete and evidence-first rather than lyrical exposition.
-- Maevra can challenge/prod him with the ease of long history without narrating that history for the player.
-- Ilyra still asks the extraction question because the actual operation makes it useful, but that is no longer her whole function in the scene: she jokes about packing, becomes genuinely interested in Torren's terrain reasoning, notices the mismatched stone, pushes back on his assumptions, and develops her own dry friction with him.
-- Ilyra's medical identity is not invoked as a punchline or as the reason she is allowed to speak.
-- no false trail, scripted ordinary enemy, or extra traversal vignette is added.
 
 ---
 
 ## Beat 5
 
 **Atomic source:** `BEAT_05_OCCUPIED_HOLLOW_WATCH_FORT_DRAFT_A.md`  
-**Source SHA-256:** `848c740263b5e0487fdaa14d93f19cd86cffed4c7ce77c9970b4a201a27d3129`
+**Source SHA-256:** `3cad8f2a3cbcc16e061351e82852dc071ac5c221c1ba3e5409b181f051b17471`
 
 # Chapter 1 — Beat 5
-# Occupied Hollow Watch Fort
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS + ILYRA ROLE-BALANCE PASS
+# Occupied Hollow Watch
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
----
+## [GAMEPLAY — OCCUPIED FORT]
 
-### [GAMEPLAY — OCCUPIED HOLLOW WATCH]
+Player control is active.
 
-**Player control is active.**
+The party enters Hollow Watch beneath the west wall.
 
-Hollow Watch is hostile dungeon/fort traversal.
+The fort is hostile exploration. Ordinary Black Host soldiers remain random encounters.
 
-During ordinary traversal, **Cyanis is the only visible party field character**.
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-Ilyra, Torren, and Maevra remain present in story state. They appear as field models when a story scene triggers.
+Maevra remains with the traveling group but does not participate in combat.
 
-Combat party: **Cyanis + Ilyra + Torren**.  
-Maevra remains a non-combat traveling companion.  
-Cyanis carries the intact Card itself; it remains inert.
+The occupation tells its own story through the environment. Black Host supplies, equipment, and work are clearly directed downward.
 
-Ordinary Black Host troops are **random encounters only**. No fixed guards, scripted ordinary ambushes, or room-clear gates are authored.
+There is no separate lower-fort information scene.
 
-The existing fort art carries the recent occupation and the increasing excavation focus below.
+## [STORY TRIGGER — GARRISON DISCOVERY]
 
----
+The party reaches the dead Hollow Watch garrison.
 
-### [STORY TRIGGER — LOWER FORT]
+The visual fact lands before anyone speaks.
 
-At the lower-fort progression point, movement pauses and the relevant characters may appear as simple field models.
-
-The area already makes the Black Host's priorities readable: they are using the fort, but most of the work is directed downward.
-
-Cyanis looks over what has actually been left on the surface.
-
-**CYANIS:** They're not settling in. Enough people to hold the fort, but everything worth moving is going down.
-
-**MAEVRA:** Agreed.
-
-Torren studies the wear and traffic rather than the furniture.
-
-**TORREN:** Both directions too. People down, emptier crews back up. Supplies keep going below.
-
-**CYANIS:** Regular rotation?
-
-**TORREN:** Could be. Or work gangs. Can't tell from wear alone.
-
-Ilyra looks around at how little ordinary life the occupiers have bothered to establish.
-
-**ILYRA:** Miserable way to live in a fort you've already stolen.
-
-**MAEVRA:** They don't care about living here. Whatever they wanted wasn't the fort.
-
-Cyanis's attention catches on the doorway.
-
-**CYANIS:** Blood.
-
-That changes the room.
-
-**ILYRA:** Then the stairs can wait.
-
-**TORREN:** Agreed.
-
-The scene ends on the discovery. No crouching, stain inspection, weapon-ready pose, or extra prop choreography is required.
-
----
-
-### [GAMEPLAY — SURFACE SEARCH]
-
-**Player control returns.**
-
-Cyanis remains the sole visible traversal character.
-
-Random encounters remain active.
-
-The player reaches the west storage area through normal fort exploration. Story progression does not depend on a particular random encounter.
-
----
-
-### [STORY TRIGGER — GARRISON DISCOVERY]
-
-The west store contains the dead of Hollow Watch.
-
-This is a major human story discovery, so the relevant characters may appear as field models for the scene.
-
-The room itself carries the visual fact. Do not add body-by-body inspection choreography.
-
-A beat of silence.
-
-Ilyra performs the one necessary check for survivors because that is genuinely her expertise and the scene requires an answer.
-
-Cyanis waits until she finishes the minimum check she needs.
+Ilyra makes the minimum check needed.
 
 **CYANIS:** Anyone?
 
-Ilyra's answer is quiet and complete.
+A beat.
 
-**ILYRA:** No. Nobody here is alive.
+**ILYRA:** No.
 
-Silence again.
+Silence.
 
-Torren knows these were people from a fort near his town. He does not become eloquent because the scene is sad.
+Torren looks over the dead.
 
 **TORREN:** Fuck.
 
-Nobody answers him immediately.
+Another beat.
 
-Maevra looks over the room once, jaw set.
+**TORREN:** Should've come sooner.
 
-**MAEVRA:** We don't know whether this is all of them.
+Maevra answers quietly.
 
-Torren looks at her.
+**MAEVRA:** You couldn't take that fort alone.
 
-**TORREN:** I know.
+**TORREN:** I know. Doesn't make this better.
 
-**MAEVRA:** Then we finish the fort before we decide what happened to everyone who isn't in this room.
+Maevra lets it stand.
 
-Torren does not like the instruction, but he understands why she said it.
+Nobody tries to fix the silence.
+
+After a moment, Cyanis looks toward the route deeper into the fort.
+
+**CYANIS:** We follow them down.
+
+Torren nods once.
 
 **TORREN:** Yeah.
 
-Cyanis looks toward the exit.
-
-**CYANIS:** We keep moving. If we find records, prisoner space, anything that changes the count, we stop and reassess.
-
-Ilyra is still looking at the dead.
+Ilyra remains still.
 
 **ILYRA:** Give me a second.
 
-No one rushes her.
+Nobody argues.
 
-A beat.
+A short pause.
 
 Then she turns away herself.
 
 **ILYRA:** All right.
 
-**CYANIS:** Come on.
+The scene ends.
 
-Scene ends.
+## [GAMEPLAY — DOWNWARD ROUTE]
 
-The extra second is not a professional beat. Ilyra has just seen a room full of dead people and reacts as a person before moving on.
+Player control returns.
 
----
+There is no watch-room records scene and no second authored stop inside the surface fort.
 
-### [GAMEPLAY — REMAINING SURFACE SEARCH]
+The route downward is already obvious from the Black Host excavation logistics.
 
-**Player control returns.**
+As the player progresses, ordinary fort construction gives way to the excavation cut through and beneath it.
 
-The fort remains normal Cyanis-only traversal with random encounters.
+The party reaches the forced lower opening where the Yahtrean fort begins to give way to older buried construction.
 
-There is no surviving-garrison rescue objective unless later evidence actually creates one.
+## [GAMEPLAY HANDOFF]
 
-The player reaches the watch room / excavation-information point through normal progression.
+**Objective: Follow the Black Host excavation below Hollow Watch.**
 
----
+Traveling group:
+**Cyanis + Ilyra + Maevra + Torren**
 
-### [STORY TRIGGER — WATCH ROOM]
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-Relevant characters may appear as simple field models.
-
-Fort records and Black Host work records are present as part of the existing room/story setup. No page-by-page handling animation is required.
-
-Cyanis scans enough of the material to see the pattern.
-
-**CYANIS:** Riveting.
-
-Maevra reads the operational implication rather than summarizing every record.
-
-**MAEVRA:** Everything they logged goes below. Work crews, supplies, watch changes—the surface only matters because it protects the hole.
-
-**CYANIS:** Then we're done up here.
-
-Torren is still carrying the west-store discovery with him and has no interest in lingering.
-
-**TORREN:** Good.
-
-Ilyra looks at the records.
-
-**ILYRA:** I preferred the dirt lecture.
-
-Torren gives her a sidelong look.
-
-**TORREN:** Told you it was useful.
-
-**ILYRA:** I said preferred. Don't get ambitious.
-
-It is a small ordinary exchange, not an attempt to manage Torren's grief.
-
-The environment has already shown that the occupation is feeding the excavation; the dialogue does not repeat the same conclusion in several voices.
-
-The scene ends there.
+Next mandatory section:
+**Black Host Excavation / Lower Access**
 
 ---
-
-### [GAMEPLAY — EXCAVATION ACCESS]
-
-**Player control returns.**
-
-The player moves to the lower excavation access.
-
-Ordinary Black Host enemies remain random encounters.
-
-The existing environment carries the required excavation staging and the transition into older fitted construction.
-
-No walking dialogue is used.
-
----
-
-### [THRESHOLD SCENE — BELOW THE FORT]
-
-At the forced opening into the older structure, movement pauses and the relevant characters may appear as field models.
-
-The breach itself is the required visual.
-
-Cyanis looks at the fitted older construction exposed through the forcing work.
-
-**CYANIS:** You knew this was here?
-
-Torren answers immediately.
-
-**TORREN:** No. Knew the fort foundations were older in places. Not this. Not anything this big.
-
-**MAEVRA:** Explains the digging gear.
-
-Ilyra takes in the violence of the forcing work rather than claiming specialist knowledge of the structure.
-
-**ILYRA:** Whatever they used, preservation wasn't part of the plan.
-
-**CYANIS:** Subtle wasn't either.
-
-Torren checks the breach and debris with the field eye that actually owns that inference.
-
-**TORREN:** Fresh. Edges haven't weathered and the debris hasn't settled. They opened this after taking the fort.
-
-**CYANIS:** Doesn't tell us whether they knew it was here before they attacked.
-
-**TORREN:** No.
-
-**MAEVRA:** Good distinction.
-
-Torren glances at her.
-
-**TORREN:** Learned from the annoying people around me.
-
-**MAEVRA:** You're welcome.
-
-**ILYRA:** That's two of us now. You collect well.
-
-Cyanis looks into the dark lower route.
-
-**CYANIS:** Whatever they came for, we're behind them now.
-
-**TORREN:** Then let's see what was worth the trouble.
-
-Scene ends.
-
----
-
-### [GAMEPLAY HANDOFF — BLACK HOST EXCAVATION / LOWER ACCESS]
-
-**Player control returns.**
-
-Current objective:
-
-**Descend through the Black Host excavation.**
-
-Story state:
-- Hollow Watch remains a hostile random-encounter area rather than a sequence of scripted ordinary fights;
-- the garrison has been confirmed dead through the story discovery, while the presence/absence of anyone not in that room is not overclaimed;
-- the Black Host's operational focus is clearly the excavation below;
-- Torren learns the garrison's fate here for the first time;
-- nobody knows the excavation target or the ancient structure's original purpose;
-- Cyanis carries the intact Card and it remains inert.
-
-Traveling group: **Cyanis + Ilyra + Maevra + Torren**  
-Combat party: **Cyanis + Ilyra + Torren**
-
-Next mandatory story beat: **Beat 6 — Black Host Excavation / Lower Access.**
-
----
-
-## Person-Brain performance note
-
-- the lower-fort conversation lets Torren distinguish observed traffic from inferred work structure rather than supplying two-word answers.
-- Cyanis, not Ilyra, notices the blood; Ilyra does not need to own every human-consequence observation.
-- the garrison-discovery survivor check remains Ilyra's because the scene genuinely needs her professional judgment. Her later request for one second is explicitly a human reaction, not a healer function.
-- Ilyra does not silently therapist-watch Torren in the watch room; she engages him through their emerging dirt-lecture joke instead.
-- Torren, not Ilyra, owns the field inference that the breach is fresh. Ilyra is free to react to the destructive method without becoming an ancient-structure expert.
-- Maevra's operational discipline remains intact without converting Ilyra into the party's emotional interpreter.
-- the watch-room scene remains intentionally compressed because the environment has already made the excavation priority obvious.
-- no story outcome or knowledge boundary changes.
 
 ---
 
 ## Beat 6
 
 **Atomic source:** `BEAT_06_BLACK_HOST_EXCAVATION_LOWER_ACCESS_DRAFT_A.md`  
-**Source SHA-256:** `fa1d1a3bfd501b2f04bae3942b6a7de5d4200705293cbaf433f9e8a0c6141918`
+**Source SHA-256:** `310250f67672a31744490941a0f9b36b3b6ef0a84640dd167991d1018f9a5173`
 
 # Chapter 1 — Beat 6
 # Black Host Excavation / Lower Access
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
+
+## [GAMEPLAY — DESCENT BELOW HOLLOW WATCH]
+
+Player control is active.
+
+The party follows the Black Host excavation beneath the fort.
+
+There is no formal story stop here.
+
+The environment carries the progression:
+
+**fort basement → active excavation → mixed Yahtrean and older construction → predominantly Diysean structure → active ancient defenses → Six-Channel Junction**
+
+Ordinary Black Host personnel remain random encounters.
+
+Deeper in the ruin, Diysean Sentries enter the normal random encounter pool. There is no scripted first activation.
+
+Combat party:
+**Cyanis + Ilyra + Torren**
+
+Maevra remains with the group but does not participate in combat.
+
+## [BRIEF REACTION — EXCAVATION TRANSITION]
+
+As the party moves beyond the recognizable fort foundations:
+
+**TORREN:** That's not fort work anymore. Fort was built around this.
+
+**MAEVRA:** Host kept cutting anyway.
+
+The group keeps moving.
+
+There is no stop for further analysis.
+
+## [GAMEPLAY — DEEPER RUIN]
+
+The excavation becomes less like ordinary digging and more like forced access through existing architecture.
+
+Farther in, the Diysean construction becomes increasingly intact.
+
+Diysean Sentries may appear through ordinary random encounters.
+
+No scripted dialogue is tied to the player's first Sentry encounter.
+
+The Card gives no new required response here.
+
+## [APPROACH TO THE LOWER JUNCTION]
+
+The route opens into a much larger constructed space ahead.
+
+The Black Host forcing work has largely fallen away by this point.
+
+No one stops to explain it.
+
+The party enters the chamber.
+
+## [GAMEPLAY HANDOFF]
+
+The **Six-Channel Junction** comes into view.
+
+Known:
+- the Black Host carried out sustained excavation beneath Hollow Watch;
+- the fort was built over substantially older Diysean construction;
+- the deeper structure is increasingly intact;
+- ancient defenses remain active;
+- the party still does not know the structure's original purpose;
+- the party still does not know the Black Host's ultimate target.
+
+Next mandatory scene:
+**Lower Junction / Six Channels**
 
 ---
-
-### [GAMEPLAY — BLACK HOST EXCAVATION]
-
-**Player control is active.**
-
-This is hostile dungeon traversal.
-
-During ordinary movement, **Cyanis is the only visible party field character**.
-
-Ilyra, Torren, and Maevra remain present in story state and may appear when a story scene triggers.
-
-Nobody knows this lower route well enough to guide it, so there is **no walking dialogue**.
-
-Combat party: **Cyanis + Ilyra + Torren**.  
-Maevra remains a non-combat traveling companion.  
-Cyanis carries the intact Card itself; it remains inert.
-
-Ordinary Black Host personnel and, deeper in the ruin, Diysean Sentries are **random encounters**.
-
-The existing dungeon art carries the required transition from later Yahtrean construction into the older Diysean structure and the evidence of sustained Black Host excavation. The dialogue script does not itemize every tool, brace, scrape, or discarded object.
-
----
-
-### [STORY TRIGGER — EXCAVATION WORK]
-
-At a progression point where the player has seen enough of the Black Host work, movement pauses and the relevant characters may appear as simple field models.
-
-Cyanis takes in the accumulated forcing damage.
-
-**CYANIS:** This isn't one bad idea they kept trying. They changed methods.
-
-Maevra studies the same work from an operational angle.
-
-**MAEVRA:** Yeah. Failed here, reinforced there, tried another face, came back with heavier tools. Long enough to learn what didn't work and organized enough to keep feeding the problem.
-
-Torren looks farther inward.
-
-**TORREN:** Didn't make them stop.
-
-**ILYRA:** Which means either they knew there was something worth reaching or somebody above them kept insisting there was.
-
-**MAEVRA:** Those aren't the same thing.
-
-**ILYRA:** I know.
-
-**CYANIS:** And we don't know which.
-
-**MAEVRA:** Good. Keep it that way until we do.
-
-The scene ends there. The excavation itself still carries the physical persistence; dialogue adds only bounded judgment about organization and uncertainty.
-
----
-
-### [GAMEPLAY — DEEPER ACCESS]
-
-**Player control returns.**
-
-Cyanis remains the sole visible traversal character.
-
-The environment becomes predominantly older Diysean construction. Any later Yahtrean controls or Black Host forcing work already present in the dungeon can show that different eras have used or altered the same structure.
-
-Random encounters continue. Diysean Sentries may now appear through the normal encounter pool.
-
-There is no scripted first-Sentry activation or mandatory ordinary battle.
-
-No map rubbing appears.  
-No mural appears.  
-No six-channel human-use imagery appears yet.  
-No one names the Junction or assigns the ruin a function.  
-The Card remains inert.
-
-No dialogue occurs during traversal.
-
----
-
-### [STORY TRIGGER — OLD AND NEW]
-
-At the established point where later construction visibly interfaces with older Diysean structure, movement pauses.
-
-The relevant characters may appear as simple field models. The existing structure is the visual; no one needs to manipulate it.
-
-Torren looks at how the later construction meets the old work.
-
-**TORREN:** Fort didn't replace this. Built over it and kept using pieces they understood.
-
-Ilyra looks farther inward at the damaged interfaces.
-
-**ILYRA:** And the Host tried to force the pieces nobody understood.
-
-**CYANIS:** You can tell the fort was using it?
-
-Torren points out only the practical relationship, not an invented purpose.
-
-**TORREN:** Later stone fits around the old edges instead of cutting them away. Somebody building the fort expected this part to stay. Doesn't tell me what they thought it was for.
-
-**MAEVRA:** Which is already more honest than most old fort records.
-
-**TORREN:** Low bar.
-
-Scene ends. The player can see that the later work continues inward; the cast does not restate the same conclusion again.
-
----
-
-### [GAMEPLAY — LOWER RUIN]
-
-**Player control returns.**
-
-Normal Cyanis-only dungeon traversal continues.
-
-Random encounters remain active.
-
-The Black Host forcing work becomes less complete as the player nears the next major chamber. That is enough to communicate that their progress changed abruptly; the dialogue script does not add drag marks, dropped tools, broken props, distant hammer cues, or a trail of supporting evidence.
-
----
-
-### [THRESHOLD SCENE — LOWER JUNCTION]
-
-At the threshold to the wider lower junction, movement pauses and the relevant characters may appear as field models.
-
-The wider chamber ahead is the only new visual the scene needs.
-
-Maevra notices first that the character of the forcing work has changed.
-
-**MAEVRA:** That's where their work stops.
-
-**CYANIS:** Not tapers off. Stops.
-
-Torren studies the threshold, then the chamber beyond.
-
-**TORREN:** Could mean they ran out of time. Could mean something in there changed the argument. Either way, don't assume whatever stopped them is gone because we haven't seen it yet.
-
-**ILYRA:** Sensible.
-
-**CYANIS:** I was hoping you'd say comforting.
-
-**TORREN:** Wrong man.
-
-Maevra snorts once.
-
-**MAEVRA:** Very wrong man.
-
-The tension remains; nobody turns the moment into a lecture about the ruin.
-
-Scene ends.
-
----
-
-### [GAMEPLAY HANDOFF — LOWER JUNCTION]
-
-**Player control returns.**
-
-Current objective:
-
-**Enter the lower junction.**
-
-Story state:
-- sustained Black Host excavation is established by the dungeon itself rather than a chain of prop inspections;
-- the route has transitioned from later Yahtrean construction into older Diysean structure;
-- ordinary Black Host enemies and Diysean Sentries remain random encounters;
-- the deeper ruin is clearly active without a scripted Sentry activation scene;
-- the Black Host's work stops abruptly near the lower junction;
-- nobody identifies the ruin's original purpose or the Host's ultimate target;
-- no map rubbing, mural, six-channel human-use clue, Junction significance, Prime explanation, bearer confirmation, or ancient-network explanation has occurred;
-- Cyanis carries the intact Card and it remains inert.
-
-Traveling group: **Cyanis + Ilyra + Maevra + Torren**  
-Combat party: **Cyanis + Ilyra + Torren**
-
-Torren remains a temporary combat ally.
-
-Next mandatory story beat: **Beat 7 — Lower Junction / Six Channels.**
-
----
-
-## Person-Brain performance note
-
-- the scene remains environment-led, but the triggered exchanges are now real judgments rather than four clipped captions.
-- Maevra speaks in operational pattern; Torren in material/route evidence; Ilyra in consequence and uncertainty; Cyanis in synthesis/questions.
-- Torren is not granted Ancient expertise: he can read construction relationships because they are physical field evidence, not because he knows the ruin's purpose.
-- nobody recites visible forcing work or invents a Black Host motive.
 
 ---
 
 ## Beat 7
 
 **Atomic source:** `BEAT_07_LOWER_JUNCTION_SIX_CHANNELS_DRAFT_A.md`  
-**Source SHA-256:** `d58a02f69aa449aded9fd08052f5d22c1c17f745f81f0acfabcc2e0dbb9379af`
+**Source SHA-256:** `7bfb4ec35afe2adc4bbcd5e2eee0680b0b3df04af93905bde862d13e2b71c8d0`
 
 # Chapter 1 — Beat 7
 # Lower Junction / Six Channels
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
----
+## [STORY TRIGGER — SIX-CHANNEL JUNCTION]
 
-### [GAMEPLAY — LOWER JUNCTION]
+The party enters a circular Diysean junction.
 
-**Player control is active.**
+Six architectural channels meet here.
 
-The player enters the circular lower junction through normal dungeon traversal.
+Five are collapsed and inaccessible from ancient structural failure. Only one channel remains open.
 
-During ordinary exploration, **Cyanis is the only visible party field character**.
+A surviving relief band shows ordinary people moving through the passage system: adults, children, handcarts, animals, and injured people carried on litters. The imagery suggests movement through the passages in more than one direction.
 
-Ilyra, Torren, and Maevra remain present in story state and may appear when a scene triggers.
+The room is allowed to land visually before anyone speaks.
 
-The chamber's required visual information is simple and important:
-- six damaged channel mouths meet here;
-- one surviving relief band shows ordinary people using the passages;
-- adults, children, handcarts, animals, and people carried on litters are represented;
-- some figures move toward passages and others away from them.
-
-The player gets that image before anyone speaks.
-
-The Card remains inert.
-
-No geographic map, falling-fire imagery, Junction monument, written explanation, or additional clue sequence appears here.
-
----
-
-### [STORY TRIGGER — HUMAN-USE RELIEF]
-
-**Player control pauses.**
-
-The relevant characters may appear as simple field models in the chamber. Portraits and the dialogue box carry the conversation.
-
-The relief supplies the visible inventory. The cast speaks only to what it implies.
-
-Ilyra studies the people rather than the architecture first.
-
-**ILYRA:** Not military traffic. Too many ordinary people, too much movement built around carrying people who couldn't move themselves.
+Cyanis looks across the surviving imagery.
 
 **CYANIS:** Evacuation?
 
-Torren follows the direction of the figures rather than accepting the first label.
+Torren does not answer immediately.
 
-**TORREN:** Maybe. But they're moving both ways through all six. If everybody was just fleeing one danger, I'd expect more of one direction and less coming back.
+**TORREN:** Maybe. They're moving both ways. Could've been people getting out, moving between places, sheltering. Relief doesn't tell us which.
 
-**MAEVRA:** Unless different groups were moving at different times.
+Ilyra studies the figures on litters.
 
-**TORREN:** Could be.
+**ILYRA:** But they expected people who couldn't move on their own.
 
-**ILYRA:** Shelter, then?
+Maevra takes in the scale of it.
 
-**TORREN:** Could be that too.
+**MAEVRA:** And a lot of them. That's enough for now.
 
-Cyanis looks at him.
+No one tries to solve the structure's original purpose.
 
-**CYANIS:** You're enjoying saying `could be`.
+The Card remains inert.
 
-**TORREN:** No. I'm enjoying not making shit up.
+## [GAMEPLAY — SOLE SURVIVING CHANNEL]
 
-Maevra smiles slightly.
+Player control resumes.
 
-**MAEVRA:** That's one of his more lovable qualities.
+There is no route choice.
 
-**TORREN:** Don't start.
+Five channels remain collapsed and inaccessible. The party continues through the only surviving channel.
 
-Ilyra looks over the band again.
+No one suggests the Black Host tried the collapsed routes.
 
-**ILYRA:** Whatever the exact reason, civilians used this place in numbers. That much I'm comfortable saying.
+No additional junction conversation occurs.
 
-**MAEVRA:** Same.
+## [GAMEPLAY HANDOFF]
 
-Cyanis looks at the six openings around the chamber.
+**Objective: Follow the surviving channel deeper into the structure.**
 
-**CYANIS:** Which still leaves us with six ways to be wrong.
+Known:
+- the junction was built with six channels;
+- five are ancient collapses and inaccessible;
+- one channel remains usable;
+- the surviving relief shows substantial use by ordinary people, including children, animals, handcarts, and injured people on litters;
+- movement may have occurred in more than one direction;
+- the exact function of the structure remains unknown;
+- the party does not know whether it served evacuation, transit, shelter, or some combination;
+- the Card remains inert.
 
-**TORREN:** Five. Host already picked one for us.
-
-That is enough. Nobody names the ancient system or settles what the passages were for.
-
-The scene ends.
-
----
-
-### [GAMEPLAY — JUNCTION]
-
-**Player control returns.**
-
-Normal Cyanis-only dungeon traversal resumes.
-
-The player can move through the chamber and identify the Black Host route onward through the existing area design.
-
-The dialogue script does not add machinery, loose props, extra rooms, additional carvings, or a chain of separate inspections.
-
-No walking dialogue is used.
+Next mandatory section:
+**Surviving Channel / Forced Inner Route**
 
 ---
-
-### [STORY TRIGGER — ROUTE ONWARD]
-
-At the channel carrying the Black Host breach farther inward, movement pauses and the relevant characters may appear again.
-
-Cyanis looks across the damage around the nearby channel mouths.
-
-**CYANIS:** They tried the others first.
-
-Maevra reads the practical result.
-
-**MAEVRA:** This one worked well enough to keep investing in.
-
-Torren looks at the route beyond.
-
-**TORREN:** Or badly enough that they got stubborn. Either way, it's the one with their traffic through it.
-
-**ILYRA:** And whatever made them stop is farther in.
-
-Torren glances at her.
-
-**TORREN:** Maybe.
-
-Ilyra gives him a look.
-
-**TORREN:** Sorry. Couldn't resist that one.
-
-It is one of the first times he has plainly teased her rather than merely answered a question.
-
-**ILYRA:** I noticed.
-
-**CYANIS:** Growth.
-
-**MAEVRA:** Tragic, really.
-
-**TORREN:** Are we going?
-
-**CYANIS:** Yeah. Carefully.
-
-Scene ends.
-
----
-
-### [GAMEPLAY HANDOFF — FORCED INNER SECTION]
-
-**Player control returns.**
-
-Current objective:
-
-**Follow the Black Host breach into the protected inner section.**
-
-Story state:
-- the party has found one circular Diysean junction with six damaged channels;
-- the required relief shows adults, children, handcarts, animals, and people on litters using the passages;
-- the imagery shows movement both toward and away from openings;
-- the party can tell the structure saw substantial civilian use, but does not resolve whether that use was evacuation, transit, shelter, or some combination;
-- the room is not a geographic map and does not spend the later mural payoff;
-- the Black Host route continues through one damaged channel;
-- Cyanis carries the intact Card directly and it remains inert;
-- nobody identifies the ancient system or its purpose.
-
-Traveling group: **Cyanis + Ilyra + Maevra + Torren**  
-Combat party: **Cyanis + Ilyra + Torren**
-
-Torren remains a temporary combat ally.
-
-Next mandatory story beat: **Beat 8 — Forced Inner Section.**
-
----
-
-## Person-Brain performance note
-
-- the relief remains visual-first; no one verbally catalogs children, carts, animals, and litters after the player sees them.
-- the conversation now behaves like an actual inference dispute: Cyanis offers `evacuation`, Torren challenges the directional evidence, Maevra offers an alternate explanation, and Ilyra settles only the part the image actually supports.
-- Torren's resistance to overclaiming comes through personality and humor rather than a neutral exposition disclaimer.
-- the route-onward exchange allows a tiny amount of relationship growth without forcing later Cyanis/Torren sharpness too early.
 
 ---
 
 ## Beat 8
 
 **Atomic source:** `BEAT_08_FORCED_INNER_SECTION_DRAFT_A.md`  
-**Source SHA-256:** `9c020f7de3a8d7bdf92c772a7a9341fa91aa61609083c8766fd101f5a30b3821`
+**Source SHA-256:** `d06e943d2f1078df48df054d60a807bbc25baa7cf259bc4d2c1972b70820f727`
 
 # Chapter 1 — Beat 8
-# Forced Inner Section
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+# Surviving Channel / Forced Inner Route
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
----
+## [GAMEPLAY — SOLE SURVIVING CHANNEL]
 
-### [GAMEPLAY — FORCED INNER SECTION]
+Player control is active.
 
-**Player control is active.**
+The party follows the only surviving channel out of the Six-Channel Junction.
 
-This is hostile dungeon traversal.
+There is no route choice and no walking exposition.
 
-During ordinary movement, **Cyanis is the only visible party field character**.
+The Diysean construction becomes increasingly intact as the party moves deeper.
 
-Ilyra, Torren, and Maevra remain present in story state and may appear when a story scene triggers.
+Ordinary Black Host personnel and Diysean defenses remain random encounters.
 
-Nobody knows this route well enough to guide it, so there is **no walking dialogue**.
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-Combat party: **Cyanis + Ilyra + Torren**.  
-Maevra remains a non-combat traveling companion.  
-Cyanis carries the intact Card itself; it remains inert.
+Maevra remains with the group but does not participate in combat.
 
-Ordinary Black Host holdouts and Diysean defenses are **random encounters**.
+## [BRIEF REACTION — FORCED BREACH]
 
-The existing inner-ruin area carries the required visual transition: a more protected Diysean layer has been breached and Black Host forcing damage continues inward.
+The surviving channel reaches an intact protected access that the Black Host was unable to open normally.
 
-No extra machinery set piece, barricade sequence, aid station, or prop trail is authored.
+Instead, the Host broke through weaker surrounding construction beside it.
 
----
+The party does not stop for a full investigation.
 
-### [STORY TRIGGER — FORCED DOOR]
+**CYANIS:** Couldn't open it.
 
-At the established damaged doorway/breach, player movement pauses.
-
-The relevant characters may appear as simple field models. The broken access itself is the only visual this exchange needs.
-
-Cyanis looks at the intact sealed portion, then the ugly damage beside it.
-
-**CYANIS:** They didn't open it.
-
-**MAEVRA:** No. They accepted losing the argument with the door and started one with the wall.
-
-Torren studies the bypass.
-
-**TORREN:** Went around the frame where the older stone meets the later repair. Weakest part they could actually reach.
+**TORREN:** No. Door's still intact. They broke through the weaker stone around it.
 
 **ILYRA:** Subtle.
 
 **MAEVRA:** Worked.
 
-Cyanis looks through the breach.
+The party continues immediately.
 
-**CYANIS:** That's the problem. Somebody willing to spend this much time getting around a locked door usually thinks the room on the other side matters.
+## [GAMEPLAY — PROTECTED INNER SECTION]
 
-**TORREN:** Or somebody ordered them not to come back without trying.
+Beyond the breach, the architecture becomes cleaner and substantially more intact.
 
-**MAEVRA:** Still not the same thing.
+Signs of successful Black Host forcing become less frequent.
 
-**CYANIS:** No. Either one makes me want to know what stopped them.
+Diysean defenses remain active through ordinary random encounters.
 
-**ILYRA:** Preferably before it tries to stop us.
+There is no Card reaction here.
 
-**TORREN:** Good preference.
+No one identifies what this inner section protects.
 
-Scene ends.
+No one explains why the defenses are active.
 
----
+There is no additional authored dialogue stop.
 
-### [GAMEPLAY — INNER PUSH]
+## [CASTELLAN CHAMBER APPROACH]
 
-**Player control returns.**
+The inner route opens directly into a large intact chamber.
 
-Cyanis-only dungeon traversal continues.
+There is no threshold conversation, no Card-status check, and no pre-boss banter.
 
-Random encounters remain active. Encounter authority may escalate stronger Diysean defenses here, but the dialogue script does not place or trigger them.
+The party enters.
 
-The Card remains inert.
+## [GAMEPLAY HANDOFF]
 
-No mural appears.  
-No geographic map appears.  
-No falling-fire imagery appears.  
-No Junction monument appears.  
-No ancient-system explanation occurs.
+**Beat 9 — Hollow Watch Castellan** begins as the chamber responds to Cyanis crossing into the protected space.
 
-No dialogue is used during ordinary traversal.
-
-There is no mandatory post-random-encounter banter here. Hollow Watch has already had enough party chatter, and Cyanis/Torren's sharper personal banter is intentionally allowed to develop later rather than being declared immediately after Torren joins the operation.
-
----
-
-### [GAMEPLAY — FINAL INNER PUSH]
-
-**Player control continues.**
-
-Cyanis remains the sole visible traversal character.
-
-The Black Host route reaches a substantially more intact chamber and stops there.
-
-That is the only progression fact the scene needs. Do not stack additional lamps-ending, damage-pattern, machinery, track, or debris clues to reinforce it.
-
-Random encounters remain the only ordinary combat presentation.
+Known:
+- the Black Host could not open the protected access normally;
+- they forced entry through weaker surrounding construction;
+- the deeper layer is considerably more intact;
+- ancient defenses remain active;
+- the party still does not know what this section protects;
+- the Card has not reacted during Beat 8.
 
 ---
-
-### [THRESHOLD SCENE — CASTELLAN CHAMBER]
-
-At the chamber entrance, movement pauses and the relevant characters may appear as field models.
-
-A large ancient shape is integrated into the far architecture.
-
-Do not identify it yet.
-
-Nobody crosses the threshold immediately.
-
-**CYANIS:** This where they stopped?
-
-Torren looks at the end of the Host damage and the intact space ahead.
-
-**TORREN:** Looks like. No forcing past this point that I can see.
-
-**ILYRA:** Anything moving?
-
-A beat.
-
-Cyanis watches the integrated shape.
-
-**CYANIS:** Not yet.
-
-Maevra looks at the room rather than the object alone.
-
-**MAEVRA:** Then use the gift. Catch your breath, check yourselves, and get ready before `not yet` expires.
-
-Cyanis rolls one shoulder, checks himself, then looks at Ilyra before she can ask.
-
-**CYANIS:** No dizziness. No numbness. Nothing strange from the Card.
-
-Ilyra gives him a brief approving look.
-
-**ILYRA:** Look at that. Saved me two questions.
-
-Torren glances at them.
-
-**TORREN:** This a normal conversation now?
-
-**CYANIS:** Apparently.
-
-**CYANIS:** I'm very trainable.
-
-**TORREN:** Doubt it.
-
-Cyanis looks at him.
-
-**CYANIS:** You met me this morning.
-
-**TORREN:** Enough data.
-
-Maevra laughs under her breath.
-
-**MAEVRA:** Oh, this is going to get worse.
-
-**CYANIS:** For whom?
-
-**MAEVRA:** Yes.
-
-The humor stops when attention returns to the chamber.
-
-**TORREN:** Ready when you are.
-
-**CYANIS:** Let's find out what `not yet` means.
-
-Scene ends.
-
-No bow drawing, arrow nocking, Wardrod adjustment, shield-ready choreography, floor testing, formation blocking, or other pre-boss micro-animation is required.
-
----
-
-### [GAMEPLAY HANDOFF — HOLLOW WATCH CASTELLAN]
-
-**Player control returns at the chamber threshold.**
-
-Current objective:
-
-**Enter the protected chamber.**
-
-Story state:
-- the Black Host forced entry into a more protected Diysean layer;
-- ordinary Black Host and Diysean-defense enemies remain random encounters;
-- the Host route ends at the intact Castellan chamber;
-- the integrated far structure has not yet activated or been identified;
-- Cyanis carries the intact Card and it remains inert throughout Beat 8;
-- no mural, geography, falling-fire imagery, Junction significance, Prime explanation, bearer confirmation, or ancient-network explanation appears.
-
-Traveling group: **Cyanis + Ilyra + Maevra + Torren**  
-Combat party: **Cyanis + Ilyra + Torren**
-
-Torren remains a temporary combat ally.
-
-Next mandatory story beat: **Beat 9 — Hollow Watch Castellan.**
-
----
-
-## Person-Brain performance note
-
-- the forced-door scene now sounds like four people interpreting the same physical problem from different habits without overexplaining the visible breach.
-- Maevra can make a dry metaphor, Torren reads the material relationship, Ilyra anticipates consequence, and Cyanis follows the motive question without pretending to resolve it.
-- the threshold scene gives the group a human pre-boss breath without adding movement choreography or early deep friendship.
-- Cyanis now volunteers the familiar Card-status information himself before Ilyra has to run another routine checklist, showing learned continuity while keeping Ilyra's medical role available when a real change actually occurs.
 
 ---
 
 ## Beat 9
 
 **Atomic source:** `BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md`  
-**Source SHA-256:** `1e751dabd3966825bb2545c1b2e8d09ceadcaa3061550f34f73077cab6f6fc7e`
+**Source SHA-256:** `443defa391b41d42f359e3786078cad4d5994f5cdf14e0579b5eb019c8a18cd8`
 
 # Chapter 1 — Beat 9
 # Hollow Watch Castellan
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS + ILYRA ROLE-BALANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
----
+## [STORY TRIGGER — CHAMBER ACTIVATION]
 
-### [GAMEPLAY — CASTELLAN CHAMBER]
+The party enters the intact chamber.
 
-**Player control is active.**
+Cyanis crosses a fitted line in the floor.
 
-Cyanis enters the intact chamber from the threshold established in Beat 8.
+Green-gold geometry wakes beneath him and races outward through the chamber.
 
-During this brief ordinary movement, Cyanis is the only visible party field character.
+The Card answers with the same green-gold light.
 
-The large ancient assembly remains integrated into the far architecture.
-
-Cyanis carries the intact Card itself.
-
----
-
-### [STORY TRIGGER — CASTELLAN ACTIVATION]
-
-When Cyanis crosses the required fitted floor line, movement pauses and the authored scene triggers.
-
-The relevant characters may appear as simple field models. Portraits and the dialogue box carry the spoken exchange.
-
-A green-gold seam lights beneath Cyanis and runs toward the integrated structure.
+The ancient assembly integrated into the far architecture begins to move.
 
 **ILYRA:** Cyanis.
 
-**CYANIS:** Yeah. Nothing in me yet—no dizziness, no numbness. I know the list.
+**CYANIS:** I know.
 
-**ILYRA:** Good. Hate that you know the list.
+Torren looks toward the route behind them.
 
-**CYANIS:** Me too.
+**TORREN:** Back out?
 
-The ancient assembly begins to move.
+The movement in the chamber accelerates.
 
-Torren looks back toward the threshold.
+Maevra answers before anyone wastes time testing it.
 
-**TORREN:** We backing out?
+**MAEVRA:** Too late. Deal with what's waking up.
 
-A beat.
-
-Maevra reads the door/activation timing and the movement already underway.
-
-**MAEVRA:** Too late for clean. If we run now, we find out whether it follows us into the narrow part.
-
-**CYANIS:** Don't love that experiment.
-
-The assembly unfolds enough to reveal the Hollow Watch Castellan as a defense construct.
-
-**TORREN:** Then stay here and kill it.
-
-**ILYRA:** Preferably before we learn anything else about the room.
-
-**MAEVRA:** Go.
-
-**BOSS COMBAT BEGINS — HOLLOW WATCH CASTELLAN.**
-
-When battle presentation takes over, Maevra is not a combat participant.
-
-No extra pre-battle weapon-drawing, formation movement, shield choreography, or camera sequence is required beyond the Castellan's activation itself.
-
----
-
-### [BOSS COMBAT — INTEGRATED STATE]
-
-Combat party: **Cyanis + Ilyra + Torren**.
-
-The Castellan begins partially integrated into the chamber architecture.
-
-Encounter authority owns exact mechanics, attacks, targeting, timing, and tuning.
-
-This is an authored boss encounter and is therefore an explicit exception to the ordinary random-encounter rule.
-
-The Card does not speak, open, manifest a Prime, reveal a Face, identify Cyanis, or provide explanatory text.
-
----
-
-### [MID-BATTLE TRANSITION — TEARS FREE]
-
-At the encounter-authorized transition point, the Castellan tears free from the structure and becomes fully mobile.
-
-This is boss animation owned by the encounter itself.
-
-It does **not** heal.  
-It does **not** receive a second HP bar.
-
-Combat continues on the same health bar.
-
-The following dialogue is **speech-only** over active battle:
-
-**TORREN:** It's coming off the wall.
-
-**CYANIS:** I can see that.
-
-**ILYRA:** Then stop standing where the wall used to hold it.
-
-**CYANIS:** Insightful.
-
-**ILYRA:** I'm full of wisdom. Move.
-
-**CYANIS:** Moving.
-
-**TORREN:** Trainable.
-
-**CYANIS:** Shut up, Harth.
-
-Combat continues immediately.
-
-The dialogue layer adds no locomotion, dodges, repositioning, gestures, formation changes, or camera cutaways.
-
----
-
-### [BOSS COMBAT — MOBILE STATE]
-
-The same Castellan now fights fully mobile.
-
-Encounter authority owns the mechanical changes.
-
-The party defeats it through normal boss combat.
-
----
-
-### [STORY TRIGGER — POST-BOSS]
-
-After victory, normal field/story presentation returns and the relevant characters may appear in the chamber.
-
-Portraits and the dialogue box carry the conversation.
-
-A beat.
-
-Torren watches the inert construct rather than immediately relaxing.
-
-**TORREN:** Think that's done.
-
-**CYANIS:** Think?
-
-**TORREN:** Want certainty, go kick it.
-
-**CYANIS:** No.
-
-A beat.
-
-**CYANIS:** Strongly no.
-
-Before Ilyra can say anything, Cyanis lifts a hand.
-
-**CYANIS:** And before you ask: no dizziness, no numbness, no strange Card feeling. Heart's fast because we just fought a wall that learned to walk.
-
-Ilyra looks at him.
-
-**ILYRA:** I wasn't going to ask all three at once.
-
-**CYANIS:** Growth.
-
-**ILYRA:** Fuck off.
-
-Torren looks at the Castellan.
-
-**TORREN:** Wall fought back.
-
-**CYANIS:** Thank you for preserving the important part.
-
-**ILYRA:** He's very committed to the record.
-
-**TORREN:** Somebody has to be.
-
-Maevra's attention shifts to the green-gold seam that activated when they entered.
-
-Cyanis notices where she's looking.
-
-**CYANIS:** Don't.
-
-**MAEVRA:** I didn't say anything.
-
-**CYANIS:** You were assembling a question.
-
-**MAEVRA:** Several.
-
-**CYANIS:** Worse.
-
-**MAEVRA:** Fine. First one only. Did the Card do anything you could feel before that seam lit?
-
-Cyanis answers for himself.
-
-**CYANIS:** No.
-
-Ilyra adds only what she personally observed.
-
-**ILYRA:** I didn't see the same physical response as Brackenwall or the convoy either. That's all I've got.
-
-Maevra nods.
-
-**MAEVRA:** Then that's all we write down.
-
-Torren looks toward the chamber entrance, then at the dead construct.
-
-**TORREN:** Host got here first.
-
-**ILYRA:** Not through it.
-
-**TORREN:** No. Which means whatever's behind it is the first thing down here they didn't get to paw through.
-
-**CYANIS:** Finally, good news.
-
-**MAEVRA:** You have a dangerous definition of good news.
-
-**ILYRA:** At this point I think his standards are just collapsing in real time.
-
-**CYANIS:** It's been a difficult week.
-
-Nobody explains why the Castellan activated.
-
----
-
-### [PROTECTED ACCESS]
-
-With the Castellan defeated, the short protected passage it physically obstructed is visible beyond the chamber.
-
-No additional mechanism opens. No treasure-door or machinery sequence is added.
-
-Cyanis looks through the newly exposed route.
-
-**CYANIS:** They never made it past this room.
-
-**MAEVRA:** No. Which means whatever we find next is ours to misunderstand first.
-
-Torren gives her a look.
-
-**TORREN:** Inspiring.
-
-**MAEVRA:** Accurate.
-
-Ilyra looks down the protected passage.
-
-**ILYRA:** After you.
-
-**CYANIS:** Very generous.
-
-**ILYRA:** You have the shield.
+The integrated construct pulls itself into an active state.
 
 **CYANIS:** Right.
 
-Torren falls into the same old dry cadence.
+**TORREN:** Move.
 
-**TORREN:** Trainable.
+**BOSS BATTLE — HOLLOW WATCH CASTELLAN**
 
-Cyanis looks back at him.
+Maevra does not participate in combat.
 
-**CYANIS:** That's twice. You're getting comfortable.
+## [BOSS — INTEGRATED STATE]
 
-**TORREN:** Maybe.
+The Castellan begins the fight partially integrated into the chamber.
 
-**CYANIS:** Oh, fuck you.
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-Maevra laughs outright this time.
+The Card does not speak, identify Cyanis, reveal a Face, manifest a Prime, or explain the activation.
 
-Ilyra does too.
+## [MID-BATTLE TRANSITION]
 
-Scene ends.
+At the encounter-authorized transition point, the Castellan tears free from the architecture and becomes fully mobile.
+
+It remains the same boss:
+- same HP bar;
+- no healing;
+- no reset.
+
+A single speech-only reaction may accompany the transition:
+
+**TORREN:** It's loose.
+
+**CYANIS:** Yeah.
+
+**ILYRA:** Then move.
+
+Combat continues immediately.
+
+## [BOSS — MOBILE STATE]
+
+The party defeats the Castellan.
+
+## [STORY TRIGGER — AFTERMATH]
+
+The construct goes inert.
+
+For a few seconds, nobody speaks.
+
+Ilyra looks at Cyanis.
+
+**ILYRA:** You?
+
+Cyanis takes a moment before answering.
+
+**CYANIS:** Fine. Nothing like Brackenwall.
+
+Maevra looks at the now-dark floor geometry.
+
+**MAEVRA:** Before it woke?
+
+**CYANIS:** Nothing I felt.
+
+Ilyra adds only what she actually observed.
+
+**ILYRA:** I didn't see the same physical reaction either.
+
+Maevra nods.
+
+**MAEVRA:** Then that's all we know.
+
+Torren looks past the fallen Castellan.
+
+**TORREN:** There's a way through.
+
+The boss had been physically blocking a short protected passage beyond the chamber.
+
+Cyanis looks toward it.
+
+**CYANIS:** Let's see what's past it.
+
+No one explains why the Castellan activated.
+
+## [GAMEPLAY HANDOFF]
+
+Player control returns.
+
+The protected passage beyond the Castellan is now accessible.
+
+The route is short and leads directly to the next discovery area.
+
+Known:
+- the chamber responded when Cyanis crossed the fitted boundary while carrying the Card;
+- the audience can see the timing relationship between the Card and the activation;
+- the party cannot explain the mechanism;
+- the Castellan changed from integrated to mobile form on the same HP bar;
+- Maevra did not participate in combat;
+- the Black Host did not get through the Castellan;
+- the protected passage beyond it is now accessible.
+
+Next mandatory scene:
+**Post-Castellan Mural**
 
 ---
-
-### [GAMEPLAY HANDOFF — POST-CASTELLAN MURAL]
-
-**Player control returns.**
-
-Cyanis is again the sole visible traversal character as the player enters the short protected passage.
-
-Current objective:
-
-**Enter the protected discovery area beyond the Castellan chamber.**
-
-Story state:
-- the Hollow Watch Castellan is defeated;
-- the audience sees the timing connection between Cyanis carrying the Card, crossing the fitted line, and the chamber activating, but the characters do not know or explain the mechanism;
-- the Castellan transitions from integrated to mobile on the same HP bar;
-- mid-battle dialogue remains speech-only;
-- Maevra never participates in battle;
-- the boss's defeat exposes the protected route it blocked;
-- the Black Host did not reach the protected discovery area;
-- the mural remains entirely Beat 10;
-- Cyanis carries the intact Card directly;
-- no Prime, Last Sentinel, bearer, authorization, ancient-network, or Entity explanation is revealed.
-
-Traveling group: **Cyanis + Ilyra + Maevra + Torren**  
-Combat party: **Cyanis + Ilyra + Torren**
-
-Torren remains a temporary combat ally until the later recruitment beat.
-
-Next mandatory story beat: **Beat 10 — Post-Castellan Mural.**
-
----
-
-## Person-Brain performance note
-
-- Card-response monitoring remains real continuity, but Cyanis has learned enough to volunteer his own state instead of requiring Ilyra to administer a symptom checklist every time something ancient lights up.
-- Ilyra's mid-battle advice is treated as ordinary combat awareness rather than another medical joke.
-- post-boss Ilyra gets profanity, teasing, curiosity, and group banter in addition to one bounded observational contribution about the Card response.
-- Maevra is allowed one focused question about the activation rather than silently staring or launching into theory.
-- Cyanis/Torren's sharper teasing begins to emerge from a repeated live callback (`trainable`) but remains lighter than the later Character-Life insults.
-- the scene still refuses to explain why the Castellan activated or promote timing into causation.
 
 ---
 
 ## Beat 10
 
 **Atomic source:** `BEAT_10_POST_CASTELLAN_MURAL_DRAFT_A.md`  
-**Source SHA-256:** `d6fcc2cf043aadfbb9507621523659d32acb2770b8d8de4d65270fbf6333e89d`
+**Source SHA-256:** `11a8611d3c8eadb3ce34c0c974f9d7ae920f3f6e89426182ac6503cfcbcda07b`
 
 # Chapter 1 — Beat 10
 # Post-Castellan Mural
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
----
+## [STORY TRIGGER — PROTECTED MURAL]
 
-### [GAMEPLAY — PROTECTED ACCESS]
+The short protected passage beyond the Castellan opens into a mural chamber.
 
-**Player control is active.**
+The mural is allowed to land before anyone speaks.
 
-Cyanis is the only visible party field character during the short protected-passage traversal beyond the defeated Castellan.
+It depicts:
+- fire falling from the sky across the region;
+- ordinary people moving toward and down into multiple deep entrances;
+- recognizable regional geography;
+- Hollow Watch;
+- farther south, the crossroads Torren knows as the Junction;
+- a prominent ancient structure standing at that crossroads that does not exist visibly in the present day.
 
-There is no walking dialogue.
+A long beat.
 
-Cyanis carries the intact Card itself. It remains inert.
+**ILYRA:** Same kind of movement as downstairs. More places.
 
-The passage opens into the protected mural chamber.
+**MAEVRA:** So it wasn't local.
 
----
-
-### [STORY TRIGGER — THE MURAL]
-
-At the mural viewing point, movement pauses.
-
-The relevant characters may appear as simple field models. Portraits and the dialogue box carry the conversation.
-
-The mural is the one major visual asset for this beat.
-
-It shows recognizable regional geography, balls of fire falling toward the land, and groups of ordinary people descending into deep openings at several locations. Adults, children, handcarts, animals, and people carried on litters are represented.
-
-Farther south, multiple old roads converge at a crossroads. A large stone monument is prominently depicted at the center of that convergence.
-
-The monument is clearly important, but no crowd descends beneath it and no deep opening is shown there.
-
-The player gets the mural before anyone speaks.
-
-A beat.
-
-Ilyra recognizes the human pattern before the geography.
-
-**ILYRA:** Same kind of movement as downstairs. But this isn't one room serving one place. It's happening across the whole picture.
-
-Cyanis looks toward the falling-fire imagery.
-
-**CYANIS:** And all of them are heading underground while that comes out of the sky. Nothing good has ever been painted falling like that.
-
-**MAEVRA:** Whatever happened, it wasn't local.
-
-Torren is no longer following their part of the conversation. He has moved mentally into the landforms.
+Torren has stopped listening to the rest of the room.
 
 **TORREN:** Wait.
 
-Nobody interrupts him.
+He studies the terrain.
 
 **TORREN:** That's Hollow Watch.
 
-**CYANIS:** Here?
+Cyanis looks at him.
 
-**TORREN:** Yeah. Ridge hooks north here, high ground breaks west, same drainage cut under it. Simplified, but that's the place. And if that's Hollow Watch, then these aren't decorative hills somebody invented to frame the story. They're using real ground.
+**CYANIS:** You're sure?
 
-Maevra studies the mural differently now.
+**TORREN:** Yeah. Ridge, slope, the break west of it. It's simplified, but that's this ground.
 
-**MAEVRA:** So we're looking at geography carrying whatever happened.
+That changes the mural.
 
-**TORREN:** Looks like it.
+**MAEVRA:** Then the rest may be real too.
 
-**CYANIS:** Cheerful geography.
-
-Nobody answers that.
-
-### [THE DESCENTS]
-
-The group takes in the mural as a whole. The mural itself already establishes the many openings and civilian-scale movement, so nobody repeats the inventory from the lower junction.
-
-Torren keeps following the terrain relationships.
-
-**TORREN:** Scale's rough. That's the problem. I can match ridges and rivers enough to place things, but I can't tell whether those openings are a few hundred yards apart or whole days of travel. Whoever made this cared more about relationships than giving me a route I can walk.
-
-**MAEVRA:** Still enough to tell us Hollow Watch wasn't unique.
-
-**TORREN:** Yes. That part I'd put money on.
-
-Ilyra looks toward the repeated descents.
-
-**ILYRA:** And the people aren't all moving the same way here either.
-
-**CYANIS:** So we're still not allowed to call it evacuation.
-
-**TORREN:** You can call it whatever you want. I'll keep saying we don't know.
-
-**CYANIS:** You're very committed to ruining useful words.
-
-**TORREN:** Useful lies are still lies.
-
-Maevra glances at him.
-
-**MAEVRA:** That's almost noble.
-
-**TORREN:** Don't tell anyone.
-
-They leave the implication there.
-
-### [THE JUNCTION]
-
-Torren's attention catches farther south.
-
-He leans into the recognition before speaking.
-
-**TORREN:** Huh.
-
-**CYANIS:** Good `huh` or bad `huh`?
-
-**TORREN:** Familiar `huh`. That's the Junction.
-
-**CYANIS:** You know it.
-
-**TORREN:** Yeah. Old roads meet there. Newer roads shifted around them, but the ground still funnels traffic through the same basin. I've crossed it more times than I can count—east-west runs, north detours, once in winter because Maevra insisted the southern line would save half a day.
-
-**MAEVRA:** It would've.
-
-**TORREN:** If the snow hadn't buried the marker stones.
-
-**MAEVRA:** Weather is not a moral argument.
-
-**TORREN:** Felt moral at the time.
-
-Cyanis looks between them.
-
-**CYANIS:** Did you save the half day?
-
-**TORREN:** Lost two.
-
-**MAEVRA:** Learned something.
-
-**TORREN:** That you shouldn't choose winter routes.
-
-**MAEVRA:** That you complain longer than storms last.
-
-Ilyra is studying the monument depicted at the center while they bicker.
-
-**ILYRA:** And that stone?
-
-That stops the old argument immediately.
-
-Torren looks at the depicted monument.
+Torren follows the geography south.
 
 A beat.
 
-**TORREN:** Never seen it.
+**TORREN:** Fuck.
 
-**CYANIS:** That's hard to miss.
+**ILYRA:** What?
 
-Torren gives him a look.
-
-**TORREN:** Exactly. A stone monument that size in the middle of a crossroads I use for work? I'd remember.
-
-He studies the mural again.
-
-**TORREN:** I know the ground. I know the modern markers, drainage, where the roads pinch together, where wagons camp when weather gets bad. I do not know that thing.
-
-Maevra looks at how prominently the monument is rendered.
-
-**MAEVRA:** They made it important enough that it wasn't background.
-
-Cyanis follows the human movement around it.
-
-**CYANIS:** But nobody's going down through it.
-
-**TORREN:** No. Different from the descents. Whatever it was, don't make it another entrance just because it's big and mysterious.
-
-**ILYRA:** Good rule generally.
-
-Nobody gives the monument a name or function.
-
-### [THE FIRE]
-
-Cyanis looks back toward the falling-fire imagery.
-
-**CYANIS:** Any chance that's rain?
-
-Torren looks at him.
-
-**TORREN:** Flaming rain?
-
-**CYANIS:** Bad rain.
-
-**ILYRA:** Extremely bad rain.
-
-Maevra actually laughs once, then looks back toward the chamber they came through.
-
-**MAEVRA:** Host never saw any of this. They stopped one room short.
-
-The humor disappears.
+**TORREN:** The Junction. Same basin, same road convergence. I know that ground.
 
 A beat.
 
-**CYANIS:** Which means whatever they thought they were digging toward, they didn't get this answer.
+**TORREN:** I don't know that.
 
-**MAEVRA:** Assuming this would've answered their question.
+His attention is fixed on the prominent structure depicted at the crossroads.
 
-**CYANIS:** That's true.
+**MAEVRA:** You've never seen it?
 
-Nobody fills the next silence.
+**TORREN:** No. Could be gone, could be buried, could be the picture's wrong about the size. But if something like that were standing there now, I wouldn't have missed it.
 
-### [PRACTICAL DECISION]
+A brief silence.
 
-Maevra returns to the question she can actually act on.
+**MAEVRA:** We're already going south.
 
-**MAEVRA:** Is the Junction close enough to our south route to check without turning this into another expedition?
+**TORREN:** Junction's close enough to the route.
 
-Torren thinks through the modern road rather than answering reflexively.
+**MAEVRA:** Then we look when we get there.
 
-**TORREN:** Near enough. We'd pass west of it on the Dunmere line anyway. Detour costs us maybe an hour if the ground is decent, two if it isn't. More if we start doing something stupid after we get there.
+**TORREN:** Yeah. Until then, it's something that should be there and isn't.
 
-**CYANIS:** Define stupid.
+**CYANIS:** I'll take that.
 
-**TORREN:** Digging. Moving anything heavy. Deciding a missing ancient monument is an invitation to crawl into the first hole nearby.
+The scene ends on the mural.
 
-**CYANIS:** Very specific.
+## [TRANSITION — GREENHOLLOW]
 
-**TORREN:** I've traveled with people.
+Hollow Watch is finished.
 
-Maevra glances at him.
+There is no playable backtrack through the ruin, no overlook resolution scene, and no second discussion of the Junction.
 
-**MAEVRA:** Mostly me.
+The game transitions directly back to Greenhollow.
 
-**TORREN:** Exactly.
+## [GAMEPLAY HANDOFF]
 
-**MAEVRA:** Then we stop there. We don't know what the monument is. We know where it should be, and checking costs less than pretending this is somebody else's problem until Caelora.
+Known:
+- the mural depicts a regional catastrophe involving fire falling from the sky;
+- ordinary people were moving underground at multiple locations;
+- Torren recognizes Hollow Watch in the mural, confirming that the imagery uses real geography;
+- Torren also recognizes the southern crossroads known as the Junction;
+- the mural shows a prominent ancient structure at the Junction that Torren has never seen in the present day;
+- the party does not know what that structure was for;
+- the party does not know the exact purpose of the underground passages;
+- the party does not know what caused the catastrophe;
+- they intend to inspect the Junction while traveling south.
 
-**ILYRA:** Agreed.
-
-Cyanis looks at the mural one more time.
-
-**CYANIS:** This trip was simpler yesterday.
-
-**ILYRA:** No, it wasn't.
-
-**CYANIS:** I preferred my version.
-
-**MAEVRA:** You can prefer it upstairs.
-
-Torren glances at her.
-
-**TORREN:** You've been waiting to say that.
-
-**MAEVRA:** Years.
-
-**CYANIS:** I'm not asking.
-
-**ILYRA:** Good.
-
-Scene ends on the mural.
+Next mandatory scene:
+**Greenhollow Resolution / Torren Recruitment**
 
 ---
-
-### [GAMEPLAY HANDOFF — HOLLOW WATCH RESOLUTION]
-
-**Player control returns.**
-
-Cyanis again becomes the sole visible traversal character as the party leaves the protected chamber.
-
-Current objective:
-
-**Return from the protected area and resolve Hollow Watch.**
-
-Story state:
-- the protected mural is Hollow Watch's sole major cartographic payoff;
-- the mural shows recognizable geography, falling fire, and ordinary people descending into multiple deep openings;
-- Torren recognizes Hollow Watch and the ancient southern crossroads he calls **the Junction**;
-- Torren knows the Junction's location and roads but has never seen the prominently depicted monument at its center;
-- the monument is shown as important but not as a deep entrance;
-- the party intends to inspect the Junction while traveling south;
-- the six-channel room and the mural's many descents visually invite comparison, but the dialogue does not force a speculative explanation;
-- the Black Host never reached the mural chamber;
-- Cyanis carries the intact Card and it remains inert;
-- no Prime, Last Sentinel, bearer, authorization, complete ancient-network, buried-Crest, or Entity explanation is revealed.
-
-Traveling group: **Cyanis + Ilyra + Maevra + Torren**  
-Combat party: **Cyanis + Ilyra + Torren**
-
-Torren remains a temporary combat ally until the next beat.
-
-Next mandatory story beat: **Beat 11 — Hollow Watch Resolution / Torren Recruitment.**
-
----
-
-## Person-Brain performance note
-
-- the mural remains visual-first. Dialogue interprets scale, geography, uncertainty, and practical next action rather than narrating the artwork back to the player.
-- Torren gets a genuinely longer turn where his route brain is naturally activated by recognizable terrain.
-- Cyanis now reacts to Torren's recognition in a couple of places rather than repeatedly prompting him with clarifying questions, reducing interviewer/exposition-feed behavior without reducing Cyanis's curiosity or Torren's expertise.
-- Maevra/Torren history appears as an incidental winter-route argument rather than a biographical exposition dump.
-- Torren explicitly separates `I know the Junction's ground` from `I know the ancient monument`, preserving the limit on his expertise.
-- the group can joke inside discovery without making the discovery unserious; humor drops when the Black Host implication returns.
 
 ---
 
 ## Beat 11
 
 **Atomic source:** `BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md`  
-**Source SHA-256:** `989703b1f7b058954784dc8a8b8a0a769e5af5d4aad4b0e3d1da285e02c2d0f3`
+**Source SHA-256:** `041a4cf0b2063d2df38c7d2a21ce46c6d76ac2bd9e32ba23a3f84ca58683198e`
 
 # Chapter 1 — Beat 11
-# Hollow Watch Resolution / Torren Recruitment
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE + FINAL ENSEMBLE BALANCE PASS
+# Greenhollow Resolution / Torren Recruitment
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
----
+## [GREENHOLLOW — RETURN]
 
-### [GAMEPLAY — RETURN TO HOLLOW WATCH SURFACE]
+The game transitions directly from Hollow Watch back to Greenhollow.
 
-**Player control is active.**
+The immediate report is short and practical.
 
-Cyanis is the only visible party field character during the return through the ruin and fort.
+A local response begins organizing for Hollow Watch: the dead must be recovered, the surface secured, and a proper Yahtrean force warned about what lies below.
 
-There is no walking dialogue.
+Maevra gives only the information needed to act.
 
-The Black Host occupation has been broken enough for the party to leave, but Hollow Watch is not restored. The garrison is still dead and a larger Yahtrean response is still needed.
+**MAEVRA:** The garrison's dead. Host occupation is broken, but the fort isn't secure enough to call restored. Get word to Brackenwall. Recover the dead, hold the surface, and nobody goes below until a proper force gets here.
 
-Cyanis carries the intact Card itself. It remains inert.
+The local response takes over.
 
----
+There is no detailed retelling of the dungeon, Castellan fight, or mural.
 
-### [STORY TRIGGER — HOLLOW WATCH OVERLOOK]
+## [TORREN]
 
-At the established overlook, movement pauses.
+Once the immediate report is finished, Torren watches Greenhollow's response beginning to move.
 
-The relevant characters may appear as simple field models. Portraits and the dialogue box carry the conversation.
+**TORREN:** They'll handle it from here.
 
-Nobody looks back at the fort with anything resembling satisfaction.
+Maevra looks at him.
 
-Maevra is the first to turn what happened into a task.
+**MAEVRA:** You satisfied with that?
 
-**MAEVRA:** Greenhollow needs word before dark. Full report, including the mural. Dead garrison, Host excavation, lower structure, Castellan, all of it. But the mural goes near the top or some clerk will bury the strangest part under casualty figures and fort damage.
+Torren considers the question.
 
-**CYANIS:** I was going to include the mural.
-
-**MAEVRA:** Eventually. After writing six pages about who held which doorway.
-
-**CYANIS:** Those doorways mattered.
-
-**ILYRA:** So did the sky on fire.
-
-Cyanis looks at her.
-
-**CYANIS:** I feel very supported.
-
-**ILYRA:** You are. In writing a shorter report.
-
-Torren is still looking back toward Hollow Watch.
-
-**TORREN:** Greenhollow can get people up here before dark if they send word immediately. Enough to hold the surface and keep scavengers out. Proper military response will take longer.
-
-**MAEVRA:** Then that's what we ask for. Hold, count, recover the dead, don't go exploring below because four idiots survived it once.
-
-Torren glances at her.
-
-**TORREN:** Three idiots. You weren't fighting.
-
-**MAEVRA:** I was still there.
-
-**TORREN:** You were.
-
-Nobody calls it a victory.
-
----
-
-### [TORREN]
-
-Maevra lets the practical silence sit for a moment before she looks at Torren.
-
-**MAEVRA:** You staying?
-
-Torren understands the actual question beneath the two words.
-
-A beat.
-
-**TORREN:** No. Hollow Watch was why I stayed close to Greenhollow instead of taking longer work. Somebody had to keep watching the road and asking why nobody came back from the fort. Now we know. It's handled enough for people with uniforms and shovels to take over, and you still need the road south.
+**TORREN:** No. Doesn't matter. I stayed because nobody knew what happened at Hollow Watch and somebody had to keep watching it. Now we know, and Greenhollow's got people who can take it from here.
 
 Maevra nods once.
+
+**MAEVRA:** So. You still taking us south?
+
+**TORREN:** Yeah.
+
+A short beat.
+
+**TORREN:** And I'm not turning around at Dunmere. If you're still going to Caelora after that, I'm coming.
 
 **MAEVRA:** Good.
 
 Torren looks at her.
 
-**TORREN:** You were going to argue if I said yes.
+**TORREN:** Don't sound so pleased.
 
-**MAEVRA:** Obviously.
+**MAEVRA:** I came here to ask you.
 
-**TORREN:** Broken arm and all.
+## [SOUTHWARD PLAN]
 
-**MAEVRA:** Especially with the broken arm. I have fewer recreational outlets.
+Maevra turns back to the journey.
 
-Cyanis looks between them.
+**MAEVRA:** Dunmere's still next.
 
-**CYANIS:** That's considerably more than the conversation I thought you two were going to have.
+**TORREN:** Through southern Briar. Junction's close enough to check on the way.
 
-Torren looks at him.
+Nobody reopens the mural discussion.
 
-**TORREN:** You still interrupted it.
+Cyanis looks toward the south end of town.
 
-**CYANIS:** I made one observation.
+**CYANIS:** Then we resupply and move.
 
-**ILYRA:** Dangerous habit.
-
-Torren turns back to the road question.
-
-**TORREN:** I'll take you through Briar. After that, if you're still going to Caelora, I'm going too.
-
-Cyanis does not make Torren repeat the decision in ceremonial language.
-
-**CYANIS:** All right.
-
-Torren waits a fraction longer.
-
-**TORREN:** That's it?
-
-**CYANIS:** Did you want a ceremony? I can thank you for your service, invent a title, maybe make Maevra pin something on you one-handed.
-
-**MAEVRA:** I would make it hurt.
-
-**TORREN:** No ceremony.
-
-**ILYRA:** Good. I refuse to stand through one after today.
-
-**TORREN:** Wasn't asking you to.
-
-**ILYRA:** See? We're getting along.
-
-Cyanis laughs once.
-
-That is as close as the scene gets to formal recruitment language. Nobody turns Torren's decision into an oath or asks Ilyra to police his agency.
-
----
-
-### [THE JUNCTION]
-
-Maevra looks south.
-
-**MAEVRA:** And the Junction is still on the way.
-
-Torren's attention shifts immediately back into route mode.
-
-**TORREN:** Close enough we'd be stupid not to stop. I want to see where that monument is supposed to be, because I've crossed that ground more times than I can count and I've never seen anything matching the mural. If it's gone, I want to know what's there instead. If it's buried under brush, I want to know how I missed it. Both answers bother me for different reasons.
-
-**CYANIS:** Never noticed a giant ancient monument.
-
-**TORREN:** You say that like I hid it.
-
-**MAEVRA:** Did you?
-
-A beat.
-
-**MAEVRA:** Had to ask.
-
-**TORREN:** All this time and you're still terrible.
-
-**MAEVRA:** All this time and you still answer.
-
-Ilyra lets the old rhythm pass, then looks south.
-
-**ILYRA:** We stop when we reach it. Look at what's actually there before we decide the mural told us anything more.
-
-**TORREN:** Yeah.
+**ILYRA:** After food.
 
 Cyanis looks at her.
 
-**CYANIS:** You becoming our professional enemy of interesting conclusions?
+**CYANIS:** That sounded final.
 
-**ILYRA:** Somebody has to survive long enough to tell the interesting conclusions they're wrong.
+**ILYRA:** I'm hungry.
 
-**MAEVRA:** That's Amarin.
+**TORREN:** There's a place near the south road.
 
-**CYANIS:** You say that like it's an explanation.
+**MAEVRA:** Finally, useful route information.
 
-**MAEVRA:** It usually is.
+Torren looks at her.
 
-**ILYRA:** You're welcome.
+**TORREN:** Been giving you useful route information for years.
 
-Nobody names the monument or assigns it a function.
+**MAEVRA:** This one involves lunch.
 
----
+**TORREN:** Lower standard.
 
-### [DEPARTURE]
+**MAEVRA:** Better standard.
 
-Cyanis turns the discussion back into order.
+The tension breaks naturally, and the scene ends.
 
-**CYANIS:** Greenhollow first. Report, supplies, then south.
-
-**MAEVRA:** Food too.
-
-Torren does not even look at her.
-
-**TORREN:** You just ate.
-
-**MAEVRA:** I ate before we went into a dead fort, fought our way underground, killed an ancient wall, read a disaster mural, and walked back out. Time is measured in events now.
-
-Torren looks at her at last.
-
-**TORREN:** Still wasn't that long.
-
-**MAEVRA:** You have no soul.
-
-**TORREN:** Have food in my pack.
-
-Maevra immediately changes tone.
-
-**MAEVRA:** I take back everything.
-
-Cyanis stares at both of them.
-
-**CYANIS:** This is going to be the whole trip, isn't it?
-
-**ILYRA:** Probably.
-
-Torren looks to Cyanis.
-
-**TORREN:** You leading now?
-
-**CYANIS:** Absolutely not.
-
-**TORREN:** Good. Then keep up.
-
-**CYANIS:** There he is.
-
-Scene ends.
-
-No bow-shouldering, road-pointing, repeated looking, or departure choreography is required.
-
----
-
-### [SYSTEM / PARTY STATE]
+## [SYSTEM / PARTY STATE]
 
 **TORREN HARTH — PERMANENT PARTY MEMBER**
 
@@ -3114,1143 +1254,692 @@ Permanent combat party:
 
 Maevra remains a non-combat traveling companion.
 
----
+## [GAMEPLAY HANDOFF — GREENHOLLOW]
 
-### [GAMEPLAY HANDOFF — SOUTHWARD JOURNEY]
+Player control returns in Greenhollow.
 
-**Player control returns.**
+The player may prepare before leaving town.
 
-Cyanis is again the sole visible traversal character until the next town/scene trigger.
+Current direction:
+- southern Briar Passage;
+- Dunmere remains the next practical destination;
+- the party will inspect the Junction while passing;
+- Torren is now a permanent party member.
 
-Current objective:
-
-**Return briefly to Greenhollow, then follow Torren into southern Briar Passage.**
-
-Story state:
-- Hollow Watch is unresolved as a military site but the immediate Black Host occupation is broken enough for a proper regional response to take over;
-- Torren's reason for remaining in Greenhollow has been resolved;
-- Torren accepts Maevra's route request and commits to the journey through southern Briar and onward toward Caelora;
-- Torren becomes a permanent party member;
-- the party intends to stop at the Junction because the mural showed a prominent monument there that Torren has never seen;
-- nobody knows the monument's function or hidden map surface;
-- Cyanis carries the intact Card and it remains inert.
-
-Next mandatory story beat: **Beat 12 — Southern Briar Passage.**
+Next mandatory beat:
+**Southern Briar Passage**
 
 ---
-
-## Person-Brain / ensemble performance note
-
-- Torren's understated recruitment remains understated, but his reason for leaving Greenhollow is allowed to be a complete adult decision rather than four clipped answers.
-- Ilyra no longer receives an automatic agency/consent-management line about Torren's decision. Her participation is ordinary social humor and emerging friction with him.
-- Maevra/Torren long familiarity remains obvious through rhythm and callbacks, but the exact twenty-five-year duration is no longer spoken in Chapter 1.
-- Maevra's response to Ilyra now reflects preexisting familiarity: she knows Amarin rather than reacting as though she has just decided she likes a new acquaintance.
-- the report discussion remains selective: characters do not recap Hollow Watch, but Maevra can explain why the mural needs priority in the written report.
-- no recruitment, route, mural, Card, or gameplay outcome changes.
 
 ---
 
 ## Beat 12
 
 **Atomic source:** `BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md`  
-**Source SHA-256:** `1ad63978a3dec1f5cd60bef7cce0349de5efbba7125b3205d4da53ffa968de3a`
+**Source SHA-256:** `e73bd11d309eb45fe3c5cebf569ee125e4b88e8f881eab239f79d3b827404b44`
 
 # Chapter 1 — Beat 12
 # Southern Briar Passage
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE + FINAL ENSEMBLE BALANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
----
+## [GAMEPLAY — SOUTHERN BRIAR]
 
-### [GREENHOLLOW SOUTH EDGE — DEPARTURE]
+Player control is active.
 
-Greenhollow is a town, so the relevant characters may be present as field models before departure.
+There is no separate Greenhollow departure scene.
 
-The stop is brief. Word from Hollow Watch is passed on, supplies are replaced where possible, and the journey continues south.
+The party leaves Greenhollow and enters Southern Briar Passage.
 
-Torren looks over everyone once, then at Maevra's additional food.
+Ordinary wilderness traversal shows Cyanis only on the field.
 
-**TORREN:** Ready?
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-**MAEVRA:** More or less.
+Maevra remains with the traveling group but does not participate in combat.
 
-**TORREN:** You bought enough food for six people.
+Torren is the active guide in story state, but there is **no guided traversal dialogue**.
 
-**MAEVRA:** Three combatants, one injured commander, and whatever impossible appetite travel gives me. Correct amount.
+Southern Briar is more difficult to read than the Brackenwall–Greenhollow leg. It is moderately maze-like rather than labyrinthine: a few meaningful forks, one or two reconnecting loops, misleading-looking branches, and natural route ambiguity.
 
-**CYANIS:** I'm not getting involved.
+Torren's expertise is demonstrated by the route the player is successfully taking through the area, not by spoken navigation calls.
 
-**ILYRA:** Good instinct.
+Most traversal is silent.
 
-Torren shakes his head.
+## [STORY TRIGGER — BRIARHIDE TRACK]
 
-**TORREN:** Works. South edge, then.
+Farther south, the party reaches a clear track pressed deeply into the route.
 
-**CYANIS:** Strong start to permanent membership.
+Movement pauses.
 
-**TORREN:** You can stay here.
+The Briarhide itself is not visible.
 
-**CYANIS:** Right. Got me.
+**CYANIS:** That's large.
 
-Scene ends.
+Torren's tone changes immediately.
 
----
+**TORREN:** Briarhide.
 
-### [GAMEPLAY — SOUTHERN BRIAR]
+He studies what the track actually gives him.
 
-**Player control is active.**
+**TORREN:** Big one. Recent.
 
-Once the party leaves Greenhollow, **Cyanis is the only visible party field character** during ordinary traversal.
+**MAEVRA:** How recent?
 
-Torren is the active guide and may give brief route instructions through the portrait/dialogue UI.
+**TORREN:** Recent enough I don't care whether it's ten minutes or thirty while we're standing in the track.
 
-Cyanis carries the intact Card itself. It remains inert.
+Ilyra looks down the route ahead.
 
-Permanent combat party: **Cyanis + Ilyra + Torren**.  
-Maevra remains a non-combat traveling companion.
+**ILYRA:** Ahead of us?
 
-Ordinary enemies are random encounters.
+**TORREN:** Probably. Track's running the same direction we are.
 
-Most travel is silent. The area/map design carries the Southern Briar exploration rather than the dialogue script adding route vignettes.
-
-### [GUIDED TRAVERSAL DIALOGUE]
-
-At a muddy-looking stretch:
-
-**TORREN:** Keep right until the ground firms up. Not the dry-looking strip—the darker one beside it.
-
-**CYANIS:** You know, most people say `keep right` and stop there.
-
-**TORREN:** Most people aren't the reason you're following this road.
-
-**CYANIS:** That's true. How long?
-
-**TORREN:** Until the roots change. Pines thin out and you start seeing alder. Ground comes up under them.
-
-**CYANIS:** That's an answer.
-
-**TORREN:** You asked a better question.
-
-Maevra cuts in.
-
-**MAEVRA:** Don't let him train you into thinking every walk needs a soil dissertation.
-
-**TORREN:** Says the woman who told three stories about bread before we left town.
-
-**MAEVRA:** Bread has culture.
-
-**ILYRA:** Ground has fewer opinions.
-
-**TORREN:** Ground has plenty. Just doesn't care if you listen.
-
-A beat.
-
-**CYANIS:** That was almost philosophical.
-
-**TORREN:** No. Ground really will kill you.
-
-**MAEVRA:** Beautiful. Put it on a pillow.
-
-**TORREN:** You'd buy it.
-
-**MAEVRA:** I'd buy it for you and make you carry it.
-
-The exchange ends because the group has finished amusing itself, not because Torren has reached a terseness quota.
-
-No route split or route-choice scene is introduced.
-
----
-
-### [STORY TRIGGER — OVERGROWN SIDE ACCESS]
-
-At the required old stone-lined side access, player movement pauses.
-
-The relevant characters may appear as simple field models. The overgrown opening itself is the only required visual.
-
-Maevra looks toward it.
-
-**MAEVRA:** Know it?
-
-Torren studies the cut rather than pretending he has more history than he does.
-
-**TORREN:** Know *of* the cut. Old stone line runs in that direction. Never had work that needed it and it doesn't help the Dunmere route.
-
-**ILYRA:** Ever been inside?
-
-**TORREN:** No.
-
-**CYANIS:** That sounded almost like an invitation.
-
-**ILYRA:** You hear invitations in some terrible places.
-
-**CYANIS:** I said almost.
-
-**TORREN:** Wrong direction, unknown condition, and we've already adopted enough ancient problems for one day.
-
-Cyanis looks at him.
-
-**CYANIS:** `Adopted`?
-
-**TORREN:** You're carrying one.
-
-Cyanis looks down at the inert Card.
-
-**CYANIS:** Can't argue with that.
-
-**MAEVRA:** Then south.
-
-Scene ends.
-
-Ilyra is curious about the access and jokes about Cyanis's phrasing; she is not assigned the automatic safety veto.
-
-No one names a cistern, Hunt, node, tunnel system, or hidden objective.
-
----
-
-### [GAMEPLAY — DEEPER SOUTHERN BRIAR]
-
-**Player control returns.**
-
-Cyanis-only traversal continues.
-
-Random encounters remain the ordinary combat presentation.
-
-The only authored Briarhide foreshadowing is one clear large track on the route. The animal itself is not shown.
-
----
-
-### [STORY TRIGGER — BRIARHIDE TRACK]
-
-Player movement pauses.
-
-The relevant characters may appear as simple field models if useful; portraits and the dialogue box carry the exchange.
-
-Cyanis sees the track.
-
-**CYANIS:** Big.
-
-Torren's humor disappears as he reads it.
-
-**TORREN:** Briarhide. Very large one.
-
-**MAEVRA:** You said `very` before. I'm starting to think you were underselling it.
-
-Torren keeps studying the track and nearby route, but does not add inspection choreography.
-
-**TORREN:** I was. Track's deep, edges are still clean, and it's using the road instead of crossing it. Big animals do that when the road is easier than the brush.
-
-**ILYRA:** Recent?
-
-**TORREN:** Yeah. Recent enough I don't want to stand here debating exactly how recent.
+Cyanis looks into the Briar.
 
 **CYANIS:** Does it know we're here?
 
-Torren looks at him.
+Torren gives that an honest moment.
 
-**TORREN:** Probably knew before we saw the track. Smell carries. So does three people fighting everything between Greenhollow and here.
+**TORREN:** Maybe. If it's close, probably.
 
-**MAEVRA:** Four people traveling.
+A beat.
 
-Torren glances at her splint.
+**TORREN:** Don't run if we see it. Don't crowd it unless it gives us no choice.
 
-**TORREN:** Three making most of the noise.
+**MAEVRA:** And if it does?
 
-**MAEVRA:** Rude.
+**TORREN:** Then you'll know.
 
-**TORREN:** True.
+**MAEVRA:** Comforting.
 
-He turns back toward the route.
+**TORREN:** Wasn't meant to be.
 
-**TORREN:** Keep moving. Don't run. If it's watching us, running doesn't improve the conversation.
+The stop ends.
 
-**CYANIS:** There are conversations I preferred when you were terse.
+The Briarhide Stalker is still not shown.
 
-**TORREN:** Too late now.
+## [GAMEPLAY — DEEPER SOUTHERN BRIAR]
 
-That answer lands as a small sign that Torren himself knows he has been talking more with the group.
+Traversal resumes in silence.
 
-Scene ends.
+The route becomes harder to read for a stretch, with a few meaningful forks, reconnecting loops, and misleading-looking branches.
 
-The Briarhide is still not shown.
+There is no spoken route guidance and no route-choice scene.
+
+The area design itself demonstrates that Torren is successfully getting the party through terrain that would otherwise be difficult to read.
+
+## [STORY TRIGGER — LATE OVERGROWN SIDE ACCESS]
+
+Late in Southern Briar, after the Briarhide track stop, the group reaches a heavily overgrown stone-lined cut branching away from the usable route.
+
+This is in the final third or quarter of the area.
+
+Movement pauses briefly.
+
+**MAEVRA:** That natural?
+
+Torren looks at the old stone line.
+
+**TORREN:** No.
+
+A beat.
+
+**TORREN:** Old access. I've seen the opening before. Never had a reason to use it.
+
+**CYANIS:** Goes where?
+
+**TORREN:** Don't know.
+
+**ILYRA:** Helpful.
+
+**TORREN:** It's overgrown, runs the wrong direction for Dunmere, and nothing I've ever needed was through it.
+
+Cyanis looks back toward the main route.
+
+**CYANIS:** We leave it.
+
+**TORREN:** Yeah. If the Junction gives us a reason to care, it's a short backtrack.
+
+No one identifies a cistern, Hunt, ancient-network function, or hidden objective.
+
+## [GAMEPLAY — FINAL SOUTHERN STRETCH]
+
+Player control resumes.
+
+The final stretch becomes more direct.
+
+Navigation tension eases; the Briarhide tension replaces it.
+
+There is **no additional dialogue**.
+
+The Briarhide Stalker itself is **not shown in Beat 12**.
+
+## [GAMEPLAY HANDOFF]
+
+Beat 12 ends during normal traversal immediately before the Stalker's first clear visual reveal.
+
+Known:
+- Torren has demonstrated why his current route knowledge matters through successful navigation rather than spoken guidance;
+- Southern Briar is moderately maze-like without becoming a puzzle dungeon;
+- a very large Briarhide has recently moved along the party's route;
+- the party has not yet seen the animal itself;
+- the late overgrown stone-lined side access has been seen and left unexplored;
+- that side access is close enough to the final stretch that a later cleanup backtrack will be short;
+- the Junction is immediately ahead;
+- the Card remains inert.
+
+Next mandatory beat:
+**Briarhide Stalker**
 
 ---
-
-### [GAMEPLAY — TOWARD THE JUNCTION]
-
-Cyanis-only traversal resumes.
-
-The hidden monument shown in the Hollow Watch mural remains completely unseen.
-
-Torren gives one route call while still guiding:
-
-**TORREN:** Junction's past the next rise. If the Briarhide is using this line, that's where I stop assuming it turns off before we do.
-
-Cyanis takes that in.
-
-**CYANIS:** Good to know.
-
-No further conversation follows.
-
-The player continues through the final Southern Briar stretch.
-
-The Briarhide Stalker itself is **not shown anywhere in Beat 12**.
-
----
-
-### [GAMEPLAY HANDOFF — FINAL SOUTHERN BRIAR]
-
-Beat 12 ends during normal traversal before the Briarhide is visually revealed.
-
-Current objective:
-
-**Continue through the final Southern Briar stretch toward the Junction.**
-
-Story state:
-- Torren guides the route without becoming a visible wilderness follower model;
-- the old overgrown side access is seen but not understood or entered for story purposes;
-- one Briarhide track establishes that a very large predator is active in the area;
-- the party has not yet seen the Briarhide Stalker itself;
-- ordinary enemies remain random encounters;
-- the Junction monument remains hidden;
-- Cyanis carries the intact Card and it remains inert;
-- no route split, overlook decision, false trail, crossing, or Old Waystone is restored.
-
-Next mandatory story beat: **Beat 13 — Briarhide Stalker / Chapter-1 Final Boss.**
-
-Beat 13 owns the **first clear visual reveal of the Stalker**, immediately before the boss encounter.
-
----
-
-## Person-Brain / ensemble performance note
-
-- Torren's route and animal expertise still legitimately produces longer evidence-rich turns, but expertise is no longer treated as his only permission to participate socially.
-- his bread/pillow argument with Maevra and `too late now` answer to Cyanis continue the gradual Chapter-1 social opening that becomes more obvious in Chapter 2.
-- Ilyra no longer receives the automatic `No`/safety-monitor line at the overgrown side access. She is curious, jokes about Cyanis's framing, and leaves the actual route decision to the people making it.
-- the side access remains unresolved and is not promoted into a cistern clue before Beat 14.
-- Briarhide foreshadowing sounds like an experienced field hunter reading one useful track rather than a sequence of clipped ominous nouns.
-- the Stalker still receives no visual reveal in Beat 12.
 
 ---
 
 ## Beat 13
 
 **Atomic source:** `BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md`  
-**Source SHA-256:** `bd6a584ccdfacd6a655109f9f859c2b5f6ef685f660417a18eef9528f794ac63`
+**Source SHA-256:** `771bfca681ec7060bd5af3c83f7b8801bae8584224e7af19b878232f2b7769f7`
 
 # Chapter 1 — Beat 13
-# Briarhide Stalker / Chapter-1 Final Boss
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS + ILYRA ROLE-BALANCE PASS
+# Briarhide Stalker
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
----
+## [GAMEPLAY — FINAL SOUTHERN BRIAR STRETCH]
 
-### [GAMEPLAY — FINAL SOUTHERN BRIAR STRETCH]
+Player control is active.
 
-**Player control is active.**
+Cyanis is the only visible party field character during ordinary traversal.
 
-Cyanis is the only visible party field character during ordinary wilderness traversal.
+There is no dialogue before the boss trigger.
 
-Torren, Ilyra, and Maevra remain present in story state.
+The Briarhide Stalker has not been clearly seen yet.
 
-Torren is still guiding the route, but no dialogue is needed here.
+The Card remains inert.
 
-The Briarhide Stalker has **not** been clearly seen yet.
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-Cyanis carries the intact Card itself. It remains inert.
+Maevra remains with the traveling group but does not participate in combat.
 
-Permanent combat party: **Cyanis + Ilyra + Torren**.  
-Maevra remains a non-combat traveling companion.
+## [STORY TRIGGER — FIRST CLEAR SIGHTING]
 
-Ordinary enemies remain random encounters.
+The usable route opens ahead.
 
-The player reaches the final route trigger before the Junction.
+The Briarhide Stalker is there.
 
----
+This is the first clear visual reveal of the animal.
 
-### [STORY TRIGGER — FIRST CLEAR BRIARHIDE SIGHTING]
-
-**Player movement pauses.**
-
-The relevant characters may appear as simple field models for the scene.
-
-The **Briarhide Stalker appears on the usable route ahead.**
-
-This is the player's first clear look at it.
-
-It is simply an exceptionally large, powerful Briarhide native to Briar Passage.
-
-No armor. No Black Host equipment. No magical apparatus. No visible corruption. No special wound or condition that needs to be solved.
-
-The boss itself is the visual focus. No stalking sequence, circling animation, brush choreography, or separate pre-fight encounter is added.
+It is simply an exceptionally large native Briarhide. There is no Black Host equipment, corruption, machinery, special wound, or other condition to diagnose.
 
 A beat.
 
-Cyanis looks from the animal to Torren.
+**CYANIS:** There.
 
-**CYANIS:** That's the Briarhide.
-
-Torren does not take his eyes off it.
+Torren watches it.
 
 **TORREN:** Yeah.
 
-**MAEVRA:** `Very large` was underselling it too.
+**MAEVRA:** That's your big one?
+
+**TORREN:** Bigger than I thought.
+
+The Stalker holds the route.
+
+**ILYRA:** It's not moving on.
+
+**TORREN:** No.
+
+Cyanis looks at the ground ahead, then back at Torren.
+
+**CYANIS:** Way around?
+
+**TORREN:** Not without turning back a long way.
+
+A beat.
+
+**TORREN:** And I wouldn't turn our backs on it from here.
+
+Cyanis nods.
+
+**CYANIS:** Then we go through.
+
+Torren's answer is immediate.
 
 **TORREN:** Yeah.
 
-Ilyra studies the animal.
+Maevra stays back.
 
-**ILYRA:** I was prepared to make fun of both of you for the buildup.
+**MAEVRA:** Do it.
 
-**CYANIS:** And?
+**BOSS BATTLE — BRIARHIDE STALKER**
 
-**ILYRA:** I have revised my position.
+## [BOSS COMBAT]
 
-Torren checks the route rather than enjoying being right.
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-**TORREN:** No clean way around it without backing up a long way, and I don't want to turn our backs on something that already knows we're here. Junction's straight through.
+Maevra does not participate.
 
-**CYANIS:** Can we wait it out?
+The Briarhide Stalker is defeated and killed through ordinary combat victory.
 
-**TORREN:** Maybe, if it were just crossing. It's not crossing.
+There is:
+- no corruption phase;
+- no Black Host control reveal;
+- no purification;
+- no component removal;
+- no protected HP floor;
+- no nonlethal or drive-off resolution;
+- no mandatory mid-battle dialogue.
 
-The Briarhide holds the route and remains focused on them.
+## [STORY TRIGGER — AFTERMATH]
 
-**TORREN:** That's a challenge. Big territorial animal, narrow road, and we're in the part it decided is worth keeping. We leave now, it may follow until it thinks we're far enough. We push past, it fights.
+The Briarhide lies still.
 
-**MAEVRA:** And we need past.
+For a moment, nobody says anything.
 
-**TORREN:** Yeah.
+Torren watches it long enough to be certain.
+
+**TORREN:** Dead.
 
 Cyanis exhales.
 
-**CYANIS:** Of course we do.
+**CYANIS:** Good.
 
-**ILYRA:** Fine. But if either of you says `it's only an animal` in the next five minutes, I'm siding with the animal.
+Ilyra looks toward the now-open route.
 
-**CYANIS:** Comforting.
+**ILYRA:** I liked the forest better before it started producing things that size.
 
-**TORREN:** Wouldn't blame you.
+**TORREN:** That's Briar.
 
-Maevra remains outside the battle party.
+**ILYRA:** I'm developing opinions about Briar.
 
-**BOSS COMBAT BEGINS — BRIARHIDE STALKER.**
+A faint beat of normality returns.
 
----
-
-### [BOSS COMBAT — BRIARHIDE STALKER]
-
-Combat party: **Cyanis + Ilyra + Torren**.
-
-Maevra does not participate in battle.
-
-This is a normal authored boss encounter.
-
-The Briarhide Stalker is a natural wild beast. It does not transform into a corrupted form, reveal Black Host control, expose machinery, require purification, or use a special nonlethal solution.
-
-**The fight is lethal. The party defeats and kills the Briarhide Stalker through ordinary combat victory.**
-
-There is no protected HP floor, disengagement state, drive-off resolution, purification state, capture condition, or forced nonlethal ending.
-
-Encounter authority owns exact stats, attacks, targeting, pacing, and tuning.
-
-No mandatory mid-battle dialogue is required.
-
----
-
-### [STORY TRIGGER — POST-BOSS]
-
-After victory, field/story presentation returns and the relevant characters may appear.
-
-The Briarhide is dead. No ambiguity is introduced.
-
-A beat.
-
-Torren watches long enough to be certain.
-
-**TORREN:** Done.
-
-Cyanis remembers the Castellan.
-
-**CYANIS:** More confident this time?
-
-**TORREN:** It's dead.
-
-**CYANIS:** Better.
-
-Maevra looks over the three who actually fought.
-
-**MAEVRA:** Everybody still in one piece?
-
-**TORREN:** Yeah.
-
-**CYANIS:** Yes. And before anybody gets ambitious, no dizziness, no numbness, nothing strange from the Card.
-
-Ilyra looks at him.
-
-**ILYRA:** Nobody asked.
-
-**CYANIS:** I know. I'm showing initiative.
-
-**ILYRA:** Horrifying.
-
-Torren glances at her.
-
-**TORREN:** Trainable.
-
-**CYANIS:** You two need separate material.
-
-**ILYRA:** No. This one's efficient.
-
-Maevra looks at the dead Briarhide, then at the rise ahead.
-
-**MAEVRA:** Everyone done congratulating Dovaren on basic communication?
-
-**ILYRA:** I was insulting him.
-
-**CYANIS:** Thank you.
+Maevra looks toward the rise ahead.
 
 **MAEVRA:** Junction?
 
-Torren looks toward the rise.
+Torren nods.
 
-**TORREN:** Past that. Ten minutes if we don't find another fucking legend standing in the road.
+**TORREN:** Over the rise.
 
-Cyanis looks ahead.
+Cyanis looks forward.
 
-**CYANIS:** You had to say it.
+**CYANIS:** Let's go.
 
-**TORREN:** Probably.
+The scene ends.
 
-**MAEVRA:** If the monument attacks us, I'm blaming him.
+## [GAMEPLAY HANDOFF]
 
-**ILYRA:** I'm blaming you for saying that out loud.
+Player control returns.
 
-**MAEVRA:** I'll take that.
+The Briarhide threat is gone and the route forward is open.
 
-**TORREN:** Good. Let's go.
+Chapter 1's final combat climax is complete.
 
-Scene ends.
+The Junction monument has still not been revealed.
 
-No trophy-cutting, corpse inspection, wound-treatment choreography, victory pose, weapon handling, or extended post-boss animation is required.
-
----
-
-### [GAMEPLAY HANDOFF — THE JUNCTION]
-
-**Player control returns.**
-
-Cyanis is again the sole visible traversal character.
-
-The Briarhide threat no longer blocks the route forward because the party killed it.
-
-Current objective:
-
-**Continue to the Junction.**
-
-Story state:
-- the Briarhide Stalker was first clearly shown immediately before the boss encounter;
-- it was an exceptionally strong but otherwise natural wild animal;
-- the boss was killed through ordinary combat victory;
-- no nonlethal, drive-off, purification, capture, or protected-HP resolution occurred;
-- Maevra remained outside combat;
-- Chapter 1's final combat climax is complete;
-- the story now shifts into the quieter Junction discovery;
-- the Junction monument has still not been revealed;
-- Cyanis carries the intact Card and it remains inert.
-
-Next mandatory story beat:
-**Beat 14 — The Junction / hidden monument reveal.**
+Next mandatory beat:
+**The Junction / Hidden Monument**
 
 ---
-
-## Person-Brain / canon check
-
-- **Lethal Briarhide lock:** explicit. The Stalker dies in the boss fight. No stale nonlethal/drive-off language is legal here.
-- Torren gives a full field judgment about why the animal is not simply `in the way`; this is exactly the kind of animal/terrain subject that naturally makes him more verbal.
-- Maevra, not Ilyra, owns the ordinary post-combat `everyone intact?` check. Cyanis volunteers his Card symptoms from learned continuity rather than waiting for Ilyra to administer a checklist.
-- Ilyra's role is personal and social: she revises her opinion of the animal, jokes about siding with it, needles Cyanis, and joins the emerging `trainable` callback without becoming the team's post-battle medical voice.
-- post-boss humor shows growing group familiarity without turning the kill into celebration.
-- no corruption, Black Host control, special-condition mystery, or hidden encounter phase is added.
 
 ---
 
 ## Beat 14
 
 **Atomic source:** `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md`  
-**Source SHA-256:** `759c13336b6ae02d4d50f2bc27e026c96c518ee09877f235c7282471a15ed0ed`
+**Source SHA-256:** `d26e9ac04f808202032ea4596d050f51eec4ee2f8e2a1d0d936ec3f308753092`
 
 # Chapter 1 — Beat 14
 # The Junction / Hidden Monument
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
----
+## [GAMEPLAY — ARRIVAL AT THE JUNCTION]
 
-### [GAMEPLAY — ARRIVAL AT THE JUNCTION]
+Player control is active.
 
-**Player control is active.**
+The route rises out of Southern Briar into the old crossroads Torren knows as **the Junction**.
 
-After the Briarhide Stalker fight, Cyanis continues through the final Southern Briar stretch.
+There are no random encounters here.
 
-Cyanis is the only visible party field character during ordinary traversal.
+Chapter 1's combat climax is over.
 
-There are no random encounters at the Junction. Chapter 1's combat climax is already over.
+The Junction itself is familiar ground to Torren: several old routes once converged here, and the modern southern road still passes through the same terrain.
 
-The route opens into the old crossroads Torren knows as **the Junction**.
+The monument shown in the Hollow Watch mural is not immediately recognizable.
 
-Multiple old roads converge here.
+## [STORY TRIGGER — THE HIDDEN MONUMENT]
 
-The large monument shown in the Hollow Watch mural is **not immediately visible as a monument**.
+The party reaches the center of the crossroads.
 
-Cyanis carries the intact Card itself. It remains inert.
+**TORREN:** This is it.
 
----
+Cyanis looks around.
 
-### [STORY TRIGGER — WHERE IS IT?]
+**CYANIS:** Then where's the thing from the mural?
 
-At the center of the Junction, player movement pauses.
+**TORREN:** That's what I'm trying to figure out.
 
-The relevant characters may appear as simple field models for the scene. Portraits and the dialogue box carry the exchange.
+Maevra looks across the center of the Junction.
 
-Torren looks around with the confidence of somebody arriving somewhere familiar.
+**MAEVRA:** It was in the middle.
 
-**TORREN:** This is it. Junction.
-
-Maevra looks at the crossroads, then at him.
-
-**MAEVRA:** Then where's the giant stone you somehow failed to notice for half your life?
-
-**TORREN:** It wasn't here.
-
-**CYANIS:** Strong opening defense.
-
-**TORREN:** I'm serious. There's never been a standing monument in the center.
-
-Ilyra compares the ground to what she remembers from the mural.
-
-**ILYRA:** It was right in the middle of the crossroads. Not near it. Here.
-
-That makes Torren look more carefully at the central mass of fitted stone mostly swallowed by vines and moss.
-
-**TORREN:** ...Fuck me.
-
-**CYANIS:** That count as a monument?
-
-Torren stares at it.
-
-**TORREN:** I've walked past that thing for years. It's low, half buried, covered in growth, and from the road it looks like one more old foundation block. I never had a reason to clear it because the road doesn't care what it is.
-
-Maevra is delighted.
-
-**MAEVRA:** I'm going to remember this forever.
-
-**TORREN:** I know.
-
-**MAEVRA:** Every time you correct a map.
-
-**TORREN:** I know.
-
-**MAEVRA:** Every single time.
-
-**TORREN:** Maevra.
-
-**CYANIS:** I also plan to remember it forever.
-
-Torren looks at him.
-
-**TORREN:** You can both go fuck yourselves.
-
-Ilyra is already looking at the vines.
-
-**ILYRA:** We could confirm it's actually the same structure before ruining his life with it.
-
-**MAEVRA:** Very responsible.
-
-**CYANIS:** Temporarily.
-
----
-
-### [MAJOR STORY INTERACTION — CLEAR THE MONUMENT]
-
-The party clears the vines and moss from the central stone.
-
-This is a required major-story interaction, but it should stay simple in implementation: one short clearing interaction and/or vegetation state swap is enough. Do not choreograph separate branch pulling, tool use, individual hand actions, or a long cleanup animation.
-
-As the vegetation comes away, a broad preserved **stone-and-metal cartographic surface** is revealed underneath.
-
-This is the first time Torren has actually seen the monument's map surface.
+Torren's attention settles on a broad, low mass of old fitted stone almost completely swallowed by vines and moss.
 
 A beat.
 
-Torren stares.
+**TORREN:** ...Shit.
 
-**TORREN:** You've got to be fucking kidding me.
+Cyanis follows his look.
 
-Cyanis gives him half a second.
+**CYANIS:** That?
 
-**CYANIS:** How many times?
+**TORREN:** Maybe.
 
-**TORREN:** Not a word.
+**MAEVRA:** You've walked past it before.
 
-**MAEVRA:** I wasn't going to say anything.
+**TORREN:** I've walked past a lot of rocks.
 
-Torren turns his head slowly toward her.
+**MAEVRA:** I'm keeping that answer.
 
-**TORREN:** You were.
+**TORREN:** Of course you are.
 
-**MAEVRA:** Absolutely. I had three versions ready.
+The party clears the vegetation from the central stone.
 
-**ILYRA:** Save them. This part's actually interesting.
+This is one simple major-story interaction/state change rather than a long animation.
 
-Maevra looks offended for show.
+Beneath the vines and moss is a broad stone-and-metal cartographic surface.
 
-**MAEVRA:** My versions were interesting.
+The humor stops.
 
-Nobody indulges her. The exposed surface has their attention now.
+A beat.
 
----
+**TORREN:** That's not a foundation.
 
-### [THE MAP]
+Torren studies it.
 
-The player gets a clean read of the exposed monument before the next exchange.
+**TORREN:** Route map, I think. Or close enough I'm willing to call it one. I know the ground; I don't know this system.
 
-The surface shows a network of old route lines and geographic relationships rather than a doorway or deep entrance.
+## [THE MAP]
 
-The familiar Six Faces — **Might, Grace, Perception, Memory, Elements, and Ruin** — recur as part of the monument's technical/cartographic grammar. Their exact function here is not understood.
+The exposed surface shows surviving route lines and geographic relationships.
+
+Six familiar Face markings appear as part of the old technical grammar:
+
+**Might. Elements. Grace. Perception. Memory. Ruin.**
+
+Their function here is not understood.
 
 One edge of the map is damaged and incomplete.
 
-A route running southeast aligns with the modern road the party is already taking toward Dunmere.
+Torren follows a surviving alignment running southeast.
 
-Another notation corresponds geographically with the overgrown Southern Briar side access passed earlier. Its markings include an old water/cistern indication.
+**TORREN:** This southeast line matches our road. Same direction, same bend. Could be the old road under parts of it, could just be people choosing the same good ground. Can't tell from this.
 
-No one understands the whole system.
+**MAEVRA:** Dunmere.
 
-Torren's embarrassment disappears the moment the route relationships start making sense.
+**TORREN:** Yeah.
 
-**TORREN:** Route work. Different from the mural. That southeast line follows the same direction and bend as the road we're already taking.
+Cyanis nods.
 
-Cyanis follows the line.
+**CYANIS:** Good enough.
 
-**CYANIS:** So our road sits on top of an older one.
+Torren's attention moves to another notation off the main alignment.
 
-**TORREN:** Maybe directly on it in places. Maybe just following the same good ground. Roads inherit terrain even when people forget the old road was there. I can match direction and bend from this, not construction underneath our boots.
+**TORREN:** There's another mark back toward Southern Briar, near that overgrown side cut. Water—cistern, storage, something like that.
 
-**CYANIS:** That's an aggressively careful answer.
-
-**TORREN:** You're welcome.
-
-Ilyra's attention catches on another notation.
-
-**ILYRA:** This mark looks like water. Not a river—the symbol is enclosed. Reservoir, cistern, stored water, something in that family?
-
-Torren checks where the notation sits relative to the known ground.
-
-He takes longer here because he is actually translating old spatial relationships into modern terrain.
-
-**TORREN:** Puts it back near that overgrown cut we passed in Southern Briar. Not exactly on the road, but close enough. If this scale is consistent, that old side access is the best modern match.
-
-**MAEVRA:** The one you called useless.
+**ILYRA:** So the useless branch has become interesting.
 
 Torren looks at her.
 
-**TORREN:** Wrong direction. Different accusation.
+**TORREN:** I said it was useless for Dunmere.
 
-**CYANIS:** He's got you there.
+**ILYRA:** Important distinction.
 
-**TORREN:** I do.
+**TORREN:** Extremely.
 
-**MAEVRA:** I hate both of you already.
+A small beat.
 
-Ilyra is still on the practical question.
+**CYANIS:** Worth going back?
 
-**ILYRA:** It wasn't worth leaving the road for when all we knew was `old cut in the wrong direction.` It might be now that we have a reason tied to it.
+**TORREN:** Worth checking while we're still close. Not worth pretending we know what's there.
 
-Torren nods.
+Nobody gives the side access a new name or predicts what lies beyond it.
 
-**TORREN:** Yeah. Worth checking later. Not worth turning around tonight when we're tired and don't know what condition it's in.
+Torren reaches the damaged edge.
 
-**CYANIS:** Look at that. Mystery loses to sleep.
+**TORREN:** Edge is gone. I can guess where some of the lines continue, but that's all it'd be.
 
-**TORREN:** Mystery will still be there tomorrow. Broken ankle tonight would also be there tomorrow.
+**MAEVRA:** Copy what survived. Leave the rest missing.
 
-Nobody names the Cistern Devourer or knows what is waiting beyond that access.
+**CYANIS:** Works for me.
 
----
+Torren glances at him.
 
-### [THE SIX FACES]
+**TORREN:** See? Trainable.
 
-The Six Face marks remain visible across the cartographic surface.
+Cyanis gives him a look.
 
-Cyanis recognizes the recurrence.
+**CYANIS:** Careful.
 
-**CYANIS:** Six Faces again.
+Torren goes back to the map.
 
-**MAEVRA:** Route markers?
+No one attempts to reconstruct the missing information.
 
-Torren studies the way the symbols relate to the lines without pretending he knows the grammar.
+## [PRACTICAL COPY]
 
-**TORREN:** Maybe. Means they mattered to whoever made the map. Doesn't tell us how. Could mark route types, destinations, authority, maintenance—hell, could mean six completely different things depending on where they're placed.
+The party makes a physical copy of the useful surviving information.
 
-**ILYRA:** That's a lot of possibilities.
-
-**TORREN:** Because we don't have the key.
-
-He looks at the damaged edge.
-
-**TORREN:** And whatever was there isn't helping.
-
-Cyanis studies the missing section.
-
-**CYANIS:** Any chance you can reconstruct it from the surviving lines?
-
-**TORREN:** I can guess where some lines would continue. That's not the same as knowing what was carved there. We copy what survived and leave the missing part missing.
-
-Maevra looks at Cyanis.
-
-**MAEVRA:** See? This is why I brought him.
-
-**TORREN:** Thought it was my charming disposition.
-
-**MAEVRA:** Never once.
-
-The damaged edge remains unresolved. Nobody invents the missing information.
-
----
-
-### [PRACTICAL COPY]
-
-The group makes a practical physical copy of the useful route information before leaving the monument.
-
-Do not stage a long drawing sequence. A brief fade/state transition is enough to cover the copying while preserving that the characters physically record the information.
+A brief fade/state transition is enough.
 
 The copy preserves:
-- the southeast ancient alignment matching the party's existing Dunmere route;
-- the water/cistern notation corresponding to the earlier Southern Briar side access;
-- the visible Six Face markings;
-- the surviving route information around the damaged edge.
+- the southeast alignment corresponding to the party's existing route toward Dunmere;
+- the water/cistern notation near the earlier Southern Briar side access;
+- the six Face markings;
+- the surviving route information adjacent to the damaged edge.
 
-Dunmere is **not** discovered here. It was already the party's intended destination.
+Dunmere is not discovered here. It was already the party's next practical destination.
 
----
+## [CAMP DECISION]
 
-### [CAMP DECISION]
+Once the useful information is copied, Maevra looks toward the southern road.
 
-After the copy is finished, the relevant characters remain in the Junction scene.
+**MAEVRA:** Dunmere tonight?
 
-Maevra looks toward the road.
+Torren answers without hesitation.
 
-**MAEVRA:** We could still make Dunmere tonight.
+**TORREN:** No. Road's easy enough in daylight and annoying in the dark. After today, there's no reason to make it worse.
 
-Torren looks at her like he cannot believe she has actually proposed this.
+**MAEVRA:** All right.
 
-**TORREN:** We *could*. We could also walk the next several hours after Hollow Watch, the Castellan, a dead garrison, and the biggest Briarhide I've ever seen, then arrive after dark and pretend being stubborn is the same as making good time.
+**TORREN:** Camp here. Dunmere in the morning.
 
-**MAEVRA:** I was asking.
+Cyanis looks around the quiet Junction.
 
-**TORREN:** I'm answering thoroughly because apparently that's what this group wants now.
+**CYANIS:** Works for me.
 
-Cyanis raises a hand slightly.
+Ilyra exhales.
 
-**CYANIS:** I regret my influence.
+**ILYRA:** Good. I was prepared to become difficult.
 
-Torren continues anyway.
+Maevra looks at her.
 
-**TORREN:** Ground south is easy enough in daylight and annoying enough in dark. We're already at a safe crossroads with clear sight and no reason to rush. Morning's smarter.
+**MAEVRA:** Prepared?
 
-Ilyra does not need more argument.
+**ILYRA:** More difficult.
 
-**ILYRA:** Morning.
+**MAEVRA:** There she is.
 
-Cyanis looks at Maevra.
+Torren looks toward the campable ground nearby.
 
-**CYANIS:** You fighting this?
+**TORREN:** I'll find us a decent spot.
 
-Maevra looks at Torren, then at her own splinted arm, then toward the coming dark.
+**CYANIS:** One without ancient defenses?
 
-**MAEVRA:** No. I asked because I wanted the answer, not because I wanted to win.
+Torren looks back at him.
 
-Torren's expression softens by about one degree.
+**TORREN:** That's the goal.
 
-**TORREN:** All right.
+The scene ends.
 
-**CYANIS:** So we're all agreed.
+## [GAMEPLAY HANDOFF — JUNCTION CAMP]
 
-**MAEVRA:** You weren't voting.
-
-**CYANIS:** Right. Walked into that.
-
-Scene ends.
-
----
-
-### [GAMEPLAY HANDOFF — JUNCTION CLEANUP WINDOW]
-
-**Player control returns.**
+Player control returns.
 
 The Junction is a safe post-boss discovery area.
 
-Cyanis is the normal visible traversal character outside triggered scenes.
+Known:
+- Torren correctly knew the Junction as an old crossroads but had never seen the hidden monument;
+- vines and moss concealed the monument's cartographic surface in plain sight;
+- the exposed surface is a route/map object, not a tunnel entrance;
+- the party's existing route toward Dunmere follows an older Diysean alignment;
+- a water/cistern notation corresponds geographically with the earlier overgrown Southern Briar side access;
+- the six Face markings appear in the monument's technical grammar, but their function remains unknown;
+- one damaged map edge remains unresolved;
+- the party has copied the useful surviving information;
+- Dunmere remains the next practical destination;
+- the group will camp at the Junction and leave for Dunmere in the morning;
+- the Junction and Southern Briar remain accessible during the overnight cleanup window.
 
-Current state:
-- the party has reached the Junction Torren already knew as an ancient crossroads;
-- the monument from the Hollow Watch mural was hidden beneath vines and moss and had gone unnoticed in ordinary travel;
-- clearing that vegetation revealed the monument's stone-and-metal cartographic surface;
-- this was Torren's first actual view of the monument;
-- the monument is a map/route object, **not a tunnel entrance**;
-- the party now knows its modern southeast road toward Dunmere follows an older Diysean alignment;
-- a water/cistern notation points back toward the earlier overgrown Southern Briar side access, making that location worth revisiting;
-- familiar markings for Might, Grace, Perception, Memory, Elements, and Ruin appear in the cartographic grammar, but their function remains unresolved;
-- one edge of the map is damaged and incomplete;
-- the party has made a practical physical copy of useful information;
-- Dunmere remains the already-known next destination;
-- Torren decides the group should camp and continue in the morning;
-- the Junction and Southern Briar remain accessible during the overnight cleanup window;
-- no random encounter, boss, Host ambush, collapse, antagonist sting, Prime explanation, or Entity reveal occurs here;
-- Cyanis carries the intact Card and it remains inert.
-
-Next mandatory story beat:
-**Beat 15 — Junction Camp / Chapter-1 Cleanup Window.**
+Next mandatory beat:
+**Junction Camp / Chapter 1 Cleanup**
 
 ---
-
-## Person-Brain performance note
-
-- Torren's humiliation at having walked past the monument is allowed to be socially real and funny before his route brain takes over.
-- once the map surface is visible, Torren naturally becomes the longest speaker because cartography/terrain is his domain; his caution about route alignment, scale, and missing information remains explicit.
-- Ilyra owns the practical water-symbol interpretation while Torren owns the geographic match.
-- the Six Face list is preserved exactly from the current source authority in this pass; this performance pass does not silently perform a separate canon terminology rewrite.
-- the camp decision now sounds like an experienced route specialist making a complete case for stopping, with Maevra genuinely accepting the answer instead of merely losing a vote.
 
 ---
 
 ## Beat 15
 
 **Atomic source:** `BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md`  
-**Source SHA-256:** `a40ee6f2ec005ec647df9c9397878c4b9fd1fd665e21fa5906a39f15b7a1c769`
+**Source SHA-256:** `e07e05469d36689e744167e114f050da1f6b00384e661bca1474e2305737f6e7`
 
 # Chapter 1 — Beat 15
-# Junction Camp / Chapter-1 Cleanup Window
-## DIALOGUE ENGINE PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS + ILYRA ROLE-BALANCE PASS
+# Junction Camp / Chapter 1 Cleanup Window
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
 
----
+## [GAMEPLAY — JUNCTION CAMP, EVENING]
 
-### [GAMEPLAY — JUNCTION CAMP, EVENING]
+Player control is active.
 
-**Player control is active.**
+The group camps near the Junction after the Briarhide Stalker fight and the hidden-monument discovery.
 
-The group has made camp near the Junction after the lethal Briarhide Stalker fight and the hidden monument discovery.
+This is a safe camp area.
 
-This is a **camp**, so it does not use the Cyanis-only wilderness-traversal rule. Cyanis, Ilyra, Torren, and Maevra may all be visibly present as field models around the camp.
+Cyanis, Ilyra, Torren, and Maevra may all be visible around camp.
 
-Maevra's arm remains in the field splint from the Broken Convoy attack. She has traveled through Chapter 1 with the injury and remains noncombat.
+Maevra's arm remains splinted. She is still traveling with the group and remains noncombat.
 
-Field placement stays simple. Portraits and the dialogue box carry conversations.
+The Card remains with Cyanis and is inert.
 
-There are no random encounters inside the camp.
+There is **no additional mandatory evening conversation**.
 
-Cyanis carries the intact Card itself. It remains inert.
+The Junction discovery is not discussed again.
 
-The exposed Junction monument remains nearby, but Beat 15 does not add another lore inspection scene. The relevant route information has already been copied.
+The copied route information is already secured.
 
-Current mandatory objective:
+### Current objective
 
 **Rest when ready and continue toward Dunmere in the morning.**
 
-The player is free to remain in the cleanup window first.
+The player may remain in the cleanup window as long as desired before resting.
 
----
+## [OPTIONAL CHARACTER-LIFE SCENES]
 
-### [OPTIONAL CONTENT — AVAILABLE FROM CAMP]
+The current Chapter 1 Character-Life scenes are available from this camp:
 
-Canonical Character-Life numbering follows `../CHARACTER_LIFE_NUMBERING_LOCK.md`.
+- **Torren's Version of Dinner**
+- **What the Map Says**
+- **Two Professionals Complaining About Cyanis**
 
-#### C02 — `Torren's Version of Dinner`
+These scenes are optional.
 
-Current atomic dialogue source (legacy source key C03):
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md`
+Any, all, or none may be completed before the player chooses to rest.
 
-All four current characters are present. Torren's dinner is genuinely bad but hot, filling, safe, and cheap. Maevra already knows his cooking well enough to have old complaints ready; Cyanis and Ilyra are discovering it.
+They do not advance the chapter by themselves.
 
-Their familiarity should read through shorthand, remembered habits, and practiced irritation. **Do not reveal how long Maevra and Torren have known each other or that they were ever romantically involved.**
+Their own dialogue remains governed by their current rehearsal-first production authority and current character-agent brains.
 
-Torren is aware the food is bad and simply does not consider that disqualifying.
+Beat 15 does not add extra dialogue around them.
 
-Torren does **not** smoke while eating. After everyone has finished, he lights a blunt as ordinary post-meal behavior.
-
-No lore, Hunt progression, reward, or relationship reveal is added.
-
----
-
-#### C03 — `What the Map Says`
-
-Current atomic dialogue source (legacy source key C04):
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md`
-
-Torren works on his ordinary modern route map. Cyanis becomes genuinely interested in the work.
-
-The protected `old slut / old cut` misunderstanding remains, but it functions as an early accidental jump into Cyanis and Torren's sharper humor rather than proof that their later brother-like relationship is already fully developed.
-
-This is **not** another ancient-Junction-map explanation and does not advance the Cistern Hunt.
-
----
-
-#### C04 — `Not Professionally`
-
-Current atomic dialogue source (legacy source key C05):
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md`
-
-This scene is **Ilyra and Maevra only**.
-
-Ilyra changes Maevra's splint and uses restrained Warden/healing magic to ease pain and surrounding strain. The bone remains broken; magic cannot mend the fracture.
-
-The treatment task is the circumstance that puts them alone together, not Ilyra's entire social function. Once the work is underway, Ilyra is allowed ordinary curiosity and gossip rather than therapist behavior.
-
-While Ilyra works, she notices that Maevra and Torren have unusually deep familiarity and asks just enough to test what she is seeing. Maevra gives her only a sliver: Torren is more than an ordinary colleague and matters to her personally.
-
-**Reveal boundary:** the scene does **not** reveal the exact length of their history, enlistment ages, former romance, sex, breakup history, repeated reunions, current romantic status, or Torren's private feelings. To the player, their Chapter-1 dynamic should still mostly read as two stubborn people who have known each other a long time and argue with old-married-couple ease.
-
-Ilyra does not psychoanalyze Maevra or turn the exchange into therapy. Cyanis and Torren do **not** enter, overhear, or interrupt this scene.
-
----
-
-### [OPTIONAL GAMEPLAY — SOUTHERN BRIAR BACKTRACK]
+## [OPTIONAL — SOUTHERN BRIAR BACKTRACK]
 
 The Junction map has made the earlier overgrown Southern Briar side access worth revisiting.
 
-The player may leave camp and backtrack into Southern Briar before advancing the chapter.
+The player may leave camp and return through the short late-Briar stretch.
 
-Once the player leaves the camp and returns to ordinary wilderness traversal, **Cyanis is again the only visible party field character**.
+Once ordinary wilderness traversal resumes, Cyanis is again the sole visible party field character.
 
-Ordinary Southern Briar encounter rules resume according to current area authority.
+There is no new conversation explaining the route or repeating the Junction clue.
 
-The earlier overgrown access is now returnable for the **Cistern Devourer Hunt**.
+The earlier side access is now available for the optional **Cistern Devourer Hunt**.
 
-The clue came from the Junction monument; the Hunt entrance itself remains in Southern Briar.
+The clue was found at the Junction.
 
-Beat 15 does not add a second conversation explaining that relationship. The Beat-14 discovery is enough.
+The Hunt entrance remains in Southern Briar.
 
-After compatible optional content is completed, the player may return to the Junction camp. The party field models may again be present around camp.
+The player may complete the Hunt and return to camp without advancing the chapter.
 
----
+## [MANDATORY INTERACTION — REST]
 
-### [MANDATORY INTERACTION — REST / ADVANCE]
+When the player chooses to continue:
 
-When the player chooses to continue, the group rests and the cleanup window closes.
+**Rest and leave for Dunmere in the morning?**
 
-No elaborate sleeping sequence is required.
+Confirming closes the Chapter 1 cleanup window.
 
-Fade / time transition to morning.
+A simple fade advances time to morning.
 
----
+There is no elaborate sleep sequence.
 
-### [STORY TRIGGER — NEXT MORNING]
+## [STORY TRIGGER — NEXT MORNING]
 
-Morning at the same camp.
+Morning at the Junction camp.
 
-Because this is still the camp, Cyanis, Ilyra, Torren, and Maevra may all be present as field models in simple positions.
+The party is ready to leave.
 
-Maevra's splint remains part of her visible Chapter-1 state.
+Torren looks toward the south road.
 
-Portraits and the dialogue box carry the departure exchange.
+**TORREN:** Road should be good from here. Dunmere before noon if we move now.
 
-Torren is already ready to leave when the others finish packing.
+**MAEVRA:** Then let's move now.
 
-**TORREN:** Everyone actually ready this time?
+**ILYRA:** Please. I want walls and food.
 
-Cyanis looks offended by the qualifier.
+Cyanis looks at her.
 
-**CYANIS:** I was ready yesterday.
-
-**ILYRA:** You spent enough time announcing that you were ready that I started doubting the word.
-
-**CYANIS:** That's not evidence.
-
-**ILYRA:** I've been around Torren for one day. Apparently everything is evidence now.
-
-Torren gives her a look.
-
-**TORREN:** Learning.
-
-**ILYRA:** Don't encourage yourself.
-
-Maevra checks her own pack one-handed.
-
-**MAEVRA:** This is what happens when you put three argumentative people on the same road.
-
-**CYANIS:** Three?
-
-Maevra looks at him.
-
-**MAEVRA:** I was being generous to myself.
-
-**ILYRA:** Coward.
-
-Maevra laughs.
-
-**MAEVRA:** Fine. Four.
-
-**TORREN:** Are we walking or counting personalities?
-
-**ILYRA:** We can do both. You've established that walking doesn't stop you lecturing.
-
-**TORREN:** Not a lecture if you're wrong.
-
-**CYANIS:** That's absolutely a lecture.
+**CYANIS:** Hard to argue with that.
 
 Torren starts toward the road.
 
-**TORREN:** Dunmere's this way.
+**TORREN:** Then don't.
 
-**MAEVRA:** There. His strongest argument.
+Cyanis follows.
 
-**CYANIS:** Lead on, Harth.
+**CYANIS:** Lead on.
 
-**TORREN:** Keep up, Dovaren.
+The scene ends.
 
-**ILYRA:** If the road turns into another forty-minute lesson, I'm charging tuition.
+## [CHAPTER 1 END]
 
-Torren does not turn around.
+The party leaves the Junction area and continues toward Dunmere along the route they were already planning to use.
 
-**TORREN:** You'd pay.
-
-Ilyra looks at Cyanis.
-
-**ILYRA:** I hate that he's probably right.
-
-Scene ends.
-
----
-
-### [CHAPTER-1 END HANDOFF]
-
-The party leaves the Junction camp and resumes the southeast route toward Dunmere.
+They now know that the modern road overlaps or follows an older Diysean alignment, but nobody stops to restate or explain that discovery.
 
 Once ordinary wilderness traversal begins, Cyanis returns to being the sole visible party field character.
 
-The route was already their intended road toward Dunmere. The difference now is that the party knows the modern road overlaps an older Diysean alignment.
+**CHAPTER 1 END**
 
-No one stops to restate the entire Junction discovery.
+Next destination:
+**Dunmere**
 
-**CHAPTER 1 END.**
+Permanent combat party:
+**Cyanis + Ilyra + Torren**
 
-**Next destination:** Dunmere.  
-**Combat party:** Cyanis + Ilyra + Torren.  
-**Traveling non-combat companion:** Maevra, arm still splinted.  
-**Card:** intact, carried directly by Cyanis, inert.
+Traveling noncombat companion:
+**Maevra**
 
-The Cistern Devourer Hunt and other compatible Chapter-1 cleanup content are optional and do not block progression.
-
-No Prime, Last Sentinel, bearer, Entity, or complete ancient-network explanation is added at camp.
-
----
-
-## Person-Brain / presentation check
-
-- Beat 15 remains primarily a cleanup wrapper. It does not invent a mandatory evening conversation to compete with the optional Character-Life scenes.
-- the morning exchange carries forward actual Chapter-1 conversational texture—Torren's evidence/road fixation, Ilyra's growing fascination-annoyance with it, Cyanis's willingness to argue, and Maevra's social quickness—without turning departure into another health-management scene.
-- Ilyra does not invoke `medical continuity`, remind Cyanis about food/sleep, or function as the team's morning readiness monitor. Her participation is argumentative, amused, profane-adjacent, and socially specific.
-- `Not Professionally` remains allowed to be a genuine medical task because the splint change is the scene premise, but its social content is ordinary curiosity/gossip and not proof that Ilyra should default to caretaker dialogue elsewhere.
-- Maevra/Torren Chapter-1 reveal timing is protected: obvious long familiarity, practiced bickering, and mutual stubbornness are visible; exact history and former romance are not.
-- the Briarhide remains **killed**, not driven off.
-- no Junction lore is repeated and no new plot information appears.
+Card:
+**Intact, carried by Cyanis, inert**
 
 ---
 
