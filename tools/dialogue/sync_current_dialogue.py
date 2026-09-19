@@ -255,9 +255,13 @@ def verify_source_closure() -> None:
         if not chapter.index.exists():
             raise RuntimeError(f"Missing chapter authority index: {chapter.index.relative_to(ROOT)}")
         index_text = chapter.index.read_text(encoding="utf-8")
-        if "FULL SOURCE-LEVEL DIALOGUE CLOSURE" not in index_text:
+        closure_markers = (
+            "FULL SOURCE-LEVEL DIALOGUE CLOSURE",
+            "LOCKED CURRENT CHAPTER-1 DIALOGUE",
+        )
+        if not any(marker in index_text for marker in closure_markers):
             raise RuntimeError(
-                f"Chapter {int(chapter.chapter)} is not marked FULL SOURCE-LEVEL DIALOGUE CLOSURE."
+                f"Chapter {int(chapter.chapter)} is not marked with a recognized source-closure status."
             )
 
 
