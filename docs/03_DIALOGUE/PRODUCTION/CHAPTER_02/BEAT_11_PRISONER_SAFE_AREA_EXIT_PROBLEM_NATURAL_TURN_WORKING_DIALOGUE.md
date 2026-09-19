@@ -1,152 +1,179 @@
-# Chapter 2 — Beat 11
-# Prisoner Safe Area / Exit Problem
-## CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN RHYTHM PASS
+# Chapter 2 — Beat 11 — Prisoner Safe Area / Exit Problem
 
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 11 is a brief consolidation-and-decision beat. The prisoners are already free from the local cells; nobody attempts to evacuate them through the Archive.
+### [STORY TRIGGER — LOWER SAFE AREA]
 
----
+The freed prisoners settle into a cleared lower service/watch area beside the secured galleries.
 
-### [A PLACE TO HOLD]
+It has limited approaches and enough room for injured or weakened people to sit or lie down.
 
-The freed group settles into a cleared lower service/watch area adjacent to the secured galleries. It has limited approaches and enough room for weakened prisoners to sit or lie down.
+The prisoners are already helping one another into place. The party does not assign every task.
 
-Maevra takes in the approaches.
+Maevra looks over the approaches.
 
-**MAEVRA:** This works. Two Bastion-side approaches, enough room to keep the injured out of the corridor, and we can fall back into the secured galleries if somebody comes down in force.
+**MAEVRA:** This'll hold better than the gallery corridor. Two ways in from the Bastion side. If either one goes bad, everybody falls back through that door.
 
-Torren checks the nearest corridor.
+She indicates the secured gallery entrance behind them.
 
-**TORREN:** Better than six ways in.
+The **GREENHOLLOW MAN** looks toward one approach.
 
-The **GREENHOLLOW MAN** helps an older prisoner sit, then looks toward one of the approaches.
+**GREENHOLLOW MAN:** I can watch that side.
 
-**GREENHOLLOW MAN:** I can watch that one.
+**MAEVRA:** Watch it. Don't follow anybody out.
 
-**MAEVRA:** Watch it. Don't chase anybody into the hall. If you see Host, you tell the room and come back inside.
+**GREENHOLLOW MAN:** Wasn't planning to.
 
-**GREENHOLLOW MAN:** Wasn't planning to be heroic.
+The wounded soldier shifts where he is sitting.
 
-The wounded soldier shifts where Ilyra left him.
-
-**WOUNDED SOLDIER:** I can take the other corridor sitting down.
+**WOUNDED SOLDIER:** I can see the other one from here.
 
 Ilyra looks at him.
 
-**ILYRA:** Sitting down is the important part. If that wound opens again, the corridor stops being your problem.
+**ILYRA:** From there is fine.
 
-**WOUNDED SOLDIER:** Generous.
+She points to the dressing.
 
-**ILYRA:** I'm capable of worse.
+**ILYRA:** If that starts bleeding again, pressure and stay put.
 
-Around them, the other freed prisoners continue helping each other settle. Nobody waits for the party to assign every task.
+**WOUNDED SOLDIER:** That's the whole medical lecture?
 
----
+**ILYRA:** Do you want the long one?
 
-### [HOW THEY CAME IN]
+**WOUNDED SOLDIER:** No.
 
-Cyanis looks to the Dunmere woman and Greenhollow man.
+**ILYRA:** Good judgment.
 
-**CYANIS:** When they brought you into the Bastion, what route did they use? Start outside.
+The room keeps organizing around them.
 
-**DUNMERE WOMAN:** Main-road side. Gate into a yard, then through the fort and down here. Wide enough for groups, carts if they wanted them. Nothing like the flooded route you came through.
+### [THE REAL WAY OUT]
 
-**GREENHOLLOW MAN:** Same for us. They marched us in together, then split people once we were inside.
+Cyanis looks to the Dunmere woman.
+
+**CYANIS:** When they brought you in, how?
+
+**DUNMERE WOMAN:** Road gate. Into a yard, through the fort, then down. Wide route. Easy enough when you're being marched through it.
+
+The Greenhollow man nods.
+
+**GREENHOLLOW MAN:** Same for us.
 
 Torren looks toward the upper Bastion route.
 
-**TORREN:** Maintained gate, maintained interior path. That's the evacuation route if we can take control of it.
+**TORREN:** Maintained entrance, maintained path. That's how we get everybody out.
 
-Ilyra looks across the injured prisoners.
+The Dunmere woman looks at him.
 
-**ILYRA:** And it's the only route we've heard about that has a chance of getting everybody to daylight without turning the rescue into another endurance test.
+**DUNMERE WOMAN:** Host still owns it.
 
-**WOUNDED SOLDIER:** Host controls it.
+**TORREN:** Yeah.
 
-**CYANIS:** Then we don't have an exit yet.
+Cyanis looks upward.
 
-Maevra looks upward.
+**CYANIS:** Then that's what we take.
 
-**MAEVRA:** And Rhazek controls the Host holding it.
-
-That is the problem in one line; nobody restates it three more ways.
-
----
+No one repeats the logic.
 
 ### [MAEVRA STAYS]
 
-Cyanis looks at Maevra.
+Maevra has already reached the next decision.
 
-**CYANIS:** Maevra—
+**MAEVRA:** I'm staying here.
 
-**MAEVRA:** I'm staying. You need three combat-capable people moving fast upstairs; they need somebody here who can keep this room organized if the Bastion pushes back down. My arm already made the vote easy.
+Cyanis looks at her.
 
-**CYANIS:** I was going to ask.
+**CYANIS:** I figured.
 
-**MAEVRA:** You were going to take too long getting there.
+**MAEVRA:** Good. Saves an argument.
 
-Torren looks around the room.
+She gestures with the splinted arm.
 
-**TORREN:** Better use of her here.
+**MAEVRA:** You three can move fast and fight. I can keep this room from turning into a panic if the fort pushes back down.
 
-**MAEVRA:** Glowing.
+Torren glances around the safe area.
 
-**TORREN:** Accurate.
+**TORREN:** Better use of you here.
 
-Maevra turns back to the prisoners.
+Maevra looks at him.
 
-**MAEVRA:** If Host comes down, we pull into the galleries. Nobody follows them out, nobody leaves alone, and nobody decides a splint makes me decorative.
+**MAEVRA:** You always know exactly how to make support sound flattering.
 
-The Dunmere woman nods.
+**TORREN:** Wasn't trying to.
 
-**DUNMERE WOMAN:** Fine by me.
+**MAEVRA:** I know.
 
-Ilyra gives the wounded soldier one last instruction.
+Ilyra finishes with the wounded soldier and stands.
 
-**ILYRA:** Pressure here if it starts bleeding again. You move only if Maevra says the room has to move.
+**ILYRA:** He stays seated unless the room has to move.
 
-**WOUNDED SOLDIER:** I'm sitting right here.
+**WOUNDED SOLDIER:** Happily.
 
-**MAEVRA:** Good. Then you can complain directly.
+Maevra looks across the freed group.
 
----
+**MAEVRA:** If I say fall back, we fall back together. Nobody runs off alone, nobody chases Host into a corridor, and nobody gets brave because they found a weapon.
 
-### [THE PLAN]
+The Dunmere woman folds her arms.
 
-Cyanis looks across the freed prisoners and speaks loudly enough for the room, not as a speech.
+**DUNMERE WOMAN:** You expecting trouble?
 
-**CYANIS:** We're going up. We take control of the maintained road gate and whatever command layer is keeping it closed. Then we come back down and move everyone out through the fort—not through the Archive.
+**MAEVRA:** I'm expecting a fort.
 
-The Dunmere woman looks toward the ceiling.
+That is enough.
 
-**DUNMERE WOMAN:** And Rhazek?
+### [THE COMMITMENT]
 
-**CYANIS:** If he controls the Bastion, he's part of the job. I'm not promising what shape that takes until we reach him.
+Cyanis looks around the room.
 
-Torren checks his equipment.
+He does not give a speech.
 
-**TORREN:** Quiet while we can. Once the fort knows where we are, that ends.
+**CYANIS:** We're going up. We take the road exit from them, then we come back for all of you.
 
-**ILYRA:** Then use the quiet while it exists.
+The Dunmere woman meets his eyes.
 
-Cyanis looks at both of them, then back to Maevra.
+**DUNMERE WOMAN:** You said that already.
 
-**CYANIS:** We secure the exit. We come back.
+**CYANIS:** I know.
+
+A beat.
+
+**DUNMERE WOMAN:** Good.
+
+Torren checks his gear.
+
+**TORREN:** Quiet's probably about to run out.
+
+Ilyra looks toward the stairs.
+
+**ILYRA:** Then let's not waste what's left of it.
+
+Cyanis looks once at Maevra.
+
+She nods toward the route.
 
 **MAEVRA:** Go.
 
-**Objective:** Ascend the Old Bastion.
+The trio leaves the lower safe area.
 
-Control returns with the commandable party **Cyanis + Ilyra + Torren**. Maevra remains in the lower safe area with the freed prisoners and never becomes a combat unit.
+### [GAMEPLAY HANDOFF]
 
----
+Commandable party:
+**Cyanis + Ilyra + Torren**
 
-## Natural-turn / knowledge check
+Maevra remains with the freed prisoners and never becomes a combat unit.
 
-- Maevra can give a complete safe-area plan instead of distributing it across several short confirmations.
-- Prisoners provide the maintained-gate route as complete remembered experience.
-- Ilyra explains why that route matters for the injured in one practical turn.
-- Maevra's decision to stay is her own complete tactical judgment, not a sequence of other people assigning her a role.
-- Cyanis gives the rescue plan once to the room rather than repeating it in fragments.
-- No story, route, Rhazek, party, or reveal outcome changed.
+Known:
+- the prisoners have a defensible lower holding position;
+- they retain agency inside it and participate in their own defense;
+- the concealed Archive route is not the evacuation route;
+- prisoners were originally brought through a maintained Bastion road gate and interior path;
+- that maintained route is the practical evacuation route if the party can take control of it;
+- the active Black Host command layer still controls the fort above;
+- Maevra remains below to organize the safe area;
+- Cyanis, Ilyra, and Torren are going upward to break that control;
+- the party has repeated its promise to return only because a prisoner deliberately calls back to the promise from Beat 10, not because the script needs another mission summary.
+
+**Objective: Ascend the Old Bastion.**
+
+Next mandatory beat:
+**Bastion Command Ascent**

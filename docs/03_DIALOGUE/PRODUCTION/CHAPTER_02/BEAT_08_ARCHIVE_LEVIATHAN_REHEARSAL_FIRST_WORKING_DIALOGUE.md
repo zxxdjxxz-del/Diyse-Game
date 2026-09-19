@@ -1,102 +1,137 @@
 # Chapter 2 — Beat 8 — Archive Leviathan
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN AUDITED / INTENTIONALLY TERSE  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-`Archive Leviathan` is the production/encounter name. The characters do not know or need to speak that name.
+### [STORY TRIGGER — FLOODED CHAMBER]
 
----
+Cyanis, Ilyra, and Torren enter the flooded chamber.
 
-### [THE CHAMBER]
+Maevra remains at the raised landing behind them.
 
-Cyanis, Ilyra, and Torren enter the flooded chamber. Maevra remains at the raised position behind them.
+The water surges.
 
-The water surges. The large creature responsible for the disturbances moves into clear view and occupies the usable way across the chamber.
+The creature responsible for the disturbances finally moves into clear view and occupies the usable route across the chamber.
+
+The production/encounter name is **Archive Leviathan**. The characters do not know or use that name.
+
+Torren reacts first.
 
 **TORREN:** Back from the edge.
 
 The trio shifts onto firmer footing as the creature turns toward them.
 
-**CYANIS:** That's our problem.
+Cyanis looks past it once, toward the route beyond.
 
-**TORREN:** Yeah.
+**CYANIS:** That's in our way.
 
-Ilyra watches the water around it rather than trying to identify the creature.
+**TORREN:** Very.
 
-**ILYRA:** Stay where you can plant your feet.
+Ilyra watches the water around the creature.
 
-**CYANIS:** Can we get around it?
+**ILYRA:** Keep your footing. It moves, the whole floor moves with it.
 
-Torren checks the far side and the available footing.
+Cyanis checks the usable space.
+
+**CYANIS:** Around?
+
+Torren looks once.
 
 **TORREN:** Not while it's there.
 
-The creature moves again, sending water across the chamber.
+The creature surges forward.
 
-**ILYRA:** And it knows we're here.
+Cyanis sets himself.
 
-Cyanis looks toward the route behind it.
+**CYANIS:** Then it's not staying there.
 
-**CYANIS:** Then we clear the room.
+Torren draws.
 
-**TORREN:** Yeah.
+**TORREN:** Works for me.
 
-**Boss encounter begins.**
+Ilyra readies herself.
 
-Combat party: **Cyanis + Ilyra + Torren**. Maevra does not enter battle.
+No one adds anything else.
 
----
+### [BOSS — ARCHIVE LEVIATHAN]
+
+Combat party:
+**Cyanis + Ilyra + Torren**
+
+Maevra remains outside the combat space.
+
+Story-facing encounter structure remains the current one-HP-bar / two-behavior-state structure unless encounter authority revises it.
+
+No combat dialogue is required beyond sparse implementation barks if encounter design needs them.
 
 ### [AFTER THE BATTLE]
 
-The creature is defeated and no longer contests the chamber. Exact defeat animation/final physical state belongs to encounter presentation, but the route is no longer blocked by its active presence.
+The creature is defeated.
 
-The water settles enough for the trio to reassess.
+The chamber settles gradually.
 
-**CYANIS:** Everyone?
+For a moment, nobody speaks.
 
-**ILYRA:** Here.
+Cyanis looks to Ilyra and Torren.
 
-**TORREN:** Yeah.
+**CYANIS:** Good?
 
-From the raised position behind them:
+**ILYRA:** Yeah.
 
-**MAEVRA:** Three?
+**TORREN:** Still here.
 
-Cyanis looks back.
+From the raised landing:
 
-**CYANIS:** Three.
+**MAEVRA:** That's three voices. I'll take it.
 
-**MAEVRA:** Good.
+Cyanis looks back toward her.
 
-Once Torren is satisfied the chamber is safe enough, Maevra rejoins them.
+**CYANIS:** You sound relieved.
 
-Torren checks the far side where the creature had been controlling the route.
+**MAEVRA:** Don't ruin it.
 
-**TORREN:** We can cross now.
+Cyanis almost smiles.
 
-**CYANIS:** Where does it go?
+Torren checks the far side of the chamber.
 
-Torren looks farther into the newly accessible continuation.
+**TORREN:** Route's open.
 
-**TORREN:** Don't know.
+Maevra rejoins them once the crossing is safe enough.
 
-**ILYRA:** But it goes.
+Ilyra looks toward the newly accessible continuation.
 
-**TORREN:** Yeah.
+**ILYRA:** Any idea where that goes?
 
-Maevra looks toward the way ahead.
+Torren studies it.
 
-**MAEVRA:** Then that's enough.
+**TORREN:** No.
 
-**CYANIS:** For now.
+A beat.
 
-**Objective:** Follow the newly accessible route.
+**TORREN:** But it goes somewhere.
 
-Control returns. Beat 8 does not reveal the secret passage itself; exploration beyond the boss carries the party into Beat 9.
+**CYANIS:** Strong standard.
 
----
+**TORREN:** Been working so far.
 
-## Natural-turn audit note
+Maevra starts toward the crossing.
 
-This scene is intentionally terse. Immediate creature threat, battle threshold, post-fight headcount, and route re-evaluation all benefit from short practical turns. Nobody has enough knowledge to justify a longer explanation, and expanding the exchange would slow boss pacing. No dialogue change was required.
+**MAEVRA:** Then let's keep abusing it.
+
+The group moves on.
+
+### [GAMEPLAY HANDOFF]
+
+Player control returns.
+
+Known:
+- the creature blocking the chamber has been defeated;
+- the route across the chamber is now usable;
+- Maevra remains uninjured enough to continue traveling but never participated in combat;
+- the party still does not know exactly where the deeper route leads;
+- no new Ancient lore is revealed by the victory itself;
+- the secret passage has not yet been discovered.
+**Objective: Follow the newly accessible route.**
+
+Next mandatory beat:
+**Secret Passage Discovery**

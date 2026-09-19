@@ -1,14 +1,25 @@
 # Chapter 2 — Beat 12 — Bastion Command Ascent
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NOT LOCKED  
-**Owning cumulative manuscript:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 12 is exploration/gameplay-first. Maevra remains with the freed prisoners in the lower safe area. The commandable party is **Cyanis + Ilyra + Torren**.
+### [GAMEPLAY — ACTIVE FORT]
 
-## [ACTIVE FORT]
+Cyanis, Ilyra, and Torren leave the lower safe area and begin ascending through the working levels of the Old Bastion.
 
-The trio leaves the secured lower galleries and begins ascending into the working levels of the Old Bastion.
+Maevra remains below with the freed prisoners.
+
+This is not an abandoned enemy dungeon.
+
+The fort is active:
+- messengers move between posts;
+- guards rotate through maintained checkpoints;
+- supplies are stacked for actual use;
+- weapons and equipment are being maintained;
+- wounded Black Host soldiers are receiving legitimate care;
+- personnel move toward the road gate, yard, stairs, and command spaces according to current orders.
+
+The trio remains unnoticed at first.
 
 At the first active service junction, Torren raises a hand.
 
@@ -16,190 +27,236 @@ At the first active service junction, Torren raises a hand.
 
 They stop.
 
-Boots cross somewhere ahead. Voices follow.
+Boots cross ahead.
 
-A Black Host runner passes through the next corridor without seeing them.
+A **HOST RUNNER** passes through the next corridor without seeing them.
 
 **HOST RUNNER:** West watch wants another pair at the road gate.
 
-An unseen soldier answers from farther inside.
+An unseen soldier answers.
 
-**HOST SOLDIER:** After relief. Tell them five minutes.
+**HOST SOLDIER:** After relief. Five minutes.
 
-The runner moves on.
+**HOST RUNNER:** Tell them themselves.
 
-Torren waits until the corridor clears.
+The runner keeps moving.
 
-**CYANIS:** They're settled in.
+Torren waits.
 
-**TORREN:** Yeah.
+Through an open side doorway, Ilyra catches sight of a Black Host medic replacing a dressing on a wounded soldier.
 
-Ilyra glances through an open side doorway.
+She looks at Torren.
 
-Inside, a Black Host medic is changing the dressing on a wounded soldier while another rests nearby. Neither is part of the active patrol route.
+He has already found another route.
 
-**ILYRA:** Infirmary.
+**TORREN:** Around.
 
-Torren checks the alternate corridor.
+**ILYRA:** Good.
 
-**TORREN:** Can go around.
+Cyanis looks once through the doorway, then follows.
 
-**CYANIS:** Go around.
+Nobody needs a discussion about whether wounded people receiving care are combat targets.
 
-Ilyra looks at him.
+### [GAMEPLAY HANDOFF]
 
-**ILYRA:** Wasn't arguing.
+Player control resumes.
 
-**CYANIS:** I know.
+The player moves through a coherent, functioning military position.
 
-Torren gestures them forward.
+Ordinary armed Black Host soldiers encountered in active defense remain enemies under encounter authority.
 
-**TORREN:** Now.
+Incapacitated wounded, noncombat medical personnel, and support personnel who are not participating in combat are not converted into targets merely because they belong to the Black Host.
 
-Control returns.
+No transfer manifest, exact captive total, destination ledger, or replacement for the retired records beat appears.
 
-The player advances through an active military fort: maintained supply rooms, ration stores, weapon/equipment spaces, quarters, messenger routes, checkpoints, guard posts, prisoner-handling support spaces, and connections toward the road-side yard and gate. These spaces should look used and functional rather than staged for the heroes.
+### [STORY TRIGGER — THE ALARM]
 
-Ordinary Black Host soldiers encountered during traversal remain normal enemies under encounter authority. Legitimate medical personnel and incapacitated wounded are not treated as combat targets merely because they are Black Host.
+After a meaningful stretch of ascent, the trio reaches an occupied checkpoint.
 
-No transfer manifest, exact captive total, onward destination record, or substitute for the retired records beat appears.
-
-## [THE BASTION WAKES]
-
-After a meaningful gameplay ascent, the trio reaches an occupied checkpoint where concealment finally fails.
-
-A sentry catches sight of them.
+A sentry sees them.
 
 **HOST SENTRY:** Contact! Lower ascent!
 
-The sentry immediately raises the alarm rather than delivering a villain speech.
+The sentry raises the alarm immediately.
 
-A shouted chain of orders carries upward through the fort.
+No speech. No challenge ritual.
 
-**HOST VOICE:** Seal the upper stair! Runner to command!
+Orders carry through the fort.
 
-Movement changes around them. Doors shut. Boots converge on useful defensive positions rather than appearing from nowhere.
+**HOST VOICE:** Seal the upper stair!
 
-Cyanis looks toward the route ahead.
+Another voice farther away:
+
+**HOST VOICE:** Runner to command!
+
+Doors close.
+
+Boots move toward defensible positions.
+
+Cyanis looks ahead.
 
 **CYANIS:** There goes quiet.
 
-**TORREN:** Lasted longer than I expected.
+Torren draws.
 
-**ILYRA:** Compliment?
+**TORREN:** Had a good run.
 
-Torren starts moving.
+**ILYRA:** I was getting attached.
 
-**TORREN:** Maybe.
+**TORREN:** Mistake.
 
-**CYANIS:** I'll take it.
+Cyanis starts forward.
 
-Control returns in an alert-state section of the Bastion.
+**CYANIS:** Grieve later.
 
-The Host response is organized but finite. Existing soldiers reposition toward chokepoints, upper stairs, and command access. The fort does not generate endless reinforcements. Support personnel move out of the fighting where plausible; wounded soldiers are not used as shields or disposable obstacles.
+The trio pushes through.
 
-## [THE RESPONSE]
+### [GAMEPLAY — ALERT STATE]
 
-After the trio pushes through another section, they pause behind cover while Host movement shifts above them.
+The Old Bastion shifts into an organized alert state.
+
+The response is finite and geographically coherent:
+- guards abandon exposed positions for chokepoints;
+- upper routes are reinforced;
+- runners carry orders;
+- support personnel clear active fighting areas;
+- wounded are moved where practical;
+- nobody materializes as an endless reinforcement stream.
+
+The trio fights upward through that response.
+
+### [STORY TRIGGER — RESPONSE SHIFT]
+
+After another section, the trio pauses briefly behind cover while Black Host movement changes above them.
 
 Torren listens.
 
 **TORREN:** They're pulling inward.
 
-**ILYRA:** Toward us?
+Cyanis waits for the rest.
 
-**TORREN:** Toward what matters.
+Torren gives it.
 
-Cyanis looks upward.
+**TORREN:** Command stair. Gate controls. Anything they can't afford to lose.
 
-**CYANIS:** Command.
+**CYANIS:** Same direction for us.
 
-**TORREN:** And the gate controls.
+**TORREN:** Mostly.
 
-**CYANIS:** Same direction?
+**CYANIS:** I hate that word.
 
-**TORREN:** For now.
+**TORREN:** You've survived it so far.
 
-**CYANIS:** Beautiful.
-
-**TORREN:** Don't get attached.
-
-Another order carries from above.
+Ilyra listens to another shouted order above.
 
 **HOST VOICE:** Hold the command stair! Lower levels stay contained!
 
-Ilyra looks at Torren.
+She looks toward the sound.
 
-**ILYRA:** They know we're headed up.
+**ILYRA:** They still think the problem started down here.
 
-**TORREN:** They know where they'd stop us.
+Torren nods.
 
-Cyanis catches the implication.
+**TORREN:** Good.
 
-**CYANIS:** So they still don't know how we got in.
+Cyanis looks back the way they came.
 
-**TORREN:** Looks that way.
+**CYANIS:** Keep them looking up.
 
-**CYANIS:** Good. Keep it that way.
-
-**ILYRA:** Then we don't give them time to search downward.
+**TORREN:** That's the idea.
 
 Torren points toward a side connection.
 
 **TORREN:** Left.
 
-**CYANIS:** Why?
+Cyanis moves without asking why.
 
-**TORREN:** Supply access. Fewer chokepoints.
+Ilyra notices.
 
-Ilyra is already moving.
+**ILYRA:** Trainable.
 
-**ILYRA:** Lead.
+Cyanis gives her a look while moving.
 
-**Objective:** Reach the Bastion command level.
+**CYANIS:** You too?
 
-Gameplay resumes. The ascent should feel like fighting through a coherent defensive response, not clearing unrelated dungeon rooms.
+**ILYRA:** It's spreading.
 
-## [COMMAND LEVEL]
+Torren almost smiles.
 
-After the trio breaks through the final upper checkpoint, the immediate noise falls behind them. The command-level corridor is more controlled and purpose-built than the lower service spaces.
+The moment ends as they re-enter the fight.
 
-Torren checks the route ahead.
+### [GAMEPLAY — FINAL ASCENT]
+
+The trio continues upward.
+
+The Bastion response gets tighter, not larger.
+
+The closer they get to command, the more deliberate the defenses become.
+
+They pass evidence of ordinary military function even under alarm:
+- a runner redirecting personnel instead of panicking;
+- wounded being moved away from an exposed corridor;
+- a quartermaster ordering supplies abandoned rather than soldiers dying to protect crates;
+- gate personnel being told to hold their post rather than chase intruders through the interior.
+
+This is a system under pressure, not a collection of disposable enemies.
+
+### [STORY TRIGGER — COMMAND LEVEL]
+
+The trio breaks through the final upper checkpoint.
+
+The immediate noise falls behind them.
+
+The corridor ahead is more controlled and purpose-built.
+
+Torren checks the layout once.
 
 **TORREN:** Command level.
 
-**CYANIS:** Rhazek.
+Cyanis catches his breath.
 
-**ILYRA:** Assume he knows we're coming.
+**CYANIS:** Finally.
 
-**TORREN:** Knows somebody is.
+Ilyra looks toward the next secured doorway.
 
-Cyanis looks back down the route they fought through, then toward the command rooms.
+**ILYRA:** He knows we're here by now.
 
-**CYANIS:** We finish this, secure the gate, go back for everyone.
+**TORREN:** Knows someone's here.
 
-**ILYRA:** Yes.
+Cyanis looks at the door.
 
-Torren looks toward the next door.
+**CYANIS:** Good enough.
 
-**TORREN:** There.
+Torren gives him a sideways glance.
 
-Cyanis steps toward it.
+**TORREN:** Careful. That's mine.
 
-**CYANIS:** Let's go.
+Cyanis almost smiles.
 
-**Objective:** Confront Commander Rhazek.
+**CYANIS:** Borrowing it.
 
-Beat 12 ends **before** the command-room scene begins. Beat 13 opens with Rhazek already engaged in command work and the unnamed masked officer already reporting to him.
+Ilyra steps toward the door.
 
-## Beat-12 knowledge checkpoint
-- The trio has confirmed the Old Bastion is a fully functioning Black Host military installation with real staffing, logistics, messenger traffic, guard routines, support spaces, and medical care.
-- The Black Host maintains and actively controls the road-side gate/yard the prisoners need for evacuation.
-- The trio does not attack incapacitated wounded or medical personnel simply because they are Black Host.
-- No transfer ledger, exact total, destination record, or retired records-beat substitute appears.
-- The trio's covert advantage lasts through the early ascent, then an ordinary sentry/checkpoint raises the alarm.
-- The Host response becomes organized but remains finite and geographically coherent.
-- The Host knows intruders are moving upward but **does not know about the Ancient secret passage or exactly how the trio entered**.
-- Cyanis, Ilyra, and Torren understand that keeping pressure upward helps protect the hidden lower route and prevents the Host from having time to investigate downward.
-- The trio reaches the command level with the immediate goal unchanged: break Rhazek's local control, secure the maintained road exit, then return for Maevra and the freed prisoners.
+**ILYRA:** Argue ownership later.
+
+The trio moves in.
+
+### [GAMEPLAY HANDOFF]
+
+Beat 12 ends before the command-room scene begins.
+
+Known:
+- the Old Bastion is a functioning Black Host military installation;
+- the Black Host maintains real guard routines, logistics, messenger traffic, supply spaces, support roles, and medical care;
+- the road-side gate and yard remain under organized Black Host control;
+- the trio does not target incapacitated wounded or noncombat medical personnel merely for being Black Host;
+- the covert advantage has ended;
+- the Host response is organized but finite;
+- the Host knows intruders are moving upward but does **not** know about the Ancient secret passage or exactly how the trio entered;
+- the trio has deliberately kept pressure moving upward rather than giving the fort time to investigate the lower route;
 - Rhazek and the masked officer remain unseen until Beat 13.
+
+**Objective: Confront Commander Rhazek.**
+
+Next mandatory beat:
+**Rhazek / Masked Officer**

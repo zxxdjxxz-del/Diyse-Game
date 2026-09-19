@@ -1,15 +1,30 @@
 # Chapter 2 — Beat 7 — Archive Depths
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN AUDITED / INTENTIONALLY TERSE  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 7 is exploration-first. After the mural, the Archive becomes materially harder to traverse. No second major lore reveal occurs here.
+### [GAMEPLAY — ARCHIVE DEPTHS]
 
----
+Player control is active.
 
-### [SOMETHING IN THE WATER]
+The party continues beyond the western mural.
 
-After a meaningful stretch of deeper exploration, the party reaches another flooded section. Torren is guiding through the damaged route.
+This section is exploration-first.
+
+Environmental pressure increases:
+- deeper flooding;
+- damaged or narrowed routes;
+- unstable footing;
+- worsening visibility;
+- stronger evidence that something large is moving through the flooded structure.
+
+There is **no second major lore reveal**.
+
+Most traversal is silent.
+
+### [STORY TRIGGER — MOVEMENT IN THE WATER]
+
+After a meaningful stretch of exploration, the party reaches a deeper flooded section.
 
 Torren stops.
 
@@ -17,142 +32,89 @@ Torren stops.
 
 The others stop.
 
-**CYANIS:** What?
+Water moves across the chamber after the party has already gone still.
 
-Torren watches the water.
-
-**TORREN:** Don't move.
-
-They stay still.
-
-The water continues to shift across the chamber.
-
-Ilyra notices it too.
+Ilyra watches it.
 
 **ILYRA:** That's not us.
 
 **TORREN:** No.
 
-Maevra looks toward the darker route ahead.
+A low impact carries through the structure.
 
-**MAEVRA:** Building settling?
+Maevra looks into the darker route ahead.
 
-A low impact carries through the structure. The water changes again.
+**MAEVRA:** Settling?
 
-Torren waits a moment before answering.
+Torren waits.
 
-**TORREN:** Maybe.
-
-**CYANIS:** You believe that?
-
-**TORREN:** Less than I did a second ago.
-
-Ilyra keeps watching the water.
-
-**ILYRA:** Something moved.
-
-**MAEVRA:** Big something.
-
-Torren looks ahead.
-
-**TORREN:** Yeah.
-
-A beat.
-
-**CYANIS:** Still our direction?
-
-**TORREN:** Yeah.
-
-**CYANIS:** Of course it is.
-
-Torren starts forward carefully.
-
-**TORREN:** Watch your footing.
-
-Control returns.
-
-No one identifies or names what caused the disturbance.
-
----
-
-### [NO CLEAN WAY AROUND]
-
-Later, after more exploration, the surviving route narrows toward a deeper flooded chamber. Nearby alternatives are visibly unusable or have already proven not to advance.
-
-At a natural stop, Torren checks the available paths.
-
-**CYANIS:** Options?
-
-**TORREN:** Back.
-
-Cyanis waits.
-
-**CYANIS:** And?
-
-Torren indicates the route ahead.
-
-**TORREN:** Forward.
-
-**CYANIS:** That's not much of a list.
-
-**TORREN:** Didn't build the place.
-
-Ilyra looks toward one damaged side route.
-
-**ILYRA:** Nothing through there?
-
-**TORREN:** Doesn't carry us anywhere useful.
-
-Maevra looks toward the water ahead as another distant movement rolls through it.
-
-**MAEVRA:** And forward is where that is.
-
-**TORREN:** Yeah.
-
-**CYANIS:** We need through.
-
-**ILYRA:** Then we deal with what's there.
-
-Torren's attention shifts to a raised intact recess/landing just before the deeper chamber.
-
-**TORREN:** Maevra.
-
-She has already seen it.
-
-**MAEVRA:** I know.
-
-**TORREN:** Stay up there.
-
-**MAEVRA:** Was planning to.
-
-Cyanis looks at her.
-
-**CYANIS:** We'll come back.
-
-**MAEVRA:** Yes, Dovaren. That's generally how this works.
-
-Cyanis gives her a look.
-
-**MAEVRA:** Go.
-
-The trio turns toward the deeper chamber.
-
-Another heavier movement passes through the water beyond the threshold.
-
-Ilyra watches it.
-
-**ILYRA:** That's definitely not settling.
+Another movement follows.
 
 **TORREN:** No.
 
-**CYANIS:** Then let's find out what we're dealing with.
+Cyanis looks toward the route onward.
 
-**Objective:** Enter the flooded chamber.
+**CYANIS:** Still ahead?
 
-Beat ends at the threshold. The actual creature reveal and confrontation belong to Beat 8.
+**TORREN:** Yeah.
 
----
+Cyanis exhales.
 
-## Natural-turn audit note
+**CYANIS:** Naturally.
 
-This beat is intentionally terse. The dialogue is suspense-driven, occurs inside an unknown hostile flooded ruin, and depends on incomplete observations. Expanding those turns would reduce tension and falsely increase certainty. The short turns are therefore preserved as deliberate cadence rather than one-sentence-editor artifact.
+Player control resumes.
+
+No one identifies what caused the movement.
+
+### [GAMEPLAY — DEEPER ROUTE]
+
+The party continues through normal exploration.
+
+Nearby side paths are collapsed, flooded beyond use, or reconnect without providing meaningful forward progress.
+
+The route gradually funnels toward a large deeper chamber.
+
+There is no separate dialogue scene explaining that the party has no alternate route.
+
+### [STORY TRIGGER — LEVIATHAN CHAMBER APPROACH]
+
+The party reaches the final approach.
+
+Another heavy movement disturbs the water beyond the threshold.
+
+Maevra spots a raised intact landing before the chamber.
+
+**MAEVRA:** I'll stay here.
+
+Torren checks the position once.
+
+**TORREN:** Good.
+
+Cyanis looks into the flooded chamber.
+
+**CYANIS:** We need through.
+
+Ilyra watches the water shift again.
+
+**ILYRA:** Then through.
+
+Torren readies himself.
+
+**TORREN:** Move.
+
+The trio enters.
+
+### [GAMEPLAY HANDOFF]
+
+Beat 7 ends at the chamber threshold.
+
+Known:
+- something very large is moving through the flooded Archive;
+- the party does not yet know exactly what it is;
+- the surviving route continues through the chamber ahead;
+- there is no useful alternate route;
+- Maevra remains at the safe raised landing and does not enter combat;
+- no additional Ancient-system information has been revealed.
+
+Next mandatory beat:
+**Archive Leviathan**

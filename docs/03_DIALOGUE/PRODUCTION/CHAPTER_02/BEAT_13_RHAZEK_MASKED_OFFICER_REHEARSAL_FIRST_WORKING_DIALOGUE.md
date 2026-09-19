@@ -1,22 +1,27 @@
 # Chapter 2 — Beat 13 — Rhazek / Masked Officer
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — SPOKEN/NARRATION AUDIT CURRENT — NOT LOCKED  
-**Owning cumulative manuscript:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`  
-**Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
-**Writer-facing identity note:** the unnamed masked officer in this scene is **Seyrik Rell**. The player-facing scene does not name him, identify him, or frame him as a future party member.
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
+**Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 13 begins immediately after Cyanis, Ilyra, and Torren reach the Old Bastion command level. Maevra remains below with the freed prisoners.
+### [STORY TRIGGER — COMMAND ROOM]
 
-Hard scene rule:
-> **Rhazek is already commanding the Bastion when the party arrives. The masked officer is already reporting to him. Neither character is staged as though waiting for the heroes to enter.**
+Cyanis, Ilyra, and Torren reach the Old Bastion command level.
 
----
+Maevra remains below with the freed prisoners.
 
-## [REPORT IN PROGRESS]
+The command room is active.
 
-The command room is active rather than ceremonial. Rhazek is working from current fort information when Cyanis, Ilyra, and Torren reach the entrance.
+Commander Rhazek is not waiting for the heroes. He is already working from current fort reports.
 
-An unnamed **MASKED OFFICER** is already giving him a concise report.
+An unnamed **MASKED OFFICER** is standing at the command table with him.
+
+Writer-facing truth:
+**the masked officer is Seyrik Rell.**
+
+Player-facing:
+he is never named, identified, or framed as a future party member.
+
+The trio arrives while the report is already in progress.
 
 **MASKED OFFICER:** South stair is lost. Upper east still holds. Road gate is secure.
 
@@ -30,13 +35,15 @@ Rhazek considers that for only a moment.
 
 **MASKED OFFICER:** Understood.
 
-Cyanis, Ilyra, and Torren enter before the report can continue.
+Cyanis, Ilyra, and Torren enter.
 
 Rhazek looks at them.
 
-He does not reach for theatrics or pretend surprise.
+No theatrical surprise.
 
-**RHAZEK:** So that's what reached my command stair.
+No challenge speech.
+
+**RHAZEK:** There you are.
 
 Cyanis stops at a practical fighting distance.
 
@@ -48,23 +55,19 @@ Rhazek studies him briefly.
 
 **CYANIS:** Your prisoners do.
 
-A beat.
+Rhazek does not correct the word.
 
-The masked officer's attention shifts to the trio. He remains ready, but does not move to begin a separate confrontation.
+**RHAZEK:** I would expect them to.
 
-Torren takes in the room, the exits, and the officer without staring at him.
+The masked officer shifts his attention to the trio.
 
-**TORREN:** Gate's still held.
+He remains ready but does not move to begin a separate confrontation.
 
-**ILYRA:** Then we're not finished.
+Torren takes in the exits, the gate-side route, and the second officer.
 
-Rhazek hears both of them.
+He says nothing yet.
 
-**RHAZEK:** No. You're not.
-
----
-
-## [WHO OWNS THE ORDER]
+### [THE ORDER]
 
 Cyanis keeps his attention on Rhazek.
 
@@ -72,129 +75,231 @@ Cyanis keeps his attention on Rhazek.
 
 **RHAZEK:** Yes.
 
-The direct answer lands harder than an excuse would have.
-
 **CYANIS:** Your order?
 
 **RHAZEK:** Mine.
 
 A beat.
 
-**RHAZEK:** If you came looking for a guard to blame, don't waste your time. The seizures are authorized here because I authorized them.
+Rhazek does not soften it.
+
+**RHAZEK:** The corridor is under Black Host authority. Movement through it is controlled. Those taken into custody were assigned for transfer.
 
 Ilyra's expression hardens.
 
-**ILYRA:** Some of those people can barely walk.
+**ILYRA:** Assigned.
+
+Rhazek looks at her.
+
+**RHAZEK:** Yes.
+
+**ILYRA:** Some of them can barely walk.
 
 **RHAZEK:** I know.
 
-**ILYRA:** And groups were still being moved out.
+**ILYRA:** And you moved them anyway.
 
-**RHAZEK:** They were never meant to remain here.
+**RHAZEK:** Their condition changes how they are moved. It does not cancel the order.
 
-**CYANIS:** Moved where?
+A quiet beat.
+
+Ilyra looks at him for a second longer.
+
+There is no misunderstanding to clear up.
+
+Cyanis speaks.
+
+**CYANIS:** They didn't agree to any of this.
+
+Rhazek's answer comes without hesitation.
+
+**RHAZEK:** Agreement is not the standard.
+
+That lands.
+
+Cyanis's expression changes.
+
+**CYANIS:** For you.
+
+**RHAZEK:** For a functioning state.
+
+He does not raise his voice.
+
+**RHAZEK:** You keep treating refusal as though it dissolves authority. It does not.
+
+Torren finally speaks.
+
+**TORREN:** Convenient.
 
 Rhazek looks at him.
 
-**RHAZEK:** Not information you need.
+**RHAZEK:** Necessary.
 
-**CYANIS:** You put people in cages. I think we passed "need."
+Torren's face says exactly what he thinks of that.
 
-Rhazek does not rise to the provocation.
+He does not argue the whole political theory of the Black Host in the command room.
 
-**RHAZEK:** You found a holding site and mistook access for authority.
+### [WHERE THE OTHERS WENT]
 
-Torren speaks without taking his eyes off the practical exits.
+Cyanis returns to the immediate point.
 
-**TORREN:** Transit.
+**CYANIS:** Where did you send the earlier groups?
 
-Rhazek gives him nothing more.
+**RHAZEK:** You do not have authority to receive that information.
+
+Cyanis gives a short, humorless laugh.
+
+**CYANIS:** That's your answer?
+
+**RHAZEK:** It is the answer.
+
+**CYANIS:** You put people in cages and move them somewhere they don't want to go.
+**RHAZEK:** Correct.
+
+Another beat.
+
+**RHAZEK:** You object to the policy. That does not give you standing inside my command.
+
+Cyanis looks around the room they fought their way into.
+
+**CYANIS:** I think we're past asking for standing.
+
+Rhazek's eyes narrow slightly.
+
+**RHAZEK:** Yes.
+
+For the first time, there is the faintest edge of professional irritation.
+
+**RHAZEK:** That is becoming obvious.
 
 No one gets the onward destination from him.
 
----
+### [THE MASKED OFFICER LEAVES]
 
-## [THE MASKED OFFICER LEAVES]
+A distant impact carries from elsewhere in the upper Bastion.
 
-A distant impact and shouted order carry from elsewhere in the upper Bastion.
+A shouted report follows.
+
+**HOST VOICE:** West stair falling back!
 
 Rhazek looks to the masked officer.
 
 **RHAZEK:** West stair.
 
-The officer waits for the rest.
+The officer waits for the full order.
 
-**RHAZEK:** Get the wounded clear of the upper corridor. Keep the road gate secured. No one abandons a post to chase intruders through the lower levels.
+**RHAZEK:** Clear the wounded from the upper corridor. Gate stays staffed. No one abandons a post to chase intruders into the lower levels.
 
-**MASKED OFFICER:** Commander.
+**MASKED OFFICER:** Understood.
 
-The masked officer turns toward a separate command-side route.
+The masked officer turns toward the command-side route.
 
-Cyanis shifts half a step, but Rhazek moves his attention—and the immediate confrontation—squarely onto the trio.
+Cyanis shifts half a step.
 
-**RHAZEK:** You came for me. Stay focused.
+Rhazek notices.
 
-The officer exits without a speech, identity reveal, challenge, or fight.
+**RHAZEK:** Leave him.
 
-Torren watches the route close behind him, then looks back to Rhazek.
+Cyanis looks back to Rhazek.
 
-**TORREN:** Gate first after this.
+**RHAZEK:** You came here for command authority. It is here.
 
-**CYANIS:** Yeah.
+The masked officer exits.
 
-Ilyra looks at Rhazek.
+No identity reveal.
 
-**ILYRA:** After this.
+No threat.
 
----
+No speech.
 
-## [NOTHING LEFT TO DISCUSS]
+No fight.
 
-Rhazek finally gives the trio his full attention.
+Torren watches the route close behind him.
 
-**RHAZEK:** You disrupted my fort. That is not the same as taking it.
+**TORREN:** Gate's still held.
+
+**CYANIS:** I know.
+
+### [AUTHORITY]
+
+Rhazek gives the trio his full attention.
+
+**RHAZEK:** You have disrupted my interior. That is not the same as taking the Bastion.
 
 **CYANIS:** No.
 
-A beat.
+Cyanis looks toward the road-side side of the fort.
 
-**CYANIS:** That's why we're still here.
+**CYANIS:** That's next.
 
-Rhazek studies him.
+Rhazek understands immediately.
 
-**RHAZEK:** The prisoners are not leaving through that gate.
+**RHAZEK:** The detainees are not leaving through that gate.
+
+Ilyra answers before Cyanis does.
 
 **ILYRA:** They are.
 
-**RHAZEK:** Then you intend to take it from me.
+Rhazek looks at her.
 
-Cyanis does not make a speech out of the answer.
+**RHAZEK:** On whose authority?
 
-**CYANIS:** Yeah.
+Ilyra's expression barely changes.
 
-Rhazek's posture changes from command conversation to open confrontation.
+**ILYRA:** Theirs.
 
-**RHAZEK:** Then there is nothing left to discuss.
+That answer means almost nothing inside Rhazek's framework.
+
+Which is exactly why it matters.
+
+Rhazek looks back to Cyanis.
+
+**RHAZEK:** You intend to substitute your judgment for mine by force.
+
+Cyanis does not pretend otherwise.
+
+**CYANIS:** Here? Yeah.
+
+Rhazek gives a small nod.
+
+Not approval.
+
+Recognition.
+
+**RHAZEK:** Then at least we understand the disagreement.
+
+He shifts fully from command conversation to combat readiness.
+
+**RHAZEK:** There is nothing left to discuss.
 
 Cyanis readies himself.
 
 **CYANIS:** Good.
 
-**Objective:** Defeat Commander Rhazek.
+### [BOSS HANDOFF]
 
-Beat 13 ends here. The actual boss encounter begins in **Beat 14 — Commander Rhazek / Bastion Master**.
+**Objective: Defeat Commander Rhazek.**
 
----
+Beat 13 ends here.
 
-## Beat-13 audit checkpoint
-- The trio finds Rhazek already running the Old Bastion during an active alert rather than waiting theatrically for them.
-- The unnamed masked officer is already reporting on the fort's condition when the party arrives.
-- Player-facing, the officer remains **unnamed, masked, professional, and clearly Black Host-aligned**. No future-party framing occurs.
-- Writer-facing, the masked officer is **Seyrik Rell**.
-- Rhazek directly confirms that the **local kidnapping/seizure policy is his responsibility** and that the Bastion is a holding/transit site, without making Torren and Rhazek re-explain the prisoner testimony to each other.
-- Rhazek no longer recites the player's dungeon progress (`entered through an unknown route / opened galleries / broke command stair`) back to the player. He converts that information into his actual judgment: the fort is disrupted, not yet taken.
-- The masked officer does not fight the party and does not reveal personal history, identity, motives, or the prisoners' onward destination.
-- The party still does not know the onward destination or deeper Black Host purpose.
-- Rhazek orders the masked officer to clear wounded personnel from the upper corridor and keep the road gate secure, giving the officer a practical reason to leave before the boss confrontation.
-- Rhazek remains the immediate obstacle to freeing the prisoners and opening the maintained road exit.
-- Beat 13 ends with the masked officer gone and the Rhazek confrontation fully crystallized, handing directly into Beat 14.
+The boss encounter begins in:
+
+**Beat 14 — Commander Rhazek / Bastion Master**
+
+### [KNOWLEDGE / CHARACTER LOCK]
+
+This scene establishes:
+- Rhazek personally owns the Old Bastion seizure/forced-transfer policy;
+- he does not blame rogue subordinates or higher orders;
+- he sees the Black Host state as legitimately entitled to control civilian movement and impose transfer;
+- he acknowledges that captives may object and may be physically vulnerable without treating either fact as invalidating the policy;
+- his authoritarianism appears through assumed authority, duty, standing, and necessity rather than ranting, slurs, or sadism;
+- he knows the coercion is coercion;
+- he believes it is legitimate;
+- he refuses to reveal the onward destination;
+- the masked officer remains unnamed and unidentified;
+- the masked officer leaves on credible operational orders before the boss fight;
+- the trio still needs the maintained road gate to evacuate the prisoners;
+- Rhazek remains the immediate command obstacle.
+
+No later reveal is exposed.

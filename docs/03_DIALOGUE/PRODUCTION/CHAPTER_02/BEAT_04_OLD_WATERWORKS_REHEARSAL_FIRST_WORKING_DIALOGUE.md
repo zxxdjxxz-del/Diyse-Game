@@ -1,101 +1,156 @@
 # Chapter 2 — Beat 4 — Old Waterworks
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN AUDITED / INTENTIONALLY TERSE  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 4 is exploration-first. The route remains covert; no routine Black Host patrols use it.
+### [GAMEPLAY — OLD WATERWORKS]
 
-### [ENTERING THE OLD WORKS]
+Player control is active.
 
-Cyanis is the visible traversal model. Torren is genuinely guiding, so sparse practical dialogue is legal.
+The party enters Dunmere's old waterworks through the access given by the elder.
 
-At a branch:
+Ordinary traversal shows Cyanis on the field.
 
-**TORREN:** This way.
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-**CYANIS:** Certain?
+Maevra remains with the traveling group but does not participate in combat.
 
-**TORREN:** Enough.
+The route stays genuinely covert.
 
-**MAEVRA:** There's that measurement again.
+There are **no routine Black Host patrols** in the waterworks.
 
-**TORREN:** Works fine.
+Most traversal is silent.
 
-**ILYRA:** Until it doesn't.
+The area itself carries the progression:
+**older municipal works → damaged/flooded sections → reused older foundations → clearly ancient construction**
 
-**TORREN:** Then I'll use another one.
+Torren is guiding, but there is no continuous spoken navigation.
 
-Movement resumes.
-
-### [THE SEALED DOOR]
+### [STORY TRIGGER — SEALED SIDE DOOR]
 
 A substantial sealed side-branch door appears early in the route.
 
+The group stops briefly.
+
+Cyanis looks at it.
+
 **CYANIS:** That ours?
 
-**TORREN:** No.
-
-**CYANIS:** You decided that quickly.
-
-**TORREN:** Doesn't open.
-
-**ILYRA:** Locked?
-
-**TORREN:** More than that.
-
-**MAEVRA:** Anything you can do with it?
-
-Torren checks once more.
+Torren checks the door once.
 
 **TORREN:** No.
 
-A beat.
+**CYANIS:** Fast answer.
 
-**CYANIS:** Clear answer.
+**TORREN:** Door's older than the works and I'm not opening it with anything I brought.
 
-**TORREN:** Enjoy it.
+Ilyra studies the sealed edges.
 
-**CYANIS:** Then we keep moving.
+**ILYRA:** No obvious damage either.
+
+Torren looks again.
+
+**TORREN:** Which means people better equipped than us didn't get through by accident.
+
+**MAEVRA:** Useful enough. Leave it.
+
+Torren steps away from the door.
+
+**TORREN:** Gladly.
+
+Cyanis gives the sealed branch another look.
+
+**CYANIS:** I hate doors that become questions.
+
+**ILYRA:** You're going to have a difficult life.
+
+**CYANIS:** Already noticing.
+
+The party moves on.
+
+No one identifies what lies behind the door.
+
+There is no Chapter 2 method to open it.
+
+### [GAMEPLAY — FLOODED WORKS]
+
+Traversal resumes.
+
+Water becomes a practical environmental obstacle.
+
+At least one required section gets **Cyanis, Ilyra, Torren, and Maevra all thoroughly wet**.
+
+After one particularly unpleasant crossing, Ilyra wrings water from one glove.
+
+**ILYRA:** I liked this route better when it was theoretical.
+
+**TORREN:** Still better than the road.
+
+**ILYRA:** I didn't say it wasn't.
+
+Maevra looks down at her soaked clothes.
+
+**MAEVRA:** I reserve the right to complain while agreeing with both of you.
+
+**CYANIS:** Finally, a doctrine I can support.
+
+The exchange ends there.
+
+There is no dialogue about Torren's smoking supplies or anything that pre-signposts the later **Still Burns** scene.
+
+### [STORY TRIGGER — OLDER STRUCTURE]
+
+Farther in, the construction changes enough that the difference is unmistakable.
+
+The party pauses.
+
+**CYANIS:** This still the waterworks?
+
+Torren studies the joins.
+
+**TORREN:** Not this part. Waterworks were built into it.
+
+Ilyra looks down the older corridor.
+
+**ILYRA:** That's a lot of structure to accidentally build into.
 
 **TORREN:** Yeah.
 
-There is no Chapter-2 method to open this door. Writer-facing, the branch becomes a later Hunt route.
+Maevra looks ahead.
 
-### [FLOODED WORKS]
+**MAEVRA:** Direction?
 
-The route continues through wet and damaged sections. At least one required traversal section gets **Cyanis, Ilyra, Torren, and Maevra all thoroughly wet**.
+Torren checks.
 
-Nobody calls attention to Torren's pouch, weed, smoking supplies, or the later C06 setup.
+**TORREN:** Still good.
 
-### [OLDER THAN THE WATERWORKS]
+Cyanis looks at him.
 
-Farther in, construction changes enough to be unmistakable.
+**CYANIS:** That's almost reassuring.
 
-**CYANIS:** Torren. This still the waterworks?
+**TORREN:** Don't get greedy.
 
-Torren studies the joins between structures.
+Maevra starts forward.
 
-**TORREN:** No. A lot older. Modern works are sitting on top of it.
+**MAEVRA:** Save the reassurance for daylight.
 
-**MAEVRA:** Still taking us toward the Bastion?
+The stop is over.
 
-Torren checks route and direction.
+### [GAMEPLAY HANDOFF]
 
-**TORREN:** Roughly.
+Player control resumes.
 
-**CYANIS:** I want roughly to keep being enough.
+The party continues deeper into the older structure.
 
-**TORREN:** So do I.
+Known:
+- the waterworks route remains covert;
+- the sealed side door cannot be opened in Chapter 2;
+- the party does not know what lies behind it;
+- the modern waterworks were built over substantially older construction;
+- the older route still trends toward the Old Bastion;
+- the Card does not provide a new required reaction here;
+- the Sunken Archive has not yet been identified.
 
-**ILYRA:** Only one way to find out.
-
-**MAEVRA:** Unfortunately.
-
-**TORREN:** Come on.
-
-**Objective:** Continue into the ancient structure.
-
----
-
-## Natural-turn audit note
-The beat stays predominantly terse because it is active guided dungeon traversal. Torren gets one complete architectural judgment where a multi-sentence explanation is useful; otherwise brevity supports gameplay pressure. Story state is unchanged.
+Next mandatory beat:
+**Sunken Archive Entrance**

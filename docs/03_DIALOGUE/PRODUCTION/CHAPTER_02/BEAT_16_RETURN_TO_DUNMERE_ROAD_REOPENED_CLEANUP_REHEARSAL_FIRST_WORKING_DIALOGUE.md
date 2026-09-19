@@ -1,203 +1,223 @@
 # Chapter 2 — Beat 16 — Return to Dunmere / Road Reopened / Cleanup
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN + SPOKEN/NARRATION + ENSEMBLE CHARACTER-BALANCE PASS CURRENT  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 16 begins after the rescued group has left the Old Bastion through the maintained road-side gate. There is no playable escort sequence and no separate road-secured story beat. Cyanis, Ilyra, Torren, and Maevra are back in Dunmere with the current prisoners safely out of Black Host custody.
+### [STORY TRIGGER — BACK IN DUNMERE]
 
-Hard scene rule:
-> **This is the Chapter-2 landing, not a victory ceremony. Confirm the human result, confirm the local world-state change, preserve the unresolved transfers, then return control to the player for cleanup.**
+The story resumes in Dunmere after the rescued group has cleared the Old Bastion and returned safely.
 
-The chapter does **not** automatically advance into Chapter 3.
+There is no playable escort sequence between the Bastion and town.
 
----
+Dunmere is functioning around the return rather than staging a formal reception.
 
-## [BACK IN DUNMERE]
+Rescued people are:
+- being reunited with family and neighbors;
+- sitting down where they can;
+- getting food and water;
+- receiving whatever immediate care they actually need;
+- helping one another settle.
 
-Dunmere is functioning around the return rather than staging a formal reception. Rescued people are being reunited, seated, fed, checked, or helped farther into town as needed.
+The elder finds Cyanis, Ilyra, Torren, and Maevra once the movement has calmed enough for conversation.
 
-The elder meets Cyanis, Ilyra, Torren, and Maevra once the immediate movement has settled enough to speak.
+The elder looks toward the rescued group.
 
-**ELDER:** Everyone made it back?
+**ELDER:** Everyone?
 
-Maevra looks toward the rescued group she spent the lower-Bastion hold organizing.
+Maevra follows the look.
 
-**MAEVRA:** Everyone we brought out. Earlier groups were already gone.
-
-The elder hears the distinction.
-
-**ELDER:** Still missing.
-
-**CYANIS:** We never found where.
-
-The elder's expression hardens, but does not turn into a speech.
-
-**ELDER:** Then we don't call them found because today went well.
-
-**TORREN:** No.
-
----
-
-## [WHAT HAPPENED AT THE BASTION]
-
-**ELDER:** Tell me what happened at the Old Bastion.
-
-Torren answers the field-state part first.
-
-**TORREN:** Host withdrew. Bastion and road gate are out of their hands.
-
-**ELDER:** Rhazek?
-
-**CYANIS:** Alive. He owned the seizures and ordered the withdrawal.
+**MAEVRA:** Everyone who was still there.
 
 A beat.
 
-**ELDER:** Then he lost the fort.
+**MAEVRA:** Earlier groups were already gone.
+
+The elder's face changes.
+
+**ELDER:** You know where?
+
+Cyanis shakes his head.
+
+**CYANIS:** No. Rhazek wouldn't give us a destination.
+
+The elder looks back toward the people who did return.
+
+**ELDER:** Then they're still missing.
+
+**CYANIS:** Yeah.
+
+Nobody tries to soften that.
+
+### [WHAT CHANGED]
+
+The elder looks back to the four of them.
+
+**ELDER:** Bastion?
+
+Torren answers.
+
+**TORREN:** Host pulled out. Gate's open. Checkpoints are gone.
+
+**ELDER:** Rhazek?
+
+**CYANIS:** Alive.
+
+A beat.
+
+**CYANIS:** He was running the seizures himself. We beat him, and he withdrew what was left of the garrison.
+
+The elder considers that.
+
+**ELDER:** So he lost the fort.
 
 **CYANIS:** Here, yes.
 
+The elder looks to Torren.
+
+**ELDER:** Road usable?
+
+Torren gives the answer he can actually support.
+
+**TORREN:** Yeah. Bastion isn't controlling the corridor anymore. Normal road caution still applies, but Greenhollow to Dunmere is open.
+
 The elder nods once.
-
-**ELDER:** Good enough for the road.
-
----
-
-## [THE ROAD]
-
-The elder looks toward the route out of town.
-
-**ELDER:** People are already asking if they can move again.
-
-Torren answers carefully.
-
-**TORREN:** Bastion isn't controlling the corridor anymore. Gate's open, checkpoints are gone. Use normal road caution, but yes—the route is usable again.
 
 **ELDER:** Then we reopen it.
 
-Maevra looks toward the waiting wagons that had been stalled when the group first arrived.
+That decision is enough.
 
-**MAEVRA:** They'll like that. Half this town has been staring at loaded wagons for days.
+No second road-safety scene is required.
 
-Cyanis follows her look.
+### [THE PRESSURE DROPS]
 
-**CYANIS:** I like it too. Among other reasons, I can see an inn from here.
+For the first time since they entered town, nobody has an immediate tactical problem to solve.
 
-**ILYRA:** There are your priorities.
+Cyanis looks toward the stalled wagons from earlier.
 
-**TORREN:** Knew he'd get back to food.
+People are already beginning to move around them differently now that the road is reopening.
 
-**CYANIS:** I've had a difficult day. I refuse to apologize for having priorities after the rescue is finished.
+Then he spots the inn.
 
-Maevra smiles.
+**CYANIS:** Good.
 
-**MAEVRA:** Heroically hungry.
+Ilyra follows his attention.
 
-**CYANIS:** Exactly.
+**ILYRA:** The road or the inn?
 
-The humor is brief and ordinary. It does not erase the unresolved missing people.
+**CYANIS:** Both.
 
----
+Torren looks at him.
 
-## [NOT THE END OF IT]
+**TORREN:** Inn first in your head.
 
-The elder looks back to the group.
+**CYANIS:** We rescued people before I ate. I think I've demonstrated character.
 
-**ELDER:** And the earlier groups?
+Maevra gives him a look.
 
-**CYANIS:** Still missing. Rhazek wouldn't give us a destination.
+**MAEVRA:** Heroic restraint.
 
-A short silence.
+**CYANIS:** Thank you.
 
-Maevra looks toward the rescued townspeople.
+**ILYRA:** That wasn't praise.
 
-**MAEVRA:** We got the people who were there out alive. That's not nothing.
+**CYANIS:** I'm taking what I can get.
 
-Torren glances toward the road.
+The elder almost smiles.
 
-**TORREN:** And the road's open.
+**ELDER:** Get food. Get dry. Sleep if any of you remember how.
 
-The elder nods.
+Torren glances at Cyanis.
 
-**ELDER:** Both matter.
+**TORREN:** He won't.
 
-Nobody turns that into a ceremony.
+Cyanis looks at him.
 
-**ELDER:** Get some food. Get dry. Sleep if you're capable of it. Tomorrow can have the rest of your questions.
+**CYANIS:** Excuse me?
 
-Torren looks at Cyanis.
+**TORREN:** You'll think of something else you want to ask before the food arrives.
 
-**TORREN:** He'll remember three more before he gets upstairs.
+Ilyra considers that.
 
-**CYANIS:** Two, maximum.
+**ILYRA:** Two questions.
 
-**ILYRA:** Four. One of them will occur to him while chewing.
+**MAEVRA:** Three.
 
-Maevra considers Cyanis.
+**CYANIS:** Why are we betting on this?
 
-**MAEVRA:** Five if somebody tells him not to ask questions until morning.
+**TORREN:** Four.
 
-Cyanis looks between them.
+Ilyra immediately points at him.
 
-**CYANIS:** This is an abusive betting pool.
+**ILYRA:** No. Complaint.
 
-**TORREN:** Six now.
+**TORREN:** Had a question in it.
 
-**ILYRA:** That one doesn't count. He was complaining, not asking.
+**ILYRA:** Grammatically. Doesn't count.
 
-**MAEVRA:** You're officiating?
+Maevra looks between them.
 
-**ILYRA:** Somebody has to protect the integrity of this deeply stupid system.
+**MAEVRA:** We need rules now?
 
-Cyanis gives them all a look.
+**ILYRA:** If we're wagering on it, obviously.
 
-**CYANIS:** I hate every one of you a little.
+Cyanis stares at all three.
 
-**TORREN:** Food'll help.
+**CYANIS:** I preferred the Bastion.
 
-That is the end of it.
+A beat.
 
----
+Torren shakes his head.
 
-## [CLEANUP WINDOW]
+**TORREN:** No, you didn't.
 
-The authored scene ends and normal Dunmere control returns.
+Cyanis thinks about that.
+
+**CYANIS:** No. I really didn't.
+
+That gets a quiet laugh out of Ilyra.
+
+The moment settles naturally.
+
+### [CLEANUP WINDOW]
+
+The authored scene ends.
+
+Normal Dunmere control returns.
 
 Current local state:
-- the rescued Chapter-2 prisoners are safely out of Black Host custody;
-- the Old Bastion no longer functions as a Black Host choke point on the corridor;
-- direct **Greenhollow ↔ Dunmere travel is reopened for ordinary travel**;
-- Rhazek remains alive but has lost the Old Bastion locally;
-- earlier transferred captives remain missing;
+- every prisoner found in the Old Bastion during Chapter 2 is safely out of Black Host custody;
+- earlier groups transferred away before the rescue remain missing;
 - their onward destination and fate remain unknown;
-- the western mural, ancient city, and crest-marked northern structure remain unresolved discoveries carried forward by the party;
+- Commander Rhazek remains alive;
+- Rhazek has lost the Old Bastion locally;
+- the Old Bastion no longer functions as a Black Host choke point on the corridor;
+- direct **Greenhollow ↔ Dunmere** travel is reopened for ordinary travel;
+- the western mural, enormous Ancient city, and crest-marked northern structure remain unresolved;
 - Maevra remains physically present in Dunmere;
 - Caelora remains the larger journey direction.
 
-During the Chapter-2 cleanup window, permitted systems/content may include:
-- Dunmere shopping, healing/rest, equipment management, saving, and ordinary hub use;
-- compatible Character-Life content including **C05 — Still Burns**;
-- permitted side content, Hunts, and backtracking under their own authorities;
-- use of the reopened Greenhollow–Dunmere road where allowed by current world/travel authority.
+During the cleanup window, the player may access whatever current authorities permit, including:
+- Dunmere shopping;
+- healing/rest;
+- equipment management;
+- saving;
+- ordinary hub use;
+- compatible side content;
+- permitted backtracking;
+- reopened-road travel;
+- **C05 — Still Burns**.
 
-**C05 — Still Burns** currently lives in legacy atomic source file `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`; canonical numbering is controlled by `../CHARACTER_LIFE_NUMBERING_LOCK.md`.
+Chapter 3 does **not** begin automatically.
 
-Hard chapter-boundary rule:
-> **Chapter 3 begins only when the player deliberately uses the explicit advance-story interaction and confirms that choice.**
+The player must deliberately use the explicit advance-story interaction and confirm the transition.
 
-No automatic chapter transition occurs when Beat 16 ends.
+### [CHAPTER 2 END STATE]
 
----
-
-## Ensemble audit check
-
-- The Dunmere debrief is consequence-first. The elder gets the information needed to act without making the party replay the Bastion chapter beat by beat.
-- Maevra, who actually held and organized the prisoner safe area, owns the immediate return-count distinction; this is relationship/scene ownership rather than `Ilyra = human consequence` by default.
-- Maevra also names the human success later, breaking the old pattern where she only carried command/operational conclusions.
-- Torren owns the reopened-road result and remains socially involved after the crisis instead of reverting to route exposition only.
-- Ilyra is free to participate in ordinary teasing and stupid argument once her medical expertise is no longer needed; she does not have to deliver the chapter's moral summary.
-- Cyanis remains responsible for what he personally learned from Rhazek and is not used only as a prompt for other people's conclusions.
-- Mature-adult speech is natural and relationship-specific without profanity being forced into a scene that does not need it.
-- Rhazek's survival, responsibility, and local defeat remain unambiguous.
-- Greenhollow ↔ Dunmere travel reopens.
-- No Ancient-map mystery is explained.
-- Chapter 3 still begins only through explicit player confirmation.
+Chapter 2 ends with:
+- a complete local rescue;
+- a reopened road;
+- Rhazek established as an ideologically committed Black Host commander rather than a rogue officer;
+- the larger forced-transfer operation still unresolved;
+- the Ancient network mystery substantially expanded;
+- Cyanis, Ilyra, Torren, and Maevra visibly more comfortable with one another than they were at the start of Chapter 1;
+- enough unresolved pressure to carry forward without stealing the cleanup window from the player.

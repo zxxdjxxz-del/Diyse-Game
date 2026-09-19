@@ -1,189 +1,143 @@
-# Chapter 2 — Beat 6
-# Western Map Mural
-## CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN + SPOKEN/NARRATION + ENSEMBLE CHARACTER-BALANCE PASS
+# Chapter 2 — Beat 6 — Western Map Mural
 
-**Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
-**Hard continuity:** the mural is intact and coherent; it is one western section of a larger system. The small northern structure bears the exact modern Crest of Yahtrea. Its meaning remains unknown.
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
+**Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
----
+### [STORY TRIGGER — WESTERN MAP]
 
-### [THE MURAL]
+Exploration opens into a chamber dominated by a large, intact wall-scale map.
 
-Exploration reaches a chamber dominated by a large wall-scale map. The relevant group models appear at a natural stopping point.
+The mural is complete and coherent.
 
-Give the player a clean visual read before dialogue begins.
+The party is given a clean visual read before anyone speaks.
 
-Torren is already comparing route relationships with the practical Wayfinder copy the group carries.
+Torren compares the route relationships against the Junction copy the group carries.
 
-**MAEVRA:** You recognize something?
+He finds the first match.
 
-**TORREN:** Maybe. Same split as the Wayfinder here, then the same marker sequence after it. If that holds, the Wayfinder isn't its own little route—it is a piece of this larger system.
+**TORREN:** Same split.
 
-Ilyra compares the repeated sequence herself.
+Cyanis looks over.
 
-**ILYRA:** Hollow Watch fits the order. Same sequence as the Wayfinder. I don't know what every mark means, but that part matches.
+**CYANIS:** Junction?
 
-**CYANIS:** So our little useful map just became part of a much bigger useful map.
+**TORREN:** Yeah. And Hollow Watch here. Same order.
 
-**MAEVRA:** Assuming the bigger one still corresponds to anything outside this room.
+Torren follows the sequence farther.
 
-**TORREN:** That's what we check next.
+**TORREN:** If I'm reading that right, our little map's a piece of this one.
 
----
+Cyanis looks across the scale of the wall.
 
-### [FINDING DUNMERE]
-
-Torren works outward from the matched Wayfinder section rather than guessing from the whole wall.
-
-**TORREN:** If that is Hollow Watch, we came through here. Dunmere should sit around this relationship—not an exact point, but close enough to test the rest of it.
+**CYANIS:** That's a lot bigger than I wanted it to be.
 
 Ilyra studies the surrounding geography.
 
-**ILYRA:** Some of this doesn't match what we know now. Either we're reading it wrong or things changed. I can't tell which from a wall.
+**ILYRA:** Some of it doesn't line up with the ground we know.
 
-**CYANIS:** That's worse than a simple bad map.
+Torren nods.
 
-**TORREN:** More interesting, though.
+**TORREN:** No. Could be changes. Could be us. Don't know yet.
 
-**MAEVRA:** Try to contain yourself.
+He works outward only from the part he can anchor.
 
-Torren does not.
+**TORREN:** Dunmere should be around here.
 
----
+The relationship fits.
 
-### [TOWARD CAELORA]
+From there, the route system continues east toward an enormous urban representation.
 
-Cyanis follows the connected routes eastward until they reach a vast, dense urban representation.
+Maevra goes still.
 
-Maevra goes quiet for a moment.
+**MAEVRA:** If the relationship holds, that should be Caelora.
 
-**MAEVRA:** If the route relationship keeps holding, that position should correspond to Caelora. But whatever city this shows is far larger than the Caelora I know.
+Cyanis looks at the depicted city.
 
-**CYANIS:** So either we're wrong about the match or we're looking at a city that isn't there anymore.
+**CYANIS:** That's not Caelora.
 
-**TORREN:** Those aren't the only options. They're just the two we can see from here.
-
-Ilyra notices something immediately north of the huge city representation.
-
-**ILYRA:** Wait. Separate structure, just north of it. Look at the mark.
+**MAEVRA:** No.
 
 A beat.
 
-Cyanis recognizes it.
+Ilyra's attention shifts just north of the city.
 
-**CYANIS:** That's the Crest of Yahtrea.
+**ILYRA:** Wait. North of it.
 
-Maevra checks it herself.
+A separate smaller structure is marked there.
 
-**MAEVRA:** Exact enough that I'm not calling it resemblance. Same Crest we use now, sitting on a map that should be far older than modern Yahtrea.
+She looks closer.
 
-**CYANIS:** Which makes absolutely no sense.
+**ILYRA:** That's ours.
 
-**TORREN:** Correct.
+Cyanis follows her attention.
 
-**CYANIS:** Thank you, Harth.
+**CYANIS:** The Crest?
 
-**TORREN:** Any time.
+**ILYRA:** Same one.
 
-Nobody explains what the crest-marked structure is or why the Crest appears there.
+Maevra steps closer, checks it herself, and does not invent an explanation.
 
-**MAEVRA:** Copy it. City, separate structure, Crest, and route relationship. All of it exactly as shown.
+**MAEVRA:** Copy that exactly.
 
-**CYANIS:** Definitely.
+Nobody tries to explain why an Ancient map carries the modern Yahtrean Crest.
+
+Ilyra notices another physical detail.
+
+**ILYRA:** These lines aren't broken at the edge.
+
+Torren checks another side of the mural.
+
+**TORREN:** No. Panel ends. Routes don't.
+
+**MAEVRA:** Then this is one section.
+
+**TORREN:** Looks like it.
+
+Maevra makes the practical call.
+
+**MAEVRA:** Copy what we can support. Junction overlap, Dunmere, city, northern structure, Crest, and where the routes leave the panel. Nothing we have to guess at.
+
+The party makes a practical copy through a brief fade/state transition.
+
+When it is done, Cyanis gives the mural one last look.
+
+**CYANIS:** I want more time with this.
 
 A beat.
 
-**CYANIS:** How old is this mural?
+**CYANIS:** We don't have it.
 
-**ILYRA:** No idea. And before you ask, I also don't know what happened to the city.
+Maevra knows exactly what he means.
 
-**TORREN:** Good answers.
+**MAEVRA:** No.
 
-**ILYRA:** Learned from you.
+Cyanis looks toward the route deeper into the Archive.
 
----
+**CYANIS:** Then we find the people first.
 
-### [THE PANEL EDGES]
+Torren folds the copy away.
 
-Ilyra studies one physical edge of the mural and notices how the route lines meet it.
+**TORREN:** Yeah.
 
-**ILYRA:** These lines don't break at the edge. They keep going into it.
+The scene ends.
 
-Torren checks the opposite side.
+### [GAMEPLAY HANDOFF]
 
-**TORREN:** Same here. So we're not looking at what's left of one complete map. We're looking at one complete section of something larger.
+Player control returns.
 
-**MAEVRA:** Western section, if the geography match is even approximately right.
+Known:
+- the Junction/Hollow Watch/Dunmere corridor belongs to a much larger Ancient route system;
+- the western mural is a complete section, not a damaged fragment;
+- the route network continues beyond the panel edges;
+- the system extends toward modern Caelora;
+- an enormous Ancient city is depicted in that general position;
+- a separate smaller structure immediately north of it bears the same Crest used by modern Yahtrea;
+- the party does not know the identity, age relationship, purpose, or history of either structure;
+- ancient and modern geography do not align cleanly;
+- practical copies have been made;
+- the kidnapped people remain the immediate priority.
 
-**CYANIS:** Meaning there are other sections somewhere.
+**Objective: Explore the Archive depths.**
 
-**MAEVRA:** Meaning there were. I am not promising you a wall tour.
-
-**CYANIS:** Helpful.
-
-**MAEVRA:** I'm doing my best with one arm.
-
-Cyanis almost smiles.
-
----
-
-### [COPY IT]
-
-The group makes a practical copy of the useful information. Keep implementation economical; no long real-time drawing sequence is needed.
-
-Torren owns route relationships. Ilyra captures stable visual markers, the huge city shape, and the crest-marked northern structure. Cyanis keeps the Wayfinder overlap straight. Maevra checks that the copy preserves what they actually saw rather than what they think it means.
-
-Short dialogue may cover the work:
-
-**TORREN:** Route lines first. If the relationships are wrong, the rest isn't useful.
-
-**ILYRA:** City shape and northern structure after. I'm copying the Crest exactly, not cleaning it up.
-
-**MAEVRA:** Good. Interpretation can wait until Caelora. Evidence can't.
-
-**CYANIS:** And I get to make sure we haven't copied the Wayfinder backward somehow.
-
-**TORREN:** Try not to.
-
----
-
-### [LEAVE IT FOR LATER]
-
-Once the practical copy is complete, Cyanis gives the mural one last look.
-
-**CYANIS:** We're coming back to this. After the people we came for.
-
-**ILYRA:** Good. I'd like another look when I'm not standing around in wet socks.
-
-Torren looks down at his own boots.
-
-**TORREN:** Boots agree.
-
-**MAEVRA:** Beautiful. Ancient mystery defeated by damp feet. Move.
-
-Ilyra starts toward the route out.
-
-**ILYRA:** You laugh. Your boots aren't dry either.
-
-**MAEVRA:** I have rank. It keeps the water respectful.
-
-**CYANIS:** Is that how that works?
-
-**TORREN:** No.
-
-**MAEVRA:** Harth, nobody asked you.
-
-**Objective:** Explore the Archive depths.
-
----
-
-## Ensemble audit check
-
-- The mural itself gets the first word visually; the cast interprets relationships rather than announcing visible inventory.
-- Torren owns route/cartographic interpretation because the scene genuinely activates his expertise, but he remains socially present around that work.
-- Ilyra contributes through visual comparison, curiosity, direct observation, and an ordinary complaint about being soaked; her uncertainty language is deliberately plainer than Torren's route-evidence register and later Nimera methodology.
-- Cyanis states the rescue priority himself because it is his own current commitment, not because Ilyra needs to function as his conscience.
-- Maevra retains operational authority while also joking as a familiar adult member of the group; rank does not confine her to mission summaries.
-- Adult register remains natural without profanity being inserted by quota.
-- Kidnapped people remain the immediate priority.
-- No story or reveal outcome changed.
+Next mandatory beat:
+**Archive Depths**

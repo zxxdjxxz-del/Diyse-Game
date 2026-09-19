@@ -1,192 +1,227 @@
 # Chapter 2 — Beat 15 — Return to the Prisoners / Release
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NOT LOCKED  
-**Owning cumulative manuscript:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 15 begins immediately after Commander Rhazek has been defeated locally and has withdrawn alive with the remaining organized Black Host force. The maintained road-side gate is open and usable. Cyanis, Ilyra, and Torren deliberately turn back into the Bastion rather than pursuing Rhazek because the freed prisoners are still waiting below. Maevra remains with those prisoners and has continued organizing the lower safe area.
-
-Hard scene rule:
-> **The party comes back for them. The rescue is completed as a human action, not skipped because the boss is over.**
-
-There is no new required combat, no escort dungeon, no Rhazek rematch, and no second gate puzzle.
-
----
-
-## [THEY CAME BACK]
+### [STORY TRIGGER — LOWER SAFE AREA]
 
 Cyanis, Ilyra, and Torren return to the lower safe area.
 
 Maevra sees them first.
 
+Her eyes go over all three of them once.
+
 **MAEVRA:** Three.
 
-Cyanis looks at her.
+Cyanis understands the count.
 
 **CYANIS:** Three.
 
-The tension in the room changes immediately.
+Some of the tension in the room breaks immediately.
 
-The Dunmere woman steps closer.
+The Dunmere woman gets to her feet.
 
-**DUNMERE WOMAN:** The gate?
+**DUNMERE WOMAN:** Gate?
+
+Torren answers.
 
 **TORREN:** Open.
 
-**GREENHOLLOW MAN:** Host still holding it?
+**GREENHOLLOW MAN:** Host?
 
-**TORREN:** No.
+**TORREN:** Gone from the Bastion.
 
 The wounded soldier looks at Cyanis.
 
 **WOUNDED SOLDIER:** Rhazek?
 
-**CYANIS:** We beat him.
+Cyanis does not dress it up.
+
+**CYANIS:** Beat him.
 
 A beat.
 
-**CYANIS:** He's alive. He pulled what's left of his people out of the Bastion.
+**CYANIS:** He's alive. Pulled the rest of his people out.
 
 The soldier absorbs that.
 
-**WOUNDED SOLDIER:** So it's really over here.
-
-Cyanis does not pretend the larger war is over.
+**WOUNDED SOLDIER:** So they lost it.
 
 **CYANIS:** Here, yeah.
 
-Ilyra looks across the freed prisoners.
+The Dunmere woman looks toward the route upward.
 
-**ILYRA:** And that means we can move.
+**DUNMERE WOMAN:** Then we're leaving.
 
----
-
-## [GET EVERYONE ON THEIR FEET]
-
-Ilyra moves back toward the people she already assessed earlier.
-
-**ILYRA:** Before anybody stands—if you're dizzy, say it. If you can't put weight on something, say it. Nobody gets points for falling on the stairs.
-
-The wounded soldier looks at her.
-
-**WOUNDED SOLDIER:** I can walk.
-
-**ILYRA:** With help.
-
-A beat.
-
-**WOUNDED SOLDIER:** With help.
-
-The Greenhollow man moves beside him.
-
-**GREENHOLLOW MAN:** You've got me.
-
-Nearby, the Dunmere woman is already helping another weakened prisoner prepare to stand.
-
-Maevra looks across the group.
-
-**MAEVRA:** Pair up. Strong walkers with somebody who needs support. Nobody goes off alone, nobody races ahead, and nobody decides now is the time to prove something.
-
-She raises her splinted arm slightly.
-
-**MAEVRA:** I am including myself in that last one.
-
-Torren glances at her.
-
-**TORREN:** Good.
-
-**MAEVRA:** Don't enjoy this too much.
-
-**TORREN:** Wasn't going to.
-
-**MAEVRA:** Liar.
-
-The exchange is brief. Work continues around them.
-
----
-
-## [THE WAY OUT]
-
-Torren addresses the group only once people are ready to listen.
-
-**TORREN:** We're not going back through the Archive.
-
-Several prisoners visibly approve of that without needing explanation.
-
-**TORREN:** We go up through the Bastion, cross the east court, then straight out the road gate.
-
-**DUNMERE WOMAN:** Clear?
-
-Torren answers carefully rather than promising what he cannot know.
-
-**TORREN:** Organized Host is gone from the route. I'll stay in front and check it as we move.
-
-Ilyra nods.
-
-**ILYRA:** I'll stay in the middle with anyone who needs help.
-
-Cyanis looks toward the rear of the group.
-
-**CYANIS:** I'll take the back.
-
-Maevra looks at him.
-
-**MAEVRA:** Making sure nobody gets left behind?
+Not a question.
 
 **CYANIS:** Yeah.
 
+### [GETTING READY TO MOVE]
+
+People are already standing, gathering what little they have, and helping one another before anyone gives them instructions.
+
+Ilyra goes back to the people she assessed earlier.
+
+**ILYRA:** All right. Before stairs make anybody ambitious—if you're dizzy, say it. If you can't put weight on something, say it.
+
+The wounded soldier starts to stand.
+
+Ilyra looks at him.
+
+**ILYRA:** You especially.
+
+**WOUNDED SOLDIER:** I can walk.
+
+**ILYRA:** I know.
+
+She nods toward the Greenhollow man.
+
+**ILYRA:** You're still taking the arm.
+
+The Greenhollow man steps over.
+
+**GREENHOLLOW MAN:** Happily.
+
+The wounded soldier gives him a look.
+
+**WOUNDED SOLDIER:** You say that now.
+
+**GREENHOLLOW MAN:** I've been listening to you complain for two days. Walking will be quieter.
+
+That gets a tired laugh from someone nearby.
+
+Maevra looks across the room.
+
+**MAEVRA:** Pair up if you need to. Help somebody if you don't. Nobody goes off alone.
+
+She raises the splinted arm slightly.
+
+**MAEVRA:** And nobody gets heroic because the door's finally open.
+
+Torren glances at the splint.
+
+**TORREN:** Including commanders.
+
+Maevra looks at him.
+
+**MAEVRA:** I knew you were going to enjoy this.
+
+**TORREN:** Little bit.
+
+She almost smiles.
+
+### [THE ROUTE]
+
+Once everyone who can move is on their feet, Torren addresses the group.
+
+**TORREN:** We're not using the way we came in.
+
+A few prisoners visibly relax.
+
+**TORREN:** Up through the Bastion. East court. Road gate. It's maintained ground all the way out.
+
+The Dunmere woman looks at him.
+
+**DUNMERE WOMAN:** Clear?
+
+Torren answers carefully.
+
+**TORREN:** Organized Host is gone. I'll check ahead as we move.
+
+She nods.
+
+That is enough.
+
+Ilyra looks across the middle of the group.
+
+**ILYRA:** I'll stay with anybody who needs help on the stairs.
+
+Cyanis looks toward the back.
+
+**CYANIS:** I'll take rear.
+
+Maevra glances at him.
+
+**MAEVRA:** Of course you will.
+
+Cyanis looks at her.
+
+**CYANIS:** Somebody should.
+
+**MAEVRA:** Didn't say you shouldn't.
+
 A beat.
 
-**MAEVRA:** Good.
+**MAEVRA:** Just predictable.
 
-Nobody proposes pursuing Rhazek instead.
+Cyanis accepts that.
 
----
+### [THEY CAME BACK]
 
-## [LEAVING]
+The Dunmere woman hangs back for one moment while the first pairs start moving.
 
-The freed prisoners begin forming into a practical moving group rather than a military column.
+She looks at Cyanis.
 
-The Dunmere woman looks at Cyanis before joining the others.
-
-**DUNMERE WOMAN:** You really came back.
+**DUNMERE WOMAN:** You actually came back.
 
 Cyanis looks at her.
 
 **CYANIS:** Said we would.
 
-She gives him a short nod and turns to help the person beside her.
+She studies him for half a second, then nods.
 
-Torren moves to the front.
+**DUNMERE WOMAN:** Good.
 
-**TORREN:** Slow on the stairs. Stay where you can see the person ahead of you.
+She turns and gets under the arm of another prisoner.
 
-Maevra starts the first pair moving.
+**DUNMERE WOMAN:** Come on.
 
-**MAEVRA:** All right. Let's get out of this place.
+The moment belongs to her action, not Cyanis's promise.
 
-Ilyra falls into the middle of the group.
+Torren takes the front.
 
-Cyanis waits until the last prisoner is moving before taking the rear.
+**TORREN:** Slow on the stairs. Keep the person ahead of you in sight. If I stop, everybody stops.
+
+Maevra moves with the first part of the group.
+
+**MAEVRA:** You heard him.
+
+Ilyra settles into the middle.
+
+Cyanis waits.
+
+One prisoner passes.
+
+Then another.
+
+Then the last.
+
+Only then does he move.
+
+### [TRANSITION]
 
 The rescued group begins leaving the lower Bastion through the maintained interior route toward the open road gate.
 
-**No playable escort sequence follows.** Once the group is organized and clearly moving out safely, the story may transition directly to **Beat 16 — Return to Dunmere / Road Reopened / Cleanup**.
+There is **no playable escort sequence**.
 
----
+There is no second combat, no gate puzzle, no Rhazek rematch, and no final enemy sting.
 
-## Beat-15 knowledge and world-state checkpoint
-- Cyanis, Ilyra, and Torren physically return to the prisoners after defeating Rhazek locally.
-- Maevra remained with the prisoners and kept the lower safe area organized.
-- The prisoners are told plainly that Rhazek was defeated here, survived, and withdrew with the remaining organized Black Host force.
-- Nobody treats Rhazek's survival as if the Bastion victory did not happen.
-- The maintained road-side gate is open and no longer under active Black Host control.
-- Torren leads the evacuation route and continues checking it rather than promising impossible certainty.
-- Ilyra handles immediate mobility and care needs.
-- Able-bodied prisoners actively support injured/weakened prisoners.
-- Maevra organizes the moving group while respecting the limitations of her own splinted arm.
-- Cyanis explicitly takes the rear, prioritizing completion of the rescue over pursuit of Rhazek.
-- The prisoners want to leave and cooperate with the evacuation.
-- No additional combat, escort dungeon, records search, gate puzzle, or antagonist sting occurs.
-- Earlier captives transferred away before the rescue remain missing; their destination and fate are still unknown.
-- Once the group is moving safely toward the road gate, the story transitions directly to Dunmere for Beat 16.
+Once the group is clearly moving out safely, the story transitions directly to Dunmere.
+
+Known:
+- Cyanis, Ilyra, and Torren physically returned for the prisoners;
+- Maevra kept the lower safe area organized while they were gone;
+- the prisoners know Rhazek was defeated locally, survived, and withdrew;
+- the Old Bastion is no longer under organized Black Host control;
+- the maintained road-side exit is open;
+- Torren leads the route without pretending impossible certainty;
+- Ilyra handles actual mobility needs without taking over everyone's agency;
+- able-bodied prisoners actively support injured and weakened prisoners;
+- Maevra helps organize the movement while respecting her own injury;
+- Cyanis takes the rear and does not leave until the last prisoner is moving;
+- earlier transferred captives remain missing;
+- their destination and fate remain unknown.
+
+Next mandatory beat:
+**Return to Dunmere / Road Reopened / Cleanup**

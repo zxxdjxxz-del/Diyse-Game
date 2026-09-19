@@ -1,116 +1,108 @@
 # Chapter 2 — Beat 1 — Path Outside Dunmere
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — TORREN SOCIAL-COMFORT PASS CURRENT  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-### [FINAL APPROACH]
+### [GAMEPLAY — FINAL APPROACH]
 
-Cyanis-only field traversal. Torren is actively guiding, so short portrait dialogue may occur while moving.
+Player control is active.
 
-Torren is still efficient while guiding, but Chapter 2 does **not** reset him to his earliest Chapter-1 guardedness. He already knows Cyanis, Ilyra, and Maevra well enough to joke while doing the job.
+The chapter begins on the path immediately outside Dunmere.
 
-**TORREN:** Keep to the high side here. Lower stretch looks cleaner because the ruts drain it. Underneath is soup.
+Ordinary traversal shows Cyanis on the field.
 
-**CYANIS:** You could've led with `soup.`
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-**TORREN:** Thought `high side` was simpler.
+Maevra travels with the group but remains noncombat.
 
-**ILYRA:** It was.
+There is no recap of the Junction, Hollow Watch, or the previous night's camp.
 
-Cyanis looks offended.
+Torren is genuinely guiding, but the approach is not turned into a running navigation conversation.
 
-**CYANIS:** Immediate betrayal.
+At one point where the route matters:
 
-**MAEVRA:** She's known you long enough now.
+**TORREN:** High side.
 
-**CYANIS:** That's exactly what worries me.
+Cyanis looks at the lower track.
 
-Torren glances back.
+**CYANIS:** That one looks easier.
 
-**TORREN:** You want the technical version instead?
+**TORREN:** Yeah. That's how it gets you.
 
-**CYANIS:** Absolutely not.
+**CYANIS:** Mud?
 
-**TORREN:** Shame. Had another three minutes in me.
+**TORREN:** Knee-deep under the crust.
 
-Ilyra laughs.
+Cyanis changes course.
 
-**ILYRA:** He's threatening lectures now.
+**CYANIS:** Right.
 
-**MAEVRA:** That's progress. He used to just give them.
-
-**TORREN:** Still can.
-
-**CYANIS:** High side it is.
+Torren glances at him.
 
 **TORREN:** See? Trainable.
 
-Cyanis looks at him.
+Cyanis gives him a look.
 
 **CYANIS:** You kept that one.
 
 **TORREN:** Works.
 
-Traversal continues.
+Traversal continues in silence.
 
-The dialogue ends because the route call is settled, not because Torren has reached a one-word quota.
+### [STORY TRIGGER — DUNMERE IN VIEW]
 
-### [DUNMERE IN VIEW]
+Dunmere comes into view ahead.
 
-At a natural stopping point near the town approach, the relevant group models may appear briefly. Dunmere is close and visibly inhabited. Nothing here yet explains the Chapter-2 crisis.
+It is functioning and inhabited.
 
-Torren sees the town first.
+Nothing here reveals the Chapter 2 crisis yet.
 
-**TORREN:** There. Dunmere. Still where I left it, which is considerate.
+Torren sees it first.
 
-**CYANIS:** You sound almost pleased.
+**TORREN:** There. Dunmere. Still where I left it. Good start.
+
+**CYANIS:** You sound relieved.
 
 **TORREN:** I like towns that stay put.
 
-**ILYRA:** Strong standard.
+**ILYRA:** Demanding.
 
 **TORREN:** Roads move enough.
 
-**MAEVRA:** And there it is. Nearly had him discussing a place without turning it into route philosophy.
+Cyanis looks toward the town.
 
-**TORREN:** You ruined it, not me.
+**CYANIS:** First time here. Anything I should know?
 
-**CYANIS:** I've never been here. Anything I need to know before I embarrass myself?
+Torren thinks about it.
 
-Torren actually considers the question.
-
-**TORREN:** Don't complain about the fish near the docks. They know. Don't ask the cooper why his sign says `Merrin & Sons`; he has daughters. And if the inn still serves that black onion stew, don't let the color scare you. Looks like ditch water. Tastes fine.
+**TORREN:** Fish smell's normal. Cooper's sign lies. Black onion stew looks like ditch water and tastes better than it has any right to.
 
 A beat.
 
-Cyanis looks at him.
+**CYANIS:** That was three recommendations.
 
-**CYANIS:** That was almost a travel recommendation.
+**TORREN:** Two warnings and a stew.
 
-**TORREN:** Don't spread it around.
+**ILYRA:** Important distinction.
 
-**ILYRA:** Too late. I heard the whole thing.
+Maevra starts toward town.
 
-**MAEVRA:** Witnessed as well.
+**MAEVRA:** Keep walking before he gives you lodging advice.
 
-Torren starts toward Dunmere.
+Torren follows.
 
-**TORREN:** Fuck all of you. Come on.
+**TORREN:** Fuck off.
 
 Cyanis grins and follows.
 
-**Objective:** Enter Dunmere.
+### [GAMEPLAY HANDOFF]
 
----
+Player control resumes for the final approach into town.
 
-## Torren social-comfort audit note
+No missing-traveler or Black Host information is introduced until Beat 2.
 
-This beat is intentionally **not** reduced to early-Chapter-1 Torren terseness.
+**Objective: Enter Dunmere.**
 
-- Torren is still actively guiding, so the route call remains efficient.
-- by Chapter 2 he is comfortable enough with Cyanis, Ilyra, and Maevra to prolong the joke, revive the `trainable` callback, volunteer a mundane opinion, and give an unsolicited local recommendation;
-- the longer speech is not route exposition disguised as personality: Torren talks about the town because he knows it and feels like answering;
-- later Chapter-2 stealth, suspense, and combat beats may still collapse him into short speech when the state earns it;
-- one-word Torren remains available as a choice, not a permanent template.
-
-No story, route, or chapter outcome changes.
+Next mandatory beat:
+**Dunmere Arrival / Missing Travelers**

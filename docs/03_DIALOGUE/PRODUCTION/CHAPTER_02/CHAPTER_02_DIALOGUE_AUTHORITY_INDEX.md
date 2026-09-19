@@ -1,7 +1,7 @@
 # Chapter 2 — Dialogue Authority Index
 
 **Chapter:** 2 — The Drowned Oath  
-**Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — BEATS 1–16 + C05; ATOMIC DIALOGUE + CURRENT PERSON BRAINS ALIGNED**  
+**Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — BEATS 1–16 TRUE-VOICE / DIALOGUE-ECONOMY AUTHORITY CURRENT + C05 RETAINED**
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Beat-development authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
 **Character-Life numbering:** `../CHARACTER_LIFE_NUMBERING_LOCK.md`  
@@ -9,6 +9,7 @@
 **Mature-adult speech:** `../../AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`  
 **Spoken-vs-narration:** `../../AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`  
 **Combined read-through:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **STALE; do not use as exact wording authority until resynchronized**
+**Current atomic spoken-line counts:** **504 mandatory + 88 C05 = 592 if C05 is viewed.**  
 
 ## Authority rule
 
@@ -177,4 +178,4 @@ If Chapter-2 sources disagree:
 7. combined manuscript only after verified resynchronization;
 8. historical material only as provenance.
 
-> **Chapter 2 is fully updated at the source level. The next phase is manuscript synchronization only after Chapters 0–3 source closure is confirmed together.**
+> **Chapter 2 exact dialogue authority is current at 504 mandatory spoken lines plus the retained 88-line C05 `Still Burns`. Combined-manuscript synchronization remains a derived follow-up.**

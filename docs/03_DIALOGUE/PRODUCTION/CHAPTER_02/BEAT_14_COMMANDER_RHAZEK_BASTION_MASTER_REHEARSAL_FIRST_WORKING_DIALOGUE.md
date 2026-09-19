@@ -1,219 +1,249 @@
 # Chapter 2 — Beat 14 — Commander Rhazek / Bastion Master
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — SPOKEN/NARRATION + ENSEMBLE CHARACTER-BALANCE PASS CURRENT  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 14 begins immediately after Beat 13. The unnamed masked officer has already left on operational orders and does **not** participate in this encounter. Maevra remains below with the prisoners. Cyanis, Ilyra, and Torren face Commander Rhazek.
+### [BOSS HANDOFF]
 
-Hard story rule:
-> **The party defeats Rhazek and wins the Old Bastion locally. Rhazek survives because he executes a credible military withdrawal after losing control of the fort—not because the story reverses the victory.**
+Beat 14 begins immediately from Beat 13.
 
----
+The unnamed masked officer has already left on Rhazek's operational orders.
 
-## [BOSS HANDOFF]
+Maevra remains below with the freed prisoners.
 
-Rhazek has already ended the conversation.
+Rhazek has ended the conversation.
 
-**RHAZEK:** Then there is nothing left to discuss.
+**RHAZEK:** There is nothing left to discuss.
 
 Cyanis readies himself.
 
 **CYANIS:** Good.
 
-### BOSS — COMMANDER RHAZEK, BASTION MASTER
+### [BOSS — COMMANDER RHAZEK, BASTION MASTER]
 
-**Combat party:** Cyanis / Ilyra / Torren  
-**Maevra:** absent from combat; remains below with the prisoners  
-**Masked officer:** absent  
-**Story-facing encounter structure:** one HP bar unless encounter authority revises it
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-Finite prepared Black Host support may participate if required by encounter design. It must remain finite, ordinary military support rather than endless reinforcements or a hidden second boss.
+Maevra does not participate.
 
-No dialogue or battle event may reveal the prisoners' onward destination, Seyrik's identity, or a deeper Black Host purpose.
+The masked officer does not return.
 
----
+Rhazek fights as the commander of a functioning military position, not as a theatrical duelist.
 
-## [BATTLE CHARACTER]
+Encounter direction:
+- he uses the room and any finite prepared support intelligently;
+- orders are short and specific;
+- he expects soldiers to hold useful positions, not die for spectacle;
+- support comes from the Bastion's existing personnel and never becomes an endless reinforcement stream;
+- no secret transformation, fresh HP form, invulnerability scene, or surprise second boss occurs;
+- when the party wins, the encounter is over.
 
-Rhazek fights as the commander of a functioning position rather than as a theatrical duelist waiting for a heroic showdown.
+Optional battle barks, only if implementation needs them:
 
-Encounter-direction priorities:
-- Rhazek uses the room, prepared troops, and command discipline when available;
-- any support is already part of the Bastion's finite remaining defense;
-- he does not summon infinite soldiers;
-- the masked officer does not return;
-- no secret transformation, fresh HP form, invulnerability scene, or surprise second phase occurs;
-- when the party wins the encounter, the battle is actually over.
+**RHAZEK:** Hold that line.
 
-Optional short battle barks should stay practical and rare.
+**RHAZEK:** Left side, close it.
 
-Examples only if the combat implementation needs them:
+**RHAZEK:** Do not pursue. Hold position.
 
-**RHAZEK:** Hold the line.
+**RHAZEK:** Fall back by section.
 
-**RHAZEK:** Do not break formation.
+The trio's combat barks remain equally sparse.
 
-**CYANIS:** Torren, left.
-
-**TORREN:** Saw it.
-
-**ILYRA:** Cyanis, move.
-
-These are not mandatory timed dialogue beats and should not turn the boss into a continuous conversation.
-
----
-
-## [RHAZEK DEFEATED]
+### [STORY TRIGGER — RHAZEK DEFEATED]
 
 The battle ends.
 
-Rhazek is still alive, but the result is unambiguous. He is wounded, breathing hard, and no longer in a position to continue holding the command room against the trio.
+Rhazek is alive but decisively beaten.
 
-Cyanis remains ready in case he tries.
+He is wounded, breathing hard, and no longer capable of holding the command room against the trio.
 
-Ilyra stays alert rather than automatically converting the standoff into a post-battle medical check.
+Cyanis remains ready.
+
+Ilyra stays alert.
 
 Torren listens to the fort beyond the room.
 
-The organized response they fought through on the way up is no longer rebuilding itself around Rhazek.
+The organized defense they fought through is no longer reforming around Rhazek.
+
+Cyanis looks at him.
 
 **CYANIS:** Done?
 
-Rhazek looks at him.
+Rhazek catches his breath.
 
-**RHAZEK:** Here.
+**RHAZEK:** This room is.
 
-Cyanis's expression tightens slightly.
+Cyanis's expression tightens.
 
-**CYANIS:** Here is what mattered.
+**CYANIS:** That's enough.
 
-Rhazek does not answer immediately.
+A Black Host soldier appears at the command-side entrance.
 
-A Black Host soldier appears at the command-side entrance but does not charge the trio. The soldier is already bloodied from the wider fighting and looks to Rhazek for an order.
+He is bloodied from the wider fighting but still on his feet.
+
+He looks to Rhazek rather than charging the trio.
 
 **HOST SOLDIER:** Commander. East court broke. Lower stair's gone. We can't reform the interior line.
 
-Rhazek takes in the report, the trio, and the condition of the command level.
+Rhazek asks only what still matters.
 
-He makes the military decision quickly.
+**RHAZEK:** Road gate?
 
-**RHAZEK:** Road gate.
+**HOST SOLDIER:** Held.
 
-The soldier waits.
+Rhazek makes the decision immediately.
 
-**RHAZEK:** General withdrawal. Take the wounded first. Anyone still inside falls back with them.
+**RHAZEK:** General withdrawal.
 
-The soldier gives a short acknowledgement and moves.
+The soldier waits for the rest.
+
+**RHAZEK:** Wounded and support personnel first. Rear guard by section. Nobody dies holding rooms we've already lost.
+
+**HOST SOLDIER:** Understood.
+
+The soldier moves to carry the order.
 
 Cyanis keeps his attention on Rhazek.
 
-**CYANIS:** And the prisoners?
+**CYANIS:** And the people downstairs?
 
-**RHAZEK:** You took the galleries. You took the command level. If you can move them, move them.
+Rhazek looks at him.
 
-**CYANIS:** We can.
+**RHAZEK:** Their status has not changed.
 
-Torren looks toward the command-side route.
+Cyanis stares at him.
 
-**TORREN:** Smart.
+**CYANIS:** It has.
 
-Cyanis glances at him.
+**RHAZEK:** You have control of the galleries and enough force to prevent us retaking them during withdrawal.
 
-**TORREN:** Didn't say I liked him.
+A beat.
 
-Rhazek retrieves himself enough to move. He remains visibly affected by the fight; the scene does not erase the defeat because he can still stand.
+**RHAZEK:** That is a change in control. Not in the legitimacy of the order.
 
-Rhazek gives no permission and receives no thanks. He is simply acknowledging a fact he can no longer prevent.
+Ilyra's expression goes still.
 
----
+**ILYRA:** You really believe that.
 
-## [THE WITHDRAWAL]
+Rhazek looks at her.
 
-The remaining Black Host presence does not mount another boss encounter.
+**RHAZEK:** Yes.
 
-Orders carry through the Bastion. Surviving soldiers begin pulling out rather than dying in place. Wounded Black Host personnel are moved with them.
+No hesitation.
 
-The road gate is opened for the withdrawal.
+No hidden apology.
 
-Rhazek leaves with the retreating force through the maintained military exit. He does not teleport, vanish behind smoke, reveal a hidden passage, become invulnerable, or suddenly overpower the trio in a cutscene.
+Torren gives a short, disgusted exhale.
 
-Cyanis takes several steps after him.
+**TORREN:** There it is.
 
-Torren speaks before Cyanis commits to a pursuit outside the fort.
+Rhazek turns his attention back to the withdrawing fort.
+
+He does not ask the party to understand him.
+
+He does not seek absolution.
+
+### [THE WITHDRAWAL]
+
+Orders move through the Old Bastion.
+
+Black Host soldiers begin falling back through the maintained road-side gate.
+
+Wounded personnel are moved with them.
+
+Support staff clear the position.
+
+The withdrawal is organized because Rhazek still has enough command authority to prevent the loss from becoming a rout.
+
+The road gate is opened as part of that withdrawal.
+
+Rhazek retrieves himself enough to move with the retreating force.
+
+Cyanis starts after him.
+
+Torren notices immediately.
 
 **TORREN:** Cyanis.
 
+Cyanis keeps moving for another step.
+
+Torren does not raise his voice.
+
+**TORREN:** Past that gate, we're chasing him away from everybody we came for.
+
 Cyanis stops.
 
-**TORREN:** Past that gate, we're chasing him away from the people we came for.
+He watches Rhazek and the retreating Host.
 
-Ilyra watches the retreating force clear the gate.
+Ilyra looks toward the lower levels.
 
-**ILYRA:** He's already fucking leaving. Let him.
+**ILYRA:** He's leaving. They're still waiting.
 
-Cyanis watches Rhazek's withdrawal for another moment.
+Cyanis swears under his breath.
 
 **CYANIS:** Fuck.
 
 A beat.
 
-Then he lets the pursuit go.
+Then he turns away from the gate.
 
 **CYANIS:** Right.
 
-This is a choice of priority, not inability. Rhazek has been beaten; the party chooses the rescue over turning a local victory into a chase.
+Rhazek is not spared by inability.
 
----
+The party chooses the prisoners over pursuit.
 
-## [THE BASTION IS THEIRS LOCALLY]
+### [THE ROAD EXIT]
 
-The trio remains inside the road-gate side of the Old Bastion as the last organized Black Host withdrawal clears the immediate position.
+Once the organized Black Host withdrawal clears the immediate position, no new combat begins.
 
-No new combat begins.
+The trio remains inside the road-gate side of the Old Bastion.
 
-Torren checks the maintained road-side exit and its route rather than beginning another dungeon mechanism sequence.
+Torren checks the gate approach, the road beyond it, and the interior route back toward the prisoners.
 
-**CYANIS:** Can we get everyone through here?
+Cyanis waits.
 
-Torren looks over the gate approach and the road beyond.
+Torren finishes looking.
 
 **TORREN:** Yeah.
 
-A beat.
+**CYANIS:** Everybody?
 
-**TORREN:** This'll work.
+Torren nods.
 
-Ilyra looks at the open gate, then back toward the interior they fought through.
+**TORREN:** Wide enough. Maintained ground. We can move the injured through here.
 
-**ILYRA:** About fucking time.
+Ilyra looks back toward the lower levels.
+
+**ILYRA:** Good.
 
 Cyanis turns with her.
 
-**CYANIS:** We came for them.
+**CYANIS:** Then we go get them.
+
+Torren is already moving.
 
 **TORREN:** Yeah.
 
-**Objective:** Return to the prisoners.
+### [GAMEPLAY HANDOFF]
 
-Control/story handoff moves directly toward **Beat 15 — Return to the Prisoners / Release**. There is no post-boss switch hunt, command-room records search, gate puzzle, surprise attack, Rhazek rematch, or additional required combat.
+The party has won the Old Bastion locally.
 
----
+Known:
+- Rhazek has been decisively defeated in combat;
+- he remains alive only because he executes a credible military withdrawal from a lost position;
+- his defeat does not change his belief that the seizure/transfer policy was legitimate;
+- he distinguishes loss of physical control from loss of state authority in principle;
+- surviving Black Host personnel withdraw rather than dying pointlessly for a position Rhazek judges lost;
+- wounded and support personnel are moved as part of the withdrawal;
+- the masked officer does not return;
+- the road-side gate is now open and no longer under Black Host control;
+- the party deliberately chooses the prisoners over pursuing Rhazek;
+- the maintained gate route is suitable for evacuating the mixed prisoner group;
+- there is no post-boss switch dungeon, gate puzzle, records search, surprise attack, or Rhazek rematch.
 
-## Ensemble audit checkpoint
-- Cyanis, Ilyra, and Torren have **defeated Commander Rhazek in combat**.
-- Maevra did not participate in the fight and remains below with the prisoners.
-- The unnamed masked officer never returns and never participates in Beat 14.
-- Rhazek receives no secret second phase, fresh HP form, invulnerable reversal, magical escape, or victory-erasing cutscene.
-- Rhazek recognizes that the Old Bastion's interior command position has become militarily untenable and orders a **general Black Host withdrawal through the maintained road gate**, with wounded personnel moved first.
-- Cyanis owns the commitment that the prisoners can be moved rather than Ilyra serving as his default human-consequence proxy.
-- Ilyra remains a combatant and adult participant in the aftermath: she stays alert, reacts sharply to the retreat, and can swear naturally without being assigned the post-battle medical roll call or rescue-conscience line.
-- Torren's pursuit warning is a practical field judgment, not a statement that Cyanis is incapable of choosing correctly himself.
-- Surviving Host soldiers withdraw rather than being exterminated to prove victory.
-- Rhazek leaves alive with the retreating force through an ordinary military exit.
-- The party could pursue beyond the gate, but deliberately prioritizes the captives still waiting below.
-- The Old Bastion is **locally lost to the Black Host**. Rhazek's survival does not change that result.
-- The maintained road-side gate is now open/usable and no longer under active Black Host control.
-- Torren confirms that the exit is suitable for the prisoners.
-- No additional gate puzzle or post-boss dungeon step is required.
-- The destination and ultimate fate of earlier transferred prisoners remain unknown.
-- Beat 14 ends with the trio turning back toward the prisoners, handing directly into Beat 15.
+**Objective: Return to the prisoners.**
+
+Next mandatory beat:
+**Return to the Prisoners / Release**

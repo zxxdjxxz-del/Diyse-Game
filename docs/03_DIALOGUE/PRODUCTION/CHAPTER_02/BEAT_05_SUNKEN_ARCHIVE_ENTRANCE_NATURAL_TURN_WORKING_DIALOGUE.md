@@ -1,67 +1,97 @@
-# Chapter 2 — Beat 5
-# Sunken Archive Entrance
-## CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT
+# Chapter 2 — Beat 5 — Sunken Archive Entrance
 
-**Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
-**Production note:** `Sunken Archive` is the gameplay/production name only. Nobody in the scene knows or announces that formal name.
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
+**Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
----
+### [STORY TRIGGER — THRESHOLD]
 
-### [THE THRESHOLD]
+The old waterworks route opens into a substantially larger Ancient interior.
 
-The waterworks route opens into a much larger Ancient interior. Movement pauses long enough for a clean visual read.
+Movement pauses long enough for the space to register.
 
-The relevant group models may appear for the authored stop. Cyanis carries the intact Card; it remains inert.
+The production/gameplay name is **Sunken Archive**, but nobody in the party knows or uses that name.
 
-**CYANIS:** Well. That's not plumbing.
+The Card remains inert.
 
-**TORREN:** No.
+Cyanis looks out across the chamber.
 
-**MAEVRA:** Strong start.
+**CYANIS:** Well. Not plumbing.
 
-Ilyra studies the repeated recesses and organized structures built into the chamber.
+Ilyra takes in the repeated protected recesses and the scale of the chamber.
 
-**ILYRA:** This is organized. Repeating recesses, protected niches. They were keeping something here.
+**ILYRA:** No. And those repeat all the way down.
+
+She looks closer.
+
+**ILYRA:** They were keeping something here. A lot of it.
 
 **CYANIS:** Records?
 
-**ILYRA:** Could be. I don't have enough to name it yet.
+**ILYRA:** Maybe. Or things stored like records. That's as far as I'm going.
 
-Torren has been reading the structure differently.
+Torren looks at the water damage and the way it cuts across the older layout.
 
-**TORREN:** Water came later. Place wasn't built for this much of it; the damage cuts across the layout instead of following it.
+**TORREN:** Water came later. Damage doesn't follow the place.
 
-A beat.
+Maevra looks from the flooded floor to the upper recesses.
 
-Cyanis looks back to the reason they came.
+**MAEVRA:** So this was dry once.
 
-**CYANIS:** Direction?
+**TORREN:** Drier, at least.
 
-Torren checks before answering.
+**CYANIS:** Helpful distinction.
 
-**TORREN:** Still broadly toward the Bastion. I don't know where this actually exits, but the route hasn't turned us away from it yet.
+**TORREN:** Usually is.
 
-**CYANIS:** Broadly will do. People are waiting on us.
+Ilyra gives Cyanis a sideways look.
 
-**ILYRA:** We can understand the place later if it gives us time for later.
+**ILYRA:** You wanted the expert answer.
 
-**MAEVRA:** Then keep moving.
+**CYANIS:** I wanted the reassuring one.
 
-Torren looks deeper into the complex.
+**TORREN:** Wrong expert.
 
-**TORREN:** Come on.
+That gets the smallest laugh out of Maevra.
 
-**Objective:** Explore the ancient complex.
+She looks deeper into the complex.
 
-Control returns quickly. The player gets a meaningful entrance stretch to absorb the scale, water damage, and preservation/storage character of the complex before the western mural.
+**MAEVRA:** Route?
 
----
+Torren checks the direction.
 
-## Audit check
+**TORREN:** Still trending right.
 
-- Ilyra interprets organization/preservation rather than verbally inventorying every visible recess and spacing cue.
-- Torren owns the separate water-damage judgment.
-- Maevra no longer summarizes Ilyra + Torren's observations back into a spoken `older, purpose-built, much larger` conclusion; the space already shows that.
-- The conversation returns quickly to the rescue route.
-- Nobody knows the formal name `Sunken Archive`, exact contents, builders, or ultimate purpose.
-- No story, Card, route, or reveal outcome changed.
+**MAEVRA:** Then we keep moving.
+
+Cyanis lingers for one more second on the scale of the place.
+
+**CYANIS:** We're coming back to the question of what this is.
+
+**ILYRA:** Assuming it doesn't drown us first.
+
+**CYANIS:** See, that's the reassuring answer I wanted.
+
+**ILYRA:** Happy to help.
+
+The group moves on.
+
+### [GAMEPLAY HANDOFF]
+
+Player control returns.
+
+The player is given room to absorb:
+- the much larger Ancient scale;
+- the preservation/storage character of the architecture;
+- substantial later water intrusion;
+- the fact that this structure is older than both the waterworks and the Old Bastion.
+
+Nobody identifies its exact purpose.
+
+Nobody knows its formal Ancient name.
+
+The Card remains inert.
+
+**Objective: Explore the ancient complex.**
+
+Next mandatory beat:
+**Western Map Mural**

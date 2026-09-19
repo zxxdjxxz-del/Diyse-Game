@@ -1,73 +1,109 @@
 # Chapter 2 — Beat 9 — Secret Passage Discovery
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN AUDITED / MOSTLY TERSE  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 9 is a route payoff, not another lore beat. The concealed access belongs to the Ancient structure and leads directly into the Old Bastion's reused lower foundations.
+### [GAMEPLAY — POST-LEVIATHAN ROUTE]
 
----
+Player control is active.
 
-### [THE CLOSED FACE]
+After a short stretch beyond the Leviathan chamber, the Ancient route narrows where later construction presses against the older structure.
 
-After a short post-boss exploration stretch, the Ancient route narrows near a section where later construction presses against the older structure.
+There is no additional lore reveal before the passage discovery.
 
-Torren stops at what initially appears to be a solid wall.
+### [STORY TRIGGER — THE CLOSED FACE]
+
+Torren stops at what initially reads as a solid wall.
 
 **TORREN:** Wait.
 
-Cyanis stops.
+Cyanis stops with him.
 
-**CYANIS:** What?
+**CYANIS:** What've you got?
 
-Torren moves closer to the wall.
+Torren steps closer.
 
 **TORREN:** Air.
 
-Ilyra pauses and feels for it.
+Ilyra comes up beside him and feels along the stone.
 
-**ILYRA:** He's right. Something's moving through that face.
+**ILYRA:** Yeah.
 
-Maevra looks at the apparent wall.
+Maevra looks at the wall.
 
-**MAEVRA:** Through solid stone?
+**MAEVRA:** Through that?
 
-Torren checks the joins and edges.
+Torren traces one edge with his hand.
 
-**TORREN:** Not solid. Supposed to look solid. There's a concealed join here and another lower down.
+**TORREN:** Not through it. Around it. Join here.
+
+He crouches and checks lower.
+
+**TORREN:** Another one down there.
+
+Cyanis looks over the apparently solid face.
+
+**CYANIS:** So it's a door pretending not to be one.
+
+**TORREN:** Pretty much.
 
 **CYANIS:** Can you open it?
 
-Torren keeps working the edge rather than answering immediately.
+Torren keeps working instead of answering immediately.
 
-**TORREN:** Think so. Give me a minute before anybody helps.
+**TORREN:** Think so.
 
-**MAEVRA:** That's almost optimism.
+A beat.
 
-**TORREN:** Don't make it weird.
+**TORREN:** Give me a minute before anybody gets helpful.
 
-The exact release interaction belongs to area implementation. Torren finds/uses the surviving Ancient-side mechanism and the concealed access shifts open.
+Cyanis takes one step back.
 
----
+**CYANIS:** Happily.
 
-### [FORT STONE]
+Ilyra does the same.
 
-The space beyond is short. Ancient construction gives way almost immediately to much newer masonry and reinforcement built against/over it.
+**ILYRA:** I was going to watch.
 
-Torren studies the transition.
+**TORREN:** That's allowed.
 
-**TORREN:** There. Fort work. Newer reinforcement built straight against the Ancient structure.
+Maevra folds her good arm.
 
-**MAEVRA:** Old Bastion?
+**MAEVRA:** Generous.
 
-Torren checks the construction again.
+Torren finds the surviving release.
 
-**TORREN:** Has to be, unless somebody built another military fort directly on top of the route we're using.
+The concealed face shifts open.
 
-**CYANIS:** So the elder's maybe worked.
+For one second, nobody says anything.
 
-**TORREN:** Looks like it.
+### [THE OTHER SIDE]
 
-**CYANIS:** I'll take it.
+The passage beyond is short.
+
+Ancient construction gives way almost immediately to newer masonry and reinforcement built directly against it.
+
+Torren looks at the transition.
+
+**TORREN:** Fort work.
+
+Maevra steps closer.
+
+**MAEVRA:** Bastion?
+
+Torren checks the stone and the direction.
+
+**TORREN:** Has to be. Unless somebody built another fort directly on top of the route we were trying to reach.
+
+Cyanis looks through the opening.
+
+**CYANIS:** I'll take the unlikely coincidence.
+
+Torren gives him a look.
+
+**TORREN:** That's not what I said.
+
+**CYANIS:** Close enough.
 
 Ilyra lifts a hand.
 
@@ -75,40 +111,66 @@ Ilyra lifts a hand.
 
 Everyone stops.
 
-From somewhere immediately beyond the short passage comes a faint human voice, then a cough and small movement against metal or stone.
+From somewhere beyond the short passage comes a faint voice.
+
+Then a cough.
+
+Then the small metallic sound of somebody shifting against a barrier.
+
+The mood changes immediately.
 
 Cyanis looks toward the sound.
 
 **CYANIS:** People.
 
+Maevra listens.
+
 **MAEVRA:** Close.
 
-Torren checks the immediate way ahead.
+Torren checks the next angle before anyone advances.
 
-**TORREN:** Don't see Host from here. Doesn't mean the next turn is clean.
+**TORREN:** Can't see the next turn.
 
-**CYANIS:** We found them.
+**CYANIS:** Host?
 
-**TORREN:** Found somebody.
+**TORREN:** Can't see the next turn.
 
-A beat.
+Cyanis nods.
 
-**CYANIS:** Right. Somebody.
+**CYANIS:** Right.
 
-Ilyra is already looking toward the galleries beyond.
+Ilyra is already focused on the sound beyond.
 
-**ILYRA:** Let's go.
+**ILYRA:** Whoever's there heard that door.
 
-**Objective:** Enter the Prisoner Galleries.
+Maevra looks to Cyanis, then Torren.
 
-Beat ends as the party moves through the short concealed route. Beat 10 begins with actual prisoner first contact.
+**MAEVRA:** We go careful.
 
----
+Torren nods once.
 
-## Natural-turn / knowledge check
+**TORREN:** Yeah.
 
-- Suspense and discovery remain mostly terse, but Torren now completes his physical route judgments rather than yielding after every clause.
-- The party discovers and opens an Ancient concealed access into newer Old Bastion foundations.
-- Nothing suggests the Black Host built, uses, or knows about the passage.
-- Human sounds immediately beyond establish prisoner presence without revealing totals, records, transfers, Rhazek, or destination information.
-- No story or reveal outcome changed.
+Cyanis looks through the opening again.
+
+**CYANIS:** Let's find out who we found.
+
+The group moves through.
+
+### [GAMEPLAY HANDOFF]
+
+Beat 9 ends as the party enters the Bastion-side passage.
+
+Known:
+- the concealed access belongs to the Ancient structure;
+- it physically connects into newer Old Bastion construction;
+- nothing indicates the Black Host built, uses, or knows about the passage;
+- human voices are immediately nearby;
+- the party has found people, but does not yet know who, how many, or their condition;
+- there is no transfer-records scene here;
+- Rhazek, the holding/transit function, the masked officer, and the prisoners' onward destination remain unrevealed.
+
+**Objective: Enter the Prisoner Galleries.**
+
+Next mandatory beat:
+**Prisoner Galleries / First Contact**

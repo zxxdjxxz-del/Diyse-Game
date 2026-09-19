@@ -1,87 +1,53 @@
-# Chapter 2 — Beat 2
-# Dunmere Arrival / Missing Travelers
-## CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN + SPOKEN/NARRATION + TORREN SOCIAL-COMFORT PASS
+# Chapter 2 — Beat 2 — Dunmere Arrival / Missing Travelers
 
-**Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
-**Rhythm authority:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
+**Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
----
+### [DUNMERE — ARRIVAL]
 
-### [ARRIVAL]
+Dunmere is functioning.
 
-Dunmere is functioning. Shops are open, people are working, and ordinary town life continues. The first thing the group sees is not a disaster scene.
+Shops are open. People are working. Nothing presents as a town in immediate collapse.
 
-Because this is a town, relevant party members may be visible as field models. Portraits + dialogue box carry the conversation.
+The group enters through ordinary gameplay.
 
-**CYANIS:** Food?
+Cyanis looks farther into town.
 
-**ILYRA:** That was fast.
+**CYANIS:** Inn still two streets?
 
-**CYANIS:** I've been thinking about it for miles.
+**TORREN:** Unless Dunmere finally moved.
 
-**MAEVRA:** He has.
+**ILYRA:** Don't encourage him.
 
-**TORREN:** Inn's farther in. Two streets. If you collapse before then, I'll tell them you died with purpose.
+Torren is about to answer when he slows near several loaded outbound wagons that are not moving.
 
-Cyanis looks at him.
-
-**CYANIS:** You'd lie for me?
-
-**TORREN:** I'd simplify.
-
-**ILYRA:** That's almost sweet by his standards.
-
-**TORREN:** Don't start.
-
-**MAEVRA:** Too late.
-
-**CYANIS:** See? Useful town already.
-
-Torren is about to answer when he slows.
-
-The humor drops because he has noticed the loaded outbound wagons standing idle.
+The change in the road activity is allowed to register visually.
 
 **TORREN:** Hold on.
 
-Cyanis follows his attention.
+A nearby **CARTER** hears him.
 
-**CYANIS:** What?
+**CARTER:** If you're heading out that way, don't.
 
-Torren studies the road activity for a few seconds.
+Cyanis looks toward the stopped road.
 
-**TORREN:** Loaded wagons, teams still hitched, nobody moving. That's not a market delay.
+**CYANIS:** Why?
 
-**MAEVRA:** Road's stopped.
+**CARTER:** People leave for Caelora and don't reach it. Enough of them that I'm not putting another wagon on that road.
 
-A nearby **CARTER** hears them.
-
-**CARTER:** If you're waiting on that road, don't. People keep leaving town and not reaching the other end. I've got cargo somebody already paid to move and I'm still not taking another wagon out there.
-
-The easy humor is gone now.
-
-**TORREN:** Caelora traffic mostly stopped?
-
-**CARTER:** Mostly. A few people still gamble on it. Fewer come back.
-
-**CYANIS:** Bandits?
-
-**CARTER:** Wish it was.
-
-A voice from nearby:
+A bruised, already-bandaged **RETURNED GUARD** speaks from nearby.
 
 **RETURNED GUARD:** They're not missing.
 
-The group turns. A road guard sits near one of the wagons, bruised and scraped but already bandaged.
+The group turns.
 
-**CARTER:** You should be lying down.
+Ilyra looks at him.
 
-**RETURNED GUARD:** Did that.
+**ILYRA:** You hit your head?
 
-Ilyra does not seize control of his care; she asks only what matters before taking his testimony seriously.
+**RETURNED GUARD:** No. Bruised ribs. Scraped arm. Head's fine.
 
-**ILYRA:** You hit your head or lose consciousness?
-
-**RETURNED GUARD:** No. I'm sore, not confused.
+Ilyra accepts that.
 
 **ILYRA:** All right.
 
@@ -89,95 +55,76 @@ Cyanis gives him the floor.
 
 **CYANIS:** What happened?
 
-**RETURNED GUARD:** Black Host came out fast. They didn't want the wagon or the cargo. They took the people with me and dragged them toward the Old Bastion. I got clear before they closed the road behind them.
+**RETURNED GUARD:** Black Host hit us on the road. Didn't take the wagon. Didn't take the cargo. Took the people with me and dragged them toward the Old Bastion. I got loose before they closed the road behind them.
 
-A beat.
+The humor is gone.
 
-**MAEVRA:** Old Bastion's occupied?
+**MAEVRA:** Bastion's occupied?
 
-**RETURNED GUARD:** Has been for a while. Wasn't stopping everybody before. It is now.
+**RETURNED GUARD:** Has been. They weren't stopping everybody before.
 
-**TORREN:** You saw them take the others into the Bastion itself?
+Torren looks at the guard.
 
-**RETURNED GUARD:** Toward it. That's as much as I can swear to from where I got loose.
+**TORREN:** You saw them enter the fort?
 
-Torren nods once.
+**RETURNED GUARD:** No. Toward it. Couldn't see farther than that.
 
-**TORREN:** Good answer. Keep the `toward.` People turn one frightened glimpse into a complete route faster than they realize.
+Torren nods.
+
+**TORREN:** Good. Keep it at toward.
 
 The guard gives him a look.
 
-**TORREN:** Good answer. Bad situation.
+**TORREN:** Means we know what we know.
 
-**RETURNED GUARD:** Figured.
+The Carter gestures toward the idle wagons.
 
-The carter looks toward the wagons.
+**CARTER:** He's not the only one who came back saying the same thing.
 
-**CARTER:** He's not the only one who came back with the same story. That's why the rest of us are waiting.
+A short silence.
 
----
+Cyanis looks toward the road, then at Torren.
 
-### [WHAT THE BASTION MEANS]
+**CYANIS:** Bastion can hold the whole corridor?
 
-The party steps slightly aside from wagon traffic. This is a short practical stop, not a strategy council.
+Torren answers the actual question.
 
-**CYANIS:** What does the Old Bastion give them?
+**TORREN:** Pretty much. Road narrows there. Bad ground one side, higher stone the other. Hold the fort and you see traffic coming, stop it where you want, and make everybody use ground you already own.
 
-Torren answers the whole tactical point instead of forcing Cyanis to pull it out one clause at a time.
+Maevra looks farther into town.
 
-**TORREN:** Position. Old fort sits on the corridor where the road narrows between bad ground and higher stone. Hold it properly and you can watch traffic, stop wagons, and close the route without chasing anybody across half the region. If they're organized enough to take people and still keep the road quiet, they're using the fort for more than intimidation.
+**MAEVRA:** Then the road belongs to them until we change that.
 
-**MAEVRA:** And if they're taking travelers instead of supplies, somebody wants the people.
+The Carter points inward.
 
-Ilyra looks toward the idle wagons.
+**CARTER:** Elder's been collecting every report that comes back. If anybody knows another way near the place, it'll be them.
 
-**ILYRA:** So walking up the same road and hoping they treat us differently would be optimistic even for us.
-
-**CYANIS:** I wasn't going to suggest it.
-
-**TORREN:** Good. I was preparing a longer insult.
-
-Cyanis looks at him.
-
-**CYANIS:** Save it. Might need morale later.
-
-**TORREN:** Fine. Waste of preparation.
-
-Maevra almost smiles.
-
-Torren looks farther into town.
-
-**TORREN:** Need local information before we choose another approach. Someone here knows which old routes still exist, which ones only survive on paper, and whether the Host has bothered to watch any of them.
-
-The carter hears that much.
-
-**CARTER:** Elder's been collecting everything people bring back—who vanished, who returned, where they were hit. If anybody here has more than rumors, it's them.
+Maevra nods.
 
 **MAEVRA:** Where?
 
-**CARTER:** Farther in. You'll find them.
+The Carter gives the direction.
 
-Torren looks at Cyanis.
+Maevra starts moving.
 
-**TORREN:** Elder first. Food after, apparently.
+**MAEVRA:** Come on.
 
-**CYANIS:** Cruel but reasonable.
+No one tries to solve the Bastion from the street.
 
-**ILYRA:** Write down the date.
+### [GAMEPLAY HANDOFF]
 
-**TORREN:** Already rare enough.
+Player control returns in Dunmere.
 
-**Objective:** Speak with the Dunmere elder.
+Known:
+- Dunmere itself is functioning;
+- outbound travel toward Caelora has effectively stalled;
+- Black Host soldiers are taking people from the road;
+- at least one returned witness saw captives taken **toward** the Old Bastion;
+- the Old Bastion controls the corridor;
+- the party does not yet know whether captives are actually being held inside it;
+- the party does not know the waterworks route, holding/transit function, Rhazek's role, or any onward destination.
 
----
+**Objective: Speak with the Dunmere elder.**
 
-## Audit check
-
-- Dunmere remains functioning rather than staged as a disaster zone.
-- The idle loaded wagons communicate the visible road stoppage; Maevra names only the operational conclusion instead of inventorying harnesses, teams, and wagon state aloud.
-- The Carter and Returned Guard give complete witness accounts instead of being prompted one fact at a time.
-- Ilyra's brief injury/clarity check stays short because that is all the scene needs.
-- Torren is visibly more socially comfortable than at his Chapter-1 introduction: he joins the food joke, starts his own joke, keeps it going, and then shifts cleanly into a serious tactical explanation when the wagons change the scene.
-- Torren's longer Bastion explanation is expertise-owned, but his social participation before and after it is not dependent on route exposition.
-- The party learns only that Black Host soldiers are taking travelers toward the Old Bastion and that the corridor is being controlled; the waterworks, holding/transit structure, Rhazek, and onward transfers remain unrevealed.
-- No story or gameplay outcome changed.
+Next mandatory beat:
+**Dunmere Elder / Hidden Approach**

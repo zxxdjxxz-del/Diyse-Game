@@ -3,7 +3,7 @@
 **Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.  
 **Domain rule:** this file owns mandatory Chapter-2 story structure, scene order, reveal order, recruitment state, knowledge changes, and story outcomes. Exact dialogue belongs to the current rehearsal-first Agent Brain pipeline in `03_DIALOGUE`; combat mechanics belong to battle/encounter authority.
 
-**Status:** **LOCKED REVISED 16-BEAT STORY STRUCTURE / DIALOGUE PRODUCTION ACTIVE.**
+**Status:** **LOCKED REVISED 16-BEAT STORY STRUCTURE / DIALOGUE PRODUCTION COMPLETE THROUGH BEATS 1–16 + C05.**
 
 ## Dialogue-production rule
 Chapter 2 uses the locked Chapter-0/1 production method:

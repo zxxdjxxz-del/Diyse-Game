@@ -9,15 +9,13 @@
 This is the single cumulative structural/development workspace for Chapter 2. Keep this file updated as Chapter 2 is refined so the chapter can be recovered without relying on chat history.
 
 ## Current production closure
-> **All sixteen Chapter-2 mainline beats now have current rehearsal-first working dialogue.**
+> **All sixteen Chapter-2 mainline beats have current standalone true-voice / dialogue-economy atomic dialogue.**
 
 Storage note:
-- Beats 1–11 are carried in `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`.
-- Beats 12–16 are carried in current standalone rehearsal-first files in `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/`.
-- `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` remains the current Chapter-2 cleanup Character-Life scene.
-- `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` is the current dialogue-location/authority map and must be consulted when recovering the complete working pass.
-
-The older cumulative manuscript header still reports Beats 1–11; do **not** interpret that header as meaning Beats 12–16 are undeveloped. The authority index and the current per-beat files close that storage gap without risking loss of the earlier manuscript.
+- exact wording authority is the sixteen standalone Beat files in `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/`;
+- `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` remains the current 88-line Chapter-2 cleanup Character-Life scene (canonical C05);
+- `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` is the current dialogue-location/authority map;
+- the combined manuscript is stale and must be regenerated from the atomics before use as a current read-through.
 
 ## Current naming lock
 > **The Chapter-2 Black Host fort is called the Old Bastion.**
