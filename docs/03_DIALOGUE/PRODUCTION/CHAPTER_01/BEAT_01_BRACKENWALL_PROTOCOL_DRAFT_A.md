@@ -1,6 +1,8 @@
 # Chapter 1 — Beat 1
 # Brackenwall / Protocol
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ## [BRACKENWALL — INTAKE]
 
@@ -187,5 +189,3 @@ She looks at the splint.
 Player control returns in Brackenwall.
 
 **Objective: Prepare to leave for Greenhollow.**
-
----

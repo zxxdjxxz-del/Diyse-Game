@@ -1,6 +1,8 @@
 # Chapter 1 — Beat 6
 # Black Host Excavation / Lower Access
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ## [GAMEPLAY — DESCENT BELOW HOLLOW WATCH]
 
@@ -71,5 +73,3 @@ Known:
 
 Next mandatory scene:
 **Lower Junction / Six Channels**
-
----

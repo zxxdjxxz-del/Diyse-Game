@@ -1,6 +1,8 @@
 # Chapter 1 — Beat 2
 # Briar Passage / First Traversal
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ## [GAMEPLAY — BRIAR PASSAGE]
 
@@ -76,5 +78,3 @@ Combat party:
 
 Next mandatory scene:
 **Greenhollow / Torren**
-
----

@@ -1,6 +1,8 @@
 # Chapter 1 — Beat 8
 # Surviving Channel / Forced Inner Route
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ## [GAMEPLAY — SOLE SURVIVING CHANNEL]
 
@@ -72,5 +74,3 @@ Known:
 - ancient defenses remain active;
 - the party still does not know what this section protects;
 - the Card has not reacted during Beat 8.
-
----

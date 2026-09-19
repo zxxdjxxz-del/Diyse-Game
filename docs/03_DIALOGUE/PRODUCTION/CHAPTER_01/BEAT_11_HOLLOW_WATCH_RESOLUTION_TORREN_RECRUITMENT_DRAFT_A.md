@@ -1,6 +1,8 @@
 # Chapter 1 — Beat 11
 # Greenhollow Resolution / Torren Recruitment
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ## [GREENHOLLOW — RETURN]
 
@@ -111,5 +113,3 @@ Current direction:
 
 Next mandatory beat:
 **Southern Briar Passage**
-
----

@@ -1,9 +1,10 @@
 # Chapter 1 — Character-Life Scene Rebuild Lock
 
-**Status:** CURRENT COMPLETE WORKING PRODUCTION — editable during implementation/playtest  
+**Status:** CURRENT COMPLETE CHARACTER-LIFE PRODUCTION — C02/C03/C04 EXACT DIALOGUE ATOMICS CURRENT; editable during implementation/playtest  
 **Domain:** Chapter 1 optional Character-Life dialogue  
 **Canonical IDs:** C02, C03, C04  
 **Global numbering authority:** `../CHARACTER_LIFE_NUMBERING_LOCK.md`
+**Current spoken-line counts:** C02 **67** / C03 **56** / C04 **64**.
 
 ## Authority result
 

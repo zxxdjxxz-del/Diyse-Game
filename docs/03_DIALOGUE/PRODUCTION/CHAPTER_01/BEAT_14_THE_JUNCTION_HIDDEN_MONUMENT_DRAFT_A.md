@@ -1,6 +1,8 @@
 # Chapter 1 — Beat 14
 # The Junction / Hidden Monument
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ## [GAMEPLAY — ARRIVAL AT THE JUNCTION]
 
@@ -211,5 +213,3 @@ Known:
 
 Next mandatory beat:
 **Junction Camp / Chapter 1 Cleanup**
-
----

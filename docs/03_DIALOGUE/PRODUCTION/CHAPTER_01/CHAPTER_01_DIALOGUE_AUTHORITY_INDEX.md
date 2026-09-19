@@ -1,9 +1,9 @@
 # Chapter 1 — Dialogue Authority Index
 
 **Chapter:** 1  
-**Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — LOCKED CURRENT CHAPTER-1 DIALOGUE — BEATS 1–15 TRUE-VOICE + CHAPTERS 0–3 CONTINUITY AUDITED; C02/C03/C04 RETAINED CURRENT**  
-**Combined read-through:** `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **CURRENT SYNCHRONIZED DERIVED READ-THROUGH**  
-**Last full synchronization verification:** **2026-09-19 — Dialogue Sync run 82 passed all generation/check stages; current runtime mirror = 2,901 spoken lines across 60 scenes.**  
+**Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — BEATS 1–15 + C02/C03/C04 TRUE-VOICE / DIALOGUE-ECONOMY AUTHORITY CURRENT**
+**Combined read-through:** `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **STALE after current atomic revisions; do not use as exact wording authority until regenerated**
+**Current atomic spoken-line counts:** **300 mandatory + 187 Character-Life = 487 if all three optional scenes are viewed** (C02 67 / C03 56 / C04 64).  
 **Character-Life numbering:** `../CHARACTER_LIFE_NUMBERING_LOCK.md`  
 **Character-Life content:** `CHARACTER_LIFE_REBUILD_LOCK.md`  
 **Rhythm:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
@@ -155,7 +155,7 @@ The user explicitly approved the completed Beats 1–15 cleanup as the new Chapt
 - natural-turn/floor-holding audit;
 - relationship-stage and cross-chapter callback audit.
 
-The mandatory Beat 1–15 atomics now supersede their prior wording in full. The Chapter-1 Character-Life atomics C02/C03/C04 remain current and unchanged.
+The mandatory Beat 1–15 atomics supersede their prior wording in full. The Chapter-1 Character-Life atomics C02/C03/C04 now also use the approved rebalanced true-voice trims and supersede their prior longer wording.
 
 Key locked structural corrections include:
 - Beat 2: one halfway stop; no guided traversal dialogue;
@@ -209,8 +209,8 @@ Natural adult speech does not justify repeating visible evidence or known plot i
 - high-risk/applicable scene specs — **ALIGNED**;
 - natural-turn audit — **COMPLETE**;
 - spoken-dialogue/narration audit — **COMPLETE**;
-- combined manuscript — **CURRENT — SYNCHRONIZED FROM THE LOCKED ATOMIC SET**;
-- Chapters 0–3 reader/runtime derivatives — **CURRENT — SYNCHRONIZED; runtime mirror verified at 2,901 spoken lines across 60 scenes**.
+- combined manuscript — **STALE AFTER CURRENT ATOMIC REVISIONS; REGENERATE FROM ATOMICS BEFORE USING AS A READ-THROUGH**;
+- Chapters 0–3 reader/runtime derivatives — **STALE AFTER CURRENT 0–3 ATOMIC REVISIONS; regenerate only from current atomics**.
 
 ## Conflict order
 
@@ -226,4 +226,4 @@ If Chapter-1 sources disagree:
 9. current combined manuscript as a verified derived read-through only; it never overrides standalone atomics;
 10. historical material only as provenance.
 
-> **Chapter 1 is locked current at the source level and fully synchronized through the combined manuscript, runtime mirror, sync manifest, and Chapters 0–3 exact-dialogue reader. Future dialogue edits must begin in the atomics/specs and then rerun the synchronizer; never hand-edit the derived manuscript as authority.**
+> **Chapter 1 is locked current at the atomic source level: 300 mandatory lines plus 187 optional Character-Life lines. Derived manuscript/runtime mirrors must now be regenerated from these atomics before they are treated as current.**

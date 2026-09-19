@@ -1,6 +1,8 @@
 # Chapter 1 — Beat 3
 # Greenhollow / Torren
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ## [GREENHOLLOW — ROUTE BOARD]
 
@@ -127,5 +129,3 @@ Combat party:
 Maevra remains noncombat.
 
 **Objective: Approach Hollow Watch.**
-
----

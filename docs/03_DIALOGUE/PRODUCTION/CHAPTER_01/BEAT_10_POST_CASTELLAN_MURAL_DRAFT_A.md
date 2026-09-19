@@ -1,6 +1,8 @@
 # Chapter 1 — Beat 10
 # Post-Castellan Mural
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ## [STORY TRIGGER — PROTECTED MURAL]
 
@@ -61,7 +63,6 @@ His attention is fixed on the prominent structure depicted at the crossroads.
 **TORREN:** No. Could be gone, could be buried, could be the picture's wrong about the size. But if something like that were standing there now, I wouldn't have missed it.
 
 A brief silence.
-
 **MAEVRA:** We're already going south.
 
 **TORREN:** Junction's close enough to the route.
@@ -97,5 +98,3 @@ Known:
 
 Next mandatory scene:
 **Greenhollow Resolution / Torren Recruitment**
-
----

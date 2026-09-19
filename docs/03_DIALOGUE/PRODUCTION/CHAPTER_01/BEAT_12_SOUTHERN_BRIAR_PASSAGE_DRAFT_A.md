@@ -1,6 +1,8 @@
 # Chapter 1 — Beat 12
 # Southern Briar Passage
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ## [GAMEPLAY — SOUTHERN BRIAR]
 
@@ -149,5 +151,3 @@ Known:
 
 Next mandatory beat:
 **Briarhide Stalker**
-
----

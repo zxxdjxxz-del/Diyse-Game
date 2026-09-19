@@ -1,6 +1,8 @@
 # Chapter 1 — Beat 5
 # Occupied Hollow Watch
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ## [GAMEPLAY — OCCUPIED FORT]
 
@@ -99,5 +101,3 @@ Combat party:
 
 Next mandatory section:
 **Black Host Excavation / Lower Access**
-
----

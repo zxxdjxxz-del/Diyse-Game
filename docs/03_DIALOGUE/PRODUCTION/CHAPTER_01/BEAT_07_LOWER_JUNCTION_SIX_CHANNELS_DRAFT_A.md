@@ -1,6 +1,8 @@
 # Chapter 1 — Beat 7
 # Lower Junction / Six Channels
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ## [STORY TRIGGER — SIX-CHANNEL JUNCTION]
 
@@ -62,5 +64,3 @@ Known:
 
 Next mandatory section:
 **Surviving Channel / Forced Inner Route**
-
----

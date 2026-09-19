@@ -1,6 +1,8 @@
 # Chapter 1 — Beat 13
 # Briarhide Stalker
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / CHAPTERS 0–3 CONTINUITY AUDITED
+## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
 
 ## [GAMEPLAY — FINAL SOUTHERN BRIAR STRETCH]
 
@@ -139,5 +141,3 @@ The Junction monument has still not been revealed.
 
 Next mandatory beat:
 **The Junction / Hidden Monument**
-
----

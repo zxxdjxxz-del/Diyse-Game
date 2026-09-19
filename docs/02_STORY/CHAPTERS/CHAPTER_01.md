@@ -3,7 +3,7 @@
 **Current whole-project written authority:** v2.20 / Audit135, plus later explicit user corrections and current domain migrations.  
 **Domain rule:** this file owns mandatory Chapter-1 story structure, scene order, reveal order, recruitment milestones, knowledge state, and story outcomes. Exact dialogue belongs to the dialogue engine / `03_DIALOGUE`; combat mechanics belong to battle/encounter authority.
 
-**Status:** STRUCTURE LOCKED / LEAN DIALOGUE-ENGINE STORY-BEAT PASS IN PROGRESS.
+**Status:** STRUCTURE LOCKED / DIALOGUE PRODUCTION COMPLETE THROUGH BEATS 1–15 + C02/C03/C04; exact wording current in `03_DIALOGUE`.
 
 ## Dialogue-engine beat rule
 For reopened Chapter-1 material, story authority should define only what is needed to keep generated dialogue canon-safe:
