@@ -2,7 +2,7 @@
 """Restore the approved world intro and current encounter bridges to the Ch0-3 reader.
 
 Run after presentation cleanup/heading normalization and before layout repair.
-All 3,440 spoken lines are immutable.
+All 2,901 spoken lines are immutable.
 """
 from __future__ import annotations
 
@@ -22,7 +22,7 @@ CH3 = ROOT / "docs/09_ENEMIES_AND_ENCOUNTERS/CHAPTER_ENEMIES/CHAPTER_03.md"
 PLACEMENT = ROOT / "docs/09_ENEMIES_AND_ENCOUNTERS/CURRENT_PLACEMENT_AND_RESOLUTION_CORRECTIONS_2026-09-12.md"
 FORMATIONS = ROOT / "game/content/encounters/chapter_01_04_formations.gd"
 
-EXPECTED_DIALOGUE_LINES = 3440
+EXPECTED_DIALOGUE_LINES = 2901
 LABEL_RE = re.compile(r"^.+:\s*$")
 
 # target heading, inserted heading, body paragraphs, owning source, required authority terms
