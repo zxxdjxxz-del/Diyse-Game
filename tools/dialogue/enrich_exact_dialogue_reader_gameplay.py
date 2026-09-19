@@ -44,7 +44,7 @@ BRIDGES = (
         "Boss encounter: Riftmaw + Convoy War-Sorcerer.",
     ), CH0, ("Riftmaw", "Convoy War-Sorcerer")),
 
-    ("Entry — Greenhollow", "Random Encounters — Northern Briar Passage", (
+    ("Halfway Stop", "Random Encounters — Northern Briar Passage", (
         "Random encounters are active through the hostile route between Brackenwall and Greenhollow.",
         "Current enemy pool: Black Host Raider; Black Host Crossbowman; Ruin Shieldbearer; Brackenwall Reaver.",
     ), CH1, ("Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "Brackenwall Reaver")),
@@ -56,7 +56,7 @@ BRIDGES = (
         "Ordinary combat inside the occupied fort remains random rather than a chain of fixed room-clear fights.",
         "Current enemy pool: Hollow Watch Sentry; Hollow Watch Ballista.",
     ), CH1, ("Hollow Watch Sentry", "Hollow Watch Ballista")),
-    ("First Clear Briarhide Sighting", "Random Encounters — Southern Briar", (
+    ("First Clear Sighting", "Random Encounters — Southern Briar", (
         "Ordinary enemies remain random encounters through the Southern Briar exploration before the chapter boss.",
         "Current enemy pool: Greenhollow Stalker; Thornvine Creeper; Briar Boar.",
     ), CH1, ("Greenhollow Stalker", "Thornvine Creeper", "Briar Boar")),
