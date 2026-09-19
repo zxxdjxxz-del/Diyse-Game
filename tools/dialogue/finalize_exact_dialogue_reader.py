@@ -54,6 +54,10 @@ PROSE_REPLACEMENTS = {
         "Necessary staff produce records and the Queen's physical seal, then recede from the room.",
     "This is not new evidence. It is the same old material already reported in Caelora:":
         "It is the same material already reported in Caelora:",
+    "Movement pauses.": "The group stops.",
+    "Movement pauses briefly.": "The group stops briefly.",
+    "Once ordinary wilderness traversal resumes, Cyanis is again the sole visible party field character.":
+        "Once they return to the wilderness, Cyanis takes the lead again.",
     "At the established point where later construction visibly interfaces with older Diysean structure, movement pauses.":
         "Later construction visibly meets the older Diysean structure.",
     "At the channel carrying the Black Host breach farther inward, movement pauses and the relevant characters may appear again.":
