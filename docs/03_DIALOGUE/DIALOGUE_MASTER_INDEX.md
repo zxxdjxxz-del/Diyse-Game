@@ -155,7 +155,7 @@ Legacy source filenames do not override canonical numbering.
 | Chapter | Source-level status | Chapter authority | Derived manuscript |
 |---|---|---|---|
 | Ch0 | **FULL SOURCE CLOSURE** — P01–P07 + C01; Person-Brain + Cyanis audit + Ilyra balance + adult speech + natural-turn + spoken-vs-narration; current brains aligned | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
-| Ch1 | **LOCKED CURRENT SOURCE** — Beats 1–15 true-voice + Chapters 0–3 continuity audited; C02/C03/C04 retained current | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` | **STALE UNTIL RESYNCHRONIZED** |nal ensemble + Ilyra + Torren progression + Maevra rank/friendship + reveal timing + adult speech; current brains/specs aligned | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
+| Ch1 | **LOCKED CURRENT SOURCE** — Beats 1–15 true-voice + Chapters 0–3 continuity audited; C02/C03/C04 retained current | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` | **STALE UNTIL RESYNCHRONIZED** |
 | Ch2 | **FULL SOURCE CLOSURE** — Beats 1–16 + C05; final ensemble + Ilyra + Torren progression + Maevra rank/friendship + adult speech + natural-turn + spoken-vs-narration; current brains aligned | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
 | Ch3 | **FULL SOURCE CLOSURE** — Beats 1–15 + C06/C07; Person-Brain + Ilyra + Torren progression + Torren/Nimera first-contact + Nimera adult speech + current Face/subclass terminology; current brains/specs aligned | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
 
@@ -303,7 +303,7 @@ Current synchronization invariants:
 1. current production atomics are the only exact spoken-wording input authority;
 2. the combined manuscripts are regenerated from those atomics;
 3. the current runtime mirror is regenerated from those atomics;
-4. the runtime mirror must contain exactly **3,440 spoken lines across 60 scenes**;
+4. the runtime mirror must contain exactly **2,901 spoken lines across 60 scenes**;
 5. protected exact-line anchors and retired-canon guards must pass;
 6. the reader may restore player-facing world/gameplay context from its owning authorities but may not alter spoken dialogue;
 7. `python tools/dialogue/sync_current_dialogue.py --check` and `python tools/dialogue/compile_current_runtime_dialogue.py --check` must pass after future source edits;
