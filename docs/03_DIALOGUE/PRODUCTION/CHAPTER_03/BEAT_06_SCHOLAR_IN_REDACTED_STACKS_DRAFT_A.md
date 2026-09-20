@@ -44,7 +44,7 @@ Nimera leans for an angle she cannot get.
 
 **TORREN:** Yeah.
 
-**NIMERA:** Excellent. I was worried restoration might be helping instead of fucking me personally.
+**NIMERA:** Excellent. I was worried restoration might be helping.
 
 Ilyra looks her over once.
 
@@ -210,7 +210,7 @@ Nimera traces what she can see from inside.
 
 She points at Torren.
 
-**NIMERA:** You. Slowly. Full fucking sentences if the gods are feeling generous.
+**NIMERA:** You. Slowly. Full sentences if the gods are feeling generous.
 
 **TORREN:** No promises.
 
