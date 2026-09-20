@@ -27,19 +27,19 @@ LABEL_RE = re.compile(r"^.+:\s*$")
 
 # target heading, inserted heading, body paragraphs, owning source, required authority terms
 BRIDGES = (
-    ("Cyanis Solo", "Authored Battles — Opening Ambush", (
+    ("Cyanis Solo", "Opening Ambush", (
         "Combat 1 — Cyanis solo: Black Host Raider; Black Host Crossbowman; Ruin Shieldbearer.",
         "Combat 2 — Cyanis solo: Beast Handler; Convoy Rift Hound.",
         "Chapter 0 uses authored/tutorial encounters rather than the normal random-encounter cadence.",
     ), CH0, ("Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "Beast Handler", "Convoy Rift Hound")),
-    ("Hound Pressure", "Authored Battle — Wreck Field", (
+    ("Hound Pressure", "Wreck Field", (
         "Cyanis faces a lone Convoy Rift Hound while the survivor route is being stabilized.",
     ), CH0, ("lone Convoy Rift Hound",)),
-    ("The Pursuer", "Authored Battle — Concealed Ruin Vanguard", (
+    ("The Pursuer", "Concealed Ruin Vanguard", (
         "Combat party: Cyanis + Ilyra.",
         "Enemy: Ruin Vanguard Pursuer. The pursuer's identity remains unknown to the party.",
     ), CH0, ("Ruin Vanguard Pursuer",)),
-    ("Final Push", "Final Boss — Broken Convoy", (
+    ("Final Push", "Broken Convoy", (
         "Combat party: Cyanis + Ilyra.",
         "Boss encounter: Riftmaw + Convoy War-Sorcerer.",
     ), CH0, ("Riftmaw", "Convoy War-Sorcerer")),
