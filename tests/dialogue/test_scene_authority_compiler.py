@@ -78,12 +78,12 @@ def main() -> int:
         if selection["section"] == "Beat 1 — Brackenwall / Protocol"
     )
     expect(
-        "Cyanis and Ilyra arrive from the Broken Convoy." in beat_text,
-        "compiled story section does not contain the current starting state",
+        "attempted transfer/storage separates the Card from Cyanis;" in beat_text,
+        "compiled story section does not contain the current Brackenwall transfer state",
     )
     expect(
-        "No Prime identification" in beat_text,
-        "compiled story section lost its reveal firewall",
+        "Card stays with Cyanis; Ilyra monitors only real changes;" in beat_text,
+        "compiled story section lost the current Card custody boundary",
     )
 
     profiles = request["participant_profiles"]
