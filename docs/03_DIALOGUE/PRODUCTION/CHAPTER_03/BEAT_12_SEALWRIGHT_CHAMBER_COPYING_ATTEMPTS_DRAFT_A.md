@@ -142,7 +142,7 @@ Cyanis checks the Card.
 
 Nimera looks at him.
 
-**NIMERA:** That was the fucking qualifier.
+**NIMERA:** That was the qualifier.
 
 Cyanis smiles.
 
