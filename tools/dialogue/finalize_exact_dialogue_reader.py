@@ -56,6 +56,8 @@ PROSE_REPLACEMENTS = {
         "It is the same material already reported in Caelora:",
     "Movement pauses.": "The group stops.",
     "Movement pauses briefly.": "The group stops briefly.",
+    "Movement pauses long enough for the space to register.": "The group stops long enough to take in the space.",
+    "The party is given a clean visual read before anyone speaks.": "The party takes in the space before anyone speaks.",
     "Once ordinary wilderness traversal resumes, Cyanis is again the sole visible party field character.":
         "Once they return to the wilderness, Cyanis takes the lead again.",
     "At the established point where later construction visibly interfaces with older Diysean structure, movement pauses.":
