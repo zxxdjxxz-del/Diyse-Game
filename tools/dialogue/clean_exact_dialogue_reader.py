@@ -419,6 +419,8 @@ def clean_heading(text: str) -> str | None:
             text = changed or "Camp"
 
     low = text.lower()
+    if low.startswith("current locked dialogue") or low.startswith("current locked character-life dialogue"):
+        return None
     if re.fullmatch(r"beat-\d+\s+end state", low):
         return None
     if low in {"beat end", "scene seed"}:
