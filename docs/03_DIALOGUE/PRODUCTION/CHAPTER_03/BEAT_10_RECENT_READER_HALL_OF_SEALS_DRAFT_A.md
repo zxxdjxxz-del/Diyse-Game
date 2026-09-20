@@ -30,7 +30,7 @@ She turns the ledger toward them.
 
 **TORREN:** Method missing?
 
-**NIMERA:** Referenced elsewhere. Which is somehow more irritating than missing outright.
+**NIMERA:** Referenced elsewhere. Which is somehow more fucking irritating than missing outright.
 
 Ilyra reads the note beside it.
 
@@ -62,7 +62,7 @@ Torren stops at one.
 
 Nimera checks the provenance note.
 
-**NIMERA:** Strong resemblance. Diysean context. Apparently administrative authority. Not Yahtrean royalty, not proven ancestry, not permission to skip three centuries of missing evidence because the shapes look friendly.
+**NIMERA:** Strong resemblance. Diysean context. Apparently administrative authority. Not Yahtrean royalty, not proven ancestry, and not permission to shove three missing centuries up the family tree's ass because the shapes look friendly. That's not how family trees work. You know what I mean.
 
 **TORREN:** Wasn't planning to.
 
@@ -86,7 +86,7 @@ Torren notices first.
 
 Nimera checks the case and folio.
 
-**NIMERA:** Recently. And badly. Support strap folded under itself. Animal.
+**NIMERA:** Recently. And badly. Support strap folded under itself. Fucking animal.
 
 **CYANIS:** That's what offended you?
 
@@ -146,7 +146,7 @@ A large armored figure stands dormant in an alcove.
 
 **ILYRA:** Very decorative, then.
 
-**NIMERA:** If optimism wakes it, I'm blaming both of you.
+**NIMERA:** If optimism wakes the fucking thing, I'm blaming both of you.
 
 Torren watches the figure.
 
