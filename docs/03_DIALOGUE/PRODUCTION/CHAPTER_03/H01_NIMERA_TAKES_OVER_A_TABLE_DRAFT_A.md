@@ -135,13 +135,13 @@ Cyanis starts inspecting the table like an enemy position.
 
 **CYANIS:** Books.
 
-**NIMERA:** Two active references, an index, one book I'm angry at, and one book still under review.
+**NIMERA:** Two active references, an index, one book that can go fuck itself, and one book still under review.
 
 Cyanis points to a cup sitting in its own clear patch.
 
 **CYANIS:** Your cup has territory.
 
-**NIMERA:** Liquid should not share a border with ink and paper. That's civilization.
+**NIMERA:** Liquid should not share a fucking border with ink and paper. That's civilization.
 
 Torren nods.
 

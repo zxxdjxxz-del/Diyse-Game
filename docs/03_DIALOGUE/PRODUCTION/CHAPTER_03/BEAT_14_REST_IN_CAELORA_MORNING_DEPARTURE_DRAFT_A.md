@@ -24,7 +24,7 @@ Cyanis looks up.
 
 Nimera nods.
 
-**NIMERA:** I support the princess's oppressive sleep policy.
+**NIMERA:** I support the princess's fucking oppressive sleep policy.
 
 **MIRENA:** Eat. Sleep. Leave when you're ready tomorrow. Maevra and I will follow with a proper work crew later.
 
@@ -66,7 +66,7 @@ Nimera stops.
 
 **TORREN:** Sure.
 
-**NIMERA:** Moving it before I touched it does not prove I was about to put a spoon in ink.
+**NIMERA:** Moving it before I touched it does not prove I was about to put a fucking spoon in ink.
 
 **ILYRA:** I watched you aim.
 
@@ -136,7 +136,7 @@ Nimera looks at him.
 
 **TORREN:** Still closed.
 
-**NIMERA:** I refuse to lose a grammar argument to a man who writes map notes like punctuation costs money.
+**NIMERA:** I refuse to lose a grammar argument to a man who writes map notes like punctuation costs fucking money.
 
 Ilyra takes a drink.
 

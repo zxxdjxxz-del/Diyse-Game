@@ -28,7 +28,7 @@ Torren studies the frame instead.
 
 Nimera turns toward him immediately.
 
-**NIMERA:** Three plates. Second worktable, stone behind me, turn around, congratulations, architecture has assigned me housing.
+**NIMERA:** Three plates. Second worktable, stone behind me, turn around—congratulations, architecture has shoved me into its fucking armpit. No, that's unfair to armpits. They usually have exits.
 
 **TORREN:** Three on your side?
 
@@ -50,7 +50,7 @@ Ilyra looks her over once.
 
 **ILYRA:** Hurt?
 
-**NIMERA:** No. Trapped, annoyed, and developing professional hostility toward whoever placed that brace.
+**NIMERA:** No. Trapped, annoyed, and developing professional hostility toward whoever fucked that brace into place.
 
 **ILYRA:** Good. Then I can enjoy this.
 
@@ -68,7 +68,7 @@ Nimera's attention snaps to Torren.
 
 **TORREN:** That's usually how names work.
 
-**NIMERA:** Your western survey notation is appalling.
+**NIMERA:** Your western survey notation is fucking appalling.
 
 **TORREN:** Saves space.
 
@@ -118,7 +118,7 @@ Nimera's questions come quickly.
 
 **CYANIS:** Not measured.
 
-**NIMERA:** Fine. Staying conscious outranked measurement. Good. And nobody decided that an unexplained magical reaction needed a second attempt for confidence?
+**NIMERA:** Fine. Staying conscious outranked measurement. Good. And nobody decided to poke the fucking magical bear twice just to confirm it had teeth? Bad metaphor. There was no bear. You know what I mean.
 
 **CYANIS:** No.
 
@@ -158,7 +158,7 @@ Nimera points at him through the barrier.
 
 Torren waits.
 
-**NIMERA:** A clean record proves the record is clean. It does not prove nobody got access, nobody lied, nobody copied an entry, nobody trusted the wrong person, or that physical access was even required. Those are separate claims and people keep marrying them because paperwork looks respectable.
+**NIMERA:** A clean record proves the record is clean. It does not prove nobody got access, nobody lied, nobody copied an entry, nobody trusted the wrong person, or that physical access was even required. Those are separate claims and people keep fucking them together because paperwork looks respectable. No—fucking together implies they produce something coherent. They don't. They just end up in the same bed.
 
 **TORREN:** Agreed.
 
@@ -180,7 +180,7 @@ She looks back to the Card.
 
 **CYANIS:** That's why we're here.
 
-**NIMERA:** I have too many questions and currently one architectural obstruction. The obstruction is winning.
+**NIMERA:** I have too many questions and currently one architectural bastard sitting on all of them. The bastard is winning.
 
 ### [THE BARRIER]
 
@@ -222,7 +222,7 @@ Ilyra studies the pattern.
 
 Nimera answers without pretending certainty.
 
-**NIMERA:** Trigger a smaller response before anything opens. If it does, we learn from that. If it doesn't, then I was wrong and we revise instead of becoming emotionally attached to a bad idea.
+**NIMERA:** Trigger a smaller response before anything opens. If it does, we learn from that. If it doesn't, then I was wrong and we revise instead of dragging the fucking corpse of a bad idea around because we liked it alive. Grim. Accurate, though.
 
 **ILYRA:** Refreshing.
 

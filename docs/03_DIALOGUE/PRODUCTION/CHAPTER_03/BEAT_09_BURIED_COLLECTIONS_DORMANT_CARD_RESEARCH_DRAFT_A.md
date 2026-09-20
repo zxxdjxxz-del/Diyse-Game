@@ -32,7 +32,7 @@ Ilyra points to another account.
 
 Nimera checks it.
 
-**NIMERA:** Different account again. Good. Annoying, but good.
+**NIMERA:** Different account again. Good. Annoying as shit, but good.
 
 Torren is looking at repeated headings on older cases.
 
@@ -44,7 +44,7 @@ Nimera follows his attention.
 
 She immediately keeps going.
 
-**NIMERA:** Which means somebody later thought the comparison was useful. It does not prove the old marks meant exactly what those names mean now.
+**NIMERA:** Which means somebody later thought the comparison was useful. It does not mean we get to fuck the old marks into modern categories just because the names fit.
 
 **CYANIS:** Nobody said it did.
 
@@ -72,7 +72,7 @@ Nimera has gone quiet over a damaged text.
 
 She turns a page.
 
-**NIMERA:** Then it mentions renewal, maintenance, specialized keepers, succession practice—and the useful procedure is omitted because the copyist considered it routine.
+**NIMERA:** Then it mentions renewal, maintenance, specialized keepers, succession practice—and the useful procedure is omitted because the copyist considered it routine. Fuck that copyist.
 
 **TORREN:** Helpful.
 
@@ -88,7 +88,7 @@ Nimera checks it.
 
 A beat.
 
-**NIMERA:** Similar practice. Incomplete chain. Nobody gets to say ancestor yet.
+**NIMERA:** Similar practice. Incomplete chain. Nobody gets to shove them into bed and call the bastard child ancestry yet. Actually, child implies causation. Bad metaphor. Point stands.
 
 **ILYRA:** Wasn't planning to.
 
@@ -164,7 +164,7 @@ Ilyra looks across the spread.
 
 **ILYRA:** Same subjects we're chasing.
 
-**NIMERA:** Same research trail. Not necessarily the same theory. We do not know what the reader concluded.
+**NIMERA:** Same research trail. Not necessarily the same theory. We do not know what the reader concluded, and I'm not climbing up their ass to invent it.
 
 **CYANIS:** Preventive maintenance?
 

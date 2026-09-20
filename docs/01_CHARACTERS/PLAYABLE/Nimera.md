@@ -115,7 +115,9 @@ Her profanity can be clipped, embedded, emphatic, delighted, irritated, analytic
 - profanity inside a longer correction or explanation when the frustration, excitement, or absurdity genuinely belongs there.
 
 ### Profane improvisation / self-correction
-Nimera may also produce **random, off-the-wall profane phrases that are not standard idioms and do not initially make much sense**. This is especially compatible with surprise, delight, frustration, exhaustion, or a discovery so strange that the first thing out of her mouth outruns the rest of her brain.
+Nimera's spontaneous metaphors and comparisons should **usually begin profane, vulgar, bodily, indecent, or socially inappropriate** unless the emotional state calls for cleaner language. Dirty physical comparisons are a normal first language for her brain, not a special comedy mode.
+
+She may also produce **random, off-the-wall profane phrases that are not standard idioms and do not initially make much sense**. This is especially compatible with surprise, delight, frustration, exhaustion, or a discovery so strange that the first thing out of her mouth outruns the rest of her brain.
 
 Being Nimera, however, she often **cannot leave her own bad metaphor uncorrected**.
 
@@ -139,6 +141,9 @@ The exact phrases should be newly invented for the moment. **Do not establish a 
 The correction does not always need to happen. Sometimes **“Oh, fuck.”** is simply the right line. But when an improvised phrase is bizarre enough that Nimera herself would notice its flaw, letting her repair it is strongly in character.
 
 These are examples of register, **not mandatory catchphrases**. Do not mechanically cycle through them, and do not make every discovery produce an expletive.
+
+### Long-form profanity calibration
+For a sufficiently large ordinary-speech corpus, Nimera should usually land around **15–20% of spoken lines containing natural profanity**. This is an editorial calibration range, **not** a scene quota and never a rule to swear every fifth line. Individual scenes may run far below or above it depending on focus, fear, vulnerability, fury, comfort, banter, discovery, and subject matter. The purpose of the range is to catch accidental sanitization across a whole chapter or long dialogue pass.
 
 Certainty matters. When Nimera actually knows the answer, she does not need to sound academically cautious for appearances. A visceral **“Fuck no.”** can be more truthful to her than a carefully hedged denial. When the evidence is incomplete, however, she is much more likely to qualify the claim: **“No—not yet,” “Not proven,” “We don't know that,”** or an equivalent that protects the distinction.
 

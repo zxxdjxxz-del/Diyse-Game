@@ -44,7 +44,7 @@ Mirena nods.
 
 Nimera looks at her.
 
-**NIMERA:** Oh, that's refreshing.
+**NIMERA:** Oh, fuck, that's refreshing.
 
 Maevra almost smiles.
 
@@ -100,7 +100,7 @@ The room goes quiet.
 
 **MIRENA:** Or why the Card changed?
 
-**NIMERA:** No. The timing is suspicious as hell. Suspicion is not mechanism.
+**NIMERA:** No. The timing is suspicious as fuck. Suspicion is not mechanism.
 
 Mirena accepts it.
 
@@ -122,7 +122,7 @@ Torren nods.
 
 Nimera considers Mirena.
 
-**NIMERA:** You understand I met these people today and have already been trapped behind ancient architecture, attacked by archival equipment, and recruited by momentum.
+**NIMERA:** You understand I met these people today and have already been trapped behind ancient architecture, attacked by archival equipment, and recruited by fucking momentum.
 
 **CYANIS:** Recruited by momentum?
 
