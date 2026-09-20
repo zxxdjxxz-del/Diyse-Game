@@ -76,7 +76,7 @@ She turns a page.
 
 **TORREN:** Helpful.
 
-**NIMERA:** I hope they died fucking embarrassed.
+**NIMERA:** I hope they died embarrassed.
 
 Ilyra looks at a marginal reference.
 
@@ -150,7 +150,7 @@ Cyanis reads.
 
 **CYANIS:** Same place.
 
-**NIMERA:** Good. Then I can connect the records without committing academic fucking fraud.
+**NIMERA:** Good. Then I can connect the records without committing academic fraud.
 
 ### [BEAT END — THE OPEN TABLE]
 
