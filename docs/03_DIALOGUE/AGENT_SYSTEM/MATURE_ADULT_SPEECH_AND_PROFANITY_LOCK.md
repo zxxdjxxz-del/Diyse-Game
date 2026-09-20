@@ -47,7 +47,7 @@ A clean line can be more truthful than a profane one. A profane line can be more
 
 ## Current character calibration
 
-These are qualitative performance guides, **not numeric quotas**.
+These are performance guides, not mechanical quotas. Nimera additionally has a **long-form editorial calibration target of roughly 15–20% of spoken lines containing natural profanity** across a sufficiently large corpus. That range is for auditing sanitization across a chapter or major dialogue set, never for enforcing per-scene spacing.
 
 ### Nimera
 **High / frequent / deeply integrated.**
@@ -64,6 +64,8 @@ She may swear:
 - when delighted, annoyed, tired, or fascinated.
 
 Her profanity often belongs **inside the syntax of the thought**, not bolted onto the end as a toughness marker.
+
+Her spontaneous metaphors/comparisons should usually be **profane, vulgar, bodily, indecent, or socially inappropriate first**. If the image is technically wrong, she often notices the flaw out loud, corrects or qualifies it, and may keep the vulgar image anyway if it still does useful work.
 
 Do not sanitize her because she is young, scholarly, precise, or explaining lore. She should generally be the most naturally and frequently profane permanent party member unless a specific later character authority clearly overrides that in a specific context.
 
@@ -157,11 +159,11 @@ Every dedicated character or ensemble dialogue pass must now check:
 
 A pass is **not complete** merely because plot facts and character roles are correct if the spoken language still sounds artificially cleaned, uniformly polite, or written for an audience younger than the cast.
 
-## No quota rule
+## Calibration is not a quota
 
-There is no target number of swear words per scene, chapter, or character.
+There is no target number of swear words per scene and no required interval between profane lines.
 
-Do not solve this lock by counting `fuck`, `shit`, `bitch`, or any other word.
+For Nimera only, the current long-form calibration is roughly **15–20% of spoken lines containing natural profanity** across a large enough corpus to reveal accidental sanitization. A scene may be much cleaner or much dirtier than that. Do not solve the target by mechanically counting forward and inserting `fuck`, `shit`, `bitch`, or any other word.
 
 The correct question is:
 > **Would this particular adult, in this particular relationship and state, actually phrase the thought this way?**
