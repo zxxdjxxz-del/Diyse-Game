@@ -30,7 +30,7 @@ Cyanis follows one engraved channel away from the fourth plate.
 
 Nimera traces what she can see.
 
-**NIMERA:** I have a return here. Maybe the same one. Maybe not. Don't let me marry those yet.
+**NIMERA:** I have a return here. Maybe the same one. Maybe not. Don't let me shove those into bed yet. No—fuck, that's exactly the problem. Proximity is not causation.
 
 Cyanis looks at the whole frame.
 
@@ -56,7 +56,7 @@ A beat.
 
 **ILYRA:** And if it doesn't?
 
-**NIMERA:** Then the idea was wrong and we stop loving it.
+**NIMERA:** Then the idea was wrong and we stop dragging the fucking corpse around because we liked it alive. Grim. Still accurate.
 
 **ILYRA:** Excellent policy.
 
@@ -156,11 +156,11 @@ Cyanis waits.
 
 Nimera notices.
 
-**NIMERA:** That's the answer. I can see repeated geometry. The green and gold aren't random. Some relationships are deliberate. I do not have enough comparison material to tell you what they mean, and making up a category because silence feels awkward would be bad scholarship.
+**NIMERA:** That's the answer. I can see repeated geometry. The green and gold aren't random. Some relationships are deliberate. I do not have enough comparison material to tell you what they mean, and making up a category because silence feels awkward would be bullshit scholarship.
 
 **CYANIS:** Fair.
 
-**NIMERA:** Thank you for not asking me to guess prettier.
+**NIMERA:** Thank you for not asking me to make the bullshit prettier.
 
 She shifts her view slightly.
 
@@ -176,7 +176,7 @@ She shifts her view slightly.
 
 Nimera looks back at the Card.
 
-**NIMERA:** Keep the orientation steady. I don't know whether it matters, which is exactly why I don't want to add the variable yet.
+**NIMERA:** Keep the orientation steady. I don't know whether it matters, which is exactly why I don't want to fuck the experiment by adding the variable yet.
 
 After another moment, she backs off.
 
