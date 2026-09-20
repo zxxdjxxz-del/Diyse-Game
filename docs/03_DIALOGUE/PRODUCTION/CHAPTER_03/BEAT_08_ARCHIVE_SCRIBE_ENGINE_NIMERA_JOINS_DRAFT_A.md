@@ -34,7 +34,7 @@ Cyanis looks once, sees she is ready, and turns toward the machine.
 
 **TORREN:** Left arm moves first.
 
-**NIMERA:** Good. Let's fuck up its handwriting.
+**NIMERA:** Good. Let's break its handwriting.
 
 ### [BATTLE — ARCHIVE SCRIBE ENGINE]
 
@@ -158,7 +158,7 @@ Cyanis watches her.
 
 She picks up a battered pencil, looks at it, and grimaces.
 
-**NIMERA:** Also this pencil is fucking offensive.
+**NIMERA:** Also this pencil is offensive.
 
 Ilyra looks at it.
 
