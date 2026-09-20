@@ -12,7 +12,7 @@ A record-transfer track shifts ahead. Shutters turn. Engraved channels brighten.
 
 **TORREN:** That's coming this way.
 
-**NIMERA:** Scribe assembly. Or something descended from one. Don't quote me yet.
+**NIMERA:** Scribe assembly. Or some bastard descendant of one. Don't quote me yet.
 
 One arm snaps forward and strikes the floor.
 
@@ -34,7 +34,7 @@ Cyanis looks once, sees she is ready, and turns toward the machine.
 
 **TORREN:** Left arm moves first.
 
-**NIMERA:** Good. Let's break its handwriting.
+**NIMERA:** Good. Let's fuck up its handwriting.
 
 ### [BATTLE — ARCHIVE SCRIBE ENGINE]
 
@@ -74,7 +74,7 @@ Nimera looks over.
 
 **ILYRA:** You disappeared into it.
 
-**NIMERA:** It stopped halfway through a stroke. I was deciding whether that matters or whether I'm assigning intention to a machine because it tried to break my ribs.
+**NIMERA:** It stopped halfway through a stroke. I was deciding whether that matters or whether I'm assigning intention to a machine because it tried to break my fucking ribs.
 
 **TORREN:** It did try to break your ribs.
 
@@ -92,7 +92,7 @@ He waits.
 
 Nimera notices.
 
-**NIMERA:** Reopening the route woke it. It changed behavior when we entered. Breaking the active arms stopped the dangerous part. That's what I know. I can invent several reasons for the rest and every one would still be invented.
+**NIMERA:** Reopening the route woke it. It changed behavior when we entered. Breaking the active arms stopped the dangerous part. That's what I know. I can pull several explanations out of my ass and every one would still be invented. No—one or two would be evidence-based. Still invented at the mechanism level.
 
 **TORREN:** Good.
 
@@ -120,7 +120,7 @@ She studies both.
 
 A beat.
 
-**NIMERA:** There are structural echoes. Maybe. I dislike the phrase because it makes people hear lineage, and I do not have lineage. I have shapes that make me want more comparisons.
+**NIMERA:** There are structural echoes. Maybe. I hate that phrase because people hear lineage and suddenly two shapes are fucking cousins. They're not. I have shapes that make me want more comparisons.
 
 **CYANIS:** Between the Card and this?
 
@@ -130,7 +130,7 @@ Ilyra looks at her.
 
 **ILYRA:** One elegant problem instead of several.
 
-**NIMERA:** Exactly. Reality is being selfish.
+**NIMERA:** Exactly. Reality is being a selfish bastard.
 
 Torren glances toward the deeper route.
 
@@ -158,7 +158,7 @@ Cyanis watches her.
 
 She picks up a battered pencil, looks at it, and grimaces.
 
-**NIMERA:** Also this pencil is offensive.
+**NIMERA:** Also this pencil is fucking offensive.
 
 Ilyra looks at it.
 
