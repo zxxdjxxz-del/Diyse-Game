@@ -15,7 +15,7 @@
 | 5 | P05 | `P05_CONCEALED_RUIN_VANGUARD_REHEARSAL_FIRST_DRAFT_A.md` | `31528c43465586c9e15e0ec22fac63ee67b5d263e5ff4f869ae0f5d84d2d694f` |
 | 6 | P06 | `P06_RIFTMAW_WAR_SORCERER_REHEARSAL_FIRST_DRAFT_A.md` | `2b96955e06ed54e78b57e14b891e380eafbf9979854ab485672463bd3ca0f3cb` |
 | 7 | P07 | `P07_AFTERMATH_SURVIVOR_RECOVERY_REHEARSAL_FIRST_DRAFT_B.md` | `75ae859db36155847b33f07036097eda1fe4a0854f7353d6fea979697d814720` |
-| 8 | C01 — Six Minutes | `C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md` | `9cd11d8afad5b383078bcaf55d508cf533bedc04bf60f3d6bdb8a97bd3de215a` |
+| 8 | C01 — Six Minutes | `C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md` | `30a1592415a643361bfe19d35df7fcc2459fd1dbe0a1dfaf228da59673310f34` |
 
 ---
 
@@ -1537,7 +1537,7 @@ The player may remain in cleanup or use the later explicit **Continue to Bracken
 ## C01 — Six Minutes
 
 **Atomic source:** `C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `9cd11d8afad5b383078bcaf55d508cf533bedc04bf60f3d6bdb8a97bd3de215a`
+**Source SHA-256:** `30a1592415a643361bfe19d35df7fcc2459fd1dbe0a1dfaf228da59673310f34`
 
 # Chapter 0 — Character-Life C01
 # Six Minutes
@@ -1603,7 +1603,7 @@ He hands it over.
 
 A beat.
 
-**ILYRA:** You are going to hear about it for as long as I find it funny.
+**ILYRA:** You are however, going to hear about it for as long as I find it funny.
 
 **CYANIS:** Worse prognosis.
 
@@ -1643,7 +1643,7 @@ Cyanis inspects one bite.
 
 Ilyra takes another bite.
 
-**ILYRA:** Tonight has been difficult for you.
+**ILYRA:** Tonight must be difficult for you.
 
 Cyanis laughs into the bowl.
 
@@ -1705,13 +1705,13 @@ Cyanis slowly turns toward her.
 
 **ILYRA:** You hit it and said `sorry.`
 
-**CYANIS:** Habit.
+**CYANIS:** There was a lot going on!
 
 **ILYRA:** You apologized to a wagon.
 
 **CYANIS:** Unreliable witness.
 
-**ILYRA:** I was standing there.
+**ILYRA:** I was actually standing right there when it happened
 
 Cyanis gives up arguing.
 

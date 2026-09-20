@@ -86,9 +86,9 @@
           "scene_kind": "character_life",
           "slot_id": "C01",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md",
-          "source_sha256": "9cd11d8afad5b383078bcaf55d508cf533bedc04bf60f3d6bdb8a97bd3de215a",
+          "source_sha256": "30a1592415a643361bfe19d35df7fcc2459fd1dbe0a1dfaf228da59673310f34",
           "spoken_lines": 79,
-          "spoken_sha256": "3d694cf2fc5861b2505f03b4ea1c0d69f22130e37252f3d71b9750778af64c03",
+          "spoken_sha256": "a9e2ed85be2d920e6e5f6d538cec7e3cc2b58c6bc5717aefe00720641ab5dc2b",
           "title": "Six Minutes"
         }
       ]
@@ -682,7 +682,7 @@
     }
   },
   "expected_total_spoken": 2317,
-  "global_spoken_sha256": "f545e8c96c430bffeabeae8f43477db98bed90cfa5290a9c01cc2fef3dd9dee4",
+  "global_spoken_sha256": "f54b23605956e77ec354ca2c7018f5d6e88e03447d3ecc451ebfdc14347a5853",
   "schema": "diyse_current_runtime_dialogue_manifest_v1",
   "source_authority": "docs/03_DIALOGUE/PRODUCTION",
   "total_spoken": 2317
