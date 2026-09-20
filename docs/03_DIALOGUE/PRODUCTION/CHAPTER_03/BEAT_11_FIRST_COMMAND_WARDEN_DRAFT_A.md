@@ -22,7 +22,7 @@ A heavy catch releases inside the construct.
 
 The Warden steps forward.
 
-**NIMERA:** Nobody make me regret following you in here.
+**NIMERA:** Nobody make me regret following you fuckers in here.
 
 **CYANIS:** Mostly me?
 
@@ -109,11 +109,11 @@ Silence.
 
 Another beat.
 
-**NIMERA:** Previous error. Then last sentinel confirmed. In that order.
+**NIMERA:** Previous fuck-up. Then last sentinel confirmed. In that order.
 
 **CYANIS:** You memorized it already.
 
-**NIMERA:** Saying it keeps me from remembering a cleaner version later.
+**NIMERA:** Saying it keeps my brain from sanding the fuck-up smooth later.
 
 Nobody interprets `Last Sentinel`.
 
@@ -161,7 +161,7 @@ Torren looks from the inert Warden to the Card.
 
 Nimera takes a second.
 
-**NIMERA:** The Card changed immediately after the Warden finished shutting down. That's what I know. I want the timing to mean more than that, which is exactly why I'm not giving it more yet.
+**NIMERA:** The Card changed immediately after the Warden finished shutting down. That's what I know. The timing wants to climb into bed with causation. It does not get to. Fucking timing.
 
 **CYANIS:** A maybe with standards.
 
@@ -181,7 +181,7 @@ The Card never touches it.
 
 **CYANIS:** Noted.
 
-**NIMERA:** Good. `Card changed` and `door opened` are two events until we prove otherwise.
+**NIMERA:** Good. `Card changed` and `door opened` are two events until we prove otherwise. They do not get to fuck just because they're adjacent.
 
 The slabs part enough to reveal an Ancient seal-working chamber beyond.
 
