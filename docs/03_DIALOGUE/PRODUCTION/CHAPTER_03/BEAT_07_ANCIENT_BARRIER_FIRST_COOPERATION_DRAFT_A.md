@@ -160,7 +160,7 @@ Nimera notices.
 
 **CYANIS:** Fair.
 
-**NIMERA:** Thank you for not asking me to make the bullshit prettier.
+**NIMERA:** Thank you for not asking me to make it prettier.
 
 She shifts her view slightly.
 
