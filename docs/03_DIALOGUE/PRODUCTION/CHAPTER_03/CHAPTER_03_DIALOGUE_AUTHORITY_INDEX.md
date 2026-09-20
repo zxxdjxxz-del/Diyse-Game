@@ -115,7 +115,7 @@ Beat 8, Beat 9, Beat 11, Beat 12, Beat 14 and C06 specs now explicitly preserve 
 - Base: **Cardweaver**
 - Subclass: **Proofhunter**
 
-Nimera's profanity is a major natural speech trait, not decorative edge and not a mechanical swear quota.
+Nimera's profanity is a major natural speech trait, not decorative edge and not a mechanical swear quota. For long-form Chapter-3 auditing, the current calibration target is roughly **15–20% of her spoken lines containing natural profanity**; individual scenes may run cleaner or dirtier. Her spontaneous metaphors/comparisons should usually begin **profane, vulgar, bodily, indecent, or socially inappropriate**, followed by her accuracy reflex correcting or qualifying the image when it is technically wrong.
 
 Beat 9 atomic dialogue and spec both now use the canonical Face list:
 > **Might, Elements, Grace, Memory, Perception, Ruin**
@@ -131,7 +131,7 @@ Chapter 3 follows the same mature-adult register rule as Chapters 0–2:
 - Cyanis — moderate, freer with trust/stress;
 - authority figures keep register appropriate to context without becoming sanitized.
 
-No swear-count target exists.
+No per-scene swear-count quota exists; Nimera uses the long-form 15–20% calibration above only as an anti-sanitization audit.
 
 ## Protected anchors
 
