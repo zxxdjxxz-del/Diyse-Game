@@ -22,7 +22,7 @@ A heavy catch releases inside the construct.
 
 The Warden steps forward.
 
-**NIMERA:** Nobody make me regret following you fuckers in here.
+**NIMERA:** Nobody make me regret following you in here.
 
 **CYANIS:** Mostly me?
 
