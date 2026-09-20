@@ -62,7 +62,7 @@ He hands it over.
 
 A beat.
 
-**ILYRA:** You are going to hear about it for as long as I find it funny.
+**ILYRA:** You are however, going to hear about it for as long as I find it funny.
 
 **CYANIS:** Worse prognosis.
 
@@ -102,7 +102,7 @@ Cyanis inspects one bite.
 
 Ilyra takes another bite.
 
-**ILYRA:** Tonight has been difficult for you.
+**ILYRA:** Tonight must be difficult for you.
 
 Cyanis laughs into the bowl.
 
@@ -164,13 +164,13 @@ Cyanis slowly turns toward her.
 
 **ILYRA:** You hit it and said `sorry.`
 
-**CYANIS:** Habit.
+**CYANIS:** There was a lot going on!
 
 **ILYRA:** You apologized to a wagon.
 
 **CYANIS:** Unreliable witness.
 
-**ILYRA:** I was standing there.
+**ILYRA:** I was actually standing right there when it happened
 
 Cyanis gives up arguing.
 
