@@ -89,7 +89,7 @@ She looks around the half-restored fort.
 
 **CYANIS:** Wasn't asking.
 
-**NIMERA:** How much paperwork would ownership require?
+**NIMERA:** How much fucking paperwork would ownership require?
 
 Mirena looks at her.
 
