@@ -90,59 +90,63 @@ func _build_graybox() -> void:
 	_build_markers()
 
 func _build_upper_briar() -> void:
+	# Android v0.3 collision pass: the first slice is intentionally flat.
+	# Independent sloped BoxShape3D segments created tiny step lips at joins,
+	# which CharacterBody3D could not step over reliably. Elevation returns only
+	# after route scale is approved and the floor is rebuilt as continuous terrain.
 	# All route branches now attach at explicit nodes. Visible edge guards are
 	# generated along the walkable paths, with short gaps at nodes so junctions
 	# remain traversable.
 	var main_points: Array[Vector3] = [
 		Vector3(-260, 0, 10),
-		Vector3(-190, 2, 20),
-		Vector3(-145, 3.1, 12.1), # shallow-loop junction
-		Vector3(-105, 4, 5),
-		Vector3(-18, 5.7, 15.8), # shallow-loop reconnect
-		Vector3(0, 6, 18),
-		Vector3(95, 7, 5),
-		Vector3(108, 6.9, 3), # Pocket U2 junction
-		Vector3(185, 6, -8),
-		Vector3(260, 5, 0),
+		Vector3(-190, 0, 20),
+		Vector3(-145, 0, 12.1), # shallow-loop junction
+		Vector3(-105, 0, 5),
+		Vector3(-18, 0, 15.8), # shallow-loop reconnect
+		Vector3(0, 0, 18),
+		Vector3(95, 0, 5),
+		Vector3(108, 0, 3), # Pocket U2 junction
+		Vector3(185, 0, -8),
+		Vector3(260, 0, 0),
 	]
 	_add_guarded_path("BP_A_Main", main_points, 7.0, _road_material)
 
 	var shallow_loop: Array[Vector3] = [
-		Vector3(-145, 3.1, 12.1),
-		Vector3(-125, 3.5, -24), # Pocket U1 junction
-		Vector3(-78, 4.3, -34),
-		Vector3(-32, 5.4, -4),
-		Vector3(-18, 5.7, 15.8),
+		Vector3(-145, 0, 12.1),
+		Vector3(-125, 0, -24), # Pocket U1 junction
+		Vector3(-78, 0, -34),
+		Vector3(-32, 0, -4),
+		Vector3(-18, 0, 15.8),
 	]
 	_add_guarded_path("BP_A_ShallowLoop", shallow_loop, 5.2, _optional_material)
 
 	var pocket_u1: Array[Vector3] = [
-		Vector3(-125, 3.5, -24),
-		Vector3(-150, 3.2, -42),
+		Vector3(-125, 0, -24),
+		Vector3(-150, 0, -42),
 	]
 	_add_guarded_path("BP_A_PocketU1_Path", pocket_u1, 4.2, _optional_material)
-	_add_pad("BP_A_PocketU1", Vector3(-154, 3.2, -45), Vector2(14, 12), _optional_material)
+	_add_pad("BP_A_PocketU1", Vector3(-154, 0, -45), Vector2(14, 12), _optional_material)
 
 	var pocket_u2: Array[Vector3] = [
-		Vector3(108, 6.9, 3),
-		Vector3(130, 7.0, 28),
+		Vector3(108, 0, 3),
+		Vector3(130, 0, 28),
 	]
 	_add_guarded_path("BP_A_PocketU2_Path", pocket_u2, 4.2, _optional_material)
-	_add_pad("BP_A_PocketU2", Vector3(134, 7.0, 32), Vector2(14, 12), _optional_material)
+	_add_pad("BP_A_PocketU2", Vector3(134, 0, 32), Vector2(14, 12), _optional_material)
 
-	_add_pad("BP_A_HalfwayPocket", Vector3(0, 6, 18), Vector2(18, 16), _road_material)
-	_add_pad_side_guard("BP_A_HalfwayNorth", Vector3(0, 6, 26.4), Vector3(18, 2.4, 0.8))
-	_add_pad_side_guard("BP_A_HalfwaySouth", Vector3(0, 6, 9.6), Vector3(18, 2.4, 0.8))
+	_add_pad("BP_A_HalfwayPocket", Vector3(0, 0, 18), Vector2(30, 20), _road_material)
+	_add_pad_side_guard("BP_A_HalfwayNorth", Vector3(0, 0, 26.4), Vector3(18, 2.4, 0.8))
+	_add_pad_side_guard("BP_A_HalfwaySouth", Vector3(0, 0, 9.6), Vector3(18, 2.4, 0.8))
 
 	_add_pad("BP_A_BrackenwallSeam", Vector3(-266, 0, 10), Vector2(16, 14), _seam_material)
-	_add_pad("BP_A_GreenhollowSeam", Vector3(266, 5, 0), Vector2(16, 14), _seam_material)
+	_add_pad("BP_A_GreenhollowSeam", Vector3(266, 0, 0), Vector2(16, 14), _seam_material)
 
 func _build_boundaries() -> void:
 	# v0.2 removes the oversized rectangular forest collision volumes that could
 	# be hit from the wrong direction on Android. Route-edge briar banks now do
 	# the actual fall prevention. Only visible end caps remain.
 	_add_boundary_box("BP_A_WestCap", Vector3(-292, 3.0, 8), Vector3(10, 6, 130))
-	_add_boundary_box("BP_A_EastCap", Vector3(292, 7.0, 0), Vector3(10, 6, 130))
+	_add_boundary_box("BP_A_EastCap", Vector3(292, 3.0, 0), Vector3(10, 6, 130))
 
 func _build_debug_zones() -> void:
 	# Encounter-state areas are deliberately broad. They exist to test pacing,
@@ -161,40 +165,40 @@ func _build_debug_zones() -> void:
 	)
 	_add_state_zone(
 		"Zone_HalfwaySafe",
-		Vector3(0, 6, 18),
+		Vector3(0, 0, 18),
 		Vector3(44, 18, 70),
 		"SAFE — Beat 2 halfway buffer"
 	)
 	_add_state_zone(
 		"Zone_EncounterEast",
-		Vector3(135, 6, 2),
-		Vector3(220, 18, 125),
+		Vector3(135, 3, 2),
+		Vector3(220, 12, 125),
 		"ACTIVE — Upper Briar east"
 	)
 	_add_state_zone(
 		"Zone_GreenhollowSafe",
-		Vector3(252, 5, 0),
-		Vector3(34, 16, 60),
+		Vector3(252, 3, 0),
+		Vector3(34, 12, 60),
 		"SAFE — Greenhollow seam"
 	)
 
 func _build_story_sockets() -> void:
 	_add_story_trigger(
 		"Beat02_HalfwayStop",
-		Vector3(0, 6, 18),
+		Vector3(0, 0, 18),
 		Vector3(16, 8, 18),
 		"BEAT 2 — HALFWAY STOP\nOne brief natural route break; no guided traversal."
 	)
 
 func _build_markers() -> void:
 	_add_marker("BRACKENWALL SEAM", Vector3(-258, 0, 10))
-	_add_marker("U1", Vector3(-190, 2, 20))
-	_add_marker("U2 / LOOP", Vector3(-105, 4, 5))
-	_add_marker("POCKET U1", Vector3(-154, 3.2, -45))
-	_add_marker("BEAT 2 HALFWAY", Vector3(0, 6, 18))
-	_add_marker("U3", Vector3(95, 7, 5))
+	_add_marker("U1", Vector3(-190, 0, 20))
+	_add_marker("U2 / LOOP", Vector3(-105, 0, 5))
+	_add_marker("POCKET U1", Vector3(-154, 0, -45))
+	_add_marker("BEAT 2 HALFWAY", Vector3(0, 0, 18))
+	_add_marker("U3", Vector3(95, 0, 5))
 	_add_marker("POCKET U2", Vector3(134, 7, 32))
-	_add_marker("U4", Vector3(185, 6, -8))
+	_add_marker("U4", Vector3(185, 0, -8))
 	_add_marker("GREENHOLLOW SEAM", Vector3(258, 5, 0))
 
 func _add_guarded_path(name_prefix: String, points: Array[Vector3], width: float, material: StandardMaterial3D) -> void:
