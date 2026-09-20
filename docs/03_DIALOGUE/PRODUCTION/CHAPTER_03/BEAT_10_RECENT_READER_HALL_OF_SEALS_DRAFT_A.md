@@ -30,7 +30,7 @@ She turns the ledger toward them.
 
 **TORREN:** Method missing?
 
-**NIMERA:** Referenced elsewhere. Which is somehow more fucking irritating than missing outright.
+**NIMERA:** Referenced elsewhere. Which is somehow more irritating than missing outright.
 
 Ilyra reads the note beside it.
 
