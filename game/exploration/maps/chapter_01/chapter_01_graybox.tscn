@@ -48,7 +48,7 @@ theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.85)
 theme_override_constants/shadow_offset_x = 2
 theme_override_constants/shadow_offset_y = 2
 theme_override_font_sizes/font_size = 25
-text = "Diyse — Chapter 1 Graybox / Blueprint 002 / Upper Briar v0.2"
+text = "Diyse — Chapter 1 Graybox / Blueprint 002 / Upper Briar v0.3"
 
 [node name="LocationLabel" type="Label" parent="HUD"]
 offset_left = 24.0
