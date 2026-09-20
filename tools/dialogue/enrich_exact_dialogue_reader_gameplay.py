@@ -61,15 +61,15 @@ BRIDGES = (
         "Current enemy pool: Greenhollow Stalker; Thornvine Creeper; Briar Boar.",
     ), CH1, ("Greenhollow Stalker", "Thornvine Creeper", "Briar Boar")),
 
-    ("Entering The Old Works", "Random Encounters — Old Waterworks", (
+    ("Sealed Side Door", "Random Encounters — Old Waterworks", (
         "The Old Waterworks remain a covert route with no routine Black Host patrols.",
         "Current safe random-enemy pool: Bogshell; Cistern Leech.",
     ), CH2, ("Bogshell", "Cistern Leech")),
-    ("The Threshold", "Random Encounters — Sunken Archive", (
+    ("Threshold", "Random Encounters — Sunken Archive", (
         "Ancient-complex random encounters provide the ordinary combat layer during Archive exploration.",
         "Current enemy pool: Archive Current; Memory Scribe; Vault Sentinel; Drowned Archive Maw.",
     ), CH2, ("Archive Current", "Memory Scribe", "Vault Sentinel", "Drowned Archive Maw")),
-    ("Active Fort", "Random Encounters — Old Bastion", (
+    ("The Alarm", "Random Encounters — Old Bastion", (
         "The Bastion is an active Black Host position; ordinary soldiers encountered during the ascent remain normal random enemies.",
         "Current core enemy pool: Bastion Shield Guard; Bastion Crossbow Guard; Transfer Adept; Black Host Raider.",
     ), CH2, ("Bastion Shield Guard", "Bastion Crossbow Guard", "Transfer Adept", "Black Host Raider")),
@@ -78,7 +78,7 @@ BRIDGES = (
         "After the Archive Scribe Engine encounter makes Nimera battle-available, random encounters become active through the Suppressed Archives.",
         "Current enemy pool: Archive Scribe Engine; Judgment Frame; Erasure Wisp.",
     ), CH3, ("Archive Scribe Engine", "Judgment Frame", "Erasure Wisp")),
-    ("Command Threshold", "Random Encounters — Deep Command Route", (
+    ("First Command Chamber", "Random Encounters — Deep Command Route", (
         "The deep command route uses a separate random-encounter pool before the First Command Warden.",
         "Current enemy pool: Command-Station Sentry; Authority Lens; Command Ring Drone.",
     ), CH3, ("Command-Station Sentry", "Authority Lens", "Command Ring Drone")),
