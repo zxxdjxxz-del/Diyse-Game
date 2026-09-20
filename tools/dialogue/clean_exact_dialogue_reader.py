@@ -74,6 +74,11 @@ HEADING_REMOVE = {
     "Boss Combat — Mobile State",
     "Battle Character",
     "Encounter-direction priorities",
+    "Knowledge / Character Lock",
+    "Current objective",
+    "Optional Character-Life Scenes",
+    "Chapter 1 End",
+    "Chapter 2 End State",
 }
 
 PROSE_REWRITES = {
@@ -171,6 +176,21 @@ DROP_EXACT = {
     "Its battle identity should feel heavy, deliberate, chamber-bound, and built around physical magical wardcraft rather than modern machinery.",
     "No investigation state changes. No Card event occurs. No lore is advanced.",
     "There is no support wave and no injured Iron Cohort Soldier.",
+    "There is no threshold conversation, no Card-status check, and no pre-boss banter.",
+    "BOSS BATTLE — HOLLOW WATCH CASTELLAN",
+    "BOSS — INTEGRATED STATE",
+    "BOSS — MOBILE STATE",
+    "BOSS BATTLE — BRIARHIDE STALKER",
+    "BOSS — ARCHIVE LEVIATHAN",
+    "It remains the same boss:",
+    "A single speech-only reaction may accompany the transition:",
+    "There is:",
+    "No later reveal is exposed.",
+    "Known:",
+    "Next mandatory beat:",
+    "Return to Dunmere / Road Reopened / Cleanup",
+    "That is the full in-world unlock.",
+    "Let the environment establish the new hub functions:",
 }
 
 PRODUCTION_PATTERNS = tuple(
@@ -390,6 +410,8 @@ def clean_heading(text: str) -> str | None:
         r"^Authored Stop\s*[—-]\s*",
         r"^Scripted Battle Event\s*[—-]\s*",
         r"^Authored(?:\s+Combat|\s+Opening|\s+Disengagement)?\s*[—-]?\s*",
+        r"^Authored Battles?\s*[—-]\s*",
+        r"^Final Boss\s*[—-]\s*",
         r"^Threshold Scene\s*[—-]\s*",
     ):
         changed = re.sub(pattern, "", text, flags=re.IGNORECASE).strip(" —-")
@@ -397,6 +419,8 @@ def clean_heading(text: str) -> str | None:
             text = changed or "Camp"
 
     low = text.lower()
+    if re.fullmatch(r"beat-\d+\s+end state", low):
+        return None
     if low in {"beat end", "scene seed"}:
         return None
     if any(term in low for term in FULL_SKIP_HEADING_TERMS) or "guided traversal dialogue" in low:
@@ -445,6 +469,13 @@ def main() -> int:
         text = paragraph.text.strip()
 
         if index <= 2:
+            if text == (
+                "Current Chapters 0–3 read-through. Spoken lines are copied verbatim from the active atomic "
+                "dialogue sources; current world and gameplay bridges are restored from their owning authorities; "
+                "writer-facing production notes are omitted."
+            ):
+                remove_paragraph(paragraph)
+                continue
             if text in PROSE_REWRITES:
                 replace_paragraph_text(paragraph, PROSE_REWRITES[text])
             continue
@@ -481,6 +512,10 @@ def main() -> int:
             "Reader cleanup changed spoken dialogue; refusing to save "
             f"({len(dialogue_before)} before vs {len(dialogue_after)} after)."
         )
+
+    for section in document.sections:
+        for footer_paragraph in section.footer.paragraphs:
+            footer_paragraph.text = ""
 
     residue = residual_meta(document)
     if residue:
