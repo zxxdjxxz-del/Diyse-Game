@@ -45,42 +45,33 @@ BRIDGES = (
     ), CH0, ("Riftmaw", "Convoy War-Sorcerer")),
 
     ("Halfway Stop", "Random Encounters — Northern Briar Passage", (
-        "Random encounters are active through the hostile route between Brackenwall and Greenhollow.",
-        "Current enemy pool: Black Host Raider; Black Host Crossbowman; Ruin Shieldbearer; Brackenwall Reaver.",
+        "Black Host Raider • Black Host Crossbowman • Ruin Shieldbearer • Brackenwall Reaver",
     ), CH1, ("Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "Brackenwall Reaver")),
     ("Hollow Watch Reveal", "Random Encounters — Greenhollow / Hollow Watch Approach", (
-        "Random encounters provide the ordinary combat pressure on the approach.",
-        "Current enemy pool: Greenhollow Stalker; Thornvine Creeper; Briar Boar.",
+        "Greenhollow Stalker • Thornvine Creeper • Briar Boar",
     ), CH1, ("Greenhollow Stalker", "Thornvine Creeper", "Briar Boar")),
     ("Garrison Discovery", "Random Encounters — Hollow Watch", (
-        "Ordinary combat inside the occupied fort remains random rather than a chain of fixed room-clear fights.",
-        "Current enemy pool: Hollow Watch Sentry; Hollow Watch Ballista.",
+        "Hollow Watch Sentry • Hollow Watch Ballista",
     ), CH1, ("Hollow Watch Sentry", "Hollow Watch Ballista")),
     ("First Clear Sighting", "Random Encounters — Southern Briar", (
-        "Ordinary enemies remain random encounters through the Southern Briar exploration before the chapter boss.",
-        "Current enemy pool: Greenhollow Stalker; Thornvine Creeper; Briar Boar.",
+        "Greenhollow Stalker • Thornvine Creeper • Briar Boar",
     ), CH1, ("Greenhollow Stalker", "Thornvine Creeper", "Briar Boar")),
 
     ("Sealed Side Door", "Random Encounters — Old Waterworks", (
-        "The Old Waterworks remain a covert route with no routine Black Host patrols.",
-        "Current safe random-enemy pool: Bogshell; Cistern Leech.",
+        "Bogshell • Cistern Leech",
     ), CH2, ("Bogshell", "Cistern Leech")),
     ("Threshold", "Random Encounters — Sunken Archive", (
-        "Ancient-complex random encounters provide the ordinary combat layer during Archive exploration.",
-        "Current enemy pool: Archive Current; Memory Scribe; Vault Sentinel; Drowned Archive Maw.",
+        "Archive Current • Memory Scribe • Vault Sentinel • Drowned Archive Maw",
     ), CH2, ("Archive Current", "Memory Scribe", "Vault Sentinel", "Drowned Archive Maw")),
     ("The Alarm", "Random Encounters — Old Bastion", (
-        "The Bastion is an active Black Host position; ordinary soldiers encountered during the ascent remain normal random enemies.",
-        "Current core enemy pool: Bastion Shield Guard; Bastion Crossbow Guard; Transfer Adept; Black Host Raider.",
+        "Bastion Shield Guard • Bastion Crossbow Guard • Transfer Adept • Black Host Raider",
     ), CH2, ("Bastion Shield Guard", "Bastion Crossbow Guard", "Transfer Adept", "Black Host Raider")),
 
     ("Old Card Studies", "Random Encounters — Suppressed Archives", (
-        "After the Archive Scribe Engine encounter makes Nimera battle-available, random encounters become active through the Suppressed Archives.",
-        "Current enemy pool: Archive Scribe Engine; Judgment Frame; Erasure Wisp.",
+        "Archive Scribe Engine • Judgment Frame • Erasure Wisp",
     ), CH3, ("Archive Scribe Engine", "Judgment Frame", "Erasure Wisp")),
     ("First Command Chamber", "Random Encounters — Deep Command Route", (
-        "The deep command route uses a separate random-encounter pool before the First Command Warden.",
-        "Current enemy pool: Command-Station Sentry; Authority Lens; Command Ring Drone.",
+        "Command-Station Sentry • Authority Lens • Command Ring Drone",
     ), CH3, ("Command-Station Sentry", "Authority Lens", "Command Ring Drone")),
 )
 
