@@ -20,6 +20,7 @@ shadow_enabled = true
 [node name="Cyanis" type="CharacterBody3D" parent="."]
 position = Vector3(-258, 0.9, 10)
 script = ExtResource("2_player")
+movement_camera_path = NodePath("Camera3D")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Cyanis"]
 shape = SubResource("PlayerShape")
@@ -47,7 +48,7 @@ theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.85)
 theme_override_constants/shadow_offset_x = 2
 theme_override_constants/shadow_offset_y = 2
 theme_override_font_sizes/font_size = 25
-text = "Diyse — Chapter 1 Graybox / Blueprint 002 / Upper Briar v0.1"
+text = "Diyse — Chapter 1 Graybox / Blueprint 002 / Upper Briar v0.2"
 
 [node name="LocationLabel" type="Label" parent="HUD"]
 offset_left = 24.0
