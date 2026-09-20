@@ -5,8 +5,14 @@ signal eligible_distance_moved(distance: float)
 @export var move_speed: float = 5.0
 @export var acceleration: float = 20.0
 @export var gravity: float = 24.0
+@export var movement_camera_path: NodePath
 
 @onready var sprite: Sprite3D = $Sprite3D
+@onready var movement_camera: Camera3D = (
+	get_node_or_null(movement_camera_path) as Camera3D
+	if not movement_camera_path.is_empty()
+	else null
+)
 
 var _touch_input := Vector2.ZERO
 var _movement_enabled := true
@@ -39,7 +45,23 @@ func _physics_process(delta: float) -> void:
 	if _movement_enabled:
 		input_vector = (keyboard_input + _touch_input).limit_length(1.0)
 
-	var desired_velocity := Vector3(input_vector.x, 0.0, input_vector.y) * move_speed
+	var move_direction := Vector3(input_vector.x, 0.0, input_vector.y)
+	if movement_camera != null:
+		var camera_right := movement_camera.global_basis.x
+		camera_right.y = 0.0
+		camera_right = camera_right.normalized()
+
+		var camera_forward := -movement_camera.global_basis.z
+		camera_forward.y = 0.0
+		camera_forward = camera_forward.normalized()
+
+		# Touch/keyboard "up" is input_vector.y == -1, so negate Y here.
+		move_direction = (
+			camera_right * input_vector.x
+			+ camera_forward * -input_vector.y
+		).limit_length(1.0)
+
+	var desired_velocity := move_direction * move_speed
 
 	velocity.x = move_toward(velocity.x, desired_velocity.x, acceleration * delta)
 	velocity.z = move_toward(velocity.z, desired_velocity.z, acceleration * delta)
