@@ -71,6 +71,8 @@ PROSE_REPLACEMENTS = {
     "He does not reach for theatrics or pretend surprise.": "He shows no surprise.",
     "The masked officer's attention shifts to the trio. He remains ready, but does not move to begin a separate confrontation.":
         "The masked officer's attention shifts to the trio. He remains ready but holds position.",
+    "He remains ready but does not move to begin a separate confrontation.": "He remains ready but holds position.",
+    "Dunmere is functioning around the return rather than staging a formal reception.": "Dunmere keeps moving around the return.",
     "Rhazek fights as the commander of a functioning position rather than as a theatrical duelist waiting for a heroic showdown.":
         "Rhazek fights from the command position, directing a functioning defense.",
     "Ilyra stays alert rather than automatically converting the standoff into a post-battle medical check.":
