@@ -8,22 +8,22 @@
 
 | Order | Canonical slot | Atomic source | SHA-256 |
 |---:|---|---|---|
-| 1 | Beat 1 | `BEAT_01_PATH_OUTSIDE_DUNMERE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `7c47fe6679978a2ff7b32f1c67d71f058be93f9a715277f2c464d245f583877d` |
-| 2 | Beat 2 | `BEAT_02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_NATURAL_TURN_WORKING_DIALOGUE.md` | `2d9bc2c0d0c80acc84ed214b250d3e99b7f2d8ed0742537e1103fc22927a36f4` |
-| 3 | Beat 3 | `BEAT_03_DUNMERE_ELDER_HIDDEN_APPROACH_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `ed49f8cd41aebb019a77f53b02bf70cc34b6870ff8e40c48d0ea973f6e5d107d` |
-| 4 | Beat 4 | `BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `b6a3370115480b57923cf94864c2f1ebe7c3d8b5a6ce50e1df7238ed107f09d5` |
-| 5 | Beat 5 | `BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md` | `80b0117358c99c2a84ba852084e1423ec889bc318a39c43b1756d8cd291f5d90` |
-| 6 | Beat 6 | `BEAT_06_WESTERN_MAP_MURAL_NATURAL_TURN_WORKING_DIALOGUE.md` | `537946acd42eef43c80cff019956795f42b7069b7de4a05d11896956d642c9dd` |
-| 7 | Beat 7 | `BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `66d5d15738744869daec5ef8e42dc2333e25c150585e9e3039750667a142f692` |
-| 8 | Beat 8 | `BEAT_08_ARCHIVE_LEVIATHAN_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `bbda4a312c99fa0eed8c56c900c1c88badc60b147f0d8a76c5fd777c527424f4` |
-| 9 | Beat 9 | `BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `cb379b12d83a17ca3afb63e6b563b99606e4c1f273bc63e1dd1e89561b2353e3` |
-| 10 | Beat 10 | `BEAT_10_PRISONER_GALLERIES_FIRST_CONTACT_NATURAL_TURN_WORKING_DIALOGUE.md` | `7d6075c2bc9bfe1aa647fd7a81d1a69f95481fea9d577a0cb831384c2ef4e2bd` |
-| 11 | Beat 11 | `BEAT_11_PRISONER_SAFE_AREA_EXIT_PROBLEM_NATURAL_TURN_WORKING_DIALOGUE.md` | `79aa91f8ae11e6b92fbd26acd521b12c02235b633bad700eae433217cd3c7a21` |
-| 12 | Beat 12 | `BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `b01a11f12e87a4a999412fbcb4f2fc3c871d0486a59eeb5bbf842567496d48cf` |
-| 13 | Beat 13 | `BEAT_13_RHAZEK_MASKED_OFFICER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `9a24d4073959fc309ef6a3603b1f417e5d216b2d0fc5f05f822569b34539df26` |
-| 14 | Beat 14 | `BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `18be5aaaffd26a03f2ae6522e5755822d4040e4171d89dbdf176a38633921ef0` |
-| 15 | Beat 15 | `BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `6b004cf003f8d56e123245d6f56e7d2bb3afa0c13b3ac4cf3eccb65be9c20b60` |
-| 16 | Beat 16 | `BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `541c5d66d18a2d77865b73b543027c3f54aa72a6e902ec86b3a9c5ad672c44c7` |
+| 1 | Beat 1 | `BEAT_01_PATH_OUTSIDE_DUNMERE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `ff579de937d9f5b1b13bbac3cf9a0f5ec3253180a1391a8fbdae040bb01cef38` |
+| 2 | Beat 2 | `BEAT_02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_NATURAL_TURN_WORKING_DIALOGUE.md` | `6da171864afd597aa766f3bb22398fd8dd69c5e1412fdf1306d50334162e762c` |
+| 3 | Beat 3 | `BEAT_03_DUNMERE_ELDER_HIDDEN_APPROACH_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `646fe5639cc6f92276ddb10983f90347e0b99d2060aac5020141bcee727460fe` |
+| 4 | Beat 4 | `BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `1ca1b337c0c5177fe79f13b012485381c33739ab4bf27ff3d34c1f888ffcecc1` |
+| 5 | Beat 5 | `BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md` | `703884f174281d7b6cbbb4015a2a4f06809ca5f4a0281d3e978041616fdbe917` |
+| 6 | Beat 6 | `BEAT_06_WESTERN_MAP_MURAL_NATURAL_TURN_WORKING_DIALOGUE.md` | `8f0b79e25d0d337c57dd982b4e91dbb490c3912765aa375500ae73f33a1d176f` |
+| 7 | Beat 7 | `BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `855ab91ff17b20fa2cbb90a408eeb11e85df99fe848f6c54a7214e4659adf312` |
+| 8 | Beat 8 | `BEAT_08_ARCHIVE_LEVIATHAN_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `e67b91852e3981566910dee32b9b2473fc2eedd9389b5fba3868e51f7f705c62` |
+| 9 | Beat 9 | `BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `212244e6300c68a06a3ff653676136f9ea566a7bb581ccfd2e910e8c12dc1ae9` |
+| 10 | Beat 10 | `BEAT_10_PRISONER_GALLERIES_FIRST_CONTACT_NATURAL_TURN_WORKING_DIALOGUE.md` | `5a4fdaea7b8c5147502354d1884694aec0696347264234ed61cf14de2eeb1499` |
+| 11 | Beat 11 | `BEAT_11_PRISONER_SAFE_AREA_EXIT_PROBLEM_NATURAL_TURN_WORKING_DIALOGUE.md` | `e87652e2ff0466af94ebbffa885f8e232fb8e5134846af5f47d97c6d7dcc7505` |
+| 12 | Beat 12 | `BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `262f0841733ead8b3b9eed502edf0dcb7aa2c1f61c7e4e47c629936d621c5906` |
+| 13 | Beat 13 | `BEAT_13_RHAZEK_MASKED_OFFICER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `6a3ddbfca1641ab504de0ad48a53e640dac2415b144e01bbbb2d47709cccbda9` |
+| 14 | Beat 14 | `BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `fcac30a5ae8755d38dc3fe2b4dae3c56f42b76a115125290722f3db4bfe56308` |
+| 15 | Beat 15 | `BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `a2e760ec4a6563abd9684fd7d1a9078efa17d78bb7b79413508e3e94d4657c58` |
+| 16 | Beat 16 | `BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `26c115af5fb08e1153d05b3d6c6fc231028d07c7686dca30b50c1081072b4329` |
 | 17 | C05 — Still Burns | `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `c4e65fac34a0ce90dedd3286b99012983416686df663495c9e291933d9dc2298` |
 
 ---
@@ -31,216 +31,174 @@
 ## Beat 1
 
 **Atomic source:** `BEAT_01_PATH_OUTSIDE_DUNMERE_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `7c47fe6679978a2ff7b32f1c67d71f058be93f9a715277f2c464d245f583877d`
+**Source SHA-256:** `ff579de937d9f5b1b13bbac3cf9a0f5ec3253180a1391a8fbdae040bb01cef38`
 
 # Chapter 2 — Beat 1 — Path Outside Dunmere
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — TORREN SOCIAL-COMFORT PASS CURRENT  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-### [FINAL APPROACH]
+### [GAMEPLAY — FINAL APPROACH]
 
-Cyanis-only field traversal. Torren is actively guiding, so short portrait dialogue may occur while moving.
+Player control is active.
 
-Torren is still efficient while guiding, but Chapter 2 does **not** reset him to his earliest Chapter-1 guardedness. He already knows Cyanis, Ilyra, and Maevra well enough to joke while doing the job.
+The chapter begins on the path immediately outside Dunmere.
 
-**TORREN:** Keep to the high side here. Lower stretch looks cleaner because the ruts drain it. Underneath is soup.
+Ordinary traversal shows Cyanis on the field.
 
-**CYANIS:** You could've led with `soup.`
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-**TORREN:** Thought `high side` was simpler.
+Maevra travels with the group but remains noncombat.
 
-**ILYRA:** It was.
+There is no recap of the Junction, Hollow Watch, or the previous night's camp.
 
-Cyanis looks offended.
+Torren is genuinely guiding, but the approach is not turned into a running navigation conversation.
 
-**CYANIS:** Immediate betrayal.
+At one point where the route matters:
 
-**MAEVRA:** She's known you long enough now.
+**TORREN:** High side.
 
-**CYANIS:** That's exactly what worries me.
+Cyanis looks at the lower track.
 
-Torren glances back.
+**CYANIS:** That one looks easier.
 
-**TORREN:** You want the technical version instead?
+**TORREN:** Yeah. That's how it gets you.
 
-**CYANIS:** Absolutely not.
+**CYANIS:** Mud?
 
-**TORREN:** Shame. Had another three minutes in me.
+**TORREN:** Knee-deep under the crust.
 
-Ilyra laughs.
+Cyanis changes course.
 
-**ILYRA:** He's threatening lectures now.
+**CYANIS:** Right.
 
-**MAEVRA:** That's progress. He used to just give them.
-
-**TORREN:** Still can.
-
-**CYANIS:** High side it is.
+Torren glances at him.
 
 **TORREN:** See? Trainable.
 
-Cyanis looks at him.
+Cyanis gives him a look.
 
 **CYANIS:** You kept that one.
 
 **TORREN:** Works.
 
-Traversal continues.
+Traversal continues in silence.
 
-The dialogue ends because the route call is settled, not because Torren has reached a one-word quota.
+### [STORY TRIGGER — DUNMERE IN VIEW]
 
-### [DUNMERE IN VIEW]
+Dunmere comes into view ahead.
 
-At a natural stopping point near the town approach, the relevant group models may appear briefly. Dunmere is close and visibly inhabited. Nothing here yet explains the Chapter-2 crisis.
+It is functioning and inhabited.
 
-Torren sees the town first.
+Nothing here reveals the Chapter 2 crisis yet.
 
-**TORREN:** There. Dunmere. Still where I left it, which is considerate.
+Torren sees it first.
 
-**CYANIS:** You sound almost pleased.
+**TORREN:** There. Dunmere. Still where I left it. Good start.
+
+**CYANIS:** You sound relieved.
 
 **TORREN:** I like towns that stay put.
 
-**ILYRA:** Strong standard.
+**ILYRA:** Demanding.
 
 **TORREN:** Roads move enough.
 
-**MAEVRA:** And there it is. Nearly had him discussing a place without turning it into route philosophy.
+Cyanis looks toward the town.
 
-**TORREN:** You ruined it, not me.
+**CYANIS:** First time here. Anything I should know?
 
-**CYANIS:** I've never been here. Anything I need to know before I embarrass myself?
+Torren thinks about it.
 
-Torren actually considers the question.
-
-**TORREN:** Don't complain about the fish near the docks. They know. Don't ask the cooper why his sign says `Merrin & Sons`; he has daughters. And if the inn still serves that black onion stew, don't let the color scare you. Looks like ditch water. Tastes fine.
+**TORREN:** Fish smell's normal. Cooper's sign lies. Black onion stew looks like ditch water and tastes better than it has any right to.
 
 A beat.
 
-Cyanis looks at him.
+**CYANIS:** That was three recommendations.
 
-**CYANIS:** That was almost a travel recommendation.
+**TORREN:** Two warnings and a stew.
 
-**TORREN:** Don't spread it around.
+**ILYRA:** Important distinction.
 
-**ILYRA:** Too late. I heard the whole thing.
+Maevra starts toward town.
 
-**MAEVRA:** Witnessed as well.
+**MAEVRA:** Keep walking before he gives you lodging advice.
 
-Torren starts toward Dunmere.
+Torren follows.
 
-**TORREN:** Fuck all of you. Come on.
+**TORREN:** Fuck off.
 
 Cyanis grins and follows.
 
-**Objective:** Enter Dunmere.
+### [GAMEPLAY HANDOFF]
 
----
+Player control resumes for the final approach into town.
 
-## Torren social-comfort audit note
+No missing-traveler or Black Host information is introduced until Beat 2.
 
-This beat is intentionally **not** reduced to early-Chapter-1 Torren terseness.
+**Objective: Enter Dunmere.**
 
-- Torren is still actively guiding, so the route call remains efficient.
-- by Chapter 2 he is comfortable enough with Cyanis, Ilyra, and Maevra to prolong the joke, revive the `trainable` callback, volunteer a mundane opinion, and give an unsolicited local recommendation;
-- the longer speech is not route exposition disguised as personality: Torren talks about the town because he knows it and feels like answering;
-- later Chapter-2 stealth, suspense, and combat beats may still collapse him into short speech when the state earns it;
-- one-word Torren remains available as a choice, not a permanent template.
-
-No story, route, or chapter outcome changes.
+Next mandatory beat:
+**Dunmere Arrival / Missing Travelers**
 
 ---
 
 ## Beat 2
 
 **Atomic source:** `BEAT_02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_NATURAL_TURN_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `2d9bc2c0d0c80acc84ed214b250d3e99b7f2d8ed0742537e1103fc22927a36f4`
+**Source SHA-256:** `6da171864afd597aa766f3bb22398fd8dd69c5e1412fdf1306d50334162e762c`
 
-# Chapter 2 — Beat 2
-# Dunmere Arrival / Missing Travelers
-## CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN + SPOKEN/NARRATION + TORREN SOCIAL-COMFORT PASS
+# Chapter 2 — Beat 2 — Dunmere Arrival / Missing Travelers
 
-**Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
-**Rhythm authority:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
+**Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
----
+### [DUNMERE — ARRIVAL]
 
-### [ARRIVAL]
+Dunmere is functioning.
 
-Dunmere is functioning. Shops are open, people are working, and ordinary town life continues. The first thing the group sees is not a disaster scene.
+Shops are open. People are working. Nothing presents as a town in immediate collapse.
 
-Because this is a town, relevant party members may be visible as field models. Portraits + dialogue box carry the conversation.
+The group enters through ordinary gameplay.
 
-**CYANIS:** Food?
+Cyanis looks farther into town.
 
-**ILYRA:** That was fast.
+**CYANIS:** Inn still two streets?
 
-**CYANIS:** I've been thinking about it for miles.
+**TORREN:** Unless Dunmere finally moved.
 
-**MAEVRA:** He has.
+**ILYRA:** Don't encourage him.
 
-**TORREN:** Inn's farther in. Two streets. If you collapse before then, I'll tell them you died with purpose.
+Torren is about to answer when he slows near several loaded outbound wagons that are not moving.
 
-Cyanis looks at him.
-
-**CYANIS:** You'd lie for me?
-
-**TORREN:** I'd simplify.
-
-**ILYRA:** That's almost sweet by his standards.
-
-**TORREN:** Don't start.
-
-**MAEVRA:** Too late.
-
-**CYANIS:** See? Useful town already.
-
-Torren is about to answer when he slows.
-
-The humor drops because he has noticed the loaded outbound wagons standing idle.
+The change in the road activity is allowed to register visually.
 
 **TORREN:** Hold on.
 
-Cyanis follows his attention.
+A nearby **CARTER** hears him.
 
-**CYANIS:** What?
+**CARTER:** If you're heading out that way, don't.
 
-Torren studies the road activity for a few seconds.
+Cyanis looks toward the stopped road.
 
-**TORREN:** Loaded wagons, teams still hitched, nobody moving. That's not a market delay.
+**CYANIS:** Why?
 
-**MAEVRA:** Road's stopped.
+**CARTER:** People leave for Caelora and don't reach it. Enough of them that I'm not putting another wagon on that road.
 
-A nearby **CARTER** hears them.
-
-**CARTER:** If you're waiting on that road, don't. People keep leaving town and not reaching the other end. I've got cargo somebody already paid to move and I'm still not taking another wagon out there.
-
-The easy humor is gone now.
-
-**TORREN:** Caelora traffic mostly stopped?
-
-**CARTER:** Mostly. A few people still gamble on it. Fewer come back.
-
-**CYANIS:** Bandits?
-
-**CARTER:** Wish it was.
-
-A voice from nearby:
+A bruised, already-bandaged **RETURNED GUARD** speaks from nearby.
 
 **RETURNED GUARD:** They're not missing.
 
-The group turns. A road guard sits near one of the wagons, bruised and scraped but already bandaged.
+The group turns.
 
-**CARTER:** You should be lying down.
+Ilyra looks at him.
 
-**RETURNED GUARD:** Did that.
+**ILYRA:** You hit your head?
 
-Ilyra does not seize control of his care; she asks only what matters before taking his testimony seriously.
+**RETURNED GUARD:** No. Bruised ribs. Scraped arm. Head's fine.
 
-**ILYRA:** You hit your head or lose consciousness?
-
-**RETURNED GUARD:** No. I'm sore, not confused.
+Ilyra accepts that.
 
 **ILYRA:** All right.
 
@@ -248,630 +206,653 @@ Cyanis gives him the floor.
 
 **CYANIS:** What happened?
 
-**RETURNED GUARD:** Black Host came out fast. They didn't want the wagon or the cargo. They took the people with me and dragged them toward the Old Bastion. I got clear before they closed the road behind them.
+**RETURNED GUARD:** Black Host hit us on the road. Didn't take the wagon. Didn't take the cargo. Took the people with me and dragged them toward the Old Bastion. I got loose before they closed the road behind them.
 
-A beat.
+The humor is gone.
 
-**MAEVRA:** Old Bastion's occupied?
+**MAEVRA:** Bastion's occupied?
 
-**RETURNED GUARD:** Has been for a while. Wasn't stopping everybody before. It is now.
+**RETURNED GUARD:** Has been. They weren't stopping everybody before.
 
-**TORREN:** You saw them take the others into the Bastion itself?
+Torren looks at the guard.
 
-**RETURNED GUARD:** Toward it. That's as much as I can swear to from where I got loose.
+**TORREN:** You saw them enter the fort?
 
-Torren nods once.
+**RETURNED GUARD:** No. Toward it. Couldn't see farther than that.
 
-**TORREN:** Good answer. Keep the `toward.` People turn one frightened glimpse into a complete route faster than they realize.
+Torren nods.
+
+**TORREN:** Good. Keep it at toward.
 
 The guard gives him a look.
 
-**TORREN:** Good answer. Bad situation.
+**TORREN:** Means we know what we know.
 
-**RETURNED GUARD:** Figured.
+The Carter gestures toward the idle wagons.
 
-The carter looks toward the wagons.
+**CARTER:** He's not the only one who came back saying the same thing.
 
-**CARTER:** He's not the only one who came back with the same story. That's why the rest of us are waiting.
+A short silence.
 
----
+Cyanis looks toward the road, then at Torren.
 
-### [WHAT THE BASTION MEANS]
+**CYANIS:** Bastion can hold the whole corridor?
 
-The party steps slightly aside from wagon traffic. This is a short practical stop, not a strategy council.
+Torren answers the actual question.
 
-**CYANIS:** What does the Old Bastion give them?
+**TORREN:** Pretty much. Road narrows there. Bad ground one side, higher stone the other. Hold the fort and you see traffic coming, stop it where you want, and make everybody use ground you already own.
 
-Torren answers the whole tactical point instead of forcing Cyanis to pull it out one clause at a time.
+Maevra looks farther into town.
 
-**TORREN:** Position. Old fort sits on the corridor where the road narrows between bad ground and higher stone. Hold it properly and you can watch traffic, stop wagons, and close the route without chasing anybody across half the region. If they're organized enough to take people and still keep the road quiet, they're using the fort for more than intimidation.
+**MAEVRA:** Then the road belongs to them until we change that.
 
-**MAEVRA:** And if they're taking travelers instead of supplies, somebody wants the people.
+The Carter points inward.
 
-Ilyra looks toward the idle wagons.
+**CARTER:** Elder's been collecting every report that comes back. If anybody knows another way near the place, it'll be them.
 
-**ILYRA:** So walking up the same road and hoping they treat us differently would be optimistic even for us.
-
-**CYANIS:** I wasn't going to suggest it.
-
-**TORREN:** Good. I was preparing a longer insult.
-
-Cyanis looks at him.
-
-**CYANIS:** Save it. Might need morale later.
-
-**TORREN:** Fine. Waste of preparation.
-
-Maevra almost smiles.
-
-Torren looks farther into town.
-
-**TORREN:** Need local information before we choose another approach. Someone here knows which old routes still exist, which ones only survive on paper, and whether the Host has bothered to watch any of them.
-
-The carter hears that much.
-
-**CARTER:** Elder's been collecting everything people bring back—who vanished, who returned, where they were hit. If anybody here has more than rumors, it's them.
+Maevra nods.
 
 **MAEVRA:** Where?
 
-**CARTER:** Farther in. You'll find them.
+The Carter gives the direction.
 
-Torren looks at Cyanis.
+Maevra starts moving.
 
-**TORREN:** Elder first. Food after, apparently.
+**MAEVRA:** Come on.
 
-**CYANIS:** Cruel but reasonable.
+No one tries to solve the Bastion from the street.
 
-**ILYRA:** Write down the date.
+### [GAMEPLAY HANDOFF]
 
-**TORREN:** Already rare enough.
+Player control returns in Dunmere.
 
-**Objective:** Speak with the Dunmere elder.
+Known:
+- Dunmere itself is functioning;
+- outbound travel toward Caelora has effectively stalled;
+- Black Host soldiers are taking people from the road;
+- at least one returned witness saw captives taken **toward** the Old Bastion;
+- the Old Bastion controls the corridor;
+- the party does not yet know whether captives are actually being held inside it;
+- the party does not know the waterworks route, holding/transit function, Rhazek's role, or any onward destination.
 
----
+**Objective: Speak with the Dunmere elder.**
 
-## Audit check
-
-- Dunmere remains functioning rather than staged as a disaster zone.
-- The idle loaded wagons communicate the visible road stoppage; Maevra names only the operational conclusion instead of inventorying harnesses, teams, and wagon state aloud.
-- The Carter and Returned Guard give complete witness accounts instead of being prompted one fact at a time.
-- Ilyra's brief injury/clarity check stays short because that is all the scene needs.
-- Torren is visibly more socially comfortable than at his Chapter-1 introduction: he joins the food joke, starts his own joke, keeps it going, and then shifts cleanly into a serious tactical explanation when the wagons change the scene.
-- Torren's longer Bastion explanation is expertise-owned, but his social participation before and after it is not dependent on route exposition.
-- The party learns only that Black Host soldiers are taking travelers toward the Old Bastion and that the corridor is being controlled; the waterworks, holding/transit structure, Rhazek, and onward transfers remain unrevealed.
-- No story or gameplay outcome changed.
+Next mandatory beat:
+**Dunmere Elder / Hidden Approach**
 
 ---
 
 ## Beat 3
 
 **Atomic source:** `BEAT_03_DUNMERE_ELDER_HIDDEN_APPROACH_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `ed49f8cd41aebb019a77f53b02bf70cc34b6870ff8e40c48d0ea973f6e5d107d`
+**Source SHA-256:** `646fe5639cc6f92276ddb10983f90347e0b99d2060aac5020141bcee727460fe`
 
 # Chapter 2 — Beat 3 — Dunmere Elder / Hidden Approach
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN AUDITED / PRESERVED  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-### [THE ELDER]
+### [DUNMERE — ELDER]
 
-The group finds the Dunmere elder in town. The scene remains a practical local briefing rather than a ceremonial council.
+The group finds the Dunmere elder.
 
-**ELDER:** You're the ones asking about the Old Bastion.
+This is a practical local conversation, not a council scene.
 
-**CYANIS:** We are now.
+**ELDER:** You're asking about the Old Bastion.
 
-The elder looks over the four of them.
+**CYANIS:** Yeah.
 
-**ELDER:** Then I'll save you the first bad idea. Don't take the road to it.
+The elder looks over the group.
 
-**CYANIS:** Wasn't planning to.
+**ELDER:** Then don't take the road. Bastion was built to watch that corridor. Clear approach, height, good walls. You walk up there, they'll know you're coming long before you reach them.
 
-**TORREN:** Why?
+Maevra looks at the local route reference.
 
-**ELDER:** Because the fort was built to watch that road. Clear approach, good walls, and enough height to see trouble coming before trouble sees them.
+**MAEVRA:** And they get time to move the prisoners.
 
-**MAEVRA:** So a frontal approach tells them exactly when we're arriving.
+**ELDER:** If that's where they're keeping them, yes.
 
-**ELDER:** And gives them time to decide what to do with the people they've taken.
+Torren studies the map.
 
-Ilyra's expression tightens.
+**TORREN:** Anything under the approach?
 
-**ILYRA:** Other approaches?
+The elder points to an older line.
 
-**ELDER:** Bad ground. Less direct. Still ends under their walls.
+**ELDER:** One possibility. Old waterworks used to run farther than they do now. Service branch went out toward the Bastion's lower foundations. Nobody maintains that section anymore, and I can't tell you what survived.
 
-Torren thinks for a moment.
+Torren follows the line.
 
-**TORREN:** Anything under them?
+**TORREN:** How far does anyone here still know it?
 
-The elder looks at him.
+**ELDER:** Past the old sluice. After that, stories and old plans.
 
-**ELDER:** Maybe.
+**TORREN:** Enough to start.
 
-**CYANIS:** That's promising.
+Ilyra leans in slightly over the map.
 
-**TORREN:** Depends on the maybe.
+**ILYRA:** How old are the plans?
 
-### [THE WATERWORKS]
+The elder gives her a look.
 
-The elder indicates an old municipal route on a local map or equivalent field reference.
+**ELDER:** Old enough that I wouldn't bet my life on them.
 
-**ELDER:** Dunmere's old waterworks used to run farther than the current system. One service branch goes out toward the Bastion's lower foundations.
+**ILYRA:** Good. I wasn't asking for confidence.
 
-**TORREN:** Into the fort?
+Torren glances at her.
 
-**ELDER:** I didn't say that.
+**TORREN:** Sensible.
 
-**TORREN:** Good.
+**ILYRA:** Don't sound surprised.
 
-The elder raises an eyebrow.
+A small beat.
 
-**ELDER:** Good?
+Cyanis looks back to the elder.
 
-**TORREN:** Means you're telling me what you know.
+**CYANIS:** Host use it?
 
-A beat.
-
-**ELDER:** It runs toward the lower foundations. That's all I know. The far branch isn't maintained anymore; newer works bypass it. Parts can flood, parts can collapse, and nobody here has reason to know exactly which parts are still good.
-
-**CYANIS:** Any sign the Host uses it?
-
-**ELDER:** None anyone here has seen. That isn't the same as none.
+**ELDER:** None anyone's seen. Doesn't mean they don't.
 
 Torren nods once.
 
-**TORREN:** Better answer.
+**TORREN:** Fine.
 
-**ILYRA:** If they aren't watching it, we can get close before they know we're there.
+**CYANIS:** Entrance?
 
-**MAEVRA:** If it still goes where the old plans say.
+The elder gives the practical location.
 
-**TORREN:** I'll know soon enough.
+**ELDER:** Start there. If it's blocked, come back. Don't turn a dead route into a grave because you already walked half of it.
 
-Cyanis looks at him.
+Torren looks up from the map.
 
-**CYANIS:** Can you find out if it gets us through?
+**TORREN:** If it's dead, we'll know.
 
-**TORREN:** Yeah.
+Maevra stands.
 
-**CYANIS:** Better question than asking if you can guarantee it.
+**MAEVRA:** Then that's our approach.
 
-**TORREN:** Little bit.
+Ilyra looks once more at the old route.
 
-Maevra almost smiles.
+**ILYRA:** Better than walking into a fort through the part designed for walking into the fort.
 
-### [COMMITMENT]
+**CYANIS:** Strong endorsement.
 
-The elder looks between them.
+**ILYRA:** I'm trying to stay measured.
 
-**ELDER:** If the branch is blocked, come back. Don't turn a bad route into a grave because you already walked half of it.
+Maevra starts for the door.
 
-**TORREN:** Wasn't planning to.
+**MAEVRA:** Keep practicing.
 
-**CYANIS:** Where's the entrance?
+### [GAMEPLAY HANDOFF]
 
-The elder gives the practical location of the old waterworks access. Exact map geometry and access mechanism belong to area design.
+Player control returns in Dunmere.
 
-**ELDER:** You'll know it when you see it. After that you're in old works, and I can't tell you what shape they're in.
+Known:
+- the road approach to the Old Bastion is exposed and tactically poor;
+- the Bastion's position gives the Black Host control over the corridor;
+- an old waterworks service branch runs toward the Bastion's lower foundations;
+- the elder does not know whether the route still reaches the Bastion;
+- there is no known routine Black Host use of the old waterworks;
+- the elder knows nothing about the Sunken Archive, secret passage, Prisoner Galleries, Rhazek's command situation, or the masked officer.
 
-**CYANIS:** You've told us enough.
+**Objective: Enter the Old Waterworks.**
 
-**MAEVRA:** More useful than walking up the road.
-
-**TORREN:** Let's go see how bad it is.
-
-**CYANIS:** That's your optimistic version, isn't it?
-
-**TORREN:** Yeah.
-
-**Objective:** Enter the Old Waterworks.
-
----
-
-## Natural-turn audit note
-The elder already held the floor naturally for the important local-knowledge statements. The only consolidation needed was the waterworks-condition explanation; otherwise the question-and-answer cadence is earned because the party is testing specific route uncertainties.
+Next mandatory beat:
+**Old Waterworks**
 
 ---
 
 ## Beat 4
 
 **Atomic source:** `BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `b6a3370115480b57923cf94864c2f1ebe7c3d8b5a6ce50e1df7238ed107f09d5`
+**Source SHA-256:** `1ca1b337c0c5177fe79f13b012485381c33739ab4bf27ff3d34c1f888ffcecc1`
 
 # Chapter 2 — Beat 4 — Old Waterworks
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN AUDITED / INTENTIONALLY TERSE  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 4 is exploration-first. The route remains covert; no routine Black Host patrols use it.
+### [GAMEPLAY — OLD WATERWORKS]
 
-### [ENTERING THE OLD WORKS]
+Player control is active.
 
-Cyanis is the visible traversal model. Torren is genuinely guiding, so sparse practical dialogue is legal.
+The party enters Dunmere's old waterworks through the access given by the elder.
 
-At a branch:
+Ordinary traversal shows Cyanis on the field.
 
-**TORREN:** This way.
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-**CYANIS:** Certain?
+Maevra remains with the traveling group but does not participate in combat.
 
-**TORREN:** Enough.
+The route stays genuinely covert.
 
-**MAEVRA:** There's that measurement again.
+There are **no routine Black Host patrols** in the waterworks.
 
-**TORREN:** Works fine.
+Most traversal is silent.
 
-**ILYRA:** Until it doesn't.
+The area itself carries the progression:
+**older municipal works → damaged/flooded sections → reused older foundations → clearly ancient construction**
 
-**TORREN:** Then I'll use another one.
+Torren is guiding, but there is no continuous spoken navigation.
 
-Movement resumes.
-
-### [THE SEALED DOOR]
+### [STORY TRIGGER — SEALED SIDE DOOR]
 
 A substantial sealed side-branch door appears early in the route.
 
+The group stops briefly.
+
+Cyanis looks at it.
+
 **CYANIS:** That ours?
 
-**TORREN:** No.
-
-**CYANIS:** You decided that quickly.
-
-**TORREN:** Doesn't open.
-
-**ILYRA:** Locked?
-
-**TORREN:** More than that.
-
-**MAEVRA:** Anything you can do with it?
-
-Torren checks once more.
+Torren checks the door once.
 
 **TORREN:** No.
 
-A beat.
+**CYANIS:** Fast answer.
 
-**CYANIS:** Clear answer.
+**TORREN:** Door's older than the works and I'm not opening it with anything I brought.
 
-**TORREN:** Enjoy it.
+Ilyra studies the sealed edges.
 
-**CYANIS:** Then we keep moving.
+**ILYRA:** No obvious damage either.
+
+Torren looks again.
+
+**TORREN:** Which means people better equipped than us didn't get through by accident.
+
+**MAEVRA:** Useful enough. Leave it.
+
+Torren steps away from the door.
+
+**TORREN:** Gladly.
+
+Cyanis gives the sealed branch another look.
+
+**CYANIS:** I hate doors that become questions.
+
+**ILYRA:** You're going to have a difficult life.
+
+**CYANIS:** Already noticing.
+
+The party moves on.
+
+No one identifies what lies behind the door.
+
+There is no Chapter 2 method to open it.
+
+### [GAMEPLAY — FLOODED WORKS]
+
+Traversal resumes.
+
+Water becomes a practical environmental obstacle.
+
+At least one required section gets **Cyanis, Ilyra, Torren, and Maevra all thoroughly wet**.
+
+After one particularly unpleasant crossing, Ilyra wrings water from one glove.
+
+**ILYRA:** I liked this route better when it was theoretical.
+
+**TORREN:** Still better than the road.
+
+**ILYRA:** I didn't say it wasn't.
+
+Maevra looks down at her soaked clothes.
+
+**MAEVRA:** I reserve the right to complain while agreeing with both of you.
+
+**CYANIS:** Finally, a doctrine I can support.
+
+The exchange ends there.
+
+There is no dialogue about Torren's smoking supplies or anything that pre-signposts the later **Still Burns** scene.
+
+### [STORY TRIGGER — OLDER STRUCTURE]
+
+Farther in, the construction changes enough that the difference is unmistakable.
+
+The party pauses.
+
+**CYANIS:** This still the waterworks?
+
+Torren studies the joins.
+
+**TORREN:** Not this part. Waterworks were built into it.
+
+Ilyra looks down the older corridor.
+
+**ILYRA:** That's a lot of structure to accidentally build into.
 
 **TORREN:** Yeah.
 
-There is no Chapter-2 method to open this door. Writer-facing, the branch becomes a later Hunt route.
+Maevra looks ahead.
 
-### [FLOODED WORKS]
+**MAEVRA:** Direction?
 
-The route continues through wet and damaged sections. At least one required traversal section gets **Cyanis, Ilyra, Torren, and Maevra all thoroughly wet**.
+Torren checks.
 
-Nobody calls attention to Torren's pouch, weed, smoking supplies, or the later C06 setup.
+**TORREN:** Still good.
 
-### [OLDER THAN THE WATERWORKS]
+Cyanis looks at him.
 
-Farther in, construction changes enough to be unmistakable.
+**CYANIS:** That's almost reassuring.
 
-**CYANIS:** Torren. This still the waterworks?
+**TORREN:** Don't get greedy.
 
-Torren studies the joins between structures.
+Maevra starts forward.
 
-**TORREN:** No. A lot older. Modern works are sitting on top of it.
+**MAEVRA:** Save the reassurance for daylight.
 
-**MAEVRA:** Still taking us toward the Bastion?
+The stop is over.
 
-Torren checks route and direction.
+### [GAMEPLAY HANDOFF]
 
-**TORREN:** Roughly.
+Player control resumes.
 
-**CYANIS:** I want roughly to keep being enough.
+The party continues deeper into the older structure.
 
-**TORREN:** So do I.
+Known:
+- the waterworks route remains covert;
+- the sealed side door cannot be opened in Chapter 2;
+- the party does not know what lies behind it;
+- the modern waterworks were built over substantially older construction;
+- the older route still trends toward the Old Bastion;
+- the Card does not provide a new required reaction here;
+- the Sunken Archive has not yet been identified.
 
-**ILYRA:** Only one way to find out.
-
-**MAEVRA:** Unfortunately.
-
-**TORREN:** Come on.
-
-**Objective:** Continue into the ancient structure.
-
----
-
-## Natural-turn audit note
-The beat stays predominantly terse because it is active guided dungeon traversal. Torren gets one complete architectural judgment where a multi-sentence explanation is useful; otherwise brevity supports gameplay pressure. Story state is unchanged.
+Next mandatory beat:
+**Sunken Archive Entrance**
 
 ---
 
 ## Beat 5
 
 **Atomic source:** `BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `80b0117358c99c2a84ba852084e1423ec889bc318a39c43b1756d8cd291f5d90`
+**Source SHA-256:** `703884f174281d7b6cbbb4015a2a4f06809ca5f4a0281d3e978041616fdbe917`
 
-# Chapter 2 — Beat 5
-# Sunken Archive Entrance
-## CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT
+# Chapter 2 — Beat 5 — Sunken Archive Entrance
 
-**Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
-**Production note:** `Sunken Archive` is the gameplay/production name only. Nobody in the scene knows or announces that formal name.
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
+**Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
----
+### [STORY TRIGGER — THRESHOLD]
 
-### [THE THRESHOLD]
+The old waterworks route opens into a substantially larger Ancient interior.
 
-The waterworks route opens into a much larger Ancient interior. Movement pauses long enough for a clean visual read.
+Movement pauses long enough for the space to register.
 
-The relevant group models may appear for the authored stop. Cyanis carries the intact Card; it remains inert.
+The production/gameplay name is **Sunken Archive**, but nobody in the party knows or uses that name.
 
-**CYANIS:** Well. That's not plumbing.
+The Card remains inert.
 
-**TORREN:** No.
+Cyanis looks out across the chamber.
 
-**MAEVRA:** Strong start.
+**CYANIS:** Well. Not plumbing.
 
-Ilyra studies the repeated recesses and organized structures built into the chamber.
+Ilyra takes in the repeated protected recesses and the scale of the chamber.
 
-**ILYRA:** This is organized. Repeating recesses, protected niches. They were keeping something here.
+**ILYRA:** No. And those repeat all the way down.
+
+She looks closer.
+
+**ILYRA:** They were keeping something here. A lot of it.
 
 **CYANIS:** Records?
 
-**ILYRA:** Could be. I don't have enough to name it yet.
+**ILYRA:** Maybe. Or things stored like records. That's as far as I'm going.
 
-Torren has been reading the structure differently.
+Torren looks at the water damage and the way it cuts across the older layout.
 
-**TORREN:** Water came later. Place wasn't built for this much of it; the damage cuts across the layout instead of following it.
+**TORREN:** Water came later. Damage doesn't follow the place.
 
-A beat.
+Maevra looks from the flooded floor to the upper recesses.
 
-Cyanis looks back to the reason they came.
+**MAEVRA:** So this was dry once.
 
-**CYANIS:** Direction?
+**TORREN:** Drier, at least.
 
-Torren checks before answering.
+**CYANIS:** Helpful distinction.
 
-**TORREN:** Still broadly toward the Bastion. I don't know where this actually exits, but the route hasn't turned us away from it yet.
+**TORREN:** Usually is.
 
-**CYANIS:** Broadly will do. People are waiting on us.
+Ilyra gives Cyanis a sideways look.
 
-**ILYRA:** We can understand the place later if it gives us time for later.
+**ILYRA:** You wanted the expert answer.
 
-**MAEVRA:** Then keep moving.
+**CYANIS:** I wanted the reassuring one.
 
-Torren looks deeper into the complex.
+**TORREN:** Wrong expert.
 
-**TORREN:** Come on.
+That gets the smallest laugh out of Maevra.
 
-**Objective:** Explore the ancient complex.
+She looks deeper into the complex.
 
-Control returns quickly. The player gets a meaningful entrance stretch to absorb the scale, water damage, and preservation/storage character of the complex before the western mural.
+**MAEVRA:** Route?
 
----
+Torren checks the direction.
 
-## Audit check
+**TORREN:** Still trending right.
 
-- Ilyra interprets organization/preservation rather than verbally inventorying every visible recess and spacing cue.
-- Torren owns the separate water-damage judgment.
-- Maevra no longer summarizes Ilyra + Torren's observations back into a spoken `older, purpose-built, much larger` conclusion; the space already shows that.
-- The conversation returns quickly to the rescue route.
-- Nobody knows the formal name `Sunken Archive`, exact contents, builders, or ultimate purpose.
-- No story, Card, route, or reveal outcome changed.
+**MAEVRA:** Then we keep moving.
+
+Cyanis lingers for one more second on the scale of the place.
+
+**CYANIS:** We're coming back to the question of what this is.
+
+**ILYRA:** Assuming it doesn't drown us first.
+
+**CYANIS:** See, that's the reassuring answer I wanted.
+
+**ILYRA:** Happy to help.
+
+The group moves on.
+
+### [GAMEPLAY HANDOFF]
+
+Player control returns.
+
+The player is given room to absorb:
+- the much larger Ancient scale;
+- the preservation/storage character of the architecture;
+- substantial later water intrusion;
+- the fact that this structure is older than both the waterworks and the Old Bastion.
+
+Nobody identifies its exact purpose.
+
+Nobody knows its formal Ancient name.
+
+The Card remains inert.
+
+**Objective: Explore the ancient complex.**
+
+Next mandatory beat:
+**Western Map Mural**
 
 ---
 
 ## Beat 6
 
 **Atomic source:** `BEAT_06_WESTERN_MAP_MURAL_NATURAL_TURN_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `537946acd42eef43c80cff019956795f42b7069b7de4a05d11896956d642c9dd`
+**Source SHA-256:** `8f0b79e25d0d337c57dd982b4e91dbb490c3912765aa375500ae73f33a1d176f`
 
-# Chapter 2 — Beat 6
-# Western Map Mural
-## CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN + SPOKEN/NARRATION + ENSEMBLE CHARACTER-BALANCE PASS
+# Chapter 2 — Beat 6 — Western Map Mural
 
-**Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
-**Hard continuity:** the mural is intact and coherent; it is one western section of a larger system. The small northern structure bears the exact modern Crest of Yahtrea. Its meaning remains unknown.
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
+**Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
----
+### [STORY TRIGGER — WESTERN MAP]
 
-### [THE MURAL]
+Exploration opens into a chamber dominated by a large, intact wall-scale map.
 
-Exploration reaches a chamber dominated by a large wall-scale map. The relevant group models appear at a natural stopping point.
+The mural is complete and coherent.
 
-Give the player a clean visual read before dialogue begins.
+The party is given a clean visual read before anyone speaks.
 
-Torren is already comparing route relationships with the practical Wayfinder copy the group carries.
+Torren compares the route relationships against the Junction copy the group carries.
 
-**MAEVRA:** You recognize something?
+He finds the first match.
 
-**TORREN:** Maybe. Same split as the Wayfinder here, then the same marker sequence after it. If that holds, the Wayfinder isn't its own little route—it is a piece of this larger system.
+**TORREN:** Same split.
 
-Ilyra compares the repeated sequence herself.
+Cyanis looks over.
 
-**ILYRA:** Hollow Watch fits the order. Same sequence as the Wayfinder. I don't know what every mark means, but that part matches.
+**CYANIS:** Junction?
 
-**CYANIS:** So our little useful map just became part of a much bigger useful map.
+**TORREN:** Yeah. And Hollow Watch here. Same order.
 
-**MAEVRA:** Assuming the bigger one still corresponds to anything outside this room.
+Torren follows the sequence farther.
 
-**TORREN:** That's what we check next.
+**TORREN:** If I'm reading that right, our little map's a piece of this one.
 
----
+Cyanis looks across the scale of the wall.
 
-### [FINDING DUNMERE]
-
-Torren works outward from the matched Wayfinder section rather than guessing from the whole wall.
-
-**TORREN:** If that is Hollow Watch, we came through here. Dunmere should sit around this relationship—not an exact point, but close enough to test the rest of it.
+**CYANIS:** That's a lot bigger than I wanted it to be.
 
 Ilyra studies the surrounding geography.
 
-**ILYRA:** Some of this doesn't match what we know now. Either we're reading it wrong or things changed. I can't tell which from a wall.
+**ILYRA:** Some of it doesn't line up with the ground we know.
 
-**CYANIS:** That's worse than a simple bad map.
+Torren nods.
 
-**TORREN:** More interesting, though.
+**TORREN:** No. Could be changes. Could be us. Don't know yet.
 
-**MAEVRA:** Try to contain yourself.
+He works outward only from the part he can anchor.
 
-Torren does not.
+**TORREN:** Dunmere should be around here.
 
----
+The relationship fits.
 
-### [TOWARD CAELORA]
+From there, the route system continues east toward an enormous urban representation.
 
-Cyanis follows the connected routes eastward until they reach a vast, dense urban representation.
+Maevra goes still.
 
-Maevra goes quiet for a moment.
+**MAEVRA:** If the relationship holds, that should be Caelora.
 
-**MAEVRA:** If the route relationship keeps holding, that position should correspond to Caelora. But whatever city this shows is far larger than the Caelora I know.
+Cyanis looks at the depicted city.
 
-**CYANIS:** So either we're wrong about the match or we're looking at a city that isn't there anymore.
+**CYANIS:** That's not Caelora.
 
-**TORREN:** Those aren't the only options. They're just the two we can see from here.
-
-Ilyra notices something immediately north of the huge city representation.
-
-**ILYRA:** Wait. Separate structure, just north of it. Look at the mark.
+**MAEVRA:** No.
 
 A beat.
 
-Cyanis recognizes it.
+Ilyra's attention shifts just north of the city.
 
-**CYANIS:** That's the Crest of Yahtrea.
+**ILYRA:** Wait. North of it.
 
-Maevra checks it herself.
+A separate smaller structure is marked there.
 
-**MAEVRA:** Exact enough that I'm not calling it resemblance. Same Crest we use now, sitting on a map that should be far older than modern Yahtrea.
+She looks closer.
 
-**CYANIS:** Which makes absolutely no sense.
+**ILYRA:** That's ours.
 
-**TORREN:** Correct.
+Cyanis follows her attention.
 
-**CYANIS:** Thank you, Harth.
+**CYANIS:** The Crest?
 
-**TORREN:** Any time.
+**ILYRA:** Same one.
 
-Nobody explains what the crest-marked structure is or why the Crest appears there.
+Maevra steps closer, checks it herself, and does not invent an explanation.
 
-**MAEVRA:** Copy it. City, separate structure, Crest, and route relationship. All of it exactly as shown.
+**MAEVRA:** Copy that exactly.
 
-**CYANIS:** Definitely.
+Nobody tries to explain why an Ancient map carries the modern Yahtrean Crest.
+
+Ilyra notices another physical detail.
+
+**ILYRA:** These lines aren't broken at the edge.
+
+Torren checks another side of the mural.
+
+**TORREN:** No. Panel ends. Routes don't.
+
+**MAEVRA:** Then this is one section.
+
+**TORREN:** Looks like it.
+
+Maevra makes the practical call.
+
+**MAEVRA:** Copy what we can support. Junction overlap, Dunmere, city, northern structure, Crest, and where the routes leave the panel. Nothing we have to guess at.
+
+The party makes a practical copy through a brief fade/state transition.
+
+When it is done, Cyanis gives the mural one last look.
+
+**CYANIS:** I want more time with this.
 
 A beat.
 
-**CYANIS:** How old is this mural?
+**CYANIS:** We don't have it.
 
-**ILYRA:** No idea. And before you ask, I also don't know what happened to the city.
+Maevra knows exactly what he means.
 
-**TORREN:** Good answers.
+**MAEVRA:** No.
 
-**ILYRA:** Learned from you.
+Cyanis looks toward the route deeper into the Archive.
 
----
+**CYANIS:** Then we find the people first.
 
-### [THE PANEL EDGES]
+Torren folds the copy away.
 
-Ilyra studies one physical edge of the mural and notices how the route lines meet it.
+**TORREN:** Yeah.
 
-**ILYRA:** These lines don't break at the edge. They keep going into it.
+The scene ends.
 
-Torren checks the opposite side.
+### [GAMEPLAY HANDOFF]
 
-**TORREN:** Same here. So we're not looking at what's left of one complete map. We're looking at one complete section of something larger.
+Player control returns.
 
-**MAEVRA:** Western section, if the geography match is even approximately right.
+Known:
+- the Junction/Hollow Watch/Dunmere corridor belongs to a much larger Ancient route system;
+- the western mural is a complete section, not a damaged fragment;
+- the route network continues beyond the panel edges;
+- the system extends toward modern Caelora;
+- an enormous Ancient city is depicted in that general position;
+- a separate smaller structure immediately north of it bears the same Crest used by modern Yahtrea;
+- the party does not know the identity, age relationship, purpose, or history of either structure;
+- ancient and modern geography do not align cleanly;
+- practical copies have been made;
+- the kidnapped people remain the immediate priority.
 
-**CYANIS:** Meaning there are other sections somewhere.
+**Objective: Explore the Archive depths.**
 
-**MAEVRA:** Meaning there were. I am not promising you a wall tour.
-
-**CYANIS:** Helpful.
-
-**MAEVRA:** I'm doing my best with one arm.
-
-Cyanis almost smiles.
-
----
-
-### [COPY IT]
-
-The group makes a practical copy of the useful information. Keep implementation economical; no long real-time drawing sequence is needed.
-
-Torren owns route relationships. Ilyra captures stable visual markers, the huge city shape, and the crest-marked northern structure. Cyanis keeps the Wayfinder overlap straight. Maevra checks that the copy preserves what they actually saw rather than what they think it means.
-
-Short dialogue may cover the work:
-
-**TORREN:** Route lines first. If the relationships are wrong, the rest isn't useful.
-
-**ILYRA:** City shape and northern structure after. I'm copying the Crest exactly, not cleaning it up.
-
-**MAEVRA:** Good. Interpretation can wait until Caelora. Evidence can't.
-
-**CYANIS:** And I get to make sure we haven't copied the Wayfinder backward somehow.
-
-**TORREN:** Try not to.
-
----
-
-### [LEAVE IT FOR LATER]
-
-Once the practical copy is complete, Cyanis gives the mural one last look.
-
-**CYANIS:** We're coming back to this. After the people we came for.
-
-**ILYRA:** Good. I'd like another look when I'm not standing around in wet socks.
-
-Torren looks down at his own boots.
-
-**TORREN:** Boots agree.
-
-**MAEVRA:** Beautiful. Ancient mystery defeated by damp feet. Move.
-
-Ilyra starts toward the route out.
-
-**ILYRA:** You laugh. Your boots aren't dry either.
-
-**MAEVRA:** I have rank. It keeps the water respectful.
-
-**CYANIS:** Is that how that works?
-
-**TORREN:** No.
-
-**MAEVRA:** Harth, nobody asked you.
-
-**Objective:** Explore the Archive depths.
-
----
-
-## Ensemble audit check
-
-- The mural itself gets the first word visually; the cast interprets relationships rather than announcing visible inventory.
-- Torren owns route/cartographic interpretation because the scene genuinely activates his expertise, but he remains socially present around that work.
-- Ilyra contributes through visual comparison, curiosity, direct observation, and an ordinary complaint about being soaked; her uncertainty language is deliberately plainer than Torren's route-evidence register and later Nimera methodology.
-- Cyanis states the rescue priority himself because it is his own current commitment, not because Ilyra needs to function as his conscience.
-- Maevra retains operational authority while also joking as a familiar adult member of the group; rank does not confine her to mission summaries.
-- Adult register remains natural without profanity being inserted by quota.
-- Kidnapped people remain the immediate priority.
-- No story or reveal outcome changed.
+Next mandatory beat:
+**Archive Depths**
 
 ---
 
 ## Beat 7
 
 **Atomic source:** `BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `66d5d15738744869daec5ef8e42dc2333e25c150585e9e3039750667a142f692`
+**Source SHA-256:** `855ab91ff17b20fa2cbb90a408eeb11e85df99fe848f6c54a7214e4659adf312`
 
 # Chapter 2 — Beat 7 — Archive Depths
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN AUDITED / INTENTIONALLY TERSE  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 7 is exploration-first. After the mural, the Archive becomes materially harder to traverse. No second major lore reveal occurs here.
+### [GAMEPLAY — ARCHIVE DEPTHS]
 
----
+Player control is active.
 
-### [SOMETHING IN THE WATER]
+The party continues beyond the western mural.
 
-After a meaningful stretch of deeper exploration, the party reaches another flooded section. Torren is guiding through the damaged route.
+This section is exploration-first.
+
+Environmental pressure increases:
+- deeper flooding;
+- damaged or narrowed routes;
+- unstable footing;
+- worsening visibility;
+- stronger evidence that something large is moving through the flooded structure.
+
+There is **no second major lore reveal**.
+
+Most traversal is silent.
+
+### [STORY TRIGGER — MOVEMENT IN THE WATER]
+
+After a meaningful stretch of exploration, the party reaches a deeper flooded section.
 
 Torren stops.
 
@@ -879,333 +860,351 @@ Torren stops.
 
 The others stop.
 
-**CYANIS:** What?
+Water moves across the chamber after the party has already gone still.
 
-Torren watches the water.
-
-**TORREN:** Don't move.
-
-They stay still.
-
-The water continues to shift across the chamber.
-
-Ilyra notices it too.
+Ilyra watches it.
 
 **ILYRA:** That's not us.
 
 **TORREN:** No.
 
-Maevra looks toward the darker route ahead.
+A low impact carries through the structure.
 
-**MAEVRA:** Building settling?
+Maevra looks into the darker route ahead.
 
-A low impact carries through the structure. The water changes again.
+**MAEVRA:** Settling?
 
-Torren waits a moment before answering.
+Torren waits.
 
-**TORREN:** Maybe.
-
-**CYANIS:** You believe that?
-
-**TORREN:** Less than I did a second ago.
-
-Ilyra keeps watching the water.
-
-**ILYRA:** Something moved.
-
-**MAEVRA:** Big something.
-
-Torren looks ahead.
-
-**TORREN:** Yeah.
-
-A beat.
-
-**CYANIS:** Still our direction?
-
-**TORREN:** Yeah.
-
-**CYANIS:** Of course it is.
-
-Torren starts forward carefully.
-
-**TORREN:** Watch your footing.
-
-Control returns.
-
-No one identifies or names what caused the disturbance.
-
----
-
-### [NO CLEAN WAY AROUND]
-
-Later, after more exploration, the surviving route narrows toward a deeper flooded chamber. Nearby alternatives are visibly unusable or have already proven not to advance.
-
-At a natural stop, Torren checks the available paths.
-
-**CYANIS:** Options?
-
-**TORREN:** Back.
-
-Cyanis waits.
-
-**CYANIS:** And?
-
-Torren indicates the route ahead.
-
-**TORREN:** Forward.
-
-**CYANIS:** That's not much of a list.
-
-**TORREN:** Didn't build the place.
-
-Ilyra looks toward one damaged side route.
-
-**ILYRA:** Nothing through there?
-
-**TORREN:** Doesn't carry us anywhere useful.
-
-Maevra looks toward the water ahead as another distant movement rolls through it.
-
-**MAEVRA:** And forward is where that is.
-
-**TORREN:** Yeah.
-
-**CYANIS:** We need through.
-
-**ILYRA:** Then we deal with what's there.
-
-Torren's attention shifts to a raised intact recess/landing just before the deeper chamber.
-
-**TORREN:** Maevra.
-
-She has already seen it.
-
-**MAEVRA:** I know.
-
-**TORREN:** Stay up there.
-
-**MAEVRA:** Was planning to.
-
-Cyanis looks at her.
-
-**CYANIS:** We'll come back.
-
-**MAEVRA:** Yes, Dovaren. That's generally how this works.
-
-Cyanis gives her a look.
-
-**MAEVRA:** Go.
-
-The trio turns toward the deeper chamber.
-
-Another heavier movement passes through the water beyond the threshold.
-
-Ilyra watches it.
-
-**ILYRA:** That's definitely not settling.
+Another movement follows.
 
 **TORREN:** No.
 
-**CYANIS:** Then let's find out what we're dealing with.
+Cyanis looks toward the route onward.
 
-**Objective:** Enter the flooded chamber.
+**CYANIS:** Still ahead?
 
-Beat ends at the threshold. The actual creature reveal and confrontation belong to Beat 8.
+**TORREN:** Yeah.
 
----
+Cyanis exhales.
 
-## Natural-turn audit note
+**CYANIS:** Naturally.
 
-This beat is intentionally terse. The dialogue is suspense-driven, occurs inside an unknown hostile flooded ruin, and depends on incomplete observations. Expanding those turns would reduce tension and falsely increase certainty. The short turns are therefore preserved as deliberate cadence rather than one-sentence-editor artifact.
+Player control resumes.
+
+No one identifies what caused the movement.
+
+### [GAMEPLAY — DEEPER ROUTE]
+
+The party continues through normal exploration.
+
+Nearby side paths are collapsed, flooded beyond use, or reconnect without providing meaningful forward progress.
+
+The route gradually funnels toward a large deeper chamber.
+
+There is no separate dialogue scene explaining that the party has no alternate route.
+
+### [STORY TRIGGER — LEVIATHAN CHAMBER APPROACH]
+
+The party reaches the final approach.
+
+Another heavy movement disturbs the water beyond the threshold.
+
+Maevra spots a raised intact landing before the chamber.
+
+**MAEVRA:** I'll stay here.
+
+Torren checks the position once.
+
+**TORREN:** Good.
+
+Cyanis looks into the flooded chamber.
+
+**CYANIS:** We need through.
+
+Ilyra watches the water shift again.
+
+**ILYRA:** Then through.
+
+Torren readies himself.
+
+**TORREN:** Move.
+
+The trio enters.
+
+### [GAMEPLAY HANDOFF]
+
+Beat 7 ends at the chamber threshold.
+
+Known:
+- something very large is moving through the flooded Archive;
+- the party does not yet know exactly what it is;
+- the surviving route continues through the chamber ahead;
+- there is no useful alternate route;
+- Maevra remains at the safe raised landing and does not enter combat;
+- no additional Ancient-system information has been revealed.
+
+Next mandatory beat:
+**Archive Leviathan**
 
 ---
 
 ## Beat 8
 
 **Atomic source:** `BEAT_08_ARCHIVE_LEVIATHAN_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `bbda4a312c99fa0eed8c56c900c1c88badc60b147f0d8a76c5fd777c527424f4`
+**Source SHA-256:** `e67b91852e3981566910dee32b9b2473fc2eedd9389b5fba3868e51f7f705c62`
 
 # Chapter 2 — Beat 8 — Archive Leviathan
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN AUDITED / INTENTIONALLY TERSE  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-`Archive Leviathan` is the production/encounter name. The characters do not know or need to speak that name.
+### [STORY TRIGGER — FLOODED CHAMBER]
 
----
+Cyanis, Ilyra, and Torren enter the flooded chamber.
 
-### [THE CHAMBER]
+Maevra remains at the raised landing behind them.
 
-Cyanis, Ilyra, and Torren enter the flooded chamber. Maevra remains at the raised position behind them.
+The water surges.
 
-The water surges. The large creature responsible for the disturbances moves into clear view and occupies the usable way across the chamber.
+The creature responsible for the disturbances finally moves into clear view and occupies the usable route across the chamber.
+
+The production/encounter name is **Archive Leviathan**. The characters do not know or use that name.
+
+Torren reacts first.
 
 **TORREN:** Back from the edge.
 
 The trio shifts onto firmer footing as the creature turns toward them.
 
-**CYANIS:** That's our problem.
+Cyanis looks past it once, toward the route beyond.
 
-**TORREN:** Yeah.
+**CYANIS:** That's in our way.
 
-Ilyra watches the water around it rather than trying to identify the creature.
+**TORREN:** Very.
 
-**ILYRA:** Stay where you can plant your feet.
+Ilyra watches the water around the creature.
 
-**CYANIS:** Can we get around it?
+**ILYRA:** Keep your footing. It moves, the whole floor moves with it.
 
-Torren checks the far side and the available footing.
+Cyanis checks the usable space.
+
+**CYANIS:** Around?
+
+Torren looks once.
 
 **TORREN:** Not while it's there.
 
-The creature moves again, sending water across the chamber.
+The creature surges forward.
 
-**ILYRA:** And it knows we're here.
+Cyanis sets himself.
 
-Cyanis looks toward the route behind it.
+**CYANIS:** Then it's not staying there.
 
-**CYANIS:** Then we clear the room.
+Torren draws.
 
-**TORREN:** Yeah.
+**TORREN:** Works for me.
 
-**Boss encounter begins.**
+Ilyra readies herself.
 
-Combat party: **Cyanis + Ilyra + Torren**. Maevra does not enter battle.
+No one adds anything else.
 
----
+### [BOSS — ARCHIVE LEVIATHAN]
+
+Combat party:
+**Cyanis + Ilyra + Torren**
+
+Maevra remains outside the combat space.
+
+Story-facing encounter structure remains the current one-HP-bar / two-behavior-state structure unless encounter authority revises it.
+
+No combat dialogue is required beyond sparse implementation barks if encounter design needs them.
 
 ### [AFTER THE BATTLE]
 
-The creature is defeated and no longer contests the chamber. Exact defeat animation/final physical state belongs to encounter presentation, but the route is no longer blocked by its active presence.
+The creature is defeated.
 
-The water settles enough for the trio to reassess.
+The chamber settles gradually.
 
-**CYANIS:** Everyone?
+For a moment, nobody speaks.
 
-**ILYRA:** Here.
+Cyanis looks to Ilyra and Torren.
 
-**TORREN:** Yeah.
+**CYANIS:** Good?
 
-From the raised position behind them:
+**ILYRA:** Yeah.
 
-**MAEVRA:** Three?
+**TORREN:** Still here.
 
-Cyanis looks back.
+From the raised landing:
 
-**CYANIS:** Three.
+**MAEVRA:** That's three voices. I'll take it.
 
-**MAEVRA:** Good.
+Cyanis looks back toward her.
 
-Once Torren is satisfied the chamber is safe enough, Maevra rejoins them.
+**CYANIS:** You sound relieved.
 
-Torren checks the far side where the creature had been controlling the route.
+**MAEVRA:** Don't ruin it.
 
-**TORREN:** We can cross now.
+Cyanis almost smiles.
 
-**CYANIS:** Where does it go?
+Torren checks the far side of the chamber.
 
-Torren looks farther into the newly accessible continuation.
+**TORREN:** Route's open.
 
-**TORREN:** Don't know.
+Maevra rejoins them once the crossing is safe enough.
 
-**ILYRA:** But it goes.
+Ilyra looks toward the newly accessible continuation.
 
-**TORREN:** Yeah.
+**ILYRA:** Any idea where that goes?
 
-Maevra looks toward the way ahead.
+Torren studies it.
 
-**MAEVRA:** Then that's enough.
+**TORREN:** No.
 
-**CYANIS:** For now.
+A beat.
 
-**Objective:** Follow the newly accessible route.
+**TORREN:** But it goes somewhere.
 
-Control returns. Beat 8 does not reveal the secret passage itself; exploration beyond the boss carries the party into Beat 9.
+**CYANIS:** Strong standard.
 
----
+**TORREN:** Been working so far.
 
-## Natural-turn audit note
+Maevra starts toward the crossing.
 
-This scene is intentionally terse. Immediate creature threat, battle threshold, post-fight headcount, and route re-evaluation all benefit from short practical turns. Nobody has enough knowledge to justify a longer explanation, and expanding the exchange would slow boss pacing. No dialogue change was required.
+**MAEVRA:** Then let's keep abusing it.
+
+The group moves on.
+
+### [GAMEPLAY HANDOFF]
+
+Player control returns.
+
+Known:
+- the creature blocking the chamber has been defeated;
+- the route across the chamber is now usable;
+- Maevra remains uninjured enough to continue traveling but never participated in combat;
+- the party still does not know exactly where the deeper route leads;
+- no new Ancient lore is revealed by the victory itself;
+- the secret passage has not yet been discovered.
+**Objective: Follow the newly accessible route.**
+
+Next mandatory beat:
+**Secret Passage Discovery**
 
 ---
 
 ## Beat 9
 
 **Atomic source:** `BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `cb379b12d83a17ca3afb63e6b563b99606e4c1f273bc63e1dd1e89561b2353e3`
+**Source SHA-256:** `212244e6300c68a06a3ff653676136f9ea566a7bb581ccfd2e910e8c12dc1ae9`
 
 # Chapter 2 — Beat 9 — Secret Passage Discovery
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN AUDITED / MOSTLY TERSE  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 9 is a route payoff, not another lore beat. The concealed access belongs to the Ancient structure and leads directly into the Old Bastion's reused lower foundations.
+### [GAMEPLAY — POST-LEVIATHAN ROUTE]
 
----
+Player control is active.
 
-### [THE CLOSED FACE]
+After a short stretch beyond the Leviathan chamber, the Ancient route narrows where later construction presses against the older structure.
 
-After a short post-boss exploration stretch, the Ancient route narrows near a section where later construction presses against the older structure.
+There is no additional lore reveal before the passage discovery.
 
-Torren stops at what initially appears to be a solid wall.
+### [STORY TRIGGER — THE CLOSED FACE]
+
+Torren stops at what initially reads as a solid wall.
 
 **TORREN:** Wait.
 
-Cyanis stops.
+Cyanis stops with him.
 
-**CYANIS:** What?
+**CYANIS:** What've you got?
 
-Torren moves closer to the wall.
+Torren steps closer.
 
 **TORREN:** Air.
 
-Ilyra pauses and feels for it.
+Ilyra comes up beside him and feels along the stone.
 
-**ILYRA:** He's right. Something's moving through that face.
+**ILYRA:** Yeah.
 
-Maevra looks at the apparent wall.
+Maevra looks at the wall.
 
-**MAEVRA:** Through solid stone?
+**MAEVRA:** Through that?
 
-Torren checks the joins and edges.
+Torren traces one edge with his hand.
 
-**TORREN:** Not solid. Supposed to look solid. There's a concealed join here and another lower down.
+**TORREN:** Not through it. Around it. Join here.
+
+He crouches and checks lower.
+
+**TORREN:** Another one down there.
+
+Cyanis looks over the apparently solid face.
+
+**CYANIS:** So it's a door pretending not to be one.
+
+**TORREN:** Pretty much.
 
 **CYANIS:** Can you open it?
 
-Torren keeps working the edge rather than answering immediately.
+Torren keeps working instead of answering immediately.
 
-**TORREN:** Think so. Give me a minute before anybody helps.
+**TORREN:** Think so.
 
-**MAEVRA:** That's almost optimism.
+A beat.
 
-**TORREN:** Don't make it weird.
+**TORREN:** Give me a minute before anybody gets helpful.
 
-The exact release interaction belongs to area implementation. Torren finds/uses the surviving Ancient-side mechanism and the concealed access shifts open.
+Cyanis takes one step back.
 
----
+**CYANIS:** Happily.
 
-### [FORT STONE]
+Ilyra does the same.
 
-The space beyond is short. Ancient construction gives way almost immediately to much newer masonry and reinforcement built against/over it.
+**ILYRA:** I was going to watch.
 
-Torren studies the transition.
+**TORREN:** That's allowed.
 
-**TORREN:** There. Fort work. Newer reinforcement built straight against the Ancient structure.
+Maevra folds her good arm.
 
-**MAEVRA:** Old Bastion?
+**MAEVRA:** Generous.
 
-Torren checks the construction again.
+Torren finds the surviving release.
 
-**TORREN:** Has to be, unless somebody built another military fort directly on top of the route we're using.
+The concealed face shifts open.
 
-**CYANIS:** So the elder's maybe worked.
+For one second, nobody says anything.
 
-**TORREN:** Looks like it.
+### [THE OTHER SIDE]
 
-**CYANIS:** I'll take it.
+The passage beyond is short.
+
+Ancient construction gives way almost immediately to newer masonry and reinforcement built directly against it.
+
+Torren looks at the transition.
+
+**TORREN:** Fort work.
+
+Maevra steps closer.
+
+**MAEVRA:** Bastion?
+
+Torren checks the stone and the direction.
+
+**TORREN:** Has to be. Unless somebody built another fort directly on top of the route we were trying to reach.
+
+Cyanis looks through the opening.
+
+**CYANIS:** I'll take the unlikely coincidence.
+
+Torren gives him a look.
+
+**TORREN:** That's not what I said.
+
+**CYANIS:** Close enough.
 
 Ilyra lifts a hand.
 
@@ -1213,405 +1212,516 @@ Ilyra lifts a hand.
 
 Everyone stops.
 
-From somewhere immediately beyond the short passage comes a faint human voice, then a cough and small movement against metal or stone.
+From somewhere beyond the short passage comes a faint voice.
+
+Then a cough.
+
+Then the small metallic sound of somebody shifting against a barrier.
+
+The mood changes immediately.
 
 Cyanis looks toward the sound.
 
 **CYANIS:** People.
 
+Maevra listens.
+
 **MAEVRA:** Close.
 
-Torren checks the immediate way ahead.
+Torren checks the next angle before anyone advances.
 
-**TORREN:** Don't see Host from here. Doesn't mean the next turn is clean.
+**TORREN:** Can't see the next turn.
 
-**CYANIS:** We found them.
+**CYANIS:** Host?
 
-**TORREN:** Found somebody.
+**TORREN:** Can't see the next turn.
 
-A beat.
+Cyanis nods.
 
-**CYANIS:** Right. Somebody.
+**CYANIS:** Right.
 
-Ilyra is already looking toward the galleries beyond.
+Ilyra is already focused on the sound beyond.
 
-**ILYRA:** Let's go.
+**ILYRA:** Whoever's there heard that door.
 
-**Objective:** Enter the Prisoner Galleries.
+Maevra looks to Cyanis, then Torren.
 
-Beat ends as the party moves through the short concealed route. Beat 10 begins with actual prisoner first contact.
+**MAEVRA:** We go careful.
 
----
+Torren nods once.
 
-## Natural-turn / knowledge check
+**TORREN:** Yeah.
 
-- Suspense and discovery remain mostly terse, but Torren now completes his physical route judgments rather than yielding after every clause.
-- The party discovers and opens an Ancient concealed access into newer Old Bastion foundations.
-- Nothing suggests the Black Host built, uses, or knows about the passage.
-- Human sounds immediately beyond establish prisoner presence without revealing totals, records, transfers, Rhazek, or destination information.
-- No story or reveal outcome changed.
+Cyanis looks through the opening again.
+
+**CYANIS:** Let's find out who we found.
+
+The group moves through.
+
+### [GAMEPLAY HANDOFF]
+
+Beat 9 ends as the party enters the Bastion-side passage.
+
+Known:
+- the concealed access belongs to the Ancient structure;
+- it physically connects into newer Old Bastion construction;
+- nothing indicates the Black Host built, uses, or knows about the passage;
+- human voices are immediately nearby;
+- the party has found people, but does not yet know who, how many, or their condition;
+- there is no transfer-records scene here;
+- Rhazek, the holding/transit function, the masked officer, and the prisoners' onward destination remain unrevealed.
+
+**Objective: Enter the Prisoner Galleries.**
+
+Next mandatory beat:
+**Prisoner Galleries / First Contact**
 
 ---
 
 ## Beat 10
 
 **Atomic source:** `BEAT_10_PRISONER_GALLERIES_FIRST_CONTACT_NATURAL_TURN_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `7d6075c2bc9bfe1aa647fd7a81d1a69f95481fea9d577a0cb831384c2ef4e2bd`
+**Source SHA-256:** `5a4fdaea7b8c5147502354d1884694aec0696347264234ed61cf14de2eeb1499`
 
-# Chapter 2 — Beat 10
-# Prisoner Galleries / First Contact
-## CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN RHYTHM + SPOKEN/NARRATION AUDIT
+# Chapter 2 — Beat 10 — Prisoner Galleries / First Contact
 
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 10 makes the kidnapping operation human before it makes it informational. Prisoners are people who want to be rescued, not exposition obstacles.
+### [STORY TRIGGER — FIRST CONTACT]
 
----
+The concealed Ancient route opens into the rear edge of the lower Prisoner Galleries.
 
-### [FIRST CONTACT]
-
-The concealed Ancient route opens into the rear edge of the lower Prisoner Galleries. People are visible behind the Old Bastion's ordinary holding barriers/cell doors.
+People are visible behind ordinary holding barriers and cell doors.
 
 A **DUNMERE WOMAN** nearest the opening hears movement and turns sharply.
 
 **DUNMERE WOMAN:** Quiet.
 
-She sees Cyanis first and stops.
+She sees Cyanis first and freezes.
 
 **DUNMERE WOMAN:** Who the hell are you?
 
-**CYANIS:** Not Host. We're here to get you out.
+**CYANIS:** Not Host.
+
+He looks at the locked doors.
+
+**CYANIS:** We're getting you out.
 
 She looks past him at Ilyra, Torren, and Maevra emerging from a wall that should not open.
 
-**DUNMERE WOMAN:** Then explain the wall later and get the fucking doors open now.
+**DUNMERE WOMAN:** Then explain the wall later.
 
-**CYANIS:** Works for me.
+She grips the bars.
 
-From farther along the gallery, an injured **WOUNDED SOLDIER** speaks quietly.
+**DUNMERE WOMAN:** Doors first.
 
-**WOUNDED SOLDIER:** Gallery watch has the keys. Around the bend. Usually two down here, more above. Shifts change around meals and whatever command has them doing upstairs, so I can't promise who is there right now.
+**CYANIS:** Agreed.
 
-Torren listens to the limits as much as the information.
+Farther down the gallery, an injured **WOUNDED SOLDIER** speaks from another cell.
 
-**TORREN:** That's enough. You don't see the whole route from the cell; don't guess the rest for us.
+**WOUNDED SOLDIER:** Gallery watch has the keys. Around the bend. Usually two down here. Could be more with the alarm.
 
-The soldier nods.
+Torren looks toward the indicated turn.
 
-Ilyra notices the injury but does not turn first contact into forced treatment.
+**TORREN:** Anything past that you actually know?
 
-**ILYRA:** When we get these doors open, can I look at that?
+The soldier shakes his head.
+
+**WOUNDED SOLDIER:** Not from in here.
+
+**TORREN:** Good enough.
+
+Ilyra notices the way the soldier is holding one side.
+
+**ILYRA:** When the door's open, can I look at that?
+
+The soldier looks at her.
 
 **WOUNDED SOLDIER:** Please.
 
+Cyanis looks toward the bend.
+
 **CYANIS:** Keys first.
 
-**Objective:** Secure the local Prisoner Galleries and obtain the gallery keys.
+### [GAMEPLAY — SECURE THE LOCAL GALLERY]
 
-Control returns for a short local gameplay section. Black Host soldiers may be encountered under ordinary encounter rules. No records, manifests, transfer totals, or destination documents are found. Once the gallery watch is secured, the party obtains the ordinary keys used for this local holding section.
+Player control returns for a short local gameplay section.
 
----
+The party secures the nearby gallery watch and obtains the ordinary keys used for this holding section.
 
-### [OPEN THE CELLS]
+No transfer records, manifests, exact totals, destination documents, or convenient written explanations are found.
 
-The party returns and opens the local holding doors.
+### [STORY TRIGGER — OPEN THE CELLS]
 
-The Dunmere woman steps out first, then immediately turns to help another captive. Ilyra goes to the wounded soldier.
+The party returns.
+
+The cells open.
+
+The Dunmere woman comes out first, then immediately turns back to help another captive through the door.
+
+**DUNMERE WOMAN:** Easy. I've got you.
+
+A **GREENHOLLOW MAN** supports an older prisoner from another cell.
+
+Maevra looks over the group once everyone is moving.
+
+**MAEVRA:** If you can stand on your own, make room for someone who can't. Pair up before anybody starts wandering.
+
+People begin doing exactly that.
+
+Ilyra kneels beside the wounded soldier.
 
 **ILYRA:** Still all right with me checking it?
 
 **WOUNDED SOLDIER:** Yes.
 
-Ilyra examines the injury without turning the scene into a full treatment sequence.
-
-Maevra helps the freed prisoners organize themselves around people who need support.
-
-**MAEVRA:** If you can stand without help, make room for someone who can't. If somebody beside you needs an arm, give them one. We don't need a parade; we need everybody accounted for.
-
-A **GREENHOLLOW MAN** is already helping an older prisoner.
-
-**GREENHOLLOW MAN:** Here. Take my shoulder.
+She examines the injury briefly.
 
 Cyanis looks across the freed group.
 
-**CYANIS:** Is this everyone they're holding here?
+**CYANIS:** Is this everyone they brought here?
 
-The Dunmere woman shakes her head.
+The Dunmere woman answers before anyone else can.
 
-**DUNMERE WOMAN:** Everyone here now, maybe. Not everyone they've brought through. Groups leave the galleries on different days, different sizes. Once they go up through the fort, they don't come back down where we can see them.
+**DUNMERE WOMAN:** Everyone here now, maybe.
 
 A beat.
 
-**CYANIS:** Where do they take them after that?
+**DUNMERE WOMAN:** Not everyone they've brought through.
 
-**GREENHOLLOW MAN:** Don't know. Nobody down here does.
+Cyanis looks at her.
 
-The wounded soldier adds only what he personally observed.
+She continues.
 
-**WOUNDED SOLDIER:** I saw groups taken out of the galleries and up through the Bastion. That's it. I never saw where the route ended.
+**DUNMERE WOMAN:** Groups leave. Different days, different sizes. Guards take them upstairs through the fort. Nobody comes back down.
 
-**ILYRA:** Anyone ever return after being moved?
+The Greenhollow man shakes his head.
 
-**DUNMERE WOMAN:** No.
+**GREENHOLLOW MAN:** We never find out where they went.
 
-Silence for a moment.
+The wounded soldier adds:
 
-Maevra looks toward the upper Bastion route.
+**WOUNDED SOLDIER:** I've seen them moved out of the galleries. That's all I can swear to.
 
-**MAEVRA:** Transit point.
+Torren says nothing. There is nothing to improve in that answer.
 
-Nobody asks the prisoners to manufacture an onward destination they do not know.
+Cyanis looks toward the upper Bastion route.
 
----
-
-### [WHO COMMANDS THE BASTION]
-
-**CYANIS:** Who runs the Bastion?
+**CYANIS:** Who gives the orders here?
 
 The wounded soldier answers immediately.
 
-**WOUNDED SOLDIER:** Rhazek. I've seen him down here twice. Guards call him Commander and report to him when he comes through, so I'm not repeating a rumor.
+**WOUNDED SOLDIER:** Commander Rhazek.
 
-Cyanis's expression changes.
+That lands.
 
-**CYANIS:** Commander Rhazek.
+Maevra looks at him.
 
-Maevra looks toward the route above.
+**MAEVRA:** You're sure?
 
-**MAEVRA:** Then the gallery guards aren't the job.
+**WOUNDED SOLDIER:** Seen him down here twice. Guards report to him when he comes through.
 
 Torren exhales through his nose.
 
 **TORREN:** Shit.
 
-No deeper Black Host purpose is inferred from the name alone.
+Cyanis looks back toward the prisoners.
 
----
+**CYANIS:** All right.
 
-### [GETTING THEM OUT]
+No one turns Rhazek's name into a speech.
 
-The Dunmere woman looks toward the concealed route.
+### [THE EXIT PROBLEM]
 
-**DUNMERE WOMAN:** That's how you came in?
+The Dunmere woman looks toward the concealed opening the party used.
+
+**DUNMERE WOMAN:** That's your way in?
 
 **CYANIS:** Yeah.
 
-She looks at the wounded soldier and the weakened captives.
+She looks at the injured and weakened people around her.
 
-**DUNMERE WOMAN:** Then we're not all making that route. Not through whatever soaked you four on the way here.
+Then at the party's soaked clothes.
 
-Ilyra finishes the immediate examination.
+**DUNMERE WOMAN:** We're not all making that.
 
-**ILYRA:** No. Some of these people need a maintained path, not a flooded ruin and a boss chamber.
+Ilyra finishes the wounded soldier's immediate assessment.
 
-Cyanis looks to Torren.
+**ILYRA:** No.
 
-**CYANIS:** Bastion-side exit?
+She looks across the group.
 
-**TORREN:** Has to be one if they bring prisoners in and move them out in groups. It'll be controlled by the Host.
+**ILYRA:** Some could. Some shouldn't. A few absolutely shouldn't.
 
-**MAEVRA:** Then that's the problem we solve next.
+The Dunmere woman nods.
 
-Cyanis looks back at the prisoners.
+No argument is needed.
 
-**CYANIS:** Nobody goes back through the Archive. We put you somewhere defensible down here, find the proper exit, make it safe, and come back for everyone.
+Cyanis looks at Torren.
+
+**CYANIS:** Bastion has a real way out.
+
+**TORREN:** Has to. They're moving groups through it.
+
+**MAEVRA:** Which means the Host controls it.
+
+Cyanis looks toward the route upward.
+
+Then back at the prisoners.
+
+**CYANIS:** We keep you down here somewhere we can defend. We take the proper exit from them. Then we come back.
 
 The Dunmere woman studies him.
 
-**DUNMERE WOMAN:** You'd better.
+**DUNMERE WOMAN:** You come back.
 
-**CYANIS:** We will.
+It is not a question.
 
-**Objective:** Move the freed prisoners into a defensible lower safe area.
+Cyanis meets her eyes.
 
----
+**CYANIS:** Yeah.
 
-## Audit check
+A beat.
 
-- Prisoners give complete first-person accounts and their knowledge stays bounded.
-- Once the witnesses establish that groups are moved upward and never return, the party no longer repeats `this isn't where the operation ends / transit point / we still don't know the destination` as three separate summary lines.
-- Rhazek's identification now changes the party's next decision instead of triggering another spoken explanation that the kidnapping policy is organized; Beat 13 later provides direct confirmation from Rhazek himself.
-- The concealed Archive route remains unsuitable for mass evacuation.
-- No transfer manifest, exact totals, masked-officer information, destination reveal, or future story information is added.
+**CYANIS:** We come back.
+
+### [GAMEPLAY HANDOFF]
+
+The party begins moving the freed prisoners toward a defensible lower safe area.
+
+Known:
+- the current prisoners want rescue and cooperate with it;
+- the local gallery has been opened;
+- captives have been moved out of the galleries in earlier groups;
+- those earlier groups never returned to the prisoners' view;
+- no current prisoner knows the onward destination;
+- Commander Rhazek is credibly identified as the officer commanding the Old Bastion;
+- the concealed Archive route is unsuitable for evacuating the full mixed group;
+- the maintained Bastion exit must be taken from the Black Host;
+- the party has explicitly committed to returning for the prisoners.
+
+**Objective: Establish a defensible lower safe area.**
+
+Next mandatory beat:
+**Prisoner Safe Area / Exit Problem**
 
 ---
 
 ## Beat 11
 
 **Atomic source:** `BEAT_11_PRISONER_SAFE_AREA_EXIT_PROBLEM_NATURAL_TURN_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `79aa91f8ae11e6b92fbd26acd521b12c02235b633bad700eae433217cd3c7a21`
+**Source SHA-256:** `e87652e2ff0466af94ebbffa885f8e232fb8e5134846af5f47d97c6d7dcc7505`
 
-# Chapter 2 — Beat 11
-# Prisoner Safe Area / Exit Problem
-## CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN RHYTHM PASS
+# Chapter 2 — Beat 11 — Prisoner Safe Area / Exit Problem
 
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 11 is a brief consolidation-and-decision beat. The prisoners are already free from the local cells; nobody attempts to evacuate them through the Archive.
+### [STORY TRIGGER — LOWER SAFE AREA]
 
----
+The freed prisoners settle into a cleared lower service/watch area beside the secured galleries.
 
-### [A PLACE TO HOLD]
+It has limited approaches and enough room for injured or weakened people to sit or lie down.
 
-The freed group settles into a cleared lower service/watch area adjacent to the secured galleries. It has limited approaches and enough room for weakened prisoners to sit or lie down.
+The prisoners are already helping one another into place. The party does not assign every task.
 
-Maevra takes in the approaches.
+Maevra looks over the approaches.
 
-**MAEVRA:** This works. Two Bastion-side approaches, enough room to keep the injured out of the corridor, and we can fall back into the secured galleries if somebody comes down in force.
+**MAEVRA:** This'll hold better than the gallery corridor. Two ways in from the Bastion side. If either one goes bad, everybody falls back through that door.
 
-Torren checks the nearest corridor.
+She indicates the secured gallery entrance behind them.
 
-**TORREN:** Better than six ways in.
+The **GREENHOLLOW MAN** looks toward one approach.
 
-The **GREENHOLLOW MAN** helps an older prisoner sit, then looks toward one of the approaches.
+**GREENHOLLOW MAN:** I can watch that side.
 
-**GREENHOLLOW MAN:** I can watch that one.
+**MAEVRA:** Watch it. Don't follow anybody out.
 
-**MAEVRA:** Watch it. Don't chase anybody into the hall. If you see Host, you tell the room and come back inside.
+**GREENHOLLOW MAN:** Wasn't planning to.
 
-**GREENHOLLOW MAN:** Wasn't planning to be heroic.
+The wounded soldier shifts where he is sitting.
 
-The wounded soldier shifts where Ilyra left him.
-
-**WOUNDED SOLDIER:** I can take the other corridor sitting down.
+**WOUNDED SOLDIER:** I can see the other one from here.
 
 Ilyra looks at him.
 
-**ILYRA:** Sitting down is the important part. If that wound opens again, the corridor stops being your problem.
+**ILYRA:** From there is fine.
 
-**WOUNDED SOLDIER:** Generous.
+She points to the dressing.
 
-**ILYRA:** I'm capable of worse.
+**ILYRA:** If that starts bleeding again, pressure and stay put.
 
-Around them, the other freed prisoners continue helping each other settle. Nobody waits for the party to assign every task.
+**WOUNDED SOLDIER:** That's the whole medical lecture?
 
----
+**ILYRA:** Do you want the long one?
 
-### [HOW THEY CAME IN]
+**WOUNDED SOLDIER:** No.
 
-Cyanis looks to the Dunmere woman and Greenhollow man.
+**ILYRA:** Good judgment.
 
-**CYANIS:** When they brought you into the Bastion, what route did they use? Start outside.
+The room keeps organizing around them.
 
-**DUNMERE WOMAN:** Main-road side. Gate into a yard, then through the fort and down here. Wide enough for groups, carts if they wanted them. Nothing like the flooded route you came through.
+### [THE REAL WAY OUT]
 
-**GREENHOLLOW MAN:** Same for us. They marched us in together, then split people once we were inside.
+Cyanis looks to the Dunmere woman.
+
+**CYANIS:** When they brought you in, how?
+
+**DUNMERE WOMAN:** Road gate. Into a yard, through the fort, then down. Wide route. Easy enough when you're being marched through it.
+
+The Greenhollow man nods.
+
+**GREENHOLLOW MAN:** Same for us.
 
 Torren looks toward the upper Bastion route.
 
-**TORREN:** Maintained gate, maintained interior path. That's the evacuation route if we can take control of it.
+**TORREN:** Maintained entrance, maintained path. That's how we get everybody out.
 
-Ilyra looks across the injured prisoners.
+The Dunmere woman looks at him.
 
-**ILYRA:** And it's the only route we've heard about that has a chance of getting everybody to daylight without turning the rescue into another endurance test.
+**DUNMERE WOMAN:** Host still owns it.
 
-**WOUNDED SOLDIER:** Host controls it.
+**TORREN:** Yeah.
 
-**CYANIS:** Then we don't have an exit yet.
+Cyanis looks upward.
 
-Maevra looks upward.
+**CYANIS:** Then that's what we take.
 
-**MAEVRA:** And Rhazek controls the Host holding it.
-
-That is the problem in one line; nobody restates it three more ways.
-
----
+No one repeats the logic.
 
 ### [MAEVRA STAYS]
 
-Cyanis looks at Maevra.
+Maevra has already reached the next decision.
 
-**CYANIS:** Maevra—
+**MAEVRA:** I'm staying here.
 
-**MAEVRA:** I'm staying. You need three combat-capable people moving fast upstairs; they need somebody here who can keep this room organized if the Bastion pushes back down. My arm already made the vote easy.
+Cyanis looks at her.
 
-**CYANIS:** I was going to ask.
+**CYANIS:** I figured.
 
-**MAEVRA:** You were going to take too long getting there.
+**MAEVRA:** Good. Saves an argument.
 
-Torren looks around the room.
+She gestures with the splinted arm.
 
-**TORREN:** Better use of her here.
+**MAEVRA:** You three can move fast and fight. I can keep this room from turning into a panic if the fort pushes back down.
 
-**MAEVRA:** Glowing.
+Torren glances around the safe area.
 
-**TORREN:** Accurate.
+**TORREN:** Better use of you here.
 
-Maevra turns back to the prisoners.
+Maevra looks at him.
 
-**MAEVRA:** If Host comes down, we pull into the galleries. Nobody follows them out, nobody leaves alone, and nobody decides a splint makes me decorative.
+**MAEVRA:** You always know exactly how to make support sound flattering.
 
-The Dunmere woman nods.
+**TORREN:** Wasn't trying to.
 
-**DUNMERE WOMAN:** Fine by me.
+**MAEVRA:** I know.
 
-Ilyra gives the wounded soldier one last instruction.
+Ilyra finishes with the wounded soldier and stands.
 
-**ILYRA:** Pressure here if it starts bleeding again. You move only if Maevra says the room has to move.
+**ILYRA:** He stays seated unless the room has to move.
 
-**WOUNDED SOLDIER:** I'm sitting right here.
+**WOUNDED SOLDIER:** Happily.
 
-**MAEVRA:** Good. Then you can complain directly.
+Maevra looks across the freed group.
 
----
+**MAEVRA:** If I say fall back, we fall back together. Nobody runs off alone, nobody chases Host into a corridor, and nobody gets brave because they found a weapon.
 
-### [THE PLAN]
+The Dunmere woman folds her arms.
 
-Cyanis looks across the freed prisoners and speaks loudly enough for the room, not as a speech.
+**DUNMERE WOMAN:** You expecting trouble?
 
-**CYANIS:** We're going up. We take control of the maintained road gate and whatever command layer is keeping it closed. Then we come back down and move everyone out through the fort—not through the Archive.
+**MAEVRA:** I'm expecting a fort.
 
-The Dunmere woman looks toward the ceiling.
+That is enough.
 
-**DUNMERE WOMAN:** And Rhazek?
+### [THE COMMITMENT]
 
-**CYANIS:** If he controls the Bastion, he's part of the job. I'm not promising what shape that takes until we reach him.
+Cyanis looks around the room.
 
-Torren checks his equipment.
+He does not give a speech.
 
-**TORREN:** Quiet while we can. Once the fort knows where we are, that ends.
+**CYANIS:** We're going up. We take the road exit from them, then we come back for all of you.
 
-**ILYRA:** Then use the quiet while it exists.
+The Dunmere woman meets his eyes.
 
-Cyanis looks at both of them, then back to Maevra.
+**DUNMERE WOMAN:** You said that already.
 
-**CYANIS:** We secure the exit. We come back.
+**CYANIS:** I know.
+
+A beat.
+
+**DUNMERE WOMAN:** Good.
+
+Torren checks his gear.
+
+**TORREN:** Quiet's probably about to run out.
+
+Ilyra looks toward the stairs.
+
+**ILYRA:** Then let's not waste what's left of it.
+
+Cyanis looks once at Maevra.
+
+She nods toward the route.
 
 **MAEVRA:** Go.
 
-**Objective:** Ascend the Old Bastion.
+The trio leaves the lower safe area.
 
-Control returns with the commandable party **Cyanis + Ilyra + Torren**. Maevra remains in the lower safe area with the freed prisoners and never becomes a combat unit.
+### [GAMEPLAY HANDOFF]
 
----
+Commandable party:
+**Cyanis + Ilyra + Torren**
 
-## Natural-turn / knowledge check
+Maevra remains with the freed prisoners and never becomes a combat unit.
 
-- Maevra can give a complete safe-area plan instead of distributing it across several short confirmations.
-- Prisoners provide the maintained-gate route as complete remembered experience.
-- Ilyra explains why that route matters for the injured in one practical turn.
-- Maevra's decision to stay is her own complete tactical judgment, not a sequence of other people assigning her a role.
-- Cyanis gives the rescue plan once to the room rather than repeating it in fragments.
-- No story, route, Rhazek, party, or reveal outcome changed.
+Known:
+- the prisoners have a defensible lower holding position;
+- they retain agency inside it and participate in their own defense;
+- the concealed Archive route is not the evacuation route;
+- prisoners were originally brought through a maintained Bastion road gate and interior path;
+- that maintained route is the practical evacuation route if the party can take control of it;
+- the active Black Host command layer still controls the fort above;
+- Maevra remains below to organize the safe area;
+- Cyanis, Ilyra, and Torren are going upward to break that control;
+- the party has repeated its promise to return only because a prisoner deliberately calls back to the promise from Beat 10, not because the script needs another mission summary.
+
+**Objective: Ascend the Old Bastion.**
+
+Next mandatory beat:
+**Bastion Command Ascent**
 
 ---
 
 ## Beat 12
 
 **Atomic source:** `BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `b01a11f12e87a4a999412fbcb4f2fc3c871d0486a59eeb5bbf842567496d48cf`
+**Source SHA-256:** `262f0841733ead8b3b9eed502edf0dcb7aa2c1f61c7e4e47c629936d621c5906`
 
 # Chapter 2 — Beat 12 — Bastion Command Ascent
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NOT LOCKED  
-**Owning cumulative manuscript:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 12 is exploration/gameplay-first. Maevra remains with the freed prisoners in the lower safe area. The commandable party is **Cyanis + Ilyra + Torren**.
+### [GAMEPLAY — ACTIVE FORT]
 
-## [ACTIVE FORT]
+Cyanis, Ilyra, and Torren leave the lower safe area and begin ascending through the working levels of the Old Bastion.
 
-The trio leaves the secured lower galleries and begins ascending into the working levels of the Old Bastion.
+Maevra remains below with the freed prisoners.
+
+This is not an abandoned enemy dungeon.
+
+The fort is active:
+- messengers move between posts;
+- guards rotate through maintained checkpoints;
+- supplies are stacked for actual use;
+- weapons and equipment are being maintained;
+- wounded Black Host soldiers are receiving legitimate care;
+- personnel move toward the road gate, yard, stairs, and command spaces according to current orders.
+
+The trio remains unnoticed at first.
 
 At the first active service junction, Torren raises a hand.
 
@@ -1619,220 +1729,271 @@ At the first active service junction, Torren raises a hand.
 
 They stop.
 
-Boots cross somewhere ahead. Voices follow.
+Boots cross ahead.
 
-A Black Host runner passes through the next corridor without seeing them.
+A **HOST RUNNER** passes through the next corridor without seeing them.
 
 **HOST RUNNER:** West watch wants another pair at the road gate.
 
-An unseen soldier answers from farther inside.
+An unseen soldier answers.
 
-**HOST SOLDIER:** After relief. Tell them five minutes.
+**HOST SOLDIER:** After relief. Five minutes.
 
-The runner moves on.
+**HOST RUNNER:** Tell them themselves.
 
-Torren waits until the corridor clears.
+The runner keeps moving.
 
-**CYANIS:** They're settled in.
+Torren waits.
 
-**TORREN:** Yeah.
+Through an open side doorway, Ilyra catches sight of a Black Host medic replacing a dressing on a wounded soldier.
 
-Ilyra glances through an open side doorway.
+She looks at Torren.
 
-Inside, a Black Host medic is changing the dressing on a wounded soldier while another rests nearby. Neither is part of the active patrol route.
+He has already found another route.
 
-**ILYRA:** Infirmary.
+**TORREN:** Around.
 
-Torren checks the alternate corridor.
+**ILYRA:** Good.
 
-**TORREN:** Can go around.
+Cyanis looks once through the doorway, then follows.
 
-**CYANIS:** Go around.
+Nobody needs a discussion about whether wounded people receiving care are combat targets.
 
-Ilyra looks at him.
+### [GAMEPLAY HANDOFF]
 
-**ILYRA:** Wasn't arguing.
+Player control resumes.
 
-**CYANIS:** I know.
+The player moves through a coherent, functioning military position.
 
-Torren gestures them forward.
+Ordinary armed Black Host soldiers encountered in active defense remain enemies under encounter authority.
 
-**TORREN:** Now.
+Incapacitated wounded, noncombat medical personnel, and support personnel who are not participating in combat are not converted into targets merely because they belong to the Black Host.
 
-Control returns.
+No transfer manifest, exact captive total, destination ledger, or replacement for the retired records beat appears.
 
-The player advances through an active military fort: maintained supply rooms, ration stores, weapon/equipment spaces, quarters, messenger routes, checkpoints, guard posts, prisoner-handling support spaces, and connections toward the road-side yard and gate. These spaces should look used and functional rather than staged for the heroes.
+### [STORY TRIGGER — THE ALARM]
 
-Ordinary Black Host soldiers encountered during traversal remain normal enemies under encounter authority. Legitimate medical personnel and incapacitated wounded are not treated as combat targets merely because they are Black Host.
+After a meaningful stretch of ascent, the trio reaches an occupied checkpoint.
 
-No transfer manifest, exact captive total, onward destination record, or substitute for the retired records beat appears.
-
-## [THE BASTION WAKES]
-
-After a meaningful gameplay ascent, the trio reaches an occupied checkpoint where concealment finally fails.
-
-A sentry catches sight of them.
+A sentry sees them.
 
 **HOST SENTRY:** Contact! Lower ascent!
 
-The sentry immediately raises the alarm rather than delivering a villain speech.
+The sentry raises the alarm immediately.
 
-A shouted chain of orders carries upward through the fort.
+No speech. No challenge ritual.
 
-**HOST VOICE:** Seal the upper stair! Runner to command!
+Orders carry through the fort.
 
-Movement changes around them. Doors shut. Boots converge on useful defensive positions rather than appearing from nowhere.
+**HOST VOICE:** Seal the upper stair!
 
-Cyanis looks toward the route ahead.
+Another voice farther away:
+
+**HOST VOICE:** Runner to command!
+
+Doors close.
+
+Boots move toward defensible positions.
+
+Cyanis looks ahead.
 
 **CYANIS:** There goes quiet.
 
-**TORREN:** Lasted longer than I expected.
+Torren draws.
 
-**ILYRA:** Compliment?
+**TORREN:** Had a good run.
 
-Torren starts moving.
+**ILYRA:** I was getting attached.
 
-**TORREN:** Maybe.
+**TORREN:** Mistake.
 
-**CYANIS:** I'll take it.
+Cyanis starts forward.
 
-Control returns in an alert-state section of the Bastion.
+**CYANIS:** Grieve later.
 
-The Host response is organized but finite. Existing soldiers reposition toward chokepoints, upper stairs, and command access. The fort does not generate endless reinforcements. Support personnel move out of the fighting where plausible; wounded soldiers are not used as shields or disposable obstacles.
+The trio pushes through.
 
-## [THE RESPONSE]
+### [GAMEPLAY — ALERT STATE]
 
-After the trio pushes through another section, they pause behind cover while Host movement shifts above them.
+The Old Bastion shifts into an organized alert state.
+
+The response is finite and geographically coherent:
+- guards abandon exposed positions for chokepoints;
+- upper routes are reinforced;
+- runners carry orders;
+- support personnel clear active fighting areas;
+- wounded are moved where practical;
+- nobody materializes as an endless reinforcement stream.
+
+The trio fights upward through that response.
+
+### [STORY TRIGGER — RESPONSE SHIFT]
+
+After another section, the trio pauses briefly behind cover while Black Host movement changes above them.
 
 Torren listens.
 
 **TORREN:** They're pulling inward.
 
-**ILYRA:** Toward us?
+Cyanis waits for the rest.
 
-**TORREN:** Toward what matters.
+Torren gives it.
 
-Cyanis looks upward.
+**TORREN:** Command stair. Gate controls. Anything they can't afford to lose.
 
-**CYANIS:** Command.
+**CYANIS:** Same direction for us.
 
-**TORREN:** And the gate controls.
+**TORREN:** Mostly.
 
-**CYANIS:** Same direction?
+**CYANIS:** I hate that word.
 
-**TORREN:** For now.
+**TORREN:** You've survived it so far.
 
-**CYANIS:** Beautiful.
-
-**TORREN:** Don't get attached.
-
-Another order carries from above.
+Ilyra listens to another shouted order above.
 
 **HOST VOICE:** Hold the command stair! Lower levels stay contained!
 
-Ilyra looks at Torren.
+She looks toward the sound.
 
-**ILYRA:** They know we're headed up.
+**ILYRA:** They still think the problem started down here.
 
-**TORREN:** They know where they'd stop us.
+Torren nods.
 
-Cyanis catches the implication.
+**TORREN:** Good.
 
-**CYANIS:** So they still don't know how we got in.
+Cyanis looks back the way they came.
 
-**TORREN:** Looks that way.
+**CYANIS:** Keep them looking up.
 
-**CYANIS:** Good. Keep it that way.
-
-**ILYRA:** Then we don't give them time to search downward.
+**TORREN:** That's the idea.
 
 Torren points toward a side connection.
 
 **TORREN:** Left.
 
-**CYANIS:** Why?
+Cyanis moves without asking why.
 
-**TORREN:** Supply access. Fewer chokepoints.
+Ilyra notices.
 
-Ilyra is already moving.
+**ILYRA:** Trainable.
 
-**ILYRA:** Lead.
+Cyanis gives her a look while moving.
 
-**Objective:** Reach the Bastion command level.
+**CYANIS:** You too?
 
-Gameplay resumes. The ascent should feel like fighting through a coherent defensive response, not clearing unrelated dungeon rooms.
+**ILYRA:** It's spreading.
 
-## [COMMAND LEVEL]
+Torren almost smiles.
 
-After the trio breaks through the final upper checkpoint, the immediate noise falls behind them. The command-level corridor is more controlled and purpose-built than the lower service spaces.
+The moment ends as they re-enter the fight.
 
-Torren checks the route ahead.
+### [GAMEPLAY — FINAL ASCENT]
+
+The trio continues upward.
+
+The Bastion response gets tighter, not larger.
+
+The closer they get to command, the more deliberate the defenses become.
+
+They pass evidence of ordinary military function even under alarm:
+- a runner redirecting personnel instead of panicking;
+- wounded being moved away from an exposed corridor;
+- a quartermaster ordering supplies abandoned rather than soldiers dying to protect crates;
+- gate personnel being told to hold their post rather than chase intruders through the interior.
+
+This is a system under pressure, not a collection of disposable enemies.
+
+### [STORY TRIGGER — COMMAND LEVEL]
+
+The trio breaks through the final upper checkpoint.
+
+The immediate noise falls behind them.
+
+The corridor ahead is more controlled and purpose-built.
+
+Torren checks the layout once.
 
 **TORREN:** Command level.
 
-**CYANIS:** Rhazek.
+Cyanis catches his breath.
 
-**ILYRA:** Assume he knows we're coming.
+**CYANIS:** Finally.
 
-**TORREN:** Knows somebody is.
+Ilyra looks toward the next secured doorway.
 
-Cyanis looks back down the route they fought through, then toward the command rooms.
+**ILYRA:** He knows we're here by now.
 
-**CYANIS:** We finish this, secure the gate, go back for everyone.
+**TORREN:** Knows someone's here.
 
-**ILYRA:** Yes.
+Cyanis looks at the door.
 
-Torren looks toward the next door.
+**CYANIS:** Good enough.
 
-**TORREN:** There.
+Torren gives him a sideways glance.
 
-Cyanis steps toward it.
+**TORREN:** Careful. That's mine.
 
-**CYANIS:** Let's go.
+Cyanis almost smiles.
 
-**Objective:** Confront Commander Rhazek.
+**CYANIS:** Borrowing it.
 
-Beat 12 ends **before** the command-room scene begins. Beat 13 opens with Rhazek already engaged in command work and the unnamed masked officer already reporting to him.
+Ilyra steps toward the door.
 
-## Beat-12 knowledge checkpoint
-- The trio has confirmed the Old Bastion is a fully functioning Black Host military installation with real staffing, logistics, messenger traffic, guard routines, support spaces, and medical care.
-- The Black Host maintains and actively controls the road-side gate/yard the prisoners need for evacuation.
-- The trio does not attack incapacitated wounded or medical personnel simply because they are Black Host.
-- No transfer ledger, exact total, destination record, or retired records-beat substitute appears.
-- The trio's covert advantage lasts through the early ascent, then an ordinary sentry/checkpoint raises the alarm.
-- The Host response becomes organized but remains finite and geographically coherent.
-- The Host knows intruders are moving upward but **does not know about the Ancient secret passage or exactly how the trio entered**.
-- Cyanis, Ilyra, and Torren understand that keeping pressure upward helps protect the hidden lower route and prevents the Host from having time to investigate downward.
-- The trio reaches the command level with the immediate goal unchanged: break Rhazek's local control, secure the maintained road exit, then return for Maevra and the freed prisoners.
+**ILYRA:** Argue ownership later.
+
+The trio moves in.
+
+### [GAMEPLAY HANDOFF]
+
+Beat 12 ends before the command-room scene begins.
+
+Known:
+- the Old Bastion is a functioning Black Host military installation;
+- the Black Host maintains real guard routines, logistics, messenger traffic, supply spaces, support roles, and medical care;
+- the road-side gate and yard remain under organized Black Host control;
+- the trio does not target incapacitated wounded or noncombat medical personnel merely for being Black Host;
+- the covert advantage has ended;
+- the Host response is organized but finite;
+- the Host knows intruders are moving upward but does **not** know about the Ancient secret passage or exactly how the trio entered;
+- the trio has deliberately kept pressure moving upward rather than giving the fort time to investigate the lower route;
 - Rhazek and the masked officer remain unseen until Beat 13.
+
+**Objective: Confront Commander Rhazek.**
+
+Next mandatory beat:
+**Rhazek / Masked Officer**
 
 ---
 
 ## Beat 13
 
 **Atomic source:** `BEAT_13_RHAZEK_MASKED_OFFICER_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `9a24d4073959fc309ef6a3603b1f417e5d216b2d0fc5f05f822569b34539df26`
+**Source SHA-256:** `6a3ddbfca1641ab504de0ad48a53e640dac2415b144e01bbbb2d47709cccbda9`
 
 # Chapter 2 — Beat 13 — Rhazek / Masked Officer
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — SPOKEN/NARRATION AUDIT CURRENT — NOT LOCKED  
-**Owning cumulative manuscript:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`  
-**Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
-**Writer-facing identity note:** the unnamed masked officer in this scene is **Seyrik Rell**. The player-facing scene does not name him, identify him, or frame him as a future party member.
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
+**Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 13 begins immediately after Cyanis, Ilyra, and Torren reach the Old Bastion command level. Maevra remains below with the freed prisoners.
+### [STORY TRIGGER — COMMAND ROOM]
 
-Hard scene rule:
-> **Rhazek is already commanding the Bastion when the party arrives. The masked officer is already reporting to him. Neither character is staged as though waiting for the heroes to enter.**
+Cyanis, Ilyra, and Torren reach the Old Bastion command level.
 
----
+Maevra remains below with the freed prisoners.
 
-## [REPORT IN PROGRESS]
+The command room is active.
 
-The command room is active rather than ceremonial. Rhazek is working from current fort information when Cyanis, Ilyra, and Torren reach the entrance.
+Commander Rhazek is not waiting for the heroes. He is already working from current fort reports.
 
-An unnamed **MASKED OFFICER** is already giving him a concise report.
+An unnamed **MASKED OFFICER** is standing at the command table with him.
+
+Writer-facing truth:
+**the masked officer is Seyrik Rell.**
+
+Player-facing:
+he is never named, identified, or framed as a future party member.
+
+The trio arrives while the report is already in progress.
 
 **MASKED OFFICER:** South stair is lost. Upper east still holds. Road gate is secure.
 
@@ -1846,13 +2007,15 @@ Rhazek considers that for only a moment.
 
 **MASKED OFFICER:** Understood.
 
-Cyanis, Ilyra, and Torren enter before the report can continue.
+Cyanis, Ilyra, and Torren enter.
 
 Rhazek looks at them.
 
-He does not reach for theatrics or pretend surprise.
+No theatrical surprise.
 
-**RHAZEK:** So that's what reached my command stair.
+No challenge speech.
+
+**RHAZEK:** There you are.
 
 Cyanis stops at a practical fighting distance.
 
@@ -1864,23 +2027,19 @@ Rhazek studies him briefly.
 
 **CYANIS:** Your prisoners do.
 
-A beat.
+Rhazek does not correct the word.
 
-The masked officer's attention shifts to the trio. He remains ready, but does not move to begin a separate confrontation.
+**RHAZEK:** I would expect them to.
 
-Torren takes in the room, the exits, and the officer without staring at him.
+The masked officer shifts his attention to the trio.
 
-**TORREN:** Gate's still held.
+He remains ready but does not move to begin a separate confrontation.
 
-**ILYRA:** Then we're not finished.
+Torren takes in the exits, the gate-side route, and the second officer.
 
-Rhazek hears both of them.
+He says nothing yet.
 
-**RHAZEK:** No. You're not.
-
----
-
-## [WHO OWNS THE ORDER]
+### [THE ORDER]
 
 Cyanis keeps his attention on Rhazek.
 
@@ -1888,770 +2047,957 @@ Cyanis keeps his attention on Rhazek.
 
 **RHAZEK:** Yes.
 
-The direct answer lands harder than an excuse would have.
-
 **CYANIS:** Your order?
 
 **RHAZEK:** Mine.
 
 A beat.
 
-**RHAZEK:** If you came looking for a guard to blame, don't waste your time. The seizures are authorized here because I authorized them.
+Rhazek does not soften it.
+
+**RHAZEK:** The corridor is under Black Host authority. Movement through it is controlled. Those taken into custody were assigned for transfer.
 
 Ilyra's expression hardens.
 
-**ILYRA:** Some of those people can barely walk.
+**ILYRA:** Assigned.
+
+Rhazek looks at her.
+
+**RHAZEK:** Yes.
+
+**ILYRA:** Some of them can barely walk.
 
 **RHAZEK:** I know.
 
-**ILYRA:** And groups were still being moved out.
+**ILYRA:** And you moved them anyway.
 
-**RHAZEK:** They were never meant to remain here.
+**RHAZEK:** Their condition changes how they are moved. It does not cancel the order.
 
-**CYANIS:** Moved where?
+A quiet beat.
+
+Ilyra looks at him for a second longer.
+
+There is no misunderstanding to clear up.
+
+Cyanis speaks.
+
+**CYANIS:** They didn't agree to any of this.
+
+Rhazek's answer comes without hesitation.
+
+**RHAZEK:** Agreement is not the standard.
+
+That lands.
+
+Cyanis's expression changes.
+
+**CYANIS:** For you.
+
+**RHAZEK:** For a functioning state.
+
+He does not raise his voice.
+
+**RHAZEK:** You keep treating refusal as though it dissolves authority. It does not.
+
+Torren finally speaks.
+
+**TORREN:** Convenient.
 
 Rhazek looks at him.
 
-**RHAZEK:** Not information you need.
+**RHAZEK:** Necessary.
 
-**CYANIS:** You put people in cages. I think we passed "need."
+Torren's face says exactly what he thinks of that.
 
-Rhazek does not rise to the provocation.
+He does not argue the whole political theory of the Black Host in the command room.
 
-**RHAZEK:** You found a holding site and mistook access for authority.
+### [WHERE THE OTHERS WENT]
 
-Torren speaks without taking his eyes off the practical exits.
+Cyanis returns to the immediate point.
 
-**TORREN:** Transit.
+**CYANIS:** Where did you send the earlier groups?
 
-Rhazek gives him nothing more.
+**RHAZEK:** You do not have authority to receive that information.
+
+Cyanis gives a short, humorless laugh.
+
+**CYANIS:** That's your answer?
+
+**RHAZEK:** It is the answer.
+
+**CYANIS:** You put people in cages and move them somewhere they don't want to go.
+**RHAZEK:** Correct.
+
+Another beat.
+
+**RHAZEK:** You object to the policy. That does not give you standing inside my command.
+
+Cyanis looks around the room they fought their way into.
+
+**CYANIS:** I think we're past asking for standing.
+
+Rhazek's eyes narrow slightly.
+
+**RHAZEK:** Yes.
+
+For the first time, there is the faintest edge of professional irritation.
+
+**RHAZEK:** That is becoming obvious.
 
 No one gets the onward destination from him.
 
----
+### [THE MASKED OFFICER LEAVES]
 
-## [THE MASKED OFFICER LEAVES]
+A distant impact carries from elsewhere in the upper Bastion.
 
-A distant impact and shouted order carry from elsewhere in the upper Bastion.
+A shouted report follows.
+
+**HOST VOICE:** West stair falling back!
 
 Rhazek looks to the masked officer.
 
 **RHAZEK:** West stair.
 
-The officer waits for the rest.
+The officer waits for the full order.
 
-**RHAZEK:** Get the wounded clear of the upper corridor. Keep the road gate secured. No one abandons a post to chase intruders through the lower levels.
+**RHAZEK:** Clear the wounded from the upper corridor. Gate stays staffed. No one abandons a post to chase intruders into the lower levels.
 
-**MASKED OFFICER:** Commander.
+**MASKED OFFICER:** Understood.
 
-The masked officer turns toward a separate command-side route.
+The masked officer turns toward the command-side route.
 
-Cyanis shifts half a step, but Rhazek moves his attention—and the immediate confrontation—squarely onto the trio.
+Cyanis shifts half a step.
 
-**RHAZEK:** You came for me. Stay focused.
+Rhazek notices.
 
-The officer exits without a speech, identity reveal, challenge, or fight.
+**RHAZEK:** Leave him.
 
-Torren watches the route close behind him, then looks back to Rhazek.
+Cyanis looks back to Rhazek.
 
-**TORREN:** Gate first after this.
+**RHAZEK:** You came here for command authority. It is here.
 
-**CYANIS:** Yeah.
+The masked officer exits.
 
-Ilyra looks at Rhazek.
+No identity reveal.
 
-**ILYRA:** After this.
+No threat.
 
----
+No speech.
 
-## [NOTHING LEFT TO DISCUSS]
+No fight.
 
-Rhazek finally gives the trio his full attention.
+Torren watches the route close behind him.
 
-**RHAZEK:** You disrupted my fort. That is not the same as taking it.
+**TORREN:** Gate's still held.
+
+**CYANIS:** I know.
+
+### [AUTHORITY]
+
+Rhazek gives the trio his full attention.
+
+**RHAZEK:** You have disrupted my interior. That is not the same as taking the Bastion.
 
 **CYANIS:** No.
 
-A beat.
+Cyanis looks toward the road-side side of the fort.
 
-**CYANIS:** That's why we're still here.
+**CYANIS:** That's next.
 
-Rhazek studies him.
+Rhazek understands immediately.
 
-**RHAZEK:** The prisoners are not leaving through that gate.
+**RHAZEK:** The detainees are not leaving through that gate.
+
+Ilyra answers before Cyanis does.
 
 **ILYRA:** They are.
 
-**RHAZEK:** Then you intend to take it from me.
+Rhazek looks at her.
 
-Cyanis does not make a speech out of the answer.
+**RHAZEK:** On whose authority?
 
-**CYANIS:** Yeah.
+Ilyra's expression barely changes.
 
-Rhazek's posture changes from command conversation to open confrontation.
+**ILYRA:** Theirs.
 
-**RHAZEK:** Then there is nothing left to discuss.
+That answer means almost nothing inside Rhazek's framework.
+
+Which is exactly why it matters.
+
+Rhazek looks back to Cyanis.
+
+**RHAZEK:** You intend to substitute your judgment for mine by force.
+
+Cyanis does not pretend otherwise.
+
+**CYANIS:** Here? Yeah.
+
+Rhazek gives a small nod.
+
+Not approval.
+
+Recognition.
+
+**RHAZEK:** Then at least we understand the disagreement.
+
+He shifts fully from command conversation to combat readiness.
+
+**RHAZEK:** There is nothing left to discuss.
 
 Cyanis readies himself.
 
 **CYANIS:** Good.
 
-**Objective:** Defeat Commander Rhazek.
+### [BOSS HANDOFF]
 
-Beat 13 ends here. The actual boss encounter begins in **Beat 14 — Commander Rhazek / Bastion Master**.
+**Objective: Defeat Commander Rhazek.**
 
----
+Beat 13 ends here.
 
-## Beat-13 audit checkpoint
-- The trio finds Rhazek already running the Old Bastion during an active alert rather than waiting theatrically for them.
-- The unnamed masked officer is already reporting on the fort's condition when the party arrives.
-- Player-facing, the officer remains **unnamed, masked, professional, and clearly Black Host-aligned**. No future-party framing occurs.
-- Writer-facing, the masked officer is **Seyrik Rell**.
-- Rhazek directly confirms that the **local kidnapping/seizure policy is his responsibility** and that the Bastion is a holding/transit site, without making Torren and Rhazek re-explain the prisoner testimony to each other.
-- Rhazek no longer recites the player's dungeon progress (`entered through an unknown route / opened galleries / broke command stair`) back to the player. He converts that information into his actual judgment: the fort is disrupted, not yet taken.
-- The masked officer does not fight the party and does not reveal personal history, identity, motives, or the prisoners' onward destination.
-- The party still does not know the onward destination or deeper Black Host purpose.
-- Rhazek orders the masked officer to clear wounded personnel from the upper corridor and keep the road gate secure, giving the officer a practical reason to leave before the boss confrontation.
-- Rhazek remains the immediate obstacle to freeing the prisoners and opening the maintained road exit.
-- Beat 13 ends with the masked officer gone and the Rhazek confrontation fully crystallized, handing directly into Beat 14.
+The boss encounter begins in:
+
+**Beat 14 — Commander Rhazek / Bastion Master**
+
+### [KNOWLEDGE / CHARACTER LOCK]
+
+This scene establishes:
+- Rhazek personally owns the Old Bastion seizure/forced-transfer policy;
+- he does not blame rogue subordinates or higher orders;
+- he sees the Black Host state as legitimately entitled to control civilian movement and impose transfer;
+- he acknowledges that captives may object and may be physically vulnerable without treating either fact as invalidating the policy;
+- his authoritarianism appears through assumed authority, duty, standing, and necessity rather than ranting, slurs, or sadism;
+- he knows the coercion is coercion;
+- he believes it is legitimate;
+- he refuses to reveal the onward destination;
+- the masked officer remains unnamed and unidentified;
+- the masked officer leaves on credible operational orders before the boss fight;
+- the trio still needs the maintained road gate to evacuate the prisoners;
+- Rhazek remains the immediate command obstacle.
+
+No later reveal is exposed.
 
 ---
 
 ## Beat 14
 
 **Atomic source:** `BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `18be5aaaffd26a03f2ae6522e5755822d4040e4171d89dbdf176a38633921ef0`
+**Source SHA-256:** `fcac30a5ae8755d38dc3fe2b4dae3c56f42b76a115125290722f3db4bfe56308`
 
 # Chapter 2 — Beat 14 — Commander Rhazek / Bastion Master
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — SPOKEN/NARRATION + ENSEMBLE CHARACTER-BALANCE PASS CURRENT  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 14 begins immediately after Beat 13. The unnamed masked officer has already left on operational orders and does **not** participate in this encounter. Maevra remains below with the prisoners. Cyanis, Ilyra, and Torren face Commander Rhazek.
+### [BOSS HANDOFF]
 
-Hard story rule:
-> **The party defeats Rhazek and wins the Old Bastion locally. Rhazek survives because he executes a credible military withdrawal after losing control of the fort—not because the story reverses the victory.**
+Beat 14 begins immediately from Beat 13.
 
----
+The unnamed masked officer has already left on Rhazek's operational orders.
 
-## [BOSS HANDOFF]
+Maevra remains below with the freed prisoners.
 
-Rhazek has already ended the conversation.
+Rhazek has ended the conversation.
 
-**RHAZEK:** Then there is nothing left to discuss.
+**RHAZEK:** There is nothing left to discuss.
 
 Cyanis readies himself.
 
 **CYANIS:** Good.
 
-### BOSS — COMMANDER RHAZEK, BASTION MASTER
+### [BOSS — COMMANDER RHAZEK, BASTION MASTER]
 
-**Combat party:** Cyanis / Ilyra / Torren  
-**Maevra:** absent from combat; remains below with the prisoners  
-**Masked officer:** absent  
-**Story-facing encounter structure:** one HP bar unless encounter authority revises it
+Combat party:
+**Cyanis + Ilyra + Torren**
 
-Finite prepared Black Host support may participate if required by encounter design. It must remain finite, ordinary military support rather than endless reinforcements or a hidden second boss.
+Maevra does not participate.
 
-No dialogue or battle event may reveal the prisoners' onward destination, Seyrik's identity, or a deeper Black Host purpose.
+The masked officer does not return.
 
----
+Rhazek fights as the commander of a functioning military position, not as a theatrical duelist.
 
-## [BATTLE CHARACTER]
+Encounter direction:
+- he uses the room and any finite prepared support intelligently;
+- orders are short and specific;
+- he expects soldiers to hold useful positions, not die for spectacle;
+- support comes from the Bastion's existing personnel and never becomes an endless reinforcement stream;
+- no secret transformation, fresh HP form, invulnerability scene, or surprise second boss occurs;
+- when the party wins, the encounter is over.
 
-Rhazek fights as the commander of a functioning position rather than as a theatrical duelist waiting for a heroic showdown.
+Optional battle barks, only if implementation needs them:
 
-Encounter-direction priorities:
-- Rhazek uses the room, prepared troops, and command discipline when available;
-- any support is already part of the Bastion's finite remaining defense;
-- he does not summon infinite soldiers;
-- the masked officer does not return;
-- no secret transformation, fresh HP form, invulnerability scene, or surprise second phase occurs;
-- when the party wins the encounter, the battle is actually over.
+**RHAZEK:** Hold that line.
 
-Optional short battle barks should stay practical and rare.
+**RHAZEK:** Left side, close it.
 
-Examples only if the combat implementation needs them:
+**RHAZEK:** Do not pursue. Hold position.
 
-**RHAZEK:** Hold the line.
+**RHAZEK:** Fall back by section.
 
-**RHAZEK:** Do not break formation.
+The trio's combat barks remain equally sparse.
 
-**CYANIS:** Torren, left.
-
-**TORREN:** Saw it.
-
-**ILYRA:** Cyanis, move.
-
-These are not mandatory timed dialogue beats and should not turn the boss into a continuous conversation.
-
----
-
-## [RHAZEK DEFEATED]
+### [STORY TRIGGER — RHAZEK DEFEATED]
 
 The battle ends.
 
-Rhazek is still alive, but the result is unambiguous. He is wounded, breathing hard, and no longer in a position to continue holding the command room against the trio.
+Rhazek is alive but decisively beaten.
 
-Cyanis remains ready in case he tries.
+He is wounded, breathing hard, and no longer capable of holding the command room against the trio.
 
-Ilyra stays alert rather than automatically converting the standoff into a post-battle medical check.
+Cyanis remains ready.
+
+Ilyra stays alert.
 
 Torren listens to the fort beyond the room.
 
-The organized response they fought through on the way up is no longer rebuilding itself around Rhazek.
+The organized defense they fought through is no longer reforming around Rhazek.
+
+Cyanis looks at him.
 
 **CYANIS:** Done?
 
-Rhazek looks at him.
+Rhazek catches his breath.
 
-**RHAZEK:** Here.
+**RHAZEK:** This room is.
 
-Cyanis's expression tightens slightly.
+Cyanis's expression tightens.
 
-**CYANIS:** Here is what mattered.
+**CYANIS:** That's enough.
 
-Rhazek does not answer immediately.
+A Black Host soldier appears at the command-side entrance.
 
-A Black Host soldier appears at the command-side entrance but does not charge the trio. The soldier is already bloodied from the wider fighting and looks to Rhazek for an order.
+He is bloodied from the wider fighting but still on his feet.
+
+He looks to Rhazek rather than charging the trio.
 
 **HOST SOLDIER:** Commander. East court broke. Lower stair's gone. We can't reform the interior line.
 
-Rhazek takes in the report, the trio, and the condition of the command level.
+Rhazek asks only what still matters.
 
-He makes the military decision quickly.
+**RHAZEK:** Road gate?
 
-**RHAZEK:** Road gate.
+**HOST SOLDIER:** Held.
 
-The soldier waits.
+Rhazek makes the decision immediately.
 
-**RHAZEK:** General withdrawal. Take the wounded first. Anyone still inside falls back with them.
+**RHAZEK:** General withdrawal.
 
-The soldier gives a short acknowledgement and moves.
+The soldier waits for the rest.
+
+**RHAZEK:** Wounded and support personnel first. Rear guard by section. Nobody dies holding rooms we've already lost.
+
+**HOST SOLDIER:** Understood.
+
+The soldier moves to carry the order.
 
 Cyanis keeps his attention on Rhazek.
 
-**CYANIS:** And the prisoners?
+**CYANIS:** And the people downstairs?
 
-**RHAZEK:** You took the galleries. You took the command level. If you can move them, move them.
+Rhazek looks at him.
 
-**CYANIS:** We can.
+**RHAZEK:** Their status has not changed.
 
-Torren looks toward the command-side route.
+Cyanis stares at him.
 
-**TORREN:** Smart.
+**CYANIS:** It has.
 
-Cyanis glances at him.
+**RHAZEK:** You have control of the galleries and enough force to prevent us retaking them during withdrawal.
 
-**TORREN:** Didn't say I liked him.
+A beat.
 
-Rhazek retrieves himself enough to move. He remains visibly affected by the fight; the scene does not erase the defeat because he can still stand.
+**RHAZEK:** That is a change in control. Not in the legitimacy of the order.
 
-Rhazek gives no permission and receives no thanks. He is simply acknowledging a fact he can no longer prevent.
+Ilyra's expression goes still.
 
----
+**ILYRA:** You really believe that.
 
-## [THE WITHDRAWAL]
+Rhazek looks at her.
 
-The remaining Black Host presence does not mount another boss encounter.
+**RHAZEK:** Yes.
 
-Orders carry through the Bastion. Surviving soldiers begin pulling out rather than dying in place. Wounded Black Host personnel are moved with them.
+No hesitation.
 
-The road gate is opened for the withdrawal.
+No hidden apology.
 
-Rhazek leaves with the retreating force through the maintained military exit. He does not teleport, vanish behind smoke, reveal a hidden passage, become invulnerable, or suddenly overpower the trio in a cutscene.
+Torren gives a short, disgusted exhale.
 
-Cyanis takes several steps after him.
+**TORREN:** There it is.
 
-Torren speaks before Cyanis commits to a pursuit outside the fort.
+Rhazek turns his attention back to the withdrawing fort.
+
+He does not ask the party to understand him.
+
+He does not seek absolution.
+
+### [THE WITHDRAWAL]
+
+Orders move through the Old Bastion.
+
+Black Host soldiers begin falling back through the maintained road-side gate.
+
+Wounded personnel are moved with them.
+
+Support staff clear the position.
+
+The withdrawal is organized because Rhazek still has enough command authority to prevent the loss from becoming a rout.
+
+The road gate is opened as part of that withdrawal.
+
+Rhazek retrieves himself enough to move with the retreating force.
+
+Cyanis starts after him.
+
+Torren notices immediately.
 
 **TORREN:** Cyanis.
 
+Cyanis keeps moving for another step.
+
+Torren does not raise his voice.
+
+**TORREN:** Past that gate, we're chasing him away from everybody we came for.
+
 Cyanis stops.
 
-**TORREN:** Past that gate, we're chasing him away from the people we came for.
+He watches Rhazek and the retreating Host.
 
-Ilyra watches the retreating force clear the gate.
+Ilyra looks toward the lower levels.
 
-**ILYRA:** He's already fucking leaving. Let him.
+**ILYRA:** He's leaving. They're still waiting.
 
-Cyanis watches Rhazek's withdrawal for another moment.
+Cyanis swears under his breath.
 
 **CYANIS:** Fuck.
 
 A beat.
 
-Then he lets the pursuit go.
+Then he turns away from the gate.
 
 **CYANIS:** Right.
 
-This is a choice of priority, not inability. Rhazek has been beaten; the party chooses the rescue over turning a local victory into a chase.
+Rhazek is not spared by inability.
 
----
+The party chooses the prisoners over pursuit.
 
-## [THE BASTION IS THEIRS LOCALLY]
+### [THE ROAD EXIT]
 
-The trio remains inside the road-gate side of the Old Bastion as the last organized Black Host withdrawal clears the immediate position.
+Once the organized Black Host withdrawal clears the immediate position, no new combat begins.
 
-No new combat begins.
+The trio remains inside the road-gate side of the Old Bastion.
 
-Torren checks the maintained road-side exit and its route rather than beginning another dungeon mechanism sequence.
+Torren checks the gate approach, the road beyond it, and the interior route back toward the prisoners.
 
-**CYANIS:** Can we get everyone through here?
+Cyanis waits.
 
-Torren looks over the gate approach and the road beyond.
+Torren finishes looking.
 
 **TORREN:** Yeah.
 
-A beat.
+**CYANIS:** Everybody?
 
-**TORREN:** This'll work.
+Torren nods.
 
-Ilyra looks at the open gate, then back toward the interior they fought through.
+**TORREN:** Wide enough. Maintained ground. We can move the injured through here.
 
-**ILYRA:** About fucking time.
+Ilyra looks back toward the lower levels.
+
+**ILYRA:** Good.
 
 Cyanis turns with her.
 
-**CYANIS:** We came for them.
+**CYANIS:** Then we go get them.
+
+Torren is already moving.
 
 **TORREN:** Yeah.
 
-**Objective:** Return to the prisoners.
+### [GAMEPLAY HANDOFF]
 
-Control/story handoff moves directly toward **Beat 15 — Return to the Prisoners / Release**. There is no post-boss switch hunt, command-room records search, gate puzzle, surprise attack, Rhazek rematch, or additional required combat.
+The party has won the Old Bastion locally.
 
----
+Known:
+- Rhazek has been decisively defeated in combat;
+- he remains alive only because he executes a credible military withdrawal from a lost position;
+- his defeat does not change his belief that the seizure/transfer policy was legitimate;
+- he distinguishes loss of physical control from loss of state authority in principle;
+- surviving Black Host personnel withdraw rather than dying pointlessly for a position Rhazek judges lost;
+- wounded and support personnel are moved as part of the withdrawal;
+- the masked officer does not return;
+- the road-side gate is now open and no longer under Black Host control;
+- the party deliberately chooses the prisoners over pursuing Rhazek;
+- the maintained gate route is suitable for evacuating the mixed prisoner group;
+- there is no post-boss switch dungeon, gate puzzle, records search, surprise attack, or Rhazek rematch.
 
-## Ensemble audit checkpoint
-- Cyanis, Ilyra, and Torren have **defeated Commander Rhazek in combat**.
-- Maevra did not participate in the fight and remains below with the prisoners.
-- The unnamed masked officer never returns and never participates in Beat 14.
-- Rhazek receives no secret second phase, fresh HP form, invulnerable reversal, magical escape, or victory-erasing cutscene.
-- Rhazek recognizes that the Old Bastion's interior command position has become militarily untenable and orders a **general Black Host withdrawal through the maintained road gate**, with wounded personnel moved first.
-- Cyanis owns the commitment that the prisoners can be moved rather than Ilyra serving as his default human-consequence proxy.
-- Ilyra remains a combatant and adult participant in the aftermath: she stays alert, reacts sharply to the retreat, and can swear naturally without being assigned the post-battle medical roll call or rescue-conscience line.
-- Torren's pursuit warning is a practical field judgment, not a statement that Cyanis is incapable of choosing correctly himself.
-- Surviving Host soldiers withdraw rather than being exterminated to prove victory.
-- Rhazek leaves alive with the retreating force through an ordinary military exit.
-- The party could pursue beyond the gate, but deliberately prioritizes the captives still waiting below.
-- The Old Bastion is **locally lost to the Black Host**. Rhazek's survival does not change that result.
-- The maintained road-side gate is now open/usable and no longer under active Black Host control.
-- Torren confirms that the exit is suitable for the prisoners.
-- No additional gate puzzle or post-boss dungeon step is required.
-- The destination and ultimate fate of earlier transferred prisoners remain unknown.
-- Beat 14 ends with the trio turning back toward the prisoners, handing directly into Beat 15.
+**Objective: Return to the prisoners.**
+
+Next mandatory beat:
+**Return to the Prisoners / Release**
 
 ---
 
 ## Beat 15
 
 **Atomic source:** `BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `6b004cf003f8d56e123245d6f56e7d2bb3afa0c13b3ac4cf3eccb65be9c20b60`
+**Source SHA-256:** `a2e760ec4a6563abd9684fd7d1a9078efa17d78bb7b79413508e3e94d4657c58`
 
 # Chapter 2 — Beat 15 — Return to the Prisoners / Release
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NOT LOCKED  
-**Owning cumulative manuscript:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 15 begins immediately after Commander Rhazek has been defeated locally and has withdrawn alive with the remaining organized Black Host force. The maintained road-side gate is open and usable. Cyanis, Ilyra, and Torren deliberately turn back into the Bastion rather than pursuing Rhazek because the freed prisoners are still waiting below. Maevra remains with those prisoners and has continued organizing the lower safe area.
-
-Hard scene rule:
-> **The party comes back for them. The rescue is completed as a human action, not skipped because the boss is over.**
-
-There is no new required combat, no escort dungeon, no Rhazek rematch, and no second gate puzzle.
-
----
-
-## [THEY CAME BACK]
+### [STORY TRIGGER — LOWER SAFE AREA]
 
 Cyanis, Ilyra, and Torren return to the lower safe area.
 
 Maevra sees them first.
 
+Her eyes go over all three of them once.
+
 **MAEVRA:** Three.
 
-Cyanis looks at her.
+Cyanis understands the count.
 
 **CYANIS:** Three.
 
-The tension in the room changes immediately.
+Some of the tension in the room breaks immediately.
 
-The Dunmere woman steps closer.
+The Dunmere woman gets to her feet.
 
-**DUNMERE WOMAN:** The gate?
+**DUNMERE WOMAN:** Gate?
+
+Torren answers.
 
 **TORREN:** Open.
 
-**GREENHOLLOW MAN:** Host still holding it?
+**GREENHOLLOW MAN:** Host?
 
-**TORREN:** No.
+**TORREN:** Gone from the Bastion.
 
 The wounded soldier looks at Cyanis.
 
 **WOUNDED SOLDIER:** Rhazek?
 
-**CYANIS:** We beat him.
+Cyanis does not dress it up.
+
+**CYANIS:** Beat him.
 
 A beat.
 
-**CYANIS:** He's alive. He pulled what's left of his people out of the Bastion.
+**CYANIS:** He's alive. Pulled the rest of his people out.
 
 The soldier absorbs that.
 
-**WOUNDED SOLDIER:** So it's really over here.
-
-Cyanis does not pretend the larger war is over.
+**WOUNDED SOLDIER:** So they lost it.
 
 **CYANIS:** Here, yeah.
 
-Ilyra looks across the freed prisoners.
+The Dunmere woman looks toward the route upward.
 
-**ILYRA:** And that means we can move.
+**DUNMERE WOMAN:** Then we're leaving.
 
----
-
-## [GET EVERYONE ON THEIR FEET]
-
-Ilyra moves back toward the people she already assessed earlier.
-
-**ILYRA:** Before anybody stands—if you're dizzy, say it. If you can't put weight on something, say it. Nobody gets points for falling on the stairs.
-
-The wounded soldier looks at her.
-
-**WOUNDED SOLDIER:** I can walk.
-
-**ILYRA:** With help.
-
-A beat.
-
-**WOUNDED SOLDIER:** With help.
-
-The Greenhollow man moves beside him.
-
-**GREENHOLLOW MAN:** You've got me.
-
-Nearby, the Dunmere woman is already helping another weakened prisoner prepare to stand.
-
-Maevra looks across the group.
-
-**MAEVRA:** Pair up. Strong walkers with somebody who needs support. Nobody goes off alone, nobody races ahead, and nobody decides now is the time to prove something.
-
-She raises her splinted arm slightly.
-
-**MAEVRA:** I am including myself in that last one.
-
-Torren glances at her.
-
-**TORREN:** Good.
-
-**MAEVRA:** Don't enjoy this too much.
-
-**TORREN:** Wasn't going to.
-
-**MAEVRA:** Liar.
-
-The exchange is brief. Work continues around them.
-
----
-
-## [THE WAY OUT]
-
-Torren addresses the group only once people are ready to listen.
-
-**TORREN:** We're not going back through the Archive.
-
-Several prisoners visibly approve of that without needing explanation.
-
-**TORREN:** We go up through the Bastion, cross the east court, then straight out the road gate.
-
-**DUNMERE WOMAN:** Clear?
-
-Torren answers carefully rather than promising what he cannot know.
-
-**TORREN:** Organized Host is gone from the route. I'll stay in front and check it as we move.
-
-Ilyra nods.
-
-**ILYRA:** I'll stay in the middle with anyone who needs help.
-
-Cyanis looks toward the rear of the group.
-
-**CYANIS:** I'll take the back.
-
-Maevra looks at him.
-
-**MAEVRA:** Making sure nobody gets left behind?
+Not a question.
 
 **CYANIS:** Yeah.
 
+### [GETTING READY TO MOVE]
+
+People are already standing, gathering what little they have, and helping one another before anyone gives them instructions.
+
+Ilyra goes back to the people she assessed earlier.
+
+**ILYRA:** All right. Before stairs make anybody ambitious—if you're dizzy, say it. If you can't put weight on something, say it.
+
+The wounded soldier starts to stand.
+
+Ilyra looks at him.
+
+**ILYRA:** You especially.
+
+**WOUNDED SOLDIER:** I can walk.
+
+**ILYRA:** I know.
+
+She nods toward the Greenhollow man.
+
+**ILYRA:** You're still taking the arm.
+
+The Greenhollow man steps over.
+
+**GREENHOLLOW MAN:** Happily.
+
+The wounded soldier gives him a look.
+
+**WOUNDED SOLDIER:** You say that now.
+
+**GREENHOLLOW MAN:** I've been listening to you complain for two days. Walking will be quieter.
+
+That gets a tired laugh from someone nearby.
+
+Maevra looks across the room.
+
+**MAEVRA:** Pair up if you need to. Help somebody if you don't. Nobody goes off alone.
+
+She raises the splinted arm slightly.
+
+**MAEVRA:** And nobody gets heroic because the door's finally open.
+
+Torren glances at the splint.
+
+**TORREN:** Including commanders.
+
+Maevra looks at him.
+
+**MAEVRA:** I knew you were going to enjoy this.
+
+**TORREN:** Little bit.
+
+She almost smiles.
+
+### [THE ROUTE]
+
+Once everyone who can move is on their feet, Torren addresses the group.
+
+**TORREN:** We're not using the way we came in.
+
+A few prisoners visibly relax.
+
+**TORREN:** Up through the Bastion. East court. Road gate. It's maintained ground all the way out.
+
+The Dunmere woman looks at him.
+
+**DUNMERE WOMAN:** Clear?
+
+Torren answers carefully.
+
+**TORREN:** Organized Host is gone. I'll check ahead as we move.
+
+She nods.
+
+That is enough.
+
+Ilyra looks across the middle of the group.
+
+**ILYRA:** I'll stay with anybody who needs help on the stairs.
+
+Cyanis looks toward the back.
+
+**CYANIS:** I'll take rear.
+
+Maevra glances at him.
+
+**MAEVRA:** Of course you will.
+
+Cyanis looks at her.
+
+**CYANIS:** Somebody should.
+
+**MAEVRA:** Didn't say you shouldn't.
+
 A beat.
 
-**MAEVRA:** Good.
+**MAEVRA:** Just predictable.
 
-Nobody proposes pursuing Rhazek instead.
+Cyanis accepts that.
 
----
+### [THEY CAME BACK]
 
-## [LEAVING]
+The Dunmere woman hangs back for one moment while the first pairs start moving.
 
-The freed prisoners begin forming into a practical moving group rather than a military column.
+She looks at Cyanis.
 
-The Dunmere woman looks at Cyanis before joining the others.
-
-**DUNMERE WOMAN:** You really came back.
+**DUNMERE WOMAN:** You actually came back.
 
 Cyanis looks at her.
 
 **CYANIS:** Said we would.
 
-She gives him a short nod and turns to help the person beside her.
+She studies him for half a second, then nods.
 
-Torren moves to the front.
+**DUNMERE WOMAN:** Good.
 
-**TORREN:** Slow on the stairs. Stay where you can see the person ahead of you.
+She turns and gets under the arm of another prisoner.
 
-Maevra starts the first pair moving.
+**DUNMERE WOMAN:** Come on.
 
-**MAEVRA:** All right. Let's get out of this place.
+The moment belongs to her action, not Cyanis's promise.
 
-Ilyra falls into the middle of the group.
+Torren takes the front.
 
-Cyanis waits until the last prisoner is moving before taking the rear.
+**TORREN:** Slow on the stairs. Keep the person ahead of you in sight. If I stop, everybody stops.
+
+Maevra moves with the first part of the group.
+
+**MAEVRA:** You heard him.
+
+Ilyra settles into the middle.
+
+Cyanis waits.
+
+One prisoner passes.
+
+Then another.
+
+Then the last.
+
+Only then does he move.
+
+### [TRANSITION]
 
 The rescued group begins leaving the lower Bastion through the maintained interior route toward the open road gate.
 
-**No playable escort sequence follows.** Once the group is organized and clearly moving out safely, the story may transition directly to **Beat 16 — Return to Dunmere / Road Reopened / Cleanup**.
+There is **no playable escort sequence**.
 
----
+There is no second combat, no gate puzzle, no Rhazek rematch, and no final enemy sting.
 
-## Beat-15 knowledge and world-state checkpoint
-- Cyanis, Ilyra, and Torren physically return to the prisoners after defeating Rhazek locally.
-- Maevra remained with the prisoners and kept the lower safe area organized.
-- The prisoners are told plainly that Rhazek was defeated here, survived, and withdrew with the remaining organized Black Host force.
-- Nobody treats Rhazek's survival as if the Bastion victory did not happen.
-- The maintained road-side gate is open and no longer under active Black Host control.
-- Torren leads the evacuation route and continues checking it rather than promising impossible certainty.
-- Ilyra handles immediate mobility and care needs.
-- Able-bodied prisoners actively support injured/weakened prisoners.
-- Maevra organizes the moving group while respecting the limitations of her own splinted arm.
-- Cyanis explicitly takes the rear, prioritizing completion of the rescue over pursuit of Rhazek.
-- The prisoners want to leave and cooperate with the evacuation.
-- No additional combat, escort dungeon, records search, gate puzzle, or antagonist sting occurs.
-- Earlier captives transferred away before the rescue remain missing; their destination and fate are still unknown.
-- Once the group is moving safely toward the road gate, the story transitions directly to Dunmere for Beat 16.
+Once the group is clearly moving out safely, the story transitions directly to Dunmere.
+
+Known:
+- Cyanis, Ilyra, and Torren physically returned for the prisoners;
+- Maevra kept the lower safe area organized while they were gone;
+- the prisoners know Rhazek was defeated locally, survived, and withdrew;
+- the Old Bastion is no longer under organized Black Host control;
+- the maintained road-side exit is open;
+- Torren leads the route without pretending impossible certainty;
+- Ilyra handles actual mobility needs without taking over everyone's agency;
+- able-bodied prisoners actively support injured and weakened prisoners;
+- Maevra helps organize the movement while respecting her own injury;
+- Cyanis takes the rear and does not leave until the last prisoner is moving;
+- earlier transferred captives remain missing;
+- their destination and fate remain unknown.
+
+Next mandatory beat:
+**Return to Dunmere / Road Reopened / Cleanup**
 
 ---
 
 ## Beat 16
 
 **Atomic source:** `BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `541c5d66d18a2d77865b73b543027c3f54aa72a6e902ec86b3a9c5ad672c44c7`
+**Source SHA-256:** `26c115af5fb08e1153d05b3d6c6fc231028d07c7686dca30b50c1081072b4329`
 
 # Chapter 2 — Beat 16 — Return to Dunmere / Road Reopened / Cleanup
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DIALOGUE — NATURAL-TURN + SPOKEN/NARRATION + ENSEMBLE CHARACTER-BALANCE PASS CURRENT  
+**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
-Beat 16 begins after the rescued group has left the Old Bastion through the maintained road-side gate. There is no playable escort sequence and no separate road-secured story beat. Cyanis, Ilyra, Torren, and Maevra are back in Dunmere with the current prisoners safely out of Black Host custody.
+### [STORY TRIGGER — BACK IN DUNMERE]
 
-Hard scene rule:
-> **This is the Chapter-2 landing, not a victory ceremony. Confirm the human result, confirm the local world-state change, preserve the unresolved transfers, then return control to the player for cleanup.**
+The story resumes in Dunmere after the rescued group has cleared the Old Bastion and returned safely.
 
-The chapter does **not** automatically advance into Chapter 3.
+There is no playable escort sequence between the Bastion and town.
 
----
+Dunmere is functioning around the return rather than staging a formal reception.
 
-## [BACK IN DUNMERE]
+Rescued people are:
+- being reunited with family and neighbors;
+- sitting down where they can;
+- getting food and water;
+- receiving whatever immediate care they actually need;
+- helping one another settle.
 
-Dunmere is functioning around the return rather than staging a formal reception. Rescued people are being reunited, seated, fed, checked, or helped farther into town as needed.
+The elder finds Cyanis, Ilyra, Torren, and Maevra once the movement has calmed enough for conversation.
 
-The elder meets Cyanis, Ilyra, Torren, and Maevra once the immediate movement has settled enough to speak.
+The elder looks toward the rescued group.
 
-**ELDER:** Everyone made it back?
+**ELDER:** Everyone?
 
-Maevra looks toward the rescued group she spent the lower-Bastion hold organizing.
+Maevra follows the look.
 
-**MAEVRA:** Everyone we brought out. Earlier groups were already gone.
-
-The elder hears the distinction.
-
-**ELDER:** Still missing.
-
-**CYANIS:** We never found where.
-
-The elder's expression hardens, but does not turn into a speech.
-
-**ELDER:** Then we don't call them found because today went well.
-
-**TORREN:** No.
-
----
-
-## [WHAT HAPPENED AT THE BASTION]
-
-**ELDER:** Tell me what happened at the Old Bastion.
-
-Torren answers the field-state part first.
-
-**TORREN:** Host withdrew. Bastion and road gate are out of their hands.
-
-**ELDER:** Rhazek?
-
-**CYANIS:** Alive. He owned the seizures and ordered the withdrawal.
+**MAEVRA:** Everyone who was still there.
 
 A beat.
 
-**ELDER:** Then he lost the fort.
+**MAEVRA:** Earlier groups were already gone.
+
+The elder's face changes.
+
+**ELDER:** You know where?
+
+Cyanis shakes his head.
+
+**CYANIS:** No. Rhazek wouldn't give us a destination.
+
+The elder looks back toward the people who did return.
+
+**ELDER:** Then they're still missing.
+
+**CYANIS:** Yeah.
+
+Nobody tries to soften that.
+
+### [WHAT CHANGED]
+
+The elder looks back to the four of them.
+
+**ELDER:** Bastion?
+
+Torren answers.
+
+**TORREN:** Host pulled out. Gate's open. Checkpoints are gone.
+
+**ELDER:** Rhazek?
+
+**CYANIS:** Alive.
+
+A beat.
+
+**CYANIS:** He was running the seizures himself. We beat him, and he withdrew what was left of the garrison.
+
+The elder considers that.
+
+**ELDER:** So he lost the fort.
 
 **CYANIS:** Here, yes.
 
+The elder looks to Torren.
+
+**ELDER:** Road usable?
+
+Torren gives the answer he can actually support.
+
+**TORREN:** Yeah. Bastion isn't controlling the corridor anymore. Normal road caution still applies, but Greenhollow to Dunmere is open.
+
 The elder nods once.
-
-**ELDER:** Good enough for the road.
-
----
-
-## [THE ROAD]
-
-The elder looks toward the route out of town.
-
-**ELDER:** People are already asking if they can move again.
-
-Torren answers carefully.
-
-**TORREN:** Bastion isn't controlling the corridor anymore. Gate's open, checkpoints are gone. Use normal road caution, but yes—the route is usable again.
 
 **ELDER:** Then we reopen it.
 
-Maevra looks toward the waiting wagons that had been stalled when the group first arrived.
+That decision is enough.
 
-**MAEVRA:** They'll like that. Half this town has been staring at loaded wagons for days.
+No second road-safety scene is required.
 
-Cyanis follows her look.
+### [THE PRESSURE DROPS]
 
-**CYANIS:** I like it too. Among other reasons, I can see an inn from here.
+For the first time since they entered town, nobody has an immediate tactical problem to solve.
 
-**ILYRA:** There are your priorities.
+Cyanis looks toward the stalled wagons from earlier.
 
-**TORREN:** Knew he'd get back to food.
+People are already beginning to move around them differently now that the road is reopening.
 
-**CYANIS:** I've had a difficult day. I refuse to apologize for having priorities after the rescue is finished.
+Then he spots the inn.
 
-Maevra smiles.
+**CYANIS:** Good.
 
-**MAEVRA:** Heroically hungry.
+Ilyra follows his attention.
 
-**CYANIS:** Exactly.
+**ILYRA:** The road or the inn?
 
-The humor is brief and ordinary. It does not erase the unresolved missing people.
+**CYANIS:** Both.
 
----
+Torren looks at him.
 
-## [NOT THE END OF IT]
+**TORREN:** Inn first in your head.
 
-The elder looks back to the group.
+**CYANIS:** We rescued people before I ate. I think I've demonstrated character.
 
-**ELDER:** And the earlier groups?
+Maevra gives him a look.
 
-**CYANIS:** Still missing. Rhazek wouldn't give us a destination.
+**MAEVRA:** Heroic restraint.
 
-A short silence.
+**CYANIS:** Thank you.
 
-Maevra looks toward the rescued townspeople.
+**ILYRA:** That wasn't praise.
 
-**MAEVRA:** We got the people who were there out alive. That's not nothing.
+**CYANIS:** I'm taking what I can get.
 
-Torren glances toward the road.
+The elder almost smiles.
 
-**TORREN:** And the road's open.
+**ELDER:** Get food. Get dry. Sleep if any of you remember how.
 
-The elder nods.
+Torren glances at Cyanis.
 
-**ELDER:** Both matter.
+**TORREN:** He won't.
 
-Nobody turns that into a ceremony.
+Cyanis looks at him.
 
-**ELDER:** Get some food. Get dry. Sleep if you're capable of it. Tomorrow can have the rest of your questions.
+**CYANIS:** Excuse me?
 
-Torren looks at Cyanis.
+**TORREN:** You'll think of something else you want to ask before the food arrives.
 
-**TORREN:** He'll remember three more before he gets upstairs.
+Ilyra considers that.
 
-**CYANIS:** Two, maximum.
+**ILYRA:** Two questions.
 
-**ILYRA:** Four. One of them will occur to him while chewing.
+**MAEVRA:** Three.
 
-Maevra considers Cyanis.
+**CYANIS:** Why are we betting on this?
 
-**MAEVRA:** Five if somebody tells him not to ask questions until morning.
+**TORREN:** Four.
 
-Cyanis looks between them.
+Ilyra immediately points at him.
 
-**CYANIS:** This is an abusive betting pool.
+**ILYRA:** No. Complaint.
 
-**TORREN:** Six now.
+**TORREN:** Had a question in it.
 
-**ILYRA:** That one doesn't count. He was complaining, not asking.
+**ILYRA:** Grammatically. Doesn't count.
 
-**MAEVRA:** You're officiating?
+Maevra looks between them.
 
-**ILYRA:** Somebody has to protect the integrity of this deeply stupid system.
+**MAEVRA:** We need rules now?
 
-Cyanis gives them all a look.
+**ILYRA:** If we're wagering on it, obviously.
 
-**CYANIS:** I hate every one of you a little.
+Cyanis stares at all three.
 
-**TORREN:** Food'll help.
+**CYANIS:** I preferred the Bastion.
 
-That is the end of it.
+A beat.
 
----
+Torren shakes his head.
 
-## [CLEANUP WINDOW]
+**TORREN:** No, you didn't.
 
-The authored scene ends and normal Dunmere control returns.
+Cyanis thinks about that.
+
+**CYANIS:** No. I really didn't.
+
+That gets a quiet laugh out of Ilyra.
+
+The moment settles naturally.
+
+### [CLEANUP WINDOW]
+
+The authored scene ends.
+
+Normal Dunmere control returns.
 
 Current local state:
-- the rescued Chapter-2 prisoners are safely out of Black Host custody;
-- the Old Bastion no longer functions as a Black Host choke point on the corridor;
-- direct **Greenhollow ↔ Dunmere travel is reopened for ordinary travel**;
-- Rhazek remains alive but has lost the Old Bastion locally;
-- earlier transferred captives remain missing;
+- every prisoner found in the Old Bastion during Chapter 2 is safely out of Black Host custody;
+- earlier groups transferred away before the rescue remain missing;
 - their onward destination and fate remain unknown;
-- the western mural, ancient city, and crest-marked northern structure remain unresolved discoveries carried forward by the party;
+- Commander Rhazek remains alive;
+- Rhazek has lost the Old Bastion locally;
+- the Old Bastion no longer functions as a Black Host choke point on the corridor;
+- direct **Greenhollow ↔ Dunmere** travel is reopened for ordinary travel;
+- the western mural, enormous Ancient city, and crest-marked northern structure remain unresolved;
 - Maevra remains physically present in Dunmere;
 - Caelora remains the larger journey direction.
 
-During the Chapter-2 cleanup window, permitted systems/content may include:
-- Dunmere shopping, healing/rest, equipment management, saving, and ordinary hub use;
-- compatible Character-Life content including **C05 — Still Burns**;
-- permitted side content, Hunts, and backtracking under their own authorities;
-- use of the reopened Greenhollow–Dunmere road where allowed by current world/travel authority.
+During the cleanup window, the player may access whatever current authorities permit, including:
+- Dunmere shopping;
+- healing/rest;
+- equipment management;
+- saving;
+- ordinary hub use;
+- compatible side content;
+- permitted backtracking;
+- reopened-road travel;
+- **C05 — Still Burns**.
 
-**C05 — Still Burns** currently lives in legacy atomic source file `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`; canonical numbering is controlled by `../CHARACTER_LIFE_NUMBERING_LOCK.md`.
+Chapter 3 does **not** begin automatically.
 
-Hard chapter-boundary rule:
-> **Chapter 3 begins only when the player deliberately uses the explicit advance-story interaction and confirms that choice.**
+The player must deliberately use the explicit advance-story interaction and confirm the transition.
 
-No automatic chapter transition occurs when Beat 16 ends.
+### [CHAPTER 2 END STATE]
 
----
-
-## Ensemble audit check
-
-- The Dunmere debrief is consequence-first. The elder gets the information needed to act without making the party replay the Bastion chapter beat by beat.
-- Maevra, who actually held and organized the prisoner safe area, owns the immediate return-count distinction; this is relationship/scene ownership rather than `Ilyra = human consequence` by default.
-- Maevra also names the human success later, breaking the old pattern where she only carried command/operational conclusions.
-- Torren owns the reopened-road result and remains socially involved after the crisis instead of reverting to route exposition only.
-- Ilyra is free to participate in ordinary teasing and stupid argument once her medical expertise is no longer needed; she does not have to deliver the chapter's moral summary.
-- Cyanis remains responsible for what he personally learned from Rhazek and is not used only as a prompt for other people's conclusions.
-- Mature-adult speech is natural and relationship-specific without profanity being forced into a scene that does not need it.
-- Rhazek's survival, responsibility, and local defeat remain unambiguous.
-- Greenhollow ↔ Dunmere travel reopens.
-- No Ancient-map mystery is explained.
-- Chapter 3 still begins only through explicit player confirmation.
+Chapter 2 ends with:
+- a complete local rescue;
+- a reopened road;
+- Rhazek established as an ideologically committed Black Host commander rather than a rogue officer;
+- the larger forced-transfer operation still unresolved;
+- the Ancient network mystery substantially expanded;
+- Cyanis, Ilyra, Torren, and Maevra visibly more comfortable with one another than they were at the start of Chapter 1;
+- enough unresolved pressure to carry forward without stealing the cleanup window from the player.
 
 ---
 
