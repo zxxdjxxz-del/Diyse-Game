@@ -25,7 +25,7 @@ Ilyra glances over.
 
 Nimera slowly turns toward her.
 
-**NIMERA:** No. That's surrender disguised as handwriting.
+**NIMERA:** No. That's fucking surrender disguised as handwriting.
 
 **ILYRA:** It's a box.
 
@@ -173,7 +173,7 @@ Ilyra laughs.
 
 **ILYRA:** No. I'm enjoying you prosecuting and acquitting a stranger over charcoal.
 
-**NIMERA:** The evidence changed.
+**NIMERA:** The fucking evidence changed.
 
 **ILYRA:** The evidence was my eyebrow.
 
