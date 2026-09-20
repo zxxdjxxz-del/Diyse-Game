@@ -30,7 +30,7 @@ She looks down the bench.
 
 **CYANIS:** Somebody practiced here.
 
-**NIMERA:** Repeatedly. Early cuts wander. Later ones hold the line. Whoever did this improved in the room.
+**NIMERA:** Repeatedly. Early cuts wander. Later ones hold the line. Whoever did this got fucking better in the room.
 
 Ilyra looks over the quantity.
 
@@ -94,7 +94,7 @@ Cyanis keeps looking at it.
 
 **CYANIS:** Could they have?
 
-**NIMERA:** I can't rule it out.
+**NIMERA:** I can't rule the bastard out.
 
 A beat.
 
@@ -124,7 +124,7 @@ Torren glances back toward the Hall.
 
 Nimera considers it.
 
-**NIMERA:** Could be. Same interests, compatible timing, same access problem. I'd still be stapling two unknowns together.
+**NIMERA:** Could be. Same interests, compatible timing, same access problem. I'd still be stapling two unknowns together and calling the bleeding pile a fucking theory. No, too dramatic. Still bad method.
 
 **TORREN:** Fair.
 
@@ -142,7 +142,7 @@ Cyanis checks the Card.
 
 Nimera looks at him.
 
-**NIMERA:** That was the qualifier.
+**NIMERA:** That was the fucking qualifier.
 
 Cyanis smiles.
 
@@ -158,7 +158,7 @@ Nimera identifies what can be copied and recorded without disturbing the origina
 
 **CYANIS:** Obviously.
 
-**NIMERA:** I have known you for several hours. `Obviously` has not earned tenure yet.
+**NIMERA:** I have known you for several hours. `Obviously` has not earned fucking tenure yet.
 
 Ilyra looks toward the exit.
 
