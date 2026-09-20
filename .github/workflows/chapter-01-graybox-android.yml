@@ -2,6 +2,13 @@ name: Chapter 1 Graybox Android APK
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'game/exploration/maps/chapter_01/**'
+      - 'docs/90_WORKING/AREA_LAYOUTS/BLUEPRINT_002_CH01_BRIAR_HOLLOW_WATCH_WAYFINDER.md'
+      - '.github/workflows/chapter-01-graybox-android.yml'
 
 jobs:
   chapter-01-graybox-apk:
