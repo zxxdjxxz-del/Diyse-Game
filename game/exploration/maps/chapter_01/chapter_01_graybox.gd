@@ -27,6 +27,7 @@ var _distance_moved := 0.0
 var _slice_start_ms := 0
 var _current_encounter_state := "SAFE — Brackenwall seam"
 var _triggered_story_sockets: Dictionary = {}
+var _last_safe_position := Vector3(-258.0, 0.9, 10.0)
 
 const PLAYER_START := Vector3(-258.0, 0.9, 10.0)
 
@@ -41,8 +42,14 @@ func _ready() -> void:
 
 func _process(_delta: float) -> void:
 	_update_debug_hud()
-	if player.global_position.y < -8.0:
-		_reset_player()
+
+	# Keep a nearby recovery point so an accidental graybox fall does not force
+	# the tester to restart the whole slice.
+	if player.is_on_floor() and player.global_position.y > -0.2:
+		_last_safe_position = player.global_position
+
+	if player.global_position.y < -0.5:
+		_recover_from_fall()
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventKey and event.pressed and not event.echo:
@@ -83,55 +90,59 @@ func _build_graybox() -> void:
 	_build_markers()
 
 func _build_upper_briar() -> void:
+	# All route branches now attach at explicit nodes. Visible edge guards are
+	# generated along the walkable paths, with short gaps at nodes so junctions
+	# remain traversable.
 	var main_points: Array[Vector3] = [
 		Vector3(-260, 0, 10),
 		Vector3(-190, 2, 20),
+		Vector3(-145, 3.1, 12.1), # shallow-loop junction
 		Vector3(-105, 4, 5),
+		Vector3(-18, 5.7, 15.8), # shallow-loop reconnect
 		Vector3(0, 6, 18),
 		Vector3(95, 7, 5),
+		Vector3(108, 6.9, 3), # Pocket U2 junction
 		Vector3(185, 6, -8),
 		Vector3(260, 5, 0),
 	]
-	_add_path("BP_A_Main", main_points, 7.0, _road_material)
+	_add_guarded_path("BP_A_Main", main_points, 7.0, _road_material)
 
 	var shallow_loop: Array[Vector3] = [
-		# Entry and exit sit directly on the main road so the loop is a real
-		# reconnection rather than a near-miss in the graybox.
 		Vector3(-145, 3.1, 12.1),
-		Vector3(-125, 3.5, -24),
+		Vector3(-125, 3.5, -24), # Pocket U1 junction
 		Vector3(-78, 4.3, -34),
 		Vector3(-32, 5.4, -4),
 		Vector3(-18, 5.7, 15.8),
 	]
-	_add_path("BP_A_ShallowLoop", shallow_loop, 5.2, _optional_material)
+	_add_guarded_path("BP_A_ShallowLoop", shallow_loop, 5.2, _optional_material)
 
 	var pocket_u1: Array[Vector3] = [
-		Vector3(-126, 3.5, -24),
+		Vector3(-125, 3.5, -24),
 		Vector3(-150, 3.2, -42),
 	]
-	_add_path("BP_A_PocketU1_Path", pocket_u1, 4.2, _optional_material)
+	_add_guarded_path("BP_A_PocketU1_Path", pocket_u1, 4.2, _optional_material)
 	_add_pad("BP_A_PocketU1", Vector3(-154, 3.2, -45), Vector2(14, 12), _optional_material)
 
 	var pocket_u2: Array[Vector3] = [
 		Vector3(108, 6.9, 3),
 		Vector3(130, 7.0, 28),
 	]
-	_add_path("BP_A_PocketU2_Path", pocket_u2, 4.2, _optional_material)
+	_add_guarded_path("BP_A_PocketU2_Path", pocket_u2, 4.2, _optional_material)
 	_add_pad("BP_A_PocketU2", Vector3(134, 7.0, 32), Vector2(14, 12), _optional_material)
 
 	_add_pad("BP_A_HalfwayPocket", Vector3(0, 6, 18), Vector2(18, 16), _road_material)
+	_add_pad_side_guard("BP_A_HalfwayNorth", Vector3(0, 6, 26.4), Vector3(18, 2.4, 0.8))
+	_add_pad_side_guard("BP_A_HalfwaySouth", Vector3(0, 6, 9.6), Vector3(18, 2.4, 0.8))
+
 	_add_pad("BP_A_BrackenwallSeam", Vector3(-266, 0, 10), Vector2(16, 14), _seam_material)
 	_add_pad("BP_A_GreenhollowSeam", Vector3(266, 5, 0), Vector2(16, 14), _seam_material)
 
 func _build_boundaries() -> void:
-	# Broad forest walls keep this first slice testable without pretending these
-	# boxes are final foliage or terrain.
-	_add_boundary_box("BP_A_NorthForest", Vector3(0, 3.0, 78), Vector3(570, 6, 38))
-	_add_boundary_box("BP_A_SouthForest_West", Vector3(-205, 3.0, -75), Vector3(145, 6, 42))
-	_add_boundary_box("BP_A_SouthForest_Mid", Vector3(-35, 3.0, -82), Vector3(160, 6, 34))
-	_add_boundary_box("BP_A_SouthForest_East", Vector3(180, 3.0, -70), Vector3(190, 6, 44))
-	_add_boundary_box("BP_A_WestCap", Vector3(-286, 3.0, 5), Vector3(20, 6, 145))
-	_add_boundary_box("BP_A_EastCap", Vector3(286, 3.0, 0), Vector3(20, 6, 145))
+	# v0.2 removes the oversized rectangular forest collision volumes that could
+	# be hit from the wrong direction on Android. Route-edge briar banks now do
+	# the actual fall prevention. Only visible end caps remain.
+	_add_boundary_box("BP_A_WestCap", Vector3(-292, 3.0, 8), Vector3(10, 6, 130))
+	_add_boundary_box("BP_A_EastCap", Vector3(292, 7.0, 0), Vector3(10, 6, 130))
 
 func _build_debug_zones() -> void:
 	# Encounter-state areas are deliberately broad. They exist to test pacing,
@@ -185,6 +196,58 @@ func _build_markers() -> void:
 	_add_marker("POCKET U2", Vector3(134, 7, 32))
 	_add_marker("U4", Vector3(185, 6, -8))
 	_add_marker("GREENHOLLOW SEAM", Vector3(258, 5, 0))
+
+func _add_guarded_path(name_prefix: String, points: Array[Vector3], width: float, material: StandardMaterial3D) -> void:
+	for index in range(points.size() - 1):
+		var a := points[index]
+		var b := points[index + 1]
+		_add_path_segment("%s_%02d" % [name_prefix, index], a, b, width, material)
+		_add_edge_guard("%s_L_%02d" % [name_prefix, index], a, b, width, 1.0)
+		_add_edge_guard("%s_R_%02d" % [name_prefix, index], a, b, width, -1.0)
+
+func _add_edge_guard(name: String, a: Vector3, b: Vector3, path_width: float, side: float) -> void:
+	var delta := b - a
+	var horizontal := Vector3(delta.x, 0.0, delta.z)
+	var horizontal_length := horizontal.length()
+	if horizontal_length <= 4.5:
+		return
+
+	var horizontal_dir := horizontal / horizontal_length
+	var margin := minf(2.0, horizontal_length * 0.2)
+	var start := a + horizontal_dir * margin
+	var finish := b - horizontal_dir * margin
+
+	var normal := Vector3(-horizontal_dir.z, 0.0, horizontal_dir.x)
+	var offset := normal * side * (path_width * 0.5 + 0.55)
+	start += offset
+	finish += offset
+
+	var guard_delta := finish - start
+	var guard_horizontal_length := Vector2(guard_delta.x, guard_delta.z).length()
+	if guard_horizontal_length <= 0.2:
+		return
+
+	var body := StaticBody3D.new()
+	body.name = name
+	body.position = (start + finish) * 0.5 + Vector3(0, 0.9, 0)
+	body.rotation.y = atan2(guard_delta.x, guard_delta.z)
+	add_child(body)
+
+	var mesh := BoxMesh.new()
+	mesh.size = Vector3(0.9, 2.2, guard_horizontal_length)
+	mesh.material = _boundary_material
+	var mesh_instance := MeshInstance3D.new()
+	mesh_instance.mesh = mesh
+	body.add_child(mesh_instance)
+
+	var shape := BoxShape3D.new()
+	shape.size = Vector3(0.9, 2.2, guard_horizontal_length)
+	var collision := CollisionShape3D.new()
+	collision.shape = shape
+	body.add_child(collision)
+
+func _add_pad_side_guard(name: String, ground_center: Vector3, size: Vector3) -> void:
+	_add_boundary_box(name, ground_center + Vector3(0, size.y * 0.5 - 0.1, 0), size)
 
 func _add_path(name_prefix: String, points: Array[Vector3], width: float, material: StandardMaterial3D) -> void:
 	for index in range(points.size() - 1):
@@ -350,12 +413,17 @@ func _set_camera_variant(index: int) -> void:
 			camera.fov = 54.0
 			camera_label.text = "Camera C — broad readability / east-facing"
 
+func _recover_from_fall() -> void:
+	player.global_position = _last_safe_position + Vector3(0, 0.2, 0)
+	player.velocity = Vector3.ZERO
+
 func _reset_player() -> void:
 	player.global_position = PLAYER_START
 	player.velocity = Vector3.ZERO
 	_distance_moved = 0.0
 	_slice_start_ms = Time.get_ticks_msec()
 	_current_encounter_state = "SAFE — Brackenwall seam"
+	_last_safe_position = PLAYER_START
 	_triggered_story_sockets.clear()
 	story_label.text = "Story socket: none triggered"
 
