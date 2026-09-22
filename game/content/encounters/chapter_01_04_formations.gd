@@ -3,27 +3,11 @@ class_name DiyseChapter0104FormationCatalog
 
 const TIER_NAMES := ["light", "standard", "heavy"]
 
-# First implementation pass for Audit98. These are weighted local random-encounter
-# pools built only from the Audit90-locked ordinary/carryover enemy rosters.
-# Authored nonlethal humans, Elites, Hunts, named encounters, and bosses are absent.
+# Engineering/runtime formation catalog.
+# Chapter 1 has been reconciled to the current 2026-09-22 enemy-placement locks.
+# Hunts, mandatory named encounters, and bosses are absent from random pools.
+# Strong normal-pool enemies such as Watch Captain Frame may appear where current canon permits.
 const AREAS := {
-	"ch01_brackenwall": {
-		"chapter": 1,
-		"formations": {
-			"light": [
-				{"id": "ch01_brackenwall_l01", "weight": 50.0, "exp": 45, "enemies": ["Black Host Raider", "Brackenwall Reaver"]},
-				{"id": "ch01_brackenwall_l02", "weight": 50.0, "exp": 45, "enemies": ["Black Host Crossbowman", "Brackenwall Reaver"]},
-			],
-			"standard": [
-				{"id": "ch01_brackenwall_s01", "weight": 50.0, "exp": 55, "enemies": ["Brackenwall Reaver", "Brackenwall Reaver", "Black Host Crossbowman"]},
-				{"id": "ch01_brackenwall_s02", "weight": 50.0, "exp": 55, "enemies": ["Ruin Shieldbearer", "Brackenwall Reaver", "Black Host Raider"]},
-			],
-			"heavy": [
-				{"id": "ch01_brackenwall_h01", "weight": 50.0, "exp": 70, "enemies": ["Ruin Shieldbearer", "Brackenwall Reaver", "Brackenwall Reaver", "Black Host Crossbowman"]},
-				{"id": "ch01_brackenwall_h02", "weight": 50.0, "exp": 70, "enemies": ["Ruin Shieldbearer", "Black Host Raider", "Brackenwall Reaver", "Black Host Crossbowman"]},
-			],
-		},
-	},
 	"ch01_greenhollow": {
 		"chapter": 1,
 		"formations": {
@@ -45,16 +29,33 @@ const AREAS := {
 		"chapter": 1,
 		"formations": {
 			"light": [
-				{"id": "ch01_hollow_watch_l01", "weight": 50.0, "exp": 45, "enemies": ["Hollow Watch Sentry", "Hollow Watch Sentry"]},
-				{"id": "ch01_hollow_watch_l02", "weight": 50.0, "exp": 45, "enemies": ["Hollow Watch Sentry", "Hollow Watch Ballista"]},
+				{"id": "ch01_hollow_watch_l01", "weight": 50.0, "exp": 45, "enemies": ["Black Host Raider", "Black Host Crossbowman"]},
+				{"id": "ch01_hollow_watch_l02", "weight": 50.0, "exp": 45, "enemies": ["Hollow Watch Sentry", "Hollow Watch Sentry"]},
 			],
 			"standard": [
-				{"id": "ch01_hollow_watch_s01", "weight": 50.0, "exp": 55, "enemies": ["Hollow Watch Sentry", "Hollow Watch Sentry", "Hollow Watch Ballista"]},
-				{"id": "ch01_hollow_watch_s02", "weight": 50.0, "exp": 55, "enemies": ["Hollow Watch Sentry", "Hollow Watch Ballista", "Hollow Watch Ballista"]},
+				{"id": "ch01_hollow_watch_s01", "weight": 50.0, "exp": 55, "enemies": ["Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer"]},
+				{"id": "ch01_hollow_watch_s02", "weight": 50.0, "exp": 55, "enemies": ["Hollow Watch Sentry", "Hollow Watch Sentry", "Hollow Watch Ballista"]},
 			],
 			"heavy": [
-				{"id": "ch01_hollow_watch_h01", "weight": 50.0, "exp": 70, "enemies": ["Hollow Watch Sentry", "Hollow Watch Sentry", "Hollow Watch Sentry", "Hollow Watch Ballista"]},
-				{"id": "ch01_hollow_watch_h02", "weight": 50.0, "exp": 70, "enemies": ["Hollow Watch Sentry", "Hollow Watch Sentry", "Hollow Watch Ballista", "Hollow Watch Ballista"]},
+				{"id": "ch01_hollow_watch_h01", "weight": 50.0, "exp": 70, "enemies": ["Black Host Raider", "Black Host Crossbowman", "Black Host Crossbowman", "Ruin Shieldbearer"]},
+				{"id": "ch01_hollow_watch_h02", "weight": 50.0, "exp": 70, "enemies": ["Watch Captain Frame", "Hollow Watch Sentry", "Hollow Watch Ballista"]},
+			],
+		},
+	},
+	"ch01_briar_south": {
+		"chapter": 1,
+		"formations": {
+			"light": [
+				{"id": "ch01_briar_south_l01", "weight": 50.0, "exp": 45, "enemies": ["Needlewing", "Greenhollow Stalker", "Briar Boar"]},
+				{"id": "ch01_briar_south_l02", "weight": 50.0, "exp": 45, "enemies": ["Rootmaw", "Thornvine Creeper", "Needlewing"]},
+			],
+			"standard": [
+				{"id": "ch01_briar_south_s01", "weight": 50.0, "exp": 55, "enemies": ["Rootmaw", "Thornvine Creeper", "Thornvine Creeper", "Needlewing"]},
+				{"id": "ch01_briar_south_s02", "weight": 50.0, "exp": 55, "enemies": ["Brambleback", "Briar Boar", "Thornvine Creeper"]},
+			],
+			"heavy": [
+				{"id": "ch01_briar_south_h01", "weight": 50.0, "exp": 70, "enemies": ["Brambleback", "Briar Boar", "Rootmaw", "Thornvine Creeper"]},
+				{"id": "ch01_briar_south_h02", "weight": 50.0, "exp": 70, "enemies": ["Needlewing", "Needlewing", "Greenhollow Stalker", "Rootmaw", "Briar Boar"]},
 			],
 		},
 	},
