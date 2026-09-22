@@ -216,3 +216,16 @@ Do not redo the already-authored preliminary mandatory story-boss recertificatio
 
 Proceed to:
 > **Chapter 1 ordinary formations + Watch Captain Frame + authored/nonlethal content + Cistern Devourer**, while carrying Hollow Watch Castellan's existing mandatory/completionist boss recertification forward.
+
+
+## Progression-rebalance boundary
+Chapter 0 itself remains Player-Level static under current rules, but its handoff into Chapter 1 and the broader mandatory progression spine are scheduled for later rebalance.
+
+Current Chapter-0 work may validate:
+- encounter order;
+- solo-vs-party state;
+- resource pressure;
+- action legality;
+- structural survivability.
+
+Do not use this pass to lock downstream Chapter-1 level assumptions or broader campaign pacing. Any Chapter-0 reward/EXP changes whose purpose is to force a specific later Chapter-1 level must wait for the progression rebalance.
