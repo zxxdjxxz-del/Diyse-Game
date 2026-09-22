@@ -7,20 +7,19 @@ This file controls the current Chapter-0 encounter order. Historical S001–S006
 ## Current placement principle
 Chapter 0 deliberately separates Cyanis's solo tutorial pressure from the heavier named encounters.
 
-- Cyanis handles the initial ambush/tutorial pressure **alone**.
-- the Wreck Field retains its single solo Convoy Rift Hound encounter.
+- Cyanis handles **five authored solo fights** across P01–P02 before Ilyra joins.
+- P01 contains three fights that progressively teach basic roles rather than opening with every Black Host role at once.
+- P02 contains two shorter Wreck Field fights, including the existing lone-Hound survivor-route beat.
+- P03 remains combat-free.
 - **Ruin Vanguard Pursuer / concealed Seyrik does not appear in combat until after Ilyra has joined Cyanis in the defense.**
-- **Riftmaw likewise does not appear until after Ilyra has joined.**
-- Seyrik and Riftmaw are separate encounters with a noncombat story/triage interval between them; they are not stacked into the S001 opening combat chain.
-- the Convoy War-Sorcerer alone is the final Broken Convoy confrontation.
+- after a real noncombat reset, **Riftmaw + Convoy War-Sorcerer form one combined final boss encounter** under current story authority.
 
 ## Chapter-0 Card-response combat rule
 Chapter 0 uses **two separate incomplete-response flares**.
 
 - **First flare:** occurs during S004's triage crisis and fully subsides before the next combat.
 - **Ruin Vanguard Pursuer / concealed Seyrik:** no Card-derived protection.
-- **Riftmaw:** no Card-derived protection.
-- **Second flare:** returns only for the final War-Sorcerer confrontation and owns the current three-round Defense / Spirit bonus.
+- **Second flare:** returns only for the combined Riftmaw + War-Sorcerer final confrontation and owns the current three-round Defense / Spirit bonus.
 - neither flare is a Prime action, Prime manifestation, selectable Card command, or bearer confirmation.
 
 ## Mandatory-resource baseline
@@ -33,23 +32,38 @@ Because two encounters have moved from the solo state to the Cyanis+Ilyra state,
 
 ## Current combat order
 
-### 0-01 — S001 Opening Line — CYANIS SOLO
+### 0-01 — P01 Opening Line — CYANIS SOLO
 Formation:
 - Black Host Raider
 - Black Host Crossbowman
-- Ruin Shieldbearer
 
 Purpose:
-> basic Attack / Ability / target-selection / Guard pressure introduction
+> basic Attack / Ability / target-selection introduction
 
 Clear:
-> defeat all three
+> defeat both
 
 No statuses.
 
-### 0-02 — S001 Hound Pressure — CYANIS SOLO
+### 0-02 — P01 Shield Push — CYANIS SOLO
+Formation:
+- Black Host Raider
+- Ruin Shieldbearer
+
+Purpose:
+> introduce a more durable defensive enemy and teach target/tempo adjustment
+
+Clear:
+> defeat both
+
+No statuses.
+
+### 0-03 — P01 Hound Rush — CYANIS SOLO
 Formation:
 - 2 Convoy Rift Hounds
+
+Purpose:
+> faster pressure and a change from the Black Host soldier pairings
 
 Clear:
 > defeat both Hounds
@@ -57,36 +71,44 @@ Clear:
 No Handler.
 No reinforcement.
 
-After this fight, S001's opening combat pressure ends. **Do not place Seyrik or Riftmaw here.**
+After this fight, P01's opening combat pressure ends. **Do not place Seyrik or Riftmaw here.**
 
-### 0-03 — S002 Convoy Rift Hound — CYANIS SOLO
+### 0-04 — P02 Wreck Field Mixed Pressure — CYANIS SOLO
 Formation:
-- exactly one Convoy Rift Hound
+- Black Host Crossbowman
+- Convoy Rift Hound
+
+Purpose:
+> combine ranged and fast-melee pressure while Cyanis is moving survivors through the wreck field
+
+Clear:
+> defeat both
+
+No additional story reveal is attached to this fight.
+
+### 0-05 — P02 Survivor-Route Hound — CYANIS SOLO
+Formation:
+- exactly 1 Convoy Rift Hound
 
 Clear:
 > defeat the Hound
 
+This remains the short authored Hound beat immediately before the north-withdrawal observation.
+
 No Handler / second Hound / new creature form.
 
-### S003
+### P03 — Evacuation Relay
 > **No combat**
 
-The Evacuation Relay Decision remains a dialogue/decision sequence.
+The Evacuation Relay Decision remains a dialogue/decision sequence and provides a deliberate noncombat break after five solo fights.
 
-### S004 — Ilyra introduction / first Card flare / party expansion
-S004 establishes Ilyra through Blue Warden medical authority and her independent decision to help defend the treatment space.
-
-The first incomplete Card response occurs here as a **brief story flare**:
-- fragmented green-and-gold protection stabilizes threatened triage space long enough to move patients;
-- Cyanis is visibly strained by the phenomenon;
-- the flare then **fully subsides**;
-- the Card is inert before the next combat begins;
-- this first flare does **not** supply a carry-over combat buff to Seyrik or Riftmaw.
+### P04 — Ilyra introduction / first Card flare / party expansion
+The first incomplete Card response occurs here as a brief story flare and fully subsides before the next combat.
 
 By the time the next authored combat begins:
 > active combat pair = **Cyanis + Ilyra**.
 
-### 0-04 — Post-S004 Ruin Vanguard Pursuer — CYANIS + ILYRA
+### 0-06 — P05 Ruin Vanguard Pursuer — CYANIS + ILYRA
 Formation:
 - Ruin Vanguard Pursuer only
 
@@ -98,81 +120,33 @@ Resolution:
 Underlying retrospective canon:
 > this is **Seyrik Rell under concealed identity**.
 
-Current placement requirement:
-- this encounter occurs only **after Ilyra has joined Cyanis in combat**;
-- it is a short pressure/probing encounter rather than a boss clear;
-- **no Card-derived protection is active**;
-- Seyrik is not named, unmasked, or correctly identified;
-- the encounter must not reveal his later importance.
+No Card-derived protection is active.
 
 ### Noncombat separation after Seyrik
-There must be a real story/triage/repositioning interval after the Pursuer withdraws before Riftmaw appears.
+There must be a real story/triage/repositioning interval before P06.
 
-This interval should:
-- return attention to the wounded / defensive line;
-- allow the Pursuer's retreat to register without immediately launching another boss;
-- preserve the sense that the convoy crisis is unfolding across a damaged field rather than as a combat gauntlet.
-
-### 0-05 — Riftmaw — CYANIS + ILYRA
+### 0-07 — P06 Combined Final Boss — CYANIS + ILYRA
 Formation:
-- Riftmaw only
+- Riftmaw
+- Convoy War-Sorcerer
 
-Clear:
-> reduce Riftmaw to 0 HP
+This is the single final mandatory boss encounter for Chapter 0.
 
-Riftmaw remains a mandatory named/boss encounter.
+Current story/encounter locks:
+- Riftmaw uses one HP bar;
+- no Riftmaw transformation;
+- no support wave;
+- no injured Iron Cohort Soldier;
+- second incomplete Card flare grants **Defense +15% / Spirit +15% for Rounds 1–3**;
+- Rift Lance Preparation no earlier than Round 2;
+- the damaged recovery casing breaks during the fight after the second flare is active;
+- victory requires defeating both Riftmaw and the Convoy War-Sorcerer;
+- both are defeated in the same encounter.
 
-Current raw HP:
-> **340**
-
-All existing Riftmaw direct-damage Powers remain unchanged pending revalidation.
-
-No transformation or support wave.
-
-Current placement requirement:
-- Riftmaw occurs only after Ilyra has joined;
-- **no Card-derived protection is active**;
-- it is separate from the concealed Seyrik encounter;
-- a noncombat interval must exist between the two.
-
-### Noncombat separation before final confrontation
-After Riftmaw, give the party another short return to field/triage activity before the final War-Sorcerer push. The Card remains inert through this interval.
-
-Do not present Seyrik → Riftmaw → War-Sorcerer as one uninterrupted boss rush.
-
-### 0-06 — S005 Final Broken Convoy Confrontation — CYANIS + ILYRA
-Formation:
-- Convoy War-Sorcerer only
-
-Victory:
-> War-Sorcerer reaches 0 HP.
-
-Encounter-start recovery:
-> Cyanis + Ilyra **full HP / full MP** before battle initialization unless later Chapter-0 review changes this recovery rule; this is not a Card/Prime effect.
-
-### Second Card flare / protection
-The final organized push threatens the treatment / evacuation space and the Card produces its **second distinct incomplete response**.
-
-Protection:
-> Cyanis + Ilyra **Defense +15% / Spirit +15% for Rounds 1–3**.
-
-This protection belongs **only to the second flare in this final encounter**. It is not residual protection from S004.
-
-After the battle:
-- the second flare fully collapses;
-- the Card returns to inert state;
-- no Prime manifestation / selectable Card action / identity reveal occurs.
-
-Rift Lance Preparation:
-> Round 2 or later only.
-
-No statuses.
-No second wave.
-
-### S006
+### P07
 > **No combat**
 
-Aftermath / survivor sweep authorization / Brackenwall handoff.
+Aftermath / survivor recovery / overnight-camp handoff.
 
 ## Chapter-0 raw + Power summary
 
@@ -216,9 +190,14 @@ Enemy direct-damage Power completeness:
 > **PASS / unchanged**
 
 Difficulty-validation status:
-> **REOPENED ONLY FOR CONSEQUENCES OF THE PLACEMENT CHANGE**
+> **REOPENED FOR CURRENT ENCOUNTER FLOW**
 
-The prior Chapter-0 validation assumed the Ruin Vanguard Pursuer and Riftmaw were part of Cyanis's solo S001 pressure line. That assumption is retired. Their raw stats/Powers are not automatically changed here, but they must be retested against the new **Cyanis + Ilyra** party state before difficulty validation is closed again.
+Revalidation must cover:
+- cumulative resource pressure across the five Cyanis-solo fights;
+- P05 Ruin Vanguard Pursuer against Cyanis + Ilyra;
+- the combined P06 Riftmaw + Convoy War-Sorcerer final boss against Cyanis + Ilyra with the current three-round Card protection.
+
+Raw stats/Powers are not automatically changed by the placement revision.
 
 Detailed prior proof remains historical baseline/reference:
 `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_00_MANDATORY_COMPLETIONIST_VALIDATION.md`
