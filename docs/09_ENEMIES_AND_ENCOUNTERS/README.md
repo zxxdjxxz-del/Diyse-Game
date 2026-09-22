@@ -29,7 +29,7 @@ Quest unlock/reward presentation belongs in `11_QUESTS`.
 
 This is a design hierarchy, not a rule that every later encounter must have more HP than every earlier one.
 
-**Optional-combat rule:** Hunts are the only optional enemy encounters. Elite-strength identities belong to normal encounter pools; there is no separate optional-Elite combat category.
+**Optional-combat rule:** Hunts are the only standalone optional enemy/Elite encounters. Quest-owned combat remains governed by its owning quest. Elite-strength identities belong to normal encounter pools; there is no separate optional-Elite combat category.
 
 ## Current raw-stat fields
 
