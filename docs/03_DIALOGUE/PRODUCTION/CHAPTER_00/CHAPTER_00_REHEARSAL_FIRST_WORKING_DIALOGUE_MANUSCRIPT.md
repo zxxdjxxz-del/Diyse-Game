@@ -130,12 +130,17 @@ The Card does not react.
 
 The opening story-authorized combat pressure follows current encounter authority:
 
-**Combat 1:** Black Host Raider + Black Host Crossbowman + Ruin Shieldbearer.
+**Combat 1:** Black Host Raider + Black Host Crossbowman.
 
 After that formation breaks:
 
-**Combat 2:** Beast Handler + Convoy Rift Hound.
+**Combat 2:** Black Host Raider + Ruin Shieldbearer.
 
+After that formation breaks:
+
+**Combat 3:** 2 Convoy Rift Hounds.
+
+No Beast Handler appears in Chapter 0.  
 No concealed Ruin Vanguard appears here.  
 No Riftmaw appears here.  
 No Card flare occurs here.
@@ -277,9 +282,19 @@ The area itself shows why the center route is unsafe. No second explanation is n
 
 ---
 
+### [WRECK FIELD MIXED PRESSURE — CYANIS SOLO]
+
+Before the later survivor-route Hound beat, Cyanis crosses another active pocket of the wreck field.
+
+**AUTHORED COMBAT — BLACK HOST CROSSBOWMAN + CONVOY RIFT HOUND.**
+
+This is gameplay pressure inside the rescue traversal, not a new dialogue scene or reveal beat.
+
+---
+
 ### [AUTHORED HOUND PRESSURE]
 
-The current Chapter-0 story specifically authorizes one lone **Convoy Rift Hound** encounter threatening the survivor route.
+The current Chapter-0 story then authorizes one lone **Convoy Rift Hound** encounter threatening the survivor route.
 
 The story trigger is short.
 
