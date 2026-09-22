@@ -38,3 +38,23 @@ Rules:
 - A Sentry cannot maintain more than one signal.
 
 This is a formation relationship, not a harmful status or new universal command.
+
+## Chapter-1 behavior lock
+Targeting Signal is legal only when:
+- at least one linked Hollow Watch Ballista is conscious/functional;
+- this Sentry is not already maintaining a signal;
+- the chosen Ballista does not already have a pending completed signal reserved for its next shot.
+
+If no legal Ballista link exists:
+> Targeting Signal is ineligible and the Sentry uses Sentry Strike.
+
+When multiple legal Ballistae exist:
+- choose one legal Ballista uniformly;
+- choose the marked conscious party member uniformly;
+- one completed signal belongs to one Ballista only.
+
+Multiple Sentries may prepare separate signals only if separate legal Ballista links exist.
+
+Formation role:
+> visible setup piece — interrupt the Sentry to deny the heavier Ballista shot.
+
