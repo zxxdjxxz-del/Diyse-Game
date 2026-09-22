@@ -1,8 +1,8 @@
 # Watch Captain Frame
 
-**Chapter:** 1 — Hollow Watch optional side room  
-**Role:** optional Elite  
-**Status:** **POWER COMPLETE / v77 DIFFICULTY RECERTIFIED**
+**Chapter:** 1 — Hollow Watch lower ancient-defense pool  
+**Role:** strong normal-pool construct / Elite-strength identity  
+**Status:** **POWER COMPLETE / FORMER OPTIONAL PLACEMENT RETIRED / NORMAL-POOL REVALIDATION REQUIRED**
 
 ## Raw body — v77 difficulty recertification
 
@@ -48,17 +48,18 @@ Effect:
 
 No Barrier or Brace.
 
-## Fight-length role
-The existing optional-Elite target remains:
-> **roughly 2–4 serious party rounds**
+## Encounter role
+Watch Captain Frame is not optional side-room content.
 
-No unique cutscene or mandatory story information is added.
+It is folded into Hollow Watch's normal lower-section encounter pool as a strong construct identity. Its existing body/action kit is retained, but exact random-pool insertion weight and fight-frequency must be revalidated before finalization.
+
+No unique cutscene or optional story information is attached to the encounter.
 
 
 ## v77 mandatory-vs-completionist validation
 Actual Hollow Watch access is approximately Lv2 mandatory / Lv3 high-side, not end-Chapter-1 Lv5.
 
-The inherited 820-HP body exceeded the global 2–4 serious-round Optional-Elite target at that route point.
+The inherited 820-HP body exceeded its previous 2–4 serious-round Elite-strength target at that route point.
 
 Current active correction:
 > **HP 820 → 500**
