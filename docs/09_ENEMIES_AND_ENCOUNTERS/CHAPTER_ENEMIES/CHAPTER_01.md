@@ -23,6 +23,7 @@ Southern Briar uses all six natural-threat identities: the three established nor
 ### Hollow Watch — Black Host occupation
 - Black Host Raider — limited carryover
 - Black Host Crossbowman — limited carryover
+- Ruin Shieldbearer — limited carryover
 
 ### Hollow Watch — ancient constructs
 - Hollow Watch Sentry
@@ -56,7 +57,7 @@ Special current authorities:
 - Southern Briar adds Needlewing / Rootmaw / Brambleback and may mix all six natural-threat identities.
 - Black Host and construct ordinary enemies are Hollow Watch-only.
 - Watch Captain Frame is folded into the lower Hollow Watch normal pool; it is not optional content.
-- Ruin Shieldbearer and Brackenwall Reaver are removed from the active Chapter-1 roster; their identities/data remain retained for possible later placement.
+- Brackenwall Reaver is removed from the active Chapter-1 roster; its identity/data remain retained for possible later placement.
 - Hollow Watch Sentry → Ballista marked-shot relationship is now explicit.
 - **Briarhide Stalker is a natural wild Greater Beast with no Black Host involvement, no irritant fitting/collar, no morality puzzle, and no protected 25% floor. Its required encounter resolves by normal boss victory.**
 - Watch Captain Frame retains its Power-complete body but requires normal-pool placement revalidation.
