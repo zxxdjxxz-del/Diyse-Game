@@ -15,15 +15,15 @@ const AREAS := {
 		"formations": {
 			"light": [
 				{"id": "ch01_greenhollow_l01", "weight": 50.0, "exp": 45, "enemies": ["Greenhollow Stalker", "Thornvine Creeper"]},
-				{"id": "ch01_greenhollow_l02", "weight": 50.0, "exp": 45, "enemies": ["Briar Boar", "Thornvine Creeper"]},
+				{"id": "ch01_greenhollow_l02", "weight": 50.0, "exp": 45, "enemies": ["Greenhollow Stalker", "Greenhollow Stalker"]},
 			],
 			"standard": [
-				{"id": "ch01_greenhollow_s01", "weight": 50.0, "exp": 55, "enemies": ["Greenhollow Stalker", "Briar Boar", "Thornvine Creeper"]},
-				{"id": "ch01_greenhollow_s02", "weight": 50.0, "exp": 55, "enemies": ["Greenhollow Stalker", "Thornvine Creeper", "Thornvine Creeper"]},
+				{"id": "ch01_greenhollow_s01", "weight": 50.0, "exp": 55, "enemies": ["Briar Boar", "Thornvine Creeper"]},
+				{"id": "ch01_greenhollow_s02", "weight": 50.0, "exp": 55, "enemies": ["Greenhollow Stalker", "Briar Boar"]},
 			],
 			"heavy": [
-				{"id": "ch01_greenhollow_h01", "weight": 50.0, "exp": 70, "enemies": ["Greenhollow Stalker", "Greenhollow Stalker", "Briar Boar", "Thornvine Creeper"]},
-				{"id": "ch01_greenhollow_h02", "weight": 50.0, "exp": 70, "enemies": ["Greenhollow Stalker", "Briar Boar", "Briar Boar", "Thornvine Creeper"]},
+				{"id": "ch01_greenhollow_h01", "weight": 50.0, "exp": 70, "enemies": ["Thornvine Creeper", "Thornvine Creeper"]},
+				{"id": "ch01_greenhollow_h02", "weight": 50.0, "exp": 70, "enemies": ["Briar Boar", "Briar Boar"]},
 			],
 		},
 	},
