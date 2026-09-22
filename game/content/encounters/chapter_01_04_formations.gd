@@ -57,7 +57,7 @@ const AREAS := {
 			],
 			"heavy": [
 				{"id": "ch01_briar_south_h01", "weight": 50.0, "exp": 70, "enemies": ["Brambleback", "Briar Boar", "Rootmaw", "Thornvine Creeper"]},
-				{"id": "ch01_briar_south_h02", "weight": 50.0, "exp": 70, "enemies": ["Needlewing", "Needlewing", "Greenhollow Stalker", "Rootmaw", "Briar Boar"]},
+				{"id": "ch01_briar_south_h02", "weight": 50.0, "exp": 70, "enemies": ["Needlewing", "Needlewing", "Greenhollow Stalker", "Rootmaw"]},
 			],
 		},
 	},
