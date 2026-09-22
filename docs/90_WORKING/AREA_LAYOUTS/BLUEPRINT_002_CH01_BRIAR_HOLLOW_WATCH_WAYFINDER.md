@@ -77,6 +77,7 @@ Watch Captain Frame is a strong normal-pool enemy, not optional side-room combat
 Placement firewalls:
 - no Chapter-1 Black Host or construct random encounters in Briar Passage;
 - Southern Briar must visibly support the broader six-enemy natural ecology;
+- Southern Briar ordinary formations may contain up to **5 active enemies**; this is a Chapter-1 area-specific exception and does not raise the first-Briar or Hollow-Watch caps;
 - Hunts are the only optional combat encounters.
 
 ---
