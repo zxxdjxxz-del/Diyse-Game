@@ -139,6 +139,12 @@ func _validate_chapter_01_04_catalog(failures: Array[String]) -> void:
 		failures.append("Chapter 1-4 catalog must contain exactly the approved first-pass area tables")
 	if Catalog.has_area("ch03_caelora"):
 		failures.append("Caelora lawful personnel must not receive an ordinary random-farm table")
+	if Catalog.max_enemies_for_area("ch01_greenhollow") != 2:
+		failures.append("First Briar must retain its 2-enemy structural cap")
+	if Catalog.max_enemies_for_area("ch01_hollow_watch") != 4:
+		failures.append("Hollow Watch must retain its 4-enemy structural cap")
+	if Catalog.max_enemies_for_area("ch01_briar_south") != 5:
+		failures.append("Southern Briar must allow up to 5 active enemies")
 
 	var seen_ids := {}
 	for area_id in area_ids:
@@ -147,7 +153,9 @@ func _validate_chapter_01_04_catalog(failures: Array[String]) -> void:
 			continue
 		var chapter := Catalog.chapter_for_area(area_id)
 		var profile: Dictionary = Balance.profile_for_chapter(chapter)
-		var max_enemies := int(profile["max_enemies"])
+		var max_enemies := Catalog.max_enemies_for_area(area_id)
+		if max_enemies <= 0:
+			max_enemies = int(profile["max_enemies"])
 		for tier in Catalog.TIER_NAMES:
 			var formations: Array = Catalog.formations_for_area_tier(area_id, tier)
 			if formations.size() < 2:
@@ -166,7 +174,7 @@ func _validate_chapter_01_04_catalog(failures: Array[String]) -> void:
 					failures.append("%s must use Chapter %d %s Audit98 EXP anchor" % [formation_id, chapter, tier])
 				var enemies: Array = formation.get("enemies", [])
 				if enemies.is_empty() or enemies.size() > max_enemies:
-					failures.append("%s violates Chapter %d enemy-count limits" % [formation_id, chapter])
+					failures.append("%s violates the %s enemy-count limit" % [formation_id, area_id])
 				for enemy_name in enemies:
 					if str(enemy_name) not in ALLOWED_BY_AREA[area_id]:
 						failures.append("%s uses non-approved random enemy %s in %s" % [formation_id, enemy_name, area_id])
