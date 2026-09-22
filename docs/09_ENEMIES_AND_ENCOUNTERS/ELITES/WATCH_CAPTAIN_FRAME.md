@@ -56,6 +56,17 @@ It is folded into Hollow Watch's normal lower-section encounter pool as a strong
 No unique cutscene or optional story information is attached to the encounter.
 
 
+## Current Chapter-1 party reference
+Watch Captain Frame is encountered in Hollow Watch against exactly:
+- Cyanis;
+- Ilyra;
+- Torren.
+
+Maximum active combatants:
+> **3**
+
+Maevra is noncombat. Do not validate this normal-pool encounter against a four-character party.
+
 ## v77 mandatory-vs-completionist validation
 Actual Hollow Watch access is approximately Lv2 mandatory / Lv3 high-side, not end-Chapter-1 Lv5.
 
