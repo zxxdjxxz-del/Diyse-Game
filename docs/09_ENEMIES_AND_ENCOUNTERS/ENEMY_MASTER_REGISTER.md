@@ -19,15 +19,14 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 1 | Ordinary/carryover | Black Host Raider — limited carryover |
 | 1 | Ordinary/carryover | Black Host Crossbowman — limited carryover |
 | 1 | Ordinary/carryover | Ruin Shieldbearer — limited carryover |
-| 1 | Ordinary/carryover | Brackenwall Reaver |
 | 1 | Ordinary/carryover | Greenhollow Stalker |
 | 1 | Ordinary/carryover | Thornvine Creeper |
 | 1 | Ordinary/carryover | Briar Boar |
 | 1 | Ordinary/carryover | Hollow Watch Sentry |
 | 1 | Ordinary/carryover | Hollow Watch Ballista |
-| 1 | Authored/protected | Briarhide Stalker — mandatory nonlethal |
+| 1 | Mandatory named/boss | Briarhide Stalker — Chapter-1 main/final boss; normal lethal victory |
 | 1 | Elite | Watch Captain Frame |
-| 1 | Mandatory named/boss | Hollow Watch Castellan — one bar; Fortress → Walking same-bar |
+| 1 | Mandatory mini-boss | Hollow Watch Castellan — one bar; Fortress → Walking same-bar |
 | 1 | Regional Hunt | Regional Hunt #1 — Cistern Devourer |
 | 2 | Ordinary/carryover | Redwater Initiate |
 | 2 | Ordinary/carryover | Bogshell |
