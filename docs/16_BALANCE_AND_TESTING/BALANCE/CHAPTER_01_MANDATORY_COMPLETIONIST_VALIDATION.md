@@ -49,14 +49,14 @@ Any later stat/HP change must come from the active mandatory-vs-completionist en
 Re-run Chapter 1 against the current campaign route and actual party state at each encounter point.
 
 At minimum, re-check:
-- early Briar Passage ordinary formations;
-- Greenhollow / north-route ecology formations;
-- Hollow Watch Sentry + Ballista formations;
-- Watch Captain Frame optional Elite;
-- Hollow Watch Castellan mandatory boss;
-- Southern Briar ordinary formations;
-- **Briarhide Stalker as a normal lethal mandatory final boss**;
-- Cistern Devourer at its actual optional-access state.
+- Northern / first Briar formations using Greenhollow Stalker / Thornvine Creeper / Briar Boar;
+- Hollow Watch Black Host formations using Black Host Raider / Black Host Crossbowman / Ruin Shieldbearer;
+- Hollow Watch construct formations using Hollow Watch Sentry / Hollow Watch Ballista;
+- Watch Captain Frame as a **strong normal-pool construct**, not optional side content;
+- Hollow Watch Castellan as the mandatory **mini-boss**;
+- Southern Briar formations using all six locked natural identities: Greenhollow Stalker / Thornvine Creeper / Briar Boar / Needlewing / Rootmaw / Brambleback;
+- **Briarhide Stalker as the normal lethal mandatory Chapter-1 final boss**;
+- Cistern Devourer at its actual Hunt-access state.
 
 For every encounter, test both required baselines:
 1. **mandatory / critical-path party**;
@@ -112,7 +112,9 @@ The previous document certified a different party/encounter configuration. Its d
 
 Git history preserves that analysis if comparison is needed; it must not be copied forward as active balance authority.
 
-Specific previously derived values such as the Watch Captain's 500 HP may remain in their owning enemy files until the new validation tests them, but this file no longer certifies those values as balanced against the current party.
+Specific previously derived values such as the Watch Captain's 500 HP may remain in their owning enemy files until the new validation tests them, but this file no longer certifies those values as balanced against the current party or its new normal-pool frequency.
+
+Needlewing, Rootmaw, and Brambleback currently have locked names/identities/placement but still-open raw bodies and action Powers. Their numeric authoring and formation weights must be completed before Chapter-1 encounter validation can close.
 
 ---
 
