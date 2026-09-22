@@ -72,12 +72,21 @@ Use the project validation rule:
 
 ## Party-state firewall
 
+**Chapter-1 combat-party cap is 3. The general four-character party maximum does not apply to this chapter.**
+
+Current progression:
+- opening / first Briar: **Cyanis + Ilyra** — 2 active combatants;
+- Hollow Watch onward: **Cyanis + Ilyra + Torren** — 3 active combatants;
+- no Chapter-1 encounter has four active player characters.
+
 Do not reuse the old v77/v78 assumption that Maevra contributes battle damage or survivability.
 
 Current Chapter-1 production authority must own the exact combat roster beat by beat. In particular:
 - Maevra may travel with the group and appear in triggered scenes;
 - that does **not** make her commandable or a battle-party body;
-- Beat 13 explicitly uses **Cyanis + Ilyra + Torren** against Briarhide while Maevra remains noncombat.
+- Beat 13 explicitly uses **Cyanis + Ilyra + Torren** against Briarhide while Maevra remains noncombat;
+- all-target enemy actions therefore strike at most **3** player bodies in Chapter 1;
+- single-target pressure must be evaluated against 2 targets early and 3 targets from Hollow Watch onward, never 4.
 
 Torren's exact transition from guide/support to permanent combat member must likewise be taken from the current production beats rather than reconstructed from the superseded validation.
 
