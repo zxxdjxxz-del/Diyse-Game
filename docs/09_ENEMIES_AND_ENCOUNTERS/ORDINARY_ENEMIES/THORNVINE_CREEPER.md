@@ -46,3 +46,11 @@ Chapter-10 actions:
 - Harden — **Power N/A**, Defense +10 through end following round
 
 Same identity; no renamed late-game variant.
+
+## Chapter-1 behavior lock
+- Thorn Lash / Root Spit use the normal action-selection fallback when legal.
+- Harden is legal only while its own Defense increase is not already active.
+- Harden never stacks with itself.
+- Single-target selection is equal among conscious active party members.
+- Formation role: slower mixed physical/magical pressure and a small durability tax, not a control/status specialist.
+
