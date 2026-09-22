@@ -7,15 +7,24 @@
 
 
 ## Ordinary / repeatable
-- Black Host Raider — limited carryover
-- Black Host Crossbowman — limited carryover
-- Ruin Shieldbearer — limited carryover
-- Brackenwall Reaver
+
+### Briar Passage — natural threats
 - Greenhollow Stalker
 - Thornvine Creeper
 - Briar Boar
+
+These three identities serve both the first Briar traversal and Southern Briar through different formation composition/weights. No additional Chapter-1 Briar wildlife identity is required at this time.
+
+### Hollow Watch — Black Host occupation
+- Black Host Raider — limited carryover
+- Black Host Crossbowman — limited carryover
+- Ruin Shieldbearer — limited carryover
+
+### Hollow Watch — ancient constructs
 - Hollow Watch Sentry
 - Hollow Watch Ballista
+
+**Placement lock:** all Chapter-1 Black Host ordinary enemies and all Chapter-1 construct ordinary enemies are confined to Hollow Watch.
 
 ## Support objects / support identities
 - None
@@ -27,8 +36,8 @@
 - Watch Captain Frame
 
 ## Mandatory named / boss
-- Hollow Watch Castellan — one bar; Fortress → Walking same-bar
-- **Briarhide Stalker — required Chapter-1 final boss; wild Greater Beast; normal lethal victory; no protected HP floor**
+- **Hollow Watch Castellan — mandatory Hollow Watch mini-boss; one bar; Fortress → Walking same-bar**
+- **Briarhide Stalker — required Chapter-1 main/final boss; wild Greater Beast; normal lethal victory; no protected HP floor**
 
 ## Regional Hunt
 - Regional Hunt #1 — Cistern Devourer
@@ -41,6 +50,9 @@ Summary:
 `../ORDINARY_ENEMIES/CHAPTER_01_POWER_AND_RAW_REGISTER.md`
 
 Special current authorities:
+- Chapter-1 Briar Passage uses the same three natural-threat identities across its first and southern phases; formation changes provide the encounter variety.
+- Black Host and construct ordinary enemies are Hollow Watch-only.
+- Brackenwall Reaver is removed from the active Chapter-1 roster; its identity/data remain retained for possible future placement.
 - Hollow Watch Sentry → Ballista marked-shot relationship is now explicit.
 - **Briarhide Stalker is a natural wild Greater Beast with no Black Host involvement, no irritant fitting/collar, no morality puzzle, and no protected 25% floor. Its required encounter resolves by normal boss victory.**
 - Watch Captain Frame is Power-complete.
