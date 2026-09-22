@@ -12,6 +12,7 @@ const TIER_NAMES := ["light", "standard", "heavy"]
 const AREAS := {
 	"ch01_greenhollow": {
 		"chapter": 1,
+		"max_enemies": 2,
 		"formations": {
 			"light": [
 				{"id": "ch01_greenhollow_l01", "weight": 50.0, "exp": 45, "enemies": ["Greenhollow Stalker", "Thornvine Creeper"]},
@@ -29,6 +30,7 @@ const AREAS := {
 	},
 	"ch01_hollow_watch": {
 		"chapter": 1,
+		"max_enemies": 4,
 		"formations": {
 			"light": [
 				{"id": "ch01_hollow_watch_l01", "weight": 50.0, "exp": 45, "enemies": ["Black Host Raider", "Black Host Crossbowman"]},
@@ -46,6 +48,7 @@ const AREAS := {
 	},
 	"ch01_briar_south": {
 		"chapter": 1,
+		"max_enemies": 5,
 		"formations": {
 			"light": [
 				{"id": "ch01_briar_south_l01", "weight": 50.0, "exp": 45, "enemies": ["Needlewing", "Greenhollow Stalker", "Briar Boar"]},
@@ -57,7 +60,7 @@ const AREAS := {
 			],
 			"heavy": [
 				{"id": "ch01_briar_south_h01", "weight": 50.0, "exp": 70, "enemies": ["Brambleback", "Briar Boar", "Rootmaw", "Thornvine Creeper"]},
-				{"id": "ch01_briar_south_h02", "weight": 50.0, "exp": 70, "enemies": ["Needlewing", "Needlewing", "Greenhollow Stalker", "Rootmaw"]},
+				{"id": "ch01_briar_south_h02", "weight": 50.0, "exp": 70, "enemies": ["Needlewing", "Needlewing", "Greenhollow Stalker", "Rootmaw", "Briar Boar"]},
 			],
 		},
 	},
@@ -205,3 +208,9 @@ static func formations_for_area_tier(area_id: String, tier: String) -> Array:
 	if not formations.has(tier):
 		return []
 	return formations[tier].duplicate(true)
+
+
+static func max_enemies_for_area(area_id: String) -> int:
+	if not AREAS.has(area_id):
+		return 0
+	return int(AREAS[area_id].get("max_enemies", 0))
