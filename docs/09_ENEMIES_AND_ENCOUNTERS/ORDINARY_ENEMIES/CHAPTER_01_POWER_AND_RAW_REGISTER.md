@@ -1,6 +1,6 @@
 # Chapter 1 — Ordinary Enemy Power + Raw Register
 
-**Status:** **REOPENED ONLY FOR NEEDLEWING / ROOTMAW / BRAMBLEBACK + WATCH-CAPTAIN NORMAL-POOL REVALIDATION**
+**Status:** **ALL CHAPTER-1 ORDINARY RAW BODIES/ACTION POWERS AUTHORED / ENCOUNTER VALIDATION REOPENED**
 
 These Chapter-1 ordinary raw bodies are:
 > **newly authored active-balance values**
@@ -17,6 +17,9 @@ Individual enemy files remain the owning authority.
 | Greenhollow Stalker | 3 | 135 | 29 | 10 | 15 | 13 | 27 | 5 | 0 | 140 / 125 |
 | Thornvine Creeper | 3 | 155 | 23 | 24 | 18 | 18 | 15 | 0 | 5 | 115 / 120 |
 | Briar Boar | 4 | 195 | 32 | 8 | 22 | 15 | 21 | 0 | 0 | 160 / 145 |
+| Needlewing | 4 | 120 | 27 | 18 | 13 | 16 | 31 | 10 | 0 | 130 / 115 |
+| Rootmaw | 5 | 230 | 30 | 30 | 24 | 23 | 14 | 0 | 5 | 140 / 135 |
+| Brambleback | 5 | 265 | 35 | 8 | 29 | 18 | 18 | 0 | 5 | 165 / AoE 95 |
 | Hollow Watch Sentry | 3 | 130 | 24 | 26 | 20 | 21 | 24 | 0 | 10 | 120 |
 | Hollow Watch Ballista | 4 | 170 | 40 | 0 | 22 | 18 | 18 | 0 | 10 | 135 / marked 200 |
 
@@ -27,10 +30,10 @@ Active Chapter-1 ordinary roster with closed numeric bodies:
 - Hollow Watch Black Host: Black Host Raider / Black Host Crossbowman / Ruin Shieldbearer
 - Hollow Watch constructs: Hollow Watch Sentry / Hollow Watch Ballista
 
-New Southern-Briar identities with numeric authoring still OPEN:
-- Needlewing
-- Rootmaw
-- Brambleback
+Southern-Briar identities now authored:
+- Needlewing — fast aerial harasser;
+- Rootmaw — slow durable mixed physical/Earth pressure;
+- Brambleback — armored bruiser with capped three-target sweep.
 
 Strong normal-pool converted identity:
 - Watch Captain Frame — retains its existing body/Power in the Elite owner file; normal-pool placement revalidation required.
@@ -65,3 +68,12 @@ Result:
 > **PASS — NO ORDINARY RAW/POWER CHANGES**
 
 Watch Captain Frame is separately adjusted in its Elite owner file: **HP 820 → 500**.
+
+
+## Chapter-1 party-size firewall
+- opening / first Briar: Cyanis + Ilyra — 2 combatants;
+- Hollow Watch onward: Cyanis + Ilyra + Torren — 3 combatants;
+- Maevra is noncombat;
+- no Chapter-1 ordinary-enemy body is tuned against a four-character party.
+
+The new Southern-Briar bodies remain subject to encounter validation; authoring completion does not equal balance certification.
