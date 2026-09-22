@@ -2,9 +2,9 @@
 
 **Chapter:** 1 — Southern Briar Passage  
 **Role:** ordinary natural threat / armored woodland bruiser  
-**Status:** **SOUTHERN-BRIAR ENEMY SLOT LOCKED / WORKING NAME + KIT / RAW BODY + ACTION POWER OPEN**
+**Status:** **IDENTITY + NAME + SOUTHERN-BRIAR PLACEMENT LOCKED / RAW BODY + ACTION POWER OPEN**
 
-## Working ecology / combat identity
+## Ecology / combat identity
 - native Southern Briar wildlife;
 - broad, heavily protected animal whose hide carries dense bark/thorn-like growth;
 - appears only in Southern Briar during Chapter 1;
@@ -15,3 +15,7 @@
 Raw stats, exact action list, Power values, rewards, and final formation weight are open pending the Chapter-1 enemy-authoring and mandatory/completionist revalidation pass.
 
 Chapter 1 may use Bleed as a harmful-status rider; do not introduce Burn, Freeze, Stun, or Staggered through this enemy without a separate rollout revision.
+
+
+## Name / identity lock
+**Brambleback** is the locked current enemy name and identity for Chapter 1 Southern Briar unless explicitly revised later.
