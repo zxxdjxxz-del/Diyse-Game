@@ -60,7 +60,7 @@ This applies to every fresh-body encounter above, including Regulation Crucible 
 
 ## Representative true-battle certification
 Completed:
-- **Hollow Watch Castellan — v93 PASS / RETAIN**;
+- **Hollow Watch Castellan — v93 historical PASS under the superseded Maevra-party assumption; current Cyanis + Ilyra + Torren revalidation required**;
 - **Archive Leviathan — v97 PASS / RETAIN**;
 - **Regulation Crucible → The Seventh Reaction — v99 PASS / RETAIN**;
 - **Warden of the Nameless / Revision Arbiter — v100 PASS / RETAIN**;
