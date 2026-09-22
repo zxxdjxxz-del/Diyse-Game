@@ -18,6 +18,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 0 | Mandatory named/boss | Riftmaw |
 | 1 | Ordinary/carryover | Black Host Raider — limited carryover |
 | 1 | Ordinary/carryover | Black Host Crossbowman — limited carryover |
+| 1 | Ordinary/carryover | Ruin Shieldbearer — limited carryover |
 | 1 | Ordinary/carryover | Greenhollow Stalker |
 | 1 | Ordinary | Needlewing |
 | 1 | Ordinary | Rootmaw |
