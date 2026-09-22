@@ -13,7 +13,7 @@ This is the single cumulative structural/development workspace for Chapter 2. Ke
 
 Storage note:
 - exact wording authority is the sixteen standalone Beat files in `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/`;
-- `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` remains the current 88-line Chapter-2 cleanup Character-Life scene (canonical C05);
+- `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` is the current 83-line Chapter-2 cleanup Character-Life scene (canonical C05);
 - `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` is the current dialogue-location/authority map;
 - the combined manuscript is stale and must be regenerated from the atomics before use as a current read-through.
 

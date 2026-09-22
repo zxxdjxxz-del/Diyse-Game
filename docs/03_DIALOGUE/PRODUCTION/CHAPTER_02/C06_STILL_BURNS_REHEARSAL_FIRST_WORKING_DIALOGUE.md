@@ -1,7 +1,7 @@
 # Chapter 2 Character-Life — C05 — Still Burns
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DRAFT — NATURAL-TURN + TORREN SOCIAL-COMFORT PASS  
-**Availability:** Chapter 2 cleanup, after the Beat-16 Dunmere elder resolution and before the explicit Chapter-3 start interaction  
+**Status:** CURRENT EXACT DIALOGUE AUTHORITY — TRUE-VOICE / NATURAL-TURN / ROLE-BALANCE / DIALOGUE-ECONOMY PASS
+**Availability:** Chapter 2 cleanup, after the Beat-16 Dunmere elder resolution and before the explicit Chapter-3 start interaction
 **Participants:** Torren, Ilyra, Maevra, Cyanis
 
 ## Scene seed
@@ -11,7 +11,11 @@ This remains low-stakes Character-Life. No Bastion recap, trauma disclosure, anc
 
 ---
 
+### [DUNMERE INN — LATE NIGHT]
+
 Late night at the Dunmere inn.
+
+Torren is smoking by an open window. Ilyra wakes because it smells noticeably worse than the previous day. His stash was soaked in the waterworks. Maevra and Cyanis enter only because the smell/argument wakes them.
 
 The room is dark except for a low lamp and what little moonlight reaches through the open window.
 
@@ -179,23 +183,11 @@ Cyanis gets out of bed and stops well short of Torren.
 
 **TORREN:** Don't need more.
 
-**MAEVRA:** You absolutely need more.
-
 **CYANIS:** I'll pay for it if that gets this one out of the building.
 
 Torren looks at him.
 
 **TORREN:** Fuck off.
-
-**CYANIS:** Generous offer, cruelly rejected.
-
-**ILYRA:** I'll pay half.
-
-**MAEVRA:** I'll pay the other half if you throw that one out tonight.
-
-Torren stares at all three of them.
-
-**TORREN:** No.
 
 A beat.
 
@@ -208,8 +200,6 @@ A beat.
 **MAEVRA:** And stayed there.
 
 **CYANIS:** Long enough to develop opinions.
-
-That quick three-line escalation stays quick because the joke benefits from it.
 
 Torren looks down at the blunt, then takes another pull purely on principle.
 
@@ -273,7 +263,7 @@ The window stays open. Nobody goes immediately back to bed.
 
 Cyanis takes the chair by the wall. Ilyra stays sitting against the bedframe. Maevra shifts until the splinted arm is comfortable. Torren remains on the floor beneath the window.
 
-For a little while they complain about the cold instead. That conversation is not important enough to transcribe every line.
+For a little while, they complain about the cold instead.
 
 Eventually the room becomes quiet again.
 
@@ -300,17 +290,3 @@ He moves the pouch farther away.
 Maevra laughs into her pillow.
 
 Fade.
-
-> **END C05 — STILL BURNS**
-
----
-
-## Natural-turn / continuity notes
-
-- The scene is an important Chapter-2 proof of Torren's social opening: he is stubborn, funny, participatory, willing to argue recreationally, and capable of carrying an ordinary conversation that has nothing to do with maps or routes.
-- Fast one-line escalation remains where comedy benefits from it, but Torren is not confined to one-word deadpan as a character template.
-- Torren's smoking remains ordinary established behavior, not framed as impairment or a vice intervention.
-- The joke remains specifically about the stash being soaked in the Chapter-2 waterworks and smelling terrible after drying.
-- Maevra and Cyanis still wake naturally because of the smell/argument.
-- Maevra/Torren's practiced familiarity is obvious, but **no exact duration, enlistment age, or romantic history is revealed here**.
-- No trauma disclosure, Bastion recap, Rhazek analysis, ancient-map exposition, or future reveal is added.
