@@ -53,7 +53,7 @@ Southern Briar uses the northern three plus the three locked Southern-only ident
 - Rootmaw
 - Brambleback
 
-This phase is balanced for **Cyanis + Ilyra + Torren** and may use 3–4 active enemies.
+This phase is structurally authored for **Cyanis + Ilyra + Torren** and may use **3–5 active enemies**. Southern Briar is the Chapter-1 exception that may reach five enemies in one formation.
 
 | Tier | Formation | Composition | Within-tier weight |
 |---|---|---|---:|
@@ -62,7 +62,7 @@ This phase is balanced for **Cyanis + Ilyra + Torren** and may use 3–4 active 
 | Standard | **Rootbound Growth** | 1 Rootmaw + 2 Thornvine Creepers + 1 Needlewing | 50% |
 | Standard | **Bramble Wall** | 1 Brambleback + 1 Briar Boar + 1 Thornvine Creeper | 50% |
 | Heavy | **Heavy Woods** | 1 Brambleback + 1 Briar Boar + 1 Rootmaw + 1 Thornvine Creeper | 50% |
-| Heavy | **Canopy Rush** | 2 Needlewings + 1 Greenhollow Stalker + 1 Rootmaw | 50% |
+| Heavy | **Canopy Rush** | 2 Needlewings + 1 Greenhollow Stalker + 1 Rootmaw + 1 Briar Boar | 50% |
 
 The listed Southern-Briar compositions are the current **structural formation set** for the three-character party.
 
@@ -73,6 +73,13 @@ Final:
 - damage/attrition targets;
 
 remain **OPEN** until the mandatory level/progression rebalance is complete.
+
+## Chapter-1 area enemy-count caps
+- First / northern Briar: **2**
+- Hollow Watch: **4**
+- Southern Briar: **5**
+
+These are structural area caps, not final difficulty certification. Southern Briar is the only Chapter-1 ordinary-random pool currently allowed to reach five active enemies.
 
 ## Roster boundary
 
