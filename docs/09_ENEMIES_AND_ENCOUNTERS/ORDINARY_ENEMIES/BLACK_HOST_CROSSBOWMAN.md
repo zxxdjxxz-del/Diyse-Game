@@ -43,3 +43,11 @@ No Bleed rider in Chapter 0.
 
 ## Chapter-0 placement lock
 Black Host Crossbowman is part of the locked Chapter-0 roster. Current authored use: **P01 Combat 1 and P02 Mixed Pressure**.
+
+## Chapter-1 behavior lock
+- Uses the normal action-selection fallback between currently legal Crossbow Bolt and Aimed Bolt.
+- Aimed Bolt keeps its Chapter-1 repetition lock.
+- Single-target selection is equal among conscious active party members.
+- No back-row/healer priority is inferred from the ranged identity.
+- Formation role: lighter ranged body whose danger comes from remaining active beside other Host roles.
+
