@@ -1,9 +1,9 @@
 # Convoy War-Sorcerer
 
-**Chapter:** 0 — S005 final Broken Convoy confrontation  
+**Chapter:** 0 — P06 combined final Broken Convoy confrontation  
 **Status:** **POWER COMPLETE / AUTHORED STORY BODY**
 
-This is the exact War-Sorcerer named by line-complete S004/S005.
+This is the exact War-Sorcerer used in the current P06 combined final boss with Riftmaw.
 
 ## Body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -49,12 +49,16 @@ Rift Lance is legal only after Rift Lance Preparation.
 
 No harmful-status rider.
 
-## S005 target rule
-The Convoy War-Sorcerer is:
-> **the encounter's central/victory target**
+## P06 victory rule
+The Convoy War-Sorcerer is one of two mandatory bodies in P06:
+- Convoy War-Sorcerer;
+- Riftmaw.
 
-At 0 HP:
-- battle ends;
+Victory requires both bodies to be defeated.
+
+At War-Sorcerer 0 HP:
+- the War-Sorcerer is defeated;
+- the battle continues if Riftmaw remains active;
 - no second wave occurs.
 
 No Phase 2.
@@ -64,6 +68,6 @@ No Prime refresh.
 
 ## Chapter-0 formation lock
 The final Broken Convoy confrontation uses:
-> **Convoy War-Sorcerer only**
+> **Riftmaw + Convoy War-Sorcerer**
 
-The injured Iron Cohort Soldier is not part of the Chapter-0 combat roster.
+The injured Iron Cohort Soldier is not part of the Chapter-0 combat roster. There is no separate Riftmaw fight and no separate later War-Sorcerer fight.
