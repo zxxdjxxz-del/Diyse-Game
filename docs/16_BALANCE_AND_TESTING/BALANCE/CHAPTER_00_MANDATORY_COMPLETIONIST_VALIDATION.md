@@ -1,8 +1,34 @@
 # Diyse — Chapter 0 Mandatory-vs-Completionist Validation
 
 **Chapter:** 0 — The Broken Convoy  
-**Status:** **ADJUSTED / VALIDATED**  
+**Status:** **REOPENED / REVALIDATION REQUIRED**  
 **Power audit:** **CLOSED — NO POWER VALUES CHANGED**
+
+## Current encounter-flow correction — 2026-09-22
+
+The prior validation below tested a superseded Chapter-0 encounter order and is **historical evidence only**, not current certification.
+
+Current authored combat order:
+
+**Cyanis solo**
+1. Black Host Raider + Black Host Crossbowman;
+2. Black Host Raider + Ruin Shieldbearer;
+3. 2 Convoy Rift Hounds;
+4. Black Host Crossbowman + Convoy Rift Hound;
+5. 1 Convoy Rift Hound.
+
+**After Ilyra joins**
+6. Ruin Vanguard Pursuer / concealed Seyrik — protected disengagement;
+7. Riftmaw + Convoy War-Sorcerer — one combined final boss encounter with the current three-round second-flare protection.
+
+Retired Chapter-0 combat assumptions:
+- Beast Handler;
+- injured Iron Cohort Soldier;
+- solo Cyanis vs Ruin Vanguard Pursuer;
+- solo Cyanis vs Riftmaw;
+- separate Riftmaw and War-Sorcerer boss fights.
+
+Revalidation must test cumulative HP/MP/item pressure across all five solo fights, then the current Cyanis + Ilyra P05/P06 states. Existing raw bodies and direct-damage Powers remain retained unless that validation produces an explicit change.
 
 ## Route relationship
 Chapter 0 has no meaningful completionist divergence before its combat is resolved.
@@ -67,7 +93,7 @@ This recovery boundary is not a Card/Prime effect.
 S005 also retains:
 > **+15 Total Defense to Cyanis and Ilyra for Rounds 1–3**
 
-## Damage reference — Cyanis
+## Historical damage reference — superseded encounter layout
 Approximate direct damage under the current formula before crits or temporary defensive states:
 
 | Target | Basic Attack | Crest Strike | Resonant Pulse |
@@ -81,7 +107,7 @@ Approximate direct damage under the current formula before crits or temporary de
 | Injured Soldier | 43.0 | 60.1 | 51.5 |
 | War-Sorcerer | 40.2 | 56.3 | 42.8 |
 
-## Encounter findings
+## Historical encounter findings — superseded encounter layout
 ### 0-01 — Opening Line
 Raider + Crossbowman + Shieldbearer
 
@@ -163,7 +189,7 @@ Result:
 
 No Power/raw adjustment required.
 
-## Chapter 0 certification
+## Historical Chapter 0 certification — superseded
 ### Mandatory route
 > **PASS AFTER TARGETED RIFTMAW DURABILITY ADJUSTMENT**
 
@@ -179,7 +205,13 @@ There is no optional-progression gap to erase or preserve inside Chapter 0.
 4. Reduced **Riftmaw HP 760 → 340**.
 5. Changed **zero direct-damage Power values**.
 
-## Next validation frontier
+## Current next action
+
+> **Re-run Chapter 0 against the five-fight Cyanis-solo sequence and the current combined P06 boss before treating any old PASS result as current.**
+
+After Chapter 0 is recertified, Chapter 1 remains separately reopened for its current roster/party-state changes.
+
+## Historical next validation frontier
 Do not redo the already-authored preliminary mandatory story-boss recertification for Chapters 1–13 unless the broader formation/resource pass exposes a contradiction.
 
 Proceed to:
