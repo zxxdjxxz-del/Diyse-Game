@@ -1,6 +1,6 @@
 # Ruin Shieldbearer
 
-**Current certified use:** Chapter 1 limited carryover  
+**Current certified use:** Chapter 0; Chapter-1 body retained but unplaced  
 **Status:** **CH1 POWER COMPLETE / CH1 RAW BODY AUTHORED**
 
 ## Chapter-1 body
@@ -51,3 +51,9 @@ Chapter-0 actions:
 No Barrier.
 No Brace.
 No harmful-status rider.
+
+
+## Chapter-1 placement correction — 2026-09-22
+Ruin Shieldbearer is no longer in the active Chapter-1 encounter roster.
+
+Its Chapter-1-authored body remains retained as historical/available data, but Hollow Watch's Black Host pool is currently limited to Black Host Raider + Black Host Crossbowman so the area does not regain excess enemy-count bloat after Watch Captain Frame is folded into the normal construct pool.
