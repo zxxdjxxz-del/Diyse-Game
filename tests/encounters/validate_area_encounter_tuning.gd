@@ -85,7 +85,7 @@ func _validate_transition_semantics(failures: Array[String]) -> void:
 
 	if not controller.configure_context(
 		1,
-		"ch01_brackenwall",
+		"ch01_briar_south",
 		10.0,
 		Controller.TRANSITION_NEW_ECOLOGY
 	):
@@ -158,7 +158,7 @@ func _validate_transition_semantics(failures: Array[String]) -> void:
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Audit98 area encounter tuning and ecology transition validation passed.")
+		print("Current area encounter tuning and ecology transition validation passed.")
 		quit(0)
 		return
 	for failure in failures:
