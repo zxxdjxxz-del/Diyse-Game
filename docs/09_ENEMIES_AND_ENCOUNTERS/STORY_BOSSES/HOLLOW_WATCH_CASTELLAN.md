@@ -2,9 +2,20 @@
 
 **Chapter:** 1
 **Encounter:** S008 / Hollow Watch
-**Status:** **v93 TRUE-BATTLE CERTIFIED — RETAIN / CHAPTER-1 CALIBRATION ANCHOR**
+**Role:** **mandatory Hollow Watch mini-boss; not the Chapter-1 main/final boss**
+**Status:** **RAW/POWER RETAINED / CURRENT PARTY-STATE REVALIDATION REQUIRED**
 
-## Actual party reference
+## Current party-state correction
+Current story authority uses:
+- Cyanis
+- Ilyra
+- Torren
+
+Maevra travels with the group but is **noncombat** throughout Chapter 1.
+
+The v93 certification material below used the superseded Cyanis + Ilyra + Maevra battle-party assumption. Preserve it as historical analytical evidence only; it does not close current validation. Raw stats and Powers remain retained unless the reopened validation produces an explicit adjustment.
+
+## Historical v93 party reference — superseded
 Central test:
 - Cyanis — approximately Lv2 / Crest Knight CL1
 - Ilyra — approximately Lv2 / Blue Warden CL1
