@@ -25,8 +25,8 @@
 ## Authored / protected / nonlethal
 - Crown Engine Technician — protected authored nonlethal
 
-## Optional Elite
-- Perfect Administrator
+## Strong normal-pool identity
+- Perfect Administrator — folded into the chapter/area normal encounter pool; not optional combat
 
 ## Mandatory named / boss
 - Chancellor Othmar Calder — Protector of Continuity → Crown-Bound Living Anchor — genuine fresh body
@@ -59,7 +59,7 @@ One bar. No support wave. No permanent player-state erasure.
 ## Numerical boundary
 Chapter-11 ordinary raw bodies are now active-balance authority in individual files.
 
-Perfect Administrator retains its inherited optional-Elite raw line.
+Perfect Administrator retains its inherited Elite-strength raw line.
 
 Mandatory Calder/Custodian and support-object authority remains separately owned and is **FORMALLY VALIDATED v87** with no numerical change.
 
