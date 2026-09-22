@@ -23,8 +23,8 @@
 - Elder Briarhide — mandatory nonlethal
 - Reaction Conduit — mandatory nonlethal stabilization
 
-## Optional Elite
-- Annex Duelist — one chassis / one bar / exactly four elemental states
+## Strong normal-pool identity
+- Annex Duelist — one chassis / one bar / exactly four elemental states — folded into the chapter/area normal encounter pool; not optional combat
 
 ## Mandatory named / boss
 - Regulation Crucible — fresh Form I
@@ -68,7 +68,7 @@ No refill, free action, or Prime refresh at state change.
 ## Numerical boundary
 Chapter-4 ordinary raw bodies are now newly authored active-balance authority in individual files.
 
-Annex Duelist retains its inherited optional-Elite raw line.
+Annex Duelist retains its inherited Elite-strength raw line.
 
 Mandatory named/boss raw authority remains separate and unchanged.
 
