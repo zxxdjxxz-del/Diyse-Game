@@ -32,7 +32,7 @@ There is **no approved strong normal-pool Elite** in current Chapter 10.
 Do not invent one simply to force a one-Elite-per-chapter pattern.
 
 ## Chapter 0
-Ruin Vanguard Pursuer remains a structural/tutorial Elite outside this numbered table.
+Ruin Vanguard Pursuer is a mandatory authored/protected Chapter-0 encounter outside this former-optional-Elite table.
 
 ## Fight-length center
 Strong normal-pool Elites are generally about:
