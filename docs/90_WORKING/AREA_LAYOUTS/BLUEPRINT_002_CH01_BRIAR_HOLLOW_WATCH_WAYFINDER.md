@@ -40,6 +40,47 @@ Current cleanup constraints carried into layout:
 
 ---
 
+# 1A. Current Enemy Placement Lock
+
+Chapter-1 enemy names and area assignments are locked for layout work.
+
+**Upper / first Briar**
+- Greenhollow Stalker
+- Thornvine Creeper
+- Briar Boar
+
+**Hollow Watch — Black Host**
+- Black Host Raider
+- Black Host Crossbowman
+- Ruin Shieldbearer
+
+**Hollow Watch — ancient constructs**
+- Hollow Watch Sentry
+- Hollow Watch Ballista
+- Watch Captain Frame
+
+Watch Captain Frame is a strong normal-pool enemy, not optional side-room combat.
+
+**Southern Briar**
+- Greenhollow Stalker
+- Thornvine Creeper
+- Briar Boar
+- Needlewing
+- Rootmaw
+- Brambleback
+
+**Named encounters**
+- Hollow Watch Castellan — mandatory mini-boss
+- Briarhide Stalker — Chapter-1 main/final boss
+- Cistern Devourer — Hunt; optional combat
+
+Placement firewalls:
+- no Chapter-1 Black Host or construct random encounters in Briar Passage;
+- Southern Briar must visibly support the broader six-enemy natural ecology;
+- Hunts are the only optional combat encounters.
+
+---
+
 # 2. Technical Blockout Baseline
 
 Carry forward the current proof-runtime anchors:
