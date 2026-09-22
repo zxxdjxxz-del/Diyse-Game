@@ -13,8 +13,8 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 0 | Ordinary/carryover | Black Host Crossbowman |
 | 0 | Ordinary/carryover | Ruin Shieldbearer |
 | 0 | Ordinary/carryover | Convoy Rift Hound |
-| 0 | Ordinary/carryover | Beast Handler |
 | 0 | Elite | Ruin Vanguard Pursuer — structural/tutorial Elite |
+| 0 | Authored | Convoy War-Sorcerer |
 | 0 | Mandatory named/boss | Riftmaw |
 | 1 | Ordinary/carryover | Black Host Raider — limited carryover |
 | 1 | Ordinary/carryover | Black Host Crossbowman — limited carryover |
