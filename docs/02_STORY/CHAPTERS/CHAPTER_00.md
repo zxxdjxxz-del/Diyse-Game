@@ -95,11 +95,13 @@ The former eight-beat split that separated Riftmaw from the final War-Sorcerer c
 **Combat 1 — Cyanis solo**
 - Black Host Raider
 - Black Host Crossbowman
-- Ruin Shieldbearer
 
 **Combat 2 — Cyanis solo**
-- Beast Handler
-- Convoy Rift Hound
+- Black Host Raider
+- Ruin Shieldbearer
+
+**Combat 3 — Cyanis solo**
+- 2 Convoy Rift Hounds
 
 **End state**
 - convoy badly damaged, not destroyed;
@@ -128,7 +130,9 @@ Do not reveal Black Host scout motive, Seyrik identity, Prime/Might/Last Sentine
 - Cyanis organizes safer survivor movement instead of simply pursuing enemies.
 - He performs plausible field rescue/first-aid support without becoming a medical specialist.
 - The safer lower stone-line route is preferred over a shorter unstable/exposed route.
-- A lone Convoy Rift Hound encounter occurs under encounter authority.
+- Two additional Cyanis-solo encounters occur during the Wreck Field traversal:
+  1. Black Host Crossbowman + Convoy Rift Hound;
+  2. one lone Convoy Rift Hound threatening the survivor route.
 - Cyanis and the convoy officer observe Black Host forces withdrawing north.
 - The northern cut is unusually clear while other routes are damaged/blocked.
 - Cyanis treats bait as a grounded hypothesis, not supernatural certainty.
@@ -422,4 +426,4 @@ Party does **not** know:
 - Seyrik Rell's identity as the Ruin Vanguard Pursuer.
 
 ## Final dramatic shape
-**Working convoy / Cyanis competence → ambush → two solo pressure fights → Wreck Field rescue + lone Hound → suspicious north withdrawal → evidence-based refusal of pursuit → triage camp → Ilyra introduced through medical authority → first incomplete Card flare → Ilyra independently joins defense → concealed Seyrik pressure encounter with Card inert → real breathing/reset interval → combined Riftmaw + War-Sorcerer final boss with second incomplete flare + casing break → organized attack breaks → survivor recovery / bounded sweep → most convoy continues → Cyanis + Ilyra remain overnight with the intact Card itself → optional C01 Six Minutes → player explicitly chooses departure → Chapter 1 begins at Brackenwall.**
+**Working convoy / Cyanis competence → ambush → three solo opening fights → Wreck Field rescue + two more solo fights → suspicious north withdrawal → evidence-based refusal of pursuit → triage camp → Ilyra introduced through medical authority → first incomplete Card flare → Ilyra independently joins defense → concealed Seyrik pressure encounter with Card inert → real breathing/reset interval → combined Riftmaw + War-Sorcerer final boss with second incomplete flare + casing break → organized attack breaks → survivor recovery / bounded sweep → most convoy continues → Cyanis + Ilyra remain overnight with the intact Card itself → optional C01 Six Minutes → player explicitly chooses departure → Chapter 1 begins at Brackenwall.**
