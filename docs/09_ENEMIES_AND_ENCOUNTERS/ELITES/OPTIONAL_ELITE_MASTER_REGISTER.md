@@ -7,7 +7,7 @@
 
 
 Current rule:
-> **Hunts are the only optional enemy encounters.**
+> **Hunts are the only standalone optional enemy/Elite encounters. Quest-owned combat remains governed by its owning quest.**
 
 The 12 identities historically tracked here are **former strong normal-pool Elites**. They are now strong normal-pool enemies in their owning chapter/area. Unique/named identities use one-time normal-pool entries rather than repeatable duplicates.
 
@@ -395,4 +395,4 @@ Current encounter rule:
 - existing raw bodies and Powers remain in force unless their new pool placement requires revalidation;
 - any former optional-only EXP/CEXP/G treatment must be reconciled in the progression/reward owners.
 
-Hunts remain the only optional combat encounters.
+Hunts remain the only standalone optional enemy/Elite encounters; quest-owned combat remains quest-owned.
