@@ -34,8 +34,8 @@
 
 **Retired:** `Hold the Junction` is not a current Chapter-2 encounter. Do not recreate its fixed formation, second-wave logic, extraction causeway, or post-extraction combat.
 
-## Optional Elite
-- Archive Duplicant
+## Strong normal-pool identity
+- Archive Duplicant — folded into the chapter/area normal encounter pool; not optional combat
 
 ## Mandatory named / boss
 - Archive Leviathan
