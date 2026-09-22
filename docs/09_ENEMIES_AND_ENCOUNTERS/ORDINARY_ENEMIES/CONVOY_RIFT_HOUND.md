@@ -37,9 +37,10 @@ It is not silently replaced by the later generic Rift Hound body.
 No harmful-status rider in Chapter 0.
 
 ## Chapter-0 placement lock
-Convoy Rift Hound appears in Chapter 0 in two authored uses:
-- S001 Hound Pressure — **2 Convoy Rift Hounds**;
-- S002 Wreck Field — **1 Convoy Rift Hound**.
+Convoy Rift Hound appears in Chapter 0 in three authored uses:
+- P01 Hound Rush — **2 Convoy Rift Hounds**;
+- P02 Wreck Field Mixed Pressure — **1 Convoy Rift Hound + 1 Black Host Crossbowman**;
+- P02 Survivor-Route Hound — **1 Convoy Rift Hound**.
 
 Do not add:
 - Beast Handler;
