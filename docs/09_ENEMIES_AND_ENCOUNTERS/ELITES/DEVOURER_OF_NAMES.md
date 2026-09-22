@@ -1,6 +1,6 @@
 # Devourer of Names
 
-**Chapter:** 13 optional Elite  
+**Chapter:** 13 strong normal-pool Elite  
 **Architecture:** one HP bar / one temporary capped Echo support  
 **Status:** **FORMALLY VALIDATED v89 / POWER COMPLETE / RAW LINE RETAINED**
 
@@ -98,9 +98,18 @@ No second form.
 No replacement Echo.
 No permanent-state erasure.
 
-Standing optional-Elite fight-length target:
+Standing Elite-strength fight-length target:
 > **roughly 2–4 serious party rounds**
 
 
 ## v89 mandatory-vs-completionist certification
-**PASS / FORMALLY VALIDATED.** Practical mandatory access is Lv58–60; completionist access is Lv69–70. Identity Crush remains about 19–20% Max HP on the deliberately fragile unequipped mandatory reference and about 14.5% at Lv70. The single 900-HP no-turn Consumed Echo is finite. The 7,000-HP body remains compatible with the 2–4 serious-round optional-Elite target once the full legal late-game toolkit is counted. No raw stat or Power changed.
+**PASS / FORMALLY VALIDATED.** Practical mandatory access is Lv58–60; completionist access is Lv69–70. Identity Crush remains about 19–20% Max HP on the deliberately fragile unequipped mandatory reference and about 14.5% at Lv70. The single 900-HP no-turn Consumed Echo is finite. The 7,000-HP body remains compatible with the 2–4 serious-round Elite-strength target once the full legal late-game toolkit is counted. No raw stat or Power changed.
+
+
+## Normal-pool conversion — 2026-09-22
+Devourer of Names is no longer optional side content.
+
+Current role:
+> **strong normal-pool enemy**
+
+It is encountered through Chapter 13's normal final-domain encounter structure. Because the identity is unique/named, use a one-time normal-pool entry rather than repeatable copies. Existing raw stats and Power remain retained; encounter frequency/placement and reward impact require revalidation where the prior optional placement mattered.
