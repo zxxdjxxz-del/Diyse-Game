@@ -44,7 +44,7 @@
 
 ## Exact payout certification
 - ordinary formations = **~135,600 G expected route total** — PASS
-- optional Elites = **38,900 G** — PASS
+- former optional-Elite standalone bounty layer = **RETIRED (historical 38,900 G)**
 - mandatory story bosses/named encounters = **92,700 G** — PASS
 - fixed authored combat/event payouts = **5,300 G** — PASS
 - mandatory non-battle map = **80,800 G** — PASS
@@ -63,15 +63,15 @@ Ordinary-formation share of mandatory direct G:
 > **~42.8%** — PASS
 
 Optional authored direct G:
-> **329,600 G** — PASS
+> **290,700 G** — CURRENT AFTER ELITE-Bounty RETIREMENT
 
 Broad completionist direct-cash reference:
-> **~646,500 G** — PASS
+> **~607,600 G** — CURRENT REFERENCE; RECALIBRATION OPEN
 
 Target:
 > **roughly 650,000 G**
 
-The calibrated completionist total lands within normal route/encounter variance of the target.
+The prior completionist calibration no longer lands near the target because the standalone optional-Elite bounty layer was intentionally removed. Optional/completionist cash calibration is reopened.
 
 ## Chapter liquidity certification
 Owner validation:
@@ -90,6 +90,6 @@ Results:
 - premium Consumables correctly remain outside baseline solvency — PASS
 
 ## Status
-> **G ECONOMY MIGRATION / PAYOUT / LIQUIDITY CERTIFIED**
+> **MANDATORY-ROUTE LIQUIDITY CERTIFIED / OPTIONAL-CASH CALIBRATION REOPENED**
 
 Do not restore older Auren-era exact totals as current G authority.
