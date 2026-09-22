@@ -7,13 +7,18 @@
 
 ## Briar Passage — first / northern traversal
 
-| Formation | Composition | Weight |
-|---|---|---:|
-| **Trail Pack** | 2 Greenhollow Stalkers + 1 Thornvine Creeper | 30% |
-| **Briar Mix** | 1 Briar Boar + 1 Greenhollow Stalker + 1 Thornvine Creeper | 45% |
-| **Thorn Pressure** | 1 Greenhollow Stalker + 2 Thornvine Creepers | 25% |
+The first Briar traversal is balanced for **Cyanis + Ilyra only**. It uses two-enemy formations so the opening does not become a 7–8-round random-battle grind before Torren joins combat.
 
-This establishes the three-species northern Briar ecology without using Southern-Briar-only enemies early.
+| Tier | Formation | Composition | Within-tier weight |
+|---|---|---|---:|
+| Light | **Trail Pair** | 1 Greenhollow Stalker + 1 Thornvine Creeper | 50% |
+| Light | **Predator Pair** | 2 Greenhollow Stalkers | 50% |
+| Standard | **Briar Pair** | 1 Briar Boar + 1 Thornvine Creeper | 50% |
+| Standard | **Boar Trail** | 1 Greenhollow Stalker + 1 Briar Boar | 50% |
+| Heavy | **Thorn Pair** | 2 Thornvine Creepers | 50% |
+| Heavy | **Boar Pair** | 2 Briar Boars | 50% |
+
+The three locked northern species remain unchanged. Variety comes from pairing and role mix, not adding bodies to the field.
 
 ## Hollow Watch — occupied fort / Black Host
 
@@ -36,26 +41,39 @@ Chapter 1 does not use Brackenwall Reaver in this pool.
 ### Strong normal-pool entry — Watch Captain Frame
 Watch Captain Frame is no longer an optional side-room Elite. It belongs to the lower Hollow Watch encounter pool as a strong construct encounter.
 
-Its exact insertion weight is **OPEN pending Chapter-1 revalidation** so the former optional-Elite body is not blindly added on top of an already calibrated random-encounter budget.
+Current placement:
+- Heavy-tier formation: **Watch Captain Frame + Hollow Watch Sentry + Hollow Watch Ballista**;
+- 50% of the Hollow Watch Heavy subpool;
+- with Chapter 1's 20% Heavy-tier rate, this is an effective **10% of ordinary Hollow Watch draws** before any area-specific encounter-rate effects.
+
+This keeps the Frame rare enough to feel notably stronger without restoring optional side-room combat.
 
 ## Southern Briar Passage
 
-Southern Briar uses the northern three plus three additional **locked** native identities:
+Southern Briar uses the northern three plus the three locked Southern-only identities:
 - Needlewing
 - Rootmaw
 - Brambleback
 
-Current formation design:
+This phase is balanced for **Cyanis + Ilyra + Torren** and may use 3–4 active enemies.
 
-| Formation | Composition |
-|---|---|
-| **Predator Trail** | 2 Greenhollow Stalkers + 1 Needlewing + 1 Briar Boar |
-| **Rootbound Growth** | 1 Rootmaw + 2 Thornvine Creepers + 1 Needlewing |
-| **Bramble Wall** | 1 Brambleback + 1 Briar Boar + 1 Thornvine Creeper |
-| **Canopy Rush** | 2 Needlewings + 1 Greenhollow Stalker + 1 Rootmaw |
-| **Heavy Woods** | 1 Brambleback + 1 Briar Boar + 1 Rootmaw + 1 Thornvine Creeper |
+| Tier | Formation | Composition | Within-tier weight |
+|---|---|---|---:|
+| Light | **Predator Trail** | 1 Needlewing + 1 Greenhollow Stalker + 1 Briar Boar | 50% |
+| Light | **Rooted Skirmish** | 1 Rootmaw + 1 Thornvine Creeper + 1 Needlewing | 50% |
+| Standard | **Rootbound Growth** | 1 Rootmaw + 2 Thornvine Creepers + 1 Needlewing | 50% |
+| Standard | **Bramble Wall** | 1 Brambleback + 1 Briar Boar + 1 Thornvine Creeper | 50% |
+| Heavy | **Heavy Woods** | 1 Brambleback + 1 Briar Boar + 1 Rootmaw + 1 Thornvine Creeper | 50% |
+| Heavy | **Canopy Rush** | 2 Needlewings + 1 Greenhollow Stalker + 1 Rootmaw | 50% |
 
-Southern-Briar formation weights remain **OPEN** until the three new enemy bodies/actions are authored and the chapter encounter-validation pass is rerun.
+Using the chapter-wide 25% / 55% / 20% Light / Standard / Heavy tier split, these remain the final Chapter-1 Southern-Briar formation weights unless later true-battle/playtest evidence demonstrates a specific failure.
+
+Paper revalidation places the normal three-person clear band at roughly:
+- Light: **3–4 offensive rounds**;
+- Standard: **4–5**;
+- Heavy: **4–6**;
+
+before healing/defensive choices and stochastic Crit/status effects.
 
 ## Roster boundary
 
@@ -94,4 +112,4 @@ Optional combat:
 ## Ownership boundary
 These rows own encounter composition/placement. Current enemy bodies/actions belong to their individual files. Whole-formation EXP/CEXP belongs to `10_PROGRESSION_AND_EXP`.
 
-Do not assign final Southern-Briar or Watch-Captain selection weights until the new/converted bodies have been validated against current mandatory and completionist Chapter-1 party states.
+Southern-Briar and Watch-Captain selection weights above are now the current paper-validated baseline. Reopen them only if true-battle/runtime playtesting demonstrates a specific duration, resource, or danger failure.
