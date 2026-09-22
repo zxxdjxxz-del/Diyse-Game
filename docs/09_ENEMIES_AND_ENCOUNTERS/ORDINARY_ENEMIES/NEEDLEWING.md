@@ -2,9 +2,9 @@
 
 **Chapter:** 1 — Southern Briar Passage  
 **Role:** ordinary natural threat / fast aerial harasser  
-**Status:** **IDENTITY + PLACEMENT LOCKED / RAW BODY + ACTION POWER OPEN**
+**Status:** **SOUTHERN-BRIAR ENEMY SLOT LOCKED / WORKING NAME + KIT / RAW BODY + ACTION POWER OPEN**
 
-## Ecology / combat identity
+## Working ecology / combat identity
 - native Southern Briar wildlife;
 - small, fast flying threat rather than a humanoid or construct;
 - does not appear in the first/northern Briar traversal;
