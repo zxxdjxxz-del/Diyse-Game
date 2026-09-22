@@ -43,8 +43,8 @@ Do not place them in:
 
 The current Caelora gate arrival is lawful and routine. Do not insert these encounters into Beat 1, the royal audience, seal investigation, or palace-to-Old-City handoff unless the story is explicitly revised.
 
-## Optional Elite
-- Grand Inquisitor Frame — retained enemy identity; optional placement must be explicitly supported by current area design and is not a mandatory-story encounter
+## Strong normal-pool identity
+- Grand Inquisitor Frame — retained enemy identity; optional placement must be explicitly supported by current area design and is not a mandatory-story encounter — folded into the chapter/area normal encounter pool; not optional combat
 
 ## Mandatory named / boss
 - First Command Warden — one bar / same-bar command-state shift
