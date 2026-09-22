@@ -107,8 +107,8 @@ Current direct-G calibration:
 - mandatory story bosses / named encounters = **92,700 G**;
 - fixed authored combat/event payouts = **5,300 G**;
 - mandatory non-battle map = **80,800 G**;
-- authored optional direct G = **329,600 G**;
-- broad completionist direct-cash reference = **~646,500 G**, intentionally close to the ~650,000 G target.
+- authored optional direct G = **290,700 G**;
+- broad completionist direct-cash reference = **~607,600 G**, with the prior ~650,000-G completionist target now reopened after retirement of the standalone optional-Elite cash layer.
 
 Affordability validation:
 - chapter-by-chapter mandatory-route liquidity is **PASS** under an aggressive modeled spend of one meaningful equipment purchase per chapter plus generous healing/MP/revive/status/utility restocking;
@@ -184,4 +184,4 @@ Current canon beats proof runtime. See:
 
 The former mandatory-route enemy-difficulty recalibration sequence is not listed here as an open master-queue item because it is being handled through a different process.
 
-The core G economy/reward design is **CLOSED** and is not an open-gap item unless later playtest evidence or an explicit design revision reopens it.
+The core G economy structure remains retained, but the **optional/completionist direct-cash calibration is REOPENED** after the standalone optional-Elite reward layer was removed.
