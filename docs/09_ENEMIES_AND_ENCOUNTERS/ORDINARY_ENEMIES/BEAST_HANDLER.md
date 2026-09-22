@@ -76,33 +76,7 @@ Effect:
 
 This Chapter-7 body does not replace the Chapter-2 variant.
 
-## Chapter-0 body
+## Chapter-0 placement correction — 2026-09-22
+Beast Handler is **not a Chapter-0 combat enemy**.
 
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 2 | **118** | **25** | 14 | 16 | 15 | 21 | 0 | 0 |
-
-### Handler Lash
-- one party member
-- Physical / Neutral
-- **120 Power**
-- Base Hit100
-
-### Drive the Hound
-> **Power: N/A — no direct damage**
-
-Target:
-> one allied living Convoy Rift Hound
-
-Effect:
-> that Hound's next direct-damage action gains **+15% final damage**
-
-Rules:
-- expires after the next resolved direct-damage action;
-- no extra action;
-- does not stack with itself.
-
-If no allied Convoy Rift Hound is alive:
-> Handler Lash is selected instead.
-
-This Chapter-0 body does not replace the Chapter-2 or Chapter-7 bodies.
+Chapter-0 Hound Pressure uses Convoy Rift Hounds without a Handler. The retained active uses of Beast Handler are controlled by later-chapter placement authority.
