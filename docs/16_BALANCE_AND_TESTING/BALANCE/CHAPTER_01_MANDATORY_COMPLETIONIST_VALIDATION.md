@@ -1,9 +1,33 @@
 # Diyse — Chapter 1 Mandatory-vs-Completionist Validation
 
 **Chapter:** 1 — Brackenwall and the Wayfinder  
-**Current status:** **REOPENED / REVALIDATION REQUIRED**  
+**Current status:** **STRUCTURAL REVALIDATION ACTIVE / NUMERIC DIFFICULTY CERTIFICATION DEFERRED UNTIL LEVEL-SPINE REBALANCE**  
 **Direct-damage Power audit:** **CLOSED — do not reopen Power coefficients from this correction alone**  
 **Reason reopened:** current story/production authority has superseded key party-state and Briarhide assumptions used by the prior v77/v78 validation.
+
+---
+
+## Progression-rebalance firewall
+
+The current Chapter-1 mandatory/completionist **Player-Level anchors are not a final balance lock**. The mandatory level/progression spine is scheduled for a later rebalance.
+
+Therefore this pass may close:
+- actual combat-party membership;
+- enemy identity and area assignment;
+- formation composition;
+- active-enemy-count limits;
+- encounter order;
+- boss / mini-boss / Hunt role classification;
+- authored raw bodies and action Powers as provisional balance inputs.
+
+This pass must **not** permanently close:
+- exact mandatory/completionist Player Levels at each Chapter-1 beat;
+- final formation weights;
+- final round-count targets;
+- HP/stat retunes justified only by the current level spine;
+- final encounter difficulty certification.
+
+When the mandatory level spine is rebalanced, Chapter 1 must receive its final numeric mandatory-vs-completionist validation against the new actual levels.
 
 ---
 
@@ -129,6 +153,9 @@ Needlewing, Rootmaw, and Brambleback now have authored raw bodies and direct-dam
 
 ## Next action
 
-> **Run a fresh Chapter-1 mandatory-vs-completionist encounter validation against the current production route, current combat-party states, and lethal Briarhide boss resolution.**
+> **Complete structural Chapter-1 encounter closure now, then defer final numeric mandatory-vs-completionist certification until the mandatory Player-Level spine has been rebalanced.**
 
-After Chapter 1 is recertified, continue the same validation framework chapter by chapter before the later CEXP recalibration pass.
+After the new level spine is locked:
+1. rebuild actual early/mid/late Chapter-1 mandatory and completionist party levels;
+2. rerun ordinary formations, Watch Captain, Castellan, Southern Briar, Briarhide, and Cistern Devourer;
+3. only then close final formation weights / HP-stat adjustments / difficulty certification.
