@@ -12,7 +12,7 @@ Chapter 0 deliberately separates Cyanis's solo tutorial pressure from the heavie
 - **Ruin Vanguard Pursuer / concealed Seyrik does not appear in combat until after Ilyra has joined Cyanis in the defense.**
 - **Riftmaw likewise does not appear until after Ilyra has joined.**
 - Seyrik and Riftmaw are separate encounters with a noncombat story/triage interval between them; they are not stacked into the S001 opening combat chain.
-- the Convoy War-Sorcerer + injured Iron Cohort Soldier remains the final Broken Convoy confrontation unless later story review changes that role.
+- the Convoy War-Sorcerer alone is the final Broken Convoy confrontation.
 
 ## Chapter-0 Card-response combat rule
 Chapter 0 uses **two separate incomplete-response flares**.
@@ -47,15 +47,14 @@ Clear:
 
 No statuses.
 
-### 0-02 — S001 Handler Pressure — CYANIS SOLO
+### 0-02 — S001 Hound Pressure — CYANIS SOLO
 Formation:
-- Beast Handler
-- Convoy Rift Hound
+- 2 Convoy Rift Hounds
 
 Clear:
-> defeat both
+> defeat both Hounds
 
-Handler may Drive the Hound.
+No Handler.
 No reinforcement.
 
 After this fight, S001's opening combat pressure ends. **Do not place Seyrik or Riftmaw here.**
@@ -143,14 +142,10 @@ Do not present Seyrik → Riftmaw → War-Sorcerer as one uninterrupted boss rus
 
 ### 0-06 — S005 Final Broken Convoy Confrontation — CYANIS + ILYRA
 Formation:
-- Convoy War-Sorcerer
-- injured Iron Cohort Soldier
+- Convoy War-Sorcerer only
 
 Victory:
-> War-Sorcerer reaches 0 HP
-
-If Soldier remains active:
-> Soldier withdraws according to current dialogue/encounter handoff.
+> War-Sorcerer reaches 0 HP.
 
 Encounter-start recovery:
 > Cyanis + Ilyra **full HP / full MP** before battle initialization unless later Chapter-0 review changes this recovery rule; this is not a Card/Prime effect.
@@ -186,11 +181,9 @@ Aftermath / survivor sweep authorization / Brackenwall handoff.
 | Black Host Raider — Ch0 | 1 | 88 | 110 / 125 |
 | Black Host Crossbowman — Ch0 | 1 | 72 | 115 / 135 |
 | Ruin Shieldbearer — Ch0 | 2 | 128 | 105 / 125 Ruin |
-| Beast Handler — Ch0 | 2 | 118 | 120 |
 | Convoy Rift Hound | 2 | 142 | 135 / 130 Ruin / 145 |
 | Ruin Vanguard Pursuer | 4 | 620 | 150 / 155 Ruin |
 | Riftmaw | 4 | 340 | 165 / 175 Ruin / 120 AoE |
-| Injured Iron Cohort Soldier | 3 | 165 | 110 / 125 |
 | Convoy War-Sorcerer | 4 | 620 | 140 / 100 AoE / 210 Ruin |
 
 ## Chapter-0 status boundary
@@ -229,3 +222,16 @@ The prior Chapter-0 validation assumed the Ruin Vanguard Pursuer and Riftmaw wer
 
 Detailed prior proof remains historical baseline/reference:
 `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_00_MANDATORY_COMPLETIONIST_VALIDATION.md`
+
+
+## Chapter-0 roster lock
+Chapter 0 uses exactly these combat identities:
+- Black Host Raider;
+- Black Host Crossbowman;
+- Ruin Shieldbearer;
+- Convoy Rift Hound;
+- Ruin Vanguard Pursuer / concealed Seyrik;
+- Riftmaw;
+- Convoy War-Sorcerer.
+
+Beast Handler and injured Iron Cohort Soldier are removed from Chapter-0 combat placement.
