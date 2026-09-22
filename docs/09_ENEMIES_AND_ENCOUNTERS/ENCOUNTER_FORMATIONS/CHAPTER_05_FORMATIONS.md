@@ -16,3 +16,11 @@
 
 ## Ownership boundary
 These rows own encounter composition and selection weight only. Current enemy bodies/actions belong to their individual files. Whole-formation EXP/CEXP belongs to `10_PROGRESSION_AND_EXP`.
+
+
+## Strong normal-pool integration — Ruin Forgemaster
+- pool: **Foundry / late**;
+- former optional/side-room placement is retired;
+- this identity is part of the area's normal encounter structure;
+- if repetition would violate the identity's fiction, use a one-time normal-pool entry;
+- exact insertion frequency/weight is **OPEN pending encounter-budget revalidation**; the existing weighted rows remain the baseline for repeatable formations until that pass.
