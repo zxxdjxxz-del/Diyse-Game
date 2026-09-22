@@ -7,9 +7,9 @@ const Catalog = preload("res://game/content/encounters/chapter_01_04_formations.
 const LevelCurve = preload("res://game/core/progression/level_curve.gd")
 
 const ALLOWED_BY_AREA := {
-	"ch01_brackenwall": ["Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "Brackenwall Reaver"],
 	"ch01_greenhollow": ["Greenhollow Stalker", "Thornvine Creeper", "Briar Boar"],
-	"ch01_hollow_watch": ["Hollow Watch Sentry", "Hollow Watch Ballista"],
+	"ch01_hollow_watch": ["Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "Hollow Watch Sentry", "Hollow Watch Ballista", "Watch Captain Frame"],
+	"ch01_briar_south": ["Greenhollow Stalker", "Thornvine Creeper", "Briar Boar", "Needlewing", "Rootmaw", "Brambleback"],
 	"ch02_dunmere_waterworks": ["Redwater Initiate", "Bogshell", "Cistern Leech"],
 	"ch02_sunken_archive": ["Archive Current", "Memory Scribe", "Vault Sentinel", "Drowned Archive Maw"],
 	"ch02_red_transfer_bastion": ["Bastion Shield Guard", "Bastion Crossbow Guard", "Transfer Adept", "Black Host Raider", "Beast Handler", "Rift Hound"],
@@ -50,7 +50,7 @@ func _initialize() -> void:
 
 func _validate_balance_profiles(failures: Array[String]) -> void:
 	if Balance.MAX_ACTIVE_ENEMIES != 8:
-		failures.append("Audit98 maximum active enemy count must be 8")
+		failures.append("maximum active enemy count must be 8")
 	if Balance.expected_campaign_encounters() != 210:
 		failures.append("Audit98 campaign encounter center must total 210")
 	for chapter in range(1, 13):
@@ -68,7 +68,7 @@ func _validate_balance_profiles(failures: Array[String]) -> void:
 		) / 100.0
 		var projected_pool := weighted_mean * float(profile["expected_encounters"])
 		if absf(projected_pool - float(profile["expected_ordinary_exp_pool"])) > 2.0:
-			failures.append("Chapter %d weighted formation anchors drift from Audit98 ordinary EXP pool" % chapter)
+			failures.append("Chapter %d weighted formation anchors drift from current ordinary EXP pool" % chapter)
 
 	if Balance.tier_for_roll(1, 0.249999) != "light":
 		failures.append("Chapter 1 light-tier cutoff is incorrect")
@@ -189,7 +189,7 @@ func _validate_selector(failures: Array[String]) -> void:
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Audit98 encounter pressure, level curve, balance profiles, and Chapter 1-4 formation validation passed.")
+		print("Current encounter pressure, level curve, balance profiles, and Chapter 1-4 formation validation passed.")
 		quit(0)
 		return
 	for failure in failures:
