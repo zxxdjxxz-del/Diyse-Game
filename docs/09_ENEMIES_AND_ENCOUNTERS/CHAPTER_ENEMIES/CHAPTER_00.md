@@ -31,7 +31,7 @@
 - Riftmaw current raw HP: **340**; action Powers unchanged pending moved-party-state revalidation.
 - Chapter 0 inflicts no harmful party statuses.
 - Enemy direct-damage Power completeness remains closed.
-- **Difficulty validation is reopened only for the consequences of moving Ruin Vanguard Pursuer and Riftmaw from solo Cyanis to Cyanis + Ilyra.**
+- **Difficulty validation is reopened for the expanded five-fight Cyanis-solo sequence, the current Cyanis + Ilyra Seyrik encounter, and the combined Riftmaw + War-Sorcerer final boss.**
 
 Exact current encounter authority:
 `../AUTHORED_ENCOUNTERS/CHAPTER_00_ENCOUNTER_ORDER_AND_POWER_REGISTER.md`
@@ -39,14 +39,17 @@ Exact current encounter authority:
 ## Current encounter placement
 
 ### Opening ambush — Cyanis solo
-1. **Opening Line** — Black Host Raider + Black Host Crossbowman + Ruin Shieldbearer.
-2. **Hound Pressure** — 2 Convoy Rift Hounds.
+1. **Opening Line** — Black Host Raider + Black Host Crossbowman.
+2. **Shield Push** — Black Host Raider + Ruin Shieldbearer.
+3. **Hound Rush** — 2 Convoy Rift Hounds.
 
-The opening solo combat segment ends here. **Do not place concealed Seyrik or Riftmaw in the S001 opening chain.**
+The opening S001 combat segment ends here. **Do not place concealed Seyrik or Riftmaw in the opening chain.**
 
 ### Wreck Field — Cyanis solo
-Exactly:
-> one Convoy Rift Hound
+4. **Mixed Pressure** — Black Host Crossbowman + Convoy Rift Hound.
+5. **Survivor-Route Hound** — 1 Convoy Rift Hound.
+
+P03 / Evacuation Relay remains combat-free.
 
 ### Evacuation Relay
 > **No combat.**
@@ -73,39 +76,20 @@ This encounter is **authored / protected**, not an optional Elite encounter.
 
 A real noncombat field / triage / defensive-repositioning interval must separate this encounter from Riftmaw.
 
-### Riftmaw — Cyanis + Ilyra
+### Final Broken Convoy boss — Cyanis + Ilyra
 Formation:
-> Riftmaw only
-
-Clear:
-> reduce Riftmaw to 0 HP
-
-- mandatory named/boss encounter;
-- current raw HP **340**;
-- no transformation;
-- no support wave.
-
-A short noncombat field / triage interval must separate Riftmaw from the final War-Sorcerer push.
-
-### Final Broken Convoy confrontation — Cyanis + Ilyra
-Formation:
+- Riftmaw
 - Convoy War-Sorcerer
-- injured Iron Cohort Soldier
 
-Victory:
-> War-Sorcerer reaches 0 HP
+This is one combined final mandatory boss encounter under current Chapter-0 story authority.
 
-If Soldier remains active:
-> he withdraws according to current encounter / dialogue handoff.
-
-Current encounter-start recovery:
-> Cyanis + Ilyra enter at **full HP / full MP** before battle initialization unless later Chapter-0 review changes this rule; not a Card/Prime effect.
-
-Current incomplete protective-response implementation:
-> **Defense +15% / Spirit +15% to Cyanis + Ilyra for Rounds 1–3.**
-
-Rift Lance Preparation:
-> Round 2 or later only.
+Locks:
+- Riftmaw uses one HP bar and does not transform;
+- no support wave;
+- no injured Iron Cohort Soldier;
+- second incomplete Card flare provides the current opening Defense/Spirit protection;
+- recovery casing breaks during this encounter under story authority;
+- both Riftmaw and the War-Sorcerer are defeated in the same fight.
 
 ## Numerical boundary
 Chapter-0 enemy raw bodies and direct-damage Power remain exact in their owning files unless separately reopened.
