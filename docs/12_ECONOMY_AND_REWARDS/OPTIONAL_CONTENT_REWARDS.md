@@ -1,6 +1,6 @@
 # Diyse — Optional Content Reward Master
 
-**Status:** EXACT OPTIONAL ECONOMIC PACKAGES CLOSED
+**Status:** OPTIONAL ECONOMIC PACKAGES / FORMER-ELITE LAYER REMOVED; CASH CALIBRATION REOPENED
 
 Optional activities are owned structurally by `11_QUESTS` and their Player EXP by `10_PROGRESSION_AND_EXP`.
 
@@ -9,7 +9,6 @@ This file summarizes the non-EXP economic/reward layer owned by `12_ECONOMY_AND_
 ## Current activity inventory
 - 5 ordinary Side Quests;
 - 6 Character Quests;
-- 12 numbered-chapter optional Elites;
 - 11 Regional Hunts;
 - 6 Major Hunts.
 
@@ -32,14 +31,13 @@ Do not discount Regional or Major Hunt G simply because another reward axis is p
 ## Exact direct-G totals
 | Activity layer | Direct G |
 |---|---:|
-| 12 optional Elites | **38,900 G** |
 | 5 ordinary Side Quests | **18,000 G** |
 | 6 Character Quests | **22,200 G** |
 | 11 Regional Hunts | **116,500 G** |
 | 6 Major Hunts | **134,000 G** |
-| **Total** | **329,600 G** |
+| **Total** | **290,700 G** |
 
-These totals are optional surplus and are not required for baseline story solvency.
+These current optional totals exclude the retired former-Elite cash layer and are not required for baseline story solvency. The broader completionist cash target is reopened for later economy recalibration.
 
 ## Ordinary Side Quests
 Exact packages live in:
@@ -63,14 +61,13 @@ Normal-stock Consumable reward-equivalent total:
 
 Each Character Quest also retains its unique Legacy Component as the dominant permanent progression reward.
 
-## Optional Elites
-Exact first-clear cash lives in:
+## Former optional Elites
+The former standalone optional-Elite category has been removed.
+
+Its historical **38,900 G** first-clear cash layer is retired. Those identities now use normal formation-level G when they appear in normal encounter pools.
+
+Compatibility/retirement record:
 > `ELITE_G_REWARDS.md`
-
-Total:
-> **38,900 G**
-
-The Chapter-0 Ruin Vanguard Pursuer is not double-counted here; its 300-G protected-event payout lives in `ENEMY_REWARD_HANDOFF.md`.
 
 ## Regional Hunts
 Exact first-clear cash lives in:
