@@ -15,7 +15,8 @@ This file is a current cross-domain status summary only. Historical incremental 
 
 ## Current project locks
 - 6 permanent playable characters;
-- active battle party maximum **4**;
+- active battle party maximum **4** in the general game rules;
+- **Chapter 1 exception: combat-party cap = 3**. Chapter 1 opens with Cyanis + Ilyra; Torren becomes the third combatant for Hollow Watch and remains the third thereafter. Maevra is never a Chapter-1 battle-party body;
 - Chapter 0 + Chapters **1–13**;
 - true PONR = **Last Shelter → Reactor Galleries**;
 - Player Level cap **70**;
