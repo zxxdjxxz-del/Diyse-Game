@@ -30,8 +30,8 @@
 ## Authored / protected / nonlethal
 - Compelled Relay Bearer — protected authored nonlethal
 
-## Optional Elite
-- Lord-Marshal Kharvek
+## Strong normal-pool identity
+- Lord-Marshal Kharvek — folded into the chapter/area normal encounter pool; not optional combat
 
 ## Mandatory named / boss
 - Marshal Varkesh — Final Capture — one bar / capture architecture
@@ -75,7 +75,7 @@ No support respawn or transformation.
 ## Numerical boundary
 Chapter-12 ordinary raw bodies are now active-balance authority in individual files.
 
-Lord-Marshal Kharvek retains its inherited optional-Elite raw line and is **FORMALLY VALIDATED v88**; exact within-chapter placement remains story-owned.
+Lord-Marshal Kharvek retains its inherited Elite-strength raw line and is **FORMALLY VALIDATED v88**; exact within-chapter placement remains story-owned.
 
 Mandatory Varkesh/Vaelkor and their support authority remains separately owned and is **FORMALLY VALIDATED v88** with no numerical change.
 
