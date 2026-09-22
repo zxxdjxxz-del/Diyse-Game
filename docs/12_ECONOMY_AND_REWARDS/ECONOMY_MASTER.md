@@ -1,6 +1,6 @@
 # Diyse — Economy Master
 
-**Status:** CORE ECONOMY DESIGN / G CALIBRATION CLOSED
+**Status:** CORE ECONOMY DESIGN / OPTIONAL-CASH CALIBRATION REOPENED AFTER FORMER-ELITE CONVERSION
 
 **Domain rule:** `12_ECONOMY_AND_REWARDS` owns G denomination, purchase/replacement prices, sell rules, stock progression, commerce endpoint roles, reward-value/scarcity rules, and non-EXP reward handoffs. Item definitions remain in `08`; enemy bodies remain in `09`; EXP/CEXP remain in `10`; quest structure remains in `11`.
 
@@ -71,23 +71,21 @@ Premium Consumables are deliberately excluded from baseline solvency. Buying Eme
 
 ## Optional direct-G layer
 Current optional direct G if all authored activities are cleared:
-- 12 numbered-chapter optional Elites: **38,900 G**;
 - 5 ordinary Side Quests: **18,000 G**;
 - 6 Character Quests: **22,200 G**;
 - 11 Regional Hunts: **116,500 G**;
 - 6 Major Hunts: **134,000 G**.
 
-Total optional direct G:
-> **329,600 G**
+Current optional direct G after retiring the former-Elite bounty layer:
+> **290,700 G**
 
 ## Completionist direct-cash reference
-Mandatory center + all current optional direct G:
-> **approximately 646,500 G**
+Mandatory center + current optional direct G:
+> **approximately 607,600 G**
 
-This is intentionally close to the user-directed broad target of:
-> **~650,000 G**
+This is **below the prior ~650,000-G broad completionist target** because the historical 38,900-G standalone optional-Elite bounty layer has been retired.
 
-The difference is well within route/encounter variance because the ordinary-formation component is itself an expected route total rather than a guaranteed fixed payout.
+Do not restore those bounties simply to recover the old total. The completionist-cash calibration is reopened and should be solved later through the current economy process if the ~650,000-G target is still desired.
 
 This completionist reference excludes:
 - equipment/Consumable resale;
@@ -192,7 +190,6 @@ Do not add by default:
 ## Mandatory/optional separation
 Baseline story affordability must never require:
 - Side Quests;
-- optional Elites;
 - Regional Hunts;
 - Major Hunts;
 - Character Quests;
@@ -208,7 +205,7 @@ Optional content should make the player richer and widen build flexibility, not 
 - fixed authored combats → `ENEMY_REWARD_HANDOFF.md`
 - mandatory non-battle map → `MANDATORY_NONBATTLE_G_BUDGET.md`
 - chapter liquidity validation → `CHAPTER_G_LIQUIDITY_VALIDATION.md`
-- optional Elites → `ELITE_G_REWARDS.md`
+- former optional-Elite reward retirement → `ELITE_G_REWARDS.md`
 - Regional Hunts → `REGIONAL_HUNT_REWARD_BOUNDARY.md`
 - Major Hunts → `MAJOR_HUNT_REWARD_BOUNDARY.md`
 - Side Quests → `SIDE_QUEST_REWARD_BOUNDARY.md`
