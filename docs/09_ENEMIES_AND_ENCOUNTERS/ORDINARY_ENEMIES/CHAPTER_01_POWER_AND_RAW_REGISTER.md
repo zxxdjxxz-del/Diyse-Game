@@ -41,8 +41,8 @@ Chapter-1 authored/protected:
 - Briarhide Stalker — **PASS**
 - Black Host Irritant Fitting — **POWER COMPLETE**
 
-Chapter-1 optional Elite:
-- Watch Captain Frame — **PASS**
+Chapter-1 strong normal-pool identity:
+- Watch Captain Frame — **POWER COMPLETE / NORMAL-POOL REVALIDATION REQUIRED**
 
 ## Status rollout
 Chapter 1 does not introduce Burn, Stun, or Freeze.
