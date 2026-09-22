@@ -1,6 +1,6 @@
 # Annex Duelist
 
-**Chapter:** 4 optional Elite  
+**Chapter:** 4 strong normal-pool Elite  
 **Architecture:** one chassis / one HP bar / exactly four elemental states  
 **Status:** **POWER COMPLETE / RAW LINE RETAINED**
 
@@ -106,7 +106,16 @@ No extra action.
 2-round repetition lock.
 
 ## Fight-length role
-The standing optional-Elite target remains:
+The standing Elite-strength target remains:
 > **roughly 2–4 serious party rounds**
 
 The four-state identity remains visible through HP thresholds without creating extra bodies.
+
+
+## Normal-pool conversion — 2026-09-22
+Annex Duelist is no longer optional side content.
+
+Current role:
+> **strong normal-pool enemy**
+
+It is encountered through the chapter/area's normal encounter structure rather than an optional room or branch. If the identity is unique/named, use a one-time normal-pool entry rather than repeatable copies. Existing raw stats and Power remain retained; encounter frequency/placement and reward impact require revalidation where the prior optional placement mattered.
