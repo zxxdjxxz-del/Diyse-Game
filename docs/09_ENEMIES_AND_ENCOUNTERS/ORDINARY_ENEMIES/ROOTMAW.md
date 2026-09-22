@@ -57,3 +57,11 @@ Still open:
 - any stat/HP adjustment demonstrated by that validation.
 
 Do not add Burn, Freeze, Stun, or Staggered to the Chapter-1 body.
+
+## Chapter-1 behavior lock
+- Root Snap / Earth Maw use the normal action-selection fallback when legal.
+- Sink Roots is legal only while its own Defense/Spirit increase is not already active and remains subject to its 2-round repetition lock.
+- Sink Roots never stacks with itself.
+- Single-target selection is equal among conscious active party members.
+- Formation role: slow anchor that extends mixed formations without adding a new status mechanic.
+
