@@ -58,7 +58,7 @@ Southern Briar uses all six natural-threat identities: the three established nor
 
 ## Current notes
 Chapter-1 ordinary enemy Power/raw pass:
-> **REOPENED FOR THREE NEW SOUTHERN-BRIAR IDENTITIES ONLY**
+> **COMPLETE FOR ALL CURRENT IDENTITIES / ENCOUNTER VALIDATION STILL OPEN**
 
 Summary:
 `../ORDINARY_ENEMIES/CHAPTER_01_POWER_AND_RAW_REGISTER.md`
@@ -141,4 +141,4 @@ The following Chapter-1 enemy identities and names are **LOCKED** unless explici
 ### Optional combat
 - Cistern Devourer — Regional Hunt #1
 
-This lock covers **identity, name, and Chapter-1 area assignment**. It does not close still-open raw stats, action kits, formation weights, or encounter-validation work for the three new Southern-Briar enemies or converted normal-pool Watch Captain placement.
+This lock covers **identity, name, and Chapter-1 area assignment**. Needlewing / Rootmaw / Brambleback now also have authored raw bodies and action Powers. Final formation weights and mandatory/completionist encounter validation remain open, including Watch Captain's converted normal-pool placement.
