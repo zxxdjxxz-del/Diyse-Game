@@ -22,7 +22,7 @@
 ## Authored / protected / nonlethal
 - None
 
-## Optional Elite
+## Strong normal-pool identity
 - None
 
 ## Mandatory named / boss
@@ -34,7 +34,7 @@
 ## Current notes
 - Exactly 8 default reused ordinary identities; 0 new ordinary identities required.
 - Chapter-10 reused-ordinary Power pass: **PASS**.
-- No approved optional Elite in current Chapter 10.
+- No approved strong normal-pool Elite in current Chapter 10.
 - No authored/protected identities in current Chapter 10.
 - No Regional Hunt in current Chapter 10.
 - Eastern forest: Creeper/Boar; Eastern Wayfinder: Scribe/Frame/Wisp; Buried Registry: Sentry/Lens/Ring Drone; Judgment Frame may cross-use.
@@ -45,7 +45,7 @@ Summary:
 
 All eight remain established identities with Chapter-10 bodies; do not rename them into fake-new variants.
 
-Optional Elite:
+Strong normal-pool Elite:
 > **none — intentional**
 
 Registry Warden:
