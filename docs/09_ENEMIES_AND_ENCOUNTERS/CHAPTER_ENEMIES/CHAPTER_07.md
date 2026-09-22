@@ -30,8 +30,8 @@
 - Controlled Prisoner
 - Command-Seal Warden
 
-## Optional Elite
-- First Registrar's Shade
+## Strong normal-pool identity
+- First Registrar's Shade — folded into the chapter/area normal encounter pool; not optional combat
 
 ## Mandatory named / boss
 - Chainworks Behemoth — one bar / Bound → Freed same-bar
@@ -77,7 +77,7 @@ One bar.
 ## Numerical boundary
 Chapter-7 ordinary raw bodies are now newly authored active-balance authority in individual files.
 
-First Registrar's Shade retains its inherited optional-Elite raw line.
+First Registrar's Shade retains its inherited Elite-strength raw line.
 
 Mandatory boss/support authority remains separate and unchanged.
 
