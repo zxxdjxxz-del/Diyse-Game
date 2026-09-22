@@ -6,6 +6,17 @@
 **Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, fresh-body Prime-refresh rules, and later explicit encounter corrections supersede stale earlier enemy text.
 
 
+## Chapter-1 combat-party lock
+
+Chapter 1 has a **maximum of 3 active combatants**, not the normal four-character late-game party.
+
+Current party progression:
+- chapter opening / first Briar traversal: **Cyanis + Ilyra**;
+- Hollow Watch through Chapter-1 end: **Cyanis + Ilyra + Torren**;
+- **Maevra is never commandable and never contributes battle actions, damage, healing, survivability, targeting dilution, or action economy.**
+
+Every Chapter-1 enemy, formation, mini-boss, boss, and Hunt validation must use the actual 2- or 3-character party state at that encounter point. Never normalize Chapter 1 upward to a four-character party.
+
 ## Ordinary / repeatable
 
 ### Briar Passage — northern / first-traversal natural threats
