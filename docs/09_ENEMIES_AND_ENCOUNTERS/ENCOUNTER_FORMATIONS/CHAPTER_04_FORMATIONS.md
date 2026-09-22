@@ -65,3 +65,11 @@ Formation construction must therefore preserve the established rule:
 **PASS.**
 
 Using the actual Lv13 → ~Lv15 → ~Lv17 party progression, current raw bodies and Power values create the intended rise primarily through formation size, mixed roles, status pressure, and action economy. No Chapter-4 ordinary-enemy raw-stat or Power adjustment is required by the v80 mandatory-vs-completionist validation.
+
+
+## Strong normal-pool integration — Annex Duelist
+- pool: **Reaction Annex / late**;
+- former optional/side-room placement is retired;
+- this identity is part of the area's normal encounter structure;
+- if repetition would violate the identity's fiction, use a one-time normal-pool entry;
+- exact insertion frequency/weight is **OPEN pending encounter-budget revalidation**; the existing weighted rows remain the baseline for repeatable formations until that pass.
