@@ -79,3 +79,11 @@ All non-HP raw stats, action Power values, status rules, and Watchline Guard rem
 
 Owning validation:
 `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_01_MANDATORY_COMPLETIONIST_VALIDATION.md`
+
+## Current normal-pool behavior lock
+- Captain Edge / Signal Burst / Locking Thrust use the normal action-selection fallback when legal.
+- Signal Burst and Locking Thrust retain their existing repetition locks.
+- Watchline Guard is legal only while its own Defense/Spirit increase is not already active and never stacks with itself.
+- Single-target attacks select equally among conscious active party members.
+- Watch Captain Frame does **not** create or amplify Targeting Signal; Sentry/Ballista behavior remains independently owned by those construct files.
+- Formation role: the strong body in a normal construct formation, not a scripted mini-boss AI package.
