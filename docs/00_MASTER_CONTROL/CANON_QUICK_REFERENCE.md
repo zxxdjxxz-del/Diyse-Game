@@ -10,7 +10,15 @@ Permanent six:
 - Seyrik — Ruin Vanguard / Ruin Warden
 
 Active battle party:
-> **4**
+> **4** general maximum
+
+Chapter 1 exception:
+> **3-character combat-party cap**
+
+Chapter 1 party progression:
+- opening / first Briar: **Cyanis + Ilyra**;
+- Hollow Watch onward: **Cyanis + Ilyra + Torren**;
+- **Maevra is noncombat for all of Chapter 1**.
 
 ## Chapters
 > Chapter 0 + Chapters 1–13
