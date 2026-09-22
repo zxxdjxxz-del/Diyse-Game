@@ -1,6 +1,6 @@
 # Grand Inquisitor Frame
 
-**Chapter:** 3 optional Elite  
+**Chapter:** 3 strong normal-pool Elite  
 **Status:** **POWER COMPLETE / v79 HP RECALIBRATED**
 
 ## Raw body — RETAIN
@@ -46,7 +46,7 @@ Effect:
 No Barrier / Brace.
 
 ## Fight-length role
-Existing optional-Elite target:
+Existing Elite-strength target:
 > **2–4 serious party rounds**
 
 
@@ -55,3 +55,12 @@ Existing optional-Elite target:
 - old 1,450 HP exceeded the existing 2–4 serious-round Elite role at that access point;
 - HP corrected **1,450 → 1,200**;
 - every direct-damage Power and all other raw stats/effects retained.
+
+
+## Normal-pool conversion — 2026-09-22
+Grand Inquisitor Frame is no longer optional side content.
+
+Current role:
+> **strong normal-pool enemy**
+
+It is encountered through the chapter/area's normal encounter structure rather than an optional room or branch. If the identity is unique/named, use a one-time normal-pool entry rather than repeatable copies. Existing raw stats and Power remain retained; encounter frequency/placement and reward impact require revalidation where the prior optional placement mattered.
