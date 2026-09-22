@@ -104,12 +104,17 @@ The Card does not react.
 
 The opening story-authorized combat pressure follows current encounter authority:
 
-**Combat 1:** Black Host Raider + Black Host Crossbowman + Ruin Shieldbearer.
+**Combat 1:** Black Host Raider + Black Host Crossbowman.
 
 After that formation breaks:
 
-**Combat 2:** Beast Handler + Convoy Rift Hound.
+**Combat 2:** Black Host Raider + Ruin Shieldbearer.
 
+After that formation breaks:
+
+**Combat 3:** 2 Convoy Rift Hounds.
+
+No Beast Handler appears in Chapter 0.  
 No concealed Ruin Vanguard appears here.  
 No Riftmaw appears here.  
 No Card flare occurs here.
