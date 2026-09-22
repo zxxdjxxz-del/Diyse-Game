@@ -11,7 +11,7 @@ Canonical home for:
 - ordinary-enemy ecology and reuse;
 - authored/nonlethal enemy roles;
 - support objects;
-- optional Elites;
+- strong normal-pool Elite identities;
 - mandatory named encounters and bosses;
 - Regional Hunts;
 - Major Hunts;
