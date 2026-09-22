@@ -38,9 +38,10 @@ func _validate_graybox_scene() -> void:
 		"F01_Road_00",
 		"F01_Encounter1",
 		"F01_Encounter2",
-		"F01_Pursuer",
-		"F01_Riftmaw",
+		"F01_Encounter3",
 		"F02_Basin",
+		"F02_MixedPressure",
+		"F02_SurvivorRouteHound",
 		"F02_EvacuationEvidence",
 		"F03_RecoveryRoad_00",
 		"F03_RelayYard",
@@ -48,7 +49,8 @@ func _validate_graybox_scene() -> void:
 		"F04_CampBase",
 		"F04_Wounded",
 		"F04_Supplies",
-		"F04_Perimeter",
+		"F04_Pursuer",
+		"F04_FinalBoss",
 		"F04_EastCut",
 		"F03R_SurvivorSweep_00",
 		"F03R_Tracks",
@@ -58,38 +60,38 @@ func _validate_graybox_scene() -> void:
 		_expect(instance.get_node_or_null(required_node) != null, "Graybox missing required generated node %s" % required_node)
 
 	for marker in [
-		"Marker_S001-1",
-		"Marker_S001-2",
-		"Marker_S001-3_Pursuer",
-		"Marker_S001-4_Riftmaw",
-		"Marker_S002_Hound",
+		"Marker_P01_Combat_1_—_Raider_+_Crossbowman",
+		"Marker_P01_Combat_2_—_Raider_+_Shieldbearer",
+		"Marker_P01_Combat_3_—_Hound_Rush",
+		"Marker_P02_Combat_4_—_Crossbowman_+_Hound",
+		"Marker_P02_Combat_5_—_Survivor-Route_Hound",
 		"Marker_North_Withdrawal_Sightline",
 		"Marker_S003_Decision",
 		"Marker_Wounded___NO_COMBAT",
-		"Marker_S004_Ilyra",
-		"Marker_S005_Final_Confrontation",
-		"Marker_S005_East_Cut",
-		"Marker_Soldier_Withdraws_East",
-		"Marker_S006_Sweep_Start",
+		"Marker_P04_Ilyra",
+		"Marker_P05_Concealed_Seyrik",
+		"Marker_P06_Riftmaw_+_War-Sorcerer",
+		"Marker_P06_East_Cut",
+		"Marker_P07_Sweep_Start",
 		"Marker_S006_Tracks_South_of_Wagon_Line",
 		"Marker_S006_Wreck_Marker_Limit",
 		"Marker_TO_BRACKENWALL",
 	]:
 		_expect(instance.get_node_or_null(marker) != null, "Graybox missing authored spatial marker %s" % marker)
 
-	var s005_marker = instance.get_node_or_null("Marker_S005_Final_Confrontation")
-	var east_cut = instance.get_node_or_null("Marker_S005_East_Cut")
-	var soldier_exit = instance.get_node_or_null("Marker_Soldier_Withdraws_East")
-	if s005_marker != null and east_cut != null and soldier_exit != null:
-		_expect(east_cut.position.x > s005_marker.position.x, "S005 enemy east cut must be east of the defensive confrontation pocket")
-		_expect(soldier_exit.position.x >= east_cut.position.x, "Surviving S005 Soldier withdrawal must continue through the east cut")
+	var p05_marker = instance.get_node_or_null("Marker_P05_Concealed_Seyrik")
+	var p06_marker = instance.get_node_or_null("Marker_P06_Riftmaw_+_War-Sorcerer")
+	var east_cut = instance.get_node_or_null("Marker_P06_East_Cut")
+	if p05_marker != null and p06_marker != null and east_cut != null:
+		_expect(east_cut.position.x > p05_marker.position.x, "P06 east cut must remain east of the concealed-Seyrik pressure pocket")
+		_expect(p06_marker.position.x <= east_cut.position.x, "Combined final boss pocket must remain inside the defended camp before the east cut")
 
-	var sweep_start = instance.get_node_or_null("Marker_S006_Sweep_Start")
+	var sweep_start = instance.get_node_or_null("Marker_P07_Sweep_Start")
 	var sweep_limit = instance.get_node_or_null("Marker_S006_Wreck_Marker_Limit")
 	var brackenwall = instance.get_node_or_null("Marker_TO_BRACKENWALL")
 	if sweep_start != null and sweep_limit != null and brackenwall != null:
-		_expect(sweep_limit.position.z < sweep_start.position.z, "S006 bounded sweep must proceed outward from the camp")
-		_expect(brackenwall.position.z < sweep_start.position.z, "Brackenwall handoff must occur after the bounded S006 sweep")
+		_expect(sweep_limit.position.z < sweep_start.position.z, "P07 bounded sweep must proceed outward from the camp")
+		_expect(brackenwall.position.z < sweep_start.position.z, "Brackenwall handoff must occur after the bounded P07 sweep")
 
 	var player = instance.get_node_or_null("Cyanis")
 	if player != null:
