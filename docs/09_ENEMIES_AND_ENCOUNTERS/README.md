@@ -25,9 +25,11 @@ Quest unlock/reward presentation belongs in `11_QUESTS`.
 
 ## Current difficulty hierarchy
 
-> **Ordinary < Elite < mandatory story boss < Regional Hunt < Major Hunt**
+> **Ordinary < strong normal-pool Elite < mandatory story boss < Regional Hunt < Major Hunt**
 
 This is a design hierarchy, not a rule that every later encounter must have more HP than every earlier one.
+
+**Optional-combat rule:** Hunts are the only optional enemy encounters. Elite-strength identities belong to normal encounter pools; there is no separate optional-Elite combat category.
 
 ## Current raw-stat fields
 
