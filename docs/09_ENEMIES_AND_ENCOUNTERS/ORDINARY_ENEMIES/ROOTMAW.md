@@ -1,21 +1,59 @@
 # Rootmaw
 
 **Chapter:** 1 — Southern Briar Passage  
-**Role:** ordinary natural threat / rooted ambush-controller  
-**Status:** **IDENTITY + NAME + SOUTHERN-BRIAR PLACEMENT LOCKED / RAW BODY + ACTION POWER OPEN**
+**Role:** ordinary natural threat / slow durable plant-beast pressure  
+**Status:** **IDENTITY + NAME + PLACEMENT LOCKED / RAW BODY + ACTION POWER AUTHORED / ENCOUNTER VALIDATION OPEN**
+
+## Chapter-1 body
+| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 5 | **230** | **30** | **30** | **24** | **23** | 14 | 0 | 5 |
 
 ## Ecology / combat identity
 - native Southern Briar plant-beast / predatory growth;
 - appears only in Southern Briar during Chapter 1;
-- heavier and stranger than the northern Thornvine Creeper without replacing it;
-- intended to create durable ambush/control pressure in mixed formations;
+- heavier and stranger than Thornvine Creeper without replacing it;
+- slow, durable pressure piece that makes mixed formations less purely speed-driven;
 - not an Ancient construct and not Black-Host-altered.
 
-## Numerical boundary
-Raw stats, exact action list, Power values, rewards, and final formation weight are open pending the Chapter-1 enemy-authoring and mandatory/completionist revalidation pass.
+## Actions
 
-Chapter 1 may use Bleed as a harmful-status rider; do not introduce Burn, Freeze, Stun, or Staggered through this enemy without a separate rollout revision.
+### Root Snap
+- one party member
+- Physical / Neutral
+- **140 Power**
+- Base Hit **100**
+- no harmful-status rider
 
+### Earth Maw
+- one party member
+- Magical / Earth
+- **135 Power**
+- Base Hit **100**
+- no harmful-status rider
 
-## Name / identity lock
-**Rootmaw** is the locked current enemy name and identity for Chapter 1 Southern Briar unless explicitly revised later.
+### Sink Roots
+> **Power: N/A — no direct damage**
+
+Effect:
+> **Defense +10% / Spirit +10% through the end of the following round**
+
+2-round repetition lock.
+
+No Barrier or Brace.
+
+## Chapter-1 party-size boundary
+Southern Briar uses:
+> **Cyanis + Ilyra + Torren — 3 active combatants maximum**
+
+Do not tune Rootmaw against a four-character party.
+
+## Validation boundary
+Raw body and direct-damage Powers are now authored.
+
+Still open:
+- mandatory-vs-completionist damage/TTK validation;
+- final formation weights;
+- any stat/HP adjustment demonstrated by that validation.
+
+Do not add Burn, Freeze, Stun, or Staggered to the Chapter-1 body.
