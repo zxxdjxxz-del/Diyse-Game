@@ -22,8 +22,8 @@
 ## Authored / protected / nonlethal
 - Highland Resistance Fighter — authored nonlethal
 
-## Optional Elite
-- Ruin Forgemaster
+## Strong normal-pool identity
+- Ruin Forgemaster — folded into the chapter/area normal encounter pool; not optional combat
 
 ## Mandatory named / boss
 - Furnace Tyrant — one bar
@@ -67,7 +67,7 @@ Chapter-5 ordinary raw bodies are now newly authored active-balance authority in
 
 Furnace Servitor ordinary HP is 380; the Furnace Tyrant finite support instance remains HP280.
 
-Ruin Forgemaster retains its inherited optional-Elite raw line.
+Ruin Forgemaster retains its inherited Elite-strength raw line.
 
 Mandatory named/boss raw authority remains separate and unchanged.
 
