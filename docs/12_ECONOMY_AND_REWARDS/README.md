@@ -1,6 +1,6 @@
 # 12_ECONOMY_AND_REWARDS
 
-**Status:** CORE G ECONOMY / REWARD DESIGN CLOSED
+**Status:** CORE G ECONOMY RETAINED / OPTIONAL-CASH CALIBRATION REOPENED
 
 This folder is the single editable home for Diyse's purchase/replacement economy, **G** distribution, commerce structure, resale rules, non-EXP reward balancing, and the lived economic context used by character/NPC reasoning.
 
@@ -57,10 +57,9 @@ These campaign-balance totals are author/design authority, not facts ordinary ch
 
 ## Optional direct-G calibration
 Current total if all authored optional activities are cleared:
-> **329,600 G**
+> **290,700 G**
 
 Breakdown:
-- Elites: **38,900 G**;
 - ordinary Side Quests: **18,000 G**;
 - Character Quests: **22,200 G**;
 - Regional Hunts: **116,500 G**;
@@ -68,9 +67,9 @@ Breakdown:
 
 ## Completionist direct-cash reference
 Mandatory center + all authored optional direct G:
-> **~646,500 G**
+> **~607,600 G**
 
-This intentionally lands very close to the broad **~650,000 G** target.
+The former ~650,000-G completionist target is now reopened because the standalone optional-Elite bounty layer was retired.
 It excludes resale, deliberate extra encounters/backtracking, and non-cash reward-equivalent value.
 
 ## Current commerce structure
