@@ -8,6 +8,76 @@ When an older aggregate conflicts with a correction below, **this file and the c
 
 ---
 
+## Chapter 0 — current enemy roster / five-fight solo flow
+
+Current Chapter-0 combat identities are exactly:
+- Black Host Raider;
+- Black Host Crossbowman;
+- Ruin Shieldbearer;
+- Convoy Rift Hound;
+- Ruin Vanguard Pursuer / concealed Seyrik Rell;
+- Riftmaw;
+- Convoy War-Sorcerer.
+
+Beast Handler and injured Iron Cohort Soldier are not Chapter-0 combat enemies.
+
+Cyanis's current solo sequence before Ilyra joins is exactly five authored fights:
+1. Raider + Crossbowman;
+2. Raider + Ruin Shieldbearer;
+3. 2 Convoy Rift Hounds;
+4. Crossbowman + Convoy Rift Hound;
+5. 1 Convoy Rift Hound.
+
+P03 remains combat-free.
+
+After Ilyra joins:
+- P05 = Ruin Vanguard Pursuer / concealed Seyrik, protected disengagement;
+- real noncombat reset;
+- P06 = **combined Riftmaw + Convoy War-Sorcerer final boss** with the second incomplete Card flare.
+
+Current owners:
+- `../02_STORY/CHAPTERS/CHAPTER_00.md`;
+- `AUTHORED_ENCOUNTERS/CHAPTER_00_ENCOUNTER_ORDER_AND_POWER_REGISTER.md`;
+- `CHAPTER_ENEMIES/CHAPTER_00.md`.
+
+---
+
+## Chapter 1 — locked area roster
+
+Current Chapter-1 enemy names and area assignments are locked:
+
+**Northern / first Briar**
+- Greenhollow Stalker;
+- Thornvine Creeper;
+- Briar Boar.
+
+**Southern Briar additions**
+- Needlewing;
+- Rootmaw;
+- Brambleback.
+
+**Hollow Watch — Black Host**
+- Black Host Raider;
+- Black Host Crossbowman;
+- Ruin Shieldbearer.
+
+**Hollow Watch — constructs**
+- Hollow Watch Sentry;
+- Hollow Watch Ballista;
+- Watch Captain Frame.
+
+Watch Captain Frame is a strong normal-pool construct, not optional side-room combat. Hunts are the only optional enemy encounters.
+
+Hollow Watch Castellan is the mandatory Hollow Watch mini-boss. Briarhide Stalker is the Chapter-1 main/final boss.
+
+Black Host and construct ordinary encounters do not belong in Briar Passage.
+
+Current owners:
+- `CHAPTER_ENEMIES/CHAPTER_01.md`;
+- `ENCOUNTER_FORMATIONS/CHAPTER_01_FORMATIONS.md`.
+
+---
+
 ## Chapter 1 — Briarhide Stalker
 
 Current result:
