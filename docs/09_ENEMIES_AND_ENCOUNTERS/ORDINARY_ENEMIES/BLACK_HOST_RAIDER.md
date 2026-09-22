@@ -62,3 +62,11 @@ The Chapter-1 and Chapter-2 bodies remain separately authoritative for those cha
 
 ## Chapter-0 placement lock
 Black Host Raider is part of the locked Chapter-0 roster. Current authored use: **P01 Combat 1 and P01 Combat 2**.
+
+## Chapter-1 behavior lock
+- Uses the normal action-selection fallback between currently legal Raider Cut and Pressing Slash.
+- Pressing Slash keeps its Chapter-1 repetition lock.
+- Single-target selection is equal among conscious active party members.
+- No healer-focus or lowest-HP focus.
+- Formation role: baseline Black Host melee pressure.
+
