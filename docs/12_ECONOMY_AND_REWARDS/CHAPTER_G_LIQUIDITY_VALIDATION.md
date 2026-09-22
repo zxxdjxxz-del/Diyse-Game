@@ -27,7 +27,7 @@ This uses the current owner-domain chapter income map:
 - fixed authored-event G;
 - mandatory non-battle G.
 
-No optional Elite, Side Quest, Character Quest, Regional Hunt, Major Hunt, resale, or deliberate grinding income is included.
+No Side Quest, Character Quest, Regional Hunt, Major Hunt, resale, or deliberate grinding income is included. Former optional-Elite identities are normal-pool enemies and are already represented only through formation-level G where encountered.
 
 ## Stress-test spending model
 This is a **liquidity stress test**, not an exact player shopping script.
@@ -140,24 +140,26 @@ The economy does not promise that a mandatory-route player can buy every premium
 That is deliberate:
 - premium stock is optional emergency insurance;
 - guaranteed authored premium copies still exist;
-- optional Hunts/quests/Elites create the surplus that makes aggressive premium purchasing comfortable;
+- optional Hunts/quests create the surplus that makes aggressive premium purchasing more comfortable;
 - premium purchases should compete with other luxury/build spending rather than becoming assumed routine maintenance.
 
 ## Completionist margin
 Broad completionist direct-cash reference:
-> **~646,500 G**
+> **~607,600 G**
 
 Compared with the stress-test baseline spending modeled here:
 - equipment allowances: **115,600 G**;
 - routine Consumable restocks: **171,400 G**;
 - combined: **287,000 G**.
 
-This leaves very large completionist flexibility for:
+This still leaves substantial completionist flexibility for:
 - additional equipment/replacements;
 - premium Consumables;
 - Kessara Relic copying;
 - extra recovery stock;
 - alternate-build experimentation.
+
+The prior ~650,000-G completionist cash target is reopened after retirement of the standalone optional-Elite bounty layer. This does **not** invalidate the mandatory-route liquidity PASS above.
 
 ## Certification
 > **MANDATORY-ROUTE LIQUIDITY: PASS**
