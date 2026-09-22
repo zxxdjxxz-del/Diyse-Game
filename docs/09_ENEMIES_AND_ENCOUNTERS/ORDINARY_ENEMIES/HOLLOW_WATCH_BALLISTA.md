@@ -52,3 +52,18 @@ The Ballista cannot fire during Reload.
 ## Formation teaching role
 This implements the Chapter-1 authored beat:
 > Sentry marks the shot → player can kill or interrupt the Sentry → Ballista's heavier attack is prevented.
+
+## Chapter-1 behavior lock
+Priority order:
+1. if Reload is pending, Reload is forced;
+2. otherwise, if this Ballista owns a completed Targeting Signal at beginning-round, Marked Heavy Bolt is forced;
+3. otherwise use Snap Bolt.
+
+A Ballista may own at most one completed signal at a time.
+
+With two Ballistae and one Sentry:
+- only the signaled Ballista gains Marked Heavy Bolt;
+- the other Ballista continues its ordinary Snap Bolt / Reload cycle.
+
+Single-target Snap Bolt selection is equal among conscious active party members.
+No hidden focus-fire rule is added.
