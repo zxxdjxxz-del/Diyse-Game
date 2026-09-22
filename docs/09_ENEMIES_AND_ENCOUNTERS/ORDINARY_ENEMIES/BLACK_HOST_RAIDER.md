@@ -1,6 +1,6 @@
 # Black Host Raider
 
-**Current certified use:** Chapter 1 limited carryover  
+**Current certified use:** Chapters 0–2 carryover; Chapter 0 and Chapter 1 placements current  
 **Status:** **CH1 POWER COMPLETE / CH1 RAW BODY AUTHORED**
 
 ## Chapter-1 body
@@ -31,7 +31,7 @@ These values are newly authored by the active ordinary-enemy balance pass rather
 The same identity also appears in Chapters 0 and 2.
 
 This file certifies the Chapter-1 variant only.
-Chapter-0 and Chapter-2 raw variants remain to be reconciled in their own passes.
+Chapter-0 and Chapter-2 raw variants remain separately owned below/in their chapter passes.
 
 
 ## Chapter-2 body
@@ -58,3 +58,7 @@ Chapter-0 actions:
 
 Chapter 0 does not inflict party harmful statuses.
 The Chapter-1 and Chapter-2 bodies remain separately authoritative for those chapters.
+
+
+## Chapter-0 placement lock
+Black Host Raider is part of the locked Chapter-0 roster. Current authored use: **P01 Combat 1 and P01 Combat 2**.
