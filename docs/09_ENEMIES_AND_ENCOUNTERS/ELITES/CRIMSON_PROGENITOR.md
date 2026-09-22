@@ -1,6 +1,6 @@
 # Crimson Progenitor
 
-**Chapter:** 6 optional Elite  
+**Chapter:** 6 strong normal-pool Elite  
 **Identity:** engineered non-person organism  
 **Architecture:** one HP bar  
 **Status:** **POWER COMPLETE / RAW LINE RETAINED**
@@ -67,5 +67,14 @@ Biological/crimson presentation does not create:
 - infinite healing;
 - infinite adds.
 
-Standing optional-Elite fight-length target:
+Standing Elite-strength fight-length target:
 > **roughly 2–4 serious party rounds**
+
+
+## Normal-pool conversion — 2026-09-22
+Crimson Progenitor is no longer optional side content.
+
+Current role:
+> **strong normal-pool enemy**
+
+It is encountered through the chapter/area's normal encounter structure rather than an optional room or branch. If the identity is unique/named, use a one-time normal-pool entry rather than repeatable copies. Existing raw stats and Power remain retained; encounter frequency/placement and reward impact require revalidation where the prior optional placement mattered.
