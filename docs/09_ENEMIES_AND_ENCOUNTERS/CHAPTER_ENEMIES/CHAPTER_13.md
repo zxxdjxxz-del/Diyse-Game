@@ -24,8 +24,8 @@
 ## Authored / protected / nonlethal
 - None
 
-## Optional Elite
-- Devourer of Names
+## Strong normal-pool identity
+- Devourer of Names — folded into the chapter/area normal encounter pool; not optional combat
 
 ## Mandatory named / boss
 - Last Weapon Archon — mandatory one-bar guardian
@@ -69,7 +69,7 @@ No permanent name/identity/progression erasure.
 ## Numerical boundary
 Chapter-13 ordinary raw bodies are now active-balance authority in individual files.
 
-Devourer of Names retains its inherited optional-Elite raw line and is **FORMALLY VALIDATED v89**.
+Devourer of Names retains its inherited Elite-strength raw line and is **FORMALLY VALIDATED v89**.
 
 Last Weapon Archon and Reconstituted Entity → The Last Command remain separately owned and are **FORMALLY VALIDATED v89** with no numerical change.
 
