@@ -1,6 +1,6 @@
 # Black Host Crossbowman
 
-**Current certified use:** Chapter 1 limited carryover  
+**Current certified use:** Chapters 0–1 carryover; both placements current  
 **Status:** **CH1 POWER COMPLETE / CH1 RAW BODY AUTHORED**
 
 ## Chapter-1 body
@@ -39,3 +39,7 @@ Chapter-0 actions:
 - Aimed Bolt — **135 Power**, Physical / Neutral, Base Hit95, 1-round repetition lock
 
 No Bleed rider in Chapter 0.
+
+
+## Chapter-0 placement lock
+Black Host Crossbowman is part of the locked Chapter-0 roster. Current authored use: **P01 Combat 1 and P02 Mixed Pressure**.
