@@ -23,8 +23,8 @@
 - Mercy Warden — authored nonlethal
 - Relay-Fever Patient — authored nonlethal
 
-## Optional Elite
-- Ruin Breach Captain
+## Strong normal-pool identity
+- Ruin Breach Captain — folded into the chapter/area normal encounter pool; not optional combat
 
 ## Mandatory named / boss
 - Equal Mercy Arbiter — one continuous HP bar
@@ -55,7 +55,7 @@ The story rule that victim-class / compromised / sick people are not default ene
 ## Numerical boundary
 Chapter-9 ordinary/carryover raw bodies are now active-balance authority in individual files.
 
-Ruin Breach Captain retains its inherited optional-Elite raw line.
+Ruin Breach Captain retains its inherited Elite-strength raw line.
 
 Mandatory boss authority remains separately owned and unchanged.
 
