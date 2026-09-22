@@ -187,7 +187,7 @@ Wayfinder Junction is the chapter's actual waystone/cartographic monument.
 ## Beat 9 — Hollow Watch Castellan
 
 **Purpose**
-- deliver Hollow Watch's major boss climax and show an unexplained Card/chamber response without resolving causation.
+- deliver Hollow Watch's mandatory mini-boss climax and show an unexplained Card/chamber response without resolving causation.
 
 **Current sequence**
 - Cyanis crosses a fitted boundary;
