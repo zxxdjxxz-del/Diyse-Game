@@ -98,3 +98,36 @@ Current exact story/dialogue authority `../../03_DIALOGUE/PRODUCTION/CHAPTER_01/
 - **normal boss victory**.
 
 Any older aggregate/register text that still describes Briarhide as protected or nonlethal is stale and must not override this correction.
+
+
+## Chapter-1 enemy identity/name lock — 2026-09-22
+The following Chapter-1 enemy identities and names are **LOCKED** unless explicitly revised later.
+
+### Northern / first Briar
+- Greenhollow Stalker
+- Thornvine Creeper
+- Briar Boar
+
+### Southern Briar additions
+- Needlewing
+- Rootmaw
+- Brambleback
+
+### Hollow Watch — Black Host
+- Black Host Raider
+- Black Host Crossbowman
+- Ruin Shieldbearer
+
+### Hollow Watch — constructs
+- Hollow Watch Sentry
+- Hollow Watch Ballista
+- Watch Captain Frame
+
+### Mandatory named encounters
+- Hollow Watch Castellan — mini-boss
+- Briarhide Stalker — Chapter-1 main/final boss
+
+### Optional combat
+- Cistern Devourer — Regional Hunt #1
+
+This lock covers **identity, name, and Chapter-1 area assignment**. It does not close still-open raw stats, action kits, formation weights, or encounter-validation work for the three new Southern-Briar enemies or converted normal-pool Watch Captain placement.
