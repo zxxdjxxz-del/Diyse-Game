@@ -22,3 +22,11 @@ Chapter 13 intentionally uses smaller ordinary formations.
 Difficulty rises through stronger identities, role combinations, memory/copy pressure, and the guardian/final-boss sequence rather than routine 7–8-body packs.
 
 Reward values remain in `10_PROGRESSION_AND_EXP`.
+
+
+## Strong normal-pool integration — Devourer of Names
+- pool: **final domain / late**;
+- former optional/side-room placement is retired;
+- this identity is part of the area's normal encounter structure;
+- if repetition would violate the identity's fiction, use a one-time normal-pool entry;
+- exact insertion frequency/weight is **OPEN pending encounter-budget revalidation**; the existing weighted rows remain the baseline for repeatable formations until that pass.
