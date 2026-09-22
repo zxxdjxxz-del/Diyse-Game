@@ -18,14 +18,16 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 0 | Mandatory named/boss | Riftmaw |
 | 1 | Ordinary/carryover | Black Host Raider — limited carryover |
 | 1 | Ordinary/carryover | Black Host Crossbowman — limited carryover |
-| 1 | Ordinary/carryover | Ruin Shieldbearer — limited carryover |
 | 1 | Ordinary/carryover | Greenhollow Stalker |
+| 1 | Ordinary | Needlewing |
+| 1 | Ordinary | Rootmaw |
+| 1 | Ordinary | Brambleback |
 | 1 | Ordinary/carryover | Thornvine Creeper |
 | 1 | Ordinary/carryover | Briar Boar |
 | 1 | Ordinary/carryover | Hollow Watch Sentry |
 | 1 | Ordinary/carryover | Hollow Watch Ballista |
 | 1 | Mandatory named/boss | Briarhide Stalker — Chapter-1 main/final boss; normal lethal victory |
-| 1 | Elite | Watch Captain Frame |
+| 1 | Strong normal-pool Elite | Watch Captain Frame |
 | 1 | Mandatory mini-boss | Hollow Watch Castellan — one bar; Fortress → Walking same-bar |
 | 1 | Regional Hunt | Regional Hunt #1 — Cistern Devourer |
 | 2 | Ordinary/carryover | Redwater Initiate |
@@ -42,7 +44,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 2 | Ordinary/carryover | Beast Handler — approved carryover |
 | 2 | Ordinary/carryover | Rift Hound — approved carryover |
 | 2 | Authored/protected | Hold the Junction — formation-level authored event; no standalone body |
-| 2 | Elite | Archive Duplicant |
+| 2 | Strong normal-pool Elite | Archive Duplicant |
 | 2 | Mandatory named/boss | Archive Leviathan |
 | 2 | Mandatory named/boss | Commander Rhazek — Bastion Master |
 | 2 | Regional Hunt | Regional Hunt #2 — Transfer Executioner |
@@ -62,7 +64,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 3 | Authored/protected | False-Warrant Adept — lawful/nonlethal |
 | 3 | Authored/protected | Ivory Adjudicator — named nonlethal |
 | 3 | Authored/protected | S018 lawful-authority confrontation I/II — formation-level; no fake boss body |
-| 3 | Elite | Grand Inquisitor Frame |
+| 3 | Strong normal-pool Elite | Grand Inquisitor Frame |
 | 3 | Mandatory named/boss | First Command Warden — one bar / same-bar command-state shift |
 | 3 | Regional Hunt | Regional Hunt #3 — Archive Judgment Engine |
 | 4 | Ordinary/carryover | Reaction Node |
@@ -88,7 +90,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 5 | Ordinary/carryover | Deepforge Lifter |
 | 5 | Ordinary/carryover | Molten Crawler |
 | 5 | Authored/protected | Highland Resistance Fighter — authored nonlethal |
-| 5 | Elite | Ruin Forgemaster |
+| 5 | Strong normal-pool Elite | Ruin Forgemaster |
 | 5 | Mandatory named/boss | Furnace Tyrant — one bar |
 | 5 | Mandatory named/boss | Deepforge Colossus — Assembly Frame → Worldsmith Body fresh |
 | 5 | Regional Hunt | Regional Hunt #5 — Whitehorn Ravager |
@@ -108,7 +110,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 6 | Authored/protected | Blood Husk — authored/special |
 | 6 | Authored/protected | Perfected Soldier — authored/special |
 | 6 | Authored/protected | Masked Ruin Vanguard — Seyrik — mandatory nonlethal/forced disengagement |
-| 6 | Elite | Crimson Progenitor |
+| 6 | Strong normal-pool Elite | Crimson Progenitor |
 | 6 | Mandatory named/boss | Crownstorm Roc — one bar / Perched Sovereign → Stormbound same-bar |
 | 6 | Mandatory named/boss | Matron Zevraya → Perfected War Mother — genuine fresh body |
 | 6 | Regional Hunt | Regional Hunt #6 — Winterglass Titan |
@@ -129,7 +131,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 7 | Authored/protected | Resistance Saboteur |
 | 7 | Authored/protected | Controlled Prisoner |
 | 7 | Authored/protected | Command-Seal Warden |
-| 7 | Elite | First Registrar's Shade |
+| 7 | Strong normal-pool Elite | First Registrar's Shade |
 | 7 | Mandatory named/boss | Chainworks Behemoth — one bar / Bound → Freed same-bar |
 | 7 | Mandatory named/boss | Warden of the Nameless / Revision Arbiter — one identity / one bar |
 | 7 | Regional Hunt | Regional Hunt #7 — Rift Gate Colossus |
@@ -143,7 +145,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 8 | Ordinary/carryover | Varkesh Tactician |
 | 8 | Ordinary/carryover | Conqueror Executioner — rare |
 | 8 | Support | Rift Echo — finite support |
-| 8 | Elite | Conqueror Legate |
+| 8 | Strong normal-pool Elite | Conqueror Legate |
 | 8 | Mandatory named/boss | Western Rift Engine — one bar / Engine Core → Rift Incarnate same-bar |
 | 8 | Mandatory named/boss | Marshal Varkesh → Rift Conqueror — genuine fresh body |
 | 8 | Regional Hunt | Regional Hunt #8 — Rift Siege Beast |
@@ -157,7 +159,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 9 | Ordinary/carryover | Siege Engineer — carryover |
 | 9 | Authored/protected | Mercy Warden — authored nonlethal |
 | 9 | Authored/protected | Relay-Fever Patient — authored nonlethal |
-| 9 | Elite | Ruin Breach Captain |
+| 9 | Strong normal-pool Elite | Ruin Breach Captain |
 | 9 | Mandatory named/boss | Equal Mercy Arbiter — one continuous HP bar |
 | 9 | Mandatory named/boss | Commander Rhazek — Reforged Commander → Bastion Devourer — genuine fresh body |
 | 9 | Regional Hunt | Regional Hunt #9 — Mercyfallen Behemoth |
@@ -184,7 +186,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 11 | Support | Perception Node |
 | 11 | Support | Ruin Containment Seal |
 | 11 | Authored/protected | Crown Engine Technician — protected authored nonlethal |
-| 11 | Elite | Perfect Administrator |
+| 11 | Strong normal-pool Elite | Perfect Administrator |
 | 11 | Mandatory named/boss | Chancellor Othmar Calder — Protector of Continuity → Crown-Bound Living Anchor — genuine fresh body |
 | 11 | Mandatory named/boss | The Custodian — one bar / Administrative Closure → Open Reconciliation at 45%; Perception Node + Ruin Containment Seal supports |
 | 11 | Regional Hunt | Regional Hunt #10 — Authority Remnant |
@@ -206,7 +208,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 12 | Support | Authority Attendant Frame — Regional Hunt support |
 | 12 | Support | Renewal Attendant Frame — Regional Hunt support |
 | 12 | Authored/protected | Compelled Relay Bearer — protected authored nonlethal |
-| 12 | Elite | Lord-Marshal Kharvek |
+| 12 | Strong normal-pool Elite | Lord-Marshal Kharvek |
 | 12 | Mandatory named/boss | Marshal Varkesh — Final Capture — one bar / two-Beacon 20% capture-floor architecture |
 | 12 | Mandatory named/boss | Emperor Vaelkor Draeven — Emperor of the Reforged Host → Sovereign Panoply Unbound — genuine fresh body |
 | 12 | Regional Hunt | Regional Hunt #11 — Throne of Emperor Vaelkor: Sealed Throne → Walking Throne fresh |
@@ -221,7 +223,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 13 | Ordinary/carryover | Calamity Memory |
 | 13 | Support | Heart Manifestation — max1 / HP1,100 / Power N/A / same Entity continuity |
 | 13 | Support | Unbound Shard — max2 / HP1,050 each / Power N/A / same Entity continuity |
-| 13 | Elite | Devourer of Names |
+| 13 | Strong normal-pool Elite | Devourer of Names |
 | 13 | Mandatory named/boss | Last Weapon Archon — one bar; Archive Authority → Weapon Protocol Unsealed at 60% |
 | 13 | Mandatory named/boss | Reconstituted Entity → The Last Command — exactly two genuine full-health forms; final HP pacing adjusted / supports capped |
 
