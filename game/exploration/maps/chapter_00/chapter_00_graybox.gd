@@ -135,7 +135,7 @@ func _build_recovery_line() -> void:
 	_add_marker("F03 Entry", o + Vector3(0, 0, 78))
 	_add_marker("Damaged Recovery Line", o + Vector3(8, 0, 35))
 	_add_marker("Relay Yard", o + Vector3(-12, 0, 0))
-	_add_marker("S003 Decision", o + Vector3(14, 0, -30))
+	_add_marker("P03 Decision", o + Vector3(14, 0, -30))
 	_add_marker("F03 Exit", o + Vector3(0, 0, -82))
 
 func _build_triage_camp() -> void:
@@ -173,9 +173,9 @@ func _build_recovery_sweep() -> void:
 	_add_pad("F03R_Tracks", o + Vector3(-36, 0, -70), Vector2(20, 18), _recovery_material)
 	_add_pad("F03R_WreckMarkerLimit", o + Vector3(-34, 0, -86), Vector2(18, 16), _recovery_material)
 	_add_pad("F03R_BrackenwallHandoff", o + Vector3(0, 0, -108), Vector2(18, 16), _recovery_material)
-	_add_marker("S006 Tracks South of Wagon Line", o + Vector3(-36, 0, -70))
-	_add_marker("S006 Wreck Marker Limit", o + Vector3(-34, 0, -86))
-	_add_marker("S006 Sweep Complete", o + Vector3(-12, 0, -98))
+	_add_marker("P07 Tracks South of Wagon Line", o + Vector3(-36, 0, -70))
+	_add_marker("P07 Wreck Marker Limit", o + Vector3(-34, 0, -86))
+	_add_marker("P07 Sweep Complete", o + Vector3(-12, 0, -98))
 	_add_marker("TO BRACKENWALL", o + Vector3(0, 0, -108))
 
 func _build_chunk_seams() -> void:
