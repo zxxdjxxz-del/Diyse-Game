@@ -11,7 +11,7 @@ const CHAPTER_PROFILES := {
 		"expected_ordinary_exp_pool": 1000,
 		"typical_min": 2,
 		"typical_max": 3,
-		"max_enemies": 4,
+		"max_enemies": 5,
 	},
 	2: {
 		"expected_encounters": 19,
