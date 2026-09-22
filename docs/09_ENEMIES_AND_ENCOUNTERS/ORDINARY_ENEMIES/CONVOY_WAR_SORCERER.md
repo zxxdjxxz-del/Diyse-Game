@@ -55,9 +55,15 @@ The Convoy War-Sorcerer is:
 
 At 0 HP:
 - battle ends;
-- an active injured Iron Cohort Soldier withdraws;
 - no second wave occurs.
 
 No Phase 2.
 No fresh body.
 No Prime refresh.
+
+
+## Chapter-0 formation lock
+The final Broken Convoy confrontation uses:
+> **Convoy War-Sorcerer only**
+
+The injured Iron Cohort Soldier is not part of the Chapter-0 combat roster.
