@@ -65,7 +65,7 @@ True construct:
 > Bleed Immune
 
 Status:
-> **POWER COMPLETE / v77 DIFFICULTY VALIDATED**
+> **POWER COMPLETE / v77 HISTORICAL VALIDATION / CURRENT NORMAL-POOL REVALIDATION REQUIRED**
 
 HP-only balance correction:
 > **820 → 500** at the actual Hollow Watch Lv2–3 route point.
@@ -354,7 +354,7 @@ Status:
 > **POWER COMPLETE**
 
 
-## Chapter 0 v72 completion
+## Chapter 0 authored protected identity
 
 ### Ruin Vanguard Pursuer
 Identity:
@@ -378,7 +378,7 @@ No identity reveal.
 No harmful-status rider.
 
 Status:
-> **POWER COMPLETE**
+> **POWER COMPLETE / CURRENT CYANIS + ILYRA PLACEMENT REVALIDATION REQUIRED**
 
 
 ### v79 Chapter-3 validation correction
