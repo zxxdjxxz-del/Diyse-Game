@@ -1,4 +1,4 @@
-# Diyse — Optional Elite Master Register
+# Diyse — Former Strong normal-pool Elite Conversion Register
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
 **Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
@@ -6,10 +6,12 @@
 **Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
 
 
-Exactly:
-> **12 numbered-chapter optional Elites**
+Current rule:
+> **Hunts are the only optional enemy encounters.**
 
-| Ch | Optional Elite | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
+The 12 identities historically tracked here are **former strong normal-pool Elites**. They are now strong normal-pool enemies in their owning chapter/area. Unique/named identities use one-time normal-pool entries rather than repeatable duplicates.
+
+| Ch | Strong normal-pool identity | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 1 | **Watch Captain Frame** | 6 | **500** | 38 | 29 | 27 | 26 | 25 | 0 | 10 |
 | 2 | **Archive Duplicant** | 9 | 1,000 | 43 | 46 | 32 | 33 | 27 | 5 | 10 |
@@ -25,7 +27,7 @@ Exactly:
 | 13 | **Devourer of Names** | 63 | 7,000 | 216 | 230 | 151 | 159 | 57 | 10 | 10 |
 
 ## Chapter 10
-There is **no approved optional Elite** in current Chapter 10.
+There is **no approved strong normal-pool Elite** in current Chapter 10.
 
 Do not invent one simply to force a one-Elite-per-chapter pattern.
 
@@ -33,7 +35,7 @@ Do not invent one simply to force a one-Elite-per-chapter pattern.
 Ruin Vanguard Pursuer remains a structural/tutorial Elite outside this numbered table.
 
 ## Fight-length center
-Optional Elites are generally about:
+Strong normal-pool Elites are generally about:
 > **2–4 serious party rounds**
 
 depending on level, build, resource state, and mechanics.
@@ -381,3 +383,16 @@ Status:
 
 ### v79 Chapter-3 validation correction
 Grand Inquisitor Frame HP is **1,200**, superseding the prior 1,450-HP retained line. All other raw stats and direct-damage Powers remain unchanged.
+
+
+## Conversion lock — 2026-09-22
+This file is retained for compatibility/provenance because the individual enemy files and older balance reports still refer to the historical Elite set.
+
+Current encounter rule:
+- no side-room/branch combat category exists for these enemies;
+- each identity is part of its chapter/area's normal encounter pool;
+- unique/named identities are one-time pool entries if repetition would violate fiction;
+- existing raw bodies and Powers remain in force unless their new pool placement requires revalidation;
+- any former optional-only EXP/CEXP/G treatment must be reconciled in the progression/reward owners.
+
+Hunts remain the only optional combat encounters.
