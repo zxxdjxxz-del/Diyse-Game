@@ -1,5 +1,5 @@
 # Perfect Administrator
-**Chapter:** 11 optional Elite  
+**Chapter:** 11 strong normal-pool Elite  
 **Architecture:** one HP bar  
 **Status:** **POWER COMPLETE / RAW LINE RETAINED / FORMALLY VALIDATED v87**
 
@@ -44,3 +44,12 @@ One body. No support wave. No transformation. No extra ordinary action.
 
 ## v87 balance certification
 Validated against approximately Lv49–51 mandatory-route access and Lv59–61 completionist access. Retain 5,800 HP and all current Powers.
+
+
+## Normal-pool conversion — 2026-09-22
+Perfect Administrator is no longer optional side content.
+
+Current role:
+> **strong normal-pool enemy**
+
+It is encountered through the chapter/area's normal encounter structure rather than an optional room or branch. If the identity is unique/named, use a one-time normal-pool entry rather than repeatable copies. Existing raw stats and Power remain retained; encounter frequency/placement and reward impact require revalidation where the prior optional placement mattered.
