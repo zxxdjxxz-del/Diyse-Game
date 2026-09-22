@@ -3,9 +3,9 @@
 **Current economy authority:** `12_ECONOMY_AND_REWARDS`
 
 ## Core economy-design status
-> **CLOSED**
+> **CORE STRUCTURE RETAINED / OPTIONAL-CASH CALIBRATION REOPENED**
 
-The G payout recalibration is complete at owner-domain level.
+Mandatory-route solvency remains certified, but the optional/completionist cash calibration is reopened after the former standalone optional-Elite bounty layer was retired.
 
 ## Closed current structure
 - currency = **G**;
@@ -24,17 +24,17 @@ The G payout recalibration is complete at owner-domain level.
 - premium Consumables use one-copy-per-Consumable-shop stock from each shop's first accessible state;
 - premium Consumables do not automatically restock and remain non-sellable.
 
-## Closed direct-G calibration
+## Current direct-G calibration
 Mandatory route:
 > **~316,900 G**
 
 Optional authored direct G:
-> **329,600 G**
+> **290,700 G**
 
 Broad completionist direct-cash reference:
-> **~646,500 G**
+> **~607,600 G**
 
-This is intentionally close to the user-directed **~650,000 G** target.
+The prior **~650,000 G** completionist target is now open for recalibration; do not restore retired Elite bounties merely to recover it.
 
 Mandatory composition:
 - starting wallet: **2,500 G**;
@@ -43,8 +43,11 @@ Mandatory composition:
 - fixed authored combat/event payouts: **5,300 G**;
 - mandatory non-battle map: **80,800 G**.
 
+Former optional-Elite bounty layer:
+- historical **38,900 G** total — **RETIRED**;
+- strong normal-pool identities now use formation-level G.
+
 Optional composition:
-- Elites: **38,900 G**;
 - ordinary Side Quests: **18,000 G**;
 - Character Quests: **22,200 G**;
 - Regional Hunts: **116,500 G**;
