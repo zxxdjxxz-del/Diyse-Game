@@ -61,3 +61,11 @@ Its Chapter-1-authored body remains the current active body for that use.
 
 ## Chapter-0 placement lock
 Ruin Shieldbearer is part of the locked Chapter-0 roster. Current authored use: **P01 Combat 2**.
+
+## Chapter-1 behavior lock
+- Shield Bash / Ruin-Edged Thrust use the normal action-selection fallback when legal.
+- Guard is legal only while its own Defense/Spirit increase is not already active.
+- Guard never stacks with itself.
+- Single-target selection is equal among conscious active party members.
+- Formation role: durable Host anchor that buys time for Raiders/Crossbowmen rather than protecting allies with a hidden taunt mechanic.
+
