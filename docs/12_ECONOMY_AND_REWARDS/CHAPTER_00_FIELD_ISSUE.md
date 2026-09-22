@@ -33,3 +33,9 @@ The three Salves provide:
 - one safety copy for poor play, miss variance, or conservative tutorial use.
 
 They are part of the Chapter-0 mandatory baseline.
+
+
+## Current encounter-flow validation note
+Chapter 0 now contains five authored Cyanis-solo fights before Ilyra joins, followed by the concealed-Seyrik encounter and the combined Riftmaw + Convoy War-Sorcerer final boss.
+
+The guaranteed **3 Field Salves** remain current field-issue authority, but their sufficiency is **reopened for encounter validation**. Do not increase or reduce the issue automatically until the current Chapter-0 mandatory-route resource pass is rerun.
