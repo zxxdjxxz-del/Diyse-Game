@@ -116,7 +116,7 @@ func _validate_pause_transition_and_safe_room(controller, failures: Array[String
 	controller.set_authored_paused(false)
 
 	var before_transition: float = controller.pressure_fraction_s()
-	if not controller.configure_context(1, "ch01_brackenwall", 10.0):
+	if not controller.configure_context(1, "ch01_hollow_watch", 10.0):
 		failures.append("Controller rejected a valid same-chapter area transition")
 	if absf(controller.pressure_fraction_s() - before_transition) > 0.0001:
 		failures.append("Area context transition reset pressure instead of preserving it")
