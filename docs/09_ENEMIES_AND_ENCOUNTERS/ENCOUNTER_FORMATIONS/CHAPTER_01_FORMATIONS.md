@@ -17,11 +17,11 @@ This establishes the three-species northern Briar ecology without using Southern
 
 | Formation | Composition | Weight |
 |---|---|---:|
-| **Occupation Patrol** | 2 Black Host Raiders + 1 Black Host Crossbowman | 35% |
-| **Raider Screen** | 2 Black Host Raiders + 2 Black Host Crossbowmen | 40% |
-| **Crossbow Pressure** | 1 Black Host Raider + 3 Black Host Crossbowmen | 25% |
+| **Occupation Patrol** | 2 Black Host Raiders + 1 Black Host Crossbowman | 30% |
+| **Shield Line** | 1 Black Host Raider + 1 Black Host Crossbowman + 1 Ruin Shieldbearer | 45% |
+| **Crossbow Screen** | 2 Black Host Crossbowmen + 1 Ruin Shieldbearer | 25% |
 
-Chapter 1 does not use Ruin Shieldbearer or Brackenwall Reaver in this pool.
+Chapter 1 does not use Brackenwall Reaver in this pool.
 
 ## Hollow Watch — lower excavation / ancient defenses
 
@@ -70,6 +70,7 @@ Southern-Briar formation weights remain **OPEN** until the three new enemy bodie
 **Hollow Watch — Black Host**
 - Black Host Raider
 - Black Host Crossbowman
+- Ruin Shieldbearer
 
 **Hollow Watch — constructs**
 - Hollow Watch Sentry
@@ -77,7 +78,6 @@ Southern-Briar formation weights remain **OPEN** until the three new enemy bodie
 - Watch Captain Frame
 
 **Removed from active Chapter-1 formations**
-- Ruin Shieldbearer
 - Brackenwall Reaver
 
 Mandatory named encounters:
