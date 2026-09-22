@@ -49,3 +49,11 @@ Still open:
 - any stat/HP adjustment demonstrated by that validation.
 
 Do not add Burn, Freeze, Stun, or Staggered to the Chapter-1 body.
+
+## Chapter-1 behavior lock
+- Uses the normal action-selection fallback between currently legal Needle Dive and Barbed Flick.
+- Barbed Flick keeps its existing 1-round repetition lock.
+- Single-target selection is equal among conscious active party members.
+- No scripted focus-fire even when two Needlewings appear together.
+- Formation role: fastest Southern-Briar body; creates early turn pressure while remaining a comparatively fragile priority target.
+
