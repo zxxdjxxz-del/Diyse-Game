@@ -123,7 +123,7 @@ Git history preserves that analysis if comparison is needed; it must not be copi
 
 Specific previously derived values such as the Watch Captain's 500 HP may remain in their owning enemy files until the new validation tests them, but this file no longer certifies those values as balanced against the current party or its new normal-pool frequency.
 
-Needlewing, Rootmaw, and Brambleback currently have locked names/identities/placement but still-open raw bodies and action Powers. Their numeric authoring and formation weights must be completed before Chapter-1 encounter validation can close.
+Needlewing, Rootmaw, and Brambleback now have authored raw bodies and direct-damage Powers. Their **balance certification and final formation weights remain open** and must be tested against the current three-character Chapter-1 party before encounter validation can close.
 
 ---
 
