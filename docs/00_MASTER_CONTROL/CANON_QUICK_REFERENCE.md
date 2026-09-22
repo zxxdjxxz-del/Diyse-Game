@@ -135,10 +135,10 @@ Mandatory-route direct G:
 > **~316,900 G**
 
 Authored optional direct G:
-> **329,600 G**
+> **290,700 G**
 
 Broad completionist direct-cash reference:
-> **~646,500 G**
+> **~607,600 G**
 
 Ordinary formations:
 > **~135,600 G**, about **42.8%** of mandatory direct G
