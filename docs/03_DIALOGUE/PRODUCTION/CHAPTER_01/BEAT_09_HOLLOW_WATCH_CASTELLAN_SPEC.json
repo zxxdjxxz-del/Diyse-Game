@@ -5,7 +5,7 @@
   "story_position": "Chapter 1 — Beat 9 — Hollow Watch Castellan",
   "production_ready": false,
   "participants": ["cyanis", "ilyra", "maevra", "torren"],
-  "scene_purpose": "Deliver Hollow Watch's major dungeon boss climax; reveal the integrated ancient assembly as the Hollow Watch Castellan; allow the true Card-triggered activation to occur without explaining it; transition the Castellan from integrated to mobile state on the same HP bar; defeat it; and expose the protected post-boss discovery route without spending the mural payoff early.",
+  "scene_purpose": "Deliver Hollow Watch's mandatory mini-boss climax; reveal the integrated ancient assembly as the Hollow Watch Castellan; allow the true Card-triggered activation to occur without explaining it; transition the Castellan from integrated to mobile state on the same HP bar; defeat it; and expose the protected post-boss discovery route without spending the mural payoff early.",
   "story_sources": [
     {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Beat 9 — Hollow Watch Castellan", "Beat 10 — Post-Castellan Mural"], "role": "current_chapter_01_beat_09_story_authority_and_next_reveal_firewall"},
     {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "direct_card_physical_state_authority"}
