@@ -244,6 +244,32 @@ After Upper Briar scale is validated, build in this order:
 
 ---
 
+# 7A. Hollow Watch Encounter Zoning
+
+**Approach / surface**
+- Black Host formations only.
+- Fort-reveal and dead-garrison authored pockets are SAFE.
+
+**Excavation**
+- early basement: Black Host only;
+- transition sector: Black Host pool or construct pool, but never mixed inside one battle;
+- deep Diysean sector: constructs only;
+- Watch Captain Frame becomes eligible only in the deep sector.
+
+**Six Channels**
+- relief chamber / authored reading pocket: SAFE;
+- surviving channel: constructs only, including Watch Captain eligibility.
+
+**Protected Inner**
+- construct encounters remain legal before the pre-boss buffer;
+- immediate pre-Castellan buffer: SAFE;
+- Castellan chamber: authored mini-boss only.
+
+**Mural**
+- SAFE.
+
+---
+
 # 8. Planned Southern Briar Structure
 
 Southern Briar should be the chapter's most naturally ambiguous field without becoming a puzzle labyrinth.
@@ -255,6 +281,47 @@ Required order:
 The late side access must remain close enough to Wayfinder that the cleanup return for the Cistern branch is short.
 
 No guided traversal dialogue.
+
+---
+
+# 8A. Southern Briar Encounter Zoning
+
+**Readable opening**
+- Predator Trail
+- Rooted Skirmish
+- Bramble Wall
+- no five-enemy formation
+
+**Briarhide-track pocket**
+- SAFE
+
+**Hard-navigation / reconnecting-loop middle**
+- all six Southern-Briar formations
+- Canopy Rush may reach the locked five-enemy cap here
+
+**Late side-access approach**
+- Predator Trail
+- Rooted Skirmish
+- Rootbound Growth
+- Bramble Wall
+
+**Overgrown side-access pocket**
+- SAFE
+
+**More-direct final leg**
+- Predator Trail
+- Bramble Wall
+- Heavy Woods
+- Canopy Rush
+
+**Briarhide sighting / boss buffer**
+- SAFE
+
+**Post-boss route / Wayfinder**
+- SAFE
+
+Cleanup return to the Cistern access:
+- uses the final-leg encounter pool until the side-access SAFE pocket.
 
 ---
 
