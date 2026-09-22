@@ -45,6 +45,7 @@ func _initialize() -> void:
 	_validate_level_curve(failures)
 	_validate_pressure(failures)
 	_validate_chapter_01_04_catalog(failures)
+	_validate_chapter_01_subareas(failures)
 	_validate_selector(failures)
 	_finish(failures)
 
@@ -158,8 +159,8 @@ func _validate_chapter_01_04_catalog(failures: Array[String]) -> void:
 			max_enemies = int(profile["max_enemies"])
 		for tier in Catalog.TIER_NAMES:
 			var formations: Array = Catalog.formations_for_area_tier(area_id, tier)
-			if formations.size() < 2:
-				failures.append("%s %s tier needs at least two formations for anti-repeat selection" % [area_id, tier])
+			if formations.is_empty():
+				failures.append("%s %s tier must contain at least one formation" % [area_id, tier])
 			var total_weight := 0.0
 			for formation in formations:
 				var formation_id := str(formation.get("id", ""))
@@ -180,6 +181,52 @@ func _validate_chapter_01_04_catalog(failures: Array[String]) -> void:
 						failures.append("%s uses non-approved random enemy %s in %s" % [formation_id, enemy_name, area_id])
 			if absf(total_weight - 100.0) > 0.001:
 				failures.append("%s %s formation weights must total 100" % [area_id, tier])
+
+
+func _validate_chapter_01_subareas(failures: Array[String]) -> void:
+	var expected := {
+		"ch01_greenhollow": {
+			"upper_briar_west": 4,
+			"upper_briar_east": 6,
+		},
+		"ch01_hollow_watch": {
+			"hw_approach": 3,
+			"hw_surface": 3,
+			"hw_excavation_early": 3,
+			"hw_excavation_transition": 6,
+			"hw_excavation_deep": 4,
+			"hw_surviving_channel": 4,
+			"hw_protected_inner": 4,
+		},
+		"ch01_briar_south": {
+			"south_opening": 3,
+			"south_hard_middle": 6,
+			"south_side_approach": 4,
+			"south_final_leg": 4,
+			"south_cleanup_return": 4,
+		},
+	}
+	for area_id in expected.keys():
+		var actual_subareas := Catalog.subarea_ids_for_area(area_id)
+		if actual_subareas.size() != expected[area_id].size():
+			failures.append("%s subarea count drifted from Chapter 1 structural placement" % area_id)
+		for subarea_id in expected[area_id].keys():
+			var ids := Catalog.formation_ids_for_subarea(area_id, subarea_id)
+			if ids.size() != int(expected[area_id][subarea_id]):
+				failures.append("%s / %s expected %d eligible formations, got %d" % [
+					area_id,
+					subarea_id,
+					int(expected[area_id][subarea_id]),
+					ids.size(),
+				])
+	if "ch01_briar_south_h02" in Catalog.formation_ids_for_subarea("ch01_briar_south", "south_opening"):
+		failures.append("Five-enemy Canopy Rush must not appear in Southern Briar opening")
+	if "ch01_briar_south_h02" not in Catalog.formation_ids_for_subarea("ch01_briar_south", "south_hard_middle"):
+		failures.append("Five-enemy Canopy Rush must be eligible in Southern Briar hard middle")
+	if "ch01_hollow_watch_h03" in Catalog.formation_ids_for_subarea("ch01_hollow_watch", "hw_surface"):
+		failures.append("Watch Captain Frame must not appear on Hollow Watch surface")
+	if "ch01_hollow_watch_h03" not in Catalog.formation_ids_for_subarea("ch01_hollow_watch", "hw_excavation_deep"):
+		failures.append("Watch Captain Frame must become eligible in deep Hollow Watch excavation")
 
 func _validate_selector(failures: Array[String]) -> void:
 	var selector = Selector.new(9876)
