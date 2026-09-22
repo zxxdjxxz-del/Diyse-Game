@@ -2,20 +2,62 @@
 
 **Chapter:** 1 — Southern Briar Passage  
 **Role:** ordinary natural threat / armored woodland bruiser  
-**Status:** **IDENTITY + NAME + SOUTHERN-BRIAR PLACEMENT LOCKED / RAW BODY + ACTION POWER OPEN**
+**Status:** **IDENTITY + NAME + PLACEMENT LOCKED / RAW BODY + ACTION POWER AUTHORED / ENCOUNTER VALIDATION OPEN**
+
+## Chapter-1 body
+| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 5 | **265** | **35** | 8 | **29** | 18 | 18 | 0 | 5 |
 
 ## Ecology / combat identity
 - native Southern Briar wildlife;
 - broad, heavily protected animal whose hide carries dense bark/thorn-like growth;
 - appears only in Southern Briar during Chapter 1;
-- intended to provide durable frontline pressure distinct from the faster Greenhollow Stalker and the simpler Briar Boar;
+- durable frontline pressure distinct from Greenhollow Stalker's speed and Briar Boar's simpler charge pattern;
 - not corrupted, controlled, mechanized, or Black-Host-altered.
 
-## Numerical boundary
-Raw stats, exact action list, Power values, rewards, and final formation weight are open pending the Chapter-1 enemy-authoring and mandatory/completionist revalidation pass.
+## Actions
 
-Chapter 1 may use Bleed as a harmful-status rider; do not introduce Burn, Freeze, Stun, or Staggered through this enemy without a separate rollout revision.
+### Bramble Charge
+- one party member
+- Physical / Neutral
+- **165 Power**
+- Base Hit **95**
+- **10% Bleed**
+- 1-round repetition lock
 
+### Spine Sweep
+- all conscious party members
+- Physical / Neutral
+- **95 Power per target**
+- Base Hit **95**
+- no harmful-status rider
+- 2-round repetition lock
 
-## Name / identity lock
-**Brambleback** is the locked current enemy name and identity for Chapter 1 Southern Briar unless explicitly revised later.
+Because Chapter 1 has at most three active combatants, Spine Sweep can hit at most three player bodies.
+
+### Hunker
+> **Power: N/A — no direct damage**
+
+Effect:
+> **Defense +15% through the end of the following round**
+
+2-round repetition lock.
+
+No Barrier or Brace.
+
+## Chapter-1 party-size boundary
+Southern Briar uses:
+> **Cyanis + Ilyra + Torren — 3 active combatants maximum**
+
+Do not tune Brambleback against a four-character party.
+
+## Validation boundary
+Raw body and direct-damage Powers are now authored.
+
+Still open:
+- mandatory-vs-completionist damage/TTK validation;
+- final formation weights;
+- any stat/HP adjustment demonstrated by that validation.
+
+Do not add Burn, Freeze, Stun, or Staggered to the Chapter-1 body.
