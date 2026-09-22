@@ -20,6 +20,17 @@ At ordinary combat defeat:
 
 This matches the current Chapter-1 story and exact Beat-13 dialogue authority.
 
+## Current battle-party lock
+Briarhide Stalker is fought by exactly:
+- Cyanis;
+- Ilyra;
+- Torren.
+
+Chapter-1 combat-party cap:
+> **3**
+
+Maevra remains noncombat. Do not tune or validate this boss against the general four-character battle-party maximum.
+
 ## Raw body — RETAIN
 
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
