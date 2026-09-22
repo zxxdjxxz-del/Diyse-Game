@@ -1,6 +1,7 @@
 # Ruin Vanguard Pursuer
 
-**Chapter:** 0 structural/tutorial Elite  
+**Chapter:** 0 — authored protected encounter  
+**Role:** mandatory authored pressure encounter / protected disengagement  
 **Identity continuity:** Seyrik under concealed identity  
 **Status:** **POWER COMPLETE / PROTECTED DISENGAGEMENT**
 
