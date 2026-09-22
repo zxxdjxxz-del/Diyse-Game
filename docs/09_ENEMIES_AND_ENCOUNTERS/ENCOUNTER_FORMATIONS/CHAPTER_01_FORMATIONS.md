@@ -81,6 +81,148 @@ remain **OPEN** until the mandatory level/progression rebalance is complete.
 
 These are structural area caps, not final difficulty certification. Southern Briar is the only Chapter-1 ordinary-random pool currently allowed to reach five active enemies.
 
+## Exact sub-area eligibility
+
+These rules lock **where a formation may appear**. They do not lock final encounter-rate percentages or level-based difficulty.
+
+### First / northern Briar
+Encounter suppression:
+- Brackenwall seam — SAFE;
+- Beat-2 halfway stop and its immediate buffer — SAFE;
+- Greenhollow seam — SAFE.
+
+**West Upper Briar — before the halfway stop**
+Eligible:
+- Trail Pair;
+- Predator Pair;
+- Briar Pair;
+- Boar Trail.
+
+Not yet eligible:
+- Thorn Pair;
+- Boar Pair.
+
+**East Upper Briar — after the halfway stop**
+Eligible:
+- all six northern-Briar formations.
+
+This makes the second half slightly broader without adding new species.
+
+### Hollow Watch
+**CH01_HW_A — Approach**
+Eligible:
+- Occupation Patrol;
+- Shield Line;
+- Crossbow Screen.
+
+No constructs on the approach.
+
+The single fort-reveal story stop and immediate staging pocket are SAFE.
+
+**CH01_HW_B — Surface fort**
+Eligible:
+- Occupation Patrol;
+- Shield Line;
+- Crossbow Screen.
+
+No ancient constructs on the surface.
+
+The dead-garrison authored discovery and its immediate interaction pocket are SAFE.
+
+**CH01_HW_C — Excavation**
+Early / fort-basement sector:
+- Occupation Patrol;
+- Shield Line;
+- Crossbow Screen.
+
+Transition / mixed-construction sector:
+- Black Host pool **or** ordinary construct pool may be selected;
+- do not mix Black Host and construct identities inside one formation.
+
+Deep / predominantly Diysean sector:
+- Sentry Pair;
+- Watch Line;
+- Crossfire Post;
+- Watch Captain formation.
+
+Watch Captain Frame cannot appear before the deep excavation transition.
+
+**CH01_HW_D — Six Channels + surviving channel**
+Six-Channel relief / authored-reading pocket:
+- SAFE.
+
+Surviving channel after the relief:
+- Sentry Pair;
+- Watch Line;
+- Crossfire Post;
+- Watch Captain formation.
+
+No Black Host random formations after the Six-Channel relief.
+
+**CH01_HW_E — Protected Inner / Castellan approach**
+Active route before the pre-boss buffer:
+- Sentry Pair;
+- Watch Line;
+- Crossfire Post;
+- Watch Captain formation.
+
+Immediate pre-Castellan buffer:
+- SAFE.
+
+Castellan chamber:
+- authored mini-boss only.
+
+**CH01_HW_F — Mural**
+- SAFE;
+- no random encounters.
+
+### Southern Briar
+Encounter suppression:
+- Greenhollow departure seam — SAFE;
+- Briarhide-track authored stop — SAFE;
+- late overgrown-side-access authored stop — SAFE;
+- Briarhide first-sighting / boss approach buffer — SAFE;
+- post-boss quiet route and Wayfinder — SAFE.
+
+**Readable opening**
+Eligible:
+- Predator Trail;
+- Rooted Skirmish;
+- Bramble Wall.
+
+No five-enemy formation in the opening.
+
+**Hard-navigation / reconnecting-loop middle**
+Eligible:
+- all six Southern-Briar formations.
+
+This is the first region where the five-enemy Canopy Rush may appear.
+
+**Late side-access approach**
+Before the authored side-access SAFE pocket:
+- Predator Trail;
+- Rooted Skirmish;
+- Rootbound Growth;
+- Bramble Wall.
+
+The side-access interaction itself is SAFE.
+
+**More-direct final leg**
+Eligible:
+- Predator Trail;
+- Bramble Wall;
+- Heavy Woods;
+- Canopy Rush.
+
+This shifts the last active stretch from route-reading pressure toward predator / heavy-wildlife pressure.
+
+**Cleanup return to the Cistern access**
+After Briarhide is defeated, the short late-Southern-Briar backtrack uses the same **final-leg pool** until the side-access SAFE pocket is reached.
+
+### Wayfinder
+- SAFE;
+- no random encounters.
+
 ## Roster boundary
 
 **Northern / first Briar**
