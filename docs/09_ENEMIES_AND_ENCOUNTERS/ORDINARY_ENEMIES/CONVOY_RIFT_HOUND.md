@@ -36,12 +36,12 @@ It is not silently replaced by the later generic Rift Hound body.
 
 No harmful-status rider in Chapter 0.
 
-## S002 lock
-The controlling S002 encounter is:
-> **one Convoy Rift Hound only**
+## Chapter-0 placement lock
+Convoy Rift Hound appears in Chapter 0 in two authored uses:
+- S001 Hound Pressure — **2 Convoy Rift Hounds**;
+- S002 Wreck Field — **1 Convoy Rift Hound**.
 
 Do not add:
 - Beast Handler;
-- second Hound;
 - new creature form;
 - reinforcement wave.
