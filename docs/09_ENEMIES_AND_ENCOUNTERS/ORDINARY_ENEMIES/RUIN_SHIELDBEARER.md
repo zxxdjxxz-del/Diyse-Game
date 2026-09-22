@@ -35,7 +35,7 @@ Guard is the valid authored defensive state.
 No Brace or Barrier is created.
 
 ## Carryover boundary
-Chapter-0 raw use remains pending the Chapter-0 encounter-sheet reconciliation.
+Chapter-0 raw use is active under the current Chapter-0 encounter order.
 
 ## Chapter-0 body
 
@@ -57,3 +57,7 @@ No harmful-status rider.
 Ruin Shieldbearer is active again in the Chapter-1 Hollow Watch Black Host encounter pool.
 
 Its Chapter-1-authored body remains the current active body for that use.
+
+
+## Chapter-0 placement lock
+Ruin Shieldbearer is part of the locked Chapter-0 roster. Current authored use: **P01 Combat 2**.
