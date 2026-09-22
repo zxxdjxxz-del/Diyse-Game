@@ -13,8 +13,8 @@ Exactly:
 
 | Ch | Encounter / form | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Architecture |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| 1 | **Briarhide Stalker** | 4 | 850 | 34 | 18 | 22 | 20 | 29 | 10 | 0 | nonlethal; protected floor |
-| 1 | **Hollow Watch Castellan** | 6 | 450 | 42 | 27 | 27 | 24 | 25 | 0 | 5 | one bar; Fortress → Walking same-bar |
+| 1 | **Briarhide Stalker** | 4 | 850 | 34 | 18 | 22 | 20 | 29 | 10 | 0 | normal lethal victory; Chapter-1 final boss |
+| 1 | **Hollow Watch Castellan** | 6 | 450 | 42 | 27 | 27 | 24 | 25 | 0 | 5 | mandatory mini-boss; one bar; Fortress → Walking same-bar |
 | 2 | **Archive Leviathan** | 9 | 1,900 | 50 | 52 | 31 | 33 | 25 | 0 | 5 | one bar; Recorded Pattern → Emergent same-bar |
 | 2 | **Commander Rhazek — Bastion Master** | 10 | 2,050 | 58 | 44 | 36 | 32 | 27 | 5 | 5 | one bar; survives/withdraws |
 | 3 | **First Command Warden** | 14 | 2,850 | 72 | 72 | 43 | 43 | 30 | 0 | 10 | one bar; command-state shift |
