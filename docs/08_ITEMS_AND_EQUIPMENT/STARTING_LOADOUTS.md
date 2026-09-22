@@ -34,6 +34,26 @@ With Level-1 neutral stats and Blue Warden multipliers, Ilyra's Chapter-0 combat
 - **Spirit 59**
 - **SPD 22**
 
+## Chapter 1 — Torren
+When Torren becomes combat-capable for Hollow Watch, his guaranteed ordinary combat loadout is:
+- **Primary / Great Bow:** Yahtrean War Bow — +48 ATK; consumes Weapon + Secondary
+- **Armor:** War Archer Gear — +24 DEF / +18 Spirit
+- **Secondary:** unavailable while the Great Bow is equipped because Great Bows consume Weapon + Secondary
+
+Torren's Base Class state is:
+- **War Archer CL4 / 600 CEXP**
+
+Using the current Lv1–70 natural-stat curve and the current War Archer multipliers, his Chapter-1 balance-reference bodies are:
+
+| Player Lv | HP | MP | ATK | MAG | DEF | Spirit | SPD |
+|---:|---:|---:|---:|---:|---:|---:|---:|
+| 2 | **254** | **30** | **71** | **16** | **41** | **34** | **23** |
+| 3 | **289** | **33** | **73** | **18** | **42** | **35** | **23** |
+| 4 | **325** | **36** | **76** | **20** | **44** | **37** | **24** |
+| 5 | **360** | **39** | **78** | **22** | **46** | **39** | **24** |
+
+These supersede older Chapter-1 Torren test-body rows derived from the retired speed-forward War Archer stat package.
+
 ## Rule
 Later mandatory-vs-completionist checks must distinguish:
 - guaranteed equipment actually owned on the critical path;
