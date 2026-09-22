@@ -33,8 +33,8 @@
 - Perfected Soldier — authored/special
 - Masked Ruin Vanguard — Seyrik — mandatory nonlethal/forced disengagement
 
-## Optional Elite
-- Crimson Progenitor
+## Strong normal-pool identity
+- Crimson Progenitor — folded into the chapter/area normal encounter pool; not optional combat
 
 ## Mandatory named / boss
 - Crownstorm Roc — one bar / Perched Sovereign → Stormbound same-bar
@@ -72,7 +72,7 @@ Chapter-6 ordinary raw bodies are now newly authored active-balance authority in
 
 Rift Hound receives a distinct Chapter-6 raw variant rather than reusing its Chapter-2 body.
 
-Crimson Progenitor retains its inherited optional-Elite raw line.
+Crimson Progenitor retains its inherited Elite-strength raw line.
 
 Mandatory boss/support authority remains separately owned and unchanged.
 
