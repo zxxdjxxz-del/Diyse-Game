@@ -15,7 +15,7 @@
 - do not add enemies merely to make formation arithmetic hit a chapter quota.
 
 ## Optional-combat boundary — 2026-09-22
-**Hunts are the only optional enemy encounters.**
+**Hunts are the only standalone optional enemy/Elite encounters. Quest-owned combat remains governed by its owning quest.**
 
 Do not create or preserve a separate "optional Elite" / side-room enemy category.
 
