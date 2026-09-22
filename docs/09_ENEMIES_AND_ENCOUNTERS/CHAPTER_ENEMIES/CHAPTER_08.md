@@ -23,8 +23,8 @@
 ## Authored / protected / nonlethal
 - None
 
-## Optional Elite
-- Conqueror Legate
+## Strong normal-pool identity
+- Conqueror Legate — folded into the chapter/area normal encounter pool; not optional combat
 
 ## Mandatory named / boss
 - Western Rift Engine — one bar / Engine Core → Rift Incarnate same-bar
@@ -51,7 +51,7 @@ Do not invent a Western Rift / Westguard authored-special roster just because an
 Remains:
 > **rare ordinary**
 
-It is not promoted into a second optional Elite.
+It is not promoted into a second strong normal-pool Elite.
 
 ### Conqueror Legate
 Raw retained:
@@ -62,7 +62,7 @@ One bar. No support wave. No extra ordinary action.
 ## Numerical boundary
 Chapter-8 ordinary raw bodies are now newly authored active-balance authority in individual files.
 
-Conqueror Legate retains its inherited optional-Elite raw line.
+Conqueror Legate retains its inherited Elite-strength raw line.
 
 Mandatory boss/support authority remains separately owned and unchanged.
 
