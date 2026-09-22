@@ -7,7 +7,7 @@
 
 ## Briar Passage — first / northern traversal
 
-The first Briar traversal is balanced for **Cyanis + Ilyra only**. It uses two-enemy formations so the opening does not become a 7–8-round random-battle grind before Torren joins combat.
+The first Briar traversal is structurally authored for **Cyanis + Ilyra only**. It currently uses two-enemy formations because only two combatants are available. This is a **party-size / pacing structure lock**, not a final level-based difficulty certification.
 
 | Tier | Formation | Composition | Within-tier weight |
 |---|---|---|---:|
@@ -41,12 +41,10 @@ Chapter 1 does not use Brackenwall Reaver in this pool.
 ### Strong normal-pool entry — Watch Captain Frame
 Watch Captain Frame is no longer an optional side-room Elite. It belongs to the lower Hollow Watch encounter pool as a strong construct encounter.
 
-Current placement:
-- Heavy-tier formation: **Watch Captain Frame + Hollow Watch Sentry + Hollow Watch Ballista**;
-- 50% of the Hollow Watch Heavy subpool;
-- with Chapter 1's 20% Heavy-tier rate, this is an effective **10% of ordinary Hollow Watch draws** before any area-specific encounter-rate effects.
+Current structural placement:
+- Heavy-tier formation: **Watch Captain Frame + Hollow Watch Sentry + Hollow Watch Ballista**.
 
-This keeps the Frame rare enough to feel notably stronger without restoring optional side-room combat.
+Its **final selection weight is OPEN** until the mandatory level/progression rebalance is complete. Do not use the current chapter-tier percentages as final difficulty certification.
 
 ## Southern Briar Passage
 
@@ -66,14 +64,15 @@ This phase is balanced for **Cyanis + Ilyra + Torren** and may use 3–4 active 
 | Heavy | **Heavy Woods** | 1 Brambleback + 1 Briar Boar + 1 Rootmaw + 1 Thornvine Creeper | 50% |
 | Heavy | **Canopy Rush** | 2 Needlewings + 1 Greenhollow Stalker + 1 Rootmaw | 50% |
 
-Using the chapter-wide 25% / 55% / 20% Light / Standard / Heavy tier split, these remain the final Chapter-1 Southern-Briar formation weights unless later true-battle/playtest evidence demonstrates a specific failure.
+The listed Southern-Briar compositions are the current **structural formation set** for the three-character party.
 
-Paper revalidation places the normal three-person clear band at roughly:
-- Light: **3–4 offensive rounds**;
-- Standard: **4–5**;
-- Heavy: **4–6**;
+Final:
+- Light / Standard / Heavy selection percentages;
+- within-tier weights;
+- round-count targets;
+- damage/attrition targets;
 
-before healing/defensive choices and stochastic Crit/status effects.
+remain **OPEN** until the mandatory level/progression rebalance is complete.
 
 ## Roster boundary
 
@@ -112,4 +111,4 @@ Optional combat:
 ## Ownership boundary
 These rows own encounter composition/placement. Current enemy bodies/actions belong to their individual files. Whole-formation EXP/CEXP belongs to `10_PROGRESSION_AND_EXP`.
 
-Southern-Briar and Watch-Captain selection weights above are now the current paper-validated baseline. Reopen them only if true-battle/runtime playtesting demonstrates a specific duration, resource, or danger failure.
+Do not close final Southern-Briar or Watch-Captain selection weights from the current level spine. Their **compositions are structurally current; numeric weighting/difficulty certification is deferred** to the later progression rebalance.
