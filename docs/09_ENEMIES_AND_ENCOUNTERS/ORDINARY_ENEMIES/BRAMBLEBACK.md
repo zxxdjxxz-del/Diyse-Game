@@ -2,9 +2,9 @@
 
 **Chapter:** 1 — Southern Briar Passage  
 **Role:** ordinary natural threat / armored woodland bruiser  
-**Status:** **IDENTITY + PLACEMENT LOCKED / RAW BODY + ACTION POWER OPEN**
+**Status:** **SOUTHERN-BRIAR ENEMY SLOT LOCKED / WORKING NAME + KIT / RAW BODY + ACTION POWER OPEN**
 
-## Ecology / combat identity
+## Working ecology / combat identity
 - native Southern Briar wildlife;
 - broad, heavily protected animal whose hide carries dense bark/thorn-like growth;
 - appears only in Southern Briar during Chapter 1;
