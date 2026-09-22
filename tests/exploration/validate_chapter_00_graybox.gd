@@ -66,15 +66,15 @@ func _validate_graybox_scene() -> void:
 		"Marker_P02_Combat_4_—_Crossbowman_+_Hound",
 		"Marker_P02_Combat_5_—_Survivor-Route_Hound",
 		"Marker_North_Withdrawal_Sightline",
-		"Marker_S003_Decision",
+		"Marker_P03_Decision",
 		"Marker_Wounded___NO_COMBAT",
 		"Marker_P04_Ilyra",
 		"Marker_P05_Concealed_Seyrik",
 		"Marker_P06_Riftmaw_+_War-Sorcerer",
 		"Marker_P06_East_Cut",
 		"Marker_P07_Sweep_Start",
-		"Marker_S006_Tracks_South_of_Wagon_Line",
-		"Marker_S006_Wreck_Marker_Limit",
+		"Marker_P07_Tracks_South_of_Wagon_Line",
+		"Marker_P07_Wreck_Marker_Limit",
 		"Marker_TO_BRACKENWALL",
 	]:
 		_expect(instance.get_node_or_null(marker) != null, "Graybox missing authored spatial marker %s" % marker)
@@ -87,7 +87,7 @@ func _validate_graybox_scene() -> void:
 		_expect(p06_marker.position.x <= east_cut.position.x, "Combined final boss pocket must remain inside the defended camp before the east cut")
 
 	var sweep_start = instance.get_node_or_null("Marker_P07_Sweep_Start")
-	var sweep_limit = instance.get_node_or_null("Marker_S006_Wreck_Marker_Limit")
+	var sweep_limit = instance.get_node_or_null("Marker_P07_Wreck_Marker_Limit")
 	var brackenwall = instance.get_node_or_null("Marker_TO_BRACKENWALL")
 	if sweep_start != null and sweep_limit != null and brackenwall != null:
 		_expect(sweep_limit.position.z < sweep_start.position.z, "P07 bounded sweep must proceed outward from the camp")
