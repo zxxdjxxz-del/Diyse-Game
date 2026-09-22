@@ -11,8 +11,8 @@ Fixed one-time authored rewards. They are exempt from weak-enemy diminishing ret
 Subtotal: **745 EXP / 172 CEXP**
 | Mandatory authored event | EXP | CEXP |
 |---|---:|---:|
-| Hollow Watch Castellan — first clear | 300 | 65 |
-| Briarhide Stalker — successful nonlethal stabilization | 120 | 28 |
+| Hollow Watch Castellan — mandatory mini-boss clear | 300 | 65 |
+| Briarhide Stalker — normal lethal boss victory | 120 | 28 |
 | Greenhollow civilians secured / Torren permanent recruitment | 75 | 19 |
 | Wayfinder Junction documented / chapter clear | 250 | 60 |
 
