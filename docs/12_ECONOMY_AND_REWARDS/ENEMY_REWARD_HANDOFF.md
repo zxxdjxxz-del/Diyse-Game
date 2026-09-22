@@ -47,21 +47,28 @@ The reward can represent mission credit, secured resources, institutional compen
 
 ## Exact fixed authored non-boss payouts
 ### Chapter 0 authored combat
-Chapter 0 remains level-static, but its six mandatory authored combat resolutions now pay modest G:
+Chapter 0 remains level-static.
 
-| Encounter | G |
-|---|---:|
-| **0-01 — S001 Opening Line** | **200 G** |
-| **0-02 — Handler Pressure** | **250 G** |
-| **0-03 — Ruin Vanguard Pursuer protected disengagement** | **300 G** |
-| **0-04 — Riftmaw** | **400 G** |
-| **0-05 — S002 Hound** | **200 G** |
-| **0-06 — S005 War-Sorcerer confrontation** | **350 G** |
+The prior six-row payout mapping is superseded because the current encounter order now contains:
+1. P01 Raider + Crossbowman;
+2. P01 Raider + Ruin Shieldbearer;
+3. P01 2 Convoy Rift Hounds;
+4. P02 Crossbowman + Convoy Rift Hound;
+5. P02 1 Convoy Rift Hound;
+6. P05 Ruin Vanguard Pursuer protected disengagement;
+7. P06 Riftmaw + Convoy War-Sorcerer combined final boss.
 
-Chapter-0 authored-combat total:
+The previous Chapter-0 authored-combat envelope:
 > **1,700 G**
 
-The Pursuer's 300 G is the event-resolution payout. Do not also count that encounter as a separate optional-Elite bounty.
+is **retained provisionally as the chapter-level envelope**, so current mandatory-route G totals are not silently changed by encounter restructuring.
+
+However:
+> **the exact per-encounter split is REOPENED**
+
+Do not use the old Handler / standalone Riftmaw / standalone War-Sorcerer payout rows as current encounter payouts.
+
+The Pursuer remains an authored protected resolution rather than an optional-Elite bounty source. The combined P06 encounter must receive one authored encounter-level payout, not separate body bounties.
 
 ### Chapter 2 — Hold the Junction / S016
 Direct G:
@@ -111,7 +118,7 @@ Current deferred examples include:
 
 Their exact reward status must be resolved only after the owning story/dialogue placement is line-complete.
 
-Lord-Marshal Kharvek is already handled as the Chapter-12 optional Elite economy and must not receive a second authored-encounter G line.
+Lord-Marshal Kharvek is now a strong normal-pool Chapter-12 identity. Do not create a second authored-event G line unless its final normal-pool placement explicitly requires one; ordinary formation-level G remains the default.
 
 ## Random-drop rule — CLOSED
 Ordinary enemies and ordinary formations have:
