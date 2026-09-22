@@ -39,3 +39,11 @@ Chapter-10 actions:
 - Rooting Impact — **235 Power**, Physical / Neutral, Base Hit95, **20% Staggered**, 2-round repetition lock
 
 Same identity; no renamed late-game species.
+
+## Chapter-1 behavior lock
+- Uses the normal action-selection fallback between currently legal Tusk Rush and Shoulder Charge.
+- Tusk Rush keeps its existing 1-round repetition lock.
+- Single-target selection is equal among conscious active party members.
+- No focus-fire scripting.
+- Formation role: straightforward heavy wildlife pressure and a sturdier target beside faster Briar enemies.
+
