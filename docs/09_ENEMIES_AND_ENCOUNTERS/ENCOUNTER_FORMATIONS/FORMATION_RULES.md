@@ -14,7 +14,18 @@
 - ordinary encounter counts remain stochastic planning centers;
 - do not add enemies merely to make formation arithmetic hit a chapter quota.
 
-Whole-formation EXP/CEXP economy is owned by `10_PROGRESSION_AND_EXP`.
+## Optional-combat boundary — 2026-09-22
+**Hunts are the only optional enemy encounters.**
+
+Do not create or preserve a separate "optional Elite" / side-room enemy category.
+
+Former optional-Elite identities are folded into their chapter/area's normal encounter pool as strong normal-pool enemies:
+- repeatable identities may appear through ordinary formation selection;
+- unique/named identities use a one-time normal-pool entry rather than being duplicated;
+- they do not require a side room, optional branch, or separate optional-combat flag;
+- "Elite" may still describe enemy strength/role, but not optional-content status.
+
+Whole-formation EXP/CEXP economy is owned by `10_PROGRESSION_AND_EXP`. Converting former optional fights into normal-pool entries requires progression/reward revalidation where their prior optional rewards affected chapter budgets.
 
 ## Enemy action-selection fallback
 Where a current owning enemy file lacks explicit action weights, use `../ACTION_SELECTION_DEFAULT.md`. Explicit current weights always override the fallback.
