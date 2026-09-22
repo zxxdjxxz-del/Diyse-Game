@@ -43,7 +43,7 @@ When Torren becomes combat-capable for Hollow Watch, his guaranteed ordinary com
 Torren's Base Class state is:
 - **War Archer CL4 / 600 CEXP**
 
-Using the current Lv1–70 natural-stat curve and the current War Archer multipliers, his Chapter-1 balance-reference bodies are:
+Using the current Lv1–70 natural-stat curve and the current War Archer multipliers, the following are **reproducible reference outputs only**. They do not lock Torren's actual mandatory Chapter-1 route level:
 
 | Player Lv | HP | MP | ATK | MAG | DEF | Spirit | SPD |
 |---:|---:|---:|---:|---:|---:|---:|---:|
@@ -52,7 +52,7 @@ Using the current Lv1–70 natural-stat curve and the current War Archer multipl
 | 4 | **325** | **36** | **76** | **20** | **44** | **37** | **24** |
 | 5 | **360** | **39** | **78** | **22** | **46** | **39** | **24** |
 
-These supersede older Chapter-1 Torren test-body rows derived from the retired speed-forward War Archer stat package.
+These supersede older Torren stat calculations derived from the retired speed-forward War Archer stat package, but **the later progression rebalance owns which of these Player Levels actually applies at each Chapter-1 encounter**.
 
 ## Rule
 Later mandatory-vs-completionist checks must distinguish:
