@@ -2,9 +2,9 @@
 
 **Chapter:** 1 — Southern Briar Passage  
 **Role:** ordinary natural threat / rooted ambush-controller  
-**Status:** **IDENTITY + PLACEMENT LOCKED / RAW BODY + ACTION POWER OPEN**
+**Status:** **SOUTHERN-BRIAR ENEMY SLOT LOCKED / WORKING NAME + KIT / RAW BODY + ACTION POWER OPEN**
 
-## Ecology / combat identity
+## Working ecology / combat identity
 - native Southern Briar plant-beast / predatory growth;
 - appears only in Southern Briar during Chapter 1;
 - heavier and stranger than the northern Thornvine Creeper without replacing it;
