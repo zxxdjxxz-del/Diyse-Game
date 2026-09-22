@@ -15,16 +15,16 @@ const AREAS := {
 		"max_enemies": 2,
 		"formations": {
 			"light": [
-				{"id": "ch01_greenhollow_l01", "weight": 50.0, "exp": 45, "enemies": ["Greenhollow Stalker", "Thornvine Creeper"]},
-				{"id": "ch01_greenhollow_l02", "weight": 50.0, "exp": 45, "enemies": ["Greenhollow Stalker", "Greenhollow Stalker"]},
+				{"id": "ch01_greenhollow_l01", "weight": 50.0, "exp": 45, "enemies": ["Greenhollow Stalker", "Thornvine Creeper"], "subareas": ["upper_briar_west", "upper_briar_east"]},
+				{"id": "ch01_greenhollow_l02", "weight": 50.0, "exp": 45, "enemies": ["Greenhollow Stalker", "Greenhollow Stalker"], "subareas": ["upper_briar_west", "upper_briar_east"]},
 			],
 			"standard": [
-				{"id": "ch01_greenhollow_s01", "weight": 50.0, "exp": 55, "enemies": ["Briar Boar", "Thornvine Creeper"]},
-				{"id": "ch01_greenhollow_s02", "weight": 50.0, "exp": 55, "enemies": ["Greenhollow Stalker", "Briar Boar"]},
+				{"id": "ch01_greenhollow_s01", "weight": 50.0, "exp": 55, "enemies": ["Briar Boar", "Thornvine Creeper"], "subareas": ["upper_briar_west", "upper_briar_east"]},
+				{"id": "ch01_greenhollow_s02", "weight": 50.0, "exp": 55, "enemies": ["Greenhollow Stalker", "Briar Boar"], "subareas": ["upper_briar_west", "upper_briar_east"]},
 			],
 			"heavy": [
-				{"id": "ch01_greenhollow_h01", "weight": 50.0, "exp": 70, "enemies": ["Thornvine Creeper", "Thornvine Creeper"]},
-				{"id": "ch01_greenhollow_h02", "weight": 50.0, "exp": 70, "enemies": ["Briar Boar", "Briar Boar"]},
+				{"id": "ch01_greenhollow_h01", "weight": 50.0, "exp": 70, "enemies": ["Thornvine Creeper", "Thornvine Creeper"], "subareas": ["upper_briar_east"]},
+				{"id": "ch01_greenhollow_h02", "weight": 50.0, "exp": 70, "enemies": ["Briar Boar", "Briar Boar"], "subareas": ["upper_briar_east"]},
 			],
 		},
 	},
@@ -33,16 +33,17 @@ const AREAS := {
 		"max_enemies": 4,
 		"formations": {
 			"light": [
-				{"id": "ch01_hollow_watch_l01", "weight": 50.0, "exp": 45, "enemies": ["Black Host Raider", "Black Host Crossbowman"]},
-				{"id": "ch01_hollow_watch_l02", "weight": 50.0, "exp": 45, "enemies": ["Hollow Watch Sentry", "Hollow Watch Sentry"]},
+				{"id": "ch01_hollow_watch_l01", "weight": 50.0, "exp": 45, "enemies": ["Black Host Raider", "Black Host Raider", "Black Host Crossbowman"], "subareas": ["hw_approach", "hw_surface", "hw_excavation_early", "hw_excavation_transition"]},
+				{"id": "ch01_hollow_watch_l02", "weight": 50.0, "exp": 45, "enemies": ["Hollow Watch Sentry", "Hollow Watch Sentry"], "subareas": ["hw_excavation_transition", "hw_excavation_deep", "hw_surviving_channel", "hw_protected_inner"]},
 			],
 			"standard": [
-				{"id": "ch01_hollow_watch_s01", "weight": 50.0, "exp": 55, "enemies": ["Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer"]},
-				{"id": "ch01_hollow_watch_s02", "weight": 50.0, "exp": 55, "enemies": ["Hollow Watch Sentry", "Hollow Watch Sentry", "Hollow Watch Ballista"]},
+				{"id": "ch01_hollow_watch_s01", "weight": 50.0, "exp": 55, "enemies": ["Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer"], "subareas": ["hw_approach", "hw_surface", "hw_excavation_early", "hw_excavation_transition"]},
+				{"id": "ch01_hollow_watch_s02", "weight": 50.0, "exp": 55, "enemies": ["Hollow Watch Sentry", "Hollow Watch Sentry", "Hollow Watch Ballista"], "subareas": ["hw_excavation_transition", "hw_excavation_deep", "hw_surviving_channel", "hw_protected_inner"]},
 			],
 			"heavy": [
-				{"id": "ch01_hollow_watch_h01", "weight": 50.0, "exp": 70, "enemies": ["Black Host Raider", "Black Host Crossbowman", "Black Host Crossbowman", "Ruin Shieldbearer"]},
-				{"id": "ch01_hollow_watch_h02", "weight": 50.0, "exp": 70, "enemies": ["Watch Captain Frame", "Hollow Watch Sentry", "Hollow Watch Ballista"]},
+				{"id": "ch01_hollow_watch_h01", "weight": 34.0, "exp": 70, "enemies": ["Black Host Crossbowman", "Black Host Crossbowman", "Ruin Shieldbearer"], "subareas": ["hw_approach", "hw_surface", "hw_excavation_early", "hw_excavation_transition"]},
+				{"id": "ch01_hollow_watch_h02", "weight": 33.0, "exp": 70, "enemies": ["Hollow Watch Sentry", "Hollow Watch Ballista", "Hollow Watch Ballista"], "subareas": ["hw_excavation_transition", "hw_excavation_deep", "hw_surviving_channel", "hw_protected_inner"]},
+				{"id": "ch01_hollow_watch_h03", "weight": 33.0, "exp": 70, "enemies": ["Watch Captain Frame", "Hollow Watch Sentry", "Hollow Watch Ballista"], "subareas": ["hw_excavation_deep", "hw_surviving_channel", "hw_protected_inner"]},
 			],
 		},
 	},
@@ -51,16 +52,16 @@ const AREAS := {
 		"max_enemies": 5,
 		"formations": {
 			"light": [
-				{"id": "ch01_briar_south_l01", "weight": 50.0, "exp": 45, "enemies": ["Needlewing", "Greenhollow Stalker", "Briar Boar"]},
-				{"id": "ch01_briar_south_l02", "weight": 50.0, "exp": 45, "enemies": ["Rootmaw", "Thornvine Creeper", "Needlewing"]},
+				{"id": "ch01_briar_south_l01", "weight": 50.0, "exp": 45, "enemies": ["Needlewing", "Greenhollow Stalker", "Briar Boar"], "subareas": ["south_opening", "south_hard_middle", "south_side_approach", "south_final_leg", "south_cleanup_return"]},
+				{"id": "ch01_briar_south_l02", "weight": 50.0, "exp": 45, "enemies": ["Rootmaw", "Thornvine Creeper", "Needlewing"], "subareas": ["south_opening", "south_hard_middle", "south_side_approach"]},
 			],
 			"standard": [
-				{"id": "ch01_briar_south_s01", "weight": 50.0, "exp": 55, "enemies": ["Rootmaw", "Thornvine Creeper", "Thornvine Creeper", "Needlewing"]},
-				{"id": "ch01_briar_south_s02", "weight": 50.0, "exp": 55, "enemies": ["Brambleback", "Briar Boar", "Thornvine Creeper"]},
+				{"id": "ch01_briar_south_s01", "weight": 50.0, "exp": 55, "enemies": ["Rootmaw", "Thornvine Creeper", "Thornvine Creeper", "Needlewing"], "subareas": ["south_hard_middle", "south_side_approach"]},
+				{"id": "ch01_briar_south_s02", "weight": 50.0, "exp": 55, "enemies": ["Brambleback", "Briar Boar", "Thornvine Creeper"], "subareas": ["south_opening", "south_hard_middle", "south_side_approach", "south_final_leg", "south_cleanup_return"]},
 			],
 			"heavy": [
-				{"id": "ch01_briar_south_h01", "weight": 50.0, "exp": 70, "enemies": ["Brambleback", "Briar Boar", "Rootmaw", "Thornvine Creeper"]},
-				{"id": "ch01_briar_south_h02", "weight": 50.0, "exp": 70, "enemies": ["Needlewing", "Needlewing", "Greenhollow Stalker", "Rootmaw", "Briar Boar"]},
+				{"id": "ch01_briar_south_h01", "weight": 50.0, "exp": 70, "enemies": ["Brambleback", "Briar Boar", "Rootmaw", "Thornvine Creeper"], "subareas": ["south_hard_middle", "south_final_leg", "south_cleanup_return"]},
+				{"id": "ch01_briar_south_h02", "weight": 50.0, "exp": 70, "enemies": ["Needlewing", "Needlewing", "Greenhollow Stalker", "Rootmaw", "Briar Boar"], "subareas": ["south_hard_middle", "south_final_leg", "south_cleanup_return"]},
 			],
 		},
 	},
@@ -214,3 +215,27 @@ static func max_enemies_for_area(area_id: String) -> int:
 	if not AREAS.has(area_id):
 		return 0
 	return int(AREAS[area_id].get("max_enemies", 0))
+
+
+static func subarea_ids_for_area(area_id: String) -> Array[String]:
+	var result: Array[String] = []
+	if not AREAS.has(area_id):
+		return result
+	for tier in TIER_NAMES:
+		for formation in AREAS[area_id]["formations"].get(tier, []):
+			for subarea in formation.get("subareas", []):
+				var subarea_id := str(subarea)
+				if subarea_id not in result:
+					result.append(subarea_id)
+	result.sort()
+	return result
+
+static func formation_ids_for_subarea(area_id: String, subarea_id: String) -> Array[String]:
+	var result: Array[String] = []
+	if not AREAS.has(area_id):
+		return result
+	for tier in TIER_NAMES:
+		for formation in AREAS[area_id]["formations"].get(tier, []):
+			if subarea_id in formation.get("subareas", []):
+				result.append(str(formation.get("id", "")))
+	return result
