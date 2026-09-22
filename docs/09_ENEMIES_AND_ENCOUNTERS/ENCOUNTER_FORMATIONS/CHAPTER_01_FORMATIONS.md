@@ -38,7 +38,7 @@ Its exact insertion weight is **OPEN pending Chapter-1 revalidation** so the for
 
 ## Southern Briar Passage
 
-Southern Briar uses the northern three plus three additional native identities:
+Southern Briar uses the northern three plus three additional **locked** native identities:
 - Needlewing
 - Rootmaw
 - Brambleback
@@ -86,6 +86,8 @@ Mandatory named encounters:
 
 Optional combat:
 - Regional Hunt #1 — Cistern Devourer only
+
+**Identity/name lock:** all Chapter-1 enemy names listed in this file are locked current canon. Open formation weights or numeric tuning do not make the enemy identities provisional.
 
 ## Ownership boundary
 These rows own encounter composition/placement. Current enemy bodies/actions belong to their individual files. Whole-formation EXP/CEXP belongs to `10_PROGRESSION_AND_EXP`.
