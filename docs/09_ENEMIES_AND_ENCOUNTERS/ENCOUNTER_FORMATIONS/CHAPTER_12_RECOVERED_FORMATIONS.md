@@ -27,3 +27,11 @@ The composition climb is controlled because later formations add:
 
 No formation exceeds the global 8-enemy cap.
 Reward values are owned by `10_PROGRESSION_AND_EXP`.
+
+
+## Strong normal-pool integration — Lord-Marshal Kharvek
+- pool: **palace / late**;
+- former optional/side-room placement is retired;
+- this identity is part of the area's normal encounter structure;
+- if repetition would violate the identity's fiction, use a one-time normal-pool entry;
+- exact insertion frequency/weight is **OPEN pending encounter-budget revalidation**; the existing weighted rows remain the baseline for repeatable formations until that pass.
