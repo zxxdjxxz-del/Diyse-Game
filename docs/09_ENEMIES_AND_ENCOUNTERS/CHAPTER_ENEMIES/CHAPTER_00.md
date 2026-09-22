@@ -10,14 +10,13 @@
 - Black Host Crossbowman
 - Ruin Shieldbearer
 - Convoy Rift Hound
-- Beast Handler
 
 ## Support objects / support identities
 - None
 
 ## Authored / protected / nonlethal
 - **Ruin Vanguard Pursuer — concealed Seyrik Rell; authored protected disengagement after Ilyra joins Cyanis in combat.**
-- **Convoy War-Sorcerer + injured Iron Cohort Soldier — authored final Broken Convoy confrontation.**
+- **Convoy War-Sorcerer — authored final Broken Convoy confrontation.**
 
 ## Mandatory named / boss
 - **Riftmaw — mandatory named/boss encounter after Ilyra joins Cyanis in combat.**
@@ -41,7 +40,7 @@ Exact current encounter authority:
 
 ### Opening ambush — Cyanis solo
 1. **Opening Line** — Black Host Raider + Black Host Crossbowman + Ruin Shieldbearer.
-2. **Handler Pressure** — Beast Handler + Convoy Rift Hound.
+2. **Hound Pressure** — 2 Convoy Rift Hounds.
 
 The opening solo combat segment ends here. **Do not place concealed Seyrik or Riftmaw in the S001 opening chain.**
 
@@ -118,7 +117,26 @@ Ruin Vanguard Pursuer:
 > **CURRENT / AUTHORED PROTECTED / SEYRIK CONCEALED / MOVED AFTER ILYRA JOINS**
 
 Final War-Sorcerer confrontation:
-> **CURRENT / POWER COMPLETE / FINAL BROKEN CONVOY PUSH**
+> **CURRENT / POWER COMPLETE / WAR-SORCERER ONLY / FINAL BROKEN CONVOY PUSH**
 
 Difficulty-validation status:
 > **MOVED-ENCOUNTER REVALIDATION REQUIRED BEFORE RECLOSURE**
+
+
+## Chapter-0 enemy identity/name lock — 2026-09-22
+The Chapter-0 combat roster is exactly:
+
+### Shared Black Host identities
+- Black Host Raider
+- Black Host Crossbowman
+- Ruin Shieldbearer
+
+### Chapter-0-specific combat identities
+- Convoy Rift Hound
+- Ruin Vanguard Pursuer — concealed Seyrik Rell
+- Riftmaw
+- Convoy War-Sorcerer
+
+Beast Handler and injured Iron Cohort Soldier are **not Chapter-0 combat enemies**.
+
+This lock covers enemy identity/name and Chapter-0 inclusion. Exact encounter difficulty remains subject to the already-open placement/party-state revalidation.
