@@ -57,7 +57,7 @@ func _validate_trigger_and_payload(controller, failures: Array[String]) -> void:
 		failures.append("Battle request signal must emit exactly once for one pressure trigger")
 	if not controller.has_pending_battle():
 		failures.append("Controller must remain battle-active after emitting a request")
-	if controller.configure_context(1, "ch01_brackenwall", 10.0):
+	if controller.configure_context(1, "ch01_briar_south", 10.0):
 		failures.append("Controller allowed area context to change while a battle was active")
 	if controller.area_id != "ch01_greenhollow":
 		failures.append("Rejected in-battle context change still mutated the active area")
@@ -139,7 +139,7 @@ func _on_battle_requested(payload: Dictionary) -> void:
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Audit98 reusable field encounter controller validation passed.")
+		print("Current reusable field encounter controller validation passed.")
 		quit(0)
 		return
 	for failure in failures:
