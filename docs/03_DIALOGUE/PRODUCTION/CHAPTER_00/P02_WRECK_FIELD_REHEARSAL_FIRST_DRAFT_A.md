@@ -106,9 +106,19 @@ The area itself shows why the center route is unsafe. No second explanation is n
 
 ---
 
+### [WRECK FIELD MIXED PRESSURE — CYANIS SOLO]
+
+Before the later survivor-route Hound beat, Cyanis crosses another active pocket of the wreck field.
+
+**AUTHORED COMBAT — BLACK HOST CROSSBOWMAN + CONVOY RIFT HOUND.**
+
+This is gameplay pressure inside the rescue traversal, not a new dialogue scene or reveal beat.
+
+---
+
 ### [AUTHORED HOUND PRESSURE]
 
-The current Chapter-0 story specifically authorizes one lone **Convoy Rift Hound** encounter threatening the survivor route.
+The current Chapter-0 story then authorizes one lone **Convoy Rift Hound** encounter threatening the survivor route.
 
 The story trigger is short.
 
