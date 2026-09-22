@@ -43,6 +43,14 @@ Use current files in `../ORDINARY_ENEMIES/` for enemy raw bodies and `10_PROGRES
 ## Guardrails
 - support objects such as Authentication Lens, Living Anchor Clamp, Perception Node, and Ruin Containment Seal remain boss/support architecture and are not random-formation bodies;
 - Crown Engine Technician remains authored/protected/nonlethal and does not enter the random pool;
-- Perfect Administrator remains the optional Elite and does not enter the random pool;
+- Perfect Administrator is a strong normal-pool late Custodian identity;
 - ordinary actions without explicit current weights use `../ACTION_SELECTION_DEFAULT.md`; explicit weights override the fallback;
 - no dynamic player-level scaling.
+
+
+## Strong normal-pool integration — Perfect Administrator
+- pool: **Custodian domain / late**;
+- former optional/side-room placement is retired;
+- this identity is part of the area's normal encounter structure;
+- if repetition would violate the identity's fiction, use a one-time normal-pool entry;
+- exact insertion frequency/weight is **OPEN pending encounter-budget revalidation**; the existing weighted rows remain the baseline for repeatable formations until that pass.
