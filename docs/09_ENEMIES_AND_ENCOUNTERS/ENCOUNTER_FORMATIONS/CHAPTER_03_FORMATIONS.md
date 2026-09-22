@@ -45,6 +45,14 @@ Current Chapter-3 enemy files and current progression/reward files control those
 - the lawful Caelora gate approach is not a hostile-perimeter random encounter route;
 - Caelora → Cresthaven travel is skipped in current Chapter-3 story authority and does not host random encounters;
 - False-Warrant Adept remains placement-unresolved and is not added here;
-- Grand Inquisitor Frame remains an optional Suppressed-Archives branch Elite;
+- Grand Inquisitor Frame is a strong normal-pool Suppressed-Archives identity;
 - simultaneous enemy hard cap remains 8;
 - current v79 raw bodies/Powers override all older numeric formation-table rows.
+
+
+## Strong normal-pool integration — Grand Inquisitor Frame
+- pool: **Suppressed Archives**;
+- former optional/side-room placement is retired;
+- this identity is part of the area's normal encounter structure;
+- if repetition would violate the identity's fiction, use a one-time normal-pool entry;
+- exact insertion frequency/weight is **OPEN pending encounter-budget revalidation**; the existing weighted rows remain the baseline for repeatable formations until that pass.
