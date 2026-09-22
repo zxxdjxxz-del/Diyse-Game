@@ -48,7 +48,6 @@ Do not restore a blanket `nonlethal = 0 G` rule.
 ## Sources excluded from baseline solvency
 Do **not** rely on:
 - ordinary Side Quests;
-- optional Elites;
 - Regional Hunts;
 - Major Hunts;
 - Character Quests;
@@ -68,3 +67,9 @@ The mandatory route does not promise enough G to buy every newly available ordin
 If future playtest simulation shows a normal campaign repeatedly falls below intended purchase/restock pressure, fix authored mandatory G distribution rather than requiring optional farming.
 
 If the mandatory route routinely buys everything with little sacrifice, reduce or redistribute authored G before globally inflating prices.
+
+
+## Strong normal-pool former-Elite rule
+Former optional-Elite identities are now part of normal encounter pools. They do **not** add a separate fixed bounty to the mandatory-route budget.
+
+Their current G is subsumed by the normal formation-level reward selected from `ENCOUNTER_G_REWARDS.md`. This keeps the existing ordinary-formation route expectation structurally intact unless later encounter-frequency/G validation changes the formation-level budget itself.
