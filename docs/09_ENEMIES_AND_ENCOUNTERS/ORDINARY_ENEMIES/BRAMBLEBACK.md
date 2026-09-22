@@ -61,3 +61,12 @@ Still open:
 - any stat/HP adjustment demonstrated by that validation.
 
 Do not add Burn, Freeze, Stun, or Staggered to the Chapter-1 body.
+
+## Chapter-1 behavior lock
+- Bramble Charge and Spine Sweep use the normal action-selection fallback when legal.
+- Spine Sweep keeps its 2-round repetition lock.
+- Hunker is legal only while its own Defense increase is not already active and remains subject to its 2-round repetition lock.
+- Hunker never stacks with itself.
+- Bramble Charge selects equally among conscious active party members.
+- Formation role: armored frontline bruiser; Spine Sweep creates visible three-person party-wide pressure without hidden focus-fire.
+
