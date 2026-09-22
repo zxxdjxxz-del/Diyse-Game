@@ -1,7 +1,7 @@
 # Archive Duplicant
 
-**Chapter:** 2 — Sunken Archive optional side room  
-**Role:** optional Elite  
+**Chapter:** 2 — Sunken Archive normal encounter pool  
+**Role:** strong normal-pool Elite  
 **Status:** **POWER COMPLETE / v78 DIFFICULTY VALIDATED / RAW LINE RETAINED / COPY RULE BOUNDED**
 
 ## Raw body — RETAIN
@@ -77,7 +77,7 @@ Effect:
 No Barrier or Brace.
 
 ## Fight-length role
-Existing optional-Elite target:
+Existing Elite-strength target:
 > **~2–4 serious party rounds**
 
 No mandatory story information is gated behind this fight.
@@ -87,3 +87,12 @@ No mandatory story information is gated behind this fight.
 Actual access is ~Lv6 mandatory-route vicinity / ~Lv7 completionist high-side. A serious four-person round including Maevra is ~280 damage before Duplicant Guard, placing the 1,000-HP body at ~3.6 serious rounds.
 
 > **PASS — RETAIN**
+
+
+## Normal-pool conversion — 2026-09-22
+Archive Duplicant is no longer optional side content.
+
+Current role:
+> **strong normal-pool enemy**
+
+It is encountered through the chapter/area's normal encounter structure rather than an optional room or branch. If the identity is unique/named, use a one-time normal-pool entry rather than repeatable copies. Existing raw stats and Power remain retained; encounter frequency/placement and reward impact require revalidation where the prior optional placement mattered.
