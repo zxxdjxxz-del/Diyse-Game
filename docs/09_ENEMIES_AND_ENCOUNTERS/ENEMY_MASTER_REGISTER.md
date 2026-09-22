@@ -234,31 +234,40 @@ Do not treat the number of rows in this chapter-role ledger as a unique-identity
 Repeated/carryover enemies intentionally appear more than once.
 Support-only roles and fresh forms are also represented separately.
 
-## Chapter-1 Power-pass status
-Chapter-1 ordinary/Elite/authored encounter coverage:
-> **PASS**
+## Chapter-1 current enemy-authoring status
 
-Completed individual action/raw authorities:
-- Black Host Raider — Chapter-1 variant
-- Black Host Crossbowman — Chapter-1 variant
-- Ruin Shieldbearer — Chapter-1 variant
-- Brackenwall Reaver
-- Greenhollow Stalker
-- Thornvine Creeper
-- Briar Boar
-- Hollow Watch Sentry
-- Hollow Watch Ballista
-- Briarhide Stalker + Black Host Irritant Fitting
-- Watch Captain Frame
+Current locked Chapter-1 roster/placement is owned by:
+- `CHAPTER_ENEMIES/CHAPTER_01.md`;
+- `ENCOUNTER_FORMATIONS/CHAPTER_01_FORMATIONS.md`.
 
-Chapter-0 warning:
-> **Riftmaw remains current and must stay in Chapter 0 as the mandatory named/boss encounter.**
+Existing Power/raw-complete identities:
+- Black Host Raider — Chapter-1 Hollow Watch variant;
+- Black Host Crossbowman — Chapter-1 Hollow Watch variant;
+- Ruin Shieldbearer — Chapter-1 Hollow Watch variant;
+- Greenhollow Stalker;
+- Thornvine Creeper;
+- Briar Boar;
+- Hollow Watch Sentry;
+- Hollow Watch Ballista;
+- Watch Captain Frame — Power complete, now strong normal-pool construct;
+- Hollow Watch Castellan — mini-boss body retained pending current-party revalidation;
+- Briarhide Stalker — normal lethal Chapter-1 final boss.
 
-Line-complete S005 also establishes a Convoy War-Sorcerer + injured Iron Cohort Soldier encounter.
+New Southern-Briar identities:
+- Needlewing;
+- Rootmaw;
+- Brambleback.
 
-These are additive/current encounter identities, not evidence that Riftmaw is obsolete.
+Those three names/identities/placements are locked, but their raw bodies/action Powers remain open. Therefore the Chapter-1 ordinary-enemy authoring pass is **reopened only for those three identities**, and encounter validation remains reopened for the current formations/party states.
 
-Do not declare Chapter 0 Power-complete until the S005 encounter is correctly placed and specified alongside the retained Riftmaw encounter.
+Brackenwall Reaver is not part of the active Chapter-1 roster.
+
+Chapter-0 current firewall:
+- exactly five Cyanis-solo fights before Ilyra joins;
+- Ruin Vanguard Pursuer / concealed Seyrik after Ilyra joins;
+- one combined Riftmaw + Convoy War-Sorcerer final boss;
+- no Beast Handler;
+- no injured Iron Cohort Soldier.
 
 ## Chapter-2 Power-pass status
 Chapter-2 ordinary / authored / Elite batch:
@@ -573,37 +582,38 @@ Mandatory final bosses remain separately complete and unchanged.
 
 No Regional Hunt in Chapter 13.
 
-## Chapter-0 v72 completion
-Chapter-0 encounter-order / remaining-kit reconciliation:
-> **PASS**
+## Chapter-0 current encounter status
 
-Exact order:
-1. S001 Opening Line
-2. S001 Handler Pressure
-3. S001 Ruin Vanguard Pursuer
-4. S001 Riftmaw
-5. S002 solo Convoy Rift Hound
-6. S005 Convoy War-Sorcerer + injured Iron Cohort Soldier
+The old v72 order is superseded.
 
-S003 / S006:
+Current exact authored order:
+1. P01 — Black Host Raider + Black Host Crossbowman;
+2. P01 — Black Host Raider + Ruin Shieldbearer;
+3. P01 — 2 Convoy Rift Hounds;
+4. P02 — Black Host Crossbowman + Convoy Rift Hound;
+5. P02 — 1 Convoy Rift Hound;
+6. P05 — Ruin Vanguard Pursuer / concealed Seyrik; protected disengagement;
+7. P06 — Riftmaw + Convoy War-Sorcerer combined final boss.
+
+P03 and P07:
 > no combat
 
-S004:
-> direct transition from S003; no standalone battle before S005.
+P04:
+> Ilyra introduction / first incomplete Card flare / party expansion; no standalone authored battle.
 
 Riftmaw:
-> **RETAINED / mandatory named-boss / Power complete**
+> **RETAINED / mandatory named boss body / Power complete / combined-P06 revalidation required**
 
 Ruin Vanguard Pursuer:
-> **Seyrik concealed / protected retreat / Power complete**
+> **SEYRIK CONCEALED / protected retreat / Power complete**
 
-S005:
-> War-Sorcerer is victory target; surviving Soldier withdraws; three-round **Defense +15% / Spirit +15%** authored protection; Rift Lance Preparation Round2+.
+P06:
+> both Riftmaw and Convoy War-Sorcerer must be defeated; three-round **Defense +15% / Spirit +15%** authored protection; Rift Lance Preparation Round2+; no injured Soldier.
 
 Chapter 0:
-> no harmful party statuses / Player-Level static
+> no harmful party statuses / Player-Level static / encounter validation reopened for the five-fight solo sequence and combined final boss.
 
-All Chapter-0 enemy identities now have exact direct-damage Power.
+All current Chapter-0 enemy identities have direct-damage Power authored; this does not mean the new encounter order is difficulty-certified.
 
 ## Regional Hunt Power closure — v73
 Regional Hunts:
