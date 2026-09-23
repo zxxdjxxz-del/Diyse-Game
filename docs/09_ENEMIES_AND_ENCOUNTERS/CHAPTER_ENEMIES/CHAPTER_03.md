@@ -77,18 +77,20 @@ These remain compatible with the Archives, but exact sub-area formation eligibil
 - Authority Lens — shared inspection / authority-reading support construct; also appears in the Old City Archives; no Chapter-3 Stun rider
 - Command Ring Drone — mobile command-relay support construct; Attack / Magic support
 
-### Recovered identities — current mandatory placement not yet reapproved
+### Retired Chapter-3 identities
+The following are removed from Chapter 3 entirely:
 - Way-Fort Marauder
 - Rift Boltman
 - Black Host Ward-Sorcerer
 
-These identities remain available for later explicit placement or compatible optional content.
-
-They are **not automatically current** in:
+Do not place them in:
 - Caelora;
 - the Old City Archives;
+- Cresthaven;
 - the skipped Caelora → Cresthaven travel;
-- the short Cresthaven tower-base dungeon.
+- Chapter-3 optional content.
+
+Their historical files may remain for archive/reference purposes, but they are not active Chapter-3 enemy content.
 
 The Cresthaven short-dungeon ordinary roster must be intentionally designed rather than inherited wholesale from the retired Caelora command-route structure.
 
@@ -240,3 +242,11 @@ Do not fill these gaps by silently restoring the retired encounter structure.
 - Maximum one per formation.
 - Chapter-3 Lock Sequence is Lightning damage **without Stun**.
 - The inherited numeric body requires fresh four-person validation.
+
+
+## Chapter-3 hostile-perimeter retirement — 2026-09-23
+- **Way-Fort Marauder — RETIRED FROM CHAPTER 3**
+- **Rift Boltman — RETIRED FROM CHAPTER 3**
+- **Black Host Ward-Sorcerer — RETIRED FROM CHAPTER 3**
+
+These three identities are not part of any current Chapter-3 mandatory, optional, random, authored, or cleanup encounter.
