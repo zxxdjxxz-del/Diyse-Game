@@ -68,7 +68,7 @@ A beat.
 
 **CYANIS:** Digging?
 
-**TORREN:** Looks like it. I haven't seen enough to call that fact.
+**TORREN:** Looks like it. Couldn't get close enough to see what the hell they were doing.
 
 **ILYRA:** Anyone come out?
 
