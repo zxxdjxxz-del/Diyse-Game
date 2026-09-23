@@ -57,3 +57,9 @@ Black Host Crossbowman is part of the locked Chapter-0 roster. Current authored 
 - No Bleed rider is active in Chapter 0.
 - P01/P02 uses are Cyanis-solo, so all legal single-target actions necessarily target Cyanis.
 - No hidden distance/back-row targeting rule.
+
+## Visual authority
+Current locked Chapter-0 appearance:
+> `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
+
+Combat/encounter mechanics remain owned by this file; visual identity is owned by the art-domain authority above.
