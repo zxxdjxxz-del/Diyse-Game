@@ -1,197 +1,145 @@
-# First Command Warden — Current Working Recertification
+# First Command Warden
 
 **Chapter:** 3  
-**Scene:** S020 — Old City Command Station  
-**Status:** **WORKING PASS / POWER COMPLETE**
+**Current location:** Cresthaven Ancient tower base — Warden Chamber  
+**Role:** mandatory Beat-14 chapter-climax boss  
+**Status:** **IDENTITY / ONE-BAR ARCHITECTURE / ACTION GRAMMAR LOCKED — CURRENT FOUR-PERSON REVALIDATION REQUIRED**
 
-## Actual route-level reference
+## Current party
+- Cyanis
+- Ilyra
+- Torren
+- Nimera
 
-Cumulative mandatory EXP before the Warden:
-- end Chapter 2: **6,400**
-- Chapter-3 mandatory EXP earned before the Warden: **4,880**
-- total before battle: **11,280 EXP**
+Mirena and Maevra remain aboveground and do not contribute battle actions.
 
-That places the mandatory-route party at:
-> **Lv11**, 820 EXP short of Lv12.
+## Story identity
+The First Command Warden is intact Ancient command-site machinery.
 
-Fixed optional EXP available before this battle:
-- The Marks We Leave — 500
-- Regional Hunt #1 — 1,000
-- Regional Hunt #2 — 1,500
+Before combat it visibly assesses the **entire four-person party** through Ancient magical craft.
 
-Completionist fixed-content total before the Warden:
-> **14,280 EXP**
+The result is unacceptable / insufficient, so it attacks.
 
-That is:
-> **Lv12**, only 120 EXP short of Lv13.
-
-Optional-Elite / incidental optional combat can therefore place a high-side completionist at:
-> **~Lv13**
-
-Balance references:
-- mandatory central — **Lv11**
-- completionist fixed-content — **Lv12 approaching Lv13**
-- high-side completionist — **~Lv13**
-
-## Current raw line
-
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 14 | **2,850** | **72** | **72** | **43** | **43** | **30** | 0 | **10** |
-
-Former inherited line:
-> Lv14 / 3,723 HP / 57 ATK / 57 MAG / 43 DEF / 43 Spirit / 29 SPD
-
-The old body was too durability-heavy for a boss that already taxes actions through Command Seals, the Command Ring, and Recorded Analogue behavior.
+It does not explain what it assessed.
 
 ## Architecture
-- one continuous HP bar
-- State A — **Imposed Authority**
-- State B — **Challenged Authority**
-- State B begins at **45% HP**
-- no HP refill
-- no transition damage
-- no free threshold attack
-- no fresh body
-- no Prime refresh
+- **one continuous HP bar**;
+- State A — **Imposed Authority**;
+- State B — **Challenged Authority** at **45% HP**;
+- no HP refill;
+- no fresh body;
+- no transformation;
+- no free threshold attack;
+- no Prime refresh.
 
-Last Sentinel is not recovered until after this battle, so the party has no Story Prime available here anyway.
+A temporary targetable **Command Ring** may appear during State A as part of Major Ruling preparation. It is a support object, not a second boss body.
 
 ## State A — Imposed Authority
 
 ### Authority Lance
-- one party member
-- Physical / Neutral
-- **190 Power**
-- Base Hit **100**
-- no harmful-status rider
+- one party member;
+- Physical / Neutral;
+- **190 Power — provisional**;
+- Base Hit100;
+- no harmful-status rider.
 
 ### Judgment Pulse
-- all conscious party members
-- Magical / Colorless
-- **140 Power per target**
-- Base Hit **100**
-- no harmful-status rider
-- 2-round repetition lock
+- all conscious party members;
+- Magical / Colorless;
+- **140 Power per target — provisional**;
+- Base Hit100;
+- no harmful-status rider;
+- 2-round repetition lock.
 
 ### Command Seal
 > **Power: N/A — no direct damage**
 
 Target:
-- one conscious party member
+- one conscious party member.
 
 The Seal visibly records that target's most recently completed ordinary command category:
-- Attack
-- Ability
-- Card
-- Item
-- Defend
+- Attack;
+- Ability;
+- Card;
+- Item;
+- Defend.
 
 Duration:
 > **2 rounds**
 
-It never disables or removes a command.
+It never disables, removes, or locks a command.
 
-If the sealed character repeats the marked command category before the Seal expires, their selected action still resolves normally. After it resolves, the Seal triggers once:
+If the sealed character repeats the marked command category before expiry:
+- the selected player action resolves normally;
+- afterward the Seal triggers once;
+- then the Seal clears.
 
 #### Seal Reprisal
-- sealed character only
-- Magical / Colorless
-- **100 Power**
-- Base Hit **100**
-- no status rider
-- the Seal then clears
+- sealed character only;
+- Magical / Colorless;
+- **100 Power — provisional**;
+- Base Hit100;
+- no harmful-status rider.
 
-If the character does not repeat the marked category before expiry, the Seal expires harmlessly.
+If the marked category is not repeated before expiry:
+> the Seal expires harmlessly.
 
-Command Seal itself has a 2-round repetition lock.
+Command Seal:
+- 2-round repetition lock;
+- reads only completed action history;
+- never reads an unconfirmed player command.
 
-This uses only completed action history; it does not read unconfirmed player commands.
-
-## Command Ring
+## Command Ring / Major Ruling
 
 Before a Major Ruling, the suspended Command Ring aligns and becomes targetable for one full Preparation round.
 
 ### Command Ring
+Provisional inherited body:
+| HP | DEF | Spirit | SR |
+|---:|---:|---:|---:|
+| **260** | **40** | **46** | **10** |
 
-| HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|
-| **260** | 0 | 0 | **40** | **46** | 0 | 0 | 10 |
-
-The Ring is a targetable support object only while aligned.
+The Ring is targetable only while aligned.
 
 Reducing it to 0 HP during Preparation:
 - disrupts the Ring;
 - cancels that Major Ruling;
-- does not deal transition damage;
 - does not damage the Warden;
-- returns the Ring to its suspended inactive state.
+- returns the Ring to its inactive suspended state.
 
-The Ring may align again after **3 full rounds**.
+The Ring may align again only after **3 full rounds**.
 
-It is not a Break gauge or Barrier.
+This is not a Break gauge or Barrier.
 
 ### Major Ruling
 Preparation:
 > **1 full round**
 
 If the Ring remains functional:
-- all conscious party members
-- Magical / Colorless
-- **210 Power per target**
-- Base Hit **95**
-- **15% Stun per target**
-- 3-round repetition lock after resolution
+- all conscious party members;
+- Magical / Colorless;
+- **210 Power per target — provisional**;
+- Base Hit95;
+- **15% Stun per target**;
+- 3-round repetition lock after resolution.
 
 If the Ring is disrupted:
 > Major Ruling is canceled.
 
-## Recorded action system
+## Retired mechanic — Recorded Analogue
+The former copied-action / Recorded Analogue system is **retired from the Chapter-3 Warden fight**.
 
-After an eligible completed ordinary player action, the Warden may record its function.
+Do not copy:
+- player attacks;
+- player Abilities;
+- player elements;
+- player action shapes.
 
-Eligible:
-- ordinary Attack;
-- direct-damage Ability.
+Reason:
+> copied-action behavior belongs more naturally to archival / recording machinery and unnecessarily competes with the Warden's command / authority identity.
 
-Never eligible:
-- Standard Card;
-- Prime;
-- Ultimate;
-- Item;
-- Defend;
-- healing/support-only Ability;
-- Prepared reaction;
-- character-unique non-damage command.
-
-The Warden stores at most one record at a time.
-
-It never copies actor animation, equipment effects, status riders, penetration, element, multihit count, or unique secondary mechanics.
-
-It returns a weaker functional analogue through its own emitter:
-
-### Recorded Physical Analogue
-For an eligible recorded Physical attack:
-- single-target record — Physical / Neutral — **150 Power**
-- AoE record — Physical / Neutral — **105 Power per target**
-- Base Hit **100**
-
-### Recorded Magical Analogue
-For an eligible recorded Magical attack:
-- single-target record — Magical / Colorless — **150 Power**
-- AoE record — Magical / Colorless — **105 Power per target**
-- Base Hit **100**
-
-### Recorded Hybrid Analogue
-For an eligible recorded Hybrid attack:
-- 50% ATK / 50% MAG
-- single-target record — Neutral — **150 Power**
-- AoE record — Neutral — **105 Power per target**
-- Base Hit **100**
-
-A recorded multihit becomes one analogue hit. It does not inherit the original hit count.
-
-After use, the record clears.
+The Warden's battle identity is now:
+> command restriction pressure + interruptible Major Ruling + direct authority offense.
 
 ## State B — Challenged Authority
 
@@ -201,85 +149,101 @@ At 45% HP:
 - the Command Ring rotates into defensive alignment and is no longer targetable;
 - direct offense becomes heavier.
 
-### Earlier Ring handling → opening protection
+No free action occurs at the threshold.
 
+### Earlier Ring handling → opening protection
 If the party disrupted at least one Major Ruling during State A:
 > Warden gains **10% direct-damage reduction for 1 round** at State-B entry.
 
 If the party disrupted no Major Rulings:
 > Warden gains **15% direct-damage reduction for 2 rounds** at State-B entry.
 
-This is the only retained consequence of earlier Ring handling.
-
 No Barrier is created.
 
 ### Warden Crush
-- one party member
-- Physical / Neutral
-- **245 Power**
-- Base Hit **100**
-- no harmful-status rider
+- one party member;
+- Physical / Neutral;
+- **245 Power — provisional**;
+- Base Hit100;
+- no harmful-status rider.
 
 ### Challenged Verdict
-- one party member
-- Hybrid / Neutral
-- 50% ATK / 50% MAG
-- **230 Power**
-- Base Hit **100**
-- **20% Staggered**
-- 1-round repetition lock
+- one party member;
+- Hybrid / Neutral;
+- 50% ATK / 50% MAG;
+- **230 Power — provisional**;
+- Base Hit100;
+- **no harmful-status rider**;
+- 1-round repetition lock.
 
 ### Command Collapse
-- all conscious party members
-- Magical / Colorless
-- **165 Power per target**
-- Base Hit **95**
-- **15% Stun per target**
-- 2-round repetition lock
+- all conscious party members;
+- Magical / Colorless;
+- **165 Power per target — provisional**;
+- Base Hit95;
+- **15% Stun per target**;
+- 2-round repetition lock.
 
-### Recorded Analogue
-The same exact Recorded Physical / Magical / Hybrid coefficients remain available in State B:
-- **150 Power single-target**
-- **105 Power per target AoE**
+## Status boundary
+Chapter 3 introduces Stun.
 
-The Warden does not gain a stronger copied-action coefficient simply because it entered State B.
+The Warden may reinforce that chapter status through:
+- Major Ruling;
+- Command Collapse.
 
-## Duration certification
+Do not add:
+- Burn;
+- Freeze;
+- Staggered;
+- Bleed;
+- additional status systems.
 
-Mandatory-route target:
-> **~10–11 rounds**
+## Shutdown / reveal lock
+After the party defeats the Warden:
 
-Completionist fixed-content target:
-> **~8–9 rounds**
+1. the Warden enters shutdown;
+2. it communicates exactly:
+   > **PREVIOUS ERROR**
+3. then exactly:
+   > **LAST SENTINEL CONFIRMED**
+4. **LAST SENTINEL CONFIRMED is its final communication**;
+5. the Warden becomes fully inert;
+6. only afterward does Cyanis's Card stabilize into deep Ruby.
 
-High-side Lv13 target:
-> **~7–8 rounds**
+The battle does not establish:
+- what the Warden assessed;
+- what PREVIOUS ERROR means;
+- what LAST SENTINEL CONFIRMED means;
+- whether either phrase refers to Cyanis, the Card, the party, or another condition;
+- bearer status;
+- Prime classification;
+- Might classification;
+- causation for the Ruby stabilization.
 
-Safety / repeated Ring-disruption / extra recovery:
-> **~11–12 rounds**
+The Card:
+- does not pacify the Warden;
+- does not weaken it;
+- is not inserted into it;
+- is not used as a key;
+- does not activate a Prime.
 
-The 2,850-HP body is intentionally lower than the inherited 3,723 HP because this encounter already consumes player actions through:
-- Ring disruption;
-- Seal routing;
-- healing from heavier rulings;
-- Recorded Analogue adaptation.
+## Numerical boundary
+The inherited line:
+> Lv14 / HP2,850 / ATK72 / MAG72 / DEF43 / Spirit43 / SPD30 / EVA0 / SR10
 
-Completionist progression remains valuable rather than being erased by boss scaling.
+and inherited round targets:
+> mandatory ~10–11 / completionist ~8–9
 
-## Power-completeness verdict
+are **historical starting points, not current certification**.
 
-Every direct-damage action has exact numeric Power:
-- Authority Lance — **190**
-- Judgment Pulse — **140 AoE**
-- Seal Reprisal — **100**
-- Major Ruling — **210 AoE**
-- Recorded Analogue — **150 single / 105 AoE**
-- Warden Crush — **245**
-- Challenged Verdict — **230**
-- Command Collapse — **165 AoE**
+The Warden moved from the retired Caelora command route to the end of the Cresthaven tower-base dungeon, and Chapter-3 progression / encounter structure changed substantially.
 
-Non-damaging:
-- Command Seal — **Power N/A**
-- Ring alignment / defensive alignment — **Power N/A**
+Fresh validation must determine:
+- actual Beat-14 mandatory level;
+- completionist / high-side level;
+- HP and raw stat line;
+- Command Ring durability;
+- round-count targets;
+- damage / healing pressure.
 
-> **WORKING PASS / POWER COMPLETE**
+The action Powers above remain the retained provisional Power-complete values unless later validation gives a specific reason to reopen them.
