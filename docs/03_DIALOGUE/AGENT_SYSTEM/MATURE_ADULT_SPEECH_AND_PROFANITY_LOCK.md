@@ -47,7 +47,7 @@ A clean line can be more truthful than a profane one. A profane line can be more
 
 ## Current character calibration
 
-These are performance guides, not mechanical quotas. Nimera additionally has a **long-form editorial calibration target of roughly 15–20% of spoken lines containing natural profanity** across a sufficiently large corpus. That range is for auditing sanitization across a chapter or major dialogue set, never for enforcing per-scene spacing.
+These are performance guides, not mechanical quotas. Nimera additionally has a **long-form editorial calibration target of roughly 15–35% of spoken lines containing natural profanity** across a sufficiently large corpus. That range is for auditing sanitization across a chapter or major dialogue set, never for enforcing per-scene spacing.
 
 ### Nimera
 **High / frequent / deeply integrated.**
@@ -163,7 +163,7 @@ A pass is **not complete** merely because plot facts and character roles are cor
 
 There is no target number of swear words per scene and no required interval between profane lines.
 
-For Nimera only, the current long-form calibration is roughly **15–20% of spoken lines containing natural profanity** across a large enough corpus to reveal accidental sanitization. A scene may be much cleaner or much dirtier than that. Do not solve the target by mechanically counting forward and inserting `fuck`, `shit`, `bitch`, or any other word.
+For Nimera only, the current long-form calibration is roughly **15–35% of spoken lines containing natural profanity** across a large enough corpus to reveal accidental sanitization. A scene may be much cleaner or much dirtier than that. Do not solve the target by mechanically counting forward and inserting `fuck`, `shit`, `bitch`, or any other word.
 
 The correct question is:
 > **Would this particular adult, in this particular relationship and state, actually phrase the thought this way?**
