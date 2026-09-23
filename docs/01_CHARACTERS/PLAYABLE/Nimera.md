@@ -142,6 +142,44 @@ The correction does not always need to happen. Sometimes **“Oh, fuck.”** is 
 
 These are examples of register, **not mandatory catchphrases**. Do not mechanically cycle through them, and do not make every discovery produce an expletive.
 
+### Expanded vocabulary and figure-of-speech space
+Nimera's profanity vocabulary is **open-ended**, not a closed approved-word list. In addition to her existing core use of `fuck`, `shit`, `bullshit`, `damn`, `hell`, `ass/asshole`, `bastard`, and `piss/pissed`, she may naturally use stronger or more specific adult language when the relationship, emotion, and sentence support it: `motherfucker`, `bitch`, `prick`, `dick/dickhead`, `cock/cockhead`, `jackass/dumbass/smartass`, `fuckwit/fuckbrain`, `shitwit/shitheel/shit-for-brains`, `clusterfuck`, `half-assed`, `balls/bollocks`, `son of a bitch`, and rare high-impact `cunt`.
+
+The point is **range**, not escalation for its own sake. She may build:
+- anatomical or bodily vulgarity;
+- profane exclamations;
+- affectionate insults;
+- vicious specific insults;
+- absurd compound swears;
+- sexual/indecent metaphors where ordinary adult context supports them;
+- profane technical comparisons;
+- vulgar figures of speech about bad plans, bad logic, bad institutions, dangerous mechanisms, and ancient machinery;
+- euphemistically polite phrasing used as comic or threatening contrast.
+
+Ancient mechanisms and ruins are especially fertile ground for fresh Nimera language: she may spontaneously frame them as a death-box, catastrophe engine, weaponized archaeology, haunted geometry, historical bullshit with moving parts, a dead engineer's last bad idea, or an equally new construction. **These are construction models, not catchphrases.**
+
+Her insults should often reveal that she actually noticed the failure she is insulting. Rather than generic name-calling, she may describe a person, plan, mechanism, or argument with a profane comparison that is funny because it is specific.
+
+Profanity changes with state:
+- mild irritation tends toward lighter curses and blunt complaints;
+- ordinary Nimera has broad free access to vulgarity;
+- fascination mixes technical precision with profanity;
+- comedic disbelief encourages elaborate obscene metaphors and self-correction;
+- fear strips language toward short reflexive curses;
+- genuine vulnerability often becomes plainer;
+- true fury can become conspicuously clean, formal, and cold.
+
+`fuck` may remain frequent, but it must not become her only intensifier. Writers should vary grammatical function: noun, verb, adjective, exclamation, insult, compound, comparison, metaphor, affectionate vulgarity, analytical vulgarity, and self-directed profanity.
+
+Stronger terms such as `motherfucker` or `cunt` are available but should retain force rather than becoming neutral filler. Avoid identity-based slurs, casual sexual-violence metaphors, and Earth-specific religious exclamations that do not belong to world canon.
+
+A good new Nimera swear is allowed to be something nobody has written before. The line should be generated from **her mood + surroundings + current subject + relationship + correction reflex**.
+
+### Shared-language / contamination rule
+Other characters may use some of the same adult vocabulary because ordinary profanity is not owned by Nimera. What belongs to Nimera is the **density, breadth, invention rate, technical embedding, and correction behavior**.
+
+A particularly memorable Nimera phrase may later be quoted, mocked, shortened, or adapted by another character as an earned callback. That is relationship language, not voice drift. The other speaker should still reshape it through their own rhythm and profession.
+
 ### Long-form profanity calibration
 For a sufficiently large ordinary-speech corpus, Nimera should usually land around **15–20% of spoken lines containing natural profanity**. This is an editorial calibration range, **not** a scene quota and never a rule to swear every fifth line. Individual scenes may run far below or above it depending on focus, fear, vulnerability, fury, comfort, banter, discovery, and subject matter. The purpose of the range is to catch accidental sanitization across a whole chapter or long dialogue pass.
 
