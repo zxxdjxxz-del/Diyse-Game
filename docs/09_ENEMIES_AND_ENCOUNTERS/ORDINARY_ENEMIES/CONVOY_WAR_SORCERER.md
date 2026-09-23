@@ -81,3 +81,9 @@ The injured Iron Cohort Soldier is not part of the Chapter-0 combat roster. Ther
 - Shard Volley retains its 2-round repetition lock.
 - When no forced Rift Lance exists, currently legal War-Sorcery Bolt / Shard Volley / eligible Preparation use the normal action-selection fallback.
 - No hidden coordination or focus-fire rule is shared with Riftmaw.
+
+## Visual authority
+Current locked Chapter-0 appearance:
+> `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
+
+Combat/encounter mechanics remain owned by this file; visual identity is owned by the art-domain authority above.
