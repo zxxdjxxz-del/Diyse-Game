@@ -172,7 +172,7 @@ She looks at the splint.
 
 **MAEVRA:** I know.
 
-**ILYRA:** Good. Sit the hell down.
+**ILYRA:** Good. Sit down.
 
 **MAEVRA:** Fuck, I knew this part was coming.
 
