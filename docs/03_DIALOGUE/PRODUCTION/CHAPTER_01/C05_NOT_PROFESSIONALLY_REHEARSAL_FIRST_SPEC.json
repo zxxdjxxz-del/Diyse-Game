@@ -3,27 +3,66 @@
   "scene_id": "CH01_C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST",
   "chapter_id": "chapter_01",
   "story_position": "Chapter 1 cleanup window — canonical Character-Life C04 (legacy source key C05)",
-  "production_ready": false,
-  "participants": ["ilyra", "maevra"],
+  "production_ready": true,
+  "participants": [
+    "ilyra",
+    "maevra"
+  ],
   "scene_purpose": "Give Ilyra and Maevra a private scene between two women who already know one another well while Ilyra changes Maevra's splint. The medical task grounds Maevra's continuing broken-arm state and healing-magic limits; their established friendship allows ordinary adult curiosity about Maevra and Torren without turning Ilyra into a therapist, relationship analyst, or exposition device. The scene may reveal only the current Chapter-1 ceiling: Torren is more than an ordinary colleague to Maevra and matters to her personally.",
   "story_sources": [
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_MAEVRA_BROKEN_ARM_LOCK.md", "whole_file": true, "role": "injury_and_healing_limit_authority"},
-    {"path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHARACTER_LIFE_REBUILD_LOCK.md", "whole_file": true, "role": "current_character_life_direction"}
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01_MAEVRA_BROKEN_ARM_LOCK.md",
+      "whole_file": true,
+      "role": "injury_and_healing_limit_authority"
+    },
+    {
+      "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHARACTER_LIFE_REBUILD_LOCK.md",
+      "whole_file": true,
+      "role": "current_character_life_direction"
+    }
   ],
   "additional_authority_sources": [
-    {"path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md", "whole_file": true, "role": "ilyra_character_and_role_balance_authority"},
-    {"path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md", "whole_file": true, "role": "maevra_familiarity_rank_friendship_and_reveal_authority"},
-    {"path": "external-services/canary/brains/ilyra.yaml", "whole_file": true, "role": "current_ilyra_runtime_person_brain"},
-    {"path": "external-services/canary/brains/maevra.yaml", "whole_file": true, "role": "current_maevra_runtime_person_brain"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_authoring"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md", "whole_file": true, "role": "mature_adult_register_and_character_specific_profanity"},
-    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "camp_presentation"}
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md",
+      "whole_file": true,
+      "role": "ilyra_character_and_role_balance_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md",
+      "whole_file": true,
+      "role": "maevra_familiarity_rank_friendship_and_reveal_authority"
+    },
+    {
+      "path": "external-services/canary/brains/ilyra.yaml",
+      "whole_file": true,
+      "role": "current_ilyra_runtime_person_brain"
+    },
+    {
+      "path": "external-services/canary/brains/maevra.yaml",
+      "whole_file": true,
+      "role": "current_maevra_runtime_person_brain"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "mature_adult_register_and_character_specific_profanity"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "camp_presentation"
+    }
   ],
   "scene_context_seed": {
     "location_name": "Junction-area camp",
     "time": "evening",
     "scene_type": "optional_character_life",
-    "runtime_note": "Ilyra and Maevra only. They already know one another well before Chapter 1; this is not a new-friend bonding scene. Maevra is still Ilyra's senior commander in operational contexts, but this private off-duty medical moment may foreground established friendship and adult shorthand without erasing rank. Ilyra changes/re-secures Maevra's splint and uses one restrained magic effect for pain/strain relief. The bone remains broken. The actual medical task is scene-earned Ilyra expertise. Once the task is stable, curiosity about Torren is ordinary adult conversation, not therapy or a relationship assessment. Cyanis and Torren do not enter, overhear, or interrupt."
+    "runtime_note": "Optional late-Chapter-1 Character-Life scene between Ilyra and Maevra, who already know one another well. The splint work is scene-earned medical expertise; the Torren conversation is ordinary adult curiosity, not therapy or relationship analysis. Preserve the reveal ceiling: Torren matters personally to Maevra, but exact history, romance, enlistment timing, and private feelings remain unrevealed. End once the private-friendship beat lands."
   },
   "required_character_truths": [
     "Maevra's arm was broken during the Broken Convoy attack before Chapter 1 and remains broken.",
@@ -37,7 +76,10 @@
     "Exact duration, enlistment ages, former romance, sex, breakup history, repeated reunions, current romantic status, and Torren's private feelings remain unrevealed.",
     "Both women may swear naturally according to their current adult speech habits; the scene does not need sanitized medical or friendship dialogue."
   ],
-  "forbidden_cast": ["cyanis", "torren"],
+  "forbidden_cast": [
+    "cyanis",
+    "torren"
+  ],
   "forbidden_dialogue_drift": [
     "ilyra_as_therapist_or_relationship_reader",
     "ilyra_turns_curiosity_into_a_consent_or_agency_lesson",
@@ -46,7 +88,13 @@
     "maevra_reduced_to_tough_commander_in_private_downtime",
     "sanitized_uniformly_polite_adult_dialogue"
   ],
-  "forbidden_presentation": ["magic_mending_broken_bone", "medical_montage", "therapy_scene", "relationship_exposition_dump", "third_character_interruption"],
+  "forbidden_presentation": [
+    "magic_mending_broken_bone",
+    "medical_montage",
+    "therapy_scene",
+    "relationship_exposition_dump",
+    "third_character_interruption"
+  ],
   "forbidden_reveals": [
     "exact_maevra_torren_history_duration",
     "maevra_torren_enlistment_ages",
