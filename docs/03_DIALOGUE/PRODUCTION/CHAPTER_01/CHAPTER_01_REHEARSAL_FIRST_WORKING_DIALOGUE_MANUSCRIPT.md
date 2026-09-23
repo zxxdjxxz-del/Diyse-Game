@@ -2636,3 +2636,9 @@ Ilyra does not decide aloud which part she means.
 **MAEVRA:** Ruined it.
 
 Scene ends.
+
+---
+
+## Synchronization footer
+
+This derived manuscript was assembled exclusively from the atomics listed above. No dialogue wording was rewritten during assembly.

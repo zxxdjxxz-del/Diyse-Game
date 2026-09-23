@@ -9,7 +9,7 @@
           "scene_kind": "mandatory",
           "slot_id": "P01",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md",
-          "source_sha256": "a1af098417946126bbd389c381c76a11862500d1d422d80e7a300511ca0c0d8e",
+          "source_sha256": "e81fc48a1a65594240c34d9ee053e89730861a0f9a7e0bb43223b36bcd2d22ad",
           "spoken_lines": 27,
           "spoken_sha256": "e898d4e3d0883e3011995e87b1113bc06005bdc6965c74140b831522a014ea13",
           "title": "Convoy / Opening Ambush"
@@ -20,7 +20,7 @@
           "scene_kind": "mandatory",
           "slot_id": "P02",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P02_WRECK_FIELD_REHEARSAL_FIRST_DRAFT_A.md",
-          "source_sha256": "1c31ca29c90bbe90cb73b589b33aa41cf881bf8e4c751c5d880423110a05687e",
+          "source_sha256": "4de8f0d066573453af130926e7c5e06a93b2b18b6077f22768c34a0e70df696a",
           "spoken_lines": 44,
           "spoken_sha256": "4519399c9407369e16bf47e2691f10caa5817ca0584e72cdb62190b0a7cc020a",
           "title": "Wreck Field"
@@ -245,9 +245,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B14",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md",
-          "source_sha256": "8c4eeeabd22778b166c1e9588d0eaa858067ae07cd30f10f085fdc4b5dfa5b64",
+          "source_sha256": "4238ed34824b4580d6fc72cc43b94ac4adfcc9f30078058527ccd2a415278786",
           "spoken_lines": 50,
-          "spoken_sha256": "184cbfe69a8a81937fc88ab1d42a138f5549dd0406c1343d47046a9bdb517a73",
+          "spoken_sha256": "eba1f911d358a8074bca1e0793b28312dcce96596ce7469e41469c567687c444",
           "title": "The Junction / Hidden Monument"
         },
         {
@@ -472,7 +472,7 @@
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
           "source_sha256": "cd3372a3d4254df3dbc9519276cfb4fbbcc5c3c3c657d5c7d95a220ee40941b7",
           "spoken_lines": 83,
-          "spoken_sha256": "bf38cd1ca30d7174de74c60378165adc352741fdb825069a76ad474c4f151d3a",
+          "spoken_sha256": "b3348ff8a1d3489a265c29ff2e2f12507f50c9aaf4eebf4a8e4cbcb7a7a1aff3",
           "title": "Chapter 2 Character-Life — C05 — Still Burns"
         }
       ]
@@ -486,9 +486,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B01",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md",
-          "source_sha256": "62677004cca290053b30c191bd8a2f98d947038493e7c74d245124940e2b67c9",
+          "source_sha256": "1fd502e5b0c6128192380bbfc0e5bae14c20149dcbdcf6d7384b9d37ccb0f857",
           "spoken_lines": 26,
-          "spoken_sha256": "57b1373dc831ba35fb9908d104065b4bac24f526f1af5188fee0eeedf1623f78",
+          "spoken_sha256": "c02961d0c7725f5374d04d34417c3a3dd45fd4ac9ce049e970133b9f2223b0bc",
           "title": "Caelora Gate / Arrival"
         },
         {
@@ -497,9 +497,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B02",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_02_ROYAL_AUDIENCE_CH2_REPORT_DRAFT_A.md",
-          "source_sha256": "6d2d348e946ace6bcf7c80d10d0bc9ed4cea0a8e2c89832bea708f2b2172a25c",
-          "spoken_lines": 45,
-          "spoken_sha256": "00d8a1398e2a1f05d0061356a6edf4d1b4bf60629f833bda3dd330686d002780",
+          "source_sha256": "b7accad4af6e4395d705247fd83b477f2b8d2d925287390098b4f6ad55819a56",
+          "spoken_lines": 44,
+          "spoken_sha256": "9252ce7047da57aca6c3dd16a98552a6e10727bcb8c8650693f04b6974eb0bfd",
           "title": "Royal Audience / The Chapter-2 Report"
         },
         {
@@ -530,120 +530,120 @@
           "scene_kind": "mandatory",
           "slot_id": "B05",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md",
-          "source_sha256": "fc4f2d7446ce4dd53de486a5182425fea36aa811dc42f715ef1fc8b26bb38d9c",
+          "source_sha256": "7e5cc27d6c9444311a62fff643131bc5b5e8c4eab3d955d6a8c5b857e913f8c8",
           "spoken_lines": 26,
           "spoken_sha256": "a296c296307b18232ea4dd1be1567676a2d411e547cc82302e7c91f97edb49ba",
           "title": "Old City Access / Archive Descent"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_03/B06.tres",
-          "scene_id": "CH03_B06_SCHOLAR_IN_REDACTED_STACKS",
+          "scene_id": "CH03_B06_SCHOLAR_IN_REDACTED_STACKS_NIMERA_JOINS",
           "scene_kind": "mandatory",
           "slot_id": "B06",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md",
-          "source_sha256": "fec1597da54c04e169828bbf55cc5eebacc3af22d8d3b3632ca5dcbed3bd3259",
-          "spoken_lines": 75,
-          "spoken_sha256": "bacda5df3c1314fd0e38579f2cfcb011960148db02db4c1e11672f0ac2a8977a",
-          "title": "Scholar in Redacted Stacks"
+          "source_sha256": "01f533a35ca0237a3e1b5542c4cbae18e5b51e4f8d44e40e5e731aab2cddc882",
+          "spoken_lines": 77,
+          "spoken_sha256": "8d15f2dff79613fe04d548ac1fdf7d37d118bef76e9f4d9bfa33c4d5dc74c58a",
+          "title": "Scholar in Redacted Stacks / Nimera Joins"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_03/B07.tres",
-          "scene_id": "CH03_B07_ANCIENT_BARRIER_FIRST_COOPERATION",
+          "scene_id": "CH03_B07_LOWER_ARCHIVES",
           "scene_kind": "mandatory",
           "slot_id": "B07",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_DRAFT_A.md",
-          "source_sha256": "31a7c8c3c59bb519dcd04f489b278492cf4dc601bd64db0cd5c1d20589635bb6",
-          "spoken_lines": 66,
-          "spoken_sha256": "b22506355d1ee3df1d49c292fa5e5c69c1cf6bda8912a96ae2d3a446a0dd353e",
-          "title": "Ancient Barrier / First Cooperation"
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_07_LOWER_ARCHIVES_DRAFT_A.md",
+          "source_sha256": "69f1e17720d656721787caf6067f9f6f5ac1b2f10f0ed613fa5a2b7aa8238128",
+          "spoken_lines": 39,
+          "spoken_sha256": "eb1a9de8534fc83453bff80d54167de2feb1a4671776055cd0096e1fb412744e",
+          "title": "Lower Archives"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_03/B08.tres",
-          "scene_id": "CH03_B08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS",
+          "scene_id": "CH03_B08_BURIED_COLLECTIONS_RECENT_READER",
           "scene_kind": "mandatory",
           "slot_id": "B08",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_DRAFT_A.md",
-          "source_sha256": "b4d0649db9d8662cc0848b96f2c8a00ec4b40a832d4f4d8e08f8e0a01c8415cb",
-          "spoken_lines": 53,
-          "spoken_sha256": "11d0ffc67a9e6e818f1aa2870566d8fd308b057ec208c96a5636a7a9a64d7478",
-          "title": "Archive Scribe Engine / Nimera Joins"
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_08_BURIED_COLLECTIONS_RECENT_READER_DRAFT_A.md",
+          "source_sha256": "1661afd54374a6a89c429bde8860693bacffea273a00cd6fbde924c0f05286bc",
+          "spoken_lines": 49,
+          "spoken_sha256": "4fd868439dc6245a90bd3902eb04b81b81e6d9a3869c98272102e42bcc97f28b",
+          "title": "Buried Collections / Recent Reader"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_03/B09.tres",
-          "scene_id": "CH03_B09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH",
+          "scene_id": "CH03_B09_HALL_OF_SEALS_RECENT_READER_CONTINUATION",
           "scene_kind": "mandatory",
           "slot_id": "B09",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_DRAFT_A.md",
-          "source_sha256": "9fc22c27c96235c948f76e5e4c77d0bf479e29d6027982d06bf07d9d13d0532e",
-          "spoken_lines": 48,
-          "spoken_sha256": "8b23c8bf2abb1734586b2ee7cacd00272e3fa7a734f02b3c00a409c790066cf5",
-          "title": "Buried Collections / Dormant Card Research"
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_09_HALL_OF_SEALS_RECENT_READER_DRAFT_A.md",
+          "source_sha256": "50f597ee837639f3255a4863cf05c39a14932400bc7a5ff3df99f68bbbab354a",
+          "spoken_lines": 30,
+          "spoken_sha256": "67a68c4583ef758d38d6b06b692e8d894232ad7232a35245498e2f2178708996",
+          "title": "Hall of Seals / Recent Reader Continuation"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_03/B10.tres",
-          "scene_id": "CH03_B10_THE_RECENT_READER_HALL_OF_SEALS",
+          "scene_id": "CH03_B10_DEEP_ARCHIVES",
           "scene_kind": "mandatory",
           "slot_id": "B10",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_10_RECENT_READER_HALL_OF_SEALS_DRAFT_A.md",
-          "source_sha256": "3b53d470eb6d04030dee958f3fed1efa52f7a73f8c47259353bf7ae579eea09d",
-          "spoken_lines": 39,
-          "spoken_sha256": "5625fd08524a5b59b171d8e73e5a64004833bc6286dc7a61285ff4a5ab6a0321",
-          "title": "The Recent Reader / Hall of Seals"
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_10_DEEP_ARCHIVES_DRAFT_A.md",
+          "source_sha256": "16c55acf860e500a9f947e85f491a1b93772d1500a4837aa9eaaae62ef86c26a",
+          "spoken_lines": 24,
+          "spoken_sha256": "6fb0ad3c6f6b63d3a9a1918711ee847cb774688691362f337fa6bb253e19a2dd",
+          "title": "Deep Archives"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_03/B11.tres",
-          "scene_id": "CH03_B11_FIRST_COMMAND_WARDEN",
+          "scene_id": "CH03_B11_ARCHIVE_SCRIBE_ENGINE",
           "scene_kind": "mandatory",
           "slot_id": "B11",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_11_FIRST_COMMAND_WARDEN_DRAFT_A.md",
-          "source_sha256": "54e77f2d0ddef3eb0bb30c31771341084417b2abc47619aff426e0d93022b034",
-          "spoken_lines": 37,
-          "spoken_sha256": "46ee5acb1204b275af2a919d0d69efe36fbb6a47a748495d35664713c5bd5ffb",
-          "title": "First Command Warden"
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_11_ARCHIVE_SCRIBE_ENGINE_DRAFT_A.md",
+          "source_sha256": "cc2d0c139e08aae0e652474bd98cec75574e9d0a9d5e56ab4e761f84bf6e0225",
+          "spoken_lines": 22,
+          "spoken_sha256": "9b4b2c8393dc425d0050c91cd9205af2b4fce79678d6bd00f6d7e9934711aeba",
+          "title": "Archive Scribe Engine"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_03/B12.tres",
-          "scene_id": "CH03_B12_SEALWRIGHT_CHAMBER_THE_COPYING_ATTEMPTS",
+          "scene_id": "CH03_B12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_CHAMBER",
           "scene_kind": "mandatory",
           "slot_id": "B12",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_12_SEALWRIGHT_CHAMBER_COPYING_ATTEMPTS_DRAFT_A.md",
-          "source_sha256": "88dcb01a563f9c17871f4f87e2bbf269173c626076e7997ac093d7082a66e5d9",
-          "spoken_lines": 43,
-          "spoken_sha256": "1f1a9b62ff8f1c0d091c6ca6d4f5e22a42c2b17ac2ca59377e4a84d4298acfff",
-          "title": "Sealwright Chamber / The Copying Attempts"
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DRAFT_A.md",
+          "source_sha256": "01b967ef326d817e860d7869b4c902b6cf46e5c098f930dff9555aad6fa3d878",
+          "spoken_lines": 52,
+          "spoken_sha256": "53ae4550e06cea7d64991ed140946bf476ea0547fb435e2993426d19a473b6d3",
+          "title": "Inner Collections / Westways Recordbook / Sealwright Chamber"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_03/B13.tres",
-          "scene_id": "CH03_B13_MIRENA_S_CONCERN_CRESTHAVEN_LEAD",
+          "scene_id": "CH03_B13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED",
           "scene_kind": "mandatory",
           "slot_id": "B13",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_13_MIRENAS_CONCERN_CRESTHAVEN_LEAD_DRAFT_A.md",
-          "source_sha256": "34369ca16e26e895daca255b9776becce7b3be48454d2cf7d924c72e96a0219c",
-          "spoken_lines": 50,
-          "spoken_sha256": "9d05a1e48a20a0564f3bb1ce4015cb2e800f894c7684457c531125247f051dbf",
-          "title": "Mirena's Concern / Cresthaven Lead"
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DRAFT_A.md",
+          "source_sha256": "e8a8536158e6966df76f97a011bee1da596c3ff62ba85fc3be0c5446f5a58109",
+          "spoken_lines": 60,
+          "spoken_sha256": "18231cd6d42bdc1d081004e506883843237b9dc62bd5bc3a916f5d65c21438a7",
+          "title": "Return to Mirena / Cresthaven Identified"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_03/B14.tres",
-          "scene_id": "CH03_B14_REST_IN_CAELORA_MORNING_DEPARTURE",
+          "scene_id": "CH03_B14_CRESTHAVEN_ANCIENT_TOWER_BASE_FIRST_COMMAND_WARDEN",
           "scene_kind": "mandatory",
           "slot_id": "B14",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_14_REST_IN_CAELORA_MORNING_DEPARTURE_DRAFT_A.md",
-          "source_sha256": "07ddfa20f919af31747a62a7a03b8081261c2929ec2b5bcc54c9d061d62a63f8",
-          "spoken_lines": 52,
-          "spoken_sha256": "ca1ccb59433fd7827face871882386c08f2fa64ea1685f1438e5dde3d75719ed",
-          "title": "Rest in Caelora / Morning Departure"
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md",
+          "source_sha256": "22b8f87abea27826235f88d34c481f692f4c6d2732877b1fbd9428647c1fa0bb",
+          "spoken_lines": 49,
+          "spoken_sha256": "df1be519173a73bcfafe6e996ecf33cea6e573cdcf8e7133863d681f77767582",
+          "title": "Cresthaven / Ancient Tower Base / First Command Warden"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_03/B15.tres",
-          "scene_id": "CH03_B15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW",
+          "scene_id": "CH03_B15_CRESTHAVEN_HEADQUARTERS_CLEANUP_IVORYBRIDGE_DECISION",
           "scene_kind": "mandatory",
           "slot_id": "B15",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_DRAFT_A.md",
-          "source_sha256": "cda81086ae0ebfd6fc08951fad18a482173e5c67b7765d1ef90ae18cc13a7c35",
-          "spoken_lines": 39,
-          "spoken_sha256": "c0605b20e38623b2050f8a240cfc1e078107e71d8a11917ee1924ffe4fc159bd",
-          "title": "Cresthaven Headquarters / Cleanup Window"
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DRAFT_A.md",
+          "source_sha256": "4ff95080d6ddcc729e0e6d8ffa8e97d3ca8a7407cf0db97e76c44bbc572278df",
+          "spoken_lines": 56,
+          "spoken_sha256": "15743e9a8ec892cb2bd8f13d914101365f0517c0c138d6ecdf9955c675a4b333",
+          "title": "Cresthaven Headquarters / Cleanup / Ivorybridge Decision"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_03/C06.tres",
@@ -670,9 +670,9 @@
       ]
     }
   },
-  "expected_total_spoken": 2295,
-  "global_spoken_sha256": "f54b23605956e77ec354ca2c7018f5d6e88e03447d3ecc451ebfdc14347a5853",
+  "expected_total_spoken": 2250,
+  "global_spoken_sha256": "3d8936d6b7f5ae3418ea8a451add37512863ff9c9904144eaf5a8b935d8c35e4",
   "schema": "diyse_current_runtime_dialogue_manifest_v1",
   "source_authority": "docs/03_DIALOGUE/PRODUCTION",
-  "total_spoken": 2295
+  "total_spoken": 2250
 }

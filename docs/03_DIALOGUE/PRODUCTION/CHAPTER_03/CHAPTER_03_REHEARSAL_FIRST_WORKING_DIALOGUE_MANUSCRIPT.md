@@ -8,21 +8,21 @@
 
 | Order | Canonical slot | Atomic source | SHA-256 |
 |---:|---|---|---|
-| 1 | Beat 1 | `BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md` | `62677004cca290053b30c191bd8a2f98d947038493e7c74d245124940e2b67c9` |
-| 2 | Beat 2 | `BEAT_02_ROYAL_AUDIENCE_CH2_REPORT_DRAFT_A.md` | `6d2d348e946ace6bcf7c80d10d0bc9ed4cea0a8e2c89832bea708f2b2172a25c` |
+| 1 | Beat 1 | `BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md` | `1fd502e5b0c6128192380bbfc0e5bae14c20149dcbdcf6d7384b9d37ccb0f857` |
+| 2 | Beat 2 | `BEAT_02_ROYAL_AUDIENCE_CH2_REPORT_DRAFT_A.md` | `b7accad4af6e4395d705247fd83b477f2b8d2d925287390098b4f6ad55819a56` |
 | 3 | Beat 3 | `BEAT_03_IMPOSSIBLE_ORDERS_DRAFT_A.md` | `d921f1c66b13ddf47254fe0580261972dfa16abe4eadf880f25b402886fb9edd` |
 | 4 | Beat 4 | `BEAT_04_SEAL_NOT_USED_DRAFT_A.md` | `965d8e06b17a97ce69c1b7cdaf665c35e939b93783cd7d8ced1d2d4e9685c2af` |
-| 5 | Beat 5 | `BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md` | `fc4f2d7446ce4dd53de486a5182425fea36aa811dc42f715ef1fc8b26bb38d9c` |
-| 6 | Beat 6 | `BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md` | `fec1597da54c04e169828bbf55cc5eebacc3af22d8d3b3632ca5dcbed3bd3259` |
-| 7 | Beat 7 | `BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_DRAFT_A.md` | `31a7c8c3c59bb519dcd04f489b278492cf4dc601bd64db0cd5c1d20589635bb6` |
-| 8 | Beat 8 | `BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_DRAFT_A.md` | `b4d0649db9d8662cc0848b96f2c8a00ec4b40a832d4f4d8e08f8e0a01c8415cb` |
-| 9 | Beat 9 | `BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_DRAFT_A.md` | `9fc22c27c96235c948f76e5e4c77d0bf479e29d6027982d06bf07d9d13d0532e` |
-| 10 | Beat 10 | `BEAT_10_RECENT_READER_HALL_OF_SEALS_DRAFT_A.md` | `3b53d470eb6d04030dee958f3fed1efa52f7a73f8c47259353bf7ae579eea09d` |
-| 11 | Beat 11 | `BEAT_11_FIRST_COMMAND_WARDEN_DRAFT_A.md` | `54e77f2d0ddef3eb0bb30c31771341084417b2abc47619aff426e0d93022b034` |
-| 12 | Beat 12 | `BEAT_12_SEALWRIGHT_CHAMBER_COPYING_ATTEMPTS_DRAFT_A.md` | `88dcb01a563f9c17871f4f87e2bbf269173c626076e7997ac093d7082a66e5d9` |
-| 13 | Beat 13 | `BEAT_13_MIRENAS_CONCERN_CRESTHAVEN_LEAD_DRAFT_A.md` | `34369ca16e26e895daca255b9776becce7b3be48454d2cf7d924c72e96a0219c` |
-| 14 | Beat 14 | `BEAT_14_REST_IN_CAELORA_MORNING_DEPARTURE_DRAFT_A.md` | `07ddfa20f919af31747a62a7a03b8081261c2929ec2b5bcc54c9d061d62a63f8` |
-| 15 | Beat 15 | `BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_DRAFT_A.md` | `cda81086ae0ebfd6fc08951fad18a482173e5c67b7765d1ef90ae18cc13a7c35` |
+| 5 | Beat 5 | `BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md` | `7e5cc27d6c9444311a62fff643131bc5b5e8c4eab3d955d6a8c5b857e913f8c8` |
+| 6 | Beat 6 | `BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md` | `01f533a35ca0237a3e1b5542c4cbae18e5b51e4f8d44e40e5e731aab2cddc882` |
+| 7 | Beat 7 | `BEAT_07_LOWER_ARCHIVES_DRAFT_A.md` | `69f1e17720d656721787caf6067f9f6f5ac1b2f10f0ed613fa5a2b7aa8238128` |
+| 8 | Beat 8 | `BEAT_08_BURIED_COLLECTIONS_RECENT_READER_DRAFT_A.md` | `1661afd54374a6a89c429bde8860693bacffea273a00cd6fbde924c0f05286bc` |
+| 9 | Beat 9 | `BEAT_09_HALL_OF_SEALS_RECENT_READER_DRAFT_A.md` | `50f597ee837639f3255a4863cf05c39a14932400bc7a5ff3df99f68bbbab354a` |
+| 10 | Beat 10 | `BEAT_10_DEEP_ARCHIVES_DRAFT_A.md` | `16c55acf860e500a9f947e85f491a1b93772d1500a4837aa9eaaae62ef86c26a` |
+| 11 | Beat 11 | `BEAT_11_ARCHIVE_SCRIBE_ENGINE_DRAFT_A.md` | `cc2d0c139e08aae0e652474bd98cec75574e9d0a9d5e56ab4e761f84bf6e0225` |
+| 12 | Beat 12 | `BEAT_12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DRAFT_A.md` | `01b967ef326d817e860d7869b4c902b6cf46e5c098f930dff9555aad6fa3d878` |
+| 13 | Beat 13 | `BEAT_13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DRAFT_A.md` | `e8a8536158e6966df76f97a011bee1da596c3ff62ba85fc3be0c5446f5a58109` |
+| 14 | Beat 14 | `BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md` | `22b8f87abea27826235f88d34c481f692f4c6d2732877b1fbd9428647c1fa0bb` |
+| 15 | Beat 15 | `BEAT_15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DRAFT_A.md` | `4ff95080d6ddcc729e0e6d8ffa8e97d3ca8a7407cf0db97e76c44bbc572278df` |
 | 16 | C06 — Nimera Takes Over a Table | `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md` | `a94dd635cdb28ba5f86c2b4bf21b49eb76689f6c1255bbbc54d126690d3381eb` |
 | 17 | C07 — Ilyra and Nimera | `H03_ILYRA_AND_NIMERA_DRAFT_A.md` | `33ce94dca6fdc18170751b27f90d5932c19e83884416c94d061a163db2878e9d` |
 
@@ -31,13 +31,13 @@
 ## Beat 1
 
 **Atomic source:** `BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md`  
-**Source SHA-256:** `62677004cca290053b30c191bd8a2f98d947038493e7c74d245124940e2b67c9`
+**Source SHA-256:** `1fd502e5b0c6128192380bbfc0e5bae14c20149dcbdcf6d7384b9d37ccb0f857`
 
 # Chapter 3 — Beat 1
 # Caelora Gate / Arrival
 ## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
 
 ### [GAMEPLAY — CAELORA APPROACH]
 
@@ -89,17 +89,17 @@ Cyanis looks at him.
 
 **Player control resumes.**
 
-Let the player actually see modern Caelora before the mural comparison lands.
+Let the player actually see modern Caelora before the Wayfinder comparison lands.
 
 Partway through the controlled first stretch, Torren slows and looks along the inside face of the wall.
 
-**TORREN:** Mural had more city than this.
+**TORREN:** Wayfinder had more city than this.
 
 Maevra looks over.
 
 **MAEVRA:** How much more?
 
-**TORREN:** Enough that this wall would've been inside it. Not near the edge. Road alignment's changed, so I can't lay one over the other cleanly, but `larger` isn't a guess.
+**TORREN:** Enough that this wall would've been inside it. Not near the edge. Road alignment's changed, and the Wayfinder is broken through the middle of the old capital cluster, so I can't lay one over the other cleanly. But larger isn't a guess.
 
 Cyanis looks back along the wall.
 
@@ -147,10 +147,10 @@ Transition directly into:
 
 - Cyanis, Ilyra, Torren, and non-playable Maevra have entered Caelora lawfully.
 - Cyanis still carries the recovered Card.
-- Torren still carries the copied Sunken Archive western-mural evidence.
+- the party still carries its Chapter-1 Wayfinder copy / field record.
 - Caelora has been established as a functioning modern capital.
-- Torren makes only the bounded physical comparison that the Ancient city shown on the mural occupied a substantially larger footprint than modern Caelora.
-- nobody explains the Ancient city's identity or history.
+- Torren makes only the bounded physical comparison that the known Ancient capital footprint shown by the surviving Wayfinder evidence was substantially larger than modern Caelora; the broken center still prevents a complete reconstruction.
+- nobody treats the existence of the Ancient capital at Caelora as a new discovery or explains its complete layout/history.
 - the royal-seal / impossible-order mystery has not begun.
 
 ---
@@ -158,19 +158,27 @@ Transition directly into:
 ## Beat 2
 
 **Atomic source:** `BEAT_02_ROYAL_AUDIENCE_CH2_REPORT_DRAFT_A.md`  
-**Source SHA-256:** `6d2d348e946ace6bcf7c80d10d0bc9ed4cea0a8e2c89832bea708f2b2172a25c`
+**Source SHA-256:** `b7accad4af6e4395d705247fd83b477f2b8d2d925287390098b4f6ad55819a56`
 
 # Chapter 3 — Beat 2
 # Royal Audience / The Chapter-2 Report
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+## CURRENT LOCKED DIALOGUE — REVISED CONTINUITY / TRUE-VOICE PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
 
 ### [STORY TRIGGER — WORKING ROYAL AUDIENCE]
 
-Player control pauses for the report.
+This is a working royal audience, not a ceremony.
 
-This is a working royal audience, not a ceremony. Queen Lysara, Crown Princess Mirena, Chancellor Othmar Calder, Maevra, Cyanis, Ilyra, and Torren are present with only the clerical support needed for records and maps.
+Present:
+- Queen Lysara Ceryth
+- Crown Princess Mirena Ceryth
+- Chancellor Othmar Calder
+- Maevra
+- Cyanis
+- Ilyra
+- Torren
+- only necessary clerical support
 
 Lysara looks to Maevra.
 
@@ -180,13 +188,13 @@ Lysara looks to Maevra.
 
 **LYSARA:** Their condition?
 
-Ilyra answers.
+Ilyra answers only the medical part she actually owns.
 
 **ILYRA:** Exhausted. Some injuries had gone too long without proper care. Several could walk, but not through the route we used to get inside.
 
-**MIRENA:** So the road had to be taken first.
+**MIRENA:** So opening the road mattered as much as taking the Bastion.
 
-**ILYRA:** Yes. Three armed people could manage the old route. That group couldn't.
+**ILYRA:** For getting them home, yes.
 
 Lysara nods.
 
@@ -194,7 +202,7 @@ Lysara nods.
 
 Othmar looks to Maevra.
 
-**OTHMAR:** The Old Waterworks?
+**OTHMAR:** Old Waterworks?
 
 **MAEVRA:** At first.
 
@@ -212,45 +220,41 @@ Mirena almost smiles.
 
 **TORREN:** Good.
 
-Torren's copied mural is placed where the room can see it.
+### [THE WAYFINDER EVIDENCE]
 
-**TORREN:** This is a field copy. Placement and route relationships are good. It is not a survey.
+Torren lays out the party's copied record from the Chapter-1 Wayfinder.
+
+**TORREN:** This isn't new from the Bastion. It's the Wayfinder copy from Briar Passage.
 
 Mirena studies it.
 
-**MIRENA:** This is Caelora.
+**MIRENA:** The western network.
 
-**TORREN:** Same location. Older city was much larger. The wall we just entered through would've been inside its footprint.
+**TORREN:** Yeah. Roads everywhere, built sites everywhere, biggest concentration around Caelora. But the actual Wayfinder is broken straight through the center here.
 
-Mirena's attention moves north.
+He indicates the damaged Caelora-area portion.
 
-**MIRENA:** And this is separate.
+**TORREN:** We know the old capital stood here. We don't have its complete center from this source.
 
-**TORREN:** Yeah.
+**LYSARA:** And the scale outside the break?
 
-A beat.
+**TORREN:** Bigger than modern Caelora by a lot. I can defend that much.
 
-**MIRENA:** That's the Yahtrean Crest.
+**MIRENA:** The second system of marks?
 
-The room quiets.
+**TORREN:** Still don't know what they mean.
 
-Lysara looks directly at Torren.
+**OTHMAR:** Then the Old City archives may contain comparable records.
 
-**LYSARA:** How certain?
+**MIRENA:** Or several centuries of people confidently copying things they didn't understand.
 
-**TORREN:** About the mark? Certain. About why it's there, what that structure was, or whether it meant then what it means now? I don't know.
+**TORREN:** Those aren't mutually exclusive.
 
-**LYSARA:** Good.
-
-Mirena keeps looking at the copy.
-
-**MIRENA:** If enough of the Old City archives survived, there may be something comparable below us.
-
-**OTHMAR:** There may also be several centuries of useless fragments.
-
-**MIRENA:** Those aren't mutually exclusive.
+Mirena gives him a brief look of approval.
 
 **LYSARA:** Later. Finish the report.
+
+### [THE CARD TRANSPORT]
 
 Maevra nods.
 
@@ -266,11 +270,11 @@ Lysara's attention shifts to Cyanis.
 
 **CYANIS:** By experience. Brackenwall tried separating us. My pulse dropped, I started shaking, and the Card lit toward me. Putting it back stopped it.
 
-Ilyra adds only what he could not assess himself.
+Ilyra adds only what Cyanis could not observe himself.
 
 **ILYRA:** His pulse recovered after contact was restored. We didn't repeat the test.
 
-**CYANIS:** I was strongly in favor of that.
+**CYANIS:** Strongly in favor of that decision.
 
 Lysara accepts it.
 
@@ -278,11 +282,11 @@ Lysara accepts it.
 
 Othmar's attention sharpens.
 
-**OTHMAR:** The transport to Caelora was formally authorized?
+**OTHMAR:** The transport toward Caelora was formally authorized?
 
 **MAEVRA:** That's what the chain showed. Direct Crown authority.
 
-**OTHMAR:** You still have the order?
+**OTHMAR:** You retained the order?
 
 **MAEVRA:** Yes.
 
@@ -306,8 +310,6 @@ Lysara does not speculate.
 
 **LYSARA:** Paper first. Conclusions after.
 
-The audience shifts from field report to document verification.
-
 ### [STORY HANDOFF]
 
 Transition directly into:
@@ -318,13 +320,13 @@ Transition directly into:
 
 - the Crown knows the current Old Bastion prisoners were freed;
 - Rhazek survived and withdrew;
-- earlier transferred groups remain missing and their destination remains unknown;
-- the Crown knows the party entered through older infrastructure beneath the region;
-- the Crown sees the western mural copy, the larger Ancient city at modern Caelora, and the separate northern structure bearing the exact Yahtrean Crest;
-- the meaning of that Crest remains unexplained;
-- the Crown knows the recovered Card came from the Diysean ruins in the Westways and was being transported toward Caelora under apparent direct Crown authority;
-- Lysara has not yet stated whether she knew of or authorized that transport;
-- the Card remains physically with Cyanis because separation previously caused a dangerous unexplained reaction;
+- earlier transferred groups remain missing;
+- the Crown knows the party reached the Bastion through substantially older infrastructure;
+- the Chapter-1 Wayfinder remains the major Ancient cartographic evidence;
+- the known Ancient capital at modern Caelora is not a new revelation;
+- the Wayfinder's broken Caelora-area center remains incomplete;
+- no Chapter-2 mural or Crest-marked northern structure exists;
+- the Crown knows the recovered Card was being transported toward Caelora under apparent direct Crown authority;
 - the original transport authorization and attached records are ordered into the room for Beat 3.
 
 ---
@@ -677,13 +679,13 @@ Transition into:
 ## Beat 5
 
 **Atomic source:** `BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md`  
-**Source SHA-256:** `fc4f2d7446ce4dd53de486a5182425fea36aa811dc42f715ef1fc8b26bb38d9c`
+**Source SHA-256:** `7e5cc27d6c9444311a62fff643131bc5b5e8c4eab3d955d6a8c5b857e913f8c8`
 
 # Chapter 3 — Beat 5
 # Old City Access / Archive Descent
 ## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
 
 ### [GAMEPLAY — OLD CITY ARCHIVE ENTRY]
 
@@ -804,11 +806,11 @@ Ilyra laughs.
 
 The marked route reaches the deeper work section where Nimera Pellan is currently working.
 
-Stop before introducing Nimera or explaining the barrier.
+Stop before introducing Nimera. There is no Ancient Barrier setup.
 
 Transition directly into:
 
-**Beat 6 — Scholar in Redacted Stacks.**
+**Beat 6 — Scholar in Redacted Stacks / Nimera Joins.**
 
 ## Beat-5 end state
 
@@ -817,733 +819,242 @@ Transition directly into:
 - the player experiences the transition from modern Crown archive to unmistakably Diysean construction;
 - the trio is intentionally seeking Nimera Pellan;
 - Maevra remains in Caelora with Mirena;
-- no major revelation, Card classification, seal solution, or Nimera recruitment occurs yet.
+- no major revelation, Card classification, seal solution, or Nimera recruitment occurs until Beat 6.
 
 ---
 
 ## Beat 6
 
 **Atomic source:** `BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md`  
-**Source SHA-256:** `fec1597da54c04e169828bbf55cc5eebacc3af22d8d3b3632ca5dcbed3bd3259`
+**Source SHA-256:** `01f533a35ca0237a3e1b5542c4cbae18e5b51e4f8d44e40e5e731aab2cddc882`
 
 # Chapter 3 — Beat 6
-# Scholar in Redacted Stacks
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+# Scholar in Redacted Stacks / Nimera Joins
+## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
 
-### [STORY TRIGGER — ENCLOSED WORK SECTION]
+### [STORY TRIGGER — REDACTED STACKS WORK SECTION]
 
-Cyanis, Ilyra, and Torren reach the deeper work section.
+Cyanis, Ilyra, and Torren reach the deeper work section named by the archive keeper.
 
-An Ancient barrier has sealed across the passage. Nimera Pellan is on the far side among the materials she had already been using.
+Nimera Pellan is not trapped, waiting, or in distress.
 
-She is very obviously not waiting to be rescued.
+She has occupied a large worktable with open volumes, copied fragments, Card sketches, weights, tags, and three separate systems for marking uncertainty that make sense to her and probably nobody else.
 
-Before Cyanis gets close to the frame:
+She looks up when the trio enters.
 
-**NIMERA:** Don't touch that. Actually, don't touch anything near it. I know three parts moved and I do not know whether the fourth is waiting for encouragement.
-
-Cyanis stops.
-
-**CYANIS:** I was looking.
-
-**NIMERA:** With your hand.
-
-Torren studies the frame instead.
-
-**TORREN:** What moved first?
-
-Nimera turns toward him immediately.
-
-**NIMERA:** Three plates. Second worktable, stone behind me, turn around—congratulations, architecture has shoved me into its fucking armpit. No, that's unfair to armpits. They usually have exits.
-
-**TORREN:** Three on your side?
-
-**NIMERA:** Three I can see.
-
-Torren points low on the outer frame.
-
-**TORREN:** Fourth here.
-
-Nimera leans for an angle she cannot get.
-
-**NIMERA:** Of course there fucking is. Behind a Crown brace?
-
-**TORREN:** Yeah.
-
-**NIMERA:** Excellent. I was worried restoration might be helping.
-
-Ilyra looks her over once.
-
-**ILYRA:** Hurt?
-
-**NIMERA:** No. Trapped, annoyed, and developing professional hostility toward whoever fucked that brace into place.
-
-**ILYRA:** Good. Then I can enjoy this.
-
-Nimera looks at her.
-
-**NIMERA:** I like you.
-
-### [INTRODUCTIONS]
-
-**CYANIS:** Cyanis Dovaren. Ilyra Amarin. Torren Harth.
-
-Nimera's attention snaps to Torren.
-
-**NIMERA:** Harth.
-
-**TORREN:** That's usually how names work.
-
-**NIMERA:** Your western survey notation is fucking appalling.
-
-**TORREN:** Saves space.
-
-**NIMERA:** It destroys context.
-
-**TORREN:** Didn't for me.
-
-**NIMERA:** You are not the only possible reader of a map.
-
-Cyanis cuts in before the argument finds roots.
+**NIMERA:** If you're here to move these shelves, don't. If you're here to tell me they're unsafe, I know. If you're here because somebody upstairs finally read my last six notes, I want that miracle documented.
 
 **CYANIS:** Mirena sent us.
 
-Nimera looks back at him.
+Nimera closes one book halfway.
 
-**NIMERA:** That is much more relevant. Why?
+**NIMERA:** Ah. Worse.
 
-Cyanis brings the Card into view without moving it through the barrier.
+Ilyra smiles.
 
-Nimera goes still.
+**ILYRA:** Strong opening.
 
-**NIMERA:** Oh.
+**NIMERA:** I'm Nimera Pellan. You are either important, inconvenient, or both.
 
-A beat.
+**CYANIS:** Cyanis Dovaren. Ilyra Amarin. Torren Harth.
 
-**NIMERA:** Don't move that yet.
+Nimera's eyes move to Torren.
 
-**CYANIS:** Familiar?
+**NIMERA:** Harth.
 
-**NIMERA:** No. That's why I'm interested.
+**TORREN:** That's me.
 
-Cyanis gives the short version of Brackenwall.
+She notices the route notebook at his belt.
 
-**CYANIS:** We separated once. Pulse dropped, shaking, Card lit green and gold toward me. Putting it back stopped it.
+**NIMERA:** Is that your notation?
 
-Ilyra adds the part he could not observe himself.
+**TORREN:** Some of it.
 
-**ILYRA:** Pulse recovered after contact was restored. We didn't repeat the test.
+**NIMERA:** I've seen your copied route marks.
 
-Nimera's questions come quickly.
+**TORREN:** Sorry to hear that.
 
-**NIMERA:** Complete separation?
+**NIMERA:** They're fucking criminal.
 
-**ILYRA:** Yes.
+**TORREN:** They work.
 
-**NIMERA:** Distance?
+**NIMERA:** For you. So does scratching food on a sack. That doesn't make it an archive standard.
 
-**CYANIS:** Not measured.
+**TORREN:** Wasn't writing for an archive.
 
-**NIMERA:** Fine. Staying conscious outranked measurement. Good. And nobody decided to poke the fucking magical bear twice just to confirm it had teeth? Bad metaphor. There was no bear. You know what I mean.
+**NIMERA:** Yes, I gathered that from the violence done to context.
 
-**CYANIS:** No.
+Ilyra looks between them.
 
-**NIMERA:** Excellent. I work with scholars. That answer is rarer than it should be.
-
-### [THE SEAL PROBLEM]
-
-Nimera is still watching the Card.
-
-**NIMERA:** Mirena did not send armed people into restricted stacks because one Card behaved strangely. What else?
-
-**TORREN:** Orders moving it here answered to the Queen's personal seal.
-
-Nimera looks at him.
-
-**NIMERA:** Genuine response?
-
-**TORREN:** Yeah.
-
-**NIMERA:** Lysara authorize them?
-
-**CYANIS:** Didn't know the Card existed.
-
-**NIMERA:** Physical seal?
-
-**TORREN:** In the palace. Intact. Works normally.
-
-A beat.
-
-**NIMERA:** Oh, that's ugly.
-
-**TORREN:** Custody record has no clean gap.
-
-Nimera points at him through the barrier.
-
-**NIMERA:** Record. Important word.
-
-Torren waits.
-
-**NIMERA:** A clean record proves the record is clean. It does not prove nobody got access, nobody lied, nobody copied an entry, nobody trusted the wrong person, or that physical access was even required. Those are separate claims and people keep fucking them together because paperwork looks respectable. No—fucking together implies they produce something coherent. They don't. They just end up in the same bed.
-
-**TORREN:** Agreed.
-
-Nimera blinks.
-
-**NIMERA:** Oh.
-
-A beat.
-
-**NIMERA:** That was going to be longer.
-
-**TORREN:** Saved time.
-
-**NIMERA:** Don't make a habit of it.
-
-She looks back to the Card.
-
-**NIMERA:** So. Strange Card, impossible royal authority, incomplete custody answer, and an Ancient wall between me and the evidence.
-
-**CYANIS:** That's why we're here.
-
-**NIMERA:** I have too many questions and currently one architectural bastard sitting on all of them. The bastard is winning.
-
-### [THE BARRIER]
-
-Torren crouches near the fourth plate.
-
-**TORREN:** Lower edge is worn.
-
-**NIMERA:** Mine aren't.
-
-**TORREN:** This moved recently. In, then up.
-
-Nimera looks back at the three plates on her side.
-
-**NIMERA:** Mine moved down when it closed. No—two moved down. Third rotated first, then dropped. I treated that as one action because it happened quickly. That's not the same thing.
-
-**TORREN:** Better.
-
-**NIMERA:** Don't sound pleased.
-
-Cyanis follows the engraved channels around the frame.
-
-**CYANIS:** These lines come back around.
-
-Nimera traces what she can see from inside.
-
-**NIMERA:** Describe your side.
-
-She points at Torren.
-
-**NIMERA:** You. Slowly. Full sentences if the gods are feeling generous.
-
-**TORREN:** No promises.
-
-**NIMERA:** I already dislike this partnership.
-
-Ilyra studies the pattern.
-
-**ILYRA:** What do you expect the fourth plate to do?
-
-Nimera answers without pretending certainty.
-
-**NIMERA:** Trigger a smaller response before anything opens. If it does, we learn from that. If it doesn't, then I was wrong and we revise instead of dragging the fucking corpse of a bad idea around because we liked it alive. Grim. Accurate, though.
-
-**ILYRA:** Refreshing.
-
-**NIMERA:** It should not be refreshing.
-
-Cyanis smiles.
-**CYANIS:** I think you're going to fit in terribly.
-
-**NIMERA:** Good. Start with the plate.
-
-### [GAMEPLAY HANDOFF]
-
-Player control returns with the immediate objective:
-
-**Open the Ancient barrier.**
-
-The barrier remains closed.
-
-Transition into:
-
-**Beat 7 — Ancient Barrier / First Cooperation.**
-
-## Beat-6 end state
-
-- Nimera is introduced as active, capable, verbally engaged, and already working the problem herself;
-- she is not injured or helpless;
-- she has not classified Cyanis's Card;
-- she understands the bounded Card-separation facts and the royal-seal contradiction;
-- she explicitly distinguishes a clean custody record from proven clean custody;
-- Torren and Nimera begin with professional friction and immediate mutual testing, not familial shorthand;
-- the barrier remains closed;
-- Beat 7 owns the actual cooperative solution.
-
----
-
-## Beat 7
-
-**Atomic source:** `BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_DRAFT_A.md`  
-**Source SHA-256:** `31a7c8c3c59bb519dcd04f489b278492cf4dc601bd64db0cd5c1d20589635bb6`
-
-# Chapter 3 — Beat 7
-# Ancient Barrier / First Cooperation
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
-
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
-
-### [STORY TRIGGER — THE FOURTH PLATE]
-
-Resume at the Ancient barrier.
-
-Nimera remains inside. Cyanis, Ilyra, and Torren are outside.
-
-**NIMERA:** Lower edge first. Tell me what's physically there, not what you think it means.
-
-**TORREN:** Worn smooth for about two fingers. Rest isn't.
-
-**NIMERA:** So it bears there when it moves.
-
-**TORREN:** Yeah.
-
-**NIMERA:** Good. Different fact.
-
-Cyanis follows one engraved channel away from the fourth plate.
-
-**CYANIS:** This line comes back.
-
-**NIMERA:** Where?
-
-**CYANIS:** Up the frame, across, then behind your side.
-
-Nimera traces what she can see.
-
-**NIMERA:** I have a return here. Maybe the same one. Maybe not. Don't let me shove those into bed yet. No—fuck, that's exactly the problem. Proximity is not causation.
-
-Cyanis looks at the whole frame.
-
-**CYANIS:** What if the plates aren't separate controls?
-
-Nimera looks at him.
-
-**NIMERA:** Keep going.
-
-**CYANIS:** Crest work can look like separate marks until you follow where the working closes.
-
-**NIMERA:** This isn't a Crest.
-
-**CYANIS:** I know. I'm talking about the relationship, not the origin.
-
-That gets her attention.
-
-**NIMERA:** Better.
-
-A beat.
-
-**NIMERA:** All right. If the relationship matters more than the individual plates, one plate should answer somewhere else before anything opens.
-
-**ILYRA:** And if it doesn't?
-
-**NIMERA:** Then the idea was wrong and we stop dragging the fucking corpse around because we liked it alive. Grim. Still accurate.
-
-**ILYRA:** Excellent policy.
-
-**NIMERA:** It should be the minimum.
-
-### [GAMEPLAY — TEST THE BARRIER]
-
-Player control returns for the first small test.
-
-Nimera activates one reachable plate. A corresponding exterior channel responds and the fourth plate shifts slightly.
-
-The test ends before the barrier opens.
-
-### [STORY STOP — RESULT]
-
-**TORREN:** Moved.
-
-**NIMERA:** Direction?
-
-**TORREN:** In, then up. Less than before.
-
-Nimera thinks aloud.
-
-**NIMERA:** Less movement, same direction. That's not what I expected, but it doesn't kill the relationship. Could be load, sequence, or the fact that I'm still missing half the fucking mechanism.
-
-**ILYRA:** So matched direction matters more than matched distance.
-
-Nimera points at her.
-
-**NIMERA:** Yes. Exactly. Annoyingly good question.
-
-**ILYRA:** Thank you.
-
-**NIMERA:** Don't enjoy it.
-
-### [GAMEPLAY — COMPLETE THE SEQUENCE]
-
-The group performs the next steps through player interaction and short reactive barks rather than continuous explanation.
-
-Nimera calls what she can observe from inside. Torren catches physical changes on the exterior. Cyanis tracks how the engraved return closes. Ilyra challenges only when the interpretation no longer matches what is visibly happening.
-
-At one step, the fourth plate takes weight too early.
-
-**TORREN:** Stop.
-
-Everything stops.
-
-**NIMERA:** What?
-
-**TORREN:** Fourth took weight before the third settled.
-
-Nimera stares at her side.
-
-**NIMERA:** Shit. Then I had the transfer backward.
-
-**ILYRA:** Architecture one, scholar zero.
-
-**NIMERA:** I was revising.
-
-**ILYRA:** I know. Timing was perfect.
-
-**CYANIS:** Can we preserve the score?
-
-**NIMERA:** Absolutely not.
-
-They revise the sequence.
-
-The engraved channels fill with restrained light. The barrier retracts.
-
-Nimera walks through and immediately turns to inspect the exterior plate.
-
-**NIMERA:** Fuck that wall.
-
-**CYANIS:** Very scholarly.
-
-**NIMERA:** Scholarship is mostly swearing at dead people with better preservation standards.
-
-Torren snorts.
+**ILYRA:** Good. We found the right person.
 
 ### [THE CARD]
 
-Nimera turns to Cyanis.
+Cyanis brings the sealed Card into view but keeps it in his own hand.
 
-**NIMERA:** Now. Card.
+Nimera's attention changes immediately.
 
-Cyanis holds it where she can inspect it without surrendering it.
-
-She studies it in silence for a moment.
-
-**NIMERA:** It's organized.
-
-**CYANIS:** Around what?
-
-**NIMERA:** Don't know.
-
-Cyanis waits.
-
-Nimera notices.
-
-**NIMERA:** That's the answer. I can see repeated geometry. The green and gold aren't random. Some relationships are deliberate. I do not have enough comparison material to tell you what they mean, and making up a category because silence feels awkward would be bullshit scholarship.
-
-**CYANIS:** Fair.
-
-**NIMERA:** Thank you for not asking me to make it prettier.
-
-She shifts her view slightly.
-
-**NIMERA:** Any change for you?
-
-**CYANIS:** No.
-
-**ILYRA:** Tragically uneventful.
-
-**NIMERA:** Uneventful is useful.
-
-**ILYRA:** Still tragic.
-
-Nimera looks back at the Card.
-
-**NIMERA:** Keep the orientation steady. I don't know whether it matters, which is exactly why I don't want to fuck the experiment by adding the variable yet.
-
-After another moment, she backs off.
-
-**NIMERA:** I need older comparisons.
-
-### [THE ROUTE BEYOND]
-
-The now-open way reveals deeper, less Crown-adapted Diysean archive infrastructure.
-
-Torren looks down it.
-
-**TORREN:** Been through there?
-
-**NIMERA:** No.
-
-**CYANIS:** Excited?
-
-**NIMERA:** Professionally. Personally. Irrationally. Yes.
-
-She gathers her work.
-
-**NIMERA:** Move.
-
-**CYANIS:** That's an invitation?
-
-**NIMERA:** It's a temporary failure to object.
-
-**CYANIS:** I'll take it.
-
-### [STORY HANDOFF — SOMETHING MOVES]
-
-The four enter the newly accessible route.
-
-An old archive mechanism shifts farther ahead.
-
-Torren stops.
-
-**TORREN:** That's new.
-
-**NIMERA:** Very.
-
-A second mechanism wakes.
-
-**ILYRA:** Still want older comparisons?
-
-**NIMERA:** Yes. I would simply prefer them not to acquire limbs.
-
-Cut before the hostile mechanism fully presents itself.
-
-Transition directly into:
-
-**Beat 8 — Archive Scribe Engine / Nimera Joins.**
-
-## Beat-7 end state
-
-- Cyanis contributes a bounded structural analogy from modern Crest practice without claiming lineage or identity;
-- Nimera tests the analogy rather than accepting it wholesale;
-- the barrier solution is cooperative and earned;
-- most of the mechanical sequence occurs through gameplay rather than continuous dialogue;
-- Nimera remains the primary verbal reasoner and openly revises a wrong assumption;
-- the barrier opens and Nimera is free;
-- the Card remains green-and-gold and unclassified;
-- Nimera can see deliberate organization in it but refuses unsupported classification;
-- deeper archive infrastructure reactivates;
-- permanent recruitment remains unresolved until Beat 8.
-
----
-
-## Beat 8
-
-**Atomic source:** `BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_DRAFT_A.md`  
-**Source SHA-256:** `b4d0649db9d8662cc0848b96f2c8a00ec4b40a832d4f4d8e08f8e0a01c8415cb`
-
-# Chapter 3 — Beat 8
-# Archive Scribe Engine / Nimera Joins
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
-
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
-
-### [STORY TRIGGER — THE ARCHIVE ANSWERS]
-
-Resume immediately from Beat 7.
-
-A record-transfer track shifts ahead. Shutters turn. Engraved channels brighten. Articulated scribing arms unfold from a larger recessed mechanism.
-
-**TORREN:** That's coming this way.
-
-**NIMERA:** Scribe assembly. Or some bastard descendant of one. Don't quote me yet.
-
-One arm snaps forward and strikes the floor.
-
-**ILYRA:** Move.
-
-Cyanis shifts into position.
-
-**CYANIS:** Pellan—
-
-Nimera already has her Conduit out.
-
-**NIMERA:** If that ends with `stay back`, don't waste the breath.
-
-Cyanis looks once, sees she is ready, and turns toward the machine.
-
-**CYANIS:** Left side.
-
-**NIMERA:** Liar.
-
-**TORREN:** Left arm moves first.
-
-**NIMERA:** Good. Let's break its handwriting.
-
-### [BATTLE — ARCHIVE SCRIBE ENGINE]
-
-Nimera enters combat by choice.
-
-**Active battle formation:**
-- Cyanis
-- Ilyra
-- Torren
-- Nimera
-
-This is the player's first four-person battle with the current permanent-party characters.
-
-Her first combat presentation establishes practiced Cardweaver technique, Conduit use, and Card-based magic without pausing for a full class lecture.
-
-Combat proceeds under encounter authority.
-
-### [VICTORY]
-
-The Scribe Engine goes inert.
-
-A short silence.
-
-**CYANIS:** Everybody good?
-
-**TORREN:** Yeah.
-
-**ILYRA:** Unfortunately.
-
-Nimera is already staring at the disabled mechanism.
-
-**ILYRA:** Pellan.
-
-Nimera looks over.
-
-**NIMERA:** What?
-
-**ILYRA:** You disappeared into it.
-
-**NIMERA:** It stopped halfway through a stroke. I was deciding whether that matters or whether I'm assigning intention to a machine because it tried to break my fucking ribs.
-
-**TORREN:** It did try to break your ribs.
-
-**NIMERA:** Thank you, Harth. Valuable archival note.
-
-### [WHAT THE MACHINE ACTUALLY PROVES]
-
-Torren looks at the mechanism.
-
-**TORREN:** Know why it attacked?
-
-**NIMERA:** No.
-
-He waits.
-
-Nimera notices.
-
-**NIMERA:** Reopening the route woke it. It changed behavior when we entered. Breaking the active arms stopped the dangerous part. That's what I know. I can pull several explanations out of my ass and every one would still be invented. No—one or two would be evidence-based. Still invented at the mechanism level.
-
-**TORREN:** Good.
-
-**NIMERA:** I am going to learn to resent that word from you.
-
-### [THE CARD AGAIN]
-
-Nimera turns to Cyanis.
-
-**NIMERA:** Card.
-
-**CYANIS:** Again?
-
-**NIMERA:** Context changed.
-
-He holds it where she can compare it with the disabled mechanism.
-
-She studies both.
-
-**NIMERA:** Hm.
-
-**CYANIS:** Helpful.
-
-**NIMERA:** Extremely. For me.
+**NIMERA:** Oh.
 
 A beat.
 
-**NIMERA:** There are structural echoes. Maybe. I hate that phrase because people hear lineage and suddenly two shapes are fucking cousins. They're not. I have shapes that make me want more comparisons.
+**NIMERA:** All right. That is actually interesting.
 
-**CYANIS:** Between the Card and this?
+**CYANIS:** Familiar?
 
-**NIMERA:** Yes. And I want them connected badly enough that I trust the instinct less, not more.
+**NIMERA:** No. That's why it's interesting. Familiar things are useful. Unfamiliar things are where people start bullshitting themselves because they hate empty categories.
 
-Ilyra looks at her.
+**CYANIS:** It reacted when we separated it from me.
 
-**ILYRA:** One elegant problem instead of several.
+**NIMERA:** Define reacted.
 
-**NIMERA:** Exactly. Reality is being a selfish bastard.
+Cyanis gives her the bounded Brackenwall account.
 
-Torren glances toward the deeper route.
+**CYANIS:** My pulse dropped. Shaking started. The Card lit green and gold toward me. Contact was restored and it stopped.
 
-**TORREN:** Older records are that way.
-
-**NIMERA:** Unless you've got an older archive in a pocket.
-
-**TORREN:** Left it home.
-
-**NIMERA:** Useless.
-
-### [NIMERA HAS ALREADY DECIDED]
-
-Nimera starts gathering what she needs.
-
-Cyanis watches her.
-
-**CYANIS:** Thought we'd take this back to Mirena first.
-
-**NIMERA:** You can.
-
-**CYANIS:** You're not?
-
-**NIMERA:** No. Older records are down there, the route just opened, and something down there already reacted to us. If I go upstairs now, I'll spend the entire walk thinking about what I didn't read.
-
-She picks up a battered pencil, looks at it, and grimaces.
-
-**NIMERA:** Also this pencil is offensive.
-
-Ilyra looks at it.
-
-**ILYRA:** That's what tipped the decision?
-
-**NIMERA:** No. It's simply important that someone knows.
-
-Torren looks down the passage.
-
-**TORREN:** With us, then.
-
-Nimera looks at him.
-
-**NIMERA:** Are you going somewhere else?
-
-**TORREN:** No.
-
-**NIMERA:** Then yes.
-
-Cyanis accepts it.
-
-**CYANIS:** All right.
-
-Nimera is already moving.
-
-**NIMERA:** Are we going?
-
-**CYANIS:** Apparently.
+**ILYRA:** His pulse recovered after contact. We did not repeat the separation.
 
 **NIMERA:** Good.
 
+She thinks for a second.
+
+**NIMERA:** No, better than good. Boring restraint is fucking beautiful when the alternative is turning a person into an experiment because everybody got curious at once.
+
+**CYANIS:** That's almost flattering.
+
+**NIMERA:** Don't get comfortable. Distance?
+
+**CYANIS:** Not measured.
+
+**NIMERA:** Duration?
+
+**ILYRA:** Long enough to know it was worsening. Not long enough to justify keeping it that way for a cleaner number.
+
+**NIMERA:** Fine. Useful limit.
+
+She leans closer without reaching for the Card.
+
+**NIMERA:** Green and gold every time?
+
+**CYANIS:** Every time we've seen it respond.
+
+**NIMERA:** And you still don't know what it is.
+
+**CYANIS:** Correct.
+
+**NIMERA:** Excellent.
+
+**TORREN:** You keep using that word strangely.
+
+**NIMERA:** Because we don't know is a healthy condition. We don't know, therefore it must be the thing I wanted is how scholarship crawls up its own ass and dies.
+
+### [THE SEAL PROBLEM]
+
+Nimera looks back to Cyanis.
+
+**NIMERA:** Mirena did not send three people into restricted stacks because one Card did weird shit. What's the other problem?
+
+**TORREN:** Orders moving the Card toward Caelora answered to Queen Lysara's personal seal.
+
+Nimera stops moving.
+
+**NIMERA:** Answered how?
+
+**CYANIS:** Same recognized magical authority response as legitimate royal documents.
+
+**NIMERA:** Lysara authorize the orders?
+
+**CYANIS:** She didn't know the Card existed.
+
+**NIMERA:** Physical seal?
+
+**TORREN:** In the palace. Intact. Still works normally for her.
+
+Nimera sits back.
+
+**NIMERA:** Oh, that's filthy.
+
+**ILYRA:** Technical term?
+
+**NIMERA:** Extremely. You have a genuine response without a genuine decision. Maybe physical access happened and the record missed it. Maybe something else can provoke the response. Maybe we're missing a third category entirely. What we do **not** have is permission to fuck those possibilities into one convenient explanation.
+
+**TORREN:** Custody record has no clean gap.
+
+Nimera points at him.
+
+**NIMERA:** Record. Important word. A clean record proves the record is clean. It does not prove reality behaved.
+
+**TORREN:** Agreed.
+
+Nimera pauses.
+
+**NIMERA:** I had another paragraph.
+
+**TORREN:** Saved you the trouble.
+
+**NIMERA:** Don't make a habit of being reasonable. It'll ruin the dynamic.
+
+### [WHY SHE COMES]
+
+Nimera turns back to the spread on her table and flips through two tagged volumes.
+
+**NIMERA:** The useful seal material is not in this fucking room.
+
+**CYANIS:** Where is it?
+
+**NIMERA:** Lower collections. Older Yahtrean copies, older Card records, whatever survived from the Diysean archive layers underneath them.
+
+**ILYRA:** Accessible?
+
+**NIMERA:** Define accessible.
+
+**TORREN:** Bad sign.
+
+**NIMERA:** No, that's honest architecture.
+
+She begins packing a small set of notes and tools.
+
+Cyanis watches.
+
+**CYANIS:** You're coming.
+
+**NIMERA:** Obviously.
+
+**CYANIS:** Mirena asked us to consult you.
+
+**NIMERA:** You did. Consultation complete. Result: the evidence is downstairs and I would rather see it than hear you misremember it later.
+
+**CYANIS:** Fair.
+
+**NIMERA:** Also, if your Card does something new, I want to be there before four people turn one weird twitch into a fucking creation myth.
+
+Torren glances toward the lower route.
+
+**TORREN:** Route's marked.
+
+Nimera shoulders her things and picks up her Conduit.
+
+**NIMERA:** Then let's go see how much of marked survives contact with the floor.
+
+**TORREN:** Starting to like you less.
+
+**NIMERA:** Good. Means you're paying attention.
+
+Ilyra falls in beside her.
+
+**ILYRA:** Do you always join expeditions this casually?
+
+**NIMERA:** No. Usually the evidence is less obscene.
+
 ### [PARTY JOIN]
 
-At this natural decision point, implementation may display:
+At this natural decision point, implementation displays:
 
 **Nimera Pellan joined the party.**
 
-No additional recruitment speech is required.
-
-Permanent combat-capable roster and active combat party are now:
+Permanent combat-capable party and active field party are now:
 - Cyanis
 - Ilyra
 - Torren
@@ -1555,34 +1066,38 @@ Maevra remains in Caelora with Mirena and remains non-playable.
 
 Player control resumes with the permanent four-person party.
 
+New objective:
+
+**Explore the Lower Archives.**
+
 Transition into:
 
-**Beat 9 — Buried Collections / Dormant Card Research.**
+**Beat 7 — Lower Archives.**
 
-## Beat-8 end state
+## Beat-6 end state
 
-- Nimera demonstrates combat competence before formally joining;
-- the first four-person battle occurs naturally;
-- Nimera refuses to overclaim what the Scribe Engine proves;
-- she sees possible structural echoes between the Card and the mechanism but explicitly refuses to call that lineage or identity;
-- her decision to continue is her own;
-- recruitment is casual and earned rather than ceremonial;
-- Nimera Pellan becomes a permanent party member.
+- Nimera is introduced as active, capable, socially alive, evidence-driven, and naturally profane;
+- no Ancient Barrier exists;
+- she learns only the bounded Card and royal-seal facts the party currently knows;
+- she does not classify the Card or solve the seal anomaly;
+- Torren/Nimera begin with first-contact professional friction and reciprocal interest, not familial shorthand;
+- Nimera voluntarily joins because the evidence worth examining lies deeper and she wants direct access to it;
+- Nimera becomes a permanent party member in Beat 6.
 
 ---
 
-## Beat 9
+## Beat 7
 
-**Atomic source:** `BEAT_09_BURIED_COLLECTIONS_DORMANT_CARD_RESEARCH_DRAFT_A.md`  
-**Source SHA-256:** `9fc22c27c96235c948f76e5e4c77d0bf479e29d6027982d06bf07d9d13d0532e`
+**Atomic source:** `BEAT_07_LOWER_ARCHIVES_DRAFT_A.md`  
+**Source SHA-256:** `69f1e17720d656721787caf6067f9f6f5ac1b2f10f0ed613fa5a2b7aa8238128`
 
-# Chapter 3 — Beat 9
-# Buried Collections / Dormant Card Research
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+# Chapter 3 — Beat 7
+# Lower Archives
+## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
 
-### [GAMEPLAY — BURIED COLLECTIONS]
+### [GAMEPLAY — LOWER ARCHIVES]
 
 Player control resumes with:
 - Cyanis
@@ -1590,1503 +1105,1723 @@ Player control resumes with:
 - Torren
 - Nimera
 
-The buried collections are a physical research library layered through Diysean chambers: books, copied manuscripts, surviving Ancient material, maps, field journals, Card studies, and seal references.
+This is the first sustained four-person exploration section.
 
-Nimera guides the research route, but most movement remains silent.
+The Lower Archives are less maintained than the upper Crown spaces but still recognizably archival: collapsed shelving bays, fitted stone record niches, sealed cabinets, ancient shutters, later Yahtrean repairs, and side rooms that were abandoned rather than dramatically forbidden.
 
-### [AUTHORED STOP — OLD CARD STUDIES]
+Ordinary encounters and exploration occur under encounter/map authority.
 
-Nimera has several volumes open.
+Most movement is silent.
 
-**NIMERA:** Here. Twelve years recorded as inert, then visible geometry during a later response. Different Card, different site, terrible terminology, but close enough that yours is no longer uniquely weird.
+### [SHORT STOP — ROUTE MARKS]
 
-**CYANIS:** Progress?
+Torren pauses where a modern route marker points down a corridor with a sagging floor.
 
-**NIMERA:** Technically.
+**TORREN:** That marker's wrong now.
 
-Ilyra points to another account.
+**NIMERA:** How wrong?
 
-**ILYRA:** Green at the edge. Gold through the center.
+**TORREN:** Floor dropped after it was painted. Weight's carrying through the left edge.
+
+Nimera crouches, looks, then looks at the marker.
+
+**NIMERA:** So the official route is lying.
+
+**TORREN:** Outdated.
+
+**NIMERA:** That's the respectable word for lying with fucking paperwork.
+
+**ILYRA:** You two are going to be unbearable together.
+
+**TORREN:** Don't include me in that.
+
+**NIMERA:** Too late. You noticed the floor.
+
+Cyanis checks the alternate side passage.
+
+**CYANIS:** This one holds?
+
+Torren tests it.
+
+**TORREN:** Better.
+
+**NIMERA:** Better is not a measurement.
+
+**TORREN:** Better is why we're not standing on the other one.
+
+Nimera considers that.
+
+**NIMERA:** Annoyingly valid.
+
+### [GAMEPLAY — RECORD GALLERIES]
+
+The party moves through a series of lower record galleries.
+
+Nimera can identify archive habits and provenance; Torren can read physical use and route condition; Cyanis recognizes limited parallels to modern Crest craft without claiming lineage; Ilyra participates through curiosity, skepticism, humor, and observation rather than automatic care-taking.
+
+### [SHORT STOP — OLD CATALOGUE ROOM]
+
+Nimera opens a warped catalogue drawer and finds several records copied across different eras.
+
+**NIMERA:** This is useful.
+
+**CYANIS:** You sound disappointed.
+
+**NIMERA:** I'm suspicious of useful things. They make people stupid faster.
+
+**ILYRA:** That's comforting.
+
+**NIMERA:** Here. Same subject copied three times. Oldest hand doesn't explain the mark. Middle copy guesses. Latest copy turns the guess into a category.
+
+**TORREN:** Normal?
+
+**NIMERA:** Fucking tragically. One person writes maybe, next person writes probably, third bastard writes obviously, and suddenly everybody has inherited certainty from a corpse.
+
+**CYANIS:** You really love archives.
+
+**NIMERA:** I love evidence. Archives are where evidence goes to acquire opinions.
+
+She checks another page.
+
+**NIMERA:** Also mold.
+
+**ILYRA:** Finally, a neutral party.
+
+### [GAMEPLAY — LOWER STACKS / OPTIONAL SIDE ROOMS]
+
+The party continues.
+
+Let short natural barks emerge from actual discoveries rather than requiring one contribution from each character.
+
+Examples of valid energy:
+- Torren catches physical route changes;
+- Nimera argues with labels or provenance;
+- Cyanis notices practical construction relationships;
+- Ilyra asks the question she is genuinely curious about or says nothing.
+
+Do not force explanatory dialogue at every mechanism.
+
+### [STORY STOP — DEEPER CATALOGUE BREAK]
+
+They reach a point where a later Yahtrean catalogue sequence abruptly stops.
+
+Beyond it, older shelving and record frames continue.
+
+Nimera checks the final numbered ledger.
+
+**NIMERA:** Catalogue fucking stops here.
+
+**TORREN:** Building doesn't.
+
+**NIMERA:** Exactly.
+
+She flips back several pages.
+
+**NIMERA:** No closure note. No transfer note. No fire record. No formal sealing order.
+
+**ILYRA:** So they just stopped using it.
+
+**NIMERA:** Maybe. Or stopped recording that they used it. Different problem.
+
+**CYANIS:** Which one do you prefer?
+
+**NIMERA:** The one with evidence.
+
+**CYANIS:** Of course.
+
+Nimera looks toward the older rooms.
+
+**NIMERA:** There should be buried collections beyond this point. If the old references survived anywhere, that's where I'd look.
+
+Torren studies the corridor.
+
+**TORREN:** Route's still passable.
+
+**NIMERA:** See? This is why I tolerate you.
+
+**TORREN:** Been an hour.
+
+**NIMERA:** A difficult hour.
+
+Ilyra laughs.
+
+### [GAMEPLAY HANDOFF]
+
+New objective:
+
+**Search the Buried Collections.**
+
+Transition into:
+
+**Beat 8 — Buried Collections / Recent Reader.**
+
+## Beat-7 end state
+
+- Nimera has meaningful party time immediately after joining;
+- the permanent four function together without artificial recruitment gating;
+- Torren/Nimera establish first-contact friction and reciprocal competence without familial shorthand;
+- the Crown's mapped/maintained authority visibly thins as the party descends;
+- no major geographic reveal, Cresthaven clue, Last Sentinel wording, Prime/Might classification, or Ruby stabilization occurs;
+- the party reaches the threshold of older buried collections.
+
+---
+
+## Beat 8
+
+**Atomic source:** `BEAT_08_BURIED_COLLECTIONS_RECENT_READER_DRAFT_A.md`  
+**Source SHA-256:** `1661afd54374a6a89c429bde8860693bacffea273a00cd6fbde924c0f05286bc`
+
+# Chapter 3 — Beat 8
+# Buried Collections / Recent Reader
+## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
+
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+
+### [GAMEPLAY — BURIED COLLECTIONS]
+
+The party enters older physical collections layered through Diysean chambers.
+
+Books, copied manuscripts, field journals, Card studies, seal references, regional records, and badly preserved cross-indexes coexist here because centuries of archivists kept moving useful material downward instead of discarding it.
+
+Nimera leads archive reasoning, not the whole party.
+
+### [AUTHORED STOP — CARD CASES]
+
+Nimera has several Card studies open.
+
+**NIMERA:** Here. Twelve years recorded as inert, then visible geometry during a later response.
+
+**CYANIS:** Same colors?
+
+**NIMERA:** No. Which is good.
+
+**CYANIS:** Good?
+
+**NIMERA:** If it matched yours perfectly, we'd be tempted to marry the cases after one fucking date. This gives us precedent for dormant becoming responsive without pretending the two Cards are the same thing.
+
+**ILYRA:** Romantic.
+
+**NIMERA:** Scholarship is mostly preventing bad marriages between facts.
+
+Torren looks at a later annotation.
+
+**TORREN:** This note was added after the original report.
 
 Nimera checks it.
 
-**NIMERA:** Different account again. Good. Annoying as shit, but good.
+**NIMERA:** Yes. Different hand, different ink, twenty-eight years later. Good catch.
 
-Torren is looking at repeated headings on older cases.
+**TORREN:** I can read.
 
-**TORREN:** These six keep showing up.
+**NIMERA:** I never doubted literacy. Judgment remains under review.
 
-Nimera follows his attention.
+### [GAMEPLAY — MIXED RESEARCH TABLES]
 
-**NIMERA:** Might. Elements. Grace. Memory. Perception. Ruin. Later names beside older marks.
+The player follows surviving citations through Card material, older authority-seal references, and Westways expedition records.
 
-She immediately keeps going.
+The scene does not yet reveal the old Westways recordbook map.
 
-**NIMERA:** Which means somebody later thought the comparison was useful. It does not mean we get to fuck the old marks into modern categories just because the names fit.
+### [AUTHORED STOP — AUTHORITY RECORD]
 
-**CYANIS:** Nobody said it did.
+Nimera studies a damaged seal text.
 
-**NIMERA:** Preventive maintenance.
+**NIMERA:** This distinguishes the seal from the impression it leaves.
 
-**TORREN:** On people?
+**CYANIS:** Meaning?
 
-**NIMERA:** Especially people.
+**NIMERA:** Meaning copying the visible mark is not automatically copying whatever magical authority lives in the working object. Which sounds obvious until somebody spends a century writing as though wax is the interesting part.
 
-The relevant references point deeper into seal history.
+She turns another page.
 
-### [GAMEPLAY — FOLLOW THE CITATIONS]
+**NIMERA:** Renewal, maintenance, specialized keepers—then the procedure vanishes because the copyist considered it routine.
 
-Player control resumes.
+**ILYRA:** That's cruel.
 
-The player moves through mixed Card scholarship into older Yahtrean seal records.
+**NIMERA:** Fuck that copyist specifically.
 
-### [AUTHORED STOP — OLD SEAL PRACTICE]
+**TORREN:** Dead a long time.
 
-Nimera has gone quiet over a damaged text.
+**NIMERA:** Then they have had ample time to reflect.
 
-**CYANIS:** Good quiet or bad quiet?
+Ilyra points to a marginal citation.
 
-**NIMERA:** Irritating quiet. This distinguishes the seal from the impression it leaves. Authority belongs to the working seal, not merely the shape on the page.
+**ILYRA:** Older source.
 
-She turns a page.
+Nimera reads it.
 
-**NIMERA:** Then it mentions renewal, maintenance, specialized keepers, succession practice—and the useful procedure is omitted because the copyist considered it routine. Fuck that copyist.
+**NIMERA:** Older than Yahtrea. Diysean authority-seal material, or at least a later copy claiming that provenance.
 
-**TORREN:** Helpful.
+**CYANIS:** Same tradition?
 
-**NIMERA:** I hope they died embarrassed.
+**NIMERA:** Maybe. Similar is not descended from. Two things can look alike without fucking and producing history.
 
-Ilyra looks at a marginal reference.
+She pauses.
 
-**ILYRA:** Older source?
+**NIMERA:** Bad biology for institutions. Useful warning.
 
-Nimera checks it.
-
-**NIMERA:** Older than Yahtrea, apparently. Physical authority-seal practice in Diysean administrative material.
-
-A beat.
-
-**NIMERA:** Similar practice. Incomplete chain. Nobody gets to shove them into bed and call the bastard child ancestry yet. Actually, child implies causation. Bad metaphor. Point stands.
-
-**ILYRA:** Wasn't planning to.
-
-**NIMERA:** Excellent. Someone's listening.
-
-**TORREN:** Don't start.
-
-Nimera smiles and follows the next citation.
-
-### [GAMEPLAY — REGIONAL RECORDS]
-
-The research trail moves into regional surveys and expedition records connected to the Diysean ruins in the Westways.
-
-The first signs of recent use look ordinary until several subjects begin converging.
-
-### [AUTHORED STOP — SOMEONE HAS BEEN THROUGH HERE]
+### [RECENT USE]
 
 Torren stops at a side table.
 
-**TORREN:** Someone's been through these recently.
+A Card-recovery volume sits beside seal-history material and Westways field notes.
 
-**NIMERA:** It's a library.
+**TORREN:** Someone's worked here recently.
 
-He points to a Card-recovery volume sitting beside a seal-history text.
+**NIMERA:** It's an archive.
 
-**TORREN:** Those belong together?
+He points at the page markers.
 
-Nimera checks the spines.
+**TORREN:** Same fiber in all three.
 
-**NIMERA:** No.
+Nimera checks.
 
-She notices matching page markers.
+**NIMERA:** Same cut too.
 
-**NIMERA:** Same red fiber. Same fold. Same wear.
+Torren indicates dust disturbed around several volumes but not adjacent shelves.
 
-**TORREN:** Same traffic around the table.
+**TORREN:** Pulled selectively.
 
-Nimera looks over the whole arrangement.
+Nimera follows the pattern.
 
-**NIMERA:** All right. One recent research trail. Not necessarily one person.
+**NIMERA:** Card response. Authority seals. Westways ruins.
 
-**TORREN:** Agreed.
+**CYANIS:** Same things we're chasing.
 
-**NIMERA:** That agreement is becoming unsettling.
+**NIMERA:** Same subjects. Not necessarily same question.
 
-She follows a marked citation into a regional index.
+She finds another marked volume.
 
-**NIMERA:** Westways.
+**NIMERA:** And this one cross-references historical Face classifications.
 
-Cyanis steps closer.
+**ILYRA:** One reader?
 
-**CYANIS:** The Card site?
+**NIMERA:** Maybe. One research trail is safer. Could be multiple people sharing work, one person over time, or some poor bastard inheriting somebody else's obsession.
 
-Nimera turns the record toward him.
+**TORREN:** Recent enough to matter.
 
-**NIMERA:** You tell me. Same ridge description, collapsed eastern approach, two surviving chamber markers.
+**NIMERA:** How recent?
 
-Cyanis reads.
+Torren examines the table and shelf wear.
 
-**CYANIS:** Same place.
+**TORREN:** Can't give you a day. Not old enough to disappear into normal use.
 
-**NIMERA:** Good. Then I can connect the records without committing academic fraud.
+**NIMERA:** Good. That's an answer with bones in it.
 
-### [BEAT END — THE OPEN TABLE]
+### [THE TRAIL]
 
-The trail leads to a deeper study table where open material visibly connects:
-- dormant or responsive Cards;
-- green-and-gold luminous behavior;
-- old magical seal traditions;
-- the Westways ruins.
+Nimera traces the marked citations.
 
-Ilyra looks across the spread.
+**NIMERA:** Whoever did this knew enough to skip introductory material.
 
-**ILYRA:** Same subjects we're chasing.
+**CYANIS:** Specialist?
 
-**NIMERA:** Same research trail. Not necessarily the same theory. We do not know what the reader concluded, and I'm not climbing up their ass to invent it.
+**NIMERA:** Or someone with a very good reading list. Don't promote them yet.
 
-**CYANIS:** Preventive maintenance?
-
-**NIMERA:** See? Progress.
-
-Torren looks at the surrounding shelves.
-
-**TORREN:** Left in the middle of it.
-
-**CYANIS:** Recent?
-
-**TORREN:** Recent enough to matter. Not enough for tracks.
-
-Nimera follows the final marked citation.
+She checks the next citation.
 
 **NIMERA:** Hall of Seals.
 
-She looks toward the deeper holdings.
+**ILYRA:** Convenient.
 
-**NIMERA:** Excellent.
+**NIMERA:** Suspiciously. But yes.
 
-**ILYRA:** You say that like it's bad news.
+**TORREN:** You happy about that?
+
+**NIMERA:** Extremely.
+
+**TORREN:** You look angry.
 
 **NIMERA:** Those are not opposites.
 
 ### [GAMEPLAY HANDOFF]
 
-Player control returns.
-
 New objective:
 
-**Follow the recent research trail.**
+**Follow the recent research trail to the Hall of Seals.**
 
 Transition into:
 
-**Beat 10 — The Recent Reader / Hall of Seals.**
+**Beat 9 — Hall of Seals / Recent Reader Continuation.**
+
+## Beat-8 end state
+
+- limited historical precedent exists for dormant Cards later becoming responsive without classifying Cyanis's Card;
+- older authority-seal material distinguishes a working magical seal from its visible impression;
+- related authority-seal practices may predate Yahtrea without proving lineage;
+- someone relatively recently researched an overlapping cluster of Card, seal, Westways, and Face material;
+- the identity, number, motive, and conclusions of that researcher/research team remain unknown;
+- the recent-reader trail points to the Hall of Seals;
+- the Westways recordbook map is not found here and is not part of the recent-reader lead.
+
+---
+
+## Beat 9
+
+**Atomic source:** `BEAT_09_HALL_OF_SEALS_RECENT_READER_DRAFT_A.md`  
+**Source SHA-256:** `50f597ee837639f3255a4863cf05c39a14932400bc7a5ff3df99f68bbbab354a`
+
+# Chapter 3 — Beat 9
+# Hall of Seals / Recent Reader Continuation
+## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
+
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+
+### [GAMEPLAY — HALL OF SEALS]
+
+The party follows the recent research trail into the Hall of Seals.
+
+The Hall is a physical historical collection: retired signets, seal matrices, preserved impressions, keeper ledgers, comparison fragments, and later Yahtrean cases fitted into much older Diysean recesses.
+
+### [AUTHORED STOP — WORKING SEAL]
+
+Nimera opens an old keeper ledger.
+
+**NIMERA:** Here. Working seal damaged during transfer. Impression still looked correct. Magical response weakened afterward.
+
+**CYANIS:** Then restored?
+
+**NIMERA:** Same physical seal body. Later keeper work restores the response.
+
+**ILYRA:** So the visible mark and the magical function were tracked separately.
+
+**NIMERA:** Yes. That's the useful part.
+
+**TORREN:** Method?
+
+**NIMERA:** Referenced somewhere else, because apparently dead archivists enjoyed leaving future scholars little fucking treasure hunts.
+
+**CYANIS:** Does that mean Lysara doesn't have to consciously put magic into every document?
+
+**NIMERA:** Probably. Historical model, not direct proof about her specific seal. Keep the qualifier attached or I will physically staple it to the sentence.
+
+**CYANIS:** I heard it.
+
+**NIMERA:** Good. You're trainable.
+
+She stops.
+
+**NIMERA:** No. Retire that. Somebody else already used it better.
+
+Torren looks at her.
+
+**TORREN:** You correct your jokes too?
+
+**NIMERA:** Especially the bad ones.
+
+### [OLDER PRECEDENT]
+
+The party moves through older comparison cases.
+
+Nimera checks one provenance plate twice.
+
+**TORREN:** Same kind of seal?
+
+**NIMERA:** Similar physical authority object. Diysean context. Administrative use, apparently. Not Yahtrean royalty, not proven ancestry, and not permission to shove missing centuries up history's ass because two things resemble each other.
+
+**ILYRA:** Broad practice predates Yahtrea.
+
+**NIMERA:** That I trust.
+
+**CYANIS:** Direct lineage?
+
+**NIMERA:** Not yet.
+
+### [RECENT READER]
+
+Torren notices several cases opened recently and a set of keeper references marked with matching fibers.
+
+**TORREN:** Same recent handling.
+
+Nimera checks the markers.
+
+**NIMERA:** Same cut. Same fold. Same habit of treating support straps like they insulted someone's mother.
+
+**ILYRA:** That last one evidence?
+
+**NIMERA:** Emotional evidence.
+
+Torren points deeper into the Hall.
+
+**TORREN:** Trail continues.
+
+Nimera follows the citations.
+
+**NIMERA:** Oldest seal references are down in the deep collections. Whoever did this was not browsing. They knew what they wanted.
+
+**CYANIS:** And we still don't know what that was.
+
+**NIMERA:** Correct. Same subjects does not mean same conclusion. I refuse to crawl up a stranger's ass and invent their theory for them.
+
+**TORREN:** Good policy.
+
+**NIMERA:** Stop agreeing with me. It's unsettling.
+
+### [HANDOFF]
+
+The marked route leaves the Hall for a much older archive descent.
+
+No command-route Warden appears here.
+
+New objective:
+
+**Descend into the Deep Archives.**
+
+Transition into:
+
+**Beat 10 — Deep Archives.**
 
 ## Beat-9 end state
 
-- historical material establishes precedent for dormant Cards later becoming responsive;
-- green-and-gold luminous Card behavior has limited historical precedent without classifying Cyanis's Card;
-- the Six Faces appear through later labels attached to older marks, preserving uncertainty about original meaning;
-- seal research distinguishes the physical working seal from the impression it leaves and points to older renewal / maintenance traditions;
-- related authority-seal practices predate Yahtrea, but direct lineage is not proven;
-- a recent research trail connects Cards, seal practice, and the Westways discovery site;
-- the identity and exact theory of the recent reader remain unknown;
-- the trail points to the Hall of Seals.
+- working seals and their visible impressions are historically distinct;
+- magical authority could persist in the physical seal and be maintained/restored;
+- comparable authority-seal practice predates Yahtrea without proving direct lineage;
+- the recent reader deliberately followed the oldest references deeper;
+- reader identity and seal mechanism remain unknown;
+- no Cresthaven, Warden, Last Sentinel, Prime/Might, or Ruby reveal occurs.
 
 ---
 
 ## Beat 10
 
-**Atomic source:** `BEAT_10_RECENT_READER_HALL_OF_SEALS_DRAFT_A.md`  
-**Source SHA-256:** `3b53d470eb6d04030dee958f3fed1efa52f7a73f8c47259353bf7ae579eea09d`
+**Atomic source:** `BEAT_10_DEEP_ARCHIVES_DRAFT_A.md`  
+**Source SHA-256:** `16c55acf860e500a9f947e85f491a1b93772d1500a4837aa9eaaae62ef86c26a`
 
 # Chapter 3 — Beat 10
-# The Recent Reader / Hall of Seals
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+# Deep Archives
+## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
 
-### [GAMEPLAY — FOLLOW THE CITATION]
+### [GAMEPLAY — DEEP ARCHIVES]
 
-Player control resumes from the Beat-9 table.
+The party descends beyond ordinary Crown archival use.
 
-The party follows the marked reference route into the Hall of Seals: retired signets, seal matrices, preserved impressions, keeper ledgers, comparison fragments, and later Yahtrean cases fitted into much older Diysean recesses.
+Modern lamps, braces, labels, and repairs become sparse. Ancient fitted stone, record frames, rotating shutters, old chains, rails, copying arms, and dormant sigils dominate.
 
-Keep the walk mostly silent.
+This is a substantial exploration stretch with ordinary encounters and optional side rooms.
 
-### [AUTHORED STOP — A WORKING SEAL]
+### [SHORT STOP — SIX MARKS]
 
-Nimera has an old keeper ledger open.
+The party reaches six old archive alcoves arranged around a circular floor.
 
-**CYANIS:** Find something?
+Each alcove bears one recurring mark.
 
-**NIMERA:** Unfortunately, yes.
+**TORREN:** Same six.
 
-She turns the ledger toward them.
+**NIMERA:** Yes.
 
-**NIMERA:** Working seal damaged during transfer. Impression still looked correct. Authority response weakened afterward. Later, same physical seal body retained and the response was restored through keeper work.
+She moves around the room rather than answering immediately.
 
-**CYANIS:** So the authority lived in the seal.
+**NIMERA:** Might. Elements. Grace. Memory. Perception. Ruin.
 
-**NIMERA:** Careful. Something persistent enough to weaken and restore lived in the seal. The keeper calls it authority, so I'm comfortable borrowing the word. I am not comfortable pretending we know the mechanism.
+**CYANIS:** Modern names?
 
-**TORREN:** Method missing?
+**NIMERA:** Later names for symbol families that survived into Card scholarship. Useful comparison, not permission to pretend every Diysean used our exact definitions.
 
-**NIMERA:** Referenced elsewhere. Which is somehow more irritating than missing outright.
+**ILYRA:** They're all treated the same here.
 
-Ilyra reads the note beside it.
+**NIMERA:** Structurally, yes. Which matters.
 
-**ILYRA:** But the mark and the magical response were tracked separately.
+She looks at the Ruin mark.
 
-Nimera points at her.
+**NIMERA:** And before somebody decides Ruin belongs in the evil fucking corner, it doesn't. Same weight, same placement, same workmanship.
 
-**NIMERA:** Yes. That's the useful part.
+**TORREN:** Nobody said evil.
 
-Cyanis looks at the ledger again.
+**NIMERA:** Preventive maintenance.
 
-**CYANIS:** Which means Lysara didn't necessarily have to personally do something to every order.
+**CYANIS:** On people again?
 
-**NIMERA:** Probably. Historical model, not a direct record of her seal. Qualifier stays attached.
+**NIMERA:** People are the highest-maintenance archive problem.
 
-**CYANIS:** I heard it.
+### [GAMEPLAY — TRANSFER GALLERIES]
 
-**NIMERA:** Good. Progress.
+The player continues through deeper record-transfer spaces.
 
-### [GAMEPLAY — OLDER COMPARISONS]
+The six marks recur on cases, shutters, study alcoves, and old archive routing craft.
 
-The player moves deeper through a bounded comparison section.
+Do not turn this into a total explanation of Diysean society.
 
-Older Diysean authority-seal objects and fragments are presented physically in cases and recesses. Their labels support resemblance, not proven lineage.
+### [SHORT STOP — OLD COPYING FLOOR]
 
-Torren stops at one.
+A broad copying gallery contains mechanical arms and record frames frozen in place.
 
-**TORREN:** Same kind of object?
+One detached scribing arm shifts when the party crosses.
 
-Nimera checks the provenance note.
+**ILYRA:** That moved.
 
-**NIMERA:** Strong resemblance. Diysean context. Apparently administrative authority. Not Yahtrean royalty, not proven ancestry, and not permission to shove three missing centuries up the family tree's ass because the shapes look friendly. That's not how family trees work. You know what I mean.
+**NIMERA:** I saw.
 
-**TORREN:** Wasn't planning to.
+**TORREN:** More behind it.
 
-**NIMERA:** Excellent. You're improving.
+**CYANIS:** Still archive equipment?
 
-**TORREN:** Regretting it already.
+Nimera watches the old mechanisms.
 
-Ilyra looks between the old fragment and the later Yahtrean material.
+**NIMERA:** Probably. Or archive equipment with the survival instincts of a cornered badger.
 
-**ILYRA:** So the idea predates Yahtrea.
+A second arm unfolds.
 
-**NIMERA:** The broad practice does. That's as far as I trust it.
+**NIMERA:** Badger was wrong. Too charming.
 
-### [THE WESTWAYS FOLIO]
+Ordinary combat/exploration resumes.
 
-A nearby comparison folio has been disturbed recently.
+### [LATE DEEP ARCHIVES]
 
-Torren notices first.
+After several rooms, the party reaches an unusually intact transfer chamber.
 
-**TORREN:** This was handled.
+A much larger recessed Scribe Engine occupies the far end behind closed inner shutters.
 
-Nimera checks the case and folio.
+Nimera stops.
 
-**NIMERA:** Recently. And badly. Support strap folded under itself. Fucking animal.
+**NIMERA:** That's not one arm.
 
-**CYANIS:** That's what offended you?
+**TORREN:** No.
 
-**NIMERA:** It can be both relevant and offensive.
+**ILYRA:** You sound disappointed.
 
-The folio concerns authority-mark fragments recovered from the Diysean ruins in the Westways.
+**NIMERA:** I'm deciding whether this is fascinating or a pain in the ass.
 
-Cyanis recognizes the site.
+The mechanism begins to wake.
 
-**CYANIS:** Same ruins.
+**CYANIS:** Decision made?
 
-Nimera looks at him.
+Nimera draws her Conduit.
 
-**NIMERA:** Certain?
+**NIMERA:** Both.
 
-**CYANIS:** Yes.
+### [HANDOFF]
 
-Torren checks the nearby material.
+Transition into:
 
-**TORREN:** Same recent use as the other table.
-
-Nimera follows the marker pattern.
-
-**NIMERA:** Same trail. That's all I'm willing to give it.
-
-**CYANIS:** I know.
-
-Nimera looks at him, almost pleased.
-
-**NIMERA:** Good.
-
-She finds the next citation.
-
-**NIMERA:** Whoever did this kept going inward.
-
-### [GAMEPLAY — OLDER RESTRICTED ANNEX]
-
-Player control resumes.
-
-The route leaves the library-like Hall and enters heavier, less adapted Diysean command architecture: fitted stone, old ward-lines, monumental authority marks, and fewer modern fixtures.
-
-No chase or identifying clue appears.
-
-### [BEAT END — COMMAND THRESHOLD]
-
-At the threshold of the older protected chambers, Torren studies the floor.
-
-**TORREN:** Recent passage continues through there.
-
-Cyanis looks farther inside.
-
-A large armored figure stands dormant in an alcove.
-
-**CYANIS:** Decorative?
-
-**NIMERA:** I currently have `large`, `armored`, and `not moving`. That's the complete responsible answer.
-
-**ILYRA:** Very decorative, then.
-
-**NIMERA:** If optimism wakes the fucking thing, I'm blaming both of you.
-
-Torren watches the figure.
-
-**TORREN:** Didn't move.
-
-**NIMERA:** Excellent. Hypothesis remains untested.
-
-Do not activate it yet.
-
-### [GAMEPLAY HANDOFF]
-
-Transition directly into:
-
-**Beat 11 — First Command Warden.**
+**Beat 11 — Archive Scribe Engine.**
 
 ## Beat-10 end state
 
-- historical keeper records show that magical authority and visible seal impression were treated as distinct;
-- working royal seals could retain a persistent authority state in the physical object between uses;
-- keeper renewal / maintenance practice existed, but the method remains missing;
-- comparable authority-seal practice existed in Diysean contexts before Yahtrea;
-- the Westways ruins were already part of older authority-seal scholarship;
-- the recent research trail continues inward;
-- the reader's identity and the Queen-seal mechanism remain unknown;
-- the party reaches the dormant First Command Warden threshold without activating it.
+- the party has completed a major four-person Deep Archives exploration stretch;
+- the six current Faces appear as a recurring Diysean organizational framework:
+  - Might
+  - Elements
+  - Grace
+  - Memory
+  - Perception
+  - Ruin
+- Ruin is presented as one legitimate category among six;
+- the party does not assign Cyanis's Card to a Face;
+- deeper spaces are older, less catalogued, and more dangerous;
+- the party reaches the major Scribe Engine guarding the oldest accessible inner collections.
 
 ---
 
 ## Beat 11
 
-**Atomic source:** `BEAT_11_FIRST_COMMAND_WARDEN_DRAFT_A.md`  
-**Source SHA-256:** `54e77f2d0ddef3eb0bb30c31771341084417b2abc47619aff426e0d93022b034`
+**Atomic source:** `BEAT_11_ARCHIVE_SCRIBE_ENGINE_DRAFT_A.md`  
+**Source SHA-256:** `cc2d0c139e08aae0e652474bd98cec75574e9d0a9d5e56ab4e761f84bf6e0225`
 
 # Chapter 3 — Beat 11
-# First Command Warden
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+# Archive Scribe Engine
+## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
 
-### [GAMEPLAY — COMMAND APPROACH]
+### [STORY TRIGGER — INNER TRANSFER CHAMBER]
 
-The party enters the older protected command chambers.
+The large Archive Scribe Engine wakes as the party enters the intact transfer chamber.
 
-The recent-reader trail becomes unreliable here.
+Articulated copying arms unfold. Heavy shutters turn. Engraved channels brighten through the floor.
 
-A large dormant Diysean Warden stands before an inner sealed way.
+**TORREN:** Left assembly moves first.
 
-### [STORY TRIGGER — FIRST COMMAND CHAMBER]
+**NIMERA:** Scribe system. Large one. Or a deeply unpleasant cousin.
 
-The party crosses the threshold.
+One arm strikes hard enough to split an old stone worktable.
 
-A heavy catch releases inside the construct.
+**ILYRA:** Cousin wins.
 
-**TORREN:** Moving.
+Cyanis shifts forward.
 
-The Warden steps forward.
+**CYANIS:** Positions.
 
-**NIMERA:** Nobody make me regret following you in here.
+Nimera already has her Conduit ready.
 
-**CYANIS:** Mostly me?
+**NIMERA:** If this thing ruins three centuries of records while trying to murder us, I'm going to be personally offended.
 
-**NIMERA:** Obviously.
+**TORREN:** Think it cares?
 
-### [THE ASSESSMENT]
+**NIMERA:** No. That's why the offense is pure.
 
-Seal-lines brighten across the Warden. Matching ward-rings answer through the chamber.
+### [BOSS BATTLE — ARCHIVE SCRIBE ENGINE]
 
-A band of old magical light passes deliberately across **all four party members**, assessing each position in turn.
-
-**CYANIS:** Nobody touch anything.
-
-**NIMERA:** Happily.
-
-The light shifts across the group.
-
-**NIMERA:** It's changing as it crosses us.
-
-**ILYRA:** Which isn't necessarily the same as checking us individually.
-
-Nimera glances at her.
-
-**NIMERA:** Correct. Keep that distinction.
-
-The final ward-ring fills.
-
-A beat.
-
-The Warden's seal pattern hardens.
-
-Its weapon comes up.
-
-**TORREN:** There it is.
-
-The Warden attacks.
-
-### [BOSS BATTLE — FIRST COMMAND WARDEN]
-
-**Active battle party:**
+Active party:
 - Cyanis
 - Ilyra
 - Torren
 - Nimera
 
-The First Command Warden is a one-HP-bar major Ancient authority confrontation.
+This is the major story boss of the Caelora Archives dungeon.
 
-No Prime manifestation occurs. The Card does not pacify, command, or weaken the Warden.
+The Engine is procedural Ancient archive/security machinery, not a speaking villain.
+
+No First Command Warden appears here.
+
+No Card classification, Last Sentinel message, Ruby stabilization, or Prime event occurs.
 
 Combat proceeds under encounter authority.
 
 ### [VICTORY]
 
+The Engine locks halfway through a final copying stroke.
+
+A long metal arm hangs over the transfer floor.
+
+**CYANIS:** Everybody standing?
+
+**ILYRA:** Against my better judgment.
+
+Torren watches the mechanism settle.
+
+**TORREN:** Done.
+
+Nimera is staring at the half-finished stroke.
+
+**NIMERA:** Maybe.
+
+**TORREN:** You just agreed it was done.
+
+**NIMERA:** Done trying to kill us. Different fucking category.
+
+She approaches only after the mechanism is fully still.
+
+**NIMERA:** It was enforcing something. Or continuing something. Fuck, those are not the same claim.
+
+**CYANIS:** What do we know?
+
+**NIMERA:** We entered. It woke. It treated us as a problem. Breaking the active assemblies stopped it. Anything beyond that is me trying to make the corpse confess.
+
+Ilyra looks toward the inner shutters.
+
+They begin releasing now that the Engine is inert.
+
+**ILYRA:** That seems useful.
+
+**NIMERA:** Very.
+
+**TORREN:** Door opened because the Engine stopped.
+
+**NIMERA:** Good. Keep it boring. Boring causation is underrated.
+
+Cyanis looks through the widening gap.
+
+**CYANIS:** More records.
+
+Nimera smiles.
+
+**NIMERA:** Now we're talking.
+
+### [HANDOFF]
+
+The inner shutters open onto the protected Inner Collections.
+
+Transition into:
+
+**Beat 12 — Inner Collections / Westways Recordbook / Sealwright Chamber.**
+
+## Beat-11 end state
+
+- Archive Scribe Engine is defeated as the major Caelora Archives boss;
+- the Engine is procedural machinery, not a lore-speaking villain;
+- no Warden/Last Sentinel/Ruby event occurs;
+- defeating the Engine opens access to the protected Inner Collections;
+- the permanent four proceed deeper together.
+
+---
+
+## Beat 12
+
+**Atomic source:** `BEAT_12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DRAFT_A.md`  
+**Source SHA-256:** `01b967ef326d817e860d7869b4c902b6cf46e5c098f930dff9555aad6fa3d878`
+
+# Chapter 3 — Beat 12
+# Inner Collections / Westways Recordbook / Sealwright Chamber
+## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
+
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+
+### [GAMEPLAY — INNER COLLECTIONS]
+
+The party enters the oldest accessible protected collections after defeating the Scribe Engine.
+
+The rooms are quieter and better sealed, but not magically pristine. Some materials survived because these chambers were simply used less by later Yahtrean administrations.
+
+### [AUTHORED STOP — THE WESTWAYS RECORDBOOK]
+
+Nimera pulls an old Yahtrean regional volume from a deep shelf.
+
+Its binding is worn, repaired twice, and utterly ordinary.
+
+**NIMERA:** Westways road and settlement records. Old.
+
+**TORREN:** How old?
+
+She checks the hands, paper, binding repairs, and catalog note.
+
+**NIMERA:** Roughly five centuries. Give me room on the exact decade unless you want me to start inventing confidence.
+
+She turns several pages.
+
+Then stops.
+
+**NIMERA:** Oh, fuck me.
+
+Cyanis steps closer.
+
+**CYANIS:** Good or bad?
+
+**NIMERA:** Interesting. Which continues to be neither.
+
+A folded copied map occupies two facing pages.
+
+Torren leans over it.
+
+**TORREN:** Those routes.
+
+Cyanis sees it too.
+
+**CYANIS:** Wayfinder.
+
+Nimera does not answer immediately.
+
+She studies the page, the surrounding notes, and the hand.
+
+**NIMERA:** Copy of one. Or copy of a copy derived from one. The recordkeeper says older road source and then uses the same symbol relationships we've already seen. I am comfortable saying Wayfinder-derived. I am not comfortable pretending this person had the original artifact in front of them.
+
+**ILYRA:** And this is Yahtrean.
+
+**NIMERA:** Yes. About five hundred years old. The source being copied is much older.
+
+Torren traces the regional limits without touching the page.
+
+**TORREN:** Westways here. Central Yahtrea here.
+
+**NIMERA:** That's all they copied.
+
+### [THE COMPLETE CAELORA CLUSTER]
+
+They spread the facing pages fully.
+
+The map shows the Ancient Caelora area intact rather than broken through the center like the physical Chapter-1 Wayfinder.
+
+Nobody treats the existence of an Ancient capital here as new information.
+
+**CYANIS:** That's the part our Wayfinder lost.
+
+**NIMERA:** Rougher hand, fewer fine markings, but yes. The copied center survived.
+
+Torren studies the density.
+
+**TORREN:** Bigger than what we could reconstruct.
+
+**ILYRA:** Much bigger.
+
+**NIMERA:** Denser, too. Roads, built structures, major crossings. And whoever copied this simplified the hell out of the smaller marks.
+
+She points without touching.
+
+**NIMERA:** Which is useful and infuriating. Like being handed a portrait where somebody carefully preserved the face and decided bones were optional.
+
+### [THE NORTHERN TOWER]
+
+Torren follows the broadest routes north.
+
+Several converge on a huge depicted structure north of the Caelora cluster.
+
+**TORREN:** There.
+
+**CYANIS:** Tower?
+
+**NIMERA:** Looks like one. Very large relative to everything else on the page.
+
+**ILYRA:** And the routes meet there.
+
+**TORREN:** Biggest ones do.
+
+He continues following them.
+
+**TORREN:** They keep going north.
+
+The copied map ends.
+
+**CYANIS:** To where?
+
+**TORREN:** Off the page.
+
+**NIMERA:** Important distinction. The route does not end. The copy does.
+
+She checks the surrounding record.
+
+**NIMERA:** This book is about the Westways. The copyist stopped where their subject stopped. That tells us absolutely fuck-all about the route's final destination.
+
+**ILYRA:** Apart from north.
+
+**NIMERA:** North we can keep.
+
+### [GAMEPLAY — INNER COLLECTIONS CONTINUE]
+
+The party copies the usable regional information carefully.
+
+No one identifies the tower as Cresthaven yet.
+
+No Ivorybridge label appears.
+
+The recent-reader trail is not what led them to this book.
+
+### [SEALWRIGHT CHAMBER]
+
+A later inner room is an Ancient physical magical Sealwright workshop.
+
+Stone worktables, fitted dies, matrices, engraving frames, seal rests, inlay channels, blanks, impressions, test media, and magical scorching remain among more recent practice work.
+
+Nimera examines the progression.
+
+**NIMERA:** Ancient seals first.
+
+She moves to the next set.
+
+**NIMERA:** Older Yahtrean forms.
+
+Another table.
+
+**NIMERA:** Royal-document copies.
+
+Then the latest attempts.
+
+Repeated Crest of Yahtrea impressions.
+
+**CYANIS:** That's Lysara's seal.
+
+**NIMERA:** The visible Crest, yes.
+
+She looks at the scorched binding channels.
+
+**NIMERA:** And somebody threw serious magic at these.
+
+**TORREN:** Worked?
+
+Nimera studies one attempt, then another.
+
+**NIMERA:** Not proven.
+
+**TORREN:** Looks close.
+
+**NIMERA:** Visually, very. Magical residue, yes. Genuine royal authority response? We do not have that.
+
+She turns to Cyanis.
+
+**NIMERA:** Copying the shape and copying the working authority are not the same fucking achievement.
+
+**ILYRA:** Could this be whoever researched the Hall?
+
+**NIMERA:** Could be. Could also be somebody following the same material later. I want them connected because that makes the story neat, which is exactly why I don't trust the urge.
+
+**CYANIS:** And nothing here tells us how the Queen's response ended up on the orders.
+
+**NIMERA:** Correct. We have evidence somebody practiced. We do not have success, identity, or mechanism.
+
+A beat.
+
+**NIMERA:** Which is a deeply irritating amount of progress.
+
+### [EXIT]
+
+Cyanis looks back toward the copied Westways map notes they made.
+
+**CYANIS:** One lead goes somewhere.
+
+**TORREN:** Tower north of Caelora.
+
+**NIMERA:** Geographic lead, yes. Seal lead is stuck until Mirena can compare this with Crown records.
+
+**ILYRA:** Then we go upstairs.
+
+Nimera closes the final case.
+
+**NIMERA:** Before this place gives us another murderous filing cabinet.
+
+### [TRANSITION]
+
+The Old City field section ends.
+
+No playable return traversal is required.
+
+Cut directly upstairs in Caelora to:
+
+**Beat 13 — Return to Mirena / Cresthaven Identified.**
+
+## Beat-12 end state
+
+- the party finds an approximately 500-year-old Yahtrean Westways recordbook;
+- it contains a less precise but intact regional hand-copy derived from Ancient Diysean Wayfinder information;
+- coverage is Westways + central Yahtrea only;
+- the copy shows the complete Ancient Caelora cluster;
+- the copy shows a huge tower north of the city;
+- several major routes converge there and continue north until the copied map ends;
+- the map does not show where those routes lead;
+- the existence of an Ancient capital at Caelora is not treated as new;
+- the Sealwright Chamber separately shows repeated seal-copying practice and powerful magic;
+- no successful reproduction of Lysara's true royal magical authority is proven;
+- recent reader and seal practitioner remain unidentified;
+- seal evidence dead-ends in Caelora for now;
+- no Cresthaven identification or Ivorybridge reveal occurs before Beat 13.
+
+---
+
+## Beat 13
+
+**Atomic source:** `BEAT_13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DRAFT_A.md`  
+**Source SHA-256:** `e8a8536158e6966df76f97a011bee1da596c3ff62ba85fc3be0c5446f5a58109`
+
+# Chapter 3 — Beat 13
+# Return to Mirena / Cresthaven Identified
+## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
+
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+
+### [DIRECT CUT — PRIVATE ROOM, CAELORA]
+
+The Old City field section ends.
+
+The party is now back upstairs in a private palace workroom with:
+- Mirena
+- Maevra
+- Cyanis
+- Ilyra
+- Torren
+- Nimera
+
+Queen Lysara is not present.
+
+Crown-side records are already spread across the table.
+
+Mirena looks up when they enter.
+
+**MIRENA:** You all look like the archive tried to keep you.
+
+**ILYRA:** It made an argument.
+
+**NIMERA:** Several. Most were badly sourced and one tried to kill us.
+
+Mirena's eyes move to her.
+
+**MIRENA:** Nimera Pellan.
+
+**NIMERA:** Unfortunately.
+
+Maevra almost smiles.
+
+### [SEAL FINDINGS]
+
+Mirena gestures to the table.
+
+**MIRENA:** Give me the part that changes what we do.
+
+Cyanis looks to Nimera.
+
+**NIMERA:** Recent research trail through Card records and seal history. Then a Sealwright chamber with practice work: Ancient forms, older Yahtrean forms, royal-document copies, then repeated attempts at the Crest of Yahtrea.
+
+Mirena's expression sharpens.
+
+**MIRENA:** Attempts to copy it visually, or attempts to make it function?
+
+**NIMERA:** Both, probably. Visually, definitely. Later work had enough magic pushed through it to scorch the receiving rings.
+
+**MIRENA:** Did any copy answer like the Queen's actual seal?
+
+**NIMERA:** Nothing we found proves that.
+
+**MIRENA:** Good.
+
+Nimera blinks.
+
+**NIMERA:** That's the correct response and I resent how rare it is.
+
+**MIRENA:** I can give you a worse one if it helps.
+
+**NIMERA:** No, I'm adapting.
+
+Maevra taps one custody sheet.
+
+**MAEVRA:** We found no clean theft window here. No provable break in recorded custody.
+
+**TORREN:** Record stays the weak word.
+
+**MAEVRA:** Exactly.
+
+**NIMERA:** Oh, good. Everybody's learning to distrust nouns.
+
+**ILYRA:** Long day?
+
+**NIMERA:** Excellent day. Shit evidence.
+
+### [THE WESTWAYS RECORDBOOK]
+
+Cyanis sets down the careful copy made from the old Westways recordbook.
+
+**CYANIS:** This is the part that actually gives us somewhere to go.
+
+Mirena unfolds it.
+
+**MIRENA:** What am I looking at?
+
+**TORREN:** Later copy of an older route map. Westways and central Yahtrea only.
+
+**NIMERA:** Roughly five-hundred-year-old Yahtrean recordbook. The map inside is Wayfinder-derived. Less precise than the actual artifact, but the copied region survived intact.
+
+Mirena studies the dense central cluster.
+
+**MIRENA:** Caelora.
+
+**NIMERA:** The Ancient capital area, yes. We already knew the capital was here. What we did not have from the broken Wayfinder was the intact center at this scale.
+
+**TORREN:** Bigger and denser than we could reconstruct.
+
+Mirena follows the major routes outward.
+
+Then north.
+
+She stops at the enormous tower.
+
+**MIRENA:** What is that?
+
+**TORREN:** Large tower. Best we can say.
+
+**NIMERA:** Several of the biggest routes converge on it.
+
+**ILYRA:** And keep going.
+
+Mirena follows the lines to the top edge.
+
+**MIRENA:** The map ends.
+
+**TORREN:** Copy ends. Routes don't.
+
+**NIMERA:** Important distinction. This book only copied the region its author cared about. The northern destination is still anybody's fucking guess.
+
+### [CRESTHAVEN]
+
+Mirena pulls a current Crown map closer.
+
+She compares the tower's relation to Caelora, the old route angles, and modern geography.
+
+She checks it twice.
+
+**MIRENA:** That's Cresthaven.
+
+Cyanis looks at her.
+
+**CYANIS:** The abandoned fort?
+
+**MIRENA:** The location, yes. Not the fort itself. If this placement is even broadly right, that tower stood where Cresthaven stands now.
+
+Torren leans over both maps.
+
+**TORREN:** Fits.
+
+**MIRENA:** How well?
+
+**TORREN:** Well enough to go look. Not well enough to tell you what we'll find.
+
+**MIRENA:** That's all I need.
+
+Nimera looks at the old tower symbol.
+
+**NIMERA:** We do not know its Ancient name, function, or why the largest routes converged there.
+
+**MIRENA:** I know.
+
+**NIMERA:** I was making sure nobody's excitement fucked the uncertainty out of the room.
+
+Mirena smiles slightly.
+
+**MIRENA:** You may be useful.
+
+**NIMERA:** Dangerous thing to say to me.
+
+### [NEXT MOVE]
+
+Mirena folds the modern map but leaves the copied Wayfinder map open.
+
+**MIRENA:** The seal problem stays here for now. We have evidence, not a culprit and not a mechanism.
+
+She taps Cresthaven.
+
+**MIRENA:** This is different. We can inspect a place.
+
+**CYANIS:** Tomorrow?
+
+**MIRENA:** After everyone sleeps.
+
+Cyanis starts to answer.
+
+**MIRENA:** That was not a request for a heroic counterproposal.
+
+Ilyra looks at Cyanis.
+
+**ILYRA:** I was going to enjoy watching him try.
+
+**CYANIS:** Betrayal everywhere.
+
+**MAEVRA:** You'll survive.
+
+Mirena looks to Maevra.
+
+**MIRENA:** We meet them there in the morning. Small work team. Enough to open the fort safely, not enough to turn it into a parade.
+
+**MAEVRA:** I'll arrange it.
+
+Nimera gathers her copied notes.
+
+**NIMERA:** Good. I need sleep before I become convinced that map is personally withholding information.
+
+**TORREN:** It is.
+
+**NIMERA:** Don't encourage me.
+
+### [TRANSITION]
+
+Rest occurs offscreen.
+
+There is no standalone overnight-rest beat.
+
+Cut forward to the next morning at Cresthaven.
+
+Transition into:
+
+**Beat 14 — Cresthaven / Ancient Tower Base / First Command Warden.**
+
+## Beat-13 end state
+
+- Mirena and Maevra receive the field findings;
+- the seal investigation remains unresolved in Caelora;
+- the approximately 500-year-old Yahtrean Westways recordbook copy becomes the geographic lead;
+- nobody treats the existence of the Ancient capital at Caelora as a new discovery;
+- Mirena identifies the huge tower's modern location as Cresthaven;
+- no one knows the tower's original name, full function, or the destination of the routes continuing north;
+- no Warden, Last Sentinel, Prime/Might, or Ruby event has occurred yet;
+- everyone rests offscreen and meets at Cresthaven the next morning.
+
+---
+
+## Beat 14
+
+**Atomic source:** `BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md`  
+**Source SHA-256:** `22b8f87abea27826235f88d34c481f692f4c6d2732877b1fbd9428647c1fa0bb`
+
+# Chapter 3 — Beat 14
+# Cresthaven / Ancient Tower Base / First Command Warden
+## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
+
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+
+### [NEXT MORNING — NORMAL CRESTHAVEN]
+
+The story opens at the abandoned forest fort.
+
+Mirena and Maevra are already present with a small Crown work/support group.
+
+The fort is being opened cautiously rather than fully restored.
+
+**MIRENA:** You found it.
+
+**TORREN:** Hard to miss once you're looking for it.
+
+Nimera looks around the visible fort.
+
+**NIMERA:** This is not the tower.
+
+**MIRENA:** Good morning to you too.
+
+**NIMERA:** The tower on the copy was enormous. This fort is aggressively ordinary.
+
+**MAEVRA:** Which is why we're looking before we decide the map was wrong.
+
+Cyanis studies the older masonry under one wall.
+
+**CYANIS:** Some of this isn't Crown work.
+
+Torren crouches by the foundation line.
+
+**TORREN:** No. Fort's sitting on something bigger.
+
+Nimera joins him, looking at the fitted stone under later mortar.
+
+**NIMERA:** Much bigger.
+
+### [GAMEPLAY — ABANDONED FORT EXPLORATION]
+
+Player control begins in normal Cresthaven.
+
+The active combat party is:
+- Cyanis
+- Ilyra
+- Torren
+- Nimera
+
+Mirena and Maevra remain aboveground with the work group and do not enter combat.
+
+The party inspects several fort sections and compares the site against the copied Wayfinder map.
+
+### [FOUNDATION ACCESS]
+
+Torren stops at a partially collapsed storage room where later flooring has broken away.
+
+**TORREN:** Here.
+
+Below the Crown floor is a much older stair and fitted wall.
+
+**ILYRA:** That's not subtle.
+
+**NIMERA:** It was subtle while a floor was sitting on it.
+
+Cyanis looks down the stair.
+
+**CYANIS:** Mirena.
+
+Mirena and Maevra come over.
+
+Mirena looks at the revealed construction.
+
+**MIRENA:** How far?
+
+**TORREN:** Don't know yet.
+
+**MAEVRA:** Then the four of you check it. We keep the fort clear up here.
+
+Nimera looks at Maevra.
+
+**NIMERA:** Sensible command decision. Disturbing trend today.
+
+Maevra raises an eyebrow.
+
+**MAEVRA:** You'll recover.
+
+### [SHORT ANCIENT DUNGEON — TOWER FOUNDATION]
+
+The permanent four descend.
+
+The foundation is massive, old, damaged, and clearly larger than the Crown fort above.
+
+Roots cut through fractures. Later repairs sit awkwardly against Ancient fitted stone.
+
+### [SHORT STOP — SCALE]
+
+They reach a chamber where the outer foundation curve continues beyond the visible modern fort footprint.
+
+**TORREN:** There.
+
+**CYANIS:** The tower was this wide?
+
+**TORREN:** Foundation was.
+
+**NIMERA:** Which is enough to stop calling the copy exaggerated.
+
+**ILYRA:** Any idea what the tower did?
+
+Nimera looks around.
+
+**NIMERA:** No. Big is not a function. Important-looking is not a function either, before anybody tries that shit.
+
+**CYANIS:** I hadn't.
+
+**NIMERA:** Preventive maintenance.
+
+### [COMMAND INTERIOR]
+
+The next compact section is more intact and command-oriented: authority markings, reinforced internal doors, old station spaces, and mechanisms built for directed movement rather than ordinary record storage.
+
+No new route map appears.
+
+No Ivorybridge marker appears.
+
+### [WARDEN CHAMBER]
+
+The party enters the deepest surviving room.
+
+A large Diysean construct stands dormant.
+
+Torren stops.
+
+**TORREN:** That one's intact.
+
+**NIMERA:** Large, armed, not moving. I am not upgrading that to safe.
+
+Cyanis steps into the chamber.
+
+The First Command Warden activates.
+
+### [THE ASSESSMENT]
+
+Ancient ward-rings ignite through the chamber.
+
+A band of magical light passes across all four party members.
+
+**CYANIS:** Hold.
+
+Nobody touches anything.
+
+The assessment changes as it crosses the group.
+
+**NIMERA:** It's responding to us.
+
+**ILYRA:** To us individually?
+
+**NIMERA:** Don't know yet.
+
+The last ring fills.
+
+The Warden's posture hardens.
+
+Its weapon rises.
+
+**TORREN:** Answer's no.
+
+**NIMERA:** Apparently we're unacceptable. Rude.
+
+The Warden attacks.
+
+### [BOSS BATTLE — FIRST COMMAND WARDEN]
+
+Active party:
+- Cyanis
+- Ilyra
+- Torren
+- Nimera
+
+Current story intent: one HP bar unless battle authority revises it.
+
+The Card does not pacify, command, weaken, or unlock the Warden.
+
+No Prime event occurs.
+
+### [VICTORY / SHUTDOWN]
+
 The defeated Warden drops into a failing kneel.
 
-Most of its light dies, but a small amount still moves through its engraved plates.
+Most of its light dies.
 
-Cyanis starts to lower his guard.
+Nimera raises a hand.
 
 **NIMERA:** Wait.
-
-He stops.
 
 Ancient characters ignite across the Warden:
 
 > **PREVIOUS ERROR**
 
-Nobody speaks.
+Nobody interprets it.
 
-The first message fades.
+The message fades.
 
 A second forms:
 
 > **LAST SENTINEL CONFIRMED**
 
 The final character completes.
+
 Every remaining light in the Warden goes out.
+
+The construct becomes fully inert.
 
 Silence.
 
-**TORREN:** Dead.
+**TORREN:** Done.
 
 **NIMERA:** Yes.
 
-Another beat.
+She looks at the dead construct.
 
-**NIMERA:** Previous fuck-up. Then last sentinel confirmed. In that order.
+**NIMERA:** Previous error. Then Last Sentinel confirmed. Exact order.
 
-**CYANIS:** You memorized it already.
+**CYANIS:** Meaning?
 
-**NIMERA:** Saying it keeps my brain from sanding the fuck-up smooth later.
+**NIMERA:** Not a fucking clue.
 
-Nobody interprets `Last Sentinel`.
+### [ONLY AFTER THE WARDEN IS INERT — THE CARD]
 
-### [ONLY NOW — THE CARD]
+Cyanis's Card responds.
 
-Only after the Warden is fully inert does Cyanis's Card respond.
+The unstable green-and-gold geometry contracts inward and reorganizes.
 
-Its unstable green-and-gold geometry contracts inward and reorganizes.
+**CYANIS:** Shit.
 
-**CYANIS:** Oh, shit.
-
-Nimera watches without approaching.
+Nimera watches but does not touch it.
 
 **NIMERA:** Let it finish.
 
-The pattern resolves into a stable **deep Ruby**.
+The pattern settles into stable deep Ruby.
 
-The motion stops.
-
-The Ruby remains.
-
-Silence.
+Then stops.
 
 **CYANIS:** It's staying.
 
-Nimera watches another moment.
+**ILYRA:** Same feeling as Brackenwall?
 
-**NIMERA:** Stable so far.
-
-Ilyra looks at Cyanis.
-
-**ILYRA:** Same as Brackenwall?
-
-**CYANIS:** No. No cold, no shaking. I feel normal.
-
-**ILYRA:** Good.
-
-Torren looks from the inert Warden to the Card.
+**CYANIS:** No. I feel normal.
 
 **TORREN:** Timing's ugly.
 
-**NIMERA:** Very.
+**NIMERA:** Very. The Card changed after the Warden's final message and shutdown. That's the fact. If we marry timing to causation now, I will annul the fucking marriage myself.
 
-**CYANIS:** Connected?
+Cyanis looks at the inert construct.
 
-Nimera takes a second.
+**CYANIS:** No new ability. No voice. Nothing else.
 
-**NIMERA:** The Card changed immediately after the Warden finished shutting down. That's what I know. The timing wants to climb into bed with causation. It does not get to. Fucking timing.
+**NIMERA:** Good. Boring details stay valuable.
 
-**CYANIS:** A maybe with standards.
+### [DUNGEON END]
 
-Nimera looks at him.
+There is no second map, routing room, hidden northern chart, or Ivorybridge reveal.
 
-**NIMERA:** You're learning.
+The surviving tower base ends here.
 
-### [THE INNER WAY]
-
-With the Warden inert, the chamber's ward-lines fade and the inner closure releases on its own mechanism.
-
-The Card never touches it.
-
-**TORREN:** Door's giving.
-
-**NIMERA:** Without the Card.
-
-**CYANIS:** Noted.
-
-**NIMERA:** Good. `Card changed` and `door opened` are two events until we prove otherwise. They do not get to fuck just because they're adjacent.
-
-The slabs part enough to reveal an Ancient seal-working chamber beyond.
-
-Cyanis looks inside.
-
-**CYANIS:** Seal work.
-
-Nimera starts to answer, catches herself.
-
-**NIMERA:** Looks like it. Later.
-
-Ilyra raises an eyebrow.
-
-**ILYRA:** That hurt, didn't it?
-
-**NIMERA:** Deeply.
-
-### [GAMEPLAY HANDOFF]
-
-Player control returns at the newly opened chamber threshold.
-
-Transition directly into:
-
-**Beat 12 — Sealwright Chamber / The Copying Attempts.**
-
-## Beat-11 end state
-
-- the First Command Warden visibly assesses the entire four-person party before attacking;
-- the party defeats it;
-- its final communications are exactly, in order:
-  - **PREVIOUS ERROR**
-  - **LAST SENTINEL CONFIRMED**
-- the Warden becomes fully inert before the Card changes;
-- only afterward, Cyanis's Card stabilizes from green-and-gold into persistent **deep Ruby**;
-- no causal mechanism is proven;
-- no Prime manifestation, awakening, summon, or gameplay ability occurs;
-- the Card is not used as a key;
-- the Warden's shutdown releases the inner way;
-- the recent reader remains unidentified.
-
----
-
-## Beat 12
-
-**Atomic source:** `BEAT_12_SEALWRIGHT_CHAMBER_COPYING_ATTEMPTS_DRAFT_A.md`  
-**Source SHA-256:** `88dcb01a563f9c17871f4f87e2bbf269173c626076e7997ac093d7082a66e5d9`
-
-# Chapter 3 — Beat 12
-# Sealwright Chamber / The Copying Attempts
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
-
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
-
-### [GAMEPLAY — ENTER THE SEALWRIGHT CHAMBER]
-
-The First Command Warden remains inert behind the party.
-
-Cyanis's Card remains stable **deep Ruby**.
-
-The inner room is an Ancient sealwright workshop: stone benches, fitted dies, engraving frames, seal rests, binding circles, clamps, blanks, and magical residue worked into the surfaces.
-
-Some of the material is much newer than the room.
-
-### [AUTHORED STOP — THIS WAS USED]
-
-Torren notices a clean scrape through old residue.
-
-**TORREN:** This is recent.
-
-Nimera follows the mark, then the discarded practice pieces nearby.
-
-**NIMERA:** So are those. And those.
-
-She looks down the bench.
-
-**NIMERA:** There's a progression.
-
-**CYANIS:** Somebody practiced here.
-
-**NIMERA:** Repeatedly. Early cuts wander. Later ones hold the line. Whoever did this got fucking better in the room.
-
-Ilyra looks over the quantity.
-
-**ILYRA:** Which means time.
-
-**NIMERA:** Time, access, patience, supplies. Maybe instruction. That last one stays maybe.
-
-### [GAMEPLAY — FOLLOW THE WORK]
-
-Player control resumes.
-
-The room itself shows the progression:
-- copied Ancient seal forms;
-- older Yahtrean examples;
-- seals taken from royal-document references;
-- repeated attempts at the **Crest of Yahtrea**.
-
-No map, route relief, or geography clue appears here.
-
-### [AUTHORED STOP — THE CREST]
-
-Cyanis stops at the final workbench.
-
-**CYANIS:** That's ours.
-
-Nimera looks at him.
-
-**NIMERA:** Certain?
-
-**CYANIS:** Yes.
-
-Several attempts at the Crest of Yahtrea sit together. Early versions are imperfect. Later versions are extremely close.
-
-**ILYRA:** How close?
-
-Cyanis studies one.
-
-**CYANIS:** That could pass visually.
-
-**NIMERA:** Visually. Important word.
-
-She points to the scorched receiving rings around several attempts.
-
-**TORREN:** They kept pushing it.
-
-Nimera studies the damage.
-
-**NIMERA:** Hard enough to scorch a room built for this. Repeatedly.
-
-**ILYRA:** Did it ever work?
-
-Nimera takes her time.
-
-**NIMERA:** I can prove they reproduced the mark. I can prove they tried to make it do more than look correct. I can prove repeated magical load.
-
-She looks at the cleanest copy.
-
-**NIMERA:** I cannot prove they produced the Queen's authority response.
-
-Cyanis keeps looking at it.
-
-**CYANIS:** Could they have?
-
-**NIMERA:** I can't rule the bastard out.
-
-A beat.
-
-**NIMERA:** That is not the same sentence as `they did`.
-
-**TORREN:** Understood.
-
-**NIMERA:** Good.
-
-### [THE WORKING TRAIL]
-
-Torren follows the benches from oldest attempts to newest.
-
-**TORREN:** Same work keeps getting narrower.
-
-Nimera looks over the sequence.
-
-**NIMERA:** Ancient forms first. Then older Yahtrean. Then royal examples. Then the current Crest.
-
-**CYANIS:** A target getting more specific.
-
-**NIMERA:** Yes.
-
-Torren glances back toward the Hall.
-
-**TORREN:** Same person as the research trail?
-
-Nimera considers it.
-
-**NIMERA:** Could be. Same interests, compatible timing, same access problem. I'd still be stapling two unknowns together and calling the bleeding pile a fucking theory. No, too dramatic. Still bad method.
-
-**TORREN:** Fair.
-
-### [THE RUBY CARD HOLDS]
-
-Cyanis checks the Card.
-
-**NIMERA:** Still Ruby?
-
-**CYANIS:** Still Ruby.
-
-**NIMERA:** Good. Nothing here gives me a reason to change what you're doing with it.
-
-**CYANIS:** No qualifier?
-
-Nimera looks at him.
-
-**NIMERA:** That was the qualifier.
-
-Cyanis smiles.
-
-### [DECISION — RETURN UPSTAIRS]
-
-The room has given them enough evidence to change the Crown investigation without resolving it.
-
-Nimera identifies what can be copied and recorded without disturbing the originals.
-
-**CYANIS:** Mirena needs this.
-
-**NIMERA:** Notes, measurements, residue, progression order. Originals stay here.
-
-**CYANIS:** Obviously.
-
-**NIMERA:** I have known you for several hours. `Obviously` has not earned fucking tenure yet.
-
-Ilyra looks toward the exit.
-
-**ILYRA:** Windows would be nice.
-
-**TORREN:** Strong research conclusion.
-
-**ILYRA:** Peer reviewed.
-
-Nimera takes one final look at the cleanest Crest attempt.
-
-**NIMERA:** Fine. Upstairs.
-
-### [PLAYER EXIT — END OLD CITY FIELD SECTION]
-
-Player control returns with the objective:
-
-**Return to Caelora.**
-
-When the player leaves:
-- the Old City field section ends immediately;
-- there is no playable return traversal;
-- cut directly upstairs in Caelora.
+The party returns to normal Cresthaven above.
 
 Transition into:
 
-**Beat 13 — Mirena's Concern / Cresthaven Lead.**
-
-## Beat-12 end state
-
-- the sealwright chamber shows a physical progression from Ancient seals to older Yahtrean forms to royal-document examples to repeated current-Crest attempts;
-- someone spent substantial time practicing and improving here;
-- repeated magical load scorched the receiving rings;
-- visual reproduction of the Crest is proven;
-- an attempt to produce something beyond visual resemblance is strongly supported;
-- successful reproduction of the Queen's genuine magical authority response is **not** proven;
-- the seal practitioner may be connected to the recent research trail, but that identity link remains unproven;
-- Cyanis's Card remains stable deep Ruby;
-- the party records the evidence and returns to Caelora.
-
----
-
-## Beat 13
-
-**Atomic source:** `BEAT_13_MIRENAS_CONCERN_CRESTHAVEN_LEAD_DRAFT_A.md`  
-**Source SHA-256:** `34369ca16e26e895daca255b9776becce7b3be48454d2cf7d924c72e96a0219c`
-
-# Chapter 3 — Beat 13
-# Mirena's Concern / Cresthaven Lead
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
-
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
-
-### [DIRECT CUT — PRIVATE ROOM, CAELORA]
-
-Leaving the Sealwright Chamber cuts directly to a private palace meeting room.
-
-Present:
-- Cyanis
-- Ilyra
-- Torren
-- Nimera
-- Mirena
-- Maevra
-
-Lysara is not present.
-
-Crown-side records are already spread across the table.
-
-Mirena looks at the four of them.
-
-**MIRENA:** What changed?
-
-**CYANIS:** Someone's been using the Old City.
-
-Mirena's attention sharpens.
-
-**MIRENA:** For what?
-
-Nimera answers before the story gets flattened.
-
-**NIMERA:** Research first, then seal practice. That's the best-supported order, not a perfect timeline. Ancient forms, older Yahtrean forms, royal examples, then repeated copies of the Crest. The later copies are visually very good.
-
-**MIRENA:** Did any of them answer like the Queen's seal?
-
-**NIMERA:** Nothing we found proves that. They were trying to make the copies do more than look right, and they pushed enough power through the work to scorch repeated receiving rings. Successful royal authority response remains unproven.
-
-Mirena nods.
-
-**MIRENA:** Good. Ugly answer, but good.
-
-Nimera looks at her.
-
-**NIMERA:** Oh, fuck, that's refreshing.
-
-Maevra almost smiles.
-
-### [CROWN-SIDE FINDINGS]
-
-Torren looks at the custody records.
-
-**TORREN:** Anything up here?
-
-**MAEVRA:** No clean theft window. No break in the recorded custody chain we can prove. Everyone involved gives the same sequence.
-
-**MIRENA:** Which means our records are either accurate and incomplete, or clean in ways that hide the problem.
-
-**NIMERA:** Yes.
-
-She catches herself before continuing.
-
-**NIMERA:** Sorry. You already got there.
-
-**MIRENA:** I appreciate the restraint.
-
-**NIMERA:** Don't depend on it.
-
-### [THE WARDEN AND THE CARD]
-
-Mirena notices the Card.
-
-**MIRENA:** That's new.
-
-Cyanis brings out the stable deep-Ruby Card.
-
-**CYANIS:** Happened below.
-
-**NIMERA:** After a Diysean Warden assessed all four of us, tried to kill us, lost, then gave us two final messages.
-
-Mirena looks between them.
-
-**MIRENA:** Exact wording.
-
-**CYANIS:** `PREVIOUS ERROR.`
-
-A beat.
-
-**CYANIS:** Then `LAST SENTINEL CONFIRMED.`
-
-The room goes quiet.
-
-**NIMERA:** That order is exact. Then the Warden became fully inert. Only after that did the Card change.
-
-**MIRENA:** Do we know what Last Sentinel means?
-
-**NIMERA:** No.
-
-**MIRENA:** Or why the Card changed?
-
-**NIMERA:** No. The timing is suspicious as fuck. Suspicion is not mechanism.
-
-Mirena accepts it.
-
-### [MIRENA'S CONCERN]
-
-She looks down at the transport records.
-
-**MIRENA:** Then this is where we are. The Queen did not authorize the transport. Her authority answered anyway. Someone has been researching old seal practice beneath Caelora and practicing the current royal Crest. We still don't know whether those facts share one cause.
-
-She looks around the table.
-
-**MIRENA:** Until we do, this stays narrow. If you find something that changes the problem, it comes to me or Maevra first.
-
-**CYANIS:** Understood.
-
-**ILYRA:** Fine by me.
-
-Torren nods.
-
-Nimera considers Mirena.
-
-**NIMERA:** You understand I met these people today and have already been trapped behind ancient architecture, attacked by archival equipment, and recruited by fucking momentum.
-
-**CYANIS:** Recruited by momentum?
-
-**NIMERA:** You didn't ask.
-
-**ILYRA:** She's right.
-
-**MIRENA:** I'm beginning to see the problem.
-
-### [THE OLD MAP]
-
-Torren brings out the existing Chapter-2 mural copy.
-
-**TORREN:** One more thing.
-
-Mirena looks at the same Ancient map evidence already reported earlier: the enormous city at modern Caelora and the separate northern structure bearing the exact Yahtrean Crest.
-
-She studies the geography again.
-
-**MIRENA:** Show me the scale.
-
-Torren does.
-
-**TORREN:** Best fit. Approximate position, not a survey.
-
-**NIMERA:** How approximate?
-
-**TORREN:** Enough I wouldn't build on it. Not enough I'd ignore a fort-sized match.
-
-Mirena compares it against the current Crown map on the table.
-
-She stops.
-
-**MIRENA:** Wait.
-
-Nobody speaks.
-
-She checks the position again.
-
-**MIRENA:** Cresthaven.
-
-**CYANIS:** The fort?
-
-**MIRENA:** If Harth's placement is close, yes.
-
-Torren looks between the maps.
-
-**TORREN:** Close enough to check.
-
-Nimera is already looking at the impossible Crest again.
-
-**NIMERA:** Which means the symbol is still impossible, but now the location isn't abstract.
-
-She starts another thought, then stops herself.
-
-**NIMERA:** No. I'm not inventing an explanation because we finally have a destination.
-
-Cyanis looks at her.
-
-**CYANIS:** Did you just interrupt yourself?
-
-**NIMERA:** Efficient, isn't it?
-
-Mirena looks back at the map.
-
-**MIRENA:** Cresthaven first. Explanations after evidence.
-
-### [BEAT END]
-
-Cresthaven becomes the next practical lead.
-
-Transition into:
-
-**Beat 14 — Rest in Caelora / Morning Departure.**
-
-## Beat-13 end state
-
-- Mirena and Maevra receive the Old City findings without a chronological replay;
-- the Crown-side investigation still has no proven theft window or simple custody breach;
-- Mirena learns the exact Warden message sequence and the Card's subsequent deep-Ruby stabilization;
-- `LAST SENTINEL CONFIRMED` remains unexplained;
-- no causal link between the Warden, Card, seal fraud, recent reader, or seal practitioner is proven;
-- Mirena narrows the investigation rather than making an accusation;
-- the existing Chapter-2 mural copy is revisited;
-- its northern structure is identified as a strong geographic match for **Cresthaven**;
-- Cresthaven becomes the next practical lead.
-
----
-
-## Beat 14
-
-**Atomic source:** `BEAT_14_REST_IN_CAELORA_MORNING_DEPARTURE_DRAFT_A.md`  
-**Source SHA-256:** `07ddfa20f919af31747a62a7a03b8081261c2929ec2b5bcc54c9d061d62a63f8`
-
-# Chapter 3 — Beat 14
-# Rest in Caelora / Morning Departure
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
-
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
-
-### [CONTINUATION — AFTER CRESTHAVEN IS IDENTIFIED]
-
-Cyanis looks at Torren's copied map.
-
-**CYANIS:** We could be out before midnight.
-
-**MIRENA:** No.
-
-Cyanis looks up.
-
-**MIRENA:** You spent the day underground, fought an Ancient Warden, watched the Card change in your hand, and found somebody practicing the royal Crest beneath Caelora. Cresthaven can survive until morning.
-
-**ILYRA:** I was going to let him finish arguing first.
-
-**CYANIS:** You could've helped.
-
-**ILYRA:** This is helping me.
-
-Nimera nods.
-
-**NIMERA:** I support the princess's fucking oppressive sleep policy.
-
-**MIRENA:** Eat. Sleep. Leave when you're ready tomorrow. Maevra and I will follow with a proper work crew later.
-
-Torren looks at Nimera.
-
-**TORREN:** Think you can manage that?
-
-**NIMERA:** Sleep?
-
-**TORREN:** Not working.
-
-Nimera considers him.
-
-**NIMERA:** No.
-
-**MIRENA:** Try anyway.
-
-The meeting ends.
-
-### [EVENING — CROWN GUEST QUARTERS]
-
-Later.
-
-A small common room. No maps spread across the table. No investigation briefing.
-
-The four eat together.
-
-Nimera has somehow fit dinner, notes, ink, and three copied references into the same patch of table.
-
-She reaches for her spoon without looking.
-
-Torren moves the ink pot.
-
-Her hand lands where it had been.
-
-Nimera stops.
-
-**NIMERA:** I knew where that was.
-
-**TORREN:** Sure.
-
-**NIMERA:** Moving it before I touched it does not prove I was about to put a fucking spoon in ink.
-
-**ILYRA:** I watched you aim.
-
-**NIMERA:** Eyewitness testimony is notoriously—
-
-**ILYRA:** Use the spoon on the stew, then.
-
-Nimera stares at her.
-
-**NIMERA:** Manipulative.
-
-**ILYRA:** Effective?
-
-Nimera takes a bite.
-
-**NIMERA:** Irrelevant.
-
-Cyanis reaches for the bread plate.
-
-Empty.
-
-Torren has the last piece.
-
-**CYANIS:** You eating that?
-
-Torren takes a bite.
-
-**TORREN:** Yeah.
-
-**CYANIS:** Cruel.
-
-**TORREN:** Slow.
-
-Nimera points at him with the spoon.
-
-**NIMERA:** Excellent. Concise, accurate, needlessly hostile.
-
-**TORREN:** Thanks.
-
-**NIMERA:** Don't get pleased. You'll ruin it.
-
-A little silence settles.
-
-Ilyra looks around the room.
-
-**ILYRA:** First place today that hasn't trapped, attacked, assessed, or authenticated us.
-
-Nimera looks at her.
-
-**NIMERA:** Very low standard.
-
-**ILYRA:** Today earned it.
-
-Nimera looks back at her notes.
-
-A few moments later, she yawns hard enough to lose her place.
-
-Torren reaches over and caps the ink.
-
-Nimera looks at him.
-
-**NIMERA:** I was using that.
-
-**TORREN:** Were.
-
-**NIMERA:** Closing the cap does not retroactively alter my intent.
-
-**TORREN:** Still closed.
-
-**NIMERA:** I refuse to lose a grammar argument to a man who writes map notes like punctuation costs fucking money.
-
-Ilyra takes a drink.
-
-**ILYRA:** Reopening it would make `were` correct.
-
-Nimera's hand stops halfway to the ink.
-
-She looks at Ilyra.
-
-**NIMERA:** Oh, go fuck yourselves with the same spoon—no, that doesn't work. Take turns. Same spoon.
-
-Ilyra laughs.
-
-**NIMERA:** Cyanis. Help.
-
-Cyanis keeps eating.
-
-**CYANIS:** You told me to stay out of the spoon case.
-
-Nimera stares at him.
-
-**NIMERA:** Consistency is a deeply overrated virtue.
-
-She yawns again.
-
-**NIMERA:** Fine. I'm tired. None of you are correct in principle.
-
-**TORREN:** Sure.
-
-Nimera points at him.
-
-**NIMERA:** See? Hostile.
-
-She stacks her notes herself.
-
-No one turns the moment into a speech.
-
-### [END OF EVENING]
-
-The meal winds down.
-
-The Card remains stable deep Ruby and put away.
-
-Nobody revisits the investigation.
-
-Fade out.
-
-### [NEXT MORNING — PLAYER PREPARATION WINDOW]
-
-Morning in Caelora.
-
-Player control resumes.
-
-Objective:
-
-**Prepare for Cresthaven.**
-
-The player may use ordinary available city services. No mandatory walking dialogue is added.
-
-When ready:
-
-**Leave for Cresthaven**
-
-The four gather.
-
-**TORREN:** Ready?
-
-**CYANIS:** Enough.
-
-Nimera looks at him.
-
-**NIMERA:** Terrible answer.
-
-**CYANIS:** You ready?
-
-Nimera checks her satchel.
-
-**NIMERA:** Enough.
-
-Cyanis smiles.
-
-**NIMERA:** Don't.
-
-Ilyra heads out.
-
-**ILYRA:** Come on.
-
-The road journey is skipped.
-
-Cut directly to Cresthaven.
-
-Transition into:
-
-**Beat 15 — Cresthaven Headquarters / Cleanup Window.**
+**Beat 15 — Cresthaven Headquarters / Cleanup / Ivorybridge Decision.**
 
 ## Beat-14 end state
 
-- Mirena ends the working day and directs the party to rest before Cresthaven;
-- the evening provides a low-pressure social scene for the new permanent four-person party;
-- Nimera and Torren build early friction and humor without premature familial shorthand;
-- Ilyra participates socially rather than becoming party caretaker;
-- no investigation revelation or magical event occurs;
-- the Card remains stable deep Ruby;
-- the next morning provides a short Caelora preparation window;
-- road travel is skipped;
-- the party departs directly for Cresthaven.
+- Cresthaven is confirmed to sit over/within the surviving base of the giant Ancient tower shown on the Westways recordbook map;
+- Mirena and Maevra remain aboveground and do not participate in combat;
+- the short dungeon is Tower Foundation → Command Interior → Warden Chamber;
+- the First Command Warden assesses the four-person party, rejects the result, and attacks;
+- after defeat it says exactly:
+  - PREVIOUS ERROR
+  - LAST SENTINEL CONFIRMED
+- LAST SENTINEL CONFIRMED is its final message;
+- the Warden becomes fully inert;
+- only afterward Cyanis's Card stabilizes deep Ruby;
+- Prime, Might, bearer status, Last Sentinel meaning, and causation remain unresolved;
+- no new northern map or Ivorybridge clue is found.
 
 ---
 
 ## Beat 15
 
-**Atomic source:** `BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_DRAFT_A.md`  
-**Source SHA-256:** `cda81086ae0ebfd6fc08951fad18a482173e5c67b7765d1ef90ae18cc13a7c35`
+**Atomic source:** `BEAT_15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DRAFT_A.md`  
+**Source SHA-256:** `4ff95080d6ddcc729e0e6d8ffa8e97d3ca8a7407cf0db97e76c44bbc572278df`
 
 # Chapter 3 — Beat 15
-# Cresthaven Headquarters / Cleanup Window
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+# Cresthaven Headquarters / Cleanup / Ivorybridge Decision
+## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
 
-### [TRAVEL CUT — OUTSIDE CRESTHAVEN]
+### [RETURN TO NORMAL CRESTHAVEN]
 
-The skipped road journey ends outside Cresthaven.
+The permanent four return from the Ancient tower base.
 
-The abandoned Crown fort is already being pushed back into working condition. Crews clear debris, check roofs and walls, move in supplies, open safe rooms, and mark damaged or sealed areas.
+Mirena and Maevra meet them in the reopened fort workroom.
 
-Older construction is visible beneath the fort: oversized fitted stone, dark metal inside the masonry, and sealed lower arches that do not belong to the later Crown structure.
+Mirena sees Cyanis's Card before anyone starts.
 
-Mirena and Maevra are already there.
+**MIRENA:** That was not Ruby when you went down.
 
-**CYANIS:** You beat us here.
+**CYANIS:** No.
 
-**MIRENA:** Apparently you listened when I told you to sleep.
+**MAEVRA:** What happened?
 
-**CYANIS:** Historic occasion.
+Cyanis looks to the others once.
 
-**ILYRA:** I wanted witnesses.
+**CYANIS:** Warden. Big one. It assessed all four of us, decided something was wrong, and attacked.
 
-Torren looks at the roofline.
+**MIRENA:** Then?
 
-**TORREN:** Been busy.
+**NIMERA:** We killed it. During shutdown it gave two messages. Exact order matters.
 
-**MIRENA:** Three leaks, one rotten stair, and a floor nobody is allowed to stand on.
+A beat.
 
-From farther across the yard:
+**NIMERA:** PREVIOUS ERROR.
 
-**MAEVRA:** Four leaks.
+Another.
 
-Mirena looks toward her.
+**NIMERA:** LAST SENTINEL CONFIRMED.
 
-**MIRENA:** Excellent. Cresthaven continues to exceed expectations.
+Mirena's expression changes.
 
-### [FIRST LOOK INSIDE]
+**MIRENA:** And then the Card changed?
 
-Mirena leads them through the usable section while work continues around them.
+**NIMERA:** No. Important correction. Then the Warden went fully inert. **After that** the Card changed.
 
-Let the environment establish the new hub functions:
-- sleeping space;
-- supplies;
-- basic treatment space;
-- map and records room;
-- functioning gate / travel point.
+**MIRENA:** Meaning?
 
-At a partly exposed lower arch, Nimera slows.
+**NIMERA:** Nothing proven. The timing is suspicious as fuck. Suspicion remains cheaper than mechanism.
 
-**NIMERA:** That's not Crown work.
+**MAEVRA:** Anyone hurt?
 
-**TORREN:** No.
-
-Nimera looks closer without touching it.
-
-**NIMERA:** Different cut. Different jointing. Dark metal inside the masonry. The fort was built over this.
-
-**CYANIS:** Another old door.
-
-**ILYRA:** You're getting disappointed by ordinary walls.
-
-**CYANIS:** Ordinary walls have had a bad week.
-
-Nimera keeps looking.
-
-**NIMERA:** I only want to inspect it.
-
-**MIRENA:** You may inspect it. Sealed stays sealed until we have a reason better than curiosity.
-
-**NIMERA:** Define better.
-
-**MIRENA:** If I have to define it, you don't have it.
-
-Nimera looks mildly offended.
-
-### [THE HANDOFF]
-
-They reach the map-and-records room.
-
-Mirena looks at the four of them.
-
-**MIRENA:** While we're working this investigation, Cresthaven is your base. Sleep here. Keep records here. Use the supplies. Come and go as needed.
-
-She looks around the half-restored fort.
-
-**MIRENA:** I am not giving you a fort.
-
-**CYANIS:** Wasn't asking.
-
-**NIMERA:** How much fucking paperwork would ownership require?
-
-Mirena looks at her.
-
-**MIRENA:** Enough.
-
-**NIMERA:** Horrifying.
-
-Torren presses a hand to the nearest wall.
-
-**TORREN:** Dry.
-
-A crew member outside shouts about another leak.
-
-Cyanis looks up.
-
-**CYANIS:** Locally dry.
-
-### [OLD CITY OPTIONAL ROUTE]
-
-Mirena starts toward the yard, then stops.
-
-**MIRENA:** One more thing. Archive crews exposed a lower side passage after you left. They opened the accessible closure and stopped at the threshold.
-
-Nimera straightens.
-
-**NIMERA:** Collapse clearance or mechanism?
-
-**MIRENA:** Debris cleared. Existing closure opened from the near side. Nobody went beyond it.
-
-Nimera nods, satisfied.
-
-**NIMERA:** Good report.
-
-**MIRENA:** You can investigate it when you're prepared.
-
-That is the full in-world unlock.
-
-No one identifies what lies beyond.
-
-### [MIRENA AND MAEVRA LEAVE]
-
-Back in the yard, Maevra crosses over from the work crew.
-
-**MAEVRA:** West wall's soft under the moss. Looks sound from here. Isn't.
-
-**TORREN:** Saw it.
+**ILYRA:** No.
 
 **MAEVRA:** Good.
 
-Mirena looks at the four.
+Mirena studies the Ruby Card but does not reach for it.
 
-**MIRENA:** If something changes the investigation, send word. Otherwise, try not to discover anything impossible until tomorrow.
+**MIRENA:** Last Sentinel.
 
-**CYANIS:** No promises.
+**CYANIS:** That's all we have.
 
-**NIMERA:** Statistically irresponsible promise anyway.
+**MIRENA:** Then that's all we're calling it.
 
-**ILYRA:** She's been here one day and she's already helping.
+Nimera visibly approves.
 
-**MIRENA:** That is not the word I'd use.
+### [HEADQUARTERS]
 
-Mirena and Maevra leave for Caelora.
+The work crew has opened several practical rooms.
 
-### [GAMEPLAY HANDOFF — CHAPTER 3 CLEANUP WINDOW]
+Mirena walks them through the minimum.
 
-Player control resumes at Cresthaven.
+**MIRENA:** This room is yours for maps and records. Sleeping rooms are usable. Supply room is ugly but stocked. The old treatment room needs work, but it has water and a door that closes.
 
-Normal resident / traveling party:
+**ILYRA:** Luxury.
+
+**MIRENA:** I was told adventurers enjoy deprivation.
+
+**CYANIS:** Slander.
+
+**MAEVRA:** Accurate slander.
+
+Torren looks around the fort.
+
+**TORREN:** Enough to work from.
+
+**MIRENA:** That's the point. Cresthaven is your headquarters while this investigation stays active. Not a title. Not a command. A place to put your things and stop carrying the entire problem on your backs.
+
+Nimera looks at the large central table.
+
+**NIMERA:** That table is going to regret meeting me.
+
+**TORREN:** Already does.
+
+**NIMERA:** It has no evidence.
+
+### [OLD CITY ARCHIVE HUNT UNLOCK]
+
+Mirena pulls out one final note.
+
+**MIRENA:** One more thing before Maevra and I head back. Crown crews in the Old City opened a side passage that wasn't accessible during your run.
+
+**CYANIS:** Know what's in it?
+
+**MIRENA:** No.
+
+**NIMERA:** Beautiful.
+
+**MIRENA:** I thought you'd say that.
+
+**NIMERA:** Unknown room in an archive with a history of murderous furniture. What's not to love?
+
+**ILYRA:** The murderous furniture.
+
+**NIMERA:** Narrow thinking.
+
+Mirena gives them the access location.
+
+Regional Hunt #3 — Archive Judgment Engine unlocks under encounter authority.
+
+### [THE NORTHERN LEAD]
+
+Torren spreads the copied Westways map on the headquarters table.
+
+**TORREN:** One thing left.
+
+Mirena leans over it.
+
+The tower now identified with Cresthaven sits beneath his finger.
+
+The largest routes continue north from it and run off the top edge of the copied region.
+
+**TORREN:** Tower was real.
+
+**CYANIS:** So the routes probably were too.
+
+**NIMERA:** Broadly, yes. Careful with probably, but yes.
+
+**ILYRA:** We still don't know where they go.
+
+**TORREN:** No.
+
+He looks at a modern map.
+
+**TORREN:** If we follow north, Ivorybridge is where I'd start looking.
+
+Mirena studies the modern geography.
+
+**MIRENA:** Because it's the next major place that gives you something to test.
+
+**TORREN:** Exactly.
+
+**CYANIS:** Not because the Ancient map says Ivorybridge.
+
+**NIMERA:** Thank fuck. No. The Ancient map says north until the copy ends. Ivorybridge is our hypothesis, not their label.
+
+**ILYRA:** So we go north and see whether the ground agrees.
+
+**TORREN:** That's the idea.
+
+Mirena nods.
+
+**MIRENA:** Then Cresthaven holds the work while you test it.
+
+### [MIRENA / MAEVRA DEPARTURE]
+
+Maevra shoulders her gear.
+
+**MAEVRA:** We'll send anything the Crown side turns up.
+
+**CYANIS:** Same from us.
+
+Mirena looks around the half-reopened fort.
+
+**MIRENA:** Try not to destroy my abandoned fort before I get political value out of reopening it.
+
+**NIMERA:** Define destroy.
+
+**MIRENA:** I knew I disliked that question.
+
+**ILYRA:** Too late.
+
+Mirena smiles and heads out with Maevra.
+
+### [CLEANUP WINDOW ACTIVE]
+
+Normal Cresthaven resident/traveling party:
 - Cyanis
 - Ilyra
 - Torren
 - Nimera
 
-Cresthaven is now the party's operational headquarters.
+Available cleanup content includes:
+- C06 — Nimera Takes Over a Table
+- C07 — Ilyra and Nimera
+- Regional Hunt #3 — Archive Judgment Engine
+- permitted backtracking and preparation
 
-The Chapter-3 cleanup window is active.
+Chapter 3 remains active until the player deliberately chooses:
 
-Available under current authority:
-- Cresthaven hub preparation;
-- permitted backtracking;
-- Character-Life **C06 — Nimera Takes Over a Table**;
-- Character-Life **C07 — Ilyra and Nimera**;
-- optional Regional Hunt #3 route through the newly accessible Old City Archive side passage;
-- later explicit **Begin Chapter 4** choice.
+**Begin Chapter 4**
 
-Suggested implementation notice:
+Current next investigative direction:
 
-> **Old City Archives — New Passage Available**
-
-Do not identify the optional boss before its encounter.
-
-Chapter 3 remains active during cleanup.
-
-There is no mandatory emotional closing speech.
+**Ivorybridge — a modern place chosen to test the northbound route hypothesis, not a confirmed Ancient destination.**
 
 ## Beat-15 end state
 
-- Cresthaven becomes the party's operational headquarters;
-- the older Diysean layer beneath the fort is visible but unexplained;
-- Mirena and Maevra return to Caelora;
-- Cyanis, Ilyra, Torren, and Nimera become the normal resident / traveling party;
-- the new Old City side passage becomes optionally available;
-- the Chapter-3 cleanup window opens;
-- Chapter 4 begins only when the player deliberately chooses it.
+- First Command Warden and Ruby Card events are reported without being solved;
+- Prime/Might/bearer status remains unresolved;
+- Cresthaven becomes operational headquarters;
+- Regional Hunt #3 unlocks;
+- Mirena and Maevra return to Caelora after the handoff;
+- the permanent four remain at Cresthaven;
+- the party chooses Ivorybridge as the next practical northern investigation point because the routes continue north beyond Cresthaven and off the copied map;
+- no Ancient evidence explicitly names Ivorybridge.
 
 ---
 

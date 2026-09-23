@@ -3146,3 +3146,9 @@ He moves the pouch farther away.
 Maevra laughs into her pillow.
 
 Fade.
+
+---
+
+## Synchronization footer
+
+This derived manuscript was assembled exclusively from the atomics listed above. No dialogue wording was rewritten during assembly.
