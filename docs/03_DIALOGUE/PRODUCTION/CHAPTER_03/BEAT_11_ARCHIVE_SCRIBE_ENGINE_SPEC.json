@@ -1,0 +1,30 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT11_ARCHIVE_SCRIBE_ENGINE",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 11 — Archive Scribe Engine",
+  "production_ready": true,
+  "participants": ["cyanis","ilyra","torren","nimera"],
+  "hard_outcomes": [
+    "The large Archive Scribe Engine activates as a procedural archive/security mechanism.",
+    "The permanent four defeat it as the main story boss of the Caelora Archives.",
+    "No First Command Warden appears in Caelora.",
+    "No PREVIOUS ERROR, LAST SENTINEL CONFIRMED or Ruby stabilization occurs.",
+    "The Engine's shutdown opens access to the protected Inner Collections."
+  ],
+  "forbidden_reveals": [
+    "first_command_warden","previous_error","last_sentinel","deep_ruby","prime","might","cresthaven","ivorybridge"
+  ],
+  "true_voice_requirements": {
+    "nimera": "Live brain; profanity natural and technical, 15–35% long-form anti-sanitization calibration across a large corpus, no lore certainty beyond evidence.",
+    "cyanis": "Crest Knight only.",
+    "ilyra": "No automatic post-fight medical ownership unless actually needed.",
+    "torren": "No forced terseness or paternal shorthand."
+  },
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml"
+  ]
+}
