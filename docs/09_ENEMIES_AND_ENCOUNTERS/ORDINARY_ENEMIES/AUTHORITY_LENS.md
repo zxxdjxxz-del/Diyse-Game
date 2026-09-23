@@ -1,7 +1,7 @@
 # Authority Lens
 
-**Chapter-3 authority:** Old City command route  
-**Status:** **POWER COMPLETE / CH3 RAW BODY AUTHORED**
+**Chapter-3 authority:** Cresthaven Ancient tower base  
+**Status:** **CHAPTER-3 IDENTITY / PLACEMENT / ACTION GRAMMAR LOCKED — NUMERIC REVALIDATION REQUIRED**
 
 ## Chapter-3 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -22,9 +22,9 @@ True construct:
 ### Classification Flash
 - all conscious party members
 - Magical / Lightning
-- **115 Power per target**
+- **115 Power per target — provisional**
 - Base Hit100
-- **10% Stun per target**
+- **no harmful-status rider in Chapter 3**
 - 2-round repetition lock
 
 ### Targeting Focus
@@ -50,3 +50,35 @@ Chapter-10 actions:
 - Targeting Focus — **Power N/A**, Base Hit +10 to one other living allied construct through end following round, no extra action
 
 True construct: **Bleed Immune**
+
+
+## Chapter-3 placement lock — 2026-09-23
+Authority Lens is **not** an Old City Archives ordinary enemy.
+
+Current mandatory placement:
+> **Cresthaven Ancient tower base**
+
+Primary home:
+- Command Interior;
+- may appear sparingly in the late Tower Foundation;
+- may appear before the final Warden approach buffer.
+
+Identity:
+> light inspection / authority-reading support construct
+
+Combat role:
+- magical ranged pressure;
+- party-wide Lightning through Classification Flash;
+- **Targeting Focus** supports another living allied construct with Base Hit +10;
+- fragile enough that the player can remove it to reduce formation support.
+
+## Chapter-3 status boundary
+Authority Lens does **not** inflict Stun in Chapter 3.
+
+Reason:
+- Command-Station Sentry's Station Pulse is the current preferred ordinary-enemy Stun introduction;
+- duplicating Stun across multiple tower-base support identities would muddy the teaching signal.
+
+The later Chapter-10 version may retain its stronger Classification Flash with Stun.
+
+Existing Chapter-3 raw values remain provisional pending four-person Cresthaven validation.
