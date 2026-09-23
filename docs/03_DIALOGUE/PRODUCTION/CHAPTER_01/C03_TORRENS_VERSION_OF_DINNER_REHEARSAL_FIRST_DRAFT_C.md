@@ -38,7 +38,7 @@ Ilyra studies the food.
 
 **TORREN:** Hot. Safe. Food.
 
-**CYANIS:** That's a shitty standard.
+**CYANIS:** That's a piss-poor standard.
 
 **TORREN:** Still a standard.
 
