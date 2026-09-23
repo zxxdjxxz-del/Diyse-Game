@@ -1,7 +1,7 @@
 # Erasure Wisp
 
-**Chapter-3 authority:** Suppressed Archives  
-**Status:** **POWER COMPLETE / CH3 RAW BODY AUTHORED**
+**Chapter-3 authority:** Old City Archives  
+**Status:** **CHAPTER-3 IDENTITY / ROLE / ACTION GRAMMAR LOCKED — NUMERIC REVALIDATION REQUIRED**
 
 ## Chapter-3 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -39,3 +39,35 @@ Chapter-10 actions:
 Magical construct: **Bleed Immune**
 
 Erasure presentation cannot erase permanent player progression.
+
+
+## Chapter-3 identity / presentation lock — 2026-09-23
+Erasure Wisp remains an active ordinary Old City Archives construct.
+
+Current role:
+> fast, fragile magical pressure / Ruin-aligned cleanup-security construct
+
+Archive-function presentation:
+- small mobile / hovering Ancient mechanism;
+- used to break down marked material, damaged magical residue, or other archive matter designated for removal;
+- its combat attacks are an unsafe extension of that cleanup / disposal function.
+
+“Erasure” does **not** mean:
+- deleting memories;
+- deleting identity;
+- removing learned abilities;
+- destroying Cards;
+- reducing levels;
+- undoing permanent progression;
+- rewriting player state.
+
+## Chapter-3 combat boundary
+Current Chapter-3 kit remains:
+- **Erasure Touch** — single-target Ruin magic;
+- **Empty Pulse** — party-wide Colorless magic.
+
+The Chapter-3 version does **not** use Stun.
+
+The later Chapter-10 version may retain Ruin Flicker / Stun as a later progression escalation.
+
+The existing Chapter-3 raw line and Powers remain provisional starting values pending current four-person encounter validation.
