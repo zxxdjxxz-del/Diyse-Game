@@ -36,7 +36,7 @@ Nimera crouches, looks, then looks at the marker.
 
 **TORREN:** Outdated.
 
-**NIMERA:** That's the respectable word for lying with damn paperwork.
+**NIMERA:** That's bureaucratic horseshit with a filing system.
 
 **ILYRA:** You two are going to be unbearable together.
 
@@ -106,7 +106,7 @@ Beyond it, older shelving and record frames continue.
 
 Nimera checks the final numbered ledger.
 
-**NIMERA:** Catalogue stops here. Shit.
+**NIMERA:** Catalogue stops here. Balls.
 
 **TORREN:** Building doesn't.
 
