@@ -1,7 +1,7 @@
 # Beast Handler
 
-**Current certified use:** Chapter 2 approved carryover  
-**Status:** **CH2 POWER COMPLETE / CH2 RAW BODY AUTHORED**
+**Current use:** later explicitly authored specialized encounters; Chapter 2 placement retired  
+**Status:** **CHAPTER-2 PLACEMENT RETIRED / LATER AUTHORED USE RETAINED**
 
 ## Chapter-2 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -80,3 +80,11 @@ This Chapter-7 body does not replace the Chapter-2 variant.
 Beast Handler is **not a Chapter-0 combat enemy**.
 
 Chapter-0 Hound Pressure uses Convoy Rift Hounds without a Handler. The retained active uses of Beast Handler are controlled by later-chapter placement authority.
+
+
+## Chapter-2 placement retirement — 2026-09-23
+Beast Handler is no longer part of the active Chapter-2 Old Bastion roster.
+
+The Chapter-2 raw body/action data above is retained only as historical design material and must not be placed in current Chapter-2 formations.
+
+Later explicitly authored Handler + Hound encounters remain legal where separately owned by their chapter authority.
