@@ -34,7 +34,7 @@ Nimera checks it.
 
 **NIMERA:** Yes. Different hand, different ink, twenty-eight years later. Good catch.
 
-**TORREN:** I can fucking read.
+**TORREN:** I can read, Pellan.
 
 **NIMERA:** I never doubted literacy. Judgment remains under review.
 
