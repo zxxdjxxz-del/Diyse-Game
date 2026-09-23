@@ -26,7 +26,7 @@
 | ~200 YF | first modern Card activation era |
 | ~220 YF | naturally magical births begin |
 | ~250 YF | magical creatures begin returning |
-| 720 YF | present story |
+| 713 YF | present story |
 
 ## Approximation rule
 These dates are broad historical anchors, not a demand to date every war, reign, settlement, or archaeological discovery to the year.
