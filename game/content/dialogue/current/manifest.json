@@ -471,7 +471,7 @@
           "slot_id": "C05",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
           "source_sha256": "c4e65fac34a0ce90dedd3286b99012983416686df663495c9e291933d9dc2298",
-          "spoken_lines": 88,
+          "spoken_lines": 83,
           "spoken_sha256": "bf38cd1ca30d7174de74c60378165adc352741fdb825069a76ad474c4f151d3a",
           "title": "Chapter 2 Character-Life — C05 — Still Burns"
         }
@@ -670,9 +670,9 @@
       ]
     }
   },
-  "expected_total_spoken": 2300,
+  "expected_total_spoken": 2295,
   "global_spoken_sha256": "f54b23605956e77ec354ca2c7018f5d6e88e03447d3ecc451ebfdc14347a5853",
   "schema": "diyse_current_runtime_dialogue_manifest_v1",
   "source_authority": "docs/03_DIALOGUE/PRODUCTION",
-  "total_spoken": 2300
+  "total_spoken": 2295
 }
