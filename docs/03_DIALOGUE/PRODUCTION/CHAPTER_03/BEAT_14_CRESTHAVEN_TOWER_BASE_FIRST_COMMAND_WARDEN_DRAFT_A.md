@@ -110,7 +110,7 @@ They reach a chamber where the outer foundation curve continues beyond the visib
 
 Nimera looks around.
 
-**NIMERA:** No. Big is not a function. Important-looking is not a function either, before anybody tries that shit.
+**NIMERA:** No. Big is not a function. Important-looking is not a function either, before anybody serves me that horseshit.
 
 **CYANIS:** I hadn't said a damned thing.
 
