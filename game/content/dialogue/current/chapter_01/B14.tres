@@ -21,7 +21,7 @@ encounter_policy = {"during_scene": "temporarily_suppress_trigger", "after_scene
 return_to_gameplay = {"control_mode": "exploration"}
 cutscene_tier = "C0"
 vfx_tier = "V1"
-authoring_notes = "CURRENT runtime dialogue compiled from docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md. docs/03_DIALOGUE/PRODUCTION is exact spoken-wording authority; legacy S001-S021 Resources are not source authority. Source Git blob SHA: b14bf634c0ac00f54aeb8f810979bfb05e2c85b3. Spoken lines: 50."
+authoring_notes = "CURRENT runtime dialogue compiled from docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md. docs/03_DIALOGUE/PRODUCTION is exact spoken-wording authority; legacy S001-S021 Resources are not source authority. Source Git blob SHA: bb21fed3da47874343f651fda4ded874d37bb913. Spoken lines: 50."
 beats = [
 {"beat_id":"CH01_B14_L0001","speaker_id":"torren","text":"This is it.","left":{},"right":{},"active_side":"none","advance_mode":"manual","cues":{"pause_ms":80,"interrupt":false,"implementation_flags":["IN_WORLD_DIALOGUE"],"source_section":"[STORY TRIGGER — THE HIDDEN MONUMENT]","source_speaker_label":"TORREN","source_path":"docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md","source_line":25}},
 {"beat_id":"CH01_B14_L0002","speaker_id":"cyanis","text":"Then where's the thing from the mural?","left":{},"right":{},"active_side":"none","advance_mode":"manual","cues":{"pause_ms":80,"interrupt":false,"implementation_flags":["IN_WORLD_DIALOGUE"],"source_section":"[STORY TRIGGER — THE HIDDEN MONUMENT]","source_speaker_label":"CYANIS","source_path":"docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md","source_line":29}},
