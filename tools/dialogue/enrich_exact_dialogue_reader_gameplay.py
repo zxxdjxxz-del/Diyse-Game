@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Restore the approved world intro and current encounter bridges to the Ch0-3 reader.
+"""Restore the approved world intro and currently validated encounter bridges to the Ch0-3 reader.
 
 Run after presentation cleanup/heading normalization and before layout repair.
 All 2,250 spoken lines are immutable.
@@ -26,6 +26,7 @@ EXPECTED_DIALOGUE_LINES = 2250
 LABEL_RE = re.compile(r"^.+:\s*$")
 
 # target heading, inserted heading, body paragraphs, owning source, required authority terms
+# Chapter 3 encounter bridges are intentionally omitted until its enemy placement is migrated to the revised 15-beat story structure.
 BRIDGES = (
     ("Cyanis Solo", "Opening Ambush", (
         "Combat 1 — Cyanis solo: Black Host Raider; Black Host Crossbowman; Ruin Shieldbearer.",
@@ -45,40 +46,37 @@ BRIDGES = (
     ), CH0, ("Riftmaw", "Convoy War-Sorcerer")),
 
     ("Halfway Stop", "Random Encounters — Northern Briar Passage", (
-        "Black Host Raider • Black Host Crossbowman • Ruin Shieldbearer • Brackenwall Reaver",
-    ), CH1, ("Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "Brackenwall Reaver")),
+        "Greenhollow Stalker • Thornvine Creeper • Briar Boar",
+    ), CH1, ("Greenhollow Stalker", "Thornvine Creeper", "Briar Boar")),
     ("Hollow Watch Reveal", "Random Encounters — Greenhollow / Hollow Watch Approach", (
         "Greenhollow Stalker • Thornvine Creeper • Briar Boar",
     ), CH1, ("Greenhollow Stalker", "Thornvine Creeper", "Briar Boar")),
     ("Garrison Discovery", "Random Encounters — Hollow Watch", (
-        "Hollow Watch Sentry • Hollow Watch Ballista",
-    ), CH1, ("Hollow Watch Sentry", "Hollow Watch Ballista")),
+        "Black Host Raider • Black Host Crossbowman • Ruin Shieldbearer • Hollow Watch Sentry • Hollow Watch Ballista • Watch Captain Frame",
+    ), CH1, ("Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "Hollow Watch Sentry", "Hollow Watch Ballista", "Watch Captain Frame")),
     ("First Clear Sighting", "Random Encounters — Southern Briar", (
-        "Greenhollow Stalker • Thornvine Creeper • Briar Boar",
-    ), CH1, ("Greenhollow Stalker", "Thornvine Creeper", "Briar Boar")),
+        "Greenhollow Stalker • Thornvine Creeper • Briar Boar • Needlewing • Rootmaw • Brambleback",
+    ), CH1, ("Greenhollow Stalker", "Thornvine Creeper", "Briar Boar", "Needlewing", "Rootmaw", "Brambleback")),
 
     ("Sealed Side Door", "Random Encounters — Old Waterworks", (
-        "Bogshell • Cistern Leech",
-    ), CH2, ("Bogshell", "Cistern Leech")),
+        "Bogshell • Cistern Leech • Needlewing",
+    ), CH2, ("Bogshell", "Cistern Leech", "Needlewing")),
     ("Threshold", "Random Encounters — Sunken Archive", (
-        "Archive Current • Memory Scribe • Vault Sentinel • Drowned Archive Maw",
-    ), CH2, ("Archive Current", "Memory Scribe", "Vault Sentinel", "Drowned Archive Maw")),
+        "Archive Current • Memory Scribe • Hollow Watch Sentry • Bogshell • Cistern Leech • Needlewing",
+    ), CH2, ("Archive Current", "Memory Scribe", "Hollow Watch Sentry", "Bogshell", "Cistern Leech", "Needlewing")),
     ("The Alarm", "Random Encounters — Old Bastion", (
         "Bastion Shield Guard • Bastion Crossbow Guard • Transfer Adept • Black Host Raider",
     ), CH2, ("Bastion Shield Guard", "Bastion Crossbow Guard", "Transfer Adept", "Black Host Raider")),
 
-    ("Old Card Studies", "Random Encounters — Suppressed Archives", (
-        "Archive Scribe Engine • Judgment Frame • Erasure Wisp",
-    ), CH3, ("Archive Scribe Engine", "Judgment Frame", "Erasure Wisp")),
-    ("First Command Chamber", "Random Encounters — Deep Command Route", (
-        "Command-Station Sentry • Authority Lens • Command Ring Drone",
-    ), CH3, ("Command-Station Sentry", "Authority Lens", "Command Ring Drone")),
 )
 
 FORMATION_AREAS = (
-    "ch01_brackenwall", "ch01_greenhollow", "ch01_hollow_watch",
-    "ch02_sunken_archive", "ch02_red_transfer_bastion",
-    "ch03_suppressed_archives", "ch03_command_station",
+    "ch01_greenhollow",
+    "ch01_hollow_watch",
+    "ch01_briar_south",
+    "ch02_dunmere_waterworks",
+    "ch02_sunken_archive",
+    "ch02_red_transfer_bastion",
 )
 
 
