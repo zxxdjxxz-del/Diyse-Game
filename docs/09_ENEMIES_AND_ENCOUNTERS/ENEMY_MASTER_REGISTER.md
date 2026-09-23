@@ -43,6 +43,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 2 | Mandatory named/boss | Archive Leviathan |
 | 2 | Mandatory named/boss | Commander Rhazek — Bastion Master |
 | 2 | Regional Hunt | Regional Hunt #2 — Scaldback |
+| 3 | Ordinary/carryover | Archive Current — late Old City carryover |
 | 3 | Ordinary/carryover | Judgment Frame |
 | 3 | Ordinary/carryover | Erasure Wisp |
 | 3 | Ordinary/carryover | Command-Station Sentry |
