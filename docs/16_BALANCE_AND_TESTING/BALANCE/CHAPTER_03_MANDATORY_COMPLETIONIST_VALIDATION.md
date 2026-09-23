@@ -40,7 +40,7 @@ This correction does not itself change Power coefficients for:
 - Archive Scribe Engine;
 - Judgment Frame;
 - Erasure Wisp;
-- Command-Station Sentry;
+- Command Guard Frame;
 - Authority Lens;
 - Command Ring Drone;
 - Grand Inquisitor Frame;
@@ -87,7 +87,7 @@ After the mandatory Scribe Engine, random formations may use:
 
 ### Deep command route
 Random formations may use:
-- Command-Station Sentry;
+- Command Guard Frame;
 - Authority Lens;
 - Command Ring Drone.
 
