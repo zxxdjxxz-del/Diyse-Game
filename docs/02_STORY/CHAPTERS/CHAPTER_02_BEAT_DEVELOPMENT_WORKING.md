@@ -9,10 +9,10 @@
 This is the single cumulative structural/development workspace for Chapter 2. Keep this file updated as Chapter 2 is refined so the chapter can be recovered without relying on chat history.
 
 ## Current production closure
-> **All sixteen Chapter-2 mainline beats have current standalone true-voice / dialogue-economy atomic dialogue.**
+> **Chapter 2 has 15 active mandatory mainline beats. The legacy B06 Western Map Mural slot is retired and has no current atomic dialogue.**
 
 Storage note:
-- exact wording authority is the sixteen standalone Beat files in `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/`;
+- exact wording authority is the 15 active standalone Beat files in `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/`; legacy B06 is retired;
 - `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` is the current 83-line Chapter-2 cleanup Character-Life scene (canonical C05);
 - `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` is the current dialogue-location/authority map;
 - the combined manuscript is stale and must be regenerated from the atomics before use as a current read-through.
@@ -26,15 +26,15 @@ Storage note:
 > **scene/world state → independent Person Agent Brain rehearsals → Dialogue Editor → invisible Canon/Knowledge Checker → economical HD-2D staging/implementation**
 
 ## Current structure
-Chapter 2 is a **16-beat structure**. The former dedicated prisoner-escort beat and separate road-secured beat are retired. After Beat 15 frees and organizes the prisoners, the story may transition directly back to Dunmere. Beat 16 confirms that the current prisoners are safe and the Greenhollow–Dunmere road is reopened.
+Chapter 2 has **15 active mandatory beats**, with the old B06 map-mural slot retired to preserve stable downstream IDs. The former dedicated prisoner-escort beat and separate road-secured beat are also retired. After Beat 15 frees and organizes the prisoners, the story may transition directly back to Dunmere. Beat 16 confirms that the current prisoners are safe and the Greenhollow–Dunmere road is reopened.
 
-## Locked 16-Beat Skeleton
+## Locked Active Skeleton / Stable IDs
 1. Path Outside Dunmere
 2. Dunmere Arrival / Missing Travelers
 3. Dunmere Elder / Hidden Approach
 4. Old Waterworks
 5. Sunken Archive Entrance
-6. Western Map Mural
+6. **RETIRED — no Western Map Mural scene**
 7. Archive Depths
 8. Archive Leviathan
 9. Secret Passage Discovery
@@ -92,7 +92,7 @@ The elder may know:
 - ordinary road approaches are exposed;
 - an old, little-used waterworks service route once ran toward/under the Old Bastion's lower structure.
 
-The elder does **not** know about the Sunken Archive, western map mural, Leviathan, secret passage, Prisoner Galleries, Rhazek's command-room situation, or Seyrik.
+The elder does **not** know about the Sunken Archive, Leviathan, secret passage, Prisoner Galleries, Rhazek's command-room situation, or Seyrik.
 
 Decision:
 **enter the old waterworks → find a covert way into the Old Bastion → locate the kidnapped people**.
@@ -166,7 +166,7 @@ By the end:
 - nobody knows what is behind that door;
 - the entire traveling group has been exposed to substantial water during traversal;
 - the party recognizes that the deepest construction is much older than Dunmere's waterworks;
-- they still do not know they are entering a formal archive, what the western mural will show, what the Archive Leviathan is, or how the route ultimately reaches the Old Bastion.
+- they still do not know they are entering a formal archive, what the Archive Leviathan is, or how the route ultimately reaches the Old Bastion.
 
 Handoff → **Beat 5 — Sunken Archive Entrance**.
 
@@ -175,7 +175,7 @@ Handoff → **Beat 5 — Sunken Archive Entrance**.
 # Beat 5 — Sunken Archive Entrance
 **Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
 
-Purpose: let the party cross fully out of recognizable municipal infrastructure and establish the Ancient complex as a **major location with a preservation/storage function**, without spending the western mural reveal early.
+Purpose: let the party cross fully out of recognizable municipal infrastructure and establish the Ancient complex as a **major location with a preservation/storage function**.
 
 `Sunken Archive` remains a production/gameplay name. The characters do **not** need to identify or speak that formal name during this beat.
 
@@ -212,9 +212,8 @@ Allowed conclusions:
 Do **not** establish yet:
 - the formal name `Sunken Archive` as known character terminology;
 - who built the entire complex with certainty if evidence does not support it;
-- the western network map contents;
-- a route to Caelora;
-- the identity/history of the ancient city at modern Caelora;
+- any new regional map/cartographic payoff;
+- any attempt to fill in the Chapter-1 Wayfinder's broken Caelora-area center;
 - the Archive Leviathan;
 - the secret passage to the Old Bastion;
 - any prisoner or Black Host intelligence.
@@ -228,7 +227,7 @@ The scene should preserve the practical question:
 Torren may judge directionality/route viability, but he cannot know where the Ancient complex ultimately exits. Cyanis, Ilyra, and Maevra can register the scale without deciding to abandon the rescue for a full investigation.
 
 ### Gameplay role
-After the initial threshold scene, control returns to exploration quickly. Beat 5 should allow enough movement through the entrance portion for the player to absorb the Archive's visual identity before reaching the western mural in Beat 6.
+After the initial threshold scene, control returns to exploration quickly. Beat 5 should allow enough movement through the entrance portion for the player to absorb the Archive's visual identity before the route deepens into Beat 7.
 
 No second authored exposition scene is required unless area design later shows a strong natural stop.
 
@@ -240,111 +239,38 @@ By the end:
 - the complex is much larger than a buried utility room or isolated ruin;
 - no Black Host presence has been established inside it;
 - the group remains committed to finding a usable route toward the Old Bastion and the kidnapped people;
-- the party has **not yet seen/interpreted the western map mural**;
-- the deeper history, network, boss, secret passage, and Bastion connection remain unrevealed.
+- there is **no Chapter-2 western map mural or replacement cartographic reveal**;
+- the deeper history, boss, secret passage, and Bastion connection remain unrevealed.
 
-Handoff → **Beat 6 — Western Map Mural**.
+Handoff → **Beat 7 — Archive Depths**.
 
 ---
 
-# Beat 6 — Western Map Mural
-**Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED / CREST-MARKER REVISION
+# Legacy B06 — Western Map Mural — RETIRED
+**Development status:** RETIRED BY EXPLICIT USER DIRECTION — 2026-09-23
 
-Purpose: deliver Chapter 2's first major Ancient cartographic payoff without resolving the mysteries it creates.
+There is no Chapter-2 Western Map Mural scene.
 
-Hard rule:
-> **The western map mural is complete and coherent, not damaged.**
+Do not replace it elsewhere in Chapter 2 with:
+- another regional Ancient wall map;
+- a route-network plate;
+- a reveal of a giant ancient city at modern Caelora;
+- a Crest-marked northern structure;
+- a cartographic explanation that fills in the Chapter-1 Wayfinder's broken Caelora-area center.
 
-It is incomplete only by scope: a complete western section of a larger system, with lines continuing cleanly beyond the panel edges. The Wayfinder is now understood as one piece of this larger network.
+The Chapter-1 Wayfinder remains the latest major Ancient cartographic evidence during Chapter 2.
 
-### Recognizable western corridor
-By comparing the carried Wayfinder copy to the mural, the party can identify with useful confidence:
-- the Hollow Watch / Wayfinder relationship;
-- the corridor they have traveled;
-- Dunmere's approximate corresponding position;
-- route lines continuing eastward toward the location associated with modern Caelora.
-
-The alignments are useful but **not perfectly identical to modern geography**. The characters may notice that the mismatch is real; they do not know why.
-
-### Large city at modern Caelora
-At the corresponding location for modern Caelora, the mural depicts a **vast, dense ancient city or urban complex much larger and visibly different from the Caelora the characters know**.
-
-Allowed conclusion:
-- by route/directional relationship, the city occupies the place where modern Caelora should be.
-
-Not allowed:
-- naming the ancient city;
-- explaining what happened to it;
-- explaining why modern Caelora differs;
-- revealing buried-Crest truth or later capital-history answers.
-
-### Crest-marked northern structure
-Immediately **north of the large ancient city**, the mural contains another distinct marker: a **small standalone structure bearing the same Crest used by modern Yahtrea**.
-
-Hard visual rule:
-> **The symbol is recognizably the modern Crest of Yahtrea, not merely a similar precursor shape.**
-
-The party may confidently recognize the Crest itself. That recognition is the reveal.
-
-They do **not** know:
-- why a map this old carries the same symbol;
-- whether the structure belongs to the city or is separate in function;
-- the structure's name;
-- its purpose;
-- its age relative to the city/map;
-- what, if anything, it means for modern Yahtrea.
-
-Do not identify the structure as **Cresthaven** or any other later location/reveal.
-
-This should create a clean unanswered question rather than an immediate theory dump.
-
-### Panel completeness
-The party notices that the mural itself is not a surviving fragment. Route lines reach the physical panel edges cleanly and continue beyond them. The correct interpretation is:
-> **this is a complete western section of a larger system.**
-
-No eastern panel or complete network becomes available here.
-
-### Practical copy
-The party makes practical copies of:
-- matched Wayfinder/mural route relationships;
-- Dunmere correspondence;
-- eastward route continuation;
-- the large city at the modern Caelora location;
-- the **small northern crest-marked structure**;
-- useful fixed markers / panel relationships.
-
-They do not need to spend a long real-time scene copying every decorative detail.
-
-### Pacing rule
-> **They discovered something larger, but the immediate problem still has living people attached.**
-
-The Ancient map, giant city, and Yahtrean Crest marker matter, but the kidnapped people at the Old Bastion remain the active priority.
-
-### Beat-6 knowledge checkpoint
-By the end:
-- Wayfinder is understood as part of a larger route/network system;
-- Hollow Watch / Wayfinder / Dunmere relationships can be aligned usefully with the western mural;
-- ancient and modern geography do not align perfectly and the reason is unknown;
-- a huge unfamiliar ancient city appears where modern Caelora should be;
-- **just north of that city is a separate small structure marker bearing the exact modern Crest of Yahtrea**;
-- everyone can recognize the Crest, but nobody can explain its presence or identify the structure;
-- the mural is complete and undamaged, but only a western section of a larger system;
-- practical copies are made;
-- Cresthaven, Last Sentinel, buried-Crest truth, Entity, the identity/history of the ancient city, the identity/purpose of the crest-marked structure, and the complete network remain unrevealed;
-- the kidnapped people remain the immediate priority.
-
-Handoff → **Beat 7 — Archive Depths**.
+Stable production/runtime numbering resumes at B07.
 
 ---
 
 # Beat 7 — Archive Depths
 **Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
 
-Purpose: turn the post-mural portion of the Archive back into sustained exploration pressure, deepen the sense of physical danger, and build naturally into the Archive Leviathan without spending another major lore reveal.
+Purpose: turn the deeper Archive into sustained exploration pressure and build naturally into the Archive Leviathan without inserting a major cartographic/lore reveal.
 
 ### Starting state
-- the party has copied the western mural, including the huge city and northern Crest-marked structure;
-- those discoveries remain unresolved;
+- the party has passed through the Archive entrance and is continuing deeper into the complex;
 - the kidnapped people at the Old Bastion are still the immediate priority;
 - no Black Host presence has been found in the Archive;
 - Torren still believes the general route is useful but cannot promise where it exits;
@@ -360,21 +286,21 @@ Use a combination of:
 - blocked side routes that make the surviving forward path increasingly constrained;
 - non-Host random encounters and environmental hazards under encounter/area authority.
 
-The player should get a **meaningful exploration stretch**, not a hallway directly from mural to boss.
+The player should get a **meaningful exploration stretch**, not a hallway directly from the entrance threshold to the boss.
 
-### No second lore payoff
-Beat 7 must not compete with Beat 6.
+### No cartographic replacement
+Beat 7 must not quietly replace the retired B06 reveal.
 
 Do not add:
-- another map or complete route-network reveal;
+- a map or complete route-network reveal;
 - readable exposition records explaining the Archive;
-- the identity/history of the city at modern Caelora;
-- an explanation of the Crest-marked northern structure;
+- a reveal filling in the Wayfinder's broken Caelora-area center;
+- a Crest-marked cartographic structure;
 - a named Ancient civilization lecture;
 - Black Host transfer records;
 - a secret passage reveal before Beat 9.
 
-Environmental storytelling may reinforce the Archive's preservation/storage function, but it should not answer the mural's questions.
+Environmental storytelling may reinforce the Archive's preservation/storage function, but it should not become a substitute cartographic lore dump.
 
 ### Something is disturbing the depths
 As the party advances, physical evidence begins to show that the flooded depths are not completely still.
