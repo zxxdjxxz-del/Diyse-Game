@@ -1,26 +1,28 @@
 {
   "schema": "diyse_scene_authority_spec_v1",
-  "scene_id": "CH03_BEAT06_SCHOLAR_IN_REDACTED_STACKS",
+  "scene_id": "CH03_BEAT06_SCHOLAR_IN_REDACTED_STACKS_NIMERA_JOINS",
   "chapter_id": "chapter_03",
-  "story_position": "Chapter 3 — Beat 6 — Scholar in Redacted Stacks",
-  "production_ready": false,
+  "story_position": "Chapter 3 — Beat 6 — Scholar in Redacted Stacks / Nimera Joins",
+  "production_ready": true,
   "participants": ["cyanis", "ilyra", "torren", "nimera"],
   "authoring_mode": "rehearsal_first_agent_driven",
-  "director_rule": "Supply the situation, personal knowledge, hard outcomes and reveal boundaries only. Do not prescribe speaker order, conversational checkpoints, jokes, corrections, or which character must verbalize each structural contribution.",
+  "director_rule": "Supply only the live situation, current knowledge, hard outcomes, relationship state, and reveal boundaries. Use the current runtime Agent Brains. Do not recreate the retired Ancient Barrier, script a ceremonial recruitment speech, assign every plot point to a speaker, sanitize Nimera, or import later Torren/Nimera familial shorthand.",
   "scene_context": {
-    "location": "Old City archives — deeper redacted-stacks work section",
-    "situation": "Cyanis, Ilyra and Torren have deliberately reached the section where Nimera Pellan is working. An Ancient physical-magical barrier has enclosed her work area. Nimera is uninjured, active and still working. Normal Crown controls do not reopen it. Mirena sent the trio to consult Nimera about Cyanis's abnormal Card and bounded evidence from the unauthorized royal-seal response investigation.",
-    "party_state": "cyanis_ilyra_torren outside; nimera enclosed but safe; maevra remains in Caelora with Mirena",
-    "card_state": "Cyanis physically carries the abnormal green-and-gold Card; it remains unclassified",
-    "presentation": "economical triggered portrait scene over physical magical-fantasy Old City staging; no combat"
+    "location": "Old City Archives — Redacted Stacks work section",
+    "situation": "Cyanis, Ilyra and Torren deliberately find Nimera Pellan actively working in the deeper stacks. She is not trapped. Mirena sent the trio to consult her about Cyanis's abnormal Card and the impossible royal-seal response. Useful evidence is likely deeper in the Archives.",
+    "party_state_start": "cyanis_ilyra_torren; maevra remains in Caelora with Mirena",
+    "party_state_end": "cyanis_ilyra_torren_nimera permanent",
+    "card_state": "Cyanis physically carries the abnormal unstable green-and-gold Card; unclassified",
+    "presentation": "economical triggered portrait scene over active archive work area; no mandatory combat"
   },
   "hard_outcomes": [
-    "The trio meets Nimera Pellan as a capable working scholar, not a helpless rescue target.",
-    "The group understands that the barrier is an Ancient responsive mechanism outside normal Crown archive control and that Nimera has already tried reasonable non-destructive modern approaches.",
-    "Nimera learns the bounded reason Mirena sent the trio: Cyanis's abnormal Card and the genuine royal magical authority response appearing on unauthorized orders.",
-    "No one solves or classifies the Card or royal-seal anomaly.",
-    "The characters acquire enough complementary observations to treat the barrier as a shared solvable problem.",
-    "The barrier remains closed at the end and Beat 7 owns the actual release."
+    "Nimera is encountered as a capable working scholar and Card specialist, not a rescue target.",
+    "No Ancient Barrier exists in this beat or as the reason the party needs Nimera.",
+    "Nimera learns the bounded Card-separation facts and the genuine royal magical authority response appearing on unauthorized orders.",
+    "Nimera distinguishes records/evidence from conclusions and refuses unsupported classification.",
+    "Useful older evidence is established as being deeper in the Archives.",
+    "Nimera chooses to accompany the group because she wants direct evidence and becomes a permanent party member before Beat 7.",
+    "The active permanent field party at the end is Cyanis, Ilyra, Torren and Nimera."
   ],
   "knowledge_and_reveal_boundaries": [
     "No Prime classification.",
@@ -28,12 +30,17 @@
     "No Last Sentinel wording or identity.",
     "No stable deep-Ruby state.",
     "No confirmed bearer or ownership status.",
-    "No proof that modern Crests descend from Diysean craft or that Cyanis has Ancient authority.",
     "No royal-seal culprit or exact magical mechanism.",
     "No Calder hidden-role reveal.",
-    "No Cresthaven reveal.",
-    "No permanent Nimera recruitment."
+    "No Cresthaven or northern-tower reveal.",
+    "No Crest Magus access or expertise for Cyanis in Chapter 3."
   ],
+  "true_voice_requirements": {
+    "nimera": "Use live Agent Brain. High/frequent/casual/precise profanity integrated into thought; 15–35% long-form anti-sanitization calibration across a large corpus, not a per-scene quota. Allow vulgar/profane metaphor followed by accuracy-driven correction. Let her hold the floor when interested.",
+    "torren": "Chapter-3 social comfort with Cyanis/Ilyra remains. With Nimera this is first contact: field judgment versus records reasoning, reciprocal correction, mild irritation/comedy, early respect, no paternal shorthand.",
+    "ilyra": "Dry, curious, skeptical, sometimes sharply profane. Do not turn her into therapist, mother, automatic safety monitor or scene moral.",
+    "cyanis": "Crest Knight only in Chapter 3. Practical/social, not automatic plot-summary voice. Moderate natural profanity and normal humor are available."
+  },
   "character_brains": [
     "external-services/canary/brains/cyanis.yaml",
     "external-services/canary/brains/ilyra.yaml",
@@ -41,17 +48,20 @@
     "external-services/canary/brains/nimera.yaml"
   ],
   "workflow_locks": [
-    "docs/03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md",
-    "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
-    "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md"
+    "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md",
+    "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+    "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md"
   ],
   "forbidden_presentation": [
-    "nimera_as_helpless_rescue_target",
-    "computer_network_or_software_language_for_ancient_mechanism",
-    "combat_or_timed_hazard",
-    "full_barrier_solution_in_beat_6",
-    "chapter_1_2_exposition_dump",
-    "party_roll_call",
-    "characters_verbalizing_the_scene_checklist"
+    "ancient_barrier",
+    "nimera_trapped_or_helpless",
+    "formal_recruitment_interview",
+    "recruitment_due_to_gratitude_or_order",
+    "sanitized_nimera",
+    "solemn_archive_girl",
+    "torren_nimera_paternal_or_familial_behavior",
+    "ilyra_as_automatic_safety_or_care_proxy",
+    "crest_magus_chapter_3_expertise",
+    "characters_reciting_the_scene_checklist"
   ]
 }
