@@ -60,7 +60,7 @@ Cyanis looks toward the route onward.
 
 Cyanis exhales.
 
-**CYANIS:** Naturally.
+**CYANIS:** Of fucking course.
 
 Player control resumes.
 
@@ -100,7 +100,7 @@ Ilyra watches the water shift again.
 
 Torren readies himself.
 
-**TORREN:** Move.
+**TORREN:** Move. Before it gets worse.
 
 The trio enters.
 
