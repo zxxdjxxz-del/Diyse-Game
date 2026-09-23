@@ -5,7 +5,13 @@
 **Migration date:** September 23, 2026  
 **Primary story authority:** ../../../02_STORY/CHAPTERS/CHAPTER_03.md  
 **Current spoken-line count after tightening:** **544 mandatory + 176 Character-Life = 720 total**  
-**Profanity audit status:** **PENDING POST-TIGHTENING RECOUNT.** The old 48 / 291 Nimera result is retired because the source dialogue has changed substantially.
+**Post-tightening mature-register audit:** **PASS**
+- Nimera — **53 / 249 = 21.3%** — target **20–35%**
+- Cyanis — **21 / 117 = 17.9%** — target **10–19%**
+- Torren — **22 / 124 = 17.7%** — target **9–20%**
+- Ilyra — **15 / 95 = 15.8%** — target **7–16%**
+- Maevra — **1 / 25 = 4.0%** — target **3–8%**
+- Mirena — **3 / 50 = 6.0%** — target **2–7% overall**
 
 ## Authority rule
 
@@ -113,7 +119,7 @@ Current long-form editorial profanity calibration:
 This is an anti-sanitization range, not a per-scene quota or fixed swear interval.
 
 Current Chapter-3 audit:
-> **Post-tightening recount required before closure.**
+> **53 profane Nimera lines / 249 total Nimera lines = 21.3% — PASS.**
 
 Do not mechanically add profanity to force a count. Do not systematically clean fuck/shit/vulgar metaphors into polite wording.
 
@@ -175,14 +181,14 @@ Do not resolve:
 
 ## Runtime status
 
-Source dialogue is structurally current and source-closed, but the next Chapter-3 editorial pass is intentionally reopened for **tightening + mature-register recalibration**.
+Source dialogue is structurally current and the Chapter-3 **tightening + mature-register recalibration pass is complete**.
 
-That pass must:
-- cut repeated reasoning rather than personality;
-- preserve natural floor-holding;
-- reduce mandatory-dialogue redundancy;
-- raise Nimera naturally into the revised **20–35%** long-form band;
-- raise Cyanis, Ilyra, Torren, Maevra, and Mirena toward their current character-specific bands without making their vocabularies/frequencies identical. The two protected First Command Warden messages are compiled as Warden-spoken runtime dialogue in B14.
+Completed results:
+- repeated reasoning was cut rather than personality;
+- natural floor-holding was preserved;
+- mandatory dialogue reduced from **631 to 544 spoken lines**;
+- total Chapter-3 dialogue reduced from **807 to 720 spoken lines**;
+- all current character-specific mature-register bands pass without mechanical swear insertion or equalized vocabularies. The two protected First Command Warden messages are compiled as Warden-spoken runtime dialogue in B14.
 
 The existing game/content/dialogue/current/chapter_03 runtime resources and global manifest remain **stale until regenerated from this source-closed set**.
 
