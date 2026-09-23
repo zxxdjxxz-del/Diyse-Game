@@ -1,6 +1,6 @@
 # Chapter 0 — Encounter Order + Power Register
 
-**Status:** **PLACEMENT REOPENED / POWER COMPLETE / MOVED-ENCOUNTER DIFFICULTY REVALIDATION REQUIRED**
+**Status:** **STRUCTURAL ENCOUNTER DESIGN CLOSED / POWER COMPLETE / NUMERIC DIFFICULTY-RESOURCE VALIDATION DEFERRED**
 
 This file controls the current Chapter-0 encounter order. Historical S001–S006 dialogue files are regeneration/reference sources and do not force obsolete encounter placement.
 
