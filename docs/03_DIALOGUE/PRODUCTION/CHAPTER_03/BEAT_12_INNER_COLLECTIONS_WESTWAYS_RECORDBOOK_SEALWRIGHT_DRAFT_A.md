@@ -92,11 +92,11 @@ The copied map ends.
 
 **TORREN:** Off the page.
 
-**NIMERA:** Important distinction: the route does not end. The copy does. This book is about the Westways, so that tells us absolutely fuck-all about the final destination.
+**NIMERA:** No—look. The route keeps going. The page gives up first. This book's about the Westways; past that, the copyist stopped caring.
 
 **ILYRA:** Apart from north.
 
-**NIMERA:** North we can keep.
+**NIMERA:** North, at least.
 
 ### [GAMEPLAY — INNER COLLECTIONS CONTINUE]
 
@@ -132,15 +132,15 @@ Repeated Crest of Yahtrea impressions.
 
 Nimera studies the attempts.
 
-**NIMERA:** Not proven. Visually close, magical residue everywhere, but a genuine royal authority response? We do not have that. Copying the shape and copying the working authority are not the same damned achievement.
+**NIMERA:** Visually? Damn close. Plenty of magical residue too. But I never saw one answer like the Queen's real seal. Copying the Crest is one trick. Making it answer is another.
 
 **ILYRA:** Same asshole who researched the Hall?
 
 **NIMERA:** Maybe. I want them connected because that makes the story neat, which is exactly why I don't trust it.
 
-**CYANIS:** And still nothing tells us how the Queen's response ended up on the orders.
+**CYANIS:** So we found the workshop, and the orders still don't make any damn sense.
 
-**NIMERA:** Right. Practice, no proven success, identity, or mechanism. A deeply irritating amount of progress.
+**NIMERA:** Exactly. Somebody practiced like hell. Whether they ever got one to work? That's the irritating part.
 
 ### [EXIT]
 
