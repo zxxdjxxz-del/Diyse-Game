@@ -42,7 +42,7 @@ Current Yahtrean timeline:
 - first modern Card activation era begins around **200 YF**;
 - naturally magical births begin around **220 YF**;
 - magical creatures begin returning around **250 YF**;
-- present = **720 YF**.
+- present = **713 YF**.
 
 The reason for the ~200-YF activation timing is intentionally not required to be explained in-game.
 
