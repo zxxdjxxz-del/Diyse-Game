@@ -8,21 +8,21 @@
 
 | Order | Canonical slot | Atomic source | SHA-256 |
 |---:|---|---|---|
-| 1 | P01 | `P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md` | `37bd5554a982bb8d7984b9f4b324cadd68c624b169c8bb5e6e51290f5f45b917` |
+| 1 | P01 | `P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md` | `6400086443d8ceda4b330bdfbc2159701c4df3b3a0643e4282b81d395562db94` |
 | 2 | P02 | `P02_WRECK_FIELD_REHEARSAL_FIRST_DRAFT_A.md` | `385de62d34ebc90d6ea48deb7b65faed3501413ca3a5c877b26c71a83e563ea8` |
 | 3 | P03 | `P03_EVACUATION_RELAY_DECISION_REHEARSAL_FIRST_DRAFT_A.md` | `5ea2f9aa605e768f5edc6050a7db6d413cf70ed0dc604503459cc02005126f51` |
 | 4 | P04 | `P04_FIELD_TRIAGE_ILYRA_FIRST_FLARE_REHEARSAL_FIRST_DRAFT_A.md` | `4cdf72d5880ff5ce670987a048cdcf73936cf44c27344c17601b8ee636edbb51` |
 | 5 | P05 | `P05_CONCEALED_RUIN_VANGUARD_REHEARSAL_FIRST_DRAFT_A.md` | `1aca75d81ff4441ca673b6c05654449bfbac93ae69791a4f4faa32f5bc0de32d` |
 | 6 | P06 | `P06_RIFTMAW_WAR_SORCERER_REHEARSAL_FIRST_DRAFT_A.md` | `dbace2ab3d2eb6ef2286307f107f43718c356e88f81ea84002267001a8c9cc97` |
 | 7 | P07 | `P07_AFTERMATH_SURVIVOR_RECOVERY_REHEARSAL_FIRST_DRAFT_B.md` | `c71457f84bec26015d04638fc92d7d727a001264f3d6ef0306e2559d6c724b01` |
-| 8 | C01 — Six Minutes | `C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md` | `e9bc8be606fc1eff08185865a6b3f1af0ceed753c50f0ddcc607559054d9eaf3` |
+| 8 | C01 — Six Minutes | `C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md` | `7e9c1840ef85a80757ecc4742775a73a0ca88cf218889c6380c9fa6756e8e972` |
 
 ---
 
 ## P01
 
 **Atomic source:** `P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `37bd5554a982bb8d7984b9f4b324cadd68c624b169c8bb5e6e51290f5f45b917`
+**Source SHA-256:** `6400086443d8ceda4b330bdfbc2159701c4df3b3a0643e4282b81d395562db94`
 
 # Chapter 0 — P01
 # Convoy / Opening Ambush
@@ -94,7 +94,7 @@ The officer looks up the road.
 
 **CONVOY OFFICER:** Road could just be empty.
 
-**CYANIS:** Could be. Still feels wrong as hell.
+**CYANIS:** Could be. Still feels crooked as shit.
 
 A beat.
 
@@ -1558,7 +1558,7 @@ The player may remain in cleanup or use the later explicit **Continue to Bracken
 ## C01 — Six Minutes
 
 **Atomic source:** `C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `e9bc8be606fc1eff08185865a6b3f1af0ceed753c50f0ddcc607559054d9eaf3`
+**Source SHA-256:** `7e9c1840ef85a80757ecc4742775a73a0ca88cf218889c6380c9fa6756e8e972`
 
 # Chapter 0 — Character-Life C01
 # Six Minutes
@@ -1584,7 +1584,7 @@ Ilyra notices.
 
 **ILYRA:** That bad?
 
-**CYANIS:** Horse shit would be better. Whose tea is this?
+**CYANIS:** Boiled ass would be better. Whose tea is this?
 
 Ilyra's eyes drop to the cup.
 
