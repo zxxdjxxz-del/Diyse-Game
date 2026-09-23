@@ -1,65 +1,165 @@
-# Chapter 3 — Ordinary / Elite / Lawful Encounter Power Register
+# Chapter 3 — Current Enemy Power / Raw Register
 
-**Status:** **MAIN LINE-COMPLETE BATCH PASS / ONE ROSTER PLACEMENT OPEN**
+**Structural status:** **CLOSED — CURRENT ROSTER / ROLES / PLACEMENT / FORMATION COMPOSITION**  
+**Numeric status:** **REVALIDATION REQUIRED — RAW BODIES / ENCOUNTER WEIGHTS / FREQUENCIES / FINAL DIFFICULTY**  
+**Current authority date:** 2026-09-23
 
-## Ordinary identities
+This register reflects the current revised Chapter-3 route only. Historical enemies and retired Caelora/road encounter structures are not active Chapter-3 content.
 
-| Enemy | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Direct-damage Powers |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| Way-Fort Marauder | 9 | 270 | 51 | 18 | 31 | 25 | 29 | 0 | 5 | 145 / 170 |
-| Rift Boltman | 9 | 225 | 49 | 26 | 27 | 25 | 32 | 5 | 5 | 150 / 155 Lightning |
-| Black Host Ward-Sorcerer | 10 | 250 | 30 | 59 | 28 | 37 | 28 | 0 | 10 | 165 Lightning / 160 Ruin |
-| Archive Scribe Engine | 10 | 315 | 38 | 56 | 32 | 38 | 27 | 0 | 10 | 155 / 120 AoE |
-| Judgment Frame | 11 | 365 | 58 | 52 | 41 | 39 | 23 | 0 | 10 | 175 / 135 AoE / 195 |
-| Erasure Wisp | 10 | 210 | 18 | 61 | 22 | 38 | 36 | 10 | 10 | 160 Ruin / 120 AoE |
-| Command Guard Frame | 11 | 345 | 56 | 47 | 39 | 38 | 28 | 0 | 10 | 165 / 155 Lightning |
-| Authority Lens | 11 | 235 | 20 | 63 | 25 | 42 | 31 | 5 | 10 | 160 / 115 Lightning AoE |
-| Command Ring Drone | 11 | 255 | 24 | 52 | 30 | 36 | 34 | 5 | 10 | 135 |
+## Active ordinary identities
 
-## Lawful/nonlethal
+### Old City Archives
 
-Confrontation I:
-- Ivory Watch Guard — Lv10 / HP330 — 140 /155 / Guard N/A
-- Royal Polearm Officer — Lv11 / HP390 —175 /125 AoE /160
-- Ivory Crossbow Sentinel — Lv10 / HP265 —145 /170 / Reload N/A
-- all 0-HP resolutions are nonlethal
+| Enemy | Current role | Existing numeric basis | Direct-damage grammar |
+|---|---|---|---|
+| Judgment Frame | durable enforcement anchor | Ch3 raw line provisional | Judgment Strike 175 / Adjudication Pulse 135 AoE / Enforcement Crush 195 |
+| Erasure Wisp | fast fragile Ruin pressure | Ch3 raw line provisional | Erasure Touch 160 Ruin / Empty Pulse 120 AoE |
+| Authority Lens | inspection / classification support | Ch3 raw line provisional | Authority Ray 160 / Classification Flash 115 Lightning AoE |
+| Archive Current | late-Archive Lightning carryover | Ch2 body requires Ch3 revalidation | Current Arc 140 Lightning / Archive Surge 105 Lightning AoE |
 
-Order Clerk:
-> noncombat / Power N/A
+### Cresthaven Ancient tower base
 
-Confrontation II:
-- Ivory Adjudicator Sereth — Lv12 /HP950
--190 /135 AoE /175 Lightning with20% Stun
-- Formal Guard N/A
-- encounter ends at **333 HP /35% protected contradiction threshold**
+| Enemy | Current role | Existing numeric basis | Direct-damage grammar |
+|---|---|---|---|
+| Watch Sentry | linked Ballista setup piece | Ch1 body requires Ch3 revalidation | Sentry Strike 120 |
+| Watch Ballista | fixed heavy-shot fixture | Ch1 body requires Ch3 revalidation | Snap Bolt 135 / Marked Heavy Bolt 200 |
+| Command Guard Frame | independent command defender / Stun introduction | Ch3 raw line provisional | Command Blade 165 / Station Pulse 155 Lightning |
+| Authority Lens | shared inspection / accuracy support | Ch3 raw line provisional | Authority Ray 160 / Classification Flash 115 Lightning AoE |
+| Command Ring Drone | Attack / Magic support | Ch3 raw line provisional | Ring Bolt 135 |
 
-False-Warrant Adept:
-> **PLACEMENT UNRESOLVED / DO NOT SPAWN YET**
+**Unique active ordinary identities across Chapter 3: 8.**
 
-## Optional Elite
-Grand Inquisitor Frame:
-- retained Lv14 /HP1,450
--220 /155 AoE /235 Lightning with25% Stun
-- Guard N/A
+Authority Lens appears in both major Ancient locations and counts once as an identity.
 
-## Status rollout
+## Strong normal-pool identities
+
+### Grand Inquisitor Frame
+- location: late Old City Archives / Deep Archives;
+- max 1 per formation;
+- inherited raw body: Lv14 / HP1,200 — **provisional pending current validation**;
+- Inquisitor Lance — 220 Hybrid;
+- Verdict Pulse — 155 Colorless AoE;
+- Lock Sequence — 235 Lightning, **no Chapter-3 Stun**;
+- Inquisitor Guard — Power N/A.
+
+### Watch Captain Frame
+- location: Cresthaven tower base;
+- max 1 per formation;
+- Chapter-1 raw body requires Chapter-3 four-person retuning;
+- Captain Edge — 175;
+- Signal Burst — 125 AoE;
+- Locking Thrust — 210;
+- Watchline Guard — Power N/A.
+
+## Mandatory bosses
+
+### Archive Scribe Engine — Beat 11
+- one continuous HP bar;
+- one targetable body;
+- no adds / phases / separate targetable arms;
+- former Lv10 / HP315 ordinary body is retired for Chapter-3 boss use;
+- boss raw body remains open for validation;
+- Scribe Beam — 155 Colorless;
+- Index Burst — 120 Colorless AoE;
+- Record Stabilization — Power N/A;
+- no harmful-status rider.
+
+### First Command Warden — Beat 14
+- one continuous HP bar;
+- Imposed Authority → Challenged Authority at 45% on the same bar;
+- Command Seal retained;
+- interruptible Command Ring / Major Ruling retained;
+- Recorded Analogue is retired;
+- inherited Lv14 / HP2,850 body is historical only;
+- final body / Ring durability / fight length require validation.
+
+Retained provisional Powers:
+- Authority Lance — 190;
+- Judgment Pulse — 140 AoE;
+- Seal Reprisal — 100;
+- Major Ruling — 210 AoE + 15% Stun;
+- Warden Crush — 245;
+- Challenged Verdict — 230 Hybrid, no status;
+- Command Collapse — 165 AoE + 15% Stun.
+
+## Regional Hunt #3 — Archive Judgment Engine
+- cleanup-only optional Hunt;
+- one continuous HP bar;
+- one targetable body;
+- no phases / adds / support objects;
+- inherited Lv15 / HP4,928 line and Lv15 recommendation are provisional;
+- Judgment Lance — 245;
+- Archive Verdict — 175 AoE;
+- Lock Verdict — 230 Lightning + 25% Stun;
+- Enforcement Crash — 270 Hybrid;
+- Record Guard — Power N/A.
+
+## Chapter-3 status rollout
+
 Chapter 3 introduces:
 > **Stun**
 
-Current Chapter-3 Stun sources:
-- Rift Boltman Shock Bolt20%
-- Ward-Sorcerer Ward Spark15%
-- Command Guard Frame Station Pulse15%
-- Authority Lens Classification Flash10%/target
-- Ivory Adjudicator Procedural Shock20%
-- Grand Inquisitor Lock Sequence25%
+Current active Chapter-3 Stun sources:
+- Command Guard Frame — Station Pulse, 15%;
+- First Command Warden — Major Ruling, 15% per target;
+- First Command Warden — Command Collapse, 15% per target;
+- Archive Judgment Engine — Lock Verdict, 25%.
 
-Bleed remains available.
+Not Chapter-3 Stun sources:
+- Authority Lens;
+- Grand Inquisitor Frame;
+- Judgment Frame;
+- Erasure Wisp;
+- Archive Current.
+
+Bleed remains available through already-established mechanics such as Watch Ballista's Marked Heavy Bolt.
 
 Freeze remains reserved for Chapter 4.
 
-## Current open item
-Only one Chapter-3 roster issue remains:
-> **False-Warrant Adept placement/role**
+## Retired / non-active Chapter-3 combat identities
 
-It is not evidenced in line-complete S018 and is not silently inserted.
+Retired from Chapter 3:
+- Way-Fort Marauder;
+- Rift Boltman;
+- Black Host Ward-Sorcerer.
+
+Archive Scribe Engine is retired from **ordinary/random** use and exists only as the Beat-11 mandatory boss in Chapter 3.
+
+## Historical lawful/nonlethal material — no current Chapter-3 placement
+
+The following authored identities/files may remain as historical design material, but they are not part of the current mandatory or random Chapter-3 encounter structure:
+- Ivory Watch Guard;
+- Royal Polearm Officer;
+- Ivory Crossbow Sentinel;
+- Order Clerk;
+- False-Warrant Adept;
+- Ivory Adjudicator.
+
+Do not include them in current Chapter-3 encounter counts, EXP pressure, formation design, or mandatory-vs-completionist certification unless explicitly reintroduced later.
+
+## Closure boundary
+
+Structurally closed:
+- active enemy roster;
+- area assignments;
+- ordinary / Elite / boss / Hunt roles;
+- Beat-7 through Beat-10 Old City formation compositions;
+- Cresthaven formation compositions;
+- body-count ceilings;
+- boss architecture;
+- Chapter-3 Stun-source assignment.
+
+Still open:
+- mandatory / completionist level anchors;
+- Chapter-3 carryover raw-stat retuning;
+- Archive Scribe Engine boss raw body;
+- First Command Warden raw body / Ring durability;
+- Archive Judgment Engine final cleanup tuning;
+- final encounter frequencies / selection weights;
+- final difficulty certification.
+
+Formation authority:
+`../ENCOUNTER_FORMATIONS/CHAPTER_03_FORMATIONS.md`
+
+Validation authority:
+`../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_03_MANDATORY_COMPLETIONIST_VALIDATION.md`
