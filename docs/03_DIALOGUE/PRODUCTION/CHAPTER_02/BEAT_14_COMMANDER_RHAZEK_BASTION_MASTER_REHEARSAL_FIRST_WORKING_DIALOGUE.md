@@ -108,35 +108,17 @@ Cyanis keeps his attention on Rhazek.
 
 **CYANIS:** And the people downstairs?
 
-Rhazek looks at him.
-
-**RHAZEK:** Their status has not changed.
-
-Cyanis stares at him.
-
-**CYANIS:** It has.
-
-**RHAZEK:** You have control of the galleries and enough force to prevent us retaking them during withdrawal.
-
-A beat.
-
-**RHAZEK:** That is a change in control. Not in the legitimacy of the order.
+**RHAZEK:** You control the galleries now. That does not make my order illegitimate.
 
 Ilyra's expression goes still.
 
 **ILYRA:** You really believe that.
 
-Rhazek looks at her.
-
 **RHAZEK:** Yes.
-
-No hesitation.
-
-No hidden apology.
 
 Torren gives a short, disgusted exhale.
 
-**TORREN:** There it is.
+**TORREN:** There it fucking is.
 
 Rhazek turns his attention back to the withdrawing fort.
 
@@ -206,25 +188,13 @@ Cyanis waits.
 
 Torren finishes looking.
 
-**TORREN:** Yeah.
+**TORREN:** Route's good. Wide enough for the injured.
 
-**CYANIS:** Everybody?
-
-Torren nods.
-
-**TORREN:** Wide enough. Maintained ground. We can move the injured through here.
-
-Ilyra looks back toward the lower levels.
-
-**ILYRA:** Good.
-
-Cyanis turns with her.
+Cyanis turns toward the lower levels.
 
 **CYANIS:** Then we go get them.
 
 Torren is already moving.
-
-**TORREN:** Yeah.
 
 ### [GAMEPLAY HANDOFF]
 
