@@ -60,7 +60,7 @@ Torren stops at a partially collapsed storage room where later flooring has brok
 
 Below the Crown floor is a much older stair and fitted wall.
 
-**ILYRA:** That's really fucking subtle.
+**ILYRA:** Subtle as hell.
 
 **NIMERA:** It was subtle while a floor was sitting on it.
 
@@ -100,7 +100,7 @@ They reach a chamber where the outer foundation curve continues beyond the visib
 
 **TORREN:** There.
 
-**CYANIS:** The tower was this fucking wide?
+**CYANIS:** The tower was this damn wide?
 
 **TORREN:** Foundation was.
 
@@ -112,7 +112,7 @@ Nimera looks around.
 
 **NIMERA:** No. Big is not a function. Important-looking is not a function either, before anybody tries that shit.
 
-**CYANIS:** I hadn't fucking said anything.
+**CYANIS:** I hadn't said a damned thing.
 
 **NIMERA:** Preventive maintenance.
 
@@ -132,7 +132,7 @@ A large Diysean construct stands dormant.
 
 Torren stops.
 
-**TORREN:** That one's fucking intact.
+**TORREN:** That one's intact.
 
 **NIMERA:** Large, armed, not moving. I am not upgrading that to safe.
 
@@ -164,7 +164,7 @@ The Warden's posture hardens.
 
 Its weapon rises.
 
-**TORREN:** Answer's a hard fucking no.
+**TORREN:** Answer's a hard no.
 
 **NIMERA:** Apparently we're unacceptable. Rude.
 
@@ -224,7 +224,7 @@ She looks at the dead construct.
 
 **CYANIS:** What the fuck does that mean?
 
-**NIMERA:** Not a fucking clue.
+**NIMERA:** Not a damned clue.
 
 ### [ONLY AFTER THE WARDEN IS INERT — THE CARD]
 
@@ -244,7 +244,7 @@ Then stops.
 
 **CYANIS:** It's staying.
 
-**ILYRA:** Same fucked-up feeling as Brackenwall?
+**ILYRA:** Same ugly feeling as Brackenwall?
 
 **CYANIS:** No. I feel normal.
 
