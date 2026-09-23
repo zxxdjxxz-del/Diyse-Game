@@ -37,15 +37,15 @@ Chapter 1 does not use Brackenwall Reaver in this pool.
 
 | Formation | Composition | Weight |
 |---|---|---:|
-| **Sentry Pair** | 2 Hollow Watch Sentries | 30% |
-| **Watch Line** | 2 Hollow Watch Sentries + 1 Hollow Watch Ballista | 45% |
-| **Crossfire Post** | 1 Hollow Watch Sentry + 2 Hollow Watch Ballistae | 25% |
+| **Sentry Pair** | 2 Watch Sentries | 30% |
+| **Watch Line** | 2 Watch Sentries + 1 Watch Ballista | 45% |
+| **Crossfire Post** | 1 Watch Sentry + 2 Watch Ballistae | 25% |
 
 ### Strong normal-pool entry — Watch Captain Frame
 Watch Captain Frame is no longer an optional side-room Elite. It belongs to the lower Hollow Watch encounter pool as a strong construct encounter.
 
 Current structural placement:
-- Heavy-tier formation: **Watch Captain Frame + Hollow Watch Sentry + Hollow Watch Ballista**.
+- Heavy-tier formation: **Watch Captain Frame + Watch Sentry + Watch Ballista**.
 
 Its **final selection weight is OPEN** until the mandatory level/progression rebalance is complete. Do not use the current chapter-tier percentages as final difficulty certification.
 
@@ -277,8 +277,8 @@ No northern-Briar formation uses hidden focus-fire. Single-target enemy actions 
 - Ruin Shieldbearer
 
 **Hollow Watch — constructs**
-- Hollow Watch Sentry
-- Hollow Watch Ballista
+- Watch Sentry
+- Watch Ballista
 - Watch Captain Frame
 
 **Removed from active Chapter-1 formations**
