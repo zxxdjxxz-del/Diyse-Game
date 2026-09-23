@@ -100,6 +100,15 @@ Current ordinary pool uses:
 
 First Command Warden remains the mandatory boss at the end of the short Cresthaven tower-base dungeon.
 
+### First Command Warden current structural target
+- one continuous HP bar;
+- same-bar 45% Imposed Authority → Challenged Authority shift;
+- Command Seal retained;
+- Command Ring / Major Ruling retained;
+- Recorded Analogue / copied-action behavior retired;
+- no Staggered rider;
+- current inherited raw body / Ring durability / round targets are historical only and require fresh Beat-14 testing.
+
 ### Exit / chapter close
 Beat 12 uses a hard cut upstairs after the player leaves the Sealwright Chamber:
 - no playable return traversal;
