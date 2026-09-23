@@ -172,8 +172,14 @@ conversation_model:
     - accepts_later
     - does_not_force_disclosure
   profanity: moderate_dry_and_sometimes_unexpectedly_sharp
-  profanity_texture: favors_dry_hell_shit_bullshit_asshole_and_cutting_insult_with_fuck_as_a_rare_sharp_spike
-  profanity_long_form_calibration: roughly_5_to_12_percent_of_spoken_lines_across_large_corpus_not_per_scene
+  profanity_texture: composed_dry_register_favoring_hell_shit_bullshit_asshole_prick_bastard_and_precise_anatomical_bluntness_with_fuck_as_a_sharp_but_fully_available_spike
+  profanity_long_form_calibration: roughly_7_to_16_percent_of_spoken_lines_across_large_corpus_not_per_scene
+  profanity_construction:
+    - calm_delivery_can_make_a_filthy_or_cutting_line_funnier
+    - medical_and_anatomical_precision_can_support_blunt_vulgarity_without_reducing_her_to_medic_jokes
+    - insult_is_often_specific_and_economical_not_a_tirade
+    - fatigue_and_private_trust_can_loosen_language
+    - may_answer_nimera_in_kind_or_reuse_a_shared_obscene_phrase_without_matching_nimeras_density
   guardrail: Grace_is_not_a_dialogue_assignment
 
 decision_model:
