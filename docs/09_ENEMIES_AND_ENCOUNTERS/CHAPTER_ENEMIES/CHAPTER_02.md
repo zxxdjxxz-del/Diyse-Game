@@ -101,7 +101,7 @@ Owning validation:
 
 ## Chapter-2 roster correction — 2026-09-23
 - Vault Sentinel is removed from active Chapter-2 placement.
-- Hollow Watch Sentry carries over from Chapter 1 into the Sunken Archive as the familiar baseline Diysean security construct.
+- Watch Sentry carries over from Chapter 1 into the Sunken Archive as the familiar baseline Diysean security construct.
 - This carryover is intended to create ancient-civilization continuity rather than introduce a second near-duplicate heavy guardian identity.
 
 
@@ -145,7 +145,7 @@ Current Sunken Archive construct roster:
 - **Memory Scribe**
 
 Removed from active Chapter-2 placement:
-- **Hollow Watch Sentry** — remains a Chapter-1 Hollow Watch identity; do not carry it into the Sunken Archive.
+- **Watch Sentry** — remains a Chapter-1 Hollow Watch identity; do not carry it into the Sunken Archive.
 - **Archive Duplicant** — removed from Chapter 2; retained only as reusable design material for later explicit placement.
 
 Design intent:
