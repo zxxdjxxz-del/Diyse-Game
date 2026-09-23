@@ -146,7 +146,12 @@ The old lawful-authority confrontation chain is not part of the current mandator
 
 ### First Command Warden
 - mandatory Beat-14 Cresthaven tower-base boss;
-- current story intent remains one HP bar unless battle authority revises it;
+- **one continuous HP bar**;
+- same-bar Imposed Authority → Challenged Authority shift at 45%;
+- State A uses Command Seal plus interruptible Command Ring / Major Ruling;
+- former Recorded Analogue / copied-action system is retired;
+- State B drops new Seals / Ring offense and shifts to heavier direct attacks;
+- Stun remains the only Chapter-3 harmful-status rider in its boss kit;
 - assesses the four-person party before attacking;
 - protected exact shutdown message order:
   1. **PREVIOUS ERROR**
@@ -217,7 +222,7 @@ Owning validation:
 Still intentionally open:
 - final Chapter-3 formation selection weights / encounter frequencies;
 - exact Archive Scribe Engine raw boss body / fight-length budget;
-- First Command Warden revalidation at its new Beat-14 location;
+- First Command Warden raw body / Ring durability / fight-length revalidation at Beat 14;
 - final encounter frequencies / weights;
 - mandatory/completionist level anchors and certification.
 
@@ -297,3 +302,14 @@ Archive Current enters only at the late Beat-9 boundary or Beat 10.
 Grand Inquisitor Frame is a rare late pressure spike, max 1 per formation.
 Archive Scribe Engine never random-spawns.
 The immediate Beat-11 boss approach is safe.
+
+
+## First Command Warden combat correction — 2026-09-23
+- one continuous HP bar;
+- Imposed Authority → Challenged Authority at 45% on the same bar;
+- Command Seal retained;
+- interruptible Command Ring / Major Ruling retained;
+- Recorded Analogue / copied-action mechanic retired;
+- Challenged Verdict no longer carries Staggered;
+- Major Ruling and Command Collapse may reinforce Chapter-3 Stun;
+- inherited raw body and round targets require fresh Beat-14 validation.
