@@ -3,10 +3,16 @@
   "scene_id": "CH03_H01_NIMERA_TAKES_OVER_A_TABLE",
   "chapter_id": "chapter_03",
   "story_position": "Chapter 3 cleanup — Character-Life H01 — Nimera Takes Over a Table",
-  "production_ready": false,
+  "production_ready": true,
   "method": "guardrail_first_agent_brain_rehearsal",
-  "participants": ["nimera", "cyanis", "torren"],
-  "optional_participants": ["ilyra"],
+  "participants": [
+    "nimera",
+    "cyanis",
+    "torren"
+  ],
+  "optional_participants": [
+    "ilyra"
+  ],
   "scene_purpose": "Show Nimera behaving as though Cresthaven is somewhere she expects to keep working by naturally occupying most of the records/map table; demonstrate Cyanis and Torren's vicious-but-safe banter in front of her; let Nimera immediately enjoy and join that social dynamic; end with the table still effectively hers without sentimentalizing belonging or escalating plot lore.",
   "story_sources": [
     {
@@ -16,7 +22,11 @@
     },
     {
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
-      "sections": ["Chapter-3 Cleanup Authority", "Character-Life set", "H01 — Nimera Takes Over a Table"],
+      "sections": [
+        "Chapter-3 Cleanup Authority",
+        "Character-Life set",
+        "H01 — Nimera Takes Over a Table"
+      ],
       "role": "cleanup_state_authority"
     },
     {
@@ -39,7 +49,7 @@
     "location_name": "Cresthaven records/maps/investigation room",
     "area_phase": "chapter_3_cleanup",
     "dialogue_readiness": "GREEN",
-    "runtime_note": "Optional cleanup Character-Life scene after Beat 15. Mirena and Maevra have returned to Caelora. Nimera is already working when Cyanis and Torren enter. Keep it low-stakes, lived-in, funny, and short enough to get out after the social/table joke lands. Torren is already socially comfortable with Cyanis, but Nimera is new to him in Chapter 3. Their exchange must stay first-contact friction/curiosity rather than later familial shorthand."
+    "runtime_note": "Optional cleanup Character-Life scene after Beat 15. Mirena and Maevra have returned to Caelora. Nimera is already working when Cyanis and Torren enter. Keep it low-stakes, lived-in, funny, and economical; exit once the table joke and new social dynamic have landed. Torren is socially comfortable with Cyanis, but Nimera is new to him in Chapter 3. Their exchange must stay first-contact friction/curiosity rather than later familial shorthand."
   },
   "hard_outcomes": [
     "Nimera is already working and has occupied most of the communal table through organized useful work rather than mess.",
