@@ -68,8 +68,10 @@ Regional Hunt #3 may unlock during cleanup under its own authority.
 
 These remain compatible with the Archives, but exact sub-area formation eligibility and final weights require a fresh placement pass against the revised Beat-7 through Beat-10 dungeon structure.
 
+### Cresthaven tower-base ordinary identities — current
+- Command-Station Sentry — surviving command-site security construct; current preferred Chapter-3 Stun introduction
+
 ### Recovered identities — current mandatory placement not yet reapproved
-- Command-Station Sentry
 - Authority Lens
 - Command Ring Drone
 - Grand Inquisitor Frame
@@ -85,7 +87,10 @@ They are **not automatically current** in:
 - the skipped Caelora → Cresthaven travel;
 - the short Cresthaven tower-base dungeon.
 
-The Cresthaven short-dungeon ordinary roster must be intentionally designed rather than inherited from the retired Caelora command-route structure.
+The Cresthaven short-dungeon ordinary roster must be intentionally designed rather than inherited wholesale from the retired Caelora command-route structure.
+
+Current approved tower-base identity:
+- Command-Station Sentry
 
 ## Retired random-pool use
 
@@ -200,3 +205,10 @@ Still intentionally open:
 - mandatory/completionist level anchors and certification.
 
 Do not fill these gaps by silently restoring the retired encounter structure.
+
+
+## Cresthaven construct placement correction — 2026-09-23
+- **Command-Station Sentry is approved for the Cresthaven Ancient tower base.**
+- It is removed from Old City Archives placement.
+- Tower Foundation may use it sparingly; Command Interior is its primary home.
+- Station Pulse is the current preferred ordinary-enemy introduction to **Stun** in Chapter 3.
