@@ -35,15 +35,7 @@ The wounded soldier looks at Cyanis.
 
 **WOUNDED SOLDIER:** Rhazek?
 
-Cyanis does not dress it up.
-
-**CYANIS:** Beat him.
-
-A beat.
-
-**CYANIS:** He's alive. Pulled the rest of his people out.
-
-The soldier absorbs that.
+**CYANIS:** Beat him. He's alive, but he pulled his people out.
 
 **WOUNDED SOLDIER:** So they lost it.
 
@@ -63,31 +55,21 @@ People are already standing, gathering what little they have, and helping one an
 
 Ilyra goes back to the people she assessed earlier.
 
-**ILYRA:** All right. Before stairs make anybody ambitious—if you're dizzy, say it. If you can't put weight on something, say it.
+**ILYRA:** Before the stairs make anybody stupid—if you're dizzy or can't put weight on something, say it.
 
 The wounded soldier starts to stand.
 
-Ilyra looks at him.
-
-**ILYRA:** You especially.
-
 **WOUNDED SOLDIER:** I can walk.
 
-**ILYRA:** I know.
-
-She nods toward the Greenhollow man.
-
-**ILYRA:** You're still taking the arm.
+**ILYRA:** Good. You're still taking his arm.
 
 The Greenhollow man steps over.
 
 **GREENHOLLOW MAN:** Happily.
 
-The wounded soldier gives him a look.
-
 **WOUNDED SOLDIER:** You say that now.
 
-**GREENHOLLOW MAN:** I've been listening to you complain for two days. Walking will be quieter.
+**GREENHOLLOW MAN:** I've heard you complain for two days. Walking will be quieter.
 
 That gets a tired laugh from someone nearby.
 
@@ -97,7 +79,7 @@ Maevra looks across the room.
 
 She raises the splinted arm slightly.
 
-**MAEVRA:** And nobody gets heroic because the door's finally open.
+**MAEVRA:** And nobody gets damn heroic because the door's finally open.
 
 Torren glances at the splint.
 
@@ -115,11 +97,7 @@ She almost smiles.
 
 Once everyone who can move is on their feet, Torren addresses the group.
 
-**TORREN:** We're not using the way we came in.
-
-A few prisoners visibly relax.
-
-**TORREN:** Up through the Bastion. East court. Road gate. It's maintained ground all the way out.
+**TORREN:** We're not using the way we came in. Up through the Bastion, east court, road gate. Maintained ground all the way out.
 
 The Dunmere woman looks at him.
 
@@ -165,11 +143,9 @@ She looks at Cyanis.
 
 **DUNMERE WOMAN:** You actually came back.
 
-Cyanis looks at her.
-
 **CYANIS:** Said we would.
 
-She studies him for half a second, then nods.
+She nods.
 
 **DUNMERE WOMAN:** Good.
 
