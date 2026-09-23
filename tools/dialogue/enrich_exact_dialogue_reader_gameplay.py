@@ -116,7 +116,7 @@ def intro_text() -> list[str]:
         if line.startswith("#"):
             break
         out.append(line.replace("**", "").replace("*", "").replace(chr(96), ""))
-    if not out or out[-1] != "If I catch you using it as one, we're going to have a conversation.":
+    if not out or out[-1] != "Mostly not metaphorically.":
         raise RuntimeError("World intro no longer ends on Nimera's approved sign-off")
     return out
 
