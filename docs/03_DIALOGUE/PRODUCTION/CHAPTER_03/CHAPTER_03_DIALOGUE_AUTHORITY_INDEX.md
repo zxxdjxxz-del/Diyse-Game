@@ -137,7 +137,7 @@ Do not reveal/confirm in Chapter 3:
 ## Character / performance authority
 
 Current character/runtime authority remains:
-- Cyanis — Crest Knight / Crest Arcanist;
+- Cyanis — Crest Knight / Crest Magus;
 - Ilyra — Blue Warden / Vowblade;
 - Torren — War Archer / Routeweaver;
 - Nimera — Cardweaver / Proofhunter;
@@ -154,7 +154,7 @@ Verified current brain snapshots:
 - Cyanis — `external-services/canary/brains/cyanis.yaml` — blob `c93f77477c3cbde4c3139c7c3aa191ca574345a8`
 - Ilyra — `external-services/canary/brains/ilyra.yaml` — blob `2c3c05f55535be192b243e52ba139eade3af426e`
 - Torren — `external-services/canary/brains/torren.yaml` — blob `27e81d6b5a1af69d374a72c95de2e10bae55d27b`
-- Nimera — `external-services/canary/brains/nimera.yaml` — blob `60c76625da01b105611426382b39fd9342b88255`
+- Nimera — `external-services/canary/brains/nimera.yaml` — reread live before finalizing each migrated scene
 - Maevra — `external-services/canary/brains/maevra.yaml` — blob `70487ef344c7283a95e5da584328158b9c0a1964`
 - Crown Princess Mirena Ceryth — `external-services/canary/brains/mirena.yaml` — blob `4ccbcb5acac0600e975b9faafaa368ec143282d6`
 
@@ -174,7 +174,7 @@ Current required performance:
 - profanity is **high / frequent / casual / precise** and integrated inside the syntax of her thoughts;
 - spontaneous metaphors/comparisons usually begin **profane, vulgar, bodily, indecent, or socially inappropriate**, then get corrected/qualified aloud if technically wrong;
 - true fury may become cleaner/more formal; genuine vulnerability may become simpler;
-- long-form editorial anti-sanitization calibration: roughly **15–20% of Nimera's spoken lines containing natural profanity across a large enough corpus**, never a per-scene or interval quota;
+- long-form editorial anti-sanitization calibration: roughly **15–35% of Nimera's spoken lines containing natural profanity across a large enough corpus**, never a per-scene or interval quota;
 - never insert swearing mechanically just to hit a count;
 - never clean `fuck`/`shit`/vulgar phrasing into generic polite wording merely because she is scholarly, young, or explaining lore.
 
