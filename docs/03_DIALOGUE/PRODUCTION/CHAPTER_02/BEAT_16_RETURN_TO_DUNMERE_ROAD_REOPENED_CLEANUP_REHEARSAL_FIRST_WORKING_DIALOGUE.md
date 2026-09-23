@@ -192,7 +192,7 @@ Current local state:
 - Rhazek has lost the Old Bastion locally;
 - the Old Bastion no longer functions as a Black Host choke point on the corridor;
 - direct **Greenhollow ↔ Dunmere** travel is reopened for ordinary travel;
-- the western mural, enormous Ancient city, and crest-marked northern structure remain unresolved;
+- the Chapter-1 Wayfinder remains the party's latest major Ancient cartographic evidence; Chapter 2 has added no second map reveal;
 - Maevra remains physically present in Dunmere;
 - Caelora remains the larger journey direction.
 
