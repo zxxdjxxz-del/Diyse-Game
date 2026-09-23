@@ -1,106 +1,202 @@
-# Diyse — Chapter 03 Enemies — Caelora / Suppressed Archives / Old City Command Route
+# Diyse — Chapter 03 Enemies — Caelora / Old City Archives / Cresthaven Tower Base
+
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit story / placement corrections.  
-**Migration rule:** current Chapter-3 story placement and later explicit corrections supersede stale migrated route assumptions.
+**Primary enemy-production authority:** compatible Audit90 / Audit93 plus accepted later tracker roster/action cleanups.  
+**Primary raw-stat authority:** Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135.  
+**Current whole-project written authority:** v2.20 / Audit135, plus later explicit story / encounter corrections.  
+**Current Chapter-3 story authority:** `../../02_STORY/CHAPTERS/CHAPTER_03.md` as revised September 23, 2026.  
+**Migration rule:** the revised 15-beat Chapter-3 story structure supersedes the retired Ancient Barrier / Beat-8 onboarding / Caelora-Warden / old command-route placement assumptions.
 
+## Combat-party chronology
 
-## Ordinary / repeatable
-### Recovered but currently unplaced on the mandatory Chapter-3 route
+- Beats 1–4: Cyanis + Ilyra + Torren are the permanent combat-capable party; Maevra is non-playable.
+- Beat 5 Old City entry: Cyanis + Ilyra + Torren.
+- **Beat 6: Nimera joins permanently.**
+- Beats 6–15: Cyanis + Ilyra + Torren + Nimera are the permanent combat-capable party.
+- Maevra never contributes battle action economy.
+- Mirena is not a combat party member.
+
+## Mandatory-route structure
+
+### Beats 1–4 — Caelora / Crown investigation
+No mandatory combat.
+
+Do not place:
+- hostile Caelora gate encounters;
+- lawful-authority fights;
+- Way-Fort enemies;
+- random road combat.
+
+### Beats 5–12 — Old City Archives
+This is Chapter 3's main dungeon.
+
+Current structural order:
+- Beat 5 — Archive access/descent;
+- Beat 6 — Nimera joins;
+- Beat 7 — Lower Archives;
+- Beat 8 — Buried Collections / recent-reader trail;
+- Beat 9 — Hall of Seals;
+- Beat 10 — Deep Archives;
+- **Beat 11 — Archive Scribe Engine mandatory boss;**
+- Beat 12 — Inner Collections / Westways recordbook / Sealwright Chamber.
+
+There is **no Ancient Barrier** and no Beat-8 Scribe-Engine onboarding fight.
+
+### Beat 13 — return to Mirena
+No mandatory combat.
+
+### Beat 14 — Cresthaven / Ancient tower base
+Normal Cresthaven first, followed by the short Ancient tower-base dungeon and **First Command Warden**.
+
+Current short-dungeon story progression:
+1. Tower Foundation
+2. Command Interior
+3. Warden Chamber
+
+The First Command Warden is the mandatory Beat-14 boss.
+
+### Beat 15 — Cresthaven headquarters / cleanup
+No mandatory mainline combat.
+
+Regional Hunt #3 may unlock during cleanup under its own authority.
+
+## Ordinary / repeatable identities
+
+### Old City Archives — currently retained ordinary identities
+- Judgment Frame
+- Erasure Wisp
+
+These remain compatible with the Archives, but exact sub-area formation eligibility and final weights require a fresh placement pass against the revised Beat-7 through Beat-10 dungeon structure.
+
+### Recovered identities — current mandatory placement not yet reapproved
+- Command-Station Sentry
+- Authority Lens
+- Command Ring Drone
+- Grand Inquisitor Frame
 - Way-Fort Marauder
 - Rift Boltman
 - Black Host Ward-Sorcerer
 
-These identities remain available for later explicit placement or compatible optional content, but **do not currently belong to a mandatory Chapter-3 road/perimeter encounter stretch**.
+These identities remain available for later explicit placement or compatible optional content.
 
-Do not place them in:
-- the lawful Caelora gate approach;
-- Caelora city traversal;
-- the explicitly skipped Caelora → Cresthaven travel cut.
+They are **not automatically current** in:
+- Caelora;
+- the Old City Archives;
+- the skipped Caelora → Cresthaven travel;
+- the short Cresthaven tower-base dungeon.
 
-### Suppressed Archives
-- Archive Scribe Engine
-- Judgment Frame
-- Erasure Wisp
+The Cresthaven short-dungeon ordinary roster must be intentionally designed rather than inherited from the retired Caelora command-route structure.
 
-### Deep Old City / command route
-- Command-Station Sentry
-- Authority Lens
-- Command Ring Drone
+## Retired random-pool use
 
-## Support objects / support identities
-- None
+### Archive Scribe Engine
+**Retired as an ordinary/repeatable enemy.**
 
-## Recovered authored/protected identities — no current mandatory placement
-- Ivory Watch Guard — lawful/nonlethal identity retained
-- Royal Polearm Officer — lawful/nonlethal identity retained
-- Ivory Crossbow Sentinel — lawful/nonlethal identity retained
-- Order Clerk — lawful/nonlethal identity retained
-- False-Warrant Adept — lawful/nonlethal identity retained
-- Ivory Adjudicator — named nonlethal identity retained
-- old S018 lawful-authority confrontation I/II — **not part of the current mandatory 15-beat Chapter-3 route**
+Current role:
+> **mandatory Beat-11 story boss / gatekeeper of the Inner Collections**
 
-The current Caelora gate arrival is lawful and routine. Do not insert these encounters into Beat 1, the royal audience, seal investigation, or palace-to-Old-City handoff unless the story is explicitly revised.
+Do not include Archive Scribe Engine in random formations.
 
-## Strong normal-pool identity
-- Grand Inquisitor Frame — retained enemy identity; optional placement must be explicitly supported by current area design and is not a mandatory-story encounter — folded into the chapter/area normal encounter pool; not optional combat
+## Authored / protected lawful identities — no current mandatory placement
+- Ivory Watch Guard
+- Royal Polearm Officer
+- Ivory Crossbow Sentinel
+- Order Clerk
+- False-Warrant Adept
+- Ivory Adjudicator
+
+The old lawful-authority confrontation chain is not part of the current mandatory Chapter-3 route.
 
 ## Mandatory named / boss
-- First Command Warden — one bar / same-bar command-state shift
+
+### Archive Scribe Engine
+- mandatory Beat-11 Old City Archives boss;
+- procedural Ancient archive/security machinery;
+- no First Command Warden messaging;
+- no PREVIOUS ERROR;
+- no LAST SENTINEL CONFIRMED;
+- no Ruby stabilization;
+- battle numbers/form budget require validation under current four-person Beat-11 party.
+
+### First Command Warden
+- mandatory Beat-14 Cresthaven tower-base boss;
+- current story intent remains one HP bar unless battle authority revises it;
+- assesses the four-person party before attacking;
+- protected exact shutdown message order:
+  1. **PREVIOUS ERROR**
+  2. **LAST SENTINEL CONFIRMED**
+- LAST SENTINEL CONFIRMED is its final message;
+- Warden becomes fully inert;
+- only afterward Cyanis's Card stabilizes deep Ruby;
+- Prime / Might / bearer status / causation remain unresolved.
 
 ## Regional Hunt
 - Regional Hunt #3 — Archive Judgment Engine
+- optional Chapter-3 cleanup content;
+- unlocked through the newly accessible Old City Archive side passage;
+- party: Cyanis + Ilyra + Torren + Nimera;
+- must not solve the main Chapter-3 mysteries.
 
-## Current story-placement firewall
-Current 15-beat Chapter-3 story authority controls actual placement.
+## Story-placement firewalls
 
-- Beat 1 Caelora approach is lawful and has no hostile random road stretch.
-- Beats 2–4 are investigation/audience/seal-custody material, not mandatory combat encounters.
-- Beat 5 Old City access has no major combat requirement.
-- Beat 7 barrier reactivation hands directly into the mandatory Archive Scribe Engine encounter.
-- Beat 8 is the contained onboarding fight in which Nimera becomes battle-available.
-- Suppressed-Archive random formations belong after that activation/encounter state, not before it.
-- Deep command-route formations may use Command-Station Sentries, Authority Lenses, and Command Ring Drones before the First Command Warden.
-- First Command Warden is the current mandatory Chapter-3 boss.
-- Beat 12 exits by direct cut upstairs; there is no playable return traversal or exit combat.
-- Beat 14 → Beat 15 travel to Cresthaven is skipped; there is no Chapter-3 road dungeon or random-encounter stretch there.
-- Maevra is **not** a Chapter-3 battle-party guest. She remains noncombat and stays above with Mirena when Cyanis, Ilyra, and Torren enter the Old City.
+- no hostile mandatory Caelora approach;
+- no Ancient Barrier;
+- Nimera joins in Beat 6, not Beat 8;
+- no mandatory road dungeon between Caelora and Cresthaven;
+- no First Command Warden in Caelora;
+- no random Archive Scribe Engine;
+- no automatic inheritance of the retired Deep Command Route enemy placements;
+- no second route-map encounter/reveal after the Warden;
+- Maevra remains noncombat.
 
-## Current notes
-Chapter-3 direct-damage Power/raw work remains:
-> **POWER COMPLETE**
-
-Summary:
-`../ORDINARY_ENEMIES/CHAPTER_03_POWER_AND_RAW_REGISTER.md`
-
-The retained enemy kits/raw bodies are not automatic placement authority. Current story/area placement must still license an encounter before it appears.
-
-Status rollout:
+## Status rollout
 > **Stun introduced in Chapter 3**
+
+## Direct-damage Power / raw-status note
+
+Existing raw bodies and action Powers remain retained where their identities remain valid, but placement does not follow automatically from retained stats.
+
+The prior direct-damage Power audit remains closed for already-audited identities.
+
+Structural changes requiring fresh encounter validation include:
+- Nimera joining two beats earlier;
+- full four-person party for Beats 7–12;
+- Archive Scribe Engine promoted from ordinary/onboarding context to mandatory Beat-11 boss;
+- First Command Warden moved from Caelora to Cresthaven;
+- retired command-route placement;
+- short Cresthaven dungeon ordinary roster still open.
 
 ## Mandatory-vs-completionist validation status
 
 > **REOPENED / REVALIDATION REQUIRED**
 
-The old v79 validation used superseded assumptions:
-- Maevra as a playable guest combatant;
-- a mandatory hostile-perimeter opening phase;
-- old S018 lawful Caelora confrontations as current route content.
+Validation must use:
+- early Old City: Cyanis + Ilyra + Torren before Beat 6;
+- Beat 6 onward: Cyanis + Ilyra + Torren + Nimera;
+- Maevra noncombat;
+- current dungeon order and current mandatory bosses.
 
-Those assumptions are retired under the current 15-beat chapter.
-
-The direct-damage Power audit remains closed. Encounter validation must be rerun against the current route and current party chronology:
-- before Nimera: **Cyanis + Ilyra + Torren**;
-- after Nimera's Beat-8 onboarding: **Cyanis + Ilyra + Torren + Nimera**;
-- Maevra never contributes battle action economy.
+Do not reuse the old validation that assumed:
+- Maevra as combat guest;
+- hostile Caelora perimeter;
+- Ancient Barrier;
+- Beat-8 Nimera onboarding;
+- First Command Warden in the Caelora command route.
 
 Owning validation:
 `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_03_MANDATORY_COMPLETIONIST_VALIDATION.md`
 
-## Numerical boundary
-Current raw bodies/Powers remain in their owning files pending fresh encounter validation.
+## Current open encounter-design work
 
-First Command Warden remains the current mandatory boss authority.
+Still intentionally open:
+- exact Beat-7 Lower Archives formation composition;
+- exact Beat-8 Buried Collections formation composition;
+- exact Beat-9 Hall-of-Seals formation composition;
+- exact Beat-10 Deep Archives formation composition;
+- exact ordinary enemy roster for the short Cresthaven tower-base dungeon;
+- exact Archive Scribe Engine boss budget;
+- First Command Warden revalidation at its new Beat-14 location;
+- final encounter frequencies / weights;
+- mandatory/completionist level anchors and certification.
 
-Regional Hunt #3 remains separate from the mandatory route.
+Do not fill these gaps by silently restoring the retired encounter structure.
