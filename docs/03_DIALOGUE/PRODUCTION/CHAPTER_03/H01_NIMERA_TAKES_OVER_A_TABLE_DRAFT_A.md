@@ -1,15 +1,15 @@
 # Chapter 3 — Character-Life C06
 # Nimera Takes Over a Table
-## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TRUE-VOICE / ECONOMY PASS
+## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TIGHTENED TRUE-VOICE PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19  
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23  
 **Legacy atomic source key:** H01
 
 ### [OPTIONAL CHARACTER-LIFE TRIGGER — CRESTHAVEN RECORDS / MAP ROOM]
 
 Available during the Chapter-3 cleanup window after Beat 15.
 
-The records room is usable but still newly reopened.
+The records room is usable but newly reopened.
 
 One central table was cleared for shared work.
 
@@ -19,7 +19,7 @@ Not messily.
 
 Aggressively, meticulously, defensibly.
 
-Books, copied notes, labeled scraps, reference sheets, ink, and ordinary archive-working tools sit in distinct little zones. Every pile appears intentional.
+Books, copied notes, labeled scraps, ink, and archive tools sit in distinct working zones.
 
 Nimera is writing.
 
@@ -47,7 +47,7 @@ Then laughs hard enough to put the pen down.
 
 **TORREN:** Didn't.
 
-**NIMERA:** I don't care. Actually—no, continue exactly as you were. I want enough evidence to assign blame properly.
+**NIMERA:** I don't care. Continue. I want enough evidence to assign blame properly.
 
 **CYANIS:** Absolutely not.
 
@@ -57,29 +57,23 @@ Torren reaches the table with a rolled route map.
 
 He stops.
 
-Looks across it.
-
 **TORREN:** Where am I putting this?
 
 **NIMERA:** Anywhere free.
 
-Torren looks again.
+Torren looks across the table.
 
 **TORREN:** There isn't anywhere free.
 
-Nimera looks up, offended by the premise.
+Nimera looks up, offended.
 
-**NIMERA:** That's not true. There are at least four empty surfaces.
+**NIMERA:** That's not true.
 
 Cyanis points to a narrow clear patch.
 
 **CYANIS:** There.
 
-**NIMERA:** Fuck no.
-
-**CYANIS:** Empty.
-
-**NIMERA:** Empty is not available. That's allocated.
+**NIMERA:** Fuck no. That's allocated.
 
 **TORREN:** To what?
 
@@ -97,23 +91,17 @@ Cyanis looks at Torren.
 
 Torren starts lowering the map onto another clear patch.
 
-**NIMERA:** Not there either.
-
-He stops.
-
-**TORREN:** Why?
-
-**NIMERA:** Wet ink beside it. Rolled edge drags through that, transfers the smear, then tomorrow I get to decide whether the mark means something or Harth was impatient.
+**NIMERA:** Not there either. Wet ink.
 
 Torren checks.
 
 She's right.
 
-**TORREN:** Fair.
+**TORREN:** Damn it.
 
 **CYANIS:** Don't encourage her.
 
-**NIMERA:** He isn't encouraging me. He's recognizing objective reality.
+**NIMERA:** He's recognizing objective reality.
 
 Torren looks at Cyanis.
 
@@ -129,21 +117,9 @@ Nimera laughs again.
 
 Cyanis starts inspecting the table like an enemy position.
 
-**CYANIS:** This whole end is notes.
+**CYANIS:** Notes. Books. Ink. Your cup has territory.
 
-**NIMERA:** Three different note groups.
-
-**CYANIS:** Books.
-
-**NIMERA:** Two active references, an index, one book that can go fuck itself, and one book still under review.
-
-Cyanis points to a cup sitting in its own clear patch.
-
-**CYANIS:** Your cup has territory.
-
-**NIMERA:** Liquid should not share a damn border with ink and paper. That's civilization.
-
-Torren nods.
+**NIMERA:** Liquid should not share a damn border with paper. That's civilization.
 
 **TORREN:** Strong argument.
 
@@ -171,19 +147,11 @@ Cyanis stares at her.
 
 **NIMERA:** Correct.
 
-Torren looks at the first empty patch, then the second.
-
 **TORREN:** Future lamp outranks future paper?
 
-Nimera brightens.
+**NIMERA:** Obviously. Fixed requirement versus expected work product.
 
-**NIMERA:** Absolutely. Lamp has a fixed functional requirement tied to light level. Paper is expected work product. Different confidence classes.
-
-Cyanis closes his eyes.
-
-**CYANIS:** I regret being here.
-
-**NIMERA:** You weren't even part of that question.
+**CYANIS:** I regret asking anything.
 
 ### [COMMUNAL]
 
@@ -195,9 +163,9 @@ Cyanis folds his arms.
 
 **CYANIS:** You have taken over the communal table.
 
-**NIMERA:** No. I've taken over most of the usable surface while using it for communal work.
+**NIMERA:** I've taken over most of the usable surface while using it for communal work.
 
-**TORREN:** Mostly took it over.
+**TORREN:** So mostly took it over.
 
 Nimera turns to him.
 
@@ -205,27 +173,9 @@ Nimera turns to him.
 
 **TORREN:** Knew you'd like that.
 
-**NIMERA:** I do. Correct distinctions deserve recognition.
+Cyanis points to a thin pile beneath one book.
 
-**CYANIS:** You are doing communal work. Alone. On the communal table.
-
-Nimera opens her mouth.
-
-Stops.
-
-Looks at the table.
-
-**NIMERA:** That is an irritatingly effective phrasing. I reject the tone and accept the structure.
-
-Cyanis smiles.
-
-**CYANIS:** I win.
-
-**NIMERA:** One sentence. Don't get drunk on it.
-
-Torren points to a thin pile beneath one book.
-
-**TORREN:** What's that?
+**CYANIS:** What's that?
 
 **NIMERA:** Notes I haven't decided are useful.
 
@@ -235,35 +185,23 @@ Torren points to a thin pile beneath one book.
 
 **CYANIS:** Rubbish with ambition.
 
-Nimera pauses.
-
-Looks at the pile.
+Nimera looks at the pile.
 
 **NIMERA:** Shit. That's better.
 
 **CYANIS:** Thank you.
 
-**NIMERA:** You improved one category by accident. Stay humble.
+**NIMERA:** Stay humble.
 
 ### [THE PRACTICAL RESULT]
 
 Torren finally unrolls the map against his own chest.
 
-Cyanis notices.
-
 **CYANIS:** You're using yourself as the table now.
 
 **TORREN:** Works.
 
-**NIMERA:** Adaptation. Problem solved without compromising the system.
-
-**CYANIS:** This is not your victory.
-
-**NIMERA:** I didn't say it was.
-
-A beat.
-
-**NIMERA:** It is, though.
+**NIMERA:** Adaptation. Problem solved.
 
 Cyanis reaches for a chair.
 
@@ -272,10 +210,6 @@ Two books occupy it.
 He looks at Nimera.
 
 **NIMERA:** In use.
-
-**CYANIS:** By you?
-
-**NIMERA:** Yes.
 
 He looks at the next chair.
 
@@ -297,7 +231,7 @@ Nimera calls after him.
 
 **NIMERA:** Your map can go on the window ledge if you put something clean under it.
 
-Torren does not turn around.
+Torren stops.
 
 **TORREN:** Knew there was space.
 
@@ -307,13 +241,11 @@ Cyanis smiles.
 
 **CYANIS:** He got you.
 
-**NIMERA:** No. Window ledge is auxiliary surface. Different jurisdiction.
+**NIMERA:** Window ledge is auxiliary surface. Different jurisdiction.
 
 Cyanis starts walking out.
 
 **CYANIS:** Absolutely not.
-
-**NIMERA:** I can explain exactly why.
 
 From the doorway:
 
@@ -327,15 +259,11 @@ Torren leaves.
 
 Cyanis laughs and follows.
 
-Nimera looks at the paper on the floor.
-
-**NIMERA:** That was blank. It was not part of the system.
-
-Silence.
+Nimera retrieves the paper.
 
 **NIMERA:** Cowardly bastards.
 
-She retrieves it and returns to work.
+She returns to work.
 
 ### [RETURN TO CLEANUP]
 
