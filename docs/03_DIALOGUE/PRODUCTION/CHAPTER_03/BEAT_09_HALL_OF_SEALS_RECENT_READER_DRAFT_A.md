@@ -32,17 +32,9 @@ Nimera opens an old keeper ledger.
 
 **NIMERA:** Probably. Historical model, not direct proof about her specific seal. Keep the qualifier attached or I will physically staple it to the sentence.
 
-**CYANIS:** I heard it.
+**CYANIS:** I fucking heard it.
 
-**NIMERA:** Good. You're trainable.
-
-She stops.
-
-**NIMERA:** No. Retire that. Somebody else already used it better.
-
-Torren looks at her.
-
-**TORREN:** You correct your jokes too?
+**TORREN:** You correct your own jokes too?
 
 **NIMERA:** Especially the bad ones.
 
@@ -56,13 +48,9 @@ Nimera checks one provenance plate twice.
 
 **NIMERA:** Similar physical authority object. Diysean context. Administrative use, apparently. Not Yahtrean royalty, not proven ancestry, and not permission to shove missing centuries up history's ass because two things resemble each other.
 
-**ILYRA:** Broad practice predates Yahtrea.
+**ILYRA:** So the broad practice predates Yahtrea.
 
-**NIMERA:** That I trust.
-
-**CYANIS:** Direct lineage?
-
-**NIMERA:** Not yet.
+**NIMERA:** That I trust. Direct lineage is still a hell of a leap.
 
 ### [RECENT READER]
 
@@ -90,7 +78,7 @@ Nimera follows the citations.
 
 **NIMERA:** Correct. Same subjects does not mean same conclusion. I refuse to crawl up a stranger's ass and invent their theory for them.
 
-**TORREN:** Good policy.
+**TORREN:** Damn good policy.
 
 **NIMERA:** Stop agreeing with me. It's unsettling.
 
