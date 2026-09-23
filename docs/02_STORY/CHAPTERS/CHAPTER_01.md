@@ -285,14 +285,14 @@ Wayfinder Junction is the chapter's actual waystone/cartographic monument.
 - the monument is a map/route object, not a tunnel entrance;
 - the surviving map depicts a broad western portion of ancient Diyse rather than only the Junction corridor;
 - dense **overland routes** intersect and reconnect across the mapped region;
-- a distinct second layer shows extensive **underground infrastructure and routes** beneath / between surface locations; the party can distinguish it from the surface-road layer but cannot yet explain its full purpose;
+- a distinct second system of markings corresponds, in underlying design authority, to **underground infrastructure and routes**, but the Chapter-1 party does **not** identify it as underground; they only recognize that it is a separate, extensive system that does not read like ordinary roads;
 - numerous built-up **city / settlement structures** appear across the western region;
 - the largest visible concentration of urban structures and infrastructure lies around the geography corresponding to **present-day Caelora**;
 - the Wayfinder is physically **broken through that Caelora-area concentration**, so the center of the largest ancient cluster is missing and cannot be reconstructed from this monument;
 - current Face markings appear: **Might / Elements / Grace / Perception / Memory / Ruin**; their map function remains unknown;
 - the local surviving alignment still matches the party's already-planned Dunmere-bound route;
 - water/cistern notation still matches the earlier late Southern Briar side access and makes it worth revisiting;
-- the party copies as much of the surviving western map as practical — broad route relationships, underground-route layer, city clusters, the damaged Caelora-area break, local Dunmere alignment, cistern notation, and Face markings — without inventing the missing center;
+- the party copies as much of the surviving western map as practical — broad route relationships, the unexplained second marking system, city clusters, the damaged Caelora-area break, local Dunmere alignment, cistern notation, and Face markings — without inventing the missing center;
 - late-Chapter-1 Torren/Cyanis **trainable** jab is established here for the Chapter-2 callback;
 - Torren calls for camp and morning departure to Dunmere.
 
@@ -319,7 +319,7 @@ Wayfinder Junction is the chapter's actual waystone/cartographic monument.
 - **CHAPTER 1 END**.
 
 ## Chapter-1 dramatic shape
-**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch / dead garrison → excavation → six-channel human-use clue → forced inner breach → implicit Card-triggered Castellan activation → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → Torren notes an overgrown off-route side access → wild-predator signs → Briarhide Stalker sighting → Briarhide Stalker final boss → Wayfinder Junction payoff → western ancient Diyse revealed as a dense surface-and-underground route/infrastructure network with many city structures → largest cluster converges around present-day Caelora but the Wayfinder is broken through its center → existing Dunmere-bound route is recognized inside the older network → Wayfinder water/cistern notation identifies the earlier Briar-side access as meaningful → Torren calls for camp → optional C03/C04/C05 Character-Life scenes / southern-Briar Cistern Devourer backtrack → next-morning continuation toward Dunmere.**
+**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch / dead garrison → excavation → six-channel human-use clue → forced inner breach → implicit Card-triggered Castellan activation → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → Torren notes an overgrown off-route side access → wild-predator signs → Briarhide Stalker sighting → Briarhide Stalker final boss → Wayfinder Junction payoff → western ancient Diyse revealed as a dense regional route map with many city structures plus a second unexplained marking system → largest cluster converges around present-day Caelora but the Wayfinder is broken through its center → existing Dunmere-bound route is recognized inside the older network → Wayfinder water/cistern notation identifies the earlier Briar-side access as meaningful → Torren calls for camp → optional C03/C04/C05 Character-Life scenes / southern-Briar Cistern Devourer backtrack → next-morning continuation toward Dunmere.**
 
 ## Knowledge firewall
 Chapter 1 must not reveal:
@@ -327,7 +327,7 @@ Chapter 1 must not reveal:
 - Prime identification / manifestation beyond current Card knowledge;
 - explicit explanation of the Card's relationship to the Castellan / ancient authorization systems;
 - giant buried Crest;
-- a complete explanation of what the underground infrastructure / route network was for, how the ancient cities functioned together, or what occupied the missing center around present-day Caelora;
+- identification of the Wayfinder's second marking system as underground infrastructure / routes, any explanation of what that system was for, how the ancient cities functioned together, or what occupied the missing center around present-day Caelora;
 - Entity.
 
 ## Optional handoff
