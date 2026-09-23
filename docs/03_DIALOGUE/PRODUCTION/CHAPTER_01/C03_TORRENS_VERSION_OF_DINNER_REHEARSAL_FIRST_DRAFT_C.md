@@ -12,7 +12,7 @@ Torren made dinner.
 
 It is bad.
 
-Not dangerous. Not a joke recipe. Just hot, filling, cheap, and aggressively indifferent to pleasure.
+Not dangerous. Just hot, filling, cheap, and aggressively indifferent to pleasure.
 
 Torren does not smoke until everyone has finished eating.
 
@@ -23,8 +23,6 @@ Maevra takes one bite.
 Stops.
 
 **MAEVRA:** Oh, no.
-
-Cyanis looks at her bowl, then his.
 
 **CYANIS:** That's a strong opening.
 
@@ -38,8 +36,6 @@ Ilyra studies the food.
 
 **MAEVRA:** No. That's the annoying part.
 
-Torren keeps eating.
-
 **TORREN:** Hot. Safe. Food.
 
 **CYANIS:** That's a shitty standard.
@@ -48,8 +44,6 @@ Torren keeps eating.
 
 Cyanis tries it.
 
-A beat.
-
 **CYANIS:** Huh.
 
 **TORREN:** There.
@@ -57,8 +51,6 @@ A beat.
 **CYANIS:** I didn't say it was good.
 
 **TORREN:** Didn't spit it out.
-
-Ilyra takes a bite.
 
 **ILYRA:** He's got you there.
 
@@ -78,17 +70,11 @@ Torren pauses.
 
 **TORREN:** Tasted like goat before I put it in.
 
-Cyanis looks at him.
-
 **CYANIS:** Before?
 
 **MAEVRA:** Don't.
 
 **TORREN:** It became dinner.
-
-**ILYRA:** That's not reassuring as hell.
-
-**TORREN:** Wasn't supposed to be.
 
 ### [MAEVRA REMEMBERS]
 
@@ -106,23 +92,13 @@ Maevra stirs her bowl.
 
 **TORREN:** Didn't tell him to empty the damn thing.
 
-Cyanis looks between them.
-
 **CYANIS:** And you still ate it?
 
 **MAEVRA:** We were starving.
 
-**TORREN:** You're hungry now.
-
-**MAEVRA:** Still doesn't make you a good cook.
-
-**TORREN:** Never said I was.
-
-Cyanis stops.
+Cyanis looks at Torren.
 
 **CYANIS:** Wait. You know this is bad?
-
-Torren finally looks up.
 
 **TORREN:** Course I do. I can taste.
 
@@ -136,17 +112,11 @@ Ilyra starts laughing.
 
 **TORREN:** Cheap too.
 
-**CYANIS:** That's not helping your case.
+**MAEVRA:** Fuck you.
 
 **TORREN:** Still eating.
 
-**MAEVRA:** Fuck you.
-
-**TORREN:** Same result.
-
 **ILYRA:** Not the same mechanism.
-
-Torren looks at her.
 
 **TORREN:** Going to be a long trip.
 
@@ -155,8 +125,6 @@ Torren looks at her.
 Eventually the bowls are empty.
 
 Torren lights a blunt from the campfire.
-
-Cyanis looks at the blunt, then the empty pot.
 
 **CYANIS:** Does that help with the taste?
 
@@ -183,8 +151,6 @@ Maevra realizes what happened.
 **MAEVRA:** Damn it.
 
 **ILYRA:** Still worth it.
-
-Torren takes another draw.
 
 **TORREN:** Everybody wins.
 
