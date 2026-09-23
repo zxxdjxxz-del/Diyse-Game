@@ -3,13 +3,13 @@
 **Current whole-project written authority:** **v2.20 / Audit135**, plus later accepted active-balance specifications and Chapter-3 cleanup corrections.  
 **Scaling:** fixed authored tuning; no dynamic player-level scaling.
 
-**Recommended Lv:** 15  
-**Status:** **POWER COMPLETE**
+**Recommended Lv:** **PROVISIONAL 15 — REVALIDATION REQUIRED**  
+**Status:** **IDENTITY / PLACEMENT / ONE-BAR ACTION GRAMMAR LOCKED — NUMERIC REVALIDATION REQUIRED**
 
 ## Story access / placement
 - **Archive Judgment Engine is optional Chapter-3 cleanup content.**
-- it becomes available only after the mandatory Old City / First Command Warden sequence is resolved and **Cresthaven has been established as the party's headquarters**.
-- the Hunt is a **return to the Old City Archive complex in Caelora**, using a deeper / side Archive branch that was not part of the mandatory S019–S021 route.
+- it becomes available during **Chapter-3 cleanup**, after the First Command Warden is defeated and **Cresthaven has been established as the party's headquarters**.
+- the Hunt is a **return to the Old City Archive complex in Caelora**, using the newly accessible deeper / side Archive branch that was not part of the mandatory Beat-5 through Beat-12 route.
 - the permanent combat party for the Hunt is **Cyanis + Ilyra + Torren + Nimera**.
 - after the Cresthaven handoff, **Maevra has returned to Caelora with Mirena and is no longer a default traveling companion**; neither Maevra nor Mirena joins this Hunt as a combatant.
 - lawful Crown / archive access may permit the return, but the Hunt does not require either woman to accompany the party through the branch.
@@ -55,5 +55,72 @@ True construct:
 - 2-round repetition lock
 
 ## Architecture
-One HP bar.
-No permanent record/name/player-state alteration.
+- **one continuous HP bar**;
+- one targetable boss body;
+- no phase change;
+- no transformation;
+- no support objects;
+- no add wave;
+- no fresh body;
+- no Prime refresh;
+- no permanent record / name / player-state alteration.
+
+This Hunt is deliberately more straightforward than the First Command Warden.
+
+Combat identity:
+> heavy Archive enforcement / judgment pressure
+
+It does **not** use:
+- Command Seal;
+- Command Ring;
+- Major Ruling;
+- copied-player-action behavior;
+- Warden assessment / Last Sentinel messaging.
+
+## Lineage distinction
+Archive Judgment Engine is the Hunt-scale escalation of the same broad Ancient enforcement lineage as the ordinary **Judgment Frame**.
+
+The escalation is:
+- Judgment Frame — ordinary heavy enforcement chassis;
+- Grand Inquisitor Frame — rare late-Archive Elite pressure spike;
+- Archive Judgment Engine — optional Hunt-scale enforcement machine.
+
+The Hunt is distinguished from Grand Inquisitor by:
+- much larger one-boss durability;
+- stronger direct-damage budget;
+- **Lock Verdict / Stun**;
+- heavier Hybrid finisher;
+- self-guard;
+- no escort formation.
+
+Do not turn the Hunt into a command-site boss or a second First Command Warden.
+
+## Action grammar lock
+Retain exactly:
+- Judgment Lance;
+- Archive Verdict;
+- Lock Verdict;
+- Enforcement Crash;
+- Record Guard.
+
+No additional status or phase mechanic is needed.
+
+## Numerical boundary
+The inherited line:
+> Lv15 / HP4,928 / ATK58 / MAG67 / DEF46 / Spirit48 / SPD28 / EVA0 / SR10
+
+and recommended level:
+> Lv15
+
+are now **provisional starting points**, not current certification.
+
+Chapter-3 party chronology, mandatory encounters, ordinary formation pressure, and cleanup access have changed since the historical tuning.
+
+Fresh validation must determine:
+- actual cleanup mandatory / critical-path level;
+- completionist / high-side level;
+- final HP and raw-stat line;
+- fight-length target;
+- whether provisional Lv15 remains the correct recommendation.
+
+The direct-damage Powers remain retained provisional values unless validation gives a specific reason to reopen them.
