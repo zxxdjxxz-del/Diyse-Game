@@ -84,7 +84,7 @@ Ilyra looks at Cyanis.
 
 Cyanis takes a moment before answering.
 
-**CYANIS:** Fine. Nothing like Brackenwall.
+**CYANIS:** Fine. Nothing like that shit at Brackenwall.
 
 Maevra looks at the now-dark floor geometry.
 
@@ -98,7 +98,7 @@ Ilyra adds only what she actually observed.
 
 Maevra nods.
 
-**MAEVRA:** Then that's all we know.
+**MAEVRA:** Then leave it there.
 
 Torren looks past the fallen Castellan.
 
