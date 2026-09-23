@@ -36,7 +36,7 @@ She moves around the room rather than answering immediately.
 
 She looks at the Ruin mark.
 
-**NIMERA:** And before somebody decides Ruin belongs in the evil fucking corner, it doesn't. Same weight, same placement, same workmanship.
+**NIMERA:** And before somebody decides Ruin belongs in the evil-ass corner, it doesn't. Same weight, same placement, same workmanship.
 
 **TORREN:** Nobody said that shit.
 
@@ -60,13 +60,13 @@ A broad copying gallery contains mechanical arms and record frames frozen in pla
 
 One detached scribing arm shifts when the party crosses.
 
-**ILYRA:** That fucking moved.
+**ILYRA:** That moved.
 
 **NIMERA:** I saw.
 
 **TORREN:** More behind it.
 
-**CYANIS:** Still fucking archive equipment?
+**CYANIS:** Still archive equipment?
 
 Nimera watches the old mechanisms.
 
