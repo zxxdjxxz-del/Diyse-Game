@@ -113,7 +113,10 @@ Required current performance:
 - can correct a correction before yielding;
 - can hold multi-sentence turns while a distinction belongs to her;
 - profanity is **high / frequent / casual / precise** and belongs inside the syntax of her thought;
-- spontaneous metaphors commonly begin vulgar/profane/bodily/indecent and then get corrected if technically wrong;
+- her usable range is intentionally broad: `fuck`, `shit/shitshow/horseshit`, `bullshit`, `damn`, `hell`, `ass/asshole`, `bastard`, `piss/pissed`, plus relationship-appropriate `bitch`, `prick`, `dick/dickhead`, `jackass/dumbass`, `clusterfuck`, `half-assed`, `balls`, improvised compounds, and bodily/sexual/indecent comparisons;
+- spontaneous metaphors commonly begin vulgar/profane/bodily/sexual/indecent and then get corrected if technically wrong;
+- corrections repair accuracy, not vulgarity;
+- repeated `fuck/fucking` intensifiers are an editorial smell when a more specific vulgar construction would sound more like her;
 - true fury may become cleaner/formal;
 - genuine vulnerability may become simpler.
 
