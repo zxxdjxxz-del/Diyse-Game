@@ -35,7 +35,7 @@ Movement pauses.
 
 The Briarhide itself is not visible.
 
-**CYANIS:** That's a big damn animal.
+**CYANIS:** That's a big son of a bitch.
 
 Torren's tone changes immediately.
 
