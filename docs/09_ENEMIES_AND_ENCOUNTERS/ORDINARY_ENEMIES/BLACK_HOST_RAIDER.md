@@ -81,3 +81,14 @@ Current locked Chapter-0 appearance:
 > `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
 
 Combat/encounter mechanics remain owned by this file; visual identity is owned by the art-domain authority above.
+
+## Exact current visual master
+The Black Host Raider's exact current approved appearance is the 2026-09-22 B00/B00.5-style render recorded in:
+> `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
+
+Master fingerprint:
+- image-generation ID: `5e43d4ff-833c-4e99-8d13-b6a0beeeea8b`
+- SHA-256: `446ff9e2275fbbd2d44be3b5c61f8cc1136d910e53a760d3a605dfcee8d2687f`
+- dimensions: **1122 × 1402**
+
+That image controls incidental armor geometry, helmet horn size, tunic proportion, leg treatment, and overall silhouette over older prose.
