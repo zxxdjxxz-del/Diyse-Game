@@ -51,13 +51,6 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 3 | Ordinary/carryover | Command Guard Frame |
 | 3 | Ordinary/carryover | Authority Lens |
 | 3 | Ordinary/carryover | Command Ring Drone |
-| 3 | Authored/protected | Ivory Watch Guard — lawful/nonlethal |
-| 3 | Authored/protected | Royal Polearm Officer — lawful/nonlethal |
-| 3 | Authored/protected | Ivory Crossbow Sentinel — lawful/nonlethal |
-| 3 | Authored/protected | Order Clerk — lawful/nonlethal |
-| 3 | Authored/protected | False-Warrant Adept — lawful/nonlethal |
-| 3 | Authored/protected | Ivory Adjudicator — named nonlethal |
-| 3 | Authored/protected | S018 lawful-authority confrontation I/II — formation-level; no fake boss body |
 | 3 | Strong normal-pool Elite | Grand Inquisitor Frame |
 | 3 | Strong normal-pool Elite | Watch Captain Frame — Cresthaven carryover |
 | 3 | Mandatory named/boss | Archive Scribe Engine |
@@ -280,29 +273,49 @@ Status rollout:
 - Bleed retained
 - no Stun / Freeze
 
-## Chapter-3 Power-pass status
-Current line-complete Chapter-3 combat content:
-> **MAIN BATCH PASS**
+## Chapter-3 current structural / Power status
+Chapter-3 enemy and encounter structure:
+> **CLOSED — NUMERIC VALIDATION DEFERRED**
 
-Historical Power work exists for retired identities, but the **current active Chapter-3 ordinary roster is 5 identities**:
-- Judgment Frame
-- Erasure Wisp
-- Authority Lens
-- Command Guard Frame
-- Command Ring Drone
+Current active ordinary identities — **8 unique**:
+- Judgment Frame;
+- Erasure Wisp;
+- Authority Lens;
+- Archive Current;
+- Command Guard Frame;
+- Command Ring Drone;
+- Watch Sentry;
+- Watch Ballista.
 
-Complete historical/current Power work:
-- Ivory Watch Detail encounter
-- Order Clerk noncombat boundary
-- Ivory Adjudicator protected encounter
-- Grand Inquisitor Frame
+Strong normal-pool identities:
+- Grand Inquisitor Frame;
+- Watch Captain Frame.
 
-Open:
-> **False-Warrant Adept placement/role**
+Mandatory bosses:
+- Archive Scribe Engine;
+- First Command Warden.
 
-It is retained in the roster but not inserted into S018 without evidence.
+Regional Hunt:
+- Archive Judgment Engine.
 
-Regional Hunt #3 remains separate.
+Current Stun assignment:
+- Command Guard Frame;
+- First Command Warden;
+- Archive Judgment Engine.
+
+Historical lawful/nonlethal Caelora identities remain in their owner files but have **no current Chapter-3 placement** and are not counted in the active chapter roster.
+
+Retired from Chapter 3:
+- Way-Fort Marauder;
+- Rift Boltman;
+- Black Host Ward-Sorcerer.
+
+Open work is numeric only:
+- level anchors;
+- raw-stat retuning for carryovers;
+- boss/Hunt final bodies;
+- encounter frequencies / selection weights;
+- mandatory-vs-completionist certification.
 
 ## Chapter-4 Power-pass status
 Chapter-4 ordinary / Elite / protected-roster action pass:
@@ -653,3 +666,9 @@ Removed from the active Chapter-3 register:
 - Black Host Ward-Sorcerer
 
 Archive Scribe Engine is now registered as a mandatory named/boss rather than an ordinary enemy.
+
+
+## Chapter-3 active-register correction — 2026-09-23
+The active Chapter-3 chapter-role rows now contain only current combat content.
+
+The former lawful-Caelora confrontation package is retained historically in its owner files but removed from the active Chapter-3 master-register rows because the revised 15-beat route contains no such encounters.
