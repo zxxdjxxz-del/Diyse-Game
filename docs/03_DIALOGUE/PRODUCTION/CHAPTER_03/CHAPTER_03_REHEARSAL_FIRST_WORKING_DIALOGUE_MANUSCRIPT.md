@@ -8,7 +8,7 @@
 
 | Order | Canonical slot | Atomic source | SHA-256 |
 |---:|---|---|---|
-| 1 | Beat 1 | `BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md` | `1fd502e5b0c6128192380bbfc0e5bae14c20149dcbdcf6d7384b9d37ccb0f857` |
+| 1 | Beat 1 | `BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md` | `f84f36d8caee12e2d016120527bccbb3c96b84f46d362add23661895c22a3768` |
 | 2 | Beat 2 | `BEAT_02_ROYAL_AUDIENCE_CH2_REPORT_DRAFT_A.md` | `b7accad4af6e4395d705247fd83b477f2b8d2d925287390098b4f6ad55819a56` |
 | 3 | Beat 3 | `BEAT_03_IMPOSSIBLE_ORDERS_DRAFT_A.md` | `d921f1c66b13ddf47254fe0580261972dfa16abe4eadf880f25b402886fb9edd` |
 | 4 | Beat 4 | `BEAT_04_SEAL_NOT_USED_DRAFT_A.md` | `965d8e06b17a97ce69c1b7cdaf665c35e939b93783cd7d8ced1d2d4e9685c2af` |
@@ -31,7 +31,7 @@
 ## Beat 1
 
 **Atomic source:** `BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md`  
-**Source SHA-256:** `1fd502e5b0c6128192380bbfc0e5bae14c20149dcbdcf6d7384b9d37ccb0f857`
+**Source SHA-256:** `f84f36d8caee12e2d016120527bccbb3c96b84f46d362add23661895c22a3768`
 
 # Chapter 3 — Beat 1
 # Caelora Gate / Arrival
@@ -77,7 +77,7 @@ Cyanis looks at him.
 
 **TORREN:** Still true.
 
-**ILYRA:** Devastating. Defeated by topography.
+**ILYRA:** Devastating. Beaten by fucking topography.
 
 **CYANIS:** You're enjoying this.
 
@@ -121,13 +121,13 @@ Ilyra glances at him.
 
 A short silence while the city continues around them.
 
-**CYANIS:** Still hungry.
+**CYANIS:** Still fucking hungry.
 
 **TORREN:** Palace is still uphill.
 
 **ILYRA:** I think that's becoming his answer to you.
 
-**CYANIS:** I regret this group.
+**CYANIS:** I fucking regret this group.
 
 **MAEVRA:** No, you don't.
 

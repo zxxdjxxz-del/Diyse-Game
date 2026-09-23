@@ -486,9 +486,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B01",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md",
-          "source_sha256": "1fd502e5b0c6128192380bbfc0e5bae14c20149dcbdcf6d7384b9d37ccb0f857",
+          "source_sha256": "f84f36d8caee12e2d016120527bccbb3c96b84f46d362add23661895c22a3768",
           "spoken_lines": 26,
-          "spoken_sha256": "c02961d0c7725f5374d04d34417c3a3dd45fd4ac9ce049e970133b9f2223b0bc",
+          "spoken_sha256": "4facd758bbc0792b0904cd48b94e53fe5c60fd38c83527d6805b3bd2293ec5cf",
           "title": "Caelora Gate / Arrival"
         },
         {
@@ -671,7 +671,7 @@
     }
   },
   "expected_total_spoken": 2252,
-  "global_spoken_sha256": "a30d2ec1f9a9253b1b5e20e2a5163e6bbd21a216ac35429cb785831a6f5d631f",
+  "global_spoken_sha256": "2681aee529c5c3c434a88ce7aa62bacf1888ee4e21369ba8afc1dd7f43186ca2",
   "schema": "diyse_current_runtime_dialogue_manifest_v1",
   "source_authority": "docs/03_DIALOGUE/PRODUCTION",
   "total_spoken": 2252
