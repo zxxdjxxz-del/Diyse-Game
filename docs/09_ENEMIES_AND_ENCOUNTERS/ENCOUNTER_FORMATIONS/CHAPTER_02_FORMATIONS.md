@@ -41,6 +41,38 @@ Needlewing is eligible only where the chamber has enough open overhead space to 
 
 The sealed Regional-Hunt side door and its immediate interaction pocket are SAFE during the mandatory Chapter-2 route.
 
+## Old Waterworks exact eligibility
+
+### Early municipal works
+Eligible:
+- Wetworks Cluster;
+- Upper Cavity;
+- Broken Chamber.
+
+Not yet eligible:
+- Cistern Swarm;
+- Flooded Roost.
+
+The sealed Hunt-door interaction pocket is SAFE.
+
+### Flooded middle works
+Eligible:
+- Wetworks Cluster;
+- Upper Cavity;
+- Broken Chamber;
+- Cistern Swarm;
+- Flooded Roost.
+
+This is the first Waterworks sector where the full five-enemy ceiling may appear.
+
+### Reused foundations / ancient-threshold approach
+Eligible:
+- Broken Chamber;
+- Cistern Swarm;
+- Flooded Roost.
+
+The final immediate transition pocket into the clearly Ancient structure is SAFE so the architectural reveal is not interrupted by a random battle.
+
 ---
 
 # Sunken Archive
@@ -85,6 +117,40 @@ Larger Archive formations should grow through carried wildlife and Archive Curre
 
 Immediate Archive-Leviathan approach buffer:
 > **SAFE**
+
+## Sunken Archive exact eligibility
+
+### Entrance / first preservation halls
+Eligible:
+- Flooded Record Hall;
+- Broken Archive Airspace;
+- Wet Record Hall.
+
+Not yet eligible:
+- Archive Watch;
+- Current Gallery.
+
+The first major threshold/reveal pocket is SAFE.
+
+### Mid Archive
+Eligible:
+- Flooded Record Hall;
+- Broken Archive Airspace;
+- Archive Watch;
+- Wet Record Hall.
+
+This is where the Archive-specific machinery becomes more visible without displacing wildlife entirely.
+
+### Archive Depths
+Eligible:
+- Broken Archive Airspace;
+- Archive Watch;
+- Wet Record Hall;
+- Current Gallery.
+
+Current Gallery is restricted to the deeper Archive and is the area's five-enemy ceiling.
+
+The immediate Leviathan approach / Maevra staging position is SAFE.
 
 ---
 
@@ -152,6 +218,49 @@ Noncombat medical/support personnel and incapacitated wounded are not random-com
 
 Immediate command-room / Rhazek approach buffer:
 > **SAFE**
+
+## Old Bastion exact eligibility
+
+### Pre-alarm infiltration
+> **No random combat pool.**
+
+The trio initially moves through the functioning fort without being detected. The first meaningful combat/contact belongs to the occupied checkpoint that triggers the alarm.
+
+### Alarm opening / lower ascent
+Eligible:
+- Bastion Patrol;
+- Hound Patrol;
+- Shielded Fireline;
+- War-Sorcery Line.
+
+Typical body count:
+> **3–4**
+
+### Alerted interior
+Eligible:
+- Bastion Patrol;
+- Shielded Fireline;
+- War-Sorcery Line;
+- Infantry Block;
+- Rift Pursuit.
+
+Typical body count:
+> **4–5**
+
+### Final command ascent
+Eligible:
+- Shielded Fireline;
+- Infantry Block;
+- Command Defense;
+- Rift Pursuit;
+- Full Bastion Response.
+
+Typical body count:
+> **4–6**
+
+**Full Bastion Response** is restricted to this final alerted stretch and represents one prepared six-person defensive line, not an endless reinforcement wave.
+
+The immediate command-room / Rhazek approach buffer is SAFE.
 
 ---
 
@@ -276,3 +385,20 @@ This is a structural composition lock, not a current difficulty certification. T
 - Revised **Full Bastion Response** to an infantry-heavy six-body line: 1 Ruin Shieldbearer + 3 Black Host Raiders + 2 Black Host Crossbowmen.
 - War-Sorcerer and Rift Hound are not required in the six-enemy ceiling formation.
 - Bastion formation eligibility now escalates from early ascent → alerted interior → late command approach.
+
+
+## Exact placement lock — 2026-09-23
+Chapter-2 ordinary encounter escalation now follows the current story geography:
+
+- Waterworks early municipal works: 3–4 bodies;
+- Waterworks flooded middle: up to 5;
+- Waterworks reused-foundation / Ancient-threshold approach: heavier 4–5 body pool;
+- Sunken Archive entrance: 3–4;
+- Sunken Archive mid: 3–4;
+- Sunken Archive depths: up to 5;
+- Old Bastion pre-alarm: no random combat;
+- Old Bastion alarm opening: 3–4;
+- Old Bastion alerted interior: 4–5;
+- Old Bastion final ascent: 4–6.
+
+Safe pockets protect authored reveals, the sealed Hunt door, the Leviathan approach, and the Rhazek command-room approach.
