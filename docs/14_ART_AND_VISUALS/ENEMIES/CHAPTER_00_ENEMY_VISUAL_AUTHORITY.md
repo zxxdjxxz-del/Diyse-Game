@@ -236,6 +236,36 @@ This suit should look inexpensive enough to issue broadly while still being unmi
 
 # Black Host Crossbowman
 
+## Exact approved Crossbowman visual master
+
+**Status:** **LOCKED EXACT VISUAL — 2026-09-22**
+
+Approved render:
+- image-generation ID: `9a2c6742-47e3-4401-86b2-b5c1d01cba93`
+- approved file SHA-256: `845b344ebf8d45b3c078b9ffc3dd094c19407bdfe07819608dfcbd07960c96a5`
+- dimensions: **1122 × 1402**
+- presentation: clean white-background B00/B00.5-style full-body reference
+
+This exact approved render now overrides earlier Crossbowman prose where incidental details differ.
+
+Locked visual relationship to the Raider:
+- same Black Host armor family and small-horn helmet language;
+- **slightly less armored** than the Raider;
+- **larger face/visor opening**;
+- lighter torso/arm coverage for ranged mobility;
+- practical red tunic/cloth and black underlayers;
+- practical lower-rank leg armor;
+- dedicated military crossbow with visible bolt case;
+- no glow;
+- no luminous channels.
+
+Do not:
+- turn the Crossbowman into a hooded rogue;
+- remove the shared Raider-family armor language;
+- make the armor more elaborate than the Raider;
+- reduce the visor opening back to the Raider's narrower face treatment;
+- add commander-tier ornament or glow.
+
 ## Core visual identity
 Ranged Black Host soldier providing controlled battlefield pressure.
 
