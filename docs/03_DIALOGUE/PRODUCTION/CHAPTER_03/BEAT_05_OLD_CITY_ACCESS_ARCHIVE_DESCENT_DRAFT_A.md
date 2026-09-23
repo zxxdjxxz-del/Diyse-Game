@@ -27,7 +27,7 @@ An archive keeper verifies Mirena's authorization.
 
 Torren looks toward the descent.
 
-**TORREN:** How far does `maintained` mean maintained?
+**TORREN:** How far does `maintained` mean fucking maintained?
 
 The keeper understands the question.
 
@@ -39,7 +39,7 @@ Torren nods.
 
 **ARCHIVE KEEPER:** If the marked route and the room disagree, the room wins.
 
-**ILYRA:** I like them.
+**ILYRA:** Fuck, I like them.
 
 **CYANIS:** That was fast.
 
@@ -113,7 +113,7 @@ Cyanis waits.
 
 **TORREN:** Marked route's left.
 
-**CYANIS:** And there goes wonder.
+**CYANIS:** And there goes the fucking wonder.
 
 **TORREN:** Wonder can turn left.
 
