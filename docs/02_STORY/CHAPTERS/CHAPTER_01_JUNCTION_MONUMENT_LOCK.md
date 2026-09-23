@@ -41,20 +41,20 @@ Once the vegetation is cleared, the cartographic surface is **not** merely a loc
 
 It depicts a substantial **western portion of ancient Diyse**:
 - dense overland routes intersect and reconnect throughout the mapped region;
-- a visually distinct lower / subsurface layer shows extensive underground infrastructure and routes;
+- a visually distinct second system of markings corresponds in underlying map authority to extensive underground infrastructure and routes, but is **not legible to the Chapter-1 party as underground**;
 - built-up city / settlement structures appear in many locations;
 - the largest visible concentration of urban structures, route convergence, and underground infrastructure lies around the geography corresponding to **present-day Caelora**;
 - the Wayfinder is physically broken through that Caelora-area concentration, so the center of the largest ancient cluster is missing;
 - surviving lines visibly converge toward and continue around the broken area, making the scale of what is missing obvious without revealing the lost center itself.
 
-The party may recognize that the map represents a much larger and more interconnected ancient landscape than the modern western region. They may distinguish surface routes from subsurface infrastructure. They **do not** yet know the full purpose of the underground network, the identities/functions of the many ancient urban sites, or what specifically occupied the missing Caelora-area center.
+The party may recognize that the map represents a much larger and more interconnected ancient landscape than the modern western region. They can identify the obvious overland routes and can see that a second extensive system of markings exists, but they **cannot identify what that second system represents yet**. In Chapter 1 they do not call it underground, tunnels, conduits, service routes, or subsurface infrastructure. They also do not know the identities/functions of the many ancient urban sites or what specifically occupied the missing Caelora-area center.
 
 The local information remains usable:
 - the surviving Dunmere-bound alignment matches the party's already-planned route;
 - the water/cistern notation still corresponds to the earlier overgrown Southern Briar side access;
 - Face markings remain part of the monument's technical grammar without their map function being explained.
 
-The party's practical copy should preserve as much of the surviving western map as possible, including the broad route relationships, subsurface layer, city clusters, the shape/location of the Caelora-area break, and the local useful notations. They must not draw in or reconstruct the missing center.
+The party's practical copy should preserve as much of the surviving western map as possible, including the broad route relationships, the unexplained second marking system, city clusters, the shape/location of the Caelora-area break, and the local useful notations. They must not draw in or reconstruct the missing center.
 
 ## Knowledge rule
 
@@ -71,7 +71,7 @@ Torren does **not** know before the vegetation is cleared:
 - why the mural emphasizes it;
 - how it relates to the wider Diysean route system.
 
-After the reveal, Torren can read practical geographic relationships and distinguish route layers, but he still cannot explain the ancient network's full engineering/civil function or identify what is missing at the broken Caelora-area center.
+After the reveal, Torren can read practical geographic relationships and recognize the obvious overland routes. He can tell the second marking system is distinct from those roads, but he **cannot identify it as underground infrastructure or explain what it represents**. He also cannot identify what is missing at the broken Caelora-area center.
 
 ## Naming
 
