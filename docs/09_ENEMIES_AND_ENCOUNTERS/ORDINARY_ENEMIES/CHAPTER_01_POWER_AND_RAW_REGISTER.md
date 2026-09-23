@@ -20,15 +20,15 @@ Individual enemy files remain the owning authority.
 | Needlewing | 4 | 120 | 27 | 18 | 13 | 16 | 31 | 10 | 0 | 130 / 115 |
 | Rootmaw | 5 | 230 | 30 | 30 | 24 | 23 | 14 | 0 | 5 | 140 / 135 |
 | Brambleback | 5 | 265 | 35 | 8 | 29 | 18 | 18 | 0 | 5 | 165 / AoE 95 |
-| Hollow Watch Sentry | 3 | 130 | 24 | 26 | 20 | 21 | 24 | 0 | 10 | 120 |
-| Hollow Watch Ballista | 4 | 170 | 40 | 0 | 22 | 18 | 18 | 0 | 10 | 135 / marked 200 |
+| Watch Sentry | 3 | 130 | 24 | 26 | 20 | 21 | 24 | 0 | 10 | 120 |
+| Watch Ballista | 4 | 170 | 40 | 0 | 22 | 18 | 18 | 0 | 10 | 135 / marked 200 |
 
 ## Current placement boundary
 
 Active Chapter-1 ordinary roster with closed numeric bodies:
 - Northern/first Briar: Greenhollow Stalker / Thornvine Creeper / Briar Boar
 - Hollow Watch Black Host: Black Host Raider / Black Host Crossbowman / Ruin Shieldbearer
-- Hollow Watch constructs: Hollow Watch Sentry / Hollow Watch Ballista
+- Hollow Watch constructs: Watch Sentry / Watch Ballista
 
 Southern-Briar identities now authored:
 - Needlewing — fast aerial harasser;
