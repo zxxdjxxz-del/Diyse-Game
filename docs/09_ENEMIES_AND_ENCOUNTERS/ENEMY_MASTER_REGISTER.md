@@ -31,19 +31,15 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 1 | Strong normal-pool Elite | Watch Captain Frame |
 | 1 | Mandatory mini-boss | Hollow Watch Castellan — one bar; Fortress → Walking same-bar |
 | 1 | Regional Hunt | Regional Hunt #1 — Cistern Devourer |
-| 2 | Ordinary/carryover | Redwater Initiate |
 | 2 | Ordinary/carryover | Bogshell |
 | 2 | Ordinary/carryover | Cistern Leech |
 | 2 | Ordinary/carryover | Archive Current |
 | 2 | Ordinary/carryover | Memory Scribe |
-| 2 | Ordinary/carryover | Vault Sentinel |
-| 2 | Ordinary/carryover | Drowned Archive Maw |
 | 2 | Ordinary/carryover | Ruin Shieldbearer — approved carryover |
 | 2 | Ordinary/carryover | Black Host Crossbowman — approved carryover |
 | 2 | Ordinary/carryover | Black Host War-Sorcerer — Chapter-2 variant |
 | 2 | Ordinary/carryover | Black Host Raider — approved carryover |
 | 2 | Ordinary/carryover | Rift Hound — approved carryover |
-| 2 | Authored/protected | Hold the Junction — formation-level authored event; no standalone body |
 | 2 | Strong normal-pool Elite | Archive Duplicant |
 | 2 | Mandatory named/boss | Archive Leviathan |
 | 2 | Mandatory named/boss | Commander Rhazek — Bastion Master |
@@ -272,11 +268,9 @@ Chapter-0 current firewall:
 Chapter-2 ordinary / authored / Elite batch:
 > **PASS**
 
-Completed:
-- all 13 ordinary/carryover identities
-- S013 Memory Scribe teaching mechanic
-- Archive Duplicant
-- Hold the Junction fixed formation
+Current roster has been structurally revised after the historical Power pass.
+
+Active Chapter-2 identities are owned by the current chapter roster and formation files. Retired Redwater / Vault Sentinel / Drowned Archive Maw / Beast Handler / Hold-the-Junction entries must not be counted as current Chapter-2 content.
 
 Regional Hunt #2:
 > not included in this historical chapter batch; the separate Hunt action-Power audit is now complete.
