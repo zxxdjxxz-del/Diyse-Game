@@ -3,7 +3,7 @@ extends SceneTree
 const INTRO_SCENE := "res://game/presentation/world_intro.tscn"
 const INTRO_DATA := "res://game/content/presentation/player_facing_world_intro.json"
 const EXPECTED_MAIN_SCENE := "res://game/presentation/world_intro.tscn"
-const EXPECTED_FINAL_LINE := "If I catch you using it as one, we're going to have a conversation."
+const EXPECTED_FINAL_LINE := "Mostly not metaphorically."
 
 func _initialize() -> void:
 	call_deferred("_run_validation")
