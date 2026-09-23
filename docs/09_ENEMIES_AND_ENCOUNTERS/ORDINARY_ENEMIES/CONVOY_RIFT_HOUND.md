@@ -46,3 +46,10 @@ Do not add:
 - Beast Handler;
 - new creature form;
 - reinforcement wave.
+
+## Chapter-0 behavior lock
+- Convoy Pounce / Rift Bite / Chain Rush use the normal action-selection fallback when legal.
+- Chain Rush retains its 2-round repetition lock.
+- No harmful-status rider is active in Chapter 0.
+- All Chapter-0 Hound encounters occur while Cyanis is solo, so all legal single-target actions necessarily target Cyanis.
+- In the two-Hound P01 formation, the Hounds do not gain a hidden pack-focus bonus, extra action, assist attack, or scripted alternating combo.
