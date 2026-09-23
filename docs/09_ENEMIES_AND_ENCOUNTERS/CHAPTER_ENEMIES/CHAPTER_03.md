@@ -67,6 +67,9 @@ Regional Hunt #3 may unlock during cleanup under its own authority.
 - Erasure Wisp
 - Authority Lens — inspection / classification support construct; also appears at Cresthaven
 
+### Old City Archives — strong normal-pool Elite
+- Grand Inquisitor Frame — late Deep Archives enforcement frame; max 1 per formation; no Chapter-3 Stun rider
+
 These remain compatible with the Archives, but exact sub-area formation eligibility and final weights require a fresh placement pass against the revised Beat-7 through Beat-10 dungeon structure.
 
 ### Cresthaven tower-base ordinary identities — current
@@ -75,7 +78,6 @@ These remain compatible with the Archives, but exact sub-area formation eligibil
 - Command Ring Drone — mobile command-relay support construct; Attack / Magic support
 
 ### Recovered identities — current mandatory placement not yet reapproved
-- Grand Inquisitor Frame
 - Way-Fort Marauder
 - Rift Boltman
 - Black Host Ward-Sorcerer
@@ -230,3 +232,11 @@ Do not fill these gaps by silently restoring the retired encounter structure.
 - It does not belong to the Old City Archives.
 - Its Chapter-3 role is offensive support through Command Relay rather than accuracy support or Stun.
 - No Chapter-3 AoE action is added.
+
+
+## Grand Inquisitor Frame placement correction — 2026-09-23
+- **Grand Inquisitor Frame is retained as the Chapter-3 strong normal-pool Elite.**
+- Its current home is the late **Old City Archives / Deep Archives**, not Cresthaven.
+- Maximum one per formation.
+- Chapter-3 Lock Sequence is Lightning damage **without Stun**.
+- The inherited numeric body requires fresh four-person validation.
