@@ -1,0 +1,30 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT09_HALL_OF_SEALS_RECENT_READER",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 9 — Hall of Seals / Recent Reader Continuation",
+  "production_ready": true,
+  "participants": ["cyanis","ilyra","torren","nimera"],
+  "hard_outcomes": [
+    "Historical records distinguish a working magical seal from its visible impression.",
+    "Older working seals could retain a persistent magical authority state and receive keeper maintenance or renewal.",
+    "Comparable authority-seal practice predates Yahtrea without proving direct lineage to Lysara's seal.",
+    "Physical archival evidence confirms the recent research trail continued through the Hall toward deeper collections.",
+    "The recent reader remains unidentified and their theory remains unknown."
+  ],
+  "forbidden_reveals": [
+    "recent_reader_identity","calder_hidden_role","seal_duplication_success","prime","might","last_sentinel","deep_ruby","cresthaven","northern_tower","ivorybridge"
+  ],
+  "true_voice_requirements": {
+    "nimera": "Use live brain; high/frequent profanity, 15–35% long-form anti-sanitization calibration, evidence-first self-correction, no exposition-machine flattening.",
+    "torren": "Concrete physical-use evidence, no permanent terseness, first-contact only with Nimera.",
+    "ilyra": "Dry curiosity and skepticism; no automatic care assignment.",
+    "cyanis": "Crest Knight only; no Crest Magus access or expertise."
+  },
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml"
+  ]
+}
