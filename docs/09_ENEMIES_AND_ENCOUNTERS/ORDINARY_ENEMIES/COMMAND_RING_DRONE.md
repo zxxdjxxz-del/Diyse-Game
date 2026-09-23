@@ -1,7 +1,7 @@
 # Command Ring Drone
 
-**Chapter-3 authority:** Old City command route  
-**Status:** **POWER COMPLETE / CH3 RAW BODY AUTHORED**
+**Chapter-3 authority:** Cresthaven Ancient tower base  
+**Status:** **CHAPTER-3 IDENTITY / PLACEMENT / ACTION GRAMMAR LOCKED — NUMERIC REVALIDATION REQUIRED**
 
 ## Chapter-3 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -44,3 +44,35 @@ Chapter-10 actions:
 
 Command Relay grants no extra action and does not stack with itself from the same Drone.
 True construct: **Bleed Immune**
+
+
+## Chapter-3 placement lock — 2026-09-23
+Command Ring Drone is **not** an Old City Archives ordinary enemy.
+
+Current mandatory placement:
+> **Cresthaven Ancient tower base**
+
+Primary home:
+- Command Interior;
+- may appear in later Tower Foundation formations;
+- may appear before the final Warden approach buffer.
+
+Identity:
+> mobile command-relay support construct
+
+Combat role:
+- **Ring Bolt** — straightforward single-target Colorless magic;
+- **Command Relay** — Attack +10% / Magic +10% to one other living allied construct through end of the following round;
+- no Stun;
+- no AoE in the Chapter-3 version;
+- no extra-action behavior.
+
+## Support-role distinction
+Authority Lens and Command Ring Drone serve different purposes:
+
+- **Authority Lens** improves allied **Base Hit** and provides Lightning AoE pressure;
+- **Command Ring Drone** improves allied **Attack / Magic** and otherwise uses a simple single-target bolt.
+
+Do not collapse them into the same support identity.
+
+The existing Chapter-3 raw line and Power values remain provisional pending current four-person Cresthaven validation.
