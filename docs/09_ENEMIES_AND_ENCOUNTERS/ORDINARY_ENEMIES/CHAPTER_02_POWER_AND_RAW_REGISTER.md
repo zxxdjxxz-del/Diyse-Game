@@ -15,7 +15,7 @@ The raw bodies below are newly authored active-balance values except where expli
 | Drowned Archive Maw | 9 | 430 | 48 | 38 | 34 | 32 | 24 | 0 | 5 | 180 / 140 Ice AoE / 165 |
 | Ruin Shieldbearer — Ch2 | 7 | 300 | 44 | 15 | 38 | 27 | 18 | 0 | 5 | 140 / 155 Ruin |
 | Black Host Crossbowman — Ch2 | 7 | 210 | 46 | 12 | 24 | 22 | 27 | 5 | 5 | 150 / 175 |
-| Transfer Adept | 8 | 235 | 28 | 50 | 25 | 34 | 29 | 0 | 10 | 160 Fire / 120 AoE |
+| Black Host War-Sorcerer — Ch2 | 8 | 235 | 28 | 50 | 25 | 34 | 29 | 0 | 10 | provisional; fresh Ch2 kit validation open |
 | Black Host Raider — Ch2 | 6 | 220 | 40 | 14 | 24 | 20 | 25 | 0 | 5 | 120 / 145 |
 | Beast Handler — Ch2 | 7 | 225 | 42 | 20 | 27 | 25 | 27 | 0 | 5 | 140 |
 | Rift Hound — Ch2 | 7 | 250 | 47 | 26 | 27 | 24 | 32 | 5 | 5 | 155 / 150 Ruin |
@@ -36,7 +36,7 @@ Chapter 2 introduces:
 
 Burn appears through:
 - Redwater Initiate — Scalding Catalyst20%
-- Transfer Adept — Transfer Fire25%
+- Black Host War-Sorcerer — Warfire (Chapter-2 Burn application value open)
 
 Bleed remains in use.
 
