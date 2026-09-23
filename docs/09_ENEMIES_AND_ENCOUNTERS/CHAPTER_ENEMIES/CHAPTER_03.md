@@ -74,7 +74,7 @@ Regional Hunt #3 may unlock during cleanup under its own authority.
 These remain compatible with the Archives, but exact sub-area formation eligibility and final weights require a fresh placement pass against the revised Beat-7 through Beat-10 dungeon structure.
 
 ### Cresthaven tower-base ordinary identities — current
-- Command-Station Sentry — surviving command-site security construct; current preferred Chapter-3 Stun introduction
+- Command Guard Frame — surviving command-site security construct; current preferred Chapter-3 Stun introduction
 - Authority Lens — shared inspection / authority-reading support construct; also appears in the Old City Archives; no Chapter-3 Stun rider
 - Command Ring Drone — mobile command-relay support construct; Attack / Magic support
 - Watch Sentry — Chapter-1 Ancient-defense carryover; linked setup piece
@@ -101,7 +101,7 @@ Their historical files may remain for archive/reference purposes, but they are n
 The Cresthaven short-dungeon ordinary roster must be intentionally designed rather than inherited wholesale from the retired Caelora command-route structure.
 
 Current approved tower-base identities:
-- Command-Station Sentry
+- Command Guard Frame
 - Authority Lens
 - Command Ring Drone
 - Watch Sentry
@@ -224,7 +224,7 @@ Do not fill these gaps by silently restoring the retired encounter structure.
 
 
 ## Cresthaven construct placement correction — 2026-09-23
-- **Command-Station Sentry is approved for the Cresthaven Ancient tower base.**
+- **Command Guard Frame is approved for the Cresthaven Ancient tower base.**
 - It is removed from Old City Archives placement.
 - Tower Foundation may use it sparingly; Command Interior is its primary home.
 - Station Pulse is the current preferred ordinary-enemy introduction to **Stun** in Chapter 3.
@@ -235,7 +235,7 @@ Do not fill these gaps by silently restoring the retired encounter structure.
 - In the Archives it functions as inspection / classification support.
 - In Cresthaven, Command Interior is its strongest thematic home.
 - Chapter-3 Classification Flash is Lightning AoE **without Stun**.
-- Command-Station Sentry remains the preferred ordinary-enemy Stun introduction.
+- Command Guard Frame remains the preferred ordinary-enemy Stun introduction.
 
 
 ## Cresthaven Command Ring Drone correction — 2026-09-23
