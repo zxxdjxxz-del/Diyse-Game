@@ -109,6 +109,8 @@ jobs:
             echo "No synchronized text changes to commit."
           else
             git commit -m "Synchronize Chapters 0-3 dialogue and runtime mirror"
+            git fetch origin main
+            git rebase origin/main
             git push origin HEAD:main
           fi
 
