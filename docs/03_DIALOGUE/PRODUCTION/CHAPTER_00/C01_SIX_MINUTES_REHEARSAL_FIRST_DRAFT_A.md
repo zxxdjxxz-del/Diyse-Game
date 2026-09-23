@@ -74,7 +74,7 @@ Ilyra laughs before she can stop herself.
 
 **CYANIS:** Some of a compress.
 
-**ILYRA:** Important distinction.
+**ILYRA:** Naturally.
 
 ### [DINNER]
 
@@ -220,7 +220,7 @@ He looks toward the dark perimeter.
 
 **ILYRA:** So you were going to find a problem.
 
-**CYANIS:** Sounds worse when you say it.
+**CYANIS:** Sounds like shit when you say it.
 
 **ILYRA:** I wasn't being medical.
 
