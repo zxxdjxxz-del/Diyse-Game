@@ -70,15 +70,15 @@ const AREAS := {
 		"formations": {
 			"light": [
 				{"id": "ch02_dunmere_l01", "weight": 50.0, "exp": 130, "enemies": ["Cistern Leech", "Cistern Leech", "Bogshell"]},
-				{"id": "ch02_dunmere_l02", "weight": 50.0, "exp": 130, "enemies": ["Redwater Initiate", "Cistern Leech", "Cistern Leech"]},
+				{"id": "ch02_dunmere_l02", "weight": 50.0, "exp": 130, "enemies": ["Needlewing", "Cistern Leech", "Cistern Leech"]},
 			],
 			"standard": [
-				{"id": "ch02_dunmere_s01", "weight": 50.0, "exp": 165, "enemies": ["Redwater Initiate", "Bogshell", "Cistern Leech"]},
+				{"id": "ch02_dunmere_s01", "weight": 50.0, "exp": 165, "enemies": ["Needlewing", "Bogshell", "Cistern Leech"]},
 				{"id": "ch02_dunmere_s02", "weight": 50.0, "exp": 165, "enemies": ["Bogshell", "Bogshell", "Cistern Leech", "Cistern Leech"]},
 			],
 			"heavy": [
-				{"id": "ch02_dunmere_h01", "weight": 50.0, "exp": 200, "enemies": ["Redwater Initiate", "Redwater Initiate", "Bogshell", "Cistern Leech"]},
-				{"id": "ch02_dunmere_h02", "weight": 50.0, "exp": 200, "enemies": ["Redwater Initiate", "Bogshell", "Cistern Leech", "Cistern Leech"]},
+				{"id": "ch02_dunmere_h01", "weight": 50.0, "exp": 200, "enemies": ["Needlewing", "Needlewing", "Bogshell", "Cistern Leech"]},
+				{"id": "ch02_dunmere_h02", "weight": 50.0, "exp": 200, "enemies": ["Needlewing", "Bogshell", "Cistern Leech", "Cistern Leech"]},
 			],
 		},
 	},
@@ -86,16 +86,16 @@ const AREAS := {
 		"chapter": 2,
 		"formations": {
 			"light": [
-				{"id": "ch02_archive_l01", "weight": 50.0, "exp": 130, "enemies": ["Archive Current", "Memory Scribe", "Vault Sentinel"]},
-				{"id": "ch02_archive_l02", "weight": 50.0, "exp": 130, "enemies": ["Drowned Archive Maw", "Archive Current", "Archive Current"]},
+				{"id": "ch02_archive_l01", "weight": 50.0, "exp": 130, "enemies": ["Archive Current", "Memory Scribe", "Hollow Watch Sentry"]},
+				{"id": "ch02_archive_l02", "weight": 50.0, "exp": 130, "enemies": ["Needlewing", "Archive Current", "Cistern Leech"]},
 			],
 			"standard": [
-				{"id": "ch02_archive_s01", "weight": 50.0, "exp": 165, "enemies": ["Memory Scribe", "Vault Sentinel", "Archive Current", "Archive Current"]},
-				{"id": "ch02_archive_s02", "weight": 50.0, "exp": 165, "enemies": ["Drowned Archive Maw", "Memory Scribe", "Vault Sentinel", "Archive Current"]},
+				{"id": "ch02_archive_s01", "weight": 50.0, "exp": 165, "enemies": ["Memory Scribe", "Hollow Watch Sentry", "Archive Current", "Archive Current"]},
+				{"id": "ch02_archive_s02", "weight": 50.0, "exp": 165, "enemies": ["Bogshell", "Cistern Leech", "Needlewing", "Archive Current"]},
 			],
 			"heavy": [
-				{"id": "ch02_archive_h01", "weight": 50.0, "exp": 200, "enemies": ["Drowned Archive Maw", "Memory Scribe", "Vault Sentinel", "Vault Sentinel"]},
-				{"id": "ch02_archive_h02", "weight": 50.0, "exp": 200, "enemies": ["Drowned Archive Maw", "Memory Scribe", "Memory Scribe", "Archive Current"]},
+				{"id": "ch02_archive_h01", "weight": 50.0, "exp": 200, "enemies": ["Memory Scribe", "Hollow Watch Sentry", "Hollow Watch Sentry", "Archive Current"]},
+				{"id": "ch02_archive_h02", "weight": 50.0, "exp": 200, "enemies": ["Needlewing", "Bogshell", "Cistern Leech", "Memory Scribe"]},
 			],
 		},
 	},
