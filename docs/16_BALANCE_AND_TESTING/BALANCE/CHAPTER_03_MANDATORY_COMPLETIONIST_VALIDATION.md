@@ -100,6 +100,18 @@ Current ordinary pool uses:
 
 First Command Warden remains the mandatory boss at the end of the short Cresthaven tower-base dungeon.
 
+### Regional Hunt #3 current structural target
+Archive Judgment Engine is available during cleanup after Cresthaven becomes headquarters.
+
+Current structure:
+- one continuous HP bar;
+- one targetable body;
+- no phases / adds / support objects;
+- no command-Warden mechanics;
+- Judgment Lance / Archive Verdict / Lock Verdict / Enforcement Crash / Record Guard;
+- Lock Verdict may inflict Stun;
+- inherited Lv15 / HP4,928 line and Lv15 recommendation are provisional pending current cleanup-state testing.
+
 ### First Command Warden current structural target
 - one continuous HP bar;
 - same-bar 45% Imposed Authority → Challenged Authority shift;
