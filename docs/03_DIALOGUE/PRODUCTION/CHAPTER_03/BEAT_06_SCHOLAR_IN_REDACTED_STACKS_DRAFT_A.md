@@ -98,7 +98,7 @@ She leans closer without reaching for the Card.
 
 **TORREN:** You keep using that word strangely.
 
-**NIMERA:** Because we don't know is a healthy condition. We don't know, therefore it must be the thing I wanted is how scholarship crawls up its own ass and dies.
+**NIMERA:** Because empty is better than wrong. The second somebody gets nervous and slaps a name on it, the bullshit starts.
 
 ### [THE SEAL PROBLEM]
 
