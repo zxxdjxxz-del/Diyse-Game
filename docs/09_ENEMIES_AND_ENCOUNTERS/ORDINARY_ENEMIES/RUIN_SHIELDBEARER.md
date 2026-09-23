@@ -1,6 +1,6 @@
 # Ruin Shieldbearer
 
-**Current certified use:** Chapters 0–1; Chapter 1 limited carryover  
+**Current certified use:** Chapters 0–2 carryover  
 **Status:** **CH1 POWER COMPLETE / CH1 RAW BODY AUTHORED**
 
 ## Chapter-1 body
@@ -81,3 +81,22 @@ Current locked Chapter-0 appearance:
 > `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
 
 Combat/encounter mechanics remain owned by this file; visual identity is owned by the art-domain authority above.
+
+
+## Chapter-2 body — Old Bastion
+Ruin Shieldbearer carries into the Chapter-2 Old Bastion as the same established Black Host shield troop.
+
+Provisional Chapter-2 raw body retained from the retired duplicate Bastion Shield Guard tuning:
+
+| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 7 | **300** | **44** | 15 | **38** | 27 | 18 | 0 | 5 |
+
+Chapter-2 action grammar:
+- **Shield Bash** — Physical / Neutral / one target / **140 Power** / Base Hit100
+- **Ruin-Edged Thrust** — Hybrid / Ruin / 75% ATK / 25% MAG / one target / **155 Power** / Base Hit100
+- **Guard** — Power N/A / Defense +15% / Spirit +15% through end of following round; does not stack with itself
+
+The retired Bastion Shield Guard's ally-targeted **Hold Line** is not part of the current Ruin Shieldbearer identity.
+
+Final Chapter-2 raw-body/difficulty certification remains open for the current three-person party.
