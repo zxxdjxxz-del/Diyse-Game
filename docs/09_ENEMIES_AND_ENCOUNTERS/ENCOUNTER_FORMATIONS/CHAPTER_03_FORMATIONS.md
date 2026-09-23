@@ -37,7 +37,7 @@ Current Chapter-3 enemy files and current progression/reward files control those
 | Formation | Composition | Weight |
 |---|---|---:|
 | Command Screen | 2 Command-Station Sentries + 1 Authority Lens + 2 Command Ring Drones | 30% |
-| Authority Net | 1 Command-Station Sentry + 2 Authority Lenses + 3 Command Ring Drones | 45% |
+| Authority Net | 1 Command Guard Frame + 2 Authority Lenses + 3 Command Ring Drones | 45% |
 | Station Lock | 2 Command-Station Sentries + 2 Authority Lenses + 2 Command Ring Drones | 25% |
 
 ## Guardrails
