@@ -18,7 +18,6 @@
 Archive-specific identities:
 - Archive Current
 - Memory Scribe
-- Hollow Watch Sentry — approved Chapter-1 construct carryover
 
 Flooded-area wildlife carryover:
 - Bogshell
@@ -42,9 +41,6 @@ These three Old Waterworks creatures may continue into compatible flooded / brok
 
 **Retired:** `Hold the Junction` is not a current Chapter-2 encounter. Do not recreate its fixed formation, second-wave logic, extraction causeway, or post-extraction combat.
 
-## Strong normal-pool identity
-- Archive Duplicant — folded into the chapter/area normal encounter pool; not optional combat
-
 ## Mandatory named / boss
 - Archive Leviathan
 - Commander Rhazek — Bastion Master
@@ -59,7 +55,7 @@ Current Chapter-2 story authority controls actual encounter placement.
 - Old Waterworks are a genuinely covert route with **no routine Black Host patrols**.
 - Waterworks danger should come from compatible creatures, hazards, and non-Host threats unless a later authored placement says otherwise.
 - The Sunken Archive is not an active Black Host facility.
-- Archive ordinary encounters may use Archive Current, Memory Scribe, Hollow Watch Sentry, Bogshell, Cistern Leech, and Needlewing where the current area design places them.
+- Archive ordinary encounters may use Archive Current, Memory Scribe, Bogshell, Cistern Leech, and Needlewing where the current area design places them.
 - Old Bastion is an active functioning Black Host position; Ruin Shieldbearers, Black Host Crossbowmen, Black Host War-Sorcerers, approved Raiders, and Rift Hounds are compatible there.
 - Maevra is physically present in Chapter 2 but **fully non-playable/noncombat**. She is not a fourth battle-party body.
 - After Rhazek's defeat, the Black Host withdraws and the maintained road-side exit becomes usable.
@@ -74,7 +70,6 @@ Summary:
 
 Current special mechanics retained where their identities are legally placed:
 - Memory Scribe records only completed eligible direct-damage actions; 65% bounded echo.
-- Archive Duplicant uses a stronger 80% bounded duplicate.
 - Chapter 2 introduces Burn, not Stun or Freeze.
 
 ## Numerical boundary
@@ -140,3 +135,20 @@ Owning validation:
 - **Beast Handler is removed from the Chapter-2 Old Bastion roster.**
 - Chapter 2 does not establish a dedicated handler corps, kennel section, or beast-training identity for the Bastion.
 - Beast Handler remains available for later explicitly authored specialized encounters.
+
+
+## Sunken Archive construct-density correction — 2026-09-23
+Chapter 2 intentionally avoids becoming construct-heavy before Chapter 3.
+
+Current Sunken Archive construct roster:
+- **Archive Current**
+- **Memory Scribe**
+
+Removed from active Chapter-2 placement:
+- **Hollow Watch Sentry** — remains a Chapter-1 Hollow Watch identity; do not carry it into the Sunken Archive.
+- **Archive Duplicant** — removed from Chapter 2; retained only as reusable design material for later explicit placement.
+
+Design intent:
+- flooded wildlife remains common in compatible sectors;
+- Archive Current / Memory Scribe provide a limited taste of ancient machinery;
+- Chapter 3 retains the stronger construct-density escalation.
