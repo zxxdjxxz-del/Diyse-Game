@@ -1,6 +1,6 @@
 # Hollow Watch Sentry
 
-**Chapter:** 1 — Hollow Watch  
+**Current use:** Chapter 1 — Hollow Watch; Chapter 2 — Sunken Archive carryover  
 **Status:** **POWER COMPLETE / RAW BODY AUTHORED**
 
 ## Body
@@ -58,3 +58,16 @@ Multiple Sentries may prepare separate signals only if separate legal Ballista l
 Formation role:
 > visible setup piece — interrupt the Sentry to deny the heavier Ballista shot.
 
+
+
+## Chapter-2 carryover — Sunken Archive
+Hollow Watch Sentry is an approved familiar construct carryover into Chapter 2's Sunken Archive.
+
+Purpose:
+- preserve visual/mechanical continuity between ancient Diysean sites;
+- serve as a recognizable baseline security construct among the Archive's newer identities;
+- avoid creating a redundant second heavy-guardian identity solely for Chapter 2.
+
+Current Chapter-2 roster does not include Hollow Watch Ballista. Therefore Targeting Signal is not legal in Archive formations unless a later explicit placement adds a linked Ballista. With no legal linked Ballista present, the Sentry falls back to Sentry Strike under its existing rules.
+
+Chapter-2 raw-body tuning remains open to the later encounter-validation pass; do not assume the Chapter-1 Lv3 body is final for Chapter 2.
