@@ -8,8 +8,8 @@
 
 | Order | Canonical slot | Atomic source | SHA-256 |
 |---:|---|---|---|
-| 1 | P01 | `P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md` | `a1af098417946126bbd389c381c76a11862500d1d422d80e7a300511ca0c0d8e` |
-| 2 | P02 | `P02_WRECK_FIELD_REHEARSAL_FIRST_DRAFT_A.md` | `1c31ca29c90bbe90cb73b589b33aa41cf881bf8e4c751c5d880423110a05687e` |
+| 1 | P01 | `P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md` | `e81fc48a1a65594240c34d9ee053e89730861a0f9a7e0bb43223b36bcd2d22ad` |
+| 2 | P02 | `P02_WRECK_FIELD_REHEARSAL_FIRST_DRAFT_A.md` | `4de8f0d066573453af130926e7c5e06a93b2b18b6077f22768c34a0e70df696a` |
 | 3 | P03 | `P03_EVACUATION_RELAY_DECISION_REHEARSAL_FIRST_DRAFT_A.md` | `d92ec3f242bd9b5746d6078abf006cbd0e1c93959566c44f636f948e22ff0da9` |
 | 4 | P04 | `P04_FIELD_TRIAGE_ILYRA_FIRST_FLARE_REHEARSAL_FIRST_DRAFT_A.md` | `738b05d939db7c97cfe25006a9c45405594437587261182a2082757ad9c72ffe` |
 | 5 | P05 | `P05_CONCEALED_RUIN_VANGUARD_REHEARSAL_FIRST_DRAFT_A.md` | `31528c43465586c9e15e0ec22fac63ee67b5d263e5ff4f869ae0f5d84d2d694f` |
@@ -22,7 +22,7 @@
 ## P01
 
 **Atomic source:** `P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `a1af098417946126bbd389c381c76a11862500d1d422d80e7a300511ca0c0d8e`
+**Source SHA-256:** `e81fc48a1a65594240c34d9ee053e89730861a0f9a7e0bb43223b36bcd2d22ad`
 
 # Chapter 0 — P01
 # Convoy / Opening Ambush
@@ -132,13 +132,19 @@ The opening story-authorized combat pressure follows current encounter authority
 
 **Combat 1:** Black Host Raider + Black Host Crossbowman.
 
-After that formation breaks:
+### [GAMEPLAY — SHORT ROUTE-CLEARING INTERVAL]
+
+Battle ends and player control returns. Cyanis moves survivors/escorts through the next usable road pocket and clears the immediate route around wreckage. This is not a dialogue scene and Combat 2 does not spawn as a reinforcement wave.
 
 **Combat 2:** Black Host Raider + Ruin Shieldbearer.
 
-After that formation breaks:
+### [GAMEPLAY — SHORT WRECKAGE / MOVEMENT INTERVAL]
+
+Battle ends and player control returns again. The road damage, smoke, and worsening Wreck Field ahead carry the transition. No additional conversation is required.
 
 **Combat 3:** 2 Convoy Rift Hounds.
+
+Combat 3 is the final P01 fight. After victory, the player reaches the Wreck Field and encounters rescue/investigation gameplay before any further battle.
 
 No Beast Handler appears in Chapter 0.  
 No concealed Ruin Vanguard appears here.  
@@ -172,7 +178,7 @@ Player control moves into **P02 — Wreck Field**.
 ## P02
 
 **Atomic source:** `P02_WRECK_FIELD_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `1c31ca29c90bbe90cb73b589b33aa41cf881bf8e4c751c5d880423110a05687e`
+**Source SHA-256:** `4de8f0d066573453af130926e7c5e06a93b2b18b6077f22768c34a0e70df696a`
 
 # Chapter 0 — P02
 # Wreck Field
