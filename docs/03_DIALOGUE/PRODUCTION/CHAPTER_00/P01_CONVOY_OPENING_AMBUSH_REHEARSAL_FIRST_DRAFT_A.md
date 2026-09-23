@@ -68,7 +68,7 @@ The officer looks up the road.
 
 **CONVOY OFFICER:** Road could just be empty.
 
-**CYANIS:** Could be. Still feels wrong as hell.
+**CYANIS:** Could be. Still feels crooked as shit.
 
 A beat.
 
