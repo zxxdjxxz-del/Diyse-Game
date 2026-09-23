@@ -1,8 +1,8 @@
 # Archive Duplicant
 
-**Chapter:** 2 — Sunken Archive normal encounter pool  
-**Role:** strong normal-pool Elite  
-**Status:** **POWER COMPLETE / v78 DIFFICULTY VALIDATED / RAW LINE RETAINED / COPY RULE BOUNDED**
+**Former placement:** Chapter 2 — Sunken Archive  
+**Role:** reusable advanced construct design  
+**Status:** **REMOVED FROM ACTIVE CHAPTER-2 PLACEMENT / DESIGN RETAINED FOR LATER EXPLICIT USE**
 
 ## Raw body — RETAIN
 
@@ -96,3 +96,11 @@ Current role:
 > **strong normal-pool enemy**
 
 It is encountered through the chapter/area's normal encounter structure rather than an optional room or branch. If the identity is unique/named, use a one-time normal-pool entry rather than repeatable copies. Existing raw stats and Power remain retained; encounter frequency/placement and reward impact require revalidation where the prior optional placement mattered.
+
+
+## Chapter-2 placement retirement — 2026-09-23
+Archive Duplicant is no longer part of the Chapter-2 Sunken Archive encounter pool.
+
+Chapter 2 keeps only Archive Current and Memory Scribe as active ordinary construct identities so that Chapter 3 can deliver a stronger construct-density escalation.
+
+Do not automatically move Archive Duplicant into Chapter 3. Its future placement remains open and requires explicit approval.
