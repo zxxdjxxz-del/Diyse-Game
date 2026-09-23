@@ -12,7 +12,7 @@ The raw bodies below are newly authored active-balance values except where expli
 | Memory Scribe | 6 | 230 | 25 | 44 | 24 | 30 | 26 | 0 | 10 | 135 / Recorded Echo 65%, clamp80–180 |
 | Ruin Shieldbearer — Ch2 | 7 | 300 | 44 | 15 | 38 | 27 | 18 | 0 | 5 | 140 / 155 Ruin |
 | Black Host Crossbowman — Ch2 | 7 | 210 | 46 | 12 | 24 | 22 | 27 | 5 | 5 | 150 / 175 |
-| Black Host War-Sorcerer — Ch2 | 8 | 235 | 28 | 50 | 25 | 34 | 29 | 0 | 10 | provisional; fresh Ch2 kit validation open |
+| Black Host War-Sorcerer — Ch2 | 8 | 235 | 28 | 50 | 25 | 34 | 29 | 0 | 10 | 160 Fire + Burn / 175 Ruin — provisional |
 | Black Host Raider — Ch2 | 6 | 220 | 40 | 14 | 24 | 20 | 25 | 0 | 5 | 120 / 145 |
 | Rift Hound — Ch2 | 7 | 250 | 47 | 26 | 27 | 24 | 32 | 5 | 5 | 155 / 150 Ruin |
 
@@ -33,15 +33,10 @@ This batch does **not** introduce:
 
 
 ## Copy-mechanic closure
-Memory Scribe and Archive Duplicant now satisfy the global copied/echoed direct-damage rule with explicit bounded Power conversion.
-
-Memory Scribe:
+Memory Scribe uses the current bounded echo rule:
 > 65% source total Power, clamp80–180
 
-Archive Duplicant:
-> 80% source total Power, clamp110–240
-
-Neither predicts menu selections.
+It records only completed eligible direct-damage actions and does not predict menu selections.
 
 
 ## 2026-09-23 roster cleanup
@@ -65,3 +60,12 @@ Archive Duplicant and Hollow Watch Sentry are not active Chapter-2 roster entrie
 Current Sunken Archive construct identities:
 - Archive Current
 - Memory Scribe
+
+
+## Chapter-2 War-Sorcerer kit lock — 2026-09-23
+Current action set:
+- Warfire — 160 provisional Power / Fire / 25% Burn provisional;
+- Rift Lance — 175 provisional Power / Ruin;
+- War Ward — Power N/A / Magic +10% / Spirit +10 through end following round.
+
+Ruin Volley is intentionally withheld until the later Chapter-6 War-Sorcerer escalation.
