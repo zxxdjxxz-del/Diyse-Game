@@ -1,0 +1,35 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 13 — Return to Mirena / Cresthaven Identified",
+  "production_ready": true,
+  "participants": ["cyanis","ilyra","torren","nimera","mirena","maevra"],
+  "hard_outcomes": [
+    "The party reports recent-reader, Hall-of-Seals and Sealwright findings without resolving the seal mystery.",
+    "The party presents the approximately 500-year-old Yahtrean Westways recordbook map copy.",
+    "Ancient-capital existence at Caelora is treated as already known; the new information is intact scale, route relationship and the giant northern tower.",
+    "Mirena identifies the tower's modern geographic location as Cresthaven, the old abandoned fort.",
+    "The tower's Ancient name/function and northbound destination remain unknown.",
+    "Rest occurs offscreen and Mirena/Maevra plan to meet the party at Cresthaven the next morning."
+  ],
+  "forbidden_reveals": [
+    "chapter_2_mural","crest_marked_northern_structure","first_command_warden_in_caelora","last_sentinel","deep_ruby","prime","might","ivorybridge_on_map","northbound_route_destination","seal_culprit","calder"
+  ],
+  "true_voice_requirements": {
+    "nimera": "Live brain; high/frequent profanity with 15–35% long-form anti-sanitization calibration and evidence-first self-correction.",
+    "mirena": "Live brain; witty, politically sharp, direct, socially fluent, less edited in private.",
+    "maevra": "Live brain; concise where operational, familiar without losing rank, not a summary machine.",
+    "cyanis": "Crest Knight only.",
+    "ilyra": "Dry and social, no automatic care role.",
+    "torren": "Owns route fit only where map/ground evidence supports it."
+  },
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml",
+    "external-services/canary/brains/maevra.yaml",
+    "external-services/canary/brains/mirena.yaml"
+  ]
+}
