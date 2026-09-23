@@ -528,6 +528,21 @@ Terrifying elite Ruin Vanguard whose exact identity is obscured, but who should 
 
 No glow. No purple channels. No exposed luminous core language.
 
+## Exact middle-ground armor relationship
+Seyrik's current master already defines the actual armor. For Black Host hierarchy/readability, interpret it as the **middle-ground evolution** of the ordinary troop family:
+
+- rib/cage torso language is substantially stronger than Raider/Shieldbearer;
+- hooked shoulder and forearm forms are more pronounced and personalized;
+- plate coverage is heavier and more sculpted;
+- the silhouette is broader and more imposing;
+- deep red cloth is more substantial;
+- long coat panels create an elite silhouette;
+- the armor remains fully wearable, military, and human;
+- there are no open skeletal torso gaps;
+- there are no luminous channels or purple seams.
+
+Do **not** redesign Seyrik into a generic commander suit merely to make this hierarchy visible. His current exact master remains controlling.
+
 ## Identity concealment
 Use staging rather than redesign:
 - shadow;
@@ -607,9 +622,45 @@ Black Host battlefield caster attached to the convoy-interception force.
 
 No armor glow. No luminous channels.
 
+## Exact officer-adjacent armor derivation
+The War-Sorcerer should look like a **refined command/specialist evolution** of the Raider baseline, not a robe-wearing outsider.
+
+Torso:
+- central sternum plate remains;
+- rib construction becomes cleaner, narrower, and more deliberate;
+- three slim swept ribs per side may be visible;
+- chest plates are more sculpted than line-troop armor but remain closed;
+- lower torso uses layered pointed plates rather than exposed channels.
+
+Shoulders:
+- medium two-to-three layer pauldrons;
+- sharper, more elegant rear hook than Raider;
+- still far below highest-command crown/horn complexity.
+
+Arms:
+- articulated plate forearms with tapered hooked edges;
+- casting hand remains a normal gloved/gauntleted human hand;
+- no claw fingers;
+- no glowing seams.
+
+Lower body:
+- practical armored knees/shins derived from Raider family;
+- more dark cloth visible than on Shieldbearer;
+- long split coat/robe panels create caster silhouette without replacing armor.
+
+Cloth:
+- black/dark-charcoal outer coat;
+- crimson lining and vertical panels;
+- slightly more fabric than ordinary soldiers;
+- still military, not ceremonial wizard robes.
+
 ## Head / face
-- hood, high collar, military hood-helm, or restrained visor/circlet;
-- face may be partially visible;
+Preferred Chapter-0 presentation:
+- open-faced or partially open officer helm / high-collar hood-helm;
+- clearly human;
+- more refined brow/visor geometry than ordinary troops;
+- no crown spikes;
+- no glowing eye slit;
 - cold, task-focused expression;
 - not flamboyant sorcerer-king presentation.
 
@@ -650,6 +701,39 @@ A catalyst gauntlet or similar issued focus may support the design, but the unit
 - extravagant fantasy robes;
 - skeletal necromancer language;
 - evil-priest confusion.
+
+---
+
+## Chapter-0 humanoid visual ladder — final read
+
+At a glance, Chapter 0 should show the Black Host hierarchy without needing labels:
+
+**Crossbowman**
+- lightest armor;
+- ranged equipment dominates;
+- lowest visual complexity.
+
+**Raider**
+- standard issued armor;
+- faction baseline.
+
+**Ruin Shieldbearer**
+- reinforced specialist;
+- broader, heavier, sharper.
+
+**Ruin Vanguard Pursuer / Seyrik**
+- personalized elite middle ground;
+- visibly more Entity-derived shape language;
+- no glow.
+
+**Convoy War-Sorcerer**
+- officer-adjacent refinement;
+- more deliberate/sculpted plate and cloth;
+- no armor glow.
+
+The player should be able to infer rank/role through silhouette and armor complexity alone.
+
+Highest-command purple luminous channels are **not represented by any Chapter-0 humanoid enemy in this roster**.
 
 ---
 
