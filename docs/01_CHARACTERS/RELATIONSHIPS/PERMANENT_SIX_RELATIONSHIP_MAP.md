@@ -9,7 +9,7 @@ This is a character-logic map, not a substitute for exact dialogue scripts. It a
 | Pair | Core relationship pressure | Conversational language |
 |---|---|---|
 | Cyanis / Ilyra | practical care, mirrored self-neglect, quiet ordinary-life trust | attentive and comfortable; increasingly soft in private; care through permission, humor, ordinary intimacy, and shared silence rather than therapy or romance mechanics |
-| Cyanis / Torren | accountable leadership meeting bounded field expertise; grows into sharp affectionate humor | fast, competitive, increasingly vicious-but-safe affectionate insults; brother-like friendship; direct practical trust; by Chapter 2 Torren increasingly starts and prolongs the joke instead of only answering Cyanis |
+| Cyanis / Torren | accountable leadership meeting bounded field expertise; grows into sharp affectionate humor | fast, competitive, increasingly vicious-but-safe affectionate insults; **compound vulgar insults grow more elaborate and personalized as the friendship deepens**; brother-like friendship; direct practical trust; by Chapter 2 Torren increasingly starts and prolongs the joke instead of only answering Cyanis |
 | Cyanis / Nimera | different forms of skepticism toward unsupported authority/evidence | she pushes and he pushes back; fast corrections, intellectual respect, and social pressure toward honesty |
 | Cyanis / Vaelira | leadership and measured technical precision | different kinds of intelligence; useful disagreement that can become increasingly playful challenge |
 | Cyanis / Seyrik | trust must not become speaking for Seyrik; adult agency remains his | initially formal/command-shaped; develops toward surprisingly ordinary friendship without forced informality |
@@ -34,6 +34,18 @@ Typical progression language:
 - **late:** fewer explanations, private language, borrowed phrases, fast coordination, shared jokes, practical affection, comfortable silence, understanding one-word answers.
 
 This is not a mandatory linear schedule for every pair. Current story position controls what has actually been earned.
+
+### Cyanis / Torren insult-language progression lock
+Their brother-like friendship develops its own competitive profanity language.
+
+- **early relationship:** normal teasing and short blunt insults; neither should sound as though years of private shorthand already exist;
+- **as trust accumulates:** insults begin to combine descriptors, professional jabs, remembered mistakes, and personal habits;
+- **established friendship:** compound vulgar insults become a mutual game. Either man can initiate, counter, extend, or improve the other's construction;
+- **late relationship:** they may produce extremely specific, multi-part vulgar insults that would sound hostile without the surrounding history.
+
+The insult must still sound like the speaker. Cyanis tends toward practical/command/social constructions; Torren toward field/terrain/animal/gear/weather constructions. This is **not Nimera-style free-association profanity** even when the result is elaborate.
+
+The game is evidence of safety. If either is genuinely furious or deeply frightened, it usually disappears rather than escalating.
 
 ### Torren progression lock
 Torren's own increasing comfort is also audible across chapters.
