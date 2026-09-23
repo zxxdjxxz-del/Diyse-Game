@@ -57,3 +57,16 @@ No Prime refresh.
 
 This keeps the Chapter-0 retrospective seed intact:
 > Ruin Vanguard Pursuer = Seyrik, concealed.
+
+## Chapter-0 behavior lock
+- Pursuer Cleave / Ruin Drive use the normal action-selection fallback when legal.
+- Pursuer Guard is legal only while its own Defense/Spirit increase is not already active and retains its 2-round repetition lock.
+- Pursuer Guard never stacks with itself.
+- Single-target selection is equal between conscious Cyanis and Ilyra; no healer-focus, lowest-HP focus, or scripted dogpile rule.
+- No Card interaction is part of the Pursuer AI.
+
+### Protected-disengagement timing
+- If damage resolution brings the Pursuer to or below the 70% HP threshold, the encounter resolves into disengagement **before the Pursuer receives any later action that would only exist because the threshold check was delayed**.
+- If the HP threshold is not reached, the second full combat round completes normally.
+- At the end of Round 2, the Pursuer disengages before Round 3 begins.
+- The disengagement is a protected encounter resolution, not a KO/death state.
