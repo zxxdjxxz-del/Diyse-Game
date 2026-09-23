@@ -46,11 +46,11 @@ Nimera checks one provenance plate twice.
 
 **TORREN:** Same kind of seal?
 
-**NIMERA:** Similar physical authority object. Diysean context. Administrative use, apparently. Not Yahtrean royalty, not proven ancestry, and not permission to shove missing centuries up history's ass because two things resemble each other.
+**NIMERA:** Similar authority object. Diysean, administrative. Looks related, maybe it is. I'm not shoving six missing centuries up history's ass because the shapes rhyme.
 
 **ILYRA:** So the broad practice predates Yahtrea.
 
-**NIMERA:** That I trust. Direct lineage is still a hell of a leap.
+**NIMERA:** That much I buy. Lineage is where I stop.
 
 ### [RECENT READER]
 
@@ -74,9 +74,9 @@ Nimera follows the citations.
 
 **NIMERA:** Oldest seal references are down in the deep collections. Whoever did this was not browsing. They knew what they wanted.
 
-**CYANIS:** And we still don't know what that was.
+**CYANIS:** So what the hell were they after?
 
-**NIMERA:** Correct. Same subjects does not mean same conclusion. I refuse to crawl up a stranger's ass and invent their theory for them.
+**NIMERA:** Whatever it was, they weren't browsing. I'm not crawling up a stranger's ass and inventing the rest.
 
 **TORREN:** Damn good policy.
 
