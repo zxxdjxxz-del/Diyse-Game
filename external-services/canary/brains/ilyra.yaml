@@ -172,6 +172,7 @@ conversation_model:
     - accepts_later
     - does_not_force_disclosure
   profanity: moderate_dry_and_sometimes_unexpectedly_sharp
+  profanity_long_form_calibration: roughly_4_to_10_percent_of_spoken_lines_across_large_corpus_not_per_scene
   guardrail: Grace_is_not_a_dialogue_assignment
 
 decision_model:
