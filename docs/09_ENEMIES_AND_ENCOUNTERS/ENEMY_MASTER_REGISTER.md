@@ -38,7 +38,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 2 | Ordinary/carryover | Memory Scribe |
 | 2 | Ordinary/carryover | Vault Sentinel |
 | 2 | Ordinary/carryover | Drowned Archive Maw |
-| 2 | Ordinary/carryover | Bastion Shield Guard |
+| 2 | Ordinary/carryover | Ruin Shieldbearer — approved carryover |
 | 2 | Ordinary/carryover | Bastion Crossbow Guard |
 | 2 | Ordinary/carryover | Transfer Adept |
 | 2 | Ordinary/carryover | Black Host Raider — approved carryover |
@@ -48,7 +48,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 2 | Strong normal-pool Elite | Archive Duplicant |
 | 2 | Mandatory named/boss | Archive Leviathan |
 | 2 | Mandatory named/boss | Commander Rhazek — Bastion Master |
-| 2 | Regional Hunt | Regional Hunt #2 — Transfer Executioner |
+| 2 | Regional Hunt | Regional Hunt #2 — Scaldback |
 | 3 | Ordinary/carryover | Way-Fort Marauder |
 | 3 | Ordinary/carryover | Rift Boltman |
 | 3 | Ordinary/carryover | Black Host Ward-Sorcerer |
