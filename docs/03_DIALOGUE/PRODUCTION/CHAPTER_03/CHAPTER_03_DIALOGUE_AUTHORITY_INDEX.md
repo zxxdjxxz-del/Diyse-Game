@@ -6,12 +6,13 @@
 **Primary story authority:** ../../../02_STORY/CHAPTERS/CHAPTER_03.md  
 **Current spoken-line count after tightening:** **544 mandatory + 176 Character-Life = 720 total**  
 **Post-tightening mature-register audit:** **PASS**
-- Nimera — **53 / 249 = 21.3%** — target **20–35%**
-- Cyanis — **21 / 117 = 17.9%** — target **10–19%**
-- Torren — **22 / 124 = 17.7%** — target **9–20%**
-- Ilyra — **15 / 95 = 15.8%** — target **7–16%**
-- Maevra — **1 / 25 = 4.0%** — target **3–8%**
-- Mirena — **3 / 50 = 6.0%** — target **2–7% overall**
+- **Previous post-tightening profanity audit is retired pending the new differentiation pass.**
+- Nimera target remains **20–35%**.
+- Cyanis target is now **7–14%**.
+- Torren target is now **7–16%**.
+- Ilyra target is now **5–12%**.
+- Maevra target is now **2–6%**.
+- Mirena target is now **1–5% overall**, with private scenes allowed higher.
 
 ## Authority rule
 
@@ -82,17 +83,17 @@ If any brain changes, reread it before finalizing/revising affected dialogue.
 - **Crest Knight only in Chapter 3**.
 - Crest Magus is a later subclass unlock and is not available as Chapter-3 expertise, ability access, or active identity.
 - practical/social leader, not automatic plot-summary voice;
-- moderate natural profanity; long-form editorial calibration roughly **10–19%**;
+- moderate natural profanity; long-form editorial calibration roughly **7–14%**;
 - humor, argument, opinion, and multi-sentence turns are available.
 
 ### Ilyra
-- whole adult personality: dry, curious, skeptical, profane, capable of pettiness and humor; long-form editorial calibration roughly **7–16%**;
+- whole adult personality: dry, curious, skeptical, profane, capable of pettiness and humor; long-form editorial calibration roughly **5–12%**;
 - not party therapist/mother/safety monitor;
 - Grace is not a dialogue assignment.
 
 ### Torren
 - Chapter-3 comfort with Cyanis/Ilyra does not reset to early terseness;
-- can joke, swear, argue, tell stories, and hold the floor; long-form editorial calibration roughly **9–20%**;
+- can joke, swear, argue, tell stories, and hold the floor; long-form editorial calibration roughly **7–16%**;
 - Torren/Nimera are **first contact / early competence respect only** in Chapter 3;
 - no paternal shorthand, dad jokes, or possessive father behavior.
 
@@ -119,20 +120,20 @@ Current long-form editorial profanity calibration:
 This is an anti-sanitization range, not a per-scene quota or fixed swear interval.
 
 Current Chapter-3 audit:
-> **53 profane Nimera lines / 249 total Nimera lines = 21.3% — PASS.**
+> **Nimera frequency target remains 20–35%; vocabulary diversification is allowed without lowering her overall band.**
 
 Do not mechanically add profanity to force a count. Do not systematically clean fuck/shit/vulgar metaphors into polite wording.
 
 ### Maevra
 - senior command and real friendship coexist;
-- moderate register-sensitive profanity; long-form editorial calibration roughly **3–8%**;
+- moderate register-sensitive profanity; long-form editorial calibration roughly **2–6%**;
 - rank does not sanitize her;
 - command is not a dialogue assignment.
 
 ### Mirena
 - charismatic, witty, socially fluent, politically impatient and competitive;
 - private register is less edited than public register;
-- profanity is more available in private; long-form editorial calibration roughly **2–7% overall**, with private scenes allowed higher;
+- profanity is more available in private; long-form editorial calibration roughly **1–5% overall**, with private scenes allowed higher;
 - not a Crown-lore exposition machine.
 
 ## Dialogue-engine craft locks
@@ -188,7 +189,7 @@ Completed results:
 - natural floor-holding was preserved;
 - mandatory dialogue reduced from **631 to 544 spoken lines**;
 - total Chapter-3 dialogue reduced from **807 to 720 spoken lines**;
-- all current character-specific mature-register bands pass without mechanical swear insertion or equalized vocabularies. The two protected First Command Warden messages are compiled as Warden-spoken runtime dialogue in B14.
+- the next differentiation pass lowers non-Nimera profanity density and removes the overuse of shared `fuck/fucking` intensifiers while preserving naturally mature speech. The two protected First Command Warden messages are compiled as Warden-spoken runtime dialogue in B14.
 
 The existing game/content/dialogue/current/chapter_03 runtime resources and global manifest remain **stale until regenerated from this source-closed set**.
 
