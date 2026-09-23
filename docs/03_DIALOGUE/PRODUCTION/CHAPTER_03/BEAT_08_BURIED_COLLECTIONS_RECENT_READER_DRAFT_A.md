@@ -56,7 +56,7 @@ She turns another page.
 
 **ILYRA:** That's cruel.
 
-**NIMERA:** Fuck that copyist specifically.
+**NIMERA:** That copyist can eat shit specifically.
 
 **TORREN:** Dead a long time.
 
