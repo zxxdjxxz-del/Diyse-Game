@@ -1,6 +1,6 @@
 # Bogshell
 
-**Chapter:** 2 — Dunmere wetland / cistern approach  
+**Current use:** Chapter 2 — Old Waterworks and compatible flooded Sunken Archive sectors  
 **Status:** **POWER COMPLETE / RAW BODY AUTHORED**
 
 ## Body
@@ -33,3 +33,7 @@ Effect:
 2-round repetition lock.
 
 No Barrier or Brace.
+
+
+## Sunken Archive carryover
+Bogshell may continue from the Old Waterworks into flooded / water-accessible Sunken Archive sectors. It remains ordinary local wildlife, not an Archive construct or Black Host-altered creature.
