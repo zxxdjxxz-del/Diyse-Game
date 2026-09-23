@@ -1,6 +1,6 @@
 # Black Host Crossbowman
 
-**Current certified use:** Chapters 0–1 carryover; both placements current  
+**Current certified use:** Chapters 0–2 carryover  
 **Status:** **CH1 POWER COMPLETE / CH1 RAW BODY AUTHORED**
 
 ## Chapter-1 body
@@ -74,3 +74,21 @@ Master fingerprint:
 - dimensions: **1122 × 1402**
 
 That image controls incidental armor geometry, helmet opening, armor reduction relative to Raider, crossbow treatment, and overall silhouette over older prose.
+
+
+## Chapter-2 body — Old Bastion
+Black Host Crossbowman carries into the Chapter-2 Old Bastion as the same established ranged Black Host troop.
+
+Provisional Chapter-2 raw body retained from the retired duplicate Bastion Crossbow Guard tuning:
+
+| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 7 | **210** | **46** | 12 | **24** | 22 | 27 | 5 | 5 |
+
+Chapter-2 action grammar:
+- **Crossbow Bolt** — Physical / Neutral / one target / **150 Power** / Base Hit95
+- **Aimed Bolt** — Physical / Neutral / one target / **175 Power** / Base Hit95 / **20% Bleed** / 1-round repetition lock
+
+The retired Bastion Crossbow Guard's forced **Reload** action is not part of the current Black Host Crossbowman identity.
+
+Final Chapter-2 raw-body/difficulty certification remains open for the current three-person party.
