@@ -298,7 +298,7 @@ Scaldback and its Hunt-branch encounter design are separate from the mandatory O
 Do not restore:
 - Redwater Initiate;
 - Vault Sentinel;
-- Hollow Watch Sentry in Chapter 2;
+- Watch Sentry in Chapter 2;
 - Archive Duplicant in Chapter 2;
 - Drowned Archive Maw;
 - Bastion Shield Guard;
@@ -357,7 +357,7 @@ The Sunken Archive uses exactly two active ordinary construct identities:
 - Archive Current
 - Memory Scribe
 
-Do not add Hollow Watch Sentry or Archive Duplicant back into Chapter 2 without explicit revision. Chapter 3 owns the stronger construct-heavy escalation.
+Do not add Watch Sentry or Archive Duplicant back into Chapter 2 without explicit revision. Chapter 3 owns the stronger construct-heavy escalation.
 
 
 ## Old Waterworks formation correction — 2026-09-23
