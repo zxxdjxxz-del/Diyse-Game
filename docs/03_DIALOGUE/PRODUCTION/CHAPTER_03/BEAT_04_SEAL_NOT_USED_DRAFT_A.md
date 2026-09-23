@@ -32,7 +32,7 @@ It produces the same recognized core authority response.
 
 Silence.
 
-**CYANIS:** That's inconvenient.
+**CYANIS:** That's damned inconvenient.
 
 **MIRENA:** Very.
 
@@ -146,7 +146,7 @@ Lysara looks to Cyanis, Ilyra, and Torren.
 
 **MIRENA:** Show her what we know. Also what we don't.
 
-**ILYRA:** I suspect she'll notice if we cheat.
+**ILYRA:** I suspect she'll notice if we bullshit it.
 
 **MIRENA:** Immediately.
 
