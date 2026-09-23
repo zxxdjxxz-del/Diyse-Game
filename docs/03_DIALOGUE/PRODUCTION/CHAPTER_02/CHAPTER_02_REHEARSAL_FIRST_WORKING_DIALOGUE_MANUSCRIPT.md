@@ -11,11 +11,11 @@
 | 1 | Beat 1 | `BEAT_01_PATH_OUTSIDE_DUNMERE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `a393d9575bdefdbb34a6b8af8d19dc9d495f5902eea18d1b72e822667573dea7` |
 | 2 | Beat 2 | `BEAT_02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_NATURAL_TURN_WORKING_DIALOGUE.md` | `d57ecb5a75186d72f4efe12b1ff1947ade1b5e70599874f40e093d73958b3ee0` |
 | 3 | Beat 3 | `BEAT_03_DUNMERE_ELDER_HIDDEN_APPROACH_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `040b96f7e6d949cac26e1490b690c4337d23805754397fa97df86cd7de8ec097` |
-| 4 | Beat 4 | `BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `c3e7e0e5c7596de4a142e44f889777033ff252af7061645279b32a5c811785dd` |
-| 5 | Beat 5 | `BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md` | `e036e6e7bde254a4e0036e7aaae277ab2e5639cf1894fa4a1dbd1f278dc55429` |
+| 4 | Beat 4 | `BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `7bb9a70171f34046d37b1ee1e6515f85d1936c190ae697cb50758158da5899bb` |
+| 5 | Beat 5 | `BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md` | `473b69f3b12373147059cfdc45e7254bcf7a08e4f31e6b6059fdd2a5b0c11f4e` |
 | 6 | Beat 7 | `BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `483f6d4907b6f4d87f285ba5a2fd8fb5ca6b19fdf3d5539887af04be483a4f3d` |
 | 7 | Beat 8 | `BEAT_08_ARCHIVE_LEVIATHAN_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `b219b398ef2bb7a1433c9b38af1738b3c109c73f2746f72bf06c62cbad3002b6` |
-| 8 | Beat 9 | `BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `efb24e29d1a1d2674621a0e16354bfbcb8e67f6bb4142eed02f4bb6bc53beedb` |
+| 8 | Beat 9 | `BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `20c972af8bc5480b44acaa7ac79fdb5cc8a22e9fede12d47e9e138776693eac1` |
 | 9 | Beat 10 | `BEAT_10_PRISONER_GALLERIES_FIRST_CONTACT_NATURAL_TURN_WORKING_DIALOGUE.md` | `0eec6e3dc4c7c49c9081af718597157ca7d1198979ad519acde8f7ae48be1537` |
 | 10 | Beat 11 | `BEAT_11_PRISONER_SAFE_AREA_EXIT_PROBLEM_NATURAL_TURN_WORKING_DIALOGUE.md` | `708366533760a4ecd9707207858f3cb075eedb936dd6b142c4555a787ecacf26` |
 | 11 | Beat 12 | `BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `f8fb8560c5659ac969cb1bb1110889ece7e18b6e9e32b964900e0d840d88ad2c` |
@@ -23,7 +23,7 @@
 | 13 | Beat 14 | `BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `c2f5f14e7d47c7cb9fb1ca90943862cfb14d7400fd3ece00f523ad0d374bcda2` |
 | 14 | Beat 15 | `BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `43df77cfbe6b02074e6793dee6ca83e22c8281da12c2ed89fb7c47960ffcd7fb` |
 | 15 | Beat 16 | `BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `cad0a1ba48b1a0a532015b11d5f18825a2ddd16396c8902d4aad2ffeea0cc8ee` |
-| 16 | C05 — Still Burns | `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `772a4540dbab189e72a646505de7ea26929e57e5cd35752d38acbc7b19496540` |
+| 16 | C05 — Still Burns | `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `cc500ca772701b12701d9724c0457f8e68a2d6c57ab33dc4b36f1df9d65509f7` |
 
 ---
 
@@ -403,7 +403,7 @@ Next mandatory beat:
 ## Beat 4
 
 **Atomic source:** `BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `c3e7e0e5c7596de4a142e44f889777033ff252af7061645279b32a5c811785dd`
+**Source SHA-256:** `7bb9a70171f34046d37b1ee1e6515f85d1936c190ae697cb50758158da5899bb`
 
 # Chapter 2 — Beat 4 — Old Waterworks
 
@@ -468,7 +468,7 @@ Torren steps away from the door.
 
 Cyanis gives the sealed branch another look.
 
-**CYANIS:** I hate damn doors that become questions.
+**CYANIS:** I hate doors that turn into smug little bastards the second you can't open them.
 
 **ILYRA:** Then you're in for a shitty life.
 
@@ -498,7 +498,7 @@ After one particularly unpleasant crossing, Ilyra wrings water from one glove.
 
 Maevra looks down at her soaked clothes.
 
-**MAEVRA:** I reserve the right to complain like hell while agreeing with both of you.
+**MAEVRA:** I reserve the right to complain my ass off while agreeing with both of you.
 
 **CYANIS:** Finally, a doctrine I can support.
 
@@ -567,7 +567,7 @@ Next mandatory beat:
 ## Beat 5
 
 **Atomic source:** `BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `e036e6e7bde254a4e0036e7aaae277ab2e5639cf1894fa4a1dbd1f278dc55429`
+**Source SHA-256:** `473b69f3b12373147059cfdc45e7254bcf7a08e4f31e6b6059fdd2a5b0c11f4e`
 
 # Chapter 2 — Beat 5 — Sunken Archive Entrance
 
@@ -586,7 +586,7 @@ The Card remains inert.
 
 Cyanis looks out across the chamber.
 
-**CYANIS:** Well. That sure as hell isn't plumbing.
+**CYANIS:** Well. That sure as shit isn't plumbing.
 
 Ilyra takes in the repeated protected recesses and the scale of the chamber.
 
@@ -945,7 +945,7 @@ Next mandatory beat:
 ## Beat 9
 
 **Atomic source:** `BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `efb24e29d1a1d2674621a0e16354bfbcb8e67f6bb4142eed02f4bb6bc53beedb`
+**Source SHA-256:** `20c972af8bc5480b44acaa7ac79fdb5cc8a22e9fede12d47e9e138776693eac1`
 
 # Chapter 2 — Beat 9 — Secret Passage Discovery
 
@@ -1004,7 +1004,7 @@ Torren keeps working instead of answering immediately.
 
 A beat.
 
-**TORREN:** Give me a damn minute before anybody gets helpful.
+**TORREN:** Give me a fucking minute before anybody gets helpful.
 
 Cyanis takes one step back.
 
@@ -2653,7 +2653,7 @@ Chapter 2 ends with:
 ## C05 — Still Burns
 
 **Atomic source:** `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `772a4540dbab189e72a646505de7ea26929e57e5cd35752d38acbc7b19496540`
+**Source SHA-256:** `cc500ca772701b12701d9724c0457f8e68a2d6c57ab33dc4b36f1df9d65509f7`
 
 # Chapter 2 Character-Life — C05 — Still Burns
 
@@ -2700,7 +2700,7 @@ Ilyra opens both eyes.
 
 She stares at him.
 
-**ILYRA:** Explain the damn swamp in this room.
+**ILYRA:** Explain why this room smells like swamp ass.
 
 Torren takes another pull.
 
@@ -2804,7 +2804,7 @@ Cyanis gets out of bed but stops well short of Torren.
 
 Torren looks at him.
 
-**TORREN:** Piss off.
+**TORREN:** Piss off, you silver-plated pain in the ass.
 
 **CYANIS:** You know it tastes awful.
 

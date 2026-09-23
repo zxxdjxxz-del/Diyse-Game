@@ -9,9 +9,9 @@
           "scene_kind": "mandatory",
           "slot_id": "P01",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md",
-          "source_sha256": "37bd5554a982bb8d7984b9f4b324cadd68c624b169c8bb5e6e51290f5f45b917",
+          "source_sha256": "6400086443d8ceda4b330bdfbc2159701c4df3b3a0643e4282b81d395562db94",
           "spoken_lines": 27,
-          "spoken_sha256": "7e44c067f1cd0bf5970ee489b249e170e8cb93ba94b44303fdc901d7dba8828d",
+          "spoken_sha256": "1dc9ec2189b417fe95be0d8b48e8f66838cc9c8afb44c1d3860ac89928bb3d9d",
           "title": "Convoy / Opening Ambush"
         },
         {
@@ -86,9 +86,9 @@
           "scene_kind": "character_life",
           "slot_id": "C01",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md",
-          "source_sha256": "e9bc8be606fc1eff08185865a6b3f1af0ceed753c50f0ddcc607559054d9eaf3",
+          "source_sha256": "7e9c1840ef85a80757ecc4742775a73a0ca88cf218889c6380c9fa6756e8e972",
           "spoken_lines": 79,
-          "spoken_sha256": "15961f25bbca9178cbdbf04528f60784c0b48d6cdf1864e0c8c71d6e17751570",
+          "spoken_sha256": "6e9eb5507bf14dcbed1a66dd4d7092611ea75880da8dd5cdac110a2ebfeaa2f4",
           "title": "Six Minutes"
         }
       ]
@@ -223,9 +223,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B12",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md",
-          "source_sha256": "987963bb11bc68ec17d45f3b11a9ef445372dba47dd17e50fcb14295c5aac891",
+          "source_sha256": "ac006fab6f7a0b21edaeef99b9f280ddf06f7e5023deee5e4a42bffa91643a61",
           "spoken_lines": 23,
-          "spoken_sha256": "856ee29adf41ac6104d90f36c4bfa61d376aa7b9a7892b8da5df152d4d8519a9",
+          "spoken_sha256": "4523c7409d1aac0c7700c53dd515f5280a4038d101afc028205d34f2c5a7fb43",
           "title": "Southern Briar Passage"
         },
         {
@@ -267,9 +267,9 @@
           "scene_kind": "character_life",
           "slot_id": "C02",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md",
-          "source_sha256": "d2986db0eaa2ee1a3d073ae19ce4c384148765051e1baa0327598c6458532d13",
+          "source_sha256": "ebcbba9cc2119a7cbc7cddd31e8b10b08152e4b2f35c36cd558de636ebc1e2fd",
           "spoken_lines": 53,
-          "spoken_sha256": "12ff75ed2c5ecb1a2aa14f6eba672fe6e7618d7fc9e8b22fecc0d6c785b2b210",
+          "spoken_sha256": "faec0f4a3e1621c8fccec8cf499cc8a3dbd2bb627e2c490de1c4d7b0bc5379b4",
           "title": "Torren's Version of Dinner"
         },
         {
@@ -278,9 +278,9 @@
           "scene_kind": "character_life",
           "slot_id": "C03",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md",
-          "source_sha256": "3807b7182968878953f556bab106331642ce41289c284c0486c75fa92ef9b742",
+          "source_sha256": "95b3543190d0e5ba166ad0b0d726ee2d922228f4370eb82f7d8ef6af2f369b6d",
           "spoken_lines": 48,
-          "spoken_sha256": "9abd5c5d043ee322b71d9110cd6d2c05ed4c580f8d66949470ae206070e62d5b",
+          "spoken_sha256": "4ff46f40de2b7c5cc627dea8477065a961c2ca27943a5fb07d55606f1a2579c2",
           "title": "What the Map Says"
         },
         {
@@ -338,9 +338,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B04",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "c3e7e0e5c7596de4a142e44f889777033ff252af7061645279b32a5c811785dd",
+          "source_sha256": "7bb9a70171f34046d37b1ee1e6515f85d1936c190ae697cb50758158da5899bb",
           "spoken_lines": 25,
-          "spoken_sha256": "8fa1e71ceba48c747cb8df01cf36192348eac77d4a47db6275bf86a669e2bdb5",
+          "spoken_sha256": "93652561fecf4e9d093580396bfecc0cf6d15a0692ab1eb1bc5919018d8a7aef",
           "title": "Chapter 2 — Beat 4 — Old Waterworks"
         },
         {
@@ -349,9 +349,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B05",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md",
-          "source_sha256": "e036e6e7bde254a4e0036e7aaae277ab2e5639cf1894fa4a1dbd1f278dc55429",
+          "source_sha256": "473b69f3b12373147059cfdc45e7254bcf7a08e4f31e6b6059fdd2a5b0c11f4e",
           "spoken_lines": 20,
-          "spoken_sha256": "26d8eb364d31470f1aa9b4672a3eaf270403433a99ab5e20a97dbd5f8839ac88",
+          "spoken_sha256": "25f9f93086dd01065a94eb2d6661c48e86d9439ef4f5b368d657186a487f3eb0",
           "title": "Chapter 2 — Beat 5 — Sunken Archive Entrance"
         },
         {
@@ -382,9 +382,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B09",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "efb24e29d1a1d2674621a0e16354bfbcb8e67f6bb4142eed02f4bb6bc53beedb",
+          "source_sha256": "20c972af8bc5480b44acaa7ac79fdb5cc8a22e9fede12d47e9e138776693eac1",
           "spoken_lines": 33,
-          "spoken_sha256": "f54ec5171834115cdd986126f4fe0e2df474d9085de9a126b379937d63c4fec4",
+          "spoken_sha256": "8273af44dc9220d1d2c556b49be40b5c021fdd58ea5fc40a07fe271358e5bb5d",
           "title": "Chapter 2 — Beat 9 — Secret Passage Discovery"
         },
         {
@@ -470,9 +470,9 @@
           "scene_kind": "character_life",
           "slot_id": "C05",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "772a4540dbab189e72a646505de7ea26929e57e5cd35752d38acbc7b19496540",
+          "source_sha256": "cc500ca772701b12701d9724c0457f8e68a2d6c57ab33dc4b36f1df9d65509f7",
           "spoken_lines": 65,
-          "spoken_sha256": "0c264eed186af5807937d27bf619264bd6679b61ae2a7d8d473fd2833b1491ee",
+          "spoken_sha256": "e9d058193298db46ad0eadeae6f6bc7b5fe9f8fd811a2654e1099619b6d4aff0",
           "title": "Chapter 2 Character-Life — C05 — Still Burns"
         }
       ]
@@ -671,7 +671,7 @@
     }
   },
   "expected_total_spoken": 2038,
-  "global_spoken_sha256": "e53c6e1e8f5419bed2ea0cf01260b8adbe7da34c5cf1f6f28c5a0553f7a13648",
+  "global_spoken_sha256": "62663b99472949102d6da29c59989b0f48f504a9e87d8af3c3cfc4086685db44",
   "schema": "diyse_current_runtime_dialogue_manifest_v1",
   "source_authority": "docs/03_DIALOGUE/PRODUCTION",
   "total_spoken": 2038
