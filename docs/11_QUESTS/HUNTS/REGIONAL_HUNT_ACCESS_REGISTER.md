@@ -11,7 +11,7 @@ Exactly:
 | # | Regional Hunt | Current access context | EXP |
 |---:|---|---|---:|
 | 1 | **Cistern Devourer** | Chapter 1 — old cistern branch becomes known after S011 | 1,000 |
-| 2 | **Transfer Executioner** | Chapter 2 — Red Transfer Bastion / branch state change | 1,500 |
+| 2 | **Transfer Executioner** | Chapter 2 cleanup — sealed side-branch door in the Old Waterworks → additional Hunt branch | 1,500 |
 | 3 | **Archive Judgment Engine** | Chapter 3 — Old City/Archive return after S021 authorization-state change | 2,200 |
 | 4 | **Crown Prototype** | Chapter 4 — Reaction Annex optional-return branch | 3,000 |
 | 5 | **Whitehorn Ravager** | Chapter 5 — Greyspires / Chapter-5 optional branch | 4,000 |
