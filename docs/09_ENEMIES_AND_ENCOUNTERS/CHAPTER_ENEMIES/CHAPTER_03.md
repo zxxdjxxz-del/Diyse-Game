@@ -65,12 +65,13 @@ Regional Hunt #3 may unlock during cleanup under its own authority.
 ### Old City Archives — currently retained ordinary identities
 - Judgment Frame
 - Erasure Wisp
+- Authority Lens — inspection / classification support construct; also appears at Cresthaven
 
 These remain compatible with the Archives, but exact sub-area formation eligibility and final weights require a fresh placement pass against the revised Beat-7 through Beat-10 dungeon structure.
 
 ### Cresthaven tower-base ordinary identities — current
 - Command-Station Sentry — surviving command-site security construct; current preferred Chapter-3 Stun introduction
-- Authority Lens — inspection / authority-reading support construct; no Chapter-3 Stun rider
+- Authority Lens — shared inspection / authority-reading support construct; also appears in the Old City Archives; no Chapter-3 Stun rider
 
 ### Recovered identities — current mandatory placement not yet reapproved
 - Command Ring Drone
@@ -215,9 +216,9 @@ Do not fill these gaps by silently restoring the retired encounter structure.
 - Station Pulse is the current preferred ordinary-enemy introduction to **Stun** in Chapter 3.
 
 
-## Cresthaven Authority Lens correction — 2026-09-23
-- **Authority Lens is approved for the Cresthaven Ancient tower base.**
-- It is removed from Old City Archives placement.
-- Command Interior is its primary home.
+## Authority Lens placement correction — 2026-09-23
+- **Authority Lens is approved for both the Old City Archives and the Cresthaven Ancient tower base.**
+- In the Archives it functions as inspection / classification support.
+- In Cresthaven, Command Interior is its strongest thematic home.
 - Chapter-3 Classification Flash is Lightning AoE **without Stun**.
 - Command-Station Sentry remains the preferred ordinary-enemy Stun introduction.
