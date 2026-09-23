@@ -28,8 +28,6 @@ Ilyra starts removing the old splint.
 
 **MAEVRA:** Better.
 
-Ilyra checks the arm.
-
 **ILYRA:** You've been using the hell out of it.
 
 **MAEVRA:** I have duties.
@@ -40,19 +38,15 @@ Ilyra checks the arm.
 
 Ilyra uses a small amount of Warden magic.
 
-Maevra exhales.
-
 **MAEVRA:** Better. Still broken?
 
 **ILYRA:** Still broken. I can settle the pain. I can't convince bone that time is optional.
-
-**MAEVRA:** Shame.
 
 ### [TORREN]
 
 For a while, neither speaks.
 
-**ILYRA:** You and Torren are strange as hell.
+**ILYRA:** You and Torren are strange.
 
 **MAEVRA:** That's not a question.
 
@@ -92,10 +86,6 @@ A little silence.
 
 **MAEVRA:** Sometimes the road is bad and somebody still has to get to the other end.
 
-**ILYRA:** Duties.
-
-**MAEVRA:** Duties.
-
 ### [WHAT SHE WILL SAY]
 
 **ILYRA:** Do you actually dislike each other?
@@ -103,8 +93,6 @@ A little silence.
 **MAEVRA:** No.
 
 Ilyra waits.
-
-Maevra notices.
 
 **MAEVRA:** Don't do that.
 
@@ -119,8 +107,6 @@ Ilyra almost smiles.
 Maevra watches her finish the wrap.
 
 **MAEVRA:** He matters to me. More than is convenient sometimes.
-
-Ilyra looks up.
 
 Maevra gives her a warning look.
 
@@ -138,10 +124,6 @@ Ilyra smiles.
 
 **ILYRA:** Cruel.
 
-**MAEVRA:** Commander.
-
-**ILYRA:** Patient.
-
 ### [DONE]
 
 Ilyra secures the fresh splint.
@@ -157,8 +139,6 @@ Maevra moves them.
 **MAEVRA:** What if the reason is excellent?
 
 **ILYRA:** Still broken.
-
-A beat.
 
 **MAEVRA:** Was any of that professional?
 
