@@ -107,9 +107,9 @@ Torren looks at Cyanis.
 
 **TORREN:** He's right about the armor, though.
 
-**CYANIS:** We moved on.
+**CYANIS:** Keep talking, you mud-caked old bastard wearing half a hedge.
 
-**TORREN:** You did.
+**TORREN:** Better than looking like a silver-plated cock with command authority.
 
 Nimera laughs again.
 
