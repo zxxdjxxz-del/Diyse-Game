@@ -90,7 +90,7 @@ Torren looks toward the south road.
 
 **MAEVRA:** Then let's move now.
 
-**ILYRA:** Please. I want walls and food.
+**ILYRA:** Please. I want walls, food, and no more ancient shit.
 
 Cyanis looks at her.
 
