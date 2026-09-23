@@ -1,7 +1,7 @@
 # Chapter 2 — Dialogue Authority Index
 
 **Chapter:** 2 — The Drowned Oath  
-**Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — 15 ACTIVE MANDATORY BEATS CURRENT; LEGACY B06 WESTERN MAP MURAL RETIRED + C05 CURRENT**
+**Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — 2026-09-23 NATURALISM / MANDATORY TIGHTENING / C05 PASS COMPLETE**
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Beat-development authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
 **Character-Life numbering:** `../CHARACTER_LIFE_NUMBERING_LOCK.md`  
@@ -9,7 +9,7 @@
 **Mature-adult speech:** `../../AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`  
 **Spoken-vs-narration:** `../../AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`  
 **Combined read-through:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **CURRENT synchronized derived mirror; standalone active atomics remain exact wording authority**
-**Current atomic spoken-line counts:** **478 mandatory + 83 C05 = 561 if C05 is viewed.**  
+**Current atomic spoken-line counts:** **431 mandatory + 65 C05 = 496 if C05 is viewed.**  
 
 ## Authority rule
 
@@ -108,13 +108,53 @@ C05 `Still Burns` no longer states an exact `twenty-five years` duration. Their 
 
 ## Mature-adult speech — CLOSED
 
-Chapter 2 follows the current adult-register rule:
-- Cyanis — moderate profanity, more available with stress/trust;
-- Ilyra — moderate/dry/sharp, not sanitized by Grace coding;
-- Torren — casual/unselfconscious profanity;
-- Maevra — moderate and register-sensitive, not sanitized by rank.
+The 2026-09-23 pass brings Chapter 2 into the current differentiated adult-register standard.
 
-No swear quota exists.
+Current Chapter-2 audit:
+- **Cyanis — 15 / 117 = 12.8%** — target **7–14%**;
+- **Ilyra — 8 / 76 = 10.5%** — target **5–12%**;
+- **Torren — 10 / 131 = 7.6%** — target **7–16%**;
+- **Maevra — 3 / 60 = 5.0%** — target **2–6%**.
+
+Vocabulary remains differentiated:
+- Cyanis favors `damn / hell / shit`, with `fuck` remaining a sharper spike;
+- Ilyra favors `damn / hell / bullshit` with dry placement;
+- Torren uses `damn / piss / shit / hell / fuck` in a rougher veteran register;
+- Maevra remains lower-frequency and register-sensitive.
+
+No profanity is inserted by quota. Prisoner contact, medical instructions, and command scenes remain cleaner when the situation benefits from clarity.
+
+## Natural uncertainty / canon-checker speech — CLOSED
+
+Current active Beats 1–5, 7–16 + C05 audit finds **zero targeted canon-checker constructions**.
+
+The pass removed or naturalized constructions such as:
+- Beat 1's `Important distinction`;
+- Beat 2's `means we know what we know`;
+- formal evidence-certification phrasing around testimony and route uncertainty;
+- repeated ideological/state summaries after Rhazek's position had already landed.
+
+Plain human uncertainty remains where natural. Characters may say `don't know`, `no idea`, make a guess, or disagree without reciting a knowledge ledger.
+
+Reveal firewalls remain production constraints, not required spoken dialogue.
+
+## Chapter-2 tightening — CLOSED
+
+The mandatory story was tightened from **478 → 431 spoken lines** (**47 lines / 9.8%**).
+
+The heaviest compression was concentrated in the prisoner/Bastion chain:
+- repeated evacuation logistics were collapsed;
+- repeated Rhazek authority arguments were removed while preserving his core ideology;
+- the masked officer's credible operational departure remains intact;
+- the promise to return for the prisoners remains intact;
+- the post-boss pursuit choice remains intact;
+- Dunmere still receives the information it actually needs to reopen the road.
+
+B13 remains the chapter's largest confrontation scene but is reduced from **58 → 45 spoken lines**.
+
+C05 `Still Burns` was tightened from **83 → 65 spoken lines** while preserving the drowned-stash premise, group pile-on, Torren's stubborn `still burns` logic, and the final attempted second smoke.
+
+Total Chapter-2 dialogue was reduced from **561 → 496 spoken lines**.
 
 ## Natural-turn / spoken-dialogue status
 
@@ -161,8 +201,8 @@ Material spoken-vs-narration revisions remain in force in Beats 2, 5, 10, 13, 14
 - natural-turn audit — **COMPLETE**;
 - spoken-dialogue/narration audit — **COMPLETE**;
 - current Cyanis/Ilyra/Torren/Maevra runtime brains — **ALIGNED**;
-- combined manuscript — **STALE, NEXT PHASE ONLY**;
-- old Chapters 0–3 reader/novelization — **STALE, NEXT PHASE ONLY**.
+- combined manuscript — **DERIVED; regenerate/verify after atomic changes**;
+- Chapters 0–3 reader/runtime outputs — **DERIVED; regenerate/verify after atomic changes**.
 
 ## Conflict order
 
@@ -176,4 +216,4 @@ If Chapter-2 sources disagree:
 7. combined manuscript only after verified resynchronization;
 8. historical material only as provenance.
 
-> **Chapter 2 exact dialogue authority is current at 478 mandatory spoken lines plus the current 83-line C05 `Still Burns`. B06 Western Map Mural is retired.**
+> **Chapter 2 exact dialogue authority is current at 431 mandatory spoken lines plus the current 65-line C05 `Still Burns` = 496 total. B06 Western Map Mural remains retired.**
