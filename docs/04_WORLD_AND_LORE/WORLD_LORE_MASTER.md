@@ -46,9 +46,9 @@ They do **not** begin the story knowing:
 
 ## Present chronology
 Current story chronology is:
-> **720 YF**
+> **713 YF**
 
 where YF means **Years since the Founding of Yahtrea**.
 
 Key modern-history anchor:
-> first Card activation era ≈ **200 YF**, roughly **520 years before the present**.
+> first Card activation era ≈ **200 YF**, roughly **513 years before the present**.
