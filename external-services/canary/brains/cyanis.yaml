@@ -195,6 +195,7 @@ conversation_model:
     - usually_indirect
     - increasingly_plain_when_earned
   profanity: moderate_and_natural_with_more_freedom_under_trust_stress_or_banter
+  profanity_long_form_calibration: roughly_3_to_8_percent_of_spoken_lines_across_large_corpus_not_per_scene
   guardrail: leadership_is_not_a_dialogue_assignment
 
 decision_model:
