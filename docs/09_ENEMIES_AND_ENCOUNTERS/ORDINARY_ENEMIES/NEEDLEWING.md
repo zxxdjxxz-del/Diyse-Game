@@ -1,6 +1,6 @@
 # Needlewing
 
-**Current use:** Chapter 1 — Southern Briar Passage; Chapter 2 — Old Waterworks carryover  
+**Current use:** Chapter 1 — Southern Briar Passage; Chapter 2 — Old Waterworks and compatible Sunken Archive carryover  
 **Role:** ordinary natural threat / fast aerial harasser  
 **Status:** **IDENTITY + NAME + PLACEMENT LOCKED / RAW BODY + ACTION POWER AUTHORED / ENCOUNTER VALIDATION OPEN**
 
@@ -59,8 +59,8 @@ Do not add Burn, Freeze, Stun, or Staggered to the Chapter-1 body.
 
 
 
-## Chapter-2 carryover placement — Old Waterworks
-Needlewing is an approved natural-threat carryover into the Chapter-2 Old Waterworks.
+## Chapter-2 carryover placement — Old Waterworks / Sunken Archive
+Needlewing is an approved natural-threat carryover into the Chapter-2 Old Waterworks and compatible open / broken Sunken Archive chambers.
 
 Placement intent:
 - flooded chambers;
