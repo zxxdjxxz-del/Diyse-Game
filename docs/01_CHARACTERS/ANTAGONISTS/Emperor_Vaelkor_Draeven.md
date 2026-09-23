@@ -18,15 +18,27 @@ Publicly knowable:
 - Vaelkor has ruled for centuries;
 - his lifespan is visibly / historically far beyond normal human limits;
 - his exact age is unknown;
-- his exact accession date and total reign length are not reliably established;
+- his exact age is unknown to modern Yahtrean institutions **and** modern Black Host institutions;
+- his exact accession age/date and total reign length are not reliably established by either side;
 - Black Host doctrine, foreign scholarship, and popular rumor offer competing explanations.
 
 Not publicly knowable at introduction:
+- Vaelkor's true age;
+- the age at which he became ruler;
 - the true reason for his longevity;
 - the surviving Entity fragment;
 - the fragment's role in extending his life or influencing his reign.
 
-The hidden nearly-three-century authority below remains **author-side truth**, not a number the player-facing world intro should state as settled public fact.
+### Private chronology — Vaelkor only
+Hard canon:
+- Vaelkor's true age is **438**.
+- He became ruler at **age 34**.
+- These two exact facts are known **only to Vaelkor himself**.
+- Modern Yahtrean historians do not know them.
+- Modern Black Host officials, archivists, commanders, citizens, and institutions do not know them.
+- Do not let another modern character state either exact number as established fact unless the story explicitly creates a later reveal sourced from Vaelkor himself.
+
+This private chronology is author-side / Vaelkor-internal truth and must remain outside the player-facing world introduction as an exact number.
 
 ## Recovery boundary
 The project record explicitly preserves that Vaelkor previously received a full/deep antagonist treatment covering:
@@ -66,8 +78,10 @@ He is responsible for:
 The hidden Entity fragment explains part of the historical context of his extraordinary reign.
 It does **not** erase human agency.
 
-## The nearly three-century reign
-For nearly **300 years**, the sole surviving ancient Entity fragment covertly influences Vaelkor while extending his life.
+## The long reign
+Vaelkor's reign extends across centuries. His private exact chronology is locked above: true age **438**, ruler from **age 34**, exact facts known only to Vaelkor.
+
+The sole surviving ancient Entity fragment covertly influences Vaelkor while extending his life. Do not infer or invent the exact start date of that influence from his age or accession chronology unless a later authority explicitly locks it.
 
 Critical rule:
 > long life is not proof that Vaelkor knowingly understands its source.
