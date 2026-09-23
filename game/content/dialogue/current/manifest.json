@@ -629,9 +629,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B14",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md",
-          "source_sha256": "22b8f87abea27826235f88d34c481f692f4c6d2732877b1fbd9428647c1fa0bb",
-          "spoken_lines": 49,
-          "spoken_sha256": "df1be519173a73bcfafe6e996ecf33cea6e573cdcf8e7133863d681f77767582",
+          "source_sha256": "705fd00ce53d9e1a5511e1ae1ce47083fbc61edea5fa3b418635c4ce645518f8",
+          "spoken_lines": 51,
+          "spoken_sha256": "3c6663b15a950a664571a83a843e50e91d5cfd6ef13a737bd87d66970bec240e",
           "title": "Cresthaven / Ancient Tower Base / First Command Warden"
         },
         {
@@ -670,9 +670,9 @@
       ]
     }
   },
-  "expected_total_spoken": 2250,
-  "global_spoken_sha256": "3d8936d6b7f5ae3418ea8a451add37512863ff9c9904144eaf5a8b935d8c35e4",
+  "expected_total_spoken": 2252,
+  "global_spoken_sha256": "a30d2ec1f9a9253b1b5e20e2a5163e6bbd21a216ac35429cb785831a6f5d631f",
   "schema": "diyse_current_runtime_dialogue_manifest_v1",
   "source_authority": "docs/03_DIALOGUE/PRODUCTION",
-  "total_spoken": 2250
+  "total_spoken": 2252
 }

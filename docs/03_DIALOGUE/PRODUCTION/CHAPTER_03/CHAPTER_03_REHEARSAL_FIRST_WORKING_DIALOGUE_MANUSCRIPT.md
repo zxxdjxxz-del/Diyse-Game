@@ -21,7 +21,7 @@
 | 11 | Beat 11 | `BEAT_11_ARCHIVE_SCRIBE_ENGINE_DRAFT_A.md` | `cc2d0c139e08aae0e652474bd98cec75574e9d0a9d5e56ab4e761f84bf6e0225` |
 | 12 | Beat 12 | `BEAT_12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DRAFT_A.md` | `01b967ef326d817e860d7869b4c902b6cf46e5c098f930dff9555aad6fa3d878` |
 | 13 | Beat 13 | `BEAT_13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DRAFT_A.md` | `e8a8536158e6966df76f97a011bee1da596c3ff62ba85fc3be0c5446f5a58109` |
-| 14 | Beat 14 | `BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md` | `22b8f87abea27826235f88d34c481f692f4c6d2732877b1fbd9428647c1fa0bb` |
+| 14 | Beat 14 | `BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md` | `705fd00ce53d9e1a5511e1ae1ce47083fbc61edea5fa3b418635c4ce645518f8` |
 | 15 | Beat 15 | `BEAT_15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DRAFT_A.md` | `4ff95080d6ddcc729e0e6d8ffa8e97d3ca8a7407cf0db97e76c44bbc572278df` |
 | 16 | C06 — Nimera Takes Over a Table | `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md` | `a94dd635cdb28ba5f86c2b4bf21b49eb76689f6c1255bbbc54d126690d3381eb` |
 | 17 | C07 — Ilyra and Nimera | `H03_ILYRA_AND_NIMERA_DRAFT_A.md` | `33ce94dca6fdc18170751b27f90d5932c19e83884416c94d061a163db2878e9d` |
@@ -2314,7 +2314,7 @@ Transition into:
 ## Beat 14
 
 **Atomic source:** `BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md`  
-**Source SHA-256:** `22b8f87abea27826235f88d34c481f692f4c6d2732877b1fbd9428647c1fa0bb`
+**Source SHA-256:** `705fd00ce53d9e1a5511e1ae1ce47083fbc61edea5fa3b418635c4ce645518f8`
 
 # Chapter 3 — Beat 14
 # Cresthaven / Ancient Tower Base / First Command Warden
@@ -2512,17 +2512,17 @@ Nimera raises a hand.
 
 **NIMERA:** Wait.
 
-Ancient characters ignite across the Warden:
+Ancient characters ignite across the Warden.
 
-> **PREVIOUS ERROR**
+**FIRST COMMAND WARDEN:** PREVIOUS ERROR
 
 Nobody interprets it.
 
 The message fades.
 
-A second forms:
+A second forms.
 
-> **LAST SENTINEL CONFIRMED**
+**FIRST COMMAND WARDEN:** LAST SENTINEL CONFIRMED
 
 The final character completes.
 

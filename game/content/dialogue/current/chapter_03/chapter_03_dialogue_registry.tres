@@ -14,5 +14,6 @@ entries = [
 {"character_id": "othmar", "display_name": "Othmar", "portraits": {}},
 {"character_id": "archive_keeper", "display_name": "Archive Keeper", "portraits": {}},
 {"character_id": "old_city_archive_keeper", "display_name": "Old City Archive Keeper", "portraits": {}},
-{"character_id": "nimera", "display_name": "Nimera", "portraits": {}}
+{"character_id": "nimera", "display_name": "Nimera", "portraits": {}},
+{"character_id": "first_command_warden", "display_name": "First Command Warden", "portraits": {}}
 ]
