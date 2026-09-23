@@ -7,7 +7,7 @@ lives under game/content/dialogue/current/ and is the game-facing wording mirror
 The compiler is intentionally strict:
 - current atomics are the only spoken-wording authority;
 - speaker labels must be ALL-CAPS inline Markdown dialogue labels;
-- all 2,312 current spoken lines must compile in exact order and wording;
+- all 2,300 current spoken lines must compile in exact order and wording;
 - generated Resources embed source/spoken hashes;
 - legacy S001-S021 Resources are not used as input.
 """
@@ -26,7 +26,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[2]
 PROD = ROOT / "docs/03_DIALOGUE/PRODUCTION"
 OUT_ROOT = ROOT / "game/content/dialogue/current"
-EXPECTED_TOTAL_SPOKEN = 2312
+EXPECTED_TOTAL_SPOKEN = 2300
 
 DIALOGUE_RE = re.compile(r"^\*\*([^*\n]+):\*\*\s*(.*)$")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
@@ -149,7 +149,7 @@ def source_set() -> list[SceneSource]:
     ])
 
     ch2 = chapter_dir("02")
-    for n in range(1, 17):
+    for n in list(range(1, 6)) + list(range(7, 17)):
         scenes.append(SceneSource("02", f"B{n:02d}", unique_glob(ch2, f"BEAT_{n:02d}_*.md"), "mandatory"))
     scenes.append(SceneSource("02", "C05", unique_glob(ch2, "C06_STILL_BURNS_*.md"), "character_life"))
 
@@ -167,7 +167,7 @@ def source_set() -> list[SceneSource]:
         SceneSource("03", "C07", unique_glob(ch3, "H03_ILYRA_AND_NIMERA_DRAFT_*.md"), "character_life", unique_glob(ch3, "H03_ILYRA_AND_NIMERA_SPEC.json")),
     ])
 
-    expected_counts = {"00": 8, "01": 18, "02": 17, "03": 17}
+    expected_counts = {"00": 8, "01": 18, "02": 16, "03": 17}
     for chapter, expected in expected_counts.items():
         got = sum(1 for scene in scenes if scene.chapter == chapter)
         if got != expected:
