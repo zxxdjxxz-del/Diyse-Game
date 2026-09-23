@@ -76,7 +76,7 @@ The exposed surface is much larger in scope than a local route plate.
 
 Once the surviving relationships resolve, it reads as a broad map of **western ancient Diyse**.
 
-Dense overland route lines intersect and reconnect across the entire surviving region. A second, visually distinct layer runs beneath / between those surface routes, marking extensive underground infrastructure and routes. Repeated built-form clusters mark numerous ancient cities or settlements.
+Dense overland route lines intersect and reconnect across the entire surviving region. A second, visually distinct system of markings threads through the map in a different grammar. **Production authority:** those markings correspond to underground infrastructure and routes, but Chapter 1 must not visually or verbally identify them that way yet. Repeated built-form clusters mark numerous ancient cities or settlements.
 
 Six familiar Face markings appear as part of the old technical grammar:
 
@@ -94,7 +94,7 @@ Ilyra follows the route layers outward.
 
 Torren traces one set, then another without touching the surface.
 
-**TORREN:** Roads up top. Another network underneath. Tunnels, conduits, service routes—something underground. I can tell they're separate. I can't tell you what they were for.
+**TORREN:** These are roads. These other lines aren't—or not any kind I know. They're everywhere, and I can't tell you what they mean.
 
 Maevra looks across the repeated built-up clusters.
 
@@ -116,7 +116,7 @@ Cyanis looks across the wider map.
 
 **TORREN:** Looks that way. Doesn't tell us how it all worked.
 
-Farther across the surviving western map, surface routes, underground lines, and built-up structures become markedly denser around one enormous concentration.
+Farther across the surviving western map, surface routes, the second unidentified marking system, and built-up structures become markedly denser around one enormous concentration.
 
 The physical map is broken through the middle of it.
 
@@ -156,7 +156,7 @@ A small beat.
 
 Nobody gives the side access a new name or predicts what lies beyond it.
 
-**MAEVRA:** Copy what survived. All of it we can support. Leave the broken part broken.
+**MAEVRA:** Copy what's here.
 
 **CYANIS:** Works for me.
 
@@ -179,7 +179,7 @@ A brief fade/state transition is enough.
 The copy preserves:
 - the broad western ancient-Diyse geography;
 - the dense overland route network;
-- the distinct underground infrastructure / route layer;
+- the distinct second system of markings, still unidentified by the party;
 - the numerous surviving city / settlement clusters;
 - the largest concentration around the geography of present-day Caelora and the exact shape/location of the physical break through its center;
 - the southeast alignment corresponding to the party's existing route toward Dunmere;
@@ -243,10 +243,10 @@ Known:
 - vines and moss concealed the monument's cartographic surface in plain sight;
 - the exposed surface is a route/map object, not a tunnel entrance;
 - the Wayfinder depicts a substantial western portion of ancient Diyse, not merely the Junction corridor;
-- dense surface routes and a distinct underground infrastructure / route layer connect many ancient built-up sites;
+- dense surface routes cross the region alongside a distinct second marking system whose meaning remains unidentified;
 - the largest visible urban / infrastructure concentration lies around the geography of present-day Caelora;
 - the map is physically broken through the center of that Caelora-area concentration, leaving the largest ancient cluster incomplete;
-- the party can recognize the scale and layering of the network but cannot yet explain its full function or identify what occupied the missing center;
+- the party can recognize the map's scale, the obvious overland routes, and the existence of a second extensive system of markings, but cannot identify what that second system represents or what occupied the missing center;
 - the party's existing route toward Dunmere follows an older Diysean alignment;
 - a water/cistern notation corresponds geographically with the earlier overgrown Southern Briar side access;
 - the six Face markings appear in the monument's technical grammar, but their function remains unknown;
