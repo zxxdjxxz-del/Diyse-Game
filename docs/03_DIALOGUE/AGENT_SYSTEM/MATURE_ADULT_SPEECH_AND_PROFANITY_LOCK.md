@@ -47,7 +47,16 @@ A clean line can be more truthful than a profane one. A profane line can be more
 
 ## Current character calibration
 
-These are performance guides, not mechanical quotas. Nimera additionally has a **long-form editorial calibration target of roughly 15–35% of spoken lines containing natural profanity** across a sufficiently large corpus. That range is for auditing sanitization across a chapter or major dialogue set, never for enforcing per-scene spacing.
+These are performance guides, not mechanical quotas. Current long-form editorial calibration bands exist to catch accidental sanitization across a chapter or major dialogue set, never to enforce per-scene spacing:
+
+- **Nimera:** roughly **20–35%**
+- **Torren:** roughly **5–12%**
+- **Ilyra:** roughly **4–10%**
+- **Cyanis:** roughly **3–8%**
+- **Maevra:** roughly **3–8%**
+- **Mirena:** roughly **2–7% overall**, with private scenes allowed to run higher
+
+These ranges measure spoken lines containing natural profanity across a sufficiently large corpus. They do not require profanity in every scene, and public/formal registers may naturally run cleaner.
 
 ### Nimera
 **High / frequent / deeply integrated.**
@@ -88,6 +97,8 @@ It may appear in:
 
 His increasing social comfort from Chapter 2 onward may make profanity and affectionate insult more available, but he does not need to become louder or more vulgar to prove he has opened up.
 
+Long-form editorial calibration: roughly **5–12%**.
+
 ### Ilyra
 **Moderate / dry / occasionally sharper than expected.**
 
@@ -102,6 +113,8 @@ Ilyra may swear naturally when:
 
 Her profanity should help prevent healer/Grace coding from turning her into a saintly or sanitized woman. She can be composed and still say `fuck`.
 
+Long-form editorial calibration: roughly **4–10%**.
+
 ### Cyanis
 **Moderate / freer with trust and pressure.**
 
@@ -113,6 +126,8 @@ Cyanis is comfortable with profanity, especially:
 - when a deliberately blunt word is funnier or more honest.
 
 Formal responsibility can make him more controlled, but it does not make him prudish. He should not sound like a sanitized protagonist while everybody around him talks like adults.
+
+Long-form editorial calibration: roughly **3–8%**.
 
 ### Maevra
 **Moderate / register-sensitive / never sanitized by rank.**
@@ -126,6 +141,15 @@ Maevra is a senior commander and socially sophisticated. She changes register de
 - off duty she may be quicker, more profane, competitive, gossipy, and vulgar when the context supports it.
 
 Rank changes the social meaning of the line. It does **not** require sanitization.
+
+Long-form editorial calibration: roughly **3–8%**.
+
+### Mirena
+**Moderate-low overall / substantially freer in private.**
+
+Mirena's public Crown register can be polished without becoming sterile. In private, especially with people she trusts or when political absurdity irritates her, sharper language should be available naturally.
+
+Long-form editorial calibration: roughly **2–7% overall**, with private scenes allowed to run higher.
 
 ### Other current/future characters
 Use the owning character authority to establish their individual register. Until a stronger habit is explicitly established, default to mature adult naturalism rather than either total cleanliness or automatic profanity.
@@ -163,7 +187,7 @@ A pass is **not complete** merely because plot facts and character roles are cor
 
 There is no target number of swear words per scene and no required interval between profane lines.
 
-For Nimera only, the current long-form calibration is roughly **15–35% of spoken lines containing natural profanity** across a large enough corpus to reveal accidental sanitization. A scene may be much cleaner or much dirtier than that. Do not solve the target by mechanically counting forward and inserting `fuck`, `shit`, `bitch`, or any other word.
+Current long-form calibration bands are listed above. Nimera's current band is roughly **20–35%**; the other major characters use lower character-specific bands. A scene may be much cleaner or much dirtier than its character's long-form range. Do not solve any target by mechanically counting forward and inserting `fuck`, `shit`, `bitch`, or any other word.
 
 The correct question is:
 > **Would this particular adult, in this particular relationship and state, actually phrase the thought this way?**
