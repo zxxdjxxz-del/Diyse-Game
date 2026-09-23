@@ -146,6 +146,87 @@ Current character/runtime authority remains:
 
 Mature-adult speech rules remain active.
 
+## Live Agent-Brain grounding for this migration
+
+The Chapter-3 rewrite must be rehearsed against the **current runtime Agent Brains**, not reverse-engineered from stale atomics.
+
+Verified current brain snapshots:
+- Cyanis — `external-services/canary/brains/cyanis.yaml` — blob `c93f77477c3cbde4c3139c7c3aa191ca574345a8`
+- Ilyra — `external-services/canary/brains/ilyra.yaml` — blob `2c3c05f55535be192b243e52ba139eade3af426e`
+- Torren — `external-services/canary/brains/torren.yaml` — blob `27e81d6b5a1af69d374a72c95de2e10bae55d27b`
+- Nimera — `external-services/canary/brains/nimera.yaml` — blob `60c76625da01b105611426382b39fd9342b88255`
+- Maevra — `external-services/canary/brains/maevra.yaml` — blob `70487ef344c7283a95e5da584328158b9c0a1964`
+- Crown Princess Mirena Ceryth — `external-services/canary/brains/mirena.yaml` — blob `4ccbcb5acac0600e975b9faafaa368ec143282d6`
+
+If any of these brain files change before a scene is finalized, reread the changed brain and use the newer live authority.
+
+### Nimera true-voice lock
+
+Nimera must not be flattened into a polite/sanitized archive scholar.
+
+Current required performance:
+- serious records/Card specialist whose defining social trait is **engagement**;
+- curious, irreverent, precise, socially alive, playful, and profane;
+- bites onto wording, contradictions, category errors, and interesting mistakes;
+- revises herself aloud;
+- may correct a correction before yielding;
+- may keep the floor through evidence → self-revision → profanity → conclusion when the distinction belongs to her;
+- profanity is **high / frequent / casual / precise** and integrated inside the syntax of her thoughts;
+- spontaneous metaphors/comparisons usually begin **profane, vulgar, bodily, indecent, or socially inappropriate**, then get corrected/qualified aloud if technically wrong;
+- true fury may become cleaner/more formal; genuine vulnerability may become simpler;
+- long-form editorial anti-sanitization calibration: roughly **15–20% of Nimera's spoken lines containing natural profanity across a large enough corpus**, never a per-scene or interval quota;
+- never insert swearing mechanically just to hit a count;
+- never clean `fuck`/`shit`/vulgar phrasing into generic polite wording merely because she is scholarly, young, or explaining lore.
+
+Anti-patterns that fail Nimera:
+- solemn archive girl;
+- exposition machine;
+- omniscient ancient-history expert;
+- socially oblivious genius;
+- childlike younger-party role;
+- profanity as decorative edge or mechanical quota.
+
+### Other true-voice protections
+
+**Cyanis**
+- practical/social leader, not automatic plot-summary voice;
+- moderate natural profanity;
+- can joke, argue, volunteer opinions, and hold multi-sentence turns;
+- leadership is not a dialogue assignment.
+
+**Ilyra**
+- dry, curious, skeptical, sometimes petty and sharply profane;
+- not the party therapist/mother/safety monitor;
+- Grace is not a dialogue assignment;
+- do not auto-assign food, sleep, injury, consent, feelings, or scene-closing wisdom to her.
+
+**Torren**
+- Chapter-3 comfort with Cyanis/Ilyra does not reset to early terseness;
+- can start/prolong jokes, swear casually, tell short stories, argue recreationally, and hold longer turns;
+- with Nimera this is still first contact: field judgment vs records/provenance, reciprocal correction, mild irritation/comedy, early respect;
+- no paternal shorthand / dad jokes / possessive father behavior.
+
+**Maevra**
+- real senior commander and real longtime friend can coexist;
+- moderate register-sensitive profanity; rank does not sanitize her;
+- command is not a dialogue assignment.
+
+**Mirena**
+- charismatic, witty, social, politically impatient, competitive;
+- private voice is less edited than public voice;
+- profanity is more available in private;
+- not a Crown-lore exposition machine.
+
+### Dialogue-engine rules
+
+Every revised Chapter-3 scene must also obey:
+- `STORY_BEAT_AS_GUARDRAIL_LOCK.md` — story outcomes/reveal boundaries are guardrails, not prewritten speaker choreography;
+- `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` — sentence count is not turn count; let characters finish behavioral turns;
+- `MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md` — preserve distinct adult registers and do not sanitize profanity in editing.
+
+The Dialogue Editor must cut repetition, not character-specific floor time or adult language.
+
+
 ## Protected anchors retained
 
 C06 opening anchors remain:
