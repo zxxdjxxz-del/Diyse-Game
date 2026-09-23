@@ -149,6 +149,13 @@ conversation_model:
     middle: others_may_not_know_if_he_is_joking
     late: may_know_exactly_what_he_is_doing_and_refuse_to_admit_it
   profanity: relationship_and_context_dependent
+  profanity_texture: initially_sparse_literal_and_soldier_shaped_with_damn_hell_shit_bastard_asshole_and_sharp_fuck_available_when_context_supports_them
+  profanity_construction:
+    - under_threat_profanity_is_functional_not_decorative
+    - early_social_use_can_sound_literal_or_over_precise
+    - later_trust_allows_affectionate_insult_and_increasingly_vicious_specificity
+    - may_learn_group_slang_or_repeat_someone_elses_phrase_with_deadpan_literal_precision
+    - does_not_need_to_be_clean_merely_because_he_is_disciplined
 
 decision_model:
   perception_priority:
