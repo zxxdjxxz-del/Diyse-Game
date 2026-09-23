@@ -25,8 +25,8 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 1 | Ordinary | Brambleback |
 | 1 | Ordinary/carryover | Thornvine Creeper |
 | 1 | Ordinary/carryover | Briar Boar |
-| 1 | Ordinary/carryover | Hollow Watch Sentry |
-| 1 | Ordinary/carryover | Hollow Watch Ballista |
+| 1 | Ordinary/carryover | Watch Sentry |
+| 1 | Ordinary/carryover | Watch Ballista |
 | 1 | Mandatory named/boss | Briarhide Stalker — Chapter-1 main/final boss; normal lethal victory |
 | 1 | Strong normal-pool Elite | Watch Captain Frame |
 | 1 | Mandatory mini-boss | Hollow Watch Castellan — one bar; Fortress → Walking same-bar |
@@ -44,8 +44,8 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 2 | Mandatory named/boss | Commander Rhazek — Bastion Master |
 | 2 | Regional Hunt | Regional Hunt #2 — Scaldback |
 | 3 | Ordinary/carryover | Archive Current — late Old City carryover |
-| 3 | Ordinary/carryover | Hollow Watch Sentry — Cresthaven carryover |
-| 3 | Ordinary/carryover | Hollow Watch Ballista — Cresthaven carryover |
+| 3 | Ordinary/carryover | Watch Sentry — Cresthaven carryover |
+| 3 | Ordinary/carryover | Watch Ballista — Cresthaven carryover |
 | 3 | Ordinary/carryover | Judgment Frame |
 | 3 | Ordinary/carryover | Erasure Wisp |
 | 3 | Ordinary/carryover | Command-Station Sentry |
@@ -242,8 +242,8 @@ Existing Power/raw-complete identities:
 - Greenhollow Stalker;
 - Thornvine Creeper;
 - Briar Boar;
-- Hollow Watch Sentry;
-- Hollow Watch Ballista;
+- Watch Sentry;
+- Watch Ballista;
 - Watch Captain Frame — Power complete, now strong normal-pool construct;
 - Hollow Watch Castellan — mini-boss body retained pending current-party revalidation;
 - Briarhide Stalker — normal lethal Chapter-1 final boss.
