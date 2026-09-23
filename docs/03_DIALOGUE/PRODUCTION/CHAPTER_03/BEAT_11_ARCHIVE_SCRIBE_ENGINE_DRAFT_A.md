@@ -68,7 +68,7 @@ Nimera is staring at the half-finished stroke.
 
 **TORREN:** You just agreed it was done.
 
-**NIMERA:** Done trying to kill us. Different category.
+**NIMERA:** Done trying to kill us. Different fucking category.
 
 She approaches only after the mechanism is fully still.
 
