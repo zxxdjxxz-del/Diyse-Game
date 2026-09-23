@@ -42,7 +42,7 @@ Cyanis looks at him.
 
 **TORREN:** Still true.
 
-**ILYRA:** Devastating. Beaten by fucking topography.
+**ILYRA:** Devastating. Beaten by topography.
 
 **CYANIS:** You're enjoying this.
 
