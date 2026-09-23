@@ -790,7 +790,7 @@ Current cleanup Character-Life authority:
 - Beat 3 — current rehearsal-first Draft A.
 - Beat 4 — current rehearsal-first Draft A.
 - Beat 5 — current rehearsal-first Draft A.
-- Beat 6 — current rehearsal-first Draft A; **crest-marked northern structure revision active**.
+- Beat 6 — **RETIRED; no Western Map Mural scene**.
 - Beat 7 — current rehearsal-first Draft A.
 - Beat 8 — current rehearsal-first Draft A.
 - Beat 9 — current rehearsal-first Draft A.
@@ -803,7 +803,7 @@ Current cleanup Character-Life authority:
 - Beat 16 — current rehearsal-first working dialogue complete; Dunmere resolution, road reopened, cleanup window established.
 - C06 — `Still Burns` — current working dialogue.
 
-> **Chapter-2 mainline rehearsal-first working pass is complete through Beat 16.**
+> **Chapter-2 mainline rehearsal-first working pass is complete for 15 active mandatory beats; stable IDs continue through Beat 16 with B06 retired.**
 
 No Chapter-3 dialogue should begin automatically from this state; Chapter 3 remains behind the explicit advance-story confirmation and its own chapter authority.
 
@@ -815,9 +815,8 @@ Do not reveal during Chapter 2:
 - Seyrik's identity/history/future role;
 - complete Prime/Last Sentinel answers;
 - complete Diysean route/network explanation;
-- identity/full history of the huge ancient city at modern Caelora;
-- identity/purpose of the crest-marked structure north of that city;
+- any Chapter-2 reveal that fills in the Chapter-1 Wayfinder's broken Caelora-area center;
+- any Crest-marked cartographic structure or equivalent replacement for the retired mural;
 - Cresthaven;
-- reason ancient and modern geography do not align cleanly;
 - buried-Crest truth;
 - Entity.
