@@ -25,7 +25,7 @@ Ilyra glances over.
 
 Nimera slowly turns toward her.
 
-**NIMERA:** No. That's fucking surrender disguised as handwriting.
+**NIMERA:** No. That's bullshit surrender disguised as handwriting.
 
 **ILYRA:** It's a box.
 
@@ -173,7 +173,7 @@ Ilyra laughs.
 
 **ILYRA:** No. I'm enjoying you prosecuting and acquitting a stranger over charcoal.
 
-**NIMERA:** The fucking evidence changed.
+**NIMERA:** The evidence changed, damn it.
 
 **ILYRA:** The evidence was my eyebrow.
 
@@ -199,7 +199,7 @@ Nimera stares at her.
 
 **ILYRA:** Starting to think you hate categories.
 
-**NIMERA:** I love categories. That's why bad ones make me fucking furious.
+**NIMERA:** I love categories. That's why bad ones make me damn furious.
 
 A beat.
 
@@ -271,7 +271,7 @@ Then looks at the spoon.
 
 A beat.
 
-**NIMERA:** Fucking miscellaneous.
+**NIMERA:** Miscellaneous. Damn it.
 
 She drops it back into the original crate.
 
