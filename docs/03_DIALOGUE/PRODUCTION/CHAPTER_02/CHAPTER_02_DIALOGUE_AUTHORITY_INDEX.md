@@ -8,7 +8,7 @@
 **Rhythm:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
 **Mature-adult speech:** `../../AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`  
 **Spoken-vs-narration:** `../../AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`  
-**Combined read-through:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **will be resynchronized after B06 retirement; standalone active atomics remain exact wording authority**
+**Combined read-through:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **CURRENT synchronized derived mirror; standalone active atomics remain exact wording authority**
 **Current atomic spoken-line counts:** **478 mandatory + 83 C05 = 561 if C05 is viewed.**  
 
 ## Authority rule
