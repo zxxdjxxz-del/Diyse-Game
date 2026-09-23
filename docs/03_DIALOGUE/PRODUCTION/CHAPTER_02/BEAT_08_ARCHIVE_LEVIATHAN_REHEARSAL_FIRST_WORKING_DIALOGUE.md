@@ -23,7 +23,7 @@ The trio shifts onto firmer footing as the creature turns toward them.
 
 Cyanis looks past it once, toward the route beyond.
 
-**CYANIS:** That's in our way.
+**CYANIS:** That's a hell of a thing to put in our way.
 
 **TORREN:** Very.
 
@@ -47,7 +47,7 @@ Cyanis sets himself.
 
 Torren draws.
 
-**TORREN:** Works for me.
+**TORREN:** Works for me. Kill the damn thing.
 
 Ilyra readies herself.
 
@@ -100,7 +100,7 @@ Maevra rejoins them once the crossing is safe enough.
 
 Ilyra looks toward the newly accessible continuation.
 
-**ILYRA:** Any idea where that goes?
+**ILYRA:** Any idea where the hell that goes?
 
 Torren studies it.
 
