@@ -15,6 +15,118 @@ Authoritarian imperial military/industrial language:
 - repeated state/command symbolism;
 - controlled, engineered infrastructure.
 
+## Armor hierarchy — entity-inspired, rank-scaled
+
+Black Host military armor is **inspired by the Entity's design language without copying the Entity literally**.
+
+Translate that influence through:
+- black / charcoal plate;
+- rib-like chest construction;
+- hooked / clawed edge motifs;
+- severe narrow visor geometry;
+- occasional cross-like slit motifs;
+- layered aggressive plate shapes;
+- red cloth / underlayers as faction contrast.
+
+The Entity remains the extreme endpoint. Human Black Host armor must stay:
+- wearable;
+- militarized;
+- rank-readable;
+- less organic;
+- less skeletal;
+- less open;
+- less monstrous.
+
+### Color / glow firewall
+**Red is cloth/accent language, not armor-energy glow.**
+
+Use red for:
+- underlayers;
+- sleeves;
+- tabards;
+- coat panels;
+- lining;
+- officer cloth.
+
+Glowing channels / luminous internal seams are:
+- **absent on lower ranks**;
+- **absent on specialists / veterans**;
+- **absent on Seyrik's middle-ground armor**;
+- generally absent on ordinary higher officers;
+- reserved for the **highest commanders only**.
+
+When highest-command armor uses luminous channels:
+> **the glow is purple, never red.**
+
+Purple glow must remain selective and controlled rather than covering the whole suit.
+
+### Rank 1 — lower-ranked soldiers
+Examples:
+- Black Host Raider;
+- Black Host Crossbowman.
+
+Use:
+- basic dark plate;
+- simple rib suggestion;
+- modest hooked edges;
+- practical issued helmets;
+- red cloth accents;
+- mass-producible construction.
+
+Read:
+> Black Host soldier first, Entity influence second.
+
+No glow. No visible power channels.
+
+### Rank 2 — specialists / veterans
+Examples:
+- Ruin Shieldbearer;
+- heavier veteran troop types.
+
+Use:
+- stronger ribbed cuirass language;
+- sharper hooked plate;
+- more armor coverage;
+- stronger gauntlet / shoulder shapes;
+- deeper red underlayers.
+
+No glow. No visible power channels.
+
+### Seyrik — middle-ground elite
+Seyrik sits visually between ordinary specialists and the highest command tiers.
+
+Use:
+- heavier black armor;
+- clearer rib / cage influence;
+- more aggressive hooked forms;
+- stronger personalized silhouette;
+- deep red underlayers;
+- greater menace than line troops.
+
+Do not use:
+- glowing channels;
+- purple energy seams;
+- exposed luminous core language;
+- highest-commander ornament density.
+
+### Higher officers
+Use:
+- more elaborate ribbed cuirasses;
+- more sculpted plate;
+- stronger cross-visor / severe helm motifs;
+- more ceremonial authority;
+- stronger Entity-derived shaping.
+
+Most higher officers still remain non-glowing.
+
+### Highest commanders
+Only this tier may use:
+- selective purple luminous channels;
+- purple internal seams;
+- the strongest human expression of the Entity-derived armor language.
+
+They must still read as human commanders in armor, not miniature copies of the Entity.
+
 ## Variation
 Black Host locations must not all be the same fortress.
 
