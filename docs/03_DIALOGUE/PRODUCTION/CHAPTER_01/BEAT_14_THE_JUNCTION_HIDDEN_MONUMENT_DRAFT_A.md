@@ -72,7 +72,11 @@ Torren studies it.
 
 ## [THE MAP]
 
-The exposed surface shows surviving route lines and geographic relationships.
+The exposed surface is much larger in scope than a local route plate.
+
+Once the surviving relationships resolve, it reads as a broad map of **western ancient Diyse**.
+
+Dense overland route lines intersect and reconnect across the entire surviving region. A second, visually distinct layer runs beneath / between those surface routes, marking extensive underground infrastructure and routes. Repeated built-form clusters mark numerous ancient cities or settlements.
 
 Six familiar Face markings appear as part of the old technical grammar:
 
@@ -80,9 +84,25 @@ Six familiar Face markings appear as part of the old technical grammar:
 
 Their function here is not understood.
 
-One edge of the map is damaged and incomplete.
+Torren studies the surface longer.
 
-Torren follows a surviving alignment running southeast.
+**TORREN:** This isn't a Junction map.
+
+Ilyra follows the route layers outward.
+
+**ILYRA:** No.
+
+Torren traces one set, then another without touching the surface.
+
+**TORREN:** Roads up top. Another network underneath. Tunnels, conduits, service routes—something underground. I can tell they're separate. I can't tell you what they were for.
+
+Maevra looks across the repeated built-up clusters.
+
+**MAEVRA:** And all of those?
+
+**TORREN:** Built places. Settlements. Cities, maybe. A lot of them.
+
+Torren comes back to the local ground first and follows a surviving alignment running southeast.
 
 **TORREN:** This southeast line matches our road. Same direction, same bend. Could be the old road under parts of it, could just be people choosing the same good ground. Can't tell from this.
 
@@ -90,11 +110,31 @@ Torren follows a surviving alignment running southeast.
 
 **TORREN:** Yeah.
 
-Cyanis nods.
+Cyanis looks across the wider map.
 
-**CYANIS:** Good enough.
+**CYANIS:** So this whole thing was connected.
 
-Torren's attention moves to another notation off the main alignment.
+**TORREN:** Looks that way. Doesn't tell us how it all worked.
+
+Farther across the surviving western map, surface routes, underground lines, and built-up structures become markedly denser around one enormous concentration.
+
+The physical map is broken through the middle of it.
+
+Maevra compares the relationship against the group's known modern geography.
+
+**MAEVRA:** If the rest of this matches, Caelora should be around there.
+
+**TORREN:** Around the break, yeah.
+
+He studies the missing section.
+
+**TORREN:** Whatever stood there, it was the biggest concentration on this part of the map. Center's gone.
+
+**CYANIS:** Of course it is.
+
+No one attempts to draw through the break or identify the missing ancient city.
+
+Torren's attention moves back to a local notation off the main alignment.
 
 **TORREN:** There's another mark back toward Southern Briar, near that overgrown side cut. Water—cistern, storage, something like that.
 
@@ -116,11 +156,7 @@ A small beat.
 
 Nobody gives the side access a new name or predicts what lies beyond it.
 
-Torren reaches the damaged edge.
-
-**TORREN:** Edge is gone. I can guess where some of the lines continue, but that's all it'd be.
-
-**MAEVRA:** Copy what survived. Leave the rest missing.
+**MAEVRA:** Copy what survived. All of it we can support. Leave the broken part broken.
 
 **CYANIS:** Works for me.
 
@@ -134,19 +170,23 @@ Cyanis gives him a look.
 
 Torren goes back to the map.
 
-No one attempts to reconstruct the missing information.
-
 ## [PRACTICAL COPY]
 
-The party makes a physical copy of the useful surviving information.
+The party makes a physical copy of as much surviving information as practical.
 
 A brief fade/state transition is enough.
 
 The copy preserves:
+- the broad western ancient-Diyse geography;
+- the dense overland route network;
+- the distinct underground infrastructure / route layer;
+- the numerous surviving city / settlement clusters;
+- the largest concentration around the geography of present-day Caelora and the exact shape/location of the physical break through its center;
 - the southeast alignment corresponding to the party's existing route toward Dunmere;
 - the water/cistern notation near the earlier Southern Briar side access;
-- the six Face markings;
-- the surviving route information adjacent to the damaged edge.
+- the six Face markings.
+
+The party does **not** reconstruct or invent the missing Caelora-area center.
 
 Dunmere is not discovered here. It was already the party's next practical destination.
 
@@ -202,11 +242,15 @@ Known:
 - Torren correctly knew the Junction as an old crossroads but had never seen the hidden monument;
 - vines and moss concealed the monument's cartographic surface in plain sight;
 - the exposed surface is a route/map object, not a tunnel entrance;
+- the Wayfinder depicts a substantial western portion of ancient Diyse, not merely the Junction corridor;
+- dense surface routes and a distinct underground infrastructure / route layer connect many ancient built-up sites;
+- the largest visible urban / infrastructure concentration lies around the geography of present-day Caelora;
+- the map is physically broken through the center of that Caelora-area concentration, leaving the largest ancient cluster incomplete;
+- the party can recognize the scale and layering of the network but cannot yet explain its full function or identify what occupied the missing center;
 - the party's existing route toward Dunmere follows an older Diysean alignment;
 - a water/cistern notation corresponds geographically with the earlier overgrown Southern Briar side access;
 - the six Face markings appear in the monument's technical grammar, but their function remains unknown;
-- one damaged map edge remains unresolved;
-- the party has copied the useful surviving information;
+- the party has copied as much surviving western-map information as practical without reconstructing the broken center;
 - Dunmere remains the next practical destination;
 - the group will camp at the Junction and leave for Dunmere in the morning;
 - the Junction and Southern Briar remain accessible during the overnight cleanup window.
