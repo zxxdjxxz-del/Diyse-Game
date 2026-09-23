@@ -162,10 +162,16 @@ The old lawful-authority confrontation chain is not part of the current mandator
 - Prime / Might / bearer status / causation remain unresolved.
 
 ## Regional Hunt
-- Regional Hunt #3 — Archive Judgment Engine
+### Regional Hunt #3 — Archive Judgment Engine
 - optional Chapter-3 cleanup content;
 - unlocked through the newly accessible Old City Archive side passage;
 - party: Cyanis + Ilyra + Torren + Nimera;
+- one continuous HP bar / one targetable boss body;
+- no phases, adds, support objects, or command-Warden mechanics;
+- Hunt-scale escalation of the Judgment Frame enforcement lineage;
+- retained kit: Judgment Lance / Archive Verdict / Lock Verdict / Enforcement Crash / Record Guard;
+- Stun is legal through Lock Verdict because the Hunt occurs after Chapter-3 Stun has already been introduced;
+- inherited Lv15 / HP4,928 line is provisional and requires current cleanup-state validation;
 - must not solve the main Chapter-3 mysteries.
 
 ## Story-placement firewalls
@@ -313,3 +319,12 @@ The immediate Beat-11 boss approach is safe.
 - Challenged Verdict no longer carries Staggered;
 - Major Ruling and Command Collapse may reinforce Chapter-3 Stun;
 - inherited raw body and round targets require fresh Beat-14 validation.
+
+
+## Archive Judgment Engine structural correction — 2026-09-23
+- one continuous HP bar;
+- no phase change or support objects;
+- no Command Seal / Command Ring / copied-action behavior;
+- remains the Hunt-scale escalation of Judgment Frame rather than a second Warden;
+- Lock Verdict retains Stun;
+- inherited Lv15 / HP4,928 tuning is provisional pending current cleanup validation.
