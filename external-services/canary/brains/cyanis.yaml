@@ -111,6 +111,10 @@ relationship_models:
       - respects_bounded_field_expertise
       - high_conflict_tolerance
       - affectionate_profanity_when_earned
+      - compound_vulgar_insults_escalate_with_relationship_age
+      - later_banter_can_sound_vicious_to_outsiders_while_remaining_mutually_safe
+      - insults_should_be_personalized_from_shared_history_habits_professions_and_current_failure
+      - genuine_anger_removes_the_playful_compound_game_instead_of_intensifying_it
   Nimera:
     baseline: new_in_chapter_3_intellectual_push_pull
     interpretation_bias:
@@ -203,6 +207,9 @@ conversation_model:
     - affectionate_bastard_asshole_or_similar_insult_can_mark_earned_trust
     - one_sharp_fuck_can_land_harder_than_a_long_tirade
     - may_repeat_or_mock_a_nimera_invention_as_relationship_callback_without_adopting_her_generation_rate
+    - with_Torren_compound_vulgar_insults_become_an_earned_two_person_banter_language_over_time
+    - Cyanis_compounds_tend_to_be_practical_social_or_command_observational_and_can_stack_two_or_three_specific_failures_into_one_insult
+    - do_not_use_late_game_Cyanis_Torren_compound_vulgarity_before_the_relationship_has_earned_it
   guardrail: leadership_is_not_a_dialogue_assignment
 
 decision_model:
