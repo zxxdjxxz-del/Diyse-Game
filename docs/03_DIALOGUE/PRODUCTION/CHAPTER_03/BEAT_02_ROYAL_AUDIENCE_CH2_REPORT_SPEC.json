@@ -2,89 +2,44 @@
   "schema": "diyse_scene_authority_spec_v1",
   "scene_id": "CH03_BEAT02_ROYAL_AUDIENCE_CH2_REPORT",
   "chapter_id": "chapter_03",
-  "story_position": "Chapter 3 — Beat 2 — Royal Audience / The Chapter-2 Report",
-  "production_ready": false,
-  "participants": ["lysara", "mirena", "othmar", "maevra", "cyanis", "ilyra", "torren"],
-  "scene_purpose": "Transfer the essential Chapter-2 Old Bastion and Ancient-route facts into Crown knowledge through a working royal audience; preserve provenance between firsthand observation and prisoner testimony; place Torren's copied western-mural evidence before Lysara, Mirena, and Calder; establish the enormous Ancient city at modern Caelora and the separate northern structure bearing the exact Yahtrean Crest as unresolved state-level questions; then reconnect the report to the recovered Card and end when Lysara requests the actual transport authorization documents for direct review.",
-  "story_sources": [
-    {
-      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
-      "sections": ["Beat 2 — Royal Audience / The Chapter-2 Report"],
-      "role": "current_consolidated_chapter_3_beat_2_authority"
-    },
-    {
-      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md",
-      "sections": ["Beat 2 — Royal Audience / The Chapter-2 Report"],
-      "role": "supporting_detailed_beat_2_development"
-    }
+  "story_position": "Chapter 3 — Beat 2 — Royal Audience / Chapter-2 Report",
+  "production_ready": true,
+  "participants": [
+    "lysara",
+    "mirena",
+    "othmar",
+    "maevra",
+    "cyanis",
+    "ilyra",
+    "torren"
   ],
-  "additional_authority_sources": [
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md",
-      "whole_file": true,
-      "role": "mandatory_rehearsal_first_agent_brain_pipeline"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
-      "whole_file": true,
-      "role": "rehearsal_first_authoring_and_reductive_staging"
-    },
-    {
-      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
-      "whole_file": true,
-      "role": "current_field_and_triggered_scene_presentation"
-    }
-  ],
-  "scene_context_seed": {
-    "location_name": "Caelora royal working audience chamber",
-    "area_phase": "working_royal_report",
-    "dialogue_readiness": "GREEN",
-    "static_story_context_only": true,
-    "runtime_note": "This is a practical working audience, not a ceremonial throne-room spectacle. Maevra owns the report. Other participants speak selectively according to expertise and evidence. Use portraits + dialogue box with simple field placement. No elaborate court choreography or ceremonial exposition."
-  },
-  "current_floor_state": {
-    "party_state": "cyanis_ilyra_torren_permanent_combat_trio_with_nonplayable_maevra_present",
-    "card_state": "recovered_card_physically_carried_by_cyanis",
-    "mural_evidence_state": "torren_carries_existing_chapter_2_copy_showing_large_ancient_city_at_modern_caelora_and_separate_northern_site_with_exact_yahtrean_crest",
-    "rhazek_state": "alive_after_old_bastion_withdrawal",
-    "missing_captives_state": "earlier_transferred_groups_missing_destination_unknown",
-    "royal_seal_mystery_state": "not_yet_exposed",
-    "dialogue_presentation": "portraits_plus_dialogue_box_with_simple_working_audience_field_placement"
-  },
-  "required_story_beats": [
-    "Maevra reports that the Old Bastion was a Black Host holding/transit site and that the prisoners still there were freed.",
-    "Rhazek is identified as the local commander, alive after withdrawing with remaining organized Host forces.",
-    "Greenhollow-Dunmere travel is reopened.",
-    "Earlier transferred captives remain missing; prisoner testimony establishes they were moved before the party arrived, but nobody can name their destination or fate.",
-    "The Crown learns the party reached the Bastion through Old Waterworks into substantially older Ancient infrastructure and a concealed Ancient passage beneath the Bastion.",
-    "Torren presents the copied western mural evidence and distinguishes what he copied from what he can actually conclude.",
-    "The Crown recognizes an enormous Ancient city at modern Caelora's location and a separate northern structure marked with the exact modern Crest of Yahtrea.",
-    "No participant explains why the exact modern Crest appears on Ancient material or identifies the northern site.",
-    "The surviving Old City beneath Caelora is recognized as a plausible future research direction without starting the expedition yet.",
-    "The report returns to Cyanis's recovered Card and Maevra states that its movement toward Caelora was understood to be Crown-directed.",
-    "Beat ends when Lysara requests the actual physical transport orders/authorization documents for direct review."
+  "hard_outcomes": [
+    "Old Bastion prisoners freed; Rhazek survives/withdraws; earlier transferred groups remain missing.",
+    "The Crown learns the party used substantially older infrastructure beneath the region.",
+    "The Chapter-1 Wayfinder copy remains the party's major Ancient cartographic evidence.",
+    "The Ancient capital at modern Caelora is already known; the damaged Wayfinder center prevents a complete reconstruction.",
+    "No Chapter-2 Western Map Mural or Crest-marked northern structure is presented.",
+    "The report reconnects to the Card being transported toward Caelora under apparent Crown authority.",
+    "Lysara requests the original Card-transport authorization and attached records."
   ],
   "forbidden_reveals": [
-    "lysara_full_prior_ignorance_of_card_and_transport",
-    "genuine_magical_royal_seal_response_on_suspect_orders",
-    "state_or_custody_of_lysaras_actual_physical_seal",
-    "calder_deliberate_transport_minimization",
-    "calder_hidden_transport_order_role",
-    "seal_culprit_or_mechanism",
-    "nimera_formal_expert_handoff",
-    "prime_identity",
-    "might_identification",
-    "last_sentinel",
-    "cresthaven_identity_of_northern_site",
-    "complete_ancient_caelora_history"
+    "deleted_chapter_2_mural",
+    "crest_marked_northern_structure",
+    "cresthaven",
+    "giant_northern_tower",
+    "westways_recordbook_copy",
+    "lysara_full_prior_ignorance_until_beat3",
+    "genuine_seal_response_until_beat3",
+    "calder_hidden_role",
+    "prime",
+    "might",
+    "last_sentinel"
   ],
-  "forbidden_presentation": [
-    "ceremonial_throne_room_spectacle_for_its_own_sake",
-    "seven_person_roll_call_commentary",
-    "replaying_chapter_2_scene_by_scene",
-    "court_micro_choreography",
-    "characters_explaining_their_knowledge_firewalls",
-    "melodramatic_cliffhanger_before_documents_are_examined"
-  ],
-  "production_cost_ceiling": "economical_working_audience_portrait_scene"
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/maevra.yaml",
+    "external-services/canary/brains/mirena.yaml"
+  ]
 }
