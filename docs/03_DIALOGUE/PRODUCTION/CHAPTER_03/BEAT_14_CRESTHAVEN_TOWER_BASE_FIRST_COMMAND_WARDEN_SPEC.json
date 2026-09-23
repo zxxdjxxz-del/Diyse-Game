@@ -1,0 +1,38 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 14 — Cresthaven / Ancient Tower Base / First Command Warden",
+  "production_ready": true,
+  "participants": ["cyanis","ilyra","torren","nimera","mirena","maevra"],
+  "hard_outcomes": [
+    "Normal abandoned Cresthaven is explored first.",
+    "The fort is confirmed to sit over/within a much larger Ancient tower foundation.",
+    "Mirena and Maevra remain aboveground as noncombat story/support characters.",
+    "The permanent four complete a short Ancient dungeon: Tower Foundation, Command Interior, Warden Chamber.",
+    "The First Command Warden assesses the entire four-person party, finds the result unacceptable/insufficient, and attacks.",
+    "After defeat the Warden says PREVIOUS ERROR then LAST SENTINEL CONFIRMED, with LAST SENTINEL CONFIRMED as its final message.",
+    "The Warden becomes fully inert before Cyanis's Card changes.",
+    "Only afterward the Card stabilizes deep Ruby.",
+    "No new map or Ivorybridge clue appears."
+  ],
+  "forbidden_reveals": [
+    "prime","might","bearer_status","last_sentinel_meaning","previous_error_meaning","ruby_causation","ivorybridge","northbound_route_destination"
+  ],
+  "true_voice_requirements": {
+    "nimera": "Live brain; serious uncertainty can be plainer, but ordinary voice remains engaged/profane. 15–35% long-form calibration across the corpus, not per scene.",
+    "torren": "Physical route/structure evidence, no paternal shorthand.",
+    "ilyra": "Whole adult personality; one earned question about Cyanis's felt state is fine, but no automatic monitoring role.",
+    "cyanis": "Crest Knight only; Card experience belongs to him.",
+    "mirena": "Current live brain aboveground only.",
+    "maevra": "Current live brain aboveground only, noncombat."
+  },
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml",
+    "external-services/canary/brains/maevra.yaml",
+    "external-services/canary/brains/mirena.yaml"
+  ]
+}
