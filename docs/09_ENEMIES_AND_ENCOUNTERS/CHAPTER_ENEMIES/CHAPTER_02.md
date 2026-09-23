@@ -17,7 +17,7 @@
 ### Sunken Archive / ancient complex
 - Archive Current
 - Memory Scribe
-- Vault Sentinel
+- Hollow Watch Sentry — approved Chapter-1 construct carryover
 - Drowned Archive Maw
 
 ### Old Bastion
@@ -53,7 +53,7 @@ Current Chapter-2 story authority controls actual encounter placement.
 - Old Waterworks are a genuinely covert route with **no routine Black Host patrols**.
 - Waterworks danger should come from compatible creatures, hazards, and non-Host threats unless a later authored placement says otherwise.
 - The Sunken Archive is not an active Black Host facility.
-- Archive ordinary encounters may use Archive Current, Memory Scribe, Vault Sentinel, and Drowned Archive Maw where the current area design places them.
+- Archive ordinary encounters may use Archive Current, Memory Scribe, Hollow Watch Sentry, and Drowned Archive Maw where the current area design places them.
 - Old Bastion is an active functioning Black Host position; Bastion guards, Transfer Adepts, approved Raiders, and Rift Hounds are compatible there.
 - Maevra is physically present in Chapter 2 but **fully non-playable/noncombat**. She is not a fourth battle-party body.
 - After Rhazek's defeat, the Black Host withdraws and the maintained road-side exit becomes usable.
@@ -97,3 +97,9 @@ The direct-damage Power audit remains closed, but Chapter-2 encounter validation
 
 Owning validation:
 `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_02_MANDATORY_COMPLETIONIST_VALIDATION.md`
+
+
+## Chapter-2 roster correction — 2026-09-23
+- Vault Sentinel is removed from active Chapter-2 placement.
+- Hollow Watch Sentry carries over from Chapter 1 into the Sunken Archive as the familiar baseline Diysean security construct.
+- This carryover is intended to create ancient-civilization continuity rather than introduce a second near-duplicate heavy guardian identity.
