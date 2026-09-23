@@ -119,7 +119,7 @@ Cyanis starts inspecting the table like an enemy position.
 
 **CYANIS:** Notes. Books. Ink. Your cup has territory.
 
-**NIMERA:** Liquid should not share a damn border with paper. That's civilization.
+**NIMERA:** Liquid touching paper is how civilization shits itself. That's basic order.
 
 **TORREN:** Strong argument.
 
