@@ -51,7 +51,7 @@ These three Old Waterworks creatures may continue into compatible flooded / brok
 - Commander Rhazek — Bastion Master
 
 ## Regional Hunt
-- Regional Hunt #2 — Transfer Executioner
+- Regional Hunt #2 — Scaldback
 
 ## Current story-placement firewall
 Current Chapter-2 story authority controls actual encounter placement.
