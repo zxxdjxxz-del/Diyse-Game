@@ -18,7 +18,7 @@ Its binding is worn, repaired twice, and utterly ordinary.
 
 **NIMERA:** Westways road and settlement records. Old.
 
-**TORREN:** How fucking old?
+**TORREN:** How old are we talking?
 
 She checks the hands, paper, binding repairs, and catalog note.
 
@@ -44,7 +44,7 @@ Torren leans over it.
 
 Cyanis sees it too.
 
-**CYANIS:** That's the fucking Wayfinder.
+**CYANIS:** That's the damned Wayfinder.
 
 Nimera does not answer immediately.
 
@@ -84,7 +84,7 @@ Torren follows the broadest routes north.
 
 Several converge on a huge depicted structure north of the Caelora cluster.
 
-**TORREN:** There. Big fucking tower. The largest routes converge on it—and keep going north.
+**TORREN:** There. Big damn tower. The largest routes converge on it—and keep going north.
 
 The copied map ends.
 
@@ -132,7 +132,7 @@ Repeated Crest of Yahtrea impressions.
 
 Nimera studies the attempts.
 
-**NIMERA:** Not proven. Visually close, magical residue everywhere, but a genuine royal authority response? We do not have that. Copying the shape and copying the working authority are not the same fucking achievement.
+**NIMERA:** Not proven. Visually close, magical residue everywhere, but a genuine royal authority response? We do not have that. Copying the shape and copying the working authority are not the same damned achievement.
 
 **ILYRA:** Same asshole who researched the Hall?
 
