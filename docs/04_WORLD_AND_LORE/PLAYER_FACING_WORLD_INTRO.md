@@ -18,7 +18,7 @@ Fuck, where do you even start with that?
 
 No. Actually, that's easy.
 
-**713 YF.**
+713 YF.
 
 Start with now.
 
@@ -44,13 +44,13 @@ Very different achievement.
 
 So.
 
-**Calendar starts with Yahtrea. World does not.**
+Calendar starts with Yahtrea. World does not.
 
 Good.
 
 Diyse is much older than that.
 
-Before Yahtrea, before most of the countries and borders we'd recognize now, there were the ancient **Diyseans**.
+Before Yahtrea, before most of the countries and borders we'd recognize now, there were the ancient Diyseans.
 
 And yes.
 
@@ -102,7 +102,7 @@ The Diyseans seem to have considered themselves one civilization.
 
 And before you do the thing—
 
-No, that does **not** mean everyone was the same.
+No, that does not mean everyone was the same.
 
 Different regions. Different customs. Different local identities. Probably different political arrangements depending on where and when you're looking.
 
@@ -124,7 +124,7 @@ Healing. Protection. Elements. Personal abilities.
 
 Same world. Same magic.
 
-The difference was **understanding**.
+The difference was understanding.
 
 We use magic now. We train it, build techniques around it, use it in combat, medicine, trades—whatever somebody is actually capable of doing.
 
@@ -186,7 +186,7 @@ Whatever happened, the Diysean civilization disappeared.
 
 Humanity didn't. People survived, communities survived, new cultures developed, new states and kingdoms crawled out of the wreckage because humans are stubborn bastards like that.
 
-But **natural magic** disappeared.
+But natural magic disappeared.
 
 The Diyseans could develop magical abilities themselves.
 
@@ -200,9 +200,9 @@ The ruins were still there. Artifacts too. Machines nobody understood, Cards sit
 
 But people themselves were not developing magic anymore.
 
-Then around **200 YF**, things changed.
+Then around 200 YF, things changed.
 
-That's the period we call the **Awakening**.
+That's the period we call the Awakening.
 
 And “around” matters.
 
@@ -218,7 +218,7 @@ Very convenient for us.
 
 Probably irritating for them.
 
-Around that period, increasing numbers of ancient **Cards** began appearing in the historical record.
+Around that period, increasing numbers of ancient Cards began appearing in the historical record.
 
 Some were newly recovered.
 
@@ -246,7 +246,7 @@ Thank you.
 
 Wonderful recordkeeping.
 
-But the important part is that people discovered they could **use the abilities inside the Cards**.
+But the important part is that people discovered they could use the abilities inside the Cards.
 
 That's the change.
 
@@ -278,7 +278,7 @@ More governments realizing, “Oh, fuck, this matters.”
 
 Of course society changes. Combat, medicine, travel, labor, trade, politics—everything starts touching everything else and then everybody gets to argue about which change caused which other damn change.
 
-Then, sometime **after the Awakening**, people began developing magic **naturally** again.
+Then, sometime after the Awakening, people began developing magic naturally again.
 
 No Card.
 
@@ -318,7 +318,7 @@ What kind of useless bastard studies this for years and doesn't?
 
 I just don't trust a theory more because I like the shape of it.
 
-So now, in **713 YF**, natural magic is normal again.
+So now, in 713 YF, natural magic is normal again.
 
 People develop abilities, train them, use them professionally, use them in combat, use them to heal, use them to do jobs that would make some old court historian shit himself with envy.
 
@@ -382,7 +382,7 @@ Still horrifying.
 
 But fine.
 
-**Caelora** is the largest obvious example.
+Caelora is the largest obvious example.
 
 Capital of Yahtrea.
 
@@ -410,7 +410,7 @@ Probably more important.
 
 Although those aren't mutually exclusive.
 
-Then there is the **Black Host**.
+Then there is the Black Host.
 
 Because apparently the modern world decided the ancient one was not giving us enough shit to deal with.
 
@@ -426,21 +426,21 @@ Calling them monsters would be easier.
 
 Humans built this one themselves.
 
-The territory they control is usually called **Black Host Territory**, because apparently even the mapmakers got tired of pretending that sounded like a normal country name.
+The territory they control is usually called Black Host Territory, because apparently even the mapmakers got tired of pretending that sounded like a normal country name.
 
-At the center of it is **Emperor Vaelkor Draeven**.
+At the center of it is Emperor Vaelkor Draeven.
 
 And yes.
 
 This is where the dates become deeply fucking irritating.
 
-Vaelkor has ruled for **centuries**.
+Vaelkor has ruled for centuries.
 
 How many, exactly?
 
 Nobody can prove it cleanly.
 
-His exact age is **unknown**. The exact beginning of his reign is **unknown**.
+His exact age is unknown. The exact beginning of his reign is unknown.
 
 And I don't mean Yahtrea misplaced the paperwork while the Black Host has the answer sitting neatly in a drawer somewhere.
 
@@ -604,7 +604,7 @@ Disagreed in their own records.
 
 They didn't have every answer.
 
-They just had **more answers than we do**.
+They just had more answers than we do.
 
 Which, frankly, is a much more irritating problem.
 
@@ -622,7 +622,7 @@ That's the interesting part.
 
 Well.
 
-That's the interesting part **to me**.
+That's the interesting part to me.
 
 Diyse is everything else too.
 
@@ -640,7 +640,7 @@ So.
 
 Shortest version.
 
-**713 YF.**
+713 YF.
 
 Yahtrea has existed for seven hundred and thirteen years.
 
@@ -656,7 +656,7 @@ Humanity survived.
 
 Natural magic disappeared.
 
-Around **200 YF**, ancient Cards were being recovered in greater numbers and people discovered they could use the magical abilities preserved inside them.
+Around 200 YF, ancient Cards were being recovered in greater numbers and people discovered they could use the magical abilities preserved inside them.
 
 Afterward, people began developing natural magical abilities themselves again.
 
@@ -666,9 +666,9 @@ Modern civilizations live among the remains of the old one.
 
 Caelora itself stands over an ancient Diysean capital.
 
-The Black Host is a human imperial state led by **Emperor Vaelkor Draeven**.
+The Black Host is a human imperial state led by Emperor Vaelkor Draeven.
 
-Vaelkor has ruled for **centuries**, but his exact age and the exact beginning of his reign are **unknown to modern Yahtrea and the Black Host alike**.
+Vaelkor has ruled for centuries, but his exact age and the exact beginning of his reign are unknown to modern Yahtrea and the Black Host alike.
 
 And every time we get one clean answer, it seems to uncover three more questions underneath it.
 
