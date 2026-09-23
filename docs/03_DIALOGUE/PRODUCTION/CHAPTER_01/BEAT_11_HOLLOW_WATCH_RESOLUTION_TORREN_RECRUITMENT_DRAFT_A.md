@@ -66,11 +66,11 @@ Cyanis looks toward the south end of town.
 
 **CYANIS:** Then we resupply and move.
 
-**ILYRA:** After food.
+**ILYRA:** After food. I'm starving as hell.
 
 Cyanis looks at her.
 
-**CYANIS:** That sounded final.
+**CYANIS:** That sounded pretty damn final.
 
 **ILYRA:** I'm hungry.
 
@@ -80,7 +80,7 @@ Cyanis looks at her.
 
 Torren looks at her.
 
-**TORREN:** Been giving you useful route information for years.
+**TORREN:** Been giving you useful route shit for years.
 
 **MAEVRA:** This one involves lunch.
 
