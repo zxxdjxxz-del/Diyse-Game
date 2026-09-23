@@ -235,7 +235,7 @@ She looks at the spoon.
 
 A beat.
 
-**NIMERA:** Miscellaneous. Damn it.
+**NIMERA:** Miscellaneous. Son of a bitch.
 
 She drops it back into the original crate.
 
