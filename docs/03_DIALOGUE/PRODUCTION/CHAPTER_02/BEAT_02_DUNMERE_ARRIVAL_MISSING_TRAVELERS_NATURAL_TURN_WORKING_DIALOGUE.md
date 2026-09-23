@@ -71,11 +71,11 @@ Torren looks at the guard.
 
 Torren nods.
 
-**TORREN:** Good. Keep it at toward.
+**TORREN:** Good. Don't turn `toward` into `inside`.
 
 The guard gives him a look.
 
-**TORREN:** Means we know what we know.
+**TORREN:** Toward is enough to start.
 
 The Carter gestures toward the idle wagons.
 
@@ -93,7 +93,7 @@ Torren answers the actual question.
 
 Maevra looks farther into town.
 
-**MAEVRA:** Then the road belongs to them until we change that.
+**MAEVRA:** Then the damn road belongs to them until we change that.
 
 The Carter points inward.
 
