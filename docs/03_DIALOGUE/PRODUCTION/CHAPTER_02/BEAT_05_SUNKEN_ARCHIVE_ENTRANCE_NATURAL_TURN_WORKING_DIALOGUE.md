@@ -15,7 +15,7 @@ The Card remains inert.
 
 Cyanis looks out across the chamber.
 
-**CYANIS:** Well. Not plumbing.
+**CYANIS:** Well. That sure as hell isn't plumbing.
 
 Ilyra takes in the repeated protected recesses and the scale of the chamber.
 
@@ -49,7 +49,7 @@ Ilyra gives Cyanis a sideways look.
 
 **CYANIS:** I wanted the reassuring one.
 
-**TORREN:** Wrong expert.
+**TORREN:** Wrong damn expert.
 
 That gets the smallest laugh out of Maevra.
 
@@ -67,7 +67,7 @@ Cyanis lingers for one more second on the scale of the place.
 
 **CYANIS:** We're coming back to the question of what this is.
 
-**ILYRA:** Assuming it doesn't drown us first.
+**ILYRA:** Assuming this damn place doesn't drown us first.
 
 **CYANIS:** See, that's the reassuring answer I wanted.
 
