@@ -1,7 +1,7 @@
 # Judgment Frame
 
-**Chapter-3 authority:** Suppressed Archives / command route  
-**Status:** **POWER COMPLETE / CH3 RAW BODY AUTHORED**
+**Chapter-3 authority:** Old City Archives  
+**Status:** **CHAPTER-3 IDENTITY / ROLE / ACTION GRAMMAR LOCKED — NUMERIC REVALIDATION REQUIRED**
 
 ## Chapter-3 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -45,3 +45,35 @@ Chapter-10 actions:
 - Enforcement Crush — **250 Power**, Physical / Neutral, Base Hit95, **20% Staggered**, 2-round repetition lock
 
 True construct: **Bleed Immune**
+
+
+## Chapter-3 placement / identity lock — 2026-09-23
+Judgment Frame remains an active ordinary Old City Archives construct.
+
+Current role:
+> durable heavy enforcement chassis / physical anchor for construct formations
+
+It is not:
+- a boss;
+- a rare one-off Elite;
+- a First Command Warden substitute;
+- a speaking adjudicator;
+- a Stun-teaching enemy.
+
+The Chapter-3 ordinary kit remains:
+- Judgment Strike;
+- Adjudication Pulse;
+- Enforcement Crush.
+
+No harmful-status rider is added to the Chapter-3 version.
+
+## Archive Judgment Engine relationship
+Regional Hunt #3 — Archive Judgment Engine is treated as a more advanced / heavier expression of the same broad Ancient enforcement lineage, not as an unrelated duplicate name.
+
+Escalation is intentional:
+- Judgment Frame = ordinary heavy enforcement body;
+- Archive Judgment Engine = optional Hunt-scale judgment machinery with expanded kit, including Lock Verdict / Stun.
+
+Do not promote ordinary Judgment Frames to Hunt mechanics.
+
+The existing Chapter-3 raw line remains a provisional starting point pending current four-person encounter validation.
