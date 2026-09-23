@@ -70,7 +70,7 @@ Othmar glances at him.
 
 **OTHMAR:** Correct.
 
-**TORREN:** Better than pretending we know.
+**TORREN:** Better than pretending we know shit we don't.
 
 Maevra looks back to the transport chain.
 
@@ -100,7 +100,7 @@ Ilyra gives the smallest nod.
 
 **ILYRA:** I support not recreating that experiment.
 
-**CYANIS:** Strongly seconded.
+**CYANIS:** No fucking argument from me.
 
 **LYSARA:** This is custody, not ownership.
 
