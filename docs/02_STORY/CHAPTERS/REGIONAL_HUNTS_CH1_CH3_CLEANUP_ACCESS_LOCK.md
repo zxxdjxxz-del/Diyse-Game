@@ -1,7 +1,7 @@
 # Regional Hunts #1–#3 — Chapter Cleanup Access Lock
 
 **Status:** ACTIVE STORY / ACCESS AUTHORITY  
-**Applies to:** Regional Hunt #1 — Cistern Devourer; Regional Hunt #2 — Transfer Executioner; Regional Hunt #3 — Archive Judgment Engine
+**Applies to:** Regional Hunt #1 — Cistern Devourer; Regional Hunt #2 — Scaldback; Regional Hunt #3 — Archive Judgment Engine
 
 ## Purpose
 The first three Regional Hunts are **optional combat / exploration content**, not mini-story quests.
@@ -69,7 +69,7 @@ No separate Hunt storyline is required.
 
 ---
 
-# Regional Hunt #2 — Transfer Executioner
+# Regional Hunt #2 — Scaldback
 
 ## Chapter timing
 Available during the **Chapter 2 cleanup window** after the Old Bastion story has been resolved and Dunmere cleanup is active.
@@ -91,7 +91,7 @@ The notification can come through a brief Dunmere / Waterworks update, a cleanup
 Do not turn the opening of the branch into a new Chapter 2 mystery or quest chain.
 
 ### Hunt flow
-> Old Waterworks sealed-door return point → additional Hunt branch → **Transfer Executioner** → rewards
+> Old Waterworks sealed-door return point → additional Hunt branch → **Scaldback** → rewards
 
 No separate Hunt storyline is required.
 
