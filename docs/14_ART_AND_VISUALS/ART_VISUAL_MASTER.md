@@ -62,6 +62,16 @@ Current supporting masters in the same repository set:
 
 Do not infer surnames for these eight from retired migration filenames or older art documents.
 
+## Enemy visual authority
+
+Current enemy visual index:
+> `ENEMIES/README.md`
+
+Chapter 0 locked enemy design authority:
+> `ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
+
+These files control silhouette, anatomy, armor/clothing/material language, palette family, signature visual read, movement presentation, and prohibited design drift. Enemy combat data remains in `../09_ENEMIES_AND_ENCOUNTERS/`.
+
 ## Character reference format
 
 High-resolution character masters use a clean studio/reference presentation when appropriate so face, age read, costume, silhouette, proportions, palette, and equipment placement remain easy to judge. The exact repository image—not the background convention—is the authority.
