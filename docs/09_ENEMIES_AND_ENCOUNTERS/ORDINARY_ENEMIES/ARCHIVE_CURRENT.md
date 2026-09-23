@@ -37,3 +37,29 @@ Both authored direct-damage actions use Lightning:
 - Archive Surge — Lightning AoE
 
 Do not revert Archive Surge to Colorless.
+
+
+## Chapter-3 carryover lock — 2026-09-23
+Archive Current carries forward from Chapter 2 into the **late Old City Archives** in Chapter 3.
+
+Placement:
+- not used in early Old City access;
+- not used before Nimera joins;
+- eligible in the later / deeper Archive sections where Ancient machinery becomes increasingly dominant;
+- strongest fit is Beat 10 — **Deep Archives**;
+- may appear at the late Beat-9 Hall-of-Seals boundary if the final map naturally overlaps deeper Ancient infrastructure.
+
+Identity remains unchanged:
+> fast, fragile Lightning-aligned Ancient current-regulation / conduit construct
+
+Chapter-3 use does not add:
+- new elemental states;
+- elemental cycling;
+- Freeze;
+- Burn;
+- Stun;
+- reaction mechanics.
+
+Its established Lightning actions remain its whole elemental identity.
+
+Chapter-3 body/tuning must be revalidated at the current four-person party state rather than blindly reusing its Chapter-2 raw body.
