@@ -1,246 +1,184 @@
 # Chapter 3 — Dialogue Authority Index
 
 **Chapter:** 3  
-**Status:** STRUCTURAL MIGRATION ACTIVE — OLD MAINLINE ATOMICS ARE STALE AGAINST CURRENT STORY AUTHORITY  
+**Status:** FULL SOURCE-LEVEL DIALOGUE CLOSURE — REVISED 15-BEAT STRUCTURE CURRENT  
+**Migration date:** September 23, 2026  
 **Primary story authority:** ../../../02_STORY/CHAPTERS/CHAPTER_03.md  
-**Migration date:** September 23, 2026
+**Current spoken-line count:** **644 mandatory + 180 Character-Life = 824 total**  
+**Nimera profanity audit:** **48 / 291 spoken lines = 16.5%**, inside the current **15–35% long-form calibration**.
 
-## Critical status rule
+## Authority rule
 
-The previous Chapter-3 atomic dialogue set was written for a superseded structure and is **not current exact wording authority** until each affected scene is migrated.
+1. Current standalone atomic scene files listed below are exact spoken-wording authority.
+2. Current runtime Agent Brains are current Person-Brain authority and must be reread if changed.
+3. Current scene specs are guardrails and must not contradict story/character authority.
+4. Generated runtime resources/manifests are derivatives and must be regenerated after source changes.
+5. Historical deleted/replaced atomics are provenance only.
 
-Do not regenerate runtime Chapter 3 from the old atomic set as though it were current.
+## Current mandatory atomic sequence
 
-Character-Life C06/C07 remain potentially reusable, subject to placement/continuity checks against the new structure.
+1. BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md
+2. BEAT_02_ROYAL_AUDIENCE_CH2_REPORT_DRAFT_A.md
+3. BEAT_03_IMPOSSIBLE_ORDERS_DRAFT_A.md
+4. BEAT_04_SEAL_NOT_USED_DRAFT_A.md
+5. BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md
+6. BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md
+7. BEAT_07_LOWER_ARCHIVES_DRAFT_A.md
+8. BEAT_08_BURIED_COLLECTIONS_RECENT_READER_DRAFT_A.md
+9. BEAT_09_HALL_OF_SEALS_RECENT_READER_DRAFT_A.md
+10. BEAT_10_DEEP_ARCHIVES_DRAFT_A.md
+11. BEAT_11_ARCHIVE_SCRIBE_ENGINE_DRAFT_A.md
+12. BEAT_12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DRAFT_A.md
+13. BEAT_13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DRAFT_A.md
+14. BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md
+15. BEAT_15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DRAFT_A.md
 
-## Current 15-beat target sequence
+Character-Life:
+- C06 — Nimera Takes Over a Table — H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md
+- C07 — Ilyra and Nimera — H03_ILYRA_AND_NIMERA_DRAFT_A.md
 
-1. **B01 — Caelora Gate / Arrival**
-2. **B02 — Royal Audience / Chapter-2 Report**
-3. **B03 — The Impossible Orders**
-4. **B04 — The Seal That Wasn't Used**
-5. **B05 — Old City Access / Archive Descent**
-6. **B06 — Scholar in Redacted Stacks / Nimera Joins**
-7. **B07 — Lower Archives**
-8. **B08 — Buried Collections / Recent Reader**
-9. **B09 — Hall of Seals / Recent Reader Continuation**
-10. **B10 — Deep Archives**
-11. **B11 — Archive Scribe Engine**
-12. **B12 — Inner Collections / Westways Recordbook / Sealwright Chamber**
-13. **B13 — Return to Mirena / Cresthaven Identified**
-14. **B14 — Cresthaven / Ancient Tower Base / First Command Warden**
-15. **B15 — Cresthaven Headquarters / Cleanup / Ivorybridge Decision**
+There is exactly one current mandatory draft and one current spec for each B01–B15 slot.
 
-## Dialogue migration requirements
+## Current structural dialogue locks
 
-### B01
-Mostly reusable. Remove only any wording that depends on the deleted Chapter-2 mural or treats ancient-capital existence as a new revelation.
-
-### B02
-Must remove all Chapter-2 Western Map Mural / Crest-marked northern-structure dialogue. Chapter-1 Wayfinder remains the party's cartographic evidence.
-
-### B03
-Core scene remains structurally valid.
-
-### B04
-Core scene remains structurally valid. End state must send Cyanis/Ilyra/Torren to find Nimera while Maevra stays with Mirena.
-
-### B05
-Archive-descent structure remains valid. No Ancient Barrier setup at handoff.
-
-### B06
-Major rewrite:
-- Nimera is not trapped;
+- no Chapter-2 Western Map Mural;
+- Chapter-1 Wayfinder remains the major pre-Chapter-3 cartographic evidence;
+- Ancient-capital existence at Caelora is already known;
 - no Ancient Barrier;
-- she joins permanently in this scene;
-- four-person party begins here.
+- Nimera joins permanently in **B06**;
+- B07 = Lower Archives;
+- B08 = Buried Collections / Recent Reader;
+- B09 = Hall of Seals;
+- B10 = Deep Archives;
+- B11 = Archive Scribe Engine;
+- B12 = Inner Collections / ~500-year-old Yahtrean Westways recordbook / Wayfinder-derived regional copy / Sealwright Chamber;
+- B13 = Mirena identifies the giant northern tower's modern location as Cresthaven;
+- no standalone overnight-rest beat;
+- B14 = normal Cresthaven + short Ancient tower-base dungeon + First Command Warden;
+- Warden message order is exactly **PREVIOUS ERROR → LAST SENTINEL CONFIRMED**;
+- Warden fully inert before Cyanis's Card stabilizes deep Ruby;
+- B15 = Warden aftermath + headquarters + cleanup + Ivorybridge hypothesis;
+- Ancient evidence does not name Ivorybridge.
 
-### B07
-Old Ancient Barrier scene is retired completely.
-New scene = Lower Archives four-person exploration.
+## Live Agent-Brain authority
 
-### B08
-Old Scribe Engine / Nimera-joins scene is retired.
-New scene = Buried Collections / Recent Reader.
+Current live brain files:
+- external-services/canary/brains/cyanis.yaml
+- external-services/canary/brains/ilyra.yaml
+- external-services/canary/brains/torren.yaml
+- external-services/canary/brains/nimera.yaml
+- external-services/canary/brains/maevra.yaml
+- external-services/canary/brains/mirena.yaml
 
-### B09
-New scene = Hall of Seals / recent-reader continuation.
+If any brain changes, reread it before finalizing/revising affected dialogue.
 
-### B10
-New scene = Deep Archives exploration.
-May salvage compatible atmosphere/Six-Face material from older deeper-archive sources.
-Use current Faces only:
-**Might / Elements / Grace / Memory / Perception / Ruin**.
-
-### B11
-First Command Warden no longer occurs here.
-New scene = Archive Scribe Engine, major Archive dungeon boss.
-No PREVIOUS ERROR / LAST SENTINEL CONFIRMED / Ruby stabilization.
-
-### B12
-Must include:
-- Inner Collections;
-- approximately 500-year-old Yahtrean Westways recordbook;
-- rougher but intact hand-copy derived from a thousands-of-years-old Ancient Diysean Wayfinder;
-- coverage only Westways + central Yahtrea;
-- complete ancient Caelora cluster;
-- routes radiating to map edges;
-- huge northern tower;
-- major routes converging there and continuing north off the copied region;
-- no destination shown for those routes;
-- no Ivorybridge label;
-- Sealwright copying evidence afterward/separately;
-- seal thread dead-ends in Caelora.
-
-### B13
-Mirena identifies the tower's modern location as Cresthaven.
-Ancient-capital existence is already known.
-No Chapter-2 mural/Crest-marked structure.
-No standalone overnight scene; rest is assumed and story cuts to next morning.
-
-### B14
-Old rest/decompression scene is retired.
-New scene/location sequence:
-- normal abandoned Cresthaven;
-- Mirena and Maevra meet the party there;
-- discovery of Ancient tower foundations;
-- short dungeon: Tower Foundation → Command Interior → Warden Chamber;
-- First Command Warden;
-- exact ordered messages:
-  - **PREVIOUS ERROR**
-  - **LAST SENTINEL CONFIRMED**
-- Warden fully inert;
-- only afterward Card stabilizes deep Ruby;
-- no second northern map / Ivorybridge reveal.
-
-### B15
-Headquarters handoff + Warden aftermath + cleanup unlock + Ivorybridge hypothesis.
-Party chooses Ivorybridge because the old map's largest routes continue north beyond Cresthaven and the map ends.
-Ivorybridge is not identified by Ancient evidence as a confirmed destination.
-
-## Reveal firewall
-
-Do not reveal/confirm in Chapter 3:
-- Prime classification;
-- Might classification;
-- bearer status;
-- what LAST SENTINEL means;
-- what PREVIOUS ERROR means;
-- identity of recent reader;
-- identity of seal-copying practitioner;
-- Calder's hidden role;
-- full Cresthaven tower function/name;
-- destination of the northbound Ancient routes;
-- that those routes definitely pass through modern Ivorybridge;
-- meaning of the Wayfinder's unresolved second marking system.
-
-## Character / performance authority
-
-Current character/runtime authority remains:
-- Cyanis — **Crest Knight in Chapter 3**; **Crest Magus is not unlocked yet** and must not appear as active Chapter-3 class knowledge, ability access, or dialogue expertise;
-- Ilyra — Blue Warden / Vowblade;
-- Torren — War Archer / Routeweaver;
-- Nimera — Cardweaver / Proofhunter;
-- Nimera Face — Memory;
-- Torren/Nimera Chapter-3 relationship = first contact / early competence-based respect, no paternal shorthand.
-
-Mature-adult speech rules remain active.
-
-## Live Agent-Brain grounding for this migration
-
-The Chapter-3 rewrite must be rehearsed against the **current runtime Agent Brains**, not reverse-engineered from stale atomics.
-
-Verified current brain snapshots:
-- Cyanis — `external-services/canary/brains/cyanis.yaml` — blob `c93f77477c3cbde4c3139c7c3aa191ca574345a8`
-- Ilyra — `external-services/canary/brains/ilyra.yaml` — blob `2c3c05f55535be192b243e52ba139eade3af426e`
-- Torren — `external-services/canary/brains/torren.yaml` — blob `27e81d6b5a1af69d374a72c95de2e10bae55d27b`
-- Nimera — `external-services/canary/brains/nimera.yaml` — reread live before finalizing each migrated scene
-- Maevra — `external-services/canary/brains/maevra.yaml` — blob `70487ef344c7283a95e5da584328158b9c0a1964`
-- Crown Princess Mirena Ceryth — `external-services/canary/brains/mirena.yaml` — blob `4ccbcb5acac0600e975b9faafaa368ec143282d6`
-
-If any of these brain files change before a scene is finalized, reread the changed brain and use the newer live authority.
-
-### Nimera true-voice lock
-
-Nimera must not be flattened into a polite/sanitized archive scholar.
-
-Current required performance:
-- serious records/Card specialist whose defining social trait is **engagement**;
-- curious, irreverent, precise, socially alive, playful, and profane;
-- bites onto wording, contradictions, category errors, and interesting mistakes;
-- revises herself aloud;
-- may correct a correction before yielding;
-- may keep the floor through evidence → self-revision → profanity → conclusion when the distinction belongs to her;
-- profanity is **high / frequent / casual / precise** and integrated inside the syntax of her thoughts;
-- spontaneous metaphors/comparisons usually begin **profane, vulgar, bodily, indecent, or socially inappropriate**, then get corrected/qualified aloud if technically wrong;
-- true fury may become cleaner/more formal; genuine vulnerability may become simpler;
-- long-form editorial anti-sanitization calibration: roughly **15–35% of Nimera's spoken lines containing natural profanity across a large enough corpus**, never a per-scene or interval quota;
-- never insert swearing mechanically just to hit a count;
-- never clean `fuck`/`shit`/vulgar phrasing into generic polite wording merely because she is scholarly, young, or explaining lore.
-
-Anti-patterns that fail Nimera:
-- solemn archive girl;
-- exposition machine;
-- omniscient ancient-history expert;
-- socially oblivious genius;
-- childlike younger-party role;
-- profanity as decorative edge or mechanical quota.
-
-### Other true-voice protections
-
-**Cyanis**
+### Cyanis
+- **Crest Knight only in Chapter 3**.
+- Crest Magus is a later subclass unlock and is not available as Chapter-3 expertise, ability access, or active identity.
 - practical/social leader, not automatic plot-summary voice;
 - moderate natural profanity;
-- can joke, argue, volunteer opinions, and hold multi-sentence turns;
-- leadership is not a dialogue assignment.
+- humor, argument, opinion, and multi-sentence turns are available.
 
-**Ilyra**
-- dry, curious, skeptical, sometimes petty and sharply profane;
-- not the party therapist/mother/safety monitor;
-- Grace is not a dialogue assignment;
-- do not auto-assign food, sleep, injury, consent, feelings, or scene-closing wisdom to her.
+### Ilyra
+- whole adult personality: dry, curious, skeptical, profane, capable of pettiness and humor;
+- not party therapist/mother/safety monitor;
+- Grace is not a dialogue assignment.
 
-**Torren**
+### Torren
 - Chapter-3 comfort with Cyanis/Ilyra does not reset to early terseness;
-- can start/prolong jokes, swear casually, tell short stories, argue recreationally, and hold longer turns;
-- with Nimera this is still first contact: field judgment vs records/provenance, reciprocal correction, mild irritation/comedy, early respect;
-- no paternal shorthand / dad jokes / possessive father behavior.
+- can joke, swear, argue, tell stories, and hold the floor;
+- Torren/Nimera are **first contact / early competence respect only** in Chapter 3;
+- no paternal shorthand, dad jokes, or possessive father behavior.
 
-**Maevra**
-- real senior commander and real longtime friend can coexist;
-- moderate register-sensitive profanity; rank does not sanitize her;
+### Nimera
+Nimera must never collapse into a sanitized archive-scholar archetype.
+
+Required current performance:
+- Cardweaver / Proofhunter;
+- Face Memory;
+- curious, irreverent, precise, socially alive, playful;
+- evidence/provenance first;
+- challenges wording and unsupported categories;
+- revises herself aloud;
+- can correct a correction before yielding;
+- can hold multi-sentence turns while a distinction belongs to her;
+- profanity is **high / frequent / casual / precise** and belongs inside the syntax of her thought;
+- spontaneous metaphors commonly begin vulgar/profane/bodily/indecent and then get corrected if technically wrong;
+- true fury may become cleaner/formal;
+- genuine vulnerability may become simpler.
+
+Current long-form editorial profanity calibration:
+> **15–35% of Nimera's spoken lines containing natural profanity across a sufficiently large corpus.**
+
+This is an anti-sanitization range, not a per-scene quota or fixed swear interval.
+
+Current Chapter-3 audit:
+> **48 profane Nimera lines / 291 total Nimera lines = 16.5% — PASS.**
+
+Do not mechanically add profanity to force a count. Do not systematically clean fuck/shit/vulgar metaphors into polite wording.
+
+### Maevra
+- senior command and real friendship coexist;
+- moderate register-sensitive profanity;
+- rank does not sanitize her;
 - command is not a dialogue assignment.
 
-**Mirena**
-- charismatic, witty, social, politically impatient, competitive;
-- private voice is less edited than public voice;
+### Mirena
+- charismatic, witty, socially fluent, politically impatient and competitive;
+- private register is less edited than public register;
 - profanity is more available in private;
 - not a Crown-lore exposition machine.
 
-### Dialogue-engine rules
+## Dialogue-engine craft locks
 
-Every revised Chapter-3 scene must also obey:
-- `STORY_BEAT_AS_GUARDRAIL_LOCK.md` — story outcomes/reveal boundaries are guardrails, not prewritten speaker choreography;
-- `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md` — sentence count is not turn count; let characters finish behavioral turns;
-- `MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md` — preserve distinct adult registers and do not sanitize profanity in editing.
+Every scene follows:
+- STORY_BEAT_AS_GUARDRAIL_LOCK.md
+- NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md
+- MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md
 
-The Dialogue Editor must cut repetition, not character-specific floor time or adult language.
+Story packets determine situation, outcomes, state, and reveal boundaries. They do not prewrite speaker choreography.
 
+Sentence count is not turn count. Cut repetition, not natural floor time.
 
-## Protected anchors retained
+## Protected anchors
 
-C06 opening anchors remain:
+C06 opening:
 > **CYANIS:** I bet you use that cape to sneak up on the goats you fuck.  
 > **TORREN:** You look like a walking dick in armor.
 
-First Command Warden messages remain exact and ordered, now in **B14 at Cresthaven**:
+B14 First Command Warden:
 > **PREVIOUS ERROR**  
 > **LAST SENTINEL CONFIRMED**
 
-Cyanis's Card becomes stable deep Ruby only after the Warden is fully inert. Causation remains unresolved. No Prime event occurs and the Card is not used as a key.
+LAST SENTINEL CONFIRMED is the Warden's final message.
+
+Only after the Warden is fully inert does Cyanis's Card stabilize deep Ruby.
+
+No Prime event occurs. The Card is not used as a key.
+
+## Reveal firewall through Chapter 3
+
+Do not resolve:
+- Prime classification;
+- Might classification;
+- bearer status;
+- Last Sentinel meaning;
+- PREVIOUS ERROR meaning;
+- Ruby causation;
+- recent reader identity;
+- seal-copying practitioner identity;
+- Calder hidden role;
+- full Cresthaven tower purpose/name;
+- Wayfinder second marking system;
+- ultimate northbound route destination;
+- whether the Ancient route actually passes modern Ivorybridge.
 
 ## Runtime status
 
-The current Chapter-3 runtime B01–B15 resources were compiled from the superseded dialogue structure and are therefore **stale pending atomic migration and resynchronization**.
+Source dialogue is now current and source-closed.
 
-Do not treat the current runtime resources, current combined Chapter-3 manuscript, or old spoken-line totals as structural authority during this migration.
+The existing game/content/dialogue/current/chapter_03 runtime resources and global manifest remain **stale until regenerated from this source-closed set**.
+
+Compiler durable roster state is corrected so **ROSTER_ADD_NIMERA_PERMANENT fires on B06**, not B08.
+
+Do not describe runtime as synchronized until the generated resources and manifest are refreshed and verified.
