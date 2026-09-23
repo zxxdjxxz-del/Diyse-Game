@@ -12,7 +12,7 @@
 | Archive Scribe Engine | 10 | 315 | 38 | 56 | 32 | 38 | 27 | 0 | 10 | 155 / 120 AoE |
 | Judgment Frame | 11 | 365 | 58 | 52 | 41 | 39 | 23 | 0 | 10 | 175 / 135 AoE / 195 |
 | Erasure Wisp | 10 | 210 | 18 | 61 | 22 | 38 | 36 | 10 | 10 | 160 Ruin / 120 AoE |
-| Command-Station Sentry | 11 | 345 | 56 | 47 | 39 | 38 | 28 | 0 | 10 | 165 / 155 Lightning |
+| Command Guard Frame | 11 | 345 | 56 | 47 | 39 | 38 | 28 | 0 | 10 | 165 / 155 Lightning |
 | Authority Lens | 11 | 235 | 20 | 63 | 25 | 42 | 31 | 5 | 10 | 160 / 115 Lightning AoE |
 | Command Ring Drone | 11 | 255 | 24 | 52 | 30 | 36 | 34 | 5 | 10 | 135 |
 
@@ -49,7 +49,7 @@ Chapter 3 introduces:
 Current Chapter-3 Stun sources:
 - Rift Boltman Shock Bolt20%
 - Ward-Sorcerer Ward Spark15%
-- Command-Station Sentry Station Pulse15%
+- Command Guard Frame Station Pulse15%
 - Authority Lens Classification Flash10%/target
 - Ivory Adjudicator Procedural Shock20%
 - Grand Inquisitor Lock Sequence25%
