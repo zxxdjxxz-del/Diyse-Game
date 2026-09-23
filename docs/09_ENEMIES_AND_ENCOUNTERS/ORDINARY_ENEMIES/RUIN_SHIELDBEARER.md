@@ -69,3 +69,9 @@ Ruin Shieldbearer is part of the locked Chapter-0 roster. Current authored use: 
 - Single-target selection is equal among conscious active party members.
 - Formation role: durable Host anchor that buys time for Raiders/Crossbowmen rather than protecting allies with a hidden taunt mechanic.
 
+## Chapter-0 behavior lock
+- Shield Bash / Ruin Thrust use the normal action-selection fallback when legal.
+- Guard is legal only while its own Defense/Spirit increase is not already active.
+- Guard never stacks with itself and retains its Chapter-0 2-round repetition lock.
+- P01 is Cyanis-solo, so all legal single-target actions necessarily target Cyanis.
+- Shieldbearer does not taunt, intercept, cover, or redirect attacks through an unlisted mechanic.
