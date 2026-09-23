@@ -82,17 +82,19 @@ If any brain changes, reread it before finalizing/revising affected dialogue.
 
 ### Cyanis
 - **Crest Knight only in Chapter 3**.
-- Crest Magus is a later subclass unlock and is not available as Chapter-3 expertise, ability access, or active identity.
+- Crest Magus is locked until **Sixfold Volition at the end of Chapter 7** and is not available as Chapter-3 expertise, ability access, or active identity.
 - practical/social leader, not automatic plot-summary voice;
 - moderate natural profanity; long-form editorial calibration roughly **7–14%**;
 - humor, argument, opinion, and multi-sentence turns are available.
 
 ### Ilyra
+- **Blue Warden only in Chapter 3**; Vowblade is locked until **Sixfold Volition at the end of Chapter 7**;
 - whole adult personality: dry, curious, skeptical, profane, capable of pettiness and humor; long-form editorial calibration roughly **5–12%**;
 - not party therapist/mother/safety monitor;
 - Grace is not a dialogue assignment.
 
 ### Torren
+- **War Archer only in Chapter 3**; Routeweaver is locked until **Sixfold Volition at the end of Chapter 7**;
 - Chapter-3 comfort with Cyanis/Ilyra does not reset to early terseness;
 - can joke, swear, argue, tell stories, and hold the floor; long-form editorial calibration roughly **7–16%**;
 - Torren/Nimera are **first contact / early competence respect only** in Chapter 3;
@@ -102,7 +104,7 @@ If any brain changes, reread it before finalizing/revising affected dialogue.
 Nimera must never collapse into a sanitized archive-scholar archetype.
 
 Required current performance:
-- Cardweaver / Proofhunter;
+- **Cardweaver only in Chapter 3**; Proofhunter is locked until **Sixfold Volition at the end of Chapter 7**;
 - Face Memory;
 - curious, irreverent, precise, socially alive, playful;
 - evidence/provenance first;
