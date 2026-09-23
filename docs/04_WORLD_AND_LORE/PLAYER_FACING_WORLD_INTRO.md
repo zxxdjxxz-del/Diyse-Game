@@ -60,7 +60,7 @@ They were Diyseans.
 
 We're not all called Diyseans now.
 
-I can't fucking help you.
+I can't help you. The naming convention is a historical pain in the ass.
 
 Anyway.
 
@@ -92,7 +92,7 @@ Disagreed.
 
 Left contradictory records.
 
-Occasionally one of them was clearly just fucking wrong.
+Occasionally one of them was confidently full of shit.
 
 Which is reassuring, actually.
 
@@ -106,7 +106,7 @@ No, that does **not** mean everyone was the same.
 
 Different regions. Different customs. Different local identities. Probably different political arrangements depending on where and when you're looking.
 
-The evidence is messy as hell, because of course it is, but one thing keeps coming through: their world was connected in ways ours isn't.
+The evidence is a historical junk drawer. No—worse. Junk drawers keep their shit in one place. But one thing keeps coming through: their world was connected in ways ours isn't.
 
 Roads, cities, archives, transport, communication, infrastructure—whole systems crossing distances that are still a pain in the ass now.
 
@@ -136,7 +136,7 @@ Some of those systems still work.
 
 Which is impressive.
 
-Also deeply fucking irritating when the machine survived and the instructions didn't.
+Also a complete bastard when the machine survived and the instructions didn't.
 
 Imagine finding a mechanism that still functions after centuries and the manual is six fragments, two mistranslations, and some scholar from three hundred years ago insisting the third button is ceremonial.
 
@@ -158,7 +158,7 @@ We have ruins, records, artifacts, later accounts, physical damage, patterns, an
 
 Some are good.
 
-Some are bullshit.
+Some are weapons-grade bullshit.
 
 Some were good right up until somebody dug up one extremely inconvenient building.
 
@@ -224,7 +224,7 @@ Some were newly recovered.
 
 Some may already have been in private hands.
 
-Some had provenance so fucking bad that you get things like:
+Some had provenance so piss-poor that you get things like:
 
 “My family has owned this for five generations.”
 
@@ -296,7 +296,7 @@ Around 200 YF, people start getting ancient Cards to answer them.
 
 Later, people start developing natural magic again.
 
-You'd have to work pretty damn hard not to notice that.
+You'd have to have your head impressively far up your own ass not to notice that.
 
 The problem is everybody immediately wants the arrows drawn in for them.
 
@@ -328,7 +328,7 @@ Those are separate things.
 
 A person's natural ability belongs to them. A Card gives access to the ability preserved inside that Card. Same person can use both.
 
-Simple enough until somebody tries to build a taxonomy around it, at which point nothing is ever simple again.
+Simple enough until somebody tries to build a taxonomy around it, at which point the clean little idea starts fucking itself into a corner.
 
 So someone throwing fire across a battlefield today isn't displaying some forgotten ancient miracle.
 
@@ -412,9 +412,7 @@ Although those aren't mutually exclusive.
 
 Shit.
 
-See?
-
-Everything branches.
+See? Every answer breeds three little bastard questions.
 
 But that's modern Diyse.
 
@@ -430,7 +428,7 @@ That's real.
 
 That's what I like.
 
-You can have some priceless ancient structure incorporated into a building and eventually somebody's putting a fucking basket beside it because that's where the basket fits.
+You can have some priceless ancient structure incorporated into a building and eventually somebody's shoving a cheap-ass basket beside it because that's where the basket fits.
 
 Scholars hate that.
 
@@ -468,7 +466,7 @@ But still.
 
 Fragments. Copies. Translations of copies. Official records written to flatter rulers, personal records written by people with grudges, inventories, contracts, letters, graffiti, broken inscriptions, things preserved deliberately, things preserved by complete accident—
 
-—and probably something historically priceless sitting under somebody's fucking barn right now because the universe enjoys humiliating archivists.
+—and probably something historically priceless sitting under some bastard's barn right now because the universe enjoys humiliating archivists.
 
 That's why wording gets under my skin.
 
@@ -512,7 +510,7 @@ Did a Diysean shopkeeper also look personally offended when someone walked in ju
 
 Probably.
 
-And if I ever find a closing-time complaint scratched into a Diysean counter, I am framing the damn thing.
+And if I ever find a closing-time complaint scratched into a Diysean counter, I am framing the little bastard.
 
 That's the good shit.
 
