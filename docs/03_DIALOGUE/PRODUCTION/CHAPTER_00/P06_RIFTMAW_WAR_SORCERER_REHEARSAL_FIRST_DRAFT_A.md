@@ -20,11 +20,11 @@ The relevant characters may appear as simple field models for the trigger. Portr
 
 Cyanis sees the incoming pair.
 
-**CYANIS:** That's not a hound.
+**CYANIS:** That's not a damn hound.
 
 Ilyra sees the size, the harness, and the sorcerer controlling the approach.
 
-**ILYRA:** No. And I don't think the person behind it brought it here to negotiate.
+**ILYRA:** No. And the bastard behind it didn't bring it here to negotiate.
 
 **CONVOY OFFICER:** Riftmaw! Sorcerer behind it!
 
@@ -62,7 +62,7 @@ The War-Sorcerer and Riftmaw continue closing on the camp.
 
 Cyanis looks at the temporary protection.
 
-**CYANIS:** Whatever that is, it's helping the line. Use it while it's here.
+**CYANIS:** Whatever the hell that is, it's helping the line. Use it while it's here.
 
 **ILYRA:** Already planning to.
 
@@ -152,7 +152,7 @@ The look on her face changes immediately.
 
 Cyanis's smile disappears.
 
-**ILYRA:** I don't know enough yet to know what that light did to you. I don't know if the dizziness is harmless, if it can change suddenly, or if vision problems would mean something is getting worse. If you joke about double vision, I have to waste time deciding whether you're being funny or whether your brain is doing something dangerous.
+**ILYRA:** I have no idea what that light did to you. If you joke about seeing double, I have to stop and work out whether you're being an asshole or whether something in your head just changed.
 
 That lands harder than he expected.
 
@@ -192,7 +192,7 @@ Cyanis sees it.
 
 **CYANIS:** Card looks intact.
 
-**ILYRA:** Looks intact from here. That's all we know, and I'd like us not to learn more by poking it in the middle of the road.
+**ILYRA:** Looks intact. Leave it that way. I'm not poking unexplained magic in the middle of the damn road.
 
 **CYANIS:** Strongly agree.
 
