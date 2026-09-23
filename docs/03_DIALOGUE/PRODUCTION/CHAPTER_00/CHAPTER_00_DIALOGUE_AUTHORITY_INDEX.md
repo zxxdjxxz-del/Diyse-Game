@@ -119,4 +119,12 @@ If Chapter-0 sources disagree:
 7. combined manuscript only after verified resynchronization;
 8. historical material only as provenance.
 
-> **Chapter 0 exact dialogue authority is current through P01–P07 plus the 79-line C01 light true-voice trim. Combined-manuscript synchronization remains a derived follow-up, not wording authority.**
+> **Chapter 0 exact dialogue authority is current through P01–P07 plus C01. The combined manuscript is synchronized as a derived read-through; standalone atomic files remain wording authority.**
+
+
+## 2026-09-22 encounter-spacing synchronization
+P01 and P02 received presentation-only gameplay staging updates so the five Cyanis-solo fights are discrete encounters with noncombat traversal/rescue space between them.
+
+No spoken dialogue, reveal order, Card state, or encounter identity was changed by this spacing pass.
+
+The synchronized combined manuscript has been regenerated from the current P01/P02 atomic sources after this update.
