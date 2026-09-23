@@ -1,6 +1,6 @@
 # Hollow Watch Sentry
 
-**Current use:** Chapter 1 — Hollow Watch; Chapter 2 — Sunken Archive carryover  
+**Current use:** Chapter 1 — Hollow Watch; Chapter 3 — Cresthaven Ancient tower base carryover  
 **Status:** **POWER COMPLETE / RAW BODY AUTHORED**
 
 ## Body
@@ -69,3 +69,21 @@ Reason:
 > Chapter 2 intentionally limits construct density so Chapter 3 can provide the stronger construct-heavy escalation.
 
 Do not place Hollow Watch Sentry in Chapter 2 unless explicitly reintroduced.
+
+
+## Chapter-3 Cresthaven carryover lock — 2026-09-23
+Hollow Watch Sentry returns as an ordinary construct in the **Cresthaven Ancient tower base**.
+
+Its identity and Sentry → Ballista setup grammar remain unchanged:
+- Sentry Strike;
+- Targeting Signal;
+- Targeting Signal is legal only with a linked living Hollow Watch Ballista.
+
+Chapter-3 placement:
+- Tower Foundation — eligible;
+- Command Interior — eligible;
+- Warden approach — eligible before the final safe buffer.
+
+This is deliberate reuse of an established Ancient-defense chassis.
+
+Chapter-3 body/tuning requires fresh validation and must not blindly reuse the Chapter-1 raw body.
