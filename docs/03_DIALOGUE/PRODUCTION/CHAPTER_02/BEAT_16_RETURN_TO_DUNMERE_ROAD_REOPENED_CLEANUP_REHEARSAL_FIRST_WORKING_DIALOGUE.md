@@ -54,19 +54,11 @@ The elder looks back to the four of them.
 
 **ELDER:** Bastion?
 
-Torren answers.
-
 **TORREN:** Host pulled out. Gate's open. Checkpoints are gone.
 
 **ELDER:** Rhazek?
 
-**CYANIS:** Alive.
-
-A beat.
-
-**CYANIS:** He was running the seizures himself. We beat him, and he withdrew what was left of the garrison.
-
-The elder considers that.
+**CYANIS:** Alive. He was running the seizures himself. We beat him and he withdrew the garrison.
 
 **ELDER:** So he lost the fort.
 
@@ -110,11 +102,11 @@ Torren looks at him.
 
 **TORREN:** Inn first in your head.
 
-**CYANIS:** We rescued people before I ate. I think I've demonstrated character.
+**CYANIS:** We rescued people before I ate. That's heroic as hell.
 
 Maevra gives him a look.
 
-**MAEVRA:** Heroic restraint.
+**MAEVRA:** Deeply moving.
 
 **CYANIS:** Thank you.
 
@@ -148,13 +140,9 @@ Ilyra considers that.
 
 Ilyra immediately points at him.
 
-**ILYRA:** No. Complaint.
+**ILYRA:** Bullshit. Complaint.
 
 **TORREN:** Had a question in it.
-
-**ILYRA:** Grammatically. Doesn't count.
-
-Maevra looks between them.
 
 **MAEVRA:** We need rules now?
 
@@ -162,7 +150,7 @@ Maevra looks between them.
 
 Cyanis stares at all three.
 
-**CYANIS:** I preferred the Bastion.
+**CYANIS:** I preferred the damn Bastion.
 
 A beat.
 
