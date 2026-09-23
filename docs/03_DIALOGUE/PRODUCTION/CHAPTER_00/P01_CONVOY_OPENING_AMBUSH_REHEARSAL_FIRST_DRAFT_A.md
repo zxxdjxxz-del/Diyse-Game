@@ -38,7 +38,7 @@ He looks toward the convoy center.
 
 **CONVOY OFFICER:** Holding.
 
-**CYANIS:** Then they can be nervous all the way to Caelora. I'm not opening an unknown recovery case on the road because it rattled.
+**CYANIS:** Then they can be nervous all the damn way to Caelora. I'm not opening an unknown recovery case on the road because it rattled.
 
 **CONVOY OFFICER:** Good. I was hoping not to have that argument with you.
 
@@ -68,7 +68,7 @@ The officer looks up the road.
 
 **CONVOY OFFICER:** Road could just be empty.
 
-**CYANIS:** Could be. I don't like how completely empty.
+**CYANIS:** Could be. Still feels wrong as hell.
 
 A beat.
 
