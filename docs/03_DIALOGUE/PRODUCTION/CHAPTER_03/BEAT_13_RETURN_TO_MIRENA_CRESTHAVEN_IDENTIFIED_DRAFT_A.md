@@ -24,7 +24,7 @@ Mirena looks up when they enter.
 
 **MIRENA:** You all look like the archive tried to keep you.
 
-**ILYRA:** It made an argument.
+**ILYRA:** It made a fucking argument.
 
 **NIMERA:** Several. Most were badly sourced and one tried to kill us.
 
@@ -44,47 +44,21 @@ Mirena gestures to the table.
 
 Cyanis looks to Nimera.
 
-**NIMERA:** Recent research trail through Card records and seal history. Then a Sealwright chamber with practice work: Ancient forms, older Yahtrean forms, royal-document copies, then repeated attempts at the Crest of Yahtrea.
+**NIMERA:** Recent Card-and-seal research, then a Sealwright chamber with repeated Crest copies. Later attempts had serious magic pushed through them. Nothing proves any copy could answer like the Queen's actual seal.
 
-Mirena's expression sharpens.
+**MIRENA:** Good. Annoying, but good.
 
-**MIRENA:** Attempts to copy it visually, or attempts to make it function?
-
-**NIMERA:** Both, probably. Visually, definitely. Later work had enough magic pushed through it to scorch the receiving rings.
-
-**MIRENA:** Did any copy answer like the Queen's actual seal?
-
-**NIMERA:** Nothing we found proves that.
-
-**MIRENA:** Good.
-
-Nimera blinks.
-
-**NIMERA:** That's the correct response and I resent how rare it is.
-
-**MIRENA:** I can give you a worse one if it helps.
-
-**NIMERA:** No, I'm adapting.
-
-Maevra taps one custody sheet.
-
-**MAEVRA:** We found no clean theft window here. No provable break in recorded custody.
+**MAEVRA:** Crown side found no clean theft window either. No provable break in recorded custody.
 
 **TORREN:** Record stays the weak word.
 
-**MAEVRA:** Exactly.
-
-**NIMERA:** Oh, good. Everybody's learning to distrust nouns.
-
-**ILYRA:** Long day?
-
-**NIMERA:** Excellent day. Shit evidence.
+**NIMERA:** Exactly. Excellent day. Shit evidence.
 
 ### [THE WESTWAYS RECORDBOOK]
 
 Cyanis sets down the careful copy made from the old Westways recordbook.
 
-**CYANIS:** This is the part that actually gives us somewhere to go.
+**CYANIS:** This is the part that finally gives us somewhere to fucking go.
 
 Mirena unfolds it.
 
@@ -92,15 +66,15 @@ Mirena unfolds it.
 
 **TORREN:** Later copy of an older route map. Westways and central Yahtrea only.
 
-**NIMERA:** Roughly five-hundred-year-old Yahtrean recordbook. The map inside is Wayfinder-derived. Less precise than the actual artifact, but the copied region survived intact.
+**NIMERA:** About five hundred years old, Wayfinder-derived, rougher than the real thing—but this copied region survived intact.
 
 Mirena studies the dense central cluster.
 
 **MIRENA:** Caelora.
 
-**NIMERA:** The Ancient capital area, yes. We already knew the capital was here. What we did not have from the broken Wayfinder was the intact center at this scale.
+**NIMERA:** Known capital, intact center. That's the new part.
 
-**TORREN:** Bigger and denser than we could reconstruct.
+**TORREN:** And it's a hell of a lot bigger than we could reconstruct.
 
 Mirena follows the major routes outward.
 
@@ -110,11 +84,7 @@ She stops at the enormous tower.
 
 **MIRENA:** What is that?
 
-**TORREN:** Large tower. Best we can say.
-
-**NIMERA:** Several of the biggest routes converge on it.
-
-**ILYRA:** And keep going.
+**TORREN:** Large tower. Biggest routes converge there and keep going north.
 
 Mirena follows the lines to the top edge.
 
@@ -122,7 +92,7 @@ Mirena follows the lines to the top edge.
 
 **TORREN:** Copy ends. Routes don't.
 
-**NIMERA:** Important distinction. This book only copied the region its author cared about. The northern destination is still anybody's fucking guess.
+**NIMERA:** Northern destination is still anybody's fucking guess.
 
 ### [CRESTHAVEN]
 
@@ -134,29 +104,15 @@ She checks it twice.
 
 **MIRENA:** That's Cresthaven.
 
-Cyanis looks at her.
-
 **CYANIS:** The abandoned fort?
 
-**MIRENA:** The location, yes. Not the fort itself. If this placement is even broadly right, that tower stood where Cresthaven stands now.
+**MIRENA:** The location, yes. If this placement is broadly right, that tower stood where Cresthaven stands now.
 
 Torren leans over both maps.
 
-**TORREN:** Fits.
+**TORREN:** Fits damn well. Enough to go look, not enough to tell you what we'll find.
 
-**MIRENA:** How well?
-
-**TORREN:** Well enough to go look. Not well enough to tell you what we'll find.
-
-**MIRENA:** That's all I need.
-
-Nimera looks at the old tower symbol.
-
-**NIMERA:** We do not know its Ancient name, function, or why the largest routes converged there.
-
-**MIRENA:** I know.
-
-**NIMERA:** I was making sure nobody's excitement fucked the uncertainty out of the room.
+**NIMERA:** And we still don't know the tower's Ancient name or function, so nobody fuck the uncertainty out of this.
 
 Mirena smiles slightly.
 
@@ -168,23 +124,15 @@ Mirena smiles slightly.
 
 Mirena folds the modern map but leaves the copied Wayfinder map open.
 
-**MIRENA:** The seal problem stays here for now. We have evidence, not a culprit and not a mechanism.
-
-She taps Cresthaven.
-
-**MIRENA:** This is different. We can inspect a place.
+**MIRENA:** The seal problem stays here. Cresthaven is different—we can inspect a place.
 
 **CYANIS:** Tomorrow?
 
-**MIRENA:** After everyone sleeps.
-
-Cyanis starts to answer.
-
-**MIRENA:** That was not a request for a heroic counterproposal.
+**MIRENA:** After everyone fucking sleeps.
 
 Ilyra looks at Cyanis.
 
-**ILYRA:** I was going to enjoy watching him try.
+**ILYRA:** I was going to enjoy watching him argue.
 
 **CYANIS:** Betrayal everywhere.
 
@@ -198,9 +146,9 @@ Mirena looks to Maevra.
 
 Nimera gathers her copied notes.
 
-**NIMERA:** Good. I need sleep before I become convinced that map is personally withholding information.
+**NIMERA:** Good. I need sleep before I start accusing the damn map of withholding evidence.
 
-**TORREN:** It is.
+**TORREN:** It is withholding evidence.
 
 **NIMERA:** Don't encourage me.
 
