@@ -3,8 +3,11 @@
   "scene_id": "CH03_H03_ILYRA_AND_NIMERA",
   "chapter_id": "chapter_03",
   "story_position": "Chapter 3 cleanup — Character-Life H03",
-  "production_ready": false,
-  "participants": ["ilyra", "nimera"],
+  "production_ready": true,
+  "participants": [
+    "ilyra",
+    "nimera"
+  ],
   "method": "guardrail_first_agent_brain_rehearsal",
   "scene_purpose": "Give Ilyra and Nimera a genuinely fun, low-stakes Cresthaven downtime scene discovered from their personalities rather than a predetermined relationship lesson.",
   "story_sources": [
@@ -35,7 +38,7 @@
     "location_name": "Cresthaven — partially reopened supply room",
     "area_phase": "chapter_3_cleanup",
     "dialogue_readiness": "GREEN",
-    "runtime_note": "Ordinary downtime. No crisis. Ilyra and Nimera encounter a newly moved Crown supply crate labeled only MISC. The label and whatever mundane objects are inside may become a source of amusement or disagreement if their brains naturally care about it. This is a seed, not a required conversational route."
+    "runtime_note": "Ordinary optional downtime. No crisis. Ilyra and Nimera encounter a newly moved Crown supply crate labeled MISC. Let the category argument emerge naturally, keep both women socially capable and funny, avoid methodology/canon-checker speech, and end once the spoon/category joke lands without forcing sentiment."
   },
   "hard_outcomes": [
     "The scene belongs primarily to Ilyra and Nimera.",
