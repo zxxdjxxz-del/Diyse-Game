@@ -1,15 +1,15 @@
 # Chapter 2 — Dialogue Authority Index
 
 **Chapter:** 2 — The Drowned Oath  
-**Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — BEATS 1–16 TRUE-VOICE / DIALOGUE-ECONOMY AUTHORITY CURRENT + C05 TRUE-VOICE / ECONOMY PASS CURRENT**
+**Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — 15 ACTIVE MANDATORY BEATS CURRENT; LEGACY B06 WESTERN MAP MURAL RETIRED + C05 CURRENT**
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
 **Beat-development authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
 **Character-Life numbering:** `../CHARACTER_LIFE_NUMBERING_LOCK.md`  
 **Rhythm:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
 **Mature-adult speech:** `../../AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`  
 **Spoken-vs-narration:** `../../AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`  
-**Combined read-through:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **STALE; do not use as exact wording authority until resynchronized**
-**Current atomic spoken-line counts:** **504 mandatory + 83 C05 = 587 if C05 is viewed.**  
+**Combined read-through:** `CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **will be resynchronized after B06 retirement; standalone active atomics remain exact wording authority**
+**Current atomic spoken-line counts:** **478 mandatory + 83 C05 = 561 if C05 is viewed.**  
 
 ## Authority rule
 
@@ -26,7 +26,7 @@
 3. `BEAT_03_DUNMERE_ELDER_HIDDEN_APPROACH_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
 4. `BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
 5. `BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md`
-6. `BEAT_06_WESTERN_MAP_MURAL_NATURAL_TURN_WORKING_DIALOGUE.md`
+6. **B06 RETIRED — no Western Map Mural atomic scene**
 7. `BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
 8. `BEAT_08_ARCHIVE_LEVIATHAN_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
 9. `BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
@@ -76,7 +76,6 @@ Story-earned medical ownership remains in:
 - Beat 15 — practical evacuation/mobility instructions for weakened/wounded captives.
 
 Generic caretaker/conscience assignments were removed where medicine did not own them:
-- Beat 6 — Cyanis owns the rescue priority; Ilyra can be curious, irritated and ordinary instead of `people first` voice;
 - Beat 14 — no automatic post-battle scan or rescue-conscience repetition;
 - Beat 16 — no generic human-success/moral summary assigned to Ilyra.
 
@@ -126,13 +125,12 @@ State-based brevity remains valid in covert movement, suspense, combat and priso
 Spoken-dialogue rule:
 > **The environment shows. Evidence owners interpret. Authority figures decide. Characters react. Nobody recites the scene back to the player.**
 
-Material spoken-vs-narration revisions remain in force in Beats 2, 5, 6, 10, 13, 14 and 16.
+Material spoken-vs-narration revisions remain in force in Beats 2, 5, 10, 13, 14 and 16.
 
 ## Material ensemble corrections already current
 
 - Beat 1 — Torren enters Chapter 2 already socially open.
 - Beat 2 — Torren joins ordinary humor before switching into serious field judgment.
-- Beat 6 — Cyanis owns rescue priority; Ilyra no longer functions as generic `people first` voice.
 - Beat 14 — Ilyra no longer performs automatic post-battle medical/conscience duty.
 - Beat 16 — Maevra owns immediate human success, Torren road consequence, Ilyra ordinary betting-pool banter.
 - C05 `Still Burns` — Torren/Maevra/group adult social behavior retained; exact Maevra/Torren timeline leak removed.
@@ -154,7 +152,7 @@ Material spoken-vs-narration revisions remain in force in Beats 2, 5, 6, 10, 13,
 
 ## Current production state
 
-- atomic dialogue — **CURRENT**;
+- atomic dialogue — **CURRENT for 15 active mandatory beats; B06 retired**;
 - final ensemble character balance — **COMPLETE**;
 - Ilyra role balance — **COMPLETE**;
 - Torren social progression — **COMPLETE**;
@@ -178,4 +176,4 @@ If Chapter-2 sources disagree:
 7. combined manuscript only after verified resynchronization;
 8. historical material only as provenance.
 
-> **Chapter 2 exact dialogue authority is current at 504 mandatory spoken lines plus the current 83-line C05 `Still Burns`. Combined-manuscript synchronization remains a derived follow-up.**
+> **Chapter 2 exact dialogue authority is current at 478 mandatory spoken lines plus the current 83-line C05 `Still Burns`. B06 Western Map Mural is retired.**
