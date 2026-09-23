@@ -22,8 +22,6 @@ Torren keeps working.
 
 **CYANIS:** No.
 
-Torren keeps working.
-
 Cyanis keeps watching.
 
 **TORREN:** You're still there.
@@ -36,8 +34,6 @@ Cyanis keeps watching.
 
 **CYANIS:** Helpful.
 
-Torren glances at him.
-
 **TORREN:** Official line's wrong now. Wash moved lower, wagons started cutting higher. Old road's still there, but nobody sensible uses it wet.
 
 **CYANIS:** So you erase it?
@@ -48,15 +44,9 @@ Torren glances at him.
 
 **TORREN:** Bad ones.
 
-**CYANIS:** Diplomatic.
-
-**TORREN:** Never claimed it.
-
 ### [THE NOTE]
 
 Cyanis notices another handwritten mark.
-
-A beat.
 
 **CYANIS:** Old slut?
 
@@ -66,17 +56,13 @@ Silence.
 
 **CYANIS:** What?
 
-**TORREN:** What?
-
-**CYANIS:** I was reading that.
-
 Torren looks.
 
 **TORREN:** That says old cut.
 
-**CYANIS:** No, it doesn't.
+**CYANIS:** No, it doesn't. That's an S.
 
-**TORREN:** It does.
+**TORREN:** It's a C.
 
 **CYANIS:** That's the worst C I've ever seen.
 
@@ -96,13 +82,9 @@ Fails.
 
 **TORREN:** Fuck off.
 
-That makes it worse.
-
 Torren starts laughing too.
 
 ### [OLD CUT]
-
-After it dies down:
 
 **CYANIS:** So what's an old cut?
 
@@ -118,10 +100,6 @@ Torren deliberately fixes the C.
 
 **TORREN:** Improved legibility.
 
-**CYANIS:** That's fixing it.
-
-**TORREN:** Different accusation.
-
 ### [WHY HE KEEPS HIS OWN]
 
 **CYANIS:** You carry this and the official one?
@@ -129,8 +107,6 @@ Torren deliberately fixes the C.
 **TORREN:** Usually. Official one's right often enough to matter. Mine's what I trust after I've walked it.
 
 **CYANIS:** You remember most of this anyway.
-
-Torren thinks.
 
 **TORREN:** A lot. Not enough. Memory gets confident. Map gives me something to argue with later.
 
@@ -144,15 +120,13 @@ Cyanis points at a convergence.
 
 **CYANIS:** Why do all three come back together there?
 
-Torren shifts the map toward him.
-
 **TORREN:** Ground narrows between the rise and the wash. Doesn't matter where you start; eventually it forces you through the same strip.
 
 **CYANIS:** So if I lose the road, I can still know where it has to come back.
 
 **TORREN:** Exactly.
 
-A little later, Cyanis studies another note.
+A little later:
 
 **CYANIS:** I'm not reading that one out loud.
 
