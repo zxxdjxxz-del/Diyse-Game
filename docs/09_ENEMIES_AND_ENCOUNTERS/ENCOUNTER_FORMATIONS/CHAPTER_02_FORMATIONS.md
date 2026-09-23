@@ -59,9 +59,9 @@ Archive-specific identities begin entering:
 |---|---|---|
 | Light | **Flooded Record Hall** | 1 Bogshell + 1 Cistern Leech + 1 Archive Current |
 | Light | **Broken Archive Airspace** | 1 Needlewing + 1 Archive Current + 1 Memory Scribe |
-| Standard | **Archive Watch** | 2 Archive Currents + 1 Memory Scribe |
+| Standard | **Archive Watch** | 1 Archive Current + 1 Memory Scribe |
 | Standard | **Wet Record Hall** | 1 Bogshell + 1 Archive Current + 1 Memory Scribe |
-| Heavy | **Current Gallery** | 2 Archive Currents + 2 Memory Scribes |
+| Heavy | **Current Gallery** | 2 Archive Currents + 1 Memory Scribe |
 
 ## Deeper Archive
 As the player moves deeper:
@@ -76,7 +76,12 @@ Eligible repeatable formations:
 - deeper variants built only from Archive Current and Memory Scribe.
 
 Structural cap:
-> **4 active enemies**
+> **3 active enemies**
+
+Memory Scribe cap:
+> **maximum 1 Memory Scribe per ordinary formation**
+
+This keeps the copy mechanic readable and prevents Chapter 2 from becoming construct-heavy before Chapter 3.
 
 Immediate Archive-Leviathan approach buffer:
 > **SAFE**
@@ -215,3 +220,11 @@ Do not add Hollow Watch Sentry or Archive Duplicant back into Chapter 2 without 
 - ordinary formation cap reduced from 4 to **3 active enemies**;
 - Flooded Roost is now **1 Bogshell + 2 Needlewings**;
 - the Waterworks should teach the three local wildlife roles through readable 2–3 body combinations rather than early action-economy overload.
+
+
+## Sunken Archive formation correction — 2026-09-23
+- ordinary formation cap reduced to **3 active enemies**;
+- Memory Scribe capped at **1 per formation**;
+- Archive Watch is now **1 Archive Current + 1 Memory Scribe**;
+- Current Gallery is now **2 Archive Currents + 1 Memory Scribe**;
+- no four-construct ordinary formation is used in Chapter 2.
