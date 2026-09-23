@@ -1,7 +1,7 @@
 # Chapter 1 — The Junction / Hidden Monument Lock
 
 **Status:** CURRENT EXPLICIT USER DIRECTION  
-**Domain:** Chapter 1 story / Torren knowledge / mural-to-Junction continuity
+**Domain:** Chapter 1 story / Torren knowledge / mural-to-Junction continuity / expanded Wayfinder map scope
 
 ## Hard correction
 
@@ -35,6 +35,27 @@ When the party later reaches the Junction:
 
 The reveal should feel like the mural told them **something important exists at the crossroads**, while the present-day vegetation explains why Torren and ordinary travelers never realized what was there.
 
+## Expanded Wayfinder map lock
+
+Once the vegetation is cleared, the cartographic surface is **not** merely a local Junction route plate.
+
+It depicts a substantial **western portion of ancient Diyse**:
+- dense overland routes intersect and reconnect throughout the mapped region;
+- a visually distinct lower / subsurface layer shows extensive underground infrastructure and routes;
+- built-up city / settlement structures appear in many locations;
+- the largest visible concentration of urban structures, route convergence, and underground infrastructure lies around the geography corresponding to **present-day Caelora**;
+- the Wayfinder is physically broken through that Caelora-area concentration, so the center of the largest ancient cluster is missing;
+- surviving lines visibly converge toward and continue around the broken area, making the scale of what is missing obvious without revealing the lost center itself.
+
+The party may recognize that the map represents a much larger and more interconnected ancient landscape than the modern western region. They may distinguish surface routes from subsurface infrastructure. They **do not** yet know the full purpose of the underground network, the identities/functions of the many ancient urban sites, or what specifically occupied the missing Caelora-area center.
+
+The local information remains usable:
+- the surviving Dunmere-bound alignment matches the party's already-planned route;
+- the water/cistern notation still corresponds to the earlier overgrown Southern Briar side access;
+- Face markings remain part of the monument's technical grammar without their map function being explained.
+
+The party's practical copy should preserve as much of the surviving western map as possible, including the broad route relationships, subsurface layer, city clusters, the shape/location of the Caelora-area break, and the local useful notations. They must not draw in or reconstruct the missing center.
+
 ## Knowledge rule
 
 Torren's valid Chapter-1 knowledge is:
@@ -49,6 +70,8 @@ Torren does **not** know before the vegetation is cleared:
 - its technical grammar;
 - why the mural emphasizes it;
 - how it relates to the wider Diysean route system.
+
+After the reveal, Torren can read practical geographic relationships and distinguish route layers, but he still cannot explain the ancient network's full engineering/civil function or identify what is missing at the broken Caelora-area center.
 
 ## Naming
 
