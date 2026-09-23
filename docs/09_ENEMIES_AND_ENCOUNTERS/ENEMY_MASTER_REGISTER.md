@@ -42,7 +42,6 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 2 | Ordinary/carryover | Black Host Crossbowman — approved carryover |
 | 2 | Ordinary/carryover | Black Host War-Sorcerer — Chapter-2 variant |
 | 2 | Ordinary/carryover | Black Host Raider — approved carryover |
-| 2 | Ordinary/carryover | Beast Handler — approved carryover |
 | 2 | Ordinary/carryover | Rift Hound — approved carryover |
 | 2 | Authored/protected | Hold the Junction — formation-level authored event; no standalone body |
 | 2 | Strong normal-pool Elite | Archive Duplicant |
