@@ -70,3 +70,9 @@ This keeps the Chapter-0 retrospective seed intact:
 - If the HP threshold is not reached, the second full combat round completes normally.
 - At the end of Round 2, the Pursuer disengages before Round 3 begins.
 - The disengagement is a protected encounter resolution, not a KO/death state.
+
+## Visual authority
+Current locked Chapter-0 appearance:
+> `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
+
+Combat/encounter mechanics remain owned by this file; visual identity is owned by the art-domain authority above.
