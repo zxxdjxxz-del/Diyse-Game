@@ -100,7 +100,7 @@ Ilyra gives the smallest nod.
 
 **ILYRA:** I support not recreating that experiment.
 
-**CYANIS:** No fucking argument from me.
+**CYANIS:** No argument from me.
 
 **LYSARA:** This is custody, not ownership.
 
