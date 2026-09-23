@@ -1,55 +1,32 @@
 # Nimera — Current Visual Lock
 
-**Status:** **LOCKED — CURRENT REPOSITORY MASTER**  
-**Authority scope:** Nimera's exact current face, hair, body proportions, outfit, Cardweaver props, palette, silhouette, and material treatment.
+**Status:** **LOCKED — EXACT SOURCE APPROVED 2026-09-22**
 
-## Canonical repository image master
+## Exact approved source
 
-- repository path: [`asset_sources/characters/current/nimera.jpg`](../../../../asset_sources/characters/current/nimera.jpg)
-- dimensions: **1229 × 1536**
-- SHA-256: `c24f819b287baf2cf087e12f14f2aee0be1c94dd1ea56ca4cc6747b89ced0330`
+- intended repository path: `asset_sources/characters/current/nimera.jpg`
+- native format: **JPEG/JFIF**
+- dimensions: **1280 × 1536**
+- size: **156104 bytes**
+- SHA-256: `4e923f7053a5cc75c61c1a5deb3351743727b53d38ae57383a767a6674883874`
+- set authority: [`EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md`](EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md)
 
-This repository image is the exact controlling visual authority. If any prose, older fingerprint, generated filename, prior render, or archived visual note conflicts with it, **the repository image wins** until the user explicitly revises Nimera.
+## Pixel authority
 
-## Identity / appearance anchors
+The approved source image is the complete appearance authority. It controls face, facial proportions, hair, eyes as depicted, body proportions, clothing, armor, jewelry, equipment/props, palette, materials, silhouette, stance, scale/framing, and incidental details.
 
-Preserve the appearance shown by the master:
-- adult woman, canonical age **22**;
-- dark skin;
-- confident, expressive mature anime face;
-- dark-purple hair arranged in a high gathered mass/updo with multiple braids and controlled flyaways;
-- purple lipstick;
-- fitted white sleeveless upper clothing and white lower clothing as depicted;
-- dark-purple constellation-patterned draped garment / coat around the waist;
-- black belts, straps, utility structure, pouches, and boots;
-- silver-toned hardware and jewelry as depicted;
-- green Cardweaver book/grimoire and green card with metallic detailing;
-- compact utility vials/canisters and charms where shown.
+If older prose, generated-image references, repository fallback images, archived renders, or prior lock text disagree with the source, **the source wins**. Do not use prose to "correct" the image and do not combine retired details with the current source.
 
-The image controls exact facial proportions, eye read, braid arrangement, garment construction, constellation placement, prop construction, hardware placement, and incidental detail.
+## Repository binary state
 
-## Rendering direction
+**Exact-byte sync: PENDING.**
 
-Render Nimera in Diyse B00 / HD-2D anime character language:
-- mature seinen/anime proportions;
-- deliberate variable line weight;
-- graphic cel-informed value grouping;
-- clean readable braid and garment masses;
-- strong white / purple / black material separation;
-- intentional constellation motifs rather than random speckle;
-- no painterly or soft-brushed finish;
-- no glossy mobile-gacha material treatment;
-- no random dots, broken seams, accidental jewelry fragments, or AI artifact texture.
+A repository file at `asset_sources/characters/current/nimera.jpg` becomes the exact binary master only when its SHA-256 is exactly `4e923f7053a5cc75c61c1a5deb3351743727b53d38ae57383a767a6674883874`. Until then, any older binary at that path is fallback/provenance only and may not be used as identity authority.
 
-## Prohibited regressions
+Do not re-encode, resize, crop, recolor, retouch, sharpen, denoise, or resave the source during promotion.
 
-Do not:
-- restore an older Nimera face, hairstyle, or outfit over the repository master;
-- replace the current braided dark-purple hair with the retired white/silver-curly primary read;
-- change the green Cardweaver props to another dominant color;
-- remove her confident expressive identity;
-- flatten the hairstyle into a generic ponytail;
-- turn constellation motifs into noisy random speckles;
-- patch an older image when a clean redraw is requested.
+## Derivatives
 
-This file and the linked repository image control Nimera's current B00 master and later model/runtime translation until explicitly revised.
+Portraits, sprites, model sheets, cut-ins, promotional art, and later HD-2D/3D translations may adapt presentation for purpose, but must return to this exact source for identity. A derivative never replaces this source without new explicit approval.
+
+Nonvisual story, biography, class, combat, and equipment mechanics remain owned by their normal numbered domains.

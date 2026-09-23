@@ -7,59 +7,27 @@ When two active claims conflict:
 1. newest explicit approved user correction;
 2. current file in the owning numbered domain;
 3. cross-domain authority in `00_MASTER_CONTROL`;
-4. a clearly marked current working item in `90_WORKING` when the question is intentionally unresolved;
-5. historical source/archived authority only for provenance.
+4. clearly marked current working item in `90_WORKING` when intentionally unresolved;
+5. historical/archived material for provenance only.
 
-## One canonical home
-Every current rule has one owning domain.
+## Character visual authority
 
-Examples:
-- exact spoken lines → `03_DIALOGUE`
-- combat formula → `05_BATTLE_SYSTEM`
-- Ability MP → `06_CLASSES_AND_ABILITIES`
-- Prime mechanics → `07_CARDS`
-- equipment stats → `08_ITEMS_AND_EQUIPMENT`
-- enemy raw stats → `09_ENEMIES_AND_ENCOUNTERS`
-- Player EXP/CEXP → `10_PROGRESSION_AND_EXP`
-- quest flow → `11_QUESTS`
-- item price/shop economy → `12_ECONOMY_AND_REWARDS`
-- exact current character appearance → repository master under `asset_sources/characters/current/`, routed by `14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`
+Exact current character appearance is owned by `14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`.
 
-Other domains may reference the rule but should not independently redefine it.
+Within that art authority:
+1. newest explicit approved replacement image;
+2. exact approved source fingerprint registered by the active production authority;
+3. repository master binary when it matches the fingerprint;
+4. matching current visual-lock document;
+5. shared current visual-style rules;
+6. older prose/renders/hashes for provenance only.
 
-## Character visual exception inside the art domain
-For characters with a current repository master image, the image is the exact appearance authority and the matching visual-lock document records production intent/constraints.
+A detailed older text description never outranks the current approved image.
 
-Order:
-1. newest explicit approved replacement;
-2. current repository master image;
-3. matching current visual-lock document;
-4. shared current visual-style rules;
-5. older prose/renders/hashes for provenance only.
+### Exact-binary sync exception
 
-A detailed older text description does not outrank the current image merely because it contains more words.
-
-## Working promotion
-A draft in `90_WORKING` becomes current only when:
-1. approved;
-2. written into the owning numbered domain;
-3. relevant cross-domain references are updated;
-4. the working file is closed/moved to archive as appropriate.
-
-## Closed numeric change
-For a closed balance value:
-- reproduce the problem;
-- determine bug vs data vs UX vs actual balance issue;
-- propose explicit replacement;
-- identify regressions;
-- obtain approval;
-- update the owner file and validation references.
+When an approved replacement image cannot be promoted into Git in the same operation, the art domain may register its SHA-256, dimensions, native format, and intended path as temporary exact-source authority. During that state the registered source outranks any older binary at the path. Promotion completes only when the repository binary hashes exactly to the registered source. The source must not be altered merely to make sync easier.
 
 ## No silent resurrection
-An old audit, old tracker, old runtime proof, old image filename or archived document does not regain authority because a newer file is incomplete.
 
-OPEN means:
-> unresolved
-
-not:
-> use the previous retired answer.
+An old audit, runtime proof, image filename, archived document, or stale binary does not regain authority because a newer source has not yet been byte-synced.

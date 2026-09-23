@@ -1,72 +1,38 @@
 # Diyse Character Visual Authority Index
 
-This folder is the canonical production index for Diyse character visual locks.
-
 ## Authority order
 
-When character visual sources disagree, use this order:
+1. newest explicit user-approved exact source image;
+2. exact approved fingerprint in [`EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md`](EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md) / `APPROVED_SOURCE_MANIFEST.json`;
+3. repository master binary only when it matches that fingerprint;
+4. matching `*_CURRENT_VISUAL_LOCK.md`;
+5. current B00 / HD-2D anime style rules;
+6. older prose, archived renders, generated filenames, and historical hashes.
 
-1. **The current repository master image** in [`asset_sources/characters/current/`](../../../../asset_sources/characters/current/).
-2. **The matching `*_CURRENT_VISUAL_LOCK.md` file** in this folder.
-3. Current approved project-wide B00 / HD-2D anime style rules.
-4. Older prose descriptions, archived renders, generated filenames, historical hashes, or superseded concept notes.
+The exact source image controls face, body proportions, hair, clothing/armor construction, equipment/prop placement, palette, silhouette, scale/framing, and incidental minutiae.
 
-The repository master image controls exact face, body proportions, hair, clothing/armor construction, equipment placement, palette, silhouette, and incidental visual minutiae. A lock document may explain intent and prohibited regressions, but it must never override the current master image.
+## Permanent party
 
-**Temporary Vaelira exception:** Vaelira's approved 2026-09-12 B00 (gen_id `98e6cf8a-4d34-4411-b789-85e60e1123c9`) is the current appearance authority while its exact PNG binary is pending repository sync. The valid `vaelira.jpg` currently present in the master folder is an older fallback kept only to avoid a broken/corrupt binary and must not override `VAELIRA_CURRENT_VISUAL_LOCK.md` or be used to restore the retired long-hair design. Remove this exception after the exact PNG is synced.
+| Character | Intended master | Approved SHA-256 | Lock |
+| --- | --- | --- | --- |
+| Cyanis | `asset_sources/characters/current/cyanis.jpg` | `9c86bb384051997786fad71fa9fd8427b7386bda77e98b4a52816b0ee76878ea` | [`CYANIS_CURRENT_VISUAL_LOCK.md`](CYANIS_CURRENT_VISUAL_LOCK.md) |
+| Ilyra | `asset_sources/characters/current/ilyra.jpg` | `4ab184e960176141367b005d13992efe4bad64058fcd02ec0c5358811e058893` | [`ILYRA_CURRENT_VISUAL_LOCK.md`](ILYRA_CURRENT_VISUAL_LOCK.md) |
+| Torren | `asset_sources/characters/current/torren.jpg` | `ff5a27b8f42c2bdcbb9290219213793860e398225af84e5107600a3ac5377313` | [`TORREN_CURRENT_VISUAL_LOCK.md`](TORREN_CURRENT_VISUAL_LOCK.md) |
+| Nimera | `asset_sources/characters/current/nimera.jpg` | `4e923f7053a5cc75c61c1a5deb3351743727b53d38ae57383a767a6674883874` | [`NIMERA_CURRENT_VISUAL_LOCK.md`](NIMERA_CURRENT_VISUAL_LOCK.md) |
+| Vaelira | `asset_sources/characters/current/vaelira.jpg` | `100b7b6d992c07ec82a4860eebf75fd61d279c41d9dd249db92864a0273875a3` | [`VAELIRA_CURRENT_VISUAL_LOCK.md`](VAELIRA_CURRENT_VISUAL_LOCK.md) |
+| Seyrik | `asset_sources/characters/current/seyrik.jpg` | `6655471361fb9e826c8778d15e6c47074cf4f0a7450fa90107e307ed0f8f267b` | [`SEYRIK_CURRENT_VISUAL_LOCK.md`](SEYRIK_CURRENT_VISUAL_LOCK.md) |
 
-Do not infer or add surnames that are not explicitly canonical. Current repository filenames use the characters' actual names only.
+## Supporting characters in the same exact-source set
 
-## Permanent party — current visual masters
+| Character | Intended master | Approved SHA-256 | Lock |
+| --- | --- | --- | --- |
+| Maevra | `asset_sources/characters/current/maevra.jpg` | `b1ada1a13e1301803849b8994ac9017cbaffb7570fd4c78d11732e6ed4247577` | [`MAEVRA_CURRENT_VISUAL_LOCK.md`](MAEVRA_CURRENT_VISUAL_LOCK.md) |
+| Crown Princess Mirena Ceryth | `asset_sources/characters/current/mirena.jpg` | `a61c0dbf87eef484fc955c3b11d00f2120fcd9169f37c02b319ed470d9be5c77` | [`MIRENA_CURRENT_VISUAL_LOCK.md`](MIRENA_CURRENT_VISUAL_LOCK.md) |
 
-| Character | Master image | Visual lock |
-| --- | --- | --- |
-| Cyanis | [`cyanis.jpg`](../../../../asset_sources/characters/current/cyanis.jpg) | [`CYANIS_CURRENT_VISUAL_LOCK.md`](CYANIS_CURRENT_VISUAL_LOCK.md) |
-| Ilyra | [`ilyra.jpg`](../../../../asset_sources/characters/current/ilyra.jpg) | [`ILYRA_CURRENT_VISUAL_LOCK.md`](ILYRA_CURRENT_VISUAL_LOCK.md) |
-| Torren | [`torren.jpg`](../../../../asset_sources/characters/current/torren.jpg) | [`TORREN_CURRENT_VISUAL_LOCK.md`](TORREN_CURRENT_VISUAL_LOCK.md) |
-| Nimera | [`nimera.jpg`](../../../../asset_sources/characters/current/nimera.jpg) | [`NIMERA_CURRENT_VISUAL_LOCK.md`](NIMERA_CURRENT_VISUAL_LOCK.md) |
-| Vaelira | [`vaelira.jpg`](../../../../asset_sources/characters/current/vaelira.jpg) *(temporary historical fallback only)* | [`VAELIRA_CURRENT_VISUAL_LOCK.md`](VAELIRA_CURRENT_VISUAL_LOCK.md) |
-| Seyrik | [`seyrik.jpg`](../../../../asset_sources/characters/current/seyrik.jpg) | [`SEYRIK_CURRENT_VISUAL_LOCK.md`](SEYRIK_CURRENT_VISUAL_LOCK.md) |
+Exact repository-byte promotion for this eight-image set is pending. Older binaries at the intended paths are fallback/provenance only until they match the approved fingerprints.
 
-These six are the permanent playable party and should be treated as one coherent B00 character-production set. For Vaelira, the current lock document and approved generation authority supersede the temporary fallback JPG until exact binary sync is completed.
-
-## Supporting characters — current visual masters
-
-| Character | Master image | Visual lock |
-| --- | --- | --- |
-| Maevra | [`maevra.jpg`](../../../../asset_sources/characters/current/maevra.jpg) | [`MAEVRA_CURRENT_VISUAL_LOCK.md`](MAEVRA_CURRENT_VISUAL_LOCK.md) |
-| Kessara | [`kessara.png`](../../../../asset_sources/characters/current/kessara.png) | [`KESSARA_CURRENT_VISUAL_LOCK.md`](KESSARA_CURRENT_VISUAL_LOCK.md) |
-
-Maevra and Kessara have current authoritative visual masters but are **not part of the permanent six-character party**.
-
-## Downstream character derivatives
-
-Current masters are now the source layer for purpose-specific derivatives; derivatives never become replacement identity masters.
-
-Portrait production is controlled by:
-- [`PORTRAIT_DERIVATIVE_PIPELINE.md`](PORTRAIT_DERIVATIVE_PIPELINE.md) — derivative rules and runtime handoff;
-- [`PORTRAIT_PRODUCTION_MANIFEST.md`](PORTRAIT_PRODUCTION_MANIFEST.md) — current source readiness and approved derivative tracking.
-
-Source/output lanes:
-- `asset_sources/characters/derivatives/dialogue/` — dialogue portrait/bust derivatives;
-- `asset_sources/characters/derivatives/ui/` — menu/status/party portrait derivatives.
-
-The dialogue runtime already supports stable semantic `character_id` + `expression_id` lookup through `DiyseDialoguePortraitRegistry`. Production portraits should enter through that indirection after approval rather than wiring story data directly to B00 image paths.
-
-The current SVG portraits in `game/characters/placeholders/portraits/` remain proof-only stand-ins. They are not production derivatives and do not compete with the current masters.
+Kessara remains separately locked by the existing `asset_sources/characters/current/kessara.png` master.
 
 ## Production rules
 
-- Use only the target character's authoritative master as the subject/identity reference for redraws.
-- Other approved character masters may guide shared B00 technique and cohesion, never subject identity, palette, costume, equipment, or props.
-- Preserve exact left/right equipment placement when the master establishes it.
-- For a clean redraw, rebuild rather than patching an older image.
-- Do not revive superseded character designs merely because an older document or render contains more detail.
-- Derived runtime assets may simplify for HD-2D production, but must remain recognizably faithful to the current master.
-- Never overwrite/resave a current master as part of a derivative crop, expression, transparency, resize, or export pass.
-
-## Current B00 direction
-
-The shared character-side target is Diyse's established mature anime / seinen-inspired HD-2D presentation: deliberate variable line weight, graphic cel-informed value grouping, readable materials and silhouettes, clean anatomy, restrained artifact-free detail, and no painterly or glossy mobile-gacha finish.
-
-This index should be updated whenever a character master is explicitly replaced or a new authoritative visual master is added.
+Use only the target character's exact approved source for identity. Other characters may guide shared B00 technique, never identity, costume, palette, equipment, or proportions. Do not patch an older image to simulate the current source. Derivatives never replace the exact source without new explicit approval.

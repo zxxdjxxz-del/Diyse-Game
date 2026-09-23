@@ -1,64 +1,32 @@
 # Ilyra — Current Visual Lock
 
-**Status:** **LOCKED — CURRENT REPOSITORY MASTER**  
-**Authority scope:** Ilyra's exact current face, hair, eye treatment, body proportions, outfit, cape, palette, and neutral-master presentation.
+**Status:** **LOCKED — EXACT SOURCE APPROVED 2026-09-22**
 
-## Canonical repository image master
+## Exact approved source
 
-- repository path: [`asset_sources/characters/current/ilyra.jpg`](../../../../asset_sources/characters/current/ilyra.jpg)
-- dimensions: **1024 × 1536**
-- SHA-256: `46dbfd2783d9aa3da04209b0938122517cb0bd2077b6da809fe3da50aa7dd358`
+- intended repository path: `asset_sources/characters/current/ilyra.jpg`
+- native format: **JPEG/JFIF**
+- dimensions: **1280 × 1536**
+- size: **198138 bytes**
+- SHA-256: `4ab184e960176141367b005d13992efe4bad64058fcd02ec0c5358811e058893`
+- set authority: [`EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md`](EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md)
 
-This repository image is the exact controlling visual authority. If any prose, older fingerprint, generated filename, prior render, or archived visual note conflicts with it, **the repository image wins** until the user explicitly revises Ilyra.
+## Pixel authority
 
-## Identity / appearance anchors
+The approved source image is the complete appearance authority. It controls face, facial proportions, hair, eyes as depicted, body proportions, clothing, armor, jewelry, equipment/props, palette, materials, silhouette, stance, scale/framing, and incidental details.
 
-Preserve the appearance shown by the master:
-- adult woman, canonical age **28**;
-- distinctive mature/confident face exactly as depicted;
-- bold vivid jade/green eyes;
-- long windswept blonde hair;
-- slightly athletic build with a natural waist;
-- white and pale-blue fitted Warden clothing;
-- one coherent pale-blue cape;
-- restrained decoration / filigree rather than ornate clutter;
-- brown utility belts and pouches;
-- fingerless gloves;
-- light silver forearm bracers and lower-leg protection as depicted;
-- no weapon in the neutral studio master.
+If older prose, generated-image references, repository fallback images, archived renders, or prior lock text disagree with the source, **the source wins**. Do not use prose to "correct" the image and do not combine retired details with the current source.
 
-The image controls exact face proportions, waist/body balance, hair flow, cape construction, garment seams, armor placement, and incidental detailing.
+## Repository binary state
 
-## Gameplay weapon identity
+**Exact-byte sync: PENDING.**
 
-The neutral master being weaponless does not change Ilyra's gameplay equipment identity:
-- **Wardrod** primary;
-- **Shield** secondary where equipped;
-- **Focus** may also be equipped where allowed;
-- no sword as her defining weapon.
+A repository file at `asset_sources/characters/current/ilyra.jpg` becomes the exact binary master only when its SHA-256 is exactly `4ab184e960176141367b005d13992efe4bad64058fcd02ec0c5358811e058893`. Until then, any older binary at that path is fallback/provenance only and may not be used as identity authority.
 
-## Rendering direction
+Do not re-encode, resize, crop, recolor, retouch, sharpen, denoise, or resave the source during promotion.
 
-Render Ilyra in Diyse B00 / HD-2D anime character language:
-- mature seinen/anime proportions;
-- deliberate variable line weight;
-- graphic cel-informed values;
-- clean pale-cloth / leather / silver-metal separation;
-- bold green eyes;
-- no painterly or soft-brushed finish;
-- no glossy mobile-gacha material treatment;
-- no random dots, speckle, broken seams, or AI artifact texture.
+## Derivatives
 
-## Prohibited regressions
+Portraits, sprites, model sheets, cut-ins, promotional art, and later HD-2D/3D translations may adapt presentation for purpose, but must return to this exact source for identity. A derivative never replaces this source without new explicit approval.
 
-Do not:
-- replace the current face with an older Ilyra face;
-- make the waist unnaturally narrow;
-- over-armour her;
-- multiply the cape into duplicated hanging panels;
-- overfill the outfit with filigree;
-- dull the jade/green eye identity;
-- give her a sword as her defining weapon;
-- patch an older image when a clean redraw is requested.
-
-This file and the linked repository image control Ilyra's current B00 master and later model/runtime translation until explicitly revised.
+Nonvisual story, biography, class, combat, and equipment mechanics remain owned by their normal numbered domains.

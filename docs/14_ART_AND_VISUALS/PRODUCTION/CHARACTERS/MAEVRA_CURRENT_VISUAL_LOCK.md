@@ -1,51 +1,32 @@
 # Maevra — Current Visual Lock
 
-**Status:** **LOCKED — CURRENT REPOSITORY MASTER**  
-**Authority scope:** current face, skin tone, hair, armor/clothing construction, cape, spear identity, palette, silhouette, and material treatment for character art/model production.
+**Status:** **LOCKED — EXACT SOURCE APPROVED 2026-09-22**
 
-## Canonical repository image master
+## Exact approved source
 
-- repository path: [`asset_sources/characters/current/maevra.jpg`](../../../../asset_sources/characters/current/maevra.jpg)
-- Git blob SHA: `19e868245c0eddad8334ecbe1011d4d02406bfa1`
-- SHA-256: `9e2b3affd3c208f7dd9e9568ed46da8faf194a98c0a6936e8d6b412f0d452c94`
+- intended repository path: `asset_sources/characters/current/maevra.jpg`
+- native format: **JPEG/JFIF**
+- dimensions: **1075 × 1536**
+- size: **170705 bytes**
+- SHA-256: `b1ada1a13e1301803849b8994ac9017cbaffb7570fd4c78d11732e6ed4247577`
+- set authority: [`EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md`](EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md)
 
-The repository file above is Maevra's current exact visual authority. If prose and the image disagree on incidental minutiae, the repository image controls until the user explicitly revises it.
+## Pixel authority
 
-## Identity / appearance anchors
+The approved source image is the complete appearance authority. It controls face, facial proportions, hair, eyes as depicted, body proportions, clothing, armor, jewelry, equipment/props, palette, materials, silhouette, stance, scale/framing, and incidental details.
 
-Preserve the identity shown by the canonical master, including:
-- dark brown skin;
-- long braided black hair with gold accents;
-- stern, mature facial read;
-- dark green and ivory garment language;
-- polished silver armor with restrained gold filigree;
-- red gem accents;
-- burgundy-lined cape;
-- ornate spear as her defining weapon silhouette.
+If older prose, generated-image references, repository fallback images, archived renders, or prior lock text disagree with the source, **the source wins**. Do not use prose to "correct" the image and do not combine retired details with the current source.
 
-The exact repository master controls face proportions, braid arrangement, armor placement, garment construction, jewelry, spear details, and all incidental color/material minutiae.
+## Repository binary state
 
-## Rendering direction
+**Exact-byte sync: PENDING.**
 
-Translate Maevra through Diyse's established B00 / HD-2D anime character language:
-- mature seinen/anime proportions;
-- deliberate variable line weight;
-- graphic cel-informed values;
-- clean anatomy and equipment construction;
-- strong separation between skin, cloth, leather, silver metal, gold detail, gems, and weapon materials;
-- no painterly/soft-brushed treatment;
-- no glossy mobile-gacha finish;
-- no random artifact dots, speckle, broken seams, or fused materials.
+A repository file at `asset_sources/characters/current/maevra.jpg` becomes the exact binary master only when its SHA-256 is exactly `b1ada1a13e1301803849b8994ac9017cbaffb7570fd4c78d11732e6ed4247577`. Until then, any older binary at that path is fallback/provenance only and may not be used as identity authority.
 
-## Prohibited regressions
+Do not re-encode, resize, crop, recolor, retouch, sharpen, denoise, or resave the source during promotion.
 
-Do not:
-- alter Maevra into Vaelira or borrow Vaelira's Green Arcanist identity;
-- replace the spear with a bow or staff;
-- lighten her skin tone;
-- remove the long braided hairstyle;
-- replace the silver armor language with dominant gold plate;
-- remove the burgundy cape lining or red-gem accent language where present in the master;
-- patch an older image when a clean redraw is requested.
+## Derivatives
 
-This file controls Maevra's current visual master and later model/runtime translation until explicitly revised.
+Portraits, sprites, model sheets, cut-ins, promotional art, and later HD-2D/3D translations may adapt presentation for purpose, but must return to this exact source for identity. A derivative never replaces this source without new explicit approval.
+
+Nonvisual story, biography, class, combat, and equipment mechanics remain owned by their normal numbered domains.

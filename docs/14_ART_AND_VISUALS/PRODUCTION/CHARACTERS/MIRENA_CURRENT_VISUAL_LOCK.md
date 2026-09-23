@@ -1,14 +1,14 @@
-# Cyanis — Current Visual Lock
+# Crown Princess Mirena Ceryth — Current Visual Lock
 
 **Status:** **LOCKED — EXACT SOURCE APPROVED 2026-09-22**
 
 ## Exact approved source
 
-- intended repository path: `asset_sources/characters/current/cyanis.jpg`
+- intended repository path: `asset_sources/characters/current/mirena.jpg`
 - native format: **JPEG/JFIF**
-- dimensions: **1280 × 1536**
-- size: **206567 bytes**
-- SHA-256: `9c86bb384051997786fad71fa9fd8427b7386bda77e98b4a52816b0ee76878ea`
+- dimensions: **1229 × 1536**
+- size: **175309 bytes**
+- SHA-256: `a61c0dbf87eef484fc955c3b11d00f2120fcd9169f37c02b319ed470d9be5c77`
 - set authority: [`EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md`](EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md)
 
 ## Pixel authority
@@ -21,7 +21,7 @@ If older prose, generated-image references, repository fallback images, archived
 
 **Exact-byte sync: PENDING.**
 
-A repository file at `asset_sources/characters/current/cyanis.jpg` becomes the exact binary master only when its SHA-256 is exactly `9c86bb384051997786fad71fa9fd8427b7386bda77e98b4a52816b0ee76878ea`. Until then, any older binary at that path is fallback/provenance only and may not be used as identity authority.
+A repository file at `asset_sources/characters/current/mirena.jpg` becomes the exact binary master only when its SHA-256 is exactly `a61c0dbf87eef484fc955c3b11d00f2120fcd9169f37c02b319ed470d9be5c77`. Until then, any older binary at that path is fallback/provenance only and may not be used as identity authority.
 
 Do not re-encode, resize, crop, recolor, retouch, sharpen, denoise, or resave the source during promotion.
 
