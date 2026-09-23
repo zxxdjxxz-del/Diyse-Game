@@ -1,0 +1,40 @@
+name: Exact Character Visual Binary Sync
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.binary_sync/**'
+      - 'tools/art/sync_exact_character_visuals.py'
+      - '.github/workflows/exact-character-binary-sync.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reconstruct and verify exact approved images
+        run: python3 tools/art/sync_exact_character_visuals.py
+
+      - name: Commit verified binary masters
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "DIYSE Visual Sync"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No binary sync changes to commit."
+          else
+            git commit -m "Sync exact approved character visual binaries"
+            git push origin HEAD:main
+          fi
