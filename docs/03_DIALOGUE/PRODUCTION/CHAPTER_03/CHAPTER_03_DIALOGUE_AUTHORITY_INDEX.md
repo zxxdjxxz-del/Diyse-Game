@@ -76,17 +76,17 @@ If any brain changes, reread it before finalizing/revising affected dialogue.
 - **Crest Knight only in Chapter 3**.
 - Crest Magus is a later subclass unlock and is not available as Chapter-3 expertise, ability access, or active identity.
 - practical/social leader, not automatic plot-summary voice;
-- moderate natural profanity; long-form editorial calibration roughly **3–8%**;
+- moderate natural profanity; long-form editorial calibration roughly **10–19%**;
 - humor, argument, opinion, and multi-sentence turns are available.
 
 ### Ilyra
-- whole adult personality: dry, curious, skeptical, profane, capable of pettiness and humor; long-form editorial calibration roughly **4–10%**;
+- whole adult personality: dry, curious, skeptical, profane, capable of pettiness and humor; long-form editorial calibration roughly **7–16%**;
 - not party therapist/mother/safety monitor;
 - Grace is not a dialogue assignment.
 
 ### Torren
 - Chapter-3 comfort with Cyanis/Ilyra does not reset to early terseness;
-- can joke, swear, argue, tell stories, and hold the floor; long-form editorial calibration roughly **5–12%**;
+- can joke, swear, argue, tell stories, and hold the floor; long-form editorial calibration roughly **9–20%**;
 - Torren/Nimera are **first contact / early competence respect only** in Chapter 3;
 - no paternal shorthand, dad jokes, or possessive father behavior.
 
@@ -182,7 +182,7 @@ That pass must:
 - preserve natural floor-holding;
 - reduce mandatory-dialogue redundancy;
 - raise Nimera naturally into the revised **20–35%** long-form band;
-- raise Cyanis, Ilyra, Torren, Maevra, and Mirena modestly toward their current character-specific bands without making their vocabularies/frequencies identical. The two protected First Command Warden messages are compiled as Warden-spoken runtime dialogue in B14.
+- raise Cyanis, Ilyra, Torren, Maevra, and Mirena toward their current character-specific bands without making their vocabularies/frequencies identical. The two protected First Command Warden messages are compiled as Warden-spoken runtime dialogue in B14.
 
 The existing game/content/dialogue/current/chapter_03 runtime resources and global manifest remain **stale until regenerated from this source-closed set**.
 
