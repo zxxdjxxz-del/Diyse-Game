@@ -3,8 +3,13 @@
   "scene_id": "CH03_BEAT05_OLD_CITY_ACCESS_ARCHIVE_DESCENT",
   "chapter_id": "chapter_03",
   "story_position": "Chapter 3 — Beat 5 — Old City Access / Archive Descent",
-  "production_ready": false,
-  "participants": ["cyanis", "ilyra", "torren", "old_city_archive_keeper"],
+  "production_ready": true,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "old_city_archive_keeper"
+  ],
   "participant_profile_sources": {
     "old_city_archive_keeper": "docs/01_CHARACTERS/SUPPORTING/Chapter_03_Old_City_Role_Profiles.md"
   },
@@ -12,7 +17,9 @@
   "story_sources": [
     {
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
-      "sections": ["Beat 5 — Old City Access / Archive Descent"],
+      "sections": [
+        "Beat 5 — Old City Access / Archive Descent"
+      ],
       "role": "current_consolidated_chapter_3_beat_5_authority"
     },
     {
@@ -50,7 +57,7 @@
     "card_state": "recovered_card_remains_physically_carried_by_cyanis",
     "royal_seal_investigation_state": "physical_seal_secured_in_palace; no_simple_theft_window_found; mechanism_unresolved",
     "old_city_access_state": "lawful_restricted_archive_access_authorized_by_crown_princess_mirena",
-    "objective": "find_nimera_pellan_in_deeper_old_city_archive_work_area",
+    "objective": "find Nimera Pellan in the Redacted Stacks; she will join in Beat 6",
     "dialogue_presentation": "portraits_plus_dialogue_box_for_entry_exchange; cyanis_only_during_ordinary_dungeon_traversal"
   },
   "required_story_beats": [
@@ -63,7 +70,7 @@
     "The Crown is shown to competently maintain mapped safe archive areas while deeper sections remain sealed, unstable, or inconsistently responsive.",
     "The trio is actively searching for Nimera Pellan by name rather than accidentally discovering an unknown scholar.",
     "Archive staff identify the deeper work area where Nimera is currently operating.",
-    "The beat ends when the trio reaches the deeper section containing Nimera, before Beat 6 performs her full introduction."
+    "The beat ends when the trio reaches the deeper section containing Nimera, before Beat 6 performs her introduction and permanent recruitment."
   ],
   "forbidden_reveals": [
     "calder_hidden_transport_role",
@@ -72,9 +79,9 @@
     "prime_identity",
     "might_identification",
     "last_sentinel",
-    "nimera_future_party_membership_before_beat_8",
     "cresthaven_identity_of_northern_site",
-    "complete_ancient_caelora_history"
+    "complete_ancient_caelora_history",
+    "nimera_join_event_before_beat_6"
   ],
   "forbidden_presentation": [
     "digital_archive_language",
@@ -85,7 +92,8 @@
     "long_walking_banter_without_active_guidance",
     "invented_combat_or_major_revelation",
     "nimera_full_introduction_inside_beat_5",
-    "environmental_micro_detail_accumulation"
+    "environmental_micro_detail_accumulation",
+    "ancient_barrier_setup"
   ],
   "production_cost_ceiling": "economical_archive_entry_scene_plus_exploration_handoff"
 }
