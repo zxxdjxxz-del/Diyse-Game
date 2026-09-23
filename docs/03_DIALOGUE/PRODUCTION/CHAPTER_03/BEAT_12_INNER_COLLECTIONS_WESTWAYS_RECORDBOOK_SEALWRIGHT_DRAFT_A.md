@@ -28,7 +28,7 @@ She turns several pages.
 
 Then stops.
 
-**NIMERA:** Oh, fuck me.
+**NIMERA:** Oh, you motherfucker.
 
 Cyanis steps closer.
 
@@ -76,7 +76,7 @@ Torren studies the density.
 
 **ILYRA:** Fuck. Much bigger.
 
-**NIMERA:** Denser too, and whoever copied it simplified the hell out of the smaller marks. Useful and infuriating—like preserving the face and deciding bones were optional.
+**NIMERA:** Denser too, and whoever copied it half-assed the smaller marks. Useful and infuriating—like preserving the face and deciding bones were optional.
 
 ### [THE NORTHERN TOWER]
 
@@ -140,7 +140,7 @@ Nimera studies the attempts.
 
 **CYANIS:** So we found the workshop, and the orders still don't make any damn sense.
 
-**NIMERA:** Exactly. Somebody practiced like hell. Whether they ever got one to work? That's the irritating part.
+**NIMERA:** Exactly. Somebody practiced their ass off. Whether they ever got one to work? That's the irritating part.
 
 ### [EXIT]
 
