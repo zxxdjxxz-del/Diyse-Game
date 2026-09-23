@@ -32,7 +32,6 @@ These three Old Waterworks creatures may continue into compatible flooded / brok
 - Black Host Crossbowman — approved Chapters 0–1 carryover; Chapter-2-scaled body
 - Black Host War-Sorcerer — approved Black Host caster identity; Chapter-2-scaled variant
 - Black Host Raider — approved carryover
-- Beast Handler — approved carryover; use only where current placement explicitly supports it
 - Rift Hound — approved carryover
 
 ## Support objects / support identities
@@ -134,3 +133,10 @@ Owning validation:
 - The Old Bastion uses the established **Black Host War-Sorcerer** identity instead.
 - Chapter 2 receives a lower-level War-Sorcerer variant appropriate to this point in progression.
 - Burn introduction on the mandatory route may come from the War-Sorcerer's Fire magic rather than retired Transfer terminology.
+
+
+## Old Bastion beast-unit correction — 2026-09-23
+- **Rift Hound remains active in Chapter 2.**
+- **Beast Handler is removed from the Chapter-2 Old Bastion roster.**
+- Chapter 2 does not establish a dedicated handler corps, kennel section, or beast-training identity for the Bastion.
+- Beast Handler remains available for later explicitly authored specialized encounters.
