@@ -6,6 +6,7 @@
 **Current whole-project written authority:** v2.20 / Audit135, plus later explicit story / encounter corrections.  
 **Current Chapter-3 story authority:** `../../02_STORY/CHAPTERS/CHAPTER_03.md` as revised September 23, 2026.  
 **Migration rule:** the revised 15-beat Chapter-3 story structure supersedes the retired Ancient Barrier / Beat-8 onboarding / Caelora-Warden / old command-route placement assumptions.
+**Structural enemy/encounter status:** **CLOSED — numeric validation deferred.**
 
 ## Combat-party chronology
 
@@ -71,7 +72,7 @@ Regional Hunt #3 may unlock during cleanup under its own authority.
 ### Old City Archives — strong normal-pool Elite
 - Grand Inquisitor Frame — late Deep Archives enforcement frame; max 1 per formation; no Chapter-3 Stun rider
 
-These remain compatible with the Archives, but exact sub-area formation eligibility and final weights require a fresh placement pass against the revised Beat-7 through Beat-10 dungeon structure.
+Exact sub-area formation eligibility is now locked in `../ENCOUNTER_FORMATIONS/CHAPTER_03_FORMATIONS.md`. Final numeric selection weights and encounter frequencies remain deferred.
 
 ### Cresthaven tower-base ordinary identities — current
 - Command Guard Frame — surviving command-site security construct; current preferred Chapter-3 Stun introduction
@@ -196,12 +197,12 @@ Existing raw bodies and action Powers remain retained where their identities rem
 The prior direct-damage Power audit remains closed for already-audited identities.
 
 Structural changes requiring fresh encounter validation include:
-- Nimera joining two beats earlier;
-- full four-person party for Beats 7–12;
-- Archive Scribe Engine promoted from ordinary/onboarding context to mandatory Beat-11 boss;
-- First Command Warden moved from Caelora to Cresthaven;
-- retired command-route placement;
-- short Cresthaven dungeon ordinary roster still open.
+- Nimera joining in Beat 6;
+- full four-person party for Beats 7–15;
+- Archive Scribe Engine promoted to mandatory Beat-11 boss;
+- First Command Warden moved to Cresthaven;
+- current Old City and Cresthaven formation body-count progression;
+- Chapter-1 / Chapter-2 carryover constructs retuned for the Chapter-3 four-person state.
 
 ## Mandatory-vs-completionist validation status
 
@@ -225,11 +226,14 @@ Owning validation:
 
 ## Current open encounter-design work
 
+Structural design is closed.
+
 Still intentionally open:
 - final Chapter-3 formation selection weights / encounter frequencies;
+- Chapter-3 carryover raw-stat tuning;
 - exact Archive Scribe Engine raw boss body / fight-length budget;
 - First Command Warden raw body / Ring durability / fight-length revalidation at Beat 14;
-- final encounter frequencies / weights;
+- Archive Judgment Engine final cleanup-state tuning;
 - mandatory/completionist level anchors and certification.
 
 Do not fill these gaps by silently restoring the retired encounter structure.
@@ -328,3 +332,22 @@ The immediate Beat-11 boss approach is safe.
 - remains the Hunt-scale escalation of Judgment Frame rather than a second Warden;
 - Lock Verdict retains Stun;
 - inherited Lv15 / HP4,928 tuning is provisional pending current cleanup validation.
+
+
+## Chapter-3 enemy / encounter structural closure — 2026-09-23
+The Chapter-3 enemy and encounter-design pass is **STRUCTURALLY CLOSED**.
+
+Closed:
+- active roster;
+- retired roster;
+- Old City / Cresthaven assignments;
+- strong normal-pool identities;
+- mandatory boss roles and architectures;
+- Regional Hunt #3 architecture;
+- ordinary formation compositions;
+- sub-area eligibility;
+- body-count caps;
+- safe pre-boss buffers;
+- Chapter-3 Stun-source assignment.
+
+Numeric validation remains open and downstream.
