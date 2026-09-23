@@ -102,9 +102,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B01",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_01_BRACKENWALL_PROTOCOL_DRAFT_A.md",
-          "source_sha256": "a14f34da499243d7cc47c53eb3ba19a2c1231d926ddcd56ba4f7559fc70d14db",
+          "source_sha256": "9adf084cb2027fdff79a39e50442a1ed5328239f66085f6ef84becfb167e827c",
           "spoken_lines": 67,
-          "spoken_sha256": "b975e02f9da5147cb531d0f9bde63a53474be4f7e77495c8dde6fe2bc7e9c50a",
+          "spoken_sha256": "fc31f9f6e91703d8bfb09b04f71cd47dfae95206c48eba4943d0ad3eb16e8ab4",
           "title": "Brackenwall / Protocol"
         },
         {
@@ -113,9 +113,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B02",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_02_BRIAR_PASSAGE_FIRST_TRAVERSAL_DRAFT_A.md",
-          "source_sha256": "a1965271aaa64ad2a3bf4d2c5b01eaab4285ca59d7f589681048baa31ac58f87",
+          "source_sha256": "1c0f56ff7beb9c207084b1ceb0b500d6c0f807f2e299ea9f4533f5473ea7fffe",
           "spoken_lines": 14,
-          "spoken_sha256": "2d00b47d8993e7cc9893611e147cac12e6a02818c51901e22f15e30479286f84",
+          "spoken_sha256": "62f87fdb7c9ca98ec8f3f9a9d6cc9f7367897d987eda5c9c8912981b48457276",
           "title": "Briar Passage / First Traversal"
         },
         {
@@ -124,9 +124,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B03",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md",
-          "source_sha256": "6df746655226364c1aa6f1af26d531df4d597502827695b4ec6efe85f28b0d20",
+          "source_sha256": "82d236d8f130c93833a76d0d708addb9c8d9daecd5f85b34bae45af78366913a",
           "spoken_lines": 41,
-          "spoken_sha256": "7188790164d49950be72a3413aba19d4e3aa6d9a98b63023c051ac15968c22c5",
+          "spoken_sha256": "fab8491279743b75dc6c38d56e370057c9fabe839abc9488e3ca448d2c16125c",
           "title": "Greenhollow / Torren"
         },
         {
@@ -190,9 +190,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B09",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md",
-          "source_sha256": "cd2df5032df081ab99bf49d01a3e25688b949f36da41aff6f38465d7554c0723",
+          "source_sha256": "85605862d0982325f2268cc451de903da9082a2ae92ca1d2f4137108f308ac03",
           "spoken_lines": 17,
-          "spoken_sha256": "785c7e3a78faf3951a673a03449cdf92f6bd337d3463b1b1da5edf2576f8467e",
+          "spoken_sha256": "c33f94333c6706add34c9fa4a7bc51810e5f4696f6bbf377fa69ae9284e0d3cb",
           "title": "Hollow Watch Castellan"
         },
         {
@@ -212,9 +212,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B11",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md",
-          "source_sha256": "5e50ae31c9970e9480e5e21285504387ac941902b7ebe30018d033bfe45443b5",
+          "source_sha256": "c705f7ac1502de3669f37a55bc38d9eb1eb60884b6f491909b73fa6c77861e02",
           "spoken_lines": 22,
-          "spoken_sha256": "678f726339799abb49cb57c8b8064d885063d205302af06b0e2049ef7877d01e",
+          "spoken_sha256": "f9616d4cad5578639dc67ad2f1a480b7acb79a6b5c6023785e9209466317afcc",
           "title": "Greenhollow Resolution / Torren Recruitment"
         },
         {
@@ -223,9 +223,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B12",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md",
-          "source_sha256": "3b08634968a90a54424436e5f05179fe1a042937ce9c62cc89e21ad6e44e142a",
+          "source_sha256": "987963bb11bc68ec17d45f3b11a9ef445372dba47dd17e50fcb14295c5aac891",
           "spoken_lines": 23,
-          "spoken_sha256": "9c9681237aff785f1ba532749d39a0ec8bb742f940008f7c8d1509412916d8d8",
+          "spoken_sha256": "856ee29adf41ac6104d90f36c4bfa61d376aa7b9a7892b8da5df152d4d8519a9",
           "title": "Southern Briar Passage"
         },
         {
@@ -234,9 +234,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B13",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md",
-          "source_sha256": "42119ea86c0be949237b16be9f1a17ab954b6ade90ceb4ab530ed236b548694c",
+          "source_sha256": "f317003e18349a446beb1cdac1bbc467bef405e182e64058f4c98cb479dee982",
           "spoken_lines": 20,
-          "spoken_sha256": "3969e7a609eaaa64ba9eedb0f6614d835d30642d3288ce46fcc341dec9a367fb",
+          "spoken_sha256": "31251192e355055c4af39485474d47b082bd68615eb7f9c37830664622f48736",
           "title": "Briarhide Stalker"
         },
         {
@@ -245,9 +245,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B14",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md",
-          "source_sha256": "4238ed34824b4580d6fc72cc43b94ac4adfcc9f30078058527ccd2a415278786",
+          "source_sha256": "6f4be76e0aaf51217d69dbb2b8914ebedb18bab9a09d54e087d8a41d50ec46a8",
           "spoken_lines": 50,
-          "spoken_sha256": "eba1f911d358a8074bca1e0793b28312dcce96596ce7469e41469c567687c444",
+          "spoken_sha256": "faa96166aed20affbc26fa8d0f85b3144d46bbf2e5ee0605260469d0a95bc234",
           "title": "The Junction / Hidden Monument"
         },
         {
@@ -256,9 +256,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B15",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md",
-          "source_sha256": "20a6c6270e0e50aa284618dcc261e550e7cf0ba88a688d5a929c66164d71ecf6",
+          "source_sha256": "206613b8a977fe5e9b6b9c6aed9fd610c13470c70de6d63c83aba8ee78db6210",
           "spoken_lines": 6,
-          "spoken_sha256": "00d8757dd135be3b5096ab3e76abed9b443809ab477b4ed55d01942ff06857d7",
+          "spoken_sha256": "cd1dc7327169ab2db53ed18af705b8521e50fa3bbc592fea4b8704486e1ef599",
           "title": "Junction Camp / Chapter 1 Cleanup Window"
         },
         {
@@ -267,9 +267,9 @@
           "scene_kind": "character_life",
           "slot_id": "C02",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md",
-          "source_sha256": "47ef4c3969f04b5e5fe75a364dd2b8821d4756ba467ff45bb4e1b58e3822319e",
-          "spoken_lines": 67,
-          "spoken_sha256": "3515532b213d2c38dfdddcdbe30cd86f7bcb7334634f369b7a2889d26283015f",
+          "source_sha256": "d2986db0eaa2ee1a3d073ae19ce4c384148765051e1baa0327598c6458532d13",
+          "spoken_lines": 53,
+          "spoken_sha256": "12ff75ed2c5ecb1a2aa14f6eba672fe6e7618d7fc9e8b22fecc0d6c785b2b210",
           "title": "Torren's Version of Dinner"
         },
         {
@@ -278,9 +278,9 @@
           "scene_kind": "character_life",
           "slot_id": "C03",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md",
-          "source_sha256": "c0cd1f5c9f28dfd17844a55da6461b25132b5ea19ea2aaf312b024017ac5a5ac",
-          "spoken_lines": 56,
-          "spoken_sha256": "2d640072b050ad38143fce6d1ad7fb14680c6cbd0426c02f1bb542f2f5593f7c",
+          "source_sha256": "3807b7182968878953f556bab106331642ce41289c284c0486c75fa92ef9b742",
+          "spoken_lines": 48,
+          "spoken_sha256": "9abd5c5d043ee322b71d9110cd6d2c05ed4c580f8d66949470ae206070e62d5b",
           "title": "What the Map Says"
         },
         {
@@ -289,9 +289,9 @@
           "scene_kind": "character_life",
           "slot_id": "C04",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md",
-          "source_sha256": "952f6ddd283ff32e405263b615f5ee0e0ad263427b8dd009a9e4fd9158079967",
-          "spoken_lines": 64,
-          "spoken_sha256": "b3f45847ee61435a855a19982fee586af603c6b9ba7922184617fd611b7593b9",
+          "source_sha256": "29724fe0f2b066490993faf9af03e7cc629731b085a7cc414570fe7dc429fdbd",
+          "spoken_lines": 58,
+          "spoken_sha256": "5c6220f5d29c9021a99757188980085c0aa05aaf66137ed7df37e3ea5ccc59a3",
           "title": "Not Professionally"
         }
       ]
@@ -670,9 +670,9 @@
       ]
     }
   },
-  "expected_total_spoken": 2131,
-  "global_spoken_sha256": "75779c663f290031d5afdf5568a2223298edef856ff671f468a44452ae9db877",
+  "expected_total_spoken": 2103,
+  "global_spoken_sha256": "9316ae54e6878140bb43f32c8ccec41fd43d290cdb7f39a6015ef72673950c2c",
   "schema": "diyse_current_runtime_dialogue_manifest_v1",
   "source_authority": "docs/03_DIALOGUE/PRODUCTION",
-  "total_spoken": 2131
+  "total_spoken": 2103
 }

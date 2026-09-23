@@ -8,31 +8,31 @@
 
 | Order | Canonical slot | Atomic source | SHA-256 |
 |---:|---|---|---|
-| 1 | Beat 1 | `BEAT_01_BRACKENWALL_PROTOCOL_DRAFT_A.md` | `a14f34da499243d7cc47c53eb3ba19a2c1231d926ddcd56ba4f7559fc70d14db` |
-| 2 | Beat 2 | `BEAT_02_BRIAR_PASSAGE_FIRST_TRAVERSAL_DRAFT_A.md` | `a1965271aaa64ad2a3bf4d2c5b01eaab4285ca59d7f589681048baa31ac58f87` |
-| 3 | Beat 3 | `BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md` | `6df746655226364c1aa6f1af26d531df4d597502827695b4ec6efe85f28b0d20` |
+| 1 | Beat 1 | `BEAT_01_BRACKENWALL_PROTOCOL_DRAFT_A.md` | `9adf084cb2027fdff79a39e50442a1ed5328239f66085f6ef84becfb167e827c` |
+| 2 | Beat 2 | `BEAT_02_BRIAR_PASSAGE_FIRST_TRAVERSAL_DRAFT_A.md` | `1c0f56ff7beb9c207084b1ceb0b500d6c0f807f2e299ea9f4533f5473ea7fffe` |
+| 3 | Beat 3 | `BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md` | `82d236d8f130c93833a76d0d708addb9c8d9daecd5f85b34bae45af78366913a` |
 | 4 | Beat 4 | `BEAT_04_HOLLOW_WATCH_APPROACH_DRAFT_A.md` | `4e394644f33730a631c211e75d7473afe330e60a1a227e2e2a7ce5062d2f8145` |
 | 5 | Beat 5 | `BEAT_05_OCCUPIED_HOLLOW_WATCH_FORT_DRAFT_A.md` | `5ecfaf0148531e91a17ae11dcf398aeea21caf746e2d3b1e2348c71a61ccfa87` |
 | 6 | Beat 6 | `BEAT_06_BLACK_HOST_EXCAVATION_LOWER_ACCESS_DRAFT_A.md` | `6152a8d706caaa2ea9c2f9093aa515e721fa4490d3949b6fc5e6d2e357dd033a` |
 | 7 | Beat 7 | `BEAT_07_LOWER_JUNCTION_SIX_CHANNELS_DRAFT_A.md` | `6fa43af677bd674f8bf6e36822c47f7630441b357250a9a58a50650d01e83c3e` |
 | 8 | Beat 8 | `BEAT_08_FORCED_INNER_SECTION_DRAFT_A.md` | `f645dff0a1aef8bd840502541e08eb2aa39744dec47d6275a77248424392668c` |
-| 9 | Beat 9 | `BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md` | `cd2df5032df081ab99bf49d01a3e25688b949f36da41aff6f38465d7554c0723` |
+| 9 | Beat 9 | `BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md` | `85605862d0982325f2268cc451de903da9082a2ae92ca1d2f4137108f308ac03` |
 | 10 | Beat 10 | `BEAT_10_POST_CASTELLAN_MURAL_DRAFT_A.md` | `17ebace1545d216a1f36b46c5b2083fdd1a0cc7df59513e0d8617e1ff55e36c8` |
-| 11 | Beat 11 | `BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md` | `5e50ae31c9970e9480e5e21285504387ac941902b7ebe30018d033bfe45443b5` |
-| 12 | Beat 12 | `BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md` | `3b08634968a90a54424436e5f05179fe1a042937ce9c62cc89e21ad6e44e142a` |
-| 13 | Beat 13 | `BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md` | `42119ea86c0be949237b16be9f1a17ab954b6ade90ceb4ab530ed236b548694c` |
-| 14 | Beat 14 | `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md` | `4238ed34824b4580d6fc72cc43b94ac4adfcc9f30078058527ccd2a415278786` |
-| 15 | Beat 15 | `BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md` | `20a6c6270e0e50aa284618dcc261e550e7cf0ba88a688d5a929c66164d71ecf6` |
-| 16 | C02 — Torren's Version of Dinner | `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md` | `47ef4c3969f04b5e5fe75a364dd2b8821d4756ba467ff45bb4e1b58e3822319e` |
-| 17 | C03 — What the Map Says | `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md` | `c0cd1f5c9f28dfd17844a55da6461b25132b5ea19ea2aaf312b024017ac5a5ac` |
-| 18 | C04 — Not Professionally | `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md` | `952f6ddd283ff32e405263b615f5ee0e0ad263427b8dd009a9e4fd9158079967` |
+| 11 | Beat 11 | `BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md` | `c705f7ac1502de3669f37a55bc38d9eb1eb60884b6f491909b73fa6c77861e02` |
+| 12 | Beat 12 | `BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md` | `987963bb11bc68ec17d45f3b11a9ef445372dba47dd17e50fcb14295c5aac891` |
+| 13 | Beat 13 | `BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md` | `f317003e18349a446beb1cdac1bbc467bef405e182e64058f4c98cb479dee982` |
+| 14 | Beat 14 | `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md` | `6f4be76e0aaf51217d69dbb2b8914ebedb18bab9a09d54e087d8a41d50ec46a8` |
+| 15 | Beat 15 | `BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md` | `206613b8a977fe5e9b6b9c6aed9fd610c13470c70de6d63c83aba8ee78db6210` |
+| 16 | C02 — Torren's Version of Dinner | `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md` | `d2986db0eaa2ee1a3d073ae19ce4c384148765051e1baa0327598c6458532d13` |
+| 17 | C03 — What the Map Says | `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md` | `3807b7182968878953f556bab106331642ce41289c284c0486c75fa92ef9b742` |
+| 18 | C04 — Not Professionally | `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md` | `29724fe0f2b066490993faf9af03e7cc629731b085a7cc414570fe7dc429fdbd` |
 
 ---
 
 ## Beat 1
 
 **Atomic source:** `BEAT_01_BRACKENWALL_PROTOCOL_DRAFT_A.md`  
-**Source SHA-256:** `a14f34da499243d7cc47c53eb3ba19a2c1231d926ddcd56ba4f7559fc70d14db`
+**Source SHA-256:** `9adf084cb2027fdff79a39e50442a1ed5328239f66085f6ef84becfb167e827c`
 
 # Chapter 1 — Beat 1
 # Brackenwall / Protocol
@@ -54,7 +54,7 @@ The recovered Card is brought into formal Brackenwall intake.
 
 **CUSTODY OFFICER:** Wasn't hoping it was. Tell me what it actually did.
 
-**ILYRA:** Twice, green-and-gold geometry spread from it and held damaged structure together around us. Both times Cyanis reacted with it—pulse up, tremor, dizziness afterward. We don't know why.
+**ILYRA:** Twice, green-and-gold geometry spread from it and held damaged structure together around us. Same reaction from Cyanis both times—pulse up, tremor, dizziness afterward. Still no damn idea why.
 
 **CYANIS:** Her favorite answer.
 
@@ -110,7 +110,7 @@ The officer gives the Card back to Cyanis.
 
 **CUSTODY OFFICER:** That's the end of that experiment.
 
-**CYANIS:** Best decision I've heard today.
+**CYANIS:** Best damn decision I've heard today.
 
 **CUSTODY OFFICER:** It wasn't an experiment when I started it.
 
@@ -172,7 +172,7 @@ The humor leaves Maevra.
 
 **MAEVRA:** I believe you. I also know your definition of normal.
 
-**CYANIS:** That's hurtful.
+**CYANIS:** Damn. That's hurtful.
 
 **MAEVRA:** Recover later.
 
@@ -231,7 +231,7 @@ Player control returns in Brackenwall.
 ## Beat 2
 
 **Atomic source:** `BEAT_02_BRIAR_PASSAGE_FIRST_TRAVERSAL_DRAFT_A.md`  
-**Source SHA-256:** `a1965271aaa64ad2a3bf4d2c5b01eaab4285ca59d7f589681048baa31ac58f87`
+**Source SHA-256:** `1c0f56ff7beb9c207084b1ceb0b500d6c0f807f2e299ea9f4533f5473ea7fffe`
 
 # Chapter 1 — Beat 2
 # Briar Passage / First Traversal
@@ -257,7 +257,7 @@ Roughly halfway to Greenhollow, the group stops briefly at a natural break in th
 
 **MAEVRA:** Not much. Greenhollow's straightforward from here.
 
-**ILYRA:** You say that like the first half wasn't.
+**ILYRA:** You say that like the first half wasn't a pain in the ass.
 
 **MAEVRA:** It wasn't difficult. It was Briar.
 
@@ -319,7 +319,7 @@ Next mandatory scene:
 ## Beat 3
 
 **Atomic source:** `BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md`  
-**Source SHA-256:** `6df746655226364c1aa6f1af26d531df4d597502827695b4ec6efe85f28b0d20`
+**Source SHA-256:** `82d236d8f130c93833a76d0d708addb9c8d9daecd5f85b34bae45af78366913a`
 
 # Chapter 1 — Beat 3
 # Greenhollow / Torren
@@ -391,7 +391,7 @@ A beat.
 
 **CYANIS:** Digging?
 
-**TORREN:** Looks like it. I haven't seen enough to call that fact.
+**TORREN:** Looks like it. Couldn't get close enough to see what the hell they were doing.
 
 **ILYRA:** Anyone come out?
 
@@ -903,7 +903,7 @@ Known:
 ## Beat 9
 
 **Atomic source:** `BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md`  
-**Source SHA-256:** `cd2df5032df081ab99bf49d01a3e25688b949f36da41aff6f38465d7554c0723`
+**Source SHA-256:** `85605862d0982325f2268cc451de903da9082a2ae92ca1d2f4137108f308ac03`
 
 # Chapter 1 — Beat 9
 # Hollow Watch Castellan
@@ -991,7 +991,7 @@ Ilyra looks at Cyanis.
 
 Cyanis takes a moment before answering.
 
-**CYANIS:** Fine. Nothing like Brackenwall.
+**CYANIS:** Fine. Nothing like that shit at Brackenwall.
 
 Maevra looks at the now-dark floor geometry.
 
@@ -1005,7 +1005,7 @@ Ilyra adds only what she actually observed.
 
 Maevra nods.
 
-**MAEVRA:** Then that's all we know.
+**MAEVRA:** Then leave it there.
 
 Torren looks past the fallen Castellan.
 
@@ -1152,7 +1152,7 @@ Next mandatory scene:
 ## Beat 11
 
 **Atomic source:** `BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md`  
-**Source SHA-256:** `5e50ae31c9970e9480e5e21285504387ac941902b7ebe30018d033bfe45443b5`
+**Source SHA-256:** `c705f7ac1502de3669f37a55bc38d9eb1eb60884b6f491909b73fa6c77861e02`
 
 # Chapter 1 — Beat 11
 # Greenhollow Resolution / Torren Recruitment
@@ -1222,11 +1222,11 @@ Cyanis looks toward the south end of town.
 
 **CYANIS:** Then we resupply and move.
 
-**ILYRA:** After food.
+**ILYRA:** After food. I'm starving.
 
 Cyanis looks at her.
 
-**CYANIS:** That sounded final.
+**CYANIS:** That sounded pretty damn final.
 
 **ILYRA:** I'm hungry.
 
@@ -1236,7 +1236,7 @@ Cyanis looks at her.
 
 Torren looks at her.
 
-**TORREN:** Been giving you useful route information for years.
+**TORREN:** Been giving you useful route shit for years.
 
 **MAEVRA:** This one involves lunch.
 
@@ -1275,7 +1275,7 @@ Next mandatory beat:
 ## Beat 12
 
 **Atomic source:** `BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md`  
-**Source SHA-256:** `3b08634968a90a54424436e5f05179fe1a042937ce9c62cc89e21ad6e44e142a`
+**Source SHA-256:** `987963bb11bc68ec17d45f3b11a9ef445372dba47dd17e50fcb14295c5aac891`
 
 # Chapter 1 — Beat 12
 # Southern Briar Passage
@@ -1314,7 +1314,7 @@ Movement pauses.
 
 The Briarhide itself is not visible.
 
-**CYANIS:** That's large.
+**CYANIS:** That's a big damn animal.
 
 Torren's tone changes immediately.
 
@@ -1326,7 +1326,7 @@ He studies what the track actually gives him.
 
 **MAEVRA:** How recent?
 
-**TORREN:** Recent enough I don't care whether it's ten minutes or thirty while we're standing in the track.
+**TORREN:** Recent enough I don't give a shit whether it's ten minutes or thirty while we're standing in the track.
 
 Ilyra looks down the route ahead.
 
@@ -1436,7 +1436,7 @@ Next mandatory beat:
 ## Beat 13
 
 **Atomic source:** `BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md`  
-**Source SHA-256:** `42119ea86c0be949237b16be9f1a17ab954b6ade90ceb4ab530ed236b548694c`
+**Source SHA-256:** `f317003e18349a446beb1cdac1bbc467bef405e182e64058f4c98cb479dee982`
 
 # Chapter 1 — Beat 13
 # Briarhide Stalker
@@ -1543,11 +1543,11 @@ Torren watches it long enough to be certain.
 
 Cyanis exhales.
 
-**CYANIS:** Good.
+**CYANIS:** Good. Damn thing.
 
 Ilyra looks toward the now-open route.
 
-**ILYRA:** I liked the forest better before it started producing things that size.
+**ILYRA:** I liked the forest better before it started producing shit that size.
 
 **TORREN:** That's Briar.
 
@@ -1587,7 +1587,7 @@ Next mandatory beat:
 ## Beat 14
 
 **Atomic source:** `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md`  
-**Source SHA-256:** `4238ed34824b4580d6fc72cc43b94ac4adfcc9f30078058527ccd2a415278786`
+**Source SHA-256:** `6f4be76e0aaf51217d69dbb2b8914ebedb18bab9a09d54e087d8a41d50ec46a8`
 
 # Chapter 1 — Beat 14
 # The Junction / Hidden Monument
@@ -1735,15 +1735,15 @@ Torren looks at her.
 
 **TORREN:** I said it was useless for Dunmere.
 
-**ILYRA:** Important distinction.
+**ILYRA:** Of course that's your defense.
 
-**TORREN:** Extremely.
+**TORREN:** Damn right.
 
 A small beat.
 
 **CYANIS:** Worth going back?
 
-**TORREN:** Worth checking while we're still close. Not worth pretending we know what's there.
+**TORREN:** Worth checking while we're still close. Doesn't mean the damn mark survived.
 
 Nobody gives the side access a new name or predicts what lies beyond it.
 
@@ -1801,13 +1801,13 @@ Cyanis looks around the quiet Junction.
 
 Ilyra exhales.
 
-**ILYRA:** Good. I was prepared to become difficult.
+**ILYRA:** Good. I was prepared to be a pain in the ass.
 
 Maevra looks at her.
 
 **MAEVRA:** Prepared?
 
-**ILYRA:** More difficult.
+**ILYRA:** More of one.
 
 **MAEVRA:** There she is.
 
@@ -1815,7 +1815,7 @@ Torren looks toward the campable ground nearby.
 
 **TORREN:** I'll find us a decent spot.
 
-**CYANIS:** One without ancient defenses?
+**CYANIS:** One without any more ancient bullshit?
 
 Torren looks back at him.
 
@@ -1854,7 +1854,7 @@ Next mandatory beat:
 ## Beat 15
 
 **Atomic source:** `BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md`  
-**Source SHA-256:** `20a6c6270e0e50aa284618dcc261e550e7cf0ba88a688d5a929c66164d71ecf6`
+**Source SHA-256:** `206613b8a977fe5e9b6b9c6aed9fd610c13470c70de6d63c83aba8ee78db6210`
 
 # Chapter 1 — Beat 15
 # Junction Camp / Chapter 1 Cleanup Window
@@ -1948,7 +1948,7 @@ Torren looks toward the south road.
 
 **MAEVRA:** Then let's move now.
 
-**ILYRA:** Please. I want walls and food.
+**ILYRA:** Please. I want walls, food, and no more ancient shit.
 
 Cyanis looks at her.
 
@@ -1991,11 +1991,11 @@ Card:
 ## C02 — Torren's Version of Dinner
 
 **Atomic source:** `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md`  
-**Source SHA-256:** `47ef4c3969f04b5e5fe75a364dd2b8821d4756ba467ff45bb4e1b58e3822319e`
+**Source SHA-256:** `d2986db0eaa2ee1a3d073ae19ce4c384148765051e1baa0327598c6458532d13`
 
 # Chapter 1 — Character-Life C02
 # Torren's Version of Dinner
-## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TRUE-VOICE / ECONOMY PASS
+## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TIGHTENED TRUE-VOICE PASS
 
 ### [CAMP — OPTIONAL CHARACTER-LIFE TRIGGER]
 
@@ -2007,7 +2007,7 @@ Torren made dinner.
 
 It is bad.
 
-Not dangerous. Not a joke recipe. Just hot, filling, cheap, and aggressively indifferent to pleasure.
+Not dangerous. Just hot, filling, cheap, and aggressively indifferent to pleasure.
 
 Torren does not smoke until everyone has finished eating.
 
@@ -2018,8 +2018,6 @@ Maevra takes one bite.
 Stops.
 
 **MAEVRA:** Oh, no.
-
-Cyanis looks at her bowl, then his.
 
 **CYANIS:** That's a strong opening.
 
@@ -2033,17 +2031,13 @@ Ilyra studies the food.
 
 **MAEVRA:** No. That's the annoying part.
 
-Torren keeps eating.
-
 **TORREN:** Hot. Safe. Food.
 
-**CYANIS:** Those are very low requirements.
+**CYANIS:** That's a shitty standard.
 
-**TORREN:** Still requirements.
+**TORREN:** Still a standard.
 
 Cyanis tries it.
-
-A beat.
 
 **CYANIS:** Huh.
 
@@ -2053,15 +2047,9 @@ A beat.
 
 **TORREN:** Didn't spit it out.
 
-Ilyra takes a bite.
-
 **ILYRA:** He's got you there.
 
-**MAEVRA:** Don't encourage him.
-
 ### [WHAT IS IN IT]
-
-A little later:
 
 **CYANIS:** What's actually in this?
 
@@ -2077,23 +2065,11 @@ Torren pauses.
 
 **TORREN:** Tasted like goat before I put it in.
 
-Cyanis looks at him.
-
-**CYANIS:** Before.
+**CYANIS:** Before?
 
 **MAEVRA:** Don't.
 
-**ILYRA:** I want to know.
-
-**MAEVRA:** Of course you do.
-
-Torren shrugs.
-
 **TORREN:** It became dinner.
-
-**CYANIS:** That's not an answer.
-
-**TORREN:** Only one left.
 
 ### [MAEVRA REMEMBERS]
 
@@ -2103,31 +2079,21 @@ Maevra stirs her bowl.
 
 **TORREN:** Similar.
 
-**MAEVRA:** You made one pot so thick somebody left a spoon standing upright in it through watch change.
+**MAEVRA:** You made one pot so thick somebody left a spoon standing upright through watch change.
 
 **TORREN:** Edrin dumped too much meal in.
 
 **MAEVRA:** You handed him the bag.
 
-**TORREN:** Didn't tell him to empty it.
-
-Cyanis looks between them.
+**TORREN:** Didn't tell him to empty the damn thing.
 
 **CYANIS:** And you still ate it?
 
 **MAEVRA:** We were starving.
 
-**TORREN:** You're hungry now.
-
-**MAEVRA:** Still doesn't make you a good cook.
-
-**TORREN:** Never said I was.
-
-Cyanis stops.
+Cyanis looks at Torren.
 
 **CYANIS:** Wait. You know this is bad?
-
-Torren finally looks up.
 
 **TORREN:** Course I do. I can taste.
 
@@ -2135,33 +2101,17 @@ A beat.
 
 **TORREN:** It's hot, there's enough for everybody, it won't make us sick, ingredients were cheap, pot was easy to clean, and I didn't spend an hour fucking around with dinner after walking all day. Successful field meal.
 
-Silence.
-
 Ilyra starts laughing.
 
 **CYANIS:** Those are not the only qualities food can have.
 
-Torren thinks.
-
 **TORREN:** Cheap too.
-
-**CYANIS:** So the bad part is intentional.
-
-**TORREN:** No. The bad part is irrelevant.
-
-Maevra drops her head.
 
 **MAEVRA:** Fuck you.
 
-**TORREN:** You're still eating.
-
-**MAEVRA:** Hunger is not an endorsement.
-
-**TORREN:** Same result.
+**TORREN:** Still eating.
 
 **ILYRA:** Not the same mechanism.
-
-Torren looks at her.
 
 **TORREN:** Going to be a long trip.
 
@@ -2171,33 +2121,21 @@ Eventually the bowls are empty.
 
 Torren lights a blunt from the campfire.
 
-Maevra watches him take the first draw.
-
-**MAEVRA:** Still do that after dinner.
-
-**TORREN:** Yeah.
-
-Cyanis looks at the blunt, then the empty pot.
-
-**CYANIS:** Does it help with the taste?
+**CYANIS:** Does that help with the taste?
 
 Torren considers it.
 
 **TORREN:** Little bit.
 
-Maevra immediately laughs.
+Maevra laughs immediately.
 
 **CYANIS:** You knew exactly how bad it was.
 
 **TORREN:** Told you.
 
-### [TOMORROW]
-
 **MAEVRA:** I'm cooking tomorrow.
 
 **TORREN:** Fine.
-
-Cyanis looks at him.
 
 **CYANIS:** That easy?
 
@@ -2208,8 +2146,6 @@ Maevra realizes what happened.
 **MAEVRA:** Damn it.
 
 **ILYRA:** Still worth it.
-
-Torren takes another draw.
 
 **TORREN:** Everybody wins.
 
@@ -2224,11 +2160,11 @@ Scene ends.
 ## C03 — What the Map Says
 
 **Atomic source:** `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `c0cd1f5c9f28dfd17844a55da6461b25132b5ea19ea2aaf312b024017ac5a5ac`
+**Source SHA-256:** `3807b7182968878953f556bab106331642ce41289c284c0486c75fa92ef9b742`
 
 # Chapter 1 — Character-Life C03
 # What the Map Says
-## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TRUE-VOICE / ECONOMY PASS
+## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TIGHTENED TRUE-VOICE PASS
 
 ### [CAMP — OPTIONAL CHARACTER-LIFE TRIGGER]
 
@@ -2250,15 +2186,11 @@ Torren keeps working.
 
 **CYANIS:** No.
 
-Torren keeps working.
-
 Cyanis keeps watching.
 
 **TORREN:** You're still there.
 
 **CYANIS:** I noticed.
-
-A beat.
 
 **CYANIS:** What are you changing?
 
@@ -2266,29 +2198,19 @@ A beat.
 
 **CYANIS:** Helpful.
 
-Torren glances at him.
-
-**TORREN:** Official line's wrong now. Wash moved lower, wagons started cutting higher, old road's still there but nobody sensible uses it wet.
-
-Cyanis looks at the map.
+**TORREN:** Official line's wrong now. Wash moved lower, wagons started cutting higher. Old road's still there, but nobody sensible uses it wet.
 
 **CYANIS:** So you erase it?
 
-**TORREN:** Move the useful line. Leave the old one light if it still matters. Road doesn't care what the map says. People do.
+**TORREN:** Move the useful line. Leave the old one light if it still matters. Road doesn't give a shit what the map says. People do.
 
-**CYANIS:** Crown cartographers would hate you.
+**CYANIS:** Crown cartographers would lose their damn minds.
 
 **TORREN:** Bad ones.
-
-**CYANIS:** Diplomatic.
-
-**TORREN:** Never claimed it.
 
 ### [THE NOTE]
 
 Cyanis notices another handwritten mark.
-
-A beat.
 
 **CYANIS:** Old slut?
 
@@ -2298,19 +2220,11 @@ Silence.
 
 **CYANIS:** What?
 
-**TORREN:** What?
-
-**CYANIS:** I was reading that.
-
 Torren looks.
 
 **TORREN:** That says old cut.
 
-**CYANIS:** No, it doesn't.
-
-**TORREN:** It does.
-
-**CYANIS:** That's an S.
+**CYANIS:** No, it doesn't. That's an S.
 
 **TORREN:** It's a C.
 
@@ -2332,17 +2246,13 @@ Fails.
 
 **TORREN:** Fuck off.
 
-That makes it worse.
-
 Torren starts laughing too.
 
 ### [OLD CUT]
 
-After it dies down:
-
 **CYANIS:** So what's an old cut?
 
-**TORREN:** Older foot route. Sometimes from before a road shifted or got widened. Sometimes still useful on foot. Sometimes only useful because it tells you where people used to move.
+**TORREN:** Older foot route. Sometimes from before a road shifted or got widened. Sometimes it's still useful. Sometimes it just tells you where people used to move.
 
 **CYANIS:** Better answer than `road.`
 
@@ -2350,19 +2260,11 @@ After it dies down:
 
 Torren deliberately fixes the C.
 
-Cyanis sees it.
-
 **CYANIS:** You fixed it.
 
 **TORREN:** Improved legibility.
 
-**CYANIS:** That's fixing it.
-
-**TORREN:** Different accusation.
-
 ### [WHY HE KEEPS HIS OWN]
-
-Cyanis looks over the rest of the map.
 
 **CYANIS:** You carry this and the official one?
 
@@ -2370,37 +2272,25 @@ Cyanis looks over the rest of the map.
 
 **CYANIS:** You remember most of this anyway.
 
-Torren thinks.
-
 **TORREN:** A lot. Not enough. Memory gets confident. Map gives me something to argue with later.
 
-That lands with Cyanis.
-
-**CYANIS:** That's actually good.
+**CYANIS:** That's actually pretty damn good.
 
 **TORREN:** Sounded surprised.
 
 **CYANIS:** I was trying not to.
 
-A quiet beat.
-
-Cyanis points at a convergence in the lines.
+Cyanis points at a convergence.
 
 **CYANIS:** Why do all three come back together there?
 
-Torren shifts the map toward him.
-
-**TORREN:** Ground narrows between the rise and the wash. Doesn't matter which route you start on; eventually it forces you through the same strip.
-
-Cyanis follows it.
+**TORREN:** Ground narrows between the rise and the wash. Doesn't matter where you start; eventually it forces you through the same strip.
 
 **CYANIS:** So if I lose the road, I can still know where it has to come back.
 
-Torren looks at him.
-
 **TORREN:** Exactly.
 
-A little later, Cyanis studies another note.
+A little later:
 
 **CYANIS:** I'm not reading that one out loud.
 
@@ -2429,11 +2319,11 @@ Scene ends.
 ## C04 — Not Professionally
 
 **Atomic source:** `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md`  
-**Source SHA-256:** `952f6ddd283ff32e405263b615f5ee0e0ad263427b8dd009a9e4fd9158079967`
+**Source SHA-256:** `29724fe0f2b066490993faf9af03e7cc629731b085a7cc414570fe7dc429fdbd`
 
 # Chapter 1 — Character-Life C04
 # Not Professionally
-## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TRUE-VOICE / ECONOMY PASS
+## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TIGHTENED TRUE-VOICE PASS
 
 ### [CAMP — OPTIONAL CHARACTER-LIFE TRIGGER]
 
@@ -2461,9 +2351,7 @@ Ilyra starts removing the old splint.
 
 **MAEVRA:** Better.
 
-Ilyra checks the arm.
-
-**ILYRA:** You've been using it too much.
+**ILYRA:** You've been using the hell out of it.
 
 **MAEVRA:** I have duties.
 
@@ -2473,31 +2361,19 @@ Ilyra checks the arm.
 
 Ilyra uses a small amount of Warden magic.
 
-Maevra exhales.
-
 **MAEVRA:** Better. Still broken?
 
-**ILYRA:** Still broken. I can settle the pain around it. I can't convince bone that time is optional.
-
-**MAEVRA:** Shame.
-
-Ilyra starts setting the fresh splint.
+**ILYRA:** Still broken. I can settle the pain. I can't convince bone that time is optional.
 
 ### [TORREN]
 
 For a while, neither speaks.
 
-Then:
-
 **ILYRA:** You and Torren are strange.
-
-Maevra looks at her.
 
 **MAEVRA:** That's not a question.
 
 **ILYRA:** I know.
-
-A beat.
 
 **ILYRA:** You argue like you've already had every version of the argument.
 
@@ -2521,8 +2397,6 @@ Ilyra tightens one wrap.
 
 **MAEVRA:** Yes.
 
-Ilyra accepts it.
-
 A little silence.
 
 **MAEVRA:** He thinks if the ground tells you a plan is stupid, you change the plan.
@@ -2535,23 +2409,13 @@ A little silence.
 
 **MAEVRA:** Sometimes the road is bad and somebody still has to get to the other end.
 
-**ILYRA:** Duties.
-
-**MAEVRA:** Duties.
-
 ### [WHAT SHE WILL SAY]
 
-A little silence.
-
 **ILYRA:** Do you actually dislike each other?
-
-Maevra answers without drama.
 
 **MAEVRA:** No.
 
 Ilyra waits.
-
-Maevra notices.
 
 **MAEVRA:** Don't do that.
 
@@ -2567,29 +2431,21 @@ Maevra watches her finish the wrap.
 
 **MAEVRA:** He matters to me. More than is convenient sometimes.
 
-Ilyra looks up.
-
-Maevra gives her a warning look before she can ask anything else.
+Maevra gives her a warning look.
 
 **MAEVRA:** That's all you're getting tonight.
 
 **ILYRA:** I wasn't going to ask.
 
-**MAEVRA:** Liar.
+**MAEVRA:** Bullshit.
+
+Ilyra smiles.
 
 **ILYRA:** Eventually.
-
-That gets a small smile out of Maevra.
 
 **MAEVRA:** Wanting builds character.
 
 **ILYRA:** Cruel.
-
-**MAEVRA:** Commander.
-
-**ILYRA:** Patient.
-
-**MAEVRA:** Temporary demotion.
 
 ### [DONE]
 
@@ -2606,10 +2462,6 @@ Maevra moves them.
 **MAEVRA:** What if the reason is excellent?
 
 **ILYRA:** Still broken.
-
-Maevra settles it carefully.
-
-A beat.
 
 **MAEVRA:** Was any of that professional?
 
@@ -2631,7 +2483,7 @@ Ilyra starts to go.
 
 Ilyra does not decide aloud which part she means.
 
-**ILYRA:** Don't use the arm.
+**ILYRA:** Don't use the damn arm.
 
 **MAEVRA:** Ruined it.
 
