@@ -52,3 +52,10 @@ The visual must communicate:
 > appropriation / attempted interface
 
 not successful reconstruction of the ancient Last Weapon.
+
+
+## Chapter-0 enemy application
+The exact current Chapter-0 Black Host troop / war-beast / battlefield-caster visual designs are owned by:
+> `../ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
+
+This faction-language file controls the shared Black Host visual vocabulary. The enemy authority controls the specific Chapter-0 silhouettes and design constraints.
