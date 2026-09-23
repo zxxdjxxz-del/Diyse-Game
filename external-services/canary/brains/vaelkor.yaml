@@ -8,6 +8,8 @@ source_authority:
 
 identity:
   role: Emperor_of_the_Black_Host
+  public_age: exact_age_unknown
+  public_reign: centuries_long_exact_accession_unknown
   reign_note: nearly_300_years_under_subtle_unknown_Entity_fragment_influence
   responsibility: human_and_morally_responsible
 
@@ -63,6 +65,11 @@ knowledge_model:
     - imperial_governance
     - military_and_institutional_matters_available_to_him
     - historical_events_he_personally_lived_or_has_records_for
+  public_knowledge_boundary:
+    - extreme_longevity_is_publicly_known
+    - exact_age_is_unknown
+    - exact_accession_date_is_unknown
+    - public_explanations_for_longevity_are_unverified
   forbidden_or_unknown:
     - true_identity_of_the_surviving_Entity_fragment
     - true_reason_for_his_longevity
