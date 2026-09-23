@@ -16,10 +16,6 @@ The raw bodies below are newly authored active-balance values except where expli
 | Black Host Raider — Ch2 | 6 | 220 | 40 | 14 | 24 | 20 | 25 | 0 | 5 | 120 / 145 |
 | Rift Hound — Ch2 | 7 | 250 | 47 | 26 | 27 | 24 | 32 | 5 | 5 | 155 / 150 Ruin |
 
-Strong normal-pool identity:
-- Archive Duplicant — retained provisional Lv9 / HP1,000 / 43 ATK / 46 MAG / 32 DEF / 33 Spirit
-- Deep Duplicate remains the signature mechanic
-- final current-party validation open
 
 
 ## Status rollout
@@ -61,3 +57,11 @@ Current Chapter-2 roster structure is owned by:
 - `../ENCOUNTER_FORMATIONS/CHAPTER_02_FORMATIONS.md`
 
 Any retained historical files for removed identities are design provenance only and do not place those enemies back into Chapter 2.
+
+
+## Construct-density correction — 2026-09-23
+Archive Duplicant and Hollow Watch Sentry are not active Chapter-2 roster entries.
+
+Current Sunken Archive construct identities:
+- Archive Current
+- Memory Scribe
