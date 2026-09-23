@@ -1,6 +1,6 @@
 # Chapter 1 — Character-Life C03
 # What the Map Says
-## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TRUE-VOICE / ECONOMY PASS
+## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TIGHTENED TRUE-VOICE PASS
 
 ### [CAMP — OPTIONAL CHARACTER-LIFE TRIGGER]
 
@@ -30,8 +30,6 @@ Cyanis keeps watching.
 
 **CYANIS:** I noticed.
 
-A beat.
-
 **CYANIS:** What are you changing?
 
 **TORREN:** Road.
@@ -40,15 +38,13 @@ A beat.
 
 Torren glances at him.
 
-**TORREN:** Official line's wrong now. Wash moved lower, wagons started cutting higher, old road's still there but nobody sensible uses it wet.
-
-Cyanis looks at the map.
+**TORREN:** Official line's wrong now. Wash moved lower, wagons started cutting higher. Old road's still there, but nobody sensible uses it wet.
 
 **CYANIS:** So you erase it?
 
-**TORREN:** Move the useful line. Leave the old one light if it still matters. Road doesn't care what the map says. People do.
+**TORREN:** Move the useful line. Leave the old one light if it still matters. Road doesn't give a shit what the map says. People do.
 
-**CYANIS:** Crown cartographers would hate you.
+**CYANIS:** Crown cartographers would lose their damn minds.
 
 **TORREN:** Bad ones.
 
@@ -82,10 +78,6 @@ Torren looks.
 
 **TORREN:** It does.
 
-**CYANIS:** That's an S.
-
-**TORREN:** It's a C.
-
 **CYANIS:** That's the worst C I've ever seen.
 
 **TORREN:** You read it wrong.
@@ -114,15 +106,13 @@ After it dies down:
 
 **CYANIS:** So what's an old cut?
 
-**TORREN:** Older foot route. Sometimes from before a road shifted or got widened. Sometimes still useful on foot. Sometimes only useful because it tells you where people used to move.
+**TORREN:** Older foot route. Sometimes from before a road shifted or got widened. Sometimes it's still useful. Sometimes it just tells you where people used to move.
 
 **CYANIS:** Better answer than `road.`
 
 **TORREN:** Better question.
 
 Torren deliberately fixes the C.
-
-Cyanis sees it.
 
 **CYANIS:** You fixed it.
 
@@ -134,8 +124,6 @@ Cyanis sees it.
 
 ### [WHY HE KEEPS HIS OWN]
 
-Cyanis looks over the rest of the map.
-
 **CYANIS:** You carry this and the official one?
 
 **TORREN:** Usually. Official one's right often enough to matter. Mine's what I trust after I've walked it.
@@ -146,29 +134,21 @@ Torren thinks.
 
 **TORREN:** A lot. Not enough. Memory gets confident. Map gives me something to argue with later.
 
-That lands with Cyanis.
-
-**CYANIS:** That's actually good.
+**CYANIS:** That's actually pretty damn good.
 
 **TORREN:** Sounded surprised.
 
 **CYANIS:** I was trying not to.
 
-A quiet beat.
-
-Cyanis points at a convergence in the lines.
+Cyanis points at a convergence.
 
 **CYANIS:** Why do all three come back together there?
 
 Torren shifts the map toward him.
 
-**TORREN:** Ground narrows between the rise and the wash. Doesn't matter which route you start on; eventually it forces you through the same strip.
-
-Cyanis follows it.
+**TORREN:** Ground narrows between the rise and the wash. Doesn't matter where you start; eventually it forces you through the same strip.
 
 **CYANIS:** So if I lose the road, I can still know where it has to come back.
-
-Torren looks at him.
 
 **TORREN:** Exactly.
 
