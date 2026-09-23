@@ -1,6 +1,6 @@
 # Cistern Leech
 
-**Chapter:** 2 — Dunmere cistern / lower feed  
+**Current use:** Chapter 2 — Old Waterworks and compatible flooded Sunken Archive sectors  
 **Status:** **POWER COMPLETE / RAW BODY AUTHORED**
 
 ## Body
@@ -24,3 +24,7 @@
 - Base Hit95
 - no harmful-status rider
 - 1-round repetition lock
+
+
+## Sunken Archive carryover
+Cistern Leech may continue from the Old Waterworks into flooded Sunken Archive sectors where standing water / submerged access makes ecological sense. It remains ordinary wildlife rather than an Archive-made creature.
