@@ -106,13 +106,19 @@ The opening story-authorized combat pressure follows current encounter authority
 
 **Combat 1:** Black Host Raider + Black Host Crossbowman.
 
-After that formation breaks:
+### [GAMEPLAY — SHORT ROUTE-CLEARING INTERVAL]
+
+Battle ends and player control returns. Cyanis moves survivors/escorts through the next usable road pocket and clears the immediate route around wreckage. This is not a dialogue scene and Combat 2 does not spawn as a reinforcement wave.
 
 **Combat 2:** Black Host Raider + Ruin Shieldbearer.
 
-After that formation breaks:
+### [GAMEPLAY — SHORT WRECKAGE / MOVEMENT INTERVAL]
+
+Battle ends and player control returns again. The road damage, smoke, and worsening Wreck Field ahead carry the transition. No additional conversation is required.
 
 **Combat 3:** 2 Convoy Rift Hounds.
+
+Combat 3 is the final P01 fight. After victory, the player reaches the Wreck Field and encounters rescue/investigation gameplay before any further battle.
 
 No Beast Handler appears in Chapter 0.  
 No concealed Ruin Vanguard appears here.  
