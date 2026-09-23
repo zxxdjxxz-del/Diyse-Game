@@ -94,4 +94,4 @@ The Card remains inert.
 **Objective: Explore the ancient complex.**
 
 Next mandatory beat:
-**Western Map Mural**
+**Archive Depths**
