@@ -96,12 +96,24 @@ The former eight-beat split that separated Riftmaw from the final War-Sorcerer c
 - Black Host Raider
 - Black Host Crossbowman
 
+**Inter-fight gameplay**
+- return to player control;
+- short route-clearing / survivor-movement interval;
+- Combat 2 is not an immediate reinforcement wave.
+
 **Combat 2 — Cyanis solo**
 - Black Host Raider
 - Ruin Shieldbearer
 
+**Inter-fight gameplay**
+- return to player control;
+- short wreckage/readability traversal;
+- Combat 3 is a separate late-road pressure point.
+
 **Combat 3 — Cyanis solo**
 - 2 Convoy Rift Hounds
+
+After Combat 3, P01 hands off into Wreck Field rescue/investigation before another fight can occur.
 
 **End state**
 - convoy badly damaged, not destroyed;
@@ -133,6 +145,8 @@ Do not reveal Black Host scout motive, Seyrik identity, Prime/Might/Last Sentine
 - Two additional Cyanis-solo encounters occur during the Wreck Field traversal:
   1. Black Host Crossbowman + Convoy Rift Hound;
   2. one lone Convoy Rift Hound threatening the survivor route.
+- The Wounded Escort / Trapped Survivor / Stone-Line sequence occurs before the first Wreck Field fight.
+- The two Wreck Field fights are separated by a short survivor-movement / lower-route traversal interval; they are not consecutive waves.
 - Cyanis and the convoy officer observe Black Host forces withdrawing north.
 - The northern cut is unusually clear while other routes are damaged/blocked.
 - Cyanis treats bait as a grounded hypothesis, not supernatural certainty.
@@ -262,6 +276,7 @@ Do not identify Prime, Might, Last Sentinel, bearer/ownership status, ancient La
 - Cyanis does not chase.
 - Ilyra's treatment-space priorities reinforce holding the line.
 - The player receives a real noncombat breathing interval / perimeter reset before P06.
+- P06 may not begin as an automatic continuation of the P05 battle result screen; the camp/perimeter must visibly return to noncombat activity first.
 
 **End state**
 - Pursuer gone alive;
