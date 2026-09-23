@@ -1,6 +1,6 @@
 # Chapter 1 — Character-Life C04
 # Not Professionally
-## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TRUE-VOICE / ECONOMY PASS
+## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TIGHTENED TRUE-VOICE PASS
 
 ### [CAMP — OPTIONAL CHARACTER-LIFE TRIGGER]
 
@@ -30,7 +30,7 @@ Ilyra starts removing the old splint.
 
 Ilyra checks the arm.
 
-**ILYRA:** You've been using it too much.
+**ILYRA:** You've been using the hell out of it.
 
 **MAEVRA:** I have duties.
 
@@ -44,27 +44,19 @@ Maevra exhales.
 
 **MAEVRA:** Better. Still broken?
 
-**ILYRA:** Still broken. I can settle the pain around it. I can't convince bone that time is optional.
+**ILYRA:** Still broken. I can settle the pain. I can't convince bone that time is optional.
 
 **MAEVRA:** Shame.
-
-Ilyra starts setting the fresh splint.
 
 ### [TORREN]
 
 For a while, neither speaks.
 
-Then:
-
-**ILYRA:** You and Torren are strange.
-
-Maevra looks at her.
+**ILYRA:** You and Torren are strange as hell.
 
 **MAEVRA:** That's not a question.
 
 **ILYRA:** I know.
-
-A beat.
 
 **ILYRA:** You argue like you've already had every version of the argument.
 
@@ -88,8 +80,6 @@ Ilyra tightens one wrap.
 
 **MAEVRA:** Yes.
 
-Ilyra accepts it.
-
 A little silence.
 
 **MAEVRA:** He thinks if the ground tells you a plan is stupid, you change the plan.
@@ -108,11 +98,7 @@ A little silence.
 
 ### [WHAT SHE WILL SAY]
 
-A little silence.
-
 **ILYRA:** Do you actually dislike each other?
-
-Maevra answers without drama.
 
 **MAEVRA:** No.
 
@@ -136,17 +122,17 @@ Maevra watches her finish the wrap.
 
 Ilyra looks up.
 
-Maevra gives her a warning look before she can ask anything else.
+Maevra gives her a warning look.
 
 **MAEVRA:** That's all you're getting tonight.
 
 **ILYRA:** I wasn't going to ask.
 
-**MAEVRA:** Liar.
+**MAEVRA:** Bullshit.
+
+Ilyra smiles.
 
 **ILYRA:** Eventually.
-
-That gets a small smile out of Maevra.
 
 **MAEVRA:** Wanting builds character.
 
@@ -155,8 +141,6 @@ That gets a small smile out of Maevra.
 **MAEVRA:** Commander.
 
 **ILYRA:** Patient.
-
-**MAEVRA:** Temporary demotion.
 
 ### [DONE]
 
@@ -173,8 +157,6 @@ Maevra moves them.
 **MAEVRA:** What if the reason is excellent?
 
 **ILYRA:** Still broken.
-
-Maevra settles it carefully.
 
 A beat.
 
@@ -198,7 +180,7 @@ Ilyra starts to go.
 
 Ilyra does not decide aloud which part she means.
 
-**ILYRA:** Don't use the arm.
+**ILYRA:** Don't use the damn arm.
 
 **MAEVRA:** Ruined it.
 
