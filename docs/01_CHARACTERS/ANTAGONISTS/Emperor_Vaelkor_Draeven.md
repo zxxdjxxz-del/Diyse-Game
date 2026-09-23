@@ -11,6 +11,23 @@
 - Morally responsible for his regime, conquest, coercion, institutions, and refusal of lawful judgment
 - Current exact antagonist visual authority: **LOCKED**
 
+## Public age / reign knowledge
+Player-facing and ordinary in-world knowledge must distinguish **known longevity** from **unknown exact age**.
+
+Publicly knowable:
+- Vaelkor has ruled for centuries;
+- his lifespan is visibly / historically far beyond normal human limits;
+- his exact age is unknown;
+- his exact accession date and total reign length are not reliably established;
+- Black Host doctrine, foreign scholarship, and popular rumor offer competing explanations.
+
+Not publicly knowable at introduction:
+- the true reason for his longevity;
+- the surviving Entity fragment;
+- the fragment's role in extending his life or influencing his reign.
+
+The hidden nearly-three-century authority below remains **author-side truth**, not a number the player-facing world intro should state as settled public fact.
+
 ## Recovery boundary
 The project record explicitly preserves that Vaelkor previously received a full/deep antagonist treatment covering:
 - human personality;
