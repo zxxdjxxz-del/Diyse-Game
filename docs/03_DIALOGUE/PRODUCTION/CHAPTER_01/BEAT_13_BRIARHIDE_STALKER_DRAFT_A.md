@@ -103,11 +103,11 @@ Torren watches it long enough to be certain.
 
 Cyanis exhales.
 
-**CYANIS:** Good.
+**CYANIS:** Good. Damn thing.
 
 Ilyra looks toward the now-open route.
 
-**ILYRA:** I liked the forest better before it started producing things that size.
+**ILYRA:** I liked the forest better before it started producing shit that size.
 
 **TORREN:** That's Briar.
 
