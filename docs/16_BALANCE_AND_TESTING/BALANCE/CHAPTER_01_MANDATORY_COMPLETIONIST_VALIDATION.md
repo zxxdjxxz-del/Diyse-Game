@@ -75,7 +75,7 @@ Re-run Chapter 1 against the current campaign route and actual party state at ea
 At minimum, re-check:
 - Northern / first Briar formations using Greenhollow Stalker / Thornvine Creeper / Briar Boar;
 - Hollow Watch Black Host formations using Black Host Raider / Black Host Crossbowman / Ruin Shieldbearer;
-- Hollow Watch construct formations using Hollow Watch Sentry / Hollow Watch Ballista;
+- Hollow Watch construct formations using Watch Sentry / Watch Ballista;
 - Watch Captain Frame as a **strong normal-pool construct**, not optional side content;
 - Hollow Watch Castellan as the mandatory **mini-boss**;
 - Southern Briar formations using all six locked natural identities: Greenhollow Stalker / Thornvine Creeper / Briar Boar / Needlewing / Rootmaw / Brambleback;
