@@ -30,6 +30,75 @@ This is not Chapter-0 normal shop stock. Reliable normal purchasing still begins
 
 Because two encounters have moved from the solo state to the Cyanis+Ilyra state, resource pressure and difficulty for those moved encounters must be revalidated before Chapter-0 difficulty is reclosed.
 
+## Chapter-0 encounter-spacing lock
+
+The seven authored combats are **separate encounters**, not wave chains.
+
+Exact seconds/meters remain map-playtest variables, but the following presentation order is locked:
+
+### P01 — opening ambush
+**Combat 1 — Raider + Crossbowman**
+- occurs after Cyanis is split onto the east side;
+- after victory, return to player control;
+- Cyanis gets a short route-clearing / survivor-movement interval before the next fight.
+
+**Combat 2 — Raider + Ruin Shieldbearer**
+- occurs at a later road pocket, not as an immediate reinforcement wave;
+- after victory, return to player control;
+- a second short movement / wreckage-read interval separates it from Combat 3.
+
+**Combat 3 — 2 Convoy Rift Hounds**
+- occurs late on the Convoy Road, near the handoff into the Wreck Field;
+- after victory, do not immediately spawn Combat 4;
+- the Wreck Field begins with rescue/investigation gameplay first.
+
+### P02 — Wreck Field
+Before Combat 4, the player must receive:
+- Wounded Escort story trigger;
+- short rescue route;
+- Trapped Survivor story trigger;
+- Stone-Line route decision/read.
+
+**Combat 4 — Crossbowman + Convoy Rift Hound**
+- occurs only after that rescue/route material;
+- after victory, survivors visibly continue along the safer lower route;
+- player receives a short traversal/escort interval before Combat 5.
+
+**Combat 5 — lone Convoy Rift Hound**
+- interrupts the survivor route as its own encounter;
+- after victory, no more Cyanis-solo combat occurs;
+- the officer/north-withdrawal sightline material follows before P03.
+
+### P03
+> **FULL COMBAT-FREE BREATHER**
+
+No random/authored combat on the Evacuation Relay / decision sequence.
+
+### P04
+> **NO STANDALONE BATTLE**
+
+Ilyra introduction, triage friction, first incomplete flare, and her decision to join the defense occur without inserting another fight.
+
+### P05
+- begins only after a short perimeter/player-control interval following P04;
+- concealed Seyrik / Ruin Vanguard is one discrete encounter.
+
+### P05 → P06 reset
+A real noncombat reset is mandatory:
+- no battle-to-battle transition;
+- no immediate boss sting;
+- Card remains inert;
+- triage/perimeter activity visibly resumes;
+- Cyanis + Ilyra receive a discrete breathing interval before the final push.
+
+### P06
+Riftmaw + Convoy War-Sorcerer is the final mandatory combat.
+
+### P07
+> **NO COMBAT**
+
+These locks are structural. Exact traversal length and timing remain open to graybox/playtest tuning.
+
 ## Current combat order
 
 ### 0-01 — P01 Opening Line — CYANIS SOLO
