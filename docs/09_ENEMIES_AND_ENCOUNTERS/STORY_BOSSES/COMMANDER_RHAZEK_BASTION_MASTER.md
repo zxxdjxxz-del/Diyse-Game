@@ -1,26 +1,17 @@
-# Commander Rhazek — Bastion Master — Current Working Recertification
+# Commander Rhazek — Bastion Master
 
 **Chapter:** 2  
-**Scene:** S015 — Red Transfer Bastion  
-**Status:** **v78 VALIDATED / POWER COMPLETE**
+**Scene:** Chapter 2 — Old Bastion command room  
+**Status:** **IDENTITY / ARCHITECTURE / ACTION GRAMMAR LOCKED — NUMERIC REVALIDATION REQUIRED**
 
-## Actual party reference
+## Current party reference
 
-Central mandatory route:
-> **~Lv7**
+Combat party:
+> **Cyanis + Ilyra + Torren**
 
-Completionist route:
-> **~Lv8**
+Maevra is physically present in Chapter 2 but is fully noncombat and does not contribute turns, damage, healing, targeting, or party-body count.
 
-High-side completionist / extra optional combat:
-> can approach **Lv9**
-
-Rationale:
-- Chapter 2 begins around Lv5.
-- Archive Leviathan occurs earlier in S013.
-- Prisoner Galleries and substantial mandatory exploration/combat occur before S015.
-- Chapter-1 optional EXP can enter Chapter 2, so a completionist is meaningfully ahead by the Rhazek fight.
-- The boss is tuned primarily around the ~Lv7 mandatory route.
+Mandatory-route and completionist exact pre-boss levels remain subject to the current Chapter-2 encounter-validation pass.
 
 ## Current raw line
 
@@ -43,10 +34,10 @@ The former 2,700 HP / ATK49 / MAG31 line is superseded for the current working b
 - destroyed support remains destroyed
 
 At the 45% threshold:
-- Rhazek's armor reinforcement activates;
-- Rhazek gains **Defense +6% / Spirit +6% for the rest of battle**;
-- State-A support does not respawn;
-- action priorities shift toward direct Ruin pressure.
+- there is **no transformation, armor activation, fresh body, or HP refill**;
+- any defeated support remains defeated;
+- Rhazek stops relying primarily on command posture and shifts toward his own direct Ruin techniques;
+- the transition is behavioral and tactical, not supernatural.
 
 ## State A — Bastion Master
 
@@ -74,7 +65,7 @@ At the 45% threshold:
 - no harmful-status rider
 - 2-round repetition lock
 
-### Hold the Bastion
+### Hold the Line
 > **Power: N/A — no direct damage**
 
 Rhazek takes **10% less direct damage through the end of the following round**.
@@ -83,35 +74,22 @@ This is an intentional defensive choice, not Brace.
 
 ## Finite support
 
-### Bastion Shield Detachment
+If Chapter-2 encounter design places support with Rhazek, it must use **actual existing Black Host troop identities** from the active Old Bastion roster.
 
-| HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|
-| **180** | 0 | 0 | **42** | **36** | 24 | 0 | 5 |
+Legal support identities:
+- Ruin Shieldbearer;
+- Black Host Crossbowman;
+- Black Host Raider;
+- Black Host War-Sorcerer;
+- Rift Hound, only if the final room/formation placement supports it.
 
-#### Shield Screen
-> **Power: N/A — no direct damage**
-
-While the detachment survives during State A:
-> Rhazek takes **10% less eligible direct damage**.
-
-The detachment does not respawn.
-
-### Bastion Ranged Position
-
-| HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|
-| **150** | **52** | 0 | **26** | **24** | **29** | 0 | 5 |
-
-#### Crossfire Bolt
-- one party member
-- Physical / Neutral
-- **165 Power**
-- Base Hit **100**
-- **15% Bleed**
-- 1-round Reload after firing
-
-The position does not respawn.
+Rules:
+- support is finite;
+- defeated support stays defeated;
+- no abstract Bastion Shield Detachment;
+- no abstract Bastion Ranged Position;
+- no endless reinforcement stream;
+- exact support count/composition remains open until three-person encounter validation.
 
 ## State B — Bastion Master: Ruin Escalation
 
@@ -149,58 +127,26 @@ Rhazek gains **Speed +10% through the end of the following round**.
 
 No extra action is granted.
 
-## Incoming-pressure check
+## Numerical validation status
 
-Using the recovered Lv6 defense profile as a conservative floor means the real ~Lv7 mandatory party should take slightly less damage than the values below.
+> **REOPENED**
 
-Approximate direct damage:
+The former incoming-damage and duration checks are retired because they counted Maevra as a fourth combatant.
 
-| Action | Cyanis | Ilyra | Torren | Maevra |
-|---|---:|---:|---:|---:|
-| Commander's Cut | 43.9 | 60.6 | 58.2 | 64.4 |
-| Shieldline Break | 53.6 | 74.0 | 71.2 | 78.7 |
-| Command-Link Pulse | 26.9 | 23.3 | 31.1 | 33.5 |
-| Ruin-Driven Cut | 48.9 | 62.1 | 63.0 | 69.4 |
-| Bastion Breaker | 58.2 | 73.9 | 75.1 | 82.6 |
-| Ruin Sweep | 33.7 | 42.8 | 43.5 | 47.9 |
+Current validation must use:
+- Cyanis + Ilyra + Torren only;
+- current mandatory-route pre-boss level/equipment;
+- current completionist/high-side pre-boss state;
+- the final finite support composition, if any.
 
-Bastion Ranged Position — Crossfire Bolt:
-- Cyanis ~33.8
-- Ilyra ~47.5
-- Torren ~45.5
-- Maevra ~50.7
-
-Bleed and Staggered are resolved separately from the direct damage.
-
-## Duration check
-
-Recovered Lv6 basic-Attack floor against DEF36:
-> approximately **170 direct damage per full party round**
-
-The actual ~Lv7 mandatory party should exceed that floor.
-
-The 2,050-HP body therefore sits around:
-> **12 basic-only floor rounds**
-
-before class Abilities, critical hits, and other efficient actions.
-
-Finite support and State-A mitigation add tactical action tax, while class Abilities pull the clear time back down.
-
-Expected authored pacing:
-- mandatory aggressive: **~9–10 rounds**
-- mandatory normal: **~10–11 rounds**
-- completionist ~Lv8: **~8–9 rounds**
-- high-side ~Lv9: **~7–8 rounds**
-- safety/support-clearing route: **~11–12 rounds**
-
-This preserves a meaningful optional-progression advantage without dynamically scaling Rhazek upward.
+The existing raw body and direct-damage Powers are **provisional retained values**, not current difficulty certification.
 
 ## Power-completeness verdict
 Every direct-damage action in the encounter has exact numeric Power.
 
 Non-damaging commands are explicitly Power N/A.
 
-> **WORKING PASS / POWER COMPLETE**
+> **POWER VALUES RETAINED PROVISIONALLY / DIFFICULTY REVALIDATION REQUIRED**
 
 ## Story boundary
 - Rhazek is defeated at 0 HP but survives.
@@ -209,7 +155,22 @@ Non-damaging commands are explicitly Power N/A.
 - no Reforged Commander or Bastion Devourer appears in Chapter 2.
 
 
-## v78 broader Chapter-2 validation
-The full Lv5→9 Chapter-2 pass confirms the existing ~Lv7 mandatory / ~Lv8 completionist calibration with Maevra included as the fourth combatant. No raw stat, support, phase, or Power change is required.
+## 2026-09-23 current architecture correction
 
-> **PASS — RETAIN**
+Locked:
+- one continuous HP bar;
+- State A: **Bastion Master**;
+- State B at 45% HP: **Ruin Escalation**;
+- no transformation or fresh body;
+- no threshold armor activation;
+- no abstract support objects;
+- finite support may use only real Old Bastion troop identities;
+- no post-boss rematch or surprise second boss;
+- Rhazek survives through an organized military withdrawal after decisive defeat.
+
+Personal combat-language continuity:
+- **Shieldline Break** is retained as an early signature technique;
+- **Ruin-Driven Cut**, **Bastion Breaker**, and **Ruin Sweep** establish the fighting language that later escalates in Rhazek's Chapter-9 return;
+- **Hold the Line** is the current defensive/command-posture name.
+
+The former v78 four-person validation is retired and must not be cited as current balance certification.
