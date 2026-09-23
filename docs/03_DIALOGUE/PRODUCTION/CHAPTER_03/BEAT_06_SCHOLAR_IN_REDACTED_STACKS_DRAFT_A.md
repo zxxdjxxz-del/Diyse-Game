@@ -32,7 +32,7 @@ Ilyra smiles.
 
 Nimera notices the route notebook at Torren's belt.
 
-**NIMERA:** Harth. I've seen your copied route marks. They're criminal as hell.
+**NIMERA:** Harth. I've seen your copied route marks. Piss-poor records. Effective field notes. Infuriating combination.
 
 **TORREN:** They work. You hate them.
 
@@ -90,7 +90,7 @@ Nimera thinks for a second.
 
 She leans closer without reaching for the Card.
 
-**NIMERA:** Green and gold every time, and you still don't know what the hell it is?
+**NIMERA:** Green and gold every time, and you still don't know what bastard category it belongs in?
 
 **CYANIS:** Correct.
 
