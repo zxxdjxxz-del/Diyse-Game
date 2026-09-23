@@ -33,6 +33,7 @@ HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
 NON_ALNUM_RE = re.compile(r"[^a-z0-9]+")
 
 # Chapter 3 current structure recruits Nimera permanently in B06.
+# Protected First Command Warden messages compile as B14 spoken dialogue.
 DURABLE_FLAGS: dict[tuple[str, str], list[str]] = {
     ("00", "P07"): [
         "ROSTER_ADD_ILYRA_PERMANENT",
