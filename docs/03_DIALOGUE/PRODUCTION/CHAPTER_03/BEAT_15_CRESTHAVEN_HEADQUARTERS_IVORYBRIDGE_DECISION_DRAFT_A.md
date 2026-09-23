@@ -14,47 +14,19 @@ Mirena sees Cyanis's Card before anyone starts.
 
 **MIRENA:** That was not Ruby when you went down.
 
-**CYANIS:** No.
+**CYANIS:** No. Warden assessed all four of us, decided something was wrong, and attacked. After we dropped it: PREVIOUS ERROR. Then LAST SENTINEL CONFIRMED.
 
-**MAEVRA:** What happened?
-
-Cyanis looks to the others once.
-
-**CYANIS:** Warden. Big one. It assessed all four of us, decided something was wrong, and attacked.
-
-**MIRENA:** Then?
-
-**NIMERA:** We killed it. During shutdown it gave two messages. Exact order matters.
-
-A beat.
-
-**NIMERA:** PREVIOUS ERROR.
-
-Another.
-
-**NIMERA:** LAST SENTINEL CONFIRMED.
-
-Mirena's expression changes.
-
-**MIRENA:** And then the Card changed?
-
-**NIMERA:** No. Important correction. Then the Warden went fully inert. **After that** the Card changed.
-
-**MIRENA:** Meaning?
-
-**NIMERA:** Nothing proven. The timing is suspicious as fuck. Suspicion remains cheaper than mechanism.
+**NIMERA:** Exact order. Then it went fully inert. **After that** the Card changed. Timing is suspicious as fuck; mechanism is still unknown.
 
 **MAEVRA:** Anyone hurt?
 
-**ILYRA:** No.
-
-**MAEVRA:** Good.
+**ILYRA:** No. Somehow.
 
 Mirena studies the Ruby Card but does not reach for it.
 
 **MIRENA:** Last Sentinel.
 
-**CYANIS:** That's all we have.
+**CYANIS:** That's all the hell we have.
 
 **MIRENA:** Then that's all we're calling it.
 
@@ -68,19 +40,19 @@ Mirena walks them through the minimum.
 
 **MIRENA:** This room is yours for maps and records. Sleeping rooms are usable. Supply room is ugly but stocked. The old treatment room needs work, but it has water and a door that closes.
 
-**ILYRA:** Luxury.
+**ILYRA:** Fucking luxury.
 
 **MIRENA:** I was told adventurers enjoy deprivation.
 
-**CYANIS:** Slander.
+**CYANIS:** Absolute bullshit.
 
 **MAEVRA:** Accurate slander.
 
 Torren looks around the fort.
 
-**TORREN:** Enough to work from.
+**TORREN:** More than enough shit to work from.
 
-**MIRENA:** That's the point. Cresthaven is your headquarters while this investigation stays active. Not a title. Not a command. A place to put your things and stop carrying the entire problem on your backs.
+**MIRENA:** That's the point. Cresthaven is your headquarters while this stays active—a place to work, sleep, and stop carrying every damn thing on your backs.
 
 Nimera looks at the large central table.
 
@@ -94,19 +66,15 @@ Nimera looks at the large central table.
 
 Mirena pulls out one final note.
 
-**MIRENA:** One more thing before Maevra and I head back. Crown crews in the Old City opened a side passage that wasn't accessible during your run.
+**MIRENA:** One more thing. Crown crews opened an Old City side passage that wasn't accessible during your run.
 
 **CYANIS:** Know what's in it?
 
-**MIRENA:** No.
+**MIRENA:** Not a damn clue.
 
 **NIMERA:** Beautiful.
 
-**MIRENA:** I thought you'd say that.
-
-**NIMERA:** Unknown room in an archive with a history of murderous furniture. What's not to love?
-
-**ILYRA:** The murderous furniture.
+**ILYRA:** The murderous furniture remains a concern.
 
 **NIMERA:** Narrow thinking.
 
@@ -126,31 +94,19 @@ The tower now identified with Cresthaven sits beneath his finger.
 
 The largest routes continue north from it and run off the top edge of the copied region.
 
-**TORREN:** Tower was real.
+**TORREN:** Tower was real. So were the big routes, at least broadly.
 
-**CYANIS:** So the routes probably were too.
+**ILYRA:** And we still don't know where the hell they go.
 
-**NIMERA:** Broadly, yes. Careful with probably, but yes.
+Torren looks at a modern map.
 
-**ILYRA:** We still don't know where they go.
+**TORREN:** North is the lead. Ivorybridge is where I'd start testing it.
 
-**TORREN:** No.
+**CYANIS:** Our guess, not the Ancient map's.
 
-He looks at a modern map.
+**NIMERA:** Thank fuck. The map says north until the copy ends. Ivorybridge is our hypothesis.
 
-**TORREN:** If we follow north, Ivorybridge is where I'd start looking.
-
-Mirena studies the modern geography.
-
-**MIRENA:** Because it's the next major place that gives you something to test.
-
-**TORREN:** Exactly.
-
-**CYANIS:** Not because the Ancient map says Ivorybridge.
-
-**NIMERA:** Thank fuck. No. The Ancient map says north until the copy ends. Ivorybridge is our hypothesis, not their label.
-
-**ILYRA:** So we go north and see whether the ground agrees.
+**ILYRA:** Then we go north and see whether the ground agrees.
 
 **TORREN:** That's the idea.
 
@@ -164,7 +120,7 @@ Maevra shoulders her gear.
 
 **MAEVRA:** We'll send anything the Crown side turns up.
 
-**CYANIS:** Same from us.
+**CYANIS:** Same damn deal from us.
 
 Mirena looks around the half-reopened fort.
 
@@ -174,7 +130,7 @@ Mirena looks around the half-reopened fort.
 
 **MIRENA:** I knew I disliked that question.
 
-**ILYRA:** Too late.
+**ILYRA:** Too fucking late.
 
 Mirena smiles and heads out with Maevra.
 
