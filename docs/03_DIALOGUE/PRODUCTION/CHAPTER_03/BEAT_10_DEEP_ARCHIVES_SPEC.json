@@ -1,0 +1,30 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT10_DEEP_ARCHIVES",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 10 — Deep Archives",
+  "production_ready": true,
+  "participants": ["cyanis","ilyra","torren","nimera"],
+  "hard_outcomes": [
+    "The party explores substantially older and less controlled archive space.",
+    "The six current Face marks recur as an organizational framework: Might, Elements, Grace, Memory, Perception, Ruin.",
+    "Ruin is treated as structurally legitimate rather than corrupted or evil.",
+    "Cyanis's Card remains unclassified.",
+    "The party reaches the major Archive Scribe Engine at the threshold of the oldest accessible inner collections."
+  ],
+  "forbidden_reveals": [
+    "resource_face","prime","might_for_cyanis_card","last_sentinel","deep_ruby","first_command_warden","cresthaven","westways_recordbook_map","ivorybridge"
+  ],
+  "true_voice_requirements": {
+    "nimera": "Live brain; current Memory Face; high/frequent profanity with 15–35% long-form anti-sanitization calibration, self-correcting and engaged.",
+    "torren": "Concrete route/physical evidence, conversational freedom, no paternal behavior toward Nimera.",
+    "ilyra": "Dry curiosity and profanity available, no automatic safety narrator.",
+    "cyanis": "Crest Knight only."
+  },
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml"
+  ]
+}
