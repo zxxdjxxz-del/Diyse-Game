@@ -7,7 +7,7 @@
 
 Player control is active.
 
-The party continues beyond the western mural.
+The party continues deeper into the Ancient complex from the entrance section.
 
 This section is exploration-first.
 
@@ -18,7 +18,7 @@ Environmental pressure increases:
 - worsening visibility;
 - stronger evidence that something large is moving through the flooded structure.
 
-There is **no second major lore reveal**.
+There is **no major cartographic/lore reveal** and no replacement for the retired Western Map Mural.
 
 Most traversal is silent.
 
