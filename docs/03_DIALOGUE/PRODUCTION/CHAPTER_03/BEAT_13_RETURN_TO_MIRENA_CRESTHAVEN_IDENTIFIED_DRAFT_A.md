@@ -48,7 +48,7 @@ Cyanis looks to Nimera.
 
 **MIRENA:** Good. Annoying, but good.
 
-**MAEVRA:** Crown side found no clean theft window either. No provable break in recorded custody.
+**MAEVRA:** Crown side found no damn clean theft window either. No provable break in recorded custody.
 
 **TORREN:** Record stays the weak word.
 
