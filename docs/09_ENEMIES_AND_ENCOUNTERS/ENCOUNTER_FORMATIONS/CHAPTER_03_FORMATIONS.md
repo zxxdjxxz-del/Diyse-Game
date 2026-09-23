@@ -1,58 +1,127 @@
 # Diyse — Chapter 3 Encounter Formations
 
-**Status:** **RECOVERED / ACTIVE COMPOSITION AUTHORITY**  
+**Structural status:** **ACTIVE REBUILD — CURRENT ROSTERS / STORY ROUTE ONLY**  
+**Numeric status:** **DEFERRED — final weights and difficulty require current mandatory-vs-completionist validation**  
 **Owning domain:** `09_ENEMIES_AND_ENCOUNTERS/ENCOUNTER_FORMATIONS`
 
-## Recovery boundary
-These Chapter-3 formation compositions were present in the accepted pre-reorganization working record but were omitted during the subject-folder migration.
+## Current route firewalls
+- no hostile Caelora gate / perimeter random pool;
+- no Caelora → Cresthaven road encounters;
+- Way-Fort Marauder / Rift Boltman / Black Host Ward-Sorcerer are retired from Chapter 3;
+- Archive Scribe Engine is a mandatory Beat-11 boss and never random-spawns;
+- Hollow Watch Castellan does not carry over into Chapter 3.
 
-This file restores **composition and weighting only**.
+# Cresthaven Ancient tower base
 
-Do **not** restore from the old table:
-- old enemy Levels;
-- old raw stats;
-- old per-formation EXP totals;
-- superseded action text.
+Cresthaven is a short late-Chapter-3 dungeon for:
+> **Cyanis + Ilyra + Torren + Nimera**
 
-Current Chapter-3 enemy files and current progression/reward files control those values.
+The encounter pool deliberately combines:
+- established **Watch** defense chassis first seen beneath Hollow Watch;
+- command-site constructs unique/shared to later Ancient authority spaces.
 
-## Opening / hostile perimeter
+Current active identities:
+- Watch Sentry;
+- Watch Ballista;
+- Watch Captain Frame;
+- Command Guard Frame;
+- Authority Lens;
+- Command Ring Drone.
 
-**Current placement firewall:** this recovered formation group has **no mandatory Chapter-3 story-route placement** under the current 15-beat Chapter-3 authority. Do not insert these formations into the lawful Caelora gate approach or the explicitly skipped Caelora → Cresthaven travel. They remain available only for later explicit placement or compatible optional content.
+The short dungeon should feel like a progression from surviving lower defenses into increasingly intact command architecture rather than six enemies being available everywhere immediately.
 
-| Formation | Composition | Weight |
+## Tower Foundation
+
+Primary identity:
+> older fixed defense / surviving Watch architecture
+
+| Formation | Composition | Bodies |
 |---|---|---:|
-| Way-Fort Patrol | 2 Way-Fort Marauders + 1 Rift Boltman | 30% |
-| Rift Screen | 1 Way-Fort Marauder + 2 Rift Boltmen + 1 Black Host Ward-Sorcerer | 45% |
-| Marauder Push | 2 Way-Fort Marauders + 1 Rift Boltman + 1 Black Host Ward-Sorcerer | 25% |
+| **Old Watch Line** | 2 Watch Sentries + 1 Watch Ballista + 1 Authority Lens | 4 |
+| **Crossfire Foundation** | 1 Watch Sentry + 2 Watch Ballistae + 1 Authority Lens | 4 |
+| **Captain's Post** | 1 Watch Captain Frame + 1 Watch Sentry + 1 Watch Ballista + 1 Authority Lens | 4 |
+| **Reactivated Battery** | 2 Watch Sentries + 2 Watch Ballistae + 1 Authority Lens | 5 |
 
-## Suppressed Archives
-| Formation | Composition | Weight |
+Rules:
+- Watch Ballista remains a fixed emplacement.
+- Watch Sentry → Watch Ballista Targeting Signal grammar is preserved.
+- Authority Lens can appear here because it is a shared inspection / classification construct.
+- Command Ring Drone and Command Guard Frame are held back from the earliest foundation encounters.
+- Watch Captain Frame remains max 1 per formation.
+
+## Command Interior
+
+Primary identity:
+> intact command / authority machinery
+
+| Formation | Composition | Bodies |
 |---|---|---:|
-| Archive Judgment | 1 Archive Scribe Engine + 1 Judgment Frame + 1 Erasure Wisp | 30% |
-| Erasure File | 2 Archive Scribe Engines + 2 Erasure Wisps + 1 Judgment Frame | 45% |
-| Judgment Stack | 2 Judgment Frames + 1 Archive Scribe Engine + 1 Erasure Wisp | 25% |
+| **Command Screen** | 1 Command Guard Frame + 1 Authority Lens + 2 Command Ring Drones | 4 |
+| **Relay Guard** | 2 Command Guard Frames + 1 Authority Lens + 2 Command Ring Drones | 5 |
+| **Integrated Defense** | 1 Command Guard Frame + 1 Watch Sentry + 1 Watch Ballista + 1 Authority Lens + 1 Command Ring Drone | 5 |
+| **Captain's Relay** | 1 Watch Captain Frame + 1 Command Guard Frame + 1 Authority Lens + 2 Command Ring Drones | 5 |
+| **Command Battery** | 1 Command Guard Frame + 1 Watch Sentry + 2 Watch Ballistae + 1 Authority Lens + 1 Command Ring Drone | 6 |
 
-## Deep Old City / command route
-| Formation | Composition | Weight |
+Rules:
+- this is the first sub-area where the full Cresthaven roster may mix;
+- Command Guard Frame supplies the chapter's clean ordinary-enemy Stun introduction;
+- Authority Lens does not inflict Stun in Chapter 3;
+- Command Ring Drone supports Attack / Magic rather than accuracy;
+- Watch Captain Frame remains max 1 per formation.
+
+## Warden approach
+
+The final active stretch should feel like the tower consolidating surviving defenses before the First Command Warden chamber.
+
+Eligible:
+- Relay Guard;
+- Integrated Defense;
+- Captain's Relay;
+- Command Battery.
+
+Add one late-only formation:
+
+| Formation | Composition | Bodies |
 |---|---|---:|
-| Command Screen | 2 Command-Station Sentries + 1 Authority Lens + 2 Command Ring Drones | 30% |
-| Authority Net | 1 Command Guard Frame + 2 Authority Lenses + 3 Command Ring Drones | 45% |
-| Station Lock | 2 Command-Station Sentries + 2 Authority Lenses + 2 Command Ring Drones | 25% |
+| **Last Command Line** | 1 Watch Captain Frame + 1 Command Guard Frame + 1 Watch Sentry + 1 Watch Ballista + 1 Authority Lens + 1 Command Ring Drone | 6 |
 
-## Guardrails
-- lawful Caelora personnel remain authored/nonlethal encounters and are **not** random-farm formations;
-- the lawful Caelora gate approach is not a hostile-perimeter random encounter route;
-- Caelora → Cresthaven travel is skipped in current Chapter-3 story authority and does not host random encounters;
-- False-Warrant Adept remains placement-unresolved and is not added here;
-- Grand Inquisitor Frame is a strong normal-pool Suppressed-Archives identity;
-- simultaneous enemy hard cap remains 8;
-- current v79 raw bodies/Powers override all older numeric formation-table rows.
+The immediate pre-Warden buffer is:
+> **SAFE — no random encounter**
 
+The Warden Chamber contains only the authored **First Command Warden** encounter.
 
-## Strong normal-pool integration — Grand Inquisitor Frame
-- pool: **Suppressed Archives**;
-- former optional/side-room placement is retired;
-- this identity is part of the area's normal encounter structure;
-- if repetition would violate the identity's fiction, use a one-time normal-pool entry;
-- exact insertion frequency/weight is **OPEN pending encounter-budget revalidation**; the existing weighted rows remain the baseline for repeatable formations until that pass.
+## Cresthaven body-count progression
+- Tower Foundation: **4–5**
+- Command Interior: **4–6**
+- Warden approach: **5–6**
+- simultaneous ordinary-enemy ceiling: **6**
+
+This is a structural pacing target, not final numeric difficulty certification.
+
+# Old City Archives
+
+The Old City formation rebuild remains separate and is next.
+
+Current active Old City ordinary identities:
+- Judgment Frame;
+- Erasure Wisp;
+- Authority Lens;
+- Archive Current — late carryover from Chapter 2.
+
+Strong normal-pool Elite:
+- Grand Inquisitor Frame — late only / max 1 per formation.
+
+Mandatory boss:
+- Archive Scribe Engine — **never random**.
+
+Exact Beat-7 through Beat-10 compositions remain open until the dedicated Old City formation pass.
+
+## Validation boundary
+All Chapter-3 formation numbers, weights, raw bodies, and encounter frequency remain subject to the current mandatory-vs-completionist validation pass.
+
+Do not reuse historical validation based on:
+- Maevra as a combat guest;
+- Nimera joining at the Scribe Engine;
+- hostile Caelora / road encounters;
+- the retired Deep Command Route;
+- random Archive Scribe Engines.
