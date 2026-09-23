@@ -28,7 +28,7 @@ Flooded-area wildlife carryover:
 These three Old Waterworks creatures may continue into compatible flooded / broken Archive sectors rather than stopping artificially at the area boundary.
 
 ### Old Bastion
-- Bastion Shield Guard
+- Ruin Shieldbearer — approved Chapters 0–1 carryover; Chapter-2-scaled body
 - Bastion Crossbow Guard
 - Transfer Adept
 - Black Host Raider — approved carryover
@@ -61,7 +61,7 @@ Current Chapter-2 story authority controls actual encounter placement.
 - Waterworks danger should come from compatible creatures, hazards, and non-Host threats unless a later authored placement says otherwise.
 - The Sunken Archive is not an active Black Host facility.
 - Archive ordinary encounters may use Archive Current, Memory Scribe, Hollow Watch Sentry, Bogshell, Cistern Leech, and Needlewing where the current area design places them.
-- Old Bastion is an active functioning Black Host position; Bastion guards, Transfer Adepts, approved Raiders, and Rift Hounds are compatible there.
+- Old Bastion is an active functioning Black Host position; Ruin Shieldbearers, Bastion Crossbow Guards, Transfer Adepts, approved Raiders, and Rift Hounds are compatible there.
 - Maevra is physically present in Chapter 2 but **fully non-playable/noncombat**. She is not a fourth battle-party body.
 - After Rhazek's defeat, the Black Host withdraws and the maintained road-side exit becomes usable.
 - There is **no Hold the Junction**, extraction-causeway battle, surprise post-extraction fight, or dedicated escort battle.
@@ -115,3 +115,9 @@ Owning validation:
 - Bogshell, Cistern Leech, and Needlewing may carry directly from the Old Waterworks into compatible flooded Sunken Archive sectors.
 - Drowned Archive Maw is removed from active Chapter-2 placement; the carried wet-area wildlife already supplies the Archive's organic ecology.
 - Archive Leviathan remains the major organic/aquatic combat climax and should not be diluted by a separate generic heavy 'Maw' identity.
+
+
+## Old Bastion shield-unit correction — 2026-09-23
+- **Bastion Shield Guard is retired as a duplicate identity.**
+- The Old Bastion uses the established **Ruin Shieldbearer** instead.
+- Chapter 2 may use a chapter-appropriate scaled Ruin Shieldbearer body, but it remains the same troop identity and retains the Shieldbearer combat grammar rather than creating a separate Bastion-only shield unit.
