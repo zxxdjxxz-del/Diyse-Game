@@ -60,7 +60,7 @@ Nothing here reveals the Chapter 2 crisis yet.
 
 Torren sees it first.
 
-**TORREN:** There. Dunmere. Still where I left it. Good start.
+**TORREN:** There. Dunmere. Still where I left it. Damn good start.
 
 **CYANIS:** You sound relieved.
 
@@ -84,7 +84,7 @@ A beat.
 
 **TORREN:** Two warnings and a stew.
 
-**ILYRA:** Important distinction.
+**ILYRA:** Of course you'd call that different.
 
 Maevra starts toward town.
 
@@ -92,7 +92,7 @@ Maevra starts toward town.
 
 Torren follows.
 
-**TORREN:** Fuck off.
+**TORREN:** Piss off.
 
 Cyanis grins and follows.
 
