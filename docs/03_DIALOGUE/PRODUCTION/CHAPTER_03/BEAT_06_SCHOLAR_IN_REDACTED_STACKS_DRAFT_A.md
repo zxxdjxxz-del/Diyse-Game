@@ -32,9 +32,9 @@ Ilyra smiles.
 
 Nimera notices the route notebook at Torren's belt.
 
-**NIMERA:** Harth. I've seen your copied route marks. They're fucking criminal.
+**NIMERA:** Harth. I've seen your copied route marks. They're criminal as hell.
 
-**TORREN:** They fucking work.
+**TORREN:** They work. You hate them.
 
 **NIMERA:** For you. So does scratching food on a sack. That doesn't make it an archive standard.
 
@@ -74,7 +74,7 @@ Cyanis gives her the bounded Brackenwall account.
 
 Nimera thinks for a second.
 
-**NIMERA:** Good. Boring restraint is fucking beautiful when the alternative is turning a person into an experiment because everybody got curious at once.
+**NIMERA:** Good. Boring restraint is damn beautiful when the alternative is turning a person into an experiment because everybody got curious at once.
 
 **CYANIS:** That's almost flattering.
 
@@ -142,7 +142,7 @@ Nimera points at him.
 
 Nimera turns back to the spread on her table and flips through two tagged volumes.
 
-**NIMERA:** The useful seal material is not in this fucking room.
+**NIMERA:** The useful seal material is not in this damn room.
 
 **CYANIS:** Where is it?
 
@@ -166,7 +166,7 @@ Cyanis watches.
 
 **CYANIS:** Fair as hell.
 
-**NIMERA:** Also, if your Card does something new, I want to be there before four people turn one weird twitch into a fucking creation myth.
+**NIMERA:** Also, if your Card does something new, I want to be there before four people turn one weird twitch into a bullshit creation myth.
 
 Torren glances toward the lower route.
 
@@ -176,7 +176,7 @@ Nimera shoulders her things and picks up her Conduit.
 
 **NIMERA:** Then let's go see how much of marked survives contact with the floor.
 
-**TORREN:** Starting to like you a hell of a lot less.
+**TORREN:** Starting to like you less.
 
 **NIMERA:** Good. Means you're paying attention.
 
