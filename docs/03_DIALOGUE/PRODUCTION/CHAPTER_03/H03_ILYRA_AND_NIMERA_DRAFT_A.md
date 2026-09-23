@@ -147,7 +147,7 @@ Ilyra laughs.
 
 **ILYRA:** No. I'm enjoying you prosecuting and acquitting a stranger over charcoal.
 
-**NIMERA:** The evidence changed, damn it.
+**NIMERA:** The evidence changed, you smug asshole.
 
 **ILYRA:** The evidence was my eyebrow.
 
