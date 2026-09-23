@@ -40,7 +40,7 @@ Cyanis looks toward the wreck line as the light begins to go.
 
 **CONVOY OFFICER:** Brackenwall can send people back at first light.
 
-**CYANIS:** If somebody's pinned, first light is too late. Same if they're bleeding where we can't see them. I'm not asking to chase north. Give us the wreck line and the ditch, one sweep, then we stop.
+**CYANIS:** If somebody's pinned, first light is too late. Same if they're bleeding where we can't see them. I'm not asking to chase the bastards north. Give us the wreck line and the ditch, one sweep, then we stop.
 
 **ILYRA:** He's right. We don't need the whole road. We need the places somebody could still be alive and unable to call loudly enough for camp to hear them.
 
@@ -78,9 +78,9 @@ The officer's attention drops to the Card in Cyanis's possession.
 
 Cyanis looks down at the dark Card.
 
-**CYANIS:** Happily. I've had enough clever magic for one day.
+**CYANIS:** Happily. I've had enough damn clever magic for one day.
 
-**ILYRA:** No argument from me. We have two responses, one physical correlation, and no idea what any of it means. That's a terrible time to improvise a third test.
+**ILYRA:** No argument from me. Twice was enough. I'm not asking that damn thing for a third demonstration before we have walls and records.
 
 **CONVOY OFFICER:** Good. Brackenwall can decide what to do with it when we have walls, records, and people who aren't half dead.
 
