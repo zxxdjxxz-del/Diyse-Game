@@ -40,7 +40,7 @@ Mirena walks them through the minimum.
 
 **MIRENA:** This room is yours for maps and records. Sleeping rooms are usable. Supply room is ugly but stocked. The old treatment room needs work, but it has water and a door that closes.
 
-**ILYRA:** Fucking luxury.
+**ILYRA:** Luxury. I'm overwhelmed.
 
 **MIRENA:** I was told adventurers enjoy deprivation.
 
@@ -130,7 +130,7 @@ Mirena looks around the half-reopened fort.
 
 **MIRENA:** I knew I disliked that question.
 
-**ILYRA:** Too fucking late.
+**ILYRA:** Too late.
 
 Mirena smiles and heads out with Maevra.
 
