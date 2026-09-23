@@ -1,7 +1,7 @@
 # Grand Inquisitor Frame
 
-**Chapter:** 3 strong normal-pool Elite  
-**Status:** **POWER COMPLETE / v79 HP RECALIBRATED**
+**Chapter:** 3 — Old City Archives strong normal-pool Elite  
+**Status:** **CHAPTER-3 IDENTITY / PLACEMENT / ACTION GRAMMAR LOCKED — NUMERIC REVALIDATION REQUIRED**
 
 ## Raw body — RETAIN
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -30,9 +30,9 @@ True construct:
 ### Lock Sequence
 - one party member
 - Magical / Lightning
-- **235 Power**
+- **235 Power — provisional**
 - Base Hit95
-- **25% Stun**
+- **no harmful-status rider in Chapter 3**
 - 2-round repetition lock
 
 ### Inquisitor Guard
@@ -64,3 +64,46 @@ Current role:
 > **strong normal-pool enemy**
 
 It is encountered through the chapter/area's normal encounter structure rather than an optional room or branch. If the identity is unique/named, use a one-time normal-pool entry rather than repeatable copies. Existing raw stats and Power remain retained; encounter frequency/placement and reward impact require revalidation where the prior optional placement mattered.
+
+
+## Chapter-3 placement lock — 2026-09-23
+Grand Inquisitor Frame remains Chapter 3's **strong normal-pool Elite**.
+
+Current home:
+> **Old City Archives — late dungeon only**
+
+Eligible:
+- Beat 10 — Deep Archives;
+- rare late Beat-9 Hall-of-Seals boundary placement only if final map routing naturally overlaps the deeper Ancient enforcement layer.
+
+Not eligible:
+- early Old City access;
+- Lower Archives;
+- Buried Collections;
+- Cresthaven tower base;
+- Warden Chamber.
+
+Encounter rules:
+- maximum **1 Grand Inquisitor Frame per formation**;
+- never stack multiple copies;
+- ordinary supporting constructs may accompany it;
+- it should be uncommon enough that Judgment Frame remains the normal heavy body.
+
+Identity:
+> high-order Archive enforcement frame / late-dungeon pressure spike
+
+It is not:
+- an optional-room miniboss;
+- a unique named character;
+- an Archive Judgment Engine substitute;
+- a First Command Warden substitute.
+
+## Chapter-3 Stun boundary
+Lock Sequence remains Lightning damage but has **no Stun rider in Chapter 3**.
+
+This preserves the current status rollout:
+> Command-Station Sentry at Cresthaven is the preferred ordinary-enemy introduction to Stun.
+
+A later reused version may gain Stun under its own chapter authority.
+
+The inherited Lv14 / 1,200 HP body and direct-damage Powers are retained only as provisional starting values. The old v79 certification is retired because Chapter 3's party chronology and dungeon structure have changed.
