@@ -74,7 +74,7 @@ A beat.
 
 **CYANIS:** Familiar?
 
-**NIMERA:** No. That's why it's interesting. Familiar things are useful. Unfamiliar things are where people start lying to themselves because they hate empty categories.
+**NIMERA:** No. That's why it's interesting. Familiar things are useful. Unfamiliar things are where people start bullshitting themselves because they hate empty categories.
 
 **CYANIS:** It reacted when we separated it from me.
 
@@ -124,7 +124,7 @@ She leans closer without reaching for the Card.
 
 Nimera looks back to Cyanis.
 
-**NIMERA:** Mirena did not send three people into restricted stacks because one Card behaved badly. What's the other problem?
+**NIMERA:** Mirena did not send three people into restricted stacks because one Card did weird shit. What's the other problem?
 
 **TORREN:** Orders moving the Card toward Caelora answered to Queen Lysara's personal seal.
 
@@ -170,7 +170,7 @@ Nimera pauses.
 
 Nimera turns back to the spread on her table and flips through two tagged volumes.
 
-**NIMERA:** The useful seal material is not up here.
+**NIMERA:** The useful seal material is not in this fucking room.
 
 **CYANIS:** Where is it?
 
