@@ -1,0 +1,35 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 12 — Inner Collections / Westways Recordbook / Sealwright Chamber",
+  "production_ready": true,
+  "participants": ["cyanis","ilyra","torren","nimera"],
+  "hard_outcomes": [
+    "The party finds an approximately 500-year-old Yahtrean Westways recordbook.",
+    "The recordbook contains a less precise but intact regional hand-copy derived from thousands-of-years-old Ancient Diysean Wayfinder information.",
+    "Coverage is Westways and central Yahtrea only.",
+    "The copy shows the complete Ancient Caelora cluster, a huge northern tower, major routes converging there, and those routes continuing north until the copied region ends.",
+    "The copied map does not show the northbound routes' destination and does not identify Ivorybridge.",
+    "The existence of an Ancient capital at Caelora is already known; the reveal is scale, intact cluster shape and route relationship.",
+    "The Sealwright Chamber separately shows a progression of seal-copying attempts culminating in repeated Crest of Yahtrea copies with powerful magical residue.",
+    "Nothing proves any copy reproduced Lysara's genuine royal magical authority.",
+    "The seal thread dead-ends in Caelora for now.",
+    "The field section ends with a direct cut to Mirena."
+  ],
+  "forbidden_reveals": [
+    "cresthaven_identified_before_beat13","ivorybridge_on_ancient_map","route_destination","successful_royal_authority_copy","recent_reader_identity","seal_practitioner_identity","calder","prime","might","last_sentinel","deep_ruby"
+  ],
+  "true_voice_requirements": {
+    "nimera": "Live brain; strong provenance discipline, self-correction, high/frequent profanity with 15–35% long-form anti-sanitization calibration, no exposition-machine flattening.",
+    "torren": "Owns route-reading only where the physical map supports it; no certainty beyond the copied region.",
+    "ilyra": "Dry curiosity/skepticism, no automatic moral/safety role.",
+    "cyanis": "Crest Knight only; recognizes the relation to the Chapter-1 Wayfinder without becoming Ancient-tech expert."
+  },
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml"
+  ]
+}
