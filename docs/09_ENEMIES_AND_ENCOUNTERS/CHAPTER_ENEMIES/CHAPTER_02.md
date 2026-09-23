@@ -30,7 +30,7 @@ These three Old Waterworks creatures may continue into compatible flooded / brok
 ### Old Bastion
 - Ruin Shieldbearer — approved Chapters 0–1 carryover; Chapter-2-scaled body
 - Black Host Crossbowman — approved Chapters 0–1 carryover; Chapter-2-scaled body
-- Transfer Adept
+- Black Host War-Sorcerer — approved Black Host caster identity; Chapter-2-scaled variant
 - Black Host Raider — approved carryover
 - Beast Handler — approved carryover; use only where current placement explicitly supports it
 - Rift Hound — approved carryover
@@ -61,7 +61,7 @@ Current Chapter-2 story authority controls actual encounter placement.
 - Waterworks danger should come from compatible creatures, hazards, and non-Host threats unless a later authored placement says otherwise.
 - The Sunken Archive is not an active Black Host facility.
 - Archive ordinary encounters may use Archive Current, Memory Scribe, Hollow Watch Sentry, Bogshell, Cistern Leech, and Needlewing where the current area design places them.
-- Old Bastion is an active functioning Black Host position; Ruin Shieldbearers, Black Host Crossbowmen, Transfer Adepts, approved Raiders, and Rift Hounds are compatible there.
+- Old Bastion is an active functioning Black Host position; Ruin Shieldbearers, Black Host Crossbowmen, Black Host War-Sorcerers, approved Raiders, and Rift Hounds are compatible there.
 - Maevra is physically present in Chapter 2 but **fully non-playable/noncombat**. She is not a fourth battle-party body.
 - After Rhazek's defeat, the Black Host withdraws and the maintained road-side exit becomes usable.
 - There is **no Hold the Junction**, extraction-causeway battle, surprise post-extraction fight, or dedicated escort battle.
@@ -127,3 +127,10 @@ Owning validation:
 - **Bastion Crossbow Guard is retired as a duplicate identity.**
 - The Old Bastion uses the established **Black Host Crossbowman** instead.
 - Chapter 2 may use a chapter-appropriate scaled Crossbowman body, but it remains the same troop identity and retains the established Crossbowman combat grammar.
+
+
+## Old Bastion caster correction — 2026-09-23
+- **Transfer Adept is retired as a stale Red-Transfer-Bastion identity.**
+- The Old Bastion uses the established **Black Host War-Sorcerer** identity instead.
+- Chapter 2 receives a lower-level War-Sorcerer variant appropriate to this point in progression.
+- Burn introduction on the mandatory route may come from the War-Sorcerer's Fire magic rather than retired Transfer terminology.
