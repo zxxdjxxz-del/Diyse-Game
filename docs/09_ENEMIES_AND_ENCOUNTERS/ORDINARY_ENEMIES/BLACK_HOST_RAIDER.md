@@ -70,3 +70,8 @@ Black Host Raider is part of the locked Chapter-0 roster. Current authored use: 
 - No healer-focus or lowest-HP focus.
 - Formation role: baseline Black Host melee pressure.
 
+## Chapter-0 behavior lock
+- Uses the normal action-selection fallback between currently legal Raider Cut and Pressing Slash.
+- No harmful-status rider is active in Chapter 0.
+- P01 is Cyanis-solo, so all legal single-target actions necessarily target Cyanis.
+- No reinforcement call, ally buff, or hidden tutorial exception.
