@@ -86,7 +86,8 @@ CHAPTERS: tuple[ChapterSpec, ...] = (
     ChapterSpec(
         "02",
         "Chapter 2",
-        beats(1, 16)
+        beats(1, 5)
+        + beats(7, 16)
         + (SourceSpec("C05 — Still Burns", "C06_STILL_BURNS_*.md"),),
     ),
     ChapterSpec(
