@@ -63,3 +63,14 @@ Current locked Chapter-0 appearance:
 > `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
 
 Combat/encounter mechanics remain owned by this file; visual identity is owned by the art-domain authority above.
+
+## Exact current visual master
+The Black Host Crossbowman's exact current approved appearance is the 2026-09-22 B00/B00.5-style render recorded in:
+> `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
+
+Master fingerprint:
+- image-generation ID: `9a2c6742-47e3-4401-86b2-b5c1d01cba93`
+- SHA-256: `845b344ebf8d45b3c078b9ffc3dd094c19407bdfe07819608dfcbd07960c96a5`
+- dimensions: **1122 × 1402**
+
+That image controls incidental armor geometry, helmet opening, armor reduction relative to Raider, crossbow treatment, and overall silhouette over older prose.
