@@ -13,7 +13,7 @@
 | 3 | Beat 3 | `BEAT_03_IMPOSSIBLE_ORDERS_DRAFT_A.md` | `5239b06c2cc6347c247e35ad987a283d83bd3ef4a651d09fdcf4bd0a5f3f8234` |
 | 4 | Beat 4 | `BEAT_04_SEAL_NOT_USED_DRAFT_A.md` | `fe113078b854b70c556ee649ddae43782b20533dd86a83fbdb4f0a73c6ac6861` |
 | 5 | Beat 5 | `BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md` | `2bba880980c269e13d67fc66ed11be942120909f27691c30b129ee3f66b8a7eb` |
-| 6 | Beat 6 | `BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md` | `9069b772197be40c521436d829668d84d40a0db48923826a366c5c5a22505a6a` |
+| 6 | Beat 6 | `BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md` | `5e76af818708514a72c4ea647e4fefdc1526842ba1d5beeaa7d4c1e3174bc4f6` |
 | 7 | Beat 7 | `BEAT_07_LOWER_ARCHIVES_DRAFT_A.md` | `4ad14ec3f304bfaeb957bb54724b76d3e3fd85ff124c6873081ba929cfb8167a` |
 | 8 | Beat 8 | `BEAT_08_BURIED_COLLECTIONS_RECENT_READER_DRAFT_A.md` | `a3df521d940a5d04667770e3c820f658724f0bd032f80ef4c86f893020236899` |
 | 9 | Beat 9 | `BEAT_09_HALL_OF_SEALS_RECENT_READER_DRAFT_A.md` | `7b131e08f41cefd7ed72ca82a5693917bc4ad3ee02ce8915d607b88c36beecb7` |
@@ -21,10 +21,10 @@
 | 11 | Beat 11 | `BEAT_11_ARCHIVE_SCRIBE_ENGINE_DRAFT_A.md` | `4907ea3ba8efac6befbe7f559773b965cce08c0fe6f979d20ddd62ec58284686` |
 | 12 | Beat 12 | `BEAT_12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DRAFT_A.md` | `35c62c209dfb0b7e11b47189c461302d953a1c615562d68041df135ab61933d5` |
 | 13 | Beat 13 | `BEAT_13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DRAFT_A.md` | `7c8ce93da4885efb1f31d2a6d928090684d20fe856802c9e5fdd3cabb835d76e` |
-| 14 | Beat 14 | `BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md` | `98703d1b1f1a528ea263a3591be7ff2aa2294a76a329c638cb736ac0c8ae211a` |
+| 14 | Beat 14 | `BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md` | `2781f5907cf6ee5c56ecf854161c9b262659a346b298da297c3166db0b080ec5` |
 | 15 | Beat 15 | `BEAT_15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DRAFT_A.md` | `c6132f9f95f04c2d3aa1e62e27d765ce6a8caf0b88231c22e84f6feaad91045e` |
-| 16 | C06 — Nimera Takes Over a Table | `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md` | `c39f1a4b5590b21bf6fbf5f5fa3da5c77203f79e30bb03cd36a5936e6a3f5aaa` |
-| 17 | C07 — Ilyra and Nimera | `H03_ILYRA_AND_NIMERA_DRAFT_A.md` | `72ad8a0feaa29f0e54e9bd27d1777b3c9110fb89b927344d7c72361dd8dcbd49` |
+| 16 | C06 — Nimera Takes Over a Table | `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md` | `ff4a018648dc2eebb94335b6687c5a8e72aac0d00b43c8fbaa3bb6191de6648a` |
+| 17 | C07 — Ilyra and Nimera | `H03_ILYRA_AND_NIMERA_DRAFT_A.md` | `1157586b03d4265d502a51d2b57a4dc5052d6fb387a17377b60a3499bb2955ec` |
 
 ---
 
@@ -826,7 +826,7 @@ Transition directly into:
 ## Beat 6
 
 **Atomic source:** `BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md`  
-**Source SHA-256:** `9069b772197be40c521436d829668d84d40a0db48923826a366c5c5a22505a6a`
+**Source SHA-256:** `5e76af818708514a72c4ea647e4fefdc1526842ba1d5beeaa7d4c1e3174bc4f6`
 
 # Chapter 3 — Beat 6
 # Scholar in Redacted Stacks / Nimera Joins
@@ -862,7 +862,7 @@ Ilyra smiles.
 
 Nimera notices the route notebook at Torren's belt.
 
-**NIMERA:** Harth. I've seen your copied route marks. They're criminal as hell.
+**NIMERA:** Harth. I've seen your copied route marks. Piss-poor records. Effective field notes. Infuriating combination.
 
 **TORREN:** They work. You hate them.
 
@@ -920,7 +920,7 @@ Nimera thinks for a second.
 
 She leans closer without reaching for the Card.
 
-**NIMERA:** Green and gold every time, and you still don't know what the hell it is?
+**NIMERA:** Green and gold every time, and you still don't know what bastard category it belongs in?
 
 **CYANIS:** Correct.
 
@@ -2132,7 +2132,7 @@ Transition into:
 ## Beat 14
 
 **Atomic source:** `BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md`  
-**Source SHA-256:** `98703d1b1f1a528ea263a3591be7ff2aa2294a76a329c638cb736ac0c8ae211a`
+**Source SHA-256:** `2781f5907cf6ee5c56ecf854161c9b262659a346b298da297c3166db0b080ec5`
 
 # Chapter 3 — Beat 14
 # Cresthaven / Ancient Tower Base / First Command Warden
@@ -2196,7 +2196,7 @@ Torren stops at a partially collapsed storage room where later flooring has brok
 
 Below the Crown floor is a much older stair and fitted wall.
 
-**ILYRA:** Subtle as hell.
+**ILYRA:** Subtle as a boot up the ass.
 
 **NIMERA:** It was subtle while a floor was sitting on it.
 
@@ -2384,7 +2384,7 @@ Then stops.
 
 **CYANIS:** No. I feel normal.
 
-**TORREN:** Timing's ugly as hell.
+**TORREN:** Timing's piss-poor.
 
 **NIMERA:** Very. It waited until the bastard was dead. I don't like that timing. I'm still not marrying the two.
 
@@ -2600,7 +2600,7 @@ Current next investigative direction:
 ## C06 — Nimera Takes Over a Table
 
 **Atomic source:** `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md`  
-**Source SHA-256:** `c39f1a4b5590b21bf6fbf5f5fa3da5c77203f79e30bb03cd36a5936e6a3f5aaa`
+**Source SHA-256:** `ff4a018648dc2eebb94335b6687c5a8e72aac0d00b43c8fbaa3bb6191de6648a`
 
 # Chapter 3 — Character-Life C06
 # Nimera Takes Over a Table
@@ -2711,9 +2711,9 @@ Torren looks at Cyanis.
 
 **TORREN:** He's right about the armor, though.
 
-**CYANIS:** We moved on.
+**CYANIS:** Keep talking, you mud-caked old bastard wearing half a hedge.
 
-**TORREN:** You did.
+**TORREN:** Better than looking like a silver-plated cock with command authority.
 
 Nimera laughs again.
 
@@ -2882,7 +2882,7 @@ The records room simply feels more inhabited than before.
 ## C07 — Ilyra and Nimera
 
 **Atomic source:** `H03_ILYRA_AND_NIMERA_DRAFT_A.md`  
-**Source SHA-256:** `72ad8a0feaa29f0e54e9bd27d1777b3c9110fb89b927344d7c72361dd8dcbd49`
+**Source SHA-256:** `1157586b03d4265d502a51d2b57a4dc5052d6fb387a17377b60a3499bb2955ec`
 
 # Chapter 3 — Character-Life C07
 # Ilyra and Nimera
@@ -3033,7 +3033,7 @@ Ilyra laughs.
 
 **ILYRA:** No. I'm enjoying you prosecuting and acquitting a stranger over charcoal.
 
-**NIMERA:** The evidence changed, damn it.
+**NIMERA:** The evidence changed, you smug asshole.
 
 **ILYRA:** The evidence was my eyebrow.
 
