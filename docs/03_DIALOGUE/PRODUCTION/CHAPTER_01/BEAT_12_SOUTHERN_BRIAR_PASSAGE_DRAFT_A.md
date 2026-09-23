@@ -35,7 +35,7 @@ Movement pauses.
 
 The Briarhide itself is not visible.
 
-**CYANIS:** That's large.
+**CYANIS:** That's a big damn animal.
 
 Torren's tone changes immediately.
 
@@ -47,7 +47,7 @@ He studies what the track actually gives him.
 
 **MAEVRA:** How recent?
 
-**TORREN:** Recent enough I don't care whether it's ten minutes or thirty while we're standing in the track.
+**TORREN:** Recent enough I don't give a shit whether it's ten minutes or thirty while we're standing in the track.
 
 Ilyra looks down the route ahead.
 
@@ -111,7 +111,7 @@ A beat.
 
 **TORREN:** Don't know.
 
-**ILYRA:** Helpful.
+**ILYRA:** Helpful as hell.
 
 **TORREN:** It's overgrown, runs the wrong direction for Dunmere, and nothing I've ever needed was through it.
 
