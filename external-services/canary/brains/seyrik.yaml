@@ -4,6 +4,7 @@ character: Seyrik
 source_authority:
   - docs/01_CHARACTERS/PLAYABLE/Seyrik.md
   - docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md
+  - docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md
 
 identity:
   age: 29
