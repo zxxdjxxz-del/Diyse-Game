@@ -1,199 +1,171 @@
-# Archive Leviathan — True-Battle Certified
+# Archive Leviathan
 
-**Chapter:** 2
-**Scene:** S013 — Sunken Archive
-**Status:** **v97 TRUE-BATTLE CERTIFIED / RETAIN — HP / RAW OFFENSE / DIRECT-DAMAGE POWERS CLOSED**
+**Chapter:** 2 — Sunken Archive  
+**Role:** mandatory Sunken Archive climax boss  
+**Status:** **IDENTITY / ARCHITECTURE / ACTION GRAMMAR LOCKED — NUMERIC REVALIDATION REQUIRED**
 
-## Actual player-state reference
-Chapter 2 starts around Lv5.
+## Current encounter identity
 
-Archive Leviathan is the first fixed named/story EXP reward in Chapter 2.
+Archive Leviathan is a **living territorial creature** that has made the flooded lower Archive its habitat.
 
-Central route:
-> **Lv6**
+It is not:
+- an Archive construct;
+- an Ancient security system;
+- a recording / copying machine;
+- a Black Host-controlled beast;
+- the later Major Hunt Worldscar Leviathan.
 
-Completionist/high-side route:
-> **Lv7**
+Its presence helps keep Chapter 2's Sunken Archive ecological rather than construct-heavy.
 
-The completionist route can carry Chapter-1 optional EXP into Chapter 2, and the Archive Duplicant is optional before the basin. Do not balance the mandatory boss around that optional advantage.
+## Current party reference
 
-## Current raw line
+Combat party:
+> **Cyanis + Ilyra + Torren**
+
+Maevra is physically present in Chapter 2 but is fully noncombat and contributes no turns, damage, healing, targeting, or party-body count.
+
+Exact mandatory/completionist pre-boss levels remain subject to the current Chapter-2 encounter-validation pass.
+
+## Provisional retained raw line
 
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 9 | **1,900** | **50** | **52** | 31 | 33 | 25 | 0 | 5 |
 
-## Architecture
-- one continuous HP bar
-- visible Recorded Pattern behavior
-- only completed eligible actions may be recorded
-- no hidden command reading
-- same-bar Emergent state
-- no HP refill
-- no transition damage
-- no fresh body
-- no Prime refresh
-- no Water element
+These values are retained only as provisional balance data.
 
-## Recovered signatures
+The previous certification is retired because it counted Maevra as a fourth combatant and used an obsolete Chapter-2 encounter structure.
+
+## Architecture
+
+- one continuous HP bar;
+- State A: **Territorial Leviathan**;
+- State B begins at **45% HP**: **Uncoiled Leviathan**;
+- no HP refill;
+- no fresh body;
+- no free threshold attack;
+- no Prime refresh;
+- no transformation into a construct or empowered Archive form;
+- no Recorded Pattern / copy / command-reading mechanic;
+- no Water element.
+
+The 45% transition is behavioral:
+> the wounded Leviathan abandons its more guarded submerged movement and commits to a more aggressive full-body assault.
+
+## State A — Territorial Leviathan
 
 ### Leviathan Rend
-- one party member
-- Physical / Neutral
-- **220 Power**
-- Base Hit **100**
-- **25% Bleed**
-- 1-round repetition lock
+- one party member;
+- Physical / Neutral;
+- provisional retained **220 Power**;
+- Base Hit100;
+- **25% Bleed**;
+- 1-round repetition lock.
 
 ### Vault Crash
-- all conscious party members
-- Physical / Neutral
-- **140 Power per target**
-- Base Hit **95**
-- **15% Staggered per target**
-- 2-round repetition lock
+- all conscious party members;
+- Physical / Neutral;
+- provisional retained **140 Power per target**;
+- Base Hit95;
+- no harmful-status rider;
+- 2-round repetition lock.
 
-### Archive Undertow
-- Emergent state only
-- all conscious party members
-- Magical / Colorless
-- **150 Power per target**
-- Base Hit **100**
-- no harmful-status rider
-- 2-round repetition lock
-- aquatic presentation does **not** create a Water element
+Presentation:
+> the Leviathan uses its mass against the flooded chamber / surrounding structure, creating broad physical impact rather than magical Archive output.
 
-## Lv6 throughput proof
-Against DEF31:
+### Deepwater Lunge
+- one party member;
+- Physical / Neutral;
+- heavy direct attack from partial submersion;
+- exact Power remains OPEN for the fresh three-person validation pass.
 
-| Character | Basic Attack |
-|---|---:|
-| Cyanis | 51.24 |
-| Ilyra | 37.80 |
-| Torren | 58.58 |
-| Maevra | 30.86 |
+No hidden targeting priority.
 
-Total:
-> **178.48 damage per all-basic party round**
+## State B — Uncoiled Leviathan
 
-Inherited 2,592 HP:
-> **14.52 all-basic rounds**
+At 45% HP:
+- no refill;
+- no transition damage;
+- no permanent armor/stat activation;
+- no scripted extra turn;
+- existing action locks continue normally.
 
-Recovered legal premium substitutions add about:
-> **+262.48 damage**
+State B retains:
+- Leviathan Rend;
+- Vault Crash.
 
-across the available MP budget over their replaced basic attacks.
+It adds:
 
-That places the recovered ten-round no-heal envelope around:
-> **2,047 damage**
+### Flood Surge
+- all conscious party members;
+- Physical / Neutral;
+- uses displaced water and body mass as environmental impact;
+- **not** a Water-element spell;
+- no Freeze;
+- no Stun;
+- exact Power remains OPEN pending validation;
+- 2-round repetition lock.
 
-The prior working analysis supported an HP corridor of:
-> **1,800–1,950**
+State-B behavior should favor direct aggression over defensive delay.
 
-Current center:
-> **1,900 HP**
+## Status boundary
 
-## Round target
+Chapter 2's current harmful-status rollout remains:
+> **Burn introduced on the mandatory route through Black Host War-Sorcerer**
 
-| Route | Target |
-|---|---:|
-| Mandatory aggressive | ~8–9 |
-| Mandatory normal | **~9–10** |
-| Completionist / Lv7 high-side | **~8–9** |
-| Safety / heavier mechanic response | ~10–11 |
+Archive Leviathan does not need to introduce another status.
 
-Completionists are intentionally allowed to finish somewhat faster.
+Retain Bleed on Leviathan Rend as existing pressure.
 
-## Raw-offense certification
+Do not add:
+- Freeze;
+- Stun;
+- Recorded Pattern debuffs;
+- copied player actions;
+- hidden adaptive resistance.
 
-Current raw offense:
-- **ATK 50**
-- **MAG 52**
+## Chapter-3 contrast boundary
 
-### Leviathan Rend — 220 Power
-Approximate Lv6 direct damage:
-- Cyanis **42.3**
-- Ilyra **59.8**
-- Torren **57.3**
-- Maevra **64.0**
+Chapter 2 intentionally keeps the Sunken Archive light on constructs:
+- Archive Current;
+- Memory Scribe.
 
-### Vault Crash — 140 Power per target
-Approximate Lv6 direct damage:
-- Cyanis **26.9**
-- Ilyra **38.0**
-- Torren **36.5**
-- Maevra **40.7**
+Archive Leviathan is deliberately **organic** so that Chapter 3 can deliver the stronger construct-heavy escalation.
 
-### Archive Undertow — 150 Power per target
-Approximate Lv6 direct damage:
-- Cyanis **38.6**
-- Ilyra **33.8**
-- Torren **44.1**
-- Maevra **47.2**
+Do not give Leviathan Archive-machine behavior merely because it occupies the Archive.
 
-## Recorded Pattern — v97 exact deterministic trigger
-Recorded Pattern itself is:
-> **Power: N/A — no direct damage**
+## Numerical validation status
 
-Recorded Pattern reacts to **repeated completed offense**; it does not randomly record an unrelated first use and never predicts a menu choice.
+> **REOPENED**
 
-Eligible actions:
-- Basic Attack;
-- direct-damage Ability;
-- direct-damage Standard Card.
+The former v97 true-battle certification is not current authority.
 
-Items, healing/support-only commands, unresolved reactions/counters, and Prime commands are not eligible.
+Fresh validation must use:
+- Cyanis + Ilyra + Torren only;
+- current mandatory-route pre-boss level/equipment;
+- current completionist/high-side state;
+- current Chapter-2 encounter route;
+- current Bleed rules;
+- no Archive Duplicant assumption.
 
-Exact trigger:
-1. Track each actor's most recently completed eligible direct-damage action identity.
-2. If that actor next completes the **same exact eligible direct-damage action** on their next offensive action, that use is a repeat candidate.
-3. A non-eligible action by that actor breaks that actor's consecutive-offense repetition chain.
-4. The repeat that creates the candidate deals full damage; the Pattern never taxes the triggering hit retroactively.
-5. At the end of the full party round, if one or more repeat candidates occurred, the **last repeated eligible action to resolve that round** becomes the single visible Recorded Pattern.
-6. Identity is actor-qualified: Cyanis's Basic Attack and Ilyra's Basic Attack are different action identities.
+The retained 1,900 HP and existing direct-damage values are provisional starting points, not closed balance certification.
 
-While active, using that same actor-qualified action against the Leviathan causes:
-> **20% less final direct damage from that action**
+## Story outcome
 
-No status, penetration, healing, resource, or support component is copied or modified.
+At 0 HP:
+- Archive Leviathan is defeated;
+- the physical route beyond it becomes accessible;
+- victory provides progression, not a major lore dump;
+- no second body or post-boss encounter follows.
 
-Duration:
-- State A — **2 full party rounds**;
-- State B / Emergent — newly recorded patterns last **1 full party round**;
-- a later qualifying repeat may replace/refresh the single Pattern; Patterns never stack.
+## 2026-09-23 identity correction
 
-Same-bar emergence threshold:
-> **45% HP**
+Retired:
+- **Recorded Pattern**;
+- repeated-action damage suppression;
+- actor-qualified action recording;
+- Emergent archive-system framing;
+- old four-person Maevra-inclusive certification.
 
-At threshold there is no refill, transition damage, fresh body, or Prime refresh. Any already-active Pattern keeps its remaining duration.
-
-## v97 representative true-battle certification
-Using the exact Chapter-2 party state and v96 Bleed rules, 20,000-run prepared distributions produced:
-
-| Route | Win rate | Mean rounds | Median | 10th–90th | Any-KO incidence | Mean party HP left |
-|---|---:|---:|---:|---:|---:|---:|
-| Mandatory Lv6 | **100%** | **10.05** | **10** | 9–11 | **0.05%** | **53.74%** |
-| Completionist/high-side Lv7 | **100%** | **8.58** | **9** | 8–9 | **0%** | **59.02%** |
-
-The prepared mandatory test uses legal early-core stock: 3 Field Salves, 2 Trauma Remedies, and 1 Rousing Salts. It is a reproducible test inventory, not a new free story grant.
-
-A no-item mandatory stress line still won 99.955% of runs but produced 40.96% any-KO incidence, confirming that the stronger v96 Bleed now makes cleansing/consumable preparation materially valuable.
-
-Full snapshot, policy, distributions, and representative turn log:
-`../../16_BALANCE_AND_TESTING/TRUE_BATTLES/ARCHIVE_LEVIATHAN_TRUE_BATTLE_v97.md`
-
-## Verdict
-> **v97 TRUE-BATTLE PASS / RETAIN / POWER COMPLETE**
-
-Closed:
-- HP **1,900**
-- route level references
-- duration target
-- architecture
-- status/accuracy/repetition fields
-- deterministic Recorded Pattern formation trigger
-- Recorded Pattern 20% effect/duration
-- 45% same-bar emergence threshold
-- representative mandatory/completionist design-layer true battle
-
-Direct-damage Power remains closed.
+Current intent:
+> **large living flooded-ruin predator / one-bar territorial boss / more aggressive at 45% HP**
