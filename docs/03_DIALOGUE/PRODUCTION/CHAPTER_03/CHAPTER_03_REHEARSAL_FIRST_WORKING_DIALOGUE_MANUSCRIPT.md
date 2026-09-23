@@ -15,12 +15,12 @@
 | 5 | Beat 5 | `BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md` | `a13fdca7753cff6ee85024a96834d151729a2bb588f4c0d42f828565a0d8c9b1` |
 | 6 | Beat 6 | `BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md` | `041f78af4bf6cdfaf61a2aff6c818d82d17b050775e70a1f184da4d8653a10dc` |
 | 7 | Beat 7 | `BEAT_07_LOWER_ARCHIVES_DRAFT_A.md` | `5643ca526f966401a796c5760f9cafecd4631aa56722cc09b97d39c7054fed59` |
-| 8 | Beat 8 | `BEAT_08_BURIED_COLLECTIONS_RECENT_READER_DRAFT_A.md` | `f6322304c4eb762dcdb8f26e9694b2c2e19d02f57ca0d2b8c823a88371d38c51` |
+| 8 | Beat 8 | `BEAT_08_BURIED_COLLECTIONS_RECENT_READER_DRAFT_A.md` | `c4551b603c2927e4e10f23d72f38d45852778831f1c76eb0f97ad4cb855a0499` |
 | 9 | Beat 9 | `BEAT_09_HALL_OF_SEALS_RECENT_READER_DRAFT_A.md` | `515b920b51ac6844f9229baaf69eefd4b690a49b4031e12a73ebf98a1becc73e` |
 | 10 | Beat 10 | `BEAT_10_DEEP_ARCHIVES_DRAFT_A.md` | `96d810ea133d604aa2bd6c2959d6786f913520029f28f0761c489317c41b90e7` |
 | 11 | Beat 11 | `BEAT_11_ARCHIVE_SCRIBE_ENGINE_DRAFT_A.md` | `96384eafb405cf4c3ec69a23c8cfb662e4e0ddd269a482a0935efff36f26ea67` |
 | 12 | Beat 12 | `BEAT_12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DRAFT_A.md` | `e4d69865e6519d4b2bdb5fbda98de4569b78113ddd588808bec1ebb7e1dcabae` |
-| 13 | Beat 13 | `BEAT_13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DRAFT_A.md` | `fb5198bcd4ece5a85c6d61abd5ccdbea0731e7395e38bda5fec8bfa287612a70` |
+| 13 | Beat 13 | `BEAT_13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DRAFT_A.md` | `4d8f0667679c9f547f2c3b6811d4c8903ba0441e0edabe1f9a70ace377727e18` |
 | 14 | Beat 14 | `BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md` | `446027e078a5c267689aae9a4f71bf8e9b40d7bd99a32449da62ea49a0837d18` |
 | 15 | Beat 15 | `BEAT_15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DRAFT_A.md` | `0aebca384dd1133d3e60d72360ccbf8d930df61cb33de8484b8f1696dfadbc80` |
 | 16 | C06 — Nimera Takes Over a Table | `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md` | `a94dd635cdb28ba5f86c2b4bf21b49eb76689f6c1255bbbc54d126690d3381eb` |
@@ -1221,7 +1221,7 @@ Transition into:
 ## Beat 8
 
 **Atomic source:** `BEAT_08_BURIED_COLLECTIONS_RECENT_READER_DRAFT_A.md`  
-**Source SHA-256:** `f6322304c4eb762dcdb8f26e9694b2c2e19d02f57ca0d2b8c823a88371d38c51`
+**Source SHA-256:** `c4551b603c2927e4e10f23d72f38d45852778831f1c76eb0f97ad4cb855a0499`
 
 # Chapter 3 — Beat 8
 # Buried Collections / Recent Reader
@@ -1353,7 +1353,7 @@ She checks the next citation.
 
 **NIMERA:** Hall of Seals.
 
-**ILYRA:** Convenient as hell.
+**ILYRA:** Convenient.
 
 **NIMERA:** Suspiciously.
 
@@ -1948,7 +1948,7 @@ Cut directly upstairs in Caelora to:
 ## Beat 13
 
 **Atomic source:** `BEAT_13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DRAFT_A.md`  
-**Source SHA-256:** `fb5198bcd4ece5a85c6d61abd5ccdbea0731e7395e38bda5fec8bfa287612a70`
+**Source SHA-256:** `4d8f0667679c9f547f2c3b6811d4c8903ba0441e0edabe1f9a70ace377727e18`
 
 # Chapter 3 — Beat 13
 # Return to Mirena / Cresthaven Identified
@@ -2000,7 +2000,7 @@ Cyanis looks to Nimera.
 
 **MIRENA:** Good. Annoying, but good.
 
-**MAEVRA:** Crown side found no clean theft window either. No provable break in recorded custody.
+**MAEVRA:** Crown side found no damn clean theft window either. No provable break in recorded custody.
 
 **TORREN:** Record stays the weak word.
 
