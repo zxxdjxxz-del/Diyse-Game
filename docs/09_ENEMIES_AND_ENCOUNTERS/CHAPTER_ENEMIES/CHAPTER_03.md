@@ -210,11 +210,7 @@ Owning validation:
 ## Current open encounter-design work
 
 Still intentionally open:
-- exact Beat-7 Lower Archives formation composition;
-- exact Beat-8 Buried Collections formation composition;
-- exact Beat-9 Hall-of-Seals formation composition;
-- exact Beat-10 Deep Archives formation composition;
-- exact ordinary enemy roster for the short Cresthaven tower-base dungeon;
+- final Chapter-3 formation selection weights / encounter frequencies;
 - exact Archive Scribe Engine boss budget;
 - First Command Warden revalidation at its new Beat-14 location;
 - final encounter frequencies / weights;
@@ -280,3 +276,19 @@ Their recognizable combat grammar is preserved, including the Sentry → Ballist
 **Hollow Watch Castellan does not carry over.** It remains the specific Chapter-1 Hollow Watch mini-boss.
 
 All Chapter-3 carryover bodies require fresh four-person-party tuning.
+
+
+## Old City formation structure lock — 2026-09-23
+Current formation authority:
+`../ENCOUNTER_FORMATIONS/CHAPTER_03_FORMATIONS.md`
+
+Structural progression:
+- Beat 7 Lower Archives — **3–4 enemies**;
+- Beat 8 Buried Collections — **4–5 enemies**;
+- Beat 9 Hall of Seals — **4–5 enemies**;
+- Beat 10 Deep Archives — **4–6 enemies**.
+
+Archive Current enters only at the late Beat-9 boundary or Beat 10.
+Grand Inquisitor Frame is a rare late pressure spike, max 1 per formation.
+Archive Scribe Engine never random-spawns.
+The immediate Beat-11 boss approach is safe.
