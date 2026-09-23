@@ -1,6 +1,6 @@
 # Chapter 1 — Character-Life C02
 # Torren's Version of Dinner
-## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TRUE-VOICE / ECONOMY PASS
+## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TIGHTENED TRUE-VOICE PASS
 
 ### [CAMP — OPTIONAL CHARACTER-LIFE TRIGGER]
 
@@ -42,9 +42,9 @@ Torren keeps eating.
 
 **TORREN:** Hot. Safe. Food.
 
-**CYANIS:** Those are very low requirements.
+**CYANIS:** That's a shitty standard.
 
-**TORREN:** Still requirements.
+**TORREN:** Still a standard.
 
 Cyanis tries it.
 
@@ -62,11 +62,7 @@ Ilyra takes a bite.
 
 **ILYRA:** He's got you there.
 
-**MAEVRA:** Don't encourage him.
-
 ### [WHAT IS IN IT]
-
-A little later:
 
 **CYANIS:** What's actually in this?
 
@@ -84,21 +80,15 @@ Torren pauses.
 
 Cyanis looks at him.
 
-**CYANIS:** Before.
+**CYANIS:** Before?
 
 **MAEVRA:** Don't.
 
-**ILYRA:** I want to know.
-
-**MAEVRA:** Of course you do.
-
-Torren shrugs.
-
 **TORREN:** It became dinner.
 
-**CYANIS:** That's not an answer.
+**ILYRA:** That's not reassuring as hell.
 
-**TORREN:** Only one left.
+**TORREN:** Wasn't supposed to be.
 
 ### [MAEVRA REMEMBERS]
 
@@ -108,13 +98,13 @@ Maevra stirs her bowl.
 
 **TORREN:** Similar.
 
-**MAEVRA:** You made one pot so thick somebody left a spoon standing upright in it through watch change.
+**MAEVRA:** You made one pot so thick somebody left a spoon standing upright through watch change.
 
 **TORREN:** Edrin dumped too much meal in.
 
 **MAEVRA:** You handed him the bag.
 
-**TORREN:** Didn't tell him to empty it.
+**TORREN:** Didn't tell him to empty the damn thing.
 
 Cyanis looks between them.
 
@@ -140,27 +130,17 @@ A beat.
 
 **TORREN:** It's hot, there's enough for everybody, it won't make us sick, ingredients were cheap, pot was easy to clean, and I didn't spend an hour fucking around with dinner after walking all day. Successful field meal.
 
-Silence.
-
 Ilyra starts laughing.
 
 **CYANIS:** Those are not the only qualities food can have.
 
-Torren thinks.
-
 **TORREN:** Cheap too.
 
-**CYANIS:** So the bad part is intentional.
+**CYANIS:** That's not helping your case.
 
-**TORREN:** No. The bad part is irrelevant.
-
-Maevra drops her head.
+**TORREN:** Still eating.
 
 **MAEVRA:** Fuck you.
-
-**TORREN:** You're still eating.
-
-**MAEVRA:** Hunger is not an endorsement.
 
 **TORREN:** Same result.
 
@@ -176,33 +156,23 @@ Eventually the bowls are empty.
 
 Torren lights a blunt from the campfire.
 
-Maevra watches him take the first draw.
-
-**MAEVRA:** Still do that after dinner.
-
-**TORREN:** Yeah.
-
 Cyanis looks at the blunt, then the empty pot.
 
-**CYANIS:** Does it help with the taste?
+**CYANIS:** Does that help with the taste?
 
 Torren considers it.
 
 **TORREN:** Little bit.
 
-Maevra immediately laughs.
+Maevra laughs immediately.
 
 **CYANIS:** You knew exactly how bad it was.
 
 **TORREN:** Told you.
 
-### [TOMORROW]
-
 **MAEVRA:** I'm cooking tomorrow.
 
 **TORREN:** Fine.
-
-Cyanis looks at him.
 
 **CYANIS:** That easy?
 
