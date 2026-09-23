@@ -54,8 +54,8 @@ BRIDGES = (
         "Greenhollow Stalker • Thornvine Creeper • Briar Boar",
     ), CH1, ("Greenhollow Stalker", "Thornvine Creeper", "Briar Boar")),
     ("Garrison Discovery", "Random Encounters — Hollow Watch", (
-        "Black Host Raider • Black Host Crossbowman • Ruin Shieldbearer • Hollow Watch Sentry • Hollow Watch Ballista • Watch Captain Frame",
-    ), CH1, ("Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "Hollow Watch Sentry", "Hollow Watch Ballista", "Watch Captain Frame")),
+        "Black Host Raider • Black Host Crossbowman • Ruin Shieldbearer • Watch Sentry • Watch Ballista • Watch Captain Frame",
+    ), CH1, ("Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "Watch Sentry", "Watch Ballista", "Watch Captain Frame")),
     ("First Clear Sighting", "Random Encounters — Southern Briar", (
         "Greenhollow Stalker • Thornvine Creeper • Briar Boar • Needlewing • Rootmaw • Brambleback",
     ), CH1, ("Greenhollow Stalker", "Thornvine Creeper", "Briar Boar", "Needlewing", "Rootmaw", "Brambleback")),
@@ -64,11 +64,11 @@ BRIDGES = (
         "Bogshell • Cistern Leech • Needlewing",
     ), CH2, ("Bogshell", "Cistern Leech", "Needlewing")),
     ("Threshold", "Random Encounters — Sunken Archive", (
-        "Archive Current • Memory Scribe • Hollow Watch Sentry • Bogshell • Cistern Leech • Needlewing",
-    ), CH2, ("Archive Current", "Memory Scribe", "Hollow Watch Sentry", "Bogshell", "Cistern Leech", "Needlewing")),
+        "Archive Current • Memory Scribe • Bogshell • Cistern Leech • Needlewing",
+    ), CH2, ("Archive Current", "Memory Scribe", "Bogshell", "Cistern Leech", "Needlewing")),
     ("The Alarm", "Random Encounters — Old Bastion", (
-        "Bastion Shield Guard • Bastion Crossbow Guard • Transfer Adept • Black Host Raider",
-    ), CH2, ("Bastion Shield Guard", "Bastion Crossbow Guard", "Transfer Adept", "Black Host Raider")),
+        "Ruin Shieldbearer • Black Host Crossbowman • Black Host War-Sorcerer • Black Host Raider • Rift Hound",
+    ), CH2, ("Ruin Shieldbearer", "Black Host Crossbowman", "Black Host War-Sorcerer", "Black Host Raider", "Rift Hound")),
 
 )
 
