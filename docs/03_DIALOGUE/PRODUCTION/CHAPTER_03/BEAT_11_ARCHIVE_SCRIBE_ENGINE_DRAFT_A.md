@@ -54,9 +54,9 @@ The Engine locks halfway through a final copying stroke.
 
 A long metal arm hangs over the transfer floor.
 
-**CYANIS:** Everybody still fucking standing?
+**CYANIS:** Everybody still standing?
 
-**ILYRA:** Against my fucking better judgment.
+**ILYRA:** Against my better judgment.
 
 Torren watches the mechanism settle.
 
@@ -66,9 +66,9 @@ Nimera is staring at the half-finished stroke.
 
 **NIMERA:** Maybe.
 
-**TORREN:** You just fucking agreed it was done.
+**TORREN:** You just agreed it was done.
 
-**NIMERA:** Done trying to kill us. Different fucking category.
+**NIMERA:** Done trying to kill us. Different damn category.
 
 She approaches only after the mechanism is fully still.
 
