@@ -195,7 +195,8 @@ conversation_model:
     - usually_indirect
     - increasingly_plain_when_earned
   profanity: moderate_and_natural_with_more_freedom_under_trust_stress_or_banter
-  profanity_long_form_calibration: roughly_10_to_19_percent_of_spoken_lines_across_large_corpus_not_per_scene
+  profanity_texture: favors_damn_hell_shit_and_bullshit_with_fuck_reserved_for_sharper_spikes_not_default_intensification
+  profanity_long_form_calibration: roughly_7_to_14_percent_of_spoken_lines_across_large_corpus_not_per_scene
   guardrail: leadership_is_not_a_dialogue_assignment
 
 decision_model:
