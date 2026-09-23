@@ -102,7 +102,7 @@ It is not:
 Lock Sequence remains Lightning damage but has **no Stun rider in Chapter 3**.
 
 This preserves the current status rollout:
-> Command-Station Sentry at Cresthaven is the preferred ordinary-enemy introduction to Stun.
+> Command Guard Frame at Cresthaven is the preferred ordinary-enemy introduction to Stun.
 
 A later reused version may gain Stun under its own chapter authority.
 
