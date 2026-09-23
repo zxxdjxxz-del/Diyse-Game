@@ -31,9 +31,9 @@
 
 Chapter 0 uses the current Person Brains rather than older role-biased versions:
 - **Cyanis** — **Crest Knight only in Chapter 0**; Crest Magus is a later subclass and is not available here; `Leadership is not a dialogue assignment.`
-- **Ilyra** — Blue Warden / Vowblade; `Grace is not a dialogue assignment.`
+- **Ilyra** — **Blue Warden only in Chapter 0**; Vowblade does not unlock until **Sixfold Volition at the end of Chapter 7**; `Grace is not a dialogue assignment.`
 
-Cyanis's retired `Crest Arcanist` label is not live anywhere in the current runtime brain or current Chapter-0 authority. **Crest Magus is also not active Chapter-0 knowledge or capability.**
+Cyanis's retired `Crest Arcanist` label is not live anywhere in the current runtime brain or current Chapter-0 authority. **Crest Magus is also not active Chapter-0 knowledge or capability. The same rule applies to every permanent character: only the Base Class is active before Sixfold Volition.**
 
 ## Cyanis character audit — CLOSED
 
