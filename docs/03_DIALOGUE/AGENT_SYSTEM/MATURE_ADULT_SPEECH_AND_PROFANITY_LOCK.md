@@ -50,9 +50,9 @@ A clean line can be more truthful than a profane one. A profane line can be more
 These are performance guides, not mechanical quotas. Current long-form editorial calibration bands exist to catch accidental sanitization across a chapter or major dialogue set, never to enforce per-scene spacing:
 
 - **Nimera:** roughly **20–35%**
-- **Torren:** roughly **5–12%**
-- **Ilyra:** roughly **4–10%**
-- **Cyanis:** roughly **3–8%**
+- **Torren:** roughly **9–20%**
+- **Ilyra:** roughly **7–16%**
+- **Cyanis:** roughly **10–19%**
 - **Maevra:** roughly **3–8%**
 - **Mirena:** roughly **2–7% overall**, with private scenes allowed to run higher
 
@@ -97,7 +97,7 @@ It may appear in:
 
 His increasing social comfort from Chapter 2 onward may make profanity and affectionate insult more available, but he does not need to become louder or more vulgar to prove he has opened up.
 
-Long-form editorial calibration: roughly **5–12%**.
+Long-form editorial calibration: roughly **9–20%**.
 
 ### Ilyra
 **Moderate / dry / occasionally sharper than expected.**
@@ -113,7 +113,7 @@ Ilyra may swear naturally when:
 
 Her profanity should help prevent healer/Grace coding from turning her into a saintly or sanitized woman. She can be composed and still say `fuck`.
 
-Long-form editorial calibration: roughly **4–10%**.
+Long-form editorial calibration: roughly **7–16%**.
 
 ### Cyanis
 **Moderate / freer with trust and pressure.**
@@ -127,7 +127,7 @@ Cyanis is comfortable with profanity, especially:
 
 Formal responsibility can make him more controlled, but it does not make him prudish. He should not sound like a sanitized protagonist while everybody around him talks like adults.
 
-Long-form editorial calibration: roughly **3–8%**.
+Long-form editorial calibration: roughly **10–19%**.
 
 ### Maevra
 **Moderate / register-sensitive / never sanitized by rank.**
