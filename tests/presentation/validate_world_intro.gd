@@ -41,6 +41,12 @@ func _run_validation() -> void:
 					failures.append("World intro lost the approved Diysean-humanity line")
 				if not paragraphs.has("If somebody can throw fire today?"):
 					failures.append("World intro lost the modern/ancient magic comparison")
+				if not paragraphs.has("The Black Host is not a species. Not a curse. Not a horde of mindless things crawling out of a ruin."):
+					failures.append("World intro lost the player-facing Black Host identity")
+				if not paragraphs.has("At the center of it is Emperor Vaelkor Draeven."):
+					failures.append("World intro lost Vaelkor's player-facing introduction")
+				if not paragraphs.has("His exact age is unknown. The exact beginning of his reign is unknown. Reliable records agree that he has lived far beyond a normal human lifespan, and that is about where agreement starts falling apart."):
+					failures.append("World intro lost Vaelkor's unknown-age boundary")
 
 	var packed := load(INTRO_SCENE) as PackedScene
 	if packed == null:
