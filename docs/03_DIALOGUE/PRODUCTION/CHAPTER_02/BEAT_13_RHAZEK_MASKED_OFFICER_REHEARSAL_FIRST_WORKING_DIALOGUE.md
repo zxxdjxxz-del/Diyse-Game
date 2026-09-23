@@ -49,15 +49,9 @@ Cyanis stops at a practical fighting distance.
 
 **CYANIS:** Commander Rhazek.
 
-Rhazek studies him briefly.
+**RHAZEK:** Your prisoners gave you my name.
 
-**RHAZEK:** You know my name.
-
-**CYANIS:** Your prisoners do.
-
-Rhazek does not correct the word.
-
-**RHAZEK:** I would expect them to.
+**CYANIS:** They did.
 
 The masked officer shifts his attention to the trio.
 
@@ -71,19 +65,9 @@ He says nothing yet.
 
 Cyanis keeps his attention on Rhazek.
 
-**CYANIS:** You've been taking people off the road.
+**CYANIS:** You've been taking people off the road. Your order?
 
-**RHAZEK:** Yes.
-
-**CYANIS:** Your order?
-
-**RHAZEK:** Mine.
-
-A beat.
-
-Rhazek does not soften it.
-
-**RHAZEK:** The corridor is under Black Host authority. Movement through it is controlled. Those taken into custody were assigned for transfer.
+**RHAZEK:** Mine. The corridor is under Black Host authority. Those taken into custody were assigned for transfer.
 
 Ilyra's expression hardens.
 
@@ -111,27 +95,15 @@ Cyanis speaks.
 
 **CYANIS:** They didn't agree to any of this.
 
-Rhazek's answer comes without hesitation.
-
 **RHAZEK:** Agreement is not the standard.
-
-That lands.
-
-Cyanis's expression changes.
 
 **CYANIS:** For you.
 
-**RHAZEK:** For a functioning state.
-
-He does not raise his voice.
-
-**RHAZEK:** You keep treating refusal as though it dissolves authority. It does not.
+**RHAZEK:** For a functioning state. Refusal does not dissolve authority.
 
 Torren finally speaks.
 
-**TORREN:** Convenient.
-
-Rhazek looks at him.
+**TORREN:** Convenient as hell.
 
 **RHAZEK:** Necessary.
 
@@ -149,28 +121,17 @@ Cyanis returns to the immediate point.
 
 Cyanis gives a short, humorless laugh.
 
-**CYANIS:** That's your answer?
-
-**RHAZEK:** It is the answer.
-
-**CYANIS:** You put people in cages and move them somewhere they don't want to go.
-**RHAZEK:** Correct.
-
-Another beat.
+**CYANIS:** You put people in cages and still want me to ask nicely?
 
 **RHAZEK:** You object to the policy. That does not give you standing inside my command.
 
 Cyanis looks around the room they fought their way into.
 
-**CYANIS:** I think we're past asking for standing.
-
-Rhazek's eyes narrow slightly.
-
-**RHAZEK:** Yes.
+**CYANIS:** Pretty sure we're past that shit.
 
 For the first time, there is the faintest edge of professional irritation.
 
-**RHAZEK:** That is becoming obvious.
+**RHAZEK:** Yes. That is becoming obvious.
 
 No one gets the onward destination from him.
 
@@ -216,23 +177,15 @@ No fight.
 
 Torren watches the route close behind him.
 
-**TORREN:** Gate's still held.
-
-**CYANIS:** I know.
-
 ### [AUTHORITY]
 
 Rhazek gives the trio his full attention.
 
 **RHAZEK:** You have disrupted my interior. That is not the same as taking the Bastion.
 
-**CYANIS:** No.
-
 Cyanis looks toward the road-side side of the fort.
 
-**CYANIS:** That's next.
-
-Rhazek understands immediately.
+**CYANIS:** Then we'll take the rest.
 
 **RHAZEK:** The detainees are not leaving through that gate.
 
@@ -256,9 +209,7 @@ Rhazek looks back to Cyanis.
 
 **RHAZEK:** You intend to substitute your judgment for mine by force.
 
-Cyanis does not pretend otherwise.
-
-**CYANIS:** Here? Yeah.
+**CYANIS:** Here? Damn right.
 
 Rhazek gives a small nod.
 
@@ -266,11 +217,7 @@ Not approval.
 
 Recognition.
 
-**RHAZEK:** Then at least we understand the disagreement.
-
-He shifts fully from command conversation to combat readiness.
-
-**RHAZEK:** There is nothing left to discuss.
+**RHAZEK:** Then there is nothing left to discuss.
 
 Cyanis readies himself.
 
