@@ -75,3 +75,9 @@ Black Host Raider is part of the locked Chapter-0 roster. Current authored use: 
 - No harmful-status rider is active in Chapter 0.
 - P01 is Cyanis-solo, so all legal single-target actions necessarily target Cyanis.
 - No reinforcement call, ally buff, or hidden tutorial exception.
+
+## Visual authority
+Current locked Chapter-0 appearance:
+> `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
+
+Combat/encounter mechanics remain owned by this file; visual identity is owned by the art-domain authority above.
