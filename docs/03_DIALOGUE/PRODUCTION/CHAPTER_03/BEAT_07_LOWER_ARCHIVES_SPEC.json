@@ -1,0 +1,62 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT07_LOWER_ARCHIVES",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 7 — Lower Archives",
+  "production_ready": true,
+  "participants": ["cyanis", "ilyra", "torren", "nimera"],
+  "authoring_mode": "rehearsal_first_agent_driven",
+  "director_rule": "This is sustained four-person dungeon exploration, not a replacement puzzle for the retired Ancient Barrier. Let current Agent Brains react to actual route, archive, and environmental evidence. Do not manufacture a four-character solution choreography or force equal participation.",
+  "scene_context": {
+    "location": "Old City Archives — lower archive galleries below the Redacted Stacks",
+    "situation": "Nimera has just joined permanently. The party descends through increasingly old, less-maintained archive space toward buried collections.",
+    "party_state": "cyanis_ilyra_torren_nimera permanent; maevra remains in Caelora with Mirena",
+    "card_state": "unstable green-and-gold; carried by Cyanis; unclassified",
+    "presentation": "player-led dungeon exploration with a few short authored stops and ordinary encounters"
+  },
+  "hard_outcomes": [
+    "The player gets meaningful four-person exploration immediately after Nimera joins.",
+    "The Lower Archives show modern Crown mapping and maintenance thinning into older neglected space.",
+    "Torren and Nimera begin reciprocal correction through route evidence versus archival/provenance reasoning.",
+    "The party reaches the threshold of older buried collections.",
+    "No artificial Ancient Barrier or recruitment gate exists."
+  ],
+  "knowledge_and_reveal_boundaries": [
+    "No Prime classification.",
+    "No Might identification.",
+    "No Last Sentinel wording.",
+    "No deep-Ruby Card.",
+    "No Cresthaven or northern tower.",
+    "No Westways recordbook map.",
+    "No recent-reader identity.",
+    "No Calder reveal.",
+    "No Crest Magus access for Cyanis."
+  ],
+  "true_voice_requirements": {
+    "nimera": "Current live brain; high/frequent natural profanity with 15–35% long-form anti-sanitization calibration across a large corpus, not per scene. Let her revise claims and hold the floor when provenance distinctions interest her.",
+    "torren": "Not permanently terse. Chapter-3 established comfort with Cyanis/Ilyra; first-contact testing with Nimera only.",
+    "ilyra": "Whole adult personality: dry humor, skepticism, curiosity, irritation and profanity are available; no automatic care assignment.",
+    "cyanis": "Crest Knight only; practical/social and humorous where natural; not automatic summary voice."
+  },
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml"
+  ],
+  "workflow_locks": [
+    "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md",
+    "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+    "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md"
+  ],
+  "forbidden_presentation": [
+    "ancient_barrier",
+    "replacement_cooperation_puzzle",
+    "forced_equal_contribution",
+    "sanitized_nimera",
+    "torren_nimera_familial_shorthand",
+    "ilyra_as_automatic_safety_voice",
+    "crest_magus_chapter_3_expertise",
+    "major_lore_dump"
+  ]
+}
