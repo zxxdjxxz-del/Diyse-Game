@@ -55,3 +55,14 @@ No second form.
 Immediate access around Lv8–9 is intentionally below the fixed Lv11 recommendation. At recommended Lv11, direct pressure remains recoverable while 3,760 HP provides the Hunt-scale endurance burden. Completionist equipment/progression shortens the fight without dynamic scaling.
 
 > **PASS — RETAIN**
+
+
+## Current access / placement lock — 2026-09-23
+Regional Hunt #2 is **not** an Old Bastion encounter.
+
+Current access:
+> **Chapter 2 cleanup → return to the previously sealed side-branch door in the Old Waterworks → additional Hunt branch → Transfer Executioner**
+
+The party sees the sealed door during the mandatory Old Waterworks route but cannot open it then. The Hunt branch becomes available during Chapter-2 cleanup after the Old Bastion story is resolved.
+
+This supersedes older Red Transfer Bastion / prisoner-route branch placement language.
