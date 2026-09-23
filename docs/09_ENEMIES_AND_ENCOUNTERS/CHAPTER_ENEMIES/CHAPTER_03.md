@@ -77,8 +77,8 @@ These remain compatible with the Archives, but exact sub-area formation eligibil
 - Command-Station Sentry — surviving command-site security construct; current preferred Chapter-3 Stun introduction
 - Authority Lens — shared inspection / authority-reading support construct; also appears in the Old City Archives; no Chapter-3 Stun rider
 - Command Ring Drone — mobile command-relay support construct; Attack / Magic support
-- Hollow Watch Sentry — Chapter-1 Ancient-defense carryover; linked setup piece
-- Hollow Watch Ballista — Chapter-1 fixed-defense carryover; linked heavy-shot fixture
+- Watch Sentry — Chapter-1 Ancient-defense carryover; linked setup piece
+- Watch Ballista — Chapter-1 fixed-defense carryover; linked heavy-shot fixture
 
 ### Cresthaven tower-base strong normal-pool identity
 - Watch Captain Frame — Chapter-1 carryover; rare heavy Ancient-defense body; max 1 per formation
@@ -104,8 +104,8 @@ Current approved tower-base identities:
 - Command-Station Sentry
 - Authority Lens
 - Command Ring Drone
-- Hollow Watch Sentry
-- Hollow Watch Ballista
+- Watch Sentry
+- Watch Ballista
 - Watch Captain Frame
 
 ## Retired random-pool use
@@ -271,8 +271,8 @@ These three identities are not part of any current Chapter-3 mandatory, optional
 
 ## Hollow Watch construct carryover — 2026-09-23
 The established Chapter-1 Hollow Watch construct family carries into the **Cresthaven Ancient tower base**:
-- Hollow Watch Sentry;
-- Hollow Watch Ballista;
+- Watch Sentry;
+- Watch Ballista;
 - Watch Captain Frame.
 
 Their recognizable combat grammar is preserved, including the Sentry → Ballista targeting setup.
