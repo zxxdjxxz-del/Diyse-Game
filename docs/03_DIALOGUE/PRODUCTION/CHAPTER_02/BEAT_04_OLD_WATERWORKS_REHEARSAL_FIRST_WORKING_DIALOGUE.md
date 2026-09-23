@@ -61,7 +61,7 @@ Torren steps away from the door.
 
 Cyanis gives the sealed branch another look.
 
-**CYANIS:** I hate damn doors that become questions.
+**CYANIS:** I hate doors that turn into smug little bastards the second you can't open them.
 
 **ILYRA:** Then you're in for a shitty life.
 
@@ -91,7 +91,7 @@ After one particularly unpleasant crossing, Ilyra wrings water from one glove.
 
 Maevra looks down at her soaked clothes.
 
-**MAEVRA:** I reserve the right to complain like hell while agreeing with both of you.
+**MAEVRA:** I reserve the right to complain my ass off while agreeing with both of you.
 
 **CYANIS:** Finally, a doctrine I can support.
 
