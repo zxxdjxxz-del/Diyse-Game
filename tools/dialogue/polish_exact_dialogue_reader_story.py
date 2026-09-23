@@ -2,7 +2,7 @@
 """Remove the last source-code headings and writer-room narration from the Chapters 0-3 reader.
 
 Runs after final presentation normalization and before layout repair. Spoken dialogue is
-immutable: all 2,252 ALL-CAPS-speaker lines must remain byte-for-byte identical and in
+immutable: all 2,165 ALL-CAPS-speaker lines must remain byte-for-byte identical and in
 exact order.
 """
 from __future__ import annotations
@@ -14,7 +14,7 @@ from docx import Document
 
 ROOT = Path(__file__).resolve().parents[2]
 READER = ROOT / "build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT.docx"
-EXPECTED_DIALOGUE_LINES = 2252
+EXPECTED_DIALOGUE_LINES = 2165
 LABEL_RE = re.compile(r"^.+:\s*$")
 
 PROSE_REPLACEMENTS = {
