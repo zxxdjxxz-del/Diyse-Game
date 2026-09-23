@@ -137,7 +137,7 @@ Do not reveal/confirm in Chapter 3:
 ## Character / performance authority
 
 Current character/runtime authority remains:
-- Cyanis — Crest Knight / Crest Magus;
+- Cyanis — **Crest Knight in Chapter 3**; **Crest Magus is not unlocked yet** and must not appear as active Chapter-3 class knowledge, ability access, or dialogue expertise;
 - Ilyra — Blue Warden / Vowblade;
 - Torren — War Archer / Routeweaver;
 - Nimera — Cardweaver / Proofhunter;
