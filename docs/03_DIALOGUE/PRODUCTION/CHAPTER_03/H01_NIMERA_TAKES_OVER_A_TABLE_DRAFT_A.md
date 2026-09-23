@@ -35,7 +35,7 @@ She looks up.
 
 Then laughs hard enough to put the pen down.
 
-**NIMERA:** Oh, good. Fuck, that's a relief.
+**NIMERA:** Oh, good. Shit, that's a relief.
 
 **CYANIS:** Good?
 
@@ -141,7 +141,7 @@ Cyanis points to a cup sitting in its own clear patch.
 
 **CYANIS:** Your cup has territory.
 
-**NIMERA:** Liquid should not share a fucking border with ink and paper. That's civilization.
+**NIMERA:** Liquid should not share a damn border with ink and paper. That's civilization.
 
 Torren nods.
 
@@ -239,7 +239,7 @@ Nimera pauses.
 
 Looks at the pile.
 
-**NIMERA:** Fuck. That's better.
+**NIMERA:** Shit. That's better.
 
 **CYANIS:** Thank you.
 
@@ -333,7 +333,7 @@ Nimera looks at the paper on the floor.
 
 Silence.
 
-**NIMERA:** Fucking cowards.
+**NIMERA:** Cowardly bastards.
 
 She retrieves it and returns to work.
 
