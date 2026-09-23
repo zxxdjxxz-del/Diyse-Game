@@ -22,7 +22,7 @@ Roughly halfway to Greenhollow, the group stops briefly at a natural break in th
 
 **MAEVRA:** Not much. Greenhollow's straightforward from here.
 
-**ILYRA:** You say that like the first half wasn't.
+**ILYRA:** You say that like the first half wasn't a pain in the ass.
 
 **MAEVRA:** It wasn't difficult. It was Briar.
 
