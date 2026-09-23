@@ -333,6 +333,16 @@ Wayfinder:
 - central ancient object initially reads as a broad low fitted mass;
 - monument itself is not visually legible before the authored clearing interaction;
 - clearing reveals the cartographic surface rather than causing a giant structure to rise;
+- the revealed surface must read at a glance as a **regional western-Diyse map**, not a local crossroads diagram;
+- dense overland route lines intersect and reconnect throughout the surviving surface;
+- a second visually distinct layer represents extensive underground infrastructure / routes beneath and between surface locations;
+- numerous ancient built-up city / settlement clusters are distributed across the western map;
+- the greatest visible concentration of structures, route convergence, and subsurface infrastructure occupies the geography around present-day **Caelora**;
+- the physical Wayfinder is broken through the center of that Caelora-area concentration; the missing center must read as genuine material loss, not an intentionally blank symbol or fogged interface;
+- enough routes and structures survive around the break to make the missing cluster's exceptional scale visually obvious;
+- local southeast alignment toward Dunmere remains legible;
+- the Southern-Briar water/cistern notation remains legible enough to motivate the cleanup backtrack;
+- map presentation must not visually solve the purpose of the underground network or reconstruct the missing Caelora-area center;
 - camp sits beside, not in, the crossroads;
 - southeast road continues toward Dunmere;
 - Southern Briar remains revisitable during cleanup.
