@@ -1,8 +1,7 @@
 # Drowned Archive Maw
 
-**Chapter:** 2 — Current Galleries  
-**Role:** tougher regular encounter  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Former placement:** Chapter 2 — Sunken Archive / Current Galleries  
+**Status:** **RETIRED FROM ACTIVE CHAPTER-2 ROSTER — DATA RETAINED FOR POSSIBLE LATER REUSE**
 
 ## Body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -41,3 +40,14 @@ The water/sea presentation uses:
 No separate Water element exists.
 
 Cold Undertow does not inflict Freeze; Freeze is not introduced in Chapter 2.
+
+
+## Placement retirement — 2026-09-23
+Drowned Archive Maw is no longer part of the active Chapter-2 Sunken Archive roster.
+
+Reason:
+- Bogshell, Cistern Leech, and Needlewing now carry naturally from the Old Waterworks into compatible flooded Archive sectors;
+- those carryovers provide the area's organic ecology without adding a generic Archive-specific predator;
+- Archive Leviathan remains the major organic/aquatic combat climax.
+
+Do not place this enemy in Chapter 2 unless explicitly reintroduced later. Existing body/action data is retained only as reusable design material.
