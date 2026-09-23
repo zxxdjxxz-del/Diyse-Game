@@ -1,6 +1,6 @@
 # Authority Lens
 
-**Chapter-3 authority:** Cresthaven Ancient tower base  
+**Chapter-3 authority:** Old City Archives + Cresthaven Ancient tower base  
 **Status:** **CHAPTER-3 IDENTITY / PLACEMENT / ACTION GRAMMAR LOCKED — NUMERIC REVALIDATION REQUIRED**
 
 ## Chapter-3 body
@@ -53,18 +53,22 @@ True construct: **Bleed Immune**
 
 
 ## Chapter-3 placement lock — 2026-09-23
-Authority Lens is **not** an Old City Archives ordinary enemy.
+Authority Lens is an active ordinary construct in **both** major Chapter-3 Ancient locations.
 
-Current mandatory placement:
-> **Cresthaven Ancient tower base**
+### Old City Archives
+Role:
+> inspection / classification support within archival and authority-sensitive spaces
 
+Eligible broadly from the Lower Archives onward where Ancient mechanisms are active.
+
+### Cresthaven Ancient tower base
 Primary home:
 - Command Interior;
 - may appear sparingly in the late Tower Foundation;
 - may appear before the final Warden approach buffer.
 
 Identity:
-> light inspection / authority-reading support construct
+> light inspection / authority-reading support construct that plausibly belongs to multiple Ancient institutional sites
 
 Combat role:
 - magical ranged pressure;
