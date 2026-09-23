@@ -65,33 +65,40 @@ Combat-party baseline:
 
 Maevra stays above with Mirena and contributes no battle action economy.
 
-Beat 5 descent has no major combat requirement.
+Beat 5 is the Archive descent.
+Beat 6 finds Nimera actively researching in the Redacted Stacks; she is **not trapped** and there is **no Ancient Barrier**.
 
-Beat 6 finds Nimera trapped beyond the barrier.
+### Nimera joins / main Archives dungeon
+Nimera joins permanently in Beat 6.
 
-Beat 7 reactivates the archive and hands directly into the mandatory Scribe Engine response.
-
-### Nimera onboarding / after recruitment
-The Beat-8 Archive Scribe Engine encounter makes Nimera battle-available.
-
-From that point the permanent four-person combat party is:
+From Beat 6 onward the permanent four-person combat party is:
 > **Cyanis + Ilyra + Torren + Nimera**
 
-There is no five-character choose-four state involving Maevra.
+Beat 7 through Beat 10 use the current Old City formation structure:
+- Lower Archives;
+- Buried Collections;
+- Hall of Seals;
+- Deep Archives.
 
-### Suppressed Archives
-After the mandatory Scribe Engine, random formations may use:
-- Archive Scribe Engine;
-- Judgment Frame;
-- Erasure Wisp.
+Archive Scribe Engine does **not** random-spawn.
 
-### Deep command route
-Random formations may use:
+### Beat 11 mandatory Archive boss
+Archive Scribe Engine is now:
+> **one continuous HP bar / one targetable mandatory boss body**
+
+Its former ordinary Lv10 / HP315 body is retired for Chapter-3 boss use.
+Its boss raw body / fight-length budget require fresh four-person validation.
+
+### Beat 14 Cresthaven tower base
+Current ordinary pool uses:
+- Watch Sentry;
+- Watch Ballista;
+- Watch Captain Frame;
 - Command Guard Frame;
 - Authority Lens;
 - Command Ring Drone.
 
-First Command Warden remains the mandatory boss at the end of this combat route.
+First Command Warden remains the mandatory boss at the end of the short Cresthaven tower-base dungeon.
 
 ### Exit / chapter close
 Beat 12 uses a hard cut upstairs after the player leaves the Sealwright Chamber:
@@ -134,10 +141,10 @@ Do not balance the mandatory Chapter-3 route as if these fights necessarily occu
 ## What must be revalidated
 
 Run fresh mandatory-vs-completionist tests for the encounters that actually belong to the current route:
-- mandatory Archive Scribe Engine onboarding fight;
-- Suppressed Archive ordinary formations after activation;
+- mandatory Beat-11 Archive Scribe Engine boss;
+- Beat-7 through Beat-10 Old City Archives formations;
 - any currently approved optional Grand Inquisitor Frame placement;
-- Deep Old City / command-route ordinary formations;
+- Cresthaven tower-base ordinary formations;
 - First Command Warden;
 - Regional Hunt #3 at its actual access state.
 
