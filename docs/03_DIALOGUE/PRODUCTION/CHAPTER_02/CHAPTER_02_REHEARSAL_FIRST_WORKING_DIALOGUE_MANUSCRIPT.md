@@ -8,29 +8,29 @@
 
 | Order | Canonical slot | Atomic source | SHA-256 |
 |---:|---|---|---|
-| 1 | Beat 1 | `BEAT_01_PATH_OUTSIDE_DUNMERE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `ff579de937d9f5b1b13bbac3cf9a0f5ec3253180a1391a8fbdae040bb01cef38` |
-| 2 | Beat 2 | `BEAT_02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_NATURAL_TURN_WORKING_DIALOGUE.md` | `6da171864afd597aa766f3bb22398fd8dd69c5e1412fdf1306d50334162e762c` |
-| 3 | Beat 3 | `BEAT_03_DUNMERE_ELDER_HIDDEN_APPROACH_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `646fe5639cc6f92276ddb10983f90347e0b99d2060aac5020141bcee727460fe` |
-| 4 | Beat 4 | `BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `1ca1b337c0c5177fe79f13b012485381c33739ab4bf27ff3d34c1f888ffcecc1` |
-| 5 | Beat 5 | `BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md` | `8595d7128fe0551e5e35787fe13912fa27faf382a6d42ced3ce930cea36a36a3` |
-| 6 | Beat 7 | `BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `90bae29d45a9d0511b86f58ae3d6111bda846f54744701f0b290ea0af4b43946` |
-| 7 | Beat 8 | `BEAT_08_ARCHIVE_LEVIATHAN_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `e67b91852e3981566910dee32b9b2473fc2eedd9389b5fba3868e51f7f705c62` |
-| 8 | Beat 9 | `BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `212244e6300c68a06a3ff653676136f9ea566a7bb581ccfd2e910e8c12dc1ae9` |
-| 9 | Beat 10 | `BEAT_10_PRISONER_GALLERIES_FIRST_CONTACT_NATURAL_TURN_WORKING_DIALOGUE.md` | `5a4fdaea7b8c5147502354d1884694aec0696347264234ed61cf14de2eeb1499` |
-| 10 | Beat 11 | `BEAT_11_PRISONER_SAFE_AREA_EXIT_PROBLEM_NATURAL_TURN_WORKING_DIALOGUE.md` | `e87652e2ff0466af94ebbffa885f8e232fb8e5134846af5f47d97c6d7dcc7505` |
-| 11 | Beat 12 | `BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `262f0841733ead8b3b9eed502edf0dcb7aa2c1f61c7e4e47c629936d621c5906` |
-| 12 | Beat 13 | `BEAT_13_RHAZEK_MASKED_OFFICER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `6a3ddbfca1641ab504de0ad48a53e640dac2415b144e01bbbb2d47709cccbda9` |
-| 13 | Beat 14 | `BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `fcac30a5ae8755d38dc3fe2b4dae3c56f42b76a115125290722f3db4bfe56308` |
-| 14 | Beat 15 | `BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `a2e760ec4a6563abd9684fd7d1a9078efa17d78bb7b79413508e3e94d4657c58` |
-| 15 | Beat 16 | `BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `0e5cf7c8eb94e2fe494a600ea85fb5c6eca4b341dae44d6859e53327b59bf0af` |
-| 16 | C05 — Still Burns | `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `cd3372a3d4254df3dbc9519276cfb4fbbcc5c3c3c657d5c7d95a220ee40941b7` |
+| 1 | Beat 1 | `BEAT_01_PATH_OUTSIDE_DUNMERE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `a393d9575bdefdbb34a6b8af8d19dc9d495f5902eea18d1b72e822667573dea7` |
+| 2 | Beat 2 | `BEAT_02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_NATURAL_TURN_WORKING_DIALOGUE.md` | `d57ecb5a75186d72f4efe12b1ff1947ade1b5e70599874f40e093d73958b3ee0` |
+| 3 | Beat 3 | `BEAT_03_DUNMERE_ELDER_HIDDEN_APPROACH_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `040b96f7e6d949cac26e1490b690c4337d23805754397fa97df86cd7de8ec097` |
+| 4 | Beat 4 | `BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `c3e7e0e5c7596de4a142e44f889777033ff252af7061645279b32a5c811785dd` |
+| 5 | Beat 5 | `BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md` | `e036e6e7bde254a4e0036e7aaae277ab2e5639cf1894fa4a1dbd1f278dc55429` |
+| 6 | Beat 7 | `BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `483f6d4907b6f4d87f285ba5a2fd8fb5ca6b19fdf3d5539887af04be483a4f3d` |
+| 7 | Beat 8 | `BEAT_08_ARCHIVE_LEVIATHAN_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `b219b398ef2bb7a1433c9b38af1738b3c109c73f2746f72bf06c62cbad3002b6` |
+| 8 | Beat 9 | `BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `efb24e29d1a1d2674621a0e16354bfbcb8e67f6bb4142eed02f4bb6bc53beedb` |
+| 9 | Beat 10 | `BEAT_10_PRISONER_GALLERIES_FIRST_CONTACT_NATURAL_TURN_WORKING_DIALOGUE.md` | `0eec6e3dc4c7c49c9081af718597157ca7d1198979ad519acde8f7ae48be1537` |
+| 10 | Beat 11 | `BEAT_11_PRISONER_SAFE_AREA_EXIT_PROBLEM_NATURAL_TURN_WORKING_DIALOGUE.md` | `708366533760a4ecd9707207858f3cb075eedb936dd6b142c4555a787ecacf26` |
+| 11 | Beat 12 | `BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `f8fb8560c5659ac969cb1bb1110889ece7e18b6e9e32b964900e0d840d88ad2c` |
+| 12 | Beat 13 | `BEAT_13_RHAZEK_MASKED_OFFICER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `63beb9a8792b9ab70a2af941804cf1dd68d16f31e651e12e4166414938e72855` |
+| 13 | Beat 14 | `BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `c2f5f14e7d47c7cb9fb1ca90943862cfb14d7400fd3ece00f523ad0d374bcda2` |
+| 14 | Beat 15 | `BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `43df77cfbe6b02074e6793dee6ca83e22c8281da12c2ed89fb7c47960ffcd7fb` |
+| 15 | Beat 16 | `BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `cad0a1ba48b1a0a532015b11d5f18825a2ddd16396c8902d4aad2ffeea0cc8ee` |
+| 16 | C05 — Still Burns | `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `772a4540dbab189e72a646505de7ea26929e57e5cd35752d38acbc7b19496540` |
 
 ---
 
 ## Beat 1
 
 **Atomic source:** `BEAT_01_PATH_OUTSIDE_DUNMERE_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `ff579de937d9f5b1b13bbac3cf9a0f5ec3253180a1391a8fbdae040bb01cef38`
+**Source SHA-256:** `a393d9575bdefdbb34a6b8af8d19dc9d495f5902eea18d1b72e822667573dea7`
 
 # Chapter 2 — Beat 1 — Path Outside Dunmere
 
@@ -94,7 +94,7 @@ Nothing here reveals the Chapter 2 crisis yet.
 
 Torren sees it first.
 
-**TORREN:** There. Dunmere. Still where I left it. Good start.
+**TORREN:** There. Dunmere. Still where I left it. Damn good start.
 
 **CYANIS:** You sound relieved.
 
@@ -118,7 +118,7 @@ A beat.
 
 **TORREN:** Two warnings and a stew.
 
-**ILYRA:** Important distinction.
+**ILYRA:** Of course you'd call that different.
 
 Maevra starts toward town.
 
@@ -126,7 +126,7 @@ Maevra starts toward town.
 
 Torren follows.
 
-**TORREN:** Fuck off.
+**TORREN:** Piss off.
 
 Cyanis grins and follows.
 
@@ -146,7 +146,7 @@ Next mandatory beat:
 ## Beat 2
 
 **Atomic source:** `BEAT_02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_NATURAL_TURN_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `6da171864afd597aa766f3bb22398fd8dd69c5e1412fdf1306d50334162e762c`
+**Source SHA-256:** `d57ecb5a75186d72f4efe12b1ff1947ade1b5e70599874f40e093d73958b3ee0`
 
 # Chapter 2 — Beat 2 — Dunmere Arrival / Missing Travelers
 
@@ -221,11 +221,11 @@ Torren looks at the guard.
 
 Torren nods.
 
-**TORREN:** Good. Keep it at toward.
+**TORREN:** Good. Don't turn `toward` into `inside`.
 
 The guard gives him a look.
 
-**TORREN:** Means we know what we know.
+**TORREN:** Toward is enough to start.
 
 The Carter gestures toward the idle wagons.
 
@@ -243,7 +243,7 @@ Torren answers the actual question.
 
 Maevra looks farther into town.
 
-**MAEVRA:** Then the road belongs to them until we change that.
+**MAEVRA:** Then the damn road belongs to them until we change that.
 
 The Carter points inward.
 
@@ -284,7 +284,7 @@ Next mandatory beat:
 ## Beat 3
 
 **Atomic source:** `BEAT_03_DUNMERE_ELDER_HIDDEN_APPROACH_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `646fe5639cc6f92276ddb10983f90347e0b99d2060aac5020141bcee727460fe`
+**Source SHA-256:** `040b96f7e6d949cac26e1490b690c4337d23805754397fa97df86cd7de8ec097`
 
 # Chapter 2 — Beat 3 — Dunmere Elder / Hidden Approach
 
@@ -353,7 +353,7 @@ Cyanis looks back to the elder.
 
 Torren nods once.
 
-**TORREN:** Fine.
+**TORREN:** Fine. Better than the road.
 
 **CYANIS:** Entrance?
 
@@ -371,7 +371,7 @@ Maevra stands.
 
 Ilyra looks once more at the old route.
 
-**ILYRA:** Better than walking into a fort through the part designed for walking into the fort.
+**ILYRA:** Better than walking through the damn front door.
 
 **CYANIS:** Strong endorsement.
 
@@ -403,7 +403,7 @@ Next mandatory beat:
 ## Beat 4
 
 **Atomic source:** `BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `1ca1b337c0c5177fe79f13b012485381c33739ab4bf27ff3d34c1f888ffcecc1`
+**Source SHA-256:** `c3e7e0e5c7596de4a142e44f889777033ff252af7061645279b32a5c811785dd`
 
 # Chapter 2 — Beat 4 — Old Waterworks
 
@@ -468,9 +468,9 @@ Torren steps away from the door.
 
 Cyanis gives the sealed branch another look.
 
-**CYANIS:** I hate doors that become questions.
+**CYANIS:** I hate damn doors that become questions.
 
-**ILYRA:** You're going to have a difficult life.
+**ILYRA:** Then you're in for a shitty life.
 
 **CYANIS:** Already noticing.
 
@@ -498,7 +498,7 @@ After one particularly unpleasant crossing, Ilyra wrings water from one glove.
 
 Maevra looks down at her soaked clothes.
 
-**MAEVRA:** I reserve the right to complain while agreeing with both of you.
+**MAEVRA:** I reserve the right to complain like hell while agreeing with both of you.
 
 **CYANIS:** Finally, a doctrine I can support.
 
@@ -567,7 +567,7 @@ Next mandatory beat:
 ## Beat 5
 
 **Atomic source:** `BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `8595d7128fe0551e5e35787fe13912fa27faf382a6d42ced3ce930cea36a36a3`
+**Source SHA-256:** `e036e6e7bde254a4e0036e7aaae277ab2e5639cf1894fa4a1dbd1f278dc55429`
 
 # Chapter 2 — Beat 5 — Sunken Archive Entrance
 
@@ -586,7 +586,7 @@ The Card remains inert.
 
 Cyanis looks out across the chamber.
 
-**CYANIS:** Well. Not plumbing.
+**CYANIS:** Well. That sure as hell isn't plumbing.
 
 Ilyra takes in the repeated protected recesses and the scale of the chamber.
 
@@ -620,7 +620,7 @@ Ilyra gives Cyanis a sideways look.
 
 **CYANIS:** I wanted the reassuring one.
 
-**TORREN:** Wrong expert.
+**TORREN:** Wrong damn expert.
 
 That gets the smallest laugh out of Maevra.
 
@@ -638,7 +638,7 @@ Cyanis lingers for one more second on the scale of the place.
 
 **CYANIS:** We're coming back to the question of what this is.
 
-**ILYRA:** Assuming it doesn't drown us first.
+**ILYRA:** Assuming this damn place doesn't drown us first.
 
 **CYANIS:** See, that's the reassuring answer I wanted.
 
@@ -672,7 +672,7 @@ Next mandatory beat:
 ## Beat 7
 
 **Atomic source:** `BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `90bae29d45a9d0511b86f58ae3d6111bda846f54744701f0b290ea0af4b43946`
+**Source SHA-256:** `483f6d4907b6f4d87f285ba5a2fd8fb5ca6b19fdf3d5539887af04be483a4f3d`
 
 # Chapter 2 — Beat 7 — Archive Depths
 
@@ -736,7 +736,7 @@ Cyanis looks toward the route onward.
 
 Cyanis exhales.
 
-**CYANIS:** Naturally.
+**CYANIS:** Of fucking course.
 
 Player control resumes.
 
@@ -776,7 +776,7 @@ Ilyra watches the water shift again.
 
 Torren readies himself.
 
-**TORREN:** Move.
+**TORREN:** Move. Before it gets worse.
 
 The trio enters.
 
@@ -800,7 +800,7 @@ Next mandatory beat:
 ## Beat 8
 
 **Atomic source:** `BEAT_08_ARCHIVE_LEVIATHAN_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `e67b91852e3981566910dee32b9b2473fc2eedd9389b5fba3868e51f7f705c62`
+**Source SHA-256:** `b219b398ef2bb7a1433c9b38af1738b3c109c73f2746f72bf06c62cbad3002b6`
 
 # Chapter 2 — Beat 8 — Archive Leviathan
 
@@ -827,7 +827,7 @@ The trio shifts onto firmer footing as the creature turns toward them.
 
 Cyanis looks past it once, toward the route beyond.
 
-**CYANIS:** That's in our way.
+**CYANIS:** That's a hell of a thing to put in our way.
 
 **TORREN:** Very.
 
@@ -851,7 +851,7 @@ Cyanis sets himself.
 
 Torren draws.
 
-**TORREN:** Works for me.
+**TORREN:** Works for me. Kill the damn thing.
 
 Ilyra readies herself.
 
@@ -904,7 +904,7 @@ Maevra rejoins them once the crossing is safe enough.
 
 Ilyra looks toward the newly accessible continuation.
 
-**ILYRA:** Any idea where that goes?
+**ILYRA:** Any idea where the hell that goes?
 
 Torren studies it.
 
@@ -945,7 +945,7 @@ Next mandatory beat:
 ## Beat 9
 
 **Atomic source:** `BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `212244e6300c68a06a3ff653676136f9ea566a7bb581ccfd2e910e8c12dc1ae9`
+**Source SHA-256:** `efb24e29d1a1d2674621a0e16354bfbcb8e67f6bb4142eed02f4bb6bc53beedb`
 
 # Chapter 2 — Beat 9 — Secret Passage Discovery
 
@@ -1004,7 +1004,7 @@ Torren keeps working instead of answering immediately.
 
 A beat.
 
-**TORREN:** Give me a minute before anybody gets helpful.
+**TORREN:** Give me a damn minute before anybody gets helpful.
 
 Cyanis takes one step back.
 
@@ -1052,7 +1052,7 @@ Torren gives him a look.
 
 **TORREN:** That's not what I said.
 
-**CYANIS:** Close enough.
+**CYANIS:** Close enough for this shit.
 
 Ilyra lifts a hand.
 
@@ -1090,7 +1090,7 @@ Cyanis nods.
 
 Ilyra is already focused on the sound beyond.
 
-**ILYRA:** Whoever's there heard that door.
+**ILYRA:** Whoever's there heard that damn door.
 
 Maevra looks to Cyanis, then Torren.
 
@@ -1129,7 +1129,7 @@ Next mandatory beat:
 ## Beat 10
 
 **Atomic source:** `BEAT_10_PRISONER_GALLERIES_FIRST_CONTACT_NATURAL_TURN_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `5a4fdaea7b8c5147502354d1884694aec0696347264234ed61cf14de2eeb1499`
+**Source SHA-256:** `0eec6e3dc4c7c49c9081af718597157ca7d1198979ad519acde8f7ae48be1537`
 
 # Chapter 2 — Beat 10 — Prisoner Galleries / First Contact
 
@@ -1150,19 +1150,11 @@ She sees Cyanis first and freezes.
 
 **DUNMERE WOMAN:** Who the hell are you?
 
-**CYANIS:** Not Host.
-
-He looks at the locked doors.
-
-**CYANIS:** We're getting you out.
+**CYANIS:** Not Host. We're getting you out.
 
 She looks past him at Ilyra, Torren, and Maevra emerging from a wall that should not open.
 
-**DUNMERE WOMAN:** Then explain the wall later.
-
-She grips the bars.
-
-**DUNMERE WOMAN:** Doors first.
+**DUNMERE WOMAN:** Then explain the wall later. Doors first.
 
 **CYANIS:** Agreed.
 
@@ -1248,10 +1240,6 @@ The Greenhollow man shakes his head.
 
 **GREENHOLLOW MAN:** We never find out where they went.
 
-The wounded soldier adds:
-
-**WOUNDED SOLDIER:** I've seen them moved out of the galleries. That's all I can swear to.
-
 Torren says nothing. There is nothing to improve in that answer.
 
 Cyanis looks toward the upper Bastion route.
@@ -1260,15 +1248,7 @@ Cyanis looks toward the upper Bastion route.
 
 The wounded soldier answers immediately.
 
-**WOUNDED SOLDIER:** Commander Rhazek.
-
-That lands.
-
-Maevra looks at him.
-
-**MAEVRA:** You're sure?
-
-**WOUNDED SOLDIER:** Seen him down here twice. Guards report to him when he comes through.
+**WOUNDED SOLDIER:** Commander Rhazek. Seen him down here twice. Guards report to him when he comes through.
 
 Torren exhales through his nose.
 
@@ -1276,7 +1256,7 @@ Torren exhales through his nose.
 
 Cyanis looks back toward the prisoners.
 
-**CYANIS:** All right.
+**CYANIS:** All right. Damn.
 
 No one turns Rhazek's name into a speech.
 
@@ -1284,15 +1264,9 @@ No one turns Rhazek's name into a speech.
 
 The Dunmere woman looks toward the concealed opening the party used.
 
-**DUNMERE WOMAN:** That's your way in?
+The Dunmere woman looks at the injured and weakened people around her, then at the party's soaked clothes.
 
-**CYANIS:** Yeah.
-
-She looks at the injured and weakened people around her.
-
-Then at the party's soaked clothes.
-
-**DUNMERE WOMAN:** We're not all making that.
+**DUNMERE WOMAN:** That's your way in? We're not all making that.
 
 Ilyra finishes the wounded soldier's immediate assessment.
 
@@ -1359,7 +1333,7 @@ Next mandatory beat:
 ## Beat 11
 
 **Atomic source:** `BEAT_11_PRISONER_SAFE_AREA_EXIT_PROBLEM_NATURAL_TURN_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `e87652e2ff0466af94ebbffa885f8e232fb8e5134846af5f47d97c6d7dcc7505`
+**Source SHA-256:** `708366533760a4ecd9707207858f3cb075eedb936dd6b142c4555a787ecacf26`
 
 # Chapter 2 — Beat 11 — Prisoner Safe Area / Exit Problem
 
@@ -1394,19 +1368,9 @@ The wounded soldier shifts where he is sitting.
 
 Ilyra looks at him.
 
-**ILYRA:** From there is fine.
+**ILYRA:** From there is fine. If that starts bleeding again, pressure and stay put.
 
-She points to the dressing.
-
-**ILYRA:** If that starts bleeding again, pressure and stay put.
-
-**WOUNDED SOLDIER:** That's the whole medical lecture?
-
-**ILYRA:** Do you want the long one?
-
-**WOUNDED SOLDIER:** No.
-
-**ILYRA:** Good judgment.
+**WOUNDED SOLDIER:** Happily.
 
 The room keeps organizing around them.
 
@@ -1444,33 +1408,19 @@ Maevra has already reached the next decision.
 
 **MAEVRA:** I'm staying here.
 
-Cyanis looks at her.
-
 **CYANIS:** I figured.
-
-**MAEVRA:** Good. Saves an argument.
 
 She gestures with the splinted arm.
 
-**MAEVRA:** You three can move fast and fight. I can keep this room from turning into a panic if the fort pushes back down.
-
-Torren glances around the safe area.
+**MAEVRA:** You three can move fast and fight. I can keep this room together if the fort pushes back down.
 
 **TORREN:** Better use of you here.
 
-Maevra looks at him.
-
-**MAEVRA:** You always know exactly how to make support sound flattering.
+**MAEVRA:** Somehow still not flattering.
 
 **TORREN:** Wasn't trying to.
 
-**MAEVRA:** I know.
-
 Ilyra finishes with the wounded soldier and stands.
-
-**ILYRA:** He stays seated unless the room has to move.
-
-**WOUNDED SOLDIER:** Happily.
 
 Maevra looks across the freed group.
 
@@ -1490,17 +1440,13 @@ Cyanis looks around the room.
 
 He does not give a speech.
 
-**CYANIS:** We're going up. We take the road exit from them, then we come back for all of you.
+**CYANIS:** We're going up. We take the damn road exit, then we come back.
 
 The Dunmere woman meets his eyes.
 
 **DUNMERE WOMAN:** You said that already.
 
-**CYANIS:** I know.
-
-A beat.
-
-**DUNMERE WOMAN:** Good.
+**CYANIS:** Good. Remember it.
 
 Torren checks his gear.
 
@@ -1546,7 +1492,7 @@ Next mandatory beat:
 ## Beat 12
 
 **Atomic source:** `BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `262f0841733ead8b3b9eed502edf0dcb7aa2c1f61c7e4e47c629936d621c5906`
+**Source SHA-256:** `f8fb8560c5659ac969cb1bb1110889ece7e18b6e9e32b964900e0d840d88ad2c`
 
 # Chapter 2 — Beat 12 — Bastion Command Ascent
 
@@ -1645,7 +1591,7 @@ Boots move toward defensible positions.
 
 Cyanis looks ahead.
 
-**CYANIS:** There goes quiet.
+**CYANIS:** There goes our damn quiet.
 
 Torren draws.
 
@@ -1681,19 +1627,13 @@ After another section, the trio pauses briefly behind cover while Black Host mov
 
 Torren listens.
 
-**TORREN:** They're pulling inward.
-
-Cyanis waits for the rest.
-
-Torren gives it.
-
-**TORREN:** Command stair. Gate controls. Anything they can't afford to lose.
+**TORREN:** They're pulling inward. Command stair, gate controls—anything they can't afford to lose.
 
 **CYANIS:** Same direction for us.
 
 **TORREN:** Mostly.
 
-**CYANIS:** I hate that word.
+**CYANIS:** I hate that damn word.
 
 **TORREN:** You've survived it so far.
 
@@ -1705,15 +1645,7 @@ She looks toward the sound.
 
 **ILYRA:** They still think the problem started down here.
 
-Torren nods.
-
-**TORREN:** Good.
-
-Cyanis looks back the way they came.
-
-**CYANIS:** Keep them looking up.
-
-**TORREN:** That's the idea.
+**TORREN:** Good. Let them.
 
 Torren points toward a side connection.
 
@@ -1763,29 +1695,17 @@ Torren checks the layout once.
 
 **TORREN:** Command level.
 
-Cyanis catches his breath.
-
 **CYANIS:** Finally.
 
 Ilyra looks toward the next secured doorway.
 
-**ILYRA:** He knows we're here by now.
+**ILYRA:** He knows someone's here by now.
 
-**TORREN:** Knows someone's here.
+**TORREN:** Good enough.
 
-Cyanis looks at the door.
+Cyanis gives him a look.
 
-**CYANIS:** Good enough.
-
-Torren gives him a sideways glance.
-
-**TORREN:** Careful. That's mine.
-
-Cyanis almost smiles.
-
-**CYANIS:** Borrowing it.
-
-Ilyra steps toward the door.
+**CYANIS:** That's mine now.
 
 **ILYRA:** Argue ownership later.
 
@@ -1816,7 +1736,7 @@ Next mandatory beat:
 ## Beat 13
 
 **Atomic source:** `BEAT_13_RHAZEK_MASKED_OFFICER_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `6a3ddbfca1641ab504de0ad48a53e640dac2415b144e01bbbb2d47709cccbda9`
+**Source SHA-256:** `63beb9a8792b9ab70a2af941804cf1dd68d16f31e651e12e4166414938e72855`
 
 # Chapter 2 — Beat 13 — Rhazek / Masked Officer
 
@@ -1869,15 +1789,9 @@ Cyanis stops at a practical fighting distance.
 
 **CYANIS:** Commander Rhazek.
 
-Rhazek studies him briefly.
+**RHAZEK:** Your prisoners gave you my name.
 
-**RHAZEK:** You know my name.
-
-**CYANIS:** Your prisoners do.
-
-Rhazek does not correct the word.
-
-**RHAZEK:** I would expect them to.
+**CYANIS:** They did.
 
 The masked officer shifts his attention to the trio.
 
@@ -1891,19 +1805,9 @@ He says nothing yet.
 
 Cyanis keeps his attention on Rhazek.
 
-**CYANIS:** You've been taking people off the road.
+**CYANIS:** You've been taking people off the road. Your order?
 
-**RHAZEK:** Yes.
-
-**CYANIS:** Your order?
-
-**RHAZEK:** Mine.
-
-A beat.
-
-Rhazek does not soften it.
-
-**RHAZEK:** The corridor is under Black Host authority. Movement through it is controlled. Those taken into custody were assigned for transfer.
+**RHAZEK:** Mine. The corridor is under Black Host authority. Those taken into custody were assigned for transfer.
 
 Ilyra's expression hardens.
 
@@ -1931,27 +1835,15 @@ Cyanis speaks.
 
 **CYANIS:** They didn't agree to any of this.
 
-Rhazek's answer comes without hesitation.
-
 **RHAZEK:** Agreement is not the standard.
-
-That lands.
-
-Cyanis's expression changes.
 
 **CYANIS:** For you.
 
-**RHAZEK:** For a functioning state.
-
-He does not raise his voice.
-
-**RHAZEK:** You keep treating refusal as though it dissolves authority. It does not.
+**RHAZEK:** For a functioning state. Refusal does not dissolve authority.
 
 Torren finally speaks.
 
-**TORREN:** Convenient.
-
-Rhazek looks at him.
+**TORREN:** Convenient as hell.
 
 **RHAZEK:** Necessary.
 
@@ -1969,28 +1861,17 @@ Cyanis returns to the immediate point.
 
 Cyanis gives a short, humorless laugh.
 
-**CYANIS:** That's your answer?
-
-**RHAZEK:** It is the answer.
-
-**CYANIS:** You put people in cages and move them somewhere they don't want to go.
-**RHAZEK:** Correct.
-
-Another beat.
+**CYANIS:** You put people in cages and still want me to ask nicely?
 
 **RHAZEK:** You object to the policy. That does not give you standing inside my command.
 
 Cyanis looks around the room they fought their way into.
 
-**CYANIS:** I think we're past asking for standing.
-
-Rhazek's eyes narrow slightly.
-
-**RHAZEK:** Yes.
+**CYANIS:** Pretty sure we're past that shit.
 
 For the first time, there is the faintest edge of professional irritation.
 
-**RHAZEK:** That is becoming obvious.
+**RHAZEK:** Yes. That is becoming obvious.
 
 No one gets the onward destination from him.
 
@@ -2036,23 +1917,15 @@ No fight.
 
 Torren watches the route close behind him.
 
-**TORREN:** Gate's still held.
-
-**CYANIS:** I know.
-
 ### [AUTHORITY]
 
 Rhazek gives the trio his full attention.
 
 **RHAZEK:** You have disrupted my interior. That is not the same as taking the Bastion.
 
-**CYANIS:** No.
-
 Cyanis looks toward the road-side side of the fort.
 
-**CYANIS:** That's next.
-
-Rhazek understands immediately.
+**CYANIS:** Then we'll take the rest.
 
 **RHAZEK:** The detainees are not leaving through that gate.
 
@@ -2076,9 +1949,7 @@ Rhazek looks back to Cyanis.
 
 **RHAZEK:** You intend to substitute your judgment for mine by force.
 
-Cyanis does not pretend otherwise.
-
-**CYANIS:** Here? Yeah.
+**CYANIS:** Here? Damn right.
 
 Rhazek gives a small nod.
 
@@ -2086,11 +1957,7 @@ Not approval.
 
 Recognition.
 
-**RHAZEK:** Then at least we understand the disagreement.
-
-He shifts fully from command conversation to combat readiness.
-
-**RHAZEK:** There is nothing left to discuss.
+**RHAZEK:** Then there is nothing left to discuss.
 
 Cyanis readies himself.
 
@@ -2129,7 +1996,7 @@ No later reveal is exposed.
 ## Beat 14
 
 **Atomic source:** `BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `fcac30a5ae8755d38dc3fe2b4dae3c56f42b76a115125290722f3db4bfe56308`
+**Source SHA-256:** `c2f5f14e7d47c7cb9fb1ca90943862cfb14d7400fd3ece00f523ad0d374bcda2`
 
 # Chapter 2 — Beat 14 — Commander Rhazek / Bastion Master
 
@@ -2241,35 +2108,17 @@ Cyanis keeps his attention on Rhazek.
 
 **CYANIS:** And the people downstairs?
 
-Rhazek looks at him.
-
-**RHAZEK:** Their status has not changed.
-
-Cyanis stares at him.
-
-**CYANIS:** It has.
-
-**RHAZEK:** You have control of the galleries and enough force to prevent us retaking them during withdrawal.
-
-A beat.
-
-**RHAZEK:** That is a change in control. Not in the legitimacy of the order.
+**RHAZEK:** You control the galleries now. That does not make my order illegitimate.
 
 Ilyra's expression goes still.
 
 **ILYRA:** You really believe that.
 
-Rhazek looks at her.
-
 **RHAZEK:** Yes.
-
-No hesitation.
-
-No hidden apology.
 
 Torren gives a short, disgusted exhale.
 
-**TORREN:** There it is.
+**TORREN:** There it fucking is.
 
 Rhazek turns his attention back to the withdrawing fort.
 
@@ -2339,25 +2188,13 @@ Cyanis waits.
 
 Torren finishes looking.
 
-**TORREN:** Yeah.
+**TORREN:** Route's good. Wide enough for the injured.
 
-**CYANIS:** Everybody?
-
-Torren nods.
-
-**TORREN:** Wide enough. Maintained ground. We can move the injured through here.
-
-Ilyra looks back toward the lower levels.
-
-**ILYRA:** Good.
-
-Cyanis turns with her.
+Cyanis turns toward the lower levels.
 
 **CYANIS:** Then we go get them.
 
 Torren is already moving.
-
-**TORREN:** Yeah.
 
 ### [GAMEPLAY HANDOFF]
 
@@ -2386,7 +2223,7 @@ Next mandatory beat:
 ## Beat 15
 
 **Atomic source:** `BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `a2e760ec4a6563abd9684fd7d1a9078efa17d78bb7b79413508e3e94d4657c58`
+**Source SHA-256:** `43df77cfbe6b02074e6793dee6ca83e22c8281da12c2ed89fb7c47960ffcd7fb`
 
 # Chapter 2 — Beat 15 — Return to the Prisoners / Release
 
@@ -2425,15 +2262,7 @@ The wounded soldier looks at Cyanis.
 
 **WOUNDED SOLDIER:** Rhazek?
 
-Cyanis does not dress it up.
-
-**CYANIS:** Beat him.
-
-A beat.
-
-**CYANIS:** He's alive. Pulled the rest of his people out.
-
-The soldier absorbs that.
+**CYANIS:** Beat him. He's alive, but he pulled his people out.
 
 **WOUNDED SOLDIER:** So they lost it.
 
@@ -2453,31 +2282,21 @@ People are already standing, gathering what little they have, and helping one an
 
 Ilyra goes back to the people she assessed earlier.
 
-**ILYRA:** All right. Before stairs make anybody ambitious—if you're dizzy, say it. If you can't put weight on something, say it.
+**ILYRA:** Before the stairs make anybody stupid—if you're dizzy or can't put weight on something, say it.
 
 The wounded soldier starts to stand.
 
-Ilyra looks at him.
-
-**ILYRA:** You especially.
-
 **WOUNDED SOLDIER:** I can walk.
 
-**ILYRA:** I know.
-
-She nods toward the Greenhollow man.
-
-**ILYRA:** You're still taking the arm.
+**ILYRA:** Good. You're still taking his arm.
 
 The Greenhollow man steps over.
 
 **GREENHOLLOW MAN:** Happily.
 
-The wounded soldier gives him a look.
-
 **WOUNDED SOLDIER:** You say that now.
 
-**GREENHOLLOW MAN:** I've been listening to you complain for two days. Walking will be quieter.
+**GREENHOLLOW MAN:** I've heard you complain for two days. Walking will be quieter.
 
 That gets a tired laugh from someone nearby.
 
@@ -2487,7 +2306,7 @@ Maevra looks across the room.
 
 She raises the splinted arm slightly.
 
-**MAEVRA:** And nobody gets heroic because the door's finally open.
+**MAEVRA:** And nobody gets damn heroic because the door's finally open.
 
 Torren glances at the splint.
 
@@ -2505,11 +2324,7 @@ She almost smiles.
 
 Once everyone who can move is on their feet, Torren addresses the group.
 
-**TORREN:** We're not using the way we came in.
-
-A few prisoners visibly relax.
-
-**TORREN:** Up through the Bastion. East court. Road gate. It's maintained ground all the way out.
+**TORREN:** We're not using the way we came in. Up through the Bastion, east court, road gate. Maintained ground all the way out.
 
 The Dunmere woman looks at him.
 
@@ -2555,11 +2370,9 @@ She looks at Cyanis.
 
 **DUNMERE WOMAN:** You actually came back.
 
-Cyanis looks at her.
-
 **CYANIS:** Said we would.
 
-She studies him for half a second, then nods.
+She nods.
 
 **DUNMERE WOMAN:** Good.
 
@@ -2621,7 +2434,7 @@ Next mandatory beat:
 ## Beat 16
 
 **Atomic source:** `BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `0e5cf7c8eb94e2fe494a600ea85fb5c6eca4b341dae44d6859e53327b59bf0af`
+**Source SHA-256:** `cad0a1ba48b1a0a532015b11d5f18825a2ddd16396c8902d4aad2ffeea0cc8ee`
 
 # Chapter 2 — Beat 16 — Return to Dunmere / Road Reopened / Cleanup
 
@@ -2679,19 +2492,11 @@ The elder looks back to the four of them.
 
 **ELDER:** Bastion?
 
-Torren answers.
-
 **TORREN:** Host pulled out. Gate's open. Checkpoints are gone.
 
 **ELDER:** Rhazek?
 
-**CYANIS:** Alive.
-
-A beat.
-
-**CYANIS:** He was running the seizures himself. We beat him, and he withdrew what was left of the garrison.
-
-The elder considers that.
+**CYANIS:** Alive. He was running the seizures himself. We beat him and he withdrew the garrison.
 
 **ELDER:** So he lost the fort.
 
@@ -2735,11 +2540,11 @@ Torren looks at him.
 
 **TORREN:** Inn first in your head.
 
-**CYANIS:** We rescued people before I ate. I think I've demonstrated character.
+**CYANIS:** We rescued people before I ate. That's heroic as hell.
 
 Maevra gives him a look.
 
-**MAEVRA:** Heroic restraint.
+**MAEVRA:** Deeply moving.
 
 **CYANIS:** Thank you.
 
@@ -2773,13 +2578,9 @@ Ilyra considers that.
 
 Ilyra immediately points at him.
 
-**ILYRA:** No. Complaint.
+**ILYRA:** Bullshit. Complaint.
 
 **TORREN:** Had a question in it.
-
-**ILYRA:** Grammatically. Doesn't count.
-
-Maevra looks between them.
 
 **MAEVRA:** We need rules now?
 
@@ -2787,7 +2588,7 @@ Maevra looks between them.
 
 Cyanis stares at all three.
 
-**CYANIS:** I preferred the Bastion.
+**CYANIS:** I preferred the damn Bastion.
 
 A beat.
 
@@ -2852,96 +2653,78 @@ Chapter 2 ends with:
 ## C05 — Still Burns
 
 **Atomic source:** `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `cd3372a3d4254df3dbc9519276cfb4fbbcc5c3c3c657d5c7d95a220ee40941b7`
+**Source SHA-256:** `772a4540dbab189e72a646505de7ea26929e57e5cd35752d38acbc7b19496540`
 
 # Chapter 2 Character-Life — C05 — Still Burns
 
-**Status:** CURRENT EXACT DIALOGUE AUTHORITY — TRUE-VOICE / NATURAL-TURN / ROLE-BALANCE / DIALOGUE-ECONOMY PASS
+**Status:** CURRENT EXACT DIALOGUE AUTHORITY — TIGHTENED TRUE-VOICE / NATURALISM PASS
 **Availability:** Chapter 2 cleanup, after the Beat-16 Dunmere elder resolution and before the explicit Chapter-3 start interaction
 **Participants:** Torren, Ilyra, Maevra, Cyanis
 
 ## Scene seed
 Late night at the Dunmere inn. Torren is smoking by an open window. Ilyra wakes because it smells noticeably worse than the previous day. His stash was soaked in the waterworks. Maevra and Cyanis enter only because the smell/argument wakes them.
 
-This remains low-stakes Character-Life. No Bastion recap, trauma disclosure, ancient-map exposition, future reveal, or explicit Maevra/Torren relationship timeline.
+This remains low-stakes Character-Life. No Bastion recap, trauma disclosure, Ancient-map exposition, future reveal, or explicit Maevra/Torren relationship timeline.
 
 ---
 
 ### [DUNMERE INN — LATE NIGHT]
 
-Late night at the Dunmere inn.
+Torren is sitting on the floor beneath an open window, smoking.
 
-Torren is smoking by an open window. Ilyra wakes because it smells noticeably worse than the previous day. His stash was soaked in the waterworks. Maevra and Cyanis enter only because the smell/argument wakes them.
-
-The room is dark except for a low lamp and what little moonlight reaches through the open window.
-
-Torren is sitting on the floor beside it, one shoulder against the wall, smoking.
-
-A few seconds pass.
+Ilyra opens one eye.
 
 **ILYRA:** Torren.
 
 **TORREN:** Yeah.
 
-**ILYRA:** What the fuck is that?
+**ILYRA:** What the hell is that?
 
-Torren looks at the blunt in his hand.
+Torren looks at the blunt.
 
 **TORREN:** Mine.
 
-**ILYRA:** I know it's yours. It did not smell like somebody set fire to a ditch yesterday.
+**ILYRA:** I know it's yours. Yesterday it didn't smell like a ditch fire.
 
 **TORREN:** Wasn't wet yesterday.
 
-Ilyra opens her eyes fully.
+Ilyra opens both eyes.
 
-**ILYRA:** Wet.
+**ILYRA:** Your weed went into the waterworks.
 
-**TORREN:** Yeah.
+**TORREN:** Most of the pouch.
 
-**ILYRA:** Your weed went into the waterworks and you kept it.
+**ILYRA:** And you kept it.
 
-**TORREN:** Most of the pouch went under. Dried it after.
+**TORREN:** Dried it.
 
-Ilyra stares at him.
+She stares at him.
 
-**ILYRA:** Torren, I can smell the water in it from bed.
+**ILYRA:** Explain the damn swamp in this room.
 
-**TORREN:** That's not how smell works.
-
-**ILYRA:** Then explain the fucking swamp in this room.
-
-Torren takes another pull and considers the smoke.
+Torren takes another pull.
 
 **TORREN:** Waterworks.
 
-Ilyra stares at the ceiling.
+**ILYRA:** I hate that answer.
 
-**ILYRA:** Of course.
+She points at the window.
 
-She pushes herself upright.
+**ILYRA:** Wider.
 
-**ILYRA:** Open the window farther before you preserve the whole room in whatever that is.
-
-**TORREN:** It is open.
-
-**ILYRA:** Farther.
-
-Torren pushes it wider.
+Torren pushes it open farther.
 
 **TORREN:** Better?
 
-Ilyra breathes once through her nose.
+Ilyra breathes once.
 
-**ILYRA:** Different problem. Now it's cold and smells like wet death.
+**ILYRA:** Now it's cold and smells terrible.
 
-**TORREN:** Good enough.
+**TORREN:** Improvement.
 
 From another bed:
 
-**MAEVRA:** It is absolutely not good enough. I'd love to go back to sleep, but Harth has apparently decided to smoke a drowned boot indoors.
-
-Neither Torren nor Ilyra turns.
+**MAEVRA:** No. Harth has turned the room into a drowned boot.
 
 **TORREN:** Weed.
 
@@ -2949,49 +2732,33 @@ Neither Torren nor Ilyra turns.
 
 **TORREN:** Still burns.
 
-**MAEVRA:** So does garbage. That doesn't make it worth saving.
+**MAEVRA:** So does garbage.
 
-Ilyra looks at Torren.
+Ilyra points toward Maevra without looking away from Torren.
 
-**ILYRA:** There. Independent confirmation.
+**ILYRA:** Independent confirmation.
 
 **TORREN:** Didn't ask for any.
 
 Maevra sits up carefully around the splinted arm.
 
-**MAEVRA:** How much of it got soaked, and please don't answer `enough` like you're being clever.
-
-Torren pauses.
-
-**TORREN:** Most of it.
-
-**MAEVRA:** You dried it next to the brazier, didn't you?
+**MAEVRA:** You dried it by the brazier.
 
 Torren says nothing.
 
 Ilyra turns toward him.
 
-**ILYRA:** Oh, no.
+**ILYRA:** Oh, that's embarrassing.
 
 **TORREN:** Worked.
 
-**ILYRA:** We are currently breathing the evidence that it did not.
+**MAEVRA:** We are breathing proof that your definition of worked is defective.
 
-**MAEVRA:** You still solve problems by asking whether the bad idea technically functioned.
+**TORREN:** It burns. Problem solved.
 
-**TORREN:** Sometimes the bad idea technically functioning is all you need.
+**MAEVRA:** That is not the whole problem.
 
-**MAEVRA:** Name one time that philosophy improved my life.
-
-Torren considers it.
-
-**TORREN:** Open window.
-
-Ilyra laughs once before she can stop herself.
-
-**MAEVRA:** Do not reward him.
-
-**ILYRA:** I didn't mean to.
+Ilyra laughs.
 
 **TORREN:** Still counts.
 
@@ -2999,105 +2766,79 @@ From the last bed:
 
 **CYANIS:** Is something burning?
 
-Three people answer at once:
+Three answers overlap.
 
 **TORREN:** No.
 
 **ILYRA:** Technically.
 
-**MAEVRA:** Unfortunately.
-
-Silence.
+**MAEVRA:** Regrettably.
 
 Cyanis sits up.
 
-**CYANIS:** That's an upsetting set of answers.
+**CYANIS:** That's a terrible set of answers.
 
-He sniffs and immediately regrets it.
+He smells the air.
 
-**CYANIS:** Fuck. I thought the inn had a drainage problem.
-
-**MAEVRA:** It does now.
-
-Torren looks offended.
+**CYANIS:** Shit. I thought the inn had a drainage problem.
 
 **TORREN:** It's not that bad.
 
-**ILYRA:** You woke three people with the smell of one blunt. That's evidence.
+**ILYRA:** You woke three people with one blunt.
 
 **TORREN:** Didn't ask anybody to wake up.
 
-**CYANIS:** Strong defense. Very persuasive to the people already awake.
+**CYANIS:** Strong defense.
 
-Cyanis gets out of bed and stops well short of Torren.
+Cyanis gets out of bed but stops well short of Torren.
 
-**CYANIS:** Why are you still smoking it if it tastes anything like it smells?
+**CYANIS:** Why are you still smoking it?
 
-**TORREN:** Because it's mine. Paid for it, dried it, and I'm not buying more because all of you suddenly developed standards for my weed.
+**TORREN:** Paid for it. Dried it. Not buying more because all of you suddenly have opinions.
 
 **ILYRA:** Buy more tomorrow.
 
 **TORREN:** Don't need more.
 
-**CYANIS:** I'll pay for it if that gets this one out of the building.
+**CYANIS:** I'll pay if that gets this one outside.
 
 Torren looks at him.
 
-**TORREN:** Fuck off.
+**TORREN:** Piss off.
 
-A beat.
-
-**CYANIS:** You know this is insane.
+**CYANIS:** You know it tastes awful.
 
 **TORREN:** It's a little damp.
 
-**ILYRA:** It smells like a corpse fell into a pond.
+**ILYRA:** Your face disagrees.
 
-**MAEVRA:** And stayed there.
+Torren takes another pull purely on principle.
 
-**CYANIS:** Long enough to develop opinions.
+Everyone watches him.
 
-Torren looks down at the blunt, then takes another pull purely on principle.
+He exhales out the window.
 
-Everyone watches.
+A beat.
 
-He exhales through the open window.
+Maevra catches the tiny change in his expression.
 
-A long beat.
-
-His expression changes by almost nothing.
-
-Maevra catches it anyway.
-
-**MAEVRA:** Knew it. You hate it too.
+**MAEVRA:** There. You hate it too.
 
 **TORREN:** Didn't say that.
 
-**ILYRA:** You didn't have to. Your face finally joined the argument.
+**CYANIS:** Didn't need to.
 
-**CYANIS:** Apparently everyone's face talks now.
-
-**MAEVRA:** Yours never shuts up.
-
-**CYANIS:** That's deeply unfair.
-
-**ILYRA:** No.
+**ILYRA:** Your face finally joined the conversation.
 
 Torren tries not to smile.
 
-That makes it worse.
+Fails.
 
-**MAEVRA:** Put it out, Harth. You proved it still burns. Congratulations. The experiment is complete.
+**MAEVRA:** Put it out. You proved it still burns.
 
-**TORREN:** Dramatic.
+Torren looks at the blunt, then presses it into the ash cup.
 
-**MAEVRA:** Accurate.
-
-Torren looks at the blunt again, then presses it out in the ash cup without ceremony.
-
-Nobody says anything.
-
-He looks up. All three are still watching him.
+All three keep looking at him.
 
 **TORREN:** Don't.
 
@@ -3109,23 +2850,19 @@ Maevra smiles.
 
 **MAEVRA:** Coward.
 
-**TORREN:** Fuck you.
+**TORREN:** Fuck off.
 
-**MAEVRA:** That's more like it.
+**MAEVRA:** Better.
 
 The room settles.
 
-The window stays open. Nobody goes immediately back to bed.
+A few minutes later, Cyanis has fallen asleep in the chair. Ilyra is slumped against the bedframe. Maevra has lain back down.
 
-Cyanis takes the chair by the wall. Ilyra stays sitting against the bedframe. Maevra shifts until the splinted arm is comfortable. Torren remains on the floor beneath the window.
+Torren looks at the ash cup.
 
-For a little while, they complain about the cold instead.
+Then at the pouch.
 
-Eventually the room becomes quiet again.
-
-After a few minutes, Cyanis closes his eyes where he is sitting. Ilyra does the same. Maevra lies back down.
-
-Torren looks once at the ash cup and reaches toward the pouch beside him.
+He reaches for it.
 
 Three voices, eyes still closed:
 
@@ -3133,11 +2870,9 @@ Three voices, eyes still closed:
 
 **ILYRA:** No.
 
-**MAEVRA:** Don't you fucking dare.
+**MAEVRA:** Harth.
 
-Torren's hand stops.
-
-A beat.
+His hand stops.
 
 He moves the pouch farther away.
 

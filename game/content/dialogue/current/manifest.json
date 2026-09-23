@@ -305,9 +305,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B01",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_01_PATH_OUTSIDE_DUNMERE_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "ff579de937d9f5b1b13bbac3cf9a0f5ec3253180a1391a8fbdae040bb01cef38",
+          "source_sha256": "a393d9575bdefdbb34a6b8af8d19dc9d495f5902eea18d1b72e822667573dea7",
           "spoken_lines": 21,
-          "spoken_sha256": "8779f6a802aea97a01cb4b0bdeb08862809271bf23a9b21d6da3460d6ac12237",
+          "spoken_sha256": "0035354730a7f046fe60334e7f0f5af53b0efa6e477fa75ce9c9049d678277d7",
           "title": "Chapter 2 — Beat 1 — Path Outside Dunmere"
         },
         {
@@ -316,9 +316,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B02",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_NATURAL_TURN_WORKING_DIALOGUE.md",
-          "source_sha256": "6da171864afd597aa766f3bb22398fd8dd69c5e1412fdf1306d50334162e762c",
+          "source_sha256": "d57ecb5a75186d72f4efe12b1ff1947ade1b5e70599874f40e093d73958b3ee0",
           "spoken_lines": 26,
-          "spoken_sha256": "2047db5de7b5fa8856ade0bf643f7907601483bfb2302f85e66f0ccd6597ccb2",
+          "spoken_sha256": "e165adbc8c7d8b67a98be6a072aeeca4b96077351d2b984b721e2a7013bf65b4",
           "title": "Chapter 2 — Beat 2 — Dunmere Arrival / Missing Travelers"
         },
         {
@@ -327,9 +327,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B03",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_03_DUNMERE_ELDER_HIDDEN_APPROACH_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "646fe5639cc6f92276ddb10983f90347e0b99d2060aac5020141bcee727460fe",
+          "source_sha256": "040b96f7e6d949cac26e1490b690c4337d23805754397fa97df86cd7de8ec097",
           "spoken_lines": 26,
-          "spoken_sha256": "0b341fb964af4a14f95e12970aa39101d27ca18f28ca307586f5e11cabdd524a",
+          "spoken_sha256": "f5556136a8523ab80063562c49a1433449480f56135219ad564307d1d5ab5ce3",
           "title": "Chapter 2 — Beat 3 — Dunmere Elder / Hidden Approach"
         },
         {
@@ -338,9 +338,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B04",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "1ca1b337c0c5177fe79f13b012485381c33739ab4bf27ff3d34c1f888ffcecc1",
+          "source_sha256": "c3e7e0e5c7596de4a142e44f889777033ff252af7061645279b32a5c811785dd",
           "spoken_lines": 25,
-          "spoken_sha256": "59db836e7dfa949ad3553fa9004c6136537db7f3ed49d20211b28abf7d4fd416",
+          "spoken_sha256": "8fa1e71ceba48c747cb8df01cf36192348eac77d4a47db6275bf86a669e2bdb5",
           "title": "Chapter 2 — Beat 4 — Old Waterworks"
         },
         {
@@ -349,9 +349,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B05",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md",
-          "source_sha256": "8595d7128fe0551e5e35787fe13912fa27faf382a6d42ced3ce930cea36a36a3",
+          "source_sha256": "e036e6e7bde254a4e0036e7aaae277ab2e5639cf1894fa4a1dbd1f278dc55429",
           "spoken_lines": 20,
-          "spoken_sha256": "58743cbdb681f34a3f44fa8f17723c656b7847df33233c7f45fb82cdff1aae6c",
+          "spoken_sha256": "26d8eb364d31470f1aa9b4672a3eaf270403433a99ab5e20a97dbd5f8839ac88",
           "title": "Chapter 2 — Beat 5 — Sunken Archive Entrance"
         },
         {
@@ -360,9 +360,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B07",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "90bae29d45a9d0511b86f58ae3d6111bda846f54744701f0b290ea0af4b43946",
+          "source_sha256": "483f6d4907b6f4d87f285ba5a2fd8fb5ca6b19fdf3d5539887af04be483a4f3d",
           "spoken_lines": 13,
-          "spoken_sha256": "2ba9dd7c53407530edb543f4d2f36aef48e7b1228d951df9cbb75a6661ea6337",
+          "spoken_sha256": "a27db49b64ea64a1b7f0417b4fff62149f893c86e8488368a0871772b6e3a95f",
           "title": "Chapter 2 — Beat 7 — Archive Depths"
         },
         {
@@ -371,9 +371,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B08",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_08_ARCHIVE_LEVIATHAN_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "e67b91852e3981566910dee32b9b2473fc2eedd9389b5fba3868e51f7f705c62",
+          "source_sha256": "b219b398ef2bb7a1433c9b38af1738b3c109c73f2746f72bf06c62cbad3002b6",
           "spoken_lines": 21,
-          "spoken_sha256": "445646005339a2fef32a13480a25c898c42e5c77cc636c6725c16cee36c32c6c",
+          "spoken_sha256": "65913288b8fd0da8b7575f726731a3654a6251e72b457f5edf3a4395e8d8df53",
           "title": "Chapter 2 — Beat 8 — Archive Leviathan"
         },
         {
@@ -382,9 +382,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B09",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "212244e6300c68a06a3ff653676136f9ea566a7bb581ccfd2e910e8c12dc1ae9",
+          "source_sha256": "efb24e29d1a1d2674621a0e16354bfbcb8e67f6bb4142eed02f4bb6bc53beedb",
           "spoken_lines": 33,
-          "spoken_sha256": "d7acdfb7fc36face1b01d6ad19ea9c5157d297a4dc7d39314e614a63dd9db5d7",
+          "spoken_sha256": "f54ec5171834115cdd986126f4fe0e2df474d9085de9a126b379937d63c4fec4",
           "title": "Chapter 2 — Beat 9 — Secret Passage Discovery"
         },
         {
@@ -393,9 +393,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B10",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_10_PRISONER_GALLERIES_FIRST_CONTACT_NATURAL_TURN_WORKING_DIALOGUE.md",
-          "source_sha256": "5a4fdaea7b8c5147502354d1884694aec0696347264234ed61cf14de2eeb1499",
-          "spoken_lines": 42,
-          "spoken_sha256": "edf0e6ac30339f9feea8eb51ed23c8d920df9b4e5785df2c2757813c99fa2678",
+          "source_sha256": "0eec6e3dc4c7c49c9081af718597157ca7d1198979ad519acde8f7ae48be1537",
+          "spoken_lines": 35,
+          "spoken_sha256": "0b3cd9f506395f5955d8c8f7bff9b0b0e09af51a9cfbf9d4a67cf8b2d7a9d49d",
           "title": "Chapter 2 — Beat 10 — Prisoner Galleries / First Contact"
         },
         {
@@ -404,9 +404,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B11",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_11_PRISONER_SAFE_AREA_EXIT_PROBLEM_NATURAL_TURN_WORKING_DIALOGUE.md",
-          "source_sha256": "e87652e2ff0466af94ebbffa885f8e232fb8e5134846af5f47d97c6d7dcc7505",
-          "spoken_lines": 38,
-          "spoken_sha256": "d478a32a7bb4ee3adea3cf8b94a18e4730b3cf716a40b58fdc9ac372764b0e15",
+          "source_sha256": "708366533760a4ecd9707207858f3cb075eedb936dd6b142c4555a787ecacf26",
+          "spoken_lines": 29,
+          "spoken_sha256": "25530a389662dfd2e04f21d4dda4f3c5abbe4c8c8443f75bc898a729cf925cdc",
           "title": "Chapter 2 — Beat 11 — Prisoner Safe Area / Exit Problem"
         },
         {
@@ -415,9 +415,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B12",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "262f0841733ead8b3b9eed502edf0dcb7aa2c1f61c7e4e47c629936d621c5906",
-          "spoken_lines": 37,
-          "spoken_sha256": "6864feddd5668beb4dff077e067d410eb1707ed9963ddebe08242aca551a7ee0",
+          "source_sha256": "f8fb8560c5659ac969cb1bb1110889ece7e18b6e9e32b964900e0d840d88ad2c",
+          "spoken_lines": 32,
+          "spoken_sha256": "b55c32ebcc21db28775e8d05da16c25f5e1fe3cfc4f731d1324c37452b947d86",
           "title": "Chapter 2 — Beat 12 — Bastion Command Ascent"
         },
         {
@@ -426,9 +426,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B13",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_13_RHAZEK_MASKED_OFFICER_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "6a3ddbfca1641ab504de0ad48a53e640dac2415b144e01bbbb2d47709cccbda9",
-          "spoken_lines": 58,
-          "spoken_sha256": "459aca7eb55f8f55a108fcdd508d163b55a1ba4e9828e540483356373e849f88",
+          "source_sha256": "63beb9a8792b9ab70a2af941804cf1dd68d16f31e651e12e4166414938e72855",
+          "spoken_lines": 45,
+          "spoken_sha256": "335eb7f1e3e814474922e410c43da1cfb6f2e158ec134d7217b590687de7c39a",
           "title": "Chapter 2 — Beat 13 — Rhazek / Masked Officer"
         },
         {
@@ -437,9 +437,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B14",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "fcac30a5ae8755d38dc3fe2b4dae3c56f42b76a115125290722f3db4bfe56308",
-          "spoken_lines": 34,
-          "spoken_sha256": "5cd49ec70aabf3c5279ae0b5146d880b7586e8f3e8a82726271818d57b0d7d40",
+          "source_sha256": "c2f5f14e7d47c7cb9fb1ca90943862cfb14d7400fd3ece00f523ad0d374bcda2",
+          "spoken_lines": 27,
+          "spoken_sha256": "8946e3db25d7f79b92e4e087df2163dfdf68cb0d74b83a1d29db059963a3bf6f",
           "title": "Chapter 2 — Beat 14 — Commander Rhazek / Bastion Master"
         },
         {
@@ -448,9 +448,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B15",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "a2e760ec4a6563abd9684fd7d1a9078efa17d78bb7b79413508e3e94d4657c58",
-          "spoken_lines": 42,
-          "spoken_sha256": "ffc7a92ab780a878a0e989aa0dbb38127775335f02900e305e59e5e092ecdf2d",
+          "source_sha256": "43df77cfbe6b02074e6793dee6ca83e22c8281da12c2ed89fb7c47960ffcd7fb",
+          "spoken_lines": 38,
+          "spoken_sha256": "8629175776f67aa95275391391890f74098e5979649eaff963ac65f0d2d7c032",
           "title": "Chapter 2 — Beat 15 — Return to the Prisoners / Release"
         },
         {
@@ -459,9 +459,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B16",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "0e5cf7c8eb94e2fe494a600ea85fb5c6eca4b341dae44d6859e53327b59bf0af",
-          "spoken_lines": 42,
-          "spoken_sha256": "11642ed5a0f6d30aae750687dbf30c29b1715a46f6ab466955dde65cf05613af",
+          "source_sha256": "cad0a1ba48b1a0a532015b11d5f18825a2ddd16396c8902d4aad2ffeea0cc8ee",
+          "spoken_lines": 40,
+          "spoken_sha256": "0c668958128213cb924e9e2277f97be14e678a0fe3a9f81f7bfb49aa809c7c7b",
           "title": "Chapter 2 — Beat 16 — Return to Dunmere / Road Reopened / Cleanup"
         },
         {
@@ -470,9 +470,9 @@
           "scene_kind": "character_life",
           "slot_id": "C05",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "cd3372a3d4254df3dbc9519276cfb4fbbcc5c3c3c657d5c7d95a220ee40941b7",
-          "spoken_lines": 83,
-          "spoken_sha256": "b3348ff8a1d3489a265c29ff2e2f12507f50c9aaf4eebf4a8e4cbcb7a7a1aff3",
+          "source_sha256": "772a4540dbab189e72a646505de7ea26929e57e5cd35752d38acbc7b19496540",
+          "spoken_lines": 65,
+          "spoken_sha256": "0c264eed186af5807937d27bf619264bd6679b61ae2a7d8d473fd2833b1491ee",
           "title": "Chapter 2 Character-Life — C05 — Still Burns"
         }
       ]
@@ -670,9 +670,9 @@
       ]
     }
   },
-  "expected_total_spoken": 2103,
-  "global_spoken_sha256": "9316ae54e6878140bb43f32c8ccec41fd43d290cdb7f39a6015ef72673950c2c",
+  "expected_total_spoken": 2038,
+  "global_spoken_sha256": "053534ee39c12e1ba3e4d3f7facc82a3cff33babb92c058714aa80c2fb706ba8",
   "schema": "diyse_current_runtime_dialogue_manifest_v1",
   "source_authority": "docs/03_DIALOGUE/PRODUCTION",
-  "total_spoken": 2103
+  "total_spoken": 2038
 }
