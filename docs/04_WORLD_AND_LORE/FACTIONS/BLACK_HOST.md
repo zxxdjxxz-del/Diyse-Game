@@ -11,6 +11,34 @@ The Black Host is the major authoritarian/fascist/destructive imperial power con
 
 The map label describes political control, not a conventional national country-name equivalent.
 
+## Player-facing political identity
+The Black Host is a **human imperial state**, not a species, supernatural horde, or mind-controlled population.
+
+It contains:
+- civilians;
+- cities and settlements;
+- functioning institutions;
+- schools / training;
+- administration;
+- logistics and infrastructure;
+- ordinary people living under the regime.
+
+Its authoritarian danger comes from human political institutions, coercion, conquest, and enforced obedience rather than from making every Black Host citizen literally inhuman.
+
+Player-facing framing may acknowledge that the regime promises order, protection, advancement, infrastructure, and social purpose while making obedience and permanent hierarchy the cost.
+
+## Player-facing Vaelkor age boundary
+Emperor Vaelkor Draeven's **extreme longevity is publicly known**.
+
+Current public knowledge:
+- he has ruled for **centuries**;
+- he has lived far beyond a normal human lifespan;
+- his **exact age is unknown**;
+- the exact beginning of his reign / accession date is not reliably established in public history;
+- explanations for his longevity are rumor, doctrine, scholarship, or speculation unless later story authority proves otherwise.
+
+Do **not** reveal the hidden Entity-fragment explanation in player-facing world-introduction material.
+
 ## Historical growth
 The Black Host rises during the restored magical age and grows across centuries into the imperial state confronted in the present.
 
