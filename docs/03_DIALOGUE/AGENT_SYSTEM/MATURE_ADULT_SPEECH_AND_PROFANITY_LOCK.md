@@ -88,6 +88,31 @@ Shared vocabulary must be transformed by character-specific construction:
 - **Maevra:** command-professional profanity. Restrained in formal contexts, blunt in field stress, considerably freer with trusted peers. Her strongest swears should feel like command polish actually broke.
 - **Mirena:** polished public register with sharper private profanity. Political absurdity, intimate trust, or private exasperation can expose a much less ceremonial mouth without turning her into Nimera.
 
+### Cyanis / Torren compound-vulgarity progression
+
+Cyanis and Torren have a specific relationship language that must **grow across the game**: increasingly elaborate **compound vulgar insults aimed at each other**.
+
+This is not their baseline from first contact and it is not generic cast behavior.
+
+Progression:
+- **early:** ordinary teasing, blunt profanity, short insults, testing each other's tolerance;
+- **developing friendship:** two-part insults, callbacks, profession-based jabs, insults built from habits and recent mistakes;
+- **established brother-like friendship:** long or stacked compound vulgarities can become a competitive game. Each may deliberately improve, extend, or counter the other's insult;
+- **late/very secure:** the phrasing may sound remarkably vicious to an outsider while both men understand the affection and game underneath it.
+
+Construction should be **personalized**, not random adjective stacking. Useful sources include:
+- Cyanis's command habits, self-sacrifice, armor, overwork, stubborn responsibility, bad personal judgment, and knight/soldier experience;
+- Torren's age, routes, weather, tracking, field gear, stubbornness, dry practicality, maintenance habits, and veteran experience;
+- shared failures, injuries, old arguments, previous jokes, and specific events both men remember.
+
+Their constructions should remain distinct:
+- **Cyanis** tends to build a compound from practical/social observation, command frustration, or several specific failures chained together.
+- **Torren** tends to make his drier, more tactile, field-based, and grounded in terrain, animals, weather, gear, age, or bodily inconvenience.
+
+The exchange can escalate competitively—one insult invites a more specific or more ridiculous return—but **do not confuse affectionate escalation with genuine hostility**. When either man is truly angry, frightened for the other, or dealing with an actual betrayal-level conflict, the game tends to stop. Genuine anger usually becomes shorter and cleaner rather than producing the funniest insult of the scene.
+
+Do not write their late-game compound-insult fluency backward into early chapters.
+
 ### Nimera expanded lexical space
 
 Nimera may naturally draw from:
