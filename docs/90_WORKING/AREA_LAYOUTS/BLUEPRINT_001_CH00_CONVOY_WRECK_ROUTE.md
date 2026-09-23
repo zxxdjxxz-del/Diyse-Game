@@ -122,6 +122,63 @@ Coordinates are test targets, not final centimeter locks.
 
 ---
 
+## Chapter-0 combat-spacing sockets
+
+Exact distances/timing remain graybox-playtest variables. The following separation is structural:
+
+### Convoy Road / P01
+- Combat 1 pocket;
+- **route-clearing / survivor-movement socket**;
+- Combat 2 pocket;
+- **wreckage/readability movement socket**;
+- Combat 3 pocket;
+- **late-road breathing / seam approach**;
+- enter Wreck Field.
+
+No P01 fight is an immediate reinforcement wave from the prior fight.
+
+Current graybox intent:
+- Combat 1 around `(-8,+55)`;
+- first breathing socket around `(+18,+20)`;
+- Combat 2 around `(+10,-15)`;
+- second breathing socket around `(-4,-33)`;
+- Combat 3 around `(-20,-48)`;
+- late-road breathing / Wreck Field seam approach around `(-5,-82)`.
+
+### Wreck Field / P02
+Before Combat 4:
+- survivor/wounded lobe;
+- short rescue route;
+- trapped-survivor interaction;
+- stone-line route read.
+
+Then:
+- Combat 4 — Crossbowman + Hound;
+- **survivor-movement / lower-stone-line socket**;
+- Combat 5 — lone Hound;
+- north-withdrawal sightline / officer exchange;
+- no more Cyanis-solo combat.
+
+Current graybox intent:
+- Combat 4 around `(+5,+18)`;
+- lower-stone-line breathing socket around `(-8,+2)`;
+- Combat 5 around `(+5,-10)`.
+
+### Recovery Line / P03
+Entire sequence is combat-free.
+
+### Triage Camp / P04–P06
+- P04 has no standalone battle;
+- short perimeter-control interval before P05;
+- P05 occurs on the camp edge;
+- a genuine noncombat reset occurs after P05;
+- P06 cannot auto-chain from the P05 result screen;
+- P06 remains the final combat.
+
+These are presentation/spacing sockets, not final traversal-time locks.
+
+---
+
 # 4. CH00_F01 — Convoy Road
 
 Design: controlled S-curve / switchback through rugged Westways terrain. Terrain shelves and bends prevent all authored encounters from being visible simultaneously while keeping the route unmistakable.
