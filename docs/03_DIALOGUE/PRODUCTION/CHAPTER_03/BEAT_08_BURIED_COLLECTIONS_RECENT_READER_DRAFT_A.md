@@ -20,11 +20,7 @@ Nimera has several Card studies open.
 
 **CYANIS:** Same colors?
 
-**NIMERA:** No. Which is good.
-
-**CYANIS:** Good?
-
-**NIMERA:** If it matched yours perfectly, we'd be tempted to marry the cases after one fucking date. This gives us precedent for dormant becoming responsive without pretending the two Cards are the same thing.
+**NIMERA:** No, thank fuck. If it matched yours perfectly, we'd be tempted to marry the cases after one date. This gives us precedent for dormant becoming responsive without pretending the two Cards are the same thing.
 
 **ILYRA:** Romantic.
 
@@ -38,7 +34,7 @@ Nimera checks it.
 
 **NIMERA:** Yes. Different hand, different ink, twenty-eight years later. Good catch.
 
-**TORREN:** I can read.
+**TORREN:** I can fucking read.
 
 **NIMERA:** I never doubted literacy. Judgment remains under review.
 
@@ -52,11 +48,7 @@ The scene does not yet reveal the old Westways recordbook map.
 
 Nimera studies a damaged seal text.
 
-**NIMERA:** This distinguishes the seal from the impression it leaves.
-
-**CYANIS:** Meaning?
-
-**NIMERA:** Meaning copying the visible mark is not automatically copying whatever magical authority lives in the working object. Which sounds obvious until somebody spends a century writing as though wax is the interesting part.
+**NIMERA:** This distinguishes the seal from the impression it leaves. Copying the visible mark is not automatically copying whatever magical authority lives in the working object—which sounds obvious until somebody spends a century writing as though wax is the interesting part.
 
 She turns another page.
 
@@ -80,11 +72,7 @@ Nimera reads it.
 
 **CYANIS:** Same tradition?
 
-**NIMERA:** Maybe. Similar is not descended from. Two things can look alike without fucking and producing history.
-
-She pauses.
-
-**NIMERA:** Bad biology for institutions. Useful warning.
+**NIMERA:** Maybe. Similar is not descended from. Two things can look alike without fucking and producing history. Bad biology for institutions, useful warning.
 
 ### [RECENT USE]
 
@@ -92,27 +80,19 @@ Torren stops at a side table.
 
 A Card-recovery volume sits beside seal-history material and Westways field notes.
 
-**TORREN:** Someone's worked here recently.
+Torren studies the page markers and the disturbed dust.
 
-**NIMERA:** It's an archive.
-
-He points at the page markers.
-
-**TORREN:** Same fiber in all three.
+**TORREN:** Same fiber in all three. Pulled selectively.
 
 Nimera checks.
 
 **NIMERA:** Same cut too.
 
-Torren indicates dust disturbed around several volumes but not adjacent shelves.
-
-**TORREN:** Pulled selectively.
-
 Nimera follows the pattern.
 
 **NIMERA:** Card response. Authority seals. Westways ruins.
 
-**CYANIS:** Same things we're chasing.
+**CYANIS:** Same shit we're chasing.
 
 **NIMERA:** Same subjects. Not necessarily same question.
 
@@ -148,15 +128,11 @@ She checks the next citation.
 
 **NIMERA:** Hall of Seals.
 
-**ILYRA:** Convenient.
+**ILYRA:** Convenient as hell.
 
-**NIMERA:** Suspiciously. But yes.
+**NIMERA:** Suspiciously.
 
-**TORREN:** You happy about that?
-
-**NIMERA:** Extremely.
-
-**TORREN:** You look angry.
+**TORREN:** You look happy and pissed off.
 
 **NIMERA:** Those are not opposites.
 
