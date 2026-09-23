@@ -1,5 +1,8 @@
 # Diyse — Chapter 1 Formation Composition
 
+**Structural status:** **CLOSED — composition / sub-area eligibility / area caps / behavior intent**  
+**Numeric status:** **DEFERRED — final weights/frequency/difficulty wait for mandatory-level progression rebalance**
+
 **Current placement authority:** explicit Chapter-1 encounter corrections, 2026-09-22.  
 **Rule:** Hunts are the only standalone optional enemy/Elite encounters. Quest-owned combat remains governed by its owning quest. Briar Passage is wildlife/natural-threat territory; Chapter-1 Black Host and construct encounters are confined to Hollow Watch.
 
