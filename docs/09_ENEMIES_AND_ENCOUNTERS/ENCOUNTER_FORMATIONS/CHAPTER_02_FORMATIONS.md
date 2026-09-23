@@ -30,10 +30,12 @@ No Black Host enemies appear in the mandatory Waterworks route.
 | Light | **Upper Cavity** | 1 Needlewing + 1 Cistern Leech |
 | Standard | **Cistern Cluster** | 1 Bogshell + 2 Cistern Leeches |
 | Standard | **Broken Chamber** | 1 Bogshell + 1 Cistern Leech + 1 Needlewing |
-| Heavy | **Flooded Roost** | 1 Bogshell + 2 Needlewings + 1 Cistern Leech |
+| Heavy | **Flooded Roost** | 1 Bogshell + 2 Needlewings |
 
 Structural cap:
-> **4 active enemies**
+> **3 active enemies**
+
+This early Chapter-2 area should not exceed the active three-character party in ordinary body count.
 
 Needlewing is eligible only where the chamber has enough open overhead space to support its aerial presentation.
 
@@ -207,3 +209,9 @@ The Sunken Archive uses exactly two active ordinary construct identities:
 - Memory Scribe
 
 Do not add Hollow Watch Sentry or Archive Duplicant back into Chapter 2 without explicit revision. Chapter 3 owns the stronger construct-heavy escalation.
+
+
+## Old Waterworks formation correction — 2026-09-23
+- ordinary formation cap reduced from 4 to **3 active enemies**;
+- Flooded Roost is now **1 Bogshell + 2 Needlewings**;
+- the Waterworks should teach the three local wildlife roles through readable 2–3 body combinations rather than early action-economy overload.
