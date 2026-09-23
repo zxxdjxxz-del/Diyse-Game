@@ -2,8 +2,8 @@
 
 **Chapter:** 1  
 **Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — BEATS 1–15 + C02/C03/C04 TRUE-VOICE / DIALOGUE-ECONOMY AUTHORITY CURRENT**
-**Combined read-through:** `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **STALE after current atomic revisions; do not use as exact wording authority until regenerated**
-**Current atomic spoken-line counts:** **300 mandatory + 187 Character-Life = 487 if all three optional scenes are viewed** (C02 67 / C03 56 / C04 64).  
+**Combined read-through:** `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **CURRENT synchronized derived mirror; standalone atomics remain exact wording authority**
+**Current atomic spoken-line counts:** **324 mandatory + 187 Character-Life = 511 if all three optional scenes are viewed** (C02 67 / C03 56 / C04 64).  
 **Character-Life numbering:** `../CHARACTER_LIFE_NUMBERING_LOCK.md`  
 **Character-Life content:** `CHARACTER_LIFE_REBUILD_LOCK.md`  
 **Rhythm:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
@@ -16,7 +16,7 @@
 2. Current character files and `external-services/canary/brains/*.yaml` are current Person-Brain authority.
 3. Current scene specs are production/rehearsal guardrails and must agree with current character authority.
 4. Canonical Character-Life IDs are C02/C03/C04 even though legacy filenames still use C03/C04/C05 source keys.
-5. The combined manuscript is a current synchronized derived mirror; standalone atomics remain exact wording authority and always outrank the combined file.
+5. The combined manuscript is a current synchronized derived mirror generated from the atomics; standalone atomics remain exact wording authority and always outrank the combined file.
 6. Git history is provenance, not live authority.
 
 ## Mainline atomic authority
