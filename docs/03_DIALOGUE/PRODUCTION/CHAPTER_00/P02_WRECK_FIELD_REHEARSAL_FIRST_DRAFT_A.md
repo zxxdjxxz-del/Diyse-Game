@@ -160,7 +160,7 @@ The officer catches the hesitation.
 
 **CONVOY OFFICER:** You think it's bait.
 
-**CYANIS:** I think I don't know yet, and chasing people through the one convenient gap they left us is a stupid way to learn.
+**CYANIS:** Maybe it's bait, maybe it isn't. Chasing them through the one convenient gap they left us is a shit way to find out.
 
 The officer looks north, then back over the wreck field.
 
