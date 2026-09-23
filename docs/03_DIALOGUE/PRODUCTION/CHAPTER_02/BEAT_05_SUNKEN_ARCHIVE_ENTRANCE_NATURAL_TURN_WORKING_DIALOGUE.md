@@ -15,7 +15,7 @@ The Card remains inert.
 
 Cyanis looks out across the chamber.
 
-**CYANIS:** Well. That sure as hell isn't plumbing.
+**CYANIS:** Well. That sure as shit isn't plumbing.
 
 Ilyra takes in the repeated protected recesses and the scale of the chamber.
 
