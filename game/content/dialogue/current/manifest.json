@@ -519,9 +519,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B04",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_04_SEAL_NOT_USED_DRAFT_A.md",
-          "source_sha256": "7050ed6d75c0c314ee537f993a3094b1f2fb24ecdb6e0c88ef54ffeb32fbef50",
+          "source_sha256": "fe113078b854b70c556ee649ddae43782b20533dd86a83fbdb4f0a73c6ac6861",
           "spoken_lines": 43,
-          "spoken_sha256": "864b9be4600cbc2536e52810db5682a029a49135f6b286fd3c98afbf51c960bf",
+          "spoken_sha256": "4bf42d8230b1c5fd8b87e6b418a1dc729977c5fc2ef8d6f8ca326db67a94ba2b",
           "title": "The Seal That Wasn't Used"
         },
         {
@@ -671,7 +671,7 @@
     }
   },
   "expected_total_spoken": 2165,
-  "global_spoken_sha256": "34010635061d8225782b5a86209cba2b9512f511007935f578e65ab0f2e7cc88",
+  "global_spoken_sha256": "4644a3df3ea359dc0cff63e08304da42ac4db7e5a5d8f912e1d8ef7c7a2c958b",
   "schema": "diyse_current_runtime_dialogue_manifest_v1",
   "source_authority": "docs/03_DIALOGUE/PRODUCTION",
   "total_spoken": 2165

@@ -11,7 +11,7 @@
 | 1 | Beat 1 | `BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md` | `a3f3a3c26f19b88bf8556be6f0782b17c42c2db07632f4d2a6e37bc17a55a91f` |
 | 2 | Beat 2 | `BEAT_02_ROYAL_AUDIENCE_CH2_REPORT_DRAFT_A.md` | `c9a5dd986f27a098269bbeb55cbcfdc9378e67bee031bed3c7a7d5d06b83d4b4` |
 | 3 | Beat 3 | `BEAT_03_IMPOSSIBLE_ORDERS_DRAFT_A.md` | `5239b06c2cc6347c247e35ad987a283d83bd3ef4a651d09fdcf4bd0a5f3f8234` |
-| 4 | Beat 4 | `BEAT_04_SEAL_NOT_USED_DRAFT_A.md` | `7050ed6d75c0c314ee537f993a3094b1f2fb24ecdb6e0c88ef54ffeb32fbef50` |
+| 4 | Beat 4 | `BEAT_04_SEAL_NOT_USED_DRAFT_A.md` | `fe113078b854b70c556ee649ddae43782b20533dd86a83fbdb4f0a73c6ac6861` |
 | 5 | Beat 5 | `BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md` | `2bba880980c269e13d67fc66ed11be942120909f27691c30b129ee3f66b8a7eb` |
 | 6 | Beat 6 | `BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md` | `5082e7a883ab384e4155dca72360d8b6ab0d364a3d74614f5efff799b2109819` |
 | 7 | Beat 7 | `BEAT_07_LOWER_ARCHIVES_DRAFT_A.md` | `bfbae309d1a7a32c86b07dedd968576e5bd44b84a192f63b70ad2bba78bad890` |
@@ -494,7 +494,7 @@ Transition directly into:
 ## Beat 4
 
 **Atomic source:** `BEAT_04_SEAL_NOT_USED_DRAFT_A.md`  
-**Source SHA-256:** `7050ed6d75c0c314ee537f993a3094b1f2fb24ecdb6e0c88ef54ffeb32fbef50`
+**Source SHA-256:** `fe113078b854b70c556ee649ddae43782b20533dd86a83fbdb4f0a73c6ac6861`
 
 # Chapter 3 — Beat 4
 # The Seal That Wasn't Used
@@ -566,7 +566,7 @@ Maevra looks up.
 
 Lysara folds her hands.
 
-**LYSARA:** And we do not know physical access was required at all.
+**LYSARA:** And physical access may not have been required at all.
 
 No one answers.
 
