@@ -56,9 +56,9 @@ Later callback remains:
 ## Current runtime-brain alignment
 
 Chapter 1 uses current Person Brains:
-- **Cyanis** — Crest Knight / **Crest Magus**; `Leadership is not a dialogue assignment.`
-- **Ilyra** — Blue Warden / Vowblade; `Grace is not a dialogue assignment.`
-- **Torren** — War Archer / Routeweaver; `Sparse is an early-state tendency, not a permanent voice quota. Expertise is not a dialogue assignment.`
+- **Cyanis** — **Crest Knight only**; Crest Magus is locked until **Sixfold Volition at the end of Chapter 7**; `Leadership is not a dialogue assignment.`
+- **Ilyra** — **Blue Warden only**; Vowblade is locked until **Sixfold Volition at the end of Chapter 7**; `Grace is not a dialogue assignment.`
+- **Torren** — **War Archer only**; Routeweaver is locked until **Sixfold Volition at the end of Chapter 7**; `Sparse is an early-state tendency, not a permanent voice quota. Expertise is not a dialogue assignment.`
 - **Maevra** — already knows Cyanis and Ilyra well, remains their senior commander in operations, and may increasingly appear as an actual off-duty friend; `Command is not a dialogue assignment.`
 
 The runtime brains now match the character authorities rather than relying on dialogue-level corrections to compensate for stale upstream behavior.
