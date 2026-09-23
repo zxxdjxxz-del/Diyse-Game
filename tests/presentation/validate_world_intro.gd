@@ -47,6 +47,9 @@ func _run_validation() -> void:
 					failures.append("World intro lost Vaelkor's player-facing introduction")
 				if not paragraphs.has("Modern Yahtrean records cannot establish it. Modern Black Host records cannot establish it. Reliable records agree that he has lived far beyond a normal human lifespan, and that is about where agreement starts falling apart."):
 					failures.append("World intro lost Vaelkor's two-sided unknown-age boundary")
+				var intro_joined := "\n".join(paragraphs)
+				if intro_joined.contains("438") or intro_joined.contains("age 34"):
+					failures.append("World intro leaked Vaelkor's private exact chronology")
 
 	var packed := load(INTRO_SCENE) as PackedScene
 	if packed == null:
