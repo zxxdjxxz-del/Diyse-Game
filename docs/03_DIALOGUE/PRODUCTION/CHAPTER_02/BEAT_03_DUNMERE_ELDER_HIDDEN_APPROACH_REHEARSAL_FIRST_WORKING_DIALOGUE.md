@@ -65,7 +65,7 @@ Cyanis looks back to the elder.
 
 Torren nods once.
 
-**TORREN:** Fine.
+**TORREN:** Fine. Better than the road.
 
 **CYANIS:** Entrance?
 
@@ -83,7 +83,7 @@ Maevra stands.
 
 Ilyra looks once more at the old route.
 
-**ILYRA:** Better than walking into a fort through the part designed for walking into the fort.
+**ILYRA:** Better than walking through the damn front door.
 
 **CYANIS:** Strong endorsement.
 
