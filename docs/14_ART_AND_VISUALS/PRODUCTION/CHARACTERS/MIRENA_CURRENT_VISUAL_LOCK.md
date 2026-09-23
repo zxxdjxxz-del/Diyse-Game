@@ -4,12 +4,14 @@
 
 ## Exact approved source
 
-- intended repository path: `asset_sources/characters/current/mirena.jpg`
+- exact repository master: [mirena.jpg](../../../../asset_sources/characters/current/mirena.jpg)
 - native format: **JPEG/JFIF**
 - dimensions: **1229 × 1536**
 - size: **175309 bytes**
 - SHA-256: `a61c0dbf87eef484fc955c3b11d00f2120fcd9169f37c02b319ed470d9be5c77`
 - set authority: [`EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md`](EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md)
+
+![Crown Princess Mirena Ceryth — exact approved appearance](../../../../asset_sources/characters/current/mirena.jpg)
 
 ## Pixel authority
 
@@ -19,9 +21,9 @@ If older prose, generated-image references, repository fallback images, archived
 
 ## Repository binary state
 
-**Exact-byte sync: PENDING.**
+**Exact-byte sync: COMPLETE.**
 
-A repository file at `asset_sources/characters/current/mirena.jpg` becomes the exact binary master only when its SHA-256 is exactly `a61c0dbf87eef484fc955c3b11d00f2120fcd9169f37c02b319ed470d9be5c77`. Until then, any older binary at that path is fallback/provenance only and may not be used as identity authority.
+The repository master matches the approved SHA-256 exactly. Older versions remain historical provenance only.
 
 Do not re-encode, resize, crop, recolor, retouch, sharpen, denoise, or resave the source during promotion.
 

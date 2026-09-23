@@ -13,7 +13,7 @@
       "height": 1536,
       "size_bytes": 206567,
       "sha256": "9c86bb384051997786fad71fa9fd8427b7386bda77e98b4a52816b0ee76878ea",
-      "exact_binary_sync": "pending"
+      "exact_binary_sync": "complete"
     },
     "ilyra": {
       "display_name": "Ilyra",
@@ -23,7 +23,7 @@
       "height": 1536,
       "size_bytes": 198138,
       "sha256": "4ab184e960176141367b005d13992efe4bad64058fcd02ec0c5358811e058893",
-      "exact_binary_sync": "pending"
+      "exact_binary_sync": "complete"
     },
     "torren": {
       "display_name": "Torren",
@@ -33,7 +33,7 @@
       "height": 1536,
       "size_bytes": 250994,
       "sha256": "ff5a27b8f42c2bdcbb9290219213793860e398225af84e5107600a3ac5377313",
-      "exact_binary_sync": "pending"
+      "exact_binary_sync": "complete"
     },
     "nimera": {
       "display_name": "Nimera",
@@ -43,7 +43,7 @@
       "height": 1536,
       "size_bytes": 156104,
       "sha256": "4e923f7053a5cc75c61c1a5deb3351743727b53d38ae57383a767a6674883874",
-      "exact_binary_sync": "pending"
+      "exact_binary_sync": "complete"
     },
     "vaelira": {
       "display_name": "Vaelira",
@@ -53,7 +53,7 @@
       "height": 1536,
       "size_bytes": 158620,
       "sha256": "100b7b6d992c07ec82a4860eebf75fd61d279c41d9dd249db92864a0273875a3",
-      "exact_binary_sync": "pending"
+      "exact_binary_sync": "complete"
     },
     "seyrik": {
       "display_name": "Seyrik",
@@ -63,7 +63,7 @@
       "height": 1536,
       "size_bytes": 201706,
       "sha256": "6655471361fb9e826c8778d15e6c47074cf4f0a7450fa90107e307ed0f8f267b",
-      "exact_binary_sync": "pending"
+      "exact_binary_sync": "complete"
     },
     "maevra": {
       "display_name": "Maevra",
@@ -73,7 +73,7 @@
       "height": 1536,
       "size_bytes": 170705,
       "sha256": "b1ada1a13e1301803849b8994ac9017cbaffb7570fd4c78d11732e6ed4247577",
-      "exact_binary_sync": "pending"
+      "exact_binary_sync": "complete"
     },
     "mirena": {
       "display_name": "Crown Princess Mirena Ceryth",
@@ -83,7 +83,7 @@
       "height": 1536,
       "size_bytes": 175309,
       "sha256": "a61c0dbf87eef484fc955c3b11d00f2120fcd9169f37c02b319ed470d9be5c77",
-      "exact_binary_sync": "pending"
+      "exact_binary_sync": "complete"
     }
   }
 }

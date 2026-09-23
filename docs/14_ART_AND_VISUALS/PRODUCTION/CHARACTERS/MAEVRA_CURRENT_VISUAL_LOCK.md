@@ -4,12 +4,14 @@
 
 ## Exact approved source
 
-- intended repository path: `asset_sources/characters/current/maevra.jpg`
+- exact repository master: [maevra.jpg](../../../../asset_sources/characters/current/maevra.jpg)
 - native format: **JPEG/JFIF**
 - dimensions: **1075 × 1536**
 - size: **170705 bytes**
 - SHA-256: `b1ada1a13e1301803849b8994ac9017cbaffb7570fd4c78d11732e6ed4247577`
 - set authority: [`EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md`](EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md)
+
+![Maevra — exact approved appearance](../../../../asset_sources/characters/current/maevra.jpg)
 
 ## Pixel authority
 
@@ -19,9 +21,9 @@ If older prose, generated-image references, repository fallback images, archived
 
 ## Repository binary state
 
-**Exact-byte sync: PENDING.**
+**Exact-byte sync: COMPLETE.**
 
-A repository file at `asset_sources/characters/current/maevra.jpg` becomes the exact binary master only when its SHA-256 is exactly `b1ada1a13e1301803849b8994ac9017cbaffb7570fd4c78d11732e6ed4247577`. Until then, any older binary at that path is fallback/provenance only and may not be used as identity authority.
+The repository master matches the approved SHA-256 exactly. Older versions remain historical provenance only.
 
 Do not re-encode, resize, crop, recolor, retouch, sharpen, denoise, or resave the source during promotion.
 

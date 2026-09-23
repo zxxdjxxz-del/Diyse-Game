@@ -4,12 +4,14 @@
 
 ## Exact approved source
 
-- intended repository path: `asset_sources/characters/current/seyrik.jpg`
+- exact repository master: [seyrik.jpg](../../../../asset_sources/characters/current/seyrik.jpg)
 - native format: **JPEG/JFIF**
 - dimensions: **1280 × 1536**
 - size: **201706 bytes**
 - SHA-256: `6655471361fb9e826c8778d15e6c47074cf4f0a7450fa90107e307ed0f8f267b`
 - set authority: [`EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md`](EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md)
+
+![Seyrik — exact approved appearance](../../../../asset_sources/characters/current/seyrik.jpg)
 
 ## Pixel authority
 
@@ -19,9 +21,9 @@ If older prose, generated-image references, repository fallback images, archived
 
 ## Repository binary state
 
-**Exact-byte sync: PENDING.**
+**Exact-byte sync: COMPLETE.**
 
-A repository file at `asset_sources/characters/current/seyrik.jpg` becomes the exact binary master only when its SHA-256 is exactly `6655471361fb9e826c8778d15e6c47074cf4f0a7450fa90107e307ed0f8f267b`. Until then, any older binary at that path is fallback/provenance only and may not be used as identity authority.
+The repository master matches the approved SHA-256 exactly. Older versions remain historical provenance only.
 
 Do not re-encode, resize, crop, recolor, retouch, sharpen, denoise, or resave the source during promotion.
 

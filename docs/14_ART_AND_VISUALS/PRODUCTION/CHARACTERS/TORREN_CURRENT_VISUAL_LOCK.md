@@ -4,12 +4,14 @@
 
 ## Exact approved source
 
-- intended repository path: `asset_sources/characters/current/torren.jpg`
+- exact repository master: [torren.jpg](../../../../asset_sources/characters/current/torren.jpg)
 - native format: **JPEG/JFIF**
 - dimensions: **1280 × 1536**
 - size: **250994 bytes**
 - SHA-256: `ff5a27b8f42c2bdcbb9290219213793860e398225af84e5107600a3ac5377313`
 - set authority: [`EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md`](EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md)
+
+![Torren — exact approved appearance](../../../../asset_sources/characters/current/torren.jpg)
 
 ## Pixel authority
 
@@ -19,9 +21,9 @@ If older prose, generated-image references, repository fallback images, archived
 
 ## Repository binary state
 
-**Exact-byte sync: PENDING.**
+**Exact-byte sync: COMPLETE.**
 
-A repository file at `asset_sources/characters/current/torren.jpg` becomes the exact binary master only when its SHA-256 is exactly `ff5a27b8f42c2bdcbb9290219213793860e398225af84e5107600a3ac5377313`. Until then, any older binary at that path is fallback/provenance only and may not be used as identity authority.
+The repository master matches the approved SHA-256 exactly. Older versions remain historical provenance only.
 
 Do not re-encode, resize, crop, recolor, retouch, sharpen, denoise, or resave the source during promotion.
 

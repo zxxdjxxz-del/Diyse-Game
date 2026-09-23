@@ -43,10 +43,12 @@ Production conversion guide:
 The current repository image masters in `asset_sources/characters/current/` are the exact operational appearance authorities for the characters represented there.
 
 Use the authority order in `PRODUCTION/CHARACTERS/README.md`:
-1. current repository master image;
-2. matching current visual-lock document;
-3. current B00 / visual-style rules;
-4. older prose, archived renders, old hashes, generated filenames, or superseded concepts.
+1. newest explicit user-approved exact source image;
+2. registered exact approved fingerprint;
+3. repository master binary matching that fingerprint;
+4. matching current visual-lock document;
+5. current B00 / visual-style rules;
+6. older prose, archived renders, old hashes, generated filenames, or superseded concepts.
 
 Current permanent-party masters:
 - Cyanis;
@@ -58,9 +60,10 @@ Current permanent-party masters:
 
 Current supporting masters in the same repository set:
 - Maevra;
+- Crown Princess Mirena Ceryth;
 - Kessara.
 
-Do not infer surnames for these eight from retired migration filenames or older art documents.
+Do not infer additional surnames for these characters from retired migration filenames or older art documents.
 
 ## Enemy visual authority
 

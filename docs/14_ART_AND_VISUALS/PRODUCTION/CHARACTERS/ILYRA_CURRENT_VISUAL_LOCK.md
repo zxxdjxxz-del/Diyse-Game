@@ -4,12 +4,14 @@
 
 ## Exact approved source
 
-- intended repository path: `asset_sources/characters/current/ilyra.jpg`
+- exact repository master: [ilyra.jpg](../../../../asset_sources/characters/current/ilyra.jpg)
 - native format: **JPEG/JFIF**
 - dimensions: **1280 × 1536**
 - size: **198138 bytes**
 - SHA-256: `4ab184e960176141367b005d13992efe4bad64058fcd02ec0c5358811e058893`
 - set authority: [`EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md`](EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md)
+
+![Ilyra — exact approved appearance](../../../../asset_sources/characters/current/ilyra.jpg)
 
 ## Pixel authority
 
@@ -19,9 +21,9 @@ If older prose, generated-image references, repository fallback images, archived
 
 ## Repository binary state
 
-**Exact-byte sync: PENDING.**
+**Exact-byte sync: COMPLETE.**
 
-A repository file at `asset_sources/characters/current/ilyra.jpg` becomes the exact binary master only when its SHA-256 is exactly `4ab184e960176141367b005d13992efe4bad64058fcd02ec0c5358811e058893`. Until then, any older binary at that path is fallback/provenance only and may not be used as identity authority.
+The repository master matches the approved SHA-256 exactly. Older versions remain historical provenance only.
 
 Do not re-encode, resize, crop, recolor, retouch, sharpen, denoise, or resave the source during promotion.
 

@@ -4,12 +4,14 @@
 
 ## Exact approved source
 
-- intended repository path: `asset_sources/characters/current/cyanis.jpg`
+- exact repository master: [cyanis.jpg](../../../../asset_sources/characters/current/cyanis.jpg)
 - native format: **JPEG/JFIF**
 - dimensions: **1280 × 1536**
 - size: **206567 bytes**
 - SHA-256: `9c86bb384051997786fad71fa9fd8427b7386bda77e98b4a52816b0ee76878ea`
 - set authority: [`EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md`](EXACT_APPEARANCE_SOURCE_LOCK_2026-09-22.md)
+
+![Cyanis — exact approved appearance](../../../../asset_sources/characters/current/cyanis.jpg)
 
 ## Pixel authority
 
@@ -19,9 +21,9 @@ If older prose, generated-image references, repository fallback images, archived
 
 ## Repository binary state
 
-**Exact-byte sync: PENDING.**
+**Exact-byte sync: COMPLETE.**
 
-A repository file at `asset_sources/characters/current/cyanis.jpg` becomes the exact binary master only when its SHA-256 is exactly `9c86bb384051997786fad71fa9fd8427b7386bda77e98b4a52816b0ee76878ea`. Until then, any older binary at that path is fallback/provenance only and may not be used as identity authority.
+The repository master matches the approved SHA-256 exactly. Older versions remain historical provenance only.
 
 Do not re-encode, resize, crop, recolor, retouch, sharpen, denoise, or resave the source during promotion.
 
