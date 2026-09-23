@@ -70,9 +70,9 @@ These remain compatible with the Archives, but exact sub-area formation eligibil
 
 ### Cresthaven tower-base ordinary identities — current
 - Command-Station Sentry — surviving command-site security construct; current preferred Chapter-3 Stun introduction
+- Authority Lens — inspection / authority-reading support construct; no Chapter-3 Stun rider
 
 ### Recovered identities — current mandatory placement not yet reapproved
-- Authority Lens
 - Command Ring Drone
 - Grand Inquisitor Frame
 - Way-Fort Marauder
@@ -89,8 +89,9 @@ They are **not automatically current** in:
 
 The Cresthaven short-dungeon ordinary roster must be intentionally designed rather than inherited wholesale from the retired Caelora command-route structure.
 
-Current approved tower-base identity:
+Current approved tower-base identities:
 - Command-Station Sentry
+- Authority Lens
 
 ## Retired random-pool use
 
@@ -212,3 +213,11 @@ Do not fill these gaps by silently restoring the retired encounter structure.
 - It is removed from Old City Archives placement.
 - Tower Foundation may use it sparingly; Command Interior is its primary home.
 - Station Pulse is the current preferred ordinary-enemy introduction to **Stun** in Chapter 3.
+
+
+## Cresthaven Authority Lens correction — 2026-09-23
+- **Authority Lens is approved for the Cresthaven Ancient tower base.**
+- It is removed from Old City Archives placement.
+- Command Interior is its primary home.
+- Chapter-3 Classification Flash is Lightning AoE **without Stun**.
+- Command-Station Sentry remains the preferred ordinary-enemy Stun introduction.
