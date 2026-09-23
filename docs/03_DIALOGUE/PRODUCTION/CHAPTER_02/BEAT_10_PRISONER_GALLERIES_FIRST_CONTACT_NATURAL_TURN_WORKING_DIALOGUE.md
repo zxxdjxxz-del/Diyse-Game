@@ -17,19 +17,11 @@ She sees Cyanis first and freezes.
 
 **DUNMERE WOMAN:** Who the hell are you?
 
-**CYANIS:** Not Host.
-
-He looks at the locked doors.
-
-**CYANIS:** We're getting you out.
+**CYANIS:** Not Host. We're getting you out.
 
 She looks past him at Ilyra, Torren, and Maevra emerging from a wall that should not open.
 
-**DUNMERE WOMAN:** Then explain the wall later.
-
-She grips the bars.
-
-**DUNMERE WOMAN:** Doors first.
+**DUNMERE WOMAN:** Then explain the wall later. Doors first.
 
 **CYANIS:** Agreed.
 
@@ -115,10 +107,6 @@ The Greenhollow man shakes his head.
 
 **GREENHOLLOW MAN:** We never find out where they went.
 
-The wounded soldier adds:
-
-**WOUNDED SOLDIER:** I've seen them moved out of the galleries. That's all I can swear to.
-
 Torren says nothing. There is nothing to improve in that answer.
 
 Cyanis looks toward the upper Bastion route.
@@ -127,15 +115,7 @@ Cyanis looks toward the upper Bastion route.
 
 The wounded soldier answers immediately.
 
-**WOUNDED SOLDIER:** Commander Rhazek.
-
-That lands.
-
-Maevra looks at him.
-
-**MAEVRA:** You're sure?
-
-**WOUNDED SOLDIER:** Seen him down here twice. Guards report to him when he comes through.
+**WOUNDED SOLDIER:** Commander Rhazek. Seen him down here twice. Guards report to him when he comes through.
 
 Torren exhales through his nose.
 
@@ -143,7 +123,7 @@ Torren exhales through his nose.
 
 Cyanis looks back toward the prisoners.
 
-**CYANIS:** All right.
+**CYANIS:** All right. Damn.
 
 No one turns Rhazek's name into a speech.
 
@@ -151,15 +131,9 @@ No one turns Rhazek's name into a speech.
 
 The Dunmere woman looks toward the concealed opening the party used.
 
-**DUNMERE WOMAN:** That's your way in?
+The Dunmere woman looks at the injured and weakened people around her, then at the party's soaked clothes.
 
-**CYANIS:** Yeah.
-
-She looks at the injured and weakened people around her.
-
-Then at the party's soaked clothes.
-
-**DUNMERE WOMAN:** We're not all making that.
+**DUNMERE WOMAN:** That's your way in? We're not all making that.
 
 Ilyra finishes the wounded soldier's immediate assessment.
 
