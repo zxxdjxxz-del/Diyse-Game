@@ -1,6 +1,6 @@
 # Needlewing
 
-**Chapter:** 1 — Southern Briar Passage  
+**Current use:** Chapter 1 — Southern Briar Passage; Chapter 2 — Old Waterworks carryover  
 **Role:** ordinary natural threat / fast aerial harasser  
 **Status:** **IDENTITY + NAME + PLACEMENT LOCKED / RAW BODY + ACTION POWER AUTHORED / ENCOUNTER VALIDATION OPEN**
 
@@ -57,3 +57,15 @@ Do not add Burn, Freeze, Stun, or Staggered to the Chapter-1 body.
 - No scripted focus-fire even when two Needlewings appear together.
 - Formation role: fastest Southern-Briar body; creates early turn pressure while remaining a comparatively fragile priority target.
 
+
+
+## Chapter-2 carryover placement — Old Waterworks
+Needlewing is an approved natural-threat carryover into the Chapter-2 Old Waterworks.
+
+Placement intent:
+- flooded chambers;
+- broken upper works / vertical cavities;
+- areas with enough open overhead space to support its aerial silhouette;
+- no Black Host control, corruption, or altered-beast framing.
+
+Its Chapter-2 raw body / final tuning remains open until the Chapter-2 encounter-validation pass. Do not copy the Chapter-1 Lv4 body forward automatically if validation calls for a chapter-appropriate variant.
