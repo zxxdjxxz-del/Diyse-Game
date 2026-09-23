@@ -60,7 +60,7 @@ Torren stops at a partially collapsed storage room where later flooring has brok
 
 Below the Crown floor is a much older stair and fitted wall.
 
-**ILYRA:** Subtle as hell.
+**ILYRA:** Subtle as a boot up the ass.
 
 **NIMERA:** It was subtle while a floor was sitting on it.
 
@@ -248,7 +248,7 @@ Then stops.
 
 **CYANIS:** No. I feel normal.
 
-**TORREN:** Timing's ugly as hell.
+**TORREN:** Timing's piss-poor.
 
 **NIMERA:** Very. It waited until the bastard was dead. I don't like that timing. I'm still not marrying the two.
 
