@@ -116,7 +116,7 @@ She flips back several pages.
 
 **NIMERA:** No closure note. No transfer note. No fire record. No formal sealing order.
 
-**ILYRA:** So they just fucking stopped using it.
+**ILYRA:** So they just stopped using it.
 
 **NIMERA:** Maybe. Or stopped recording that they used it. Different problem.
 
