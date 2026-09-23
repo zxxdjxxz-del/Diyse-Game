@@ -50,7 +50,7 @@ DURABLE_FLAGS: dict[tuple[str, str], list[str]] = {
         "STORY_CHAPTER_02_COMPLETE",
         "UNLOCK_C05_STILL_BURNS",
     ],
-    ("03", "B08"): ["ROSTER_ADD_NIMERA_PERMANENT"],
+    ("03", "B06"): ["ROSTER_ADD_NIMERA_PERMANENT"],
     ("03", "B15"): [
         "STORY_CHAPTER_03_COMPLETE",
         "UNLOCK_C06_NIMERA_TAKES_OVER_A_TABLE",
