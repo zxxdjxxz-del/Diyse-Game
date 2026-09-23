@@ -142,3 +142,29 @@ The following Chapter-1 enemy identities and names are **LOCKED** unless explici
 - Cistern Devourer — Regional Hunt #1
 
 This lock covers **identity, name, and Chapter-1 area assignment**. Needlewing / Rootmaw / Brambleback now also have authored raw bodies and action Powers. Final formation weights and mandatory/completionist encounter validation remain open, including Watch Captain's converted normal-pool placement.
+
+
+## Structural encounter closure — 2026-09-22
+Chapter 1 enemy/encounter structure is closed unless explicitly revised.
+
+Closed structurally:
+- Chapter-1 combat-party cap of 3;
+- actual party progression: Cyanis + Ilyra → Cyanis + Ilyra + Torren;
+- Maevra noncombat throughout;
+- northern-Briar / Hollow-Watch / Southern-Briar roster boundaries;
+- Southern Briar five-enemy maximum;
+- formation compositions;
+- exact sub-area formation eligibility;
+- safe/no-random story pockets;
+- Watch Captain as strong normal-pool construct;
+- Castellan mini-boss role;
+- Briarhide final-boss role;
+- Cistern Devourer Hunt role;
+- individual enemy behavior/targeting rules.
+
+Still deferred to the later mandatory-level/progression rebalance:
+- final encounter frequencies and tier weights;
+- final mandatory/completionist level anchors;
+- round-count/damage/resource targets;
+- any raw-stat/HP retunes justified by the new progression spine;
+- final difficulty certification.
