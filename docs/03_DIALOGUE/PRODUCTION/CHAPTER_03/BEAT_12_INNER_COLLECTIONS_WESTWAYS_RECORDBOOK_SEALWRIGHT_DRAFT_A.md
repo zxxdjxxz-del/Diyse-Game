@@ -18,7 +18,7 @@ Its binding is worn, repaired twice, and utterly ordinary.
 
 **NIMERA:** Westways road and settlement records. Old.
 
-**TORREN:** How old?
+**TORREN:** How fucking old?
 
 She checks the hands, paper, binding repairs, and catalog note.
 
@@ -44,7 +44,7 @@ Torren leans over it.
 
 Cyanis sees it too.
 
-**CYANIS:** Wayfinder.
+**CYANIS:** That's the fucking Wayfinder.
 
 Nimera does not answer immediately.
 
@@ -52,15 +52,11 @@ She studies the page, the surrounding notes, and the hand.
 
 **NIMERA:** Copy of one. Or copy of a copy derived from one. The recordkeeper says older road source and then uses the same symbol relationships we've already seen. I am comfortable saying Wayfinder-derived. I am not comfortable pretending this person had the original artifact in front of them.
 
-**ILYRA:** And this is Yahtrean.
-
-**NIMERA:** Yes. About five hundred years old. The source being copied is much older.
+**NIMERA:** The book is Yahtrean—about five hundred years old. The source being copied is much older.
 
 Torren traces the regional limits without touching the page.
 
-**TORREN:** Westways here. Central Yahtrea here.
-
-**NIMERA:** That's all they copied.
+**TORREN:** Westways here. Central Yahtrea here. That's all they copied.
 
 ### [THE COMPLETE CAELORA CLUSTER]
 
@@ -72,19 +68,15 @@ Nobody treats the existence of an Ancient capital here as new information.
 
 **CYANIS:** That's the part our Wayfinder lost.
 
-**NIMERA:** Rougher hand, fewer fine markings, but yes. The copied center survived.
+**NIMERA:** Rougher hand, fewer fine markings, but the copied center survived.
 
 Torren studies the density.
 
 **TORREN:** Bigger than what we could reconstruct.
 
-**ILYRA:** Much bigger.
+**ILYRA:** Fuck. Much bigger.
 
-**NIMERA:** Denser, too. Roads, built structures, major crossings. And whoever copied this simplified the hell out of the smaller marks.
-
-She points without touching.
-
-**NIMERA:** Which is useful and infuriating. Like being handed a portrait where somebody carefully preserved the face and decided bones were optional.
+**NIMERA:** Denser too, and whoever copied it simplified the hell out of the smaller marks. Useful and infuriating—like preserving the face and deciding bones were optional.
 
 ### [THE NORTHERN TOWER]
 
@@ -92,19 +84,7 @@ Torren follows the broadest routes north.
 
 Several converge on a huge depicted structure north of the Caelora cluster.
 
-**TORREN:** There.
-
-**CYANIS:** Tower?
-
-**NIMERA:** Looks like one. Very large relative to everything else on the page.
-
-**ILYRA:** And the routes meet there.
-
-**TORREN:** Biggest ones do.
-
-He continues following them.
-
-**TORREN:** They keep going north.
+**TORREN:** There. Big fucking tower. The largest routes converge on it—and keep going north.
 
 The copied map ends.
 
@@ -112,11 +92,7 @@ The copied map ends.
 
 **TORREN:** Off the page.
 
-**NIMERA:** Important distinction. The route does not end. The copy does.
-
-She checks the surrounding record.
-
-**NIMERA:** This book is about the Westways. The copyist stopped where their subject stopped. That tells us absolutely fuck-all about the route's final destination.
+**NIMERA:** Important distinction: the route does not end. The copy does. This book is about the Westways, so that tells us absolutely fuck-all about the final destination.
 
 **ILYRA:** Apart from north.
 
@@ -140,15 +116,9 @@ Stone worktables, fitted dies, matrices, engraving frames, seal rests, inlay cha
 
 Nimera examines the progression.
 
-**NIMERA:** Ancient seals first.
+Nimera moves along the tables.
 
-She moves to the next set.
-
-**NIMERA:** Older Yahtrean forms.
-
-Another table.
-
-**NIMERA:** Royal-document copies.
+**NIMERA:** Ancient seals. Older Yahtrean forms. Then royal-document copies.
 
 Then the latest attempts.
 
@@ -156,49 +126,33 @@ Repeated Crest of Yahtrea impressions.
 
 **CYANIS:** That's Lysara's seal.
 
-**NIMERA:** The visible Crest, yes.
-
-She looks at the scorched binding channels.
-
-**NIMERA:** And somebody threw serious magic at these.
+**NIMERA:** The visible Crest. And somebody threw serious magic at it.
 
 **TORREN:** Worked?
 
-Nimera studies one attempt, then another.
+Nimera studies the attempts.
 
-**NIMERA:** Not proven.
+**NIMERA:** Not proven. Visually close, magical residue everywhere, but a genuine royal authority response? We do not have that. Copying the shape and copying the working authority are not the same fucking achievement.
 
-**TORREN:** Looks close.
+**ILYRA:** Same asshole who researched the Hall?
 
-**NIMERA:** Visually, very. Magical residue, yes. Genuine royal authority response? We do not have that.
+**NIMERA:** Maybe. I want them connected because that makes the story neat, which is exactly why I don't trust it.
 
-She turns to Cyanis.
+**CYANIS:** And still nothing tells us how the Queen's response ended up on the orders.
 
-**NIMERA:** Copying the shape and copying the working authority are not the same fucking achievement.
-
-**ILYRA:** Could this be whoever researched the Hall?
-
-**NIMERA:** Could be. Could also be somebody following the same material later. I want them connected because that makes the story neat, which is exactly why I don't trust the urge.
-
-**CYANIS:** And nothing here tells us how the Queen's response ended up on the orders.
-
-**NIMERA:** Correct. We have evidence somebody practiced. We do not have success, identity, or mechanism.
-
-A beat.
-
-**NIMERA:** Which is a deeply irritating amount of progress.
+**NIMERA:** Right. Practice, no proven success, identity, or mechanism. A deeply irritating amount of progress.
 
 ### [EXIT]
 
 Cyanis looks back toward the copied Westways map notes they made.
 
-**CYANIS:** One lead goes somewhere.
+**CYANIS:** At least one lead goes somewhere.
 
 **TORREN:** Tower north of Caelora.
 
-**NIMERA:** Geographic lead, yes. Seal lead is stuck until Mirena can compare this with Crown records.
+**NIMERA:** Geographic lead, yes. Seal lead is stuck.
 
-**ILYRA:** Then we go upstairs.
+**ILYRA:** Then let's get the hell upstairs.
 
 Nimera closes the final case.
 
