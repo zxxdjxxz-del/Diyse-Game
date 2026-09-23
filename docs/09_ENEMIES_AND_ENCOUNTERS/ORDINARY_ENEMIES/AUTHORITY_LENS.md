@@ -80,7 +80,7 @@ Combat role:
 Authority Lens does **not** inflict Stun in Chapter 3.
 
 Reason:
-- Command-Station Sentry's Station Pulse is the current preferred ordinary-enemy Stun introduction;
+- Command Guard Frame's Station Pulse is the current preferred ordinary-enemy Stun introduction;
 - duplicating Stun across multiple tower-base support identities would muddy the teaching signal.
 
 The later Chapter-10 version may retain its stronger Classification Flash with Stun.
