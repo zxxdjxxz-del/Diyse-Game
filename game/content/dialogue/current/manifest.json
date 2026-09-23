@@ -541,9 +541,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B06",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md",
-          "source_sha256": "5082e7a883ab384e4155dca72360d8b6ab0d364a3d74614f5efff799b2109819",
+          "source_sha256": "9069b772197be40c521436d829668d84d40a0db48923826a366c5c5a22505a6a",
           "spoken_lines": 63,
-          "spoken_sha256": "8d5be86de12259aaa16995b58661d673c7ba5ee037d0605e4381d644783114b2",
+          "spoken_sha256": "49a8559668ad442db00ea2dd8668651fb8328f564fa997c02adb35d32d15a90c",
           "title": "Scholar in Redacted Stacks / Nimera Joins"
         },
         {
@@ -552,9 +552,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B07",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_07_LOWER_ARCHIVES_DRAFT_A.md",
-          "source_sha256": "bfbae309d1a7a32c86b07dedd968576e5bd44b84a192f63b70ad2bba78bad890",
+          "source_sha256": "4ad14ec3f304bfaeb957bb54724b76d3e3fd85ff124c6873081ba929cfb8167a",
           "spoken_lines": 32,
-          "spoken_sha256": "ccdbdac16f2b7de43b64c017ae85c40ea03bf155b36947a4b2acba527fb7c48a",
+          "spoken_sha256": "71d0fd46e4668d68713226c701ec2ca99644003327e3db357543351406944d1b",
           "title": "Lower Archives"
         },
         {
@@ -563,9 +563,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B08",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_08_BURIED_COLLECTIONS_RECENT_READER_DRAFT_A.md",
-          "source_sha256": "73f2964492fc491e485e5324dc068541b9ae70bb3c530e9b711b73926cb23222",
+          "source_sha256": "a3df521d940a5d04667770e3c820f658724f0bd032f80ef4c86f893020236899",
           "spoken_lines": 39,
-          "spoken_sha256": "5e0c481424ee5b132cb2dc2de0996e8ddcba7ded0aae8f6374219997d28018f0",
+          "spoken_sha256": "587426bda1b6092e6ee95e0fc79bca1ddf0556c480053844dd6634becda398e4",
           "title": "Buried Collections / Recent Reader"
         },
         {
@@ -574,9 +574,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B09",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_09_HALL_OF_SEALS_RECENT_READER_DRAFT_A.md",
-          "source_sha256": "e3a28f4b6e010c9848132bb1a8d6c74c51e06206e28afe642e9f0583720b6c90",
+          "source_sha256": "7b131e08f41cefd7ed72ca82a5693917bc4ad3ee02ce8915d607b88c36beecb7",
           "spoken_lines": 26,
-          "spoken_sha256": "df711ffd3d2de1f1f35df61917a75c88f0bdec217be33a35795a11043c4b09a9",
+          "spoken_sha256": "3cec3000327977aacaee51b7b7684a3c7efc5e8d7c94a22ee0b25dbd177cba38",
           "title": "Hall of Seals / Recent Reader Continuation"
         },
         {
@@ -585,9 +585,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B10",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_10_DEEP_ARCHIVES_DRAFT_A.md",
-          "source_sha256": "3f8c8e240edd8b7b89f321eb11cd7fb651373c9fb7e461b1066e75af2d312d1a",
+          "source_sha256": "c70d72910b62a9045b55cc10a581854fcdaf559b3c3d12c5cacc3ca14cea803d",
           "spoken_lines": 24,
-          "spoken_sha256": "a24250b4181cc0bc1526e22389ccb3732952b9a748ae1bfaaa5d8579d2f98390",
+          "spoken_sha256": "cb06f4e007131453273c60857bbda64b643af16745fd0b12c1b0177be21b3cdf",
           "title": "Deep Archives"
         },
         {
@@ -596,9 +596,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B11",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_11_ARCHIVE_SCRIBE_ENGINE_DRAFT_A.md",
-          "source_sha256": "cdebacfd90e5dcc63bbe60aff9db9ce9931e44a6f21c62c79a452194846ee9a7",
+          "source_sha256": "4907ea3ba8efac6befbe7f559773b965cce08c0fe6f979d20ddd62ec58284686",
           "spoken_lines": 22,
-          "spoken_sha256": "677e3af9f1f2a21a566361517d82b5b255e681dd844445d777c2ecee9ee3dc3b",
+          "spoken_sha256": "3e39c1dbcd9e2b09f8e4cc408552143a94a84d6201fd74500dfd89caabdbfc88",
           "title": "Archive Scribe Engine"
         },
         {
@@ -607,9 +607,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B12",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DRAFT_A.md",
-          "source_sha256": "205f9b464ef5eda21c1bd1f13552a7b2a8e2aea7f6dea5bee042500b82b66baa",
+          "source_sha256": "35c62c209dfb0b7e11b47189c461302d953a1c615562d68041df135ab61933d5",
           "spoken_lines": 36,
-          "spoken_sha256": "1a3b76ceee21ff9abfc33d9af046c823fc208e0e296bbadfb2c012d934df3121",
+          "spoken_sha256": "99ed2442d41eb29dbb3d0597e08a1805c1681045653ef271a3579ff10ea5e9e1",
           "title": "Inner Collections / Westways Recordbook / Sealwright Chamber"
         },
         {
@@ -618,9 +618,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B13",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DRAFT_A.md",
-          "source_sha256": "6a6919aaf1883ebb40c695baf48708de2ce033f06ac1758584fe919f57ce2374",
+          "source_sha256": "7c8ce93da4885efb1f31d2a6d928090684d20fe856802c9e5fdd3cabb835d76e",
           "spoken_lines": 41,
-          "spoken_sha256": "97431c1ee414a9967a50b195524205aed7387ef650ac23622679a4a1e0da3e33",
+          "spoken_sha256": "259d9b258e9052c5d9fa901bd3e77100943d20736afc3191d868b17b0603bfa2",
           "title": "Return to Mirena / Cresthaven Identified"
         },
         {
@@ -629,9 +629,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B14",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md",
-          "source_sha256": "541448de5ed76c18b18076167246f09b5e182d0270e680ca338312272ee7898b",
+          "source_sha256": "98703d1b1f1a528ea263a3591be7ff2aa2294a76a329c638cb736ac0c8ae211a",
           "spoken_lines": 51,
-          "spoken_sha256": "0f023aec0657a28fde012995a1d994fd32413c8db729f73c8242c0ace2fe2870",
+          "spoken_sha256": "97aa35f2d3feb47ceb1ecea369f7dc25e02487fb6701371b0c258e5e75eab32d",
           "title": "Cresthaven / Ancient Tower Base / First Command Warden"
         },
         {
@@ -651,9 +651,9 @@
           "scene_kind": "character_life",
           "slot_id": "C06",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md",
-          "source_sha256": "222af8d3006231e14f91a10cbc256bea0497bfd89173f6acdec4a1260936a7c3",
+          "source_sha256": "c39f1a4b5590b21bf6fbf5f5fa3da5c77203f79e30bb03cd36a5936e6a3f5aaa",
           "spoken_lines": 75,
-          "spoken_sha256": "b4fa5cd0e84ece5b80a57425d7f7c265d35cb8b091fb667b1b8a6885e1a5ab07",
+          "spoken_sha256": "35fc24d45b501a558a22b7b213e2f153b13c0bf14db1af23a309c834421c3107",
           "title": "Nimera Takes Over a Table"
         },
         {
@@ -662,16 +662,16 @@
           "scene_kind": "character_life",
           "slot_id": "C07",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/H03_ILYRA_AND_NIMERA_DRAFT_A.md",
-          "source_sha256": "9f079fc6b2e2e47d1a4157df8b874d5b1ed285cbb95fa25a5060fa5e2a1c281e",
+          "source_sha256": "72ad8a0feaa29f0e54e9bd27d1777b3c9110fb89b927344d7c72361dd8dcbd49",
           "spoken_lines": 67,
-          "spoken_sha256": "abaf91daaea0cd72da30ff107f53ce9bb079eed2bdf89d381f514bcbfc683ad5",
+          "spoken_sha256": "11248f6048748723e4c2961f297e36db48048c44250a1588eb0033a3beb3b98e",
           "title": "Ilyra and Nimera"
         }
       ]
     }
   },
   "expected_total_spoken": 2038,
-  "global_spoken_sha256": "053534ee39c12e1ba3e4d3f7facc82a3cff33babb92c058714aa80c2fb706ba8",
+  "global_spoken_sha256": "1662b3cb43795c17cc5fe4944487591b7bf01e62ab45b2a099538fecdd29c879",
   "schema": "diyse_current_runtime_dialogue_manifest_v1",
   "source_authority": "docs/03_DIALOGUE/PRODUCTION",
   "total_spoken": 2038
