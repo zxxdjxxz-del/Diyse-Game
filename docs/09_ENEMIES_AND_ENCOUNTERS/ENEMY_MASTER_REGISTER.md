@@ -44,6 +44,8 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 2 | Mandatory named/boss | Commander Rhazek — Bastion Master |
 | 2 | Regional Hunt | Regional Hunt #2 — Scaldback |
 | 3 | Ordinary/carryover | Archive Current — late Old City carryover |
+| 3 | Ordinary/carryover | Hollow Watch Sentry — Cresthaven carryover |
+| 3 | Ordinary/carryover | Hollow Watch Ballista — Cresthaven carryover |
 | 3 | Ordinary/carryover | Judgment Frame |
 | 3 | Ordinary/carryover | Erasure Wisp |
 | 3 | Ordinary/carryover | Command-Station Sentry |
@@ -57,6 +59,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 3 | Authored/protected | Ivory Adjudicator — named nonlethal |
 | 3 | Authored/protected | S018 lawful-authority confrontation I/II — formation-level; no fake boss body |
 | 3 | Strong normal-pool Elite | Grand Inquisitor Frame |
+| 3 | Strong normal-pool Elite | Watch Captain Frame — Cresthaven carryover |
 | 3 | Mandatory named/boss | Archive Scribe Engine |
 | 3 | Mandatory named/boss | First Command Warden — one bar / same-bar command-state shift |
 | 3 | Regional Hunt | Regional Hunt #3 — Archive Judgment Engine |
