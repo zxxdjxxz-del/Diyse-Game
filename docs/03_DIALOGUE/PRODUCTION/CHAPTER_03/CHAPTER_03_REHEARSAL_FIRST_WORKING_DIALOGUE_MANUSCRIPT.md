@@ -8,13 +8,13 @@
 
 | Order | Canonical slot | Atomic source | SHA-256 |
 |---:|---|---|---|
-| 1 | Beat 1 | `BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md` | `f84f36d8caee12e2d016120527bccbb3c96b84f46d362add23661895c22a3768` |
+| 1 | Beat 1 | `BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md` | `c05adf5cd505fe4611d975309667f0596a5685f4964df60e4b18ec102d071557` |
 | 2 | Beat 2 | `BEAT_02_ROYAL_AUDIENCE_CH2_REPORT_DRAFT_A.md` | `c9a5dd986f27a098269bbeb55cbcfdc9378e67bee031bed3c7a7d5d06b83d4b4` |
 | 3 | Beat 3 | `BEAT_03_IMPOSSIBLE_ORDERS_DRAFT_A.md` | `a21038fb3c077a285aa1d591d17caa6361bdf1f18726cbca9846c1ba54f22cca` |
 | 4 | Beat 4 | `BEAT_04_SEAL_NOT_USED_DRAFT_A.md` | `64f380fd16ffdc4c8bebcfc1f3e9a9a269fe6536471bca37a840c06bfc0d6471` |
 | 5 | Beat 5 | `BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md` | `a13fdca7753cff6ee85024a96834d151729a2bb588f4c0d42f828565a0d8c9b1` |
 | 6 | Beat 6 | `BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md` | `041f78af4bf6cdfaf61a2aff6c818d82d17b050775e70a1f184da4d8653a10dc` |
-| 7 | Beat 7 | `BEAT_07_LOWER_ARCHIVES_DRAFT_A.md` | `df6a64e062edb286bee0fb9e8d0cca59e14d9cc778b26ab2645eb414bfce0694` |
+| 7 | Beat 7 | `BEAT_07_LOWER_ARCHIVES_DRAFT_A.md` | `5643ca526f966401a796c5760f9cafecd4631aa56722cc09b97d39c7054fed59` |
 | 8 | Beat 8 | `BEAT_08_BURIED_COLLECTIONS_RECENT_READER_DRAFT_A.md` | `f6322304c4eb762dcdb8f26e9694b2c2e19d02f57ca0d2b8c823a88371d38c51` |
 | 9 | Beat 9 | `BEAT_09_HALL_OF_SEALS_RECENT_READER_DRAFT_A.md` | `515b920b51ac6844f9229baaf69eefd4b690a49b4031e12a73ebf98a1becc73e` |
 | 10 | Beat 10 | `BEAT_10_DEEP_ARCHIVES_DRAFT_A.md` | `96d810ea133d604aa2bd6c2959d6786f913520029f28f0761c489317c41b90e7` |
@@ -31,7 +31,7 @@
 ## Beat 1
 
 **Atomic source:** `BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md`  
-**Source SHA-256:** `f84f36d8caee12e2d016120527bccbb3c96b84f46d362add23661895c22a3768`
+**Source SHA-256:** `c05adf5cd505fe4611d975309667f0596a5685f4964df60e4b18ec102d071557`
 
 # Chapter 3 — Beat 1
 # Caelora Gate / Arrival
@@ -77,7 +77,7 @@ Cyanis looks at him.
 
 **TORREN:** Still true.
 
-**ILYRA:** Devastating. Beaten by fucking topography.
+**ILYRA:** Devastating. Beaten by topography.
 
 **CYANIS:** You're enjoying this.
 
@@ -1057,7 +1057,7 @@ Transition into:
 ## Beat 7
 
 **Atomic source:** `BEAT_07_LOWER_ARCHIVES_DRAFT_A.md`  
-**Source SHA-256:** `df6a64e062edb286bee0fb9e8d0cca59e14d9cc778b26ab2645eb414bfce0694`
+**Source SHA-256:** `5643ca526f966401a796c5760f9cafecd4631aa56722cc09b97d39c7054fed59`
 
 # Chapter 3 — Beat 7
 # Lower Archives
@@ -1177,7 +1177,7 @@ She flips back several pages.
 
 **NIMERA:** No closure note. No transfer note. No fire record. No formal sealing order.
 
-**ILYRA:** So they just fucking stopped using it.
+**ILYRA:** So they just stopped using it.
 
 **NIMERA:** Maybe. Or stopped recording that they used it. Different problem.
 

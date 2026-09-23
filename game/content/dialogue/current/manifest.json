@@ -486,9 +486,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B01",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md",
-          "source_sha256": "f84f36d8caee12e2d016120527bccbb3c96b84f46d362add23661895c22a3768",
+          "source_sha256": "c05adf5cd505fe4611d975309667f0596a5685f4964df60e4b18ec102d071557",
           "spoken_lines": 26,
-          "spoken_sha256": "4facd758bbc0792b0904cd48b94e53fe5c60fd38c83527d6805b3bd2293ec5cf",
+          "spoken_sha256": "1ed066d0f72184e33a8871a4f31012db33354a1f64fb4aad0fb708aa7c03beb2",
           "title": "Caelora Gate / Arrival"
         },
         {
@@ -552,9 +552,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B07",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_07_LOWER_ARCHIVES_DRAFT_A.md",
-          "source_sha256": "df6a64e062edb286bee0fb9e8d0cca59e14d9cc778b26ab2645eb414bfce0694",
+          "source_sha256": "5643ca526f966401a796c5760f9cafecd4631aa56722cc09b97d39c7054fed59",
           "spoken_lines": 32,
-          "spoken_sha256": "db039c8047d3a22333b3921dfe5b65bff3fac55830d71dca73a2c2749962816e",
+          "spoken_sha256": "b148764cbeda79815fa3a86dc4dc59c3b2abc499ea720a3154552132c31e3e50",
           "title": "Lower Archives"
         },
         {
@@ -671,7 +671,7 @@
     }
   },
   "expected_total_spoken": 2165,
-  "global_spoken_sha256": "fa7d8435f2a7723959d4be1da206aa8b3dfeb3310feef56b05187f61839e903a",
+  "global_spoken_sha256": "bbad2a610ac4717adffe25b5326f0383bea123939031886678e53797dbe039a6",
   "schema": "diyse_current_runtime_dialogue_manifest_v1",
   "source_authority": "docs/03_DIALOGUE/PRODUCTION",
   "total_spoken": 2165
