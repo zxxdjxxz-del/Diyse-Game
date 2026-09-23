@@ -48,7 +48,10 @@ Do not pre-compose:
 - lines whose only purpose is to certify that the scene satisfied a structural rule;
 - recruitment speeches explaining why someone is joining;
 - safety speeches when a character can simply behave cautiously;
-- knowledge-firewall dialogue such as characters repeatedly announcing what they do not know.
+- knowledge-firewall dialogue such as characters repeatedly announcing what they do not know;
+- canon-checker phrasing such as `that's all we know`, `nothing is proven`, `important distinction`, `we cannot conclude`, or `that is the fact` when ordinary speech can carry the same boundary.
+
+**Reveal firewalls are production constraints, not required spoken dialogue.** Prefer to preserve them through what characters simply do not claim, or through natural questions, hesitation, disagreement, irritation, incomplete theories, concrete observations, or a plain `don't know` when that is what a person would actually say.
 
 The Canon / Knowledge Checker remains responsible for ensuring the finished scene does not overclaim.
 
@@ -61,10 +64,10 @@ Invalid rehearsal instruction:
 > Cyanis tells Nimera she is free to choose; Nimera explains her reasons; Torren asks whether she means permanently; Nimera explicitly confirms permanent recruitment.
 
 Valid hard outcome:
-> The Ancient barrier opens through cooperative reasoning, without proving Cyanis has Ancient authority or that modern Crests descend from Diysean craft.
+> The party chooses Ivorybridge as the next practical northern search point without Ancient evidence confirming that the routes lead there.
 
 Invalid rehearsal instruction:
-> Torren identifies the fourth plate; Cyanis explains the return path; Nimera validates the analogy; Ilyra orders a partial test; each character states their role in the solution.
+> Cyanis states that Ivorybridge is not on the Ancient map; Nimera says it is only a hypothesis; Ilyra restates that the route destination remains unknown; Torren verbally confirms the uncertainty before they leave.
 
 The rehearsal must discover how the people actually get there.
 
