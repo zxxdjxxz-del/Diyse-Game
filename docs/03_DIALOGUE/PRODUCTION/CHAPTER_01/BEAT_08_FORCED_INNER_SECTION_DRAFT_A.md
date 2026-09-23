@@ -33,7 +33,7 @@ The party does not stop for a full investigation.
 
 **TORREN:** No. Door's still intact. They broke through the weaker stone around it.
 
-**ILYRA:** Subtle.
+**ILYRA:** Subtle as hell.
 
 **MAEVRA:** Worked.
 
