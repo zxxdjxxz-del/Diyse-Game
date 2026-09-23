@@ -74,9 +74,9 @@ She approaches only after the mechanism is fully still.
 
 **NIMERA:** It was enforcing something. Or continuing something. Fuck, those are not the same claim.
 
-**CYANIS:** What do we know?
+**CYANIS:** So what was that thing actually doing?
 
-**NIMERA:** We entered. It woke. It treated us as a problem. Breaking the active assemblies stopped it. Anything beyond that is me trying to make the corpse confess.
+**NIMERA:** We walked in, it woke up angry, and breaking the active assemblies stopped it. If you want motive, ask the corpse.
 
 Ilyra looks toward the inner shutters.
 
