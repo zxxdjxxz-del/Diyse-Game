@@ -29,13 +29,15 @@ LABEL_RE = re.compile(r"^.+:\s*$")
 # Chapter 3 encounter bridges are intentionally omitted until its enemy placement is migrated to the revised 15-beat story structure.
 BRIDGES = (
     ("Cyanis Solo", "Opening Ambush", (
-        "Combat 1 — Cyanis solo: Black Host Raider; Black Host Crossbowman; Ruin Shieldbearer.",
-        "Combat 2 — Cyanis solo: Beast Handler; Convoy Rift Hound.",
+        "Combat 1 — Cyanis solo: Black Host Raider + Black Host Crossbowman.",
+        "Combat 2 — Cyanis solo: Black Host Raider + Ruin Shieldbearer.",
+        "Combat 3 — Cyanis solo: 2 Convoy Rift Hounds.",
         "Chapter 0 uses authored/tutorial encounters rather than the normal random-encounter cadence.",
-    ), CH0, ("Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "Beast Handler", "Convoy Rift Hound")),
+    ), CH0, ("Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "2 Convoy Rift Hounds")),
     ("Hound Pressure", "Wreck Field", (
-        "Cyanis faces a lone Convoy Rift Hound while the survivor route is being stabilized.",
-    ), CH0, ("lone Convoy Rift Hound",)),
+        "Combat 4 — Cyanis solo: Black Host Crossbowman + Convoy Rift Hound.",
+        "Combat 5 — Cyanis solo: one lone Convoy Rift Hound threatening the survivor route.",
+    ), CH0, ("Black Host Crossbowman + Convoy Rift Hound", "one lone Convoy Rift Hound")),
     ("The Pursuer", "Concealed Ruin Vanguard", (
         "Combat party: Cyanis + Ilyra.",
         "Enemy: Ruin Vanguard Pursuer. The pursuer's identity remains unknown to the party.",
