@@ -1,6 +1,6 @@
 # Watch Captain Frame
 
-**Chapter:** 1 — Hollow Watch lower ancient-defense pool  
+**Current use:** Chapter 1 — Hollow Watch; Chapter 3 — Cresthaven Ancient tower base carryover  
 **Role:** strong normal-pool construct / Elite-strength identity  
 **Status:** **POWER COMPLETE / FORMER OPTIONAL PLACEMENT RETIRED / NORMAL-POOL REVALIDATION REQUIRED**
 
@@ -87,3 +87,23 @@ Owning validation:
 - Single-target attacks select equally among conscious active party members.
 - Watch Captain Frame does **not** create or amplify Targeting Signal; Sentry/Ballista behavior remains independently owned by those construct files.
 - Formation role: the strong body in a normal construct formation, not a scripted mini-boss AI package.
+
+
+## Chapter-3 Cresthaven carryover lock — 2026-09-23
+Watch Captain Frame returns as a **strong normal-pool construct** in the Cresthaven Ancient tower base.
+
+Placement:
+- late Tower Foundation — rare eligibility;
+- Command Interior — primary eligibility;
+- never more than **1 Watch Captain Frame per formation**;
+- not used in the Warden Chamber.
+
+Its established action grammar remains:
+- Captain Edge;
+- Signal Burst;
+- Locking Thrust;
+- Watchline Guard.
+
+It does not gain Targeting Signal and does not amplify Hollow Watch Sentry / Ballista links.
+
+The Chapter-3 body requires fresh four-person-party tuning rather than reusing the Chapter-1 Lv6 body unchanged.
