@@ -1,7 +1,7 @@
 # Diyse — Chapter 3 Encounter Formations
 
-**Structural status:** **ACTIVE REBUILD — CURRENT ROSTERS / STORY ROUTE ONLY**  
-**Numeric status:** **DEFERRED — final weights and difficulty require current mandatory-vs-completionist validation**  
+**Structural status:** **CLOSED — CURRENT ROSTERS / COMPOSITIONS / SUB-AREA ELIGIBILITY / BODY-COUNT CAPS**  
+**Numeric status:** **DEFERRED — final selection weights / encounter frequencies / raw-stat tuning / difficulty certification require current mandatory-vs-completionist validation**  
 **Owning domain:** `09_ENEMIES_AND_ENCOUNTERS/ENCOUNTER_FORMATIONS`
 
 ## Current route firewalls
@@ -251,3 +251,23 @@ Do not reuse historical validation based on:
 - hostile Caelora / road encounters;
 - the retired Deep Command Route;
 - random Archive Scribe Engines.
+
+
+## Structural closure — 2026-09-23
+Chapter-3 formation design is **structurally closed**.
+
+Closed:
+- Old City Beat-7 through Beat-10 formation compositions;
+- Cresthaven Tower Foundation / Command Interior / Warden-approach compositions;
+- enemy identity eligibility by sub-area;
+- body-count progression and six-enemy ordinary ceiling;
+- Grand Inquisitor and Watch Captain max-1 rules;
+- safe pre-boss buffers;
+- Archive Scribe Engine excluded from random formations.
+
+Still deferred:
+- exact formation selection weights;
+- encounter frequencies;
+- level anchors;
+- raw-stat retuning;
+- final mandatory/completionist certification.
