@@ -1,14 +1,22 @@
 # Chapter 3 — Beat 2
 # Royal Audience / The Chapter-2 Report
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+## CURRENT LOCKED DIALOGUE — REVISED CONTINUITY / TRUE-VOICE PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
 
 ### [STORY TRIGGER — WORKING ROYAL AUDIENCE]
 
-Player control pauses for the report.
+This is a working royal audience, not a ceremony.
 
-This is a working royal audience, not a ceremony. Queen Lysara, Crown Princess Mirena, Chancellor Othmar Calder, Maevra, Cyanis, Ilyra, and Torren are present with only the clerical support needed for records and maps.
+Present:
+- Queen Lysara Ceryth
+- Crown Princess Mirena Ceryth
+- Chancellor Othmar Calder
+- Maevra
+- Cyanis
+- Ilyra
+- Torren
+- only necessary clerical support
 
 Lysara looks to Maevra.
 
@@ -18,13 +26,13 @@ Lysara looks to Maevra.
 
 **LYSARA:** Their condition?
 
-Ilyra answers.
+Ilyra answers only the medical part she actually owns.
 
 **ILYRA:** Exhausted. Some injuries had gone too long without proper care. Several could walk, but not through the route we used to get inside.
 
-**MIRENA:** So the road had to be taken first.
+**MIRENA:** So opening the road mattered as much as taking the Bastion.
 
-**ILYRA:** Yes. Three armed people could manage the old route. That group couldn't.
+**ILYRA:** For getting them home, yes.
 
 Lysara nods.
 
@@ -32,7 +40,7 @@ Lysara nods.
 
 Othmar looks to Maevra.
 
-**OTHMAR:** The Old Waterworks?
+**OTHMAR:** Old Waterworks?
 
 **MAEVRA:** At first.
 
@@ -50,45 +58,41 @@ Mirena almost smiles.
 
 **TORREN:** Good.
 
-Torren's copied mural is placed where the room can see it.
+### [THE WAYFINDER EVIDENCE]
 
-**TORREN:** This is a field copy. Placement and route relationships are good. It is not a survey.
+Torren lays out the party's copied record from the Chapter-1 Wayfinder.
+
+**TORREN:** This isn't new from the Bastion. It's the Wayfinder copy from Briar Passage.
 
 Mirena studies it.
 
-**MIRENA:** This is Caelora.
+**MIRENA:** The western network.
 
-**TORREN:** Same location. Older city was much larger. The wall we just entered through would've been inside its footprint.
+**TORREN:** Yeah. Roads everywhere, built sites everywhere, biggest concentration around Caelora. But the actual Wayfinder is broken straight through the center here.
 
-Mirena's attention moves north.
+He indicates the damaged Caelora-area portion.
 
-**MIRENA:** And this is separate.
+**TORREN:** We know the old capital stood here. We don't have its complete center from this source.
 
-**TORREN:** Yeah.
+**LYSARA:** And the scale outside the break?
 
-A beat.
+**TORREN:** Bigger than modern Caelora by a lot. I can defend that much.
 
-**MIRENA:** That's the Yahtrean Crest.
+**MIRENA:** The second system of marks?
 
-The room quiets.
+**TORREN:** Still don't know what they mean.
 
-Lysara looks directly at Torren.
+**OTHMAR:** Then the Old City archives may contain comparable records.
 
-**LYSARA:** How certain?
+**MIRENA:** Or several centuries of people confidently copying things they didn't understand.
 
-**TORREN:** About the mark? Certain. About why it's there, what that structure was, or whether it meant then what it means now? I don't know.
+**TORREN:** Those aren't mutually exclusive.
 
-**LYSARA:** Good.
-
-Mirena keeps looking at the copy.
-
-**MIRENA:** If enough of the Old City archives survived, there may be something comparable below us.
-
-**OTHMAR:** There may also be several centuries of useless fragments.
-
-**MIRENA:** Those aren't mutually exclusive.
+Mirena gives him a brief look of approval.
 
 **LYSARA:** Later. Finish the report.
+
+### [THE CARD TRANSPORT]
 
 Maevra nods.
 
@@ -104,11 +108,11 @@ Lysara's attention shifts to Cyanis.
 
 **CYANIS:** By experience. Brackenwall tried separating us. My pulse dropped, I started shaking, and the Card lit toward me. Putting it back stopped it.
 
-Ilyra adds only what he could not assess himself.
+Ilyra adds only what Cyanis could not observe himself.
 
 **ILYRA:** His pulse recovered after contact was restored. We didn't repeat the test.
 
-**CYANIS:** I was strongly in favor of that.
+**CYANIS:** Strongly in favor of that decision.
 
 Lysara accepts it.
 
@@ -116,11 +120,11 @@ Lysara accepts it.
 
 Othmar's attention sharpens.
 
-**OTHMAR:** The transport to Caelora was formally authorized?
+**OTHMAR:** The transport toward Caelora was formally authorized?
 
 **MAEVRA:** That's what the chain showed. Direct Crown authority.
 
-**OTHMAR:** You still have the order?
+**OTHMAR:** You retained the order?
 
 **MAEVRA:** Yes.
 
@@ -144,8 +148,6 @@ Lysara does not speculate.
 
 **LYSARA:** Paper first. Conclusions after.
 
-The audience shifts from field report to document verification.
-
 ### [STORY HANDOFF]
 
 Transition directly into:
@@ -156,11 +158,11 @@ Transition directly into:
 
 - the Crown knows the current Old Bastion prisoners were freed;
 - Rhazek survived and withdrew;
-- earlier transferred groups remain missing and their destination remains unknown;
-- the Crown knows the party entered through older infrastructure beneath the region;
-- the Crown sees the western mural copy, the larger Ancient city at modern Caelora, and the separate northern structure bearing the exact Yahtrean Crest;
-- the meaning of that Crest remains unexplained;
-- the Crown knows the recovered Card came from the Diysean ruins in the Westways and was being transported toward Caelora under apparent direct Crown authority;
-- Lysara has not yet stated whether she knew of or authorized that transport;
-- the Card remains physically with Cyanis because separation previously caused a dangerous unexplained reaction;
+- earlier transferred groups remain missing;
+- the Crown knows the party reached the Bastion through substantially older infrastructure;
+- the Chapter-1 Wayfinder remains the major Ancient cartographic evidence;
+- the known Ancient capital at modern Caelora is not a new revelation;
+- the Wayfinder's broken Caelora-area center remains incomplete;
+- no Chapter-2 mural or Crest-marked northern structure exists;
+- the Crown knows the recovered Card was being transported toward Caelora under apparent direct Crown authority;
 - the original transport authorization and attached records are ordered into the room for Beat 3.
