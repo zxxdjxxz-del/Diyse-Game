@@ -10,7 +10,9 @@
 ### Old Waterworks / wet lower works
 - Bogshell
 - Cistern Leech
-- Redwater Initiate — recovered identity; **exact current placement requires confirmation before use** because older poisoned-waterworks context is retired
+- Needlewing — approved Chapter-1 carryover; natural aerial threat in flooded / broken vertical chambers
+
+**Removed from current Chapter-2 placement:** Redwater Initiate. Its prior poisoned-waterworks context is retired and it is not part of the active Old Waterworks roster.
 
 ### Sunken Archive / ancient complex
 - Archive Current
