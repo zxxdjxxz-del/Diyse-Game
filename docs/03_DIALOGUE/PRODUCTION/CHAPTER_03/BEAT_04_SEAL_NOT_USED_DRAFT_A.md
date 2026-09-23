@@ -68,7 +68,7 @@ Maevra looks up.
 
 Lysara folds her hands.
 
-**LYSARA:** And we do not know physical access was required at all.
+**LYSARA:** And physical access may not have been required at all.
 
 No one answers.
 
