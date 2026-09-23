@@ -2,7 +2,7 @@
 # Old City Access / Archive Descent
 ## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
 
 ### [GAMEPLAY — OLD CITY ARCHIVE ENTRY]
 
@@ -123,11 +123,11 @@ Ilyra laughs.
 
 The marked route reaches the deeper work section where Nimera Pellan is currently working.
 
-Stop before introducing Nimera or explaining the barrier.
+Stop before introducing Nimera. There is no Ancient Barrier setup.
 
 Transition directly into:
 
-**Beat 6 — Scholar in Redacted Stacks.**
+**Beat 6 — Scholar in Redacted Stacks / Nimera Joins.**
 
 ## Beat-5 end state
 
@@ -136,4 +136,4 @@ Transition directly into:
 - the player experiences the transition from modern Crown archive to unmistakably Diysean construction;
 - the trio is intentionally seeking Nimera Pellan;
 - Maevra remains in Caelora with Mirena;
-- no major revelation, Card classification, seal solution, or Nimera recruitment occurs yet.
+- no major revelation, Card classification, seal solution, or Nimera recruitment occurs until Beat 6.
