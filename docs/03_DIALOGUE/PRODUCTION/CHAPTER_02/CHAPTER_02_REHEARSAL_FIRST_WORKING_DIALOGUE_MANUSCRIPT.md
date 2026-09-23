@@ -22,7 +22,7 @@
 | 12 | Beat 13 | `BEAT_13_RHAZEK_MASKED_OFFICER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `6a3ddbfca1641ab504de0ad48a53e640dac2415b144e01bbbb2d47709cccbda9` |
 | 13 | Beat 14 | `BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `fcac30a5ae8755d38dc3fe2b4dae3c56f42b76a115125290722f3db4bfe56308` |
 | 14 | Beat 15 | `BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `a2e760ec4a6563abd9684fd7d1a9078efa17d78bb7b79413508e3e94d4657c58` |
-| 15 | Beat 16 | `BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `26c115af5fb08e1153d05b3d6c6fc231028d07c7686dca30b50c1081072b4329` |
+| 15 | Beat 16 | `BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `0e5cf7c8eb94e2fe494a600ea85fb5c6eca4b341dae44d6859e53327b59bf0af` |
 | 16 | C05 — Still Burns | `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `cd3372a3d4254df3dbc9519276cfb4fbbcc5c3c3c657d5c7d95a220ee40941b7` |
 
 ---
@@ -2621,7 +2621,7 @@ Next mandatory beat:
 ## Beat 16
 
 **Atomic source:** `BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `26c115af5fb08e1153d05b3d6c6fc231028d07c7686dca30b50c1081072b4329`
+**Source SHA-256:** `0e5cf7c8eb94e2fe494a600ea85fb5c6eca4b341dae44d6859e53327b59bf0af`
 
 # Chapter 2 — Beat 16 — Return to Dunmere / Road Reopened / Cleanup
 
@@ -2817,7 +2817,7 @@ Current local state:
 - Rhazek has lost the Old Bastion locally;
 - the Old Bastion no longer functions as a Black Host choke point on the corridor;
 - direct **Greenhollow ↔ Dunmere** travel is reopened for ordinary travel;
-- the western mural, enormous Ancient city, and crest-marked northern structure remain unresolved;
+- the Chapter-1 Wayfinder remains the party's latest major Ancient cartographic evidence; Chapter 2 has added no second map reveal;
 - Maevra remains physically present in Dunmere;
 - Caelora remains the larger journey direction.
 
