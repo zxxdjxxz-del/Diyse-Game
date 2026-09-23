@@ -179,39 +179,136 @@ conversation_model:
   profanity_texture: full_range_vulgar_profane_bodily_indecent_insulting_and_socially_inappropriate_language_with_no_single_default_crutch_until_true_fury_may_remove_it
   profanity_long_form_calibration: roughly_20_to_35_percent_of_spoken_lines_across_large_corpus_not_per_scene
   profanity_vocabulary:
-    common:
-      - fuck_fucking_fucked
-      - shit_shitty_shitshow_horseshit
+    core_everyday:
+      - fuck_fucking_fucked_fucker
+      - shit_shitty_shithead_shitshow_horseshit
       - bullshit
-      - damn
+      - damn_damned
       - hell
       - ass_asshole_pain_in_the_ass
       - bastard
-      - piss_pissed
-    available_when_natural:
+      - piss_pissed_piss_poor
+    broad_available_when_natural:
+      - motherfucker
       - bitch
       - prick
-      - dick_dickhead
-      - jackass_dumbass
+      - dick_dickhead_dickbrain
+      - cock_cockhead
+      - jackass_dumbass_smartass
+      - fuckwit_fuckbrain
+      - shitwit_shitheel_shit_for_brains
       - clusterfuck
       - half_assed
-      - balls
-      - screw_this_style_bluntness
-    vulgar_comparison_families:
+      - balls_bollocks
+      - son_of_a_bitch
+      - cunt_rare_high_impact_not_default_filler
+    anatomical_and_bodily:
+      - head_up_own_ass
+      - kick_or_hit_in_the_dick_when_literal_or_joking_context_supports_it
+      - balls_deep_in_trouble_style_construction
+      - up_to_our_tits_in_a_problem_style_construction
+      - freezing_or_sweating_my_tits_off_style_complaint
+      - scared_the_piss_out_of_me
+      - body_function_comparisons
+      - crude_anatomical_comparison
+    exclamation_shapes:
+      - fuck_me
+      - for_fucks_sake
+      - oh_fuck_off
+      - piss_off
+      - well_shit
+      - what_the_fuck
+      - what_fresh_bullshit_is_this
+      - you_have_got_to_be_fucking_kidding_me
+      - improvised_absurd_obscene_exclamation
+    insult_construction:
+      - adjective_plus_bastard_prick_asshole_or_shithead
+      - profane_compound_invented_in_the_moment
+      - intelligence_or_judgment_insult_built_from_specific_observed_failure
+      - object_or_machine_comparison_that_is_insulting_because_it_is_precise
+      - affectionate_insult_when_relationship_safety_has_been_earned
+    metaphor_families:
+      - bad_design_as_structural_or_mechanical_fuck_you
+      - bad_plan_as_suicide_wearing_a_respectable_disguise
+      - multiple_bad_ideas_fucking_each_other_into_a_larger_problem
+      - held_together_by_rust_prayer_and_bullshit_style_construction
       - crawling_up_its_own_ass
       - fucking_itself_into_a_corner
       - jerking_itself_off_over_its_own_theory
       - circle_jerk_or_dick_measuring_comparison_when_socially_and_world_tonally_plausible
       - bodily_function_comparisons
-      - indecent_relationship_or_sexual_metaphor
+      - indecent_relationship_or_consensual_sexual_metaphor
       - crude_animal_or_food_comparison
-      - profane_compound_insult_invented_in_the_moment
+      - impossible_geometry_or_system_behavior_described_with_obscene_physical_language
+    ancient_system_and_ruin_register:
+      - ancient_fucking_death_box_style_label
+      - prehistoric_bastard_machine_style_label
+      - catastrophe_engine_style_label
+      - haunted_fucking_geometry_style_label
+      - weaponized_archaeology_style_label
+      - dead_civilization_bullshit_style_label
+      - ancestral_engineering_tantrum_style_label
+      - historical_bullshit_with_moving_parts_style_label
+      - dead_engineers_last_bad_idea_style_label
+      - worlds_oldest_fucking_maintenance_problem_style_label
+    affectionate_vulgarity:
+      - you_stupid_bastard_im_glad_youre_alive_shape
+      - move_your_ass_shape
+      - oh_fuck_you_as_safe_banter
+      - stop_getting_fucking_stabbed_shape
+      - relationship_specific_profane_nickname_or_insult_only_after_it_is_earned
   profanity_selection_rule:
     - choose_the_word_or_image_that_best_matches_the_thought_not_the_most_familiar_swear
-    - vary_noun_verb_adjective_and_metaphor_use
+    - vary_noun_verb_adjective_exclamation_insult_comparison_and_metaphor_use
+    - fuck_is_frequent_but_must_not_become_the_only_intensifier
     - insults_can_be_affectionate_hostile_or_technical_but_relationship_context_controls_which
     - stronger_terms_should_land_because_the_image_is_funny_precise_or_emotionally_true_not_for_escalation_alone
     - do_not_repeat_the_same_swear_as_an_intensifier_across_adjacent_turns_when_another_construction_would_sound_more_like_her
+    - cunt_and_motherfucker_are_available_but_should_retain_force_rather_than_become_neutral_filler
+    - avoid_identity_based_slurs
+    - do_not_use_sexual_violence_as_a_casual_metaphor
+    - do_not_import_Earth_specific_religious_exclamations_unless_world_canon_explicitly_supports_them
+  profanity_state_registers:
+    mild_irritation:
+      - damn
+      - hell
+      - ass
+      - piss
+      - bastard
+    ordinary_nimera:
+      - shit
+      - bullshit
+      - asshole
+      - dickhead
+      - fuck
+      - fucking
+      - prick
+      - invented_compounds
+    genuinely_angry:
+      - stronger_terms_are_available
+      - specificity_gets_meaner_before_volume_gets_louder
+      - true_fury_can_abruptly_become_clean_formal_and_cold
+    frightened:
+      - short_reflexive_profanity
+      - jokes_and_elaborate_metaphors_drop_away
+    fascinated:
+      - profanity_embeds_inside_technical_analysis
+      - wonder_and_obscenity_can_coexist
+    emotionally_vulnerable:
+      - profanity_frequency_often_drops
+      - one_deliberate_swear_can_carry_more_weight_than_a_tirade
+    comedic_disbelief:
+      - elaborate_vulgar_metaphor
+      - escalating_revisions
+      - absurd_but_internally_repaired_comparison
+  profanity_generation_rules:
+    - vocabulary_is_open_ended_not_a_closed_dictionary
+    - invent_new_compounds_and_figures_of_speech_from_current_environment_subject_relationship_and_mood
+    - prefer_specific_fresh_images_over_recycling_signature_lines
+    - technical_intelligence_and_vulgarity_should_reinforce_each_other_not_cancel_each_other
+    - a_profane_metaphor_may_become_two_or_three_sentences_if_she_notices_a_logic_error_and_repairs_it
+    - euphemistic_restraint_can_be_used_as_contrast_when_it_is_funnier_or_more_threatening_than_swearing
+    - other_characters_may_later_quote_or_adapt_a_nimera_phrase_as_an_earned_callback_but_that_does_not_transfer_her_whole_register
   metaphor_default: usually_profane_vulgar_bodily_or_indecent_then_correct_if_technically_wrong
   vulgar_metaphor_behavior:
     - starts_with_the_dirty_image_before_the_clean_analogy
