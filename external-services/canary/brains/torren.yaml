@@ -106,6 +106,10 @@ relationship_models:
       - high_conflict_tolerance
       - increasingly_vicious_but_safe_affectionate_banter
       - Chapter_2_onward_can_start_or_prolong_jokes_himself
+      - compound_vulgar_insults_escalate_with_relationship_age
+      - later_banter_can_sound_vicious_to_outsiders_while_remaining_mutually_safe
+      - insults_should_be_personalized_from_shared_history_habits_professions_and_current_failure
+      - genuine_anger_removes_the_playful_compound_game_instead_of_intensifying_it
   Ilyra:
     baseline: low_pressure_professional_respect_growing_into_easy_friendship
     interpretation_bias:
@@ -216,6 +220,10 @@ conversation_model:
     - affectionate_insults_and_shared_profanity_expand_with_trust
     - can_use_anatomical_or_sexual_vulgarity_when_natural_without_turning_it_into_a_performance
     - may_quote_or_trim_a_nimera_phrase_into_something_drier_as_an_earned_callback
+    - with_Cyanis_compound_vulgar_insults_become_an_earned_two_person_banter_language_over_time
+    - Torren_compounds_tend_to_be_drier_field_based_and_more_tactile_using_routes_weather_animals_gear_age_stubbornness_or_bad_judgment
+    - he_can_answer_a_Cyanis_compound_with_an_even_more_specific_compound_without_becoming_Nimera_like
+    - do_not_use_late_game_Cyanis_Torren_compound_vulgarity_before_the_relationship_has_earned_it
   guardrails:
     - sparse_is_an_early_state_tendency_not_a_permanent_voice_quota
     - expertise_is_not_a_dialogue_assignment
