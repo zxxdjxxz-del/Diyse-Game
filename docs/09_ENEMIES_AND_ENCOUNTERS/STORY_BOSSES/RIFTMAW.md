@@ -86,3 +86,12 @@ Preserved unchanged:
 - no harmful-status rider
 
 The current story structure now places Riftmaw together with the Convoy War-Sorcerer against **Cyanis + Ilyra** under the three-round second-flare protection. The old solo-Riftmaw validation is therefore historical only. Chapter-0 difficulty validation must be rerun for the combined P06 package. This reopens encounter validation only; it does **not** reopen the completed Power audit.
+
+## P06 behavior lock
+- Riftmaw Bite / Ruin Maw / Rift Pulse use the normal action-selection fallback when legal.
+- Rift Pulse retains its 2-round repetition lock.
+- Maw Guard is legal only while its own Defense increase is not already active and retains its 2-round repetition lock.
+- Maw Guard never stacks with itself.
+- Single-target actions select equally between conscious Cyanis and Ilyra.
+- Riftmaw has no hidden preference for the lower-HP target, Ilyra, Cyanis, or the character most recently healed.
+- Riftmaw does not gain a combo/assist attack from the Convoy War-Sorcerer.
