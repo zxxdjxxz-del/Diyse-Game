@@ -13,7 +13,7 @@ The raw bodies below are newly authored active-balance values except where expli
 | Memory Scribe | 6 | 230 | 25 | 44 | 24 | 30 | 26 | 0 | 10 | 135 / Recorded Echo 65%, clamp80–180 |
 | Vault Sentinel | 7 | 265 | 43 | 32 | 31 | 31 | 22 | 0 | 10 | 150 / 115 AoE |
 | Drowned Archive Maw | 9 | 430 | 48 | 38 | 34 | 32 | 24 | 0 | 5 | 180 / 140 Ice AoE / 165 |
-| Bastion Shield Guard | 7 | 300 | 44 | 15 | 38 | 27 | 18 | 0 | 5 | 140 / 155 |
+| Ruin Shieldbearer — Ch2 | 7 | 300 | 44 | 15 | 38 | 27 | 18 | 0 | 5 | 140 / 155 Ruin |
 | Bastion Crossbow Guard | 7 | 210 | 46 | 12 | 24 | 22 | 27 | 5 | 5 | 150 / 175 |
 | Transfer Adept | 8 | 235 | 28 | 50 | 25 | 34 | 29 | 0 | 10 | 160 Fire / 120 AoE |
 | Black Host Raider — Ch2 | 6 | 220 | 40 | 14 | 24 | 20 | 25 | 0 | 5 | 120 / 145 |
