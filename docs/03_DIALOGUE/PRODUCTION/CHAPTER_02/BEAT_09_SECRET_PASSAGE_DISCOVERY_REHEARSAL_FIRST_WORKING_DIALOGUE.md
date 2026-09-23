@@ -55,7 +55,7 @@ Torren keeps working instead of answering immediately.
 
 A beat.
 
-**TORREN:** Give me a minute before anybody gets helpful.
+**TORREN:** Give me a damn minute before anybody gets helpful.
 
 Cyanis takes one step back.
 
@@ -103,7 +103,7 @@ Torren gives him a look.
 
 **TORREN:** That's not what I said.
 
-**CYANIS:** Close enough.
+**CYANIS:** Close enough for this shit.
 
 Ilyra lifts a hand.
 
@@ -141,7 +141,7 @@ Cyanis nods.
 
 Ilyra is already focused on the sound beyond.
 
-**ILYRA:** Whoever's there heard that door.
+**ILYRA:** Whoever's there heard that damn door.
 
 Maevra looks to Cyanis, then Torren.
 
