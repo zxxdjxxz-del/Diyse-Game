@@ -36,7 +36,7 @@ Nimera crouches, looks, then looks at the marker.
 
 **TORREN:** Outdated.
 
-**NIMERA:** That's the respectable word for lying with fucking paperwork.
+**NIMERA:** That's the respectable word for lying with damn paperwork.
 
 **ILYRA:** You two are going to be unbearable together.
 
@@ -50,7 +50,7 @@ Cyanis checks the alternate side passage.
 
 Torren tests it.
 
-**TORREN:** Better. Less likely to drop us through the fucking floor.
+**TORREN:** Better. Less likely to drop us through the damn floor.
 
 **NIMERA:** Irritatingly, that's a measurement I can use.
 
@@ -72,7 +72,7 @@ Nimera opens a warped catalogue drawer and finds several records copied across d
 
 **TORREN:** Normal?
 
-**NIMERA:** Fucking tragically. One person writes maybe, next person writes probably, third bastard writes obviously, and suddenly everybody has inherited certainty from a corpse.
+**NIMERA:** Tragically. One person writes maybe, next person writes probably, third bastard writes obviously, and suddenly everybody has inherited certainty from a corpse.
 
 **CYANIS:** You really love archives.
 
@@ -106,7 +106,7 @@ Beyond it, older shelving and record frames continue.
 
 Nimera checks the final numbered ledger.
 
-**NIMERA:** Catalogue fucking stops here.
+**NIMERA:** Catalogue stops here. Shit.
 
 **TORREN:** Building doesn't.
 
