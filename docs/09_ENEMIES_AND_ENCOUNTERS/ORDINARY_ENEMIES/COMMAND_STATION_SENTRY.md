@@ -1,7 +1,7 @@
 # Command-Station Sentry
 
-**Chapter-3 authority:** Old City command route  
-**Status:** **POWER COMPLETE / CH3 RAW BODY AUTHORED**
+**Chapter-3 authority:** Cresthaven Ancient tower base  
+**Status:** **CHAPTER-3 IDENTITY / PLACEMENT / ACTION GRAMMAR LOCKED — NUMERIC REVALIDATION REQUIRED**
 
 ## Chapter-3 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -47,3 +47,35 @@ Chapter-10 actions:
 - Reposition Protocol — **Power N/A**, Speed +10% through end following round, no extra action
 
 True construct: **Bleed Immune**
+
+
+## Chapter-3 placement lock — 2026-09-23
+Command-Station Sentry is **not** an Old City Archives ordinary enemy.
+
+Current mandatory placement:
+> **Cresthaven Ancient tower base**
+
+Intended sub-areas:
+- Tower Foundation — limited eligibility;
+- Command Interior — primary eligibility;
+- Warden approach — may appear before the final safe/boss buffer.
+
+Identity:
+> surviving command-site security construct / mobile station defender
+
+This placement supports the distinction:
+- Old City Archives = archival / preservation / enforcement machinery;
+- Cresthaven tower base = command / authority infrastructure.
+
+## Chapter-3 Stun introduction
+**Station Pulse** remains:
+- Magical / Lightning;
+- 155 provisional Power;
+- **15% Stun**;
+- 2-round repetition lock.
+
+Command-Station Sentry is the current preferred ordinary-enemy source for introducing **Stun in Chapter 3**.
+
+Do not add Stun to Judgment Frame or Erasure Wisp merely to spread the status around.
+
+The existing Chapter-3 raw line and Powers remain provisional pending four-person Cresthaven encounter validation.
