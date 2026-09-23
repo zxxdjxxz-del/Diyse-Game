@@ -26,7 +26,7 @@ Nimera opens an old keeper ledger.
 
 **TORREN:** Method?
 
-**NIMERA:** Referenced somewhere else, because apparently dead archivists enjoyed leaving future scholars damned treasure hunts.
+**NIMERA:** Referenced somewhere else, because apparently dead archivists were pricks with a taste for treasure hunts.
 
 **CYANIS:** Does that mean Lysara doesn't have to consciously put magic into every document?
 
