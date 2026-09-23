@@ -92,7 +92,7 @@ Nimera stops.
 
 **ILYRA:** You sound disappointed.
 
-**NIMERA:** I'm deciding whether this is fascinating or a pain in the ass.
+**NIMERA:** I'm deciding whether this is fascinating or an intellectual hemorrhoid.
 
 The mechanism begins to wake.
 
