@@ -176,9 +176,49 @@ conversation_model:
     - vulgar_profane_metaphor_then_accuracy_driven_self_correction
   vulnerability: unusually_simple_when_genuinely_exposed
   profanity: high_frequent_casual_and_precise
-  profanity_texture: full_range_vulgar_profane_bodily_and_indecent_language_with_fuck_frequent_but_never_the_only_crutch_until_true_fury_may_remove_it
+  profanity_texture: full_range_vulgar_profane_bodily_indecent_insulting_and_socially_inappropriate_language_with_no_single_default_crutch_until_true_fury_may_remove_it
   profanity_long_form_calibration: roughly_20_to_35_percent_of_spoken_lines_across_large_corpus_not_per_scene
+  profanity_vocabulary:
+    common:
+      - fuck_fucking_fucked
+      - shit_shitty_shitshow_horseshit
+      - bullshit
+      - damn
+      - hell
+      - ass_asshole_pain_in_the_ass
+      - bastard
+      - piss_pissed
+    available_when_natural:
+      - bitch
+      - prick
+      - dick_dickhead
+      - jackass_dumbass
+      - clusterfuck
+      - half_assed
+      - balls
+      - screw_this_style_bluntness
+    vulgar_comparison_families:
+      - crawling_up_its_own_ass
+      - fucking_itself_into_a_corner
+      - jerking_itself_off_over_its_own_theory
+      - circle_jerk_or_dick_measuring_comparison_when_socially_and_world_tonally_plausible
+      - bodily_function_comparisons
+      - indecent_relationship_or_sexual_metaphor
+      - crude_animal_or_food_comparison
+      - profane_compound_insult_invented_in_the_moment
+  profanity_selection_rule:
+    - choose_the_word_or_image_that_best_matches_the_thought_not_the_most_familiar_swear
+    - vary_noun_verb_adjective_and_metaphor_use
+    - insults_can_be_affectionate_hostile_or_technical_but_relationship_context_controls_which
+    - stronger_terms_should_land_because_the_image_is_funny_precise_or_emotionally_true_not_for_escalation_alone
+    - do_not_repeat_the_same_swear_as_an_intensifier_across_adjacent_turns_when_another_construction_would_sound_more_like_her
   metaphor_default: usually_profane_vulgar_bodily_or_indecent_then_correct_if_technically_wrong
+  vulgar_metaphor_behavior:
+    - starts_with_the_dirty_image_before_the_clean_analogy
+    - may_notice_the_metaphor_is_biologically_logically_or_historically_wrong_mid_sentence
+    - corrects_the_technical_error_without_apologizing_for_the_vulgarity
+    - may_keep_the_original_obscene_image_if_it_still_explains_the_shape_of_the_problem
+    - can_build_new_compounds_spontaneously_instead_of_reusing_stock_swears
   guardrail: profanity_is_a_major_natural_speech_trait_not_a_mechanical_interval_quota
 
 decision_model:
