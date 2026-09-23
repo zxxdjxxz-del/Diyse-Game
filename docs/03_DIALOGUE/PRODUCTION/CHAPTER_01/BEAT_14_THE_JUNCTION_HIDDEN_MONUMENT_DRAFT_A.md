@@ -144,15 +144,15 @@ Torren looks at her.
 
 **TORREN:** I said it was useless for Dunmere.
 
-**ILYRA:** Important distinction.
+**ILYRA:** Of course that's your defense.
 
-**TORREN:** Extremely.
+**TORREN:** Damn right.
 
 A small beat.
 
 **CYANIS:** Worth going back?
 
-**TORREN:** Worth checking while we're still close. Not worth pretending we know what's there.
+**TORREN:** Worth checking while we're still close. Doesn't mean the damn mark survived.
 
 Nobody gives the side access a new name or predicts what lies beyond it.
 
@@ -210,13 +210,13 @@ Cyanis looks around the quiet Junction.
 
 Ilyra exhales.
 
-**ILYRA:** Good. I was prepared to become difficult.
+**ILYRA:** Good. I was prepared to be a pain in the ass.
 
 Maevra looks at her.
 
 **MAEVRA:** Prepared?
 
-**ILYRA:** More difficult.
+**ILYRA:** More of one.
 
 **MAEVRA:** There she is.
 
@@ -224,7 +224,7 @@ Torren looks toward the campable ground nearby.
 
 **TORREN:** I'll find us a decent spot.
 
-**CYANIS:** One without ancient defenses?
+**CYANIS:** One without any more ancient bullshit?
 
 Torren looks back at him.
 
