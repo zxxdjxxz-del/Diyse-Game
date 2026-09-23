@@ -72,7 +72,7 @@ Lysara folds her hands.
 
 No one answers.
 
-**LYSARA:** Good. Then both remain possibilities, not facts.
+**LYSARA:** Good. Then I don't want either written down as the answer.
 
 That closes the speculation.
 
