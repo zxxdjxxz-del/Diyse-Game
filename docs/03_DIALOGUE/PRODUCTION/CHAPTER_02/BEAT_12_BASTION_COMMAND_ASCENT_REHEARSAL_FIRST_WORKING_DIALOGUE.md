@@ -95,7 +95,7 @@ Boots move toward defensible positions.
 
 Cyanis looks ahead.
 
-**CYANIS:** There goes quiet.
+**CYANIS:** There goes our damn quiet.
 
 Torren draws.
 
@@ -131,19 +131,13 @@ After another section, the trio pauses briefly behind cover while Black Host mov
 
 Torren listens.
 
-**TORREN:** They're pulling inward.
-
-Cyanis waits for the rest.
-
-Torren gives it.
-
-**TORREN:** Command stair. Gate controls. Anything they can't afford to lose.
+**TORREN:** They're pulling inward. Command stair, gate controls—anything they can't afford to lose.
 
 **CYANIS:** Same direction for us.
 
 **TORREN:** Mostly.
 
-**CYANIS:** I hate that word.
+**CYANIS:** I hate that damn word.
 
 **TORREN:** You've survived it so far.
 
@@ -155,15 +149,7 @@ She looks toward the sound.
 
 **ILYRA:** They still think the problem started down here.
 
-Torren nods.
-
-**TORREN:** Good.
-
-Cyanis looks back the way they came.
-
-**CYANIS:** Keep them looking up.
-
-**TORREN:** That's the idea.
+**TORREN:** Good. Let them.
 
 Torren points toward a side connection.
 
@@ -213,29 +199,17 @@ Torren checks the layout once.
 
 **TORREN:** Command level.
 
-Cyanis catches his breath.
-
 **CYANIS:** Finally.
 
 Ilyra looks toward the next secured doorway.
 
-**ILYRA:** He knows we're here by now.
+**ILYRA:** He knows someone's here by now.
 
-**TORREN:** Knows someone's here.
+**TORREN:** Good enough.
 
-Cyanis looks at the door.
+Cyanis gives him a look.
 
-**CYANIS:** Good enough.
-
-Torren gives him a sideways glance.
-
-**TORREN:** Careful. That's mine.
-
-Cyanis almost smiles.
-
-**CYANIS:** Borrowing it.
-
-Ilyra steps toward the door.
+**CYANIS:** That's mine now.
 
 **ILYRA:** Argue ownership later.
 
