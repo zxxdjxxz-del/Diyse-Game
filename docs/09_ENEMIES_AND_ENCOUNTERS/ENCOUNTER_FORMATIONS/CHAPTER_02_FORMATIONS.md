@@ -52,38 +52,29 @@ Waterworks wildlife may continue naturally into compatible Archive sectors:
 Archive-specific identities begin entering:
 - Archive Current
 - Memory Scribe
-- Hollow Watch Sentry
 
 | Tier | Formation | Composition |
 |---|---|---|
 | Light | **Flooded Record Hall** | 1 Bogshell + 1 Cistern Leech + 1 Archive Current |
 | Light | **Broken Archive Airspace** | 1 Needlewing + 1 Archive Current + 1 Memory Scribe |
-| Standard | **Archive Watch** | 1 Archive Current + 1 Memory Scribe + 1 Hollow Watch Sentry |
-| Standard | **Wet Security Line** | 1 Bogshell + 1 Memory Scribe + 1 Hollow Watch Sentry |
-| Heavy | **Current Gallery** | 2 Archive Currents + 1 Memory Scribe + 1 Hollow Watch Sentry |
+| Standard | **Archive Watch** | 2 Archive Currents + 1 Memory Scribe |
+| Standard | **Wet Record Hall** | 1 Bogshell + 1 Archive Current + 1 Memory Scribe |
+| Heavy | **Current Gallery** | 2 Archive Currents + 2 Memory Scribes |
 
 ## Deeper Archive
 As the player moves deeper:
 - wildlife frequency should fall;
-- Archive constructs should become the dominant encounter identity;
+- ancient machinery becomes somewhat more common, but Chapter 2 should still not read as a construct-heavy dungeon;
 - no Black Host enemies appear.
 
 Eligible repeatable formations:
 - Archive Watch
+- Wet Record Hall
 - Current Gallery
-- deeper variants built only from Archive Current, Memory Scribe, and Hollow Watch Sentry.
+- deeper variants built only from Archive Current and Memory Scribe.
 
 Structural cap:
 > **4 active enemies**
-
-### Strong normal-pool entry — Archive Duplicant
-Archive Duplicant remains a strong normal-pool identity rather than optional side content.
-
-Current structural rule:
-- appears only in the deeper Sunken Archive;
-- may be a rare or one-time normal-pool entry if repetition would weaken its fiction;
-- exact supporting bodies, if any, remain OPEN pending difficulty validation;
-- do not treat it as a separate optional Elite branch.
 
 Immediate Archive-Leviathan approach buffer:
 > **SAFE**
@@ -156,6 +147,8 @@ Scaldback and its Hunt-branch encounter design are separate from the mandatory O
 Do not restore:
 - Redwater Initiate;
 - Vault Sentinel;
+- Hollow Watch Sentry in Chapter 2;
+- Archive Duplicant in Chapter 2;
 - Drowned Archive Maw;
 - Bastion Shield Guard;
 - Bastion Crossbow Guard;
@@ -178,7 +171,6 @@ Do not restore:
 ## Sunken Archive
 - Archive Current provides fast magical/Lightning pressure.
 - Memory Scribe provides the chapter's recording/copy mechanic.
-- Hollow Watch Sentry gives ancient-security continuity from Chapter 1.
 - carried wildlife keeps flooded transition sectors ecological rather than sterile.
 - deeper progression shifts increasingly toward constructs.
 
@@ -207,3 +199,11 @@ Final:
 - Rhazek support count;
 
 remain OPEN until Chapter-2 mandatory-vs-completionist validation is rerun against the actual three-person party.
+
+
+## Construct-density boundary — 2026-09-23
+The Sunken Archive uses exactly two active ordinary construct identities:
+- Archive Current
+- Memory Scribe
+
+Do not add Hollow Watch Sentry or Archive Duplicant back into Chapter 2 without explicit revision. Chapter 3 owns the stronger construct-heavy escalation.
