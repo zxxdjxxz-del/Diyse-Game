@@ -2,7 +2,7 @@
 
 **Chapter:** 0 — Broken Convoy  
 **Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — P01–P07 + C01; ATOMIC DIALOGUE + CURRENT PERSON BRAINS ALIGNED**  
-**Combined read-through:** `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **STALE; do not use as exact wording authority until resynchronized**  
+**Combined read-through:** `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — derived read-through; standalone atomics remain exact wording authority  
 **Current atomic spoken-line counts:** **309 mandatory + 79 C01 = 388 if C01 is viewed.**  
 **Rhythm:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
 **Mature-adult speech:** `../../AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`  
@@ -30,10 +30,10 @@
 ## Current runtime-brain alignment
 
 Chapter 0 uses the current Person Brains rather than older role-biased versions:
-- **Cyanis** — Crest Knight / **Crest Magus**; `Leadership is not a dialogue assignment.`
+- **Cyanis** — **Crest Knight only in Chapter 0**; Crest Magus is a later subclass and is not available here; `Leadership is not a dialogue assignment.`
 - **Ilyra** — Blue Warden / Vowblade; `Grace is not a dialogue assignment.`
 
-Cyanis's retired `Crest Arcanist` label is not live anywhere in the current runtime brain or current Chapter-0 authority.
+Cyanis's retired `Crest Arcanist` label is not live anywhere in the current runtime brain or current Chapter-0 authority. **Crest Magus is also not active Chapter-0 knowledge or capability.**
 
 ## Cyanis character audit — CLOSED
 
@@ -48,7 +48,7 @@ Chapter-0 result:
 - he owns his own bodily/Card experience rather than surrendering self-reporting to Ilyra;
 - he can joke, be embarrassed, minimize badly, improve his answer, and exist socially outside command.
 
-No additional atomic rewrite was required in the final Cyanis-only audit because the current P01–P07/C01 wording already passed.
+The 2026-09-23 naturalism pass updated Cyanis's adult register and uncertainty phrasing without changing story structure or spoken-line count.
 
 ## Ilyra role-balance — CLOSED
 
@@ -67,11 +67,30 @@ Current result:
 
 ## Mature-adult speech — CLOSED
 
-Chapter 0 passes the current adult-register standard:
-- Cyanis may swear naturally with stress, frustration, trust, or humor;
-- Ilyra may be dry, blunt, profane, irritated, and funny without physician/Grace coding sanitizing her;
-- command/medical clarity can be clean when clarity matters without making either character prudish;
-- no profanity quota exists.
+Chapter 0 passes the current adult-register standard while staying deliberately near the lower end of the cast's long-form bands because most of the chapter is first-contact crisis/command speech.
+
+Current Chapter-0 audit:
+- **Cyanis — 13 / 181 = 7.2%** — target **7–14%**;
+- **Ilyra — 9 / 131 = 6.9%** — target **5–12%**.
+
+Vocabulary remains differentiated:
+- Cyanis favors `damn / hell / shit`, with only one `fuck` in the chapter;
+- Ilyra uses `bullshit / bastard / damn / piss / ass` rather than mirroring Cyanis.
+
+No profanity is inserted by quota; command/medical clarity remains clean where clarity matters.
+
+## Natural uncertainty / canon-checker speech — CLOSED
+
+The 2026-09-23 pass removed the remaining targeted canon-checker constructions from spoken dialogue.
+
+Current P01–P07 + C01 audit:
+- **zero** targeted `that's all we know / important distinction / what do we know / not proven / that's the fact` constructions;
+- plain human uncertainty such as `Don't know`, `No idea`, or a character admitting uncertainty remains where natural;
+- P05 now expresses Ilyra's discomfort with uncertainty as irritation rather than a research-method speech;
+- P06 keeps her medical caution concrete rather than reciting knowledge-state boundaries;
+- P07 rejects a third Card test in ordinary language rather than summarizing the evidence ledger.
+
+Reveal firewalls remain production constraints, not required spoken dialogue.
 
 ## Natural-turn / spoken-dialogue status
 
@@ -104,8 +123,8 @@ Material prior corrections remain in force, including:
 - natural-turn audit — **COMPLETE**;
 - spoken-dialogue/narration audit — **COMPLETE**;
 - current Cyanis/Ilyra runtime brains — **ALIGNED**;
-- combined manuscript — **STALE, NEXT PHASE ONLY**;
-- old Chapters 0–3 reader/novelization — **STALE, NEXT PHASE ONLY**.
+- combined manuscript — **DERIVED; must match current atomics after sync**;
+- Chapters 0–3 reader/runtime outputs — **DERIVED; verify after source changes**.
 
 ## Conflict order
 
