@@ -84,7 +84,7 @@ Cyanis looks at it as if the arm has betrayed him by being visible.
 
 **CYANIS:** Mostly pain.
 
-**ILYRA:** Mostly is doing suspicious work there.
+**ILYRA:** Mostly is doing some bullshit work there.
 
 He flexes the hand once.
 
@@ -168,7 +168,7 @@ He does, briefly.
 
 Ilyra checks what she can in seconds rather than pretending she has a diagnosis.
 
-**ILYRA:** Yes—for now. You're responsive, your pupils look even, and you're not falling over. That is not me saying you're fine. If any of that changes, I tell you to stop and you stop. You don't negotiate because the line is busy.
+**ILYRA:** Yes—for now. You're responsive, your pupils look even, and you're not falling over. That's enough to keep moving. If any of that changes, I tell you to stop and you stop. You don't negotiate because the line is busy.
 
 **CYANIS:** Works for me.
 
@@ -234,7 +234,7 @@ He waits because the answer is unexpectedly simple.
 
 **CYANIS:** You're staying here?
 
-**ILYRA:** No. These two are stable enough for the next few minutes and I've handed them to people who know what not to do. That line isn't stable. If it folds, every patient I just protected is exposed again, so standing here pretending treatment ends at the blanket would be stupid.
+**ILYRA:** No. These two are stable enough for the next few minutes and I've handed them to people who know what not to do. That line isn't stable. If it folds, every patient I just protected is exposed again, so standing here pretending treatment ends at the blanket would be bullshit.
 
 Cyanis nods toward the weapon she already carries.
 
@@ -244,7 +244,7 @@ Cyanis nods toward the weapon she already carries.
 
 A beat.
 
-**CYANIS:** Right. Sorry. Long day.
+**CYANIS:** Right. Sorry. Hell of a day.
 
 **ILYRA:** You drank nothing, you're bleeding through one sleeve, and something in a recovery case just made your pulse jump. I'll allow one stupid question.
 
