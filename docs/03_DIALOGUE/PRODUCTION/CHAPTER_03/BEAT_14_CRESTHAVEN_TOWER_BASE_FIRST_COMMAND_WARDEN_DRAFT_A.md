@@ -250,7 +250,7 @@ Then stops.
 
 **TORREN:** Timing's ugly as hell.
 
-**NIMERA:** Very. The Card changed after the Warden's final message and shutdown. That's the fact. If we marry timing to causation now, I will annul the fucking marriage myself.
+**NIMERA:** Very. It waited until the bastard was dead. I don't like that timing. I'm still not marrying the two.
 
 Cyanis looks at the inert construct.
 
