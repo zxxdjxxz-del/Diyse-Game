@@ -42,6 +42,16 @@ Do not infer or restore surnames for the eight current master characters from re
 
 The repository master controls exact face, body proportions, hair, clothing/armor construction, equipment placement, palette, silhouette, and incidental visual minutiae. The lock document records intent, production constraints, and prohibited regressions without overriding the image.
 
+## Current enemy authority
+
+Enemy visual canon:
+> `ENEMIES/README.md`
+
+Current locked Chapter-0 enemy designs:
+> `ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
+
+Enemy stats/actions/placement remain owned by `../09_ENEMIES_AND_ENCOUNTERS/`; the art-domain enemy files own appearance/design.
+
 ## Character runtime direction
 
 The active B00 field/battle direction uses **rigged 3D character models** validated against the exact current image masters.
