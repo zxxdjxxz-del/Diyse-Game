@@ -1,0 +1,67 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT08_BURIED_COLLECTIONS_RECENT_READER",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 8 — Buried Collections / Recent Reader",
+  "production_ready": true,
+  "participants": ["cyanis", "ilyra", "torren", "nimera"],
+  "authoring_mode": "rehearsal_first_agent_driven",
+  "director_rule": "Use the current Agent Brains to let the party discover a recent archival research trail through physical evidence. Nimera owns provenance/classification expertise without becoming an exposition machine; Torren owns field/use evidence only when actually visible. Do not make the recent reader conveniently lead to the later Westways Wayfinder recordbook.",
+  "scene_context": {
+    "location": "Old City Archives — Buried Collections",
+    "situation": "The permanent four have reached older mixed collections. Their current questions concern Cyanis's Card and the impossible royal-seal response. While following relevant citations they notice selective recent research across overlapping subjects.",
+    "party_state": "cyanis_ilyra_torren_nimera permanent",
+    "card_state": "unstable green-and-gold; unclassified",
+    "presentation": "player-led physical research/archive exploration with several authored stops"
+  },
+  "hard_outcomes": [
+    "Historical material provides limited precedent for dormant Cards later becoming responsive without classifying Cyanis's Card.",
+    "Seal material distinguishes a magical working seal from the visible impression/crest it leaves.",
+    "Related authority-seal practice appears older than Yahtrea without proving direct lineage.",
+    "Physical archival evidence establishes a relatively recent research trail across overlapping Card, seal, Westways and Face subjects.",
+    "The recent reader's identity, number, motive and conclusions remain unknown.",
+    "The trail points to the Hall of Seals.",
+    "The later Westways recordbook/Wayfinder-copy discovery is not part of this recent-reader trail."
+  ],
+  "knowledge_and_reveal_boundaries": [
+    "No Prime classification.",
+    "No Might identification.",
+    "No Last Sentinel wording.",
+    "No deep-Ruby state.",
+    "No successful royal-seal duplication method.",
+    "No recent-reader identity.",
+    "No Calder reveal.",
+    "No Cresthaven or northern tower.",
+    "No Westways Wayfinder-copy map.",
+    "No Ivorybridge.",
+    "No Crest Magus access for Cyanis."
+  ],
+  "true_voice_requirements": {
+    "nimera": "Current live brain; evidence-first self-correction, argumentative delight, vulgar/profane metaphor when natural, high/frequent profanity with 15–35% long-form anti-sanitization calibration across a large corpus, never a mechanical quota.",
+    "torren": "Current live brain; concrete use/route evidence, casual profanity available, no permanent terseness, first-contact relationship with Nimera only.",
+    "ilyra": "Current live brain; curiosity, skepticism, dry humor and profanity are available; no automatic care/consent/safety assignment.",
+    "cyanis": "Crest Knight only in Chapter 3; practical and socially capable, not default exposition prompter."
+  },
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml"
+  ],
+  "workflow_locks": [
+    "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md",
+    "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+    "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md"
+  ],
+  "forbidden_presentation": [
+    "recent_reader_footprint_melodrama",
+    "westways_recordbook_map_found_here",
+    "reader_identity_reveal",
+    "sanitized_nimera",
+    "nimera_as_omniscient_ancient_historian",
+    "torren_nimera_familial_shorthand",
+    "ilyra_as_automatic_scene_moral",
+    "crest_magus_chapter_3_expertise",
+    "characters_reciting_methodological_rules_for_the_audience"
+  ]
+}
