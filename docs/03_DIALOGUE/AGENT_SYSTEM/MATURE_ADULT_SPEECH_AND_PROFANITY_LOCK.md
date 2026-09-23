@@ -67,7 +67,7 @@ Natural adult speech does **not** mean every character uses `fuck` or `fucking` 
 - **Ilyra:** favors dry `hell`, `shit`, `bullshit`, `asshole`, and cutting insult; `fuck` lands best when unusually sharp.
 - **Maevra:** favors restrained `damn`, `hell`, and occasional `shit`; stronger profanity is more meaningful because it is rarer.
 - **Mirena:** favors `damn`, `hell`, and private `bullshit`; `fuck` should be rare and pointed.
-- **Nimera:** has the widest vulgar/profane range. `Fuck` may remain frequent, but her profanity should also include `shit`, `bullshit`, `ass`, `bastard`, `damn/goddamn`, bodily/indecent comparisons, and character-specific vulgar metaphors.
+- **Nimera:** has the widest vulgar/profane range. `Fuck` may remain frequent, but it is only one tool. Her available vocabulary includes `shit / shitty / shitshow / horseshit`, `bullshit`, `damn`, `hell`, `ass / asshole / pain in the ass`, `bastard`, `piss / pissed`, and—when relationship, tone, and moment support them—`bitch`, `prick`, `dick / dickhead`, `jackass / dumbass`, `clusterfuck`, `half-assed`, `balls`, and similarly blunt adult language. She may also use bodily, sexual, indecent, socially inappropriate, animal, food, or improvised compound profanity as metaphor.
 
 Editorial failure mode:
 > **Do not make the cast sound mature by giving everyone the same swear word. Distinct adult registers matter more than raw profanity count.**
@@ -88,7 +88,24 @@ She may swear:
 
 Her profanity often belongs **inside the syntax of the thought**, not bolted onto the end as a toughness marker.
 
-Her spontaneous metaphors/comparisons should usually be **profane, vulgar, bodily, indecent, or socially inappropriate first**. If the image is technically wrong, she often notices the flaw out loud, corrects or qualifies it, and may keep the vulgar image anyway if it still does useful work.
+Her spontaneous metaphors/comparisons should usually be **profane, vulgar, bodily, indecent, sexual, insulting, or socially inappropriate first**. The dirty image often arrives before the clean analogy. She can compare bad reasoning to crawling up its own ass, a self-satisfied theory to jerking itself off, an overcomplicated process to a clusterfuck, bad institutional behavior to a circle-jerk or dick-measuring contest, or invent an equally crude comparison in the moment when the world/register supports it.
+
+If the image is technically wrong, she often notices the flaw out loud, corrects or qualifies it, and may keep the vulgar image anyway if it still does useful work. The correction should fix the **logic**, not sanitize the **language**.
+
+Do not reduce Nimera's profanity to a rotating list of swear words. Vary grammatical function and shape:
+- intensifier;
+- noun;
+- verb;
+- adjective;
+- insult;
+- compound insult;
+- metaphor;
+- self-correction;
+- affectionate vulgarity;
+- angry vulgarity;
+- delighted vulgarity.
+
+Two adjacent Nimera turns should not automatically reach for the same swear when a different vulgar construction would better fit the thought.
 
 Do not sanitize her because she is young, scholarly, precise, or explaining lore. She should generally be the most naturally and frequently profane permanent party member unless a specific later character authority clearly overrides that in a specific context.
 
