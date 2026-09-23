@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT / "docs/04_WORLD_AND_LORE/PLAYER_FACING_WORLD_INTRO.md"
 OUTPUT = ROOT / "game/content/presentation/player_facing_world_intro.json"
 MARKER = "## The World of Diyse"
-EXPECTED_FINAL_LINE = "If I catch you using it as one, we're going to have a conversation."
+EXPECTED_FINAL_LINE = "Mostly not metaphorically."
 
 
 def plain_text(line: str) -> str:
@@ -47,7 +47,7 @@ def extract_intro() -> dict:
         "title": "The World of Diyse",
         "speaker_id": "nimera",
         "speaker_name": "Nimera Pellan",
-        "present_year": "720 YF",
+        "present_year": "713 YF",
         "awakening_period": "around 200 YF",
         "paragraphs": paragraphs,
     }
