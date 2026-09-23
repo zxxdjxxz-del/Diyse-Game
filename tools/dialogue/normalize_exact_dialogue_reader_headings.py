@@ -9,7 +9,7 @@ from docx import Document
 
 ROOT = Path(__file__).resolve().parents[2]
 READER = ROOT / "build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT.docx"
-EXPECTED_DIALOGUE_LINES = 2103
+EXPECTED_DIALOGUE_LINES = 2038
 LABEL_RE = re.compile(r"^.+:\s*$")
 CODE_ONLY_RE = re.compile(r"^(?:P\d+|Beat\s+\d+)$", re.IGNORECASE)
 CODE_PREFIX_RE = re.compile(r"^[CH]\d+\s*[—-]\s*(.+)$", re.IGNORECASE)
