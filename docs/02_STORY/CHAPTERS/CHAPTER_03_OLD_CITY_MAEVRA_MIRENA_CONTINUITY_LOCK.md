@@ -1,111 +1,80 @@
 # Chapter 3 — Old City Maevra / Mirena Continuity Lock
 
-**Status:** CURRENT EXPLICIT USER CORRECTION — ACTIVE  
-**Scope:** Chapter 3 Beats 5–15 where relevant  
-**Supersedes:** any older Chapter-3 wording that places Maevra in the Old City dungeon/exploration sequence after the royal-seal investigation.
+**Status:** ACTIVE — revised September 23, 2026  
+**Scope:** Chapter 3 Beats 5–15 where relevant.
 
-## Core correction
-After Beat 4 — **The Seal That Wasn't Used**, the investigation splits into two active tracks.
+## Core split
 
 ### Caelora investigation track
-**Maevra stays in Caelora with Crown Princess Mirena Ceryth.**
+**Maevra stays in Caelora with Crown Princess Mirena** throughout the mandatory Old City Archives dungeon.
 
-Their work remains tied to the royal-seal / Crown-record side of the investigation:
-- custody and access review around Queen Lysara's personal seal;
-- legitimate-use history and comparison records;
-- document provenance / dispatch / administrative tracing;
-- identifying people, offices, and records that may matter to the unauthorized-seal problem;
-- coordinating whatever lawful Crown follow-up is required while the field group is below the city.
-
-Maevra therefore has a real active job during the Old City sequence rather than accompanying another dungeon as a non-playable observer.
-
-Maevra remains fully **non-playable**.
+She works the Crown-side seal / record investigation and remains fully non-playable.
 
 ### Old City field track
-The field group entering the Old City from Beat 5 is:
-- **Cyanis**;
-- **Ilyra**;
-- **Torren**.
+- Beat 5: Cyanis + Ilyra + Torren.
+- Beat 6: Nimera is found working in the Redacted Stacks and joins permanently.
+- Beats 6–12: Cyanis + Ilyra + Torren + Nimera.
 
-They carry only the evidence / copies / technical notes that Mirena and the Crown authorize them to show Nimera.
+Maevra does not accompany the dungeon as a noncombat observer.
 
-Maevra is **not** required to physically carry the authorization or evidence into the archives; Mirena's lawful access order and Crown archive procedure are sufficient.
+## Retired Old City continuity
 
-When Nimera later joins permanently, the field combat party naturally becomes:
-- **Cyanis + Ilyra + Torren + Nimera**.
+Do not write Maevra reacting in person to:
+- Nimera's recruitment;
+- Lower Archives exploration;
+- recent-reader evidence;
+- Hall-of-Seals findings;
+- Deep Archives;
+- Archive Scribe Engine;
+- Westways recordbook / Wayfinder-copy discovery;
+- Sealwright Chamber evidence.
 
-This is the first full four-person permanent combat party.
+The retired Ancient Barrier is gone.
 
-## Beat-specific effects
-### Beat 5 — Old City Access / Archive Descent
-Any older wording saying Maevra remains physically present with the group is superseded.
+The First Command Warden no longer occurs in the Old City and therefore is not part of this absence list; Maevra is physically present at Cresthaven when that mandatory location sequence occurs above/below the fort, though she remains noncombat.
 
-The trio enters lawfully under Mirena / Crown authorization and actively searches for Nimera.
+## Beat 13 — return to Mirena
 
-### Beats 6–12 — Old City / deeper command sequence
-Maevra is absent from the field sequence.
+Maevra rejoins the mandatory story physically when the field party returns from the Archives.
 
-Do not write:
-- Maevra dungeon banter;
-- Maevra reacting in person to Nimera's barrier, recruitment, buried-library research, Hall-of-Seals findings, First Command Warden, `PREVIOUS ERROR`, `LAST SENTINEL CONFIRMED`, the deep-Ruby Card stabilization, or the seal-copying chamber;
-- Maevra as an Old City guide or noncombat escort.
+She and Mirena may report Crown-side findings, but they do not solve:
+- who used/invoked the Queen's authority;
+- whether the real seal was physically accessed;
+- the recent reader;
+- the seal-copying practitioner;
+- Calder's hidden role.
 
-Any necessary authority / caution / evidence-boundary function should be carried by the characters actually present, especially Ilyra, Torren, Cyanis, and later Nimera.
+The field party reports the Old City discoveries.
 
-### Beat 12 map / route correction
-Beat 12 does **not** contain a new northern-route display, new map, or new route relief.
+The old Chapter-2 mural/Crest-marked Cresthaven clue is retired.
 
-The Sealwright Chamber establishes only the recent seal-copying practice sequence:
-> Ancient Diysean seals → older Yahtrean seals → royal-document seals → repeated attempts at the Crest of Yahtrea.
+Mirena instead identifies the **huge northern tower's modern location as Cresthaven** from the approximately 500-year-old Yahtrean Westways recordbook's copied Wayfinder map.
 
-The northward / Cresthaven clue comes later from the **existing Chapter-2 copied mural/map evidence** already carried by the party.
+## Rest / Cresthaven transition
 
-### Beat 13 — Mirena's Concern / Cresthaven Lead
-Maevra may rejoin the mandatory story physically when the field party cuts directly upstairs to the private meeting with Mirena.
+There is no standalone overnight-rest beat.
 
-She and Mirena can bring results from the parallel Crown-side investigation, but they must not invent a solved culprit or seal mechanism.
+Mirena tells the party everyone should rest and that she and Maevra will meet them at Cresthaven afterward.
 
-The retired `Four Answers, Not One` concept is not current authority.
+The story cuts forward to the next morning at Cresthaven.
 
-During this beat:
-- the field party reports what it found in the Old City;
-- Mirena recognizes the dangerous combination of meaningful access + unusually high magical power;
-- Mirena asks the party to keep helping her investigate directly;
-- the party shows Mirena the **existing copied Ancient mural/map from Chapter 2**;
-- Mirena compares its geography with Crown knowledge and says she **thinks the Crest-marked northern location is Cresthaven**.
+## Beat 14 — Cresthaven / First Command Warden
 
-Maevra must not claim to have witnessed Old City discoveries she did not see.
+- Mirena and Maevra are present at normal Cresthaven.
+- the party discovers the surviving Ancient tower base beneath/within the fort.
+- the combat party entering the short Ancient dungeon is Cyanis + Ilyra + Torren + Nimera.
+- Maevra remains noncombat.
+- the First Command Warden occurs at Cresthaven.
+- PREVIOUS ERROR / LAST SENTINEL CONFIRMED and the subsequent deep-Ruby Card stabilization occur here, not in Caelora.
 
-### Beat 14 — Rest in Caelora / Morning Departure
-- Mirena tells Cyanis, Ilyra, Torren, and Nimera to rest for the night and leave for Cresthaven the next morning when ready;
-- Mirena says she will follow separately later the next day with Maevra and an organized support / work team;
-- the permanent four receive the rest / decompression scene;
-- the next morning the player chooses when to leave Caelora;
-- the road journey is skipped.
+## Beat 15 — headquarters / cleanup
 
-### Beat 15 — Cresthaven Headquarters / Cleanup Window
-- Mirena and Maevra are already at Cresthaven with the full practical work crew when the party arrives;
-- they participate in the initial headquarters handoff;
-- Mirena tells the party Cresthaven can serve as their headquarters while they help her investigate;
-- Mirena gives the newly accessible Old City Archive passage update that unlocks Regional Hunt #3;
-- after the handoff, **Maevra returns to Caelora with Mirena**;
-- normal Cresthaven resident / traveling party is Cyanis + Ilyra + Torren + Nimera.
-
-## Knowledge firewall
-Maevra and Mirena staying in Caelora does **not** let them solve offscreen:
-- who used / invoked the Queen's seal;
-- Calder's hidden transport role;
-- the exact unauthorized-seal mechanism;
-- whether any magical duplicate of the royal authority actually succeeded;
-- Prime / Might / bearer classification;
-- what `PREVIOUS ERROR` means;
-- the full meaning or recovery of Last Sentinel;
-- the Beat-12 seal-copying discovery before the field party reports it;
-- Cresthaven's identification before the existing Chapter-2 map / mural is compared in Beat 13;
-- why the exact Yahtrean Crest appears on Ancient material;
-- Cresthaven's full Ancient purpose.
-
-Parallel investigation adds believable work and continuity, not offscreen answers.
+- Mirena and Maevra participate in the headquarters handoff.
+- Mirena may give the Regional Hunt #3 Archive passage update.
+- the party chooses Ivorybridge as the next sensible northern investigation point; Ancient evidence does not identify Ivorybridge as a confirmed destination.
+- after the handoff, Mirena and Maevra normally return to Caelora.
+- normal Cresthaven resident/traveling party is Cyanis + Ilyra + Torren + Nimera.
 
 ## Active continuity statement
-> **From Beat 5 until the field party returns from the Old City, Maevra remains in Caelora with Mirena. The Old City field party is Cyanis + Ilyra + Torren, becoming Cyanis + Ilyra + Torren + Nimera after Nimera's permanent recruitment. Maevra may rejoin the later Caelora debrief and Cresthaven handoff, then returns to Caelora with Mirena for the cleanup period.**
+
+> **From Beat 5 until the field party returns from the Old City, Maevra remains in Caelora with Mirena. Nimera joins permanently in Beat 6. Mirena and Maevra meet the party at Cresthaven after rest, are present for the mandatory Cresthaven location sequence as noncombat story characters, and normally return to Caelora after the headquarters handoff.**
