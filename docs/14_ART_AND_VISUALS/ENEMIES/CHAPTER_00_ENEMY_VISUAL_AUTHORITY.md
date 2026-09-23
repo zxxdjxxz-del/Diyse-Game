@@ -126,11 +126,49 @@ Frontline Black Host infantry built for fast, aggressive pressure.
 
 No glow. No visible power channels.
 
+## Exact issued-armor construction
+This is the **baseline ordinary Black Host suit**.
+
+Torso:
+- closed charcoal cuirass;
+- one central sternum plate;
+- two to three shallow swept rib plates on each side;
+- ribs are embossed/overlapping plate forms, not open cage gaps;
+- lower torso resolves into a simple downward-pointing central chevron;
+- black padded material remains visible at the waist and joints.
+
+Shoulders:
+- two or three overlapping plates per shoulder;
+- outer/rear edge rises into one restrained hooked point;
+- no horns, giant blades, or ceremonial extensions.
+
+Arms:
+- practical forearm plate;
+- one modest rear-facing elbow flare;
+- articulated ordinary gauntlets.
+
+Lower body:
+- compact hip plates;
+- black trousers remain clearly visible;
+- angular knee cops;
+- layered shin armor;
+- heavy practical armored boots.
+
+Cloth:
+- narrow crimson front tabard;
+- small crimson underlayer glimpses at torso/upper arms;
+- no cape.
+
+This suit should look inexpensive enough to issue broadly while still being unmistakably Black Host.
+
 ## Head / face
-- usually helmeted;
-- helmet may be enclosed or partially enclosed;
-- narrow eye slit or shadowed face opening preferred;
-- if visible, the face remains limited and non-individualized.
+- fully enclosed issued helmet by default;
+- compact silhouette;
+- narrow non-glowing visor slit with a slight downward angle;
+- small central brow ridge;
+- modest rear/side helmet flare;
+- no crown spikes;
+- no exposed face by default.
 
 ## Weapon
 - one-handed short military saber / arming blade / heavy war-falchion family;
@@ -196,10 +234,41 @@ Ranged Black Host soldier providing controlled battlefield pressure.
 
 No glow. No visible power channels.
 
+## Exact ranged-armor derivation
+The Crossbowman is visibly built from the Raider equipment family with armor removed for mobility.
+
+Torso:
+- same central sternum / shallow rib grammar;
+- only one to two rib plates per side;
+- lighter lower-torso plate;
+- more black cloth visible through the abdomen/flanks.
+
+Shoulders:
+- smaller two-layer pauldrons;
+- only a faint rear hook;
+- must not become a dramatic archer silhouette.
+
+Arms:
+- firing-side forearm protection kept clean and close to the body;
+- off-hand bracer reinforced for loading/support;
+- no oversized vambraces.
+
+Lower body:
+- minimal hip plate;
+- mostly black trousers;
+- lighter knees/shins than Raider;
+- practical armored boots.
+
+Cloth:
+- short dark half-coat / split coat tails;
+- restrained crimson lining or narrow crimson panels;
+- no long cape.
+
 ## Head / face
-- helmet or hooded military helm;
-- lower face may be covered by cloth or a metal guard;
-- anonymous and uniformed rather than individualized.
+- same basic issued helmet family as Raider or a lighter hood-helm derivative;
+- narrow non-glowing visor;
+- lower face may use dark cloth protection;
+- anonymous and uniformed.
 
 ## Weapon
 - compact Black Host military crossbow;
@@ -262,10 +331,44 @@ Heavy Black Host defensive infantry with a Ruin-affiliated edge.
 
 No glow. No visible power channels.
 
+## Exact heavy-specialist derivation
+The Shieldbearer is the **reinforced version of the Raider baseline**, not a separate elite-order design.
+
+Torso:
+- same central sternum and rib grammar;
+- three stronger rib plates per side;
+- thicker central chevron;
+- slightly deeper chest relief;
+- fully closed plate remains practical and human-wearable.
+
+Shoulders:
+- three heavier overlapping plates;
+- outer/rear hook is visibly sharper than Raider's but still compact;
+- no giant horned silhouette.
+
+Arms:
+- heavier forearm guards;
+- stronger elbow flare;
+- ordinary articulated gauntlets;
+- shield arm may carry slightly more plate than weapon arm.
+
+Lower body:
+- broader hip plates;
+- heavier knees and shins;
+- black underlayers still visibly break up the armor;
+- no continuous ceremonial leg shell.
+
+Cloth:
+- deeper crimson underlayers;
+- slightly broader front tabard than Raider;
+- no cape.
+
 ## Head / face
-- full helm preferred;
-- more enclosed than Raider;
-- faceless military-enforcer read.
+- fully enclosed version of the shared issued helmet family;
+- heavier cheek/jaw coverage;
+- narrow non-glowing visor slit;
+- more severe brow ridge;
+- still no crown, horns, or luminous face treatment.
 
 ## Shield
 - large, dark, angular military shield;
@@ -298,6 +401,30 @@ No glow. No visible power channels.
 - holy-knight styling;
 - comically oversized shield larger than the body;
 - baseline glowing magical-barrier visuals.
+
+---
+
+## Troop-family silhouette relationship
+
+Viewed side-by-side:
+
+**Crossbowman**
+> leanest / least plate / crossbow dominates.
+
+**Raider**
+> baseline medium armor / balanced soldier silhouette.
+
+**Ruin Shieldbearer**
+> broadest / heaviest ordinary troop / shield dominates.
+
+They must share:
+- helmet family;
+- sternum/rib chest grammar;
+- blackened metal;
+- crimson cloth;
+- restrained hooked contours.
+
+They must **not** look like three unrelated armor sets.
 
 ---
 
