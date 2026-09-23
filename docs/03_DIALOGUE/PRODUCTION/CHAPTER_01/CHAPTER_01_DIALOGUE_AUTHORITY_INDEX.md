@@ -1,9 +1,9 @@
 # Chapter 1 — Dialogue Authority Index
 
 **Chapter:** 1  
-**Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — BEATS 1–15 + C02/C03/C04 TRUE-VOICE / DIALOGUE-ECONOMY AUTHORITY CURRENT**
+**Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — 2026-09-23 NATURALISM / CHARACTER-LIFE TIGHTENING PASS COMPLETE**
 **Combined read-through:** `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **CURRENT synchronized derived mirror; standalone atomics remain exact wording authority**
-**Current atomic spoken-line counts:** **324 mandatory + 187 Character-Life = 511 if all three optional scenes are viewed** (C02 67 / C03 56 / C04 64).  
+**Current atomic spoken-line counts:** **309 mandatory + 159 Character-Life = 468 if all three optional scenes are viewed** (C02 53 / C03 48 / C04 58).  
 **Character-Life numbering:** `../CHARACTER_LIFE_NUMBERING_LOCK.md`  
 **Character-Life content:** `CHARACTER_LIFE_REBUILD_LOCK.md`  
 **Rhythm:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
@@ -136,14 +136,42 @@ C04 `Not Professionally` may reveal only that Torren is more than an ordinary co
 
 ## Mature-adult speech — CLOSED
 
-These characters are mature adults, not sanitized archetypes.
+The 2026-09-23 pass brought Chapter 1 into the current differentiated adult-register standard without changing mandatory scene count.
 
-- Cyanis — moderate profanity, freer with trust/stress/banter;
-- Ilyra — moderate, dry, sometimes sharply profane;
-- Torren — casual and unselfconscious profanity;
-- Maevra — moderate and register-sensitive without rank sanitizing her.
+Current Chapter-1 audit:
+- **Cyanis — 10 / 97 = 10.3%** — target **7–14%**;
+- **Ilyra — 7 / 82 = 8.5%** — target **5–12%**;
+- **Torren — 12 / 150 = 8.0%** — target **7–16%**;
+- **Maevra — 6 / 123 = 4.9%** — target **2–6%**.
 
-No swear quota exists.
+Vocabulary remains differentiated:
+- Cyanis favors `damn / shit / bullshit`;
+- Ilyra favors `damn / ass / shit / hell`;
+- Torren uses a rougher `fuck / shit / damn / hell` mix;
+- Maevra remains lower-frequency and register-sensitive.
+
+No profanity is inserted by quota. Hollow Watch grief, command language, and other moments that benefit from restraint remain restrained.
+
+## Natural uncertainty / canon-checker speech — CLOSED
+
+Current Beat 1–15 + C02/C03/C04 audit finds **zero targeted canon-checker constructions** under the current rule.
+
+Removed/reworked examples include:
+- Ilyra's formal `we don't know why` Card-summary phrasing in Beat 1;
+- Torren's `I haven't seen enough to call that fact` construction in Beat 3;
+- Maevra's `then that's all we know` in Beat 9;
+- the Beat-14 `important distinction / pretending we know` exchange.
+
+Plain human uncertainty such as `Don't know`, `No idea`, or a character admitting a guess remains where natural.
+
+## Character-Life tightening — CLOSED
+
+The optional layer was tightened from **187 → 159 spoken lines** while preserving each scene's complete social purpose:
+- **C02 — Torren's Version of Dinner:** **67 → 53**;
+- **C03 — What the Map Says:** **56 → 48**;
+- **C04 — Not Professionally:** **64 → 58**.
+
+The protected C03 anchors remain exact.
 
 ## September 19, 2026 Chapter-1 dialogue lock
 
@@ -209,8 +237,8 @@ Natural adult speech does not justify repeating visible evidence or known plot i
 - high-risk/applicable scene specs — **ALIGNED**;
 - natural-turn audit — **COMPLETE**;
 - spoken-dialogue/narration audit — **COMPLETE**;
-- combined manuscript — **STALE AFTER CURRENT ATOMIC REVISIONS; REGENERATE FROM ATOMICS BEFORE USING AS A READ-THROUGH**;
-- Chapters 0–3 reader/runtime derivatives — **STALE AFTER CURRENT 0–3 ATOMIC REVISIONS; regenerate only from current atomics**.
+- combined manuscript — **DERIVED; regenerate/verify after atomic changes**;
+- Chapters 0–3 reader/runtime derivatives — **DERIVED; regenerate/verify after atomic changes**.
 
 ## Conflict order
 
@@ -226,4 +254,4 @@ If Chapter-1 sources disagree:
 9. current combined manuscript as a verified derived read-through only; it never overrides standalone atomics;
 10. historical material only as provenance.
 
-> **Chapter 1 is locked current at the atomic source level: 300 mandatory lines plus 187 optional Character-Life lines. Derived manuscript/runtime mirrors must now be regenerated from these atomics before they are treated as current.**
+> **Chapter 1 is locked current at the atomic source level: 309 mandatory lines plus 159 optional Character-Life lines = 468 total. Derived manuscript/runtime mirrors must match these atomics before they are treated as current.**
