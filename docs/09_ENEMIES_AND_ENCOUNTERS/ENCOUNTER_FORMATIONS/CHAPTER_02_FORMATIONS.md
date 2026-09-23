@@ -105,16 +105,48 @@ The Old Bastion is an active military installation. Formations should look like 
 | Light | **Hound Patrol** | 1 Black Host Raider + 2 Rift Hounds + 1 Black Host Crossbowman |
 | Standard | **Shielded Fireline** | 1 Ruin Shieldbearer + 2 Black Host Crossbowmen + 1 Black Host Raider |
 | Standard | **War-Sorcery Line** | 1 Ruin Shieldbearer + 1 Black Host War-Sorcerer + 1 Black Host Crossbowman + 1 Black Host Raider |
+| Heavy | **Infantry Block** | 1 Ruin Shieldbearer + 3 Black Host Raiders + 1 Black Host Crossbowman |
 | Heavy | **Command Defense** | 1 Ruin Shieldbearer + 2 Black Host Raiders + 1 Black Host Crossbowman + 1 Black Host War-Sorcerer |
 | Heavy | **Rift Pursuit** | 1 Ruin Shieldbearer + 1 Black Host Raider + 1 Black Host Crossbowman + 2 Rift Hounds |
-| Peak | **Full Bastion Response** | 1 Ruin Shieldbearer + 2 Black Host Raiders + 1 Black Host Crossbowman + 1 Black Host War-Sorcerer + 1 Rift Hound |
+| Peak | **Full Bastion Response** | 1 Ruin Shieldbearer + 3 Black Host Raiders + 2 Black Host Crossbowmen |
 
 Structural band:
 > **3–6 active enemies**
 
 The six-enemy ceiling is reserved for the later Old Bastion escalation, where organized military response is at its strongest.
 
-The Bastion response may become more organized as the alarm state progresses, but it does not become an infinite reinforcement system.
+The Bastion response becomes more organized as the alarm state progresses, but it does not become an infinite reinforcement system.
+
+### Bastion progression
+**Early command ascent**
+Eligible:
+- Bastion Patrol
+- Hound Patrol
+- Shielded Fireline
+- War-Sorcery Line
+
+**Middle / alerted interior**
+Eligible:
+- Bastion Patrol
+- Shielded Fireline
+- War-Sorcery Line
+- Infantry Block
+- Rift Pursuit
+
+**Late command approach**
+Eligible:
+- Shielded Fireline
+- Infantry Block
+- Command Defense
+- Rift Pursuit
+- Full Bastion Response
+
+**Full Bastion Response** is the chapter's six-enemy ordinary ceiling and is restricted to the late alerted Bastion.
+
+The six-body peak formation is intentionally infantry-heavy rather than a stack of special units:
+> 1 Ruin Shieldbearer + 3 Black Host Raiders + 2 Black Host Crossbowmen
+
+This makes the strongest crowd encounter read as an organized military line, while War-Sorcerers and Rift Hounds remain meaningful specialist additions in other formations.
 
 Noncombat medical/support personnel and incapacitated wounded are not random-combat enemies.
 
@@ -237,3 +269,10 @@ Current structural enemy-count progression:
 - **6-enemy ordinary formations are reserved for the late-chapter Bastion escalation.**
 
 This is a structural composition lock, not a current difficulty certification. The later encounter-validation pass must tune individual bodies, action frequency, formation weights, and encounter rate so that larger enemy counts remain appropriate for the three-person Chapter-2 party.
+
+
+## Old Bastion infantry-density correction — 2026-09-23
+- Added **Infantry Block**: 1 Ruin Shieldbearer + 3 Black Host Raiders + 1 Black Host Crossbowman.
+- Revised **Full Bastion Response** to an infantry-heavy six-body line: 1 Ruin Shieldbearer + 3 Black Host Raiders + 2 Black Host Crossbowmen.
+- War-Sorcerer and Rift Hound are not required in the six-enemy ceiling formation.
+- Bastion formation eligibility now escalates from early ascent → alerted interior → late command approach.
