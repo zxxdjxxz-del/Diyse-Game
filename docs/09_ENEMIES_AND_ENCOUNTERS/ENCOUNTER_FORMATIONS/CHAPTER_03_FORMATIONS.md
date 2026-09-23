@@ -100,9 +100,10 @@ This is a structural pacing target, not final numeric difficulty certification.
 
 # Old City Archives
 
-The Old City formation rebuild remains separate and is next.
+The Old City Archives are the main Chapter-3 dungeon. Nimera joins permanently in Beat 6, so the ordinary encounter structure from Beat 7 onward is built for:
+> **Cyanis + Ilyra + Torren + Nimera**
 
-Current active Old City ordinary identities:
+Current active ordinary identities:
 - Judgment Frame;
 - Erasure Wisp;
 - Authority Lens;
@@ -114,7 +115,132 @@ Strong normal-pool Elite:
 Mandatory boss:
 - Archive Scribe Engine — **never random**.
 
-Exact Beat-7 through Beat-10 compositions remain open until the dedicated Old City formation pass.
+The Archive encounter progression is:
+> readable enforcement → denser archive-security mixes → authority-heavy Hall of Seals → Deep Archives elemental / Elite escalation.
+
+## Beat 7 — Lower Archives
+
+Purpose:
+> establish the core three-enemy Archive grammar after Nimera joins without immediately using the late-dungeon pressure pieces.
+
+Eligible identities:
+- Judgment Frame;
+- Erasure Wisp;
+- Authority Lens.
+
+| Formation | Composition | Bodies |
+|---|---|---:|
+| **Lower Enforcement** | 1 Judgment Frame + 2 Erasure Wisps | 3 |
+| **Inspection Detail** | 1 Judgment Frame + 1 Authority Lens + 1 Erasure Wisp | 3 |
+| **Archive Sweep** | 2 Judgment Frames + 1 Erasure Wisp + 1 Authority Lens | 4 |
+| **Erasure Detail** | 1 Judgment Frame + 2 Erasure Wisps + 1 Authority Lens | 4 |
+
+Rules:
+- Archive Current is not yet eligible.
+- Grand Inquisitor Frame is not eligible.
+- Authority Lens remains support rather than the formation's main body.
+- Beat 7 body range: **3–4**.
+
+## Beat 8 — Buried Collections
+
+Purpose:
+> increase simultaneous pressure while keeping the same established three ordinary identities.
+
+Eligible identities:
+- Judgment Frame;
+- Erasure Wisp;
+- Authority Lens.
+
+| Formation | Composition | Bodies |
+|---|---|---:|
+| **Buried Watch** | 1 Judgment Frame + 2 Erasure Wisps + 1 Authority Lens | 4 |
+| **Judgment Stack** | 2 Judgment Frames + 1 Erasure Wisp + 1 Authority Lens | 4 |
+| **Erasure Sweep** | 1 Judgment Frame + 3 Erasure Wisps + 1 Authority Lens | 5 |
+| **Enforcement Array** | 2 Judgment Frames + 2 Erasure Wisps + 1 Authority Lens | 5 |
+
+Rules:
+- no Archive Current;
+- no Grand Inquisitor Frame;
+- no harmful-status escalation;
+- body range: **4–5**.
+
+## Beat 9 — Hall of Seals
+
+Purpose:
+> shift the mix toward inspection / authority machinery while preserving the established Archive combat language.
+
+Primary eligible identities:
+- Judgment Frame;
+- Erasure Wisp;
+- Authority Lens.
+
+| Formation | Composition | Bodies |
+|---|---|---:|
+| **Seal Inspection** | 1 Judgment Frame + 2 Authority Lenses + 1 Erasure Wisp | 4 |
+| **Authority Screen** | 2 Judgment Frames + 1 Authority Lens + 2 Erasure Wisps | 5 |
+| **Classification Array** | 1 Judgment Frame + 2 Authority Lenses + 2 Erasure Wisps | 5 |
+| **Seal Enforcement** | 2 Judgment Frames + 2 Authority Lenses + 1 Erasure Wisp | 5 |
+
+Late Beat-9 boundary only, if the final map visibly transitions into deeper Ancient infrastructure:
+
+| Formation | Composition | Bodies |
+|---|---|---:|
+| **Live Conduit** | 1 Judgment Frame + 1 Archive Current + 1 Authority Lens + 2 Erasure Wisps | 5 |
+
+Rules:
+- **Live Conduit** is not part of the ordinary Hall-of-Seals pool; it is a transition formation only.
+- Grand Inquisitor Frame remains rare and is normally held for Beat 10.
+- body range: **4–5**.
+
+## Beat 10 — Deep Archives
+
+Purpose:
+> deliver the chapter's strongest ordinary Archive pressure before the mandatory Scribe Engine.
+
+Eligible identities:
+- Judgment Frame;
+- Erasure Wisp;
+- Authority Lens;
+- Archive Current;
+- Grand Inquisitor Frame — rare strong normal-pool Elite.
+
+| Formation | Composition | Bodies |
+|---|---|---:|
+| **Deep Current** | 1 Judgment Frame + 2 Archive Currents + 1 Authority Lens + 1 Erasure Wisp | 5 |
+| **Charged Enforcement** | 2 Judgment Frames + 1 Archive Current + 1 Authority Lens + 1 Erasure Wisp | 5 |
+| **Current Gallery** | 1 Judgment Frame + 2 Archive Currents + 2 Erasure Wisps + 1 Authority Lens | 6 |
+| **Deep Adjudication** | 2 Judgment Frames + 1 Archive Current + 2 Erasure Wisps + 1 Authority Lens | 6 |
+
+### Grand Inquisitor formations
+
+| Formation | Composition | Bodies |
+|---|---|---:|
+| **Inquisitor Detail** | 1 Grand Inquisitor Frame + 1 Judgment Frame + 1 Authority Lens + 1 Erasure Wisp | 4 |
+| **Inquisitor Escort** | 1 Grand Inquisitor Frame + 1 Judgment Frame + 1 Archive Current + 1 Authority Lens + 1 Erasure Wisp | 5 |
+
+Rules:
+- maximum **1 Grand Inquisitor Frame per formation**;
+- Grand Inquisitor formations are uncommon pressure spikes, not the default Deep Archives encounter;
+- Archive Current remains Lightning-only and gains no reaction mechanic or harmful status;
+- Chapter 3 Archive enemies do not introduce Stun here;
+- body range: **4–6**.
+
+## Beat 11 — Archive Scribe Engine approach
+
+The immediate approach / staging pocket before the mandatory boss is:
+> **SAFE — no random encounter**
+
+The Archive Scribe Engine is:
+> **mandatory authored boss only — never part of a random formation**
+
+## Old City body-count progression
+- Beat 7 Lower Archives: **3–4**
+- Beat 8 Buried Collections: **4–5**
+- Beat 9 Hall of Seals: **4–5**
+- Beat 10 Deep Archives: **4–6**
+- simultaneous ordinary-enemy ceiling: **6**
+
+This progression is structural. Exact encounter frequency, selection weights, and difficulty certification remain deferred to current mandatory-vs-completionist validation.
 
 ## Validation boundary
 All Chapter-3 formation numbers, weights, raw bodies, and encounter frequency remain subject to the current mandatory-vs-completionist validation pass.
