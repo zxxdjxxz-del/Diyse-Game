@@ -30,25 +30,11 @@ Ilyra smiles.
 
 **CYANIS:** Cyanis Dovaren. Ilyra Amarin. Torren Harth.
 
-Nimera's eyes move to Torren.
+Nimera notices the route notebook at Torren's belt.
 
-**NIMERA:** Harth.
+**NIMERA:** Harth. I've seen your copied route marks. They're fucking criminal.
 
-**TORREN:** That's me.
-
-She notices the route notebook at his belt.
-
-**NIMERA:** Is that your notation?
-
-**TORREN:** Some of it.
-
-**NIMERA:** I've seen your copied route marks.
-
-**TORREN:** Sorry to hear that.
-
-**NIMERA:** They're fucking criminal.
-
-**TORREN:** They work.
+**TORREN:** They fucking work.
 
 **NIMERA:** For you. So does scratching food on a sack. That doesn't make it an archive standard.
 
@@ -58,7 +44,7 @@ She notices the route notebook at his belt.
 
 Ilyra looks between them.
 
-**ILYRA:** Good. We found the right person.
+**ILYRA:** Well, shit. We found the right person.
 
 ### [THE CARD]
 
@@ -86,11 +72,9 @@ Cyanis gives her the bounded Brackenwall account.
 
 **ILYRA:** His pulse recovered after contact. We did not repeat the separation.
 
-**NIMERA:** Good.
+Nimera thinks for a second.
 
-She thinks for a second.
-
-**NIMERA:** No, better than good. Boring restraint is fucking beautiful when the alternative is turning a person into an experiment because everybody got curious at once.
+**NIMERA:** Good. Boring restraint is fucking beautiful when the alternative is turning a person into an experiment because everybody got curious at once.
 
 **CYANIS:** That's almost flattering.
 
@@ -106,11 +90,7 @@ She thinks for a second.
 
 She leans closer without reaching for the Card.
 
-**NIMERA:** Green and gold every time?
-
-**CYANIS:** Every time we've seen it respond.
-
-**NIMERA:** And you still don't know what it is.
+**NIMERA:** Green and gold every time, and you still don't know what the hell it is?
 
 **CYANIS:** Correct.
 
@@ -158,14 +138,6 @@ Nimera points at him.
 
 **TORREN:** Agreed.
 
-Nimera pauses.
-
-**NIMERA:** I had another paragraph.
-
-**TORREN:** Saved you the trouble.
-
-**NIMERA:** Don't make a habit of being reasonable. It'll ruin the dynamic.
-
 ### [WHY SHE COMES]
 
 Nimera turns back to the spread on her table and flips through two tagged volumes.
@@ -190,13 +162,9 @@ Cyanis watches.
 
 **CYANIS:** You're coming.
 
-**NIMERA:** Obviously.
+**NIMERA:** Obviously. Consultation complete: the evidence is downstairs, and I'd rather see the shit myself than hear you misremember it later.
 
-**CYANIS:** Mirena asked us to consult you.
-
-**NIMERA:** You did. Consultation complete. Result: the evidence is downstairs and I would rather see it than hear you misremember it later.
-
-**CYANIS:** Fair.
+**CYANIS:** Fair as hell.
 
 **NIMERA:** Also, if your Card does something new, I want to be there before four people turn one weird twitch into a fucking creation myth.
 
@@ -208,7 +176,7 @@ Nimera shoulders her things and picks up her Conduit.
 
 **NIMERA:** Then let's go see how much of marked survives contact with the floor.
 
-**TORREN:** Starting to like you less.
+**TORREN:** Starting to like you a hell of a lot less.
 
 **NIMERA:** Good. Means you're paying attention.
 
