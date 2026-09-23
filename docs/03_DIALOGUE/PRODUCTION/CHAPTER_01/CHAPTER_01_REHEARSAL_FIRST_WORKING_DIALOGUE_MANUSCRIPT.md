@@ -21,7 +21,7 @@
 | 11 | Beat 11 | `BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md` | `5e50ae31c9970e9480e5e21285504387ac941902b7ebe30018d033bfe45443b5` |
 | 12 | Beat 12 | `BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md` | `3b08634968a90a54424436e5f05179fe1a042937ce9c62cc89e21ad6e44e142a` |
 | 13 | Beat 13 | `BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md` | `42119ea86c0be949237b16be9f1a17ab954b6ade90ceb4ab530ed236b548694c` |
-| 14 | Beat 14 | `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md` | `40da07a08a6de8ba616f6f6950cfb1a5fe803954dae3e555f06fbf72cf99183a` |
+| 14 | Beat 14 | `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md` | `4238ed34824b4580d6fc72cc43b94ac4adfcc9f30078058527ccd2a415278786` |
 | 15 | Beat 15 | `BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md` | `20a6c6270e0e50aa284618dcc261e550e7cf0ba88a688d5a929c66164d71ecf6` |
 | 16 | C02 — Torren's Version of Dinner | `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md` | `47ef4c3969f04b5e5fe75a364dd2b8821d4756ba467ff45bb4e1b58e3822319e` |
 | 17 | C03 — What the Map Says | `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md` | `c0cd1f5c9f28dfd17844a55da6461b25132b5ea19ea2aaf312b024017ac5a5ac` |
@@ -1587,7 +1587,7 @@ Next mandatory beat:
 ## Beat 14
 
 **Atomic source:** `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md`  
-**Source SHA-256:** `40da07a08a6de8ba616f6f6950cfb1a5fe803954dae3e555f06fbf72cf99183a`
+**Source SHA-256:** `4238ed34824b4580d6fc72cc43b94ac4adfcc9f30078058527ccd2a415278786`
 
 # Chapter 1 — Beat 14
 # The Junction / Hidden Monument
@@ -1667,7 +1667,7 @@ The exposed surface is much larger in scope than a local route plate.
 
 Once the surviving relationships resolve, it reads as a broad map of **western ancient Diyse**.
 
-Dense overland route lines intersect and reconnect across the entire surviving region. A second, visually distinct layer runs beneath / between those surface routes, marking extensive underground infrastructure and routes. Repeated built-form clusters mark numerous ancient cities or settlements.
+Dense overland route lines intersect and reconnect across the entire surviving region. A second, visually distinct system of markings threads through the map in a different grammar. **Production authority:** those markings correspond to underground infrastructure and routes, but Chapter 1 must not visually or verbally identify them that way yet. Repeated built-form clusters mark numerous ancient cities or settlements.
 
 Six familiar Face markings appear as part of the old technical grammar:
 
@@ -1685,7 +1685,7 @@ Ilyra follows the route layers outward.
 
 Torren traces one set, then another without touching the surface.
 
-**TORREN:** Roads up top. Another network underneath. Tunnels, conduits, service routes—something underground. I can tell they're separate. I can't tell you what they were for.
+**TORREN:** These are roads. These other lines aren't—or not any kind I know. They're everywhere, and I can't tell you what they mean.
 
 Maevra looks across the repeated built-up clusters.
 
@@ -1707,7 +1707,7 @@ Cyanis looks across the wider map.
 
 **TORREN:** Looks that way. Doesn't tell us how it all worked.
 
-Farther across the surviving western map, surface routes, underground lines, and built-up structures become markedly denser around one enormous concentration.
+Farther across the surviving western map, surface routes, the second unidentified marking system, and built-up structures become markedly denser around one enormous concentration.
 
 The physical map is broken through the middle of it.
 
@@ -1747,7 +1747,7 @@ A small beat.
 
 Nobody gives the side access a new name or predicts what lies beyond it.
 
-**MAEVRA:** Copy what survived. All of it we can support. Leave the broken part broken.
+**MAEVRA:** Copy what's here.
 
 **CYANIS:** Works for me.
 
@@ -1770,7 +1770,7 @@ A brief fade/state transition is enough.
 The copy preserves:
 - the broad western ancient-Diyse geography;
 - the dense overland route network;
-- the distinct underground infrastructure / route layer;
+- the distinct second system of markings, still unidentified by the party;
 - the numerous surviving city / settlement clusters;
 - the largest concentration around the geography of present-day Caelora and the exact shape/location of the physical break through its center;
 - the southeast alignment corresponding to the party's existing route toward Dunmere;
@@ -1834,10 +1834,10 @@ Known:
 - vines and moss concealed the monument's cartographic surface in plain sight;
 - the exposed surface is a route/map object, not a tunnel entrance;
 - the Wayfinder depicts a substantial western portion of ancient Diyse, not merely the Junction corridor;
-- dense surface routes and a distinct underground infrastructure / route layer connect many ancient built-up sites;
+- dense surface routes cross the region alongside a distinct second marking system whose meaning remains unidentified;
 - the largest visible urban / infrastructure concentration lies around the geography of present-day Caelora;
 - the map is physically broken through the center of that Caelora-area concentration, leaving the largest ancient cluster incomplete;
-- the party can recognize the scale and layering of the network but cannot yet explain its full function or identify what occupied the missing center;
+- the party can recognize the map's scale, the obvious overland routes, and the existence of a second extensive system of markings, but cannot identify what that second system represents or what occupied the missing center;
 - the party's existing route toward Dunmere follows an older Diysean alignment;
 - a water/cistern notation corresponds geographically with the earlier overgrown Southern Briar side access;
 - the six Face markings appear in the monument's technical grammar, but their function remains unknown;
