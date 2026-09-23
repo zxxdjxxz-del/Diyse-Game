@@ -370,7 +370,7 @@ What kind of useless bastard studies this for years and doesn't?
 
 I just don't trust a theory more because I like the shape of it.
 
-So now, in **720 YF**, natural magic is normal again.
+So now, in **713 YF**, natural magic is normal again.
 
 People develop abilities.
 
