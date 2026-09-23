@@ -16,7 +16,7 @@ Mirena sees Cyanis's Card before anyone starts.
 
 **CYANIS:** No. Warden assessed all four of us, decided something was wrong, and attacked. After we dropped it: PREVIOUS ERROR. Then LAST SENTINEL CONFIRMED.
 
-**NIMERA:** Exact order. Then it went fully inert. **After that** the Card changed. Timing is suspicious as fuck; mechanism is still unknown.
+**NIMERA:** Exact order. It went dead, then the Card turned Ruby. The timing stinks.
 
 **MAEVRA:** Anyone hurt?
 
@@ -26,11 +26,9 @@ Mirena studies the Ruby Card but does not reach for it.
 
 **MIRENA:** Last Sentinel.
 
-**CYANIS:** That's all the hell we have.
+**CYANIS:** No idea. Just the words.
 
-**MIRENA:** Then that's all we're calling it.
-
-Nimera visibly approves.
+**MIRENA:** Useful in exactly the wrong way.
 
 ### [HEADQUARTERS]
 
@@ -94,17 +92,17 @@ The tower now identified with Cresthaven sits beneath his finger.
 
 The largest routes continue north from it and run off the top edge of the copied region.
 
-**TORREN:** Tower was real. So were the big routes, at least broadly.
+**TORREN:** Tower was real. Good enough for me to trust the big routes.
 
-**ILYRA:** And we still don't know where the hell they go.
+**ILYRA:** And then they vanish off the damned page.
 
 Torren looks at a modern map.
 
 **TORREN:** North is the lead. Ivorybridge is where I'd start testing it.
 
-**CYANIS:** Our guess, not the Ancient map's.
+**CYANIS:** Ivorybridge isn't on that map.
 
-**NIMERA:** Thank fuck. The map says north until the copy ends. Ivorybridge is our hypothesis.
+**NIMERA:** Exactly. The map gives us north. Ivorybridge is us picking somewhere sensible to start.
 
 **ILYRA:** Then we go north and see whether the ground agrees.
 
