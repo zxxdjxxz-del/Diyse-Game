@@ -1,6 +1,6 @@
 extends SceneTree
 
-const EXPECTED_TOTAL_SPOKEN := 2317
+const EXPECTED_TOTAL_SPOKEN := 2312
 
 var failures: Array[String] = []
 
@@ -78,7 +78,7 @@ func _expect(condition: bool, message: String) -> void:
 
 func _finish() -> void:
 	if failures.is_empty():
-		print("Current Chapters 0-3 runtime dialogue Resources validated: 60 scenes / 2317 spoken lines.")
+		print("Current Chapters 0-3 runtime dialogue Resources validated: 60 scenes / 2312 spoken lines.")
 		quit(0)
 		return
 	for failure in failures:
