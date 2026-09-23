@@ -440,9 +440,15 @@ How many, exactly?
 
 Nobody can prove it cleanly.
 
-His exact age is **unknown**. The exact beginning of his reign is **unknown**. Reliable records agree that he has lived far beyond a normal human lifespan, and that is about where agreement starts falling apart.
+His exact age is **unknown**. The exact beginning of his reign is **unknown**.
 
-Black Host doctrine has its answers. Foreign historians have theirs. Rumors get considerably stupider from there.
+And I don't mean Yahtrea misplaced the paperwork while the Black Host has the answer sitting neatly in a drawer somewhere.
+
+They don't know either.
+
+Modern Yahtrean records cannot establish it. Modern Black Host records cannot establish it. Reliable records agree that he has lived far beyond a normal human lifespan, and that is about where agreement starts falling apart.
+
+Black Host doctrine has its stories. Foreign historians have theirs. Rumors get considerably stupider from there.
 
 Immortal emperor. Ruin miracle. Secret succession. Preserved double. Ancient blood. Pick a tavern and somebody will confidently explain the whole damn thing to you.
 
@@ -662,7 +668,7 @@ Caelora itself stands over an ancient Diysean capital.
 
 The Black Host is a human imperial state led by **Emperor Vaelkor Draeven**.
 
-Vaelkor has ruled for **centuries**, but his exact age and the exact beginning of his reign are **unknown**.
+Vaelkor has ruled for **centuries**, but his exact age and the exact beginning of his reign are **unknown to modern Yahtrea and the Black Host alike**.
 
 And every time we get one clean answer, it seems to uncover three more questions underneath it.
 
