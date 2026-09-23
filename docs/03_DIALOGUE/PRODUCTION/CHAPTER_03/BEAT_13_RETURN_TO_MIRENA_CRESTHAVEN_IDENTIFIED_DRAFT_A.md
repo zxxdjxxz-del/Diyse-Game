@@ -52,7 +52,7 @@ Cyanis looks to Nimera.
 
 **TORREN:** Record stays the weak word.
 
-**NIMERA:** Exactly. Excellent day. Shit evidence.
+**NIMERA:** Exactly. Excellent day. Horseshit evidence.
 
 ### [THE WESTWAYS RECORDBOOK]
 
@@ -146,7 +146,7 @@ Mirena looks to Maevra.
 
 Nimera gathers her copied notes.
 
-**NIMERA:** Good. I need sleep before I start accusing the damn map of withholding evidence.
+**NIMERA:** Good. I need sleep before I start accusing that bastard map of withholding evidence.
 
 **TORREN:** It is withholding evidence.
 
