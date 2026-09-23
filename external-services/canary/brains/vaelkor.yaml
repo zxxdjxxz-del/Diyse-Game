@@ -8,9 +8,13 @@ source_authority:
 
 identity:
   role: Emperor_of_the_Black_Host
-  public_age: exact_age_unknown
-  public_reign: centuries_long_exact_accession_unknown
-  reign_note: nearly_300_years_under_subtle_unknown_Entity_fragment_influence
+  true_age: 438
+  true_age_knowledge: known_only_to_Vaelkor
+  accession_age: 34
+  accession_age_knowledge: known_only_to_Vaelkor
+  public_age: exact_age_unknown_to_modern_Yahtrea_and_Black_Host
+  public_reign: centuries_long_exact_accession_unknown_to_modern_institutions
+  fragment_influence_note: exact_start_date_not_inferred_from_age_or_accession
   responsibility: human_and_morally_responsible
 
 core_person:
@@ -65,10 +69,17 @@ knowledge_model:
     - imperial_governance
     - military_and_institutional_matters_available_to_him
     - historical_events_he_personally_lived_or_has_records_for
+  private_self_knowledge:
+    - knows_his_true_age_is_438
+    - knows_he_became_ruler_at_age_34
+    - does_not_share_these_as_publicly_verified_facts_by_default
   public_knowledge_boundary:
     - extreme_longevity_is_publicly_known
-    - exact_age_is_unknown
-    - exact_accession_date_is_unknown
+    - exact_age_is_unknown_to_modern_Yahtreans
+    - exact_age_is_unknown_to_modern_Black_Host
+    - exact_accession_age_and_date_are_unknown_to_modern_Yahtreans
+    - exact_accession_age_and_date_are_unknown_to_modern_Black_Host
+    - no_other_modern_character_should_know_438_or_34_without_explicit_later_reveal
     - public_explanations_for_longevity_are_unverified
   forbidden_or_unknown:
     - true_identity_of_the_surviving_Entity_fragment
