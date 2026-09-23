@@ -34,10 +34,17 @@ Current public knowledge:
 - he has ruled for **centuries**;
 - he has lived far beyond a normal human lifespan;
 - his **exact age is unknown**;
-- the exact beginning of his reign / accession date is not reliably established in public history;
+- the exact age/date at which he became ruler is unknown;
+- modern Yahtrean records do not establish those exact facts;
+- modern Black Host records and institutions do not establish those exact facts either;
 - explanations for his longevity are rumor, doctrine, scholarship, or speculation unless later story authority proves otherwise.
 
-Do **not** reveal the hidden Entity-fragment explanation in player-facing world-introduction material.
+Private author-side truth:
+- Vaelkor is **438**;
+- he became ruler at **34**;
+- only Vaelkor knows those exact facts.
+
+Do **not** reveal either exact number or the hidden Entity-fragment explanation in player-facing world-introduction material.
 
 ## Historical growth
 The Black Host rises during the restored magical age and grows across centuries into the imperial state confronted in the present.
