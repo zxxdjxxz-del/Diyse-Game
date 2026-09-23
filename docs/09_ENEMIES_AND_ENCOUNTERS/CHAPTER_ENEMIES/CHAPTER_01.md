@@ -37,8 +37,8 @@ Southern Briar uses all six natural-threat identities: the three established nor
 - Ruin Shieldbearer — limited carryover
 
 ### Hollow Watch — ancient constructs
-- Hollow Watch Sentry
-- Hollow Watch Ballista
+- Watch Sentry
+- Watch Ballista
 - Watch Captain Frame — strong normal-pool construct; no optional side-room encounter
 
 **Placement lock:** all Chapter-1 Black Host ordinary enemies and all Chapter-1 construct ordinary enemies are confined to Hollow Watch.
@@ -69,7 +69,7 @@ Special current authorities:
 - Black Host and construct ordinary enemies are Hollow Watch-only.
 - Watch Captain Frame is folded into the lower Hollow Watch normal pool; it is not optional content.
 - Brackenwall Reaver is removed from the active Chapter-1 roster; its identity/data remain retained for possible later placement.
-- Hollow Watch Sentry → Ballista marked-shot relationship is now explicit.
+- Watch Sentry → Ballista marked-shot relationship is now explicit.
 - **Briarhide Stalker is a natural wild Greater Beast with no Black Host involvement, no irritant fitting/collar, no morality puzzle, and no protected 25% floor. Its required encounter resolves by normal boss victory.**
 - Watch Captain Frame retains its Power-complete body but requires normal-pool placement revalidation.
 - Chapter 1 uses Bleed as its only harmful-status rider in this batch.
@@ -130,8 +130,8 @@ The following Chapter-1 enemy identities and names are **LOCKED** unless explici
 - Ruin Shieldbearer
 
 ### Hollow Watch — constructs
-- Hollow Watch Sentry
-- Hollow Watch Ballista
+- Watch Sentry
+- Watch Ballista
 - Watch Captain Frame
 
 ### Mandatory named encounters
