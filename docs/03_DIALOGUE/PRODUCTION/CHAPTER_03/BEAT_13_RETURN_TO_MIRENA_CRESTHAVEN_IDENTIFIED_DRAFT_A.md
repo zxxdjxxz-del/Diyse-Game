@@ -24,7 +24,7 @@ Mirena looks up when they enter.
 
 **MIRENA:** You all look like the archive tried to keep you.
 
-**ILYRA:** It made a fucking argument.
+**ILYRA:** It made an argument.
 
 **NIMERA:** Several. Most were badly sourced and one tried to kill us.
 
@@ -58,7 +58,7 @@ Cyanis looks to Nimera.
 
 Cyanis sets down the careful copy made from the old Westways recordbook.
 
-**CYANIS:** This is the part that finally gives us somewhere to fucking go.
+**CYANIS:** This is the part that finally gives us somewhere to go.
 
 Mirena unfolds it.
 
@@ -128,7 +128,7 @@ Mirena folds the modern map but leaves the copied Wayfinder map open.
 
 **CYANIS:** Tomorrow?
 
-**MIRENA:** After everyone fucking sleeps.
+**MIRENA:** After everyone sleeps.
 
 Ilyra looks at Cyanis.
 
