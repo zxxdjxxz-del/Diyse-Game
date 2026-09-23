@@ -1,0 +1,38 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_BEAT15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 15 — Cresthaven Headquarters / Cleanup / Ivorybridge Decision",
+  "production_ready": true,
+  "participants": ["cyanis","ilyra","torren","nimera","mirena","maevra"],
+  "hard_outcomes": [
+    "The permanent four report PREVIOUS ERROR, LAST SENTINEL CONFIRMED and the subsequent deep-Ruby Card stabilization to Mirena/Maevra without resolving meaning or causation.",
+    "Cresthaven becomes the party's operational headquarters.",
+    "Mirena provides the newly accessible Old City Archive side-passage update for Regional Hunt #3.",
+    "The party revisits the Westways recordbook map after physically confirming the tower site.",
+    "The northbound routes continue off the copied map and have no shown destination.",
+    "The party chooses Ivorybridge as the next practical modern place to test the northbound-route hypothesis.",
+    "Ancient evidence does not name or confirm Ivorybridge.",
+    "Mirena and Maevra normally return to Caelora after the handoff.",
+    "Chapter-3 cleanup opens with Cyanis, Ilyra, Torren and Nimera."
+  ],
+  "forbidden_reveals": [
+    "prime","might","bearer_status","last_sentinel_meaning","previous_error_meaning","ruby_causation","ancient_map_labels_ivorybridge","confirmed_route_to_ivorybridge","route_destination","calder"
+  ],
+  "true_voice_requirements": {
+    "nimera": "Live brain; profanity remains high/frequent and integrated, 15–35% long-form anti-sanitization calibration across a large corpus, not quota.",
+    "mirena": "Witty, politically sharp, private voice less edited, not exposition machine.",
+    "maevra": "Command/friendship coexist; no summary-machine role.",
+    "torren": "Owns practical northward hypothesis from geography without claiming certainty.",
+    "ilyra": "Dry/social, not caretaker.",
+    "cyanis": "Crest Knight only; owns his Card experience."
+  },
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml",
+    "external-services/canary/brains/maevra.yaml",
+    "external-services/canary/brains/mirena.yaml"
+  ]
+}
