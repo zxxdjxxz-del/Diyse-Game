@@ -128,7 +128,7 @@ She checks the next citation.
 
 **NIMERA:** Hall of Seals.
 
-**ILYRA:** Convenient as hell.
+**ILYRA:** Convenient.
 
 **NIMERA:** Suspiciously.
 
