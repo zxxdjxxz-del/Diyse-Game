@@ -51,3 +51,9 @@ Black Host Crossbowman is part of the locked Chapter-0 roster. Current authored 
 - No back-row/healer priority is inferred from the ranged identity.
 - Formation role: lighter ranged body whose danger comes from remaining active beside other Host roles.
 
+## Chapter-0 behavior lock
+- Uses the normal action-selection fallback between currently legal Crossbow Bolt and Aimed Bolt.
+- Aimed Bolt retains its 1-round repetition lock.
+- No Bleed rider is active in Chapter 0.
+- P01/P02 uses are Cyanis-solo, so all legal single-target actions necessarily target Cyanis.
+- No hidden distance/back-row targeting rule.
