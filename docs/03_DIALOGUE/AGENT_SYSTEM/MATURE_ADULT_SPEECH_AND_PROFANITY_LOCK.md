@@ -50,13 +50,27 @@ A clean line can be more truthful than a profane one. A profane line can be more
 These are performance guides, not mechanical quotas. Current long-form editorial calibration bands exist to catch accidental sanitization across a chapter or major dialogue set, never to enforce per-scene spacing:
 
 - **Nimera:** roughly **20–35%**
-- **Torren:** roughly **9–20%**
-- **Ilyra:** roughly **7–16%**
-- **Cyanis:** roughly **10–19%**
-- **Maevra:** roughly **3–8%**
-- **Mirena:** roughly **2–7% overall**, with private scenes allowed to run higher
+- **Torren:** roughly **7–16%**
+- **Ilyra:** roughly **5–12%**
+- **Cyanis:** roughly **7–14%**
+- **Maevra:** roughly **2–6%**
+- **Mirena:** roughly **1–5% overall**, with private scenes allowed to run higher
 
 These ranges measure spoken lines containing natural profanity across a sufficiently large corpus. They do not require profanity in every scene, and public/formal registers may naturally run cleaner.
+
+## Profanity vocabulary differentiation
+
+Natural adult speech does **not** mean every character uses `fuck` or `fucking` as the default intensifier.
+
+- **Cyanis:** favors `damn`, `hell`, `shit`, and `bullshit`; `fuck` is a sharper spike under stress, disbelief, or especially close banter.
+- **Torren:** favors `damn`, `hell`, `shit`, `piss/pissed`, and blunt insults; `fuck` is occasional rather than habitual.
+- **Ilyra:** favors dry `hell`, `shit`, `bullshit`, `asshole`, and cutting insult; `fuck` lands best when unusually sharp.
+- **Maevra:** favors restrained `damn`, `hell`, and occasional `shit`; stronger profanity is more meaningful because it is rarer.
+- **Mirena:** favors `damn`, `hell`, and private `bullshit`; `fuck` should be rare and pointed.
+- **Nimera:** has the widest vulgar/profane range. `Fuck` may remain frequent, but her profanity should also include `shit`, `bullshit`, `ass`, `bastard`, `damn/goddamn`, bodily/indecent comparisons, and character-specific vulgar metaphors.
+
+Editorial failure mode:
+> **Do not make the cast sound mature by giving everyone the same swear word. Distinct adult registers matter more than raw profanity count.**
 
 ### Nimera
 **High / frequent / deeply integrated.**
@@ -97,7 +111,7 @@ It may appear in:
 
 His increasing social comfort from Chapter 2 onward may make profanity and affectionate insult more available, but he does not need to become louder or more vulgar to prove he has opened up.
 
-Long-form editorial calibration: roughly **9–20%**.
+Long-form editorial calibration: roughly **5–12%**.
 
 ### Ilyra
 **Moderate / dry / occasionally sharper than expected.**
@@ -127,7 +141,7 @@ Cyanis is comfortable with profanity, especially:
 
 Formal responsibility can make him more controlled, but it does not make him prudish. He should not sound like a sanitized protagonist while everybody around him talks like adults.
 
-Long-form editorial calibration: roughly **10–19%**.
+Long-form editorial calibration: roughly **7–14%**.
 
 ### Maevra
 **Moderate / register-sensitive / never sanitized by rank.**
@@ -142,14 +156,14 @@ Maevra is a senior commander and socially sophisticated. She changes register de
 
 Rank changes the social meaning of the line. It does **not** require sanitization.
 
-Long-form editorial calibration: roughly **3–8%**.
+Long-form editorial calibration: roughly **2–6%**.
 
 ### Mirena
 **Moderate-low overall / substantially freer in private.**
 
 Mirena's public Crown register can be polished without becoming sterile. In private, especially with people she trusts or when political absurdity irritates her, sharper language should be available naturally.
 
-Long-form editorial calibration: roughly **2–7% overall**, with private scenes allowed to run higher.
+Long-form editorial calibration: roughly **1–5% overall**, with private scenes allowed to run higher.
 
 ### Other current/future characters
 Use the owning character authority to establish their individual register. Until a stronger habit is explicitly established, default to mature adult naturalism rather than either total cleanliness or automatic profanity.
@@ -187,7 +201,7 @@ A pass is **not complete** merely because plot facts and character roles are cor
 
 There is no target number of swear words per scene and no required interval between profane lines.
 
-Current long-form calibration bands are listed above. Nimera's current band is roughly **20–35%**; the other major characters use lower character-specific bands. A scene may be much cleaner or much dirtier than its character's long-form range. Do not solve any target by mechanically counting forward and inserting `fuck`, `shit`, `bitch`, or any other word.
+Current long-form calibration bands are listed above. Nimera's current band is roughly **20–35%**; the other major characters use lower character-specific bands and distinct profanity vocabularies. A scene may be much cleaner or much dirtier than its character's long-form range. Do not solve any target by mechanically counting forward and inserting `fuck`, `shit`, `bitch`, or any other word.
 
 The correct question is:
 > **Would this particular adult, in this particular relationship and state, actually phrase the thought this way?**
