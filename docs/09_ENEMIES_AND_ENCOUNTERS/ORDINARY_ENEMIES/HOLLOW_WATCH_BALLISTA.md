@@ -1,6 +1,6 @@
 # Hollow Watch Ballista
 
-**Chapter:** 1 — Hollow Watch ordinary fixture  
+**Current use:** Chapter 1 — Hollow Watch; Chapter 3 — Cresthaven Ancient tower base carryover  
 **Status:** **POWER COMPLETE / RAW BODY AUTHORED**
 
 This file owns the ordinary Hollow Watch fixture.
@@ -67,3 +67,21 @@ With two Ballistae and one Sentry:
 
 Single-target Snap Bolt selection is equal among conscious active party members.
 No hidden focus-fire rule is added.
+
+
+## Chapter-3 Cresthaven carryover lock — 2026-09-23
+Hollow Watch Ballista returns as an ordinary fixture construct in the **Cresthaven Ancient tower base**.
+
+The established linked behavior remains:
+- Snap Bolt;
+- Marked Heavy Bolt after a completed Hollow Watch Sentry Targeting Signal;
+- Reload after firing.
+
+Chapter-3 placement:
+- Tower Foundation — primary fit;
+- Command Interior — eligible where fixed defensive emplacements make spatial sense;
+- not used in the final Warden Chamber.
+
+Do not convert the Ballista into a mobile construct.
+
+Chapter-3 body/tuning requires fresh validation and must not blindly reuse the Chapter-1 raw body.
