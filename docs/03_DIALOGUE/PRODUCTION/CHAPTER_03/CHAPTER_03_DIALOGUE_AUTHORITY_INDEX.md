@@ -4,8 +4,8 @@
 **Status:** FULL SOURCE-LEVEL DIALOGUE CLOSURE — REVISED 15-BEAT STRUCTURE CURRENT  
 **Migration date:** September 23, 2026  
 **Primary story authority:** ../../../02_STORY/CHAPTERS/CHAPTER_03.md  
-**Current spoken-line count:** **631 mandatory + 176 Character-Life = 807 total**  
-**Current pre-tightening Nimera profanity audit:** **48 / 291 spoken lines = 16.5%**. This is now **below** the revised **20–35% long-form calibration** and must be raised naturally during the Chapter-3 tightening pass.
+**Current spoken-line count after tightening:** **544 mandatory + 176 Character-Life = 720 total**  
+**Profanity audit status:** **PENDING POST-TIGHTENING RECOUNT.** The old 48 / 291 Nimera result is retired because the source dialogue has changed substantially.
 
 ## Authority rule
 
@@ -113,7 +113,7 @@ Current long-form editorial profanity calibration:
 This is an anti-sanitization range, not a per-scene quota or fixed swear interval.
 
 Current Chapter-3 audit:
-> **48 profane Nimera lines / 291 total Nimera lines = 16.5% — BELOW NEW FLOOR / REVISE DURING TIGHTENING PASS.**
+> **Post-tightening recount required before closure.**
 
 Do not mechanically add profanity to force a count. Do not systematically clean fuck/shit/vulgar metaphors into polite wording.
 
