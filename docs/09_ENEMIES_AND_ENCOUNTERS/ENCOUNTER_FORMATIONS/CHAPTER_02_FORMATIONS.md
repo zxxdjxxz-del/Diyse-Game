@@ -10,9 +10,9 @@
 | Middle | **Archive Current** | 1 Archive Current + 1 Memory Scribe + 1 Vault Sentinel | 30% |
 | Middle | **Memory Pressure** | 2 Archive Currents + 1 Drowned Archive Maw + 1 Memory Scribe | 45% |
 | Middle | **Vault Hold** | 1 Vault Sentinel + 1 Drowned Archive Maw + 2 Memory Scribes | 25% |
-| Late | **Bastion Line** | 1 Bastion Shield Guard + 2 Bastion Crossbow Guards + 1 Transfer Adept | 30% |
-| Late | **Transfer Pursuit** | 1 Bastion Shield Guard + 1 Black Host Raider + 2 Rift Hounds + 1 Bastion Crossbow Guard | 45% |
-| Late | **Bastion Command** | 2 Bastion Shield Guards + 1 Transfer Adept + 1 Bastion Crossbow Guard | 25% |
+| Late | **Bastion Line** | 1 Ruin Shieldbearer + 2 Bastion Crossbow Guards + 1 Transfer Adept | 30% |
+| Late | **Transfer Pursuit** | 1 Ruin Shieldbearer + 1 Black Host Raider + 2 Rift Hounds + 1 Bastion Crossbow Guard | 45% |
+| Late | **Bastion Command** | 2 Ruin Shieldbearers + 1 Transfer Adept + 1 Bastion Crossbow Guard | 25% |
 
 ## Ownership boundary
 These rows own encounter composition and selection weight only. Current enemy bodies/actions belong to their individual files. Whole-formation EXP/CEXP belongs to `10_PROGRESSION_AND_EXP`.
