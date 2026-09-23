@@ -45,18 +45,64 @@ Do **not**:
 
 A clean line can be more truthful than a profane one. A profane line can be more truthful than a clean one. The character and moment decide.
 
+## Shared adult-language pool versus character ownership
+
+No ordinary swear word belongs exclusively to one character. Multiple adults may naturally say `fuck`, `shit`, `asshole`, `bastard`, `prick`, or use bodily/sexual/crude figures of speech.
+
+**Voice ownership comes from selection, frequency, syntax, imagery, profession, emotional state, and relationship—not from reserving individual words.**
+
+Therefore:
+- two characters may use the same swear and still sound completely different;
+- a character may borrow another person's phrase after hearing it, especially when the phrase becomes a relationship callback;
+- group slang may emerge over time from repeated travel and trust;
+- borrowing a phrase does not transfer the originator's whole profanity register;
+- profession should shape metaphor: soldier, medic, route-reader, archivist, arcanist, and Black Host veteran should not reach for the same comparison by default;
+- emotional state may temporarily override ordinary register;
+- strong profanity should never be used merely to prove the script is adult.
+
+Nimera has the broadest and most generative profanity register. She is the most likely to create new compounds, obscene metaphors, vulgar technical analogies, and self-corrected profane figures of speech. Other characters may use pieces of that wider vocabulary when natural, but should reshape them through their own voice.
+
 ## Current character calibration
 
 These are performance guides, not mechanical quotas. Current long-form editorial calibration bands exist to catch accidental sanitization across a chapter or major dialogue set, never to enforce per-scene spacing:
 
 - **Nimera:** roughly **20–35%**
-- **Torren:** roughly **7–16%**
-- **Ilyra:** roughly **5–12%**
-- **Cyanis:** roughly **7–14%**
+- **Torren:** roughly **9–20%**
+- **Ilyra:** roughly **7–16%**
+- **Cyanis:** roughly **10–19%**
 - **Maevra:** roughly **2–6%**
 - **Mirena:** roughly **1–5% overall**, with private scenes allowed to run higher
 
 These ranges measure spoken lines containing natural profanity across a sufficiently large corpus. They do not require profanity in every scene, and public/formal registers may naturally run cleaner.
+
+## Profanity construction differentiation
+
+Shared vocabulary must be transformed by character-specific construction:
+
+- **Nimera:** widest vocabulary and highest invention rate; profane technical analogies, anatomical vulgarity, obscene compounds, improvised figures of speech, and accuracy-driven self-correction. Strong terms such as `motherfucker` and rare high-impact `cunt` are available when earned. `fuck` is frequent but cannot become her only tool.
+- **Cyanis:** practical soldier/leader profanity. Plain, economical, often attached to a decision, frustration, workload, injury, or affectionate jab. He is more likely to call something `bullshit`, a person an `asshole` or `bastard`, or let one sharp `fuck` land than build a three-line obscene metaphor.
+- **Torren:** veteran field profanity. Dry, unselfconscious, tactile, and grounded in weather, terrain, animals, equipment, bodily discomfort, bad routes, and bad judgment. He can be vulgar, but the joke usually gets shorter rather than more ornate.
+- **Ilyra:** composed dry profanity with surgical timing. She can use anatomical language more literally and precisely than the others, deploy `asshole`, `prick`, `bullshit`, or a rare `fuck` with cutting economy, and say something filthy without changing her calm delivery.
+- **Vaelira:** technically precise profanity. Swearing tends to arrive when observation violates model, calibration fails, a boundary condition is absurd, or someone makes a technically indefensible claim. She may produce elegant or exact profanity, but generally does not imitate Nimera's constant bodily invention unless a relationship callback earns it.
+- **Seyrik:** initially sparse, literal, soldier-shaped profanity. Under stress it is functional and direct. As social safety grows, he can learn affectionate insult, deliberately vicious specificity, and even reuse other people's phrases with unnerving literal precision.
+- **Maevra:** command-professional profanity. Restrained in formal contexts, blunt in field stress, considerably freer with trusted peers. Her strongest swears should feel like command polish actually broke.
+- **Mirena:** polished public register with sharper private profanity. Political absurdity, intimate trust, or private exasperation can expose a much less ceremonial mouth without turning her into Nimera.
+
+### Nimera expanded lexical space
+
+Nimera may naturally draw from:
+- `fuck/fucking/fucked/fucker`, `motherfucker`;
+- `shit/shitty/shithead/shitshow/horseshit`, `bullshit`;
+- `damn/damned`, `hell`, `piss/pissed/piss-poor`;
+- `ass/asshole`, `bastard`, `bitch`, `prick`;
+- `dick/dickhead/dickbrain`, `cock/cockhead`;
+- `jackass/dumbass/smartass`, `fuckwit/fuckbrain`, `shitwit/shitheel/shit-for-brains`;
+- `clusterfuck`, `half-assed`, `balls/bollocks`, `son of a bitch`;
+- rare high-impact `cunt` when the moment genuinely calls for it.
+
+She may create fresh anatomical, bodily, indecent, consensual-sexual, mechanical, archaeological, institutional, animal, food, or impossible-geometry comparisons. Her language may be affectionate, hostile, analytical, delighted, frightened, exhausted, or self-directed.
+
+Do not turn the lexical space into a checklist. **Fresh construction is preferred to catchphrase rotation.** Avoid identity-based slurs, casual sexual-violence metaphors, and Earth-specific religious exclamations that have no world-canon basis.
 
 ## Profanity vocabulary differentiation
 
@@ -128,7 +174,7 @@ It may appear in:
 
 His increasing social comfort from Chapter 2 onward may make profanity and affectionate insult more available, but he does not need to become louder or more vulgar to prove he has opened up.
 
-Long-form editorial calibration: roughly **5–12%**.
+Long-form editorial calibration: roughly **9–20%**.
 
 ### Ilyra
 **Moderate / dry / occasionally sharper than expected.**
@@ -158,7 +204,7 @@ Cyanis is comfortable with profanity, especially:
 
 Formal responsibility can make him more controlled, but it does not make him prudish. He should not sound like a sanitized protagonist while everybody around him talks like adults.
 
-Long-form editorial calibration: roughly **7–14%**.
+Long-form editorial calibration: roughly **10–19%**.
 
 ### Maevra
 **Moderate / register-sensitive / never sanitized by rank.**
