@@ -38,7 +38,7 @@ The officer looks back toward the relay.
 
 **CONVOY OFFICER:** And if they don't come back? If they use those ten minutes to settle on the ridge and make us pay for giving them time?
 
-**CYANIS:** Then we deal with a harder ridge after we've stopped bleeding people into the road. I don't love it. I just hate the other order more.
+**CYANIS:** Then we deal with a harder ridge after we've stopped bleeding people into the road. I don't love it. I just hate the other damn order more.
 
 The officer studies him for a beat.
 
