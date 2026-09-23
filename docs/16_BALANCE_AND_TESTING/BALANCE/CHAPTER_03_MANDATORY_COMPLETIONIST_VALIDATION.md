@@ -15,8 +15,8 @@ Three material assumptions are retired:
 1. **Maevra is not a Chapter-3 guest combatant.**  
    Current story keeps her noncombat. She remains above with Mirena when Cyanis, Ilyra, and Torren descend into the Old City.
 
-2. **The recovered hostile-perimeter formations have no current mandatory-route placement.**  
-   Way-Fort Marauder / Rift Boltman / Black Host Ward-Sorcerer formations must not be inserted into the lawful Caelora gate approach or the skipped Caelora → Cresthaven travel cut.
+2. **The former hostile-perimeter identities are retired from Chapter 3.**  
+   Way-Fort Marauder / Rift Boltman / Black Host Ward-Sorcerer must not be included in any Chapter-3 mandatory, optional, random, cleanup, Caelora, Archive, Cresthaven, or travel encounter.
 
 3. **The old S018 lawful Caelora confrontations are not part of the current mandatory 15-beat Chapter-3 route.**  
    Retained lawful/nonlethal enemy identities may remain available for later explicit placement, but they do not currently create mandatory combat at Caelora's gate, palace, audience, or seal investigation.
@@ -106,15 +106,15 @@ Beat 14 → Beat 15 travel to Cresthaven is explicitly skipped:
 
 ---
 
-## Placement status of recovered identities
+## Placement status of retired / recovered identities
 
-### Recovered hostile-perimeter group
+### Retired hostile-perimeter group
 - Way-Fort Marauder
 - Rift Boltman
 - Black Host Ward-Sorcerer
 
 Status:
-> **RETAINED IDENTITY / NO CURRENT MANDATORY CHAPTER-3 PLACEMENT**
+> **RETIRED FROM CHAPTER 3 — DO NOT VALIDATE OR COUNT**
 
 ### Recovered lawful/nonlethal group
 - Ivory Watch Guard
@@ -147,7 +147,7 @@ For every encounter use both required baselines:
 
 Use actual progression points rather than one flat chapter level.
 
-Do not include unplaced recovered identities in mandatory EXP/pressure assumptions.
+Do not include retired hostile-perimeter identities in any Chapter-3 EXP, encounter-pressure, or validation assumptions.
 
 ---
 
