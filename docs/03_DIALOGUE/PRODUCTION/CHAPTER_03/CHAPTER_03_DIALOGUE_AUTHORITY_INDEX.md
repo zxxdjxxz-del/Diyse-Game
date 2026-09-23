@@ -5,14 +5,19 @@
 **Migration date:** September 23, 2026  
 **Primary story authority:** ../../../02_STORY/CHAPTERS/CHAPTER_03.md  
 **Current spoken-line count after tightening:** **544 mandatory + 176 Character-Life = 720 total**  
-**Post-tightening mature-register audit:** **PASS**
-- **Previous post-tightening profanity audit is retired pending the new differentiation pass.**
-- Nimera target remains **20–35%**.
-- Cyanis target is now **7–14%**.
-- Torren target is now **7–16%**.
-- Ilyra target is now **5–12%**.
-- Maevra target is now **2–6%**.
-- Mirena target is now **1–5% overall**, with private scenes allowed higher.
+**Post-tightening differentiated mature-register audit:** **PASS**
+- Nimera — **53 / 249 = 21.3%** — target **20–35%**
+- Cyanis — **13 / 117 = 11.1%** — target **7–14%**
+- Torren — **14 / 124 = 11.3%** — target **7–16%**
+- Ilyra — **8 / 95 = 8.4%** — target **5–12%**
+- Maevra — **1 / 25 = 4.0%** — target **2–6%**
+- Mirena — **2 / 50 = 4.0%** — target **1–5% overall**
+
+Vocabulary differentiation also passes:
+- Cyanis: `shit` 3 / `damn` 5 / `hell` 2 / `fuck` 2 / `bullshit` 1
+- Torren: `piss` 2 / `hell` 4 / `shit` 3 / `damn` 4 / `dick` 1 / `fuck` 0
+- Ilyra: `bullshit` 1 / `shit` 1 / `fuck` 1 / `ass` 1 / `hell` 4
+- Nimera: `hell` 5 / `bullshit` 3 / `damn` 12 / `ass` 5 / `shit` 8 / `fuck` 17 / `bastard` 3
 
 ## Authority rule
 
@@ -120,7 +125,7 @@ Current long-form editorial profanity calibration:
 This is an anti-sanitization range, not a per-scene quota or fixed swear interval.
 
 Current Chapter-3 audit:
-> **Nimera frequency target remains 20–35%; vocabulary diversification is allowed without lowering her overall band.**
+> **53 profane Nimera lines / 249 total Nimera lines = 21.3% — PASS.** Her profanity remains the broadest and most frequent in the cast without making `fuck/fucking` the only register marker.
 
 Do not mechanically add profanity to force a count. Do not systematically clean fuck/shit/vulgar metaphors into polite wording.
 
@@ -189,10 +194,9 @@ Completed results:
 - natural floor-holding was preserved;
 - mandatory dialogue reduced from **631 to 544 spoken lines**;
 - total Chapter-3 dialogue reduced from **807 to 720 spoken lines**;
-- the next differentiation pass lowers non-Nimera profanity density and removes the overuse of shared `fuck/fucking` intensifiers while preserving naturally mature speech. The two protected First Command Warden messages are compiled as Warden-spoken runtime dialogue in B14.
+- the differentiation pass lowered non-Nimera profanity density and removed the overuse of shared `fuck/fucking` intensifiers while preserving naturally mature speech;
+- the two protected First Command Warden messages are compiled as Warden-spoken runtime dialogue in B14.
 
-The existing game/content/dialogue/current/chapter_03 runtime resources and global manifest remain **stale until regenerated from this source-closed set**.
+The current Chapter-3 runtime resources, combined manuscript, reader outputs, and global manifest are **synchronized and verified** against this source set.
 
-Compiler durable roster state is corrected so **ROSTER_ADD_NIMERA_PERMANENT fires on B06**, not B08.
-
-Do not describe runtime as synchronized until the generated resources and manifest are refreshed and verified.
+Compiler durable roster state remains correctly attached to **B06**: **ROSTER_ADD_NIMERA_PERMANENT**.
