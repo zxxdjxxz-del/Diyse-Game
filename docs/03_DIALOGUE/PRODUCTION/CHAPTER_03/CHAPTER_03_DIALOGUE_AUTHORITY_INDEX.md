@@ -6,18 +6,14 @@
 **Primary story authority:** ../../../02_STORY/CHAPTERS/CHAPTER_03.md  
 **Current spoken-line count after tightening:** **544 mandatory + 176 Character-Life = 720 total**  
 **Post-tightening differentiated mature-register audit:** **PASS**
-- Nimera — **53 / 249 = 21.3%** — target **20–35%**
-- Cyanis — **13 / 117 = 11.1%** — target **7–14%**
+- Nimera — **50 / 249 = 20.1%** — target **20–35%**
+- Cyanis — **14 / 117 = 12.0%** — target **7–14%**
 - Torren — **14 / 124 = 11.3%** — target **7–16%**
 - Ilyra — **8 / 95 = 8.4%** — target **5–12%**
 - Maevra — **1 / 25 = 4.0%** — target **2–6%**
 - Mirena — **2 / 50 = 4.0%** — target **1–5% overall**
 
-Vocabulary differentiation also passes:
-- Cyanis: `shit` 3 / `damn` 5 / `hell` 2 / `fuck` 2 / `bullshit` 1
-- Torren: `piss` 2 / `hell` 4 / `shit` 3 / `damn` 4 / `dick` 1 / `fuck` 0
-- Ilyra: `bullshit` 1 / `shit` 1 / `fuck` 1 / `ass` 1 / `hell` 4
-- Nimera: `hell` 5 / `bullshit` 3 / `damn` 12 / `ass` 5 / `shit` 8 / `fuck` 17 / `bastard` 3
+The profanity-differentiation pass remains active: Nimera retains the broadest vulgar vocabulary; Cyanis, Torren, Ilyra, Maevra, and Mirena use lower-frequency, character-specific adult registers rather than sharing `fuck/fucking` as a default intensifier.
 
 ## Authority rule
 
@@ -125,7 +121,7 @@ Current long-form editorial profanity calibration:
 This is an anti-sanitization range, not a per-scene quota or fixed swear interval.
 
 Current Chapter-3 audit:
-> **53 profane Nimera lines / 249 total Nimera lines = 21.3% — PASS.** Her profanity remains the broadest and most frequent in the cast without making `fuck/fucking` the only register marker.
+> **50 profane Nimera lines / 249 total Nimera lines = 20.1% — PASS.** Her profanity remains the broadest and most frequent in the cast without making `fuck/fucking` the only register marker.
 
 Do not mechanically add profanity to force a count. Do not systematically clean fuck/shit/vulgar metaphors into polite wording.
 
@@ -151,6 +147,32 @@ Every scene follows:
 Story packets determine situation, outcomes, state, and reveal boundaries. They do not prewrite speaker choreography.
 
 Sentence count is not turn count. Cut repetition, not natural floor time.
+
+## Natural uncertainty / canon-checker speech lock
+
+**Status:** PASS after focused Chapter-3 dialogue audit.
+
+Reveal boundaries must not routinely surface as characters reciting the project's knowledge state.
+
+Avoid repeated formulations such as:
+- `that's all we know`;
+- `nothing is proven`;
+- `important distinction`;
+- `what do we know?`;
+- `we cannot conclude`;
+- `that's the fact`;
+- paired lines where one character states the uncertainty and another formally certifies it.
+
+Prefer:
+- an ordinary question;
+- irritation;
+- an incomplete theory;
+- disagreement;
+- a concrete observation;
+- silence / simply not making the unsupported claim;
+- a plain `don't know` when that is genuinely how the person would answer.
+
+Current B01–B15 + C06/C07 audit finds **zero remaining targeted canon-checker constructions** under this rule. Plain human uncertainty such as `Don't know yet` is intentionally retained where natural.
 
 ## Protected anchors
 
