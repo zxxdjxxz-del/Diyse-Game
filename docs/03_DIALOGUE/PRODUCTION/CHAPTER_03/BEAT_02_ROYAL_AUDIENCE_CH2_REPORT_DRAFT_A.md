@@ -80,7 +80,7 @@ He indicates the damaged Caelora-area portion.
 
 **MIRENA:** The second system of marks?
 
-**TORREN:** Still don't know what they mean.
+**TORREN:** Still don't know what the hell they mean.
 
 **OTHMAR:** Then the Old City archives may contain comparable records.
 
@@ -112,7 +112,7 @@ Ilyra adds only what Cyanis could not observe himself.
 
 **ILYRA:** His pulse recovered after contact was restored. We didn't repeat the test.
 
-**CYANIS:** Strongly in favor of that decision.
+**CYANIS:** Strongly in favor of not doing that shit again.
 
 Lysara accepts it.
 
