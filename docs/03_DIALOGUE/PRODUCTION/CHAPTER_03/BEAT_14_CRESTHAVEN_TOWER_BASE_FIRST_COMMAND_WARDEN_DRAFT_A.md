@@ -14,7 +14,7 @@ The fort is being opened cautiously rather than fully restored.
 
 **MIRENA:** You found it.
 
-**TORREN:** Hard to miss once you're looking for it.
+**TORREN:** Hard as hell to miss once you're looking for it.
 
 Nimera looks around the visible fort.
 
@@ -60,7 +60,7 @@ Torren stops at a partially collapsed storage room where later flooring has brok
 
 Below the Crown floor is a much older stair and fitted wall.
 
-**ILYRA:** That's not subtle.
+**ILYRA:** That's really fucking subtle.
 
 **NIMERA:** It was subtle while a floor was sitting on it.
 
@@ -100,7 +100,7 @@ They reach a chamber where the outer foundation curve continues beyond the visib
 
 **TORREN:** There.
 
-**CYANIS:** The tower was this wide?
+**CYANIS:** The tower was this fucking wide?
 
 **TORREN:** Foundation was.
 
@@ -112,7 +112,7 @@ Nimera looks around.
 
 **NIMERA:** No. Big is not a function. Important-looking is not a function either, before anybody tries that shit.
 
-**CYANIS:** I hadn't.
+**CYANIS:** I hadn't fucking said anything.
 
 **NIMERA:** Preventive maintenance.
 
@@ -132,7 +132,7 @@ A large Diysean construct stands dormant.
 
 Torren stops.
 
-**TORREN:** That one's intact.
+**TORREN:** That one's fucking intact.
 
 **NIMERA:** Large, armed, not moving. I am not upgrading that to safe.
 
@@ -154,7 +154,7 @@ The assessment changes as it crosses the group.
 
 **NIMERA:** It's responding to us.
 
-**ILYRA:** To us individually?
+**ILYRA:** To us individually, or what the hell?
 
 **NIMERA:** Don't know yet.
 
@@ -164,7 +164,7 @@ The Warden's posture hardens.
 
 Its weapon rises.
 
-**TORREN:** Answer's no.
+**TORREN:** Answer's a hard fucking no.
 
 **NIMERA:** Apparently we're unacceptable. Rude.
 
@@ -222,7 +222,7 @@ She looks at the dead construct.
 
 **NIMERA:** Previous error. Then Last Sentinel confirmed. Exact order.
 
-**CYANIS:** Meaning?
+**CYANIS:** What the fuck does that mean?
 
 **NIMERA:** Not a fucking clue.
 
@@ -244,11 +244,11 @@ Then stops.
 
 **CYANIS:** It's staying.
 
-**ILYRA:** Same feeling as Brackenwall?
+**ILYRA:** Same fucked-up feeling as Brackenwall?
 
 **CYANIS:** No. I feel normal.
 
-**TORREN:** Timing's ugly.
+**TORREN:** Timing's ugly as hell.
 
 **NIMERA:** Very. The Card changed after the Warden's final message and shutdown. That's the fact. If we marry timing to causation now, I will annul the fucking marriage myself.
 
