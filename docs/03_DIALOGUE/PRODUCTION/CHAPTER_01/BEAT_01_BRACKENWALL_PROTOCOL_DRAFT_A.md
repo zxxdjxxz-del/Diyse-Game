@@ -18,7 +18,7 @@ The recovered Card is brought into formal Brackenwall intake.
 
 **CUSTODY OFFICER:** Wasn't hoping it was. Tell me what it actually did.
 
-**ILYRA:** Twice, green-and-gold geometry spread from it and held damaged structure together around us. Both times Cyanis reacted with it—pulse up, tremor, dizziness afterward. We don't know why.
+**ILYRA:** Twice, green-and-gold geometry spread from it and held damaged structure together around us. Same reaction from Cyanis both times—pulse up, tremor, dizziness afterward. Still no damn idea why.
 
 **CYANIS:** Her favorite answer.
 
@@ -74,7 +74,7 @@ The officer gives the Card back to Cyanis.
 
 **CUSTODY OFFICER:** That's the end of that experiment.
 
-**CYANIS:** Best decision I've heard today.
+**CYANIS:** Best damn decision I've heard today.
 
 **CUSTODY OFFICER:** It wasn't an experiment when I started it.
 
@@ -136,7 +136,7 @@ The humor leaves Maevra.
 
 **MAEVRA:** I believe you. I also know your definition of normal.
 
-**CYANIS:** That's hurtful.
+**CYANIS:** Damn. That's hurtful.
 
 **MAEVRA:** Recover later.
 
@@ -172,7 +172,7 @@ She looks at the splint.
 
 **MAEVRA:** I know.
 
-**ILYRA:** Good. Sit down.
+**ILYRA:** Good. Sit the hell down.
 
 **MAEVRA:** Fuck, I knew this part was coming.
 
