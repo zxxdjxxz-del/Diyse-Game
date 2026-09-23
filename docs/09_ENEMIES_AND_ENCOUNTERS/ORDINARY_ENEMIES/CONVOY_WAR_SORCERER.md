@@ -71,3 +71,13 @@ The final Broken Convoy confrontation uses:
 > **Riftmaw + Convoy War-Sorcerer**
 
 The injured Iron Cohort Soldier is not part of the Chapter-0 combat roster. There is no separate Riftmaw fight and no separate later War-Sorcerer fight.
+
+## P06 behavior lock
+- Round 1: Rift Lance Preparation is illegal.
+- Round 2 onward: Rift Lance Preparation becomes eligible if it has not been used and no Rift Lance is already prepared.
+- Selecting Rift Lance Preparation consumes the War-Sorcerer's action exactly as authored.
+- Once prepared, **Rift Lance is forced as the War-Sorcerer's next selected action** if the War-Sorcerer remains able to act.
+- Rift Lance selects equally between conscious Cyanis and Ilyra when that forced action is selected; preparation does not secretly pre-mark or focus a target.
+- Shard Volley retains its 2-round repetition lock.
+- When no forced Rift Lance exists, currently legal War-Sorcery Bolt / Shard Volley / eligible Preparation use the normal action-selection fallback.
+- No hidden coordination or focus-fire rule is shared with Riftmaw.
