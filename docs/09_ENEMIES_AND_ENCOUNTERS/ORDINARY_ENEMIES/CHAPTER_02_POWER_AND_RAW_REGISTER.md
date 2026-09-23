@@ -17,7 +17,6 @@ The raw bodies below are newly authored active-balance values except where expli
 | Black Host Crossbowman — Ch2 | 7 | 210 | 46 | 12 | 24 | 22 | 27 | 5 | 5 | 150 / 175 |
 | Black Host War-Sorcerer — Ch2 | 8 | 235 | 28 | 50 | 25 | 34 | 29 | 0 | 10 | provisional; fresh Ch2 kit validation open |
 | Black Host Raider — Ch2 | 6 | 220 | 40 | 14 | 24 | 20 | 25 | 0 | 5 | 120 / 145 |
-| Beast Handler — Ch2 | 7 | 225 | 42 | 20 | 27 | 25 | 27 | 0 | 5 | 140 |
 | Rift Hound — Ch2 | 7 | 250 | 47 | 26 | 27 | 24 | 32 | 5 | 5 | 155 / 150 Ruin |
 
 Optional Elite:
