@@ -40,7 +40,6 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 2 | Ordinary/carryover | Black Host War-Sorcerer — Chapter-2 variant |
 | 2 | Ordinary/carryover | Black Host Raider — approved carryover |
 | 2 | Ordinary/carryover | Rift Hound — approved carryover |
-| 2 | Strong normal-pool Elite | Archive Duplicant |
 | 2 | Mandatory named/boss | Archive Leviathan |
 | 2 | Mandatory named/boss | Commander Rhazek — Bastion Master |
 | 2 | Regional Hunt | Regional Hunt #2 — Scaldback |
