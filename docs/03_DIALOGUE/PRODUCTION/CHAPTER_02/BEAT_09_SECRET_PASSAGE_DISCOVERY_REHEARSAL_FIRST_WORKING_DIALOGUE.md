@@ -55,7 +55,7 @@ Torren keeps working instead of answering immediately.
 
 A beat.
 
-**TORREN:** Give me a damn minute before anybody gets helpful.
+**TORREN:** Give me a fucking minute before anybody gets helpful.
 
 Cyanis takes one step back.
 
