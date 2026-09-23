@@ -78,7 +78,7 @@ Maevra taps one custody sheet.
 
 **ILYRA:** Long day?
 
-**NIMERA:** Excellent day. Terrible evidence.
+**NIMERA:** Excellent day. Shit evidence.
 
 ### [THE WESTWAYS RECORDBOOK]
 
