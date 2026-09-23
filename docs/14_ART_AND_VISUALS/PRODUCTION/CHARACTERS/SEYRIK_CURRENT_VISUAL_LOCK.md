@@ -27,6 +27,24 @@ Preserve the appearance shown by the master:
 
 The image controls exact facial proportions, scars, hair shape, armor geometry, coat construction, weapon details, and incidental asymmetry.
 
+## Black Host hierarchy position
+
+Seyrik's armor sits at the **middle ground** of the current Black Host armor hierarchy.
+
+Relative read:
+- more Entity-inspired and personalized than ordinary line soldiers or heavy specialists;
+- stronger rib/cage and hooked plate language;
+- clearly elite;
+- less elaborate than the highest Black Host commanders.
+
+Color / energy lock:
+- deep crimson/red remains cloth / underlayer / structural accent;
+- **Seyrik has no glowing armor channels**;
+- **Seyrik has no purple luminous seams**;
+- highest-command purple channel language must not be back-propagated onto Seyrik.
+
+The Entity-inspired influence is expressed through armor **shape and silhouette**, not luminous effects.
+
 ## Rendering direction
 
 Render Seyrik in Diyse B00 / HD-2D anime character language:
