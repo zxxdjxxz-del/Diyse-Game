@@ -18,11 +18,11 @@ Fuck, where do you even start with that?
 
 No. Actually, that's easy.
 
-**720 YF.**
+**713 YF.**
 
 Start with now.
 
-We're in 720 YF—Years since the Founding of Yahtrea. Yahtren founded the kingdom seven hundred and twenty years ago, and somebody eventually decided that was a convenient place to start numbering years.
+We're in 713 YF—Years since the Founding of Yahtrea. Yahtren founded the kingdom seven hundred and thirteen years ago, and somebody eventually decided that was a convenient place to start numbering years.
 
 Which is very Yahtrean.
 
@@ -32,9 +32,15 @@ Not literally.
 
 Obviously.
 
-Fuck, see, that's exactly how bad historical claims happen.
+Shit, see, that's how this starts.
 
-Somebody hears that sentence without the joke and three generations later there's a school text claiming ancient Yahtreans believed Yahtren invented time.
+One person misses the joke, another copies the sentence, a third cleans it up for a school text, and three generations later some poor student is being told Yahtren invented time.
+
+No.
+
+He founded a kingdom.
+
+Very different achievement.
 
 So.
 
@@ -168,23 +174,23 @@ Anyway.
 
 At some point, the Diysean civilization ended.
 
-And if you're expecting me to tell you exactly why—
+And if you're expecting one clean answer for why it ended—
 
-No.
+Bad news.
 
-We don't know.
-
-We know **parts**.
-
-Ruins. Records. Artifacts. Physical evidence. Later accounts. Patterns.
-
-And theories built from those things.
+We have ruins, records, artifacts, later accounts, physical damage, patterns, and enough competing theories to beat one another to death with footnotes.
 
 Some are good.
 
 Some are bullshit.
 
-Some were good until somebody dug up one extremely inconvenient building.
+Some were good right up until somebody dug up one extremely inconvenient building.
+
+I love when that happens.
+
+Not to the theory.
+
+To the person who wrote it like the argument was over.
 
 That's one of my favorite things archaeology does.
 
@@ -334,43 +340,35 @@ Just a person developing an ability of their own.
 
 For the first time since the ancient Diyseans.
 
-And yes.
-
-Obviously everyone noticed the sequence.
+And yes, everybody noticed the sequence.
 
 Natural magic disappears.
 
-Around 200 YF, humans begin accessing magic preserved inside ancient Cards.
+Around 200 YF, people start getting ancient Cards to answer them.
 
-Afterward, natural magic starts appearing in people again.
+Later, people start developing natural magic again.
 
-That's not subtle.
+You'd have to work pretty damn hard not to notice that.
 
-But sequence is not explanation.
+The problem is everybody immediately wants the arrows drawn in for them.
 
-Did Card use cause natural magic to return?
+Cards did this, therefore natural magic came back.
 
-Maybe.
+Or something changed the world, therefore both happened.
 
-Did whatever made Cards usable also make natural magic possible?
+Or Cards woke something up.
 
-Maybe.
+Or people woke something up.
 
-Were both consequences of something else entirely?
+Pick your favorite neat little chain and somebody has probably published it.
 
-Also maybe.
+I have theories too.
 
-We don't fucking know.
+Obviously.
 
-Not fully.
+What kind of useless bastard studies this for years and doesn't?
 
-And I have theories.
-
-Obviously I have theories.
-
-What kind of useless bastard studies this for years and doesn't have theories?
-
-But wanting an answer and having one are different things.
+I just don't trust a theory more because I like the shape of it.
 
 So now, in **720 YF**, natural magic is normal again.
 
@@ -404,7 +402,7 @@ Then magic returned through Cards.
 
 Then through people.
 
-And we still don't completely understand why.
+And the mechanism is still hiding from us like an asshole under a floorboard.
 
 Now—
 
@@ -566,35 +564,27 @@ Things preserved completely by accident.
 
 And things probably sitting under somebody's fucking barn right now.
 
-That's why I care about wording.
+That's why wording gets under my skin.
 
-If I say **recorded**, I mean recorded.
+Not because words are sacred.
 
-If I say **likely**, I mean likely.
-
-If I say **possible**, I mean possible.
-
-If I say **I don't know**, that's not an invitation for you to finish the sentence for me.
+Because people are lazy little provenance-eating bastards when a sentence sounds confident enough.
 
 One person writes *possibly*.
 
-The next writes *probably*.
+The next person remembers *probably*.
 
-Someone else summarizes that as *scholars believe*.
+Then somebody summarizes that as *scholars believe* because apparently three extra syllables of caution were unbearable.
 
-A century later the footnote disappears.
-
-Then some smug bastard tells you:
+A century later the footnote is gone and some smug bastard says:
 
 “Everyone knows this.”
 
-No.
+Everyone repeated it.
 
-Everyone **repeated** this.
+That is not the same damn thing.
 
-Show me where it came from.
-
-Different thing.
+Show me where it started.
 
 And history isn't only kings and wars.
 
@@ -620,9 +610,7 @@ Did a Diysean shopkeeper also look personally offended when someone walked in ju
 
 Probably.
 
-Can't prove it.
-
-Yet.
+And if I ever find a closing-time complaint scratched into a Diysean counter, I am framing the damn thing.
 
 That's the good shit.
 
@@ -652,7 +640,7 @@ They didn't have every answer.
 
 They just had **more answers than we do**.
 
-Different fucking problem.
+Which, frankly, is a much more irritating problem.
 
 And that's really what I want to know.
 
@@ -710,9 +698,9 @@ So.
 
 Shortest version.
 
-**720 YF.**
+**713 YF.**
 
-Yahtrea has existed for seven hundred and twenty years.
+Yahtrea has existed for seven hundred and thirteen years.
 
 Ancient Diyse is far older.
 
@@ -736,7 +724,11 @@ Modern civilizations live among the remains of the old one.
 
 Caelora itself stands over an ancient Diysean capital.
 
-And we know enough about the past to understand that there's still a fucking lot we don't know.
+And every time we get one clean answer, it seems to uncover three more questions underneath it.
+
+Which is either wonderful or a cosmic pain in the ass.
+
+Usually both.
 
 ...
 
@@ -754,10 +746,16 @@ That's better than usual.
 
 And before anyone copies this into something official:
 
-*Probably* means probably.
+And before somebody gets clever:
 
-*Possible* means possible.
+“Nimera said so” is not a citation.
 
-And “Nimera said so” is not a fucking citation.
+It is barely even a defense.
 
-If I catch you using it as one, we're going to have a conversation.
+If I catch that in an official record, I am finding you.
+
+Not metaphorically.
+
+Well.
+
+Mostly not metaphorically.
