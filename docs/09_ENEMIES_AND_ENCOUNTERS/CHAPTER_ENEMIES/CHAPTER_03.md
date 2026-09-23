@@ -132,12 +132,17 @@ The old lawful-authority confrontation chain is not part of the current mandator
 
 ### Archive Scribe Engine
 - mandatory Beat-11 Old City Archives boss;
-- procedural Ancient archive/security machinery;
+- **one continuous HP bar / one targetable boss body**;
+- no transformation, add wave, or separate targetable copying arms;
+- procedural Ancient archive / transfer / security machinery;
+- retained Chapter-3 action grammar: Scribe Beam / Index Burst / Record Stabilization;
+- no harmful-status rider;
 - no First Command Warden messaging;
 - no PREVIOUS ERROR;
 - no LAST SENTINEL CONFIRMED;
 - no Ruby stabilization;
-- battle numbers/form budget require validation under current four-person Beat-11 party.
+- former Lv10 / HP315 ordinary body is retired for boss use;
+- boss raw body / fight-length budget require current four-person validation.
 
 ### First Command Warden
 - mandatory Beat-14 Cresthaven tower-base boss;
@@ -211,7 +216,7 @@ Owning validation:
 
 Still intentionally open:
 - final Chapter-3 formation selection weights / encounter frequencies;
-- exact Archive Scribe Engine boss budget;
+- exact Archive Scribe Engine raw boss body / fight-length budget;
 - First Command Warden revalidation at its new Beat-14 location;
 - final encounter frequencies / weights;
 - mandatory/completionist level anchors and certification.
