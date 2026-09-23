@@ -31,19 +31,9 @@ The wounded soldier shifts where he is sitting.
 
 Ilyra looks at him.
 
-**ILYRA:** From there is fine.
+**ILYRA:** From there is fine. If that starts bleeding again, pressure and stay put.
 
-She points to the dressing.
-
-**ILYRA:** If that starts bleeding again, pressure and stay put.
-
-**WOUNDED SOLDIER:** That's the whole medical lecture?
-
-**ILYRA:** Do you want the long one?
-
-**WOUNDED SOLDIER:** No.
-
-**ILYRA:** Good judgment.
+**WOUNDED SOLDIER:** Happily.
 
 The room keeps organizing around them.
 
@@ -81,33 +71,19 @@ Maevra has already reached the next decision.
 
 **MAEVRA:** I'm staying here.
 
-Cyanis looks at her.
-
 **CYANIS:** I figured.
-
-**MAEVRA:** Good. Saves an argument.
 
 She gestures with the splinted arm.
 
-**MAEVRA:** You three can move fast and fight. I can keep this room from turning into a panic if the fort pushes back down.
-
-Torren glances around the safe area.
+**MAEVRA:** You three can move fast and fight. I can keep this room together if the fort pushes back down.
 
 **TORREN:** Better use of you here.
 
-Maevra looks at him.
-
-**MAEVRA:** You always know exactly how to make support sound flattering.
+**MAEVRA:** Somehow still not flattering.
 
 **TORREN:** Wasn't trying to.
 
-**MAEVRA:** I know.
-
 Ilyra finishes with the wounded soldier and stands.
-
-**ILYRA:** He stays seated unless the room has to move.
-
-**WOUNDED SOLDIER:** Happily.
 
 Maevra looks across the freed group.
 
@@ -127,17 +103,13 @@ Cyanis looks around the room.
 
 He does not give a speech.
 
-**CYANIS:** We're going up. We take the road exit from them, then we come back for all of you.
+**CYANIS:** We're going up. We take the damn road exit, then we come back.
 
 The Dunmere woman meets his eyes.
 
 **DUNMERE WOMAN:** You said that already.
 
-**CYANIS:** I know.
-
-A beat.
-
-**DUNMERE WOMAN:** Good.
+**CYANIS:** Good. Remember it.
 
 Torren checks his gear.
 
