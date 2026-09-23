@@ -40,7 +40,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 2 | Ordinary/carryover | Drowned Archive Maw |
 | 2 | Ordinary/carryover | Ruin Shieldbearer — approved carryover |
 | 2 | Ordinary/carryover | Black Host Crossbowman — approved carryover |
-| 2 | Ordinary/carryover | Transfer Adept |
+| 2 | Ordinary/carryover | Black Host War-Sorcerer — Chapter-2 variant |
 | 2 | Ordinary/carryover | Black Host Raider — approved carryover |
 | 2 | Ordinary/carryover | Beast Handler — approved carryover |
 | 2 | Ordinary/carryover | Rift Hound — approved carryover |
