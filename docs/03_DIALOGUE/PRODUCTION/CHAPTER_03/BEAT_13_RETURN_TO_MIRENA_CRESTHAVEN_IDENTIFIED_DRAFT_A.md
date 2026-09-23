@@ -44,7 +44,7 @@ Mirena gestures to the table.
 
 Cyanis looks to Nimera.
 
-**NIMERA:** Recent Card-and-seal research, then a Sealwright chamber with repeated Crest copies. Later attempts had serious magic pushed through them. Nothing proves any copy could answer like the Queen's actual seal.
+**NIMERA:** Recent Card-and-seal research, then a Sealwright chamber full of Crest copies. Later attempts had serious magic shoved through them. I never saw one answer like the Queen's real seal.
 
 **MIRENA:** Good. Annoying, but good.
 
@@ -112,7 +112,7 @@ Torren leans over both maps.
 
 **TORREN:** Fits damn well. Enough to go look, not enough to tell you what we'll find.
 
-**NIMERA:** And we still don't know the tower's Ancient name or function, so nobody fuck the uncertainty out of this.
+**NIMERA:** Tower's still nameless to us, and I have no idea what the damn thing did. Let's not promote guesswork because the map got exciting.
 
 Mirena smiles slightly.
 
