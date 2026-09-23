@@ -10,13 +10,13 @@
     "maevra",
     "torren"
   ],
-  "scene_purpose": "Pay off the Hollow Watch mural at the Junction: reveal the monument hidden beneath vines and moss, expose its cartographic surface, identify the old alignment beneath/along the existing Dunmere route and the water/cistern notation near the earlier side access, preserve the damaged edge, copy useful information, and camp.",
+  "scene_purpose": "Pay off the Hollow Watch mural at the Junction: reveal the monument hidden beneath vines and moss, expose a regional Wayfinder map of western ancient Diyse, establish its dense overland network, distinct underground infrastructure/routes, numerous ancient urban sites, and the largest broken concentration around present-day Caelora; retain the local Dunmere alignment and cistern notation; copy the surviving map without reconstructing the missing center; then camp.",
   "story_sources": [
     {
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
       "sections": [
-        "Beat 14 — Wayfinder Junction / Six Ways Through",
-        "Beat 15 — Wayfinder Camp / Chapter-1 Cleanup Window"
+        "Beat 14 — The Junction / Hidden Monument",
+        "Beat 15 — Junction Camp / Chapter-1 Cleanup Window"
       ],
       "role": "base_chapter_01_story_authority"
     },
@@ -58,7 +58,7 @@
     "area_phase": "safe_post_boss_discovery",
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
-    "runtime_note": "The place is called the Junction in Chapter-1 dialogue. Torren knows the crossroads and modern route but has never seen the hidden monument's map surface. One simple vegetation-clear state change reveals a broad stone-and-metal cartographic surface; it is not a tunnel entrance. Face markings are Might, Elements, Grace, Perception, Memory, Ruin and their map function remains unresolved. Keep one damaged edge unresolved. Copy useful information with a brief fade. Torren calls for camp and morning departure to already-planned Dunmere. The late-Chapter-1 'trainable' jab must remain available so Chapter 2's 'You kept that one' callback is earned."
+    "runtime_note": "The place is called the Junction in Chapter-1 dialogue. Torren knows the crossroads and modern route but has never seen the hidden monument's map surface. One simple vegetation-clear state change reveals a broad stone-and-metal cartographic surface; it is not a tunnel entrance. The map covers a substantial western portion of ancient Diyse: dense overland routes, a distinct underground infrastructure/route layer, many built-up city or settlement sites, and the largest concentration around the geography of present-day Caelora. The monument is physically broken through the center of that Caelora-area concentration, so the party cannot see or reconstruct what occupied the missing center. Face markings are Might, Elements, Grace, Perception, Memory, Ruin and their map function remains unresolved. The local Dunmere alignment and Southern-Briar water/cistern notation remain readable. Copy as much surviving western-map information as practical, with a brief fade. Torren calls for camp and morning departure to already-planned Dunmere. The late-Chapter-1 'trainable' jab must remain available so Chapter 2's 'You kept that one' callback is earned."
   },
   "current_floor_state": {
     "briarhide_stalker": "defeated",
@@ -79,14 +79,20 @@
     "Arrive at the familiar Junction crossroads after the Briarhide boss.",
     "Fail to immediately see the mural monument because vines/moss hide the low central stone.",
     "Clear the vegetation in one simple interaction and reveal the cartographic surface.",
+    "Establish that the Wayfinder covers a substantial western portion of ancient Diyse rather than only the Junction corridor.",
+    "Show dense overland routes intersecting across the region and a distinct underground infrastructure/route layer beneath/between them.",
+    "Show numerous ancient built-up city/settlement sites across the western map.",
+    "Show the largest visible urban/infrastructure concentration around the geography corresponding to present-day Caelora, with the monument physically broken through its center.",
+    "Do not reconstruct, name, or explain the missing Caelora-area center.",
     "Torren identifies the southeast line as matching the party's existing Dunmere-bound route alignment without overclaiming construction continuity.",
     "Match a water/cistern notation to the earlier overgrown Southern Briar side access.",
-    "Leave the damaged edge unresolved and copy only what survived.",
+    "Copy as much surviving western-map information as practical while leaving the broken center missing.",
     "Preserve the late-Chapter-1 'See? Trainable.' / 'Careful.' exchange.",
     "Camp at the Junction and continue to Dunmere in the morning."
   ],
   "forbidden_reveals": [
-    "complete_ancient_route_network",
+    "full_engineering_or_civil_function_of_the_ancient_surface_and_underground_network",
+    "identity_or_complete_layout_of_the_missing_caelora_area_center",
     "full_monument_function_beyond_cartographic_role",
     "cistern_devourer_identity_before_optional_hunt",
     "prime_or_last_sentinel_explanation",
