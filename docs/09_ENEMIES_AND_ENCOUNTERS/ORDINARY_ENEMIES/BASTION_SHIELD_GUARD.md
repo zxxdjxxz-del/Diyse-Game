@@ -1,7 +1,7 @@
 # Bastion Shield Guard
 
 **Chapter:** 2 — Red Transfer Bastion / Causeway  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Status:** **RETIRED DUPLICATE IDENTITY — DO NOT PLACE**
 
 ## Body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -36,3 +36,12 @@ If no other living ally exists:
 2-round repetition lock.
 
 No bonus action.
+
+
+## Retirement correction — 2026-09-23
+Bastion Shield Guard is not a separate enemy identity.
+
+Current authority:
+> **Ruin Shieldbearer**
+
+The Old Bastion uses a Chapter-2-scaled Ruin Shieldbearer. This file is retained only as historical design provenance for the provisional Chapter-2 raw body. Do not use the Bastion Shield Guard name, visual identity, or Hold Line action in current content.
