@@ -86,13 +86,13 @@ Ilyra glances at him.
 
 A short silence while the city continues around them.
 
-**CYANIS:** Still fucking hungry.
+**CYANIS:** Still hungry.
 
 **TORREN:** Palace is still uphill.
 
 **ILYRA:** I think that's becoming his answer to you.
 
-**CYANIS:** I fucking regret this group.
+**CYANIS:** I regret this entire group.
 
 **MAEVRA:** No, you don't.
 
