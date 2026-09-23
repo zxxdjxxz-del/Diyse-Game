@@ -3,7 +3,7 @@
 **Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.  
 **Domain rule:** this file owns mandatory Chapter-2 story structure, scene order, reveal order, recruitment state, knowledge changes, and story outcomes. Exact dialogue belongs to the current rehearsal-first Agent Brain pipeline in `03_DIALOGUE`; combat mechanics belong to battle/encounter authority.
 
-**Status:** **LOCKED REVISED 16-BEAT STORY STRUCTURE / DIALOGUE PRODUCTION COMPLETE THROUGH BEATS 1–16 + C05.**
+**Status:** **LOCKED REVISED CHAPTER-2 STORY STRUCTURE / 15 ACTIVE MANDATORY BEATS + C05. LEGACY B06 MAP-MURAL SLOT RETIRED.**
 
 ## Dialogue-production rule
 Chapter 2 uses the locked Chapter-0/1 production method:
@@ -105,7 +105,7 @@ The elder may know:
 - ordinary road approaches are exposed;
 - an old, little-used waterworks service route once ran toward/under the Old Bastion's lower structure.
 
-The elder does **not** know about the Sunken Archive, western map mural, Leviathan, secret passage, Prisoner Galleries, Rhazek's command-room situation, or Seyrik.
+The elder does **not** know about the Sunken Archive, Leviathan, secret passage, Prisoner Galleries, Rhazek's command-room situation, or Seyrik.
 
 Decision:
 **enter the old waterworks → find a covert way into the Old Bastion → locate the kidnapped people**.
@@ -150,33 +150,24 @@ Purpose: establish the ancient complex as a substantial location.
 - older than the waterworks and Old Bastion;
 - not an active Black Host facility.
 
-End → Beat 6.
-
----
-
-## Beat 6 — Western Map Mural
-Purpose: major Ancient cartographic payoff.
-
-Hard rule:
-> **The western map mural is complete and coherent, not damaged.**
-
-It is a complete western section of a larger system. Lines continue cleanly beyond the panel edges. The party can align the Hollow Watch / Wayfinder / Dunmere corridor with the broader network. The network continues toward modern Caelora, where a much larger unfamiliar ancient city is shown.
-
-Immediately **north of that large city**, the mural shows a **separate small structure marker bearing the same Crest used by modern Yahtrea**. The Crest itself is recognizable to the party; the structure's identity, age relationship, purpose, and reason for carrying that symbol remain completely unexplained. The scene must not identify the structure as Cresthaven or any other later location/reveal.
-
-The reason ancient and modern geography do not align cleanly remains unresolved. Practical copies are made, including the crest-marked northern structure.
-
-Do not reveal Cresthaven, Last Sentinel, buried-Crest truth, Entity, the identity/history of the ancient city, the identity/purpose of the crest-marked structure, or the complete network.
-
 End → Beat 7.
 
 ---
 
+## Legacy B06 — Western Map Mural — RETIRED
+There is **no Chapter-2 map mural scene or second major cartographic discovery**.
+
+The Chapter-1 Wayfinder remains the party's latest major Ancient map evidence throughout Chapter 2. Do not add a replacement wall map, route plate, Crest-marked map structure, Caelora-city map reveal, or equivalent cartographic payoff elsewhere in this chapter.
+
+The B06 identifier is retired only to preserve stable downstream production/runtime numbering. Current story flow goes directly from Beat 5 to Beat 7.
+
+---
+
 ## Beat 7 — Archive Depths
-Purpose: substantial deeper exploration after the mural and before the boss.
+Purpose: substantial deeper exploration of the Ancient complex before the boss.
 
 - worsening environmental pressure/hazards;
-- no second major lore reveal;
+- no major cartographic/lore reveal;
 - no routine Black Host presence;
 - no clean alternate route;
 - Archive Leviathan blocks progression.
@@ -386,9 +377,8 @@ Do not reveal in Chapter 2:
 - Seyrik's identity/history/future role;
 - complete Prime/Last Sentinel answers;
 - full Diysean route/network explanation;
-- identity/full history of the huge ancient city at modern Caelora;
-- identity/purpose of the crest-marked structure north of that city;
+- any Chapter-2 replacement reveal that fills in the Wayfinder's broken Caelora-area center;
+- any Crest-marked cartographic structure or equivalent replacement for the retired mural;
 - Cresthaven;
-- reason ancient and modern geography do not align cleanly;
 - buried-Crest truth;
 - Entity.
