@@ -11,14 +11,14 @@ Chapter 10 deliberately uses:
 | Archive Scribe Engine — Ch10 | 43 | 1,050 | 72 | 158 | 86 | 102 | 35 | 0 | 10 | 210 /165 AoE |
 | Judgment Frame — Ch10 | 44 | 1,520 | 160 | 142 | 108 | 96 | 31 | 0 | 10 | 225 /175 AoE /250 |
 | Erasure Wisp — Ch10 | 43 | 820 | 34 | 164 | 62 | 100 | 44 | 10 | 10 | 220 Ruin /160 AoE /195 Ruin |
-| Command-Station Sentry — Ch10 | 44 | 1,360 | 156 | 136 | 104 | 98 | 36 | 0 | 10 | 220 /210 Lightning |
+| Command Guard Frame — Ch10 | 44 | 1,360 | 156 | 136 | 104 | 98 | 36 | 0 | 10 | 220 /210 Lightning |
 | Authority Lens — Ch10 | 44 | 940 | 38 | 170 | 70 | 110 | 40 | 5 | 10 | 225 /160 Lightning AoE |
 | Command Ring Drone — Ch10 | 44 | 980 | 42 | 150 | 82 | 98 | 42 | 5 | 10 | 190 /145 AoE |
 
 Area use:
 - Eastern forest — Thornvine Creeper / Briar Boar
 - Eastern Wayfinder — Archive Scribe Engine / Judgment Frame / Erasure Wisp
-- Buried Registry — Command-Station Sentry / Authority Lens / Command Ring Drone
+- Buried Registry — Command Guard Frame / Authority Lens / Command Ring Drone
 - Judgment Frame may cross-use
 
 Recovered formation compositions remain unchanged.
