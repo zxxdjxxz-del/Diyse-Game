@@ -3,79 +3,45 @@
   "scene_id": "CH03_BEAT01_CAELORA_GATE_ARRIVAL",
   "chapter_id": "chapter_03",
   "story_position": "Chapter 3 — Beat 1 — Caelora Gate / Arrival",
-  "production_ready": false,
-  "participants": ["cyanis", "ilyra", "torren", "maevra"],
-  "scene_purpose": "Let Caelora arrive as a functioning capital before the royal-seal mystery begins; establish lawful routine entry under Maevra's authority; preserve Cyanis's possession of the Card and Torren's copied western-mural evidence; give the player a short first stretch inside the city where the party can register that the Ancient city shown on the mural was substantially larger than modern Caelora without explaining why.",
-  "story_sources": [
-    {
-      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
-      "sections": ["Opening state", "Retired opening premise", "Beat 1 — Caelora Gate / Arrival"],
-      "role": "current_chapter_03_beat_01_story_authority"
-    }
+  "production_ready": true,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "maevra"
   ],
-  "additional_authority_sources": [
-    {
-      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
-      "whole_file": true,
-      "role": "current_field_and_town_dialogue_presentation_lock"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md",
-      "whole_file": true,
-      "role": "mandatory_rehearsal_first_agent_brain_pipeline"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
-      "whole_file": true,
-      "role": "rehearsal_first_authoring_and_reductive_staging_lock"
-    }
-  ],
-  "scene_context_seed": {
-    "location_name": "Caelora Gate and first controlled city stretch",
-    "area_phase": "lawful_capital_arrival",
-    "dialogue_readiness": "GREEN",
-    "static_story_context_only": true,
-    "runtime_note": "Caelora is functioning, populated, secure and governed. The gate is routine procedure, not an obstacle or detention beat. In the city/town presentation, relevant party members may be visible as field models. Keep gate processing concise and non-suspicious. A short walking exchange after entry is legal because Maevra is actively guiding the group to the palace. Do not begin the royal-seal mystery in Beat 1."
-  },
+  "scene_purpose": "Let Caelora arrive as a functioning capital before the royal-seal mystery begins; establish lawful routine entry under Maevra's authority; preserve Cyanis's possession of the Card and the party's Chapter-1 Wayfinder evidence; allow one bounded comparison between modern Caelora and the already-known Ancient capital footprint without treating the capital's existence as a new reveal.",
   "current_floor_state": {
-    "party_state": "cyanis_ilyra_torren_permanent_combat_party_with_nonplayable_maevra_traveling",
-    "card_state": "recovered_card_carried_by_cyanis",
-    "mural_evidence_state": "torren_carries_existing_chapter_2_copy_showing_huge_ancient_city_at_modern_caelora_and_exact_yahtrean_crest_on_separate_northern_site",
-    "rhazek_state": "alive_after_old_bastion_withdrawal",
-    "missing_prisoners_state": "earlier_transferred_captives_still_missing",
-    "location_presentation": "town_hub_relevant_party_models_allowed",
-    "dialogue_presentation": "portraits_plus_dialogue_box_with_simple_field_presence",
-    "chapter_3_started": true
+    "party_state": "cyanis_ilyra_torren permanent combat party with nonplayable maevra traveling",
+    "card_state": "recovered card carried by cyanis",
+    "wayfinder_state": "chapter_1 physical Wayfinder is ancient and broken through the Caelora-area center; party carries copied/recorded evidence",
+    "ancient_capital_knowledge": "existence at modern Caelora already known; complete scale/layout not known",
+    "rhazek_state": "alive after Old Bastion withdrawal"
   },
-  "required_story_beats": [
-    "Caelora is allowed a clean visual arrival before dialogue density begins.",
-    "The party enters through a normal functioning gate checkpoint under Maevra's legitimate Crown authority.",
-    "No one detains the party or attempts to seize Cyanis's Card.",
-    "The player receives a short first controlled stretch inside Caelora before the palace handoff.",
-    "Torren may make one bounded practical comparison between modern Caelora and the larger Ancient city shown on the copied mural.",
-    "No character explains why the exact Yahtrean Crest appears on the Ancient material.",
-    "Beat ends by handing directly into the royal audience/report."
+  "hard_outcomes": [
+    "Routine lawful Caelora entry.",
+    "No detention or Card seizure.",
+    "Modern Caelora receives a clean visual introduction.",
+    "Torren may make one bounded comparison showing the known Ancient capital footprint exceeded modern Caelora, while the broken Wayfinder center prevents full reconstruction.",
+    "Beat hands directly into the royal audience."
   ],
   "forbidden_reveals": [
-    "queen_lysara_prior_ignorance_of_the_card",
-    "suspect_card_transport_orders",
-    "genuine_royal_seal_magical_response",
+    "deleted_chapter_2_mural",
+    "crest_marked_northern_structure",
+    "queen_lysara_prior_ignorance",
+    "genuine_royal_seal_response",
     "calder_hidden_role",
-    "nimera_identity_or_location",
-    "prime_or_might_classification",
+    "nimera",
+    "prime",
+    "might",
     "last_sentinel",
-    "cresthaven_identity",
-    "true_ancient_city_identity_or_history"
+    "cresthaven",
+    "complete_ancient_caelora_layout"
   ],
-  "forbidden_presentation": [
-    "containment_or_detention_framing",
-    "automatic_card_seizure",
-    "gate_as_story_obstacle",
-    "party_roll_call_dialogue",
-    "unnecessary_gate_npc_subplot",
-    "micro_choreography",
-    "extra_city_business_invented_by_dialogue_script"
-  ],
-  "production_cost_ceiling": "economical_town_arrival_and_short_portrait_exchange",
-  "maximum_beat_count": 3
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/maevra.yaml"
+  ]
 }
