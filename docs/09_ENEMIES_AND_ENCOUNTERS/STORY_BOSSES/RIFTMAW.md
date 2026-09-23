@@ -95,3 +95,9 @@ The current story structure now places Riftmaw together with the Convoy War-Sorc
 - Single-target actions select equally between conscious Cyanis and Ilyra.
 - Riftmaw has no hidden preference for the lower-HP target, Ilyra, Cyanis, or the character most recently healed.
 - Riftmaw does not gain a combo/assist attack from the Convoy War-Sorcerer.
+
+## Visual authority
+Current locked Chapter-0 appearance:
+> `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
+
+Combat/encounter mechanics remain owned by this file; visual identity is owned by the art-domain authority above.
