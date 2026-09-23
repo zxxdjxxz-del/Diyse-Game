@@ -8,30 +8,30 @@
 
 | Order | Canonical slot | Atomic source | SHA-256 |
 |---:|---|---|---|
-| 1 | Beat 1 | `BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md` | `c05adf5cd505fe4611d975309667f0596a5685f4964df60e4b18ec102d071557` |
+| 1 | Beat 1 | `BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md` | `a3f3a3c26f19b88bf8556be6f0782b17c42c2db07632f4d2a6e37bc17a55a91f` |
 | 2 | Beat 2 | `BEAT_02_ROYAL_AUDIENCE_CH2_REPORT_DRAFT_A.md` | `c9a5dd986f27a098269bbeb55cbcfdc9378e67bee031bed3c7a7d5d06b83d4b4` |
-| 3 | Beat 3 | `BEAT_03_IMPOSSIBLE_ORDERS_DRAFT_A.md` | `a21038fb3c077a285aa1d591d17caa6361bdf1f18726cbca9846c1ba54f22cca` |
+| 3 | Beat 3 | `BEAT_03_IMPOSSIBLE_ORDERS_DRAFT_A.md` | `5239b06c2cc6347c247e35ad987a283d83bd3ef4a651d09fdcf4bd0a5f3f8234` |
 | 4 | Beat 4 | `BEAT_04_SEAL_NOT_USED_DRAFT_A.md` | `64f380fd16ffdc4c8bebcfc1f3e9a9a269fe6536471bca37a840c06bfc0d6471` |
-| 5 | Beat 5 | `BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md` | `a13fdca7753cff6ee85024a96834d151729a2bb588f4c0d42f828565a0d8c9b1` |
-| 6 | Beat 6 | `BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md` | `041f78af4bf6cdfaf61a2aff6c818d82d17b050775e70a1f184da4d8653a10dc` |
-| 7 | Beat 7 | `BEAT_07_LOWER_ARCHIVES_DRAFT_A.md` | `5643ca526f966401a796c5760f9cafecd4631aa56722cc09b97d39c7054fed59` |
-| 8 | Beat 8 | `BEAT_08_BURIED_COLLECTIONS_RECENT_READER_DRAFT_A.md` | `c4551b603c2927e4e10f23d72f38d45852778831f1c76eb0f97ad4cb855a0499` |
-| 9 | Beat 9 | `BEAT_09_HALL_OF_SEALS_RECENT_READER_DRAFT_A.md` | `515b920b51ac6844f9229baaf69eefd4b690a49b4031e12a73ebf98a1becc73e` |
-| 10 | Beat 10 | `BEAT_10_DEEP_ARCHIVES_DRAFT_A.md` | `96d810ea133d604aa2bd6c2959d6786f913520029f28f0761c489317c41b90e7` |
-| 11 | Beat 11 | `BEAT_11_ARCHIVE_SCRIBE_ENGINE_DRAFT_A.md` | `96384eafb405cf4c3ec69a23c8cfb662e4e0ddd269a482a0935efff36f26ea67` |
-| 12 | Beat 12 | `BEAT_12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DRAFT_A.md` | `e4d69865e6519d4b2bdb5fbda98de4569b78113ddd588808bec1ebb7e1dcabae` |
-| 13 | Beat 13 | `BEAT_13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DRAFT_A.md` | `4d8f0667679c9f547f2c3b6811d4c8903ba0441e0edabe1f9a70ace377727e18` |
-| 14 | Beat 14 | `BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md` | `446027e078a5c267689aae9a4f71bf8e9b40d7bd99a32449da62ea49a0837d18` |
-| 15 | Beat 15 | `BEAT_15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DRAFT_A.md` | `0aebca384dd1133d3e60d72360ccbf8d930df61cb33de8484b8f1696dfadbc80` |
-| 16 | C06 — Nimera Takes Over a Table | `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md` | `a94dd635cdb28ba5f86c2b4bf21b49eb76689f6c1255bbbc54d126690d3381eb` |
-| 17 | C07 — Ilyra and Nimera | `H03_ILYRA_AND_NIMERA_DRAFT_A.md` | `33ce94dca6fdc18170751b27f90d5932c19e83884416c94d061a163db2878e9d` |
+| 5 | Beat 5 | `BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md` | `2bba880980c269e13d67fc66ed11be942120909f27691c30b129ee3f66b8a7eb` |
+| 6 | Beat 6 | `BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md` | `90a8eb3939fbb4fd22bb527fdbb00fa1eeeb05de0ba615c52247655d8e5bfa04` |
+| 7 | Beat 7 | `BEAT_07_LOWER_ARCHIVES_DRAFT_A.md` | `bfbae309d1a7a32c86b07dedd968576e5bd44b84a192f63b70ad2bba78bad890` |
+| 8 | Beat 8 | `BEAT_08_BURIED_COLLECTIONS_RECENT_READER_DRAFT_A.md` | `73f2964492fc491e485e5324dc068541b9ae70bb3c530e9b711b73926cb23222` |
+| 9 | Beat 9 | `BEAT_09_HALL_OF_SEALS_RECENT_READER_DRAFT_A.md` | `09e88c87a0b8e954ee80156779642ef914fa36ab44d3f0cd8788c6e6182f9d3c` |
+| 10 | Beat 10 | `BEAT_10_DEEP_ARCHIVES_DRAFT_A.md` | `3f8c8e240edd8b7b89f321eb11cd7fb651373c9fb7e461b1066e75af2d312d1a` |
+| 11 | Beat 11 | `BEAT_11_ARCHIVE_SCRIBE_ENGINE_DRAFT_A.md` | `624c71299220ab35c763b0dbe7e634f6f7e6f81f766bbd17fd32e1ae205eafa4` |
+| 12 | Beat 12 | `BEAT_12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DRAFT_A.md` | `84047df1d4069cab4cedd0c68f506516b049420e947611e5d2c4d9aec4c2bfc2` |
+| 13 | Beat 13 | `BEAT_13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DRAFT_A.md` | `afc848f601536efc295584d019140736ca9965ec736372f7bf136f38ea4d43f6` |
+| 14 | Beat 14 | `BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md` | `986cecf4ca9ef615c5ccc8f4971637a844114713b50ca7e775d893d0a00f4fe1` |
+| 15 | Beat 15 | `BEAT_15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DRAFT_A.md` | `02e63d3e9d85bf6e5dbef0168744e76fea05b1c4d8dc9a78362ebc14aae7a343` |
+| 16 | C06 — Nimera Takes Over a Table | `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md` | `d5de0339f0c0c420280fc65364d4257a7038e190e06cb0d5a6f8ca06b749124b` |
+| 17 | C07 — Ilyra and Nimera | `H03_ILYRA_AND_NIMERA_DRAFT_A.md` | `a6c1e14d9a3061122eecae514b00a96e17f2e05d69404e6eac2c6f9ca743501b` |
 
 ---
 
 ## Beat 1
 
 **Atomic source:** `BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md`  
-**Source SHA-256:** `c05adf5cd505fe4611d975309667f0596a5685f4964df60e4b18ec102d071557`
+**Source SHA-256:** `a3f3a3c26f19b88bf8556be6f0782b17c42c2db07632f4d2a6e37bc17a55a91f`
 
 # Chapter 3 — Beat 1
 # Caelora Gate / Arrival
@@ -121,13 +121,13 @@ Ilyra glances at him.
 
 A short silence while the city continues around them.
 
-**CYANIS:** Still fucking hungry.
+**CYANIS:** Still hungry.
 
 **TORREN:** Palace is still uphill.
 
 **ILYRA:** I think that's becoming his answer to you.
 
-**CYANIS:** I fucking regret this group.
+**CYANIS:** I regret this entire group.
 
 **MAEVRA:** No, you don't.
 
@@ -334,7 +334,7 @@ Transition directly into:
 ## Beat 3
 
 **Atomic source:** `BEAT_03_IMPOSSIBLE_ORDERS_DRAFT_A.md`  
-**Source SHA-256:** `a21038fb3c077a285aa1d591d17caa6361bdf1f18726cbca9846c1ba54f22cca`
+**Source SHA-256:** `5239b06c2cc6347c247e35ad987a283d83bd3ef4a651d09fdcf4bd0a5f3f8234`
 
 # Chapter 3 — Beat 3
 # The Impossible Orders
@@ -438,7 +438,7 @@ Ilyra gives the smallest nod.
 
 **ILYRA:** I support not recreating that experiment.
 
-**CYANIS:** No fucking argument from me.
+**CYANIS:** No argument from me.
 
 **LYSARA:** This is custody, not ownership.
 
@@ -679,7 +679,7 @@ Transition into:
 ## Beat 5
 
 **Atomic source:** `BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md`  
-**Source SHA-256:** `a13fdca7753cff6ee85024a96834d151729a2bb588f4c0d42f828565a0d8c9b1`
+**Source SHA-256:** `2bba880980c269e13d67fc66ed11be942120909f27691c30b129ee3f66b8a7eb`
 
 # Chapter 3 — Beat 5
 # Old City Access / Archive Descent
@@ -710,7 +710,7 @@ An archive keeper verifies Mirena's authorization.
 
 Torren looks toward the descent.
 
-**TORREN:** How far does `maintained` mean fucking maintained?
+**TORREN:** How far does `maintained` mean actually maintained?
 
 The keeper understands the question.
 
@@ -722,7 +722,7 @@ Torren nods.
 
 **ARCHIVE KEEPER:** If the marked route and the room disagree, the room wins.
 
-**ILYRA:** Fuck, I like them.
+**ILYRA:** I like them.
 
 **CYANIS:** That was fast.
 
@@ -796,7 +796,7 @@ Cyanis waits.
 
 **TORREN:** Marked route's left.
 
-**CYANIS:** And there goes the fucking wonder.
+**CYANIS:** And there goes the wonder.
 
 **TORREN:** Wonder can turn left.
 
@@ -826,7 +826,7 @@ Transition directly into:
 ## Beat 6
 
 **Atomic source:** `BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md`  
-**Source SHA-256:** `041f78af4bf6cdfaf61a2aff6c818d82d17b050775e70a1f184da4d8653a10dc`
+**Source SHA-256:** `90a8eb3939fbb4fd22bb527fdbb00fa1eeeb05de0ba615c52247655d8e5bfa04`
 
 # Chapter 3 — Beat 6
 # Scholar in Redacted Stacks / Nimera Joins
@@ -862,9 +862,9 @@ Ilyra smiles.
 
 Nimera notices the route notebook at Torren's belt.
 
-**NIMERA:** Harth. I've seen your copied route marks. They're fucking criminal.
+**NIMERA:** Harth. I've seen your copied route marks. They're criminal as hell.
 
-**TORREN:** They fucking work.
+**TORREN:** They work. You hate them.
 
 **NIMERA:** For you. So does scratching food on a sack. That doesn't make it an archive standard.
 
@@ -904,7 +904,7 @@ Cyanis gives her the bounded Brackenwall account.
 
 Nimera thinks for a second.
 
-**NIMERA:** Good. Boring restraint is fucking beautiful when the alternative is turning a person into an experiment because everybody got curious at once.
+**NIMERA:** Good. Boring restraint is damn beautiful when the alternative is turning a person into an experiment because everybody got curious at once.
 
 **CYANIS:** That's almost flattering.
 
@@ -972,7 +972,7 @@ Nimera points at him.
 
 Nimera turns back to the spread on her table and flips through two tagged volumes.
 
-**NIMERA:** The useful seal material is not in this fucking room.
+**NIMERA:** The useful seal material is not in this damn room.
 
 **CYANIS:** Where is it?
 
@@ -996,7 +996,7 @@ Cyanis watches.
 
 **CYANIS:** Fair as hell.
 
-**NIMERA:** Also, if your Card does something new, I want to be there before four people turn one weird twitch into a fucking creation myth.
+**NIMERA:** Also, if your Card does something new, I want to be there before four people turn one weird twitch into a bullshit creation myth.
 
 Torren glances toward the lower route.
 
@@ -1006,7 +1006,7 @@ Nimera shoulders her things and picks up her Conduit.
 
 **NIMERA:** Then let's go see how much of marked survives contact with the floor.
 
-**TORREN:** Starting to like you a hell of a lot less.
+**TORREN:** Starting to like you less.
 
 **NIMERA:** Good. Means you're paying attention.
 
@@ -1057,7 +1057,7 @@ Transition into:
 ## Beat 7
 
 **Atomic source:** `BEAT_07_LOWER_ARCHIVES_DRAFT_A.md`  
-**Source SHA-256:** `5643ca526f966401a796c5760f9cafecd4631aa56722cc09b97d39c7054fed59`
+**Source SHA-256:** `bfbae309d1a7a32c86b07dedd968576e5bd44b84a192f63b70ad2bba78bad890`
 
 # Chapter 3 — Beat 7
 # Lower Archives
@@ -1097,7 +1097,7 @@ Nimera crouches, looks, then looks at the marker.
 
 **TORREN:** Outdated.
 
-**NIMERA:** That's the respectable word for lying with fucking paperwork.
+**NIMERA:** That's the respectable word for lying with damn paperwork.
 
 **ILYRA:** You two are going to be unbearable together.
 
@@ -1111,7 +1111,7 @@ Cyanis checks the alternate side passage.
 
 Torren tests it.
 
-**TORREN:** Better. Less likely to drop us through the fucking floor.
+**TORREN:** Better. Less likely to drop us through the damn floor.
 
 **NIMERA:** Irritatingly, that's a measurement I can use.
 
@@ -1133,7 +1133,7 @@ Nimera opens a warped catalogue drawer and finds several records copied across d
 
 **TORREN:** Normal?
 
-**NIMERA:** Fucking tragically. One person writes maybe, next person writes probably, third bastard writes obviously, and suddenly everybody has inherited certainty from a corpse.
+**NIMERA:** Tragically. One person writes maybe, next person writes probably, third bastard writes obviously, and suddenly everybody has inherited certainty from a corpse.
 
 **CYANIS:** You really love archives.
 
@@ -1167,7 +1167,7 @@ Beyond it, older shelving and record frames continue.
 
 Nimera checks the final numbered ledger.
 
-**NIMERA:** Catalogue fucking stops here.
+**NIMERA:** Catalogue stops here. Shit.
 
 **TORREN:** Building doesn't.
 
@@ -1221,7 +1221,7 @@ Transition into:
 ## Beat 8
 
 **Atomic source:** `BEAT_08_BURIED_COLLECTIONS_RECENT_READER_DRAFT_A.md`  
-**Source SHA-256:** `c4551b603c2927e4e10f23d72f38d45852778831f1c76eb0f97ad4cb855a0499`
+**Source SHA-256:** `73f2964492fc491e485e5324dc068541b9ae70bb3c530e9b711b73926cb23222`
 
 # Chapter 3 — Beat 8
 # Buried Collections / Recent Reader
@@ -1259,7 +1259,7 @@ Nimera checks it.
 
 **NIMERA:** Yes. Different hand, different ink, twenty-eight years later. Good catch.
 
-**TORREN:** I can fucking read.
+**TORREN:** I can read, Pellan.
 
 **NIMERA:** I never doubted literacy. Judgment remains under review.
 
@@ -1386,7 +1386,7 @@ Transition into:
 ## Beat 9
 
 **Atomic source:** `BEAT_09_HALL_OF_SEALS_RECENT_READER_DRAFT_A.md`  
-**Source SHA-256:** `515b920b51ac6844f9229baaf69eefd4b690a49b4031e12a73ebf98a1becc73e`
+**Source SHA-256:** `09e88c87a0b8e954ee80156779642ef914fa36ab44d3f0cd8788c6e6182f9d3c`
 
 # Chapter 3 — Beat 9
 # Hall of Seals / Recent Reader Continuation
@@ -1416,13 +1416,13 @@ Nimera opens an old keeper ledger.
 
 **TORREN:** Method?
 
-**NIMERA:** Referenced somewhere else, because apparently dead archivists enjoyed leaving future scholars little fucking treasure hunts.
+**NIMERA:** Referenced somewhere else, because apparently dead archivists enjoyed leaving future scholars damned treasure hunts.
 
 **CYANIS:** Does that mean Lysara doesn't have to consciously put magic into every document?
 
 **NIMERA:** Probably. Historical model, not direct proof about her specific seal. Keep the qualifier attached or I will physically staple it to the sentence.
 
-**CYANIS:** I fucking heard it.
+**CYANIS:** I heard you.
 
 **TORREN:** You correct your own jokes too?
 
@@ -1500,7 +1500,7 @@ Transition into:
 ## Beat 10
 
 **Atomic source:** `BEAT_10_DEEP_ARCHIVES_DRAFT_A.md`  
-**Source SHA-256:** `96d810ea133d604aa2bd6c2959d6786f913520029f28f0761c489317c41b90e7`
+**Source SHA-256:** `3f8c8e240edd8b7b89f321eb11cd7fb651373c9fb7e461b1066e75af2d312d1a`
 
 # Chapter 3 — Beat 10
 # Deep Archives
@@ -1540,7 +1540,7 @@ She moves around the room rather than answering immediately.
 
 She looks at the Ruin mark.
 
-**NIMERA:** And before somebody decides Ruin belongs in the evil fucking corner, it doesn't. Same weight, same placement, same workmanship.
+**NIMERA:** And before somebody decides Ruin belongs in the evil-ass corner, it doesn't. Same weight, same placement, same workmanship.
 
 **TORREN:** Nobody said that shit.
 
@@ -1564,13 +1564,13 @@ A broad copying gallery contains mechanical arms and record frames frozen in pla
 
 One detached scribing arm shifts when the party crosses.
 
-**ILYRA:** That fucking moved.
+**ILYRA:** That moved.
 
 **NIMERA:** I saw.
 
 **TORREN:** More behind it.
 
-**CYANIS:** Still fucking archive equipment?
+**CYANIS:** Still archive equipment?
 
 Nimera watches the old mechanisms.
 
@@ -1632,7 +1632,7 @@ Transition into:
 ## Beat 11
 
 **Atomic source:** `BEAT_11_ARCHIVE_SCRIBE_ENGINE_DRAFT_A.md`  
-**Source SHA-256:** `96384eafb405cf4c3ec69a23c8cfb662e4e0ddd269a482a0935efff36f26ea67`
+**Source SHA-256:** `624c71299220ab35c763b0dbe7e634f6f7e6f81f766bbd17fd32e1ae205eafa4`
 
 # Chapter 3 — Beat 11
 # Archive Scribe Engine
@@ -1690,9 +1690,9 @@ The Engine locks halfway through a final copying stroke.
 
 A long metal arm hangs over the transfer floor.
 
-**CYANIS:** Everybody still fucking standing?
+**CYANIS:** Everybody still standing?
 
-**ILYRA:** Against my fucking better judgment.
+**ILYRA:** Against my better judgment.
 
 Torren watches the mechanism settle.
 
@@ -1702,9 +1702,9 @@ Nimera is staring at the half-finished stroke.
 
 **NIMERA:** Maybe.
 
-**TORREN:** You just fucking agreed it was done.
+**TORREN:** You just agreed it was done.
 
-**NIMERA:** Done trying to kill us. Different fucking category.
+**NIMERA:** Done trying to kill us. Different damn category.
 
 She approaches only after the mechanism is fully still.
 
@@ -1755,7 +1755,7 @@ Transition into:
 ## Beat 12
 
 **Atomic source:** `BEAT_12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DRAFT_A.md`  
-**Source SHA-256:** `e4d69865e6519d4b2bdb5fbda98de4569b78113ddd588808bec1ebb7e1dcabae`
+**Source SHA-256:** `84047df1d4069cab4cedd0c68f506516b049420e947611e5d2c4d9aec4c2bfc2`
 
 # Chapter 3 — Beat 12
 # Inner Collections / Westways Recordbook / Sealwright Chamber
@@ -1777,7 +1777,7 @@ Its binding is worn, repaired twice, and utterly ordinary.
 
 **NIMERA:** Westways road and settlement records. Old.
 
-**TORREN:** How fucking old?
+**TORREN:** How old are we talking?
 
 She checks the hands, paper, binding repairs, and catalog note.
 
@@ -1803,7 +1803,7 @@ Torren leans over it.
 
 Cyanis sees it too.
 
-**CYANIS:** That's the fucking Wayfinder.
+**CYANIS:** That's the damned Wayfinder.
 
 Nimera does not answer immediately.
 
@@ -1843,7 +1843,7 @@ Torren follows the broadest routes north.
 
 Several converge on a huge depicted structure north of the Caelora cluster.
 
-**TORREN:** There. Big fucking tower. The largest routes converge on it—and keep going north.
+**TORREN:** There. Big damn tower. The largest routes converge on it—and keep going north.
 
 The copied map ends.
 
@@ -1891,7 +1891,7 @@ Repeated Crest of Yahtrea impressions.
 
 Nimera studies the attempts.
 
-**NIMERA:** Not proven. Visually close, magical residue everywhere, but a genuine royal authority response? We do not have that. Copying the shape and copying the working authority are not the same fucking achievement.
+**NIMERA:** Not proven. Visually close, magical residue everywhere, but a genuine royal authority response? We do not have that. Copying the shape and copying the working authority are not the same damned achievement.
 
 **ILYRA:** Same asshole who researched the Hall?
 
@@ -1948,7 +1948,7 @@ Cut directly upstairs in Caelora to:
 ## Beat 13
 
 **Atomic source:** `BEAT_13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DRAFT_A.md`  
-**Source SHA-256:** `4d8f0667679c9f547f2c3b6811d4c8903ba0441e0edabe1f9a70ace377727e18`
+**Source SHA-256:** `afc848f601536efc295584d019140736ca9965ec736372f7bf136f38ea4d43f6`
 
 # Chapter 3 — Beat 13
 # Return to Mirena / Cresthaven Identified
@@ -1976,7 +1976,7 @@ Mirena looks up when they enter.
 
 **MIRENA:** You all look like the archive tried to keep you.
 
-**ILYRA:** It made a fucking argument.
+**ILYRA:** It made an argument.
 
 **NIMERA:** Several. Most were badly sourced and one tried to kill us.
 
@@ -2010,7 +2010,7 @@ Cyanis looks to Nimera.
 
 Cyanis sets down the careful copy made from the old Westways recordbook.
 
-**CYANIS:** This is the part that finally gives us somewhere to fucking go.
+**CYANIS:** This is the part that finally gives us somewhere to go.
 
 Mirena unfolds it.
 
@@ -2080,7 +2080,7 @@ Mirena folds the modern map but leaves the copied Wayfinder map open.
 
 **CYANIS:** Tomorrow?
 
-**MIRENA:** After everyone fucking sleeps.
+**MIRENA:** After everyone sleeps.
 
 Ilyra looks at Cyanis.
 
@@ -2132,7 +2132,7 @@ Transition into:
 ## Beat 14
 
 **Atomic source:** `BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md`  
-**Source SHA-256:** `446027e078a5c267689aae9a4f71bf8e9b40d7bd99a32449da62ea49a0837d18`
+**Source SHA-256:** `986cecf4ca9ef615c5ccc8f4971637a844114713b50ca7e775d893d0a00f4fe1`
 
 # Chapter 3 — Beat 14
 # Cresthaven / Ancient Tower Base / First Command Warden
@@ -2196,7 +2196,7 @@ Torren stops at a partially collapsed storage room where later flooring has brok
 
 Below the Crown floor is a much older stair and fitted wall.
 
-**ILYRA:** That's really fucking subtle.
+**ILYRA:** Subtle as hell.
 
 **NIMERA:** It was subtle while a floor was sitting on it.
 
@@ -2236,7 +2236,7 @@ They reach a chamber where the outer foundation curve continues beyond the visib
 
 **TORREN:** There.
 
-**CYANIS:** The tower was this fucking wide?
+**CYANIS:** The tower was this damn wide?
 
 **TORREN:** Foundation was.
 
@@ -2248,7 +2248,7 @@ Nimera looks around.
 
 **NIMERA:** No. Big is not a function. Important-looking is not a function either, before anybody tries that shit.
 
-**CYANIS:** I hadn't fucking said anything.
+**CYANIS:** I hadn't said a damned thing.
 
 **NIMERA:** Preventive maintenance.
 
@@ -2268,7 +2268,7 @@ A large Diysean construct stands dormant.
 
 Torren stops.
 
-**TORREN:** That one's fucking intact.
+**TORREN:** That one's intact.
 
 **NIMERA:** Large, armed, not moving. I am not upgrading that to safe.
 
@@ -2300,7 +2300,7 @@ The Warden's posture hardens.
 
 Its weapon rises.
 
-**TORREN:** Answer's a hard fucking no.
+**TORREN:** Answer's a hard no.
 
 **NIMERA:** Apparently we're unacceptable. Rude.
 
@@ -2360,7 +2360,7 @@ She looks at the dead construct.
 
 **CYANIS:** What the fuck does that mean?
 
-**NIMERA:** Not a fucking clue.
+**NIMERA:** Not a damned clue.
 
 ### [ONLY AFTER THE WARDEN IS INERT — THE CARD]
 
@@ -2380,7 +2380,7 @@ Then stops.
 
 **CYANIS:** It's staying.
 
-**ILYRA:** Same fucked-up feeling as Brackenwall?
+**ILYRA:** Same ugly feeling as Brackenwall?
 
 **CYANIS:** No. I feel normal.
 
@@ -2426,7 +2426,7 @@ Transition into:
 ## Beat 15
 
 **Atomic source:** `BEAT_15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DRAFT_A.md`  
-**Source SHA-256:** `0aebca384dd1133d3e60d72360ccbf8d930df61cb33de8484b8f1696dfadbc80`
+**Source SHA-256:** `02e63d3e9d85bf6e5dbef0168744e76fea05b1c4d8dc9a78362ebc14aae7a343`
 
 # Chapter 3 — Beat 15
 # Cresthaven Headquarters / Cleanup / Ivorybridge Decision
@@ -2470,7 +2470,7 @@ Mirena walks them through the minimum.
 
 **MIRENA:** This room is yours for maps and records. Sleeping rooms are usable. Supply room is ugly but stocked. The old treatment room needs work, but it has water and a door that closes.
 
-**ILYRA:** Fucking luxury.
+**ILYRA:** Luxury. I'm overwhelmed.
 
 **MIRENA:** I was told adventurers enjoy deprivation.
 
@@ -2560,7 +2560,7 @@ Mirena looks around the half-reopened fort.
 
 **MIRENA:** I knew I disliked that question.
 
-**ILYRA:** Too fucking late.
+**ILYRA:** Too late.
 
 Mirena smiles and heads out with Maevra.
 
@@ -2602,7 +2602,7 @@ Current next investigative direction:
 ## C06 — Nimera Takes Over a Table
 
 **Atomic source:** `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md`  
-**Source SHA-256:** `a94dd635cdb28ba5f86c2b4bf21b49eb76689f6c1255bbbc54d126690d3381eb`
+**Source SHA-256:** `d5de0339f0c0c420280fc65364d4257a7038e190e06cb0d5a6f8ca06b749124b`
 
 # Chapter 3 — Character-Life C06
 # Nimera Takes Over a Table
@@ -2641,7 +2641,7 @@ She looks up.
 
 Then laughs hard enough to put the pen down.
 
-**NIMERA:** Oh, good. Fuck, that's a relief.
+**NIMERA:** Oh, good. Shit, that's a relief.
 
 **CYANIS:** Good?
 
@@ -2747,7 +2747,7 @@ Cyanis points to a cup sitting in its own clear patch.
 
 **CYANIS:** Your cup has territory.
 
-**NIMERA:** Liquid should not share a fucking border with ink and paper. That's civilization.
+**NIMERA:** Liquid should not share a damn border with ink and paper. That's civilization.
 
 Torren nods.
 
@@ -2845,7 +2845,7 @@ Nimera pauses.
 
 Looks at the pile.
 
-**NIMERA:** Fuck. That's better.
+**NIMERA:** Shit. That's better.
 
 **CYANIS:** Thank you.
 
@@ -2939,7 +2939,7 @@ Nimera looks at the paper on the floor.
 
 Silence.
 
-**NIMERA:** Fucking cowards.
+**NIMERA:** Cowardly bastards.
 
 She retrieves it and returns to work.
 
@@ -2956,7 +2956,7 @@ The records room simply feels more inhabited than before.
 ## C07 — Ilyra and Nimera
 
 **Atomic source:** `H03_ILYRA_AND_NIMERA_DRAFT_A.md`  
-**Source SHA-256:** `33ce94dca6fdc18170751b27f90d5932c19e83884416c94d061a163db2878e9d`
+**Source SHA-256:** `a6c1e14d9a3061122eecae514b00a96e17f2e05d69404e6eac2c6f9ca743501b`
 
 # Chapter 3 — Character-Life C07
 # Ilyra and Nimera
@@ -2985,7 +2985,7 @@ Ilyra glances over.
 
 Nimera slowly turns toward her.
 
-**NIMERA:** No. That's fucking surrender disguised as handwriting.
+**NIMERA:** No. That's bullshit surrender disguised as handwriting.
 
 **ILYRA:** It's a box.
 
@@ -3133,7 +3133,7 @@ Ilyra laughs.
 
 **ILYRA:** No. I'm enjoying you prosecuting and acquitting a stranger over charcoal.
 
-**NIMERA:** The fucking evidence changed.
+**NIMERA:** The evidence changed, damn it.
 
 **ILYRA:** The evidence was my eyebrow.
 
@@ -3159,7 +3159,7 @@ Nimera stares at her.
 
 **ILYRA:** Starting to think you hate categories.
 
-**NIMERA:** I love categories. That's why bad ones make me fucking furious.
+**NIMERA:** I love categories. That's why bad ones make me damn furious.
 
 A beat.
 
@@ -3231,7 +3231,7 @@ Then looks at the spoon.
 
 A beat.
 
-**NIMERA:** Fucking miscellaneous.
+**NIMERA:** Miscellaneous. Damn it.
 
 She drops it back into the original crate.
 
