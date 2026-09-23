@@ -1,257 +1,255 @@
 # Chapter 3 — Beat 6
-# Scholar in Redacted Stacks
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+# Scholar in Redacted Stacks / Nimera Joins
+## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
 
-### [STORY TRIGGER — ENCLOSED WORK SECTION]
+### [STORY TRIGGER — REDACTED STACKS WORK SECTION]
 
-Cyanis, Ilyra, and Torren reach the deeper work section.
+Cyanis, Ilyra, and Torren reach the deeper work section named by the archive keeper.
 
-An Ancient barrier has sealed across the passage. Nimera Pellan is on the far side among the materials she had already been using.
+Nimera Pellan is not trapped, waiting, or in distress.
 
-She is very obviously not waiting to be rescued.
+She has occupied a large worktable with open volumes, copied fragments, Card sketches, weights, tags, and three separate systems for marking uncertainty that make sense to her and probably nobody else.
 
-Before Cyanis gets close to the frame:
+She looks up when the trio enters.
 
-**NIMERA:** Don't touch that. Actually, don't touch anything near it. I know three parts moved and I do not know whether the fourth is waiting for encouragement.
-
-Cyanis stops.
-
-**CYANIS:** I was looking.
-
-**NIMERA:** With your hand.
-
-Torren studies the frame instead.
-
-**TORREN:** What moved first?
-
-Nimera turns toward him immediately.
-
-**NIMERA:** Three plates. Second worktable, stone behind me, turn around—congratulations, architecture has shoved me into its fucking armpit. No, that's unfair to armpits. They usually have exits.
-
-**TORREN:** Three on your side?
-
-**NIMERA:** Three I can see.
-
-Torren points low on the outer frame.
-
-**TORREN:** Fourth here.
-
-Nimera leans for an angle she cannot get.
-
-**NIMERA:** Of course there fucking is. Behind a Crown brace?
-
-**TORREN:** Yeah.
-
-**NIMERA:** Excellent. I was worried restoration might be helping.
-
-Ilyra looks her over once.
-
-**ILYRA:** Hurt?
-
-**NIMERA:** No. Trapped, annoyed, and developing professional hostility toward whoever fucked that brace into place.
-
-**ILYRA:** Good. Then I can enjoy this.
-
-Nimera looks at her.
-
-**NIMERA:** I like you.
-
-### [INTRODUCTIONS]
-
-**CYANIS:** Cyanis Dovaren. Ilyra Amarin. Torren Harth.
-
-Nimera's attention snaps to Torren.
-
-**NIMERA:** Harth.
-
-**TORREN:** That's usually how names work.
-
-**NIMERA:** Your western survey notation is fucking appalling.
-
-**TORREN:** Saves space.
-
-**NIMERA:** It destroys context.
-
-**TORREN:** Didn't for me.
-
-**NIMERA:** You are not the only possible reader of a map.
-
-Cyanis cuts in before the argument finds roots.
+**NIMERA:** If you're here to move these shelves, don't. If you're here to tell me they're unsafe, I know. If you're here because somebody upstairs finally read my last six notes, I want that miracle documented.
 
 **CYANIS:** Mirena sent us.
 
-Nimera looks back at him.
+Nimera closes one book halfway.
 
-**NIMERA:** That is much more relevant. Why?
+**NIMERA:** Ah. Worse.
 
-Cyanis brings the Card into view without moving it through the barrier.
+Ilyra smiles.
 
-Nimera goes still.
+**ILYRA:** Strong opening.
+
+**NIMERA:** I'm Nimera Pellan. You are either important, inconvenient, or both.
+
+**CYANIS:** Cyanis Dovaren. Ilyra Amarin. Torren Harth.
+
+Nimera's eyes move to Torren.
+
+**NIMERA:** Harth.
+
+**TORREN:** That's me.
+
+She notices the route notebook at his belt.
+
+**NIMERA:** Is that your notation?
+
+**TORREN:** Some of it.
+
+**NIMERA:** I've seen your copied route marks.
+
+**TORREN:** Sorry to hear that.
+
+**NIMERA:** They're fucking criminal.
+
+**TORREN:** They work.
+
+**NIMERA:** For you. So does scratching food on a sack. That doesn't make it an archive standard.
+
+**TORREN:** Wasn't writing for an archive.
+
+**NIMERA:** Yes, I gathered that from the violence done to context.
+
+Ilyra looks between them.
+
+**ILYRA:** Good. We found the right person.
+
+### [THE CARD]
+
+Cyanis brings the sealed Card into view but keeps it in his own hand.
+
+Nimera's attention changes immediately.
 
 **NIMERA:** Oh.
 
 A beat.
 
-**NIMERA:** Don't move that yet.
+**NIMERA:** All right. That is actually interesting.
 
 **CYANIS:** Familiar?
 
-**NIMERA:** No. That's why I'm interested.
+**NIMERA:** No. That's why it's interesting. Familiar things are useful. Unfamiliar things are where people start lying to themselves because they hate empty categories.
 
-Cyanis gives the short version of Brackenwall.
+**CYANIS:** It reacted when we separated it from me.
 
-**CYANIS:** We separated once. Pulse dropped, shaking, Card lit green and gold toward me. Putting it back stopped it.
+**NIMERA:** Define reacted.
 
-Ilyra adds the part he could not observe himself.
+Cyanis gives her the bounded Brackenwall account.
 
-**ILYRA:** Pulse recovered after contact was restored. We didn't repeat the test.
+**CYANIS:** My pulse dropped. Shaking started. The Card lit green and gold toward me. Contact was restored and it stopped.
 
-Nimera's questions come quickly.
+**ILYRA:** His pulse recovered after contact. We did not repeat the separation.
 
-**NIMERA:** Complete separation?
+**NIMERA:** Good.
 
-**ILYRA:** Yes.
+She thinks for a second.
 
-**NIMERA:** Distance?
+**NIMERA:** No, better than good. Boring restraint is fucking beautiful when the alternative is turning a person into an experiment because everybody got curious at once.
+
+**CYANIS:** That's almost flattering.
+
+**NIMERA:** Don't get comfortable. Distance?
 
 **CYANIS:** Not measured.
 
-**NIMERA:** Fine. Staying conscious outranked measurement. Good. And nobody decided to poke the fucking magical bear twice just to confirm it had teeth? Bad metaphor. There was no bear. You know what I mean.
+**NIMERA:** Duration?
 
-**CYANIS:** No.
+**ILYRA:** Long enough to know it was worsening. Not long enough to justify keeping it that way for a cleaner number.
 
-**NIMERA:** Excellent. I work with scholars. That answer is rarer than it should be.
+**NIMERA:** Fine. Useful limit.
+
+She leans closer without reaching for the Card.
+
+**NIMERA:** Green and gold every time?
+
+**CYANIS:** Every time we've seen it respond.
+
+**NIMERA:** And you still don't know what it is.
+
+**CYANIS:** Correct.
+
+**NIMERA:** Excellent.
+
+**TORREN:** You keep using that word strangely.
+
+**NIMERA:** Because we don't know is a healthy condition. We don't know, therefore it must be the thing I wanted is how scholarship crawls up its own ass and dies.
 
 ### [THE SEAL PROBLEM]
 
-Nimera is still watching the Card.
+Nimera looks back to Cyanis.
 
-**NIMERA:** Mirena did not send armed people into restricted stacks because one Card behaved strangely. What else?
+**NIMERA:** Mirena did not send three people into restricted stacks because one Card behaved badly. What's the other problem?
 
-**TORREN:** Orders moving it here answered to the Queen's personal seal.
+**TORREN:** Orders moving the Card toward Caelora answered to Queen Lysara's personal seal.
 
-Nimera looks at him.
+Nimera stops moving.
 
-**NIMERA:** Genuine response?
+**NIMERA:** Answered how?
 
-**TORREN:** Yeah.
+**CYANIS:** Same recognized magical authority response as legitimate royal documents.
 
-**NIMERA:** Lysara authorize them?
+**NIMERA:** Lysara authorize the orders?
 
-**CYANIS:** Didn't know the Card existed.
+**CYANIS:** She didn't know the Card existed.
 
 **NIMERA:** Physical seal?
 
-**TORREN:** In the palace. Intact. Works normally.
+**TORREN:** In the palace. Intact. Still works normally for her.
 
-A beat.
+Nimera sits back.
 
-**NIMERA:** Oh, that's ugly.
+**NIMERA:** Oh, that's filthy.
+
+**ILYRA:** Technical term?
+
+**NIMERA:** Extremely. You have a genuine response without a genuine decision. Maybe physical access happened and the record missed it. Maybe something else can provoke the response. Maybe we're missing a third category entirely. What we do **not** have is permission to fuck those possibilities into one convenient explanation.
 
 **TORREN:** Custody record has no clean gap.
 
-Nimera points at him through the barrier.
+Nimera points at him.
 
-**NIMERA:** Record. Important word.
-
-Torren waits.
-
-**NIMERA:** A clean record proves the record is clean. It does not prove nobody got access, nobody lied, nobody copied an entry, nobody trusted the wrong person, or that physical access was even required. Those are separate claims and people keep fucking them together because paperwork looks respectable. No—fucking together implies they produce something coherent. They don't. They just end up in the same bed.
+**NIMERA:** Record. Important word. A clean record proves the record is clean. It does not prove reality behaved.
 
 **TORREN:** Agreed.
 
-Nimera blinks.
+Nimera pauses.
 
-**NIMERA:** Oh.
+**NIMERA:** I had another paragraph.
 
-A beat.
+**TORREN:** Saved you the trouble.
 
-**NIMERA:** That was going to be longer.
+**NIMERA:** Don't make a habit of being reasonable. It'll ruin the dynamic.
 
-**TORREN:** Saved time.
+### [WHY SHE COMES]
 
-**NIMERA:** Don't make a habit of it.
+Nimera turns back to the spread on her table and flips through two tagged volumes.
 
-She looks back to the Card.
+**NIMERA:** The useful seal material is not up here.
 
-**NIMERA:** So. Strange Card, impossible royal authority, incomplete custody answer, and an Ancient wall between me and the evidence.
+**CYANIS:** Where is it?
 
-**CYANIS:** That's why we're here.
+**NIMERA:** Lower collections. Older Yahtrean copies, older Card records, whatever survived from the Diysean archive layers underneath them.
 
-**NIMERA:** I have too many questions and currently one architectural bastard sitting on all of them. The bastard is winning.
+**ILYRA:** Accessible?
 
-### [THE BARRIER]
+**NIMERA:** Define accessible.
 
-Torren crouches near the fourth plate.
+**TORREN:** Bad sign.
 
-**TORREN:** Lower edge is worn.
+**NIMERA:** No, that's honest architecture.
 
-**NIMERA:** Mine aren't.
+She begins packing a small set of notes and tools.
 
-**TORREN:** This moved recently. In, then up.
+Cyanis watches.
 
-Nimera looks back at the three plates on her side.
+**CYANIS:** You're coming.
 
-**NIMERA:** Mine moved down when it closed. No—two moved down. Third rotated first, then dropped. I treated that as one action because it happened quickly. That's not the same thing.
+**NIMERA:** Obviously.
 
-**TORREN:** Better.
+**CYANIS:** Mirena asked us to consult you.
 
-**NIMERA:** Don't sound pleased.
+**NIMERA:** You did. Consultation complete. Result: the evidence is downstairs and I would rather see it than hear you misremember it later.
 
-Cyanis follows the engraved channels around the frame.
+**CYANIS:** Fair.
 
-**CYANIS:** These lines come back around.
+**NIMERA:** Also, if your Card does something new, I want to be there before four people turn one weird twitch into a fucking creation myth.
 
-Nimera traces what she can see from inside.
+Torren glances toward the lower route.
 
-**NIMERA:** Describe your side.
+**TORREN:** Route's marked.
 
-She points at Torren.
+Nimera shoulders her things and picks up her Conduit.
 
-**NIMERA:** You. Slowly. Full sentences if the gods are feeling generous.
+**NIMERA:** Then let's go see how much of marked survives contact with the floor.
 
-**TORREN:** No promises.
+**TORREN:** Starting to like you less.
 
-**NIMERA:** I already dislike this partnership.
+**NIMERA:** Good. Means you're paying attention.
 
-Ilyra studies the pattern.
+Ilyra falls in beside her.
 
-**ILYRA:** What do you expect the fourth plate to do?
+**ILYRA:** Do you always join expeditions this casually?
 
-Nimera answers without pretending certainty.
+**NIMERA:** No. Usually the evidence is less obscene.
 
-**NIMERA:** Trigger a smaller response before anything opens. If it does, we learn from that. If it doesn't, then I was wrong and we revise instead of dragging the fucking corpse of a bad idea around because we liked it alive. Grim. Accurate, though.
+### [PARTY JOIN]
 
-**ILYRA:** Refreshing.
+At this natural decision point, implementation displays:
 
-**NIMERA:** It should not be refreshing.
+**Nimera Pellan joined the party.**
 
-Cyanis smiles.
-**CYANIS:** I think you're going to fit in terribly.
+Permanent combat-capable party and active field party are now:
+- Cyanis
+- Ilyra
+- Torren
+- Nimera
 
-**NIMERA:** Good. Start with the plate.
+Maevra remains in Caelora with Mirena and remains non-playable.
 
 ### [GAMEPLAY HANDOFF]
 
-Player control returns with the immediate objective:
+Player control resumes with the permanent four-person party.
 
-**Open the Ancient barrier.**
+New objective:
 
-The barrier remains closed.
+**Explore the Lower Archives.**
 
 Transition into:
 
-**Beat 7 — Ancient Barrier / First Cooperation.**
+**Beat 7 — Lower Archives.**
 
 ## Beat-6 end state
 
-- Nimera is introduced as active, capable, verbally engaged, and already working the problem herself;
-- she is not injured or helpless;
-- she has not classified Cyanis's Card;
-- she understands the bounded Card-separation facts and the royal-seal contradiction;
-- she explicitly distinguishes a clean custody record from proven clean custody;
-- Torren and Nimera begin with professional friction and immediate mutual testing, not familial shorthand;
-- the barrier remains closed;
-- Beat 7 owns the actual cooperative solution.
+- Nimera is introduced as active, capable, socially alive, evidence-driven, and naturally profane;
+- no Ancient Barrier exists;
+- she learns only the bounded Card and royal-seal facts the party currently knows;
+- she does not classify the Card or solve the seal anomaly;
+- Torren/Nimera begin with first-contact professional friction and reciprocal interest, not familial shorthand;
+- Nimera voluntarily joins because the evidence worth examining lies deeper and she wants direct access to it;
+- Nimera becomes a permanent party member in Beat 6.
