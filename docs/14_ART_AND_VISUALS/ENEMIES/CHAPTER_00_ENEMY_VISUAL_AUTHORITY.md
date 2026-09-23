@@ -32,17 +32,28 @@ Maintain strong visual separation between:
 
 Enemy silhouettes must remain readable at field and battle camera distance as well as in high-resolution concept/reference art.
 
-## Black Host line troops
+## Black Host humanoid armor — Chapter-0 application
 Shared visual language:
-- disciplined and militarized;
-- dark iron / dark steel;
-- blackened leather and dark cloth;
-- restrained crimson accents;
-- practical issued war gear;
-- severe imperial geometry;
-- functional rather than ornamental.
+- armor derives its **shape language** from the Entity without copying it;
+- dark iron / charcoal plate;
+- rib-like chest architecture;
+- hooked / clawed edge motifs scaled by rank;
+- severe visor geometry;
+- red cloth / underlayers / lining as faction contrast;
+- practical military construction at lower ranks;
+- increasing complexity and ornament only as rank rises.
 
-Do not make Black Host line troops look like heroic knights, flamboyant fantasy villains, cultists, or generic glossy-gacha soldiers.
+Chapter-0 glow firewall:
+- Raider — no glow;
+- Crossbowman — no glow;
+- Ruin Shieldbearer — no glow;
+- Ruin Vanguard Pursuer / Seyrik — no glow;
+- Convoy War-Sorcerer — no armor glow.
+
+**Red never functions as luminous armor-channel color.**
+Only the highest Black Host commanders may carry luminous armor channels, and those channels are **purple**.
+
+Do not make Chapter-0 line troops look like miniature Entities, heroic knights, flamboyant fantasy villains, cultists, or generic glossy-gacha soldiers.
 
 ## Rift beasts
 Shared visual language:
@@ -60,6 +71,26 @@ The Ruin Vanguard Pursuer is visually distinct from line troops:
 - more individualized;
 - more threatening;
 - intentionally obscured enough to preserve Seyrik's Chapter-0 identity concealment.
+
+---
+
+## Chapter-0 humanoid rank ladder
+
+For Chapter 0, read the humanoid enemies in this order:
+
+**Black Host Crossbowman / Raider**  
+→ lower-rank issued armor
+
+**Ruin Shieldbearer**  
+→ mid-rank heavy specialist
+
+**Ruin Vanguard Pursuer / Seyrik**  
+→ middle-ground elite; personalized and clearly above specialists
+
+**Convoy War-Sorcerer**  
+→ officer-adjacent caster; more refined construction, still below highest-command luminous tier
+
+None of these Chapter-0 humanoids use glowing armor channels.
 
 ---
 
@@ -82,12 +113,18 @@ Frontline Black Host infantry built for fast, aggressive pressure.
 - should read as a trained line soldier rather than a brute.
 
 ## Clothing / armor
-- dark iron lamellar or segmented plate over black padded underlayers;
-- angular plated shoulders without oversized pauldrons;
-- black or charcoal cloth at the joints;
+**Rank:** lower-ranked line soldier.
+
+- basic black / charcoal plate over black padded underlayers;
+- mild rib-like shaping in the cuirass rather than a full skeletal chest;
+- modest hooked accents at shoulder / forearm edges;
+- simple angular pauldrons;
 - dark leather straps and harness points;
-- short military tabard or waist cloth with restrained crimson accent;
-- practical hard-wearing boots.
+- short red/crimson tabard or waist cloth;
+- practical hard-wearing boots;
+- visibly mass-producible, issued construction.
+
+No glow. No visible power channels.
 
 ## Head / face
 - usually helmeted;
@@ -145,12 +182,19 @@ Ranged Black Host soldier providing controlled battlefield pressure.
 - mobile but disciplined.
 
 ## Clothing / armor
+**Rank:** lower-ranked line soldier / ranged specialist.
+
+- lighter black / charcoal plate than the Raider;
+- shallow rib-like chest shaping only;
+- restrained hooked edges;
 - black or deep-charcoal military coat / half-coat;
-- lighter chest protection;
 - forearm guards suitable for firing;
 - strapped bolt case/quiver;
 - simple shoulder protection;
-- more dark cloth than heavy metal.
+- more dark cloth than heavy metal;
+- red/crimson cloth used as restrained faction accent.
+
+No glow. No visible power channels.
 
 ## Head / face
 - helmet or hooded military helm;
@@ -205,11 +249,18 @@ Heavy Black Host defensive infantry with a Ruin-affiliated edge.
 - planted, difficult-to-move presence.
 
 ## Clothing / armor
-- denser plate coverage;
+**Rank:** mid-rank heavy specialist.
+
+- denser black / charcoal plate coverage;
+- clearly more pronounced ribbed cuirass than Raider/Crossbowman;
+- sharper hooked shoulder / forearm geometry;
 - heavier chest and shoulder armor;
 - thick underpadding;
 - blackened, scarred metal;
+- deeper red/crimson underlayers;
 - heavier boots and gauntlets.
+
+No glow. No visible power channels.
 
 ## Head / face
 - full helm preferred;
@@ -336,11 +387,19 @@ Terrifying elite Ruin Vanguard whose exact identity is obscured, but who should 
 - never presented in a clean hero-reference pose during Chapter 0.
 
 ## Clothing / armor
+**Rank position:** deliberate **middle ground** in the Black Host armor hierarchy.
+
 - heavy dark armor consistent with Seyrik's current master;
 - black / charcoal armor;
+- stronger rib / cage influence than ordinary troops;
+- more aggressive hooked plate forms than specialists;
 - deep-red underlayers;
 - long coat panels / hanging armored cloth;
-- severe Black Host-compatible elite styling.
+- personalized elite construction;
+- clearly above Raider/Crossbowman/Shieldbearer in visual authority;
+- clearly below the highest-command armor tier.
+
+No glow. No purple channels. No exposed luminous core language.
 
 ## Identity concealment
 Use staging rather than redesign:
@@ -408,11 +467,18 @@ Black Host battlefield caster attached to the convoy-interception force.
 - neither frail nor melee-built.
 
 ## Clothing / armor
+**Rank:** officer-adjacent battlefield caster, below highest-command glow threshold.
+
 - Black Host military-caster hybrid;
-- layered dark robes or coat over structured armor pieces;
-- lighter chest/shoulder armor than line troops;
+- more refined Entity-derived plate shaping than lower-ranked troops;
+- controlled rib-like torso geometry;
+- slightly more sculpted shoulder / forearm forms;
+- layered black/dark-charcoal coat or robe panels over structured armor pieces;
+- red/crimson cloth accents and lining;
 - sleeves/gloves suited to spellcasting;
 - belts, seals, pouches, or catalyst fixtures.
+
+No armor glow. No luminous channels.
 
 ## Head / face
 - hood, high collar, military hood-helm, or restrained visor/circlet;
@@ -424,7 +490,8 @@ Black Host battlefield caster attached to the convoy-interception force.
 - geometric;
 - controlled;
 - military;
-- dark-red / dim ruin-magenta / pale colorless energy;
+- spell/VFX light is separate from armor-rank language;
+- do not simulate highest-command armor channels through the spellcasting costume;
 - precise battlefield effects rather than chaotic wild magic.
 
 ## Weapon / focus
@@ -436,9 +503,9 @@ A catalyst gauntlet or similar issued focus may support the design, but the unit
 ## Palette
 - charcoal;
 - black;
-- muted crimson;
-- dim pale Ruin/colorless light;
-- slightly greater arcane glow than line troops.
+- muted crimson cloth;
+- restrained steel highlights;
+- no luminous armor channels.
 
 ## Signature read
 - combat officer / battle mage;
