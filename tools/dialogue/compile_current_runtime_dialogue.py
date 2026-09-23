@@ -7,7 +7,7 @@ lives under game/content/dialogue/current/ and is the game-facing wording mirror
 The compiler is intentionally strict:
 - current atomics are the only spoken-wording authority;
 - speaker labels must be ALL-CAPS inline Markdown dialogue labels;
-- all 2,295 current spoken lines must compile in exact order and wording;
+- all 2,269 current spoken lines must compile in exact order and wording;
 - generated Resources embed source/spoken hashes;
 - legacy S001-S021 Resources are not used as input.
 """
@@ -26,7 +26,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[2]
 PROD = ROOT / "docs/03_DIALOGUE/PRODUCTION"
 OUT_ROOT = ROOT / "game/content/dialogue/current"
-EXPECTED_TOTAL_SPOKEN = 2295
+EXPECTED_TOTAL_SPOKEN = 2269
 
 DIALOGUE_RE = re.compile(r"^\*\*([^*\n]+):\*\*\s*(.*)$")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
