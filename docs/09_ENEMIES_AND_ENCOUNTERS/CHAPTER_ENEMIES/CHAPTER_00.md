@@ -103,8 +103,11 @@ Ruin Vanguard Pursuer:
 Final War-Sorcerer confrontation:
 > **CURRENT / POWER COMPLETE / COMBINED RIFTMAW + WAR-SORCERER FINAL BOSS**
 
-Difficulty-validation status:
-> **REOPENED FOR FIVE-FIGHT CYANIS-SOLO SEQUENCE + P05 SEYRIK + COMBINED P06 FINAL BOSS**
+Structural enemy/encounter status:
+> **CLOSED — roster / order / spacing / party state / behavior**
+
+Numeric difficulty/resource status:
+> **DEFERRED — five-fight Cyanis-solo endurance + P05 Seyrik + combined P06 final boss must be revalidated in the later balance/progression pass**
 
 
 ## Chapter-0 enemy identity/name lock — 2026-09-22
@@ -124,3 +127,23 @@ The Chapter-0 combat roster is exactly:
 Beast Handler and injured Iron Cohort Soldier are **not Chapter-0 combat enemies**.
 
 This lock covers enemy identity/name and Chapter-0 inclusion. Exact encounter difficulty remains subject to the already-open placement/party-state revalidation.
+
+
+## Structural closure — 2026-09-22
+Chapter 0 enemy/encounter structure is closed unless explicitly revised.
+
+Closed structurally:
+- exact enemy roster;
+- five Cyanis-solo encounters and their order;
+- inter-fight breathing/spacing requirements;
+- P03/P04/P07 no-combat boundaries;
+- Cyanis + Ilyra party state for P05/P06;
+- protected Seyrik disengagement;
+- combined Riftmaw + Convoy War-Sorcerer final boss;
+- Chapter-0 no-harmful-status boundary;
+- individual enemy action legality / targeting behavior.
+
+Still deferred:
+- final resource-pressure certification;
+- any HP/stat changes proven necessary by later balance testing;
+- final authored G split across the restructured encounter sequence.
