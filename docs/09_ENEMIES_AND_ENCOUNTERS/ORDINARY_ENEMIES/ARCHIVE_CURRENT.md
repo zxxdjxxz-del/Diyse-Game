@@ -22,8 +22,18 @@ True construct / magical current:
 
 ### Archive Surge
 - all conscious party members
-- Magical / Colorless
+- Magical / Lightning
 - **105 Power per target**
 - Base Hit100
 - no harmful-status rider
 - 2-round repetition lock
+
+
+## Element identity lock — 2026-09-23
+Archive Current is a dedicated **Lightning** construct.
+
+Both authored direct-damage actions use Lightning:
+- Current Arc — Lightning
+- Archive Surge — Lightning AoE
+
+Do not revert Archive Surge to Colorless.
