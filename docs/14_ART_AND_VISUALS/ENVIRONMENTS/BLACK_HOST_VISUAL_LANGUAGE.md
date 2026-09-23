@@ -127,6 +127,99 @@ Only this tier may use:
 
 They must still read as human commanders in armor, not miniature copies of the Entity.
 
+## Ordinary armor construction grammar
+
+The **Black Host Raider suit is the baseline issued armor grammar** for ordinary Black Host military personnel. Other ordinary humanoid kits should visibly look like modifications of this shared equipment family rather than unrelated costumes.
+
+### Baseline torso
+The ordinary cuirass is mostly closed, practical plate.
+
+Use:
+- one solid central sternum plate;
+- **two to three shallow swept rib plates per side** wrapping from the sternum toward the flanks;
+- a narrow downward central point / chevron below the sternum;
+- overlapping lower-abdomen plates that continue the downward geometry.
+
+The rib influence should be clearly recognizable at full-body reference scale but remain subtle enough that the armor still reads as forged military plate.
+
+Do **not** use:
+- open rib-cage gaps;
+- exposed internal flesh/energy;
+- skeletal holes through the torso;
+- organic-looking fused armor.
+
+### Baseline shoulders
+Ordinary pauldrons use:
+- two or three practical overlapping plates;
+- a slightly raised outer/rear tip that hints at the Entity's hooked silhouette;
+- no giant horns;
+- no crescent blades;
+- no elaborate officer crown shapes.
+
+The hook influence is a contour cue, not a weaponized shoulder sculpture.
+
+### Baseline helmet
+Ordinary issued helmet:
+- fully enclosed;
+- compact;
+- narrow horizontal / shallow downward-angled visor slit;
+- slight central brow ridge;
+- modest rear/side flare;
+- no crown spikes;
+- no luminous visor;
+- no exposed face by default.
+
+A subtle cross-like relationship may emerge from brow/nose geometry, but the common helmet must not reproduce the Entity's glowing cross face.
+
+### Baseline forearms
+- practical plate bracers over black underlayers;
+- one restrained rear-facing hook / pointed flare may appear near the elbow;
+- fingers remain ordinary articulated gauntlets;
+- no claw hands.
+
+### Baseline hips / legs
+- compact hip plates;
+- black trousers / padded underlayers remain visible;
+- simple angular knee cops;
+- layered shin plate;
+- armored boots.
+
+Ordinary troops should not be plated continuously from waist to ankle like ceremonial heavy knights.
+
+### Baseline cloth
+Red/crimson is used in **real cloth**, primarily:
+- underarm / torso glimpses;
+- a narrow front waist tabard;
+- short rear/side coat tails where role permits.
+
+Lower ranks should not carry giant flowing capes or broad ceremonial skirts.
+
+### Baseline material finish
+- blackened / charcoal steel;
+- controlled gunmetal edge highlights;
+- satin-to-matte black cloth;
+- dark brown/black leather;
+- red/crimson fabric.
+
+Metal should read as maintained military equipment:
+- some normal wear is allowed;
+- avoid glossy mirror-black;
+- avoid heavy random grime;
+- avoid ornate engraving on common troops.
+
+### Rank derivation
+**Crossbowman**
+> subtract armor from the Raider baseline.
+
+**Ruin Shieldbearer**
+> reinforce and sharpen the Raider baseline.
+
+**Seyrik**
+> personalize and substantially elaborate the same family while remaining below highest command.
+
+**Higher command**
+> increasingly reinterpret the grammar toward the Entity rather than simply adding more plate.
+
 ## Variation
 Black Host locations must not all be the same fortress.
 
