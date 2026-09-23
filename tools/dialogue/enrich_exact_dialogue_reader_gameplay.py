@@ -66,6 +66,9 @@ BRIDGES = (
     ("First Clear Sighting", "Enemy Roster — Southern Briar", (
         "Greenhollow Stalker • Thornvine Creeper • Briar Boar • Needlewing • Rootmaw • Brambleback",
     ), CH1, ("Greenhollow Stalker", "Thornvine Creeper", "Briar Boar", "Needlewing", "Rootmaw", "Brambleback")),
+    ("Chapter 2", "Optional Regional Hunt — Cistern Devourer", (
+        "Cistern Devourer",
+    ), CH1, ("Cistern Devourer",)),
 
     ("Sealed Side Door", "Enemy Roster — Old Waterworks", (
         "Bogshell • Cistern Leech • Needlewing",
@@ -82,6 +85,9 @@ BRIDGES = (
     ("Authority", "Boss — Commander Rhazek — Bastion Master", (
         "Commander Rhazek — Bastion Master",
     ), CH2, ("Commander Rhazek", "Bastion Master")),
+    ("Chapter 3", "Optional Regional Hunt — Scaldback", (
+        "Scaldback",
+    ), CH2, ("Scaldback",)),
 
     ("Lower Archives", "Enemy Roster — Old City Archives", (
         "Lower Archives through Hall of Seals: Judgment Frame • Erasure Wisp • Authority Lens.",
