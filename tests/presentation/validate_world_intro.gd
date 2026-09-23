@@ -26,8 +26,8 @@ func _run_validation() -> void:
 			var data := parsed as Dictionary
 			if str(data.get("speaker_name", "")) != "Nimera Pellan":
 				failures.append("World intro speaker must be Nimera Pellan")
-			if str(data.get("present_year", "")) != "720 YF":
-				failures.append("World intro present year must be 720 YF")
+			if str(data.get("present_year", "")) != "713 YF":
+				failures.append("World intro present year must be 713 YF")
 			if str(data.get("awakening_period", "")) != "around 200 YF":
 				failures.append("World intro Awakening anchor must be around 200 YF")
 			var paragraphs_value = data.get("paragraphs", [])
@@ -54,7 +54,7 @@ func _run_validation() -> void:
 		var continue_button := intro.get_node_or_null("Background/Page/Content/Continue") as Button
 		if title == null or title.text != "The World of Diyse":
 			failures.append("World intro title is missing")
-		if body == null or not body.text.contains("720 YF") or not body.text.contains("Nimera Pellan"):
+		if body == null or not body.text.contains("713 YF") or not body.text.contains("Nimera Pellan"):
 			failures.append("World intro scene did not load the approved runtime text")
 		if continue_button == null:
 			failures.append("World intro scene is missing its Continue control")
