@@ -48,7 +48,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 3 | Ordinary/carryover | Watch Ballista — Cresthaven carryover |
 | 3 | Ordinary/carryover | Judgment Frame |
 | 3 | Ordinary/carryover | Erasure Wisp |
-| 3 | Ordinary/carryover | Command-Station Sentry |
+| 3 | Ordinary/carryover | Command Guard Frame |
 | 3 | Ordinary/carryover | Authority Lens |
 | 3 | Ordinary/carryover | Command Ring Drone |
 | 3 | Authored/protected | Ivory Watch Guard — lawful/nonlethal |
@@ -164,7 +164,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 10 | Ordinary/carryover | Archive Scribe Engine |
 | 10 | Ordinary/carryover | Judgment Frame |
 | 10 | Ordinary/carryover | Erasure Wisp |
-| 10 | Ordinary/carryover | Command-Station Sentry |
+| 10 | Ordinary/carryover | Command Guard Frame |
 | 10 | Ordinary/carryover | Authority Lens |
 | 10 | Ordinary/carryover | Command Ring Drone |
 | 10 | Mandatory named/boss | Registry Warden — one bar / Open Registry same-bar escalation |
@@ -288,7 +288,7 @@ Historical Power work exists for retired identities, but the **current active Ch
 - Judgment Frame
 - Erasure Wisp
 - Authority Lens
-- Command-Station Sentry
+- Command Guard Frame
 - Command Ring Drone
 
 Complete historical/current Power work:
@@ -493,7 +493,7 @@ Complete:
 - Archive Scribe Engine — Ch10
 - Judgment Frame — Ch10
 - Erasure Wisp — Ch10
-- Command-Station Sentry — Ch10
+- Command Guard Frame — Ch10
 - Authority Lens — Ch10
 - Command Ring Drone — Ch10
 
