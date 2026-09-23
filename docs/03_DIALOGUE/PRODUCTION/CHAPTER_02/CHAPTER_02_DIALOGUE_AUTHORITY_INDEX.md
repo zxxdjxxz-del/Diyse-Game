@@ -44,9 +44,9 @@ Character-Life:
 ## Current runtime-brain alignment
 
 Chapter 2 now pairs its current atomics with the corrected runtime Person Brains:
-- **Cyanis** — Crest Knight / Crest Magus; leadership is not a dialogue assignment;
-- **Ilyra** — Blue Warden / Vowblade; Grace is not a dialogue assignment;
-- **Torren** — War Archer / Routeweaver; social opening continues from Chapter 1 and expertise is not his only reason to talk;
+- **Cyanis** — **Crest Knight only**; Crest Magus is locked until **Sixfold Volition at the end of Chapter 7**; leadership is not a dialogue assignment;
+- **Ilyra** — **Blue Warden only**; Vowblade is locked until **Sixfold Volition at the end of Chapter 7**; Grace is not a dialogue assignment;
+- **Torren** — **War Archer only**; Routeweaver is locked until **Sixfold Volition at the end of Chapter 7**; social opening continues from Chapter 1 and expertise is not his only reason to talk;
 - **Maevra** — already knows Cyanis/Ilyra well, remains senior commander during operations, and increasingly reads as an actual friend off duty.
 
 The runtime brains no longer contain the upstream biases that previously risked regenerating the old Chapter-2 role assignments.
