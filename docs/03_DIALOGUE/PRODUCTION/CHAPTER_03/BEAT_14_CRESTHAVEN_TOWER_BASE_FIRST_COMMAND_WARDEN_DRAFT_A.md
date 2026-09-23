@@ -194,17 +194,17 @@ Nimera raises a hand.
 
 **NIMERA:** Wait.
 
-Ancient characters ignite across the Warden:
+Ancient characters ignite across the Warden.
 
-> **PREVIOUS ERROR**
+**FIRST COMMAND WARDEN:** PREVIOUS ERROR
 
 Nobody interprets it.
 
 The message fades.
 
-A second forms:
+A second forms.
 
-> **LAST SENTINEL CONFIRMED**
+**FIRST COMMAND WARDEN:** LAST SENTINEL CONFIRMED
 
 The final character completes.
 
