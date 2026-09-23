@@ -96,6 +96,37 @@ None of these Chapter-0 humanoids use glowing armor channels.
 
 # Black Host Raider
 
+## Exact approved Raider visual master
+
+**Status:** **LOCKED EXACT VISUAL — 2026-09-22**
+
+Approved render:
+- image-generation ID: `5e43d4ff-833c-4e99-8d13-b6a0beeeea8b`
+- approved file SHA-256: `446ff9e2275fbbd2d44be3b5c61f8cc1136d910e53a760d3a605dfcee8d2687f`
+- dimensions: **1122 × 1402**
+- presentation: clean white-background B00/B00.5-style full-body reference
+
+This exact approved render now overrides earlier Raider prose where incidental details differ.
+
+Locked visual details visible in the approved master:
+- fully enclosed black/charcoal helmet with **small horns**;
+- no glow;
+- no visible power channels;
+- simplified Black Host chest/shoulder/arm armor;
+- red tunic/cloth beneath the armor;
+- practical, simplified lower-rank leg armor;
+- black padded trousers/underlayers;
+- lower-rank issued military read;
+- Entity influence carried through restrained shape language rather than elite ornament.
+
+Do not:
+- increase chest/shoulder ornament toward Seyrik's armor;
+- add chains;
+- add glowing eyes/channels;
+- enlarge the horns;
+- replace the red tunic with a long elite coat;
+- make the leg armor more ceremonial or elaborate.
+
 ## Core visual identity
 Frontline Black Host infantry built for fast, aggressive pressure.
 
