@@ -15,10 +15,17 @@
 **Removed from current Chapter-2 placement:** Redwater Initiate. Its prior poisoned-waterworks context is retired and it is not part of the active Old Waterworks roster.
 
 ### Sunken Archive / ancient complex
+Archive-specific identities:
 - Archive Current
 - Memory Scribe
 - Hollow Watch Sentry — approved Chapter-1 construct carryover
-- Drowned Archive Maw
+
+Flooded-area wildlife carryover:
+- Bogshell
+- Cistern Leech
+- Needlewing
+
+These three Old Waterworks creatures may continue into compatible flooded / broken Archive sectors rather than stopping artificially at the area boundary.
 
 ### Old Bastion
 - Bastion Shield Guard
@@ -53,7 +60,7 @@ Current Chapter-2 story authority controls actual encounter placement.
 - Old Waterworks are a genuinely covert route with **no routine Black Host patrols**.
 - Waterworks danger should come from compatible creatures, hazards, and non-Host threats unless a later authored placement says otherwise.
 - The Sunken Archive is not an active Black Host facility.
-- Archive ordinary encounters may use Archive Current, Memory Scribe, Hollow Watch Sentry, and Drowned Archive Maw where the current area design places them.
+- Archive ordinary encounters may use Archive Current, Memory Scribe, Hollow Watch Sentry, Bogshell, Cistern Leech, and Needlewing where the current area design places them.
 - Old Bastion is an active functioning Black Host position; Bastion guards, Transfer Adepts, approved Raiders, and Rift Hounds are compatible there.
 - Maevra is physically present in Chapter 2 but **fully non-playable/noncombat**. She is not a fourth battle-party body.
 - After Rhazek's defeat, the Black Host withdraws and the maintained road-side exit becomes usable.
@@ -70,7 +77,6 @@ Current special mechanics retained where their identities are legally placed:
 - Memory Scribe records only completed eligible direct-damage actions; 65% bounded echo.
 - Archive Duplicant uses a stronger 80% bounded duplicate.
 - Chapter 2 introduces Burn, not Stun or Freeze.
-- Drowned Archive Maw uses Ice for water/current presentation without inflicting Freeze.
 
 ## Numerical boundary
 Chapter-2 ordinary raw bodies remain active values in their individual files unless later balance validation changes them.
@@ -103,3 +109,9 @@ Owning validation:
 - Vault Sentinel is removed from active Chapter-2 placement.
 - Hollow Watch Sentry carries over from Chapter 1 into the Sunken Archive as the familiar baseline Diysean security construct.
 - This carryover is intended to create ancient-civilization continuity rather than introduce a second near-duplicate heavy guardian identity.
+
+
+## Sunken Archive ecology correction — 2026-09-23
+- Bogshell, Cistern Leech, and Needlewing may carry directly from the Old Waterworks into compatible flooded Sunken Archive sectors.
+- Drowned Archive Maw is removed from active Chapter-2 placement; the carried wet-area wildlife already supplies the Archive's organic ecology.
+- Archive Leviathan remains the major organic/aquatic combat climax and should not be diluted by a separate generic heavy 'Maw' identity.
