@@ -106,25 +106,9 @@ No, that does **not** mean everyone was the same.
 
 Different regions. Different customs. Different local identities. Probably different political arrangements depending on where and when you're looking.
 
-The evidence varies.
+The evidence is messy as hell, because of course it is, but one thing keeps coming through: their world was connected in ways ours isn't.
 
-What matters is that their world was connected in ways ours isn't.
-
-Roads.
-
-Cities.
-
-Networks.
-
-Archives.
-
-Machines.
-
-Transportation.
-
-Communication.
-
-Infrastructure.
+Roads, cities, archives, transport, communication, infrastructure—whole systems crossing distances that are still a pain in the ass now.
 
 And magic.
 
@@ -138,19 +122,11 @@ A Diysean could throw fire.
 
 Healing. Protection. Elements. Personal abilities.
 
-Same world.
-
-Same magic.
+Same world. Same magic.
 
 The difference was **understanding**.
 
-We use magic now.
-
-We train it.
-
-Build techniques around it.
-
-Use it in combat, medicine, trades, whatever someone is actually capable of doing.
+We use magic now. We train it, build techniques around it, use it in combat, medicine, trades—whatever somebody is actually capable of doing.
 
 The Diyseans did that too.
 
@@ -208,15 +184,7 @@ You look ridiculous.
 
 Whatever happened, the Diysean civilization disappeared.
 
-Humanity didn't.
-
-People survived.
-
-Communities survived.
-
-New cultures developed.
-
-Eventually new states and kingdoms formed.
+Humanity didn't. People survived, communities survived, new cultures developed, new states and kingdoms crawled out of the wreckage because humans are stubborn bastards like that.
 
 But **natural magic** disappeared.
 
@@ -228,13 +196,7 @@ People couldn't.
 
 Not for centuries.
 
-There were still ancient ruins.
-
-Still Diysean artifacts.
-
-Still machines nobody understood.
-
-Still Cards somewhere in the world.
+The ruins were still there. Artifacts too. Machines nobody understood, Cards sitting god knows where, whole pieces of the old world refusing to have the decency to disappear with the people who built them.
 
 But people themselves were not developing magic anymore.
 
@@ -314,21 +276,7 @@ More scholars studying them.
 
 More governments realizing, “Oh, fuck, this matters.”
 
-Of course society changes.
-
-Combat.
-
-Medicine.
-
-Travel.
-
-Labor.
-
-Trade.
-
-Politics.
-
-Everything starts touching everything else.
+Of course society changes. Combat, medicine, travel, labor, trade, politics—everything starts touching everything else and then everybody gets to argue about which change caused which other damn change.
 
 Then, sometime **after the Awakening**, people began developing magic **naturally** again.
 
@@ -372,25 +320,15 @@ I just don't trust a theory more because I like the shape of it.
 
 So now, in **713 YF**, natural magic is normal again.
 
-People develop abilities.
-
-They train them.
-
-Use them professionally.
-
-Use them in combat.
-
-Use them to heal.
+People develop abilities, train them, use them professionally, use them in combat, use them to heal, use them to do jobs that would make some old court historian shit himself with envy.
 
 And people use Cards too.
 
 Those are separate things.
 
-A person's natural ability belongs to them.
+A person's natural ability belongs to them. A Card gives access to the ability preserved inside that Card. Same person can use both.
 
-A Card gives access to the ability preserved inside that Card.
-
-Same person can use both.
+Simple enough until somebody tries to build a taxonomy around it, at which point nothing is ever simple again.
 
 So someone throwing fire across a battlefield today isn't displaying some forgotten ancient miracle.
 
@@ -416,21 +354,11 @@ The ancient world isn't one dramatic ruin at the edge of the map.
 
 We're standing on the fucking thing.
 
-Modern roads follow older routes.
+Modern roads follow older routes. Settlements grew around ancient structures. Buildings sit on Diysean foundations. People discover sealed spaces underneath places their families have occupied for generations and then have the deeply inconvenient realization that grandma's pantry has been sitting over a sealed ruin for forty years.
 
-Settlements grew around ancient structures.
+Some ancient systems still function. Some don't. Some make enough sense that people can explain what they're doing.
 
-Buildings sit on Diysean foundations.
-
-People discover sealed spaces underneath places their families have occupied for generations.
-
-Some ancient systems still function.
-
-Some don't.
-
-Some function in ways we understand.
-
-Some function because somebody discovered:
+Others function because, at some point, some lunatic discovered:
 
 “If you touch this, that opens.”
 
@@ -538,31 +466,9 @@ A beautiful nightmare.
 
 But still.
 
-Fragments.
+Fragments. Copies. Translations of copies. Official records written to flatter rulers, personal records written by people with grudges, inventories, contracts, letters, graffiti, broken inscriptions, things preserved deliberately, things preserved by complete accident—
 
-Copies.
-
-Translations of copies.
-
-Official records written to flatter rulers.
-
-Personal records written by people with grudges.
-
-Inventory lists.
-
-Contracts.
-
-Letters.
-
-Graffiti.
-
-Broken inscriptions.
-
-Things preserved deliberately.
-
-Things preserved completely by accident.
-
-And things probably sitting under somebody's fucking barn right now.
+—and probably something historically priceless sitting under somebody's fucking barn right now because the universe enjoys humiliating archivists.
 
 That's why wording gets under my skin.
 
@@ -586,13 +492,9 @@ That is not the same damn thing.
 
 Show me where it started.
 
-And history isn't only kings and wars.
+And history isn't only kings and wars. Those matter. Obviously.
 
-Those matter.
-
-Obviously.
-
-But give me the ordinary records too.
+But give me the ordinary records too. That's where the dead stop posing for portraits and start being people.
 
 What did people eat?
 
@@ -644,21 +546,11 @@ Which, frankly, is a much more irritating problem.
 
 And that's really what I want to know.
 
-What did they understand?
+What did they understand? What did they get wrong? What happened to them? Why did natural magic disappear? Why did Cards become usable around 200 YF? Why did natural magic return afterward?
 
-What did they get wrong?
+Are those connected? Are we missing the middle? Did somebody preserve the wrong damn records and leave us arguing around the answer?
 
-What happened to them?
-
-Why did natural magic disappear?
-
-Why did Cards become usable around 200 YF?
-
-Why did natural magic return afterward?
-
-Were those things connected?
-
-What are we still missing?
+That's the part that keeps me awake.
 
 That's the interesting part.
 
@@ -670,21 +562,7 @@ That's the interesting part **to me**.
 
 Diyse is everything else too.
 
-People living now.
-
-Yahtrea.
-
-Other kingdoms.
-
-Roads.
-
-Forests.
-
-Cities.
-
-Wars.
-
-Families.
+People living now. Yahtrea. Other kingdoms. Roads, forests, cities, wars, families, bad dinners, petty grudges, somebody being late because an ancient wall is in the way again.
 
 People who don't give a single fuck about ancient archaeology and are perfectly happy that way.
 
@@ -744,9 +622,7 @@ That's better than usual.
 
 —**Nimera Pellan**
 
-And before anyone copies this into something official:
-
-And before somebody gets clever:
+And before somebody gets clever and copies this into something official:
 
 “Nimera said so” is not a citation.
 
