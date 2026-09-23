@@ -36,12 +36,12 @@ Current approximate timeline:
 - **~200 YF** — first modern Card activation/recovery era begins
 - **~220 YF** — naturally magical births begin appearing
 - **~250 YF** — magical creatures begin returning/awakening
-- **720 YF** — present-day story
+- **713 YF** — present-day story
 
 Therefore:
-- first Card activation is roughly **520 years before the present**
-- naturally magical births begin roughly **500 years before present**
-- magical creatures return roughly **470 years before present**
+- first Card activation is roughly **513 years before the present**
+- naturally magical births begin roughly **493 years before present**
+- magical creatures return roughly **463 years before present**
 
 ## Causality boundary
 The game does **not** need to explain why Cards began activating specifically around ~200 YF.
