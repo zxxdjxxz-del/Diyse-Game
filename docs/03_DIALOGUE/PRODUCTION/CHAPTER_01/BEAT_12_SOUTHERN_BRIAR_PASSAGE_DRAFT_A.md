@@ -111,7 +111,7 @@ A beat.
 
 **TORREN:** Don't know.
 
-**ILYRA:** Helpful as hell.
+**ILYRA:** Helpful.
 
 **TORREN:** It's overgrown, runs the wrong direction for Dunmere, and nothing I've ever needed was through it.
 
