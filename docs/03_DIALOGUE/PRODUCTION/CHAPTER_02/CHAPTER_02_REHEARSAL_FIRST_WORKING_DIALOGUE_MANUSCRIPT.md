@@ -12,19 +12,18 @@
 | 2 | Beat 2 | `BEAT_02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_NATURAL_TURN_WORKING_DIALOGUE.md` | `6da171864afd597aa766f3bb22398fd8dd69c5e1412fdf1306d50334162e762c` |
 | 3 | Beat 3 | `BEAT_03_DUNMERE_ELDER_HIDDEN_APPROACH_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `646fe5639cc6f92276ddb10983f90347e0b99d2060aac5020141bcee727460fe` |
 | 4 | Beat 4 | `BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `1ca1b337c0c5177fe79f13b012485381c33739ab4bf27ff3d34c1f888ffcecc1` |
-| 5 | Beat 5 | `BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md` | `703884f174281d7b6cbbb4015a2a4f06809ca5f4a0281d3e978041616fdbe917` |
-| 6 | Beat 6 | `BEAT_06_WESTERN_MAP_MURAL_NATURAL_TURN_WORKING_DIALOGUE.md` | `8f0b79e25d0d337c57dd982b4e91dbb490c3912765aa375500ae73f33a1d176f` |
-| 7 | Beat 7 | `BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `855ab91ff17b20fa2cbb90a408eeb11e85df99fe848f6c54a7214e4659adf312` |
-| 8 | Beat 8 | `BEAT_08_ARCHIVE_LEVIATHAN_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `e67b91852e3981566910dee32b9b2473fc2eedd9389b5fba3868e51f7f705c62` |
-| 9 | Beat 9 | `BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `212244e6300c68a06a3ff653676136f9ea566a7bb581ccfd2e910e8c12dc1ae9` |
-| 10 | Beat 10 | `BEAT_10_PRISONER_GALLERIES_FIRST_CONTACT_NATURAL_TURN_WORKING_DIALOGUE.md` | `5a4fdaea7b8c5147502354d1884694aec0696347264234ed61cf14de2eeb1499` |
-| 11 | Beat 11 | `BEAT_11_PRISONER_SAFE_AREA_EXIT_PROBLEM_NATURAL_TURN_WORKING_DIALOGUE.md` | `e87652e2ff0466af94ebbffa885f8e232fb8e5134846af5f47d97c6d7dcc7505` |
-| 12 | Beat 12 | `BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `262f0841733ead8b3b9eed502edf0dcb7aa2c1f61c7e4e47c629936d621c5906` |
-| 13 | Beat 13 | `BEAT_13_RHAZEK_MASKED_OFFICER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `6a3ddbfca1641ab504de0ad48a53e640dac2415b144e01bbbb2d47709cccbda9` |
-| 14 | Beat 14 | `BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `fcac30a5ae8755d38dc3fe2b4dae3c56f42b76a115125290722f3db4bfe56308` |
-| 15 | Beat 15 | `BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `a2e760ec4a6563abd9684fd7d1a9078efa17d78bb7b79413508e3e94d4657c58` |
-| 16 | Beat 16 | `BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `26c115af5fb08e1153d05b3d6c6fc231028d07c7686dca30b50c1081072b4329` |
-| 17 | C05 — Still Burns | `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `c4e65fac34a0ce90dedd3286b99012983416686df663495c9e291933d9dc2298` |
+| 5 | Beat 5 | `BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md` | `8595d7128fe0551e5e35787fe13912fa27faf382a6d42ced3ce930cea36a36a3` |
+| 6 | Beat 7 | `BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `90bae29d45a9d0511b86f58ae3d6111bda846f54744701f0b290ea0af4b43946` |
+| 7 | Beat 8 | `BEAT_08_ARCHIVE_LEVIATHAN_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `e67b91852e3981566910dee32b9b2473fc2eedd9389b5fba3868e51f7f705c62` |
+| 8 | Beat 9 | `BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `212244e6300c68a06a3ff653676136f9ea566a7bb581ccfd2e910e8c12dc1ae9` |
+| 9 | Beat 10 | `BEAT_10_PRISONER_GALLERIES_FIRST_CONTACT_NATURAL_TURN_WORKING_DIALOGUE.md` | `5a4fdaea7b8c5147502354d1884694aec0696347264234ed61cf14de2eeb1499` |
+| 10 | Beat 11 | `BEAT_11_PRISONER_SAFE_AREA_EXIT_PROBLEM_NATURAL_TURN_WORKING_DIALOGUE.md` | `e87652e2ff0466af94ebbffa885f8e232fb8e5134846af5f47d97c6d7dcc7505` |
+| 11 | Beat 12 | `BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `262f0841733ead8b3b9eed502edf0dcb7aa2c1f61c7e4e47c629936d621c5906` |
+| 12 | Beat 13 | `BEAT_13_RHAZEK_MASKED_OFFICER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `6a3ddbfca1641ab504de0ad48a53e640dac2415b144e01bbbb2d47709cccbda9` |
+| 13 | Beat 14 | `BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `fcac30a5ae8755d38dc3fe2b4dae3c56f42b76a115125290722f3db4bfe56308` |
+| 14 | Beat 15 | `BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `a2e760ec4a6563abd9684fd7d1a9078efa17d78bb7b79413508e3e94d4657c58` |
+| 15 | Beat 16 | `BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `26c115af5fb08e1153d05b3d6c6fc231028d07c7686dca30b50c1081072b4329` |
+| 16 | C05 — Still Burns | `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `cd3372a3d4254df3dbc9519276cfb4fbbcc5c3c3c657d5c7d95a220ee40941b7` |
 
 ---
 
@@ -568,7 +567,7 @@ Next mandatory beat:
 ## Beat 5
 
 **Atomic source:** `BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `703884f174281d7b6cbbb4015a2a4f06809ca5f4a0281d3e978041616fdbe917`
+**Source SHA-256:** `8595d7128fe0551e5e35787fe13912fa27faf382a6d42ced3ce930cea36a36a3`
 
 # Chapter 2 — Beat 5 — Sunken Archive Entrance
 
@@ -666,157 +665,6 @@ The Card remains inert.
 **Objective: Explore the ancient complex.**
 
 Next mandatory beat:
-**Western Map Mural**
-
----
-
-## Beat 6
-
-**Atomic source:** `BEAT_06_WESTERN_MAP_MURAL_NATURAL_TURN_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `8f0b79e25d0d337c57dd982b4e91dbb490c3912765aa375500ae73f33a1d176f`
-
-# Chapter 2 — Beat 6 — Western Map Mural
-
-**Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
-**Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
-
-### [STORY TRIGGER — WESTERN MAP]
-
-Exploration opens into a chamber dominated by a large, intact wall-scale map.
-
-The mural is complete and coherent.
-
-The party is given a clean visual read before anyone speaks.
-
-Torren compares the route relationships against the Junction copy the group carries.
-
-He finds the first match.
-
-**TORREN:** Same split.
-
-Cyanis looks over.
-
-**CYANIS:** Junction?
-
-**TORREN:** Yeah. And Hollow Watch here. Same order.
-
-Torren follows the sequence farther.
-
-**TORREN:** If I'm reading that right, our little map's a piece of this one.
-
-Cyanis looks across the scale of the wall.
-
-**CYANIS:** That's a lot bigger than I wanted it to be.
-
-Ilyra studies the surrounding geography.
-
-**ILYRA:** Some of it doesn't line up with the ground we know.
-
-Torren nods.
-
-**TORREN:** No. Could be changes. Could be us. Don't know yet.
-
-He works outward only from the part he can anchor.
-
-**TORREN:** Dunmere should be around here.
-
-The relationship fits.
-
-From there, the route system continues east toward an enormous urban representation.
-
-Maevra goes still.
-
-**MAEVRA:** If the relationship holds, that should be Caelora.
-
-Cyanis looks at the depicted city.
-
-**CYANIS:** That's not Caelora.
-
-**MAEVRA:** No.
-
-A beat.
-
-Ilyra's attention shifts just north of the city.
-
-**ILYRA:** Wait. North of it.
-
-A separate smaller structure is marked there.
-
-She looks closer.
-
-**ILYRA:** That's ours.
-
-Cyanis follows her attention.
-
-**CYANIS:** The Crest?
-
-**ILYRA:** Same one.
-
-Maevra steps closer, checks it herself, and does not invent an explanation.
-
-**MAEVRA:** Copy that exactly.
-
-Nobody tries to explain why an Ancient map carries the modern Yahtrean Crest.
-
-Ilyra notices another physical detail.
-
-**ILYRA:** These lines aren't broken at the edge.
-
-Torren checks another side of the mural.
-
-**TORREN:** No. Panel ends. Routes don't.
-
-**MAEVRA:** Then this is one section.
-
-**TORREN:** Looks like it.
-
-Maevra makes the practical call.
-
-**MAEVRA:** Copy what we can support. Junction overlap, Dunmere, city, northern structure, Crest, and where the routes leave the panel. Nothing we have to guess at.
-
-The party makes a practical copy through a brief fade/state transition.
-
-When it is done, Cyanis gives the mural one last look.
-
-**CYANIS:** I want more time with this.
-
-A beat.
-
-**CYANIS:** We don't have it.
-
-Maevra knows exactly what he means.
-
-**MAEVRA:** No.
-
-Cyanis looks toward the route deeper into the Archive.
-
-**CYANIS:** Then we find the people first.
-
-Torren folds the copy away.
-
-**TORREN:** Yeah.
-
-The scene ends.
-
-### [GAMEPLAY HANDOFF]
-
-Player control returns.
-
-Known:
-- the Junction/Hollow Watch/Dunmere corridor belongs to a much larger Ancient route system;
-- the western mural is a complete section, not a damaged fragment;
-- the route network continues beyond the panel edges;
-- the system extends toward modern Caelora;
-- an enormous Ancient city is depicted in that general position;
-- a separate smaller structure immediately north of it bears the same Crest used by modern Yahtrea;
-- the party does not know the identity, age relationship, purpose, or history of either structure;
-- ancient and modern geography do not align cleanly;
-- practical copies have been made;
-- the kidnapped people remain the immediate priority.
-
-**Objective: Explore the Archive depths.**
-
-Next mandatory beat:
 **Archive Depths**
 
 ---
@@ -824,7 +672,7 @@ Next mandatory beat:
 ## Beat 7
 
 **Atomic source:** `BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `855ab91ff17b20fa2cbb90a408eeb11e85df99fe848f6c54a7214e4659adf312`
+**Source SHA-256:** `90bae29d45a9d0511b86f58ae3d6111bda846f54744701f0b290ea0af4b43946`
 
 # Chapter 2 — Beat 7 — Archive Depths
 
@@ -835,7 +683,7 @@ Next mandatory beat:
 
 Player control is active.
 
-The party continues beyond the western mural.
+The party continues deeper into the Ancient complex from the entrance section.
 
 This section is exploration-first.
 
@@ -846,7 +694,7 @@ Environmental pressure increases:
 - worsening visibility;
 - stronger evidence that something large is moving through the flooded structure.
 
-There is **no second major lore reveal**.
+There is **no major cartographic/lore reveal** and no replacement for the retired Western Map Mural.
 
 Most traversal is silent.
 
@@ -3004,12 +2852,12 @@ Chapter 2 ends with:
 ## C05 — Still Burns
 
 **Atomic source:** `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `c4e65fac34a0ce90dedd3286b99012983416686df663495c9e291933d9dc2298`
+**Source SHA-256:** `cd3372a3d4254df3dbc9519276cfb4fbbcc5c3c3c657d5c7d95a220ee40941b7`
 
 # Chapter 2 Character-Life — C05 — Still Burns
 
-**Status:** CURRENT REHEARSAL-FIRST WORKING DRAFT — NATURAL-TURN + TORREN SOCIAL-COMFORT PASS  
-**Availability:** Chapter 2 cleanup, after the Beat-16 Dunmere elder resolution and before the explicit Chapter-3 start interaction  
+**Status:** CURRENT EXACT DIALOGUE AUTHORITY — TRUE-VOICE / NATURAL-TURN / ROLE-BALANCE / DIALOGUE-ECONOMY PASS
+**Availability:** Chapter 2 cleanup, after the Beat-16 Dunmere elder resolution and before the explicit Chapter-3 start interaction
 **Participants:** Torren, Ilyra, Maevra, Cyanis
 
 ## Scene seed
@@ -3019,7 +2867,11 @@ This remains low-stakes Character-Life. No Bastion recap, trauma disclosure, anc
 
 ---
 
+### [DUNMERE INN — LATE NIGHT]
+
 Late night at the Dunmere inn.
+
+Torren is smoking by an open window. Ilyra wakes because it smells noticeably worse than the previous day. His stash was soaked in the waterworks. Maevra and Cyanis enter only because the smell/argument wakes them.
 
 The room is dark except for a low lamp and what little moonlight reaches through the open window.
 
@@ -3187,23 +3039,11 @@ Cyanis gets out of bed and stops well short of Torren.
 
 **TORREN:** Don't need more.
 
-**MAEVRA:** You absolutely need more.
-
 **CYANIS:** I'll pay for it if that gets this one out of the building.
 
 Torren looks at him.
 
 **TORREN:** Fuck off.
-
-**CYANIS:** Generous offer, cruelly rejected.
-
-**ILYRA:** I'll pay half.
-
-**MAEVRA:** I'll pay the other half if you throw that one out tonight.
-
-Torren stares at all three of them.
-
-**TORREN:** No.
 
 A beat.
 
@@ -3216,8 +3056,6 @@ A beat.
 **MAEVRA:** And stayed there.
 
 **CYANIS:** Long enough to develop opinions.
-
-That quick three-line escalation stays quick because the joke benefits from it.
 
 Torren looks down at the blunt, then takes another pull purely on principle.
 
@@ -3281,7 +3119,7 @@ The window stays open. Nobody goes immediately back to bed.
 
 Cyanis takes the chair by the wall. Ilyra stays sitting against the bedframe. Maevra shifts until the splinted arm is comfortable. Torren remains on the floor beneath the window.
 
-For a little while they complain about the cold instead. That conversation is not important enough to transcribe every line.
+For a little while, they complain about the cold instead.
 
 Eventually the room becomes quiet again.
 
@@ -3308,23 +3146,3 @@ He moves the pouch farther away.
 Maevra laughs into her pillow.
 
 Fade.
-
-> **END C05 — STILL BURNS**
-
----
-
-## Natural-turn / continuity notes
-
-- The scene is an important Chapter-2 proof of Torren's social opening: he is stubborn, funny, participatory, willing to argue recreationally, and capable of carrying an ordinary conversation that has nothing to do with maps or routes.
-- Fast one-line escalation remains where comedy benefits from it, but Torren is not confined to one-word deadpan as a character template.
-- Torren's smoking remains ordinary established behavior, not framed as impairment or a vice intervention.
-- The joke remains specifically about the stash being soaked in the Chapter-2 waterworks and smelling terrible after drying.
-- Maevra and Cyanis still wake naturally because of the smell/argument.
-- Maevra/Torren's practiced familiarity is obvious, but **no exact duration, enlistment age, or romantic history is revealed here**.
-- No trauma disclosure, Bastion recap, Rhazek analysis, ancient-map exposition, or future reveal is added.
-
----
-
-## Synchronization footer
-
-This derived manuscript was assembled exclusively from the atomics listed above. No dialogue wording was rewritten during assembly.
