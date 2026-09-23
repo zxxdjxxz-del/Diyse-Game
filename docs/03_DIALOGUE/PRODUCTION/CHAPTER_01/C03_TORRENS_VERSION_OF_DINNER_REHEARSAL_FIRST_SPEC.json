@@ -3,32 +3,93 @@
   "scene_id": "CH01_C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST",
   "chapter_id": "chapter_01",
   "story_position": "Chapter 1 cleanup window — canonical Character-Life C02 (legacy source key C03)",
-  "production_ready": false,
-  "participants": ["cyanis", "ilyra", "torren", "maevra"],
+  "production_ready": true,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "maevra"
+  ],
   "scene_purpose": "Give Cyanis, Ilyra, Torren, and Maevra an ordinary low-stakes camp dinner after the Chapter-1 climax. The scene is about Torren's genuinely bad but functional food, with Maevra's long familiarity with it contrasting Cyanis and Ilyra discovering it. Let humor, profanity, argument and comfort emerge naturally; let Torren participate as a whole adult person rather than only a field specialist; and let him smoke only after the meal is finished.",
   "story_sources": [
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_MAEVRA_BROKEN_ARM_LOCK.md", "whole_file": true, "role": "maevra_chapter_1_injury_state"},
-    {"path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHARACTER_LIFE_REBUILD_LOCK.md", "whole_file": true, "role": "current_character_life_authority"}
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01_MAEVRA_BROKEN_ARM_LOCK.md",
+      "whole_file": true,
+      "role": "maevra_chapter_1_injury_state"
+    },
+    {
+      "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHARACTER_LIFE_REBUILD_LOCK.md",
+      "whole_file": true,
+      "role": "current_character_life_authority"
+    }
   ],
   "additional_authority_sources": [
-    {"path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md", "whole_file": true, "role": "cyanis_character_authority"},
-    {"path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md", "whole_file": true, "role": "ilyra_character_authority"},
-    {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "torren_social_progression_authority"},
-    {"path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md", "whole_file": true, "role": "maevra_familiarity_rank_and_friendship_authority"},
-    {"path": "docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md", "whole_file": true, "role": "early_relationship_language"},
-    {"path": "external-services/canary/brains/cyanis.yaml", "whole_file": true, "role": "current_cyanis_runtime_person_brain"},
-    {"path": "external-services/canary/brains/ilyra.yaml", "whole_file": true, "role": "current_ilyra_runtime_person_brain"},
-    {"path": "external-services/canary/brains/torren.yaml", "whole_file": true, "role": "current_torren_runtime_person_brain"},
-    {"path": "external-services/canary/brains/maevra.yaml", "whole_file": true, "role": "current_maevra_runtime_person_brain"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_authoring_lock"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md", "whole_file": true, "role": "mature_adult_register_and_character_specific_profanity"},
-    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "camp_field_presentation"}
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md",
+      "whole_file": true,
+      "role": "cyanis_character_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md",
+      "whole_file": true,
+      "role": "ilyra_character_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Torren.md",
+      "whole_file": true,
+      "role": "torren_social_progression_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md",
+      "whole_file": true,
+      "role": "maevra_familiarity_rank_and_friendship_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md",
+      "whole_file": true,
+      "role": "early_relationship_language"
+    },
+    {
+      "path": "external-services/canary/brains/cyanis.yaml",
+      "whole_file": true,
+      "role": "current_cyanis_runtime_person_brain"
+    },
+    {
+      "path": "external-services/canary/brains/ilyra.yaml",
+      "whole_file": true,
+      "role": "current_ilyra_runtime_person_brain"
+    },
+    {
+      "path": "external-services/canary/brains/torren.yaml",
+      "whole_file": true,
+      "role": "current_torren_runtime_person_brain"
+    },
+    {
+      "path": "external-services/canary/brains/maevra.yaml",
+      "whole_file": true,
+      "role": "current_maevra_runtime_person_brain"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring_lock"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "mature_adult_register_and_character_specific_profanity"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "camp_field_presentation"
+    }
   ],
   "scene_context_seed": {
     "location_name": "Junction-area camp",
     "time": "evening",
     "scene_type": "optional_character_life",
-    "runtime_note": "Camp presentation allows all four characters to be physically present. Maevra retains the field splint on the arm broken during the Broken Convoy attack, but the dinner scene does not need to discuss it. Maevra already knows Cyanis and Ilyra well and is still their senior commander; in this off-duty scene the friendship/person side may be foregrounded without erasing rank. Torren's food is genuinely bad but safe and filling. This is an important late-Chapter-1 proof that Torren can talk, joke, swear and argue about ordinary life rather than only routes/maps. One fire/pot/bowls are sufficient. Torren does not smoke until everyone has finished eating; one simple light-and-idle smoke action is enough. Nimera has not joined or met the party yet and must not be referenced as though anyone knows her. No lore, Hunt progression, gameplay reward, or relationship speech."
+    "runtime_note": "Optional late-Chapter-1 Character-Life scene. Keep it low-stakes, social, and economical. Torren's terrible-but-functional cooking is the premise; the scene proves he can joke, swear, argue, and participate outside route expertise. Maevra remains an established friend and senior commander without turning dinner into hierarchy talk. Exit once the field-meal joke and tomorrow-cooking reversal land. No lore, Hunt progression, reward, or premature Nimera reference."
   },
   "required_character_truths": [
     "Torren knows his food is bad and simply does not consider taste the primary job of dinner.",
@@ -52,7 +113,24 @@
     "cyanis_as_exposition_question_feed",
     "sanitized_uniformly_polite_adult_dialogue"
   ],
-  "forbidden_reveals": ["exact_maevra_torren_history_duration", "maevra_torren_enlistment_ages", "explicit_past_romance_or_sex", "current_romantic_status", "junction_lore_expansion", "cistern_devourer_progression", "prime_or_last_sentinel_explanation", "bearer_or_authorization_explanation", "entity"],
-  "forbidden_presentation": ["cooking_montage", "bespoke_food_animation_chain", "constant_prop_business", "smoking_during_meal", "friendship_meter_style_emotional_payoff", "every_line_as_punchline"],
+  "forbidden_reveals": [
+    "exact_maevra_torren_history_duration",
+    "maevra_torren_enlistment_ages",
+    "explicit_past_romance_or_sex",
+    "current_romantic_status",
+    "junction_lore_expansion",
+    "cistern_devourer_progression",
+    "prime_or_last_sentinel_explanation",
+    "bearer_or_authorization_explanation",
+    "entity"
+  ],
+  "forbidden_presentation": [
+    "cooking_montage",
+    "bespoke_food_animation_chain",
+    "constant_prop_business",
+    "smoking_during_meal",
+    "friendship_meter_style_emotional_payoff",
+    "every_line_as_punchline"
+  ],
   "production_cost_ceiling": "very_low_reuse_camp_assets_portrait_led"
 }
