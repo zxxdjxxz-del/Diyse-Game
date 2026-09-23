@@ -26,16 +26,16 @@ No Black Host enemies appear in the mandatory Waterworks route.
 
 | Tier | Formation | Composition |
 |---|---|---|
-| Light | **Wetworks Pair** | 1 Bogshell + 1 Cistern Leech |
-| Light | **Upper Cavity** | 1 Needlewing + 1 Cistern Leech |
-| Standard | **Cistern Cluster** | 1 Bogshell + 2 Cistern Leeches |
-| Standard | **Broken Chamber** | 1 Bogshell + 1 Cistern Leech + 1 Needlewing |
-| Heavy | **Flooded Roost** | 1 Bogshell + 2 Needlewings |
+| Light | **Wetworks Cluster** | 1 Bogshell + 2 Cistern Leeches |
+| Light | **Upper Cavity** | 1 Needlewing + 2 Cistern Leeches |
+| Standard | **Broken Chamber** | 1 Bogshell + 1 Cistern Leech + 2 Needlewings |
+| Standard | **Cistern Swarm** | 1 Bogshell + 3 Cistern Leeches |
+| Heavy | **Flooded Roost** | 1 Bogshell + 2 Needlewings + 2 Cistern Leeches |
 
-Structural cap:
-> **3 active enemies**
+Structural band:
+> **3–5 active enemies**
 
-This early Chapter-2 area should not exceed the active three-character party in ordinary body count.
+Chapter 2 may outnumber the three-person party from the beginning. Balance should come from enemy role mix, durability, action quality, and encounter frequency rather than matching enemy count to party count.
 
 Needlewing is eligible only where the chamber has enough open overhead space to support its aerial presentation.
 
@@ -59,9 +59,9 @@ Archive-specific identities begin entering:
 |---|---|---|
 | Light | **Flooded Record Hall** | 1 Bogshell + 1 Cistern Leech + 1 Archive Current |
 | Light | **Broken Archive Airspace** | 1 Needlewing + 1 Archive Current + 1 Memory Scribe |
-| Standard | **Archive Watch** | 1 Archive Current + 1 Memory Scribe |
-| Standard | **Wet Record Hall** | 1 Bogshell + 1 Archive Current + 1 Memory Scribe |
-| Heavy | **Current Gallery** | 2 Archive Currents + 1 Memory Scribe |
+| Standard | **Archive Watch** | 2 Archive Currents + 1 Memory Scribe + 1 Cistern Leech |
+| Standard | **Wet Record Hall** | 1 Bogshell + 1 Archive Current + 1 Memory Scribe + 1 Needlewing |
+| Heavy | **Current Gallery** | 2 Archive Currents + 1 Memory Scribe + 1 Bogshell + 1 Cistern Leech |
 
 ## Deeper Archive
 As the player moves deeper:
@@ -75,13 +75,13 @@ Eligible repeatable formations:
 - Current Gallery
 - deeper variants built only from Archive Current and Memory Scribe.
 
-Structural cap:
-> **3 active enemies**
+Structural band:
+> **3–5 active enemies**
 
 Memory Scribe cap:
 > **maximum 1 Memory Scribe per ordinary formation**
 
-This keeps the copy mechanic readable and prevents Chapter 2 from becoming construct-heavy before Chapter 3.
+Larger Archive formations should grow through carried wildlife and Archive Currents rather than stacking Scribes or introducing additional construct identities.
 
 Immediate Archive-Leviathan approach buffer:
 > **SAFE**
@@ -102,14 +102,17 @@ The Old Bastion is an active military installation. Formations should look like 
 | Tier | Formation | Composition |
 |---|---|---|
 | Light | **Bastion Patrol** | 1 Black Host Raider + 1 Black Host Crossbowman + 1 Ruin Shieldbearer |
-| Light | **Hound Patrol** | 1 Black Host Raider + 2 Rift Hounds |
-| Standard | **Shielded Fireline** | 1 Ruin Shieldbearer + 2 Black Host Crossbowmen |
-| Standard | **War-Sorcery Line** | 1 Ruin Shieldbearer + 1 Black Host War-Sorcerer + 1 Black Host Crossbowman |
-| Heavy | **Command Defense** | 1 Ruin Shieldbearer + 1 Black Host Raider + 1 Black Host Crossbowman + 1 Black Host War-Sorcerer |
-| Heavy | **Rift Pursuit** | 1 Ruin Shieldbearer + 1 Black Host Raider + 2 Rift Hounds |
+| Light | **Hound Patrol** | 1 Black Host Raider + 2 Rift Hounds + 1 Black Host Crossbowman |
+| Standard | **Shielded Fireline** | 1 Ruin Shieldbearer + 2 Black Host Crossbowmen + 1 Black Host Raider |
+| Standard | **War-Sorcery Line** | 1 Ruin Shieldbearer + 1 Black Host War-Sorcerer + 1 Black Host Crossbowman + 1 Black Host Raider |
+| Heavy | **Command Defense** | 1 Ruin Shieldbearer + 2 Black Host Raiders + 1 Black Host Crossbowman + 1 Black Host War-Sorcerer |
+| Heavy | **Rift Pursuit** | 1 Ruin Shieldbearer + 1 Black Host Raider + 1 Black Host Crossbowman + 2 Rift Hounds |
+| Peak | **Full Bastion Response** | 1 Ruin Shieldbearer + 2 Black Host Raiders + 1 Black Host Crossbowman + 1 Black Host War-Sorcerer + 1 Rift Hound |
 
-Structural cap:
-> **4 active enemies**
+Structural band:
+> **3–6 active enemies**
+
+The six-enemy ceiling is reserved for the later Old Bastion escalation, where organized military response is at its strongest.
 
 The Bastion response may become more organized as the alarm state progresses, but it does not become an infinite reinforcement system.
 
@@ -217,14 +220,20 @@ Do not add Hollow Watch Sentry or Archive Duplicant back into Chapter 2 without 
 
 
 ## Old Waterworks formation correction — 2026-09-23
-- ordinary formation cap reduced from 4 to **3 active enemies**;
-- Flooded Roost is now **1 Bogshell + 2 Needlewings**;
-- the Waterworks should teach the three local wildlife roles through readable 2–3 body combinations rather than early action-economy overload.
+- superseded by the later Chapter-2 body-count correction below.
 
 
 ## Sunken Archive formation correction — 2026-09-23
-- ordinary formation cap reduced to **3 active enemies**;
-- Memory Scribe capped at **1 per formation**;
-- Archive Watch is now **1 Archive Current + 1 Memory Scribe**;
-- Current Gallery is now **2 Archive Currents + 1 Memory Scribe**;
+- Memory Scribe remains capped at **1 per formation**;
+- larger formations use wildlife / Archive Current bodies rather than additional construct identities;
 - no four-construct ordinary formation is used in Chapter 2.
+
+
+## Chapter-2 body-count escalation lock — 2026-09-23
+Current structural enemy-count progression:
+- **Old Waterworks:** 3–5 enemies;
+- **Sunken Archive:** 3–5 enemies;
+- **Old Bastion:** 3–6 enemies;
+- **6-enemy ordinary formations are reserved for the late-chapter Bastion escalation.**
+
+This is a structural composition lock, not a current difficulty certification. The later encounter-validation pass must tune individual bodies, action frequency, formation weights, and encounter rate so that larger enemy counts remain appropriate for the three-person Chapter-2 party.
