@@ -7,8 +7,8 @@ const TIER_NAMES := ["light", "standard", "heavy"]
 # Chapter 1 has been reconciled to the current 2026-09-22 enemy-placement locks.
 # Hunts, mandatory named encounters, and bosses are absent from random pools.
 # Strong normal-pool enemies such as Watch Captain Frame may appear where current canon permits.
-# Chapter-1 50/50 tier weights here are executable engineering placeholders; current owning docs keep
-# Southern-Briar and Watch-Captain final selection weights open pending encounter revalidation.
+# Chapter-1 formation weights here are executable engineering placeholders. Structural composition/subarea
+# eligibility is current; final selection frequency remains open pending the later level/progression rebalance.
 const AREAS := {
 	"ch01_greenhollow": {
 		"chapter": 1,
