@@ -170,12 +170,12 @@ Authority index:
 - `CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md`
 
 Current live dialogue:
-- Beats 1–16;
+- Beats 1–5 and 7–16;
+- legacy B06 Western Map Mural retired;
 - canonical C05 `Still Burns`.
 
 Material current corrections:
 - Beats 1–2 — Torren enters Chapter 2 already more socially comfortable;
-- Beat 6 — Cyanis owns rescue priority; Ilyra not generic `people first` voice;
 - Beat 14 — Ilyra not automatic post-battle medical/conscience voice;
 - Beat 16 — Maevra owns immediate human success; Torren road result; Ilyra ordinary banter;
 - C05 — exact `twenty-five years` Maevra/Torren leak removed while practiced familiarity remains.
@@ -235,7 +235,6 @@ Final production-layer corrections:
 - C06 atomic notes/spec — same Torren correction + first-contact relationship lock.
 
 Audited/retained as compatible:
-- Beat 6 spec;
 - Beat 10 spec;
 - Beat 15 spec;
 - C07/H03 spec.
