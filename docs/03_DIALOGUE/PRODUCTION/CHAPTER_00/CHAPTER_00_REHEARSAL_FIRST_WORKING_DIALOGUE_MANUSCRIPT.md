@@ -8,21 +8,21 @@
 
 | Order | Canonical slot | Atomic source | SHA-256 |
 |---:|---|---|---|
-| 1 | P01 | `P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md` | `e81fc48a1a65594240c34d9ee053e89730861a0f9a7e0bb43223b36bcd2d22ad` |
-| 2 | P02 | `P02_WRECK_FIELD_REHEARSAL_FIRST_DRAFT_A.md` | `4de8f0d066573453af130926e7c5e06a93b2b18b6077f22768c34a0e70df696a` |
-| 3 | P03 | `P03_EVACUATION_RELAY_DECISION_REHEARSAL_FIRST_DRAFT_A.md` | `d92ec3f242bd9b5746d6078abf006cbd0e1c93959566c44f636f948e22ff0da9` |
-| 4 | P04 | `P04_FIELD_TRIAGE_ILYRA_FIRST_FLARE_REHEARSAL_FIRST_DRAFT_A.md` | `738b05d939db7c97cfe25006a9c45405594437587261182a2082757ad9c72ffe` |
-| 5 | P05 | `P05_CONCEALED_RUIN_VANGUARD_REHEARSAL_FIRST_DRAFT_A.md` | `31528c43465586c9e15e0ec22fac63ee67b5d263e5ff4f869ae0f5d84d2d694f` |
-| 6 | P06 | `P06_RIFTMAW_WAR_SORCERER_REHEARSAL_FIRST_DRAFT_A.md` | `2b96955e06ed54e78b57e14b891e380eafbf9979854ab485672463bd3ca0f3cb` |
-| 7 | P07 | `P07_AFTERMATH_SURVIVOR_RECOVERY_REHEARSAL_FIRST_DRAFT_B.md` | `75ae859db36155847b33f07036097eda1fe4a0854f7353d6fea979697d814720` |
-| 8 | C01 — Six Minutes | `C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md` | `30a1592415a643361bfe19d35df7fcc2459fd1dbe0a1dfaf228da59673310f34` |
+| 1 | P01 | `P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md` | `37bd5554a982bb8d7984b9f4b324cadd68c624b169c8bb5e6e51290f5f45b917` |
+| 2 | P02 | `P02_WRECK_FIELD_REHEARSAL_FIRST_DRAFT_A.md` | `385de62d34ebc90d6ea48deb7b65faed3501413ca3a5c877b26c71a83e563ea8` |
+| 3 | P03 | `P03_EVACUATION_RELAY_DECISION_REHEARSAL_FIRST_DRAFT_A.md` | `5ea2f9aa605e768f5edc6050a7db6d413cf70ed0dc604503459cc02005126f51` |
+| 4 | P04 | `P04_FIELD_TRIAGE_ILYRA_FIRST_FLARE_REHEARSAL_FIRST_DRAFT_A.md` | `4cdf72d5880ff5ce670987a048cdcf73936cf44c27344c17601b8ee636edbb51` |
+| 5 | P05 | `P05_CONCEALED_RUIN_VANGUARD_REHEARSAL_FIRST_DRAFT_A.md` | `1aca75d81ff4441ca673b6c05654449bfbac93ae69791a4f4faa32f5bc0de32d` |
+| 6 | P06 | `P06_RIFTMAW_WAR_SORCERER_REHEARSAL_FIRST_DRAFT_A.md` | `dbace2ab3d2eb6ef2286307f107f43718c356e88f81ea84002267001a8c9cc97` |
+| 7 | P07 | `P07_AFTERMATH_SURVIVOR_RECOVERY_REHEARSAL_FIRST_DRAFT_B.md` | `c71457f84bec26015d04638fc92d7d727a001264f3d6ef0306e2559d6c724b01` |
+| 8 | C01 — Six Minutes | `C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md` | `e9bc8be606fc1eff08185865a6b3f1af0ceed753c50f0ddcc607559054d9eaf3` |
 
 ---
 
 ## P01
 
 **Atomic source:** `P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `e81fc48a1a65594240c34d9ee053e89730861a0f9a7e0bb43223b36bcd2d22ad`
+**Source SHA-256:** `37bd5554a982bb8d7984b9f4b324cadd68c624b169c8bb5e6e51290f5f45b917`
 
 # Chapter 0 — P01
 # Convoy / Opening Ambush
@@ -64,7 +64,7 @@ He looks toward the convoy center.
 
 **CONVOY OFFICER:** Holding.
 
-**CYANIS:** Then they can be nervous all the way to Caelora. I'm not opening an unknown recovery case on the road because it rattled.
+**CYANIS:** Then they can be nervous all the damn way to Caelora. I'm not opening an unknown recovery case on the road because it rattled.
 
 **CONVOY OFFICER:** Good. I was hoping not to have that argument with you.
 
@@ -94,7 +94,7 @@ The officer looks up the road.
 
 **CONVOY OFFICER:** Road could just be empty.
 
-**CYANIS:** Could be. I don't like how completely empty.
+**CYANIS:** Could be. Still feels wrong as hell.
 
 A beat.
 
@@ -178,7 +178,7 @@ Player control moves into **P02 — Wreck Field**.
 ## P02
 
 **Atomic source:** `P02_WRECK_FIELD_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `4de8f0d066573453af130926e7c5e06a93b2b18b6077f22768c34a0e70df696a`
+**Source SHA-256:** `385de62d34ebc90d6ea48deb7b65faed3501413ca3a5c877b26c71a83e563ea8`
 
 # Chapter 0 — P02
 # Wreck Field
@@ -342,7 +342,7 @@ The officer catches the hesitation.
 
 **CONVOY OFFICER:** You think it's bait.
 
-**CYANIS:** I think I don't know yet, and chasing people through the one convenient gap they left us is a stupid way to learn.
+**CYANIS:** Maybe it's bait, maybe it isn't. Chasing them through the one convenient gap they left us is a shit way to find out.
 
 The officer looks north, then back over the wreck field.
 
@@ -397,7 +397,7 @@ Next: **P03 — Evacuation Relay Decision.**
 ## P03
 
 **Atomic source:** `P03_EVACUATION_RELAY_DECISION_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `d92ec3f242bd9b5746d6078abf006cbd0e1c93959566c44f636f948e22ff0da9`
+**Source SHA-256:** `5ea2f9aa605e768f5edc6050a7db6d413cf70ed0dc604503459cc02005126f51`
 
 # Chapter 0 — P03
 # Evacuation Relay Decision
@@ -439,7 +439,7 @@ The officer looks back toward the relay.
 
 **CONVOY OFFICER:** And if they don't come back? If they use those ten minutes to settle on the ridge and make us pay for giving them time?
 
-**CYANIS:** Then we deal with a harder ridge after we've stopped bleeding people into the road. I don't love it. I just hate the other order more.
+**CYANIS:** Then we deal with a harder ridge after we've stopped bleeding people into the road. I don't love it. I just hate the other damn order more.
 
 The officer studies him for a beat.
 
@@ -521,7 +521,7 @@ Next: **P04 — Field Triage Camp / Ilyra / First Incomplete Response.**
 ## P04
 
 **Atomic source:** `P04_FIELD_TRIAGE_ILYRA_FIRST_FLARE_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `738b05d939db7c97cfe25006a9c45405594437587261182a2082757ad9c72ffe`
+**Source SHA-256:** `4cdf72d5880ff5ce670987a048cdcf73936cf44c27344c17601b8ee636edbb51`
 
 # Chapter 0 — P04
 # Field Triage Camp / Ilyra / First Incomplete Response
@@ -609,7 +609,7 @@ Cyanis looks at it as if the arm has betrayed him by being visible.
 
 **CYANIS:** Mostly pain.
 
-**ILYRA:** Mostly is doing suspicious work there.
+**ILYRA:** Mostly is doing some bullshit work there.
 
 He flexes the hand once.
 
@@ -693,7 +693,7 @@ He does, briefly.
 
 Ilyra checks what she can in seconds rather than pretending she has a diagnosis.
 
-**ILYRA:** Yes—for now. You're responsive, your pupils look even, and you're not falling over. That is not me saying you're fine. If any of that changes, I tell you to stop and you stop. You don't negotiate because the line is busy.
+**ILYRA:** Yes—for now. You're responsive, your pupils look even, and you're not falling over. That's enough to keep moving. If any of that changes, I tell you to stop and you stop. You don't negotiate because the line is busy.
 
 **CYANIS:** Works for me.
 
@@ -759,7 +759,7 @@ He waits because the answer is unexpectedly simple.
 
 **CYANIS:** You're staying here?
 
-**ILYRA:** No. These two are stable enough for the next few minutes and I've handed them to people who know what not to do. That line isn't stable. If it folds, every patient I just protected is exposed again, so standing here pretending treatment ends at the blanket would be stupid.
+**ILYRA:** No. These two are stable enough for the next few minutes and I've handed them to people who know what not to do. That line isn't stable. If it folds, every patient I just protected is exposed again, so standing here pretending treatment ends at the blanket would be bullshit.
 
 Cyanis nods toward the weapon she already carries.
 
@@ -769,7 +769,7 @@ Cyanis nods toward the weapon she already carries.
 
 A beat.
 
-**CYANIS:** Right. Sorry. Long day.
+**CYANIS:** Right. Sorry. Hell of a day.
 
 **ILYRA:** You drank nothing, you're bleeding through one sleeve, and something in a recovery case just made your pulse jump. I'll allow one stupid question.
 
@@ -811,7 +811,7 @@ No Prime, Might, Last Sentinel, bearer, ancient-weapon, or Entity explanation is
 ## P05
 
 **Atomic source:** `P05_CONCEALED_RUIN_VANGUARD_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `31528c43465586c9e15e0ec22fac63ee67b5d263e5ff4f869ae0f5d84d2d694f`
+**Source SHA-256:** `1aca75d81ff4441ca673b6c05654449bfbac93ae69791a4f4faa32f5bc0de32d`
 
 # Chapter 0 — P05
 # Concealed Ruin Vanguard
@@ -865,7 +865,7 @@ The Vanguard keeps coming.
 
 **CYANIS:** Camp stays behind us. If he tries to pull us away from it, we don't go.
 
-**ILYRA:** Agreed. I'm not chasing a man who volunteered to be the only obvious target.
+**ILYRA:** Agreed. I'm not chasing some bastard who volunteered to be the only obvious target.
 
 Cyanis glances at her.
 
@@ -965,9 +965,9 @@ Ilyra considers it instead of reaching for a confident answer.
 
 **ILYRA:** I think he left when he meant to leave. That's enough reason for me not to give him the next choice too.
 
-**CYANIS:** You're comfortable with not knowing.
+**CYANIS:** That doesn't eat at you?
 
-**ILYRA:** Absolutely not. I hate not knowing. I just hate inventing an answer because uncertainty is irritating.
+**ILYRA:** Of course it does. It pisses me off. I'm just not making shit up to scratch the itch.
 
 Cyanis looks at her.
 
@@ -1021,7 +1021,7 @@ The concealed Ruin Vanguard has withdrawn alive. Cyanis and Ilyra do not know hi
 ## P06
 
 **Atomic source:** `P06_RIFTMAW_WAR_SORCERER_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `2b96955e06ed54e78b57e14b891e380eafbf9979854ab485672463bd3ca0f3cb`
+**Source SHA-256:** `dbace2ab3d2eb6ef2286307f107f43718c356e88f81ea84002267001a8c9cc97`
 
 # Chapter 0 — P06
 # Riftmaw + War-Sorcerer / Final Broken Convoy Confrontation
@@ -1045,11 +1045,11 @@ The relevant characters may appear as simple field models for the trigger. Portr
 
 Cyanis sees the incoming pair.
 
-**CYANIS:** That's not a hound.
+**CYANIS:** That's not a damn hound.
 
 Ilyra sees the size, the harness, and the sorcerer controlling the approach.
 
-**ILYRA:** No. And I don't think the person behind it brought it here to negotiate.
+**ILYRA:** No. And the bastard behind it didn't bring it here to negotiate.
 
 **CONVOY OFFICER:** Riftmaw! Sorcerer behind it!
 
@@ -1087,7 +1087,7 @@ The War-Sorcerer and Riftmaw continue closing on the camp.
 
 Cyanis looks at the temporary protection.
 
-**CYANIS:** Whatever that is, it's helping the line. Use it while it's here.
+**CYANIS:** Whatever the hell that is, it's helping the line. Use it while it's here.
 
 **ILYRA:** Already planning to.
 
@@ -1177,7 +1177,7 @@ The look on her face changes immediately.
 
 Cyanis's smile disappears.
 
-**ILYRA:** I don't know enough yet to know what that light did to you. I don't know if the dizziness is harmless, if it can change suddenly, or if vision problems would mean something is getting worse. If you joke about double vision, I have to waste time deciding whether you're being funny or whether your brain is doing something dangerous.
+**ILYRA:** I have no idea what that light did to you. If you joke about seeing double, I have to stop and work out whether you're being an asshole or whether something in your head just changed.
 
 That lands harder than he expected.
 
@@ -1217,7 +1217,7 @@ Cyanis sees it.
 
 **CYANIS:** Card looks intact.
 
-**ILYRA:** Looks intact from here. That's all we know, and I'd like us not to learn more by poking it in the middle of the road.
+**ILYRA:** Looks intact. Leave it that way. I'm not poking unexplained magic in the middle of the damn road.
 
 **CYANIS:** Strongly agree.
 
@@ -1296,7 +1296,7 @@ Riftmaw and the Convoy War-Sorcerer are defeated in the combined final encounter
 ## P07
 
 **Atomic source:** `P07_AFTERMATH_SURVIVOR_RECOVERY_REHEARSAL_FIRST_DRAFT_B.md`  
-**Source SHA-256:** `75ae859db36155847b33f07036097eda1fe4a0854f7353d6fea979697d814720`
+**Source SHA-256:** `c71457f84bec26015d04638fc92d7d727a001264f3d6ef0306e2559d6c724b01`
 
 # Chapter 0 — P07
 # Aftermath / Survivor Recovery / Overnight Camp
@@ -1340,7 +1340,7 @@ Cyanis looks toward the wreck line as the light begins to go.
 
 **CONVOY OFFICER:** Brackenwall can send people back at first light.
 
-**CYANIS:** If somebody's pinned, first light is too late. Same if they're bleeding where we can't see them. I'm not asking to chase north. Give us the wreck line and the ditch, one sweep, then we stop.
+**CYANIS:** If somebody's pinned, first light is too late. Same if they're bleeding where we can't see them. I'm not asking to chase the bastards north. Give us the wreck line and the ditch, one sweep, then we stop.
 
 **ILYRA:** He's right. We don't need the whole road. We need the places somebody could still be alive and unable to call loudly enough for camp to hear them.
 
@@ -1378,9 +1378,9 @@ The officer's attention drops to the Card in Cyanis's possession.
 
 Cyanis looks down at the dark Card.
 
-**CYANIS:** Happily. I've had enough clever magic for one day.
+**CYANIS:** Happily. I've had enough damn clever magic for one day.
 
-**ILYRA:** No argument from me. We have two responses, one physical correlation, and no idea what any of it means. That's a terrible time to improvise a third test.
+**ILYRA:** No argument from me. Twice was enough. I'm not asking that damn thing for a third demonstration before we have walls and records.
 
 **CONVOY OFFICER:** Good. Brackenwall can decide what to do with it when we have walls, records, and people who aren't half dead.
 
@@ -1558,7 +1558,7 @@ The player may remain in cleanup or use the later explicit **Continue to Bracken
 ## C01 — Six Minutes
 
 **Atomic source:** `C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `30a1592415a643361bfe19d35df7fcc2459fd1dbe0a1dfaf228da59673310f34`
+**Source SHA-256:** `e9bc8be606fc1eff08185865a6b3f1af0ceed753c50f0ddcc607559054d9eaf3`
 
 # Chapter 0 — Character-Life C01
 # Six Minutes
@@ -1636,7 +1636,7 @@ Ilyra laughs before she can stop herself.
 
 **CYANIS:** Some of a compress.
 
-**ILYRA:** Important distinction.
+**ILYRA:** Naturally.
 
 ### [DINNER]
 
@@ -1782,7 +1782,7 @@ He looks toward the dark perimeter.
 
 **ILYRA:** So you were going to find a problem.
 
-**CYANIS:** Sounds worse when you say it.
+**CYANIS:** Sounds like shit when you say it.
 
 **ILYRA:** I wasn't being medical.
 
