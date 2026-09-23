@@ -74,7 +74,7 @@ Cyanis gives her the bounded Brackenwall account.
 
 Nimera thinks for a second.
 
-**NIMERA:** Good. Boring restraint is damn beautiful when the alternative is turning a person into an experiment because everybody got curious at once.
+**NIMERA:** Good. Boring restraint is beautiful, you reckless bastards. The alternative is turning a person into an experiment because everybody got curious at once.
 
 **CYANIS:** That's almost flattering.
 
@@ -142,7 +142,7 @@ Nimera points at him.
 
 Nimera turns back to the spread on her table and flips through two tagged volumes.
 
-**NIMERA:** The useful seal material is not in this damn room.
+**NIMERA:** The useful seal material is not in this bastard room.
 
 **CYANIS:** Where is it?
 
