@@ -135,18 +135,20 @@ const AREAS := {
 	},
 	"ch03_suppressed_archives": {
 		"chapter": 3,
+		# Engineering placeholders only. Exact revised Beat-7..10 placement/weights remain open.
+		# Archive Scribe Engine is a mandatory Beat-11 boss and is forbidden from random pools.
 		"formations": {
 			"light": [
-				{"id": "ch03_archives_l01", "weight": 50.0, "exp": 215, "enemies": ["Archive Scribe Engine", "Judgment Frame", "Erasure Wisp"]},
-				{"id": "ch03_archives_l02", "weight": 50.0, "exp": 215, "enemies": ["Archive Scribe Engine", "Erasure Wisp", "Erasure Wisp"]},
+				{"id": "ch03_archives_l01", "weight": 50.0, "exp": 215, "enemies": ["Judgment Frame", "Erasure Wisp", "Erasure Wisp"]},
+				{"id": "ch03_archives_l02", "weight": 50.0, "exp": 215, "enemies": ["Erasure Wisp", "Erasure Wisp", "Judgment Frame"]},
 			],
 			"standard": [
-				{"id": "ch03_archives_s01", "weight": 50.0, "exp": 280, "enemies": ["Judgment Frame", "Archive Scribe Engine", "Erasure Wisp", "Erasure Wisp"]},
-				{"id": "ch03_archives_s02", "weight": 50.0, "exp": 280, "enemies": ["Judgment Frame", "Judgment Frame", "Archive Scribe Engine", "Erasure Wisp"]},
+				{"id": "ch03_archives_s01", "weight": 50.0, "exp": 280, "enemies": ["Judgment Frame", "Judgment Frame", "Erasure Wisp", "Erasure Wisp"]},
+				{"id": "ch03_archives_s02", "weight": 50.0, "exp": 280, "enemies": ["Judgment Frame", "Erasure Wisp", "Erasure Wisp", "Erasure Wisp"]},
 			],
 			"heavy": [
-				{"id": "ch03_archives_h01", "weight": 50.0, "exp": 315, "enemies": ["Judgment Frame", "Judgment Frame", "Archive Scribe Engine", "Erasure Wisp", "Erasure Wisp"]},
-				{"id": "ch03_archives_h02", "weight": 50.0, "exp": 315, "enemies": ["Judgment Frame", "Archive Scribe Engine", "Archive Scribe Engine", "Erasure Wisp", "Erasure Wisp"]},
+				{"id": "ch03_archives_h01", "weight": 50.0, "exp": 315, "enemies": ["Judgment Frame", "Judgment Frame", "Erasure Wisp", "Erasure Wisp", "Erasure Wisp"]},
+				{"id": "ch03_archives_h02", "weight": 50.0, "exp": 315, "enemies": ["Judgment Frame", "Judgment Frame", "Judgment Frame", "Erasure Wisp", "Erasure Wisp"]},
 			],
 		},
 	},
