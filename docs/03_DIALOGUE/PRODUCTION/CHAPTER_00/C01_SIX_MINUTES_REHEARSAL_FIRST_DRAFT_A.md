@@ -22,7 +22,7 @@ Ilyra notices.
 
 **ILYRA:** That bad?
 
-**CYANIS:** Horse shit would be better. Whose tea is this?
+**CYANIS:** Boiled ass would be better. Whose tea is this?
 
 Ilyra's eyes drop to the cup.
 
