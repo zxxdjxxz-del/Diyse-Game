@@ -80,7 +80,7 @@ Cyanis tries not to laugh.
 
 Fails.
 
-**TORREN:** Fuck off.
+**TORREN:** Fuck off, you map-blind bastard.
 
 Torren starts laughing too.
 
@@ -110,7 +110,7 @@ Torren deliberately fixes the C.
 
 **TORREN:** A lot. Not enough. Memory gets confident. Map gives me something to argue with later.
 
-**CYANIS:** That's actually pretty damn good.
+**CYANIS:** That's annoyingly good.
 
 **TORREN:** Sounded surprised.
 
