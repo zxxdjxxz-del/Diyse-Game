@@ -12,7 +12,7 @@
 - Archive Scribe Engine
 - Judgment Frame
 - Erasure Wisp
-- Command-Station Sentry
+- Command Guard Frame
 - Authority Lens
 - Command Ring Drone
 
