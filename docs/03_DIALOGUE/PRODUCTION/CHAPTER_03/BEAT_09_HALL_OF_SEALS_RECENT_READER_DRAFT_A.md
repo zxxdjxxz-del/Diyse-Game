@@ -26,13 +26,13 @@ Nimera opens an old keeper ledger.
 
 **TORREN:** Method?
 
-**NIMERA:** Referenced somewhere else, because apparently dead archivists enjoyed leaving future scholars little fucking treasure hunts.
+**NIMERA:** Referenced somewhere else, because apparently dead archivists enjoyed leaving future scholars damned treasure hunts.
 
 **CYANIS:** Does that mean Lysara doesn't have to consciously put magic into every document?
 
 **NIMERA:** Probably. Historical model, not direct proof about her specific seal. Keep the qualifier attached or I will physically staple it to the sentence.
 
-**CYANIS:** I fucking heard it.
+**CYANIS:** I heard you.
 
 **TORREN:** You correct your own jokes too?
 
