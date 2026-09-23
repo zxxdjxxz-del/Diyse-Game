@@ -72,9 +72,9 @@ These remain compatible with the Archives, but exact sub-area formation eligibil
 ### Cresthaven tower-base ordinary identities — current
 - Command-Station Sentry — surviving command-site security construct; current preferred Chapter-3 Stun introduction
 - Authority Lens — shared inspection / authority-reading support construct; also appears in the Old City Archives; no Chapter-3 Stun rider
+- Command Ring Drone — mobile command-relay support construct; Attack / Magic support
 
 ### Recovered identities — current mandatory placement not yet reapproved
-- Command Ring Drone
 - Grand Inquisitor Frame
 - Way-Fort Marauder
 - Rift Boltman
@@ -93,6 +93,7 @@ The Cresthaven short-dungeon ordinary roster must be intentionally designed rath
 Current approved tower-base identities:
 - Command-Station Sentry
 - Authority Lens
+- Command Ring Drone
 
 ## Retired random-pool use
 
@@ -222,3 +223,10 @@ Do not fill these gaps by silently restoring the retired encounter structure.
 - In Cresthaven, Command Interior is its strongest thematic home.
 - Chapter-3 Classification Flash is Lightning AoE **without Stun**.
 - Command-Station Sentry remains the preferred ordinary-enemy Stun introduction.
+
+
+## Cresthaven Command Ring Drone correction — 2026-09-23
+- **Command Ring Drone is approved for the Cresthaven Ancient tower base only.**
+- It does not belong to the Old City Archives.
+- Its Chapter-3 role is offensive support through Command Relay rather than accuracy support or Stun.
+- No Chapter-3 AoE action is added.
