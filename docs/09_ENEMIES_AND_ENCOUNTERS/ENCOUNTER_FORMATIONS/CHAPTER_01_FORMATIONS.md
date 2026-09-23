@@ -223,6 +223,39 @@ After Briarhide is defeated, the short late-Southern-Briar backtrack uses the sa
 - SAFE;
 - no random encounters.
 
+## Formation behavior / teaching intent
+
+These are structural encounter identities, not final difficulty claims.
+
+### First / northern Briar
+- **Trail Pair** — balanced fast + slower mixed-pressure introduction.
+- **Predator Pair** — two fast bodies; tests target removal without status complexity.
+- **Briar Pair** — durable boar + slower plant body.
+- **Boar Trail** — fast Stalker + heavier Boar.
+- **Thorn Pair** — slower mixed physical/Earth pressure with self-Harden potential.
+- **Boar Pair** — straightforward two-body durability/physical-pressure check.
+
+No northern-Briar formation uses hidden focus-fire. Single-target enemy actions use equal legal party targeting unless an individual action explicitly says otherwise.
+
+### Hollow Watch — Black Host
+- **Occupation Patrol** — baseline occupied-fort numbers pressure.
+- **Shield Line** — Shieldbearer extends the life of a mixed melee/ranged line without taunting or protecting allies through an unlisted mechanic.
+- **Crossbow Screen** — two ranged bodies create persistence pressure while Shieldbearer anchors the formation.
+
+### Hollow Watch — constructs
+- **Sentry Pair** — no Ballista is present, so Targeting Signal is ineligible; both Sentries use their direct-action behavior.
+- **Watch Line** — teaches the core Sentry → Ballista setup and interrupt relationship.
+- **Crossfire Post** — one Sentry may signal only one of the two Ballistae; the other continues its ordinary Snap Bolt / Reload cycle.
+- **Watch Captain formation** — Watch Captain is the strong body while Sentry/Ballista retains the same readable setup grammar. Watch Captain does not amplify or duplicate Targeting Signal.
+
+### Southern Briar
+- **Predator Trail** — fast Needlewing/Stalker pressure around a sturdier Boar.
+- **Rooted Skirmish** — Rootmaw anchors while Needlewing creates speed contrast.
+- **Rootbound Growth** — slower durability-heavy control of battle tempo without adding a new harmful status.
+- **Bramble Wall** — armored Brambleback plus physical wildlife creates a sturdier three-body line.
+- **Heavy Woods** — four durable/slow-to-medium bodies; endurance-oriented rather than speed-oriented.
+- **Canopy Rush** — five-enemy Southern-Briar ceiling; two Needlewings create the fastest opening pressure, but all single-target actions still use fair legal targeting rather than scripted dogpiling.
+
 ## Roster boundary
 
 **Northern / first Briar**
