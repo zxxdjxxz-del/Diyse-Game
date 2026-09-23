@@ -19,12 +19,12 @@
 | 9 | Beat 9 | `BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md` | `85605862d0982325f2268cc451de903da9082a2ae92ca1d2f4137108f308ac03` |
 | 10 | Beat 10 | `BEAT_10_POST_CASTELLAN_MURAL_DRAFT_A.md` | `17ebace1545d216a1f36b46c5b2083fdd1a0cc7df59513e0d8617e1ff55e36c8` |
 | 11 | Beat 11 | `BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md` | `c705f7ac1502de3669f37a55bc38d9eb1eb60884b6f491909b73fa6c77861e02` |
-| 12 | Beat 12 | `BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md` | `987963bb11bc68ec17d45f3b11a9ef445372dba47dd17e50fcb14295c5aac891` |
+| 12 | Beat 12 | `BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md` | `ac006fab6f7a0b21edaeef99b9f280ddf06f7e5023deee5e4a42bffa91643a61` |
 | 13 | Beat 13 | `BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md` | `f317003e18349a446beb1cdac1bbc467bef405e182e64058f4c98cb479dee982` |
 | 14 | Beat 14 | `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md` | `6f4be76e0aaf51217d69dbb2b8914ebedb18bab9a09d54e087d8a41d50ec46a8` |
 | 15 | Beat 15 | `BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md` | `206613b8a977fe5e9b6b9c6aed9fd610c13470c70de6d63c83aba8ee78db6210` |
-| 16 | C02 — Torren's Version of Dinner | `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md` | `d2986db0eaa2ee1a3d073ae19ce4c384148765051e1baa0327598c6458532d13` |
-| 17 | C03 — What the Map Says | `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md` | `3807b7182968878953f556bab106331642ce41289c284c0486c75fa92ef9b742` |
+| 16 | C02 — Torren's Version of Dinner | `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md` | `ebcbba9cc2119a7cbc7cddd31e8b10b08152e4b2f35c36cd558de636ebc1e2fd` |
+| 17 | C03 — What the Map Says | `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md` | `95b3543190d0e5ba166ad0b0d726ee2d922228f4370eb82f7d8ef6af2f369b6d` |
 | 18 | C04 — Not Professionally | `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md` | `29724fe0f2b066490993faf9af03e7cc629731b085a7cc414570fe7dc429fdbd` |
 
 ---
@@ -1275,7 +1275,7 @@ Next mandatory beat:
 ## Beat 12
 
 **Atomic source:** `BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md`  
-**Source SHA-256:** `987963bb11bc68ec17d45f3b11a9ef445372dba47dd17e50fcb14295c5aac891`
+**Source SHA-256:** `ac006fab6f7a0b21edaeef99b9f280ddf06f7e5023deee5e4a42bffa91643a61`
 
 # Chapter 1 — Beat 12
 # Southern Briar Passage
@@ -1314,7 +1314,7 @@ Movement pauses.
 
 The Briarhide itself is not visible.
 
-**CYANIS:** That's a big damn animal.
+**CYANIS:** That's a big son of a bitch.
 
 Torren's tone changes immediately.
 
@@ -1991,7 +1991,7 @@ Card:
 ## C02 — Torren's Version of Dinner
 
 **Atomic source:** `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md`  
-**Source SHA-256:** `d2986db0eaa2ee1a3d073ae19ce4c384148765051e1baa0327598c6458532d13`
+**Source SHA-256:** `ebcbba9cc2119a7cbc7cddd31e8b10b08152e4b2f35c36cd558de636ebc1e2fd`
 
 # Chapter 1 — Character-Life C02
 # Torren's Version of Dinner
@@ -2033,7 +2033,7 @@ Ilyra studies the food.
 
 **TORREN:** Hot. Safe. Food.
 
-**CYANIS:** That's a shitty standard.
+**CYANIS:** That's a piss-poor standard.
 
 **TORREN:** Still a standard.
 
@@ -2160,7 +2160,7 @@ Scene ends.
 ## C03 — What the Map Says
 
 **Atomic source:** `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `3807b7182968878953f556bab106331642ce41289c284c0486c75fa92ef9b742`
+**Source SHA-256:** `95b3543190d0e5ba166ad0b0d726ee2d922228f4370eb82f7d8ef6af2f369b6d`
 
 # Chapter 1 — Character-Life C03
 # What the Map Says
@@ -2244,7 +2244,7 @@ Cyanis tries not to laugh.
 
 Fails.
 
-**TORREN:** Fuck off.
+**TORREN:** Fuck off, you map-blind bastard.
 
 Torren starts laughing too.
 
@@ -2274,7 +2274,7 @@ Torren deliberately fixes the C.
 
 **TORREN:** A lot. Not enough. Memory gets confident. Map gives me something to argue with later.
 
-**CYANIS:** That's actually pretty damn good.
+**CYANIS:** That's annoyingly good.
 
 **TORREN:** Sounded surprised.
 
