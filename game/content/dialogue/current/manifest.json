@@ -349,7 +349,7 @@
           "scene_kind": "mandatory",
           "slot_id": "B05",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md",
-          "source_sha256": "703884f174281d7b6cbbb4015a2a4f06809ca5f4a0281d3e978041616fdbe917",
+          "source_sha256": "8595d7128fe0551e5e35787fe13912fa27faf382a6d42ced3ce930cea36a36a3",
           "spoken_lines": 20,
           "spoken_sha256": "58743cbdb681f34a3f44fa8f17723c656b7847df33233c7f45fb82cdff1aae6c",
           "title": "Chapter 2 — Beat 5 — Sunken Archive Entrance"
@@ -360,7 +360,7 @@
           "scene_kind": "mandatory",
           "slot_id": "B07",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "855ab91ff17b20fa2cbb90a408eeb11e85df99fe848f6c54a7214e4659adf312",
+          "source_sha256": "90bae29d45a9d0511b86f58ae3d6111bda846f54744701f0b290ea0af4b43946",
           "spoken_lines": 13,
           "spoken_sha256": "2ba9dd7c53407530edb543f4d2f36aef48e7b1228d951df9cbb75a6661ea6337",
           "title": "Chapter 2 — Beat 7 — Archive Depths"
@@ -459,7 +459,7 @@
           "scene_kind": "mandatory",
           "slot_id": "B16",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "26c115af5fb08e1153d05b3d6c6fc231028d07c7686dca30b50c1081072b4329",
+          "source_sha256": "0e5cf7c8eb94e2fe494a600ea85fb5c6eca4b341dae44d6859e53327b59bf0af",
           "spoken_lines": 42,
           "spoken_sha256": "11642ed5a0f6d30aae750687dbf30c29b1715a46f6ab466955dde65cf05613af",
           "title": "Chapter 2 — Beat 16 — Return to Dunmere / Road Reopened / Cleanup"
@@ -470,7 +470,7 @@
           "scene_kind": "character_life",
           "slot_id": "C05",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "c4e65fac34a0ce90dedd3286b99012983416686df663495c9e291933d9dc2298",
+          "source_sha256": "cd3372a3d4254df3dbc9519276cfb4fbbcc5c3c3c657d5c7d95a220ee40941b7",
           "spoken_lines": 83,
           "spoken_sha256": "bf38cd1ca30d7174de74c60378165adc352741fdb825069a76ad474c4f151d3a",
           "title": "Chapter 2 Character-Life — C05 — Still Burns"
