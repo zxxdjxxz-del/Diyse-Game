@@ -5,13 +5,11 @@
 
 
 **Recommended Lv:** 11  
-**Status:** **POWER COMPLETE / v78 DIFFICULTY VALIDATED**
+**Status:** **IDENTITY / ARCHITECTURE / ACTION CONCEPT LOCKED — NUMERIC REVALIDATION REQUIRED**
 
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 11 | **3,760** | **54** | 36 | 38 | 35 | 28 | 0 | 10 |
-
-## Actions
 
 ## Current monster identity
 Scaldback is a large amphibious reptile that has occupied the sealed lower Waterworks branch for years.
@@ -23,7 +21,7 @@ Visual / ecological anchors:
 - steam and scalding-water effects are environmental/biological presentation, not elemental-creature or construct origin;
 - no Black Host ownership, alteration, equipment, or transfer-operation connection.
 
-## Actions — current concept lock / exact Power pending revalidation
+## Action concept lock — exact Power pending revalidation
 
 ### Boiler Ram
 - heavy single-target Physical / Neutral body attack
@@ -55,11 +53,19 @@ One HP bar.
 No second form.
 
 
-## v78 mandatory-vs-completionist validation
-Immediate access around Lv8–9 is intentionally below the fixed Lv11 recommendation. At recommended Lv11, direct pressure remains recoverable while 3,760 HP provides the Hunt-scale endurance burden. Completionist equipment/progression shortens the fight without dynamic scaling.
+## Numerical validation status
 
-> **PASS — RETAIN**
+> **REOPENED**
 
+The former Transfer Executioner validation does not certify Scaldback.
+
+Fresh validation must use:
+- the current three-person Chapter-2 party;
+- Chapter-2 cleanup access;
+- the current recommended-level philosophy for Regional Hunts;
+- the final authored Scaldback action Powers and Burn application chance.
+
+The inherited Lv11 / 3,760 HP raw line is retained only as a provisional starting point.
 
 ## Current access / placement lock — 2026-09-23
 Regional Hunt #2 is **Scaldback** and is **not** an Old Bastion encounter.
@@ -79,3 +85,21 @@ Regional Hunt #2's current identity is:
 > **Scaldback**
 
 The former humanoid / Black Host / transfer-operation concept and action names are historical only. Existing raw numbers are not automatically certified for the new monster identity and must be revalidated against the current three-person Chapter-2 party.
+
+
+## 2026-09-23 combat-identity lock
+Scaldback's current four-action structure is:
+- **Boiler Ram** — heavy single-target Physical / Neutral;
+- **Scalding Gout** — single-target Fire through superheated water / steam, with Burn;
+- **Pressure Vent** — party-wide Fire through vented steam, without a default Burn rider;
+- **Mineral Brace** — non-damaging temporary Defense / Spirit reinforcement.
+
+Do not restore the retired humanoid / military action kit.
+
+Scaldback remains:
+- one HP bar;
+- no transformation;
+- no construct identity;
+- no Black Host connection;
+- no Water element;
+- no Stun or Freeze.
