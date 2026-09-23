@@ -42,7 +42,7 @@ Cyanis looks at him.
 
 **TORREN:** Still true.
 
-**ILYRA:** Devastating. Defeated by topography.
+**ILYRA:** Devastating. Beaten by fucking topography.
 
 **CYANIS:** You're enjoying this.
 
@@ -86,13 +86,13 @@ Ilyra glances at him.
 
 A short silence while the city continues around them.
 
-**CYANIS:** Still hungry.
+**CYANIS:** Still fucking hungry.
 
 **TORREN:** Palace is still uphill.
 
 **ILYRA:** I think that's becoming his answer to you.
 
-**CYANIS:** I regret this group.
+**CYANIS:** I fucking regret this group.
 
 **MAEVRA:** No, you don't.
 
