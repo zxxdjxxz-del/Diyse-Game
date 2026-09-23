@@ -4,7 +4,7 @@
 **Status:** FULL SOURCE-LEVEL DIALOGUE CLOSURE — REVISED 15-BEAT STRUCTURE CURRENT  
 **Migration date:** September 23, 2026  
 **Primary story authority:** ../../../02_STORY/CHAPTERS/CHAPTER_03.md  
-**Current spoken-line count:** **644 mandatory + 180 Character-Life = 824 total**  
+**Current spoken-line count:** **631 mandatory + 176 Character-Life = 807 total**  
 **Nimera profanity audit:** **48 / 291 spoken lines = 16.5%**, inside the current **15–35% long-form calibration**.
 
 ## Authority rule
@@ -175,7 +175,7 @@ Do not resolve:
 
 ## Runtime status
 
-Source dialogue is now current and source-closed.
+Source dialogue is now current and source-closed. The two protected First Command Warden messages are compiled as Warden-spoken runtime dialogue in B14.
 
 The existing game/content/dialogue/current/chapter_03 runtime resources and global manifest remain **stale until regenerated from this source-closed set**.
 
