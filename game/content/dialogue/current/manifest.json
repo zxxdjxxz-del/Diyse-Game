@@ -651,9 +651,9 @@
           "scene_kind": "character_life",
           "slot_id": "C06",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md",
-          "source_sha256": "d5de0339f0c0c420280fc65364d4257a7038e190e06cb0d5a6f8ca06b749124b",
-          "spoken_lines": 96,
-          "spoken_sha256": "f567e6ef84b2d751751b1d7b7dc66bd11f21822593605d22cd4f9952b432c440",
+          "source_sha256": "222af8d3006231e14f91a10cbc256bea0497bfd89173f6acdec4a1260936a7c3",
+          "spoken_lines": 75,
+          "spoken_sha256": "b4fa5cd0e84ece5b80a57425d7f7c265d35cb8b091fb667b1b8a6885e1a5ab07",
           "title": "Nimera Takes Over a Table"
         },
         {
@@ -662,17 +662,17 @@
           "scene_kind": "character_life",
           "slot_id": "C07",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/H03_ILYRA_AND_NIMERA_DRAFT_A.md",
-          "source_sha256": "a6c1e14d9a3061122eecae514b00a96e17f2e05d69404e6eac2c6f9ca743501b",
-          "spoken_lines": 80,
-          "spoken_sha256": "0c38c054d95116fdd01438668619ff13871e37d11ef1b7311468ed9889012ef4",
+          "source_sha256": "9f079fc6b2e2e47d1a4157df8b874d5b1ed285cbb95fa25a5060fa5e2a1c281e",
+          "spoken_lines": 67,
+          "spoken_sha256": "abaf91daaea0cd72da30ff107f53ce9bb079eed2bdf89d381f514bcbfc683ad5",
           "title": "Ilyra and Nimera"
         }
       ]
     }
   },
-  "expected_total_spoken": 2165,
-  "global_spoken_sha256": "4644a3df3ea359dc0cff63e08304da42ac4db7e5a5d8f912e1d8ef7c7a2c958b",
+  "expected_total_spoken": 2131,
+  "global_spoken_sha256": "fbbd3b259d1e12897e3332dec8a92c0423e791bb539803308b7de14ff143dfd6",
   "schema": "diyse_current_runtime_dialogue_manifest_v1",
   "source_authority": "docs/03_DIALOGUE/PRODUCTION",
-  "total_spoken": 2165
+  "total_spoken": 2131
 }

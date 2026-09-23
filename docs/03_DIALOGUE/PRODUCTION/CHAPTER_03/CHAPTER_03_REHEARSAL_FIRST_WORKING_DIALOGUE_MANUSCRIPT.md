@@ -23,8 +23,8 @@
 | 13 | Beat 13 | `BEAT_13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DRAFT_A.md` | `6a6919aaf1883ebb40c695baf48708de2ce033f06ac1758584fe919f57ce2374` |
 | 14 | Beat 14 | `BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md` | `541448de5ed76c18b18076167246f09b5e182d0270e680ca338312272ee7898b` |
 | 15 | Beat 15 | `BEAT_15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DRAFT_A.md` | `c6132f9f95f04c2d3aa1e62e27d765ce6a8caf0b88231c22e84f6feaad91045e` |
-| 16 | C06 — Nimera Takes Over a Table | `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md` | `d5de0339f0c0c420280fc65364d4257a7038e190e06cb0d5a6f8ca06b749124b` |
-| 17 | C07 — Ilyra and Nimera | `H03_ILYRA_AND_NIMERA_DRAFT_A.md` | `a6c1e14d9a3061122eecae514b00a96e17f2e05d69404e6eac2c6f9ca743501b` |
+| 16 | C06 — Nimera Takes Over a Table | `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md` | `222af8d3006231e14f91a10cbc256bea0497bfd89173f6acdec4a1260936a7c3` |
+| 17 | C07 — Ilyra and Nimera | `H03_ILYRA_AND_NIMERA_DRAFT_A.md` | `9f079fc6b2e2e47d1a4157df8b874d5b1ed285cbb95fa25a5060fa5e2a1c281e` |
 
 ---
 
@@ -2600,20 +2600,20 @@ Current next investigative direction:
 ## C06 — Nimera Takes Over a Table
 
 **Atomic source:** `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md`  
-**Source SHA-256:** `d5de0339f0c0c420280fc65364d4257a7038e190e06cb0d5a6f8ca06b749124b`
+**Source SHA-256:** `222af8d3006231e14f91a10cbc256bea0497bfd89173f6acdec4a1260936a7c3`
 
 # Chapter 3 — Character-Life C06
 # Nimera Takes Over a Table
-## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TRUE-VOICE / ECONOMY PASS
+## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TIGHTENED TRUE-VOICE PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19  
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23  
 **Legacy atomic source key:** H01
 
 ### [OPTIONAL CHARACTER-LIFE TRIGGER — CRESTHAVEN RECORDS / MAP ROOM]
 
 Available during the Chapter-3 cleanup window after Beat 15.
 
-The records room is usable but still newly reopened.
+The records room is usable but newly reopened.
 
 One central table was cleared for shared work.
 
@@ -2623,7 +2623,7 @@ Not messily.
 
 Aggressively, meticulously, defensibly.
 
-Books, copied notes, labeled scraps, reference sheets, ink, and ordinary archive-working tools sit in distinct little zones. Every pile appears intentional.
+Books, copied notes, labeled scraps, ink, and archive tools sit in distinct working zones.
 
 Nimera is writing.
 
@@ -2651,7 +2651,7 @@ Then laughs hard enough to put the pen down.
 
 **TORREN:** Didn't.
 
-**NIMERA:** I don't care. Actually—no, continue exactly as you were. I want enough evidence to assign blame properly.
+**NIMERA:** I don't care. Continue. I want enough evidence to assign blame properly.
 
 **CYANIS:** Absolutely not.
 
@@ -2661,29 +2661,23 @@ Torren reaches the table with a rolled route map.
 
 He stops.
 
-Looks across it.
-
 **TORREN:** Where am I putting this?
 
 **NIMERA:** Anywhere free.
 
-Torren looks again.
+Torren looks across the table.
 
 **TORREN:** There isn't anywhere free.
 
-Nimera looks up, offended by the premise.
+Nimera looks up, offended.
 
-**NIMERA:** That's not true. There are at least four empty surfaces.
+**NIMERA:** That's not true.
 
 Cyanis points to a narrow clear patch.
 
 **CYANIS:** There.
 
-**NIMERA:** Fuck no.
-
-**CYANIS:** Empty.
-
-**NIMERA:** Empty is not available. That's allocated.
+**NIMERA:** Fuck no. That's allocated.
 
 **TORREN:** To what?
 
@@ -2701,23 +2695,17 @@ Cyanis looks at Torren.
 
 Torren starts lowering the map onto another clear patch.
 
-**NIMERA:** Not there either.
-
-He stops.
-
-**TORREN:** Why?
-
-**NIMERA:** Wet ink beside it. Rolled edge drags through that, transfers the smear, then tomorrow I get to decide whether the mark means something or Harth was impatient.
+**NIMERA:** Not there either. Wet ink.
 
 Torren checks.
 
 She's right.
 
-**TORREN:** Fair.
+**TORREN:** Damn it.
 
 **CYANIS:** Don't encourage her.
 
-**NIMERA:** He isn't encouraging me. He's recognizing objective reality.
+**NIMERA:** He's recognizing objective reality.
 
 Torren looks at Cyanis.
 
@@ -2733,21 +2721,9 @@ Nimera laughs again.
 
 Cyanis starts inspecting the table like an enemy position.
 
-**CYANIS:** This whole end is notes.
+**CYANIS:** Notes. Books. Ink. Your cup has territory.
 
-**NIMERA:** Three different note groups.
-
-**CYANIS:** Books.
-
-**NIMERA:** Two active references, an index, one book that can go fuck itself, and one book still under review.
-
-Cyanis points to a cup sitting in its own clear patch.
-
-**CYANIS:** Your cup has territory.
-
-**NIMERA:** Liquid should not share a damn border with ink and paper. That's civilization.
-
-Torren nods.
+**NIMERA:** Liquid should not share a damn border with paper. That's civilization.
 
 **TORREN:** Strong argument.
 
@@ -2775,19 +2751,11 @@ Cyanis stares at her.
 
 **NIMERA:** Correct.
 
-Torren looks at the first empty patch, then the second.
-
 **TORREN:** Future lamp outranks future paper?
 
-Nimera brightens.
+**NIMERA:** Obviously. Fixed requirement versus expected work product.
 
-**NIMERA:** Absolutely. Lamp has a fixed functional requirement tied to light level. Paper is expected work product. Different confidence classes.
-
-Cyanis closes his eyes.
-
-**CYANIS:** I regret being here.
-
-**NIMERA:** You weren't even part of that question.
+**CYANIS:** I regret asking anything.
 
 ### [COMMUNAL]
 
@@ -2799,9 +2767,9 @@ Cyanis folds his arms.
 
 **CYANIS:** You have taken over the communal table.
 
-**NIMERA:** No. I've taken over most of the usable surface while using it for communal work.
+**NIMERA:** I've taken over most of the usable surface while using it for communal work.
 
-**TORREN:** Mostly took it over.
+**TORREN:** So mostly took it over.
 
 Nimera turns to him.
 
@@ -2809,27 +2777,9 @@ Nimera turns to him.
 
 **TORREN:** Knew you'd like that.
 
-**NIMERA:** I do. Correct distinctions deserve recognition.
+Cyanis points to a thin pile beneath one book.
 
-**CYANIS:** You are doing communal work. Alone. On the communal table.
-
-Nimera opens her mouth.
-
-Stops.
-
-Looks at the table.
-
-**NIMERA:** That is an irritatingly effective phrasing. I reject the tone and accept the structure.
-
-Cyanis smiles.
-
-**CYANIS:** I win.
-
-**NIMERA:** One sentence. Don't get drunk on it.
-
-Torren points to a thin pile beneath one book.
-
-**TORREN:** What's that?
+**CYANIS:** What's that?
 
 **NIMERA:** Notes I haven't decided are useful.
 
@@ -2839,35 +2789,23 @@ Torren points to a thin pile beneath one book.
 
 **CYANIS:** Rubbish with ambition.
 
-Nimera pauses.
-
-Looks at the pile.
+Nimera looks at the pile.
 
 **NIMERA:** Shit. That's better.
 
 **CYANIS:** Thank you.
 
-**NIMERA:** You improved one category by accident. Stay humble.
+**NIMERA:** Stay humble.
 
 ### [THE PRACTICAL RESULT]
 
 Torren finally unrolls the map against his own chest.
 
-Cyanis notices.
-
 **CYANIS:** You're using yourself as the table now.
 
 **TORREN:** Works.
 
-**NIMERA:** Adaptation. Problem solved without compromising the system.
-
-**CYANIS:** This is not your victory.
-
-**NIMERA:** I didn't say it was.
-
-A beat.
-
-**NIMERA:** It is, though.
+**NIMERA:** Adaptation. Problem solved.
 
 Cyanis reaches for a chair.
 
@@ -2876,10 +2814,6 @@ Two books occupy it.
 He looks at Nimera.
 
 **NIMERA:** In use.
-
-**CYANIS:** By you?
-
-**NIMERA:** Yes.
 
 He looks at the next chair.
 
@@ -2901,7 +2835,7 @@ Nimera calls after him.
 
 **NIMERA:** Your map can go on the window ledge if you put something clean under it.
 
-Torren does not turn around.
+Torren stops.
 
 **TORREN:** Knew there was space.
 
@@ -2911,13 +2845,11 @@ Cyanis smiles.
 
 **CYANIS:** He got you.
 
-**NIMERA:** No. Window ledge is auxiliary surface. Different jurisdiction.
+**NIMERA:** Window ledge is auxiliary surface. Different jurisdiction.
 
 Cyanis starts walking out.
 
 **CYANIS:** Absolutely not.
-
-**NIMERA:** I can explain exactly why.
 
 From the doorway:
 
@@ -2931,15 +2863,11 @@ Torren leaves.
 
 Cyanis laughs and follows.
 
-Nimera looks at the paper on the floor.
-
-**NIMERA:** That was blank. It was not part of the system.
-
-Silence.
+Nimera retrieves the paper.
 
 **NIMERA:** Cowardly bastards.
 
-She retrieves it and returns to work.
+She returns to work.
 
 ### [RETURN TO CLEANUP]
 
@@ -2954,13 +2882,13 @@ The records room simply feels more inhabited than before.
 ## C07 — Ilyra and Nimera
 
 **Atomic source:** `H03_ILYRA_AND_NIMERA_DRAFT_A.md`  
-**Source SHA-256:** `a6c1e14d9a3061122eecae514b00a96e17f2e05d69404e6eac2c6f9ca743501b`
+**Source SHA-256:** `9f079fc6b2e2e47d1a4157df8b874d5b1ed285cbb95fa25a5060fa5e2a1c281e`
 
 # Chapter 3 — Character-Life C07
 # Ilyra and Nimera
-## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TRUE-VOICE / ECONOMY PASS
+## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TIGHTENED TRUE-VOICE PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19  
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23  
 **Legacy atomic source key:** H03
 
 ### [OPTIONAL CHARACTER-LIFE — CRESTHAVEN SUPPLY ROOM]
@@ -3005,7 +2933,7 @@ She picks up the spoon.
 
 **ILYRA:** You asked.
 
-**NIMERA:** I asked why it's in here with cord, wax, hardware, chalk, and apparently whatever else somebody lost patience with.
+**NIMERA:** I asked why it's in here with cord, wax, hardware, chalk, and whatever else somebody got sick of sorting.
 
 **ILYRA:** Maybe they were tired.
 
@@ -3015,21 +2943,11 @@ Nimera pauses.
 
 She puts the spoon aside.
 
-**ILYRA:** Put it back.
-
-**NIMERA:** Absolutely not. Now I need to know whether it's an accident or evidence of a worse sorting principle.
-
-**ILYRA:** You're investigating the spoon.
-
-**NIMERA:** I'm correcting the box.
-
 ### [THE SORT]
 
 Nimera starts making small piles on the floor.
 
-Ilyra watches for a moment, then reaches down and takes the cord.
-
-Nimera's head snaps toward her.
+Ilyra watches, then reaches down and takes the cord.
 
 **NIMERA:** What are you doing?
 
@@ -3061,13 +2979,7 @@ Ilyra holds up what she took.
 
 **ILYRA:** No.
 
-**NIMERA:** Fine. Good. Otherwise I'd have to decide whether an empty cord category should remain represented.
-
-Ilyra looks at her.
-
-**ILYRA:** You'd make a memorial for string.
-
-**NIMERA:** Cord. And no. Probably.
+**NIMERA:** Fine.
 
 Ilyra smiles.
 
@@ -3081,8 +2993,6 @@ Nimera smiles back despite herself.
 
 **ILYRA:** I can be both.
 
-**NIMERA:** Deeply inconvenient.
-
 ### [THE UNKNOWN PIECE]
 
 Nimera digs farther into the crate and pulls out a small bent brass fitting.
@@ -3091,7 +3001,7 @@ She turns it over.
 
 **ILYRA:** What's that?
 
-**NIMERA:** Don't know. Manufactured fitting, probably retaining something, but the wear is asymmetric and this bend might be damage. Don't let me call it a bracket yet.
+**NIMERA:** Don't know. Some kind of manufactured fitting. Bend might be damage.
 
 **ILYRA:** Miscellaneous.
 
@@ -3101,25 +3011,17 @@ Nimera looks at her.
 
 **ILYRA:** Seems accurate.
 
-**NIMERA:** Unknown function is not miscellaneous. `Unknown` describes our knowledge. `Miscellaneous` describes a collection strategy, usually a shitty one.
+**NIMERA:** Unknown function means I don't know what the damn thing is. Miscellaneous means somebody stopped sorting.
 
 **ILYRA:** It came from the miscellaneous box.
 
-**NIMERA:** Which is already wrong.
-
-**ILYRA:** According to you.
-
-**NIMERA:** According to language, evidence, and basic respect for ever finding anything again.
+**NIMERA:** Which is already an accusation against the box.
 
 Ilyra raises an eyebrow.
 
-Nimera stops.
+Nimera catches herself.
 
-**NIMERA:** Fine. That was too much confidence.
-
-**ILYRA:** I didn't say anything.
-
-**NIMERA:** Your face did. I don't know who labeled the box or why. They could have been tired, rushed, inheriting somebody else's disaster—
+**NIMERA:** Fine. Against whoever labeled the box. Maybe they were tired, rushed, inheriting somebody else's disaster—
 
 **ILYRA:** You're defending them now.
 
@@ -3157,13 +3059,9 @@ Nimera stares at her.
 
 **ILYRA:** Starting to think you hate categories.
 
-**NIMERA:** I love categories. That's why bad ones make me damn furious.
-
-A beat.
+**NIMERA:** I love categories. Bad ones piss me off.
 
 Ilyra smiles.
-
-Nimera hears herself.
 
 **NIMERA:** All right. That sounded a little unwell.
 
@@ -3189,7 +3087,7 @@ Ilyra reads it.
 
 Nimera's pen stops.
 
-**NIMERA:** It is a bounded unknown. Future me knows exactly what I failed to establish instead of inheriting `who fucking knows` in polite charcoal.
+**NIMERA:** It says what I failed to establish instead of leaving future me with `who the hell knows` in polite charcoal.
 
 **ILYRA:** Longer miscellaneous.
 
@@ -3199,15 +3097,11 @@ Ilyra heads for the doorway with the cord.
 
 **ILYRA:** Don't overthink the spoon.
 
-Nimera looks at the spoon still sitting beside the crate.
+Nimera looks at the spoon beside the crate.
 
-**NIMERA:** It is presently an unresolved storage anomaly.
+**NIMERA:** Spoon.
 
 Ilyra stops at the doorway.
-
-**ILYRA:** Spoon.
-
-**NIMERA:** That's still just a noun.
 
 **ILYRA:** Very exclusive category.
 
@@ -3221,11 +3115,9 @@ She points to the pile Nimera made.
 
 Then leaves.
 
-Nimera looks at the candle on the floor.
+Nimera picks up the candle and puts it in the correct pile.
 
-She picks it up and puts it in the correct pile.
-
-Then looks at the spoon.
+She looks at the spoon.
 
 A beat.
 
