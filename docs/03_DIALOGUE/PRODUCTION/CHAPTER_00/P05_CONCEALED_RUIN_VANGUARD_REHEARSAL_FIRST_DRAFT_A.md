@@ -50,7 +50,7 @@ The Vanguard keeps coming.
 
 **CYANIS:** Camp stays behind us. If he tries to pull us away from it, we don't go.
 
-**ILYRA:** Agreed. I'm not chasing a man who volunteered to be the only obvious target.
+**ILYRA:** Agreed. I'm not chasing some bastard who volunteered to be the only obvious target.
 
 Cyanis glances at her.
 
@@ -150,9 +150,9 @@ Ilyra considers it instead of reaching for a confident answer.
 
 **ILYRA:** I think he left when he meant to leave. That's enough reason for me not to give him the next choice too.
 
-**CYANIS:** You're comfortable with not knowing.
+**CYANIS:** That doesn't eat at you?
 
-**ILYRA:** Absolutely not. I hate not knowing. I just hate inventing an answer because uncertainty is irritating.
+**ILYRA:** Of course it does. It pisses me off. I'm just not making shit up to scratch the itch.
 
 Cyanis looks at her.
 
