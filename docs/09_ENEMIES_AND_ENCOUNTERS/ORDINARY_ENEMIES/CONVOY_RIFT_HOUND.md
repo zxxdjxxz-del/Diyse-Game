@@ -53,3 +53,9 @@ Do not add:
 - No harmful-status rider is active in Chapter 0.
 - All Chapter-0 Hound encounters occur while Cyanis is solo, so all legal single-target actions necessarily target Cyanis.
 - In the two-Hound P01 formation, the Hounds do not gain a hidden pack-focus bonus, extra action, assist attack, or scripted alternating combo.
+
+## Visual authority
+Current locked Chapter-0 appearance:
+> `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
+
+Combat/encounter mechanics remain owned by this file; visual identity is owned by the art-domain authority above.
