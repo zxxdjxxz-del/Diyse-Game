@@ -46,19 +46,13 @@ Nimera crouches, looks, then looks at the marker.
 
 Cyanis checks the alternate side passage.
 
-**CYANIS:** This one holds?
+**CYANIS:** Other way?
 
 Torren tests it.
 
-**TORREN:** Better.
+**TORREN:** Better. Less likely to drop us through the fucking floor.
 
-**NIMERA:** Better is not a measurement.
-
-**TORREN:** Better is why we're not standing on the other one.
-
-Nimera considers that.
-
-**NIMERA:** Annoyingly valid.
+**NIMERA:** Irritatingly, that's a measurement I can use.
 
 ### [GAMEPLAY — RECORD GALLERIES]
 
@@ -70,13 +64,9 @@ Nimera can identify archive habits and provenance; Torren can read physical use 
 
 Nimera opens a warped catalogue drawer and finds several records copied across different eras.
 
-**NIMERA:** This is useful.
+**NIMERA:** Useful. Which makes me suspicious as hell.
 
-**CYANIS:** You sound disappointed.
-
-**NIMERA:** I'm suspicious of useful things. They make people stupid faster.
-
-**ILYRA:** That's comforting.
+**ILYRA:** Comforting.
 
 **NIMERA:** Here. Same subject copied three times. Oldest hand doesn't explain the mark. Middle copy guesses. Latest copy turns the guess into a category.
 
@@ -126,15 +116,9 @@ She flips back several pages.
 
 **NIMERA:** No closure note. No transfer note. No fire record. No formal sealing order.
 
-**ILYRA:** So they just stopped using it.
+**ILYRA:** So they just fucking stopped using it.
 
 **NIMERA:** Maybe. Or stopped recording that they used it. Different problem.
-
-**CYANIS:** Which one do you prefer?
-
-**NIMERA:** The one with evidence.
-
-**CYANIS:** Of course.
 
 Nimera looks toward the older rooms.
 
