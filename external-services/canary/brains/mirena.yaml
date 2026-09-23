@@ -124,6 +124,7 @@ conversation_model:
     - competitive
     - sharper_in_private
   profanity: more_available_in_private_than_public
+  profanity_long_form_calibration: roughly_2_to_7_percent_overall_with_private_scenes_allowed_higher_not_per_scene
   vulnerability: fears_being_loved_as_symbol_more_than_person
   silence: can_use_a_hold_or_look_as_deliberate_social_pressure
 
