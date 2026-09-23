@@ -43,7 +43,7 @@ Ilyra opens both eyes.
 
 She stares at him.
 
-**ILYRA:** Explain the damn swamp in this room.
+**ILYRA:** Explain why this room smells like swamp ass.
 
 Torren takes another pull.
 
@@ -147,7 +147,7 @@ Cyanis gets out of bed but stops well short of Torren.
 
 Torren looks at him.
 
-**TORREN:** Piss off.
+**TORREN:** Piss off, you silver-plated pain in the ass.
 
 **CYANIS:** You know it tastes awful.
 
