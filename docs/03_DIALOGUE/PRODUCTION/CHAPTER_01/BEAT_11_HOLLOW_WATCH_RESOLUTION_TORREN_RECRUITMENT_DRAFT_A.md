@@ -66,7 +66,7 @@ Cyanis looks toward the south end of town.
 
 **CYANIS:** Then we resupply and move.
 
-**ILYRA:** After food. I'm starving as hell.
+**ILYRA:** After food. I'm starving.
 
 Cyanis looks at her.
 
