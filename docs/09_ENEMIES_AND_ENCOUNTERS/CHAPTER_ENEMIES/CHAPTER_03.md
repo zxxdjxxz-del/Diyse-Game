@@ -66,6 +66,7 @@ Regional Hunt #3 may unlock during cleanup under its own authority.
 - Judgment Frame
 - Erasure Wisp
 - Authority Lens — inspection / classification support construct; also appears at Cresthaven
+- Archive Current — Chapter-2 carryover; late-Archive Lightning construct
 
 ### Old City Archives — strong normal-pool Elite
 - Grand Inquisitor Frame — late Deep Archives enforcement frame; max 1 per formation; no Chapter-3 Stun rider
@@ -250,3 +251,11 @@ Do not fill these gaps by silently restoring the retired encounter structure.
 - **Black Host Ward-Sorcerer — RETIRED FROM CHAPTER 3**
 
 These three identities are not part of any current Chapter-3 mandatory, optional, random, authored, or cleanup encounter.
+
+
+## Archive Current Chapter-3 carryover — 2026-09-23
+- **Archive Current carries forward from Chapter 2 into the late Old City Archives.**
+- It is a Lightning-aligned construct and supplies the desired elemental presence without creating a new Chapter-3 identity.
+- Primary placement: **Beat 10 — Deep Archives**.
+- Possible limited placement: late Beat-9 boundary if map geography supports it.
+- No elemental cycling or Chapter-4 reaction mechanics are added.
