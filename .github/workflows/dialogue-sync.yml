@@ -34,6 +34,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: dialogue-sync-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   sync-dialogue:
     runs-on: ubuntu-latest
