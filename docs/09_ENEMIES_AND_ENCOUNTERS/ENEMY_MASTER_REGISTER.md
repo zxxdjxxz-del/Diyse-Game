@@ -43,10 +43,6 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 2 | Mandatory named/boss | Archive Leviathan |
 | 2 | Mandatory named/boss | Commander Rhazek — Bastion Master |
 | 2 | Regional Hunt | Regional Hunt #2 — Scaldback |
-| 3 | Ordinary/carryover | Way-Fort Marauder |
-| 3 | Ordinary/carryover | Rift Boltman |
-| 3 | Ordinary/carryover | Black Host Ward-Sorcerer |
-| 3 | Ordinary/carryover | Archive Scribe Engine |
 | 3 | Ordinary/carryover | Judgment Frame |
 | 3 | Ordinary/carryover | Erasure Wisp |
 | 3 | Ordinary/carryover | Command-Station Sentry |
@@ -60,6 +56,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 3 | Authored/protected | Ivory Adjudicator — named nonlethal |
 | 3 | Authored/protected | S018 lawful-authority confrontation I/II — formation-level; no fake boss body |
 | 3 | Strong normal-pool Elite | Grand Inquisitor Frame |
+| 3 | Mandatory named/boss | Archive Scribe Engine |
 | 3 | Mandatory named/boss | First Command Warden — one bar / same-bar command-state shift |
 | 3 | Regional Hunt | Regional Hunt #3 — Archive Judgment Engine |
 | 4 | Ordinary/carryover | Reaction Node |
@@ -283,8 +280,14 @@ Status rollout:
 Current line-complete Chapter-3 combat content:
 > **MAIN BATCH PASS**
 
-Complete:
-- all 9 ordinary identities
+Historical Power work exists for retired identities, but the **current active Chapter-3 ordinary roster is 5 identities**:
+- Judgment Frame
+- Erasure Wisp
+- Authority Lens
+- Command-Station Sentry
+- Command Ring Drone
+
+Complete historical/current Power work:
 - Ivory Watch Detail encounter
 - Order Clerk noncombat boundary
 - Ivory Adjudicator protected encounter
@@ -637,3 +640,12 @@ Same-bar:
 - #6 WORLDFRAME → WORLDHEART EXPOSED → FINAL CONSTRUCTION
 
 No dynamic scaling.
+
+
+## Chapter-3 roster correction — 2026-09-23
+Removed from the active Chapter-3 register:
+- Way-Fort Marauder
+- Rift Boltman
+- Black Host Ward-Sorcerer
+
+Archive Scribe Engine is now registered as a mandatory named/boss rather than an ordinary enemy.
