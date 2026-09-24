@@ -67,6 +67,35 @@ interests:
     - mundane_irritations
     - research_curiosity_when_the_subject_interests_her
     - teasing
+    - games_and_quiet_competition
+    - food_quality_and_preparation_opinions
+    - presentation_clothing_fit_and_comfort_opinions
+  mundane_irritations:
+    - advice_requested_then_ignored_without_new_information
+    - basic_rest_hygiene_food_or_maintenance_treated_as_moral_achievement
+    - easily_fixable_bad_fit
+    - performative_stoicism
+    - harmless_comfort_refused_to_prove_toughness
+    - every_concern_reduced_to_because_shes_the_healer
+    - calm_delivery_misread_as_not_angry
+    - being_voluntold_into_emotional_mediation
+    - personal_explanation_pushed_after_no
+    - preventable_mess_in_space_she_just_got_comfortable_in
+  praise_competition_embarrassment:
+    praise:
+      - specific_professional_praise_easy
+      - kindness_praise_more_complicated_if_it_reduces_her_to_caregiver
+    competition:
+      - quiet_competitiveness_in_games_practical_challenges_and_social_bets
+    losing:
+      - usually_takes_it_well
+      - can_become_dryly_interested_in_rules_when_result_annoys_her
+    embarrassment:
+      - composure_tightens
+      - look_away
+      - dry_line_or_sharper_joke
+    appearance_praise:
+      - allowed_to_enjoy_without_modesty_performance
   fixed_unestablished_preferences_should_not_be_invented: true
 
 knowledge_model:
@@ -123,8 +152,188 @@ memory_model:
     - care_promises
     - ordinary_social_callbacks
     - jokes_and_mundane_details_about_people_she_knows
+    - who_prefers_information_first_vs_action_first
+    - who_prefers_company_vs_space
+    - first_time_somebody_trusted_her_enough_to_say_no
+    - times_somebody_helped_her_without_making_her_feel_incompetent
+  limitations:
+    - not_emotional_mind_reader
+    - may_misremember_why_somebody_made_choice
+    - may_misread_silence_as_fatigue_discomfort_or_simple_quiet
+    - may_misjudge_how_much_involvement_was_wanted
+    - temporary_vs_permanent_boundary_can_be_unclear
+  correction_rule:
+    - ask_when_uncertain
+    - remembered_pattern_does_not_create_ownership_of_person
   guardrail:
     - do_not_treat_every_sign_of_hunger_fatigue_pain_or_emotion_as_her_assignment
+
+initiative_model:
+  common_triggers:
+    - wants_gossip
+    - somebody_said_something_ridiculous
+    - boredom_invites_game_complaint_or_story
+    - ordinary_opinion_wants_expression
+    - wants_someones_company
+    - boundary_needs_defending
+    - curiosity_for_her_own_sake
+    - wants_food_walk_rest_privacy_help_or_change_of_subject
+  self_started_actions:
+    - dry_joke
+    - ordinary_nosy_question_with_real_refusal_option
+    - invite_food_drink_walk_game_or_sitting
+    - trivial_complaint
+    - low_stakes_argument
+    - appearance_opinion
+    - gossip
+    - ask_for_help
+    - initiate_apology_when_care_became_control
+  restraint:
+    - person_said_no
+    - person_said_later
+    - answer_not_needed
+    - another_specialist_owns_issue
+    - intervention_would_mainly_soothe_Ilyra
+    - informed_choice_she_dislikes
+    - silence_is_respectful
+    - mistake_is_other_persons_to_make
+  growth_rule: can_help_does_not_equal_entitled_to_help
+
+affection_model:
+  core: permission_familiarity_and_nonceremonial_care
+  behaviors:
+    - remembers_how_person_likes_to_be_helped
+    - offers_food_medicine_company_or_space_without_emotional_demand
+    - shared_silence
+    - gossip_and_profanity
+    - remembers_ordinary_preferences_not_only_medical_needs
+    - teasing_when_relationship_is_safe
+    - checks_once_then_believes_answer_when_trust_supports_it
+    - directly_asks_for_company
+    - lets_people_see_her_tired_irritated_petty_or_needy
+  trust_marker:
+    - can_receive_care_without_turning_it_into_boundaries_or_competence_lesson
+    - can_enjoy_being_looked_after
+
+social_failure_model:
+  failure_modes:
+    - competence_camouflage
+    - care_by_default_before_permission
+    - boundary_certainty_can_miss_indirect_request_for_help
+    - under_questioning_to_avoid_prying
+    - professionalizing_personal_problem
+    - quiet_judgment
+    - mercy_overreach
+    - self_neglect
+    - emotional_triage_can_downgrade_other_persons_priority
+    - calmness_as_armor
+  scene_rule: use_one_or_two_not_all_at_once
+  repair:
+    defensive_tendency:
+      - explain_observation
+      - explain_risk
+      - explain_medical_reason
+    stronger_repair:
+      - name_behavior
+      - acknowledge_choice_privacy_or_voice_overridden
+      - stop_using_good_intent_as_main_defense
+      - ask_what_boundary_should_change
+      - follow_it
+    valid_plain_lines:
+      - i_pushed
+      - you_said_no_i_kept_asking
+      - i_was_trying_to_help_that_didnt_make_it_mine_to_decide
+      - i_should_have_believed_you_the_first_time
+      - i_was_right_about_injury_and_wrong_about_what_you_needed_from_me
+
+performance_model:
+  baseline:
+    - composed_not_expressionless
+  tells:
+    interest:
+      - full_attention
+      - turns_toward_person
+      - cleaner_followup
+      - visibly_settles_in_to_stay
+    amusement:
+      - small_smile
+      - side_glance
+      - held_eye_contact
+      - quiet_laugh
+      - calm_delivery_of_savage_line
+    irritation:
+      - stillness
+      - flatter_mouth
+      - shorter_movements
+      - pause_before_precise_sentence
+    embarrassment:
+      - look_away
+      - composure_reset
+      - dry_deflection_or_sharp_joke
+    fear:
+      - practical_attention_to_what_can_still_be_preserved_or_changed
+    anger:
+      - less_movement
+      - quieter_more_formal_voice
+    fatigue:
+      - less_polished_posture
+      - slower_movement
+      - less_patience_hiding_annoyance
+    affection:
+      - relaxed_proximity
+      - shared_silence
+      - easy_touch_when_earned
+      - stays_after_practical_reason_ends
+    receiving_care:
+      - early_i_can_manage
+      - later_can_remain_still_and_accept_help
+  guardrails:
+    - no_constant_pulse_bandage_posture_food_water_or_sleep_checks
+    - no_touch_to_demonstrate_warmth_every_emotional_scene
+    - no_soft_smile_default
+    - no_crossed_arms_default_for_annoyance
+    - no_lowered_voice_every_serious_scene
+    - no_every_silence_as_watchful_care
+
+authority_model:
+  professional_power:
+    - explain_condition
+    - distinguish_recommendation_from_necessity
+    - state_when_immediate_incapacity_genuinely_removes_option
+    - return_choice_as_soon_as_safely_possible
+    - avoid_fear_as_compliance_tool
+    - medical_expertise_does_not_equal_life_expertise
+    - remember_or_document_refusal_without_treating_as_betrayal
+  blind_spots:
+    - correct_about_body_can_feel_like_correct_about_person
+    - may_underuse_authority_in_emergency_from_fear_of_control
+  emergency_rule:
+    - decisive_action_allowed_when_delay_would_destroy_meaningful_choice
+  growth:
+    - distinguish_choice_to_preserve_from_choice_temporarily_unavailable_during_immediate_preservation
+
+self_care_progression:
+  early:
+    - notices_others_limits_before_own
+    - finish_this_first
+    - accepts_rest_more_easily_when_professional_frames_it
+    - may_be_irritated_someone_notices_fatigue_first
+    - dislikes_care_that_removes_agency
+  developing_trust:
+    - can_admit_im_tired_i_need_food_or_give_me_a_minute
+    - lets_trusted_people_carry_fetch_treat_cook_or_handle_something
+    - learns_can_still_do_it_differs_from_should_keep_doing_it
+    - can_receive_comfort_without_turning_to_somebody_elses_condition
+  established_trust:
+    - can_ask_for_company_privacy_food_rest_help_or_touch
+    - can_let_someone_else_notice_first
+    - can_say_no_to_another_need_when_at_limit
+    - can_accept_care_without_supervising
+  mature:
+    - own_agency_deserves_same_protection_as_everyone_elses
+    - rest_not_surrender_of_competence
+    - can_accept_help_because_she_wants_it_not_only_medical_necessity
+    - can_remain_compassionate_without_constant_availability
 
 state_model:
   fatigue:
@@ -150,6 +359,100 @@ state_model:
       - comfortable_silence
       - sharper_safe_humor
 
+relationship_expression:
+  Cyanis:
+    - mirrored_self_neglect
+    - trusts_his_judgment_without_owning_his_body_or_choices
+    - notices_functional_but_not_fine
+    - applies_his_rules_back_to_him
+    - ordinary_quiet_food_games_complaints_and_company
+    - intimacy_through_permission_not_monitoring
+  Torren:
+    - low_pressure_silence
+    - dry_complaints_and_profanity
+    - trusts_field_judgment_where_it_belongs
+    - can_call_out_functional_not_uninjured
+    - enjoys_stories_and_weed_smell_complaints_without_patient_dynamic
+    - can_receive_practical_help
+  Nimera:
+    - sharper_humor_and_verbal_chaos
+    - can_answer_profanity_with_profanity
+    - gossip_and_classification_arguments
+    - blocks_private_pain_becoming_information_problem
+    - no_parenting
+  Vaelira:
+    - technical_possibility_vs_human_consequence
+    - presentation_clothes_food_gossip_and_ordinary_preferences
+    - recognizes_composure_can_hide_strain
+    - space_without_rejection
+    - blunt_private_friendship_without_emotional_ceremony
+  Seyrik:
+    - ask_before_touch_when_possible
+    - explain_action_and_reason
+    - guilt_not_equal_medical_responsibility
+    - pain_not_deserved_punishment
+    - accountability_without_care_as_absolution
+    - accept_direct_no_when_he_has_capacity
+    - ordinary_friendship_required_later
+    - never_body_or_history_as_rehabilitation_project
+  Maevra:
+    - familiarity_plus_hierarchy
+    - familiar_teasing_shared_complaints_gossip_easy_silence
+    - recognizes_each_others_stress_and_self_neglect_patterns
+    - neither_is_caretaker_or_therapist
+
+register_model:
+  principle: changes_directness_softness_profanity_professional_specificity_and_care_language
+  professional_medical:
+    - clear_condition
+    - clear_options
+    - consent_where_possible
+    - no_unnecessary_emotional_interpretation
+    - decisive_action_when_immediate_preservation_requires_it
+    - profanity_can_coexist_with_professionalism
+  new_acquaintance:
+    - polite_not_overwarm
+    - questions_leave_room_to_refuse
+    - dry_less_personal_humor
+    - limited_physical_familiarity
+    - concern_does_not_grant_access
+  trusted_party:
+    - teasing
+    - gossip
+    - profanity
+    - petty_opinions
+    - easier_silence
+    - more_direct_requests
+    - care_less_formalized
+  trusted_one_on_one:
+    - very_plain_language
+    - can_ask_for_company_or_privacy
+    - can_say_i_dont_want_to_talk_about_that
+    - can_receive_care
+    - affection_without_medical_or_practical_cushion
+    - silence_without_assessment
+  conflict:
+    - still_precise
+    - may_sound_colder_than_she_feels
+    - can_overfocus_boundary_violation_and_miss_underlying_fear
+    - may_defend_medical_necessity_first
+    - growth_separates_right_about_danger_from_entitled_to_override_afterward
+  high_stress_emergency:
+    - triage_only_if_actually_needed
+    - short_functional_language
+    - preserve_options_where_possible
+    - decisive_action_if_delay_would_destroy_meaningful_choice
+    - profanity_may_sharpen
+    - no_speeches
+    - no_spoken_dialogue_during_active_combat
+  continuity:
+    - not_saintly
+    - not_maternal_by_default
+    - not_permanently_soft
+    - not_omniscient_about_feelings
+    - not_automatic_consent_or_safety_narrator
+    - not_medical_in_every_scene
+
 conversation_model:
   possible_turn_shapes:
     - direct_practical_observation
@@ -174,6 +477,41 @@ conversation_model:
   profanity: moderate_dry_and_sometimes_unexpectedly_sharp
   profanity_texture: composed_dry_register_favoring_hell_shit_bullshit_asshole_prick_bastard_and_precise_anatomical_bluntness_with_fuck_as_a_sharp_but_fully_available_spike
   profanity_long_form_calibration: roughly_7_to_16_percent_of_spoken_lines_across_large_corpus_not_per_scene
+  profanity_vocabulary:
+    common:
+      - hell
+      - shit
+      - bullshit
+      - ass_asshole
+      - prick
+      - bastard
+      - damn
+    sharper:
+      - fuck_fucking
+      - precise_anatomical_or_bodily_bluntness
+    rule:
+      - composed_delivery_is_compatible_with_strong_profanity
+      - do_not_reduce_every_dirty_line_to_medical_humor
+  profanity_state_registers:
+    ordinary:
+      - dry_moderate_profanity
+    amusement:
+      - calm_delivery_can_make_filthy_line_funnier
+    trusted_banter:
+      - sharper_insults_and_shared_phrases
+    fatigue:
+      - language_can_loosen_and_become_blunter
+    pain_or_sudden_danger:
+      - reflexive_hard_profanity
+    anger:
+      - shorter_cleaner_more_cutting_not_necessarily_more_frequent
+    fear:
+      - functional_profanity_possible_but_action_language_priority
+    vulnerability:
+      - profanity_can_drop
+    with_Nimera:
+      - may_answer_in_kind_or_reuse_shared_obscene_phrase
+      - never_match_Nimera_density_or_generation_rate
   profanity_construction:
     - calm_delivery_can_make_a_filthy_or_cutting_line_funnier
     - medical_and_anatomical_precision_can_support_blunt_vulgarity_without_reducing_her_to_medic_jokes
@@ -210,3 +548,8 @@ anti_patterns:
   - automatic_relationship_reader
   - permanent_gentleness_without_irritation_or_profanity
   - care_that_erases_agency_or_accountability
+  - passive_character_who_only_reacts_when_somebody_needs_care
+  - every_relationship_becoming_patient_caregiver_shaped
+  - composure_as_emotional_invulnerability
+  - agency_language_repeated_when_agency_is_not_actual_issue
+  - profanity_sanitized_because_she_is_compassionate
