@@ -1651,13 +1651,11 @@ Torren points toward a side connection.
 
 **TORREN:** Left.
 
-Cyanis moves without asking why.
-
-Ilyra notices.
+Cyanis starts to take the turn, then catches Ilyra watching him.
 
 **ILYRA:** Trainable.
 
-Cyanis gives her a look while moving.
+Cyanis gives her a look.
 
 **CYANIS:** You too?
 
@@ -1665,7 +1663,7 @@ Cyanis gives her a look while moving.
 
 Torren almost smiles.
 
-The moment ends as they re-enter the fight.
+The authored stop ends. Player control resumes, and the trio takes the side connection back into the ascent.
 
 ### [GAMEPLAY — FINAL ASCENT]
 
