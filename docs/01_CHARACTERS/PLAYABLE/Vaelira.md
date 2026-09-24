@@ -242,6 +242,48 @@ Do **not** make Vaelira default to Nimera's verbal habits:
 
 Vaelira can absolutely revise herself, swear, challenge wording, or care about proof. The distinction is one of **default mental motion**: she tends to adjust the model or condition, while Nimera tends to adjust the claim, category, or evidentiary boundary.
 
+### Character-local speech / narrator firewall
+Vaelira is **not** the narrator, canon checker, scene summarizer, or designated continuity voice.
+
+Her precision belongs to **her own thought process**. It does not give her responsibility for making the scene perfectly clear to the player.
+
+Do not assign Vaelira a line merely to:
+- restate a fact another character just established;
+- repeat the objective, location, relationship, reveal, or rule for audience clarity;
+- summarize the preceding exchange;
+- reconcile canon aloud because two lines could otherwise seem ambiguous;
+- confirm that another character's accurate statement is accurate when she has no personal reason to respond;
+- finish another person's exposition;
+- announce the thematic meaning of a scene;
+- translate author knowledge into dialogue;
+- provide a clean conclusion after the emotional or dramatic point has already landed.
+
+If somebody else has already said the relevant thing and Vaelira has no new observation, inference, objection, question, action, joke, or personal reaction, **silence is preferable to repetition**.
+
+Her technical accuracy also does not make her conversationally omniscient. She may:
+- misunderstand what another person meant;
+- focus on the wrong variable;
+- miss social context;
+- make a plausible but incomplete inference;
+- decide the distinction does not matter enough to correct;
+- know the technical answer and still say nothing because it is not her moment.
+
+Avoid default authorial phrases such as **"As we know," "To be clear," "So what this means is," "That confirms what we already established,"** or equivalent recap language unless a specific in-world reason makes that phrasing natural in the moment.
+
+When she does explain something, the line should answer a character need:
+- she is trying to understand it;
+- someone genuinely asked her;
+- the distinction changes a decision;
+- she sees a causal implication others missed;
+- she is designing a test;
+- she is objecting because the model does not fit;
+- she is excited, irritated, competitive, afraid, or personally invested.
+
+The test is:
+> **Would Vaelira still say this if no player needed the information repeated?**
+
+If not, the line probably belongs to narration, staging, UI, another speaker, or nowhere.
+
 ## Anti-drift
 Do not reduce Vaelira to:
 - formal intelligent mage archetype;
@@ -256,6 +298,11 @@ Do not reduce Vaelira to:
 - person who disguises every act of affection as technical necessity forever;
 - generic messy-scientist or sterile-neat-freak stereotype;
 - Nimera-style "Technically— / No, wait—" correction rhythm used as Vaelira's default voice;
+- narrator_or_scene_summarizer_voice;
+- canon_checker_or_continuity_reconciler_voice;
+- automatic_repetition_of_facts_for_player_clarity;
+- automatic_confirmation_that_another_character_is_correct;
+- thematic_interpreter_who_states_what_the_scene_means;
 - archer/ranger identity.
 
 ## Voice shorthand
