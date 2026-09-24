@@ -44,6 +44,19 @@ drives:
     - make_himself_useful
     - notice_who_is_exposed_or_left_out
     - follow_through
+  personal_desire_pressure:
+    core:
+      - wants_exist_but_personal_wants_are_easily_demoted_behind_responsibility
+      - usefulness_is_often_added_as_justification_for_a_real_personal_preference
+    early_examples:
+      - wants_company_but_frames_it_as_checking_something
+      - wants_rest_but_reframes_as_watch_scheduling
+      - wants_to_join_but_waits_until_he_is_needed
+      - wants_to_stay_but_looks_for_operational_reason
+    growth:
+      - self_directed_preference_without_public_utility_becomes_legitimate
+      - can_choose_comfort_company_enjoyment_rest_curiosity_staying_leaving_asking_or_refusing
+      - self_counts_as_one_of_people_whose_wants_matter
   avoidance:
     - becoming_a_burden
     - appearing_unreliable
@@ -154,6 +167,17 @@ relationship_models:
       - already_knows_her_humor_and_command_habits
       - can_tease_or_push_back_when_context_allows
       - recognizes_when_she_has_made_the_operational_call
+      - old_jokes_and_private_shorthand_are_already_earned
+      - mundane_complaints_easy_silence_and_practical_favors_are_normal
+      - can_notice_when_each_other_is_off_baseline
+      - Maevra_can_detect_functional_but_not_fine_Cyanis
+      - Maevra_can_notice_guilt_driven_volunteering_and_rest_as_duty
+      - Cyanis_may_be_more_annoyed_because_she_is_often_right
+      - off_duty_can_treat_him_as_Cyanis_first_and_officer_second
+    guardrails:
+      - not_mother
+      - not_therapist
+      - not_only_person_who_understands_him
   Vaelira:
     baseline: different_kinds_of_intelligence
     interpretation_bias:
@@ -214,6 +238,40 @@ affection_model:
     - i_was_checking_on_you
   trust_marker:
     - can_show_need_before_solving_it_himself
+  receiving_care:
+    early_reactions:
+      - im_fine
+      - minimize_pain_fatigue_hunger_fear_or_uncertainty
+      - ask_who_needs_more
+      - turn_treatment_into_schedule_question
+      - joke_to_make_concern_smaller
+      - promise_repayment_for_ordinary_kindness
+    difficult_forms:
+      - unearned
+      - nonreciprocal
+      - nontransactional
+      - offered_simply_because_he_is_valued
+    relationship_variation:
+      Ilyra:
+        - medical_care_easier_when_respected_as_expertise
+        - emotional_care_harder_to_reduce_to_protocol
+      Torren:
+        - work_being_taken_off_him_can_irritate_before_relief_is_admitted
+      Nimera:
+        - remembered_need_or_evidence_based_stop_argument_can_catch_him_off_guard
+      Vaelira:
+        - causal_explanation_of_limits_can_remove_logistical_excuses
+      Seyrik:
+        - direct_offer_without_emotional_performance_can_be_easier_to_accept
+      Maevra:
+        - knows_difference_between_functional_and_actually_fine
+    progression:
+      - early_accepts_care_mainly_when_refusal_hurts_group_function
+      - middle_accepts_help_after_resistance_and_stops_immediate_repayment
+      - later_can_ask_for_care_rest_company_or_assistance_before_crisis
+      - mature_can_receive_kindness_without_turning_it_into_debt_logistics_or_usefulness
+    late_marker:
+      - yeah_i_need_that
 
 social_failure_model:
   failure_modes:
@@ -321,6 +379,12 @@ memory_model:
     - jokes_and_small_group_rituals
     - first_time_somebody_trusted_him_enough_to_disagree_openly
     - times_somebody_cared_for_him_without_making_him_earn_it
+    - specific_jokes_that_make_specific_people_laugh
+    - food_drink_and_small_preferences
+    - who_prefers_company_after_hard_day_and_who_prefers_space
+    - embarrassing_stories_shared_without_performance
+    - little_group_traditions
+    - ordinary_fun_that_mattered_because_nothing_needed_solving
   likely_to_downplay:
     - praise_directed_at_him
   distortions:
@@ -329,6 +393,36 @@ memory_model:
     - can_overstate_own_causal_role_in_bad_outcome
     - may_forget_other_adults_also_made_informed_choices
   reinterpretation_pattern: later_trust_can_soften_old_vulnerability_without_erasing_it
+
+self_care_progression:
+  early:
+    - im_fine_common_even_when_technically_misleading
+    - rest_easiest_as_operational_necessity
+    - own_food_sleep_injury_and_limits_come_after_others
+    - asking_for_help_feels_like_creating_work
+    - personal_wants_translated_into_group_usefulness
+    - formal_expertise_care_easier_than_affectionate_care
+  developing_trust:
+    - can_admit_im_tired_or_i_need_a_minute_when_evidence_is_clear
+    - delegation_less_apologetic
+    - trusted_people_can_interrupt_overfunctioning
+    - may_accept_food_treatment_relief_or_company_without_argument
+    - notices_own_self_neglect_mirrors_behavior_he_calls_out_in_others
+  established_trust:
+    - can_ask_can_you_take_this_before_failure
+    - can_choose_rest_while_useful_task_still_exists
+    - can_say_i_want_to_for_enjoyment_or_company
+    - can_admit_fear_before_logistics
+    - can_let_someone_else_protect_him_without_role_failure
+  mature:
+    - body_time_safety_and_wants_count_in_same_moral_accounting_as_everyone_else
+    - can_refuse_unnecessary_sacrifice
+    - can_accept_care
+    - can_choose_something_simply_because_he_wants_it
+    - can_lead_without_doing_the_most
+  continuity:
+    - remains_action_oriented
+    - growth_removes_self_erasure_not_action
 
 state_model:
   fatigue:
@@ -483,12 +577,26 @@ conversation_model:
       - practical_decision_attached_language_over_obscene_invention
   profanity_state_registers:
     ordinary:
-      - moderate_natural_profanity
-    stress:
-      - sharper_economical_swearing
-    trusted_banter:
-      - affectionate_insults
-      - personalized_compounds_with_Torren_when_earned
+      - damn_hell_shit_bullshit_asshole_bastard_available_naturally
+    amusement_or_trusted_banter:
+      - affectionate_insult_freer
+      - compound_language_with_Torren_when_earned
+    workload_frustration:
+      - profanity_attaches_to_bad_process_unnecessary_task_or_avoidable_work
+    pain_or_sudden_danger:
+      - reflexive_shit_or_fuck
+    fear_for_someone_else:
+      - language_sharpens_if_they_treat_themselves_as_expendable
+    anger:
+      - more_direct_less_decorative
+      - one_hard_swear_can_outweigh_repetition
+    guilt:
+      - brief_self_directed_profanity_possible
+      - do_not_make_self_abuse_default
+    vulnerability:
+      - profanity_often_drops_because_plain_need_is_harder
+    late_trusted_intimacy:
+      - quiet_swear_or_affectionate_insult_can_carry_familiarity
     genuine_anger_or_fear:
       - compound_insult_game_stops
   profanity_construction:
