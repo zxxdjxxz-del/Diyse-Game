@@ -15,9 +15,13 @@ Current dialogue canon is text/scene authority, not a recorded-performance manda
 Do not assume:
 - full voice acting;
 - partial voice acting;
-- combat barks;
 - voiced Character Quests;
 - voiced story-only scenes.
+
+Hard dialogue boundary:
+> **There are no spoken combat barks or other spoken dialogue during active combat.**
+
+If voice acting is later approved, battle-related spoken lines remain limited to pre-combat and post-combat authored scenes.
 
 ## If voice is later approved
 Voice performance must preserve:
@@ -40,4 +44,4 @@ A future voice system would need:
 All remain OPEN.
 
 ## Nonverbal vocalizations
-Efforts, grunts, breaths, pain reactions, combat exertions are also not currently locked as a production requirement.
+Efforts, grunts, breaths, pain reactions, and combat exertions are **not dialogue** and remain a separate OPEN audio decision. If later approved, they must not contain words, tactical callouts, character banter, lore, or other spoken mid-battle lines.
