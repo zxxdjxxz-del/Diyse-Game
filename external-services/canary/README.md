@@ -102,8 +102,7 @@ The Orchestrator also accepts convenience permanent-six URL variables such as `C
 ## Canon / implementation docs
 
 See:
-- `docs/03_DIALOGUE/AGENT_SYSTEM/README.md`
-- `docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md`
-- `docs/03_DIALOGUE/AGENT_SYSTEM/RUNTIME_ORCHESTRATION.md`
+- `docs/03_DIALOGUE/AGENT_SYSTEM/README.md` — Agent Brain + scene-construction authority
+- `docs/03_DIALOGUE/AGENT_SYSTEM/RUNTIME_ORCHESTRATION.md` — compiler/runtime/service implementation authority
 - `docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/AREA_TRAVERSAL_AUTHORING_INTERFACE.md`
 - `docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md`
