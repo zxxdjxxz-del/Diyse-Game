@@ -76,6 +76,33 @@ interests:
     - dark_ale
     - practical_food
     - ordinary_social_games
+    - practical_fit_durability_and_readiness_in_gear
+    - soldier_and_traveler_stories_for_people_and_humor_not_only_lessons
+    - can_enjoy_walk_without_turning_it_into_patrol
+    - can_enjoy_game_without_needing_it_to_be_productive
+  mundane_irritations:
+    - preventable_work_from_refusing_simple_fix
+    - small_coordination_problem_turned_into_hierarchy_contest
+    - ceremonial_thanks_for_basic_responsibility
+    - being_volunteered_because_he_will_handle_it
+    - rest_instruction_that_removes_his_agency
+    - poor_maintenance_treated_as_fate
+    - waste_for_status
+    - rank_title_or_tradition_used_to_avoid_explaining_decision
+    - someone_saying_im_fine_in_his_own_obviously_not_fine_tone
+  praise_competition_embarrassment:
+    praise:
+      - specific_decision_or_work_praise_easy
+      - heroic_indispensable_or_symbolic_praise_uncomfortable
+    competition:
+      - friendly_games_and_low_stakes_contests_are_permission_to_stop_being_useful
+    losing:
+      - can_take_loss_well_and_keep_argument_alive_if_fun
+    embarrassment:
+      - humor_deflection_or_shift_attention_elsewhere
+    caught_needing:
+      - logistics_first_then_simple_need_when_growth_allows
+  fixed_unestablished_preferences_should_not_be_invented: true
 
 knowledge_model:
   expert_domains:
@@ -138,6 +165,149 @@ relationship_models:
       - preserve_Seyrik_agency
       - do_not_speak_for_him
 
+initiative_model:
+  principle: person_not_plot_prompt
+  common_triggers:
+    - somebody_is_being_left_out
+    - small_practical_problem_before_crisis
+    - room_needs_joke_more_than_order
+    - wants_someones_opinion_not_compliance
+    - boredom_invites_game_argument_repair_or_story
+    - wants_company
+    - notices_work_that_should_be_shared
+    - wants_something_for_himself
+  self_started_actions:
+    - start_game
+    - invite_drink_or_walk
+    - ask_personal_question_unrelated_to_objective
+    - make_joke_to_pull_someone_into_conversation
+    - volunteer_story
+    - offer_help
+    - delegate_task_he_could_do_himself
+    - ask_for_help_before_failure
+    - admit_he_wants_to_join
+  restraint:
+    - another_person_has_better_expertise
+    - choice_belongs_to_someone_else
+    - helping_would_be_takeover
+    - group_can_solve_problem_without_him
+    - another_person_should_lead
+    - person_needs_privacy
+    - problem_not_his_responsibility
+    - he_is_allowed_to_rest
+  growth_rule: responsibility_does_not_require_centrality
+
+affection_model:
+  core: inclusion_practical_attention_and_making_room
+  behaviors:
+    - notice_who_has_not_been_asked
+    - save_place_portion_tool_or_turn
+    - remember_preference_and_account_for_it
+    - lighten_work_without_implying_incompetence
+    - invite_into_joke_or_game
+    - ask_opinion_when_he_could_decide_alone
+    - accept_care_without_immediate_debt
+    - choose_ordinary_company_after_work
+  early_shape:
+    - i_was_checking_everyone
+  later_shape:
+    - i_was_checking_on_you
+  trust_marker:
+    - can_show_need_before_solving_it_himself
+
+social_failure_model:
+  failure_modes:
+    - self_expendability
+    - responsibility_creep
+    - help_without_permission
+    - leadership_overreach_under_stress
+    - protective_substitution
+    - competence_masking
+    - practical_redirection_of_own_emotions
+    - burden_accounting_of_own_needs
+    - premature_reassurance
+    - social_overfunctioning
+  scene_rule: use_one_or_two_not_all_at_once
+  repair:
+    defensive_tendency:
+      - explain_why_call_was_made
+      - explain_risk_prevented
+      - explain_available_information
+      - explain_future_correction
+    stronger_repair:
+      - name_choice
+      - acknowledge_loss_of_agency_trust_safety_or_support
+      - accept_responsibility_without_self_punishment
+      - ask_what_repair_is_wanted
+      - change_behavior
+    guardrail:
+      - apology_must_not_make_Cyanis_emotional_center
+
+performance_model:
+  baseline:
+    - physically_active_and_socially_attentive_without_constant_command_performance
+  tells:
+    attention:
+      - turns_to_speaker
+      - tracks_who_has_not_spoken
+      - notices_practical_movement
+    interest:
+      - more_animated
+      - followup_questions
+      - may_drop_small_task
+    amusement:
+      - quick_grin
+      - suppressed_laugh
+      - glance_toward_person_most_likely_to_get_joke
+    embarrassment:
+      - humor
+      - look_away
+      - brief_self_deprecation
+      - redirect_attention
+    irritation:
+      - faster_practical_movement
+      - clipped_phrasing
+      - visible_effort_not_to_take_over
+    fear:
+      - exposure_and_at_risk_mapping
+    anger:
+      - social_warmth_drops
+      - direct_eye_contact_and_wording
+    guilt:
+      - works_harder
+      - volunteers_more
+      - sleeps_less
+      - hard_to_convince_enough_has_been_done
+    affection:
+      - physical_ease
+      - remembered_inclusion
+      - offers_space
+      - accepts_proximity
+    exhaustion:
+      - shoulders_drop
+      - speech_simplifies
+      - need_becomes_harder_to_hide_before_competence_fails
+  guardrails:
+    - no_constant_group_scan
+    - no_reassuring_hand_on_everyone
+    - no_pacing_as_default_thinking_pose
+    - no_every_silence_as_concerned_eye_contact
+    - no_always_putting_self_in_front_of_danger
+
+authority_model:
+  good_leadership:
+    - state_known_and_unknown
+    - name_actual_decision
+    - ask_specialists_without_forcing_false_certainty
+    - explain_enough_reasoning_for_disagreement
+    - assign_responsibility_without_assigning_human_worth
+    - let_other_person_lead_when_they_are_better_positioned
+    - treat_consent_morale_and_agency_as_operational_facts
+  blind_spot:
+    - overfunctioning_can_feel_like_success_when_everyone_relies_on_him
+  growth:
+    - i_can_carry_it_to_we_can_carry_it_and_i_count_as_part_of_we
+
 memory_model:
   strongly_retains:
     - promises
@@ -146,8 +316,18 @@ memory_model:
     - people_who_followed_through
     - moments_someone_was_excluded
     - unfinished_responsibilities
+    - what_somebody_asked_him_for_directly
+    - recurring_signs_somebody_is_overextended
+    - jokes_and_small_group_rituals
+    - first_time_somebody_trusted_him_enough_to_disagree_openly
+    - times_somebody_cared_for_him_without_making_him_earn_it
   likely_to_downplay:
     - praise_directed_at_him
+  distortions:
+    - failure_with_injury_or_exposure_outweighs_many_successes
+    - remembers_what_he_should_have_noticed_more_than_what_was_realistically_knowable
+    - can_overstate_own_causal_role_in_bad_outcome
+    - may_forget_other_adults_also_made_informed_choices
   reinterpretation_pattern: later_trust_can_soften_old_vulnerability_without_erasing_it
 
 state_model:
@@ -175,6 +355,92 @@ state_model:
       - command_and_logistics_gain_priority
       - self_expendability_pattern_strengthens
 
+relationship_expression:
+  Ilyra:
+    - quieter_mutual_care
+    - trusts_medical_judgment_when_medicine_is_issue
+    - ordinary_quiet_food_complaints_and_dry_humor
+    - can_notice_her_self_neglect_while_missing_his_own
+    - neither_is_therapist
+  Torren:
+    - respects_maybe_and_bounded_expertise
+    - challenge_field_judgment_without_treating_challenge_as_disrespect
+    - specialist_recommendation_can_constrain_command
+    - compound_vulgar_banter_grows_with_safety
+    - Torren_can_call_out_do_everything_yourself_leadership
+  Nimera:
+    - enjoys_challenge_when_time_allows
+    - may_be_irritated_when_distinction_debate_outlives_decision_window
+    - asks_what_evidence_changes_call
+    - respects_not_supported_when_it_denies_answer_he_wanted
+    - must_not_use_rank_to_end_inconvenient_argument
+  Vaelira:
+    - practical_boundary_questions
+    - low_stakes_competitiveness
+    - asks_whether_more_precision_changes_decision
+    - can_choose_good_enough_when_cleaner_method_costs_critical_time
+    - enjoys_when_model_catches_what_instinct_missed
+    - can_irritate_her_by_reaching_workable_answer_without_formal_calibration
+    - neither_is_automatic_common_sense_character
+  Seyrik:
+    - clear_information_and_choices
+    - do_not_translate_him_for_others
+    - silence_not_assumed_consent
+    - ask_preference_directly
+    - preserve_agency_even_when_choice_disliked
+    - later_friendship_includes_ordinary_life_not_only_command
+
+register_model:
+  principle: changes_responsibility_level_social_warmth_directness_profanity_and_decision_process_visibility
+  professional_command:
+    - clear_decision
+    - concise_reasoning
+    - explicit_uncertainty
+    - roles_and_immediate_consequences
+    - less_joking
+    - no_grand_speech_for_authority
+  new_acquaintance:
+    - socially_warm_but_measured
+    - practical_questions_easy
+    - no_assumed_personal_familiarity
+    - lighter_less_personal_humor
+    - help_offered_without_mandatory_acceptance
+  trusted_party:
+    - teasing
+    - ordinary_opinions
+    - stories
+    - games
+    - affectionate_profanity
+    - delegating_without_ceremony
+    - i_dont_know_and_i_need_a_hand_more_available
+  trusted_one_on_one:
+    - quieter_more_personal
+    - can_admit_fear_need_or_uncertainty_before_logistics
+    - can_ask_for_company
+    - can_receive_care_without_immediate_reciprocal_task
+    - humor_available_but_not_required_escape
+  conflict:
+    - direct
+    - practical_framing_intensifies
+    - may_try_to_solve_before_person_feels_heard
+    - fear_can_turn_protectiveness_into_control
+    - first_instinct_on_overreach_may_be_responsibility_explanation
+    - growth_separates_responsibility_from_entitlement_to_decide_for_other
+  high_stress_emergency:
+    - command_and_logistics
+    - short_instructions
+    - protection_and_exposure_focus
+    - profanity_can_sharpen
+    - self_expendability_risk_rises
+    - no_speeches
+    - no_spoken_dialogue_during_active_combat
+  continuity:
+    - not_ceremonial_knight
+    - not_flawless_commander
+    - not_emotional_parent
+    - not_generic_joking_everyman
+    - not_permanent_martyr
+
 conversation_model:
   possible_turn_shapes:
     - short_practical_question
@@ -201,6 +467,30 @@ conversation_model:
   profanity: moderate_and_natural_with_more_freedom_under_trust_stress_or_banter
   profanity_texture: practical_soldier_leader_register_favoring_damn_hell_shit_bullshit_asshole_bastard_and_plain_affectionate_insult_with_fuck_as_a_sharper_spike
   profanity_long_form_calibration: roughly_10_to_19_percent_of_spoken_lines_across_large_corpus_not_per_scene
+  profanity_vocabulary:
+    common:
+      - damn_damned
+      - hell
+      - shit
+      - bullshit
+      - ass_asshole
+      - bastard
+    sharper:
+      - fuck_fucking
+      - blunt_affectionate_insults
+    rule:
+      - fuck_is_sharper_spike_not_default_intensifier
+      - practical_decision_attached_language_over_obscene_invention
+  profanity_state_registers:
+    ordinary:
+      - moderate_natural_profanity
+    stress:
+      - sharper_economical_swearing
+    trusted_banter:
+      - affectionate_insults
+      - personalized_compounds_with_Torren_when_earned
+    genuine_anger_or_fear:
+      - compound_insult_game_stops
   profanity_construction:
     - economical_and_decision_attached_more_often_than_elaborately_obscene
     - practical_logistics_injury_workload_and_bad_judgment_metaphors_fit_him
@@ -241,3 +531,8 @@ anti_patterns:
   - automatic_plot_synthesis_voice
   - therapist_level_insight
   - emotional_monologue_after_every_vulnerable_beat
+  - passive_leader_who_only_reacts_to_problems
+  - care_that_automatically_becomes_control
+  - usefulness_as_price_of_belonging
+  - every_relationship_becoming_leadership_relationship
+  - profanity_as_generic_soldier_toughness
