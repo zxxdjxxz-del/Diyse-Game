@@ -381,9 +381,9 @@ The architectural rule remains:
 
 ## 17. Repository authority compiler — detailed contract
 
-This section absorbs the former separate `AUTHORITY_PACKET_COMPILER.md` contract.
+This section contains the detailed repository-authority compiler contract.
 
-## Purpose
+### Purpose
 
 The Scene Orchestrator should not be handed a giant undifferentiated repository dump and asked to decide what is current.
 
@@ -395,7 +395,7 @@ The chain is:
 
 The compiler is not a story writer and does not decide scene content.
 
-## Hard source rules
+### Hard source rules
 
 The compiler accepts current `docs/` authority only.
 
@@ -409,7 +409,7 @@ A missing requested Markdown heading is a **fatal compile error**. The compiler 
 
 Historical wording may still be consulted manually as provenance where current policy permits, but it is not allowed to leak into the generated authority packet merely because the current source is shorter.
 
-## What is compiled automatically
+### What is compiled automatically
 
 Every scene packet receives a bounded current guardrail set covering:
 - current master authority state;
@@ -423,7 +423,7 @@ When at least two permanent party members are present, the current permanent-six
 
 For each named participant, the compiler packages that participant's current file from `01_CHARACTERS` as a profile source. The profile is still subordinate to the owning domain and is not a second canon copy.
 
-## Scene spec responsibilities
+### Scene spec responsibilities
 
 A scene spec must explicitly name:
 - `scene_id`;
@@ -440,7 +440,7 @@ A scene spec must explicitly name:
 
 The compiler does **not** infer an old S### mapping from historical line-complete material. If current story authority has not yet mapped a rewritten lean beat to a specific production scene ID, the spec must not pretend that mapping is closed.
 
-## Exact-line anchors
+### Exact-line anchors
 
 Exact-line anchors are exceptional.
 
@@ -454,7 +454,7 @@ If the literal line is absent from the cited current source, compilation fails.
 
 This prevents an old historically locked transcript from becoming exact production dialogue merely because a legacy compiler or test still contains it.
 
-## Runtime-state boundary
+### Runtime-state boundary
 
 Repository compilation cannot know live gameplay state.
 
@@ -471,7 +471,7 @@ The compiler deliberately does not invent:
 
 These must be supplied/merged at scene-build time by the game/orchestration layer when relevant.
 
-## Fingerprints
+### Fingerprints
 
 Every compiled source carries:
 - repository path;
@@ -483,7 +483,7 @@ The final authority packet also carries a deterministic bundle SHA-256. The defa
 
 This does not make a packet permanent authority. It makes stale packets detectable and reviewable.
 
-## Proof fixture
+### Proof fixture
 
 Current deterministic proof:
 > `tests/dialogue/fixtures/authority_ch1_brackenwall_protocol.json`
@@ -498,7 +498,7 @@ Validation:
 
 The test verifies current snapshot derivation, exact section extraction, character routing, relationship inclusion, source fingerprints, archive/working/history rejection, missing-heading failure, and current exact-anchor verification.
 
-## Example usage
+### Example usage
 
 From repository root:
 
@@ -514,9 +514,9 @@ The resulting `request_seed` is shaped for the current `/v1/scene/build` request
 
 ## 18. Live runtime context — detailed contract
 
-This section absorbs the former separate `LIVE_RUNTIME_CONTEXT.md` contract.
+This section contains the detailed live-runtime context contract.
 
-## Purpose
+### Purpose
 
 The repository authority compiler answers:
 > What is currently true in Diyse canon for this authored scene?
@@ -532,7 +532,7 @@ A generated scene request therefore has two different sources of truth:
 
 Runtime observation can influence dialogue timing, fatigue, map awareness and encounter pacing. It does **not** gain permission to rewrite canon.
 
-## Why raw GameState is forbidden
+### Why raw GameState is forbidden
 
 The current proof `GameState` still contains implementation-era data that is useful for engineering regression but is not safe Dialogue Engine context. Examples include stale Face labels, proof equipment identities, proof Prime/bearer data and an internal `gold` reward key.
 
@@ -545,16 +545,16 @@ The current builder reads only:
 
 Everything else must come through an explicitly curated runtime channel.
 
-## Curated runtime sections
+### Curated runtime sections
 
-### Field
+#### Field
 Captured automatically from the supplied GameState node when available:
 - current area ID;
 - field position as JSON-safe x/y/z numbers.
 
 This is runtime positioning, not lore authority.
 
-### Map
+#### Map
 Current allowed map-observation fields:
 - `cell_id`;
 - `area_phase`;
@@ -576,7 +576,7 @@ The builder adds:
 
 For current provisional grayboxes or map blockouts, use `provisional_runtime`. Do not promote their topology to story canon merely because the player is standing inside that engineering scene.
 
-### Recent gameplay
+#### Recent gameplay
 Current allowed fields:
 - `recent_events`;
 - `recent_combat_summary`;
@@ -586,14 +586,14 @@ Current allowed fields:
 
 These should be brief, observable summaries. They are not a route for copying a combat log, inventory dump or author-only analysis into the scene.
 
-### Interaction
+#### Interaction
 Current allowed fields:
 - `movement_enabled`;
 - `input_locked`;
 - `interaction_id`;
 - `interaction_kind`.
 
-### Encounter pressure
+#### Encounter pressure
 Captured automatically from the supplied field encounter controller when available:
 - enabled;
 - authored pause state;
@@ -606,7 +606,7 @@ Captured automatically from the supplied field encounter controller when availab
 
 It deliberately does **not** expose formation IDs, pending enemy lists, EXP rewards or implementation calibration such as world-units-per-S.
 
-## Protected compiled fields
+### Protected compiled fields
 
 Runtime merge may not alter:
 - request ID;
@@ -627,7 +627,7 @@ Runtime merge may not alter:
 
 If `scene_context.runtime_observable` is already present in a compiled request seed, the merge fails. That namespace belongs to the live runtime boundary.
 
-## Raw-state rejection
+### Raw-state rejection
 
 The runtime input validator rejects raw/state-container keys such as:
 - inventory;
@@ -645,7 +645,7 @@ Unknown top-level/nested fields also fail instead of being silently forwarded.
 
 All caller-supplied runtime values must be JSON-safe. Godot objects/resources/vectors cannot be inserted through the curated input; the builder performs its own explicit Vector3 conversion for field position.
 
-## Canon-snapshot gate
+### Canon-snapshot gate
 
 The runtime builder receives the expected deployment/runtime canon snapshot ID.
 
@@ -656,7 +656,7 @@ It rejects the merge if:
 
 This is an early local guard. The external Orchestrator and Person Agents retain their own snapshot checks.
 
-## Current validation
+### Current validation
 
 Headless validation:
 > `tests/dialogue/validate_dialogue_runtime_context_builder.gd`
@@ -671,7 +671,7 @@ It also verifies:
 - snapshot mismatch fails;
 - a compiled seed cannot spoof `runtime_observable`.
 
-## Remaining map integration
+### Remaining map integration
 
 The builder now provides the safe merge boundary, but each production field/map still needs a small current map-context provider that can identify its live cell/phase/readiness without pretending provisional blockout data is canon.
 
