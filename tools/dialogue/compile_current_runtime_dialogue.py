@@ -8,6 +8,7 @@ The compiler is intentionally strict:
 - current atomics are the only spoken-wording authority;
 - speaker labels must be ALL-CAPS inline Markdown dialogue labels;
 - all current spoken lines must compile in exact order and wording;
+- walking/traversal dialogue and active-combat dialogue are not runtime scene modes;
 - generated Resources embed source/spoken hashes;
 - legacy S001-S021 Resources are not used as input.
 """
