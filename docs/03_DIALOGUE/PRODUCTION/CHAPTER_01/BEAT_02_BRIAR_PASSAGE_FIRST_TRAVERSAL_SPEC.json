@@ -44,11 +44,6 @@
       "role": "portrait_dialogue_presentation"
     },
     {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
-      "whole_file": true,
-      "role": "current_walking_dialogue_hard_lock"
-    },
-    {
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md",
       "whole_file": true,
       "role": "random_encounter_hard_lock"
@@ -64,7 +59,7 @@
     "area_phase": "first_traversal_hostile_field",
     "dialogue_readiness": "AMBER",
     "static_story_context_only": true,
-    "runtime_note": "Ordinary traversal shows Cyanis only. Random encounters use Cyanis + Ilyra; Maevra travels but does not fight. HARD STRUCTURE: no guided/walking dialogue, no route-choice scene, no false trail, no split/crossing, no Old Waystone, and no Greenhollow threshold conversation. Exactly one authored stop occurs roughly halfway at a natural break in the route. The rest of the route is silent and comparatively legible."
+    "runtime_note": "Ordinary traversal shows Cyanis only. Random encounters use Cyanis + Ilyra; Maevra travels but does not fight. HARD STRUCTURE: no dialogue during ordinary traversal, no route-choice scene, no false trail, no split/crossing, no Old Waystone, and no Greenhollow threshold conversation. Exactly one authored stop occurs roughly halfway at a natural break in the route. The rest of the route is silent and comparatively legible."
   },
   "current_floor_state": {
     "larger_destination": "Caelora",
