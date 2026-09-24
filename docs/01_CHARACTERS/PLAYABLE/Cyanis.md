@@ -32,6 +32,51 @@ He has a recurring habit of treating food, rest, injury, and his own limits as t
 
 His Character Quest, **The Weight of the Crest**, resolves around the principle that **no one is expendable, including Cyanis**.
 
+### Personal desire / self-definition pressure
+
+Cyanis's problem is not that he has no wants. It is that **wants which benefit only him are easy to demote behind responsibility**.
+
+He is comparatively comfortable wanting:
+- the group fed;
+- the route secured;
+- somebody else rested;
+- a repair finished;
+- a plan made safer.
+
+He is less comfortable treating these as sufficient reasons by themselves:
+- `I want to stay.`;
+- `I want a drink.`;
+- `I want company.`;
+- `I don't want to do this tonight.`;
+- `I want that one.`;
+- `I want someone else to handle it.`;
+- `I want to be included even though nobody needs me there.`
+
+Early Cyanis may convert a personal want into usefulness:
+- staying becomes "we should keep an eye on the place";
+- company becomes "I wanted to check something";
+- rest becomes "I'll take the later watch";
+- joining a game becomes "someone has to keep you idiots honest."
+
+The want is still real. The justification is the defense.
+
+Growth should make **self-directed preference without public utility** increasingly legitimate.
+
+A late-game Cyanis can choose:
+- comfort;
+- company;
+- enjoyment;
+- rest;
+- curiosity;
+- staying;
+- leaving;
+- asking;
+- refusing;
+
+without needing to prove the choice benefits everyone else.
+
+This must not turn into selfishness-as-growth. The change is that Cyanis finally counts himself as one of the people whose wants matter.
+
 ## Ordinary-life identity
 Cyanis should be pleasant company, not merely useful company.
 
@@ -166,6 +211,44 @@ Later, he becomes more capable of:
 
 A major trust marker is that Cyanis can let another person see a need **before he has solved it himself**.
 
+### Receiving care / dependence
+
+Receiving care is harder for Cyanis than giving it because receiving creates a condition he cannot solve through usefulness.
+
+His early reactions may include:
+- `I'm fine.`;
+- minimizing pain, fatigue, hunger, fear, or uncertainty;
+- immediately asking who else needs something more;
+- turning treatment into a schedule question;
+- trying to stand up because lying still feels like failing;
+- joking to make the concern smaller;
+- promising repayment for ordinary kindness.
+
+He is especially uncomfortable when care is:
+- unearned;
+- not reciprocal;
+- not transactional;
+- offered simply because somebody loves or values him.
+
+Different forms of care can land differently:
+- **Ilyra:** medical care is easiest when framed as expertise he would respect in anyone else; emotional care becomes harder because he cannot dismiss it as treatment protocol;
+- **Torren:** taking work off Cyanis can irritate him before he realizes the relief is real;
+- **Nimera:** remembering a small need or arguing that his own evidence proves he should stop can catch him off guard;
+- **Vaelira:** a clean causal explanation of his limits can leave him with fewer logistical excuses;
+- **Seyrik:** direct offers without emotional performance can be easier to accept;
+- **Maevra:** because she already knows his habits, she can recognize the difference between functional and actually fine.
+
+Progression:
+- **early:** accepts care mainly when refusal would obviously hurt group function;
+- **middle:** can accept help after resistance and may stop trying to repay it immediately;
+- **later:** can ask for care, rest, company, or assistance before crisis;
+- **mature:** can receive something kind without converting the moment into debt, logistics, or proof of usefulness.
+
+A major late-game marker is the ability to say:
+> **"Yeah. I need that."**
+
+and leave the sentence there.
+
 ## Flaws / failure modes
 
 Cyanis's strengths should create real problems when overextended.
@@ -278,6 +361,20 @@ His profanity often attaches to:
 
 He is more likely to let one sharp swear land than to build Nimera-style obscene free association.
 
+### Profanity by state
+
+- **ordinary:** `damn`, `hell`, `shit`, `bullshit`, `asshole`, `bastard`, and blunt social profanity can appear naturally;
+- **amusement / trusted banter:** affectionate insult becomes freer, especially with Torren and later close relationships;
+- **workload frustration:** profanity often attaches to the bad process, unnecessary task, or person creating avoidable work;
+- **pain / sudden danger:** short reflexive `shit` or `fuck` is natural;
+- **fear for someone else:** language can sharpen quickly, especially if the person is treating themselves as expendable;
+- **anger:** becomes more direct and less decorative; one hard swear may carry more weight than repeated profanity;
+- **guilt:** profanity may turn inward briefly, but do not make self-abuse his default guilt language;
+- **vulnerability:** profanity often drops rather than rises because the harder thing for Cyanis is saying the plain need;
+- **late trusted intimacy:** a quiet `fuck`, `shit`, or affectionate insult can carry familiarity without becoming a performance.
+
+His profanity should follow the emotional job of the line, not simply intensify volume.
+
 ### Cyanis / Torren compound vulgarity
 
 With Torren, affectionate profanity grows into an increasingly elaborate shared game.
@@ -319,6 +416,41 @@ State changes pressure and choices without replacing his personality.
 - **high stress:** command/logistics gain priority and the old self-expendability pattern becomes stronger.
 
 Recovery is easier when people respect his agency without treating him as fragile.
+
+## Self-care / self-worth progression
+
+Cyanis's growth should be audible and behavioral across the game.
+
+### Early
+- `I'm fine` is common even when technically misleading;
+- rest is easiest to accept as an operational necessity;
+- he prefers to eat, sleep, treat injuries, or step back after others are handled;
+- asking for help feels like creating work for someone else;
+- personal wants are often translated into group usefulness;
+- care is easier to receive from formal expertise than from affection.
+
+### Developing trust
+- he can admit `I'm tired` or `I need a minute` when the evidence is undeniable;
+- delegation becomes less apologetic;
+- trusted people can interrupt his overfunctioning;
+- he may accept food, treatment, relief, or company without immediately arguing;
+- he begins noticing when he is reproducing the same self-neglect he criticizes in others.
+
+### Established trust
+- can ask `Can you take this?` before reaching failure;
+- can choose rest even when another useful task exists;
+- can say `I want to` when the reason is enjoyment or company;
+- can admit fear without converting it immediately into logistics;
+- can let somebody else protect him without treating that as role reversal or failure.
+
+### Mature state
+- understands his body, time, safety, and wants as part of the same moral accounting he applies to everybody else;
+- can refuse unnecessary sacrifice;
+- can accept being cared for;
+- can choose something simply because he wants it;
+- can remain a leader while not being the person doing the most.
+
+The progression should not make him passive or cautious. Cyanis remains action-oriented. The difference is that action no longer requires self-erasure.
 
 ## Leadership boundary
 Do not write him as:
@@ -378,7 +510,15 @@ He also tends to remember:
 - recurring signs that somebody is overextended;
 - jokes and small rituals that make a group feel like a group;
 - the first time somebody trusted him enough to disagree openly;
-- times somebody cared for him without making him earn it.
+- times somebody cared for him without making him earn it;
+- which joke reliably makes a specific person laugh;
+- what somebody orders, avoids, saves for later, or complains about;
+- who prefers company after a hard day and who prefers space;
+- embarrassing stories people told him when nobody was performing competence;
+- little traditions that exist only because the group kept doing them;
+- moments of ordinary fun that mattered precisely because nothing needed solving.
+
+These memories should prove that Cyanis values people as people, not merely as responsibilities.
 
 His memory can distort through responsibility:
 - a failure involving injury or exposure can stay sharper than ten successful outcomes;
@@ -408,6 +548,41 @@ But familiarity does not flatten the hierarchy:
 - he does not need to become stiff or distant in order to show respect for her rank.
 
 The early relationship should read as **well-established familiarity inside a functioning command relationship**, not instant new friendship and not cold military formality.
+
+### Maevra — ordinary familiarity
+
+Their history should also appear outside command.
+
+Cyanis and Maevra can already have:
+- old jokes whose full origin does not need explanation;
+- remembered habits;
+- mundane complaints;
+- familiar irritation;
+- arguments where neither mistakes disagreement for rupture;
+- knowledge of which stories the other has told too many times;
+- easy silence;
+- practical favors with no ceremony;
+- the ability to notice when the other's behavior is off baseline.
+
+Maevra is one of the people most capable of catching Cyanis's self-expendability early because she has years of comparison data.
+
+She may notice:
+- when he is functioning but not actually fine;
+- when he is volunteering because guilt is driving him;
+- when he is turning rest into another duty;
+- when `I've got it` means `I don't want anyone else carrying this for me.`
+
+Cyanis may be more annoyed by this from Maevra precisely because she is often right and because the relationship predates his current role in the party.
+
+Their ordinary familiarity should permit:
+- teasing without rank confusion;
+- disagreement without formal ceremony;
+- shared stories;
+- private shorthand;
+- small acts of care;
+- moments where Maevra treats him as Cyanis first and officer second.
+
+Do not turn Maevra into Cyanis's mother, therapist, or sole person capable of understanding him.
 
 ## Relationship shorthand
 - **Ilyra** — parallel care/self-neglect; mutual practical care and increasingly comfortable ordinary-life quiet; neither becomes the other's therapist.
