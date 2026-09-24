@@ -76,3 +76,14 @@ Current locked Chapter-0 appearance:
 > `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
 
 Combat/encounter mechanics remain owned by this file; visual identity is owned by the art-domain authority above.
+
+## Exact current visual master
+The Ruin Vanguard Pursuer's exact Chapter-0 appearance is the approved uploaded render recorded in:
+> `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
+
+Master fingerprint:
+- source file: `1000030142.png`
+- SHA-256: `c6ea82c58c628679536447fd6a55b00d306651f99a39599fba4124262d7aa011`
+- dimensions: **1287 × 1536**
+
+This image controls the Chapter-0 concealment treatment over older prose: approved half-mask, mask-side eye concealment, one restrained Entity-derived horn/crest, correct blond hair, unchanged Seyrik armor family, and oversized greatsword silhouette.
