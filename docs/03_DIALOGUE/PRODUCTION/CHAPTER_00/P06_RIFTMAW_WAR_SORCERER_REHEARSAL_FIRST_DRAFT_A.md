@@ -88,7 +88,7 @@ Rift Lance Preparation does not occur before Round 2 unless encounter authority 
 
 The Card response is not selectable and is not a Prime activation.
 
-Mid-battle dialogue is optional and speech-only. The dialogue layer does not script character movement.
+**No spoken dialogue occurs during active boss combat.** The dialogue layer resumes only after the encounter has fully resolved.
 
 ---
 
