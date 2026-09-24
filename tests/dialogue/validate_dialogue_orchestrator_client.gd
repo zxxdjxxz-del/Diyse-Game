@@ -38,6 +38,7 @@ func _run() -> void:
 	if parsed_body is Dictionary:
 		_expect(parsed_body.get("scene_id") == "PROOF_CLIENT", "transport body changed scene ID")
 		_expect(parsed_body.get("canon_snapshot_id") == "v2.20-Audit135", "transport body changed snapshot")
+		_expect(parsed_body.get("person_runtime_contexts") == request.get("person_runtime_contexts"), "transport body changed person runtime contexts")
 
 	var wrong_snapshot := request.duplicate(true)
 	wrong_snapshot["canon_snapshot_id"] = "v2.19-Audit134"
@@ -82,6 +83,20 @@ func _request_payload() -> Dictionary:
 		"participant_profiles": {
 			"cyanis": {"source_path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md"},
 			"ilyra": {"source_path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md"},
+		},
+		"person_runtime_contexts": {
+			"cyanis": {
+				"memory_authorization": {"mode": "none"},
+				"relationship_runtime_state": {"chronology_stage": "chapter_00"},
+				"epistemic_state": {},
+				"scene_local_state": {"immediate_wants": ["assess the immediate situation"]},
+			},
+			"ilyra": {
+				"memory_authorization": {"mode": "none"},
+				"relationship_runtime_state": {"chronology_stage": "chapter_00"},
+				"epistemic_state": {},
+				"scene_local_state": {"immediate_wants": ["understand what needs attention"]},
+			},
 		},
 		"scene_purpose": "Validate build-only Godot transport into the external Scene Orchestrator.",
 		"authority_packet": {
