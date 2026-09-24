@@ -71,6 +71,7 @@ func _run() -> void:
 	_expect(request.get("scene_id") == original_seed.get("scene_id"), "runtime merge changed scene_id")
 	_expect(request.get("canon_snapshot_id") == original_seed.get("canon_snapshot_id"), "runtime merge changed canon_snapshot_id")
 	_expect(request.get("participants") == original_seed.get("participants"), "runtime merge changed participants")
+	_expect(request.get("person_runtime_contexts") == original_seed.get("person_runtime_contexts"), "runtime merge changed person runtime contexts")
 	_expect(request.get("authority_packet") == original_seed.get("authority_packet"), "runtime merge changed authority_packet")
 	_expect(request.get("exact_line_anchors") == original_seed.get("exact_line_anchors"), "runtime merge changed exact-line anchors")
 	_expect(request.get("current_floor_state") == original_seed.get("current_floor_state"), "runtime merge changed current_floor_state")
@@ -166,6 +167,20 @@ func _request_seed() -> Dictionary:
 		"participant_profiles": {
 			"cyanis": {"source_path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md"},
 			"ilyra": {"source_path": "docs/01_CHARACTERS/PLAYABLE/Ilyra.md"},
+		},
+		"person_runtime_contexts": {
+			"cyanis": {
+				"memory_authorization": {"mode": "none"},
+				"relationship_runtime_state": {"chronology_stage": "chapter_00"},
+				"epistemic_state": {},
+				"scene_local_state": {"immediate_wants": ["assess the wreck field"]},
+			},
+			"ilyra": {
+				"memory_authorization": {"mode": "none"},
+				"relationship_runtime_state": {"chronology_stage": "chapter_00"},
+				"epistemic_state": {},
+				"scene_local_state": {"immediate_wants": ["understand who needs immediate help"]},
+			},
 		},
 		"scene_purpose": "Validate safe live runtime context merging without proof-state leakage.",
 		"authority_packet": {
