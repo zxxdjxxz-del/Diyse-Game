@@ -52,7 +52,7 @@ During ordinary traversal:
 
 Other party members remain present in story/combat state but are not rendered as a follower train.
 
-A guide such as Torren may speak through the portrait/dialogue UI while directing Cyanis without appearing as a walking field model.
+A guide such as Torren may direct the route in authored stop scenes, but dialogue does not run while Cyanis is moving under player control.
 
 ## Triggered-scene rule
 
@@ -75,11 +75,12 @@ A normal stop scene may simply:
 
 Field models may use simple placement/facing when that helps readability, but ordinary dialogue does not need constant pointing, weapon handling, prop interaction, posture animation, or bespoke choreography.
 
-## Walking/traversal dialogue
+## Traversal / combat timing
 
-Walking dialogue follows `../03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`.
+The dialogue UI does **not** run over ordinary player-controlled traversal and does **not** run during active combat.
 
-When legal, Cyanis remains the sole visible traversal avatar while other speakers use portraits/dialogue text. If the party stops for a triggered scene, relevant field models may then appear.
+Route dialogue requires a triggered stop with movement/input paused. Battle-related dialogue occurs before battle control begins or after combat has fully ended.
+
 
 ## Environmental-read rule
 
@@ -109,7 +110,6 @@ The UI/runtime should support:
 - manual continue;
 - movement/input lock;
 - clean return to exploration;
-- short walking dialogue;
 - short post-battle reaction;
 - triggered-scene field-model presence and simple blocking;
 - required story/event cues when separately justified.
@@ -148,4 +148,4 @@ Current mandatory story sequence extends through:
 - exact text-box skin;
 - exact active/inactive portrait dim amount;
 - exact portrait hide/show behavior during major environmental-read beats;
-- exact walking-dialogue HUD suppression rules.
+- exact stop-scene HUD/input suppression and restoration rules.
