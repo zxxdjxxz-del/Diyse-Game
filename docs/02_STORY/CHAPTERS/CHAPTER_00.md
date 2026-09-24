@@ -111,7 +111,7 @@ The former eight-beat split that separated Riftmaw from the final War-Sorcerer c
 - Combat 3 is a separate late-road pressure point.
 
 **Combat 3 — Cyanis solo**
-- 2 Convoy Rift Hounds
+- 2 War Hounds
 
 After Combat 3, P01 hands off into Wreck Field rescue/investigation before another fight can occur.
 
@@ -143,8 +143,8 @@ Do not reveal Black Host scout motive, Seyrik identity, Prime/Might/Last Sentine
 - He performs plausible field rescue/first-aid support without becoming a medical specialist.
 - The safer lower stone-line route is preferred over a shorter unstable/exposed route.
 - Two additional Cyanis-solo encounters occur during the Wreck Field traversal:
-  1. Black Host Crossbowman + Convoy Rift Hound;
-  2. one lone Convoy Rift Hound threatening the survivor route.
+  1. Black Host Crossbowman + War Hound;
+  2. one lone War Hound threatening the survivor route.
 - The Wounded Escort / Trapped Survivor / Stone-Line sequence occurs before the first Wreck Field fight.
 - The two Wreck Field fights are separated by a short survivor-movement / lower-route traversal interval; they are not consecutive waves.
 - Cyanis and the convoy officer observe Black Host forces withdrawing north.
