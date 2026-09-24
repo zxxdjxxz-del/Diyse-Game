@@ -14,6 +14,8 @@
 
 **Naming lock:** Serren is Vaelira's canonical surname. Dialogue may use `Vaelira`, `Serren`, or `Vaelira Serren` according to relationship, formality, and scene context.
 
+**Dialogue implementation note:** Chapter 4 dialogue is currently **pending a full rewrite**. Existing Chapter 4 line-complete files may be used for scene function/staging reference, but they are not authoritative evidence of Vaelira's finished voice. Current Vaelira character authority and runtime Agent Brain should drive the rewrite.
+
 ## Character core
 Vaelira is precise, composed, causally minded, hypothesis-driven, and technically exact without being humorless.
 
