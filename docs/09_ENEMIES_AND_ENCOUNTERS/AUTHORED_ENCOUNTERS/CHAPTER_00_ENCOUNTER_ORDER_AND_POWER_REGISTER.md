@@ -47,7 +47,7 @@ Exact seconds/meters remain map-playtest variables, but the following presentati
 - after victory, return to player control;
 - a second short movement / wreckage-read interval separates it from Combat 3.
 
-**Combat 3 — 2 Convoy Rift Hounds**
+**Combat 3 — 2 War Hounds**
 - occurs late on the Convoy Road, near the handoff into the Wreck Field;
 - after victory, do not immediately spawn Combat 4;
 - the Wreck Field begins with rescue/investigation gameplay first.
@@ -59,12 +59,12 @@ Before Combat 4, the player must receive:
 - Trapped Survivor story trigger;
 - Stone-Line route decision/read.
 
-**Combat 4 — Crossbowman + Convoy Rift Hound**
+**Combat 4 — Crossbowman + War Hound**
 - occurs only after that rescue/route material;
 - after victory, survivors visibly continue along the safer lower route;
 - player receives a short traversal/escort interval before Combat 5.
 
-**Combat 5 — lone Convoy Rift Hound**
+**Combat 5 — lone War Hound**
 - interrupts the survivor route as its own encounter;
 - after victory, no more Cyanis-solo combat occurs;
 - the officer/north-withdrawal sightline material follows before P03.
@@ -129,7 +129,7 @@ No statuses.
 
 ### 0-03 — P01 Hound Rush — CYANIS SOLO
 Formation:
-- 2 Convoy Rift Hounds
+- 2 War Hounds
 
 Purpose:
 > faster pressure and a change from the Black Host soldier pairings
@@ -145,7 +145,7 @@ After this fight, P01's opening combat pressure ends. **Do not place Seyrik or R
 ### 0-04 — P02 Wreck Field Mixed Pressure — CYANIS SOLO
 Formation:
 - Black Host Crossbowman
-- Convoy Rift Hound
+- War Hound
 
 Purpose:
 > combine ranged and fast-melee pressure while Cyanis is moving survivors through the wreck field
@@ -157,7 +157,7 @@ No additional story reveal is attached to this fight.
 
 ### 0-05 — P02 Survivor-Route Hound — CYANIS SOLO
 Formation:
-- exactly 1 Convoy Rift Hound
+- exactly 1 War Hound
 
 Clear:
 > defeat the Hound
@@ -224,7 +224,7 @@ Aftermath / survivor recovery / overnight-camp handoff.
 | Black Host Raider — Ch0 | 1 | 88 | 110 / 125 |
 | Black Host Crossbowman — Ch0 | 1 | 72 | 115 / 135 |
 | Ruin Shieldbearer — Ch0 | 2 | 128 | 105 / 125 Ruin |
-| Convoy Rift Hound | 2 | 142 | 135 / 130 Ruin / 145 |
+| War Hound | 2 | 142 | 135 / 130 Ruin / 145 |
 | Ruin Vanguard Pursuer | 4 | 620 | 150 / 155 Ruin |
 | Riftmaw | 4 | 340 | 165 / 175 Ruin / 120 AoE |
 | Convoy War-Sorcerer | 4 | 620 | 140 / 100 AoE / 210 Ruin |
@@ -277,7 +277,7 @@ Chapter 0 uses exactly these combat identities:
 - Black Host Raider;
 - Black Host Crossbowman;
 - Ruin Shieldbearer;
-- Convoy Rift Hound;
+- War Hound;
 - Ruin Vanguard Pursuer / concealed Seyrik;
 - Riftmaw;
 - Convoy War-Sorcerer.
