@@ -739,6 +739,41 @@ Must communicate:
 
 # Convoy War-Sorcerer
 
+## Exact approved Convoy War-Sorcerer visual master
+
+**Status:** **LOCKED EXACT VISUAL — 2026-09-24**
+
+Approved render:
+- image-generation ID: `6da6acea-2115-45f3-870b-1651c27286f7`
+- approved file SHA-256: `4090842e2e765cecc83235d1ddf79d0b211872f3abbf2baff0955bd3bfff3573`
+- dimensions: **1145 × 1374**
+- presentation: clean white-background B00/B00.5-style full-body reference
+
+This exact approved render is the authoritative Chapter-0 Convoy War-Sorcerer appearance and overrides earlier prose where incidental details differ.
+
+Locked visual details:
+- full Black Host helmet under a deep crimson hood;
+- hood casts a deeper shadow over the helmet;
+- compact horned helmet silhouette remains readable beneath the hood;
+- black / dark-charcoal military armor with restrained refined shaping;
+- more cloth than line troops, but still clearly an armored battlefield caster;
+- long crimson outer coat/hood fabric with cleaner, less shredded lower edges;
+- practical armored knees, shins, gauntlets, and boots;
+- large military focus staff;
+- staff head simplified from earlier ornate passes;
+- faceted **purple crystal** is the staff's magical focal point;
+- purple light belongs to the staff crystal/spell focus, **not armor channels**;
+- no luminous armor seams or commander-tier body glow.
+
+Do not:
+- turn the unit into a robe-first wizard or cultist;
+- expose the face;
+- remove the Black Host helmet;
+- add crown-tier ornament;
+- add glowing armor channels;
+- change the staff crystal back to red;
+- make the staff head more elaborate than this approved master.
+
 ## Core visual identity
 Black Host battlefield caster attached to the convoy-interception force.
 
