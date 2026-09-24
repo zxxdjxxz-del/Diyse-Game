@@ -204,6 +204,8 @@ func validate_request_seed(
 		failures.append("request_seed.participants must be a non-empty Array")
 	if not (request_seed.get("participant_profiles", {}) is Dictionary):
 		failures.append("request_seed.participant_profiles must be a Dictionary")
+	if not (request_seed.get("person_runtime_contexts", {}) is Dictionary):
+		failures.append("request_seed.person_runtime_contexts must be a Dictionary")
 	if not (request_seed.get("scene_context", {}) is Dictionary):
 		failures.append("request_seed.scene_context must be a Dictionary")
 	if not (request_seed.get("current_floor_state", {}) is Dictionary):
