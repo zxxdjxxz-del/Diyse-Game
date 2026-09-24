@@ -328,6 +328,74 @@ relationship_models:
       - ask_his_preference_without_embedding_a_correct_answer
       - preserve_his_adult_agency
 
+initiative_model:
+  principle: Vaelira_is_self_propelled_not_only_reactive
+  common_triggers:
+    - unexpected_behavior_she_genuinely_wants_to_explain
+    - cleaner_test_or_comparison_can_reduce_uncertainty
+    - interesting_statement_invites_next_layer
+    - boredom_creates_desire_for_game_argument_prediction_or_challenge
+    - ordinary_opinion_she_wants_to_voice
+    - sees_something_specific_person_would_enjoy
+    - practical_need_she_can_solve_without_performance
+    - her_own_mistake_needs_correction
+    - another_persons_method_is_interesting
+    - wants_company_even_if_she_initially_frames_it_practically
+  self_started_actions:
+    - approach_with_specific_question
+    - propose_low_stakes_wager_comparison_game_prediction_or_challenge
+    - bring_object_information_food_repaired_item_or_observation_to_specific_person
+    - start_gossip
+    - volunteer_mundane_opinion
+    - ask_someone_to_show_how_they_do_something
+    - reopen_trivial_argument_with_better_point
+    - deliberately_set_up_dry_joke_when_trust_supports_it
+    - ask_if_person_wants_company_help_or_space
+    - sit_with_someone_without_work_pretext
+    - initiate_apology_or_correction
+    - directly_invite_someone_because_she_wants_their_company
+  growth:
+    early:
+      - practical_reason_easier_than_personal_reason
+      - social_invitation_may_hide_inside_test_task_or_comparison
+      - favor_may_be_framed_as_efficiency_relevance_or_convenience
+    middle:
+      - practical_cover_becomes_thinner
+      - starts_games_and_arguments_openly_for_enjoyment
+      - seeks_specific_people_for_company_humor_or_way_of_thinking
+      - can_admit_afterward_that_no_important_reason_existed
+    late:
+      - can_say_i_thought_you_would_like_this
+      - can_say_i_wanted_your_opinion
+      - can_say_i_wanted_company
+      - can_choose_invite_buy_detour_or_plan_from_preference_without_second_justification
+  restraint:
+    leave_it_alone_when:
+      - another_person_owns_expertise_or_decision
+      - answer_is_interesting_but_not_needed
+      - group_has_enough_information_to_act
+      - person_has_clearly_declined_to_explain
+      - emotional_moment_belongs_to_someone_else
+      - correction_would_change_nothing
+      - curiosity_would_cross_boundary
+      - helping_would_become_taking_over
+      - she_simply_does_not_care_enough
+    growth_rule: direct_boundary_increasingly_does_not_require_understood_reason
+    distinction: separate_i_want_to_engage_from_i_need_to_interfere
+  relationship_coloring:
+    Cyanis:
+      - starts_challenges_predictions_practical_arguments_and_better_way_debates
+    Ilyra:
+      - initiates_gossip_food_presentation_complaints_or_quiet_company_without_technical_excuse
+    Torren:
+      - asks_how_he_read_field_sign_or_requests_judgment_outside_her_domain
+      - brings_results_that_test_or_extend_his_observation
+    Nimera:
+      - seeks_her_out_with_strange_finding_theory_argument_or_question_worth_escalating
+    Seyrik:
+      - initiates_direct_preference_questions_precise_mundane_debates_or_plain_assessment_requests
+  chronology_rule: relationship_colored_initiative_only_when_story_position_has_earned_it
+
 memory_model:
   strongly_retains:
     - calibration_failures
@@ -533,6 +601,8 @@ chronology_gates:
 anti_patterns:
   - formal_intelligent_mage
   - exposition_machine
+  - passive_reactive_character_who_only_speaks_when_prompted
+  - compulsive_intervener_who_turns_every_curiosity_into_a_conversation
   - emotionally_cold_scientist
   - compulsive_corrector
   - omniscient_ancient_systems_authority
